@@ -13,11 +13,11 @@ $sqldb = "frugalware2";
 #site settings
 $fwng_root = $myurl."/";
 $adodb_path = "/usr/share/php";
-$trans_path="/home/ftp/pub/other/translations/";
-$top_path = "/home/ftp/pub/frugalware/frugalware-current";
+$trans_path="/srv/ftp/pub/other/translations/";
+$top_path = "/srv/ftp/pub/frugalware/frugalware-current";
 $cache_path = "/var/cache/homepage";
 $docs_path = $top_path."/docs";
-$top_path_stable = "/home/ftp/pub/frugalware/frugalware-stable";
+$top_path_stable = "/srv/ftp/pub/frugalware/frugalware-stable";
 $docs_path_stable = $top_path_stable."/docs";
 $news_limit = 10;
 $pkgcache = "/tmp/pkgcache.info";
