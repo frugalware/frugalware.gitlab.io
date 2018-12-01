@@ -149,7 +149,7 @@ function main()
                 </tr>
             </table>
             </form>
-                <p>".sprintf(gettext("Searching in %d binary and %d source-only packages."), $binnum, $srcnum)." ".sprintf(gettext("Check <a href=\"%s\">outdated</a> packages we are aware of."), "http://frugalware.org/~repo/stats/chkworld.html")."</p>
+                <p>".sprintf(gettext("Searching in %d binary and %d source-only packages."), $binnum, $srcnum)." ".sprintf(gettext("Check <a href=\"%s\">outdated</a> packages we are aware of."), "https://www.frugalware.org/~repo/stats/chkworld.html")."</p>
 
     <script type=\"text/javascript\">
     function addEngine()
