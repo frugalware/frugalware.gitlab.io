@@ -21,7 +21,9 @@
         <_link>Frugalware</_link>
         <submenus>
             <_sublink url="news">News</_sublink>
+<!--
             <_sublink url="docs">Documentation</_sublink>
+-->
             <_sublink url="screenshots">Screenshots</_sublink>
             <_sublink></_sublink>
             <_sublink url="authors">Authors</_sublink>
