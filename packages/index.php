@@ -36,9 +36,7 @@ function foo() {
 		$arch = $arr[0];
 		$req = substr($req, strlen($arch)+1);
 	}
-	else {
-		$arch .= 'i686';
-	}
+
 	$url .= $arch . '&amp;ver=';
 	if(in_array(substr($req,0,3), $fwversions)) {
 		$ver .= substr($req,0,3);

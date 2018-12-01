@@ -106,7 +106,7 @@ function main()
                     else
                         unset($selstr);
 
-                    $arrVer[] = "\t\t\t<input type=\"radio\" id=\"fwver\" name=\"ver\" value=\"".$releases[$i]->version[0]->tagData."\" " . $selstr . " />".$releases[$i]->version[0]->tagData."\n";
+                    // $arrVer[] = "\t\t\t<input type=\"radio\" id=\"fwver\" name=\"ver\" value=\"".$releases[$i]->version[0]->tagData."\" " . $selstr . " />".$releases[$i]->version[0]->tagData."\n";
                     break;
                 }
             }
@@ -133,17 +133,17 @@ function main()
                 <tr>
                     <td><b>".gettext("Arch")."</b></td>
                     <td>
-                         <input type=\"radio\" id=\"archs\" name=\"arch\" value=\"x86_64\" " . ( checkValue('arch') == "x86_64" ? "checked=\"checked\" " : "") . ">x86_64<br />
+                         <input type=\"radio\" id=\"archs\" name=\"arch\" value=\"x86_64\" " . "checked=\"checked\" "  . "/>x86_64<br />
                     </td>
                 </tr>
                 <tr>
                     <td><b>".gettext("Version")."</b></td>
                     <td>
-                        <input type=\"radio\" id=\"fwver\" name=\"ver\" value=\"current\" " . (checkValue('ver') == "current" ? "checked=\"checked\" " : "") . "/>Current<br />";
-                        foreach ( $arrVer as $i )
-                        {
-                            $content .= $i;
-                        }
+                        <input type=\"radio\" id=\"fwver\" name=\"ver\" value=\"current\" " . "checked=\"checked\" " . "/>Current<br />";
+                        //foreach ( $arrVer as $i )
+                        //{
+                        //    $content .= $i;
+                        //}
                         $content .= "
                     </td>
                 </tr>
