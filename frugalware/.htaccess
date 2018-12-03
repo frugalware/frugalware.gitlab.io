@@ -1,7 +1,7 @@
 #php_value session.auto_start 1
 
 <Files lib/*.php>
-    deny from all
+    Require all denied
 </Files>
 
 AddDefaultCharset utf-8

@@ -1,7 +1,7 @@
 #php_value session.auto_start 1
 
 <Files *.inc.php>
-    deny from all
+    Require all denied
 </Files>
 
 RewriteEngine on
