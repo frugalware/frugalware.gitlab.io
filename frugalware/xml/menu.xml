@@ -44,7 +44,7 @@
 
             <_sublink url="http://planet.frugalware.org">Blogs</_sublink>
 -->
-            <_sublink url="paste/">Pastebin</_sublink>
+            <_sublink url="https://dpaste.org">Pastebin</_sublink>
             <_sublink url="https://groups.google.com/forum/#!forum/frugalware">Mailing lists</_sublink>
         </submenus>
     </menu>
