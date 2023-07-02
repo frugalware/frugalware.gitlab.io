@@ -3,6 +3,7 @@ title = "Frugalware"
 languageCode = "en-us"
 theme = "gitlab.com/frugalware/frugalware.gitlab.io"
 
+  path = 'github.com/vimux/mainroad'
 [Author]
 path = 'github.com/vimux/mainroad'
 name = "Frugalware"
