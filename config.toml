@@ -1,0 +1,74 @@
+baseurl = "https://www.frugalware.org/"
+title = "Frugalware"
+languageCode = "en-us"
+theme = "mainroad"
+
+[Params]
+  description = "Frugalware Linux"  
+  opengraph = true # Enable OpenGraph if true
+  schema = true # Enable Schema
+  twitter_cards = true # Enable Twitter Cards if true
+  readmore = false # Show "Read more" button in list if true
+  authorbox = false # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  post_meta = ["date", "categories", "translations"] # Order of post meta information
+  mainSections = ["news", "download"] # Specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "2006-01-02" # Change the format of dates
+  mathjax = false # Enable MathJax
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  googleFontsLink = "false" # Load Google Fonts
+  customCSS = ["css/frugalware.css"] # Include custom CSS files
+  #customJS = ["fancybox/jquery.fancybox-1.3.4.pack.js"] # Include custom JS files
+  highlightColor = "#6ab6ff"
+
+[Params.logo]
+  image = "images/frugalware.png"
+  subtitle = "Let's make things frugal!"
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "right"  # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["get", "recent", "updates", "irc", "social", "donations", "languages"]
+
+[Params.widgets.search]
+  cached = true
+
+[Params.widgets.categories]
+  cached = true
+
+[Params.widgets.irc]
+  cached = true  
+
+[Params.widgets.donations]
+  cached = true
+
+[Params.widgets.social]
+  cached = true
+  twitter = "frugalware"
+  github = "frugalware"
+  gitlab = "frugalware"
+  email = "frugalware-devel@frugalware.org"
+
+[[Params.widgets.social.custom]]
+  title = "deviantArt"
+  url = "https://www.deviantart.com/frugalware-linux"
+  icon = "svg/deviantart.svg"  
+
+[Params.widgets.languages]
+  cached = true
+
+[Languages]
+[Languages.en]
+weight = 1
+[Languages.fr]
+weight = 2
+[Languages.es]
+weight = 3
+[Languages.it]
+weight = 4
+[Languages.hu]
+weight = 5

@@ -1,0 +1,15 @@
++++
+draft = false
+title = "qtox 1.17.6-5"
+version = "1.17.6-5"
+date = "2023-06-15T15:32:28"
+categories = ['xapps-extra']
+upstreamurl = "https://github.com/qtox/qtox"
+arch = "x86_64"
+size = "5119260"
+usize = "7352719"
+sha1sum = "8f85eac4de285370783618503a63d530c386b9c1"
+depends = "['tox-core>=0.2.0', 'qrencode>=4.0.0', 'libxscrnsaver', 'ffmpeg>=6.0', 'qt5-svg>=5.15.10', 'gdk-pixbuf2', 'gtk+2', 'sqlcipher>=3.4.0-2', 'libvpx>=1.11.0', 'libexif', 'filter_audio']"
+files = "['usr/', 'usr/bin/', 'usr/bin/qtox', 'usr/share/', 'usr/share/applications/', 'usr/share/applications/io.github.qtox.qTox.desktop', 'usr/share/doc/', 'usr/share/doc/qtox-1.17.6/', 'usr/share/doc/qtox-1.17.6/INSTALL.fa.md', 'usr/share/doc/qtox-1.17.6/INSTALL.md', 'usr/share/doc/qtox-1.17.6/LICENSE', 'usr/share/doc/qtox-1.17.6/README.md', 'usr/share/icons/', 'usr/share/icons/hicolor/', 'usr/share/icons/hicolor/128x128/', 'usr/share/icons/hicolor/128x128/apps/', 'usr/share/icons/hicolor/128x128/apps/qtox.png', 'usr/share/icons/hicolor/14x14/', 'usr/share/icons/hicolor/14x14/apps/', 'usr/share/icons/hicolor/14x14/apps/qtox.png', 'usr/share/icons/hicolor/16x16/', 'usr/share/icons/hicolor/16x16/apps/', 'usr/share/icons/hicolor/16x16/apps/qtox.png', 'usr/share/icons/hicolor/192x192/', 'usr/share/icons/hicolor/192x192/apps/', 'usr/share/icons/hicolor/192x192/apps/qtox.png', 'usr/share/icons/hicolor/22x22/', 'usr/share/icons/hicolor/22x22/apps/', 'usr/share/icons/hicolor/22x22/apps/qtox.png', 'usr/share/icons/hicolor/24x24/', 'usr/share/icons/hicolor/24x24/apps/', 'usr/share/icons/hicolor/24x24/apps/qtox.png', 'usr/share/icons/hicolor/256x256/', 'usr/share/icons/hicolor/256x256/apps/', 'usr/share/icons/hicolor/256x256/apps/qtox.png', 'usr/share/icons/hicolor/32x32/', 'usr/share/icons/hicolor/32x32/apps/', 'usr/share/icons/hicolor/32x32/apps/qtox.png', 'usr/share/icons/hicolor/36x36/', 'usr/share/icons/hicolor/36x36/apps/', 'usr/share/icons/hicolor/36x36/apps/qtox.png', 'usr/share/icons/hicolor/48x48/', 'usr/share/icons/hicolor/48x48/apps/', 'usr/share/icons/hicolor/48x48/apps/qtox.png', 'usr/share/icons/hicolor/512x512/', 'usr/share/icons/hicolor/512x512/apps/', 'usr/share/icons/hicolor/512x512/apps/qtox.png', 'usr/share/icons/hicolor/64x64/', 'usr/share/icons/hicolor/64x64/apps/', 'usr/share/icons/hicolor/64x64/apps/qtox.png', 'usr/share/icons/hicolor/72x72/', 'usr/share/icons/hicolor/72x72/apps/', 'usr/share/icons/hicolor/72x72/apps/qtox.png', 'usr/share/icons/hicolor/96x96/', 'usr/share/icons/hicolor/96x96/apps/', 'usr/share/icons/hicolor/96x96/apps/qtox.png', 'usr/share/icons/hicolor/scalable/', 'usr/share/icons/hicolor/scalable/apps/', 'usr/share/icons/hicolor/scalable/apps/qtox.svgz', 'usr/share/metainfo/', 'usr/share/metainfo/io.github.qtox.qTox.appdata.xml']"
++++
+Powerful Tox client that follows the Tox design guidelines.

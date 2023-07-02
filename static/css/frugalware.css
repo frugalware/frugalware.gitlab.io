@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Title';
+    src: local('Title'), url('../fonts/Cabin.ttf') format('truetype');
+}
+
+
+.logo__title {
+    font-family: "Title", Cabin, Sans;
+}
