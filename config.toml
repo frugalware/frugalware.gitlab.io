@@ -23,7 +23,7 @@ theme = "mainroad"
   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
   mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
   googleFontsLink = "false" # Load Google Fonts
-  customCSS = ["css/frugalware.css"] # Include custom CSS files
+  #customCSS = ["css/frugalware.css"] # Include custom CSS files
   #customJS = ["fancybox/jquery.fancybox-1.3.4.pack.js"] # Include custom JS files
   highlightColor = "#6ab6ff"
 
