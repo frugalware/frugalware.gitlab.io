@@ -1,4 +1,4 @@
-module gitlab.com/frugalware/homepage-ng
+module gitlab.com/frugalware/frugalware.gitlab.io
 
 go 1.20
 
