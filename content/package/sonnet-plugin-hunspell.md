@@ -10,6 +10,5 @@ size = "19616"
 usize = "55208"
 sha1sum = "e52a984a156314215dba406173b2307bbaf0f060"
 depends = "['hunspell>=1.7.0']"
-files = "['usr/', 'usr/lib/', 'usr/lib/qt5/', 'usr/lib/qt5/plugins/', 'usr/lib/qt5/plugins/kf5/', 'usr/lib/qt5/plugins/kf5/sonnet/', 'usr/lib/qt5/plugins/kf5/sonnet/sonnet_hunspell.so']"
 +++
 Hunspell plugin for sonnet

@@ -10,6 +10,5 @@ size = "37676"
 usize = "96240"
 sha1sum = "d7bcb9fa5268476d8ec12d205225e8ac646d5c97"
 depends = "['gst1-plugins-base>=1.22.4', 'libffi>=3.2.1-2', 'sqlite3>=3.14.2-3', 'libsoup>=2.56.0', 'gst1-plugins-good>=1.22.4']"
-files = "['usr/', 'usr/lib/', 'usr/lib/gstreamer-1.0/', 'usr/lib/gstreamer-1.0/libgstsoup.so']"
 +++
 GStreamer soup plugin (Good).

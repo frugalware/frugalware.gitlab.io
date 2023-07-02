@@ -10,6 +10,5 @@ size = "139000"
 usize = "297804"
 sha1sum = "850a195dfe0abc355cb304897c2c6247625ff0a1"
 depends = "['zlib>=1.2.12']"
-files = "['usr/', 'usr/bin/', 'usr/bin/gpgv', 'usr/bin/gpgv2']"
 +++
 gpgv from gnupg2.

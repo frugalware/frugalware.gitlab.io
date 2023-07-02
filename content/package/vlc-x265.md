@@ -10,6 +10,5 @@ size = "15796"
 usize = "14024"
 sha1sum = "5075a81614664130b988d32ac847122d3326860a"
 depends = "['x265>=3.5', 'libvlc>=3.0.18']"
-files = "['usr/', 'usr/lib/', 'usr/lib/vlc/', 'usr/lib/vlc/plugins/', 'usr/lib/vlc/plugins/codec/', 'usr/lib/vlc/plugins/codec/libx265_plugin.so']"
 +++
 vlc x265 support

@@ -10,6 +10,5 @@ size = "35036"
 usize = "63176"
 sha1sum = "f448ebfbae5a71cdf2ed1f0f2b75467123790beb"
 depends = "['libcddb', 'libvlc>=3.0.18']"
-files = "['usr/', 'usr/lib/', 'usr/lib/vlc/', 'usr/lib/vlc/plugins/', 'usr/lib/vlc/plugins/access/', 'usr/lib/vlc/plugins/access/libcdda_plugin.so']"
 +++
 vlc CDDA support

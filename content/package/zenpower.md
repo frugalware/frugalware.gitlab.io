@@ -10,6 +10,5 @@ size = "16528"
 usize = "43500"
 sha1sum = "1ecebcf7b88e1fdaeca3d34ffce04d284de1b97e"
 depends = "['kernel=6.3.9-1']"
-files = "['etc/', 'etc/modprobe.d/', 'etc/modprobe.d/zenpower.conf', 'lib/', 'lib/modules/', 'lib/modules/6.3.9-fw1/', 'lib/modules/6.3.9-fw1/kernel/', 'lib/modules/6.3.9-fw1/kernel/drivers/', 'lib/modules/6.3.9-fw1/kernel/drivers/hwmon/', 'lib/modules/6.3.9-fw1/kernel/drivers/hwmon/zenpower/', 'lib/modules/6.3.9-fw1/kernel/drivers/hwmon/zenpower/zenpower.ko', 'usr/', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/zenpower-0.2.0/', 'usr/share/doc/zenpower-0.2.0/LICENSE', 'usr/share/doc/zenpower-0.2.0/README.md']"
 +++
 Linux kernel driver for reading sensors for AMD Zen family CPUs

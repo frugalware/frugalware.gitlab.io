@@ -10,6 +10,5 @@ size = "18756"
 usize = "22216"
 sha1sum = "88ada90d9c5328a14cd86e8b2ff33e647f0c5eec"
 depends = "['faad2', 'libvlc>=3.0.18']"
-files = "['usr/', 'usr/lib/', 'usr/lib/vlc/', 'usr/lib/vlc/plugins/', 'usr/lib/vlc/plugins/codec/', 'usr/lib/vlc/plugins/codec/libfaad_plugin.so']"
 +++
 vlc fadd support

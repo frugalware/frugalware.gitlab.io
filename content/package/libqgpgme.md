@@ -10,6 +10,5 @@ size = "215528"
 usize = "1021926"
 sha1sum = "44e8d0d49b8e8ef54d1b088f79d40613fb9a1c76"
 depends = "['qt5-base>=5.13.1', 'gpgme>=1.20.0']"
-files = "['usr/', 'usr/lib/', 'usr/lib/libqgpgme.so', 'usr/lib/libqgpgme.so.15', 'usr/lib/libqgpgme.so.15.2.1']"
 +++
 Qt5 bindings for gpgme

@@ -10,6 +10,5 @@ size = "38188"
 usize = "22448"
 sha1sum = "9e2404382a46ebd7d4ae5d146ca8a0ed09c6834d"
 depends = "['kernel=6.3.9']"
-files = "['usr/', 'usr/sbin/', 'usr/sbin/bootconfig']"
 +++
 Kernel tool for appending cmd line options to a initrd.

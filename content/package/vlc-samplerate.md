@@ -10,6 +10,5 @@ size = "14988"
 usize = "14104"
 sha1sum = "bc6cc3a5d1054d77a6eb22d4e09365aca4e012b7"
 depends = "['libsamplerate', 'libvlc>=3.0.18']"
-files = "['usr/', 'usr/lib/', 'usr/lib/vlc/', 'usr/lib/vlc/plugins/', 'usr/lib/vlc/plugins/audio_filter/', 'usr/lib/vlc/plugins/audio_filter/libsamplerate_plugin.so']"
 +++
 vlc plugin for samplerate

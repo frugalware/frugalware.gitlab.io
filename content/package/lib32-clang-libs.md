@@ -10,6 +10,5 @@ size = "30972284"
 usize = "170136386"
 sha1sum = "10d277ac8564f849e8bdf520af6afe54c73447a1"
 depends = "['lib32-libxml2', 'lib32-libffi>=3.4', 'lib32-llvm-libs>=15.0.7']"
-files = "['usr/', 'usr/lib32/', 'usr/lib32/libclang-cpp.so', 'usr/lib32/libclang-cpp.so.15', 'usr/lib32/libclang.so', 'usr/lib32/libclang.so.15', 'usr/lib32/libclang.so.15.0.7']"
 +++
 C/C++ language family frontend for LLVM Libs (32-bit)

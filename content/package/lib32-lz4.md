@@ -10,6 +10,5 @@ size = "54920"
 usize = "128966"
 sha1sum = "f3316a4660c19d15ff9d0a3a4ce81f4319bd0f92"
 depends = "['lib32-glibc>=2.35']"
-files = "['usr/', 'usr/lib32/', 'usr/lib32/liblz4.so', 'usr/lib32/liblz4.so.1', 'usr/lib32/liblz4.so.1.9.4', 'usr/lib32/pkgconfig/', 'usr/lib32/pkgconfig/liblz4.pc']"
 +++
 Extremely Fast Compression algorithm ( 32bit )

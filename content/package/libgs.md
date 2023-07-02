@@ -10,6 +10,5 @@ size = "3932404"
 usize = "25916764"
 sha1sum = "70c305ed49ce1330862f2f54ab11f34e5c13cd20"
 depends = "['ijs', 'libidn>=1.35', 'fontconfig', 'openjpeg', 'libpaper', 'libcups']"
-files = "['usr/', 'usr/lib/', 'usr/lib/libgs.so', 'usr/lib/libgs.so.10', 'usr/lib/libgs.so.10.01']"
 +++
 PostScript libs from ghostscript

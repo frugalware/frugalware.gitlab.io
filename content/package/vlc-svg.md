@@ -10,6 +10,5 @@ size = "17792"
 usize = "28048"
 sha1sum = "b18ef0ec92a5894822644a40e2a143ea74772edc"
 depends = "['librsvg>=2.26.3', 'libvlc>=3.0.18']"
-files = "['usr/', 'usr/lib/', 'usr/lib/vlc/', 'usr/lib/vlc/plugins/', 'usr/lib/vlc/plugins/codec/', 'usr/lib/vlc/plugins/codec/libsvgdec_plugin.so', 'usr/lib/vlc/plugins/text_renderer/', 'usr/lib/vlc/plugins/text_renderer/libsvg_plugin.so']"
 +++
 vlc plugin for SVG

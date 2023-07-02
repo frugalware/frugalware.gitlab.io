@@ -10,6 +10,5 @@ size = "16316"
 usize = "14024"
 sha1sum = "35cada3a3032fc21c6f3568eae7a04884debadc5"
 depends = "['fluidsynth', 'libvlc>=3.0.18']"
-files = "['usr/', 'usr/lib/', 'usr/lib/vlc/', 'usr/lib/vlc/plugins/', 'usr/lib/vlc/plugins/codec/', 'usr/lib/vlc/plugins/codec/libfluidsynth_plugin.so']"
 +++
 vlc plugin for fluidsynth

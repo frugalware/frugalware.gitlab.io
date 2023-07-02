@@ -10,6 +10,5 @@ size = "14152"
 usize = "30576"
 sha1sum = "7c9a163fa0901113fbb47665fd6daa82c2351bfc"
 depends = "['gst1-plugins-base>=1.22.4', 'libffi>=3.2.1-2', 'faac>=1.28-5', 'gst1-plugins-bad>=1.22.4']"
-files = "['usr/', 'usr/lib/', 'usr/lib/gstreamer-1.0/', 'usr/lib/gstreamer-1.0/libgstfaac.so']"
 +++
 GStreamer faac plugin (Bad).

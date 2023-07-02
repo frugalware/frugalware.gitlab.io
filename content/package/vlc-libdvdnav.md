@@ -10,6 +10,5 @@ size = "31380"
 usize = "55096"
 sha1sum = "ab93c6dd0437165e9e2057b368d12632f40835bf"
 depends = "['libdvdnav>=6.1.0', 'libvlc>=3.0.18']"
-files = "['usr/', 'usr/lib/', 'usr/lib/vlc/', 'usr/lib/vlc/plugins/', 'usr/lib/vlc/plugins/access/', 'usr/lib/vlc/plugins/access/libdvdnav_plugin.so']"
 +++
 vlc plugin for libdvdnav

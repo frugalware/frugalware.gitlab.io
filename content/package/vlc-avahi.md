@@ -10,6 +10,5 @@ size = "18008"
 usize = "18200"
 sha1sum = "fa69f1266bf4107315e7436eac50f7269fd2b2e5"
 depends = "['avahi', 'libvlc>=3.0.18']"
-files = "['usr/', 'usr/lib/', 'usr/lib/vlc/', 'usr/lib/vlc/plugins/', 'usr/lib/vlc/plugins/services_discovery/', 'usr/lib/vlc/plugins/services_discovery/libavahi_plugin.so']"
 +++
 vlc avahi plugin

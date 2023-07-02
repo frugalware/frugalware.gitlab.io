@@ -10,6 +10,5 @@ size = "18016"
 usize = "18120"
 sha1sum = "9272947bb560e6686beb06f48416c123c3b5699e"
 depends = "['freerdp', 'libvlc>=3.0.18']"
-files = "['usr/', 'usr/lib/', 'usr/lib/vlc/', 'usr/lib/vlc/plugins/', 'usr/lib/vlc/plugins/access/', 'usr/lib/vlc/plugins/access/librdp_plugin.so']"
 +++
 vlc plugin for freerdp

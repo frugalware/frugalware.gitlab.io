@@ -10,6 +10,5 @@ size = "96564"
 usize = "219190"
 sha1sum = "b176d023bb97d0ec2c91b2426cbc5aa448c1d52f"
 depends = "['mpfr>=4.0.2-3']"
-files = "['usr/', 'usr/include/', 'usr/include/mpc.h', 'usr/lib/', 'usr/lib/libmpc.so', 'usr/lib/libmpc.so.3', 'usr/lib/libmpc.so.3.3.1', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/libmpc-1.3.1/', 'usr/share/doc/libmpc-1.3.1/AUTHORS', 'usr/share/doc/libmpc-1.3.1/COPYING.LESSER', 'usr/share/doc/libmpc-1.3.1/INSTALL', 'usr/share/doc/libmpc-1.3.1/NEWS', 'usr/share/doc/libmpc-1.3.1/README', 'usr/share/doc/libmpc-1.3.1/TODO', 'usr/share/info/', 'usr/share/info/mpc.info.gz']"
 +++
 A library for the arithmetic of complex numbers.

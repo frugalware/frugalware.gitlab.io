@@ -10,6 +10,5 @@ size = "15936"
 usize = "14024"
 sha1sum = "b1701229dbededd73ce818b56e22b7ac033f5a81"
 depends = "['librsvg>=2.26.3', 'libdca', 'libvlc>=3.0.18']"
-files = "['usr/', 'usr/lib/', 'usr/lib/vlc/', 'usr/lib/vlc/plugins/', 'usr/lib/vlc/plugins/codec/', 'usr/lib/vlc/plugins/codec/libdca_plugin.so']"
 +++
 vlc DTS Coharent Audio

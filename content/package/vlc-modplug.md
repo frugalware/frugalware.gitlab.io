@@ -10,6 +10,5 @@ size = "18456"
 usize = "26392"
 sha1sum = "e32f52193ca58fa25c7827c10cbcabd5c9c3a618"
 depends = "['libmodplug', 'libvlc>=3.0.18']"
-files = "['usr/', 'usr/lib/', 'usr/lib/vlc/', 'usr/lib/vlc/plugins/', 'usr/lib/vlc/plugins/demux/', 'usr/lib/vlc/plugins/demux/libmod_plugin.so']"
 +++
 vlc plugin for libmodplug

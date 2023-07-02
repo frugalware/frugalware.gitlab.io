@@ -10,6 +10,5 @@ size = "67308"
 usize = "149704"
 sha1sum = "d41f923723032c62439e147ff75aabf37117d00b"
 depends = "['protobuf>=21.5', 'libvlc>=3.0.18']"
-files = "['usr/', 'usr/lib/', 'usr/lib/vlc/', 'usr/lib/vlc/plugins/', 'usr/lib/vlc/plugins/stream_out/', 'usr/lib/vlc/plugins/stream_out/libstream_out_chromecast_plugin.so']"
 +++
 vlc chromecast support

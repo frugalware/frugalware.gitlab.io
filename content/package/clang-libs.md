@@ -10,6 +10,5 @@ size = "21044372"
 usize = "88743010"
 sha1sum = "1e03ed61913f15f3cc8037fba616209116022955"
 depends = "['libxml2', 'libffi>=3.4', 'llvm-libs>=15.0.7']"
-files = "['usr/', 'usr/lib/', 'usr/lib/libclang-cpp.so', 'usr/lib/libclang-cpp.so.15', 'usr/lib/libclang.so', 'usr/lib/libclang.so.15', 'usr/lib/libclang.so.15.0.7']"
 +++
 C/C++ language family frontend for LLVM Libs

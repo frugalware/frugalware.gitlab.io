@@ -10,6 +10,5 @@ size = "33380"
 usize = "59256"
 sha1sum = "fbcadba7c1be6b263e30a70808c3d74133675222"
 depends = "['libupnp>=1.14.10', 'libvlc>=3.0.18']"
-files = "['usr/', 'usr/lib/', 'usr/lib/vlc/', 'usr/lib/vlc/plugins/', 'usr/lib/vlc/plugins/services_discovery/', 'usr/lib/vlc/plugins/services_discovery/libupnp_plugin.so']"
 +++
 vlc plugin for upnp

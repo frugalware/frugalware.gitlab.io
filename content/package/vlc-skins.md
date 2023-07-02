@@ -10,6 +10,5 @@ size = "278448"
 usize = "739192"
 sha1sum = "57e39c53b3c35d5b2a808fd1166864fed23cdf65"
 depends = "['libxpm>=3.5.8-1', 'libxinerama', 'fribidi', 'freetype2', 'libvlc>=3.0.18']"
-files = "['usr/', 'usr/lib/', 'usr/lib/vlc/', 'usr/lib/vlc/plugins/', 'usr/lib/vlc/plugins/gui/', 'usr/lib/vlc/plugins/gui/libskins2_plugin.so']"
 +++
 vlc skins plugin

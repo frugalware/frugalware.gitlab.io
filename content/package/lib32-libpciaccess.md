@@ -10,6 +10,5 @@ size = "21432"
 usize = "58246"
 sha1sum = "06df49745dbe832c4644bb6937ff9c9cf498c0e4"
 depends = "['lib32-glibc>=2.34']"
-files = "['usr/', 'usr/i686-frugalware-linux/', 'usr/i686-frugalware-linux/include/', 'usr/i686-frugalware-linux/include/pciaccess.h', 'usr/lib32/', 'usr/lib32/libpciaccess.so', 'usr/lib32/libpciaccess.so.0', 'usr/lib32/libpciaccess.so.0.11.1', 'usr/lib32/pkgconfig/', 'usr/lib32/pkgconfig/pciaccess.pc']"
 +++
 X.Org PCI access library ( 32bit )

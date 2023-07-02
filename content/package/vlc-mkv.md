@@ -10,6 +10,5 @@ size = "175916"
 usize = "452488"
 sha1sum = "7f8ac702e917e1b67d40297a40260e9501d41bd4"
 depends = "['libmatroska>=1.2.0', 'libvlc>=3.0.18']"
-files = "['usr/', 'usr/lib/', 'usr/lib/vlc/', 'usr/lib/vlc/plugins/', 'usr/lib/vlc/plugins/demux/', 'usr/lib/vlc/plugins/demux/libmkv_plugin.so']"
 +++
 vlc plugin for mkv

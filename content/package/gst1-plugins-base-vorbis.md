@@ -10,6 +10,5 @@ size = "24840"
 usize = "59504"
 sha1sum = "5f77b629f3f5c49ca6935abd82c9a36da31a1ef5"
 depends = "['gstreamer1>=1.22.4', 'libffi>=3.2.1-2', 'libvorbis>=1.3.5-5', 'libogg>=1.3.2-5', 'gst1-plugins-base>=1.22.4']"
-files = "['usr/', 'usr/lib/', 'usr/lib/gstreamer-1.0/', 'usr/lib/gstreamer-1.0/libgstvorbis.so']"
 +++
 GStreamer vorbis plugin (Base).

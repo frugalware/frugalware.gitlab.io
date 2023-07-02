@@ -10,6 +10,5 @@ size = "18032"
 usize = "22216"
 sha1sum = "0f6de12376d07bd45474a6d15e47aabbaf8a89fd"
 depends = "['libarchive', 'libvlc>=3.0.18']"
-files = "['usr/', 'usr/lib/', 'usr/lib/vlc/', 'usr/lib/vlc/plugins/', 'usr/lib/vlc/plugins/stream_extractor/', 'usr/lib/vlc/plugins/stream_extractor/libarchive_plugin.so']"
 +++
 vlc archive support

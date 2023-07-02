@@ -10,6 +10,5 @@ size = "17000"
 usize = "18200"
 sha1sum = "9789c1cf0ce1b70ee898901be16369bb29d80765"
 depends = "['libvpx>=1.13.0', 'libvlc>=3.0.18']"
-files = "['usr/', 'usr/lib/', 'usr/lib/vlc/', 'usr/lib/vlc/plugins/', 'usr/lib/vlc/plugins/codec/', 'usr/lib/vlc/plugins/codec/libvpx_plugin.so']"
 +++
 vlc vpx support

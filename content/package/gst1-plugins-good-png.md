@@ -10,6 +10,5 @@ size = "17636"
 usize = "34864"
 sha1sum = "4358541a5622ab27a6a611c54676280c33d5be5a"
 depends = "['gst1-plugins-base>=1.22.4', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'gst1-plugins-good>=1.22.4']"
-files = "['usr/', 'usr/lib/', 'usr/lib/gstreamer-1.0/', 'usr/lib/gstreamer-1.0/libgstpng.so']"
 +++
 GStreamer png plugin (Good).

@@ -10,6 +10,5 @@ size = "173236"
 usize = "585816"
 sha1sum = "aff78b326c3216d7536b3ec1b1f8776c67f2e697"
 depends = "['lcms2>=2.8-2', 'cairo>=1.14.6-4', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libstdc++>=9.1.0-3', 'poppler']"
-files = "['usr/', 'usr/bin/', 'usr/bin/pdfattach', 'usr/bin/pdfdetach', 'usr/bin/pdffonts', 'usr/bin/pdfimages', 'usr/bin/pdfinfo', 'usr/bin/pdfseparate', 'usr/bin/pdftocairo', 'usr/bin/pdftohtml', 'usr/bin/pdftoppm', 'usr/bin/pdftops', 'usr/bin/pdftotext', 'usr/bin/pdfunite', 'usr/share/', 'usr/share/man/', 'usr/share/man/man1/', 'usr/share/man/man1/pdfattach.1.gz', 'usr/share/man/man1/pdfdetach.1.gz', 'usr/share/man/man1/pdffonts.1.gz', 'usr/share/man/man1/pdfimages.1.gz', 'usr/share/man/man1/pdfinfo.1.gz', 'usr/share/man/man1/pdfseparate.1.gz', 'usr/share/man/man1/pdftocairo.1.gz', 'usr/share/man/man1/pdftohtml.1.gz', 'usr/share/man/man1/pdftoppm.1.gz', 'usr/share/man/man1/pdftops.1.gz', 'usr/share/man/man1/pdftotext.1.gz', 'usr/share/man/man1/pdfunite.1.gz']"
 +++
 Poppler xpdf tools

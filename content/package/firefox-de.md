@@ -10,6 +10,5 @@ size = "544324"
 usize = "605016"
 sha1sum = "5f8cbccc9245cc2a46ae819ec3946320a1e49a05"
 depends = "['firefox>=114.0.2']"
-files = "['usr/', 'usr/lib/', 'usr/lib/firefox/', 'usr/lib/firefox/browser/', 'usr/lib/firefox/browser/extensions/', 'usr/lib/firefox/browser/extensions/langpack-de@firefox.mozilla.org.xpi']"
 +++
 German language support for Firefox

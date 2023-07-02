@@ -10,6 +10,5 @@ size = "18792"
 usize = "22216"
 sha1sum = "07fc95c51d88f42d25eaa6fe2b7bd1a1effaa42c"
 depends = "['libass', 'libvlc>=3.0.18']"
-files = "['usr/', 'usr/lib/', 'usr/lib/vlc/', 'usr/lib/vlc/plugins/', 'usr/lib/vlc/plugins/codec/', 'usr/lib/vlc/plugins/codec/liblibass_plugin.so']"
 +++
 vlc SSA/ASS support

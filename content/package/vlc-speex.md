@@ -10,6 +10,5 @@ size = "22480"
 usize = "44512"
 sha1sum = "ea5513c3ca2380e52560fdca955e3290fd127897"
 depends = "['speex', 'libvlc>=3.0.18']"
-files = "['usr/', 'usr/lib/', 'usr/lib/vlc/', 'usr/lib/vlc/plugins/', 'usr/lib/vlc/plugins/audio_filter/', 'usr/lib/vlc/plugins/audio_filter/libspeex_resampler_plugin.so', 'usr/lib/vlc/plugins/codec/', 'usr/lib/vlc/plugins/codec/libspeex_plugin.so']"
 +++
 vlc speex support

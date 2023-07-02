@@ -10,6 +10,5 @@ size = "43960"
 usize = "38644"
 sha1sum = "9ef7116991ca47da4260b55565e1d31bbf33a91d"
 depends = "['pciutils', 'kernel=6.3.9']"
-files = "['usr/', 'usr/bin/', 'usr/bin/x86_energy_perf_policy', 'usr/share/', 'usr/share/man/', 'usr/share/man/man8/', 'usr/share/man/man8/x86_energy_perf_policy.8.gz']"
 +++
 Kernel tool for setting MSR energy policies

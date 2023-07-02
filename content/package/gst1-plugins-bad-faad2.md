@@ -10,6 +10,5 @@ size = "14456"
 usize = "30640"
 sha1sum = "434b3c621bfc22c9c8848dd1d66852702a2ae874"
 depends = "['gst1-plugins-base>=1.22.4', 'libffi>=3.2.1-2', 'faad2>=2.7-6', 'gst1-plugins-bad>=1.22.4']"
-files = "['usr/', 'usr/lib/', 'usr/lib/gstreamer-1.0/', 'usr/lib/gstreamer-1.0/libgstfaad.so']"
 +++
 GStreamer plugin (Bad).
