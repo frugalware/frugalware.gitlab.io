@@ -2,7 +2,12 @@ image: registry.gitlab.com/pages/hugo/hugo_extended:0.115.0
 
 variables:
   HUGO_ENV: production
+  THEME_URL: "github.com/vimux/mainroad.git"
 
+default:
+  before_script:
+    - apk add --no-cache go curl bash nodejs
+    - hugo mod get -u $THEME_URL
 test:
   script:
     - hugo
