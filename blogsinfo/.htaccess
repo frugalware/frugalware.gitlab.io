@@ -1,2 +1,0 @@
-RewriteEngine On
-RewriteRule (.*) http://blogs.frugalware.hu/$1 [P]

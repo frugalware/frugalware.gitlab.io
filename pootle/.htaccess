@@ -1,2 +1,0 @@
-RewriteEngine On
-RewriteRule (.*) http://10.3.177.253:8081/$1 [P]
