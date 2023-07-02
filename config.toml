@@ -1,4 +1,4 @@
-baseurl = "https://www.frugalware.org/"
+baseurl = "/"
 title = "Frugalware"
 languageCode = "en-us"
 theme = "mainroad"
