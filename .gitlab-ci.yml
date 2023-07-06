@@ -2,7 +2,7 @@ image: registry.gitlab.com/pages/hugo/hugo_extended:0.115.0
 
 variables:
   HUGO_ENV: production
-  THEME_URL: "github.com/vimux/mainroad.git"
+  THEME_URL: "github.com/vimux/mainroad"
 
 default:
   before_script:
