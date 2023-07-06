@@ -1,10 +1,7 @@
 baseurl = "/"
 title = "Frugalware"
 languageCode = "en-us"
-theme = "mainroad"
-
-[module]
-[[module.imports]]
+theme = "gitlab.com/frugalware/frugalware.gitlab.io"
 
 [Author]
 path = 'github.com/vimux/mainroad'
