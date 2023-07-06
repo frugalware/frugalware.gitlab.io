@@ -1,11 +1,16 @@
-[module]
-[[module.imports]]
-  path = 'github.com/vimux/mainroad'
-
 baseurl = "/"
 title = "Frugalware"
 languageCode = "en-us"
 theme = "mainroad"
+
+[module]
+[[module.imports]]
+
+[Author]
+path = 'github.com/vimux/mainroad'
+name = "Frugalware"
+bio = "Frugalware Development Team"
+avatar = "images/frugalware.png"
 
 [Params]
   description = "Frugalware Linux"  
@@ -23,8 +28,8 @@ theme = "mainroad"
   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
   mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
   googleFontsLink = "false" # Load Google Fonts
-  #customCSS = ["css/frugalware.css"] # Include custom CSS files
-  #customJS = ["fancybox/jquery.fancybox-1.3.4.pack.js"] # Include custom JS files
+  customCSS = ["css/frugalware.css"] # Include custom CSS files
+  #customJS = ["js/vendor/lunr.min.js", "js/jquery-2.1.3.min.js"] # Include custom JS files
   highlightColor = "#6ab6ff"
 
 [Params.logo]
