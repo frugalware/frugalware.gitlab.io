@@ -13,6 +13,7 @@ parser = argparse.ArgumentParser(
 root = "/"
 parser.add_argument('-d', '--package_directory', help="Directory containing fdb and fpm files", default=root+"var/cache/pacman-g2/pkg") 
 parser.add_argument('-t', '--hugo_directory', help="Directory containing hugo", default="./")
+parser.add_argument('-b', '--dbpath', help="Path to db")
 
 args = parser.parse_args()
                     
@@ -24,6 +25,9 @@ if pacman.initialize(root) == -1:
     exit
 
 db = pacman.db_register("frugalware-current")
+
+if 'dbpath' in args:
+    pacman.set_option(pacman.OPT_DBPATH, pacman.char_to_unsigned_long(args.dbpath))
 
 i = pacman.db_getpkgcache(db)
 while i :
