@@ -2,7 +2,9 @@
 draft = false
 title = "cudf 0.9-1"
 version = "0.9-1"
+date = "2022-03-24T16:15:23"
 categories = ['lib-extra']
+upstreamurl = "https://irill.gitlab.io/cudf/"
 arch = "x86_64"
 size = "95152"
 usize = "828914"

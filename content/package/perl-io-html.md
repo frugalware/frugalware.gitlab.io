@@ -2,7 +2,9 @@
 draft = false
 title = "perl-io-html 1.004-1"
 version = "1.004-1"
+date = "2022-03-03T15:18:11"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "19248"
 usize = "45258"

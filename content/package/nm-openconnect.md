@@ -2,7 +2,9 @@
 draft = false
 title = "nm-openconnect 1.2.8-1"
 version = "1.2.8-1"
+date = "2023-03-13T15:52:15"
 categories = ['gnome-extra']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "506876"
 usize = "3082273"

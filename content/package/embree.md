@@ -2,7 +2,9 @@
 draft = false
 title = "embree 3.13.3-2"
 version = "3.13.3-2"
+date = "2022-07-17T16:04:35"
 categories = ['xlib-extra']
+upstreamurl = "https://github.com/embree/embree"
 arch = "x86_64"
 size = "8546068"
 usize = "36951911"

@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "bootconfig 6.3.9-1"
-version = "6.3.9-1"
-date = "2023-06-21T17:24:16"
+title = "bootconfig 6.4.2-1"
+version = "6.4.2-1"
+date = "2023-07-06T17:31:02"
 categories = ['apps-extra']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "38188"
-usize = "22448"
-sha1sum = "9e2404382a46ebd7d4ae5d146ca8a0ed09c6834d"
-depends = "['kernel=6.3.9']"
+size = "38220"
+usize = "22640"
+sha1sum = "6d3f460a9a99f66c416b5fd77cba6463a21a4c99"
+depends = "['kernel=6.4.2']"
 +++
 Kernel tool for appending cmd line options to a initrd.

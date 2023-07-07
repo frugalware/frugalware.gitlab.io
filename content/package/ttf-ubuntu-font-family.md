@@ -2,7 +2,9 @@
 draft = false
 title = "ttf-ubuntu-font-family 0.83-4"
 version = "0.83-4"
+date = "2022-05-17T12:49:09"
 categories = ['xlib-extra']
+upstreamurl = "https://design.ubuntu.com/font/"
 arch = "x86_64"
 size = "1442924"
 usize = "4395289"

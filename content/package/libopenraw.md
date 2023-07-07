@@ -2,7 +2,9 @@
 draft = false
 title = "libopenraw 0.3.4-1"
 version = "0.3.4-1"
+date = "2023-02-24T19:01:06"
 categories = ['xlib-extra']
+upstreamurl = "https://libopenraw.freedesktop.org/libopenraw/"
 arch = "x86_64"
 size = "1156804"
 usize = "4183904"

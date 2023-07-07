@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libgif 5.2.1-2"
 version = "5.2.1-2"
+date = "2022-01-14T20:31:04"
 categories = ['lib32-extra']
+upstreamurl = "http://giflib.sourceforge.net/"
 arch = "x86_64"
 size = "85992"
 usize = "359962"

@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-data-fix 0.3.2-15"
 version = "0.3.2-15"
+date = "2023-03-20T19:26:05"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/data-fix"
 arch = "x86_64"
 size = "77120"
 usize = "555364"

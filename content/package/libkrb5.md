@@ -2,7 +2,9 @@
 draft = false
 title = "libkrb5 1.20-2"
 version = "1.20-2"
+date = "2023-03-15T20:43:51"
 categories = ['base']
+upstreamurl = "http://web.mit.edu/kerberos/"
 arch = "x86_64"
 size = "684304"
 usize = "2597671"

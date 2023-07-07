@@ -2,7 +2,9 @@
 draft = false
 title = "memcached 1.6.15-1"
 version = "1.6.15-1"
+date = "2022-05-20T07:32:20"
 categories = ['network-extra']
+upstreamurl = "http://www.danga.com/memcached/"
 arch = "x86_64"
 size = "159480"
 usize = "490978"

@@ -2,7 +2,9 @@
 draft = false
 title = "skanlite 2.1.0.1-5"
 version = "2.1.0.1-5"
+date = "2020-06-15T07:27:34"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "2238448"
 usize = "2736484"

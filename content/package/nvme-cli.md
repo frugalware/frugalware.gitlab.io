@@ -2,7 +2,9 @@
 draft = false
 title = "nvme-cli 2.3-2"
 version = "2.3-2"
+date = "2023-03-15T23:04:09"
 categories = ['apps-extra']
+upstreamurl = "http://nvmexpress.org/"
 arch = "x86_64"
 size = "466860"
 usize = "1830373"

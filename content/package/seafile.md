@@ -2,7 +2,9 @@
 draft = false
 title = "seafile 8.0.10-2"
 version = "8.0.10-2"
+date = "2023-03-16T02:59:30"
 categories = ['network-extra']
+upstreamurl = "https://github.com/haiwen/seafile"
 arch = "x86_64"
 size = "173972"
 usize = "583887"

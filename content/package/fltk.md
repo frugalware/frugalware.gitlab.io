@@ -2,7 +2,9 @@
 draft = false
 title = "fltk 1.3.8-1"
 version = "1.3.8-1"
+date = "2022-02-11T09:15:37"
 categories = ['xlib-extra']
+upstreamurl = "http://www.fltk.org/"
 arch = "x86_64"
 size = "7323404"
 usize = "12416007"

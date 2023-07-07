@@ -2,7 +2,9 @@
 draft = false
 title = "hack 3.003-3"
 version = "3.003-3"
+date = "2022-04-07T13:17:15"
 categories = ['plasma']
+upstreamurl = "https://github.com/chrissimpkins/Hack"
 arch = "x86_64"
 size = "369460"
 usize = "1291007"

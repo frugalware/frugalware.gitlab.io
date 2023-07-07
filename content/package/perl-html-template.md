@@ -2,7 +2,9 @@
 draft = false
 title = "perl-html-template 2.97-4"
 version = "2.97-4"
+date = "2022-02-21T15:00:16"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "61176"
 usize = "182344"

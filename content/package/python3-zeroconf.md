@@ -2,7 +2,9 @@
 draft = false
 title = "python3-zeroconf 0.39.4-1"
 version = "0.39.4-1"
+date = "2023-02-21T12:26:30"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/jstasiak/python-zeroconf"
 arch = "x86_64"
 size = "146492"
 usize = "680004"

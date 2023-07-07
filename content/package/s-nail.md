@@ -2,7 +2,9 @@
 draft = false
 title = "s-nail 14.9.24-2"
 version = "14.9.24-2"
+date = "2023-04-27T07:13:27"
 categories = ['network']
+upstreamurl = "https://www.sdaoden.eu/code.html#s-nail"
 arch = "x86_64"
 size = "580560"
 usize = "1188683"

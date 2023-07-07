@@ -2,7 +2,9 @@
 draft = false
 title = "vkbasalt 0.3.2.9-1"
 version = "0.3.2.9-1"
+date = "2023-03-07T09:12:37"
 categories = ['games-extra']
+upstreamurl = "https://github.com/DadSchoorse/vkBasalt"
 arch = "x86_64"
 size = "372180"
 usize = "1172851"

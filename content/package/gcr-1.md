@@ -2,7 +2,9 @@
 draft = false
 title = "gcr-1 3.41.1-1"
 version = "3.41.1-1"
+date = "2023-03-13T10:12:09"
 categories = ['gnome', 'gnome-minimal']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "2020112"
 usize = "14847120"

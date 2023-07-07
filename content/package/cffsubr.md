@@ -2,7 +2,9 @@
 draft = false
 title = "cffsubr 0.2.9-4"
 version = "0.2.9-4"
+date = "2022-11-02T20:15:48"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/cffsubr"
 arch = "x86_64"
 size = "297792"
 usize = "1698190"

@@ -2,7 +2,9 @@
 draft = false
 title = "gd 2.3.3-2"
 version = "2.3.3-2"
+date = "2021-10-15T09:44:13"
 categories = ['lib']
+upstreamurl = "http://libgd.github.io/"
 arch = "x86_64"
 size = "150032"
 usize = "742653"

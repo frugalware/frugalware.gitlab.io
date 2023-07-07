@@ -2,7 +2,9 @@
 draft = false
 title = "unpaper 7.0.0-2"
 version = "7.0.0-2"
+date = "2023-03-01T15:07:34"
 categories = ['apps-extra']
+upstreamurl = "https://www.flameeyes.eu/projects/unpaper"
 arch = "x86_64"
 size = "43504"
 usize = "104739"

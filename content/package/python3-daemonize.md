@@ -2,7 +2,9 @@
 draft = false
 title = "python3-daemonize 2.5.0-6"
 version = "2.5.0-6"
+date = "2022-10-27T17:04:11"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/daemonize"
 arch = "x86_64"
 size = "9368"
 usize = "26311"

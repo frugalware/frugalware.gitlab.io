@@ -2,7 +2,9 @@
 draft = false
 title = "oxygen-gtk 1.4.6-4"
 version = "1.4.6-4"
+date = "2020-11-13T18:08:23"
 categories = ['xapps-extra']
+upstreamurl = "http://download.kde.org/stable/oxygen-gtk2"
 arch = "x86_64"
 size = "390720"
 usize = "1360982"

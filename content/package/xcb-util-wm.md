@@ -2,7 +2,9 @@
 draft = false
 title = "xcb-util-wm 0.4.2-1"
 version = "0.4.2-1"
+date = "2022-10-20T09:01:04"
 categories = ['x11']
+upstreamurl = "http://xcb.freedesktop.org"
 arch = "x86_64"
 size = "50932"
 usize = "288780"

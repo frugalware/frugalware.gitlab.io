@@ -2,7 +2,9 @@
 draft = false
 title = "minetest 5.7.0-1"
 version = "5.7.0-1"
+date = "2023-04-29T20:48:20"
 categories = ['games-extra']
+upstreamurl = "http://minetest.net/"
 arch = "x86_64"
 size = "7122792"
 usize = "22312121"

@@ -2,7 +2,9 @@
 draft = false
 title = "python3-apsw 3.41.0.0-1"
 version = "3.41.0.0-1"
+date = "2023-03-14T12:58:06"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/rogerbinns/apsw"
 arch = "x86_64"
 size = "448484"
 usize = "2124683"

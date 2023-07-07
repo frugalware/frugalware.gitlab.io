@@ -2,7 +2,9 @@
 draft = false
 title = "perl-math-round 0.07-6"
 version = "0.07-6"
+date = "2022-02-21T15:08:35"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "7276"
 usize = "14904"

@@ -2,7 +2,9 @@
 draft = false
 title = "spring 106.0-2"
 version = "106.0-2"
+date = "2023-01-18T21:15:31"
 categories = ['games-extra']
+upstreamurl = "http://spring.clan-sy.com"
 arch = "x86_64"
 size = "13318916"
 usize = "39056652"

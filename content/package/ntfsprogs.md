@@ -2,7 +2,9 @@
 draft = false
 title = "ntfsprogs 2022.10.3-1"
 version = "2022.10.3-1"
+date = "2023-01-08T20:30:18"
 categories = ['apps']
+upstreamurl = "https://www.tuxera.com"
 arch = "x86_64"
 size = "132176"
 usize = "492029"

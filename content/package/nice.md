@@ -2,7 +2,9 @@
 draft = false
 title = "nice 0.1.21-1"
 version = "0.1.21-1"
+date = "2023-01-08T20:33:23"
 categories = ['xlib']
+upstreamurl = "http://nice.freedesktop.org"
 arch = "x86_64"
 size = "302948"
 usize = "1697420"

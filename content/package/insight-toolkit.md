@@ -2,7 +2,9 @@
 draft = false
 title = "insight-toolkit 5.3.0-1"
 version = "5.3.0-1"
+date = "2023-02-16T09:28:51"
 categories = ['devel-extra']
+upstreamurl = "http://www.itk.org/"
 arch = "x86_64"
 size = "8389352"
 usize = "56432368"

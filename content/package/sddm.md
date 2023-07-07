@@ -2,9 +2,7 @@
 draft = false
 title = "sddm 0.19.0-5"
 version = "0.19.0-5"
-date = "2023-06-13T11:55:28"
 categories = ['x11']
-upstreamurl = "https://github.com/sddm/sddm"
 arch = "x86_64"
 size = "3506632"
 usize = "4645781"

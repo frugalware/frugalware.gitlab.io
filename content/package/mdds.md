@@ -2,7 +2,9 @@
 draft = false
 title = "mdds 2.0.3-1"
 version = "2.0.3-1"
+date = "2023-01-11T08:37:55"
 categories = ['devel-extra']
+upstreamurl = "https://gitlab.com/mdds/mdds"
 arch = "x86_64"
 size = "120792"
 usize = "1196999"

@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-xorg-server 21.1.8-1"
 version = "21.1.8-1"
+date = "2023-03-30T21:08:53"
 categories = ['lib32-extra']
+upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "2132076"
 usize = "10358946"

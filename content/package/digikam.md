@@ -2,7 +2,9 @@
 draft = false
 title = "digikam 8.0.0-2"
 version = "8.0.0-2"
+date = "2023-06-12T08:14:45"
 categories = ['kde5-extra']
+upstreamurl = "https://www.digikam.org"
 arch = "x86_64"
 size = "21951876"
 usize = "81343683"

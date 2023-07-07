@@ -2,7 +2,9 @@
 draft = false
 title = "irssi-otr 1.0.2-2"
 version = "1.0.2-2"
+date = "2018-02-09T23:58:57"
 categories = ['network-extra']
+upstreamurl = "http://irssi-otr.tuxfamily.org/"
 arch = "x86_64"
 size = "32664"
 usize = "97826"

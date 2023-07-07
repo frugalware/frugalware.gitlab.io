@@ -2,7 +2,9 @@
 draft = false
 title = "weechat 3.8-1"
 version = "3.8-1"
+date = "2023-01-17T10:33:47"
 categories = ['network-extra']
+upstreamurl = "http://www.weechat.org"
 arch = "x86_64"
 size = "1861124"
 usize = "9886675"

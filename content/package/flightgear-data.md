@@ -2,7 +2,9 @@
 draft = false
 title = "flightgear-data 2020.3.18-1"
 version = "2020.3.18-1"
+date = "2023-03-28T08:59:14"
 categories = ['games-extra']
+upstreamurl = "http://www.flightgear.org/"
 arch = "x86_64"
 size = "1795587940"
 usize = "2688061022"

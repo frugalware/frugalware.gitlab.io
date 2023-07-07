@@ -2,7 +2,9 @@
 draft = false
 title = "rasqal 0.9.33-7"
 version = "0.9.33-7"
+date = "2022-01-14T11:36:05"
 categories = ['lib']
+upstreamurl = "http://librdf.org/rasqal/"
 arch = "x86_64"
 size = "332348"
 usize = "2089388"

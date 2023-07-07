@@ -2,7 +2,9 @@
 draft = false
 title = "python3-mccabe 0.7.0-4"
 version = "0.7.0-4"
+date = "2022-10-27T17:44:09"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/mccabe"
 arch = "x86_64"
 size = "13880"
 usize = "42216"

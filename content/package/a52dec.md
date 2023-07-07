@@ -2,7 +2,9 @@
 draft = false
 title = "a52dec 0.7.4-11"
 version = "0.7.4-11"
+date = "2022-01-20T10:13:05"
 categories = ['multimedia']
+upstreamurl = "http://liba52.sourceforge.net/"
 arch = "x86_64"
 size = "52380"
 usize = "169227"

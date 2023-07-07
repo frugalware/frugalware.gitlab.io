@@ -2,7 +2,9 @@
 draft = false
 title = "inih r56-1"
 version = "r56-1"
+date = "2022-08-26T11:24:02"
 categories = ['base']
+upstreamurl = "https://github.com/benhoyt/inih"
 arch = "x86_64"
 size = "15176"
 usize = "56357"

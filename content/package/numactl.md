@@ -2,7 +2,9 @@
 draft = false
 title = "numactl 2.0.16-1"
 version = "2.0.16-1"
+date = "2022-10-06T08:49:46"
 categories = ['base']
+upstreamurl = "https://github.com/numactl/numactl"
 arch = "x86_64"
 size = "79192"
 usize = "246453"

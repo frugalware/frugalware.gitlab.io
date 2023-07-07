@@ -2,7 +2,9 @@
 draft = false
 title = "vile 9.8-9"
 version = "9.8-9"
+date = "2022-02-07T12:55:27"
 categories = ['base-extra']
+upstreamurl = "http://invisible-island.net/vile"
 arch = "x86_64"
 size = "912420"
 usize = "3234697"

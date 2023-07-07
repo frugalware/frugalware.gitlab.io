@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-semigroupoids 6.0.0.1-1"
 version = "6.0.0.1-1"
+date = "2023-03-20T19:45:55"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/semigroupoids"
 arch = "x86_64"
 size = "492388"
 usize = "7678503"

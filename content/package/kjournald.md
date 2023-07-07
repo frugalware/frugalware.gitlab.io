@@ -2,7 +2,9 @@
 draft = false
 title = "kjournald 23.04.2-2"
 version = "23.04.2-2"
+date = "2023-06-21T13:45:02"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "123368"
 usize = "458387"

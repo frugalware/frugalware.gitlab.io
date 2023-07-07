@@ -2,7 +2,9 @@
 draft = false
 title = "pavucontrol-qt 1.3.0-1"
 version = "1.3.0-1"
+date = "2023-06-15T14:22:45"
 categories = ['xapps-extra']
+upstreamurl = "http://lxqt.org/"
 arch = "x86_64"
 size = "143968"
 usize = "957447"

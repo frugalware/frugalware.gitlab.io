@@ -2,7 +2,9 @@
 draft = false
 title = "libmodplug 0.8.9.0-4"
 version = "0.8.9.0-4"
+date = "2022-01-26T16:53:52"
 categories = ['multimedia']
+upstreamurl = "http://modplug-xmms.sourceforge.net"
 arch = "x86_64"
 size = "162556"
 usize = "391041"

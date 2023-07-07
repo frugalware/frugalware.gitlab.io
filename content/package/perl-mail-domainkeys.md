@@ -2,7 +2,9 @@
 draft = false
 title = "perl-mail-domainkeys 1.0-6"
 version = "1.0-6"
+date = "2022-02-21T15:07:07"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "10136"
 usize = "30267"

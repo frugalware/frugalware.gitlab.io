@@ -2,7 +2,9 @@
 draft = false
 title = "geogram 1.7.9-1"
 version = "1.7.9-1"
+date = "2022-08-02T11:24:00"
 categories = ['lib-extra']
+upstreamurl = "http://alice.loria.fr/software/geogram/doc/html/index.html"
 arch = "x86_64"
 size = "3567220"
 usize = "14547074"

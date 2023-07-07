@@ -2,7 +2,9 @@
 draft = false
 title = "bullet 3.25-1"
 version = "3.25-1"
+date = "2023-02-14T08:59:01"
 categories = ['lib']
+upstreamurl = "https://github.com/bulletphysics/bullet3"
 arch = "x86_64"
 size = "4585764"
 usize = "27982795"

@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libxfont 1.5.4-4"
 version = "1.5.4-4"
+date = "2021-10-18T12:27:13"
 categories = ['lib32-extra']
+upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "132104"
 usize = "329593"

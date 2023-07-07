@@ -2,7 +2,9 @@
 draft = false
 title = "libutempter 1.2.1-2"
 version = "1.2.1-2"
+date = "2022-01-14T19:38:12"
 categories = ['lib']
+upstreamurl = "http://ftp.altlinux.org/pub/people/ldv/utempter"
 arch = "x86_64"
 size = "15728"
 usize = "59366"

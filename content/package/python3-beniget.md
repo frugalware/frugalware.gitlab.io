@@ -2,7 +2,9 @@
 draft = false
 title = "python3-beniget 0.4.1-3"
 version = "0.4.1-3"
+date = "2022-10-31T19:40:36"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/beniget"
 arch = "x86_64"
 size = "27528"
 usize = "115719"

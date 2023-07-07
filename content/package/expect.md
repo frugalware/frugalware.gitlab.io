@@ -2,7 +2,9 @@
 draft = false
 title = "expect 5.45.4-2"
 version = "5.45.4-2"
+date = "2021-12-19T12:27:21"
 categories = ['devel']
+upstreamurl = "http://expect.nist.gov/"
 arch = "x86_64"
 size = "288260"
 usize = "773405"

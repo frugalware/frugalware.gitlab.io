@@ -2,7 +2,9 @@
 draft = false
 title = "cbindgen 0.24.3-1"
 version = "0.24.3-1"
+date = "2022-07-12T08:47:56"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/eqrion/cbindgen"
 arch = "x86_64"
 size = "1331680"
 usize = "5061336"

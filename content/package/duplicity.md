@@ -2,7 +2,9 @@
 draft = false
 title = "duplicity 1.0.0-1"
 version = "1.0.0-1"
+date = "2023-02-22T19:26:58"
 categories = ['apps-extra']
+upstreamurl = "http://duplicity.nongnu.org/"
 arch = "x86_64"
 size = "668352"
 usize = "4286388"

@@ -2,7 +2,9 @@
 draft = false
 title = "python3-toposort 1.10-1"
 version = "1.10-1"
+date = "2023-03-14T12:47:09"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/toposort"
 arch = "x86_64"
 size = "11372"
 usize = "32483"

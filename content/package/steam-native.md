@@ -2,7 +2,9 @@
 draft = false
 title = "steam-native 1.0.0.78-1"
 version = "1.0.0.78-1"
+date = "2023-05-22T14:47:56"
 categories = ['games-extra']
+upstreamurl = "http://steampowered.com/"
 arch = "x86_64"
 size = "2732"
 usize = "2425"

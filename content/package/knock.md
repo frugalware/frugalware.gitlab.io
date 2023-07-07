@@ -2,7 +2,9 @@
 draft = false
 title = "knock 0.8-1"
 version = "0.8-1"
+date = "2021-04-25T16:28:23"
 categories = ['network-extra']
+upstreamurl = "http://www.zeroflux.org/projects/knock"
 arch = "x86_64"
 size = "30700"
 usize = "100194"

@@ -2,7 +2,9 @@
 draft = false
 title = "grv 0.3.1-3"
 version = "0.3.1-3"
+date = "2019-02-18T22:09:02"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/rgburke/grv"
 arch = "x86_64"
 size = "1927184"
 usize = "6445720"

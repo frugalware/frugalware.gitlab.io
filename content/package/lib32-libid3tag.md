@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libid3tag 0.15.1b-13"
 version = "0.15.1b-13"
+date = "2022-04-03T22:29:22"
 categories = ['lib32-extra']
+upstreamurl = "http://www.underbit.com/products/mad/"
 arch = "x86_64"
 size = "29556"
 usize = "98141"

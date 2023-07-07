@@ -2,7 +2,9 @@
 draft = false
 title = "plasma-nm-openconnect 5.27.6-1"
 version = "5.27.6-1"
+date = "2023-06-21T07:23:46"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "86032"
 usize = "1138244"

@@ -2,7 +2,9 @@
 draft = false
 title = "squid 5.9-1"
 version = "5.9-1"
+date = "2023-05-09T16:47:34"
 categories = ['network-extra']
+upstreamurl = "http://www.squid-cache.org/"
 arch = "x86_64"
 size = "2739804"
 usize = "11139754"

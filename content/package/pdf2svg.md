@@ -2,7 +2,9 @@
 draft = false
 title = "pdf2svg 0.2.3-11"
 version = "0.2.3-11"
+date = "2018-05-14T16:06:11"
 categories = ['apps-extra']
+upstreamurl = "http://www.cityinthesky.co.uk/opensource/pdf2svg/"
 arch = "x86_64"
 size = "14732"
 usize = "57048"

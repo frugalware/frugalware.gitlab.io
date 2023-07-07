@@ -2,7 +2,9 @@
 draft = false
 title = "unicode-cldr 43-1"
 version = "43-1"
+date = "2023-04-26T16:49:19"
 categories = ['lib']
+upstreamurl = "http://cldr.unicode.org/"
 arch = "x86_64"
 size = "18482080"
 usize = "255325850"

@@ -2,7 +2,9 @@
 draft = false
 title = "hexchat 2.16.1-2"
 version = "2.16.1-2"
+date = "2023-03-15T20:23:39"
 categories = ['xapps-extra']
+upstreamurl = "http://hexchat.github.io/"
 arch = "x86_64"
 size = "1114052"
 usize = "5445475"

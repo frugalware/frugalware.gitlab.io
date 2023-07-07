@@ -2,7 +2,9 @@
 draft = false
 title = "efibootmgr 18-1"
 version = "18-1"
+date = "2022-08-26T11:58:43"
 categories = ['base']
+upstreamurl = "https://github.com/vathpela"
 arch = "x86_64"
 size = "30396"
 usize = "77049"

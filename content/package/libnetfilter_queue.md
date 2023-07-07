@@ -2,7 +2,9 @@
 draft = false
 title = "libnetfilter_queue 1.0.5-2"
 version = "1.0.5-2"
+date = "2022-02-08T21:28:18"
 categories = ['lib-extra']
+upstreamurl = "http://netfilter.org/projects/libnetfilter_queue/index.html"
 arch = "x86_64"
 size = "19704"
 usize = "60604"

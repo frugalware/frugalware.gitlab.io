@@ -2,7 +2,9 @@
 draft = false
 title = "vorbisgain 0.37-3"
 version = "0.37-3"
+date = "2019-06-07T08:51:17"
 categories = ['multimedia-extra']
+upstreamurl = "http://sjeng.org/vorbisgain.html"
 arch = "x86_64"
 size = "28664"
 usize = "74776"

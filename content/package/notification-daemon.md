@@ -2,7 +2,9 @@
 draft = false
 title = "notification-daemon 3.20.0-3"
 version = "3.20.0-3"
+date = "2019-08-14T12:53:11"
 categories = ['xapps-extra']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "59332"
 usize = "232629"

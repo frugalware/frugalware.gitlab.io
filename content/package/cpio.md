@@ -2,7 +2,9 @@
 draft = false
 title = "cpio 2.14-1"
 version = "2.14-1"
+date = "2023-05-06T20:40:21"
 categories = ['base']
+upstreamurl = "http://www.gnu.org/software/cpio"
 arch = "x86_64"
 size = "248640"
 usize = "1144957"

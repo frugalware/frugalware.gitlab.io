@@ -2,7 +2,9 @@
 draft = false
 title = "nm-pptp 1.2.12-1"
 version = "1.2.12-1"
+date = "2023-03-13T15:59:51"
 categories = ['gnome-extra']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "101388"
 usize = "520145"

@@ -2,7 +2,9 @@
 draft = false
 title = "gi-docgen 2023.1-1"
 version = "2023.1-1"
+date = "2023-02-27T14:26:27"
 categories = ['devel-extra']
+upstreamurl = "https://gnome.pages.gitlab.gnome.org/gi-docgen/"
 arch = "x86_64"
 size = "1106152"
 usize = "1691827"

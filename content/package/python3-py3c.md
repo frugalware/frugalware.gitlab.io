@@ -2,7 +2,9 @@
 draft = false
 title = "python3-py3c 1.4-4"
 version = "1.4-4"
+date = "2022-10-27T17:59:56"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/encukou/py3c"
 arch = "x86_64"
 size = "8384"
 usize = "36045"

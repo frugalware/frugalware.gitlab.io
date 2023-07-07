@@ -2,7 +2,9 @@
 draft = false
 title = "alsa-plugins 1.2.7.1-2"
 version = "1.2.7.1-2"
+date = "2023-02-28T09:44:26"
 categories = ['multimedia']
+upstreamurl = "http://www.alsa-project.org"
 arch = "x86_64"
 size = "38448"
 usize = "157916"

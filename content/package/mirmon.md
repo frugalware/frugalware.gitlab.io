@@ -2,7 +2,9 @@
 draft = false
 title = "mirmon 2.11-3"
 version = "2.11-3"
+date = "2019-04-29T22:30:46"
 categories = ['network-extra']
+upstreamurl = "http://people.cs.uu.nl/henkp/mirmon/"
 arch = "x86_64"
 size = "40856"
 usize = "297186"

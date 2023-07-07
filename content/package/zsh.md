@@ -2,7 +2,9 @@
 draft = false
 title = "zsh 5.9-1"
 version = "5.9-1"
+date = "2022-08-30T15:19:42"
 categories = ['apps']
+upstreamurl = "http://www.zsh.org/"
 arch = "x86_64"
 size = "2484376"
 usize = "8305889"

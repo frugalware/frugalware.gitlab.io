@@ -2,7 +2,9 @@
 draft = false
 title = "pyenchant 3.2.2-3"
 version = "3.2.2-3"
+date = "2023-02-23T21:21:05"
 categories = ['lib-extra']
+upstreamurl = "http://pypi.python.org/pypi/pyenchant"
 arch = "x86_64"
 size = "72128"
 usize = "329280"

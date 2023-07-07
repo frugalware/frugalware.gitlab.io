@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-speex 1.2.1-1"
 version = "1.2.1-1"
+date = "2022-09-19T08:26:52"
 categories = ['lib32-extra']
+upstreamurl = "https://speex.org/"
 arch = "x86_64"
 size = "73452"
 usize = "201313"

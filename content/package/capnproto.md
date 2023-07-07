@@ -2,7 +2,9 @@
 draft = false
 title = "capnproto 0.10.3-1"
 version = "0.10.3-1"
+date = "2023-02-24T19:13:06"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/capnproto/capnproto"
 arch = "x86_64"
 size = "23022344"
 usize = "45839114"

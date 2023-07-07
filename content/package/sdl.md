@@ -2,7 +2,9 @@
 draft = false
 title = "sdl 1.2.15-10"
 version = "1.2.15-10"
+date = "2022-01-26T10:30:11"
 categories = ['xlib']
+upstreamurl = "http://www.libsdl.org"
 arch = "x86_64"
 size = "357696"
 usize = "1137661"

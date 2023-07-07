@@ -2,7 +2,9 @@
 draft = false
 title = "perl-file-which 1.27-1"
 version = "1.27-1"
+date = "2021-12-20T07:35:56"
 categories = ['devel']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "19572"
 usize = "47643"

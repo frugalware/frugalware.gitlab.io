@@ -2,7 +2,9 @@
 draft = false
 title = "librsvg 2.56.1-1"
 version = "2.56.1-1"
+date = "2023-06-06T14:38:30"
 categories = ['xlib']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "1885972"
 usize = "10397495"

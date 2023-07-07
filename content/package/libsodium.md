@@ -2,7 +2,9 @@
 draft = false
 title = "libsodium 1.0.18-2"
 version = "1.0.18-2"
+date = "2022-02-08T18:09:06"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/jedisct1/libsodium"
 arch = "x86_64"
 size = "166952"
 usize = "552189"

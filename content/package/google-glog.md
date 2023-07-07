@@ -2,7 +2,9 @@
 draft = false
 title = "google-glog 0.6.0-1"
 version = "0.6.0-1"
+date = "2023-03-07T12:02:43"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/google/glog"
 arch = "x86_64"
 size = "88408"
 usize = "296159"

@@ -2,7 +2,9 @@
 draft = false
 title = "template-glib 3.34.0-2"
 version = "3.34.0-2"
+date = "2022-02-08T19:11:10"
 categories = ['lib-extra']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "73852"
 usize = "329094"

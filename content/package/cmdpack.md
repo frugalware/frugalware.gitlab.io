@@ -2,7 +2,9 @@
 draft = false
 title = "cmdpack 1.03-3"
 version = "1.03-3"
+date = "2018-02-11T01:12:59"
 categories = ['apps-extra']
+upstreamurl = "http://www.neillcorlett.com/cmdpack"
 arch = "x86_64"
 size = "75468"
 usize = "345839"

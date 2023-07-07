@@ -2,7 +2,9 @@
 draft = false
 title = "seahorse-sharing 3.8.0-4"
 version = "3.8.0-4"
+date = "2018-09-18T17:35:40"
 categories = ['gnome']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "47632"
 usize = "310829"

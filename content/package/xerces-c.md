@@ -2,7 +2,9 @@
 draft = false
 title = "xerces-c 3.2.4-2"
 version = "3.2.4-2"
+date = "2023-04-19T09:08:47"
 categories = ['devel-extra']
+upstreamurl = "http://xml.apache.org/xerces-c/"
 arch = "x86_64"
 size = "1309840"
 usize = "8516633"

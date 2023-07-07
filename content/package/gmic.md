@@ -2,7 +2,9 @@
 draft = false
 title = "gmic 2.9.9-3"
 version = "2.9.9-3"
+date = "2023-06-06T18:29:32"
 categories = ['xapps-extra']
+upstreamurl = "https://gmic.eu"
 arch = "x86_64"
 size = "6550264"
 usize = "21585523"

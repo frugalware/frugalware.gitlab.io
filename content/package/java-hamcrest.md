@@ -2,7 +2,9 @@
 draft = false
 title = "java-hamcrest 1.3-4"
 version = "1.3-4"
+date = "2022-02-21T12:35:51"
 categories = ['devel-extra']
+upstreamurl = "http://hamcrest.org/JavaHamcrest/"
 arch = "x86_64"
 size = "274200"
 usize = "306850"

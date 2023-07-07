@@ -2,7 +2,9 @@
 draft = false
 title = "perl-log-log4perl 1.57-1"
 version = "1.57-1"
+date = "2023-02-21T14:19:27"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "347320"
 usize = "932966"

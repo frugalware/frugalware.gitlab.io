@@ -2,7 +2,9 @@
 draft = false
 title = "logcheck 1.3.22-1"
 version = "1.3.22-1"
+date = "2021-03-01T12:22:51"
 categories = ['apps-extra']
+upstreamurl = "http://logcheck.org/"
 arch = "x86_64"
 size = "69412"
 usize = "349335"

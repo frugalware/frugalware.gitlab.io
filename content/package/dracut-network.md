@@ -2,7 +2,9 @@
 draft = false
 title = "dracut-network 059-1"
 version = "059-1"
+date = "2023-01-09T15:40:18"
 categories = ['base-extra']
+upstreamurl = "https://github.com/dracutdevs/dracut"
 arch = "x86_64"
 size = "30376"
 usize = "118825"

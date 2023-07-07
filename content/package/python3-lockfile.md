@@ -2,7 +2,9 @@
 draft = false
 title = "python3-lockfile 0.12.2-2"
 version = "0.12.2-2"
+date = "2022-11-01T16:54:48"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/lockfile"
 arch = "x86_64"
 size = "21244"
 usize = "82883"

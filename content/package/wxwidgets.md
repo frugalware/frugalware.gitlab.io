@@ -2,7 +2,9 @@
 draft = false
 title = "wxwidgets 3.1.6-1"
 version = "3.1.6-1"
+date = "2022-05-03T13:59:40"
 categories = ['xlib-extra']
+upstreamurl = "http://www.wxwidgets.org/"
 arch = "x86_64"
 size = "6661860"
 usize = "30068667"

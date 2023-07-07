@@ -2,7 +2,9 @@
 draft = false
 title = "i3lock 2.14.1-1"
 version = "2.14.1-1"
+date = "2022-12-19T15:05:11"
 categories = ['x11-extra']
+upstreamurl = "http://i3wm.org/i3lock/"
 arch = "x86_64"
 size = "25536"
 usize = "67027"

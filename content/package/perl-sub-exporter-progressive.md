@@ -2,7 +2,9 @@
 draft = false
 title = "perl-sub-exporter-progressive 0.001013-2"
 version = "0.001013-2"
+date = "2022-02-15T13:50:53"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "11432"
 usize = "27510"

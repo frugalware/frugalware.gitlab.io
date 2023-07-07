@@ -2,7 +2,9 @@
 draft = false
 title = "zfp 0.5.5-2"
 version = "0.5.5-2"
+date = "2022-02-08T19:23:42"
 categories = ['lib-extra']
+upstreamurl = "https://computing.llnl.gov/projects/floating-point-compression"
 arch = "x86_64"
 size = "60824"
 usize = "315455"

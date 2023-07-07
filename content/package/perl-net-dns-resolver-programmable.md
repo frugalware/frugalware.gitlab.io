@@ -2,7 +2,9 @@
 draft = false
 title = "perl-net-dns-resolver-programmable 0.009-4"
 version = "0.009-4"
+date = "2022-03-03T15:59:31"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "17612"
 usize = "45376"

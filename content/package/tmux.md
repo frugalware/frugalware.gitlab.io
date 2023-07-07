@@ -2,7 +2,9 @@
 draft = false
 title = "tmux 3.3a-1"
 version = "3.3a-1"
+date = "2023-01-19T21:31:36"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/tmux/tmux"
 arch = "x86_64"
 size = "465476"
 usize = "1235282"

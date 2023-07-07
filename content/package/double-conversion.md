@@ -2,7 +2,9 @@
 draft = false
 title = "double-conversion 3.2.1-1"
 version = "3.2.1-1"
+date = "2023-03-07T11:51:30"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/google/double-conversion"
 arch = "x86_64"
 size = "47376"
 usize = "168609"

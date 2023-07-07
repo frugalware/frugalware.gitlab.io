@@ -2,7 +2,9 @@
 draft = false
 title = "cunit 2.1_2-4"
 version = "2.1_2-4"
+date = "2022-02-11T14:20:27"
 categories = ['devel-extra']
+upstreamurl = "https://sourceforge.net/projects/cunit"
 arch = "x86_64"
 size = "85432"
 usize = "475415"

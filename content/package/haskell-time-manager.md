@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-time-manager 0.0.0-5"
 version = "0.0.0-5"
+date = "2023-03-20T13:22:37"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/time-manager"
 arch = "x86_64"
 size = "50184"
 usize = "255978"

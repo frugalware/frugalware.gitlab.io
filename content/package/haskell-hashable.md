@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-hashable 1.4.2.0-3"
 version = "1.4.2.0-3"
+date = "2023-03-20T15:12:51"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/hashable"
 arch = "x86_64"
 size = "159644"
 usize = "1543200"

@@ -2,7 +2,9 @@
 draft = false
 title = "librevenge-docs 0.0.5-1"
 version = "0.0.5-1"
+date = "2022-12-31T07:55:13"
 categories = ['docs-extra']
+upstreamurl = "http://libwpd.sourceforge.net/"
 arch = "x86_64"
 size = "364568"
 usize = "9079029"

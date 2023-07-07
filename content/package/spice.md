@@ -2,7 +2,9 @@
 draft = false
 title = "spice 0.15.1-2"
 version = "0.15.1-2"
+date = "2023-03-24T11:03:30"
 categories = ['xlib-extra']
+upstreamurl = "http://spice-space.org"
 arch = "x86_64"
 size = "330216"
 usize = "1181951"

@@ -2,7 +2,9 @@
 draft = false
 title = "klickety 23.04.2-2"
 version = "23.04.2-2"
+date = "2023-06-21T10:06:23"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1592696"
 usize = "3099354"

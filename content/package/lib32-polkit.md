@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-polkit 121-2"
 version = "121-2"
+date = "2022-08-26T20:24:24"
 categories = ['lib32-extra']
+upstreamurl = "http://www.freedesktop.org/wiki/Software/polkit"
 arch = "x86_64"
 size = "68340"
 usize = "370137"

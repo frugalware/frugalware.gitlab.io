@@ -2,7 +2,9 @@
 draft = false
 title = "iso-relax 20050331-4"
 version = "20050331-4"
+date = "2022-02-21T12:29:52"
 categories = ['devel-extra']
+upstreamurl = "https://sourceforge.net/projects/iso-relax"
 arch = "x86_64"
 size = "38672"
 usize = "182514"

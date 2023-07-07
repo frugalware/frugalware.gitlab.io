@@ -2,7 +2,9 @@
 draft = false
 title = "alembic 1.8.5-1"
 version = "1.8.5-1"
+date = "2023-06-06T19:55:46"
 categories = ['lib-extra']
+upstreamurl = "http://www.alembic.io"
 arch = "x86_64"
 size = "753564"
 usize = "3290056"

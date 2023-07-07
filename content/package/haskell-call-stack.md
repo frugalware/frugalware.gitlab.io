@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-call-stack 0.4.0-5"
 version = "0.4.0-5"
+date = "2023-03-20T13:08:30"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/call-stack"
 arch = "x86_64"
 size = "47552"
 usize = "238070"

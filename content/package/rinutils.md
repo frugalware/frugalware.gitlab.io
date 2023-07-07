@@ -2,7 +2,9 @@
 draft = false
 title = "rinutils 0.10.1-1"
 version = "0.10.1-1"
+date = "2023-03-07T11:56:41"
 categories = ['lib-extra']
+upstreamurl = "https://www.shlomifish.org/open-source/projects/"
 arch = "x86_64"
 size = "7192"
 usize = "24005"

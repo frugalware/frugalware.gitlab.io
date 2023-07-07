@@ -2,7 +2,9 @@
 draft = false
 title = "sourcecodepro-fonts 1.030R-3"
 version = "1.030R-3"
+date = "2018-02-10T13:31:36"
 categories = ['fonts-extra']
+upstreamurl = "https://github.com/adobe-fonts/"
 arch = "x86_64"
 size = "1282944"
 usize = "4371411"

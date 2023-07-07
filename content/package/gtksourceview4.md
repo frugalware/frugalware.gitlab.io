@@ -2,7 +2,9 @@
 draft = false
 title = "gtksourceview4 4.8.4-1"
 version = "4.8.4-1"
+date = "2023-02-26T19:49:54"
 categories = ['gnome']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "835676"
 usize = "5928444"

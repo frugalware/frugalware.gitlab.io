@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libmp4v2 5.0.1-1"
 version = "5.0.1-1"
+date = "2022-01-20T09:35:31"
 categories = ['lib32-extra']
+upstreamurl = "https://github.com/Techsmith/mp4v2"
 arch = "x86_64"
 size = "337540"
 usize = "1376173"

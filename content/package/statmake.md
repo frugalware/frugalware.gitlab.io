@@ -2,7 +2,9 @@
 draft = false
 title = "statmake 0.6.0-1"
 version = "0.6.0-1"
+date = "2023-02-27T14:48:33"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/statmake"
 arch = "x86_64"
 size = "21692"
 usize = "68740"

@@ -2,7 +2,9 @@
 draft = false
 title = "mutagen 1.46.0-1"
 version = "1.46.0-1"
+date = "2022-12-27T21:15:51"
 categories = ['apps']
+upstreamurl = "https://mutagen.readthedocs.io"
 arch = "x86_64"
 size = "356968"
 usize = "1601266"

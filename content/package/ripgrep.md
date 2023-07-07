@@ -2,7 +2,9 @@
 draft = false
 title = "ripgrep 13.0.0-2"
 version = "13.0.0-2"
+date = "2022-02-02T20:42:00"
 categories = ['apps']
+upstreamurl = "https://github.com/BurntSushi/ripgrep"
 arch = "x86_64"
 size = "1192776"
 usize = "4330421"

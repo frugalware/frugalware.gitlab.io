@@ -2,7 +2,9 @@
 draft = false
 title = "argyllcms 1.9.2-5"
 version = "1.9.2-5"
+date = "2022-01-19T13:17:39"
 categories = ['xlib']
+upstreamurl = "http://www.argyllcms.com/"
 arch = "x86_64"
 size = "3530088"
 usize = "11711856"

@@ -2,7 +2,9 @@
 draft = false
 title = "cppzmq 4.8.1-1"
 version = "4.8.1-1"
+date = "2022-09-14T08:40:18"
 categories = ['devel-extra']
+upstreamurl = "http://zeromq.org/"
 arch = "x86_64"
 size = "23752"
 usize = "119008"

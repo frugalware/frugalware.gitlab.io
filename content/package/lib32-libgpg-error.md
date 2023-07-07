@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libgpg-error 1.47-1"
 version = "1.47-1"
+date = "2023-04-07T14:31:31"
 categories = ['lib32-extra']
+upstreamurl = "http://www.gnupg.org"
 arch = "x86_64"
 size = "101292"
 usize = "382810"

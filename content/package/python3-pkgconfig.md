@@ -2,7 +2,9 @@
 draft = false
 title = "python3-pkgconfig 1.5.5-5"
 version = "1.5.5-5"
+date = "2022-10-28T09:11:55"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/pkgconfig"
 arch = "x86_64"
 size = "12008"
 usize = "32231"

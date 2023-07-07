@@ -2,7 +2,9 @@
 draft = false
 title = "qbs 1.24.0-2"
 version = "1.24.0-2"
+date = "2023-06-13T13:16:37"
 categories = ['devel-extra']
+upstreamurl = "http://doc.qt.io/qbs/index.html"
 arch = "x86_64"
 size = "2251176"
 usize = "9314467"

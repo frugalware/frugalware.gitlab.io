@@ -2,7 +2,9 @@
 draft = false
 title = "perl-try-tiny 0.31-1"
 version = "0.31-1"
+date = "2022-03-03T16:07:30"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "19116"
 usize = "32769"

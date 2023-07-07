@@ -2,7 +2,9 @@
 draft = false
 title = "seatd 0.7.0-1"
 version = "0.7.0-1"
+date = "2023-03-06T10:07:50"
 categories = ['apps-extra']
+upstreamurl = "https://sr.ht/~kennylevinsen/seatd/"
 arch = "x86_64"
 size = "34872"
 usize = "116099"

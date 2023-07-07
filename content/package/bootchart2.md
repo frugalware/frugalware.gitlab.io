@@ -2,7 +2,9 @@
 draft = false
 title = "bootchart2 0.14.9-4"
 version = "0.14.9-4"
+date = "2022-11-02T20:01:52"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/mmeeks/bootchart"
 arch = "x86_64"
 size = "99372"
 usize = "464417"

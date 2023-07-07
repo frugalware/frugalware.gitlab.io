@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-hsyaml 0.2.1.1-5"
 version = "0.2.1.1-5"
+date = "2023-03-20T15:16:12"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/HsYAML"
 arch = "x86_64"
 size = "678280"
 usize = "8732111"

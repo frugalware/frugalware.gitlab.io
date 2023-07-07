@@ -2,7 +2,9 @@
 draft = false
 title = "kexec-tools 2.0.26-1"
 version = "2.0.26-1"
+date = "2023-01-09T13:56:58"
 categories = ['apps-extra']
+upstreamurl = "http://kernel.org/pub/linux/utils/kernel/kexec/"
 arch = "x86_64"
 size = "100372"
 usize = "320112"

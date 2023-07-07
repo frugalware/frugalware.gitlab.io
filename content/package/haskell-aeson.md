@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-aeson 2.1.2.1-3"
 version = "2.1.2.1-3"
+date = "2023-03-20T19:55:39"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/aeson"
 arch = "x86_64"
 size = "1763860"
 usize = "23955709"

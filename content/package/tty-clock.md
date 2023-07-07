@@ -2,7 +2,9 @@
 draft = false
 title = "tty-clock 2.3-1"
 version = "2.3-1"
+date = "2019-01-20T11:03:52"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/xorg62/tty-clock"
 arch = "x86_64"
 size = "9004"
 usize = "68011"

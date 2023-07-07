@@ -2,7 +2,9 @@
 draft = false
 title = "bridge-utils 1.7.1-2"
 version = "1.7.1-2"
+date = "2022-01-31T13:45:49"
 categories = ['network']
+upstreamurl = "http://linux-net.osdl.org/index.php/Bridge"
 arch = "x86_64"
 size = "24516"
 usize = "66177"

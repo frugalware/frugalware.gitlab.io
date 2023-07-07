@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-sdl2_mixer 2.6.2-1"
 version = "2.6.2-1"
+date = "2022-10-06T11:16:13"
 categories = ['lib32-extra']
+upstreamurl = "http://www.libsdl.org/projects/SDL_mixer/"
 arch = "x86_64"
 size = "143332"
 usize = "405151"

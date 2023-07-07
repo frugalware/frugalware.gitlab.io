@@ -2,7 +2,9 @@
 draft = false
 title = "sz 2.1.12.2-2"
 version = "2.1.12.2-2"
+date = "2022-06-12T18:40:12"
 categories = ['lib-extra']
+upstreamurl = "https://szcompressor.org/"
 arch = "x86_64"
 size = "367136"
 usize = "1349056"

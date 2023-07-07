@@ -2,7 +2,9 @@
 draft = false
 title = "lessc 4.1.3-2"
 version = "4.1.3-2"
+date = "2022-11-21T20:34:53"
 categories = ['devel-extra']
+upstreamurl = "http://lesscss.org/"
 arch = "x86_64"
 size = "720352"
 usize = "4739409"

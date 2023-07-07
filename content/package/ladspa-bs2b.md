@@ -2,7 +2,9 @@
 draft = false
 title = "ladspa-bs2b 0.9.1-4"
 version = "0.9.1-4"
+date = "2022-02-08T21:19:47"
 categories = ['lib-extra']
+upstreamurl = "https://sourceforge.net/projects/bs2b"
 arch = "x86_64"
 size = "11440"
 usize = "41152"

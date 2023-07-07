@@ -2,7 +2,9 @@
 draft = false
 title = "nasm 2.16.01-1"
 version = "2.16.01-1"
+date = "2023-01-24T18:45:57"
 categories = ['devel-extra']
+upstreamurl = "http://www.nasm.us/"
 arch = "x86_64"
 size = "390076"
 usize = "3530310"

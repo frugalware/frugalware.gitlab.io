@@ -2,7 +2,9 @@
 draft = false
 title = "terminus-font 4.49.1-1"
 version = "4.49.1-1"
+date = "2021-03-18T12:49:00"
 categories = ['fonts-extra']
+upstreamurl = "https://sourceforge.net/projects/terminus-font"
 arch = "x86_64"
 size = "421032"
 usize = "508053"

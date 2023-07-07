@@ -2,7 +2,9 @@
 draft = false
 title = "noip2 2.1.9-5"
 version = "2.1.9-5"
+date = "2018-02-10T19:14:07"
 categories = ['network-extra']
+upstreamurl = "http://www.noip.com/"
 arch = "x86_64"
 size = "56124"
 usize = "168485"

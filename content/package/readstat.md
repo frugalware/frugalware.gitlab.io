@@ -2,7 +2,9 @@
 draft = false
 title = "readstat 1.1.9-1"
 version = "1.1.9-1"
+date = "2023-03-06T09:38:42"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/WizardMac/ReadStat"
 arch = "x86_64"
 size = "138348"
 usize = "414976"

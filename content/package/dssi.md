@@ -2,7 +2,9 @@
 draft = false
 title = "dssi 1.1.1-3"
 version = "1.1.1-3"
+date = "2022-07-29T09:26:08"
 categories = ['apps-extra']
+upstreamurl = "http://dssi.sourceforge.net/index.html"
 arch = "x86_64"
 size = "66176"
 usize = "242982"

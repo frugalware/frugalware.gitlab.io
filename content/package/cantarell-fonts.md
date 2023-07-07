@@ -2,7 +2,9 @@
 draft = false
 title = "cantarell-fonts 0.303-1"
 version = "0.303-1"
+date = "2022-01-18T15:46:19"
 categories = ['x11', 'xorg-core', 'xorg-fonts']
+upstreamurl = "https://download.gnome.org/sources/cantarell-fonts"
 arch = "x86_64"
 size = "110996"
 usize = "211860"

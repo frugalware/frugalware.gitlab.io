@@ -2,7 +2,9 @@
 draft = false
 title = "cef 105.3.25-3"
 version = "105.3.25-3"
+date = "2022-09-05T08:03:25"
 categories = ['lib-extra']
+upstreamurl = "https://bitbucket.org/chromiumembedded/cef"
 arch = "x86_64"
 size = "293170532"
 usize = "1641113666"

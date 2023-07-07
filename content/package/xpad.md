@@ -2,7 +2,9 @@
 draft = false
 title = "xpad 5.8.0-1"
 version = "5.8.0-1"
+date = "2023-02-26T19:53:57"
 categories = ['xapps-extra']
+upstreamurl = "https://launchpad.net/xpad"
 arch = "x86_64"
 size = "113824"
 usize = "437771"

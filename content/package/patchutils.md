@@ -2,7 +2,9 @@
 draft = false
 title = "patchutils 0.4.2-1"
 version = "0.4.2-1"
+date = "2022-03-15T09:42:54"
 categories = ['devel-extra']
+upstreamurl = "http://cyberelk.net/tim/patchutils/"
 arch = "x86_64"
 size = "92020"
 usize = "308478"

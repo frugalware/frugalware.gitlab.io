@@ -2,7 +2,9 @@
 draft = false
 title = "python3-sqlalchemy 2.0.6-1"
 version = "2.0.6-1"
+date = "2023-03-14T13:02:18"
 categories = ['devel-extra']
+upstreamurl = "http://www.sqlalchemy.org/"
 arch = "x86_64"
 size = "2878228"
 usize = "16761090"

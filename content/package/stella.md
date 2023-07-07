@@ -2,7 +2,9 @@
 draft = false
 title = "stella 6.7-1"
 version = "6.7-1"
+date = "2022-09-14T08:00:38"
 categories = ['games-extra']
+upstreamurl = "https://stella-emu.github.io"
 arch = "x86_64"
 size = "2731168"
 usize = "10536364"

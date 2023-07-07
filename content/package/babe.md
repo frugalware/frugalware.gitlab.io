@@ -2,7 +2,9 @@
 draft = false
 title = "babe 20200620.g116b7cd-1"
 version = "20200620.g116b7cd-1"
+date = "2020-06-20T18:03:21"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "524624"
 usize = "1576533"

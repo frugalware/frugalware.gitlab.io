@@ -2,7 +2,9 @@
 draft = false
 title = "physfs 3.0.2-1"
 version = "3.0.2-1"
+date = "2022-02-15T10:18:02"
 categories = ['lib-extra']
+upstreamurl = "http://icculus.org/physfs"
 arch = "x86_64"
 size = "103076"
 usize = "366923"

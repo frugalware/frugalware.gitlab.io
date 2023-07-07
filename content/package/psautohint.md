@@ -2,7 +2,9 @@
 draft = false
 title = "psautohint 2.3.1-4"
 version = "2.3.1-4"
+date = "2022-11-03T00:05:15"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/psautohint"
 arch = "x86_64"
 size = "171580"
 usize = "593085"

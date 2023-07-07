@@ -2,7 +2,9 @@
 draft = false
 title = "python3-netifaces 0.11.0-5"
 version = "0.11.0-5"
+date = "2022-10-27T17:49:54"
 categories = ['lib-extra']
+upstreamurl = "http://alastairs-place.net/projects/netifaces"
 arch = "x86_64"
 size = "11300"
 usize = "41150"

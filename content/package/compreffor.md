@@ -2,7 +2,9 @@
 draft = false
 title = "compreffor 0.5.3-1"
 version = "0.5.3-1"
+date = "2023-02-27T14:57:31"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/compreffor"
 arch = "x86_64"
 size = "87696"
 usize = "289995"

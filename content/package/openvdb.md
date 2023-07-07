@@ -2,7 +2,9 @@
 draft = false
 title = "openvdb 10.0.1-2"
 version = "10.0.1-2"
+date = "2023-04-21T08:28:37"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/dreamworksanimation/openvdb"
 arch = "x86_64"
 size = "4516504"
 usize = "39097479"

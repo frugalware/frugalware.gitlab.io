@@ -2,7 +2,9 @@
 draft = false
 title = "mbrola 3.3-1"
 version = "3.3-1"
+date = "2020-02-20T13:52:38"
 categories = ['apps-extra']
+upstreamurl = "http://tcts.fpms.ac.be/synthesis/mbrola/"
 arch = "x86_64"
 size = "37448"
 usize = "102754"

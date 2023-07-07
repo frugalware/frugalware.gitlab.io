@@ -2,7 +2,9 @@
 draft = false
 title = "clucene 2.3.3.4-11"
 version = "2.3.3.4-11"
+date = "2022-07-17T15:47:29"
 categories = ['apps']
+upstreamurl = "https://sourceforge.net/projects/clucene"
 arch = "x86_64"
 size = "756476"
 usize = "3420644"

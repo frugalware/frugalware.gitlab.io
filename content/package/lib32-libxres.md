@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libxres 1.2.2-1"
 version = "1.2.2-1"
+date = "2022-12-08T09:16:44"
 categories = ['lib32-extra']
+upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "7388"
 usize = "16813"

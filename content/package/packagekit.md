@@ -2,7 +2,9 @@
 draft = false
 title = "packagekit 1.2.5-2"
 version = "1.2.5-2"
+date = "2022-11-04T12:05:19"
 categories = ['apps-extra']
+upstreamurl = "http://www.packagekit.org/"
 arch = "x86_64"
 size = "568500"
 usize = "4195545"

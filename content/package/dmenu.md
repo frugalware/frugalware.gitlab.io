@@ -2,7 +2,9 @@
 draft = false
 title = "dmenu 5.2-1"
 version = "5.2-1"
+date = "2022-12-19T14:59:53"
 categories = ['x11-extra']
+upstreamurl = "http://tools.suckless.org/dmenu/"
 arch = "x86_64"
 size = "17760"
 usize = "53502"

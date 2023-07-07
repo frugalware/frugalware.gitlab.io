@@ -2,7 +2,9 @@
 draft = false
 title = "re2c 1.0.1-3"
 version = "1.0.1-3"
+date = "2021-10-12T15:30:04"
 categories = ['devel']
+upstreamurl = "http://re2c.org/"
 arch = "x86_64"
 size = "195180"
 usize = "538479"

@@ -2,7 +2,9 @@
 draft = false
 title = "tox-core 0.2.18-2"
 version = "0.2.18-2"
+date = "2023-02-14T09:57:27"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/TokTok/c-toxcore"
 arch = "x86_64"
 size = "254580"
 usize = "840958"

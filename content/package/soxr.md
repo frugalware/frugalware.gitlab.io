@@ -2,7 +2,9 @@
 draft = false
 title = "soxr 0.1.3-2"
 version = "0.1.3-2"
+date = "2021-12-26T21:47:53"
 categories = ['lib']
+upstreamurl = "https://sourceforge.net/projects/soxr"
 arch = "x86_64"
 size = "88048"
 usize = "278398"

@@ -2,7 +2,9 @@
 draft = false
 title = "sysprof 3.46.0-1"
 version = "3.46.0-1"
+date = "2023-02-01T14:35:33"
 categories = ['xapps-extra']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "487400"
 usize = "2301662"

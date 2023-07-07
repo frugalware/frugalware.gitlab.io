@@ -2,7 +2,9 @@
 draft = false
 title = "libstaroffice 0.0.7-3"
 version = "0.0.7-3"
+date = "2022-07-17T17:04:49"
 categories = ['xoffice']
+upstreamurl = "https://github.com/fosnola/libstaroffice/wiki"
 arch = "x86_64"
 size = "689624"
 usize = "2410299"

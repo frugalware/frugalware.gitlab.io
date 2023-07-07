@@ -2,7 +2,9 @@
 draft = false
 title = "libnetfilter_log 1.0.2-1"
 version = "1.0.2-1"
+date = "2022-02-15T15:53:49"
 categories = ['lib-extra']
+upstreamurl = "http://netfilter.org/projects/libnetfilter_log/index.html"
 arch = "x86_64"
 size = "17596"
 usize = "63277"

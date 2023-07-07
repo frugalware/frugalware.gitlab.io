@@ -2,7 +2,9 @@
 draft = false
 title = "emacs 28.2-2"
 version = "28.2-2"
+date = "2023-03-14T10:08:35"
 categories = ['xapps-extra']
+upstreamurl = "http://www.gnu.org/software/emacs/"
 arch = "x86_64"
 size = "41498728"
 usize = "117345674"

@@ -2,7 +2,9 @@
 draft = false
 title = "wireless-regdb 2023.05.03-1"
 version = "2023.05.03-1"
+date = "2023-05-06T20:33:12"
 categories = ['base']
+upstreamurl = "http://wireless.kernel.org/en/developers/Regulatory/CRDA"
 arch = "x86_64"
 size = "9892"
 usize = "15835"

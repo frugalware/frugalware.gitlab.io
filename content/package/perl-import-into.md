@@ -2,7 +2,9 @@
 draft = false
 title = "perl-import-into 1.002005-1"
 version = "1.002005-1"
+date = "2022-02-15T13:56:31"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "9488"
 usize = "20333"

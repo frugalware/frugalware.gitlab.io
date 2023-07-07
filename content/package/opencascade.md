@@ -2,7 +2,9 @@
 draft = false
 title = "opencascade 7.6.3-1"
 version = "7.6.3-1"
+date = "2023-03-27T09:42:29"
 categories = ['xlib-extra']
+upstreamurl = "https://dev.opencascade.org"
 arch = "x86_64"
 size = "31225796"
 usize = "155640942"

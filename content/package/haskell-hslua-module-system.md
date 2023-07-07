@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-hslua-module-system 1.1.0-2"
 version = "1.1.0-2"
+date = "2023-03-20T19:08:56"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/hslua-module-system"
 arch = "x86_64"
 size = "107708"
 usize = "883765"

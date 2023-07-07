@@ -2,7 +2,9 @@
 draft = false
 title = "libsepol 3.5-1"
 version = "3.5-1"
+date = "2023-03-07T10:28:17"
 categories = ['lib-extra']
+upstreamurl = "http://userspace.selinuxproject.org"
 arch = "x86_64"
 size = "440544"
 usize = "2548361"

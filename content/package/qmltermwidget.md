@@ -2,7 +2,9 @@
 draft = false
 title = "qmltermwidget 0.2.0-2"
 version = "0.2.0-2"
+date = "2023-06-13T18:11:50"
 categories = ['xlib-extra']
+upstreamurl = "https://github.com/Swordfish90/qmltermwidget"
 arch = "x86_64"
 size = "210948"
 usize = "727863"

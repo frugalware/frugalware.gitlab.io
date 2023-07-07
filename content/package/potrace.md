@@ -2,7 +2,9 @@
 draft = false
 title = "potrace 1.16-4"
 version = "1.16-4"
+date = "2022-07-17T17:29:04"
 categories = ['apps-extra']
+upstreamurl = "http://potrace.sourceforge.net"
 arch = "x86_64"
 size = "108788"
 usize = "281122"

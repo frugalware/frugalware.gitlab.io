@@ -2,7 +2,9 @@
 draft = false
 title = "sbc 2.0-1"
 version = "2.0-1"
+date = "2022-09-02T13:09:26"
 categories = ['apps']
+upstreamurl = "http://www.bluez.org"
 arch = "x86_64"
 size = "57940"
 usize = "261710"

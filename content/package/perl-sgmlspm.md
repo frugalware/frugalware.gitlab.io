@@ -2,7 +2,9 @@
 draft = false
 title = "perl-sgmlspm 1.1-7"
 version = "1.1-7"
+date = "2022-12-19T16:17:29"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "34936"
 usize = "92377"

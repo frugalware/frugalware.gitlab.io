@@ -2,7 +2,9 @@
 draft = false
 title = "media-player-info 24-3"
 version = "24-3"
+date = "2022-01-14T20:50:51"
 categories = ['lib']
+upstreamurl = "http://cgit.freedesktop.org/media-player-info/"
 arch = "x86_64"
 size = "21988"
 usize = "192878"

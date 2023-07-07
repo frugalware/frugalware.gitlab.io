@@ -2,7 +2,9 @@
 draft = false
 title = "autogen 5.18.16-5"
 version = "5.18.16-5"
+date = "2021-12-14T09:23:38"
 categories = ['devel-extra']
+upstreamurl = "http://www.gnu.org/software/autogen/"
 arch = "x86_64"
 size = "664192"
 usize = "1477021"

@@ -2,7 +2,9 @@
 draft = false
 title = "intel-media-sdk 22.5.4-1"
 version = "22.5.4-1"
+date = "2022-12-29T08:10:05"
 categories = ['devel-extra']
+upstreamurl = "https://software.intel.com/en-us/media-sdk/"
 arch = "x86_64"
 size = "14141948"
 usize = "74997310"

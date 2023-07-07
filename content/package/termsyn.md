@@ -2,7 +2,9 @@
 draft = false
 title = "termsyn 1.8.7-5"
 version = "1.8.7-5"
+date = "2018-02-10T13:33:50"
 categories = ['fonts-extra']
+upstreamurl = "http://sourceforge.net/projects/termsyn"
 arch = "x86_64"
 size = "147064"
 usize = "170796"

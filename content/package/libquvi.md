@@ -2,7 +2,9 @@
 draft = false
 title = "libquvi 0.9.4-13"
 version = "0.9.4-13"
+date = "2022-01-24T20:43:37"
 categories = ['xlib']
+upstreamurl = "https://sourceforge.net/projects/quvi"
 arch = "x86_64"
 size = "87760"
 usize = "383887"

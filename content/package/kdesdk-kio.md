@@ -2,7 +2,9 @@
 draft = false
 title = "kdesdk-kio 23.04.2-2"
 version = "23.04.2-2"
+date = "2023-06-21T12:14:43"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "45144"
 usize = "207992"

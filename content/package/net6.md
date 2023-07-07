@@ -2,7 +2,9 @@
 draft = false
 title = "net6 1.3.14-7"
 version = "1.3.14-7"
+date = "2022-02-13T20:50:15"
 categories = ['lib-extra']
+upstreamurl = "http://releases.0x539.de/net6/"
 arch = "x86_64"
 size = "93940"
 usize = "415625"

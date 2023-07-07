@@ -2,7 +2,9 @@
 draft = false
 title = "iscsi 2.1.8-2"
 version = "2.1.8-2"
+date = "2023-03-15T20:30:24"
 categories = ['network-extra']
+upstreamurl = "https://github.com/open-iscsi/open-iscsi"
 arch = "x86_64"
 size = "419076"
 usize = "1567978"

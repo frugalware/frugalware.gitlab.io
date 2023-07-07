@@ -2,7 +2,9 @@
 draft = false
 title = "cu2qu 1.6.7-4"
 version = "1.6.7-4"
+date = "2022-11-02T20:21:08"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/cu2qu"
 arch = "x86_64"
 size = "106008"
 usize = "731210"

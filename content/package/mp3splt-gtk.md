@@ -2,7 +2,9 @@
 draft = false
 title = "mp3splt-gtk 0.9.2-7"
 version = "0.9.2-7"
+date = "2022-04-12T07:00:46"
 categories = ['multimedia-extra']
+upstreamurl = "https://sourceforge.net/projects/mp3splt"
 arch = "x86_64"
 size = "139280"
 usize = "470240"

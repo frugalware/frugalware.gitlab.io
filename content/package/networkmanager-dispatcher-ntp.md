@@ -2,7 +2,9 @@
 draft = false
 title = "networkmanager-dispatcher-ntp 1.0-2"
 version = "1.0-2"
+date = "2018-02-10T14:44:37"
 categories = ['network-extra']
+upstreamurl = "http://www.gnome.org/projects/NetworkManager"
 arch = "x86_64"
 size = "800"
 usize = "298"

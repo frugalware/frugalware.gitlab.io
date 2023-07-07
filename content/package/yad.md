@@ -2,7 +2,9 @@
 draft = false
 title = "yad 12.3-1"
 version = "12.3-1"
+date = "2023-03-06T14:16:10"
 categories = ['xlib-extra']
+upstreamurl = "https://github.com/v1cont/yad"
 arch = "x86_64"
 size = "209204"
 usize = "659289"

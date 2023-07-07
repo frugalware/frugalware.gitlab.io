@@ -2,7 +2,9 @@
 draft = false
 title = "sylpheed 3.7-8"
 version = "3.7-8"
+date = "2023-03-16T03:15:13"
 categories = ['xapps-extra']
+upstreamurl = "http://sylpheed.sraoss.jp"
 arch = "x86_64"
 size = "1610088"
 usize = "7753583"

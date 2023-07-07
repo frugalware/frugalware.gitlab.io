@@ -2,7 +2,9 @@
 draft = false
 title = "nv-codec-headers 11.1.5.2-1"
 version = "11.1.5.2-1"
+date = "2022-12-25T13:13:19"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/FFmpeg/nv-codec-headers"
 arch = "x86_64"
 size = "76684"
 usize = "432505"

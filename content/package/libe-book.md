@@ -2,7 +2,9 @@
 draft = false
 title = "libe-book 0.1.3-12"
 version = "0.1.3-12"
+date = "2023-04-20T18:09:27"
 categories = ['xoffice']
+upstreamurl = "https://sourceforge.net/projects/libebook"
 arch = "x86_64"
 size = "169472"
 usize = "609990"

@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-skylighting-format-context 0.1.0.2-3"
 version = "0.1.0.2-3"
+date = "2023-03-21T12:08:26"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/skylighting-format-context"
 arch = "x86_64"
 size = "57652"
 usize = "291476"

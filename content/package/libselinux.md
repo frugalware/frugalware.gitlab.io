@@ -2,7 +2,9 @@
 draft = false
 title = "libselinux 3.5-1"
 version = "3.5-1"
+date = "2023-03-07T10:55:54"
 categories = ['lib-extra']
+upstreamurl = "http://userspace.selinuxproject.org"
 arch = "x86_64"
 size = "479116"
 usize = "2081005"

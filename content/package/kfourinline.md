@@ -2,7 +2,9 @@
 draft = false
 title = "kfourinline 23.04.2-2"
 version = "23.04.2-2"
+date = "2023-06-21T09:57:43"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "810928"
 usize = "6241032"

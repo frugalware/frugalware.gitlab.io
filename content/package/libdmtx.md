@@ -2,7 +2,9 @@
 draft = false
 title = "libdmtx 0.7.7-1"
 version = "0.7.7-1"
+date = "2022-08-28T15:20:02"
 categories = ['lib']
+upstreamurl = "https://github.com/dmtx/libdmtx"
 arch = "x86_64"
 size = "58648"
 usize = "157303"

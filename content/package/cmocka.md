@@ -2,7 +2,9 @@
 draft = false
 title = "cmocka 1.1.7-1"
 version = "1.1.7-1"
+date = "2023-02-27T14:47:44"
 categories = ['devel-extra']
+upstreamurl = "https://cmocka.org/"
 arch = "x86_64"
 size = "37568"
 usize = "154963"

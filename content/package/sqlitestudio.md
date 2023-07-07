@@ -2,7 +2,9 @@
 draft = false
 title = "sqlitestudio 3.4.4-1"
 version = "3.4.4-1"
+date = "2023-06-15T17:58:56"
 categories = ['xapps-extra']
+upstreamurl = "http://sqlitestudio.pl"
 arch = "x86_64"
 size = "3603240"
 usize = "11071497"

@@ -2,7 +2,9 @@
 draft = false
 title = "m17n-lib 1.8.0-3"
 version = "1.8.0-3"
+date = "2022-05-17T16:28:10"
 categories = ['xlib-extra']
+upstreamurl = "http://www.m17n.org/"
 arch = "x86_64"
 size = "319636"
 usize = "989867"

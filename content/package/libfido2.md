@@ -2,7 +2,9 @@
 draft = false
 title = "libfido2 1.13.0-2"
 version = "1.13.0-2"
+date = "2023-03-15T21:00:22"
 categories = ['lib']
+upstreamurl = "https://developers.yubico.com/libfido2/"
 arch = "x86_64"
 size = "182424"
 usize = "514505"

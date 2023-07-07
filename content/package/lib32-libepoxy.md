@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libepoxy 1.5.10-1"
 version = "1.5.10-1"
+date = "2022-08-12T11:26:27"
 categories = ['lib32-extra']
+upstreamurl = "https://github.com/anholt/libepoxy"
 arch = "x86_64"
 size = "305696"
 usize = "2786795"

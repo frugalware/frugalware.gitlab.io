@@ -2,7 +2,9 @@
 draft = false
 title = "iotop 1.22-1"
 version = "1.22-1"
+date = "2022-12-10T18:39:25"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/Tomas-M/iotop"
 arch = "x86_64"
 size = "50912"
 usize = "125692"

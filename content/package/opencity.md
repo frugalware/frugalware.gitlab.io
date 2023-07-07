@@ -2,7 +2,9 @@
 draft = false
 title = "opencity 0.0.6.5-2"
 version = "0.0.6.5-2"
+date = "2016-08-23T14:45:52"
 categories = ['games-extra']
+upstreamurl = "http://www.opencity.info/"
 arch = "x86_64"
 size = "7860648"
 usize = "9333699"

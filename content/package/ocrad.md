@@ -2,7 +2,9 @@
 draft = false
 title = "ocrad 0.28-1"
 version = "0.28-1"
+date = "2022-02-03T09:09:15"
 categories = ['apps']
+upstreamurl = "http://www.gnu.org/software/ocrad/ocrad.html"
 arch = "x86_64"
 size = "145168"
 usize = "320219"

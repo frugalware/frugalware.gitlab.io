@@ -2,7 +2,9 @@
 draft = false
 title = "subversion 1.14.2-2"
 version = "1.14.2-2"
+date = "2022-11-03T07:23:53"
 categories = ['devel-extra']
+upstreamurl = "http://subversion.apache.org/"
 arch = "x86_64"
 size = "3136524"
 usize = "12535006"

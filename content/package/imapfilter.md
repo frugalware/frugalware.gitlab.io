@@ -2,7 +2,9 @@
 draft = false
 title = "imapfilter 2.7.5-3"
 version = "2.7.5-3"
+date = "2023-03-15T20:26:42"
 categories = ['network-extra']
+upstreamurl = "http://imapfilter.hellug.gr/"
 arch = "x86_64"
 size = "59364"
 usize = "216651"

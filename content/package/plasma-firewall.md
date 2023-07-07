@@ -2,7 +2,9 @@
 draft = false
 title = "plasma-firewall 5.27.6-1"
 version = "5.27.6-1"
+date = "2023-06-21T07:30:28"
 categories = ['plasma']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "433536"
 usize = "1206996"

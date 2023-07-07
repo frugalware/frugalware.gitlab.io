@@ -2,7 +2,9 @@
 draft = false
 title = "loudmouth 1.5.4-2"
 version = "1.5.4-2"
+date = "2022-02-02T17:48:40"
 categories = ['apps']
+upstreamurl = "https://mcabber.com"
 arch = "x86_64"
 size = "57036"
 usize = "185538"

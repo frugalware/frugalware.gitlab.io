@@ -2,7 +2,9 @@
 draft = false
 title = "libmnl 1.0.5-2"
 version = "1.0.5-2"
+date = "2022-07-26T07:39:55"
 categories = ['base']
+upstreamurl = "http://netfilter.org/projects/libmnl/index.html"
 arch = "x86_64"
 size = "18844"
 usize = "62896"

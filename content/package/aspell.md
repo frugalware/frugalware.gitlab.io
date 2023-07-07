@@ -2,7 +2,9 @@
 draft = false
 title = "aspell 0.60.8-3"
 version = "0.60.8-3"
+date = "2022-02-02T16:46:34"
 categories = ['apps']
+upstreamurl = "http://aspell.net/"
 arch = "x86_64"
 size = "624308"
 usize = "3414662"

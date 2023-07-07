@@ -2,7 +2,9 @@
 draft = false
 title = "paramiko 2.12.0-1"
 version = "2.12.0-1"
+date = "2022-12-12T12:26:03"
 categories = ['lib-extra']
+upstreamurl = "http://www.paramiko.org/"
 arch = "x86_64"
 size = "320916"
 usize = "1655259"

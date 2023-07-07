@@ -2,7 +2,9 @@
 draft = false
 title = "swt 4.26-2"
 version = "4.26-2"
+date = "2023-02-25T12:01:52"
 categories = ['xlib-extra']
+upstreamurl = "http://www.eclipse.org/swt"
 arch = "x86_64"
 size = "1368936"
 usize = "2501676"

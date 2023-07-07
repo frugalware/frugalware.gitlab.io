@@ -2,7 +2,9 @@
 draft = false
 title = "lame 3.100-6"
 version = "3.100-6"
+date = "2022-01-28T11:25:29"
 categories = ['multimedia']
+upstreamurl = "https://sourceforge.net/projects/lame"
 arch = "x86_64"
 size = "422200"
 usize = "1654418"

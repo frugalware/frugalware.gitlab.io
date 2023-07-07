@@ -2,7 +2,9 @@
 draft = false
 title = "freetype2 2.13.0-1"
 version = "2.13.0-1"
+date = "2023-02-10T16:40:25"
 categories = ['lib']
+upstreamurl = "https://sourceforge.net/projects/freetype"
 arch = "x86_64"
 size = "547144"
 usize = "1923273"

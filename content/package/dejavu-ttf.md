@@ -2,7 +2,9 @@
 draft = false
 title = "dejavu-ttf 2.37-5"
 version = "2.37-5"
+date = "2022-01-18T15:48:44"
 categories = ['x11', 'xorg-core', 'xorg-fonts']
+upstreamurl = "https://sourceforge.net/projects/dejavu"
 arch = "x86_64"
 size = "2791512"
 usize = "17410599"

@@ -2,7 +2,9 @@
 draft = false
 title = "innoextract 1.9-6"
 version = "1.9-6"
+date = "2023-04-21T09:43:44"
 categories = ['apps-extra']
+upstreamurl = "http://constexpr.org/innoextract/"
 arch = "x86_64"
 size = "183420"
 usize = "546201"

@@ -2,7 +2,9 @@
 draft = false
 title = "fluidsynth 2.3.1-1"
 version = "2.3.1-1"
+date = "2023-03-06T14:14:22"
 categories = ['lib-extra']
+upstreamurl = "http://www.fluidsynth.org/"
 arch = "x86_64"
 size = "241936"
 usize = "699244"

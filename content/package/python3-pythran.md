@@ -2,7 +2,9 @@
 draft = false
 title = "python3-pythran 0.12.1-1"
 version = "0.12.1-1"
+date = "2023-02-21T10:36:54"
 categories = ['devel-extra']
+upstreamurl = "https://pythran.readthedocs.io/"
 arch = "x86_64"
 size = "832196"
 usize = "6118274"

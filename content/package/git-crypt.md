@@ -2,7 +2,9 @@
 draft = false
 title = "git-crypt 0.7.0-2"
 version = "0.7.0-2"
+date = "2023-03-15T19:56:55"
 categories = ['apps-extra']
+upstreamurl = "https://www.agwa.name/projects/git-crypt/"
 arch = "x86_64"
 size = "77800"
 usize = "227052"

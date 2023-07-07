@@ -2,7 +2,9 @@
 draft = false
 title = "ucpp 1.3.5-2"
 version = "1.3.5-2"
+date = "2022-02-22T08:52:03"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/scarabeusiv/ucpp"
 arch = "x86_64"
 size = "80312"
 usize = "246322"

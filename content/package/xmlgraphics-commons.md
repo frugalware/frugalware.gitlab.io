@@ -2,7 +2,9 @@
 draft = false
 title = "xmlgraphics-commons 2.7-1"
 version = "2.7-1"
+date = "2022-03-15T10:26:47"
 categories = ['devel-extra']
+upstreamurl = "http://xmlgraphics.apache.org/commons/index.html"
 arch = "x86_64"
 size = "625468"
 usize = "699757"

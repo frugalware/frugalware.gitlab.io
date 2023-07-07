@@ -2,7 +2,9 @@
 draft = false
 title = "alicevision 2.4.0-6"
 version = "2.4.0-6"
+date = "2023-04-21T14:58:11"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/alicevision/alicevision"
 arch = "x86_64"
 size = "7410648"
 usize = "36954190"

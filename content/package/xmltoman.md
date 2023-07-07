@@ -2,7 +2,9 @@
 draft = false
 title = "xmltoman 0.4-2"
 version = "0.4-2"
+date = "2022-02-02T16:08:53"
 categories = ['apps-extra']
+upstreamurl = "https://sourceforge.net/projects/xmltoman"
 arch = "x86_64"
 size = "10628"
 usize = "34014"

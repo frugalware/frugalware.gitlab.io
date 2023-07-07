@@ -2,7 +2,9 @@
 draft = false
 title = "libvorbis 1.3.7-3"
 version = "1.3.7-3"
+date = "2022-01-28T12:37:06"
 categories = ['multimedia']
+upstreamurl = "http://www.vorbis.com/"
 arch = "x86_64"
 size = "286688"
 usize = "1526758"

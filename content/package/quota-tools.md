@@ -2,7 +2,9 @@
 draft = false
 title = "quota-tools 4.09-1"
 version = "4.09-1"
+date = "2023-01-08T19:29:18"
 categories = ['apps']
+upstreamurl = "http://sourceforge.net/projects/linuxquota/"
 arch = "x86_64"
 size = "206488"
 usize = "938299"

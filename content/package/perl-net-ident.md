@@ -2,7 +2,9 @@
 draft = false
 title = "perl-net-ident 1.25-1"
 version = "1.25-1"
+date = "2022-03-15T07:26:25"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "22708"
 usize = "62132"

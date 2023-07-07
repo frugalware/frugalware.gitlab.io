@@ -2,7 +2,9 @@
 draft = false
 title = "python3-css-parser 1.0.8-1"
 version = "1.0.8-1"
+date = "2023-02-21T09:51:41"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/ebook-utils/css-parser"
 arch = "x86_64"
 size = "307148"
 usize = "1596809"

@@ -2,7 +2,9 @@
 draft = false
 title = "python3-schema 0.7.5-3"
 version = "0.7.5-3"
+date = "2022-11-01T17:26:17"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/keleshev/schema"
 arch = "x86_64"
 size = "31304"
 usize = "142189"

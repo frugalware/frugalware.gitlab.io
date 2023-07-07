@@ -2,7 +2,9 @@
 draft = false
 title = "python3-feedparser 6.0.10-3"
 version = "6.0.10-3"
+date = "2022-10-27T17:14:06"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/feedparser"
 arch = "x86_64"
 size = "121364"
 usize = "582763"

@@ -2,7 +2,9 @@
 draft = false
 title = "antlr-openjava 2.7.7-4"
 version = "2.7.7-4"
+date = "2022-02-16T09:58:02"
 categories = ['devel-extra']
+upstreamurl = "http://www.antlr2.org/"
 arch = "x86_64"
 size = "709896"
 usize = "2648425"

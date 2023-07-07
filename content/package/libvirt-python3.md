@@ -2,7 +2,9 @@
 draft = false
 title = "libvirt-python3 9.1.0-1"
 version = "9.1.0-1"
+date = "2023-03-14T12:54:46"
 categories = ['xlib-extra']
+upstreamurl = "http://libvirt.org"
 arch = "x86_64"
 size = "289072"
 usize = "1732879"

@@ -2,7 +2,9 @@
 draft = false
 title = "radeontool 1.6.3-6"
 version = "1.6.3-6"
+date = "2022-02-09T09:15:43"
 categories = ['xapps']
+upstreamurl = "http://airlied.livejournal.com"
 arch = "x86_64"
 size = "53028"
 usize = "267516"

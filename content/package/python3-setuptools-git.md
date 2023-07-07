@@ -2,7 +2,9 @@
 draft = false
 title = "python3-setuptools-git 1.2-3"
 version = "1.2-3"
+date = "2022-10-31T20:08:15"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/setuptools-git"
 arch = "x86_64"
 size = "15408"
 usize = "65627"

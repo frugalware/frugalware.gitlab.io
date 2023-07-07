@@ -2,7 +2,9 @@
 draft = false
 title = "gtk+2-libs 2.24.32-8"
 version = "2.24.32-8"
+date = "2023-02-25T13:57:10"
 categories = ['xlib']
+upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
 size = "1764900"
 usize = "5376558"

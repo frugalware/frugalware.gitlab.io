@@ -2,7 +2,9 @@
 draft = false
 title = "less 633-1"
 version = "633-1"
+date = "2023-05-06T20:42:45"
 categories = ['base']
+upstreamurl = "http://www.greenwoodsoftware.com/less"
 arch = "x86_64"
 size = "155196"
 usize = "383825"

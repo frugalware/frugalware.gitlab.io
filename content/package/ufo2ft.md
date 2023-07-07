@@ -2,7 +2,9 @@
 draft = false
 title = "ufo2ft 2.24.0-4"
 version = "2.24.0-4"
+date = "2022-11-03T07:28:07"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/ufo2ft"
 arch = "x86_64"
 size = "160568"
 usize = "689855"

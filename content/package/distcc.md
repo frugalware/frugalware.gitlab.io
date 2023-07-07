@@ -2,7 +2,9 @@
 draft = false
 title = "distcc 3.4-3"
 version = "3.4-3"
+date = "2022-11-02T20:24:43"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/distcc/distcc"
 arch = "x86_64"
 size = "488300"
 usize = "1989896"

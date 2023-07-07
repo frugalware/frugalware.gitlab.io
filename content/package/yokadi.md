@@ -2,7 +2,9 @@
 draft = false
 title = "yokadi 1.2.0-4"
 version = "1.2.0-4"
+date = "2022-11-03T07:29:33"
 categories = ['apps-extra']
+upstreamurl = "http://yokadi.github.io"
 arch = "x86_64"
 size = "200208"
 usize = "885801"

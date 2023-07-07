@@ -2,7 +2,9 @@
 draft = false
 title = "pigz 2.7-1"
 version = "2.7-1"
+date = "2022-12-13T08:58:26"
 categories = ['apps-extra']
+upstreamurl = "http://www.zlib.net/pigz"
 arch = "x86_64"
 size = "66272"
 usize = "143708"

@@ -2,7 +2,9 @@
 draft = false
 title = "yin-yang 3.2.4-1"
 version = "3.2.4-1"
+date = "2023-05-18T17:14:14"
 categories = ['xapps-extra']
+upstreamurl = "https://github.com/oskarsh/Yin-Yang"
 arch = "x86_64"
 size = "475016"
 usize = "824223"

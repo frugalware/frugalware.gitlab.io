@@ -2,7 +2,9 @@
 draft = false
 title = "otf-texgyre 2.501-1"
 version = "2.501-1"
+date = "2018-05-16T19:24:11"
 categories = ['fonts-extra']
+upstreamurl = "http://www.gust.org.pl/projects/e-foundry/tex-gyre"
 arch = "x86_64"
 size = "1539184"
 usize = "4843488"

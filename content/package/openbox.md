@@ -2,7 +2,9 @@
 draft = false
 title = "openbox 3.6.1-6"
 version = "3.6.1-6"
+date = "2022-12-10T19:18:04"
 categories = ['x11-extra']
+upstreamurl = "http://openbox.org"
 arch = "x86_64"
 size = "340572"
 usize = "1299823"

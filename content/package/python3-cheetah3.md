@@ -2,7 +2,9 @@
 draft = false
 title = "python3-cheetah3 3.3.1-1"
 version = "3.3.1-1"
+date = "2023-02-21T09:43:16"
 categories = ['devel-extra']
+upstreamurl = "http://www.cheetahtemplate.org/"
 arch = "x86_64"
 size = "345312"
 usize = "1689869"

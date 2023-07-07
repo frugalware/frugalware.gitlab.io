@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-colour 2.3.6-8"
 version = "2.3.6-8"
+date = "2023-03-16T13:01:06"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/colour"
 arch = "x86_64"
 size = "241592"
 usize = "2600491"

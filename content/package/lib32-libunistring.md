@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libunistring 1.1-1"
 version = "1.1-1"
+date = "2022-10-18T19:02:07"
 categories = ['lib32-extra']
+upstreamurl = "http://www.gnu.org/software/libunistring/"
 arch = "x86_64"
 size = "422816"
 usize = "1957479"

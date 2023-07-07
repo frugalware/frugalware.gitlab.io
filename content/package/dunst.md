@@ -2,7 +2,9 @@
 draft = false
 title = "dunst 1.3.2-1"
 version = "1.3.2-1"
+date = "2018-05-15T14:51:09"
 categories = ['x11-extra']
+upstreamurl = "https://github.com/knopwob/dunst"
 arch = "x86_64"
 size = "49268"
 usize = "114988"

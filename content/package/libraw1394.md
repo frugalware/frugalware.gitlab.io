@@ -2,7 +2,9 @@
 draft = false
 title = "libraw1394 2.1.2-7"
 version = "2.1.2-7"
+date = "2022-01-19T20:14:54"
 categories = ['multimedia']
+upstreamurl = "https://ieee1394.wiki.kernel.org/index.php/Release_Notes_-_Libraries"
 arch = "x86_64"
 size = "71824"
 usize = "266788"

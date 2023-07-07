@@ -2,7 +2,9 @@
 draft = false
 title = "jitsi 2.10.5550-4"
 version = "2.10.5550-4"
+date = "2019-07-18T09:01:09"
 categories = ['xapps-extra']
+upstreamurl = "http://jitsi.org"
 arch = "x86_64"
 size = "40159604"
 usize = "74865795"

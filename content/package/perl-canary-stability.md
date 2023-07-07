@@ -2,7 +2,9 @@
 draft = false
 title = "perl-canary-stability 2013-3"
 version = "2013-3"
+date = "2022-02-21T14:48:09"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "6216"
 usize = "10909"

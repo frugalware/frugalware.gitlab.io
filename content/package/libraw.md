@@ -2,7 +2,9 @@
 draft = false
 title = "libraw 0.21.1-1"
 version = "0.21.1-1"
+date = "2023-01-05T20:38:18"
 categories = ['lib']
+upstreamurl = "http://www.libraw.org/"
 arch = "x86_64"
 size = "430528"
 usize = "2800790"

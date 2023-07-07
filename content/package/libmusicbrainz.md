@@ -2,7 +2,9 @@
 draft = false
 title = "libmusicbrainz 5.1.0-7"
 version = "5.1.0-7"
+date = "2022-01-28T12:29:43"
 categories = ['multimedia']
+upstreamurl = "http://www.musicbrainz.org/index.html"
 arch = "x86_64"
 size = "142748"
 usize = "833201"

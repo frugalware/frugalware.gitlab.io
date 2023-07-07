@@ -2,7 +2,9 @@
 draft = false
 title = "popt-static 1.16-15"
 version = "1.16-15"
+date = "2022-08-30T10:13:44"
 categories = ['devel-extra']
+upstreamurl = "http://rpm5.org"
 arch = "x86_64"
 size = "217832"
 usize = "238401"

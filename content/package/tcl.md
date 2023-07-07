@@ -2,7 +2,9 @@
 draft = false
 title = "tcl 8.6.13-1"
 version = "8.6.13-1"
+date = "2022-12-19T15:57:25"
 categories = ['devel']
+upstreamurl = "http://tcl.tk"
 arch = "x86_64"
 size = "3216492"
 usize = "14219083"

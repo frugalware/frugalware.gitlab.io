@@ -2,7 +2,9 @@
 draft = false
 title = "volumeicon 0.5.1-4"
 version = "0.5.1-4"
+date = "2019-07-29T13:06:01"
 categories = ['xapps-extra']
+upstreamurl = "http://www.softwarebakery.com/maato/volumeicon.html"
 arch = "x86_64"
 size = "48168"
 usize = "191458"

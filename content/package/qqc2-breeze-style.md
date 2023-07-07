@@ -2,7 +2,9 @@
 draft = false
 title = "qqc2-breeze-style 5.27.6-1"
 version = "5.27.6-1"
+date = "2023-06-20T21:31:53"
 categories = ['plasma']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "70716"
 usize = "525704"

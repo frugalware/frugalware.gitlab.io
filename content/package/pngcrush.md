@@ -2,7 +2,9 @@
 draft = false
 title = "pngcrush 1.8.13-2"
 version = "1.8.13-2"
+date = "2018-02-11T20:53:16"
 categories = ['apps-extra']
+upstreamurl = "http://pmt.sourceforge.net/pngcrush/"
 arch = "x86_64"
 size = "44504"
 usize = "114343"

@@ -2,7 +2,9 @@
 draft = false
 title = "sdl2_ttf 2.20.1-1"
 version = "2.20.1-1"
+date = "2022-08-30T15:02:40"
 categories = ['xlib-extra']
+upstreamurl = "http://www.libsdl.org/projects/SDL_ttf"
 arch = "x86_64"
 size = "601200"
 usize = "1546437"

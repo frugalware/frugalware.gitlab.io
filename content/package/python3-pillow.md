@@ -2,7 +2,9 @@
 draft = false
 title = "python3-pillow 9.4.0-1"
 version = "9.4.0-1"
+date = "2023-02-21T12:34:05"
 categories = ['xlib-extra']
+upstreamurl = "http://pypi.python.org/pypi/Pillow"
 arch = "x86_64"
 size = "730356"
 usize = "2963347"

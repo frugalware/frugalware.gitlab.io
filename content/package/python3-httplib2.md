@@ -2,7 +2,9 @@
 draft = false
 title = "python3-httplib2 0.21.0-1"
 version = "0.21.0-1"
+date = "2023-02-21T10:11:28"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/httplib2"
 arch = "x86_64"
 size = "129668"
 usize = "380600"

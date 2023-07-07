@@ -2,7 +2,9 @@
 draft = false
 title = "perl-io-socket-ssl 2.083-1"
 version = "2.083-1"
+date = "2023-06-06T13:41:28"
 categories = ['devel']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "181036"
 usize = "534364"

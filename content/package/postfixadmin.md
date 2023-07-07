@@ -2,7 +2,9 @@
 draft = false
 title = "postfixadmin 3.2-1"
 version = "3.2-1"
+date = "2018-05-05T16:17:29"
 categories = ['network-extra']
+upstreamurl = "http://sourceforge.net/projects/postfixadmin"
 arch = "x86_64"
 size = "1047964"
 usize = "4206241"

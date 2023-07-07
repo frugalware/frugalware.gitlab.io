@@ -2,7 +2,9 @@
 draft = false
 title = "opensp 1.5.2-9"
 version = "1.5.2-9"
+date = "2022-02-02T18:24:21"
 categories = ['apps']
+upstreamurl = "http://openjade.sourceforge.net/"
 arch = "x86_64"
 size = "9298032"
 usize = "16984982"

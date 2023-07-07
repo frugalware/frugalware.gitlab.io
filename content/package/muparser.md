@@ -2,7 +2,9 @@
 draft = false
 title = "muparser 2.3.3-1"
 version = "2.3.3-1"
+date = "2022-02-15T20:32:41"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/beltoforion/muparser"
 arch = "x86_64"
 size = "151356"
 usize = "609244"

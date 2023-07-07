@@ -2,7 +2,9 @@
 draft = false
 title = "colord 1.4.6-2"
 version = "1.4.6-2"
+date = "2023-03-31T08:02:56"
 categories = ['xlib']
+upstreamurl = "http://www.freedesktop.org/software/colord/"
 arch = "x86_64"
 size = "1633020"
 usize = "6234945"

@@ -2,7 +2,9 @@
 draft = false
 title = "xscreensaver 6.06-1"
 version = "6.06-1"
+date = "2023-01-05T20:12:03"
 categories = ['xlib']
+upstreamurl = "https://www.jwz.org/xscreensaver"
 arch = "x86_64"
 size = "335660"
 usize = "988608"

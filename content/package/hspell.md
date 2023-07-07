@@ -2,7 +2,9 @@
 draft = false
 title = "hspell 1.4-6"
 version = "1.4-6"
+date = "2022-04-03T21:30:06"
 categories = ['apps']
+upstreamurl = "http://www.ivrix.org.il/projects/spell-checker/"
 arch = "x86_64"
 size = "686668"
 usize = "837839"

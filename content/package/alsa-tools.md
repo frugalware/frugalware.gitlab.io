@@ -2,7 +2,9 @@
 draft = false
 title = "alsa-tools 1.2.5-3"
 version = "1.2.5-3"
+date = "2023-04-18T09:09:19"
 categories = ['multimedia']
+upstreamurl = "http://www.alsa-project.org"
 arch = "x86_64"
 size = "73824"
 usize = "304152"

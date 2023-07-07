@@ -2,7 +2,9 @@
 draft = false
 title = "log4cpp 2.1.0-1"
 version = "2.1.0-1"
+date = "2023-03-07T09:48:51"
 categories = ['lib-extra']
+upstreamurl = "https://sourceforge.net/projects/log4cplus"
 arch = "x86_64"
 size = "331852"
 usize = "1570709"

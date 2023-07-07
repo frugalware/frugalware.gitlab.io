@@ -2,7 +2,9 @@
 draft = false
 title = "smpeg 0.4.5-5"
 version = "0.4.5-5"
+date = "2022-05-09T14:02:04"
 categories = ['xmultimedia-extra']
+upstreamurl = "http://icculus.org/smpeg/"
 arch = "x86_64"
 size = "109396"
 usize = "381429"

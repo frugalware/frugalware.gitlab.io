@@ -2,7 +2,9 @@
 draft = false
 title = "perl-json-xs 4.03-1"
 version = "4.03-1"
+date = "2022-03-15T07:21:02"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "88932"
 usize = "255400"

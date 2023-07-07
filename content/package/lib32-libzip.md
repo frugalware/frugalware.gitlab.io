@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libzip 1.9.2-2"
 version = "1.9.2-2"
+date = "2022-11-10T19:05:17"
 categories = ['lib32-extra']
+upstreamurl = "http://www.nih.at/libzip/"
 arch = "x86_64"
 size = "70924"
 usize = "186657"

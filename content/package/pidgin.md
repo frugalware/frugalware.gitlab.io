@@ -2,7 +2,9 @@
 draft = false
 title = "pidgin 2.14.12-1"
 version = "2.14.12-1"
+date = "2023-04-25T13:11:37"
 categories = ['xapps-extra']
+upstreamurl = "http://www.pidgin.im/"
 arch = "x86_64"
 size = "4868212"
 usize = "26139660"

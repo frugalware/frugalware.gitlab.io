@@ -2,7 +2,9 @@
 draft = false
 title = "libepoxy 1.5.10-1"
 version = "1.5.10-1"
+date = "2022-08-12T11:26:27"
 categories = ['x11', 'xorg-core', 'xorg-drivers']
+upstreamurl = "https://github.com/anholt/libepoxy"
 arch = "x86_64"
 size = "301480"
 usize = "2927087"

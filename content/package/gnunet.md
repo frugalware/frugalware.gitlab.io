@@ -2,7 +2,9 @@
 draft = false
 title = "gnunet 0.17.6-1"
 version = "0.17.6-1"
+date = "2022-10-19T18:11:41"
 categories = ['network-extra']
+upstreamurl = "http://gnunet.org"
 arch = "x86_64"
 size = "4725044"
 usize = "17984060"

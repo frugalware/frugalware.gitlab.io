@@ -2,7 +2,9 @@
 draft = false
 title = "libebml 1.4.2-1"
 version = "1.4.2-1"
+date = "2022-02-02T15:14:01"
 categories = ['multimedia-extra']
+upstreamurl = "https://dl.matroska.org/downloads/libebml/"
 arch = "x86_64"
 size = "71648"
 usize = "333246"

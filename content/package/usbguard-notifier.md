@@ -2,7 +2,9 @@
 draft = false
 title = "usbguard-notifier 0.1.0-1"
 version = "0.1.0-1"
+date = "2023-01-23T09:45:55"
 categories = ['xapps-extra']
+upstreamurl = "https://github.com/Cropi/usbguard-notifier"
 arch = "x86_64"
 size = "36000"
 usize = "113974"

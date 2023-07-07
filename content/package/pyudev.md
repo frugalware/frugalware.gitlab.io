@@ -2,7 +2,9 @@
 draft = false
 title = "pyudev 0.23.2-3"
 version = "0.23.2-3"
+date = "2022-11-02T19:44:01"
 categories = ['lib-extra']
+upstreamurl = "http://packages.python.org/pyudev/"
 arch = "x86_64"
 size = "72592"
 usize = "389003"

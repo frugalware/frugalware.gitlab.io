@@ -2,7 +2,9 @@
 draft = false
 title = "vorbis-tools 1.4.2-3"
 version = "1.4.2-3"
+date = "2022-09-19T09:46:09"
 categories = ['multimedia']
+upstreamurl = "https://xiph.org/vorbis/"
 arch = "x86_64"
 size = "179784"
 usize = "768025"

@@ -2,7 +2,9 @@
 draft = false
 title = "sphinxbase 5prealpha-5"
 version = "5prealpha-5"
+date = "2022-12-15T12:18:26"
 categories = ['lib-extra']
+upstreamurl = "https://sourceforge.net/projects/cmusphinx"
 arch = "x86_64"
 size = "224172"
 usize = "930471"

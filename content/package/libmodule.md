@@ -2,7 +2,9 @@
 draft = false
 title = "libmodule 5.0.1-1"
 version = "5.0.1-1"
+date = "2022-07-21T11:31:28"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/FedeDP/libmodule"
 arch = "x86_64"
 size = "17132"
 usize = "52694"

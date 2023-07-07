@@ -2,7 +2,9 @@
 draft = false
 title = "courier-authlib 0.71.4-1"
 version = "0.71.4-1"
+date = "2022-05-19T21:27:02"
 categories = ['network-extra']
+upstreamurl = "http://www.courier-mta.org/"
 arch = "x86_64"
 size = "236516"
 usize = "1018153"

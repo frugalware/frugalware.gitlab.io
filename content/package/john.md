@@ -2,7 +2,9 @@
 draft = false
 title = "john 1.9.0_jumbo_1-4"
 version = "1.9.0_jumbo_1-4"
+date = "2023-03-15T20:33:27"
 categories = ['apps-extra']
+upstreamurl = "http://www.openwall.com/john"
 arch = "x86_64"
 size = "30496888"
 usize = "78725742"

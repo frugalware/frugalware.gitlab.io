@@ -2,7 +2,9 @@
 draft = false
 title = "ruby-hpricot 0.8.6-10"
 version = "0.8.6-10"
+date = "2023-01-17T10:12:34"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/hpricot/hpricot"
 arch = "x86_64"
 size = "591020"
 usize = "2714133"

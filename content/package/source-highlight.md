@@ -2,7 +2,9 @@
 draft = false
 title = "source-highlight 3.1.9-7"
 version = "3.1.9-7"
+date = "2022-02-03T13:09:22"
 categories = ['devel-extra']
+upstreamurl = "http://www.gnu.org/software/src-highlite/"
 arch = "x86_64"
 size = "619504"
 usize = "3330643"

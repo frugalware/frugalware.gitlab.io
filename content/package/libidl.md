@@ -2,7 +2,9 @@
 draft = false
 title = "libidl 0.8.14-10"
 version = "0.8.14-10"
+date = "2022-01-13T15:16:30"
 categories = ['lib']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "122872"
 usize = "402310"

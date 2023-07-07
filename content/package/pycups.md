@@ -2,7 +2,9 @@
 draft = false
 title = "pycups 1.9.73-9"
 version = "1.9.73-9"
+date = "2022-12-11T11:11:15"
 categories = ['devel']
+upstreamurl = "http://cyberelk.net/tim/software/pycups/"
 arch = "x86_64"
 size = "64620"
 usize = "226935"

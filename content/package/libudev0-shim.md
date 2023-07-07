@@ -2,7 +2,9 @@
 draft = false
 title = "libudev0-shim 1-5"
 version = "1-5"
+date = "2022-02-13T20:13:32"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/archlinux/libudev0-shim"
 arch = "x86_64"
 size = "2108"
 usize = "14059"

@@ -2,7 +2,9 @@
 draft = false
 title = "libdvdread 6.1.3-1"
 version = "6.1.3-1"
+date = "2022-09-03T16:09:41"
 categories = ['multimedia']
+upstreamurl = "http://dvdnav.mplayerhq.hu/"
 arch = "x86_64"
 size = "97724"
 usize = "321728"

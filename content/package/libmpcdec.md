@@ -2,7 +2,9 @@
 draft = false
 title = "libmpcdec 1.2.6-8"
 version = "1.2.6-8"
+date = "2022-01-26T16:51:07"
 categories = ['multimedia']
+upstreamurl = "http://musepack.net/"
 arch = "x86_64"
 size = "28300"
 usize = "96021"

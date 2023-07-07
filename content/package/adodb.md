@@ -2,7 +2,9 @@
 draft = false
 title = "adodb 5.22.4-1"
 version = "5.22.4-1"
+date = "2023-02-27T10:38:42"
 categories = ['devel-extra']
+upstreamurl = "http://adodb.org/dokuwiki/doku.php"
 arch = "x86_64"
 size = "310740"
 usize = "1854301"

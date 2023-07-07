@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-unliftio 0.2.24.0-3"
 version = "0.2.24.0-3"
+date = "2023-03-20T14:27:52"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/unliftio"
 arch = "x86_64"
 size = "398676"
 usize = "5330206"

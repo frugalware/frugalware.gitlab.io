@@ -2,7 +2,9 @@
 draft = false
 title = "dosbox 0.74-5"
 version = "0.74-5"
+date = "2019-07-17T09:59:44"
 categories = ['xapps-extra']
+upstreamurl = "http://dosbox.sourceforge.net/"
 arch = "x86_64"
 size = "822236"
 usize = "2761090"

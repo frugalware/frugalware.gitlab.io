@@ -2,7 +2,9 @@
 draft = false
 title = "python3-numpy 1.24.3-1"
 version = "1.24.3-1"
+date = "2023-06-06T14:31:46"
 categories = ['devel']
+upstreamurl = "http://pypi.python.org/pypi/numpy"
 arch = "x86_64"
 size = "6822060"
 usize = "35351142"

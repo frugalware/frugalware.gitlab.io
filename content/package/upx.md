@@ -2,7 +2,9 @@
 draft = false
 title = "upx 4.0.2-1"
 version = "4.0.2-1"
+date = "2023-02-24T12:19:29"
 categories = ['apps-extra']
+upstreamurl = "https://upx.github.io/"
 arch = "x86_64"
 size = "593856"
 usize = "2500047"

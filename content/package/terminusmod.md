@@ -2,7 +2,9 @@
 draft = false
 title = "terminusmod 1.9.9-5"
 version = "1.9.9-5"
+date = "2018-02-10T13:33:14"
 categories = ['fonts-extra']
+upstreamurl = "http://sourceforge.net/projects/terminusmod"
 arch = "x86_64"
 size = "26052"
 usize = "28473"

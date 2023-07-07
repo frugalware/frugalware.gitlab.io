@@ -2,7 +2,9 @@
 draft = false
 title = "sshcode 0.10.0-1"
 version = "0.10.0-1"
+date = "2020-02-22T10:57:44"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/cdr/sshcode"
 arch = "x86_64"
 size = "1751848"
 usize = "5556653"

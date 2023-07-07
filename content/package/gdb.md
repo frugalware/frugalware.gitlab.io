@@ -2,7 +2,9 @@
 draft = false
 title = "gdb 13.2-1"
 version = "13.2-1"
+date = "2023-06-06T13:46:57"
 categories = ['devel']
+upstreamurl = "http://www.gnu.org/software/gdb/download/"
 arch = "x86_64"
 size = "4284008"
 usize = "12014953"

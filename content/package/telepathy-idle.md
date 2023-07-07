@@ -2,7 +2,9 @@
 draft = false
 title = "telepathy-idle 0.2.2-2"
 version = "0.2.2-2"
+date = "2022-01-14T22:28:12"
 categories = ['lib']
+upstreamurl = "http://telepathy.freedesktop.org/releases/telepathy-idle"
 arch = "x86_64"
 size = "129988"
 usize = "446684"

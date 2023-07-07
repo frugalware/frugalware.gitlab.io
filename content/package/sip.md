@@ -2,7 +2,9 @@
 draft = false
 title = "sip 6.7.9-1"
 version = "6.7.9-1"
+date = "2023-06-05T07:37:26"
 categories = ['xlib-extra']
+upstreamurl = "http://www.riverbankcomputing.co.uk/software/sip"
 arch = "x86_64"
 size = "604876"
 usize = "3726437"

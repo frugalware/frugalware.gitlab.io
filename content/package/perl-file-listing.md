@@ -2,7 +2,9 @@
 draft = false
 title = "perl-file-listing 6.15-1"
 version = "6.15-1"
+date = "2023-02-21T14:13:55"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "17088"
 usize = "43384"

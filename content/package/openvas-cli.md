@@ -2,7 +2,9 @@
 draft = false
 title = "openvas-cli 20.10.1-3"
 version = "20.10.1-3"
+date = "2022-11-02T23:55:17"
 categories = ['network-extra']
+upstreamurl = "http://www.openvas.org"
 arch = "x86_64"
 size = "35880"
 usize = "124827"

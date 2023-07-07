@@ -2,7 +2,9 @@
 draft = false
 title = "ospray 2.9.0-1"
 version = "2.9.0-1"
+date = "2022-05-12T06:48:09"
 categories = ['xlib-extra']
+upstreamurl = "https://www.ospray.org/"
 arch = "x86_64"
 size = "3585752"
 usize = "13522267"

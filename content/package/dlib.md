@@ -2,7 +2,9 @@
 draft = false
 title = "dlib 19.24-5"
 version = "19.24-5"
+date = "2022-11-04T11:41:29"
 categories = ['devel-extra']
+upstreamurl = "http://www.dlib.net"
 arch = "x86_64"
 size = "1707260"
 usize = "13366324"

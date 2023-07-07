@@ -2,7 +2,9 @@
 draft = false
 title = "librest 1.0.0-1"
 version = "1.0.0-1"
+date = "2023-03-06T13:25:06"
 categories = ['xlib-extra']
+upstreamurl = "https://gitlab.gnome.org/GNOME/librest"
 arch = "x86_64"
 size = "1165076"
 usize = "2994537"

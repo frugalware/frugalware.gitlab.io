@@ -2,7 +2,9 @@
 draft = false
 title = "noto-emoji 20170821-4"
 version = "20170821-4"
+date = "2022-01-19T08:03:53"
 categories = ['x11']
+upstreamurl = "https://www.google.com/get/noto/"
 arch = "x86_64"
 size = "18221120"
 usize = "20177346"

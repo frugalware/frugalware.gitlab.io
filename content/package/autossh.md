@@ -2,7 +2,9 @@
 draft = false
 title = "autossh 1.4g-1"
 version = "1.4g-1"
+date = "2019-01-11T14:43:19"
 categories = ['network-extra']
+upstreamurl = "http://www.harding.motd.ca/autossh/"
 arch = "x86_64"
 size = "23244"
 usize = "91211"

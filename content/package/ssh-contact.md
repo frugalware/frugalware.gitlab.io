@@ -2,7 +2,9 @@
 draft = false
 title = "ssh-contact 0.7-3"
 version = "0.7-3"
+date = "2018-02-11T22:02:37"
 categories = ['apps-extra']
+upstreamurl = "http://telepathy.freedesktop.org/"
 arch = "x86_64"
 size = "21768"
 usize = "76035"

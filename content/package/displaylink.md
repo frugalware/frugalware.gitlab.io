@@ -2,7 +2,9 @@
 draft = false
 title = "displaylink 4.4.24-1"
 version = "4.4.24-1"
+date = "2018-11-07T13:59:10"
 categories = ['x11-extra']
+upstreamurl = "http://www.displaylink.com"
 arch = "x86_64"
 size = "3820840"
 usize = "10441646"

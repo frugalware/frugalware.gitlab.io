@@ -2,7 +2,9 @@
 draft = false
 title = "neko 2.3.0-1"
 version = "2.3.0-1"
+date = "2022-03-28T12:21:23"
 categories = ['devel-extra']
+upstreamurl = "https://nekovm.org/"
 arch = "x86_64"
 size = "365064"
 usize = "1372873"

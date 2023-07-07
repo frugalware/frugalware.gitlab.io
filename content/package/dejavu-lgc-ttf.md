@@ -2,7 +2,9 @@
 draft = false
 title = "dejavu-lgc-ttf 2.37-3"
 version = "2.37-3"
+date = "2018-02-10T13:26:14"
 categories = ['fonts-extra']
+upstreamurl = "http://sourceforge.net/projects/dejavu"
 arch = "x86_64"
 size = "1837784"
 usize = "8417613"

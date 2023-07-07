@@ -2,7 +2,9 @@
 draft = false
 title = "love 11.4-1"
 version = "11.4-1"
+date = "2023-03-30T09:02:03"
 categories = ['devel-extra']
+upstreamurl = "http://love2d.org"
 arch = "x86_64"
 size = "1757496"
 usize = "5497482"

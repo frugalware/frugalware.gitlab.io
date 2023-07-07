@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-cairo 1.17.8-3"
 version = "1.17.8-3"
+date = "2023-02-07T08:05:54"
 categories = ['lib32-extra']
+upstreamurl = "http://cairographics.org"
 arch = "x86_64"
 size = "598228"
 usize = "1758938"

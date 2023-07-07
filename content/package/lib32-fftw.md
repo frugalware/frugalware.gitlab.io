@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-fftw 3.3.10-2"
 version = "3.3.10-2"
+date = "2021-12-26T22:39:47"
 categories = ['lib32-extra']
+upstreamurl = "http://www.fftw.org/"
 arch = "x86_64"
 size = "1379456"
 usize = "5607301"

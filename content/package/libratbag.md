@@ -2,7 +2,9 @@
 draft = false
 title = "libratbag 0.17-1"
 version = "0.17-1"
+date = "2023-03-07T09:18:28"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/libratbag/libratbag"
 arch = "x86_64"
 size = "129888"
 usize = "429112"

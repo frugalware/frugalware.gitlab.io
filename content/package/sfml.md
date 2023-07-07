@@ -2,7 +2,9 @@
 draft = false
 title = "sfml 2.5.1-4"
 version = "2.5.1-4"
+date = "2022-09-19T12:22:18"
 categories = ['xlib-extra']
+upstreamurl = "http://sfml-dev.org/"
 arch = "x86_64"
 size = "347640"
 usize = "1693442"

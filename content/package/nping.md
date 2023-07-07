@@ -2,7 +2,9 @@
 draft = false
 title = "nping 7.94-1"
 version = "7.94-1"
+date = "2023-06-18T18:46:47"
 categories = ['base']
+upstreamurl = "http://www.nmap.org"
 arch = "x86_64"
 size = "166436"
 usize = "392260"

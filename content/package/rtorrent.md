@@ -2,7 +2,9 @@
 draft = false
 title = "rtorrent 0.9.8-1"
 version = "0.9.8-1"
+date = "2019-09-23T21:42:48"
 categories = ['network-extra']
+upstreamurl = "http://libtorrent.rakshasa.no/"
 arch = "x86_64"
 size = "373232"
 usize = "1252339"

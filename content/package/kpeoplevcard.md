@@ -2,7 +2,9 @@
 draft = false
 title = "kpeoplevcard 0.1-4"
 version = "0.1-4"
+date = "2022-07-25T11:24:07"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "23468"
 usize = "79211"

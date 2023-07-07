@@ -2,7 +2,9 @@
 draft = false
 title = "libsndfile 1.0.28-6"
 version = "1.0.28-6"
+date = "2022-09-19T08:16:07"
 categories = ['multimedia']
+upstreamurl = "http://www.mega-nerd.com/libsndfile"
 arch = "x86_64"
 size = "343916"
 usize = "1288023"

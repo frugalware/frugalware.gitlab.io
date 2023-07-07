@@ -2,7 +2,9 @@
 draft = false
 title = "neon 0.32.5-2"
 version = "0.32.5-2"
+date = "2023-03-15T22:15:12"
 categories = ['network']
+upstreamurl = "https://notroj.github.io/neon/"
 arch = "x86_64"
 size = "216524"
 usize = "784236"

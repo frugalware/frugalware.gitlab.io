@@ -2,7 +2,9 @@
 draft = false
 title = "python3-ifaddr 0.2.0-1"
 version = "0.2.0-1"
+date = "2023-02-21T12:12:43"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/pydron/ifaddr"
 arch = "x86_64"
 size = "15460"
 usize = "50653"

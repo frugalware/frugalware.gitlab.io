@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-recode 3.6-10"
 version = "3.6-10"
+date = "2022-01-13T10:53:15"
 categories = ['lib32-extra']
+upstreamurl = "https://github.com/pinard/recode"
 arch = "x86_64"
 size = "517320"
 usize = "1433166"

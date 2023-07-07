@@ -2,7 +2,9 @@
 draft = false
 title = "cattrs 22.2.0-1"
 version = "22.2.0-1"
+date = "2023-02-27T14:49:16"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/cattrs"
 arch = "x86_64"
 size = "67152"
 usize = "279818"

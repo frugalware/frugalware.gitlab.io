@@ -2,7 +2,9 @@
 draft = false
 title = "spice-gtk 0.41-1"
 version = "0.41-1"
+date = "2022-11-13T13:32:04"
 categories = ['xlib-extra']
+upstreamurl = "http://spice-space.org/page/Spice-Gtk"
 arch = "x86_64"
 size = "139808"
 usize = "968191"

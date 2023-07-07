@@ -2,7 +2,9 @@
 draft = false
 title = "libmms 0.6.4-8"
 version = "0.6.4-8"
+date = "2022-01-13T15:56:38"
 categories = ['lib']
+upstreamurl = "https://sourceforge.net/projects/libmms"
 arch = "x86_64"
 size = "46568"
 usize = "140780"

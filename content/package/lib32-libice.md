@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libice 1.1.1-1"
 version = "1.1.1-1"
+date = "2022-12-09T14:58:48"
 categories = ['lib32-extra']
+upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "47248"
 usize = "145093"

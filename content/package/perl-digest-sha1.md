@@ -2,7 +2,9 @@
 draft = false
 title = "perl-digest-sha1 2.13-8"
 version = "2.13-8"
+date = "2022-02-21T14:51:24"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "16184"
 usize = "37459"

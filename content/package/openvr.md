@@ -2,7 +2,9 @@
 draft = false
 title = "openvr 1.16.8-2"
 version = "1.16.8-2"
+date = "2022-05-03T14:24:47"
 categories = ['xlib-extra']
+upstreamurl = "https://github.com/ValveSoftware/openvr"
 arch = "x86_64"
 size = "118152"
 usize = "725035"

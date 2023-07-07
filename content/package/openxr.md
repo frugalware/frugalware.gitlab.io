@@ -2,7 +2,9 @@
 draft = false
 title = "openxr 1.0.26-1"
 version = "1.0.26-1"
+date = "2023-01-18T08:28:42"
 categories = ['xlib-extra']
+upstreamurl = "https://www.khronos.org/openxr/"
 arch = "x86_64"
 size = "753088"
 usize = "3827139"

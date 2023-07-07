@@ -2,7 +2,9 @@
 draft = false
 title = "atkmm 2.36.2-1"
 version = "2.36.2-1"
+date = "2023-02-24T16:07:34"
 categories = ['lib-extra']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "139436"
 usize = "785536"

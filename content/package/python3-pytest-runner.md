@@ -2,7 +2,9 @@
 draft = false
 title = "python3-pytest-runner 6.0.0-5"
 version = "6.0.0-5"
+date = "2022-10-28T09:03:24"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/pytest-runner"
 arch = "x86_64"
 size = "10920"
 usize = "45132"

@@ -2,7 +2,9 @@
 draft = false
 title = "packagekit-glib 1.2.5-2"
 version = "1.2.5-2"
+date = "2022-11-04T12:05:19"
 categories = ['lib-extra']
+upstreamurl = "http://www.packagekit.org/"
 arch = "x86_64"
 size = "120804"
 usize = "600001"

@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-base-compat 0.13.0-3"
 version = "0.13.0-3"
+date = "2023-03-20T19:23:31"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/base-compat"
 arch = "x86_64"
 size = "229304"
 usize = "4216322"

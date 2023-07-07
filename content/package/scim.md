@@ -2,7 +2,9 @@
 draft = false
 title = "scim 1.4.18-3"
 version = "1.4.18-3"
+date = "2023-02-25T10:42:32"
 categories = ['xapps-extra']
+upstreamurl = "http://www.scim-im.org/"
 arch = "x86_64"
 size = "742684"
 usize = "3652998"

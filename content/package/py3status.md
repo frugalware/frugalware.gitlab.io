@@ -2,7 +2,9 @@
 draft = false
 title = "py3status 3.49-1"
 version = "3.49-1"
+date = "2023-03-06T08:14:44"
 categories = ['x11-extra']
+upstreamurl = "http://www.ultrabug.fr/py3status/"
 arch = "x86_64"
 size = "555524"
 usize = "2610446"

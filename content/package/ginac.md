@@ -2,7 +2,9 @@
 draft = false
 title = "ginac 1.8.2-1"
 version = "1.8.2-1"
+date = "2022-02-08T11:55:28"
 categories = ['apps-extra']
+upstreamurl = "http://www.ginac.de"
 arch = "x86_64"
 size = "1062692"
 usize = "3733125"

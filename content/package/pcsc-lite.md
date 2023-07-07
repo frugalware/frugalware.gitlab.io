@@ -2,7 +2,9 @@
 draft = false
 title = "pcsc-lite 2.0.0-1"
 version = "2.0.0-1"
+date = "2023-06-10T10:47:57"
 categories = ['base']
+upstreamurl = "https://pcsclite.apdu.fr"
 arch = "x86_64"
 size = "121372"
 usize = "401325"

@@ -2,7 +2,9 @@
 draft = false
 title = "munin 2.0.67-1"
 version = "2.0.67-1"
+date = "2021-03-01T12:32:12"
 categories = ['network-extra']
+upstreamurl = "http://munin-monitoring.org/"
 arch = "x86_64"
 size = "948156"
 usize = "3169780"

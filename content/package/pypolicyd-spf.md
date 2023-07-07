@@ -2,7 +2,9 @@
 draft = false
 title = "pypolicyd-spf 2.0.2-6"
 version = "2.0.2-6"
+date = "2022-11-02T19:33:05"
 categories = ['network-extra']
+upstreamurl = "http://pypi.python.org/pypi/pypolicyd-spf"
 arch = "x86_64"
 size = "43800"
 usize = "140101"

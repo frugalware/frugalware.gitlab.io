@@ -2,7 +2,9 @@
 draft = false
 title = "opencolorio 2.2.1-3"
 version = "2.2.1-3"
+date = "2023-06-06T16:58:08"
 categories = ['xlib-extra']
+upstreamurl = "http://opencolorio.org/"
 arch = "x86_64"
 size = "2452080"
 usize = "15725710"

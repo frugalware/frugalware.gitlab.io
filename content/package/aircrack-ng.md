@@ -2,7 +2,9 @@
 draft = false
 title = "aircrack-ng 1.7-3"
 version = "1.7-3"
+date = "2023-03-15T17:34:55"
 categories = ['network-extra']
+upstreamurl = "http://www.aircrack-ng.org/"
 arch = "x86_64"
 size = "408964"
 usize = "1493321"

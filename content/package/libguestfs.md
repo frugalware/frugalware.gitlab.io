@@ -2,7 +2,9 @@
 draft = false
 title = "libguestfs 1.48.6-2"
 version = "1.48.6-2"
+date = "2023-01-17T13:32:43"
 categories = ['apps-extra']
+upstreamurl = "http://libguestfs.org/"
 arch = "x86_64"
 size = "8020636"
 usize = "13504390"

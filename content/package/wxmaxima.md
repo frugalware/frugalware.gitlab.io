@@ -2,7 +2,9 @@
 draft = false
 title = "wxmaxima 22.09.0-1"
 version = "22.09.0-1"
+date = "2022-09-21T12:12:46"
 categories = ['xapps-extra']
+upstreamurl = "http://andrejv.github.io/wxmaxima"
 arch = "x86_64"
 size = "7285540"
 usize = "26888089"

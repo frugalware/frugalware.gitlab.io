@@ -2,7 +2,9 @@
 draft = false
 title = "terraform 1.3.9-1"
 version = "1.3.9-1"
+date = "2023-02-27T14:46:08"
 categories = ['devel-extra']
+upstreamurl = "https://www.terraform.io/"
 arch = "x86_64"
 size = "13565860"
 usize = "61744594"

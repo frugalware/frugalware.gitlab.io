@@ -2,7 +2,9 @@
 draft = false
 title = "kashmir 20150805-4"
 version = "20150805-4"
+date = "2022-02-08T17:24:57"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/Corvusoft/kashmir-dependency"
 arch = "x86_64"
 size = "9816"
 usize = "60918"

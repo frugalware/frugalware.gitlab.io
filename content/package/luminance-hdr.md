@@ -2,7 +2,9 @@
 draft = false
 title = "luminance-hdr 2.6.1.1-10"
 version = "2.6.1.1-10"
+date = "2023-06-15T09:39:23"
 categories = ['xapps-extra']
+upstreamurl = "https://sourceforge.net/projects/qtpfsgui"
 arch = "x86_64"
 size = "4908304"
 usize = "10834520"

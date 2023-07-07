@@ -2,7 +2,9 @@
 draft = false
 title = "pidgin-otr 4.0.2-3"
 version = "4.0.2-3"
+date = "2019-07-19T08:12:24"
 categories = ['xapps-extra', 'pidgin-plugins']
+upstreamurl = "http://www.cypherpunks.ca/otr"
 arch = "x86_64"
 size = "127716"
 usize = "594372"

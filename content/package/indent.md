@@ -2,7 +2,9 @@
 draft = false
 title = "indent 2.2.13-1"
 version = "2.2.13-1"
+date = "2023-03-24T14:31:57"
 categories = ['devel']
+upstreamurl = "https://www.gnu.org/software/indent/"
 arch = "x86_64"
 size = "156896"
 usize = "578135"

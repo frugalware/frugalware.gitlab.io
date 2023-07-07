@@ -2,7 +2,9 @@
 draft = false
 title = "expected-lite 0.6.3-1"
 version = "0.6.3-1"
+date = "2023-06-05T11:16:34"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/martinmoene/expected-lite"
 arch = "x86_64"
 size = "18080"
 usize = "111781"

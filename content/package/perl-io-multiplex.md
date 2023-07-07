@@ -2,7 +2,9 @@
 draft = false
 title = "perl-io-multiplex 1.16-6"
 version = "1.16-6"
+date = "2022-02-21T15:03:08"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "16380"
 usize = "40226"

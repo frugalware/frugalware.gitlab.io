@@ -2,7 +2,9 @@
 draft = false
 title = "glpk 5.0-2"
 version = "5.0-2"
+date = "2022-02-08T17:04:07"
 categories = ['lib-extra']
+upstreamurl = "http://www.gnu.org/software/glpk/"
 arch = "x86_64"
 size = "454304"
 usize = "1274130"

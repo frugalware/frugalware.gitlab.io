@@ -2,7 +2,9 @@
 draft = false
 title = "bwping 2.5-1"
 version = "2.5-1"
+date = "2022-05-19T21:21:43"
 categories = ['network-extra']
+upstreamurl = "https://sourceforge.net/projects/bwping"
 arch = "x86_64"
 size = "17944"
 usize = "43100"

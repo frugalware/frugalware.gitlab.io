@@ -2,7 +2,9 @@
 draft = false
 title = "hunspell-it 20061130-3"
 version = "20061130-3"
+date = "2018-02-10T13:56:53"
 categories = ['locale-extra']
+upstreamurl = "http://wiki.services.openoffice.org/wiki/Dictionaries"
 arch = "x86_64"
 size = "282740"
 usize = "1283071"

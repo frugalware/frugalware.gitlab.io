@@ -2,7 +2,9 @@
 draft = false
 title = "hunspell-fr 6.4.1-1"
 version = "6.4.1-1"
+date = "2019-04-12T12:56:26"
 categories = ['locale-extra']
+upstreamurl = "http://www.dicollecte.org"
 arch = "x86_64"
 size = "396404"
 usize = "11436266"

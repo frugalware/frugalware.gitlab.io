@@ -2,7 +2,9 @@
 draft = false
 title = "bctoolbox 0.2.0-13"
 version = "0.2.0-13"
+date = "2022-02-11T14:22:25"
 categories = ['lib-extra']
+upstreamurl = "http://www.linphone.org"
 arch = "x86_64"
 size = "58992"
 usize = "226942"

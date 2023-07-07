@@ -2,7 +2,9 @@
 draft = false
 title = "geany-plugins 1.38-1"
 version = "1.38-1"
+date = "2023-01-23T10:59:35"
 categories = ['xapps-extra']
+upstreamurl = "http://plugins.geany.org"
 arch = "x86_64"
 size = "1959320"
 usize = "6400263"

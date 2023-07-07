@@ -2,7 +2,9 @@
 draft = false
 title = "kigo 23.04.2-2"
 version = "23.04.2-2"
+date = "2023-06-21T10:00:11"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "5342936"
 usize = "6466999"

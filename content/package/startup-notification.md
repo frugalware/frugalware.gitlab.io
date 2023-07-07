@@ -2,7 +2,9 @@
 draft = false
 title = "startup-notification 0.12-8"
 version = "0.12-8"
+date = "2022-01-24T21:11:37"
 categories = ['xapps']
+upstreamurl = "http://freedesktop.org/wiki/Software/startup-notification"
 arch = "x86_64"
 size = "27704"
 usize = "98429"

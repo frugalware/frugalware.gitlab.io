@@ -2,7 +2,9 @@
 draft = false
 title = "ttf-mintspirit 20150322-4"
 version = "20150322-4"
+date = "2018-02-10T13:36:37"
 categories = ['fonts-extra']
+upstreamurl = "http://www.linuxmint.com"
 arch = "x86_64"
 size = "202564"
 usize = "1164765"

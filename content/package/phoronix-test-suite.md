@@ -2,7 +2,9 @@
 draft = false
 title = "phoronix-test-suite 10.8.4-1"
 version = "10.8.4-1"
+date = "2023-03-06T09:58:16"
 categories = ['apps-extra']
+upstreamurl = "https://phoronix-test-suite.com"
 arch = "x86_64"
 size = "588832"
 usize = "3922925"

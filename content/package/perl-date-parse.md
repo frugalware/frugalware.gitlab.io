@@ -2,7 +2,9 @@
 draft = false
 title = "perl-date-parse 2.33-1"
 version = "2.33-1"
+date = "2022-03-03T13:41:23"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "35836"
 usize = "105465"

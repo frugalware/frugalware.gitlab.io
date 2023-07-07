@@ -2,7 +2,9 @@
 draft = false
 title = "gamt 1.6-2"
 version = "1.6-2"
+date = "2018-02-11T00:29:51"
 categories = ['xapps-extra']
+upstreamurl = "http://dl.bytesex.org/releases/amtterm/"
 arch = "x86_64"
 size = "18948"
 usize = "53144"

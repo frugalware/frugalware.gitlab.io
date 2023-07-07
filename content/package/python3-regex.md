@@ -2,7 +2,9 @@
 draft = false
 title = "python3-regex 2022.10.31-1"
 version = "2022.10.31-1"
+date = "2023-02-21T10:39:34"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/regex"
 arch = "x86_64"
 size = "353380"
 usize = "1887932"

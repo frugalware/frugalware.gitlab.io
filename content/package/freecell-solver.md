@@ -2,7 +2,9 @@
 draft = false
 title = "freecell-solver 6.8.0-1"
 version = "6.8.0-1"
+date = "2023-03-06T14:31:32"
 categories = ['lib-extra']
+upstreamurl = "http://fc-solve.shlomifish.org"
 arch = "x86_64"
 size = "193312"
 usize = "689004"

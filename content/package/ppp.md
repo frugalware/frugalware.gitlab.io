@@ -2,7 +2,9 @@
 draft = false
 title = "ppp 2.5.0-1"
 version = "2.5.0-1"
+date = "2023-04-04T21:25:01"
 categories = ['base']
+upstreamurl = "http://www.samba.org/ppp/"
 arch = "x86_64"
 size = "326392"
 usize = "1021175"

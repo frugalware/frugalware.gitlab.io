@@ -2,7 +2,9 @@
 draft = false
 title = "xmlto 0.0.28-5"
 version = "0.0.28-5"
+date = "2021-10-12T14:36:15"
 categories = ['apps-extra']
+upstreamurl = "https://pagure.io/xmlto"
 arch = "x86_64"
 size = "40656"
 usize = "137717"

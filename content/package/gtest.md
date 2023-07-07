@@ -2,7 +2,9 @@
 draft = false
 title = "gtest 1.13.0-2"
 version = "1.13.0-2"
+date = "2023-06-13T09:50:34"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/google/googletest"
 arch = "x86_64"
 size = "2326760"
 usize = "4056706"

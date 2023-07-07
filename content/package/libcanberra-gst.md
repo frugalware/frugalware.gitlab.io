@@ -2,7 +2,9 @@
 draft = false
 title = "libcanberra-gst 0.30-21"
 version = "0.30-21"
+date = "2022-01-28T11:30:30"
 categories = ['xmultimedia']
+upstreamurl = "http://0pointer.de/lennart/projects/libcanberra/"
 arch = "x86_64"
 size = "9996"
 usize = "22238"

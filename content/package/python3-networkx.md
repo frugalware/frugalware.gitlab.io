@@ -2,7 +2,9 @@
 draft = false
 title = "python3-networkx 3.0-1"
 version = "3.0-1"
+date = "2023-02-21T10:24:07"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/networkx/networkx"
 arch = "x86_64"
 size = "2651756"
 usize = "15487370"

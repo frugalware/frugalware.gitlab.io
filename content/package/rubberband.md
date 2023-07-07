@@ -2,7 +2,9 @@
 draft = false
 title = "rubberband 1.9.0-1"
 version = "1.9.0-1"
+date = "2021-03-01T13:54:18"
 categories = ['multimedia-extra']
+upstreamurl = "http://www.breakfastquay.com/rubberband"
 arch = "x86_64"
 size = "198908"
 usize = "824983"

@@ -2,7 +2,9 @@
 draft = false
 title = "perl-text-wrapi18n 0.06-8"
 version = "0.06-8"
+date = "2022-12-19T16:12:29"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "6652"
 usize = "10340"

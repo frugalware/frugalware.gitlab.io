@@ -2,7 +2,9 @@
 draft = false
 title = "intel-opencl-clang 15.0.0-2"
 version = "15.0.0-2"
+date = "2023-01-05T15:33:18"
 categories = ['lib']
+upstreamurl = "https://github.com/intel/opencl-clang"
 arch = "x86_64"
 size = "87864"
 usize = "1025652"

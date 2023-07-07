@@ -2,7 +2,9 @@
 draft = false
 title = "otter-browser 1.0.03-2"
 version = "1.0.03-2"
+date = "2023-06-15T13:44:39"
 categories = ['xapps-extra']
+upstreamurl = "https://github.com/Emdek/otter"
 arch = "x86_64"
 size = "2680684"
 usize = "12936464"

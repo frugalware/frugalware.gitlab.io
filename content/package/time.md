@@ -2,7 +2,9 @@
 draft = false
 title = "time 1.9-3"
 version = "1.9-3"
+date = "2021-10-06T13:35:36"
 categories = ['base']
+upstreamurl = "https://www.gnu.org/software/time/"
 arch = "x86_64"
 size = "43260"
 usize = "106552"

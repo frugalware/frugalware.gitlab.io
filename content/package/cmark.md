@@ -2,7 +2,9 @@
 draft = false
 title = "cmark 0.30.3-3"
 version = "0.30.3-3"
+date = "2023-05-08T13:12:34"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/jgm/cmark"
 arch = "x86_64"
 size = "97152"
 usize = "349620"

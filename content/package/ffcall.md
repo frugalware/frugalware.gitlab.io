@@ -2,7 +2,9 @@
 draft = false
 title = "ffcall 2.4-1"
 version = "2.4-1"
+date = "2022-01-14T14:02:40"
 categories = ['lib-extra']
+upstreamurl = "https://ftp.gnu.org/gnu/libffcall/"
 arch = "x86_64"
 size = "338396"
 usize = "1444802"

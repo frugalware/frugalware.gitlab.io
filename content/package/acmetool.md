@@ -2,7 +2,9 @@
 draft = false
 title = "acmetool 0.2.1-1"
 version = "0.2.1-1"
+date = "2019-10-28T14:08:09"
 categories = ['network-extra']
+upstreamurl = "https://github.com/hlandau/acme"
 arch = "x86_64"
 size = "3436672"
 usize = "11720229"

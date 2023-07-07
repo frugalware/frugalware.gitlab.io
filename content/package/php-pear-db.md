@@ -2,7 +2,9 @@
 draft = false
 title = "php-pear-db 1.11.0-1"
 version = "1.11.0-1"
+date = "2022-03-15T09:44:17"
 categories = ['devel-extra']
+upstreamurl = "http://pear.php.net/package/DB"
 arch = "x86_64"
 size = "83276"
 usize = "747676"

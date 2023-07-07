@@ -2,7 +2,9 @@
 draft = false
 title = "blosc 1.21.1-1"
 version = "1.21.1-1"
+date = "2022-02-10T07:44:10"
 categories = ['xlib-extra']
+upstreamurl = "http://blosc.org/"
 arch = "x86_64"
 size = "330124"
 usize = "551484"

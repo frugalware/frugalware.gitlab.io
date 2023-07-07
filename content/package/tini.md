@@ -2,7 +2,9 @@
 draft = false
 title = "tini 0.19.0-1"
 version = "0.19.0-1"
+date = "2020-04-21T10:25:08"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/krallin/tini"
 arch = "x86_64"
 size = "253656"
 usize = "750312"

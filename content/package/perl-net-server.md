@@ -2,7 +2,9 @@
 draft = false
 title = "perl-net-server 2.013-1"
 version = "2.013-1"
+date = "2023-02-21T14:22:05"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "176512"
 usize = "535166"

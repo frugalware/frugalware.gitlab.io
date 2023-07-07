@@ -2,7 +2,9 @@
 draft = false
 title = "quilt 0.67-1"
 version = "0.67-1"
+date = "2022-03-15T09:56:52"
 categories = ['devel-extra']
+upstreamurl = "http://savannah.nongnu.org/projects/quilt"
 arch = "x86_64"
 size = "401284"
 usize = "803935"

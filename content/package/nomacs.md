@@ -2,7 +2,9 @@
 draft = false
 title = "nomacs 3.17.2282-2"
 version = "3.17.2282-2"
+date = "2023-06-15T11:42:39"
 categories = ['xapps-extra']
+upstreamurl = "https://github.com/nomacs/nomacs"
 arch = "x86_64"
 size = "1605432"
 usize = "7968460"

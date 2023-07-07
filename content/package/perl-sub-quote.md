@@ -2,7 +2,9 @@
 draft = false
 title = "perl-sub-quote 2.006008-1"
 version = "2.006008-1"
+date = "2023-02-21T14:24:40"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "25660"
 usize = "65422"

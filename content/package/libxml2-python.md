@@ -2,7 +2,9 @@
 draft = false
 title = "libxml2-python 2.10.4-3"
 version = "2.10.4-3"
+date = "2023-05-02T08:26:58"
 categories = ['devel']
+upstreamurl = "https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home"
 arch = "x86_64"
 size = "185612"
 usize = "1733957"

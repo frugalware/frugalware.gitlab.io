@@ -2,7 +2,9 @@
 draft = false
 title = "transfig 3.2.5e-6"
 version = "3.2.5e-6"
+date = "2019-07-27T08:29:18"
 categories = ['xapps-extra']
+upstreamurl = "http://www.xfig.org/"
 arch = "x86_64"
 size = "261608"
 usize = "757605"

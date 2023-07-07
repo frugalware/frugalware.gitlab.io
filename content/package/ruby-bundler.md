@@ -2,7 +2,9 @@
 draft = false
 title = "ruby-bundler 2.4.8-1"
 version = "2.4.8-1"
+date = "2023-03-14T13:12:12"
 categories = ['devel-extra']
+upstreamurl = "http://bundler.io"
 arch = "x86_64"
 size = "740660"
 usize = "2078280"

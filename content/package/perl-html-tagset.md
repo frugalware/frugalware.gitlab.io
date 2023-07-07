@@ -2,7 +2,9 @@
 draft = false
 title = "perl-html-tagset 3.20-8"
 version = "3.20-8"
+date = "2022-02-21T14:59:02"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "10468"
 usize = "18678"

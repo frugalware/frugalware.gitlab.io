@@ -2,7 +2,9 @@
 draft = false
 title = "simsu 1.4.2-3"
 version = "1.4.2-3"
+date = "2023-06-05T09:05:38"
 categories = ['games-extra']
+upstreamurl = "https://gottcode.org/simsu"
 arch = "x86_64"
 size = "289836"
 usize = "625567"

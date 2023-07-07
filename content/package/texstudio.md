@@ -2,7 +2,9 @@
 draft = false
 title = "texstudio 4.5.2-1"
 version = "4.5.2-1"
+date = "2023-06-15T20:54:28"
 categories = ['xapps-extra']
+upstreamurl = "https://www.texstudio.org"
 arch = "x86_64"
 size = "62121480"
 usize = "369459636"

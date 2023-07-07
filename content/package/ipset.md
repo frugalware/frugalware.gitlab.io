@@ -2,7 +2,9 @@
 draft = false
 title = "ipset 7.15-1"
 version = "7.15-1"
+date = "2022-05-20T07:23:20"
 categories = ['network-extra']
+upstreamurl = "http://ipset.netfilter.org/index.html"
 arch = "x86_64"
 size = "105456"
 usize = "621747"

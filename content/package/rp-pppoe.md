@@ -2,7 +2,9 @@
 draft = false
 title = "rp-pppoe 4.0-1"
 version = "4.0-1"
+date = "2023-04-29T19:31:16"
 categories = ['base']
+upstreamurl = "https://dianne.skoll.ca/projects/rp-pppoe/"
 arch = "x86_64"
 size = "79004"
 usize = "235181"

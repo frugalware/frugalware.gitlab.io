@@ -2,7 +2,9 @@
 draft = false
 title = "ruby-rdiscount 2.2.7-1"
 version = "2.2.7-1"
+date = "2023-01-17T10:17:31"
 categories = ['devel-extra']
+upstreamurl = "http://dafoster.net/projects/rdiscount/"
 arch = "x86_64"
 size = "178216"
 usize = "549625"

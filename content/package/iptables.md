@@ -2,7 +2,9 @@
 draft = false
 title = "iptables 1.8.9-1"
 version = "1.8.9-1"
+date = "2023-01-19T10:56:02"
 categories = ['base']
+upstreamurl = "https://netfilter.org"
 arch = "x86_64"
 size = "399688"
 usize = "2442810"

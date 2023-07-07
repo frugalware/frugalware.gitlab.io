@@ -2,7 +2,9 @@
 draft = false
 title = "soundkonverter 3.0.1-5"
 version = "3.0.1-5"
+date = "2020-06-22T13:31:20"
 categories = ['kde5-extra']
+upstreamurl = "https://github.com/dfaust/soundkonverter"
 arch = "x86_64"
 size = "739184"
 usize = "4125917"

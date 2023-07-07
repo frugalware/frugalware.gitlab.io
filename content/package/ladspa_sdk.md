@@ -2,7 +2,9 @@
 draft = false
 title = "ladspa_sdk 1.13-8"
 version = "1.13-8"
+date = "2022-02-08T17:29:30"
 categories = ['lib-extra']
+upstreamurl = "http://www.ladspa.org/"
 arch = "x86_64"
 size = "37972"
 usize = "184755"

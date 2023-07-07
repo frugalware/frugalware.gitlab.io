@@ -2,7 +2,9 @@
 draft = false
 title = "lensfun 0.3.2-6"
 version = "0.3.2-6"
+date = "2022-02-15T15:09:36"
 categories = ['xlib-extra']
+upstreamurl = "https://sourceforge.net/projects/lensfun"
 arch = "x86_64"
 size = "213128"
 usize = "2118507"

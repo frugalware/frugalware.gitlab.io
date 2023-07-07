@@ -2,7 +2,9 @@
 draft = false
 title = "libnetfilter_cthelper 1.0.1-1"
 version = "1.0.1-1"
+date = "2023-02-24T19:29:49"
 categories = ['lib-extra']
+upstreamurl = "http://netfilter.org/projects/libnetfilter_cthelper/index.html"
 arch = "x86_64"
 size = "12932"
 usize = "41808"

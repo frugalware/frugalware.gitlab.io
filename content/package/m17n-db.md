@@ -2,7 +2,9 @@
 draft = false
 title = "m17n-db 1.8.0-4"
 version = "1.8.0-4"
+date = "2022-02-08T18:31:34"
 categories = ['lib-extra']
+upstreamurl = "http://www.m17n.org/"
 arch = "x86_64"
 size = "1288324"
 usize = "6575284"

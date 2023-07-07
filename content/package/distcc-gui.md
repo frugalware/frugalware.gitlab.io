@@ -2,7 +2,9 @@
 draft = false
 title = "distcc-gui 3.4-3"
 version = "3.4-3"
+date = "2022-11-02T20:24:43"
 categories = ['xapps-extra']
+upstreamurl = "https://github.com/distcc/distcc"
 arch = "x86_64"
 size = "16072"
 usize = "36057"

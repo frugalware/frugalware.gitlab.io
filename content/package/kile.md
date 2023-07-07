@@ -2,7 +2,9 @@
 draft = false
 title = "kile 20200620.g58a9443-1"
 version = "20200620.g58a9443-1"
+date = "2020-06-20T20:48:36"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "4206104"
 usize = "11739160"

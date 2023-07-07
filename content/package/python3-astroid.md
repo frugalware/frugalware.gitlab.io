@@ -2,7 +2,9 @@
 draft = false
 title = "python3-astroid 2.15.0-1"
 version = "2.15.0-1"
+date = "2023-03-14T12:44:11"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/astroid"
 arch = "x86_64"
 size = "465304"
 usize = "3663843"

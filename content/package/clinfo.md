@@ -2,7 +2,9 @@
 draft = false
 title = "clinfo 3.0.23.01.25-1"
 version = "3.0.23.01.25-1"
+date = "2023-02-22T19:24:40"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/Oblomov/clinfo"
 arch = "x86_64"
 size = "51164"
 usize = "166101"

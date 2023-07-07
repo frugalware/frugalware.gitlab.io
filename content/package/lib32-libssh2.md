@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libssh2 1.11.0-1"
 version = "1.11.0-1"
+date = "2023-06-02T13:48:15"
 categories = ['lib32-extra']
+upstreamurl = "http://www.libssh2.org"
 arch = "x86_64"
 size = "124688"
 usize = "397876"

@@ -2,7 +2,9 @@
 draft = false
 title = "silly 0.1.0-7"
 version = "0.1.0-7"
+date = "2022-05-17T12:31:02"
 categories = ['xlib-extra']
+upstreamurl = "https://sourceforge.net/projects/crayzedsgui"
 arch = "x86_64"
 size = "18328"
 usize = "94421"

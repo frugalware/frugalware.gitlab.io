@@ -2,7 +2,9 @@
 draft = false
 title = "libpagemaker 0.0.4-3"
 version = "0.0.4-3"
+date = "2020-02-10T12:24:35"
 categories = ['xoffice']
+upstreamurl = "http://wiki.documentfoundation.org/DLP/Libraries/libpagemaker"
 arch = "x86_64"
 size = "185632"
 usize = "2214988"

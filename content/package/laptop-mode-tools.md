@@ -2,7 +2,9 @@
 draft = false
 title = "laptop-mode-tools 1.74-1"
 version = "1.74-1"
+date = "2020-07-20T08:06:56"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/rickysarraf/laptop-mode-tools"
 arch = "x86_64"
 size = "93640"
 usize = "319923"

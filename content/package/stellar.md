@@ -2,7 +2,9 @@
 draft = false
 title = "stellar 0.1.0-2"
 version = "0.1.0-2"
+date = "2018-02-12T02:12:23"
 categories = ['xmultimedia-extra']
+upstreamurl = "https://github.com/sgerbino/stellar"
 arch = "x86_64"
 size = "664128"
 usize = "674538"

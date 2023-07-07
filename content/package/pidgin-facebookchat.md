@@ -2,7 +2,9 @@
 draft = false
 title = "pidgin-facebookchat 0.9.6-1"
 version = "0.9.6-1"
+date = "2019-07-19T08:08:14"
 categories = ['xapps-extra', 'pidgin-plugins']
+upstreamurl = "https://github.com/dequis/purple-facebook"
 arch = "x86_64"
 size = "81760"
 usize = "248298"

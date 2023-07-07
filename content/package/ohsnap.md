@@ -2,7 +2,9 @@
 draft = false
 title = "ohsnap 1.8.0-5"
 version = "1.8.0-5"
+date = "2018-02-10T13:29:37"
 categories = ['fonts-extra']
+upstreamurl = "http://sourceforge.net/projects/osnapfont"
 arch = "x86_64"
 size = "102200"
 usize = "119474"

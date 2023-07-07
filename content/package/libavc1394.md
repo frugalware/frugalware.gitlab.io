@@ -2,7 +2,9 @@
 draft = false
 title = "libavc1394 0.5.4-9"
 version = "0.5.4-9"
+date = "2022-01-19T20:22:22"
 categories = ['multimedia']
+upstreamurl = "http://sourceforge.net/projects/libavc1394/"
 arch = "x86_64"
 size = "45724"
 usize = "183102"

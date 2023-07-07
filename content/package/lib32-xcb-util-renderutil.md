@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-xcb-util-renderutil 0.3.10-1"
 version = "0.3.10-1"
+date = "2022-10-20T08:57:21"
 categories = ['lib32-extra']
+upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "7828"
 usize = "22921"

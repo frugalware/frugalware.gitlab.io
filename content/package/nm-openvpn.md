@@ -2,7 +2,9 @@
 draft = false
 title = "nm-openvpn 1.10.2-1"
 version = "1.10.2-1"
+date = "2023-03-13T15:54:37"
 categories = ['gnome-extra']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "56660"
 usize = "254042"

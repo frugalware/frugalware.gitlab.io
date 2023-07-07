@@ -2,7 +2,9 @@
 draft = false
 title = "open-isns 0.102-2"
 version = "0.102-2"
+date = "2023-03-15T23:06:56"
 categories = ['network-extra']
+upstreamurl = "https://github.com/open-iscsi/open-isns"
 arch = "x86_64"
 size = "149032"
 usize = "734077"

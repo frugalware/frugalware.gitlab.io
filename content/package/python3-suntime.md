@@ -2,7 +2,9 @@
 draft = false
 title = "python3-suntime 1.2.5-1"
 version = "1.2.5-1"
+date = "2022-12-28T12:00:56"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/suntime"
 arch = "x86_64"
 size = "7096"
 usize = "22550"

@@ -2,7 +2,9 @@
 draft = false
 title = "libvncserver 0.9.14-1"
 version = "0.9.14-1"
+date = "2023-01-04T08:07:01"
 categories = ['xlib']
+upstreamurl = "https://github.com/LibVNC/LibVNCServer"
 arch = "x86_64"
 size = "319488"
 usize = "1225108"

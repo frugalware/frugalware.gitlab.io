@@ -2,7 +2,9 @@
 draft = false
 title = "opencl-clhpp 2.0.16-1"
 version = "2.0.16-1"
+date = "2022-01-21T15:07:32"
 categories = ['devel-extra']
+upstreamurl = "http://khronosgroup.github.io/OpenCL-CLHPP/"
 arch = "x86_64"
 size = "40568"
 usize = "336579"

@@ -2,7 +2,9 @@
 draft = false
 title = "conky-manager 2.7-1"
 version = "2.7-1"
+date = "2022-12-13T12:47:29"
 categories = ['xapps-extra']
+upstreamurl = "https://github.com/zcot/conky-manager2"
 arch = "x86_64"
 size = "129408"
 usize = "445831"

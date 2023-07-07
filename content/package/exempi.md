@@ -2,7 +2,9 @@
 draft = false
 title = "exempi 2.6.3-1"
 version = "2.6.3-1"
+date = "2022-12-27T21:25:30"
 categories = ['apps']
+upstreamurl = "http://libopenraw.freedesktop.org/wiki/Exempi"
 arch = "x86_64"
 size = "491580"
 usize = "1418670"

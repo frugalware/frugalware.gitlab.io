@@ -2,7 +2,9 @@
 draft = false
 title = "inotify-tools 3.13-4"
 version = "3.13-4"
+date = "2018-02-11T14:12:47"
 categories = ['apps-extra']
+upstreamurl = "http://sourceforge.net/projects/inotify-tools"
 arch = "x86_64"
 size = "44636"
 usize = "134413"

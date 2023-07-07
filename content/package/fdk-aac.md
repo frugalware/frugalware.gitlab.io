@@ -2,7 +2,9 @@
 draft = false
 title = "fdk-aac 2.0.2-3"
 version = "2.0.2-3"
+date = "2022-09-05T09:19:00"
 categories = ['lib']
+upstreamurl = "https://github.com/mstorsjo/fdk-aac"
 arch = "x86_64"
 size = "666588"
 usize = "1490856"

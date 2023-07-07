@@ -2,7 +2,9 @@
 draft = false
 title = "gtk2-sharp 2.12.45-3"
 version = "2.12.45-3"
+date = "2022-01-19T16:21:41"
 categories = ['xlib']
+upstreamurl = "http://www.mono-project.com/GtkSharp"
 arch = "x86_64"
 size = "3226484"
 usize = "7610733"

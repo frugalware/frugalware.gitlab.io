@@ -2,7 +2,9 @@
 draft = false
 title = "perl-net-dns 1.37-1"
 version = "1.37-1"
+date = "2023-03-14T13:10:40"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "331536"
 usize = "873159"

@@ -2,7 +2,9 @@
 draft = false
 title = "ecm 7.0.4-2"
 version = "7.0.4-2"
+date = "2018-02-11T02:06:56"
 categories = ['apps-extra']
+upstreamurl = "http://ecm.gforge.inria.fr/"
 arch = "x86_64"
 size = "338812"
 usize = "1487459"

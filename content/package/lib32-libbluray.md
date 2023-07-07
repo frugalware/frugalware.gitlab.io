@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libbluray 1.3.4-1"
 version = "1.3.4-1"
+date = "2022-12-10T11:45:08"
 categories = ['lib32-extra']
+upstreamurl = "http://www.videolan.org/developers/libbluray.html"
 arch = "x86_64"
 size = "178192"
 usize = "546829"

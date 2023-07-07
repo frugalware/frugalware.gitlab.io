@@ -2,7 +2,9 @@
 draft = false
 title = "7zip 17.04-2"
 version = "17.04-2"
+date = "2022-07-11T20:19:58"
 categories = ['apps-extra']
+upstreamurl = "http://www.7-zip.org/"
 arch = "x86_64"
 size = "2714044"
 usize = "11259336"

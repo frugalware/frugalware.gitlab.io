@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-shared-mime-info 2.2-2"
 version = "2.2-2"
+date = "2022-12-09T14:37:19"
 categories = ['lib32-extra']
+upstreamurl = "http://freedesktop.org/Software/shared-mime-info"
 arch = "x86_64"
 size = "25588"
 usize = "67195"

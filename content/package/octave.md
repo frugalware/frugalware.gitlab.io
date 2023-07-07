@@ -2,7 +2,9 @@
 draft = false
 title = "octave 8.2.0-1"
 version = "8.2.0-1"
+date = "2023-04-17T13:34:55"
 categories = ['apps-extra']
+upstreamurl = "http://www.octave.org/"
 arch = "x86_64"
 size = "15271048"
 usize = "61067476"

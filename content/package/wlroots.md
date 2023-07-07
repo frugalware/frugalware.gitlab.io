@@ -2,7 +2,9 @@
 draft = false
 title = "wlroots 0.16.2-1"
 version = "0.16.2-1"
+date = "2023-02-14T10:27:33"
 categories = ['xlib-extra']
+upstreamurl = "https://gitlab.freedesktop.org/wlroots/wlroots"
 arch = "x86_64"
 size = "337120"
 usize = "1264049"

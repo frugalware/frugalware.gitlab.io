@@ -2,7 +2,9 @@
 draft = false
 title = "telepathy-farstream 0.6.2-10"
 version = "0.6.2-10"
+date = "2022-01-26T13:10:44"
 categories = ['xlib']
+upstreamurl = "http://telepathy.freedesktop.org/releases/telepathy-farstream"
 arch = "x86_64"
 size = "191716"
 usize = "748408"

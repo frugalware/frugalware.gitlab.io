@@ -2,7 +2,9 @@
 draft = false
 title = "python3-xdg 6.0.0-1"
 version = "6.0.0-1"
+date = "2023-03-14T12:46:34"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/xdg"
 arch = "x86_64"
 size = "4964"
 usize = "13817"

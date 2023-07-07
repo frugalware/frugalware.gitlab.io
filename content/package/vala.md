@@ -2,7 +2,9 @@
 draft = false
 title = "vala 0.56.4-1"
 version = "0.56.4-1"
+date = "2023-02-27T10:33:49"
 categories = ['devel-extra']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "2451140"
 usize = "16335070"

@@ -2,7 +2,9 @@
 draft = false
 title = "libofx 0.10.3-1"
 version = "0.10.3-1"
+date = "2022-02-15T20:18:26"
 categories = ['lib-extra']
+upstreamurl = "https://sourceforge.net/projects/libofx"
 arch = "x86_64"
 size = "573512"
 usize = "9458789"

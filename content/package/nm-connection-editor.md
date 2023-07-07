@@ -2,7 +2,9 @@
 draft = false
 title = "nm-connection-editor 1.8.24-1"
 version = "1.8.24-1"
+date = "2019-11-05T12:38:44"
 categories = ['gnome', 'gnome-minimal']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "877960"
 usize = "5680895"

@@ -2,7 +2,9 @@
 draft = false
 title = "plasma-vault 5.27.6-1"
 version = "5.27.6-1"
+date = "2023-06-21T07:38:16"
 categories = ['plasma']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "280528"
 usize = "1383189"

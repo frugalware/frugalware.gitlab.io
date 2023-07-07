@@ -2,7 +2,9 @@
 draft = false
 title = "libetonyek 0.1.10-1"
 version = "0.1.10-1"
+date = "2021-06-09T11:55:42"
 categories = ['xoffice']
+upstreamurl = "https://wiki.documentfoundation.org/DLP/Libraries/libetonyek"
 arch = "x86_64"
 size = "628992"
 usize = "2736459"

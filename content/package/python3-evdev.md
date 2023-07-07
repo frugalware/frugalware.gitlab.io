@@ -2,7 +2,9 @@
 draft = false
 title = "python3-evdev 1.6.1-1"
 version = "1.6.1-1"
+date = "2023-02-21T10:02:13"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/evdev"
 arch = "x86_64"
 size = "52348"
 usize = "222163"

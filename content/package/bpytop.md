@@ -2,7 +2,9 @@
 draft = false
 title = "bpytop 1.0.68-1"
 version = "1.0.68-1"
+date = "2023-03-27T08:22:57"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/aristocratos/bpytop"
 arch = "x86_64"
 size = "59544"
 usize = "299125"

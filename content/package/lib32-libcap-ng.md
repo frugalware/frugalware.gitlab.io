@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libcap-ng 0.8.3-1"
 version = "0.8.3-1"
+date = "2022-07-10T13:07:37"
 categories = ['lib32-extra']
+upstreamurl = "http://people.redhat.com/sgrubb/libcap-ng/"
 arch = "x86_64"
 size = "23620"
 usize = "95896"

@@ -2,7 +2,9 @@
 draft = false
 title = "projectlibre 1.9.3-1"
 version = "1.9.3-1"
+date = "2021-03-19T14:05:44"
 categories = ['xapps-extra']
+upstreamurl = "http://www.projectlibre.org"
 arch = "x86_64"
 size = "17630464"
 usize = "20047783"

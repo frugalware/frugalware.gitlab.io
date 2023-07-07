@@ -2,7 +2,9 @@
 draft = false
 title = "libsecp256k1 20180427-3"
 version = "20180427-3"
+date = "2022-02-08T18:07:19"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/bitcoin-core/secp256k1"
 arch = "x86_64"
 size = "1158580"
 usize = "1244823"

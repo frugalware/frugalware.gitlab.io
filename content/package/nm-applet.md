@@ -2,7 +2,9 @@
 draft = false
 title = "nm-applet 1.8.24-1"
 version = "1.8.24-1"
+date = "2019-11-05T12:38:44"
 categories = ['gnome-extra']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "237620"
 usize = "973900"

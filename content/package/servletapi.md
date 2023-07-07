@@ -2,7 +2,9 @@
 draft = false
 title = "servletapi 2.4-4"
 version = "2.4-4"
+date = "2022-02-22T08:42:34"
 categories = ['devel-extra']
+upstreamurl = "http://jakarta.apache.org/"
 arch = "x86_64"
 size = "120752"
 usize = "145417"

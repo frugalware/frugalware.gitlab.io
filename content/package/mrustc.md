@@ -2,7 +2,9 @@
 draft = false
 title = "mrustc 0.9-3"
 version = "0.9-3"
+date = "2022-07-18T20:05:05"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/thepowersgang/mrustc"
 arch = "x86_64"
 size = "2657564"
 usize = "9091540"

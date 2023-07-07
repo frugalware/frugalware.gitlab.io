@@ -2,7 +2,9 @@
 draft = false
 title = "libmwaw 0.3.22-1"
 version = "0.3.22-1"
+date = "2023-05-15T10:20:53"
 categories = ['xoffice']
+upstreamurl = "https://sourceforge.net/projects/libmwaw"
 arch = "x86_64"
 size = "2373628"
 usize = "6928780"

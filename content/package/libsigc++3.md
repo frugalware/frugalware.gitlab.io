@@ -2,7 +2,9 @@
 draft = false
 title = "libsigc++3 3.4.0-1"
 version = "3.4.0-1"
+date = "2023-01-05T18:59:11"
 categories = ['lib']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "65792"
 usize = "342020"

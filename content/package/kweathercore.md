@@ -2,7 +2,9 @@
 draft = false
 title = "kweathercore 0.7-1"
 version = "0.7-1"
+date = "2023-05-08T12:22:44"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "71384"
 usize = "297350"

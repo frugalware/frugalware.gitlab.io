@@ -2,7 +2,9 @@
 draft = false
 title = "confuse 3.3-1"
 version = "3.3-1"
+date = "2022-02-14T14:35:10"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/martinh/libconfuse"
 arch = "x86_64"
 size = "44348"
 usize = "149939"

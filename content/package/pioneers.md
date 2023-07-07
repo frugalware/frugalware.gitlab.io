@@ -2,7 +2,9 @@
 draft = false
 title = "pioneers 15.6-1"
 version = "15.6-1"
+date = "2020-08-09T17:27:24"
 categories = ['games-extra']
+upstreamurl = "https://sourceforge.net/projects/pio"
 arch = "x86_64"
 size = "1138368"
 usize = "2432800"

@@ -2,7 +2,9 @@
 draft = false
 title = "gammu 1.42.0-1"
 version = "1.42.0-1"
+date = "2020-10-05T13:10:00"
 categories = ['apps-extra']
+upstreamurl = "http://wammu.eu"
 arch = "x86_64"
 size = "1218656"
 usize = "4803890"

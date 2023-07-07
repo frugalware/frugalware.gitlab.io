@@ -2,7 +2,9 @@
 draft = false
 title = "lcms2 2.15-1"
 version = "2.15-1"
+date = "2023-03-03T21:25:41"
 categories = ['lib']
+upstreamurl = "https://sourceforge.net/projects/lcms"
 arch = "x86_64"
 size = "208052"
 usize = "697032"

@@ -2,7 +2,9 @@
 draft = false
 title = "slrn 1.0.1-2"
 version = "1.0.1-2"
+date = "2018-02-10T20:51:41"
 categories = ['network-extra']
+upstreamurl = "http://sourceforge.net/projects/slrn"
 arch = "x86_64"
 size = "512152"
 usize = "2179973"

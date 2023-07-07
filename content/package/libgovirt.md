@@ -2,7 +2,9 @@
 draft = false
 title = "libgovirt 0.3.9-1"
 version = "0.3.9-1"
+date = "2023-03-08T08:23:41"
 categories = ['xlib-extra']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "80452"
 usize = "448623"

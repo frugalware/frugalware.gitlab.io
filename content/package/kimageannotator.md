@@ -2,7 +2,9 @@
 draft = false
 title = "kimageannotator 0.6.1-1"
 version = "0.6.1-1"
+date = "2023-04-17T20:41:53"
 categories = ['kde5']
+upstreamurl = "https://github.com/ksnip/kimageannotator"
 arch = "x86_64"
 size = "355120"
 usize = "1632252"

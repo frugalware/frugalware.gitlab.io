@@ -2,7 +2,9 @@
 draft = false
 title = "python3-pyasn1 0.4.8-6"
 version = "0.4.8-6"
+date = "2022-10-27T18:01:23"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/pyasn1"
 arch = "x86_64"
 size = "143556"
 usize = "795642"

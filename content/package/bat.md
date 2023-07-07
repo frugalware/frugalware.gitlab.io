@@ -2,7 +2,9 @@
 draft = false
 title = "bat 0.22.1-1"
 version = "0.22.1-1"
+date = "2023-03-06T10:05:13"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/sharkdp/bat"
 arch = "x86_64"
 size = "2199508"
 usize = "5306727"

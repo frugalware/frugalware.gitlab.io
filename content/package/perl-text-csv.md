@@ -2,7 +2,9 @@
 draft = false
 title = "perl-text-csv 2.02-1"
 version = "2.02-1"
+date = "2023-02-21T14:29:03"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "105808"
 usize = "336181"

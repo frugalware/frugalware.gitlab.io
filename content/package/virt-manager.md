@@ -2,7 +2,9 @@
 draft = false
 title = "virt-manager 4.1.0-1"
 version = "4.1.0-1"
+date = "2022-12-15T13:32:08"
 categories = ['gnome-extra']
+upstreamurl = "http://virt-manager.et.redhat.com"
 arch = "x86_64"
 size = "1052512"
 usize = "7198029"

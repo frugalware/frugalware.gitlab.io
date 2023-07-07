@@ -2,7 +2,9 @@
 draft = false
 title = "vc 1.4.3-1"
 version = "1.4.3-1"
+date = "2022-08-03T14:02:54"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/VcDevel/Vc"
 arch = "x86_64"
 size = "1641568"
 usize = "3712573"

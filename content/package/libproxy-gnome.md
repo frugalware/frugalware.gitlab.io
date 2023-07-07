@@ -2,7 +2,9 @@
 draft = false
 title = "libproxy-gnome 0.4.18-4"
 version = "0.4.18-4"
+date = "2022-12-11T15:15:19"
 categories = ['gnome']
+upstreamurl = "https://github.com/libproxy/libproxy"
 arch = "x86_64"
 size = "18344"
 usize = "57290"

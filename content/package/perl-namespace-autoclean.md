@@ -2,7 +2,9 @@
 draft = false
 title = "perl-namespace-autoclean 0.29-2"
 version = "0.29-2"
+date = "2022-02-21T15:12:33"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "9304"
 usize = "20086"

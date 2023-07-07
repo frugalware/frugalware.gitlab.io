@@ -2,7 +2,9 @@
 draft = false
 title = "fwupd-efi 1.4-1"
 version = "1.4-1"
+date = "2023-02-14T10:36:41"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/fwupd/fwupd"
 arch = "x86_64"
 size = "33988"
 usize = "91273"

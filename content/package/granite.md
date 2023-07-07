@@ -2,7 +2,9 @@
 draft = false
 title = "granite 7.2.0-1"
 version = "7.2.0-1"
+date = "2023-03-29T13:32:42"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/elementary/granite"
 arch = "x86_64"
 size = "132108"
 usize = "684468"

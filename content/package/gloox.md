@@ -2,7 +2,9 @@
 draft = false
 title = "gloox 1.0.24-2"
 version = "1.0.24-2"
+date = "2022-02-08T15:09:31"
 categories = ['lib-extra']
+upstreamurl = "http://camaya.net/gloox/"
 arch = "x86_64"
 size = "516640"
 usize = "2242999"

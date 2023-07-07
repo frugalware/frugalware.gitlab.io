@@ -2,7 +2,9 @@
 draft = false
 title = "hostapd 2.10-3"
 version = "2.10-3"
+date = "2023-03-15T20:24:48"
 categories = ['network-extra']
+upstreamurl = "https://w1.fi/hostapd/"
 arch = "x86_64"
 size = "413340"
 usize = "1100120"

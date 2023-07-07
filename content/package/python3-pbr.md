@@ -2,7 +2,9 @@
 draft = false
 title = "python3-pbr 5.11.1-1"
 version = "5.11.1-1"
+date = "2023-02-21T10:33:11"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/pbr"
 arch = "x86_64"
 size = "168664"
 usize = "746450"

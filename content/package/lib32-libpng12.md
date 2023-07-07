@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libpng12 1.2.57-5"
 version = "1.2.57-5"
+date = "2022-04-03T22:20:01"
 categories = ['lib32-extra']
+upstreamurl = "http://www.libpng.org/"
 arch = "x86_64"
 size = "116968"
 usize = "369791"

@@ -2,7 +2,9 @@
 draft = false
 title = "geoip 1.6.12-4"
 version = "1.6.12-4"
+date = "2022-04-03T22:08:29"
 categories = ['lib-extra']
+upstreamurl = "http://www.maxmind.com/app/c"
 arch = "x86_64"
 size = "103508"
 usize = "390887"

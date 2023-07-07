@@ -2,7 +2,9 @@
 draft = false
 title = "python3-fasteners 0.18-4"
 version = "0.18-4"
+date = "2022-10-28T11:22:45"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/fasteners"
 arch = "x86_64"
 size = "28536"
 usize = "188283"

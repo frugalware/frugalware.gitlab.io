@@ -2,7 +2,9 @@
 draft = false
 title = "libepubgen 0.1.1-2"
 version = "0.1.1-2"
+date = "2020-02-10T09:14:30"
 categories = ['xoffice']
+upstreamurl = "https://sourceforge.net/projects/libepubgen"
 arch = "x86_64"
 size = "251024"
 usize = "2853503"

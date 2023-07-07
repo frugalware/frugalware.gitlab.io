@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-http-media 0.8.0.0-10"
 version = "0.8.0.0-10"
+date = "2023-03-20T22:43:58"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/http-media"
 arch = "x86_64"
 size = "161580"
 usize = "1501104"

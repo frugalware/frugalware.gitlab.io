@@ -2,7 +2,9 @@
 draft = false
 title = "farstream 0.2.9-2"
 version = "0.2.9-2"
+date = "2022-01-19T13:53:34"
 categories = ['xlib']
+upstreamurl = "http://www.freedesktop.org/wiki/Software/Farstream"
 arch = "x86_64"
 size = "428276"
 usize = "2425806"

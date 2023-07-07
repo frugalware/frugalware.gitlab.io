@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libxcursor 1.2.1-1"
 version = "1.2.1-1"
+date = "2022-08-12T09:42:42"
 categories = ['lib32-extra']
+upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "23468"
 usize = "59902"

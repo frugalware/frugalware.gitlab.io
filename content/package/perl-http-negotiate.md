@@ -2,7 +2,9 @@
 draft = false
 title = "perl-http-negotiate 6.01-6"
 version = "6.01-6"
+date = "2022-03-03T15:27:39"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "11940"
 usize = "28573"

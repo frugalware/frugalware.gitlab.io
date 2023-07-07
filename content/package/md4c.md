@@ -2,7 +2,9 @@
 draft = false
 title = "md4c 0.4.8-1"
 version = "0.4.8-1"
+date = "2022-09-05T16:59:03"
 categories = ['lib']
+upstreamurl = "https://github.com/mity/md4c"
 arch = "x86_64"
 size = "66472"
 usize = "248524"

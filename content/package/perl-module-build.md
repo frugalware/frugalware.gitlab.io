@@ -2,7 +2,9 @@
 draft = false
 title = "perl-module-build 0.4232-1"
 version = "0.4232-1"
+date = "2022-12-19T16:15:53"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "200332"
 usize = "521506"

@@ -2,7 +2,9 @@
 draft = false
 title = "transmageddon 1.5-4"
 version = "1.5-4"
+date = "2022-12-12T15:33:56"
 categories = ['xapps-extra']
+upstreamurl = "http://www.linuxrising.org/"
 arch = "x86_64"
 size = "173344"
 usize = "936415"

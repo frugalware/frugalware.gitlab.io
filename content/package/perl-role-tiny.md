@@ -2,7 +2,9 @@
 draft = false
 title = "perl-role-tiny 2.002004-2"
 version = "2.002004-2"
+date = "2022-02-15T13:58:31"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "20520"
 usize = "54117"

@@ -2,7 +2,9 @@
 draft = false
 title = "pdns-recursor 4.8.4-1"
 version = "4.8.4-1"
+date = "2023-04-21T09:42:10"
 categories = ['network-extra']
+upstreamurl = "http://www.powerdns.com/"
 arch = "x86_64"
 size = "1645400"
 usize = "5868969"

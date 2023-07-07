@@ -2,7 +2,9 @@
 draft = false
 title = "rsyslog-gssapi 8.2102.0-1"
 version = "8.2102.0-1"
+date = "2021-03-01T13:57:44"
 categories = ['apps-extra']
+upstreamurl = "http://www.rsyslog.com/"
 arch = "x86_64"
 size = "14652"
 usize = "53375"

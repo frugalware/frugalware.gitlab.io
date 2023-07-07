@@ -2,7 +2,9 @@
 draft = false
 title = "grfcodec 6.0.6-4"
 version = "6.0.6-4"
+date = "2020-02-11T14:33:36"
 categories = ['apps-extra']
+upstreamurl = "http://www.openttd.org/en"
 arch = "x86_64"
 size = "199360"
 usize = "582216"

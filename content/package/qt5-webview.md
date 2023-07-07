@@ -2,7 +2,9 @@
 draft = false
 title = "qt5-webview 5.15.10-1"
 version = "5.15.10-1"
+date = "2023-06-07T11:29:27"
 categories = ['xlib']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "45076"
 usize = "232609"

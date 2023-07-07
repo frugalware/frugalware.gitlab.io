@@ -2,7 +2,9 @@
 draft = false
 title = "gfpm 1.3.3-7"
 version = "1.3.3-7"
+date = "2022-02-09T16:32:05"
 categories = ['xapps']
+upstreamurl = "http://ftp.frugalware.org/pub/other/gfpm"
 arch = "x86_64"
 size = "311772"
 usize = "695365"

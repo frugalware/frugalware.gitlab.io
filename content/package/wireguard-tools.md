@@ -2,7 +2,9 @@
 draft = false
 title = "wireguard-tools 1.0.20210914-1"
 version = "1.0.20210914-1"
+date = "2021-09-16T09:27:49"
 categories = ['network-extra']
+upstreamurl = "https://www.wireguard.com/"
 arch = "x86_64"
 size = "55776"
 usize = "142130"

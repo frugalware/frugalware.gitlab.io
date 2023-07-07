@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libsm 1.2.4-1"
 version = "1.2.4-1"
+date = "2022-12-20T08:26:22"
 categories = ['lib32-extra']
+upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "19140"
 usize = "61685"

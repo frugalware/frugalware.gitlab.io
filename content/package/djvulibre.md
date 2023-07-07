@@ -2,7 +2,9 @@
 draft = false
 title = "djvulibre 3.5.28-2"
 version = "3.5.28-2"
+date = "2022-01-19T13:30:04"
 categories = ['xlib']
+upstreamurl = "http://djvulibre.djvuzone.org/"
 arch = "x86_64"
 size = "962860"
 usize = "3148269"

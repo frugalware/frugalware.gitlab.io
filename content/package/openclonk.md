@@ -2,7 +2,9 @@
 draft = false
 title = "openclonk 8.1-2"
 version = "8.1-2"
+date = "2020-03-17T08:29:22"
 categories = ['games-extra']
+upstreamurl = "http://www.openclonk.org/"
 arch = "x86_64"
 size = "114395852"
 usize = "121200084"

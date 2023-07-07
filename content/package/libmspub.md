@@ -2,7 +2,9 @@
 draft = false
 title = "libmspub 0.1.4-11"
 version = "0.1.4-11"
+date = "2023-04-19T08:47:07"
 categories = ['xoffice']
+upstreamurl = "https://wiki.documentfoundation.org/DLP/Libraries/libmspub"
 arch = "x86_64"
 size = "486436"
 usize = "8012436"

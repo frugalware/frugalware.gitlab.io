@@ -2,7 +2,9 @@
 draft = false
 title = "srm 1.2.15-2"
 version = "1.2.15-2"
+date = "2018-02-11T22:01:14"
 categories = ['apps-extra']
+upstreamurl = "http://sourceforge.net/projects/srm"
 arch = "x86_64"
 size = "17512"
 usize = "45103"

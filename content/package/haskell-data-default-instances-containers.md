@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-data-default-instances-containers 0.0.1-34"
 version = "0.0.1-34"
+date = "2023-03-17T15:54:46"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/data-default-instances-containers"
 arch = "x86_64"
 size = "37956"
 usize = "144639"

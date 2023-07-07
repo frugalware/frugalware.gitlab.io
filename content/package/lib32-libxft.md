@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libxft 2.3.8-1"
 version = "2.3.8-1"
+date = "2023-04-18T13:52:16"
 categories = ['lib32-extra']
+upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "45928"
 usize = "122010"

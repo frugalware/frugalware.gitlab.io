@@ -2,7 +2,9 @@
 draft = false
 title = "arpack-ng 3.8.0-1"
 version = "3.8.0-1"
+date = "2022-02-10T16:29:11"
 categories = ['lib-extra']
+upstreamurl = "http://forge.scilab.org/index.php/p/arpack-ng"
 arch = "x86_64"
 size = "96428"
 usize = "314916"

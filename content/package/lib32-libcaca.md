@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libcaca 0.99.beta19-13"
 version = "0.99.beta19-13"
+date = "2022-12-13T15:29:04"
 categories = ['lib32-extra']
+upstreamurl = "http://libcaca.zoy.org"
 arch = "x86_64"
 size = "289384"
 usize = "1423677"

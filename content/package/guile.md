@@ -2,7 +2,9 @@
 draft = false
 title = "guile 3.0.9-1"
 version = "3.0.9-1"
+date = "2023-01-26T09:59:36"
 categories = ['devel-extra']
+upstreamurl = "http://www.gnu.org/software/guile/"
 arch = "x86_64"
 size = "7683600"
 usize = "56191497"

@@ -2,7 +2,9 @@
 draft = false
 title = "flutter 3.7.7-1"
 version = "3.7.7-1"
+date = "2023-03-22T09:19:57"
 categories = ['devel-extra']
+upstreamurl = "https://flutter.dev"
 arch = "x86_64"
 size = "464678548"
 usize = "1681555023"

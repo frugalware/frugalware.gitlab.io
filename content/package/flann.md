@@ -2,7 +2,9 @@
 draft = false
 title = "flann 1.9.2-1"
 version = "1.9.2-1"
+date = "2023-03-06T14:38:01"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/mariusmuja/flann"
 arch = "x86_64"
 size = "768408"
 usize = "5071775"

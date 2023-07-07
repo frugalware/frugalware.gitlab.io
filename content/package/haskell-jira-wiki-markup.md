@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-jira-wiki-markup 1.5.1-1"
 version = "1.5.1-1"
+date = "2023-03-19T21:26:42"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/jira-wiki-markup"
 arch = "x86_64"
 size = "695424"
 usize = "6117326"

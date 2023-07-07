@@ -2,7 +2,9 @@
 draft = false
 title = "telepathy-logger 0.8.2-11"
 version = "0.8.2-11"
+date = "2022-01-14T22:31:59"
 categories = ['lib']
+upstreamurl = "http://telepathy.freedesktop.org/releases/telepathy-logger"
 arch = "x86_64"
 size = "178204"
 usize = "919969"

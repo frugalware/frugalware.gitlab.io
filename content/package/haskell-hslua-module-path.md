@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-hslua-module-path 1.1.0-1"
 version = "1.1.0-1"
+date = "2023-03-20T19:07:31"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/hslua-module-path"
 arch = "x86_64"
 size = "85012"
 usize = "632468"

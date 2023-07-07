@@ -2,7 +2,9 @@
 draft = false
 title = "palapeli 23.04.2-2"
 version = "23.04.2-2"
+date = "2023-06-21T12:54:50"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "2370596"
 usize = "4550386"

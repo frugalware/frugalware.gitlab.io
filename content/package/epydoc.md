@@ -2,7 +2,9 @@
 draft = false
 title = "epydoc 3.0.1-8"
 version = "3.0.1-8"
+date = "2022-12-11T10:07:50"
 categories = ['devel-extra']
+upstreamurl = "https://sourceforge.net/projects/epydoc"
 arch = "x86_64"
 size = "1065760"
 usize = "15623441"

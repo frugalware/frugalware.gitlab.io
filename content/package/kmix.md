@@ -2,7 +2,9 @@
 draft = false
 title = "kmix 23.04.2-2"
 version = "23.04.2-2"
+date = "2023-06-21T09:00:20"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1299724"
 usize = "3151105"

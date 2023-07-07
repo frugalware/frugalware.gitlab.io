@@ -2,7 +2,9 @@
 draft = false
 title = "libieee1284 0.2.11-11"
 version = "0.2.11-11"
+date = "2022-12-10T17:48:58"
 categories = ['multimedia']
+upstreamurl = "http://cyberelk.net/tim/libieee1284"
 arch = "x86_64"
 size = "70476"
 usize = "194723"

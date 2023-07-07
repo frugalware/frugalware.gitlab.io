@@ -2,7 +2,9 @@
 draft = false
 title = "libu2f-host 1.1.10-6"
 version = "1.1.10-6"
+date = "2022-02-13T20:08:57"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/Yubico/libu2f-host"
 arch = "x86_64"
 size = "50444"
 usize = "166604"

@@ -2,7 +2,9 @@
 draft = false
 title = "gftp 2.9.1b-2"
 version = "2.9.1b-2"
+date = "2023-03-15T19:43:28"
 categories = ['xapps']
+upstreamurl = "https://github.com/masneyb/gftp"
 arch = "x86_64"
 size = "705524"
 usize = "4537765"

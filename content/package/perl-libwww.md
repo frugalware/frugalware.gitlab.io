@@ -2,7 +2,9 @@
 draft = false
 title = "perl-libwww 6.68-1"
 version = "6.68-1"
+date = "2023-03-14T13:10:01"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "145552"
 usize = "354769"

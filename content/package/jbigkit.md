@@ -2,7 +2,9 @@
 draft = false
 title = "jbigkit 2.1-8"
 version = "2.1-8"
+date = "2022-02-08T17:19:57"
 categories = ['lib-extra']
+upstreamurl = "http://www.cl.cam.ac.uk/~mgk25/jbigkit/"
 arch = "x86_64"
 size = "185476"
 usize = "295583"

@@ -2,7 +2,9 @@
 draft = false
 title = "xmlrpc-c 1.54.06-2"
 version = "1.54.06-2"
+date = "2023-03-16T04:13:04"
 categories = ['network-extra']
+upstreamurl = "http://xmlrpc-c.sourceforge.net/"
 arch = "x86_64"
 size = "335296"
 usize = "1466989"

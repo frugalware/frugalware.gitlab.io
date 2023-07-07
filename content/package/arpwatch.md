@@ -2,7 +2,9 @@
 draft = false
 title = "arpwatch 2.1a15-2"
 version = "2.1a15-2"
+date = "2019-12-24T22:13:55"
 categories = ['network-extra']
+upstreamurl = "ftp://ftp.ee.lbl.gov/"
 arch = "x86_64"
 size = "22532"
 usize = "86586"

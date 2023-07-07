@@ -2,7 +2,9 @@
 draft = false
 title = "courier-imap 5.1.7-3"
 version = "5.1.7-3"
+date = "2023-03-15T18:07:16"
 categories = ['network-extra']
+upstreamurl = "http://www.courier-mta.org/imap/"
 arch = "x86_64"
 size = "316284"
 usize = "1035581"

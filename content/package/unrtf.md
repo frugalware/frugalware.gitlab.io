@@ -2,7 +2,9 @@
 draft = false
 title = "unrtf 0.21.10-1"
 version = "0.21.10-1"
+date = "2018-12-12T13:06:47"
 categories = ['apps-extra']
+upstreamurl = "http://www.gnu.org/software/unrtf/unrtf.html"
 arch = "x86_64"
 size = "62588"
 usize = "225267"

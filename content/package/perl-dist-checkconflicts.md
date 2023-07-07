@@ -2,7 +2,9 @@
 draft = false
 title = "perl-dist-checkconflicts 0.11-5"
 version = "0.11-5"
+date = "2022-02-21T14:52:40"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "14240"
 usize = "34178"

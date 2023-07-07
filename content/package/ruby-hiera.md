@@ -2,7 +2,9 @@
 draft = false
 title = "ruby-hiera 3.12.0-1"
 version = "3.12.0-1"
+date = "2023-03-06T10:20:54"
 categories = ['devel-extra']
+upstreamurl = "http://projects.puppetlabs.com/projects/hiera"
 arch = "x86_64"
 size = "82608"
 usize = "258576"

@@ -2,7 +2,9 @@
 draft = false
 title = "mednafen 1.29.0-2"
 version = "1.29.0-2"
+date = "2022-09-19T11:53:20"
 categories = ['games-extra']
+upstreamurl = "https://mednafen.github.io"
 arch = "x86_64"
 size = "4260120"
 usize = "19856875"

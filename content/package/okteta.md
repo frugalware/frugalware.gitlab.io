@@ -2,7 +2,9 @@
 draft = false
 title = "okteta 0.26.11-1"
 version = "0.26.11-1"
+date = "2023-06-06T13:10:01"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1343772"
 usize = "7464927"

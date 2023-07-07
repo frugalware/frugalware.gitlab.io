@@ -2,7 +2,9 @@
 draft = false
 title = "xjavac 1866774-2"
 version = "1866774-2"
+date = "2022-01-17T13:02:26"
 categories = ['devel-extra']
+upstreamurl = "http://svn.apache.org/viewvc/xerces/java/trunk/tools/src/XJavac.java"
 arch = "x86_64"
 size = "3504"
 usize = "2597"

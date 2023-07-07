@@ -2,7 +2,9 @@
 draft = false
 title = "freetuxtv 0.6.8-3"
 version = "0.6.8-3"
+date = "2019-07-17T11:46:28"
 categories = ['xapps-extra']
+upstreamurl = "https://github.com/freetuxtv/freetuxtv"
 arch = "x86_64"
 size = "994524"
 usize = "1799249"

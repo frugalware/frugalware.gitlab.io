@@ -2,7 +2,9 @@
 draft = false
 title = "lrzsz 0.12.20-3"
 version = "0.12.20-3"
+date = "2018-02-11T15:29:30"
 categories = ['apps-extra']
+upstreamurl = "http://ohse.de/uwe/software/lrzsz.html"
 arch = "x86_64"
 size = "86600"
 usize = "231894"

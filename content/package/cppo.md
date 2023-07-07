@@ -2,7 +2,9 @@
 draft = false
 title = "cppo 1.6.9-1"
 version = "1.6.9-1"
+date = "2022-09-12T11:39:53"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/ocaml-community/cppo"
 arch = "x86_64"
 size = "457544"
 usize = "1777360"

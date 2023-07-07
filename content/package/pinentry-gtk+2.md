@@ -2,7 +2,9 @@
 draft = false
 title = "pinentry-gtk+2 1.2.1-2"
 version = "1.2.1-2"
+date = "2023-06-15T06:30:01"
 categories = ['xapps-extra']
+upstreamurl = "http://ftp.gnupg.org/gcrypt/pinentry/"
 arch = "x86_64"
 size = "31704"
 usize = "84342"

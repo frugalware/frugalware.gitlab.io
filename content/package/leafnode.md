@@ -2,7 +2,9 @@
 draft = false
 title = "leafnode 1.11.11-2"
 version = "1.11.11-2"
+date = "2018-02-10T00:06:34"
 categories = ['network-extra']
+upstreamurl = "http://sourceforge.net/projects/leafnode"
 arch = "x86_64"
 size = "315916"
 usize = "1022782"

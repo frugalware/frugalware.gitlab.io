@@ -2,7 +2,9 @@
 draft = false
 title = "oneswarm 0.7.5.2-2"
 version = "0.7.5.2-2"
+date = "2018-02-10T19:17:59"
 categories = ['network-extra']
+upstreamurl = "http://oneswarm.cs.washington.edu/"
 arch = "x86_64"
 size = "40822104"
 usize = "53483932"

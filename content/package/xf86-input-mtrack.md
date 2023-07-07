@@ -2,7 +2,9 @@
 draft = false
 title = "xf86-input-mtrack 0.3.1-8"
 version = "0.3.1-8"
+date = "2022-01-19T09:14:29"
 categories = ['x11', 'xorg-core', 'xorg-drivers', 'xorg-input-drivers']
+upstreamurl = "https://github.com/BlueDragonX/xf86-input-mtrack"
 arch = "x86_64"
 size = "26104"
 usize = "79967"

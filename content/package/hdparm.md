@@ -2,7 +2,9 @@
 draft = false
 title = "hdparm 9.65-1"
 version = "9.65-1"
+date = "2022-09-16T09:05:43"
 categories = ['apps']
+upstreamurl = "https://sourceforge.net/projects/hdparm"
 arch = "x86_64"
 size = "82256"
 usize = "185922"

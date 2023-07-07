@@ -2,7 +2,9 @@
 draft = false
 title = "zlib-static 1.2.13-2"
 version = "1.2.13-2"
+date = "2023-02-20T12:08:27"
 categories = ['devel-extra']
+upstreamurl = "http://www.zlib.net/"
 arch = "x86_64"
 size = "583128"
 usize = "665722"

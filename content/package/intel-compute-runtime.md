@@ -2,7 +2,9 @@
 draft = false
 title = "intel-compute-runtime 23.05.25593.11-1"
 version = "23.05.25593.11-1"
+date = "2023-03-09T10:09:44"
 categories = ['lib']
+upstreamurl = "https://01.org/compute-runtime"
 arch = "x86_64"
 size = "4139632"
 usize = "36519390"

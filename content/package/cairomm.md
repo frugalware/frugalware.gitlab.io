@@ -2,7 +2,9 @@
 draft = false
 title = "cairomm 1.14.3-2"
 version = "1.14.3-2"
+date = "2022-04-22T12:13:53"
 categories = ['xlib-extra']
+upstreamurl = "https://www.cairographics.org"
 arch = "x86_64"
 size = "108128"
 usize = "521783"

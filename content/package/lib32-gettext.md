@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-gettext 0.21.1-2"
 version = "0.21.1-2"
+date = "2022-10-19T07:31:44"
 categories = ['lib32-extra']
+upstreamurl = "http://www.gnu.org/software/gettext"
 arch = "x86_64"
 size = "766748"
 usize = "2930405"

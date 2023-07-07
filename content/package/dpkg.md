@@ -2,7 +2,9 @@
 draft = false
 title = "dpkg 1.21.9-1"
 version = "1.21.9-1"
+date = "2022-07-31T10:35:30"
 categories = ['apps-extra']
+upstreamurl = "https://packages.debian.org/source/sid/dpkg"
 arch = "x86_64"
 size = "3649740"
 usize = "13748661"

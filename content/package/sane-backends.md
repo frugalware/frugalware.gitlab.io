@@ -2,7 +2,9 @@
 draft = false
 title = "sane-backends 1.2.1-1"
 version = "1.2.1-1"
+date = "2023-02-06T16:21:23"
 categories = ['multimedia']
+upstreamurl = "http://www.sane-project.org"
 arch = "x86_64"
 size = "3872460"
 usize = "20474223"

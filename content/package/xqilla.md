@@ -2,7 +2,9 @@
 draft = false
 title = "xqilla 2.3.4-1"
 version = "2.3.4-1"
+date = "2018-05-18T18:36:08"
 categories = ['apps-extra']
+upstreamurl = "http://xqilla.sourceforge.net"
 arch = "x86_64"
 size = "1162576"
 usize = "5971022"

@@ -2,7 +2,9 @@
 draft = false
 title = "python3-sane 2.9.1-4"
 version = "2.9.1-4"
+date = "2022-10-27T18:18:59"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/python-sane"
 arch = "x86_64"
 size = "18224"
 usize = "61347"

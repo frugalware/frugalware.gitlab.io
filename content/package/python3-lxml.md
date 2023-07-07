@@ -2,7 +2,9 @@
 draft = false
 title = "python3-lxml 4.9.2-1"
 version = "4.9.2-1"
+date = "2023-02-21T10:18:50"
 categories = ['devel-extra']
+upstreamurl = "http://lxml.de/"
 arch = "x86_64"
 size = "1228660"
 usize = "5330698"

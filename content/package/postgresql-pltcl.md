@@ -2,7 +2,9 @@
 draft = false
 title = "postgresql-pltcl 15.3-1"
 version = "15.3-1"
+date = "2023-05-18T09:25:56"
 categories = ['devel-extra']
+upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
 size = "24356"
 usize = "67504"

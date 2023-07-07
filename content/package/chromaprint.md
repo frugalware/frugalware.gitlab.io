@@ -2,7 +2,9 @@
 draft = false
 title = "chromaprint 1.5.1-4"
 version = "1.5.1-4"
+date = "2023-03-01T07:35:26"
 categories = ['lib-extra']
+upstreamurl = "http://acoustid.org/chromaprint"
 arch = "x86_64"
 size = "36892"
 usize = "100217"

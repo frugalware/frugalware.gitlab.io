@@ -2,7 +2,9 @@
 draft = false
 title = "glibmm24 2.66.2-1"
 version = "2.66.2-1"
+date = "2022-02-15T21:02:56"
 categories = ['lib-extra']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "1183908"
 usize = "7597384"

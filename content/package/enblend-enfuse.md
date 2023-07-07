@@ -2,7 +2,9 @@
 draft = false
 title = "enblend-enfuse 4.2-9"
 version = "4.2-9"
+date = "2022-08-05T10:12:20"
 categories = ['xapps-extra']
+upstreamurl = "https://sourceforge.net/projects/enblend"
 arch = "x86_64"
 size = "1042744"
 usize = "4476576"

@@ -2,7 +2,9 @@
 draft = false
 title = "autoconf-archive 2023.02.20-1"
 version = "2023.02.20-1"
+date = "2023-02-27T12:27:16"
 categories = ['devel-extra']
+upstreamurl = "http://www.gnu.org/software/autoconf-archive"
 arch = "x86_64"
 size = "603452"
 usize = "2748710"

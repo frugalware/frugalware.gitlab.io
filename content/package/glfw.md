@@ -2,7 +2,9 @@
 draft = false
 title = "glfw 3.3.8-1"
 version = "3.3.8-1"
+date = "2022-08-02T11:44:44"
 categories = ['x11']
+upstreamurl = "glfw.org"
 arch = "x86_64"
 size = "334184"
 usize = "3253461"

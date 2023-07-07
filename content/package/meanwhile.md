@@ -2,7 +2,9 @@
 draft = false
 title = "meanwhile 1.1.1-5"
 version = "1.1.1-5"
+date = "2022-01-26T13:27:27"
 categories = ['apps']
+upstreamurl = "https://github.com/mrcsparker/meanwhile"
 arch = "x86_64"
 size = "452740"
 usize = "4901329"

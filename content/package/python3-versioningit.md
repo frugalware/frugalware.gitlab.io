@@ -2,7 +2,9 @@
 draft = false
 title = "python3-versioningit 2.2.0-1"
 version = "2.2.0-1"
+date = "2023-02-24T10:33:56"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/versioningit"
 arch = "x86_64"
 size = "57760"
 usize = "358763"

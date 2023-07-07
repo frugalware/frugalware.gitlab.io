@@ -2,7 +2,9 @@
 draft = false
 title = "libgusb 0.4.2-1"
 version = "0.4.2-1"
+date = "2022-12-20T08:54:07"
 categories = ['lib']
+upstreamurl = "https://github.com/hughsie/libgusb"
 arch = "x86_64"
 size = "63592"
 usize = "358285"

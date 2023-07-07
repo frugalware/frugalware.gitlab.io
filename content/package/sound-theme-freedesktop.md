@@ -2,7 +2,9 @@
 draft = false
 title = "sound-theme-freedesktop 0.8-7"
 version = "0.8-7"
+date = "2022-01-31T13:15:18"
 categories = ['multimedia']
+upstreamurl = "http://freedesktop.org/wiki/Specifications/sound-theme-spec"
 arch = "x86_64"
 size = "380780"
 usize = "496998"

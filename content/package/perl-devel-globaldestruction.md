@@ -2,7 +2,9 @@
 draft = false
 title = "perl-devel-globaldestruction 0.14-2"
 version = "0.14-2"
+date = "2022-02-15T13:52:31"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "4804"
 usize = "7431"

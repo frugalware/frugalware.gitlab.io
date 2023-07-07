@@ -2,7 +2,9 @@
 draft = false
 title = "libva1 1.8.3-1"
 version = "1.8.3-1"
+date = "2018-12-06T15:49:24"
 categories = ['x11-extra']
+upstreamurl = "http://www.freedesktop.org/wiki/Software/vaapi"
 arch = "x86_64"
 size = "117844"
 usize = "618847"

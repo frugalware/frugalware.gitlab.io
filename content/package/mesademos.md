@@ -2,7 +2,9 @@
 draft = false
 title = "mesademos 9.0.0-2"
 version = "9.0.0-2"
+date = "2023-03-24T09:55:49"
 categories = ['x11']
+upstreamurl = "https://ww.mesa3d.org"
 arch = "x86_64"
 size = "2746236"
 usize = "25342950"

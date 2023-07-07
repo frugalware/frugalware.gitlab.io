@@ -2,7 +2,9 @@
 draft = false
 title = "gtk-doc 1.32-4"
 version = "1.32-4"
+date = "2022-12-12T08:41:31"
 categories = ['devel-extra']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "340976"
 usize = "2768873"

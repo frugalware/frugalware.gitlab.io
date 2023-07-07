@@ -2,7 +2,9 @@
 draft = false
 title = "spamassassin 4.0.0-1"
 version = "4.0.0-1"
+date = "2023-01-19T20:56:55"
 categories = ['network-extra']
+upstreamurl = "http://spamassassin.apache.org"
 arch = "x86_64"
 size = "1000392"
 usize = "3459389"

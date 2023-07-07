@@ -2,7 +2,9 @@
 draft = false
 title = "leptonica 1.83.0-1"
 version = "1.83.0-1"
+date = "2023-01-23T09:39:07"
 categories = ['xlib-extra']
+upstreamurl = "http://www.leptonica.com"
 arch = "x86_64"
 size = "1159816"
 usize = "3706313"

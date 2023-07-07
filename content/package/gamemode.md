@@ -2,7 +2,9 @@
 draft = false
 title = "gamemode 1.7-1"
 version = "1.7-1"
+date = "2022-08-30T16:59:29"
 categories = ['games-extra']
+upstreamurl = "https://github.com/FeralInteractive/gamemode"
 arch = "x86_64"
 size = "71528"
 usize = "281134"

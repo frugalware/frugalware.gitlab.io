@@ -2,7 +2,9 @@
 draft = false
 title = "catdoc 0.95-7"
 version = "0.95-7"
+date = "2022-02-02T17:00:09"
 categories = ['apps']
+upstreamurl = "http://www.wagner.pp.ru/~vitus/software/catdoc/"
 arch = "x86_64"
 size = "78300"
 usize = "651881"

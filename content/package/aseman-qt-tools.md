@@ -2,7 +2,9 @@
 draft = false
 title = "aseman-qt-tools 1.0.0-12"
 version = "1.0.0-12"
+date = "2023-06-13T15:13:00"
 categories = ['xlib-extra']
+upstreamurl = "https://github.com/Aseman-Land/aseman-qt-tools"
 arch = "x86_64"
 size = "1105456"
 usize = "3703431"

@@ -2,7 +2,9 @@
 draft = false
 title = "i3status 2.14-1"
 version = "2.14-1"
+date = "2022-12-19T15:07:09"
 categories = ['x11-extra']
+upstreamurl = "http://i3wm.org/i3status/"
 arch = "x86_64"
 size = "45428"
 usize = "122773"

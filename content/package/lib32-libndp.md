@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libndp 1.8-3"
 version = "1.8-3"
+date = "2021-10-06T12:20:39"
 categories = ['lib32-extra']
+upstreamurl = "https://github.com/jpirko/libndp"
 arch = "x86_64"
 size = "11572"
 usize = "32173"

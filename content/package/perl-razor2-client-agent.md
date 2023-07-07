@@ -2,7 +2,9 @@
 draft = false
 title = "perl-razor2-client-agent 2.86-2"
 version = "2.86-2"
+date = "2022-02-21T15:18:16"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "76676"
 usize = "268072"

@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libdmx 1.1.5-1"
 version = "1.1.5-1"
+date = "2023-06-06T12:57:46"
 categories = ['lib32-extra']
+upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "10380"
 usize = "28458"

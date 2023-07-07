@@ -2,7 +2,9 @@
 draft = false
 title = "lua51 5.1.5-4"
 version = "5.1.5-4"
+date = "2022-02-13T20:34:05"
 categories = ['devel-extra']
+upstreamurl = "http://www.lua.org"
 arch = "x86_64"
 size = "1125240"
 usize = "1795725"

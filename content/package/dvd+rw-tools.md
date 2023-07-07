@@ -2,7 +2,9 @@
 draft = false
 title = "dvd+rw-tools 7.1-7"
 version = "7.1-7"
+date = "2022-02-02T17:12:57"
 categories = ['apps']
+upstreamurl = "http://fy.chalmers.se/~appro/linux/DVD+RW/"
 arch = "x86_64"
 size = "79980"
 usize = "302546"

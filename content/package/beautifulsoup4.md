@@ -2,7 +2,9 @@
 draft = false
 title = "beautifulsoup4 4.11.2-1"
 version = "4.11.2-1"
+date = "2023-02-27T10:06:59"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/beautifulsoup4"
 arch = "x86_64"
 size = "241476"
 usize = "1140294"

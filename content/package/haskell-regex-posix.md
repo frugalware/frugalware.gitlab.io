@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-regex-posix 0.96.0.1-8"
 version = "0.96.0.1-8"
+date = "2023-03-17T15:41:05"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/regex-posix"
 arch = "x86_64"
 size = "152696"
 usize = "2025248"

@@ -2,7 +2,9 @@
 draft = false
 title = "gupnp-dlna 0.12.0-1"
 version = "0.12.0-1"
+date = "2022-04-28T08:37:22"
 categories = ['xlib-extra']
+upstreamurl = "http://www.gupnp.org"
 arch = "x86_64"
 size = "83824"
 usize = "625451"

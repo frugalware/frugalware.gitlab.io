@@ -2,7 +2,9 @@
 draft = false
 title = "easytag 2.4.3-1"
 version = "2.4.3-1"
+date = "2022-09-19T09:57:20"
 categories = ['xapps-extra']
+upstreamurl = "https://wiki.gnome.org/Apps/EasyTAG"
 arch = "x86_64"
 size = "854216"
 usize = "4844281"

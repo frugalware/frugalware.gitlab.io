@@ -2,7 +2,9 @@
 draft = false
 title = "flute 1.3.0_OOo31-4"
 version = "1.3.0_OOo31-4"
+date = "2022-03-01T15:13:49"
 categories = ['devel-extra']
+upstreamurl = "http://www.w3.org/Style/CSS/SAC/"
 arch = "x86_64"
 size = "105740"
 usize = "212771"

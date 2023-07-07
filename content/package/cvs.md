@@ -2,7 +2,9 @@
 draft = false
 title = "cvs 1.11.23-6"
 version = "1.11.23-6"
+date = "2022-04-03T21:37:10"
 categories = ['devel-extra']
+upstreamurl = "http://ximbiot.com/cvs/"
 arch = "x86_64"
 size = "736468"
 usize = "1855209"

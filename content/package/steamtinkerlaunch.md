@@ -2,7 +2,9 @@
 draft = false
 title = "steamtinkerlaunch 12.12-1"
 version = "12.12-1"
+date = "2023-03-31T11:42:21"
 categories = ['games-extra']
+upstreamurl = "https://github.com/frostworx/steamtinkerlaunch"
 arch = "x86_64"
 size = "273792"
 usize = "1600162"

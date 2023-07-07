@@ -2,7 +2,9 @@
 draft = false
 title = "gobject-introspection 1.76.1-1"
 version = "1.76.1-1"
+date = "2023-03-31T08:59:38"
 categories = ['xlib']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "1332640"
 usize = "13804202"

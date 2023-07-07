@@ -2,7 +2,9 @@
 draft = false
 title = "junit3 3.8.2-2"
 version = "3.8.2-2"
+date = "2022-02-21T12:39:25"
 categories = ['devel-extra']
+upstreamurl = "https://junit.org"
 arch = "x86_64"
 size = "117512"
 usize = "153009"

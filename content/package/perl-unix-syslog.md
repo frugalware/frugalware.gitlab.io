@@ -2,7 +2,9 @@
 draft = false
 title = "perl-unix-syslog 1.1-7"
 version = "1.1-7"
+date = "2022-02-21T15:24:43"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "16288"
 usize = "45121"

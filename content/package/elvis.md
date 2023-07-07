@@ -2,7 +2,9 @@
 draft = false
 title = "elvis 2.2_0-5"
 version = "2.2_0-5"
+date = "2018-02-11T02:08:27"
 categories = ['apps-extra']
+upstreamurl = "http://elvis.the-little-red-haired-girl.org/"
 arch = "x86_64"
 size = "815068"
 usize = "3716979"

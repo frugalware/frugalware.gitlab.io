@@ -2,7 +2,9 @@
 draft = false
 title = "telepathy-gabble 0.18.4-7"
 version = "0.18.4-7"
+date = "2022-01-26T13:15:14"
 categories = ['xlib']
+upstreamurl = "http://telepathy.freedesktop.org/"
 arch = "x86_64"
 size = "719056"
 usize = "2757727"

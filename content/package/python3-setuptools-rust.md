@@ -2,7 +2,9 @@
 draft = false
 title = "python3-setuptools-rust 1.5.2-1"
 version = "1.5.2-1"
+date = "2023-02-21T11:50:13"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/setuptools-rust"
 arch = "x86_64"
 size = "43800"
 usize = "160837"

@@ -2,7 +2,9 @@
 draft = false
 title = "vtun 3.0.4-7"
 version = "3.0.4-7"
+date = "2023-03-16T04:00:44"
 categories = ['network-extra']
+upstreamurl = "http://vtun.sourceforge.net/"
 arch = "x86_64"
 size = "48052"
 usize = "118989"

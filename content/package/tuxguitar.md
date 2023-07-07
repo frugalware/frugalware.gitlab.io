@@ -2,7 +2,9 @@
 draft = false
 title = "tuxguitar 1.5.6-1"
 version = "1.5.6-1"
+date = "2023-01-23T10:48:29"
 categories = ['xapps-extra']
+upstreamurl = "https://sourceforge.net/projects/tuxguitar"
 arch = "x86_64"
 size = "60576748"
 usize = "84853343"

@@ -2,7 +2,9 @@
 draft = false
 title = "ultrastardx 2020.4.0-4"
 version = "2020.4.0-4"
+date = "2023-03-03T23:30:53"
 categories = ['games-extra']
+upstreamurl = "http://usdx.eu/"
 arch = "x86_64"
 size = "46803000"
 usize = "82141311"

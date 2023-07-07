@@ -2,7 +2,9 @@
 draft = false
 title = "feh 3.9.1-1"
 version = "3.9.1-1"
+date = "2023-02-26T17:57:14"
 categories = ['xapps-extra']
+upstreamurl = "http://feh.finalrewind.org/"
 arch = "x86_64"
 size = "168260"
 usize = "419316"

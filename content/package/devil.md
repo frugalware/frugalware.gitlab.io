@@ -2,7 +2,9 @@
 draft = false
 title = "devil 1.8.0-4"
 version = "1.8.0-4"
+date = "2021-12-24T21:29:37"
 categories = ['xlib-extra']
+upstreamurl = "https://sourceforge.net/projects/openil"
 arch = "x86_64"
 size = "228444"
 usize = "703949"

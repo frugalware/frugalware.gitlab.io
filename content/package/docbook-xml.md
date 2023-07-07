@@ -2,7 +2,9 @@
 draft = false
 title = "docbook-xml 4.5-12"
 version = "4.5-12"
+date = "2022-02-02T17:10:21"
 categories = ['apps']
+upstreamurl = "http://www.oasis-open.org/docbook/xml/"
 arch = "x86_64"
 size = "63580"
 usize = "475684"

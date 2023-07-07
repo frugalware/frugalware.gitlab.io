@@ -2,7 +2,9 @@
 draft = false
 title = "commons-codec 1.15-2"
 version = "1.15-2"
+date = "2022-02-16T10:12:26"
 categories = ['devel-extra']
+upstreamurl = "http://jakarta.apache.org/commons/codec"
 arch = "x86_64"
 size = "296732"
 usize = "381556"

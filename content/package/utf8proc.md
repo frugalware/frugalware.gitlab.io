@@ -2,7 +2,9 @@
 draft = false
 title = "utf8proc 2.8.0-1"
 version = "2.8.0-1"
+date = "2023-02-24T19:34:12"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/JuliaLang/utf8proc"
 arch = "x86_64"
 size = "442940"
 usize = "873841"

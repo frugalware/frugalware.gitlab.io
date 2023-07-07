@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-file 5.44-1"
 version = "5.44-1"
+date = "2022-12-26T20:45:21"
 categories = ['lib32-extra']
+upstreamurl = "http://www.darwinsys.com/file/"
 arch = "x86_64"
 size = "90288"
 usize = "214284"

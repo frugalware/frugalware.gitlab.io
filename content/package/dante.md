@@ -2,7 +2,9 @@
 draft = false
 title = "dante 1.4.2-3"
 version = "1.4.2-3"
+date = "2018-05-18T19:51:38"
 categories = ['network-extra']
+upstreamurl = "http://www.inet.no/dante/"
 arch = "x86_64"
 size = "524356"
 usize = "1998723"

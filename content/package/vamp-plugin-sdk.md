@@ -2,7 +2,9 @@
 draft = false
 title = "vamp-plugin-sdk 2.2.1-5"
 version = "2.2.1-5"
+date = "2019-06-07T00:40:01"
 categories = ['multimedia-extra']
+upstreamurl = "http://www.vamp-plugins.org/"
 arch = "x86_64"
 size = "193180"
 usize = "827483"

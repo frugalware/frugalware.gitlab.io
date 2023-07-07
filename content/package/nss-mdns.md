@@ -2,7 +2,9 @@
 draft = false
 title = "nss-mdns 0.10-5"
 version = "0.10-5"
+date = "2022-01-31T21:15:23"
 categories = ['network']
+upstreamurl = "http://0pointer.de/lennart/projects/nss-mdns/"
 arch = "x86_64"
 size = "23060"
 usize = "123931"

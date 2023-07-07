@@ -2,7 +2,9 @@
 draft = false
 title = "sub2srt 0.5.5-2"
 version = "0.5.5-2"
+date = "2018-02-11T22:06:57"
 categories = ['apps-extra']
+upstreamurl = "http://www.robelix.com/sub2srt/"
 arch = "x86_64"
 size = "11480"
 usize = "35378"

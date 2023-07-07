@@ -2,7 +2,9 @@
 draft = false
 title = "modemmanager 1.18.12-1"
 version = "1.18.12-1"
+date = "2022-09-12T08:45:08"
 categories = ['base']
+upstreamurl = "http://www.freedesktop.org/wiki/Software/ModemManager/"
 arch = "x86_64"
 size = "1758880"
 usize = "9289632"

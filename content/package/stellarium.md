@@ -2,7 +2,9 @@
 draft = false
 title = "stellarium 23.1-1"
 version = "23.1-1"
+date = "2023-06-15T19:07:59"
 categories = ['xapps-extra']
+upstreamurl = "http://www.stellarium.org/"
 arch = "x86_64"
 size = "293966624"
 usize = "484556349"

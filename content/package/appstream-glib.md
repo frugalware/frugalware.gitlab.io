@@ -2,7 +2,9 @@
 draft = false
 title = "appstream-glib 0.8.2-1"
 version = "0.8.2-1"
+date = "2023-01-04T09:31:21"
 categories = ['xlib']
+upstreamurl = "https://people.freedesktop.org/~hughsient/appstream-glib"
 arch = "x86_64"
 size = "412804"
 usize = "2559192"

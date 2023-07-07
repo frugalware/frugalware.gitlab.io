@@ -2,7 +2,9 @@
 draft = false
 title = "conntrack-tools 1.4.5-1"
 version = "1.4.5-1"
+date = "2018-05-04T00:38:30"
 categories = ['network-extra']
+upstreamurl = "http://netfilter.org/projects/conntrack-tools/index.html"
 arch = "x86_64"
 size = "140148"
 usize = "453825"

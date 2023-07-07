@@ -2,7 +2,9 @@
 draft = false
 title = "liboauth 1.0.3-6"
 version = "1.0.3-6"
+date = "2019-04-05T17:51:34"
 categories = ['gnome']
+upstreamurl = "https://sourceforge.net/projects/liboauth"
 arch = "x86_64"
 size = "41664"
 usize = "158092"

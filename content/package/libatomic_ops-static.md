@@ -2,7 +2,9 @@
 draft = false
 title = "libatomic_ops-static 7.8.0-1"
 version = "7.8.0-1"
+date = "2023-03-29T07:52:52"
 categories = ['devel-extra']
+upstreamurl = "https://www.hboehm.info/gc"
 arch = "x86_64"
 size = "35860"
 usize = "44698"

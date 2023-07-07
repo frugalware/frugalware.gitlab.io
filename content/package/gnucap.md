@@ -2,7 +2,9 @@
 draft = false
 title = "gnucap 0.35-6"
 version = "0.35-6"
+date = "2019-01-18T11:15:07"
 categories = ['apps-extra']
+upstreamurl = "http://www.gnucap.org/"
 arch = "x86_64"
 size = "943532"
 usize = "3436354"

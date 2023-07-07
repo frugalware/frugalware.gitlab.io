@@ -2,7 +2,9 @@
 draft = false
 title = "kbd 2.6.0-1"
 version = "2.6.0-1"
+date = "2023-06-12T19:00:35"
 categories = ['base']
+upstreamurl = "http://www.kbd-project.org/"
 arch = "x86_64"
 size = "1209984"
 usize = "3214044"

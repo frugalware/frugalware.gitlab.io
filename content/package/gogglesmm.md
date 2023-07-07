@@ -2,7 +2,9 @@
 draft = false
 title = "gogglesmm 1.2.4-1"
 version = "1.2.4-1"
+date = "2023-06-18T20:11:58"
 categories = ['xapps-extra']
+upstreamurl = "http://gogglesmm.github.io/"
 arch = "x86_64"
 size = "1468248"
 usize = "5141665"

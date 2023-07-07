@@ -2,7 +2,9 @@
 draft = false
 title = "monit 5.27.2-3"
 version = "5.27.2-3"
+date = "2023-03-15T22:02:53"
 categories = ['apps-extra']
+upstreamurl = "http://www.tildeslash.com/monit"
 arch = "x86_64"
 size = "341504"
 usize = "960385"

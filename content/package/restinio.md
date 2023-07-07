@@ -2,7 +2,9 @@
 draft = false
 title = "restinio 0.6.17-1"
 version = "0.6.17-1"
+date = "2022-09-12T12:05:57"
 categories = ['devel-extra']
+upstreamurl = "https://stiffstream.com/en/products/restinio.html"
 arch = "x86_64"
 size = "201612"
 usize = "1386231"

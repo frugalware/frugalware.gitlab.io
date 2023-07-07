@@ -2,7 +2,9 @@
 draft = false
 title = "perl-netaddr-ip 4.079-7"
 version = "4.079-7"
+date = "2023-01-19T20:52:51"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "78916"
 usize = "264270"

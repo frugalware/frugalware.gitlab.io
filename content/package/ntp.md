@@ -2,7 +2,9 @@
 draft = false
 title = "ntp 4.2.8-11"
 version = "4.2.8-11"
+date = "2023-03-15T22:56:44"
 categories = ['network-extra']
+upstreamurl = "http://www.ntp.org/"
 arch = "x86_64"
 size = "1922016"
 usize = "4771418"

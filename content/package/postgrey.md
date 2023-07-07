@@ -2,7 +2,9 @@
 draft = false
 title = "postgrey 1.37-4"
 version = "1.37-4"
+date = "2019-04-29T22:37:52"
 categories = ['network-extra']
+upstreamurl = "http://postgrey.schweikert.ch/"
 arch = "x86_64"
 size = "34500"
 usize = "177379"

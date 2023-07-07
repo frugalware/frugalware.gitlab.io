@@ -2,7 +2,9 @@
 draft = false
 title = "openvkl 1.2.0-1"
 version = "1.2.0-1"
+date = "2022-04-26T13:17:20"
 categories = ['xlib-extra']
+upstreamurl = "https://www.openvkl.org/"
 arch = "x86_64"
 size = "6165716"
 usize = "32052320"

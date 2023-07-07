@@ -2,7 +2,9 @@
 draft = false
 title = "librdf 1.0.17-8"
 version = "1.0.17-8"
+date = "2022-01-14T13:08:34"
 categories = ['lib']
+upstreamurl = "http://librdf.org/"
 arch = "x86_64"
 size = "275648"
 usize = "2125068"

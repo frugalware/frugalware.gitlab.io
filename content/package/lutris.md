@@ -2,7 +2,9 @@
 draft = false
 title = "lutris 0.5.13-1"
 version = "0.5.13-1"
+date = "2023-05-22T14:49:02"
 categories = ['games-extra']
+upstreamurl = "https://lutris.net"
 arch = "x86_64"
 size = "1222600"
 usize = "4786318"

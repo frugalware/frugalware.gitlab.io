@@ -2,7 +2,9 @@
 draft = false
 title = "libluv 1.44.2-1"
 version = "1.44.2-1"
+date = "2023-03-07T11:55:32"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/luvit/luv"
 arch = "x86_64"
 size = "51700"
 usize = "197946"

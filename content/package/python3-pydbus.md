@@ -2,7 +2,9 @@
 draft = false
 title = "python3-pydbus 0.6.0-5"
 version = "0.6.0-5"
+date = "2022-10-27T18:07:43"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/LEW21/pydbus"
 arch = "x86_64"
 size = "40604"
 usize = "146592"

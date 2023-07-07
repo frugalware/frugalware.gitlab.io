@@ -2,7 +2,9 @@
 draft = false
 title = "etckeeper 1.18.20-1"
 version = "1.18.20-1"
+date = "2023-01-09T13:48:32"
 categories = ['apps-extra']
+upstreamurl = "https://etckeeper.branchable.com/"
 arch = "x86_64"
 size = "33780"
 usize = "93960"

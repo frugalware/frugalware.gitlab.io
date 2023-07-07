@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libxcvt 0.1.2-1"
 version = "0.1.2-1"
+date = "2022-08-12T11:28:41"
 categories = ['lib32-extra']
+upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "8204"
 usize = "33235"

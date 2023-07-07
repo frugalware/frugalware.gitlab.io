@@ -2,7 +2,9 @@
 draft = false
 title = "unoconv 0.9.0-1"
 version = "0.9.0-1"
+date = "2022-12-12T15:39:05"
 categories = ['xapps-extra']
+upstreamurl = "http://pypi.python.org/pypi/unoconv"
 arch = "x86_64"
 size = "28780"
 usize = "119968"

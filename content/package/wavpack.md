@@ -2,7 +2,9 @@
 draft = false
 title = "wavpack 5.6.0-1"
 version = "5.6.0-1"
+date = "2022-12-10T13:28:06"
 categories = ['multimedia']
+upstreamurl = "http://www.wavpack.com/"
 arch = "x86_64"
 size = "510100"
 usize = "958540"

@@ -2,7 +2,9 @@
 draft = false
 title = "libfreeaptx 0.1.1-4"
 version = "0.1.1-4"
+date = "2022-03-16T09:22:18"
 categories = ['lib']
+upstreamurl = "https://github.com/iamthehorker/libfreeaptx"
 arch = "x86_64"
 size = "24516"
 usize = "90341"

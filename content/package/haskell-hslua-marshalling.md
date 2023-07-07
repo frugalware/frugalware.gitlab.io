@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-hslua-marshalling 2.3.0-2"
 version = "2.3.0-2"
+date = "2023-03-20T18:03:08"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/hslua-marshalling"
 arch = "x86_64"
 size = "133536"
 usize = "1207018"

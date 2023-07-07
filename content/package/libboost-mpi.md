@@ -2,7 +2,9 @@
 draft = false
 title = "libboost-mpi 1.82.0-1"
 version = "1.82.0-1"
+date = "2023-04-19T07:46:48"
 categories = ['lib-extra']
+upstreamurl = "http://boost.org/"
 arch = "x86_64"
 size = "89516"
 usize = "308847"

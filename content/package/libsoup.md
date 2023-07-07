@@ -2,7 +2,9 @@
 draft = false
 title = "libsoup 2.74.3-1"
 version = "2.74.3-1"
+date = "2022-10-16T13:11:09"
 categories = ['lib']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "480308"
 usize = "2970370"

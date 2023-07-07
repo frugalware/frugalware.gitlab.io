@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libjpeg6-turbo 1.5.3-1"
 version = "1.5.3-1"
+date = "2023-01-03T13:43:50"
 categories = ['lib32-extra']
+upstreamurl = "https://www.libjpeg-turbo.org/"
 arch = "x86_64"
 size = "113840"
 usize = "460089"

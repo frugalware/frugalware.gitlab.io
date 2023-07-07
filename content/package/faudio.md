@@ -2,7 +2,9 @@
 draft = false
 title = "faudio 23.03-1"
 version = "23.03-1"
+date = "2023-03-06T11:04:52"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/FNA-XNA/FAudio/"
 arch = "x86_64"
 size = "106932"
 usize = "341649"

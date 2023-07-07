@@ -2,7 +2,9 @@
 draft = false
 title = "pyalsa 1.2.7-2"
 version = "1.2.7-2"
+date = "2023-04-27T07:11:01"
 categories = ['lib']
+upstreamurl = "https://alsa-project.org"
 arch = "x86_64"
 size = "43480"
 usize = "230573"

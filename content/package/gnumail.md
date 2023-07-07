@@ -2,7 +2,9 @@
 draft = false
 title = "gnumail 1.1.2-5"
 version = "1.1.2-5"
+date = "2022-03-16T16:41:23"
 categories = ['devel-extra']
+upstreamurl = "http://www.gnu.org/software/classpathx/javamail/"
 arch = "x86_64"
 size = "260052"
 usize = "312701"

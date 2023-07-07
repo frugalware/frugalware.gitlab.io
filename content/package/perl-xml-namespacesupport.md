@@ -2,7 +2,9 @@
 draft = false
 title = "perl-xml-namespacesupport 1.12-5"
 version = "1.12-5"
+date = "2022-12-19T20:39:20"
 categories = ['devel']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "17400"
 usize = "43746"

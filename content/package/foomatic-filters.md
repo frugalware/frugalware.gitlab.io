@@ -2,7 +2,9 @@
 draft = false
 title = "foomatic-filters 4.0.17-10"
 version = "4.0.17-10"
+date = "2022-02-02T17:23:49"
 categories = ['apps']
+upstreamurl = "http://www.linuxfoundation.org/collaborate/workgroups/openprinting/databasefoomatic"
 arch = "x86_64"
 size = "114828"
 usize = "552316"

@@ -2,7 +2,9 @@
 draft = false
 title = "libfreehand 0.1.2-3"
 version = "0.1.2-3"
+date = "2020-02-10T10:19:19"
 categories = ['xoffice']
+upstreamurl = "https://wiki.documentfoundation.org/DLP/Libraries/libfreehand"
 arch = "x86_64"
 size = "258200"
 usize = "500973"

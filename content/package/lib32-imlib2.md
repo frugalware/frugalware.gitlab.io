@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-imlib2 1.11.1-1"
 version = "1.11.1-1"
+date = "2023-06-06T14:49:05"
 categories = ['lib32-extra']
+upstreamurl = "http://enlightenment.org"
 arch = "x86_64"
 size = "220024"
 usize = "950622"

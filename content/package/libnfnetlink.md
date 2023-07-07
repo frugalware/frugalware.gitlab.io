@@ -2,7 +2,9 @@
 draft = false
 title = "libnfnetlink 1.0.2-1"
 version = "1.0.2-1"
+date = "2023-02-24T19:31:56"
 categories = ['lib-extra']
+upstreamurl = "http://netfilter.org/projects/libnfnetlink/index.html"
 arch = "x86_64"
 size = "21628"
 usize = "62947"

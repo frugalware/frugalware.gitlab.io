@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libxi 1.8.1-1"
 version = "1.8.1-1"
+date = "2023-05-06T20:51:25"
 categories = ['lib32-extra']
+upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "37816"
 usize = "133306"

@@ -2,7 +2,9 @@
 draft = false
 title = "krusader 2.8.0-1"
 version = "2.8.0-1"
+date = "2022-12-13T12:07:23"
 categories = ['kde5']
+upstreamurl = "https://krusader.org"
 arch = "x86_64"
 size = "3915868"
 usize = "16051797"

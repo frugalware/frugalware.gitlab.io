@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-p11-kit 0.24.1-1"
 version = "0.24.1-1"
+date = "2022-02-03T08:45:27"
 categories = ['lib32-extra']
+upstreamurl = "http://p11-glue.freedesktop.org/p11-kit.html"
 arch = "x86_64"
 size = "604932"
 usize = "3554862"

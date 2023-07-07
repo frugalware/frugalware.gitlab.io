@@ -2,7 +2,9 @@
 draft = false
 title = "libnetfilter_conntrack 1.0.9-1"
 version = "1.0.9-1"
+date = "2023-02-24T19:27:27"
 categories = ['lib-extra']
+upstreamurl = "http://netfilter.org/projects/libnetfilter_conntrack/index.html"
 arch = "x86_64"
 size = "50984"
 usize = "184162"

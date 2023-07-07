@@ -2,7 +2,9 @@
 draft = false
 title = "qt5-remoteobjects 5.15.10-1"
 version = "5.15.10-1"
+date = "2023-06-07T11:15:07"
 categories = ['xlib']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "361152"
 usize = "1334034"

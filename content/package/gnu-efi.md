@@ -2,7 +2,9 @@
 draft = false
 title = "gnu-efi 3.0.15-1"
 version = "3.0.15-1"
+date = "2023-02-14T09:22:14"
 categories = ['devel-extra']
+upstreamurl = "https://sourceforge.net/projects/gnu-efi"
 arch = "x86_64"
 size = "352028"
 usize = "2129571"

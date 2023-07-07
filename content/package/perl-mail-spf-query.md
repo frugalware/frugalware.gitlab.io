@@ -2,7 +2,9 @@
 draft = false
 title = "perl-mail-spf-query 1.999.1-8"
 version = "1.999.1-8"
+date = "2022-03-15T08:30:22"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "36988"
 usize = "96228"

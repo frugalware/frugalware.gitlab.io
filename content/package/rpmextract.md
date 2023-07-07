@@ -2,7 +2,9 @@
 draft = false
 title = "rpmextract 1.0-6"
 version = "1.0-6"
+date = "2018-02-11T21:50:41"
 categories = ['apps-extra']
+upstreamurl = "http://frugalware.org"
 arch = "x86_64"
 size = "1416"
 usize = "979"

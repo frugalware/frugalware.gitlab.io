@@ -2,7 +2,9 @@
 draft = false
 title = "kdevelop-pg-qt 2.2.2-2"
 version = "2.2.2-2"
+date = "2023-06-13T13:09:00"
 categories = ['devel-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "477436"
 usize = "1103062"

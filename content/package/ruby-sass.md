@@ -2,7 +2,9 @@
 draft = false
 title = "ruby-sass 3.7.4-3"
 version = "3.7.4-3"
+date = "2022-11-09T19:57:58"
 categories = ['devel-extra']
+upstreamurl = "http://sass-lang.com"
 arch = "x86_64"
 size = "162928"
 usize = "833690"

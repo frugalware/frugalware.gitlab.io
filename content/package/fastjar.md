@@ -2,7 +2,9 @@
 draft = false
 title = "fastjar 0.98-5"
 version = "0.98-5"
+date = "2022-04-03T21:38:47"
 categories = ['devel-extra']
+upstreamurl = "https://savannah.nongnu.org/projects/fastjar"
 arch = "x86_64"
 size = "83084"
 usize = "216829"

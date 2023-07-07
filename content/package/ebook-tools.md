@@ -2,7 +2,9 @@
 draft = false
 title = "ebook-tools 0.2.2-10"
 version = "0.2.2-10"
+date = "2022-02-02T17:14:13"
 categories = ['apps']
+upstreamurl = "https://sourceforge.net/projects/ebook-tools"
 arch = "x86_64"
 size = "23884"
 usize = "80505"

@@ -2,7 +2,9 @@
 draft = false
 title = "libfastjson 0.99.9-1"
 version = "0.99.9-1"
+date = "2022-02-15T14:48:00"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/rsyslog/libfastjson"
 arch = "x86_64"
 size = "45700"
 usize = "145356"

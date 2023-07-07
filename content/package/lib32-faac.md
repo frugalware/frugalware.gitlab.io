@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-faac 1.30-2"
 version = "1.30-2"
+date = "2022-01-20T09:39:57"
 categories = ['lib32-extra']
+upstreamurl = "http://www.audiocoding.com"
 arch = "x86_64"
 size = "24704"
 usize = "51120"

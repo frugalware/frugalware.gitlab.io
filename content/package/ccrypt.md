@@ -2,7 +2,9 @@
 draft = false
 title = "ccrypt 1.11-1"
 version = "1.11-1"
+date = "2018-07-31T09:43:18"
 categories = ['apps-extra']
+upstreamurl = "https://sourceforge.net/projects/ccrypt"
 arch = "x86_64"
 size = "68248"
 usize = "202200"

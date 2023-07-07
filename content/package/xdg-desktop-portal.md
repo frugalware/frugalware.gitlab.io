@@ -2,7 +2,9 @@
 draft = false
 title = "xdg-desktop-portal 1.16.0-1"
 version = "1.16.0-1"
+date = "2022-12-19T13:45:39"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/flatpak/xdg-desktop-portal"
 arch = "x86_64"
 size = "313948"
 usize = "2017149"

@@ -2,7 +2,9 @@
 draft = false
 title = "openloco 22.09-1"
 version = "22.09-1"
+date = "2022-09-13T13:50:54"
 categories = ['games-extra']
+upstreamurl = "https://github.com/openloco/openloco"
 arch = "x86_64"
 size = "1459692"
 usize = "19487244"

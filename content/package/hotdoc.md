@@ -2,7 +2,9 @@
 draft = false
 title = "hotdoc 0.12.2-9"
 version = "0.12.2-9"
+date = "2022-11-03T12:40:58"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/hotdoc/hotdoc"
 arch = "x86_64"
 size = "915080"
 usize = "3930773"

@@ -2,7 +2,9 @@
 draft = false
 title = "xfsprogs 6.3.0-1"
 version = "6.3.0-1"
+date = "2023-05-22T14:10:34"
 categories = ['base']
+upstreamurl = "http://xfs.org"
 arch = "x86_64"
 size = "997388"
 usize = "3805371"

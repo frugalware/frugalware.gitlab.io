@@ -2,7 +2,9 @@
 draft = false
 title = "qr-code-generator 1.6.0-2"
 version = "1.6.0-2"
+date = "2022-01-14T22:45:49"
 categories = ['lib']
+upstreamurl = "https://github.com/nayuki/QR-Code-generator"
 arch = "x86_64"
 size = "39052"
 usize = "128153"

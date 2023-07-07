@@ -2,7 +2,9 @@
 draft = false
 title = "openslide 3.4.1-2"
 version = "3.4.1-2"
+date = "2022-02-08T18:46:59"
 categories = ['lib-extra']
+upstreamurl = "http://www.openslide.org"
 arch = "x86_64"
 size = "90004"
 usize = "270824"

@@ -2,7 +2,9 @@
 draft = false
 title = "plasma-settings 23.01.0-1"
 version = "23.01.0-1"
+date = "2023-05-17T18:55:23"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "360572"
 usize = "2911343"

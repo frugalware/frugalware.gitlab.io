@@ -2,7 +2,9 @@
 draft = false
 title = "libpipeline 1.5.7-1"
 version = "1.5.7-1"
+date = "2022-11-29T17:05:24"
 categories = ['base']
+upstreamurl = "http://libpipeline.nongnu.org/"
 arch = "x86_64"
 size = "53744"
 usize = "153367"

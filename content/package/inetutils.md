@@ -2,7 +2,9 @@
 draft = false
 title = "inetutils 2.4-1"
 version = "2.4-1"
+date = "2022-10-26T07:13:55"
 categories = ['base']
+upstreamurl = "https://www.gnu.org/software/inetutils/"
 arch = "x86_64"
 size = "352668"
 usize = "1340290"

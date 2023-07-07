@@ -2,7 +2,9 @@
 draft = false
 title = "iputils 20221126-1"
 version = "20221126-1"
+date = "2022-11-29T17:02:45"
 categories = ['base']
+upstreamurl = "https://github.com/iputils/iputils"
 arch = "x86_64"
 size = "111624"
 usize = "460945"

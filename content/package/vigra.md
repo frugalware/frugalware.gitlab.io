@@ -2,7 +2,9 @@
 draft = false
 title = "vigra 1.11.1-14"
 version = "1.11.1-14"
+date = "2023-06-06T19:16:56"
 categories = ['lib-extra']
+upstreamurl = "http://hci.iwr.uni-heidelberg.de/vigra/"
 arch = "x86_64"
 size = "14264588"
 usize = "125846443"

@@ -2,7 +2,9 @@
 draft = false
 title = "gyp 20220912.g9d09418-2"
 version = "20220912.g9d09418-2"
+date = "2022-12-12T08:59:16"
 categories = ['devel-extra']
+upstreamurl = "https://chromium.googlesource.com/external/gyp"
 arch = "x86_64"
 size = "552900"
 usize = "2415287"

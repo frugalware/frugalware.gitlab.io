@@ -2,7 +2,9 @@
 draft = false
 title = "ddcutil 1.4.1-1"
 version = "1.4.1-1"
+date = "2023-01-20T19:20:34"
 categories = ['apps-extra']
+upstreamurl = "http://ddcutil.com/"
 arch = "x86_64"
 size = "493032"
 usize = "1834908"

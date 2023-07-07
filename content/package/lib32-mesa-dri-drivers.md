@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "lib32-mesa-dri-drivers 23.1.2-1"
-version = "23.1.2-1"
+title = "lib32-mesa-dri-drivers 23.1.3-1"
+version = "23.1.3-1"
+date = "2023-07-06T21:52:14"
 categories = ['lib32-extra']
+upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "10899292"
+size = "10901860"
 usize = "68342132"
-sha1sum = "383dd4aa455576f4e926f21856bb016ecf098fa7"
+sha1sum = "56161c305c93fdf6cc169e01f3c0670f6bd6ca02"
 depends = "['lib32-expat>=2.1.0-6', 'lib32-libdrm>=2.4.71', 'lib32-elfutils>=0.167-3', 'lib32-llvm-libs>=15.0.1', 'lib32-libffi>=3.2.1-2', 'lib32-lmsensors>=3.5.0', 'lib32-zstd', 'lib32-libunwind']"
 +++
 Mesa OpenGL DRI drivers. (32-Bit)

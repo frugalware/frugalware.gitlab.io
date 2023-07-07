@@ -2,7 +2,9 @@
 draft = false
 title = "lksctp-tools 1.0.19-2"
 version = "1.0.19-2"
+date = "2022-01-11T10:12:44"
 categories = ['network']
+upstreamurl = "https://github.com/sctp/lksctp-tools"
 arch = "x86_64"
 size = "107200"
 usize = "426024"

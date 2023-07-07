@@ -2,7 +2,9 @@
 draft = false
 title = "perl-params-util 1.102-1"
 version = "1.102-1"
+date = "2022-02-14T15:13:33"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "21224"
 usize = "67006"

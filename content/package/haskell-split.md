@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-split 0.2.3.5-5"
 version = "0.2.3.5-5"
+date = "2023-03-20T15:25:10"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/split"
 arch = "x86_64"
 size = "86704"
 usize = "624210"

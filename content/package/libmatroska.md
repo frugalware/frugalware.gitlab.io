@@ -2,7 +2,9 @@
 draft = false
 title = "libmatroska 1.6.3-1"
 version = "1.6.3-1"
+date = "2022-02-02T15:19:03"
 categories = ['multimedia-extra']
+upstreamurl = "http://dl.matroska.org/downloads/libmatroska/"
 arch = "x86_64"
 size = "125120"
 usize = "812883"

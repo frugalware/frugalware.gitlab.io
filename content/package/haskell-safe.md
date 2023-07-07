@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-safe 0.3.19-8"
 version = "0.3.19-8"
+date = "2023-03-17T11:28:46"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/safe"
 arch = "x86_64"
 size = "114104"
 usize = "980936"

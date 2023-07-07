@@ -2,7 +2,9 @@
 draft = false
 title = "nfs-utils 2.6.3-1"
 version = "2.6.3-1"
+date = "2023-04-25T07:33:51"
 categories = ['network']
+upstreamurl = "https://sourceforge.net/projects/nfs"
 arch = "x86_64"
 size = "333032"
 usize = "1158085"

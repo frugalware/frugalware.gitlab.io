@@ -2,7 +2,9 @@
 draft = false
 title = "clightd 5.7-1"
 version = "5.7-1"
+date = "2023-02-22T19:21:17"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/FedeDP/clightd"
 arch = "x86_64"
 size = "33956"
 usize = "108801"

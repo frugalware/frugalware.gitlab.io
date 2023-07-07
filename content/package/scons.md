@@ -2,7 +2,9 @@
 draft = false
 title = "scons 4.2.0-1"
 version = "4.2.0-1"
+date = "2022-12-25T12:32:02"
 categories = ['devel-extra']
+upstreamurl = "http://scons.org"
 arch = "x86_64"
 size = "2080656"
 usize = "22214242"

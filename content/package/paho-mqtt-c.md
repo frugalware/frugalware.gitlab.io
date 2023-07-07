@@ -2,7 +2,9 @@
 draft = false
 title = "paho-mqtt-c 1.3.12-1"
 version = "1.3.12-1"
+date = "2023-03-06T15:37:22"
 categories = ['lib-extra']
+upstreamurl = "https://www.eclipse.org/paho/"
 arch = "x86_64"
 size = "159488"
 usize = "688934"

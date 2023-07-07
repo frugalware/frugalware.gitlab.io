@@ -2,7 +2,9 @@
 draft = false
 title = "clisp 2.49-9"
 version = "2.49-9"
+date = "2022-01-14T14:08:37"
 categories = ['devel-extra']
+upstreamurl = "http://clisp.cons.org/"
 arch = "x86_64"
 size = "2727724"
 usize = "22213481"

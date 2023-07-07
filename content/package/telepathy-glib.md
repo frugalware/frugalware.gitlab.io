@@ -2,7 +2,9 @@
 draft = false
 title = "telepathy-glib 0.24.2-2"
 version = "0.24.2-2"
+date = "2021-12-19T22:02:52"
 categories = ['lib']
+upstreamurl = "http://telepathy.freedesktop.org/wiki/"
 arch = "x86_64"
 size = "1822796"
 usize = "22868274"

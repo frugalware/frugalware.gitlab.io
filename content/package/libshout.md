@@ -2,7 +2,9 @@
 draft = false
 title = "libshout 2.4.6-3"
 version = "2.4.6-3"
+date = "2023-03-15T21:09:22"
 categories = ['multimedia']
+upstreamurl = "http://www.icecast.org/"
 arch = "x86_64"
 size = "60144"
 usize = "173434"

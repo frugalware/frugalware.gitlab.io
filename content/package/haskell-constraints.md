@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-constraints 0.13.4-6"
 version = "0.13.4-6"
+date = "2023-03-20T09:17:44"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/constraints"
 arch = "x86_64"
 size = "297928"
 usize = "4716303"

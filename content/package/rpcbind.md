@@ -2,7 +2,9 @@
 draft = false
 title = "rpcbind 1.2.6-2"
 version = "1.2.6-2"
+date = "2022-01-31T18:34:23"
 categories = ['network']
+upstreamurl = "https://sourceforge.net/projects/rpcbind"
 arch = "x86_64"
 size = "40692"
 usize = "108694"

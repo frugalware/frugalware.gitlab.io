@@ -2,7 +2,9 @@
 draft = false
 title = "espeak-ng 1.50-2"
 version = "1.50-2"
+date = "2022-01-26T09:09:02"
 categories = ['multimedia-extra']
+upstreamurl = "https://github.com/espeak-ng/espeak-ng"
 arch = "x86_64"
 size = "3898048"
 usize = "10632927"

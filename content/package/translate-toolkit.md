@@ -2,7 +2,9 @@
 draft = false
 title = "translate-toolkit 3.8.0-1"
 version = "3.8.0-1"
+date = "2022-12-12T15:32:15"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/translate/translate"
 arch = "x86_64"
 size = "1212864"
 usize = "10823297"

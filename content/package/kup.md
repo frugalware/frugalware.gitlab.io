@@ -2,7 +2,9 @@
 draft = false
 title = "kup 0.7.3-6"
 version = "0.7.3-6"
+date = "2023-03-15T20:46:13"
 categories = ['kde5-extra']
+upstreamurl = "https://github.com/spersson/kup"
 arch = "x86_64"
 size = "514016"
 usize = "1903891"

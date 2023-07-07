@@ -2,7 +2,9 @@
 draft = false
 title = "gcr-1-doc 3.41.1-1"
 version = "3.41.1-1"
+date = "2023-03-13T10:12:09"
 categories = ['gnome-extra', 'gnome-docs']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "448"
 usize = "6"

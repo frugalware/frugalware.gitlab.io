@@ -2,7 +2,9 @@
 draft = false
 title = "openvas-manager 22.4.2-1"
 version = "22.4.2-1"
+date = "2023-03-06T15:59:41"
 categories = ['network-extra']
+upstreamurl = "http://www.openvas.org"
 arch = "x86_64"
 size = "729472"
 usize = "4784901"

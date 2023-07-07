@@ -2,7 +2,9 @@
 draft = false
 title = "perl-net-ip 1.26-6"
 version = "1.26-6"
+date = "2022-02-21T15:14:04"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "26400"
 usize = "88984"

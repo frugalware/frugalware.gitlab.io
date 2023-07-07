@@ -2,7 +2,9 @@
 draft = false
 title = "obs-v4l2sink 0.1.0-1"
 version = "0.1.0-1"
+date = "2020-07-28T08:11:57"
 categories = ['xapps-extra']
+upstreamurl = "https://github.com/CatxFish/obs-v4l2sink"
 arch = "x86_64"
 size = "29812"
 usize = "106821"

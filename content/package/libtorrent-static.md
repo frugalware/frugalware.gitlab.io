@@ -2,7 +2,9 @@
 draft = false
 title = "libtorrent-static 0.13.8-6"
 version = "0.13.8-6"
+date = "2023-03-15T21:13:57"
 categories = ['devel-extra']
+upstreamurl = "https://rakshasa.github.io/rtorrent/"
 arch = "x86_64"
 size = "26466064"
 usize = "44138444"

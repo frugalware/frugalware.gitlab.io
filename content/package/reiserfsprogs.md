@@ -2,7 +2,9 @@
 draft = false
 title = "reiserfsprogs 3.6.27-4"
 version = "3.6.27-4"
+date = "2021-12-12T18:30:41"
 categories = ['base']
+upstreamurl = "http://www.kernel.org"
 arch = "x86_64"
 size = "233972"
 usize = "914122"

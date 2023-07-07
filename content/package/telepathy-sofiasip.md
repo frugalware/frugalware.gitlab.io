@@ -2,7 +2,9 @@
 draft = false
 title = "telepathy-sofiasip 0.7.1-5"
 version = "0.7.1-5"
+date = "2022-02-08T19:09:40"
 categories = ['lib-extra']
+upstreamurl = "http://telepathy.freedesktop.org/"
 arch = "x86_64"
 size = "170820"
 usize = "592828"

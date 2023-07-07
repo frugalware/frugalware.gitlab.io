@@ -2,7 +2,9 @@
 draft = false
 title = "unbound 1.14.0-3"
 version = "1.14.0-3"
+date = "2023-03-16T03:43:22"
 categories = ['network-extra']
+upstreamurl = "http://unbound.net/"
 arch = "x86_64"
 size = "869516"
 usize = "3599750"

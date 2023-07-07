@@ -2,7 +2,9 @@
 draft = false
 title = "libisofs 1.5.4-3"
 version = "1.5.4-3"
+date = "2022-04-03T22:30:54"
 categories = ['multimedia']
+upstreamurl = "http://libburnia-project.org"
 arch = "x86_64"
 size = "301464"
 usize = "1013936"

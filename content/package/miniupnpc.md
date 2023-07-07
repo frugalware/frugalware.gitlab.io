@@ -2,7 +2,9 @@
 draft = false
 title = "miniupnpc 2.1-1"
 version = "2.1-1"
+date = "2018-05-18T19:46:28"
 categories = ['network-extra']
+upstreamurl = "http://miniupnp.free.fr"
 arch = "x86_64"
 size = "46068"
 usize = "207724"

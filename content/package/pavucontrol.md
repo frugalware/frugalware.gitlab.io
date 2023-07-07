@@ -2,7 +2,9 @@
 draft = false
 title = "pavucontrol 5.0-1"
 version = "5.0-1"
+date = "2021-08-19T10:16:55"
 categories = ['xmultimedia-extra']
+upstreamurl = "http://freedesktop.org/software/pulseaudio/pavucontrol/"
 arch = "x86_64"
 size = "156664"
 usize = "1009800"

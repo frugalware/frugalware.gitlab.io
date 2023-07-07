@@ -2,7 +2,9 @@
 draft = false
 title = "catch2 3.3.2-1"
 version = "3.3.2-1"
+date = "2023-03-06T14:25:10"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/catchorg/catch2"
 arch = "x86_64"
 size = "171856"
 usize = "932698"

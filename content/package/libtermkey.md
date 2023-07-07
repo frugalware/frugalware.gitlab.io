@@ -2,7 +2,9 @@
 draft = false
 title = "libtermkey 0.22-3"
 version = "0.22-3"
+date = "2022-02-08T18:11:41"
 categories = ['lib-extra']
+upstreamurl = "http://www.leonerd.org.uk/code/libtermkey"
 arch = "x86_64"
 size = "43548"
 usize = "83841"

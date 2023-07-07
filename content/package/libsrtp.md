@@ -2,7 +2,9 @@
 draft = false
 title = "libsrtp 2.5.0-1"
 version = "2.5.0-1"
+date = "2023-02-14T09:02:19"
 categories = ['lib']
+upstreamurl = "https://github.com/cisco/libsrtp"
 arch = "x86_64"
 size = "62020"
 usize = "233347"

@@ -2,7 +2,9 @@
 draft = false
 title = "spice-vdagent 0.22.1-1"
 version = "0.22.1-1"
+date = "2023-02-26T20:25:47"
 categories = ['xapps-extra']
+upstreamurl = "http://spice-space.org/download/releases/"
 arch = "x86_64"
 size = "66648"
 usize = "198541"

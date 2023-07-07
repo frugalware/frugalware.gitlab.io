@@ -2,7 +2,9 @@
 draft = false
 title = "joe-theme1 0.1.0.g44b2d67-2"
 version = "0.1.0.g44b2d67-2"
+date = "2018-02-12T02:10:03"
 categories = ['xmultimedia-extra']
+upstreamurl = "https://github.com/Gaichu/joe-theme1"
 arch = "x86_64"
 size = "153596"
 usize = "205182"

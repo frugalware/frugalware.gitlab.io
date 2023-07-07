@@ -2,7 +2,9 @@
 draft = false
 title = "mhash 0.9.9.9-4"
 version = "0.9.9.9-4"
+date = "2021-12-20T11:36:46"
 categories = ['apps-extra']
+upstreamurl = "https://sourceforge.net/projects/mhash"
 arch = "x86_64"
 size = "116992"
 usize = "287399"

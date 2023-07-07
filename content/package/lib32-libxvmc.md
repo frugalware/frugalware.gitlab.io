@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libxvmc 1.0.13-1"
 version = "1.0.13-1"
+date = "2022-07-26T18:33:52"
 categories = ['lib32-extra']
+upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "14796"
 usize = "50102"

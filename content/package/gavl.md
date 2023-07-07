@@ -2,7 +2,9 @@
 draft = false
 title = "gavl 1.4.0-7"
 version = "1.4.0-7"
+date = "2022-02-08T15:03:22"
 categories = ['lib-extra']
+upstreamurl = "http://gmerlin.sourceforge.net/"
 arch = "x86_64"
 size = "2992832"
 usize = "7658695"

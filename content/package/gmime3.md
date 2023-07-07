@@ -2,7 +2,9 @@
 draft = false
 title = "gmime3 3.0.5-3"
 version = "3.0.5-3"
+date = "2022-07-31T10:19:00"
 categories = ['apps']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "296356"
 usize = "2555220"

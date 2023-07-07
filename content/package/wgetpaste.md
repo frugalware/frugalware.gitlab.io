@@ -2,7 +2,9 @@
 draft = false
 title = "wgetpaste 2.30-1"
 version = "2.30-1"
+date = "2021-03-01T14:03:40"
 categories = ['apps-extra']
+upstreamurl = "http://wgetpaste.zlin.dk/"
 arch = "x86_64"
 size = "13184"
 usize = "36270"

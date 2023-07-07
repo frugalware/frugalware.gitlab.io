@@ -2,7 +2,9 @@
 draft = false
 title = "iprange 1.0.4-1"
 version = "1.0.4-1"
+date = "2018-10-31T00:30:19"
 categories = ['network-extra']
+upstreamurl = "https://github.com/firehol/iprange"
 arch = "x86_64"
 size = "31528"
 usize = "114797"

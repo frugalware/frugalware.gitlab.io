@@ -2,7 +2,9 @@
 draft = false
 title = "xcfa 5.0.2-3"
 version = "5.0.2-3"
+date = "2019-07-30T09:41:01"
 categories = ['xapps-extra']
+upstreamurl = "http://www.xcfa.tuxfamily.org/"
 arch = "x86_64"
 size = "517024"
 usize = "2573735"

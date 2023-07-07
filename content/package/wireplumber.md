@@ -2,7 +2,9 @@
 draft = false
 title = "wireplumber 0.4.14-1"
 version = "0.4.14-1"
+date = "2023-03-13T11:40:02"
 categories = ['apps-extra']
+upstreamurl = "https://pipewire.pages.freedesktop.org/wireplumber/"
 arch = "x86_64"
 size = "293876"
 usize = "1408731"

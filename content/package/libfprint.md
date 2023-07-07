@@ -2,7 +2,9 @@
 draft = false
 title = "libfprint 1.94.4-1"
 version = "1.94.4-1"
+date = "2022-09-16T15:59:55"
 categories = ['xlib-extra']
+upstreamurl = "http://www.freedesktop.org/wiki/Software/fprint/libfprint"
 arch = "x86_64"
 size = "322188"
 usize = "1677057"

@@ -2,7 +2,9 @@
 draft = false
 title = "avalon-framework 4.2.0-3"
 version = "4.2.0-3"
+date = "2018-02-13T12:50:29"
 categories = ['devel-extra']
+upstreamurl = "http://avalon.apache.org/"
 arch = "x86_64"
 size = "47676"
 usize = "76414"

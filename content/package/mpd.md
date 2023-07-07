@@ -2,7 +2,9 @@
 draft = false
 title = "mpd 0.23.12-2"
 version = "0.23.12-2"
+date = "2023-04-19T17:27:38"
 categories = ['multimedia-extra']
+upstreamurl = "http://www.musicpd.org/"
 arch = "x86_64"
 size = "753308"
 usize = "2590351"

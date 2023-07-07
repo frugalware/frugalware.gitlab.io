@@ -2,7 +2,9 @@
 draft = false
 title = "courier-maildrop 3.0.7-1"
 version = "3.0.7-1"
+date = "2022-05-20T07:12:04"
 categories = ['network-extra']
+upstreamurl = "http://www.courier-mta.org/"
 arch = "x86_64"
 size = "347248"
 usize = "1271334"

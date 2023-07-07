@@ -2,7 +2,9 @@
 draft = false
 title = "python3-sphinx-automodapi 0.15.0-1"
 version = "0.15.0-1"
+date = "2023-03-14T12:49:02"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/sphinx-automodapi"
 arch = "x86_64"
 size = "61240"
 usize = "279067"

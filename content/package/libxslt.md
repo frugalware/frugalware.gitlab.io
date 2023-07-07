@@ -2,7 +2,9 @@
 draft = false
 title = "libxslt 1.1.34-3"
 version = "1.1.34-3"
+date = "2022-12-13T12:20:16"
 categories = ['lib']
+upstreamurl = "http://xmlsoft.org/XSLT/"
 arch = "x86_64"
 size = "398692"
 usize = "2631868"

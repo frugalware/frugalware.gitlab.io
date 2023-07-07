@@ -2,7 +2,9 @@
 draft = false
 title = "liblapacke 3.11.0-3"
 version = "3.11.0-3"
+date = "2023-03-08T08:03:26"
 categories = ['lib']
+upstreamurl = "http://www.netlib.org/lapack"
 arch = "x86_64"
 size = "689368"
 usize = "4960535"

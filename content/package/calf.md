@@ -2,7 +2,9 @@
 draft = false
 title = "calf 0.90.3-2"
 version = "0.90.3-2"
+date = "2022-07-29T09:34:49"
 categories = ['apps-extra']
+upstreamurl = "https://calf-studio-gear.org"
 arch = "x86_64"
 size = "12907100"
 usize = "20860738"

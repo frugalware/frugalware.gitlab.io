@@ -2,7 +2,9 @@
 draft = false
 title = "dialog 1.3_20220117-1"
 version = "1.3_20220117-1"
+date = "2022-01-27T14:43:58"
 categories = ['lib-extra']
+upstreamurl = "http://invisible-island.net/dialog/dialog.html"
 arch = "x86_64"
 size = "193120"
 usize = "542374"

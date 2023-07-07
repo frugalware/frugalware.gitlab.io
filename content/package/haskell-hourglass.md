@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-hourglass 0.2.12-5"
 version = "0.2.12-5"
+date = "2023-03-19T19:30:08"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/hourglass"
 arch = "x86_64"
 size = "413012"
 usize = "4490342"

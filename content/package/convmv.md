@@ -2,7 +2,9 @@
 draft = false
 title = "convmv 2.05-1"
 version = "2.05-1"
+date = "2018-03-27T07:34:12"
 categories = ['apps-extra']
+upstreamurl = "http://www.j3e.de/linux/convmv"
 arch = "x86_64"
 size = "22136"
 usize = "80681"

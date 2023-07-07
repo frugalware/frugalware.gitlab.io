@@ -2,7 +2,9 @@
 draft = false
 title = "vde2 2.3.2-7"
 version = "2.3.2-7"
+date = "2023-03-16T03:50:16"
 categories = ['network-extra']
+upstreamurl = "http://vde.sourceforge.net/"
 arch = "x86_64"
 size = "231040"
 usize = "905257"

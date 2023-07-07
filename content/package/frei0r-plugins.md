@@ -2,7 +2,9 @@
 draft = false
 title = "frei0r-plugins 1.8.0-1"
 version = "1.8.0-1"
+date = "2022-04-14T10:38:55"
 categories = ['xmultimedia-extra']
+upstreamurl = "http://frei0r.dyne.org/"
 arch = "x86_64"
 size = "334964"
 usize = "5759428"

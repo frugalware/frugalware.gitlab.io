@@ -2,7 +2,9 @@
 draft = false
 title = "avahi-glib 0.8-4"
 version = "0.8-4"
+date = "2023-01-10T00:31:26"
 categories = ['lib']
+upstreamurl = "http://www.avahi.org"
 arch = "x86_64"
 size = "25812"
 usize = "93184"

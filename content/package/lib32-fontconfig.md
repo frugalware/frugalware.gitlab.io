@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-fontconfig 2.14.2-1"
 version = "2.14.2-1"
+date = "2023-02-13T09:50:28"
 categories = ['lib32-extra']
+upstreamurl = "http://fontconfig.org/"
 arch = "x86_64"
 size = "159648"
 usize = "510682"

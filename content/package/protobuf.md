@@ -2,7 +2,9 @@
 draft = false
 title = "protobuf 21.12-2"
 version = "21.12-2"
+date = "2023-02-17T10:57:08"
 categories = ['lib']
+upstreamurl = "https://github.com/google/protobuf"
 arch = "x86_64"
 size = "1883192"
 usize = "8979290"

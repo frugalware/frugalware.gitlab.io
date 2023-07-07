@@ -2,7 +2,9 @@
 draft = false
 title = "libaio 0.3.113-1"
 version = "0.3.113-1"
+date = "2022-08-26T15:25:27"
 categories = ['base']
+upstreamurl = "http://lse.sourceforge.net/io/aio.html"
 arch = "x86_64"
 size = "15864"
 usize = "53065"

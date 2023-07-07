@@ -2,7 +2,9 @@
 draft = false
 title = "redis 5.0.7-1"
 version = "5.0.7-1"
+date = "2019-12-10T12:09:29"
 categories = ['apps-extra']
+upstreamurl = "https://redis.io/"
 arch = "x86_64"
 size = "854680"
 usize = "7050105"

@@ -2,7 +2,9 @@
 draft = false
 title = "enlightenment 0.25.4-1"
 version = "0.25.4-1"
+date = "2023-01-09T16:02:37"
 categories = ['enlightenment-extra', 'e-apps']
+upstreamurl = "https://www.enlightenment.org/"
 arch = "x86_64"
 size = "404388056"
 usize = "422482840"

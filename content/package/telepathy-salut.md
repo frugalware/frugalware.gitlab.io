@@ -2,7 +2,9 @@
 draft = false
 title = "telepathy-salut 0.8.1-13"
 version = "0.8.1-13"
+date = "2022-01-14T22:36:01"
 categories = ['lib']
+upstreamurl = "http://telepathy.freedesktop.org/releases/telepathy-salut"
 arch = "x86_64"
 size = "376604"
 usize = "1309063"

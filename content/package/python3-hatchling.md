@@ -2,7 +2,9 @@
 draft = false
 title = "python3-hatchling 1.13.0-1"
 version = "1.13.0-1"
+date = "2023-02-21T10:06:17"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/hatchling"
 arch = "x86_64"
 size = "147148"
 usize = "1162060"

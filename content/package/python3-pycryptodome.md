@@ -2,7 +2,9 @@
 draft = false
 title = "python3-pycryptodome 3.17.0-1"
 version = "3.17.0-1"
+date = "2023-02-21T10:34:36"
 categories = ['devel-extra']
+upstreamurl = "https://www.pycryptodome.org/"
 arch = "x86_64"
 size = "1445956"
 usize = "6451399"

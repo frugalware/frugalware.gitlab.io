@@ -2,7 +2,9 @@
 draft = false
 title = "mdbtools 0.6pre1-9"
 version = "0.6pre1-9"
+date = "2019-07-18T12:31:41"
 categories = ['xapps-extra']
+upstreamurl = "https://sourceforge.net/projects/mdbtools"
 arch = "x86_64"
 size = "123336"
 usize = "682625"

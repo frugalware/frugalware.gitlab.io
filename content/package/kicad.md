@@ -2,7 +2,9 @@
 draft = false
 title = "kicad 7.0.0-1"
 version = "7.0.0-1"
+date = "2023-02-17T13:14:26"
 categories = ['xapps-extra']
+upstreamurl = "https://www.kicad.org"
 arch = "x86_64"
 size = "38384264"
 usize = "179838320"

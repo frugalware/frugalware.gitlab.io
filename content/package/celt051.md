@@ -2,7 +2,9 @@
 draft = false
 title = "celt051 0.5.1.3-5"
 version = "0.5.1.3-5"
+date = "2022-02-08T14:46:20"
 categories = ['lib-extra']
+upstreamurl = "http://www.celt-codec.org/"
 arch = "x86_64"
 size = "45472"
 usize = "136484"

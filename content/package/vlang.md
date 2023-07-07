@@ -2,7 +2,9 @@
 draft = false
 title = "vlang 0.3.3-1"
 version = "0.3.3-1"
+date = "2023-02-27T15:14:49"
 categories = ['devel-extra']
+upstreamurl = "https://vlang.io"
 arch = "x86_64"
 size = "4224616"
 usize = "24924351"

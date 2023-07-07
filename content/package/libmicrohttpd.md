@@ -2,7 +2,9 @@
 draft = false
 title = "libmicrohttpd 0.9.76-1"
 version = "0.9.76-1"
+date = "2023-03-06T14:09:03"
 categories = ['lib-extra']
+upstreamurl = "http://www.gnu.org/software/libmicrohttpd/"
 arch = "x86_64"
 size = "285640"
 usize = "651085"

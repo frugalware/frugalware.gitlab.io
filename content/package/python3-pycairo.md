@@ -2,7 +2,9 @@
 draft = false
 title = "python3-pycairo 1.23.0-2"
 version = "1.23.0-2"
+date = "2023-02-14T10:43:44"
 categories = ['xlib']
+upstreamurl = "https://pycairo.readthedocs.io/en/latest/"
 arch = "x86_64"
 size = "112632"
 usize = "532617"

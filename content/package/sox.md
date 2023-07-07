@@ -2,7 +2,9 @@
 draft = false
 title = "sox 14.4.2-8"
 version = "14.4.2-8"
+date = "2023-05-08T08:43:37"
 categories = ['multimedia']
+upstreamurl = "https://sourceforge.net/projects/sox"
 arch = "x86_64"
 size = "398368"
 usize = "999898"

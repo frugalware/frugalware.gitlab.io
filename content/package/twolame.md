@@ -2,7 +2,9 @@
 draft = false
 title = "twolame 0.4.0-2"
 version = "0.4.0-2"
+date = "2022-02-02T12:47:07"
 categories = ['multimedia-extra']
+upstreamurl = "http://www.twolame.org/"
 arch = "x86_64"
 size = "102420"
 usize = "358444"

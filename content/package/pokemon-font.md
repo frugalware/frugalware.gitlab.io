@@ -2,7 +2,9 @@
 draft = false
 title = "pokemon-font 1.8.2-1"
 version = "1.8.2-1"
+date = "2020-04-08T06:53:37"
 categories = ['fonts-extra']
+upstreamurl = "https://github.com/Superpencil/pokemon-font"
 arch = "x86_64"
 size = "24608"
 usize = "81662"

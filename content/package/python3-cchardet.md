@@ -2,7 +2,9 @@
 draft = false
 title = "python3-cchardet 2.1.7-6"
 version = "2.1.7-6"
+date = "2022-10-27T16:49:37"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/cchardet"
 arch = "x86_64"
 size = "102344"
 usize = "348425"

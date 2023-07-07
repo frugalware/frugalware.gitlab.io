@@ -2,7 +2,9 @@
 draft = false
 title = "gnokii 0.6.31-12"
 version = "0.6.31-12"
+date = "2022-02-09T09:11:18"
 categories = ['xapps']
+upstreamurl = "https://www.gnokii.org/"
 arch = "x86_64"
 size = "585048"
 usize = "2299579"

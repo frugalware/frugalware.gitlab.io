@@ -2,7 +2,9 @@
 draft = false
 title = "solarus-zsdx 1.12.0-1"
 version = "1.12.0-1"
+date = "2018-12-23T10:22:58"
 categories = ['games-extra']
+upstreamurl = "http://www.zelda-solarus.com"
 arch = "x86_64"
 size = "21262068"
 usize = "21940994"

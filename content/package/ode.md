@@ -2,7 +2,9 @@
 draft = false
 title = "ode 0.13-6"
 version = "0.13-6"
+date = "2022-02-08T18:37:54"
 categories = ['lib-extra']
+upstreamurl = "http://ode.org/"
 arch = "x86_64"
 size = "4356476"
 usize = "5823604"

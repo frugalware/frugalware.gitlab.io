@@ -2,7 +2,9 @@
 draft = false
 title = "perl-convert-uulib 1.8-1"
 version = "1.8-1"
+date = "2022-03-15T07:11:16"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "112376"
 usize = "276949"

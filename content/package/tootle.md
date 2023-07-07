@@ -2,7 +2,9 @@
 draft = false
 title = "tootle 1.0-1"
 version = "1.0-1"
+date = "2021-03-13T20:49:24"
 categories = ['xapps-extra']
+upstreamurl = "https://github.com/bleakgrey/tootle"
 arch = "x86_64"
 size = "388188"
 usize = "2006153"

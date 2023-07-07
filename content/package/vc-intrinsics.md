@@ -2,7 +2,9 @@
 draft = false
 title = "vc-intrinsics 0.12.0-1"
 version = "0.12.0-1"
+date = "2023-03-06T10:53:10"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/intel/vc-intrinsics"
 arch = "x86_64"
 size = "115756"
 usize = "739120"

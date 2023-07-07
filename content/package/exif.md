@@ -2,7 +2,9 @@
 draft = false
 title = "exif 0.6.21-2"
 version = "0.6.21-2"
+date = "2018-02-11T02:14:32"
 categories = ['apps-extra']
+upstreamurl = "http://sourceforge.net/projects/libexif"
 arch = "x86_64"
 size = "58544"
 usize = "223910"

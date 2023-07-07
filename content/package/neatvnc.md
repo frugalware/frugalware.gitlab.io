@@ -2,7 +2,9 @@
 draft = false
 title = "neatvnc 0.6.0-1"
 version = "0.6.0-1"
+date = "2023-06-20T19:43:18"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/any1/neatvnc"
 arch = "x86_64"
 size = "27712"
 usize = "72501"

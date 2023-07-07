@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-xcb-util-keysyms 0.4.1-1"
 version = "0.4.1-1"
+date = "2022-10-20T08:51:23"
 categories = ['lib32-extra']
+upstreamurl = "http://xcb.freedesktop.org"
 arch = "x86_64"
 size = "5620"
 usize = "16092"

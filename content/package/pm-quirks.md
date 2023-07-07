@@ -2,7 +2,9 @@
 draft = false
 title = "pm-quirks 20100619-4"
 version = "20100619-4"
+date = "2022-02-02T18:25:43"
 categories = ['apps']
+upstreamurl = "http://pm-utils.freedesktop.org/"
 arch = "x86_64"
 size = "9628"
 usize = "61625"

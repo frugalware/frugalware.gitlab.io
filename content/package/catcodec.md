@@ -2,7 +2,9 @@
 draft = false
 title = "catcodec 1.0.5-2"
 version = "1.0.5-2"
+date = "2018-02-21T21:19:39"
 categories = ['apps-extra']
+upstreamurl = "http://www.openttd.org/en"
 arch = "x86_64"
 size = "20372"
 usize = "53861"

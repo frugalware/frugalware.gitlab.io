@@ -2,7 +2,9 @@
 draft = false
 title = "urlgrabber 4.0.0-3"
 version = "4.0.0-3"
+date = "2022-12-12T15:40:26"
 categories = ['devel-extra']
+upstreamurl = "http://urlgrabber.baseurl.org"
 arch = "x86_64"
 size = "110748"
 usize = "453355"

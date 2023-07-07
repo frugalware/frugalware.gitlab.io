@@ -2,7 +2,9 @@
 draft = false
 title = "mythes 1.2.4-5"
 version = "1.2.4-5"
+date = "2018-02-12T15:53:27"
 categories = ['xoffice']
+upstreamurl = "http://sourceforge.net/projects/hunspell"
 arch = "x86_64"
 size = "14388"
 usize = "39134"

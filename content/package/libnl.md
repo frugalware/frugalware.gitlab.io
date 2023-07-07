@@ -2,7 +2,9 @@
 draft = false
 title = "libnl 3.7.0-1"
 version = "3.7.0-1"
+date = "2022-08-26T10:23:59"
 categories = ['base']
+upstreamurl = "http://www.infradead.org/~tgr/libnl/"
 arch = "x86_64"
 size = "378312"
 usize = "2205527"

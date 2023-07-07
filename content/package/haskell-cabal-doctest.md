@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-cabal-doctest 1.0.9-3"
 version = "1.0.9-3"
+date = "2023-03-21T09:07:38"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/cabal-doctest"
 arch = "x86_64"
 size = "74788"
 usize = "393975"

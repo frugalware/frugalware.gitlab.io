@@ -2,7 +2,9 @@
 draft = false
 title = "kwave 23.04.2-2"
 version = "23.04.2-2"
+date = "2023-06-21T09:15:51"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "5906452"
 usize = "15028891"

@@ -2,7 +2,9 @@
 draft = false
 title = "libgee 0.6.8-7"
 version = "0.6.8-7"
+date = "2022-02-08T17:44:58"
 categories = ['lib-extra']
+upstreamurl = "http://live.gnome.org/Libgee"
 arch = "x86_64"
 size = "126428"
 usize = "713012"

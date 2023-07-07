@@ -2,7 +2,9 @@
 draft = false
 title = "mariadb-libs-static 11.0.2-1"
 version = "11.0.2-1"
+date = "2023-06-18T15:50:00"
 categories = ['devel-extra']
+upstreamurl = "https://mariadb.org"
 arch = "x86_64"
 size = "166149096"
 usize = "310963535"

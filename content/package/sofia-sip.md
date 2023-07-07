@@ -2,7 +2,9 @@
 draft = false
 title = "sofia-sip 1.12.11-9"
 version = "1.12.11-9"
+date = "2023-03-16T03:05:00"
 categories = ['lib-extra']
+upstreamurl = "https://sourceforge.net/projects/sofia-sip"
 arch = "x86_64"
 size = "787144"
 usize = "4134374"

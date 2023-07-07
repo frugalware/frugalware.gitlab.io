@@ -2,7 +2,9 @@
 draft = false
 title = "lftp 4.9.2-3"
 version = "4.9.2-3"
+date = "2022-07-17T16:45:36"
 categories = ['network-extra']
+upstreamurl = "http://lftp.yar.ru/"
 arch = "x86_64"
 size = "839232"
 usize = "2680110"

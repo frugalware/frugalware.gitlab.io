@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-indexed-traversable 0.1.2.1-5"
 version = "0.1.2.1-5"
+date = "2023-03-20T19:28:51"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/indexed-traversable"
 arch = "x86_64"
 size = "166112"
 usize = "1858346"

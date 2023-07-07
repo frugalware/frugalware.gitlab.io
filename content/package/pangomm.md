@@ -2,7 +2,9 @@
 draft = false
 title = "pangomm 2.50.1-1"
 version = "2.50.1-1"
+date = "2023-03-06T14:06:22"
 categories = ['xlib-extra']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "739284"
 usize = "8380819"

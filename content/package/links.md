@@ -2,7 +2,9 @@
 draft = false
 title = "links 2.29-1"
 version = "2.29-1"
+date = "2023-03-23T12:17:24"
 categories = ['network-extra']
+upstreamurl = "http://links.twibright.com/"
 arch = "x86_64"
 size = "726700"
 usize = "2531883"

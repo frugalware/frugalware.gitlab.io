@@ -2,7 +2,9 @@
 draft = false
 title = "gfs2-utils 3.5.0-1"
 version = "3.5.0-1"
+date = "2023-03-06T08:49:22"
 categories = ['apps-extra']
+upstreamurl = "https://pagure.org/gfs2-utils/"
 arch = "x86_64"
 size = "290240"
 usize = "890912"

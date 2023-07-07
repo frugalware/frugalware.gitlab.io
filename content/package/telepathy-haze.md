@@ -2,7 +2,9 @@
 draft = false
 title = "telepathy-haze 0.8.1-1"
 version = "0.8.1-1"
+date = "2022-01-26T16:28:08"
 categories = ['xlib']
+upstreamurl = "http://telepathy.freedesktop.org/releases/telepathy-haze"
 arch = "x86_64"
 size = "132852"
 usize = "464470"

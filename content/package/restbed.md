@@ -2,7 +2,9 @@
 draft = false
 title = "restbed 4.8-2"
 version = "4.8-2"
+date = "2022-02-13T21:35:20"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/Corvusoft/restbed"
 arch = "x86_64"
 size = "247476"
 usize = "903872"

@@ -2,7 +2,9 @@
 draft = false
 title = "obconf 2.0.4-6"
 version = "2.0.4-6"
+date = "2022-08-06T11:11:40"
 categories = ['xapps-extra']
+upstreamurl = "http://openbox.org"
 arch = "x86_64"
 size = "125964"
 usize = "816197"

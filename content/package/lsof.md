@@ -2,7 +2,9 @@
 draft = false
 title = "lsof 4.91A-3"
 version = "4.91A-3"
+date = "2022-02-02T18:12:45"
 categories = ['apps']
+upstreamurl = "http://people.freebsd.org/~abe/"
 arch = "x86_64"
 size = "202004"
 usize = "571347"

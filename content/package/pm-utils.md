@@ -2,7 +2,9 @@
 draft = false
 title = "pm-utils 1.4.1-9"
 version = "1.4.1-9"
+date = "2022-04-03T15:45:26"
 categories = ['xapps']
+upstreamurl = "http://pm-utils.freedesktop.org/"
 arch = "x86_64"
 size = "100516"
 usize = "355952"

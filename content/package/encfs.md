@@ -2,7 +2,9 @@
 draft = false
 title = "encfs 1.9.5-8"
 version = "1.9.5-8"
+date = "2023-03-15T19:15:09"
 categories = ['apps']
+upstreamurl = "https://github.com/vgough/encfs"
 arch = "x86_64"
 size = "502932"
 usize = "2228624"

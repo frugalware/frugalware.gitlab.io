@@ -2,7 +2,9 @@
 draft = false
 title = "python3-gvm 1.3.0-1"
 version = "1.3.0-1"
+date = "2023-02-21T12:30:36"
 categories = ['network-extra']
+upstreamurl = "http://www.openvas.org"
 arch = "x86_64"
 size = "216156"
 usize = "2441787"

@@ -2,7 +2,9 @@
 draft = false
 title = "fprintd 1.94.2-1"
 version = "1.94.2-1"
+date = "2022-09-18T19:30:02"
 categories = ['apps-extra']
+upstreamurl = "http://www.freedesktop.org/wiki/Software/fprint/fprintd"
 arch = "x86_64"
 size = "127336"
 usize = "817430"

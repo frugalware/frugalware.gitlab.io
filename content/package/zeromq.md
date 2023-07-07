@@ -2,7 +2,9 @@
 draft = false
 title = "zeromq 4.3.4-1"
 version = "4.3.4-1"
+date = "2022-02-08T21:43:27"
 categories = ['lib-extra']
+upstreamurl = "http://zeromq.org/"
 arch = "x86_64"
 size = "250828"
 usize = "843875"

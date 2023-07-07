@@ -2,7 +2,9 @@
 draft = false
 title = "docbook-xsl 1.79.2-6"
 version = "1.79.2-6"
+date = "2022-02-02T17:11:37"
 categories = ['apps']
+upstreamurl = "https://github.com/docbook/xslt10-stylesheets"
 arch = "x86_64"
 size = "1561896"
 usize = "18166784"

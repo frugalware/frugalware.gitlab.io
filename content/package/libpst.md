@@ -2,7 +2,9 @@
 draft = false
 title = "libpst 0.6.76-9"
 version = "0.6.76-9"
+date = "2023-04-20T18:39:11"
 categories = ['xlib-extra']
+upstreamurl = "http://www.five-ten-sg.com/libpst"
 arch = "x86_64"
 size = "726020"
 usize = "2675925"

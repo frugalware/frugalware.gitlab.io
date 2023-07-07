@@ -2,7 +2,9 @@
 draft = false
 title = "docbook2x 0.8.8-5"
 version = "0.8.8-5"
+date = "2021-10-18T09:05:52"
 categories = ['apps-extra']
+upstreamurl = "https://sourceforge.net/projects/docbook2x"
 arch = "x86_64"
 size = "279964"
 usize = "1366607"

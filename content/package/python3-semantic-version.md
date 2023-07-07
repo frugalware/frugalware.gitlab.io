@@ -2,7 +2,9 @@
 draft = false
 title = "python3-semantic-version 2.10.0-3"
 version = "2.10.0-3"
+date = "2022-10-27T18:20:18"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/semantic-version"
 arch = "x86_64"
 size = "36168"
 usize = "156849"

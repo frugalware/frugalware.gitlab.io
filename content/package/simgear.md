@@ -2,7 +2,9 @@
 draft = false
 title = "simgear 2020.3.18-2"
 version = "2020.3.18-2"
+date = "2023-06-16T08:11:57"
 categories = ['xlib-extra']
+upstreamurl = "http://www.simgear.org/"
 arch = "x86_64"
 size = "36897984"
 usize = "62530069"

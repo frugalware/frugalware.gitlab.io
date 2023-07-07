@@ -2,7 +2,9 @@
 draft = false
 title = "gptfdisk 1.0.9-3"
 version = "1.0.9-3"
+date = "2023-02-06T13:41:59"
 categories = ['base']
+upstreamurl = "https://sourceforge.net/projects/gptfdisk"
 arch = "x86_64"
 size = "214956"
 usize = "694218"

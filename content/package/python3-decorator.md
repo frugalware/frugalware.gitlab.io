@@ -2,7 +2,9 @@
 draft = false
 title = "python3-decorator 5.1.1-4"
 version = "5.1.1-4"
+date = "2022-10-27T17:07:03"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/decorator"
 arch = "x86_64"
 size = "17932"
 usize = "48123"

@@ -2,7 +2,9 @@
 draft = false
 title = "talloc 2.4.0-1"
 version = "2.4.0-1"
+date = "2023-01-19T10:24:32"
 categories = ['network']
+upstreamurl = "http://talloc.samba.org/talloc/doc/html/index.html"
 arch = "x86_64"
 size = "37204"
 usize = "169153"

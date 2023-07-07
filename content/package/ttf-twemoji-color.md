@@ -2,7 +2,9 @@
 draft = false
 title = "ttf-twemoji-color 14.0.2-1"
 version = "14.0.2-1"
+date = "2022-12-19T15:35:50"
 categories = ['fonts-extra']
+upstreamurl = "https://github.com/eosrei/twemoji-color-font"
 arch = "x86_64"
 size = "3571516"
 usize = "14491411"

@@ -2,7 +2,9 @@
 draft = false
 title = "python3-py 1.11.0-5"
 version = "1.11.0-5"
+date = "2022-10-28T08:57:10"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/py"
 arch = "x86_64"
 size = "194524"
 usize = "748537"

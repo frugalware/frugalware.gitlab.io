@@ -2,7 +2,9 @@
 draft = false
 title = "ufw 0.36.1-2"
 version = "0.36.1-2"
+date = "2022-12-10T19:02:48"
 categories = ['network-extra']
+upstreamurl = "https://launchpad.net/ufw"
 arch = "x86_64"
 size = "220220"
 usize = "1024741"

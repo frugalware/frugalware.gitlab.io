@@ -2,7 +2,9 @@
 draft = false
 title = "calcurse 4.5.1-1"
 version = "4.5.1-1"
+date = "2019-11-13T12:23:46"
 categories = ['apps-extra']
+upstreamurl = "http://calcurse.org"
 arch = "x86_64"
 size = "210660"
 usize = "870514"

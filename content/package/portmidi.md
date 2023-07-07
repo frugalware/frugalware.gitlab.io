@@ -2,7 +2,9 @@
 draft = false
 title = "portmidi 217-7"
 version = "217-7"
+date = "2022-05-09T14:54:30"
 categories = ['multimedia-extra']
+upstreamurl = "http://portmedia.sourceforge.net/"
 arch = "x86_64"
 size = "45908"
 usize = "134738"

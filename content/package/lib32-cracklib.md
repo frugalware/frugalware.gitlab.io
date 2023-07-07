@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-cracklib 2.9.5-18"
 version = "2.9.5-18"
+date = "2022-12-13T15:19:01"
 categories = ['lib32-extra']
+upstreamurl = "https://sourceforge.net/projects/cracklib"
 arch = "x86_64"
 size = "14140"
 usize = "41636"

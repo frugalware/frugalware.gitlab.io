@@ -2,7 +2,9 @@
 draft = false
 title = "yajl 2.1.0-8"
 version = "2.1.0-8"
+date = "2022-02-08T19:22:20"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/lloyd/yajl"
 arch = "x86_64"
 size = "32672"
 usize = "147275"

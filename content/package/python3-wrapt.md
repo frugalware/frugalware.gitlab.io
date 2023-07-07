@@ -2,7 +2,9 @@
 draft = false
 title = "python3-wrapt 1.15.0-1"
 version = "1.15.0-1"
+date = "2023-02-27T10:07:44"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/wrapt"
 arch = "x86_64"
 size = "47824"
 usize = "204581"

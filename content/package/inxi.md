@@ -2,7 +2,9 @@
 draft = false
 title = "inxi 3.3.01-1"
 version = "3.3.01-1"
+date = "2021-02-16T13:37:43"
 categories = ['apps-extra']
+upstreamurl = "http://smxi.org/docs/inxi.htm"
 arch = "x86_64"
 size = "224956"
 usize = "865385"

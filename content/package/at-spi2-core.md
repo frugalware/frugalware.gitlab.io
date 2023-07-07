@@ -2,7 +2,9 @@
 draft = false
 title = "at-spi2-core 2.48.3-1"
 version = "2.48.3-1"
+date = "2023-06-06T14:34:53"
 categories = ['xlib']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "330892"
 usize = "1870996"

@@ -2,7 +2,9 @@
 draft = false
 title = "telepathy-accounts-signon 2.1-3"
 version = "2.1-3"
+date = "2022-01-26T12:40:41"
 categories = ['xlib']
+upstreamurl = "https://gitlab.com/accounts-sso/telepathy-accounts-signon"
 arch = "x86_64"
 size = "17988"
 usize = "57394"

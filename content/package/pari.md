@@ -2,7 +2,9 @@
 draft = false
 title = "pari 2.15.2-1"
 version = "2.15.2-1"
+date = "2023-01-23T10:14:05"
 categories = ['xapps-extra']
+upstreamurl = "http://pari.math.u-bordeaux.fr"
 arch = "x86_64"
 size = "4363100"
 usize = "14889243"

@@ -2,7 +2,9 @@
 draft = false
 title = "manaplus 2.1.3.17-1"
 version = "2.1.3.17-1"
+date = "2021-03-18T08:18:23"
 categories = ['games-extra']
+upstreamurl = "http://manaplus.org"
 arch = "x86_64"
 size = "10214604"
 usize = "28678549"

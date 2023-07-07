@@ -2,7 +2,9 @@
 draft = false
 title = "knemo 19.12.2-3"
 version = "19.12.2-3"
+date = "2022-12-13T12:11:32"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "515248"
 usize = "1207586"

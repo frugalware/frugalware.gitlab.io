@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-xml 1.3.14-8"
 version = "1.3.14-8"
+date = "2023-03-17T11:20:58"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/xml"
 arch = "x86_64"
 size = "213548"
 usize = "2052673"

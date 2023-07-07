@@ -2,7 +2,9 @@
 draft = false
 title = "gdk-pixbuf2 2.42.10-1"
 version = "2.42.10-1"
+date = "2022-12-20T09:14:22"
 categories = ['xlib']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "481072"
 usize = "3168680"

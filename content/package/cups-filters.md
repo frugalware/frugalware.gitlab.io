@@ -2,7 +2,9 @@
 draft = false
 title = "cups-filters 1.28.17-1"
 version = "1.28.17-1"
+date = "2023-05-22T12:56:45"
 categories = ['xapps']
+upstreamurl = "https://github.com/OpenPrinting/cups-filters"
 arch = "x86_64"
 size = "775288"
 usize = "2849574"

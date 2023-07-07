@@ -2,7 +2,9 @@
 draft = false
 title = "libblockdev 2.28-3"
 version = "2.28-3"
+date = "2022-12-13T15:21:54"
 categories = ['lib']
+upstreamurl = "https://github.com/storaged-project/libblockdev"
 arch = "x86_64"
 size = "235688"
 usize = "1640625"

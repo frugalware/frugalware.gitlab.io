@@ -2,7 +2,9 @@
 draft = false
 title = "umockdev 0.17.16-1"
 version = "0.17.16-1"
+date = "2023-03-06T10:57:58"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/martinpitt/umockdev"
 arch = "x86_64"
 size = "135404"
 usize = "543358"

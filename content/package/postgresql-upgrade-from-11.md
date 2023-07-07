@@ -2,7 +2,9 @@
 draft = false
 title = "postgresql-upgrade-from-11 11.20-1"
 version = "11.20-1"
+date = "2023-05-18T10:16:18"
 categories = ['apps-extra']
+upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
 size = "454676"
 usize = "2325435"

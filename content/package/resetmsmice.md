@@ -2,7 +2,9 @@
 draft = false
 title = "resetmsmice 1.2.1-1"
 version = "1.2.1-1"
+date = "2023-01-21T22:00:30"
 categories = ['xapps-extra']
+upstreamurl = "https://sourceforge.net/projects/resetmsmice"
 arch = "x86_64"
 size = "47536"
 usize = "158123"

@@ -2,7 +2,9 @@
 draft = false
 title = "python3-xattr 0.10.1-1"
 version = "0.10.1-1"
+date = "2023-02-21T12:04:17"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/xattr"
 arch = "x86_64"
 size = "25572"
 usize = "81623"

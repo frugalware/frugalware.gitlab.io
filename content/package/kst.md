@@ -2,7 +2,9 @@
 draft = false
 title = "kst 2.0.8.90-18"
 version = "2.0.8.90-18"
+date = "2022-12-27T09:37:32"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "29398024"
 usize = "47794425"

@@ -2,7 +2,9 @@
 draft = false
 title = "gsm 1.0.22-1"
 version = "1.0.22-1"
+date = "2022-08-29T11:44:47"
 categories = ['multimedia']
+upstreamurl = "http://www.quut.com/gsm"
 arch = "x86_64"
 size = "43076"
 usize = "170337"

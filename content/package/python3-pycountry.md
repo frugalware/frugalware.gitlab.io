@@ -2,7 +2,9 @@
 draft = false
 title = "python3-pycountry 22.3.5-4"
 version = "22.3.5-4"
+date = "2022-10-27T18:04:14"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/pycountry"
 arch = "x86_64"
 size = "3696792"
 usize = "27631557"

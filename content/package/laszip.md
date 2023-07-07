@@ -2,7 +2,9 @@
 draft = false
 title = "laszip 3.4.3-2"
 version = "3.4.3-2"
+date = "2022-02-08T17:30:47"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/laszip/laszip"
 arch = "x86_64"
 size = "137332"
 usize = "535994"

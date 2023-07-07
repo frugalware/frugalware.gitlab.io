@@ -2,7 +2,9 @@
 draft = false
 title = "graphite2 1.3.14-2"
 version = "1.3.14-2"
+date = "2021-12-26T11:11:07"
 categories = ['xoffice']
+upstreamurl = "https://sourceforge.net/projects/silgraphite"
 arch = "x86_64"
 size = "90048"
 usize = "263556"

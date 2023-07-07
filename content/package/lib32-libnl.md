@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libnl 3.7.0-1"
 version = "3.7.0-1"
+date = "2022-08-26T10:23:59"
 categories = ['lib32-extra']
+upstreamurl = "http://www.infradead.org/~tgr/libnl/"
 arch = "x86_64"
 size = "385452"
 usize = "2272629"

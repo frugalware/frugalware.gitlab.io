@@ -2,7 +2,9 @@
 draft = false
 title = "gphoto2 2.5.28-1"
 version = "2.5.28-1"
+date = "2022-09-19T08:01:42"
 categories = ['multimedia']
+upstreamurl = "http://www.gphoto.org"
 arch = "x86_64"
 size = "191416"
 usize = "913102"

@@ -2,7 +2,9 @@
 draft = false
 title = "libgc 8.2.0-4"
 version = "8.2.0-4"
+date = "2022-02-08T17:43:28"
 categories = ['lib-extra']
+upstreamurl = "http://www.hboehm.info/gc/"
 arch = "x86_64"
 size = "335320"
 usize = "1297827"

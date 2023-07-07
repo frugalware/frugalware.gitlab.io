@@ -2,7 +2,9 @@
 draft = false
 title = "msmtp 1.6.6-2"
 version = "1.6.6-2"
+date = "2018-02-10T01:08:46"
 categories = ['network-extra']
+upstreamurl = "http://sourceforge.net/projects/msmtp"
 arch = "x86_64"
 size = "102892"
 usize = "252020"

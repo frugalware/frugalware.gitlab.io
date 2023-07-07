@@ -2,7 +2,9 @@
 draft = false
 title = "xcb-util 0.4.1-1"
 version = "0.4.1-1"
+date = "2022-12-20T08:28:48"
 categories = ['x11']
+upstreamurl = "http://xcb.freedesktop.org"
 arch = "x86_64"
 size = "27976"
 usize = "98976"

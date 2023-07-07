@@ -2,7 +2,9 @@
 draft = false
 title = "htop 3.2.2-1"
 version = "3.2.2-1"
+date = "2023-02-22T19:13:43"
 categories = ['apps-extra']
+upstreamurl = "http://hisham.hm/htop"
 arch = "x86_64"
 size = "164552"
 usize = "460602"

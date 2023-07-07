@@ -2,7 +2,9 @@
 draft = false
 title = "editorconfig-core-c 0.12.6-1"
 version = "0.12.6-1"
+date = "2023-01-20T19:55:57"
 categories = ['apps']
+upstreamurl = "https://github.com/editorconfig/editorconfig-core-c"
 arch = "x86_64"
 size = "27588"
 usize = "88923"

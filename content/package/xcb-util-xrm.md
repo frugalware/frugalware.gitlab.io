@@ -2,7 +2,9 @@
 draft = false
 title = "xcb-util-xrm 1.3-1"
 version = "1.3-1"
+date = "2019-03-30T21:57:42"
 categories = ['x11-extra']
+upstreamurl = "https://github.com/Airblader/xcb-util-xrm"
 arch = "x86_64"
 size = "31484"
 usize = "137306"

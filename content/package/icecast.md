@@ -2,7 +2,9 @@
 draft = false
 title = "icecast 2.4.4-4"
 version = "2.4.4-4"
+date = "2023-03-15T20:26:04"
 categories = ['network-extra']
+upstreamurl = "http://www.icecast.org/"
 arch = "x86_64"
 size = "1469208"
 usize = "2368666"

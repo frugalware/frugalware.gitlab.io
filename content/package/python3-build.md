@@ -2,7 +2,9 @@
 draft = false
 title = "python3-build 0.10.0-1"
 version = "0.10.0-1"
+date = "2023-02-21T09:40:52"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/build"
 arch = "x86_64"
 size = "35568"
 usize = "190598"

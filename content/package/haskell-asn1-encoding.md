@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-asn1-encoding 0.9.6-5"
 version = "0.9.6-5"
+date = "2023-03-19T19:33:51"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/asn1-encoding"
 arch = "x86_64"
 size = "166632"
 usize = "1282323"

@@ -2,7 +2,9 @@
 draft = false
 title = "rapidjson 1.1.0-2"
 version = "1.1.0-2"
+date = "2022-02-21T21:48:26"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/Tencent/rapidjson"
 arch = "x86_64"
 size = "89880"
 usize = "604498"

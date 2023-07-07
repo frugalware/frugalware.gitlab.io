@@ -2,7 +2,9 @@
 draft = false
 title = "popa3d 1.0.3-5"
 version = "1.0.3-5"
+date = "2023-03-15T23:47:59"
 categories = ['network-extra']
+upstreamurl = "http://www.openwall.com/popa3d/"
 arch = "x86_64"
 size = "19188"
 usize = "44764"

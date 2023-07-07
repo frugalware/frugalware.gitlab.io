@@ -2,7 +2,9 @@
 draft = false
 title = "tiled 1.10.1-1"
 version = "1.10.1-1"
+date = "2023-06-16T06:58:49"
 categories = ['xapps-extra']
+upstreamurl = "https://github.com/bjorn/tiled"
 arch = "x86_64"
 size = "3398744"
 usize = "16878592"

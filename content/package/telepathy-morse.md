@@ -2,7 +2,9 @@
 draft = false
 title = "telepathy-morse 0.1.0-15"
 version = "0.1.0-15"
+date = "2023-01-10T15:20:29"
 categories = ['xlib']
+upstreamurl = "https://github.com/TelepathyIM/telepathy-morse"
 arch = "x86_64"
 size = "83640"
 usize = "297330"

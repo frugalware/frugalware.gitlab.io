@@ -2,7 +2,9 @@
 draft = false
 title = "python3-gnupginterface 0.3.2-2"
 version = "0.3.2-2"
+date = "2022-11-01T16:39:13"
 categories = ['devel-extra']
+upstreamurl = "https://sourceforge.net/projects/py-gnupg"
 arch = "x86_64"
 size = "17684"
 usize = "56335"

@@ -2,7 +2,9 @@
 draft = false
 title = "dom4j 2.1.4-1"
 version = "2.1.4-1"
+date = "2023-02-27T10:48:56"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/dom4j/dom4j"
 arch = "x86_64"
 size = "313088"
 usize = "335138"

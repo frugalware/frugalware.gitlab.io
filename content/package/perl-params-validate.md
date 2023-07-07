@@ -2,7 +2,9 @@
 draft = false
 title = "perl-params-validate 1.31-1"
 version = "1.31-1"
+date = "2023-02-21T14:22:39"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "52856"
 usize = "164363"

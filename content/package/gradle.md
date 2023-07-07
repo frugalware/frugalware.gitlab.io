@@ -2,7 +2,9 @@
 draft = false
 title = "gradle 8.0.2-1"
 version = "8.0.2-1"
+date = "2023-03-06T10:45:23"
 categories = ['devel-extra']
+upstreamurl = "https://gradle.org/"
 arch = "x86_64"
 size = "122178388"
 usize = "137651279"

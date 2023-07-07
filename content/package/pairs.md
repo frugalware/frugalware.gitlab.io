@@ -2,7 +2,9 @@
 draft = false
 title = "pairs 20200622.gdc470a9-1"
 version = "20200622.gdc470a9-1"
+date = "2020-06-22T12:36:22"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "3111196"
 usize = "4415430"

@@ -2,7 +2,9 @@
 draft = false
 title = "uget 2.2.3-3"
 version = "2.2.3-3"
+date = "2023-03-16T03:41:27"
 categories = ['xapps-extra']
+upstreamurl = "http://ugetdm.com/"
 arch = "x86_64"
 size = "379628"
 usize = "1395507"

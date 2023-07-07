@@ -2,7 +2,9 @@
 draft = false
 title = "gutenprint 5.2.15-1"
 version = "5.2.15-1"
+date = "2019-10-07T10:40:05"
 categories = ['apps-extra']
+upstreamurl = "https://sourceforge.net/projects/gimp-print"
 arch = "x86_64"
 size = "4921956"
 usize = "33803109"

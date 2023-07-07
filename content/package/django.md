@@ -2,7 +2,9 @@
 draft = false
 title = "django 4.1.7-1"
 version = "4.1.7-1"
+date = "2023-02-27T10:15:25"
 categories = ['devel-extra']
+upstreamurl = "https://www.djangoproject.com"
 arch = "x86_64"
 size = "4668948"
 usize = "29264438"

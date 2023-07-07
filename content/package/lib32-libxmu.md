@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libxmu 1.1.4-1"
 version = "1.1.4-1"
+date = "2022-10-20T08:02:05"
 categories = ['lib32-extra']
+upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "56968"
 usize = "198216"

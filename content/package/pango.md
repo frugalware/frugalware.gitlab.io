@@ -2,7 +2,9 @@
 draft = false
 title = "pango 1.50.14-1"
 version = "1.50.14-1"
+date = "2023-03-05T21:14:48"
 categories = ['xlib']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "430696"
 usize = "2540053"

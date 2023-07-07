@@ -2,7 +2,9 @@
 draft = false
 title = "libcec 6.0.2-1"
 version = "6.0.2-1"
+date = "2022-10-24T15:00:19"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/Pulse-Eight/libcec"
 arch = "x86_64"
 size = "207064"
 usize = "802013"

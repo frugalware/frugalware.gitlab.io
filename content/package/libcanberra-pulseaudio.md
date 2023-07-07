@@ -2,7 +2,9 @@
 draft = false
 title = "libcanberra-pulseaudio 0.30-21"
 version = "0.30-21"
+date = "2022-01-28T11:30:30"
 categories = ['xmultimedia']
+upstreamurl = "http://0pointer.de/lennart/projects/libcanberra/"
 arch = "x86_64"
 size = "13456"
 usize = "34522"

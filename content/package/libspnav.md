@@ -2,7 +2,9 @@
 draft = false
 title = "libspnav 1.0-1"
 version = "1.0-1"
+date = "2022-04-28T10:45:12"
 categories = ['xlib-extra']
+upstreamurl = "https://sourceforge.net/projects/spacenav"
 arch = "x86_64"
 size = "16700"
 usize = "51967"

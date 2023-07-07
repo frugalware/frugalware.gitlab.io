@@ -2,7 +2,9 @@
 draft = false
 title = "input-remapper 2.0.0-1"
 version = "2.0.0-1"
+date = "2023-03-28T14:28:44"
 categories = ['xapps-extra']
+upstreamurl = "https://github.com/sezanzeb/input-remapper"
 arch = "x86_64"
 size = "317000"
 usize = "1522461"

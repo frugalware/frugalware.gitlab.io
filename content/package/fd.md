@@ -2,7 +2,9 @@
 draft = false
 title = "fd 8.7.0-1"
 version = "8.7.0-1"
+date = "2023-03-06T08:45:37"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/sharkdp/fd"
 arch = "x86_64"
 size = "1036920"
 usize = "3544048"

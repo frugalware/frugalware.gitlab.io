@@ -2,7 +2,9 @@
 draft = false
 title = "itext7 7.2.1-1"
 version = "7.2.1-1"
+date = "2022-03-17T11:35:03"
 categories = ['devel-extra']
+upstreamurl = "http://itextpdf.com/"
 arch = "x86_64"
 size = "6516552"
 usize = "7076921"

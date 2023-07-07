@@ -2,7 +2,9 @@
 draft = false
 title = "seahorse-sharing-doc 3.8.0-4"
 version = "3.8.0-4"
+date = "2018-09-18T17:35:40"
 categories = ['gnome-extra', 'gnome-docs']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "2968"
 usize = "21505"

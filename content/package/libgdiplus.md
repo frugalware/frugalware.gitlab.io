@@ -2,7 +2,9 @@
 draft = false
 title = "libgdiplus 6.1-1"
 version = "6.1-1"
+date = "2022-04-22T12:49:11"
 categories = ['xlib-extra']
+upstreamurl = "http://www.mono-project.com"
 arch = "x86_64"
 size = "168324"
 usize = "548032"

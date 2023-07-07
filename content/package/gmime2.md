@@ -2,7 +2,9 @@
 draft = false
 title = "gmime2 2.6.23-7"
 version = "2.6.23-7"
+date = "2022-07-17T16:23:19"
 categories = ['apps']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "329932"
 usize = "2467965"

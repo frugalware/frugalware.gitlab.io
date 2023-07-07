@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-utf8-string 1.0.2-8"
 version = "1.0.2-8"
+date = "2023-03-17T11:22:08"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/utf8-string"
 arch = "x86_64"
 size = "141956"
 usize = "1232622"

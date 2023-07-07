@@ -2,7 +2,9 @@
 draft = false
 title = "cgit 1.2.3-1"
 version = "1.2.3-1"
+date = "2023-03-29T09:28:10"
 categories = ['network-extra']
+upstreamurl = "http://git.zx2c4.com"
 arch = "x86_64"
 size = "4247040"
 usize = "11854328"

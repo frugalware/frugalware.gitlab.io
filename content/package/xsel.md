@@ -2,7 +2,9 @@
 draft = false
 title = "xsel 1.2.0-3"
 version = "1.2.0-3"
+date = "2019-07-30T11:50:51"
 categories = ['xapps-extra']
+upstreamurl = "http://www.kfish.org/software/xsel"
 arch = "x86_64"
 size = "19276"
 usize = "50334"

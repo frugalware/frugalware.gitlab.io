@@ -2,7 +2,9 @@
 draft = false
 title = "fsarchiver 0.8.6-3"
 version = "0.8.6-3"
+date = "2022-07-17T16:20:32"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/fdupoux/fsarchiver"
 arch = "x86_64"
 size = "116516"
 usize = "322655"

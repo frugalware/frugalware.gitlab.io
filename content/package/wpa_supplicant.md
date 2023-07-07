@@ -2,7 +2,9 @@
 draft = false
 title = "wpa_supplicant 2.10-4"
 version = "2.10-4"
+date = "2023-03-16T04:06:50"
 categories = ['base']
+upstreamurl = "https://w1.fi/wpa_supplicant/"
 arch = "x86_64"
 size = "1269340"
 usize = "3452042"

@@ -2,7 +2,9 @@
 draft = false
 title = "scdoc 1.11.2-2"
 version = "1.11.2-2"
+date = "2022-03-09T13:59:06"
 categories = ['devel-extra']
+upstreamurl = "https://git.sr.ht/~sircmpwn/scdoc/"
 arch = "x86_64"
 size = "313920"
 usize = "937167"

@@ -2,7 +2,9 @@
 draft = false
 title = "texworks 0.6.8-1"
 version = "0.6.8-1"
+date = "2023-06-15T21:16:35"
 categories = ['xapps-extra']
+upstreamurl = "https://github.com/TeXworks/texworks"
 arch = "x86_64"
 size = "2670668"
 usize = "6372904"

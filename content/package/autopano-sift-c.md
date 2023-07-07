@@ -2,7 +2,9 @@
 draft = false
 title = "autopano-sift-c 2.5.1-4"
 version = "2.5.1-4"
+date = "2018-02-11T00:43:14"
 categories = ['apps-extra']
+upstreamurl = "http://sourceforge.net/projects/hugin"
 arch = "x86_64"
 size = "112212"
 usize = "395191"

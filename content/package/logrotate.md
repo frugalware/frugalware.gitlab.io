@@ -2,7 +2,9 @@
 draft = false
 title = "logrotate 3.21.0-1"
 version = "3.21.0-1"
+date = "2022-12-27T21:35:47"
 categories = ['apps']
+upstreamurl = "https://github.com/logrotate/logrotate"
 arch = "x86_64"
 size = "53592"
 usize = "137134"

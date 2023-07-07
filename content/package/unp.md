@@ -2,7 +2,9 @@
 draft = false
 title = "unp 2.0_pre7+nmu1-3"
 version = "2.0_pre7+nmu1-3"
+date = "2018-02-11T22:39:01"
 categories = ['apps-extra']
+upstreamurl = "http://packages.qa.debian.org/u/unp.html"
 arch = "x86_64"
 size = "16100"
 usize = "67934"

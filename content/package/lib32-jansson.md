@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-jansson 2.14-1"
 version = "2.14-1"
+date = "2021-10-06T11:13:45"
 categories = ['lib32-extra']
+upstreamurl = "http://www.digip.org/jansson"
 arch = "x86_64"
 size = "31508"
 usize = "94991"

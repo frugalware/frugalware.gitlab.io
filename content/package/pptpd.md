@@ -2,7 +2,9 @@
 draft = false
 title = "pptpd 1.4.0-3"
 version = "1.4.0-3"
+date = "2020-03-23T08:50:16"
 categories = ['network-extra']
+upstreamurl = "http://www.poptop.org/"
 arch = "x86_64"
 size = "61720"
 usize = "191688"

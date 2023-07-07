@@ -2,7 +2,9 @@
 draft = false
 title = "chntpw 140201-3"
 version = "140201-3"
+date = "2018-02-11T01:10:41"
 categories = ['apps-extra']
+upstreamurl = "http://pogostick.net/~pnh/ntpasswd"
 arch = "x86_64"
 size = "376880"
 usize = "2013905"

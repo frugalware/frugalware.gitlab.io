@@ -2,7 +2,9 @@
 draft = false
 title = "telepathy-logger-qt 17.09.0-2"
 version = "17.09.0-2"
+date = "2023-01-10T15:19:40"
 categories = ['xlib']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "56984"
 usize = "225173"

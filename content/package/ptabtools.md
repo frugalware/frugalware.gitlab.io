@@ -2,7 +2,9 @@
 draft = false
 title = "ptabtools 0.5.0-5"
 version = "0.5.0-5"
+date = "2019-06-07T00:37:25"
 categories = ['multimedia-extra']
+upstreamurl = "http://samba.org/~jelmer/ptabtools/"
 arch = "x86_64"
 size = "66532"
 usize = "302769"

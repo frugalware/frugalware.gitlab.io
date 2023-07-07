@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-zip-archive 0.4.3-2"
 version = "0.4.3-2"
+date = "2023-03-21T08:57:10"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/zip-archive"
 arch = "x86_64"
 size = "176388"
 usize = "1325046"

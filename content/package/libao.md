@@ -2,7 +2,9 @@
 draft = false
 title = "libao 1.2.0-12"
 version = "1.2.0-12"
+date = "2022-01-28T11:27:10"
 categories = ['multimedia']
+upstreamurl = "http://www.xiph.org/ao"
 arch = "x86_64"
 size = "53220"
 usize = "211175"

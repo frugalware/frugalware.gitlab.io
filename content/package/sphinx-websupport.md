@@ -2,7 +2,9 @@
 draft = false
 title = "sphinx-websupport 1.2.4-3"
 version = "1.2.4-3"
+date = "2022-12-15T12:20:55"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/sphinxcontrib-websupport"
 arch = "x86_64"
 size = "52080"
 usize = "193636"

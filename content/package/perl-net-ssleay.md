@@ -2,7 +2,9 @@
 draft = false
 title = "perl-net-ssleay 1.92-2"
 version = "1.92-2"
+date = "2023-03-15T23:34:31"
 categories = ['devel']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "281092"
 usize = "1236846"

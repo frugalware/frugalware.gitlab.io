@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libpsl 0.21.2-1"
 version = "0.21.2-1"
+date = "2023-01-04T13:26:16"
 categories = ['lib32-extra']
+upstreamurl = "https://github.com/rockdaboot/libpsl"
 arch = "x86_64"
 size = "59772"
 usize = "101864"

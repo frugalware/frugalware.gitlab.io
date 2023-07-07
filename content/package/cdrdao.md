@@ -2,7 +2,9 @@
 draft = false
 title = "cdrdao 1.2.5-1"
 version = "1.2.5-1"
+date = "2023-02-07T08:52:11"
 categories = ['multimedia']
+upstreamurl = "https://sourceforge.net/projects/cdrdao"
 arch = "x86_64"
 size = "340084"
 usize = "1448238"

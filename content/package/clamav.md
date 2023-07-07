@@ -2,7 +2,9 @@
 draft = false
 title = "clamav 1.1.0-1"
 version = "1.1.0-1"
+date = "2023-05-09T12:50:44"
 categories = ['apps-extra']
+upstreamurl = "https://www.clamav.net"
 arch = "x86_64"
 size = "8344320"
 usize = "41551366"

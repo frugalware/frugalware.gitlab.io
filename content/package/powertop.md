@@ -2,7 +2,9 @@
 draft = false
 title = "powertop 2.15-1"
 version = "2.15-1"
+date = "2023-03-06T10:19:32"
 categories = ['apps-extra']
+upstreamurl = "https://01.org/powertop"
 arch = "x86_64"
 size = "189648"
 usize = "557479"

@@ -2,7 +2,9 @@
 draft = false
 title = "gsl 2.7.1-1"
 version = "2.7.1-1"
+date = "2022-01-13T08:37:54"
 categories = ['lib']
+upstreamurl = "http://www.gnu.org/software/gsl/"
 arch = "x86_64"
 size = "1566464"
 usize = "5080057"

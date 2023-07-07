@@ -2,7 +2,9 @@
 draft = false
 title = "sdl_mixer 1.2.12-5"
 version = "1.2.12-5"
+date = "2022-05-09T14:05:39"
 categories = ['xlib-extra']
+upstreamurl = "http://www.libsdl.org/projects/SDL_mixer/"
 arch = "x86_64"
 size = "70912"
 usize = "194075"

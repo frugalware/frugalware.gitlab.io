@@ -2,7 +2,9 @@
 draft = false
 title = "sphinx-httpdomain 1.8.1-1"
 version = "1.8.1-1"
+date = "2022-12-14T14:44:06"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/sphinxcontrib-httpdomain"
 arch = "x86_64"
 size = "42348"
 usize = "155915"

@@ -2,7 +2,9 @@
 draft = false
 title = "xine-ui 0.99.14-1"
 version = "0.99.14-1"
+date = "2023-01-09T09:41:29"
 categories = ['xmultimedia']
+upstreamurl = "http://www.xinehq.de/"
 arch = "x86_64"
 size = "1757464"
 usize = "3622281"

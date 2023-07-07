@@ -2,7 +2,9 @@
 draft = false
 title = "openjpeg 2.5.0-1"
 version = "2.5.0-1"
+date = "2022-08-29T11:47:46"
 categories = ['xlib']
+upstreamurl = "http://www.openjpeg.org/"
 arch = "x86_64"
 size = "1804964"
 usize = "2553201"

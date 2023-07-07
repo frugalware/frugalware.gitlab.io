@@ -2,7 +2,9 @@
 draft = false
 title = "python3-pep517 0.13.0-2"
 version = "0.13.0-2"
+date = "2022-10-28T08:20:49"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/pep517"
 arch = "x86_64"
 size = "33960"
 usize = "212702"

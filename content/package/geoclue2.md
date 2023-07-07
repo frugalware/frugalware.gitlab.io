@@ -2,7 +2,9 @@
 draft = false
 title = "geoclue2 2.7.0-3"
 version = "2.7.0-3"
+date = "2023-03-14T13:34:59"
 categories = ['xlib']
+upstreamurl = "https://gitlab.freedesktop.org/geoclue/geoclue/-/wikis/home"
 arch = "x86_64"
 size = "216168"
 usize = "1656340"

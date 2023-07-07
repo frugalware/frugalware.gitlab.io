@@ -2,7 +2,9 @@
 draft = false
 title = "jitterentropy-library 3.4.1-1"
 version = "3.4.1-1"
+date = "2022-09-01T08:43:15"
 categories = ['base']
+upstreamurl = "https://www.chronox.de/jent.html"
 arch = "x86_64"
 size = "23928"
 usize = "72422"

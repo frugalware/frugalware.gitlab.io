@@ -2,7 +2,9 @@
 draft = false
 title = "gparted 1.5.0-1"
 version = "1.5.0-1"
+date = "2023-02-22T18:57:13"
 categories = ['xapps-extra']
+upstreamurl = "http://gparted.sourceforge.net"
 arch = "x86_64"
 size = "1177732"
 usize = "6470385"

@@ -2,7 +2,9 @@
 draft = false
 title = "duktape 2.7.0-2"
 version = "2.7.0-2"
+date = "2022-08-26T20:46:50"
 categories = ['base']
+upstreamurl = "https://duktape.org"
 arch = "x86_64"
 size = "167944"
 usize = "801757"

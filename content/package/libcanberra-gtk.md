@@ -2,7 +2,9 @@
 draft = false
 title = "libcanberra-gtk 0.30-21"
 version = "0.30-21"
+date = "2022-01-28T11:30:30"
 categories = ['gnome']
+upstreamurl = "http://0pointer.de/lennart/projects/libcanberra/"
 arch = "x86_64"
 size = "35032"
 usize = "191323"

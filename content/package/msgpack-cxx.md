@@ -2,7 +2,9 @@
 draft = false
 title = "msgpack-cxx 6.0.0-1"
 version = "6.0.0-1"
+date = "2023-03-07T09:51:00"
 categories = ['lib-extra']
+upstreamurl = "http://msgpack.org/"
 arch = "x86_64"
 size = "203640"
 usize = "5423829"

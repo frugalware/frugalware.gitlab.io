@@ -2,7 +2,9 @@
 draft = false
 title = "aide 0.16.2-7"
 version = "0.16.2-7"
+date = "2022-07-17T15:41:15"
 categories = ['apps-extra']
+upstreamurl = "https://aide.github.io"
 arch = "x86_64"
 size = "112056"
 usize = "315634"

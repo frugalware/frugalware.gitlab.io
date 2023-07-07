@@ -2,7 +2,9 @@
 draft = false
 title = "usb-modeswitch 2.6.0-1"
 version = "2.6.0-1"
+date = "2019-11-29T10:39:30"
 categories = ['apps-extra']
+upstreamurl = "http://www.draisberghof.de/usb_modeswitch/"
 arch = "x86_64"
 size = "50412"
 usize = "140564"

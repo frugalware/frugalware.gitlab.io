@@ -2,7 +2,9 @@
 draft = false
 title = "ncdu 1.14.1-1"
 version = "1.14.1-1"
+date = "2019-11-18T22:51:52"
 categories = ['apps-extra']
+upstreamurl = "http://dev.yorhel.nl/ncdu"
 arch = "x86_64"
 size = "41908"
 usize = "92262"

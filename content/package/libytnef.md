@@ -2,7 +2,9 @@
 draft = false
 title = "libytnef 1.5-7"
 version = "1.5-7"
+date = "2022-01-31T15:42:33"
 categories = ['network']
+upstreamurl = "https://sourceforge.net/projects/ytnef"
 arch = "x86_64"
 size = "32320"
 usize = "181915"

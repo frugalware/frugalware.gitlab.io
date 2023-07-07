@@ -2,7 +2,9 @@
 draft = false
 title = "howdy 2.6.1-1"
 version = "2.6.1-1"
+date = "2022-07-25T14:08:36"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/boltgolt/howdy"
 arch = "x86_64"
 size = "27496484"
 usize = "32464333"

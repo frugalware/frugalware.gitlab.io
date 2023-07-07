@@ -2,7 +2,9 @@
 draft = false
 title = "help2man 1.48.5-1"
 version = "1.48.5-1"
+date = "2021-11-01T15:19:02"
 categories = ['apps-extra']
+upstreamurl = "http://www.gnu.org/software/help2man/"
 arch = "x86_64"
 size = "152824"
 usize = "456596"

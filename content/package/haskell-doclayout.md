@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-doclayout 0.4-6"
 version = "0.4-6"
+date = "2023-03-20T20:01:40"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/doclayout"
 arch = "x86_64"
 size = "354464"
 usize = "4315342"

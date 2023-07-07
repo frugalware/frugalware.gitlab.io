@@ -2,7 +2,9 @@
 draft = false
 title = "sunflower 0.5_63-2"
 version = "0.5_63-2"
+date = "2022-11-03T13:28:36"
 categories = ['xapps-extra']
+upstreamurl = "http://sunflower-fm.org/"
 arch = "x86_64"
 size = "715416"
 usize = "2877671"

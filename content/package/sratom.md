@@ -2,7 +2,9 @@
 draft = false
 title = "sratom 0.6.14-1"
 version = "0.6.14-1"
+date = "2022-10-16T12:41:26"
 categories = ['lib']
+upstreamurl = "http://drobilla.net/software/sratom"
 arch = "x86_64"
 size = "16868"
 usize = "54629"

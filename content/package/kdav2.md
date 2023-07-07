@@ -2,7 +2,9 @@
 draft = false
 title = "kdav2 0.4.0-1"
 version = "0.4.0-1"
+date = "2022-09-12T13:37:10"
 categories = ['kde5-extra']
+upstreamurl = "https://github.com/KDE/kdav2"
 arch = "x86_64"
 size = "99108"
 usize = "434526"

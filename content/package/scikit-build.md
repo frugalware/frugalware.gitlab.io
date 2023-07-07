@@ -2,7 +2,9 @@
 draft = false
 title = "scikit-build 0.16.2-2"
 version = "0.16.2-2"
+date = "2022-11-24T10:44:55"
 categories = ['devel-extra']
+upstreamurl = "https://scikit-build.org/"
 arch = "x86_64"
 size = "102556"
 usize = "430044"

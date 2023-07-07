@@ -2,7 +2,9 @@
 draft = false
 title = "pbzip2 1.1.13-2"
 version = "1.1.13-2"
+date = "2018-02-11T20:10:51"
 categories = ['apps-extra']
+upstreamurl = "https://launchpad.net/pbzip2"
 arch = "x86_64"
 size = "38904"
 usize = "96187"

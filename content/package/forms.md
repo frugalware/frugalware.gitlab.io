@@ -2,7 +2,9 @@
 draft = false
 title = "forms 1.5.1-2"
 version = "1.5.1-2"
+date = "2022-02-22T18:57:04"
 categories = ['devel-extra']
+upstreamurl = "http://www.jgoodies.com/"
 arch = "x86_64"
 size = "88276"
 usize = "123611"

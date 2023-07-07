@@ -2,7 +2,9 @@
 draft = false
 title = "glyr 1.0.10-4"
 version = "1.0.10-4"
+date = "2022-02-08T17:05:38"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/sahib/glyr"
 arch = "x86_64"
 size = "78796"
 usize = "272953"

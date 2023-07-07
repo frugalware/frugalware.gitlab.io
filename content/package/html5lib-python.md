@@ -2,7 +2,9 @@
 draft = false
 title = "html5lib-python 1.1-4"
 version = "1.1-4"
+date = "2022-11-02T21:03:52"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/html5lib/html5lib-python"
 arch = "x86_64"
 size = "229216"
 usize = "1152728"

@@ -2,7 +2,9 @@
 draft = false
 title = "terminology 1.4.0-2"
 version = "1.4.0-2"
+date = "2022-04-03T14:33:26"
 categories = ['enlightenment-extra', 'e-apps']
+upstreamurl = "https://www.enlightenment.org/"
 arch = "x86_64"
 size = "5907144"
 usize = "26166075"

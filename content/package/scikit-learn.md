@@ -2,7 +2,9 @@
 draft = false
 title = "scikit-learn 1.1.2-2"
 version = "1.1.2-2"
+date = "2022-11-03T07:11:09"
 categories = ['devel-extra']
+upstreamurl = "https://scikit-learn.org/"
 arch = "x86_64"
 size = "6983124"
 usize = "36723673"

@@ -2,7 +2,9 @@
 draft = false
 title = "perl-mail-dkim 1.20230212-1"
 version = "1.20230212-1"
+date = "2023-02-21T14:19:59"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "145636"
 usize = "414894"

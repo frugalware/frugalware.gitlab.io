@@ -2,7 +2,9 @@
 draft = false
 title = "os-prober 1.81-1"
 version = "1.81-1"
+date = "2022-08-26T17:15:35"
 categories = ['base']
+upstreamurl = "http://packages.debian.org/os-prober"
 arch = "x86_64"
 size = "32400"
 usize = "114274"

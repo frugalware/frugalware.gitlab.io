@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-gconf 3.2.6-9"
 version = "3.2.6-9"
+date = "2022-07-25T18:41:03"
 categories = ['lib32-extra']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "143920"
 usize = "592631"

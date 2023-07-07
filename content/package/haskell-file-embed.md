@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-file-embed 0.0.15.0-8"
 version = "0.0.15.0-8"
+date = "2023-03-17T15:34:36"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/file-embed"
 arch = "x86_64"
 size = "73104"
 usize = "424766"

@@ -2,7 +2,9 @@
 draft = false
 title = "bcpg 170-1"
 version = "170-1"
+date = "2022-03-16T16:24:52"
 categories = ['devel-extra']
+upstreamurl = "http://www.bouncycastle.org/java.html"
 arch = "x86_64"
 size = "307564"
 usize = "352892"

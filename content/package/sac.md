@@ -2,7 +2,9 @@
 draft = false
 title = "sac 1.3-4"
 version = "1.3-4"
+date = "2022-02-22T08:40:51"
 categories = ['devel-extra']
+upstreamurl = "http://www.w3.org/Style/CSS/SAC/"
 arch = "x86_64"
 size = "26832"
 usize = "63070"

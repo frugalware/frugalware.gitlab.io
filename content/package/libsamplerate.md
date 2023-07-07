@@ -2,7 +2,9 @@
 draft = false
 title = "libsamplerate 0.1.9-5"
 version = "0.1.9-5"
+date = "2022-01-20T09:01:58"
 categories = ['multimedia']
+upstreamurl = "http://www.mega-nerd.com/SRC"
 arch = "x86_64"
 size = "987796"
 usize = "1644066"

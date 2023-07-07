@@ -2,7 +2,9 @@
 draft = false
 title = "joe 4.6-2"
 version = "4.6-2"
+date = "2018-02-11T14:18:37"
 categories = ['apps-extra']
+upstreamurl = "http://sourceforge.net/projects/joe-editor"
 arch = "x86_64"
 size = "524816"
 usize = "2096506"

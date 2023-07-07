@@ -2,7 +2,9 @@
 draft = false
 title = "sdlimage 1.2.12-6"
 version = "1.2.12-6"
+date = "2022-02-02T12:51:46"
 categories = ['xlib-extra']
+upstreamurl = "http://www.libsdl.org/"
 arch = "x86_64"
 size = "30004"
 usize = "75349"

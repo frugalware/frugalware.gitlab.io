@@ -2,7 +2,9 @@
 draft = false
 title = "gtkspell3 3.0.10-3"
 version = "3.0.10-3"
+date = "2022-01-24T12:11:58"
 categories = ['xlib']
+upstreamurl = "http://gtkspell.sourceforge.net/"
 arch = "x86_64"
 size = "55544"
 usize = "265937"

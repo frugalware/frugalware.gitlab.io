@@ -2,7 +2,9 @@
 draft = false
 title = "gssdp 1.6.2-1"
 version = "1.6.2-1"
+date = "2023-02-16T20:43:52"
 categories = ['xlib-extra']
+upstreamurl = "http://www.gupnp.org"
 arch = "x86_64"
 size = "67528"
 usize = "303738"

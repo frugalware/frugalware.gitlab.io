@@ -2,7 +2,9 @@
 draft = false
 title = "ijs 0.35-11"
 version = "0.35-11"
+date = "2022-01-24T12:18:42"
 categories = ['xlib']
+upstreamurl = "http://www.openprinting.org/download/ijs/"
 arch = "x86_64"
 size = "21788"
 usize = "82337"

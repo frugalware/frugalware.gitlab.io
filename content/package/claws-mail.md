@@ -2,7 +2,9 @@
 draft = false
 title = "claws-mail 4.1.1-2"
 version = "4.1.1-2"
+date = "2022-12-11T10:14:41"
 categories = ['xapps-extra']
+upstreamurl = "http://www.claws-mail.org/"
 arch = "x86_64"
 size = "3117048"
 usize = "16105973"

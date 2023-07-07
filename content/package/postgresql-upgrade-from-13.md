@@ -2,7 +2,9 @@
 draft = false
 title = "postgresql-upgrade-from-13 13.11-1"
 version = "13.11-1"
+date = "2023-05-18T09:49:31"
 categories = ['apps-extra']
+upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
 size = "462996"
 usize = "2263635"

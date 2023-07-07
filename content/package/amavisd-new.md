@@ -2,7 +2,9 @@
 draft = false
 title = "amavisd-new 2.11.1-2"
 version = "2.11.1-2"
+date = "2019-04-29T22:26:36"
 categories = ['network-extra']
+upstreamurl = "https://amavisd.de.postfix.org"
 arch = "x86_64"
 size = "601912"
 usize = "2772988"

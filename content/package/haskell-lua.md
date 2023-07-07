@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-lua 2.3.1-1"
 version = "2.3.1-1"
+date = "2023-03-20T15:22:43"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/lua"
 arch = "x86_64"
 size = "182020"
 usize = "2232081"

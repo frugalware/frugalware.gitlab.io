@@ -2,7 +2,9 @@
 draft = false
 title = "pygobject3-cairo 3.44.1-1"
 version = "3.44.1-1"
+date = "2023-03-31T09:08:17"
 categories = ['xlib']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "162876"
 usize = "632255"

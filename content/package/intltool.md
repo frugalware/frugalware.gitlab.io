@@ -2,7 +2,9 @@
 draft = false
 title = "intltool 0.51.0-9"
 version = "0.51.0-9"
+date = "2021-11-01T16:31:20"
 categories = ['devel']
+upstreamurl = "https://launchpad.net/intltool"
 arch = "x86_64"
 size = "49444"
 usize = "182097"

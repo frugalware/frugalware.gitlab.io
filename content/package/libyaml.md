@@ -2,7 +2,9 @@
 draft = false
 title = "libyaml 0.2.5-2"
 version = "0.2.5-2"
+date = "2022-01-01T12:39:56"
 categories = ['lib']
+upstreamurl = "http://pyyaml.org/wiki/LibYAML"
 arch = "x86_64"
 size = "56336"
 usize = "198246"

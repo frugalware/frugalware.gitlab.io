@@ -2,7 +2,9 @@
 draft = false
 title = "libpurple 2.14.12-1"
 version = "2.14.12-1"
+date = "2023-04-25T13:11:37"
 categories = ['xlib']
+upstreamurl = "http://www.pidgin.im/"
 arch = "x86_64"
 size = "1546596"
 usize = "7043240"

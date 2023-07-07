@@ -2,7 +2,9 @@
 draft = false
 title = "uim-emacs 1.8.8-2"
 version = "1.8.8-2"
+date = "2023-01-10T14:27:26"
 categories = ['xapps-extra']
+upstreamurl = "https://github.com/uim/uim"
 arch = "x86_64"
 size = "26472"
 usize = "126576"

@@ -2,7 +2,9 @@
 draft = false
 title = "libmng 2.0.3-8"
 version = "2.0.3-8"
+date = "2021-12-24T20:11:48"
 categories = ['lib']
+upstreamurl = "http://www.libmng.com/"
 arch = "x86_64"
 size = "202424"
 usize = "822898"

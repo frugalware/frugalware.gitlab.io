@@ -2,7 +2,9 @@
 draft = false
 title = "libavif 0.11.1-1"
 version = "0.11.1-1"
+date = "2022-12-01T12:43:12"
 categories = ['lib']
+upstreamurl = "https://github.com/AOMediaCodec/libavif"
 arch = "x86_64"
 size = "114584"
 usize = "338302"

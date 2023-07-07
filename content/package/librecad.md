@@ -2,7 +2,9 @@
 draft = false
 title = "librecad 2.2.0-2"
 version = "2.2.0-2"
+date = "2023-06-15T09:32:00"
 categories = ['xapps-extra']
+upstreamurl = "http://librecad.org"
 arch = "x86_64"
 size = "9436728"
 usize = "84273517"

@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-warp 3.3.25-2"
 version = "3.3.25-2"
+date = "2023-03-20T22:56:32"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/warp"
 arch = "x86_64"
 size = "407176"
 usize = "3772065"

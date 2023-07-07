@@ -2,7 +2,9 @@
 draft = false
 title = "python3-eventlet 0.33.3-1"
 version = "0.33.3-1"
+date = "2023-02-21T10:03:51"
 categories = ['devel-extra']
+upstreamurl = "http://eventlet.net"
 arch = "x86_64"
 size = "393468"
 usize = "1665656"

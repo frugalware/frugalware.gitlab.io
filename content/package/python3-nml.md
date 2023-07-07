@@ -2,7 +2,9 @@
 draft = false
 title = "python3-nml 0.7.1-1"
 version = "0.7.1-1"
+date = "2023-02-21T10:25:15"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/OpenTTD/nml"
 arch = "x86_64"
 size = "494724"
 usize = "2753139"

@@ -2,7 +2,9 @@
 draft = false
 title = "opencollada 1.6.68-4"
 version = "1.6.68-4"
+date = "2022-07-17T17:24:27"
 categories = ['xoffice']
+upstreamurl = "https://collada.org/mediawiki/index.php/OpenCOLLADA"
 arch = "x86_64"
 size = "1748904"
 usize = "15563000"

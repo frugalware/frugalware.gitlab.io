@@ -2,7 +2,9 @@
 draft = false
 title = "rav1e 0.5.1-3"
 version = "0.5.1-3"
+date = "2022-08-29T11:53:35"
 categories = ['multimedia']
+upstreamurl = "https://github.com/xiph/rav1e"
 arch = "x86_64"
 size = "20087528"
 usize = "85149928"

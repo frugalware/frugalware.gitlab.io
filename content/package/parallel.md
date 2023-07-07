@@ -2,7 +2,9 @@
 draft = false
 title = "parallel 20230222-1"
 version = "20230222-1"
+date = "2023-03-06T09:43:42"
 categories = ['apps-extra']
+upstreamurl = "http://gnu.org/software/parallel"
 arch = "x86_64"
 size = "2011756"
 usize = "4480885"

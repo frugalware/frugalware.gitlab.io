@@ -2,7 +2,9 @@
 draft = false
 title = "libconfig 1.7.3-1"
 version = "1.7.3-1"
+date = "2022-07-21T12:21:43"
 categories = ['lib-extra']
+upstreamurl = "http://hyperrealm.com/libconfig/libconfig.html"
 arch = "x86_64"
 size = "104364"
 usize = "351945"

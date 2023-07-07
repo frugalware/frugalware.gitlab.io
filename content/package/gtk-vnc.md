@@ -2,7 +2,9 @@
 draft = false
 title = "gtk-vnc 1.3.1-1"
 version = "1.3.1-1"
+date = "2023-03-13T09:05:33"
 categories = ['gnome']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "183960"
 usize = "1075762"

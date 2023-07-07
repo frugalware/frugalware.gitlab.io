@@ -2,7 +2,9 @@
 draft = false
 title = "xml-commons-external 1.4.01-4"
 version = "1.4.01-4"
+date = "2022-01-17T10:44:46"
 categories = ['devel-extra']
+upstreamurl = "http://xml.apache.org/commons/"
 arch = "x86_64"
 size = "241280"
 usize = "340594"

@@ -2,7 +2,9 @@
 draft = false
 title = "perl-encode-locale 1.05-5"
 version = "1.05-5"
+date = "2022-02-21T14:55:12"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "10028"
 usize = "17537"

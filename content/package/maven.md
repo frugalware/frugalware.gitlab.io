@@ -2,7 +2,9 @@
 draft = false
 title = "maven 3.9.0-1"
 version = "3.9.0-1"
+date = "2023-02-27T16:11:10"
 categories = ['devel-extra']
+upstreamurl = "http://maven.apache.org"
 arch = "x86_64"
 size = "8764236"
 usize = "10535674"

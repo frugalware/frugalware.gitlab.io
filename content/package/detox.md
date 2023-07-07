@@ -2,7 +2,9 @@
 draft = false
 title = "detox 1.4.5-1"
 version = "1.4.5-1"
+date = "2022-01-11T12:19:52"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/dharple/detox"
 arch = "x86_64"
 size = "31136"
 usize = "144002"

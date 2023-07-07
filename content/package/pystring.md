@@ -2,7 +2,9 @@
 draft = false
 title = "pystring 1.1.3-1"
 version = "1.1.3-1"
+date = "2022-05-16T12:36:26"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/imageworks/pystring"
 arch = "x86_64"
 size = "31132"
 usize = "110438"

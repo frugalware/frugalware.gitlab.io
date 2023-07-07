@@ -2,7 +2,9 @@
 draft = false
 title = "python3-pypatchelf 0.9-1"
 version = "0.9-1"
+date = "2022-11-24T10:12:54"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/pypatchelf"
 arch = "x86_64"
 size = "2168"
 usize = "4333"

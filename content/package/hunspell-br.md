@@ -2,7 +2,9 @@
 draft = false
 title = "hunspell-br 0.8-3"
 version = "0.8-3"
+date = "2018-02-10T13:51:14"
 categories = ['locale-extra']
+upstreamurl = "http://www.drouizig.org/"
 arch = "x86_64"
 size = "711344"
 usize = "5617660"

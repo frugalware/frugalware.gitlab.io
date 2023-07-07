@@ -2,7 +2,9 @@
 draft = false
 title = "xdg-user-dirs 0.18-1"
 version = "0.18-1"
+date = "2023-01-06T13:30:12"
 categories = ['apps']
+upstreamurl = "http://www.freedesktop.org/wiki/Software/xdg-user-dirs"
 arch = "x86_64"
 size = "53980"
 usize = "257602"

@@ -2,7 +2,9 @@
 draft = false
 title = "gpm 1.20.7-12"
 version = "1.20.7-12"
+date = "2021-10-18T12:11:52"
 categories = ['base']
+upstreamurl = "https://www.nico.schottelius.org/software/gpm/"
 arch = "x86_64"
 size = "159416"
 usize = "524493"

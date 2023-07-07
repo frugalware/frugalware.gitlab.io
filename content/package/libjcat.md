@@ -2,7 +2,9 @@
 draft = false
 title = "libjcat 0.1.9-1"
 version = "0.1.9-1"
+date = "2022-02-15T14:53:42"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/hughsie/libjcat"
 arch = "x86_64"
 size = "86068"
 usize = "384624"

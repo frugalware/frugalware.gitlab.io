@@ -2,7 +2,9 @@
 draft = false
 title = "opensc 0.23.0-2"
 version = "0.23.0-2"
+date = "2023-03-15T23:09:17"
 categories = ['base']
+upstreamurl = "https://github.com/OpenSC/OpenSC/wiki"
 arch = "x86_64"
 size = "1188328"
 usize = "4050881"

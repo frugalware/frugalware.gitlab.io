@@ -2,7 +2,9 @@
 draft = false
 title = "libb2 0.98.1-1"
 version = "0.98.1-1"
+date = "2022-11-28T11:50:56"
 categories = ['lib-extra']
+upstreamurl = "https://blake2.net/"
 arch = "x86_64"
 size = "40376"
 usize = "129889"

@@ -2,7 +2,9 @@
 draft = false
 title = "python3-dateutil 2.8.2-4"
 version = "2.8.2-4"
+date = "2022-10-31T20:04:17"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/dateutil/dateutil"
 arch = "x86_64"
 size = "324824"
 usize = "835046"

@@ -2,7 +2,9 @@
 draft = false
 title = "libspectre 0.2.12-2"
 version = "0.2.12-2"
+date = "2023-01-18T14:27:59"
 categories = ['xlib']
+upstreamurl = "http://libspectre.freedesktop.org/wiki/"
 arch = "x86_64"
 size = "57188"
 usize = "210810"

@@ -2,7 +2,9 @@
 draft = false
 title = "xcb-util-cursor 0.1.4-1"
 version = "0.1.4-1"
+date = "2022-10-20T11:21:32"
 categories = ['x11']
+upstreamurl = "http://xcb.freedesktop.org"
 arch = "x86_64"
 size = "21504"
 usize = "66415"

@@ -2,7 +2,9 @@
 draft = false
 title = "perl-test-requires 0.11-1"
 version = "0.11-1"
+date = "2022-03-15T07:30:16"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "10844"
 usize = "26371"

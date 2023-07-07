@@ -2,7 +2,9 @@
 draft = false
 title = "courier-unicode 2.2.6-1"
 version = "2.2.6-1"
+date = "2023-02-24T19:18:31"
 categories = ['lib-extra']
+upstreamurl = "https://sourceforge.net/projects/courier"
 arch = "x86_64"
 size = "164516"
 usize = "669131"

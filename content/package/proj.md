@@ -2,7 +2,9 @@
 draft = false
 title = "proj 8.2.1-1"
 version = "8.2.1-1"
+date = "2022-02-10T09:26:30"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/OSGeo//proj"
 arch = "x86_64"
 size = "21584396"
 usize = "42047131"

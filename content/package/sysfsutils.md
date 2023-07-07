@@ -2,7 +2,9 @@
 draft = false
 title = "sysfsutils 2.1.0-5"
 version = "2.1.0-5"
+date = "2021-12-13T18:26:19"
 categories = ['base']
+upstreamurl = "http://linux-diag.sourceforge.net/Sysfsutils.html"
 arch = "x86_64"
 size = "41808"
 usize = "204517"

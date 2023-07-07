@@ -2,7 +2,9 @@
 draft = false
 title = "augeas 1.12.0-1"
 version = "1.12.0-1"
+date = "2019-04-16T08:04:49"
 categories = ['apps-extra']
+upstreamurl = "http://augeas.net"
 arch = "x86_64"
 size = "668560"
 usize = "2947461"

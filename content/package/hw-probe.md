@@ -2,7 +2,9 @@
 draft = false
 title = "hw-probe 1.6.5-1"
 version = "1.6.5-1"
+date = "2023-01-20T19:34:34"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/linuxhw/hw-probe"
 arch = "x86_64"
 size = "108476"
 usize = "578313"

@@ -2,7 +2,9 @@
 draft = false
 title = "nfacct 1.0.2-2"
 version = "1.0.2-2"
+date = "2018-02-10T19:03:33"
 categories = ['network-extra']
+upstreamurl = "http://netfilter.org/projects/nfacct/index.html"
 arch = "x86_64"
 size = "13768"
 usize = "37118"

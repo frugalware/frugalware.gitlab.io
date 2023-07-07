@@ -2,7 +2,9 @@
 draft = false
 title = "perl-test-fatal 0.017-1"
 version = "0.017-1"
+date = "2023-02-21T14:28:32"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "15604"
 usize = "38894"

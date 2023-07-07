@@ -2,7 +2,9 @@
 draft = false
 title = "openobex 1.7.2-2"
 version = "1.7.2-2"
+date = "2018-02-11T19:22:20"
 categories = ['apps-extra']
+upstreamurl = "http://sourceforge.net/projects/openobex"
 arch = "x86_64"
 size = "71128"
 usize = "278529"

@@ -2,7 +2,9 @@
 draft = false
 title = "python3-smartypants 2.0.1-6"
 version = "2.0.1-6"
+date = "2022-10-27T18:22:54"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/leohemsted/smartypants.py"
 arch = "x86_64"
 size = "13040"
 usize = "46446"

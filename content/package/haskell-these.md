@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-these 1.2-2"
 version = "1.2-2"
+date = "2023-03-20T19:44:21"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/these"
 arch = "x86_64"
 size = "167268"
 usize = "1564318"

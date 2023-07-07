@@ -2,7 +2,9 @@
 draft = false
 title = "julius 1.7.0-1"
 version = "1.7.0-1"
+date = "2022-09-13T13:11:31"
 categories = ['games-extra']
+upstreamurl = "https://github.com/bvschaik/julius"
 arch = "x86_64"
 size = "746676"
 usize = "2412764"

@@ -2,7 +2,9 @@
 draft = false
 title = "liblqr 0.4.2-6"
 version = "0.4.2-6"
+date = "2022-02-08T17:53:13"
 categories = ['lib-extra']
+upstreamurl = "http://liblqr.wikidot.com/"
 arch = "x86_64"
 size = "47164"
 usize = "150607"

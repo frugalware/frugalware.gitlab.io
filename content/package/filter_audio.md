@@ -2,7 +2,9 @@
 draft = false
 title = "filter_audio 0.0.1-3"
 version = "0.0.1-3"
+date = "2019-06-14T22:49:42"
 categories = ['xlib-extra']
+upstreamurl = "https://github.com/irungentoo/filter_audio"
 arch = "x86_64"
 size = "87000"
 usize = "190012"

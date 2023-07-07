@@ -2,7 +2,9 @@
 draft = false
 title = "soundtouch 2.3.1-1"
 version = "2.3.1-1"
+date = "2022-01-20T09:59:23"
 categories = ['multimedia']
+upstreamurl = "http://www.surina.net/soundtouch/"
 arch = "x86_64"
 size = "74996"
 usize = "245815"

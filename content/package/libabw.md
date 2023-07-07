@@ -2,7 +2,9 @@
 draft = false
 title = "libabw 0.1.3-2"
 version = "0.1.3-2"
+date = "2020-02-09T15:44:20"
 categories = ['xoffice']
+upstreamurl = "http://wiki.documentfoundation.org/DLP/Libraries/libabw"
 arch = "x86_64"
 size = "106520"
 usize = "362895"

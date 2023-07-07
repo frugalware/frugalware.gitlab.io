@@ -2,7 +2,9 @@
 draft = false
 title = "ruby 3.2.2-1"
 version = "3.2.2-1"
+date = "2023-03-31T07:48:41"
 categories = ['devel']
+upstreamurl = "http://www.ruby-lang.org"
 arch = "x86_64"
 size = "9267852"
 usize = "41560300"

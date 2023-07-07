@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libmpg123 1.29.3-1"
 version = "1.29.3-1"
+date = "2022-02-02T15:49:47"
 categories = ['lib32-extra']
+upstreamurl = "http://www.mpg123.de"
 arch = "x86_64"
 size = "276192"
 usize = "858511"

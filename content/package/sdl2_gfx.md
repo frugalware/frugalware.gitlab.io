@@ -2,7 +2,9 @@
 draft = false
 title = "sdl2_gfx 1.0.4-1"
 version = "1.0.4-1"
+date = "2022-09-13T17:23:34"
 categories = ['xlib-extra']
+upstreamurl = "http://www.ferzkopp.net/wordpress/2016/01/02/sdl_gfx-sdl2_gfx/"
 arch = "x86_64"
 size = "31216"
 usize = "103989"

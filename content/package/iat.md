@@ -2,7 +2,9 @@
 draft = false
 title = "iat 0.1.7-3"
 version = "0.1.7-3"
+date = "2018-02-11T14:09:20"
 categories = ['apps-extra']
+upstreamurl = "http://sourceforge.net/projects/iat.berlios"
 arch = "x86_64"
 size = "41912"
 usize = "161496"

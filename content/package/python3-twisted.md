@@ -2,7 +2,9 @@
 draft = false
 title = "python3-twisted 22.10.0-1"
 version = "22.10.0-1"
+date = "2023-02-21T12:01:26"
 categories = ['devel-extra']
+upstreamurl = "http://twistedmatrix.com/trac/wiki/TwistedProject"
 arch = "x86_64"
 size = "5424592"
 usize = "31933099"

@@ -2,7 +2,9 @@
 draft = false
 title = "libtimidity 0.1.0-6"
 version = "0.1.0-6"
+date = "2022-02-08T18:13:10"
 categories = ['lib-extra']
+upstreamurl = "https://sourceforge.net/projects/libtimidity"
 arch = "x86_64"
 size = "42896"
 usize = "113126"

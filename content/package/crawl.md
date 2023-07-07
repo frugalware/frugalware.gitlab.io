@@ -2,7 +2,9 @@
 draft = false
 title = "crawl 0.27.1-3"
 version = "0.27.1-3"
+date = "2022-07-18T19:55:40"
 categories = ['games-extra']
+upstreamurl = "http://crawl.develz.org/wordpress/"
 arch = "x86_64"
 size = "5709092"
 usize = "19720321"

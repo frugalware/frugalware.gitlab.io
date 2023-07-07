@@ -2,7 +2,9 @@
 draft = false
 title = "lz4-static 1.9.4-1"
 version = "1.9.4-1"
+date = "2022-08-22T11:54:32"
 categories = ['devel-extra']
+upstreamurl = "http://www.lz4.org/"
 arch = "x86_64"
 size = "653724"
 usize = "694552"

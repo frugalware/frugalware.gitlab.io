@@ -2,7 +2,9 @@
 draft = false
 title = "rspamd 3.5-1"
 version = "3.5-1"
+date = "2023-04-20T08:25:34"
 categories = ['network-extra']
+upstreamurl = "https://github.com/rspamd/rspamd"
 arch = "x86_64"
 size = "3655516"
 usize = "12932774"

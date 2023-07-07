@@ -2,7 +2,9 @@
 draft = false
 title = "urwid 2.1.2-3"
 version = "2.1.2-3"
+date = "2022-12-10T18:26:37"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/urwid"
 arch = "x86_64"
 size = "457072"
 usize = "2268730"

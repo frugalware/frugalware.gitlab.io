@@ -2,7 +2,9 @@
 draft = false
 title = "libwnck2 2.31.0-7"
 version = "2.31.0-7"
+date = "2022-01-24T21:14:27"
 categories = ['xlib']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "378956"
 usize = "3055532"

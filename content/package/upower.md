@@ -2,7 +2,9 @@
 draft = false
 title = "upower 1.90.0-1"
 version = "1.90.0-1"
+date = "2022-09-16T07:42:50"
 categories = ['xapps']
+upstreamurl = "http://upower.freedesktop.org"
 arch = "x86_64"
 size = "144940"
 usize = "826427"

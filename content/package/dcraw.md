@@ -2,7 +2,9 @@
 draft = false
 title = "dcraw 9.28-1"
 version = "9.28-1"
+date = "2018-06-13T23:18:07"
 categories = ['apps-extra']
+upstreamurl = "http://www.cybercom.net/~dcoffin/dcraw/"
 arch = "x86_64"
 size = "289268"
 usize = "593082"

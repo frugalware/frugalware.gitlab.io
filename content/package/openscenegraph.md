@@ -2,7 +2,9 @@
 draft = false
 title = "openscenegraph 3.4.1-6"
 version = "3.4.1-6"
+date = "2022-02-13T20:57:33"
 categories = ['xlib-extra']
+upstreamurl = "http://www.openscenegraph.org/projects/osg"
 arch = "x86_64"
 size = "6314644"
 usize = "30861332"

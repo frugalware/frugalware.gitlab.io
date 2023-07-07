@@ -2,7 +2,9 @@
 draft = false
 title = "openntpd 6.8p1-1"
 version = "6.8p1-1"
+date = "2022-05-20T07:47:54"
 categories = ['network-extra']
+upstreamurl = "http://www.openntpd.org/"
 arch = "x86_64"
 size = "49128"
 usize = "105904"

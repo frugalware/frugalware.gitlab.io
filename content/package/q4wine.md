@@ -2,7 +2,9 @@
 draft = false
 title = "q4wine 1.3.13-1"
 version = "1.3.13-1"
+date = "2023-06-15T14:31:42"
 categories = ['xapps-extra']
+upstreamurl = "https://github.com/brezerk/q4wine"
 arch = "x86_64"
 size = "3133844"
 usize = "6724595"

@@ -2,7 +2,9 @@
 draft = false
 title = "tftp-hpa 5.2-3"
 version = "5.2-3"
+date = "2019-01-18T14:28:53"
 categories = ['network-extra']
+upstreamurl = "https://www.kernel.org/pub/software/network/tftp/tftp-hpa/"
 arch = "x86_64"
 size = "42000"
 usize = "144218"

@@ -2,7 +2,9 @@
 draft = false
 title = "gtkmm 4.6.1-1"
 version = "4.6.1-1"
+date = "2022-04-21T07:09:30"
 categories = ['xlib-extra']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "1530784"
 usize = "10706974"

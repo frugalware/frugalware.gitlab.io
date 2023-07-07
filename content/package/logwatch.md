@@ -2,7 +2,9 @@
 draft = false
 title = "logwatch 7.5.2-1"
 version = "7.5.2-1"
+date = "2019-11-19T20:11:59"
 categories = ['apps-extra']
+upstreamurl = "ftp://ftp.kaybee.org/pub/linux"
 arch = "x86_64"
 size = "329704"
 usize = "2081236"

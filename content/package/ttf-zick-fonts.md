@@ -2,7 +2,9 @@
 draft = false
 title = "ttf-zick-fonts 20161212-3"
 version = "20161212-3"
+date = "2018-02-10T13:38:52"
 categories = ['fonts-extra']
+upstreamurl = "http://luc.devroye.org/zick.html"
 arch = "x86_64"
 size = "178608"
 usize = "487403"

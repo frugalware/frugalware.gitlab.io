@@ -2,7 +2,9 @@
 draft = false
 title = "pyyaml3 5.3.1-5"
 version = "5.3.1-5"
+date = "2022-11-02T19:45:28"
 categories = ['devel-extra']
+upstreamurl = "http://pyyaml.org/wiki/PyYAML"
 arch = "x86_64"
 size = "103244"
 usize = "516959"

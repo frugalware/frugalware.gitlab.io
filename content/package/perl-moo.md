@@ -2,7 +2,9 @@
 draft = false
 title = "perl-moo 2.005005-1"
 version = "2.005005-1"
+date = "2023-02-21T14:21:01"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "53876"
 usize = "165653"

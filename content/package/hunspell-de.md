@@ -2,7 +2,9 @@
 draft = false
 title = "hunspell-de 20051213-3"
 version = "20051213-3"
+date = "2018-02-10T13:51:51"
 categories = ['locale-extra']
+upstreamurl = "http://www.j3e.de/hunspell/"
 arch = "x86_64"
 size = "308224"
 usize = "1217202"

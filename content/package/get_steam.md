@@ -2,7 +2,9 @@
 draft = false
 title = "get_steam 1.0.0.78-1"
 version = "1.0.0.78-1"
+date = "2023-06-02T19:10:33"
 categories = ['games-extra']
+upstreamurl = "http://steampowered.com/"
 arch = "x86_64"
 size = "2124"
 usize = "0"

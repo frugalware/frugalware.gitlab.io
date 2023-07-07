@@ -2,7 +2,9 @@
 draft = false
 title = "tl-expected 1.0.0-2"
 version = "1.0.0-2"
+date = "2022-03-09T14:21:57"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/TartanLlama/expected"
 arch = "x86_64"
 size = "16196"
 usize = "107227"

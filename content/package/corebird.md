@@ -2,7 +2,9 @@
 draft = false
 title = "corebird 1.7.4-2"
 version = "1.7.4-2"
+date = "2018-05-08T11:28:18"
 categories = ['xapps-extra']
+upstreamurl = "http://corebird.baedert.org"
 arch = "x86_64"
 size = "539372"
 usize = "2124678"

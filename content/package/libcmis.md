@@ -2,7 +2,9 @@
 draft = false
 title = "libcmis 0.5.2-9"
 version = "0.5.2-9"
+date = "2023-04-20T18:35:38"
 categories = ['xoffice']
+upstreamurl = "https://github.com/tdf/libcmis"
 arch = "x86_64"
 size = "381676"
 usize = "1349615"

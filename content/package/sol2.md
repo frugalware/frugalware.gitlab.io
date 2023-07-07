@@ -2,7 +2,9 @@
 draft = false
 title = "sol2 3.3.0-1"
 version = "3.3.0-1"
+date = "2022-09-14T09:01:45"
 categories = ['devel-extra']
+upstreamurl = "https://sol2.rtfd.io"
 arch = "x86_64"
 size = "135524"
 usize = "1149051"

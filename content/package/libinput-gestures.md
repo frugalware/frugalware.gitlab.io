@@ -2,7 +2,9 @@
 draft = false
 title = "libinput-gestures 2.74-1"
 version = "2.74-1"
+date = "2023-02-24T15:38:21"
 categories = ['x11-extra']
+upstreamurl = "https://github.com/bulletmark/libinput-gestures"
 arch = "x86_64"
 size = "24196"
 usize = "99419"

@@ -2,7 +2,9 @@
 draft = false
 title = "perl-xml-sax-expat 0.51-8"
 version = "0.51-8"
+date = "2021-12-20T08:00:29"
 categories = ['devel']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "7756"
 usize = "22705"

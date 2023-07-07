@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-safe-exceptions 0.1.7.3-5"
 version = "0.1.7.3-5"
+date = "2023-03-20T13:46:44"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/safe-exceptions"
 arch = "x86_64"
 size = "93816"
 usize = "800537"

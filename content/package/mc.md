@@ -2,7 +2,9 @@
 draft = false
 title = "mc 4.8.29-1"
 version = "4.8.29-1"
+date = "2023-01-22T20:29:29"
 categories = ['base']
+upstreamurl = "https://www.midnight-commander.org/"
 arch = "x86_64"
 size = "1781096"
 usize = "7461560"

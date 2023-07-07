@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-tf-random 0.5-52"
 version = "0.5-52"
+date = "2023-03-20T19:18:48"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/tf-random"
 arch = "x86_64"
 size = "114020"
 usize = "840664"

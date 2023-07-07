@@ -2,7 +2,9 @@
 draft = false
 title = "gupnp 1.6.3-1"
 version = "1.6.3-1"
+date = "2023-02-16T20:49:54"
 categories = ['xlib-extra']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "135404"
 usize = "789696"

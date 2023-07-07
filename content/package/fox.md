@@ -2,7 +2,9 @@
 draft = false
 title = "fox 1.7.79-1"
 version = "1.7.79-1"
+date = "2022-04-26T13:50:24"
 categories = ['xlib-extra']
+upstreamurl = "http://www.fox-toolkit.org/"
 arch = "x86_64"
 size = "4251976"
 usize = "11253229"

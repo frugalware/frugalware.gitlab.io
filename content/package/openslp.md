@@ -2,7 +2,9 @@
 draft = false
 title = "openslp 2.0.0-10"
 version = "2.0.0-10"
+date = "2023-03-15T23:10:44"
 categories = ['network']
+upstreamurl = "http://www.openslp.org/"
 arch = "x86_64"
 size = "339324"
 usize = "1622349"

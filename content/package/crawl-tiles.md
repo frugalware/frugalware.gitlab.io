@@ -2,7 +2,9 @@
 draft = false
 title = "crawl-tiles 0.27.1-2"
 version = "0.27.1-2"
+date = "2022-04-03T14:38:50"
 categories = ['games-extra']
+upstreamurl = "http://crawl.develz.org/wordpress/"
 arch = "x86_64"
 size = "13066728"
 usize = "29555177"

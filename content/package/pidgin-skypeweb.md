@@ -2,7 +2,9 @@
 draft = false
 title = "pidgin-skypeweb 1.7-1"
 version = "1.7-1"
+date = "2023-01-23T10:19:09"
 categories = ['xapps-extra', 'pidgin-plugins']
+upstreamurl = "https://github.com/EionRobb/skype4pidgin"
 arch = "x86_64"
 size = "73136"
 usize = "207225"

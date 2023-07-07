@@ -2,7 +2,9 @@
 draft = false
 title = "ispc 1.18.1-1"
 version = "1.18.1-1"
+date = "2023-02-27T15:02:50"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/ispc/ispc"
 arch = "x86_64"
 size = "1020120"
 usize = "12118457"

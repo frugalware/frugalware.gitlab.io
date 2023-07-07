@@ -2,7 +2,9 @@
 draft = false
 title = "ssr 0.4.4-4"
 version = "0.4.4-4"
+date = "2023-06-15T19:00:11"
 categories = ['xapps-extra']
+upstreamurl = "http://www.maartenbaert.be/simplescreenrecorder/"
 arch = "x86_64"
 size = "1336472"
 usize = "3804709"

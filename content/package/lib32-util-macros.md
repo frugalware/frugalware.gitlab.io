@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-util-macros 1.20.0-1"
 version = "1.20.0-1"
+date = "2023-02-14T08:33:22"
 categories = ['lib32-extra']
+upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "9332"
 usize = "16303"

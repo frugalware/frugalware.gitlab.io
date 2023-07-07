@@ -2,7 +2,9 @@
 draft = false
 title = "python3-commonmark 0.9.1-7"
 version = "0.9.1-7"
+date = "2022-10-27T16:55:06"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/commonmark"
 arch = "x86_64"
 size = "111068"
 usize = "439595"

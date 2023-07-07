@@ -2,7 +2,9 @@
 draft = false
 title = "ocaml-extlib 1.7.9-2"
 version = "1.7.9-2"
+date = "2023-03-06T14:57:31"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/ygrek/ocaml-extlib"
 arch = "x86_64"
 size = "1218560"
 usize = "5143769"

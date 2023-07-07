@@ -2,7 +2,9 @@
 draft = false
 title = "ruby-mustache 1.1.1-5"
 version = "1.1.1-5"
+date = "2022-11-09T19:47:17"
 categories = ['devel-extra']
+upstreamurl = "http://github.com/defunkt/mustache"
 arch = "x86_64"
 size = "18200"
 usize = "57767"

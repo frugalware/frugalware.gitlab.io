@@ -2,7 +2,9 @@
 draft = false
 title = "libproxy-vala 0.5.2-2"
 version = "0.5.2-2"
+date = "2023-06-20T21:09:23"
 categories = ['xlib-extra']
+upstreamurl = "https://github.com/libproxy/libproxy"
 arch = "x86_64"
 size = "4308"
 usize = "915"

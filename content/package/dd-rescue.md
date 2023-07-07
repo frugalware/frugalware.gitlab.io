@@ -2,7 +2,9 @@
 draft = false
 title = "dd-rescue 1.99.13-2"
 version = "1.99.13-2"
+date = "2023-03-15T18:21:38"
 categories = ['apps-extra']
+upstreamurl = "http://www.garloff.de/kurt/linux/ddrescue/"
 arch = "x86_64"
 size = "160192"
 usize = "445528"

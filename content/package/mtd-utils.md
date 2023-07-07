@@ -2,7 +2,9 @@
 draft = false
 title = "mtd-utils 2.1.5-2"
 version = "2.1.5-2"
+date = "2023-03-15T22:04:58"
 categories = ['apps-extra']
+upstreamurl = "http://www.linux-mtd.infradead.org/"
 arch = "x86_64"
 size = "407164"
 usize = "2206353"

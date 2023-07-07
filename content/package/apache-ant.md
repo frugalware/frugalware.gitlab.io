@@ -2,7 +2,9 @@
 draft = false
 title = "apache-ant 1.10.13-1"
 version = "1.10.13-1"
+date = "2023-02-27T10:45:49"
 categories = ['devel-extra']
+upstreamurl = "http://ant.apache.org"
 arch = "x86_64"
 size = "2373084"
 usize = "2764067"

@@ -2,7 +2,9 @@
 draft = false
 title = "po4a 0.69-1"
 version = "0.69-1"
+date = "2023-02-27T10:52:08"
 categories = ['devel-extra']
+upstreamurl = "https://po4a.org/"
 arch = "x86_64"
 size = "2158456"
 usize = "3820306"

@@ -2,7 +2,9 @@
 draft = false
 title = "libwacom 2.7.0-1"
 version = "2.7.0-1"
+date = "2023-05-22T14:46:50"
 categories = ['x11']
+upstreamurl = "https://github.com/linuxwacom/libwacom"
 arch = "x86_64"
 size = "85188"
 usize = "740168"

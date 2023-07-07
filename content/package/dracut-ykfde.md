@@ -2,7 +2,9 @@
 draft = false
 title = "dracut-ykfde 0.7.9-1"
 version = "0.7.9-1"
+date = "2022-12-20T08:39:08"
 categories = ['base-extra']
+upstreamurl = "https://github.com/eworm-de/mkinitcpio-ykfde"
 arch = "x86_64"
 size = "30380"
 usize = "154037"

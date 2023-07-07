@@ -2,7 +2,9 @@
 draft = false
 title = "libp11 0.4.12-3"
 version = "0.4.12-3"
+date = "2023-03-15T21:08:17"
 categories = ['base']
+upstreamurl = "https://github.com/OpenSC/libp11/wiki"
 arch = "x86_64"
 size = "63468"
 usize = "227667"

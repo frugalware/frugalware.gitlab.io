@@ -2,7 +2,9 @@
 draft = false
 title = "urw-fonts 20200910-2"
 version = "20200910-2"
+date = "2022-02-02T18:38:11"
 categories = ['apps']
+upstreamurl = "https://github.com/ArtifexSoftware/urw-base35-fonts"
 arch = "x86_64"
 size = "3913788"
 usize = "13326097"

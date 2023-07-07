@@ -2,7 +2,9 @@
 draft = false
 title = "vulkan-lunarg-tools 1.3.250.0-1"
 version = "1.3.250.0-1"
+date = "2023-06-16T09:10:19"
 categories = ['apps-extra']
+upstreamurl = "http://lunarg.com/"
 arch = "x86_64"
 size = "2924484"
 usize = "19947191"

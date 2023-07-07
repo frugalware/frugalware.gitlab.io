@@ -2,7 +2,9 @@
 draft = false
 title = "anonymous-pro-ttf 1.002-5"
 version = "1.002-5"
+date = "2018-02-10T13:23:23"
 categories = ['fonts-extra']
+upstreamurl = "https://www.marksimonson.com/fonts/view/anonymous-pro"
 arch = "x86_64"
 size = "138324"
 usize = "640193"

@@ -2,7 +2,9 @@
 draft = false
 title = "icoutils 0.32.3-1"
 version = "0.32.3-1"
+date = "2018-03-09T15:38:04"
 categories = ['apps-extra']
+upstreamurl = "http://www.nongnu.org/icoutils/"
 arch = "x86_64"
 size = "70872"
 usize = "279718"

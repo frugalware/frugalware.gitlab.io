@@ -2,7 +2,9 @@
 draft = false
 title = "xautomation 1.09-2"
 version = "1.09-2"
+date = "2022-07-24T09:54:45"
 categories = ['xapps-extra']
+upstreamurl = "https://hoopajoo.net/projects/xautomation.html"
 arch = "x86_64"
 size = "39092"
 usize = "182211"

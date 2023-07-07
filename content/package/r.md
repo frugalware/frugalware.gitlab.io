@@ -2,7 +2,9 @@
 draft = false
 title = "r 4.2.3-1"
 version = "4.2.3-1"
+date = "2023-04-20T08:00:22"
 categories = ['xapps-extra']
+upstreamurl = "http://www.r-project.org"
 arch = "x86_64"
 size = "44510192"
 usize = "70829028"

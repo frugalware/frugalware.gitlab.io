@@ -2,7 +2,9 @@
 draft = false
 title = "libidn2-static 2.0.0-12"
 version = "2.0.0-12"
+date = "2022-11-22T15:29:03"
 categories = ['devel-extra']
+upstreamurl = "http://www.gnu.org/software/libidn/"
 arch = "x86_64"
 size = "198168"
 usize = "258751"

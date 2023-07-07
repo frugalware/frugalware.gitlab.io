@@ -2,7 +2,9 @@
 draft = false
 title = "perl-http-daemon 6.16-1"
 version = "6.16-1"
+date = "2023-03-14T13:09:20"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "18916"
 usize = "41623"

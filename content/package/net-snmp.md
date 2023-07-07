@@ -2,7 +2,9 @@
 draft = false
 title = "net-snmp 5.9.3-2"
 version = "5.9.3-2"
+date = "2023-03-15T22:22:14"
 categories = ['network-extra']
+upstreamurl = "http://www.net-snmp.org/"
 arch = "x86_64"
 size = "2642164"
 usize = "14116364"

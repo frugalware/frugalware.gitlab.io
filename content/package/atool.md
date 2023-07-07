@@ -2,7 +2,9 @@
 draft = false
 title = "atool 0.39.0-4"
 version = "0.39.0-4"
+date = "2018-02-11T00:35:34"
 categories = ['apps-extra']
+upstreamurl = "http://www.nongnu.org/atool/"
 arch = "x86_64"
 size = "53788"
 usize = "188615"

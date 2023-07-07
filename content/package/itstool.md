@@ -2,7 +2,9 @@
 draft = false
 title = "itstool 2.0.7-1"
 version = "2.0.7-1"
+date = "2023-02-27T10:24:48"
 categories = ['devel-extra']
+upstreamurl = "https://itstool.org/"
 arch = "x86_64"
 size = "52072"
 usize = "251522"

@@ -2,7 +2,9 @@
 draft = false
 title = "perl-module-install 1.19-4"
 version = "1.19-4"
+date = "2022-02-21T15:11:16"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "134284"
 usize = "338670"

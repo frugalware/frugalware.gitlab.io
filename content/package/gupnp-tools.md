@@ -2,7 +2,9 @@
 draft = false
 title = "gupnp-tools 0.12.0-1"
 version = "0.12.0-1"
+date = "2023-02-16T20:53:25"
 categories = ['xapps-extra']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "185140"
 usize = "742150"

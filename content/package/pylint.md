@@ -2,7 +2,9 @@
 draft = false
 title = "pylint 2.16.2-1"
 version = "2.16.2-1"
+date = "2023-02-27T10:22:45"
 categories = ['devel-extra']
+upstreamurl = "http://www.logilab.org/project/pylint"
 arch = "x86_64"
 size = "886344"
 usize = "6301848"

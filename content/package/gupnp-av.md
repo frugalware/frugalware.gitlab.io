@@ -2,7 +2,9 @@
 draft = false
 title = "gupnp-av 0.14.1-1"
 version = "0.14.1-1"
+date = "2023-03-06T13:13:03"
 categories = ['xlib-extra']
+upstreamurl = "http://www.gupnp.org"
 arch = "x86_64"
 size = "112076"
 usize = "816942"

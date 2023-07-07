@@ -2,7 +2,9 @@
 draft = false
 title = "wasi-compiler-rt 15.0.7-4"
 version = "15.0.7-4"
+date = "2023-04-17T09:32:21"
 categories = ['devel-extra']
+upstreamurl = "https://compiler-rt.llvm.org/"
 arch = "x86_64"
 size = "67396"
 usize = "244088"

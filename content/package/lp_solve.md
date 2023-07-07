@@ -2,7 +2,9 @@
 draft = false
 title = "lp_solve 5.5.2.5-1"
 version = "5.5.2.5-1"
+date = "2019-10-04T17:19:48"
 categories = ['xoffice']
+upstreamurl = "https://sourceforge.net/projects/lpsolve"
 arch = "x86_64"
 size = "543412"
 usize = "1654442"

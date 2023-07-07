@@ -2,7 +2,9 @@
 draft = false
 title = "docbook-sgml-dtd-4.1 4.1-4"
 version = "4.1-4"
+date = "2018-01-27T20:07:41"
 categories = ['apps-extra']
+upstreamurl = "http://www.docbook.org/sgml/"
 arch = "x86_64"
 size = "40044"
 usize = "304039"

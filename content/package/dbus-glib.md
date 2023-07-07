@@ -2,7 +2,9 @@
 draft = false
 title = "dbus-glib 0.112-2"
 version = "0.112-2"
+date = "2021-10-12T14:46:59"
 categories = ['base']
+upstreamurl = "http://www.freedesktop.org/wiki/Software_2fDBusBindings"
 arch = "x86_64"
 size = "150820"
 usize = "938834"

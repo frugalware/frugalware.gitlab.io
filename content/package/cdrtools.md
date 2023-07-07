@@ -2,7 +2,9 @@
 draft = false
 title = "cdrtools 3.01-6"
 version = "3.01-6"
+date = "2022-02-02T17:05:38"
 categories = ['apps']
+upstreamurl = "https://sourceforge.net/projects/cdrtools"
 arch = "x86_64"
 size = "879536"
 usize = "3712344"

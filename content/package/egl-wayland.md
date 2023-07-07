@@ -2,7 +2,9 @@
 draft = false
 title = "egl-wayland 1.1.11-1"
 version = "1.1.11-1"
+date = "2022-11-08T19:26:49"
 categories = ['xlib-extra']
+upstreamurl = "https://github.com/NVIDIA/egl-wayland"
 arch = "x86_64"
 size = "28308"
 usize = "92448"

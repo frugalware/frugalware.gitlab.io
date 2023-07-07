@@ -2,7 +2,9 @@
 draft = false
 title = "eiskaltdc 2.4.2-4"
 version = "2.4.2-4"
+date = "2023-06-15T07:16:44"
 categories = ['xapps-extra']
+upstreamurl = "https://github.com/eiskaltdcpp/eiskaltdcpp"
 arch = "x86_64"
 size = "2988576"
 usize = "10631486"

@@ -2,7 +2,9 @@
 draft = false
 title = "subversion-bindings 1.14.2-2"
 version = "1.14.2-2"
+date = "2022-11-03T07:23:53"
 categories = ['devel-extra']
+upstreamurl = "http://subversion.apache.org/"
 arch = "x86_64"
 size = "4886000"
 usize = "24855626"

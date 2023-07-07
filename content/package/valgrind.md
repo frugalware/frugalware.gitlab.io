@@ -2,7 +2,9 @@
 draft = false
 title = "valgrind 3.20.0-1"
 version = "3.20.0-1"
+date = "2023-02-27T12:12:19"
 categories = ['devel-extra']
+upstreamurl = "http://valgrind.org/"
 arch = "x86_64"
 size = "64939708"
 usize = "181090370"

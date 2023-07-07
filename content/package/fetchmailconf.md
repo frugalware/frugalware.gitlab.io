@@ -2,7 +2,9 @@
 draft = false
 title = "fetchmailconf 6.4.37-2"
 version = "6.4.37-2"
+date = "2023-03-15T19:28:36"
 categories = ['xapps-extra']
+upstreamurl = "http://www.fetchmail.info"
 arch = "x86_64"
 size = "57328"
 usize = "340829"

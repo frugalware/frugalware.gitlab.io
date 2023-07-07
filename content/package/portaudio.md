@@ -2,7 +2,9 @@
 draft = false
 title = "portaudio 190600_20161030-3"
 version = "190600_20161030-3"
+date = "2019-06-07T00:26:49"
 categories = ['multimedia-extra']
+upstreamurl = "http://www.portaudio.com/"
 arch = "x86_64"
 size = "63464"
 usize = "211623"

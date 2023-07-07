@@ -2,7 +2,9 @@
 draft = false
 title = "dovecot 2.3.20-3"
 version = "2.3.20-3"
+date = "2023-04-19T13:30:41"
 categories = ['network-extra']
+upstreamurl = "http://www.dovecot.org"
 arch = "x86_64"
 size = "4290352"
 usize = "19216008"

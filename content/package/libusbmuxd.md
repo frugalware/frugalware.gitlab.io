@@ -2,7 +2,9 @@
 draft = false
 title = "libusbmuxd 2.0.2-4"
 version = "2.0.2-4"
+date = "2023-04-26T19:31:39"
 categories = ['lib']
+upstreamurl = "http://libimobiledevice.org/"
 arch = "x86_64"
 size = "40548"
 usize = "130421"

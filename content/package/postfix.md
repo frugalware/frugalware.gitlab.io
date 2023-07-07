@@ -2,7 +2,9 @@
 draft = false
 title = "postfix 3.8.1-1"
 version = "3.8.1-1"
+date = "2023-06-08T19:21:29"
 categories = ['network']
+upstreamurl = "http://www.postfix.org/"
 arch = "x86_64"
 size = "1444328"
 usize = "4777084"

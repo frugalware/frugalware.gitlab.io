@@ -2,7 +2,9 @@
 draft = false
 title = "dmidecode 3.5-1"
 version = "3.5-1"
+date = "2023-03-27T09:51:07"
 categories = ['apps-extra']
+upstreamurl = "http://www.nongnu.org/dmidecode/"
 arch = "x86_64"
 size = "74248"
 usize = "256467"

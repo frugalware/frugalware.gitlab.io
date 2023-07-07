@@ -2,7 +2,9 @@
 draft = false
 title = "libtracefs 1.7.0-1"
 version = "1.7.0-1"
+date = "2023-06-19T07:44:34"
 categories = ['lib']
+upstreamurl = "https://git.kernel.org/pub/scm/libs/libtrace/libtracefs.git"
 arch = "x86_64"
 size = "58476"
 usize = "168019"

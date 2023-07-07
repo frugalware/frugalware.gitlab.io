@@ -2,7 +2,9 @@
 draft = false
 title = "cutemaze 1.3.2-3"
 version = "1.3.2-3"
+date = "2023-06-05T09:03:43"
 categories = ['games-extra']
+upstreamurl = "https://gottcode.org/cutemaze/"
 arch = "x86_64"
 size = "320672"
 usize = "644561"

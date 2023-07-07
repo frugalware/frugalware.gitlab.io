@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-lexer 1.1.1-2"
 version = "1.1.1-2"
+date = "2023-03-20T08:56:57"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/haskell-lexer"
 arch = "x86_64"
 size = "338132"
 usize = "4085778"

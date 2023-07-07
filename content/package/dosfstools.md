@@ -2,7 +2,9 @@
 draft = false
 title = "dosfstools 4.2-2"
 version = "4.2-2"
+date = "2021-10-12T14:51:16"
 categories = ['base']
+upstreamurl = "https://github.com/dosfstools"
 arch = "x86_64"
 size = "135272"
 usize = "442796"

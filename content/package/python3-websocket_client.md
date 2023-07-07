@@ -2,7 +2,9 @@
 draft = false
 title = "python3-websocket_client 1.5.1-1"
 version = "1.5.1-1"
+date = "2023-02-21T12:03:14"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/websocket-client"
 arch = "x86_64"
 size = "99128"
 usize = "449460"

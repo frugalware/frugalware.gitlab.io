@@ -2,7 +2,9 @@
 draft = false
 title = "pyparsing3 3.0.9-1"
 version = "3.0.9-1"
+date = "2022-10-28T08:36:37"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/pyparsing/pyparsing"
 arch = "x86_64"
 size = "236564"
 usize = "1529183"

@@ -2,7 +2,9 @@
 draft = false
 title = "glad 2.0.4-1"
 version = "2.0.4-1"
+date = "2023-02-27T12:29:00"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/Dav1dde/glad"
 arch = "x86_64"
 size = "446624"
 usize = "6079427"

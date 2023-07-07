@@ -2,7 +2,9 @@
 draft = false
 title = "libsearpc 3.3-1"
 version = "3.3-1"
+date = "2023-02-26T21:07:08"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/haiwen/libsearpc"
 arch = "x86_64"
 size = "32556"
 usize = "141633"

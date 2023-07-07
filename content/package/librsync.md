@@ -2,7 +2,9 @@
 draft = false
 title = "librsync 2.3.4-1"
 version = "2.3.4-1"
+date = "2023-03-07T09:19:30"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/librsync/librsync"
 arch = "x86_64"
 size = "44924"
 usize = "130310"

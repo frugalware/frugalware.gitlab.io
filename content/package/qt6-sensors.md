@@ -2,7 +2,9 @@
 draft = false
 title = "qt6-sensors 6.5.1-1"
 version = "6.5.1-1"
+date = "2023-06-03T18:04:55"
 categories = ['xlib-extra']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "169948"
 usize = "1184516"

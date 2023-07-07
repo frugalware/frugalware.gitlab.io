@@ -2,7 +2,9 @@
 draft = false
 title = "markdownpart 23.04.2-2"
 version = "23.04.2-2"
+date = "2023-06-21T13:16:37"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "35024"
 usize = "141647"

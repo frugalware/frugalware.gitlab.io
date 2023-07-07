@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-sbc 2.0-1"
 version = "2.0-1"
+date = "2022-09-02T13:09:26"
 categories = ['lib32-extra']
+upstreamurl = "http://www.bluez.org"
 arch = "x86_64"
 size = "43624"
 usize = "224977"

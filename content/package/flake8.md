@@ -2,7 +2,9 @@
 draft = false
 title = "flake8 6.0.0-1"
 version = "6.0.0-1"
+date = "2023-02-27T10:16:17"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/flake8"
 arch = "x86_64"
 size = "100908"
 usize = "398988"

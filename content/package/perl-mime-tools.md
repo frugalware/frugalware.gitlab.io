@@ -2,7 +2,9 @@
 draft = false
 title = "perl-mime-tools 5.510-1"
 version = "5.510-1"
+date = "2023-02-21T14:20:30"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "201928"
 usize = "502347"

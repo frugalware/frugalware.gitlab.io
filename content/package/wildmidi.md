@@ -2,7 +2,9 @@
 draft = false
 title = "wildmidi 0.4.4-2"
 version = "0.4.4-2"
+date = "2022-05-17T12:37:54"
 categories = ['xlib-extra']
+upstreamurl = "https://sourceforge.net/projects/wildmidi"
 arch = "x86_64"
 size = "103064"
 usize = "217703"

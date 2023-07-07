@@ -2,7 +2,9 @@
 draft = false
 title = "libmpg123 1.29.3-1"
 version = "1.29.3-1"
+date = "2022-02-02T15:49:47"
 categories = ['lib-extra']
+upstreamurl = "http://www.mpg123.de"
 arch = "x86_64"
 size = "297048"
 usize = "852903"

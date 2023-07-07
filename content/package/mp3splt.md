@@ -2,7 +2,9 @@
 draft = false
 title = "mp3splt 2.6.2-4"
 version = "2.6.2-4"
+date = "2019-06-06T23:59:30"
 categories = ['multimedia-extra']
+upstreamurl = "https://sourceforge.net/projects/mp3splt"
 arch = "x86_64"
 size = "56892"
 usize = "159159"

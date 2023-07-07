@@ -2,7 +2,9 @@
 draft = false
 title = "qt6-translations 6.5.1-1"
 version = "6.5.1-1"
+date = "2023-06-03T16:38:04"
 categories = ['xlib-extra']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "1639092"
 usize = "13515731"

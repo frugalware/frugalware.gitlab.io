@@ -2,7 +2,9 @@
 draft = false
 title = "scummvm 2.7.0-1"
 version = "2.7.0-1"
+date = "2023-02-27T09:59:14"
 categories = ['games-extra']
+upstreamurl = "http://www.scummvm.org/"
 arch = "x86_64"
 size = "73199276"
 usize = "142264147"

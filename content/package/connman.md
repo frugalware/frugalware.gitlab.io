@@ -2,7 +2,9 @@
 draft = false
 title = "connman 1.40-1"
 version = "1.40-1"
+date = "2021-06-12T11:54:22"
 categories = ['network-extra']
+upstreamurl = "http://connman.net/"
 arch = "x86_64"
 size = "503664"
 usize = "1701815"

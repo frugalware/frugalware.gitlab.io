@@ -2,7 +2,9 @@
 draft = false
 title = "backupninja 1.1.0-1"
 version = "1.1.0-1"
+date = "2019-04-09T16:11:35"
 categories = ['apps-extra']
+upstreamurl = "https://labs.riseup.net/code/projects/backupninja"
 arch = "x86_64"
 size = "86272"
 usize = "425558"

@@ -2,7 +2,9 @@
 draft = false
 title = "libev 4.33-2"
 version = "4.33-2"
+date = "2022-02-08T17:41:52"
 categories = ['lib-extra']
+upstreamurl = "http://software.schmorp.de/pkg/libev.html"
 arch = "x86_64"
 size = "123660"
 usize = "212776"

@@ -2,7 +2,9 @@
 draft = false
 title = "libcue 2.2.1-3"
 version = "2.2.1-3"
+date = "2022-01-13T10:36:32"
 categories = ['lib']
+upstreamurl = "https://github.com/lipnitsk/libcue"
 arch = "x86_64"
 size = "24656"
 usize = "82479"

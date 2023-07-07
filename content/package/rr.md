@@ -2,7 +2,9 @@
 draft = false
 title = "rr 5.2.0-1"
 version = "5.2.0-1"
+date = "2018-10-19T00:13:11"
 categories = ['apps-extra']
+upstreamurl = "http://rr-project.org/"
 arch = "x86_64"
 size = "994868"
 usize = "3209386"

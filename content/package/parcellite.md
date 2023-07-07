@@ -2,7 +2,9 @@
 draft = false
 title = "parcellite 1.2.1-3"
 version = "1.2.1-3"
+date = "2019-07-18T13:49:50"
 categories = ['xapps-extra']
+upstreamurl = "https://sourceforge.net/projects/parcellite"
 arch = "x86_64"
 size = "261288"
 usize = "542070"

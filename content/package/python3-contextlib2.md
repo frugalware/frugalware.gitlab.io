@@ -2,7 +2,9 @@
 draft = false
 title = "python3-contextlib2 21.6.0-5"
 version = "21.6.0-5"
+date = "2022-10-27T16:57:58"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/jazzband/contextlib2"
 arch = "x86_64"
 size = "18180"
 usize = "75719"

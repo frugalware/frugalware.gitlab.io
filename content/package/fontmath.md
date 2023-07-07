@@ -2,7 +2,9 @@
 draft = false
 title = "fontmath 0.9.3-1"
 version = "0.9.3-1"
+date = "2023-02-27T10:37:46"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/fontMath"
 arch = "x86_64"
 size = "73956"
 usize = "381706"

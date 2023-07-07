@@ -2,7 +2,9 @@
 draft = false
 title = "python3-pidfile 3.0.0-5"
 version = "3.0.0-5"
+date = "2022-11-01T17:06:36"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/python-pidfile"
 arch = "x86_64"
 size = "4756"
 usize = "11589"

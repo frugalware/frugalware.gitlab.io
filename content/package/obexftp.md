@@ -2,7 +2,9 @@
 draft = false
 title = "obexftp 0.24.2-3"
 version = "0.24.2-3"
+date = "2018-02-11T19:33:18"
 categories = ['apps-extra']
+upstreamurl = "http://sourceforge.net/projects/openobex"
 arch = "x86_64"
 size = "72016"
 usize = "257781"

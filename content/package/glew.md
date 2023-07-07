@@ -2,7 +2,9 @@
 draft = false
 title = "glew 2.2.0-2"
 version = "2.2.0-2"
+date = "2022-01-18T21:52:41"
 categories = ['xlib']
+upstreamurl = "https://sourceforge.net/projects/glew"
 arch = "x86_64"
 size = "357552"
 usize = "2858630"

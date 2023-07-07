@@ -2,7 +2,9 @@
 draft = false
 title = "face_recognition_models 0.3.0-3"
 version = "0.3.0-3"
+date = "2022-11-02T20:36:39"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/face_recognition_models"
 arch = "x86_64"
 size = "91158020"
 usize = "132052015"

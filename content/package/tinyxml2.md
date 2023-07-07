@@ -2,7 +2,9 @@
 draft = false
 title = "tinyxml2 9.0.0-1"
 version = "9.0.0-1"
+date = "2023-02-14T12:28:46"
 categories = ['devel-extra']
+upstreamurl = "http://www.grinninglizard.com/tinyxml2/"
 arch = "x86_64"
 size = "43800"
 usize = "178796"

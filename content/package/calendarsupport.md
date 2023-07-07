@@ -2,7 +2,9 @@
 draft = false
 title = "calendarsupport 23.04.2-2"
 version = "23.04.2-2"
+date = "2023-06-21T11:17:26"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "542984"
 usize = "3427724"

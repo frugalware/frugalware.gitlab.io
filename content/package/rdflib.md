@@ -2,7 +2,9 @@
 draft = false
 title = "rdflib 6.2.0-1"
 version = "6.2.0-1"
+date = "2023-03-07T10:25:24"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/RDFLib/rdflib"
 arch = "x86_64"
 size = "770352"
 usize = "3984304"

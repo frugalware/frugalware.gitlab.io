@@ -2,7 +2,9 @@
 draft = false
 title = "openshadinglanguage 1.12.11.0-1"
 version = "1.12.11.0-1"
+date = "2023-04-21T08:20:33"
 categories = ['xlib-extra']
+upstreamurl = "https://github.com/imageworks/openshadinglanguage"
 arch = "x86_64"
 size = "2398796"
 usize = "7596795"

@@ -2,7 +2,9 @@
 draft = false
 title = "intel-tbb 2021.5.0-1"
 version = "2021.5.0-1"
+date = "2022-02-10T10:21:22"
 categories = ['lib-extra']
+upstreamurl = "http://www.threadingbuildingblocks.org/"
 arch = "x86_64"
 size = "285920"
 usize = "1741396"

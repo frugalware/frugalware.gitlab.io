@@ -2,7 +2,9 @@
 draft = false
 title = "libappindicator 12.10.0-6"
 version = "12.10.0-6"
+date = "2022-05-19T13:36:26"
 categories = ['xlib-extra']
+upstreamurl = "https://launchpad.net/libappindicator"
 arch = "x86_64"
 size = "70304"
 usize = "418306"

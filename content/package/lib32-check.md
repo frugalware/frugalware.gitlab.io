@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-check 0.10.0-9"
 version = "0.10.0-9"
+date = "2021-12-15T15:45:14"
 categories = ['lib32-extra']
+upstreamurl = "http://check.sourceforge.net/"
 arch = "x86_64"
 size = "29972"
 usize = "102814"

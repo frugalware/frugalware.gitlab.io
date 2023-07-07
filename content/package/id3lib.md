@@ -2,7 +2,9 @@
 draft = false
 title = "id3lib 3.8.3-14"
 version = "3.8.3-14"
+date = "2022-07-17T16:30:51"
 categories = ['multimedia']
+upstreamurl = "https://sourceforge.net/projects/id3lib"
 arch = "x86_64"
 size = "185864"
 usize = "849233"

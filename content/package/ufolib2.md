@@ -2,7 +2,9 @@
 draft = false
 title = "ufolib2 0.14.0-1"
 version = "0.14.0-1"
+date = "2023-02-27T10:37:03"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/ufoLib2"
 arch = "x86_64"
 size = "87620"
 usize = "608686"

@@ -2,7 +2,9 @@
 draft = false
 title = "hddtemp 0.3_beta15-8"
 version = "0.3_beta15-8"
+date = "2018-08-19T19:31:50"
 categories = ['apps-extra']
+upstreamurl = "http://www.guzu.net/linux/hddtemp.php"
 arch = "x86_64"
 size = "39564"
 usize = "128831"

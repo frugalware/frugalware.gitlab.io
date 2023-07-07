@@ -2,7 +2,9 @@
 draft = false
 title = "rhino 1_7R3-4"
 version = "1_7R3-4"
+date = "2018-02-08T19:58:59"
 categories = ['devel-extra']
+upstreamurl = "http://www.mozilla.org/rhino/"
 arch = "x86_64"
 size = "910872"
 usize = "980319"

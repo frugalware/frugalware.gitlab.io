@@ -2,7 +2,9 @@
 draft = false
 title = "shellinabox 2.20-4"
 version = "2.20-4"
+date = "2023-03-16T03:01:09"
 categories = ['network-extra']
+upstreamurl = "https://github.com/shellinabox/shellinabox"
 arch = "x86_64"
 size = "134440"
 usize = "477153"

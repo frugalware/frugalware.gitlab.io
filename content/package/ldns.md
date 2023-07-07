@@ -2,7 +2,9 @@
 draft = false
 title = "ldns 1.8.3-3"
 version = "1.8.3-3"
+date = "2023-03-15T20:51:34"
 categories = ['lib']
+upstreamurl = "https://www.nlnetlabs.nl/projects/ldns/"
 arch = "x86_64"
 size = "466380"
 usize = "2068875"

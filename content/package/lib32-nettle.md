@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-nettle 3.9.1-1"
 version = "3.9.1-1"
+date = "2023-06-02T13:51:18"
 categories = ['lib32-extra']
+upstreamurl = "http://www.lysator.liu.se/~nisse/nettle/"
 arch = "x86_64"
 size = "487180"
 usize = "1448601"

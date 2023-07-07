@@ -2,7 +2,9 @@
 draft = false
 title = "kontactinterface 23.04.2-2"
 version = "23.04.2-2"
+date = "2023-06-21T09:36:02"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "48624"
 usize = "194926"

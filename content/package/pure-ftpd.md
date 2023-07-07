@@ -2,7 +2,9 @@
 draft = false
 title = "pure-ftpd 1.0.50-3"
 version = "1.0.50-3"
+date = "2023-03-16T00:58:27"
 categories = ['network-extra']
+upstreamurl = "http://www.pureftpd.org/"
 arch = "x86_64"
 size = "223576"
 usize = "717808"

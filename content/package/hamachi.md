@@ -2,7 +2,9 @@
 draft = false
 title = "hamachi 2.1.0.203-1"
 version = "2.1.0.203-1"
+date = "2019-09-23T19:34:53"
 categories = ['network-extra']
+upstreamurl = "https://www.vpn.net/linux"
 arch = "x86_64"
 size = "1316520"
 usize = "3747545"

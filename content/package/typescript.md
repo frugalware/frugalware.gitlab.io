@@ -2,7 +2,9 @@
 draft = false
 title = "typescript 4.9.5-1"
 version = "4.9.5-1"
+date = "2023-02-27T15:06:27"
 categories = ['devel-extra']
+upstreamurl = "http://typescriptlang.org"
 arch = "x86_64"
 size = "7235276"
 usize = "66912923"

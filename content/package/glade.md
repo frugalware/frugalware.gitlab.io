@@ -2,7 +2,9 @@
 draft = false
 title = "glade 3.40.0-1"
 version = "3.40.0-1"
+date = "2023-03-31T10:03:31"
 categories = ['xlib']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "1941708"
 usize = "11427466"

@@ -2,7 +2,9 @@
 draft = false
 title = "libpgf 7.21.7-1"
 version = "7.21.7-1"
+date = "2022-02-12T18:02:18"
 categories = ['lib-extra']
+upstreamurl = "https://sourceforge.net/projects/libpgf/libpgf/7.21.7"
 arch = "x86_64"
 size = "57228"
 usize = "190164"

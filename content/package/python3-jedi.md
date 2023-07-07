@@ -2,7 +2,9 @@
 draft = false
 title = "python3-jedi 0.18.2-1"
 version = "0.18.2-1"
+date = "2022-12-12T14:36:46"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/davidhalter/jedi"
 arch = "x86_64"
 size = "964396"
 usize = "5714673"

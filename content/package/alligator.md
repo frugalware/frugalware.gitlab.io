@@ -2,7 +2,9 @@
 draft = false
 title = "alligator 23.04.2-2"
 version = "23.04.2-2"
+date = "2023-06-21T14:05:44"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "97124"
 usize = "407093"

@@ -2,7 +2,9 @@
 draft = false
 title = "speex 1.2.1-1"
 version = "1.2.1-1"
+date = "2022-09-19T08:26:52"
 categories = ['multimedia']
+upstreamurl = "https://speex.org/"
 arch = "x86_64"
 size = "492508"
 usize = "660241"

@@ -2,7 +2,9 @@
 draft = false
 title = "libqalculate 4.6.1-1"
 version = "4.6.1-1"
+date = "2023-04-19T08:25:48"
 categories = ['lib']
+upstreamurl = "https://github.com/Qalculate/libqalculate"
 arch = "x86_64"
 size = "2498156"
 usize = "15414668"

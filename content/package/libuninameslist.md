@@ -2,7 +2,9 @@
 draft = false
 title = "libuninameslist 20091231-6"
 version = "20091231-6"
+date = "2022-02-08T18:14:52"
 categories = ['lib-extra']
+upstreamurl = "https://sourceforge.net/projects/libuninameslist"
 arch = "x86_64"
 size = "442228"
 usize = "4005199"

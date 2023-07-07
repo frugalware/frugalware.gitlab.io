@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-monad-control 1.0.3.1-5"
 version = "1.0.3.1-5"
+date = "2023-03-20T12:45:39"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/monad-control"
 arch = "x86_64"
 size = "80428"
 usize = "668770"

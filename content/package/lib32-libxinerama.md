@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libxinerama 1.1.5-1"
 version = "1.1.5-1"
+date = "2022-12-08T09:12:04"
 categories = ['lib32-extra']
+upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "7104"
 usize = "18999"

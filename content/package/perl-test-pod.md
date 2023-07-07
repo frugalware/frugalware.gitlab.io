@@ -2,7 +2,9 @@
 draft = false
 title = "perl-test-pod 1.52-3"
 version = "1.52-3"
+date = "2022-02-21T15:23:22"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "8388"
 usize = "12046"

@@ -2,7 +2,9 @@
 draft = false
 title = "python3-psutil 5.9.4-1"
 version = "5.9.4-1"
+date = "2023-02-21T12:13:54"
 categories = ['lib-extra']
+upstreamurl = "http://pypi.python.org/pypi/psutil"
 arch = "x86_64"
 size = "451404"
 usize = "3529745"

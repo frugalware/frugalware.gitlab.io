@@ -2,7 +2,9 @@
 draft = false
 title = "qt6-quick3d 6.5.1-1"
 version = "6.5.1-1"
+date = "2023-06-03T18:15:24"
 categories = ['xlib-extra']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "4426828"
 usize = "14729074"

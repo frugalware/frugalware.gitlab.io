@@ -2,7 +2,9 @@
 draft = false
 title = "perl-common-sense 3.75-1"
 version = "3.75-1"
+date = "2022-03-15T07:09:54"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "10124"
 usize = "34692"

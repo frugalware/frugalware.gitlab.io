@@ -2,7 +2,9 @@
 draft = false
 title = "libmfx 22.5.4-1"
 version = "22.5.4-1"
+date = "2022-12-29T08:10:05"
 categories = ['lib']
+upstreamurl = "https://software.intel.com/en-us/media-sdk/"
 arch = "x86_64"
 size = "50508"
 usize = "287743"

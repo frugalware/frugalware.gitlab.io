@@ -2,7 +2,9 @@
 draft = false
 title = "netpanzer 0.8.7-1"
 version = "0.8.7-1"
+date = "2016-05-05T13:14:19"
 categories = ['games-extra']
+upstreamurl = "http://www.netpanzer.info"
 arch = "x86_64"
 size = "18436"
 usize = "66564"

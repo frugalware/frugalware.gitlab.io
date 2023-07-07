@@ -2,7 +2,9 @@
 draft = false
 title = "perl-html-parser 3.81-1"
 version = "3.81-1"
+date = "2023-02-21T14:16:43"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "91508"
 usize = "237569"

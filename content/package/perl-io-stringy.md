@@ -2,7 +2,9 @@
 draft = false
 title = "perl-io-stringy 2.113-2"
 version = "2.113-2"
+date = "2022-12-14T07:46:02"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "51200"
 usize = "121794"

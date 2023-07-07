@@ -2,7 +2,9 @@
 draft = false
 title = "ibus 1.5.28-1"
 version = "1.5.28-1"
+date = "2023-02-21T12:40:37"
 categories = ['xapps']
+upstreamurl = "https://github.com/ibus/ibus"
 arch = "x86_64"
 size = "968296"
 usize = "8672029"

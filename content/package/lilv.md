@@ -2,7 +2,9 @@
 draft = false
 title = "lilv 0.24.20-2"
 version = "0.24.20-2"
+date = "2022-11-03T06:45:05"
 categories = ['lib']
+upstreamurl = "http://drobilla.net/software/lilv"
 arch = "x86_64"
 size = "79156"
 usize = "326216"

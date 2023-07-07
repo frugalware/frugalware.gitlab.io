@@ -2,7 +2,9 @@
 draft = false
 title = "cuetools 1.4.1-3"
 version = "1.4.1-3"
+date = "2019-06-06T23:35:47"
 categories = ['multimedia-extra']
+upstreamurl = "https://github.com/svend/cuetools"
 arch = "x86_64"
 size = "55596"
 usize = "228473"

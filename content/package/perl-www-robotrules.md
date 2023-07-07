@@ -2,7 +2,9 @@
 draft = false
 title = "perl-www-robotrules 6.02-6"
 version = "6.02-6"
+date = "2022-02-21T15:25:58"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "11716"
 usize = "25420"

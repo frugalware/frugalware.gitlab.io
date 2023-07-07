@@ -2,7 +2,9 @@
 draft = false
 title = "normalize 0.7.7-8"
 version = "0.7.7-8"
+date = "2022-01-31T13:09:56"
 categories = ['multimedia']
+upstreamurl = "http://normalize.nongnu.org/"
 arch = "x86_64"
 size = "60132"
 usize = "170824"

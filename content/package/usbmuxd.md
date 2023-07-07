@@ -2,7 +2,9 @@
 draft = false
 title = "usbmuxd 1.1.1-3"
 version = "1.1.1-3"
+date = "2023-04-26T20:56:15"
 categories = ['apps']
+upstreamurl = "http://libimobiledevice.org/"
 arch = "x86_64"
 size = "52960"
 usize = "153405"

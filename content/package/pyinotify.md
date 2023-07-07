@@ -2,7 +2,9 @@
 draft = false
 title = "pyinotify 0.9.6-5"
 version = "0.9.6-5"
+date = "2022-12-12T13:58:57"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/seb-m/pyinotify"
 arch = "x86_64"
 size = "49644"
 usize = "207694"

@@ -2,7 +2,9 @@
 draft = false
 title = "ssmtp 2.64-7"
 version = "2.64-7"
+date = "2023-03-16T03:08:41"
 categories = ['network-extra']
+upstreamurl = "http://packages.debian.org/stable/mail/ssmtp"
 arch = "x86_64"
 size = "27160"
 usize = "66059"

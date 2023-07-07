@@ -2,7 +2,9 @@
 draft = false
 title = "tidy 5.8.0-3"
 version = "5.8.0-3"
+date = "2022-02-02T18:35:30"
 categories = ['apps']
+upstreamurl = "https://github.com/htacg/tidy-html5"
 arch = "x86_64"
 size = "326468"
 usize = "2273106"

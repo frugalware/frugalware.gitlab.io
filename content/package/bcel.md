@@ -2,7 +2,9 @@
 draft = false
 title = "bcel 5.2-6"
 version = "5.2-6"
+date = "2022-02-16T10:04:28"
 categories = ['devel-extra']
+upstreamurl = "http://jakarta.apache.org/bcel/"
 arch = "x86_64"
 size = "516940"
 usize = "631471"

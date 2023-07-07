@@ -2,7 +2,9 @@
 draft = false
 title = "libplist 2.3.0-1"
 version = "2.3.0-1"
+date = "2023-04-26T16:31:08"
 categories = ['lib']
+upstreamurl = "http://libimobiledevice.org/"
 arch = "x86_64"
 size = "83824"
 usize = "300342"

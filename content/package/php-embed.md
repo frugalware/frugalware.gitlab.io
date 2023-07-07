@@ -2,7 +2,9 @@
 draft = false
 title = "php-embed 8.2.7-1"
 version = "8.2.7-1"
+date = "2023-06-18T16:02:31"
 categories = ['devel-extra']
+upstreamurl = "https://www.php.net"
 arch = "x86_64"
 size = "2988300"
 usize = "16001360"

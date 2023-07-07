@@ -2,7 +2,9 @@
 draft = false
 title = "ostree 2023.1-2"
 version = "2023.1-2"
+date = "2023-03-15T23:14:04"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/ostreedev/ostree"
 arch = "x86_64"
 size = "658724"
 usize = "4174652"

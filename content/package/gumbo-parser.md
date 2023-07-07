@@ -2,7 +2,9 @@
 draft = false
 title = "gumbo-parser 0.10.1-1"
 version = "0.10.1-1"
+date = "2023-01-19T15:43:02"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/google/gumbo-parser"
 arch = "x86_64"
 size = "117176"
 usize = "427296"

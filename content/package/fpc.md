@@ -2,7 +2,9 @@
 draft = false
 title = "fpc 3.2.2-3"
 version = "3.2.2-3"
+date = "2022-02-16T10:36:06"
 categories = ['devel-extra']
+upstreamurl = "https://www.freepascal.org"
 arch = "x86_64"
 size = "40540944"
 usize = "360706346"

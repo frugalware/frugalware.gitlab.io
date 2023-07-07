@@ -2,7 +2,9 @@
 draft = false
 title = "pcmciautils 018-8"
 version = "018-8"
+date = "2021-12-12T18:27:51"
 categories = ['base']
+upstreamurl = "https://www.kernel.org/pub/linux/utils/kernel/pcmcia/"
 arch = "x86_64"
 size = "27336"
 usize = "82656"

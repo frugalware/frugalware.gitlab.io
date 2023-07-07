@@ -2,7 +2,9 @@
 draft = false
 title = "sqlcipher 4.5.2-2"
 version = "4.5.2-2"
+date = "2023-03-16T03:06:55"
 categories = ['apps-extra']
+upstreamurl = "https://www.zetetic.net/sqlcipher/"
 arch = "x86_64"
 size = "1181280"
 usize = "3362701"

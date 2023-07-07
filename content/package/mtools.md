@@ -2,7 +2,9 @@
 draft = false
 title = "mtools 4.0.43-1"
 version = "4.0.43-1"
+date = "2023-03-28T08:18:36"
 categories = ['xapps']
+upstreamurl = "https://www.gnu.org/software/mtools/"
 arch = "x86_64"
 size = "214848"
 usize = "433553"

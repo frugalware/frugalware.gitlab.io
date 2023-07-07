@@ -2,7 +2,9 @@
 draft = false
 title = "gcab 1.5-1"
 version = "1.5-1"
+date = "2022-12-20T09:36:58"
 categories = ['xlib']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "82684"
 usize = "451298"

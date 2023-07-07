@@ -2,7 +2,9 @@
 draft = false
 title = "hyphen 2.8.8-8"
 version = "2.8.8-8"
+date = "2022-05-03T11:38:20"
 categories = ['xoffice']
+upstreamurl = "https://sourceforge.net/projects/hunspell"
 arch = "x86_64"
 size = "81752"
 usize = "242309"

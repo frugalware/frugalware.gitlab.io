@@ -2,7 +2,9 @@
 draft = false
 title = "pybind11 2.10.3-1"
 version = "2.10.3-1"
+date = "2023-02-27T15:03:54"
 categories = ['devel-extra']
+upstreamurl = "https://pybind11.readthedocs.org/"
 arch = "x86_64"
 size = "171308"
 usize = "1666140"

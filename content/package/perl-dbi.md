@@ -2,7 +2,9 @@
 draft = false
 title = "perl-dbi 1.643-1"
 version = "1.643-1"
+date = "2022-03-03T14:50:13"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "728180"
 usize = "2070830"

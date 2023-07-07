@@ -2,7 +2,9 @@
 draft = false
 title = "hunspell-be 1.1-3"
 version = "1.1-3"
+date = "2018-02-10T13:50:25"
 categories = ['locale-extra']
+upstreamurl = "http://extensions.services.openoffice.org/project/dict-be-official"
 arch = "x86_64"
 size = "2564264"
 usize = "18341737"

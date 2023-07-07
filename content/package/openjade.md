@@ -2,7 +2,9 @@
 draft = false
 title = "openjade 1.3.2-9"
 version = "1.3.2-9"
+date = "2022-02-02T18:21:50"
 categories = ['apps']
+upstreamurl = "https://sourceforge.net/projects/openjade"
 arch = "x86_64"
 size = "706128"
 usize = "3650264"

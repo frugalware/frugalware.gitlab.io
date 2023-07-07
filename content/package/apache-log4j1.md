@@ -2,7 +2,9 @@
 draft = false
 title = "apache-log4j1 1.2.17-1"
 version = "1.2.17-1"
+date = "2018-02-13T10:43:33"
 categories = ['devel-extra']
+upstreamurl = "http://logging.apache.org/log4j/"
 arch = "x86_64"
 size = "359556"
 usize = "430460"

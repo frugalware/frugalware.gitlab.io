@@ -2,7 +2,9 @@
 draft = false
 title = "artwiz-fonts 1.3-10"
 version = "1.3-10"
+date = "2018-02-10T13:42:04"
 categories = ['fonts-extra']
+upstreamurl = "http://sourceforge.net/projects/artwizaleczapka"
 arch = "x86_64"
 size = "150732"
 usize = "177965"

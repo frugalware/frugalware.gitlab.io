@@ -2,7 +2,9 @@
 draft = false
 title = "libass 0.17.1-1"
 version = "0.17.1-1"
+date = "2023-02-27T08:40:16"
 categories = ['xlib']
+upstreamurl = "https://github.com/libass/libass"
 arch = "x86_64"
 size = "108824"
 usize = "266823"

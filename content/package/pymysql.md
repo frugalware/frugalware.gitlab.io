@@ -2,7 +2,9 @@
 draft = false
 title = "pymysql 1.0.3-1"
 version = "1.0.3-1"
+date = "2023-06-02T07:34:41"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/PyMySQL"
 arch = "x86_64"
 size = "85140"
 usize = "529268"

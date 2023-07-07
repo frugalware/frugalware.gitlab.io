@@ -2,7 +2,9 @@
 draft = false
 title = "hunspell 1.7.2-1"
 version = "1.7.2-1"
+date = "2023-01-08T17:33:09"
 categories = ['apps']
+upstreamurl = "https://github.com/hunspell/hunspell"
 arch = "x86_64"
 size = "337704"
 usize = "1281461"

@@ -2,7 +2,9 @@
 draft = false
 title = "corrosion 0.3.5-1"
 version = "0.3.5-1"
+date = "2023-04-27T08:04:54"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/corrosion-rs/corrosion"
 arch = "x86_64"
 size = "439552"
 usize = "1380327"

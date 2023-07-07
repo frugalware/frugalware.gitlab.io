@@ -2,7 +2,9 @@
 draft = false
 title = "gvim 9.0.0500-1"
 version = "9.0.0500-1"
+date = "2022-09-19T09:15:35"
 categories = ['xapps']
+upstreamurl = "http://www.vim.org"
 arch = "x86_64"
 size = "1978196"
 usize = "4888114"

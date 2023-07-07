@@ -2,7 +2,9 @@
 draft = false
 title = "openbox-frugalware 1.6-5"
 version = "1.6-5"
+date = "2022-05-17T12:15:36"
 categories = ['xlib-extra']
+upstreamurl = "http://frugalware.org/"
 arch = "x86_64"
 size = "9400"
 usize = "24076"

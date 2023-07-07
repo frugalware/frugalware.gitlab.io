@@ -2,7 +2,9 @@
 draft = false
 title = "strace 4.21-2"
 version = "4.21-2"
+date = "2021-12-07T15:18:21"
 categories = ['devel']
+upstreamurl = "https://sourceforge.net/projects/strace"
 arch = "x86_64"
 size = "643224"
 usize = "3204049"

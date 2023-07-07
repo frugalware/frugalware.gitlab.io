@@ -2,7 +2,9 @@
 draft = false
 title = "mjpegtools 2.2.1-3"
 version = "2.2.1-3"
+date = "2022-07-13T17:39:08"
 categories = ['xapps']
+upstreamurl = "http://mjpeg.sourceforge.net/"
 arch = "x86_64"
 size = "724616"
 usize = "2436317"

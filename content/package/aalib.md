@@ -2,7 +2,9 @@
 draft = false
 title = "aalib 1.4rc5-13"
 version = "1.4rc5-13"
+date = "2021-12-24T21:20:19"
 categories = ['lib']
+upstreamurl = "http://aa-project.sourceforge.net/aalib/"
 arch = "x86_64"
 size = "138764"
 usize = "341166"

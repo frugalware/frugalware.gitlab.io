@@ -2,7 +2,9 @@
 draft = false
 title = "python3-sqlobject 3.10.1-1"
 version = "3.10.1-1"
+date = "2023-02-21T11:59:56"
 categories = ['devel-extra']
+upstreamurl = "http://sqlobject.org/"
 arch = "x86_64"
 size = "456792"
 usize = "2147066"

@@ -2,7 +2,9 @@
 draft = false
 title = "libclastfm 0.5-4"
 version = "0.5-4"
+date = "2022-02-08T17:36:37"
 categories = ['lib-extra']
+upstreamurl = "https://sourceforge.net/projects/liblastfm"
 arch = "x86_64"
 size = "38652"
 usize = "126818"

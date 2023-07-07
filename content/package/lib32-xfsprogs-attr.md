@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-xfsprogs-attr 2.5.1-4"
 version = "2.5.1-4"
+date = "2022-06-21T18:54:37"
 categories = ['lib32-extra']
+upstreamurl = "http://oss.sgi.com/projects/xfs/"
 arch = "x86_64"
 size = "27344"
 usize = "92590"

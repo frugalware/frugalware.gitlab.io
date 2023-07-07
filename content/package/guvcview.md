@@ -2,7 +2,9 @@
 draft = false
 title = "guvcview 2.0.6-4"
 version = "2.0.6-4"
+date = "2023-03-01T12:09:21"
 categories = ['xapps-extra']
+upstreamurl = "https://sourceforge.net/projects/guvcview"
 arch = "x86_64"
 size = "295884"
 usize = "1091883"

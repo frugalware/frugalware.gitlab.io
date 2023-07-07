@@ -2,7 +2,9 @@
 draft = false
 title = "libotr 4.1.1-4"
 version = "4.1.1-4"
+date = "2022-01-31T15:41:09"
 categories = ['network']
+upstreamurl = "http://www.cypherpunks.ca/otr/"
 arch = "x86_64"
 size = "99844"
 usize = "385486"

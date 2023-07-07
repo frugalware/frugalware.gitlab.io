@@ -2,7 +2,9 @@
 draft = false
 title = "apr-util 1.6.3-2"
 version = "1.6.3-2"
+date = "2023-03-15T17:38:46"
 categories = ['network']
+upstreamurl = "http://apr.apache.org/"
 arch = "x86_64"
 size = "161944"
 usize = "685754"

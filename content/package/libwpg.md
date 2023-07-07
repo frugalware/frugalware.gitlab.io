@@ -2,7 +2,9 @@
 draft = false
 title = "libwpg 0.3.3-1"
 version = "0.3.3-1"
+date = "2019-01-14T08:27:38"
 categories = ['xoffice']
+upstreamurl = "https://sourceforge.net/projects/libwpg"
 arch = "x86_64"
 size = "83492"
 usize = "315205"

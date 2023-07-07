@@ -2,7 +2,9 @@
 draft = false
 title = "ddclient 3.8.3-3"
 version = "3.8.3-3"
+date = "2019-04-29T22:27:44"
 categories = ['network-extra']
+upstreamurl = "http://ddclient.sourceforge.net"
 arch = "x86_64"
 size = "46824"
 usize = "276361"

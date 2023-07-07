@@ -2,7 +2,9 @@
 draft = false
 title = "tcpreplay 4.4.1-1"
 version = "4.4.1-1"
+date = "2022-05-20T09:21:27"
 categories = ['network-extra']
+upstreamurl = "http://tcpreplay.synfin.net/"
 arch = "x86_64"
 size = "244396"
 usize = "1037856"

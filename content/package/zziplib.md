@@ -2,7 +2,9 @@
 draft = false
 title = "zziplib 0.13.62-6"
 version = "0.13.62-6"
+date = "2022-04-03T22:23:17"
 categories = ['lib-extra']
+upstreamurl = "http://zziplib.sourceforge.net/"
 arch = "x86_64"
 size = "124720"
 usize = "503538"

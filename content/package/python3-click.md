@@ -2,7 +2,9 @@
 draft = false
 title = "python3-click 8.1.3-2"
 version = "8.1.3-2"
+date = "2022-10-31T19:46:55"
 categories = ['devel-extra']
+upstreamurl = "https://click.palletsprojects.com/"
 arch = "x86_64"
 size = "188260"
 usize = "824087"

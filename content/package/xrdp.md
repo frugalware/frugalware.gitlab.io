@@ -2,7 +2,9 @@
 draft = false
 title = "xrdp 0.9.21.1-2"
 version = "0.9.21.1-2"
+date = "2023-03-16T04:15:08"
 categories = ['xapps-extra']
+upstreamurl = "https://github.com/neutrinolabs/xrdp"
 arch = "x86_64"
 size = "2129036"
 usize = "4469685"

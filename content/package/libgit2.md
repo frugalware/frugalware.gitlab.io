@@ -2,7 +2,9 @@
 draft = false
 title = "libgit2 1.6.4-1"
 version = "1.6.4-1"
+date = "2023-04-26T10:25:49"
 categories = ['lib']
+upstreamurl = "http://libgit2.github.com/"
 arch = "x86_64"
 size = "830184"
 usize = "2859580"

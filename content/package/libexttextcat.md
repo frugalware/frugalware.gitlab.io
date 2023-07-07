@@ -2,7 +2,9 @@
 draft = false
 title = "libexttextcat 3.4.6-2"
 version = "3.4.6-2"
+date = "2022-07-17T16:56:26"
 categories = ['xoffice']
+upstreamurl = "http://cgit.freedesktop.org/libreoffice/libexttextcat/"
 arch = "x86_64"
 size = "181844"
 usize = "492130"

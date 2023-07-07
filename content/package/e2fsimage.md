@@ -2,7 +2,9 @@
 draft = false
 title = "e2fsimage 0.2.3-2"
 version = "0.2.3-2"
+date = "2018-02-11T01:49:46"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/Ledest/e2fsimage"
 arch = "x86_64"
 size = "13760"
 usize = "34497"

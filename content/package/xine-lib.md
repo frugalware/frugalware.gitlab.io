@@ -2,7 +2,9 @@
 draft = false
 title = "xine-lib 1.2.13-5"
 version = "1.2.13-5"
+date = "2023-03-16T04:11:21"
 categories = ['xlib']
+upstreamurl = "http://xinehq.de"
 arch = "x86_64"
 size = "2398808"
 usize = "8202556"

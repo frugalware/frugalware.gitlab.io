@@ -2,7 +2,9 @@
 draft = false
 title = "imath 3.1.9-1"
 version = "3.1.9-1"
+date = "2023-06-06T14:45:58"
 categories = ['xlib']
+upstreamurl = "http://www.openexr.com"
 arch = "x86_64"
 size = "106344"
 usize = "893913"

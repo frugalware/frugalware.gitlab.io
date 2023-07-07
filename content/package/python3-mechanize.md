@@ -2,7 +2,9 @@
 draft = false
 title = "python3-mechanize 0.4.8-1"
 version = "0.4.8-1"
+date = "2022-12-05T12:58:51"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/mechanize"
 arch = "x86_64"
 size = "222248"
 usize = "921257"

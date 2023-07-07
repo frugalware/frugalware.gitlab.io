@@ -2,7 +2,9 @@
 draft = false
 title = "perl-file-remove 1.61-1"
 version = "1.61-1"
+date = "2023-02-21T14:14:25"
 categories = ['devel-extra']
+upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "17112"
 usize = "38125"

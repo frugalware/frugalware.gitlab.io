@@ -2,7 +2,9 @@
 draft = false
 title = "foomatic-db-engine 4.0.13-1"
 version = "4.0.13-1"
+date = "2018-03-05T10:09:31"
 categories = ['apps-extra']
+upstreamurl = "http://www.linuxfoundation.org/collaborate/workgroups/openprinting/databasefoomatic"
 arch = "x86_64"
 size = "238340"
 usize = "1071274"

@@ -2,7 +2,9 @@
 draft = false
 title = "vdpauinfo 1.0-3"
 version = "1.0-3"
+date = "2018-02-12T01:33:58"
 categories = ['x11-extra']
+upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "14740"
 usize = "47750"

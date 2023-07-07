@@ -2,7 +2,9 @@
 draft = false
 title = "mod_wsgi 4.9.4-1"
 version = "4.9.4-1"
+date = "2022-12-10T19:12:01"
 categories = ['network-extra']
+upstreamurl = "http://www.modpython.org/"
 arch = "x86_64"
 size = "96588"
 usize = "290595"

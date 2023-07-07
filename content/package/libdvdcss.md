@@ -2,7 +2,9 @@
 draft = false
 title = "libdvdcss 1.4.3-2"
 version = "1.4.3-2"
+date = "2022-01-24T09:24:42"
 categories = ['multimedia']
+upstreamurl = "http://www.videolan.org/libdvdcss/"
 arch = "x86_64"
 size = "59920"
 usize = "188016"

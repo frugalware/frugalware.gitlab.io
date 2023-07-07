@@ -2,7 +2,9 @@
 draft = false
 title = "ccid 1.5.2-1"
 version = "1.5.2-1"
+date = "2023-02-27T18:41:36"
 categories = ['apps-extra']
+upstreamurl = "https://ccid.apdu.fr/"
 arch = "x86_64"
 size = "316528"
 usize = "1730828"

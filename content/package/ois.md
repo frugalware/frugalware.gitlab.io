@@ -2,7 +2,9 @@
 draft = false
 title = "ois 1.3-7"
 version = "1.3-7"
+date = "2022-02-08T18:39:33"
 categories = ['lib-extra']
+upstreamurl = "http://sourceforge.net/projects/wgois"
 arch = "x86_64"
 size = "50568"
 usize = "184033"

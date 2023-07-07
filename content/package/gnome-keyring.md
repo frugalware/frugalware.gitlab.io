@@ -2,7 +2,9 @@
 draft = false
 title = "gnome-keyring 42.1-1"
 version = "42.1-1"
+date = "2023-03-13T10:17:57"
 categories = ['gnome', 'gnome-minimal']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "952324"
 usize = "5110336"

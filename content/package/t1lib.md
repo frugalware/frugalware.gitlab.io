@@ -2,7 +2,9 @@
 draft = false
 title = "t1lib 5.1.2-9"
 version = "5.1.2-9"
+date = "2022-01-14T14:20:12"
 categories = ['xlib']
+upstreamurl = "http://www.ibiblio.org/pub/Linux/libs/graphics/!INDEX.html"
 arch = "x86_64"
 size = "672920"
 usize = "1248358"

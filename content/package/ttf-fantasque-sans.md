@@ -2,7 +2,9 @@
 draft = false
 title = "ttf-fantasque-sans 1.8.0-2"
 version = "1.8.0-2"
+date = "2022-05-17T12:34:21"
 categories = ['xlib-extra']
+upstreamurl = "https://github.com/belluzj/fantasque-sans"
 arch = "x86_64"
 size = "399664"
 usize = "1022523"

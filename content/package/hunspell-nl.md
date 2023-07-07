@@ -2,7 +2,9 @@
 draft = false
 title = "hunspell-nl 2.10-3"
 version = "2.10-3"
+date = "2018-02-10T13:57:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.opentaal.org/english.php"
 arch = "x86_64"
 size = "672576"
 usize = "2455668"

@@ -2,7 +2,9 @@
 draft = false
 title = "nano 7.2-1"
 version = "7.2-1"
+date = "2023-01-19T10:18:49"
 categories = ['base']
+upstreamurl = "http://www.nano-editor.org/"
 arch = "x86_64"
 size = "673156"
 usize = "3115186"

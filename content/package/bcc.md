@@ -2,7 +2,9 @@
 draft = false
 title = "bcc 0.26.0-1"
 version = "0.26.0-1"
+date = "2023-02-27T15:11:50"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/iovisor/bcc"
 arch = "x86_64"
 size = "16979220"
 usize = "58476604"

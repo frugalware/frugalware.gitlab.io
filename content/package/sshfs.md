@@ -2,7 +2,9 @@
 draft = false
 title = "sshfs 3.7.3-1"
 version = "3.7.3-1"
+date = "2023-01-09T13:58:32"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/libfuse/sshfs"
 arch = "x86_64"
 size = "45060"
 usize = "112329"

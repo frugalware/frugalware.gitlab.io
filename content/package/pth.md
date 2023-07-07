@@ -2,7 +2,9 @@
 draft = false
 title = "pth 2.0.7-11"
 version = "2.0.7-11"
+date = "2022-01-08T16:50:07"
 categories = ['lib-extra']
+upstreamurl = "http://www.gnu.org/software/pth"
 arch = "x86_64"
 size = "122972"
 usize = "348312"

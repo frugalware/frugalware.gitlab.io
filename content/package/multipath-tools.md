@@ -2,7 +2,9 @@
 draft = false
 title = "multipath-tools 0.9.5-1"
 version = "0.9.5-1"
+date = "2023-04-07T14:10:50"
 categories = ['base']
+upstreamurl = "http://christophe.varoqui.free.fr"
 arch = "x86_64"
 size = "338004"
 usize = "1226917"

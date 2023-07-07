@@ -2,7 +2,9 @@
 draft = false
 title = "lbzip2 2.5-2"
 version = "2.5-2"
+date = "2018-02-11T14:25:13"
 categories = ['apps-extra']
+upstreamurl = "http://freecode.com/projects/lbzip2"
 arch = "x86_64"
 size = "87292"
 usize = "225938"

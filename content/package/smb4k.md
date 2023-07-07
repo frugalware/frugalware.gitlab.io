@@ -2,7 +2,9 @@
 draft = false
 title = "smb4k 3.2.1-1"
 version = "3.2.1-1"
+date = "2023-05-17T19:18:02"
 categories = ['kde5-extra']
+upstreamurl = "https://sourceforge.net/projects/smb4k"
 arch = "x86_64"
 size = "4628400"
 usize = "11780833"

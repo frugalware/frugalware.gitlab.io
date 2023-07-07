@@ -2,7 +2,9 @@
 draft = false
 title = "audiofile 0.3.6-7"
 version = "0.3.6-7"
+date = "2022-01-26T13:58:26"
 categories = ['multimedia']
+upstreamurl = "http://www.68k.org/~michael/audiofile/"
 arch = "x86_64"
 size = "144060"
 usize = "431692"

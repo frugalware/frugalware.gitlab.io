@@ -2,7 +2,9 @@
 draft = false
 title = "python3-jsonschema 4.17.3-1"
 version = "4.17.3-1"
+date = "2022-12-07T18:26:57"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/jsonschema"
 arch = "x86_64"
 size = "162848"
 usize = "1417929"

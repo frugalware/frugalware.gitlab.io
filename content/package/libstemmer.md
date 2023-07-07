@@ -2,7 +2,9 @@
 draft = false
 title = "libstemmer 2.2.0-1"
 version = "2.2.0-1"
+date = "2022-01-01T17:09:33"
 categories = ['lib']
+upstreamurl = "https://snowballstem.org/"
 arch = "x86_64"
 size = "157976"
 usize = "1175885"

@@ -2,7 +2,9 @@
 draft = false
 title = "libpano13 2.9.21-1"
 version = "2.9.21-1"
+date = "2022-02-15T20:14:35"
 categories = ['lib-extra']
+upstreamurl = "https://sourceforge.net/projects/panotools"
 arch = "x86_64"
 size = "295856"
 usize = "1037038"

@@ -2,7 +2,9 @@
 draft = false
 title = "python3-pyzmq 25.0.1-1"
 version = "25.0.1-1"
+date = "2023-03-14T12:57:21"
 categories = ['devel-extra']
+upstreamurl = "http://www.zeromq.org/bindings:python"
 arch = "x86_64"
 size = "427364"
 usize = "2046261"

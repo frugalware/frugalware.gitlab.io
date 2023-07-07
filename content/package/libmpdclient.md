@@ -2,7 +2,9 @@
 draft = false
 title = "libmpdclient 2.20-1"
 version = "2.20-1"
+date = "2022-02-15T15:06:31"
 categories = ['lib-extra']
+upstreamurl = "http://www.musicpd.org/libs/libmpdclient"
 arch = "x86_64"
 size = "71816"
 usize = "414466"

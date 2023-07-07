@@ -2,7 +2,9 @@
 draft = false
 title = "shaderc 2023.3-1"
 version = "2023.3-1"
+date = "2023-03-28T08:16:11"
 categories = ['apps']
+upstreamurl = "https://github.com/google/shaderc"
 arch = "x86_64"
 size = "91240"
 usize = "348794"

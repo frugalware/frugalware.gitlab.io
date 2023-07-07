@@ -2,7 +2,9 @@
 draft = false
 title = "lib32-libfontenc 1.1.7-1"
 version = "1.1.7-1"
+date = "2022-12-09T14:57:12"
 categories = ['lib32-extra']
+upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "15044"
 usize = "33461"

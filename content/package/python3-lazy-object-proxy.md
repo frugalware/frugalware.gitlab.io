@@ -2,7 +2,9 @@
 draft = false
 title = "python3-lazy-object-proxy 1.9.0-1"
 version = "1.9.0-1"
+date = "2023-02-21T10:14:05"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/lazy-object-proxy"
 arch = "x86_64"
 size = "25496"
 usize = "119137"

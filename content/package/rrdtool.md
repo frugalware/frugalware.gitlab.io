@@ -2,7 +2,9 @@
 draft = false
 title = "rrdtool 1.8.0-1"
 version = "1.8.0-1"
+date = "2022-12-10T21:14:30"
 categories = ['xapps-extra']
+upstreamurl = "http://oss.oetiker.ch/rrdtool"
 arch = "x86_64"
 size = "730804"
 usize = "2651452"

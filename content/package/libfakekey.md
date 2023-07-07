@@ -2,7 +2,9 @@
 draft = false
 title = "libfakekey 0.3-4"
 version = "0.3-4"
+date = "2022-04-20T15:10:47"
 categories = ['xlib-extra']
+upstreamurl = "https://www.yoctoproject.org/"
 arch = "x86_64"
 size = "21660"
 usize = "69979"

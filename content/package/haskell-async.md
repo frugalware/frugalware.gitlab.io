@@ -2,7 +2,9 @@
 draft = false
 title = "haskell-async 2.2.4-6"
 version = "2.2.4-6"
+date = "2023-03-19T19:36:47"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/async"
 arch = "x86_64"
 size = "102096"
 usize = "873737"

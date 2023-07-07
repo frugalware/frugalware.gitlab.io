@@ -2,7 +2,9 @@
 draft = false
 title = "enscript 1.6.6-8"
 version = "1.6.6-8"
+date = "2022-02-02T17:20:19"
 categories = ['apps']
+upstreamurl = "http://www.codento.com/people/mtr/genscript/"
 arch = "x86_64"
 size = "359048"
 usize = "1911701"

@@ -2,7 +2,9 @@
 draft = false
 title = "lcms 1.19-11"
 version = "1.19-11"
+date = "2022-04-03T22:24:59"
 categories = ['lib']
+upstreamurl = "http://www.littlecms.com"
 arch = "x86_64"
 size = "152824"
 usize = "535400"
