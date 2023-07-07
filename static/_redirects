@@ -1,0 +1,15 @@
+/pub http://ftp.frugalware.org/pub
+/rss/packages /package/index.xml
+/rss.php?type=packages /package/index.xml
+/rss/current /package/index.xml
+/rss.php?type=current /package/index.xml
+/rss.php?type=blogs /blogs/index.sml
+/rss/blogs /blogs/index.sml
+/rss.php /index.xml
+/rss.php?type=release /release/index.sml
+/rss/releases /release/index.sml
+/rss.php?type=stable /package/index.xml
+/rss/stable /package/index.xml
+/rss.php?type=news /news/index.xml
+/rss/news /news/index.xml
+/rss  /index.xml
