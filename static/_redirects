@@ -1,4 +1,3 @@
-/pub http://ftp.frugalware.org/pub
 /rss/packages /package/index.xml
 /rss.php?type=packages /package/index.xml
 /rss/current /package/index.xml
