@@ -12,3 +12,4 @@
 /rss.php?type=news /news/index.xml
 /rss/news /news/index.xml
 /rss  /index.xml
+/index.php?id=&lang=* /:splat
