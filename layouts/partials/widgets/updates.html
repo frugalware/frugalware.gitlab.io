@@ -3,7 +3,7 @@
 
 {{- if $recent }}
 <div class="widget-recent widget">
-	<h4 class="widget__title">{{ T "updates_title" }}</h4>
+	<h4 class="widget__title"><a href="/package/index.xml"><img src="/images/icons/rss.png" width="16" alt=""></a>{{ T "updates_title" }}</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
 			{{- range first $recent_num $recent }}
