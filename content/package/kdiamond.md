@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kdiamond 23.04.2-2"
-version = "23.04.2-2"
-date = "2023-06-21T09:56:32"
+title = "kdiamond 23.04.3-1"
+version = "23.04.3-1"
+date = "2023-07-07T21:05:57"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4781244"
-usize = "5175172"
-sha1sum = "beadffd9eaa5fe14aa92d116ca0ba45fbde9d583"
-depends = "['libkdegames>=23.04.2', 'knotifyconfig>=5.107.0', 'qt5-svg>=5.15.10']"
+size = "4781216"
+usize = "5175141"
+sha1sum = "6fce115f10eb979193655c00eb75c526c1ecf602"
+depends = "['libkdegames>=23.04.3', 'knotifyconfig>=5.107.0', 'qt5-svg>=5.15.10']"
 +++
 A single player puzzle game.

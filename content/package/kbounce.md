@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kbounce 23.04.2-2"
-version = "23.04.2-2"
-date = "2023-06-21T09:54:17"
+title = "kbounce 23.04.3-1"
+version = "23.04.3-1"
+date = "2023-07-07T21:03:33"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3022144"
-usize = "6534519"
-sha1sum = "83283e6e180384204758f84d8f2133c0c95deb87"
-depends = "['libkdegames>=23.04.2', 'qt5-svg>=5.15.10']"
+size = "3021436"
+usize = "6534501"
+sha1sum = "62c6c3d27a97f5d4965d527864a845bd24e079ea"
+depends = "['libkdegames>=23.04.3', 'qt5-svg>=5.15.10']"
 +++
 A single player arcade game with the elements of puzzle.

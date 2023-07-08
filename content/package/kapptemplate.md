@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kapptemplate 23.04.2-2"
-version = "23.04.2-2"
-date = "2023-06-21T08:43:25"
+title = "kapptemplate 23.04.3-1"
+version = "23.04.3-1"
+date = "2023-07-07T19:34:25"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "431124"
-usize = "963876"
-sha1sum = "da2b026d13b73e0e1edc135e34ab7bd07f4e379a"
+size = "431256"
+usize = "963907"
+sha1sum = "5792ed1d8b5af1dce389e6242049e68883bdbb55"
 depends = "['kio>=5.107.0', 'qt5-svg>=5.15.10', 'plasma-framework']"
 +++
 KDE Template Generator.

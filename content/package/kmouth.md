@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kmouth 23.04.2-2"
-version = "23.04.2-2"
-date = "2023-06-21T12:22:08"
+title = "kmouth 23.04.3-1"
+version = "23.04.3-1"
+date = "2023-07-08T11:20:15"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1933504"
-usize = "4135215"
-sha1sum = "8f52f585a70568e2535955ec3116aa5477d9c887"
+size = "1933004"
+usize = "4135118"
+sha1sum = "d8ad62317c0047c9208c8abbea85ed0f097598a0"
 depends = "['kio>=5.107.0', 'qt5-speech>=5.15.10', 'pcre2']"
 +++
 Speech Synthesizer Frontend

@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kaddressbook 23.04.2-2"
-version = "23.04.2-2"
-date = "2023-06-21T11:32:49"
+title = "kaddressbook 23.04.3-1"
+version = "23.04.3-1"
+date = "2023-07-08T09:50:05"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3401200"
-usize = "6407567"
-sha1sum = "191f07e8e63ecfc6f3f456f08481ade7c6d414f0"
-depends = "['kontactinterface>=23.04.2', 'mailcommon>=23.04.2']"
+size = "3401148"
+usize = "6416420"
+sha1sum = "ad2e553ba14a3dceedb35973b40ffb82c52f442d"
+depends = "['kontactinterface>=23.04.3', 'mailcommon>=23.04.3']"
 +++
 Contact Manager

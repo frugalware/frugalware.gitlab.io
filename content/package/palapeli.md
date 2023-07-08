@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "palapeli 23.04.2-2"
-version = "23.04.2-2"
-date = "2023-06-21T12:54:50"
+title = "palapeli 23.04.3-1"
+version = "23.04.3-1"
+date = "2023-07-08T11:57:30"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2370596"
-usize = "4550386"
-sha1sum = "a8088685fdb4995c6bdb8f6d9175d1eb5aca60b3"
-depends = "['libkdegames>=23.04.2', 'kdelibs4support>=5.107.0']"
+size = "2371432"
+usize = "4550452"
+sha1sum = "259d3fd20a1c1afab71b19f37289df8130010697"
+depends = "['libkdegames>=23.04.3', 'kdelibs4support>=5.107.0']"
 +++
 Palapeli is a single-player jigsaw puzzle game.

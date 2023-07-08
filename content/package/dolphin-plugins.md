@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "dolphin-plugins 23.04.2-2"
-version = "23.04.2-2"
-date = "2023-06-21T13:06:04"
+title = "dolphin-plugins 23.04.3-1"
+version = "23.04.3-1"
+date = "2023-07-08T12:11:53"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "353080"
-usize = "2374991"
-sha1sum = "212676115253cb322d36f82fd54c6fefa53bcad5"
-depends = "['dolphin>=23.04.2', 'ktexteditor>=5.107.0']"
+size = "352716"
+usize = "2379554"
+sha1sum = "efb01294491089343e02cb310268dc3259ebde2d"
+depends = "['dolphin>=23.04.3', 'ktexteditor>=5.107.0']"
 +++
 Extra Dolphin plugins.

@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "knavalbattle 23.04.2-2"
-version = "23.04.2-2"
-date = "2023-06-21T10:09:50"
+title = "knavalbattle 23.04.3-1"
+version = "23.04.3-1"
+date = "2023-07-07T21:20:43"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1515116"
-usize = "2406395"
-sha1sum = "4d6ead76907127caf436f06542fe2543b07e9b4d"
-depends = "['kdelibs4support>=5.107.0', 'knotifyconfig>=5.107.0', 'libkdegames>=23.04.2']"
+usize = "2406484"
+sha1sum = "d1e525d9c5c4c970a5d7d57b4ee7a8cae1dc7f0f"
+depends = "['kdelibs4support>=5.107.0', 'knotifyconfig>=5.107.0', 'libkdegames>=23.04.3']"
 +++
 A ship sinking game.

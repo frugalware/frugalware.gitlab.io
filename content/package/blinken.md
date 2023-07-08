@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "blinken 23.04.2-2"
-version = "23.04.2-2"
-date = "2023-06-21T08:35:38"
+title = "blinken 23.04.3-1"
+version = "23.04.3-1"
+date = "2023-07-07T19:25:28"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2411728"
-usize = "3295906"
-sha1sum = "f31e808863651d89630dd4bff806396cf7b270ad"
+size = "2411808"
+usize = "3295876"
+sha1sum = "14a69b32163d5079e5c3b95a3ace05b7804d9139"
 depends = "['qt5-gstreamer>=1.2.0', 'kdeclarative>=5.107.0', 'knewstuff>=5.107.0']"
 +++
 Memory Enhancement Game.

@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kmailtransport 23.04.2-4"
-version = "23.04.2-4"
-date = "2023-06-21T11:13:43"
+title = "kmailtransport 23.04.3-1"
+version = "23.04.3-1"
+date = "2023-07-08T09:31:57"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "249732"
-usize = "1290583"
-sha1sum = "15cf8ff0a8fea814333c4217c0498ed798457266"
-depends = "['akonadi-contacts>=23.04.2', 'kcmutils>=5.107.0', 'ksmtp>=23.04.2', 'libkgapi>=23.04.2', 'qtkeychain']"
+size = "249720"
+usize = "1290578"
+sha1sum = "a093bb31f28288985c2bf89032bf1ac950f3c00d"
+depends = "['akonadi-contacts>=23.04.3', 'kcmutils>=5.107.0', 'ksmtp>=23.04.3', 'libkgapi>=23.04.3', 'qtkeychain']"
 +++
 Mail Transport Service

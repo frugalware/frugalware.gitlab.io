@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "flac 1.4.2-1"
-version = "1.4.2-1"
+title = "flac 1.4.3-1"
+version = "1.4.3-1"
+date = "2023-07-08T15:19:50"
 categories = ['multimedia']
+upstreamurl = "https://xiph.org/flac/"
 arch = "x86_64"
-size = "674040"
-usize = "6828439"
-sha1sum = "5df0abe4f1e0e78358448e08e596f96085892ac0"
+size = "678072"
+usize = "6722609"
+sha1sum = "2d1e130d84ce038dc2354277d50076ec03095589"
 depends = "['libogg>=1.3.4', 'libstdc++>=11.2']"
 +++
 Free Lossless Audio Coder
