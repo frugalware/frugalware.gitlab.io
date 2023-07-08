@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-glib2 2.76.3-1"
 version = "2.76.3-1"
-date = "2023-06-02T13:17:12"
 categories = ['lib32-extra']
-upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "1406096"
 usize = "7187074"
