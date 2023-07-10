@@ -2,9 +2,7 @@
 draft = false
 title = "discount 2.2.7c-1"
 version = "2.2.7c-1"
-date = "2023-06-22T10:14:23"
 categories = ['apps-extra']
-upstreamurl = "http://www.pell.portland.or.us/~orc/Code/discount/"
 arch = "x86_64"
 size = "72116"
 usize = "190889"
