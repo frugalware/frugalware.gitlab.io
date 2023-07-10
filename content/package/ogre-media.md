@@ -2,9 +2,7 @@
 draft = false
 title = "ogre-media 13.3.4-1"
 version = "13.3.4-1"
-date = "2022-05-17T13:22:31"
 categories = ['devel-extra']
-upstreamurl = "http://www.ogre3d.org"
 arch = "x86_64"
 size = "119372"
 usize = "303957"
