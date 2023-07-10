@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "groff 1.22.4-4"
-version = "1.22.4-4"
+title = "groff 1.23.0-1"
+version = "1.23.0-1"
+date = "2023-07-10T07:38:12"
 categories = ['base']
+upstreamurl = "http://www.gnu.org/software/groff/groff.html"
 arch = "x86_64"
-size = "2892252"
-usize = "20676222"
-sha1sum = "fb08bcdfc600e02e3095a897d313a92979f50f4f"
+size = "3715284"
+usize = "24283503"
+sha1sum = "18ef27f85c269997ec4df1cf711c55ffff166e5e"
 depends = "['libstdc++>=11.2']"
 +++
 GNU troff text-formatting system

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libmanette 0.2.6-2"
-version = "0.2.6-2"
+title = "libmanette 0.2.6-3"
+version = "0.2.6-3"
+date = "2023-07-10T08:27:57"
 categories = ['xlib-extra']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "41968"
-usize = "287761"
-sha1sum = "69ca7f2202b2626dd2ad34abd89e55f1d4f1463e"
+size = "41568"
+usize = "286822"
+sha1sum = "7ea70efc2de01ea0707ed74cfa55ee9011f3d60f"
 depends = "['libevdev', 'libgudev']"
 +++
 Simple GObject game controller library

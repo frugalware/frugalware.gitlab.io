@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "seahorse 3.38.1-2"
-version = "3.38.1-2"
+title = "seahorse 3.38.1-3"
+version = "3.38.1-3"
+date = "2023-07-10T09:41:58"
 categories = ['gnome-extra']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1395172"
-usize = "8760381"
-sha1sum = "827118817f7d18556f0a96283f792976c67c5722"
-depends = "['gtk+3', 'gcr', 'libsecret', 'libldap>=2.6.2', 'openssh', 'seahorse-sharing>=3.2.1', 'libpwquality']"
+size = "1323904"
+usize = "8411044"
+sha1sum = "900452d47b78c3e87c2165e18c0fe8a7c3971604"
+depends = "['gtk+3', 'gcr-1', 'libsecret', 'libldap>=2.6.2', 'openssh', 'seahorse-sharing>=3.2.1', 'libpwquality']"
 +++
 A GNOME application for managing PGP keys.
