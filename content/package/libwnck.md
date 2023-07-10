@@ -2,9 +2,7 @@
 draft = false
 title = "libwnck 3.36.0-2"
 version = "3.36.0-2"
-date = "2022-05-17T12:13:21"
 categories = ['xlib-extra']
-upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "378012"
 usize = "2628464"

@@ -2,9 +2,7 @@
 draft = false
 title = "libvirt-glib 4.0.0-1"
 version = "4.0.0-1"
-date = "2022-05-03T09:23:00"
 categories = ['xlib-extra']
-upstreamurl = "https://libvirt.org"
 arch = "x86_64"
 size = "245956"
 usize = "2361040"
