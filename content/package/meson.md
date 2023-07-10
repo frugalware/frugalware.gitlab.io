@@ -2,9 +2,7 @@
 draft = false
 title = "meson 1.0.1-1"
 version = "1.0.1-1"
-date = "2023-02-27T13:47:39"
 categories = ['devel-extra']
-upstreamurl = "http://mesonbuild.com/"
 arch = "x86_64"
 size = "1663628"
 usize = "8137189"
