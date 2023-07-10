@@ -2,9 +2,7 @@
 draft = false
 title = "libvirt 9.4.0-1"
 version = "9.4.0-1"
-date = "2023-06-18T18:41:46"
 categories = ['xlib-extra']
-upstreamurl = "http://libvirt.org"
 arch = "x86_64"
 size = "8083032"
 usize = "48232531"
