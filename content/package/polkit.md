@@ -2,9 +2,7 @@
 draft = false
 title = "polkit 121-2"
 version = "121-2"
-date = "2022-08-26T20:24:24"
 categories = ['base']
-upstreamurl = "http://www.freedesktop.org/wiki/Software/polkit"
 arch = "x86_64"
 size = "391096"
 usize = "1943296"
