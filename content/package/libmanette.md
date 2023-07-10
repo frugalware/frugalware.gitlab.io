@@ -2,9 +2,7 @@
 draft = false
 title = "libmanette 0.2.6-2"
 version = "0.2.6-2"
-date = "2022-05-03T12:58:41"
 categories = ['xlib-extra']
-upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "41968"
 usize = "287761"
