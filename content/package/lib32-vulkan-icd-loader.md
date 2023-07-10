@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-vulkan-icd-loader 1.3.250.0-1"
 version = "1.3.250.0-1"
-date = "2023-06-06T20:10:40"
 categories = ['lib32-extra']
-upstreamurl = "https://github.com/KhronosGroup/Vulkan-Loader"
 arch = "x86_64"
 size = "111460"
 usize = "505352"
