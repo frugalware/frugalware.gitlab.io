@@ -2,9 +2,7 @@
 draft = false
 title = "x86_energy_perf_policy 6.4.2-1"
 version = "6.4.2-1"
-date = "2023-07-06T17:31:02"
 categories = ['apps-extra']
-upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
 size = "43960"
 usize = "30716"
