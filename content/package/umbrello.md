@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "umbrello 23.04.3-1"
-version = "23.04.3-1"
-date = "2023-07-08T13:17:15"
+title = "umbrello 23.04.3-2"
+version = "23.04.3-2"
+date = "2023-07-10T21:37:00"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5226408"
-usize = "14846974"
-sha1sum = "7e389c71079ac50b0dd9bef79bed7b74910b5fa3"
+size = "5226824"
+usize = "14847117"
+sha1sum = "68b9196af1ba913c6c2c672b6dd0e68a0556e6d8"
 depends = "['kdelibs4support', 'kdev-php']"
 +++
 UML Modeller.

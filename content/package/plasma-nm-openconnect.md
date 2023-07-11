@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "plasma-nm-openconnect 5.27.6-1"
-version = "5.27.6-1"
-date = "2023-06-21T07:23:46"
+title = "plasma-nm-openconnect 5.27.6-2"
+version = "5.27.6-2"
+date = "2023-07-10T15:23:02"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "86032"
+size = "86224"
 usize = "1138244"
-sha1sum = "4a3f165343ee8a0d4113f2a6773d66d158c9aa57"
+sha1sum = "9facbd316833cee2610bcd245060d3e9a99f412e"
 depends = "['openconnect']"
 +++
 Openconnect Plugin for Plasma network manager

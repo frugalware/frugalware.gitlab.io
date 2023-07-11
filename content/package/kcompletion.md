@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kcompletion 5.107.0-1"
-version = "5.107.0-1"
-date = "2023-06-12T10:47:26"
+title = "kcompletion 5.108.0-1"
+version = "5.108.0-1"
+date = "2023-07-10T11:34:14"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "113892"
+size = "113832"
 usize = "422741"
-sha1sum = "0c6a25d034dfa47fb8289d39eb91b51e4ea54734"
-depends = "['kconfig>=5.107.0', 'kwidgetsaddons>=5.107.0']"
+sha1sum = "03a8e3368b5f8a28106e5e64c3c29a3dd4fc5ca0"
+depends = "['kconfig>=5.108.0', 'kwidgetsaddons>=5.108.0']"
 +++
 Provides widgets with advanced completion support.

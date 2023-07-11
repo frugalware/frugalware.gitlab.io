@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "aura-browser 5.27.6-1"
-version = "5.27.6-1"
-date = "2023-06-21T08:08:33"
+title = "aura-browser 5.27.6-2"
+version = "5.27.6-2"
+date = "2023-07-10T15:46:17"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1891396"
+size = "1888924"
 usize = "3685179"
-sha1sum = "bfe12680858f5d6a0b845de402cae6f473bd71d0"
-depends = "['ki18n>=5.107.0', 'kirigami2>=5.107.0', 'qt5-multimedia>=5.15.10', 'qt5-virtualkeyboard>=5.15.10', 'qt5-webengine>=5.15.10']"
+sha1sum = "1fd8a873e2ff62909194c66bfbebdfd7db1a3b69"
+depends = "['ki18n>=5.108.0', 'kirigami2>=5.108.0', 'qt5-multimedia>=5.15.10', 'qt5-virtualkeyboard>=5.15.10', 'qt5-webengine>=5.15.10']"
 +++
 Browser for a fully immersed Big Screen experience allowing you to navigate the world wide web using just your remote contro

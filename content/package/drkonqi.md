@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "drkonqi 5.27.6-1"
-version = "5.27.6-1"
-date = "2023-06-20T21:14:27"
+title = "drkonqi 5.27.6-2"
+version = "5.27.6-2"
+date = "2023-07-10T14:33:54"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "513424"
+size = "513208"
 usize = "2969992"
-sha1sum = "1075968de8cc0d074d4b0562e866fbba5eccc5a9"
-depends = "['kxmlrpcclient>=5.107.0', 'kidletime>=5.107.0', 'syntax-highlighting>=5.107.0', 'kdeclarative>=5.107.0', 'pcre2', 'kuserfeedback']"
+sha1sum = "9be0be6fc7691661107d1cd705a9fa7b61990e27"
+depends = "['kxmlrpcclient>=5.108.0', 'kidletime>=5.108.0', 'syntax-highlighting>=5.108.0', 'kdeclarative>=5.108.0', 'pcre2', 'kuserfeedback']"
 +++
 The KDE Crash Handler.

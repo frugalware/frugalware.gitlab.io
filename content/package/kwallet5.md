@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kwallet5 5.107.0-1"
-version = "5.107.0-1"
-date = "2023-06-12T11:07:41"
+title = "kwallet5 5.108.0-1"
+version = "5.108.0-1"
+date = "2023-07-10T11:54:09"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "408436"
-usize = "2222022"
-sha1sum = "d03792959a126cf5b59c14000579c2c8d299f2e0"
-depends = "['knotifications>=5.107.0', 'libgpgmepp>=1.10.0', 'qca']"
+size = "408124"
+usize = "2222201"
+sha1sum = "09d58438fa87bbf6337173999a5a90ed536f27ea"
+depends = "['knotifications>=5.108.0', 'libgpgmepp>=1.10.0', 'qca']"
 +++
 Safe desktop-wide storage for passwords.

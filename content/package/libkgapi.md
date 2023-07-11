@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "libkgapi 23.04.3-1"
-version = "23.04.3-1"
-date = "2023-07-07T22:12:20"
+title = "libkgapi 23.04.3-2"
+version = "23.04.3-2"
+date = "2023-07-10T18:28:39"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "497244"
+size = "497256"
 usize = "2967083"
-sha1sum = "25cffc5224149fb6493bf97dd10430ec77fac13c"
-depends = "['kcalendarcore>=5.107.0', 'kcontacts>=5.107.0', 'kwallet5>=5.107.0', 'kio>=5.107.0', 'cyrus-sasl', 'qt5-svg>=5.15.10', 'qt5-webengine>=5.15.10']"
+sha1sum = "74963558763f0fe70b18e165651617d25095f036"
+depends = "['kcalendarcore>=5.108.0', 'kcontacts>=5.108.0', 'kwallet5>=5.108.0', 'kio>=5.108.0', 'cyrus-sasl', 'qt5-svg>=5.15.10', 'qt5-webengine>=5.15.10']"
 +++
 A KDE-based library for accessing various Google services via their public API.

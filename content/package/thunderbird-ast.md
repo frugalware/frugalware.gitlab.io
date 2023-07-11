@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-ast 102.12.0-1"
-version = "102.12.0-1"
+title = "thunderbird-ast 102.13.0-1"
+version = "102.13.0-1"
+date = "2023-07-10T21:42:22"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "498808"
-usize = "572287"
-sha1sum = "138f5aef2a0ea2dc40cbe45303a16d6a0a5ce248"
-depends = "['thunderbird>=102.12.0']"
+size = "498852"
+usize = "572288"
+sha1sum = "fdf0d17f7337223099b71c2df07d515baa7ef093"
+depends = "['thunderbird>=102.13.0']"
 +++
 Asturian language support for Thunderbird

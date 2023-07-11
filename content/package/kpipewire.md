@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kpipewire 5.27.6-1"
-version = "5.27.6-1"
-date = "2023-06-21T07:28:39"
+title = "kpipewire 5.27.6-2"
+version = "5.27.6-2"
+date = "2023-07-10T15:27:19"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "77152"
+size = "77276"
 usize = "307221"
-sha1sum = "fed854567941f4922c76101f2b1ded0db84afdc1"
-depends = "['ffmpeg>=6.0', 'kcoreaddons>=5.107.0', 'ki18n>=5.107.0', 'kwayland>=5.107.0', 'libepoxy', 'pipewire']"
+sha1sum = "7b18ad9e17e4b32aac1ac675210db738e720664c"
+depends = "['ffmpeg>=6.0', 'kcoreaddons>=5.108.0', 'ki18n>=5.108.0', 'kwayland>=5.108.0', 'libepoxy', 'pipewire']"
 +++
 Components relating to pipewire use in Plasma

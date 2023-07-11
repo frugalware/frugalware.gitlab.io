@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kturtle 23.04.3-1"
-version = "23.04.3-1"
-date = "2023-07-08T11:23:51"
+title = "kturtle 23.04.3-2"
+version = "23.04.3-2"
+date = "2023-07-10T19:55:57"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2008560"
-usize = "5393356"
-sha1sum = "9a3042e6b3dd2c2ebb93b72a8df916a64ee3df8f"
-depends = "['kio>=5.107.0', 'knewstuff>=5.107.0']"
+size = "2008312"
+usize = "5393348"
+sha1sum = "adacb034e9b7bcc3997488e404ab466d5946542b"
+depends = "['kio>=5.108.0', 'knewstuff>=5.108.0']"
 +++
 Educational Programming Environment.

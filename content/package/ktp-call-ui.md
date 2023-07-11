@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "ktp-call-ui 23.04.3-1"
-version = "23.04.3-1"
-date = "2023-07-07T22:00:30"
+title = "ktp-call-ui 23.04.3-2"
+version = "23.04.3-2"
+date = "2023-07-10T18:18:23"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "183736"
+size = "183716"
 usize = "779060"
-sha1sum = "ad3371159136f262bcd0d04b127aed5a5673c5e5"
-depends = "['kconfig>=5.107.0', 'kdeclarative>=5.107.0', 'kiconthemes>=5.107.0', 'ki18n>=5.107.0', 'knotifications>=5.107.0', 'kxmlgui>=5.107.0', 'kcmutils>=5.107.0', 'ktp-common-internals>=23.04.3', 'qt5-gstreamer>=1.2.0']"
+sha1sum = "71927e874ad0dcb7fcf11518e1491d0fd8d08faa"
+depends = "['kconfig>=5.108.0', 'kdeclarative>=5.108.0', 'kiconthemes>=5.108.0', 'ki18n>=5.108.0', 'knotifications>=5.108.0', 'kxmlgui>=5.108.0', 'kcmutils>=5.108.0', 'ktp-common-internals>=23.04.3', 'qt5-gstreamer>=1.2.0']"
 +++
 Voice/Video Call UI for Telepathy.

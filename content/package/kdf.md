@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kdf 23.04.3-1"
-version = "23.04.3-1"
-date = "2023-07-07T19:44:54"
+title = "kdf 23.04.3-2"
+version = "23.04.3-2"
+date = "2023-07-10T16:24:50"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "616660"
-usize = "1352603"
-sha1sum = "a9401e4db67c2d3d0a45ec370af49bcc44c5ea3a"
-depends = "['kio>=5.107.0', 'kcmutils>=5.107.0']"
+size = "616780"
+usize = "1352652"
+sha1sum = "22ad5ac571a2ca2491303a458cbb1d5a3f401dee"
+depends = "['kio>=5.108.0', 'kcmutils>=5.108.0']"
 +++
 KDiskFree displays the available file devices

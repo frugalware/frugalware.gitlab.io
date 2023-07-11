@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "khotkeys5 5.27.6-1"
-version = "5.27.6-1"
-date = "2023-06-20T21:57:22"
+title = "khotkeys5 5.27.6-2"
+version = "5.27.6-2"
+date = "2023-07-10T15:12:07"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2005664"
-usize = "4219332"
-sha1sum = "35e762a5a01329e39f28c067c7986da40841315a"
-depends = "['plasma-workspace>=5.27.6', 'plasma-framework>=5.107.0', 'kcmutils>=5.107.0']"
+size = "2006404"
+usize = "4219338"
+sha1sum = "6c7707d54cfe80955f2e862591f8ee3a284724ef"
+depends = "['plasma-workspace>=5.27.6', 'plasma-framework>=5.108.0', 'kcmutils>=5.108.0']"
 +++
 KDE's hotkey daemon.

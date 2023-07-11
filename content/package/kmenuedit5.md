@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kmenuedit5 5.27.6-1"
-version = "5.27.6-1"
-date = "2023-06-20T22:01:35"
+title = "kmenuedit5 5.27.6-2"
+version = "5.27.6-2"
+date = "2023-07-10T15:16:01"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1083248"
-usize = "2048459"
-sha1sum = "709bf21f780423c7e93b4c26c1e42879ad922af6"
-depends = "['khotkeys5>=5.27.6', 'kdelibs4support>=5.107.0']"
+size = "1083220"
+usize = "2048490"
+sha1sum = "25bfed0f6b16be06c2ada213fd45bed429dcb91b"
+depends = "['khotkeys5>=5.27.6', 'kdelibs4support>=5.108.0']"
 +++
 KDE menu editor.

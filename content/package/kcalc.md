@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kcalc 23.04.3-1"
-version = "23.04.3-1"
-date = "2023-07-07T19:36:46"
+title = "kcalc 23.04.3-2"
+version = "23.04.3-2"
+date = "2023-07-10T16:17:52"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "618724"
-usize = "2770195"
-sha1sum = "26fb5d7bc444fbb0d9cbb4fd89487ee5edb0dfa5"
-depends = "['kinit>=5.107.0']"
+size = "622408"
+usize = "2770186"
+sha1sum = "9f2b3b2cce077dc2b093fb8c4ca16386a53e842c"
+depends = "['kinit>=5.108.0']"
 +++
 A scientific calculator.

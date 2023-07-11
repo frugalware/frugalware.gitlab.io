@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kfourinline 23.04.3-1"
-version = "23.04.3-1"
-date = "2023-07-07T21:07:18"
+title = "kfourinline 23.04.3-2"
+version = "23.04.3-2"
+date = "2023-07-10T17:29:14"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "810656"
-usize = "6241077"
-sha1sum = "b0eaeb75da8c60317c0179e214cf25b97db59c5e"
-depends = "['libkdegames>=23.04.3', 'qt5-svg>=5.15.10', 'kdelibs4support>=5.107.0', 'knotifyconfig>=5.107.0']"
+size = "811156"
+usize = "6241092"
+sha1sum = "6f554a3142cad1434890a1c8a632467e5c015ca5"
+depends = "['libkdegames>=23.04.3', 'qt5-svg>=5.15.10', 'kdelibs4support>=5.108.0', 'knotifyconfig>=5.108.0']"
 +++
 A four-in-a-row game.

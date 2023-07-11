@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-es-ar 102.12.0-1"
-version = "102.12.0-1"
+title = "thunderbird-es-ar 102.13.0-1"
+version = "102.13.0-1"
+date = "2023-07-10T21:42:22"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "653012"
-usize = "717275"
-sha1sum = "3e086abb9631c3e490af968a09d55a9a1a719d01"
-depends = "['thunderbird>=102.12.0']"
+size = "653064"
+usize = "717276"
+sha1sum = "bc3218897e7abfc0c0231d26ca6a575db5089560"
+depends = "['thunderbird>=102.13.0']"
 +++
 Argentine Spanish language support for Thunderbird

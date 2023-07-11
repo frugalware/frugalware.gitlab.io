@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-af 102.12.0-1"
-version = "102.12.0-1"
+title = "thunderbird-af 102.13.0-1"
+version = "102.13.0-1"
+date = "2023-07-10T21:42:22"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "484816"
-usize = "556869"
-sha1sum = "d4a6b5bec39a408d93e03b2ac0378f7ebe711129"
-depends = "['thunderbird>=102.12.0']"
+size = "484824"
+usize = "556871"
+sha1sum = "bfc370c20ff1d199f4c615c94aee35fdde7b8ff8"
+depends = "['thunderbird>=102.13.0']"
 +++
 Afrikaans language support for Thunderbird

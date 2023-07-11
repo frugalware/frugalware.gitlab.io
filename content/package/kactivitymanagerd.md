@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kactivitymanagerd 5.27.6-1"
-version = "5.27.6-1"
-date = "2023-06-20T21:15:54"
+title = "kactivitymanagerd 5.27.6-2"
+version = "5.27.6-2"
+date = "2023-07-10T14:35:18"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "165324"
+size = "165456"
 usize = "725782"
-sha1sum = "7e395390bc3232195e4a45a54b232ffbc50873d1"
-depends = "['kio>=5.107.0']"
+sha1sum = "e12f4e6d4b75d3e689b08f853c7cbe2fe7966f2b"
+depends = "['kio>=5.108.0']"
 +++
 System service to manage user's activities, track the usage patterns etc.

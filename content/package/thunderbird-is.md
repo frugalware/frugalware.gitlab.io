@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-is 102.12.0-1"
-version = "102.12.0-1"
+title = "thunderbird-is 102.13.0-1"
+version = "102.13.0-1"
+date = "2023-07-10T21:42:22"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "646668"
-usize = "706391"
-sha1sum = "fec10fe9e7b9c42d9f2c3d3e16d1b72fe496bf5e"
-depends = "['thunderbird>=102.12.0']"
+size = "646700"
+usize = "706393"
+sha1sum = "8e5c440a518756f550eca8956db3b537f8e23587"
+depends = "['thunderbird>=102.13.0']"
 +++
 Icelandic language support for Thunderbird

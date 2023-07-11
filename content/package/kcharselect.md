@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kcharselect 23.04.3-1"
-version = "23.04.3-1"
-date = "2023-07-07T19:37:45"
+title = "kcharselect 23.04.3-2"
+version = "23.04.3-2"
+date = "2023-07-10T16:18:41"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "423676"
-usize = "778584"
-sha1sum = "2d0b7fd1beadef9acfa5c54069bb34b04606de9c"
-depends = "['kxmlgui>=5.107.0', 'kbookmarks>=5.107.0']"
+size = "423764"
+usize = "778578"
+sha1sum = "1a18d83af0505ff4ab477a681628b86f321482dc"
+depends = "['kxmlgui>=5.108.0', 'kbookmarks>=5.108.0']"
 +++
 Character selector.

@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kmines 23.04.3-1"
-version = "23.04.3-1"
-date = "2023-07-07T21:19:27"
+title = "kmines 23.04.3-2"
+version = "23.04.3-2"
+date = "2023-07-10T17:42:34"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1036856"
-usize = "1529111"
-sha1sum = "7b7cdd0b5bcaf2e3cdc90167397d8d760ae6a172"
-depends = "['kdelibs4support>=5.107.0', 'knotifyconfig>=5.107.0', 'libkdegames>=23.04.3']"
+size = "1036952"
+usize = "1529193"
+sha1sum = "1b4d2640bb284b9902f3f03ce74613d481645875"
+depends = "['kdelibs4support>=5.108.0', 'knotifyconfig>=5.108.0', 'libkdegames>=23.04.3']"
 +++
 The classic Minesweeper game.

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "vulkan-lunarg-tools 1.3.250.0-1"
-version = "1.3.250.0-1"
+title = "vulkan-lunarg-tools 1.3.250.1-1"
+version = "1.3.250.1-1"
+date = "2023-07-10T14:44:16"
 categories = ['apps-extra']
+upstreamurl = "http://lunarg.com/"
 arch = "x86_64"
-size = "2924484"
+size = "2921044"
 usize = "19947191"
-sha1sum = "bbc8c78609f56487bfcb54a8a9f5a61817824e40"
+sha1sum = "0f45c58bb596040d306e77e388a4d21c682acf09"
 depends = "['qt5-svg>=5.15.10', 'vulkan-icd-loader', 'pcre2']"
 +++
 Vulkan Header files and API registry

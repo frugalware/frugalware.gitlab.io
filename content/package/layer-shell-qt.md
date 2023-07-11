@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "layer-shell-qt 5.27.6-1"
-version = "5.27.6-1"
-date = "2023-06-20T21:18:27"
+title = "layer-shell-qt 5.27.6-2"
+version = "5.27.6-2"
+date = "2023-07-10T14:38:01"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "18940"
+size = "18976"
 usize = "79906"
-sha1sum = "c75d1aeebaf762576219f02abf9053ad63faad37"
+sha1sum = "654afbab858e0051a65472dc04ad6af5e507a8df"
 depends = "['qt5-wayland>=5.15.10']"
 +++
 Qt component to allow applications to make use of the Wayland wl-layer-shell protocol

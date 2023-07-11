@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "systemd-nspawn 253.5-1"
-version = "253.5-1"
+title = "systemd-nspawn 253.6-1"
+version = "253.6-1"
+date = "2023-07-11T11:50:30"
 categories = ['base-extra']
+upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
-size = "180692"
+size = "180668"
 usize = "402753"
-sha1sum = "a9cd52693047a3606a9e3084ea067ab5a6675f92"
-depends = "['libseccomp', 'cryptsetup-luks', 'kmod', 'libidn2', 'libsystemd>=253.5']"
+sha1sum = "4a66c852eeea60e7430fdf67b851cb6b9ace0f26"
+depends = "['libseccomp', 'cryptsetup-luks', 'kmod', 'libidn2', 'libsystemd>=253.6']"
 +++
 Spawn a command or OS in a light-weight container.
