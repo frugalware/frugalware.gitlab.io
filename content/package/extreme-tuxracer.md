@@ -2,9 +2,7 @@
 draft = false
 title = "extreme-tuxracer 0.8.2-1"
 version = "0.8.2-1"
-date = "2022-09-13T13:56:07"
 categories = ['games-extra']
-upstreamurl = "http://www.extremetuxracer.com"
 arch = "x86_64"
 size = "40797344"
 usize = "44071170"
