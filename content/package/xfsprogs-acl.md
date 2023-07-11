@@ -2,9 +2,7 @@
 draft = false
 title = "xfsprogs-acl 2.3.1-4"
 version = "2.3.1-4"
-date = "2022-06-21T18:57:35"
 categories = ['base', 'core']
-upstreamurl = "http://oss.sgi.com/projects/xfs/"
 arch = "x86_64"
 size = "131468"
 usize = "331444"

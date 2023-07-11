@@ -2,9 +2,7 @@
 draft = false
 title = "bcmwl 6.30.223.271-559"
 version = "6.30.223.271-559"
-date = "2023-07-06T19:00:08"
 categories = ['network-extra']
-upstreamurl = "https://www.broadcom.com/support/802.11"
 arch = "x86_64"
 size = "1694484"
 usize = "1677065"
