@@ -2,9 +2,7 @@
 draft = false
 title = "obs-studio 29.1.2-1"
 version = "29.1.2-1"
-date = "2023-06-15T12:38:45"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/obsproject/obs-studio"
 arch = "x86_64"
 size = "84544836"
 usize = "289934258"
