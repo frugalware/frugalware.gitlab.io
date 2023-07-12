@@ -2,9 +2,7 @@
 draft = false
 title = "openrgb 0.8-3"
 version = "0.8-3"
-date = "2023-06-15T12:51:41"
 categories = ['xapps-extra']
-upstreamurl = "https://gitlab.com/CalcProgrammer1/OpenRGB"
 arch = "x86_64"
 size = "1412184"
 usize = "5121644"
