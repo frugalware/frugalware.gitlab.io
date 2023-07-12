@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-ffmpeg 6.0-4"
 version = "6.0-4"
-date = "2023-06-11T13:17:47"
 categories = ['lib32-extra']
-upstreamurl = "http://ffmpeg.sourceforge.net/"
 arch = "x86_64"
 size = "8065836"
 usize = "23786480"

@@ -2,9 +2,7 @@
 draft = false
 title = "ffmpeg4.4 4.4.4-2"
 version = "4.4.4-2"
-date = "2023-06-11T15:22:19"
 categories = ['xmultimedia-extra']
-upstreamurl = "https://www.ffmpeg.org"
 arch = "x86_64"
 size = "8134900"
 usize = "24660380"
