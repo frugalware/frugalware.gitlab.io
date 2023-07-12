@@ -2,9 +2,7 @@
 draft = false
 title = "qpdf 11.4.0-1"
 version = "11.4.0-1"
-date = "2023-06-20T13:13:34"
 categories = ['apps']
-upstreamurl = "https://sourceforge.net/projects/qpdf"
 arch = "x86_64"
 size = "928820"
 usize = "3436164"
