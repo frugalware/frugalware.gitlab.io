@@ -2,9 +2,7 @@
 draft = false
 title = "scribus 1.5.8-14"
 version = "1.5.8-14"
-date = "2023-07-12T14:47:32"
 categories = ['xapps-extra']
-upstreamurl = "http://www.scribus.net"
 arch = "x86_64"
 size = "74361904"
 usize = "136176550"
