@@ -2,9 +2,7 @@
 draft = false
 title = "meshroom 2023.1.0-2"
 version = "2023.1.0-2"
-date = "2023-06-15T10:01:01"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/alicevision/meshroom"
 arch = "x86_64"
 size = "9320320"
 usize = "35258644"
