@@ -2,9 +2,7 @@
 draft = false
 title = "mplayer 1.5-3"
 version = "1.5-3"
-date = "2023-02-14T10:07:46"
 categories = ['xmultimedia']
-upstreamurl = "http://www.mplayerhq.hu/"
 arch = "x86_64"
 size = "11099196"
 usize = "43133349"

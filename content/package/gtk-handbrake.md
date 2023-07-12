@@ -2,9 +2,7 @@
 draft = false
 title = "gtk-handbrake 1.6.1-1"
 version = "1.6.1-1"
-date = "2023-03-02T14:45:03"
 categories = ['xapps-extra']
-upstreamurl = "https://handbrake.fr"
 arch = "x86_64"
 size = "3398400"
 usize = "14987376"
