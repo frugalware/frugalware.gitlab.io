@@ -2,9 +2,7 @@
 draft = false
 title = "php-cgi 8.2.7-1"
 version = "8.2.7-1"
-date = "2023-06-18T16:02:31"
 categories = ['devel-extra']
-upstreamurl = "https://www.php.net"
 arch = "x86_64"
 size = "3019752"
 usize = "18893533"

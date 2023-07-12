@@ -2,9 +2,7 @@
 draft = false
 title = "php 8.2.7-1"
 version = "8.2.7-1"
-date = "2023-06-18T16:02:31"
 categories = ['devel']
-upstreamurl = "https://www.php.net"
 arch = "x86_64"
 size = "7654064"
 usize = "45485676"
