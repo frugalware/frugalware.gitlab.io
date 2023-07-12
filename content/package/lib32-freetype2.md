@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-freetype2 2.13.0-1"
 version = "2.13.0-1"
-date = "2023-02-10T16:40:25"
 categories = ['lib32-extra']
-upstreamurl = "https://sourceforge.net/projects/freetype"
 arch = "x86_64"
 size = "508324"
 usize = "1758705"
