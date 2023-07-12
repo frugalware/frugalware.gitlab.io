@@ -2,9 +2,7 @@
 draft = false
 title = "libreoffice 7.5.4.2-2"
 version = "7.5.4.2-2"
-date = "2023-06-13T13:58:57"
 categories = ['xoffice']
-upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
 size = "167991268"
 usize = "568316421"
