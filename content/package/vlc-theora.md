@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "vlc-theora 3.0.18-9"
-version = "3.0.18-9"
+title = "vlc-theora 3.0.18-10"
+version = "3.0.18-10"
+date = "2023-07-12T07:14:42"
 categories = ['xmultimedia-extra', 'vlc-codecs']
+upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "20800"
+size = "20892"
 usize = "22296"
-sha1sum = "b37559b6bd0c97a16e4810a15db7f0f126dba2bb"
+sha1sum = "ddbf3cf36675cd8e1608b22ed851cf351c26bc70"
 depends = "['libtheora', 'libvlc>=3.0.18']"
 +++
 vlc theora support

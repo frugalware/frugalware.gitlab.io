@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-fy-nl 114.0.2-1"
-version = "114.0.2-1"
+title = "firefox-fy-nl 115.0.2-1"
+version = "115.0.2-1"
+date = "2023-07-11T15:04:49"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "531140"
-usize = "593885"
-sha1sum = "da3c9fa0a9f8489629a405b5ffaaeefd852bc706"
-depends = "['firefox>=114.0.2']"
+size = "534668"
+usize = "598092"
+sha1sum = "876f3e7601dce8a68edcbd08ff139f1ab8e4b26f"
+depends = "['firefox>=115.0.2']"
 +++
 Western Frisian language support for Firefox

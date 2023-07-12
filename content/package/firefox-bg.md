@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-bg 114.0.2-1"
-version = "114.0.2-1"
+title = "firefox-bg 115.0.2-1"
+version = "115.0.2-1"
+date = "2023-07-11T15:04:49"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "536436"
-usize = "600486"
-sha1sum = "0c6b3f6b808b3e87b9677955b4815c7efe726de3"
-depends = "['firefox>=114.0.2']"
+size = "535044"
+usize = "600445"
+sha1sum = "62241ac4d03270190e14d777b18b55f7276df27d"
+depends = "['firefox>=115.0.2']"
 +++
 Bulgarian language support for Firefox

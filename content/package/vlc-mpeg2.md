@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "vlc-mpeg2 3.0.18-9"
-version = "3.0.18-9"
+title = "vlc-mpeg2 3.0.18-10"
+version = "3.0.18-10"
+date = "2023-07-12T07:14:42"
 categories = ['xmultimedia-extra', 'vlc-codecs']
+upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "22352"
+size = "22448"
 usize = "26312"
-sha1sum = "8d04c3d754dd4cf06bf38c2b13bad7d38d43812f"
+sha1sum = "e72baf612e5bc4e4160af0f8f0b60b12e4fa7123"
 depends = "['mpeg2dec', 'libvlc>=3.0.18']"
 +++
 vlc MPEG-1 and MPEG2 support

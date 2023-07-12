@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "vlc-samplerate 3.0.18-9"
-version = "3.0.18-9"
+title = "vlc-samplerate 3.0.18-10"
+version = "3.0.18-10"
+date = "2023-07-12T07:14:42"
 categories = ['xmultimedia-extra', 'vlc-codecs']
+upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "14988"
+size = "15084"
 usize = "14104"
-sha1sum = "bc6cc3a5d1054d77a6eb22d4e09365aca4e012b7"
+sha1sum = "455c9a0c95eba0a569180ee340be8ec45c8ab499"
 depends = "['libsamplerate', 'libvlc>=3.0.18']"
 +++
 vlc plugin for samplerate

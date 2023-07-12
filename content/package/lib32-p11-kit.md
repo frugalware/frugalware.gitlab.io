@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "lib32-p11-kit 0.24.1-1"
-version = "0.24.1-1"
+title = "lib32-p11-kit 0.25.0-1"
+version = "0.25.0-1"
+date = "2023-07-12T09:22:56"
 categories = ['lib32-extra']
+upstreamurl = "http://p11-glue.freedesktop.org/p11-kit.html"
 arch = "x86_64"
-size = "604932"
-usize = "3554862"
-sha1sum = "c174e592b4a862f63d6542002d6f5051f7b85df8"
-depends = "['lib32-libtasn1', 'lib32-libffi']"
+size = "659484"
+usize = "4878310"
+sha1sum = "ccd56a6e414f0b63c3ef03137742cd91b812a1d8"
+depends = "['lib32-libtasn1', 'lib32-libffi', 'lib32-libsystemd']"
 +++
 Provides a way to load and enumerate PKCS#11 modules. ( 32bit )

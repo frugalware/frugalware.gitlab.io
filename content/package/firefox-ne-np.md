@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-ne-np 114.0.2-1"
-version = "114.0.2-1"
+title = "firefox-ne-np 115.0.2-1"
+version = "115.0.2-1"
+date = "2023-07-11T15:04:49"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "434604"
-usize = "498505"
-sha1sum = "03bb7f750257e0fe7afbf01d0025be21e8cf7d8f"
-depends = "['firefox>=114.0.2']"
+size = "431404"
+usize = "496638"
+sha1sum = "15ead7585b664cb1e403bef0541aab6673df5121"
+depends = "['firefox>=115.0.2']"
 +++
 Nepali language support for Firefox

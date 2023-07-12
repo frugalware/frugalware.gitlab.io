@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-az 114.0.2-1"
-version = "114.0.2-1"
+title = "firefox-az 115.0.2-1"
+version = "115.0.2-1"
+date = "2023-07-11T15:04:49"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "438176"
-usize = "502907"
-sha1sum = "95572e5e0b5a050dd7c127aa0a6806b2c41c2160"
-depends = "['firefox>=114.0.2']"
+size = "434628"
+usize = "501990"
+sha1sum = "860e59731648910cc33b7471ea63876993467c28"
+depends = "['firefox>=115.0.2']"
 +++
 Azerbaijani language support for Firefox

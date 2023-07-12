@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "vlc-x265 3.0.18-9"
-version = "3.0.18-9"
+title = "vlc-x265 3.0.18-10"
+version = "3.0.18-10"
+date = "2023-07-12T07:14:42"
 categories = ['xmultimedia-extra', 'vlc-codecs']
+upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "15796"
+size = "15896"
 usize = "14024"
-sha1sum = "5075a81614664130b988d32ac847122d3326860a"
+sha1sum = "9638402a03a31136b9706c68f55a3f52b10fbde2"
 depends = "['x265>=3.5', 'libvlc>=3.0.18']"
 +++
 vlc x265 support

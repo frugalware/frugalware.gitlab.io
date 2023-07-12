@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-cy 114.0.2-1"
-version = "114.0.2-1"
+title = "firefox-cy 115.0.2-1"
+version = "115.0.2-1"
+date = "2023-07-11T15:04:49"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "533932"
-usize = "593767"
-sha1sum = "6d2542ca2d027c8479e02db9e87be451b85b6fe0"
-depends = "['firefox>=114.0.2']"
+size = "537336"
+usize = "598167"
+sha1sum = "7cb568cee2d17d0898947fa0ddc04cb3c3dacf07"
+depends = "['firefox>=115.0.2']"
 +++
 Welsh language support for Firefox

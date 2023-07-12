@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "php-cgi 8.2.7-1"
-version = "8.2.7-1"
+title = "php-cgi 8.2.8-1"
+version = "8.2.8-1"
+date = "2023-07-12T07:26:57"
 categories = ['devel-extra']
+upstreamurl = "https://www.php.net"
 arch = "x86_64"
-size = "3019752"
+size = "3021652"
 usize = "18893533"
-sha1sum = "b337987ab20fb9b00b12ceaa3d453c828e3474be"
-depends = "['php=8.2.7']"
+sha1sum = "e1742b94b13fdbbb31cf6097d6618a9e45f001e0"
+depends = "['php=8.2.8']"
 +++
 CGI binary for php and its libs.

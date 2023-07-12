@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-he 114.0.2-1"
-version = "114.0.2-1"
+title = "firefox-he 115.0.2-1"
+version = "115.0.2-1"
+date = "2023-07-11T15:04:49"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "542920"
-usize = "602833"
-sha1sum = "3f9a7baf3a265a255b049933fbb4e87020b61494"
-depends = "['firefox>=114.0.2']"
+size = "547116"
+usize = "608008"
+sha1sum = "3156bfc4508a0b65afeb9c1d5e1c902e5782f32a"
+depends = "['firefox>=115.0.2']"
 +++
 Hebrew language support for Firefox
