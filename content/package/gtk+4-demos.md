@@ -2,9 +2,7 @@
 draft = false
 title = "gtk+4-demos 4.11.3-1"
 version = "4.11.3-1"
-date = "2023-06-18T15:35:40"
 categories = ['xapps-extra']
-upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
 size = "3247216"
 usize = "12896440"
