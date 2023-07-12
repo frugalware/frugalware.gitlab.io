@@ -2,9 +2,7 @@
 draft = false
 title = "libqgpgme 1.20.0-1"
 version = "1.20.0-1"
-date = "2023-06-13T11:46:57"
 categories = ['xlib']
-upstreamurl = "http://www.gnupg.org/related_software/gpgme/"
 arch = "x86_64"
 size = "215528"
 usize = "1021926"
