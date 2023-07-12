@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libnftnl 1.2.5-1"
-version = "1.2.5-1"
+title = "libnftnl 1.2.6-1"
+version = "1.2.6-1"
+date = "2023-07-12T20:02:48"
 categories = ['base']
+upstreamurl = "http://netfilter.org/projects/libnftnl/index.html"
 arch = "x86_64"
-size = "69432"
-usize = "272373"
-sha1sum = "bcbca633a31395695a7af3b750171f42cda8efb8"
+size = "69552"
+usize = "271905"
+sha1sum = "011f4a6eacaad1c3e5b7dae5823d3b8346fc6e82"
 depends = "['glibc>=2.35', 'libmnl>=1.0.4-5']"
 +++
 A low-level netlink programming interface.

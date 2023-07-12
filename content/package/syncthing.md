@@ -1,12 +1,15 @@
 +++
 draft = false
-title = "syncthing 1.23.5-1"
-version = "1.23.5-1"
+title = "syncthing 1.23.6-1"
+version = "1.23.6-1"
+date = "2023-07-12T20:01:09"
 categories = ['network-extra']
+upstreamurl = "http://syncthing.net/"
 arch = "x86_64"
-size = "7667820"
-usize = "22267408"
-sha1sum = "d88eb9efc159ddc1cbd06a9f0409dfe9be4a7945"
+size = "7673612"
+usize = "22296344"
+sha1sum = "761824444648ccb9518545d99ebd1154f4c6736a"
 depends = "['glibc']"
+license = "MIT"
 +++
 Open Source Continuous Replication / Cluster Synchronization Thing

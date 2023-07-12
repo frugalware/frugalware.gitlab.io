@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "go 1.20.5-1"
-version = "1.20.5-1"
+title = "go 1.20.6-1"
+version = "1.20.6-1"
+date = "2023-07-12T19:41:47"
 categories = ['devel-extra']
+upstreamurl = "http://golang.org/"
 arch = "x86_64"
-size = "210584688"
-usize = "367357068"
-sha1sum = "50c3a40f4a85e0bd8a45caca110ee77112804c36"
+size = "209864308"
+usize = "367373998"
+sha1sum = "ddc24aaa69792d54b9e8705d96761008dd21fa2d"
 depends = "['perl>=5.28.2', 'gawk']"
 +++
 Compiler and tools for the Go programming language from Google

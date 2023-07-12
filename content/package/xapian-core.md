@@ -1,12 +1,15 @@
 +++
 draft = false
-title = "xapian-core 1.4.22-1"
-version = "1.4.22-1"
+title = "xapian-core 1.4.23-1"
+version = "1.4.23-1"
+date = "2023-07-12T09:43:40"
 categories = ['apps']
+upstreamurl = "http://www.xapian.org/"
 arch = "x86_64"
-size = "2265432"
-usize = "11769632"
-sha1sum = "239568e9ea3219d3a622f52ab93413605f2084ea"
+size = "2276044"
+usize = "11748151"
+sha1sum = "4dc1f96c3cd845011560bafa82b0211b6bde8ef0"
 depends = "['libstdc++>=12.2', 'zlib>=1.2.12', 'libuuid>=2.28.2-2']"
+license = "GPL"
 +++
 Xapian is an Open Source Search Engine Library.

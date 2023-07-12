@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "erlang 26.0.1-1"
-version = "26.0.1-1"
+title = "erlang 26.0.2-1"
+version = "26.0.2-1"
+date = "2023-07-12T19:54:09"
 categories = ['devel-extra']
+upstreamurl = "http://www.erlang.org/"
 arch = "x86_64"
-size = "59752564"
-usize = "309854598"
-sha1sum = "4e846a6145617dafa686b515add5a5d3722b8140"
+size = "59775040"
+usize = "309918506"
+sha1sum = "577bb20c50731b6113745aeba37fddd5c6547010"
 depends = "['openssl>=3.1.0', 'ncurses>=6.0-3']"
 +++
 A programming language designed at the Ericsson Computer Science Laboratory.

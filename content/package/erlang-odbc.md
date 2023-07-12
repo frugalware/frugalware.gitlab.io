@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "erlang-odbc 26.0.1-1"
-version = "26.0.1-1"
+title = "erlang-odbc 26.0.2-1"
+version = "26.0.2-1"
+date = "2023-07-12T19:54:09"
 categories = ['devel-extra']
+upstreamurl = "http://www.erlang.org/"
 arch = "x86_64"
-size = "70488"
+size = "70540"
 usize = "216921"
-sha1sum = "156cd2019150e296389e3b865584b6afa824cadd"
-depends = "['erlang=26.0.1']"
+sha1sum = "5aef6c3570546d70777647a006efff66cf4d493b"
+depends = "['erlang=26.0.2']"
 +++
 The Erlang ODBC application.

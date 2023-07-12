@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "fuse3 3.15.0-1"
-version = "3.15.0-1"
+title = "fuse3 3.15.1-1"
+version = "3.15.1-1"
+date = "2023-07-12T10:18:55"
 categories = ['apps']
+upstreamurl = "https://github.com/libfuse/libfuse"
 arch = "x86_64"
-size = "126200"
+size = "126100"
 usize = "492557"
-sha1sum = "f70c4680edfef88a7883ea1d9aa02ed039378ebe"
+sha1sum = "8a4bba82f3b37b4d3e222991669a50576b60d676"
 depends = "['glibc>=2.34', 'fuse-common']"
 +++
 An interface for filesystems implemented in userspace.
