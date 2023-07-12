@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libldap 2.6.4-1"
 version = "2.6.4-1"
-date = "2023-02-14T09:17:44"
 categories = ['lib32-extra']
-upstreamurl = "http://www.openldap.org/"
 arch = "x86_64"
 size = "163796"
 usize = "465015"
