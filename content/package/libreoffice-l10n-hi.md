@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-hi 7.5.4.2-2"
-version = "7.5.4.2-2"
+title = "libreoffice-l10n-hi 7.5.4.2-3"
+version = "7.5.4.2-3"
+date = "2023-07-12T21:40:29"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "3817124"
+size = "3817056"
 usize = "32592499"
-sha1sum = "151b941fcadf491c578a98ebe764dd9af1f0b2a3"
+sha1sum = "e368a3a1c63fcd734f6cd50d6b84cfcd5f571f7d"
 depends = "['libreoffice>=7.5.4.2']"
 +++
 Installs Hindi support in LibreOffice

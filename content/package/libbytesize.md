@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libbytesize 2.8-1"
-version = "2.8-1"
+title = "libbytesize 2.9-1"
+version = "2.9-1"
+date = "2023-07-13T07:56:25"
 categories = ['lib']
+upstreamurl = "https://github.com/storaged-project/libbytesize"
 arch = "x86_64"
-size = "29324"
-usize = "122256"
-sha1sum = "33968e2f224d455ec836ec4c0a66de342fb25a67"
+size = "29368"
+usize = "122257"
+sha1sum = "fe1f97f4b2e3ef70d202eaf22c12ed841114ece7"
 depends = "[]"
 +++
 A tiny library providing a C class for working with arbitrary big sizes in bytes
