@@ -2,9 +2,7 @@
 draft = false
 title = "mpv 0.35.1-2"
 version = "0.35.1-2"
-date = "2023-03-14T13:15:58"
 categories = ['apps-extra']
-upstreamurl = "http://mpv.io"
 arch = "x86_64"
 size = "1256316"
 usize = "5356153"
