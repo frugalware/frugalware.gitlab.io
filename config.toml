@@ -2,6 +2,7 @@ baseurl = "/"
 title = "Frugalware"
 languageCode = "en-us"
 theme = "gitlab.com/frugalware/frugalware.gitlab.io"
+disqusShortname = "frugalware-1"
 
 [module]
 [[module.imports]]
@@ -12,6 +13,9 @@ path = 'github.com/vimux/mainroad'
 name = "Frugalware"
 bio = "Frugalware Development Team"
 avatar = "images/frugalware.png"
+
+
+
 
 [Params]
   description = "Frugalware Linux"  
