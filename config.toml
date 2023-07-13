@@ -44,6 +44,15 @@ avatar = "images/frugalware.png"
   # Enable widgets in given order
   widgets = ["get", "recent", "updates", "irc", "social", "donations", "languages"]
 
+[Params.widgets.get]
+  cached = true
+
+[Params.widgets.recent]
+  cached = true
+
+[Params.widgets.updates]
+  cached = true
+
 [Params.widgets.search]
   cached = true
 
