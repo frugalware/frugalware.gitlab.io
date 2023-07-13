@@ -2,9 +2,7 @@
 draft = false
 title = "fwupd 1.9.2-1"
 version = "1.9.2-1"
-date = "2023-06-21T13:49:31"
 categories = ['apps-extra']
-upstreamurl = "https://github.com/fwupd/fwupd"
 arch = "x86_64"
 size = "6324752"
 usize = "35447565"
