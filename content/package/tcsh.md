@@ -2,9 +2,7 @@
 draft = false
 title = "tcsh 6.24.07-1"
 version = "6.24.07-1"
-date = "2023-01-08T20:27:33"
 categories = ['apps']
-upstreamurl = "http://www.tcsh.org/Welcome"
 arch = "x86_64"
 size = "372672"
 usize = "1146735"
