@@ -2,9 +2,7 @@
 draft = false
 title = "grub2-mkfont 2.06-8"
 version = "2.06-8"
-date = "2023-05-01T15:48:21"
 categories = ['base-extra']
-upstreamurl = "http://www.gnu.org/software/grub/"
 arch = "x86_64"
 size = "54804"
 usize = "127024"
