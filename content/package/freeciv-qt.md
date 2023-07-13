@@ -2,9 +2,7 @@
 draft = false
 title = "freeciv-qt 3.0.7-2"
 version = "3.0.7-2"
-date = "2023-06-14T13:35:24"
 categories = ['games-extra']
-upstreamurl = "http://freeciv.wikia.com/wiki/Main_Page"
 arch = "x86_64"
 size = "3550836"
 usize = "5457912"
