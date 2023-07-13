@@ -2,9 +2,7 @@
 draft = false
 title = "vlc-avahi 3.0.18-10"
 version = "3.0.18-10"
-date = "2023-07-12T07:14:42"
 categories = ['xmultimedia-extra']
-upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
 size = "18088"
 usize = "18200"
