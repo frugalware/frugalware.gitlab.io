@@ -2,9 +2,7 @@
 draft = false
 title = "libbytesize 2.8-1"
 version = "2.8-1"
-date = "2023-03-27T07:56:51"
 categories = ['lib']
-upstreamurl = "https://github.com/storaged-project/libbytesize"
 arch = "x86_64"
 size = "29324"
 usize = "122256"
