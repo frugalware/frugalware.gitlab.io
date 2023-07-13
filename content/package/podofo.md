@@ -2,9 +2,7 @@
 draft = false
 title = "podofo 0.10.0-1"
 version = "0.10.0-1"
-date = "2023-06-05T09:20:28"
 categories = ['xlib-extra']
-upstreamurl = "https://github.com/podofo/podofo"
 arch = "x86_64"
 size = "984292"
 usize = "3257048"

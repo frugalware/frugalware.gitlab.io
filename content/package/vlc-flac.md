@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "vlc-flac 3.0.18-10"
-version = "3.0.18-10"
+title = "vlc-flac 3.0.18-11"
+version = "3.0.18-11"
+date = "2023-07-13T12:34:41"
 categories = ['xmultimedia-extra', 'vlc-codecs']
+upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "19184"
+size = "19196"
 usize = "18120"
-sha1sum = "21a9c72914d5440d4b117914d2d390ea14f38155"
+sha1sum = "652b225e47da7206090cb0c89732425863d90c28"
 depends = "['flac>=1.4.0', 'libvlc>=3.0.18']"
 +++
 vlc flac support

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "grub2-mount 2.06-8"
-version = "2.06-8"
+title = "grub2-mount 2.06-9"
+version = "2.06-9"
+date = "2023-07-13T14:39:04"
 categories = ['base']
+upstreamurl = "http://www.gnu.org/software/grub/"
 arch = "x86_64"
-size = "301088"
-usize = "706088"
-sha1sum = "59fc701200b08afc4d526ae09614153561a0e9d7"
+size = "302416"
+usize = "706128"
+sha1sum = "517bd33823bdac1d36bd5c00acce7254bc5e0943"
 depends = "['fuse>=2.7.9-4']"
 +++
 grub2 mount utility

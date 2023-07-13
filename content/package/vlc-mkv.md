@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "vlc-mkv 3.0.18-10"
-version = "3.0.18-10"
+title = "vlc-mkv 3.0.18-11"
+version = "3.0.18-11"
+date = "2023-07-13T12:34:41"
 categories = ['xmultimedia-extra', 'vlc-codecs']
+upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "176008"
+size = "175968"
 usize = "452488"
-sha1sum = "5cb6df6004475419b2bd5c48543191b354560b8f"
+sha1sum = "2441369c7d580ec7cd258ac7aa4477935aa95fe4"
 depends = "['libmatroska>=1.2.0', 'libvlc>=3.0.18']"
 +++
 vlc plugin for mkv
