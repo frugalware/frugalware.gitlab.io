@@ -2,9 +2,7 @@
 draft = false
 title = "rust-bindgen 0.64.0-1"
 version = "0.64.0-1"
-date = "2023-02-27T16:07:33"
 categories = ['devel-extra']
-upstreamurl = "https://github.com/rust-lang/rust-bindgen"
 arch = "x86_64"
 size = "1521320"
 usize = "6077443"
