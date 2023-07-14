@@ -2,9 +2,7 @@
 draft = false
 title = "grub2 2.06-9"
 version = "2.06-9"
-date = "2023-07-13T14:39:04"
 categories = ['base']
-upstreamurl = "http://www.gnu.org/software/grub/"
 arch = "x86_64"
 size = "14714676"
 usize = "66621753"
