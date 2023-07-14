@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-regex-tdfa 1.3.2-6"
 version = "1.3.2-6"
-date = "2023-03-20T20:51:36"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/regex-tdfa"
 arch = "x86_64"
 size = "771316"
 usize = "8906607"
