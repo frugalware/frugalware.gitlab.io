@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-cryptonite 0.30-6"
 version = "0.30-6"
-date = "2023-03-19T19:40:00"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/cryptonite"
 arch = "x86_64"
 size = "2585276"
 usize = "26858818"

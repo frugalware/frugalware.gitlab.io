@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-asn1-parse 0.9.5-5"
 version = "0.9.5-5"
-date = "2023-03-19T19:41:15"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/asn1-parse"
 arch = "x86_64"
 size = "51460"
 usize = "273009"
