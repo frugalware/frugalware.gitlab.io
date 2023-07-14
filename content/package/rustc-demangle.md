@@ -2,9 +2,7 @@
 draft = false
 title = "rustc-demangle 0.1.21-1"
 version = "0.1.21-1"
-date = "2023-01-19T19:38:28"
 categories = ['lib-extra']
-upstreamurl = "https://github.com/alexcrichton/rustc-demangle"
 arch = "x86_64"
 size = "246792"
 usize = "1688898"
