@@ -2,9 +2,7 @@
 draft = false
 title = "libreoffice-postgresql 7.5.4.2-3"
 version = "7.5.4.2-3"
-date = "2023-07-12T21:40:29"
 categories = ['xapps-extra']
-upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
 size = "233040"
 usize = "917877"
