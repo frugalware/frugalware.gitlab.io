@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-iproute 1.7.12-5"
 version = "1.7.12-5"
-date = "2023-03-19T20:31:02"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/iproute"
 arch = "x86_64"
 size = "269792"
 usize = "2753318"
