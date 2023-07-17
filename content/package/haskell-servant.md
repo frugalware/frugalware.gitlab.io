@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-servant 0.19.1-10"
 version = "0.19.1-10"
-date = "2023-03-21T10:24:37"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/servant"
 arch = "x86_64"
 size = "433704"
 usize = "6233533"
