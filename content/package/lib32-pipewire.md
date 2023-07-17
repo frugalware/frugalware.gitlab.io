@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-pipewire 0.3.74-1"
 version = "0.3.74-1"
-date = "2023-07-13T07:52:58"
 categories = ['lib32-extra']
-upstreamurl = "https://pipewire.org/"
 arch = "x86_64"
 size = "1316512"
 usize = "6217179"
