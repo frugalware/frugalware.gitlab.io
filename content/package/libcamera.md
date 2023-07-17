@@ -2,9 +2,7 @@
 draft = false
 title = "libcamera 0.0.5-1"
 version = "0.0.5-1"
-date = "2023-06-13T09:53:43"
 categories = ['multimedia']
-upstreamurl = "https://libcamera.org/"
 arch = "x86_64"
 size = "10101496"
 usize = "24507311"
