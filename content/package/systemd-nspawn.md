@@ -2,9 +2,7 @@
 draft = false
 title = "systemd-nspawn 253.6-1"
 version = "253.6-1"
-date = "2023-07-11T11:50:30"
 categories = ['base-extra']
-upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
 size = "180668"
 usize = "402753"

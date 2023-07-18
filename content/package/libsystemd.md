@@ -2,9 +2,7 @@
 draft = false
 title = "libsystemd 253.6-1"
 version = "253.6-1"
-date = "2023-07-11T11:50:30"
 categories = ['base', 'core']
-upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
 size = "2389244"
 usize = "8318054"
