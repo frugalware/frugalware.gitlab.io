@@ -2,9 +2,7 @@
 draft = false
 title = "tar 1.34-2"
 version = "1.34-2"
-date = "2021-10-06T15:50:31"
 categories = ['base', 'chroot-core']
-upstreamurl = "http://www.gnu.org/software/tar/tar.html"
 arch = "x86_64"
 size = "943340"
 usize = "3763588"
