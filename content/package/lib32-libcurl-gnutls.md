@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libcurl-gnutls 8.1.2-1"
 version = "8.1.2-1"
-date = "2023-07-12T20:08:46"
 categories = ['network-extra']
-upstreamurl = "https://curl.haxx.se"
 arch = "x86_64"
 size = "333696"
 usize = "883571"
