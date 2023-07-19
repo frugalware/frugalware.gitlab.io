@@ -2,9 +2,7 @@
 draft = false
 title = "bind 9.18.16-1"
 version = "9.18.16-1"
-date = "2023-06-22T06:12:21"
 categories = ['network']
-upstreamurl = "https://www.isc.org/bind/"
 arch = "x86_64"
 size = "2069508"
 usize = "14095594"
