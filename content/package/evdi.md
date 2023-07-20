@@ -2,9 +2,7 @@
 draft = false
 title = "evdi 1.9.1-162"
 version = "1.9.1-162"
-date = "2023-07-11T11:44:21"
 categories = ['lib-extra']
-upstreamurl = "https://github.com/DisplayLink/evdi"
 arch = "x86_64"
 size = "174856"
 usize = "450032"
