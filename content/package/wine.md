@@ -2,9 +2,7 @@
 draft = false
 title = "wine 8.0.1-1"
 version = "8.0.1-1"
-date = "2023-04-26T06:39:37"
 categories = ['xapps-extra']
-upstreamurl = "http://www.winehq.org"
 arch = "x86_64"
 size = "71948084"
 usize = "644978891"
