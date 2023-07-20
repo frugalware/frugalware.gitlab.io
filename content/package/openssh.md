@@ -2,9 +2,7 @@
 draft = false
 title = "openssh 9.3-1"
 version = "9.3-1"
-date = "2023-03-16T12:11:35"
 categories = ['network']
-upstreamurl = "http://www.openssh.com/"
 arch = "x86_64"
 size = "1179344"
 usize = "5396399"
