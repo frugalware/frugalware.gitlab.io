@@ -2,9 +2,7 @@
 draft = false
 title = "zenpower 0.2.0-45"
 version = "0.2.0-45"
-date = "2023-07-11T11:35:20"
 categories = ['apps-extra']
-upstreamurl = "https://git.exozy.me/a/zenpower3"
 arch = "x86_64"
 size = "16616"
 usize = "43900"
