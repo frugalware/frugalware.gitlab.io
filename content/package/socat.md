@@ -2,9 +2,7 @@
 draft = false
 title = "socat 1.7.4.4-2"
 version = "1.7.4.4-2"
-date = "2023-03-16T03:03:08"
 categories = ['network']
-upstreamurl = "http://www.dest-unreach.org/socat/"
 arch = "x86_64"
 size = "216832"
 usize = "637723"

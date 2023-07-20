@@ -2,9 +2,7 @@
 draft = false
 title = "libaudit 3.1-1"
 version = "3.1-1"
-date = "2023-02-24T12:10:48"
 categories = ['base', 'chroot-core']
-upstreamurl = "http://people.redhat.com/sgrubb/audit"
 arch = "x86_64"
 size = "1094892"
 usize = "1540035"
