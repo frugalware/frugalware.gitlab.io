@@ -2,9 +2,7 @@
 draft = false
 title = "byacc 20230219-1"
 version = "20230219-1"
-date = "2023-02-27T12:28:11"
 categories = ['devel-extra']
-upstreamurl = "http://invisible-island.net/byacc/byacc.html"
 arch = "x86_64"
 size = "112688"
 usize = "468523"
