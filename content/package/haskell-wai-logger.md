@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-wai-logger 2.4.0-10"
 version = "2.4.0-10"
-date = "2023-03-20T22:53:30"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/wai-logger"
 arch = "x86_64"
 size = "78852"
 usize = "494335"
