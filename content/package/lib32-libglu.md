@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libglu 9.0.2-2"
 version = "9.0.2-2"
-date = "2021-12-24T16:33:50"
 categories = ['lib32-extra']
-upstreamurl = "http://xorg.freedesktop.org/"
 arch = "x86_64"
 size = "133056"
 usize = "373549"
