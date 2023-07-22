@@ -2,9 +2,7 @@
 draft = false
 title = "mesa-opemax 23.1.3-1"
 version = "23.1.3-1"
-date = "2023-07-06T21:52:14"
 categories = ['x11']
-upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
 size = "3851764"
 usize = "15160568"
