@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-skylighting-format-latex 0.1-5"
 version = "0.1-5"
-date = "2023-03-21T09:32:17"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/skylighting-format-latex"
 arch = "x86_64"
 size = "57348"
 usize = "270648"
