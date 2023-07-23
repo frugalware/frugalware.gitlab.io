@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-x509-system 1.6.7-5"
 version = "1.6.7-5"
-date = "2023-03-19T19:49:48"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/x509-system"
 arch = "x86_64"
 size = "47388"
 usize = "228595"

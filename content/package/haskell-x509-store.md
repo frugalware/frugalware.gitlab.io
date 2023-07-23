@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-x509-store 1.6.9-5"
 version = "1.6.9-5"
-date = "2023-03-19T19:45:05"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/x509-store"
 arch = "x86_64"
 size = "73128"
 usize = "422409"
