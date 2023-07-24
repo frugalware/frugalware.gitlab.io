@@ -2,9 +2,7 @@
 draft = false
 title = "qt6-serialport 6.5.1-1"
 version = "6.5.1-1"
-date = "2023-06-03T16:35:13"
 categories = ['xlib-extra']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "45604"
 usize = "181991"
