@@ -2,9 +2,7 @@
 draft = false
 title = "qt6-3d 6.5.1-1"
 version = "6.5.1-1"
-date = "2023-06-03T18:10:39"
 categories = ['xlib-extra']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "2234884"
 usize = "13407800"
