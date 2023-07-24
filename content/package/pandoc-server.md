@@ -2,9 +2,7 @@
 draft = false
 title = "pandoc-server 0.1-4"
 version = "0.1-4"
-date = "2023-03-21T12:54:11"
 categories = ['network-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/pandoc-server"
 arch = "x86_64"
 size = "125424"
 usize = "1083165"
