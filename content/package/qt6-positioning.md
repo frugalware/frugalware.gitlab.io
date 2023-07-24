@@ -2,9 +2,7 @@
 draft = false
 title = "qt6-positioning 6.5.1-1"
 version = "6.5.1-1"
-date = "2023-06-03T16:42:53"
 categories = ['xlib-extra']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "331868"
 usize = "1713257"
