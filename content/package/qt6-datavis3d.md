@@ -2,9 +2,7 @@
 draft = false
 title = "qt6-datavis3d 6.5.1-1"
 version = "6.5.1-1"
-date = "2023-06-03T16:28:00"
 categories = ['xlib-extra']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "582988"
 usize = "3208540"
