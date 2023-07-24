@@ -2,9 +2,7 @@
 draft = false
 title = "qt6-base-platformtheme-gtk3 6.5.1-1"
 version = "6.5.1-1"
-date = "2023-06-03T15:33:15"
 categories = ['xlib-extra']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "68452"
 usize = "222107"
