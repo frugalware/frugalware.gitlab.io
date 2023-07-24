@@ -2,9 +2,7 @@
 draft = false
 title = "qt6-serialbus 6.5.1-1"
 version = "6.5.1-1"
-date = "2023-06-03T18:03:42"
 categories = ['xlib-extra']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "241216"
 usize = "991701"
