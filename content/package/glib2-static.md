@@ -2,9 +2,7 @@
 draft = false
 title = "glib2-static 2.77.0-2"
 version = "2.77.0-2"
-date = "2023-07-24T18:11:46"
 categories = ['devel-extra']
-upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "18420880"
 usize = "22254234"
