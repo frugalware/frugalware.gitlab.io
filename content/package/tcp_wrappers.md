@@ -2,9 +2,7 @@
 draft = false
 title = "tcp_wrappers 7.6-22"
 version = "7.6-22"
-date = "2022-07-28T09:28:29"
 categories = ['network']
-upstreamurl = "ftp://ftp.porcupine.org/pub/security/index.html"
 arch = "x86_64"
 size = "244824"
 usize = "473151"
