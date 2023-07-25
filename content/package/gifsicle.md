@@ -2,9 +2,7 @@
 draft = false
 title = "gifsicle 1.93-1"
 version = "1.93-1"
-date = "2021-07-01T11:48:34"
 categories = ['xapps-extra']
-upstreamurl = "http://www.lcdf.org/gifsicle/"
 arch = "x86_64"
 size = "140904"
 usize = "349774"
