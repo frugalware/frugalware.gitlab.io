@@ -2,9 +2,7 @@
 draft = false
 title = "wireshark 4.0.6-1"
 version = "4.0.6-1"
-date = "2023-06-16T07:45:08"
 categories = ['xapps-extra']
-upstreamurl = "http://www.wireshark.org/"
 arch = "x86_64"
 size = "20622824"
 usize = "127385061"
