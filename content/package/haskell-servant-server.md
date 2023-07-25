@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "haskell-servant-server 0.19.2-4"
-version = "0.19.2-4"
+title = "haskell-servant-server 0.20-1"
+version = "0.20-1"
+date = "2023-07-24T07:37:46"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/servant-server"
 arch = "x86_64"
-size = "3116544"
-usize = "23908686"
-sha1sum = "d0d265a64a54a9cfd4a976a9e13b98ce0b0e2333"
+size = "3233260"
+usize = "24744990"
+sha1sum = "180d4f10cf27c6c709300c024344abbf8926875b"
 depends = "['haskell-wai-app-static', 'haskell-servant', 'haskell-monad-control']"
 +++
 A family of combinators for defining webservices APIs and serving them

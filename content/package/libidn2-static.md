@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libidn2-static 2.0.0-12"
-version = "2.0.0-12"
+title = "libidn2-static 2.3.4-1"
+version = "2.3.4-1"
+date = "2023-07-20T11:40:40"
 categories = ['devel-extra']
+upstreamurl = "http://www.gnu.org/software/libidn/"
 arch = "x86_64"
-size = "198168"
-usize = "258751"
-sha1sum = "36cb70281f16f5c597c8f773a1df3a9b4a7e4163"
+size = "381564"
+usize = "496592"
+sha1sum = "82cc9cf99229e77e9222467639ae198947c08c5a"
 depends = "[]"
 +++
 Static files for libidn2

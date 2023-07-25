@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "haskell-http2 4.1.0-2"
-version = "4.1.0-2"
+title = "haskell-http2 4.1.4-1"
+version = "4.1.4-1"
+date = "2023-07-20T14:22:20"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/http2"
 arch = "x86_64"
-size = "830220"
-usize = "8548909"
-sha1sum = "ea8e55d890244c78e2b554636010a5d5aea16b0c"
+size = "838900"
+usize = "8601268"
+sha1sum = "c6bd461fe3a4e7b926d021bab2481aba0890d0c8"
 depends = "['haskell-async', 'haskell-case-insensitive', 'haskell-http-types', 'haskell-psqueues', 'haskell-unliftio', 'haskell-network', 'haskell-network-byte-order', 'haskell-time-manager', 'haskell-unix-time']"
 +++
 HTTP/2 library

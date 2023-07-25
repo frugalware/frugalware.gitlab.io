@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "haskell-connection 0.3.1-6"
-version = "0.3.1-6"
+title = "haskell-connection 0.3.1-7"
+version = "0.3.1-7"
+date = "2023-07-24T07:15:09"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/connection"
 arch = "x86_64"
-size = "106940"
-usize = "748187"
-sha1sum = "c7f698916cd32742dbe2069c2d4230e6f81fc510"
-depends = "['haskell-socks', 'haskell-tls', 'haskell-x509-system']"
+size = "106864"
+usize = "746875"
+sha1sum = "edc93d1f2ed8127ed91deceedc6dde8154a21baf"
+depends = "['haskell-socks', 'haskell-tls', 'haskell-crypton-x509-system', 'haskell-crypton-x509-validation']"
 +++
 Simple and easy network connections API

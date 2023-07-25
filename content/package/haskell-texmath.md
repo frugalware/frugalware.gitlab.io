@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "haskell-texmath 0.12.6-4"
-version = "0.12.6-4"
+title = "haskell-texmath 0.12.8-1"
+version = "0.12.8-1"
+date = "2023-07-22T17:38:33"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/texmath"
 arch = "x86_64"
-size = "4928924"
-usize = "62459715"
-sha1sum = "de5ff686d2c50e797301bb8bd49b4fd8c7c7492e"
-depends = "['haskell-xml', 'haskell-split', 'haskell-pandoc-types>=1.23']"
+size = "4972124"
+usize = "62765848"
+sha1sum = "196b2fdaa6fed82111ab8e128a73eabd12a577ae"
+depends = "['haskell-typst-symbols', 'haskell-split', 'haskell-pandoc-types', 'haskell-xml']"
 +++
 Conversion between math formats

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "lib32-mesa-vulkan-swrast 23.1.3-1"
-version = "23.1.3-1"
+title = "lib32-mesa-vulkan-swrast 23.1.4-1"
+version = "23.1.4-1"
+date = "2023-07-22T10:40:20"
 categories = ['lib32-extra']
+upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "1906216"
+size = "1907792"
 usize = "15236198"
-sha1sum = "82a1f9485a2893056c813d59ed09f96468514747"
+sha1sum = "4896f49c1574c13de00544fef42e686a32326173"
 depends = "['lib32-zstd', 'lib32-vulkan-icd-loader', 'lib32-libudev']"
 +++
 SWRast Support for Vulkan (32-bit)

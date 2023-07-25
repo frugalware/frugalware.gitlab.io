@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-uz 7.5.4.2-3"
-version = "7.5.4.2-3"
+title = "libreoffice-l10n-uz 7.5.5.2-1"
+version = "7.5.5.2-1"
+date = "2023-07-16T11:44:47"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "226732"
+size = "226668"
 usize = "1395859"
-sha1sum = "19ae71b44c865153d6496bb29d379dbc9da04147"
-depends = "['libreoffice>=7.5.4.2']"
+sha1sum = "ea0e247bf64b632c79ee912f224437069f6bbf17"
+depends = "['libreoffice>=7.5.5.2']"
 +++
 Installs Uzbek support in LibreOffice

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-oc 7.5.4.2-3"
-version = "7.5.4.2-3"
+title = "libreoffice-l10n-oc 7.5.5.2-1"
+version = "7.5.5.2-1"
+date = "2023-07-16T11:44:47"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "525456"
-usize = "2738517"
-sha1sum = "e1dfa521f17ce8b885ce510dc64503a31c1f0718"
-depends = "['libreoffice>=7.5.4.2']"
+size = "524892"
+usize = "2738866"
+sha1sum = "41a7633b1801133af1848e83ac4c958f0ec9d440"
+depends = "['libreoffice>=7.5.5.2']"
 +++
 Installs Occitan support in LibreOffice

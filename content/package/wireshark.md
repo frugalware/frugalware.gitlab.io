@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "wireshark 4.0.6-1"
-version = "4.0.6-1"
+title = "wireshark 4.0.7-1"
+version = "4.0.7-1"
+date = "2023-07-25T07:59:32"
 categories = ['xapps-extra']
+upstreamurl = "http://www.wireshark.org/"
 arch = "x86_64"
-size = "20622824"
-usize = "127385061"
-sha1sum = "176f1564141725a32e50ed761df37c16c56d0084"
+size = "20639924"
+usize = "127431397"
+sha1sum = "55abec871fd301c670059c184b4d99142e14385e"
 depends = "['glib2', 'lua', 'c-ares', 'gnutls', 'snappy', 'libkrb5', 'geoip', 'nghttp2', 'libpcap', 'libusb1', 'dbus', 'libnl', 'libssh', 'lua51']"
 +++
 The world's most popular network protocol analyzer.

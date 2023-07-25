@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-tr 7.5.4.2-3"
-version = "7.5.4.2-3"
+title = "libreoffice-l10n-tr 7.5.5.2-1"
+version = "7.5.5.2-1"
+date = "2023-07-16T11:44:47"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4778896"
-usize = "34925545"
-sha1sum = "ca897e983ed069862d6cd6d44353e697ca8fc0cf"
-depends = "['libreoffice>=7.5.4.2']"
+size = "4778724"
+usize = "34925561"
+sha1sum = "66cd3836969c39c65c496406955b01feb40dc9a1"
+depends = "['libreoffice>=7.5.5.2']"
 +++
 Installs Turkish support in LibreOffice

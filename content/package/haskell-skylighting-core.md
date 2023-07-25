@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "haskell-skylighting-core 0.13.2.1-3"
-version = "0.13.2.1-3"
+title = "haskell-skylighting-core 0.13.4.1-1"
+version = "0.13.4.1-1"
+date = "2023-07-22T20:55:22"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/skylighting-core"
 arch = "x86_64"
-size = "881404"
-usize = "11496059"
-sha1sum = "e52ba0c5aaf5d69feea5c570b79c5cb9a31e51c2"
+size = "878792"
+usize = "11441093"
+sha1sum = "e939b67a0b71f022380c8dd3eadaef3624195f8b"
 depends = "['haskell-xml-conduit', 'haskell-utf8-string', 'haskell-safe', 'haskell-colour', 'haskell-case-insensitive', 'haskell-base64-bytestring', 'haskell-aeson']"
 +++
 Syntax highlighting library

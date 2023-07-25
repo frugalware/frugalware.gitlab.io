@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "pipewire 0.3.74-1"
-version = "0.3.74-1"
+title = "pipewire 0.3.75-1"
+version = "0.3.75-1"
+date = "2023-07-22T11:47:44"
 categories = ['xmultimedia']
+upstreamurl = "https://pipewire.org/"
 arch = "x86_64"
-size = "3501600"
-usize = "37493135"
-sha1sum = "183e307b1b1786927936b1d9e7bedef856ce48d3"
-depends = "['sbc', 'jack2', 'vulkan-icd-loader', 'libcamera>=0.0.5', 'webrtc-audio-processing', 'lilv', 'libfreeaptx', 'ldacbt', 'libcanberra', 'fdk-aac']"
+size = "3507976"
+usize = "37569556"
+sha1sum = "c25fa1cb33c41170102db2ed67fcbc4fdd6d88bd"
+depends = "['sbc', 'jack2', 'vulkan-icd-loader', 'libcamera>=0.1.0', 'webrtc-audio-processing', 'lilv', 'libfreeaptx', 'ldacbt', 'libcanberra', 'fdk-aac']"
 +++
 A project that aims to greatly improve handling of audio and video under Linux

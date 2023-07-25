@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "python3-cython 0.29.36-1"
-version = "0.29.36-1"
+title = "python3-cython 3.0.0-1"
+version = "3.0.0-1"
+date = "2023-07-24T18:54:50"
 categories = ['devel']
+upstreamurl = "http://www.cython.org"
 arch = "x86_64"
-size = "2236836"
-usize = "10170240"
-sha1sum = "4a717e8405889f19cbbd63bb4343a747dd6ff75f"
+size = "3293384"
+usize = "14299921"
+sha1sum = "1954bdb0b45bc58f10c7267f70f3d5a7ffdf233e"
 depends = "['python3>=3.11']"
 +++
 C-Extensions for Python

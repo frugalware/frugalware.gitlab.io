@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-en-gb 7.5.4.2-3"
-version = "7.5.4.2-3"
+title = "libreoffice-l10n-en-gb 7.5.5.2-1"
+version = "7.5.5.2-1"
+date = "2023-07-16T11:44:47"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "3869176"
+size = "3869136"
 usize = "32633966"
-sha1sum = "8b7f767d325b6fa0502212038a405b31ad40545a"
-depends = "['libreoffice>=7.5.4.2']"
+sha1sum = "1e9c28ea69af58025bac92dec86905442c75d7ed"
+depends = "['libreoffice>=7.5.5.2']"
 +++
 Installs English (United Kingdom) support in LibreOffice

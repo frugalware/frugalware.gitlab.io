@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "bcmwl 6.30.223.271-560"
-version = "6.30.223.271-560"
+title = "bcmwl 6.30.223.271-563"
+version = "6.30.223.271-563"
+date = "2023-07-24T22:44:14"
 categories = ['network-extra']
+upstreamurl = "https://www.broadcom.com/support/802.11"
 arch = "x86_64"
-size = "1694552"
-usize = "1677110"
-sha1sum = "d5aa53d6dbda3ca7a1bc895aea32c652968befd9"
-depends = "['kernel=6.4.3-1']"
+size = "1694680"
+usize = "1677135"
+sha1sum = "ac0388796dbfbb573c16b007733572c4b5ddd25e"
+depends = "['kernel=6.4.6-1']"
 +++
 Broadcom 802.11 Linux STA wireless driver

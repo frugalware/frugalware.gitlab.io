@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qtcreator 10.0.2-1"
-version = "10.0.2-1"
+title = "qtcreator 11.0.0-1"
+version = "11.0.0-1"
+date = "2023-07-25T08:32:15"
 categories = ['xapps-extra']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "28413400"
-usize = "114271910"
-sha1sum = "eff2356711f20d91b8b9d3f4aa68c47d6c78624b"
+size = "29575124"
+usize = "118784275"
+sha1sum = "c49b0701878985650fb09d5aca1c8d6beb38cc97"
 depends = "['qt6-5compat', 'qt6-svg', 'qt6-quick3d', 'qt6-webengine', 'qt6-base-sql-common', 'qt6-tools', 'rustc-demangle', 'litehtml', 'gdb', 'cmake', 'clang', 'yaml-cpp']"
 +++
 The Qt6 toolkit, qtcreator

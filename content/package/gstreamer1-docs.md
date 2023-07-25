@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "gstreamer1-docs 1.22.4-1"
-version = "1.22.4-1"
+title = "gstreamer1-docs 1.22.5-1"
+version = "1.22.5-1"
+date = "2023-07-21T11:58:35"
 categories = ['gnome-extra', 'docs-extra']
+upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "8420568"
-usize = "106724331"
-sha1sum = "f5cca52df81b3466a9bca1a65183e1105af39fc4"
+size = "8490872"
+usize = "108368739"
+sha1sum = "3eb3f70087ab47fd5d47065b451e12d83c1e8522"
 depends = "[]"
 +++
 GStreamer $pkgver Documentation.

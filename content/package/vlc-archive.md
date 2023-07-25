@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "vlc-archive 3.0.18-11"
-version = "3.0.18-11"
+title = "vlc-archive 3.0.18-12"
+version = "3.0.18-12"
+date = "2023-07-20T12:53:51"
 categories = ['xmultimedia-extra', 'vlc-codecs']
+upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "18136"
+size = "18176"
 usize = "22216"
-sha1sum = "8965fdee39049a4189df35b208c85c81d1fafaa2"
+sha1sum = "82a04e0a183309a4ee022ecd87e4a9247d4dc02f"
 depends = "['libarchive', 'libvlc>=3.0.18']"
 +++
 vlc archive support

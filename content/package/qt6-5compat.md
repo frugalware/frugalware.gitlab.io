@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt6-5compat 6.5.1-1"
-version = "6.5.1-1"
+title = "qt6-5compat 6.5.2-1"
+version = "6.5.2-1"
+date = "2023-07-24T14:32:11"
 categories = ['xlib-extra']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "154908"
+size = "154416"
 usize = "516181"
-sha1sum = "c5ea483cbd32bd27111bf4324c5a8e8bb9e1fb0a"
+sha1sum = "5eae7885bf1dd39ac677e44bca6e2f6e6eebcf06"
 depends = "['qt6-base', 'icu4c>=73.1']"
 +++
 The Qt6 toolkit, qt5compat

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt6-tools 6.5.1-1"
-version = "6.5.1-1"
+title = "qt6-tools 6.5.2-1"
+version = "6.5.2-1"
+date = "2023-07-24T14:30:54"
 categories = ['xlib-extra']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "5854524"
-usize = "18573266"
-sha1sum = "8c52b6bc23f7df20c0f018c39f6c7744682e238c"
+size = "5870608"
+usize = "18786894"
+sha1sum = "28545ebb55602def9e9ae265c48d73c5b4624787"
 depends = "['qt6-declarative', 'clang-libs>=15.0.6']"
 +++
 The Qt6 toolkit, qttools

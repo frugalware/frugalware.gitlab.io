@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libao-pulse 1.2.0-12"
-version = "1.2.0-12"
+title = "libao-pulse 1.2.0-13"
+version = "1.2.0-13"
+date = "2023-07-20T12:41:43"
 categories = ['xmultimedia']
+upstreamurl = "http://www.xiph.org/ao"
 arch = "x86_64"
-size = "6892"
-usize = "14226"
-sha1sum = "076d64ae1d39553484823e389965d87edb4244e6"
+size = "6924"
+usize = "14208"
+sha1sum = "4eba79130ab4321959a50a55eac7cc97e907d474"
 depends = "['libpulse>=12.2-9', 'libao=1.2.0']"
 +++
 Pulseaudio support for libao

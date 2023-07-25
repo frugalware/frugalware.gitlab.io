@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-el 7.5.4.2-3"
-version = "7.5.4.2-3"
+title = "libreoffice-l10n-el 7.5.5.2-1"
+version = "7.5.5.2-1"
+date = "2023-07-16T11:44:47"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4988128"
-usize = "45336314"
-sha1sum = "9f2e81ee8f55dcc474d66cdcafb75f414550bceb"
-depends = "['libreoffice>=7.5.4.2']"
+size = "4988596"
+usize = "45337371"
+sha1sum = "d77f777e9d0aabb692c4f00cef43b9a8d157c820"
+depends = "['libreoffice>=7.5.5.2']"
 +++
 Installs Greek support in LibreOffice

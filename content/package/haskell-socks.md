@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "haskell-socks 0.6.1-5"
-version = "0.6.1-5"
+title = "haskell-socks 0.6.1-6"
+version = "0.6.1-6"
+date = "2023-07-16T11:26:29"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/socks"
 arch = "x86_64"
-size = "231136"
-usize = "2188977"
-sha1sum = "4a14658051a9fe5d2e7d9bb9265a23d3fb3430df"
+size = "230828"
+usize = "2178925"
+sha1sum = "7339176473ad88fdd9fed413505102119cc7a5ff"
 depends = "['haskell-network', 'haskell-cereal', 'haskell-basement']"
 +++
 Socks proxy (ver 5)

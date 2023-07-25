@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "lib32-mesa-libglx 23.1.3-1"
-version = "23.1.3-1"
+title = "lib32-mesa-libglx 23.1.4-1"
+version = "23.1.4-1"
+date = "2023-07-22T10:40:20"
 categories = ['lib32-extra']
+upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "155168"
+size = "155528"
 usize = "567855"
-sha1sum = "e83650b0fae31d4eeec6901335f1ed03fa1ee10f"
+sha1sum = "1886e48fdb253939f1326fc72ae73e688f198881"
 depends = "['lib32-zlib', 'lib32-expat', 'lib32-libxshmfence', 'lib32-libxext', 'lib32-libxdamage', 'lib32-libdrm', 'lib32-libxxf86vm', 'lib32-libglapi']"
 +++
 Mesa OpenGL GLX. (32-bit)

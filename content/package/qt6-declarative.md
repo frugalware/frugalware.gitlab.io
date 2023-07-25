@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt6-declarative 6.5.1-1"
-version = "6.5.1-1"
+title = "qt6-declarative 6.5.2-1"
+version = "6.5.2-1"
+date = "2023-07-24T14:26:08"
 categories = ['xlib-extra']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "9774668"
-usize = "52227135"
-sha1sum = "8411fe5c0ec5c96fa2d9ab09dffb65b6cea9bb78"
+size = "9777760"
+usize = "52191030"
+sha1sum = "8e48b9406aa79edb4ff5d4fe9f6d95e03045c9e0"
 depends = "['qt6-languageserver']"
 +++
 The Qt6 toolkit, qtdeclarative

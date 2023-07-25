@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "arpwatch 2.1a15-2"
-version = "2.1a15-2"
+title = "arpwatch 3.3-1"
+version = "3.3-1"
+date = "2023-07-20T13:39:21"
 categories = ['network-extra']
+upstreamurl = "https://ee.lbl.gov"
 arch = "x86_64"
-size = "22532"
-usize = "86586"
-sha1sum = "5e350df4ffce2295c24c386da4f35233e2f01d0e"
-depends = "['libpcap']"
+size = "31836"
+usize = "96537"
+sha1sum = "12ed4494372021a1280459780fe8d224375ccd75"
+depends = "['libpcap', 'postfix']"
 +++
 Ethernet/FDDI station activity monitor

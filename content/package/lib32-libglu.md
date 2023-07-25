@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "lib32-libglu 9.0.2-2"
-version = "9.0.2-2"
+title = "lib32-libglu 9.0.3-1"
+version = "9.0.3-1"
+date = "2023-07-22T10:21:20"
 categories = ['lib32-extra']
+upstreamurl = "https://gitlab.freedesktop.org/mesa/glu"
 arch = "x86_64"
-size = "133056"
-usize = "373549"
-sha1sum = "7fe8c916270315b0abc5081b91f67095a0bc0e35"
+size = "137984"
+usize = "379180"
+sha1sum = "bb8e63379fcb44bd6ff061cac9fc8e0285c798fa"
 depends = "['lib32-libstdc++>=11.2', 'lib32-libglvnd']"
 +++
 Mesa OpenGL Utility Library. ( 32bit )

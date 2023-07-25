@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "gst1-plugins-bad-bzip2 1.22.4-1"
-version = "1.22.4-1"
+title = "gst1-plugins-bad-bzip2 1.22.5-1"
+version = "1.22.5-1"
+date = "2023-07-21T12:21:23"
 categories = ['xmultimedia']
+upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "12892"
+size = "12932"
 usize = "26672"
-sha1sum = "ff688590719b52413ac93094921b7417e5bd7a53"
-depends = "['gstreamer1>=1.22.4', 'libffi>=3.2.1-2', 'gst1-plugins-bad>=1.22.4']"
+sha1sum = "f27d6f890e51006cb96aca585485c0fc69f67215"
+depends = "['gstreamer1>=1.22.5', 'libffi>=3.2.1-2', 'gst1-plugins-bad>=1.22.5']"
 +++
 GStreamer bzip2 plugin (Bad).

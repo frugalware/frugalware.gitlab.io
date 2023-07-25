@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-hu 7.5.4.2-3"
-version = "7.5.4.2-3"
+title = "libreoffice-l10n-hu 7.5.5.2-1"
+version = "7.5.5.2-1"
+date = "2023-07-16T11:44:47"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4885488"
+size = "4884776"
 usize = "35873516"
-sha1sum = "fb5bb94d65c1d16ca51efee8e7489397332f5618"
-depends = "['libreoffice>=7.5.4.2']"
+sha1sum = "b2d90c55677a11e023f4a542f6fa5c95e5192f70"
+depends = "['libreoffice>=7.5.5.2']"
 +++
 Installs Hungarian support in LibreOffice

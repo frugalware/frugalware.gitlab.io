@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "haskell-regex-tdfa 1.3.2-6"
-version = "1.3.2-6"
+title = "haskell-regex-tdfa 1.3.2.1-1"
+version = "1.3.2.1-1"
+date = "2023-07-14T13:53:47"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/regex-tdfa"
 arch = "x86_64"
-size = "771316"
-usize = "8906607"
-sha1sum = "c0bb95646d8742356a7899dd2f781bb7e5f56790"
+size = "772332"
+usize = "8928487"
+sha1sum = "a2c302f0ebc77fedb2b9c48abcdef8e53a0c0a3b"
 depends = "['haskell-regex-base>=0.93.2-18']"
 +++
 A new all Haskell tagged DFA regex engine, inspired by libtre

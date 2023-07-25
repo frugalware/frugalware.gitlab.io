@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-hsb 7.5.4.2-3"
-version = "7.5.4.2-3"
+title = "libreoffice-l10n-hsb 7.5.5.2-1"
+version = "7.5.5.2-1"
+date = "2023-07-16T11:44:47"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4260064"
-usize = "33613814"
-sha1sum = "dbb3198ef2c0c609f6e760ce30ea014d6a5b80de"
-depends = "['libreoffice>=7.5.4.2']"
+size = "4260524"
+usize = "33614010"
+sha1sum = "0aba23ba0f11d82e1b8c00456fbb969c8a9d18c9"
+depends = "['libreoffice>=7.5.5.2']"
 +++
 Installs Upper Sorbian support in LibreOffice

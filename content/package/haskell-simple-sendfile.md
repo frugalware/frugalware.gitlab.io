@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "haskell-simple-sendfile 0.2.30-5"
-version = "0.2.30-5"
+title = "haskell-simple-sendfile 0.2.32-1"
+version = "0.2.32-1"
+date = "2023-07-20T14:23:40"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/simple-sendfile"
 arch = "x86_64"
-size = "52436"
-usize = "281367"
-sha1sum = "4e8b6daaa96d14faf0db9e338c2e06f62020c752"
+size = "52424"
+usize = "280303"
+sha1sum = "101f53e9230a5f6d3cab588658b6e391b77296ea"
 depends = "['haskell-network']"
 +++
 Cross platform library for the sendfile system call

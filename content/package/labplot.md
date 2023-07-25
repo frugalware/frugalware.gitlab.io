@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "labplot 2.9.0-2"
-version = "2.9.0-2"
+title = "labplot 2.10.1-1"
+version = "2.10.1-1"
+date = "2023-07-17T12:27:52"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "13135024"
-usize = "32199477"
-sha1sum = "658189da9cba220f37382c199e7a90bf9487c29f"
+size = "14860108"
+usize = "36071081"
+sha1sum = "2803db46b04dde18717d19df9cecf00645ac0282"
 depends = "['cantor', 'cfitsio>=4.2.0', 'discount', 'fftw', 'gsl', 'qt5-serialport', 'readstat', 'hdf5']"
 +++
 Application for interactive graphing and analysis of scientific data.

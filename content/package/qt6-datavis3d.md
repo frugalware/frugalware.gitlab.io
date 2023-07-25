@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt6-datavis3d 6.5.1-1"
-version = "6.5.1-1"
+title = "qt6-datavis3d 6.5.2-1"
+version = "6.5.2-1"
+date = "2023-07-24T14:35:10"
 categories = ['xlib-extra']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "582988"
+size = "581744"
 usize = "3208540"
-sha1sum = "bbb3db7dac7dedb7e55cd29d38f8084374497916"
+sha1sum = "beb17536692e1169d2d6ecc772fa2927c6e6d819"
 depends = "['qt6-declarative']"
 +++
 The Qt6 toolkit, qtdatavis3d

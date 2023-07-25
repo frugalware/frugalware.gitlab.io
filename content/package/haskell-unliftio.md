@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "haskell-unliftio 0.2.24.0-3"
-version = "0.2.24.0-3"
+title = "haskell-unliftio 0.2.25.0-1"
+version = "0.2.25.0-1"
+date = "2023-07-20T14:20:38"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/unliftio"
 arch = "x86_64"
-size = "398676"
-usize = "5330206"
-sha1sum = "a8b21d97cacda09851e759b988f320a0d78d46cb"
+size = "402164"
+usize = "5375858"
+sha1sum = "746fc427e9a949a257a299b53713680d466e9d74"
 depends = "['haskell-async', 'haskell-safe-exceptions', 'haskell-unliftio-core']"
 +++
 The MonadUnliftIO typeclass for unlifting monads to IO (batteries included)

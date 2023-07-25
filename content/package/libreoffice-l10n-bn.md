@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-bn 7.5.4.2-3"
-version = "7.5.4.2-3"
+title = "libreoffice-l10n-bn 7.5.5.2-1"
+version = "7.5.5.2-1"
+date = "2023-07-16T11:44:47"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4467940"
+size = "4468172"
 usize = "37489006"
-sha1sum = "fc5a4df45416262eaf9f807b1134c87059969a18"
-depends = "['libreoffice>=7.5.4.2']"
+sha1sum = "1a93b8b1a98c57a06df555a2e410ad88b75b57cc"
+depends = "['libreoffice>=7.5.5.2']"
 +++
 Installs Bengali (Bangladesh) support in LibreOffice

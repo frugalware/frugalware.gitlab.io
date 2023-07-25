@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libgbm 23.1.3-1"
-version = "23.1.3-1"
+title = "libgbm 23.1.4-1"
+version = "23.1.4-1"
+date = "2023-07-22T10:40:20"
 categories = ['x11']
+upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "49440"
+size = "49500"
 usize = "81428"
-sha1sum = "e636e2feea397c5f3f10b73dd1c07a28f109dd32"
+sha1sum = "a1fd9b5f8e3e445491a57e71ffcce79ae5cef810"
 depends = "['libdrm>=2.4.71', 'wayland>=1.11.0-3', 'libglapi']"
 +++
 Mesa gbm library.
