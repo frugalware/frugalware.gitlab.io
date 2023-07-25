@@ -2,9 +2,7 @@
 draft = false
 title = "graphviz 8.0.5-1"
 version = "8.0.5-1"
-date = "2023-06-20T11:24:44"
 categories = ['xapps-extra']
-upstreamurl = "http://www.graphviz.org/"
 arch = "x86_64"
 size = "3326116"
 usize = "11147610"
