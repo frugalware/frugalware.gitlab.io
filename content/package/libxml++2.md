@@ -2,9 +2,7 @@
 draft = false
 title = "libxml++2 5.0.2-1"
 version = "5.0.2-1"
-date = "2023-02-24T16:04:00"
 categories = ['lib-extra']
-upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "104680"
 usize = "470050"
