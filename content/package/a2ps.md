@@ -2,9 +2,7 @@
 draft = false
 title = "a2ps 4.14-8"
 version = "4.14-8"
-date = "2018-02-11T00:21:00"
 categories = ['apps-extra']
-upstreamurl = "http://www.inf.enst.fr/~demaille/a2ps"
 arch = "x86_64"
 size = "655896"
 usize = "3673037"
