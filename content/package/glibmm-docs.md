@@ -2,9 +2,7 @@
 draft = false
 title = "glibmm-docs 2.77.0-1"
 version = "2.77.0-1"
-date = "2023-07-24T18:16:50"
 categories = ['docs-extra']
-upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "4251008"
 usize = "41233751"
