@@ -2,9 +2,7 @@
 draft = false
 title = "thin-provisioning-tools 1.0.4-1"
 version = "1.0.4-1"
-date = "2023-04-26T10:13:34"
 categories = ['base']
-upstreamurl = "https://github.com/jthornber/thin-provisioning-tools"
 arch = "x86_64"
 size = "947296"
 usize = "3117669"
