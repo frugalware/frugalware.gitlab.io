@@ -2,9 +2,7 @@
 draft = false
 title = "openjre 20.0.1-4"
 version = "20.0.1-4"
-date = "2023-06-18T14:17:27"
 categories = ['apps']
-upstreamurl = "http://openjdk.java.net/"
 arch = "x86_64"
 size = "44732832"
 usize = "200906118"
