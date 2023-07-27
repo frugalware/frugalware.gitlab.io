@@ -2,9 +2,7 @@
 draft = false
 title = "dillo 3.0.5-4"
 version = "3.0.5-4"
-date = "2019-07-17T09:51:51"
 categories = ['xapps-extra']
-upstreamurl = "http://www.dillo.org"
 arch = "x86_64"
 size = "394116"
 usize = "1297549"
