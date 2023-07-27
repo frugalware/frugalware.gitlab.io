@@ -2,9 +2,7 @@
 draft = false
 title = "asio 1.26.0-1"
 version = "1.26.0-1"
-date = "2023-03-06T14:22:07"
 categories = ['lib-extra']
-upstreamurl = "https://sourceforge.net/projects/asio"
 arch = "x86_64"
 size = "423884"
 usize = "5708585"
