@@ -2,9 +2,7 @@
 draft = false
 title = "virtualbox-guest-additions 7.0.10-3"
 version = "7.0.10-3"
-date = "2023-07-24T22:58:46"
 categories = ['xapps-extra']
-upstreamurl = "http://www.virtualbox.org"
 arch = "x86_64"
 size = "805880"
 usize = "3174867"
