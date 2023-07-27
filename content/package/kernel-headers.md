@@ -2,9 +2,7 @@
 draft = false
 title = "kernel-headers 6.4.6-1"
 version = "6.4.6-1"
-date = "2023-07-24T22:06:37"
 categories = ['devel', 'devel-core']
-upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
 size = "1166408"
 usize = "5501646"
