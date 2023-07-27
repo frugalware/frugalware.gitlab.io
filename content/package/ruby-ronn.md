@@ -2,9 +2,7 @@
 draft = false
 title = "ruby-ronn 0.7.3-10"
 version = "0.7.3-10"
-date = "2022-12-22T14:51:37"
 categories = ['devel-extra']
-upstreamurl = "http://rtomayko.github.com/ronn"
 arch = "x86_64"
 size = "21108"
 usize = "64300"
