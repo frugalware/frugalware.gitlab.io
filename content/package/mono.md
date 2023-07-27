@@ -2,9 +2,7 @@
 draft = false
 title = "mono 6.12.0.200-1"
 version = "6.12.0.200-1"
-date = "2023-07-12T08:19:17"
 categories = ['devel']
-upstreamurl = "http://www.mono-project.com/"
 arch = "x86_64"
 size = "125384300"
 usize = "333557649"
