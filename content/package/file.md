@@ -2,9 +2,7 @@
 draft = false
 title = "file 5.44-1"
 version = "5.44-1"
-date = "2022-12-26T20:45:21"
 categories = ['base', 'chroot-core']
-upstreamurl = "http://www.darwinsys.com/file/"
 arch = "x86_64"
 size = "409712"
 usize = "8558785"
