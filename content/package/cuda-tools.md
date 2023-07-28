@@ -2,9 +2,7 @@
 draft = false
 title = "cuda-tools 12.1.0-1"
 version = "12.1.0-1"
-date = "2023-03-07T09:27:12"
 categories = ['devel-extra']
-upstreamurl = "https://developer.nvidia.com/cuda-zone"
 arch = "x86_64"
 size = "807107540"
 usize = "1995051781"

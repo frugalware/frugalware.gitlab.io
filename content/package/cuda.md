@@ -2,9 +2,7 @@
 draft = false
 title = "cuda 12.1.0-1"
 version = "12.1.0-1"
-date = "2023-03-07T09:27:12"
 categories = ['lib-extra']
-upstreamurl = "https://developer.nvidia.com/cuda-zone"
 arch = "x86_64"
 size = "960626652"
 usize = "2679548928"
