@@ -2,9 +2,7 @@
 draft = false
 title = "libzen 0.4.40-1"
 version = "0.4.40-1"
-date = "2023-02-14T12:55:45"
 categories = ['lib-extra']
-upstreamurl = "http://mediaarea.net/fr/MediaInfo"
 arch = "x86_64"
 size = "107476"
 usize = "445962"
