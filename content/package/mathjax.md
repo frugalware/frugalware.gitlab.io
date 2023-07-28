@@ -2,9 +2,7 @@
 draft = false
 title = "mathjax 3.2.0-2"
 version = "3.2.0-2"
-date = "2022-02-08T18:32:48"
 categories = ['lib-extra']
-upstreamurl = "https://www.mathjax.org/"
 arch = "x86_64"
 size = "1297992"
 usize = "17551892"
