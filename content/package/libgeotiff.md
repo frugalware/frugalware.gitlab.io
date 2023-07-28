@@ -2,9 +2,7 @@
 draft = false
 title = "libgeotiff 1.7.0-2"
 version = "1.7.0-2"
-date = "2022-02-12T10:37:19"
 categories = ['lib-extra']
-upstreamurl = "https://github.com/OSGeo/libgeotiff"
 arch = "x86_64"
 size = "88840"
 usize = "443334"
