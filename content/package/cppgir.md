@@ -2,9 +2,7 @@
 draft = false
 title = "cppgir 20230605.g6ea21e6-1"
 version = "20230605.g6ea21e6-1"
-date = "2023-06-05T11:34:22"
 categories = ['devel-extra']
-upstreamurl = "https://gitlab.com/mnauw/cppgir"
 arch = "x86_64"
 size = "299936"
 usize = "959697"
