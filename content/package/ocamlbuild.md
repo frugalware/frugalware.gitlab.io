@@ -2,9 +2,7 @@
 draft = false
 title = "ocamlbuild 0.14.2-1"
 version = "0.14.2-1"
-date = "2022-12-14T08:59:13"
 categories = ['devel-extra']
-upstreamurl = "https://github.com/ocaml/ocamlbuild"
 arch = "x86_64"
 size = "1057760"
 usize = "8971122"

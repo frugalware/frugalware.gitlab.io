@@ -2,9 +2,7 @@
 draft = false
 title = "ocaml-compiler-libs 4.14.1-1"
 version = "4.14.1-1"
-date = "2022-12-30T15:37:34"
 categories = ['devel-extra']
-upstreamurl = "http://www.ocaml.org"
 arch = "x86_64"
 size = "30734892"
 usize = "131572314"
