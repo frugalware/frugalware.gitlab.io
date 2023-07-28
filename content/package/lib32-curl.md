@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-curl 8.2.0-1"
 version = "8.2.0-1"
-date = "2023-07-19T18:04:04"
 categories = ['lib32-extra']
-upstreamurl = "http://curl.haxx.se"
 arch = "x86_64"
 size = "451644"
 usize = "1167245"

@@ -2,9 +2,7 @@
 draft = false
 title = "btrfs-progs 6.3.2-1"
 version = "6.3.2-1"
-date = "2023-06-16T10:01:53"
 categories = ['base']
-upstreamurl = "https://btrfs.wiki.kernel.org"
 arch = "x86_64"
 size = "1165324"
 usize = "6960222"
