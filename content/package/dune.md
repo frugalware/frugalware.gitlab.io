@@ -2,9 +2,7 @@
 draft = false
 title = "dune 3.7.0-1"
 version = "3.7.0-1"
-date = "2023-02-27T12:33:09"
 categories = ['devel-extra']
-upstreamurl = "https://github.com/ocaml/dune"
 arch = "x86_64"
 size = "8014312"
 usize = "37814822"
