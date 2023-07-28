@@ -2,9 +2,7 @@
 draft = false
 title = "ocaml-bigarray-compat 1.1.0-2"
 version = "1.1.0-2"
-date = "2023-01-16T12:03:41"
 categories = ['devel-extra']
-upstreamurl = "https://github.com/mirage/bigarray-compat"
 arch = "x86_64"
 size = "14780"
 usize = "74261"
