@@ -2,9 +2,7 @@
 draft = false
 title = "hiredis 1.1.0-2"
 version = "1.1.0-2"
-date = "2023-06-19T10:13:57"
 categories = ['lib-extra', 'devel-core']
-upstreamurl = "https://github.com/redis/hiredis"
 arch = "x86_64"
 size = "56448"
 usize = "196677"
