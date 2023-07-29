@@ -2,9 +2,7 @@
 draft = false
 title = "opendht 2.4.9-5"
 version = "2.4.9-5"
-date = "2023-03-15T23:06:03"
 categories = ['network-extra']
-upstreamurl = "https://github.com/savoirfairelinux/opendht"
 arch = "x86_64"
 size = "972516"
 usize = "3344109"
