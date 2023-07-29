@@ -2,9 +2,7 @@
 draft = false
 title = "spirv-llvm-translator 15.0.0-2"
 version = "15.0.0-2"
-date = "2023-01-05T15:28:53"
 categories = ['devel']
-upstreamurl = "https://github.com/KhronosGroup/SPIRV-LLVM-Translator"
 arch = "x86_64"
 size = "661304"
 usize = "3388020"
