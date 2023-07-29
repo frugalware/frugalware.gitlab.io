@@ -2,9 +2,7 @@
 draft = false
 title = "luajit2 2.0.5-6"
 version = "2.0.5-6"
-date = "2022-01-14T20:46:14"
 categories = ['lib']
-upstreamurl = "http://luajit.org/"
 arch = "x86_64"
 size = "314024"
 usize = "1187351"
