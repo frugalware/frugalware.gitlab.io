@@ -2,9 +2,7 @@
 draft = false
 title = "easyrpg-player 0.7.0-2"
 version = "0.7.0-2"
-date = "2023-03-07T14:20:49"
 categories = ['xapps-extra']
-upstreamurl = "https://easy-rpg.org"
 arch = "x86_64"
 size = "1124268"
 usize = "3297239"
