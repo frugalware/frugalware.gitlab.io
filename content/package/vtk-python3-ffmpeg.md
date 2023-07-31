@@ -2,9 +2,7 @@
 draft = false
 title = "vtk-python3-ffmpeg 9.2.6-4"
 version = "9.2.6-4"
-date = "2023-06-14T13:08:08"
 categories = ['xlib-extra']
-upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
 size = "15016"
 usize = "58488"
