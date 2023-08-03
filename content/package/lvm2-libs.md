@@ -2,9 +2,7 @@
 draft = false
 title = "lvm2-libs 2.03.21-1"
 version = "2.03.21-1"
-date = "2023-04-21T20:21:44"
 categories = ['base', 'core']
-upstreamurl = "http://sources.redhat.com/lvm2/"
 arch = "x86_64"
 size = "1045500"
 usize = "3532377"

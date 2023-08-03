@@ -2,9 +2,7 @@
 draft = false
 title = "lvm2 2.03.21-1"
 version = "2.03.21-1"
-date = "2023-04-21T20:21:44"
 categories = ['base']
-upstreamurl = "http://sources.redhat.com/lvm2/"
 arch = "x86_64"
 size = "1388572"
 usize = "3991506"
