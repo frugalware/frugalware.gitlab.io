@@ -2,9 +2,7 @@
 draft = false
 title = "zfs 2.1.12-10"
 version = "2.1.12-10"
-date = "2023-08-03T12:51:50"
 categories = ['base-extra']
-upstreamurl = "http://zfsonlinux.org"
 arch = "x86_64"
 size = "31639408"
 usize = "46422556"
