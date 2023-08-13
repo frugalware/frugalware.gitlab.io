@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "vtk-static 9.2.6-4"
-version = "9.2.6-4"
+title = "vtk-static 9.2.6-5"
+version = "9.2.6-5"
+date = "2023-07-31T09:41:43"
 categories = ['lib-extra']
+upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "395080"
+size = "395124"
 usize = "444432"
-sha1sum = "a356a819b15717ae70939219c39a144638123697"
+sha1sum = "2b3af021028c7b87409cca8735da35061b427414"
 depends = "['vtk>=9.2.6']"
 +++
 Static libs for $pkgname

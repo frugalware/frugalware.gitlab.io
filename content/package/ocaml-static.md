@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "ocaml-static 4.14.1-1"
-version = "4.14.1-1"
+title = "ocaml-static 5.0.0-1"
+version = "5.0.0-1"
+date = "2023-07-28T09:37:01"
 categories = ['devel-extra']
+upstreamurl = "http://www.ocaml.org"
 arch = "x86_64"
-size = "7993428"
-usize = "28628379"
-sha1sum = "e5ebe9be39b088fd605b44131dd5ec17f3b2ac3f"
+size = "11861328"
+usize = "28306738"
+sha1sum = "af98e2cde2252c9dbd00e3df3a42ac60f6d8cbbc"
 depends = "[]"
 +++
 Caml libraries statically linked.

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "zxing-cpp 2.0.0-1"
-version = "2.0.0-1"
+title = "zxing-cpp 2.1.0-1"
+version = "2.1.0-1"
+date = "2023-07-28T08:14:29"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/zxing-cpp/zxing-cpp"
 arch = "x86_64"
-size = "566660"
-usize = "1390507"
-sha1sum = "cfd95eeed4b23e2516caa46d97a1efe36f5124ee"
+size = "580212"
+usize = "1416737"
+sha1sum = "697e0a0143f3643f954b46b72078e38e5db16d3a"
 depends = "['libstdc++>=11.2']"
 +++
 A command-line tool to decode QRCode

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "coin-or-osi 0.108.7-1"
-version = "0.108.7-1"
+title = "coin-or-osi 0.108.8-1"
+version = "0.108.8-1"
+date = "2023-07-28T08:05:31"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/coin-or/Osi"
 arch = "x86_64"
-size = "296456"
-usize = "1074666"
-sha1sum = "1b3476addbcb6563cafcbd72add56fdac29b1b11"
+size = "308716"
+usize = "1109799"
+sha1sum = "a691807479bb3a92162eaee1baae3dd268d1aeaa"
 depends = "['coin-or-coinutils']"
 +++
 COIN-OR Open Solver Interface

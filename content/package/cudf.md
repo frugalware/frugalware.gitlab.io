@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "cudf 0.9-1"
-version = "0.9-1"
+title = "cudf 0.10-1"
+version = "0.10-1"
+date = "2023-07-28T14:16:23"
 categories = ['lib-extra']
+upstreamurl = "https://irill.gitlab.io/cudf/"
 arch = "x86_64"
-size = "95152"
-usize = "828914"
-sha1sum = "ca46a6f1dedd30540cc5bb456513017549ea77d6"
+size = "1067196"
+usize = "5343170"
+sha1sum = "a09be0f9c2fff0ce78121d596f7268a9aeb0ed1a"
 depends = "['ocaml-extlib']"
 +++
 Library to parse, pretty print, and evaluate CUDF documents

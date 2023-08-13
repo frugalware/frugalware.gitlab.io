@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "openssl-docs 3.1.1-1"
-version = "3.1.1-1"
+title = "openssl-docs 3.1.2-1"
+version = "3.1.2-1"
+date = "2023-08-02T09:13:21"
 categories = ['devel-extra']
+upstreamurl = "http://www.openssl.org/source/"
 arch = "x86_64"
-size = "1105520"
-usize = "6044534"
-sha1sum = "3605fda303bd9ef3529e645f867ba5e7733644c8"
+size = "1106328"
+usize = "6049158"
+sha1sum = "6a4c488c55608d82f793995262c52825e4341f07"
 depends = "[]"
 +++
 HTML documentation for openssl

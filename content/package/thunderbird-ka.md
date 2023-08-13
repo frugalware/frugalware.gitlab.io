@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-ka 102.13.0-1"
-version = "102.13.0-1"
+title = "thunderbird-ka 102.14.0-1"
+version = "102.14.0-1"
+date = "2023-08-03T18:30:20"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "711604"
+size = "711616"
 usize = "769803"
-sha1sum = "f134e69491b280cfce8c149e0b448a81a59990b3"
-depends = "['thunderbird>=102.13.0']"
+sha1sum = "dadfdb4d20980a3d2accbb7e61e07e3071018054"
+depends = "['thunderbird>=102.14.0']"
 +++
 Georgian language support for Thunderbird

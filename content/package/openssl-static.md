@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "openssl-static 3.1.1-1"
-version = "3.1.1-1"
+title = "openssl-static 3.1.2-1"
+version = "3.1.2-1"
+date = "2023-08-02T09:13:21"
 categories = ['devel-extra']
+upstreamurl = "http://www.openssl.org/source/"
 arch = "x86_64"
-size = "21831372"
-usize = "29601274"
-sha1sum = "2fa25e7f8ba2930aacc1d7b39eefad74e872e497"
+size = "21867104"
+usize = "29637058"
+sha1sum = "a011410a46f343b59e89d36f0cacee74e097f178"
 depends = "[]"
 +++
 Static files for openssl

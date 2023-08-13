@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "mkvtoolnix 77.0-1"
-version = "77.0-1"
+title = "mkvtoolnix 78.0-2"
+version = "78.0-2"
+date = "2023-07-28T16:51:08"
 categories = ['multimedia-extra']
+upstreamurl = "https://mkvtoolnix.download/"
 arch = "x86_64"
-size = "8848984"
-usize = "35669840"
-sha1sum = "532a3ca5c94d83cc774947ac0f1e60a8d8437cba"
-depends = "['file>=5.25-3', 'libmatroska>=1.4.5-2', 'libboost>=1.82.0', 'libvorbis>=1.3.5-4', 'flac>=1.4.0', 'pugixml', 'fmtlib>=9.1.0']"
+size = "8855844"
+usize = "35679748"
+sha1sum = "1e5108ea73d5d3284b823d29175d4cf9ce0112f6"
+depends = "['file>=5.25-3', 'libmatroska>=1.4.5-2', 'libboost>=1.82.0', 'libvorbis>=1.3.5-4', 'flac>=1.4.0', 'pugixml', 'fmtlib>=10.0']"
 +++
 MKVToolnix is a set of tools to create, alter and inspect Matroska files under Linux.

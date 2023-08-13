@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "dune 3.7.0-1"
-version = "3.7.0-1"
+title = "dune 3.9.2-1"
+version = "3.9.2-1"
+date = "2023-07-28T10:35:34"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/ocaml/dune"
 arch = "x86_64"
-size = "8014312"
-usize = "37814822"
-sha1sum = "9124e2af6316fa76aa774875c6c18df2e0553b19"
+size = "9473208"
+usize = "44680609"
+sha1sum = "e75943474049235af56c09d429f44b2a07c74e8b"
 depends = "['glibc>=2.34']"
 +++
 A composable build system for OCaml (formerly jbuilder)

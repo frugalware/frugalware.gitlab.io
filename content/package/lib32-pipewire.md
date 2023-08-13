@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "lib32-pipewire 0.3.75-1"
-version = "0.3.75-1"
+title = "lib32-pipewire 0.3.76-1"
+version = "0.3.76-1"
+date = "2023-07-31T10:00:06"
 categories = ['lib32-extra']
+upstreamurl = "https://pipewire.org/"
 arch = "x86_64"
-size = "1319852"
-usize = "6229495"
-sha1sum = "abbacee8aa86d2e6f36fdfa58335ff2d1970b37a"
+size = "1330740"
+usize = "6358959"
+sha1sum = "d222cd1ab19f7f467a2714e777f7ded3707c0ff8"
 depends = "['lib32-libcap', 'lib32-libgcrypt', 'lib32-zstd', 'lib32-libsystemd', 'lib32-glib2', 'lib32-libpulse', 'lib32-libdrm']"
 +++
 A project that aims to greatly improve handling of audio and video under Linux ( 32bit )

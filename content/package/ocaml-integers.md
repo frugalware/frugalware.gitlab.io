@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "ocaml-integers 0.7.0-3"
-version = "0.7.0-3"
+title = "ocaml-integers 0.7.0-4"
+version = "0.7.0-4"
+date = "2023-07-28T10:23:30"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/ocamllabs/ocaml-integers"
 arch = "x86_64"
-size = "286788"
-usize = "1328913"
-sha1sum = "3f1fc51cc9a22a628c37afe8be2c140cf7dd1cd7"
-depends = "['ocaml>=4.14.1', 'ocaml-stdlib-shims']"
+size = "289504"
+usize = "1352010"
+sha1sum = "aa61a0539f7569730e36f387575f8f628a0c177b"
+depends = "['ocaml>=5.0', 'ocaml-stdlib-shims']"
 +++
 Library for binding to C libraries using pure OCaml

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "gmp 6.2.1-4"
-version = "6.2.1-4"
+title = "gmp 6.3.0-1"
+version = "6.3.0-1"
+date = "2023-07-31T06:04:34"
 categories = ['base', 'devel-core', 'chroot-core']
+upstreamurl = "http://gmplib.org"
 arch = "x86_64"
-size = "674428"
-usize = "2254166"
-sha1sum = "649ba4c7270f9e661de60c60a6e26b4450738976"
+size = "681672"
+usize = "2284277"
+sha1sum = "df34096f46f9b2f95b4738717cb2fb6f023e245e"
 depends = "['libstdc++>=12.2']"
 +++
 GNU multiple precision arithmetic library

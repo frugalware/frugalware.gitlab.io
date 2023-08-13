@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kitty 0.29.1-1"
-version = "0.29.1-1"
+title = "kitty 0.29.2-1"
+version = "0.29.2-1"
+date = "2023-07-27T15:55:20"
 categories = ['xapps-extra']
+upstreamurl = "https://github.com/kovidgoyal/kitty"
 arch = "x86_64"
-size = "10718712"
-usize = "40091979"
-sha1sum = "10c95032770fadb9b0271d48571510998e74ff92"
+size = "10712632"
+usize = "40102490"
+sha1sum = "66e796142c5ae56513b82a99b3a30795f4b8a11c"
 depends = "['python3', 'freetype2', 'harfbuzz', 'fontconfig', 'wayland', 'libx11', 'libxi', 'hicolor-icon-theme', 'libgl', 'dbus', 'lcms2', 'librsync', 'libxkbcommon', 'libcanberra', 'imagemagick>=7.1.1', 'python3-pygments']"
 +++
 A modern, hackable, featureful, OpenGL-based terminal emulator

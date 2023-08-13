@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "glib2-static 2.77.0-2"
-version = "2.77.0-2"
+title = "glib2-static 2.76.4-2"
+version = "2.76.4-2"
+date = "2023-07-25T15:53:50"
 categories = ['devel-extra']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "18420880"
-usize = "22254234"
-sha1sum = "b4011b2d1000dd1b9f34305f790dcd836807bdd6"
+size = "18315292"
+usize = "22123046"
+sha1sum = "7874f3f98c8446d39e866259bfb053c0953d5f35"
 depends = "['glibc>=2.35']"
 +++
 Common C routines used by GTK+ and other libraries (static)

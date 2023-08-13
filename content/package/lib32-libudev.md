@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "lib32-libudev 253.7-1"
-version = "253.7-1"
+title = "lib32-libudev 254.1-1"
+version = "254.1-1"
+date = "2023-08-13T19:08:08"
 categories = ['lib32-extra']
+upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
-size = "112104"
-usize = "245709"
-sha1sum = "8ae918219a2328d2c09847b2aa15bf0c5f8cc60c"
+size = "116952"
+usize = "258001"
+sha1sum = "014552b0c7eaca5eacc4c8619937122d06cbabb2"
 depends = "['glibc>=2.34']"
 +++
 Udev library (32bit)

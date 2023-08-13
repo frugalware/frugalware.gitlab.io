@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "coin-or-coinutils 2.11.6-1"
-version = "2.11.6-1"
+title = "coin-or-coinutils 2.11.9-1"
+version = "2.11.9-1"
+date = "2023-07-28T08:12:45"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/coin-or/CoinUtils"
 arch = "x86_64"
-size = "545980"
-usize = "1886296"
-sha1sum = "66d818ba0d9cc24831761259d14fcec2babab296"
+size = "553924"
+usize = "1882659"
+sha1sum = "fb3ce6fd56675448b7e63ea1cd6f606297c3279c"
 depends = "['bzip2', 'zlib>=1.2.12', 'glpk', 'lapack']"
 +++
 COIN-OR collection of utility classes

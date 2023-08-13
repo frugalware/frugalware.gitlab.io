@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-ar 102.13.0-1"
-version = "102.13.0-1"
+title = "thunderbird-ar 102.14.0-1"
+version = "102.14.0-1"
+date = "2023-08-03T18:30:20"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "597852"
+size = "597856"
 usize = "666810"
-sha1sum = "db5cdcd522b3a21e820b6f0ef2b9004958554fe6"
-depends = "['thunderbird>=102.13.0']"
+sha1sum = "e566c21f44224c26c6973b741153697381b14f4b"
+depends = "['thunderbird>=102.14.0']"
 +++
 Arabic language support for Thunderbird

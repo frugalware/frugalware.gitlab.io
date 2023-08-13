@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "mkvtoolnix-gui 77.0-1"
-version = "77.0-1"
+title = "mkvtoolnix-gui 78.0-2"
+version = "78.0-2"
+date = "2023-07-28T16:51:08"
 categories = ['xmultimedia-extra']
+upstreamurl = "https://mkvtoolnix.download/"
 arch = "x86_64"
-size = "1996256"
-usize = "7020909"
-sha1sum = "16d11bf8e1ce385ae7d0f46c4fa502b5dc8b23df"
+size = "2000984"
+usize = "7033220"
+sha1sum = "86a637aa779882cdd30ee0b38f36071195ceb428"
 depends = "['qt5-multimedia>=5.15.10', 'qt5-svg>=5.15.10', 'cmark>=0.30.3', 'mkvtoolnix']"
 +++
 Qt5 GUI for MKVToolnix
