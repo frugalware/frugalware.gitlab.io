@@ -2,9 +2,7 @@
 draft = false
 title = "linux-firmware 20230625-1"
 version = "20230625-1"
-date = "2023-07-06T19:41:46"
 categories = ['base']
-upstreamurl = "http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git/"
 arch = "x86_64"
 size = "271691744"
 usize = "928222923"
