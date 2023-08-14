@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-networkmanager 1.42.8-1"
 version = "1.42.8-1"
-date = "2023-07-06T20:45:36"
 categories = ['lib32-extra']
-upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "2254028"
 usize = "8846271"
