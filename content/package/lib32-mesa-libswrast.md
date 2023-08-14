@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-mesa-libswrast 23.1.4-1"
 version = "23.1.4-1"
-date = "2023-07-22T10:40:20"
 categories = ['x11']
-upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
 size = "23852"
 usize = "0"

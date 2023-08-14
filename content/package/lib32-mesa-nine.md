@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-mesa-nine 23.1.4-1"
 version = "23.1.4-1"
-date = "2023-07-22T10:40:20"
 categories = ['lib32-extra']
-upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
 size = "6224340"
 usize = "39032642"
