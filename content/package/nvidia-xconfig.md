@@ -2,9 +2,7 @@
 draft = false
 title = "nvidia-xconfig 535.86.05-1"
 version = "535.86.05-1"
-date = "2023-07-24T06:57:29"
 categories = ['x11-extra']
-upstreamurl = "http://download.nvidia.com/XFree86/nvidia-xconfig/"
 arch = "x86_64"
 size = "81856"
 usize = "220631"
