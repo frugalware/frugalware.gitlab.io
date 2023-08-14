@@ -2,9 +2,7 @@
 draft = false
 title = "libplacebo 6.292.0-1"
 version = "6.292.0-1"
-date = "2023-07-13T09:00:21"
 categories = ['lib']
-upstreamurl = "https://github.com/haasn/libplacebo"
 arch = "x86_64"
 size = "445556"
 usize = "1461948"

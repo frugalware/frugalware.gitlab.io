@@ -2,9 +2,7 @@
 draft = false
 title = "libwebp 1.3.0-1"
 version = "1.3.0-1"
-date = "2023-01-16T19:55:01"
 categories = ['lib']
-upstreamurl = "https://github.com/webmproject/libwebp"
 arch = "x86_64"
 size = "407432"
 usize = "1360144"

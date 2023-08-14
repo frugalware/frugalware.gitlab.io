@@ -2,9 +2,7 @@
 draft = false
 title = "glib-networking 2.76.0-1"
 version = "2.76.0-1"
-date = "2023-03-31T09:55:39"
 categories = ['lib']
-upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "144300"
 usize = "693782"
