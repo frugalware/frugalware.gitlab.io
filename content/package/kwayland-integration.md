@@ -2,9 +2,7 @@
 draft = false
 title = "kwayland-integration 5.27.6-2"
 version = "5.27.6-2"
-date = "2023-07-10T14:31:32"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "31352"
 usize = "108766"
