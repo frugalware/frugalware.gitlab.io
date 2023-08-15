@@ -2,9 +2,7 @@
 draft = false
 title = "drkonqi 5.27.6-3"
 version = "5.27.6-3"
-date = "2023-07-13T15:04:45"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "513488"
 usize = "2969992"

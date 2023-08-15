@@ -2,9 +2,7 @@
 draft = false
 title = "kinfocenter5 5.27.6-2"
 version = "5.27.6-2"
-date = "2023-07-10T14:36:51"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "952936"
 usize = "3881585"
