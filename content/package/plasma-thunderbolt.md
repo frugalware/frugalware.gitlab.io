@@ -2,9 +2,7 @@
 draft = false
 title = "plasma-thunderbolt 5.27.6-2"
 version = "5.27.6-2"
-date = "2023-07-10T14:46:48"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "102408"
 usize = "467772"
