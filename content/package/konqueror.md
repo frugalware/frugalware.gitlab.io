@@ -2,9 +2,7 @@
 draft = false
 title = "konqueror 23.04.3-2"
 version = "23.04.3-2"
-date = "2023-07-10T16:36:30"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "8355148"
 usize = "27323636"
