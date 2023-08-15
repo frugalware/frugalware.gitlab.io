@@ -2,9 +2,7 @@
 draft = false
 title = "kbackup 23.04.3-2"
 version = "23.04.3-2"
-date = "2023-07-10T19:43:15"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "500988"
 usize = "1181037"
