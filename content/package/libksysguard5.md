@@ -2,9 +2,7 @@
 draft = false
 title = "libksysguard5 5.27.6-2"
 version = "5.27.6-2"
-date = "2023-07-10T14:41:40"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "962044"
 usize = "7154366"

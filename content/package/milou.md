@@ -2,9 +2,7 @@
 draft = false
 title = "milou 5.27.6-2"
 version = "5.27.6-2"
-date = "2023-07-10T14:44:32"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "68436"
 usize = "297807"

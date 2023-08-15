@@ -2,9 +2,7 @@
 draft = false
 title = "ksshaskpass5 5.27.6-2"
 version = "5.27.6-2"
-date = "2023-07-10T14:40:17"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "28428"
 usize = "108470"
