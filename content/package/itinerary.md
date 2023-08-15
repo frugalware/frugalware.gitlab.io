@@ -2,9 +2,7 @@
 draft = false
 title = "itinerary 23.04.3-2"
 version = "23.04.3-2"
-date = "2023-07-10T20:54:32"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "711724"
 usize = "3599895"
