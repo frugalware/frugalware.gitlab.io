@@ -2,9 +2,7 @@
 draft = false
 title = "plasma-sdk 5.27.6.1-2"
 version = "5.27.6.1-2"
-date = "2023-07-10T15:45:02"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "394028"
 usize = "2016644"
