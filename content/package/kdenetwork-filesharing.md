@@ -2,9 +2,7 @@
 draft = false
 title = "kdenetwork-filesharing 23.04.3-2"
 version = "23.04.3-2"
-date = "2023-07-10T16:22:47"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "161560"
 usize = "832029"
