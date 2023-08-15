@@ -2,9 +2,7 @@
 draft = false
 title = "kwrited5 5.27.6-2"
 version = "5.27.6-2"
-date = "2023-07-10T15:26:16"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "19008"
 usize = "47941"
