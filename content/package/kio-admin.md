@@ -2,9 +2,7 @@
 draft = false
 title = "kio-admin 23.04.3-2"
 version = "23.04.3-2"
-date = "2023-07-10T21:18:54"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "61356"
 usize = "293719"
