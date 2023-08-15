@@ -2,9 +2,7 @@
 draft = false
 title = "kate 23.04.3-2"
 version = "23.04.3-2"
-date = "2023-07-10T18:25:31"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "9452912"
 usize = "31319096"
