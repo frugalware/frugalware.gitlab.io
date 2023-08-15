@@ -2,9 +2,7 @@
 draft = false
 title = "pim-sieve-editor 23.04.3-2"
 version = "23.04.3-2"
-date = "2023-07-10T19:23:52"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "536156"
 usize = "1312775"
