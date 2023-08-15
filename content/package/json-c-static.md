@@ -2,9 +2,7 @@
 draft = false
 title = "json-c-static 0.16-3"
 version = "0.16-3"
-date = "2023-01-17T18:24:22"
 categories = ['devel-extra']
-upstreamurl = "https://github.com/json-c/json-c/wiki"
 arch = "x86_64"
 size = "273092"
 usize = "334337"
