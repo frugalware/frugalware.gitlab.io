@@ -2,9 +2,7 @@
 draft = false
 title = "xdg-desktop-portal-kde 5.27.6-2"
 version = "5.27.6-2"
-date = "2023-07-10T15:32:13"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "254556"
 usize = "1044503"
