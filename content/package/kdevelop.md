@@ -2,9 +2,7 @@
 draft = false
 title = "kdevelop 23.04.3-2"
 version = "23.04.3-2"
-date = "2023-07-10T21:03:28"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kdevelop.org/"
 arch = "x86_64"
 size = "9905544"
 usize = "36491955"

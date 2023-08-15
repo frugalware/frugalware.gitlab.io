@@ -2,9 +2,7 @@
 draft = false
 title = "elisa 23.04.3-2"
 version = "23.04.3-2"
-date = "2023-07-10T21:09:58"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1379968"
 usize = "3760473"
