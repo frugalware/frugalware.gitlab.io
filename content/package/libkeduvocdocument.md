@@ -2,9 +2,7 @@
 draft = false
 title = "libkeduvocdocument 23.04.3-2"
 version = "23.04.3-2"
-date = "2023-07-10T17:53:15"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "153272"
 usize = "721596"
