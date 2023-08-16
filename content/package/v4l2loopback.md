@@ -2,9 +2,7 @@
 draft = false
 title = "v4l2loopback 0.12.7-71"
 version = "0.12.7-71"
-date = "2023-08-13T21:58:14"
 categories = ['multimedia-extra']
-upstreamurl = "https://github.com/umlaeute/v4l2loopback"
 arch = "x86_64"
 size = "47420"
 usize = "73661"
