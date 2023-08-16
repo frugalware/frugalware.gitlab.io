@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kosmindoormap 23.04.3-2"
-version = "23.04.3-2"
+title = "kosmindoormap 23.04.3-3"
+version = "23.04.3-3"
+date = "2023-08-15T16:51:27"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "399332"
+size = "399044"
 usize = "1680714"
-sha1sum = "de18f43dba506fed6113bbc6b293dc3b06ee82cb"
+sha1sum = "7093128bd453889af532f31b4ecce1afe703a4d8"
 depends = "['kpublictransport=>23.04.3', 'ki18n>=5.108.0']"
 +++
 OSM multi-floor indoor map renderer

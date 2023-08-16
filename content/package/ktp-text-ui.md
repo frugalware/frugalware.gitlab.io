@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "ktp-text-ui 23.04.3-2"
-version = "23.04.3-2"
+title = "ktp-text-ui 23.04.3-3"
+version = "23.04.3-3"
+date = "2023-08-15T14:17:17"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "728752"
+size = "729216"
 usize = "3802715"
-sha1sum = "912c59087c55780096a1e8565a9dd96e8b65b20f"
+sha1sum = "dfcab674ec7c7d8d27c1fa3c8d60f4500c1c9c32"
 depends = "['ktp-common-internals>=23.04.3', 'kemoticons>=5.108.0', 'qt5-webengine>=5.15.10', 'qt5-speech>=5.15.10']"
 +++
 Telepathy text chat handler.

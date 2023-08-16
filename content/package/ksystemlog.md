@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "ksystemlog 23.04.3-2"
-version = "23.04.3-2"
+title = "ksystemlog 23.04.3-3"
+version = "23.04.3-3"
+date = "2023-08-15T12:45:10"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2105620"
-usize = "5972210"
-sha1sum = "4e1ad4d372f04c57116e8946ed3fb64e79fbaeac"
+size = "2106656"
+usize = "5972178"
+sha1sum = "82993027355413de9cdfdc7a8e7db9c7f465e297"
 depends = "['kio>=5.108.0']"
 +++
 KDE system log viewer tool.

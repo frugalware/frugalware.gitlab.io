@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "libobjc 12.3.0-2"
-version = "12.3.0-2"
-date = "2023-05-15T19:40:44"
+title = "libobjc 13.2.0-2"
+version = "13.2.0-2"
+date = "2023-08-15T20:25:42"
 categories = ['lib-extra']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "123156"
-usize = "597452"
-sha1sum = "1347733b478742212772affc4a5644fd1b6350d7"
+size = "134076"
+usize = "598258"
+sha1sum = "8ba1982277d98d7513c6a406e15126e8efcf1da1"
 depends = "['libgcc']"
 +++
 Objective-C runtime

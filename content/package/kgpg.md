@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kgpg 23.04.3-2"
-version = "23.04.3-2"
+title = "kgpg 23.04.3-3"
+version = "23.04.3-3"
+date = "2023-08-15T14:49:40"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3191656"
-usize = "8666942"
-sha1sum = "39f1d8782a708f99ca7d2af8dbbc7e2fdda02f0e"
+size = "3190760"
+usize = "8666963"
+sha1sum = "c43c652c3ac2dc5de43006eef01dda2112bc84fe"
 depends = "['akonadi-contacts>=23.04.3', 'gpgme', 'gpg-agent']"
 +++
 KGpg is a simple interface for GnuPG

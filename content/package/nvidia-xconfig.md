@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "nvidia-xconfig 535.86.05-1"
-version = "535.86.05-1"
+title = "nvidia-xconfig 535.98-1"
+version = "535.98-1"
+date = "2023-08-14T15:20:21"
 categories = ['x11-extra']
+upstreamurl = "http://download.nvidia.com/XFree86/nvidia-xconfig/"
 arch = "x86_64"
-size = "81856"
-usize = "220631"
-sha1sum = "69dafc65936f1ad721f8999e1ce333eaf4acfff5"
+size = "81796"
+usize = "220628"
+sha1sum = "5f28d2d2874a7465bd0f806daed262ae8c8899bd"
 depends = "['libpciaccess']"
 +++
 nVidia settings configuration tool.

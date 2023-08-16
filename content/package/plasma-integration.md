@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "plasma-integration 5.27.6-2"
-version = "5.27.6-2"
+title = "plasma-integration 5.27.7-1"
+version = "5.27.7-1"
+date = "2023-08-15T09:45:10"
 categories = ['plasma']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "139540"
-usize = "520367"
-sha1sum = "2f24c8f6e9212bc6f3f6f72c94f1c229af6e3563"
-depends = "['kio>=5.108.0', 'kwayland>=5.108.0', 'breeze>=5.27.6', 'qt5-svg>=5.15.10', 'qt5-quickcontrols2>=5.15.10', 'noto-fonts', 'hack', 'noto-emoji']"
+size = "139660"
+usize = "520483"
+sha1sum = "0289890a36edb317d424ba2e8878185a823e056e"
+depends = "['kio>=5.108.0', 'kwayland>=5.108.0', 'breeze>=5.27.7', 'qt5-svg>=5.15.10', 'qt5-quickcontrols2>=5.15.10', 'noto-fonts', 'hack', 'noto-emoji']"
 +++
 Qt Platform Theme integration plugins for the Plasma workspaces.

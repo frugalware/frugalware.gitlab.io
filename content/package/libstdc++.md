@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "libstdc++ 12.3.0-2"
-version = "12.3.0-2"
-date = "2023-05-15T19:40:44"
+title = "libstdc++ 13.2.0-2"
+version = "13.2.0-2"
+date = "2023-08-15T20:25:42"
 categories = ['base', 'chroot-core', 'devel-core']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "3520964"
-usize = "29236083"
-sha1sum = "5cacceadf4735d0d7bf8b34be79ba0854e7b9312"
+size = "3789276"
+usize = "31376191"
+sha1sum = "0a6ecb26b03a9969f1e7284d815465bf2e933712"
 depends = "['libgcc']"
 +++
 GNU Standard C++ Library

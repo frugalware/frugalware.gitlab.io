@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-rm 115.0.2-1"
-version = "115.0.2-1"
+title = "firefox-rm 116.0.2-1"
+version = "116.0.2-1"
+date = "2023-08-14T17:35:52"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "530540"
-usize = "592653"
-sha1sum = "74dc835ad9fe66d1f006039ed6dede4370e32e32"
-depends = "['firefox>=115.0.2']"
+size = "507404"
+usize = "558028"
+sha1sum = "7ce39b21c3d066091a94d1bfce4bfb3cd9d7c1b8"
+depends = "['firefox>=116.0.2']"
 +++
 Romansh language support for Firefox

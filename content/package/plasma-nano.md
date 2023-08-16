@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "plasma-nano 5.27.6-2"
-version = "5.27.6-2"
+title = "plasma-nano 5.27.7-1"
+version = "5.27.7-1"
+date = "2023-08-15T11:25:30"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "41560"
-usize = "213625"
-sha1sum = "8cdc1d5784eae129bd513be4948886ff70633fa3"
+size = "41544"
+usize = "213675"
+sha1sum = "a3323ef2c252687a1fbe87f0b5c5969012a96fdb"
 depends = "['plasma-framework>=5.108.0']"
 +++
 A minimal Plasma shell package

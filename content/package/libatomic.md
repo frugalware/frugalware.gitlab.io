@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "libatomic 12.3.0-2"
-version = "12.3.0-2"
-date = "2023-05-15T19:40:44"
+title = "libatomic 13.2.0-2"
+version = "13.2.0-2"
+date = "2023-08-15T20:25:42"
 categories = ['lib']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "25920"
-usize = "275698"
-sha1sum = "b1f6e0b6d97841f885fdbf6d179ef0776d27a8d6"
+size = "36856"
+usize = "280418"
+sha1sum = "e23e716f867a081520dd4f504f3dd8cec6f08a46"
 depends = "['glibc']"
 +++
 Atomic libraries from GCC

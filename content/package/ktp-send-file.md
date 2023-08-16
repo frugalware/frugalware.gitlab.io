@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "ktp-send-file 23.04.3-2"
-version = "23.04.3-2"
+title = "ktp-send-file 23.04.3-3"
+version = "23.04.3-3"
+date = "2023-08-15T14:13:28"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "42040"
+size = "42056"
 usize = "162139"
-sha1sum = "17160d0dfe0582f5c0449675ba21b2cd6cacc847"
+sha1sum = "943d9b6b7342dddf2b3b68035c39e20c013a6319"
 depends = "['ktp-common-internals>=23.04.3']"
 +++
 Telepathy dolphin/konqueror context menu plugin for sending files to contacts.

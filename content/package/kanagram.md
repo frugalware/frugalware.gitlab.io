@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kanagram 23.04.3-2"
-version = "23.04.3-2"
+title = "kanagram 23.04.3-3"
+version = "23.04.3-3"
+date = "2023-08-15T13:55:48"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "6992472"
-usize = "8036823"
-sha1sum = "628d9b5376c23ae8c8e76ce26ba9b899bde7739c"
+size = "6991936"
+usize = "8036789"
+sha1sum = "d235650c6574a3e6f30d714124ca05fb8d43ef7e"
 depends = "['kdeclarative>=5.108.0', 'knewstuff>=5.108.0', 'libkeduvocdocument>=23.04.3', 'qt5-declarative>=5.15.10', 'qt5-svg>=5.15.10']"
 +++
 Letter Order Game.

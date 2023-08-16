@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "binutils 2.40-3"
-version = "2.40-3"
-date = "2023-05-15T18:19:25"
+title = "binutils 2.41-2"
+version = "2.41-2"
+date = "2023-08-16T08:04:58"
 categories = ['devel', 'devel-core']
 upstreamurl = "http://www.gnu.org/software/binutils/"
 arch = "x86_64"
-size = "9007500"
-usize = "37440849"
-sha1sum = "affcc6468860123811f8400b330e979366aea56a"
-depends = "['bash', 'glibc>=2.37', 'libstdc++>=12.3.0']"
+size = "17171628"
+usize = "48624177"
+sha1sum = "bd8c6d8ecd460224ab7c27c9d85415844e2cb918"
+depends = "['bash', 'glibc>=2.38', 'libstdc++>=13.1']"
 +++
 A set of programs to assemble and manipulate binary and object files

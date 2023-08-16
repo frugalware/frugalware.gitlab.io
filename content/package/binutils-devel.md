@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "binutils-devel 2.40-3"
-version = "2.40-3"
-date = "2023-05-15T18:19:25"
+title = "binutils-devel 2.41-2"
+version = "2.41-2"
+date = "2023-08-16T08:04:58"
 categories = ['devel', 'devel-core']
 upstreamurl = "http://www.gnu.org/software/binutils/"
 arch = "x86_64"
-size = "5815996"
-usize = "7046656"
-sha1sum = "6df518a2c35f7819790b4a35b668b2c2ef5682ad"
+size = "5913436"
+usize = "7141485"
+sha1sum = "4940ada36f4edc15a7b24b957d6c2362c5d0b337"
 depends = "[]"
 +++
 Develompent files for binutils

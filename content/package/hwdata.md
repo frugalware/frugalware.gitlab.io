@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "hwdata 0.372-1"
-version = "0.372-1"
+title = "hwdata 0.373-1"
+version = "0.373-1"
+date = "2023-08-14T15:08:17"
 categories = ['base', 'core']
+upstreamurl = "https://github.com/vcrhonek/hwdata"
 arch = "x86_64"
-size = "1560584"
-usize = "9242325"
-sha1sum = "691f353744a9724da09298f8e3acaa8cbeb6bb95"
+size = "1564956"
+usize = "9279270"
+sha1sum = "5cc322bef7e5063c4ba48ddb4f5c531d5eabd31a"
 depends = "['kmod>=25-2']"
 +++
 Hardware identification and configuration data

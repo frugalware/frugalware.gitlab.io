@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "plasma-bigscreen 5.27.6-2"
-version = "5.27.6-2"
+title = "plasma-bigscreen 5.27.7-1"
+version = "5.27.7-1"
+date = "2023-08-15T11:29:36"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "934828"
-usize = "1927337"
-sha1sum = "6014aa0ad28b23737e7ba63d5a7cef53c7590a3f"
-depends = "['kdeconnect-kde>=23.04.3', 'plasma-nano>=5.27.6', 'plasma-nm>=5.27.6', 'plasma-pa>=5.27.6', 'plasma-remotecontrollers>=5.27.6', 'plasma-settings', 'qt5-virtualkeyboard>=5.15.10', 'aura-browser>=5.27.6', 'plank-player>=5.27.6']"
+size = "933748"
+usize = "1927381"
+sha1sum = "db72f30d2514182114cf52bf649d8a0f4cde980d"
+depends = "['kdeconnect-kde>=23.04.3', 'plasma-nano>=5.27.7', 'plasma-nm>=5.27.7', 'plasma-pa>=5.27.7', 'plasma-remotecontrollers>=5.27.7', 'plasma-settings', 'qt5-virtualkeyboard>=5.15.10', 'aura-browser>=5.27.7', 'plank-player>=5.27.7']"
 +++
 Plasma shell for TVs

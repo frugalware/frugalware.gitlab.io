@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "calindori 23.04.3-2"
-version = "23.04.3-2"
+title = "calindori 23.04.3-3"
+version = "23.04.3-3"
+date = "2023-08-15T17:04:47"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "267728"
+size = "269268"
 usize = "1362601"
-sha1sum = "b9154f5708d51064db543f01f882ea1a3041534e"
+sha1sum = "5f38ee4e367db4d754137ea94217a00db7c55ca1"
 depends = "['kirigami2', 'kcalendarcore', 'kpeople5', 'qt5-quickcontrols2', 'knotifications']"
 +++
 Calendar for Plasma Mobil

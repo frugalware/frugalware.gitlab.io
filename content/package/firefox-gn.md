@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-gn 115.0.2-1"
-version = "115.0.2-1"
+title = "firefox-gn 116.0.2-1"
+version = "116.0.2-1"
+date = "2023-08-14T17:35:52"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "550692"
-usize = "612070"
-sha1sum = "0bb6e46efe304e742672646c45ae6ab2de9c53f1"
-depends = "['firefox>=115.0.2']"
+size = "527732"
+usize = "578262"
+sha1sum = "17ff459759a3c3fe32a5fb036dd797fc12fc53de"
+depends = "['firefox>=116.0.2']"
 +++
 Guarani language support for Firefox

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "opencl-clover 23.1.4-1"
-version = "23.1.4-1"
+title = "opencl-clover 23.1.5-1"
+version = "23.1.5-1"
+date = "2023-08-13T23:27:01"
 categories = ['x11']
+upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "1321444"
+size = "1321376"
 usize = "4428571"
-sha1sum = "b1d16cebda1f30754839601aa5b8b6d0a27911d9"
+sha1sum = "adf292988e00aaec62aad5e5299cf3398afae096"
 depends = "['spirv-llvm-translator', 'libcl']"
 +++
 Mesa OpenCL Clover

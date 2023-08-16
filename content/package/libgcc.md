@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "libgcc 12.3.0-2"
-version = "12.3.0-2"
-date = "2023-05-15T19:40:44"
+title = "libgcc 13.2.0-2"
+version = "13.2.0-2"
+date = "2023-08-15T20:25:42"
 categories = ['base', 'chroot-core', 'devel-core']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "101688"
-usize = "269672"
-sha1sum = "8af74a8dff03b50148a8603f95069864b77c54c9"
+size = "126836"
+usize = "306536"
+sha1sum = "98d62d109113c1fb6462df75b85df06365fb6606"
 depends = "['glibc']"
 +++
 GCC shared support library

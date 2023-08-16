@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "meson 1.1.1-1"
-version = "1.1.1-1"
+title = "meson 1.2.1-1"
+version = "1.2.1-1"
+date = "2023-08-14T17:34:30"
 categories = ['devel-extra']
+upstreamurl = "http://mesonbuild.com/"
 arch = "x86_64"
-size = "1686140"
-usize = "8191130"
-sha1sum = "8d7d0c19b9bdb4b3ab9bb43fd47a48d71918a79a"
+size = "1764584"
+usize = "8564389"
+sha1sum = "b335a7eedee7c53a9c04e2625e9994c6383dbae9"
 depends = "['python3>=3.11', 'ninja>=1.8.2-2', 'python3-setuptools']"
 +++
 High productivity build system

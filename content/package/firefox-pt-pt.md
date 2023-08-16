@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-pt-pt 115.0.2-1"
-version = "115.0.2-1"
+title = "firefox-pt-pt 116.0.2-1"
+version = "116.0.2-1"
+date = "2023-08-14T17:35:52"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "535340"
-usize = "598863"
-sha1sum = "71246638370173dc2447d779bdc4571798e111d5"
-depends = "['firefox>=115.0.2']"
+size = "514784"
+usize = "568407"
+sha1sum = "3580bc8ad5d756b4221cd8bf8ff52bb8ed49b683"
+depends = "['firefox>=116.0.2']"
 +++
 Portuguese language support for Firefox

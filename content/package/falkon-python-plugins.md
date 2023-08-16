@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "falkon-python-plugins 23.04.3-2"
-version = "23.04.3-2"
+title = "falkon-python-plugins 23.04.3-3"
+version = "23.04.3-3"
+date = "2023-08-15T15:41:26"
 categories = ['xlib-extra']
+upstreamurl = "https://www.falkon.org"
 arch = "x86_64"
-size = "400004"
+size = "400704"
 usize = "1326504"
-sha1sum = "13234b4aca2298b7bd98b0a3634e4f8c56f18c25"
+sha1sum = "293e204cb1230dba9cdeaa86bf235892c35016c1"
 depends = "['pyside2', 'falkon']"
 +++
 Python Plugins for Falkon

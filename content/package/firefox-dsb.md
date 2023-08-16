@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-dsb 115.0.2-1"
-version = "115.0.2-1"
+title = "firefox-dsb 116.0.2-1"
+version = "116.0.2-1"
+date = "2023-08-14T17:35:52"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "556008"
-usize = "620451"
-sha1sum = "dedca4400e6918aa10e1d2f9195732b747d131f9"
-depends = "['firefox>=115.0.2']"
+size = "538192"
+usize = "589663"
+sha1sum = "0c6e87a541329035acf73e75f2d083d72a0595b0"
+depends = "['firefox>=116.0.2']"
 +++
 Lower Sorbian language support for Firefox

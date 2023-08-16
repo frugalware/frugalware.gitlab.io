@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "glibc 2.37-3"
-version = "2.37-3"
-date = "2023-05-15T10:19:33"
+title = "glibc 2.38-2"
+version = "2.38-2"
+date = "2023-08-16T07:53:51"
 categories = ['base', 'chroot-core']
 upstreamurl = "http://www.gnu.org/software/libc/libc.html"
 arch = "x86_64"
-size = "23338204"
-usize = "272748106"
-sha1sum = "84b35972cd0b6e6f4cb37fe31cec9e1142f7e4a3"
+size = "23097068"
+usize = "273989280"
+sha1sum = "77f29ed6a41f13d6e9c2551a03d73879d398b643"
 depends = "['tzdata>=2017a', 'frugalware']"
 +++
 GNU C Library

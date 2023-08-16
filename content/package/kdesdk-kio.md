@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kdesdk-kio 23.04.3-2"
-version = "23.04.3-2"
+title = "kdesdk-kio 23.04.3-3"
+version = "23.04.3-3"
+date = "2023-08-15T15:48:47"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "44996"
+size = "45060"
 usize = "207988"
-sha1sum = "0e8819c9937543aa5f81f1ea44f87e978370b5da"
+sha1sum = "622302b6003e0601a4b0a16faa91b31b7508aaee"
 depends = "['kio>=5.108.0', 'ki18n>=5.108.0']"
 +++
 KIO-Slaves.

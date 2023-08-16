@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "ffmpegthumbs 23.04.3-2"
-version = "23.04.3-2"
+title = "ffmpegthumbs 23.04.3-3"
+version = "23.04.3-3"
+date = "2023-08-15T12:12:14"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "27672"
+size = "27716"
 usize = "79556"
-sha1sum = "f7af8e5f25a2c7f4b4922ca4d52a02d4add26514"
+sha1sum = "caa2b426f394935cbe997da687297d0b37ab5518"
 depends = "['kio>=5.108.0', 'ffmpeg>=6.0', 'taglib']"
 +++
 FFmpeg based thumbnail generator.
