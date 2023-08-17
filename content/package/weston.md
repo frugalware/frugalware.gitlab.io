@@ -2,9 +2,7 @@
 draft = false
 title = "weston 12.0.1-1"
 version = "12.0.1-1"
-date = "2023-06-20T20:05:24"
 categories = ['x11-extra']
-upstreamurl = "http://wayland.freedesktop.org/"
 arch = "x86_64"
 size = "1223988"
 usize = "5120433"
