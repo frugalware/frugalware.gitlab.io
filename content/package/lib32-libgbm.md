@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libgbm 23.1.5-1"
 version = "23.1.5-1"
-date = "2023-08-13T23:27:01"
 categories = ['lib32-extra']
-upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
 size = "63652"
 usize = "138678"
