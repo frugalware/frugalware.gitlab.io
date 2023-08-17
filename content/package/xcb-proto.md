@@ -2,9 +2,7 @@
 draft = false
 title = "xcb-proto 1.15.2-3"
 version = "1.15.2-3"
-date = "2022-11-01T22:29:50"
 categories = ['x11', 'xorg-core', 'xorg-proto']
-upstreamurl = "http://xcb.freedesktop.org"
 arch = "x86_64"
 size = "128300"
 usize = "1098040"
