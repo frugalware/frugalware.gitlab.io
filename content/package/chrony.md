@@ -2,9 +2,7 @@
 draft = false
 title = "chrony 4.3-1"
 version = "4.3-1"
-date = "2022-09-02T20:13:51"
 categories = ['network']
-upstreamurl = "http://chrony.tuxfamily.org/"
 arch = "x86_64"
 size = "264292"
 usize = "558978"

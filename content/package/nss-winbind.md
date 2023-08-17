@@ -2,9 +2,7 @@
 draft = false
 title = "nss-winbind 4.18.5-1"
 version = "4.18.5-1"
-date = "2023-07-21T11:48:58"
 categories = ['network']
-upstreamurl = "http://www.samba.org"
 arch = "x86_64"
 size = "41536"
 usize = "93880"
