@@ -2,9 +2,7 @@
 draft = false
 title = "baloo5 5.108.0-1"
 version = "5.108.0-1"
-date = "2023-07-10T12:04:58"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "408992"
 usize = "2149006"

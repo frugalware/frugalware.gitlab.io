@@ -2,9 +2,7 @@
 draft = false
 title = "kactivities5 5.108.0-1"
 version = "5.108.0-1"
-date = "2023-07-10T12:02:05"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "111832"
 usize = "449440"
