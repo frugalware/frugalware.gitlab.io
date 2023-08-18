@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "shadow 4.13-1"
-version = "4.13-1"
+title = "shadow 4.14.0-1"
+version = "4.14.0-1"
+date = "2023-08-17T09:51:50"
 categories = ['base', 'chroot-core']
+upstreamurl = "https://github.com/shadow-maint/shadow"
 arch = "x86_64"
-size = "748288"
-usize = "4748181"
-sha1sum = "8e9b9aa4b176177c9b8ef3e30891a6ce4502e9e1"
-depends = "['glibc>=2.34', 'pam>=1.3.0-4', 'xfsprogs-acl>=2.2.52-6']"
+size = "747620"
+usize = "4730527"
+sha1sum = "86c8f0ef8af97f7238fbb4976f40db644c9f5f6e"
+depends = "['libsystemd']"
 +++
 Shadow password file utilities
