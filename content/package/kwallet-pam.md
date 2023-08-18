@@ -2,9 +2,7 @@
 draft = false
 title = "kwallet-pam 5.27.7-1"
 version = "5.27.7-1"
-date = "2023-08-15T09:26:50"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "15040"
 usize = "32784"
