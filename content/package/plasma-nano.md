@@ -2,9 +2,7 @@
 draft = false
 title = "plasma-nano 5.27.7-1"
 version = "5.27.7-1"
-date = "2023-08-15T11:25:30"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "41544"
 usize = "213675"

@@ -2,9 +2,7 @@
 draft = false
 title = "oxygen 5.27.7-1"
 version = "5.27.7-1"
-date = "2023-08-15T10:46:09"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "2809004"
 usize = "18599539"
