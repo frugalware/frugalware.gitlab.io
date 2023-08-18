@@ -2,9 +2,7 @@
 draft = false
 title = "modemmanager-qt 5.108.0-1"
 version = "5.108.0-1"
-date = "2023-07-10T11:10:17"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "138492"
 usize = "608177"
