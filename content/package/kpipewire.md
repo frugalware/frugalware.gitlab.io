@@ -2,9 +2,7 @@
 draft = false
 title = "kpipewire 5.27.7-1"
 version = "5.27.7-1"
-date = "2023-08-15T10:17:21"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "77244"
 usize = "307227"
