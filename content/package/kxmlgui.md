@@ -2,9 +2,7 @@
 draft = false
 title = "kxmlgui 5.108.0-1"
 version = "5.108.0-1"
-date = "2023-07-10T11:56:28"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "672360"
 usize = "3558360"

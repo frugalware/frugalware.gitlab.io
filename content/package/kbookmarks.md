@@ -2,9 +2,7 @@
 draft = false
 title = "kbookmarks 5.108.0-1"
 version = "5.108.0-1"
-date = "2023-07-10T11:57:30"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "140308"
 usize = "677953"
