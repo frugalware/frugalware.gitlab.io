@@ -2,9 +2,7 @@
 draft = false
 title = "audiocd-kio 23.04.3-3"
 version = "23.04.3-3"
-date = "2023-08-15T13:10:39"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "673428"
 usize = "2492087"
