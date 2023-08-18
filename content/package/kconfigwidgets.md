@@ -2,9 +2,7 @@
 draft = false
 title = "kconfigwidgets 5.108.0-1"
 version = "5.108.0-1"
-date = "2023-07-10T11:43:03"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "367592"
 usize = "1616427"
