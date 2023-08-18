@@ -2,9 +2,7 @@
 draft = false
 title = "kaccounts-providers 23.04.3-3"
 version = "23.04.3-3"
-date = "2023-08-15T15:34:14"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "66968"
 usize = "294831"
