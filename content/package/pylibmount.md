@@ -2,9 +2,7 @@
 draft = false
 title = "pylibmount 2.39.1-1"
 version = "2.39.1-1"
-date = "2023-07-06T21:16:23"
 categories = ['apps-extra']
-upstreamurl = "http://www.kernel.org/pub/linux/utils/util-linux/"
 arch = "x86_64"
 size = "29648"
 usize = "94471"

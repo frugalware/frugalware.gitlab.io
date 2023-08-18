@@ -2,9 +2,7 @@
 draft = false
 title = "util-linux 2.39.1-1"
 version = "2.39.1-1"
-date = "2023-07-06T21:16:23"
 categories = ['base', 'chroot-core']
-upstreamurl = "http://www.kernel.org/pub/linux/utils/util-linux/"
 arch = "x86_64"
 size = "3115076"
 usize = "15448728"
