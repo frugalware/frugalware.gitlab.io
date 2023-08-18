@@ -2,9 +2,7 @@
 draft = false
 title = "oxygen-icons5 5.108.0-1"
 version = "5.108.0-1"
-date = "2023-07-10T13:02:25"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "31734608"
 usize = "33061480"
