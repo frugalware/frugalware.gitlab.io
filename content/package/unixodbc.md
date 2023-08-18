@@ -2,9 +2,7 @@
 draft = false
 title = "unixodbc 2.3.11-1"
 version = "2.3.11-1"
-date = "2022-09-05T12:00:02"
 categories = ['devel']
-upstreamurl = "http://www.unixodbc.org/"
 arch = "x86_64"
 size = "277668"
 usize = "1085594"
