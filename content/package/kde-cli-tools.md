@@ -2,9 +2,7 @@
 draft = false
 title = "kde-cli-tools 5.27.7-1"
 version = "5.27.7-1"
-date = "2023-08-15T10:02:46"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "896296"
 usize = "4474057"
