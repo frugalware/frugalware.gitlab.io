@@ -2,9 +2,7 @@
 draft = false
 title = "kdbusaddons 5.108.0-1"
 version = "5.108.0-1"
-date = "2023-07-10T11:23:53"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "60452"
 usize = "225110"

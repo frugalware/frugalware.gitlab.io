@@ -2,9 +2,7 @@
 draft = false
 title = "kconfig 5.108.0-1"
 version = "5.108.0-1"
-date = "2023-07-10T11:28:52"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "345212"
 usize = "1581455"
