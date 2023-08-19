@@ -2,9 +2,7 @@
 draft = false
 title = "zlib 1.2.13-2"
 version = "1.2.13-2"
-date = "2023-02-20T12:08:27"
 categories = ['base', 'chroot-core']
-upstreamurl = "http://www.zlib.net/"
 arch = "x86_64"
 size = "140516"
 usize = "434642"
