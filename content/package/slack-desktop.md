@@ -2,9 +2,7 @@
 draft = false
 title = "slack-desktop 4.33.73-1"
 version = "4.33.73-1"
-date = "2023-07-12T19:29:39"
 categories = ['xapps-extra']
-upstreamurl = "https://slack.com/downloads"
 arch = "x86_64"
 size = "75896956"
 usize = "273758299"

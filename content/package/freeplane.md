@@ -2,9 +2,7 @@
 draft = false
 title = "freeplane 1.11.4-1"
 version = "1.11.4-1"
-date = "2023-07-12T19:36:24"
 categories = ['xapps-extra']
-upstreamurl = "https://www.freeplane.org/"
 arch = "x86_64"
 size = "51074480"
 usize = "62440374"
