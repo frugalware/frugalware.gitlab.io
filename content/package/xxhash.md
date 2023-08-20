@@ -2,9 +2,7 @@
 draft = false
 title = "xxhash 0.8.1-2"
 version = "0.8.1-2"
-date = "2022-11-22T15:33:58"
 categories = ['apps', 'chroot-core']
-upstreamurl = "https://www.xxhash.com/"
 arch = "x86_64"
 size = "82584"
 usize = "348640"

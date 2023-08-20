@@ -2,9 +2,7 @@
 draft = false
 title = "cryfs 0.11.3-3"
 version = "0.11.3-3"
-date = "2023-04-21T11:25:19"
 categories = ['apps']
-upstreamurl = "https://github.com/cryfs/cryfs"
 arch = "x86_64"
 size = "1192132"
 usize = "4897385"
