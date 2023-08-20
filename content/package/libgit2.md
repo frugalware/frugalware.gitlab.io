@@ -2,9 +2,7 @@
 draft = false
 title = "libgit2 1.7.0-1"
 version = "1.7.0-1"
-date = "2023-07-18T08:27:08"
 categories = ['lib']
-upstreamurl = "http://libgit2.github.com/"
 arch = "x86_64"
 size = "846488"
 usize = "2883270"
