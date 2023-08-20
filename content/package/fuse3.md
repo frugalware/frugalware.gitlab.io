@@ -2,9 +2,7 @@
 draft = false
 title = "fuse3 3.15.1-1"
 version = "3.15.1-1"
-date = "2023-07-12T10:18:55"
 categories = ['apps']
-upstreamurl = "https://github.com/libfuse/libfuse"
 arch = "x86_64"
 size = "126100"
 usize = "492557"

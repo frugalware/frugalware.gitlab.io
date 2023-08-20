@@ -2,9 +2,7 @@
 draft = false
 title = "smartmontools 7.3-2"
 version = "7.3-2"
-date = "2023-02-01T17:55:48"
 categories = ['apps']
-upstreamurl = "http://smartmontools.sourceforge.net/"
 arch = "x86_64"
 size = "556404"
 usize = "2151380"

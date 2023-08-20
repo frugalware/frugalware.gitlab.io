@@ -2,9 +2,7 @@
 draft = false
 title = "iniparser 4.1-8"
 version = "4.1-8"
-date = "2023-06-20T13:45:28"
 categories = ['lib-extra']
-upstreamurl = "http://ndevilla.free.fr/iniparser"
 arch = "x86_64"
 size = "73324"
 usize = "113370"

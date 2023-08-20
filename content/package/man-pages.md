@@ -2,9 +2,7 @@
 draft = false
 title = "man-pages 6.04-1"
 version = "6.04-1"
-date = "2023-04-17T13:21:55"
 categories = ['apps']
-upstreamurl = "http://www.kernel.org/doc/man-pages/index.html"
 arch = "x86_64"
 size = "1516136"
 usize = "7495367"
