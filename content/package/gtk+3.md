@@ -2,9 +2,7 @@
 draft = false
 title = "gtk+3 3.24.37-1"
 version = "3.24.37-1"
-date = "2023-03-03T22:08:29"
 categories = ['xlib']
-upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
 size = "8247856"
 usize = "52876293"
