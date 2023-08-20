@@ -2,9 +2,7 @@
 draft = false
 title = "libxmlb 0.3.10-1"
 version = "0.3.10-1"
-date = "2023-01-05T19:45:29"
 categories = ['lib']
-upstreamurl = "https://github.com/hughsie/libxmlb"
 arch = "x86_64"
 size = "199352"
 usize = "1518781"
