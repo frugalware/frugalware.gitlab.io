@@ -2,9 +2,7 @@
 draft = false
 title = "gtk+4-update-icon-cache 4.11.4-1"
 version = "4.11.4-1"
-date = "2023-07-12T20:23:45"
 categories = ['xapps']
-upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
 size = "12832"
 usize = "39192"

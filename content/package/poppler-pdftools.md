@@ -2,9 +2,7 @@
 draft = false
 title = "poppler-pdftools 23.07.0-1"
 version = "23.07.0-1"
-date = "2023-07-12T20:27:09"
 categories = ['xapps']
-upstreamurl = "https://poppler.freedesktop.org/"
 arch = "x86_64"
 size = "183040"
 usize = "622926"
