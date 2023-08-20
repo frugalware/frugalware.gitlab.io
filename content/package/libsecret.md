@@ -2,9 +2,7 @@
 draft = false
 title = "libsecret 0.20.5-1"
 version = "0.20.5-1"
-date = "2022-12-20T09:28:27"
 categories = ['xlib']
-upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "1307520"
 usize = "5480543"
