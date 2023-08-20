@@ -2,9 +2,7 @@
 draft = false
 title = "qca-ossl 2.3.6-1"
 version = "2.3.6-1"
-date = "2023-06-13T10:28:23"
 categories = ['xlib']
-upstreamurl = "http://delta.affinix.com/qca/"
 arch = "x86_64"
 size = "88552"
 usize = "329744"

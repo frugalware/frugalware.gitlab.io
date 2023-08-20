@@ -2,9 +2,7 @@
 draft = false
 title = "sdl2-static 2.28.1-1"
 version = "2.28.1-1"
-date = "2023-07-12T20:12:41"
 categories = ['devel-extra']
-upstreamurl = "http://libsdl.org"
 arch = "x86_64"
 size = "8625332"
 usize = "10896644"
