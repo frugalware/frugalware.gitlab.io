@@ -2,9 +2,7 @@
 draft = false
 title = "lmdb 0.9.29-3"
 version = "0.9.29-3"
-date = "2022-02-02T17:45:44"
 categories = ['apps']
-upstreamurl = "http://symas.com/mdb"
 arch = "x86_64"
 size = "104732"
 usize = "407870"
