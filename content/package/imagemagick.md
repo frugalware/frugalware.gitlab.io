@@ -2,9 +2,7 @@
 draft = false
 title = "imagemagick 7.1.1-5"
 version = "7.1.1-5"
-date = "2023-06-18T18:37:14"
 categories = ['xapps']
-upstreamurl = "http://www.imagemagick.org"
 arch = "x86_64"
 size = "8093332"
 usize = "21862286"
