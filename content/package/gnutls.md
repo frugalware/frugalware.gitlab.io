@@ -2,9 +2,7 @@
 draft = false
 title = "gnutls 3.8.0-1"
 version = "3.8.0-1"
-date = "2023-02-18T16:54:21"
 categories = ['apps', 'chroot-core']
-upstreamurl = "https://www.gnutls.org"
 arch = "x86_64"
 size = "3209040"
 usize = "7888756"
