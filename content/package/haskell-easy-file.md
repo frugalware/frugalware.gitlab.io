@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-easy-file 0.2.5-1"
 version = "0.2.5-1"
-date = "2023-07-20T14:15:24"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/easy-file"
 arch = "x86_64"
 size = "85916"
 usize = "590312"
