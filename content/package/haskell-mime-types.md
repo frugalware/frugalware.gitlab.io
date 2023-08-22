@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-mime-types 0.1.1.0-5"
 version = "0.1.1.0-5"
-date = "2023-03-19T20:32:16"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/mime-types"
 arch = "x86_64"
 size = "387192"
 usize = "4933316"
