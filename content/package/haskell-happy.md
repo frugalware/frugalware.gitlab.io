@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-happy 1.20.1.1-2"
 version = "1.20.1.1-2"
-date = "2023-03-20T08:58:18"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/happy"
 arch = "x86_64"
 size = "488320"
 usize = "3327785"

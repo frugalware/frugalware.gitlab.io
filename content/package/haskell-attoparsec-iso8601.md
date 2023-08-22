@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-attoparsec-iso8601 1.1.0.0-9"
 version = "1.1.0.0-9"
-date = "2023-03-20T09:35:05"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/attoparsec-iso8601"
 arch = "x86_64"
 size = "80600"
 usize = "456483"
