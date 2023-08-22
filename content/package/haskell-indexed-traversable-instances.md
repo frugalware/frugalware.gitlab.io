@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-indexed-traversable-instances 0.1.1.2-2"
 version = "0.1.1.2-2"
-date = "2023-03-20T19:38:17"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/indexed-traversable-instances"
 arch = "x86_64"
 size = "52172"
 usize = "285048"
