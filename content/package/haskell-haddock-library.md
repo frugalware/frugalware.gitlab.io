@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-haddock-library 1.11.0-5"
 version = "1.11.0-5"
-date = "2023-03-20T15:07:56"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/haddock-library"
 arch = "x86_64"
 size = "386692"
 usize = "3731814"
