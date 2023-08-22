@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-resourcet 1.3.0-5"
 version = "1.3.0-5"
-date = "2023-03-20T12:52:31"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/resourcet"
 arch = "x86_64"
 size = "140608"
 usize = "1396136"
