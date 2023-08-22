@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-x509-validation 1.6.12-6"
 version = "1.6.12-6"
-date = "2023-07-23T12:23:25"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/x509-validation"
 arch = "x86_64"
 size = "122348"
 usize = "897021"
