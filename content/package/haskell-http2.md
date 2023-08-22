@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-http2 4.1.4-1"
 version = "4.1.4-1"
-date = "2023-07-20T14:22:20"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/http2"
 arch = "x86_64"
 size = "838900"
 usize = "8601268"

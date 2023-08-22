@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-wai-extra 3.1.13.0-12"
 version = "3.1.13.0-12"
-date = "2023-07-24T07:18:33"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/wai-extra"
 arch = "x86_64"
 size = "448564"
 usize = "4097859"
