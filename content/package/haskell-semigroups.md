@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-semigroups 0.20-7"
 version = "0.20-7"
-date = "2023-03-16T15:39:22"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/semigroups"
 arch = "x86_64"
 size = "48320"
 usize = "234860"

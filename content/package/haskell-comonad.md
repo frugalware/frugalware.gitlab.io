@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-comonad 5.0.8-15"
 version = "5.0.8-15"
-date = "2023-03-20T19:40:42"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/comonad"
 arch = "x86_64"
 size = "176316"
 usize = "1978646"

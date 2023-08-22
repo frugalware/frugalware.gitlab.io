@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-bifunctors 5.6.1-2"
 version = "5.6.1-2"
-date = "2023-03-20T19:41:55"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/bifunctors"
 arch = "x86_64"
 size = "574008"
 usize = "7160514"
