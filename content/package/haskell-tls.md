@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-tls 1.7.0-2"
 version = "1.7.0-2"
-date = "2023-07-21T14:38:17"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/tls"
 arch = "x86_64"
 size = "1517900"
 usize = "14783893"
