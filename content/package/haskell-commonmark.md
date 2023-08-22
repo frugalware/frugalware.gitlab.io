@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-commonmark 0.2.3-1"
 version = "0.2.3-1"
-date = "2023-07-14T13:46:18"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/commonmark"
 arch = "x86_64"
 size = "1652504"
 usize = "25198592"

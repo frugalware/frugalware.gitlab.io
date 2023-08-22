@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-pandoc-types 1.23.0.1-1"
 version = "1.23.0.1-1"
-date = "2023-07-14T13:50:14"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/pandoc-types"
 arch = "x86_64"
 size = "921072"
 usize = "12494255"

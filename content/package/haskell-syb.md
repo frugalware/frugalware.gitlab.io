@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-syb 0.7.2.3-1"
 version = "0.7.2.3-1"
-date = "2023-03-20T15:26:22"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/syb"
 arch = "x86_64"
 size = "147668"
 usize = "1561700"
