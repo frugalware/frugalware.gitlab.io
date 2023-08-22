@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-http-types 0.12.3-20"
 version = "0.12.3-20"
-date = "2023-03-20T23:03:29"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/http-types"
 arch = "x86_64"
 size = "209132"
 usize = "2231927"
