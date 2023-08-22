@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-vault 0.3.1.5-10"
 version = "0.3.1.5-10"
-date = "2023-03-20T22:45:11"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/vault"
 arch = "x86_64"
 size = "82028"
 usize = "619247"

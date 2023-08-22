@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-boring 0.2.1-1"
 version = "0.2.1-1"
-date = "2023-03-20T10:44:40"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/boring"
 arch = "x86_64"
 size = "54464"
 usize = "347663"
