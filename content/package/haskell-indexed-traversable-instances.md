@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "haskell-indexed-traversable-instances 0.1.1.2-2"
-version = "0.1.1.2-2"
+title = "haskell-indexed-traversable-instances 0.1.1.2-3"
+version = "0.1.1.2-3"
+date = "2023-08-22T08:17:37"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/indexed-traversable-instances"
 arch = "x86_64"
-size = "52172"
-usize = "285048"
-sha1sum = "9ee6c74edc6d0e265127361a255da4f6e1ca4eb2"
+size = "52288"
+usize = "283971"
+sha1sum = "383d87604d7d715ae906fdeefa4ed988ede10a8b"
 depends = "['haskell-onetuple', 'haskell-indexed-traversable', 'haskell-tagged', 'haskell-unordered-containers', 'haskell-vector']"
 +++
 More instances of FunctorWithIndex, FoldableWithIndex, TraversableWithIndex

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "fuse-common 3.15.1-1"
-version = "3.15.1-1"
+title = "fuse-common 3.16.1-1"
+version = "3.16.1-1"
+date = "2023-08-20T19:05:11"
 categories = ['apps']
+upstreamurl = "https://github.com/libfuse/libfuse"
 arch = "x86_64"
-size = "1880"
-usize = "722"
-sha1sum = "ed68a953e35cb9a07436f076c802bad466394edb"
+size = "1932"
+usize = "753"
+sha1sum = "ab306fb16ceb573c9653c0c69956e9347d7ba676"
 depends = "[]"
 +++
 Common files for fuse2 and fuse3 package

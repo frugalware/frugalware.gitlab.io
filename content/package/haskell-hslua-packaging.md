@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "haskell-hslua-packaging 2.3.0-2"
-version = "2.3.0-2"
+title = "haskell-hslua-packaging 2.3.0-3"
+version = "2.3.0-3"
+date = "2023-08-22T07:40:48"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/hslua-packaging"
 arch = "x86_64"
-size = "161804"
-usize = "1457027"
-sha1sum = "52644d1c0f1ee546f0b3511162db32ad740029f0"
+size = "161936"
+usize = "1452000"
+sha1sum = "e80508f934d7b429c39e07bd8d72fc7cb948658a"
 depends = "['haskell-hslua-objectorientation']"
 +++
 Utilities to build Lua modules.

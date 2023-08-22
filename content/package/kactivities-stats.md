@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kactivities-stats 5.108.0-1"
-version = "5.108.0-1"
+title = "kactivities-stats 5.109.0-1"
+version = "5.109.0-1"
+date = "2023-08-18T11:02:58"
 categories = ['kf5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "77668"
+size = "78036"
 usize = "261549"
-sha1sum = "677b9f314b5b95c5d2f10afe2c958e9ec58cbbc3"
-depends = "['kio>=5.108.0', 'kactivities5>=5.108.0']"
+sha1sum = "b34bd5d901d90717d045a07bcfd1bcbbec1f8998"
+depends = "['kio>=5.109.0', 'kactivities5>=5.109.0']"
 +++
 Library for accessing the usage statistics data collected by the KDE activity manager.

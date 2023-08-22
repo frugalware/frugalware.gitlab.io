@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-ia 116.0.2-1"
-version = "116.0.2-1"
+title = "firefox-ia 116.0.3-1"
+version = "116.0.3-1"
+date = "2023-08-19T09:49:25"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "500532"
-usize = "552434"
-sha1sum = "a037fd6b5c208467d4c353e3253f61238c955a8d"
-depends = "['firefox>=116.0.2']"
+size = "501112"
+usize = "552439"
+sha1sum = "ea746c0394165f58c2bc19e47fe5dcd77e1722f2"
+depends = "['firefox>=116.0.3']"
 +++
 Interlingua (International Auxiliary Language Association) language support for Firefox

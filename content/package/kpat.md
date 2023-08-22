@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kpat 23.04.3-3"
-version = "23.04.3-3"
+title = "kpat 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T18:21:35"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3818596"
-usize = "5537069"
-sha1sum = "6254a78e5389c7f02d4b4e48054726b91af4fe49"
-depends = "['kdelibs4support>=5.108.0', 'knotifyconfig>=5.108.0', 'libkdegames>=23.04.3', 'freecell-solver', 'black-hole-solver']"
+size = "3819356"
+usize = "5545233"
+sha1sum = "f29768b1af352eb1818a0e4c702f92d5b24b87fb"
+depends = "['kdelibs4support>=5.109.0', 'knotifyconfig>=5.109.0', 'libkdegames>=23.04.3', 'freecell-solver', 'black-hole-solver']"
 +++
 Offers a selection of solitaire card games.

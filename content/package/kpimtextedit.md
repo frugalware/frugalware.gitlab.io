@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kpimtextedit 23.04.3-3"
-version = "23.04.3-3"
+title = "kpimtextedit 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T14:35:28"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "323712"
+size = "323272"
 usize = "1672506"
-sha1sum = "1a9baa3428ddab6ed002b626e5d79a9ce5c2dd1d"
-depends = "['grantlee>=5.1.0-2', 'kcoreaddons>=5.108.0', 'kemoticons>=5.108.0', 'sonnet>=5.108.0', 'ktextwidgets>=5.108.0', 'kio>=5.108.0', 'kdesignerplugin>=5.108.0', 'qt5-speech>=5.15.10', 'syntax-highlighting>=5.108.0']"
+sha1sum = "50f2bfae351977c9ca5a51aa67d2c907aaef4bc9"
+depends = "['grantlee>=5.1.0-2', 'kcoreaddons>=5.109.0', 'kemoticons>=5.109.0', 'sonnet>=5.109.0', 'ktextwidgets>=5.109.0', 'kio>=5.109.0', 'kdesignerplugin>=5.109.0', 'qt5-speech>=5.15.10', 'syntax-highlighting>=5.109.0']"
 +++
 Desc: A library for textedit with PIM-specific features.

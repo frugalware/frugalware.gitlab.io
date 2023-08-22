@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "freeplane 1.11.4-1"
-version = "1.11.4-1"
+title = "freeplane 1.11.5-1"
+version = "1.11.5-1"
+date = "2023-08-19T14:34:50"
 categories = ['xapps-extra']
+upstreamurl = "https://www.freeplane.org/"
 arch = "x86_64"
-size = "51074480"
-usize = "62440374"
-sha1sum = "25a698c0dc1d4156ad3d42f53b64ec2624caeab8"
+size = "51271540"
+usize = "62652505"
+sha1sum = "cb569eb562a864a7c29dfa8e53da83b8a038eeff"
 depends = "['openjre-x']"
 +++
 A free mind mapping software

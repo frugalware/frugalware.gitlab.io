@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "baloo-widgets 23.04.3-3"
-version = "23.04.3-3"
+title = "baloo-widgets 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T15:51:59"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "105884"
+size = "106380"
 usize = "438202"
-sha1sum = "838b49046a1ac5513055232d302d074218839262"
-depends = "['baloo5>=5.108.0']"
+sha1sum = "cb50eff3d40d41369a8f9cd7bc36a90b33ecee3a"
+depends = "['baloo5>=5.109.0']"
 +++
 Widgets for Baloo

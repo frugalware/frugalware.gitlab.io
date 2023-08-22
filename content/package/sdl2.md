@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "sdl2 2.28.1-1"
-version = "2.28.1-1"
+title = "sdl2 2.28.2-1"
+version = "2.28.2-1"
+date = "2023-08-20T18:23:37"
 categories = ['xlib']
+upstreamurl = "http://libsdl.org"
 arch = "x86_64"
-size = "873040"
-usize = "4256994"
-sha1sum = "b2a00ef3de3438427c254964b90b972090439905"
+size = "871188"
+usize = "4257308"
+sha1sum = "dadd30afbcd500172d2fded62b641874ea88814c"
 depends = "['glibc>=2.34']"
 +++
 Simple DirectMedia Layer library v2

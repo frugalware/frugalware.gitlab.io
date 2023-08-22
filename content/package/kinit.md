@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kinit 5.108.0-1"
-version = "5.108.0-1"
+title = "kinit 5.109.0-1"
+version = "5.109.0-1"
+date = "2023-08-18T10:55:35"
 categories = ['kf5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "118020"
-usize = "506624"
-sha1sum = "bdcbbd133f528daaec0369b14e2ad04caa141acd"
-depends = "['kio>=5.108.0']"
+size = "117944"
+usize = "506630"
+sha1sum = "9e97cfca49e9ed737b770b9bfe97a2099fc505d0"
+depends = "['kio>=5.109.0']"
 +++
 KInit.

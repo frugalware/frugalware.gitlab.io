@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "keepassxc 2.7.5-3"
-version = "2.7.5-3"
+title = "keepassxc 2.7.6-1"
+version = "2.7.6-1"
+date = "2023-08-19T12:24:04"
 categories = ['xapps-extra']
+upstreamurl = "https://keepassxc.org/"
 arch = "x86_64"
-size = "8016584"
-usize = "32304579"
-sha1sum = "e44a782f3bb969dce8ee76b5e5e86ba101c9a4d8"
+size = "7685900"
+usize = "31826146"
+sha1sum = "1efde6b43188fa172dc58422503cf20dadfd4b56"
 depends = "['argon2', 'botan', 'curl', 'hicolor-icon-theme', 'libxtst', 'pcsc-lite', 'qrencode', 'qt5-svg>=5.15.10', 'qt5-x11extras>=5.15.10', 'libusb']"
 +++
 Cross-platform community-driven port of Keepass password manager

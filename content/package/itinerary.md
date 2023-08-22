@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "itinerary 23.04.3-3"
-version = "23.04.3-3"
+title = "itinerary 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T18:47:24"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "711524"
-usize = "3599895"
-sha1sum = "0bb7e928a5541436543617918208167b2b160952"
-depends = "['kosmindoormap>=', 'kcoreaddons>=5.108.0', 'kcontacts>=5.108.0', 'knotifications>=5.108.0', 'kholidays>=5.108.0', 'networkmanager-qt>=5.108.0', 'kitinerary>=', 'kpkpass>=', 'solid>=5.108.0', 'prison>=5.108.0', 'qt5-quickcontrols2>=5.15.10', 'qqc2-desktop-style>=5.108.0', 'kirigami-addons']"
+size = "711852"
+usize = "3603991"
+sha1sum = "93026fe2d11e6caeab9c8186d7fb1cee9bc2d116"
+depends = "['kosmindoormap>=', 'kcoreaddons>=5.109.0', 'kcontacts>=5.109.0', 'knotifications>=5.109.0', 'kholidays>=5.109.0', 'networkmanager-qt>=5.109.0', 'kitinerary>=', 'kpkpass>=', 'solid>=5.109.0', 'prison>=5.109.0', 'qt5-quickcontrols2>=5.15.10', 'qqc2-desktop-style>=5.109.0', 'kirigami-addons']"
 +++
 Itinerary and boarding pass management application

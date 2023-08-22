@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kalk 23.04.3-3"
-version = "23.04.3-3"
+title = "kalk 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T19:08:48"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "107524"
+size = "107380"
 usize = "472959"
-sha1sum = "c9a21a706dd2bac69ccb992a737ebb3cd3a9ab5e"
+sha1sum = "d36b53f28372664fb54c8cacecba82753a6eae4c"
 depends = "['kunitconversion', 'kcoreaddons', 'qt5-quickcontrols2', 'mpfr', 'kirigami2', 'kconfig']"
 +++
 A powerful cross-platform calculator application built with the Kirigami framework

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libkexiv2 23.04.3-3"
-version = "23.04.3-3"
+title = "libkexiv2 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T14:29:50"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "127840"
-usize = "406207"
-sha1sum = "e2fdbdbfca86bab99cbc2e9e6b82fe235593f911"
+size = "128560"
+usize = "410303"
+sha1sum = "c5945593cbbc959b4311185f4af7ebaad2c37c3f"
 depends = "['qt5-base>=5.15.10', 'exiv2>=0.27']"
 +++
 A C++ library to manipulate EXIF/IPTC/XMP metadata using Exiv2 library.

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "gmmlib 22.3.7-1"
-version = "22.3.7-1"
+title = "gmmlib 22.3.10-1"
+version = "22.3.10-1"
+date = "2023-08-20T18:57:17"
 categories = ['lib']
+upstreamurl = "https://github.com/intel/gmmlib"
 arch = "x86_64"
-size = "242676"
-usize = "1627795"
-sha1sum = "7f3119556a1697a39d805a239fbcd6a695d18544"
+size = "243848"
+usize = "1637475"
+sha1sum = "38ee555211dc051056cd6dcae07342751ac54ce2"
 depends = "['libstdc++>=12.2']"
 +++
 Intel Graphics Memory Management Library

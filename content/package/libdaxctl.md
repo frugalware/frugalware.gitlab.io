@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libdaxctl 76.1-1"
-version = "76.1-1"
+title = "libdaxctl 78-1"
+version = "78-1"
+date = "2023-08-20T19:10:39"
 categories = ['lib']
+upstreamurl = "https://github.com/pmem/ndctl"
 arch = "x86_64"
-size = "17432"
-usize = "53250"
-sha1sum = "50d33a9fcd704e238c356b456a7370594fa2fae6"
+size = "18716"
+usize = "53037"
+sha1sum = "791f7b7c0396f5f4f20cd8dbe91f28d421a47260"
 depends = "['libuuid']"
 +++
 Library for managing DAX devices.

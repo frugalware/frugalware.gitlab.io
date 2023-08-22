@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "haskell-network 3.1.4.0-1"
-version = "3.1.4.0-1"
+title = "haskell-network 3.1.4.0-2"
+version = "3.1.4.0-2"
+date = "2023-08-22T08:35:42"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/network"
 arch = "x86_64"
-size = "440748"
-usize = "4359253"
-sha1sum = "5964084dd87c12a4b87222284b82018dd7b4e919"
+size = "440868"
+usize = "4364435"
+sha1sum = "5219cc17bd368d7c51aa6d0690dcace3525f60c4"
 depends = "['ghc>=9.6.1']"
 +++
 Networking-related facilities

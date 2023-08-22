@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "keditbookmarks 23.04.3-3"
-version = "23.04.3-3"
+title = "keditbookmarks 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T13:57:43"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "339112"
+size = "339120"
 usize = "1485229"
-sha1sum = "19a17abec3dc7b4d5c8b7af8a2c0addb992ec446"
-depends = "['kparts>=5.108.0']"
+sha1sum = "0182d5156516e5e1c4a945bea244220f82c82003"
+depends = "['kparts>=5.109.0']"
 +++
 KDE's bookmarks editor

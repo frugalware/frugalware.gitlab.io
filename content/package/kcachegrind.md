@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kcachegrind 23.04.3-3"
-version = "23.04.3-3"
+title = "kcachegrind 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T17:34:04"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1042172"
-usize = "4585203"
-sha1sum = "56719bf35eb90ce9c462c666dce3c968159247a8"
-depends = "['karchive>=5.108.0', 'kcoreaddons>=5.108.0', 'kdoctools>=5.108.0', 'kwidgetsaddons>=5.108.0', 'kxmlgui>=5.108.0', 'ki18n>=5.108.0', 'kconfig>=5.108.0', 'kio>=5.108.0']"
+size = "1042788"
+usize = "4589354"
+sha1sum = "2dd898e6dbd3d758777abb5293660e26a61dc7e7"
+depends = "['karchive>=5.109.0', 'kcoreaddons>=5.109.0', 'kdoctools>=5.109.0', 'kwidgetsaddons>=5.109.0', 'kxmlgui>=5.109.0', 'ki18n>=5.109.0', 'kconfig>=5.109.0', 'kio>=5.109.0']"
 +++
 Visualization of Performance Profiling Data.

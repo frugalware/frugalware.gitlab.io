@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "konversation 23.04.3-3"
-version = "23.04.3-3"
+title = "konversation 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T18:41:47"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4900336"
-usize = "16325769"
-sha1sum = "b3b1755fd945ab82cb0636318896dd09f4f6a996"
-depends = "['kemoticons>=5.108.0', 'kidletime>=5.108.0', 'knotifyconfig>=5.108.0', 'kparts>=5.108.0', 'knewstuff>=5.108.0', 'qca', 'phonon-qt5', 'qt5-multimedia>=5.15.10']"
+size = "4898216"
+usize = "16321694"
+sha1sum = "92c03291af9b567d68746b363e549f77907f3a26"
+depends = "['kemoticons>=5.109.0', 'kidletime>=5.109.0', 'knotifyconfig>=5.109.0', 'kparts>=5.109.0', 'knewstuff>=5.109.0', 'qca', 'phonon-qt5', 'qt5-multimedia>=5.15.10']"
 +++
 IRC clinet for KDE5

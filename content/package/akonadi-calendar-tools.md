@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "akonadi-calendar-tools 23.04.3-3"
-version = "23.04.3-3"
+title = "akonadi-calendar-tools 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T16:34:21"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "375708"
-usize = "1505891"
-sha1sum = "6b727fbed921d3ec3849ae11bd59866bd30dacc4"
+size = "376668"
+usize = "1509968"
+sha1sum = "ea11b0028154f3b1311af89b2fa218fce4fe63a0"
 depends = "['calendarsupport>=23.04.3']"
 +++
 Akonadi calendar tools

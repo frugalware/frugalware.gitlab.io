@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kamera 23.04.3-3"
-version = "23.04.3-3"
+title = "kamera 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T13:43:48"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "165476"
-usize = "712738"
-sha1sum = "2bc4d230a75aaa10872a1818babb40cde1dc71c6"
-depends = "['kio>=5.108.0', 'kcmutils>=5.108.0', 'gphoto2>=2.5.11-2']"
+size = "165296"
+usize = "712735"
+sha1sum = "60472efaff450bf86fa35665a2038b18099eee1c"
+depends = "['kio>=5.109.0', 'kcmutils>=5.109.0', 'gphoto2>=2.5.11-2']"
 +++
 KDE Webcam Configurator Tool.

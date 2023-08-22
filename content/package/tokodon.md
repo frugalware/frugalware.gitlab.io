@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "tokodon 23.04.3-3"
-version = "23.04.3-3"
+title = "tokodon 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T19:31:49"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "257132"
+size = "256948"
 usize = "1008430"
-sha1sum = "5128b8b4e8c8f6b2743b826ae1dd5ed8079d550b"
+sha1sum = "ca7dfb50b4c39db91786e919d4002cade5571a36"
 depends = "['qqc2-desktop-style', 'kirigami-addons', 'kdbusaddons', 'knotifications', 'kitemmodels', 'kio', 'qtkeychain', 'qt5-websockets']"
 +++
 A Mastodon client for Plasma

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "audiotube 23.04.3-3"
-version = "23.04.3-3"
+title = "audiotube 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T19:39:06"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "306084"
-usize = "933875"
-sha1sum = "c59d93b7f7499bbb13d9676f8bcb73e177e97ccd"
+size = "308072"
+usize = "946163"
+sha1sum = "c52974ea625daebdb879a4453323a9b6773316c3"
 depends = "['kirigami-addons', 'ki18n>=', 'pybind11', 'python3-ytmusicapi', 'yt-dlp', 'kcoreaddons>=', 'kcrash>=', 'kwindowsystem>=']"
 +++
 Client for YouTube Music

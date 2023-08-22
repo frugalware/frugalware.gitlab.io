@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kubrick 23.04.3-3"
-version = "23.04.3-3"
+title = "kubrick 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T18:14:18"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "498020"
-usize = "1926012"
-sha1sum = "7786e06df17ed216bf15bb32642238bc459bb38a"
+size = "497752"
+usize = "1926032"
+sha1sum = "ca99186b11219473946fb66be800f3d73bb7bfb8"
 depends = "['libkdegames>=23.04.3', 'libglu']"
 +++
 Kubrick is based on the famous Rubik's Cube

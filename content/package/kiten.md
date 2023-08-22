@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kiten 23.04.3-3"
-version = "23.04.3-3"
+title = "kiten 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T14:01:22"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "11522324"
-usize = "33000622"
-sha1sum = "759d369ee1098fc0e92afd8d22d7b804464c8258"
-depends = "['qt5-svg>=5.15.10', 'khtml>=5.108.0']"
+size = "11523548"
+usize = "33004678"
+sha1sum = "8420c98038db61ca3818838578a8f397eb7f9dc4"
+depends = "['qt5-svg>=5.15.10', 'khtml>=5.109.0']"
 +++
 Japanese Reference/Study Tool.

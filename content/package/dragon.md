@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "dragon 23.04.3-3"
-version = "23.04.3-3"
+title = "dragon 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T13:37:35"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1748884"
-usize = "2771506"
-sha1sum = "6e12922dad6a9b7da7c7c93d9c06a20c1878290b"
-depends = "['kparts>=5.108.0']"
+size = "1748828"
+usize = "2771456"
+sha1sum = "caaf737d53e1575b51b300ffdb75e8bfeee9a176"
+depends = "['kparts>=5.109.0']"
 +++
 KDE Video Player.

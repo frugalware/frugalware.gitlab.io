@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "haskell-transformers-compat 0.7.2-6"
-version = "0.7.2-6"
+title = "haskell-transformers-compat 0.7.2-7"
+version = "0.7.2-7"
+date = "2023-08-22T07:58:16"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/transformers-compat"
 arch = "x86_64"
-size = "163896"
-usize = "1865966"
-sha1sum = "6c767792cb97f782f9244d3931a8f641e729e62a"
+size = "164000"
+usize = "1861101"
+sha1sum = "fdfcb0f62892edbefec5cc6c39cbe1976821e6c7"
 depends = "['ghc>=9.6.1']"
 +++
 A small compatibility shim exposing the new types from transformers 0.3 and 0.4 to older Haskell platforms.

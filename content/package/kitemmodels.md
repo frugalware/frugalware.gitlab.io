@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kitemmodels 5.108.0-1"
-version = "5.108.0-1"
+title = "kitemmodels 5.109.0-1"
+version = "5.109.0-1"
+date = "2023-08-18T10:15:39"
 categories = ['kf5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "125448"
-usize = "487290"
-sha1sum = "05e4af6dcdf08cdcd0a83aba92c30be84fcf243b"
+size = "126004"
+usize = "483194"
+sha1sum = "99bcd83a93e033717f1f69d547b9c52ebc380e78"
 depends = "['qt5-base>=5.15.10']"
 +++
 Set of item models extending the Qt model-view framework.

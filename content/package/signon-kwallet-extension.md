@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "signon-kwallet-extension 23.04.3-3"
-version = "23.04.3-3"
+title = "signon-kwallet-extension 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T15:37:38"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "21456"
+size = "21632"
 usize = "57201"
-sha1sum = "df452f48a96125172d86ca2655f7253110a0faae"
-depends = "['kwallet5>=5.108.0', 'signon>=8.58-4', 'qt5-x11extras>=5.15.10']"
+sha1sum = "ea3fdbf5ff29a646d803c32573844e0df522c869"
+depends = "['kwallet5>=5.109.0', 'signon>=8.58-4', 'qt5-x11extras>=5.15.10']"
 +++
 KWallet signon extension

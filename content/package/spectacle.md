@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "spectacle 23.04.3-3"
-version = "23.04.3-3"
+title = "spectacle 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T15:59:46"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1498780"
-usize = "3415729"
-sha1sum = "9de2abbb691c2084537c66ad8e297fa317a85966"
-depends = "['kio>=5.108.0', 'libkipi>=23.04.3', 'xcb-util-cursor', 'kscreen5>=5.27.7', 'kdeclarative>=5.108.0', 'kpipewire>=5.27.7', 'knewstuff>=5.108.0', 'purpose>=5.108.0', 'kipi-plugins>=23.04.3']"
+size = "1498912"
+usize = "3419819"
+sha1sum = "e7d503a47b103b1d9b8db11f62ec11a52b5b8914"
+depends = "['kio>=5.109.0', 'libkipi>=23.04.3', 'xcb-util-cursor', 'kscreen5>=5.27.7', 'kdeclarative>=5.109.0', 'kpipewire>=5.27.7', 'knewstuff>=5.109.0', 'purpose>=5.109.0', 'kipi-plugins>=23.04.3']"
 +++
 KDE screenshot capture utility

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kbackup 23.04.3-3"
-version = "23.04.3-3"
+title = "kbackup 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T17:32:41"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "500884"
-usize = "1181045"
-sha1sum = "e2cbaeb8bd54bfedeee2b898b851c2839f9e969f"
-depends = "['knotifications>=5.108.0', 'ki18n>=5.108.0', 'kio>=5.108.0', 'kxmlgui>=5.108.0', 'kiconthemes>=5.108.0', 'karchive>=5.108.0', 'kwidgetsaddons>=5.108.0']"
+size = "501204"
+usize = "1181077"
+sha1sum = "efd5cf381032b6ab89d782f97e31d7238c134d39"
+depends = "['knotifications>=5.109.0', 'ki18n>=5.109.0', 'kio>=5.109.0', 'kxmlgui>=5.109.0', 'kiconthemes>=5.109.0', 'karchive>=5.109.0', 'kwidgetsaddons>=5.109.0']"
 +++
 Backup program for KDE.

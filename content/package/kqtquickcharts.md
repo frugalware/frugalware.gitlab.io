@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kqtquickcharts 23.04.3-3"
-version = "23.04.3-3"
+title = "kqtquickcharts 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T17:44:07"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "67592"
-usize = "331682"
-sha1sum = "5d0c4a1a44c9ebb192468ae9a9ffb71b1eec457a"
+size = "68648"
+usize = "335778"
+sha1sum = "97c0c2b6045516c9eb138eb92c8199dc4b8ad59a"
 depends = "['qt5-declarative']"
 +++
 A QtQuick plugin to render beautiful and interactive charts.

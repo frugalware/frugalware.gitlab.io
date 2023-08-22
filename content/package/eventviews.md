@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "eventviews 23.04.3-3"
-version = "23.04.3-3"
+title = "eventviews 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T17:03:38"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "581044"
-usize = "3118741"
-sha1sum = "3a45a01de90132e069b3382e6e7d6d10be6fd76e"
+size = "584628"
+usize = "3135125"
+sha1sum = "2341c7c7900e79324057a180a95d5a80a6f83f9f"
 depends = "['calendarsupport>=23.04.3', 'kdiagram>=2.6.0-11']"
 +++
 Library for creating events.

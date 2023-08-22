@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "ktp-desktop-applets 23.04.3-3"
-version = "23.04.3-3"
+title = "ktp-desktop-applets 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T13:33:44"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "57392"
+size = "57740"
 usize = "308243"
-sha1sum = "56e6d14ae93d24aafdae1e85c44e55791fdcf6bd"
-depends = "['qt5-declarative>=5.15.10', 'kwindowsystem>=5.108.0', 'qt5-x11extras>=5.15.10', 'plasma-framework>=5.27.7']"
+sha1sum = "ea8871828d700894782049e9868454038ced1da6"
+depends = "['qt5-declarative>=5.15.10', 'kwindowsystem>=5.109.0', 'qt5-x11extras>=5.15.10', 'plasma-framework>=5.27.7']"
 +++
 KDE Telepathy desktop applets

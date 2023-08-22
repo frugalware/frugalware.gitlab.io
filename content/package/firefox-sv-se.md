@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-sv-se 116.0.2-1"
-version = "116.0.2-1"
+title = "firefox-sv-se 116.0.3-1"
+version = "116.0.3-1"
+date = "2023-08-19T09:49:25"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "509148"
-usize = "561732"
-sha1sum = "74f0fd265e19e57baf97e9fe85bcee8f875b770f"
-depends = "['firefox>=116.0.2']"
+size = "508548"
+usize = "561740"
+sha1sum = "c070dce5077331a4b8b0918b5341dcef027f758e"
+depends = "['firefox>=116.0.3']"
 +++
 Swedish language support for Firefox

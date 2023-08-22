@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kio-admin 23.04.3-3"
-version = "23.04.3-3"
+title = "kio-admin 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T19:15:02"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "61228"
+size = "60828"
 usize = "293719"
-sha1sum = "c17ba75b92f44a94546ac7daffbdf22a5d90cac6"
+sha1sum = "3faca77b50b877671edc52035258e1b161b454ff"
 depends = "['kio']"
 +++
 Manage files as administrator using the admin:// KIO protocol

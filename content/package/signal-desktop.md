@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "signal-desktop 6.26.0-1"
-version = "6.26.0-1"
+title = "signal-desktop 6.28.0-1"
+version = "6.28.0-1"
+date = "2023-08-19T13:57:35"
 categories = ['xapps-extra']
+upstreamurl = "https://signal.org"
 arch = "x86_64"
-size = "108953060"
-usize = "408007544"
-sha1sum = "f8f6af4f19ee9ffca2f9a51ad13cdbfc7596396d"
+size = "109590872"
+usize = "410568077"
+sha1sum = "614bdf9e1f39948711cf526c072e4e3a41f59cbe"
 depends = "['gtk+3', 'libvips', 'libxscrnsaver', 'hicolor-icon-theme']"
 +++
 Signal Private Messenger for Linux

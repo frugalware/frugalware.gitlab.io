@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kgamma5 5.27.7-1"
-version = "5.27.7-1"
+title = "kgamma5 5.27.7-2"
+version = "5.27.7-2"
+date = "2023-08-18T11:54:08"
 categories = ['plasma']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "156372"
+size = "156716"
 usize = "463559"
-sha1sum = "eaf1b9e447b0d211bddcec54bf3ea3be5bf60ecd"
-depends = "['kconfigwidgets>=5.108.0', 'libxxf86vm']"
+sha1sum = "e02b7745ca087e35650d08bb2e2df31e7596f7f4"
+depends = "['kconfigwidgets>=5.109.0', 'libxxf86vm']"
 +++
 Adjust your monitor's gamma settings

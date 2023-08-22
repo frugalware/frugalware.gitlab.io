@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "haskell-hslua-objectorientation 2.3.0-2"
-version = "2.3.0-2"
+title = "haskell-hslua-objectorientation 2.3.0-3"
+version = "2.3.0-3"
+date = "2023-08-22T07:39:31"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/hslua-objectorientation"
 arch = "x86_64"
-size = "125144"
-usize = "1010447"
-sha1sum = "3de3eb2c70cf9ec0a0ea823deb9c7786e58cedbc"
+size = "125340"
+usize = "1009344"
+sha1sum = "868e41533c047b319fe5ee2f6d0747ec015e4e65"
 depends = "['haskell-hslua-typing']"
 +++
 Object orientation tools for HsLua

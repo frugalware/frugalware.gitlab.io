@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "rocs 23.04.3-3"
-version = "23.04.3-3"
+title = "rocs 23.04.3-4"
+version = "23.04.3-4"
+date = "2023-08-18T14:25:22"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1551464"
-usize = "3989209"
-sha1sum = "06be4c04092482ff32ba305186fc9afe0c80786d"
-depends = "['kdeclarative>=5.108.0', 'ktexteditor>=5.108.0', 'qt5-xmlpatterns>=5.15.10', 'grantlee>=5.1.0-2', 'libboost>=1.61.0']"
+size = "1554852"
+usize = "4005524"
+sha1sum = "8a5679fd08d91754933b35bcd3a22e85f6219b41"
+depends = "['kdeclarative>=5.109.0', 'ktexteditor>=5.109.0', 'qt5-xmlpatterns>=5.15.10', 'grantlee>=5.1.0-2', 'libboost>=1.61.0']"
 +++
 Graph Theory IDE.
