@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-ansi-terminal 1.0-1"
 version = "1.0-1"
-date = "2023-07-17T10:09:37"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/ansi-terminal"
 arch = "x86_64"
 size = "106940"
 usize = "917090"
