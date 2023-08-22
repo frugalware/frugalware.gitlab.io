@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-hslua-list 1.1.1-2"
 version = "1.1.1-2"
-date = "2023-03-21T11:37:07"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/hslua-list"
 arch = "x86_64"
 size = "43852"
 usize = "175750"

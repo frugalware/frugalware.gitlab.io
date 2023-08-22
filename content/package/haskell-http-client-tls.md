@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-http-client-tls 0.3.6.2-2"
 version = "0.3.6.2-2"
-date = "2023-07-22T15:59:34"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/http-client-tls"
 arch = "x86_64"
 size = "94344"
 usize = "591629"

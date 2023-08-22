@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-ipynb 0.2-11"
 version = "0.2-11"
-date = "2023-07-21T15:10:07"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/ipynb"
 arch = "x86_64"
 size = "192068"
 usize = "1823088"
