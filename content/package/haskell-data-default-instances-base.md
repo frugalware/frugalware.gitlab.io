@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-data-default-instances-base 0.1.0.1-27"
 version = "0.1.0.1-27"
-date = "2023-03-17T15:53:41"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/data-default-instances-base"
 arch = "x86_64"
 size = "35736"
 usize = "124485"

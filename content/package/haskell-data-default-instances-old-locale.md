@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-data-default-instances-old-locale 0.0.1-35"
 version = "0.0.1-35"
-date = "2023-03-17T15:56:55"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/data-default-instances-old-locale"
 arch = "x86_64"
 size = "36260"
 usize = "127252"

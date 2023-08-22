@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-fgl 5.8.1.1-2"
 version = "5.8.1.1-2"
-date = "2023-03-17T16:11:01"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/fgl"
 arch = "x86_64"
 size = "473996"
 usize = "4967823"

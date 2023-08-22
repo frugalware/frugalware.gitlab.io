@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-data-default 0.7.1.1-37"
 version = "0.7.1.1-37"
-date = "2023-03-17T15:58:02"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/data-default"
 arch = "x86_64"
 size = "38520"
 usize = "184195"
