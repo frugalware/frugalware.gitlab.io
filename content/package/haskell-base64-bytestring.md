@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-base64-bytestring 1.2.1.0-8"
 version = "1.2.1.0-8"
-date = "2023-03-17T13:21:03"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/base64-bytestring"
 arch = "x86_64"
 size = "73800"
 usize = "475892"
