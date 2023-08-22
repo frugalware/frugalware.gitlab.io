@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-tagged 0.8.7-1"
 version = "0.8.7-1"
-date = "2023-03-16T15:11:30"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/tagged"
 arch = "x86_64"
 size = "110252"
 usize = "916245"

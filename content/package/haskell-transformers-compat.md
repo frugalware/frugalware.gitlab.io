@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-transformers-compat 0.7.2-6"
 version = "0.7.2-6"
-date = "2023-03-20T15:29:51"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/transformers-compat"
 arch = "x86_64"
 size = "163896"
 usize = "1865966"

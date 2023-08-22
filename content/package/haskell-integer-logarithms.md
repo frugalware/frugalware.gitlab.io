@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-integer-logarithms 1.0.3.1-10"
 version = "1.0.3.1-10"
-date = "2023-03-16T14:39:53"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/integer-logarithms"
 arch = "x86_64"
 size = "73212"
 usize = "511302"

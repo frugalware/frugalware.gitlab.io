@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-distributive 0.6.2.1-14"
 version = "0.6.2.1-14"
-date = "2023-03-20T19:39:27"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/distributive"
 arch = "x86_64"
 size = "77968"
 usize = "699684"

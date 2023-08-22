@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-scientific 0.3.7.0-16"
 version = "0.3.7.0-16"
-date = "2023-03-20T19:20:05"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/scientific"
 arch = "x86_64"
 size = "188152"
 usize = "1440130"
