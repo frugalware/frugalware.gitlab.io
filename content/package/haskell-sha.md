@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-sha 1.6.4.4-8"
 version = "1.6.4.4-8"
-date = "2023-03-17T11:19:46"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/SHA"
 arch = "x86_64"
 size = "139528"
 usize = "1229498"

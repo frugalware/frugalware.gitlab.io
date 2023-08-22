@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-uuid-types 1.0.5-17"
 version = "1.0.5-17"
-date = "2023-03-20T19:51:09"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/uuid-types"
 arch = "x86_64"
 size = "111316"
 usize = "791309"

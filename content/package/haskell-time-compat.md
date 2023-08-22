@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-time-compat 1.9.6.1-14"
 version = "1.9.6.1-14"
-date = "2023-03-20T19:49:51"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/time-compat"
 arch = "x86_64"
 size = "148240"
 usize = "1906923"
