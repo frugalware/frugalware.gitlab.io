@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-quickcheck 2.14.3-1"
 version = "2.14.3-1"
-date = "2023-07-14T09:59:03"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/QuickCheck"
 arch = "x86_64"
 size = "784048"
 usize = "9422522"
