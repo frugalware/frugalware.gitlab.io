@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-bsb-http-chunked 0.0.0.4-5"
 version = "0.0.0.4-5"
-date = "2023-03-20T13:19:05"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/bsb-http-chunked"
 arch = "x86_64"
 size = "40688"
 usize = "161296"
