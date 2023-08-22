@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-glob 0.10.2-11"
 version = "0.10.2-11"
-date = "2023-03-20T19:58:45"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/Glob"
 arch = "x86_64"
 size = "157212"
 usize = "1078684"

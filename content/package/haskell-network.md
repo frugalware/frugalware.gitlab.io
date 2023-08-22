@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-network 3.1.4.0-1"
 version = "3.1.4.0-1"
-date = "2023-07-14T10:00:44"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/network"
 arch = "x86_64"
 size = "440748"
 usize = "4359253"
