@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-connection 0.3.1-7"
 version = "0.3.1-7"
-date = "2023-07-24T07:15:09"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/connection"
 arch = "x86_64"
 size = "106864"
 usize = "746875"

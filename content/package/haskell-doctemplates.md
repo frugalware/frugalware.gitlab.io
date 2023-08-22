@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-doctemplates 0.11-10"
 version = "0.11-10"
-date = "2023-07-21T15:17:25"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/doctemplates"
 arch = "x86_64"
 size = "359940"
 usize = "4075120"
