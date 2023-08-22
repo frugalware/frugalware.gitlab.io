@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-base64 0.4.2.4-10"
 version = "0.4.2.4-10"
-date = "2023-03-20T20:53:20"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/base64"
 arch = "x86_64"
 size = "313452"
 usize = "5746231"
