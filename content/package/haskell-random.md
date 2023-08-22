@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-random 1.2.1.1-1"
 version = "1.2.1.1-1"
-date = "2023-03-16T12:29:24"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/random"
 arch = "x86_64"
 size = "361932"
 usize = "4465291"

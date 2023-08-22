@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-old-locale 1.0.0.7-28"
 version = "1.0.0.7-28"
-date = "2023-03-16T12:21:58"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/old-locale"
 arch = "x86_64"
 size = "60000"
 usize = "357600"
