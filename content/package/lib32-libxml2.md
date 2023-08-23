@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libxml2 2.10.4-3"
 version = "2.10.4-3"
-date = "2023-05-02T08:26:58"
 categories = ['lib32-extra']
-upstreamurl = "https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home"
 arch = "x86_64"
 size = "630836"
 usize = "2080098"

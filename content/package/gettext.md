@@ -2,9 +2,7 @@
 draft = false
 title = "gettext 0.21.1-2"
 version = "0.21.1-2"
-date = "2022-10-19T07:31:44"
 categories = ['base', 'chroot-core']
-upstreamurl = "http://www.gnu.org/software/gettext"
 arch = "x86_64"
 size = "2463148"
 usize = "10373847"

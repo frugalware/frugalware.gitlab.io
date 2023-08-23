@@ -2,9 +2,7 @@
 draft = false
 title = "libxml2-docs 2.10.4-3"
 version = "2.10.4-3"
-date = "2023-05-02T08:26:58"
 categories = ['docs-extra']
-upstreamurl = "https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home"
 arch = "x86_64"
 size = "277516"
 usize = "3099367"
