@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-base-unicode-symbols 0.2.4.2-2"
 version = "0.2.4.2-2"
-date = "2023-03-21T11:44:44"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/base-unicode-symbols"
 arch = "x86_64"
 size = "61632"
 usize = "448330"
