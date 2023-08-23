@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-yaml 0.11.11.2-1"
 version = "0.11.11.2-1"
-date = "2023-07-20T14:49:09"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/yaml"
 arch = "x86_64"
 size = "298792"
 usize = "3510977"

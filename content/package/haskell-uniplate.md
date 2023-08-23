@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-uniplate 1.6.13-4"
 version = "1.6.13-4"
-date = "2023-03-21T08:33:56"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/uniplate"
 arch = "x86_64"
 size = "392240"
 usize = "4211343"

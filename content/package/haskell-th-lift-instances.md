@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-th-lift-instances 0.1.20-3"
 version = "0.1.20-3"
-date = "2023-03-21T08:30:34"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/th-lift-instances"
 arch = "x86_64"
 size = "49452"
 usize = "263769"
