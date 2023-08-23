@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-tagsoup 0.14.8-3"
 version = "0.14.8-3"
-date = "2023-03-21T09:34:04"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/tagsoup"
 arch = "x86_64"
 size = "873784"
 usize = "9922784"
