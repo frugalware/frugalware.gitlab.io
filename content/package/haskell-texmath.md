@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-texmath 0.12.8-1"
 version = "0.12.8-1"
-date = "2023-07-22T17:38:33"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/texmath"
 arch = "x86_64"
 size = "4972124"
 usize = "62765848"
