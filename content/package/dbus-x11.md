@@ -2,9 +2,7 @@
 draft = false
 title = "dbus-x11 1.15.6-1"
 version = "1.15.6-1"
-date = "2023-06-06T20:03:53"
 categories = ['xapps']
-upstreamurl = "http://freedesktop.org/wiki/Software/dbus"
 arch = "x86_64"
 size = "14980"
 usize = "30568"
