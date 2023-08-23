@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-juicypixels 3.3.8-5"
 version = "3.3.8-5"
-date = "2023-03-20T20:49:45"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/JuicyPixels"
 arch = "x86_64"
 size = "1886516"
 usize = "21437223"
