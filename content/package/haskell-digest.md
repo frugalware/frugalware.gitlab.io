@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-digest 0.0.1.7-1"
 version = "0.0.1.7-1"
-date = "2023-03-21T08:54:54"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/digest"
 arch = "x86_64"
 size = "43896"
 usize = "222198"

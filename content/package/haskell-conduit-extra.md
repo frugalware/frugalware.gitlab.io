@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-conduit-extra 1.3.6-5"
 version = "1.3.6-5"
-date = "2023-07-20T14:52:59"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/conduit-extra"
 arch = "x86_64"
 size = "265656"
 usize = "2694152"
