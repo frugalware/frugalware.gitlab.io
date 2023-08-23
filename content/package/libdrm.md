@@ -2,9 +2,7 @@
 draft = false
 title = "libdrm 2.4.115-1"
 version = "2.4.115-1"
-date = "2023-02-11T21:40:26"
 categories = ['x11', 'xorg-core', 'xorg-libs']
-upstreamurl = "http://xorg.freedesktop.org/"
 arch = "x86_64"
 size = "263796"
 usize = "1071511"
