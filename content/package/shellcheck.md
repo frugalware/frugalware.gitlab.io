@@ -2,9 +2,7 @@
 draft = false
 title = "shellcheck 0.9.0-7"
 version = "0.9.0-7"
-date = "2023-07-22T20:31:15"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/ShellCheck"
 arch = "x86_64"
 size = "2908652"
 usize = "22220635"
