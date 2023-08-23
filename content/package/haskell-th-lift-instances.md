@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "haskell-th-lift-instances 0.1.20-3"
-version = "0.1.20-3"
+title = "haskell-th-lift-instances 0.1.20-4"
+version = "0.1.20-4"
+date = "2023-08-23T06:43:47"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/th-lift-instances"
 arch = "x86_64"
-size = "49452"
-usize = "263769"
-sha1sum = "f24b632545e41b471c05256e4ee683746c2fc5af"
+size = "49444"
+usize = "262802"
+sha1sum = "0816ee57951d6cb0206427bca78220e42be97668"
 depends = "['haskell-th-lift', 'haskell-vector']"
 +++
 Lift instances for template-haskell for common data types.

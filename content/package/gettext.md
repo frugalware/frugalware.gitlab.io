@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "gettext 0.21.1-2"
-version = "0.21.1-2"
+title = "gettext 0.22-1"
+version = "0.22-1"
+date = "2023-08-23T14:13:08"
 categories = ['base', 'chroot-core']
+upstreamurl = "http://www.gnu.org/software/gettext"
 arch = "x86_64"
-size = "2463148"
-usize = "10373847"
-sha1sum = "90d0f5f0b3792b3737d8468eb4a47a3f351faccf"
+size = "2262220"
+usize = "9661750"
+sha1sum = "ee91dad7d359c4fe4cfb7666cc4d87911d8a2a53"
 depends = "['libcroco', 'ncurses>=6.1-5', 'libunistring>=1.1', 'icu4c>=71.1']"
 +++
 GNU internationalization library

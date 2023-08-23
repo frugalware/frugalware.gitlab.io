@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "haskell-uniplate 1.6.13-4"
-version = "1.6.13-4"
+title = "haskell-uniplate 1.6.13-5"
+version = "1.6.13-5"
+date = "2023-08-23T06:48:39"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/uniplate"
 arch = "x86_64"
-size = "392240"
-usize = "4211343"
-sha1sum = "8ed03301f309187757ecfe957fd57838d37569fd"
+size = "391772"
+usize = "4202295"
+sha1sum = "b758ad65dcd30a9a76ff7a32a1ad593caa48f09c"
 depends = "['haskell-unordered-containers', 'haskell-syb']"
 +++
 Help writing simple, concise and fast generic operations.

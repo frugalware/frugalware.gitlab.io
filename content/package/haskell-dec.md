@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "haskell-dec 0.0.5-5"
-version = "0.0.5-5"
+title = "haskell-dec 0.0.5-6"
+version = "0.0.5-6"
+date = "2023-08-22T14:12:38"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/dec"
 arch = "x86_64"
-size = "47160"
-usize = "224497"
-sha1sum = "16e0a837f18045f91c6bcc1298809cc73b9dc72d"
+size = "47212"
+usize = "223703"
+sha1sum = "aa018c55e992067175af05be21bf6be738f88482"
 depends = "['haskell-boring']"
 +++
 Decidable propositions

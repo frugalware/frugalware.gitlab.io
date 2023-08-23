@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "haskell-zip-archive 0.4.3-2"
-version = "0.4.3-2"
+title = "haskell-zip-archive 0.4.3-3"
+version = "0.4.3-3"
+date = "2023-08-23T06:54:58"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/zip-archive"
 arch = "x86_64"
-size = "176388"
-usize = "1325046"
-sha1sum = "3108cc13a6228ce2d3554355520b6cbfed2b2341"
+size = "176868"
+usize = "1325499"
+sha1sum = "fb2f80fc526871cb62dee4b2a0aeb8ad2f9737f6"
 depends = "['haskell-digest', 'haskell-zlib']"
 +++
 Library for creating and modifying zip archives

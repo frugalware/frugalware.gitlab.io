@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "haskell-byteorder 1.0.4-5"
-version = "1.0.4-5"
+title = "haskell-byteorder 1.0.4-6"
+version = "1.0.4-6"
+date = "2023-08-22T13:01:02"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/byteorder"
 arch = "x86_64"
-size = "49672"
-usize = "235175"
-sha1sum = "f02d9982e13ca602a6223c8a5724d9f680526795"
+size = "49756"
+usize = "234574"
+sha1sum = "dd1491784c32a79e891559f0ec8aa12e85b14474"
 depends = "['haskell-data-default-class']"
 +++
 Exposes the native endianness or byte ordering of the system.

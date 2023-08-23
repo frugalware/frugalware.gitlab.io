@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libdrm 2.4.115-1"
-version = "2.4.115-1"
+title = "libdrm 2.4.116-1"
+version = "2.4.116-1"
+date = "2023-08-23T14:27:49"
 categories = ['x11', 'xorg-core', 'xorg-libs']
+upstreamurl = "http://xorg.freedesktop.org/"
 arch = "x86_64"
-size = "263796"
-usize = "1071511"
-sha1sum = "4ab876a8f16872890b9d7b3017b70c026ea4d416"
+size = "266264"
+usize = "1073744"
+sha1sum = "35f37a411619eed04d177800768659d5749342c2"
 depends = "['libpciaccess>=0.13.4-4']"
 +++
 X.Org Userspace interface to kernel DRM services

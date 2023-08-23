@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "procps-ng 3.3.17-4"
-version = "3.3.17-4"
+title = "procps-ng 4.0.3-1"
+version = "4.0.3-1"
+date = "2023-08-23T14:21:29"
 categories = ['base', 'core']
+upstreamurl = "https://gitlab.com/procps-ng/procps"
 arch = "x86_64"
-size = "512912"
-usize = "1714685"
-sha1sum = "912769ed9e458a9152630385a9714524e6092719"
+size = "803252"
+usize = "2399018"
+sha1sum = "28c246bf5178703f80c5265f0dc7e39b9fec3e1f"
 depends = "['ncurses>=6.1-2']"
 +++
 utilities for displaying process information

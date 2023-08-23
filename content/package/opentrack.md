@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "opentrack 2023.1.0-2"
-version = "2023.1.0-2"
+title = "opentrack 2023.1.0-3"
+version = "2023.1.0-3"
+date = "2023-08-23T15:07:02"
 categories = ['xapps-extra']
+upstreamurl = "https://github.com/opentrack/opentrack"
 arch = "x86_64"
-size = "10101412"
-usize = "18397644"
-sha1sum = "950cd3270794a5ef8dcacf779740df846097cdaa"
-depends = "['qt5-base>=5.15.10', 'opencv>=4.7.0', 'procps-ng>=3.3.16']"
+size = "10054620"
+usize = "18139764"
+sha1sum = "c99cef8734aee13d148c53d661b1fd89ebd69b4c"
+depends = "['qt5-base>=5.15.10', 'opencv>=4.7.0', 'procps-ng>=4.0.3']"
 +++
 Head tracking software

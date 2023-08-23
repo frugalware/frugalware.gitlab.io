@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "haskell-pretty-show 1.10-6"
-version = "1.10-6"
+title = "haskell-pretty-show 1.10-7"
+version = "1.10-7"
+date = "2023-08-22T14:03:12"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/pretty-show"
 arch = "x86_64"
-size = "640600"
-usize = "5237446"
-sha1sum = "e8fbf99d92bb9fabbbf0666b4223dd2655a41fde"
+size = "640780"
+usize = "5239945"
+sha1sum = "b452bd3b2bc50e34de6689ea9c0550c1ab59a3a5"
 depends = "['haskell-lexer']"
 +++
 Tools for working with derived 'Show' instances and generic inspection of values

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "haskell-mmorph 1.2.0-5"
-version = "1.2.0-5"
+title = "haskell-mmorph 1.2.0-6"
+version = "1.2.0-6"
+date = "2023-08-22T14:10:11"
 categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/mmorph"
 arch = "x86_64"
-size = "76484"
-usize = "646656"
-sha1sum = "0b2827919c818bbf360b2a368d02f8bef9c37e41"
+size = "76788"
+usize = "645728"
+sha1sum = "971393b536be83f839ff4217ff325d222f109c81"
 depends = "['haskell-transformers-compat']"
 +++
 Monad morphisms
