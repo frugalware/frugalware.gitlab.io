@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-xml-conduit 1.9.1.3-1"
 version = "1.9.1.3-1"
-date = "2023-07-20T14:54:53"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/xml-conduit"
 arch = "x86_64"
 size = "540840"
 usize = "5534855"
