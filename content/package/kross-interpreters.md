@@ -2,9 +2,7 @@
 draft = false
 title = "kross-interpreters 23.04.3-4"
 version = "23.04.3-4"
-date = "2023-08-18T14:13:26"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "58428"
 usize = "171775"
