@@ -2,9 +2,7 @@
 draft = false
 title = "jsoncpp 1.9.5-1"
 version = "1.9.5-1"
-date = "2022-01-13T08:44:17"
 categories = ['lib']
-upstreamurl = "https://github.com/open-source-parsers/jsoncpp"
 arch = "x86_64"
 size = "90052"
 usize = "301440"
