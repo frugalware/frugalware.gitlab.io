@@ -2,9 +2,7 @@
 draft = false
 title = "kernel-docs 6.4.11-1"
 version = "6.4.11-1"
-date = "2023-08-16T20:16:39"
 categories = ['devel-extra']
-upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
 size = "9004416"
 usize = "45379385"
