@@ -2,9 +2,7 @@
 draft = false
 title = "kbreakout 23.04.3-4"
 version = "23.04.3-4"
-date = "2023-08-18T15:03:21"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "3083572"
 usize = "3645922"
