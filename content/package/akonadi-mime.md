@@ -2,9 +2,7 @@
 draft = false
 title = "akonadi-mime 23.04.3-4"
 version = "23.04.3-4"
-date = "2023-08-18T16:16:52"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "178876"
 usize = "1001297"

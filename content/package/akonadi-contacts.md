@@ -2,9 +2,7 @@
 draft = false
 title = "akonadi-contacts 23.04.3-4"
 version = "23.04.3-4"
-date = "2023-08-18T16:19:52"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "527420"
 usize = "2876130"
