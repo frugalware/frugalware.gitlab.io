@@ -2,9 +2,7 @@
 draft = false
 title = "dragon 23.04.3-4"
 version = "23.04.3-4"
-date = "2023-08-18T13:37:35"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1748828"
 usize = "2771456"
