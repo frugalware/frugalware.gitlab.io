@@ -2,9 +2,7 @@
 draft = false
 title = "ktuberling 23.04.3-4"
 version = "23.04.3-4"
-date = "2023-08-18T15:25:30"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "46804344"
 usize = "63243977"
