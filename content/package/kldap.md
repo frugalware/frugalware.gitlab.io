@@ -2,9 +2,7 @@
 draft = false
 title = "kldap 23.04.3-4"
 version = "23.04.3-4"
-date = "2023-08-18T14:34:07"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "202940"
 usize = "803823"
