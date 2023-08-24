@@ -2,9 +2,7 @@
 draft = false
 title = "signal-desktop 6.28.0-1"
 version = "6.28.0-1"
-date = "2023-08-19T13:57:35"
 categories = ['xapps-extra']
-upstreamurl = "https://signal.org"
 arch = "x86_64"
 size = "109590872"
 usize = "410568077"
