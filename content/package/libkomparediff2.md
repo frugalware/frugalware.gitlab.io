@@ -2,9 +2,7 @@
 draft = false
 title = "libkomparediff2 23.04.3-4"
 version = "23.04.3-4"
-date = "2023-08-18T13:31:34"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "100316"
 usize = "388242"

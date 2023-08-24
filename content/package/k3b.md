@@ -2,9 +2,7 @@
 draft = false
 title = "k3b 23.04.3-4"
 version = "23.04.3-4"
-date = "2023-08-18T13:30:07"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "11279204"
 usize = "35075360"
