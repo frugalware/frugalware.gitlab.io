@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kio-zeroconf 23.04.3-4"
-version = "23.04.3-4"
+title = "kio-zeroconf 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-24T14:36:08"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "44924"
-usize = "187259"
-sha1sum = "cd7ce9e463b0d5c4c80ef53266e9f175435a3a6b"
+size = "45148"
+usize = "188113"
+sha1sum = "ff4cad402e9f1fa4c721bbc923599085805b0289"
 depends = "['kio>=5.109.0', 'kdnssd>=5.109.0']"
 +++
 DNS Service Discovery for KDE.

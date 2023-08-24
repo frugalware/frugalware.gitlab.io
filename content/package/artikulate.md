@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "artikulate 23.04.3-4"
-version = "23.04.3-4"
+title = "artikulate 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-24T14:49:04"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1167144"
-usize = "2552500"
-sha1sum = "3f3582dbc2e4e21ae3a62706ff2f7c5a7f08db86"
+size = "1165660"
+usize = "2546656"
+sha1sum = "e3cc41b032d9d66a6e4aded320ef97ff9bc26e6a"
 depends = "['qt5-gstreamer>=1.2.0', 'qt5-multimedia>=5.15.10', 'kdeclarative>=5.109.0', 'knewstuff>=5.109.0', 'qt5-xmlpatterns>=5.15.10']"
 +++
 Memory Enhancement Game.

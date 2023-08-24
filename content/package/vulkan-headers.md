@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "vulkan-headers 1.3.250.1-1"
-version = "1.3.250.1-1"
+title = "vulkan-headers 1.3.261.0-1"
+version = "1.3.261.0-1"
+date = "2023-08-24T11:55:55"
 categories = ['devel-extra']
+upstreamurl = "https://www.khronos.org/vulkan/"
 arch = "x86_64"
-size = "1172740"
-usize = "23381243"
-sha1sum = "99723f0a13559cd4371c73553d4437068979707c"
+size = "1222492"
+usize = "24105053"
+sha1sum = "108be290431eef645722747ab59f6a49921d8f78"
 depends = "['glibc>=2.35']"
 +++
 Vulkan Header files and API registry

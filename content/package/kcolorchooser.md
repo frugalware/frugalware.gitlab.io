@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kcolorchooser 23.04.3-4"
-version = "23.04.3-4"
+title = "kcolorchooser 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-24T14:32:54"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "32940"
-usize = "123365"
-sha1sum = "308b8716ea142a51a7ea038a1499c2ed30a2e2b1"
+size = "34288"
+usize = "127167"
+sha1sum = "af15b832bf9fef8cd43c48323636c8fa49a7c4d3"
 depends = "['ki18n>=5.109.0', 'kxmlgui>=5.109.0']"
 +++
 KDE Color Selector.

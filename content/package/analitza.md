@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "analitza 23.04.3-4"
-version = "23.04.3-4"
+title = "analitza 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-24T14:56:37"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "491436"
+size = "491624"
 usize = "2449453"
-sha1sum = "f8f761d797d675aebbbe6d59037a90e64178d9b3"
+sha1sum = "b764827671b7ebc14071b0ec1acd5c678c706439"
 depends = "['qt5-declarative>=5.15.10', 'qt5-svg>=5.15.10', 'eigen>=3.2.9-3']"
 +++
 Shared Math libraries from Kalgebra.

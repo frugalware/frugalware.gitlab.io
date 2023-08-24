@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "mupdf-gl 1.22.1-1"
-version = "1.22.1-1"
+title = "mupdf-gl 1.23.0-1"
+version = "1.23.0-1"
+date = "2023-08-23T15:21:55"
 categories = ['xapps-extra']
+upstreamurl = "https://mupdf.com"
 arch = "x86_64"
-size = "21554636"
-usize = "38343072"
-sha1sum = "a52ba76be31578e422ba8a9518f7bc23925550a7"
+size = "21569684"
+usize = "38375872"
+sha1sum = "ab33757e08c946f34c4da0f181c27e8c4323a8cd"
 depends = "['harfbuzz', 'libjpeg-turbo', 'openssl', 'glfw', 'freeglut']"
 +++
 Lightweight PDF and XPS viewer (OpenGL)
