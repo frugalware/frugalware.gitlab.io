@@ -2,9 +2,7 @@
 draft = false
 title = "libinput 1.23.0-1"
 version = "1.23.0-1"
-date = "2023-03-26T12:14:25"
 categories = ['x11', 'xorg-core', 'xorg-libs']
-upstreamurl = "https://gitlab.freedesktop.org/libinput/libinput"
 arch = "x86_64"
 size = "248496"
 usize = "1016964"

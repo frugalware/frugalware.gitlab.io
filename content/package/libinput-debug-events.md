@@ -2,9 +2,7 @@
 draft = false
 title = "libinput-debug-events 1.23.0-1"
 version = "1.23.0-1"
-date = "2023-03-26T12:14:25"
 categories = ['x11-extra']
-upstreamurl = "https://gitlab.freedesktop.org/libinput/libinput"
 arch = "x86_64"
 size = "29176"
 usize = "100592"
