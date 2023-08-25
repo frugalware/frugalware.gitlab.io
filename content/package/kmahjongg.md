@@ -2,9 +2,7 @@
 draft = false
 title = "kmahjongg 23.04.3-4"
 version = "23.04.3-4"
-date = "2023-08-18T18:02:55"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "4201416"
 usize = "5718335"

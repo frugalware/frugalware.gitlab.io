@@ -2,9 +2,7 @@
 draft = false
 title = "konquest 23.04.3-4"
 version = "23.04.3-4"
-date = "2023-08-18T18:01:44"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "972336"
 usize = "1664275"
