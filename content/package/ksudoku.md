@@ -2,9 +2,7 @@
 draft = false
 title = "ksudoku 23.04.3-4"
 version = "23.04.3-4"
-date = "2023-08-18T18:13:09"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1803580"
 usize = "4700270"

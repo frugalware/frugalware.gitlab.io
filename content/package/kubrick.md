@@ -2,9 +2,7 @@
 draft = false
 title = "kubrick 23.04.3-4"
 version = "23.04.3-4"
-date = "2023-08-18T18:14:18"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "497752"
 usize = "1926032"
