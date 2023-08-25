@@ -2,9 +2,7 @@
 draft = false
 title = "ktrip 23.04.3-4"
 version = "23.04.3-4"
-date = "2023-08-18T19:22:35"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "68584"
 usize = "248719"
