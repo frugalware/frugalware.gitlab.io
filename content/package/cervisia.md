@@ -2,9 +2,7 @@
 draft = false
 title = "cervisia 23.04.3-4"
 version = "23.04.3-4"
-date = "2023-08-18T17:28:49"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "2469560"
 usize = "6561271"

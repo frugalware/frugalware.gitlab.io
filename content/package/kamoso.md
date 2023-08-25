@@ -2,9 +2,7 @@
 draft = false
 title = "kamoso 23.04.3-4"
 version = "23.04.3-4"
-date = "2023-08-18T17:31:33"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "272212"
 usize = "748273"

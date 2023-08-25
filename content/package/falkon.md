@@ -2,9 +2,7 @@
 draft = false
 title = "falkon 23.04.3-4"
 version = "23.04.3-4"
-date = "2023-08-18T17:27:04"
 categories = ['kde5']
-upstreamurl = "https://www.falkon.org"
 arch = "x86_64"
 size = "2047228"
 usize = "10617595"
