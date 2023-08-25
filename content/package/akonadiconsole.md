@@ -2,9 +2,7 @@
 draft = false
 title = "akonadiconsole 23.04.3-4"
 version = "23.04.3-4"
-date = "2023-08-18T16:44:25"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "421264"
 usize = "1389570"
