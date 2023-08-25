@@ -2,9 +2,7 @@
 draft = false
 title = "dolphin 23.04.3-4"
 version = "23.04.3-4"
-date = "2023-08-18T17:17:27"
 categories = ['kde5', 'kde5-apps']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "4442948"
 usize = "13358483"
