@@ -2,9 +2,7 @@
 draft = false
 title = "kalk 23.04.3-4"
 version = "23.04.3-4"
-date = "2023-08-18T19:08:48"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "107380"
 usize = "472959"

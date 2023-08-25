@@ -2,9 +2,7 @@
 draft = false
 title = "colord-kde 23.04.3-4"
 version = "23.04.3-4"
-date = "2023-08-18T19:03:07"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "155580"
 usize = "695655"
