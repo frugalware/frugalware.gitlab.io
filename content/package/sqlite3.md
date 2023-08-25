@@ -2,9 +2,7 @@
 draft = false
 title = "sqlite3 3.42.0-1"
 version = "3.42.0-1"
-date = "2023-05-18T11:13:31"
 categories = ['base', 'devel-core']
-upstreamurl = "http://www.sqlite.org/"
 arch = "x86_64"
 size = "1226036"
 usize = "3843412"
