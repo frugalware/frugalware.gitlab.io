@@ -2,9 +2,7 @@
 draft = false
 title = "gtk+4 4.12.0-1"
 version = "4.12.0-1"
-date = "2023-08-20T18:40:30"
 categories = ['xlib']
-upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
 size = "13495676"
 usize = "117700355"
