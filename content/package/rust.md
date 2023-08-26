@@ -2,9 +2,7 @@
 draft = false
 title = "rust 1.71.1-1"
 version = "1.71.1-1"
-date = "2023-08-18T09:37:18"
 categories = ['devel']
-upstreamurl = "https://www.rust-lang.org/"
 arch = "x86_64"
 size = "61929628"
 usize = "327253750"

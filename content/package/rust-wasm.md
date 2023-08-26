@@ -2,9 +2,7 @@
 draft = false
 title = "rust-wasm 1.71.1-1"
 version = "1.71.1-1"
-date = "2023-08-18T09:37:18"
 categories = ['devel-extra']
-upstreamurl = "https://www.rust-lang.org/"
 arch = "x86_64"
 size = "31293864"
 usize = "159100979"
