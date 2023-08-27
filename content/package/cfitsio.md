@@ -2,9 +2,7 @@
 draft = false
 title = "cfitsio 4.2.0-1"
 version = "4.2.0-1"
-date = "2022-12-27T07:56:24"
 categories = ['lib']
-upstreamurl = "https://heasarc.gsfc.nasa.gov/fitsio/"
 arch = "x86_64"
 size = "514208"
 usize = "1824866"
