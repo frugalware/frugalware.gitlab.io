@@ -2,9 +2,7 @@
 draft = false
 title = "appstream 0.16.2-2"
 version = "0.16.2-2"
-date = "2023-06-13T08:47:39"
 categories = ['lib']
-upstreamurl = "http://distributions.freedesktop.org/wiki/AppStream"
 arch = "x86_64"
 size = "2187808"
 usize = "8443672"

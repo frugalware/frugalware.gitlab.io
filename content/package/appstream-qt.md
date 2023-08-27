@@ -2,9 +2,7 @@
 draft = false
 title = "appstream-qt 0.16.2-2"
 version = "0.16.2-2"
-date = "2023-06-13T08:47:39"
 categories = ['xlib']
-upstreamurl = "http://distributions.freedesktop.org/wiki/AppStream"
 arch = "x86_64"
 size = "73364"
 usize = "348976"

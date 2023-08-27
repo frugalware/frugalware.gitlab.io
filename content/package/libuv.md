@@ -2,9 +2,7 @@
 draft = false
 title = "libuv 1.45.0-1"
 version = "1.45.0-1"
-date = "2023-06-19T09:51:16"
 categories = ['lib']
-upstreamurl = "https://github.com/libuv/libuv"
 arch = "x86_64"
 size = "147188"
 usize = "508208"
