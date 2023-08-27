@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libzip 1.10.0-1"
 version = "1.10.0-1"
-date = "2023-07-13T08:30:05"
 categories = ['lib32-extra']
-upstreamurl = "http://www.nih.at/libzip/"
 arch = "x86_64"
 size = "76316"
 usize = "207663"
