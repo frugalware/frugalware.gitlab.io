@@ -2,9 +2,7 @@
 draft = false
 title = "thunderbird 102.14.0-1"
 version = "102.14.0-1"
-date = "2023-08-03T13:09:48"
 categories = ['xapps']
-upstreamurl = "http://www.mozilla.org/products/thunderbird/"
 arch = "x86_64"
 size = "53603556"
 usize = "217284519"
