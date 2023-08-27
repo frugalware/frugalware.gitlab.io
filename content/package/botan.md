@@ -2,9 +2,7 @@
 draft = false
 title = "botan 2.19.3-2"
 version = "2.19.3-2"
-date = "2023-04-29T20:11:55"
 categories = ['lib']
-upstreamurl = "http://botan.randombit.net/"
 arch = "x86_64"
 size = "2146072"
 usize = "8333925"
