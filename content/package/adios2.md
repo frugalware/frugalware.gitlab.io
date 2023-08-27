@@ -2,9 +2,7 @@
 draft = false
 title = "adios2 2.9.0-1"
 version = "2.9.0-1"
-date = "2023-07-27T20:13:59"
 categories = ['lib-extra']
-upstreamurl = "https://adios2.readthedocs.io/en/latest/index.html"
 arch = "x86_64"
 size = "3099516"
 usize = "14571805"
