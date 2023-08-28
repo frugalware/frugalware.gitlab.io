@@ -2,9 +2,7 @@
 draft = false
 title = "libarchive 3.7.1-1"
 version = "3.7.1-1"
-date = "2023-07-31T09:50:38"
 categories = ['base', 'chroot-core']
-upstreamurl = "http://www.libarchive.org"
 arch = "x86_64"
 size = "722460"
 usize = "2730042"
