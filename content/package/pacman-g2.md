@@ -2,9 +2,7 @@
 draft = false
 title = "pacman-g2 3.9.4-38"
 version = "3.9.4-38"
-date = "2022-11-10T15:59:13"
 categories = ['base', 'chroot-core']
-upstreamurl = "http://ftp.frugalware.org/pub/other/pacman-g2/"
 arch = "x86_64"
 size = "3011000"
 usize = "7247032"
