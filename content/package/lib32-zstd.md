@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-zstd 1.5.5-2"
 version = "1.5.5-2"
-date = "2023-06-19T10:04:29"
 categories = ['lib32-extra']
-upstreamurl = "http://www.zstd.net/"
 arch = "x86_64"
 size = "244628"
 usize = "714622"

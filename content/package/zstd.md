@@ -2,9 +2,7 @@
 draft = false
 title = "zstd 1.5.5-2"
 version = "1.5.5-2"
-date = "2023-06-19T10:04:29"
 categories = ['base', 'chroot-core']
-upstreamurl = "http://www.zstd.net/"
 arch = "x86_64"
 size = "529524"
 usize = "2601383"
