@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-lzo 2.10-10"
 version = "2.10-10"
-date = "2023-02-20T13:03:47"
 categories = ['lib32-extra']
-upstreamurl = "http://www.oberhumer.com/opensource/lzo"
 arch = "x86_64"
 size = "65292"
 usize = "315792"
