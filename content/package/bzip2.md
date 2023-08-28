@@ -2,9 +2,7 @@
 draft = false
 title = "bzip2 1.0.8-9"
 version = "1.0.8-9"
-date = "2023-02-20T12:52:31"
 categories = ['base', 'chroot-core']
-upstreamurl = "http://www.bzip.org/"
 arch = "x86_64"
 size = "64432"
 usize = "166894"
