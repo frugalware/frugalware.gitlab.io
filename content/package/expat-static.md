@@ -2,9 +2,7 @@
 draft = false
 title = "expat-static 2.5.0-1"
 version = "2.5.0-1"
-date = "2022-10-26T07:17:56"
 categories = ['devel-extra']
-upstreamurl = "http://expat.sf.net"
 arch = "x86_64"
 size = "567844"
 usize = "688642"
