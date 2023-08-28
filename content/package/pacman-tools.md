@@ -2,9 +2,7 @@
 draft = false
 title = "pacman-tools 1.3.5-3"
 version = "1.3.5-3"
-date = "2023-05-14T13:15:55"
 categories = ['devel', 'devel-core']
-upstreamurl = "http://ftp.frugalware.org/pub/other/pacman-tools"
 arch = "x86_64"
 size = "222044"
 usize = "569897"
