@@ -2,9 +2,7 @@
 draft = false
 title = "ktp-desktop-applets 23.04.3-4"
 version = "23.04.3-4"
-date = "2023-08-18T13:33:44"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "57740"
 usize = "308243"
