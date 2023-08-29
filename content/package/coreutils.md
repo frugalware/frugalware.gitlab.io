@@ -2,9 +2,7 @@
 draft = false
 title = "coreutils 9.3-1"
 version = "9.3-1"
-date = "2023-04-21T20:19:02"
 categories = ['base', 'core', 'chroot-core']
-upstreamurl = "http://www.gnu.org/software/coreutils"
 arch = "x86_64"
 size = "2927340"
 usize = "17636306"
