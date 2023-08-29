@@ -2,9 +2,7 @@
 draft = false
 title = "media-driver 23.3.1-1"
 version = "23.3.1-1"
-date = "2023-08-14T15:12:08"
 categories = ['x11']
-upstreamurl = "https://github.com/intel/media-driver"
 arch = "x86_64"
 size = "6191552"
 usize = "37641332"
