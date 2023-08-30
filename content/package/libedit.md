@@ -2,9 +2,7 @@
 draft = false
 title = "libedit 20221030_3.1-1"
 version = "20221030_3.1-1"
-date = "2022-12-27T08:00:19"
 categories = ['lib']
-upstreamurl = "http://www.thrysoee.dk/editline/"
 arch = "x86_64"
 size = "107768"
 usize = "294688"
