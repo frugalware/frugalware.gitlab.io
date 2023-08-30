@@ -2,9 +2,7 @@
 draft = false
 title = "libgpgmepp 1.21.0-1"
 version = "1.21.0-1"
-date = "2023-07-12T11:45:42"
 categories = ['lib']
-upstreamurl = "http://www.gnupg.org/related_software/gpgme/"
 arch = "x86_64"
 size = "106360"
 usize = "374688"

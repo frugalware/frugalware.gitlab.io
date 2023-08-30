@@ -2,9 +2,7 @@
 draft = false
 title = "gpgme 1.21.0-1"
 version = "1.21.0-1"
-date = "2023-07-12T11:45:42"
 categories = ['apps', 'chroot-core']
-upstreamurl = "http://www.gnupg.org/related_software/gpgme/"
 arch = "x86_64"
 size = "537176"
 usize = "1908858"
