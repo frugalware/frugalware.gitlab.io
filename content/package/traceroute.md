@@ -2,9 +2,7 @@
 draft = false
 title = "traceroute 2.1.2-1"
 version = "2.1.2-1"
-date = "2023-02-16T08:47:09"
 categories = ['network']
-upstreamurl = "https://sourceforge.net/projects/traceroute"
 arch = "x86_64"
 size = "52528"
 usize = "143853"

@@ -2,9 +2,7 @@
 draft = false
 title = "sg3-utils 1.47-1"
 version = "1.47-1"
-date = "2022-02-02T21:56:58"
 categories = ['apps']
-upstreamurl = "http://sg.danny.cz/sg/sg3_utils.html"
 arch = "x86_64"
 size = "893932"
 usize = "3023783"
