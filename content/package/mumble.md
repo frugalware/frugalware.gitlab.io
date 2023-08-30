@@ -2,9 +2,7 @@
 draft = false
 title = "mumble 1.4.287-8"
 version = "1.4.287-8"
-date = "2023-06-15T11:17:55"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/mumble-voip/mumble"
 arch = "x86_64"
 size = "4341144"
 usize = "10554147"
