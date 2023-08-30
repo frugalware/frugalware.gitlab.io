@@ -2,9 +2,7 @@
 draft = false
 title = "protobuf-c 1.4.1-1"
 version = "1.4.1-1"
-date = "2022-08-29T07:51:20"
 categories = ['lib-extra']
-upstreamurl = "https://github.com/protobuf-c/protobuf-c"
 arch = "x86_64"
 size = "92120"
 usize = "289100"
