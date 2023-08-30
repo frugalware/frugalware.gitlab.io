@@ -2,9 +2,7 @@
 draft = false
 title = "vlc-smb 3.0.18-12"
 version = "3.0.18-12"
-date = "2023-07-20T12:53:51"
 categories = ['xmultimedia-extra']
-upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
 size = "16468"
 usize = "14024"
