@@ -2,9 +2,7 @@
 draft = false
 title = "grpc 1.52.1-2"
 version = "1.52.1-2"
-date = "2023-03-15T20:18:37"
 categories = ['devel-extra']
-upstreamurl = "https://grpc.io"
 arch = "x86_64"
 size = "3473960"
 usize = "15381086"
