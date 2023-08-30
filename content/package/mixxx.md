@@ -2,9 +2,7 @@
 draft = false
 title = "mixxx 2.3.5-1"
 version = "2.3.5-1"
-date = "2023-06-15T10:08:17"
 categories = ['xapps-extra']
-upstreamurl = "http://www.mixxx.org/"
 arch = "x86_64"
 size = "13655152"
 usize = "47521123"
