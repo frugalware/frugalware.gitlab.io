@@ -2,9 +2,7 @@
 draft = false
 title = "brotli 1.0.9-4"
 version = "1.0.9-4"
-date = "2023-03-23T16:13:39"
 categories = ['lib', 'chroot-core']
-upstreamurl = "https://github.com/google/brotli"
 arch = "x86_64"
 size = "297860"
 usize = "1587134"
