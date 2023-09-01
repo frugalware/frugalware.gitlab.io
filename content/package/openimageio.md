@@ -2,9 +2,7 @@
 draft = false
 title = "openimageio 2.4.12.0-2"
 version = "2.4.12.0-2"
-date = "2023-06-12T07:36:44"
 categories = ['xlib-extra']
-upstreamurl = "http://www.openimageio.org/"
 arch = "x86_64"
 size = "3914808"
 usize = "16180584"
