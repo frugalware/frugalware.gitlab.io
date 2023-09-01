@@ -2,9 +2,7 @@
 draft = false
 title = "gegl 0.4.44-1"
 version = "0.4.44-1"
-date = "2023-06-18T13:52:21"
 categories = ['xlib-extra']
-upstreamurl = "http://www.gegl.org/"
 arch = "x86_64"
 size = "2872768"
 usize = "15103814"
