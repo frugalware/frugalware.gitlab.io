@@ -2,9 +2,7 @@
 draft = false
 title = "vhba-module 20211218-115"
 version = "20211218-115"
-date = "2023-08-24T09:32:35"
 categories = ['apps-extra']
-upstreamurl = "https://sourceforge.net/projects/cdemu"
 arch = "x86_64"
 size = "41212"
 usize = "33601"

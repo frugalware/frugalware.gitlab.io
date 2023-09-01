@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-nvidia 535.104.05-2"
 version = "535.104.05-2"
-date = "2023-08-24T09:50:14"
 categories = ['x11-extra']
-upstreamurl = "http://www.nvidia.com/object/unix.html"
 arch = "x86_64"
 size = "39502736"
 usize = "212082394"

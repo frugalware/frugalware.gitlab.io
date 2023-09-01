@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-elfutils 0.189-2"
 version = "0.189-2"
-date = "2023-03-31T08:16:31"
 categories = ['lib32-extra']
-upstreamurl = "https://sourceware.org/elfutils/"
 arch = "x86_64"
 size = "702512"
 usize = "3831782"

@@ -2,9 +2,7 @@
 draft = false
 title = "libb64 1.2.1-7"
 version = "1.2.1-7"
-date = "2022-08-16T20:44:39"
 categories = ['lib-extra']
-upstreamurl = "https://sourceforge.net/projects/libb64"
 arch = "x86_64"
 size = "17840"
 usize = "31417"
