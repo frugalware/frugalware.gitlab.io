@@ -2,9 +2,7 @@
 draft = false
 title = "gimp 2.10.34-1"
 version = "2.10.34-1"
-date = "2023-02-22T17:35:20"
 categories = ['xapps-extra']
-upstreamurl = "http://www.gimp.org/"
 arch = "x86_64"
 size = "20100800"
 usize = "118710737"
