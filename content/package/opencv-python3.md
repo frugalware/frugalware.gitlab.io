@@ -2,9 +2,7 @@
 draft = false
 title = "opencv-python3 4.7.0-2"
 version = "4.7.0-2"
-date = "2023-06-14T18:33:53"
 categories = ['xapps-extra']
-upstreamurl = "http://opencv.org/"
 arch = "x86_64"
 size = "1910620"
 usize = "9508512"

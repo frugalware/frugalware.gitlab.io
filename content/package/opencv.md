@@ -2,9 +2,7 @@
 draft = false
 title = "opencv 4.7.0-2"
 version = "4.7.0-2"
-date = "2023-06-14T18:33:53"
 categories = ['xmultimedia-extra']
-upstreamurl = "http://opencv.org/"
 arch = "x86_64"
 size = "22643836"
 usize = "90353714"
