@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-openjpeg 2.5.0-1"
 version = "2.5.0-1"
-date = "2022-08-29T11:47:46"
 categories = ['lib32-extra']
-upstreamurl = "http://www.openjpeg.org/"
 arch = "x86_64"
 size = "1672872"
 usize = "2055276"
