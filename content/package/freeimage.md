@@ -2,9 +2,7 @@
 draft = false
 title = "freeimage 3.18.0-8"
 version = "3.18.0-8"
-date = "2023-06-06T18:16:29"
 categories = ['xlib-extra']
-upstreamurl = "http://freeimage.sourceforge.net/"
 arch = "x86_64"
 size = "4071668"
 usize = "6010074"
