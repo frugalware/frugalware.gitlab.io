@@ -2,9 +2,7 @@
 draft = false
 title = "krita 5.1.5-4"
 version = "5.1.5-4"
-date = "2023-06-06T19:14:13"
 categories = ['kde5-extra']
-upstreamurl = "https://krita.org/"
 arch = "x86_64"
 size = "70452196"
 usize = "159479069"
