@@ -2,9 +2,7 @@
 draft = false
 title = "audit 3.1.1-1"
 version = "3.1.1-1"
-date = "2023-07-20T12:39:47"
 categories = ['apps-extra']
-upstreamurl = "http://people.redhat.com/sgrubb/audit"
 arch = "x86_64"
 size = "297240"
 usize = "865697"

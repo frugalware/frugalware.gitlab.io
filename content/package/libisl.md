@@ -2,9 +2,7 @@
 draft = false
 title = "libisl 0.26-1"
 version = "0.26-1"
-date = "2023-04-18T13:57:24"
 categories = ['devel', 'devel-core', 'chroot-core']
-upstreamurl = "https://sourceforge.net/projects/libisl"
 arch = "x86_64"
 size = "9686844"
 usize = "17742844"
