@@ -2,9 +2,7 @@
 draft = false
 title = "opentrack 2023.1.0-3"
 version = "2023.1.0-3"
-date = "2023-08-23T15:07:02"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/opentrack/opentrack"
 arch = "x86_64"
 size = "10054620"
 usize = "18139764"

@@ -2,9 +2,7 @@
 draft = false
 title = "performous 1.2.0-5"
 version = "1.2.0-5"
-date = "2023-06-12T07:57:15"
 categories = ['games-extra']
-upstreamurl = "http://performous.org/"
 arch = "x86_64"
 size = "4429424"
 usize = "9080097"
