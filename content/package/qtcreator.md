@@ -2,9 +2,7 @@
 draft = false
 title = "qtcreator 11.0.0-1"
 version = "11.0.0-1"
-date = "2023-07-25T08:32:15"
 categories = ['xapps-extra']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "29575124"
 usize = "118784275"
