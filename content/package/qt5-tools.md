@@ -2,9 +2,7 @@
 draft = false
 title = "qt5-tools 5.15.10-1"
 version = "5.15.10-1"
-date = "2023-06-07T09:11:11"
 categories = ['xlib']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "5615564"
 usize = "17594892"
