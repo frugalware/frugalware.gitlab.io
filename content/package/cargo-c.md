@@ -2,9 +2,7 @@
 draft = false
 title = "cargo-c 0.9.17-2"
 version = "0.9.17-2"
-date = "2023-03-15T17:51:11"
 categories = ['devel-extra']
-upstreamurl = "https://github.com/lu-zero/cargo-c"
 arch = "x86_64"
 size = "8341972"
 usize = "31303047"
