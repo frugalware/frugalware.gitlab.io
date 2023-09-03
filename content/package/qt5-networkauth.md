@@ -2,9 +2,7 @@
 draft = false
 title = "qt5-networkauth 5.15.10-1"
 version = "5.15.10-1"
-date = "2023-06-07T11:13:59"
 categories = ['xlib']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "63684"
 usize = "248461"
