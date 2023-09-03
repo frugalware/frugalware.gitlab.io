@@ -2,9 +2,7 @@
 draft = false
 title = "qt5-imageformats 5.15.10-1"
 version = "5.15.10-1"
-date = "2023-06-07T09:23:52"
 categories = ['xlib']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "51976"
 usize = "213794"
