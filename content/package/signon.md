@@ -2,9 +2,7 @@
 draft = false
 title = "signon 8.61-3"
 version = "8.61-3"
-date = "2023-06-13T11:09:12"
 categories = ['xlib']
-upstreamurl = "https://gitlab.com/accounts-sso/signond"
 arch = "x86_64"
 size = "2444796"
 usize = "7502570"
