@@ -2,9 +2,7 @@
 draft = false
 title = "libheif 1.16.2-1"
 version = "1.16.2-1"
-date = "2023-06-19T09:03:46"
 categories = ['lib']
-upstreamurl = "https://github.com/strukturag/libheif"
 arch = "x86_64"
 size = "265796"
 usize = "874227"

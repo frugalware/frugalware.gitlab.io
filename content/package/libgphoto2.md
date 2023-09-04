@@ -2,9 +2,7 @@
 draft = false
 title = "libgphoto2 2.5.30-1"
 version = "2.5.30-1"
-date = "2022-10-16T13:40:53"
 categories = ['lib']
-upstreamurl = "http://www.gphoto.org"
 arch = "x86_64"
 size = "1256104"
 usize = "6890898"

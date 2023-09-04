@@ -2,9 +2,7 @@
 draft = false
 title = "libyuv 20221201.gc19943b-1"
 version = "20221201.gc19943b-1"
-date = "2022-12-01T12:37:35"
 categories = ['lib']
-upstreamurl = "https://chromium.googlesource.com/libyuv/libyuv"
 arch = "x86_64"
 size = "268068"
 usize = "1847449"

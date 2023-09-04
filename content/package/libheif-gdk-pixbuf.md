@@ -2,9 +2,7 @@
 draft = false
 title = "libheif-gdk-pixbuf 1.16.2-1"
 version = "1.16.2-1"
-date = "2023-06-19T09:03:46"
 categories = ['lib-extra']
-upstreamurl = "https://github.com/strukturag/libheif"
 arch = "x86_64"
 size = "3744"
 usize = "14160"

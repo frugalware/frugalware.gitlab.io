@@ -2,9 +2,7 @@
 draft = false
 title = "libproxy-python3 0.5.3-1"
 version = "0.5.3-1"
-date = "2023-07-12T20:28:58"
 categories = ['xlib']
-upstreamurl = "https://github.com/libproxy/libproxy"
 arch = "x86_64"
 size = "3836"
 usize = "0"
