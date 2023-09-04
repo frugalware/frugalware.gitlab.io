@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-spirv-tools 2023.2-1"
 version = "2023.2-1"
-date = "2023-06-20T17:22:50"
 categories = ['lib32-extra']
-upstreamurl = "https://github.com/KhronosGroup/spirv-tools"
 arch = "x86_64"
 size = "1283412"
 usize = "5678030"
