@@ -2,9 +2,7 @@
 draft = false
 title = "libao-pulse 1.2.0-13"
 version = "1.2.0-13"
-date = "2023-07-20T12:41:43"
 categories = ['xmultimedia']
-upstreamurl = "http://www.xiph.org/ao"
 arch = "x86_64"
 size = "6924"
 usize = "14208"
