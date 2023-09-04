@@ -2,9 +2,7 @@
 draft = false
 title = "tslib 1.22-1"
 version = "1.22-1"
-date = "2022-11-25T08:42:03"
 categories = ['lib']
-upstreamurl = "https://github.com/kergoth/tslib"
 arch = "x86_64"
 size = "119740"
 usize = "568295"
