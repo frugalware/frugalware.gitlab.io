@@ -2,9 +2,7 @@
 draft = false
 title = "qt5-base-mysql 5.15.10-1"
 version = "5.15.10-1"
-date = "2023-06-07T07:54:53"
 categories = ['xlib-extra']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "27672"
 usize = "76241"
