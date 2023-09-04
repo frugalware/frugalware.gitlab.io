@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-nspr 4.35-1"
 version = "4.35-1"
-date = "2022-09-13T07:35:24"
 categories = ['lib32-extra']
-upstreamurl = "http://www.mozilla.org/projects/nspr/"
 arch = "x86_64"
 size = "196568"
 usize = "906104"
