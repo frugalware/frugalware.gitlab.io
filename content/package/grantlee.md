@@ -2,9 +2,7 @@
 draft = false
 title = "grantlee 5.3.1-3"
 version = "5.3.1-3"
-date = "2023-06-13T09:18:17"
 categories = ['xlib']
-upstreamurl = "https://github.com/steveire/grantlee"
 arch = "x86_64"
 size = "290112"
 usize = "1181843"
