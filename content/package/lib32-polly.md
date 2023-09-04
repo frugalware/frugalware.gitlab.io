@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-polly 15.0.7-5"
 version = "15.0.7-5"
-date = "2023-06-05T19:22:58"
 categories = ['lib32-extra']
-upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
 size = "1932752"
 usize = "8597870"

@@ -2,9 +2,7 @@
 draft = false
 title = "llvm-libs 15.0.7-5"
 version = "15.0.7-5"
-date = "2023-06-05T19:22:58"
 categories = ['lib']
-upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
 size = "27395612"
 usize = "120854582"

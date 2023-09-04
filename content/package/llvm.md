@@ -2,9 +2,7 @@
 draft = false
 title = "llvm 15.0.7-5"
 version = "15.0.7-5"
-date = "2023-06-05T19:22:58"
 categories = ['devel']
-upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
 size = "25097648"
 usize = "132043821"
