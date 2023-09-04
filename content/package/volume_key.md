@@ -2,9 +2,7 @@
 draft = false
 title = "volume_key 0.3.12-8"
 version = "0.3.12-8"
-date = "2022-12-13T13:18:17"
 categories = ['lib']
-upstreamurl = "https://pagure.io/volume_key/"
 arch = "x86_64"
 size = "155392"
 usize = "901170"

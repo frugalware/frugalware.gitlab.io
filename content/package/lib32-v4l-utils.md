@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-v4l-utils 1.24.1-2"
 version = "1.24.1-2"
-date = "2023-06-13T12:05:31"
 categories = ['lib32-extra']
-upstreamurl = "http://linuxtv.org"
 arch = "x86_64"
 size = "1042348"
 usize = "4114887"

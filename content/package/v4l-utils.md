@@ -2,9 +2,7 @@
 draft = false
 title = "v4l-utils 1.24.1-2"
 version = "1.24.1-2"
-date = "2023-06-13T12:05:31"
 categories = ['multimedia']
-upstreamurl = "http://linuxtv.org"
 arch = "x86_64"
 size = "1281584"
 usize = "4936626"
