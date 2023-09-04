@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libpulse 16.1-3"
 version = "16.1-3"
-date = "2022-11-12T15:15:51"
 categories = ['lib32-extra']
-upstreamurl = "http://www.freedesktop.org/wiki/Software/PulseAudio/"
 arch = "x86_64"
 size = "1099948"
 usize = "5378069"
