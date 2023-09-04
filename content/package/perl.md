@@ -2,9 +2,7 @@
 draft = false
 title = "perl 5.36.1-1"
 version = "5.36.1-1"
-date = "2023-04-26T08:13:39"
 categories = ['devel', 'devel-core']
-upstreamurl = "http://www.perl.org/"
 arch = "x86_64"
 size = "15696700"
 usize = "63489068"
