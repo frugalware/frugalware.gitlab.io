@@ -2,9 +2,7 @@
 draft = false
 title = "cryptsetup-luks 2.6.1-2"
 version = "2.6.1-2"
-date = "2023-03-15T18:08:29"
 categories = ['base', 'core']
-upstreamurl = "https://gitlab.com/cryptsetup/cryptsetup"
 arch = "x86_64"
 size = "693952"
 usize = "2947441"

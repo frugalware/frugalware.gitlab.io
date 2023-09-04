@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-db 18.1.40-5"
 version = "18.1.40-5"
-date = "2023-03-15T18:20:32"
 categories = ['lib32-extra']
-upstreamurl = "https://www.oracle.com/database/technologies/related/berkeleydb-downloads.html"
 arch = "x86_64"
 size = "1371540"
 usize = "8335367"

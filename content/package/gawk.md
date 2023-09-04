@@ -2,9 +2,7 @@
 draft = false
 title = "gawk 5.2.2-1"
 version = "5.2.2-1"
-date = "2023-05-09T15:15:11"
 categories = ['base', 'chroot-core']
-upstreamurl = "http://www.gnu.org/software/gawk/"
 arch = "x86_64"
 size = "1303904"
 usize = "3473892"
