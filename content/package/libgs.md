@@ -2,9 +2,7 @@
 draft = false
 title = "libgs 10.01.2-1"
 version = "10.01.2-1"
-date = "2023-06-22T06:37:45"
 categories = ['libs']
-upstreamurl = "https://www.ghostscript.com/"
 arch = "x86_64"
 size = "3932404"
 usize = "25916764"
