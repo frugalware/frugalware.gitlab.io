@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libtiff 4.4.0-1"
 version = "4.4.0-1"
-date = "2022-08-28T15:36:46"
 categories = ['lib32-extra']
-upstreamurl = "http://libtiff.maptools.org"
 arch = "x86_64"
 size = "322136"
 usize = "1192425"

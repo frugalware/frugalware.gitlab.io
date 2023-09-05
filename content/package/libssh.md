@@ -2,9 +2,7 @@
 draft = false
 title = "libssh 0.10.5-1"
 version = "0.10.5-1"
-date = "2023-05-06T20:37:23"
 categories = ['base', 'chroot-core']
-upstreamurl = "http://www.libssh.org/"
 arch = "x86_64"
 size = "236048"
 usize = "772343"

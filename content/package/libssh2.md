@@ -2,9 +2,7 @@
 draft = false
 title = "libssh2 1.11.0-1"
 version = "1.11.0-1"
-date = "2023-06-02T13:48:15"
 categories = ['base']
-upstreamurl = "http://www.libssh2.org"
 arch = "x86_64"
 size = "310348"
 usize = "785383"

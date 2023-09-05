@@ -2,9 +2,7 @@
 draft = false
 title = "libtiff 4.4.0-1"
 version = "4.4.0-1"
-date = "2022-08-28T15:36:46"
 categories = ['lib']
-upstreamurl = "http://libtiff.maptools.org"
 arch = "x86_64"
 size = "813936"
 usize = "3327762"

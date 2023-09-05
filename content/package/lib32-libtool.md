@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libtool 2.4.7-1"
 version = "2.4.7-1"
-date = "2022-09-05T11:54:45"
 categories = ['lib32-extra']
-upstreamurl = "http://www.gnu.org/software/libtool"
 arch = "x86_64"
 size = "113164"
 usize = "572218"
