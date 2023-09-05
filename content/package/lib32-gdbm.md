@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-gdbm 1.23-1"
 version = "1.23-1"
-date = "2022-08-26T15:23:38"
 categories = ['lib32-extra']
-upstreamurl = "http://www.gnu.org/software/gdbm/gdbm.html"
 arch = "x86_64"
 size = "99132"
 usize = "309454"

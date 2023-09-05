@@ -2,9 +2,7 @@
 draft = false
 title = "fontconfig 2.14.2-1"
 version = "2.14.2-1"
-date = "2023-02-13T09:50:28"
 categories = ['lib', 'misc-fonts']
-upstreamurl = "http://fontconfig.org/"
 arch = "x86_64"
 size = "1096752"
 usize = "3391888"

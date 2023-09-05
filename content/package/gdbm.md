@@ -2,9 +2,7 @@
 draft = false
 title = "gdbm 1.23-1"
 version = "1.23-1"
-date = "2022-08-26T15:23:38"
 categories = ['base', 'chroot-core']
-upstreamurl = "http://www.gnu.org/software/gdbm/gdbm.html"
 arch = "x86_64"
 size = "263660"
 usize = "833447"

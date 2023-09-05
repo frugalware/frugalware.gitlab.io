@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-fribidi 1.0.13-1"
 version = "1.0.13-1"
-date = "2023-06-02T19:05:40"
 categories = ['lib32-extra']
-upstreamurl = "https://github.com/fribidi/fribidi"
 arch = "x86_64"
 size = "39376"
 usize = "225718"
