@@ -2,9 +2,7 @@
 draft = false
 title = "libevent 2.1.12-4"
 version = "2.1.12-4"
-date = "2023-03-15T20:58:44"
 categories = ['lib']
-upstreamurl = "http://libevent.org/"
 arch = "x86_64"
 size = "297328"
 usize = "1318151"

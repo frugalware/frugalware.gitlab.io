@@ -2,9 +2,7 @@
 draft = false
 title = "libde265 1.0.12-1"
 version = "1.0.12-1"
-date = "2023-06-19T08:42:59"
 categories = ['lib']
-upstreamurl = "https://github.com/strukturag/libde265"
 arch = "x86_64"
 size = "254636"
 usize = "828517"

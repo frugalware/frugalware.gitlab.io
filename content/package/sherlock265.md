@@ -2,9 +2,7 @@
 draft = false
 title = "sherlock265 1.0.12-1"
 version = "1.0.12-1"
-date = "2023-06-19T08:42:59"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/strukturag/libde265"
 arch = "x86_64"
 size = "10704"
 usize = "43104"

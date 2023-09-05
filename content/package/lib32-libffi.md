@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libffi 3.4.4-1"
 version = "3.4.4-1"
-date = "2022-10-24T07:58:46"
 categories = ['lib32-extra']
-upstreamurl = "http://sourceware.org/libffi/"
 arch = "x86_64"
 size = "16552"
 usize = "30752"
