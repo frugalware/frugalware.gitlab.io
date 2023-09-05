@@ -2,9 +2,7 @@
 draft = false
 title = "vtk-static 9.2.6-5"
 version = "9.2.6-5"
-date = "2023-07-31T09:41:43"
 categories = ['lib-extra']
-upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
 size = "395124"
 usize = "444432"
