@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libxscrnsaver 1.2.4-1"
 version = "1.2.4-1"
-date = "2022-12-08T09:18:12"
 categories = ['lib32-extra']
-upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "8152"
 usize = "18313"

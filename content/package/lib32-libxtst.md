@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libxtst 1.2.4-1"
 version = "1.2.4-1"
-date = "2022-10-06T12:34:24"
 categories = ['lib32-extra']
-upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "13220"
 usize = "34649"

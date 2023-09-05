@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libxrender 0.9.11-1"
 version = "0.9.11-1"
-date = "2022-10-24T09:28:15"
 categories = ['lib32-extra']
-upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "24080"
 usize = "84949"

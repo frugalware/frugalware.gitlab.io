@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libxrandr 1.5.3-1"
 version = "1.5.3-1"
-date = "2022-12-08T09:15:07"
 categories = ['lib32-extra']
-upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "22140"
 usize = "72132"
