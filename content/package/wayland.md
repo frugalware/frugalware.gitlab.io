@@ -2,9 +2,7 @@
 draft = false
 title = "wayland 1.22.0-1"
 version = "1.22.0-1"
-date = "2023-04-04T15:56:54"
 categories = ['x11']
-upstreamurl = "http://wayland.freedesktop.org/"
 arch = "x86_64"
 size = "130748"
 usize = "821057"

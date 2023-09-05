@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-wayland 1.22.0-1"
 version = "1.22.0-1"
-date = "2023-04-04T15:56:54"
 categories = ['lib32-extra']
-upstreamurl = "http://wayland.freedesktop.org/"
 arch = "x86_64"
 size = "120448"
 usize = "643891"
