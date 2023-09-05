@@ -2,9 +2,7 @@
 draft = false
 title = "libnftnl 1.2.6-1"
 version = "1.2.6-1"
-date = "2023-07-12T20:02:48"
 categories = ['base']
-upstreamurl = "http://netfilter.org/projects/libnftnl/index.html"
 arch = "x86_64"
 size = "69552"
 usize = "271905"

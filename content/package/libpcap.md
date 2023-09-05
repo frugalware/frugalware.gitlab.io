@@ -2,9 +2,7 @@
 draft = false
 title = "libpcap 1.10.4-1"
 version = "1.10.4-1"
-date = "2023-04-10T18:59:51"
 categories = ['base']
-upstreamurl = "http://www.tcpdump.org"
 arch = "x86_64"
 size = "280984"
 usize = "689674"

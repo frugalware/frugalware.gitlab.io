@@ -2,9 +2,7 @@
 draft = false
 title = "libimobiledevice 1.3.0-5"
 version = "1.3.0-5"
-date = "2023-04-26T20:42:54"
 categories = ['lib']
-upstreamurl = "http://libimobiledevice.org/"
 arch = "x86_64"
 size = "242248"
 usize = "1025299"

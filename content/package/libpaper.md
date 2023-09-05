@@ -2,9 +2,7 @@
 draft = false
 title = "libpaper 1.1.29-1"
 version = "1.1.29-1"
-date = "2023-03-21T18:00:15"
 categories = ['lib']
-upstreamurl = "http://packages.debian.org/unstable/source/libpaper"
 arch = "x86_64"
 size = "26784"
 usize = "81394"

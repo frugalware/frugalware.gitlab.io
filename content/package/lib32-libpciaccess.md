@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libpciaccess 0.17-1"
 version = "0.17-1"
-date = "2022-10-20T07:56:31"
 categories = ['lib32-extra']
-upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "21432"
 usize = "58246"
