@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-openal 1.23.1-1"
 version = "1.23.1-1"
-date = "2023-04-26T16:56:20"
 categories = ['lib32-extra']
-upstreamurl = "http://openal-soft.org"
 arch = "x86_64"
 size = "452564"
 usize = "1165614"

@@ -2,9 +2,7 @@
 draft = false
 title = "opencore-amr 0.1.6-1"
 version = "0.1.6-1"
-date = "2022-09-03T16:15:00"
 categories = ['multimedia']
-upstreamurl = "https://sourceforge.net/projects/opencore-amr"
 arch = "x86_64"
 size = "133820"
 usize = "262851"

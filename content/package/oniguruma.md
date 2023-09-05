@@ -2,9 +2,7 @@
 draft = false
 title = "oniguruma 6.9.8-1"
 version = "6.9.8-1"
-date = "2022-09-29T12:53:26"
 categories = ['lib-extra', 'chroot-core']
-upstreamurl = "https://github.com/kkos/oniguruma"
 arch = "x86_64"
 size = "194112"
 usize = "822381"

@@ -2,9 +2,7 @@
 draft = false
 title = "nghttp2-static 1.55.1-1"
 version = "1.55.1-1"
-date = "2023-08-14T15:13:52"
 categories = ['devel-extra']
-upstreamurl = "http://nghttp2.org"
 arch = "x86_64"
 size = "874900"
 usize = "1053164"

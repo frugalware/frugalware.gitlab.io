@@ -2,9 +2,7 @@
 draft = false
 title = "mbedtls-static 2.28.4-1"
 version = "2.28.4-1"
-date = "2023-08-14T15:14:38"
 categories = ['devel-extra']
-upstreamurl = "https://tls.mbed.org"
 arch = "x86_64"
 size = "2896864"
 usize = "3538696"

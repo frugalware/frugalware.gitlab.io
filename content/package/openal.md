@@ -2,9 +2,7 @@
 draft = false
 title = "openal 1.23.1-1"
 version = "1.23.1-1"
-date = "2023-04-26T16:56:20"
 categories = ['xlib']
-upstreamurl = "http://openal-soft.org"
 arch = "x86_64"
 size = "482304"
 usize = "1399876"

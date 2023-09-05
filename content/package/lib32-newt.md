@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-newt 0.52.23-2"
 version = "0.52.23-2"
-date = "2022-12-12T10:14:05"
 categories = ['lib32-extra']
-upstreamurl = "https://pagure.io/newt"
 arch = "x86_64"
 size = "67340"
 usize = "191777"

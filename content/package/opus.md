@@ -2,9 +2,7 @@
 draft = false
 title = "opus 1.4-1"
 version = "1.4-1"
-date = "2023-04-30T20:24:37"
 categories = ['multimedia']
-upstreamurl = "http://www.opus-codec.org"
 arch = "x86_64"
 size = "223576"
 usize = "580712"
