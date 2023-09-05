@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-xcb-util-wm 0.4.2-1"
 version = "0.4.2-1"
-date = "2022-10-20T09:01:04"
 categories = ['lib32-extra']
-upstreamurl = "http://xcb.freedesktop.org"
 arch = "x86_64"
 size = "32036"
 usize = "231960"
