@@ -2,9 +2,7 @@
 draft = false
 title = "ffmpeg 6.0-7"
 version = "6.0-7"
-date = "2023-09-05T12:49:52"
 categories = ['xmultimedia']
-upstreamurl = "http://ffmpeg.sourceforge.net/"
 arch = "x86_64"
 size = "10803572"
 usize = "37529611"
