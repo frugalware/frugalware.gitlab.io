@@ -2,9 +2,7 @@
 draft = false
 title = "pdal 2.5.0-2"
 version = "2.5.0-2"
-date = "2023-03-15T23:23:17"
 categories = ['lib-extra']
-upstreamurl = "http://www.pdal.io"
 arch = "x86_64"
 size = "1882100"
 usize = "7233279"
