@@ -2,9 +2,7 @@
 draft = false
 title = "readline 8.2-2"
 version = "8.2-2"
-date = "2023-02-20T12:44:36"
 categories = ['base', 'chroot-core']
-upstreamurl = "http://www.gnu.org/"
 arch = "x86_64"
 size = "323348"
 usize = "796706"

@@ -2,9 +2,7 @@
 draft = false
 title = "popt 1.16-15"
 version = "1.16-15"
-date = "2022-08-30T10:13:44"
 categories = ['base', 'chroot-core']
-upstreamurl = "http://rpm5.org"
 arch = "x86_64"
 size = "57040"
 usize = "164086"

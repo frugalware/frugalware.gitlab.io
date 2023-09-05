@@ -2,9 +2,7 @@
 draft = false
 title = "polkit-qt5-1 0.114.0-2"
 version = "0.114.0-2"
-date = "2023-06-13T08:56:24"
 categories = ['xlib']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "68444"
 usize = "298123"
