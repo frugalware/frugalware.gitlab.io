@@ -2,9 +2,7 @@
 draft = false
 title = "flac 1.4.3-1"
 version = "1.4.3-1"
-date = "2023-07-08T15:19:50"
 categories = ['multimedia']
-upstreamurl = "https://xiph.org/flac/"
 arch = "x86_64"
 size = "678072"
 usize = "6722609"

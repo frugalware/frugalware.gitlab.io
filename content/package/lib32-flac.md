@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-flac 1.4.3-1"
 version = "1.4.3-1"
-date = "2023-07-08T15:19:50"
 categories = ['lib32-extra']
-upstreamurl = "https://xiph.org/flac/"
 arch = "x86_64"
 size = "376460"
 usize = "1371190"
