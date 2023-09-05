@@ -2,9 +2,7 @@
 draft = false
 title = "darktable 4.4.2-2"
 version = "4.4.2-2"
-date = "2023-09-01T14:39:10"
 categories = ['gnome-extra']
-upstreamurl = "https://www.darktable.org"
 arch = "x86_64"
 size = "6122276"
 usize = "30993351"
