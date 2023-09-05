@@ -2,9 +2,7 @@
 draft = false
 title = "curl-static 8.2.1-1"
 version = "8.2.1-1"
-date = "2023-07-28T07:53:49"
 categories = ['devel-extra']
-upstreamurl = "http://curl.haxx.se"
 arch = "x86_64"
 size = "5154800"
 usize = "5890144"

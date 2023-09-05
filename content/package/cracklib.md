@@ -2,9 +2,7 @@
 draft = false
 title = "cracklib 2.9.5-18"
 version = "2.9.5-18"
-date = "2022-12-13T15:19:01"
 categories = ['base', 'chroot-core']
-upstreamurl = "https://sourceforge.net/projects/cracklib"
 arch = "x86_64"
 size = "173364"
 usize = "1202691"

@@ -2,9 +2,7 @@
 draft = false
 title = "cyrus-sasl-gssapiv2 2.1.28-3"
 version = "2.1.28-3"
-date = "2023-03-15T18:14:20"
 categories = ['network']
-upstreamurl = "https://cyrusimap.org/"
 arch = "x86_64"
 size = "18088"
 usize = "39213"

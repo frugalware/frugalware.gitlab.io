@@ -2,9 +2,7 @@
 draft = false
 title = "c-ares 1.19.1-1"
 version = "1.19.1-1"
-date = "2023-06-02T14:33:05"
 categories = ['network']
-upstreamurl = "https://c-ares.org/"
 arch = "x86_64"
 size = "203816"
 usize = "511891"
