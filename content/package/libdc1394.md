@@ -2,9 +2,7 @@
 draft = false
 title = "libdc1394 2.2.7-1"
 version = "2.2.7-1"
-date = "2023-06-08T21:58:30"
 categories = ['multimedia']
-upstreamurl = "http://sourceforge.net/projects/libdc1394/"
 arch = "x86_64"
 size = "145020"
 usize = "519600"

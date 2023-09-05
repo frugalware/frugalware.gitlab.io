@@ -2,9 +2,7 @@
 draft = false
 title = "libdbusmenu-qt5 0.9.3+16.04.20160218-17"
 version = "0.9.3+16.04.20160218-17"
-date = "2023-06-13T09:56:07"
 categories = ['xlib']
-upstreamurl = "https://launchpad.net/libdbusmenu-qt"
 arch = "x86_64"
 size = "156052"
 usize = "659874"

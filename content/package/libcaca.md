@@ -2,9 +2,7 @@
 draft = false
 title = "libcaca 0.99.beta19-13"
 version = "0.99.beta19-13"
-date = "2022-12-13T15:29:04"
 categories = ['xlib']
-upstreamurl = "http://libcaca.zoy.org"
 arch = "x86_64"
 size = "408868"
 usize = "2452434"
