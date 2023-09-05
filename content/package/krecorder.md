@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "krecorder 23.04.3-4"
-version = "23.04.3-4"
+title = "krecorder 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-25T09:50:29"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "96288"
-usize = "450100"
-sha1sum = "26e617de3e663ff07a5a2018f4b562d4efa956ec"
+size = "96960"
+usize = "455806"
+sha1sum = "1829fabcdb4251aecc671cd5deec67b7cce31d75"
 depends = "['kirigami-addons', 'qt5-multimedia', 'qt5-svg', 'ki18n', 'kwindowsystem', 'kconfig', 'kcoreaddons']"
 +++
 Audio recorder for Plasma Mobile and other platforms

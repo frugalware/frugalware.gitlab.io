@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-en-ca 116.0.3-1"
-version = "116.0.3-1"
+title = "firefox-en-ca 117.0-1"
+version = "117.0-1"
+date = "2023-08-29T20:59:46"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "465048"
-usize = "518977"
-sha1sum = "804c23608d0e8372793897068612670360957f70"
-depends = "['firefox>=116.0.3']"
+size = "466628"
+usize = "520398"
+sha1sum = "1b494f2ca4fcb0305744fee38fa99931cc28f6a6"
+depends = "['firefox>=117.0']"
 +++
 Canadian English language support for Firefox

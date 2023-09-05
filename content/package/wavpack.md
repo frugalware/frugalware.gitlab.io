@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "wavpack 5.6.0-1"
-version = "5.6.0-1"
+title = "wavpack 5.6.0-2"
+version = "5.6.0-2"
+date = "2023-09-05T12:13:04"
 categories = ['multimedia']
+upstreamurl = "http://www.wavpack.com/"
 arch = "x86_64"
-size = "510100"
-usize = "958540"
-sha1sum = "73d3f74343e3c44a79a6b414608b87c9f8fd516f"
+size = "510968"
+usize = "957869"
+sha1sum = "1dd6298dbf27cb48b74e3f09451dde76825809fe"
 depends = "['glibc>=2.34']"
 +++
 A completely open audio compression format providing lossless, high-quality lossy, and a unique hybrid compression mode.

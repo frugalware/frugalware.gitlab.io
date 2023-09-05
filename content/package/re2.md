@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "re2 2023.06.02-2"
-version = "2023.06.02-2"
+title = "re2 2023.08.01-2"
+version = "2023.08.01-2"
+date = "2023-08-30T15:09:15"
 categories = ['lib']
+upstreamurl = "https://github.com/google/re2"
 arch = "x86_64"
-size = "144536"
-usize = "395202"
-sha1sum = "2286e2cde49d6cd093ab9fa0977d9206127da7fd"
+size = "145556"
+usize = "402907"
+sha1sum = "d6bdc56426cede722cd51a1911454d5475521843"
 depends = "['libstdc++', 'libgcc', 'abseil-cpp']"
 +++
 Fast, safe, thread-friendly regular expression engine.

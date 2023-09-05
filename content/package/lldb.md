@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "lldb 15.0.7-5"
-version = "15.0.7-5"
+title = "lldb 15.0.7-6"
+version = "15.0.7-6"
+date = "2023-09-04T20:08:15"
 categories = ['devel-extra']
+upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "5739952"
-usize = "23078898"
-sha1sum = "7e73d06f06ac03affb0c8457cf7fd733c583cfb2"
+size = "5746808"
+usize = "23100178"
+sha1sum = "bb74edeee05953af8273393936e6badc87ab1b90"
 depends = "['clang>=15.0.7']"
 +++
 Next generation, high-performance debugger

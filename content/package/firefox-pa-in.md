@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-pa-in 116.0.3-1"
-version = "116.0.3-1"
+title = "firefox-pa-in 117.0-1"
+version = "117.0-1"
+date = "2023-08-29T20:59:46"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "574760"
-usize = "626851"
-sha1sum = "d0860597d5ac1f215ca1fbcfc7fd59c5c1be0762"
-depends = "['firefox>=116.0.3']"
+size = "577404"
+usize = "629872"
+sha1sum = "1dc487d3b1fb549078893328a9d2d48d6d30b887"
+depends = "['firefox>=117.0']"
 +++
 Panjabi language support for Firefox

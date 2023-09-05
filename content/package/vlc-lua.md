@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "vlc-lua 3.0.18-12"
-version = "3.0.18-12"
+title = "vlc-lua 3.0.18-13"
+version = "3.0.18-13"
+date = "2023-08-30T19:14:44"
 categories = ['xmultimedia-extra', 'vlc-codecs']
+upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "149872"
+size = "149724"
 usize = "408766"
-sha1sum = "e18710b842e536baf16a3681330c261a8d27b338"
+sha1sum = "addc45f757a1eb5f07d47440271e9eefb1edf313"
 depends = "['lua>=5.4', 'libvlc>=3.0.18']"
 +++
 vlc Lua support

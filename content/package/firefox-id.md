@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-id 116.0.3-1"
-version = "116.0.3-1"
+title = "firefox-id 117.0-1"
+version = "117.0-1"
+date = "2023-08-29T20:59:46"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "485352"
-usize = "537287"
-sha1sum = "f7d6fae45de66b35df7601d09eaea16a2f2f484a"
-depends = "['firefox>=116.0.3']"
+size = "488600"
+usize = "540547"
+sha1sum = "bd3268c916bab171dff63d717c66f7a02d4cb29b"
+depends = "['firefox>=117.0']"
 +++
 Indonesian language support for Firefox

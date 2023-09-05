@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-lij 116.0.3-1"
-version = "116.0.3-1"
+title = "firefox-lij 117.0-1"
+version = "117.0-1"
+date = "2023-08-29T20:59:46"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "405344"
-usize = "463107"
-sha1sum = "8e21b0889bc08a1827a3bc4c85d1c6170aa4f057"
-depends = "['firefox>=116.0.3']"
+size = "406292"
+usize = "464070"
+sha1sum = "ca0d4b4472703cd74be19c1dfb87134ef94e2a0c"
+depends = "['firefox>=117.0']"
 +++
 Ligurian language support for Firefox

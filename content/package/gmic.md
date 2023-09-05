@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "gmic 2.9.9-3"
-version = "2.9.9-3"
+title = "gmic 3.2.6-1"
+version = "3.2.6-1"
+date = "2023-09-01T14:11:02"
 categories = ['xapps-extra']
+upstreamurl = "https://gmic.eu"
 arch = "x86_64"
-size = "6550264"
-usize = "21585523"
-sha1sum = "69b8c5a01df93ccf06883b2bcddee2dc876b15fe"
-depends = "['curl', 'opencv>=4.5.2', 'openexr>=3.1.5-2']"
+size = "20101928"
+usize = "52259558"
+sha1sum = "7f5a5341e1c4eae315ac924ad96f10374afd9832"
+depends = "['curl', 'opencv>=4.8.0', 'openexr>=3.2.0', 'gimp']"
 +++
 Image procession framework

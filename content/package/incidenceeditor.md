@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "incidenceeditor 23.04.3-4"
-version = "23.04.3-4"
+title = "incidenceeditor 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-25T06:42:40"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "514892"
-usize = "2653968"
-sha1sum = "b541c57baa5aeae78c28573eee94493019dd0f5d"
-depends = "['eventviews>=23.04.3', 'akonadi>=23.04.3', 'ki18n>=5.109.0']"
+size = "512984"
+usize = "2640068"
+sha1sum = "72f2c6b32e4b276ed98d2836243d7757abd90a9f"
+depends = "['eventviews>=23.08.0', 'akonadi>=23.08.0', 'ki18n>=5.109.0']"
 +++
 This lib provides incidence editor

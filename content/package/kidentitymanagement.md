@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kidentitymanagement 23.04.3-4"
-version = "23.04.3-4"
+title = "kidentitymanagement 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-24T16:09:04"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "109884"
-usize = "470929"
-sha1sum = "d2cdf1eea5116306af1118ac65d0666c5cba34a7"
-depends = "['kpimtextedit>=23.04.3']"
+size = "109756"
+usize = "471204"
+sha1sum = "4f6252e02cafe0e01c6d2dfe3c574f56673bf1e4"
+depends = "['kpimtextedit>=23.08.0']"
 +++
 KDE PIM libraries

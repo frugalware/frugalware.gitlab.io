@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt5-declarative 5.15.10-1"
-version = "5.15.10-1"
+title = "qt5-declarative 5.15.10-2"
+version = "5.15.10-2"
+date = "2023-09-03T13:00:05"
 categories = ['xlib']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "4645804"
-usize = "22604416"
-sha1sum = "1f37aa52710c82607d526c760325afa0bcf5a7ce"
+size = "4662552"
+usize = "22694376"
+sha1sum = "d4620b1a18f8832f113dbffe403477ec11ad8b0a"
 depends = "['qt5-base>=5.15.10']"
 +++
 The Qt5 toolkit, qtdeclarative

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-eu 102.14.0-1"
-version = "102.14.0-1"
+title = "thunderbird-eu 115.2.0-1"
+version = "115.2.0-1"
+date = "2023-08-30T10:04:42"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "641980"
-usize = "701828"
-sha1sum = "f20ab8fc76594d7f264111b7d560856d7e813e5e"
-depends = "['thunderbird>=102.14.0']"
+size = "632552"
+usize = "692541"
+sha1sum = "196c88b8e670ac03a5e1f13675519502eb2ff098"
+depends = "['thunderbird>=115.2.0']"
 +++
 Basque language support for Thunderbird

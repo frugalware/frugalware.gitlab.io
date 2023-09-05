@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kdev-php 23.04.0-1"
-version = "23.04.0-1"
+title = "kdev-php 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-25T10:40:27"
 categories = ['devel-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1271228"
-usize = "8164672"
-sha1sum = "6634816d0f105cde3d0c080a1c7aee2b7388c192"
+size = "1273696"
+usize = "8187537"
+sha1sum = "be3a3d606f2f7d12d87a0b67164bae75f7a64059"
 depends = "['kdevelop', 'php']"
 +++
 PHP Language Plugin for KDevelop

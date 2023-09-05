@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "cargo-c 0.9.17-2"
-version = "0.9.17-2"
+title = "cargo-c 0.9.24-1"
+version = "0.9.24-1"
+date = "2023-09-03T10:18:24"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/lu-zero/cargo-c"
 arch = "x86_64"
-size = "8341972"
-usize = "31303047"
-sha1sum = "1dd8211b15a29b232f025d5f9a9e740347a61954"
+size = "11280660"
+usize = "42379393"
+sha1sum = "70b4549ae7186e6a0ba18e33a30464fb4ffb7509"
 depends = "['curl']"
 +++
 A cargo subcommand to build and install C-ABI compatibile dynamic and static libraries

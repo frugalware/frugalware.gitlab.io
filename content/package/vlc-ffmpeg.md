@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "vlc-ffmpeg 3.0.18-12"
-version = "3.0.18-12"
+title = "vlc-ffmpeg 3.0.18-13"
+version = "3.0.18-13"
+date = "2023-08-30T19:14:44"
 categories = ['xmultimedia-extra', 'vlc-codecs']
+upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "79388"
+size = "79856"
 usize = "229640"
-sha1sum = "d5f5dbe491ad2c43e721310a94729cd792f1e70f"
+sha1sum = "2c6303f0c36e2247a577d0e3c143e99ae5b9665e"
 depends = "['ffmpeg>=6.0', 'libvlc>=3.0.18']"
 +++
 vlc ffmpeg support

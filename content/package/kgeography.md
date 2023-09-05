@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kgeography 23.04.3-4"
-version = "23.04.3-4"
+title = "kgeography 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-24T15:21:10"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "10931304"
-usize = "31174025"
-sha1sum = "01fe679d5880008d6bc32af1c89622e156714ed6"
+size = "10934856"
+usize = "31174516"
+sha1sum = "5cdc57e87a1373480e29df8725babce9b0976e2c"
 depends = "['kxmlgui>=5.109.0', 'qt5-svg>=5.15.10', 'qt5-x11extras>=5.15.10']"
 +++
 Geography Trainer.

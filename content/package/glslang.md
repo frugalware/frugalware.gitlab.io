@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "glslang 12.3.1-1"
-version = "12.3.1-1"
+title = "glslang 13.0.0-1"
+version = "13.0.0-1"
+date = "2023-08-26T12:21:25"
 categories = ['apps']
+upstreamurl = "https://github.com/KhronosGroup/glslang"
 arch = "x86_64"
-size = "18532468"
-usize = "38924609"
-sha1sum = "43b1c829c73c3b84da6fd1843b76cb45c6da93be"
+size = "18638340"
+usize = "39148157"
+sha1sum = "af6a67f4eee015bc7ac4cc7f48616414dca8d211"
 depends = "['libstdc++>=11.3']"
 +++
 An OpenGL and OpenGL ES shader front end and validator

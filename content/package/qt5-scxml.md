@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt5-scxml 5.15.10-1"
-version = "5.15.10-1"
+title = "qt5-scxml 5.15.10-2"
+version = "5.15.10-2"
+date = "2023-09-03T13:28:03"
 categories = ['xlib']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "265368"
+size = "265408"
 usize = "1030293"
-sha1sum = "425cbd45e1eccffa6f79a603a532839163b1fcae"
+sha1sum = "ca909489d88b1b10cb43f4330e86702fcc180cf5"
 depends = "['qt5-declarative>=5.15.10']"
 +++
 The Qt5 toolkit, qtscxml

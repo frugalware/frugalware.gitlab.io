@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "graphviz 8.1.0-1"
-version = "8.1.0-1"
+title = "graphviz 8.1.0-5"
+version = "8.1.0-5"
+date = "2023-09-05T09:11:59"
 categories = ['xapps-extra']
+upstreamurl = "http://www.graphviz.org/"
 arch = "x86_64"
-size = "3368728"
-usize = "11321440"
-sha1sum = "22ca6b47b4cb11c7b9fbf89472d08fff0323ede0"
+size = "3377304"
+usize = "11329638"
+sha1sum = "9d46429517c7aeb0e094192e78f96f3f5fa1ebdb"
 depends = "['perl>=5.22.1', 'gd>=2.1.1-4', 'guile>=3.0.4', 'libgs>=10.0.0', 'devil>=1.8.0', 'libxpm', 'libxaw', 'freeglut', 'python3>=3.11', 'librsvg']"
 +++
 Open Source Graph Visualization Software

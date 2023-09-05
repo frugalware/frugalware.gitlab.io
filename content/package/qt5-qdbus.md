@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt5-qdbus 5.15.10-1"
-version = "5.15.10-1"
+title = "qt5-qdbus 5.15.10-2"
+version = "5.15.10-2"
+date = "2023-09-03T13:06:08"
 categories = ['xlib']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "60764"
+size = "61576"
 usize = "213012"
-sha1sum = "3f5e657b6b416149bbf2ca30a22cb9bbf0679ac7"
+sha1sum = "42905a39432950e7b2ef37ecbc01968b0f572320"
 depends = "['qt5-base>=5.15.2', 'dbus-x11']"
 +++
 D-Bus tools for qt5

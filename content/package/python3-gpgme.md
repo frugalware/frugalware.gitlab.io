@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "python3-gpgme 1.21.0-1"
-version = "1.21.0-1"
+title = "python3-gpgme 1.22.0-1"
+version = "1.22.0-1"
+date = "2023-08-30T07:38:30"
 categories = ['devel']
+upstreamurl = "http://www.gnupg.org/related_software/gpgme/"
 arch = "x86_64"
-size = "230632"
-usize = "1420851"
-sha1sum = "f6fb59dbd852bfb79362a29cc13b4db19bbcdaae"
-depends = "['python3>=3.11', 'gpgme>=1.21.0']"
+size = "231656"
+usize = "1422093"
+sha1sum = "79664ac11d9075b8edc78ddf7d5e0a08da92c6af"
+depends = "['python3>=3.11', 'gpgme>=1.22.0']"
 +++
 Python3 bindings for gpgme

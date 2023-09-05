@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "mbedtls-static 2.28.4-1"
-version = "2.28.4-1"
+title = "mbedtls-static 2.28.4-2"
+version = "2.28.4-2"
+date = "2023-09-05T11:21:45"
 categories = ['devel-extra']
+upstreamurl = "https://tls.mbed.org"
 arch = "x86_64"
-size = "2896864"
-usize = "3538696"
-sha1sum = "2b173d48cb23f5ea2acb781010e0727577f1e12c"
+size = "2908616"
+usize = "3550384"
+sha1sum = "47f5ed4a518d282ed5c655a1fa069b1497e51384"
 depends = "[]"
 +++
 Static files for mbedtls

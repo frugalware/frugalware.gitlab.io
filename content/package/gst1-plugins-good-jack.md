@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "gst1-plugins-good-jack 1.22.5-1"
-version = "1.22.5-1"
+title = "gst1-plugins-good-jack 1.22.5-2"
+version = "1.22.5-2"
+date = "2023-09-04T14:02:05"
 categories = ['xmultimedia']
+upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "25884"
-usize = "59312"
-sha1sum = "8341eeadf2d1033bb4caaa5d5909731842850508"
+size = "26472"
+usize = "63408"
+sha1sum = "1f287346c4fe899a694e393c200ee160fc88769b"
 depends = "['gst1-plugins-base>=1.22.5', 'libffi>=3.2.1-2', 'jack>=0.125.0', 'db>=6.2.23', 'gst1-plugins-good>=1.22.5']"
 +++
 GStreamer jack plugin (Good).

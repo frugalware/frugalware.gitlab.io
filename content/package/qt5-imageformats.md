@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt5-imageformats 5.15.10-1"
-version = "5.15.10-1"
+title = "qt5-imageformats 5.15.10-2"
+version = "5.15.10-2"
+date = "2023-09-03T13:14:19"
 categories = ['xlib']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "51976"
-usize = "213794"
-sha1sum = "814f06b2b7b3df183d66f29f1feec0bc4b08bfb3"
+size = "51956"
+usize = "217890"
+sha1sum = "f3548f4b1bb2e11f0d4c4f2f6ea9902eab0391f9"
 depends = "['qt5-base>=5.15.10', 'jasper>=2.0.10', 'libmng>=2.0.3', 'libtiff>=4.0.6', 'libwebp>=0.6.0']"
 +++
 The Qt5 toolkit, qtimageformats

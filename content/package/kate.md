@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kate 23.04.3-4"
-version = "23.04.3-4"
+title = "kate 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-24T17:38:35"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "9450340"
-usize = "31314271"
-sha1sum = "5c3e1ef8de30849f1ffa678beb18c6aea5e05242"
+size = "9481452"
+usize = "31530904"
+sha1sum = "78e3bdd3aadfa669f1002e558d150ea99c009bc2"
 depends = "['ktexteditor>=5.109.0', 'knewstuff>=5.109.0', 'kitemmodels>=5.109.0', 'threadweaver>=5.109.0', 'libgit2>=0.26', 'plasma-framework>=5.109.0', 'qt5-declarative>=5.15.10']"
 +++
 KDE Advanced Text Editor.

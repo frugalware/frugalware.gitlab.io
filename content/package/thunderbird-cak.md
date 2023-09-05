@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-cak 102.14.0-1"
-version = "102.14.0-1"
+title = "thunderbird-cak 115.2.0-1"
+version = "115.2.0-1"
+date = "2023-08-30T10:04:42"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "583748"
-usize = "651779"
-sha1sum = "8e153ad259a2c27dd29e00dd7bf17653fa7a5a93"
-depends = "['thunderbird>=102.14.0']"
+size = "593464"
+usize = "657816"
+sha1sum = "053af25a45eb167475d2e48909bdd875e1d609eb"
+depends = "['thunderbird>=115.2.0']"
 +++
 Kaqchikel language support for Thunderbird

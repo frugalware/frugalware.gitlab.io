@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt5-base-mysql 5.15.10-1"
-version = "5.15.10-1"
+title = "qt5-base-mysql 5.15.10-2"
+version = "5.15.10-2"
+date = "2023-09-04T08:07:59"
 categories = ['xlib-extra']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "27672"
+size = "27832"
 usize = "76241"
-sha1sum = "5de3bcd3d903ceedc76de75596d821e9769198b5"
+sha1sum = "972022594ea22f1fd391088495a9d3c98f97d03c"
 depends = "['mariadb-libs>=10.3.14', 'qt5-base>=5.15.10', 'qt5-base-sql-common']"
 +++
 Mysql support for qt5

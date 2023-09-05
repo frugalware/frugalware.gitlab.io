@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qca-nss 2.3.7-1"
-version = "2.3.7-1"
+title = "qca-nss 2.3.7-2"
+version = "2.3.7-2"
+date = "2023-08-27T13:25:28"
 categories = ['xlib']
+upstreamurl = "http://delta.affinix.com/qca/"
 arch = "x86_64"
-size = "13732"
+size = "13708"
 usize = "47120"
-sha1sum = "c9673a5c3736bdc6771e87eb1faff08f309cc63c"
+sha1sum = "cf12fdb4dca9c72b8375ced3c86f64b524dde432"
 depends = "['nss', 'qca']"
 +++
 Plugins for qca with nss

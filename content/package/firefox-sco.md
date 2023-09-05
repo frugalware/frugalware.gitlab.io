@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-sco 116.0.3-1"
-version = "116.0.3-1"
+title = "firefox-sco 117.0-1"
+version = "117.0-1"
+date = "2023-08-29T20:59:46"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "431844"
-usize = "489054"
-sha1sum = "f4c231f0ef6f467ca62e3b54d7b95a7500e042fa"
-depends = "['firefox>=116.0.3']"
+size = "433640"
+usize = "490201"
+sha1sum = "a4fd256b9ec6ed8dd2935f6a139afe23dacd4afc"
+depends = "['firefox>=117.0']"
 +++
 Scots language support for Firefox

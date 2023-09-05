@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "sqlite3 3.42.0-1"
-version = "3.42.0-1"
+title = "sqlite3 3.43.0-1"
+version = "3.43.0-1"
+date = "2023-08-25T10:37:14"
 categories = ['base', 'devel-core']
+upstreamurl = "http://www.sqlite.org/"
 arch = "x86_64"
-size = "1226036"
-usize = "3843412"
-sha1sum = "d1868ccb3f5046ac6b1c5584df7296f5614319f6"
+size = "1235696"
+usize = "3890481"
+sha1sum = "2dd8be25dd1180a2b731da09327e4d4ef22d1ec9"
 depends = "['readline>=8.0-3', 'ncurses>=6.1-5']"
 +++
 A C library that implements an SQL database engine

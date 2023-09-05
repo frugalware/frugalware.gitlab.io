@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "lib32-pixman 0.42.2-1"
-version = "0.42.2-1"
+title = "lib32-pixman 0.42.2-2"
+version = "0.42.2-2"
+date = "2023-09-05T11:37:59"
 categories = ['lib32-extra']
+upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "250708"
-usize = "768661"
-sha1sum = "bd2d63c08d73b8dc815a628508846f25ba1e7aa8"
+size = "259812"
+usize = "792960"
+sha1sum = "f2b6c8705b6317eedbeb8cb85fb660ca09037a63"
 depends = "['lib32-libpng']"
 +++
 X.Org pixman library ( 32bit )

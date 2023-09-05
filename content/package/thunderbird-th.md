@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-th 102.14.0-1"
-version = "102.14.0-1"
+title = "thunderbird-th 115.2.0-1"
+version = "115.2.0-1"
+date = "2023-08-30T10:04:42"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "697084"
-usize = "758237"
-sha1sum = "a59b9663efa8b50257048a19134e7f71169baf60"
-depends = "['thunderbird>=102.14.0']"
+size = "701244"
+usize = "761858"
+sha1sum = "75db401b14ad935bd10f65fd0f8ce4baf9d28d32"
+depends = "['thunderbird>=115.2.0']"
 +++
 Thai language support for Thunderbird

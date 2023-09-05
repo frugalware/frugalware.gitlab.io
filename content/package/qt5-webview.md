@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt5-webview 5.15.10-1"
-version = "5.15.10-1"
+title = "qt5-webview 5.15.10-2"
+version = "5.15.10-2"
+date = "2023-09-03T13:37:35"
 categories = ['xlib']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "45076"
+size = "45516"
 usize = "232609"
-sha1sum = "28c6c3be752875537f9d1a95acd45350fa833ecb"
+sha1sum = "9dfc3574ae2d6200e7ad0ea11672fb887f53c8ce"
 depends = "['qt5-webengine>=5.15.10']"
 +++
 The Qt5 toolkit, qtwebview

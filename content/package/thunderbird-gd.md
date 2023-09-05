@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-gd 102.14.0-1"
-version = "102.14.0-1"
+title = "thunderbird-gd 115.2.0-1"
+version = "115.2.0-1"
+date = "2023-08-30T10:04:42"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "577276"
-usize = "643575"
-sha1sum = "ae50b233f7e7baba0aa56f6fc1072b825acbd5ac"
-depends = "['thunderbird>=102.14.0']"
+size = "641904"
+usize = "702993"
+sha1sum = "bc09ef387b1ce15c8ecffe00be75d93a1fe40743"
+depends = "['thunderbird>=115.2.0']"
 +++
 Scottish Gaelic language support for Thunderbird

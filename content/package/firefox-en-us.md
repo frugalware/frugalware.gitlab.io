@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-en-us 116.0.3-1"
-version = "116.0.3-1"
+title = "firefox-en-us 117.0-1"
+version = "117.0-1"
+date = "2023-08-29T20:59:46"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "471856"
-usize = "525884"
-sha1sum = "e6d5c5e71cbc5b10deff481c9702425ad287a5b4"
-depends = "['firefox>=116.0.3']"
+size = "474804"
+usize = "527728"
+sha1sum = "358824cfafcc62f73e10ebc324448ca1e1c44cb9"
+depends = "['firefox>=117.0']"
 +++
 American English language support for Firefox

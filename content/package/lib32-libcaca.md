@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "lib32-libcaca 0.99.beta19-13"
-version = "0.99.beta19-13"
+title = "lib32-libcaca 0.99.beta19-14"
+version = "0.99.beta19-14"
+date = "2023-09-05T09:46:42"
 categories = ['lib32-extra']
+upstreamurl = "http://libcaca.zoy.org"
 arch = "x86_64"
-size = "289384"
-usize = "1423677"
-sha1sum = "b1fe514cfa9822ba78aa7a8a0686caf5570fbcdc"
+size = "289068"
+usize = "1419779"
+sha1sum = "aaa832d5b0048be7a53c2ec968c6375c89491d17"
 depends = "['lib32-imlib2', 'lib32-ncurses', 'lib32-slang']"
 +++
 A graphics library that outputs text instead of pixels. ( 32bit )

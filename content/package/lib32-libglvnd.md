@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "lib32-libglvnd 1.6.0-1"
-version = "1.6.0-1"
+title = "lib32-libglvnd 1.6.0-2"
+version = "1.6.0-2"
+date = "2023-09-05T10:01:57"
 categories = ['lib32-extra']
+upstreamurl = "https://github.com/NVIDIA/libglvnd"
 arch = "x86_64"
-size = "206248"
-usize = "1448429"
-sha1sum = "1a8abc4169548a829cfe935b43a7a87bef3d8fb0"
+size = "206928"
+usize = "1444041"
+sha1sum = "a9f8782f4207009364093fdafb58b59f6fae2d14"
 depends = "['lib32-libx11', 'lib32-libxext']"
 +++
 The GL Vendor-Neutral Dispatch library ( 32bit )

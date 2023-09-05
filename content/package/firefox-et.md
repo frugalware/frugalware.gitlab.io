@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-et 116.0.3-1"
-version = "116.0.3-1"
+title = "firefox-et 117.0-1"
+version = "117.0-1"
+date = "2023-08-29T20:59:46"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "461744"
-usize = "515643"
-sha1sum = "2a1b36664fd4b1e8ab3df2b68548c2fdf74a10c6"
-depends = "['firefox>=116.0.3']"
+size = "463440"
+usize = "517152"
+sha1sum = "5302e6069bf7c3a883e818993d969e981e1b2d92"
+depends = "['firefox>=117.0']"
 +++
 Estonian language support for Firefox

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt5-webchannel 5.15.10-1"
-version = "5.15.10-1"
+title = "qt5-webchannel 5.15.10-2"
+version = "5.15.10-2"
+date = "2023-09-03T13:32:24"
 categories = ['xlib']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "72948"
+size = "72880"
 usize = "239983"
-sha1sum = "37f577fffc8d9addc8becef6969191853b5b8645"
+sha1sum = "9d4b36ba9b8a9ebaf321647d4c9df7022e27ae83"
 depends = "['qt5-declarative>=5.15.10']"
 +++
 The Qt5 toolkit, qtwebchannel

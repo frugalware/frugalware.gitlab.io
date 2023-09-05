@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt5-translations 5.15.10-1"
-version = "5.15.10-1"
+title = "qt5-translations 5.15.10-2"
+version = "5.15.10-2"
+date = "2023-09-03T13:34:09"
 categories = ['xlib']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "1828348"
+size = "1828852"
 usize = "15421930"
-sha1sum = "69838cad11f3bd8c191a6bd1d2d8e764dfd0d8a3"
+sha1sum = "45c68de041ed9fe065a41a8cc885635015a86f09"
 depends = "['qt5-declarative>=5.15.10']"
 +++
 The Qt5 toolkit, qttranslations

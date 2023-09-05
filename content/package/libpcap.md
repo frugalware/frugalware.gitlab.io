@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libpcap 1.10.4-1"
-version = "1.10.4-1"
+title = "libpcap 1.10.4-2"
+version = "1.10.4-2"
+date = "2023-09-05T10:16:58"
 categories = ['base']
+upstreamurl = "http://www.tcpdump.org"
 arch = "x86_64"
-size = "280984"
-usize = "689674"
-sha1sum = "0ea96d7855a30ee8640a6a8d2c2cfe68e5055a79"
+size = "279836"
+usize = "689683"
+sha1sum = "7ace63165c33ac2a7e56ce911b697b6a40ad707b"
 depends = "['libusb1', 'dbus']"
 +++
 Library for tcpdump

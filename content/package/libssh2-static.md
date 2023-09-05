@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libssh2-static 1.11.0-1"
-version = "1.11.0-1"
+title = "libssh2-static 1.11.0-2"
+version = "1.11.0-2"
+date = "2023-09-05T10:32:18"
 categories = ['devel-extra']
+upstreamurl = "http://www.libssh2.org"
 arch = "x86_64"
-size = "1300888"
-usize = "1451068"
-sha1sum = "428353048e874950d3f051ddb7215bf07230dc26"
+size = "1309024"
+usize = "1458108"
+sha1sum = "38eb1c2008dc98fe0fed39e37d12201f9208b253"
 depends = "[]"
 +++
 Static files for libssh2

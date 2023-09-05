@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "lib32-libx11 1.8.6-1"
-version = "1.8.6-1"
+title = "lib32-libx11 1.8.6-2"
+version = "1.8.6-2"
+date = "2023-09-05T10:54:04"
 categories = ['lib32-extra']
+upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "618484"
+size = "619288"
 usize = "1637555"
-sha1sum = "ef34a5613a1ed8b0e826f38d4df68d6bb4f07f7f"
+sha1sum = "56dc80da30831952b8db4c20008b2ef3a40b41b1"
 depends = "['lib32-libxdmcp>=1.1.2-8', 'lib32-libxau>=1.0.8-8', 'lib32-libxcb>=1.13.1']"
 +++
 X.Org X11 library ( 32bit )

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kirigami-addons 0.8.0-1"
-version = "0.8.0-1"
-categories = ['kde5-extra']
+title = "kirigami-addons 0.11.0-1"
+version = "0.11.0-1"
+date = "2023-08-25T07:05:37"
+categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "98188"
-usize = "533982"
-sha1sum = "ddd49b35bc5f53174730bb9e7d4bf4cb7a0df54b"
-depends = "['kirigami2>=5.105.0']"
+size = "140452"
+usize = "951879"
+sha1sum = "5c15a1db6f67078c89e7cbefdfceddc6e267e254"
+depends = "['kirigami2>=5.109.0']"
 +++
 Add-ons for the Kirigami framework

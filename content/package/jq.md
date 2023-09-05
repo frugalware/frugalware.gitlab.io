@@ -6,9 +6,9 @@ date = "2023-08-29T12:55:15"
 categories = ['lib-extra', 'chroot-core']
 upstreamurl = "https://github.com/stedolan/jq"
 arch = "x86_64"
-size = "167988"
-usize = "453983"
-sha1sum = "db8b7a51c9d95765acc82129b881c8f4f1a0533d"
+size = "167928"
+usize = "449446"
+sha1sum = "ebf92ba7f43699ea96f65884b8d63bdaadebcb77"
 depends = "['oniguruma>=6.9.8']"
 +++
 Command-line JSON processor.

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libkeduvocdocument 23.04.3-4"
-version = "23.04.3-4"
+title = "libkeduvocdocument 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-24T17:13:17"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "153540"
-usize = "721596"
-sha1sum = "0a2d84f4ac21efa20441e82341547d573c4c89cd"
-depends = "['kio>=5.109.0', 'kdeedu-data>=23.04.3']"
+size = "153652"
+usize = "723176"
+sha1sum = "3e5b83132391ce9cdb6599ca85a8d6f7fa842af8"
+depends = "['kio>=5.109.0', 'kdeedu-data>=23.08.0']"
 +++
 Common libraries for KDE Edu release-service

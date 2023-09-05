@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libkipi 23.04.3-4"
-version = "23.04.3-4"
+title = "libkipi 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-24T16:22:07"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "98736"
-usize = "275767"
-sha1sum = "c2eb63d2435ab918542ecff2b89a5a0a838a5ee0"
+size = "98848"
+usize = "275818"
+sha1sum = "19c330f7f10fa456d65a9a1c3fa8b6e4a4936b31"
 depends = "['kxmlgui>=5.109.0', 'qt5-x11extras>=5.15.10', 'qt5-svg>=5.15.10']"
 +++
 KDE Image Plugin Interface, a C++ library to share plugins among graphic release-service.

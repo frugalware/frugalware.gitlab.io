@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-ru 102.14.0-1"
-version = "102.14.0-1"
+title = "thunderbird-ru 115.2.0-1"
+version = "115.2.0-1"
+date = "2023-08-30T10:04:42"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "769224"
-usize = "827221"
-sha1sum = "5f5ce15ac2354a98a4a2192609cacbad72da34e0"
-depends = "['thunderbird>=102.14.0']"
+size = "762684"
+usize = "820866"
+sha1sum = "6eb0fed26e9b253a3cf699bb2645c32853dc21bf"
+depends = "['thunderbird>=115.2.0']"
 +++
 Russian language support for Thunderbird

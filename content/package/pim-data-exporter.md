@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "pim-data-exporter 23.04.3-4"
-version = "23.04.3-4"
+title = "pim-data-exporter 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-25T06:33:22"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "454856"
-usize = "1747636"
-sha1sum = "d2b5d8480c3152bf9f71fa34707e120c15b3bbb1"
-depends = "['kalarm>=23.04.3', 'mailcommon>=23.04.3', 'calendarsupport>=23.04.3']"
+size = "456904"
+usize = "1765082"
+sha1sum = "84f031e525c249720e34e801290f1c1c6bf716e1"
+depends = "['kalarm>=23.08.0', 'mailcommon>=23.08.0', 'calendarsupport>=23.08.0']"
 +++
 Assistant to backup and archive PIM data and configuration

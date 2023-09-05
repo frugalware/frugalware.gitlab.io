@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "plasmatube 23.04.3-4"
-version = "23.04.3-4"
+title = "plasmatube 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-25T09:57:05"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "123100"
-usize = "406989"
-sha1sum = "0e12d2807275aea0a16d90d552a0b08531dddafd"
+size = "125740"
+usize = "421000"
+sha1sum = "f4283fa601001d1fd4e9750f9c0a5feb50dc2705"
 depends = "['kirigami-addons', 'qt5-svg', 'kcoreaddons', 'kconfig', 'ki18n', 'mpv', 'yt-dlp']"
 +++
 Kirigami YouTube video player based on QtMultimedia and youtube-dl

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt5-quickcontrols 5.15.10-1"
-version = "5.15.10-1"
+title = "qt5-quickcontrols 5.15.10-2"
+version = "5.15.10-2"
+date = "2023-09-03T13:09:46"
 categories = ['xlib']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "887928"
-usize = "5303396"
-sha1sum = "bb37564321cabc843881cf77d1168bcefd9db782"
+size = "892016"
+usize = "5311532"
+sha1sum = "fa7b8e7f1c64c9794947d05e1e5ed9e5d6c2546b"
 depends = "['qt5-declarative>=5.15.10']"
 +++
 The Qt5 toolkit, qtquickcontrols

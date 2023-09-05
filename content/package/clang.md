@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "clang 15.0.7-5"
-version = "15.0.7-5"
+title = "clang 15.0.7-6"
+version = "15.0.7-6"
+date = "2023-09-04T20:08:15"
 categories = ['devel']
+upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "24962828"
-usize = "146553224"
-sha1sum = "c75975d97fc8478738f65f6b9a61a8a37c8dd94c"
+size = "25027640"
+usize = "146823001"
+sha1sum = "e336ddcc4ead40effce0c3a483922c511ea3ea2e"
 depends = "['libxml2', 'libffi>=3.4', 'clang-libs>=15.0.7']"
 +++
 C/C++ language family frontend for LLVM

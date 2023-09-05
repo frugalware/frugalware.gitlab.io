@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kontact 23.04.3-4"
-version = "23.04.3-4"
+title = "kontact 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-25T06:31:23"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "803924"
-usize = "1947154"
-sha1sum = "9cddff548ba3fdaaa0f6d7f805786b5706e2785f"
-depends = "['kontactinterface>=23.04.3', 'mailcommon>=23.04.3']"
+size = "805940"
+usize = "1957668"
+sha1sum = "5fe916319e7f6685e81ac768f68fec4a45900418"
+depends = "['kontactinterface>=23.08.0', 'mailcommon>=23.08.0']"
 +++
 Personal Information Manager

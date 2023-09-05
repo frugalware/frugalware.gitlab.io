@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kmime 23.04.3-4"
-version = "23.04.3-4"
+title = "kmime 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-24T16:00:04"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "175368"
-usize = "708712"
-sha1sum = "cf6f8473c2774252379c10a4a3c32c1a93c11dfc"
+size = "175512"
+usize = "710823"
+sha1sum = "944b66fb8baadcddfe4223ed7e8e1967e65f4835"
 depends = "['ki18n>=5.109.0', 'kcodecs>=5.109.0']"
 +++
 Desc: C++ API for MIME handling.

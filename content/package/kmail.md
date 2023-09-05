@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kmail 23.04.3-4"
-version = "23.04.3-4"
+title = "kmail 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-25T06:51:38"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7033908"
-usize = "23278587"
-sha1sum = "ec1e7b1191d0cd06e7aea84572255e65445d71aa"
-depends = "['mailcommon>=23.04.3', 'knotifyconfig>=5.109.0', 'libksieve>=23.04.3', 'kontactinterface>=23.04.3', 'kcalutils>=23.04.3', 'ktnef>=23.04.3', 'kmail-account-wizard>=23.04.3', 'mbox-importer>=', 'akonadi-import-wizard>=23.04.3', 'kdepim-runtime>=23.04.3']"
+size = "7032412"
+usize = "23289388"
+sha1sum = "c87b1744c86af0720471def2c53c781f1cf4203c"
+depends = "['mailcommon>=23.08.0', 'knotifyconfig>=5.109.0', 'libksieve>=23.08.0', 'kontactinterface>=23.08.0', 'kcalutils>=23.08.0', 'ktnef>=23.08.0', 'kmail-account-wizard>=23.08.0', 'mbox-importer>=', 'akonadi-import-wizard>=23.08.0', 'kdepim-runtime>=23.08.0']"
 +++
 Email client, supporting POP3 and IMAP mailboxes

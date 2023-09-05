@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kcalutils 23.04.3-4"
-version = "23.04.3-4"
+title = "kcalutils 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-24T16:10:31"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "292280"
-usize = "2004512"
-sha1sum = "8ef3850253594c2d4bbda2e778aec056f832e31b"
-depends = "['kidentitymanagement>=23.04.3', 'kcalendarcore>=5.109.0']"
+size = "267816"
+usize = "1834349"
+sha1sum = "ddb5c0492b354daf56a92e7c1c0b92c318fb76f9"
+depends = "['kidentitymanagement>=23.08.0', 'kcalendarcore>=5.109.0']"
 +++
 The KDE calendar utility library

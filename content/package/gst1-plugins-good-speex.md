@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "gst1-plugins-good-speex 1.22.5-1"
-version = "1.22.5-1"
+title = "gst1-plugins-good-speex 1.22.5-2"
+version = "1.22.5-2"
+date = "2023-09-04T14:02:05"
 categories = ['xmultimedia']
+upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "20324"
+size = "20676"
 usize = "47152"
-sha1sum = "435de4a3b7be601d65f9b169a91c16523157fbe0"
+sha1sum = "336a7c592c17f2b80dd05c2a8915bc514bd69621"
 depends = "['gst1-plugins-base>=1.22.5', 'libffi>=3.2.1-2', 'speex>=1.2rc2-5', 'gst1-plugins-good>=1.22.5']"
 +++
 GStreamer speex  plugin (Good).

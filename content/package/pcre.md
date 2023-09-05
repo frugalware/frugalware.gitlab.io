@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "pcre 8.45-4"
-version = "8.45-4"
+title = "pcre 8.45-5"
+version = "8.45-5"
+date = "2023-09-05T11:34:36"
 categories = ['base', 'chroot-core']
+upstreamurl = "https://sourceforge.net/projects/pcre"
 arch = "x86_64"
-size = "970480"
-usize = "3630865"
-sha1sum = "a9261176fb3871512cc30ea2924ef70d3c07aad2"
+size = "974936"
+usize = "3621954"
+sha1sum = "a89cb75e09cd4bfa3c0b092b3634a184b4f93c68"
 depends = "['zlib>=1.2.12', 'bzip2>=1.0.6-16', 'readline>=8.0-3', 'libstdc++>=12.2']"
 +++
 Perl-compatible regular expression library

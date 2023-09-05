@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "skanpage 23.04.3-4"
-version = "23.04.3-4"
+title = "skanpage 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-25T10:01:48"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "152848"
-usize = "753417"
-sha1sum = "52ca4e865f367539311b4ee3e9d2b71f588c8e43"
-depends = "['ksanecore', 'kirigami2', 'purpose', 'tesseract-ocr', 'libgomp']"
+size = "174360"
+usize = "850907"
+sha1sum = "3b197ae811cb6cc9b38ca3b2cb5282a8d585dd6b"
+depends = "['ksanecore', 'kirigami2', 'purpose', 'tesseract-ocr', 'libgomp', 'kquickimageeditor']"
 +++
 Utility to scan images and multi-page documents

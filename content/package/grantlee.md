@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "grantlee 5.3.1-3"
-version = "5.3.1-3"
+title = "grantlee 5.3.1-4"
+version = "5.3.1-4"
+date = "2023-09-04T13:50:22"
 categories = ['xlib']
+upstreamurl = "https://github.com/steveire/grantlee"
 arch = "x86_64"
-size = "290112"
-usize = "1181843"
-sha1sum = "9cee353901e10b456c000b5574819259954b6706"
+size = "295736"
+usize = "1206419"
+sha1sum = "ed969c0b480e01ac5546516c16ae275c04b26d5e"
 depends = "['qt5-script>=5.15.10']"
 +++
 Grantlee Templates and Grantlee TextDocument.

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "jxrlib 0.2.4-3"
-version = "0.2.4-3"
+title = "jxrlib 0.2.4-4"
+version = "0.2.4-4"
+date = "2023-09-03T11:47:52"
 categories = ['lib']
+upstreamurl = "https://github.com/glencoesoftware/jxrlib"
 arch = "x86_64"
-size = "241276"
-usize = "1583554"
-sha1sum = "a1d6fbd9a46bcb8f1d1e3e9a2a6e03c6fba2e1b3"
+size = "237796"
+usize = "1556317"
+sha1sum = "78b746c2a51c6e21fbc5fdba5ee1eec8d4a46bb6"
 depends = "['glibc>=2.34']"
 +++
 Open source implementation of jpegxr

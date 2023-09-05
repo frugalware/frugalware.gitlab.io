@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "killbots 23.04.3-4"
-version = "23.04.3-4"
+title = "killbots 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-24T16:50:18"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1342012"
-usize = "2475904"
-sha1sum = "69503b55ae0fcb272a658e177dc4b964b7e7a03a"
-depends = "['libkdegames>=23.04.3', 'qt5-svg>=5.15.10']"
+size = "1342612"
+usize = "2479910"
+sha1sum = "0a25c03b2607eec8fceae520bf3738eed04ec16e"
+depends = "['libkdegames>=23.08.0', 'qt5-svg>=5.15.10']"
 +++
 A simple game of evading killer robots.

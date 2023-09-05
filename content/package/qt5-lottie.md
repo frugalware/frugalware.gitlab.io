@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt5-lottie 5.15.10-1"
-version = "5.15.10-1"
+title = "qt5-lottie 5.15.10-2"
+version = "5.15.10-2"
+date = "2023-09-03T13:43:12"
 categories = ['xlib']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "105336"
+size = "105612"
 usize = "440673"
-sha1sum = "ea854fda1f7cbed9091e4a0cb37e4a1d3163e0c6"
+sha1sum = "af903760562a3a56f6e2464b7427b9dcfc5ffff7"
 depends = "['qt5-declarative>=5.15.10']"
 +++
 The Qt5 toolkit, qtlottie

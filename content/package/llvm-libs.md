@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "llvm-libs 15.0.7-5"
-version = "15.0.7-5"
+title = "llvm-libs 15.0.7-6"
+version = "15.0.7-6"
+date = "2023-09-04T20:08:15"
 categories = ['lib']
+upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "27395612"
-usize = "120854582"
-sha1sum = "6c46a5214d1a48cf0385fed52bcb9f5333521a7c"
+size = "27419676"
+usize = "120953494"
+sha1sum = "a15cb6112c0eb437d7fa3ec6494f6898d39e5df8"
 depends = "['ncurses>=6.0-16', 'libedit>=20190324_3.1', 'libffi>=3.4', 'zstd']"
 +++
 LLVM shared libs

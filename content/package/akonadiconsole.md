@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "akonadiconsole 23.04.3-4"
-version = "23.04.3-4"
+title = "akonadiconsole 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-25T06:17:28"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "421264"
-usize = "1389570"
-sha1sum = "4bfef6e6045033f52de503b28a343d8782acbb84"
-depends = "['calendarsupport>=23.04.3', 'messagelib>=23.04.3']"
+size = "426592"
+usize = "1433889"
+sha1sum = "ef0667912706c7a71824bee05972986284443737"
+depends = "['calendarsupport>=23.08.0', 'messagelib>=23.08.0']"
 +++
 A utility that can be used to explore or manage Akonadi

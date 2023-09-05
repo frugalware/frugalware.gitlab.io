@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kollision 23.04.3-4"
-version = "23.04.3-4"
+title = "kollision 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-24T17:04:13"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "382740"
-usize = "746409"
-sha1sum = "62d74e33e7159047cc4b984b2d18914048762297"
-depends = "['kdelibs4support>=5.109.0', 'knotifyconfig>=5.109.0', 'libkdegames>=23.04.3']"
+size = "382632"
+usize = "747497"
+sha1sum = "cb8df6c84dccc8bb99ae5d5a74806422003971c8"
+depends = "['kdelibs4support>=5.109.0', 'knotifyconfig>=5.109.0', 'libkdegames>=23.08.0']"
 +++
 A simple ball dodging game.

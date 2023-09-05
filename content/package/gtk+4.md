@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "gtk+4 4.12.0-1"
-version = "4.12.0-1"
+title = "gtk+4 4.13.0-1"
+version = "4.13.0-1"
+date = "2023-08-26T12:35:15"
 categories = ['xlib']
+upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
-size = "13495676"
-usize = "117700355"
-sha1sum = "4645a257df84271d3e4f74ec933451595900b7f2"
+size = "13932476"
+usize = "119664387"
+sha1sum = "0aa84272f7c31ca348efd5340c4994d3df1b386e"
 depends = "['gdk-pixbuf2>=2.38.1-2', 'pango>=1.42.4-2', 'libxcursor>=1.1.14-2', 'libxcomposite>=0.4.4-2', 'libxkbcommon>=0.5.0-3', 'libwayland-egl', 'colord', 'libxrandr', 'sassc', 'libepoxy>=1.3.1-3', 'at-spi2-atk>=2.32.0', 'graphene', 'libatspi>=2.32.0', 'libcups>=2.2.0-2', 'libpng>=1.6.25', 'gst1-plugins-bad>=1.22.1', 'libffi>=3.2.1-2', 'wayland-protocols>=1.7-2', 'libxi', 'libxinerama', 'gtk+3-tools', 'gtk-update-icon-cache', 'adwaita-icon-theme', 'shared-mime-info']"
 +++
 The GTK+ Toolkit (3.x series)

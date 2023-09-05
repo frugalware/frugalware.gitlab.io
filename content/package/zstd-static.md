@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "zstd-static 1.5.5-2"
-version = "1.5.5-2"
+title = "zstd-static 1.5.5-4"
+version = "1.5.5-4"
+date = "2023-08-31T08:29:55"
 categories = ['devel-extra']
+upstreamurl = "http://www.zstd.net/"
 arch = "x86_64"
-size = "2916204"
-usize = "3498354"
-sha1sum = "94b284638763fcd5e6415e14788c9aea972adf7c"
+size = "3300172"
+usize = "3960598"
+sha1sum = "72838a4a5694dda4efd270c65c67e9d8f156b410"
 depends = "[]"
 +++
 Static files for zstd

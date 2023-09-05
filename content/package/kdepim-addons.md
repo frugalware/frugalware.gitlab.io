@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kdepim-addons 23.04.3-4"
-version = "23.04.3-4"
+title = "kdepim-addons 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-25T08:26:03"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1477188"
-usize = "9815380"
-sha1sum = "3ea7265ab922e08e34e2fd205f0a824a57f027ce"
-depends = "['mailcommon>=23.04.3', 'incidenceeditor>=23.04.3', 'libksieve>=23.04.3', 'kontactinterface>=23.04.3', 'kaddressbook>=23.04.3', 'ktnef>=23.04.3', 'poppler-qt5', 'akonadi-import-wizard>=23.04.3', 'kitinerary>=23.04.3', 'discount']"
+size = "1479284"
+usize = "9828633"
+sha1sum = "e05b5b776eb3d26b455184bc32f415c91a4cffea"
+depends = "['mailcommon>=23.08.0', 'incidenceeditor>=23.08.0', 'libksieve>=23.08.0', 'kontactinterface>=23.08.0', 'kaddressbook>=23.08.0', 'ktnef>=23.08.0', 'poppler-qt5', 'akonadi-import-wizard>=23.08.0', 'kitinerary>=23.08.0', 'discount']"
 +++
 Addons for PIM release-service.

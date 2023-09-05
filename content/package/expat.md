@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "expat 2.5.0-1"
-version = "2.5.0-1"
+title = "expat 2.5.0-2"
+version = "2.5.0-2"
+date = "2023-08-28T10:28:15"
 categories = ['base', 'chroot-core']
+upstreamurl = "http://expat.sf.net"
 arch = "x86_64"
-size = "104532"
-usize = "339308"
-sha1sum = "bd6d26afcd9b29f66b582070b553506f56cc7452"
+size = "104508"
+usize = "338755"
+sha1sum = "47d816029742b72863fb7b6c5a4940bd14c972d8"
 depends = "['glibc>=2.35', 'coreutils>=6.26-2']"
 +++
 An XML Parser library written in C

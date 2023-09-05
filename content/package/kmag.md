@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kmag 23.04.3-4"
-version = "23.04.3-4"
+title = "kmag 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-25T07:30:07"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "816948"
-usize = "1650456"
-sha1sum = "96e66d11115fc1aa8e6b1b84005e5bae68f09961"
+size = "816960"
+usize = "1650844"
+sha1sum = "a165b6ee70f7ac29712d47c3462b61fae935d89e"
 depends = "['kio>=5.109.0', 'libqaccessibilityclient']"
 +++
 Screen Magnifier

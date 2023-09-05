@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kmbox 23.04.3-4"
-version = "23.04.3-4"
+title = "kmbox 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-24T16:02:43"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "30876"
-usize = "91146"
-sha1sum = "fdb970f4a2cfdea124f7a519f01ad4ffdf9ec29e"
-depends = "['kmime>=23.04.3']"
+size = "30460"
+usize = "81582"
+sha1sum = "4fcb865719b00bc07cb7b2cfb04c5f088e989d5c"
+depends = "['kmime>=23.08.0']"
 +++
 A library for handling mbox data.

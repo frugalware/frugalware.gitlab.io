@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "lz4 1.9.4-1"
-version = "1.9.4-1"
+title = "lz4 1.9.4-2"
+version = "1.9.4-2"
+date = "2023-08-28T12:16:47"
 categories = ['base', 'core', 'chroot-core']
+upstreamurl = "http://www.lz4.org/"
 arch = "x86_64"
-size = "139968"
-usize = "421601"
-sha1sum = "a9a54948ddba5e762c9b81d8433204d283a6dec3"
+size = "271720"
+usize = "958666"
+sha1sum = "4de7ce43087779d788edc0d0c31cb49690ba6813"
 depends = "['glibc>=2.35']"
 +++
 Extremely Fast Compression algorithm

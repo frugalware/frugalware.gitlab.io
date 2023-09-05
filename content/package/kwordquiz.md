@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kwordquiz 23.04.3-4"
-version = "23.04.3-4"
+title = "kwordquiz 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-25T07:07:15"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3033728"
-usize = "5985962"
-sha1sum = "4fb26ee177d85763095d4d3a71a1d0525c7e7dd5"
-depends = "['kdelibs4support>=5.109.0', 'knotifyconfig>=5.109.0', 'libkdegames>=23.04.3', 'libkeduvocdocument>=23.04.3']"
+size = "2586144"
+usize = "3605372"
+sha1sum = "7fe1dcd875cfefcaab58e52e8052af0571fc339e"
+depends = "['kdelibs4support>=5.109.0', 'knotifyconfig>=5.109.0', 'libkdegames>=23.08.0', 'libkeduvocdocument>=23.08.0', 'kirigami-addons']"
 +++
 Flash Card Trainer.

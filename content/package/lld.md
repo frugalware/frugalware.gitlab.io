@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "lld 15.0.7-5"
-version = "15.0.7-5"
+title = "lld 15.0.7-6"
+version = "15.0.7-6"
+date = "2023-09-04T20:08:15"
 categories = ['devel-extra']
+upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "2731192"
-usize = "19088723"
-sha1sum = "d8b10b03ac5f2a0b7e50d62cddecf0e6d2c9ca59"
+size = "2759740"
+usize = "19329633"
+sha1sum = "74358787ec0512d5409bdd67267dcebd2d25aa28"
 depends = "['llvm-libs>=15.0.7']"
 +++
 LLVM Linker

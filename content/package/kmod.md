@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kmod 30-4"
-version = "30-4"
+title = "kmod 30-5"
+version = "30-5"
+date = "2023-09-05T09:34:19"
 categories = ['base', 'core']
+upstreamurl = "http://kernel.org"
 arch = "x86_64"
-size = "134308"
-usize = "359940"
-sha1sum = "6dcc732bd7120bf639709e8a0be0a710e0092c45"
+size = "133892"
+usize = "359062"
+sha1sum = "57f4af6f5cb2242c010d7387af3fe4320c1e8d11"
 depends = "['zlib>=1.2.12', 'xz>=5.2.4-2', 'zstd>=1.4.4', 'openssl>=3.1.0']"
 +++
 Utilities for inserting and removing modules from the Linux kernel

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "cervisia 23.04.3-4"
-version = "23.04.3-4"
+title = "cervisia 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-25T07:16:07"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2469560"
-usize = "6561271"
-sha1sum = "6afd1ff581de7398de95111bac48732c6487ba0c"
+size = "2469440"
+usize = "6564578"
+sha1sum = "055c5aeb2e3024452ce922cacdaabe6facb9a943"
 depends = "['kparts>=5.109.0', 'kdesu>=5.109.0', 'kinit>=5.109.0']"
 +++
 CVS Frontend

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libgcrypt 1.10.2-1"
-version = "1.10.2-1"
+title = "libgcrypt 1.10.2-2"
+version = "1.10.2-2"
+date = "2023-09-05T09:59:56"
 categories = ['base', 'core']
+upstreamurl = "https://gnupg.org/software/libgcrypt/index.html"
 arch = "x86_64"
-size = "767252"
-usize = "2392207"
-sha1sum = "c312fb215a632bd0f1d97d10de68e388b4121db2"
+size = "766488"
+usize = "2392271"
+sha1sum = "ffd5ef73eeb090f2cf6e43e9f594581be941feb7"
 depends = "['libgpg-error>=1.36-2']"
 +++
 Libgcrypt is a general purpose cryptographic library based on the code from GnuPG.

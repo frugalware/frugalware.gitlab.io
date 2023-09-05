@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "json-c-static 0.17-1"
-version = "0.17-1"
+title = "json-c-static 0.17-2"
+version = "0.17-2"
+date = "2023-09-05T09:33:17"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/json-c/json-c/wiki"
 arch = "x86_64"
-size = "292768"
-usize = "358866"
-sha1sum = "16e085d5821ecd726c52fc071d0c1e17a0d816dc"
+size = "294252"
+usize = "360466"
+sha1sum = "6847e8851321ced01eab994a1908484b52aa1721"
 depends = "[]"
 +++
 JSON-C static

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libaccounts-qt 1.16-6"
-version = "1.16-6"
+title = "libaccounts-qt 1.16-7"
+version = "1.16-7"
+date = "2023-09-05T09:37:51"
 categories = ['xlib']
+upstreamurl = "https://gitlab.com/accounts-sso/libaccounts-qt"
 arch = "x86_64"
-size = "512844"
-usize = "2199216"
-sha1sum = "af46b73f1e62491483b44c8ab4c87e4644b0d7c0"
+size = "514084"
+usize = "2203312"
+sha1sum = "5b37cb392eaf3e4177e216ae82677f5375405fa1"
 depends = "['libaccounts-glib>=1.25', 'qt5-base>=5.15.10']"
 +++
 Qt-based client library for accessing the online accounts database.

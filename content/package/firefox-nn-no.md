@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-nn-no 116.0.3-1"
-version = "116.0.3-1"
+title = "firefox-nn-no 117.0-1"
+version = "117.0-1"
+date = "2023-08-29T20:59:46"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "496564"
-usize = "551411"
-sha1sum = "9e2dce28ad4630b453f3db20c973537ac007020f"
-depends = "['firefox>=116.0.3']"
+size = "503264"
+usize = "555660"
+sha1sum = "133588bd10444831b35382c4f8d31d6495921d50"
+depends = "['firefox>=117.0']"
 +++
 Norwegian Nynorsk language support for Firefox

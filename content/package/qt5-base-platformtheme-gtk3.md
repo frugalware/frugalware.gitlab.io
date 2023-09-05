@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt5-base-platformtheme-gtk3 5.15.10-1"
-version = "5.15.10-1"
+title = "qt5-base-platformtheme-gtk3 5.15.10-2"
+version = "5.15.10-2"
+date = "2023-09-04T08:07:59"
 categories = ['xlib-extra']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "78676"
+size = "78708"
 usize = "264658"
-sha1sum = "751b22cfa506b718adf2969dfac71337c6dbc404"
+sha1sum = "26dc3c6e78a5caa6ab2c28d88fabe6027080d115"
 depends = "['gtk+3', 'qt5-base>=5.15.10']"
 +++
 Qt5 GTK3 Theme support

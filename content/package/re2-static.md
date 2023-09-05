@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "re2-static 2023.06.02-2"
-version = "2023.06.02-2"
+title = "re2-static 2023.08.01-2"
+version = "2023.08.01-2"
+date = "2023-08-30T15:09:15"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/google/re2"
 arch = "x86_64"
-size = "2935452"
-usize = "4174376"
-sha1sum = "f195a16b5a7ab98dcd3de34eda7bfa93372b3f39"
+size = "3095996"
+usize = "4521530"
+sha1sum = "6114fb4c16ef43e73de4ef2088849dd740909f20"
 depends = "[]"
 +++
 Static files for re2

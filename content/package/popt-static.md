@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "popt-static 1.16-15"
-version = "1.16-15"
+title = "popt-static 1.16-16"
+version = "1.16-16"
+date = "2023-09-05T11:41:26"
 categories = ['devel-extra']
+upstreamurl = "http://rpm5.org"
 arch = "x86_64"
-size = "217832"
-usize = "238401"
-sha1sum = "ff9f91cef4bdd6fcc156924c8bde4d8b2ef91a7a"
+size = "219712"
+usize = "239936"
+sha1sum = "3ecedccd84d674808272961d0933bfc7e9dbd539"
 depends = "[]"
 +++
 Static files for popt

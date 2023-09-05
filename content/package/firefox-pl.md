@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-pl 116.0.3-1"
-version = "116.0.3-1"
+title = "firefox-pl 117.0-1"
+version = "117.0-1"
+date = "2023-08-29T20:59:46"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "529136"
-usize = "579286"
-sha1sum = "1b9f24d50ef2b623b2e4be9491c33a09d72b3616"
-depends = "['firefox>=116.0.3']"
+size = "535088"
+usize = "585320"
+sha1sum = "39db0bd555ab1caa3c100ff7bde134a1f3d0df9b"
+depends = "['firefox>=117.0']"
 +++
 Polish language support for Firefox

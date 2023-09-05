@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-zh-tw 102.14.0-1"
-version = "102.14.0-1"
+title = "thunderbird-zh-tw 115.2.0-1"
+version = "115.2.0-1"
+date = "2023-08-30T10:04:42"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "684152"
-usize = "748347"
-sha1sum = "7e4b70cd1f33c4ccf94dc203dcad551da443fd28"
-depends = "['thunderbird>=102.14.0']"
+size = "680528"
+usize = "744413"
+sha1sum = "6f12e9da2b56f3649a5f46f18e7ca6efd45229b6"
+depends = "['thunderbird>=115.2.0']"
 +++
 Chinese Traditional language support for Thunderbird

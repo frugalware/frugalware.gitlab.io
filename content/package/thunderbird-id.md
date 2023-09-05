@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-id 102.14.0-1"
-version = "102.14.0-1"
+title = "thunderbird-id 115.2.0-1"
+version = "115.2.0-1"
+date = "2023-08-30T10:04:42"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "588648"
-usize = "653192"
-sha1sum = "92a2f18d835b5b1e8ddee9d7eaf581801e1e0943"
-depends = "['thunderbird>=102.14.0']"
+size = "576452"
+usize = "642540"
+sha1sum = "6b87d0169f04458ef4f57621b42d4cc8190452b2"
+depends = "['thunderbird>=115.2.0']"
 +++
 Indonesian language support for Thunderbird

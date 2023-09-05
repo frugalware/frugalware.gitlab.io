@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "alsa-lib 1.2.9-1"
-version = "1.2.9-1"
+title = "alsa-lib 1.2.9-3"
+version = "1.2.9-3"
+date = "2023-09-05T08:11:09"
 categories = ['multimedia']
+upstreamurl = "https://www.alsa-project.org"
 arch = "x86_64"
-size = "493752"
-usize = "1856390"
-sha1sum = "9b82248f4df6f9c67718d4c48f4b73c4c4e577d8"
+size = "493724"
+usize = "1860486"
+sha1sum = "3ea8d6b5f6251fed7e7c6940be60d77a6cc8c0e3"
 depends = "['glibc>=2.34', 'alsa-topology-conf', 'alsa-ucm-conf']"
 +++
 An alternative implementation of Linux sound support

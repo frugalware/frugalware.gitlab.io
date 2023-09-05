@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libffi 3.4.4-1"
-version = "3.4.4-1"
+title = "libffi 3.4.4-2"
+version = "3.4.4-2"
+date = "2023-09-05T09:56:33"
 categories = ['base', 'chroot-core']
+upstreamurl = "http://sourceware.org/libffi/"
 arch = "x86_64"
-size = "157980"
-usize = "538661"
-sha1sum = "c927bffe3cefe5149d408e1cf28a4b9f828acc93"
+size = "158240"
+usize = "538192"
+sha1sum = "a81245979d4d875ca45d8fe6decd8f70904ca8bd"
 depends = "['glibc>=2.35']"
 +++
 A Portable Foreign Function Interface Library

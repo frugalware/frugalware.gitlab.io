@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libwacom 2.7.0-1"
-version = "2.7.0-1"
+title = "libwacom 2.7.0-2"
+version = "2.7.0-2"
+date = "2023-09-05T10:49:10"
 categories = ['x11']
+upstreamurl = "https://github.com/linuxwacom/libwacom"
 arch = "x86_64"
-size = "85188"
+size = "85240"
 usize = "740168"
-sha1sum = "31a831c6b4966e789148d7b482e524816b104966"
+sha1sum = "eda0045bcd1b3ff715573b27bf31de99f8950805"
 depends = "['glib2>=2.49.7-2', 'libgudev>=230-7', 'libudev>=231-6', 'libffi>=3.2.1-2']"
 +++
 Tablet Information Client Library

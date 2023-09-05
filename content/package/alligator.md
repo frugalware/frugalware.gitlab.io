@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "alligator 23.04.3-4"
-version = "23.04.3-4"
+title = "alligator 23.08.0-1"
+version = "23.08.0-1"
+date = "2023-08-25T10:16:53"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "98620"
-usize = "412339"
-sha1sum = "5af849aed63beddf429a91db8598eeab2cad5d71"
+size = "98696"
+usize = "414991"
+sha1sum = "f6f19cf41fdf95c47427c7ea9c3d99fdcf7b265a"
 depends = "['kirigami-addons', 'kcoreaddons>=', 'syndication>=', 'kconfig>=', 'ki18n>=']"
 +++
 Kirigami-based RSS reader
