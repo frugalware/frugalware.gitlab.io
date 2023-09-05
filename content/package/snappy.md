@@ -2,9 +2,7 @@
 draft = false
 title = "snappy 1.1.10-1"
 version = "1.1.10-1"
-date = "2023-03-09T09:31:00"
 categories = ['lib']
-upstreamurl = "https://github.com/google/snappy"
 arch = "x86_64"
 size = "28992"
 usize = "95768"

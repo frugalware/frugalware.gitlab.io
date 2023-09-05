@@ -2,9 +2,7 @@
 draft = false
 title = "srt 1.5.2-1"
 version = "1.5.2-1"
-date = "2023-07-18T15:01:46"
 categories = ['lib']
-upstreamurl = "https://github.com/Haivision/srt"
 arch = "x86_64"
 size = "765720"
 usize = "3544467"

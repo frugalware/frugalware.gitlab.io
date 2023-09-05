@@ -2,9 +2,7 @@
 draft = false
 title = "sudo 1.9.14-1"
 version = "1.9.14-1"
-date = "2023-07-06T20:50:31"
 categories = ['base', 'chroot-core']
-upstreamurl = "http://www.sudo.ws/"
 arch = "x86_64"
 size = "1724492"
 usize = "7751629"

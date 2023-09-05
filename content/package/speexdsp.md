@@ -2,9 +2,7 @@
 draft = false
 title = "speexdsp 1.2.1-1"
 version = "1.2.1-1"
-date = "2022-09-19T08:29:21"
 categories = ['multimedia']
-upstreamurl = "https://speex.org/"
 arch = "x86_64"
 size = "459036"
 usize = "565822"
