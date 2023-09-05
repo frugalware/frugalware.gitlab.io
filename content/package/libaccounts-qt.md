@@ -2,9 +2,7 @@
 draft = false
 title = "libaccounts-qt 1.16-6"
 version = "1.16-6"
-date = "2023-06-13T09:20:37"
 categories = ['xlib']
-upstreamurl = "https://gitlab.com/accounts-sso/libaccounts-qt"
 arch = "x86_64"
 size = "512844"
 usize = "2199216"

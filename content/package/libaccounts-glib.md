@@ -2,9 +2,7 @@
 draft = false
 title = "libaccounts-glib 1.26-1"
 version = "1.26-1"
-date = "2023-01-05T20:39:49"
 categories = ['xlib']
-upstreamurl = "https://gitlab.com/accounts-sso/libaccounts-glib"
 arch = "x86_64"
 size = "85428"
 usize = "498467"

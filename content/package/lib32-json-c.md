@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-json-c 0.17-1"
 version = "0.17-1"
-date = "2023-08-15T08:44:08"
 categories = ['lib32-extra']
-upstreamurl = "https://github.com/json-c/json-c/wiki"
 arch = "x86_64"
 size = "54008"
 usize = "182454"
