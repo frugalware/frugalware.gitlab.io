@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libsndfile 1.0.28-6"
 version = "1.0.28-6"
-date = "2022-09-19T08:16:07"
 categories = ['lib32-extra']
-upstreamurl = "http://www.mega-nerd.com/libsndfile"
 arch = "x86_64"
 size = "220080"
 usize = "786256"

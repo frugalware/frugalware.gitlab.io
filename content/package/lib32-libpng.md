@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libpng 1.6.40-1"
 version = "1.6.40-1"
-date = "2023-07-13T08:22:25"
 categories = ['lib32-extra']
-upstreamurl = "http://www.libpng.org/"
 arch = "x86_64"
 size = "170528"
 usize = "502423"
