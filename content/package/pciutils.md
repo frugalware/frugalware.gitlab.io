@@ -2,9 +2,7 @@
 draft = false
 title = "pciutils 3.10.0-1"
 version = "3.10.0-1"
-date = "2023-05-06T20:44:38"
 categories = ['base', 'core']
-upstreamurl = "http://atrey.karlin.mff.cuni.cz/~mj/pciutils.html"
 arch = "x86_64"
 size = "144796"
 usize = "424072"

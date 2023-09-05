@@ -2,9 +2,7 @@
 draft = false
 title = "parted 3.6-1"
 version = "3.6-1"
-date = "2023-04-12T09:13:23"
 categories = ['base']
-upstreamurl = "http://www.gnu.org/software/parted/parted.html"
 arch = "x86_64"
 size = "653508"
 usize = "3146746"
