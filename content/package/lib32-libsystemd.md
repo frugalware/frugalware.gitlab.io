@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libsystemd 254.1-1"
 version = "254.1-1"
-date = "2023-08-13T19:08:08"
 categories = ['lib32-extra']
-upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
 size = "2646708"
 usize = "9734226"

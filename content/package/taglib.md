@@ -2,9 +2,7 @@
 draft = false
 title = "taglib 1.13.1-1"
 version = "1.13.1-1"
-date = "2023-07-10T14:10:54"
 categories = ['multimedia']
-upstreamurl = "http://taglib.github.io/"
 arch = "x86_64"
 size = "365092"
 usize = "1756143"

@@ -2,9 +2,7 @@
 draft = false
 title = "systemd-devel 254.1-1"
 version = "254.1-1"
-date = "2023-08-13T19:08:08"
 categories = ['devel-extra']
-upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
 size = "51696"
 usize = "173477"
