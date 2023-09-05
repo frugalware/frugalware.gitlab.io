@@ -2,9 +2,7 @@
 draft = false
 title = "gpg-agent 2.4.3-1"
 version = "2.4.3-1"
-date = "2023-07-12T12:25:39"
 categories = ['apps']
-upstreamurl = "https://www.gnupg.org"
 arch = "x86_64"
 size = "195752"
 usize = "541416"

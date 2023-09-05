@@ -2,9 +2,7 @@
 draft = false
 title = "gmp 6.3.0-1"
 version = "6.3.0-1"
-date = "2023-07-31T06:04:34"
 categories = ['base', 'devel-core', 'chroot-core']
-upstreamurl = "http://gmplib.org"
 arch = "x86_64"
 size = "681672"
 usize = "2284277"

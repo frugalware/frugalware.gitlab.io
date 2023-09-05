@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-gmp 6.3.0-1"
 version = "6.3.0-1"
-date = "2023-07-31T06:04:34"
 categories = ['lib32-extra']
-upstreamurl = "http://gmplib.org"
 arch = "x86_64"
 size = "253152"
 usize = "761972"

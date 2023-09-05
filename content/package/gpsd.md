@@ -2,9 +2,7 @@
 draft = false
 title = "gpsd 3.25-1"
 version = "3.25-1"
-date = "2023-01-18T12:23:45"
 categories = ['xapps']
-upstreamurl = "http://www.catb.org/gpsd"
 arch = "x86_64"
 size = "1018040"
 usize = "4888108"

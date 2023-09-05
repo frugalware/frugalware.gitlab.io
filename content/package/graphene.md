@@ -2,9 +2,7 @@
 draft = false
 title = "graphene 1.10.8-1"
 version = "1.10.8-1"
-date = "2023-03-05T16:57:22"
 categories = ['xlib']
-upstreamurl = "https://github.com/ebassi/graphene"
 arch = "x86_64"
 size = "191472"
 usize = "2685353"
