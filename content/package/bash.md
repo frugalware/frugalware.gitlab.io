@@ -2,9 +2,7 @@
 draft = false
 title = "bash 5.2.15-2"
 version = "5.2.15-2"
-date = "2023-02-20T12:50:10"
 categories = ['base', 'core']
-upstreamurl = "http://tiswww.case.edu/php/chet/bash/bashtop.html"
 arch = "x86_64"
 size = "1846960"
 usize = "9909008"
