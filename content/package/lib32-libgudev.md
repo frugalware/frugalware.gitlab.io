@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libgudev 238-1"
 version = "238-1"
-date = "2023-07-08T14:56:59"
 categories = ['lib32-extra']
-upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "14376"
 usize = "64567"

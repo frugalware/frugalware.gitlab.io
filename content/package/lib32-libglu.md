@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libglu 9.0.3-1"
 version = "9.0.3-1"
-date = "2023-07-22T10:21:20"
 categories = ['lib32-extra']
-upstreamurl = "https://gitlab.freedesktop.org/mesa/glu"
 arch = "x86_64"
 size = "137984"
 usize = "379180"

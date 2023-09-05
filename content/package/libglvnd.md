@@ -2,9 +2,7 @@
 draft = false
 title = "libglvnd 1.6.0-1"
 version = "1.6.0-1"
-date = "2022-11-28T13:50:13"
 categories = ['x11']
-upstreamurl = "https://github.com/NVIDIA/libglvnd"
 arch = "x86_64"
 size = "330696"
 usize = "4043748"

@@ -2,9 +2,7 @@
 draft = false
 title = "libgpg-error 1.47-1"
 version = "1.47-1"
-date = "2023-04-07T14:31:31"
 categories = ['base', 'core']
-upstreamurl = "http://www.gnupg.org"
 arch = "x86_64"
 size = "303144"
 usize = "1372905"

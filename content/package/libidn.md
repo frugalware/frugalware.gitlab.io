@@ -2,9 +2,7 @@
 draft = false
 title = "libidn 1.41-1"
 version = "1.41-1"
-date = "2022-08-26T10:19:58"
 categories = ['base', 'chroot-core']
-upstreamurl = "http://www.gnu.org/software/libidn/"
 arch = "x86_64"
 size = "249192"
 usize = "858663"
