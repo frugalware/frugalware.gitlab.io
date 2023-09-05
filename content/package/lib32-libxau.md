@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libxau 1.0.11-1"
 version = "1.0.11-1"
-date = "2022-12-09T15:00:13"
 categories = ['lib32-extra']
-upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "8624"
 usize = "17781"

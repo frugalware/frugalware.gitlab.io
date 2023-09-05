@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libx11 1.8.6-1"
 version = "1.8.6-1"
-date = "2023-06-16T10:07:00"
 categories = ['lib32-extra']
-upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "618484"
 usize = "1637555"

@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libxcomposite 0.4.6-1"
 version = "0.4.6-1"
-date = "2022-12-08T09:02:21"
 categories = ['lib32-extra']
-upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "7300"
 usize = "17923"

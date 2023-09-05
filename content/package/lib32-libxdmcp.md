@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libxdmcp 1.1.4-1"
 version = "1.1.4-1"
-date = "2022-12-04T11:02:41"
 categories = ['lib32-extra']
-upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "11724"
 usize = "28544"

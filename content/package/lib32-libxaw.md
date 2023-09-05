@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libxaw 1.0.15-1"
 version = "1.0.15-1"
-date = "2023-03-16T08:31:38"
 categories = ['lib32-extra']
-upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "258364"
 usize = "1089081"

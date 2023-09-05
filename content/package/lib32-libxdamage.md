@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libxdamage 1.1.6-1"
 version = "1.1.6-1"
-date = "2022-12-08T09:04:28"
 categories = ['lib32-extra']
-upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "7084"
 usize = "16360"
