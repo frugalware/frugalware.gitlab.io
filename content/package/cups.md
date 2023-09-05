@@ -2,9 +2,7 @@
 draft = false
 title = "cups 2.4.6-1"
 version = "2.4.6-1"
-date = "2023-07-07T12:47:14"
 categories = ['xapps']
-upstreamurl = "http://www.cups.org/"
 arch = "x86_64"
 size = "5370940"
 usize = "13571203"
