@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libvpx 1.13.0-1"
 version = "1.13.0-1"
-date = "2023-02-14T09:06:20"
 categories = ['lib32-extra']
-upstreamurl = "https://github.com/webmproject/libvpx"
 arch = "x86_64"
 size = "977512"
 usize = "3188519"

@@ -2,9 +2,7 @@
 draft = false
 title = "libusb1 1.0.26-1"
 version = "1.0.26-1"
-date = "2022-08-26T08:30:04"
 categories = ['base', 'core']
-upstreamurl = "https://sourceforge.net/projects/libusb"
 arch = "x86_64"
 size = "81212"
 usize = "256529"

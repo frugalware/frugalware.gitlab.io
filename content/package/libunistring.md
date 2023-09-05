@@ -2,9 +2,7 @@
 draft = false
 title = "libunistring 1.1-1"
 version = "1.1-1"
-date = "2022-10-18T19:02:07"
 categories = ['base', 'chroot-core']
-upstreamurl = "http://www.gnu.org/software/libunistring/"
 arch = "x86_64"
 size = "571640"
 usize = "2760230"

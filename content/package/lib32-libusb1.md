@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libusb1 1.0.26-1"
 version = "1.0.26-1"
-date = "2022-08-26T08:30:04"
 categories = ['lib32-extra']
-upstreamurl = "https://sourceforge.net/projects/libusb"
 arch = "x86_64"
 size = "63136"
 usize = "200997"
