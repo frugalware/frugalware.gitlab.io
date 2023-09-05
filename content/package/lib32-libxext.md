@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libxext 1.3.5-1"
 version = "1.3.5-1"
-date = "2022-12-08T09:06:39"
 categories = ['lib32-extra']
-upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "36604"
 usize = "139804"

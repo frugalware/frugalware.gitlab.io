@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libxkbfile 1.1.2-1"
 version = "1.1.2-1"
-date = "2022-12-09T15:01:39"
 categories = ['lib32-extra']
-upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "73032"
 usize = "211968"

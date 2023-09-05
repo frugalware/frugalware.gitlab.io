@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libtasn1 4.19.0-1"
 version = "4.19.0-1"
-date = "2022-08-28T19:24:38"
 categories = ['lib32-extra']
-upstreamurl = "http://josefsson.org/libtasn1/"
 arch = "x86_64"
 size = "52856"
 usize = "170327"

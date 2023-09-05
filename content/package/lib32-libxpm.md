@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libxpm 3.5.16-1"
 version = "3.5.16-1"
-date = "2023-04-18T13:54:35"
 categories = ['lib32-extra']
-upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "50864"
 usize = "146124"
