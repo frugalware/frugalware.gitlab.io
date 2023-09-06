@@ -2,9 +2,7 @@
 draft = false
 title = "coin-or-osi 0.108.8-1"
 version = "0.108.8-1"
-date = "2023-07-28T08:05:31"
 categories = ['lib-extra']
-upstreamurl = "https://github.com/coin-or/Osi"
 arch = "x86_64"
 size = "308716"
 usize = "1109799"
