@@ -2,9 +2,7 @@
 draft = false
 title = "opengv 20200416-5"
 version = "20200416-5"
-date = "2022-09-14T12:52:43"
 categories = ['lib-extra']
-upstreamurl = "https://github.com/laurentkneip/opengv"
 arch = "x86_64"
 size = "30282860"
 usize = "47354820"
