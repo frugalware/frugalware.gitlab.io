@@ -2,9 +2,7 @@
 draft = false
 title = "liborcus 0.17.2-5"
 version = "0.17.2-5"
-date = "2023-04-21T12:20:01"
 categories = ['xoffice']
-upstreamurl = "https://gitlab.com/orcus/orcus"
 arch = "x86_64"
 size = "522800"
 usize = "2060238"
