@@ -2,9 +2,7 @@
 draft = false
 title = "kig 23.08.0-1"
 version = "23.08.0-1"
-date = "2023-08-24T17:48:19"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "3528504"
 usize = "11189467"
