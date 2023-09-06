@@ -2,9 +2,7 @@
 draft = false
 title = "freeorion 0.5-1"
 version = "0.5-1"
-date = "2023-04-21T12:53:48"
 categories = ['games-extra']
-upstreamurl = "http://freeorion.org/"
 arch = "x86_64"
 size = "156304760"
 usize = "186064986"
