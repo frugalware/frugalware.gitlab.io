@@ -2,9 +2,7 @@
 draft = false
 title = "coin-or-coinutils 2.11.9-1"
 version = "2.11.9-1"
-date = "2023-07-28T08:12:45"
 categories = ['lib-extra']
-upstreamurl = "https://github.com/coin-or/CoinUtils"
 arch = "x86_64"
 size = "553924"
 usize = "1882659"
