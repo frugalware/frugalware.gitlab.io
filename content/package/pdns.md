@@ -2,9 +2,7 @@
 draft = false
 title = "pdns 4.7.4-1"
 version = "4.7.4-1"
-date = "2023-04-21T08:34:28"
 categories = ['network-extra']
-upstreamurl = "http://www.powerdns.com/"
 arch = "x86_64"
 size = "2378056"
 usize = "9947313"
