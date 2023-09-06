@@ -2,9 +2,7 @@
 draft = false
 title = "libtorrent-rasterbar-python 2.0.9-1"
 version = "2.0.9-1"
-date = "2023-07-28T08:33:56"
 categories = ['lib-extra']
-upstreamurl = "http://www.libtorrent.org"
 arch = "x86_64"
 size = "543736"
 usize = "3520008"
