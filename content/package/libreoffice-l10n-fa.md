@@ -2,9 +2,7 @@
 draft = false
 title = "libreoffice-l10n-fa 7.5.5.2-1"
 version = "7.5.5.2-1"
-date = "2023-07-16T11:44:47"
 categories = ['locale-extra']
-upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
 size = "286204"
 usize = "1748534"
