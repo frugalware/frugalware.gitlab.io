@@ -2,9 +2,7 @@
 draft = false
 title = "plasma-integration 5.27.7-1"
 version = "5.27.7-1"
-date = "2023-08-15T09:45:10"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "139660"
 usize = "520483"
