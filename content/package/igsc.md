@@ -2,9 +2,7 @@
 draft = false
 title = "igsc 0.8.9-2"
 version = "0.8.9-2"
-date = "2023-06-20T07:54:44"
 categories = ['lib']
-upstreamurl = "https://github.com/intel/igsc"
 arch = "x86_64"
 size = "61136"
 usize = "229983"
