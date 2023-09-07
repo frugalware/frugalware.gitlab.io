@@ -2,9 +2,7 @@
 draft = false
 title = "alsa-lib 1.2.9-3"
 version = "1.2.9-3"
-date = "2023-09-05T08:11:09"
 categories = ['multimedia']
-upstreamurl = "https://www.alsa-project.org"
 arch = "x86_64"
 size = "493724"
 usize = "1860486"
