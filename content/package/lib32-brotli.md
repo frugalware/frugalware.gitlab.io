@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-brotli 1.0.9-5"
 version = "1.0.9-5"
-date = "2023-08-31T07:44:25"
 categories = ['lib32-extra']
-upstreamurl = "https://github.com/google/brotli"
 arch = "x86_64"
 size = "300732"
 usize = "1620939"
