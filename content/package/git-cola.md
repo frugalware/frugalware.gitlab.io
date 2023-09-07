@@ -2,9 +2,7 @@
 draft = false
 title = "git-cola 4.3.1-1"
 version = "4.3.1-1"
-date = "2023-08-19T11:34:47"
 categories = ['xapps-extra']
-upstreamurl = "http://git-cola.github.io/"
 arch = "x86_64"
 size = "944040"
 usize = "5709529"

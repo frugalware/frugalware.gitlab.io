@@ -2,9 +2,7 @@
 draft = false
 title = "easyeffects 7.0.7-1"
 version = "7.0.7-1"
-date = "2023-08-19T09:57:57"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/wwmm/pulseeffects"
 arch = "x86_64"
 size = "940620"
 usize = "6363098"
