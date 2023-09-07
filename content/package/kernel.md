@@ -2,9 +2,7 @@
 draft = false
 title = "kernel 6.5.1-1"
 version = "6.5.1-1"
-date = "2023-09-05T09:34:44"
 categories = ['base']
-upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
 size = "112861880"
 usize = "123805066"

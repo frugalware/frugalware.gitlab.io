@@ -2,9 +2,7 @@
 draft = false
 title = "cpupower 6.5.1-1"
 version = "6.5.1-1"
-date = "2023-09-05T09:34:44"
 categories = ['apps-extra']
-upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
 size = "83868"
 usize = "160834"
