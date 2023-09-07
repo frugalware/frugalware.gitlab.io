@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "liblas 1.8.1-3"
-version = "1.8.1-3"
+title = "liblas 1.8.1-4"
+version = "1.8.1-4"
+date = "2023-09-05T22:00:45"
 categories = ['lib-extra']
+upstreamurl = "https://www.liblas.org"
 arch = "x86_64"
-size = "609952"
-usize = "3215765"
-sha1sum = "1eee5273c6ac700f805bfc03fd6ce471be5550e3"
-depends = "['gdal', 'libboost>=1.82.0', 'libgeotiff']"
+size = "612036"
+usize = "3154325"
+sha1sum = "98df635eabbac74c6a91c9ea6295e1dd0ca7be8c"
+depends = "['gdal', 'libboost>=1.83.0', 'libgeotiff']"
 +++
 C/C++ library for reading and writing the very common LAS LiDAR format

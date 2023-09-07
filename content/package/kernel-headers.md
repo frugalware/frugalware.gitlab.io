@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kernel-headers 6.5.1-1"
-version = "6.5.1-1"
+title = "kernel-headers 6.5.2-1"
+version = "6.5.2-1"
+date = "2023-09-07T09:21:19"
 categories = ['devel', 'devel-core']
+upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "1180844"
+size = "1180772"
 usize = "5585048"
-sha1sum = "3a37cd2351661e283313089aac9d0fbec16e4d49"
+sha1sum = "8afbecddaeb0239010dbe42e3f3ef8a80113df34"
 depends = "[]"
 +++
 Linux kernel include files

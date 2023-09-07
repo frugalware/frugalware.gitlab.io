@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "vlc-a52 3.0.18-13"
-version = "3.0.18-13"
+title = "vlc-a52 3.0.18-14"
+version = "3.0.18-14"
+date = "2023-09-05T17:15:33"
 categories = ['xmultimedia-extra', 'vlc-codecs']
+upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "15924"
+size = "15952"
 usize = "14024"
-sha1sum = "ef09a66272ad6b19992c1f5958f5b6583baf9146"
+sha1sum = "28bf0ce8a868ea50d60a293df3689a197caa123d"
 depends = "['a52dec', 'libvlc>=3.0.18']"
 +++
 vlc a52 support

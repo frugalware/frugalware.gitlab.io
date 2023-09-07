@@ -1,12 +1,15 @@
 +++
 draft = false
-title = "vtk 9.2.6-5"
-version = "9.2.6-5"
+title = "vtk 9.2.6-6"
+version = "9.2.6-6"
+date = "2023-09-05T20:04:43"
 categories = ['xlib-extra']
+upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "34789980"
-usize = "179146394"
-sha1sum = "f975b6edfaaa10b5006e7dbc496831d7b1b3ddd9"
+size = "35052300"
+usize = "179531498"
+sha1sum = "1290a21740cabe859ab72b9a3053827667cc5eb8"
 depends = "['openvr', 'pdal>=2.5.0', 'liblas', 'adios2', 'openturns>=1.21', 'openslide', 'libboost', 'postgresql', 'openvdb>=10.0.1', 'openxr']"
+license = "GPL-2"
 +++
 Software system for 3D computer graphics, modeling, image processing, volume rendering, scientific visualization, and information visualization.

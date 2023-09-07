@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-kk 7.5.5.2-1"
-version = "7.5.5.2-1"
+title = "libreoffice-l10n-kk 7.5.5.2-2"
+version = "7.5.5.2-2"
+date = "2023-09-06T17:32:40"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "737196"
+size = "737388"
 usize = "4392217"
-sha1sum = "a9825c321967d43d7f563f8c62946401b2020f5e"
+sha1sum = "99c09b91f8a3a71a17751a630e6ed7b20b32ce37"
 depends = "['libreoffice>=7.5.5.2']"
 +++
 Installs Kazakh support in LibreOffice

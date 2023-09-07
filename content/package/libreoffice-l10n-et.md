@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-et 7.5.5.2-1"
-version = "7.5.5.2-1"
+title = "libreoffice-l10n-et 7.5.5.2-2"
+version = "7.5.5.2-2"
+date = "2023-09-06T17:32:40"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4473252"
+size = "4472944"
 usize = "33493974"
-sha1sum = "122ac609ad56c6f8643167a1c56f7c8119f08e81"
+sha1sum = "f470324ff8542986d985b3b69d9d25ff538c91f1"
 depends = "['libreoffice>=7.5.5.2']"
 +++
 Installs Estonian support in LibreOffice

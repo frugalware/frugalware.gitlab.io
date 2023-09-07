@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-brx 7.5.5.2-1"
-version = "7.5.5.2-1"
+title = "libreoffice-l10n-brx 7.5.5.2-2"
+version = "7.5.5.2-2"
+date = "2023-09-06T17:32:40"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "241076"
+size = "241188"
 usize = "1785503"
-sha1sum = "d8e0d4c67903c874418c2723355821538b6a68ab"
+sha1sum = "1f7286a0047d50339c741e6235f99492240f9948"
 depends = "['libreoffice>=7.5.5.2']"
 +++
 Installs Bodo support in LibreOffice

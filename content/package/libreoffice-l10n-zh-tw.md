@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-zh-tw 7.5.5.2-1"
-version = "7.5.5.2-1"
+title = "libreoffice-l10n-zh-tw 7.5.5.2-2"
+version = "7.5.5.2-2"
+date = "2023-09-06T17:32:40"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "5739672"
+size = "5739252"
 usize = "36600933"
-sha1sum = "ec7fde299bcb6129e40033c5dfa63fe1c25fb44b"
+sha1sum = "4208db81f8389e945951707faaf7a99bd6d59340"
 depends = "['libreoffice>=7.5.5.2']"
 +++
 Installs Chinese (traditional) support in LibreOffice

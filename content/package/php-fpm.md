@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "php-fpm 8.2.9-1"
-version = "8.2.9-1"
+title = "php-fpm 8.2.10-1"
+version = "8.2.10-1"
+date = "2023-09-07T09:43:48"
 categories = ['devel-extra']
+upstreamurl = "https://www.php.net"
 arch = "x86_64"
-size = "3065136"
+size = "3070616"
 usize = "18969836"
-sha1sum = "77ad978d69a15a015dc1a63d460f75300d82e45d"
-depends = "['php=8.2.9', 'systemd']"
+sha1sum = "2c033e9b68b29b18bbf47764d269d8af756affd1"
+depends = "['php=8.2.10', 'systemd']"
 +++
 FastCGI Process Manager for PHP.
