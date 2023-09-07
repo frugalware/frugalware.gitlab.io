@@ -2,9 +2,7 @@
 draft = false
 title = "vulkan-loader-layers 1.3.261.0-1"
 version = "1.3.261.0-1"
-date = "2023-08-24T12:54:06"
 categories = ['devel-extra']
-upstreamurl = "https://www.khronos.org/vulkan/"
 arch = "x86_64"
 size = "14574872"
 usize = "58283347"
