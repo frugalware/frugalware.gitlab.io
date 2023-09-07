@@ -2,9 +2,7 @@
 draft = false
 title = "wget2 2.0.1-5"
 version = "2.0.1-5"
-date = "2023-05-14T13:02:19"
 categories = ['network']
-upstreamurl = "https://gitlab.com/gnuwget/wget2"
 arch = "x86_64"
 size = "438444"
 usize = "2130320"
