@@ -2,9 +2,7 @@
 draft = false
 title = "libfabric 1.14.0-1"
 version = "1.14.0-1"
-date = "2022-02-10T08:06:41"
 categories = ['lib-extra']
-upstreamurl = "https://github.com/ofiwg/libfabric"
 arch = "x86_64"
 size = "509832"
 usize = "1252585"
