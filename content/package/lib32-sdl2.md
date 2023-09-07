@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-sdl2 2.28.2-1"
 version = "2.28.2-1"
-date = "2023-08-20T18:23:37"
 categories = ['lib32-extra']
-upstreamurl = "http://libsdl.org"
 arch = "x86_64"
 size = "865976"
 usize = "4310404"

@@ -2,9 +2,7 @@
 draft = false
 title = "re2-static 2023.08.01-2"
 version = "2023.08.01-2"
-date = "2023-08-30T15:09:15"
 categories = ['devel-extra']
-upstreamurl = "https://github.com/google/re2"
 arch = "x86_64"
 size = "3095996"
 usize = "4521530"
