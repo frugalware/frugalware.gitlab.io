@@ -2,9 +2,7 @@
 draft = false
 title = "pyside6 6.5.0-1"
 version = "6.5.0-1"
-date = "2023-04-11T11:34:20"
 categories = ['lib-extra']
-upstreamurl = "https://wiki.qt.io/Qt_for_Python"
 arch = "x86_64"
 size = "8125984"
 usize = "50894807"
