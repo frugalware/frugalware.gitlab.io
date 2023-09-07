@@ -2,9 +2,7 @@
 draft = false
 title = "webrtc-audio-processing-1 1.0-2"
 version = "1.0-2"
-date = "2023-02-13T15:16:31"
 categories = ['lib']
-upstreamurl = "https://freedesktop.org/software/pulseaudio/webrtc-audio-processing/"
 arch = "x86_64"
 size = "479728"
 usize = "1459690"
