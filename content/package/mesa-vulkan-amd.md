@@ -2,9 +2,7 @@
 draft = false
 title = "mesa-vulkan-amd 23.1.6-1"
 version = "23.1.6-1"
-date = "2023-08-17T11:51:50"
 categories = ['x11-extra']
-upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
 size = "2625016"
 usize = "11519307"
