@@ -2,9 +2,7 @@
 draft = false
 title = "libwbclient 4.18.6-1"
 version = "4.18.6-1"
-date = "2023-08-17T13:44:39"
 categories = ['network']
-upstreamurl = "http://www.samba.org"
 arch = "x86_64"
 size = "42940"
 usize = "125645"

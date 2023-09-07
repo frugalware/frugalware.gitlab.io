@@ -2,9 +2,7 @@
 draft = false
 title = "samba-client 4.18.6-1"
 version = "4.18.6-1"
-date = "2023-08-17T13:44:39"
 categories = ['network']
-upstreamurl = "http://www.samba.org"
 arch = "x86_64"
 size = "454360"
 usize = "1408632"

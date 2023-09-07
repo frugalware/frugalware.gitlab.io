@@ -2,9 +2,7 @@
 draft = false
 title = "libreoffice-gtk3 7.5.5.2-2"
 version = "7.5.5.2-2"
-date = "2023-09-06T17:32:40"
 categories = ['xapps-extra']
-upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
 size = "572192"
 usize = "2664381"
