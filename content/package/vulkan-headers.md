@@ -2,9 +2,7 @@
 draft = false
 title = "vulkan-headers 1.3.261.0-1"
 version = "1.3.261.0-1"
-date = "2023-08-24T11:55:55"
 categories = ['devel-extra']
-upstreamurl = "https://www.khronos.org/vulkan/"
 arch = "x86_64"
 size = "1222492"
 usize = "24105053"
