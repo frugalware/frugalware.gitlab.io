@@ -2,9 +2,7 @@
 draft = false
 title = "mupdf 1.23.0-1"
 version = "1.23.0-1"
-date = "2023-08-23T15:21:55"
 categories = ['xapps']
-upstreamurl = "https://mupdf.com"
 arch = "x86_64"
 size = "86805612"
 usize = "154000885"
