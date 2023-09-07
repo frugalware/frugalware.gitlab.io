@@ -2,9 +2,7 @@
 draft = false
 title = "elixir 1.15.2-1"
 version = "1.15.2-1"
-date = "2023-07-12T19:58:53"
 categories = ['devel-extra']
-upstreamurl = "http://elixir-lang.org"
 arch = "x86_64"
 size = "4621544"
 usize = "7111008"
