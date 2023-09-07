@@ -2,9 +2,7 @@
 draft = false
 title = "rtl8821ce 1.0.4.r76.g7c4f827-294"
 version = "1.0.4.r76.g7c4f827-294"
-date = "2023-09-05T12:54:02"
 categories = ['network-extra']
-upstreamurl = "https://github.com/tomaspinho/rtl8821ce"
 arch = "x86_64"
 size = "728096"
 usize = "5009863"
