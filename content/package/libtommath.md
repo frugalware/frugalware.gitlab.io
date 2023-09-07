@@ -2,9 +2,7 @@
 draft = false
 title = "libtommath 1.2.0-2"
 version = "1.2.0-2"
-date = "2023-01-26T08:58:10"
 categories = ['lib']
-upstreamurl = "http://www.libtom.org/"
 arch = "x86_64"
 size = "56160"
 usize = "155447"
