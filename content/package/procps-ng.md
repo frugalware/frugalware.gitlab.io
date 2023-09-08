@@ -2,9 +2,7 @@
 draft = false
 title = "procps-ng 4.0.3-1"
 version = "4.0.3-1"
-date = "2023-08-23T14:21:29"
 categories = ['base', 'core']
-upstreamurl = "https://gitlab.com/procps-ng/procps"
 arch = "x86_64"
 size = "803252"
 usize = "2399018"
