@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-pandoc-lua-marshal 0.2.2-4"
 version = "0.2.2-4"
-date = "2023-08-22T13:58:33"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/pandoc-lua-marshal"
 arch = "x86_64"
 size = "495152"
 usize = "5367551"
