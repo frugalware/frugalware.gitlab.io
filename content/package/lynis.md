@@ -2,9 +2,7 @@
 draft = false
 title = "lynis 3.0.8-1"
 version = "3.0.8-1"
-date = "2023-03-06T09:21:28"
 categories = ['apps-extra']
-upstreamurl = "https://cisofy.com/lynis/"
 arch = "x86_64"
 size = "223284"
 usize = "1631095"

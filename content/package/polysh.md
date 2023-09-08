@@ -2,9 +2,7 @@
 draft = false
 title = "polysh 0.13-5"
 version = "0.13-5"
-date = "2022-11-03T06:58:20"
 categories = ['apps-extra']
-upstreamurl = "http://pypi.python.org/pypi/polysh"
 arch = "x86_64"
 size = "56384"
 usize = "209466"
