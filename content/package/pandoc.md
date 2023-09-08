@@ -2,9 +2,7 @@
 draft = false
 title = "pandoc 3.1.6-2"
 version = "3.1.6-2"
-date = "2023-08-23T09:12:29"
 categories = ['apps-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/pandoc"
 arch = "x86_64"
 size = "13132248"
 usize = "133094788"
