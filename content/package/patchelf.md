@@ -2,9 +2,7 @@
 draft = false
 title = "patchelf 0.17.2-1"
 version = "0.17.2-1"
-date = "2023-03-06T10:07:03"
 categories = ['apps-extra']
-upstreamurl = "https://nixos.org/patchelf.html"
 arch = "x86_64"
 size = "78692"
 usize = "210467"

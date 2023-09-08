@@ -2,9 +2,7 @@
 draft = false
 title = "streamlink 5.3.1-1"
 version = "5.3.1-1"
-date = "2023-03-06T10:23:34"
 categories = ['apps-extra']
-upstreamurl = "https://github.com/streamlink/streamlink"
 arch = "x86_64"
 size = "545764"
 usize = "2506259"
