@@ -2,9 +2,7 @@
 draft = false
 title = "clight 4.9-1"
 version = "4.9-1"
-date = "2023-02-24T10:37:44"
 categories = ['apps-extra']
-upstreamurl = "https://github.com/FedeDP/clight"
 arch = "x86_64"
 size = "82608"
 usize = "253133"
