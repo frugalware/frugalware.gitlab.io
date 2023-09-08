@@ -2,9 +2,7 @@
 draft = false
 title = "rclone 1.62.2-1"
 version = "1.62.2-1"
-date = "2023-03-21T16:05:54"
 categories = ['apps-extra']
-upstreamurl = "https://rclone.org/"
 arch = "x86_64"
 size = "16948048"
 usize = "75739220"
