@@ -2,9 +2,7 @@
 draft = false
 title = "nushell 0.76.0-2"
 version = "0.76.0-2"
-date = "2023-03-15T23:02:42"
 categories = ['apps-extra']
-upstreamurl = "https://www.nushell.sh"
 arch = "x86_64"
 size = "12471480"
 usize = "61690783"
