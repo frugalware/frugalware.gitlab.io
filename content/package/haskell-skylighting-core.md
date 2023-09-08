@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-skylighting-core 0.13.4.1-2"
 version = "0.13.4.1-2"
-date = "2023-08-23T07:02:41"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/skylighting-core"
 arch = "x86_64"
 size = "878728"
 usize = "11449190"

@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-skylighting-format-blaze-html 0.1.1-7"
 version = "0.1.1-7"
-date = "2023-08-23T07:06:58"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/skylighting-format-blaze-html"
 arch = "x86_64"
 size = "68404"
 usize = "390830"
