@@ -2,9 +2,7 @@
 draft = false
 title = "glow 1.5.0-1"
 version = "1.5.0-1"
-date = "2023-02-22T19:19:39"
 categories = ['apps-extra']
-upstreamurl = "https://github.com/charmbracelet/glow"
 arch = "x86_64"
 size = "4772904"
 usize = "18162572"

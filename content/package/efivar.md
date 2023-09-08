@@ -2,9 +2,7 @@
 draft = false
 title = "efivar 38-1"
 version = "38-1"
-date = "2022-09-02T08:49:54"
 categories = ['base']
-upstreamurl = "https://github.com/rhboot/efivar"
 arch = "x86_64"
 size = "142948"
 usize = "580809"

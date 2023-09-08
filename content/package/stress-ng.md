@@ -2,9 +2,7 @@
 draft = false
 title = "stress-ng 0.15.05-1"
 version = "0.15.05-1"
-date = "2023-03-13T10:27:18"
 categories = ['apps-extra']
-upstreamurl = "https://github.com/ColinIanKing/stress-ng"
 arch = "x86_64"
 size = "2324092"
 usize = "9075714"
