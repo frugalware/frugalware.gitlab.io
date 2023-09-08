@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-commonmark-pandoc 0.2.1.3-9"
 version = "0.2.1.3-9"
-date = "2023-08-22T09:27:39"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/commonmark-pandoc"
 arch = "x86_64"
 size = "89880"
 usize = "608107"

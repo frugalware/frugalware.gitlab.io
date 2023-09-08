@@ -2,9 +2,7 @@
 draft = false
 title = "haskell-citeproc 0.8.1-6"
 version = "0.8.1-6"
-date = "2023-08-23T07:58:54"
 categories = ['devel-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/citeproc"
 arch = "x86_64"
 size = "1342212"
 usize = "17526353"
