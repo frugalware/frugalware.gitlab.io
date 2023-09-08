@@ -2,9 +2,7 @@
 draft = false
 title = "lxc 5.0.2-2"
 version = "5.0.2-2"
-date = "2023-03-24T10:57:18"
 categories = ['apps-extra']
-upstreamurl = "https://linuxcontainers.org"
 arch = "x86_64"
 size = "3190412"
 usize = "29207442"

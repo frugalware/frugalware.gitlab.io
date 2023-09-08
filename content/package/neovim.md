@@ -2,9 +2,7 @@
 draft = false
 title = "neovim 0.9.1-1"
 version = "0.9.1-1"
-date = "2023-07-29T15:21:23"
 categories = ['apps-extra']
-upstreamurl = "https://neovim.io"
 arch = "x86_64"
 size = "6056704"
 usize = "26007779"
