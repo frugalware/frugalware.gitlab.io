@@ -2,9 +2,7 @@
 draft = false
 title = "python3-cython 3.0.0-1"
 version = "3.0.0-1"
-date = "2023-07-24T18:54:50"
 categories = ['devel']
-upstreamurl = "http://www.cython.org"
 arch = "x86_64"
 size = "3293384"
 usize = "14299921"
