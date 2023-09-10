@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libxcb 1.15-1"
 version = "1.15-1"
-date = "2022-08-12T12:25:39"
 categories = ['lib32-extra']
-upstreamurl = "http://xcb.freedesktop.org"
 arch = "x86_64"
 size = "303624"
 usize = "3100230"
