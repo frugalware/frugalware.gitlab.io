@@ -2,9 +2,7 @@
 draft = false
 title = "profile-sync-daemon 6.48-1"
 version = "6.48-1"
-date = "2022-10-06T12:25:11"
 categories = ['apps-extra']
-upstreamurl = "https://github.com/graysky2/profile-sync-daemon"
 arch = "x86_64"
 size = "19872"
 usize = "54667"
