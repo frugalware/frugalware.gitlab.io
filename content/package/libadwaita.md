@@ -2,9 +2,7 @@
 draft = false
 title = "libadwaita 1.2.1-1"
 version = "1.2.1-1"
-date = "2023-01-21T20:53:46"
 categories = ['lib-extra']
-upstreamurl = "https://gnome.pages.gitlab.gnome.org/libadwaita/"
 arch = "x86_64"
 size = "466040"
 usize = "3442494"
