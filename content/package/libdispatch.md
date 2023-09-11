@@ -2,9 +2,7 @@
 draft = false
 title = "libdispatch 5.7.1-1"
 version = "5.7.1-1"
-date = "2022-11-29T15:04:16"
 categories = ['lib-extra']
-upstreamurl = "https://github.com/apple/swift-corelibs-libdispatch"
 arch = "x86_64"
 size = "745120"
 usize = "1242156"
