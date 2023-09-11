@@ -2,9 +2,7 @@
 draft = false
 title = "pulse-autoconf 1.10.1-1"
 version = "1.10.1-1"
-date = "2022-10-06T16:44:00"
 categories = ['multimedia-extra']
-upstreamurl = "https://eomanis.duckdns.org/permshare/pulse-autoconf"
 arch = "x86_64"
 size = "35648"
 usize = "146686"
