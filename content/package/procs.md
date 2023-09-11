@@ -2,9 +2,7 @@
 draft = false
 title = "procs 0.13.4-1"
 version = "0.13.4-1"
-date = "2023-02-22T19:18:22"
 categories = ['apps-extra']
-upstreamurl = "https://github.com/dalance/procs"
 arch = "x86_64"
 size = "1105740"
 usize = "3475193"
