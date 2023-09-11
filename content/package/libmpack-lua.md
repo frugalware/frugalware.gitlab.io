@@ -2,9 +2,7 @@
 draft = false
 title = "libmpack-lua 1.0.9-1"
 version = "1.0.9-1"
-date = "2022-02-15T15:03:30"
 categories = ['lib-extra']
-upstreamurl = "https://github.com/libmpack/libmpack-lua"
 arch = "x86_64"
 size = "10256"
 usize = "35662"
