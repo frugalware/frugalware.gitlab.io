@@ -2,9 +2,7 @@
 draft = false
 title = "serf 1.3.9-11"
 version = "1.3.9-11"
-date = "2023-03-16T03:00:16"
 categories = ['lib-extra']
-upstreamurl = "http://serf.apache.org"
 arch = "x86_64"
 size = "82504"
 usize = "410271"
