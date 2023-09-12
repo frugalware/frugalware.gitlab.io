@@ -2,9 +2,7 @@
 draft = false
 title = "whalebird 5.0.7-1"
 version = "5.0.7-1"
-date = "2023-06-20T11:58:20"
 categories = ['xapps-extra']
-upstreamurl = "https://whalebird.social"
 arch = "x86_64"
 size = "81208872"
 usize = "367248999"
