@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-sqlite3 3.43.0-1"
 version = "3.43.0-1"
-date = "2023-08-25T10:37:14"
 categories = ['lib32-extra']
-upstreamurl = "http://www.sqlite.org/"
 arch = "x86_64"
 size = "1306360"
 usize = "4164078"
