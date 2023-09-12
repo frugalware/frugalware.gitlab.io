@@ -2,9 +2,7 @@
 draft = false
 title = "git-gui 2.41.0-1"
 version = "2.41.0-1"
-date = "2023-06-18T16:59:11"
 categories = ['xapps-extra']
-upstreamurl = "http://git-scm.com/"
 arch = "x86_64"
 size = "236912"
 usize = "1457915"
