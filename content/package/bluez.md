@@ -2,9 +2,7 @@
 draft = false
 title = "bluez 5.69-1"
 version = "5.69-1"
-date = "2023-08-30T07:43:34"
 categories = ['apps']
-upstreamurl = "http://bluez.sourceforge.net/"
 arch = "x86_64"
 size = "1438100"
 usize = "5600287"
