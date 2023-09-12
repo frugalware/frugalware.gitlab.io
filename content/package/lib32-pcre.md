@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-pcre 8.45-5"
 version = "8.45-5"
-date = "2023-09-05T11:34:36"
 categories = ['lib32-extra']
-upstreamurl = "https://sourceforge.net/projects/pcre"
 arch = "x86_64"
 size = "435020"
 usize = "1702476"

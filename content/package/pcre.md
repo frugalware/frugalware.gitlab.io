@@ -2,9 +2,7 @@
 draft = false
 title = "pcre 8.45-5"
 version = "8.45-5"
-date = "2023-09-05T11:34:36"
 categories = ['base', 'chroot-core']
-upstreamurl = "https://sourceforge.net/projects/pcre"
 arch = "x86_64"
 size = "974936"
 usize = "3621954"

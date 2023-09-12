@@ -2,9 +2,7 @@
 draft = false
 title = "lesspipe 1.83-6"
 version = "1.83-6"
-date = "2022-02-02T17:44:26"
 categories = ['apps']
-upstreamurl = "https://sourceforge.net/projects/lesspipe"
 arch = "x86_64"
 size = "34384"
 usize = "116883"
