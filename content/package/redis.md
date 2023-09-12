@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "redis 5.0.7-1"
-version = "5.0.7-1"
-date = "2019-12-10T12:09:29"
+title = "redis 7.2.1-1"
+version = "7.2.1-1"
+date = "2023-09-12T09:24:47"
 categories = ['apps-extra']
 upstreamurl = "https://redis.io/"
 arch = "x86_64"
-size = "854680"
-usize = "7050105"
-sha1sum = "22c7031ac7d60b7bb8da0597fb119a5fee37da50"
+size = "1425652"
+usize = "6216404"
+sha1sum = "8aaec5dbe3eba653ebaeb972d13b06fdd8dd2c5f"
 depends = "['glibc', 'shadow', 'grep', 'hyperscan']"
 +++
 Redis is an open source in-memory data structure store
