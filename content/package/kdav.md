@@ -2,9 +2,7 @@
 draft = false
 title = "kdav 5.109.0-1"
 version = "5.109.0-1"
-date = "2023-08-18T11:28:57"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "89808"
 usize = "412728"

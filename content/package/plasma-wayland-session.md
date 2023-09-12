@@ -2,9 +2,7 @@
 draft = false
 title = "plasma-wayland-session 5.27.7-2"
 version = "5.27.7-2"
-date = "2023-08-18T12:39:31"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "56020"
 usize = "161232"

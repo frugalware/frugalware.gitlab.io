@@ -2,9 +2,7 @@
 draft = false
 title = "libkleo 23.08.0-1"
 version = "23.08.0-1"
-date = "2023-08-24T16:13:38"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "674648"
 usize = "3196918"

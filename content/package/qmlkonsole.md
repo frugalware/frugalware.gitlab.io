@@ -2,9 +2,7 @@
 draft = false
 title = "qmlkonsole 23.08.0-1"
 version = "23.08.0-1"
-date = "2023-08-25T09:58:17"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "59580"
 usize = "234826"

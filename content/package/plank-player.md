@@ -2,9 +2,7 @@
 draft = false
 title = "plank-player 5.27.7-2"
 version = "5.27.7-2"
-date = "2023-08-18T13:13:30"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "154764"
 usize = "196837"

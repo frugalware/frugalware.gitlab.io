@@ -2,9 +2,7 @@
 draft = false
 title = "kguiaddons 5.109.0-1"
 version = "5.109.0-1"
-date = "2023-08-18T10:17:53"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "94212"
 usize = "345252"

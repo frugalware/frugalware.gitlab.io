@@ -2,9 +2,7 @@
 draft = false
 title = "kdeconnect-kde 23.08.0-1"
 version = "23.08.0-1"
-date = "2023-08-25T08:33:16"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "932484"
 usize = "5520189"

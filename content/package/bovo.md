@@ -2,9 +2,7 @@
 draft = false
 title = "bovo 23.08.0-1"
 version = "23.08.0-1"
-date = "2023-08-24T16:30:35"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "309616"
 usize = "797791"

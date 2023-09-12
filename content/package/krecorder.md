@@ -2,9 +2,7 @@
 draft = false
 title = "krecorder 23.08.0-1"
 version = "23.08.0-1"
-date = "2023-08-25T09:50:29"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "96960"
 usize = "455806"

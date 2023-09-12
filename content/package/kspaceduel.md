@@ -2,9 +2,7 @@
 draft = false
 title = "kspaceduel 23.08.0-1"
 version = "23.08.0-1"
-date = "2023-08-25T08:06:15"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "691824"
 usize = "1792479"

@@ -2,9 +2,7 @@
 draft = false
 title = "kimageformats 5.109.0-2"
 version = "5.109.0-2"
-date = "2023-09-01T14:43:54"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "130040"
 usize = "531773"

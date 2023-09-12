@@ -2,9 +2,7 @@
 draft = false
 title = "kcmutils 5.109.0-1"
 version = "5.109.0-1"
-date = "2023-08-18T11:14:54"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "221780"
 usize = "1045655"

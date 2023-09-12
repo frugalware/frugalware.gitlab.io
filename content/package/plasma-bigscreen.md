@@ -2,9 +2,7 @@
 draft = false
 title = "plasma-bigscreen 5.27.7-2"
 version = "5.27.7-2"
-date = "2023-08-18T13:18:36"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "937800"
 usize = "1927365"

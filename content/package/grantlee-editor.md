@@ -2,9 +2,7 @@
 draft = false
 title = "grantlee-editor 23.08.0-1"
 version = "23.08.0-1"
-date = "2023-08-25T06:48:46"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "235380"
 usize = "1250913"

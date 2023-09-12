@@ -2,9 +2,7 @@
 draft = false
 title = "mailcommon 23.08.0-1"
 version = "23.08.0-1"
-date = "2023-08-25T06:13:42"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "761108"
 usize = "3943008"

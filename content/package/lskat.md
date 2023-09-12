@@ -2,9 +2,7 @@
 draft = false
 title = "lskat 23.08.0-1"
 version = "23.08.0-1"
-date = "2023-08-25T08:10:38"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1298692"
 usize = "4889059"

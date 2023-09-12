@@ -2,9 +2,7 @@
 draft = false
 title = "kscreenlocker 5.27.7-2"
 version = "5.27.7-2"
-date = "2023-08-18T12:25:51"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "180188"
 usize = "792086"

@@ -2,9 +2,7 @@
 draft = false
 title = "krdc 23.08.0-1"
 version = "23.08.0-1"
-date = "2023-08-24T15:35:10"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1720328"
 usize = "3626944"

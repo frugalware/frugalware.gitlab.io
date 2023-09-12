@@ -2,9 +2,7 @@
 draft = false
 title = "sonnet-plugin-hunspell 5.109.0-1"
 version = "5.109.0-1"
-date = "2023-08-18T10:00:00"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "19632"
 usize = "55208"

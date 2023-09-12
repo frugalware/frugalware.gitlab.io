@@ -2,9 +2,7 @@
 draft = false
 title = "picmi 23.08.0-1"
 version = "23.08.0-1"
-date = "2023-08-24T17:14:51"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1321556"
 usize = "2075472"

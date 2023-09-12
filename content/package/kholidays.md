@@ -2,9 +2,7 @@
 draft = false
 title = "kholidays 5.109.0-1"
 version = "5.109.0-1"
-date = "2023-08-18T09:48:13"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "245828"
 usize = "925606"

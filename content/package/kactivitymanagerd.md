@@ -2,9 +2,7 @@
 draft = false
 title = "kactivitymanagerd 5.27.7-2"
 version = "5.27.7-2"
-date = "2023-08-18T12:00:28"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "165044"
 usize = "725782"

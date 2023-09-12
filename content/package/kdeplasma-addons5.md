@@ -2,9 +2,7 @@
 draft = false
 title = "kdeplasma-addons5 5.27.7-2"
 version = "5.27.7-2"
-date = "2023-08-18T13:06:58"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "893696"
 usize = "6190136"

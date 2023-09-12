@@ -2,9 +2,7 @@
 draft = false
 title = "kjumpingcube 23.08.0-1"
 version = "23.08.0-1"
-date = "2023-08-24T16:53:16"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "450916"
 usize = "1340080"

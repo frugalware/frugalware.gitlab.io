@@ -2,9 +2,7 @@
 draft = false
 title = "ksystemstats 5.27.7-2"
 version = "5.27.7-2"
-date = "2023-08-18T12:19:09"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "164080"
 usize = "1007160"

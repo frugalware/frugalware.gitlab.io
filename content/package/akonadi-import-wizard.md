@@ -2,9 +2,7 @@
 draft = false
 title = "akonadi-import-wizard 23.08.0-1"
 version = "23.08.0-1"
-date = "2023-08-25T06:15:35"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "675832"
 usize = "1852564"

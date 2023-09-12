@@ -2,9 +2,7 @@
 draft = false
 title = "plasmatube 23.08.0-1"
 version = "23.08.0-1"
-date = "2023-08-25T09:57:05"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "125740"
 usize = "421000"

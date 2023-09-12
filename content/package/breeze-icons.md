@@ -2,9 +2,7 @@
 draft = false
 title = "breeze-icons 5.109.0-1"
 version = "5.109.0-1"
-date = "2023-08-18T09:51:39"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "8354268"
 usize = "71089747"

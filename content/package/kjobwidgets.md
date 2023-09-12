@@ -2,9 +2,7 @@
 draft = false
 title = "kjobwidgets 5.109.0-1"
 version = "5.109.0-1"
-date = "2023-08-18T10:23:34"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "93276"
 usize = "435882"

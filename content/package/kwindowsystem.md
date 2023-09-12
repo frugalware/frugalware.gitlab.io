@@ -2,9 +2,7 @@
 draft = false
 title = "kwindowsystem 5.109.0-1"
 version = "5.109.0-1"
-date = "2023-08-18T09:57:23"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "179232"
 usize = "729037"

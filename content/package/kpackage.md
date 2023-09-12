@@ -2,9 +2,7 @@
 draft = false
 title = "kpackage 5.109.0-1"
 version = "5.109.0-1"
-date = "2023-08-18T10:28:13"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "169316"
 usize = "749207"

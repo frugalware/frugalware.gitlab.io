@@ -2,9 +2,7 @@
 draft = false
 title = "kwalletmanager 23.08.0-1"
 version = "23.08.0-1"
-date = "2023-08-24T15:45:01"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "981968"
 usize = "2885257"

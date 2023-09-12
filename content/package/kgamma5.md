@@ -2,9 +2,7 @@
 draft = false
 title = "kgamma5 5.27.7-2"
 version = "5.27.7-2"
-date = "2023-08-18T11:54:08"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "156716"
 usize = "463559"

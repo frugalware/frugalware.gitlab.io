@@ -2,9 +2,7 @@
 draft = false
 title = "kshisen 23.08.0-1"
 version = "23.08.0-1"
-date = "2023-08-24T17:05:38"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1098492"
 usize = "2039445"

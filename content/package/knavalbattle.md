@@ -2,9 +2,7 @@
 draft = false
 title = "knavalbattle 23.08.0-1"
 version = "23.08.0-1"
-date = "2023-08-24T17:01:18"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1516172"
 usize = "2407101"
