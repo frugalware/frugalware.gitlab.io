@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "grantleetheme 23.08.0-1"
-version = "23.08.0-1"
+title = "grantleetheme 23.08.0-2"
+version = "23.08.0-2"
+date = "2023-09-11T15:38:37"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "56056"
+size = "56100"
 usize = "206339"
-sha1sum = "8c68e1333d91ba9306cd39655e4dddc066db5079"
-depends = "['grantlee>=5.1.0-2', 'knewstuff>=5.109.0']"
+sha1sum = "4ce4ab3264794d24483d3d9e582f91369e3bd0d0"
+depends = "['grantlee>=5.1.0-2', 'knewstuff>=5.110.0']"
 +++
 This lib provides grantlee theme support

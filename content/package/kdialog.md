@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kdialog 23.08.0-1"
-version = "23.08.0-1"
+title = "kdialog 23.08.0-2"
+version = "23.08.0-2"
+date = "2023-09-11T14:55:32"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "138800"
+size = "139004"
 usize = "751446"
-sha1sum = "9da1c4a4b57b7a7949a6d21f51ecf1e55050af77"
-depends = "['kdelibs4support>=5.109.0']"
+sha1sum = "55af0de3c52a5bc762eabc36eb662bd8ed6bee5b"
+depends = "['kdelibs4support>=5.110.0']"
 +++
 Can be used to show nice dialog boxes from shell scripts.

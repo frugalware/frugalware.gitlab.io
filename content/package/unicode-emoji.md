@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "unicode-emoji 15.0-1"
-version = "15.0-1"
+title = "unicode-emoji 15.1-1"
+version = "15.1-1"
+date = "2023-09-07T13:48:06"
 categories = ['lib']
+upstreamurl = "https://www.unicode.org"
 arch = "x86_64"
-size = "64404"
-usize = "1016126"
-sha1sum = "bd0040c5f6cf476b5049646e477b57386895d68b"
+size = "67952"
+usize = "1082562"
+sha1sum = "98ed9ea63ba2cdb10ee9d744edcecb9d41ce31b7"
 depends = "['unicode-character-database']"
 +++
 Unicode Emoji Data Files

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "falkon-kde 23.08.0-1"
-version = "23.08.0-1"
+title = "falkon-kde 23.08.0-2"
+version = "23.08.0-2"
+date = "2023-09-11T18:07:00"
 categories = ['xapps', 'kde5']
+upstreamurl = "https://www.falkon.org"
 arch = "x86_64"
-size = "32552"
+size = "32668"
 usize = "108456"
-sha1sum = "d438f3702215149a476d78d90bcb2e78f85133d8"
-depends = "['kwallet5>=5.109.0', 'kio>=5.109.0', 'purpose>=5.109.0', 'falkon']"
+sha1sum = "48b63e95996c737e9bc423adad5c93ce8299b846"
+depends = "['kwallet5>=5.110.0', 'kio>=5.110.0', 'purpose>=5.110.0', 'falkon']"
 +++
 Plugin for Falkon integration with KWallet.

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "samba-client 4.18.6-1"
-version = "4.18.6-1"
+title = "samba-client 4.19.0-1"
+version = "4.19.0-1"
+date = "2023-09-07T14:12:41"
 categories = ['network']
+upstreamurl = "http://www.samba.org"
 arch = "x86_64"
-size = "454360"
-usize = "1408632"
-sha1sum = "3fde8e06f5f3a058ed065209e84ae2034ea11da9"
-depends = "['libarchive>=3.2.1', 'popt>=1.16-6', 'talloc>=2.3.0', 'tdb>=1.4.3-2', 'libsystemd>=231-7', 'libkrb5', 'readline>=8.0', 'libsmbclient>=4.18.6', 'libwbclient>=4.18.6']"
+size = "455944"
+usize = "1416921"
+sha1sum = "d9f36a71248a7ecf0dbf8231f799f9fa1c9bdbb3"
+depends = "['libarchive>=3.2.1', 'popt>=1.16-6', 'talloc>=2.3.0', 'tdb>=1.4.3-2', 'libsystemd>=231-7', 'libkrb5', 'readline>=8.0', 'libsmbclient>=4.19.0', 'libwbclient>=4.19.0']"
 +++
 SMB client tools.

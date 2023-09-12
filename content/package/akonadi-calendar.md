@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "akonadi-calendar 23.08.0-1"
-version = "23.08.0-1"
+title = "akonadi-calendar 23.08.0-2"
+version = "23.08.0-2"
+date = "2023-09-11T17:15:31"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "590428"
+size = "590804"
 usize = "3097605"
-sha1sum = "b21f338831709c71d065d495b282c63e5819d691"
+sha1sum = "712c83089fc95b09d0373c2e2e1dbef6b4013c0b"
 depends = "['kmailtransport>=23.08.0', 'kcalutils>=23.08.0', 'messagelib>=23.08.0']"
 +++
 Akonadi calendar integration

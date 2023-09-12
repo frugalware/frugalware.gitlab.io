@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "plasma-firewall 5.27.7-2"
-version = "5.27.7-2"
+title = "plasma-firewall 5.27.7-3"
+version = "5.27.7-3"
+date = "2023-09-11T13:19:27"
 categories = ['plasma']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "434832"
+size = "434244"
 usize = "1212089"
-sha1sum = "871a6d9bf1f7d122263e5c5290de5000aef93a9f"
+sha1sum = "10e35453be64a988baa22e471ced9648b0136ec2"
 depends = "['systemsettings5>=5.27.7']"
 +++
 Control Panel for your system firewall

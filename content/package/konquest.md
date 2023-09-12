@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "konquest 23.08.0-1"
-version = "23.08.0-1"
+title = "konquest 23.08.0-2"
+version = "23.08.0-2"
+date = "2023-09-11T18:41:14"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "972672"
-usize = "1664736"
-sha1sum = "69a8916a4661bae570b2d26448c4be975419a142"
+size = "973120"
+usize = "1664715"
+sha1sum = "b4dc17f841d5f0d89d29f51cac848bbd4ac6379e"
 depends = "['libkdegames>=23.08.0']"
 +++
 Konquest is the KDE version of Gnu-Lactic

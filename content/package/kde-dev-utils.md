@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kde-dev-utils 23.08.0-1"
-version = "23.08.0-1"
+title = "kde-dev-utils 23.08.0-2"
+version = "23.08.0-2"
+date = "2023-09-11T18:37:35"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "83948"
+size = "83740"
 usize = "388078"
-sha1sum = "ca206a517a4a0f8c5987cb8164d48837d28373a3"
-depends = "['kparts>=5.109.0', 'qt5-tools']"
+sha1sum = "04c528dded78c16a9fc882959b286cb8478bc8e5"
+depends = "['kparts>=5.110.0', 'qt5-tools']"
 +++
 Developer utilities for kde.

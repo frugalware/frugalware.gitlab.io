@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "ksystemstats 5.27.7-2"
-version = "5.27.7-2"
+title = "ksystemstats 5.27.7-3"
+version = "5.27.7-3"
+date = "2023-09-11T12:37:52"
 categories = ['plasma']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "164080"
+size = "164000"
 usize = "1007160"
-sha1sum = "5ba593857435c89669b59df380f697aacf91610a"
+sha1sum = "30ec2d55f1a63666eb8f57045afdbfec59f68679"
 depends = "['libksysguard5>=5.27.7', 'networkmanager-qt']"
 +++
 A plugin based system monitoring daemon

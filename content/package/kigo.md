@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kigo 23.08.0-1"
-version = "23.08.0-1"
+title = "kigo 23.08.0-2"
+version = "23.08.0-2"
+date = "2023-09-11T16:06:26"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5345172"
-usize = "6472949"
-sha1sum = "1d58b9f295dfca6141beab11537067e95517f0bc"
+size = "5345320"
+usize = "6473004"
+sha1sum = "63cd27e24cb18f26642acc299a87b1999b801390"
 depends = "['libkdegames>=23.08.0']"
 +++
 Kigo is an open-source implementation of the popular Go game

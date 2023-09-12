@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-gtk3 7.5.5.2-2"
-version = "7.5.5.2-2"
+title = "libreoffice-gtk3 7.5.5.2-3"
+version = "7.5.5.2-3"
+date = "2023-09-07T14:35:51"
 categories = ['xapps-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "572192"
+size = "573276"
 usize = "2664381"
-sha1sum = "d2c9346611e0c201222517ec5003020b5ffd33f7"
+sha1sum = "5ae0403baab5bef047c8fd81c594ff0f47818d22"
 depends = "['gtk+3', 'libreoffice>=7.5.5.2']"
 +++
 libreoffice GTK3 integration

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "knotifications 5.109.0-1"
-version = "5.109.0-1"
+title = "knotifications 5.110.0-1"
+version = "5.110.0-1"
+date = "2023-09-11T08:46:47"
 categories = ['kf5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "134856"
+size = "134992"
 usize = "505177"
-sha1sum = "148329829197caa03f5d4bddb20a1ac4c9f746b2"
-depends = "['kservice>=5.109.0', 'kiconthemes>=5.109.0', 'phonon-qt5>=4.9.1-5', 'libdbusmenu-qt5>=0.9.3+16.04.20160218-9', 'libcanberra', 'libcanberra-alsa', 'qt5-speech>=5.15.10']"
+sha1sum = "76071a116ba512ba0ee7ae2e5176000ba9b28569"
+depends = "['kservice>=5.110.0', 'kiconthemes>=5.110.0', 'phonon-qt5>=4.9.1-5', 'libdbusmenu-qt5>=0.9.3+16.04.20160218-9', 'libcanberra', 'libcanberra-alsa', 'qt5-speech>=5.15.10']"
 +++
 KDE Desktop notifications.

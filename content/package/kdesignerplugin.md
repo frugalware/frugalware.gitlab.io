@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kdesignerplugin 5.109.0-1"
-version = "5.109.0-1"
+title = "kdesignerplugin 5.110.0-1"
+version = "5.110.0-1"
+date = "2023-09-11T09:41:09"
 categories = ['kf5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "82384"
+size = "82396"
 usize = "183320"
-sha1sum = "3cf97e5e8a10bf194310c6ba1cc4886efe28948d"
-depends = "['kplotting>=5.109.0', 'kcoreaddons>=5.109.0', 'kconfig>=5.109.0', 'kio>=5.109.0', 'kiconthemes>=5.109.0', 'kxmlgui>=5.109.0']"
+sha1sum = "a4c823ee347df1a250076a8af95f8f7de7ef3f50"
+depends = "['kplotting>=5.110.0', 'kcoreaddons>=5.110.0', 'kconfig>=5.110.0', 'kio>=5.110.0', 'kiconthemes>=5.110.0', 'kxmlgui>=5.110.0']"
 +++
 Integrating KDE frameworks widgets with Qt Designer.

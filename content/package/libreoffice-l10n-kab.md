@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-kab 7.5.5.2-2"
-version = "7.5.5.2-2"
+title = "libreoffice-l10n-kab 7.5.5.2-3"
+version = "7.5.5.2-3"
+date = "2023-09-07T14:35:51"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "452596"
+size = "451988"
 usize = "2331953"
-sha1sum = "19a875dd43bab10d3ac5a1b4e10bc8dde95bbb16"
+sha1sum = "b420d834d6dd10fd0f0b34e2b39bedb73c516a8c"
 depends = "['libreoffice>=7.5.5.2']"
 +++
 Installs Kabyle support in LibreOffice

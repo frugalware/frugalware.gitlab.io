@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "extra-cmake-modules 5.109.0-1"
-version = "5.109.0-1"
+title = "extra-cmake-modules 5.110.0-1"
+version = "5.110.0-1"
+date = "2023-09-11T07:16:52"
 categories = ['kf5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "276248"
-usize = "1776953"
-sha1sum = "6773d53a655aef81fcf3b889415a0a5d9dde0df0"
+size = "276264"
+usize = "1776355"
+sha1sum = "cbf627ad1f68aefd54a011fc88c30e35e3c9c1f3"
 depends = "[]"
 +++
 Extra CMake modules.

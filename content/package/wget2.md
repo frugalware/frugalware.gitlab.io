@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "wget2 2.0.1-5"
-version = "2.0.1-5"
+title = "wget2 2.1.0-1"
+version = "2.1.0-1"
+date = "2023-09-07T17:42:01"
 categories = ['network']
+upstreamurl = "https://gitlab.com/gnuwget/wget2"
 arch = "x86_64"
-size = "438444"
-usize = "2130320"
-sha1sum = "075cbf07e2f4f9afc988be3e36d2e2a68ea7fe38"
+size = "452268"
+usize = "2183357"
+sha1sum = "ba5b92525fcacc7a8ceebbda7904f3626b607211"
 depends = "['zstd', 'brotli', 'nghttp2', 'libpsl', 'openssl', 'pcre2', 'gpgme']"
 +++
 A network utility to retrieve files from the Web

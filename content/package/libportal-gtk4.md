@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libportal-gtk4 0.6-3"
-version = "0.6-3"
+title = "libportal-gtk4 0.7.1-1"
+version = "0.7.1-1"
+date = "2023-09-11T14:01:03"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/flatpak/libportal"
 arch = "x86_64"
-size = "8012"
-usize = "38147"
-sha1sum = "dc0b88e38dd6b284f1a017c88f1aa969be49056e"
+size = "8156"
+usize = "38149"
+sha1sum = "cb662538b0ee3dda24dfa3fdb34d8e05d4e885bb"
 depends = "['gtk+4', 'libportal']"
 +++
 libportal gtk+4 backend

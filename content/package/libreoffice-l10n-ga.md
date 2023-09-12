@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-ga 7.5.5.2-2"
-version = "7.5.5.2-2"
+title = "libreoffice-l10n-ga 7.5.5.2-3"
+version = "7.5.5.2-3"
+date = "2023-09-07T14:35:51"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "510148"
+size = "510420"
 usize = "2675891"
-sha1sum = "13a03d0402ca1d395b52178ed63ead3db884d6fd"
+sha1sum = "bef7d0be5d03ba62c2b96d7a5c94df548844abe3"
 depends = "['libreoffice>=7.5.5.2']"
 +++
 Installs Irish support in LibreOffice

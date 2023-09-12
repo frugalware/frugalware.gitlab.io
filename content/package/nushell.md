@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "nushell 0.76.0-2"
-version = "0.76.0-2"
+title = "nushell 0.84.0-1"
+version = "0.84.0-1"
+date = "2023-09-08T13:27:46"
 categories = ['apps-extra']
+upstreamurl = "https://www.nushell.sh"
 arch = "x86_64"
-size = "12471480"
-usize = "61690783"
-sha1sum = "4ea99bea9f88815fb54d7eb6c67f7ab4abeab8a4"
+size = "13948448"
+usize = "73110773"
+sha1sum = "7f551db87b6822a94af9d2fc67efb31cfd504694"
 depends = "['openssl>=3.1.0', 'libxcb', 'libx11', 'curl', 'bzip2']"
 +++
 A new type of shell

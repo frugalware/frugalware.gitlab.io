@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "ktextwidgets 5.109.0-1"
-version = "5.109.0-1"
+title = "ktextwidgets 5.110.0-2"
+version = "5.110.0-2"
+date = "2023-09-11T11:58:12"
 categories = ['kf5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "270856"
-usize = "1475573"
-sha1sum = "9020197bfcd681ea1dc27902d6e1ebb3ac60b93d"
-depends = "['kcompletion>=5.109.0', 'kiconthemes>=5.109.0', 'sonnet>=5.109.0', 'kservice>=5.109.0']"
+size = "271280"
+usize = "1479687"
+sha1sum = "024119d8d92c9cfd7509ca4fd7e4e8fb469e361e"
+depends = "['kcompletion>=5.110.0', 'kiconthemes>=5.110.0', 'sonnet>=5.110.0', 'kservice>=5.110.0', 'qt5-speech>=5.15.10']"
 +++
 KDE Text editing widgets.

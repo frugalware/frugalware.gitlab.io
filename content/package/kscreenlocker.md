@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kscreenlocker 5.27.7-2"
-version = "5.27.7-2"
+title = "kscreenlocker 5.27.7-3"
+version = "5.27.7-3"
+date = "2023-09-11T12:44:16"
 categories = ['plasma']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "180188"
+size = "180288"
 usize = "792086"
-sha1sum = "33b1a89b5ab91b93b61299dc8e72e216353c7c19"
+sha1sum = "f792920e767e8e35ea13e1a784c53d1ed1663a09"
 depends = "['kidletime>=', 'kscreen5>=5.27.7', 'layer-shell-qt>=5.27.7', 'libseccomp', 'systemd']"
 +++
 KDE Screenlocker

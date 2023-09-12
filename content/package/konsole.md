@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "konsole 23.08.0-1"
-version = "23.08.0-1"
+title = "konsole 23.08.0-2"
+version = "23.08.0-2"
+date = "2023-09-11T15:07:46"
 categories = ['kde5', 'kde5-apps']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1746204"
-usize = "8373535"
-sha1sum = "a76c5ed615e54d70413834814bf55dd08ef4174c"
-depends = "['kparts>=5.109.0', 'kinit>=5.109.0', 'knotifyconfig>=5.109.0', 'kpty>=5.109.0', 'knewstuff>=5.109.0']"
+size = "1745856"
+usize = "8373461"
+sha1sum = "eb4559ef9334a9b3f81fbd2941f493169724dd08"
+depends = "['kparts>=5.110.0', 'kinit>=5.110.0', 'knotifyconfig>=5.110.0', 'kpty>=5.110.0', 'knewstuff>=5.110.0']"
 +++
 KDE Terminal emulator.

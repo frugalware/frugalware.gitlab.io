@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kamoso 23.08.0-1"
-version = "23.08.0-1"
+title = "kamoso 23.08.0-2"
+version = "23.08.0-2"
+date = "2023-09-11T18:11:22"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "272560"
-usize = "748855"
-sha1sum = "4edd3cb6fc3de14eb73a81c490f3fd0878049f42"
-depends = "['kconfig>=5.109.0', 'kio>=5.109.0', 'ki18n>=5.109.0', 'purpose>=5.109.0', 'gst1-plugins-base', 'solid', 'phonon-qt5', 'gst1-plugins-good-jpeg', 'gst1-plugins-base-ogg', 'frei0r-plugins', 'gst1-plugins-good-video4linux2']"
+size = "272160"
+usize = "748845"
+sha1sum = "5233bc7063c22cc1a55155a15454c3b7b01adc40"
+depends = "['kconfig>=5.110.0', 'kio>=5.110.0', 'ki18n>=5.110.0', 'purpose>=5.110.0', 'gst1-plugins-base', 'solid', 'phonon-qt5', 'gst1-plugins-good-jpeg', 'gst1-plugins-base-ogg', 'frei0r-plugins', 'gst1-plugins-good-video4linux2']"
 +++
 Kamoso is an application to take pictures and videos out of your webcam.

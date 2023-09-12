@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "calendarsupport 23.08.0-1"
-version = "23.08.0-1"
+title = "calendarsupport 23.08.0-2"
+version = "23.08.0-2"
+date = "2023-09-11T17:16:55"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "548852"
+size = "548800"
 usize = "3466737"
-sha1sum = "45ed1d491cbba0b5364b95a8c07b9abeaadd3843"
-depends = "['akonadi-calendar>=23.08.0', 'akonadi>=23.08.0', 'kholidays>=5.109.0', 'akonadi-notes>=23.08.0', 'pimcommon>=23.08.0']"
+sha1sum = "712e1a84054d62ef5c571e7d232cbe44bacedc01"
+depends = "['akonadi-calendar>=23.08.0', 'akonadi>=23.08.0', 'kholidays>=5.110.0', 'akonadi-notes>=23.08.0', 'pimcommon>=23.08.0']"
 +++
 This lib provides calendar support

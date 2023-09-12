@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "gulp 4.0.2-3"
-version = "4.0.2-3"
+title = "gulp 4.0.2-4"
+version = "4.0.2-4"
+date = "2023-09-11T16:25:17"
 categories = ['devel-extra']
+upstreamurl = "https://gulpjs.com/"
 arch = "x86_64"
-size = "1286076"
-usize = "7624832"
-sha1sum = "1e387ef29b349637ea84a87e562ef0bf6d774645"
-depends = "['nodejs16']"
+size = "1289060"
+usize = "7509867"
+sha1sum = "21533822b1c8b35fc7a3818d978628f75322cddd"
+depends = "['nodejs']"
 +++
 The streaming build system

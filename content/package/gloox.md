@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "gloox 1.0.24-2"
-version = "1.0.24-2"
+title = "gloox 1.0.27-1"
+version = "1.0.27-1"
+date = "2023-09-11T13:58:04"
 categories = ['lib-extra']
+upstreamurl = "https://camaya.net/gloox/"
 arch = "x86_64"
-size = "516640"
-usize = "2242999"
-sha1sum = "28d11272c6cce17a4f1e115e79e7540335e983ec"
+size = "507288"
+usize = "2182918"
+sha1sum = "65868ff9db7ee774caf73058362aa433fb5b95cb"
 depends = "['libidn>=1.35', 'gnutls>=3.4.8']"
 +++
 A stable, extensible C++ library for the development of XMPP clients and components.

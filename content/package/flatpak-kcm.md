@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "flatpak-kcm 5.27.7-2"
-version = "5.27.7-2"
+title = "flatpak-kcm 5.27.7-3"
+version = "5.27.7-3"
+date = "2023-09-11T13:49:40"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "75600"
+size = "76020"
 usize = "306422"
-sha1sum = "ee744b2f8819950607d8fa3939b75c46d8220b68"
+sha1sum = "baeba63b7eeb3ee24be447269e4358ff8757e58d"
 depends = "['flatpak', 'systemsettings5>=5.27.7']"
 +++
 Flatpak Permissions Management KCM

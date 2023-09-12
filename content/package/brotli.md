@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "brotli 1.0.9-5"
-version = "1.0.9-5"
+title = "brotli 1.1.0-1"
+version = "1.1.0-1"
+date = "2023-09-07T12:20:27"
 categories = ['lib', 'chroot-core']
+upstreamurl = "https://github.com/google/brotli"
 arch = "x86_64"
-size = "298432"
-usize = "1587098"
-sha1sum = "4ebc048083dfb5e9c0070fe9cf0071a04191e672"
+size = "308508"
+usize = "928979"
+sha1sum = "d21657ce107997b9cd2110c2b2bb809606697ebf"
 depends = "['glibc>=2.34']"
 +++
 Brotli compression library

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "purpose 5.109.0-1"
-version = "5.109.0-1"
+title = "purpose 5.110.0-1"
+version = "5.110.0-1"
+date = "2023-09-11T09:39:31"
 categories = ['kf5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "272040"
+size = "272296"
 usize = "1592702"
-sha1sum = "bbf957ec1154c66d216d033f1e532491dffbf0bc"
-depends = "['kio>=5.109.0', 'accounts-qml-module', 'kcoreaddons>=5.109.0', 'kconfig>=5.109.0', 'ki18n>=5.109.0', 'kdeclarative>=5.109.0', 'kirigami2>=5.109.0']"
+sha1sum = "836f70cb9e6049203b1aaca98f83f18aaec41ce8"
+depends = "['kio>=5.110.0', 'accounts-qml-module', 'kcoreaddons>=5.110.0', 'kconfig>=5.110.0', 'ki18n>=5.110.0', 'kdeclarative>=5.110.0', 'kirigami2>=5.110.0']"
 +++
 Offers the possibility to create integrate services and actions on any application.

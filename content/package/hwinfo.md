@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "hwinfo 22.2-1"
-version = "22.2-1"
+title = "hwinfo 23.2-1"
+version = "23.2-1"
+date = "2023-09-08T08:47:12"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/openSUSE/hwinfo"
 arch = "x86_64"
-size = "868120"
-usize = "3856393"
-sha1sum = "eb3b42a14e5e41e54f2d236d26b454a40c2f573a"
+size = "875188"
+usize = "3876887"
+sha1sum = "61b56048ff7fb80648c198f04868cc795bb9ec63"
 depends = "['libx86emu', 'perl-xml-parser', 'perl-xml-writer']"
 +++
 Hardware detection tool from openSUSE

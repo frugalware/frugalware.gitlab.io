@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kdesdk-thumbnailers 23.08.0-1"
-version = "23.08.0-1"
+title = "kdesdk-thumbnailers 23.08.0-2"
+version = "23.08.0-2"
+date = "2023-09-11T14:53:09"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "18468"
+size = "18524"
 usize = "62447"
-sha1sum = "c8d445477147d41bf7c4516aeb8b44ffc0f1d18f"
-depends = "['kio>=5.109.0', 'gettext', 'qt5-svg>=5.15.10']"
+sha1sum = "58310f164bb1789ee6ea0de7f542f2a08d0f4eef"
+depends = "['kio>=5.110.0', 'gettext', 'qt5-svg>=5.15.10']"
 +++
 Thumnailers Creators for KDE SDK.

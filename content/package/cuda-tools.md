@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "cuda-tools 12.2.0-1"
-version = "12.2.0-1"
+title = "cuda-tools 12.2.2-1"
+version = "12.2.2-1"
+date = "2023-09-07T18:25:44"
 categories = ['devel-extra']
+upstreamurl = "https://developer.nvidia.com/cuda-zone"
 arch = "x86_64"
-size = "835160472"
-usize = "2075337724"
-sha1sum = "1446f837337c4155e0f9f7e065a947191a88efe0"
+size = "836012908"
+usize = "2075406705"
+sha1sum = "36e85262d8e589779a508317ae818ca394a7eb6e"
 depends = "['openucx', 'libjpeg6-turbo', 'cuda']"
 +++
 NVIDIA GPU programming toolkit extra tools: nvvp, nsight

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "suitesparse 7.0.1-2"
-version = "7.0.1-2"
+title = "suitesparse 7.1.0-1"
+version = "7.1.0-1"
+date = "2023-09-11T13:33:06"
 categories = ['lib-extra']
+upstreamurl = "http://faculty.cse.tamu.edu/davis/suitesparse.html"
 arch = "x86_64"
-size = "35654244"
-usize = "191193427"
-sha1sum = "1bbe35c10f63329ff187fd401359ccf9ce0a77cd"
+size = "37978452"
+usize = "199657502"
+sha1sum = "af291bbe14e754781226d643a48f50a1b06727f3"
 depends = "['lapack', 'libgomp', 'libstdc++>=11.2']"
 +++
 A collection of sparse matrix libraries

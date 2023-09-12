@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "plank-player 5.27.7-2"
-version = "5.27.7-2"
+title = "plank-player 5.27.7-3"
+version = "5.27.7-3"
+date = "2023-09-11T13:41:21"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "154764"
+size = "154784"
 usize = "196837"
-sha1sum = "23b23eb56207c8bc40b64aee1a50f433ba3e803c"
-depends = "['ki18n>=5.109.0', 'kirigami2>=5.109.0', 'qt5-graphicaleffects>=5.15.10', 'qt5-multimedia>=5.15.10']"
+sha1sum = "7d0e01d2f10f07bdd1544952d3df0ae7e25c43a5"
+depends = "['ki18n>=5.110.0', 'kirigami2>=5.110.0', 'qt5-graphicaleffects>=5.15.10', 'qt5-multimedia>=5.15.10']"
 +++
 Multimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote control

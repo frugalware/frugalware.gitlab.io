@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "plasma-welcome 5.27.7-2"
-version = "5.27.7-2"
+title = "plasma-welcome 5.27.7-3"
+version = "5.27.7-3"
+date = "2023-09-11T13:51:12"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "816676"
+size = "816780"
 usize = "1391329"
-sha1sum = "9ef48948ddeae8c8b989ef4143b3f8d7e0dd65e8"
-depends = "['kaccounts-integration>=23.04.3', 'kuserfeedback', 'kirigami2>=5.109.0', 'plasma-framework>=5.109.0', 'knewstuff>=5.109.0']"
+sha1sum = "96bcd0365b71ef5c6cbd153cce8480788d09abee"
+depends = "['kaccounts-integration>=23.08.0', 'kuserfeedback', 'kirigami2>=5.110.0', 'plasma-framework>=5.110.0', 'knewstuff>=5.110.0']"
 +++
 A friendly onboarding wizard for Plasma

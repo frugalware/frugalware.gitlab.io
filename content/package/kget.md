@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kget 23.08.0-1"
-version = "23.08.0-1"
+title = "kget 23.08.0-2"
+version = "23.08.0-2"
+date = "2023-09-11T18:18:52"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5831664"
-usize = "11509927"
-sha1sum = "078e28ccf591dae5fb48210b1f1bc46ea143643c"
-depends = "['kdelibs4support>=5.109.0', 'libqgpgme', 'libktorrent', 'libmms', 'kcmutils>=5.109.0', 'knotifyconfig>=5.109.0', 'plasma-workspace>=5.27.7']"
+size = "5830928"
+usize = "11509933"
+sha1sum = "7ac5717e26252768b750c4f41d3b1789262c8b02"
+depends = "['kdelibs4support>=5.110.0', 'libqgpgme', 'libktorrent', 'libmms', 'kcmutils>=5.110.0', 'knotifyconfig>=5.110.0', 'plasma-workspace>=5.27.7']"
 +++
 A free download manager for KDE.

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libksieve 23.08.0-1"
-version = "23.08.0-1"
+title = "libksieve 23.08.0-2"
+version = "23.08.0-2"
+date = "2023-09-11T17:36:27"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "676432"
+size = "676324"
 usize = "3732051"
-sha1sum = "e3a8a9df25e8a400aae586fa1093dc7e43bf967d"
+sha1sum = "9694681fa3cf024bb2fcd7174727fe2c3d646fe6"
 depends = "['pimcommon>=23.08.0', 'kidentitymanagement>=23.08.0', 'akonadi>=23.08.0', 'kmailtransport>=23.08.0']"
 +++
 This lib manages sieve support

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kdeplasma-addons5 5.27.7-2"
-version = "5.27.7-2"
+title = "kdeplasma-addons5 5.27.7-3"
+version = "5.27.7-3"
+date = "2023-09-11T13:34:26"
 categories = ['plasma']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "893696"
-usize = "6190136"
-sha1sum = "d9992ff6d7148220fbfe2b500a757f5bd4ae5d48"
-depends = "['icu4c>=73.1', 'kactivities5>=5.109.0', 'kconfig>=5.109.0', 'kconfigwidgets>=5.109.0', 'kcoreaddons>=5.109.0', 'ki18n>=5.109.0', 'kio>=5.109.0', 'kcmutils>=5.109.0', 'plasma-workspace>=5.27.7', 'krunner5>=5.109.0', 'kservice>=5.109.0', 'kunitconversion>=5.109.0', 'kdelibs4support>=5.109.0', 'purpose>=5.109.0', 'knewstuff>=5.109.0', 'kross>=5.109.0', 'qt5-x11extras>=5.15.10']"
+size = "893488"
+usize = "6190156"
+sha1sum = "7ecf1023f7c128e973560899471fc50dcc778824"
+depends = "['icu4c>=73.1', 'kactivities5>=5.110.0', 'kconfig>=5.110.0', 'kconfigwidgets>=5.110.0', 'kcoreaddons>=5.110.0', 'ki18n>=5.110.0', 'kio>=5.110.0', 'kcmutils>=5.110.0', 'plasma-workspace>=5.27.7', 'krunner5>=5.110.0', 'kservice>=5.110.0', 'kunitconversion>=5.110.0', 'kdelibs4support>=5.110.0', 'purpose>=5.110.0', 'knewstuff>=5.110.0', 'kross>=5.110.0', 'qt5-x11extras>=5.15.10']"
 +++
 Plasma AddOns

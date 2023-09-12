@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-om 7.5.5.2-2"
-version = "7.5.5.2-2"
+title = "libreoffice-l10n-om 7.5.5.2-3"
+version = "7.5.5.2-3"
+date = "2023-09-07T14:35:51"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4263608"
+size = "4262788"
 usize = "32266928"
-sha1sum = "8e4e5e5146a43fefe4ec1fc2fc4293df6c7addc5"
+sha1sum = "89f871354294974ebafa062feb25fbd09a94ab0d"
 depends = "['libreoffice>=7.5.5.2']"
 +++
 Installs Oromo support in LibreOffice

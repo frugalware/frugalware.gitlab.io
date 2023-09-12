@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-fy 7.5.5.2-2"
-version = "7.5.5.2-2"
+title = "libreoffice-l10n-fy 7.5.5.2-3"
+version = "7.5.5.2-3"
+date = "2023-09-07T14:35:51"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "658604"
+size = "657404"
 usize = "3388580"
-sha1sum = "618eab7b66a1ac2b3b44a4399d06fbb71e193640"
+sha1sum = "713bdd90353b26bda57ce62b71a93815dbca4cf1"
 depends = "['libreoffice>=7.5.5.2']"
 +++
 Installs Frisian support in LibreOffice

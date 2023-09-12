@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kitinerary 23.08.0-1"
-version = "23.08.0-1"
+title = "kitinerary 23.08.0-3"
+version = "23.08.0-3"
+date = "2023-09-11T18:59:04"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1264464"
+size = "1262600"
 usize = "3451051"
-sha1sum = "e7286d3607fb484fc54959dd92047a8c73383266"
-depends = "['ki18n>=5.109.0', 'kmime>=5.109.0', 'kpkpass>=23.08.0', 'zxing-cpp', 'kcalendarcore>=5.109.0', 'kcontacts>=5.109.0', 'poppler>=23.07.0']"
+sha1sum = "612b184c365ab58101591e9eb11cecb1adf2c240"
+depends = "['ki18n>=5.110.0', 'kmime>=5.110.0', 'kpkpass>=23.08.0', 'zxing-cpp', 'kcalendarcore>=5.110.0', 'kcontacts>=5.110.0', 'poppler>=23.09.0']"
 +++
 Data model and extraction system for travel reservation information

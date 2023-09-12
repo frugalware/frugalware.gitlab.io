@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kde-inotify-survey 23.08.0-1"
-version = "23.08.0-1"
+title = "kde-inotify-survey 23.08.0-2"
+version = "23.08.0-2"
+date = "2023-09-11T19:50:52"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "47076"
+size = "47208"
 usize = "229754"
-sha1sum = "3f27f0eca25ba969593e9b8d1fcd92f7ac89c084"
+sha1sum = "6f70b58bd73a9700a6db564cb03039827ec907ea"
 depends = "['knotifications']"
 +++
 Tooling for monitoring inotify limits and informing the user when they have been or about to be reached

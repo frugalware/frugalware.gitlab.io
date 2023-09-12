@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "transmission-qt 4.0.3-2"
-version = "4.0.3-2"
+title = "transmission-qt 4.0.4-1"
+version = "4.0.4-1"
+date = "2023-09-08T12:04:11"
 categories = ['xapps-extra']
+upstreamurl = "https://transmissionbt.com"
 arch = "x86_64"
-size = "908980"
-usize = "2625518"
-sha1sum = "c4db1252d313d9eccefc9dc1de08dd9d65365f52"
-depends = "['qt5-base>=5.15.10', 'qt5-qdbus>=5.15.10', 'qt5-svg', 'openssl>=1.1.1', 'transmission-cli>=4.0.3']"
+size = "922104"
+usize = "2682854"
+sha1sum = "1b3884fbb8cd45a0dafecd5d7ac459cdca500649"
+depends = "['qt5-base>=5.15.10', 'qt5-qdbus>=5.15.10', 'qt5-svg', 'openssl>=1.1.1', 'transmission-cli>=4.0.4']"
 +++
 Qt5 based gui for transmission.

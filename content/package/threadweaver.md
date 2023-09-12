@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "threadweaver 5.109.0-1"
-version = "5.109.0-1"
+title = "threadweaver 5.110.0-1"
+version = "5.110.0-1"
+date = "2023-09-11T07:35:37"
 categories = ['kf5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "75784"
+size = "75760"
 usize = "283015"
-sha1sum = "ba48307fd7000c5cc461e3e6f31da9ce535d85d2"
+sha1sum = "fd9af455535723093c1e1523c353097ab9e65ad4"
 depends = "['qt5-base>=5.15.10']"
 +++
 KDE Helper for multithreaded programming.

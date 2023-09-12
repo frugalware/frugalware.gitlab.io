@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kopete 23.08.0-1"
-version = "23.08.0-1"
+title = "kopete 23.08.0-2"
+version = "23.08.0-2"
+date = "2023-09-11T18:45:39"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "8986112"
-usize = "35045141"
-sha1sum = "2707b717a4d04332a4f3e31c67ca14a568b63be7"
-depends = "['kconfig>=5.109.0', 'kcoreaddons>=5.109.0', 'kcrash>=5.109.0', 'kdbusaddons>=5.109.0', 'kemoticons>=5.109.0', 'ki18n>=5.109.0', 'kcmutils>=5.109.0', 'khtml>=5.109.0', 'knotifyconfig>=5.109.0', 'kparts>=5.109.0', 'ktexteditor>=5.109.0', 'kwallet5>=5.109.0', 'kdelibs4support>=5.109.0', 'kcontacts>=5.109.0', 'kdnssd>=5.109.0', 'kidentitymanagement>=23.08.0', 'libkleo>=23.08.0', 'qca', 'jsoncpp', 'libgadu', 'libidn>=1.35', 'libotr', 'libsrtp', 'meanwhile']"
+size = "8990332"
+usize = "35045536"
+sha1sum = "3c03b996f55752beb96deffc488bd69c1beb49e7"
+depends = "['kconfig>=5.110.0', 'kcoreaddons>=5.110.0', 'kcrash>=5.110.0', 'kdbusaddons>=5.110.0', 'kemoticons>=5.110.0', 'ki18n>=5.110.0', 'kcmutils>=5.110.0', 'khtml>=5.110.0', 'knotifyconfig>=5.110.0', 'kparts>=5.110.0', 'ktexteditor>=5.110.0', 'kwallet5>=5.110.0', 'kdelibs4support>=5.110.0', 'kcontacts>=5.110.0', 'kdnssd>=5.110.0', 'kidentitymanagement>=23.08.0', 'libkleo>=23.08.0', 'qca', 'jsoncpp', 'libgadu', 'libidn>=1.35', 'libotr', 'libsrtp', 'meanwhile']"
 +++
 Kopete is a multi-protocol instant messenger for the KDE Desktop.

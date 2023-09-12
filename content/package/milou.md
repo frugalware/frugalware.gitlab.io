@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "milou 5.27.7-2"
-version = "5.27.7-2"
+title = "milou 5.27.7-3"
+version = "5.27.7-3"
+date = "2023-09-11T12:33:08"
 categories = ['plasma']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "69136"
+size = "69180"
 usize = "305999"
-sha1sum = "7efa9a5e10673d6c0d3c70036d78a5e6310b01ea"
-depends = "['krunner5>=5.109.0', 'kitemmodels>=5.109.0']"
+sha1sum = "c72e3e837642e0cdb13862f0ec190ea1415d88d0"
+depends = "['krunner5>=5.110.0', 'kitemmodels>=5.110.0']"
 +++
 A dedicated search application built on top of Baloo.

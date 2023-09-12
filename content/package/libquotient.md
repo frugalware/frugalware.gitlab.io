@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libquotient 0.7.2-2"
-version = "0.7.2-2"
+title = "libquotient 0.8.1.1-1"
+version = "0.8.1.1-1"
+date = "2023-09-11T13:37:49"
 categories = ['lib-extra']
+upstreamurl = "https://matrix.org/docs/projects/sdk/quotient"
 arch = "x86_64"
-size = "525516"
-usize = "2149493"
-sha1sum = "9df9d8531a2ce87d43ae0fa0231f3a401dc17966"
+size = "543324"
+usize = "2293504"
+sha1sum = "76ab2efdf8aa856b795affdc4f18203eefed5a4f"
 depends = "['qt5-multimedia>=5.15.10', 'qtkeychain']"
 +++
 A Qt library to write cross-platform clients for Matrix

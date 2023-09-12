@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "transmission-cli 4.0.3-2"
-version = "4.0.3-2"
+title = "transmission-cli 4.0.4-1"
+version = "4.0.4-1"
+date = "2023-09-08T12:04:11"
 categories = ['apps-extra']
+upstreamurl = "https://transmissionbt.com"
 arch = "x86_64"
-size = "1324532"
-usize = "6447452"
-sha1sum = "4bcccdc19681e4f3db0fdd1ad0cc1b5f312ce59f"
+size = "1331684"
+usize = "6519494"
+sha1sum = "f26411902f8f590a79afa3320eea37a9a5e734d8"
 depends = "['curl>=7.26.0', 'libevent>=2.1.11', 'miniupnpc>=2.1', 'openssl>=3.1.0', 'libb64']"
 +++
 A free, lightweight BitTorrent Client. (CLI based)

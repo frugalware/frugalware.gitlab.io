@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-nn 7.5.5.2-2"
-version = "7.5.5.2-2"
+title = "libreoffice-l10n-nn 7.5.5.2-3"
+version = "7.5.5.2-3"
+date = "2023-09-07T14:35:51"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4554284"
+size = "4554140"
 usize = "34244500"
-sha1sum = "c6ff6dd3c6b66375a66228b06aac6b3d49b24906"
+sha1sum = "353ae31c260044de099aa058bf8c9a0f0ec5bb86"
 depends = "['libreoffice>=7.5.5.2']"
 +++
 Installs Norwegian (Nynorsk) support in LibreOffice

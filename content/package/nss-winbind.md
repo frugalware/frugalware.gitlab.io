@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "nss-winbind 4.18.6-1"
-version = "4.18.6-1"
+title = "nss-winbind 4.19.0-1"
+version = "4.19.0-1"
+date = "2023-09-07T14:12:41"
 categories = ['network']
+upstreamurl = "http://www.samba.org"
 arch = "x86_64"
-size = "41368"
+size = "41532"
 usize = "93880"
-sha1sum = "89768a7cf6b2cef9f3f593f3783e0cc115bf8b80"
+sha1sum = "cf212654281cca7df0558d5a6a168212cef4601d"
 depends = "['glibc>=2.24-4']"
 +++
 Winbind Lookup Support for NSS.

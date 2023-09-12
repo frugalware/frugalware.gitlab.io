@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kglobalaccel 5.109.0-1"
-version = "5.109.0-1"
+title = "kglobalaccel 5.110.0-1"
+version = "5.110.0-1"
+date = "2023-09-11T08:40:38"
 categories = ['kf5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "119456"
+size = "119260"
 usize = "471190"
-sha1sum = "3f426d3aba38043bc1b1615ab9883bdf12b1e80a"
-depends = "['kservice>=5.109.0']"
+sha1sum = "fdf6f2294d85dcf0c70c14a50839febb54097353"
+depends = "['kservice>=5.110.0']"
 +++
 Global desktop keyboard shortcuts.

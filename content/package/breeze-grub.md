@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "breeze-grub 5.27.7-2"
-version = "5.27.7-2"
+title = "breeze-grub 5.27.7-3"
+version = "5.27.7-3"
+date = "2023-09-11T12:16:34"
 categories = ['plasma']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3140016"
+size = "3144184"
 usize = "13292029"
-sha1sum = "741b5a21e8dbd608e1551ea5df8dfc33200c3114"
+sha1sum = "e1c80622bf97f326ee5278573bf466b1511f3947"
 depends = "['grub2']"
 +++
 Breeze theme for GRUB

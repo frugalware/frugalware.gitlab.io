@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "clightd 5.7-1"
-version = "5.7-1"
+title = "clightd 5.8-1"
+version = "5.8-1"
+date = "2023-09-08T13:17:52"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/FedeDP/clightd"
 arch = "x86_64"
-size = "33956"
-usize = "108801"
-sha1sum = "e9c78104a934f5ef36147b20d4f1e48cd0308af7"
+size = "34884"
+usize = "109440"
+sha1sum = "46be7605cb0879d7461daa7cdf50d94b982cc2c2"
 depends = "['libsystemd', 'libx11', 'libxrandr', 'libxext', 'polkit', 'libjpeg-turbo', 'libusb', 'libdrm', 'wayland', 'libmodule']"
 +++
 Bus interface to change screen brightness and capture frames from webcam.

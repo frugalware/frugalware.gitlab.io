@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-th 7.5.5.2-2"
-version = "7.5.5.2-2"
+title = "libreoffice-l10n-th 7.5.5.2-3"
+version = "7.5.5.2-3"
+date = "2023-09-07T14:35:51"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "625864"
+size = "626072"
 usize = "4247292"
-sha1sum = "21cc84aac5f30d360c1851c76ef56085c2a239b2"
+sha1sum = "467604d976de450b822f539907143b3a271ba29c"
 depends = "['libreoffice>=7.5.5.2']"
 +++
 Installs Thai support in LibreOffice

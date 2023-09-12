@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-sr 7.5.5.2-2"
-version = "7.5.5.2-2"
+title = "libreoffice-l10n-sr 7.5.5.2-3"
+version = "7.5.5.2-3"
+date = "2023-09-07T14:35:51"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "521720"
+size = "521684"
 usize = "3113807"
-sha1sum = "464871e3d99eaf2b40eabef29aef9f1a64254119"
+sha1sum = "ff0da743b3ad414adfaa33b9dcef90b87f5938d6"
 depends = "['libreoffice>=7.5.5.2']"
 +++
 Installs Serbian (Cyrillic) support in LibreOffice

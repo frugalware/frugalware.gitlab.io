@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "gitk 2.41.0-1"
-version = "2.41.0-1"
+title = "gitk 2.42.0-1"
+version = "2.42.0-1"
+date = "2023-09-12T08:29:47"
 categories = ['xapps-extra']
+upstreamurl = "http://git-scm.com/"
 arch = "x86_64"
-size = "100956"
+size = "100948"
 usize = "434090"
-sha1sum = "9da351fef83d685debf1a58609428eae5df6d402"
-depends = "['tk', 'git>=2.41.0']"
+sha1sum = "9fb3a9d7777483062d6236587497f1f1cee19c28"
+depends = "['tk', 'git>=2.42.0']"
 +++
 Git revision tree visualiser.

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "plasma-vault 5.27.7-2"
-version = "5.27.7-2"
+title = "plasma-vault 5.27.7-3"
+version = "5.27.7-3"
+date = "2023-09-11T13:27:54"
 categories = ['plasma']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "283320"
+size = "283488"
 usize = "1395459"
-sha1sum = "e46d9d5547557bc178a0c2f06157e6bc1eab002e"
-depends = "['networkmanager-qt>=5.109.0', 'libksysguard5>=5.27.7', 'plasma-framework>=5.109.0', 'encfs', 'cryfs']"
+sha1sum = "e8272151f0e563f7a5c1351e74a70b5d7628ac7a"
+depends = "['networkmanager-qt>=5.110.0', 'libksysguard5>=5.27.7', 'plasma-framework>=5.110.0', 'encfs', 'cryfs']"
 +++
 Plasma applet and services for creating encrypted vaults

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-ne 7.5.5.2-2"
-version = "7.5.5.2-2"
+title = "libreoffice-l10n-ne 7.5.5.2-3"
+version = "7.5.5.2-3"
+date = "2023-09-07T14:35:51"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4653284"
+size = "4653676"
 usize = "39195624"
-sha1sum = "3f4764ed19845d8f38115f85d4bd9d6b904ae70f"
+sha1sum = "95c110bf1b42fde75027a71b14d054a0dc12594a"
 depends = "['libreoffice>=7.5.5.2']"
 +++
 Installs Nepali support in LibreOffice

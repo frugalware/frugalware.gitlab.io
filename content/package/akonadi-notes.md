@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "akonadi-notes 23.08.0-1"
-version = "23.08.0-1"
+title = "akonadi-notes 23.08.0-2"
+version = "23.08.0-2"
+date = "2023-09-11T16:59:49"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "32808"
+size = "32996"
 usize = "114916"
-sha1sum = "715ae4ed05f29413e746202599b7b112c491706e"
-depends = "['ki18n>=5.109.0', 'kmime>=23.08.0', 'kdelibs4support>=5.109.0', 'akonadi>=23.08.0']"
+sha1sum = "27909c2c27618ffee7ab4f9998486b364e9a0e69"
+depends = "['ki18n>=5.110.0', 'kmime>=23.08.0', 'kdelibs4support>=5.110.0', 'akonadi>=23.08.0']"
 +++
 Libraries and daemons to implement searching in Akonad

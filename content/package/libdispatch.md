@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libdispatch 5.7.1-1"
-version = "5.7.1-1"
+title = "libdispatch 5.5-1"
+version = "5.5-1"
+date = "2023-09-11T12:47:56"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/apple/swift-corelibs-libdispatch"
 arch = "x86_64"
-size = "745120"
-usize = "1242156"
-sha1sum = "786af3c84e91066faa3937d8fc496b083b94e7a6"
+size = "743144"
+usize = "1231110"
+sha1sum = "b6ffc7ded2f4ae9e61f8674fe7e3018f201609e9"
 depends = "['glibc']"
 +++
 Comprehensive support for concurrent code execution on multicore hardware
