@@ -2,9 +2,7 @@
 draft = false
 title = "vscode 1.82.0-1"
 version = "1.82.0-1"
-date = "2023-09-11T17:12:46"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/microsoft/vscode"
 arch = "x86_64"
 size = "85784600"
 usize = "340867862"
