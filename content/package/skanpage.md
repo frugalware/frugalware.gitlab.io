@@ -2,9 +2,7 @@
 draft = false
 title = "skanpage 23.08.0-2"
 version = "23.08.0-2"
-date = "2023-09-11T20:06:58"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "174200"
 usize = "850907"

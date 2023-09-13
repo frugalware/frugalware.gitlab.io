@@ -2,9 +2,7 @@
 draft = false
 title = "intel-gpu-tools 1.27.1-1"
 version = "1.27.1-1"
-date = "2023-08-23T14:59:02"
 categories = ['x11', 'xorg-core', 'xorg-apps']
-upstreamurl = "https://gitlab.freedesktop.org/drm/igt-gpu-tools"
 arch = "x86_64"
 size = "3576584"
 usize = "19984105"

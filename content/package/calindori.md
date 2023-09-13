@@ -2,9 +2,7 @@
 draft = false
 title = "calindori 23.08.0-2"
 version = "23.08.0-2"
-date = "2023-09-11T19:41:31"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "268320"
 usize = "1363609"

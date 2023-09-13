@@ -2,9 +2,7 @@
 draft = false
 title = "analitza 23.08.0-2"
 version = "23.08.0-2"
-date = "2023-09-11T14:38:02"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "491768"
 usize = "2449453"

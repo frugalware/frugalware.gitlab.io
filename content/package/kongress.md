@@ -2,9 +2,7 @@
 draft = false
 title = "kongress 23.08.0-2"
 version = "23.08.0-2"
-date = "2023-09-11T19:57:24"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "103408"
 usize = "435229"

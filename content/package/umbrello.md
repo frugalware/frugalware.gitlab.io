@@ -2,9 +2,7 @@
 draft = false
 title = "umbrello 23.08.0-2"
 version = "23.08.0-2"
-date = "2023-09-11T20:12:16"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "5218676"
 usize = "14853591"

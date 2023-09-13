@@ -2,9 +2,7 @@
 draft = false
 title = "signon-kwallet-extension 23.08.0-2"
 version = "23.08.0-2"
-date = "2023-09-11T16:35:59"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "21672"
 usize = "57201"

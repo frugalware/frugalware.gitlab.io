@@ -2,9 +2,7 @@
 draft = false
 title = "marble 23.08.0-3"
 version = "23.08.0-3"
-date = "2023-09-11T18:32:21"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "44109828"
 usize = "66891591"

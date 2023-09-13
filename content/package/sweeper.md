@@ -2,9 +2,7 @@
 draft = false
 title = "sweeper 23.08.0-2"
 version = "23.08.0-2"
-date = "2023-09-11T18:27:53"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "405944"
 usize = "870424"

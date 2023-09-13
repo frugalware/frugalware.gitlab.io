@@ -2,9 +2,7 @@
 draft = false
 title = "khangman 23.08.0-2"
 version = "23.08.0-2"
-date = "2023-09-11T16:33:08"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "6523808"
 usize = "9761282"

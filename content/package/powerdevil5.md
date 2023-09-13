@@ -2,9 +2,7 @@
 draft = false
 title = "powerdevil5 5.27.7-3"
 version = "5.27.7-3"
-date = "2023-09-11T13:25:59"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "862776"
 usize = "3182471"

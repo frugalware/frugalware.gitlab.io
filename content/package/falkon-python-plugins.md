@@ -2,9 +2,7 @@
 draft = false
 title = "falkon-python-plugins 23.08.0-2"
 version = "23.08.0-2"
-date = "2023-09-11T18:07:00"
 categories = ['xlib-extra']
-upstreamurl = "https://www.falkon.org"
 arch = "x86_64"
 size = "400396"
 usize = "1330600"

@@ -2,9 +2,7 @@
 draft = false
 title = "kwordquiz 23.08.0-2"
 version = "23.08.0-2"
-date = "2023-09-11T18:03:21"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "2586060"
 usize = "3605378"

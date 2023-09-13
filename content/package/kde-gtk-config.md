@@ -2,9 +2,7 @@
 draft = false
 title = "kde-gtk-config 5.27.7-3"
 version = "5.27.7-3"
-date = "2023-09-11T12:45:31"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "67904"
 usize = "306462"

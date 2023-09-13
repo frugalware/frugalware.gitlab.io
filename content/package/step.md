@@ -2,9 +2,7 @@
 draft = false
 title = "step 23.08.0-2"
 version = "23.08.0-2"
-date = "2023-09-11T15:26:20"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1295864"
 usize = "11878863"

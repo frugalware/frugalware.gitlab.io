@@ -2,9 +2,7 @@
 draft = false
 title = "ghostwriter 23.08.0-2"
 version = "23.08.0-2"
-date = "2023-09-11T19:46:02"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "2450196"
 usize = "12105018"

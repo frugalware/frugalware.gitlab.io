@@ -2,9 +2,7 @@
 draft = false
 title = "kpublictransport 23.08.0-2"
 version = "23.08.0-2"
-date = "2023-09-11T19:22:17"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "661184"
 usize = "2085496"

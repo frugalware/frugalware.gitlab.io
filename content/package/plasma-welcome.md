@@ -2,9 +2,7 @@
 draft = false
 title = "plasma-welcome 5.27.7-3"
 version = "5.27.7-3"
-date = "2023-09-11T13:51:12"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "816780"
 usize = "1391329"

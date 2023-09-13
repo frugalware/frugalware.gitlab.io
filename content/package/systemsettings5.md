@@ -2,9 +2,7 @@
 draft = false
 title = "systemsettings5 5.27.7-3"
 version = "5.27.7-3"
-date = "2023-09-11T13:14:13"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "337020"
 usize = "1254047"

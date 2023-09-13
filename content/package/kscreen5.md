@@ -2,9 +2,7 @@
 draft = false
 title = "kscreen5 5.27.7-3"
 version = "5.27.7-3"
-date = "2023-09-11T12:27:20"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "232328"
 usize = "1067736"

@@ -2,9 +2,7 @@
 draft = false
 title = "kmail-account-wizard 23.08.0-2"
 version = "23.08.0-2"
-date = "2023-09-11T17:31:05"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "480808"
 usize = "2620453"

@@ -2,9 +2,7 @@
 draft = false
 title = "kdepim-addons 23.08.0-2"
 version = "23.08.0-2"
-date = "2023-09-11T19:07:22"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1478484"
 usize = "9828633"

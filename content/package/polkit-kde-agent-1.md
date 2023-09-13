@@ -2,9 +2,7 @@
 draft = false
 title = "polkit-kde-agent-1 5.27.7-3"
 version = "5.27.7-3"
-date = "2023-09-11T13:20:58"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "59592"
 usize = "267857"

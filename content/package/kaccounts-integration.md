@@ -2,9 +2,7 @@
 draft = false
 title = "kaccounts-integration 23.08.0-2"
 version = "23.08.0-2"
-date = "2023-09-11T16:37:14"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "119400"
 usize = "581692"

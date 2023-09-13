@@ -2,9 +2,7 @@
 draft = false
 title = "aura-browser 5.27.7-3"
 version = "5.27.7-3"
-date = "2023-09-11T13:39:58"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1895220"
 usize = "3685179"

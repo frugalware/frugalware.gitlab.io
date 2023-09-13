@@ -2,9 +2,7 @@
 draft = false
 title = "oxygen-sounds 5.27.7-3"
 version = "5.27.7-3"
-date = "2023-09-11T12:32:02"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1890360"
 usize = "2112149"

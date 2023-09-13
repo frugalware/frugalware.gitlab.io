@@ -2,9 +2,7 @@
 draft = false
 title = "plasma-browser-integration 5.27.7-3"
 version = "5.27.7-3"
-date = "2023-09-11T13:36:21"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "120904"
 usize = "469272"

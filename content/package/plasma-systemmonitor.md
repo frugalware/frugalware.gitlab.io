@@ -2,9 +2,7 @@
 draft = false
 title = "plasma-systemmonitor 5.27.7-3"
 version = "5.27.7-3"
-date = "2023-09-11T12:40:00"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "218620"
 usize = "1315322"

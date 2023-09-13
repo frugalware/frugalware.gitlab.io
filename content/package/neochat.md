@@ -2,9 +2,7 @@
 draft = false
 title = "neochat 23.08.0-2"
 version = "23.08.0-2"
-date = "2023-09-11T20:03:38"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "952412"
 usize = "4970535"

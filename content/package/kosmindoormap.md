@@ -2,9 +2,7 @@
 draft = false
 title = "kosmindoormap 23.08.0-2"
 version = "23.08.0-2"
-date = "2023-09-11T19:24:37"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "401592"
 usize = "1692593"

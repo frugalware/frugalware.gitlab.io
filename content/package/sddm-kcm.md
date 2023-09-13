@@ -2,9 +2,7 @@
 draft = false
 title = "sddm-kcm 5.27.7-3"
 version = "5.27.7-3"
-date = "2023-09-11T13:22:02"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "110956"
 usize = "501406"

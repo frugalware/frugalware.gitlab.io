@@ -2,9 +2,7 @@
 draft = false
 title = "ffmpegthumbs 23.08.0-2"
 version = "23.08.0-2"
-date = "2023-09-11T14:34:58"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "28236"
 usize = "84835"
