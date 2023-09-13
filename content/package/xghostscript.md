@@ -2,9 +2,7 @@
 draft = false
 title = "xghostscript 10.01.2-2"
 version = "10.01.2-2"
-date = "2023-09-05T15:09:29"
 categories = ['xapps']
-upstreamurl = "https://www.ghostscript.com/"
 arch = "x86_64"
 size = "6268"
 usize = "14184"
