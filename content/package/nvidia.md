@@ -2,9 +2,7 @@
 draft = false
 title = "nvidia 535.104.05-5"
 version = "535.104.05-5"
-date = "2023-09-07T09:49:30"
 categories = ['x11-extra']
-upstreamurl = "http://www.nvidia.com/object/unix.html"
 arch = "x86_64"
 size = "95067292"
 usize = "292911760"
