@@ -2,9 +2,7 @@
 draft = false
 title = "coffee-script 2.7.0-2"
 version = "2.7.0-2"
-date = "2022-11-21T20:28:14"
 categories = ['devel-extra']
-upstreamurl = "http://coffeescript.org"
 arch = "x86_64"
 size = "1014212"
 usize = "9578637"
