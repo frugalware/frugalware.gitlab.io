@@ -2,9 +2,7 @@
 draft = false
 title = "openttd 13.3-1"
 version = "13.3-1"
-date = "2023-06-22T07:52:54"
 categories = ['games-extra']
-upstreamurl = "http://www.openttd.org"
 arch = "x86_64"
 size = "5909316"
 usize = "22825681"
