@@ -2,9 +2,7 @@
 draft = false
 title = "virtualbox-modules 7.0.10-11"
 version = "7.0.10-11"
-date = "2023-09-07T09:59:14"
 categories = ['apps-extra']
-upstreamurl = "http://www.virtualbox.org"
 arch = "x86_64"
 size = "316736"
 usize = "281757"
