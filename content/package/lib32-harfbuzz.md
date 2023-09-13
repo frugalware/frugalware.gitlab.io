@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-harfbuzz 8.1.1-1"
 version = "8.1.1-1"
-date = "2023-08-20T17:30:01"
 categories = ['lib32-extra']
-upstreamurl = "https://github.com/harfbuzz/harfbuzz"
 arch = "x86_64"
 size = "888500"
 usize = "2934224"
