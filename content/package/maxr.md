@@ -2,9 +2,7 @@
 draft = false
 title = "maxr 0.2.11-1"
 version = "0.2.11-1"
-date = "2023-07-25T11:40:50"
 categories = ['games-extra']
-upstreamurl = "http://www.maxr.org"
 arch = "x86_64"
 size = "12086532"
 usize = "38434542"
