@@ -2,9 +2,7 @@
 draft = false
 title = "curl 8.2.1-3"
 version = "8.2.1-3"
-date = "2023-09-05T08:25:22"
 categories = ['network']
-upstreamurl = "http://curl.haxx.se"
 arch = "x86_64"
 size = "1295724"
 usize = "2251012"
