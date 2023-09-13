@@ -2,9 +2,7 @@
 draft = false
 title = "julia 1.9.2-1"
 version = "1.9.2-1"
-date = "2023-08-17T21:29:02"
 categories = ['devel-extra']
-upstreamurl = "https://github.com/JuliaLang/julia"
 arch = "x86_64"
 size = "39437216"
 usize = "228609736"
