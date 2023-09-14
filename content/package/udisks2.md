@@ -2,9 +2,7 @@
 draft = false
 title = "udisks2 2.10.0-2"
 version = "2.10.0-2"
-date = "2023-09-04T14:49:15"
 categories = ['xapps']
-upstreamurl = "http://www.freedesktop.org/wiki/Software/udisks"
 arch = "x86_64"
 size = "1222436"
 usize = "17432679"
