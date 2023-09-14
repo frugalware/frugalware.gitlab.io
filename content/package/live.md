@@ -2,9 +2,7 @@
 draft = false
 title = "live 2023.01.19-2"
 version = "2023.01.19-2"
-date = "2023-03-15T21:28:07"
 categories = ['multimedia']
-upstreamurl = "http://www.live555.com/"
 arch = "x86_64"
 size = "519652"
 usize = "2657941"
