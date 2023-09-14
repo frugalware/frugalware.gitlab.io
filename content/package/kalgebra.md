@@ -2,9 +2,7 @@
 draft = false
 title = "kalgebra 23.08.0-3"
 version = "23.08.0-3"
-date = "2023-09-12T21:45:15"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1078104"
 usize = "1987886"
