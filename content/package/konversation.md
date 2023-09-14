@@ -2,9 +2,7 @@
 draft = false
 title = "konversation 23.08.0-3"
 version = "23.08.0-3"
-date = "2023-09-13T01:46:40"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "4919000"
 usize = "16485342"
