@@ -2,9 +2,7 @@
 draft = false
 title = "git-lfs 3.3.0-1"
 version = "3.3.0-1"
-date = "2022-12-25T11:36:20"
 categories = ['devel-extra']
-upstreamurl = "https://git-lfs.github.com/"
 arch = "x86_64"
 size = "3399472"
 usize = "11030742"
