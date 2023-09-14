@@ -2,9 +2,7 @@
 draft = false
 title = "blinken 23.08.0-3"
 version = "23.08.0-3"
-date = "2023-09-12T21:39:59"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "2412596"
 usize = "3297019"
