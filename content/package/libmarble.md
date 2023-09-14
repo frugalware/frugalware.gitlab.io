@@ -2,9 +2,7 @@
 draft = false
 title = "libmarble 23.08.0-4"
 version = "23.08.0-4"
-date = "2023-09-13T01:05:49"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "3271600"
 usize = "12369149"
