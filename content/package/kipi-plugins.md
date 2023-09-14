@@ -2,9 +2,7 @@
 draft = false
 title = "kipi-plugins 23.08.0-3"
 version = "23.08.0-3"
-date = "2023-09-12T23:30:40"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1607176"
 usize = "17214582"
