@@ -2,9 +2,7 @@
 draft = false
 title = "kdenlive 23.08.0-3"
 version = "23.08.0-3"
-date = "2023-09-13T01:53:31"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "13185020"
 usize = "69626657"
