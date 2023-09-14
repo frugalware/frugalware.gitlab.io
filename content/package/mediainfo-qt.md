@@ -2,9 +2,7 @@
 draft = false
 title = "mediainfo-qt 23.04-1"
 version = "23.04-1"
-date = "2023-06-15T06:25:29"
 categories = ['xapps-extra']
-upstreamurl = "https://mediaarea.net/MediaInfo"
 arch = "x86_64"
 size = "175764"
 usize = "415122"

@@ -2,9 +2,7 @@
 draft = false
 title = "libmediainfo 23.04-1"
 version = "23.04-1"
-date = "2023-06-15T06:05:49"
 categories = ['lib-extra']
-upstreamurl = "https://mediaarea.net/MediaInfo"
 arch = "x86_64"
 size = "2445084"
 usize = "8627543"
