@@ -2,9 +2,7 @@
 draft = false
 title = "kitinerary 23.08.0-4"
 version = "23.08.0-4"
-date = "2023-09-13T01:29:29"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1267192"
 usize = "3451051"

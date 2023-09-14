@@ -2,9 +2,7 @@
 draft = false
 title = "kpat 23.08.0-3"
 version = "23.08.0-3"
-date = "2023-09-13T01:30:43"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "3820652"
 usize = "5546754"
