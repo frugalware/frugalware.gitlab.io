@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libgs 10.01.2-2"
-version = "10.01.2-2"
+title = "libgs 10.02.0-1"
+version = "10.02.0-1"
+date = "2023-09-13T19:41:04"
 categories = ['libs']
+upstreamurl = "https://www.ghostscript.com/"
 arch = "x86_64"
-size = "3937800"
-usize = "25929052"
-sha1sum = "2d654e64d56b336f5edba53a046c35784ae0885b"
+size = "3953100"
+usize = "25974172"
+sha1sum = "eaffb811ee351d027a1393c1f516fc46288b287b"
 depends = "['ijs', 'libidn>=1.35', 'fontconfig', 'openjpeg', 'libpaper', 'libcups']"
 +++
 PostScript libs from ghostscript

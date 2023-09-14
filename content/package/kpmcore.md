@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kpmcore 23.08.0-2"
-version = "23.08.0-2"
+title = "kpmcore 23.08.0-3"
+version = "23.08.0-3"
+date = "2023-09-13T00:39:52"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "617636"
+size = "617700"
 usize = "4004192"
-sha1sum = "211b806ff748544815631ca13f03384827326a72"
+sha1sum = "ec4c091e452548a7454a12ade8f3de2972c18efc"
 depends = "['qca', 'qca-ossl', 'kauth>=5.110.0', 'kwidgetsaddons>=5.110.0', 'ki18n>=>=5.110.0', 'util-linux', 'qt5-svg>=5.15.10']"
 +++
 Library for managing partitions

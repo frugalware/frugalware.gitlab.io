@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libarchive-static 3.7.1-3"
-version = "3.7.1-3"
+title = "libarchive-static 3.7.2-2"
+version = "3.7.2-2"
+date = "2023-09-12T11:42:13"
 categories = ['devel-extra']
+upstreamurl = "http://www.libarchive.org"
 arch = "x86_64"
-size = "4158648"
-usize = "4823330"
-sha1sum = "71c197937aacea446fef7f64edf4873ac73fee53"
+size = "4164296"
+usize = "4828602"
+sha1sum = "49b6a17a38193754808023755aa2dc75e801b408"
 depends = "[]"
 +++
 Static files for libarchive

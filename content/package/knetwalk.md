@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "knetwalk 23.08.0-2"
-version = "23.08.0-2"
+title = "knetwalk 23.08.0-3"
+version = "23.08.0-3"
+date = "2023-09-12T23:09:15"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1202720"
-usize = "1731627"
-sha1sum = "7968324610778636d44cb05dabf5ce5a43b73de1"
+size = "1202508"
+usize = "1731614"
+sha1sum = "f9a8eb93c05a00e0e527407ac831416e4b68a5a5"
 depends = "['kdelibs4support>=5.110.0', 'knotifyconfig>=5.110.0', 'libkdegames>=23.08.0']"
 +++
 Connect all the terminals to the server, in as few turns as possible.

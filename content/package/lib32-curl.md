@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "lib32-curl 8.2.1-3"
-version = "8.2.1-3"
+title = "lib32-curl 8.3.0-1"
+version = "8.3.0-1"
+date = "2023-09-13T13:38:54"
 categories = ['lib32-extra']
+upstreamurl = "http://curl.haxx.se"
 arch = "x86_64"
-size = "449408"
-usize = "1175426"
-sha1sum = "47c6a489ca23a9402fc1e069919d0a23221ec946"
+size = "461976"
+usize = "1202130"
+sha1sum = "eb9d51eb47298281ecdfa68756434de4ccb78a7e"
 depends = "['lib32-zlib', 'lib32-openssl', 'lib32-zstd', 'lib32-brotli']"
 +++
 A command line tool for transferring data specified with URL syntax. ( 32bit )

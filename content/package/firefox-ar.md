@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-ar 117.0-1"
-version = "117.0-1"
+title = "firefox-ar 117.0.1-1"
+version = "117.0.1-1"
+date = "2023-09-12T18:00:33"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "495664"
-usize = "550582"
-sha1sum = "4dd3d460d5cc2e659ffb1948fc20f565fdbbec88"
-depends = "['firefox>=117.0']"
+size = "495880"
+usize = "550587"
+sha1sum = "3cc45bd9e779ab12b03245160987c28d7eb77caf"
+depends = "['firefox>=117.0.1']"
 +++
 Arabic language support for Firefox

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "systemsettings5 5.27.7-3"
-version = "5.27.7-3"
+title = "systemsettings5 5.27.8-1"
+version = "5.27.8-1"
+date = "2023-09-12T20:49:11"
 categories = ['plasma']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "337020"
-usize = "1254047"
-sha1sum = "df223084c008bd3c9da49bb8e66eb4489916ff38"
-depends = "['kcmutils>=5.110.0', 'khtml>=5.110.0', 'kirigami2>=5.110.0', 'kactivities-stats>=5.110.0', 'kemoticons>=5.110.0', 'kdeclarative>=5.110.0', 'kitemmodels>=5.110.0', 'kinit>=5.110.0', 'plasma-workspace>=5.27.7']"
+size = "337584"
+usize = "1254053"
+sha1sum = "2687fa26371c568509fa9029063005e0e4f0dabe"
+depends = "['kcmutils>=5.110.0', 'khtml>=5.110.0', 'kirigami2>=5.110.0', 'kactivities-stats>=5.110.0', 'kemoticons>=5.110.0', 'kdeclarative>=5.110.0', 'kitemmodels>=5.110.0', 'kinit>=5.110.0', 'plasma-workspace>=5.27.8']"
 +++
 KDE system settings.

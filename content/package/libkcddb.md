@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libkcddb 23.08.0-2"
-version = "23.08.0-2"
+title = "libkcddb 23.08.0-3"
+version = "23.08.0-3"
+date = "2023-09-12T21:33:31"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "510892"
+size = "510936"
 usize = "1499383"
-sha1sum = "3762c7c21122eaded5e54016ebe510d9a2219bc5"
+sha1sum = "0a4595f1b93b1ec18a06854f473438c974984e41"
 depends = "['kio>=5.110.0', 'kcmutils>=5.110.0', 'libmusicbrainz>=5.1.0-3']"
 +++
 A library for retrieving and sending cddb information.

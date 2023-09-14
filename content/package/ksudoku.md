@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "ksudoku 23.08.0-2"
-version = "23.08.0-2"
+title = "ksudoku 23.08.0-3"
+version = "23.08.0-3"
+date = "2023-09-13T01:23:19"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1803668"
-usize = "4700751"
-sha1sum = "d18b6c54a9a7ed551e21d02b9cc6b72167e35712"
+size = "1804304"
+usize = "4700688"
+sha1sum = "7317d12cc08d5cf55ef9e38f77ecd4e038121406"
 depends = "['libkdegames>=23.08.0', 'libglu']"
 +++
 KSudoku is a logic-based symbol placement puzzle

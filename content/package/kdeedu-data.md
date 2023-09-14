@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kdeedu-data 23.08.0-2"
-version = "23.08.0-2"
+title = "kdeedu-data 23.08.0-3"
+version = "23.08.0-3"
+date = "2023-09-12T23:16:27"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "330476"
+size = "330364"
 usize = "4226377"
-sha1sum = "dcd7e5f4e24c42f747b39477671d96e35b1c53ba"
+sha1sum = "24fb22ecf83ea16a6abdc5bc0f735f61589a168d"
 depends = "['qt5-base>=5.15.10']"
 +++
 Common libraries for KDE Edu release-service

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kwayland-integration 5.27.7-3"
-version = "5.27.7-3"
+title = "kwayland-integration 5.27.8-1"
+version = "5.27.8-1"
+date = "2023-09-12T19:54:50"
 categories = ['plasma']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "31420"
+size = "31556"
 usize = "108766"
-sha1sum = "9bef19752ccffc65fa7d05cd43927d9bafba6361"
+sha1sum = "ac8bbc11236d75e34c75a14c29997755cae7d55d"
 depends = "['kidletime>=5.110.0', 'kwindowsystem>=5.110.0', 'kwayland>=5.110.0', 'kguiaddons>=5.110.0', 'wayland-protocols']"
 +++
 KDE Plasma Wayland Integration

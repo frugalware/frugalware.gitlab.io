@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kalgebra 23.08.0-2"
-version = "23.08.0-2"
+title = "kalgebra 23.08.0-3"
+version = "23.08.0-3"
+date = "2023-09-12T21:45:15"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1078024"
-usize = "1987898"
-sha1sum = "529f007c806537e05241680510e603efa4be772f"
+size = "1078104"
+usize = "1987886"
+sha1sum = "205d8e87b6361232833bee559a4b78f92a194976"
 depends = "['analitza>=23.08.0', 'kio>=5.110.0', 'qt5-webengine>=5.15.10', 'libglu>=9.0.0-3', 'readline>=8.0']"
 +++
 2D and 3D Graph Calculator.

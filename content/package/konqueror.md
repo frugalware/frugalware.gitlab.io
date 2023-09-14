@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "konqueror 23.08.0-2"
-version = "23.08.0-2"
+title = "konqueror 23.08.0-3"
+version = "23.08.0-3"
+date = "2023-09-12T22:05:43"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "9928584"
-usize = "28973905"
-sha1sum = "2f6d3bd35d9f95084736f0da4e8bd44c1404e8a5"
+size = "9928716"
+usize = "28974248"
+sha1sum = "bb19adbdea31772d5676336c83e3c3a5b34c87a4"
 depends = "['kcmutils', 'kdelibs4support', 'qt5-webengine>=5.15.10', 'khtml', 'qt5-speech>=5.15.10', 'kdesu', 'kactivities5', 'tidy>=5.6.0']"
 +++
 Web browser and file manager

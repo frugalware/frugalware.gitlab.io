@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-cy 115.2.0-1"
-version = "115.2.0-1"
+title = "thunderbird-cy 115.2.2-1"
+version = "115.2.2-1"
+date = "2023-09-13T13:22:13"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "643556"
-usize = "703325"
-sha1sum = "0cef3b37ac8790dc1839f51a636e3563d7034308"
-depends = "['thunderbird>=115.2.0']"
+size = "643636"
+usize = "703324"
+sha1sum = "472819613c47aad17c580f262729d19ffbd9577b"
+depends = "['thunderbird>=115.2.2']"
 +++
 Welsh language support for Thunderbird

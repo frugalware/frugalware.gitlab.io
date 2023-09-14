@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kernel 6.5.2-1"
-version = "6.5.2-1"
+title = "kernel 6.5.3-1"
+version = "6.5.3-1"
+date = "2023-09-13T12:03:38"
 categories = ['base']
+upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "112857064"
-usize = "123805422"
-sha1sum = "3a295f382bce4e9b33653c791e1dc3785df40c2f"
+size = "112871928"
+usize = "123816972"
+sha1sum = "3214c28a81dc05f10885a208b08cfde30ab8d305"
 depends = "['kmod', 'sed']"
 +++
 The Linux Kernel and modules

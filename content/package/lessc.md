@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "lessc 4.1.3-2"
-version = "4.1.3-2"
+title = "lessc 4.2.0-1"
+version = "4.2.0-1"
+date = "2023-09-13T18:03:22"
 categories = ['devel-extra']
+upstreamurl = "http://lesscss.org/"
 arch = "x86_64"
-size = "720352"
-usize = "4739409"
-sha1sum = "b597be531164376bac5d899a30ac832053ef3e38"
-depends = "['nodejs16']"
+size = "731576"
+usize = "4793792"
+sha1sum = "150bd94fe8dbd71d860c7eafa549b8de2007223c"
+depends = "['glibc']"
 +++
 A standalone compiler for the LESS CSS language.

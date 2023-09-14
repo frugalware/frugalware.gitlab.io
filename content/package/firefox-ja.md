@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-ja 117.0-1"
-version = "117.0-1"
+title = "firefox-ja 117.0.1-1"
+version = "117.0.1-1"
+date = "2023-09-12T18:00:33"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "570868"
-usize = "620389"
-sha1sum = "938511343644fc3a3b11f94cca963b6a8fa35000"
-depends = "['firefox>=117.0']"
+size = "570980"
+usize = "620391"
+sha1sum = "45aecea876471634b1a3c70acad08f818f621616"
+depends = "['firefox>=117.0.1']"
 +++
 Japanese language support for Firefox

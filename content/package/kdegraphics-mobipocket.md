@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kdegraphics-mobipocket 23.08.0-2"
-version = "23.08.0-2"
+title = "kdegraphics-mobipocket 23.08.0-3"
+version = "23.08.0-3"
+date = "2023-09-12T21:53:18"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "26332"
+size = "26364"
 usize = "75705"
-sha1sum = "def8f3c0058ac431a84e5ec7abba1c3e9426addb"
+sha1sum = "5c8c5112954803d81f88b39874da888d31470a29"
 depends = "['kio>=5.110.0']"
 +++
 A collection of plugins to handle mobipocket files

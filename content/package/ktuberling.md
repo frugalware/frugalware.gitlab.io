@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "ktuberling 23.08.0-2"
-version = "23.08.0-2"
+title = "ktuberling 23.08.0-3"
+version = "23.08.0-3"
+date = "2023-09-12T23:14:37"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "46802740"
-usize = "63244746"
-sha1sum = "5666cb1c42bcc70cbd83aa8ae93f0270ed8c324d"
+size = "46804296"
+usize = "63244787"
+sha1sum = "a7a2fd4af329c2b0fa9fabe4034671312ced4bdf"
 depends = "['kdelibs4support>=5.110.0', 'qt5-multimedia>=5.15.10', 'knotifyconfig>=5.110.0', 'libkdegames>=23.08.0']"
 +++
 A simple constructor game suitable for children and adults alike.

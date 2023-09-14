@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-ko 115.2.0-1"
-version = "115.2.0-1"
+title = "thunderbird-ko 115.2.2-1"
+version = "115.2.2-1"
+date = "2023-09-13T13:22:13"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "651504"
-usize = "712208"
-sha1sum = "71f8aab039ea6b39eaba262b7eec3b9632a47972"
-depends = "['thunderbird>=115.2.0']"
+size = "651552"
+usize = "712206"
+sha1sum = "4e245db646efbd76b74883ed06250ad833e739c8"
+depends = "['thunderbird>=115.2.2']"
 +++
 Korean language support for Thunderbird

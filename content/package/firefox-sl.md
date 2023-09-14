@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-sl 117.0-1"
-version = "117.0-1"
+title = "firefox-sl 117.0.1-1"
+version = "117.0.1-1"
+date = "2023-09-12T18:00:33"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "514888"
-usize = "565952"
-sha1sum = "16f80f53b19d40470c2d20430276111abca5bfbf"
-depends = "['firefox>=117.0']"
+size = "515368"
+usize = "565967"
+sha1sum = "691ad27462aaf000098eabe6d0eebead70834a3d"
+depends = "['firefox>=117.0.1']"
 +++
 Slovenian language support for Firefox

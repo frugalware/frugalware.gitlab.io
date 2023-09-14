@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "lib32-glib2 2.76.5-1"
-version = "2.76.5-1"
+title = "lib32-glib2 2.78.0-1"
+version = "2.78.0-1"
+date = "2023-09-12T11:55:46"
 categories = ['lib32-extra']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1405892"
-usize = "7187010"
-sha1sum = "34aa51660d16b635b797a1242c85f526cbe834e7"
+size = "1413212"
+usize = "7232875"
+sha1sum = "bb1804962bdad0d936e305695a8362c27dd7dae0"
 depends = "['glibc', 'lib32-libdbus', 'lib32-libffi', 'lib32-zlib', 'lib32-pcre', 'lib32-elfutils', 'lib32-libblkid', 'lib32-util-linux']"
 +++
 Common C routines used by GTK+ and other libraries (32-bit)

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-rm 115.2.0-1"
-version = "115.2.0-1"
+title = "thunderbird-rm 115.2.2-1"
+version = "115.2.2-1"
+date = "2023-09-13T13:22:13"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "644360"
-usize = "704044"
-sha1sum = "6cdbad1163a0cb8daeb8e8b7de8dada1fc4c5f31"
-depends = "['thunderbird>=115.2.0']"
+size = "644436"
+usize = "704042"
+sha1sum = "e4fad46faef68feabecc61fb201e4ae6003501fa"
+depends = "['thunderbird>=115.2.2']"
 +++
 Romansh language support for Thunderbird

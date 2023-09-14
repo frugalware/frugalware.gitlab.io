@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "rtl8821ce 1.0.4.r76.g7c4f827-295"
-version = "1.0.4.r76.g7c4f827-295"
+title = "rtl8821ce 1.0.4.r76.g7c4f827-296"
+version = "1.0.4.r76.g7c4f827-296"
+date = "2023-09-13T13:05:30"
 categories = ['network-extra']
+upstreamurl = "https://github.com/tomaspinho/rtl8821ce"
 arch = "x86_64"
-size = "726616"
+size = "729460"
 usize = "5009863"
-sha1sum = "0337282c419adf13f76a1188dbad55c55eaf6b2a"
-depends = "['kernel=6.5.2-1']"
+sha1sum = "59fb5724599c49c3909311b3539e40104d4ae891"
+depends = "['kernel=6.5.3-1']"
 +++
 rtl8821CE driver with firmware

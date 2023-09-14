@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kclock 23.08.0-2"
-version = "23.08.0-2"
+title = "kclock 23.08.0-3"
+version = "23.08.0-3"
+date = "2023-09-13T02:09:45"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "230048"
+size = "230116"
 usize = "1203410"
-sha1sum = "90258557a0aaf78c6dd0b42dc321fe55cb59dc3e"
+sha1sum = "dd9da8f057445410638593e55ec89904f324c930"
 depends = "['kirigami-addons', 'qt5-multimedia', 'kconfig', 'ki18n', 'kcoreaddons', 'plasma-framework']"
 +++
 Clock app for Plasma Mobile

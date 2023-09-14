@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-kab 115.2.0-1"
-version = "115.2.0-1"
+title = "thunderbird-kab 115.2.2-1"
+version = "115.2.2-1"
+date = "2023-09-13T13:22:13"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "637876"
-usize = "698918"
-sha1sum = "c2590e382cc54ddec6826f2d4fb27848139bb8ec"
-depends = "['thunderbird>=115.2.0']"
+size = "637956"
+usize = "698916"
+sha1sum = "e82f71e312c65cf440fb2db1acdefd606fc1d3b8"
+depends = "['thunderbird>=115.2.2']"
 +++
 Kabyle language support for Thunderbird

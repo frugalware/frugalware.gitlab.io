@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "curl-static 8.2.1-3"
-version = "8.2.1-3"
+title = "curl-static 8.3.0-1"
+version = "8.3.0-1"
+date = "2023-09-13T13:38:54"
 categories = ['devel-extra']
+upstreamurl = "http://curl.haxx.se"
 arch = "x86_64"
-size = "5175136"
-usize = "5909992"
-sha1sum = "38ca8097b11008829cc19e3bab13f8616b24dd20"
+size = "5336808"
+usize = "6068264"
+sha1sum = "9082d4d74ba35b72f7ff19eaeb0a4d104501b919"
 depends = "[]"
 +++
 Static files for curl

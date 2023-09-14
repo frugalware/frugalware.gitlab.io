@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-he 115.2.0-1"
-version = "115.2.0-1"
+title = "thunderbird-he 115.2.2-1"
+version = "115.2.2-1"
+date = "2023-09-13T13:22:13"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "602928"
-usize = "667477"
-sha1sum = "b84ff6d4df32297a4e6f1ca35faf9e302127688c"
-depends = "['thunderbird>=115.2.0']"
+size = "603016"
+usize = "667476"
+sha1sum = "07897edc81bae7742c92b8afcb8ec8c83f51b64f"
+depends = "['thunderbird>=115.2.2']"
 +++
 Hebrew language support for Thunderbird

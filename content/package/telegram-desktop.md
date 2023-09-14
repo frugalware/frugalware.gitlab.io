@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "telegram-desktop 4.9.5-1"
-version = "4.9.5-1"
+title = "telegram-desktop 4.9.7-1"
+version = "4.9.7-1"
+date = "2023-09-14T07:40:35"
 categories = ['xapps-extra']
+upstreamurl = "https://desktop.telegram.org/"
 arch = "x86_64"
-size = "29133236"
-usize = "80598634"
-sha1sum = "a50d395b32db62cde09db1eda9e8a709a78ab211"
+size = "29158496"
+usize = "80685554"
+sha1sum = "bfaa834addcf1f2a42d7dd5e9f2e6361978c8778"
 depends = "['hunspell', 'ffmpeg>=6.0', 'hicolor-icon-theme', 'lz4', 'openal', 'qt6-imageformats>=6.5.1', 'fmtlib', 'libboost', 'qt6-svg>=6.5.1', 'qt6-wayland>=6.5.1', 'qt6-5compat>=6.5.1', 'xxhash', 'rnnoise', 'pipewire', 'glib2', 'libsigc++3', 'libxtst', 'libxrandr', 'jemalloc', 'abseil-cpp>=20230125', 'libdispatch', 'webkit-gtk3', 'openssl', 'protobuf>=24.2']"
 +++
 Official Telegram Desktop client

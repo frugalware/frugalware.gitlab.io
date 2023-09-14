@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qqc2-breeze-style 5.27.7-3"
-version = "5.27.7-3"
+title = "qqc2-breeze-style 5.27.8-1"
+version = "5.27.8-1"
+date = "2023-09-12T20:14:08"
 categories = ['plasma']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "71192"
+size = "71240"
 usize = "525704"
-sha1sum = "3a2576e4088d7ef386ccae972cc0ee2af32688b1"
+sha1sum = "30bcff023845aaa8b650c8b7f4ac11b06e2463d3"
 depends = "['kguiaddons>=5.110.0', 'kconfig>=5.110.0', 'kiconthemes>=5.110.0', 'kirigami2>=5.110.0', 'qt5-quickcontrols2>=5.15.10']"
 +++
 Breeze inspired QQC2 Style

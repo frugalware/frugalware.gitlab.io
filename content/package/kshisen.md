@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kshisen 23.08.0-2"
-version = "23.08.0-2"
+title = "kshisen 23.08.0-3"
+version = "23.08.0-3"
+date = "2023-09-12T23:11:20"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1098796"
-usize = "2039432"
-sha1sum = "7b623392e73d687d3f30d6b7db09b9b7cb318647"
+size = "1098520"
+usize = "2039336"
+sha1sum = "f515c430508e4292e997bf9d0171b1891783532c"
 depends = "['libkmahjongg>=23.08.0', 'libkdegames>=23.08.0']"
 +++
 A solitaire-like game played using the standard set of Mahjong tiles.
