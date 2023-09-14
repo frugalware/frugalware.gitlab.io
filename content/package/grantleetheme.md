@@ -2,9 +2,7 @@
 draft = false
 title = "grantleetheme 23.08.0-3"
 version = "23.08.0-3"
-date = "2023-09-12T22:33:45"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "56116"
 usize = "206339"

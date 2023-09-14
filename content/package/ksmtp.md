@@ -2,9 +2,7 @@
 draft = false
 title = "ksmtp 23.08.0-3"
 version = "23.08.0-3"
-date = "2023-09-12T22:30:43"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "54712"
 usize = "195144"
