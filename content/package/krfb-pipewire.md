@@ -2,9 +2,7 @@
 draft = false
 title = "krfb-pipewire 23.08.0-3"
 version = "23.08.0-3"
-date = "2023-09-12T22:10:05"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "42140"
 usize = "157616"
