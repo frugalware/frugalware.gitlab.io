@@ -2,9 +2,7 @@
 draft = false
 title = "mbox-importer 23.08.0-3"
 version = "23.08.0-3"
-date = "2023-09-13T00:14:51"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "30168"
 usize = "123205"
