@@ -2,9 +2,7 @@
 draft = false
 title = "dolphin-plugins 23.08.0-3"
 version = "23.08.0-3"
-date = "2023-09-13T01:39:13"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "352968"
 usize = "2381741"
