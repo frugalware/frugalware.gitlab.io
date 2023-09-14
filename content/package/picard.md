@@ -2,9 +2,7 @@
 draft = false
 title = "picard 2.6.3-5"
 version = "2.6.3-5"
-date = "2023-01-10T15:51:12"
 categories = ['xmultimedia-extra']
-upstreamurl = "http://musicbrainz.org/doc/PicardTagger"
 arch = "x86_64"
 size = "1954112"
 usize = "9891948"
