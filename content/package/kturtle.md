@@ -2,9 +2,7 @@
 draft = false
 title = "kturtle 23.08.0-3"
 version = "23.08.0-3"
-date = "2023-09-13T01:00:48"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "2273208"
 usize = "5774264"
