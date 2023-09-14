@@ -2,9 +2,7 @@
 draft = false
 title = "kmouth 23.08.0-3"
 version = "23.08.0-3"
-date = "2023-09-13T00:57:41"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1933292"
 usize = "4136167"
