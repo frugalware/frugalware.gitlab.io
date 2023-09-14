@@ -2,9 +2,7 @@
 draft = false
 title = "klettres 23.08.0-3"
 version = "23.08.0-3"
-date = "2023-09-12T23:03:05"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "39549424"
 usize = "50070306"
