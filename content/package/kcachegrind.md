@@ -2,9 +2,7 @@
 draft = false
 title = "kcachegrind 23.08.0-3"
 version = "23.08.0-3"
-date = "2023-09-13T00:49:58"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1044984"
 usize = "4594036"

@@ -2,9 +2,7 @@
 draft = false
 title = "juk 23.08.0-3"
 version = "23.08.0-3"
-date = "2023-09-13T00:46:37"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "2483032"
 usize = "6050694"
