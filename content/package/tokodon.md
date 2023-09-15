@@ -2,9 +2,7 @@
 draft = false
 title = "tokodon 23.08.0-3"
 version = "23.08.0-3"
-date = "2023-09-13T02:26:45"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "401876"
 usize = "1586699"
