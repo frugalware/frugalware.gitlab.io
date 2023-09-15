@@ -2,9 +2,7 @@
 draft = false
 title = "libreswan 4.6-1"
 version = "4.6-1"
-date = "2022-05-20T07:26:50"
 categories = ['network-extra']
-upstreamurl = "http://libreswan.org/"
 arch = "x86_64"
 size = "1037256"
 usize = "5382920"
