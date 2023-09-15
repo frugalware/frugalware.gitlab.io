@@ -2,9 +2,7 @@
 draft = false
 title = "docker-compose 2.16.0-1"
 version = "2.16.0-1"
-date = "2023-02-27T14:29:32"
 categories = ['devel-extra']
-upstreamurl = "https://www.docker.com/"
 arch = "x86_64"
 size = "10166180"
 usize = "47724623"
