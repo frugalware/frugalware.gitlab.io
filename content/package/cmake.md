@@ -2,9 +2,7 @@
 draft = false
 title = "cmake 3.27.4-1"
 version = "3.27.4-1"
-date = "2023-08-24T13:56:17"
 categories = ['devel-extra']
-upstreamurl = "https://cmake.org"
 arch = "x86_64"
 size = "13516284"
 usize = "44640474"
