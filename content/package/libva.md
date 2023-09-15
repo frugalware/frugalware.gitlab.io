@@ -2,9 +2,7 @@
 draft = false
 title = "libva 2.19.0-2"
 version = "2.19.0-2"
-date = "2023-09-05T10:45:55"
 categories = ['x11']
-upstreamurl = "https://github.com/intel/libva"
 arch = "x86_64"
 size = "184652"
 usize = "944499"
