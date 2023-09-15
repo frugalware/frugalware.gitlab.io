@@ -2,9 +2,7 @@
 draft = false
 title = "plasma-desktop 5.27.7.1-1"
 version = "5.27.7.1-1"
-date = "2023-08-15T10:08:30"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "15360872"
 usize = "32726718"
