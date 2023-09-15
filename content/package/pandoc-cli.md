@@ -2,9 +2,7 @@
 draft = false
 title = "pandoc-cli 0.1.1.1-1"
 version = "0.1.1.1-1"
-date = "2023-09-08T08:39:01"
 categories = ['apps-extra']
-upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/pandoc-cli"
 arch = "x86_64"
 size = "14839900"
 usize = "122952908"
