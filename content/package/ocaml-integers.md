@@ -2,9 +2,7 @@
 draft = false
 title = "ocaml-integers 0.7.0-4"
 version = "0.7.0-4"
-date = "2023-07-28T10:23:30"
 categories = ['devel-extra']
-upstreamurl = "https://github.com/ocamllabs/ocaml-integers"
 arch = "x86_64"
 size = "289504"
 usize = "1352010"
