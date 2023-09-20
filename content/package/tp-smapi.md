@@ -2,9 +2,7 @@
 draft = false
 title = "tp-smapi 0.44-6"
 version = "0.44-6"
-date = "2023-09-13T12:39:23"
 categories = ['apps-extra']
-upstreamurl = "https://github.com/evgeni/tp_smapi"
 arch = "x86_64"
 size = "54632"
 usize = "61281"
