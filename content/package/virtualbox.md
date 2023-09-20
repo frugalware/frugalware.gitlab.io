@@ -2,9 +2,7 @@
 draft = false
 title = "virtualbox 7.0.10-12"
 version = "7.0.10-12"
-date = "2023-09-13T13:19:37"
 categories = ['xapps-extra']
-upstreamurl = "http://www.virtualbox.org"
 arch = "x86_64"
 size = "43430276"
 usize = "123556721"
