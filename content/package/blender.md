@@ -2,9 +2,7 @@
 draft = false
 title = "blender 3.6.2-1"
 version = "3.6.2-1"
-date = "2023-09-03T13:04:04"
 categories = ['xapps-extra']
-upstreamurl = "https://www.blender.org"
 arch = "x86_64"
 size = "62231824"
 usize = "213547675"

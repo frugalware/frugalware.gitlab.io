@@ -2,9 +2,7 @@
 draft = false
 title = "spirv-headers 1.3.239.0-1"
 version = "1.3.239.0-1"
-date = "2023-02-03T20:49:28"
 categories = ['devel-extra']
-upstreamurl = "https://github.com/KhronosGroup/spirv-headers"
 arch = "x86_64"
 size = "107856"
 usize = "2810455"

@@ -2,9 +2,7 @@
 draft = false
 title = "libosmesa 23.1.7-1"
 version = "23.1.7-1"
-date = "2023-09-07T08:13:56"
 categories = ['x11']
-upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
 size = "3962620"
 usize = "16060986"
