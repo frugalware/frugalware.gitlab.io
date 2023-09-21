@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libcups 2.4.6-2"
 version = "2.4.6-2"
-date = "2023-09-05T15:02:40"
 categories = ['lib32-extra']
-upstreamurl = "http://www.cups.org/"
 arch = "x86_64"
 size = "234908"
 usize = "694650"
