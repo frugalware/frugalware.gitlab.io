@@ -2,9 +2,7 @@
 draft = false
 title = "hplip 3.23.5-1"
 version = "3.23.5-1"
-date = "2023-06-18T17:10:11"
 categories = ['apps-extra']
-upstreamurl = "https://sourceforge.net/projects/hplip"
 arch = "x86_64"
 size = "7300596"
 usize = "12834867"
