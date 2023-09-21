@@ -2,9 +2,7 @@
 draft = false
 title = "kitty 0.29.2-1"
 version = "0.29.2-1"
-date = "2023-07-27T15:55:20"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/kovidgoyal/kitty"
 arch = "x86_64"
 size = "10712632"
 usize = "40102490"
