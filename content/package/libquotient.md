@@ -2,9 +2,7 @@
 draft = false
 title = "libquotient 0.8.1.1-1"
 version = "0.8.1.1-1"
-date = "2023-09-11T13:37:49"
 categories = ['lib-extra']
-upstreamurl = "https://matrix.org/docs/projects/sdk/quotient"
 arch = "x86_64"
 size = "543324"
 usize = "2293504"
