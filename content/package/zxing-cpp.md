@@ -2,9 +2,7 @@
 draft = false
 title = "zxing-cpp 2.1.0-1"
 version = "2.1.0-1"
-date = "2023-07-28T08:14:29"
 categories = ['lib-extra']
-upstreamurl = "https://github.com/zxing-cpp/zxing-cpp"
 arch = "x86_64"
 size = "580212"
 usize = "1416737"

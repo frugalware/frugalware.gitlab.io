@@ -2,9 +2,7 @@
 draft = false
 title = "gst1-plugins-base 1.22.5-2"
 version = "1.22.5-2"
-date = "2023-09-04T13:58:58"
 categories = ['xmultimedia']
-upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
 size = "2269968"
 usize = "12672649"
