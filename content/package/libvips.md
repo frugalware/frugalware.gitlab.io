@@ -2,9 +2,7 @@
 draft = false
 title = "libvips 8.14.4-2"
 version = "8.14.4-2"
-date = "2023-09-01T09:22:39"
 categories = ['lib-extra']
-upstreamurl = "https://github.com/libvips/libvips"
 arch = "x86_64"
 size = "1440500"
 usize = "5779802"
