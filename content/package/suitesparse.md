@@ -2,9 +2,7 @@
 draft = false
 title = "suitesparse 7.1.0-1"
 version = "7.1.0-1"
-date = "2023-09-11T13:33:06"
 categories = ['lib-extra']
-upstreamurl = "http://faculty.cse.tamu.edu/davis/suitesparse.html"
 arch = "x86_64"
 size = "37978452"
 usize = "199657502"
