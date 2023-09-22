@@ -2,9 +2,7 @@
 draft = false
 title = "gst-libav 1.22.5-1"
 version = "1.22.5-1"
-date = "2023-07-22T11:44:58"
 categories = ['xmultimedia']
-upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
 size = "133492"
 usize = "393580"
