@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "wasi-libc 20-1"
-version = "20-1"
+title = "wasi-libc 20-2"
+version = "20-2"
+date = "2023-09-22T07:47:20"
 categories = ['lib-extra']
+upstreamurl = "https://github.com/WebAssembly/wasi-libc"
 arch = "x86_64"
-size = "394028"
-usize = "1389274"
-sha1sum = "328e3f475cfe959f6be1c5da54e24c23fc4569ef"
+size = "394608"
+usize = "1416524"
+sha1sum = "0606749adbabcc8bcee1cb459b419c97eb95dc21"
 depends = "['glibc']"
 +++
 WASI libc implementation for WebAssembly

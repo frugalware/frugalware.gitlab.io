@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "klettres 23.08.0-3"
-version = "23.08.0-3"
+title = "klettres 23.08.1-1"
+version = "23.08.1-1"
+date = "2023-09-14T16:15:35"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "39549424"
-usize = "50070306"
-sha1sum = "cd05278ac5a2b730591d5d63a4a174a38a979038"
-depends = "['kdelibs4support>=5.110.0', 'knotifyconfig>=5.110.0', 'libkdegames>=23.08.0']"
+size = "39549540"
+usize = "50070273"
+sha1sum = "d9c8310183927bfbf9dc197291f2718c823cd48d"
+depends = "['kdelibs4support>=5.110.0', 'knotifyconfig>=5.110.0', 'libkdegames>=23.08.1']"
 +++
 Learn The Alphabet.

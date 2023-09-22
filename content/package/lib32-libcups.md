@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "lib32-libcups 2.4.6-2"
-version = "2.4.6-2"
+title = "lib32-libcups 2.4.7-1"
+version = "2.4.7-1"
+date = "2023-09-21T16:59:54"
 categories = ['lib32-extra']
+upstreamurl = "http://www.cups.org/"
 arch = "x86_64"
-size = "234908"
+size = "235572"
 usize = "694650"
-sha1sum = "ab3c1e888ed78e02587f93b54b6dfde6c7ac625c"
+sha1sum = "0b044dc78a271af695e04e17ee93d2bbfed68b40"
 depends = "['lib32-gnutls', 'lib32-avahi', 'lib32-pam', 'lib32-libsystemd', 'lib32-openssl']"
 +++
 Main library of the CUPS printing system. ( 32bit )

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "wasi-libc++ 15.0.7-1"
-version = "15.0.7-1"
+title = "wasi-libc++ 16.0.6-1"
+version = "16.0.6-1"
+date = "2023-09-21T15:22:01"
 categories = ['lib-extra']
+upstreamurl = "https://libcxx.llvm.org/"
 arch = "x86_64"
-size = "837216"
-usize = "7867396"
-sha1sum = "c0ce056353977f09366dc7b26f2934aabe51abea"
+size = "887832"
+usize = "8287363"
+sha1sum = "76f29e284dcf50ad52701339176abdf52c6f1979"
 depends = "['glibc']"
 +++
 WASI LLVM C++ standard library

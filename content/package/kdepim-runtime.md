@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kdepim-runtime 23.08.0-3"
-version = "23.08.0-3"
+title = "kdepim-runtime 23.08.1-1"
+version = "23.08.1-1"
+date = "2023-09-14T18:39:56"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2382000"
-usize = "13776494"
-sha1sum = "fcf84ce9960c0a3bd57cee0b35f99e37568d7363"
-depends = "['kimap>=23.08.0', 'kalarm>=23.08.0', 'akonadi-calendar>=23.08.0', 'syndication>=5.110.0', 'knotifyconfig>=5.110.0', 'kross>=5.110.0', 'libkgapi>=23.08.0', 'kmbox>=23.08.0', 'akonadi-notes>=23.08.0', 'kdav>=5.110.0', 'pimcommon>=23.08.0', 'qca', 'qt5-networkauth>=5.15.10', 'qt5-xmlpatterns>=5.15.10']"
+size = "2373568"
+usize = "13716578"
+sha1sum = "657601a3b6b5deecab84cb0f518d20bd94dd2990"
+depends = "['kimap>=23.08.1', 'kalarm>=23.08.1', 'akonadi-calendar>=23.08.1', 'syndication>=5.110.0', 'knotifyconfig>=5.110.0', 'kross>=5.110.0', 'libkgapi>=23.08.1', 'kmbox>=23.08.1', 'akonadi-notes>=23.08.1', 'kdav>=5.110.0', 'pimcommon>=23.08.1', 'qca', 'qt5-networkauth>=5.15.10', 'qt5-xmlpatterns>=5.15.10']"
 +++
 KDE PIM Runtime

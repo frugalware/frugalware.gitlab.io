@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "systemd-pull 254.3-2"
-version = "254.3-2"
+title = "systemd-pull 254.4-1"
+version = "254.4-1"
+date = "2023-09-21T12:35:34"
 categories = ['network-extra']
+upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
-size = "61644"
+size = "61664"
 usize = "104512"
-sha1sum = "140b692e90bf3830451f10359e35519dd71086d5"
-depends = "['curl>=7.58.0-2', 'libgcrypt>=1.8.0-2', 'libcap>=2.25-4', 'openssl>=3.0.7', 'systemd=254.3']"
+sha1sum = "6fc83f851ec45c4264ccfb102358c30777167a15"
+depends = "['curl>=7.58.0-2', 'libgcrypt>=1.8.0-2', 'libcap>=2.25-4', 'openssl>=3.0.7', 'systemd=254.4']"
 +++
 systemd container retrieval

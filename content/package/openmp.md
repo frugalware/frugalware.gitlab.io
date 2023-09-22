@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "openmp 15.0.7-6"
-version = "15.0.7-6"
+title = "openmp 16.0.6-2"
+version = "16.0.6-2"
+date = "2023-09-18T12:11:06"
 categories = ['devel-extra']
+upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "854692"
-usize = "14374747"
-sha1sum = "4183c3740e4365761d60ac71ce641630d098e41d"
-depends = "['llvm-libs>=15.0.7']"
+size = "927608"
+usize = "19795201"
+sha1sum = "24b390209102f0eadb1e94e7aef119d66c112d5a"
+depends = "['llvm-libs>=16.0.6']"
 +++
 LLVM OpenMP Runtime Library

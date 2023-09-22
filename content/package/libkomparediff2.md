@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libkomparediff2 23.08.0-3"
-version = "23.08.0-3"
+title = "libkomparediff2 23.08.1-1"
+version = "23.08.1-1"
+date = "2023-09-14T14:16:29"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "101644"
-usize = "398080"
-sha1sum = "865e87c4176bbd79f75cd6db82c2231cb265b29f"
+size = "101652"
+usize = "398340"
+sha1sum = "48be4fb88ed81135887ee95c92e02456feef4f4f"
 depends = "['kparts>=5.110.0', 'qt5-svg>=5.15.10']"
 +++
 Library to compare files and strings.

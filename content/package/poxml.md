@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "poxml 23.08.0-3"
-version = "23.08.0-3"
+title = "poxml 23.08.1-1"
+version = "23.08.1-1"
+date = "2023-09-14T15:13:31"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "136624"
+size = "136308"
 usize = "380970"
-sha1sum = "c1b5e351c9412859d50429673d2a553bd36734d5"
+sha1sum = "18d9942d8776ceea35d8bb4055f0af99ba455fb0"
 depends = "['qt5-base>=5.15.10', 'gettext']"
 +++
 Tools that facilitate translating XML files using gettext message files.

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "systemd-systemctl 254.3-2"
-version = "254.3-2"
+title = "systemd-systemctl 254.4-1"
+version = "254.4-1"
+date = "2023-09-21T12:35:34"
 categories = ['base', 'core', 'systemd-utils']
+upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
-size = "122280"
+size = "122308"
 usize = "285152"
-sha1sum = "66e8c6a62700efa10fffb7a90d48728f61d334e5"
-depends = "['cryptsetup-luks', 'kmod', 'libseccomp', 'libidn2', 'libsystemd>=254.3']"
+sha1sum = "4808c4b5bf28d7c51aa7d9fe3e302a2f35f03892"
+depends = "['cryptsetup-luks', 'kmod', 'libseccomp', 'libidn2', 'libsystemd>=254.4']"
 +++
 The systemd system and service manager

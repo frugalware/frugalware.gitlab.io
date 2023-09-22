@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "pandoc-cli 0.1.1.1-1"
-version = "0.1.1.1-1"
+title = "pandoc-cli 0.1.1.1-2"
+version = "0.1.1.1-2"
+date = "2023-09-15T13:23:28"
 categories = ['apps-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/pandoc-cli"
 arch = "x86_64"
-size = "14839900"
-usize = "122952908"
-sha1sum = "4aba1880f4c5a55135979c0d46228a836f16eb9a"
-depends = "['pandoc']"
+size = "14858316"
+usize = "123628716"
+sha1sum = "6af11dfcb9c8e03115c3f68fe7ee004ed7c10246"
+depends = "['pandoc>=3.1.8']"
 +++
 Conversion between documentation formats

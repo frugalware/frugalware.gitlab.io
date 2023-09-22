@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "markdownpart 23.08.0-3"
-version = "23.08.0-3"
+title = "markdownpart 23.08.1-1"
+version = "23.08.1-1"
+date = "2023-09-14T20:48:57"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "35444"
+size = "35352"
 usize = "141954"
-sha1sum = "9f05d9df25536ea58a8f05cdc4bb64061e215db3"
+sha1sum = "43c6f85988613a96dd146686b2e6491f0d01c6e0"
 depends = "['kparts>=5.110.0']"
 +++
 KPart for rendering Markdown content

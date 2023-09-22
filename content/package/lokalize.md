@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "lokalize 23.08.0-3"
-version = "23.08.0-3"
+title = "lokalize 23.08.1-1"
+version = "23.08.1-1"
+date = "2023-09-14T15:12:21"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2369500"
-usize = "7780572"
-sha1sum = "8a7d6123f9d1b4ac001cef60abf3554b40e252ca"
+size = "2367364"
+usize = "7794645"
+sha1sum = "e1144a04d35f581822b718889ec712fe82a3be00"
 depends = "['kross>=5.110.0', 'hunspell>=1.7.0']"
 +++
 Computer-Aided Translation System.

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "sweeper 23.08.0-3"
-version = "23.08.0-3"
+title = "sweeper 23.08.1-1"
+version = "23.08.1-1"
+date = "2023-09-14T19:43:31"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "405936"
+size = "406540"
 usize = "870424"
-sha1sum = "891a8b02c6e77f7e3e4f3e3a91c33a4842159b70"
+sha1sum = "5b4a5511f23d8b9c319b805844bb7230f72d25c4"
 depends = "['ki18n>=5.110.0', 'kcrash>=5.110.0', 'kconfig>=5.110.0', 'kconfigwidgets>=5.110.0', 'kcoreaddons>=5.110.0', 'kdoctools>=5.110.0', 'kactivities-stats>=5.110.0']"
 +++
 System cleaner.

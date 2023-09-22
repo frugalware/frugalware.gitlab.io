@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kolf 23.08.0-3"
-version = "23.08.0-3"
+title = "kolf 23.08.1-1"
+version = "23.08.1-1"
+date = "2023-09-14T19:58:14"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1250056"
-usize = "3377216"
-sha1sum = "5edc1c08d8393c35bf66e42934e134af088f3421"
-depends = "['libkdegames>=23.08.0', 'kdelibs4support>=5.110.0']"
+size = "1250496"
+usize = "3377850"
+sha1sum = "7a5fcdd62d1b45ff4b6536d7e30671d5a09cc6c4"
+depends = "['libkdegames>=23.08.1', 'kdelibs4support>=5.110.0']"
 +++
 Kolf is a miniature golf game.

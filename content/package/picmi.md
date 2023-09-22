@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "picmi 23.08.0-3"
-version = "23.08.0-3"
+title = "picmi 23.08.1-1"
+version = "23.08.1-1"
+date = "2023-09-14T16:35:35"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1321972"
-usize = "2075440"
-sha1sum = "2e9058cc331f2b0705a3876a3ac32a229913e7c3"
-depends = "['kdelibs4support>=5.110.0', 'knotifyconfig>=5.110.0', 'libkdegames>=23.08.0']"
+size = "1322260"
+usize = "2075472"
+sha1sum = "39ca05f3f455255c4d5c1930b4fb2be7785d5edb"
+depends = "['kdelibs4support>=5.110.0', 'knotifyconfig>=5.110.0', 'libkdegames>=23.08.1']"
 +++
 A nonogram logic game for KDE.

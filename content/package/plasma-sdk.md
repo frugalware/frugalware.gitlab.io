@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "plasma-sdk 5.27.7.1-1"
-version = "5.27.7.1-1"
+title = "plasma-sdk 5.27.8-1"
+version = "5.27.8-1"
+date = "2023-09-15T10:15:10"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "390684"
-usize = "2013379"
-sha1sum = "7f6b1a82d38ae80ccfe29aba1438e2cc8fe2270c"
-depends = "['qt5-svg>=5.15.10', 'karchive>=5.108.0', 'kcompletion>=5.108.0', 'kconfig>=5.108.0', 'kconfigwidgets>=5.108.0', 'kcoreaddons>=5.108.0', 'kdbusaddons>=5.108.0', 'kdeclarative>=5.108.0', 'ki18n>=5.108.0', 'kiconthemes>=5.108.0', 'kio>=5.108.0', 'knewstuff>=5.108.0', 'kparts>=5.108.0', 'plasma-workspace>=5.27.7', 'kservice>=5.108.0', 'ktexteditor>=5.108.0', 'kwidgetsaddons>=5.108.0', 'kxmlgui>=5.108.0', 'kwindowsystem>=5.108.0', 'kirigami2', 'kdelibs4support', 'kdoctools', 'git']"
+size = "390944"
+usize = "2013397"
+sha1sum = "db9102c9c8482471f2fdd7970dae8b67b78b4d3c"
+depends = "['qt5-svg>=5.15.10', 'karchive>=5.110.0', 'kcompletion>=5.110.0', 'kconfig>=5.110.0', 'kconfigwidgets>=5.110.0', 'kcoreaddons>=5.110.0', 'kdbusaddons>=5.110.0', 'kdeclarative>=5.110.0', 'ki18n>=5.110.0', 'kiconthemes>=5.110.0', 'kio>=5.110.0', 'knewstuff>=5.110.0', 'kparts>=5.110.0', 'plasma-workspace>=5.27.8', 'kservice>=5.110.0', 'ktexteditor>=5.110.0', 'kwidgetsaddons>=5.110.0', 'kxmlgui>=5.110.0', 'kwindowsystem>=5.110.0', 'kirigami2', 'kdelibs4support', 'kdoctools', 'git']"
 +++
 Plasma SDK

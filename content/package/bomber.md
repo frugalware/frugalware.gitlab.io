@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "bomber 23.08.0-3"
-version = "23.08.0-3"
+title = "bomber 23.08.1-1"
+version = "23.08.1-1"
+date = "2023-09-14T15:53:11"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "884904"
-usize = "2302603"
-sha1sum = "cc7a3b95ac916fa68e3e0e93803dea364fee65e9"
-depends = "['libkdegames>=23.08.0']"
+size = "884768"
+usize = "2302586"
+sha1sum = "a5933a9740c0f4c62eefbc64af9aa41c905736dd"
+depends = "['libkdegames>=23.08.1']"
 +++
 A single player arcade game.

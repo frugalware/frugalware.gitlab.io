@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "koko 23.08.0-3"
-version = "23.08.0-3"
+title = "koko 23.08.1-1"
+version = "23.08.1-1"
+date = "2023-09-14T21:25:38"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "6979008"
-usize = "27406431"
-sha1sum = "f4c4e0afa649808c8b2fbf49500105cf41248da0"
+size = "6979000"
+usize = "27406932"
+sha1sum = "001352ab09b32e6fdf5ddc02a4b28f9a36ce3675"
 depends = "['kio', 'kfilemetadata5', 'qt5-location', 'kquickimageeditor', 'kdeclarative']"
 +++
 Image gallery application

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kross-interpreters 23.08.0-3"
-version = "23.08.0-3"
+title = "kross-interpreters 23.08.1-1"
+version = "23.08.1-1"
+date = "2023-09-14T15:01:44"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "58540"
+size = "58524"
 usize = "171775"
-sha1sum = "2e6fc64f91c5c8e6db5fdea03f5f858a8ef202f0"
+sha1sum = "0eee2ea35ced5dc42ac0eba0881d9cac20b1fbf6"
 depends = "['kdelibs4support>=5.110.0', 'kross>=5.110.0', 'ruby>=3.2.0']"
 +++
 Language interpreters to enable in-process scripting with Kross.

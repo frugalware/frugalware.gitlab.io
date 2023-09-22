@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "spirv-headers 1.3.239.0-1"
-version = "1.3.239.0-1"
+title = "spirv-headers 1.3.250.1-1"
+version = "1.3.250.1-1"
+date = "2023-07-31T14:05:54"
 categories = ['devel-extra']
+upstreamurl = "https://github.com/KhronosGroup/spirv-headers"
 arch = "x86_64"
-size = "107856"
-usize = "2810455"
-sha1sum = "66094e7928b1aa83ee481e141fa4da0706f6d994"
+size = "108876"
+usize = "2837621"
+sha1sum = "8fcb2ea8307d9fa422c4f906957db717a5664b10"
 depends = "['glibc>=2.35']"
 +++
 SPIRV-Headers

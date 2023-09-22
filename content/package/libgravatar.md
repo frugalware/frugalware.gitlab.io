@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libgravatar 23.08.0-3"
-version = "23.08.0-3"
+title = "libgravatar 23.08.1-1"
+version = "23.08.1-1"
+date = "2023-09-14T17:59:48"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "42732"
+size = "42776"
 usize = "162830"
-sha1sum = "e43178aff4a734dff3d00ba03dcfc008196d4bc1"
-depends = "['pimcommon>=23.08.0', 'akonadi>=23.08.0']"
+sha1sum = "551ba57404be0bb6b8eb7bda755b6f251e542c37"
+depends = "['pimcommon>=23.08.1', 'akonadi>=23.08.1']"
 +++
 A library that provides an interface for the Gravatar API

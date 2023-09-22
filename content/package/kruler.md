@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kruler 23.08.0-3"
-version = "23.08.0-3"
+title = "kruler 23.08.1-1"
+version = "23.08.1-1"
+date = "2023-09-14T15:02:58"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "278156"
-usize = "622156"
-sha1sum = "8f50a894261c69ed3e849ac06d391a3e56a7116e"
+size = "278016"
+usize = "622141"
+sha1sum = "afbac2ff7b0ffadcdc30fde1bc0afc3ae4034a19"
 depends = "['knotifications>=5.110.0', 'kxmlgui>=5.110.0']"
 +++
 KDE Ruler Widget.

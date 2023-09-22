@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kernel-docs 6.5.3-1"
-version = "6.5.3-1"
+title = "kernel-docs 6.5.4-1"
+version = "6.5.4-1"
+date = "2023-09-20T08:49:43"
 categories = ['devel-extra']
+upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "9089876"
-usize = "45895691"
-sha1sum = "4570bde796b03bcc5fd12d1ffe5f6970f14bfe20"
-depends = "['kernel=6.5.3']"
+size = "9085980"
+usize = "45895537"
+sha1sum = "98c2a751bad532fcd1e8e6f6721541401c0c9afb"
+depends = "['kernel=6.5.4']"
 +++
 Linux kernel documentation

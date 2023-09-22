@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libkmahjongg 23.08.0-3"
-version = "23.08.0-3"
+title = "libkmahjongg 23.08.1-1"
+version = "23.08.1-1"
+date = "2023-09-14T15:47:39"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2155948"
+size = "2155912"
 usize = "2314743"
-sha1sum = "915f031f3ff04a5c183533e7d53325fb24cfa51d"
+sha1sum = "d194ce328063aa5fda3662e2f708443a3538c6c8"
 depends = "['qt5-svg>=5.15.10', 'qt5-x11extras>=5.15.10', 'kcompletion>=5.110.0', 'kconfigwidgets>=5.110.0']"
 +++
 Library for KDE mahjongg games.

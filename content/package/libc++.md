@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libc++ 15.0.7-6"
-version = "15.0.7-6"
+title = "libc++ 16.0.6-2"
+version = "16.0.6-2"
+date = "2023-09-18T12:11:06"
 categories = ['lib-extra']
+upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "1128256"
-usize = "9274669"
-sha1sum = "7e95faf1e122073d5d99329967334c0e4763ec3a"
+size = "969172"
+usize = "8126555"
+sha1sum = "2dac5fd17555df18e9c81df18d67960b6c78e93b"
 depends = "['libgcc']"
 +++
 A new implementation of the C++ standard library

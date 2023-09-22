@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kcron 23.08.0-3"
-version = "23.08.0-3"
+title = "kcron 23.08.1-1"
+version = "23.08.1-1"
+date = "2023-09-14T14:34:51"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "989468"
-usize = "2017475"
-sha1sum = "a9b6dcdc1b4e9d35e2f9201f0f0be07394eeaf9d"
+size = "989584"
+usize = "2017442"
+sha1sum = "35ec5a3358aff70725567901c874835d9ca9f527"
 depends = "['kio>=5.110.0', 'kcmutils>=5.110.0', 'qt5-svg>=5.15.10']"
 +++
 KDE module for configure and schedule tasks.

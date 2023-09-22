@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kmix 23.08.0-3"
-version = "23.08.0-3"
+title = "kmix 23.08.1-1"
+version = "23.08.1-1"
+date = "2023-09-14T14:49:44"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1311368"
-usize = "3203452"
-sha1sum = "c4b3b0da9e47dc6d9607208618f1edcc43c28f0a"
+size = "1311544"
+usize = "3204579"
+sha1sum = "c9ac4c3feca9bfdf0a8b72371295d5d048926f88"
 depends = "['kdelibs4support>=5.110.0', 'plasma-framework>=5.110.0', 'libcanberra']"
 +++
 KDE volume control program
