@@ -2,9 +2,7 @@
 draft = false
 title = "imlib2 1.12.0-1"
 version = "1.12.0-1"
-date = "2023-08-20T18:50:28"
 categories = ['xlib']
-upstreamurl = "http://enlightenment.org"
 arch = "x86_64"
 size = "567188"
 usize = "1506635"
