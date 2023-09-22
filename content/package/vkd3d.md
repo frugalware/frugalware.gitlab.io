@@ -2,9 +2,7 @@
 draft = false
 title = "vkd3d 1.8-1"
 version = "1.8-1"
-date = "2023-07-27T17:32:47"
 categories = ['lib-extra']
-upstreamurl = "https://github.com/d3d12/vkd3d"
 arch = "x86_64"
 size = "421336"
 usize = "1790366"
