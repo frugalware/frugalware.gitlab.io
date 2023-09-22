@@ -2,9 +2,7 @@
 draft = false
 title = "qemu 8.1.0-1"
 version = "8.1.0-1"
-date = "2023-09-12T09:58:00"
 categories = ['xapps-extra']
-upstreamurl = "http://www.nongnu.org/qemu/"
 arch = "x86_64"
 size = "117166968"
 usize = "686445714"
