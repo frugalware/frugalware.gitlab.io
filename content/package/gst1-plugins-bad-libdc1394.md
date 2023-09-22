@@ -2,9 +2,7 @@
 draft = false
 title = "gst1-plugins-bad-libdc1394 1.22.5-2"
 version = "1.22.5-2"
-date = "2023-09-04T13:56:11"
 categories = ['xmultimedia']
-upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
 size = "19304"
 usize = "42776"
