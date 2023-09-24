@@ -2,9 +2,7 @@
 draft = false
 title = "cairo 1.17.8-4"
 version = "1.17.8-4"
-date = "2023-08-17T14:06:10"
 categories = ['xlib']
-upstreamurl = "http://cairographics.org"
 arch = "x86_64"
 size = "718508"
 usize = "2115391"
