@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-nss 3.93-2"
 version = "3.93-2"
-date = "2023-09-04T15:18:12"
 categories = ['lib32-extra']
-upstreamurl = "http://www.mozilla.org/projects/security/pki/nss/"
 arch = "x86_64"
 size = "1802872"
 usize = "6059493"

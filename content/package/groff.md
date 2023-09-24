@@ -2,9 +2,7 @@
 draft = false
 title = "groff 1.23.0-1"
 version = "1.23.0-1"
-date = "2023-07-10T07:38:12"
 categories = ['base']
-upstreamurl = "http://www.gnu.org/software/groff/groff.html"
 arch = "x86_64"
 size = "3715284"
 usize = "24283503"
