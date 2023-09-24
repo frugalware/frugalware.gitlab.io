@@ -2,9 +2,7 @@
 draft = false
 title = "man-db 2.11.2-1"
 version = "2.11.2-1"
-date = "2023-01-09T09:25:08"
 categories = ['base']
-upstreamurl = "http://www.nongnu.org/man-db/"
 arch = "x86_64"
 size = "490692"
 usize = "2128100"
