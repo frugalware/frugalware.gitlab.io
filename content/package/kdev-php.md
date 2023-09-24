@@ -2,9 +2,7 @@
 draft = false
 title = "kdev-php 23.08.0-1"
 version = "23.08.0-1"
-date = "2023-08-25T10:40:27"
 categories = ['devel-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1273696"
 usize = "8187537"
