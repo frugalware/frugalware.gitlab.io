@@ -2,9 +2,7 @@
 draft = false
 title = "swig 4.1.1-1"
 version = "4.1.1-1"
-date = "2022-12-12T12:59:13"
 categories = ['devel-extra']
-upstreamurl = "http://www.swig.org"
 arch = "x86_64"
 size = "1362780"
 usize = "6295897"
