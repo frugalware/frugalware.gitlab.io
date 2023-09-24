@@ -2,9 +2,7 @@
 draft = false
 title = "perl-xml-parser 2.46-3"
 version = "2.46-3"
-date = "2022-12-05T13:44:21"
 categories = ['devel']
-upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "142324"
 usize = "477259"
