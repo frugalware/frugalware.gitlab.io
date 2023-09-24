@@ -2,9 +2,7 @@
 draft = false
 title = "perl-appconfig 1.71-3"
 version = "1.71-3"
-date = "2022-02-15T14:22:15"
 categories = ['devel-extra']
-upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "69884"
 usize = "190491"
