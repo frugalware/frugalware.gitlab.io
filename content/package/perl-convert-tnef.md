@@ -2,9 +2,7 @@
 draft = false
 title = "perl-convert-tnef 0.18-6"
 version = "0.18-6"
-date = "2022-03-03T14:43:10"
 categories = ['devel-extra']
-upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "12444"
 usize = "32351"

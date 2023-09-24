@@ -2,9 +2,7 @@
 draft = false
 title = "perl-class-singleton 1.6-1"
 version = "1.6-1"
-date = "2022-03-15T07:08:39"
 categories = ['devel-extra']
-upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "10744"
 usize = "20579"
