@@ -2,9 +2,7 @@
 draft = false
 title = "seafile-client 9.0.3-1"
 version = "9.0.3-1"
-date = "2023-07-12T15:15:46"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/haiwen/seafile-client"
 arch = "x86_64"
 size = "1630988"
 usize = "4304223"
