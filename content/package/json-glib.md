@@ -2,9 +2,7 @@
 draft = false
 title = "json-glib 1.6.6-1"
 version = "1.6.6-1"
-date = "2021-12-19T19:20:58"
 categories = ['devel']
-upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "223568"
 usize = "1480443"
