@@ -2,9 +2,7 @@
 draft = false
 title = "vim 9.0.1897-1"
 version = "9.0.1897-1"
-date = "2023-09-12T12:01:07"
 categories = ['base']
-upstreamurl = "http://www.vim.org"
 arch = "x86_64"
 size = "8777452"
 usize = "41987106"
