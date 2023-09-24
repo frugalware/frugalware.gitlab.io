@@ -2,9 +2,7 @@
 draft = false
 title = "erlang 26.0.2-1"
 version = "26.0.2-1"
-date = "2023-07-12T19:54:09"
 categories = ['devel-extra']
-upstreamurl = "http://www.erlang.org/"
 arch = "x86_64"
 size = "59775040"
 usize = "309918506"
