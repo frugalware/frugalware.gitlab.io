@@ -2,9 +2,7 @@
 draft = false
 title = "perl-data-optlist 0.113-1"
 version = "0.113-1"
-date = "2023-02-21T14:03:46"
 categories = ['devel-extra']
-upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "13944"
 usize = "34886"
