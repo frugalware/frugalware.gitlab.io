@@ -2,9 +2,7 @@
 draft = false
 title = "perl-yaml-tiny 1.73-4"
 version = "1.73-4"
-date = "2022-02-21T15:28:31"
 categories = ['devel-extra']
-upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "28152"
 usize = "72398"
