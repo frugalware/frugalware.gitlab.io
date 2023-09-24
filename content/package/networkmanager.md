@@ -2,9 +2,7 @@
 draft = false
 title = "networkmanager 1.44.0-2"
 version = "1.44.0-2"
-date = "2023-09-04T14:30:57"
 categories = ['base']
-upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "4399928"
 usize = "26796747"
