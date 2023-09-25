@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-at-spi2-core 2.48.3-1"
 version = "2.48.3-1"
-date = "2023-06-06T14:34:53"
 categories = ['lib32-extra']
-upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "233304"
 usize = "1151565"
