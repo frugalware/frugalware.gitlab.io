@@ -2,9 +2,7 @@
 draft = false
 title = "perl-error 0.17029-1"
 version = "0.17029-1"
-date = "2023-02-21T14:13:25"
 categories = ['devel-extra']
-upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "31448"
 usize = "77185"
