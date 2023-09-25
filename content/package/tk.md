@@ -2,9 +2,7 @@
 draft = false
 title = "tk 8.6.12-1"
 version = "8.6.12-1"
-date = "2022-09-02T14:57:21"
 categories = ['xlib-extra']
-upstreamurl = "http://tcl.tk"
 arch = "x86_64"
 size = "1918700"
 usize = "6088099"
