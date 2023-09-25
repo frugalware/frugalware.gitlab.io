@@ -2,9 +2,7 @@
 draft = false
 title = "conky 1.19.2-1"
 version = "1.19.2-1"
-date = "2023-06-22T09:03:14"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/brndnmtthws/conky"
 arch = "x86_64"
 size = "560136"
 usize = "1171022"
