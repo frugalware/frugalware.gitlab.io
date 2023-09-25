@@ -2,9 +2,7 @@
 draft = false
 title = "libreoffice-scripting-beanshell 7.5.5.2-3"
 version = "7.5.5.2-3"
-date = "2023-09-07T14:35:51"
 categories = ['xapps-extra']
-upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
 size = "10512"
 usize = "0"

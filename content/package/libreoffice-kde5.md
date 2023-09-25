@@ -2,9 +2,7 @@
 draft = false
 title = "libreoffice-kde5 7.5.5.2-3"
 version = "7.5.5.2-3"
-date = "2023-09-07T14:35:51"
 categories = ['kde5']
-upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
 size = "244964"
 usize = "877096"
