@@ -2,9 +2,7 @@
 draft = false
 title = "perl-uri 5.19-1"
 version = "5.19-1"
-date = "2023-06-06T13:49:05"
 categories = ['devel']
-upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "84388"
 usize = "194444"
