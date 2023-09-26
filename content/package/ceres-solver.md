@@ -2,9 +2,7 @@
 draft = false
 title = "ceres-solver 2.1.0-3"
 version = "2.1.0-3"
-date = "2023-04-21T14:47:17"
 categories = ['lib-extra']
-upstreamurl = "http://ceres-solver.org"
 arch = "x86_64"
 size = "715924"
 usize = "2616604"
