@@ -2,9 +2,7 @@
 draft = false
 title = "firefox 117.0.1-1"
 version = "117.0.1-1"
-date = "2023-09-12T15:46:59"
 categories = ['xapps-extra']
-upstreamurl = "http://www.mozilla.org/products/firefox/"
 arch = "x86_64"
 size = "58082636"
 usize = "234932537"
