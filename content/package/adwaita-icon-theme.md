@@ -2,9 +2,7 @@
 draft = false
 title = "adwaita-icon-theme 44.0-1"
 version = "44.0-1"
-date = "2023-03-31T08:04:48"
 categories = ['xlib']
-upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "670540"
 usize = "13349383"
