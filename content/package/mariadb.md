@@ -2,9 +2,7 @@
 draft = false
 title = "mariadb 11.1.2-1"
 version = "11.1.2-1"
-date = "2023-09-12T09:08:29"
 categories = ['apps-extra']
-upstreamurl = "https://mariadb.org"
 arch = "x86_64"
 size = "64161632"
 usize = "474047433"
