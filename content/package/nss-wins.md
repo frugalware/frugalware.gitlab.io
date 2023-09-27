@@ -2,9 +2,7 @@
 draft = false
 title = "nss-wins 4.19.0-1"
 version = "4.19.0-1"
-date = "2023-09-07T14:12:41"
 categories = ['network']
-upstreamurl = "http://www.samba.org"
 arch = "x86_64"
 size = "16764"
 usize = "22368"

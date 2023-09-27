@@ -2,9 +2,7 @@
 draft = false
 title = "libsmbclient 4.19.0-1"
 version = "4.19.0-1"
-date = "2023-09-07T14:12:41"
 categories = ['lib']
-upstreamurl = "http://www.samba.org"
 arch = "x86_64"
 size = "7381988"
 usize = "34044025"
