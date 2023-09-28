@@ -2,9 +2,7 @@
 draft = false
 title = "libosinfo 1.10.0-1"
 version = "1.10.0-1"
-date = "2022-02-15T20:22:47"
 categories = ['lib-extra']
-upstreamurl = "https://pagure.org/libosinfo"
 arch = "x86_64"
 size = "806548"
 usize = "5399393"
