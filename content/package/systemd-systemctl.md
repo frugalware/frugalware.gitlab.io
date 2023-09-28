@@ -2,9 +2,7 @@
 draft = false
 title = "systemd-systemctl 254.4-1"
 version = "254.4-1"
-date = "2023-09-21T12:35:34"
 categories = ['base', 'core', 'systemd-utils']
-upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
 size = "122308"
 usize = "285152"

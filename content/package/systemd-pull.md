@@ -2,9 +2,7 @@
 draft = false
 title = "systemd-pull 254.4-1"
 version = "254.4-1"
-date = "2023-09-21T12:35:34"
 categories = ['network-extra']
-upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
 size = "61664"
 usize = "104512"
