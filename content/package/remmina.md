@@ -2,9 +2,7 @@
 draft = false
 title = "remmina 1.4.31-1"
 version = "1.4.31-1"
-date = "2023-07-25T13:33:41"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/FreeRDP/remmina"
 arch = "x86_64"
 size = "885368"
 usize = "4710544"
