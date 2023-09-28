@@ -2,9 +2,7 @@
 draft = false
 title = "webkit-gtk3 2.40.5-1"
 version = "2.40.5-1"
-date = "2023-09-06T07:07:43"
 categories = ['xlib-extra']
-upstreamurl = "http://www.webkitgtk.org"
 arch = "x86_64"
 size = "28300380"
 usize = "124807925"
