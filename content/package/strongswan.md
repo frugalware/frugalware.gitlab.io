@@ -2,9 +2,7 @@
 draft = false
 title = "strongswan 5.9.10-1"
 version = "5.9.10-1"
-date = "2023-03-05T19:25:31"
 categories = ['network-extra']
-upstreamurl = "http://www.strongswan.org/"
 arch = "x86_64"
 size = "1374328"
 usize = "5165310"
