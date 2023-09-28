@@ -2,9 +2,7 @@
 draft = false
 title = "seahorse 3.38.1-3"
 version = "3.38.1-3"
-date = "2023-07-10T09:41:58"
 categories = ['gnome-extra']
-upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "1323904"
 usize = "8411044"
