@@ -2,9 +2,7 @@
 draft = false
 title = "uhttpmock 0.5.3-1"
 version = "0.5.3-1"
-date = "2023-03-13T09:01:47"
 categories = ['gnome']
-upstreamurl = "https://gitorious.org/uhttpmock"
 arch = "x86_64"
 size = "66328"
 usize = "396241"
