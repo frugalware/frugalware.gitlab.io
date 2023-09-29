@@ -2,9 +2,7 @@
 draft = false
 title = "libxatracker 23.1.8-1"
 version = "23.1.8-1"
-date = "2023-09-21T12:05:57"
 categories = ['x11']
-upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
 size = "2542184"
 usize = "10594934"

@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libva-mesa-driver 23.1.8-1"
 version = "23.1.8-1"
-date = "2023-09-21T12:05:57"
 categories = ['lib32-extra']
-upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
 size = "3153436"
 usize = "20309944"
