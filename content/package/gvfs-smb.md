@@ -2,9 +2,7 @@
 draft = false
 title = "gvfs-smb 1.50.4-1"
 version = "1.50.4-1"
-date = "2023-04-26T21:03:21"
 categories = ['xapps-extra']
-upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "23760"
 usize = "94125"
