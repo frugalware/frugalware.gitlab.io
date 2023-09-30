@@ -2,9 +2,7 @@
 draft = false
 title = "kmod 30-5"
 version = "30-5"
-date = "2023-09-05T09:34:19"
 categories = ['base', 'core']
-upstreamurl = "http://kernel.org"
 arch = "x86_64"
 size = "133892"
 usize = "359062"
