@@ -2,9 +2,7 @@
 draft = false
 title = "python3-setuptools 67.6.0-1"
 version = "67.6.0-1"
-date = "2023-03-14T13:01:30"
 categories = ['devel-extra']
-upstreamurl = "http://pypi.python.org/pypi/setuptools"
 arch = "x86_64"
 size = "1088172"
 usize = "6047080"
