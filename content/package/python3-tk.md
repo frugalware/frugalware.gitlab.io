@@ -2,9 +2,7 @@
 draft = false
 title = "python3-tk 3.11.5-1"
 version = "3.11.5-1"
-date = "2023-09-04T14:01:56"
 categories = ['xlib-extra']
-upstreamurl = "http://www.python.org"
 arch = "x86_64"
 size = "335404"
 usize = "3755476"
