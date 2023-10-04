@@ -2,9 +2,7 @@
 draft = false
 title = "python3-pyqt6-sip 13.5.1-1"
 version = "13.5.1-1"
-date = "2023-06-05T07:42:06"
 categories = ['xlib-extra']
-upstreamurl = "http://www.riverbankcomputing.co.uk/software/sip"
 arch = "x86_64"
 size = "49108"
 usize = "142541"
