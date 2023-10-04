@@ -2,9 +2,7 @@
 draft = false
 title = "asciidoc 10.2.0-2"
 version = "10.2.0-2"
-date = "2022-11-02T19:52:44"
 categories = ['apps-extra']
-upstreamurl = "http://www.methods.co.nz/asciidoc/"
 arch = "x86_64"
 size = "418124"
 usize = "1543686"
