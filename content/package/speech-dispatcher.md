@@ -2,9 +2,7 @@
 draft = false
 title = "speech-dispatcher 0.11.5-1"
 version = "0.11.5-1"
-date = "2023-08-21T06:46:19"
 categories = ['xapps']
-upstreamurl = "https://devel.freebsoft.org/speechd"
 arch = "x86_64"
 size = "3944912"
 usize = "27895982"

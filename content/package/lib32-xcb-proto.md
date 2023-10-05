@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-xcb-proto 1.16.0-1"
 version = "1.16.0-1"
-date = "2023-08-17T12:56:54"
 categories = ['lib32-extra']
-upstreamurl = "http://xcb.freedesktop.org"
 arch = "x86_64"
 size = "2520"
 usize = "0"

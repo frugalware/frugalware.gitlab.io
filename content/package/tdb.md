@@ -2,9 +2,7 @@
 draft = false
 title = "tdb 1.4.9-1"
 version = "1.4.9-1"
-date = "2023-08-21T06:42:48"
 categories = ['apps']
-upstreamurl = "http://tdb.samba.org/"
 arch = "x86_64"
 size = "61744"
 usize = "236776"
