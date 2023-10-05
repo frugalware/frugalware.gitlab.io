@@ -2,9 +2,7 @@
 draft = false
 title = "python3-imagesize 1.4.1-3"
 version = "1.4.1-3"
-date = "2022-10-27T17:26:44"
 categories = ['devel-extra']
-upstreamurl = "http://pypi.python.org/pypi/imagesize"
 arch = "x86_64"
 size = "13292"
 usize = "37943"

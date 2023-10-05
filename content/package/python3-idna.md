@@ -2,9 +2,7 @@
 draft = false
 title = "python3-idna 3.4-5"
 version = "3.4-5"
-date = "2022-10-28T11:44:51"
 categories = ['devel']
-upstreamurl = "http://pypi.python.org/pypi/idna"
 arch = "x86_64"
 size = "84804"
 usize = "793618"
