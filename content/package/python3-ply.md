@@ -2,9 +2,7 @@
 draft = false
 title = "python3-ply 3.11-8"
 version = "3.11-8"
-date = "2022-10-27T17:56:08"
 categories = ['devel']
-upstreamurl = "http://www.dabeaz.com/ply"
 arch = "x86_64"
 size = "116464"
 usize = "485317"

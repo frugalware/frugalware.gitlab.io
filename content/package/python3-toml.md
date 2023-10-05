@@ -2,9 +2,7 @@
 draft = false
 title = "python3-toml 0.10.2-6"
 version = "0.10.2-6"
-date = "2022-10-27T18:38:33"
 categories = ['devel-extra']
-upstreamurl = "http://pypi.python.org/pypi/toml"
 arch = "x86_64"
 size = "39288"
 usize = "137124"
