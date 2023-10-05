@@ -2,9 +2,7 @@
 draft = false
 title = "chardet3 5.0.0-1"
 version = "5.0.0-1"
-date = "2022-10-28T12:09:19"
 categories = ['apps-extra']
-upstreamurl = "https://github.com/byroot/chardet"
 arch = "x86_64"
 size = "212532"
 usize = "2145417"
