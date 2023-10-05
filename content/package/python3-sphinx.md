@@ -2,9 +2,7 @@
 draft = false
 title = "python3-sphinx 7.1.0-1"
 version = "7.1.0-1"
-date = "2023-07-25T14:29:18"
 categories = ['devel-extra']
-upstreamurl = "http://pypi.python.org/pypi/Sphinx"
 arch = "x86_64"
 size = "2209548"
 usize = "19749682"

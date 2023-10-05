@@ -2,9 +2,7 @@
 draft = false
 title = "pyqt6 6.5.2-1"
 version = "6.5.2-1"
-date = "2023-07-24T16:52:33"
 categories = ['xlib-extra']
-upstreamurl = "http://www.riverbankcomputing.co.uk/"
 arch = "x86_64"
 size = "3768284"
 usize = "27341936"
