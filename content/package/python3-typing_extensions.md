@@ -2,9 +2,7 @@
 draft = false
 title = "python3-typing_extensions 4.7.1-1"
 version = "4.7.1-1"
-date = "2023-07-25T12:59:50"
 categories = ['devel-extra']
-upstreamurl = "http://pypi.python.org/pypi/typing-extensions"
 arch = "x86_64"
 size = "61708"
 usize = "406851"
