@@ -2,9 +2,7 @@
 draft = false
 title = "python3-appdirs 1.4.4-6"
 version = "1.4.4-6"
-date = "2022-10-27T16:42:22"
 categories = ['devel-extra']
-upstreamurl = "http://pypi.python.org/pypi/appdirs"
 arch = "x86_64"
 size = "15528"
 usize = "69757"
