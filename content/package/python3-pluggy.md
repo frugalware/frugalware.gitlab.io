@@ -2,9 +2,7 @@
 draft = false
 title = "python3-pluggy 1.0.0-2"
 version = "1.0.0-2"
-date = "2022-10-28T09:26:41"
 categories = ['devel-extra']
-upstreamurl = "http://pypi.python.org/pypi/pluggy"
 arch = "x86_64"
 size = "25900"
 usize = "90752"
