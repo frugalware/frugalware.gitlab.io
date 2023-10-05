@@ -2,9 +2,7 @@
 draft = false
 title = "python3-pygments 2.14.0-1"
 version = "2.14.0-1"
-date = "2023-02-21T10:35:16"
 categories = ['devel-extra']
-upstreamurl = "http://pygments.org/"
 arch = "x86_64"
 size = "1655048"
 usize = "7911939"
