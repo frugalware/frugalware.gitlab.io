@@ -2,9 +2,7 @@
 draft = false
 title = "python3-pytz 2022.7.1-1"
 version = "2022.7.1-1"
-date = "2023-02-21T10:37:34"
 categories = ['devel-extra']
-upstreamurl = "http://pythoinhosted.org/pytz/"
 arch = "x86_64"
 size = "146516"
 usize = "1068754"

@@ -2,9 +2,7 @@
 draft = false
 title = "python3-snowballstemmer 2.2.0-4"
 version = "2.2.0-4"
-date = "2022-10-27T18:24:10"
 categories = ['devel-extra']
-upstreamurl = "http://pypi.python.org/pypi/snowballstemmer"
 arch = "x86_64"
 size = "205860"
 usize = "1915395"

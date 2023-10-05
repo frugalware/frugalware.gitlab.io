@@ -2,9 +2,7 @@
 draft = false
 title = "python3-requests 2.31.0-1"
 version = "2.31.0-1"
-date = "2023-06-06T13:40:48"
 categories = ['devel']
-upstreamurl = "http://pypi.python.org/pypi/requests"
 arch = "x86_64"
 size = "106032"
 usize = "417950"
