@@ -2,9 +2,7 @@
 draft = false
 title = "python3-setuptools_scm 7.1.0-1"
 version = "7.1.0-1"
-date = "2023-02-21T11:50:46"
 categories = ['devel-extra']
-upstreamurl = "http://pypi.python.org/pypi/setuptools_scm"
 arch = "x86_64"
 size = "74692"
 usize = "415215"
