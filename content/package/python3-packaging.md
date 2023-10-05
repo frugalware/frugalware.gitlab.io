@@ -2,9 +2,7 @@
 draft = false
 title = "python3-packaging 23.0-1"
 version = "23.0-1"
-date = "2023-02-21T10:28:29"
 categories = ['devel-extra']
-upstreamurl = "http://pypi.python.org/pypi/packaging"
 arch = "x86_64"
 size = "77964"
 usize = "458834"
