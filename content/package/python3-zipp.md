@@ -2,9 +2,7 @@
 draft = false
 title = "python3-zipp 3.15.0-1"
 version = "3.15.0-1"
-date = "2023-03-14T12:48:25"
 categories = ['devel-extra']
-upstreamurl = "http://pypi.python.org/pypi/zipp"
 arch = "x86_64"
 size = "14584"
 usize = "62523"
