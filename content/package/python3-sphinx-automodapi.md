@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "python3-sphinx-automodapi 0.15.0-1"
-version = "0.15.0-1"
-date = "2023-03-14T12:49:02"
+title = "python3-sphinx-automodapi 0.16.0-1"
+version = "0.16.0-1"
+date = "2023-10-05T14:13:02"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/sphinx-automodapi"
 arch = "x86_64"
-size = "61240"
-usize = "279067"
-sha1sum = "ee131cd14552fe25c13dd79fe160637bedfad53e"
-depends = "['python3>=3.11']"
+size = "60320"
+usize = "247893"
+sha1sum = "eed849f68952512fa5c3708d68b4e96fd4f28d76"
+depends = "['python3>=3.12']"
 +++
 Sphinx extension for auto-generating API documentation for entire modules

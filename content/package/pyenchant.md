@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "pyenchant 3.2.2-3"
-version = "3.2.2-3"
-date = "2023-02-23T21:21:05"
+title = "pyenchant 3.2.2-4"
+version = "3.2.2-4"
+date = "2023-10-11T20:05:27"
 categories = ['lib-extra']
 upstreamurl = "http://pypi.python.org/pypi/pyenchant"
 arch = "x86_64"
-size = "72128"
-usize = "329280"
-sha1sum = "9100a42bbbe023cd242609d600f6047f23027e36"
+size = "71604"
+usize = "314549"
+sha1sum = "02dc1691f70b4ce47f846d36b27bbf43aff45734"
 depends = "['enchant', 'python3']"
 +++
 PyEnchant is a spellchecking library for Python.

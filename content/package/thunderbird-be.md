@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-be 115.2.2-1"
-version = "115.2.2-1"
+title = "thunderbird-be 115.3.1-1"
+version = "115.3.1-1"
+date = "2023-10-10T07:30:55"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "626724"
-usize = "694082"
-sha1sum = "cc8140930c777450397779e1d8c55de657922a6d"
-depends = "['thunderbird>=115.2.2']"
+size = "626764"
+usize = "694084"
+sha1sum = "e1d33596a94f776a9e4b10d9e979f977edc6702b"
+depends = "['thunderbird>=115.3.1']"
 +++
 Belarusian language support for Thunderbird

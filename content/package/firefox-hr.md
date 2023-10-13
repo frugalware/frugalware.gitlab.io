@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-hr 117.0.1-1"
-version = "117.0.1-1"
+title = "firefox-hr 118.0.1-1"
+version = "118.0.1-1"
+date = "2023-09-29T20:05:57"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "479888"
-usize = "533132"
-sha1sum = "40f8986ab2fb5a45bd37c129833b6e2db47439de"
-depends = "['firefox>=117.0.1']"
+size = "483292"
+usize = "536180"
+sha1sum = "4c03a4bf32d97ab2e05331552d946a8b197d1a47"
+depends = "['firefox>=118.0.1']"
 +++
 Croatian language support for Firefox

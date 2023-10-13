@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "python3-zipp 3.15.0-1"
-version = "3.15.0-1"
+title = "python3-zipp 3.17.0-1"
+version = "3.17.0-1"
+date = "2023-10-05T13:01:17"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/zipp"
 arch = "x86_64"
-size = "14584"
-usize = "62523"
-sha1sum = "0186d6c8a17bbe589bc9a0bf1b07839dbafbe725"
-depends = "['python3>=3.11']"
+size = "15172"
+usize = "63718"
+sha1sum = "27b8ac2366aa84d9cf932034724fb3224039f5ab"
+depends = "['python3>=3.12']"
 +++
 Pathlib-compatible object wrapper for zip files

@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "pyinotify 0.9.6-5"
-version = "0.9.6-5"
-date = "2022-12-12T13:58:57"
+title = "pyinotify 0.9.6-6"
+version = "0.9.6-6"
+date = "2023-10-11T18:37:39"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/seb-m/pyinotify"
 arch = "x86_64"
-size = "49644"
-usize = "207694"
-sha1sum = "d64d59ca20434dc3252e8c335f6a658d75e33644"
+size = "48324"
+usize = "200321"
+sha1sum = "0be1d80208734bfb8f6dd6f3bd0af76ea014b62a"
 depends = "['python3']"
 +++
 Pyinotify is a Python package used for monitoring filesystems events on Linux platforms with inotify.

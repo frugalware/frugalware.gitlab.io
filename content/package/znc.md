@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "znc 1.8.2-12"
-version = "1.8.2-12"
-date = "2023-04-20T08:31:18"
+title = "znc 1.8.2-13"
+version = "1.8.2-13"
+date = "2023-10-06T07:48:39"
 categories = ['network-extra']
 upstreamurl = "http://znc.in"
 arch = "x86_64"
-size = "2977144"
-usize = "14288123"
-sha1sum = "2c0a7d11516457cd2788c2e8519861a89528487f"
-depends = "['libstdc++', 'zlib>=1.2.12', 'openssl>=3.1.0', 'cyrus-sasl', 'icu4c>=73.1']"
+size = "3036272"
+usize = "14628091"
+sha1sum = "384bb8f68a3d28404e72923ad5c3a2458de7cebc"
+depends = "['libstdc++', 'zlib>=1.2.12', 'openssl>=3.1.0', 'cyrus-sasl', 'icu4c>=73.1', 'python3>=3.12']"
 +++
 An IRC bouncer with modules and scripts support.

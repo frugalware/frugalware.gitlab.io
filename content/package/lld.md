@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "lld 16.0.6-2"
-version = "16.0.6-2"
-date = "2023-09-18T12:11:06"
+title = "lld 16.0.6-3"
+version = "16.0.6-3"
+date = "2023-10-05T14:50:42"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "2904948"
-usize = "20077574"
-sha1sum = "1f46d4f559fcd07ccf83d7f9b70f776892e04033"
+size = "2903148"
+usize = "20077397"
+sha1sum = "cdcebd6099c4df67ef55bed6625dae363dd173e0"
 depends = "['llvm-libs>=16.0.6']"
 +++
 LLVM Linker

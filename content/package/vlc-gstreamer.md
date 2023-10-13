@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "vlc-gstreamer 3.0.18-14"
-version = "3.0.18-14"
-date = "2023-09-05T17:15:33"
+title = "vlc-gstreamer 3.0.18-15"
+version = "3.0.18-15"
+date = "2023-10-07T19:09:29"
 categories = ['xmultimedia-extra', 'vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "26728"
+size = "26784"
 usize = "46904"
-sha1sum = "11e16d2a2dd850251514d93e52a3b1ff86794e92"
+sha1sum = "9af11d011a4a2b4327ae491fae60c59a0559ca3f"
 depends = "['gst1-plugins-base', 'libvlc>=3.0.18']"
 +++
 vlc Gstreamer support

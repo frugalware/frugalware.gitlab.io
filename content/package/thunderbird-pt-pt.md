@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-pt-pt 115.2.2-1"
-version = "115.2.2-1"
+title = "thunderbird-pt-pt 115.3.1-1"
+version = "115.3.1-1"
+date = "2023-10-10T07:30:55"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "620588"
-usize = "687832"
-sha1sum = "7ee89daf46848514786b9347adeff50cc93f20d0"
-depends = "['thunderbird>=115.2.2']"
+size = "620728"
+usize = "687834"
+sha1sum = "b066f0846901283e092d2bd69d26893ac6a7a849"
+depends = "['thunderbird>=115.3.1']"
 +++
 Portuguese language support for Thunderbird

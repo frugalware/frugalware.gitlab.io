@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "scapy 2.4.5-2"
-version = "2.4.5-2"
-date = "2022-12-12T14:02:18"
+title = "scapy 2.5.0-1"
+version = "2.5.0-1"
+date = "2023-10-11T18:05:58"
 categories = ['network-extra']
 upstreamurl = "http://www.secdev.org/projects/scapy/"
 arch = "x86_64"
-size = "2366060"
-usize = "13312113"
-sha1sum = "182f465e6f015121957e0ea822d0a6764fe1b999"
+size = "2672620"
+usize = "14453123"
+sha1sum = "ec01839fdbcfe32fa2beabd9bdaf595d0c68a678"
 depends = "['python3']"
 +++
 Scapy is a powerful interactive packet manipulation program

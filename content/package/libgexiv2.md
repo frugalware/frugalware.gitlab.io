@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "libgexiv2 0.14.2-1"
-version = "0.14.2-1"
-date = "2023-08-14T15:18:52"
+title = "libgexiv2 0.14.2-2"
+version = "0.14.2-2"
+date = "2023-10-12T08:39:26"
 categories = ['lib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "106164"
-usize = "598281"
-sha1sum = "fffa4f3031e0e5c2757d0bdaebed29eb09893724"
+size = "111016"
+usize = "615267"
+sha1sum = "0516714c904d1b67a86fa2f1478aa7f21e35d371"
 depends = "['exiv2>=0.27', 'glib2>=2.60.0']"
 +++
 GObject-based wrapper around the Exiv2 library.

@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "newt-python3-snackmodule 0.52.23-3"
-version = "0.52.23-3"
-date = "2023-09-05T11:22:47"
+title = "newt-python3-snackmodule 0.52.23-4"
+version = "0.52.23-4"
+date = "2023-10-13T09:06:22"
 categories = ['apps-extra']
 upstreamurl = "https://pagure.io/newt"
 arch = "x86_64"
-size = "18712"
-usize = "73718"
-sha1sum = "21ad4efbf5596c24a23a34ed44bd2d553f700e89"
-depends = "['python3>=3.11']"
+size = "18684"
+usize = "73726"
+sha1sum = "713c55d1ebec4cb86828f9d3d9ed14740b47aaf5"
+depends = "['python3>=3.12']"
 +++
 Python3 snackmodule for newt

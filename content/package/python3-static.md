@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "python3-static 3.11.5-1"
-version = "3.11.5-1"
+title = "python3-static 3.12.0-1"
+version = "3.12.0-1"
+date = "2023-10-04T15:13:03"
 categories = ['devel-extra']
+upstreamurl = "http://www.python.org"
 arch = "x86_64"
-size = "23450760"
-usize = "35229316"
-sha1sum = "505a4c0b22bcd3c4bb6bc394493c5441ac9b529a"
+size = "29485144"
+usize = "42900460"
+sha1sum = "4988965e0a7dcf57508d75e41b838312a5e7f776"
 depends = "[]"
 +++
 Static files for python3

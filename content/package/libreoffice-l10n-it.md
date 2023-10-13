@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-it 7.5.5.2-3"
-version = "7.5.5.2-3"
+title = "libreoffice-l10n-it 7.6.2.1-2"
+version = "7.6.2.1-2"
+date = "2023-10-07T12:28:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4716336"
-usize = "36006750"
-sha1sum = "e5f82b6b001ce79ac99e09b7f33f4493bae030ce"
-depends = "['libreoffice>=7.5.5.2']"
+size = "4703648"
+usize = "36110133"
+sha1sum = "809677249a88e270906c99051af8491c9eda0b5e"
+depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Italian support in LibreOffice

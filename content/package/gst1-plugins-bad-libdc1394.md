@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "gst1-plugins-bad-libdc1394 1.22.5-2"
-version = "1.22.5-2"
+title = "gst1-plugins-bad-libdc1394 1.22.6-1"
+version = "1.22.6-1"
+date = "2023-09-22T15:02:42"
 categories = ['xmultimedia']
+upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "19304"
+size = "19324"
 usize = "42776"
-sha1sum = "50dd01650a161f0160a07e1db946c3c763d395c6"
-depends = "['gst1-plugins-base>=1.22.5', 'libdc1394>=2.2.7', 'gst1-plugins-bad>=1.22.5']"
+sha1sum = "ef4041f5ca3e6fc4572b9308be7f60b0103a4d7d"
+depends = "['gst1-plugins-base>=1.22.6', 'libdc1394>=2.2.7', 'gst1-plugins-bad>=1.22.6']"
 +++
 GStreamer libdc1394 plugin (Bad).

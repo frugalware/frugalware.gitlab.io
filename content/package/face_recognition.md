@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "face_recognition 1.3.0-2"
-version = "1.3.0-2"
-date = "2022-11-02T20:35:08"
+title = "face_recognition 1.3.0-3"
+version = "1.3.0-3"
+date = "2023-10-12T11:46:08"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/face_recognition"
 arch = "x86_64"
-size = "20276"
-usize = "90330"
-sha1sum = "e41a686fdba237c9f051fade8751acdf4016295b"
+size = "21668"
+usize = "90364"
+sha1sum = "a560fb79612b1407e149ed4f79347003255d608d"
 depends = "['face_recognition_models', 'python3-click', 'dlib', 'python3-numpy', 'python3-pillow', 'python3-scipy']"
 +++
 Fce_recognition python library

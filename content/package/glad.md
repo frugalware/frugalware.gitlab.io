@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "glad 2.0.4-1"
-version = "2.0.4-1"
-date = "2023-02-27T12:29:00"
+title = "glad 2.0.4-2"
+version = "2.0.4-2"
+date = "2023-10-12T11:07:59"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/Dav1dde/glad"
 arch = "x86_64"
-size = "446624"
-usize = "6079427"
-sha1sum = "017063f3e371f9d311238b06033421f5caad5059"
+size = "471052"
+usize = "6116674"
+sha1sum = "c173acf6358bf8de2cb606f078f6af12ae87853c"
 depends = "['python3-jinja', 'python3-lxml', 'python3-setuptools']"
 +++
 Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "scummvm-tools 2.7.0-1"
-version = "2.7.0-1"
+title = "scummvm-tools 2.7.0-2"
+version = "2.7.0-2"
+date = "2023-09-28T20:28:47"
 categories = ['games-extra']
+upstreamurl = "http://www.scummvm.org/"
 arch = "x86_64"
-size = "1061272"
-usize = "6080579"
-sha1sum = "be82fbaf7b6d5eadaa980437cba54a014d1e7e9f"
-depends = "['libpng>=1.4.3', 'wxwidgets>=3.1.0', 'flac>=1.4.0', 'libvorbis', 'scummvm>=2.7.0']"
+size = "1305456"
+usize = "7105522"
+sha1sum = "a1bd8491b3bde6400f83ce7e40d757d1fad6be03"
+depends = "['libpng>=1.4.3', 'wxwidgets>=3.2.2.1', 'flac>=1.4.0', 'libvorbis', 'scummvm>=2.7.0']"
 +++
 The ScummVM tools enable you to convert, compress and decode game datafiles for ScummVM

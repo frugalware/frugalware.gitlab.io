@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-bg 7.5.5.2-3"
-version = "7.5.5.2-3"
+title = "libreoffice-l10n-bg 7.6.2.1-2"
+version = "7.6.2.1-2"
+date = "2023-10-07T12:28:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4879648"
-usize = "42847938"
-sha1sum = "2cc764a225525a11a31f4bddc785204b70e1e5f6"
-depends = "['libreoffice>=7.5.5.2']"
+size = "4863592"
+usize = "42814867"
+sha1sum = "db33afe36eb7b5410f7fd377790d61821a72967e"
+depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Bulgarian support in LibreOffice

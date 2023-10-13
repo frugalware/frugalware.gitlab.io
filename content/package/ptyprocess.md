@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "ptyprocess 0.7.0-2"
-version = "0.7.0-2"
-date = "2022-12-12T12:49:53"
+title = "ptyprocess 0.7.0-3"
+version = "0.7.0-3"
+date = "2023-10-11T17:03:32"
 categories = ['lib-extra']
 upstreamurl = "http://pypi.python.org/pypi/ptyprocess"
 arch = "x86_64"
-size = "24772"
-usize = "83390"
-sha1sum = "9d968affb6787cc94af3194feb51c907a6697f05"
+size = "24264"
+usize = "80189"
+sha1sum = "faa5cc242d5738177640471c8cf5b32e93349847"
 depends = "['python3']"
 +++
 Launch a subprocess in a pseudo terminal (pty), and interact with both the process and its pty.

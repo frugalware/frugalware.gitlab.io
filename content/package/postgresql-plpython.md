@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "postgresql-plpython 15.4-1"
-version = "15.4-1"
-date = "2023-08-25T12:34:49"
+title = "postgresql-plpython 16.0-1"
+version = "16.0-1"
+date = "2023-10-07T14:26:11"
 categories = ['devel-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "43420"
-usize = "132168"
-sha1sum = "5918e601e8b23d1474a6137ade55e08ef41f267e"
-depends = "['python3', 'postgresql>=15.4']"
+size = "43048"
+usize = "128080"
+sha1sum = "84e53eb7a7a1d003d7da69ab513477eb1d6d8301"
+depends = "['python3>=3.12', 'postgresql>=16.0']"
 +++
 PostgreSQL python bindings

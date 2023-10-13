@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "python3-hatch-fancy-pypi-readme 22.8.0-1"
-version = "22.8.0-1"
-date = "2022-10-28T10:42:00"
+title = "python3-hatch-fancy-pypi-readme 23.1.0-1"
+version = "23.1.0-1"
+date = "2023-10-05T17:32:35"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/hynek/hatch-fancy-pypi-readme"
 arch = "x86_64"
-size = "17832"
-usize = "75975"
-sha1sum = "a90c909682fbadd5836a788ee356bf5ae2c9ffde"
+size = "18480"
+usize = "69789"
+sha1sum = "670aad73110fca4761ac43bcd2e6ba69cddc7f7e"
 depends = "['python3-hatchling']"
 +++
 Fancy PyPI READMEs with Hatch

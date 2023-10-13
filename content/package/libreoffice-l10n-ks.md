@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-ks 7.5.5.2-3"
-version = "7.5.5.2-3"
+title = "libreoffice-l10n-ks 7.6.2.1-2"
+version = "7.6.2.1-2"
+date = "2023-10-07T12:28:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "241232"
-usize = "1519997"
-sha1sum = "6c8c8624de4945b94d73a49d24fd0f091cf88acd"
-depends = "['libreoffice>=7.5.5.2']"
+size = "241248"
+usize = "1522601"
+sha1sum = "5c5ba53011aac57d24c99f68ef61bf88efca3f13"
+depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Kashmiri support in LibreOffice

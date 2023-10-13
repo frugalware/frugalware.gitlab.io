@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-br 7.5.5.2-3"
-version = "7.5.5.2-3"
+title = "libreoffice-l10n-br 7.6.2.1-2"
+version = "7.6.2.1-2"
+date = "2023-10-07T12:28:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "449004"
-usize = "2381424"
-sha1sum = "e19f0bff9ae6c80b145c688f6d297a494d0e0e74"
-depends = "['libreoffice>=7.5.5.2']"
+size = "447688"
+usize = "2374312"
+sha1sum = "47514a604e085d8cff47db363b1f5c4d7528543e"
+depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Breton support in LibreOffice

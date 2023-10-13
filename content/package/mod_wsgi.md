@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "mod_wsgi 4.9.4-1"
-version = "4.9.4-1"
-date = "2022-12-10T19:12:01"
+title = "mod_wsgi 4.9.4-2"
+version = "4.9.4-2"
+date = "2023-10-05T17:08:59"
 categories = ['network-extra']
 upstreamurl = "http://www.modpython.org/"
 arch = "x86_64"
-size = "96588"
-usize = "290595"
-sha1sum = "c55977087d99aeaa7b8c4510456bb79751258f6d"
-depends = "['apache>=2.4.35', 'python3']"
+size = "97828"
+usize = "294452"
+sha1sum = "2323baabfc8c0ac8b7993423acd0828e7317814e"
+depends = "['apache>=2.4.35', 'python3>=3.12']"
 +++
 Python WSGI adapter module for Apache.

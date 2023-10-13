@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "python3-gunicorn 20.1.0-3"
-version = "20.1.0-3"
-date = "2022-11-01T16:40:43"
+title = "python3-gunicorn 20.1.0-4"
+version = "20.1.0-4"
+date = "2023-10-12T10:01:27"
 categories = ['devel-extra']
 upstreamurl = "http://gunicorn.org/"
 arch = "x86_64"
-size = "157960"
-usize = "645260"
-sha1sum = "05ea76cb7e7b6c4509deedf616c88133ba0d4ba2"
+size = "153428"
+usize = "605495"
+sha1sum = "5953422d45d53fe8a23e4a2f2594d49feb6ef682"
 depends = "['python3>=3.10', 'python3-gevent', 'python3-eventlet']"
 +++
 WSGI HTTP Server for UNIX

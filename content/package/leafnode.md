@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "leafnode 1.11.11-2"
-version = "1.11.11-2"
+title = "leafnode 1.11.12-1"
+version = "1.11.12-1"
+date = "2023-09-25T11:42:41"
 categories = ['network-extra']
+upstreamurl = "https://sourceforge.net/projects/leafnode"
 arch = "x86_64"
-size = "315916"
-usize = "1022782"
-sha1sum = "5dfb3420cdefea7b8f8c198ca687284deb4482c6"
+size = "321416"
+usize = "924120"
+sha1sum = "d10e4865489aecd559e320e939c7e070f2822afe"
 depends = "['pcre>=8.32', 'inetd']"
 +++
 Leafnode is a caching Usenet news proxy

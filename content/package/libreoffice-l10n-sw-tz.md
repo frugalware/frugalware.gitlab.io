@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-sw-tz 7.5.5.2-3"
-version = "7.5.5.2-3"
+title = "libreoffice-l10n-sw-tz 7.6.2.1-2"
+version = "7.6.2.1-2"
+date = "2023-10-07T12:28:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "234368"
-usize = "1482959"
-sha1sum = "5725a6571f3d1187c01a3ebade014e15be064d35"
-depends = "['libreoffice>=7.5.5.2']"
+size = "234104"
+usize = "1485911"
+sha1sum = "123e1682797cf00eddcb598521365c799c3ecb15"
+depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Swahili support in LibreOffice

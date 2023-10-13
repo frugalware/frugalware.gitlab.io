@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-vec 7.5.5.2-3"
-version = "7.5.5.2-3"
+title = "libreoffice-l10n-vec 7.6.2.1-2"
+version = "7.6.2.1-2"
+date = "2023-10-07T12:28:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "531152"
-usize = "2771180"
-sha1sum = "2e10ab8f6125dc010171af29db3793757c6a2e16"
-depends = "['libreoffice>=7.5.5.2']"
+size = "527812"
+usize = "2758984"
+sha1sum = "5719a08edd3fff39408100cf56a710db0a0b40fd"
+depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Venetian support in LibreOffice

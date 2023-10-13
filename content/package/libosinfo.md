@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libosinfo 1.10.0-1"
-version = "1.10.0-1"
+title = "libosinfo 1.10.0-2"
+version = "1.10.0-2"
+date = "2023-09-28T08:23:48"
 categories = ['lib-extra']
+upstreamurl = "https://libosinfo.org"
 arch = "x86_64"
-size = "806548"
-usize = "5399393"
-sha1sum = "8328f0ba208bcce994c5ed3a219e9a231d8598fb"
-depends = "['glib2>=2.60.3', 'libsoup', 'libxslt']"
+size = "814312"
+usize = "5449525"
+sha1sum = "3a6cfe19c02c90a0412b46e7e0ea62080d67cd97"
+depends = "['glib2>=2.60.3', 'libsoup3', 'libxslt']"
 +++
 libosinfo is a GObject based library API for managing information about operating systems

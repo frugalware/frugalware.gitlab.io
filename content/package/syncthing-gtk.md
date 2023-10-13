@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "syncthing-gtk 0.9.4.4-6"
-version = "0.9.4.4-6"
-date = "2022-12-12T15:28:15"
+title = "syncthing-gtk 0.9.4.4-7"
+version = "0.9.4.4-7"
+date = "2023-10-12T12:14:12"
 categories = ['gnome-extra']
 upstreamurl = "http://syncthing.net/"
 arch = "x86_64"
-size = "616196"
-usize = "2097031"
-sha1sum = "6835e9395d711b22eb263b3657006ae2aab6e637"
+size = "609428"
+usize = "2021824"
+sha1sum = "d2a6d114c609a309f5de9e8dbb91037d997e0359"
 depends = "['gtk+3', 'libnotify', 'python3-dateutil', 'pygobject3-cairo', 'python3-bcrypt', 'syncthing>=0.13', 'libappindicator']"
 license = "MIT"
 +++

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "python3-sphinx-qthelp 1.0.3-8"
-version = "1.0.3-8"
+title = "python3-sphinx-qthelp 1.0.6-1"
+version = "1.0.6-1"
+date = "2023-10-05T12:09:09"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/sphinxcontrib-qthelp"
 arch = "x86_64"
-size = "21276"
-usize = "167443"
-sha1sum = "8a900e7ed15fb4cc15af7ffdf8e01831d1e57319"
-depends = "['python3>=3.11']"
+size = "24212"
+usize = "176895"
+sha1sum = "77f4e582b6fd31e8ae40c57b74510e3c69a7d40a"
+depends = "['python3>=3.12']"
 +++
 Sphinx extension which outputs QtHelp document

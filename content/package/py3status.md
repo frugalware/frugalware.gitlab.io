@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "py3status 3.49-1"
-version = "3.49-1"
+title = "py3status 3.53-2"
+version = "3.53-2"
+date = "2023-10-12T11:21:04"
 categories = ['x11-extra']
+upstreamurl = "http://www.ultrabug.fr/py3status/"
 arch = "x86_64"
-size = "555524"
-usize = "2610446"
-sha1sum = "7424aaf5b804d4da3b1f979236670013c8e3e797"
-depends = "['glibc', 'python3>=3.8.3', 'i3']"
+size = "561720"
+usize = "3872831"
+sha1sum = "42469388feef1827fa64a95136f60bf607c9d3cd"
+depends = "['glibc', 'python3-setuptools', 'i3']"
 +++
 py3status is an extensible i3status wrapper written in python

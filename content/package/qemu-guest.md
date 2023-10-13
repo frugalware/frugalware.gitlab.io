@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qemu-guest 8.1.0-1"
-version = "8.1.0-1"
+title = "qemu-guest 8.1.1-2"
+version = "8.1.1-2"
+date = "2023-09-27T14:34:17"
 categories = ['apps-extra']
+upstreamurl = "http://www.nongnu.org/qemu/"
 arch = "x86_64"
-size = "282088"
-usize = "1045237"
-sha1sum = "5d7396f37e4585b87ff03dbccce700bab5b4de75"
-depends = "['glib2']"
+size = "283852"
+usize = "1049333"
+sha1sum = "2525140efb527112339f7ef67f61073af7ffe3f8"
+depends = "['liburing']"
 +++
 Files for use in QEMU guests.

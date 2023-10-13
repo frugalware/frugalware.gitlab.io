@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-sr-latn 7.5.5.2-3"
-version = "7.5.5.2-3"
+title = "libreoffice-l10n-sr-latn 7.6.2.1-2"
+version = "7.6.2.1-2"
+date = "2023-10-07T12:28:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "196496"
-usize = "1238543"
-sha1sum = "4ebe1a5df516507df58e855bf67795189a68b0b0"
-depends = "['libreoffice>=7.5.5.2']"
+size = "196260"
+usize = "1240170"
+sha1sum = "ffe70742c9baf03031d9cf05754fef61a7f517b4"
+depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Serbian (Latin) support in LibreOffice

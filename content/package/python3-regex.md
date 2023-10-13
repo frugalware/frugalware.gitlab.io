@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "python3-regex 2022.10.31-1"
-version = "2022.10.31-1"
-date = "2023-02-21T10:39:34"
+title = "python3-regex 2023.10.3-1"
+version = "2023.10.3-1"
+date = "2023-10-07T09:51:50"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/regex"
 arch = "x86_64"
-size = "353380"
-usize = "1887932"
-sha1sum = "9edaed6baa214950ed869949496cfa141aabc4af"
-depends = "['python3>=3.11']"
+size = "348644"
+usize = "1830010"
+sha1sum = "941aadef7076e269b379dc7c85b0df8b4a3bed80"
+depends = "['python3>=3.12']"
 +++
 Alternative python regular expression module.

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-kn 7.5.5.2-3"
-version = "7.5.5.2-3"
+title = "libreoffice-l10n-kn 7.6.2.1-2"
+version = "7.6.2.1-2"
+date = "2023-10-07T12:28:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "391936"
-usize = "2629476"
-sha1sum = "20856ca8708670d1b846ce598fea45546e67ec74"
-depends = "['libreoffice>=7.5.5.2']"
+size = "390672"
+usize = "2621389"
+sha1sum = "20573168679d566894b6974bcb6dd7fe9fc4e24d"
+depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Kannada support in LibreOffice

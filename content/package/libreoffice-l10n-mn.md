@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-mn 7.5.5.2-3"
-version = "7.5.5.2-3"
+title = "libreoffice-l10n-mn 7.6.2.1-2"
+version = "7.6.2.1-2"
+date = "2023-10-07T12:28:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "626080"
-usize = "3335729"
-sha1sum = "3750a230cf98215ae9756335167deee4ca8fdd44"
-depends = "['libreoffice>=7.5.5.2']"
+size = "621520"
+usize = "3312532"
+sha1sum = "d0b5e8ff57cdc59eef9e3cd26031880636ca3d00"
+depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Mongolian support in LibreOffice

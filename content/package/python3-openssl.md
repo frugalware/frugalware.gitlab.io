@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "python3-openssl 23.0.0-1"
-version = "23.0.0-1"
-date = "2023-02-21T10:25:48"
+title = "python3-openssl 23.0.0-2"
+version = "23.0.0-2"
+date = "2023-10-12T08:04:45"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/pyca/pyopenssl"
 arch = "x86_64"
-size = "104240"
-usize = "517137"
-sha1sum = "f893dad9663609f6fdc4d47fdf6ee9fbd892065d"
+size = "102840"
+usize = "504604"
+sha1sum = "91fd54d89ac8fb7b6778a70fac8559f0b2661e1c"
 depends = "['openssl', 'python3-cryptography']"
 +++
 Python interface to the OpenSSL library

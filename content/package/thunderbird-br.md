@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-br 115.2.2-1"
-version = "115.2.2-1"
+title = "thunderbird-br 115.3.1-1"
+version = "115.3.1-1"
+date = "2023-10-10T07:30:55"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "560804"
-usize = "626487"
-sha1sum = "0eb2e3d6fd9a267524a5b7043c4814859a3b58cb"
-depends = "['thunderbird>=115.2.2']"
+size = "560996"
+usize = "626489"
+sha1sum = "5d6c508879f43d3cee08287987513a61beb74613"
+depends = "['thunderbird>=115.3.1']"
 +++
 Breton language support for Thunderbird

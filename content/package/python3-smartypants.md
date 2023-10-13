@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "python3-smartypants 2.0.1-6"
-version = "2.0.1-6"
-date = "2022-10-27T18:22:54"
+title = "python3-smartypants 2.0.1-7"
+version = "2.0.1-7"
+date = "2023-10-11T18:55:57"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/leohemsted/smartypants.py"
 arch = "x86_64"
-size = "13040"
-usize = "46446"
-sha1sum = "d54424875adb81d6661911364797caa4dd3cd3ea"
+size = "12808"
+usize = "45183"
+sha1sum = "0219220acd8f30658b94a55bf97f52f6ad06519f"
 depends = "['python3>=3.11']"
 +++
 Python with the SmartyPants

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-de 117.0.1-1"
-version = "117.0.1-1"
+title = "firefox-de 118.0.1-1"
+version = "118.0.1-1"
+date = "2023-09-29T20:05:57"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "527664"
-usize = "578123"
-sha1sum = "8b63855876734d2fe14716da03c842ccbb8ef10f"
-depends = "['firefox>=117.0.1']"
+size = "532612"
+usize = "583333"
+sha1sum = "f532796214280bd773efa8495be6c48f1d4cc0ba"
+depends = "['firefox>=118.0.1']"
 +++
 German language support for Firefox

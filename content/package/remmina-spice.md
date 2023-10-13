@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "remmina-spice 1.4.31-1"
-version = "1.4.31-1"
+title = "remmina-spice 1.4.33-3"
+version = "1.4.33-3"
+date = "2023-10-05T19:41:05"
 categories = ['xapps-extra']
+upstreamurl = "https://github.com/FreeRDP/remmina"
 arch = "x86_64"
-size = "10984"
+size = "11644"
 usize = "31000"
-sha1sum = "aff03406644e097eff322764402aacfd27f2e467"
+sha1sum = "c6c8795ef2a562b11388f0df629ae85426a69c84"
 depends = "['spice-gtk']"
 +++
 spice plugin for remmina

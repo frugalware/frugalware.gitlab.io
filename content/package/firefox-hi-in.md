@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-hi-in 117.0.1-1"
-version = "117.0.1-1"
+title = "firefox-hi-in 118.0.1-1"
+version = "118.0.1-1"
+date = "2023-09-29T20:05:57"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "487080"
-usize = "543573"
-sha1sum = "7384e2cd9a23767363d8f03e4bea61664a384483"
-depends = "['firefox>=117.0.1']"
+size = "488804"
+usize = "545208"
+sha1sum = "93bca07a0d14ed9eb72f9bc279c4a7e35a6da544"
+depends = "['firefox>=118.0.1']"
 +++
 Hindi language support for Firefox

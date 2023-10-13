@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-gu 7.5.5.2-3"
-version = "7.5.5.2-3"
+title = "libreoffice-l10n-gu 7.6.2.1-2"
+version = "7.6.2.1-2"
+date = "2023-10-07T12:28:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "3675896"
-usize = "31757997"
-sha1sum = "42bd555eaaf0f180d5ba5291a96064592596b32a"
-depends = "['libreoffice>=7.5.5.2']"
+size = "3639328"
+usize = "31760843"
+sha1sum = "ba619a371a5970f3e9d198dd63bca2afa92a1823"
+depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Gujarati support in LibreOffice

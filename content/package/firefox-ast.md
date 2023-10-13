@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-ast 117.0.1-1"
-version = "117.0.1-1"
+title = "firefox-ast 118.0.1-1"
+version = "118.0.1-1"
+date = "2023-09-29T20:05:57"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "421048"
-usize = "477431"
-sha1sum = "c361993be7058c835935dc862dad27c967072053"
-depends = "['firefox>=117.0.1']"
+size = "422260"
+usize = "478762"
+sha1sum = "dc1b15105a303611a64816f73ee916af6497cd22"
+depends = "['firefox>=118.0.1']"
 +++
 Asturian language support for Firefox

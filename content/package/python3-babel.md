@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "python3-babel 2.12.1-1"
-version = "2.12.1-1"
+title = "python3-babel 2.13.0-1"
+version = "2.13.0-1"
+date = "2023-10-05T10:40:33"
 categories = ['devel-extra']
+upstreamurl = "http://babel.edgewall.org"
 arch = "x86_64"
-size = "6179300"
-usize = "32443630"
-sha1sum = "3b35e7981a4761483632c30f916c361303a8b91c"
-depends = "['python3>=3.10', 'python3-pytz']"
+size = "6172780"
+usize = "32385118"
+sha1sum = "3be31bc788a5a8fc5fadd2aa38b50082fe4fea85"
+depends = "['python3>=3.12', 'python3-pytz']"
 +++
 A collection of tools for internationalizing Python applications

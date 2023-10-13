@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "libsignon-glib 2.1-8"
-version = "2.1-8"
-date = "2022-11-03T12:47:04"
+title = "libsignon-glib 2.1-9"
+version = "2.1-9"
+date = "2023-10-11T17:45:42"
 categories = ['xlib']
 upstreamurl = "https://gitlab.com/accounts-sso/libsignon-glib"
 arch = "x86_64"
-size = "91776"
-usize = "652840"
-sha1sum = "15b81c5cf3d7d89ac59eb1dc9a36d26d901c486c"
+size = "75808"
+usize = "599638"
+sha1sum = "ed65cba0785b58b87229e4e7816bf39064da77ae"
 depends = "['signon>=8.60-3']"
 +++
 GLib-based client library for applications handling account authentication through the Online Accounts Single Sign-On service.

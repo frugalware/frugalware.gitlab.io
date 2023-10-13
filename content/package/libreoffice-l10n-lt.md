@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-lt 7.5.5.2-3"
-version = "7.5.5.2-3"
+title = "libreoffice-l10n-lt 7.6.2.1-2"
+version = "7.6.2.1-2"
+date = "2023-10-07T12:28:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4537756"
-usize = "34301031"
-sha1sum = "b116b32e73edec2e4d09654409e57f47216ab701"
-depends = "['libreoffice>=7.5.5.2']"
+size = "4494056"
+usize = "34253971"
+sha1sum = "59edde059acbf72e6fb29a7a8f4f554d0216721c"
+depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Lithuanian support in LibreOffice

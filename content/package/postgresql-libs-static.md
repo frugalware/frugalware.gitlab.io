@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "postgresql-libs-static 15.4-1"
-version = "15.4-1"
-date = "2023-08-25T12:34:49"
+title = "postgresql-libs-static 16.0-1"
+version = "16.0-1"
+date = "2023-10-07T14:26:11"
 categories = ['devel-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "2849476"
-usize = "4230850"
-sha1sum = "586b5392b43f2d65fdb34475c208b2a10d22b180"
+size = "2897460"
+usize = "4300626"
+sha1sum = "b804ec3ae387c20801cf29f3f6150be853dbf656"
 depends = "[]"
 +++
 Static files for postgresql

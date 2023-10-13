@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "python3-numpy-static 1.25.2-1"
-version = "1.25.2-1"
-date = "2023-09-10T19:47:02"
+title = "python3-numpy-static 1.26.0-1"
+version = "1.26.0-1"
+date = "2023-10-06T11:43:32"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/numpy"
 arch = "x86_64"
-size = "167276"
-usize = "261498"
-sha1sum = "7349ac537822206aa966a59c4ffc11f4d0ac0967"
+size = "168424"
+usize = "261674"
+sha1sum = "f50f654a742e10f95595d3e25e99b20eba5829ce"
 depends = "['python3>=3.11']"
 +++
 Numerical Python3 static files.

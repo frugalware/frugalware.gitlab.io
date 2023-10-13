@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "pyspf 2.0.14-3"
-version = "2.0.14-3"
-date = "2022-11-02T19:42:34"
+title = "pyspf 2.0.14-4"
+version = "2.0.14-4"
+date = "2023-10-11T17:18:52"
 categories = ['network-extra']
 upstreamurl = "http://pypi.python.org/pypi/pyspf"
 arch = "x86_64"
-size = "68948"
-usize = "258940"
-sha1sum = "0e79b801bbc2801ff5f6a117b5860defde7fcc8f"
+size = "51228"
+usize = "196143"
+sha1sum = "87c1de261732ae1ecc4cafa536e6dd0e200eba39"
 depends = "['python3>=3.10']"
 +++
 SPF (Sender Policy Framework) implemented in Python

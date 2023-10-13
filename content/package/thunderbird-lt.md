@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-lt 115.2.2-1"
-version = "115.2.2-1"
+title = "thunderbird-lt 115.3.1-1"
+version = "115.3.1-1"
+date = "2023-10-10T07:30:55"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "615428"
+size = "615536"
 usize = "680094"
-sha1sum = "293347af081b644a1b2b114de4c6e242e11cfc70"
-depends = "['thunderbird>=115.2.2']"
+sha1sum = "41eeee0e8537c0fd13eb8a39cc4735b1eedcb404"
+depends = "['thunderbird>=115.3.1']"
 +++
 Lithuanian language support for Thunderbird

@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "pyyaml3 5.3.1-5"
-version = "5.3.1-5"
-date = "2022-11-02T19:45:28"
+title = "pyyaml3 5.3.1-6"
+version = "5.3.1-6"
+date = "2023-10-11T20:07:59"
 categories = ['devel-extra']
 upstreamurl = "http://pyyaml.org/wiki/PyYAML"
 arch = "x86_64"
-size = "103244"
-usize = "516959"
-sha1sum = "e6fe831dee27a804e0b3e878b4f825a59c992cb2"
+size = "99712"
+usize = "484980"
+sha1sum = "5ea9a2016a83c853a0728c4c8a459751cd1ae0d8"
 depends = "['python3>=3.9.6', 'libyaml']"
 +++
 a complete python YAML 1.1 parser

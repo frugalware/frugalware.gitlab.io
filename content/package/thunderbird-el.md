@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-el 115.2.2-1"
-version = "115.2.2-1"
+title = "thunderbird-el 115.3.1-1"
+version = "115.3.1-1"
+date = "2023-10-10T07:30:55"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "779448"
+size = "779568"
 usize = "837360"
-sha1sum = "f392c5f5e88e131923abaea0a42b6c2760d7d2fa"
-depends = "['thunderbird>=115.2.2']"
+sha1sum = "40c0edf963be82653cf82154b99b822b899bfe12"
+depends = "['thunderbird>=115.3.1']"
 +++
 Modern Greek (1453-) language support for Thunderbird

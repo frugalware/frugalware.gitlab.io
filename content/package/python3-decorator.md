@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "python3-decorator 5.1.1-4"
-version = "5.1.1-4"
-date = "2022-10-27T17:07:03"
+title = "python3-decorator 5.1.1-5"
+version = "5.1.1-5"
+date = "2023-10-11T17:01:58"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/decorator"
 arch = "x86_64"
-size = "17932"
-usize = "48123"
-sha1sum = "12f8f7168602725df2267b5d70c10b09299c8888"
+size = "17584"
+usize = "44968"
+sha1sum = "364d9174181d1c667487140b6919d47056fcdcba"
 depends = "['python3>=3.11']"
 +++
 Simplify the usage of python decorators for the average programmer

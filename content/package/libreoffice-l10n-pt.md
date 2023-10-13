@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-pt 7.5.5.2-3"
-version = "7.5.5.2-3"
+title = "libreoffice-l10n-pt 7.6.2.1-2"
+version = "7.6.2.1-2"
+date = "2023-10-07T12:28:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4558008"
-usize = "34841135"
-sha1sum = "2a70924942ac23a8c6d7f050c49e97e396bcabc1"
-depends = "['libreoffice>=7.5.5.2']"
+size = "4528504"
+usize = "34820735"
+sha1sum = "d20398b220683e5629906136a310e693e12de7ec"
+depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Portuguese support in LibreOffice

@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "python3-toposort 1.10-1"
-version = "1.10-1"
-date = "2023-03-14T12:47:09"
+title = "python3-toposort 1.10-2"
+version = "1.10-2"
+date = "2023-10-11T18:28:34"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/toposort"
 arch = "x86_64"
-size = "11372"
-usize = "32483"
-sha1sum = "9e325f8c161c0fcd5e21f0aea04007d3d321e22e"
+size = "11396"
+usize = "30803"
+sha1sum = "a167ce5f3e0a430316bb230298ab5f93e4ee7d3e"
 depends = "['python3>=3.11']"
 +++
 Implements a topological sort algorithm

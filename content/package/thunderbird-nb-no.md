@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-nb-no 115.2.2-1"
-version = "115.2.2-1"
+title = "thunderbird-nb-no 115.3.1-1"
+version = "115.3.1-1"
+date = "2023-10-10T07:30:55"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "585568"
-usize = "653865"
-sha1sum = "de4fa343fffd0e58549a3a77a53ace179a2481fc"
-depends = "['thunderbird>=115.2.2']"
+size = "585668"
+usize = "653868"
+sha1sum = "a5c0ced4c336f9d896815c9e7eeea5003c2ac16d"
+depends = "['thunderbird>=115.3.1']"
 +++
 Norwegian Bokmål language support for Thunderbird

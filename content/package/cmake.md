@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "cmake 3.27.5-1"
-version = "3.27.5-1"
+title = "cmake 3.27.6-1"
+version = "3.27.6-1"
+date = "2023-09-25T09:29:35"
 categories = ['devel-extra']
+upstreamurl = "https://cmake.org"
 arch = "x86_64"
-size = "13521520"
-usize = "44653873"
-sha1sum = "02a0a6db405909b4343b44c3372f39e223897e19"
+size = "13520956"
+usize = "44645698"
+sha1sum = "cf659638830a36103e8cb0e99e91c52f23b7b2c8"
 depends = "['ncurses>=6.0-18', 'libarchive>=3.2.1', 'lz4']"
 +++
 Cross platform make

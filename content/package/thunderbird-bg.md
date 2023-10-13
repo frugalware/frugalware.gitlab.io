@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-bg 115.2.2-1"
-version = "115.2.2-1"
+title = "thunderbird-bg 115.3.1-1"
+version = "115.3.1-1"
+date = "2023-10-10T07:30:55"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "611500"
-usize = "681251"
-sha1sum = "cc3925a4e038b450177800ea78272d09b9f21827"
-depends = "['thunderbird>=115.2.2']"
+size = "611608"
+usize = "681253"
+sha1sum = "352d63ae3c23d39e64cf661a8db26e2f4a62514a"
+depends = "['thunderbird>=115.3.1']"
 +++
 Bulgarian language support for Thunderbird

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "pyqt6 6.5.2-1"
-version = "6.5.2-1"
+title = "pyqt6 6.5.2-2"
+version = "6.5.2-2"
+date = "2023-10-05T10:22:00"
 categories = ['xlib-extra']
+upstreamurl = "http://www.riverbankcomputing.co.uk/"
 arch = "x86_64"
-size = "3768284"
-usize = "27341936"
-sha1sum = "1c4ceb5588eaef95bc7415b9314db6fa43a9c42f"
+size = "3781584"
+usize = "27502831"
+sha1sum = "15abd71300c07d0ed57e449bb21608422cd2be84"
 depends = "['qt6-base', 'python3-pyqt6-sip']"
 +++
 PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit.

@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "python3-bcrypt 4.0.1-1"
-version = "4.0.1-1"
-date = "2022-12-12T15:24:36"
+title = "python3-bcrypt 4.0.1-2"
+version = "4.0.1-2"
+date = "2023-10-11T21:00:26"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/bcrypt"
 arch = "x86_64"
-size = "178612"
-usize = "495730"
-sha1sum = "5e42ef00f71259ab7038c653078c1b5774302150"
+size = "198864"
+usize = "547869"
+sha1sum = "77edb13c5fcb7323d60c5e2f2cffd0df16fa9909"
 depends = "['python3-cffi', 'python3-six']"
 +++
 Modern password hashing for your software and your servers

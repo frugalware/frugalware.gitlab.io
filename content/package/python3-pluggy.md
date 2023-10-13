@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "python3-pluggy 1.0.0-2"
-version = "1.0.0-2"
+title = "python3-pluggy 1.3.0-1"
+version = "1.3.0-1"
+date = "2023-10-05T12:19:34"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/pluggy"
 arch = "x86_64"
-size = "25900"
-usize = "90752"
-sha1sum = "90108b99a0aa4c1322737d6b189dd6b0ba34f2f6"
-depends = "['python3>=3.11']"
+size = "36560"
+usize = "135863"
+sha1sum = "f0b941a22d591971533ea646b18918873d1941df"
+depends = "['python3>=3.12']"
 +++
 Plugin and hook calling mechanisms for python

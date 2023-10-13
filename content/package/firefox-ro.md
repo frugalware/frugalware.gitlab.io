@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-ro 117.0.1-1"
-version = "117.0.1-1"
+title = "firefox-ro 118.0.1-1"
+version = "118.0.1-1"
+date = "2023-09-29T20:05:57"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "471568"
-usize = "525859"
-sha1sum = "a52e31c3cf9c6ebfc573d6f4bbd578f4cbc2a145"
-depends = "['firefox>=117.0.1']"
+size = "473172"
+usize = "527800"
+sha1sum = "b8ac995eba174e2f4a10102992b4ed09b6405981"
+depends = "['firefox>=118.0.1']"
 +++
 Romanian language support for Firefox

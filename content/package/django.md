@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "django 4.1.7-1"
-version = "4.1.7-1"
-date = "2023-02-27T10:15:25"
+title = "django 4.1.7-2"
+version = "4.1.7-2"
+date = "2023-10-11T16:55:59"
 categories = ['devel-extra']
 upstreamurl = "https://www.djangoproject.com"
 arch = "x86_64"
-size = "4668948"
-usize = "29264438"
-sha1sum = "9aa4b91787fe216d2242cf1b6947627367fcf11f"
+size = "4600636"
+usize = "28327724"
+sha1sum = "fcd1e15a2ddffcb652238530460e19e76e660caf"
 depends = "['python3>=3.10']"
 +++
 Django is a Python web framework

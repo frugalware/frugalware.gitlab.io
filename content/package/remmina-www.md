@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "remmina-www 1.4.31-1"
-version = "1.4.31-1"
+title = "remmina-www 1.4.33-3"
+version = "1.4.33-3"
+date = "2023-10-05T19:41:05"
 categories = ['xapps-extra']
+upstreamurl = "https://github.com/FreeRDP/remmina"
 arch = "x86_64"
-size = "11420"
+size = "11564"
 usize = "34768"
-sha1sum = "22204eabdd544fa4d105f280c5cecdd9405c2745"
-depends = "['webkit-gtk3']"
+sha1sum = "85c293bdf8e1ef0ba333f09810a765fd0f59525d"
+depends = "['webkit-gtk3>=2.42.1']"
 +++
 ww plugin for remmina

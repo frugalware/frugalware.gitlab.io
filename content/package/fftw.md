@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "fftw 3.3.10-2"
-version = "3.3.10-2"
-date = "2021-12-26T22:39:47"
+title = "fftw 3.3.10-3"
+version = "3.3.10-3"
+date = "2023-10-08T14:56:03"
 categories = ['lib']
 upstreamurl = "http://www.fftw.org/"
 arch = "x86_64"
-size = "1210136"
-usize = "4358791"
-sha1sum = "90938bf448eaf49d6fb93e6458b8bc156bc32c62"
+size = "1170996"
+usize = "4061321"
+sha1sum = "5d309da985bdfaff4f87c064d8cc0ece77b25bca"
 depends = "['glibc>=2.34']"
 license = "GPL-2"
 +++

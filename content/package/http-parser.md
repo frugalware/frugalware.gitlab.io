@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "http-parser 2.9.4-2"
-version = "2.9.4-2"
-categories = ['lib-extra']
+title = "http-parser 2.9.4-3"
+version = "2.9.4-3"
+date = "2023-09-22T12:29:03"
+categories = ['lib']
+upstreamurl = "https://github.com/nodejs/http-parser"
 arch = "x86_64"
-size = "22928"
-usize = "74110"
-sha1sum = "fde820321d354abbdf6d412353aeb19bab2791af"
+size = "22380"
+usize = "73924"
+sha1sum = "fe2c2438f8c6954f07ecdfacbc294a86dadf311d"
 depends = "['glibc']"
 +++
 Parser for HTTP Request/Response written in C

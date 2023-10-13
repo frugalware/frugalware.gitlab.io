@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-gl 117.0.1-1"
-version = "117.0.1-1"
+title = "firefox-gl 118.0.1-1"
+version = "118.0.1-1"
+date = "2023-09-29T20:05:57"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "517252"
-usize = "567521"
-sha1sum = "69f81296e4e299baa075e5b13da1e58dfe04717b"
-depends = "['firefox>=117.0.1']"
+size = "518656"
+usize = "569417"
+sha1sum = "9261a4d8aba084deaafc46dc69754e9f4e6587f5"
+depends = "['firefox>=118.0.1']"
 +++
 Galician language support for Firefox

@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "python3-click 8.1.3-2"
-version = "8.1.3-2"
-date = "2022-10-31T19:46:55"
+title = "python3-click 8.1.3-3"
+version = "8.1.3-3"
+date = "2023-10-11T19:03:37"
 categories = ['devel-extra']
 upstreamurl = "https://click.palletsprojects.com/"
 arch = "x86_64"
-size = "188260"
-usize = "824087"
-sha1sum = "450fc36219eb17d96ec68994cfaf98f73fd859db"
+size = "183948"
+usize = "785225"
+sha1sum = "e3dc24f73aa1d968b3cc7424d8feec772abacfcc"
 depends = "['python3']"
 +++
 Simple wrapper around optparse for powerful command line utilities

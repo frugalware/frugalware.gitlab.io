@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-scripting-javascript 7.5.5.2-3"
-version = "7.5.5.2-3"
+title = "libreoffice-scripting-javascript 7.6.2.1-2"
+version = "7.6.2.1-2"
+date = "2023-10-07T12:28:30"
 categories = ['xapps-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "10512"
+size = "10664"
 usize = "0"
-sha1sum = "f3cad2a22881f1ecf3d813444faf332ad75d3fbe"
-depends = "['libreoffice>=7.5.5.2']"
+sha1sum = "e9bee7ea90d81f2295089a03e0dcb0d3127c8f22"
+depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs scripting javascript support in LibreOffice

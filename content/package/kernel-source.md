@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kernel-source 6.5.4-1"
-version = "6.5.4-1"
+title = "kernel-source 6.5.7-1"
+version = "6.5.7-1"
+date = "2023-10-13T14:25:30"
 categories = ['devel-extra']
+upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "135593236"
-usize = "1311160215"
-sha1sum = "48a16d6e345fcf8bdd3aae7495ad26b75ab82372"
-depends = "['make', 'gcc>=6.2.1', 'kernel-headers']"
+size = "135683236"
+usize = "1311583288"
+sha1sum = "728291aca0460f62c8c963b744fdfec56e6fafd0"
+depends = "[]"
 +++
 Linux kernel source

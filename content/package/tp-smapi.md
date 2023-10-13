@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "tp-smapi 0.44-7"
-version = "0.44-7"
+title = "tp-smapi 0.44-9"
+version = "0.44-9"
+date = "2023-10-13T14:51:46"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/evgeni/tp_smapi"
 arch = "x86_64"
-size = "54672"
-usize = "61292"
-sha1sum = "6adbb57c1f3601c00fc67eb8fcffe97fc1e52ea0"
-depends = "['kernel=6.5.4-1']"
+size = "54740"
+usize = "61298"
+sha1sum = "5d49a9d060d149973903a2ddfbf67fc1ac4f5820"
+depends = "['kernel=6.5.7-1']"
 +++
 Modules for ThinkPad's SMAPI functionality

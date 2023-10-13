@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "python3-zopeinterface 5.5.2-1"
-version = "5.5.2-1"
-date = "2023-02-21T12:31:39"
+title = "python3-zopeinterface 5.5.2-2"
+version = "5.5.2-2"
+date = "2023-10-11T17:15:22"
 categories = ['network-extra']
 upstreamurl = "http://pypi.python.org/pypi/zope.interface"
 arch = "x86_64"
-size = "365184"
-usize = "2368917"
-sha1sum = "ed66cf8f9403a99ab5b96842fd1fcd078e3edfab"
+size = "352072"
+usize = "2161283"
+sha1sum = "110df5d1e79210cd2bb5f646a7051d21c69b1e85"
 depends = "['python3>=3.11']"
 +++
 Standalone Zope interface library

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-eu 117.0.1-1"
-version = "117.0.1-1"
+title = "firefox-eu 118.0.1-1"
+version = "118.0.1-1"
+date = "2023-09-29T20:05:57"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "504676"
-usize = "555913"
-sha1sum = "f534365515ef4ab6e9664bdcb0bc3c1e37b5105b"
-depends = "['firefox>=117.0.1']"
+size = "508560"
+usize = "559330"
+sha1sum = "b86982ce353cea6f07fb3a680cf740d529695d99"
+depends = "['firefox>=118.0.1']"
 +++
 Basque language support for Firefox

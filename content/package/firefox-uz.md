@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-uz 117.0.1-1"
-version = "117.0.1-1"
+title = "firefox-uz 118.0.1-1"
+version = "118.0.1-1"
+date = "2023-09-29T20:05:57"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "403384"
-usize = "461435"
-sha1sum = "be2980ccbf3afff671a3d001a120f68cd574c124"
-depends = "['firefox>=117.0.1']"
+size = "404276"
+usize = "462461"
+sha1sum = "f8377329484c1a3fd3cb7bb97688839948b9b640"
+depends = "['firefox>=118.0.1']"
 +++
 Uzbek language support for Firefox

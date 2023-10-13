@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "libpq 15.4-1"
-version = "15.4-1"
-date = "2023-08-25T12:34:49"
+title = "libpq 16.0-1"
+version = "16.0-1"
+date = "2023-10-07T14:26:11"
 categories = ['lib']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "115280"
-usize = "349129"
-sha1sum = "254ebb5f8de3ee47827fb8f4df5d3b96c0dbfc70"
+size = "118012"
+usize = "353279"
+sha1sum = "a06e155eb42c6c7c1f3b3882be9f2586d524fe6c"
 depends = "['openssl>=3.1.0']"
 +++
 PostgreSQL Library.

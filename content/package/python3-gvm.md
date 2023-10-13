@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "python3-gvm 1.3.0-1"
-version = "1.3.0-1"
-date = "2023-02-21T12:30:36"
+title = "python3-gvm 1.3.0-2"
+version = "1.3.0-2"
+date = "2023-10-11T17:11:26"
 categories = ['network-extra']
 upstreamurl = "http://www.openvas.org"
 arch = "x86_64"
-size = "216156"
-usize = "2441787"
-sha1sum = "0d6988f605dd7284edb3bcefef5f808bdcfdc7b6"
+size = "209848"
+usize = "2244284"
+sha1sum = "270797e575dce962c6f8312495d8c1d29c33dfd5"
 depends = "['python3>=3.11']"
 +++
 OpenVAS Python3 bindings

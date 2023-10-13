@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "elixir 1.15.5-1"
-version = "1.15.5-1"
+title = "elixir 1.15.6-1"
+version = "1.15.6-1"
+date = "2023-09-24T11:23:38"
 categories = ['devel-extra']
+upstreamurl = "http://elixir-lang.org"
 arch = "x86_64"
-size = "4625228"
-usize = "7113373"
-sha1sum = "849c2f8ada79a9435f5c2e4a83f57ece579acd0e"
-depends = "['erlang']"
+size = "4624388"
+usize = "7115093"
+sha1sum = "c273f4e3595384d5d20b8902ae799446dce6f163"
+depends = "['erlang>=26.1']"
 +++
 a functional meta-programming aware language built on top of the Erlang VM

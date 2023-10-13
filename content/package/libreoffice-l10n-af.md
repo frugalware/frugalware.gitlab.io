@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-af 7.5.5.2-3"
-version = "7.5.5.2-3"
+title = "libreoffice-l10n-af 7.6.2.1-2"
+version = "7.6.2.1-2"
+date = "2023-10-07T12:28:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "775280"
-usize = "3898410"
-sha1sum = "a66c2d3fd08d27cc2c153083936233bea2a4194d"
-depends = "['libreoffice>=7.5.5.2']"
+size = "782664"
+usize = "3943506"
+sha1sum = "6d16313e61b69c2a445ba996fac6a2f0714bf9b5"
+depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Afrikaans support in LibreOffice

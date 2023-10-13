@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "gst1-plugins-bad-soundtouch 1.22.5-2"
-version = "1.22.5-2"
+title = "gst1-plugins-bad-soundtouch 1.22.6-1"
+version = "1.22.6-1"
+date = "2023-09-22T15:02:42"
 categories = ['xmultimedia']
+upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "16588"
+size = "16596"
 usize = "34824"
-sha1sum = "056070ed2e7d40109de7b09a36145565e49037a7"
-depends = "['gst1-plugins-base>=1.22.5', 'libffi>=3.2.1-2', 'soundtouch>=1.9.2-3', 'gst1-plugins-bad>=1.22.5']"
+sha1sum = "07e2d43f8366913735ac6531b047eb25377ef6c3"
+depends = "['gst1-plugins-base>=1.22.6', 'libffi>=3.2.1-2', 'soundtouch>=1.9.2-3', 'gst1-plugins-bad>=1.22.6']"
 +++
 GStreamer soundtouch plugin (Bad).

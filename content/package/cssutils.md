@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "cssutils 2.6.0-2"
-version = "2.6.0-2"
-date = "2022-11-02T20:19:41"
+title = "cssutils 2.6.0-3"
+version = "2.6.0-3"
+date = "2023-10-11T18:27:18"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/cssutils"
 arch = "x86_64"
-size = "570588"
-usize = "4535867"
-sha1sum = "cb61818ee6a923aa7b3c54a112019191d10c0aae"
+size = "558300"
+usize = "4354674"
+sha1sum = "1fabbdbdd5364b5b2b91408d0b5c58b07b78dd10"
 depends = "['python3>=3.10']"
 +++
 A Python package to parse and build CSS Cascading Style Sheets.

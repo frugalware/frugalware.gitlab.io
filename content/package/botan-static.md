@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "botan-static 3.1.1-1"
-version = "3.1.1-1"
-date = "2023-08-27T12:47:58"
+title = "botan-static 3.1.1-2"
+version = "3.1.1-2"
+date = "2023-10-12T12:17:00"
 categories = ['devel-extra']
 upstreamurl = "http://botan.randombit.net/"
 arch = "x86_64"
-size = "47820140"
-usize = "84261326"
-sha1sum = "a46ba3a69970e2063b4252b6d18242b550392e01"
+size = "47818308"
+usize = "84261310"
+sha1sum = "361210094d8641f31ab6e307faefe2a90b7b4910"
 depends = "[]"
 +++
 Static files for botan

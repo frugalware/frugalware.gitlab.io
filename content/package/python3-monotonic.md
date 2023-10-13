@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "python3-monotonic 1.6-4"
-version = "1.6-4"
-date = "2022-10-27T17:46:56"
+title = "python3-monotonic 1.6-5"
+version = "1.6-5"
+date = "2023-10-11T18:31:45"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/monotonic"
 arch = "x86_64"
-size = "11476"
-usize = "29715"
-sha1sum = "2ea392bc41269ba98da6d0052cd7aa385aaa3dbc"
-depends = "['python3>=3.11']"
+size = "11444"
+usize = "29080"
+sha1sum = "007839e54ffa018c63ceb6d0400d85d1fab88e0a"
+depends = "['python3>=3.12']"
 +++
 An implementation of time.monotonic().

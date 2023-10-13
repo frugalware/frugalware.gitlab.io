@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-ug 7.5.5.2-3"
-version = "7.5.5.2-3"
+title = "libreoffice-l10n-ug 7.6.2.1-2"
+version = "7.6.2.1-2"
+date = "2023-10-07T12:28:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "3705912"
-usize = "31946147"
-sha1sum = "98950ea61053fba62b62378a2478a646061f1a5b"
-depends = "['libreoffice>=7.5.5.2']"
+size = "3664948"
+usize = "31932592"
+sha1sum = "74f3b90a14dd6afa670b111439779945410cf24b"
+depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Uyghur support in LibreOffice

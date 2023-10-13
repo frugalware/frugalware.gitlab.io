@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "pstl 16.0.6-2"
-version = "16.0.6-2"
-date = "2023-09-18T12:11:06"
+title = "pstl 16.0.6-3"
+version = "16.0.6-3"
+date = "2023-10-05T14:50:42"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "60020"
+size = "60048"
 usize = "563480"
-sha1sum = "4be0436b90aad849941b07edd471bff913138d36"
+sha1sum = "30a5029fda163840f5d4c046589976b388c178a8"
 depends = "['llvm-libs>=16.0.6']"
 +++
 LLVM Parallel STL

@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "boost 1.83.0-1"
-version = "1.83.0-1"
-date = "2023-08-31T12:02:48"
+title = "boost 1.83.0-2"
+version = "1.83.0-2"
+date = "2023-10-07T10:36:54"
 categories = ['devel-extra']
 upstreamurl = "http://boost.org/"
 arch = "x86_64"
-size = "10279816"
-usize = "150490579"
-sha1sum = "c727e689867b498018955a7fa310157bb5e7b7a9"
+size = "10264232"
+usize = "150490555"
+sha1sum = "fd2256d06fcd7c6259fcd5414e54c7b2d959319d"
 depends = "[]"
 +++
 Boost header files, examples and tools

@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "python3-evdev 1.6.1-1"
-version = "1.6.1-1"
-date = "2023-02-21T10:02:13"
+title = "python3-evdev 1.6.1-2"
+version = "1.6.1-2"
+date = "2023-10-12T07:38:01"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/evdev"
 arch = "x86_64"
-size = "52348"
-usize = "222163"
-sha1sum = "2d6adfbcf511207efeb4d2cbebbaa05350e05ea2"
+size = "51580"
+usize = "207852"
+sha1sum = "a8ef6ee76a5c3a3386b639e31ae7569c38d4ad69"
 depends = "['libevdev', 'python3>=3.11']"
 +++
 Python bindings for the linux input handling subsystem

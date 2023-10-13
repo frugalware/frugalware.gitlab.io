@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "python3-xlib 0.33-1"
-version = "0.33-1"
-date = "2023-01-20T22:17:51"
+title = "python3-xlib 0.33-2"
+version = "0.33-2"
+date = "2023-10-11T17:17:45"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/python-xlib/python-xlib"
 arch = "x86_64"
-size = "266264"
-usize = "1496394"
-sha1sum = "643c25f9a9aade963cf4f212f90379f0a89fd291"
+size = "261792"
+usize = "1459384"
+sha1sum = "a3e06b9aae77639e5713e8c6b47c871049be2794"
 depends = "['python3-six']"
 +++
 A fully functional X client library for Python programs

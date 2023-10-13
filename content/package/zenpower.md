@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "zenpower 0.2.0-58"
-version = "0.2.0-58"
+title = "zenpower 0.2.0-60"
+version = "0.2.0-60"
+date = "2023-10-13T14:53:58"
 categories = ['apps-extra']
+upstreamurl = "https://git.exozy.me/a/zenpower3"
 arch = "x86_64"
-size = "17048"
+size = "17112"
 usize = "43772"
-sha1sum = "ac198dbae94773555e2338fada8c8b03ea097e61"
-depends = "['kernel=6.5.4-1']"
+sha1sum = "ebc61f1e1ca7a9e40ee3b62449551eb354a9431e"
+depends = "['kernel=6.5.7-1']"
 +++
 Linux kernel driver for reading sensors for AMD Zen family CPUs

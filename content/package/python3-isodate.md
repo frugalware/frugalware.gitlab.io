@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "python3-isodate 0.6.1-4"
-version = "0.6.1-4"
-date = "2022-10-27T17:30:38"
+title = "python3-isodate 0.6.1-5"
+version = "0.6.1-5"
+date = "2023-10-11T17:30:51"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/isodate"
 arch = "x86_64"
-size = "51072"
-usize = "253538"
-sha1sum = "c6843cd6747e4d089a9c89ac5d03c5581be81e68"
+size = "49256"
+usize = "238639"
+sha1sum = "26c23a66c8923a776f0656bf1db9a8ba70b54155"
 depends = "['python3>=3.11']"
 +++
 An ISO 8601 date/time/duration parser and formater

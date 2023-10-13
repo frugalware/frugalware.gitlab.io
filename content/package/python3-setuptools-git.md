@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "python3-setuptools-git 1.2-3"
-version = "1.2-3"
-date = "2022-10-31T20:08:15"
+title = "python3-setuptools-git 1.2-4"
+version = "1.2-4"
+date = "2023-10-11T17:05:54"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/setuptools-git"
 arch = "x86_64"
-size = "15408"
-usize = "65627"
-sha1sum = "d623d3d02f58048382d2ac56587a618c47292fbb"
+size = "14660"
+usize = "59216"
+sha1sum = "be0707c674e12de4ab00406daf984d7bc8ae1a09"
 depends = "['python3-setuptools']"
 +++
 Setuptools revision control system plugin for Git

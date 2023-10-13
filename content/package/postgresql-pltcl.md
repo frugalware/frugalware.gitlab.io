@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "postgresql-pltcl 15.4-1"
-version = "15.4-1"
-date = "2023-08-25T12:34:49"
+title = "postgresql-pltcl 16.0-1"
+version = "16.0-1"
+date = "2023-10-07T14:26:11"
 categories = ['devel-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "24360"
+size = "24536"
 usize = "67504"
-sha1sum = "e095ce8ff9e3d086cc68fb65bbf6efadb426407c"
-depends = "['tcl>=8.6.8', 'postgresql>=15.4']"
+sha1sum = "4d16cd5206c537e868cac517b3b0b7790dc4d2d2"
+depends = "['tcl>=8.6.8', 'postgresql>=16.0']"
 +++
 PostgreSQL tcl bindings

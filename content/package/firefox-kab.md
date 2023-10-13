@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-kab 117.0.1-1"
-version = "117.0.1-1"
+title = "firefox-kab 118.0.1-1"
+version = "118.0.1-1"
+date = "2023-09-29T20:05:57"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "513580"
-usize = "565303"
-sha1sum = "a3c7b06a5d535edf97ec9135d0d66dad7764016b"
-depends = "['firefox>=117.0.1']"
+size = "520184"
+usize = "571651"
+sha1sum = "42cedaf16a734d2490f141b1437207aa1085f56d"
+depends = "['firefox>=118.0.1']"
 +++
 Kabyle language support for Firefox

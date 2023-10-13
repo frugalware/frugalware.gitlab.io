@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "claws-mail-plugin-acpi_notifier 4.1.1-2"
-version = "4.1.1-2"
-date = "2022-12-11T10:14:41"
+title = "claws-mail-plugin-acpi_notifier 4.1.1-3"
+version = "4.1.1-3"
+date = "2023-10-07T10:16:47"
 categories = ['xlib-extra']
 upstreamurl = "http://www.claws-mail.org/"
 arch = "x86_64"
-size = "13132"
-usize = "31533"
-sha1sum = "0a7a3096f33f636ab2132bae223540c6e9a2804b"
+size = "12540"
+usize = "23232"
+sha1sum = "dcc19cd319bba1e5dd7dedccd5f0e7c334eea1a0"
 depends = "['claws-mail=4.1.1']"
 +++
 This plugin enables the use of ACPI LEDs for Mail notifications.

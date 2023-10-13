@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "python3-systemd 235-1"
-version = "235-1"
-date = "2022-12-28T16:08:06"
+title = "python3-systemd 235-2"
+version = "235-2"
+date = "2023-10-12T07:36:39"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/systemd/python-systemd"
 arch = "x86_64"
-size = "60300"
-usize = "296406"
-sha1sum = "6ea7f71ec41d2ecc8ba6649c51e5feb302d41690"
+size = "59128"
+usize = "283242"
+sha1sum = "b9c747f13b270457932aff5b9bd842fba7faf750"
 depends = "['systemd', 'python3']"
 +++
 Systemd python bindings

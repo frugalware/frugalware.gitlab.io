@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "chardet3 5.0.0-1"
-version = "5.0.0-1"
+title = "chardet3 5.2.0-1"
+version = "5.2.0-1"
+date = "2023-10-05T10:34:25"
 categories = ['apps-extra']
+upstreamurl = "https://github.com/byroot/chardet"
 arch = "x86_64"
-size = "212532"
-usize = "2145417"
-sha1sum = "b0fadde8929b9ff7881d96a986305105e52a0e59"
-depends = "['python3>=3.11']"
+size = "220472"
+usize = "3153587"
+sha1sum = "bfcfdb90acfd830778026deff9d1e6eaa7f75063"
+depends = "['python3>=3.12']"
 +++
 Character encoding auto-detection in Python 2

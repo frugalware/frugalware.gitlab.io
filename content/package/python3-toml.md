@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "python3-toml 0.10.2-6"
-version = "0.10.2-6"
+title = "python3-toml 0.10.2-7"
+version = "0.10.2-7"
+date = "2023-10-05T08:33:57"
 categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/toml"
 arch = "x86_64"
-size = "39288"
-usize = "137124"
-sha1sum = "520c299d2b7386d40d634dbc43e164e05b6a7479"
-depends = "['python3>=3.11']"
+size = "37116"
+usize = "124238"
+sha1sum = "ba2ea3ba0576bfdfd23536690b31b66e70028106"
+depends = "['python3>=3.12']"
 +++
 Python Library for Tom's Obvious, Minimal Language

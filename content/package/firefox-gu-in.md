@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-gu-in 117.0.1-1"
-version = "117.0.1-1"
+title = "firefox-gu-in 118.0.1-1"
+version = "118.0.1-1"
+date = "2023-09-29T20:05:57"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "446464"
-usize = "506746"
-sha1sum = "ab3e57078cb8f0ea062db50c2de5a4c937f841ca"
-depends = "['firefox>=117.0.1']"
+size = "447248"
+usize = "507505"
+sha1sum = "d7aec22339d38492216e8a4cdbb4ffa6f0aecfce"
+depends = "['firefox>=118.0.1']"
 +++
 Gujarati language support for Firefox

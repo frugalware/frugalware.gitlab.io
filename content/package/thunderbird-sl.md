@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-sl 115.2.2-1"
-version = "115.2.2-1"
+title = "thunderbird-sl 115.3.1-1"
+version = "115.3.1-1"
+date = "2023-10-10T07:30:55"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "641248"
+size = "641448"
 usize = "701217"
-sha1sum = "9e4df35f8322bf8f117f62f53f9937bfdca4cb39"
-depends = "['thunderbird>=115.2.2']"
+sha1sum = "4fe3f2fbe566c37218fb1f090fc27c695ea2df1c"
+depends = "['thunderbird>=115.3.1']"
 +++
 Slovenian language support for Thunderbird
