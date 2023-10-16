@@ -2,9 +2,7 @@
 draft = false
 title = "abseil-cpp 20230125.3-3"
 version = "20230125.3-3"
-date = "2023-09-05T08:09:16"
 categories = ['lib']
-upstreamurl = "https://abseil.io"
 arch = "x86_64"
 size = "1006196"
 usize = "5930716"

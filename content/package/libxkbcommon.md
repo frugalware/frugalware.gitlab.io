@@ -2,9 +2,7 @@
 draft = false
 title = "libxkbcommon 1.5.0-2"
 version = "1.5.0-2"
-date = "2023-09-05T11:06:16"
 categories = ['x11']
-upstreamurl = "http://xkbcommon.org/"
 arch = "x86_64"
 size = "207480"
 usize = "887132"

@@ -2,9 +2,7 @@
 draft = false
 title = "irssi 1.4.4-1"
 version = "1.4.4-1"
-date = "2023-04-25T07:28:38"
 categories = ['network']
-upstreamurl = "http://irssi.org"
 arch = "x86_64"
 size = "1227596"
 usize = "5171575"
