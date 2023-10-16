@@ -2,9 +2,7 @@
 draft = false
 title = "tg_owt 20230123.g5098730-4"
 version = "20230123.g5098730-4"
-date = "2023-08-19T10:45:35"
 categories = ['xlib-extra']
-upstreamurl = "https://github.com/desktop-app/tg_owt"
 arch = "x86_64"
 size = "101847476"
 usize = "173766025"
