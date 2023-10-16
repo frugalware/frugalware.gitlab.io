@@ -2,9 +2,7 @@
 draft = false
 title = "mosh 1.4.0-4"
 version = "1.4.0-4"
-date = "2023-10-07T16:18:38"
 categories = ['apps-extra']
-upstreamurl = "https://mosh.org"
 arch = "x86_64"
 size = "200156"
 usize = "654945"

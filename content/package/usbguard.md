@@ -2,9 +2,7 @@
 draft = false
 title = "usbguard 1.1.2-3"
 version = "1.1.2-3"
-date = "2023-10-07T16:40:10"
 categories = ['apps-extra']
-upstreamurl = "https://github.com/dkopecek/usbguard"
 arch = "x86_64"
 size = "460964"
 usize = "1691014"
