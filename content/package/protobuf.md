@@ -2,9 +2,7 @@
 draft = false
 title = "protobuf 24.4-1"
 version = "24.4-1"
-date = "2023-10-06T11:50:59"
 categories = ['lib']
-upstreamurl = "https://github.com/protocolbuffers/protobuf"
 arch = "x86_64"
 size = "1945680"
 usize = "9324960"
