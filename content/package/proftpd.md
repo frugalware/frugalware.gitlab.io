@@ -2,9 +2,7 @@
 draft = false
 title = "proftpd 1.3.8-1"
 version = "1.3.8-1"
-date = "2023-07-12T20:05:36"
 categories = ['network-extra']
-upstreamurl = "http://www.proftpd.org/"
 arch = "x86_64"
 size = "999540"
 usize = "4578350"
