@@ -2,9 +2,7 @@
 draft = false
 title = "openssh-askpass 9.4-1"
 version = "9.4-1"
-date = "2023-08-17T09:58:33"
 categories = ['xapps-extra']
-upstreamurl = "http://www.openssh.com/"
 arch = "x86_64"
 size = "6892"
 usize = "0"
