@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-cak 118.0.1-1"
-version = "118.0.1-1"
+title = "firefox-cak 118.0.2-1"
+version = "118.0.2-1"
+date = "2023-10-17T15:27:22"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "518084"
-usize = "569601"
-sha1sum = "37584e53bc45339f530d913eb390f00080d932cb"
-depends = "['firefox>=118.0.1']"
+size = "514500"
+usize = "569606"
+sha1sum = "883211af79d5832261dcccd11784d05835b3f9b1"
+depends = "['firefox>=118.0.2']"
 +++
 Kaqchikel language support for Firefox

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-hsb 115.3.1-1"
-version = "115.3.1-1"
+title = "thunderbird-hsb 115.3.2-1"
+version = "115.3.2-1"
+date = "2023-10-17T12:42:15"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "673728"
-usize = "734549"
-sha1sum = "83be281b58625f7dd61f6f0014179fe2e8cb9ca5"
-depends = "['thunderbird>=115.3.1']"
+size = "672984"
+usize = "733833"
+sha1sum = "a197ac7c5d17b068321e57924098b9791e0e8695"
+depends = "['thunderbird>=115.3.2']"
 +++
 Upper Sorbian language support for Thunderbird

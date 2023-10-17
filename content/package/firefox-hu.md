@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-hu 118.0.1-1"
-version = "118.0.1-1"
+title = "firefox-hu 118.0.2-1"
+version = "118.0.2-1"
+date = "2023-10-17T15:27:22"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "548108"
-usize = "598444"
-sha1sum = "93ff40d6371da95fa4510955b37c5bd16bdc6f55"
-depends = "['firefox>=118.0.1']"
+size = "548068"
+usize = "598448"
+sha1sum = "60326f918d6b7a9c0fe4bd84519a150b98f519b1"
+depends = "['firefox>=118.0.2']"
 +++
 Hungarian language support for Firefox

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-si 118.0.1-1"
-version = "118.0.1-1"
+title = "firefox-si 118.0.2-1"
+version = "118.0.2-1"
+date = "2023-10-17T15:27:22"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "529788"
-usize = "580409"
-sha1sum = "6a082ebc2fdfaee4dd8a4556d321eb1ecd2c2bff"
-depends = "['firefox>=118.0.1']"
+size = "529868"
+usize = "580411"
+sha1sum = "0e29eae100fc8ccf273e4eb0cf079642ddb952e2"
+depends = "['firefox>=118.0.2']"
 +++
 Sinhala language support for Firefox

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-is 118.0.1-1"
-version = "118.0.1-1"
+title = "firefox-is 118.0.2-1"
+version = "118.0.2-1"
+date = "2023-10-17T15:27:22"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "518480"
-usize = "569562"
-sha1sum = "f15c7b1d3a9e671fc14e601c1f9e0b2451392003"
-depends = "['firefox>=118.0.1']"
+size = "519272"
+usize = "569566"
+sha1sum = "6013a4745e5efecbc80096d3afe1d11238e8aba9"
+depends = "['firefox>=118.0.2']"
 +++
 Icelandic language support for Firefox

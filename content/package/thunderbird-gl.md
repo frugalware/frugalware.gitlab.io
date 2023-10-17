@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-gl 115.3.1-1"
-version = "115.3.1-1"
+title = "thunderbird-gl 115.3.2-1"
+version = "115.3.2-1"
+date = "2023-10-17T12:42:15"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "646392"
-usize = "705423"
-sha1sum = "d14e7e18d8974bbb64f81a1c5ab26fff56f490fd"
-depends = "['thunderbird>=115.3.1']"
+size = "646352"
+usize = "705372"
+sha1sum = "7b710190d5faf9b2fd33d5ae6eb6a67f102f4610"
+depends = "['thunderbird>=115.3.2']"
 +++
 Galician language support for Thunderbird

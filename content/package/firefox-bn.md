@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-bn 118.0.1-1"
-version = "118.0.1-1"
+title = "firefox-bn 118.0.2-1"
+version = "118.0.2-1"
+date = "2023-10-17T15:27:22"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "506180"
-usize = "561418"
-sha1sum = "faad5010f66795997e6a9ecaf328864fa18e7d00"
-depends = "['firefox>=118.0.1']"
+size = "506340"
+usize = "561413"
+sha1sum = "4b7335e9b52979e47c003d4a4210dc6fe476c1fb"
+depends = "['firefox>=118.0.2']"
 +++
 Bengali language support for Firefox

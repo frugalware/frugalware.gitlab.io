@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "vlc-x264 3.0.18-15"
-version = "3.0.18-15"
+title = "vlc-x264 3.0.19-1"
+version = "3.0.19-1"
+date = "2023-10-16T11:53:06"
 categories = ['xmultimedia-extra', 'vlc-codecs']
+upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "31248"
+size = "31240"
 usize = "97840"
-sha1sum = "a6c150d62b4b05395c1343b3817153e072fb24d8"
-depends = "['x264>=20230712.ga8b68eb', 'libvlc>=3.0.18']"
+sha1sum = "e265953cc625e20fb05c29e224486371abc36294"
+depends = "['x264>=20230712.ga8b68eb', 'libvlc>=3.0.19']"
 +++
 vlc x264 support

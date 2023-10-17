@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-ur 118.0.1-1"
-version = "118.0.1-1"
+title = "firefox-ur 118.0.2-1"
+version = "118.0.2-1"
+date = "2023-10-17T15:27:22"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "486032"
-usize = "541044"
-sha1sum = "bbc163346cbb7bc26c8eb134abb6b953000c2e44"
-depends = "['firefox>=118.0.1']"
+size = "485908"
+usize = "541040"
+sha1sum = "a3bd3e585ebfda04ca8de7ac6b642827786e425e"
+depends = "['firefox>=118.0.2']"
 +++
 Urdu language support for Firefox

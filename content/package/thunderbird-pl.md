@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-pl 115.3.1-1"
-version = "115.3.1-1"
+title = "thunderbird-pl 115.3.2-1"
+version = "115.3.2-1"
+date = "2023-10-17T12:42:15"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "656932"
-usize = "716599"
-sha1sum = "c2902530af02f0fdaea7ab5c93cd8ab9c677f430"
-depends = "['thunderbird>=115.3.1']"
+size = "656828"
+usize = "716521"
+sha1sum = "8d9cd75836ec26ce8eae93f8f5d72db2febb81ea"
+depends = "['thunderbird>=115.3.2']"
 +++
 Polish language support for Thunderbird

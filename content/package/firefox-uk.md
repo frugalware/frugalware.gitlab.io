@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-uk 118.0.1-1"
-version = "118.0.1-1"
+title = "firefox-uk 118.0.2-1"
+version = "118.0.2-1"
+date = "2023-10-17T15:27:22"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "606324"
-usize = "655404"
-sha1sum = "6d8d7abd7650da17f44cbea228a0009c43fea1b0"
-depends = "['firefox>=118.0.1']"
+size = "605208"
+usize = "655398"
+sha1sum = "4401d2a5b4341de7934612f163a7176b5ff00037"
+depends = "['firefox>=118.0.2']"
 +++
 Ukrainian language support for Firefox

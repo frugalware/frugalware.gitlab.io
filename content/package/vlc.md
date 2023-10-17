@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "vlc 3.0.18-15"
-version = "3.0.18-15"
+title = "vlc 3.0.19-1"
+version = "3.0.19-1"
+date = "2023-10-16T11:53:06"
 categories = ['xmultimedia']
+upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "9884288"
-usize = "54990069"
-sha1sum = "cac55442f3324f73ce00229166e35634fb4c8174"
-depends = "['libva>=2.3', 'alsa-lib', 'qt5-svg>=5.15.10', 'qt5-x11extras>=5.15.10', 'pcre2', 'fribidi', 'libvlc>=3.0.18', 'mesa-vdpau-drivers', 'libva-mesa-driver']"
+size = "10068852"
+usize = "56988583"
+sha1sum = "608f06503d26dc1e33989aa3e7cc039ff22e994f"
+depends = "['libva>=2.3', 'alsa-lib', 'qt5-svg>=5.15.10', 'qt5-x11extras>=5.15.10', 'pcre2', 'fribidi', 'libvlc>=3.0.19', 'mesa-vdpau-drivers', 'libva-mesa-driver']"
 +++
 The cross-platform media player and streaming server.

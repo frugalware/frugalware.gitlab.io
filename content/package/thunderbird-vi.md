@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-vi 115.3.1-1"
-version = "115.3.1-1"
+title = "thunderbird-vi 115.3.2-1"
+version = "115.3.2-1"
+date = "2023-10-17T12:42:15"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "684468"
-usize = "742718"
-sha1sum = "058d350a3e64a82283e3ea25fd0b3eec8ed6c2a6"
-depends = "['thunderbird>=115.3.1']"
+size = "684368"
+usize = "742632"
+sha1sum = "cd58083856dd230c3944914b16a2afdba964fcc1"
+depends = "['thunderbird>=115.3.2']"
 +++
 Vietnamese language support for Thunderbird

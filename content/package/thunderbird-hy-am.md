@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-hy-am 115.3.1-1"
-version = "115.3.1-1"
+title = "thunderbird-hy-am 115.3.2-1"
+version = "115.3.2-1"
+date = "2023-10-17T12:42:15"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "641652"
-usize = "710375"
-sha1sum = "fa5dcbc33db82b8b8f728f0320ca6f3aaada5b6d"
-depends = "['thunderbird>=115.3.1']"
+size = "642580"
+usize = "711274"
+sha1sum = "92446b302a92dc288f4096893de4159b4a60b6a6"
+depends = "['thunderbird>=115.3.2']"
 +++
 Armenian language support for Thunderbird

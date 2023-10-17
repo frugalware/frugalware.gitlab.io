@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-ms 118.0.1-1"
-version = "118.0.1-1"
+title = "firefox-ms 118.0.2-1"
+version = "118.0.2-1"
+date = "2023-10-17T15:27:22"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "370324"
-usize = "431280"
-sha1sum = "71f2f2adb8711f3adff02ce88e1465bf174f35aa"
-depends = "['firefox>=118.0.1']"
+size = "370352"
+usize = "431293"
+sha1sum = "8b23652e7eda10708381ea8c3312974770ebbc80"
+depends = "['firefox>=118.0.2']"
 +++
 Malay language support for Firefox

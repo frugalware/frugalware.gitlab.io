@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-mk 118.0.1-1"
-version = "118.0.1-1"
+title = "firefox-mk 118.0.2-1"
+version = "118.0.2-1"
+date = "2023-10-17T15:27:22"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "419592"
-usize = "476570"
-sha1sum = "3c11d993188116183bbb22f6e03f82768c85c3bd"
-depends = "['firefox>=118.0.1']"
+size = "419364"
+usize = "476568"
+sha1sum = "c3fd1370c72ba4ec7e72b4dc6748e504d8981b29"
+depends = "['firefox>=118.0.2']"
 +++
 Macedonian language support for Firefox

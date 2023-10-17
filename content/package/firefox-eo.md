@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-eo 118.0.1-1"
-version = "118.0.1-1"
+title = "firefox-eo 118.0.2-1"
+version = "118.0.2-1"
+date = "2023-10-17T15:27:22"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "512944"
-usize = "563415"
-sha1sum = "9923936d6e63698ec2a4626132489716031059d4"
-depends = "['firefox>=118.0.1']"
+size = "512732"
+usize = "563416"
+sha1sum = "bb658d746c5412845100ee4a550159a9a0870ae7"
+depends = "['firefox>=118.0.2']"
 +++
 Esperanto language support for Firefox
