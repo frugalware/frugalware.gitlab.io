@@ -2,9 +2,7 @@
 draft = false
 title = "kvirc 5.0.0-33"
 version = "5.0.0-33"
-date = "2023-10-07T11:16:07"
 categories = ['kde5']
-upstreamurl = "http://www.kvirc.net"
 arch = "x86_64"
 size = "5066616"
 usize = "37519887"

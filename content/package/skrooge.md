@@ -2,9 +2,7 @@
 draft = false
 title = "skrooge 2.30.0-1"
 version = "2.30.0-1"
-date = "2023-07-17T12:06:17"
 categories = ['kde5-extra']
-upstreamurl = "http://skrooge.org"
 arch = "x86_64"
 size = "13122004"
 usize = "29309018"

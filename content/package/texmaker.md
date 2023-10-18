@@ -2,9 +2,7 @@
 draft = false
 title = "texmaker 5.1.4-1"
 version = "5.1.4-1"
-date = "2023-06-15T20:31:55"
 categories = ['xapps-extra']
-upstreamurl = "http://www.xm1math.net/texmaker/"
 arch = "x86_64"
 size = "10248744"
 usize = "38692476"

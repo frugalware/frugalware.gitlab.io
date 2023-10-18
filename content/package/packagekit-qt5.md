@@ -2,9 +2,7 @@
 draft = false
 title = "packagekit-qt5 1.1.1-2"
 version = "1.1.1-2"
-date = "2023-06-13T12:17:58"
 categories = ['xapps']
-upstreamurl = "http://www.packagekit.org/"
 arch = "x86_64"
 size = "96368"
 usize = "379308"

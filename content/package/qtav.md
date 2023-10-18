@@ -2,9 +2,7 @@
 draft = false
 title = "qtav 1.13.0-6"
 version = "1.13.0-6"
-date = "2023-09-05T11:43:32"
 categories = ['xlib-extra']
-upstreamurl = "https://www.qtav.org/"
 arch = "x86_64"
 size = "885340"
 usize = "3477813"
