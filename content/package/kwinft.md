@@ -2,9 +2,7 @@
 draft = false
 title = "kwinft 5.27.0-1"
 version = "5.27.0-1"
-date = "2023-02-20T20:16:26"
 categories = ['kde5-extra']
-upstreamurl = "https://gitlab.com/kwinft/kwinft"
 arch = "x86_64"
 size = "5819224"
 usize = "19075792"

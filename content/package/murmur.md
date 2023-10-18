@@ -2,9 +2,7 @@
 draft = false
 title = "murmur 1.4.287-10"
 version = "1.4.287-10"
-date = "2023-10-07T16:21:28"
 categories = ['network-extra']
-upstreamurl = "https://github.com/mumble-voip/mumble"
 arch = "x86_64"
 size = "322108"
 usize = "1023755"

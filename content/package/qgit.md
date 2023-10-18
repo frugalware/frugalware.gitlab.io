@@ -2,9 +2,7 @@
 draft = false
 title = "qgit 2.10-1"
 version = "2.10-1"
-date = "2023-06-15T14:44:02"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/tibirna/qgit"
 arch = "x86_64"
 size = "349564"
 usize = "1110852"

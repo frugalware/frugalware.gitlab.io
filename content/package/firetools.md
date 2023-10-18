@@ -2,9 +2,7 @@
 draft = false
 title = "firetools 0.9.72-2"
 version = "0.9.72-2"
-date = "2023-06-15T07:19:09"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/netblue30/firetools"
 arch = "x86_64"
 size = "210928"
 usize = "532549"

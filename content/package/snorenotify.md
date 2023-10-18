@@ -2,9 +2,7 @@
 draft = false
 title = "snorenotify 0.7.0-15"
 version = "0.7.0-15"
-date = "2023-06-13T12:22:09"
 categories = ['xapps']
-upstreamurl = "https://github.com/KDE/snorenotify"
 arch = "x86_64"
 size = "195684"
 usize = "1048740"

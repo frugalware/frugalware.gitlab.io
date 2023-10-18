@@ -2,9 +2,7 @@
 draft = false
 title = "quassel 0.14.0-1"
 version = "0.14.0-1"
-date = "2022-10-15T20:17:35"
 categories = ['kde5']
-upstreamurl = "http://quassel-irc.org"
 arch = "x86_64"
 size = "2470464"
 usize = "11929937"

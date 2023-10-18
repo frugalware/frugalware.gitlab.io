@@ -2,9 +2,7 @@
 draft = false
 title = "qcoro 0.9.0-3"
 version = "0.9.0-3"
-date = "2023-08-25T09:23:22"
 categories = ['xlib']
-upstreamurl = "https://github.com/danvratil/qcoro"
 arch = "x86_64"
 size = "2429248"
 usize = "4662042"
