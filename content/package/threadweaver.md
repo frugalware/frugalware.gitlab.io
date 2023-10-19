@@ -2,9 +2,7 @@
 draft = false
 title = "threadweaver 5.110.0-1"
 version = "5.110.0-1"
-date = "2023-09-11T07:35:37"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "75760"
 usize = "283015"

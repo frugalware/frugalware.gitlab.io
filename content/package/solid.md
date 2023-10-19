@@ -2,9 +2,7 @@
 draft = false
 title = "solid 5.110.0-1"
 version = "5.110.0-1"
-date = "2023-09-11T07:38:09"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "325772"
 usize = "1770810"

@@ -2,9 +2,7 @@
 draft = false
 title = "okular 23.08.1-1"
 version = "23.08.1-1"
-date = "2023-09-14T20:27:14"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "7184032"
 usize = "19517835"

@@ -2,9 +2,7 @@
 draft = false
 title = "qt5-svg 5.15.10-2"
 version = "5.15.10-2"
-date = "2023-09-03T13:07:29"
 categories = ['xlib']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "143016"
 usize = "514933"

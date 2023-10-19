@@ -2,9 +2,7 @@
 draft = false
 title = "prison 5.110.0-2"
 version = "5.110.0-2"
-date = "2023-09-11T12:05:57"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "60116"
 usize = "252652"

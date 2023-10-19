@@ -2,9 +2,7 @@
 draft = false
 title = "ksanecore 23.08.1-1"
 version = "23.08.1-1"
-date = "2023-09-14T15:48:50"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "67060"
 usize = "246873"

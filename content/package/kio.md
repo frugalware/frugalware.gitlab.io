@@ -2,9 +2,7 @@
 draft = false
 title = "kio 5.110.0-2"
 version = "5.110.0-2"
-date = "2023-09-11T11:46:15"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "4376724"
 usize = "24208576"

@@ -2,9 +2,7 @@
 draft = false
 title = "cantor 23.08.1-2"
 version = "23.08.1-2"
-date = "2023-10-06T10:00:48"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "2342696"
 usize = "8615822"

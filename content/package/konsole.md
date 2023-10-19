@@ -2,9 +2,7 @@
 draft = false
 title = "konsole 23.08.1-1"
 version = "23.08.1-1"
-date = "2023-09-14T14:56:47"
 categories = ['kde5', 'kde5-apps']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1745628"
 usize = "8374418"

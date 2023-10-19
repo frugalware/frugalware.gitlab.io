@@ -2,9 +2,7 @@
 draft = false
 title = "plasma-workspace-wallpapers 5.27.8-1"
 version = "5.27.8-1"
-date = "2023-09-12T21:01:41"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "94049660"
 usize = "95170020"

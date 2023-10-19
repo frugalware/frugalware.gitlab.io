@@ -2,9 +2,7 @@
 draft = false
 title = "bluedevil5 5.27.8-1"
 version = "5.27.8-1"
-date = "2023-09-12T19:56:02"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "457700"
 usize = "1904278"

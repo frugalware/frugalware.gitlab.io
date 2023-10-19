@@ -2,9 +2,7 @@
 draft = false
 title = "ktextwidgets 5.110.0-2"
 version = "5.110.0-2"
-date = "2023-09-11T11:58:12"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "271280"
 usize = "1479687"

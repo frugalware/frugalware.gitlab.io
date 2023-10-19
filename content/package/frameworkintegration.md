@@ -2,9 +2,7 @@
 draft = false
 title = "frameworkintegration 5.110.0-1"
 version = "5.110.0-1"
-date = "2023-09-11T09:19:21"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1622176"
 usize = "1796999"

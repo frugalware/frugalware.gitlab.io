@@ -2,9 +2,7 @@
 draft = false
 title = "sonnet-plugin-aspell 5.110.0-1"
 version = "5.110.0-1"
-date = "2023-09-11T07:32:20"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "9988"
 usize = "22440"

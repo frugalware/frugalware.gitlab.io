@@ -2,9 +2,7 @@
 draft = false
 title = "kqtquickcharts 23.08.1-1"
 version = "23.08.1-1"
-date = "2023-09-14T19:37:42"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "68732"
 usize = "335778"

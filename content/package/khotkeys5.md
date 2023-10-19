@@ -2,9 +2,7 @@
 draft = false
 title = "khotkeys5 5.27.8-1"
 version = "5.27.8-1"
-date = "2023-09-12T20:39:27"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "2006104"
 usize = "4219331"

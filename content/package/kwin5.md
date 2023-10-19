@@ -2,9 +2,7 @@
 draft = false
 title = "kwin5 5.27.8-2"
 version = "5.27.8-2"
-date = "2023-09-13T17:38:30"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "8787940"
 usize = "32893673"

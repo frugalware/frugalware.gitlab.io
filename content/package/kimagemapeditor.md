@@ -2,9 +2,7 @@
 draft = false
 title = "kimagemapeditor 23.08.1-1"
 version = "23.08.1-1"
-date = "2023-09-14T19:56:39"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1187540"
 usize = "2165875"

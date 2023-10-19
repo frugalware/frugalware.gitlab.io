@@ -2,9 +2,7 @@
 draft = false
 title = "kdegraphics-mobipocket 23.08.1-1"
 version = "23.08.1-1"
-date = "2023-09-14T14:37:38"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "26372"
 usize = "75705"

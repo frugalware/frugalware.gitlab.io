@@ -2,9 +2,7 @@
 draft = false
 title = "plasma-nm 5.27.8-1"
 version = "5.27.8-1"
-date = "2023-09-12T20:46:52"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1214592"
 usize = "8225664"

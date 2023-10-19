@@ -2,9 +2,7 @@
 draft = false
 title = "kapidox 5.110.0-2"
 version = "5.110.0-2"
-date = "2023-10-11T15:25:20"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "74472"
 usize = "243407"

@@ -2,9 +2,7 @@
 draft = false
 title = "qt5-serialbus 5.15.10-2"
 version = "5.15.10-2"
-date = "2023-09-03T13:39:02"
 categories = ['xlib']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "167736"
 usize = "716718"

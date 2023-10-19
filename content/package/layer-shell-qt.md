@@ -2,9 +2,7 @@
 draft = false
 title = "layer-shell-qt 5.27.8-1"
 version = "5.27.8-1"
-date = "2023-09-12T20:01:28"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "19060"
 usize = "79906"

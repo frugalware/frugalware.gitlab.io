@@ -2,9 +2,7 @@
 draft = false
 title = "koko 23.08.1-1"
 version = "23.08.1-1"
-date = "2023-09-14T21:25:38"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "6979000"
 usize = "27406932"

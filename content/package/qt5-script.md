@@ -2,9 +2,7 @@
 draft = false
 title = "qt5-script 5.15.10-2"
 version = "5.15.10-2"
-date = "2023-09-03T13:26:56"
 categories = ['xlib']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "1080728"
 usize = "4369462"

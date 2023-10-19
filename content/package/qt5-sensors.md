@@ -2,9 +2,7 @@
 draft = false
 title = "qt5-sensors 5.15.10-2"
 version = "5.15.10-2"
-date = "2023-09-03T13:29:12"
 categories = ['xlib']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "177628"
 usize = "1079961"

@@ -2,9 +2,7 @@
 draft = false
 title = "qt5-multimedia 5.15.10-2"
 version = "5.15.10-2"
-date = "2023-09-03T13:23:22"
 categories = ['xlib']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "736856"
 usize = "3822001"

@@ -2,9 +2,7 @@
 draft = false
 title = "filelight 23.08.1-1"
 version = "23.08.1-1"
-date = "2023-09-14T14:23:52"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "748036"
 usize = "1433382"

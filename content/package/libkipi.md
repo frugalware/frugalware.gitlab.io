@@ -2,9 +2,7 @@
 draft = false
 title = "libkipi 23.08.1-1"
 version = "23.08.1-1"
-date = "2023-09-14T15:46:34"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "98900"
 usize = "275818"

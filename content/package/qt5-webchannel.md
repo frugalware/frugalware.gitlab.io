@@ -2,9 +2,7 @@
 draft = false
 title = "qt5-webchannel 5.15.10-2"
 version = "5.15.10-2"
-date = "2023-09-03T13:32:24"
 categories = ['xlib']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "72880"
 usize = "239983"

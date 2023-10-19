@@ -2,9 +2,7 @@
 draft = false
 title = "kaccounts-provider-opendesktop 5.27.8-1"
 version = "5.27.8-1"
-date = "2023-09-15T10:19:34"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "21444"
 usize = "44604"
