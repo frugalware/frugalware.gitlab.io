@@ -2,9 +2,7 @@
 draft = false
 title = "kcolorpicker 0.2.0-2"
 version = "0.2.0-2"
-date = "2022-09-09T18:21:46"
 categories = ['kde5']
-upstreamurl = "https://github.com/DamirPorobic/kcolorpicker"
 arch = "x86_64"
 size = "23528"
 usize = "93184"

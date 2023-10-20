@@ -2,9 +2,7 @@
 draft = false
 title = "kuserfeedback 1.2.0-1"
 version = "1.2.0-1"
-date = "2022-10-13T19:06:51"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "410436"
 usize = "2320405"

@@ -2,9 +2,7 @@
 draft = false
 title = "lyx 2.3.7-2"
 version = "2.3.7-2"
-date = "2023-06-15T09:50:16"
 categories = ['xapps-extra']
-upstreamurl = "http://www.lyx.org"
 arch = "x86_64"
 size = "18956036"
 usize = "65135307"
