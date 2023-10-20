@@ -2,9 +2,7 @@
 draft = false
 title = "qtermwidget 1.3.0-1"
 version = "1.3.0-1"
-date = "2023-06-15T15:27:12"
 categories = ['xapps-extra']
-upstreamurl = "https://www.lxde.org"
 arch = "x86_64"
 size = "186520"
 usize = "698879"

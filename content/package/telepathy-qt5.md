@@ -2,9 +2,7 @@
 draft = false
 title = "telepathy-qt5 0.9.8-6"
 version = "0.9.8-6"
-date = "2023-06-13T11:34:29"
 categories = ['xlib']
-upstreamurl = "http://telepathy.freedesktop.org/wiki/Telepathy-Qt4"
 arch = "x86_64"
 size = "2027036"
 usize = "11412864"

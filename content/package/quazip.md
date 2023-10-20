@@ -2,9 +2,7 @@
 draft = false
 title = "quazip 0.7.3-12"
 version = "0.7.3-12"
-date = "2023-06-13T14:41:55"
 categories = ['lib-extra']
-upstreamurl = "https://sourceforge.net/projects/quazip"
 arch = "x86_64"
 size = "98784"
 usize = "351601"
