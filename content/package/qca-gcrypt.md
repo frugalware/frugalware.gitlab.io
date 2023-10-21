@@ -2,9 +2,7 @@
 draft = false
 title = "qca-gcrypt 2.3.7-2"
 version = "2.3.7-2"
-date = "2023-08-27T13:25:28"
 categories = ['xlib']
-upstreamurl = "http://delta.affinix.com/qca/"
 arch = "x86_64"
 size = "18792"
 usize = "71696"
