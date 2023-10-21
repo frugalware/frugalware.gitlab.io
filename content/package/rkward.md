@@ -2,9 +2,7 @@
 draft = false
 title = "rkward 0.7.5-1"
 version = "0.7.5-1"
-date = "2023-02-27T16:21:41"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "3153136"
 usize = "16599139"

@@ -2,9 +2,7 @@
 draft = false
 title = "labplot 2.10.1-1"
 version = "2.10.1-1"
-date = "2023-07-17T12:27:52"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "14860108"
 usize = "36071081"
