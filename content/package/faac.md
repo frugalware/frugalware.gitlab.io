@@ -2,9 +2,7 @@
 draft = false
 title = "faac 1.30-2"
 version = "1.30-2"
-date = "2022-01-20T09:39:57"
 categories = ['multimedia']
-upstreamurl = "http://www.audiocoding.com"
 arch = "x86_64"
 size = "61576"
 usize = "171474"

@@ -2,9 +2,7 @@
 draft = false
 title = "ldacbt 1.1-3"
 version = "1.1-3"
-date = "2022-01-13T09:02:41"
 categories = ['lib']
-upstreamurl = "https://github.com/EHfive/ldacbt"
 arch = "x86_64"
 size = "34328"
 usize = "109890"

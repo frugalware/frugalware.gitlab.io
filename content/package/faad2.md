@@ -2,9 +2,7 @@
 draft = false
 title = "faad2 2.8.8-4"
 version = "2.8.8-4"
-date = "2022-01-20T09:43:07"
 categories = ['multimedia']
-upstreamurl = "http://www.audiocoding.com/"
 arch = "x86_64"
 size = "197488"
 usize = "600139"

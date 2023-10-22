@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-faad2 2.8.8-4"
 version = "2.8.8-4"
-date = "2022-01-20T09:43:07"
 categories = ['lib32-extra']
-upstreamurl = "http://www.audiocoding.com/"
 arch = "x86_64"
 size = "180816"
 usize = "551765"

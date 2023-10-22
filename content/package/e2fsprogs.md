@@ -2,9 +2,7 @@
 draft = false
 title = "e2fsprogs 1.47.0-1"
 version = "1.47.0-1"
-date = "2023-02-07T07:16:58"
 categories = ['base', 'chroot-core']
-upstreamurl = "http://e2fsprogs.sourceforge.net/"
 arch = "x86_64"
 size = "1150952"
 usize = "5169214"
