@@ -2,9 +2,7 @@
 draft = false
 title = "kasync 0.3.0-3"
 version = "0.3.0-3"
-date = "2022-08-28T17:51:04"
 categories = ['kde5-extra']
-upstreamurl = "https://github.com/KDE/kasync"
 arch = "x86_64"
 size = "45668"
 usize = "205058"
