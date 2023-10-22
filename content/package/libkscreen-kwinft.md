@@ -2,9 +2,7 @@
 draft = false
 title = "libkscreen-kwinft 20200418.gfe0bad4-3"
 version = "20200418.gfe0bad4-3"
-date = "2020-06-13T10:36:26"
 categories = ['kde5-extra']
-upstreamurl = "https://gitlab.com/kwinft/libkscreen"
 arch = "x86_64"
 size = "240112"
 usize = "1135305"
