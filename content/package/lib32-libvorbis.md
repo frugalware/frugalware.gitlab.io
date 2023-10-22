@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libvorbis 1.3.7-3"
 version = "1.3.7-3"
-date = "2022-01-28T12:37:06"
 categories = ['lib32-extra']
-upstreamurl = "http://www.vorbis.com/"
 arch = "x86_64"
 size = "161264"
 usize = "824998"

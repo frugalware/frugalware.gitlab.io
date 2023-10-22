@@ -2,9 +2,7 @@
 draft = false
 title = "libmp4v2 5.0.1-1"
 version = "5.0.1-1"
-date = "2022-01-20T09:35:31"
 categories = ['multimedia']
-upstreamurl = "https://github.com/Techsmith/mp4v2"
 arch = "x86_64"
 size = "358148"
 usize = "1376409"

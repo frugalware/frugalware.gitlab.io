@@ -2,9 +2,7 @@
 draft = false
 title = "libenca 1.19-7"
 version = "1.19-7"
-date = "2022-01-13T13:32:13"
 categories = ['lib']
-upstreamurl = "http://cihar.com/software/enca/"
 arch = "x86_64"
 size = "81124"
 usize = "357815"

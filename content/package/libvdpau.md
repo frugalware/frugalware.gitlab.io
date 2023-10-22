@@ -2,9 +2,7 @@
 draft = false
 title = "libvdpau 1.2-3"
 version = "1.2-3"
-date = "2021-12-15T11:45:54"
 categories = ['x11']
-upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "69532"
 usize = "323194"

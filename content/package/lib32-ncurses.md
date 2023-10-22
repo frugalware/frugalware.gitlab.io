@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-ncurses 6.4-2"
 version = "6.4-2"
-date = "2023-02-20T12:41:26"
 categories = ['lib32-extra']
-upstreamurl = "http://www.gnu.org/software/ncurses/ncurses.html"
 arch = "x86_64"
 size = "6648904"
 usize = "10647864"

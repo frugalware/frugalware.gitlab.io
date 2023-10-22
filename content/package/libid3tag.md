@@ -2,9 +2,7 @@
 draft = false
 title = "libid3tag 0.15.1b-13"
 version = "0.15.1b-13"
-date = "2022-04-03T22:29:22"
 categories = ['multimedia']
-upstreamurl = "http://www.underbit.com/products/mad/"
 arch = "x86_64"
 size = "42396"
 usize = "157858"

@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libtheora 1.1.1-11"
 version = "1.1.1-11"
-date = "2022-01-28T12:35:23"
 categories = ['lib32-extra']
-upstreamurl = "http://www.theora.org/"
 arch = "x86_64"
 size = "182608"
 usize = "707447"

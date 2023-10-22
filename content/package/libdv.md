@@ -2,9 +2,7 @@
 draft = false
 title = "libdv 1.0.0-9"
 version = "1.0.0-9"
-date = "2022-01-19T20:27:37"
 categories = ['xlib']
-upstreamurl = "https://sourceforge.net/projects/libdv"
 arch = "x86_64"
 size = "95664"
 usize = "279209"

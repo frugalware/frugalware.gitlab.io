@@ -2,9 +2,7 @@
 draft = false
 title = "libdaemon 0.14-10"
 version = "0.14-10"
-date = "2021-11-02T10:04:32"
 categories = ['lib']
-upstreamurl = "http://0pointer.de/lennart/projects/libdaemon/"
 arch = "x86_64"
 size = "27800"
 usize = "99551"

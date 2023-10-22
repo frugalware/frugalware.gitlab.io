@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libcroco 0.6.13-7"
 version = "0.6.13-7"
-date = "2021-10-08T11:09:40"
 categories = ['lib32-extra']
-upstreamurl = "https://gitlab.gnome.org/Archive/libcroco"
 arch = "x86_64"
 size = "88516"
 usize = "325940"

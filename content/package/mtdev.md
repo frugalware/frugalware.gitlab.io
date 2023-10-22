@@ -2,9 +2,7 @@
 draft = false
 title = "mtdev 1.1.6-2"
 version = "1.1.6-2"
-date = "2021-12-28T11:13:53"
 categories = ['lib']
-upstreamurl = "http://launchpad.net/mtdev"
 arch = "x86_64"
 size = "23436"
 usize = "86798"
