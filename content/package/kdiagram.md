@@ -2,9 +2,7 @@
 draft = false
 title = "kdiagram 2.8.0-1"
 version = "2.8.0-1"
-date = "2022-04-14T09:27:14"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "536432"
 usize = "2397161"

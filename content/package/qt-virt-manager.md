@@ -2,9 +2,7 @@
 draft = false
 title = "qt-virt-manager 0.72.99-3"
 version = "0.72.99-3"
-date = "2023-06-15T15:23:18"
 categories = ['xapps-extra']
-upstreamurl = "http://f1ash.github.io/qt-virt-manager"
 arch = "x86_64"
 size = "3106440"
 usize = "7728238"

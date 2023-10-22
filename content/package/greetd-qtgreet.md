@@ -2,9 +2,7 @@
 draft = false
 title = "greetd-qtgreet 1.0.0-3"
 version = "1.0.0-3"
-date = "2023-06-13T14:49:39"
 categories = ['x11-extra']
-upstreamurl = "https://gitlab.com/marcusbritanicus/QtGreet"
 arch = "x86_64"
 size = "259556"
 usize = "747634"
