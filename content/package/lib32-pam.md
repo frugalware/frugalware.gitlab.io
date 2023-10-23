@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-pam 1.5.3-1"
 version = "1.5.3-1"
-date = "2023-05-09T07:52:16"
 categories = ['lib32-extra']
-upstreamurl = "https://github.com/linux-pam/linux-pam"
 arch = "x86_64"
 size = "191032"
 usize = "785938"

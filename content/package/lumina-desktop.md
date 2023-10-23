@@ -2,9 +2,7 @@
 draft = false
 title = "lumina-desktop 1.6.2-3"
 version = "1.6.2-3"
-date = "2023-06-13T14:53:03"
 categories = ['x11-extra', 'lumina']
-upstreamurl = "https://www.trueos.org/"
 arch = "x86_64"
 size = "8764288"
 usize = "15101206"

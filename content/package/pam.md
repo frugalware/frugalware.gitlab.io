@@ -2,9 +2,7 @@
 draft = false
 title = "pam 1.5.3-1"
 version = "1.5.3-1"
-date = "2023-05-09T07:52:16"
 categories = ['base', 'chroot-core']
-upstreamurl = "https://github.com/linux-pam/linux-pam"
 arch = "x86_64"
 size = "551584"
 usize = "2109798"
