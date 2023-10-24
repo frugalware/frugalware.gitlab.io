@@ -2,9 +2,7 @@
 draft = false
 title = "rolisteam 1.9.3-3"
 version = "1.9.3-3"
-date = "2023-06-14T14:07:41"
 categories = ['games-extra']
-upstreamurl = "https://sourceforge.net/projects/rolisteam"
 arch = "x86_64"
 size = "4617336"
 usize = "8898847"

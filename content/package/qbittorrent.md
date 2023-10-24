@@ -2,9 +2,7 @@
 draft = false
 title = "qbittorrent 4.5.5-1"
 version = "4.5.5-1"
-date = "2023-09-12T19:08:45"
 categories = ['xapps-extra']
-upstreamurl = "http://www.qbittorrent.org/"
 arch = "x86_64"
 size = "7631932"
 usize = "12366781"
