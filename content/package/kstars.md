@@ -2,9 +2,7 @@
 draft = false
 title = "kstars 3.6.4-1"
 version = "3.6.4-1"
-date = "2023-05-17T19:15:04"
 categories = ['kde5-extra']
-upstreamurl = "https://edu.kde.org/kstars/"
 arch = "x86_64"
 size = "85540820"
 usize = "141230267"

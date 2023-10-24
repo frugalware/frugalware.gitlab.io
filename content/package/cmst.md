@@ -2,9 +2,7 @@
 draft = false
 title = "cmst 2023.03.14-1"
 version = "2023.03.14-1"
-date = "2023-06-15T07:05:09"
 categories = ['xapps-extra', 'lumina']
-upstreamurl = "https://github.com/andrew-bibb/cmst"
 arch = "x86_64"
 size = "2924744"
 usize = "3941120"

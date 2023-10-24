@@ -2,9 +2,7 @@
 draft = false
 title = "radeon-profile 20200824-3"
 version = "20200824-3"
-date = "2023-06-15T15:45:50"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/marazmista/radeon-profile"
 arch = "x86_64"
 size = "470124"
 usize = "1171464"

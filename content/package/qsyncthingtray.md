@@ -2,9 +2,7 @@
 draft = false
 title = "qsyncthingtray 0.5.8-12"
 version = "0.5.8-12"
-date = "2023-06-15T14:53:12"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/sieren/QSyncthingTray"
 arch = "x86_64"
 size = "6935616"
 usize = "8343189"

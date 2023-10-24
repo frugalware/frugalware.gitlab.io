@@ -2,9 +2,7 @@
 draft = false
 title = "gnuplot 5.4.8-1"
 version = "5.4.8-1"
-date = "2023-06-15T07:26:37"
 categories = ['xapps-extra']
-upstreamurl = "http://www.gnuplot.info/"
 arch = "x86_64"
 size = "1269840"
 usize = "3413653"

@@ -2,9 +2,7 @@
 draft = false
 title = "hills 1.0-8"
 version = "1.0-8"
-date = "2023-06-14T17:22:14"
 categories = ['xmultimedia-extra']
-upstreamurl = "https://bitbucket.org/zettdaymond/sddm-hills-theme"
 arch = "x86_64"
 size = "28876304"
 usize = "28931420"
