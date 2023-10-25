@@ -2,9 +2,7 @@
 draft = false
 title = "cantata 2.5.0-2"
 version = "2.5.0-2"
-date = "2023-03-02T09:50:34"
 categories = ['kde5-extra']
-upstreamurl = "https://github.com/CDrummond/cantata"
 arch = "x86_64"
 size = "2631408"
 usize = "10417526"

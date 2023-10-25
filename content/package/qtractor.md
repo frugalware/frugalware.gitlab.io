@@ -2,9 +2,7 @@
 draft = false
 title = "qtractor 0.9.34-1"
 version = "0.9.34-1"
-date = "2023-06-14T20:05:02"
 categories = ['xmultimedia-extra']
-upstreamurl = "https://sourceforge.net/projects/qtractor"
 arch = "x86_64"
 size = "1801252"
 usize = "6945567"

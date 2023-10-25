@@ -2,9 +2,7 @@
 draft = false
 title = "opencv-samples 4.8.0-2"
 version = "4.8.0-2"
-date = "2023-10-13T09:47:02"
 categories = ['xapps-extra']
-upstreamurl = "http://opencv.org/"
 arch = "x86_64"
 size = "33673632"
 usize = "56609709"

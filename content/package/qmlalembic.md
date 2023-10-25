@@ -2,9 +2,7 @@
 draft = false
 title = "qmlalembic 2023.1.0-1"
 version = "2023.1.0-1"
-date = "2023-06-13T18:02:58"
 categories = ['xlib-extra']
-upstreamurl = "https://github.com/alicevision/qmlalembic"
 arch = "x86_64"
 size = "60248"
 usize = "242216"
