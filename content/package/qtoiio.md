@@ -2,9 +2,7 @@
 draft = false
 title = "qtoiio 2021.1.0-8"
 version = "2021.1.0-8"
-date = "2023-10-06T19:09:43"
 categories = ['xlib-extra']
-upstreamurl = "https://github.com/alicevision/qtoiio"
 arch = "x86_64"
 size = "35424"
 usize = "143231"
