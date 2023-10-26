@@ -2,9 +2,7 @@
 draft = false
 title = "qtox 1.17.6-5"
 version = "1.17.6-5"
-date = "2023-06-15T15:32:28"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/qtox/qtox"
 arch = "x86_64"
 size = "5119260"
 usize = "7352719"

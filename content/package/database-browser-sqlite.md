@@ -2,9 +2,7 @@
 draft = false
 title = "database-browser-sqlite 3.12.2-2"
 version = "3.12.2-2"
-date = "2023-06-15T07:12:31"
 categories = ['xapps-extra']
-upstreamurl = "http://sqlitebrowser.org"
 arch = "x86_64"
 size = "2158180"
 usize = "5548674"

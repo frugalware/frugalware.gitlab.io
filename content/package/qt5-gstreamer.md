@@ -2,9 +2,7 @@
 draft = false
 title = "qt5-gstreamer 1.2.0-1"
 version = "1.2.0-1"
-date = "2022-01-25T15:53:24"
 categories = ['xlib']
-upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
 size = "245116"
 usize = "1156312"

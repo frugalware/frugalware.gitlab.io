@@ -2,9 +2,7 @@
 draft = false
 title = "phonon-qt5 4.11.1-6"
 version = "4.11.1-6"
-date = "2023-09-04T14:39:52"
 categories = ['xmultimedia']
-upstreamurl = "http://phonon.kde.org"
 arch = "x86_64"
 size = "299548"
 usize = "1358932"

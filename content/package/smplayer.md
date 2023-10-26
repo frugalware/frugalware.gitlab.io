@@ -2,9 +2,7 @@
 draft = false
 title = "smplayer 22.7.0-2"
 version = "22.7.0-2"
-date = "2023-06-15T17:26:13"
 categories = ['xapps-extra']
-upstreamurl = "https://sourceforge.net/projects/smplayer"
 arch = "x86_64"
 size = "3431744"
 usize = "16064969"

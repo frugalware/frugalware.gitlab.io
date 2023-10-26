@@ -2,9 +2,7 @@
 draft = false
 title = "castersoundboard 20191203-4"
 version = "20191203-4"
-date = "2023-06-15T06:44:14"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/JupiterBroadcasting/castersoundboard"
 arch = "x86_64"
 size = "156660"
 usize = "398880"

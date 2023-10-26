@@ -2,9 +2,7 @@
 draft = false
 title = "accounts-qml-module 0.7-9"
 version = "0.7-9"
-date = "2023-06-13T09:13:04"
 categories = ['xlib']
-upstreamurl = "https://gitlab.com/accounts-sso/accounts-qml-module"
 arch = "x86_64"
 size = "107028"
 usize = "397413"

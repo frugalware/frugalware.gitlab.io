@@ -2,9 +2,7 @@
 draft = false
 title = "sigil 2.0.1-1"
 version = "2.0.1-1"
-date = "2023-10-06T07:52:31"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/user-none/Sigil"
 arch = "x86_64"
 size = "6990440"
 usize = "33618705"
