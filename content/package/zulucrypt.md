@@ -2,9 +2,7 @@
 draft = false
 title = "zulucrypt 6.2.0-2"
 version = "6.2.0-2"
-date = "2023-06-16T07:51:57"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/mhogomchungu/zulucrypt"
 arch = "x86_64"
 size = "1281116"
 usize = "7321816"

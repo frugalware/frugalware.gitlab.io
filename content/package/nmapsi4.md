@@ -2,9 +2,7 @@
 draft = false
 title = "nmapsi4 0.5-12"
 version = "0.5-12"
-date = "2023-06-15T11:33:42"
 categories = ['xapps-extra']
-upstreamurl = "http://www.nmapsi4.org/"
 arch = "x86_64"
 size = "434760"
 usize = "1201789"
