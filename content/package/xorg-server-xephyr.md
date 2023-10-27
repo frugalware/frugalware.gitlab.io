@@ -2,9 +2,7 @@
 draft = false
 title = "xorg-server-xephyr 21.1.8-1"
 version = "21.1.8-1"
-date = "2023-03-30T21:08:53"
 categories = ['x11']
-upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
 size = "1017392"
 usize = "2641344"

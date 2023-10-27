@@ -2,9 +2,7 @@
 draft = false
 title = "usbutils 015-1"
 version = "015-1"
-date = "2022-12-04T10:13:27"
 categories = ['base', 'core']
-upstreamurl = "http://www.linux-usb.org/"
 arch = "x86_64"
 size = "82104"
 usize = "328974"

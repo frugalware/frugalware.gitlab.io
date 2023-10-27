@@ -2,9 +2,7 @@
 draft = false
 title = "xterm 387-1"
 version = "387-1"
-date = "2023-10-16T08:27:03"
 categories = ['x11', 'xorg-core', 'xorg-apps']
-upstreamurl = "http://dickey.his.com/xterm/"
 arch = "x86_64"
 size = "460764"
 usize = "1295109"
