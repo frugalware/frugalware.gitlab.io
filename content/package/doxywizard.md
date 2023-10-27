@@ -2,9 +2,7 @@
 draft = false
 title = "doxywizard 1.9.7-2"
 version = "1.9.7-2"
-date = "2023-06-13T13:05:13"
 categories = ['xapps-extra']
-upstreamurl = "http://www.doxygen.nl/"
 arch = "x86_64"
 size = "262668"
 usize = "604264"

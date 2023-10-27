@@ -2,9 +2,7 @@
 draft = false
 title = "poppler-qt5 23.09.0-1"
 version = "23.09.0-1"
-date = "2023-09-07T12:57:27"
 categories = ['xlib']
-upstreamurl = "https://poppler.freedesktop.org/"
 arch = "x86_64"
 size = "189544"
 usize = "706910"
