@@ -2,9 +2,7 @@
 draft = false
 title = "transmission-cli 4.0.4-1"
 version = "4.0.4-1"
-date = "2023-09-08T12:04:11"
 categories = ['apps-extra']
-upstreamurl = "https://transmissionbt.com"
 arch = "x86_64"
 size = "1331684"
 usize = "6519494"

@@ -2,9 +2,7 @@
 draft = false
 title = "mediainfo 23.09-1"
 version = "23.09-1"
-date = "2023-09-15T08:49:01"
 categories = ['apps-extra']
-upstreamurl = "https://mediaarea.net/MediaInfo"
 arch = "x86_64"
 size = "19688"
 usize = "53677"

@@ -2,9 +2,7 @@
 draft = false
 title = "pinentry 1.2.1-2"
 version = "1.2.1-2"
-date = "2023-06-15T06:30:01"
 categories = ['apps-extra']
-upstreamurl = "http://ftp.gnupg.org/gcrypt/pinentry/"
 arch = "x86_64"
 size = "90888"
 usize = "247628"
