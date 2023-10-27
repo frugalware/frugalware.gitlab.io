@@ -2,9 +2,7 @@
 draft = false
 title = "kquickimageeditor 0.2.0-1"
 version = "0.2.0-1"
-date = "2023-05-02T14:32:02"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "31768"
 usize = "139383"

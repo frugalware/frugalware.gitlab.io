@@ -2,9 +2,7 @@
 draft = false
 title = "kdsoap 2.1.1-3"
 version = "2.1.1-3"
-date = "2023-06-13T08:53:00"
 categories = ['lib']
-upstreamurl = "https://github.com/KDAB/kdsoap"
 arch = "x86_64"
 size = "373616"
 usize = "1178289"

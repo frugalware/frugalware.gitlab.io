@@ -2,9 +2,7 @@
 draft = false
 title = "telegram-qt5 0.1.0-17"
 version = "0.1.0-17"
-date = "2023-06-13T11:23:48"
 categories = ['xlib']
-upstreamurl = "https://github.com/Kaffeine/telegram-qt"
 arch = "x86_64"
 size = "205364"
 usize = "696893"

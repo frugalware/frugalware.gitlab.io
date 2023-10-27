@@ -2,9 +2,7 @@
 draft = false
 title = "glib2 2.78.0-1"
 version = "2.78.0-1"
-date = "2023-09-12T11:55:46"
 categories = ['base', 'chroot-core']
-upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "4723296"
 usize = "27700115"

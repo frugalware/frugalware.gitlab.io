@@ -2,9 +2,7 @@
 draft = false
 title = "clight-gui 4.8-3"
 version = "4.8-3"
-date = "2023-06-15T06:50:18"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/nullobsi/clight-gui"
 arch = "x86_64"
 size = "133072"
 usize = "506850"

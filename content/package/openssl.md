@@ -2,9 +2,7 @@
 draft = false
 title = "openssl 3.1.3-1"
 version = "3.1.3-1"
-date = "2023-09-21T11:33:04"
 categories = ['base', 'chroot-core']
-upstreamurl = "http://www.openssl.org/source/"
 arch = "x86_64"
 size = "5291136"
 usize = "12482712"

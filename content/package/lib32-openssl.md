@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-openssl 3.1.3-1"
 version = "3.1.3-1"
-date = "2023-09-21T11:33:04"
 categories = ['lib32-extra']
-upstreamurl = "http://www.openssl.org/source/"
 arch = "x86_64"
 size = "23026856"
 usize = "34622591"

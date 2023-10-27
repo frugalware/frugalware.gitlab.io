@@ -2,9 +2,7 @@
 draft = false
 title = "shiboken2 5.15.11-1"
 version = "5.15.11-1"
-date = "2023-10-13T10:10:37"
 categories = ['devel-extra']
-upstreamurl = "https://wiki.qt.io/Qt_for_Python"
 arch = "x86_64"
 size = "598188"
 usize = "2006114"
