@@ -2,9 +2,7 @@
 draft = false
 title = "mkvtoolnix-gui 79.0-1"
 version = "79.0-1"
-date = "2023-09-06T08:51:12"
 categories = ['xmultimedia-extra']
-upstreamurl = "https://mkvtoolnix.download/"
 arch = "x86_64"
 size = "2000876"
 usize = "7057090"

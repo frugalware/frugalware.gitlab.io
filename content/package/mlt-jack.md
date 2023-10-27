@@ -2,9 +2,7 @@
 draft = false
 title = "mlt-jack 7.18.0-1"
 version = "7.18.0-1"
-date = "2023-09-14T08:45:35"
 categories = ['xmultimedia-extra']
-upstreamurl = "https://github.com/mltframework/mlt"
 arch = "x86_64"
 size = "31636"
 usize = "75464"
