@@ -2,9 +2,7 @@
 draft = false
 title = "bootconfig 6.5.7-1"
 version = "6.5.7-1"
-date = "2023-10-13T14:25:30"
 categories = ['apps-extra']
-upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
 size = "38360"
 usize = "22640"
