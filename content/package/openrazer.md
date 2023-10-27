@@ -2,9 +2,7 @@
 draft = false
 title = "openrazer 3.6.1-24"
 version = "3.6.1-24"
-date = "2023-10-13T14:48:11"
 categories = ['apps-extra']
-upstreamurl = "https://github.com/openrazer/openrazer"
 arch = "x86_64"
 size = "275864"
 usize = "2005018"

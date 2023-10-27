@@ -2,9 +2,7 @@
 draft = false
 title = "sysdig 0.34.0-2"
 version = "0.34.0-2"
-date = "2023-10-16T11:43:30"
 categories = ['apps-extra']
-upstreamurl = "https://www.sysdig.com/"
 arch = "x86_64"
 size = "2556552"
 usize = "16748454"
