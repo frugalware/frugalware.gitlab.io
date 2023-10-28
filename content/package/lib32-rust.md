@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-rust 1.72.1-1"
 version = "1.72.1-1"
-date = "2023-09-22T09:11:28"
 categories = ['lib32-extra']
-upstreamurl = "https://www.rust-lang.org/"
 arch = "x86_64"
 size = "22927780"
 usize = "111647938"
