@@ -2,9 +2,7 @@
 draft = false
 title = "go 1.21.1-1"
 version = "1.21.1-1"
-date = "2023-09-07T11:53:53"
 categories = ['devel-extra']
-upstreamurl = "http://golang.org/"
 arch = "x86_64"
 size = "176673100"
 usize = "338302309"

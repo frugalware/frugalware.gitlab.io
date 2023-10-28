@@ -2,9 +2,7 @@
 draft = false
 title = "mold 2.2.0-1"
 version = "2.2.0-1"
-date = "2023-09-24T13:57:04"
 categories = ['devel-extra']
-upstreamurl = "https://github.com/rui314/mold"
 arch = "x86_64"
 size = "1814872"
 usize = "16594862"
