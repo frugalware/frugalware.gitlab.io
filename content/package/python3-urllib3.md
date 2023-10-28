@@ -2,9 +2,7 @@
 draft = false
 title = "python3-urllib3 2.0.6-1"
 version = "2.0.6-1"
-date = "2023-10-05T12:27:02"
 categories = ['devel']
-upstreamurl = "http://pypi.python.org/pypi/urllib3"
 arch = "x86_64"
 size = "200804"
 usize = "1255932"
