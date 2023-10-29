@@ -2,9 +2,7 @@
 draft = false
 title = "vulkan-tools 1.3.261.1-1"
 version = "1.3.261.1-1"
-date = "2023-09-07T09:56:39"
 categories = ['apps-extra']
-upstreamurl = "https://www.khronos.org/vulkan/"
 arch = "x86_64"
 size = "242728"
 usize = "1406880"
