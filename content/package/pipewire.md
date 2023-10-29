@@ -2,9 +2,7 @@
 draft = false
 title = "pipewire 0.3.80-1"
 version = "0.3.80-1"
-date = "2023-09-14T13:51:38"
 categories = ['xmultimedia']
-upstreamurl = "https://pipewire.org/"
 arch = "x86_64"
 size = "3444948"
 usize = "37205373"
