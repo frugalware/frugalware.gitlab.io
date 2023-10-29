@@ -2,9 +2,7 @@
 draft = false
 title = "gst1-plugin-libcamera 0.1.0-1"
 version = "0.1.0-1"
-date = "2023-07-17T06:49:32"
 categories = ['multimedia-extra']
-upstreamurl = "https://libcamera.org/"
 arch = "x86_64"
 size = "29836"
 usize = "88784"
