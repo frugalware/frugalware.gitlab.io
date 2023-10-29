@@ -2,9 +2,7 @@
 draft = false
 title = "nvidia-settings 535.113.01-1"
 version = "535.113.01-1"
-date = "2023-09-22T12:11:45"
 categories = ['x11-extra']
-upstreamurl = "http://download.nvidia.com/XFree86/nvidia-settings/"
 arch = "x86_64"
 size = "233016"
 usize = "646880"
