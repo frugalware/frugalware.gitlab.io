@@ -2,9 +2,7 @@
 draft = false
 title = "python3-cx-freeze 6.14.7-1"
 version = "6.14.7-1"
-date = "2023-03-14T12:56:09"
 categories = ['apps-extra']
-upstreamurl = "http://pypi.python.org/pypi/cx_Freeze"
 arch = "x86_64"
 size = "218868"
 usize = "1511722"
