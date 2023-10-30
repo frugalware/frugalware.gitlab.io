@@ -2,9 +2,7 @@
 draft = false
 title = "qv4l2 1.24.1-3"
 version = "1.24.1-3"
-date = "2023-09-04T14:56:48"
 categories = ['xmultimedia-extra']
-upstreamurl = "http://linuxtv.org"
 arch = "x86_64"
 size = "194492"
 usize = "583151"

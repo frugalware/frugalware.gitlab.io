@@ -2,9 +2,7 @@
 draft = false
 title = "wireshark-qt 4.0.7-1"
 version = "4.0.7-1"
-date = "2023-07-25T07:59:32"
 categories = ['xapps-extra']
-upstreamurl = "http://www.wireshark.org/"
 arch = "x86_64"
 size = "4211148"
 usize = "9709217"
