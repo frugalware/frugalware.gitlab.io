@@ -2,9 +2,7 @@
 draft = false
 title = "qt6-base-static 6.5.2-1"
 version = "6.5.2-1"
-date = "2023-07-24T13:40:23"
 categories = ['devel-extra']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "3105384"
 usize = "4842842"
