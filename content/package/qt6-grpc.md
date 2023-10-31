@@ -2,9 +2,7 @@
 draft = false
 title = "qt6-grpc 6.5.2-4"
 version = "6.5.2-4"
-date = "2023-10-16T11:38:23"
 categories = ['xlib-extra']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "223036"
 usize = "1063107"

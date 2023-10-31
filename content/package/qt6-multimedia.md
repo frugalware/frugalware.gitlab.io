@@ -2,9 +2,7 @@
 draft = false
 title = "qt6-multimedia 6.5.2-1"
 version = "6.5.2-1"
-date = "2023-07-24T16:24:03"
 categories = ['xlib-extra']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "829152"
 usize = "3599524"
