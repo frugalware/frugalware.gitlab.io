@@ -2,9 +2,7 @@
 draft = false
 title = "qt6-webchannel 6.5.2-1"
 version = "6.5.2-1"
-date = "2023-07-24T14:51:18"
 categories = ['xlib-extra']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "108084"
 usize = "370479"

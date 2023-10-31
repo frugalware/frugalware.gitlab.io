@@ -2,9 +2,7 @@
 draft = false
 title = "qt6-scxml 6.5.2-1"
 version = "6.5.2-1"
-date = "2023-07-24T14:43:27"
 categories = ['xlib-extra']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "470168"
 usize = "2173359"

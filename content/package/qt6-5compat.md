@@ -2,9 +2,7 @@
 draft = false
 title = "qt6-5compat 6.5.2-1"
 version = "6.5.2-1"
-date = "2023-07-24T14:32:11"
 categories = ['xlib-extra']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "154416"
 usize = "516181"

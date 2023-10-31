@@ -2,9 +2,7 @@
 draft = false
 title = "qt6-remoteobjects 6.5.2-1"
 version = "6.5.2-1"
-date = "2023-07-24T14:41:25"
 categories = ['xlib-extra']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "416048"
 usize = "1665187"
