@@ -2,9 +2,7 @@
 draft = false
 title = "qt6-httpserver 6.5.2-1"
 version = "6.5.2-1"
-date = "2023-07-24T16:14:48"
 categories = ['xlib-extra']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "60648"
 usize = "233556"
