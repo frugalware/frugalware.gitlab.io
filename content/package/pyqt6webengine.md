@@ -2,9 +2,7 @@
 draft = false
 title = "pyqt6webengine 6.5.0-3"
 version = "6.5.0-3"
-date = "2023-10-06T20:33:25"
 categories = ['xlib-extra']
-upstreamurl = "http://www.riverbankcomputing.co.uk/"
 arch = "x86_64"
 size = "117476"
 usize = "651120"
