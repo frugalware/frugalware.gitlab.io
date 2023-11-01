@@ -2,9 +2,7 @@
 draft = false
 title = "tanglet 1.6.4-1"
 version = "1.6.4-1"
-date = "2023-07-13T13:07:34"
 categories = ['games-extra']
-upstreamurl = "https://gottcode.org/tanglet"
 arch = "x86_64"
 size = "22438916"
 usize = "24859776"

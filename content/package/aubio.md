@@ -2,9 +2,7 @@
 draft = false
 title = "aubio 0.4.9-5"
 version = "0.4.9-5"
-date = "2022-11-02T19:54:57"
 categories = ['multimedia-extra']
-upstreamurl = "https://aubio.org"
 arch = "x86_64"
 size = "389920"
 usize = "4120664"

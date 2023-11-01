@@ -2,9 +2,7 @@
 draft = false
 title = "qmmp 2.1.3-1"
 version = "2.1.3-1"
-date = "2023-04-11T14:22:33"
 categories = ['xmultimedia-extra']
-upstreamurl = "http://qmmp.ylsoftware.com"
 arch = "x86_64"
 size = "2241904"
 usize = "11253447"

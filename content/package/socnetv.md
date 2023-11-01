@@ -2,9 +2,7 @@
 draft = false
 title = "socnetv 3.1-1"
 version = "3.1-1"
-date = "2023-06-15T17:52:54"
 categories = ['xapps-extra']
-upstreamurl = "https://socnetv.org"
 arch = "x86_64"
 size = "987660"
 usize = "3340200"
