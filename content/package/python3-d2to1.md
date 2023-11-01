@@ -2,9 +2,7 @@
 draft = false
 title = "python3-d2to1 0.2.12.post1-6"
 version = "0.2.12.post1-6"
-date = "2023-10-11T18:10:15"
 categories = ['devel-extra']
-upstreamurl = "http://pypi.python.org/pypi/d2to1"
 arch = "x86_64"
 size = "46248"
 usize = "153539"

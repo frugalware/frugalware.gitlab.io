@@ -2,9 +2,7 @@
 draft = false
 title = "python3-colour 0.1.5-7"
 version = "0.1.5-7"
-date = "2022-10-28T07:50:18"
 categories = ['devel-extra']
-upstreamurl = "http://pypi.python.org/pypi/colour"
 arch = "x86_64"
 size = "27764"
 usize = "108041"
