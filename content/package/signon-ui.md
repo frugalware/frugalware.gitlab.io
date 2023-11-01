@@ -2,9 +2,7 @@
 draft = false
 title = "signon-ui 0.16.g4368bb7-5"
 version = "0.16.g4368bb7-5"
-date = "2023-06-13T11:12:11"
 categories = ['xlib']
-upstreamurl = "https://gitlab.com/accounts-sso/signon-ui"
 arch = "x86_64"
 size = "70428"
 usize = "218119"
