@@ -2,9 +2,7 @@
 draft = false
 title = "python3-shiboken6 6.5.3-1"
 version = "6.5.3-1"
-date = "2023-10-13T11:31:14"
 categories = ['lib']
-upstreamurl = "https://wiki.qt.io/Qt_for_Python"
 arch = "x86_64"
 size = "131104"
 usize = "358785"
