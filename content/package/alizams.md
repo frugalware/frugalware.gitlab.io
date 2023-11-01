@@ -2,9 +2,7 @@
 draft = false
 title = "alizams 1.9.3-1"
 version = "1.9.3-1"
-date = "2023-07-25T10:52:43"
 categories = ['xapps-extra']
-upstreamurl = "https://www.aliza-dicom-viewer.com"
 arch = "x86_64"
 size = "2412160"
 usize = "12438979"

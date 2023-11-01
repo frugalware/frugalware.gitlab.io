@@ -2,9 +2,7 @@
 draft = false
 title = "gottet 1.2.2-1"
 version = "1.2.2-1"
-date = "2023-07-13T13:02:32"
 categories = ['games-extra']
-upstreamurl = "http://gottcode.org/gottet/"
 arch = "x86_64"
 size = "246720"
 usize = "444316"
