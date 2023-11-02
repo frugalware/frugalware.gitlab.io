@@ -2,9 +2,7 @@
 draft = false
 title = "glslang 13.0.0-1"
 version = "13.0.0-1"
-date = "2023-08-26T12:21:25"
 categories = ['apps']
-upstreamurl = "https://github.com/KhronosGroup/glslang"
 arch = "x86_64"
 size = "18638340"
 usize = "39148157"

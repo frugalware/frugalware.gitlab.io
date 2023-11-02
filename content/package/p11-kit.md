@@ -2,9 +2,7 @@
 draft = false
 title = "p11-kit 0.25.0-2"
 version = "0.25.0-2"
-date = "2023-09-04T14:34:01"
 categories = ['apps', 'chroot-core']
-upstreamurl = "http://p11-glue.freedesktop.org/p11-kit.html"
 arch = "x86_64"
 size = "689868"
 usize = "5170905"
