@@ -2,9 +2,7 @@
 draft = false
 title = "shadow 4.14.1-1"
 version = "4.14.1-1"
-date = "2023-10-14T10:46:03"
 categories = ['base', 'chroot-core']
-upstreamurl = "https://github.com/shadow-maint/shadow"
 arch = "x86_64"
 size = "749260"
 usize = "4730639"

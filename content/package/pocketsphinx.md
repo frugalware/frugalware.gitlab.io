@@ -2,9 +2,7 @@
 draft = false
 title = "pocketsphinx 5prealpha-3"
 version = "5prealpha-3"
-date = "2022-12-12T13:04:37"
 categories = ['multimedia-extra']
-upstreamurl = "https://sourceforge.net/projects/cmusphinx"
 arch = "x86_64"
 size = "24540292"
 usize = "38554466"
