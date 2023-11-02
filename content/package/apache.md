@@ -2,9 +2,7 @@
 draft = false
 title = "apache 2.4.57-1"
 version = "2.4.57-1"
-date = "2023-04-17T13:04:35"
 categories = ['network']
-upstreamurl = "http://httpd.apache.org/"
 arch = "x86_64"
 size = "5598724"
 usize = "30276429"
