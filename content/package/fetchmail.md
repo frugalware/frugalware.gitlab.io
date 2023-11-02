@@ -2,9 +2,7 @@
 draft = false
 title = "fetchmail 6.4.37-2"
 version = "6.4.37-2"
-date = "2023-03-15T19:28:36"
 categories = ['network']
-upstreamurl = "http://www.fetchmail.info"
 arch = "x86_64"
 size = "580636"
 usize = "2199996"

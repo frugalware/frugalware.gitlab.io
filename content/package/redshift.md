@@ -2,9 +2,7 @@
 draft = false
 title = "redshift 1.12-6"
 version = "1.12-6"
-date = "2022-12-12T15:13:28"
 categories = ['xapps-extra']
-upstreamurl = "http://jonls.dk/redshift/"
 arch = "x86_64"
 size = "118512"
 usize = "562708"
