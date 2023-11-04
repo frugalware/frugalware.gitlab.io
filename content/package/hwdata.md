@@ -2,9 +2,7 @@
 draft = false
 title = "hwdata 0.375-1"
 version = "0.375-1"
-date = "2023-10-04T14:16:22"
 categories = ['base', 'core']
-upstreamurl = "https://github.com/vcrhonek/hwdata"
 arch = "x86_64"
 size = "1570552"
 usize = "9327903"

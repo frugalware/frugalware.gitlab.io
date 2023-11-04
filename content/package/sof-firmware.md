@@ -2,9 +2,7 @@
 draft = false
 title = "sof-firmware 2023.09-1"
 version = "2023.09-1"
-date = "2023-09-29T13:03:42"
 categories = ['base']
-upstreamurl = "https://www.sofproject.org/"
 arch = "x86_64"
 size = "1090972"
 usize = "20960465"
