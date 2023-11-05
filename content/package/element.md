@@ -2,9 +2,7 @@
 draft = false
 title = "element 1.11.43-1"
 version = "1.11.43-1"
-date = "2023-09-16T18:25:41"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/vector-im/element-web"
 arch = "x86_64"
 size = "91893008"
 usize = "327327782"
