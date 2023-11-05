@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kiriki 23.08.1-1"
-version = "23.08.1-1"
+title = "kiriki 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T19:39:34"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "481596"
-usize = "1001006"
-sha1sum = "fc9b8143159ad8bf5023e689e0169441030d5956"
-depends = "['libkdegames>=23.08.1', 'qt5-svg>=5.15.10']"
+size = "480872"
+usize = "1000362"
+sha1sum = "476c36cb0fa0bb6a6bb75cbb9c8b618d71586d00"
+depends = "['libkdegames>=23.08.2', 'qt5-svg>=5.15.11']"
 +++
 An addictive and fun dice game.

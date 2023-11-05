@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-cs 115.3.2-1"
-version = "115.3.2-1"
+title = "thunderbird-cs 115.4.1-1"
+version = "115.4.1-1"
+date = "2023-10-28T13:19:39"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "674504"
-usize = "733801"
-sha1sum = "6f815faed4887da9faec717160773011e266a163"
-depends = "['thunderbird>=115.3.2']"
+size = "674488"
+usize = "733800"
+sha1sum = "454b04547ff747fc25225fa9a09171b895b0c84b"
+depends = "['thunderbird>=115.4.1']"
 +++
 Czech language support for Thunderbird

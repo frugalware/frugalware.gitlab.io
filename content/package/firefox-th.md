@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-th 118.0.2-1"
-version = "118.0.2-1"
+title = "firefox-th 119.0-1"
+version = "119.0-1"
+date = "2023-10-28T12:14:59"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "589472"
-usize = "638975"
-sha1sum = "b010485bd176bb4afe0930fb8f256c8e8fe45586"
-depends = "['firefox>=118.0.2']"
+size = "593212"
+usize = "643203"
+sha1sum = "8250c3102f06a675600c28e63de1dcbda9faf517"
+depends = "['firefox>=119.0']"
 +++
 Thai language support for Firefox

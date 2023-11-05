@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libvdpau 1.2-3"
-version = "1.2-3"
+title = "libvdpau 1.2-4"
+version = "1.2-4"
+date = "2023-10-22T12:31:28"
 categories = ['x11']
+upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "69532"
-usize = "323194"
-sha1sum = "6b35cf77826300a671d78a40a3c731dd0d5cef98"
+size = "67464"
+usize = "310043"
+sha1sum = "9b1020133a723d44d3b3157475fd7b04f746638b"
 depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3']"
 +++
 VDPAU wrapper library

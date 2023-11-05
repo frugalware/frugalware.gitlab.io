@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-hsb 118.0.2-1"
-version = "118.0.2-1"
+title = "firefox-hsb 119.0-1"
+version = "119.0-1"
+date = "2023-10-28T12:14:59"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "542808"
-usize = "594451"
-sha1sum = "90aaf6d3ed33b5923a4cd5ba9a4d12fc9918490f"
-depends = "['firefox>=118.0.2']"
+size = "547076"
+usize = "598796"
+sha1sum = "2534642739f1b8f564e3ebafee5912b3abe09bdd"
+depends = "['firefox>=119.0']"
 +++
 Upper Sorbian language support for Firefox

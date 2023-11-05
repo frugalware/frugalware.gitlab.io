@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kde-gtk-config 5.27.8-1"
-version = "5.27.8-1"
+title = "kde-gtk-config 5.27.9-1"
+version = "5.27.9-1"
+date = "2023-10-28T16:22:55"
 categories = ['plasma']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "68100"
+size = "68556"
 usize = "310558"
-sha1sum = "bd9443ee740c79b61b42f0c5a6c8e283419144bd"
-depends = "['knewstuff>=5.110.0', 'kcmutils>=5.110.0', 'kdecoration>=5.27.8', 'qt5-svg', 'harfbuzz', 'gsettings-desktop-schemas']"
+sha1sum = "412e0c17f5282a54273bc0c64e1557b772e1859c"
+depends = "['knewstuff>=5.111.0', 'kcmutils>=5.111.0', 'kdecoration>=5.27.9', 'qt5-svg', 'harfbuzz', 'gsettings-desktop-schemas']"
 +++
 Config for GTK within KDE

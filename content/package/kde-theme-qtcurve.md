@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kde-theme-qtcurve 1.8.18.99.1-9"
-version = "1.8.18.99.1-9"
+title = "kde-theme-qtcurve 1.9-1"
+version = "1.9-1"
+date = "2023-10-27T19:55:25"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2400"
-usize = "2153"
-sha1sum = "f5cc05741959c1c8331998b4ae5441f061746c2f"
-depends = "['qtcurve>=1.8.18.99.1']"
+size = "2348"
+usize = "1849"
+sha1sum = "1f46df051abc6d3bf9dc0d5564da8353944d569a"
+depends = "['qtcurve>=1.9']"
 +++
 KDE QtCurve Theme

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-el 118.0.2-1"
-version = "118.0.2-1"
+title = "firefox-el 119.0-1"
+version = "119.0-1"
+date = "2023-10-28T12:14:59"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "623624"
-usize = "672681"
-sha1sum = "d967a9de33e49fecb0c1dbe202d076c68e45479f"
-depends = "['firefox>=118.0.2']"
+size = "630468"
+usize = "679355"
+sha1sum = "a73bbdf94f6d918e2daf7d2398aa8089eeb41e09"
+depends = "['firefox>=119.0']"
 +++
 Modern Greek (1453-) language support for Firefox

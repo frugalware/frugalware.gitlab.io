@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-tr 118.0.2-1"
-version = "118.0.2-1"
+title = "firefox-tr 119.0-1"
+version = "119.0-1"
+date = "2023-10-28T12:14:59"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "529676"
-usize = "580792"
-sha1sum = "1434d9126616f917ea946f7ef447ff6c6808b259"
-depends = "['firefox>=118.0.2']"
+size = "532856"
+usize = "584649"
+sha1sum = "7476b4a1928fd47394715566618428bbf9b529be"
+depends = "['firefox>=119.0']"
 +++
 Turkish language support for Firefox

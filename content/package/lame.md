@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "lame 3.100-6"
-version = "3.100-6"
+title = "lame 3.100-7"
+version = "3.100-7"
+date = "2023-10-22T12:13:41"
 categories = ['multimedia']
+upstreamurl = "https://sourceforge.net/projects/lame"
 arch = "x86_64"
-size = "422200"
-usize = "1654418"
-sha1sum = "0d2573e5f36185cefcf1d61209f456f5ef1464af"
+size = "424956"
+usize = "1657842"
+sha1sum = "05de5b576fbe5160abe4a3ad801bfe9e69b9c2f5"
 depends = "['ncurses>=6.1']"
 +++
 An LGPL MP3 encoder.

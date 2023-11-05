@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt6-base-sql-common 6.5.2-1"
-version = "6.5.2-1"
+title = "qt6-base-sql-common 6.6.0-1"
+version = "6.6.0-1"
+date = "2023-10-31T16:58:44"
 categories = ['devel-extra']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "12560"
-usize = "57460"
-sha1sum = "970bb2e2b33e5d9b1f2c16d197f1350b1f604eba"
+size = "12976"
+usize = "59572"
+sha1sum = "f5d66372aaec54fcf1647ede1296da751e175e52"
 depends = "[]"
 +++
 Development files for SQL plugins

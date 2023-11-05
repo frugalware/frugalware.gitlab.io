@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-nl 7.6.2.1-2"
-version = "7.6.2.1-2"
+title = "libreoffice-l10n-nl 7.6.2.1-3"
+version = "7.6.2.1-3"
+date = "2023-10-27T21:01:28"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4637632"
+size = "4638472"
 usize = "35462051"
-sha1sum = "b732b16113fdee54d1e8f86dcd21178f324e3b55"
+sha1sum = "5cd2c30ce44e5ef014f82ca110e21f6ef83f07dd"
 depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Dutch support in LibreOffice

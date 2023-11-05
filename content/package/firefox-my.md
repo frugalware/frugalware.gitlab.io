@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-my 118.0.2-1"
-version = "118.0.2-1"
+title = "firefox-my 119.0-1"
+version = "119.0-1"
+date = "2023-10-28T12:14:59"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "437144"
-usize = "494965"
-sha1sum = "81178fce7f15e94424a241a2a037829f7c793731"
-depends = "['firefox>=118.0.2']"
+size = "438128"
+usize = "496201"
+sha1sum = "c12ea8bc07d90ad6b8bd3bcaa11ba4842cf9dacf"
+depends = "['firefox>=119.0']"
 +++
 Burmese language support for Firefox

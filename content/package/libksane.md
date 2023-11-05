@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libksane 23.08.1-1"
-version = "23.08.1-1"
+title = "libksane 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T19:21:27"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "151104"
+size = "151164"
 usize = "707084"
-sha1sum = "4aabe18609d5b8c3debe2aaef2932e1cd007f5b6"
-depends = "['ktextwidgets>=5.110.0', 'ksanecore>=23.08.1']"
+sha1sum = "38a9122631d3c19368bc1a373656ba5a2e79e087"
+depends = "['ktextwidgets>=5.111.0', 'ksanecore>=23.08.2']"
 +++
 KDE SANE interface library.

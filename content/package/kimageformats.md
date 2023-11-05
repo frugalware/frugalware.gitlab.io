@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kimageformats 5.110.0-2"
-version = "5.110.0-2"
+title = "kimageformats 5.111.0-1"
+version = "5.111.0-1"
+date = "2023-10-28T13:46:23"
 categories = ['kf5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "185628"
-usize = "745584"
-sha1sum = "f4cbc08fabbe6a83785141702afb47eeb517a3d4"
-depends = "['qt5-base>=5.15.10', 'karchive>=5.110.0', 'libraw', 'openexr>=3.2.0', 'jasper>=1.900.1-10', 'libheif', 'libavif']"
+size = "185476"
+usize = "749680"
+sha1sum = "a8697abe54d4952d69f0abab929e8b8d634e0aef"
+depends = "['qt5-base>=5.15.11', 'karchive>=5.111.0', 'libraw', 'openexr>=3.2.0', 'jasper>=1.900.1-10', 'libheif', 'libavif']"
 +++
 Image format plugins.

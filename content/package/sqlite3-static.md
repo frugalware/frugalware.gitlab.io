@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "sqlite3-static 3.43.2-1"
-version = "3.43.2-1"
+title = "sqlite3-static 3.44.0-1"
+version = "3.44.0-1"
+date = "2023-11-02T11:28:08"
 categories = ['devel-extra']
+upstreamurl = "http://www.sqlite.org/"
 arch = "x86_64"
-size = "6071648"
-usize = "6464370"
-sha1sum = "1f7300bc084b43bdaf499848da8ff71ddf81d2d1"
+size = "6109440"
+usize = "6504080"
+sha1sum = "db70da05ab9a3f85140b5ff325ce26597616f2de"
 depends = "[]"
 +++
 Static files for sqlite3

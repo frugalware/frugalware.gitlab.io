@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "plasma-remotecontrollers 5.27.8-1"
-version = "5.27.8-1"
+title = "plasma-remotecontrollers 5.27.9-1"
+version = "5.27.9-1"
+date = "2023-10-28T17:28:02"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "100580"
+size = "100704"
 usize = "473518"
-sha1sum = "7af1a95fef3a84bf7a8843590bc892d0117bde3d"
-depends = "['plasma-workspace>=5.27.8', 'libcec']"
+sha1sum = "ad4b88b0e76f8f3d0f93ed0d83613cd76ee1780f"
+depends = "['plasma-workspace>=5.27.9', 'libcec']"
 +++
 Translate various input device events into keyboard and pointer events

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libkdegames 23.08.1-1"
-version = "23.08.1-1"
+title = "libkdegames 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T19:22:37"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "9183916"
-usize = "10768986"
-sha1sum = "01d5c5cd2d13eb87697ea309962aca4deacbb269"
-depends = "['qt5-declarative>=5.15.10', 'kdnssd>=5.110.0', 'knewstuff>=5.110.0', 'kdeclarative>=5.110.0', 'openal>=1.17.2-2']"
+size = "9185016"
+usize = "10768990"
+sha1sum = "de563e922e8e992f2a56f577472d688697513620"
+depends = "['qt5-declarative>=5.15.11', 'kdnssd>=5.111.0', 'knewstuff>=5.111.0', 'kdeclarative>=5.111.0', 'openal>=1.17.2-2']"
 +++
 Library for KDE games.

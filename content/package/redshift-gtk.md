@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "redshift-gtk 1.12-6"
-version = "1.12-6"
+title = "redshift-gtk 1.12-7"
+version = "1.12-7"
+date = "2023-11-02T11:02:45"
 categories = ['xapps-extra']
+upstreamurl = "http://jonls.dk/redshift/"
 arch = "x86_64"
-size = "45580"
-usize = "431290"
-sha1sum = "dc585bd113c35eb666cc3b15164159646b5cb61c"
+size = "45172"
+usize = "422798"
+sha1sum = "ed29538bd97e8f8f99a23454c8762e798ef8eb90"
 depends = "['pygobject3', 'python3-pyxdg', 'gtk+3']"
 +++
 Gtk Client for redshift

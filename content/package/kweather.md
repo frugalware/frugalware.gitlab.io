@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kweather 23.08.1-1"
-version = "23.08.1-1"
+title = "kweather 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T23:12:41"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "373492"
-usize = "1283410"
-sha1sum = "522eae6b22df30c122d4c9396a4bd9a9334abf61"
+size = "374816"
+usize = "1289059"
+sha1sum = "ac98b7104691524a9842e5fbcda2e056f5529732"
 depends = "['kweathercore', 'plasma-framework', 'qt5-charts', 'kirigami-addons']"
 +++
 'Weather application for Plasma Mobile

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "neochat 23.08.1-1"
-version = "23.08.1-1"
+title = "neochat 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T23:14:40"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "958712"
-usize = "5006144"
-sha1sum = "1b4c4ee6f49cb16f89d4a5f8a486be0680065d8f"
+size = "950324"
+usize = "5026382"
+sha1sum = "d3a29dec4c5d12a27315e491d6c12e96e1471fc0"
 depends = "['qt5-quickcontrols2', 'libquotient', 'cmark', 'kio', 'syntax-highlighting', 'kquickimageeditor', 'kirigami-addons', 'qqc2-desktop-style', 'kitemmodels']"
 +++
 A client for matrix, the decentralized communication protocol

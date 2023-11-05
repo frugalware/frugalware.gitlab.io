@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-ms 115.3.2-1"
-version = "115.3.2-1"
+title = "thunderbird-ms 115.4.1-1"
+version = "115.4.1-1"
+date = "2023-10-28T13:19:39"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "489564"
+size = "489628"
 usize = "565734"
-sha1sum = "4916bce15f179ebc7cb6c58297d11ebb115eb7e2"
-depends = "['thunderbird>=115.3.2']"
+sha1sum = "3d3ce0109068796dc04a07c93d54a7941f7c25ef"
+depends = "['thunderbird>=115.4.1']"
 +++
 Malay language support for Thunderbird

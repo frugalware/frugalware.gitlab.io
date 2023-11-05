@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "uwsgi-plugin-python 2.0.21-3"
-version = "2.0.21-3"
+title = "uwsgi-plugin-python 2.0.23-1"
+version = "2.0.23-1"
+date = "2023-11-02T12:28:24"
 categories = ['network-extra']
+upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "58772"
-usize = "197235"
-sha1sum = "08a2b8a57ae77bc70609e3361a1e61fb8e7cf6cf"
+size = "59516"
+usize = "201248"
+sha1sum = "1444a11c77a0de475a9c70661d1d5be0b795933d"
 depends = "['python3-greenlet', 'uwsgi']"
 +++
 UWSGI Python Plugin

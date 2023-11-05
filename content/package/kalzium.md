@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kalzium 23.08.1-1"
-version = "23.08.1-1"
+title = "kalzium 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T21:55:09"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "24391104"
-usize = "40457243"
-sha1sum = "897fe4ecff5242526695dcaa751554626e371631"
-depends = "['eigen', 'kdelibs4support>=5.110.0', 'khtml>=5.110.0', 'knewstuff>=5.110.0', 'kparts>=5.110.0', 'kplotting>=5.110.0', 'kunitconversion>=5.110.0']"
+size = "24392152"
+usize = "40456556"
+sha1sum = "442bae5ce25a6dd4ba0fc0b06d193688177d1dde"
+depends = "['eigen', 'kdelibs4support>=5.111.0', 'khtml>=5.111.0', 'knewstuff>=5.111.0', 'kparts>=5.111.0', 'kplotting>=5.111.0', 'kunitconversion>=5.111.0']"
 +++
 Periodic Table of Elements.

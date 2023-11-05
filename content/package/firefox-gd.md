@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-gd 118.0.2-1"
-version = "118.0.2-1"
+title = "firefox-gd 119.0-1"
+version = "119.0-1"
+date = "2023-10-28T12:14:59"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "518712"
-usize = "570199"
-sha1sum = "c9f0abc4e469f20cac29f1798aae9908821aa63c"
-depends = "['firefox>=118.0.2']"
+size = "520176"
+usize = "571440"
+sha1sum = "09b33e911bcf30302a291be314c9cbfc9efb168c"
+depends = "['firefox>=119.0']"
 +++
 Scottish Gaelic language support for Firefox

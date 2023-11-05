@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-sk 115.3.2-1"
-version = "115.3.2-1"
+title = "thunderbird-sk 115.4.1-1"
+version = "115.4.1-1"
+date = "2023-10-28T13:19:39"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "677424"
+size = "677412"
 usize = "736589"
-sha1sum = "395b9b1ddc084e1e40f4574424155a3fca3d94a6"
-depends = "['thunderbird>=115.3.2']"
+sha1sum = "69883520993c4f165c4597270151e9f5355b7c47"
+depends = "['thunderbird>=115.4.1']"
 +++
 Slovak language support for Thunderbird

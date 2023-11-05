@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-scripting-beanshell 7.6.2.1-2"
-version = "7.6.2.1-2"
+title = "libreoffice-scripting-beanshell 7.6.2.1-3"
+version = "7.6.2.1-3"
+date = "2023-10-27T21:01:28"
 categories = ['xapps-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "10668"
+size = "10736"
 usize = "0"
-sha1sum = "2c8e989b3e60da43523537d12798772cefda5368"
+sha1sum = "08169ed8c6afaa12234c91712de27251b865b499"
 depends = "['bsh', 'libreoffice>=7.6.2.1']"
 +++
 Installs scripting beanshell support in LibreOffice

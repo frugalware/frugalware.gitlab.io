@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "krfb-pipewire 23.08.1-1"
-version = "23.08.1-1"
+title = "krfb-pipewire 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T18:45:54"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "42316"
+size = "42240"
 usize = "157616"
-sha1sum = "bd1103f3e777dc5bb7ef3442c103e029ee9c75ce"
-depends = "['kpipewire>=5.27.8', 'libepoxy', 'krfb']"
+sha1sum = "728df75fa7b6f722373b6c52ce162d933a431a59"
+depends = "['kpipewire>=5.27.9', 'libepoxy', 'krfb']"
 +++
 KRfb pipewire plugin

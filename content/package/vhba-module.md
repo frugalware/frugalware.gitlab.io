@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "vhba-module 20211218-122"
-version = "20211218-122"
+title = "vhba-module 20211218-124"
+version = "20211218-124"
+date = "2023-10-31T14:17:03"
 categories = ['apps-extra']
+upstreamurl = "https://sourceforge.net/projects/cdemu"
 arch = "x86_64"
-size = "41404"
-usize = "33604"
-sha1sum = "3be17fd8ec95eaf11361e5b7b75efedcdf70fd4c"
-depends = "['kernel=6.5.7-1']"
+size = "41516"
+usize = "33605"
+sha1sum = "ec903a682fe9b08732932ca579e22f51512d8b4d"
+depends = "['kernel=6.6-1']"
 +++
 VHBA module provides a Virtual (SCSI) HBA, which is the link between userspace daemon and linux kernel.

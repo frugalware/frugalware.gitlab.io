@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "uwsgi-plugin-carbon 2.0.21-3"
-version = "2.0.21-3"
+title = "uwsgi-plugin-carbon 2.0.23-1"
+version = "2.0.23-1"
+date = "2023-11-02T12:28:24"
 categories = ['network-extra']
+upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "8316"
-usize = "23403"
-sha1sum = "ea685995917564c46bec1bbc37559c2e5c74b4b9"
+size = "8328"
+usize = "23320"
+sha1sum = "b57461996ff39458e6c1033a352456dbc562ecb9"
 depends = "['uwsgi']"
 +++
 UWSGI Carbon Plugin

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt5-sensors 5.15.10-2"
-version = "5.15.10-2"
+title = "qt5-sensors 5.15.11-1"
+version = "5.15.11-1"
+date = "2023-10-16T14:15:46"
 categories = ['xlib']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "177628"
-usize = "1079961"
-sha1sum = "dacebc48ed137d3c1e1b17d55599e96da7b575e2"
-depends = "['qt5-declarative>=5.15.10']"
+size = "177176"
+usize = "1084057"
+sha1sum = "56136c7950fb559eca211012e373ca9a999cd256"
+depends = "['qt5-declarative>=5.15.11']"
 +++
 The Qt5 toolkit, qtsensors

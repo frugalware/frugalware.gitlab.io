@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-kn 118.0.2-1"
-version = "118.0.2-1"
+title = "firefox-kn 119.0-1"
+version = "119.0-1"
+date = "2023-10-28T12:14:59"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "412888"
-usize = "473787"
-sha1sum = "9a96f2608a74dbd582cbac1f11b0110283af8cb3"
-depends = "['firefox>=118.0.2']"
+size = "414032"
+usize = "475014"
+sha1sum = "f64b408fafe72ba654314b8be131a371ec7a6906"
+depends = "['firefox>=119.0']"
 +++
 Kannada language support for Firefox

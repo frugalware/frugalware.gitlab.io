@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "zfs 2.2.0-1"
-version = "2.2.0-1"
+title = "zfs 2.2.0-3"
+version = "2.2.0-3"
+date = "2023-10-31T15:59:28"
 categories = ['base-extra']
+upstreamurl = "http://zfsonlinux.org"
 arch = "x86_64"
-size = "33078868"
-usize = "48609558"
-sha1sum = "14d21ef5d744e270df5b8eabdf731d68ffa2d491"
-depends = "['kernel=6.5.7-1', 'libtirpc']"
+size = "33081228"
+usize = "48613872"
+sha1sum = "8150d1d3607f532030be10032fb6c42b156535b6"
+depends = "['kernel=6.6-1', 'libtirpc']"
 +++
 ZFS

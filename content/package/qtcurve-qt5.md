@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qtcurve-qt5 1.8.18.99.1-9"
-version = "1.8.18.99.1-9"
+title = "qtcurve-qt5 1.9-1"
+version = "1.9-1"
+date = "2023-10-27T19:55:25"
 categories = ['xlib-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "337880"
-usize = "1126181"
-sha1sum = "c69947efc45e9d63ee40f2be7ac4e9939ba6b739"
-depends = "['kdelibs4support', 'qt5-svg', 'qtcurve>=1.8.18.99.1']"
+size = "336684"
+usize = "1093432"
+sha1sum = "76eec9ada0d1ad61c6e9a7e70551c33de4ad77dc"
+depends = "['kdelibs4support', 'qt5-svg', 'qtcurve>=1.9']"
 +++
 QtCurve Qt5 Theme

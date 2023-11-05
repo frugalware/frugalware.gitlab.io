@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-tg 118.0.2-1"
-version = "118.0.2-1"
+title = "firefox-tg 119.0-1"
+version = "119.0-1"
+date = "2023-10-28T12:14:59"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "613400"
-usize = "662286"
-sha1sum = "da2b51eca327d73d7d8c368f7e1c801e0c0ff111"
-depends = "['firefox>=118.0.2']"
+size = "617044"
+usize = "666267"
+sha1sum = "78ad7a6afc3dd3bc651a44231c54da4079d5754c"
+depends = "['firefox>=119.0']"
 +++
 Tajik language support for Firefox

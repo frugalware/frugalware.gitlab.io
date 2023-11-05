@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-de 7.6.2.1-2"
-version = "7.6.2.1-2"
+title = "libreoffice-l10n-de 7.6.2.1-3"
+version = "7.6.2.1-3"
+date = "2023-10-27T21:01:28"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4776092"
+size = "4776200"
 usize = "36310342"
-sha1sum = "5cb09b944c96f289aae9f6e418f5bbad008f8d04"
+sha1sum = "8cf42389883e8773b48745bcde6cb1b730edf303"
 depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs German support in LibreOffice

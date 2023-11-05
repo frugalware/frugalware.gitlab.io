@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt6-httpserver 6.5.2-1"
-version = "6.5.2-1"
+title = "qt6-httpserver 6.6.0-1"
+version = "6.6.0-1"
+date = "2023-10-31T22:11:42"
 categories = ['xlib-extra']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "60648"
-usize = "233556"
-sha1sum = "a27b16591b3e88949063a0ff2ed8f5bdedd7e82f"
+size = "60424"
+usize = "229974"
+sha1sum = "61dfdd246cf12dd96198ebd49f1d0a4cdeed4c03"
 depends = "['qt6-declarative', 'qt6-websockets']"
 +++
 The Qt6 toolkit, qthttpserver

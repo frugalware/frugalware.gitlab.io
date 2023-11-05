@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "sof-firmware 2023.09-1"
-version = "2023.09-1"
+title = "sof-firmware 2023.09.1-1"
+version = "2023.09.1-1"
+date = "2023-11-04T15:53:38"
 categories = ['base']
+upstreamurl = "https://www.sofproject.org/"
 arch = "x86_64"
-size = "1090972"
-usize = "20960465"
-sha1sum = "9eb150b4f79a634d07267717b42d4b893e28ade1"
+size = "1090724"
+usize = "20942873"
+sha1sum = "32515b6f8eca67e33c55a95ceb0d9f71c805d7d0"
 depends = "['glibc>=2.35']"
 +++
 Sound Open Firmware

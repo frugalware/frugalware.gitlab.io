@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-cs 118.0.2-1"
-version = "118.0.2-1"
+title = "firefox-cs 119.0-1"
+version = "119.0-1"
+date = "2023-10-28T12:14:59"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "549184"
-usize = "602028"
-sha1sum = "9abae2228d478804c1e1ac150806d4eb17af776f"
-depends = "['firefox>=118.0.2']"
+size = "558852"
+usize = "609562"
+sha1sum = "7db66b73a1f4299f095ecf9691aab7420f867d69"
+depends = "['firefox>=119.0']"
 +++
 Czech language support for Firefox

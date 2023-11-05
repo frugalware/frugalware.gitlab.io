@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "akonadi 23.08.1-1"
-version = "23.08.1-1"
+title = "akonadi 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T20:26:06"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2405392"
-usize = "10124581"
-sha1sum = "c64c9bdfb785cb2d32ef1a16ca8dcd57fcd58b5a"
-depends = "['shared-mime-info', 'libxslt', 'qt5-base>=5.15.10', 'kitemviews>=5.110.0', 'kio>=5.110.0', 'kdesignerplugin>=5.110.0', 'kitemmodels>=5.110.0', 'kaccounts-integration>=23.08.1', 'libstdc++>=6.3.1-4']"
+size = "2407768"
+usize = "10128816"
+sha1sum = "e8dc43203c7a6c8a507b91c3aad55ffe47b2874d"
+depends = "['shared-mime-info', 'libxslt', 'qt5-base>=5.15.11', 'kitemviews>=5.111.0', 'kio>=5.111.0', 'kdesignerplugin>=5.111.0', 'kitemmodels>=5.111.0', 'kaccounts-integration>=23.08.2', 'libstdc++>=6.3.1-4']"
 +++
 PIM layer, which provides an asynchronous API to access all kind of PIM data

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-tr 115.3.2-1"
-version = "115.3.2-1"
+title = "thunderbird-tr 115.4.1-1"
+version = "115.4.1-1"
+date = "2023-10-28T13:19:39"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "655332"
-usize = "714660"
-sha1sum = "857e764a90c9d0e1634f93c57b7b6b977e110321"
-depends = "['thunderbird>=115.3.2']"
+size = "655352"
+usize = "714659"
+sha1sum = "b9bf18a529a43bbcccbfcf3f0c5f52a8f0e6682e"
+depends = "['thunderbird>=115.4.1']"
 +++
 Turkish language support for Thunderbird

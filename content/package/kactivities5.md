@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kactivities5 5.110.0-1"
-version = "5.110.0-1"
+title = "kactivities5 5.111.0-1"
+version = "5.111.0-1"
+date = "2023-10-28T14:38:14"
 categories = ['kf5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "111896"
+size = "111604"
 usize = "453528"
-sha1sum = "f342a548b0b60501910b8dcb357203881d472dea"
-depends = "['kio>=5.110.0']"
+sha1sum = "8a76ac99db3aa2ac3cc5037bc1bb22ad458adf8b"
+depends = "['kio>=5.111.0']"
 +++
 The KActivity Manager Daemon.

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kconfigwidgets 5.110.0-1"
-version = "5.110.0-1"
+title = "kconfigwidgets 5.111.0-1"
+version = "5.111.0-1"
+date = "2023-10-28T14:18:20"
 categories = ['kf5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "368216"
+size = "368368"
 usize = "1620526"
-sha1sum = "12079b602400c00c6d2c7ea3926e542f999b79be"
-depends = "['kauth>=5.110.0', 'kcodecs>=5.110.0', 'kconfig>=5.110.0', 'kguiaddons>=5.110.0', 'ki18n>=5.110.0', 'kwidgetsaddons>=5.110.0', 'qt5-x11extras>=5.15.10']"
+sha1sum = "0355a88d38fb82bf129f4630196e9e926fed2313"
+depends = "['kauth>=5.111.0', 'kcodecs>=5.111.0', 'kconfig>=5.111.0', 'kguiaddons>=5.111.0', 'ki18n>=5.111.0', 'kwidgetsaddons>=5.111.0', 'qt5-x11extras>=5.15.11']"
 +++
 Widgets for KConfig.

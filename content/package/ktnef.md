@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "ktnef 23.08.1-1"
-version = "23.08.1-1"
+title = "ktnef 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T20:20:34"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "119564"
-usize = "648721"
-sha1sum = "e9647008e72f3c1465702d6965d0fa958fb4b843"
-depends = "['kcalutils>=23.08.1', 'kcontacts>=5.110.0']"
+size = "121980"
+usize = "657920"
+sha1sum = "91297e57ec9a7f0559e4e48ba8f61ef9f914db9a"
+depends = "['kcalutils>=23.08.2', 'kcontacts>=5.111.0']"
 +++
 Desc: C++ API for the handling of TNEF data.

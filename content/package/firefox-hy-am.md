@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-hy-am 118.0.2-1"
-version = "118.0.2-1"
+title = "firefox-hy-am 119.0-1"
+version = "119.0-1"
+date = "2023-10-28T12:14:59"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "529084"
-usize = "584473"
-sha1sum = "2ae8a0d0b087c51b86626ded08e49e5f16f9b60c"
-depends = "['firefox>=118.0.2']"
+size = "530560"
+usize = "586251"
+sha1sum = "41607bb4fc1de3fe686e25673f1f4354122c6c0e"
+depends = "['firefox>=119.0']"
 +++
 Armenian language support for Firefox

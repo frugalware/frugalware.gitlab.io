@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-km 118.0.2-1"
-version = "118.0.2-1"
+title = "firefox-km 119.0-1"
+version = "119.0-1"
+date = "2023-10-28T12:14:59"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "449996"
-usize = "508311"
-sha1sum = "08570aafdcb2bec8e013a78afa3861c766dfea3e"
-depends = "['firefox>=118.0.2']"
+size = "451084"
+usize = "509380"
+sha1sum = "4ee464647ba768d0b8a5edae586f80c574475768"
+depends = "['firefox>=119.0']"
 +++
 Central Khmer language support for Firefox

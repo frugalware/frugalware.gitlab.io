@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "ksmtp 23.08.1-1"
-version = "23.08.1-1"
+title = "ksmtp 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T19:08:05"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "54652"
-usize = "195144"
-sha1sum = "5aa73ea0d1d0df73d0bf311a089afa17f362001d"
-depends = "['kcoreaddons>=5.110.0', 'kio>=5.110.0', 'kmime>=23.08.1', 'cyrus-sasl', 'pcre2']"
+size = "54744"
+usize = "195156"
+sha1sum = "b70854458bca539eca65bad5a4680a5edc946080"
+depends = "['kcoreaddons>=5.111.0', 'kio>=5.111.0', 'kmime>=23.08.2', 'cyrus-sasl', 'pcre2']"
 +++
 Job-based library to send email through an SMTP server.

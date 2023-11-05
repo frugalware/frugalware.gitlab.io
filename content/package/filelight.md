@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "filelight 23.08.1-1"
-version = "23.08.1-1"
+title = "filelight 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T18:18:06"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "748036"
-usize = "1433382"
-sha1sum = "8e40f41867b039d1b71a335c368b186f989b554e"
-depends = "['kparts>=5.110.0', 'kdeclarative>=5.110.0', 'qt5-quickcontrols2>=5.15.10']"
+size = "748444"
+usize = "1433292"
+sha1sum = "a63a05a6a957695ecdce768ca7b4e2bf15d94946"
+depends = "['kparts>=5.111.0', 'kdeclarative>=5.111.0', 'qt5-quickcontrols2>=5.15.11']"
 +++
 View disk usage information.

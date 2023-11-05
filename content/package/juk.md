@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "juk 23.08.1-1"
-version = "23.08.1-1"
+title = "juk 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T21:32:37"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2482712"
-usize = "6050777"
-sha1sum = "81575ff1f88297a6ebeaa5eabec6d2fbe627ee7f"
-depends = "['taglib', 'kio>=5.110.0', 'pcre2']"
+size = "2483304"
+usize = "6050584"
+sha1sum = "a80ffd106b1ab8feab555ebd5dde9a4cea609a58"
+depends = "['taglib', 'kio>=5.111.0', 'pcre2']"
 +++
 JuK is an audio jukebox application.

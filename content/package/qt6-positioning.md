@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt6-positioning 6.5.2-1"
-version = "6.5.2-1"
+title = "qt6-positioning 6.6.0-1"
+version = "6.6.0-1"
+date = "2023-10-31T19:49:04"
 categories = ['xlib-extra']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "331272"
-usize = "1713725"
-sha1sum = "4149f2228718ff0c9614e7396e1fc6836ce8082b"
+size = "331904"
+usize = "1705839"
+sha1sum = "19896968d844064286332a4f659c236ce07cd9c0"
 depends = "['qt6-declarative', 'qt6-serialport']"
 +++
 The Qt6 toolkit, qtpositioning

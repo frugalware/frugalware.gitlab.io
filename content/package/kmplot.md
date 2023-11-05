@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kmplot 23.08.1-1"
-version = "23.08.1-1"
+title = "kmplot 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T18:39:13"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3356368"
-usize = "7364031"
-sha1sum = "8d3b425c27deace3e97e09602b015062b10b2759"
-depends = "['kdelibs4support>=5.110.0']"
+size = "3356544"
+usize = "7363717"
+sha1sum = "a63f29b56e003f1fd964eecff80f014fb8c99c12"
+depends = "['kdelibs4support>=5.111.0']"
 +++
 Mathematical Function Plotter.

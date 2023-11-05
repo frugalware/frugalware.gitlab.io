@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kscreen5 5.27.8-1"
-version = "5.27.8-1"
+title = "kscreen5 5.27.9-1"
+version = "5.27.9-1"
+date = "2023-10-28T16:03:05"
 categories = ['plasma']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "232224"
-usize = "1067746"
-sha1sum = "35f04a66306f29ab2ea214ab5f6f87d66cfe43f7"
-depends = "['kxmlgui>=5.110.0', 'plasma-framework>=5.110.0', 'libkscreen5>=5.27.8', 'kcmutils>=5.110.0', 'layer-shell-qt>=5.27.8', 'qt5-sensors>=5.15.10']"
+size = "233088"
+usize = "1070118"
+sha1sum = "822c7a044ad67aa5bda725538e665103970fbad7"
+depends = "['kxmlgui>=5.111.0', 'plasma-framework>=5.111.0', 'libkscreen5>=5.27.9', 'kcmutils>=5.111.0', 'layer-shell-qt>=5.27.9', 'qt5-sensors>=5.15.11']"
 +++
 KDE's screen management utility.

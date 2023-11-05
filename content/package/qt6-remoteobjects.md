@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt6-remoteobjects 6.5.2-1"
-version = "6.5.2-1"
+title = "qt6-remoteobjects 6.6.0-1"
+version = "6.6.0-1"
+date = "2023-10-31T19:38:28"
 categories = ['xlib-extra']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "416048"
-usize = "1665187"
-sha1sum = "4603be59b2d2362fe13750d976ecfc2ec59c03c5"
+size = "413580"
+usize = "1649512"
+sha1sum = "775cb81ddc6c299eed7782169f98b542e32155a0"
 depends = "['qt6-declarative']"
 +++
 The Qt6 toolkit, qtremoteobjects

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libktorrent 23.08.1-1"
-version = "23.08.1-1"
+title = "libktorrent 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T21:38:39"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "663532"
-usize = "2563811"
-sha1sum = "b4ca1ee46f757c8ac5cc56836eee6176c05c58bf"
-depends = "['qca', 'kio>=5.110.0', 'pcre2']"
+size = "665036"
+usize = "2563789"
+sha1sum = "8d90bd8d522df5931712df402f60e83b6040a7cc"
+depends = "['qca', 'kio>=5.111.0', 'pcre2']"
 +++
 A BitTorrent library for KDE applications.

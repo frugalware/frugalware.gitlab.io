@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "redshift 1.12-6"
-version = "1.12-6"
+title = "redshift 1.12-7"
+version = "1.12-7"
+date = "2023-11-02T11:02:45"
 categories = ['xapps-extra']
+upstreamurl = "http://jonls.dk/redshift/"
 arch = "x86_64"
-size = "118512"
-usize = "562708"
-sha1sum = "b26e08863aa00b2264a1983697b2709b53498f24"
+size = "124068"
+usize = "570346"
+sha1sum = "38c268135b416a9f3085f0dae37ac8f1a642f88b"
 depends = "['glib2>=2.46.2-4', 'libdrm', 'libxcb', 'libxxf86vm']"
 +++
 Redshift color temperature adjustment.

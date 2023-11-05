@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "korganizer 23.08.1-1"
-version = "23.08.1-1"
+title = "korganizer 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T21:13:51"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2376708"
-usize = "10618237"
-sha1sum = "31b1ebc2bd0f5a2790eddde85c00d120a67cf152"
-depends = "['kontactinterface>=23.08.1', 'kdepim-runtime>=23.08.1', 'incidenceeditor>=23.08.1', 'mailcommon>=23.08.1']"
+size = "2387792"
+usize = "10766301"
+sha1sum = "25bea42e4b50b06fe2f9318a1082fef5bd8c6386"
+depends = "['kontactinterface>=23.08.2', 'kdepim-runtime>=23.08.2', 'incidenceeditor>=23.08.2', 'mailcommon>=23.08.2']"
 +++
 KDE Personal Organizer.

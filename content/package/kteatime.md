@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kteatime 23.08.1-1"
-version = "23.08.1-1"
+title = "kteatime 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T19:53:22"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "347068"
-usize = "761782"
-sha1sum = "daa50a4ec2e444096392bf11501b7545c103239b"
-depends = "['kdelibs4support>=5.110.0', 'knotifyconfig>=5.110.0', 'libkdegames>=23.08.1']"
+size = "346924"
+usize = "761730"
+sha1sum = "cf63a4900ffb0e791b9c081112ac6b7dcb808cdb"
+depends = "['kdelibs4support>=5.111.0', 'knotifyconfig>=5.111.0', 'libkdegames>=23.08.2']"
 +++
 Tea Cooker.

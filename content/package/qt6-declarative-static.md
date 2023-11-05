@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt6-declarative-static 6.5.2-1"
-version = "6.5.2-1"
+title = "qt6-declarative-static 6.6.0-1"
+version = "6.6.0-1"
+date = "2023-10-31T17:13:50"
 categories = ['devel-extra']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "30997916"
-usize = "80052878"
-sha1sum = "5cb90ed3e1999ee46665a45a97f378388d3e8d07"
+size = "53285624"
+usize = "140769274"
+sha1sum = "1557515228d613637c3fc822372f93fc63ffcde8"
 depends = "['libstdc++>=11.3']"
 +++
 Qt6 declarative static libs.

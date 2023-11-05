@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt6-quicktimeline 6.5.2-1"
-version = "6.5.2-1"
+title = "qt6-quicktimeline 6.6.0-1"
+version = "6.6.0-1"
+date = "2023-10-31T19:42:56"
 categories = ['xlib-extra']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "40384"
-usize = "204960"
-sha1sum = "c7030674b699c31ec1d6bd5376111c22468c1ed5"
+size = "40160"
+usize = "201189"
+sha1sum = "33052ef965204f329236d662e8a06ebf8683ed06"
 depends = "['qt6-declarative']"
 +++
 The Qt6 toolkit, qtquicktimeline

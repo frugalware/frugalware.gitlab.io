@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt6-location 6.5.2-1"
-version = "6.5.2-1"
+title = "qt6-location 6.6.0-1"
+version = "6.6.0-1"
+date = "2023-10-31T22:37:56"
 categories = ['xlib-extra']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "593936"
-usize = "3129632"
-sha1sum = "4ea1d2abc6465d5d316f38a19f006c7da9319d43"
+size = "606124"
+usize = "3166946"
+sha1sum = "de033615c5903e2a4b5837623afe5256a87bca34"
 depends = "['qt6-declarative', 'qt6-positioning']"
 +++
 The Qt6 toolkit, qtlocation

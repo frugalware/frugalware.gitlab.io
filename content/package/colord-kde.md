@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "colord-kde 23.08.1-1"
-version = "23.08.1-1"
+title = "colord-kde 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T22:55:10"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "156012"
-usize = "697374"
-sha1sum = "e61c25b34c5ad322ce732211b0637785ae4a95f0"
+size = "156148"
+usize = "697390"
+sha1sum = "638460601bbb715a46b138b93090b888eb086e06"
 depends = "['colord', 'libxrandr', 'kitemmodels', 'kdeclarative', 'kirigami-addons', 'kcmutils']"
 +++
 Interfaces and session daemon to colord for KDE

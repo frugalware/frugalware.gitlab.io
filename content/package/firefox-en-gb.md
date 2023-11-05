@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-en-gb 118.0.2-1"
-version = "118.0.2-1"
+title = "firefox-en-gb 119.0-1"
+version = "119.0-1"
+date = "2023-10-28T12:14:59"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "485828"
-usize = "538570"
-sha1sum = "d20192d14c185f1069098a787d4fb8824305aeb2"
-depends = "['firefox>=118.0.2']"
+size = "489500"
+usize = "542502"
+sha1sum = "4271a8c1d162e652d0ae3d002e48bb27c8975db2"
+depends = "['firefox>=119.0']"
 +++
 British English language support for Firefox

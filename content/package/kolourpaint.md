@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kolourpaint 23.08.1-1"
-version = "23.08.1-1"
+title = "kolourpaint 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T20:02:28"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5905872"
-usize = "10006494"
-sha1sum = "cef12bf7454b64ccb2a60085a1405b051759d62a"
-depends = "['kdelibs4support>=5.110.0', 'libksane>=23.08.1', 'libkexiv2>=23.08.1']"
+size = "5905824"
+usize = "10006405"
+sha1sum = "4dde2f991137f3d67d59d1d4462ed3dd6b64f639"
+depends = "['kdelibs4support>=5.111.0', 'libksane>=23.08.2', 'libkexiv2>=23.08.2']"
 +++
 KDE Paint Program.

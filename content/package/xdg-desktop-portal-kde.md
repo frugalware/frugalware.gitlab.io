@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "xdg-desktop-portal-kde 5.27.8-1"
-version = "5.27.8-1"
+title = "xdg-desktop-portal-kde 5.27.9-1"
+version = "5.27.9-1"
+date = "2023-10-28T17:03:22"
 categories = ['plasma']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "256576"
-usize = "1056607"
-sha1sum = "8098ddac4187d601953669b202b2e9a76698eba9"
-depends = "['kcoreaddons>=5.110.0', 'kconfig>=5.110.0', 'ki18n>=5.110.0', 'kdeclarative>=5.110.0', 'kio>=5.110.0', 'kirigami2>=5.110.0', 'knotifications>=5.110.0', 'kwidgetsaddons>=5.110.0', 'plasma-framework>=5.110.0', 'kio-fuse']"
+size = "256424"
+usize = "1056799"
+sha1sum = "b8396e7b21de709ad3458508b469d68243926ebb"
+depends = "['kcoreaddons>=5.111.0', 'kconfig>=5.111.0', 'ki18n>=5.111.0', 'kdeclarative>=5.111.0', 'kio>=5.111.0', 'kirigami2>=5.111.0', 'knotifications>=5.111.0', 'kwidgetsaddons>=5.111.0', 'plasma-framework>=5.111.0', 'kio-fuse']"
 +++
 A backend implementation for xdg-desktop-portal using Qt/KF5

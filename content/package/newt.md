@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "newt 0.52.23-4"
-version = "0.52.23-4"
+title = "newt 0.52.24-1"
+version = "0.52.24-1"
+date = "2023-10-27T20:21:34"
 categories = ['base']
+upstreamurl = "https://pagure.io/newt"
 arch = "x86_64"
-size = "77024"
-usize = "225938"
-sha1sum = "dd53c1f86d5774c9b7294dc5be0f3f53108e2e4f"
+size = "77088"
+usize = "226000"
+sha1sum = "95e54ab6e6764197eba03ad3987e8c9b3e5e6082"
 depends = "['slang>=2.3.0-4', 'popt>=1.16-7']"
 +++
 A programming library for color text mode, widget based user interfaces.

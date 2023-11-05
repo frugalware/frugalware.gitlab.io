@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "minuet 23.08.1-1"
-version = "23.08.1-1"
+title = "minuet 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T22:14:11"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "27476592"
-usize = "33260710"
-sha1sum = "b1f2094682081e7ecf545a23bf92c0a7132b1458"
-depends = "['libkdegames>=23.08.1', 'qt5-quickcontrols2>=5.15.10', 'fluidsynth>=2.0.0']"
+size = "27477288"
+usize = "33264659"
+sha1sum = "c0a99f023d3fc180380548a1610cdb34bfd30203"
+depends = "['libkdegames>=23.08.2', 'qt5-quickcontrols2>=5.15.11', 'fluidsynth>=2.0.0']"
 +++
 A KDE Software for Music Education

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-hr 115.3.2-1"
-version = "115.3.2-1"
+title = "thunderbird-hr 115.4.1-1"
+version = "115.4.1-1"
+date = "2023-10-28T13:19:39"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "613780"
-usize = "674806"
-sha1sum = "3bd96810db807b82ab054b2a2a56f6ff60e3f3bf"
-depends = "['thunderbird>=115.3.2']"
+size = "613824"
+usize = "674807"
+sha1sum = "132038e3e6a0257303415f0d4291421437a7def0"
+depends = "['thunderbird>=115.4.1']"
 +++
 Croatian language support for Thunderbird

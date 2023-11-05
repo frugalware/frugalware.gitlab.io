@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-nlpsolver 7.6.2.1-2"
-version = "7.6.2.1-2"
+title = "libreoffice-nlpsolver 7.6.2.1-3"
+version = "7.6.2.1-3"
+date = "2023-10-27T21:01:28"
 categories = ['xapps-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "10656"
+size = "10724"
 usize = "0"
-sha1sum = "cbeb61bb1c95143ab460eb956ea3a54d8c7df131"
+sha1sum = "2bebfa362b51e73ad95956bb17580de2d378d9ce"
 depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs nlpsolver support in LibreOffice

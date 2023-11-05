@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "mailimporter 23.08.1-1"
-version = "23.08.1-1"
+title = "mailimporter 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T20:46:56"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "226240"
-usize = "1634321"
-sha1sum = "fb14d02dcf74d64553fd99c563bc0e56fbe3f9b6"
-depends = "['libkdepim>=23.08.1', 'pimcommon>=23.08.1']"
+size = "227380"
+usize = "1658468"
+sha1sum = "8fa0a9e6eb9d35856ff7f7eca3b1c0a96ea749b0"
+depends = "['libkdepim>=23.08.2', 'pimcommon>=23.08.2']"
 +++
 Mail importer library.

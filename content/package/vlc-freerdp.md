@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "vlc-freerdp 3.0.19-1"
-version = "3.0.19-1"
+title = "vlc-freerdp 3.0.20-1"
+version = "3.0.20-1"
+date = "2023-11-05T13:06:34"
 categories = ['xmultimedia-extra', 'vlc-codecs']
+upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "18260"
+size = "18312"
 usize = "18120"
-sha1sum = "2da3e9da40b99bd500dd11c91af84e52c32aed9f"
-depends = "['freerdp', 'libvlc>=3.0.19']"
+sha1sum = "1a2ef844d593070d9ba9a6790075df52a5c8ee02"
+depends = "['freerdp', 'libvlc>=3.0.20']"
 +++
 vlc plugin for freerdp

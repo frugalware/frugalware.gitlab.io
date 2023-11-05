@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "pimcommon 23.08.1-1"
-version = "23.08.1-1"
+title = "pimcommon 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T20:34:20"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "399812"
-usize = "1872532"
-sha1sum = "6d8c3355a605d6bb65ccb264af3956639a64a98f"
-depends = "['libkdepim>=23.08.1', 'knewstuff>=5.110.0', 'purpose>=5.110.0', 'kpimtextedit>=23.08.1', 'kimap>=23.08.1', 'ktextaddons>=1.3.1']"
+size = "401644"
+usize = "1872617"
+sha1sum = "b837b3cce878c95cf3ffdb24233b617d829da5f5"
+depends = "['libkdepim>=23.08.2', 'knewstuff>=5.111.0', 'purpose>=5.111.0', 'kpimtextedit>=23.08.2', 'kimap>=23.08.2', 'ktextaddons>=1.3.1']"
 +++
 KdePim common files

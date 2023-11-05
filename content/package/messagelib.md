@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "messagelib 23.08.1-1"
-version = "23.08.1-1"
+title = "messagelib 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T20:41:13"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "6390916"
-usize = "17591893"
-sha1sum = "509e13aa28a6b0ff74b1ac7f322b050dffe657d3"
-depends = "['kidentitymanagement>=23.08.1', 'kmailtransport>=23.08.1', 'libgravatar>=23.08.1', 'akonadi-notes>=23.08.1', 'ktextaddons>=1.3.1', 'qca']"
+size = "6401620"
+usize = "17750264"
+sha1sum = "6b008430be4a809654d5fb417887417ff4e104fd"
+depends = "['kidentitymanagement>=23.08.2', 'kmailtransport>=23.08.2', 'libgravatar>=23.08.2', 'akonadi-notes>=23.08.2', 'ktextaddons>=1.3.1', 'qca']"
 +++
 KdePim message library.

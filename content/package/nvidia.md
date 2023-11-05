@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "nvidia 535.113.01-3"
-version = "535.113.01-3"
+title = "nvidia 545.29.02-1"
+version = "545.29.02-1"
+date = "2023-11-02T12:15:27"
 categories = ['x11-extra']
+upstreamurl = "http://www.nvidia.com/object/unix.html"
 arch = "x86_64"
-size = "95088608"
-usize = "292950679"
-sha1sum = "fe6d8fcad9895b4eceb3e7f1849266dc27005c55"
-depends = "['kernel=6.5.7-1', 'nvidia-settings>=', 'nvidia-xconfig>=535.113.01', 'libglvnd']"
+size = "93880484"
+usize = "298581700"
+sha1sum = "293cbc697c392c6dc04fd25798da8af8f996cc37"
+depends = "['kernel=6.6-1', 'nvidia-settings>=', 'nvidia-xconfig>=545.29.02', 'libglvnd']"
 +++
 3D accelerated display driver for Nvidia cards

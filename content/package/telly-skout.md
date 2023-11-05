@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "telly-skout 23.08.1-1"
-version = "23.08.1-1"
+title = "telly-skout 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T23:18:42"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "93664"
-usize = "347197"
-sha1sum = "3e7d9412965bc8a5835d9c369024d2a2dc6fd589"
+size = "94700"
+usize = "349958"
+sha1sum = "69b15c9bbb3f27701a6dbfeae4f1a93fd703466d"
 depends = "['kcrash', 'kirigami2', 'kconfig', 'ki18n']"
 +++
 Convergent TV guide based on Kirigami

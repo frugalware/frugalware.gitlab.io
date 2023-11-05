@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kirigami-gallery 23.08.1-1"
-version = "23.08.1-1"
+title = "kirigami-gallery 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T23:05:00"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "277796"
+size = "277800"
 usize = "800218"
-sha1sum = "e58ab3ac8667a661e3f0bd7f59a3a547150555ea"
+sha1sum = "777c726719b955272e4d31117c504744de739c75"
 depends = "['kirigami2', 'kitemmodels']"
 +++
 Gallery application built using Kirigami

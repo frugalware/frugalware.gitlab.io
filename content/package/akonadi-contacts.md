@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "akonadi-contacts 23.08.1-1"
-version = "23.08.1-1"
+title = "akonadi-contacts 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T20:30:02"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "486452"
-usize = "2522625"
-sha1sum = "00d0b7c5290a3af9104bba20ca26f0cebafaf62f"
-depends = "['kio>=5.110.0', 'kmime>=23.08.1', 'akonadi>=23.08.1', 'kcompletion>=5.110.0', 'akonadi-mime>=23.08.1', 'kcalendarcore>=5.110.0', 'qt5-webengine>=5.15.10', 'kcodecs>=5.110.0', 'kcontacts>=5.110.0', 'prison>=5.110.0', 'grantleetheme>=23.08.1', 'libkleo>=23.08.1']"
+size = "486988"
+usize = "2522636"
+sha1sum = "c259bfa38d7b148044f5295662cedd6f0c62d9e4"
+depends = "['kio>=5.111.0', 'kmime>=23.08.2', 'akonadi>=23.08.2', 'kcompletion>=5.111.0', 'akonadi-mime>=23.08.2', 'kcalendarcore>=5.111.0', 'qt5-webengine>=5.15.11', 'kcodecs>=5.111.0', 'kcontacts>=5.111.0', 'prison>=5.111.0', 'grantleetheme>=23.08.2', 'libkleo>=23.08.2']"
 +++
 Libraries and daemons to implement Contact Management in Akonadi.

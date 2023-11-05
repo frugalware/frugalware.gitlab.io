@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-lv 118.0.2-1"
-version = "118.0.2-1"
+title = "firefox-lv 119.0-1"
+version = "119.0-1"
+date = "2023-10-28T12:14:59"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "391712"
-usize = "451441"
-sha1sum = "0c019627113f41d8fdc9c7c9c29b349dc5a18f0b"
-depends = "['firefox>=118.0.2']"
+size = "392852"
+usize = "452682"
+sha1sum = "7f7bb1f3f3a77465da4aed77668d70f811fd57c7"
+depends = "['firefox>=119.0']"
 +++
 Latvian language support for Firefox

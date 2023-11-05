@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt5-declarative-static 5.15.10-2"
-version = "5.15.10-2"
+title = "qt5-declarative-static 5.15.11-1"
+version = "5.15.11-1"
+date = "2023-10-16T13:43:35"
 categories = ['devel-extra']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "5447388"
-usize = "8724815"
-sha1sum = "f877fc2bfcbc772970afda1a216d4b3e24be2668"
+size = "5473900"
+usize = "8757253"
+sha1sum = "55f467b670d4137d03aa74b6a467c747566f35ea"
 depends = "[]"
 +++
 Qt5 declarative static libs.

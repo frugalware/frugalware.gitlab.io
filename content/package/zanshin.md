@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "zanshin 23.08.1-1"
-version = "23.08.1-1"
+title = "zanshin 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T23:24:25"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "639616"
-usize = "3185988"
-sha1sum = "87b20b9c0947cd89e6ddc0d25c2401c47ed41683"
+size = "640452"
+usize = "3184450"
+sha1sum = "49663d4b33fce3712c61490702689abbf6b586a3"
 depends = "['kdepim-runtime', 'kontactinterface']"
 +++
 To-do management application based on Akonadi

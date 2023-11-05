@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt5-remoteobjects 5.15.10-2"
-version = "5.15.10-2"
+title = "qt5-remoteobjects 5.15.11-1"
+version = "5.15.11-1"
+date = "2023-10-16T14:12:10"
 categories = ['xlib']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "360744"
+size = "361304"
 usize = "1338130"
-sha1sum = "65d0b59ea5e191a1f59687fb93cb1a6359739a0b"
-depends = "['qt5-declarative>=5.15.10']"
+sha1sum = "bae5ca757b6895bad1045f3a9d07e25968208598"
+depends = "['qt5-declarative>=5.15.11']"
 +++
 The Qt5 toolkit, qtremoteobjects

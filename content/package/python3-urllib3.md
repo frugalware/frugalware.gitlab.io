@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "python3-urllib3 2.0.6-1"
-version = "2.0.6-1"
+title = "python3-urllib3 2.0.7-1"
+version = "2.0.7-1"
+date = "2023-10-28T19:12:33"
 categories = ['devel']
+upstreamurl = "http://pypi.python.org/pypi/urllib3"
 arch = "x86_64"
-size = "200804"
-usize = "1255932"
-sha1sum = "1d37ceb6ffd695fb4811a6338da70e3b0471abb3"
+size = "201236"
+usize = "1259355"
+sha1sum = "05d33ab2ee29e2e2ae0622b8fc38a32ae23d1698"
 depends = "['python3-pysocks']"
 +++
 HTTP library with thread-safe connection pooling and file post support

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "khangman 23.08.1-1"
-version = "23.08.1-1"
+title = "khangman 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T20:03:37"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "6528560"
-usize = "9761258"
-sha1sum = "7991e0e11dd2243ec49b7ec268b2d52f55c34b66"
-depends = "['qt5-declarative>=5.15.10', 'knewstuff>=5.110.0', 'kdeclarative>=5.110.0', 'libkeduvocdocument>=23.08.1', 'qt5-svg>=5.15.10']"
+size = "6524416"
+usize = "9761043"
+sha1sum = "81236abd18dcff4b74eec96da1a78f0350a2e1dd"
+depends = "['qt5-declarative>=5.15.11', 'knewstuff>=5.111.0', 'kdeclarative>=5.111.0', 'libkeduvocdocument>=23.08.2', 'qt5-svg>=5.15.11']"
 +++
 KDE hangman game.

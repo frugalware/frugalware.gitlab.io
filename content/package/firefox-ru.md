@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-ru 118.0.2-1"
-version = "118.0.2-1"
+title = "firefox-ru 119.0-1"
+version = "119.0-1"
+date = "2023-10-28T12:14:59"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "613188"
-usize = "662277"
-sha1sum = "7d742363eba2c95458df896d886ba64ddaf9a3c4"
-depends = "['firefox>=118.0.2']"
+size = "618232"
+usize = "667258"
+sha1sum = "2a65441f9907903d5b0ebe3736c360187b30bf88"
+depends = "['firefox>=119.0']"
 +++
 Russian language support for Firefox

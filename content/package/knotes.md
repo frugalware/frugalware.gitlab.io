@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "knotes 23.08.1-1"
-version = "23.08.1-1"
+title = "knotes 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T21:10:30"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "625192"
-usize = "2758785"
-sha1sum = "28728cd6b9b50383186e7fb2fe08800888d31fab"
-depends = "['kdnssd>=5.110.0', 'pimcommon>=23.08.1', 'akonadi-notes>=23.08.1', 'kcalutils>=23.08.1', 'kontactinterface>=23.08.1', 'grantleetheme>=23.08.1', 'knotifyconfig>=5.110.0']"
+size = "624664"
+usize = "2758656"
+sha1sum = "d4fc211b13084952b35dc8e8578622a07dc8fa98"
+depends = "['kdnssd>=5.111.0', 'pimcommon>=23.08.2', 'akonadi-notes>=23.08.2', 'kcalutils>=23.08.2', 'kontactinterface>=23.08.2', 'grantleetheme>=23.08.2', 'knotifyconfig>=5.111.0']"
 +++
 KDE Popup Notes.

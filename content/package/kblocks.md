@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kblocks 23.08.1-1"
-version = "23.08.1-1"
+title = "kblocks 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T19:30:19"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2299328"
-usize = "2852538"
-sha1sum = "d5509823f3fd9932a1a89d90852a19588f3171ea"
-depends = "['libkdegames>=23.08.1', 'qt5-svg>=5.15.10']"
+size = "2299008"
+usize = "2852210"
+sha1sum = "98d69cff8c06fff2dbc47d92dd3d5ab8253c989e"
+depends = "['libkdegames>=23.08.2', 'qt5-svg>=5.15.11']"
 +++
 The classic falling blocks game.

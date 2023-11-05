@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "uwsgi-plugin-webdav 2.0.21-3"
-version = "2.0.21-3"
+title = "uwsgi-plugin-webdav 2.0.23-1"
+version = "2.0.23-1"
+date = "2023-11-02T12:28:24"
 categories = ['network-extra']
+upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "14296"
-usize = "40235"
-sha1sum = "73a1b439490bc945991d4cd81feed40070e9e3af"
+size = "14344"
+usize = "40152"
+sha1sum = "813eadc3f72db55f51cfde2c262c7f012148327a"
 depends = "['libxslt', 'uwsgi']"
 +++
 UWSGI WebDAV Plugin

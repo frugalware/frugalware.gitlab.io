@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kompare 23.08.1-1"
-version = "23.08.1-1"
+title = "kompare 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T20:00:51"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "897048"
-usize = "2685002"
-sha1sum = "98121180c77354b839fec0dd403d9e5efd504bac"
-depends = "['ktexteditor>=5.110.0', 'libkomparediff2>=23.08.1']"
+size = "897008"
+usize = "2684855"
+sha1sum = "13cb06a616634700e57f642342f6a7fb1372f0f8"
+depends = "['ktexteditor>=5.111.0', 'libkomparediff2>=23.08.2']"
 +++
 Diff/Patch Frontend.

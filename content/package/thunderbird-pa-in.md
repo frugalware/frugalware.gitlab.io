@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-pa-in 115.3.2-1"
-version = "115.3.2-1"
+title = "thunderbird-pa-in 115.4.1-1"
+version = "115.4.1-1"
+date = "2023-10-28T13:19:39"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "579952"
-usize = "655776"
-sha1sum = "328ab2f660afb798d5cd8cf28705882649d24ad4"
-depends = "['thunderbird>=115.3.2']"
+size = "579936"
+usize = "655777"
+sha1sum = "09ecd76677c7cc0a18615caefe78888984ec5a8c"
+depends = "['thunderbird>=115.4.1']"
 +++
 Panjabi language support for Thunderbird

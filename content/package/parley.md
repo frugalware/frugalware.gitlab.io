@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "parley 23.08.1-1"
-version = "23.08.1-1"
+title = "parley 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T20:05:14"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7677716"
-usize = "12443073"
-sha1sum = "461181495dcef7fe6f5cf75b24d6aa25189b0522"
-depends = "['knewstuff>=5.110.0', 'qt5-webengine>=5.15.10', 'kross>=5.110.0', 'kcmutils>=5.110.0', 'qt5-multimedia>=5.15.10', 'libkeduvocdocument>=23.08.1']"
+size = "7677628"
+usize = "12442881"
+sha1sum = "6bddcb139f39f80969fa1f5db909b8b6a5121a47"
+depends = "['knewstuff>=5.111.0', 'qt5-webengine>=5.15.11', 'kross>=5.111.0', 'kcmutils>=5.111.0', 'qt5-multimedia>=5.15.11', 'libkeduvocdocument>=23.08.2']"
 +++
 Vocabulary Trainer.

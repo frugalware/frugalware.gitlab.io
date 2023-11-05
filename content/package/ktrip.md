@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "ktrip 23.08.1-1"
-version = "23.08.1-1"
+title = "ktrip 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T23:11:32"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "69648"
-usize = "254177"
-sha1sum = "cba67ac40c08999309a97a2ca3dbbd10acd4e1f0"
+size = "69716"
+usize = "254228"
+sha1sum = "b31ee9b1209021a39a4796585da3e6b918c55fce"
 depends = "['qqc2-desktop-style', 'kcoreaddons', 'kconfig', 'kpublictransport', 'qt5-quickcontrols2', 'kitemmodels']"
 +++
 Public Transport Assistance for Mobile Devices

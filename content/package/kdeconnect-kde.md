@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kdeconnect-kde 23.08.1-1"
-version = "23.08.1-1"
+title = "kdeconnect-kde 23.08.2-2"
+version = "23.08.2-2"
+date = "2023-10-28T22:29:26"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "932680"
-usize = "5517787"
-sha1sum = "12b1a67a8e05454d1ee2f73a27047ca2463933a6"
-depends = "['qt5-multimedia>=5.15.10', 'kirigami2>=5.110.0', 'qqc2-desktop-style>=5.110.0', 'modemmanager-qt>=5.110.0', 'kcmutils>=5.110.0', 'kio>=5.110.0', 'kwayland>=5.27.8', 'qca', 'qca-ossl', 'libxtst', 'libfakekey', 'pulseaudio-qt>=1.3', 'kpeoplevcard', 'sshfs-fuse']"
+size = "932844"
+usize = "5521100"
+sha1sum = "046848e7d5782827cd9b97bf545c158a7461be41"
+depends = "['qt5-multimedia>=5.15.11', 'kirigami2>=5.111.0', 'qqc2-desktop-style>=5.111.0', 'modemmanager-qt>=5.111.0', 'kcmutils>=5.111.0', 'kio>=5.111.0', 'kwayland>=5.27.9', 'qca', 'qca-ossl', 'libxtst', 'libfakekey', 'pulseaudio-qt>=1.3', 'kpeoplevcard', 'sshfs-fuse']"
 +++
 Adds communication between KDE and your smartphone

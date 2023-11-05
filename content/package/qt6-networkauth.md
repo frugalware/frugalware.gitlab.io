@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qt6-networkauth 6.5.2-1"
-version = "6.5.2-1"
+title = "qt6-networkauth 6.6.0-1"
+version = "6.6.0-1"
+date = "2023-10-31T19:37:08"
 categories = ['xlib-extra']
+upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "70384"
-usize = "309629"
-sha1sum = "2026bc2d8ebc059c18da302d278a5d91c8fd0f0a"
+size = "71548"
+usize = "310678"
+sha1sum = "055c97523998a28845ca8e3028b1489ed545eec9"
 depends = "['qt6-base']"
 +++
 The Qt6 toolkit, qtnetworkauth
