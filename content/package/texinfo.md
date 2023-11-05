@@ -2,9 +2,7 @@
 draft = false
 title = "texinfo 7.0.3-2"
 version = "7.0.3-2"
-date = "2023-09-04T14:47:22"
 categories = ['devel', 'chroot-core']
-upstreamurl = "http://www.gnu.org/software/texinfo/"
 arch = "x86_64"
 size = "1727400"
 usize = "10823256"
