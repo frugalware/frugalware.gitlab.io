@@ -2,9 +2,7 @@
 draft = false
 title = "intel-graphics-compiler 1.0.15223.2-1"
 version = "1.0.15223.2-1"
-date = "2023-09-19T07:46:30"
 categories = ['devel']
-upstreamurl = "https://github.com/intel/intel-graphics-compiler"
 arch = "x86_64"
 size = "66085124"
 usize = "241693210"
