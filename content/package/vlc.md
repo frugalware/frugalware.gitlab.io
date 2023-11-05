@@ -2,9 +2,7 @@
 draft = false
 title = "vlc 3.0.19-1"
 version = "3.0.19-1"
-date = "2023-10-16T11:53:06"
 categories = ['xmultimedia']
-upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
 size = "10068852"
 usize = "56988583"

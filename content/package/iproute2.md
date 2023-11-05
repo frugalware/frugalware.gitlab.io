@@ -2,9 +2,7 @@
 draft = false
 title = "iproute2 6.5.0-1"
 version = "6.5.0-1"
-date = "2023-09-06T19:09:16"
 categories = ['base']
-upstreamurl = "http://www.kernel.org"
 arch = "x86_64"
 size = "1088876"
 usize = "3020317"
