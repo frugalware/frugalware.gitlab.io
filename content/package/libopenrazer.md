@@ -2,9 +2,7 @@
 draft = false
 title = "libopenrazer 0.1.0-3"
 version = "0.1.0-3"
-date = "2023-10-21T17:59:44"
 categories = ['lib-extra']
-upstreamurl = "https://github.com/z3ntu/libopenrazer"
 arch = "x86_64"
 size = "83880"
 usize = "333426"
