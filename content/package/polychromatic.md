@@ -2,9 +2,7 @@
 draft = false
 title = "polychromatic 0.8.1-2"
 version = "0.8.1-2"
-date = "2023-10-12T12:21:16"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/polychromatic/polychromatic"
 arch = "x86_64"
 size = "760728"
 usize = "4325753"
