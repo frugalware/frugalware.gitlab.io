@@ -2,9 +2,7 @@
 draft = false
 title = "libgsf 1.14.50-1"
 version = "1.14.50-1"
-date = "2022-10-16T13:17:07"
 categories = ['xlib']
-upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "367876"
 usize = "2587176"

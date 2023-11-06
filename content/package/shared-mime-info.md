@@ -2,9 +2,7 @@
 draft = false
 title = "shared-mime-info 2.2-2"
 version = "2.2-2"
-date = "2022-12-09T14:37:19"
 categories = ['xlib']
-upstreamurl = "http://freedesktop.org/Software/shared-mime-info"
 arch = "x86_64"
 size = "555776"
 usize = "4749919"

@@ -2,9 +2,7 @@
 draft = false
 title = "libnotify 0.8.2-1"
 version = "0.8.2-1"
-date = "2023-02-18T15:01:45"
 categories = ['xlib']
-upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "1106788"
 usize = "1701851"
