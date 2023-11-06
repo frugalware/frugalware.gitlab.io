@@ -2,9 +2,7 @@
 draft = false
 title = "nlohmann-json 3.11.2-1"
 version = "3.11.2-1"
-date = "2023-07-27T19:20:05"
 categories = ['lib-extra']
-upstreamurl = "https://github.com/nlohmann/json"
 arch = "x86_64"
 size = "135632"
 usize = "1023157"

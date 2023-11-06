@@ -2,9 +2,7 @@
 draft = false
 title = "mangohud 0.6.9-1"
 version = "0.6.9-1"
-date = "2023-04-18T08:57:43"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/flightlessmango/mangohud"
 arch = "x86_64"
 size = "672840"
 usize = "1675709"
