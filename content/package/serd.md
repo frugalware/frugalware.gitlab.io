@@ -2,9 +2,7 @@
 draft = false
 title = "serd 0.30.16-1"
 version = "0.30.16-1"
-date = "2022-10-16T12:36:18"
 categories = ['lib']
-upstreamurl = "http://drobilla.net/software/serd"
 arch = "x86_64"
 size = "54568"
 usize = "170544"

@@ -2,9 +2,7 @@
 draft = false
 title = "sord 0.16.14-1"
 version = "0.16.14-1"
-date = "2022-10-16T12:38:56"
 categories = ['lib']
-upstreamurl = "http://drobilla.net/software/sord"
 arch = "x86_64"
 size = "33832"
 usize = "119452"
