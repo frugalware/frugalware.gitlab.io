@@ -2,9 +2,7 @@
 draft = false
 title = "gmmlib 22.3.11-1"
 version = "22.3.11-1"
-date = "2023-09-07T13:54:46"
 categories = ['lib']
-upstreamurl = "https://github.com/intel/gmmlib"
 arch = "x86_64"
 size = "244204"
 usize = "1637696"

@@ -2,9 +2,7 @@
 draft = false
 title = "qca-botan 2.3.7-3"
 version = "2.3.7-3"
-date = "2023-10-21T10:01:14"
 categories = ['xlib']
-upstreamurl = "http://delta.affinix.com/qca/"
 arch = "x86_64"
 size = "27008"
 usize = "96280"

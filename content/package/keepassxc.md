@@ -2,9 +2,7 @@
 draft = false
 title = "keepassxc 2.7.6-3"
 version = "2.7.6-3"
-date = "2023-10-21T17:55:17"
 categories = ['xapps-extra']
-upstreamurl = "https://keepassxc.org/"
 arch = "x86_64"
 size = "7686212"
 usize = "31822050"

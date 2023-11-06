@@ -2,9 +2,7 @@
 draft = false
 title = "libmysofa 1.3.1-2"
 version = "1.3.1-2"
-date = "2023-09-22T12:41:33"
 categories = ['lib']
-upstreamurl = "https://github.com/hoene/libmysofa"
 arch = "x86_64"
 size = "1166792"
 usize = "1324512"

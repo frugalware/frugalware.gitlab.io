@@ -2,9 +2,7 @@
 draft = false
 title = "inkscape 1.3-3"
 version = "1.3-3"
-date = "2023-09-07T13:14:46"
 categories = ['xapps-extra']
-upstreamurl = "https://www.inkscape.org/"
 arch = "x86_64"
 size = "24567724"
 usize = "177767996"

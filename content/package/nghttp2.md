@@ -2,9 +2,7 @@
 draft = false
 title = "nghttp2 1.56.0-1"
 version = "1.56.0-1"
-date = "2023-09-07T13:56:28"
 categories = ['lib', 'chroot-core']
-upstreamurl = "http://nghttp2.org"
 arch = "x86_64"
 size = "152280"
 usize = "488671"

@@ -2,9 +2,7 @@
 draft = false
 title = "librist 0.2.8-1"
 version = "0.2.8-1"
-date = "2023-09-07T13:50:27"
 categories = ['lib']
-upstreamurl = "https://code.videolan.org/rist/librist"
 arch = "x86_64"
 size = "105808"
 usize = "371075"
