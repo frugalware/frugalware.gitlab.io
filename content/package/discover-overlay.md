@@ -2,9 +2,7 @@
 draft = false
 title = "discover-overlay 0.6.7-2"
 version = "0.6.7-2"
-date = "2023-10-12T12:25:50"
 categories = ['xapps-extra']
-upstreamurl = "http://pypi.python.org/pypi/discover-overlay"
 arch = "x86_64"
 size = "142916"
 usize = "1199810"
