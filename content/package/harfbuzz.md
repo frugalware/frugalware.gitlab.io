@@ -2,9 +2,7 @@
 draft = false
 title = "harfbuzz 8.2.1-1"
 version = "8.2.1-1"
-date = "2023-09-23T08:34:37"
 categories = ['xlib']
-upstreamurl = "https://github.com/harfbuzz/harfbuzz"
 arch = "x86_64"
 size = "1210304"
 usize = "7624696"

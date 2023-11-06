@@ -2,9 +2,7 @@
 draft = false
 title = "libtirpc 1.3.3-1"
 version = "1.3.3-1"
-date = "2022-08-28T19:27:53"
 categories = ['lib']
-upstreamurl = "https://sourceforge.net/projects/libtirpc"
 arch = "x86_64"
 size = "176284"
 usize = "476839"

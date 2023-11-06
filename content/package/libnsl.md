@@ -2,9 +2,7 @@
 draft = false
 title = "libnsl 2.0.0-2"
 version = "2.0.0-2"
-date = "2022-01-03T14:20:33"
 categories = ['lib']
-upstreamurl = "https://github.com/thkukuk/libnsl"
 arch = "x86_64"
 size = "33108"
 usize = "120541"

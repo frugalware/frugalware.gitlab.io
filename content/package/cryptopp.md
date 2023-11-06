@@ -2,9 +2,7 @@
 draft = false
 title = "cryptopp 8.8.0-1"
 version = "8.8.0-1"
-date = "2023-07-13T08:13:17"
 categories = ['lib']
-upstreamurl = "https://www.cryptopp.com"
 arch = "x86_64"
 size = "17545240"
 usize = "69746083"
