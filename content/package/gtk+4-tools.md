@@ -2,9 +2,7 @@
 draft = false
 title = "gtk+4-tools 4.13.0-1"
 version = "4.13.0-1"
-date = "2023-08-26T12:35:15"
 categories = ['xapps']
-upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
 size = "3264"
 usize = "14184"

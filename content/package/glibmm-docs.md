@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "glibmm-docs 2.76.0-2"
-version = "2.76.0-2"
+title = "glibmm-docs 2.78.0-1"
+version = "2.78.0-1"
+date = "2023-11-06T12:39:37"
 categories = ['docs-extra']
+upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "3067360"
-usize = "39142098"
-sha1sum = "52e5937c2c0bdc62210a951979e38398c7b36c12"
+size = "2376896"
+usize = "38763447"
+sha1sum = "d0a067d98af8d1034009f0b990ecb117192aafe7"
 depends = "[]"
 +++
 Glibmm Documentation

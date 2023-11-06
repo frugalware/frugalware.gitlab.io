@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "sdl2-static 2.28.3-1"
-version = "2.28.3-1"
-date = "2023-09-07T12:53:20"
+title = "sdl2-static 2.28.5-1"
+version = "2.28.5-1"
+date = "2023-11-06T13:33:05"
 categories = ['devel-extra']
 upstreamurl = "http://libsdl.org"
 arch = "x86_64"
-size = "8691904"
-usize = "10973298"
-sha1sum = "6e5a65cbce90ab0b85aaf439038afa62c58415dc"
+size = "8705744"
+usize = "10990696"
+sha1sum = "17e88e420d0b477405947c9c7a0c9bac131f4edc"
 depends = "[]"
 +++
 Static files for sdl2

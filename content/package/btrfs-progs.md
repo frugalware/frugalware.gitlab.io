@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "btrfs-progs 6.6-1"
-version = "6.6-1"
+title = "btrfs-progs 6.6.1-1"
+version = "6.6.1-1"
+date = "2023-11-06T07:37:22"
 categories = ['base']
+upstreamurl = "https://btrfs.wiki.kernel.org"
 arch = "x86_64"
-size = "1191576"
-usize = "7129198"
-sha1sum = "ea9e70ad0972ce7817ec97f24207cf429d2f9f43"
+size = "1192308"
+usize = "7129446"
+sha1sum = "c152796209845ede7b87c876ae8f9607d9bfe9cf"
 depends = "['e2fsprogs>=1.43.8-2', 'lzo>=2.10-3', 'zstd>=1.3.3-2']"
 +++
 Utilities for managing btrfs filesystems.
