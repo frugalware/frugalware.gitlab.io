@@ -2,9 +2,7 @@
 draft = false
 title = "telegram-desktop 4.11.3-2"
 version = "4.11.3-2"
-date = "2023-11-06T12:55:19"
 categories = ['xapps-extra']
-upstreamurl = "https://desktop.telegram.org/"
 arch = "x86_64"
 size = "29930532"
 usize = "82430512"
