@@ -2,9 +2,7 @@
 draft = false
 title = "gulp 4.0.2-4"
 version = "4.0.2-4"
-date = "2023-09-11T16:25:17"
 categories = ['devel-extra']
-upstreamurl = "https://gulpjs.com/"
 arch = "x86_64"
 size = "1289060"
 usize = "7509867"
