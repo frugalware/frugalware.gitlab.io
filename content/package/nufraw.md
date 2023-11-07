@@ -2,9 +2,7 @@
 draft = false
 title = "nufraw 0.43.3-2"
 version = "0.43.3-2"
-date = "2022-12-27T11:14:38"
 categories = ['xapps-extra']
-upstreamurl = "https://sourceforge.net/projects/nufraw"
 arch = "x86_64"
 size = "554108"
 usize = "2926634"

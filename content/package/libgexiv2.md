@@ -2,9 +2,7 @@
 draft = false
 title = "libgexiv2 0.14.2-2"
 version = "0.14.2-2"
-date = "2023-10-12T08:39:26"
 categories = ['lib']
-upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "111016"
 usize = "615267"
