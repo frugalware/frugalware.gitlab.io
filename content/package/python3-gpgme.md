@@ -2,9 +2,7 @@
 draft = false
 title = "python3-gpgme 1.22.0-3"
 version = "1.22.0-3"
-date = "2023-10-27T17:56:44"
 categories = ['devel']
-upstreamurl = "http://www.gnupg.org/related_software/gpgme/"
 arch = "x86_64"
 size = "232516"
 usize = "1444046"
