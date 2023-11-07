@@ -2,9 +2,7 @@
 draft = false
 title = "kfilemetadata5 5.111.0-1"
 version = "5.111.0-1"
-date = "2023-10-28T14:17:16"
 categories = ['kf5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "184600"
 usize = "1142718"

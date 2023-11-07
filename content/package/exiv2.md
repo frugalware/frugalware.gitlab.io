@@ -2,9 +2,7 @@
 draft = false
 title = "exiv2 0.27.7-2"
 version = "0.27.7-2"
-date = "2023-09-01T15:43:57"
 categories = ['apps']
-upstreamurl = "http://www.exiv2.org"
 arch = "x86_64"
 size = "983748"
 usize = "4252950"

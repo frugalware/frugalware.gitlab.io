@@ -2,9 +2,7 @@
 draft = false
 title = "libextractor 1.11-3"
 version = "1.11-3"
-date = "2022-07-17T16:54:59"
 categories = ['xlib-extra']
-upstreamurl = "http://www.gnu.org/software/libextractor/"
 arch = "x86_64"
 size = "194772"
 usize = "1037607"
