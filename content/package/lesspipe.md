@@ -2,9 +2,7 @@
 draft = false
 title = "lesspipe 2.08-1"
 version = "2.08-1"
-date = "2023-09-12T12:12:47"
 categories = ['apps']
-upstreamurl = "https://github.com/wofr06/lesspipe"
 arch = "x86_64"
 size = "56036"
 usize = "201271"

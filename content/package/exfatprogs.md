@@ -2,9 +2,7 @@
 draft = false
 title = "exfatprogs 1.2.1-1"
 version = "1.2.1-1"
-date = "2023-06-20T17:32:10"
 categories = ['apps']
-upstreamurl = "https://github.com/exfatprogs/exfatprogs"
 arch = "x86_64"
 size = "63948"
 usize = "208023"

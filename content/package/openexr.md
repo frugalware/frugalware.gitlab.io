@@ -2,9 +2,7 @@
 draft = false
 title = "openexr 3.2.0-1"
 version = "3.2.0-1"
-date = "2023-08-31T14:41:41"
 categories = ['xapps']
-upstreamurl = "http://www.openexr.com"
 arch = "x86_64"
 size = "1076992"
 usize = "7479910"
