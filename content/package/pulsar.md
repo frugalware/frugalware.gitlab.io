@@ -2,9 +2,7 @@
 draft = false
 title = "pulsar 1.109.0-1"
 version = "1.109.0-1"
-date = "2023-09-16T16:27:34"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/pulsar-edit/pulsar"
 arch = "x86_64"
 size = "157712144"
 usize = "753915877"
