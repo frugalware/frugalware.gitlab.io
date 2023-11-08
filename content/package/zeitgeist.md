@@ -2,9 +2,7 @@
 draft = false
 title = "zeitgeist 1.0.4-1"
 version = "1.0.4-1"
-date = "2022-11-04T13:05:44"
 categories = ['xapps-extra']
-upstreamurl = "https://launchpad.net/zeitgeist"
 arch = "x86_64"
 size = "345836"
 usize = "2050513"
