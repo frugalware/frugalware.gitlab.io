@@ -2,9 +2,7 @@
 draft = false
 title = "kernel-initrd 6.6-1"
 version = "6.6-1"
-date = "2023-10-31T15:47:03"
 categories = ['base']
-upstreamurl = "http://www.frugalware.org"
 arch = "x86_64"
 size = "22664"
 usize = "0"
