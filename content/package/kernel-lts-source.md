@@ -2,9 +2,7 @@
 draft = false
 title = "kernel-lts-source 6.1.61-1"
 version = "6.1.61-1"
-date = "2023-11-04T18:24:28"
 categories = ['devel-extra']
-upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
 size = "131786104"
 usize = "1264564057"
