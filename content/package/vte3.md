@@ -2,9 +2,7 @@
 draft = false
 title = "vte3 0.72.2-1"
 version = "0.72.2-1"
-date = "2023-06-19T10:18:10"
 categories = ['xapps']
-upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "765572"
 usize = "3801048"

@@ -2,9 +2,7 @@
 draft = false
 title = "znc 1.8.2-13"
 version = "1.8.2-13"
-date = "2023-10-06T07:48:39"
 categories = ['network-extra']
-upstreamurl = "http://znc.in"
 arch = "x86_64"
 size = "3036272"
 usize = "14628091"
