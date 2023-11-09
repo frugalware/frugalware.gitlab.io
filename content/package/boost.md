@@ -2,9 +2,7 @@
 draft = false
 title = "boost 1.83.0-2"
 version = "1.83.0-2"
-date = "2023-10-07T10:36:54"
 categories = ['devel-extra']
-upstreamurl = "http://boost.org/"
 arch = "x86_64"
 size = "10264232"
 usize = "150490555"

@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-icu4c 73.2-2"
 version = "73.2-2"
-date = "2023-09-05T09:29:24"
 categories = ['lib32-extra']
-upstreamurl = "http://site.icu-project.org/"
 arch = "x86_64"
 size = "10388096"
 usize = "43516339"
