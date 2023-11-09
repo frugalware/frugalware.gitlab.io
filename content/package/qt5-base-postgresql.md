@@ -2,9 +2,7 @@
 draft = false
 title = "qt5-base-postgresql 5.15.11-1"
 version = "5.15.11-1"
-date = "2023-10-16T13:29:16"
 categories = ['xlib-extra']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "31988"
 usize = "92616"

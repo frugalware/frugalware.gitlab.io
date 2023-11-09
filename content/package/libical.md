@@ -2,9 +2,7 @@
 draft = false
 title = "libical 3.0.17-1"
 version = "3.0.17-1"
-date = "2023-11-06T12:58:40"
 categories = ['lib']
-upstreamurl = "https://github.com/libical/libical"
 arch = "x86_64"
 size = "362064"
 usize = "2224413"
