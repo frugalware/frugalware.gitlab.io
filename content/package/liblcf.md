@@ -2,9 +2,7 @@
 draft = false
 title = "liblcf 0.8-1"
 version = "0.8-1"
-date = "2023-07-28T20:44:34"
 categories = ['lib-extra']
-upstreamurl = "https://easyrpg.org"
 arch = "x86_64"
 size = "442100"
 usize = "2414240"

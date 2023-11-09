@@ -2,9 +2,7 @@
 draft = false
 title = "libcdr 0.1.7-6"
 version = "0.1.7-6"
-date = "2023-04-19T08:36:24"
 categories = ['xoffice']
-upstreamurl = "https://wiki.documentfoundation.org/DLP/Libraries/libcdr"
 arch = "x86_64"
 size = "404948"
 usize = "943578"

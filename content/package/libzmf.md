@@ -2,9 +2,7 @@
 draft = false
 title = "libzmf 0.0.2-13"
 version = "0.0.2-13"
-date = "2023-04-24T18:19:01"
 categories = ['xoffice']
-upstreamurl = "https://wiki.documentfoundation.org/DLP/Libraries/libzmf"
 arch = "x86_64"
 size = "80312"
 usize = "238088"
