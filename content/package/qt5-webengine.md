@@ -2,9 +2,7 @@
 draft = false
 title = "qt5-webengine 5.15.15-2"
 version = "5.15.15-2"
-date = "2023-10-26T14:50:11"
 categories = ['xlib']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "48878992"
 usize = "159211567"
