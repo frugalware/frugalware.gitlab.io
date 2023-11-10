@@ -2,9 +2,7 @@
 draft = false
 title = "postgresql 16.0-1"
 version = "16.0-1"
-date = "2023-10-07T14:26:11"
 categories = ['apps-extra']
-upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
 size = "7032408"
 usize = "26269081"

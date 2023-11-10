@@ -2,9 +2,7 @@
 draft = false
 title = "calamares-frugalware 3.2.62-5"
 version = "3.2.62-5"
-date = "2023-10-25T10:38:38"
 categories = ['installer-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "4047544"
 usize = "9332048"

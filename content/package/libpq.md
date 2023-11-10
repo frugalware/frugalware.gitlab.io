@@ -2,9 +2,7 @@
 draft = false
 title = "libpq 16.0-1"
 version = "16.0-1"
-date = "2023-10-07T14:26:11"
 categories = ['lib']
-upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
 size = "118012"
 usize = "353279"
