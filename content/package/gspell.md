@@ -2,9 +2,7 @@
 draft = false
 title = "gspell 1.12.0-2"
 version = "1.12.0-2"
-date = "2023-04-19T15:04:10"
 categories = ['gnome']
-upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "122704"
 usize = "822617"

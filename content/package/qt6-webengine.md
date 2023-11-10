@@ -2,9 +2,7 @@
 draft = false
 title = "qt6-webengine 6.6.0-1"
 version = "6.6.0-1"
-date = "2023-10-31T21:43:25"
 categories = ['xlib-extra']
-upstreamurl = "http://www.qt.io"
 arch = "x86_64"
 size = "66961308"
 usize = "216838833"
