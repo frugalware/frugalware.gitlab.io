@@ -2,9 +2,7 @@
 draft = false
 title = "plasma-workspace 5.27.9.1-1"
 version = "5.27.9.1-1"
-date = "2023-10-28T16:42:35"
 categories = ['plasma']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "19785380"
 usize = "52616066"
