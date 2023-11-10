@@ -2,9 +2,7 @@
 draft = false
 title = "netpbm 11.3.4-1"
 version = "11.3.4-1"
-date = "2023-09-11T15:02:08"
 categories = ['xapps-extra']
-upstreamurl = "http://netpbm.sourceforge.net/"
 arch = "x86_64"
 size = "2411464"
 usize = "8848385"

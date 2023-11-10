@@ -2,9 +2,7 @@
 draft = false
 title = "ncmpcpp 0.9.2-9"
 version = "0.9.2-9"
-date = "2023-09-06T09:07:23"
 categories = ['multimedia-extra']
-upstreamurl = "http://rybczak.net/ncmpcpp/"
 arch = "x86_64"
 size = "706516"
 usize = "2608765"

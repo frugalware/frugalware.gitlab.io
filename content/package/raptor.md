@@ -2,9 +2,7 @@
 draft = false
 title = "raptor 2.0.16-2"
 version = "2.0.16-2"
-date = "2023-04-20T08:14:09"
 categories = ['lib']
-upstreamurl = "http://librdf.org/raptor/"
 arch = "x86_64"
 size = "350080"
 usize = "2388302"

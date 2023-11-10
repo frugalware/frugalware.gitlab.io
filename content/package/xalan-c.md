@@ -2,9 +2,7 @@
 draft = false
 title = "xalan-c 1.12-4"
 version = "1.12-4"
-date = "2023-04-19T09:12:10"
 categories = ['devel-extra']
-upstreamurl = "http://xml.apache.org/xalan-c/"
 arch = "x86_64"
 size = "878916"
 usize = "5944285"
