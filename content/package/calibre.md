@@ -2,9 +2,7 @@
 draft = false
 title = "calibre 6.28.0-1"
 version = "6.28.0-1"
-date = "2023-10-07T09:58:13"
 categories = ['xapps-extra']
-upstreamurl = "https://calibre-ebook.com"
 arch = "x86_64"
 size = "27968904"
 usize = "66453444"

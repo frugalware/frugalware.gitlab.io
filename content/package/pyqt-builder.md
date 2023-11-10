@@ -2,9 +2,7 @@
 draft = false
 title = "pyqt-builder 1.15.2-1"
 version = "1.15.2-1"
-date = "2023-10-05T07:44:50"
 categories = ['devel-extra']
-upstreamurl = "http://pypi.python.org/pypi/PyQt-builder"
 arch = "x86_64"
 size = "2791528"
 usize = "9545327"
