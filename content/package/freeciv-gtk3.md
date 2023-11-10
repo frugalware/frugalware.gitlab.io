@@ -2,9 +2,7 @@
 draft = false
 title = "freeciv-gtk3 3.0.8-2"
 version = "3.0.8-2"
-date = "2023-10-27T19:37:49"
 categories = ['games-extra']
-upstreamurl = "http://freeciv.wikia.com/wiki/Main_Page"
 arch = "x86_64"
 size = "621928"
 usize = "1815463"

@@ -2,9 +2,7 @@
 draft = false
 title = "freerdp 2.11.1-1"
 version = "2.11.1-1"
-date = "2023-09-07T12:11:06"
 categories = ['xapps']
-upstreamurl = "https://www.freerdp.com/"
 arch = "x86_64"
 size = "1491780"
 usize = "6335803"
