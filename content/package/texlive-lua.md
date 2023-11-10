@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "texlive-lua 2023.0-1"
-version = "2023.0-1"
+title = "texlive-lua 2023.0-2"
+version = "2023.0-2"
+date = "2023-11-10T16:02:23"
 categories = ['xlib-extra']
+upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "337924"
-usize = "811456"
-sha1sum = "8495d54c2b3400aabf96dfec8bcf0da53c4b7ff7"
+size = "338384"
+usize = "815552"
+sha1sum = "57e8a70fd815ec2ef1c43e906028bebaedb9c77d"
 depends = "['libgcc>=5.3.0']"
 +++
 TeX Live Lua

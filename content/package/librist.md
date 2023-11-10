@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "librist 0.2.8-1"
-version = "0.2.8-1"
+title = "librist 0.2.10-1"
+version = "0.2.10-1"
+date = "2023-11-06T15:22:21"
 categories = ['lib']
+upstreamurl = "https://code.videolan.org/rist/librist"
 arch = "x86_64"
-size = "105808"
-usize = "371075"
-sha1sum = "557782fbc3226945237419634a32379a55b6bc2c"
+size = "106232"
+usize = "371076"
+sha1sum = "9d1ba94d3fbf3afa7aae13e3867f2ee2eebc6219"
 depends = "['mbedtls']"
 +++
 A library that can be used to add the RIST protocol to applications

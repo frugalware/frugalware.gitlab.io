@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "git-cola 4.3.2-2"
-version = "4.3.2-2"
+title = "git-cola 4.4.0-1"
+version = "4.4.0-1"
+date = "2023-11-08T19:49:18"
 categories = ['xapps-extra']
+upstreamurl = "http://git-cola.github.io/"
 arch = "x86_64"
-size = "924616"
-usize = "5545217"
-sha1sum = "206523525c12107d5d8de700be251257a02d633f"
+size = "932136"
+usize = "5568014"
+sha1sum = "a03cbb59a5152f07e0aca85ff01688d0f24d58e3"
 depends = "['pyqt5', 'pyinotify']"
 +++
 Git-cola is a sleek and powerful Git GUI.

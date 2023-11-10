@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "poppler 23.09.0-2"
-version = "23.09.0-2"
+title = "poppler 23.11.0-1"
+version = "23.11.0-1"
+date = "2023-11-06T14:24:05"
 categories = ['xlib']
+upstreamurl = "https://poppler.freedesktop.org/"
 arch = "x86_64"
-size = "1917984"
-usize = "9790694"
-sha1sum = "2b91bd7916f3c9bce92adefa9d9121947615ab06"
-depends = "['fontconfig>=2.12-2', 'cairo>=1.14.6-4', 'libjpeg-turbo', 'libpng>=1.6.25', 'openjpeg>=2.2.0', 'libstdc++>=9.1.0-3', 'poppler-data', 'curl', 'libgpgmepp', 'poppler-data']"
+size = "1925644"
+usize = "9835607"
+sha1sum = "e5d85acbb39128822b06afb77c133f13b81e90fe"
+depends = "['fontconfig>=2.12-2', 'cairo>=1.14.6-4', 'libjpeg-turbo', 'libpng>=1.6.25', 'nss', 'openjpeg>=2.2.0', 'libstdc++>=9.1.0-3', 'poppler-data', 'curl', 'libgpgmepp', 'poppler-data']"
 +++
 A PDF rendering library

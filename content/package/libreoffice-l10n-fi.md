@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-fi 7.6.2.1-3"
-version = "7.6.2.1-3"
+title = "libreoffice-l10n-fi 7.6.2.1-4"
+version = "7.6.2.1-4"
+date = "2023-11-06T17:14:37"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4448952"
+size = "4449496"
 usize = "33764440"
-sha1sum = "200b1dd5f3f289969ba344348d9459edd16f10c8"
+sha1sum = "6db9fcb1f0baf97c68e34150d0074a7e1110afc8"
 depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Finnish support in LibreOffice

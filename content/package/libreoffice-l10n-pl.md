@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-pl 7.6.2.1-3"
-version = "7.6.2.1-3"
+title = "libreoffice-l10n-pl 7.6.2.1-4"
+version = "7.6.2.1-4"
+date = "2023-11-06T17:14:37"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4753736"
+size = "4753748"
 usize = "35311445"
-sha1sum = "ae92696dacd3b96a8ffcadc2cf3b35d6c924cc3a"
+sha1sum = "c3154821fb0ec2861cdda8bf083a2aafb284a7e6"
 depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Polish support in LibreOffice

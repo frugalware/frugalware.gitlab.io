@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-sk 7.6.2.1-3"
-version = "7.6.2.1-3"
+title = "libreoffice-l10n-sk 7.6.2.1-4"
+version = "7.6.2.1-4"
+date = "2023-11-06T17:14:37"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4539212"
+size = "4538852"
 usize = "34090235"
-sha1sum = "9dd4d2a47a75b33739fa58f1e22b4f97e807014f"
+sha1sum = "e930c2fcb51228c8bbf0484caec9f306d5f6830b"
 depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Slovak support in LibreOffice

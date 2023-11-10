@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-sq 7.6.2.1-3"
-version = "7.6.2.1-3"
+title = "libreoffice-l10n-sq 7.6.2.1-4"
+version = "7.6.2.1-4"
+date = "2023-11-06T17:14:37"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "3615768"
+size = "3615100"
 usize = "30953164"
-sha1sum = "7dbba70e743f198e05c1d446d64472db061f66ef"
+sha1sum = "887d0f728b54a1dbebb0982ebf69482318b51b94"
 depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Albanian support in LibreOffice

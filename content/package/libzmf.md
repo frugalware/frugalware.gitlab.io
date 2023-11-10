@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libzmf 0.0.2-13"
-version = "0.0.2-13"
+title = "libzmf 0.0.2-14"
+version = "0.0.2-14"
+date = "2023-11-09T19:30:03"
 categories = ['xoffice']
+upstreamurl = "https://wiki.documentfoundation.org/DLP/Libraries/libzmf"
 arch = "x86_64"
-size = "80312"
+size = "81288"
 usize = "238088"
-sha1sum = "ebd24a4b0bb4476b98decc327258f00ed6e118b8"
-depends = "['icu4c>=73.1', 'librevenge', 'libpng']"
+sha1sum = "f2b45880fa738644378cdfff8d73dae9946cbd46"
+depends = "['icu4c>=74.1', 'librevenge', 'libpng']"
 +++
 libzmf import filter library

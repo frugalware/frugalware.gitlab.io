@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "exiv2-static 0.27.7-2"
-version = "0.27.7-2"
+title = "exiv2-static 0.28.1-1"
+version = "0.28.1-1"
+date = "2023-11-07T10:48:44"
 categories = ['devel-extra']
+upstreamurl = "http://www.exiv2.org"
 arch = "x86_64"
-size = "1724904"
-usize = "2596992"
-sha1sum = "0eb17b4522a52708bef91fa28a098f1b669dd7e0"
+size = "16093704"
+usize = "28704990"
+sha1sum = "69017109d3002d1cacb6b011007a5488bafe2a8f"
 depends = "[]"
 +++
 Static files for exiv2

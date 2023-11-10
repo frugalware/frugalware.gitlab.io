@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "cryptopp 8.8.0-1"
-version = "8.8.0-1"
+title = "cryptopp 8.9.0-1"
+version = "8.9.0-1"
+date = "2023-11-06T14:33:52"
 categories = ['lib']
+upstreamurl = "https://www.cryptopp.com"
 arch = "x86_64"
-size = "17545240"
-usize = "69746083"
-sha1sum = "6d94359ad8c2e7ef81d00b4ee16505ceda1a6029"
+size = "17750512"
+usize = "70506783"
+sha1sum = "7ab1bb4ca079460b6e03964c2f8f73fec870e892"
 depends = "['libstdc++>=11.2']"
 +++
 C++ library for cryptography

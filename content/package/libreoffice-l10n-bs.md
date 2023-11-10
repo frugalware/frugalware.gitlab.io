@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-bs 7.6.2.1-3"
-version = "7.6.2.1-3"
+title = "libreoffice-l10n-bs 7.6.2.1-4"
+version = "7.6.2.1-4"
+date = "2023-11-06T17:14:37"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "3825380"
+size = "3825760"
 usize = "31319398"
-sha1sum = "2520e1bd46bc9004751fdb0517486dc2889ab3bb"
+sha1sum = "259c1614ec0e38ec618831104f4741aeec0cef82"
 depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Bosnian support in LibreOffice

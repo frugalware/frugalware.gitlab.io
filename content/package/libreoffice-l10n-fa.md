@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-fa 7.6.2.1-3"
-version = "7.6.2.1-3"
+title = "libreoffice-l10n-fa 7.6.2.1-4"
+version = "7.6.2.1-4"
+date = "2023-11-06T17:14:37"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "286620"
+size = "286684"
 usize = "1752293"
-sha1sum = "c1c5a1f243d44a47576cbe449138161765a3b78e"
+sha1sum = "821921f6d831f2849ddf69c8008d9811ecdf1953"
 depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Persian support in LibreOffice

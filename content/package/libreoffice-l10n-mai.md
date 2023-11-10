@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-mai 7.6.2.1-3"
-version = "7.6.2.1-3"
+title = "libreoffice-l10n-mai 7.6.2.1-4"
+version = "7.6.2.1-4"
+date = "2023-11-06T17:14:37"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "237724"
+size = "237952"
 usize = "1684356"
-sha1sum = "d2f1fdce15050c3e988644b65f393e16c9ef5e8e"
+sha1sum = "e50ee01379cf06a6da31961c2247a9b785813c93"
 depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Maithili support in LibreOffice

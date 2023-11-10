@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-ru 7.6.2.1-3"
-version = "7.6.2.1-3"
+title = "libreoffice-l10n-ru 7.6.2.1-4"
+version = "7.6.2.1-4"
+date = "2023-11-06T17:14:37"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4902968"
+size = "4902176"
 usize = "39476896"
-sha1sum = "e716982f49de5969cb9f80b3c2830c53e6642089"
+sha1sum = "3bb040a615c62efe488f1ef238e160ef5ca587db"
 depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Russian support in LibreOffice

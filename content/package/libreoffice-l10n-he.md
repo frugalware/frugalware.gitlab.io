@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-he 7.6.2.1-3"
-version = "7.6.2.1-3"
+title = "libreoffice-l10n-he 7.6.2.1-4"
+version = "7.6.2.1-4"
+date = "2023-11-06T17:14:37"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "3586308"
+size = "3587144"
 usize = "30454865"
-sha1sum = "daa49d245b2112c202bce711a7fdf0150bfa8c7d"
+sha1sum = "499986764ed5000b4c4d6baf89058da62abcf573"
 depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Hebrew support in LibreOffice

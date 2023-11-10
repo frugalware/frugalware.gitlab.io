@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "nss-wins 4.19.2-1"
-version = "4.19.2-1"
+title = "nss-wins 4.19.2-2"
+version = "4.19.2-2"
+date = "2023-11-09T20:29:48"
 categories = ['network']
+upstreamurl = "http://www.samba.org"
 arch = "x86_64"
-size = "17400"
+size = "17432"
 usize = "22456"
-sha1sum = "da98ebbb0a42d04b9f4c18305a181755592524e8"
+sha1sum = "5b07135efdc357ebffa74f7c6c6f4d750409bbd7"
 depends = "['talloc>=2.3.0', 'samba>=4.19.2']"
 +++
 WINS Lookup Support for NSS.

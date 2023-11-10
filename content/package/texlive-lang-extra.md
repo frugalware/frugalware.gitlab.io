@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "texlive-lang-extra 2023.0-1"
-version = "2023.0-1"
+title = "texlive-lang-extra 2023.0-2"
+version = "2023.0-2"
+date = "2023-11-10T16:02:23"
 categories = ['xapps-extra']
+upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "20956264"
+size = "20954940"
 usize = "52829788"
-sha1sum = "b68748cb7a69c4d83b883059a14304c2f0f2c597"
+sha1sum = "ec1f7448e10859b0e725d607eed953dec820d52d"
 depends = "['texlive=2023.0']"
 +++
 Extra languages support for TeX Live
