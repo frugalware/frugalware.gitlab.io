@@ -2,9 +2,7 @@
 draft = false
 title = "xmlsec1 1.3.1-1"
 version = "1.3.1-1"
-date = "2023-08-06T17:52:25"
 categories = ['xoffice']
-upstreamurl = "https://www.aleksey.com/xmlsec/"
 arch = "x86_64"
 size = "258988"
 usize = "1288487"
