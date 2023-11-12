@@ -2,9 +2,7 @@
 draft = false
 title = "libkdcraw 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T19:17:45"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "44140"
 usize = "137324"

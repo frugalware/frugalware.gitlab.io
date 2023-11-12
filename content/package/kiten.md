@@ -2,9 +2,7 @@
 draft = false
 title = "kiten 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T18:36:18"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "11524324"
 usize = "33013201"

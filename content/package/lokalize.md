@@ -2,9 +2,7 @@
 draft = false
 title = "lokalize 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T18:55:30"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "2368672"
 usize = "7798579"

@@ -2,9 +2,7 @@
 draft = false
 title = "ktimer 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T18:50:34"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "462060"
 usize = "934537"
