@@ -2,9 +2,7 @@
 draft = false
 title = "audiotube 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T23:26:38"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "426136"
 usize = "1363803"

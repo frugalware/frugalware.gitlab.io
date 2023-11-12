@@ -2,9 +2,7 @@
 draft = false
 title = "fakeroot 1.32.1-2"
 version = "1.32.1-2"
-date = "2023-09-04T13:47:48"
 categories = ['devel', 'devel-core']
-upstreamurl = "http://packages.debian.org/unstable/utils/fakeroot"
 arch = "x86_64"
 size = "85756"
 usize = "185733"
