@@ -2,9 +2,7 @@
 draft = false
 title = "kpmcore 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T21:25:26"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "617388"
 usize = "4000571"

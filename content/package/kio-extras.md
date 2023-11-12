@@ -2,9 +2,7 @@
 draft = false
 title = "kio-extras 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T21:24:14"
 categories = ['kde5', 'kde5-apps']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1141616"
 usize = "4635787"
