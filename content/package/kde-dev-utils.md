@@ -2,9 +2,7 @@
 draft = false
 title = "kde-dev-utils 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T21:57:21"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "84084"
 usize = "388083"

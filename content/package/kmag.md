@@ -2,9 +2,7 @@
 draft = false
 title = "kmag 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T21:42:17"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "817140"
 usize = "1650634"

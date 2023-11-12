@@ -2,9 +2,7 @@
 draft = false
 title = "libktorrent 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T21:38:39"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "665036"
 usize = "2563789"

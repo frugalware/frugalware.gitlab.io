@@ -2,9 +2,7 @@
 draft = false
 title = "kopete 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T22:04:53"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "8987716"
 usize = "35041042"

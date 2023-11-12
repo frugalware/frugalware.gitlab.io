@@ -2,9 +2,7 @@
 draft = false
 title = "ktouch 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T21:46:21"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "4669748"
 usize = "8971617"

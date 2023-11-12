@@ -2,9 +2,7 @@
 draft = false
 title = "kreversi 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T22:06:11"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1058216"
 usize = "2259442"

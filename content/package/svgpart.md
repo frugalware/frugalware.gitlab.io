@@ -2,9 +2,7 @@
 draft = false
 title = "svgpart 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T21:48:35"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "29016"
 usize = "103790"

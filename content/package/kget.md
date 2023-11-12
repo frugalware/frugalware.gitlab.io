@@ -2,9 +2,7 @@
 draft = false
 title = "kget 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T21:40:55"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "5829876"
 usize = "11511173"
