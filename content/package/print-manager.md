@@ -2,9 +2,7 @@
 draft = false
 title = "print-manager 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T20:21:55"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "414104"
 usize = "2468780"

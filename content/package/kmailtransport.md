@@ -2,9 +2,7 @@
 draft = false
 title = "kmailtransport 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T20:38:39"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "211132"
 usize = "1084949"

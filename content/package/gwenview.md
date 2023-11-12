@@ -2,9 +2,7 @@
 draft = false
 title = "gwenview 23.08.2-3"
 version = "23.08.2-3"
-date = "2023-11-07T11:00:30"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "7030032"
 usize = "11647783"

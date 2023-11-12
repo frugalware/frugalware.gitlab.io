@@ -2,9 +2,7 @@
 draft = false
 title = "messagelib 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T20:41:13"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "6401620"
 usize = "17750264"
