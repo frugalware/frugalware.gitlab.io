@@ -2,9 +2,7 @@
 draft = false
 title = "kbruch 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T18:23:22"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "5126108"
 usize = "7041087"
