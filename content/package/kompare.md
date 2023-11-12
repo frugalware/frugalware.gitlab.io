@@ -2,9 +2,7 @@
 draft = false
 title = "kompare 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T20:00:51"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "897008"
 usize = "2684855"

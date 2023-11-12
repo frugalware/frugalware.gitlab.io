@@ -2,9 +2,7 @@
 draft = false
 title = "kapman 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T19:27:03"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "2542568"
 usize = "3065840"

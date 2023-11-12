@@ -2,9 +2,7 @@
 draft = false
 title = "kolourpaint 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T20:02:28"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "5905824"
 usize = "10006405"

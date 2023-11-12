@@ -2,9 +2,7 @@
 draft = false
 title = "libkdegames 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T19:22:37"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "9185016"
 usize = "10768990"

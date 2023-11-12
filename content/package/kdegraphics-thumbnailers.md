@@ -2,9 +2,7 @@
 draft = false
 title = "kdegraphics-thumbnailers 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T20:09:30"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "51288"
 usize = "195755"

@@ -2,9 +2,7 @@
 draft = false
 title = "libksane 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T19:21:27"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "151164"
 usize = "707084"

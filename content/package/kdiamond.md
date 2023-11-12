@@ -2,9 +2,7 @@
 draft = false
 title = "kdiamond 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T19:33:48"
 categories = ['kde5']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "4781184"
 usize = "5176365"
