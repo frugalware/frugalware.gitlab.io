@@ -2,9 +2,7 @@
 draft = false
 title = "knights 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T22:19:41"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "3545880"
 usize = "5219688"

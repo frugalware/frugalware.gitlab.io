@@ -2,9 +2,7 @@
 draft = false
 title = "ksnakeduel 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T22:08:47"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "487980"
 usize = "909197"

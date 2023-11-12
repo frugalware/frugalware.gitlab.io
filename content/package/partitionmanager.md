@@ -2,9 +2,7 @@
 draft = false
 title = "partitionmanager 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T22:33:21"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "2185132"
 usize = "5683698"
