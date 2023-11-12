@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-id 7.6.2.1-4"
-version = "7.6.2.1-4"
+title = "libreoffice-l10n-id 7.6.2.1-5"
+version = "7.6.2.1-5"
+date = "2023-11-12T11:26:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4342952"
+size = "4342600"
 usize = "33751242"
-sha1sum = "3a22db9a7b3b117d18ae5d6ae4394737f0083170"
+sha1sum = "6226a69339f48a00ddac2527d303200c1dd246a9"
 depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Indonesian support in LibreOffice

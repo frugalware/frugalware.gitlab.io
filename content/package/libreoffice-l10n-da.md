@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-da 7.6.2.1-4"
-version = "7.6.2.1-4"
+title = "libreoffice-l10n-da 7.6.2.1-5"
+version = "7.6.2.1-5"
+date = "2023-11-12T11:26:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4669596"
+size = "4669060"
 usize = "34524576"
-sha1sum = "9a2dd1a9881643017194763a250812aeb813f99d"
+sha1sum = "69abe09031508798d5293cd6335878a060636211"
 depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Danish support in LibreOffice

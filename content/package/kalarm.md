@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "kalarm 23.08.2-2"
-version = "23.08.2-2"
+title = "kalarm 23.08.3-1"
+version = "23.08.3-1"
+date = "2023-11-12T16:24:51"
 categories = ['kde5']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2865384"
-usize = "14113588"
-sha1sum = "49f529e3ac2f7b6ce497ed6fedb09061e00aa434"
-depends = "['kcalutils>=23.08.2', 'kmailtransport>=23.08.2', 'pimcommon>=23.08.2', 'mailcommon>=23.08.2', 'kidletime>=5.111.0', 'knotifyconfig>=5.111.0', 'kholidays>=5.111.0']"
+size = "2865884"
+usize = "14114244"
+sha1sum = "a49e59605592151cc5fde16e413099f097c8e14b"
+depends = "['kcalutils>=23.08.3', 'kmailtransport>=23.08.3', 'pimcommon>=23.08.3', 'mailcommon>=23.08.3', 'kidletime>=5.111.0', 'knotifyconfig>=5.111.0', 'kholidays>=5.111.0']"
 +++
 Personal Alarm Scheduler

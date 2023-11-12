@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-uk 7.6.2.1-4"
-version = "7.6.2.1-4"
+title = "libreoffice-l10n-uk 7.6.2.1-5"
+version = "7.6.2.1-5"
+date = "2023-11-12T11:26:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4803932"
+size = "4803412"
 usize = "38758465"
-sha1sum = "0b1f88fe74f07d0ac26ba922efa7ee6516287d27"
+sha1sum = "f90d83b88f60e12d1cb473430f35563960a73f7e"
 depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Ukrainian support in LibreOffice

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-ro 115.4.1-1"
-version = "115.4.1-1"
+title = "thunderbird-ro 115.4.2-1"
+version = "115.4.2-1"
+date = "2023-11-11T09:46:32"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "584340"
-usize = "651299"
-sha1sum = "0750ab6c890e0649c59d3bc97ccfba9a897d24f2"
-depends = "['thunderbird>=115.4.1']"
+size = "584452"
+usize = "651297"
+sha1sum = "71ad0fcfac846d5e160f65dba2c596a7a914a341"
+depends = "['thunderbird>=115.4.2']"
 +++
 Romanian language support for Thunderbird

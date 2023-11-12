@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-lv 7.6.2.1-4"
-version = "7.6.2.1-4"
+title = "libreoffice-l10n-lv 7.6.2.1-5"
+version = "7.6.2.1-5"
+date = "2023-11-12T11:26:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "3836536"
+size = "3837008"
 usize = "31890813"
-sha1sum = "7ee0f914c569706fc7e8b9e3eba75fcd4e8d234f"
+sha1sum = "5dd681223beae3d07c05b6788c115fccab5b97d7"
 depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Latvian support in LibreOffice

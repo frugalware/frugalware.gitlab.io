@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-en-ca 115.4.1-1"
-version = "115.4.1-1"
+title = "thunderbird-en-ca 115.4.2-1"
+version = "115.4.2-1"
+date = "2023-11-11T09:46:32"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "591116"
+size = "591096"
 usize = "656172"
-sha1sum = "150ee466dd4a28b82d1124bc674b3ee374f926a3"
-depends = "['thunderbird>=115.4.1']"
+sha1sum = "325af35f6fe223bd1b30218fc333d6ea423b4430"
+depends = "['thunderbird>=115.4.2']"
 +++
 Canadian English language support for Thunderbird

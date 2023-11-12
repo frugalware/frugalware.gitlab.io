@@ -2,9 +2,7 @@
 draft = false
 title = "telly-skout 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T23:18:42"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "94700"
 usize = "349958"

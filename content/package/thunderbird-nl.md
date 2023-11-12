@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "thunderbird-nl 115.4.1-1"
-version = "115.4.1-1"
+title = "thunderbird-nl 115.4.2-1"
+version = "115.4.2-1"
+date = "2023-11-11T09:46:32"
 categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "639828"
-usize = "699389"
-sha1sum = "62c1bbaf89e0f97367cfa0ea06b02d08c2aa88fa"
-depends = "['thunderbird>=115.4.1']"
+size = "639864"
+usize = "699387"
+sha1sum = "6476fca9242076264be51cab17b59a0029d447a5"
+depends = "['thunderbird>=115.4.2']"
 +++
 Dutch language support for Thunderbird

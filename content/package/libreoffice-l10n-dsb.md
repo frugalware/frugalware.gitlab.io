@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-dsb 7.6.2.1-4"
-version = "7.6.2.1-4"
+title = "libreoffice-l10n-dsb 7.6.2.1-5"
+version = "7.6.2.1-5"
+date = "2023-11-12T11:26:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4250136"
+size = "4250864"
 usize = "33808318"
-sha1sum = "8a5b850ea9d34890b1dca8cf002e12cf88c1236a"
+sha1sum = "f0dc53e9f4d5b7460b18e1ec58721f30042a3563"
 depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Lower Sorbian support in LibreOffice

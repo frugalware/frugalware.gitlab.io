@@ -2,9 +2,7 @@
 draft = false
 title = "angelfish 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T22:53:04"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1280828"
 usize = "5082645"

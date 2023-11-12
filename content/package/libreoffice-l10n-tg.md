@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-tg 7.6.2.1-4"
-version = "7.6.2.1-4"
+title = "libreoffice-l10n-tg 7.6.2.1-5"
+version = "7.6.2.1-5"
+date = "2023-11-12T11:26:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "3715436"
+size = "3715880"
 usize = "32138250"
-sha1sum = "3b50a7beb66c665778d3ff577fb315bfcb692b73"
+sha1sum = "67d6cd60f4f7880893256ea0dd85a59cc5c5e187"
 depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Tajik support in LibreOffice

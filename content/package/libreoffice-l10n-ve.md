@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-ve 7.6.2.1-4"
-version = "7.6.2.1-4"
+title = "libreoffice-l10n-ve 7.6.2.1-5"
+version = "7.6.2.1-5"
+date = "2023-11-12T11:26:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "211888"
+size = "212036"
 usize = "1335806"
-sha1sum = "417985200da21cc35107f7c07bdedbb33e661e5e"
+sha1sum = "323dd0b08d01102c0ddf399a056b00042ced16cd"
 depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Venda support in LibreOffice

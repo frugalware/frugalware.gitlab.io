@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-fr 7.6.2.1-4"
-version = "7.6.2.1-4"
+title = "libreoffice-l10n-fr 7.6.2.1-5"
+version = "7.6.2.1-5"
+date = "2023-11-12T11:26:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4768372"
+size = "4768108"
 usize = "36705871"
-sha1sum = "5171a396f7c4e18bc3f03f451961a047b9b0a91d"
+sha1sum = "aa0c5985dc50b9a82822309b3cc00d34b7273cb1"
 depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs French support in LibreOffice

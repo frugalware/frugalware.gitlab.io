@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "libreoffice-l10n-ckb 7.6.2.1-4"
-version = "7.6.2.1-4"
+title = "libreoffice-l10n-ckb 7.6.2.1-5"
+version = "7.6.2.1-5"
+date = "2023-11-12T11:26:30"
 categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "255888"
+size = "255748"
 usize = "1657876"
-sha1sum = "2319a5aa5b84109136b65f5636e0820c183dbd8e"
+sha1sum = "f3183f339c8be42f4f0c8c995ca0743d48a9a5ee"
 depends = "['libreoffice>=7.6.2.1']"
 +++
 Installs Central Kurdish support in LibreOffice

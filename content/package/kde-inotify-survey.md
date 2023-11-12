@@ -2,9 +2,7 @@
 draft = false
 title = "kde-inotify-survey 23.08.2-2"
 version = "23.08.2-2"
-date = "2023-10-28T23:02:08"
 categories = ['kde5-extra']
-upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "47284"
 usize = "229754"
