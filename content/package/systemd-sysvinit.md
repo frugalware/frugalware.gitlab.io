@@ -2,9 +2,7 @@
 draft = false
 title = "systemd-sysvinit 254.5-1"
 version = "254.5-1"
-date = "2023-09-28T07:13:32"
 categories = ['base', 'core']
-upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
 size = "29796"
 usize = "5161"
