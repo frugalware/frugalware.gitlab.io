@@ -2,9 +2,7 @@
 draft = false
 title = "gstreamer1 1.22.6-1"
 version = "1.22.6-1"
-date = "2023-09-22T12:17:01"
 categories = ['xmultimedia']
-upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
 size = "1802444"
 usize = "11075899"
