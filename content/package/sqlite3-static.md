@@ -2,9 +2,7 @@
 draft = false
 title = "sqlite3-static 3.44.0-1"
 version = "3.44.0-1"
-date = "2023-11-02T11:28:08"
 categories = ['devel-extra']
-upstreamurl = "http://www.sqlite.org/"
 arch = "x86_64"
 size = "6109440"
 usize = "6504080"
