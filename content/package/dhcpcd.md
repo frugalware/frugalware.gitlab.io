@@ -2,9 +2,7 @@
 draft = false
 title = "dhcpcd 10.0.4-1"
 version = "10.0.4-1"
-date = "2023-10-27T20:14:10"
 categories = ['base']
-upstreamurl = "https://roy.marples.name/projects/dhcpcd/"
 arch = "x86_64"
 size = "355052"
 usize = "1146770"
