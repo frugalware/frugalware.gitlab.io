@@ -2,9 +2,7 @@
 draft = false
 title = "gst1-plugins-bad-bzip2 1.22.6-1"
 version = "1.22.6-1"
-date = "2023-09-22T15:02:42"
 categories = ['xmultimedia']
-upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
 size = "13012"
 usize = "26672"
