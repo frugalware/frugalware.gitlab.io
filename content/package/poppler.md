@@ -2,9 +2,7 @@
 draft = false
 title = "poppler 23.11.0-1"
 version = "23.11.0-1"
-date = "2023-11-06T14:24:05"
 categories = ['xlib']
-upstreamurl = "https://poppler.freedesktop.org/"
 arch = "x86_64"
 size = "1925644"
 usize = "9835607"
