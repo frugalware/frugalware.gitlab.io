@@ -2,9 +2,7 @@
 draft = false
 title = "gst1-plugins-ugly-cdio 1.22.6-1"
 version = "1.22.6-1"
-date = "2023-09-22T15:26:59"
 categories = ['xmultimedia']
-upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
 size = "11200"
 usize = "26392"
