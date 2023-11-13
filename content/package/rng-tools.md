@@ -2,9 +2,7 @@
 draft = false
 title = "rng-tools 6.16-2"
 version = "6.16-2"
-date = "2023-03-16T01:51:12"
 categories = ['base']
-upstreamurl = "https://github.com/nhorman/rng-tools"
 arch = "x86_64"
 size = "58072"
 usize = "171747"
