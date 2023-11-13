@@ -2,9 +2,7 @@
 draft = false
 title = "clang 16.0.6-3"
 version = "16.0.6-3"
-date = "2023-10-05T14:50:42"
 categories = ['devel']
-upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
 size = "27016216"
 usize = "156964664"
