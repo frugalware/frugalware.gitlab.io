@@ -63,7 +63,7 @@ while i :
     package_path= packages_path + name + "-" + version + "-" + arch + ".fpm"
 
     if pacman.pkg_load(package_path, full_pkg) == -1:
-        continue
+        i = pacman.list_next(i)
     files = []
     licenses = []
 
