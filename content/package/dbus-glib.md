@@ -1,0 +1,15 @@
++++
+draft = false
+title = "dbus-glib 0.112-2"
+version = "0.112-2"
+date = "2021-10-12T14:46:59"
+categories = ['base']
+upstreamurl = "http://www.freedesktop.org/wiki/Software_2fDBusBindings"
+arch = "x86_64"
+size = "150820"
+usize = "938834"
+sha1sum = "04a032e07ba4d48217033d353a3a245039db4805"
+depends = "['dbus>=1.12.14-2', 'glib2>=2.60.0', 'libffi>=3.2.1-2']"
+files = "['bin/', 'bin/dbus-binding-tool', 'etc/', 'etc/bash_completion.d/', 'etc/bash_completion.d/dbus-bash-completion.sh', 'usr/', 'usr/bin/', 'usr/bin/dbus-binding-tool', 'usr/include/', 'usr/include/dbus-1.0/', 'usr/include/dbus-1.0/dbus/', 'usr/include/dbus-1.0/dbus/dbus-glib-bindings.h', 'usr/include/dbus-1.0/dbus/dbus-glib-lowlevel.h', 'usr/include/dbus-1.0/dbus/dbus-glib.h', 'usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h', 'usr/include/dbus-1.0/dbus/dbus-gvalue-parse-variant.h', 'usr/lib/', 'usr/lib/dbus-glib/', 'usr/lib/dbus-glib/dbus-bash-completion-helper', 'usr/lib/libdbus-glib-1.so', 'usr/lib/libdbus-glib-1.so.2', 'usr/lib/libdbus-glib-1.so.2.3.5', 'usr/lib/pkgconfig/', 'usr/lib/pkgconfig/dbus-glib-1.pc', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/dbus-glib-0.112/', 'usr/share/doc/dbus-glib-0.112/AUTHORS', 'usr/share/doc/dbus-glib-0.112/COPYING', 'usr/share/doc/dbus-glib-0.112/INSTALL', 'usr/share/doc/dbus-glib-0.112/NEWS', 'usr/share/doc/dbus-glib-0.112/README', 'usr/share/gtk-doc/', 'usr/share/gtk-doc/html/', 'usr/share/gtk-doc/html/dbus-glib/', 'usr/share/gtk-doc/html/dbus-glib/api-index-full.html', 'usr/share/gtk-doc/html/dbus-glib/ch01.html', 'usr/share/gtk-doc/html/dbus-glib/ch02.html', 'usr/share/gtk-doc/html/dbus-glib/ch03.html', 'usr/share/gtk-doc/html/dbus-glib/dbus-binding-tool.html', 'usr/share/gtk-doc/html/dbus-glib/dbus-glib-DBus-GLib-low-level.html', 'usr/share/gtk-doc/html/dbus-glib/dbus-glib-DBus-GObject-related-functions.html', 'usr/share/gtk-doc/html/dbus-glib/dbus-glib-DBusGConnection.html', 'usr/share/gtk-doc/html/dbus-glib/dbus-glib-DBusGError.html', 'usr/share/gtk-doc/html/dbus-glib/dbus-glib-DBusGMessage.html', 'usr/share/gtk-doc/html/dbus-glib/dbus-glib-DBusGMethod.html', 'usr/share/gtk-doc/html/dbus-glib/dbus-glib-DBusGProxy.html', 'usr/share/gtk-doc/html/dbus-glib/dbus-glib-Specializable-GType-System.html', 'usr/share/gtk-doc/html/dbus-glib/dbus-glib.devhelp2', 'usr/share/gtk-doc/html/dbus-glib/home.png', 'usr/share/gtk-doc/html/dbus-glib/index.html', 'usr/share/gtk-doc/html/dbus-glib/left-insensitive.png', 'usr/share/gtk-doc/html/dbus-glib/left.png', 'usr/share/gtk-doc/html/dbus-glib/right-insensitive.png', 'usr/share/gtk-doc/html/dbus-glib/right.png', 'usr/share/gtk-doc/html/dbus-glib/style.css', 'usr/share/gtk-doc/html/dbus-glib/up-insensitive.png', 'usr/share/gtk-doc/html/dbus-glib/up.png', 'usr/share/man/', 'usr/share/man/man1/', 'usr/share/man/man1/dbus-binding-tool.1.gz']"
++++
+Glib bindings for DBUS

@@ -1,0 +1,15 @@
++++
+draft = false
+title = "haskell-code-page 0.2.1-9"
+version = "0.2.1-9"
+date = "2023-08-22T08:32:54"
+categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/code-page"
+arch = "x86_64"
+size = "54220"
+usize = "298513"
+sha1sum = "faee72897164954792c37d0e041287ddc82eba7a"
+depends = "['ghc>=9.6.1']"
+files = "['usr/', 'usr/lib/', 'usr/lib/ghc-9.6.2/', 'usr/lib/ghc-9.6.2/site-local/', 'usr/lib/ghc-9.6.2/site-local/code-page-0.2.1/', 'usr/lib/ghc-9.6.2/site-local/code-page-0.2.1/System/', 'usr/lib/ghc-9.6.2/site-local/code-page-0.2.1/System/IO/', 'usr/lib/ghc-9.6.2/site-local/code-page-0.2.1/System/IO/CodePage.dyn_hi', 'usr/lib/ghc-9.6.2/site-local/code-page-0.2.1/System/IO/CodePage.hi', 'usr/lib/ghc-9.6.2/site-local/code-page-0.2.1/System/IO/CodePage/', 'usr/lib/ghc-9.6.2/site-local/code-page-0.2.1/System/IO/CodePage/Internal.dyn_hi', 'usr/lib/ghc-9.6.2/site-local/code-page-0.2.1/System/IO/CodePage/Internal.hi', 'usr/lib/ghc-9.6.2/site-local/code-page-0.2.1/System/Win32/', 'usr/lib/ghc-9.6.2/site-local/code-page-0.2.1/System/Win32/CodePage.dyn_hi', 'usr/lib/ghc-9.6.2/site-local/code-page-0.2.1/System/Win32/CodePage.hi', 'usr/lib/ghc-9.6.2/site-local/code-page-0.2.1/libHScode-page-0.2.1-DzU49U8wzjPBpcOrFqKkj4.a', 'usr/lib/x86_64-linux-ghc-9.6.2/', 'usr/lib/x86_64-linux-ghc-9.6.2/libHScode-page-0.2.1-DzU49U8wzjPBpcOrFqKkj4-ghc9.6.2.so', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/haskell-code-page-0.2.1/', 'usr/share/doc/haskell-code-page-0.2.1/LICENSE', 'usr/share/doc/haskell-code-page-0.2.1/README.md', 'usr/share/doc/x86_64-linux-ghc-9.6.2/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/code-page-0.2.1/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/code-page-0.2.1/LICENSE', 'usr/share/doc/x86_64-linux-ghc-9.6.2/code-page-0.2.1/html/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/code-page-0.2.1/html/System-IO-CodePage-Internal.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/code-page-0.2.1/html/System-IO-CodePage.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/code-page-0.2.1/html/System-Win32-CodePage.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/code-page-0.2.1/html/code-page.haddock', 'usr/share/doc/x86_64-linux-ghc-9.6.2/code-page-0.2.1/html/doc-index.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/code-page-0.2.1/html/doc-index.json', 'usr/share/doc/x86_64-linux-ghc-9.6.2/code-page-0.2.1/html/haddock-bundle.min.js', 'usr/share/doc/x86_64-linux-ghc-9.6.2/code-page-0.2.1/html/index.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/code-page-0.2.1/html/linuwial.css', 'usr/share/doc/x86_64-linux-ghc-9.6.2/code-page-0.2.1/html/meta.json', 'usr/share/doc/x86_64-linux-ghc-9.6.2/code-page-0.2.1/html/quick-jump.css', 'usr/share/doc/x86_64-linux-ghc-9.6.2/code-page-0.2.1/html/quick-jump.min.js', 'usr/share/doc/x86_64-linux-ghc-9.6.2/code-page-0.2.1/html/synopsis.png', 'usr/share/haskell/', 'usr/share/haskell/haskell-code-page/', 'usr/share/haskell/haskell-code-page/register.sh', 'usr/share/haskell/haskell-code-page/unregister.sh']"
++++
+Windows code page library for Haskell

@@ -1,0 +1,15 @@
++++
+draft = false
+title = "haskell-http-client-tls 0.3.6.3-1"
+version = "0.3.6.3-1"
+date = "2023-08-22T13:49:17"
+categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/http-client-tls"
+arch = "x86_64"
+size = "94668"
+usize = "596330"
+sha1sum = "8e8d7ea23b26f84feb0812caf4cecb1dc42419c2"
+depends = "['haskell-http-client', 'haskell-tls', 'haskell-crypton-connection']"
+files = "['usr/', 'usr/lib/', 'usr/lib/ghc-9.6.2/', 'usr/lib/ghc-9.6.2/site-local/', 'usr/lib/ghc-9.6.2/site-local/http-client-tls-0.3.6.3/', 'usr/lib/ghc-9.6.2/site-local/http-client-tls-0.3.6.3/Network/', 'usr/lib/ghc-9.6.2/site-local/http-client-tls-0.3.6.3/Network/HTTP/', 'usr/lib/ghc-9.6.2/site-local/http-client-tls-0.3.6.3/Network/HTTP/Client/', 'usr/lib/ghc-9.6.2/site-local/http-client-tls-0.3.6.3/Network/HTTP/Client/TLS.dyn_hi', 'usr/lib/ghc-9.6.2/site-local/http-client-tls-0.3.6.3/Network/HTTP/Client/TLS.hi', 'usr/lib/ghc-9.6.2/site-local/http-client-tls-0.3.6.3/libHShttp-client-tls-0.3.6.3-Dg0AjwJqzhSJmgnZSG5xcW.a', 'usr/lib/x86_64-linux-ghc-9.6.2/', 'usr/lib/x86_64-linux-ghc-9.6.2/libHShttp-client-tls-0.3.6.3-Dg0AjwJqzhSJmgnZSG5xcW-ghc9.6.2.so', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/haskell-http-client-tls-0.3.6.3/', 'usr/share/doc/haskell-http-client-tls-0.3.6.3/LICENSE', 'usr/share/doc/haskell-http-client-tls-0.3.6.3/README.md', 'usr/share/doc/x86_64-linux-ghc-9.6.2/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/http-client-tls-0.3.6.3/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/http-client-tls-0.3.6.3/LICENSE', 'usr/share/doc/x86_64-linux-ghc-9.6.2/http-client-tls-0.3.6.3/html/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/http-client-tls-0.3.6.3/html/Network-HTTP-Client-TLS.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/http-client-tls-0.3.6.3/html/doc-index.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/http-client-tls-0.3.6.3/html/doc-index.json', 'usr/share/doc/x86_64-linux-ghc-9.6.2/http-client-tls-0.3.6.3/html/haddock-bundle.min.js', 'usr/share/doc/x86_64-linux-ghc-9.6.2/http-client-tls-0.3.6.3/html/http-client-tls.haddock', 'usr/share/doc/x86_64-linux-ghc-9.6.2/http-client-tls-0.3.6.3/html/index.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/http-client-tls-0.3.6.3/html/linuwial.css', 'usr/share/doc/x86_64-linux-ghc-9.6.2/http-client-tls-0.3.6.3/html/meta.json', 'usr/share/doc/x86_64-linux-ghc-9.6.2/http-client-tls-0.3.6.3/html/quick-jump.css', 'usr/share/doc/x86_64-linux-ghc-9.6.2/http-client-tls-0.3.6.3/html/quick-jump.min.js', 'usr/share/doc/x86_64-linux-ghc-9.6.2/http-client-tls-0.3.6.3/html/synopsis.png', 'usr/share/haskell/', 'usr/share/haskell/haskell-http-client-tls/', 'usr/share/haskell/haskell-http-client-tls/register.sh', 'usr/share/haskell/haskell-http-client-tls/unregister.sh']"
++++
+http-client backend using the connection package and tls library

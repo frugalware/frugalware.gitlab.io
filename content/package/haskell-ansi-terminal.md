@@ -1,0 +1,15 @@
++++
+draft = false
+title = "haskell-ansi-terminal 1.0-2"
+version = "1.0-2"
+date = "2023-08-22T14:55:38"
+categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/ansi-terminal"
+arch = "x86_64"
+size = "107012"
+usize = "917080"
+sha1sum = "906d628b0a1f937b8fcb6e18d1ccf0f7bf6a32c6"
+depends = "['haskell-colour>=2.3.6', 'haskell-ansi-terminal-types']"
+files = "['usr/', 'usr/lib/', 'usr/lib/ghc-9.6.2/', 'usr/lib/ghc-9.6.2/site-local/', 'usr/lib/ghc-9.6.2/site-local/ansi-terminal-1.0/', 'usr/lib/ghc-9.6.2/site-local/ansi-terminal-1.0/System/', 'usr/lib/ghc-9.6.2/site-local/ansi-terminal-1.0/System/Console/', 'usr/lib/ghc-9.6.2/site-local/ansi-terminal-1.0/System/Console/ANSI.dyn_hi', 'usr/lib/ghc-9.6.2/site-local/ansi-terminal-1.0/System/Console/ANSI.hi', 'usr/lib/ghc-9.6.2/site-local/ansi-terminal-1.0/System/Console/ANSI/', 'usr/lib/ghc-9.6.2/site-local/ansi-terminal-1.0/System/Console/ANSI/Codes.dyn_hi', 'usr/lib/ghc-9.6.2/site-local/ansi-terminal-1.0/System/Console/ANSI/Codes.hi', 'usr/lib/ghc-9.6.2/site-local/ansi-terminal-1.0/System/Console/ANSI/Internal.dyn_hi', 'usr/lib/ghc-9.6.2/site-local/ansi-terminal-1.0/System/Console/ANSI/Internal.hi', 'usr/lib/ghc-9.6.2/site-local/ansi-terminal-1.0/libHSansi-terminal-1.0-GPM30s7oeVpFbA2G4pIjVl.a', 'usr/lib/x86_64-linux-ghc-9.6.2/', 'usr/lib/x86_64-linux-ghc-9.6.2/libHSansi-terminal-1.0-GPM30s7oeVpFbA2G4pIjVl-ghc9.6.2.so', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/haskell-ansi-terminal-1.0/', 'usr/share/doc/haskell-ansi-terminal-1.0/LICENSE', 'usr/share/doc/haskell-ansi-terminal-1.0/README.md', 'usr/share/doc/x86_64-linux-ghc-9.6.2/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/ansi-terminal-1.0/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/ansi-terminal-1.0/LICENSE', 'usr/share/doc/x86_64-linux-ghc-9.6.2/ansi-terminal-1.0/html/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/ansi-terminal-1.0/html/System-Console-ANSI-Codes.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/ansi-terminal-1.0/html/System-Console-ANSI.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/ansi-terminal-1.0/html/ansi-terminal.haddock', 'usr/share/doc/x86_64-linux-ghc-9.6.2/ansi-terminal-1.0/html/doc-index.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/ansi-terminal-1.0/html/doc-index.json', 'usr/share/doc/x86_64-linux-ghc-9.6.2/ansi-terminal-1.0/html/haddock-bundle.min.js', 'usr/share/doc/x86_64-linux-ghc-9.6.2/ansi-terminal-1.0/html/index.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/ansi-terminal-1.0/html/linuwial.css', 'usr/share/doc/x86_64-linux-ghc-9.6.2/ansi-terminal-1.0/html/meta.json', 'usr/share/doc/x86_64-linux-ghc-9.6.2/ansi-terminal-1.0/html/quick-jump.css', 'usr/share/doc/x86_64-linux-ghc-9.6.2/ansi-terminal-1.0/html/quick-jump.min.js', 'usr/share/doc/x86_64-linux-ghc-9.6.2/ansi-terminal-1.0/html/synopsis.png', 'usr/share/haskell/', 'usr/share/haskell/haskell-ansi-terminal/', 'usr/share/haskell/haskell-ansi-terminal/register.sh', 'usr/share/haskell/haskell-ansi-terminal/unregister.sh']"
++++
+Simple ANSI terminal support, with Windows compatibility

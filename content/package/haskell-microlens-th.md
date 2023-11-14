@@ -1,0 +1,15 @@
++++
+draft = false
+title = "haskell-microlens-th 0.4.3.13-2"
+version = "0.4.3.13-2"
+date = "2023-08-22T06:59:36"
+categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/microlens-th"
+arch = "x86_64"
+size = "162868"
+usize = "1168285"
+sha1sum = "3aa48d6b4ec1488ead72a7820539c2f30a867170"
+depends = "['haskell-microlens', 'haskell-th-abstraction>=0.5']"
+files = "['usr/', 'usr/lib/', 'usr/lib/ghc-9.6.2/', 'usr/lib/ghc-9.6.2/site-local/', 'usr/lib/ghc-9.6.2/site-local/microlens-th-0.4.3.13/', 'usr/lib/ghc-9.6.2/site-local/microlens-th-0.4.3.13/Lens/', 'usr/lib/ghc-9.6.2/site-local/microlens-th-0.4.3.13/Lens/Micro/', 'usr/lib/ghc-9.6.2/site-local/microlens-th-0.4.3.13/Lens/Micro/TH.dyn_hi', 'usr/lib/ghc-9.6.2/site-local/microlens-th-0.4.3.13/Lens/Micro/TH.hi', 'usr/lib/ghc-9.6.2/site-local/microlens-th-0.4.3.13/Lens/Micro/TH/', 'usr/lib/ghc-9.6.2/site-local/microlens-th-0.4.3.13/Lens/Micro/TH/Internal.dyn_hi', 'usr/lib/ghc-9.6.2/site-local/microlens-th-0.4.3.13/Lens/Micro/TH/Internal.hi', 'usr/lib/ghc-9.6.2/site-local/microlens-th-0.4.3.13/libHSmicrolens-th-0.4.3.13-HSYSTczS6uNDMixj8FVybj.a', 'usr/lib/x86_64-linux-ghc-9.6.2/', 'usr/lib/x86_64-linux-ghc-9.6.2/libHSmicrolens-th-0.4.3.13-HSYSTczS6uNDMixj8FVybj-ghc9.6.2.so', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/haskell-microlens-th-0.4.3.13/', 'usr/share/doc/haskell-microlens-th-0.4.3.13/LICENSE', 'usr/share/doc/x86_64-linux-ghc-9.6.2/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/microlens-th-0.4.3.13/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/microlens-th-0.4.3.13/LICENSE', 'usr/share/doc/x86_64-linux-ghc-9.6.2/microlens-th-0.4.3.13/html/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/microlens-th-0.4.3.13/html/Lens-Micro-TH-Internal.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/microlens-th-0.4.3.13/html/Lens-Micro-TH.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/microlens-th-0.4.3.13/html/doc-index.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/microlens-th-0.4.3.13/html/doc-index.json', 'usr/share/doc/x86_64-linux-ghc-9.6.2/microlens-th-0.4.3.13/html/haddock-bundle.min.js', 'usr/share/doc/x86_64-linux-ghc-9.6.2/microlens-th-0.4.3.13/html/index.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/microlens-th-0.4.3.13/html/linuwial.css', 'usr/share/doc/x86_64-linux-ghc-9.6.2/microlens-th-0.4.3.13/html/meta.json', 'usr/share/doc/x86_64-linux-ghc-9.6.2/microlens-th-0.4.3.13/html/microlens-th.haddock', 'usr/share/doc/x86_64-linux-ghc-9.6.2/microlens-th-0.4.3.13/html/quick-jump.css', 'usr/share/doc/x86_64-linux-ghc-9.6.2/microlens-th-0.4.3.13/html/quick-jump.min.js', 'usr/share/doc/x86_64-linux-ghc-9.6.2/microlens-th-0.4.3.13/html/synopsis.png', 'usr/share/haskell/', 'usr/share/haskell/haskell-microlens-th/', 'usr/share/haskell/haskell-microlens-th/register.sh', 'usr/share/haskell/haskell-microlens-th/unregister.sh']"
++++
+Automatic generation of record lenses for microlens

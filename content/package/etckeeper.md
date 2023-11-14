@@ -1,0 +1,15 @@
++++
+draft = false
+title = "etckeeper 1.18.20-1"
+version = "1.18.20-1"
+date = "2023-01-09T13:48:32"
+categories = ['apps-extra']
+upstreamurl = "https://etckeeper.branchable.com/"
+arch = "x86_64"
+size = "33780"
+usize = "93960"
+sha1sum = "aef551443fc3ce6c9c277a8a10a2a155addd92ab"
+depends = "['git>=1.5.3.4', 'pacman-g2>=3.6.7', 'dcron>=3.2-4']"
+files = "['etc/', 'etc/etckeeper/', 'etc/etckeeper/commit.d/', 'etc/etckeeper/commit.d/10vcs-test', 'etc/etckeeper/commit.d/20store-metadata', 'etc/etckeeper/commit.d/30bzr-add', 'etc/etckeeper/commit.d/30darcs-add', 'etc/etckeeper/commit.d/30git-add', 'etc/etckeeper/commit.d/30hg-addremove', 'etc/etckeeper/commit.d/50vcs-commit', 'etc/etckeeper/commit.d/99push', 'etc/etckeeper/commit.d/README', 'etc/etckeeper/daily', 'etc/etckeeper/etckeeper.conf', 'etc/etckeeper/init.d/', 'etc/etckeeper/init.d/10restore-metadata', 'etc/etckeeper/init.d/20restore-etckeeper', 'etc/etckeeper/init.d/40vcs-init', 'etc/etckeeper/init.d/50vcs-ignore', 'etc/etckeeper/init.d/50vcs-perm', 'etc/etckeeper/init.d/50vcs-pre-commit-hook', 'etc/etckeeper/init.d/60darcs-deleted-symlinks', 'etc/etckeeper/init.d/70vcs-add', 'etc/etckeeper/init.d/README', 'etc/etckeeper/list-installed.d/', 'etc/etckeeper/list-installed.d/50list-installed', 'etc/etckeeper/post-install.d/', 'etc/etckeeper/post-install.d/50vcs-commit', 'etc/etckeeper/post-install.d/README', 'etc/etckeeper/pre-commit.d/', 'etc/etckeeper/pre-commit.d/20warn-problem-files', 'etc/etckeeper/pre-commit.d/30store-metadata', 'etc/etckeeper/pre-commit.d/README', 'etc/etckeeper/pre-install.d/', 'etc/etckeeper/pre-install.d/10packagelist', 'etc/etckeeper/pre-install.d/50uncommitted-changes', 'etc/etckeeper/pre-install.d/README', 'etc/etckeeper/unclean.d/', 'etc/etckeeper/unclean.d/50test', 'etc/etckeeper/unclean.d/README', 'etc/etckeeper/uninit.d/', 'etc/etckeeper/uninit.d/01prompt', 'etc/etckeeper/uninit.d/50remove-metadata', 'etc/etckeeper/uninit.d/50vcs-uninit', 'etc/etckeeper/uninit.d/README', 'etc/etckeeper/update-ignore.d/', 'etc/etckeeper/update-ignore.d/01update-ignore', 'etc/etckeeper/update-ignore.d/README', 'etc/etckeeper/vcs.d/', 'etc/etckeeper/vcs.d/50vcs-cmd', 'etc/pacman-g2/', 'etc/pacman-g2/hooks/', 'etc/pacman-g2/hooks/etckeeper', 'lib/', 'lib/systemd/', 'lib/systemd/system/', 'lib/systemd/system/etckeeper.service', 'lib/systemd/system/etckeeper.timer', 'usr/', 'usr/bin/', 'usr/bin/etckeeper', 'usr/share/', 'usr/share/bash-completion/', 'usr/share/bash-completion/completions/', 'usr/share/bash-completion/completions/etckeeper', 'usr/share/doc/', 'usr/share/doc/etckeeper-1.18.20/', 'usr/share/doc/etckeeper-1.18.20/CHANGELOG', 'usr/share/doc/etckeeper-1.18.20/COPYRIGHT', 'usr/share/doc/etckeeper-1.18.20/INSTALL', 'usr/share/doc/etckeeper-1.18.20/README.md', 'usr/share/man/', 'usr/share/man/man8/', 'usr/share/man/man8/etckeeper.8.gz', 'usr/share/zsh/', 'usr/share/zsh/vendor-completions/', 'usr/share/zsh/vendor-completions/_etckeeper', 'var/', 'var/cache/', 'var/cache/etckeeper/']"
++++
+Stores the /etc directory in a git repo.

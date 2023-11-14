@@ -1,0 +1,15 @@
++++
+draft = false
+title = "keyutils 1.6.1-2"
+version = "1.6.1-2"
+date = "2021-10-06T11:30:28"
+categories = ['base']
+upstreamurl = "https://rhn.redhat.com/errata/RHEA-2006-0090.html"
+arch = "x86_64"
+size = "115540"
+usize = "285396"
+sha1sum = "98b22f73b3240d97dc45799328dd5acc1c6716a0"
+depends = "['glibc>=2.34', 'libkrb5']"
+files = "['bin/', 'bin/keyctl', 'etc/', 'etc/request-key.conf', 'etc/request-key.d/', 'lib/', 'lib/libkeyutils.so', 'lib/libkeyutils.so.1', 'lib/libkeyutils.so.1.9', 'lib/pkgconfig/', 'lib/pkgconfig/libkeyutils.pc', 'sbin/', 'sbin/key.dns_resolver', 'sbin/request-key', 'usr/', 'usr/include/', 'usr/include/keyutils.h', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/keyutils-1.6.1/', 'usr/share/doc/keyutils-1.6.1/README', 'usr/share/keyutils/', 'usr/share/keyutils/request-key-debug.sh', 'usr/share/man/', 'usr/share/man/man1/', 'usr/share/man/man1/keyctl.1.gz', 'usr/share/man/man3/', 'usr/share/man/man3/find_key_by_type_and_name.3.gz', 'usr/share/man/man3/keyctl.3.gz', 'usr/share/man/man3/keyctl_assume_authority.3.gz', 'usr/share/man/man3/keyctl_capabilities.3.gz', 'usr/share/man/man3/keyctl_chown.3.gz', 'usr/share/man/man3/keyctl_clear.3.gz', 'usr/share/man/man3/keyctl_describe.3.gz', 'usr/share/man/man3/keyctl_describe_alloc.3.gz', 'usr/share/man/man3/keyctl_dh_compute.3.gz', 'usr/share/man/man3/keyctl_dh_compute_alloc.3.gz', 'usr/share/man/man3/keyctl_dh_compute_kdf.3.gz', 'usr/share/man/man3/keyctl_get_keyring_ID.3.gz', 'usr/share/man/man3/keyctl_get_persistent.3.gz', 'usr/share/man/man3/keyctl_get_security.3.gz', 'usr/share/man/man3/keyctl_get_security_alloc.3.gz', 'usr/share/man/man3/keyctl_instantiate.3.gz', 'usr/share/man/man3/keyctl_instantiate_iov.3.gz', 'usr/share/man/man3/keyctl_invalidate.3.gz', 'usr/share/man/man3/keyctl_join_session_keyring.3.gz', 'usr/share/man/man3/keyctl_link.3.gz', 'usr/share/man/man3/keyctl_move.3.gz', 'usr/share/man/man3/keyctl_negate.3.gz', 'usr/share/man/man3/keyctl_pkey_decrypt.3.gz', 'usr/share/man/man3/keyctl_pkey_encrypt.3.gz', 'usr/share/man/man3/keyctl_pkey_query.3.gz', 'usr/share/man/man3/keyctl_pkey_sign.3.gz', 'usr/share/man/man3/keyctl_pkey_verify.3.gz', 'usr/share/man/man3/keyctl_read.3.gz', 'usr/share/man/man3/keyctl_read_alloc.3.gz', 'usr/share/man/man3/keyctl_reject.3.gz', 'usr/share/man/man3/keyctl_restrict_keyring.3.gz', 'usr/share/man/man3/keyctl_revoke.3.gz', 'usr/share/man/man3/keyctl_search.3.gz', 'usr/share/man/man3/keyctl_session_to_parent.3.gz', 'usr/share/man/man3/keyctl_set_reqkey_keyring.3.gz', 'usr/share/man/man3/keyctl_set_timeout.3.gz', 'usr/share/man/man3/keyctl_setperm.3.gz', 'usr/share/man/man3/keyctl_unlink.3.gz', 'usr/share/man/man3/keyctl_update.3.gz', 'usr/share/man/man3/recursive_key_scan.3.gz', 'usr/share/man/man3/recursive_session_key_scan.3.gz', 'usr/share/man/man5/', 'usr/share/man/man5/request-key.conf.5.gz', 'usr/share/man/man7/', 'usr/share/man/man7/asymmetric-key.7.gz', 'usr/share/man/man7/keyutils.7.gz', 'usr/share/man/man8/', 'usr/share/man/man8/key.dns_resolver.8.gz', 'usr/share/man/man8/request-key.8.gz']"
++++
+Keyutils is a set of utilities for managing the key retention facility in the kernel
