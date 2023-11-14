@@ -27,7 +27,9 @@ if pacman.initialize(root) == -1:
 db = pacman.db_register("frugalware-current")
 
 if 'dbpath' in args:
-    pacman.set_option(pacman.OPT_DBPATH, pacman.char_to_unsigned_long(args.dbpath))
+    if pacman.set_option(pacman.OPT_DBPATH, pacman.char_to_unsigned_long(args.dbpath)) == -1:
+        print("failed to set option DBPATH")
+        exit
 
 i = pacman.db_getpkgcache(db)
 while i :
