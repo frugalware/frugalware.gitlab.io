@@ -62,23 +62,24 @@ while i :
     full_pkg = pacman.PKGp_new()
     package_path= packages_path + name + "-" + version + "-" + arch + ".fpm"
 
-    if pacman.pkg_load(package_path, full_pkg) != -1:
-        files = []
-        licenses = []
+    if pacman.pkg_load(package_path, full_pkg) == -1:
+        continue
+    files = []
+    licenses = []
 
-        m = pacman.void_to_PM_LIST(pacman.pkg_getinfo(pacman.PKGp_to_PKG(full_pkg), pacman.PKG_FILES))
-        while m:
-            package_file = pacman.void_to_char(pacman.list_getdata(m))
-            files.append(package_file)
-            m = pacman.list_next(m)
+    m = pacman.void_to_PM_LIST(pacman.pkg_getinfo(pacman.PKGp_to_PKG(full_pkg), pacman.PKG_FILES))
+    while m:
+        package_file = pacman.void_to_char(pacman.list_getdata(m))
+        files.append(package_file)
+        m = pacman.list_next(m)
 
-        n = pacman.void_to_PM_LIST(pacman.pkg_getinfo(pacman.PKGp_to_PKG(full_pkg), pacman.PKG_LICENSE))
-        while n:
-            license = pacman.void_to_char(pacman.list_getdata(n))
-            licenses.append(license)
-            n = pacman.list_next(n)
-        url = pacman.void_to_char(pacman.pkg_getinfo(pacman.PKGp_to_PKG(full_pkg), pacman.PKG_URL))
-        builddate = pacman.void_to_char(pacman.pkg_getinfo(pacman.PKGp_to_PKG(full_pkg), pacman.PKG_BUILDDATE))
+    n = pacman.void_to_PM_LIST(pacman.pkg_getinfo(pacman.PKGp_to_PKG(full_pkg), pacman.PKG_LICENSE))
+    while n:
+        license = pacman.void_to_char(pacman.list_getdata(n))
+        licenses.append(license)
+        n = pacman.list_next(n)
+    url = pacman.void_to_char(pacman.pkg_getinfo(pacman.PKGp_to_PKG(full_pkg), pacman.PKG_URL))
+    builddate = pacman.void_to_char(pacman.pkg_getinfo(pacman.PKGp_to_PKG(full_pkg), pacman.PKG_BUILDDATE))
 
 
 #    package_as_dict = {
