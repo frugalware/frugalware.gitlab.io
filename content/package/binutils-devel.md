@@ -2,9 +2,7 @@
 draft = false
 title = "binutils-devel 2.41-3"
 version = "2.41-3"
-date = "2023-08-29T11:16:52"
 categories = ['devel', 'devel-core']
-upstreamurl = "http://www.gnu.org/software/binutils/"
 arch = "x86_64"
 size = "5913720"
 usize = "7141221"

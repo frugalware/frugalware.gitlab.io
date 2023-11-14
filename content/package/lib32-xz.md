@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-xz 5.4.5-1"
 version = "5.4.5-1"
-date = "2023-11-02T11:49:07"
 categories = ['lib32-extra']
-upstreamurl = "http://tukaani.org/xz/"
 arch = "x86_64"
 size = "190844"
 usize = "623008"

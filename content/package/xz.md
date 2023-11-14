@@ -2,9 +2,7 @@
 draft = false
 title = "xz 5.4.5-1"
 version = "5.4.5-1"
-date = "2023-11-02T11:49:07"
 categories = ['base', 'chroot-core']
-upstreamurl = "http://tukaani.org/xz/"
 arch = "x86_64"
 size = "715584"
 usize = "3001387"
