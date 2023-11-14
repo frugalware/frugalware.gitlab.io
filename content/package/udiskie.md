@@ -2,9 +2,7 @@
 draft = false
 title = "udiskie 2.4.2-2"
 version = "2.4.2-2"
-date = "2023-10-12T08:40:57"
 categories = ['apps-extra']
-upstreamurl = "https://github.com/coldfix/udiskie"
 arch = "x86_64"
 size = "126116"
 usize = "595297"
