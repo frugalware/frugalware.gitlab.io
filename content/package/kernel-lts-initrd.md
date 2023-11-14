@@ -2,9 +2,7 @@
 draft = false
 title = "kernel-lts-initrd 6.1.61-1"
 version = "6.1.61-1"
-date = "2023-11-04T19:09:21"
 categories = ['base']
-upstreamurl = "http://www.frugalware.org"
 arch = "x86_64"
 size = "1488"
 usize = "0"
