@@ -2,9 +2,7 @@
 draft = false
 title = "lib32-libgcrypt 1.10.2-2"
 version = "1.10.2-2"
-date = "2023-09-05T09:59:56"
 categories = ['lib32-extra']
-upstreamurl = "https://gnupg.org/software/libgcrypt/index.html"
 arch = "x86_64"
 size = "443044"
 usize = "1147552"
