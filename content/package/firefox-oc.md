@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-oc 119.0-1"
-version = "119.0-1"
+title = "firefox-oc 119.0.1-1"
+version = "119.0.1-1"
+date = "2023-11-13T12:41:35"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "532152"
-usize = "582589"
-sha1sum = "1826d2fd24a0461868767d069e527f7b7fbe9de0"
-depends = "['firefox>=119.0']"
+size = "532332"
+usize = "582587"
+sha1sum = "4e62903f3d6c2d7e229d6643b564e6c44fd64106"
+depends = "['firefox>=119.0.1']"
 +++
 Occitan (post 1500) language support for Firefox

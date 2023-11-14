@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kpkpass 23.08.3-1"
-version = "23.08.3-1"
-date = "2023-11-12T17:40:33"
+title = "kpkpass 23.08.3-2"
+version = "23.08.3-2"
+date = "2023-11-14T00:18:14"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "33748"
+size = "33868"
 usize = "121521"
-sha1sum = "5f23ac83ee14f4e1f086f2f6bfd9e5c107cb032d"
-depends = "['karchive>=5.111.0', 'shared-mime-info']"
+sha1sum = "4cb0c848b7ab66b8aacba18ad23b513593e13dc4"
+depends = "['karchive>=5.112.0', 'shared-mime-info']"
 +++
 Apple Wallet Pass reader

@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-es-ar 119.0-1"
-version = "119.0-1"
+title = "firefox-es-ar 119.0.1-1"
+version = "119.0.1-1"
+date = "2023-11-13T12:41:35"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "528852"
-usize = "582031"
-sha1sum = "f167e1ac0f06a59bc003529747265a76c35a41d6"
-depends = "['firefox>=119.0']"
+size = "529248"
+usize = "582030"
+sha1sum = "2677daa95e4a16854f37fcebdbb0cacaa3bf2b22"
+depends = "['firefox>=119.0.1']"
 +++
 Argentine Spanish language support for Firefox

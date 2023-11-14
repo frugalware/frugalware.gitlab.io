@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "akonadi-search 23.08.3-1"
-version = "23.08.3-1"
-date = "2023-11-12T15:48:18"
+title = "akonadi-search 23.08.3-2"
+version = "23.08.3-2"
+date = "2023-11-13T22:47:29"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "259692"
+size = "260208"
 usize = "1114686"
-sha1sum = "396a33ec984394f298db5730b65e74a390e32bf9"
-depends = "['akonadi-contacts>=23.08.3', 'kcmutils>=5.111.0', 'krunner5>=5.111.0', 'qt5-svg>=5.15.11', 'qt5-declarative>=5.15.11', 'xapian-core>=1.4.0-2']"
+sha1sum = "fedf1e65732d07ff2a012780de27cb602cfb38f0"
+depends = "['akonadi-contacts>=23.08.3', 'kcmutils>=5.112.0', 'krunner5>=5.112.0', 'qt5-svg>=5.15.11', 'qt5-declarative>=5.15.11', 'xapian-core>=1.4.0-2']"
 +++
 Libraries and daemons to implement searching in Akonad

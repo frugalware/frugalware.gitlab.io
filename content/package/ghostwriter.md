@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "ghostwriter 23.08.2-2"
-version = "23.08.2-2"
+title = "ghostwriter 23.08.3-2"
+version = "23.08.3-2"
+date = "2023-11-14T01:20:06"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2454060"
-usize = "12126826"
-sha1sum = "efdcd19376cdae75dea4c423cb72a35ce87abefa"
+size = "2453856"
+usize = "12127467"
+sha1sum = "72fa210f235811102ce8b07277b8b984f4c48154"
 depends = "['kxmlgui', 'hunspell', 'sonnet', 'cmark', 'mathjax', 'qt5-webchannel', 'qt5-webengine']"
 +++
 Aesthetic, distraction-free Markdown editor

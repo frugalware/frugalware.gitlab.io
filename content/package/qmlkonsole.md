@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "qmlkonsole 23.08.2-2"
-version = "23.08.2-2"
+title = "qmlkonsole 23.08.3-2"
+version = "23.08.3-2"
+date = "2023-11-14T01:37:50"
 categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "59664"
-usize = "234979"
-sha1sum = "8816a54a7151c0d79b318a50a9f0c8fa5f3bcab1"
+size = "59732"
+usize = "235039"
+sha1sum = "0f20dcf3c9b7027d44885618bc235186f20bfe69"
 depends = "['kirigami-addons', 'qmltermwidget', 'qt5-svg', 'ki18n', 'kconfig', 'kcoreaddons', 'kwindowsystem']"
 +++
 Terminal app for Plasma Mobile

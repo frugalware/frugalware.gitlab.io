@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-da 119.0-1"
-version = "119.0-1"
+title = "firefox-da 119.0.1-1"
+version = "119.0.1-1"
+date = "2023-11-13T12:41:35"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "516160"
-usize = "567036"
-sha1sum = "06ba5dcededc1909bf829811b15bcb407ae3863a"
-depends = "['firefox>=119.0']"
+size = "516580"
+usize = "567054"
+sha1sum = "e3cf55dd14505baa3e5eb378b4773cdbb3d0ad07"
+depends = "['firefox>=119.0.1']"
 +++
 Danish language support for Firefox

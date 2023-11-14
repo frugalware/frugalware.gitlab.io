@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "plasma-framework 5.111.0-1"
-version = "5.111.0-1"
-date = "2023-10-28T15:38:52"
+title = "plasma-framework 5.112.0-1"
+version = "5.112.0-1"
+date = "2023-11-13T18:48:03"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3419128"
-usize = "8087711"
-sha1sum = "f1811cea71db9a170559d572bbd0af8cb7b4cf34"
-depends = "['kactivities5>=5.111.0', 'kdeclarative>=5.111.0', 'kirigami2>=5.111.0', 'kwayland>=5.111.0']"
+size = "3418872"
+usize = "8087714"
+sha1sum = "00d07f24c4d49d44292293d8758dce34298628d3"
+depends = "['kactivities5>=5.112.0', 'kdeclarative>=5.112.0', 'kirigami2>=5.112.0', 'kwayland>=5.112.0']"
 +++
 Plasma library and runtime components based upon KF5 and Qt5.

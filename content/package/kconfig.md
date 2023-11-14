@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kconfig 5.111.0-1"
-version = "5.111.0-1"
-date = "2023-10-28T14:03:35"
+title = "kconfig 5.112.0-1"
+version = "5.112.0-1"
+date = "2023-11-13T17:43:21"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "345324"
-usize = "1581443"
-sha1sum = "da0c995407ff7a497d53e794e8432bf3a82c0c68"
+size = "347892"
+usize = "1590095"
+sha1sum = "1f09f82b70e78948b5dba4aebcf3ce9dca5fb47c"
 depends = "['qt5-base>=5.15.11']"
 +++
 Provides an advanced configuration system.

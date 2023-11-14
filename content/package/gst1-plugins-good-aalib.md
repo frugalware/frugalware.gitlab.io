@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "gst1-plugins-good-aalib 1.22.6-1"
-version = "1.22.6-1"
+title = "gst1-plugins-good-aalib 1.22.7-1"
+version = "1.22.7-1"
+date = "2023-11-13T21:19:53"
 categories = ['xmultimedia']
+upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "17656"
+size = "17732"
 usize = "34800"
-sha1sum = "a680ba45428e56e39ba1e1d48313f91c1ef4d85e"
-depends = "['gst1-plugins-base>=1.22.6', 'libffi>=3.2.1-2', 'aalib>=1.4rc5-9', 'gst1-plugins-good>=1.22.6']"
+sha1sum = "1158d6b42b0615ec63a275da2f5a1a1fefee71de"
+depends = "['gst1-plugins-base>=1.22.7', 'libffi>=3.2.1-2', 'aalib>=1.4rc5-9', 'gst1-plugins-good>=1.22.7']"
 +++
 GStreamer aalib plugin (Good).

@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "libkdepim 23.08.3-1"
-version = "23.08.3-1"
-date = "2023-11-12T15:49:55"
+title = "libkdepim 23.08.3-2"
+version = "23.08.3-2"
+date = "2023-11-13T22:48:48"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "87448"
+size = "87600"
 usize = "384445"
-sha1sum = "044d242fe0843b7669fab3512f678fd7c3cb4dbf"
+sha1sum = "d2d2a52ea42ba3c1f505e730fedc40d0d169adc0"
 depends = "['akonadi-search>=23.08.3', 'akonadi>=23.08.3', 'kldap>=23.08.3', 'akonadi-contacts>=23.08.3']"
 +++
 KDEPim library.

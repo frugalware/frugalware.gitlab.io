@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-an 119.0-1"
-version = "119.0-1"
+title = "firefox-an 119.0.1-1"
+version = "119.0.1-1"
+date = "2023-11-13T12:41:35"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "429480"
-usize = "486662"
-sha1sum = "03f3437fb605cd60ee5398ce191d4d575aa7085e"
-depends = "['firefox>=119.0']"
+size = "429828"
+usize = "486663"
+sha1sum = "fa1ab99073417cbe6ed72aca6a8a6a8153db13ea"
+depends = "['firefox>=119.0.1']"
 +++
 Aragonese language support for Firefox

@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kdoctools 5.111.0-1"
-version = "5.111.0-1"
-date = "2023-10-28T14:11:34"
+title = "kdoctools 5.112.0-1"
+version = "5.112.0-1"
+date = "2023-11-13T17:51:12"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "447204"
-usize = "2516931"
-sha1sum = "bc097f05bad3ee2b5a04ccb3c0fbb441b8ac1c64"
-depends = "['karchive>=5.111.0', 'docbook-xsl', 'libxslt']"
+size = "447332"
+usize = "2516929"
+sha1sum = "a03318e2acf3d9d624e6403ab61d71e6e54eabef"
+depends = "['karchive>=5.112.0', 'docbook-xsl', 'libxslt']"
 +++
 Create documentation from DocBook.

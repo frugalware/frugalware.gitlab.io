@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kspaceduel 23.08.3-1"
-version = "23.08.3-1"
-date = "2023-11-12T18:18:32"
+title = "kspaceduel 23.08.3-2"
+version = "23.08.3-2"
+date = "2023-11-14T00:31:19"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "692092"
+size = "691904"
 usize = "1792117"
-sha1sum = "4423f16652ac52fd2ad5620a2e4944de0bad3907"
+sha1sum = "d890345fb9544cefa071ae15ebb68ae011a6426b"
 depends = "['libkdegames>=23.08.3']"
 +++
 KSpaceDuel: each of two possible players controls a satellite spaceship orbiting the sun

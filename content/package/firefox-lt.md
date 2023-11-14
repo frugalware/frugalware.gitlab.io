@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-lt 119.0-1"
-version = "119.0-1"
+title = "firefox-lt 119.0.1-1"
+version = "119.0.1-1"
+date = "2023-11-13T12:41:35"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "499136"
-usize = "552586"
-sha1sum = "ef83c473f36dec9bd8f3ab2ef365750dace8c0fc"
-depends = "['firefox>=119.0']"
+size = "498972"
+usize = "552585"
+sha1sum = "2196ca5f1ee335ac12224d0435164391c5b6010a"
+depends = "['firefox>=119.0.1']"
 +++
 Lithuanian language support for Firefox

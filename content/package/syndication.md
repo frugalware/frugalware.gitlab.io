@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "syndication 5.111.0-1"
-version = "5.111.0-1"
-date = "2023-10-28T15:13:05"
+title = "syndication 5.112.0-1"
+version = "5.112.0-1"
+date = "2023-11-13T18:22:27"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "188292"
+size = "188176"
 usize = "777982"
-sha1sum = "e117d139602271e5ff1de793a2d1e40b114ea154"
-depends = "['kio>=5.111.0']"
+sha1sum = "7f1a19434b9a3273ea1df38a3927823baacabb39"
+depends = "['kio>=5.112.0']"
 +++
 KParts Kontact interface.

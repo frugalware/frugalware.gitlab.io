@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "katomic 23.08.3-1"
-version = "23.08.3-1"
-date = "2023-11-12T14:24:06"
+title = "katomic 23.08.3-2"
+version = "23.08.3-2"
+date = "2023-11-13T21:46:27"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1463232"
+size = "1463220"
 usize = "2126942"
-sha1sum = "973074d1e4e313d94024e90a3411e43a1327d3ae"
+sha1sum = "4ed8775059826d2d285a563a5e47e415d2524879"
 depends = "['libkdegames>=23.08.3', 'qt5-svg>=5.15.11']"
 +++
 A fun and educational game built around molecular geometry.

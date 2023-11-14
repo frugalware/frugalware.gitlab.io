@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-nl 119.0-1"
-version = "119.0-1"
+title = "firefox-nl 119.0.1-1"
+version = "119.0.1-1"
+date = "2023-11-13T12:41:35"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "521468"
-usize = "571720"
-sha1sum = "f6958d013bd4b7300c8a838920e28edeb8a1d01e"
-depends = "['firefox>=119.0']"
+size = "520840"
+usize = "571717"
+sha1sum = "001ebc257319629416c9a58d0b929a362162daf1"
+depends = "['firefox>=119.0.1']"
 +++
 Dutch language support for Firefox

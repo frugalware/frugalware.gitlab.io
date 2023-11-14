@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "oxygen-sounds 5.27.9-1"
-version = "5.27.9-1"
-date = "2023-10-28T16:07:47"
+title = "oxygen-sounds 5.27.9-2"
+version = "5.27.9-2"
+date = "2023-11-13T19:17:49"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1890424"
+size = "1890524"
 usize = "2112149"
-sha1sum = "bca67089e82190d41315e4c2d54fecdcafe64060"
+sha1sum = "96ddf77a82babca8ab33aec66e73f580dfd2bd72"
 depends = "[]"
 +++
 The Oxygen Sound Theme

@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kleopatra 23.08.3-1"
-version = "23.08.3-1"
-date = "2023-11-12T14:10:04"
+title = "kleopatra 23.08.3-2"
+version = "23.08.3-2"
+date = "2023-11-13T21:35:18"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3178232"
+size = "3177552"
 usize = "15127632"
-sha1sum = "d33e8507412d4f30c6adb6e8f2f0a28c420a4f2d"
-depends = "['kcmutils>=5.111.0', 'kitemmodels>=5.111.0', 'libkleo>=23.08.3', 'kmime>=5.111.0']"
+sha1sum = "9d69068ba70adbd65877e97b237f9e32794e6856"
+depends = "['kcmutils>=5.112.0', 'kitemmodels>=5.112.0', 'libkleo>=23.08.3', 'kmime>=5.112.0']"
 +++
 Certificate manager and GUI for OpenPGP and CMS cryptography.

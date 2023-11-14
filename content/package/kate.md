@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kate 23.08.3-1"
-version = "23.08.3-1"
-date = "2023-11-12T15:23:36"
+title = "kate 23.08.3-2"
+version = "23.08.3-2"
+date = "2023-11-13T22:32:55"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "9490548"
+size = "9489252"
 usize = "31637824"
-sha1sum = "4906ad7a6a387af2a8a370b4cc8ade17b3956127"
-depends = "['ktexteditor>=5.111.0', 'knewstuff>=5.111.0', 'kitemmodels>=5.111.0', 'threadweaver>=5.111.0', 'libgit2>=0.26', 'plasma-framework>=5.111.0', 'qt5-declarative>=5.15.11']"
+sha1sum = "00d4d2adfc355efc00c7bb03650af844288393c2"
+depends = "['ktexteditor>=5.112.0', 'knewstuff>=5.112.0', 'kitemmodels>=5.112.0', 'threadweaver>=5.112.0', 'libgit2>=0.26', 'plasma-framework>=5.112.0', 'qt5-declarative>=5.15.11']"
 +++
 KDE Advanced Text Editor.

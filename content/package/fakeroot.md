@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "fakeroot 1.32.1-2"
-version = "1.32.1-2"
+title = "fakeroot 1.32.2-2"
+version = "1.32.2-2"
+date = "2023-11-12T23:03:33"
 categories = ['devel', 'devel-core']
+upstreamurl = "http://packages.debian.org/unstable/utils/fakeroot"
 arch = "x86_64"
-size = "85756"
-usize = "185733"
-sha1sum = "bda112f8e71ed8aa4af6d3a679bde33fa5b159b5"
+size = "113572"
+usize = "285637"
+sha1sum = "dca323614618791803b2749402f6563e466008ff"
 depends = "['glibc>=2.35']"
 +++
 Gives a fake root environment

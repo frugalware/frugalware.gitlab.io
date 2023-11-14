@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "oxygen 5.27.9-1"
-version = "5.27.9-1"
-date = "2023-10-28T17:22:46"
+title = "oxygen 5.27.9-2"
+version = "5.27.9-2"
+date = "2023-11-13T20:11:28"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2807832"
+size = "2808672"
 usize = "18599582"
-sha1sum = "3708c517d64582468445f7a8b1293c8276aa1f3a"
-depends = "['frameworkintegration>=5.111.0', 'kwin5>=5.27.9']"
+sha1sum = "719242db0a3cfe7e3fd31634b5240da4c93c3ed1"
+depends = "['frameworkintegration>=5.112.0', 'kwin5>=5.27.9']"
 +++
 KDE Oxygen style.

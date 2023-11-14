@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "gst1-plugins-bad-mpeg2enc 1.22.6-1"
-version = "1.22.6-1"
+title = "gst1-plugins-bad-mpeg2enc 1.22.7-1"
+version = "1.22.7-1"
+date = "2023-11-13T21:58:28"
 categories = ['xmultimedia']
+upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "24008"
+size = "24052"
 usize = "59568"
-sha1sum = "6f9fdd6f49ca5692901956f89c2772ea0d5d9108"
-depends = "['gst1-plugins-base>=1.22.6', 'libffi>=3.2.1-2', 'libstdc++>=7.3.0-7', 'mjpegtools>=2.2.1', 'gst1-plugins-bad>=1.22.6']"
+sha1sum = "c8f6e48220dfd66b6f3a68e7b67f8225a5fb3e00"
+depends = "['gst1-plugins-base>=1.22.7', 'libffi>=3.2.1-2', 'libstdc++>=7.3.0-7', 'mjpegtools>=2.2.1', 'gst1-plugins-bad>=1.22.7']"
 +++
 GStreamer plugin (Bad).

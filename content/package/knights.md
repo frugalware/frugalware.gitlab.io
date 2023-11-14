@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "knights 23.08.3-1"
-version = "23.08.3-1"
-date = "2023-11-12T18:30:55"
+title = "knights 23.08.3-2"
+version = "23.08.3-2"
+date = "2023-11-14T00:41:04"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3545200"
+size = "3545656"
 usize = "5219688"
-sha1sum = "3bfd280402e1a3b9566149aa0807c123939aa111"
-depends = "['plasma-framework>=5.111.0', 'kplotting>=5.111.0', 'libkdegames>=23.08.3']"
+sha1sum = "5efdb174bb036d845136cb7fc21fbf4917fd228f"
+depends = "['plasma-framework>=5.112.0', 'kplotting>=5.112.0', 'libkdegames>=23.08.3']"
 +++
 Chess board program.

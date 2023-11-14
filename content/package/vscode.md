@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "vscode 1.84.1-1"
-version = "1.84.1-1"
+title = "vscode 1.84.2-2"
+version = "1.84.2-2"
+date = "2023-11-14T14:18:26"
 categories = ['xapps-extra']
+upstreamurl = "https://github.com/microsoft/vscode"
 arch = "x86_64"
-size = "85818000"
-usize = "340563739"
-sha1sum = "5b4017479df0fd9e0a92c103c1ceec4478179042"
-depends = "['libxkbfile', 'ffmpeg', 'libsecret', 'ripgrep']"
+size = "86163560"
+usize = "340947978"
+sha1sum = "b585ba749089675db309100f78f8649550e54bfa"
+depends = "['libxkbfile', 'ffmpeg', 'libsecret', 'ripgrep', 'sqlite3']"
 +++
 The Open Source build of Visual Studio Code (vscode) editor

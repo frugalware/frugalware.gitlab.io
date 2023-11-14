@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "ktimer 23.08.3-1"
-version = "23.08.3-1"
-date = "2023-11-12T13:37:09"
+title = "ktimer 23.08.3-2"
+version = "23.08.3-2"
+date = "2023-11-13T21:09:23"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "461904"
+size = "462268"
 usize = "934439"
-sha1sum = "d5bc3524e3d5df10fed09706b0957d887b78841a"
-depends = "['kio>=5.111.0']"
+sha1sum = "b24760369a14ee9f4d32dc6cfc7be5c3492151ae"
+depends = "['kio>=5.112.0']"
 +++
 Countdown timer.

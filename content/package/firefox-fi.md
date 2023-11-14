@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-fi 119.0-1"
-version = "119.0-1"
+title = "firefox-fi 119.0.1-1"
+version = "119.0.1-1"
+date = "2023-11-13T12:41:35"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "513640"
-usize = "564143"
-sha1sum = "929b2bdc2b53596c91cb8bf6d2ab78e460a25686"
-depends = "['firefox>=119.0']"
+size = "513664"
+usize = "564151"
+sha1sum = "697d56574af795222d73460a513b69ddf10e3910"
+depends = "['firefox>=119.0.1']"
 +++
 Finnish language support for Firefox

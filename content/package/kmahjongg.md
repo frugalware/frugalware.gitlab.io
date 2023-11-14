@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "kmahjongg 23.08.3-1"
-version = "23.08.3-1"
-date = "2023-11-12T18:08:34"
+title = "kmahjongg 23.08.3-2"
+version = "23.08.3-2"
+date = "2023-11-14T00:23:31"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4203116"
+size = "4203436"
 usize = "5731725"
-sha1sum = "f1a8e91558b48cc5cfba75e53f5289f429e8fe76"
+sha1sum = "5be82ca2a3a6493e9d0698b9c32de752ebba504c"
 depends = "['libkmahjongg>=23.08.3', 'libkdegames>=23.08.3']"
 +++
 KMahjongg is a tile matching game for one or two players

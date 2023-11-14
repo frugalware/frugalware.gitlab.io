@@ -1,12 +1,14 @@
 +++
 draft = false
-title = "firefox-ga-ie 119.0-1"
-version = "119.0-1"
+title = "firefox-ga-ie 119.0.1-1"
+version = "119.0.1-1"
+date = "2023-11-13T12:41:35"
 categories = ['locale-extra', 'firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "394092"
-usize = "456140"
-sha1sum = "5d0f92f85f8ae0b9f6814dc2e0b0986b68018551"
-depends = "['firefox>=119.0']"
+size = "394328"
+usize = "456150"
+sha1sum = "7dd37a03690d98a4adfe41f4e6b26129ffb4b3d2"
+depends = "['firefox>=119.0.1']"
 +++
 Irish language support for Firefox

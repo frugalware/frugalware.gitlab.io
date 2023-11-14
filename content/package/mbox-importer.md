@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "mbox-importer 23.08.3-1"
-version = "23.08.3-1"
-date = "2023-11-12T16:22:36"
+title = "mbox-importer 23.08.3-2"
+version = "23.08.3-2"
+date = "2023-11-13T23:18:50"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "30400"
+size = "30496"
 usize = "123250"
-sha1sum = "93e2ac17f0412440f8a40194e7aa519457cd9b9d"
+sha1sum = "b631ac2bf5cde0fb32bcc0c1a86175b4129aebe0"
 depends = "['mailcommon>=23.08.3']"
 +++
 Wizard to assist with importing MBox email archives into Akonadi

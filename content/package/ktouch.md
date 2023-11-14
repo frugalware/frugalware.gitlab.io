@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "ktouch 23.08.3-1"
-version = "23.08.3-1"
-date = "2023-11-12T17:27:12"
+title = "ktouch 23.08.3-2"
+version = "23.08.3-2"
+date = "2023-11-14T00:08:25"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4669464"
+size = "4669936"
 usize = "8971862"
-sha1sum = "d88d7ed11eb253c378f7dc49062aeda5f011e187"
-depends = "['kio>=5.111.0', 'kdeclarative>=5.111.0', 'kqtquickcharts>=23.08.3', 'knewstuff>=5.111.0', 'kcmutils>=5.111.0', 'ktexteditor>=5.111.0', 'qt5-xmlpatterns>=_F_kdever_qt5']"
+sha1sum = "d5e4c9761f35d2d0c0baa36dd4c88fe297e8a79d"
+depends = "['kio>=5.112.0', 'kdeclarative>=5.112.0', 'kqtquickcharts>=23.08.3', 'knewstuff>=5.112.0', 'kcmutils>=5.112.0', 'ktexteditor>=5.112.0', 'qt5-xmlpatterns>=_F_kdever_qt5']"
 +++
 Touch Typing Tutor.
