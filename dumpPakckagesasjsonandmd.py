@@ -114,29 +114,29 @@ while i :
             packages_as_dict[name]['licenses'] = licenses
 
         f = open(args.hugo_directory+'content/package/'+name+'.md', 'w')
-            f.write("+++\n")
-            f.write("draft = false\n")
-            f.write('title = "'+name+" "+version+'"\n')
-            f.write('version = "'+version+'"\n')
-            if builddate:
-                date_object = datetime.datetime.strptime(builddate, '%c')
-                f.write('date = "'+date_object.isoformat()+'"\n')
+        f.write("+++\n")
+        f.write("draft = false\n")
+        f.write('title = "'+name+" "+version+'"\n')
+        f.write('version = "'+version+'"\n')
+        if builddate:
+            date_object = datetime.datetime.strptime(builddate, '%c')
+            f.write('date = "'+date_object.isoformat()+'"\n')
 
-            f.write('categories = '+str(groups)+'\n')
-            if url:
-                f.write('upstreamurl = "'+url+'"\n')
-            f.write('arch = "'+arch+'"\n')
-            f.write('size = "'+str(size)+'"\n')
-            f.write('usize = "'+str(usize)+'"\n')
-            f.write('sha1sum = "'+sha1sum+'"\n')
-            f.write('depends = "'+str(depends)+'"\n')
-            if licenses:
-                f.write('license = "'+str(license)+'"\n')
-        #    if files:
-        #        f.write('files = "'+str(files)+'"\n')
-            f.write("+++\n")
-            f.write(desc)
-            f.close()
+        f.write('categories = '+str(groups)+'\n')
+        if url:
+            f.write('upstreamurl = "'+url+'"\n')
+        f.write('arch = "'+arch+'"\n')
+        f.write('size = "'+str(size)+'"\n')
+        f.write('usize = "'+str(usize)+'"\n')
+        f.write('sha1sum = "'+sha1sum+'"\n')
+        f.write('depends = "'+str(depends)+'"\n')
+        if licenses:
+            f.write('license = "'+str(license)+'"\n')
+        if files:
+            f.write('files = "'+str(files)+'"\n')
+        f.write("+++\n")
+        f.write(desc)
+        f.close()
 
     i = pacman.list_next(i)
 
