@@ -27,7 +27,7 @@ if pacman.initialize(root) == -1:
 db = pacman.db_register("local")
 
 if 'dbpath' in args:
-    if pacman.set_option(pacman.OPT_DBPATH, pacman.char_to_unsigned_long(args.dbpath)) == -1:
+    if pacman.set_option(pacman.OPT_DBPATH, pacman.void_to_PM_DB(args.dbpath)) == -1:
         print("failed to set option DBPATH")
         exit
 
