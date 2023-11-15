@@ -1,0 +1,15 @@
++++
+draft = false
+title = "haskell-appar 0.1.8-6"
+version = "0.1.8-6"
+date = "2023-08-22T12:59:51"
+categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/appar"
+arch = "x86_64"
+size = "69236"
+usize = "578447"
+sha1sum = "0ff2de90e756ab3eab8865b399b750d088ade370"
+depends = "['haskell-data-default-class']"
+files = "['usr/', 'usr/lib/', 'usr/lib/ghc-9.6.2/', 'usr/lib/ghc-9.6.2/site-local/', 'usr/lib/ghc-9.6.2/site-local/appar-0.1.8/', 'usr/lib/ghc-9.6.2/site-local/appar-0.1.8/Text/', 'usr/lib/ghc-9.6.2/site-local/appar-0.1.8/Text/Appar/', 'usr/lib/ghc-9.6.2/site-local/appar-0.1.8/Text/Appar/ByteString.dyn_hi', 'usr/lib/ghc-9.6.2/site-local/appar-0.1.8/Text/Appar/ByteString.hi', 'usr/lib/ghc-9.6.2/site-local/appar-0.1.8/Text/Appar/Input.dyn_hi', 'usr/lib/ghc-9.6.2/site-local/appar-0.1.8/Text/Appar/Input.hi', 'usr/lib/ghc-9.6.2/site-local/appar-0.1.8/Text/Appar/LazyByteString.dyn_hi', 'usr/lib/ghc-9.6.2/site-local/appar-0.1.8/Text/Appar/LazyByteString.hi', 'usr/lib/ghc-9.6.2/site-local/appar-0.1.8/Text/Appar/Parser.dyn_hi', 'usr/lib/ghc-9.6.2/site-local/appar-0.1.8/Text/Appar/Parser.hi', 'usr/lib/ghc-9.6.2/site-local/appar-0.1.8/Text/Appar/String.dyn_hi', 'usr/lib/ghc-9.6.2/site-local/appar-0.1.8/Text/Appar/String.hi', 'usr/lib/ghc-9.6.2/site-local/appar-0.1.8/libHSappar-0.1.8-CvP1WdEJjxFCBvNLXRjSF.a', 'usr/lib/x86_64-linux-ghc-9.6.2/', 'usr/lib/x86_64-linux-ghc-9.6.2/libHSappar-0.1.8-CvP1WdEJjxFCBvNLXRjSF-ghc9.6.2.so', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/haskell-appar-0.1.8/', 'usr/share/doc/haskell-appar-0.1.8/LICENSE', 'usr/share/doc/haskell-appar-0.1.8/README', 'usr/share/doc/x86_64-linux-ghc-9.6.2/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/appar-0.1.8/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/appar-0.1.8/LICENSE', 'usr/share/doc/x86_64-linux-ghc-9.6.2/appar-0.1.8/html/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/appar-0.1.8/html/Text-Appar-ByteString.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/appar-0.1.8/html/Text-Appar-LazyByteString.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/appar-0.1.8/html/Text-Appar-String.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/appar-0.1.8/html/appar.haddock', 'usr/share/doc/x86_64-linux-ghc-9.6.2/appar-0.1.8/html/doc-index.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/appar-0.1.8/html/doc-index.json', 'usr/share/doc/x86_64-linux-ghc-9.6.2/appar-0.1.8/html/haddock-bundle.min.js', 'usr/share/doc/x86_64-linux-ghc-9.6.2/appar-0.1.8/html/index.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/appar-0.1.8/html/linuwial.css', 'usr/share/doc/x86_64-linux-ghc-9.6.2/appar-0.1.8/html/meta.json', 'usr/share/doc/x86_64-linux-ghc-9.6.2/appar-0.1.8/html/quick-jump.css', 'usr/share/doc/x86_64-linux-ghc-9.6.2/appar-0.1.8/html/quick-jump.min.js', 'usr/share/doc/x86_64-linux-ghc-9.6.2/appar-0.1.8/html/synopsis.png', 'usr/share/haskell/', 'usr/share/haskell/haskell-appar/', 'usr/share/haskell/haskell-appar/register.sh', 'usr/share/haskell/haskell-appar/unregister.sh']"
++++
+A simple applicative parser

@@ -1,0 +1,15 @@
++++
+draft = false
+title = "pm-utils 1.4.1-9"
+version = "1.4.1-9"
+date = "2022-04-03T15:45:26"
+categories = ['xapps']
+upstreamurl = "http://pm-utils.freedesktop.org/"
+arch = "x86_64"
+size = "100516"
+usize = "355952"
+sha1sum = "6433d303e171982645f6a362c1ef0393263619be"
+depends = "['pm-quirks', 'radeontool>=1.6.3-3', 'ethtool>=4.2-2', 'procps>=3.2.8-10']"
+files = "['etc/', 'etc/pm/', 'etc/pm/config.d/', 'etc/pm/power.d/', 'etc/pm/sleep.d/', 'usr/', 'usr/bin/', 'usr/bin/on_ac_power_pm', 'usr/bin/pm-is-supported', 'usr/lib/', 'usr/lib/pkgconfig/', 'usr/lib/pkgconfig/pm-utils.pc', 'usr/lib/pm-utils/', 'usr/lib/pm-utils/bin/', 'usr/lib/pm-utils/bin/pm-action', 'usr/lib/pm-utils/bin/pm-pmu', 'usr/lib/pm-utils/bin/pm-reset-swap', 'usr/lib/pm-utils/bin/service', 'usr/lib/pm-utils/defaults', 'usr/lib/pm-utils/functions', 'usr/lib/pm-utils/module.d/', 'usr/lib/pm-utils/module.d/kernel', 'usr/lib/pm-utils/module.d/tuxonice', 'usr/lib/pm-utils/module.d/uswsusp', 'usr/lib/pm-utils/pm-functions', 'usr/lib/pm-utils/power.d/', 'usr/lib/pm-utils/power.d/disable_wol', 'usr/lib/pm-utils/power.d/hal-cd-polling', 'usr/lib/pm-utils/power.d/harddrive', 'usr/lib/pm-utils/power.d/intel-audio-powersave', 'usr/lib/pm-utils/power.d/journal-commit', 'usr/lib/pm-utils/power.d/laptop-mode', 'usr/lib/pm-utils/power.d/pcie_aspm', 'usr/lib/pm-utils/power.d/readahead', 'usr/lib/pm-utils/power.d/sata_alpm', 'usr/lib/pm-utils/power.d/sched-powersave', 'usr/lib/pm-utils/power.d/wireless', 'usr/lib/pm-utils/power.d/xfs_buffer', 'usr/lib/pm-utils/sleep.d/', 'usr/lib/pm-utils/sleep.d/00logging', 'usr/lib/pm-utils/sleep.d/00powersave', 'usr/lib/pm-utils/sleep.d/01grub', 'usr/lib/pm-utils/sleep.d/49bluetooth', 'usr/lib/pm-utils/sleep.d/55NetworkManager', 'usr/lib/pm-utils/sleep.d/75modules', 'usr/lib/pm-utils/sleep.d/90clock', 'usr/lib/pm-utils/sleep.d/94cpufreq', 'usr/lib/pm-utils/sleep.d/95led', 'usr/lib/pm-utils/sleep.d/98video-quirk-db-handler', 'usr/lib/pm-utils/sleep.d/99video', 'usr/sbin/', 'usr/sbin/pm-hibernate', 'usr/sbin/pm-powersave', 'usr/sbin/pm-suspend', 'usr/sbin/pm-suspend-hybrid', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/pm-utils-1.4.1/', 'usr/share/doc/pm-utils-1.4.1/AUTHORS', 'usr/share/doc/pm-utils-1.4.1/COPYING', 'usr/share/doc/pm-utils-1.4.1/ChangeLog', 'usr/share/doc/pm-utils-1.4.1/HOWTO.hooks', 'usr/share/doc/pm-utils-1.4.1/HOWTO.modules', 'usr/share/doc/pm-utils-1.4.1/INSTALL', 'usr/share/doc/pm-utils-1.4.1/NEWS', 'usr/share/doc/pm-utils-1.4.1/README', 'usr/share/doc/pm-utils-1.4.1/README.debugging', 'usr/share/doc/pm-utils-1.4.1/README.distributions', 'usr/share/doc/pm-utils-1.4.1/TODO', 'usr/share/man/', 'usr/share/man/man1/', 'usr/share/man/man1/on_ac_power_pm.1.gz', 'usr/share/man/man1/pm-is-supported.1.gz', 'usr/share/man/man8/', 'usr/share/man/man8/pm-action.8.gz', 'usr/share/man/man8/pm-pmu.8.gz', 'usr/share/man/man8/pm-powersave.8.gz']"
++++
+Power Management Utilities

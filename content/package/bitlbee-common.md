@@ -1,0 +1,15 @@
++++
+draft = false
+title = "bitlbee-common 3.5.1-2"
+version = "3.5.1-2"
+date = "2018-02-09T20:53:41"
+categories = ['network-extra']
+upstreamurl = "http://www.bitlbee.org/main.php/news.html"
+arch = "x86_64"
+size = "95460"
+usize = "512890"
+sha1sum = "4989fec39d4e570ae8d299597c7982d8cb3fdcfb"
+depends = "['glib2', 'gnutls>=3.4.2', 'systemd']"
+files = "['etc/', 'etc/bitlbee/', 'etc/bitlbee/bitlbee.conf', 'etc/bitlbee/motd.txt', 'usr/', 'usr/bin/', 'usr/include/', 'usr/include/bitlbee/', 'usr/include/bitlbee/account.h', 'usr/include/bitlbee/arc.h', 'usr/include/bitlbee/auth.h', 'usr/include/bitlbee/base64.h', 'usr/include/bitlbee/bee.h', 'usr/include/bitlbee/bitlbee.h', 'usr/include/bitlbee/commands.h', 'usr/include/bitlbee/conf.h', 'usr/include/bitlbee/config.h', 'usr/include/bitlbee/dcc.h', 'usr/include/bitlbee/events.h', 'usr/include/bitlbee/ft.h', 'usr/include/bitlbee/ftutil.h', 'usr/include/bitlbee/help.h', 'usr/include/bitlbee/http_client.h', 'usr/include/bitlbee/ini.h', 'usr/include/bitlbee/ipc.h', 'usr/include/bitlbee/irc.h', 'usr/include/bitlbee/json.h', 'usr/include/bitlbee/json_util.h', 'usr/include/bitlbee/log.h', 'usr/include/bitlbee/md5.h', 'usr/include/bitlbee/misc.h', 'usr/include/bitlbee/nick.h', 'usr/include/bitlbee/nogaim.h', 'usr/include/bitlbee/oauth.h', 'usr/include/bitlbee/oauth2.h', 'usr/include/bitlbee/otr.h', 'usr/include/bitlbee/proxy.h', 'usr/include/bitlbee/query.h', 'usr/include/bitlbee/set.h', 'usr/include/bitlbee/sha1.h', 'usr/include/bitlbee/sock.h', 'usr/include/bitlbee/ssl_client.h', 'usr/include/bitlbee/storage.h', 'usr/include/bitlbee/url.h', 'usr/include/bitlbee/xmltree.h', 'usr/lib/', 'usr/lib/bitlbee/', 'usr/lib/pkgconfig/', 'usr/lib/pkgconfig/bitlbee.pc', 'usr/share/', 'usr/share/bitlbee/', 'usr/share/bitlbee/help.txt', 'usr/share/doc/', 'usr/share/doc/bitlbee-3.5.1/', 'usr/share/doc/bitlbee-3.5.1/AUTHORS', 'usr/share/doc/bitlbee-3.5.1/CHANGES', 'usr/share/doc/bitlbee-3.5.1/FAQ', 'usr/share/doc/bitlbee-3.5.1/README', 'usr/share/doc/bitlbee-3.5.1/user-guide/', 'usr/share/doc/bitlbee-3.5.1/user-guide/Installation.xml', 'usr/share/doc/bitlbee-3.5.1/user-guide/Makefile', 'usr/share/doc/bitlbee-3.5.1/user-guide/Support.xml', 'usr/share/doc/bitlbee-3.5.1/user-guide/Usage.xml', 'usr/share/doc/bitlbee-3.5.1/user-guide/commands.xml', 'usr/share/doc/bitlbee-3.5.1/user-guide/docbook.xsl', 'usr/share/doc/bitlbee-3.5.1/user-guide/genhelp.py', 'usr/share/doc/bitlbee-3.5.1/user-guide/help.txt', 'usr/share/doc/bitlbee-3.5.1/user-guide/help.xml', 'usr/share/doc/bitlbee-3.5.1/user-guide/help.xsl', 'usr/share/doc/bitlbee-3.5.1/user-guide/misc.xml', 'usr/share/doc/bitlbee-3.5.1/user-guide/quickstart.xml', 'usr/share/doc/bitlbee-3.5.1/user-guide/user-guide.xml', 'usr/share/man/', 'usr/share/man/man1/', 'usr/share/man/man5/', 'usr/share/man/man5/bitlbee.conf.5.gz', 'usr/share/man/man8/', 'usr/share/man/man8/bitlbee.8.gz', 'var/', 'var/lib/', 'var/lib/bitlbee/']"
++++
+Common files required by bitlbee/bitlbee-libpurple.

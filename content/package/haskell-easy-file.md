@@ -1,0 +1,15 @@
++++
+draft = false
+title = "haskell-easy-file 0.2.5-2"
+version = "0.2.5-2"
+date = "2023-08-22T15:11:28"
+categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/easy-file"
+arch = "x86_64"
+size = "86012"
+usize = "590332"
+sha1sum = "be5820d5ed4decef366ae3a833ba60c5051b8566"
+depends = "['ghc>=9.6.1']"
+files = "['usr/', 'usr/lib/', 'usr/lib/ghc-9.6.2/', 'usr/lib/ghc-9.6.2/site-local/', 'usr/lib/ghc-9.6.2/site-local/easy-file-0.2.5/', 'usr/lib/ghc-9.6.2/site-local/easy-file-0.2.5/System/', 'usr/lib/ghc-9.6.2/site-local/easy-file-0.2.5/System/EasyFile.dyn_hi', 'usr/lib/ghc-9.6.2/site-local/easy-file-0.2.5/System/EasyFile.hi', 'usr/lib/ghc-9.6.2/site-local/easy-file-0.2.5/System/EasyFile/', 'usr/lib/ghc-9.6.2/site-local/easy-file-0.2.5/System/EasyFile/Directory.dyn_hi', 'usr/lib/ghc-9.6.2/site-local/easy-file-0.2.5/System/EasyFile/Directory.hi', 'usr/lib/ghc-9.6.2/site-local/easy-file-0.2.5/System/EasyFile/FilePath.dyn_hi', 'usr/lib/ghc-9.6.2/site-local/easy-file-0.2.5/System/EasyFile/FilePath.hi', 'usr/lib/ghc-9.6.2/site-local/easy-file-0.2.5/System/EasyFile/Missing.dyn_hi', 'usr/lib/ghc-9.6.2/site-local/easy-file-0.2.5/System/EasyFile/Missing.hi', 'usr/lib/ghc-9.6.2/site-local/easy-file-0.2.5/libHSeasy-file-0.2.5-6yEjZz5e3WGHmUZhb1LWYi.a', 'usr/lib/x86_64-linux-ghc-9.6.2/', 'usr/lib/x86_64-linux-ghc-9.6.2/libHSeasy-file-0.2.5-6yEjZz5e3WGHmUZhb1LWYi-ghc9.6.2.so', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/haskell-easy-file-0.2.5/', 'usr/share/doc/haskell-easy-file-0.2.5/LICENSE', 'usr/share/doc/x86_64-linux-ghc-9.6.2/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/easy-file-0.2.5/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/easy-file-0.2.5/LICENSE', 'usr/share/doc/x86_64-linux-ghc-9.6.2/easy-file-0.2.5/html/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/easy-file-0.2.5/html/System-EasyFile.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/easy-file-0.2.5/html/doc-index.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/easy-file-0.2.5/html/doc-index.json', 'usr/share/doc/x86_64-linux-ghc-9.6.2/easy-file-0.2.5/html/easy-file.haddock', 'usr/share/doc/x86_64-linux-ghc-9.6.2/easy-file-0.2.5/html/haddock-bundle.min.js', 'usr/share/doc/x86_64-linux-ghc-9.6.2/easy-file-0.2.5/html/index.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/easy-file-0.2.5/html/linuwial.css', 'usr/share/doc/x86_64-linux-ghc-9.6.2/easy-file-0.2.5/html/meta.json', 'usr/share/doc/x86_64-linux-ghc-9.6.2/easy-file-0.2.5/html/quick-jump.css', 'usr/share/doc/x86_64-linux-ghc-9.6.2/easy-file-0.2.5/html/quick-jump.min.js', 'usr/share/doc/x86_64-linux-ghc-9.6.2/easy-file-0.2.5/html/synopsis.png', 'usr/share/haskell/', 'usr/share/haskell/haskell-easy-file/', 'usr/share/haskell/haskell-easy-file/register.sh', 'usr/share/haskell/haskell-easy-file/unregister.sh']"
++++
+Cross-platform File handling

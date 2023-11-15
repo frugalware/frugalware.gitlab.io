@@ -1,0 +1,15 @@
++++
+draft = false
+title = "libreoffice-l10n-kk 7.6.2.1-5"
+version = "7.6.2.1-5"
+date = "2023-11-12T11:26:30"
+categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
+arch = "x86_64"
+size = "737352"
+usize = "4394125"
+sha1sum = "a20f668702f7b525eac0b914f4f870855c8b8061"
+depends = "['libreoffice>=7.6.2.1']"
+files = "['usr/', 'usr/lib/', 'usr/lib/libreoffice/', 'usr/lib/libreoffice/program/', 'usr/lib/libreoffice/program/resource/', 'usr/lib/libreoffice/program/resource/kk/', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/acc.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/avmedia.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/basctl.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/chart.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/cnr.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/cui.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/dba.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/dkt.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/editeng.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/flt.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/for.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/fps.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/frm.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/fwk.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/oox.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/pcr.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/rpt.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/sb.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/sc.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/sca.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/scc.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/sd.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/sfx.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/sm.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/svl.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/svt.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/svx.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/sw.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/uui.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/vcl.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/wiz.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/wpt.mo', 'usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/xsc.mo', 'usr/lib/libreoffice/readmes/', 'usr/lib/libreoffice/readmes/README_kk', 'usr/lib/libreoffice/share/', 'usr/lib/libreoffice/share/autotext/', 'usr/lib/libreoffice/share/autotext/kk/', 'usr/lib/libreoffice/share/autotext/kk/standard.bau', 'usr/lib/libreoffice/share/registry/', 'usr/lib/libreoffice/share/registry/Langpack-kk.xcd', 'usr/lib/libreoffice/share/registry/res/', 'usr/lib/libreoffice/share/registry/res/fcfg_langpack_kk.xcd', 'usr/lib/libreoffice/share/registry/res/registry_kk.xcd']"
++++
+Installs Kazakh support in LibreOffice

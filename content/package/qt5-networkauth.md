@@ -1,0 +1,15 @@
++++
+draft = false
+title = "qt5-networkauth 5.15.11-1"
+version = "5.15.11-1"
+date = "2023-10-16T14:11:03"
+categories = ['xlib']
+upstreamurl = "http://www.qt.io"
+arch = "x86_64"
+size = "63588"
+usize = "248461"
+sha1sum = "a2f8eae51ed8bdc12d290fea51ea289f24f9c8d6"
+depends = "['qt5-base>=5.15.11', 'pcre2']"
+files = "['usr/', 'usr/include/', 'usr/include/qt5/', 'usr/include/qt5/QtNetworkAuth/', 'usr/include/qt5/QtNetworkAuth/5.15.11/', 'usr/include/qt5/QtNetworkAuth/5.15.11/QtNetworkAuth/', 'usr/include/qt5/QtNetworkAuth/5.15.11/QtNetworkAuth/private/', 'usr/include/qt5/QtNetworkAuth/5.15.11/QtNetworkAuth/private/qabstractoauth2_p.h', 'usr/include/qt5/QtNetworkAuth/5.15.11/QtNetworkAuth/private/qabstractoauth_p.h', 'usr/include/qt5/QtNetworkAuth/5.15.11/QtNetworkAuth/private/qabstractoauthreplyhandler_p.h', 'usr/include/qt5/QtNetworkAuth/5.15.11/QtNetworkAuth/private/qoauth1_p.h', 'usr/include/qt5/QtNetworkAuth/5.15.11/QtNetworkAuth/private/qoauth1signature_p.h', 'usr/include/qt5/QtNetworkAuth/5.15.11/QtNetworkAuth/private/qoauth2authorizationcodeflow_p.h', 'usr/include/qt5/QtNetworkAuth/5.15.11/QtNetworkAuth/private/qoauthhttpserverreplyhandler_p.h', 'usr/include/qt5/QtNetworkAuth/QAbstractOAuth', 'usr/include/qt5/QtNetworkAuth/QAbstractOAuth2', 'usr/include/qt5/QtNetworkAuth/QAbstractOAuthReplyHandler', 'usr/include/qt5/QtNetworkAuth/QOAuth1', 'usr/include/qt5/QtNetworkAuth/QOAuth1Signature', 'usr/include/qt5/QtNetworkAuth/QOAuth2AuthorizationCodeFlow', 'usr/include/qt5/QtNetworkAuth/QOAuthHttpServerReplyHandler', 'usr/include/qt5/QtNetworkAuth/QOAuthOobReplyHandler', 'usr/include/qt5/QtNetworkAuth/QtNetworkAuth', 'usr/include/qt5/QtNetworkAuth/QtNetworkAuthDepends', 'usr/include/qt5/QtNetworkAuth/QtNetworkAuthVersion', 'usr/include/qt5/QtNetworkAuth/qabstractoauth.h', 'usr/include/qt5/QtNetworkAuth/qabstractoauth2.h', 'usr/include/qt5/QtNetworkAuth/qabstractoauthreplyhandler.h', 'usr/include/qt5/QtNetworkAuth/qoauth1.h', 'usr/include/qt5/QtNetworkAuth/qoauth1signature.h', 'usr/include/qt5/QtNetworkAuth/qoauth2authorizationcodeflow.h', 'usr/include/qt5/QtNetworkAuth/qoauthglobal.h', 'usr/include/qt5/QtNetworkAuth/qoauthhttpserverreplyhandler.h', 'usr/include/qt5/QtNetworkAuth/qoauthoobreplyhandler.h', 'usr/include/qt5/QtNetworkAuth/qtnetworkauthversion.h', 'usr/lib/', 'usr/lib/cmake/', 'usr/lib/cmake/Qt5NetworkAuth/', 'usr/lib/cmake/Qt5NetworkAuth/Qt5NetworkAuthConfig.cmake', 'usr/lib/cmake/Qt5NetworkAuth/Qt5NetworkAuthConfigVersion.cmake', 'usr/lib/libQt5NetworkAuth.prl', 'usr/lib/libQt5NetworkAuth.so', 'usr/lib/libQt5NetworkAuth.so.5', 'usr/lib/libQt5NetworkAuth.so.5.15', 'usr/lib/libQt5NetworkAuth.so.5.15.11', 'usr/lib/pkgconfig/', 'usr/lib/pkgconfig/Qt5NetworkAuth.pc', 'usr/share/', 'usr/share/qt5/', 'usr/share/qt5/mkspecs/', 'usr/share/qt5/mkspecs/modules/', 'usr/share/qt5/mkspecs/modules/qt_lib_networkauth.pri', 'usr/share/qt5/mkspecs/modules/qt_lib_networkauth_private.pri']"
++++
+The Qt5 toolkit, qtnetworkauth

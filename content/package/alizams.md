@@ -1,0 +1,15 @@
++++
+draft = false
+title = "alizams 1.9.5-1"
+version = "1.9.5-1"
+date = "2023-11-01T15:42:37"
+categories = ['xapps-extra']
+upstreamurl = "https://www.aliza-dicom-viewer.com"
+arch = "x86_64"
+size = "2429852"
+usize = "12502426"
+sha1sum = "4194f60a933516a53d24d21525422791f25a85dc"
+depends = "['qt6-base', 'qt6-5compat', 'qt6-base-sql-common', 'insight-toolkit']"
+files = "['usr/', 'usr/bin/', 'usr/bin/alizams', 'usr/include/', 'usr/include/mdcmopenjpeg-2.5/', 'usr/include/mdcmopenjpeg-2.5/opj_config.h', 'usr/share/', 'usr/share/alizams/', 'usr/share/alizams/datasets/', 'usr/share/alizams/datasets/001US/', 'usr/share/alizams/datasets/001US/TESTXX02.dcm', 'usr/share/alizams/datasets/001US/TESTXX04_SR.dcm', 'usr/share/applications/', 'usr/share/applications/alizams.desktop', 'usr/share/doc/', 'usr/share/doc/alizams-1.9.5/', 'usr/share/doc/alizams-1.9.5/LICENSE', 'usr/share/doc/alizams-1.9.5/README.md', 'usr/share/icons/', 'usr/share/icons/hicolor/', 'usr/share/icons/hicolor/128x128/', 'usr/share/icons/hicolor/128x128/apps/', 'usr/share/icons/hicolor/128x128/apps/alizams.png', 'usr/share/icons/hicolor/16x16/', 'usr/share/icons/hicolor/16x16/apps/', 'usr/share/icons/hicolor/16x16/apps/alizams.png', 'usr/share/icons/hicolor/192x192/', 'usr/share/icons/hicolor/192x192/apps/', 'usr/share/icons/hicolor/192x192/apps/alizams.png', 'usr/share/icons/hicolor/22x22/', 'usr/share/icons/hicolor/22x22/apps/', 'usr/share/icons/hicolor/22x22/apps/alizams.png', 'usr/share/icons/hicolor/24x24/', 'usr/share/icons/hicolor/24x24/apps/', 'usr/share/icons/hicolor/24x24/apps/alizams.png', 'usr/share/icons/hicolor/256x256/', 'usr/share/icons/hicolor/256x256/apps/', 'usr/share/icons/hicolor/256x256/apps/alizams.png', 'usr/share/icons/hicolor/32x32/', 'usr/share/icons/hicolor/32x32/apps/', 'usr/share/icons/hicolor/32x32/apps/alizams.png', 'usr/share/icons/hicolor/36x36/', 'usr/share/icons/hicolor/36x36/apps/', 'usr/share/icons/hicolor/36x36/apps/alizams.png', 'usr/share/icons/hicolor/42x42/', 'usr/share/icons/hicolor/42x42/apps/', 'usr/share/icons/hicolor/42x42/apps/alizams.png', 'usr/share/icons/hicolor/48x48/', 'usr/share/icons/hicolor/48x48/apps/', 'usr/share/icons/hicolor/48x48/apps/alizams.png', 'usr/share/icons/hicolor/64x64/', 'usr/share/icons/hicolor/64x64/apps/', 'usr/share/icons/hicolor/64x64/apps/alizams.png', 'usr/share/icons/hicolor/72x72/', 'usr/share/icons/hicolor/72x72/apps/', 'usr/share/icons/hicolor/72x72/apps/alizams.png', 'usr/share/icons/hicolor/96x96/', 'usr/share/icons/hicolor/96x96/apps/', 'usr/share/icons/hicolor/96x96/apps/alizams.png', 'usr/share/icons/hicolor/scalable/', 'usr/share/icons/hicolor/scalable/apps/', 'usr/share/icons/hicolor/scalable/apps/alizams.svg', 'usr/share/man/', 'usr/share/man/man1/', 'usr/share/man/man1/alizams.1.gz', 'usr/share/metainfo/', 'usr/share/metainfo/alizams.metainfo.xml']"
++++
+Qt6 DICOM Viewer

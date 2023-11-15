@@ -1,0 +1,15 @@
++++
+draft = false
+title = "courier-imap 5.1.7-3"
+version = "5.1.7-3"
+date = "2023-03-15T18:07:16"
+categories = ['network-extra']
+upstreamurl = "http://www.courier-mta.org/imap/"
+arch = "x86_64"
+size = "316284"
+usize = "1035581"
+sha1sum = "8b8cef551114475b3ac388b209710c210cb48c1c"
+depends = "['courier-authlib>=0.69.0', 'libidn>=1.35', 'openssl>=3.1.0']"
+files = "['etc/', 'etc/courier/', 'etc/courier/imapaccess/', 'etc/courier/imapd', 'etc/courier/imapd-ssl', 'etc/courier/pop3d', 'etc/courier/pop3d-ssl', 'etc/courier/shared.tmp/', 'etc/courier/shared/', 'lib/', 'lib/systemd/', 'lib/systemd/system/', 'lib/systemd/system/courier-imapd-ssl.service', 'lib/systemd/system/courier-imapd.service', 'lib/systemd/system/courier-pop3d-ssl.service', 'lib/systemd/system/courier-pop3d.service', 'usr/', 'usr/bin/', 'usr/bin/couriertls', 'usr/bin/deliverquota', 'usr/bin/imapd', 'usr/bin/maildiracl', 'usr/bin/maildirkw', 'usr/bin/maildirmake', 'usr/bin/makedat', 'usr/bin/makeimapaccess', 'usr/bin/pop3d', 'usr/lib/', 'usr/lib/courier/', 'usr/lib/courier/couriertcpd', 'usr/lib/courier/makedatprog', 'usr/lib/courier/mkdhparams', 'usr/lib/courier/mkimapdcert', 'usr/lib/courier/mkpop3dcert', 'usr/sbin/', 'usr/sbin/imaplogin', 'usr/sbin/mkdhparams', 'usr/sbin/mkimapdcert', 'usr/sbin/mkpop3dcert', 'usr/sbin/pop3login', 'usr/sbin/sharedindexinstall', 'usr/sbin/sharedindexsplit', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/courier-imap-5.1.7/', 'usr/share/doc/courier-imap-5.1.7/AUTHORS', 'usr/share/doc/courier-imap-5.1.7/COPYING', 'usr/share/doc/courier-imap-5.1.7/COPYING.GPL', 'usr/share/doc/courier-imap-5.1.7/ChangeLog', 'usr/share/doc/courier-imap-5.1.7/INSTALL', 'usr/share/doc/courier-imap-5.1.7/INSTALL.html', 'usr/share/doc/courier-imap-5.1.7/INSTALL.html.in', 'usr/share/doc/courier-imap-5.1.7/NEWS', 'usr/share/doc/courier-imap-5.1.7/README', 'usr/share/doc/courier-imap-5.1.7/README.cygwin', 'usr/share/doc/courier-imap-5.1.7/README.frugalware', 'usr/share/doc/courier-imap-5.1.7/examples/', 'usr/share/doc/courier-imap-5.1.7/examples/imapd-ssl.dist', 'usr/share/doc/courier-imap-5.1.7/examples/imapd.dist', 'usr/share/doc/courier-imap-5.1.7/examples/pop3d-ssl.dist', 'usr/share/doc/courier-imap-5.1.7/examples/pop3d.dist', 'usr/share/doc/courier-imap-5.1.7/examples/quotawarnmsg.example', 'usr/share/doc/courier-imap-5.1.7/examples/ssl/', 'usr/share/doc/courier-imap-5.1.7/examples/ssl/imapd.cnf', 'usr/share/doc/courier-imap-5.1.7/examples/ssl/pop3d.cnf', 'usr/share/man/', 'usr/share/man/man1/', 'usr/share/man/man1/couriertcpd.1.gz', 'usr/share/man/man1/maildiracl.1.gz', 'usr/share/man/man1/maildirkw.1.gz', 'usr/share/man/man1/maildirmake.1.gz', 'usr/share/man/man8/', 'usr/share/man/man8/deliverquota.8.gz', 'usr/share/man/man8/imapd.8.gz', 'usr/share/man/man8/makeimapaccess.8.gz', 'usr/share/man/man8/mkdhparams.8.gz', 'usr/share/man/man8/mkimapdcert.8.gz', 'usr/share/man/man8/mkpop3dcert.8.gz', 'var/', 'var/lib/', 'var/lib/courier/']"
++++
+The Courier IMAP and POP3 server
