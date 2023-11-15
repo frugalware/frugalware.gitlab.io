@@ -1,0 +1,15 @@
++++
+draft = false
+title = "gogglesmm 1.2.4-1"
+version = "1.2.4-1"
+date = "2023-06-18T20:11:58"
+categories = ['xapps-extra']
+upstreamurl = "http://gogglesmm.github.io/"
+arch = "x86_64"
+size = "1468248"
+usize = "5141665"
+sha1sum = "0b04190aab1a263604f8abe1bc8eb8be524dcad2"
+depends = "['fox>=1.7.50', 'libxext', 'libxrender', 'libglu', 'xine-lib>=1.2.12-5', 'dbus', 'taglib>=1.9', 'sqlite3', 'libxfixes', 'curl', 'libxi', 'glew>=2.0.0', 'libpulse>=6.0', 'libepoxy', 'opus', 'openssl>=3.1.0']"
+files = "['usr/', 'usr/bin/', 'usr/bin/gogglesmm', 'usr/lib/', 'usr/lib/gogglesmm/', 'usr/lib/gogglesmm/libgap_alsa.so', 'usr/lib/gogglesmm/libgap_pulse.so', 'usr/lib/gogglesmm/libgap_wav.so', 'usr/share/', 'usr/share/applications/', 'usr/share/applications/gogglesmm.desktop', 'usr/share/doc/', 'usr/share/doc/gogglesmm-1.2.4/', 'usr/share/doc/gogglesmm-1.2.4/AUTHORS', 'usr/share/doc/gogglesmm-1.2.4/COPYING', 'usr/share/doc/gogglesmm-1.2.4/ChangeLog', 'usr/share/doc/gogglesmm-1.2.4/INSTALL', 'usr/share/doc/gogglesmm-1.2.4/README', 'usr/share/icons/', 'usr/share/icons/hicolor/', 'usr/share/icons/hicolor/16x16/', 'usr/share/icons/hicolor/16x16/apps/', 'usr/share/icons/hicolor/16x16/apps/gogglesmm.png', 'usr/share/icons/hicolor/22x22/', 'usr/share/icons/hicolor/22x22/apps/', 'usr/share/icons/hicolor/22x22/apps/gogglesmm.png', 'usr/share/icons/hicolor/24x24/', 'usr/share/icons/hicolor/24x24/apps/', 'usr/share/icons/hicolor/24x24/apps/gogglesmm.png', 'usr/share/icons/hicolor/32x32/', 'usr/share/icons/hicolor/32x32/apps/', 'usr/share/icons/hicolor/32x32/apps/gogglesmm.png', 'usr/share/icons/hicolor/48x48/', 'usr/share/icons/hicolor/48x48/apps/', 'usr/share/icons/hicolor/48x48/apps/gogglesmm.png', 'usr/share/icons/hicolor/64x64/', 'usr/share/icons/hicolor/64x64/apps/', 'usr/share/icons/hicolor/64x64/apps/gogglesmm.png', 'usr/share/icons/hicolor/scalable/', 'usr/share/icons/hicolor/scalable/apps/', 'usr/share/icons/hicolor/scalable/apps/gogglesmm.svg', 'usr/share/locale/', 'usr/share/locale/de/', 'usr/share/locale/de/LC_MESSAGES/', 'usr/share/locale/de/LC_MESSAGES/gogglesmm.mo', 'usr/share/locale/es/', 'usr/share/locale/es/LC_MESSAGES/', 'usr/share/locale/es/LC_MESSAGES/gogglesmm.mo', 'usr/share/locale/fr/', 'usr/share/locale/fr/LC_MESSAGES/', 'usr/share/locale/fr/LC_MESSAGES/gogglesmm.mo', 'usr/share/locale/hu/', 'usr/share/locale/hu/LC_MESSAGES/', 'usr/share/locale/hu/LC_MESSAGES/gogglesmm.mo', 'usr/share/locale/ko/', 'usr/share/locale/ko/LC_MESSAGES/', 'usr/share/locale/ko/LC_MESSAGES/gogglesmm.mo', 'usr/share/locale/pt/', 'usr/share/locale/pt/LC_MESSAGES/', 'usr/share/locale/pt/LC_MESSAGES/gogglesmm.mo', 'usr/share/locale/ru/', 'usr/share/locale/ru/LC_MESSAGES/', 'usr/share/locale/ru/LC_MESSAGES/gogglesmm.mo', 'usr/share/man/', 'usr/share/man/man1/', 'usr/share/man/man1/gogglesmm.1.gz', 'usr/share/metainfo/', 'usr/share/metainfo/gogglesmm.appdata.xml']"
++++
+Music Manager and Player

@@ -1,0 +1,15 @@
++++
+draft = false
+title = "haskell-skylighting-format-latex 0.1-8"
+version = "0.1-8"
+date = "2023-09-08T15:24:12"
+categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/skylighting-format-latex"
+arch = "x86_64"
+size = "57608"
+usize = "269434"
+sha1sum = "4cb25b2e4bede904556fe1ff818e39ce0cb31052"
+depends = "['haskell-skylighting-core>=0.14']"
+files = "['usr/', 'usr/lib/', 'usr/lib/ghc-9.6.2/', 'usr/lib/ghc-9.6.2/site-local/', 'usr/lib/ghc-9.6.2/site-local/skylighting-format-latex-0.1/', 'usr/lib/ghc-9.6.2/site-local/skylighting-format-latex-0.1/Skylighting/', 'usr/lib/ghc-9.6.2/site-local/skylighting-format-latex-0.1/Skylighting/Format/', 'usr/lib/ghc-9.6.2/site-local/skylighting-format-latex-0.1/Skylighting/Format/LaTeX.dyn_hi', 'usr/lib/ghc-9.6.2/site-local/skylighting-format-latex-0.1/Skylighting/Format/LaTeX.hi', 'usr/lib/ghc-9.6.2/site-local/skylighting-format-latex-0.1/libHSskylighting-format-latex-0.1-5dGIc80bzwyHGNpjKI1G0I.a', 'usr/lib/x86_64-linux-ghc-9.6.2/', 'usr/lib/x86_64-linux-ghc-9.6.2/libHSskylighting-format-latex-0.1-5dGIc80bzwyHGNpjKI1G0I-ghc9.6.2.so', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/haskell-skylighting-format-latex-0.1/', 'usr/share/doc/haskell-skylighting-format-latex-0.1/LICENSE', 'usr/share/doc/haskell-skylighting-format-latex-0.1/README.md', 'usr/share/doc/x86_64-linux-ghc-9.6.2/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/skylighting-format-latex-0.1/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/skylighting-format-latex-0.1/LICENSE', 'usr/share/doc/x86_64-linux-ghc-9.6.2/skylighting-format-latex-0.1/html/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/skylighting-format-latex-0.1/html/Skylighting-Format-LaTeX.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/skylighting-format-latex-0.1/html/doc-index.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/skylighting-format-latex-0.1/html/doc-index.json', 'usr/share/doc/x86_64-linux-ghc-9.6.2/skylighting-format-latex-0.1/html/haddock-bundle.min.js', 'usr/share/doc/x86_64-linux-ghc-9.6.2/skylighting-format-latex-0.1/html/index.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/skylighting-format-latex-0.1/html/linuwial.css', 'usr/share/doc/x86_64-linux-ghc-9.6.2/skylighting-format-latex-0.1/html/meta.json', 'usr/share/doc/x86_64-linux-ghc-9.6.2/skylighting-format-latex-0.1/html/quick-jump.css', 'usr/share/doc/x86_64-linux-ghc-9.6.2/skylighting-format-latex-0.1/html/quick-jump.min.js', 'usr/share/doc/x86_64-linux-ghc-9.6.2/skylighting-format-latex-0.1/html/skylighting-format-latex.haddock', 'usr/share/doc/x86_64-linux-ghc-9.6.2/skylighting-format-latex-0.1/html/synopsis.png', 'usr/share/haskell/', 'usr/share/haskell/haskell-skylighting-format-latex/', 'usr/share/haskell/haskell-skylighting-format-latex/register.sh', 'usr/share/haskell/haskell-skylighting-format-latex/unregister.sh']"
++++
+LaTeX formatter for skylighting syntax highlighting library

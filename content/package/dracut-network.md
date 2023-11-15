@@ -1,0 +1,15 @@
++++
+draft = false
+title = "dracut-network 059-3"
+version = "059-3"
+date = "2023-09-22T11:56:28"
+categories = ['base-extra']
+upstreamurl = "https://github.com/dracutdevs/dracut"
+arch = "x86_64"
+size = "30472"
+usize = "117599"
+sha1sum = "5377a8b064d007215a3d7b4d12b0e92683566da6"
+depends = "['dracut=059', 'iputils', 'iproute2', 'bridge-utils', 'dhclient', 'nfs-utils', 'iscsi']"
+files = "['usr/', 'usr/lib/', 'usr/lib/dracut/', 'usr/lib/dracut/modules.d/', 'usr/lib/dracut/modules.d/40network/', 'usr/lib/dracut/modules.d/40network/dhcp-root.sh', 'usr/lib/dracut/modules.d/40network/ifname-genrules.sh', 'usr/lib/dracut/modules.d/40network/module-setup.sh', 'usr/lib/dracut/modules.d/40network/net-lib.sh', 'usr/lib/dracut/modules.d/40network/netroot.sh', 'usr/lib/dracut/modules.d/45ifcfg/', 'usr/lib/dracut/modules.d/45ifcfg/module-setup.sh', 'usr/lib/dracut/modules.d/45ifcfg/write-ifcfg.sh', 'usr/lib/dracut/modules.d/45url-lib/', 'usr/lib/dracut/modules.d/45url-lib/module-setup.sh', 'usr/lib/dracut/modules.d/45url-lib/url-lib.sh', 'usr/lib/dracut/modules.d/90dmsquash-live-ntfs/', 'usr/lib/dracut/modules.d/90dmsquash-live-ntfs/module-setup.sh', 'usr/lib/dracut/modules.d/90dmsquash-live-ntfs/mount-ntfs-3g.sh', 'usr/lib/dracut/modules.d/90kernel-network-modules/', 'usr/lib/dracut/modules.d/90kernel-network-modules/module-setup.sh', 'usr/lib/dracut/modules.d/90livenet/', 'usr/lib/dracut/modules.d/90livenet/fetch-liveupdate.sh', 'usr/lib/dracut/modules.d/90livenet/livenet-generator.sh', 'usr/lib/dracut/modules.d/90livenet/livenetroot.sh', 'usr/lib/dracut/modules.d/90livenet/module-setup.sh', 'usr/lib/dracut/modules.d/90livenet/parse-livenet.sh', 'usr/lib/dracut/modules.d/90qemu-net/', 'usr/lib/dracut/modules.d/90qemu-net/module-setup.sh', 'usr/lib/dracut/modules.d/95cifs/', 'usr/lib/dracut/modules.d/95cifs/cifs-lib.sh', 'usr/lib/dracut/modules.d/95cifs/cifsroot.sh', 'usr/lib/dracut/modules.d/95cifs/module-setup.sh', 'usr/lib/dracut/modules.d/95cifs/parse-cifsroot.sh', 'usr/lib/dracut/modules.d/95iscsi/', 'usr/lib/dracut/modules.d/95iscsi/cleanup-iscsi.sh', 'usr/lib/dracut/modules.d/95iscsi/iscsiroot.sh', 'usr/lib/dracut/modules.d/95iscsi/module-setup.sh', 'usr/lib/dracut/modules.d/95iscsi/mount-lun.sh', 'usr/lib/dracut/modules.d/95iscsi/parse-iscsiroot.sh', 'usr/lib/dracut/modules.d/95nbd/', 'usr/lib/dracut/modules.d/95nbd/module-setup.sh', 'usr/lib/dracut/modules.d/95nbd/nbd-generator.sh', 'usr/lib/dracut/modules.d/95nbd/nbdroot.sh', 'usr/lib/dracut/modules.d/95nbd/parse-nbdroot.sh', 'usr/lib/dracut/modules.d/95nfs/', 'usr/lib/dracut/modules.d/95nfs/module-setup.sh', 'usr/lib/dracut/modules.d/95nfs/nfs-lib.sh', 'usr/lib/dracut/modules.d/95nfs/nfs-start-rpc.sh', 'usr/lib/dracut/modules.d/95nfs/nfsroot-cleanup.sh', 'usr/lib/dracut/modules.d/95nfs/nfsroot.sh', 'usr/lib/dracut/modules.d/95nfs/parse-nfsroot.sh', 'usr/lib/dracut/modules.d/95ssh-client/', 'usr/lib/dracut/modules.d/95ssh-client/module-setup.sh']"
++++
+Dracut modules to build a dracut initramfs with network support

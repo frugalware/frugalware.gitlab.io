@@ -6,9 +6,9 @@ date = "2023-09-01T15:56:13"
 categories = ['base', 'chroot-core']
 upstreamurl = "http://people.redhat.com/sgrubb/audit"
 arch = "x86_64"
-size = "1567054"
-usize = "0"
-sha1sum = ""
+size = "1109364"
+usize = "1567054"
+sha1sum = "758c3b41e55f43e8c5f646d6bb2728d909625077"
 depends = "['glibc>=2.24-8']"
 files = "['usr/', 'usr/include/', 'usr/include/auparse-defs.h', 'usr/include/auparse.h', 'usr/include/libaudit.h', 'usr/lib/', 'usr/lib/libaudit.a', 'usr/lib/libaudit.so', 'usr/lib/libaudit.so.1', 'usr/lib/libaudit.so.1.0.0', 'usr/lib/libauparse.a', 'usr/lib/libauparse.so', 'usr/lib/libauparse.so.0', 'usr/lib/libauparse.so.0.0.0', 'usr/lib/pkgconfig/', 'usr/lib/pkgconfig/audit.pc', 'usr/lib/pkgconfig/auparse.pc']"
 +++

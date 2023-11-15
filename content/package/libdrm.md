@@ -1,0 +1,15 @@
++++
+draft = false
+title = "libdrm 2.4.117-3"
+version = "2.4.117-3"
+date = "2023-10-28T11:06:43"
+categories = ['x11', 'xorg-core', 'xorg-libs']
+upstreamurl = "http://xorg.freedesktop.org/"
+arch = "x86_64"
+size = "305964"
+usize = "1234022"
+sha1sum = "f9c9d7dc85103a29efd8445568804bfbb62786f7"
+depends = "['libpciaccess>=0.13.4-4']"
+files = "['usr/', 'usr/bin/', 'usr/bin/amdgpu_stress', 'usr/bin/drmdevice', 'usr/bin/modeprint', 'usr/bin/modetest', 'usr/bin/proptest', 'usr/bin/vbltest', 'usr/include/', 'usr/include/libdrm/', 'usr/include/libdrm/amdgpu_drm.h', 'usr/include/libdrm/amdgpu.h', 'usr/include/libdrm/drm_fourcc.h', 'usr/include/libdrm/drm.h', 'usr/include/libdrm/drm_mode.h', 'usr/include/libdrm/drm_sarea.h', 'usr/include/libdrm/i915_drm.h', 'usr/include/libdrm/intel_aub.h', 'usr/include/libdrm/intel_bufmgr.h', 'usr/include/libdrm/intel_debug.h', 'usr/include/libdrm/mach64_drm.h', 'usr/include/libdrm/mga_drm.h', 'usr/include/libdrm/msm_drm.h', 'usr/include/libdrm/nouveau/', 'usr/include/libdrm/nouveau_drm.h', 'usr/include/libdrm/nouveau/nouveau.h', 'usr/include/libdrm/nouveau/nvif/', 'usr/include/libdrm/nouveau/nvif/cl0080.h', 'usr/include/libdrm/nouveau/nvif/cl9097.h', 'usr/include/libdrm/nouveau/nvif/class.h', 'usr/include/libdrm/nouveau/nvif/if0002.h', 'usr/include/libdrm/nouveau/nvif/if0003.h', 'usr/include/libdrm/nouveau/nvif/ioctl.h', 'usr/include/libdrm/nouveau/nvif/unpack.h', 'usr/include/libdrm/qxl_drm.h', 'usr/include/libdrm/r128_drm.h', 'usr/include/libdrm/r600_pci_ids.h', 'usr/include/libdrm/radeon_bo_gem.h', 'usr/include/libdrm/radeon_bo.h', 'usr/include/libdrm/radeon_bo_int.h', 'usr/include/libdrm/radeon_cs_gem.h', 'usr/include/libdrm/radeon_cs.h', 'usr/include/libdrm/radeon_cs_int.h', 'usr/include/libdrm/radeon_drm.h', 'usr/include/libdrm/radeon_surface.h', 'usr/include/libdrm/savage_drm.h', 'usr/include/libdrm/sis_drm.h', 'usr/include/libdrm/tegra_drm.h', 'usr/include/libdrm/vc4_drm.h', 'usr/include/libdrm/via_drm.h', 'usr/include/libdrm/virtgpu_drm.h', 'usr/include/libdrm/vmwgfx_drm.h', 'usr/include/libsync.h', 'usr/include/xf86drm.h', 'usr/include/xf86drmMode.h', 'usr/lib/', 'usr/lib/libdrm_amdgpu.so', 'usr/lib/libdrm_amdgpu.so.1', 'usr/lib/libdrm_amdgpu.so.1.0.0', 'usr/lib/libdrm_intel.so', 'usr/lib/libdrm_intel.so.1', 'usr/lib/libdrm_intel.so.1.0.0', 'usr/lib/libdrm_nouveau.so', 'usr/lib/libdrm_nouveau.so.2', 'usr/lib/libdrm_nouveau.so.2.0.0', 'usr/lib/libdrm_radeon.so', 'usr/lib/libdrm_radeon.so.1', 'usr/lib/libdrm_radeon.so.1.0.1', 'usr/lib/libdrm.so', 'usr/lib/libdrm.so.2', 'usr/lib/libdrm.so.2.4.0', 'usr/lib/pkgconfig/', 'usr/lib/pkgconfig/libdrm_amdgpu.pc', 'usr/lib/pkgconfig/libdrm_intel.pc', 'usr/lib/pkgconfig/libdrm_nouveau.pc', 'usr/lib/pkgconfig/libdrm.pc', 'usr/lib/pkgconfig/libdrm_radeon.pc', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/libdrm-2.4.117/', 'usr/share/doc/libdrm-2.4.117/README.rst', 'usr/share/libdrm/', 'usr/share/libdrm/amdgpu.ids']"
++++
+X.Org Userspace interface to kernel DRM services

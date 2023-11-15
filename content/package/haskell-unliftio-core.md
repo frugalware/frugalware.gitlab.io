@@ -1,0 +1,15 @@
++++
+draft = false
+title = "haskell-unliftio-core 0.2.1.0-2"
+version = "0.2.1.0-2"
+date = "2023-08-22T14:40:25"
+categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/unliftio-core"
+arch = "x86_64"
+size = "53844"
+usize = "297726"
+sha1sum = "7a7f040594c6697876691905d17cebe84fc5adef"
+depends = "['ghc>=9.6.1']"
+files = "['usr/', 'usr/lib/', 'usr/lib/ghc-9.6.2/', 'usr/lib/ghc-9.6.2/site-local/', 'usr/lib/ghc-9.6.2/site-local/unliftio-core-0.2.1.0/', 'usr/lib/ghc-9.6.2/site-local/unliftio-core-0.2.1.0/Control/', 'usr/lib/ghc-9.6.2/site-local/unliftio-core-0.2.1.0/Control/Monad/', 'usr/lib/ghc-9.6.2/site-local/unliftio-core-0.2.1.0/Control/Monad/IO/', 'usr/lib/ghc-9.6.2/site-local/unliftio-core-0.2.1.0/Control/Monad/IO/Unlift.dyn_hi', 'usr/lib/ghc-9.6.2/site-local/unliftio-core-0.2.1.0/Control/Monad/IO/Unlift.hi', 'usr/lib/ghc-9.6.2/site-local/unliftio-core-0.2.1.0/Paths_unliftio_core.dyn_hi', 'usr/lib/ghc-9.6.2/site-local/unliftio-core-0.2.1.0/Paths_unliftio_core.hi', 'usr/lib/ghc-9.6.2/site-local/unliftio-core-0.2.1.0/libHSunliftio-core-0.2.1.0-JG5CVzAq7BU66RT2XdiabJ.a', 'usr/lib/x86_64-linux-ghc-9.6.2/', 'usr/lib/x86_64-linux-ghc-9.6.2/libHSunliftio-core-0.2.1.0-JG5CVzAq7BU66RT2XdiabJ-ghc9.6.2.so', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/haskell-unliftio-core-0.2.1.0/', 'usr/share/doc/haskell-unliftio-core-0.2.1.0/LICENSE', 'usr/share/doc/haskell-unliftio-core-0.2.1.0/README.md', 'usr/share/doc/x86_64-linux-ghc-9.6.2/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/unliftio-core-0.2.1.0/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/unliftio-core-0.2.1.0/LICENSE', 'usr/share/doc/x86_64-linux-ghc-9.6.2/unliftio-core-0.2.1.0/html/', 'usr/share/doc/x86_64-linux-ghc-9.6.2/unliftio-core-0.2.1.0/html/Control-Monad-IO-Unlift.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/unliftio-core-0.2.1.0/html/doc-index.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/unliftio-core-0.2.1.0/html/doc-index.json', 'usr/share/doc/x86_64-linux-ghc-9.6.2/unliftio-core-0.2.1.0/html/haddock-bundle.min.js', 'usr/share/doc/x86_64-linux-ghc-9.6.2/unliftio-core-0.2.1.0/html/index.html', 'usr/share/doc/x86_64-linux-ghc-9.6.2/unliftio-core-0.2.1.0/html/linuwial.css', 'usr/share/doc/x86_64-linux-ghc-9.6.2/unliftio-core-0.2.1.0/html/meta.json', 'usr/share/doc/x86_64-linux-ghc-9.6.2/unliftio-core-0.2.1.0/html/quick-jump.css', 'usr/share/doc/x86_64-linux-ghc-9.6.2/unliftio-core-0.2.1.0/html/quick-jump.min.js', 'usr/share/doc/x86_64-linux-ghc-9.6.2/unliftio-core-0.2.1.0/html/synopsis.png', 'usr/share/doc/x86_64-linux-ghc-9.6.2/unliftio-core-0.2.1.0/html/unliftio-core.haddock', 'usr/share/haskell/', 'usr/share/haskell/haskell-unliftio-core/', 'usr/share/haskell/haskell-unliftio-core/register.sh', 'usr/share/haskell/haskell-unliftio-core/unregister.sh']"
++++
+The MonadUnliftIO typeclass for unlifting monads to IO
