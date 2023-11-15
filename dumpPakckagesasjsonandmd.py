@@ -29,7 +29,7 @@ if 'dbpath' in args:
         print("failed to set option DBPATH")
         exit
 
-db = pacman.db_register("local")
+db = pacman.db_register("frugalware-current")
 
 i = pacman.db_getpkgcache(db)
 while i :
