@@ -25,7 +25,7 @@ if pacman.initialize(root) == -1:
     print("initializing DB failed")
     exit
 
-if 'dbpath' not in args:
+if 'dbpath' in args:
     if pacman.set_option(pacman.OPT_DBPATH, args.dbpath) == -1:
         print("failed to set option DBPATH")
         exit
