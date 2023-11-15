@@ -24,7 +24,7 @@ if pacman.initialize(root) == -1:
     print("initializing DB failed")
     exit
 
-db = pacman.db_register("frugalware-current")
+db = pacman.db_register("local")
 
 if 'dbpath' in args:
     if pacman.set_option(pacman.OPT_DBPATH, pacman.char_to_unsigned_long(args.dbpath)) == -1:
