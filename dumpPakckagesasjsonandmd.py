@@ -22,7 +22,7 @@ packages_as_dict = {}
 packages_path = args.package_directory
 
 if pacman.initialize(root) == -1:
-    print("initializing DB failed").
+    print("initializing DB failed")
     exit
 
 db = pacman.db_register(args.dbpath+args.dbname)
