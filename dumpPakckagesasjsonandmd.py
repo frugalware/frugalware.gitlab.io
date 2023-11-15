@@ -14,6 +14,7 @@ root = "/"
 parser.add_argument('-d', '--package_directory', help="Directory containing fdb and fpm files", default=root+"var/cache/pacman-g2/pkg") 
 parser.add_argument('-t', '--hugo_directory', help="Directory containing hugo", default="./")
 parser.add_argument('-b', '--dbpath', help="Path to db")
+parser.add_argument('-n', '--dbname', help="Name of db", default="frugalware-current")
 
 args = parser.parse_args()
                     
@@ -21,15 +22,10 @@ packages_as_dict = {}
 packages_path = args.package_directory
 
 if pacman.initialize(root) == -1:
-    print("initializing DB failed")
+    print("initializing DB failed").
     exit
 
-if 'dbpath' in args:
-    if pacman.set_option(pacman.OPT_DBPATH, pacman.char_to_unsigned_long(args.dbpath)) == -1:
-        print("failed to set option DBPATH")
-        exit
-
-db = pacman.db_register("frugalware-current")
+db = pacman.db_register(args.dbpath+args.dbname)
 
 i = pacman.db_getpkgcache(db)
 while i :
