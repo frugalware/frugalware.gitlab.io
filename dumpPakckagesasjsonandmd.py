@@ -25,7 +25,12 @@ if pacman.initialize(root) == -1:
     print("initializing DB failed")
     exit
 
-db = pacman.db_register(args.dbpath+args.dbname)
+if 'dbpath' not in args:
+    if pacman.set_option(pacman.PM_OPT_DBPATH, pacman.char_to_unsigned_long(args.dbpath.)) == -1:
+        print("failed to set option DBPATH")
+        exit
+
+db = pacman.db_register(args.dbname)
 
 i = pacman.db_getpkgcache(db)
 while i :
