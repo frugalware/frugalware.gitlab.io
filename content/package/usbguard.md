@@ -1,0 +1,15 @@
++++
+draft = false
+title = "usbguard 1.1.2-6"
+version = "1.1.2-6"
+date = "2023-11-23T10:41:33"
+categories = ['apps-extra']
+upstreamurl = "https://github.com/dkopecek/usbguard"
+arch = "x86_64"
+size = "461384"
+usize = "1686919"
+sha1sum = "157150cc34ae65283498d189c4eec91c50b3c738"
+depends = "['libqb>=2.0.0', 'libsodium>=1.0.19', 'libcap-ng', 'protobuf>=25.1', 'polkit', 'dbus-glib', 'libseccomp', 'libaudit', 'audit']"
+files = "['etc/', 'etc/usbguard/', 'etc/usbguard/IPCAccessControl.d/', 'etc/usbguard/rules.conf', 'etc/usbguard/usbguard-daemon.conf', 'lib/', 'lib/systemd/', 'lib/systemd/system/', 'lib/systemd/system/usbguard-dbus.service', 'lib/systemd/system/usbguard.service', 'usr/', 'usr/bin/', 'usr/bin/usbguard', 'usr/bin/usbguard-rule-parser', 'usr/include/', 'usr/include/usbguard/', 'usr/include/usbguard/Audit.hpp', 'usr/include/usbguard/ConfigFile.hpp', 'usr/include/usbguard/Device.hpp', 'usr/include/usbguard/DeviceManager.hpp', 'usr/include/usbguard/DeviceManagerHooks.hpp', 'usr/include/usbguard/Exception.hpp', 'usr/include/usbguard/IPCClient.hpp', 'usr/include/usbguard/IPCServer.hpp', 'usr/include/usbguard/Interface.hpp', 'usr/include/usbguard/KeyValueParser.hpp', 'usr/include/usbguard/Logger.hpp', 'usr/include/usbguard/MemoryRuleSet.hpp', 'usr/include/usbguard/Policy.hpp', 'usr/include/usbguard/Predicates.hpp', 'usr/include/usbguard/Rule.hpp', 'usr/include/usbguard/RuleCondition.hpp', 'usr/include/usbguard/RuleSet.hpp', 'usr/include/usbguard/Typedefs.hpp', 'usr/include/usbguard/USB.hpp', 'usr/include/usbguard/USBGuard.hpp', 'usr/lib/', 'usr/lib/libusbguard.so', 'usr/lib/libusbguard.so.1', 'usr/lib/libusbguard.so.1.0.1', 'usr/lib/pkgconfig/', 'usr/lib/pkgconfig/libusbguard.pc', 'usr/sbin/', 'usr/sbin/usbguard-daemon', 'usr/sbin/usbguard-dbus', 'usr/share/', 'usr/share/bash-completion/', 'usr/share/bash-completion/completions/', 'usr/share/bash-completion/completions/usbguard', 'usr/share/dbus-1/', 'usr/share/dbus-1/system-services/', 'usr/share/dbus-1/system-services/org.usbguard1.service', 'usr/share/dbus-1/system.d/', 'usr/share/dbus-1/system.d/org.usbguard1.conf', 'usr/share/doc/', 'usr/share/doc/usbguard-1.1.2/', 'usr/share/doc/usbguard-1.1.2/LICENSE', 'usr/share/doc/usbguard-1.1.2/README.adoc', 'usr/share/doc/usbguard-1.1.2/VERSION', 'usr/share/man/', 'usr/share/man/man1/', 'usr/share/man/man1/usbguard.1.gz', 'usr/share/man/man5/', 'usr/share/man/man5/usbguard-daemon.conf.5.gz', 'usr/share/man/man5/usbguard-rules.conf.5.gz', 'usr/share/man/man8/', 'usr/share/man/man8/usbguard-daemon.8.gz', 'usr/share/man/man8/usbguard-dbus.8.gz', 'usr/share/polkit-1/', 'usr/share/polkit-1/actions/', 'usr/share/polkit-1/actions/org.usbguard1.policy', 'var/', 'var/log/', 'var/log/usbguard/']"
++++
+USBGuard is a software framework for implementing USB device authorization policies

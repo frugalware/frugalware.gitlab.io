@@ -1,0 +1,15 @@
++++
+draft = false
+title = "libreoffice-l10n-lb 7.6.3.2-1"
+version = "7.6.3.2-1"
+date = "2023-11-25T20:43:06"
+categories = ['locale-extra']
+upstreamurl = "http://www.libreoffice.org/"
+arch = "x86_64"
+size = "119576"
+usize = "945515"
+sha1sum = "09c566aab4b8508433e3616d9223a7055e209e04"
+depends = "['libreoffice>=7.6.3.2']"
+files = "['usr/', 'usr/lib/', 'usr/lib/libreoffice/', 'usr/lib/libreoffice/program/', 'usr/lib/libreoffice/program/resource/', 'usr/lib/libreoffice/program/resource/lb/', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/acc.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/avmedia.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/basctl.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/chart.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/cnr.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/cui.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/dba.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/dkt.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/editeng.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/flt.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/for.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/fps.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/frm.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/fwk.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/oox.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/pcr.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/rpt.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/sb.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/sc.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/sca.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/scc.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/sd.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/sfx.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/sm.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/svl.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/svt.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/svx.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/sw.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/uui.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/vcl.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/wiz.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/wpt.mo', 'usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/xsc.mo', 'usr/lib/libreoffice/readmes/', 'usr/lib/libreoffice/readmes/README_lb', 'usr/lib/libreoffice/share/', 'usr/lib/libreoffice/share/autotext/', 'usr/lib/libreoffice/share/autotext/lb/', 'usr/lib/libreoffice/share/autotext/lb/standard.bau', 'usr/lib/libreoffice/share/registry/', 'usr/lib/libreoffice/share/registry/Langpack-lb.xcd', 'usr/lib/libreoffice/share/registry/res/', 'usr/lib/libreoffice/share/registry/res/fcfg_langpack_lb.xcd', 'usr/lib/libreoffice/share/registry/res/registry_lb.xcd']"
++++
+Installs Luxembourgish support in LibreOffice
