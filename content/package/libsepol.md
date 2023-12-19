@@ -1,0 +1,15 @@
++++
+draft = false
+title = "libsepol 3.6-1"
+version = "3.6-1"
+date = "2023-12-18T15:00:11"
+categories = ['lib-extra']
+upstreamurl = "http://userspace.selinuxproject.org"
+arch = "x86_64"
+size = "456320"
+usize = "2638272"
+sha1sum = "e85d45f744a81a340a4d5b2182667a5e3aa56b3e"
+depends = "['glibc>=2.34']"
+files = "['lib/', 'lib/libsepol.so.2', 'usr/', 'usr/bin/', 'usr/bin/chkcon', 'usr/bin/sepol_check_access', 'usr/bin/sepol_compute_av', 'usr/bin/sepol_compute_member', 'usr/bin/sepol_compute_relabel', 'usr/bin/sepol_validate_transition', 'usr/include/', 'usr/include/sepol/', 'usr/include/sepol/boolean_record.h', 'usr/include/sepol/booleans.h', 'usr/include/sepol/cil/', 'usr/include/sepol/cil/cil.h', 'usr/include/sepol/context.h', 'usr/include/sepol/context_record.h', 'usr/include/sepol/debug.h', 'usr/include/sepol/errcodes.h', 'usr/include/sepol/handle.h', 'usr/include/sepol/ibendport_record.h', 'usr/include/sepol/ibendports.h', 'usr/include/sepol/ibpkey_record.h', 'usr/include/sepol/ibpkeys.h', 'usr/include/sepol/iface_record.h', 'usr/include/sepol/interfaces.h', 'usr/include/sepol/kernel_to_cil.h', 'usr/include/sepol/kernel_to_conf.h', 'usr/include/sepol/module.h', 'usr/include/sepol/module_to_cil.h', 'usr/include/sepol/node_record.h', 'usr/include/sepol/nodes.h', 'usr/include/sepol/policydb.h', 'usr/include/sepol/policydb/', 'usr/include/sepol/policydb/avrule_block.h', 'usr/include/sepol/policydb/avtab.h', 'usr/include/sepol/policydb/conditional.h', 'usr/include/sepol/policydb/constraint.h', 'usr/include/sepol/policydb/context.h', 'usr/include/sepol/policydb/ebitmap.h', 'usr/include/sepol/policydb/expand.h', 'usr/include/sepol/policydb/flask_types.h', 'usr/include/sepol/policydb/hashtab.h', 'usr/include/sepol/policydb/hierarchy.h', 'usr/include/sepol/policydb/link.h', 'usr/include/sepol/policydb/mls_types.h', 'usr/include/sepol/policydb/module.h', 'usr/include/sepol/policydb/polcaps.h', 'usr/include/sepol/policydb/policydb.h', 'usr/include/sepol/policydb/services.h', 'usr/include/sepol/policydb/sidtab.h', 'usr/include/sepol/policydb/symtab.h', 'usr/include/sepol/policydb/util.h', 'usr/include/sepol/port_record.h', 'usr/include/sepol/ports.h', 'usr/include/sepol/sepol.h', 'usr/include/sepol/user_record.h', 'usr/include/sepol/users.h', 'usr/lib/', 'usr/lib/libsepol.a', 'usr/lib/libsepol.so', 'usr/lib/pkgconfig/', 'usr/lib/pkgconfig/libsepol.pc', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/libsepol-3.6/', 'usr/share/doc/libsepol-3.6/LICENSE', 'usr/share/doc/libsepol-3.6/VERSION', 'usr/share/man/', 'usr/share/man/man3/', 'usr/share/man/man3/sepol_check_context.3.gz', 'usr/share/man/man8/', 'usr/share/man/man8/chkcon.8.gz', 'usr/share/man/man8/genpolbools.8.gz', 'usr/share/man/man8/genpolusers.8.gz']"
++++
+SELinux binary policy manipulation library

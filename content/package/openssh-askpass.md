@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "openssh-askpass 9.5-1"
-version = "9.5-1"
-date = "2023-10-17T17:45:54"
+title = "openssh-askpass 9.6-1"
+version = "9.6-1"
+date = "2023-12-19T09:20:07"
 categories = ['xapps-extra']
 upstreamurl = "http://www.openssh.com/"
 arch = "x86_64"
-size = "6920"
+size = "6948"
 usize = "0"
-sha1sum = "b34c23aca6cd1c26eb6ae2ba5f0a8e4afa9208c0"
+sha1sum = "c4948c8b7baaea77981a417f246ddcbe5fc57edc"
 depends = "['gtk+2', 'gdk-pixbuf2']"
 files = "['usr/', 'usr/lib/', 'usr/lib/openssh-askpass/']"
 +++

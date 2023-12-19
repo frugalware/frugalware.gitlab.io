@@ -1,0 +1,15 @@
++++
+draft = false
+title = "haskell-base16-bytestring 1.0.2.0-7"
+version = "1.0.2.0-7"
+date = "2023-12-12T16:14:38"
+categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/base16-bytestring"
+arch = "x86_64"
+size = "55724"
+usize = "280559"
+sha1sum = "55a3964251f0536eafd5ed537d643c84827cb20c"
+depends = "['ghc>=9.6.1']"
+files = "['usr/', 'usr/lib/', 'usr/lib/ghc-9.8.1/', 'usr/lib/ghc-9.8.1/site-local/', 'usr/lib/ghc-9.8.1/site-local/base16-bytestring-1.0.2.0/', 'usr/lib/ghc-9.8.1/site-local/base16-bytestring-1.0.2.0/Data/', 'usr/lib/ghc-9.8.1/site-local/base16-bytestring-1.0.2.0/Data/ByteString/', 'usr/lib/ghc-9.8.1/site-local/base16-bytestring-1.0.2.0/Data/ByteString/Base16.dyn_hi', 'usr/lib/ghc-9.8.1/site-local/base16-bytestring-1.0.2.0/Data/ByteString/Base16.hi', 'usr/lib/ghc-9.8.1/site-local/base16-bytestring-1.0.2.0/Data/ByteString/Base16/', 'usr/lib/ghc-9.8.1/site-local/base16-bytestring-1.0.2.0/Data/ByteString/Base16/Internal.dyn_hi', 'usr/lib/ghc-9.8.1/site-local/base16-bytestring-1.0.2.0/Data/ByteString/Base16/Internal.hi', 'usr/lib/ghc-9.8.1/site-local/base16-bytestring-1.0.2.0/Data/ByteString/Base16/Lazy.dyn_hi', 'usr/lib/ghc-9.8.1/site-local/base16-bytestring-1.0.2.0/Data/ByteString/Base16/Lazy.hi', 'usr/lib/ghc-9.8.1/site-local/base16-bytestring-1.0.2.0/libHSbase16-bytestring-1.0.2.0-CRfxdsh0OPJJHiWDjio23W.a', 'usr/lib/x86_64-linux-ghc-9.8.1/', 'usr/lib/x86_64-linux-ghc-9.8.1/libHSbase16-bytestring-1.0.2.0-CRfxdsh0OPJJHiWDjio23W-ghc9.8.1.so', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/haskell-base16-bytestring-1.0.2.0/', 'usr/share/doc/haskell-base16-bytestring-1.0.2.0/LICENSE', 'usr/share/doc/haskell-base16-bytestring-1.0.2.0/README.md', 'usr/share/doc/x86_64-linux-ghc-9.8.1/', 'usr/share/doc/x86_64-linux-ghc-9.8.1/base16-bytestring-1.0.2.0/', 'usr/share/doc/x86_64-linux-ghc-9.8.1/base16-bytestring-1.0.2.0/LICENSE', 'usr/share/doc/x86_64-linux-ghc-9.8.1/base16-bytestring-1.0.2.0/html/', 'usr/share/doc/x86_64-linux-ghc-9.8.1/base16-bytestring-1.0.2.0/html/Data-ByteString-Base16-Lazy.html', 'usr/share/doc/x86_64-linux-ghc-9.8.1/base16-bytestring-1.0.2.0/html/Data-ByteString-Base16.html', 'usr/share/doc/x86_64-linux-ghc-9.8.1/base16-bytestring-1.0.2.0/html/base16-bytestring.haddock', 'usr/share/doc/x86_64-linux-ghc-9.8.1/base16-bytestring-1.0.2.0/html/doc-index.html', 'usr/share/doc/x86_64-linux-ghc-9.8.1/base16-bytestring-1.0.2.0/html/haddock-bundle.min.js', 'usr/share/doc/x86_64-linux-ghc-9.8.1/base16-bytestring-1.0.2.0/html/index.html', 'usr/share/doc/x86_64-linux-ghc-9.8.1/base16-bytestring-1.0.2.0/html/linuwial.css', 'usr/share/doc/x86_64-linux-ghc-9.8.1/base16-bytestring-1.0.2.0/html/meta.json', 'usr/share/doc/x86_64-linux-ghc-9.8.1/base16-bytestring-1.0.2.0/html/quick-jump.css', 'usr/share/doc/x86_64-linux-ghc-9.8.1/base16-bytestring-1.0.2.0/html/synopsis.png', 'usr/share/haskell/', 'usr/share/haskell/haskell-base16-bytestring/', 'usr/share/haskell/haskell-base16-bytestring/register.sh', 'usr/share/haskell/haskell-base16-bytestring/unregister.sh']"
++++
+RFC 4648-compliant Base16 encodings for ByteStrings

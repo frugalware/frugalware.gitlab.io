@@ -1,0 +1,15 @@
++++
+draft = false
+title = "lib32-rust 1.74.1-1"
+version = "1.74.1-1"
+date = "2023-12-14T13:02:33"
+categories = ['lib32-extra']
+upstreamurl = "https://www.rust-lang.org/"
+arch = "x86_64"
+size = "21963144"
+usize = "104162428"
+sha1sum = "09374dd51b405033cd7aba8573e0e3428cf5f351"
+depends = "['lib32-libffi', 'lib32-xz', 'rust']"
+files = "['usr/', 'usr/lib/', 'usr/lib/rustlib/', 'usr/lib/rustlib/i686-unknown-linux-gnu/', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/libaddr2line-a091f64675abbfa2.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/libadler-0b131c92eb361249.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/liballoc-336417b65cf7cec7.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/libcfg_if-3cca62becd8973cd.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/libcompiler_builtins-77ec88d647309339.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/libcore-4f143d6e558ba377.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/libgetopts-5973a83b49159c68.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/libgimli-07ceda6a7630e9ab.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/libhashbrown-41c1348e76326a16.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/liblibc-f6641c9b75b95055.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/libmemchr-8204100dd5735427.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/libminiz_oxide-32c3972ce3b87261.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/libobject-4dc034f5362cfb35.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/libpanic_abort-36f519a9a9495b1a.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/libpanic_unwind-754fee0d88e2e34e.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/libproc_macro-5603b59c96850bfb.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/librustc_demangle-53aef46bc4b79fd5.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/librustc_std_workspace_alloc-794958d73202377b.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/librustc_std_workspace_core-ab3a884db05402b7.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/librustc_std_workspace_std-20dbfe79dc6f4ddf.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/libstd-c949bd551287af55.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/libstd-c949bd551287af55.so', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/libstd_detect-cbec9f2cb554d3bd.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/libsysroot-a24f276439bc9a5b.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/libtest-7be312d6ff597c45.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/libtest-7be312d6ff597c45.so', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/libunicode_width-42ed796a308bee73.rlib', 'usr/lib/rustlib/i686-unknown-linux-gnu/lib/libunwind-215a70be8456ac88.rlib']"
++++
+Programming language focused on safety, speed and concurrency ( 32bit )

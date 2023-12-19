@@ -1,0 +1,15 @@
++++
+draft = false
+title = "haskell-uuid-types 1.0.5.1-1"
+version = "1.0.5.1-1"
+date = "2023-12-11T14:45:00"
+categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/uuid-types"
+arch = "x86_64"
+size = "117028"
+usize = "923555"
+sha1sum = "3492232f817f0d4ae497b66926a3eeb8a9f256ac"
+depends = "['haskell-random>=1.2.1', 'haskell-hashable>=1.4.2.0']"
+files = "['usr/', 'usr/lib/', 'usr/lib/ghc-9.8.1/', 'usr/lib/ghc-9.8.1/site-local/', 'usr/lib/ghc-9.8.1/site-local/uuid-types-1.0.5.1/', 'usr/lib/ghc-9.8.1/site-local/uuid-types-1.0.5.1/Data/', 'usr/lib/ghc-9.8.1/site-local/uuid-types-1.0.5.1/Data/UUID/', 'usr/lib/ghc-9.8.1/site-local/uuid-types-1.0.5.1/Data/UUID/Types.dyn_hi', 'usr/lib/ghc-9.8.1/site-local/uuid-types-1.0.5.1/Data/UUID/Types.hi', 'usr/lib/ghc-9.8.1/site-local/uuid-types-1.0.5.1/Data/UUID/Types/', 'usr/lib/ghc-9.8.1/site-local/uuid-types-1.0.5.1/Data/UUID/Types/Internal.dyn_hi', 'usr/lib/ghc-9.8.1/site-local/uuid-types-1.0.5.1/Data/UUID/Types/Internal.hi', 'usr/lib/ghc-9.8.1/site-local/uuid-types-1.0.5.1/Data/UUID/Types/Internal/', 'usr/lib/ghc-9.8.1/site-local/uuid-types-1.0.5.1/Data/UUID/Types/Internal/Builder.dyn_hi', 'usr/lib/ghc-9.8.1/site-local/uuid-types-1.0.5.1/Data/UUID/Types/Internal/Builder.hi', 'usr/lib/ghc-9.8.1/site-local/uuid-types-1.0.5.1/libHSuuid-types-1.0.5.1-J5eXUJhMGu78oQqSEF3KIS.a', 'usr/lib/x86_64-linux-ghc-9.8.1/', 'usr/lib/x86_64-linux-ghc-9.8.1/libHSuuid-types-1.0.5.1-J5eXUJhMGu78oQqSEF3KIS-ghc9.8.1.so', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/haskell-uuid-types-1.0.5.1/', 'usr/share/doc/haskell-uuid-types-1.0.5.1/LICENSE', 'usr/share/doc/x86_64-linux-ghc-9.8.1/', 'usr/share/doc/x86_64-linux-ghc-9.8.1/uuid-types-1.0.5.1/', 'usr/share/doc/x86_64-linux-ghc-9.8.1/uuid-types-1.0.5.1/LICENSE', 'usr/share/doc/x86_64-linux-ghc-9.8.1/uuid-types-1.0.5.1/html/', 'usr/share/doc/x86_64-linux-ghc-9.8.1/uuid-types-1.0.5.1/html/Data-UUID-Types.html', 'usr/share/doc/x86_64-linux-ghc-9.8.1/uuid-types-1.0.5.1/html/doc-index.html', 'usr/share/doc/x86_64-linux-ghc-9.8.1/uuid-types-1.0.5.1/html/haddock-bundle.min.js', 'usr/share/doc/x86_64-linux-ghc-9.8.1/uuid-types-1.0.5.1/html/index.html', 'usr/share/doc/x86_64-linux-ghc-9.8.1/uuid-types-1.0.5.1/html/linuwial.css', 'usr/share/doc/x86_64-linux-ghc-9.8.1/uuid-types-1.0.5.1/html/meta.json', 'usr/share/doc/x86_64-linux-ghc-9.8.1/uuid-types-1.0.5.1/html/quick-jump.css', 'usr/share/doc/x86_64-linux-ghc-9.8.1/uuid-types-1.0.5.1/html/synopsis.png', 'usr/share/doc/x86_64-linux-ghc-9.8.1/uuid-types-1.0.5.1/html/uuid-types.haddock', 'usr/share/haskell/', 'usr/share/haskell/haskell-uuid-types/', 'usr/share/haskell/haskell-uuid-types/register.sh', 'usr/share/haskell/haskell-uuid-types/unregister.sh']"
++++
+Type definitions for Universally Unique Identifiers

@@ -1,0 +1,15 @@
++++
+draft = false
+title = "kguiaddons 5.113.0-1"
+version = "5.113.0-1"
+date = "2023-12-15T21:44:21"
+categories = ['kf5']
+upstreamurl = "http://www.kde.org"
+arch = "x86_64"
+size = "94316"
+usize = "345252"
+sha1sum = "9849e8286cf1b0805146299bb4c8a73d4ab904e7"
+depends = "['qt5-base>=5.15.11', 'qt5-x11extras>=5.15.11', 'qt5-wayland>=5.15.11']"
+files = "['usr/', 'usr/bin/', 'usr/bin/kde-geo-uri-handler', 'usr/include/', 'usr/include/KF5/', 'usr/include/KF5/KGuiAddons/', 'usr/include/KF5/KGuiAddons/KColorCollection', 'usr/include/KF5/KGuiAddons/KColorMimeData', 'usr/include/KF5/KGuiAddons/KColorSchemeWatcher', 'usr/include/KF5/KGuiAddons/KColorUtils', 'usr/include/KF5/KGuiAddons/KCursorSaver', 'usr/include/KF5/KGuiAddons/KDateValidator', 'usr/include/KF5/KGuiAddons/KFontUtils', 'usr/include/KF5/KGuiAddons/KIconUtils', 'usr/include/KF5/KGuiAddons/KImageCache', 'usr/include/KF5/KGuiAddons/KModifierKeyInfo', 'usr/include/KF5/KGuiAddons/KSystemClipboard', 'usr/include/KF5/KGuiAddons/KWordWrap', 'usr/include/KF5/KGuiAddons/KeySequenceRecorder', 'usr/include/KF5/KGuiAddons/kcolorcollection.h', 'usr/include/KF5/KGuiAddons/kcolormimedata.h', 'usr/include/KF5/KGuiAddons/kcolorschemewatcher.h', 'usr/include/KF5/KGuiAddons/kcolorutils.h', 'usr/include/KF5/KGuiAddons/kcursorsaver.h', 'usr/include/KF5/KGuiAddons/kdatevalidator.h', 'usr/include/KF5/KGuiAddons/keysequencerecorder.h', 'usr/include/KF5/KGuiAddons/kfontutils.h', 'usr/include/KF5/KGuiAddons/kguiaddons_export.h', 'usr/include/KF5/KGuiAddons/kguiaddons_version.h', 'usr/include/KF5/KGuiAddons/kiconutils.h', 'usr/include/KF5/KGuiAddons/kimagecache.h', 'usr/include/KF5/KGuiAddons/klocalimagecacheimpl.h', 'usr/include/KF5/KGuiAddons/kmodifierkeyinfo.h', 'usr/include/KF5/KGuiAddons/kmodifierkeyinfoprovider_p.h', 'usr/include/KF5/KGuiAddons/ksystemclipboard.h', 'usr/include/KF5/KGuiAddons/kwordwrap.h', 'usr/lib/', 'usr/lib/cmake/', 'usr/lib/cmake/KF5GuiAddons/', 'usr/lib/cmake/KF5GuiAddons/KF5GuiAddonsConfig.cmake', 'usr/lib/cmake/KF5GuiAddons/KF5GuiAddonsConfigVersion.cmake', 'usr/lib/cmake/KF5GuiAddons/KF5GuiAddonsTargets-release.cmake', 'usr/lib/cmake/KF5GuiAddons/KF5GuiAddonsTargets.cmake', 'usr/lib/libKF5GuiAddons.so', 'usr/lib/libKF5GuiAddons.so.5', 'usr/lib/libKF5GuiAddons.so.5.113.0', 'usr/share/', 'usr/share/applications/', 'usr/share/applications/google-maps-geo-handler.desktop', 'usr/share/applications/openstreetmap-geo-handler.desktop', 'usr/share/applications/qwant-maps-geo-handler.desktop', 'usr/share/applications/wheelmap-geo-handler.desktop', 'usr/share/doc/', 'usr/share/doc/kguiaddons-5.113.0/', 'usr/share/doc/kguiaddons-5.113.0/README.md', 'usr/share/doc/kguiaddons-5.113.0/README.md.license', 'usr/share/qlogging-categories5/', 'usr/share/qlogging-categories5/kguiaddons.categories', 'usr/share/qt5/', 'usr/share/qt5/mkspecs/', 'usr/share/qt5/mkspecs/modules/', 'usr/share/qt5/mkspecs/modules/qt_KGuiAddons.pri']"
++++
+Utilities for graphical user interfaces.
