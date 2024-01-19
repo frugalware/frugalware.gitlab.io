@@ -1,14 +1,14 @@
 +++
 draft = false
-title = "jemalloc-static 5.3.0-1"
-version = "5.3.0-1"
-date = "2023-02-24T19:23:37"
+title = "jemalloc-static 5.3.0-2"
+version = "5.3.0-2"
+date = "2024-01-19T12:59:01"
 categories = ['devel-extra']
 upstreamurl = "http://www.canonware.com/jemalloc"
 arch = "x86_64"
-size = "20837776"
-usize = "51518720"
-sha1sum = "66b3b92ab3528bc21cbb96a7d00e66e0e598e38c"
+size = "20884748"
+usize = "51829066"
+sha1sum = "daa6bf652877e3fe4a921b400a6338eeb2a63627"
 depends = "[]"
 files = "['usr/', 'usr/lib/', 'usr/lib/libjemalloc.a', 'usr/lib/libjemalloc_pic.a']"
 +++
