@@ -1,0 +1,15 @@
++++
+draft = false
+title = "qemu-guest 8.2.0-2"
+version = "8.2.0-2"
+date = "2024-01-30T09:21:05"
+categories = ['apps-extra']
+upstreamurl = "http://www.nongnu.org/qemu/"
+arch = "x86_64"
+size = "285900"
+usize = "1057525"
+sha1sum = "9fb6b996fe3975419316c9ad9ddc600fdfeca9ee"
+depends = "['liburing']"
+files = "['usr/', 'usr/bin/', 'usr/bin/qemu-ga', 'usr/lib/', 'usr/lib/systemd/', 'usr/lib/systemd/system/', 'usr/lib/systemd/system/qemu-guest-agent.service', 'usr/lib/udev/', 'usr/lib/udev/rules.d/', 'usr/lib/udev/rules.d/99-qemu-guest-agent.rules']"
++++
+Files for use in QEMU guests.
