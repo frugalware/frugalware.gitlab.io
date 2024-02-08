@@ -2,7 +2,7 @@
 draft = false
 title = "chromium-browser 121.0.6167.160-1"
 version = "121.0.6167.160-1"
-date = "2024-02-08T17:30:10"
+date = "2024-02-08T20:06:25"
 categories = ['xapps-extra']
 upstreamurl = "http://www.chromium.org/"
 arch = "x86_64"
