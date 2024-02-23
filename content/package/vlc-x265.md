@@ -1,0 +1,15 @@
++++
+draft = false
+title = "vlc-x265 3.0.20-9"
+version = "3.0.20-9"
+date = "2024-02-23T15:34:47"
+categories = ['xmultimedia-extra', 'vlc-codecs']
+upstreamurl = "http://www.videolan.org/vlc/"
+arch = "x86_64"
+size = "16452"
+usize = "14024"
+sha1sum = "4dd9161dd6db6bc59803878e0d366393f11d1f1c"
+depends = "['x265>=3.5', 'libvlc>=3.0.20']"
+files = "['usr/', 'usr/lib/', 'usr/lib/vlc/', 'usr/lib/vlc/plugins/', 'usr/lib/vlc/plugins/codec/', 'usr/lib/vlc/plugins/codec/libx265_plugin.so']"
++++
+vlc x265 support

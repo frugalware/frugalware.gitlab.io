@@ -1,15 +1,15 @@
 +++
 draft = false
-title = "gitk 2.43.0-2"
-version = "2.43.0-2"
-date = "2024-01-09T15:49:18"
+title = "gitk 2.44.0-1"
+version = "2.44.0-1"
+date = "2024-02-23T22:03:45"
 categories = ['xapps-extra']
 upstreamurl = "http://git-scm.com/"
 arch = "x86_64"
-size = "101048"
-usize = "434084"
-sha1sum = "96e0b85042a21f1116ac03e6521e2b0c793ff289"
-depends = "['tk', 'git>=2.43.0']"
-files = "['usr/', 'usr/bin/', 'usr/bin/gitk', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/git-2.43.0/', 'usr/share/doc/git-2.43.0/gitk.html', 'usr/share/man/', 'usr/share/man/man1/', 'usr/share/man/man1/gitk.1.gz']"
+size = "101056"
+usize = "434096"
+sha1sum = "c21ecdaf1eb71e20a82291bf437522181a21fc4a"
+depends = "['tk', 'git>=2.44.0']"
+files = "['usr/', 'usr/bin/', 'usr/bin/gitk', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/git-2.44.0/', 'usr/share/doc/git-2.44.0/gitk.html', 'usr/share/man/', 'usr/share/man/man1/', 'usr/share/man/man1/gitk.1.gz']"
 +++
 Git revision tree visualiser.

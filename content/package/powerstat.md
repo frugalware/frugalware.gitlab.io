@@ -1,15 +1,15 @@
 +++
 draft = false
-title = "powerstat 0.04.01-1"
-version = "0.04.01-1"
-date = "2023-12-04T08:26:46"
+title = "powerstat 0.04.02-1"
+version = "0.04.02-1"
+date = "2024-02-23T21:14:54"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/ColinIanKing/powerstat"
 arch = "x86_64"
-size = "31956"
-usize = "79177"
-sha1sum = "16792df950c0d031269ed3bb241b46a1f4ce7f3a"
+size = "32724"
+usize = "80654"
+sha1sum = "f0ec31a51e75053ad18dacd860dd17d00cdbf87a"
 depends = "['glibc']"
-files = "['usr/', 'usr/bin/', 'usr/bin/powerstat', 'usr/share/', 'usr/share/bash-completion/', 'usr/share/bash-completion/completions/', 'usr/share/bash-completion/completions/powerstat', 'usr/share/doc/', 'usr/share/doc/powerstat-0.04.01/', 'usr/share/doc/powerstat-0.04.01/COPYING', 'usr/share/doc/powerstat-0.04.01/README.md', 'usr/share/man/', 'usr/share/man/man8/', 'usr/share/man/man8/powerstat.8.gz']"
+files = "['usr/', 'usr/bin/', 'usr/bin/powerstat', 'usr/share/', 'usr/share/bash-completion/', 'usr/share/bash-completion/completions/', 'usr/share/bash-completion/completions/powerstat', 'usr/share/doc/', 'usr/share/doc/powerstat-0.04.02/', 'usr/share/doc/powerstat-0.04.02/AUTHORS', 'usr/share/doc/powerstat-0.04.02/COPYING', 'usr/share/doc/powerstat-0.04.02/LICENSE', 'usr/share/doc/powerstat-0.04.02/README.md', 'usr/share/doc/powerstat-0.04.02/README.txt', 'usr/share/man/', 'usr/share/man/man8/', 'usr/share/man/man8/powerstat.8.gz']"
 +++
 Measures the power consumption of a laptop using the ACPI battery information.
