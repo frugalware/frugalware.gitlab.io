@@ -92,7 +92,7 @@ while i :
             'desc' : desc ,
         }
         if files:
-            packages_as_dict[name]['files'] = files
+            packages_as_dict[name]['files'] = list(filter(lambda filename: filename.endswith('/'), files))
         if url:
             packages_as_dict[name]['url'] = url
         if builddate:
