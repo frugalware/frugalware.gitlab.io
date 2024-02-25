@@ -128,11 +128,11 @@ while i :
     i = pacman.list_next(i)
 
 idx = lunr(
-    ref='name', fields=('desc', 'version'), documents=packages_as_dict
+    ref='name', fields=('desc', 'version'), documents=packages_as_dict.values()
 )
 
 with open(args.json_path, 'w') as f:
-    print(idx, f)
+    print(idx.serialize(), file=f)
 
 
 pacman.release()
