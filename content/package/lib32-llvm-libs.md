@@ -1,0 +1,15 @@
++++
+draft = false
+title = "lib32-llvm-libs 17.0.6-1"
+version = "17.0.6-1"
+date = "2024-02-09T11:02:52"
+categories = ['lib32-extra']
+upstreamurl = "http://www.llvm.org"
+arch = "x86_64"
+size = "32706480"
+usize = "181080954"
+sha1sum = "84947e9836496200d48e775cd81719c1ce457893"
+depends = "['lib32-ncurses>=6.0-12', 'lib32-libedit>=20160903_3.1i', 'lib32-libffi>=3.4', 'lib32-zstd']"
+files = "['usr/', 'usr/lib32/', 'usr/lib32/LLVMgold.so', 'usr/lib32/libLLVM-17.0.6.so', 'usr/lib32/libLLVM-17.so', 'usr/lib32/libLLVM.so', 'usr/lib32/libLTO.so', 'usr/lib32/libLTO.so.17', 'usr/lib32/libRemarks.so', 'usr/lib32/libRemarks.so.17']"
++++
+LLVM shared libs (32-bit)

@@ -1,0 +1,15 @@
++++
+draft = false
+title = "gst1-plugins-ugly-a52dec 1.22.10-1"
+version = "1.22.10-1"
+date = "2024-02-18T17:52:30"
+categories = ['xmultimedia']
+upstreamurl = "http://gstreamer.freedesktop.org"
+arch = "x86_64"
+size = "13084"
+usize = "26544"
+sha1sum = "a770e08a3f8832b0c773ec88852e35f335300ea0"
+depends = "['gst1-plugins-base>=1.22.10', 'libffi>=3.2.1-2', 'a52dec>=0.7.4-6', 'gst1-plugins-ugly>=1.22.10']"
+files = "['usr/', 'usr/lib/', 'usr/lib/gstreamer-1.0/', 'usr/lib/gstreamer-1.0/libgsta52dec.so']"
++++
+GStreamer a52dec plugin (Ugly).

@@ -1,0 +1,15 @@
++++
+draft = false
+title = "haskell-x509-store 1.6.9-8"
+version = "1.6.9-8"
+date = "2023-12-12T15:29:54"
+categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/x509-store"
+arch = "x86_64"
+size = "76776"
+usize = "489517"
+sha1sum = "7c4b6610a91638ee33f5ff0e8a62d03aa29fcba3"
+depends = "['haskell-x509']"
+files = "['usr/', 'usr/lib/', 'usr/lib/ghc-9.8.1/', 'usr/lib/ghc-9.8.1/site-local/', 'usr/lib/ghc-9.8.1/site-local/x509-store-1.6.9/', 'usr/lib/ghc-9.8.1/site-local/x509-store-1.6.9/Data/', 'usr/lib/ghc-9.8.1/site-local/x509-store-1.6.9/Data/X509/', 'usr/lib/ghc-9.8.1/site-local/x509-store-1.6.9/Data/X509/CertificateStore.dyn_hi', 'usr/lib/ghc-9.8.1/site-local/x509-store-1.6.9/Data/X509/CertificateStore.hi', 'usr/lib/ghc-9.8.1/site-local/x509-store-1.6.9/Data/X509/File.dyn_hi', 'usr/lib/ghc-9.8.1/site-local/x509-store-1.6.9/Data/X509/File.hi', 'usr/lib/ghc-9.8.1/site-local/x509-store-1.6.9/Data/X509/Memory.dyn_hi', 'usr/lib/ghc-9.8.1/site-local/x509-store-1.6.9/Data/X509/Memory.hi', 'usr/lib/ghc-9.8.1/site-local/x509-store-1.6.9/libHSx509-store-1.6.9-ESYPjI0Z9Rh5zrGDCIsNvl.a', 'usr/lib/x86_64-linux-ghc-9.8.1/', 'usr/lib/x86_64-linux-ghc-9.8.1/libHSx509-store-1.6.9-ESYPjI0Z9Rh5zrGDCIsNvl-ghc9.8.1.so', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/haskell-x509-store-1.6.9/', 'usr/share/doc/haskell-x509-store-1.6.9/LICENSE', 'usr/share/doc/x86_64-linux-ghc-9.8.1/', 'usr/share/doc/x86_64-linux-ghc-9.8.1/x509-store-1.6.9/', 'usr/share/doc/x86_64-linux-ghc-9.8.1/x509-store-1.6.9/LICENSE', 'usr/share/doc/x86_64-linux-ghc-9.8.1/x509-store-1.6.9/html/', 'usr/share/doc/x86_64-linux-ghc-9.8.1/x509-store-1.6.9/html/Data-X509-CertificateStore.html', 'usr/share/doc/x86_64-linux-ghc-9.8.1/x509-store-1.6.9/html/Data-X509-File.html', 'usr/share/doc/x86_64-linux-ghc-9.8.1/x509-store-1.6.9/html/Data-X509-Memory.html', 'usr/share/doc/x86_64-linux-ghc-9.8.1/x509-store-1.6.9/html/doc-index.html', 'usr/share/doc/x86_64-linux-ghc-9.8.1/x509-store-1.6.9/html/doc-index.json', 'usr/share/doc/x86_64-linux-ghc-9.8.1/x509-store-1.6.9/html/haddock-bundle.min.js', 'usr/share/doc/x86_64-linux-ghc-9.8.1/x509-store-1.6.9/html/index.html', 'usr/share/doc/x86_64-linux-ghc-9.8.1/x509-store-1.6.9/html/linuwial.css', 'usr/share/doc/x86_64-linux-ghc-9.8.1/x509-store-1.6.9/html/meta.json', 'usr/share/doc/x86_64-linux-ghc-9.8.1/x509-store-1.6.9/html/quick-jump.css', 'usr/share/doc/x86_64-linux-ghc-9.8.1/x509-store-1.6.9/html/quick-jump.min.js', 'usr/share/doc/x86_64-linux-ghc-9.8.1/x509-store-1.6.9/html/synopsis.png', 'usr/share/doc/x86_64-linux-ghc-9.8.1/x509-store-1.6.9/html/x509-store.haddock', 'usr/share/haskell/', 'usr/share/haskell/haskell-x509-store/', 'usr/share/haskell/haskell-x509-store/register.sh', 'usr/share/haskell/haskell-x509-store/unregister.sh']"
++++
+X.509 collection accessing and storing methods

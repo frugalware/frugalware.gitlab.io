@@ -1,0 +1,15 @@
++++
+draft = false
+title = "thunderbird-nb-no 115.7.0-1"
+version = "115.7.0-1"
+date = "2024-01-29T10:02:06"
+categories = ['locale-extra', 'thunderbird-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
+arch = "x86_64"
+size = "602764"
+usize = "672707"
+sha1sum = "1e07f00c4dc5cfe0e342377511910e38a31a092d"
+depends = "['thunderbird>=115.7.0']"
+files = "['usr/', 'usr/lib/', 'usr/lib/thunderbird/', 'usr/lib/thunderbird/extensions/', 'usr/lib/thunderbird/extensions/langpack-nb-NO@thunderbird.mozilla.org.xpi']"
++++
+Norwegian Bokmål language support for Thunderbird

@@ -1,0 +1,15 @@
++++
+draft = false
+title = "python3-evdev 1.6.1-2"
+version = "1.6.1-2"
+date = "2023-10-12T07:38:01"
+categories = ['devel-extra']
+upstreamurl = "http://pypi.python.org/pypi/evdev"
+arch = "x86_64"
+size = "51580"
+usize = "207852"
+sha1sum = "a8ef6ee76a5c3a3386b639e31ae7569c38d4ad69"
+depends = "['libevdev', 'python3>=3.11']"
+files = "['usr/', 'usr/lib/', 'usr/lib/python3.12/', 'usr/lib/python3.12/site-packages/', 'usr/lib/python3.12/site-packages/evdev-1.6.1-py3.12.egg-info/', 'usr/lib/python3.12/site-packages/evdev-1.6.1-py3.12.egg-info/PKG-INFO', 'usr/lib/python3.12/site-packages/evdev-1.6.1-py3.12.egg-info/SOURCES.txt', 'usr/lib/python3.12/site-packages/evdev-1.6.1-py3.12.egg-info/dependency_links.txt', 'usr/lib/python3.12/site-packages/evdev-1.6.1-py3.12.egg-info/top_level.txt', 'usr/lib/python3.12/site-packages/evdev-1.6.1-py3.12.egg-info/zip-safe', 'usr/lib/python3.12/site-packages/evdev/', 'usr/lib/python3.12/site-packages/evdev/__init__.py', 'usr/lib/python3.12/site-packages/evdev/__pycache__/', 'usr/lib/python3.12/site-packages/evdev/__pycache__/__init__.cpython-312.pyc', 'usr/lib/python3.12/site-packages/evdev/__pycache__/device.cpython-312.pyc', 'usr/lib/python3.12/site-packages/evdev/__pycache__/ecodes.cpython-312.pyc', 'usr/lib/python3.12/site-packages/evdev/__pycache__/eventio.cpython-312.pyc', 'usr/lib/python3.12/site-packages/evdev/__pycache__/eventio_async.cpython-312.pyc', 'usr/lib/python3.12/site-packages/evdev/__pycache__/events.cpython-312.pyc', 'usr/lib/python3.12/site-packages/evdev/__pycache__/evtest.cpython-312.pyc', 'usr/lib/python3.12/site-packages/evdev/__pycache__/ff.cpython-312.pyc', 'usr/lib/python3.12/site-packages/evdev/__pycache__/genecodes.cpython-312.pyc', 'usr/lib/python3.12/site-packages/evdev/__pycache__/uinput.cpython-312.pyc', 'usr/lib/python3.12/site-packages/evdev/__pycache__/util.cpython-312.pyc', 'usr/lib/python3.12/site-packages/evdev/_ecodes.cpython-312-x86_64-linux-gnu.so', 'usr/lib/python3.12/site-packages/evdev/_input.cpython-312-x86_64-linux-gnu.so', 'usr/lib/python3.12/site-packages/evdev/_uinput.cpython-312-x86_64-linux-gnu.so', 'usr/lib/python3.12/site-packages/evdev/device.py', 'usr/lib/python3.12/site-packages/evdev/ecodes.py', 'usr/lib/python3.12/site-packages/evdev/eventio.py', 'usr/lib/python3.12/site-packages/evdev/eventio_async.py', 'usr/lib/python3.12/site-packages/evdev/events.py', 'usr/lib/python3.12/site-packages/evdev/evtest.py', 'usr/lib/python3.12/site-packages/evdev/ff.py', 'usr/lib/python3.12/site-packages/evdev/genecodes.py', 'usr/lib/python3.12/site-packages/evdev/uinput.py', 'usr/lib/python3.12/site-packages/evdev/util.py', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/python3-evdev-1.6.1/', 'usr/share/doc/python3-evdev-1.6.1/LICENSE', 'usr/share/doc/python3-evdev-1.6.1/README.rst']"
++++
+Python bindings for the linux input handling subsystem

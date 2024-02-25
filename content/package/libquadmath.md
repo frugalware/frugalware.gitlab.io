@@ -1,0 +1,15 @@
++++
+draft = false
+title = "libquadmath 13.2.0-5"
+version = "13.2.0-5"
+date = "2024-01-03T16:52:44"
+categories = ['lib']
+upstreamurl = "http://gcc.gnu.org"
+arch = "x86_64"
+size = "394236"
+usize = "2125467"
+sha1sum = "c37c65b9e46f4f471c6976ade939762449fb452e"
+depends = "['glibc']"
+files = "['usr/', 'usr/lib/', 'usr/lib/libquadmath.a', 'usr/lib/libquadmath.so', 'usr/lib/libquadmath.so.0', 'usr/lib/libquadmath.so.0.0.0', 'usr/lib32/', 'usr/lib32/libquadmath.a', 'usr/lib32/libquadmath.so', 'usr/lib32/libquadmath.so.0', 'usr/lib32/libquadmath.so.0.0.0', 'usr/share/', 'usr/share/info/', 'usr/share/info/libquadmath.info.gz']"
++++
+Quadruple Precision Math library from GCC

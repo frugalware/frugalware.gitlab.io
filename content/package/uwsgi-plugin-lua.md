@@ -1,0 +1,15 @@
++++
+draft = false
+title = "uwsgi-plugin-lua 2.0.23-4"
+version = "2.0.23-4"
+date = "2024-02-02T17:19:52"
+categories = ['network-extra']
+upstreamurl = "http://projects.unbit.it/"
+arch = "x86_64"
+size = "11460"
+usize = "35304"
+sha1sum = "94410d734d6bee79982cbe44e02d39883d861fe1"
+depends = "['lua>=5.4', 'uwsgi']"
+files = "['usr/', 'usr/lib/', 'usr/lib/uwsgi/', 'usr/lib/uwsgi/lua_plugin.so']"
++++
+UWSGI Lua Plugin

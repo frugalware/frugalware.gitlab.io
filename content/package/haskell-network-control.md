@@ -1,0 +1,15 @@
++++
+draft = false
+title = "haskell-network-control 0.0.2-1"
+version = "0.0.2-1"
+date = "2023-12-13T10:38:12"
+categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/network-control"
+arch = "x86_64"
+size = "62688"
+usize = "372912"
+sha1sum = "303a7f634d066307721f0f4dc236a7f266afbeca"
+depends = "['haskell-unix-time', 'haskell-psqueues']"
+files = "['usr/', 'usr/lib/', 'usr/lib/ghc-9.8.1/', 'usr/lib/ghc-9.8.1/site-local/', 'usr/lib/ghc-9.8.1/site-local/network-control-0.0.2/', 'usr/lib/ghc-9.8.1/site-local/network-control-0.0.2/Network/', 'usr/lib/ghc-9.8.1/site-local/network-control-0.0.2/Network/Control.dyn_hi', 'usr/lib/ghc-9.8.1/site-local/network-control-0.0.2/Network/Control.hi', 'usr/lib/ghc-9.8.1/site-local/network-control-0.0.2/Network/Control/', 'usr/lib/ghc-9.8.1/site-local/network-control-0.0.2/Network/Control/Flow.dyn_hi', 'usr/lib/ghc-9.8.1/site-local/network-control-0.0.2/Network/Control/Flow.hi', 'usr/lib/ghc-9.8.1/site-local/network-control-0.0.2/Network/Control/LRUCache.dyn_hi', 'usr/lib/ghc-9.8.1/site-local/network-control-0.0.2/Network/Control/LRUCache.hi', 'usr/lib/ghc-9.8.1/site-local/network-control-0.0.2/Network/Control/Rate.dyn_hi', 'usr/lib/ghc-9.8.1/site-local/network-control-0.0.2/Network/Control/Rate.hi', 'usr/lib/ghc-9.8.1/site-local/network-control-0.0.2/libHSnetwork-control-0.0.2-AfQxKAphlceBOSpJztC1TJ.a', 'usr/lib/x86_64-linux-ghc-9.8.1/', 'usr/lib/x86_64-linux-ghc-9.8.1/libHSnetwork-control-0.0.2-AfQxKAphlceBOSpJztC1TJ-ghc9.8.1.so', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/haskell-network-control-0.0.2/', 'usr/share/doc/haskell-network-control-0.0.2/LICENSE', 'usr/share/doc/x86_64-linux-ghc-9.8.1/', 'usr/share/doc/x86_64-linux-ghc-9.8.1/network-control-0.0.2/', 'usr/share/doc/x86_64-linux-ghc-9.8.1/network-control-0.0.2/LICENSE', 'usr/share/doc/x86_64-linux-ghc-9.8.1/network-control-0.0.2/html/', 'usr/share/doc/x86_64-linux-ghc-9.8.1/network-control-0.0.2/html/Changelog.md', 'usr/share/doc/x86_64-linux-ghc-9.8.1/network-control-0.0.2/html/Network-Control.html', 'usr/share/doc/x86_64-linux-ghc-9.8.1/network-control-0.0.2/html/doc-index.html', 'usr/share/doc/x86_64-linux-ghc-9.8.1/network-control-0.0.2/html/haddock-bundle.min.js', 'usr/share/doc/x86_64-linux-ghc-9.8.1/network-control-0.0.2/html/index.html', 'usr/share/doc/x86_64-linux-ghc-9.8.1/network-control-0.0.2/html/linuwial.css', 'usr/share/doc/x86_64-linux-ghc-9.8.1/network-control-0.0.2/html/meta.json', 'usr/share/doc/x86_64-linux-ghc-9.8.1/network-control-0.0.2/html/network-control.haddock', 'usr/share/doc/x86_64-linux-ghc-9.8.1/network-control-0.0.2/html/quick-jump.css', 'usr/share/doc/x86_64-linux-ghc-9.8.1/network-control-0.0.2/html/synopsis.png', 'usr/share/haskell/', 'usr/share/haskell/haskell-network-control/', 'usr/share/haskell/haskell-network-control/register.sh', 'usr/share/haskell/haskell-network-control/unregister.sh']"
++++
+Library to control network protocols
