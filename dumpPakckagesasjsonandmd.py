@@ -4,6 +4,7 @@ import pacman
 import json
 import datetime
 import argparse
+from lunr import lunr
 
 parser = argparse.ArgumentParser(
                     prog='dumpPakckagesasjsonandmd.py',
@@ -13,6 +14,7 @@ parser = argparse.ArgumentParser(
 root = "/"
 parser.add_argument('-d', '--package_directory', help="Directory containing fdb and fpm files", default=root+"var/cache/pacman-g2/pkg") 
 parser.add_argument('-t', '--hugo_directory', help="Directory containing hugo", default="./")
+parser.add_argument('-j', '--json_path', help="Where to create index file", default="/pub/PagesIndex.json")
 parser.add_argument('-b', '--dbpath', help="Path to db")
 parser.add_argument('-n', '--dbname', help="Name of db", default="frugalware-current")
 
@@ -84,24 +86,6 @@ while i :
         builddate = pacman.void_to_char(pacman.pkg_getinfo(pacman.PKGp_to_PKG(full_pkg), pacman.PKG_BUILDDATE))
 
 
-    #    package_as_dict = {
-    #        'name' : name,
-    #        'version' : version ,
-    #        'desc' : pacman.void_to_char(pacman.pkg_getinfo(pkg, pacman.PKG_DESC)).decode('latin-1').encode("utf-8") ,
-    #        'groups' : groups,
-    #        'url' : url ,
-    #        'arch' : arch ,
-    #        'builddate' : pacman.void_to_char(pacman.pkg_getinfo(pkg, pacman.PKG_BUILDDATE)) ,
-    #        'size' : pacman.void_to_long(pacman.pkg_getinfo(pkg, pacman.PKG_SIZE)) ,
-    #        'usize' : pacman.void_to_long(pacman.pkg_getinfo(pkg, pacman.PKG_USIZE)) ,
-    #        'sha1sums' : pacman.void_to_char(pacman.pkg_getinfo(pkg, pacman.PKG_SHA1SUM)) ,
-    #        'depends' : depends ,
-    #        'license' : licenses,
-    #        'files' : files
-    #    }
-    #    packages_as_dict.append(package_as_dict)
-
-
         packages_as_dict[name] = {
             'name': name,
             'version' : version ,
@@ -143,8 +127,12 @@ while i :
 
     i = pacman.list_next(i)
 
+idx = lunr(
+    ref='name', fields=('desc', 'version'), documents=packages_as_dict
+)
 
-with open(args.hugo_directory+'static/js/lunr/PagesIndex.json', 'w') as f:
-    json.dump(list(packages_as_dict.values()), f, sort_keys=True, indent=4 * ' ')
+with open(args.json_path, 'w') as f:
+    print(idx, f)
+
 
 pacman.release()

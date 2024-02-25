@@ -72,28 +72,14 @@ window.onload = function() {
     searchInput = document.getElementById('search-input')
     searchResults = document.getElementById('search-results')
 
-    // request and index documents
-    fetch('/js/lunr/PagesIndex.json', {
+    // request prebuilt index
+    fetch('https://ftp.frugalware.org/pub/pub/PagesIndex.json', {
         method: 'get'
     }).then(
         res => res.json()
     ).then(
         res => {
-
-            // index document
-            idx = lunr(function() {
-                this.ref('name')
-                this.field('desc')
-                this.field('version')
-
-                res.forEach(function(doc) {
-                    this.add(doc)
-                    documents[doc.name] = {
-                        'desc': doc.desc,
-                        'version': doc.version,
-                    }
-                }, this)
-            })
+            idx = lunr.Index.load(JSON.parse(res))
 
             // data is loaded, next register handler
             registerSearchHandler()
