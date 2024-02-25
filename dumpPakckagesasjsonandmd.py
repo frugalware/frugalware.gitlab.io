@@ -84,6 +84,24 @@ while i :
         builddate = pacman.void_to_char(pacman.pkg_getinfo(pacman.PKGp_to_PKG(full_pkg), pacman.PKG_BUILDDATE))
 
 
+    #    package_as_dict = {
+    #        'name' : name,
+    #        'version' : version ,
+    #        'desc' : pacman.void_to_char(pacman.pkg_getinfo(pkg, pacman.PKG_DESC)).decode('latin-1').encode("utf-8") ,
+    #        'groups' : groups,
+    #        'url' : url ,
+    #        'arch' : arch ,
+    #        'builddate' : pacman.void_to_char(pacman.pkg_getinfo(pkg, pacman.PKG_BUILDDATE)) ,
+    #        'size' : pacman.void_to_long(pacman.pkg_getinfo(pkg, pacman.PKG_SIZE)) ,
+    #        'usize' : pacman.void_to_long(pacman.pkg_getinfo(pkg, pacman.PKG_USIZE)) ,
+    #        'sha1sums' : pacman.void_to_char(pacman.pkg_getinfo(pkg, pacman.PKG_SHA1SUM)) ,
+    #        'depends' : depends ,
+    #        'license' : licenses,
+    #        'files' : files
+    #    }
+    #    packages_as_dict.append(package_as_dict)
+
+
         packages_as_dict[name] = {
             'name': name,
             'version' : version ,
@@ -124,5 +142,9 @@ while i :
         f.close()
 
     i = pacman.list_next(i)
+
+
+with open(args.hugo_directory+'static/js/lunr/PagesIndex.json', 'w') as f:
+    json.dump(list(packages_as_dict.values()), f, sort_keys=True, indent=4 * ' ')
 
 pacman.release()
