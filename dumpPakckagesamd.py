@@ -83,21 +83,6 @@ while i :
         url = pacman.void_to_char(pacman.pkg_getinfo(pacman.PKGp_to_PKG(full_pkg), pacman.PKG_URL))
         builddate = pacman.void_to_char(pacman.pkg_getinfo(pacman.PKGp_to_PKG(full_pkg), pacman.PKG_BUILDDATE))
 
-
-        packages_as_dict[name] = {
-            'name': name,
-            'version' : version ,
-            'desc' : desc ,
-        }
-        if files:
-            packages_as_dict[name]['files'] = files
-        if url:
-            packages_as_dict[name]['url'] = url
-        if builddate:
-            packages_as_dict[name]['builddate'] = builddate
-        if licenses:
-            packages_as_dict[name]['licenses'] = licenses
-
         f = open(args.hugo_directory+'content/package/'+name+'.md', 'w')
         f.write("+++\n")
         f.write("draft = false\n")
