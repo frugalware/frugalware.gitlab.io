@@ -138,7 +138,7 @@ for package in cur:
     f.write(desc)
     f.write('{{< spoiler text="show files" >}}')
     for file in files:
-    f.write("* "+str(file)+"\n")
+        f.write("* "+str(file)+"\n")
     f.write("{{< /spoiler >}}")
     f.close()
 
