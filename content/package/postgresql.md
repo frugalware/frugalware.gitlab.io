@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "postgresql 16.1-2"
-version = "16.1-2"
+title = "postgresql 16.2-1"
+version = "16.2-1"
 description = "An advanced Object-Relational database management system (DBMS)"
-date = "2024-01-09T19:11:06"
+date = "2024-02-26T20:30:22"
 aliases = "/packages/3297"
 categories = ['apps-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "7036852"
-usize = "26273223"
-sha1sum = "e977a9f28d3f617fb703b3368f4aa3efffd8d586"
-depends = "['icu4c>=74.1', 'libpq>=16.1', 'libxml2>=2.9.4-3', 'ncurses>=6.1-2', 'openssl>=3.1.0', 'readline>=8.0']"
+size = "7040624"
+usize = "26281136"
+sha1sum = "726c6dcba86b2cac41eb2b5ef5b07949f1915bff"
+depends = "['icu4c>=74.1', 'libpq>=16.2', 'libxml2>=2.9.4-3', 'ncurses>=6.1-2', 'openssl>=3.1.0', 'readline>=8.0']"
 reverse_depends = "['openvas-manager', 'postgresql-docs', 'postgresql-plperl', 'postgresql-plpython', 'postgresql-pltcl', 'vtk']"
 +++
 ### Description: 
@@ -594,8 +594,10 @@ An advanced Object-Relational database management system (DBMS)
 * /usr/include/postgresql/server/pg_getopt.h
 * /usr/include/postgresql/server/pg_trace.h
 * /usr/include/postgresql/server/plperl.h
+* /usr/include/postgresql/server/plperl_system.h
 * /usr/include/postgresql/server/plpgsql.h
 * /usr/include/postgresql/server/plpython.h
+* /usr/include/postgresql/server/plpython_system.h
 * /usr/include/postgresql/server/plpy_cursorobject.h
 * /usr/include/postgresql/server/plpy_elog.h
 * /usr/include/postgresql/server/plpy_exec.h
@@ -985,10 +987,10 @@ An advanced Object-Relational database management system (DBMS)
 * /usr/lib/postgresql/utf8_and_uhc.so
 * /usr/lib/postgresql/utf8_and_win.so
 * /usr/lib/systemd/system/postgresql.service
-* /usr/share/doc/postgresql-16.1/COPYRIGHT
-* /usr/share/doc/postgresql-16.1/HISTORY
-* /usr/share/doc/postgresql-16.1/INSTALL
-* /usr/share/doc/postgresql-16.1/README
+* /usr/share/doc/postgresql-16.2/COPYRIGHT
+* /usr/share/doc/postgresql-16.2/HISTORY
+* /usr/share/doc/postgresql-16.2/INSTALL
+* /usr/share/doc/postgresql-16.2/README
 * /usr/share/man/man1/clusterdb.1.gz
 * /usr/share/man/man1/createdb.1.gz
 * /usr/share/man/man1/createuser.1.gz

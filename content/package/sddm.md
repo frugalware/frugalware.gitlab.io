@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sddm 0.20.0-3"
-version = "0.20.0-3"
+title = "sddm 0.21.0-1"
+version = "0.21.0-1"
 description = "QML based X11 display manager"
-date = "2024-01-07T16:57:31"
+date = "2024-02-26T21:09:03"
 aliases = "/packages/217437"
 categories = ['x11']
 upstreamurl = "https://github.com/sddm/sddm"
 arch = "x86_64"
-size = "3526952"
-usize = "4723937"
-sha1sum = "3e6e8503dd36f403c448a4d12a8d35fc7ec5952b"
+size = "3530700"
+usize = "4736306"
+sha1sum = "4d661070ebbd0a038eeb11b8afe5949d92d12b74"
 depends = "['hack', 'libsystemd>=242-4', 'libxau', 'qt5-declarative>=5.15.10', 'xauth']"
 reverse_depends = "['abstractdark-sddm-theme', 'hills', 'joe-theme1', 'lumina-desktop', 'sddm-deepin', 'sddm-kcm', 'solarized_sddm_theme', 'stellar']"
 +++
@@ -18,7 +18,6 @@ reverse_depends = "['abstractdark-sddm-theme', 'hills', 'joe-theme1', 'lumina-de
 QML based X11 display manager
 
 ### Files: 
-* /etc/dbus-1/system.d/org.freedesktop.DisplayManager.conf
 * /etc/pam.d/sddm
 * /etc/pam.d/sddm-autologin
 * /etc/pam.d/sddm-greeter
@@ -31,11 +30,12 @@ QML based X11 display manager
 * /usr/lib/systemd/system/sddm.service
 * /usr/lib/sysusers.d/sddm.conf
 * /usr/lib/tmpfiles.d/sddm.conf
-* /usr/share/doc/sddm-0.20.0/ChangeLog
-* /usr/share/doc/sddm-0.20.0/CONTRIBUTORS
-* /usr/share/doc/sddm-0.20.0/INSTALL.md
-* /usr/share/doc/sddm-0.20.0/LICENSE
-* /usr/share/doc/sddm-0.20.0/README.md
+* /usr/share/dbus-1/system.d/org.freedesktop.DisplayManager.conf
+* /usr/share/doc/sddm-0.21.0/ChangeLog
+* /usr/share/doc/sddm-0.21.0/CONTRIBUTORS
+* /usr/share/doc/sddm-0.21.0/INSTALL.md
+* /usr/share/doc/sddm-0.21.0/LICENSE
+* /usr/share/doc/sddm-0.21.0/README.md
 * /usr/share/man/man1/sddm-greeter.1.gz
 * /usr/share/man/man1/sddm.1.gz
 * /usr/share/man/man5/sddm-state.conf.5.gz
@@ -179,46 +179,47 @@ QML based X11 display manager
 * /usr/share/sddm/themes/maya/README
 * /usr/share/sddm/themes/maya/screenshots/hi_IN.png
 * /usr/share/sddm/themes/maya/theme.conf
-* /usr/share/sddm/translations/ar.qm
-* /usr/share/sddm/translations/bn.qm
-* /usr/share/sddm/translations/ca.qm
-* /usr/share/sddm/translations/cs.qm
-* /usr/share/sddm/translations/da.qm
-* /usr/share/sddm/translations/de.qm
-* /usr/share/sddm/translations/es.qm
-* /usr/share/sddm/translations/et.qm
-* /usr/share/sddm/translations/eu.qm
-* /usr/share/sddm/translations/fi.qm
-* /usr/share/sddm/translations/fr.qm
-* /usr/share/sddm/translations/gl.qm
-* /usr/share/sddm/translations/he.qm
-* /usr/share/sddm/translations/hi_IN.qm
-* /usr/share/sddm/translations/hu.qm
-* /usr/share/sddm/translations/ie.qm
-* /usr/share/sddm/translations/is.qm
-* /usr/share/sddm/translations/it.qm
-* /usr/share/sddm/translations/ja.qm
-* /usr/share/sddm/translations/ka.qm
-* /usr/share/sddm/translations/kk.qm
-* /usr/share/sddm/translations/ko.qm
-* /usr/share/sddm/translations/lt.qm
-* /usr/share/sddm/translations/lv.qm
-* /usr/share/sddm/translations/nb.qm
-* /usr/share/sddm/translations/nl.qm
-* /usr/share/sddm/translations/nn.qm
-* /usr/share/sddm/translations/oc.qm
-* /usr/share/sddm/translations/pl.qm
-* /usr/share/sddm/translations/pt_BR.qm
-* /usr/share/sddm/translations/pt_PT.qm
-* /usr/share/sddm/translations/ro.qm
-* /usr/share/sddm/translations/ru.qm
-* /usr/share/sddm/translations/sk.qm
-* /usr/share/sddm/translations/sr.qm
-* /usr/share/sddm/translations/sr@ijekavian.qm
-* /usr/share/sddm/translations/sr@ijekavianlatin.qm
-* /usr/share/sddm/translations/sr@latin.qm
-* /usr/share/sddm/translations/sv.qm
-* /usr/share/sddm/translations/tr.qm
-* /usr/share/sddm/translations/uk.qm
-* /usr/share/sddm/translations/zh_CN.qm
-* /usr/share/sddm/translations/zh_TW.qm
+* /usr/share/sddm/translations-qt5/ar.qm
+* /usr/share/sddm/translations-qt5/bg.qm
+* /usr/share/sddm/translations-qt5/bn.qm
+* /usr/share/sddm/translations-qt5/ca.qm
+* /usr/share/sddm/translations-qt5/cs.qm
+* /usr/share/sddm/translations-qt5/da.qm
+* /usr/share/sddm/translations-qt5/de.qm
+* /usr/share/sddm/translations-qt5/es.qm
+* /usr/share/sddm/translations-qt5/et.qm
+* /usr/share/sddm/translations-qt5/eu.qm
+* /usr/share/sddm/translations-qt5/fi.qm
+* /usr/share/sddm/translations-qt5/fr.qm
+* /usr/share/sddm/translations-qt5/gl.qm
+* /usr/share/sddm/translations-qt5/he.qm
+* /usr/share/sddm/translations-qt5/hi_IN.qm
+* /usr/share/sddm/translations-qt5/hu.qm
+* /usr/share/sddm/translations-qt5/ie.qm
+* /usr/share/sddm/translations-qt5/is.qm
+* /usr/share/sddm/translations-qt5/it.qm
+* /usr/share/sddm/translations-qt5/ja.qm
+* /usr/share/sddm/translations-qt5/ka.qm
+* /usr/share/sddm/translations-qt5/kk.qm
+* /usr/share/sddm/translations-qt5/ko.qm
+* /usr/share/sddm/translations-qt5/lt.qm
+* /usr/share/sddm/translations-qt5/lv.qm
+* /usr/share/sddm/translations-qt5/nb.qm
+* /usr/share/sddm/translations-qt5/nl.qm
+* /usr/share/sddm/translations-qt5/nn.qm
+* /usr/share/sddm/translations-qt5/oc.qm
+* /usr/share/sddm/translations-qt5/pl.qm
+* /usr/share/sddm/translations-qt5/pt_BR.qm
+* /usr/share/sddm/translations-qt5/pt_PT.qm
+* /usr/share/sddm/translations-qt5/ro.qm
+* /usr/share/sddm/translations-qt5/ru.qm
+* /usr/share/sddm/translations-qt5/sk.qm
+* /usr/share/sddm/translations-qt5/sr.qm
+* /usr/share/sddm/translations-qt5/sr@ijekavian.qm
+* /usr/share/sddm/translations-qt5/sr@ijekavianlatin.qm
+* /usr/share/sddm/translations-qt5/sr@latin.qm
+* /usr/share/sddm/translations-qt5/sv.qm
+* /usr/share/sddm/translations-qt5/tr.qm
+* /usr/share/sddm/translations-qt5/uk.qm
+* /usr/share/sddm/translations-qt5/zh_CN.qm
+* /usr/share/sddm/translations-qt5/zh_TW.qm

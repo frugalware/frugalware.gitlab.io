@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "postgresql-plpython 16.1-2"
-version = "16.1-2"
+title = "postgresql-plpython 16.2-1"
+version = "16.2-1"
 description = "PostgreSQL python bindings"
-date = "2024-01-09T19:11:06"
+date = "2024-02-26T20:30:22"
 aliases = "/packages/88518"
 categories = ['devel-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "43144"
+size = "43040"
 usize = "128080"
-sha1sum = "1850e15291ac6768ab21d9c52118e7c715f7adb4"
-depends = "['postgresql>=16.1', 'python3>=3.12']"
+sha1sum = "b243134c4288f2be08b2ef48c2cb6257be641cf3"
+depends = "['postgresql>=16.2', 'python3>=3.12']"
 +++
 ### Description: 
 PostgreSQL python bindings

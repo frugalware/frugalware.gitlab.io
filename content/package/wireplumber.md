@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wireplumber 0.4.81-1"
-version = "0.4.81-1"
+title = "wireplumber 0.4.82-1"
+version = "0.4.82-1"
 description = "Session / policy manager implementation for PipeWire"
-date = "2024-01-22T16:31:08"
+date = "2024-02-26T21:10:43"
 aliases = "/packages/220823"
 categories = ['apps-extra']
 upstreamurl = "https://pipewire.pages.freedesktop.org/wireplumber/"
 arch = "x86_64"
-size = "327772"
-usize = "1534537"
-sha1sum = "ad91e2904a81f4dfd1f0f9e1c5c8bd731fe1d1fd"
+size = "327060"
+usize = "1546055"
+sha1sum = "2a89a157d51ac256e0af9e642c27dec73f2971f1"
 depends = "['lua', 'pipewire']"
 reverse_depends = "['gst1-plugins-pipewire', 'pipewire-alsa', 'pipewire-jack', 'pipewire-pulse', 'pipewire-x11']"
 +++
@@ -62,7 +62,7 @@ Session / policy manager implementation for PipeWire
 * /usr/include/wireplumber-0.5/wp/wpversion.h
 * /usr/lib/libwireplumber-0.5.so
 * /usr/lib/libwireplumber-0.5.so.0
-* /usr/lib/libwireplumber-0.5.so.0.4.81
+* /usr/lib/libwireplumber-0.5.so.0.4.82
 * /usr/lib/pkgconfig/wireplumber-0.5.pc
 * /usr/lib/systemd/user/wireplumber.service
 * /usr/lib/systemd/user/wireplumber@.service
@@ -81,14 +81,15 @@ Session / policy manager implementation for PipeWire
 * /usr/lib/wireplumber-0.5/libwireplumber-module-si-node.so
 * /usr/lib/wireplumber-0.5/libwireplumber-module-si-standard-link.so
 * /usr/lib/wireplumber-0.5/libwireplumber-module-standard-event-source.so
-* /usr/share/doc/wireplumber-0.4.81/LICENSE
-* /usr/share/doc/wireplumber-0.4.81/README.rst
+* /usr/share/doc/wireplumber-0.4.82/LICENSE
+* /usr/share/doc/wireplumber-0.4.82/README.rst
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/access.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/alsa.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/bluetooth.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/device.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/libcamera.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/linking.conf
+* /usr/share/doc/wireplumber/examples/wireplumber.conf.d/log.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/stream.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/v4l2.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/virtual.conf
@@ -150,6 +151,7 @@ Session / policy manager implementation for PipeWire
 * /usr/share/pipewire/wireplumber.conf.d/alsa-vm.conf
 * /usr/share/wireplumber/scripts/client/access-default.lua
 * /usr/share/wireplumber/scripts/client/access-portal.lua
+* /usr/share/wireplumber/scripts/client/access-snap.lua
 * /usr/share/wireplumber/scripts/default-nodes/apply-default-node.lua
 * /usr/share/wireplumber/scripts/default-nodes/find-best-default-node.lua
 * /usr/share/wireplumber/scripts/default-nodes/find-selected-default-node.lua
@@ -160,6 +162,7 @@ Session / policy manager implementation for PipeWire
 * /usr/share/wireplumber/scripts/device/autoswitch-bluetooth-profile.lua
 * /usr/share/wireplumber/scripts/device/find-best-profile.lua
 * /usr/share/wireplumber/scripts/device/find-best-routes.lua
+* /usr/share/wireplumber/scripts/device/find-preferred-profile.lua
 * /usr/share/wireplumber/scripts/device/select-profile.lua
 * /usr/share/wireplumber/scripts/device/select-routes.lua
 * /usr/share/wireplumber/scripts/device/state-profile.lua
@@ -177,7 +180,6 @@ Session / policy manager implementation for PipeWire
 * /usr/share/wireplumber/scripts/lib/settings-manager.lua
 * /usr/share/wireplumber/scripts/lib/settings-monitor.lua
 * /usr/share/wireplumber/scripts/lib/settings-node.lua
-* /usr/share/wireplumber/scripts/linking/filter-forward-format.lua
 * /usr/share/wireplumber/scripts/linking/find-best-target.lua
 * /usr/share/wireplumber/scripts/linking/find-default-target.lua
 * /usr/share/wireplumber/scripts/linking/find-defined-target.lua
@@ -206,6 +208,7 @@ Session / policy manager implementation for PipeWire
 * /usr/share/wireplumber/scripts/monitors/v4l2/name-node.lua
 * /usr/share/wireplumber/scripts/node/create-item.lua
 * /usr/share/wireplumber/scripts/node/create-virtual-item.lua
+* /usr/share/wireplumber/scripts/node/filter-forward-format.lua
 * /usr/share/wireplumber/scripts/node/state-stream.lua
 * /usr/share/wireplumber/scripts/node/suspend-node.lua
 * /usr/share/wireplumber/scripts/policy-dsp.lua
