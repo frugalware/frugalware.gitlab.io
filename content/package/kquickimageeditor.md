@@ -11,7 +11,7 @@ size = "29364"
 usize = "134999"
 sha1sum = "d67ec3cecd4943ed165e277dbfa2c82285309a66"
 depends = "['qt5-declarative']"
-reverse depends = "['koko', 'neochat', 'skanpage']"
+reverse_depends = "['koko', 'neochat', 'skanpage']"
 files = "['/usr/lib/cmake/KQuickImageEditor/KQuickImageEditorConfig.cmake', '/usr/lib/cmake/KQuickImageEditor/KQuickImageEditorConfigVersion.cmake', '/usr/share/doc/kquickimageeditor-0.3.0/README.md', '/usr/share/qt5/mkspecs/modules/qt_KQuickImageEditor.pri', '/usr/share/qt5/qml/org/kde/kquickimageeditor/BasicResizeHandle.qml', '/usr/share/qt5/qml/org/kde/kquickimageeditor/CropBackground.qml', '/usr/share/qt5/qml/org/kde/kquickimageeditor/libkquickimageeditorplugin.so', '/usr/share/qt5/qml/org/kde/kquickimageeditor/qmldir', '/usr/share/qt5/qml/org/kde/kquickimageeditor/RectangleCutout.qml', '/usr/share/qt5/qml/org/kde/kquickimageeditor/SelectionBackground.qml', '/usr/share/qt5/qml/org/kde/kquickimageeditor/SelectionHandle.qml', '/usr/share/qt5/qml/org/kde/kquickimageeditor/SelectionTool.qml']"
 +++
 QML image editing components

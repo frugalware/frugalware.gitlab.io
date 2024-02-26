@@ -11,7 +11,7 @@ size = "545872"
 usize = "602757"
 sha1sum = "f71f6fb720e01fa51c0457219ecda06a80af530b"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-pt-BR@firefox.mozilla.org.xpi']"
 +++
 Brazilian Portuguese language support for Firefox

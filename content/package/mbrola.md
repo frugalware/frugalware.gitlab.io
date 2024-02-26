@@ -11,7 +11,7 @@ size = "37448"
 usize = "102754"
 sha1sum = "d8e1efbb6eba5b250739d603cc417a2e6839442f"
 depends = "['glibc']"
-reverse depends = "['mbrola-de', 'mbrola-en', 'mbrola-es', 'mbrola-fr']"
+reverse_depends = "['mbrola-de', 'mbrola-en', 'mbrola-es', 'mbrola-fr']"
 files = "['/usr/bin/mbrola', '/usr/share/doc/mbrola-3.3/LICENSE', '/usr/share/doc/mbrola-3.3/README.md', '/usr/share/doc/mbrola-3.3/README_Makefile.md', '/usr/share/mbrola/mbrola']"
 +++
 Speech synthesizer based on the concatenation of diphones.

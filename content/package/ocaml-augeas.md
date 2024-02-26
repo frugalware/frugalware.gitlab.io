@@ -11,7 +11,7 @@ size = "63960"
 usize = "123273"
 sha1sum = "e4d3424ed0d5ad0a50edd2529370010c270e6645"
 depends = "['augeas']"
-reverse depends = "['libguestfs-ocaml']"
+reverse_depends = "['libguestfs-ocaml']"
 files = "['/usr/lib/ocaml/augeas/augeas.cmi', '/usr/lib/ocaml/augeas/augeas.cmx', '/usr/lib/ocaml/augeas/augeas.mli', '/usr/lib/ocaml/augeas/libmlaugeas.a', '/usr/lib/ocaml/augeas/META', '/usr/lib/ocaml/augeas/mlaugeas.a', '/usr/lib/ocaml/augeas/mlaugeas.cma', '/usr/lib/ocaml/augeas/mlaugeas.cmxa', '/usr/lib/ocaml/stublibs/dllmlaugeas.so', '/usr/lib/ocaml/stublibs/dllmlaugeas.so.owner', '/usr/share/doc/ocaml-augeas-0.6/COPYING.LIB', '/usr/share/doc/ocaml-augeas-0.6/MANIFEST']"
 +++
 OCaml bindings for Augeas

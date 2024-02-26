@@ -11,7 +11,7 @@ size = "62160"
 usize = "234027"
 sha1sum = "fc960b00716897418c5aa4399803cf7daf3de4ff"
 depends = "['glibc>=2.34']"
-reverse depends = "['kopete', 'qt5-webengine']"
+reverse_depends = "['kopete', 'qt5-webengine']"
 files = "['/usr/include/srtp2/auth.h', '/usr/include/srtp2/cipher.h', '/usr/include/srtp2/crypto_types.h', '/usr/include/srtp2/srtp.h', '/usr/lib/libsrtp2.so', '/usr/lib/libsrtp2.so.1', '/usr/lib/pkgconfig/libsrtp2.pc', '/usr/share/doc/libsrtp-2.6.0/CHANGES', '/usr/share/doc/libsrtp-2.6.0/LICENSE', '/usr/share/doc/libsrtp-2.6.0/README.md']"
 +++
 Library for SRTP (Secure Realtime Transport Protocol)

@@ -11,7 +11,7 @@ size = "414676"
 usize = "477615"
 sha1sum = "dda4c78e3d885f754013ee765a2a3b8a9185fe54"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-lij@firefox.mozilla.org.xpi']"
 +++
 Ligurian language support for Firefox

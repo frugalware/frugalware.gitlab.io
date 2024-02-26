@@ -11,7 +11,7 @@ size = "36228"
 usize = "98107"
 sha1sum = "94125e2569c6b6c0afaf8255e984e211636e6233"
 depends = "['libxmu>=1.1.2-3']"
-reverse depends = "['i3', 'plasma-workspace']"
+reverse_depends = "['i3', 'plasma-workspace']"
 files = "['/usr/bin/xset', '/usr/share/doc/xset-1.2.5/ChangeLog', '/usr/share/doc/xset-1.2.5/COPYING', '/usr/share/doc/xset-1.2.5/INSTALL', '/usr/share/doc/xset-1.2.5/README.md', '/usr/share/man/man1/xset.1.gz']"
 license = "GPL2"
 +++

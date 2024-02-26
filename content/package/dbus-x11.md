@@ -11,7 +11,7 @@ size = "15060"
 usize = "30568"
 sha1sum = "f5b8963c6c65736bd5bb3ec1ad8821e7de82f590"
 depends = "['dbus>=1.14.10', 'libsm>=1.2.2-9', 'libx11>=1.6.3-5']"
-reverse depends = "['pidgin', 'qt5-qdbus', 'virt-manager']"
+reverse_depends = "['pidgin', 'qt5-qdbus', 'virt-manager']"
 files = "['/usr/bin/dbus-launch']"
 +++
 X based tools for D-BUS.

@@ -11,7 +11,7 @@ size = "228444"
 usize = "703949"
 sha1sum = "4a53cdfc443362cda47f3e9d19214d8f884f5528"
 depends = "['jasper>=2.0.10', 'libmng>=2.0.3', 'libpng>=1.6.25', 'openexr', 'sdl']"
-reverse depends = "['graphviz', 'spring']"
+reverse_depends = "['graphviz', 'spring']"
 files = "['/usr/include/IL/il.h', '/usr/include/IL/ilu.h', '/usr/include/IL/ilut.h', '/usr/lib/libIL.so', '/usr/lib/libILU.so', '/usr/lib/libILUT.so', '/usr/lib/pkgconfig/IL.pc', '/usr/lib/pkgconfig/ILU.pc', '/usr/lib/pkgconfig/ILUT.pc', '/usr/share/doc/devil-1.8.0/LICENSE', '/usr/share/doc/devil-1.8.0/README.md']"
 +++
 Library for reading several different image formats

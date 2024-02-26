@@ -11,7 +11,7 @@ size = "28052"
 usize = "99357"
 sha1sum = "1ef45745429198f2d86f20df042679fece8de8f9"
 depends = "['networkmanager']"
-reverse depends = "['nm-pptp']"
+reverse_depends = "['nm-pptp']"
 files = "['/usr/lib/nm-pptp/nm-pptp-service', '/usr/lib/pppd/2.4.9/nm-pptp-pppd-plugin.so', '/usr/share/dbus-1/system.d/nm-pptp-service.conf', '/usr/share/metainfo/network-manager-pptp.metainfo.xml']"
 +++
 network management framework (PPTP plugin) without GNOME

@@ -11,7 +11,7 @@ size = "22380"
 usize = "73924"
 sha1sum = "fe2c2438f8c6954f07ecdfacbc294a86dadf311d"
 depends = "['glibc']"
-reverse depends = "['libgit2', 'restinio']"
+reverse_depends = "['libgit2', 'restinio']"
 files = "['/usr/include/http_parser.h', '/usr/lib/libhttp_parser.so', '/usr/lib/libhttp_parser.so.2.9', '/usr/lib/libhttp_parser.so.2.9.4', '/usr/share/doc/http-parser-2.9.4/AUTHORS', '/usr/share/doc/http-parser-2.9.4/README.md']"
 +++
 Parser for HTTP Request/Response written in C

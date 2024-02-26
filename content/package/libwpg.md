@@ -11,7 +11,7 @@ size = "87336"
 usize = "289052"
 sha1sum = "7af66ba5e80bbc00c855262467426de2dc4dd360"
 depends = "['libstdc++>=6.2.1-5', 'libwpd>=0.10.1-5']"
-reverse depends = "['libcdr', 'libfreehand', 'libmspub', 'libmwaw', 'libvisio']"
+reverse_depends = "['libcdr', 'libfreehand', 'libmspub', 'libmwaw', 'libvisio']"
 files = "['/usr/bin/wpg2raw', '/usr/bin/wpg2svg', '/usr/bin/wpg2svgbatch.pl', '/usr/include/libwpg-0.3/libwpg/libwpg.h', '/usr/include/libwpg-0.3/libwpg/WPGraphics.h', '/usr/lib/libwpg-0.3.so', '/usr/lib/libwpg-0.3.so.3', '/usr/lib/libwpg-0.3.so.3.0.4', '/usr/lib/pkgconfig/libwpg-0.3.pc', '/usr/share/doc/libwpg-0.3.4/AUTHORS', '/usr/share/doc/libwpg-0.3.4/ChangeLog', '/usr/share/doc/libwpg-0.3.4/COPYING.LGPL', '/usr/share/doc/libwpg-0.3.4/COPYING.MPL', '/usr/share/doc/libwpg-0.3.4/NEWS', '/usr/share/doc/libwpg-0.3.4/README']"
 +++
 A C++ library to read and parse graphics in WPG

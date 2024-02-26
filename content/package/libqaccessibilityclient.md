@@ -11,7 +11,7 @@ size = "68932"
 usize = "248899"
 sha1sum = "f8166501e02419955ffcb0fb3cfc45deea5ee4a2"
 depends = "['qt5-base>=']"
-reverse depends = "['kmag', 'kwin5']"
+reverse_depends = "['kmag', 'kwin5']"
 files = "['/usr/include/QAccessibilityClient/qaccessibilityclient/accessibleobject.h', '/usr/include/QAccessibilityClient/qaccessibilityclient/libqaccessibilityclient-version.h', '/usr/include/QAccessibilityClient/qaccessibilityclient/qaccessibilityclient_export.h', '/usr/include/QAccessibilityClient/qaccessibilityclient/registry.h', '/usr/include/QAccessibilityClient/qaccessibilityclient/registrycache_p.h', '/usr/lib/cmake/QAccessibilityClient/QAccessibilityClient-release.cmake', '/usr/lib/cmake/QAccessibilityClient/QAccessibilityClient.cmake', '/usr/lib/cmake/QAccessibilityClient/QAccessibilityClientConfig.cmake', '/usr/lib/cmake/QAccessibilityClient/QAccessibilityClientConfigVersion.cmake', '/usr/lib/libqaccessibilityclient-qt5.so', '/usr/lib/libqaccessibilityclient-qt5.so.0', '/usr/lib/libqaccessibilityclient-qt5.so.0.6.0', '/usr/share/doc/libqaccessibilityclient-0.6.0/AUTHORS', '/usr/share/doc/libqaccessibilityclient-0.6.0/README.md', '/usr/share/qlogging-categories5/libqaccessibilityclient.categories']"
 +++
 Helper library to make writing accessibility tools easier

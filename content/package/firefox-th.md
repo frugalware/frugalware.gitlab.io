@@ -11,7 +11,7 @@ size = "621992"
 usize = "675224"
 sha1sum = "1314d0dd1330efa88358324cb72dc80a691f34d9"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-th@firefox.mozilla.org.xpi']"
 +++
 Thai language support for Firefox

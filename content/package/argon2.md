@@ -11,7 +11,7 @@ size = "31076"
 usize = "113485"
 sha1sum = "82ad54ee1d7d33e7585be0828e63de21e561578b"
 depends = "['glibc>=2.35']"
-reverse depends = "['cryptsetup-luks', 'keepassxc', 'opendht']"
+reverse_depends = "['cryptsetup-luks', 'keepassxc', 'opendht']"
 files = "['/usr/bin/argon2', '/usr/include/argon2.h', '/usr/lib/libargon2.so', '/usr/lib/libargon2.so.1', '/usr/lib/pkgconfig/libargon2.pc', '/usr/share/doc/argon2-20190702/LICENSE', '/usr/share/doc/argon2-20190702/README.md']"
 license = "custom:CC0"
 +++

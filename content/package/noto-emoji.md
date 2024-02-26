@@ -11,7 +11,7 @@ size = "18221120"
 usize = "20177346"
 sha1sum = "43884ef3fb6cc1eed09c17b0e41cedb84ba7c223"
 depends = "['fontconfig', 'mkfontscale']"
-reverse depends = "['plasma-integration', 'tootle']"
+reverse_depends = "['plasma-integration', 'tootle']"
 files = "['/usr/share/doc/noto-emoji-20170821/AUTHORS', '/usr/share/doc/noto-emoji-20170821/CONTRIBUTORS', '/usr/share/doc/noto-emoji-20170821/LICENSE', '/usr/share/doc/noto-emoji-20170821/README.md', '/usr/share/fonts/X11/TTF/NotoColorEmoji.ttf', '/usr/share/fonts/X11/TTF/NotoColorEmoji_WindowsCompatible.ttf', '/usr/share/fonts/X11/TTF/NotoEmoji-Regular.ttf']"
 +++
 Noto Emoji fonts

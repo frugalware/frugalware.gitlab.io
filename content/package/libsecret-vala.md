@@ -11,7 +11,7 @@ size = "4956"
 usize = "27373"
 sha1sum = "3bdee205c48e03e27940727777a1ad13cd1a1f97"
 depends = "['vala>=0.40.0']"
-reverse depends = "['seahorse']"
+reverse_depends = "['seahorse']"
 files = "['/usr/share/vala/vapi/libsecret-1.deps', '/usr/share/vala/vapi/libsecret-1.vapi']"
 +++
 Libsecret Vala Bindings

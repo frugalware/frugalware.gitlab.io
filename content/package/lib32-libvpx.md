@@ -11,7 +11,7 @@ size = "1031276"
 usize = "3487368"
 sha1sum = "bafcc3cfb301e59e92ad8b034bfb92437fbeb644"
 depends = "[]"
-reverse depends = "['lib32-ffmpeg']"
+reverse_depends = "['lib32-ffmpeg']"
 files = "['/usr/lib32/libvpx.so', '/usr/lib32/libvpx.so.9', '/usr/lib32/libvpx.so.9.0', '/usr/lib32/libvpx.so.9.0.0', '/usr/lib32/pkgconfig/vpx.pc']"
 +++
 WebM VP8 VP9 Codec SDK ( 32bit )

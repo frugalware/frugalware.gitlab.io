@@ -11,7 +11,7 @@ size = "8788"
 usize = "37906"
 sha1sum = "1a2ed94904d882d2d7a001e0bf23e4ee878eb415"
 depends = "['glibc>=2.34']"
-reverse depends = "['kwin5', 'xorg-server', 'xorg-server-xwayland']"
+reverse_depends = "['kwin5', 'xorg-server', 'xorg-server-xwayland']"
 files = "['/usr/bin/cvt', '/usr/include/libxcvt/libxcvt.h', '/usr/include/libxcvt/libxcvt_mode.h', '/usr/lib/libxcvt.so', '/usr/lib/libxcvt.so.0', '/usr/lib/libxcvt.so.0.1.2', '/usr/lib/pkgconfig/libxcvt.pc', '/usr/share/doc/libxcvt-0.1.2/COPYING', '/usr/share/doc/libxcvt-0.1.2/README.md', '/usr/share/man/man1/cvt.1.gz']"
 license = "GPL2"
 +++

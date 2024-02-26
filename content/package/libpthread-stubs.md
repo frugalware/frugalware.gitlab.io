@@ -11,7 +11,7 @@ size = "4072"
 usize = "4882"
 sha1sum = "679c80a2689781997bf5031c043a7b65f02d0101"
 depends = "['glibc>=2.3.4']"
-reverse depends = "['criu', 'x11-protos', 'xcb-proto']"
+reverse_depends = "['criu', 'x11-protos', 'xcb-proto']"
 files = "['/usr/lib/pkgconfig/pthread-stubs.pc', '/usr/share/doc/libpthread-stubs-0.5/COPYING', '/usr/share/doc/libpthread-stubs-0.5/README']"
 +++
 X.org Stubs missing from libc for standard pthread functions

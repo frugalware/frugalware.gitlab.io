@@ -11,7 +11,7 @@ size = "21788"
 usize = "82337"
 sha1sum = "3bbb8fbcf8eb8cda0407fd8385d0d82cb16bffc9"
 depends = "['glibc>=2.34']"
-reverse depends = "['cups-filters', 'ghostscript', 'libgs']"
+reverse_depends = "['cups-filters', 'ghostscript', 'libgs']"
 files = "['/usr/bin/ijs-config', '/usr/bin/ijs_client_example', '/usr/bin/ijs_server_example', '/usr/include/ijs/ijs.h', '/usr/include/ijs/ijs_client.h', '/usr/include/ijs/ijs_server.h', '/usr/lib/libijs-0.35.so', '/usr/lib/libijs.so', '/usr/lib/pkgconfig/ijs.pc', '/usr/share/doc/ijs-0.35/README', '/usr/share/man/man1/ijs-config.1.gz']"
 +++
 Backends, filters and other software from CUPS distribution.

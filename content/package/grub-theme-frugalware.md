@@ -11,7 +11,7 @@ size = "1640864"
 usize = "1637918"
 sha1sum = "232cf4faa7a5cdf7a91da669ad9e848cd3d33ce3"
 depends = "['scriptlet-core']"
-reverse depends = "['grub2']"
+reverse_depends = "['grub2']"
 files = "['/boot/grub/background.png', '/etc/grub.d/05_theme']"
 +++
 Frugalware theme for GNU GRand Unified Bootloader

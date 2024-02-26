@@ -11,7 +11,7 @@ size = "669124"
 usize = "735066"
 sha1sum = "ac4e87586df13905780bff1c8fc640c2cc6fb55b"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-es-AR@thunderbird.mozilla.org.xpi']"
 +++
 Argentine Spanish language support for Thunderbird

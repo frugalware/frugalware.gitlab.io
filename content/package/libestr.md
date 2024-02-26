@@ -11,7 +11,7 @@ size = "33524"
 usize = "98849"
 sha1sum = "2131e7f985c1335f6ab717d3d0854d047b817e13"
 depends = "['glibc>=2.34']"
-reverse depends = "['rsyslog']"
+reverse_depends = "['rsyslog']"
 files = "['/usr/include/libestr.h', '/usr/lib/libestr.so', '/usr/lib/libestr.so.0', '/usr/lib/libestr.so.0.0.0', '/usr/lib/pkgconfig/libestr.pc', '/usr/share/doc/libestr-0.1.11/AUTHORS', '/usr/share/doc/libestr-0.1.11/ChangeLog', '/usr/share/doc/libestr-0.1.11/COPYING', '/usr/share/doc/libestr-0.1.11/INSTALL', '/usr/share/doc/libestr-0.1.11/NEWS', '/usr/share/doc/libestr-0.1.11/README']"
 license = "LGPL2.1"
 +++

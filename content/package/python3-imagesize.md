@@ -11,7 +11,7 @@ size = "12800"
 usize = "34443"
 sha1sum = "79ca6a1317ab125aa2aed81ce521096d92b1b4bd"
 depends = "['python3>=3.12']"
-reverse depends = "['python3-sphinx']"
+reverse_depends = "['python3-sphinx']"
 files = "['/usr/lib/python3.12/site-packages/imagesize-1.4.1-py3.12.egg-info/dependency_links.txt', '/usr/lib/python3.12/site-packages/imagesize-1.4.1-py3.12.egg-info/PKG-INFO', '/usr/lib/python3.12/site-packages/imagesize-1.4.1-py3.12.egg-info/SOURCES.txt', '/usr/lib/python3.12/site-packages/imagesize-1.4.1-py3.12.egg-info/top_level.txt', '/usr/lib/python3.12/site-packages/imagesize/imagesize.py', '/usr/lib/python3.12/site-packages/imagesize/__init__.py', '/usr/lib/python3.12/site-packages/imagesize/__pycache__/imagesize.cpython-312.pyc', '/usr/lib/python3.12/site-packages/imagesize/__pycache__/__init__.cpython-312.pyc', '/usr/share/doc/python3-imagesize-1.4.1/README.rst']"
 +++
 Getting image size from png/jpeg/jpeg2000/gif file

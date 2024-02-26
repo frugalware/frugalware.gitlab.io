@@ -11,7 +11,7 @@ size = "194940"
 usize = "457322"
 sha1sum = "3a0d6bde2c2abd1266310aeb564ca8e9e286c1f5"
 depends = "['openssl>=3.1.0']"
-reverse depends = "['nmap']"
+reverse_depends = "['nmap']"
 files = "['/usr/bin/nc', '/usr/bin/ncat', '/usr/bin/netcat', '/usr/share/man/man1/ncat.1.gz', '/usr/share/man/man1/netcat.1.gz']"
 +++
 Ncat is a feature-packed networking utility which reads and writes data across networks

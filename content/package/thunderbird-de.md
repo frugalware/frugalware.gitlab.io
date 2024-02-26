@@ -11,7 +11,7 @@ size = "679404"
 usize = "740823"
 sha1sum = "82ad96791578c99879278dc14ab969a3814d4797"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-de@thunderbird.mozilla.org.xpi']"
 +++
 German language support for Thunderbird

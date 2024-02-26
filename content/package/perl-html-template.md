@@ -11,7 +11,7 @@ size = "61176"
 usize = "182344"
 sha1sum = "1cb951e8b5e2f2b6fdf550d010566c00a3375608"
 depends = "['perl>=5.34.0']"
-reverse depends = "['munin']"
+reverse_depends = "['munin']"
 files = "['/usr/lib/perl5/site_perl/current/HTML/Template.pm', '/usr/lib/perl5/site_perl/current/HTML/Template/FAQ.pm', '/usr/share/doc/perl-html-template-2.97/LICENSE', '/usr/share/doc/perl-html-template-2.97/MANIFEST', '/usr/share/doc/perl-html-template-2.97/README', '/usr/share/man/man3/HTML::Template.3perl.gz', '/usr/share/man/man3/HTML::Template::FAQ.3perl.gz']"
 +++
 Perl module to use HTML Templates from CGI scripts

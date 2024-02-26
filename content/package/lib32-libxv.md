@@ -11,7 +11,7 @@ size = "11780"
 usize = "37153"
 sha1sum = "ca5bd4d42a7bd06d185d37be294efde24e915849"
 depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxau>=1.0.8-3', 'lib32-libxext>=1.3.3-3']"
-reverse depends = "['lib32-ffmpeg', 'lib32-libxvmc']"
+reverse_depends = "['lib32-ffmpeg', 'lib32-libxvmc']"
 files = "['/usr/i686-frugalware-linux/include/X11/extensions/Xvlib.h', '/usr/lib32/libXv.so', '/usr/lib32/libXv.so.1', '/usr/lib32/libXv.so.1.0.0', '/usr/lib32/pkgconfig/xv.pc']"
 +++
 X.Org Xv library ( 32bit )

@@ -11,7 +11,7 @@ size = "528936"
 usize = "584872"
 sha1sum = "12c407b50f71781885dd2b6ce25d8e6e098c546a"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-nn-NO@firefox.mozilla.org.xpi']"
 +++
 Norwegian Nynorsk language support for Firefox

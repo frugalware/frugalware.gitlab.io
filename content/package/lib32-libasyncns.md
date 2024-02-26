@@ -11,7 +11,7 @@ size = "10060"
 usize = "26003"
 sha1sum = "d4a631d4e21ee10a7b2b8b03976053be466df14e"
 depends = "[]"
-reverse depends = "['lib32-libpulse']"
+reverse_depends = "['lib32-libpulse']"
 files = "['/usr/lib32/libasyncns.so', '/usr/lib32/libasyncns.so.0', '/usr/lib32/libasyncns.so.0.3.1', '/usr/lib32/pkgconfig/libasyncns.pc']"
 +++
 libasyncns is a C library for Linux/Unix for executing name service queries asynchronously ( 32bit )

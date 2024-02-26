@@ -11,7 +11,7 @@ size = "49800"
 usize = "195318"
 sha1sum = "5daa04f4b57528d2f3ebedff04d8f0751d908e80"
 depends = "['freeglut>=3.0.0-2', 'glew>=2.2.0']"
-reverse depends = "['openscad']"
+reverse_depends = "['openscad']"
 files = "['/usr/include/opencsg.h', '/usr/lib/libopencsg.so', '/usr/lib/libopencsg.so.1', '/usr/lib/libopencsg.so.1.4', '/usr/lib/libopencsg.so.1.6.0', '/usr/share/doc/opencsg-1.6.0/README.md']"
 license = "GPLv2"
 +++

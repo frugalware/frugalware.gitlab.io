@@ -11,7 +11,7 @@ size = "274200"
 usize = "306850"
 sha1sum = "acd9d11b28322b44883a09c17ee0cb4294a0ee1f"
 depends = "['openjre']"
-reverse depends = "['junit', 'junit3']"
+reverse_depends = "['junit', 'junit3']"
 files = "['/usr/share/java/hamcrest/hamcrest-all-1.3.jar', '/usr/share/java/hamcrest/hamcrest-core.jar', '/usr/share/java/hamcrest/hamcrest-generator.jar', '/usr/share/java/hamcrest/hamcrest-integration.jar']"
 +++
 Library of matchers for building test expressions.

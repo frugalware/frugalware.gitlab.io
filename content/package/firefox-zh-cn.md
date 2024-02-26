@@ -11,7 +11,7 @@ size = "580864"
 usize = "636727"
 sha1sum = "f7440744e476b5cb0436a0e04895d10de7121214"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-zh-CN@firefox.mozilla.org.xpi']"
 +++
 Chinese Simplified language support for Firefox

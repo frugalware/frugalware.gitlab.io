@@ -11,7 +11,7 @@ size = "21660"
 usize = "69979"
 sha1sum = "d9088aef575d7ec6a4bf1e3e8904ae882222c859"
 depends = "['libxtst']"
-reverse depends = "['kdeconnect-kde']"
+reverse_depends = "['kdeconnect-kde']"
 files = "['/usr/include/fakekey/fakekey.h', '/usr/lib/libfakekey.so', '/usr/lib/libfakekey.so.0', '/usr/lib/libfakekey.so.0.0.1', '/usr/lib/pkgconfig/libfakekey.pc', '/usr/share/doc/libfakekey-0.3/ChangeLog', '/usr/share/doc/libfakekey-0.3/COPYING', '/usr/share/doc/libfakekey-0.3/INSTALL']"
 +++
 Library for simulating key press events under X11

@@ -11,7 +11,7 @@ size = "563716"
 usize = "618418"
 sha1sum = "85f9d25100284bf6362ebc4415604462ddb04609"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-gn@firefox.mozilla.org.xpi']"
 +++
 Guarani language support for Firefox

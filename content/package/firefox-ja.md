@@ -11,7 +11,7 @@ size = "605840"
 usize = "659306"
 sha1sum = "8129dc89ed3afb662837f61cdaad9713e0507071"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-ja@firefox.mozilla.org.xpi']"
 +++
 Japanese language support for Firefox

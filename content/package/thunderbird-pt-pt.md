@@ -11,7 +11,7 @@ size = "633372"
 usize = "702844"
 sha1sum = "4109a4f59235fd7817e11832e398ebb9bf7e6414"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-pt-PT@thunderbird.mozilla.org.xpi']"
 +++
 Portuguese language support for Thunderbird

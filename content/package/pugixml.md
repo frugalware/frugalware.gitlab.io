@@ -11,7 +11,7 @@ size = "89260"
 usize = "293153"
 sha1sum = "b3a972f0fdfeda5c4177d237cb5be2f220bf9a21"
 depends = "['glibc>=2.29-6']"
-reverse depends = "['darktable', 'manaplus', 'mkvtoolnix', 'ogre', 'openshadinglanguage', 'poedit']"
+reverse_depends = "['darktable', 'manaplus', 'mkvtoolnix', 'ogre', 'openshadinglanguage', 'poedit']"
 files = "['/etc/ld.so.conf.d/pugixml.conf', '/usr/include/pugiconfig.hpp', '/usr/include/pugixml.hpp', '/usr/lib/cmake/pugixml/pugixml-config-version.cmake', '/usr/lib/cmake/pugixml/pugixml-config.cmake', '/usr/lib/cmake/pugixml/pugixml-targets-release.cmake', '/usr/lib/cmake/pugixml/pugixml-targets.cmake', '/usr/lib/libpugixml.so', '/usr/lib/libpugixml.so.1', '/usr/lib/libpugixml.so.1.14', '/usr/lib/pkgconfig/pugixml.pc', '/usr/share/doc/pugixml-1.14/README.md']"
 +++
 Light-weight, simple and fast XML parser for C++ with XPath support

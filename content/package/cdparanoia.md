@@ -11,7 +11,7 @@ size = "82108"
 usize = "242419"
 sha1sum = "df1406815f7df3546efcfc2ca468714f7b494733"
 depends = "['glibc>=2.34']"
-reverse depends = "['audiocd-kio', 'gst1-plugins-base-cdparanoia', 'mencoder', 'mplayer', 'mpv']"
+reverse_depends = "['audiocd-kio', 'gst1-plugins-base-cdparanoia', 'mencoder', 'mplayer', 'mpv']"
 files = "['/usr/bin/cdparanoia', '/usr/include/cdda_interface.h', '/usr/include/cdda_paranoia.h', '/usr/include/utils.h', '/usr/lib/libcdda_interface.so', '/usr/lib/libcdda_interface.so.0', '/usr/lib/libcdda_interface.so.0.10.2', '/usr/lib/libcdda_paranoia.so', '/usr/lib/libcdda_paranoia.so.0', '/usr/lib/libcdda_paranoia.so.0.10.2', '/usr/share/doc/cdparanoia-10.2/COPYING-GPL', '/usr/share/doc/cdparanoia-10.2/COPYING-LGPL', '/usr/share/doc/cdparanoia-10.2/README', '/usr/share/man/man1/cdparanoia.1.gz']"
 +++
 A CD ripping application

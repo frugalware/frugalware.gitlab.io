@@ -11,7 +11,7 @@ size = "90940"
 usize = "261698"
 sha1sum = "3a796f49c14102a4a1423fcf257e0ae6e44c03b1"
 depends = "['libx11>=1.6.4-3']"
-reverse depends = "['freerdp', 'gnome-desktop', 'libxkbui', 'oclock', 'plasma-desktop', 'pulsar', 'setxkbmap', 'vscode', 'xclock', 'xfd', 'xkbcomp', 'xkbevd', 'xkbprint', 'xterm', 'xwd']"
+reverse_depends = "['freerdp', 'gnome-desktop', 'libxkbui', 'oclock', 'plasma-desktop', 'pulsar', 'setxkbmap', 'vscode', 'xclock', 'xfd', 'xkbcomp', 'xkbevd', 'xkbprint', 'xterm', 'xwd']"
 files = "['/usr/include/X11/extensions/XKBbells.h', '/usr/include/X11/extensions/XKBconfig.h', '/usr/include/X11/extensions/XKBfile.h', '/usr/include/X11/extensions/XKBrules.h', '/usr/include/X11/extensions/XKM.h', '/usr/include/X11/extensions/XKMformat.h', '/usr/lib/libxkbfile.so', '/usr/lib/libxkbfile.so.1', '/usr/lib/libxkbfile.so.1.0.2', '/usr/lib/pkgconfig/xkbfile.pc', '/usr/share/doc/libxkbfile-1.1.3/ChangeLog', '/usr/share/doc/libxkbfile-1.1.3/COPYING', '/usr/share/doc/libxkbfile-1.1.3/INSTALL', '/usr/share/doc/libxkbfile-1.1.3/README.md']"
 license = "GPL2"
 +++

@@ -11,7 +11,7 @@ size = "715796"
 usize = "778165"
 sha1sum = "ba8fef6bf32a4802ccbd683888573d96c1fde4eb"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-bg@thunderbird.mozilla.org.xpi']"
 +++
 Bulgarian language support for Thunderbird

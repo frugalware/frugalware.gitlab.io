@@ -11,7 +11,7 @@ size = "22876044"
 usize = "94685162"
 sha1sum = "6a1d9e5745e03e8b0c8fccf8076d9673ea97a21e"
 depends = "['libffi>=3.4', 'libxml2', 'llvm-libs>=17.0.6']"
-reverse depends = "['bcc', 'clang', 'clang-python', 'clang15', 'ispc', 'kdevelop', 'openshadinglanguage', 'qt5-tools', 'qt6-tools', 'shiboken2', 'shiboken6']"
+reverse_depends = "['bcc', 'clang', 'clang-python', 'clang15', 'ispc', 'kdevelop', 'openshadinglanguage', 'qt5-tools', 'qt6-tools', 'shiboken2', 'shiboken6']"
 files = "['/usr/lib/libclang-cpp.so', '/usr/lib/libclang-cpp.so.17', '/usr/lib/libclang.so', '/usr/lib/libclang.so.17', '/usr/lib/libclang.so.17.0.6']"
 +++
 C/C++ language family frontend for LLVM Libs

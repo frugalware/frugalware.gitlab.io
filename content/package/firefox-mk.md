@@ -11,7 +11,7 @@ size = "424276"
 usize = "486675"
 sha1sum = "18b445c78bdb86b77ed7ed71e670e2d76852d96b"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-mk@firefox.mozilla.org.xpi']"
 +++
 Macedonian language support for Firefox

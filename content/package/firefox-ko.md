@@ -11,7 +11,7 @@ size = "587924"
 usize = "641122"
 sha1sum = "d9d4b5eb4ce2c88ee32374be93f826b344aa0ef6"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-ko@firefox.mozilla.org.xpi']"
 +++
 Korean language support for Firefox

@@ -11,7 +11,7 @@ size = "43940"
 usize = "125740"
 sha1sum = "948f311c55601fa97701b698c73b9c2a49488b12"
 depends = "['libsmbclient', 'libwbclient']"
-reverse depends = "['cifs-utils', 'libsmbclient', 'libwbclient', 'samba-client']"
+reverse_depends = "['cifs-utils', 'libsmbclient', 'libwbclient', 'samba-client']"
 files = "['/usr/include/samba-4.0/wbclient.h', '/usr/lib/libwbclient.so', '/usr/lib/libwbclient.so.0', '/usr/lib/libwbclient.so.0.16', '/usr/lib/pkgconfig/wbclient.pc']"
 +++
 WinBind Client library.

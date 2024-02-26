@@ -11,7 +11,7 @@ size = "544336"
 usize = "598501"
 sha1sum = "b46f81db26e0c04bc046a8028cbf07f00e793a0e"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-rm@firefox.mozilla.org.xpi']"
 +++
 Romansh language support for Firefox

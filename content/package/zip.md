@@ -11,7 +11,7 @@ size = "234868"
 usize = "706171"
 sha1sum = "271b076f2e851e1f190f69d03d85ddb418ac4cc9"
 depends = "['bzip2>=1.0.6-16', 'glibc>=2.34']"
-reverse depends = "['libreoffice', 'poedit', 'sim', 'solarus-zsdx', 'solarus-zsxd']"
+reverse_depends = "['libreoffice', 'poedit', 'sim', 'solarus-zsdx', 'solarus-zsxd']"
 files = "['/usr/bin/zip', '/usr/bin/zipcloak', '/usr/bin/zipnote', '/usr/bin/zipsplit', '/usr/share/doc/zip-3.0/Betas_Readme.txt', '/usr/share/doc/zip-3.0/BUGS', '/usr/share/doc/zip-3.0/CHANGES', '/usr/share/doc/zip-3.0/INSTALL', '/usr/share/doc/zip-3.0/LICENSE', '/usr/share/doc/zip-3.0/README', '/usr/share/doc/zip-3.0/README.CR', '/usr/share/doc/zip-3.0/TODO', '/usr/share/man/man1/zip.1.gz', '/usr/share/man/man1/zipcloak.1.gz', '/usr/share/man/man1/zipnote.1.gz', '/usr/share/man/man1/zipsplit.1.gz']"
 +++
 Info-ZIP's zip utility

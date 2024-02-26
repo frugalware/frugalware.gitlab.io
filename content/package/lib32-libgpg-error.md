@@ -11,7 +11,7 @@ size = "105848"
 usize = "391670"
 sha1sum = "33ea2b959f8e04dcf8179fc6127ecf957ea28276"
 depends = "[]"
-reverse depends = "['lib32-libgcrypt', 'lib32-libgcrypt15', 'lib32-libsystemd']"
+reverse_depends = "['lib32-libgcrypt', 'lib32-libgcrypt15', 'lib32-libsystemd']"
 files = "['/usr/i686-frugalware-linux/bin/gpg-error', '/usr/i686-frugalware-linux/bin/gpgrt-config', '/usr/i686-frugalware-linux/bin/yat2m', '/usr/i686-frugalware-linux/include/gpg-error.h', '/usr/i686-frugalware-linux/include/gpgrt.h', '/usr/lib32/libgpg-error.so', '/usr/lib32/libgpg-error.so.0', '/usr/lib32/libgpg-error.so.0.35.0', '/usr/lib32/pkgconfig/gpg-error.pc']"
 +++
 Support library for libgcrypt ( 32bit )

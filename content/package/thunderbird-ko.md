@@ -11,7 +11,7 @@ size = "674568"
 usize = "736911"
 sha1sum = "2d1661227c56644a611faf5166b2101e8d157ee7"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-ko@thunderbird.mozilla.org.xpi']"
 +++
 Korean language support for Thunderbird

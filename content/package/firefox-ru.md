@@ -11,7 +11,7 @@ size = "645500"
 usize = "698101"
 sha1sum = "d3ebc1986ed23102c29a8d53d1ff2d2a95246954"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-ru@firefox.mozilla.org.xpi']"
 +++
 Russian language support for Firefox

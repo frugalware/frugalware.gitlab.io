@@ -11,7 +11,7 @@ size = "653000"
 usize = "719667"
 sha1sum = "07b5a1d3f82d8c592025a9db273d505ef09425ab"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-es-MX@thunderbird.mozilla.org.xpi']"
 +++
 Mexican Spanish language support for Thunderbird

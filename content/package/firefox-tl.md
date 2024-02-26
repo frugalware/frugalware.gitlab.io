@@ -11,7 +11,7 @@ size = "469212"
 usize = "527408"
 sha1sum = "b873b6d51d333f4e00e3b0987995d77017c6033f"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-tl@firefox.mozilla.org.xpi']"
 +++
 Tagalog language support for Firefox

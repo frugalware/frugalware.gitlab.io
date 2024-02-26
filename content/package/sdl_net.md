@@ -11,7 +11,7 @@ size = "14408"
 usize = "47156"
 sha1sum = "abf5be5e164b74832bb8e1deeea32b583697eeba"
 depends = "['sdl>=1.2.15-3']"
-reverse depends = "['dosbox', 'manaplus', 'opencity']"
+reverse_depends = "['dosbox', 'manaplus', 'opencity']"
 files = "['/usr/include/SDL/SDL_net.h', '/usr/lib/libSDL_net-1.2.so.0', '/usr/lib/libSDL_net-1.2.so.0.8.0', '/usr/lib/libSDL_net.so', '/usr/lib/pkgconfig/SDL_net.pc', '/usr/share/doc/sdl_net-1.2.8/CHANGES', '/usr/share/doc/sdl_net-1.2.8/COPYING', '/usr/share/doc/sdl_net-1.2.8/README']"
 +++
 A small sample cross-platform networking library

@@ -11,7 +11,7 @@ size = "189732"
 usize = "566681"
 sha1sum = "2731bb193d6f0459a05b4b649bb7250d72287cf4"
 depends = "['libboost>=1.83.0', 'xz']"
-reverse depends = "['wimlib']"
+reverse_depends = "['wimlib']"
 files = "['/usr/bin/innoextract', '/usr/share/doc/innoextract-1.9/CHANGELOG', '/usr/share/doc/innoextract-1.9/LICENSE', '/usr/share/doc/innoextract-1.9/README.md', '/usr/share/doc/innoextract-1.9/VERSION', '/usr/share/man/man1/innoextract.1.gz']"
 +++
 A tool to unpack installers created by Inno Setup

@@ -11,7 +11,7 @@ size = "468200"
 usize = "549700"
 sha1sum = "e656f1962ef9f9dce494e315353dca6734e2751d"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-af@thunderbird.mozilla.org.xpi']"
 +++
 Afrikaans language support for Thunderbird

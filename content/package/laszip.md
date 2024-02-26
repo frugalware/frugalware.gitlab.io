@@ -11,7 +11,7 @@ size = "137332"
 usize = "535994"
 sha1sum = "a25ea73a27670a110492f5fa79936460a6160b06"
 depends = "['glibc']"
-reverse depends = "['pdal']"
+reverse_depends = "['pdal']"
 files = "['/usr/include/laszip/laszip_api.h', '/usr/include/laszip/laszip_api_version.h', '/usr/lib/liblaszip.so', '/usr/lib/liblaszip.so.8', '/usr/lib/liblaszip.so.8.0.5', '/usr/lib/liblaszip_api.so', '/usr/lib/liblaszip_api.so.8', '/usr/lib/liblaszip_api.so.8.0.5', '/usr/share/doc/laszip-3.4.3/AUTHORS', '/usr/share/doc/laszip-3.4.3/ChangeLog', '/usr/share/doc/laszip-3.4.3/COPYING', '/usr/share/doc/laszip-3.4.3/HOWTORELEASE.txt', '/usr/share/doc/laszip-3.4.3/NEWS', '/usr/share/doc/laszip-3.4.3/README.rst']"
 +++
 ASPRS LAS lossless compression library

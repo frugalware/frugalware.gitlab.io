@@ -11,7 +11,7 @@ size = "147344"
 usize = "414210"
 sha1sum = "d176f6ade93da8c03f063e9edc0098b1324f692c"
 depends = "['lib32-libmikmod>=3.3.10', 'lib32-libvorbis>=1.3.5-5', 'lib32-sdl2>=2.0.7']"
-reverse depends = "['openloco']"
+reverse_depends = "['openloco']"
 files = "['/usr/i686-frugalware-linux/include/SDL2/SDL_mixer.h', '/usr/lib32/cmake/SDL2_mixer/sdl2_mixer-config-version.cmake', '/usr/lib32/cmake/SDL2_mixer/sdl2_mixer-config.cmake', '/usr/lib32/libSDL2_mixer-2.0.so.0', '/usr/lib32/libSDL2_mixer-2.0.so.0.800.0', '/usr/lib32/libSDL2_mixer.so', '/usr/lib32/pkgconfig/SDL2_mixer.pc']"
 +++
 SDL2 Mixer library ( 32bit )

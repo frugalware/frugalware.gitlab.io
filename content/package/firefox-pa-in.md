@@ -11,7 +11,7 @@ size = "616856"
 usize = "672413"
 sha1sum = "44a9f6b4ab048e9c83da81911a0293ac3893e634"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-pa-IN@firefox.mozilla.org.xpi']"
 +++
 Panjabi language support for Firefox

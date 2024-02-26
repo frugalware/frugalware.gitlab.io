@@ -11,7 +11,7 @@ size = "102236"
 usize = "360830"
 sha1sum = "feb0559b08ab7df74ccd3544b7d438a5c875fe63"
 depends = "['libstdc++']"
-reverse depends = "['calibre']"
+reverse_depends = "['calibre']"
 files = "['/usr/bin/uchardet', '/usr/include/uchardet/uchardet.h', '/usr/lib/libuchardet.so', '/usr/lib/libuchardet.so.0', '/usr/lib/libuchardet.so.0.0.7', '/usr/lib/pkgconfig/uchardet.pc', '/usr/share/doc/uchardet-0.0.7/AUTHORS', '/usr/share/doc/uchardet-0.0.7/COPYING', '/usr/share/doc/uchardet-0.0.7/COPYRIGHT', '/usr/share/doc/uchardet-0.0.7/INSTALL', '/usr/share/doc/uchardet-0.0.7/INSTALL.rst', '/usr/share/doc/uchardet-0.0.7/LICENSE', '/usr/share/doc/uchardet-0.0.7/README.md', '/usr/share/man/man1/uchardet.1.gz']"
 +++
 An encoding detector library

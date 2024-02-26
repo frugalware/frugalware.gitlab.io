@@ -11,7 +11,7 @@ size = "55500"
 usize = "218776"
 sha1sum = "541e9471f0cb922d01bc80b09429f103f1a60446"
 depends = "['glibc']"
-reverse depends = "['libiio']"
+reverse_depends = "['libiio']"
 files = "['/usr/include/libserialport.h', '/usr/lib/libserialport.so', '/usr/lib/libserialport.so.0', '/usr/lib/libserialport.so.0.1.0', '/usr/lib/pkgconfig/libserialport.pc', '/usr/share/doc/libserialport-0.1.1/AUTHORS', '/usr/share/doc/libserialport-0.1.1/ChangeLog', '/usr/share/doc/libserialport-0.1.1/COPYING', '/usr/share/doc/libserialport-0.1.1/INSTALL', '/usr/share/doc/libserialport-0.1.1/NEWS', '/usr/share/doc/libserialport-0.1.1/README']"
 +++
 A minimal library that provides OS abstraction when interfacing serial ports

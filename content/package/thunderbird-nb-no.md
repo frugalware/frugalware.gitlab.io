@@ -11,7 +11,7 @@ size = "602764"
 usize = "672707"
 sha1sum = "1e07f00c4dc5cfe0e342377511910e38a31a092d"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-nb-NO@thunderbird.mozilla.org.xpi']"
 +++
 Norwegian Bokmål language support for Thunderbird

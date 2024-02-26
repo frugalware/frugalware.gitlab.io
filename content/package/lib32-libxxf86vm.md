@@ -11,7 +11,7 @@ size = "11480"
 usize = "33769"
 sha1sum = "f74edbe4fcb2fea85e05ca3b9755cbc9cf6d74a9"
 depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxext>=1.3.3-3']"
-reverse depends = "['lib32-libepoxy', 'lib32-libgl', 'lib32-mesa-libglx']"
+reverse_depends = "['lib32-libepoxy', 'lib32-libgl', 'lib32-mesa-libglx']"
 files = "['/usr/i686-frugalware-linux/include/X11/extensions/xf86vmode.h', '/usr/lib32/libXxf86vm.so', '/usr/lib32/libXxf86vm.so.1', '/usr/lib32/libXxf86vm.so.1.0.0', '/usr/lib32/pkgconfig/xxf86vm.pc']"
 +++
 X.Org Xxf86vm library ( 32bit )

@@ -11,7 +11,7 @@ size = "564364"
 usize = "618311"
 sha1sum = "e17faf31e36bb66183f2ee38feaa668b8b65d3ed"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-sq@firefox.mozilla.org.xpi']"
 +++
 Albanian language support for Firefox

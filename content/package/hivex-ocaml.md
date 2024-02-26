@@ -11,7 +11,7 @@ size = "80376"
 usize = "140392"
 sha1sum = "d8ad093901f4ee3a8cae7e7dc8ea96e94d42ab7b"
 depends = "['hivex', 'ocaml>=5.1.1']"
-reverse depends = "['libguestfs-ocaml']"
+reverse_depends = "['libguestfs-ocaml']"
 files = "['/usr/lib/ocaml/hivex/hivex.cmi', '/usr/lib/ocaml/hivex/hivex.cmx', '/usr/lib/ocaml/hivex/hivex.mli', '/usr/lib/ocaml/hivex/libmlhivex.a', '/usr/lib/ocaml/hivex/META', '/usr/lib/ocaml/hivex/mlhivex.a', '/usr/lib/ocaml/hivex/mlhivex.cma', '/usr/lib/ocaml/hivex/mlhivex.cmxa', '/usr/lib/ocaml/stublibs/dllmlhivex.so', '/usr/lib/ocaml/stublibs/dllmlhivex.so.owner']"
 +++
 Ocaml bindings for hivex

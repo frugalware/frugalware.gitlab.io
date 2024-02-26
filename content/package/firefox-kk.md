@@ -11,7 +11,7 @@ size = "632076"
 usize = "686109"
 sha1sum = "47245fe0fa1c297ad7586dad220dfe36f406b168"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-kk@firefox.mozilla.org.xpi']"
 +++
 Kazakh language support for Firefox

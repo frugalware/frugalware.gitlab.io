@@ -11,7 +11,7 @@ size = "539280"
 usize = "594589"
 sha1sum = "476fb7ca471ef83b1285145ac6b705161dc7a9d2"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-kab@firefox.mozilla.org.xpi']"
 +++
 Kabyle language support for Firefox

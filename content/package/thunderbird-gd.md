@@ -11,7 +11,7 @@ size = "648820"
 usize = "712351"
 sha1sum = "2f93cdf0dc830d28176b4debdaf206c79216dfa1"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-gd@thunderbird.mozilla.org.xpi']"
 +++
 Scottish Gaelic language support for Thunderbird

@@ -11,7 +11,7 @@ size = "74896"
 usize = "207814"
 sha1sum = "4e55aec6baf0c252e29fc46897e194281d2c02c5"
 depends = "['perl>=5.34.0']"
-reverse depends = "['spamassassin']"
+reverse_depends = "['spamassassin']"
 files = "['/usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/Encode/Detect/Detector/Detector.bs', '/usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/Encode/Detect/Detector/Detector.so', '/usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Encode/Detect.pm', '/usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Encode/Detect/Detector.pm', '/usr/share/doc/perl-encode-detect-1.01/LICENSE', '/usr/share/doc/perl-encode-detect-1.01/MANIFEST', '/usr/share/man/man3/Encode::Detect.3perl.gz', '/usr/share/man/man3/Encode::Detect::Detector.3perl.gz']"
 +++
 An Encode::Encoding subclass that detects the encoding of data

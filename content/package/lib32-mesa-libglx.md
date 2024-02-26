@@ -11,7 +11,7 @@ size = "158160"
 usize = "571983"
 sha1sum = "b26206632b34ef9da856971a0f3315c626f4de23"
 depends = "['lib32-expat', 'lib32-libdrm', 'lib32-libglapi', 'lib32-libxdamage', 'lib32-libxext', 'lib32-libxshmfence', 'lib32-libxxf86vm', 'lib32-zlib']"
-reverse depends = "['lib32-xorg-server', 'lib32-xorg-server-xephyr']"
+reverse_depends = "['lib32-xorg-server', 'lib32-xorg-server-xephyr']"
 files = "['/usr/lib32/libGLX_indirect.so.0', '/usr/lib32/libGLX_mesa.so', '/usr/lib32/libGLX_mesa.so.0', '/usr/lib32/libGLX_mesa.so.0.0.0']"
 +++
 Mesa OpenGL GLX. (32-bit)

@@ -11,7 +11,7 @@ size = "517320"
 usize = "1433166"
 sha1sum = "e79756a3b8227a2231f3ec60538062ec07dc3246"
 depends = "[]"
-reverse depends = "['lib32-libenca']"
+reverse_depends = "['lib32-libenca']"
 files = "['/usr/i686-frugalware-linux/bin/recode', '/usr/i686-frugalware-linux/include/recode.h', '/usr/i686-frugalware-linux/include/recodext.h', '/usr/lib32/librecode.so', '/usr/lib32/librecode.so.0', '/usr/lib32/librecode.so.0.0.0']"
 +++
 Converts files between various character sets and usages ( 32bit )

@@ -11,7 +11,7 @@ size = "393728"
 usize = "457917"
 sha1sum = "a995d521a078f2e587534c9f7ae79e973662b61d"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-ach@firefox.mozilla.org.xpi']"
 +++
 Acoli language support for Firefox

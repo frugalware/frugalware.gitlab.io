@@ -11,7 +11,7 @@ size = "26832"
 usize = "63070"
 sha1sum = "538e82394b976db8a44159c1a361c4d73b62c2c3"
 depends = "['openjre']"
-reverse depends = "['flute']"
+reverse_depends = "['flute']"
 files = "['/usr/share/doc/sac-1.3/AUTHORS', '/usr/share/doc/sac-1.3/ChangeLog', '/usr/share/doc/sac-1.3/COPYING', '/usr/share/doc/sac-1.3/COPYRIGHT.html', '/usr/share/doc/sac-1.3/INSTALL', '/usr/share/doc/sac-1.3/NEWS', '/usr/share/doc/sac-1.3/README', '/usr/share/doc/sac-1.3/README.md', '/usr/share/doc/sac-1.3/THANKS', '/usr/share/java/sac.jar']"
 +++
 Java standard interface for CSS parser

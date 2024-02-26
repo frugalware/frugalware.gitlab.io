@@ -11,7 +11,7 @@ size = "622784"
 usize = "686418"
 sha1sum = "f2eaa970914f694ef402cdeb7d12d425ba57f8b7"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-hr@thunderbird.mozilla.org.xpi']"
 +++
 Croatian language support for Thunderbird

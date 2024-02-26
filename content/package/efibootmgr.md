@@ -11,7 +11,7 @@ size = "30528"
 usize = "76781"
 sha1sum = "c9dae03db3053639d99fe2f76586c0f28270afa0"
 depends = "['efivar>=37-2', 'pciutils>=3.5.1-3']"
-reverse depends = "['grub2', 'hw-probe']"
+reverse_depends = "['grub2', 'hw-probe']"
 files = "['/usr/bin/efibootmgr', '/usr/share/doc/efibootmgr-18/AUTHORS', '/usr/share/doc/efibootmgr-18/COPYING', '/usr/share/doc/efibootmgr-18/INSTALL', '/usr/share/doc/efibootmgr-18/README', '/usr/share/doc/efibootmgr-18/README.md', '/usr/share/doc/efibootmgr-18/TODO', '/usr/share/man/man8/efibootmgr.8.gz']"
 +++
 A program for modifying the EFI boot manager.

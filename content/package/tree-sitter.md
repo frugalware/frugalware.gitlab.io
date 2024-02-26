@@ -11,7 +11,7 @@ size = "94208"
 usize = "219830"
 sha1sum = "922186e43f8b5deceab4a8646315d5007c247a96"
 depends = "['glibc>=2.34']"
-reverse depends = "['neovim']"
+reverse_depends = "['neovim']"
 files = "['/usr/include/tree_sitter/api.h', '/usr/lib/libtree-sitter.so', '/usr/lib/libtree-sitter.so.0', '/usr/lib/libtree-sitter.so.0.0', '/usr/lib/pkgconfig/tree-sitter.pc', '/usr/share/doc/tree-sitter-0.21.0/LICENSE', '/usr/share/doc/tree-sitter-0.21.0/README.md']"
 +++
 Rust bindings to the Tree-sitter parsing library

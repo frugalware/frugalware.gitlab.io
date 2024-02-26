@@ -11,7 +11,7 @@ size = "583436"
 usize = "651338"
 sha1sum = "adb00be2e3f35291f0e473f160638dfe06edf071"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-id@thunderbird.mozilla.org.xpi']"
 +++
 Indonesian language support for Thunderbird

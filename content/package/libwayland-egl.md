@@ -11,7 +11,7 @@ size = "17840"
 usize = "23288"
 sha1sum = "e1c6a342dbba589ec6bad53b9ed778d91cdc0f65"
 depends = "['mesa-libegl']"
-reverse depends = "['glfw', 'gtk+3', 'gtk+4', 'vlc-wayland-egl']"
+reverse_depends = "['glfw', 'gtk+3', 'gtk+4', 'vlc-wayland-egl']"
 files = "['/usr/lib/libwayland-egl.la', '/usr/lib/libwayland-egl.so', '/usr/lib/libwayland-egl.so.1', '/usr/lib/libwayland-egl.so.1.0.0', '/usr/lib/pkgconfig/wayland-egl.pc']"
 +++
 Mesa Wayland EGL library.

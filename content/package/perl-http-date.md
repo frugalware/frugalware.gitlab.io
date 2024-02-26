@@ -11,7 +11,7 @@ size = "16756"
 usize = "43826"
 sha1sum = "6be8277b426636eae51eef6d50f8640fbde20af6"
 depends = "['perl>=5.34.0']"
-reverse depends = "['perl-file-listing', 'perl-http-cookies', 'perl-http-message']"
+reverse_depends = "['perl-file-listing', 'perl-http-cookies', 'perl-http-message']"
 files = "['/usr/lib/perl5/site_perl/HTTP/Date.pm', '/usr/share/doc/perl-http-date-6.06/CONTRIBUTORS', '/usr/share/doc/perl-http-date-6.06/INSTALL', '/usr/share/doc/perl-http-date-6.06/LICENSE', '/usr/share/doc/perl-http-date-6.06/MANIFEST', '/usr/share/doc/perl-http-date-6.06/README.md', '/usr/share/man/man3/HTTP::Date.3perl.gz']"
 +++
 HTTP::Date - date conversion routines.

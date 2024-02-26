@@ -11,7 +11,7 @@ size = "7882768"
 usize = "23132327"
 sha1sum = "f12666a3abd4302a5b1748445d27a781df4292a7"
 depends = "['glibc']"
-reverse depends = "['qsyncthingtray', 'syncthing-gtk']"
+reverse_depends = "['qsyncthingtray', 'syncthing-gtk']"
 files = "['/usr/bin/syncthing', '/usr/lib/systemd/system/syncthing-resume.service', '/usr/lib/systemd/system/syncthing@.service', '/usr/share/doc/syncthing-1.27.2/AUTHORS', '/usr/share/doc/syncthing-1.27.2/LICENSE', '/usr/share/doc/syncthing-1.27.2/README-Docker.md', '/usr/share/doc/syncthing-1.27.2/README.md']"
 license = "MIT"
 +++

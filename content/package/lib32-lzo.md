@@ -11,7 +11,7 @@ size = "64552"
 usize = "315375"
 sha1sum = "9f2e18a33a2bc7f8b9c3b6c65b69e73d6e16729d"
 depends = "[]"
-reverse depends = "['lib32-cairo']"
+reverse_depends = "['lib32-cairo']"
 files = "['/usr/i686-frugalware-linux/include/lzo/lzo1.h', '/usr/i686-frugalware-linux/include/lzo/lzo1a.h', '/usr/i686-frugalware-linux/include/lzo/lzo1b.h', '/usr/i686-frugalware-linux/include/lzo/lzo1c.h', '/usr/i686-frugalware-linux/include/lzo/lzo1f.h', '/usr/i686-frugalware-linux/include/lzo/lzo1x.h', '/usr/i686-frugalware-linux/include/lzo/lzo1y.h', '/usr/i686-frugalware-linux/include/lzo/lzo1z.h', '/usr/i686-frugalware-linux/include/lzo/lzo2a.h', '/usr/i686-frugalware-linux/include/lzo/lzoconf.h', '/usr/i686-frugalware-linux/include/lzo/lzodefs.h', '/usr/i686-frugalware-linux/include/lzo/lzoutil.h', '/usr/i686-frugalware-linux/include/lzo/lzo_asm.h', '/usr/lib32/liblzo2.so', '/usr/lib32/liblzo2.so.2', '/usr/lib32/liblzo2.so.2.0.0', '/usr/lib32/pkgconfig/lzo2.pc']"
 +++
 A real-time data compression library ( 32bit )

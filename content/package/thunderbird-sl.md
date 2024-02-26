@@ -11,7 +11,7 @@ size = "659196"
 usize = "721123"
 sha1sum = "dba8b0770b3e45a2a77356062ad80baa38f6eee7"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-sl@thunderbird.mozilla.org.xpi']"
 +++
 Slovenian language support for Thunderbird

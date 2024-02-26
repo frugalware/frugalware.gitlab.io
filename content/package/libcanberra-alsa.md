@@ -11,7 +11,7 @@ size = "9508"
 usize = "22216"
 sha1sum = "be2519960d5cafecd73d291150183f5e989a6e3a"
 depends = "['alsa-lib>=1.1.2-2', 'libcanberra>=0.30']"
-reverse depends = "['knotifications']"
+reverse_depends = "['knotifications']"
 files = "['/usr/lib/libcanberra-0.30/libcanberra-alsa.so']"
 +++
 Alsa libcanberra

@@ -11,7 +11,7 @@ size = "33396"
 usize = "219711"
 sha1sum = "7a43ff96bb7e8c5fc2c1cba7215e50e0bbe433ee"
 depends = "[]"
-reverse depends = "['wine', 'wine-devel']"
+reverse_depends = "['wine', 'wine-devel']"
 files = "['/usr/lib32/libOpenCL.so', '/usr/lib32/libOpenCL.so.1', '/usr/lib32/libOpenCL.so.1.0.0', '/usr/lib32/pkgconfig/ocl-icd.pc', '/usr/lib32/pkgconfig/OpenCL.pc']"
 +++
 OpenCL ICD Bindings ( 32bit )

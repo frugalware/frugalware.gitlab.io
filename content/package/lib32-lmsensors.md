@@ -11,7 +11,7 @@ size = "250864"
 usize = "333703"
 sha1sum = "14b030fa35df22889a50289e0561273441e3246d"
 depends = "[]"
-reverse depends = "['lib32-mesa-dri-drivers', 'lib32-mesa-nine']"
+reverse_depends = "['lib32-mesa-dri-drivers', 'lib32-mesa-nine']"
 files = "['/usr/i686-frugalware-linux/include/sensors/error.h', '/usr/i686-frugalware-linux/include/sensors/sensors.h', '/usr/lib32/libsensors.a', '/usr/lib32/libsensors.so', '/usr/lib32/libsensors.so.5', '/usr/lib32/libsensors.so.5.0.0']"
 +++
 Linux System Hardware Monitor ( 32bit )

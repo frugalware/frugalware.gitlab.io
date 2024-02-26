@@ -11,7 +11,7 @@ size = "584832"
 usize = "638562"
 sha1sum = "5a198a6c0c86b94a6d3d3c399f27c6aa025c9090"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-cs@firefox.mozilla.org.xpi']"
 +++
 Czech language support for Firefox

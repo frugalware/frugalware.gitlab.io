@@ -11,7 +11,7 @@ size = "526072"
 usize = "584670"
 sha1sum = "dbce415f987e13bd5cd299a4a936199b3cafac42"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-es-MX@firefox.mozilla.org.xpi']"
 +++
 Mexican Spanish language support for Firefox

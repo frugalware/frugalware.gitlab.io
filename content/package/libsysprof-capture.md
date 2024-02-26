@@ -11,7 +11,7 @@ size = "407996"
 usize = "591438"
 sha1sum = "48b2f0c11bdb507ac33e9b9daa1dc1673f14b02b"
 depends = "['glibc']"
-reverse depends = "['libsoup3', 'sysprof']"
+reverse_depends = "['libsoup3', 'sysprof']"
 files = "['/usr/include/sysprof-6/sysprof-address.h', '/usr/include/sysprof-6/sysprof-capture-condition.h', '/usr/include/sysprof-6/sysprof-capture-cursor.h', '/usr/include/sysprof-6/sysprof-capture-reader.h', '/usr/include/sysprof-6/sysprof-capture-types.h', '/usr/include/sysprof-6/sysprof-capture-writer.h', '/usr/include/sysprof-6/sysprof-capture.h', '/usr/include/sysprof-6/sysprof-clock.h', '/usr/include/sysprof-6/sysprof-collector.h', '/usr/include/sysprof-6/sysprof-macros.h', '/usr/include/sysprof-6/sysprof-platform.h', '/usr/include/sysprof-6/sysprof-version-macros.h', '/usr/include/sysprof-6/sysprof-version.h', '/usr/lib/libsysprof-capture-4.a', '/usr/lib/pkgconfig/sysprof-capture-4.pc']"
 +++
 sysprof capture library

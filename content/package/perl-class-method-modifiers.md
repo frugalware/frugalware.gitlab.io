@@ -11,7 +11,7 @@ size = "19480"
 usize = "44500"
 sha1sum = "d94d0ed53bacd2065191bb8ad0a7a5793b607b30"
 depends = "['perl>=5.34.0']"
-reverse depends = "['perl-moo']"
+reverse_depends = "['perl-moo']"
 files = "['/usr/lib/perl5/site_perl/Class/Method/Modifiers.pm', '/usr/share/doc/perl-class-method-modifiers-2.15/INSTALL', '/usr/share/doc/perl-class-method-modifiers-2.15/LICENSE', '/usr/share/doc/perl-class-method-modifiers-2.15/MANIFEST', '/usr/share/doc/perl-class-method-modifiers-2.15/README', '/usr/share/man/man3/Class::Method::Modifiers.3perl.gz']"
 +++
 provides Moose-like method modifiers

@@ -11,7 +11,7 @@ size = "40580"
 usize = "113797"
 sha1sum = "b3576acc1d27289ee8617d3b7a3b30b9a985ea91"
 depends = "['libx11>=1.6.3-3', 'libxcb>=1.11.1-3']"
-reverse depends = "['steamtinkerlaunch']"
+reverse_depends = "['steamtinkerlaunch']"
 files = "['/usr/bin/xwininfo', '/usr/share/doc/xwininfo-1.1.6/ChangeLog', '/usr/share/doc/xwininfo-1.1.6/COPYING', '/usr/share/doc/xwininfo-1.1.6/INSTALL', '/usr/share/doc/xwininfo-1.1.6/README.md', '/usr/share/man/man1/xwininfo.1.gz']"
 license = "GPL2"
 +++

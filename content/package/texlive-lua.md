@@ -11,7 +11,7 @@ size = "337992"
 usize = "815552"
 sha1sum = "cf784c1fe3ae6f8704b276e0522523d3beab52a4"
 depends = "['libgcc>=5.3.0']"
-reverse depends = "['texlive']"
+reverse_depends = "['texlive']"
 files = "['/usr/lib/libtexlua53.so', '/usr/lib/libtexlua53.so.5', '/usr/lib/libtexlua53.so.5.3.6', '/usr/lib/libtexluajit.so', '/usr/lib/libtexluajit.so.2', '/usr/lib/libtexluajit.so.2.1.0', '/usr/lib/pkgconfig/texlua53.pc', '/usr/lib/pkgconfig/texluajit.pc']"
 +++
 TeX Live Lua

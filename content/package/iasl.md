@@ -11,7 +11,7 @@ size = "706108"
 usize = "2402544"
 sha1sum = "dbf50eb234ade325f8a7aaba462c8e50d83e43c3"
 depends = "['glibc>=2.27-2']"
-reverse depends = "['hw-probe', 'virtualbox']"
+reverse_depends = "['hw-probe', 'virtualbox']"
 files = "['/usr/bin/acpibin', '/usr/bin/acpidump', '/usr/bin/acpiexamples', '/usr/bin/acpiexec', '/usr/bin/acpihelp', '/usr/bin/acpisrc', '/usr/bin/acpixtract', '/usr/bin/iasl']"
 license = "iASL"
 +++

@@ -11,7 +11,7 @@ size = "16820"
 usize = "45279"
 sha1sum = "a496ca3de57134b00679b760edc667d465f1822e"
 depends = "['glibc']"
-reverse depends = "['kpat']"
+reverse_depends = "['kpat']"
 files = "['/usr/bin/black-hole-solve', '/usr/include/black-hole-solver/black_hole_solver.h', '/usr/include/black-hole-solver/bool.h', '/usr/include/black-hole-solver/fcs_dllexport.h', '/usr/lib/libblack_hole_solver.so', '/usr/lib/libblack_hole_solver.so.1', '/usr/lib/libblack_hole_solver.so.1.0.1', '/usr/lib/pkgconfig/libblack-hole-solver.pc', '/usr/share/doc/black-hole-solver-1.10.1/COPYING', '/usr/share/doc/black-hole-solver-1.10.1/INSTALL', '/usr/share/doc/black-hole-solver-1.10.1/README.md', '/usr/share/man/man6/black-hole-solve.6.gz']"
 +++
 Solvers and statistics for 'Golf' solitaire, 'Black Hole' solitaire, 'All in a Row' solitaire and related card patience games.

@@ -11,7 +11,7 @@ size = "647044"
 usize = "715877"
 sha1sum = "2fa9cf871038edf595344e3f75eab1294124dec9"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-be@thunderbird.mozilla.org.xpi']"
 +++
 Belarusian language support for Thunderbird

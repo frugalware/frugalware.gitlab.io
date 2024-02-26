@@ -11,7 +11,7 @@ size = "188688"
 usize = "234334"
 sha1sum = "efc56f0e5ce813094ac6fcdd7f524954766dc1d9"
 depends = "['openjre']"
-reverse depends = "['gnumail']"
+reverse_depends = "['gnumail']"
 files = "['/usr/share/doc/gnuinetlib-1.1.2/AUTHORS', '/usr/share/doc/gnuinetlib-1.1.2/ChangeLog', '/usr/share/doc/gnuinetlib-1.1.2/COPYING', '/usr/share/doc/gnuinetlib-1.1.2/INSTALL', '/usr/share/doc/gnuinetlib-1.1.2/README', '/usr/share/doc/gnuinetlib-1.1.2/THANKS', '/usr/share/java/inetlib.jar']"
 +++
 Network extensions library for GNU classpath and classpathx

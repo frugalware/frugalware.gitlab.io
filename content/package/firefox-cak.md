@@ -11,7 +11,7 @@ size = "527884"
 usize = "584593"
 sha1sum = "9110033cf37b2cc176cf2e375d18ec64a06d7557"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-cak@firefox.mozilla.org.xpi']"
 +++
 Kaqchikel language support for Firefox

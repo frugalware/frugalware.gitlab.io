@@ -11,7 +11,7 @@ size = "44376"
 usize = "157550"
 sha1sum = "ef2d4e586b48b26a68744461d8e99edc852b089c"
 depends = "['glibc>=2.24-4']"
-reverse depends = "['lib32-libgbm', 'lib32-libgl', 'lib32-libgles', 'lib32-libosmesa', 'lib32-mesa-libglx', 'lib32-xorg-server', 'lib32-xorg-server-xephyr']"
+reverse_depends = "['lib32-libgbm', 'lib32-libgl', 'lib32-libgles', 'lib32-libosmesa', 'lib32-mesa-libglx', 'lib32-xorg-server', 'lib32-xorg-server-xephyr']"
 files = "['/usr/lib32/libglapi.so', '/usr/lib32/libglapi.so.0', '/usr/lib32/libglapi.so.0.0.0']"
 +++
 Mesa OpenGL API library. (32-Bit)

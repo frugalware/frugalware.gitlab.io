@@ -11,7 +11,7 @@ size = "27808"
 usize = "76187"
 sha1sum = "aa25fd59190b74f67fe39b1d35b294186bdbcb5b"
 depends = "['xorg-server>=1.20.4-3']"
-reverse depends = "['xorg-compat']"
+reverse_depends = "['xorg-compat']"
 files = "['/usr/lib/xorg/modules/drivers/fbdev_drv.so', '/usr/share/doc/xf86-video-fbdev-0.5.0/ChangeLog', '/usr/share/doc/xf86-video-fbdev-0.5.0/COPYING', '/usr/share/doc/xf86-video-fbdev-0.5.0/INSTALL', '/usr/share/doc/xf86-video-fbdev-0.5.0/README', '/usr/share/man/man4/fbdev.4.gz']"
 license = "GPL2"
 +++

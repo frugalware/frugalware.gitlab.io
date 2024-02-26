@@ -11,7 +11,7 @@ size = "571020"
 usize = "626593"
 sha1sum = "0e2b3dfd5a16675c79ab5873c08d4944997adfeb"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-hsb@firefox.mozilla.org.xpi']"
 +++
 Upper Sorbian language support for Firefox

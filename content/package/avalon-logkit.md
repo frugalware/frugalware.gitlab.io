@@ -11,7 +11,7 @@ size = "68796"
 usize = "92805"
 sha1sum = "59c38f739f2577a5b988599f7b2874c83f7e7644"
 depends = "['apache-log4j1', 'gnumail', 'servletapi']"
-reverse depends = "['avalon-framework']"
+reverse_depends = "['avalon-framework']"
 files = "['/usr/share/java/avalon-logkit.jar']"
 +++
 Easy-to-use Java logging toolkit

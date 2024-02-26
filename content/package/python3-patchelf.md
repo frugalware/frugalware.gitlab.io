@@ -11,7 +11,7 @@ size = "87436"
 usize = "260466"
 sha1sum = "f3307c1826fcf4c06b4c20bf3438b49dbbaf976d"
 depends = "['python3>=3.12']"
-reverse depends = "['python3-cx-freeze']"
+reverse_depends = "['python3-cx-freeze']"
 files = "['/usr/bin/patchelf', '/usr/lib/python3.12/site-packages/patchelf-0.17.2.1-py3.12.egg-info/dependency_links.txt', '/usr/lib/python3.12/site-packages/patchelf-0.17.2.1-py3.12.egg-info/not-zip-safe', '/usr/lib/python3.12/site-packages/patchelf-0.17.2.1-py3.12.egg-info/PKG-INFO', '/usr/lib/python3.12/site-packages/patchelf-0.17.2.1-py3.12.egg-info/requires.txt', '/usr/lib/python3.12/site-packages/patchelf-0.17.2.1-py3.12.egg-info/SOURCES.txt', '/usr/lib/python3.12/site-packages/patchelf-0.17.2.1-py3.12.egg-info/top_level.txt', '/usr/share/doc/python3-patchelf-0.17.2.1/COPYING', '/usr/share/doc/python3-patchelf-0.17.2.1/LICENSE', '/usr/share/doc/python3-patchelf-0.17.2.1/README.rst']"
 +++
 patchelf Python wheel for PyP

@@ -11,7 +11,7 @@ size = "142120"
 usize = "670869"
 sha1sum = "2cd96a7df4e9431cf5b340bd07de900cbe68ef87"
 depends = "['libwayland-egl', 'libxkbcommon', 'vulkan-icd-loader']"
-reverse depends = "['box2d', 'embree', 'geogram', 'mupdf-gl', 'ospray']"
+reverse_depends = "['box2d', 'embree', 'geogram', 'mupdf-gl', 'ospray']"
 files = "['/usr/include/GLFW/glfw3.h', '/usr/include/GLFW/glfw3native.h', '/usr/lib/cmake/glfw3/glfw3Config.cmake', '/usr/lib/cmake/glfw3/glfw3ConfigVersion.cmake', '/usr/lib/cmake/glfw3/glfw3Targets-release.cmake', '/usr/lib/cmake/glfw3/glfw3Targets.cmake', '/usr/lib/libglfw.so', '/usr/lib/libglfw.so.3', '/usr/lib/libglfw.so.3.4', '/usr/lib/pkgconfig/glfw3.pc', '/usr/share/doc/glfw-3.4/README.md']"
 +++
 A free, open source, portable framework for OpenGL application development.

@@ -11,7 +11,7 @@ size = "556604"
 usize = "612224"
 sha1sum = "723c518e06ff15c70809c8760aba9850197de5d5"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-tr@firefox.mozilla.org.xpi']"
 +++
 Turkish language support for Firefox

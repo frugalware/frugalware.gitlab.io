@@ -11,7 +11,7 @@ size = "30812"
 usize = "89102"
 sha1sum = "b4ebd99e7ea5fe16178a94ef5771ba7dcf08bd8a"
 depends = "['libxtst>=1.2.2-2']"
-reverse depends = "['screenfetch']"
+reverse_depends = "['screenfetch']"
 files = "['/usr/bin/xdpyinfo', '/usr/share/doc/xdpyinfo-1.3.4/ChangeLog', '/usr/share/doc/xdpyinfo-1.3.4/COPYING', '/usr/share/doc/xdpyinfo-1.3.4/INSTALL', '/usr/share/doc/xdpyinfo-1.3.4/README.md', '/usr/share/man/man1/xdpyinfo.1.gz']"
 license = "GPL2"
 +++

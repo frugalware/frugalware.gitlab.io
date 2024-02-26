@@ -11,7 +11,7 @@ size = "52820"
 usize = "161839"
 sha1sum = "44dcaccc6afdcd412ad39623bfb67291b6bdfd0b"
 depends = "['glibc']"
-reverse depends = "['lib32-p11-kit']"
+reverse_depends = "['lib32-p11-kit']"
 files = "['/usr/i686-frugalware-linux/bin/asn1Coding', '/usr/i686-frugalware-linux/bin/asn1Decoding', '/usr/i686-frugalware-linux/bin/asn1Parser', '/usr/i686-frugalware-linux/include/libtasn1.h', '/usr/lib32/libtasn1.so', '/usr/lib32/libtasn1.so.6', '/usr/lib32/libtasn1.so.6.6.3', '/usr/lib32/pkgconfig/libtasn1.pc']"
 +++
 The ASN.1 library used in GNUTLS ( 32bit )

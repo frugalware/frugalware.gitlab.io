@@ -11,7 +11,7 @@ size = "358136"
 usize = "352730"
 sha1sum = "522856bf6d6e40df5329cbb6645e4de48a35d113"
 depends = "[]"
-reverse depends = "['openjre']"
+reverse_depends = "['openjre']"
 files = "['/etc/cron.daily/updatekeystore', '/usr/lib/jvm/java-21-openjdk/jre/lib/security/cacerts']"
 +++
 Java Keystore of common CA certificates

@@ -11,7 +11,7 @@ size = "577672"
 usize = "632229"
 sha1sum = "1ed751509166d7e9dd3e0e8c0dcbbdb580494c53"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-sr@firefox.mozilla.org.xpi']"
 +++
 Serbian language support for Firefox

@@ -11,7 +11,7 @@ size = "546960"
 usize = "604114"
 sha1sum = "1cdfa6502f853ca4d3479197b1e3c4a9987580e2"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-fy-NL@firefox.mozilla.org.xpi']"
 +++
 Western Frisian language support for Firefox

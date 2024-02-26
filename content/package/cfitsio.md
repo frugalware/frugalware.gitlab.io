@@ -11,7 +11,7 @@ size = "518712"
 usize = "1837376"
 sha1sum = "a422d5cfb4f8ff2e41fb8c2504a0ac8d21a75a2c"
 depends = "['glibc>=2.34']"
-reverse depends = "['gwenview', 'kst', 'kstars', 'labplot', 'libvips', 'nufraw', 'wcslib']"
+reverse_depends = "['gwenview', 'kst', 'kstars', 'labplot', 'libvips', 'nufraw', 'wcslib']"
 files = "['/usr/include/drvrsmem.h', '/usr/include/fitsio.h', '/usr/include/fitsio2.h', '/usr/include/longnam.h', '/usr/lib/libcfitsio.so', '/usr/lib/libcfitsio.so.10', '/usr/lib/libcfitsio.so.10.4.3.1', '/usr/lib/pkgconfig/cfitsio.pc', '/usr/share/doc/cfitsio-4.3.1/README', '/usr/share/doc/cfitsio-4.3.1/README.MacOS', '/usr/share/doc/cfitsio-4.3.1/README.win', '/usr/share/doc/cfitsio-4.3.1/README_OLD.win']"
 +++
 C and Fortran library for manipulating FITS files

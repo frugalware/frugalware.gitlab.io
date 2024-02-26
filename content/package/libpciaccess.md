@@ -11,7 +11,7 @@ size = "21508"
 usize = "64944"
 sha1sum = "ae8d6326754fb983f40c4cb77944c436b3038ff8"
 depends = "['glibc>=2.34', 'zlib']"
-reverse depends = "['libdrm', 'libvirt', 'nvidia-xconfig', 'radeontool', 'spice-vdagent']"
+reverse_depends = "['libdrm', 'libvirt', 'nvidia-xconfig', 'radeontool', 'spice-vdagent']"
 files = "['/usr/include/pciaccess.h', '/usr/lib/libpciaccess.so', '/usr/lib/libpciaccess.so.0', '/usr/lib/libpciaccess.so.0.11.1', '/usr/lib/pkgconfig/pciaccess.pc', '/usr/share/doc/libpciaccess-0.18/AUTHORS', '/usr/share/doc/libpciaccess-0.18/COPYING', '/usr/share/doc/libpciaccess-0.18/README.cygwin', '/usr/share/doc/libpciaccess-0.18/README.md']"
 license = "GPL2"
 +++

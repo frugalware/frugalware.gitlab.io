@@ -11,7 +11,7 @@ size = "540100"
 usize = "596975"
 sha1sum = "ab255af9d56b04e2b398bb0d7c1ecdf27bce9a0f"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-ar@firefox.mozilla.org.xpi']"
 +++
 Arabic language support for Firefox

@@ -11,7 +11,7 @@ size = "70960"
 usize = "255632"
 sha1sum = "da34318aa24f558c2b7e6daee74beaf2b7b73409"
 depends = "['ykclient']"
-reverse depends = "['dracut-ykfde', 'yubikey-personalization-gui']"
+reverse_depends = "['dracut-ykfde', 'yubikey-personalization-gui']"
 files = "['/usr/bin/ykchalresp', '/usr/bin/ykinfo', '/usr/bin/ykpersonalize', '/usr/include/ykpers-1/ykcore.h', '/usr/include/ykpers-1/ykdef.h', '/usr/include/ykpers-1/ykpbkdf2.h', '/usr/include/ykpers-1/ykpers-version.h', '/usr/include/ykpers-1/ykpers.h', '/usr/include/ykpers-1/ykstatus.h', '/usr/lib/libykpers-1.so', '/usr/lib/libykpers-1.so.1', '/usr/lib/libykpers-1.so.1.20.0', '/usr/lib/pkgconfig/ykpers-1.pc', '/usr/lib/udev/rules.d/69-yubikey.rules', '/usr/share/doc/yubikey-personalization-1.20.0/AUTHORS', '/usr/share/doc/yubikey-personalization-1.20.0/COPYING', '/usr/share/doc/yubikey-personalization-1.20.0/INSTALL', '/usr/share/doc/yubikey-personalization-1.20.0/NEWS', '/usr/share/doc/yubikey-personalization-1.20.0/README', '/usr/share/doc/yubikey-personalization-1.20.0/README.adoc', '/usr/share/man/man1/ykchalresp.1.gz', '/usr/share/man/man1/ykinfo.1.gz', '/usr/share/man/man1/ykpersonalize.1.gz']"
 +++
 Yubico YubiKey C client

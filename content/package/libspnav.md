@@ -11,7 +11,7 @@ size = "16700"
 usize = "51967"
 sha1sum = "eef13685ffe996f5f83106e942e343d2b0eacdc8"
 depends = "['libx11']"
-reverse depends = "['blender']"
+reverse_depends = "['blender']"
 files = "['/usr/include/spnav.h', '/usr/include/spnav_config.h', '/usr/include/spnav_magellan.h', '/usr/lib/libspnav.so', '/usr/lib/libspnav.so.0', '/usr/lib/libspnav.so.0.3', '/usr/lib/pkgconfig/spnav.pc', '/usr/share/doc/libspnav-1.0/LICENSE', '/usr/share/doc/libspnav-1.0/README.md']"
 +++
 Alternative to the proprietary 3Dconnexion device driver and SDK for their 3D input devices

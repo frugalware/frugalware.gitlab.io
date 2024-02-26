@@ -11,7 +11,7 @@ size = "564424"
 usize = "618514"
 sha1sum = "dbf759abbfb46355caf23fc5e5b5597fa25c6725"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-pl@firefox.mozilla.org.xpi']"
 +++
 Polish language support for Firefox

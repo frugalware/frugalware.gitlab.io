@@ -11,7 +11,7 @@ size = "73828"
 usize = "200890"
 sha1sum = "cd4b1f4f44d7b6da20fbef86fe09cb94840f654b"
 depends = "['lib32-libogg>=1.3.2-8', 'lib32-speexdsp>=1.2rc3-6']"
-reverse depends = "['lib32-ffmpeg']"
+reverse_depends = "['lib32-ffmpeg']"
 files = "['/usr/i686-frugalware-linux/bin/speexdec', '/usr/i686-frugalware-linux/bin/speexenc', '/usr/i686-frugalware-linux/include/speex/speex.h', '/usr/i686-frugalware-linux/include/speex/speex_bits.h', '/usr/i686-frugalware-linux/include/speex/speex_callbacks.h', '/usr/i686-frugalware-linux/include/speex/speex_config_types.h', '/usr/i686-frugalware-linux/include/speex/speex_header.h', '/usr/i686-frugalware-linux/include/speex/speex_stereo.h', '/usr/i686-frugalware-linux/include/speex/speex_types.h', '/usr/lib32/libspeex.so', '/usr/lib32/libspeex.so.1', '/usr/lib32/libspeex.so.1.5.2', '/usr/lib32/pkgconfig/speex.pc']"
 +++
 Speex is an audio codec tuned for speech ( 32bit )

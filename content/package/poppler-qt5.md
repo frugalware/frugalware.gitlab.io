@@ -11,7 +11,7 @@ size = "190112"
 usize = "711006"
 sha1sum = "75d1c8c41c3fdc7ef333e813410db5ef0a4815b1"
 depends = "['poppler', 'qt5-base>=5.15.10']"
-reverse depends = "['cantor', 'kdepim-addons', 'kfilemetadata5', 'kile', 'krita', 'okular', 'texmaker', 'texstudio', 'texworks']"
+reverse_depends = "['cantor', 'kdepim-addons', 'kfilemetadata5', 'kile', 'krita', 'okular', 'texmaker', 'texstudio', 'texworks']"
 files = "['/usr/include/poppler/qt5/poppler-annotation.h', '/usr/include/poppler/qt5/poppler-export.h', '/usr/include/poppler/qt5/poppler-form.h', '/usr/include/poppler/qt5/poppler-link.h', '/usr/include/poppler/qt5/poppler-media.h', '/usr/include/poppler/qt5/poppler-optcontent.h', '/usr/include/poppler/qt5/poppler-page-transition.h', '/usr/include/poppler/qt5/poppler-qt5.h', '/usr/include/poppler/qt5/poppler-version.h', '/usr/lib/libpoppler-qt5.so', '/usr/lib/libpoppler-qt5.so.1', '/usr/lib/libpoppler-qt5.so.1.33.0', '/usr/lib/pkgconfig/poppler-qt5.pc']"
 +++
 Poppler QT5 bindings

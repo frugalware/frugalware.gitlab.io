@@ -11,7 +11,7 @@ size = "113232"
 usize = "301000"
 sha1sum = "65e49323bb9db32890a5f4dbc0d5fe2e7d4f17c1"
 depends = "['libstdc++>=6.2.1-5', 'libxi', 'libxrender', 'mlt', 'qt5-base>=5.15.10', 'qt5-svg>=5.15.10']"
-reverse depends = "['kdenlive']"
+reverse_depends = "['kdenlive']"
 files = "['/usr/lib/mlt-7/libmltqt.so']"
 +++
 Qimage module for mlt

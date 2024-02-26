@@ -11,7 +11,7 @@ size = "618316"
 usize = "684661"
 sha1sum = "3d5eb4bd9cd589ee653df0b5c2649ed89313ab77"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-he@thunderbird.mozilla.org.xpi']"
 +++
 Hebrew language support for Thunderbird

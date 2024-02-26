@@ -11,7 +11,7 @@ size = "540476"
 usize = "613033"
 sha1sum = "3c332aa5f5ea4bdbe5ad005202e8c390d52dc60a"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-lv@thunderbird.mozilla.org.xpi']"
 +++
 Latvian language support for Thunderbird

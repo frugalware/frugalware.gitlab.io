@@ -11,7 +11,7 @@ size = "83112"
 usize = "386488"
 sha1sum = "50e286a597aca1653dac92810a9a3c283e0ecf7d"
 depends = "['glibc>=2.37']"
-reverse depends = "['blender', 'btrfs-progs', 'cairo', 'dd-rescue', 'distcc', 'easyeffects', 'fsarchiver', 'libarchive', 'lrzip', 'lzop', 'mariadb', 'mariadb-libs', 'mtd-utils', 'openttd', 'openvpn', 'qemu', 'squashfs', 'sysprof', 'vtun']"
+reverse_depends = "['blender', 'btrfs-progs', 'cairo', 'dd-rescue', 'distcc', 'easyeffects', 'fsarchiver', 'libarchive', 'lrzip', 'lzop', 'mariadb', 'mariadb-libs', 'mtd-utils', 'openttd', 'openvpn', 'qemu', 'squashfs', 'sysprof', 'vtun']"
 files = "['/usr/include/lzo/lzo1.h', '/usr/include/lzo/lzo1a.h', '/usr/include/lzo/lzo1b.h', '/usr/include/lzo/lzo1c.h', '/usr/include/lzo/lzo1f.h', '/usr/include/lzo/lzo1x.h', '/usr/include/lzo/lzo1y.h', '/usr/include/lzo/lzo1z.h', '/usr/include/lzo/lzo2a.h', '/usr/include/lzo/lzoconf.h', '/usr/include/lzo/lzodefs.h', '/usr/include/lzo/lzoutil.h', '/usr/include/lzo/lzo_asm.h', '/usr/lib/liblzo2.so', '/usr/lib/liblzo2.so.2', '/usr/lib/liblzo2.so.2.0.0', '/usr/lib/pkgconfig/lzo2.pc', '/usr/share/doc/lzo-2.10/AUTHORS', '/usr/share/doc/lzo-2.10/BUGS', '/usr/share/doc/lzo-2.10/ChangeLog', '/usr/share/doc/lzo-2.10/COPYING', '/usr/share/doc/lzo-2.10/INSTALL', '/usr/share/doc/lzo-2.10/LZO.FAQ', '/usr/share/doc/lzo-2.10/LZO.TXT', '/usr/share/doc/lzo-2.10/LZOAPI.TXT', '/usr/share/doc/lzo-2.10/NEWS', '/usr/share/doc/lzo-2.10/README', '/usr/share/doc/lzo-2.10/THANKS']"
 +++
 A real-time data compression library

@@ -11,7 +11,7 @@ size = "29668"
 usize = "98019"
 sha1sum = "07eb297c896289ded850f3c8daf9d157d43d61a8"
 depends = "['lib32-zlib>=1.2.12']"
-reverse depends = "['lib32-imlib2']"
+reverse_depends = "['lib32-imlib2']"
 files = "['/usr/i686-frugalware-linux/include/id3tag.h', '/usr/lib32/libid3tag.so', '/usr/lib32/libid3tag.so.0', '/usr/lib32/libid3tag.so.0.3.0']"
 +++
 ID3 tag manipulation library ( 32bit )

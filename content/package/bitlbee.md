@@ -11,7 +11,7 @@ size = "4436"
 usize = "0"
 sha1sum = "c3cf9390ad02fbe96a130ce7fb2d12605706e935"
 depends = "['bitlbee-common=3.6-2']"
-reverse depends = "['bitlbee-otr']"
+reverse_depends = "['bitlbee-otr']"
 files = "[]"
 +++
 An IRC to other chat networks gateway.

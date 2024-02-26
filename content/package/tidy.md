@@ -11,7 +11,7 @@ size = "326468"
 usize = "2273106"
 sha1sum = "01a75ae6a905eb354a02635c3a4c6a4a721bec27"
 depends = "['glibc>=2.34']"
-reverse depends = "['konqueror']"
+reverse_depends = "['konqueror']"
 files = "['/usr/bin/tidy', '/usr/include/buffio.h', '/usr/include/platform.h', '/usr/include/tidy.h', '/usr/include/tidybuffio.h', '/usr/include/tidyenum.h', '/usr/include/tidyplatform.h', '/usr/lib/libtidy.so', '/usr/lib/libtidy.so.5.8.0', '/usr/lib/libtidy.so.58', '/usr/lib/pkgconfig/tidy.pc', '/usr/share/doc/tidy-5.8.0/README.md', '/usr/share/man/man1/tidy.1.gz']"
 +++
 Tidy the layout and correct errors in HTML, XHTML and XML documents

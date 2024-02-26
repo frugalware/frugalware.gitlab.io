@@ -11,7 +11,7 @@ size = "697192"
 usize = "758494"
 sha1sum = "f874c0a976bbc17f52936aa44be6790d04e1b2d3"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-cs@thunderbird.mozilla.org.xpi']"
 +++
 Czech language support for Thunderbird

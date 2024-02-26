@@ -11,7 +11,7 @@ size = "13340"
 usize = "34379"
 sha1sum = "6e28477ef509119e3f913687de034bbe3728c5e0"
 depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxext>=1.3.3-3', 'lib32-libxi>=1.7.7']"
-reverse depends = "['lib32-at-spi2-core', 'steam-native']"
+reverse_depends = "['lib32-at-spi2-core', 'steam-native']"
 files = "['/usr/i686-frugalware-linux/include/X11/extensions/record.h', '/usr/i686-frugalware-linux/include/X11/extensions/XTest.h', '/usr/lib32/libXtst.so', '/usr/lib32/libXtst.so.6', '/usr/lib32/libXtst.so.6.1.0', '/usr/lib32/pkgconfig/xtst.pc']"
 +++
 X.Org Xtst library ( 32bit )

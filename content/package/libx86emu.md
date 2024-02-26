@@ -11,7 +11,7 @@ size = "53940"
 usize = "189548"
 sha1sum = "dbb14f221f417b10ac6f4574d465e27e50b8dd05"
 depends = "['glibc']"
-reverse depends = "['hwinfo']"
+reverse_depends = "['hwinfo']"
 files = "['/usr/include/x86emu.h', '/usr/lib/libx86emu.so', '/usr/lib/libx86emu.so.3', '/usr/lib/libx86emu.so.3.5', '/usr/share/doc/libx86emu-3.5/LICENSE', '/usr/share/doc/libx86emu-3.5/README.md', '/usr/share/doc/libx86emu-3.5/VERSION']"
 +++
 x86 emulation library

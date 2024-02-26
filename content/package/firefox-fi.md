@@ -11,7 +11,7 @@ size = "535608"
 usize = "589469"
 sha1sum = "0d5fc95d246b815d330cde18584a697210e7730c"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-fi@firefox.mozilla.org.xpi']"
 +++
 Finnish language support for Firefox

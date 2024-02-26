@@ -11,7 +11,7 @@ size = "737592"
 usize = "2026819"
 sha1sum = "8c166de1006f9905e5daf516b9c0b98a40ecbbf7"
 depends = "['glibc>=2.34', 'iproute2']"
-reverse depends = "['connman', 'dracut-network']"
+reverse_depends = "['connman', 'dracut-network']"
 files = "['/etc/dhclient-dhcpv6.conf', '/etc/dhclient.conf', '/usr/bin/dhclient', '/usr/bin/dhclient-script', '/usr/lib/systemd/system/dhclient6@.service', '/usr/lib/systemd/system/dhclient@.service', '/usr/share/man/man5/dhclient.conf.5.gz', '/usr/share/man/man5/dhclient.leases.5.gz', '/usr/share/man/man8/dhclient-script.8.gz', '/usr/share/man/man8/dhclient.8.gz', '/var/state/dhclient/dhclient.leases', '/var/state/dhclient/dhclient6.leases']"
 +++
 The ISC DHCP client

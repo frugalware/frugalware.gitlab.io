@@ -11,7 +11,7 @@ size = "590324"
 usize = "659821"
 sha1sum = "9928cd9c4523400140f12d06213b7b769146ed35"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-ro@thunderbird.mozilla.org.xpi']"
 +++
 Romanian language support for Thunderbird

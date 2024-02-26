@@ -11,7 +11,7 @@ size = "696468"
 usize = "758952"
 sha1sum = "58b6307fa688681cde96bdaf39e0b7757bb7be85"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-dsb@thunderbird.mozilla.org.xpi']"
 +++
 Lower Sorbian language support for Thunderbird

@@ -11,7 +11,7 @@ size = "61792"
 usize = "194557"
 sha1sum = "54db5a3409b0ebc154405631e3f0dd9069404a75"
 depends = "['glibc']"
-reverse depends = "['binwalk', 'wimlib', 'winetricks']"
+reverse_depends = "['binwalk', 'wimlib', 'winetricks']"
 files = "['/usr/bin/cabextract', '/usr/share/doc/cabextract-1.9.1/AUTHORS', '/usr/share/doc/cabextract-1.9.1/ChangeLog', '/usr/share/doc/cabextract-1.9.1/COPYING', '/usr/share/doc/cabextract-1.9.1/INSTALL', '/usr/share/doc/cabextract-1.9.1/NEWS', '/usr/share/doc/cabextract-1.9.1/README', '/usr/share/doc/cabextract-1.9.1/TODO', '/usr/share/man/man1/cabextract.1.gz']"
 +++
 a program to extract Microsoft Cabinet files

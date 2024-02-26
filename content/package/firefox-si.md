@@ -11,7 +11,7 @@ size = "543152"
 usize = "598464"
 sha1sum = "bedb1c4a744e35b5b1642ac7e6fb99066d895b73"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-si@firefox.mozilla.org.xpi']"
 +++
 Sinhala language support for Firefox

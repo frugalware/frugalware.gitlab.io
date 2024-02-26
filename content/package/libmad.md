@@ -11,7 +11,7 @@ size = "76800"
 usize = "215056"
 sha1sum = "e0148e928f29bd226bc30553ea63aec4186660ee"
 depends = "['glibc>=2.34']"
-reverse depends = "['cdrdao', 'k3b', 'kwave', 'libmp3splt', 'mencoder', 'mixxx', 'mlt', 'mpd', 'mplayer', 'mpv', 'normalize', 'pymad', 'qmmp', 'qtractor', 'scummvm', 'sox', 'stepmania', 'vlc-mad', 'xine-lib']"
+reverse_depends = "['cdrdao', 'k3b', 'kwave', 'libmp3splt', 'mencoder', 'mixxx', 'mlt', 'mpd', 'mplayer', 'mpv', 'normalize', 'pymad', 'qmmp', 'qtractor', 'scummvm', 'sox', 'stepmania', 'vlc-mad', 'xine-lib']"
 files = "['/usr/include/mad.h', '/usr/lib/libmad.so', '/usr/lib/libmad.so.0', '/usr/lib/libmad.so.0.2.1', '/usr/lib/pkgconfig/mad.pc', '/usr/share/doc/libmad-0.15.1b/CHANGES', '/usr/share/doc/libmad-0.15.1b/COPYING', '/usr/share/doc/libmad-0.15.1b/COPYRIGHT', '/usr/share/doc/libmad-0.15.1b/CREDITS', '/usr/share/doc/libmad-0.15.1b/INSTALL', '/usr/share/doc/libmad-0.15.1b/README', '/usr/share/doc/libmad-0.15.1b/TODO', '/usr/share/doc/libmad-0.15.1b/VERSION']"
 +++
 A high-quality MPEG audio decoder

@@ -11,7 +11,7 @@ size = "471940"
 usize = "539330"
 sha1sum = "f9c8a0ac5551dc8a61f3e9de0d5b6e5c759ad59b"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-ca-valencia@firefox.mozilla.org.xpi']"
 +++
 Catalan language support for Firefox

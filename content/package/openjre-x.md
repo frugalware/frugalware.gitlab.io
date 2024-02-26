@@ -11,7 +11,7 @@ size = "196608"
 usize = "598920"
 sha1sum = "e37ce4c65136e5e8c4e4fe3674f25344af84f5e9"
 depends = "['fontconfig', 'freetype2', 'libffi', 'libgif>=5.1.1', 'libjpeg-turbo', 'libpng', 'libxcomposite', 'libxinerama', 'libxrender', 'libxtst', 'openjre']"
-reverse depends = "['freeplane', 'ganttproject', 'jitsi', 'libreoffice', 'openjfx', 'projectlibre', 'spring', 'vtk-java-qt5']"
+reverse_depends = "['freeplane', 'ganttproject', 'jitsi', 'libreoffice', 'openjfx', 'projectlibre', 'spring', 'vtk-java-qt5']"
 files = "['/usr/lib/jvm/java-21-openjdk/lib/libawt_xawt.debuginfo', '/usr/lib/jvm/java-21-openjdk/lib/libawt_xawt.so', '/usr/lib/jvm/java-21-openjdk/lib/libjawt.debuginfo', '/usr/lib/jvm/java-21-openjdk/lib/libjawt.so', '/usr/lib/jvm/java-21-openjdk/lib/libjsound.debuginfo', '/usr/lib/jvm/java-21-openjdk/lib/libjsound.so', '/usr/lib/jvm/java-21-openjdk/lib/libsplashscreen.debuginfo', '/usr/lib/jvm/java-21-openjdk/lib/libsplashscreen.so']"
 +++
 Java graphic bindings

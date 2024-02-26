@@ -11,7 +11,7 @@ size = "31032"
 usize = "138879"
 sha1sum = "5a286f31f15109503eb0923ab25f96d5bfc9133d"
 depends = "['glib2', 'libepoxy', 'libglvnd', 'libwpe>=1.8.0', 'wayland']"
-reverse depends = "['webkit-gtk3']"
+reverse_depends = "['webkit-gtk3']"
 files = "['/usr/include/wpe-fdo-1.0/wpe/exported-buffer-shm.h', '/usr/include/wpe-fdo-1.0/wpe/exported-image-egl.h', '/usr/include/wpe-fdo-1.0/wpe/extensions/audio.h', '/usr/include/wpe-fdo-1.0/wpe/extensions/video-plane-display-dmabuf.h', '/usr/include/wpe-fdo-1.0/wpe/fdo-egl.h', '/usr/include/wpe-fdo-1.0/wpe/fdo.h', '/usr/include/wpe-fdo-1.0/wpe/initialize-egl.h', '/usr/include/wpe-fdo-1.0/wpe/unstable/dmabuf-pool-entry.h', '/usr/include/wpe-fdo-1.0/wpe/unstable/fdo-dmabuf.h', '/usr/include/wpe-fdo-1.0/wpe/unstable/fdo-eglstream.h', '/usr/include/wpe-fdo-1.0/wpe/unstable/fdo-shm.h', '/usr/include/wpe-fdo-1.0/wpe/unstable/initialize-dmabuf.h', '/usr/include/wpe-fdo-1.0/wpe/unstable/initialize-eglstream.h', '/usr/include/wpe-fdo-1.0/wpe/unstable/initialize-shm.h', '/usr/include/wpe-fdo-1.0/wpe/unstable/view-backend-dmabuf-pool-fdo.h', '/usr/include/wpe-fdo-1.0/wpe/unstable/view-backend-exportable-eglstream.h', '/usr/include/wpe-fdo-1.0/wpe/version.h', '/usr/include/wpe-fdo-1.0/wpe/view-backend-exportable-egl.h', '/usr/include/wpe-fdo-1.0/wpe/view-backend-exportable.h', '/usr/include/wpe-fdo-1.0/wpe/wpebackend-fdo-version.h', '/usr/lib/libWPEBackend-fdo-1.0.so', '/usr/lib/libWPEBackend-fdo-1.0.so.1', '/usr/lib/libWPEBackend-fdo-1.0.so.1.9.4', '/usr/lib/pkgconfig/wpebackend-fdo-1.0.pc', '/usr/share/doc/wpebackend-fdo-1.14.2/COPYING', '/usr/share/doc/wpebackend-fdo-1.14.2/NEWS']"
 +++
 freedesktop.org backend for WPE WebKit

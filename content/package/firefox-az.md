@@ -11,7 +11,7 @@ size = "420256"
 usize = "484199"
 sha1sum = "76a48d9602e179a72af3c0cf1ec70b4ed70ccef3"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-az@firefox.mozilla.org.xpi']"
 +++
 Azerbaijani language support for Firefox

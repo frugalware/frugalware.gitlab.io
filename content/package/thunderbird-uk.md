@@ -11,7 +11,7 @@ size = "778608"
 usize = "838419"
 sha1sum = "053b5e5395f8619132e15873648dac6e529ed661"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-uk@thunderbird.mozilla.org.xpi']"
 +++
 Ukrainian language support for Thunderbird

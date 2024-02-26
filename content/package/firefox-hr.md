@@ -11,7 +11,7 @@ size = "492644"
 usize = "549950"
 sha1sum = "4eca4a2fa876075934fed102ea9a94868719a967"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-hr@firefox.mozilla.org.xpi']"
 +++
 Croatian language support for Firefox

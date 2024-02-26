@@ -11,7 +11,7 @@ size = "60416"
 usize = "213012"
 sha1sum = "b3ca661470d093bc74caf3818673aed83f7dc421"
 depends = "['dbus-x11', 'qt5-base>=5.15.2']"
-reverse depends = "['murmur', 'plasma-workspace', 'qt5-tools', 'signon', 'snorenotify', 'telepathy-qt5', 'transmission-qt']"
+reverse_depends = "['murmur', 'plasma-workspace', 'qt5-tools', 'signon', 'snorenotify', 'telepathy-qt5', 'transmission-qt']"
 files = "['/usr/bin/qdbus', '/usr/bin/qdbus-qt5', '/usr/bin/qdbusviewer', '/usr/bin/qdbusviewer-qt5', '/usr/lib/qt5/bin/qdbus', '/usr/lib/qt5/bin/qdbusviewer']"
 +++
 D-Bus tools for qt5

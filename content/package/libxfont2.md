@@ -11,7 +11,7 @@ size = "154704"
 usize = "399145"
 sha1sum = "c19a8281d60ee736500ce58684192f2f0b76cd2b"
 depends = "['freetype2>=2.9', 'libfontenc>=1.1.3-3']"
-reverse depends = "['xfs', 'xorg-server', 'xorg-server-xwayland']"
+reverse_depends = "['xfs', 'xorg-server', 'xorg-server-xwayland']"
 files = "['/usr/include/X11/fonts/libxfont2.h', '/usr/lib/libXfont2.so', '/usr/lib/libXfont2.so.2', '/usr/lib/libXfont2.so.2.0.0', '/usr/lib/pkgconfig/xfont2.pc', '/usr/share/doc/libxfont2-2.0.6/AUTHORS', '/usr/share/doc/libxfont2-2.0.6/ChangeLog', '/usr/share/doc/libxfont2-2.0.6/COPYING', '/usr/share/doc/libxfont2-2.0.6/INSTALL', '/usr/share/doc/libxfont2-2.0.6/README.md']"
 license = "GPL2"
 +++

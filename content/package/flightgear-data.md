@@ -11,7 +11,7 @@ size = "0"
 usize = "0"
 sha1sum = ""
 depends = "[]"
-reverse depends = "['flightgear']"
+reverse_depends = "['flightgear']"
 files = "[]"
 +++
 Textures, models, data, aircraft, sample scenery, and configs files for FlightGear

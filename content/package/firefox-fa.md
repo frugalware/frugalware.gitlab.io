@@ -11,7 +11,7 @@ size = "525272"
 usize = "583091"
 sha1sum = "84ef0abf8737606e1753df844d005cc339426fcc"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-fa@firefox.mozilla.org.xpi']"
 +++
 Persian language support for Firefox

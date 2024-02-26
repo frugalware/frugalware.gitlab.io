@@ -11,7 +11,7 @@ size = "639188"
 usize = "692441"
 sha1sum = "1fe10f6c3d2d687135d9dc29aeb3978cde8bc9f7"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-tg@firefox.mozilla.org.xpi']"
 +++
 Tajik language support for Firefox

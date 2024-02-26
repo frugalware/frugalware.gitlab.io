@@ -11,7 +11,7 @@ size = "303312"
 usize = "714288"
 sha1sum = "acacad677ef83e4d80ac5343593387e518e90cd9"
 depends = "['fuse>=2.7.9-4']"
-reverse depends = "['os-prober']"
+reverse_depends = "['os-prober']"
 files = "['/usr/bin/grub-mount']"
 +++
 grub2 mount utility

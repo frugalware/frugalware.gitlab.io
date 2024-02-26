@@ -11,7 +11,7 @@ size = "70516"
 usize = "221658"
 sha1sum = "f589a2600d9307cebe8274474e887027ea062c6b"
 depends = "['glibc']"
-reverse depends = "['kbarcode']"
+reverse_depends = "['kbarcode']"
 files = "['/usr/bin/barcode', '/usr/bin/sample', '/usr/share/doc/barcode-0.99/ChangeLog', '/usr/share/doc/barcode-0.99/COPYING', '/usr/share/doc/barcode-0.99/INSTALL', '/usr/share/doc/barcode-0.99/NEWS', '/usr/share/doc/barcode-0.99/README', '/usr/share/doc/barcode-0.99/TODO', '/usr/share/info/barcode.info.gz']"
 license = "GPL"
 +++

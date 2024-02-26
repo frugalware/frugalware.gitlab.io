@@ -11,7 +11,7 @@ size = "187492"
 usize = "635705"
 sha1sum = "d07ab963fb54be46ee942c2f4c6e7b5af54c4138"
 depends = "['glibc>=2.34']"
-reverse depends = "['usbguard']"
+reverse_depends = "['usbguard']"
 files = "['/usr/bin/doxygen2man', '/usr/bin/qb-blackbox', '/usr/include/qb/qbarray.h', '/usr/include/qb/qbatomic.h', '/usr/include/qb/qbconfig.h', '/usr/include/qb/qbdefs.h', '/usr/include/qb/qbhdb.h', '/usr/include/qb/qbipcc.h', '/usr/include/qb/qbipcs.h', '/usr/include/qb/qbipc_common.h', '/usr/include/qb/qblist.h', '/usr/include/qb/qblog.h', '/usr/include/qb/qbloop.h', '/usr/include/qb/qbmap.h', '/usr/include/qb/qbrb.h', '/usr/include/qb/qbutil.h', '/usr/lib/libqb.so', '/usr/lib/libqb.so.100', '/usr/lib/libqb.so.100.3.2', '/usr/lib/pkgconfig/libqb.pc', '/usr/share/doc/libqb-2.0.8/ChangeLog', '/usr/share/doc/libqb-2.0.8/COPYING', '/usr/share/doc/libqb-2.0.8/INSTALL', '/usr/share/doc/libqb-2.0.8/README.markdown', '/usr/share/man/man1/doxygen2man.1.gz', '/usr/share/man/man8/qb-blackbox.8.gz']"
 +++
 Library with the primary purpose of providing high performance client server reusable features

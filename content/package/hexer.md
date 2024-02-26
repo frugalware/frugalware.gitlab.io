@@ -11,7 +11,7 @@ size = "72284"
 usize = "218550"
 sha1sum = "158709bb19f7a271f9a4266dff0a305147f202e2"
 depends = "['gdal>=3.7.1']"
-reverse depends = "['pdal']"
+reverse_depends = "['pdal']"
 files = "['/usr/bin/curse', '/usr/include/hexer/Draw.hpp', '/usr/include/hexer/exception.hpp', '/usr/include/hexer/export.hpp', '/usr/include/hexer/gitsha.h', '/usr/include/hexer/Hexagon.hpp', '/usr/include/hexer/hexer.hpp', '/usr/include/hexer/hexer_defines.h', '/usr/include/hexer/HexGrid.hpp', '/usr/include/hexer/HexInfo.hpp', '/usr/include/hexer/HexIter.hpp', '/usr/include/hexer/Mathpair.hpp', '/usr/include/hexer/Path.hpp', '/usr/include/hexer/Processor.hpp', '/usr/include/hexer/Segment.hpp', '/usr/include/hexer/Utils.hpp', '/usr/lib/libhexer.so', '/usr/lib/libhexer.so.1.1.0', '/usr/share/doc/hexer-1.4.0/COPYING', '/usr/share/doc/hexer-1.4.0/README.md']"
 +++
 LAS and OGR hexagonal density and boundary surface generation

@@ -11,7 +11,7 @@ size = "35660"
 usize = "117227"
 sha1sum = "fbaea2c0fb7c503a4faa4c55b20381e8bbd5b875"
 depends = "[]"
-reverse depends = "['lib32-ffmpeg']"
+reverse_depends = "['lib32-ffmpeg']"
 files = "['/usr/i686-frugalware-linux/bin/a52dec', '/usr/i686-frugalware-linux/bin/extract_a52', '/usr/i686-frugalware-linux/include/a52dec/a52.h', '/usr/i686-frugalware-linux/include/a52dec/attributes.h', '/usr/i686-frugalware-linux/include/a52dec/audio_out.h', '/usr/i686-frugalware-linux/include/a52dec/mm_accel.h', '/usr/lib32/liba52.so', '/usr/lib32/liba52.so.0', '/usr/lib32/liba52.so.0.0.0']"
 +++
 liba52 is a free library for decoding ATSC A/52 streams. ( 32bit )

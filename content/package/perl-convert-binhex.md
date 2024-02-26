@@ -11,7 +11,7 @@ size = "34344"
 usize = "98706"
 sha1sum = "760f112951aab2713d2073ed21b1dc24954089b3"
 depends = "['perl>=5.34.0']"
-reverse depends = "['amavisd-new']"
+reverse_depends = "['amavisd-new']"
 files = "['/usr/bin/site_perl/binhex.pl', '/usr/bin/site_perl/debinhex.pl', '/usr/lib/perl5/site_perl/Convert/BinHex.pm', '/usr/share/doc/perl-convert-binhex-1.125/COPYING', '/usr/share/doc/perl-convert-binhex-1.125/LICENSE', '/usr/share/doc/perl-convert-binhex-1.125/MANIFEST', '/usr/share/doc/perl-convert-binhex-1.125/README', '/usr/share/doc/perl-convert-binhex-1.125/README-TOO', '/usr/share/man/man1/binhex.pl.1perl.gz', '/usr/share/man/man1/debinhex.pl.1perl.gz', '/usr/share/man/man3/Convert::BinHex.3perl.gz']"
 +++
 extract data from Macintosh BinHex files

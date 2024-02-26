@@ -11,7 +11,7 @@ size = "2870040"
 usize = "5263032"
 sha1sum = "9f65d833e6b63a5f1e1984255a6be480d1720003"
 depends = "[]"
-reverse depends = "['openttd']"
+reverse_depends = "['openttd']"
 files = "['/usr/share/openttd/data/ogfx1_base.grf', '/usr/share/openttd/data/ogfxc_arctic.grf', '/usr/share/openttd/data/ogfxe_extra.grf', '/usr/share/openttd/data/ogfxh_tropical.grf', '/usr/share/openttd/data/ogfxi_logos.grf', '/usr/share/openttd/data/ogfxt_toyland.grf', '/usr/share/openttd/data/opengfx.obg']"
 +++
 Graphic data files for openttd.

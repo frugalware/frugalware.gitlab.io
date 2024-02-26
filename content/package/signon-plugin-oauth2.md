@@ -11,7 +11,7 @@ size = "142288"
 usize = "488561"
 sha1sum = "b8a2fdc4ef25a1992f9d06f50abeceb68213b00e"
 depends = "['signon>=8.60-3']"
-reverse depends = "['kaccounts-provider-opendesktop']"
+reverse_depends = "['kaccounts-provider-opendesktop']"
 files = "['/usr/bin/signon-oauth2plugin-tests', '/usr/include/signon-plugins/oauth1data.h', '/usr/include/signon-plugins/oauth2data.h', '/usr/lib/pkgconfig/signon-oauth2plugin.pc', '/usr/lib/signon/liboauth2plugin.so', '/usr/share/doc/signon-plugin-oauth2-0.25/COPYING', '/usr/share/doc/signon-plugin-oauth2-0.25/README.md', '/usr/share/signon-oauth2plugin-tests/tests.xml']"
 +++
 Oauth2 plugin for signon

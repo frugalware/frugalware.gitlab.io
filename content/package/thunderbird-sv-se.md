@@ -11,7 +11,7 @@ size = "657584"
 usize = "724143"
 sha1sum = "bfd09fcb3defecc72729714db1b1a20c368d4b80"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-sv-SE@thunderbird.mozilla.org.xpi']"
 +++
 Swedish language support for Thunderbird

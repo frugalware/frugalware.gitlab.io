@@ -11,7 +11,7 @@ size = "67032"
 usize = "181945"
 sha1sum = "afac14e20503130aff99a8817c567b0742d83b10"
 depends = "['glibc', 'libxcrypt']"
-reverse depends = "['lib32-libsystemd', 'lib32-libxcrypt-compat', 'lib32-pam', 'lib32-util-linux']"
+reverse_depends = "['lib32-libsystemd', 'lib32-libxcrypt-compat', 'lib32-pam', 'lib32-util-linux']"
 files = "['/usr/lib32/libcrypt.so', '/usr/lib32/libcrypt.so.2', '/usr/lib32/libcrypt.so.2.0.0', '/usr/lib32/pkgconfig/libcrypt.pc', '/usr/lib32/pkgconfig/libxcrypt.pc']"
 +++
 Modern library for one-way hashing of passwords - lib32

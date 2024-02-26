@@ -11,7 +11,7 @@ size = "521840"
 usize = "576392"
 sha1sum = "82f35b313c29c14044fe32ed4c00eaa5724e7cbd"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-br@firefox.mozilla.org.xpi']"
 +++
 Breton language support for Firefox

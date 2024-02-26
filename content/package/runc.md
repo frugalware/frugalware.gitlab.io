@@ -11,7 +11,7 @@ size = "2821104"
 usize = "9802820"
 sha1sum = "62bd2c5a14f275bcd1c293705c4b8b14bacc20fe"
 depends = "['libseccomp']"
-reverse depends = "['containerd', 'docker']"
+reverse_depends = "['containerd', 'docker']"
 files = "['/usr/bin/docker-runc', '/usr/bin/runc']"
 +++
 CLI tool for spawning and running containers according to the OCI specification.

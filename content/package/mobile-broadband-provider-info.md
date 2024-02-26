@@ -11,7 +11,7 @@ size = "62052"
 usize = "525304"
 sha1sum = "ea77008e2d012a4f71a9dcbee58c434b79380456"
 depends = "[]"
-reverse depends = "['networkmanager', 'nm-connection-editor', 'ofono', 'plasma-nm']"
+reverse_depends = "['networkmanager', 'nm-connection-editor', 'ofono', 'plasma-nm']"
 files = "['/usr/lib/pkgconfig/mobile-broadband-provider-info.pc', '/usr/share/doc/mobile-broadband-provider-info-20230416/COPYING', '/usr/share/doc/mobile-broadband-provider-info-20230416/README', '/usr/share/mobile-broadband-provider-info/apns-conf.xml', '/usr/share/mobile-broadband-provider-info/serviceproviders.2.dtd', '/usr/share/mobile-broadband-provider-info/serviceproviders.xml']"
 +++
 Contains service provider specific settings of mobile broadband providers in different countries.

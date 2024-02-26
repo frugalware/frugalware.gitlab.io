@@ -11,7 +11,7 @@ size = "545912"
 usize = "600746"
 sha1sum = "a028121799cea766a814e53af075c64a05caf328"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-oc@firefox.mozilla.org.xpi']"
 +++
 Occitan (post 1500) language support for Firefox

@@ -11,7 +11,7 @@ size = "19668"
 usize = "54975"
 sha1sum = "3a460a7a2adb0a17e6500f6c42ff93cb1aea5691"
 depends = "['glibc']"
-reverse depends = "['lumina-desktop']"
+reverse_depends = "['lumina-desktop']"
 files = "['/usr/bin/acpi', '/usr/share/doc/acpi-1.7/AUTHORS', '/usr/share/doc/acpi-1.7/ChangeLog', '/usr/share/doc/acpi-1.7/COPYING', '/usr/share/doc/acpi-1.7/INSTALL', '/usr/share/doc/acpi-1.7/README', '/usr/share/man/man1/acpi.1.gz']"
 +++
 Linux ACPI Client

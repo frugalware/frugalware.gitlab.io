@@ -11,7 +11,7 @@ size = "249352"
 usize = "938836"
 sha1sum = "27bfb47f1d0de1238e0ed258dc0e928bce903124"
 depends = "[]"
-reverse depends = "['lib32-ffmpeg']"
+reverse_depends = "['lib32-ffmpeg']"
 files = "['/usr/i686-frugalware-linux/include/zimg++.hpp', '/usr/i686-frugalware-linux/include/zimg.h', '/usr/lib32/libzimg.so', '/usr/lib32/libzimg.so.2', '/usr/lib32/libzimg.so.2.0.0', '/usr/lib32/pkgconfig/zimg.pc']"
 +++
 Scaling, colorspace conversion, and dithering library ( 32bit )

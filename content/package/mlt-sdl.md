@@ -11,7 +11,7 @@ size = "20320"
 usize = "46792"
 sha1sum = "d3b69477f47603064eeb9264bcfb59d18e4241e0"
 depends = "['mlt', 'sdlimage']"
-reverse depends = "['kdenlive']"
+reverse_depends = "['kdenlive']"
 files = "['/usr/lib/mlt-7/libmltsdl.so']"
 +++
 SDL module for mlt

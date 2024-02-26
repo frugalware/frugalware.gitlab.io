@@ -11,7 +11,7 @@ size = "493672"
 usize = "553254"
 sha1sum = "edda85acd1b3d92fa46be8024fd3689c45a57e8a"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-ur@firefox.mozilla.org.xpi']"
 +++
 Urdu language support for Firefox

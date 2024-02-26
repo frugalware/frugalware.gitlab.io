@@ -11,7 +11,7 @@ size = "343048"
 usize = "412259"
 sha1sum = "73b4a075da6caeae4db57b7b9304e239c4c8cf2e"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-af@firefox.mozilla.org.xpi']"
 +++
 Afrikaans language support for Firefox

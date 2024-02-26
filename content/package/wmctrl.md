@@ -11,7 +11,7 @@ size = "27556"
 usize = "78408"
 sha1sum = "b4c3bf1607394570016f0ab25f264e758aac2d9c"
 depends = "['libxmu']"
-reverse depends = "['libinput-gestures']"
+reverse_depends = "['libinput-gestures']"
 files = "['/usr/bin/wmctrl', '/usr/share/doc/wmctrl-1.07/AUTHORS', '/usr/share/doc/wmctrl-1.07/ChangeLog', '/usr/share/doc/wmctrl-1.07/COPYING', '/usr/share/doc/wmctrl-1.07/INSTALL', '/usr/share/doc/wmctrl-1.07/README', '/usr/share/man/man1/wmctrl.1.gz']"
 +++
 Command line control of your window manager

@@ -11,7 +11,7 @@ size = "50772"
 usize = "193122"
 sha1sum = "424fa86a68bf5e7a135d1e48e32627396bb5fc6b"
 depends = "['libusb1']"
-reverse depends = "['qemu', 'spice-glib']"
+reverse_depends = "['qemu', 'spice-glib']"
 files = "['/usr/bin/usbredirect', '/usr/include/usbredirfilter.h', '/usr/include/usbredirhost.h', '/usr/include/usbredirparser.h', '/usr/include/usbredirproto.h', '/usr/lib/libusbredirhost.so', '/usr/lib/libusbredirhost.so.1', '/usr/lib/libusbredirhost.so.1.0.3', '/usr/lib/libusbredirparser.so', '/usr/lib/libusbredirparser.so.1', '/usr/lib/libusbredirparser.so.1.2.1', '/usr/lib/pkgconfig/libusbredirhost.pc', '/usr/lib/pkgconfig/libusbredirparser-0.5.pc', '/usr/share/doc/usbredir-0.13.0/COPYING', '/usr/share/doc/usbredir-0.13.0/COPYING.LIB', '/usr/share/doc/usbredir-0.13.0/README.md', '/usr/share/doc/usbredir-0.13.0/TODO', '/usr/share/man/man1/usbredirect.1.gz']"
 +++
 USB network redirection protocol libraries

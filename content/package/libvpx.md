@@ -11,7 +11,7 @@ size = "1371448"
 usize = "5029097"
 sha1sum = "5d62358bdca53fc2b296917c6cfd52edf94358b1"
 depends = "['libstdc++>=11.2']"
-reverse depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-good-vpx', 'mencoder', 'mplayer', 'mpv', 'qt5-webengine', 'qtox', 'thunderbird', 'tox-core', 'virtualbox', 'vlc-vpx', 'xine-lib']"
+reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-good-vpx', 'mencoder', 'mplayer', 'mpv', 'qt5-webengine', 'qtox', 'thunderbird', 'tox-core', 'virtualbox', 'vlc-vpx', 'xine-lib']"
 files = "['/usr/bin/vpxdec', '/usr/bin/vpxenc', '/usr/include/vpx/vp8.h', '/usr/include/vpx/vp8cx.h', '/usr/include/vpx/vp8dx.h', '/usr/include/vpx/vpx_codec.h', '/usr/include/vpx/vpx_decoder.h', '/usr/include/vpx/vpx_encoder.h', '/usr/include/vpx/vpx_ext_ratectrl.h', '/usr/include/vpx/vpx_frame_buffer.h', '/usr/include/vpx/vpx_image.h', '/usr/include/vpx/vpx_integer.h', '/usr/include/vpx/vpx_tpl.h', '/usr/lib/libvpx.so', '/usr/lib/libvpx.so.9', '/usr/lib/libvpx.so.9.0', '/usr/lib/libvpx.so.9.0.0', '/usr/lib/pkgconfig/vpx.pc', '/usr/share/doc/libvpx-1.14.0/AUTHORS', '/usr/share/doc/libvpx-1.14.0/CHANGELOG', '/usr/share/doc/libvpx-1.14.0/FAQ.md', '/usr/share/doc/libvpx-1.14.0/LICENSE', '/usr/share/doc/libvpx-1.14.0/README', '/usr/share/doc/libvpx-1.14.0/README.md']"
 +++
 WebM VP8 VP9 Codec SDK

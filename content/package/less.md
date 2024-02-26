@@ -11,7 +11,7 @@ size = "156224"
 usize = "385057"
 sha1sum = "5739cbcc1ab3f2c364294f71487c90316f8ad8e2"
 depends = "['bash>=4.4.12-4', 'file>=5.32-2', 'ncurses>=6.1-4']"
-reverse depends = "['kernel-initrd', 'kernel-lts-initrd', 'lesspipe', 'man-db']"
+reverse_depends = "['kernel-initrd', 'kernel-lts-initrd', 'lesspipe', 'man-db']"
 files = "['/usr/bin/less', '/usr/bin/lessecho', '/usr/bin/lesskey', '/usr/share/doc/less-643/COPYING', '/usr/share/doc/less-643/INSTALL', '/usr/share/doc/less-643/LICENSE', '/usr/share/doc/less-643/NEWS', '/usr/share/doc/less-643/README', '/usr/share/man/man1/less.1.gz', '/usr/share/man/man1/lessecho.1.gz', '/usr/share/man/man1/lesskey.1.gz']"
 +++
 A paginator similar to more

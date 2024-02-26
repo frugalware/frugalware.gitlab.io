@@ -11,7 +11,7 @@ size = "60936"
 usize = "209416"
 sha1sum = "8299151b046f03c30231666b5c524ce812a78911"
 depends = "['glibc']"
-reverse depends = "['lib32-libpulse']"
+reverse_depends = "['lib32-libpulse']"
 files = "['/usr/i686-frugalware-linux/bin/tdbbackup', '/usr/i686-frugalware-linux/bin/tdbdump', '/usr/i686-frugalware-linux/bin/tdbrestore', '/usr/i686-frugalware-linux/bin/tdbtool', '/usr/i686-frugalware-linux/include/tdb.h', '/usr/lib32/libtdb.so', '/usr/lib32/libtdb.so.1', '/usr/lib32/libtdb.so.1.4.10', '/usr/lib32/pkgconfig/tdb.pc']"
 +++
 A Trivial Database ( 32bit )

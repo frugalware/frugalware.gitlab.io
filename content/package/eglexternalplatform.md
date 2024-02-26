@@ -11,7 +11,7 @@ size = "8196"
 usize = "30702"
 sha1sum = "dbdd6f31e1bc7213528546f0104e35fb9710c7ab"
 depends = "['libegl']"
-reverse depends = "['egl-wayland']"
+reverse_depends = "['egl-wayland']"
 files = "['/usr/include/EGL/eglexternalplatform.h', '/usr/include/EGL/eglexternalplatformversion.h', '/usr/lib/pkgconfig/eglexternalplatform.pc', '/usr/share/doc/eglexternalplatform-1.1/COPYING', '/usr/share/doc/eglexternalplatform-1.1/README.md']"
 +++
 EGL External Platform interface

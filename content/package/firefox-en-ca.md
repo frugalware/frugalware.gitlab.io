@@ -11,7 +11,7 @@ size = "495276"
 usize = "553287"
 sha1sum = "af513a495fbc7b924f2ea105cf22b79c03e17fd9"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-en-CA@firefox.mozilla.org.xpi']"
 +++
 Canadian English language support for Firefox

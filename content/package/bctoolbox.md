@@ -11,7 +11,7 @@ size = "58992"
 usize = "226942"
 sha1sum = "e0f677e56a4c9665e13007347b29328380bee19f"
 depends = "['cunit', 'mbedtls>=2.27.0']"
-reverse depends = "['ortp']"
+reverse_depends = "['ortp']"
 files = "['/usr/include/bctoolbox/crypto.h', '/usr/include/bctoolbox/list.h', '/usr/include/bctoolbox/logging.h', '/usr/include/bctoolbox/map.h', '/usr/include/bctoolbox/port.h', '/usr/include/bctoolbox/tester.h', '/usr/include/bctoolbox/vfs.h', '/usr/lib/libbctoolbox-tester.so', '/usr/lib/libbctoolbox-tester.so.0', '/usr/lib/libbctoolbox-tester.so.0.0.0', '/usr/lib/libbctoolbox.so', '/usr/lib/libbctoolbox.so.0', '/usr/lib/libbctoolbox.so.0.0.0', '/usr/lib/pkgconfig/bctoolbox-tester.pc', '/usr/lib/pkgconfig/bctoolbox.pc', '/usr/share/doc/bctoolbox-0.2.0/AUTHORS', '/usr/share/doc/bctoolbox-0.2.0/COPYING', '/usr/share/doc/bctoolbox-0.2.0/INSTALL', '/usr/share/doc/bctoolbox-0.2.0/NEWS', '/usr/share/doc/bctoolbox-0.2.0/README']"
 +++
 A library written in C that allows you to create and run audio and video streams

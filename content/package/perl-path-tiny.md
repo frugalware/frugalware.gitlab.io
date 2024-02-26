@@ -11,7 +11,7 @@ size = "54360"
 usize = "204473"
 sha1sum = "21517dbab4639b6fc4b8b775e22696917583f03b"
 depends = "['perl>=5.34.0']"
-reverse depends = "['freecell-solver']"
+reverse_depends = "['freecell-solver']"
 files = "['/usr/lib/perl5/site_perl/Path/Tiny.pm', '/usr/share/doc/perl-path-tiny-0.144/LICENSE', '/usr/share/doc/perl-path-tiny-0.144/MANIFEST', '/usr/share/doc/perl-path-tiny-0.144/README', '/usr/share/man/man3/Path::Tiny.3perl.gz']"
 +++
 File path utility

@@ -11,7 +11,7 @@ size = "29256"
 usize = "81761"
 sha1sum = "b297f95cb5b97beb6ef67390fba8c6a07ec16237"
 depends = "[]"
-reverse depends = "['lib32-newt']"
+reverse_depends = "['lib32-newt']"
 files = "['/usr/i686-frugalware-linux/include/popt.h', '/usr/lib32/libpopt.so', '/usr/lib32/libpopt.so.0', '/usr/lib32/libpopt.so.0.0.0', '/usr/lib32/pkgconfig/popt.pc']"
 +++
 A commandline option parser ( 32bit )

@@ -11,7 +11,7 @@ size = "21172"
 usize = "62498"
 sha1sum = "04835a85ac4d5fe196a1a3cb04ead49ad34aa169"
 depends = "['qt5-base>=5.15.10']"
-reverse depends = "['radeon-profile']"
+reverse_depends = "['radeon-profile']"
 files = "['/usr/bin/radeon-profile-daemon', '/usr/lib/systemd/system/radeon-profile-daemon.service', '/usr/share/doc/radeon-profile-daemon-20190603/LICENSE', '/usr/share/doc/radeon-profile-daemon-20190603/README.md']"
 +++
 Daemon for radeon-profile GUI

@@ -11,7 +11,7 @@ size = "54624"
 usize = "170395"
 sha1sum = "46577dc962a2bcff453103b1f60486acbcad7c32"
 depends = "['libxi>=1.7.6-2', 'libxinerama>=1.1.3-3', 'libxrandr>=1.5.0-4']"
-reverse depends = "['xdotool']"
+reverse_depends = "['xdotool']"
 files = "['/usr/bin/xinput', '/usr/share/doc/xinput-1.6.4/AUTHORS', '/usr/share/doc/xinput-1.6.4/ChangeLog', '/usr/share/doc/xinput-1.6.4/COPYING', '/usr/share/doc/xinput-1.6.4/INSTALL', '/usr/share/doc/xinput-1.6.4/NEWS', '/usr/share/doc/xinput-1.6.4/README', '/usr/share/man/man1/xinput.1.gz']"
 license = "GPL2"
 +++

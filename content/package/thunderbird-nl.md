@@ -11,7 +11,7 @@ size = "658476"
 usize = "720028"
 sha1sum = "52bf9458ebad8be723a795d0c157d747b3928343"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-nl@thunderbird.mozilla.org.xpi']"
 +++
 Dutch language support for Thunderbird

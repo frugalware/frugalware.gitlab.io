@@ -11,7 +11,7 @@ size = "25180"
 usize = "72414"
 sha1sum = "e745e65ed9b6108a2978980e48e83c210e88aae7"
 depends = "['glibc>=2.29-6', 'libdvdread>=6.1.1']"
-reverse depends = "['kvideoencoder']"
+reverse_depends = "['kvideoencoder']"
 files = "['/usr/bin/lsdvd', '/usr/share/doc/lsdvd-0.17/AUTHORS', '/usr/share/doc/lsdvd-0.17/ChangeLog', '/usr/share/doc/lsdvd-0.17/COPYING', '/usr/share/doc/lsdvd-0.17/INSTALL', '/usr/share/doc/lsdvd-0.17/README', '/usr/share/man/man1/lsdvd.1.gz']"
 license = "GPL2"
 +++

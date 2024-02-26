@@ -11,7 +11,7 @@ size = "4021264"
 usize = "16419488"
 sha1sum = "d90b4b8fb74fa823b1ddee0ee1524b7270712597"
 depends = "['elfutils>=0.167-2', 'expat>=2.1.0-6', 'libdrm>=2.4.70-2', 'libffi>=3.2.1-2', 'libglapi', 'libx11>=1.6.3-4', 'llvm-libs>=17.0.6', 'zstd']"
-reverse depends = "['mesademos', 'wine', 'wine-devel']"
+reverse_depends = "['mesademos', 'wine', 'wine-devel']"
 files = "['/usr/include/GL/osmesa.h', '/usr/lib/libOSMesa.so', '/usr/lib/libOSMesa.so.8', '/usr/lib/libOSMesa.so.8.0.0', '/usr/lib/pkgconfig/osmesa.pc']"
 +++
 Mesa Off-screen Rendering

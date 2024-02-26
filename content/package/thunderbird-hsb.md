@@ -11,7 +11,7 @@ size = "693360"
 usize = "756105"
 sha1sum = "8d2eecbaa9e8dbbf75c64672b4d620ac85da2c96"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-hsb@thunderbird.mozilla.org.xpi']"
 +++
 Upper Sorbian language support for Thunderbird

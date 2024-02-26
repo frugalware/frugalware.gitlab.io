@@ -11,7 +11,7 @@ size = "696804"
 usize = "757870"
 sha1sum = "cc385b4903b095c9b024b686f118bb28a73efd9d"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-sk@thunderbird.mozilla.org.xpi']"
 +++
 Slovak language support for Thunderbird

@@ -11,7 +11,7 @@ size = "120752"
 usize = "145417"
 sha1sum = "f8db4f9e66cd69620f29fcf9f37e4e0c1ce98b8c"
 depends = "['openjre']"
-reverse depends = "['avalon-logkit']"
+reverse_depends = "['avalon-logkit']"
 files = "['/usr/share/java/jsp-api.jar', '/usr/share/java/servlet-api.jar']"
 +++
 Servlet API from jakarta.apache.org

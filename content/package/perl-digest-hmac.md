@@ -11,7 +11,7 @@ size = "14204"
 usize = "29710"
 sha1sum = "520bbb3205df6a186169a7dfe421d86317e28399"
 depends = "['perl>=5.34.0']"
-reverse depends = "['perl-net-dns']"
+reverse_depends = "['perl-net-dns']"
 files = "['/usr/lib/perl5/site_perl/current/Digest/HMAC.pm', '/usr/lib/perl5/site_perl/current/Digest/HMAC_MD5.pm', '/usr/lib/perl5/site_perl/current/Digest/HMAC_SHA1.pm', '/usr/share/doc/perl-digest-hmac-1.04/LICENSE', '/usr/share/doc/perl-digest-hmac-1.04/MANIFEST', '/usr/share/doc/perl-digest-hmac-1.04/README', '/usr/share/man/man3/Digest::HMAC.3perl.gz', '/usr/share/man/man3/Digest::HMAC_MD5.3perl.gz', '/usr/share/man/man3/Digest::HMAC_SHA1.3perl.gz']"
 +++
 Keyed-Hashing for Message Authentication

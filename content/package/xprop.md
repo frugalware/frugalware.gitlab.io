@@ -11,7 +11,7 @@ size = "42688"
 usize = "110413"
 sha1sum = "551889a5b9563f5e314134541d44605d8651191d"
 depends = "['libx11>=1.6.3-4']"
-reverse depends = "['plasma-workspace', 'screenfetch', 'steamtinkerlaunch']"
+reverse_depends = "['plasma-workspace', 'screenfetch', 'steamtinkerlaunch']"
 files = "['/usr/bin/xprop', '/usr/share/doc/xprop-1.2.7/ChangeLog', '/usr/share/doc/xprop-1.2.7/COPYING', '/usr/share/doc/xprop-1.2.7/INSTALL', '/usr/share/doc/xprop-1.2.7/README.md', '/usr/share/man/man1/xprop.1.gz']"
 license = "GPL2"
 +++

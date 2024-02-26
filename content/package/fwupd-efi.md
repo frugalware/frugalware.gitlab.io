@@ -11,7 +11,7 @@ size = "33988"
 usize = "91273"
 sha1sum = "502d4645417a4d5f3ededdf7cdaa636e20089d2f"
 depends = "['glibc>=2.34']"
-reverse depends = "['fwupd']"
+reverse_depends = "['fwupd']"
 files = "['/usr/lib/fwupd/efi/fwupdx64.efi', '/usr/lib/pkgconfig/fwupd-efi.pc', '/usr/share/doc/fwupd-efi-1.4/AUTHORS', '/usr/share/doc/fwupd-efi-1.4/COPYING', '/usr/share/doc/fwupd-efi-1.4/README.md', '/usr/share/doc/fwupd-efi-1.4/RELEASE']"
 +++
 EFI Application used by uefi-capsule plugin in fwupd

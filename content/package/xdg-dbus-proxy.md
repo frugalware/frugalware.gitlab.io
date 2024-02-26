@@ -11,7 +11,7 @@ size = "27188"
 usize = "78905"
 sha1sum = "9f4cc7e0e2d01e0daabadf691211ac6084369a4b"
 depends = "['glib2']"
-reverse depends = "['flatpak', 'webkit-gtk3']"
+reverse_depends = "['flatpak', 'webkit-gtk3']"
 files = "['/usr/bin/xdg-dbus-proxy', '/usr/share/doc/xdg-dbus-proxy-0.1.5/COPYING', '/usr/share/doc/xdg-dbus-proxy-0.1.5/NEWS', '/usr/share/doc/xdg-dbus-proxy-0.1.5/README.md']"
 +++
 A D-Bus proxy.

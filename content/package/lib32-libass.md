@@ -11,7 +11,7 @@ size = "102692"
 usize = "249668"
 sha1sum = "9bbe199af6f74e36829f236145e1edf90e7903ae"
 depends = "['lib32-fribidi>=0.19.7-4', 'lib32-harfbuzz>=1.3.1', 'lib32-libenca>=1.16-4']"
-reverse depends = "['lib32-ffmpeg']"
+reverse_depends = "['lib32-ffmpeg']"
 files = "['/usr/i686-frugalware-linux/include/ass/ass.h', '/usr/i686-frugalware-linux/include/ass/ass_types.h', '/usr/lib32/libass.so', '/usr/lib32/libass.so.9', '/usr/lib32/libass.so.9.2.1', '/usr/lib32/pkgconfig/libass.pc']"
 +++
 A portable library for SSA/ASS subtitles rendering ( 32bit )

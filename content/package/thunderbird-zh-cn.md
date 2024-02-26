@@ -11,7 +11,7 @@ size = "695744"
 usize = "761572"
 sha1sum = "711df3ecc136de0b2e763419aa4a63e8cf256f8f"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-zh-CN@thunderbird.mozilla.org.xpi']"
 +++
 Chinese Simplified language support for Thunderbird

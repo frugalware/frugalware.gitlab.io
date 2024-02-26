@@ -11,7 +11,7 @@ size = "8508"
 usize = "14953"
 sha1sum = "690d40f2ceffe3e6fc8985a5009c67364f2cfd9a"
 depends = "['python3>=3.12']"
-reverse depends = "['python3-sphinx']"
+reverse_depends = "['python3-sphinx']"
 files = "['/usr/lib/python3.12/site-packages/sphinxcontrib/jsmath/version.py', '/usr/lib/python3.12/site-packages/sphinxcontrib/jsmath/__init__.py', '/usr/lib/python3.12/site-packages/sphinxcontrib/jsmath/__pycache__/version.cpython-312.pyc', '/usr/lib/python3.12/site-packages/sphinxcontrib/jsmath/__pycache__/__init__.cpython-312.pyc', '/usr/lib/python3.12/site-packages/sphinxcontrib_jsmath-1.0.1-py3.12-nspkg.pth', '/usr/lib/python3.12/site-packages/sphinxcontrib_jsmath-1.0.1-py3.12.egg-info/dependency_links.txt', '/usr/lib/python3.12/site-packages/sphinxcontrib_jsmath-1.0.1-py3.12.egg-info/namespace_packages.txt', '/usr/lib/python3.12/site-packages/sphinxcontrib_jsmath-1.0.1-py3.12.egg-info/not-zip-safe', '/usr/lib/python3.12/site-packages/sphinxcontrib_jsmath-1.0.1-py3.12.egg-info/PKG-INFO', '/usr/lib/python3.12/site-packages/sphinxcontrib_jsmath-1.0.1-py3.12.egg-info/requires.txt', '/usr/lib/python3.12/site-packages/sphinxcontrib_jsmath-1.0.1-py3.12.egg-info/SOURCES.txt', '/usr/lib/python3.12/site-packages/sphinxcontrib_jsmath-1.0.1-py3.12.egg-info/top_level.txt', '/usr/share/doc/python3-sphinx-jsmath-1.0.1/CHANGES', '/usr/share/doc/python3-sphinx-jsmath-1.0.1/LICENSE', '/usr/share/doc/python3-sphinx-jsmath-1.0.1/README.rst']"
 +++
 Sphinx extension which renders display math in HTML via JavaScript

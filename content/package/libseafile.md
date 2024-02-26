@@ -11,7 +11,7 @@ size = "21116"
 usize = "108343"
 sha1sum = "62d95940f169df52e40748d5ce6f5ff3a00765b2"
 depends = "['glib2', 'libsearpc']"
-reverse depends = "['seafile', 'seafile-client']"
+reverse_depends = "['seafile', 'seafile-client']"
 files = "['/usr/include/seafile/seafile-error.h', '/usr/include/seafile/seafile-object.h', '/usr/include/seafile/seafile-rpc.h', '/usr/include/seafile/seafile.h', '/usr/lib/libseafile.so', '/usr/lib/libseafile.so.0', '/usr/lib/libseafile.so.0.0.0', '/usr/lib/pkgconfig/libseafile.pc']"
 +++
 Seafile shared lib

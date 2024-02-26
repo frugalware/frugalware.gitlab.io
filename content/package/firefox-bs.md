@@ -11,7 +11,7 @@ size = "400396"
 usize = "464831"
 sha1sum = "ca8928bc9464a97a2cba47ca907ea03e86fea288"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-bs@firefox.mozilla.org.xpi']"
 +++
 Bosnian language support for Firefox

@@ -11,7 +11,7 @@ size = "116968"
 usize = "369791"
 sha1sum = "3cf52eb059774e354ff7d98065edca20ff0694d8"
 depends = "['lib32-zlib>=1.2.12']"
-reverse depends = "['steam-native']"
+reverse_depends = "['steam-native']"
 files = "['/usr/i686-frugalware-linux/bin/libpng12-config', '/usr/lib32/libpng.so.3', '/usr/lib32/libpng.so.3.57.0', '/usr/lib32/libpng12.so', '/usr/lib32/libpng12.so.0', '/usr/lib32/libpng12.so.0.57.0']"
 +++
 A collection of routines used to create PNG format graphics files. ( 32bit )

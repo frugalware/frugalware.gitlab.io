@@ -11,7 +11,7 @@ size = "124892"
 usize = "289248"
 sha1sum = "eb25e342bda10e1784b990b7603c3ef374257671"
 depends = "['cryptsetup-luks', 'kmod', 'libidn2', 'libseccomp', 'libsystemd>=255.3']"
-reverse depends = "['lvm2', 'systemd']"
+reverse_depends = "['lvm2', 'systemd']"
 files = "['/usr/bin/systemctl']"
 +++
 The systemd system and service manager

@@ -11,7 +11,7 @@ size = "68200"
 usize = "197909"
 sha1sum = "1368ae3b447372d0f2bfce19f639dd0a3f48c743"
 depends = "['glibc', 'lib32-libxcrypt']"
-reverse depends = "['get_steam', 'steam-native']"
+reverse_depends = "['get_steam', 'steam-native']"
 files = "['/usr/lib32/libcrypt.so.1', '/usr/lib32/libcrypt.so.1.1.0']"
 +++
 Modern library for one-way hashing of passwords - lib32 glibc compat

@@ -11,7 +11,7 @@ size = "543872"
 usize = "597976"
 sha1sum = "18b2f3bb5bb95aef194a49ffc1b618e5008a9277"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-nl@firefox.mozilla.org.xpi']"
 +++
 Dutch language support for Firefox

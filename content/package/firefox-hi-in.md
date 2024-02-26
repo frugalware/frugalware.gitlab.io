@@ -11,7 +11,7 @@ size = "497244"
 usize = "558455"
 sha1sum = "024a781404167781c26ed8bedd12a4572e02b549"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-hi-IN@firefox.mozilla.org.xpi']"
 +++
 Hindi language support for Firefox

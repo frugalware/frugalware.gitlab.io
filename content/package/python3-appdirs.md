@@ -11,7 +11,7 @@ size = "15044"
 usize = "66244"
 sha1sum = "be1664ca7a8aabffa4a9564b2a337ed2885b60e7"
 depends = "['python3>=3.12']"
-reverse depends = "['python3-setuptools']"
+reverse_depends = "['python3-setuptools']"
 files = "['/usr/lib/python3.12/site-packages/appdirs-1.4.4-py3.12.egg-info/dependency_links.txt', '/usr/lib/python3.12/site-packages/appdirs-1.4.4-py3.12.egg-info/PKG-INFO', '/usr/lib/python3.12/site-packages/appdirs-1.4.4-py3.12.egg-info/SOURCES.txt', '/usr/lib/python3.12/site-packages/appdirs-1.4.4-py3.12.egg-info/top_level.txt', '/usr/lib/python3.12/site-packages/appdirs.py', '/usr/lib/python3.12/site-packages/__pycache__/appdirs.cpython-312.pyc', '/usr/share/doc/python3-appdirs-1.4.4/README.rst']"
 +++
 A small Python module for determining appropriate platform-specific dirs, e.g. a 'usr data dir'

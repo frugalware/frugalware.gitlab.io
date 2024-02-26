@@ -11,7 +11,7 @@ size = "63475"
 usize = "149375"
 sha1sum = "f8fc1c2fe71781519a2fbf63d3a39db52a990259"
 depends = "[]"
-reverse depends = "['ipw3945']"
+reverse_depends = "['ipw3945']"
 files = "['lib/firmware/ipw3945.ucode', 'usr/share/doc/ipw3945-ucode-1.14.2/README.ipw3945-ucode']"
 +++
 Intel PRO/Wireless 3945ABG Network Connection Adapter Microcode

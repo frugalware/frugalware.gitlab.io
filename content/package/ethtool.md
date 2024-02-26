@@ -11,7 +11,7 @@ size = "295320"
 usize = "1134597"
 sha1sum = "6c19af75e51848b39a111abebd3c86c188e89775"
 depends = "['libmnl']"
-reverse depends = "['aircrack-ng', 'networkmanager', 'pm-utils', 'rdma-core']"
+reverse_depends = "['aircrack-ng', 'networkmanager', 'pm-utils', 'rdma-core']"
 files = "['/usr/bin/ethtool', '/usr/lib/systemd/system/ethtool@.service', '/usr/share/bash-completion/completions/ethtool', '/usr/share/doc/ethtool-6.7/AUTHORS', '/usr/share/doc/ethtool-6.7/CHANGELOG', '/usr/share/doc/ethtool-6.7/ChangeLog', '/usr/share/doc/ethtool-6.7/CONTRIBUTORS', '/usr/share/doc/ethtool-6.7/COPYING', '/usr/share/doc/ethtool-6.7/INSTALL', '/usr/share/doc/ethtool-6.7/LICENSE', '/usr/share/doc/ethtool-6.7/MANIFEST', '/usr/share/doc/ethtool-6.7/NEWS', '/usr/share/doc/ethtool-6.7/README', '/usr/share/doc/ethtool-6.7/VERSION', '/usr/share/man/man8/ethtool.8.gz']"
 +++
 A tool for setting ethernet parameters

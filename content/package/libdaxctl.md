@@ -11,7 +11,7 @@ size = "18876"
 usize = "53037"
 sha1sum = "556e0e127481ced09b0afb8eb7de4d4457ff099f"
 depends = "['libuuid']"
-reverse depends = "['libndctl', 'ndctl']"
+reverse_depends = "['libndctl', 'ndctl']"
 files = "['/usr/include/daxctl/libdaxctl.h', '/usr/lib/libdaxctl.so', '/usr/lib/libdaxctl.so.1', '/usr/lib/libdaxctl.so.1.2.5', '/usr/lib/pkgconfig/libdaxctl.pc']"
 +++
 Library for managing DAX devices.

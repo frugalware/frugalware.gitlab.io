@@ -11,7 +11,7 @@ size = "39856"
 usize = "149916"
 sha1sum = "a8a5f1c7fabb40023ad8c9ec3def8d6fad32e915"
 depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3', 'libxv>=1.0.11']"
-reverse depends = "['xf86-video-i810', 'xf86-video-intel', 'xine-lib']"
+reverse_depends = "['xf86-video-i810', 'xf86-video-intel', 'xine-lib']"
 files = "['/usr/include/X11/extensions/vldXvMC.h', '/usr/include/X11/extensions/XvMClib.h', '/usr/lib/libXvMC.so', '/usr/lib/libXvMC.so.1', '/usr/lib/libXvMC.so.1.0.0', '/usr/lib/libXvMCW.so', '/usr/lib/libXvMCW.so.1', '/usr/lib/libXvMCW.so.1.0.0', '/usr/lib/pkgconfig/xvmc-wrapper.pc', '/usr/lib/pkgconfig/xvmc.pc', '/usr/share/doc/libxvmc-1.0.14/ChangeLog', '/usr/share/doc/libxvmc-1.0.14/COPYING', '/usr/share/doc/libxvmc-1.0.14/INSTALL', '/usr/share/doc/libxvmc-1.0.14/README.md', '/usr/share/doc/libxvmc-1.0.14/XvMC_API.txt']"
 license = "GPL2"
 +++

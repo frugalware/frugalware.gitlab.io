@@ -11,7 +11,7 @@ size = "26716"
 usize = "75705"
 sha1sum = "d33e7c0e8c443fc34c57d7a04141d3c0fa812ea6"
 depends = "['kio>=5.115.0']"
-reverse depends = "['kdegraphics-thumbnailers', 'okular']"
+reverse_depends = "['kdegraphics-thumbnailers', 'okular']"
 files = "['/usr/include/QMobipocket/qmobipocket/mobipocket.h', '/usr/include/QMobipocket/qmobipocket/qfilestream.h', '/usr/include/QMobipocket/qmobipocket/qmobipocket_export.h', '/usr/include/QMobipocket/qmobipocket_version.h', '/usr/lib/cmake/QMobipocket/QMobipocketConfig.cmake', '/usr/lib/cmake/QMobipocket/QMobipocketConfigVersion.cmake', '/usr/lib/cmake/QMobipocket/QMobipocketTargets-release.cmake', '/usr/lib/cmake/QMobipocket/QMobipocketTargets.cmake', '/usr/lib/libqmobipocket.so', '/usr/lib/libqmobipocket.so.2', '/usr/lib/libqmobipocket.so.2.1.0', '/usr/share/doc/kdegraphics-mobipocket-23.08.5/COPYING']"
 +++
 A collection of plugins to handle mobipocket files

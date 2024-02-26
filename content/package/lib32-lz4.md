@@ -11,7 +11,7 @@ size = "55180"
 usize = "128825"
 sha1sum = "cc5ea85d02834cc645fd1f2257ed8bc6a3681709"
 depends = "[]"
-reverse depends = "['lib32-zstd']"
+reverse_depends = "['lib32-zstd']"
 files = "['/usr/lib32/liblz4.so', '/usr/lib32/liblz4.so.1', '/usr/lib32/liblz4.so.1.9.4', '/usr/lib32/pkgconfig/liblz4.pc']"
 +++
 Extremely Fast Compression algorithm ( 32bit )

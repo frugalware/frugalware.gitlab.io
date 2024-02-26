@@ -11,7 +11,7 @@ size = "622088"
 usize = "685487"
 sha1sum = "03f97e97af112c6f524e4eada0139f18478ace9c"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-ca@thunderbird.mozilla.org.xpi']"
 +++
 Catalan language support for Thunderbird

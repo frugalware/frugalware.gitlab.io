@@ -11,7 +11,7 @@ size = "803000"
 usize = "862425"
 sha1sum = "ab59a203284feffb32d26b032df69ee52e2fd7a4"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-el@thunderbird.mozilla.org.xpi']"
 +++
 Modern Greek (1453-) language support for Thunderbird

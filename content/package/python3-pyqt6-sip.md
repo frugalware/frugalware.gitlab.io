@@ -11,7 +11,7 @@ size = "49608"
 usize = "142541"
 sha1sum = "e74830b3e5a8a9a2298749fd516a9987e58cdefd"
 depends = "['python3>=3.12']"
-reverse depends = "['pyqt6']"
+reverse_depends = "['pyqt6']"
 files = "['/usr/lib/python3.12/site-packages/PyQt6/sip.cpython-312-x86_64-linux-gnu.so', '/usr/lib/python3.12/site-packages/PyQt6_sip-13.6.0-py3.12.egg-info/dependency_links.txt', '/usr/lib/python3.12/site-packages/PyQt6_sip-13.6.0-py3.12.egg-info/PKG-INFO', '/usr/lib/python3.12/site-packages/PyQt6_sip-13.6.0-py3.12.egg-info/SOURCES.txt', '/usr/lib/python3.12/site-packages/PyQt6_sip-13.6.0-py3.12.egg-info/top_level.txt', '/usr/share/doc/python3-pyqt6-sip-13.6.0/LICENSE', '/usr/share/doc/python3-pyqt6-sip-13.6.0/README']"
 +++
 SIP module support PyQT6

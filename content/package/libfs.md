@@ -11,7 +11,7 @@ size = "43956"
 usize = "134692"
 sha1sum = "77a38d1de16829f72f041c398d22268495caa629"
 depends = "['glibc>=2.29-6']"
-reverse depends = "['fslsfonts', 'fstobdf', 'showfont', 'xfsinfo']"
+reverse_depends = "['fslsfonts', 'fstobdf', 'showfont', 'xfsinfo']"
 files = "['/usr/include/X11/fonts/FSlib.h', '/usr/lib/libFS.so', '/usr/lib/libFS.so.6', '/usr/lib/libFS.so.6.0.0', '/usr/lib/pkgconfig/libfs.pc', '/usr/share/doc/libfs-1.0.9/ChangeLog', '/usr/share/doc/libfs-1.0.9/COPYING', '/usr/share/doc/libfs-1.0.9/FSlib.txt', '/usr/share/doc/libfs-1.0.9/INSTALL', '/usr/share/doc/libfs-1.0.9/README.md']"
 license = "GPL2"
 +++

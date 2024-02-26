@@ -11,7 +11,7 @@ size = "510640"
 usize = "567236"
 sha1sum = "f14f889f08d98ea7e2cf23202f011233d7bab855"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi']"
 +++
 British English language support for Firefox

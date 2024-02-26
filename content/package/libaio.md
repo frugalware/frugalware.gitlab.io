@@ -11,7 +11,7 @@ size = "15956"
 usize = "52789"
 sha1sum = "a3cfa24ba7ffdb5583a0e74b2978f184ba34bb33"
 depends = "['glibc>=2.34']"
-reverse depends = "['libiio', 'lvm2', 'mariadb', 'mariadb-libs', 'multipath-tools', 'nginx', 'qemu']"
+reverse_depends = "['libiio', 'lvm2', 'mariadb', 'mariadb-libs', 'multipath-tools', 'nginx', 'qemu']"
 files = "['/usr/include/libaio.h', '/usr/lib/libaio.so', '/usr/lib/libaio.so.1', '/usr/lib/libaio.so.1.0.2', '/usr/share/doc/libaio-0.3.113/ChangeLog', '/usr/share/doc/libaio-0.3.113/COPYING', '/usr/share/doc/libaio-0.3.113/INSTALL', '/usr/share/doc/libaio-0.3.113/README.md', '/usr/share/doc/libaio-0.3.113/TODO']"
 +++
 Asynchronous input/output library that uses the kernels native interface

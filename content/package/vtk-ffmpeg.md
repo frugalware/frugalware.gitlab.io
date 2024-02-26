@@ -11,7 +11,7 @@ size = "25592"
 usize = "79784"
 sha1sum = "724a384d2fb9ca2450d98906426e508a071f0f2c"
 depends = "['vtk>=9.3.0']"
-reverse depends = "['vtk-java-ffmpeg', 'vtk-python3-ffmpeg']"
+reverse_depends = "['vtk-java-ffmpeg', 'vtk-python3-ffmpeg']"
 files = "['/usr/lib/libvtkIOFFMPEG.so', '/usr/lib/libvtkIOFFMPEG.so.1', '/usr/lib/libvtkIOFFMPEG.so.9.3']"
 +++
 Openmpi interface and bindings for vtk

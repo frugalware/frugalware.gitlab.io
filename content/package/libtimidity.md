@@ -11,7 +11,7 @@ size = "42896"
 usize = "113126"
 sha1sum = "629d71b86729d6ce33cac3961d525430f7f4c72a"
 depends = "[]"
-reverse depends = "['openttd']"
+reverse_depends = "['openttd']"
 files = "['/usr/include/timidity.h', '/usr/lib/libtimidity-0.1.so.0', '/usr/lib/libtimidity-0.1.so.0.0.0', '/usr/lib/libtimidity.so', '/usr/lib/pkgconfig/libtimidity.pc', '/usr/share/doc/libtimidity-0.1.0/AUTHORS', '/usr/share/doc/libtimidity-0.1.0/ChangeLog', '/usr/share/doc/libtimidity-0.1.0/CHANGES', '/usr/share/doc/libtimidity-0.1.0/COPYING', '/usr/share/doc/libtimidity-0.1.0/INSTALL', '/usr/share/doc/libtimidity-0.1.0/NEWS', '/usr/share/doc/libtimidity-0.1.0/README', '/usr/share/doc/libtimidity-0.1.0/README.timidity', '/usr/share/doc/libtimidity-0.1.0/TODO']"
 +++
 A MIDI to WAVE converter library

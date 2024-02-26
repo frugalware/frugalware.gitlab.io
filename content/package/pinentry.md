@@ -11,7 +11,7 @@ size = "91124"
 usize = "247628"
 sha1sum = "f5f6ccf3264172bf0047c0e8cccf509bfd896ddd"
 depends = "['glib2', 'libassuan', 'libsecret']"
-reverse depends = "['pinentry-gtk+2', 'pinentry-qt5']"
+reverse_depends = "['pinentry-gtk+2', 'pinentry-qt5']"
 files = "['/usr/bin/pinentry', '/usr/bin/pinentry-curses', '/usr/share/doc/pinentry-1.2.1/AUTHORS', '/usr/share/doc/pinentry-1.2.1/ChangeLog', '/usr/share/doc/pinentry-1.2.1/COPYING', '/usr/share/doc/pinentry-1.2.1/INSTALL', '/usr/share/doc/pinentry-1.2.1/NEWS', '/usr/share/doc/pinentry-1.2.1/README', '/usr/share/doc/pinentry-1.2.1/README.GIT', '/usr/share/doc/pinentry-1.2.1/THANKS', '/usr/share/doc/pinentry-1.2.1/TODO', '/usr/share/doc/pinentry-1.2.1/VERSION', '/usr/share/info/pinentry.info.gz']"
 +++
 Applications for entering PINs or Passphrases.

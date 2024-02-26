@@ -11,7 +11,7 @@ size = "734644"
 usize = "794747"
 sha1sum = "a251a1ef5ca3bf3268f5c89017c8e1ba64ec2882"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-ja@thunderbird.mozilla.org.xpi']"
 +++
 Japanese language support for Thunderbird

@@ -11,7 +11,7 @@ size = "103076"
 usize = "366923"
 sha1sum = "3c178b55b051c94a5f0eb44f7c3c237e137f6b9b"
 depends = "['readline>=8.0']"
-reverse depends = "['lincity-ng', 'manaplus', 'netpanzer', 'solarus', 'supertux', 'warzone2100']"
+reverse_depends = "['lincity-ng', 'manaplus', 'netpanzer', 'solarus', 'supertux', 'warzone2100']"
 files = "['/usr/bin/test_physfs', '/usr/include/physfs.h', '/usr/lib/libphysfs.so', '/usr/lib/libphysfs.so.1', '/usr/lib/libphysfs.so.3.0.2', '/usr/lib/pkgconfig/physfs.pc', '/usr/share/doc/physfs-3.0.2/README.txt']"
 +++
 PhysicsFS is a library to provide abstract access to various archive

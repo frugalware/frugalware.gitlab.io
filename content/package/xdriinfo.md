@@ -11,7 +11,7 @@ size = "17228"
 usize = "49034"
 sha1sum = "322f8f60150a079c98f984daf19358aa165f6b1c"
 depends = "['libglvnd']"
-reverse depends = "['radeon-profile']"
+reverse_depends = "['radeon-profile']"
 files = "['/usr/bin/xdriinfo', '/usr/share/doc/xdriinfo-1.0.7/AUTHORS', '/usr/share/doc/xdriinfo-1.0.7/ChangeLog', '/usr/share/doc/xdriinfo-1.0.7/COPYING', '/usr/share/doc/xdriinfo-1.0.7/INSTALL', '/usr/share/doc/xdriinfo-1.0.7/README.md', '/usr/share/man/man1/xdriinfo.1.gz']"
 license = "GPL2"
 +++

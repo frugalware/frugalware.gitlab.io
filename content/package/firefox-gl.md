@@ -11,7 +11,7 @@ size = "537604"
 usize = "592783"
 sha1sum = "10d4af94be11a09b00ca1bb56f471e5a6d799c29"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-gl@firefox.mozilla.org.xpi']"
 +++
 Galician language support for Firefox

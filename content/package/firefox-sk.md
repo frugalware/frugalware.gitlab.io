@@ -11,7 +11,7 @@ size = "577652"
 usize = "631992"
 sha1sum = "8c446e0080b9a774aa2f0d6d8e89381686ff0de0"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-sk@firefox.mozilla.org.xpi']"
 +++
 Slovak language support for Firefox

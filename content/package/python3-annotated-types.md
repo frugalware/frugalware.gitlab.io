@@ -11,7 +11,7 @@ size = "17900"
 usize = "104395"
 sha1sum = "29aa22ad7434492b24bd49de4258299efe2f45b2"
 depends = "['python3']"
-reverse depends = "['python3-pydantic']"
+reverse_depends = "['python3-pydantic']"
 files = "['/usr/lib/python3.12/site-packages/annotated_types-0.6.0.dist-info/licenses/LICENSE', '/usr/lib/python3.12/site-packages/annotated_types-0.6.0.dist-info/METADATA', '/usr/lib/python3.12/site-packages/annotated_types-0.6.0.dist-info/RECORD', '/usr/lib/python3.12/site-packages/annotated_types-0.6.0.dist-info/WHEEL', '/usr/lib/python3.12/site-packages/annotated_types/py.typed', '/usr/lib/python3.12/site-packages/annotated_types/test_cases.py', '/usr/lib/python3.12/site-packages/annotated_types/__init__.py', '/usr/lib/python3.12/site-packages/annotated_types/__pycache__/test_cases.cpython-312.opt-1.pyc', '/usr/lib/python3.12/site-packages/annotated_types/__pycache__/test_cases.cpython-312.pyc', '/usr/lib/python3.12/site-packages/annotated_types/__pycache__/__init__.cpython-312.opt-1.pyc', '/usr/lib/python3.12/site-packages/annotated_types/__pycache__/__init__.cpython-312.pyc', '/usr/share/doc/python3-annotated-types-0.6.0/LICENSE', '/usr/share/doc/python3-annotated-types-0.6.0/README.md']"
 +++
 Reusable constraint types to use with typing.Annotated

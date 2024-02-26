@@ -11,7 +11,7 @@ size = "651868"
 usize = "1947036"
 sha1sum = "b762dc8fb460bd0020650f08365c375f1b421994"
 depends = "['glibc']"
-reverse depends = "['docker']"
+reverse_depends = "['docker']"
 files = "['/usr/bin/docker-proxy']"
 +++
 Docker Networking

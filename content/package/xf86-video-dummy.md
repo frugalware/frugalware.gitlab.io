@@ -11,7 +11,7 @@ size = "20960"
 usize = "59795"
 sha1sum = "18fd9c08599c78f0e96a204636a041f34f7fed83"
 depends = "['xorg-server>=1.20.4-3']"
-reverse depends = "['xorg-compat']"
+reverse_depends = "['xorg-compat']"
 files = "['/usr/lib/xorg/modules/drivers/dummy_drv.so', '/usr/share/doc/xf86-video-dummy-0.4.1/ChangeLog', '/usr/share/doc/xf86-video-dummy-0.4.1/COPYING', '/usr/share/doc/xf86-video-dummy-0.4.1/README.md']"
 license = "GPL2"
 +++

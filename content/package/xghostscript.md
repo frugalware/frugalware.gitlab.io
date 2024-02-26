@@ -11,7 +11,7 @@ size = "6344"
 usize = "14184"
 sha1sum = "38d194372d3852bef09ba3b6ee9e343559ac18a5"
 depends = "['ghostscript', 'libxt']"
-reverse depends = "['gv', 'texmaker']"
+reverse_depends = "['gv', 'texmaker']"
 files = "['/usr/bin/gsx']"
 +++
 A graphical interpreter for the PostScript language.

@@ -11,7 +11,7 @@ size = "77136"
 usize = "220275"
 sha1sum = "5c1c09de77337784e88990abac8d69bc8b5ebb97"
 depends = "['libxrandr>=1.5.0-5']"
-reverse depends = "['lutris', 'steamtinkerlaunch', 'virtualbox']"
+reverse_depends = "['lutris', 'steamtinkerlaunch', 'virtualbox']"
 files = "['/usr/bin/xkeystone', '/usr/bin/xrandr', '/usr/share/doc/xrandr-1.5.2/ChangeLog', '/usr/share/doc/xrandr-1.5.2/COPYING', '/usr/share/doc/xrandr-1.5.2/INSTALL', '/usr/share/doc/xrandr-1.5.2/README.md', '/usr/share/man/man1/xrandr.1.gz']"
 license = "GPL2"
 +++

@@ -11,7 +11,7 @@ size = "3212"
 usize = "4057"
 sha1sum = "08b299c2a6befd7e1f59a6990f6137a26d40fc86"
 depends = "[]"
-reverse depends = "['dbus-python']"
+reverse_depends = "['dbus-python']"
 files = "['/usr/include/dbus-1.0/dbus/dbus-python.h', '/usr/lib/pkgconfig/dbus-python.pc']"
 +++
 dbus-python devel

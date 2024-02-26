@@ -11,7 +11,7 @@ size = "47404"
 usize = "144768"
 sha1sum = "47a6abbef0443fd3e58ba16d2514a0734c6b3cb9"
 depends = "['glibc>=2.34']"
-reverse depends = "['lib32-libsm']"
+reverse_depends = "['lib32-libsm']"
 files = "['/usr/i686-frugalware-linux/include/X11/ICE/ICE.h', '/usr/i686-frugalware-linux/include/X11/ICE/ICEconn.h', '/usr/i686-frugalware-linux/include/X11/ICE/ICElib.h', '/usr/i686-frugalware-linux/include/X11/ICE/ICEmsg.h', '/usr/i686-frugalware-linux/include/X11/ICE/ICEproto.h', '/usr/i686-frugalware-linux/include/X11/ICE/ICEutil.h', '/usr/lib32/libICE.so', '/usr/lib32/libICE.so.6', '/usr/lib32/libICE.so.6.3.0', '/usr/lib32/pkgconfig/ice.pc']"
 +++
 X Inter Client Exchange Library ( 32bit )

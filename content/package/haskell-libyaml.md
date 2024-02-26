@@ -11,7 +11,7 @@ size = "249596"
 usize = "2222935"
 sha1sum = "3af27ce994a4a624055c4067f32f2aa95ee5c15f"
 depends = "['haskell-conduit']"
-reverse depends = "['haskell-yaml']"
+reverse_depends = "['haskell-yaml']"
 files = "['/usr/lib/ghc-9.8.1/site-local/libyaml-0.1.2/libHSlibyaml-0.1.2-Ka7ayfmlWsz1R3vGz1R9T9.a', '/usr/lib/ghc-9.8.1/site-local/libyaml-0.1.2/Paths_libyaml.dyn_hi', '/usr/lib/ghc-9.8.1/site-local/libyaml-0.1.2/Paths_libyaml.hi', '/usr/lib/ghc-9.8.1/site-local/libyaml-0.1.2/Text/Libyaml.dyn_hi', '/usr/lib/ghc-9.8.1/site-local/libyaml-0.1.2/Text/Libyaml.hi', '/usr/lib/x86_64-linux-ghc-9.8.1/libHSlibyaml-0.1.2-Ka7ayfmlWsz1R3vGz1R9T9-ghc9.8.1.so', '/usr/share/doc/haskell-libyaml-0.1.2/LICENSE', '/usr/share/doc/haskell-libyaml-0.1.2/README.md', '/usr/share/doc/x86_64-linux-ghc-9.8.1/libyaml-0.1.2/html/doc-index.html', '/usr/share/doc/x86_64-linux-ghc-9.8.1/libyaml-0.1.2/html/haddock-bundle.min.js', '/usr/share/doc/x86_64-linux-ghc-9.8.1/libyaml-0.1.2/html/index.html', '/usr/share/doc/x86_64-linux-ghc-9.8.1/libyaml-0.1.2/html/libyaml.haddock', '/usr/share/doc/x86_64-linux-ghc-9.8.1/libyaml-0.1.2/html/linuwial.css', '/usr/share/doc/x86_64-linux-ghc-9.8.1/libyaml-0.1.2/html/meta.json', '/usr/share/doc/x86_64-linux-ghc-9.8.1/libyaml-0.1.2/html/quick-jump.css', '/usr/share/doc/x86_64-linux-ghc-9.8.1/libyaml-0.1.2/html/synopsis.png', '/usr/share/doc/x86_64-linux-ghc-9.8.1/libyaml-0.1.2/html/Text-Libyaml.html', '/usr/share/doc/x86_64-linux-ghc-9.8.1/libyaml-0.1.2/LICENSE', '/usr/share/haskell/haskell-libyaml/register.sh', '/usr/share/haskell/haskell-libyaml/unregister.sh']"
 +++
 Low-level, streaming YAML interface

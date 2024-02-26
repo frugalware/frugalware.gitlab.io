@@ -11,7 +11,7 @@ size = "145532"
 usize = "401286"
 sha1sum = "fe99bac28ff63623081fecafc563c7c6df29441e"
 depends = "['abseil-cpp>=20240116.0', 'libgcc', 'libstdc++']"
-reverse depends = "['grpc']"
+reverse_depends = "['grpc']"
 files = "['/usr/include/re2/filtered_re2.h', '/usr/include/re2/re2.h', '/usr/include/re2/set.h', '/usr/include/re2/stringpiece.h', '/usr/lib/cmake/re2/re2Config.cmake', '/usr/lib/cmake/re2/re2ConfigVersion.cmake', '/usr/lib/cmake/re2/re2Targets-release.cmake', '/usr/lib/cmake/re2/re2Targets.cmake', '/usr/lib/libre2.so', '/usr/lib/libre2.so.11', '/usr/lib/libre2.so.11.0.0', '/usr/lib/pkgconfig/re2.pc', '/usr/share/doc/re2-2024.02.01/LICENSE', '/usr/share/doc/re2-2024.02.01/README']"
 +++
 Fast, safe, thread-friendly regular expression engine.

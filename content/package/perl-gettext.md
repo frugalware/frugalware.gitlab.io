@@ -11,7 +11,7 @@ size = "13584"
 usize = "36887"
 sha1sum = "314c8fd4f5e95704ebff88d4c22e065e74a3576b"
 depends = "['perl>=5.34']"
-reverse depends = "['help2man', 'po4a']"
+reverse_depends = "['help2man', 'po4a']"
 files = "['/usr/lib/perl5/5.38/site_perl/auto/Locale/gettext/gettext.so', '/usr/lib/perl5/5.38/site_perl/Locale/gettext.pm', '/usr/share/doc/perl-gettext-1.07/MANIFEST', '/usr/share/doc/perl-gettext-1.07/README', '/usr/share/man/man3/Locale::gettext.3perl.gz']"
 license = "License"
 +++

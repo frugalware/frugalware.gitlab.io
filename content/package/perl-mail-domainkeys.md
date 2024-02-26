@@ -11,7 +11,7 @@ size = "10136"
 usize = "30267"
 sha1sum = "fd6598b199722041dcf8d9a7254e0571caacb83a"
 depends = "['perl>=5.34.0']"
-reverse depends = "['spamassassin']"
+reverse_depends = "['spamassassin']"
 files = "['/usr/lib/perl5/site_perl/current/Mail/DomainKeys.pm', '/usr/lib/perl5/site_perl/current/Mail/DomainKeys/Header.pm', '/usr/lib/perl5/site_perl/current/Mail/DomainKeys/Key.pm', '/usr/lib/perl5/site_perl/current/Mail/DomainKeys/Key/Private.pm', '/usr/lib/perl5/site_perl/current/Mail/DomainKeys/Key/Public.pm', '/usr/lib/perl5/site_perl/current/Mail/DomainKeys/Message.pm', '/usr/lib/perl5/site_perl/current/Mail/DomainKeys/Policy.pm', '/usr/lib/perl5/site_perl/current/Mail/DomainKeys/Signature.pm', '/usr/share/doc/perl-mail-domainkeys-1.0/MANIFEST', '/usr/share/doc/perl-mail-domainkeys-1.0/README', '/usr/share/doc/perl-mail-domainkeys-1.0/THANKS', '/usr/share/man/man3/Mail::DomainKeys.3perl.gz']"
 +++
 A perl implementation of DomainKeys

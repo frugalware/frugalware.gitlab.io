@@ -11,7 +11,7 @@ size = "24772"
 usize = "89840"
 sha1sum = "88d0f92aac2456989a15ccad9bdf0758ecad6af3"
 depends = "['glibc>=2.34']"
-reverse depends = "['gst1-plugins-bad', 'pipewire']"
+reverse_depends = "['gst1-plugins-bad', 'pipewire']"
 files = "['/usr/bin/freeaptxdec', '/usr/bin/freeaptxenc', '/usr/include/freeaptx.h', '/usr/lib/libfreeaptx.so', '/usr/lib/libfreeaptx.so.0', '/usr/lib/libfreeaptx.so.0.1.1', '/usr/lib/pkgconfig/libfreeaptx.pc', '/usr/share/doc/libfreeaptx-0.1.1/COPYING', '/usr/share/doc/libfreeaptx-0.1.1/README']"
 +++
 Open Source implementation of Audio Processing Technology codec (aptX)

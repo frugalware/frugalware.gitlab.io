@@ -11,7 +11,7 @@ size = "24300"
 usize = "87916"
 sha1sum = "92fd172672c0b427571e89e77f02e313fef54cdd"
 depends = "[]"
-reverse depends = "['lib32-util-linux']"
+reverse_depends = "['lib32-util-linux']"
 files = "['/usr/i686-frugalware-linux/bin/captest', '/usr/i686-frugalware-linux/bin/filecap', '/usr/i686-frugalware-linux/bin/netcap', '/usr/i686-frugalware-linux/bin/pscap', '/usr/i686-frugalware-linux/include/cap-ng.h', '/usr/lib32/libcap-ng.so', '/usr/lib32/libcap-ng.so.0', '/usr/lib32/libcap-ng.so.0.0.0', '/usr/lib32/libdrop_ambient.so', '/usr/lib32/libdrop_ambient.so.0', '/usr/lib32/libdrop_ambient.so.0.0.0', '/usr/lib32/pkgconfig/libcap-ng.pc']"
 +++
 A library making programming with POSIX capabilities easier than traditional libcap ( 32bit )

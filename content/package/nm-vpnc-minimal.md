@@ -11,7 +11,7 @@ size = "25264"
 usize = "84526"
 sha1sum = "d1301eeb5bab8c85626c3e43ba3d2751465569ff"
 depends = "['networkmanager', 'vpnc']"
-reverse depends = "['nm-vpnc']"
+reverse_depends = "['nm-vpnc']"
 files = "['/usr/lib/NetworkManager/VPN/nm-vpnc-service.name', '/usr/lib/nm-vpnc/nm-vpnc-service', '/usr/lib/nm-vpnc/nm-vpnc-service-vpnc-helper', '/usr/share/dbus-1/system.d/nm-vpnc-service.conf', '/usr/share/metainfo/network-manager-vpnc.metainfo.xml']"
 +++
 network management framework (VPNC plugin) without GNOME

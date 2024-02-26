@@ -11,7 +11,7 @@ size = "2834352"
 usize = "19169067"
 sha1sum = "26e572ceff6c28c34f23b408c0a8a592c19a659a"
 depends = "['libgcc>=12.2']"
-reverse depends = "['ffmpeg', 'ffmpeg4.4', 'libavif', 'libheif']"
+reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'libavif', 'libheif']"
 files = "['/usr/bin/rav1e', '/usr/include/rav1e/rav1e.h', '/usr/lib/librav1e.a', '/usr/lib/librav1e.so', '/usr/lib/librav1e.so.0', '/usr/lib/librav1e.so.0.6.6', '/usr/lib/pkgconfig/rav1e.pc', '/usr/share/doc/rav1e-0.6.6/Changelog', '/usr/share/doc/rav1e-0.6.6/COPYING.GPLv2', '/usr/share/doc/rav1e-0.6.6/COPYING.GPLv3', '/usr/share/doc/rav1e-0.6.6/COPYING.LGPLv2.1', '/usr/share/doc/rav1e-0.6.6/COPYING.LGPLv3', '/usr/share/doc/rav1e-0.6.6/CREDITS', '/usr/share/doc/rav1e-0.6.6/INSTALL.md', '/usr/share/doc/rav1e-0.6.6/LICENSE', '/usr/share/doc/rav1e-0.6.6/README.md', '/usr/share/doc/rav1e-0.6.6/README.rst', '/usr/share/doc/rav1e-0.6.6/RELEASE', '/usr/share/doc/rav1e-0.6.6/RELEASE_NOTES', '/usr/share/doc/rav1e-0.6.6/VERSION']"
 +++
 An AV1 encoder focused on speed and safety

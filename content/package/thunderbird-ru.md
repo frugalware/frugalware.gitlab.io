@@ -11,7 +11,7 @@ size = "785996"
 usize = "845811"
 sha1sum = "36426465a3c054dec13b8b7bd06ee2fb1400c47f"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-ru@thunderbird.mozilla.org.xpi']"
 +++
 Russian language support for Thunderbird

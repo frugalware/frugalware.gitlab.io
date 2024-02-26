@@ -11,7 +11,7 @@ size = "87628"
 usize = "96208"
 sha1sum = "e632512b35b0c608e1ddf0f6068da9fd1af7ee11"
 depends = "['bcpkix>=170', 'gnumail', 'jaf']"
-reverse depends = "['itext7']"
+reverse_depends = "['itext7']"
 files = "['/usr/share/java/bcmail.jar']"
 +++
 Java cryptography APIs.

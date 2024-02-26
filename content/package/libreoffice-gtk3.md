@@ -11,7 +11,7 @@ size = "585868"
 usize = "2704221"
 sha1sum = "640e97eab8ac2c1746a1fc012c7183ac8f100374"
 depends = "['gtk+3', 'libreoffice>=24.2.0.3']"
-reverse depends = "['libreoffice-gtk3-kde5']"
+reverse_depends = "['libreoffice-gtk3-kde5']"
 files = "['/usr/lib/libreoffice/program/liblibreofficekitgtk.so', '/usr/lib/libreoffice/program/liblosessioninstalllo.so', '/usr/lib/libreoffice/program/libucpgio1lo.so', '/usr/lib/libreoffice/program/libvclplug_gtk3lo.so', '/usr/lib/libreoffice/share/registry/gnome.xcd']"
 +++
 libreoffice GTK3 integration

@@ -11,7 +11,7 @@ size = "43360"
 usize = "210878"
 sha1sum = "9ff8fcf7f234d17080a0887a0b8f811a5b6db61b"
 depends = "['glibc>=2.24-4']"
-reverse depends = "['efl', 'libgbm', 'libgl', 'libgles', 'libosmesa', 'mesa-libglx', 'xorg-server', 'xorg-server-xephyr']"
+reverse_depends = "['efl', 'libgbm', 'libgl', 'libgles', 'libosmesa', 'mesa-libglx', 'xorg-server', 'xorg-server-xephyr']"
 files = "['/usr/lib/libglapi.so', '/usr/lib/libglapi.so.0', '/usr/lib/libglapi.so.0.0.0']"
 +++
 Mesa OpenGL API library.

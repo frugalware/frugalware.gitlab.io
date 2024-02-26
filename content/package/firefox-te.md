@@ -11,7 +11,7 @@ size = "492064"
 usize = "551981"
 sha1sum = "d59f0cb27adc980241c381cf7b4a0957e0980fcb"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-te@firefox.mozilla.org.xpi']"
 +++
 Telugu language support for Firefox

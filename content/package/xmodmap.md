@@ -11,7 +11,7 @@ size = "37608"
 usize = "101277"
 sha1sum = "58dca8b9e2a9e16bb1fabbd3efac1c6659caf638"
 depends = "['libx11>=1.6.3-4']"
-reverse depends = "['input-remapper']"
+reverse_depends = "['input-remapper']"
 files = "['/usr/bin/xmodmap', '/usr/share/doc/xmodmap-1.0.11/AUTHORS', '/usr/share/doc/xmodmap-1.0.11/ChangeLog', '/usr/share/doc/xmodmap-1.0.11/COPYING', '/usr/share/doc/xmodmap-1.0.11/INSTALL', '/usr/share/doc/xmodmap-1.0.11/README.md', '/usr/share/man/man1/xmodmap.1.gz']"
 license = "GPL2"
 +++

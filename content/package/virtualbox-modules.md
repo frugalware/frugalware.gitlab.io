@@ -11,7 +11,7 @@ size = "253396"
 usize = "217895"
 sha1sum = "dbd6dba3ac81922fe9f87015173355d4a4d7bfcb"
 depends = "['kernel=6.7.6-1']"
-reverse depends = "['virtualbox']"
+reverse_depends = "['virtualbox']"
 files = "['/usr/lib/modules/6.7.6-fw1/kernel/misc/vboxdrv.ko.zst', '/usr/lib/modules/6.7.6-fw1/kernel/misc/vboxnetadp.ko.zst', '/usr/lib/modules/6.7.6-fw1/kernel/misc/vboxnetflt.ko.zst']"
 +++
 Kernel modules for VirtualBox

@@ -11,7 +11,7 @@ size = "68896"
 usize = "221018"
 sha1sum = "c85c688b2ab5a9b72879bbfcedfbfe7222235c9b"
 depends = "['xorg-server>=1.20.4-3']"
-reverse depends = "['xorg-compat']"
+reverse_depends = "['xorg-compat']"
 files = "['/usr/include/xorg/xf86-mouse-properties.h', '/usr/lib/pkgconfig/xorg-mouse.pc', '/usr/lib/xorg/modules/input/mouse_drv.so', '/usr/share/doc/xf86-input-mouse-1.9.5/ChangeLog', '/usr/share/doc/xf86-input-mouse-1.9.5/COPYING', '/usr/share/doc/xf86-input-mouse-1.9.5/INSTALL', '/usr/share/doc/xf86-input-mouse-1.9.5/README', '/usr/share/man/man4/mousedrv.4.gz']"
 license = "GPL2"
 +++

@@ -11,7 +11,7 @@ size = "528792"
 usize = "584538"
 sha1sum = "63a85d05ec2ae5d45c5087a3bd932c608d549f92"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-gd@firefox.mozilla.org.xpi']"
 +++
 Scottish Gaelic language support for Firefox

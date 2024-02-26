@@ -11,7 +11,7 @@ size = "63336"
 usize = "188473"
 sha1sum = "a4b4fb5b18161eb0d6db1ade7b97cd66c39fa6b1"
 depends = "['fuse3', 'kio>=5.112.0']"
-reverse depends = "['xdg-desktop-portal-kde']"
+reverse_depends = "['xdg-desktop-portal-kde']"
 files = "['/usr/lib/kf5/kio-fuse', '/usr/lib/systemd/user/kio-fuse.service', '/usr/lib/tmpfiles.d/kio-fuse-tmpfiles.conf', '/usr/share/dbus-1/services/org.kde.KIOFuse.service', '/usr/share/doc/kio-fuse-5.1.0/README.md', '/usr/share/doc/kio-fuse-5.1.0/TODO']"
 +++
 FUSE interface for KIO

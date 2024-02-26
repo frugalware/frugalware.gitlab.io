@@ -11,7 +11,7 @@ size = "261432"
 usize = "801457"
 sha1sum = "6b494a403585c86af5e74d932817b3a259f79018"
 depends = "['lib32-libpng']"
-reverse depends = "['lib32-cairo', 'lib32-xorg-server', 'lib32-xorg-server-fbdev', 'lib32-xorg-server-xephyr']"
+reverse_depends = "['lib32-cairo', 'lib32-xorg-server', 'lib32-xorg-server-fbdev', 'lib32-xorg-server-xephyr']"
 files = "['/usr/i686-frugalware-linux/include/pixman-1/pixman-version.h', '/usr/i686-frugalware-linux/include/pixman-1/pixman.h', '/usr/lib32/libpixman-1.so', '/usr/lib32/libpixman-1.so.0', '/usr/lib32/libpixman-1.so.0.43.2', '/usr/lib32/pkgconfig/pixman-1.pc']"
 +++
 X.Org pixman library ( 32bit )

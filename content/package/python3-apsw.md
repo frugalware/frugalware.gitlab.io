@@ -11,7 +11,7 @@ size = "515176"
 usize = "2314285"
 sha1sum = "9d62fc29e6a2904192e84aed0510d8ae9cf8f205"
 depends = "['python3>=3.12', 'sqlite3>=3.15.1']"
-reverse depends = "['calibre']"
+reverse_depends = "['calibre']"
 files = "['/usr/lib/python3.12/site-packages/apsw-3.44.2.0-py3.12.egg-info/dependency_links.txt', '/usr/lib/python3.12/site-packages/apsw-3.44.2.0-py3.12.egg-info/PKG-INFO', '/usr/lib/python3.12/site-packages/apsw-3.44.2.0-py3.12.egg-info/SOURCES.txt', '/usr/lib/python3.12/site-packages/apsw-3.44.2.0-py3.12.egg-info/top_level.txt', '/usr/lib/python3.12/site-packages/apsw/bestpractice.py', '/usr/lib/python3.12/site-packages/apsw/ext.py', '/usr/lib/python3.12/site-packages/apsw/py.typed', '/usr/lib/python3.12/site-packages/apsw/shell.py', '/usr/lib/python3.12/site-packages/apsw/speedtest.py', '/usr/lib/python3.12/site-packages/apsw/tests.py', '/usr/lib/python3.12/site-packages/apsw/trace.py', '/usr/lib/python3.12/site-packages/apsw/__init__.cpython-312-x86_64-linux-gnu.so', '/usr/lib/python3.12/site-packages/apsw/__init__.pyi', '/usr/lib/python3.12/site-packages/apsw/__main__.py', '/usr/lib/python3.12/site-packages/apsw/__pycache__/bestpractice.cpython-312.pyc', '/usr/lib/python3.12/site-packages/apsw/__pycache__/ext.cpython-312.pyc', '/usr/lib/python3.12/site-packages/apsw/__pycache__/shell.cpython-312.pyc', '/usr/lib/python3.12/site-packages/apsw/__pycache__/speedtest.cpython-312.pyc', '/usr/lib/python3.12/site-packages/apsw/__pycache__/tests.cpython-312.pyc', '/usr/lib/python3.12/site-packages/apsw/__pycache__/trace.cpython-312.pyc', '/usr/lib/python3.12/site-packages/apsw/__pycache__/__main__.cpython-312.pyc', '/usr/share/doc/python3-apsw-3.44.2.0/LICENSE', '/usr/share/doc/python3-apsw-3.44.2.0/README.rst']"
 +++
 Python3 wrapper for SQLite.

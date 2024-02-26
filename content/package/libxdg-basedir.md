@@ -11,7 +11,7 @@ size = "9132"
 usize = "31624"
 sha1sum = "37d7de0cdf4623946188b1193a688183aa69f33b"
 depends = "['glibc>=2.29-6']"
-reverse depends = "['dunst']"
+reverse_depends = "['dunst']"
 files = "['/usr/include/basedir.h', '/usr/include/basedir_fs.h', '/usr/lib/libxdg-basedir.so', '/usr/lib/libxdg-basedir.so.1', '/usr/lib/libxdg-basedir.so.1.2.0', '/usr/lib/pkgconfig/libxdg-basedir.pc', '/usr/share/doc/libxdg-basedir-1.2.3/COPYING', '/usr/share/doc/libxdg-basedir-1.2.3/README.md']"
 +++
 Library that assists with XDG specification.

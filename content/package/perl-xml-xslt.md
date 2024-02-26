@@ -11,7 +11,7 @@ size = "35688"
 usize = "176027"
 sha1sum = "8274eccda0dcafea552dc7a79a3547f0ff6f5840"
 depends = "['perl>=5.34.0']"
-reverse depends = "['docbook2x']"
+reverse_depends = "['docbook2x']"
 files = "['/usr/bin/xslt-parser', '/usr/lib/perl5/site_perl/current/XML/XSLT.pm', '/usr/share/doc/perl-xml-xslt-0.48/ChangeLog', '/usr/share/doc/perl-xml-xslt-0.48/MANIFEST', '/usr/share/doc/perl-xml-xslt-0.48/README', '/usr/share/man/man1/xslt-parser.1perl.gz', '/usr/share/man/man3/XML::XSLT.3perl.gz']"
 +++
 A perl module for processing XSLT

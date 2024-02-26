@@ -11,7 +11,7 @@ size = "82856"
 usize = "185700"
 sha1sum = "448019095acd55e8bc54479c04c9f953a111d707"
 depends = "['glibc>=2.34']"
-reverse depends = "['hw-probe', 'laptop-mode-tools']"
+reverse_depends = "['hw-probe', 'laptop-mode-tools']"
 files = "['/usr/bin/hdparm', '/usr/share/doc/hdparm-9.65/Changelog', '/usr/share/doc/hdparm-9.65/README.acoustic', '/usr/share/doc/hdparm-9.65/TODO', '/usr/share/man/man8/hdparm.8.gz']"
 +++
 Read/set hard drive parameters

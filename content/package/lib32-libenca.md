@@ -11,7 +11,7 @@ size = "78160"
 usize = "273464"
 sha1sum = "32bdb150aeecac9fa64eadbf3fa0004e2cd5e50e"
 depends = "['lib32-recode']"
-reverse depends = "['lib32-libass']"
+reverse_depends = "['lib32-libass']"
 files = "['/usr/i686-frugalware-linux/bin/enca', '/usr/i686-frugalware-linux/bin/enconv', '/usr/i686-frugalware-linux/include/enca.h', '/usr/i686-frugalware-linux/libenca/enca/extconv/cstocs', '/usr/i686-frugalware-linux/libenca/enca/extconv/map', '/usr/i686-frugalware-linux/libenca/enca/extconv/piconv', '/usr/i686-frugalware-linux/libenca/enca/extconv/recode', '/usr/i686-frugalware-linux/libenca/enca/extconv/umap', '/usr/lib32/libenca.so', '/usr/lib32/libenca.so.0', '/usr/lib32/libenca.so.0.5.1', '/usr/lib32/pkgconfig/enca.pc']"
 +++
 An extremely naive character set analyzer library ( 32bit )

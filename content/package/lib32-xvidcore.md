@@ -11,7 +11,7 @@ size = "185964"
 usize = "699675"
 sha1sum = "919da834bacc6535d3dd09ee77faa81d31f6e575"
 depends = "[]"
-reverse depends = "['lib32-ffmpeg']"
+reverse_depends = "['lib32-ffmpeg']"
 files = "['/usr/i686-frugalware-linux/include/xvid.h', '/usr/lib32/libxvidcore.so', '/usr/lib32/libxvidcore.so.4', '/usr/lib32/libxvidcore.so.4.3']"
 +++
 XviD is an open source MPEG-4 video codec ( 32bit )

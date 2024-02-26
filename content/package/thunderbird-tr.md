@@ -11,7 +11,7 @@ size = "674324"
 usize = "735789"
 sha1sum = "3bca9f90c1ac3524276f9dec69934591588ae7f6"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-tr@thunderbird.mozilla.org.xpi']"
 +++
 Turkish language support for Thunderbird

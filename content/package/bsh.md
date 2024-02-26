@@ -11,7 +11,7 @@ size = "261628"
 usize = "281769"
 sha1sum = "b85d5eae83958481280c6d0a2c117ae11ec06efd"
 depends = "[]"
-reverse depends = "['libreoffice-scripting-beanshell']"
+reverse_depends = "['libreoffice-scripting-beanshell']"
 files = "['/usr/share/java/bsh.jar']"
 +++
 Lightweight Scripting for Java

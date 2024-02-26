@@ -11,7 +11,7 @@ size = "398836"
 usize = "463234"
 sha1sum = "70cff5f42ec3d50968de899193a36674d0273830"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-lv@firefox.mozilla.org.xpi']"
 +++
 Latvian language support for Firefox

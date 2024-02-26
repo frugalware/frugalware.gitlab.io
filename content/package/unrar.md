@@ -11,7 +11,7 @@ size = "233896"
 usize = "629661"
 sha1sum = "aac95ce22da4fe3c98f10e16dcd62a8fd78af568"
 depends = "['libstdc++']"
-reverse depends = "['binwalk']"
+reverse_depends = "['binwalk']"
 files = "['/usr/bin/unrar', '/usr/include/unrar/dll.hpp', '/usr/lib/libunrar.so']"
 +++
 Uncompress rar files

@@ -11,7 +11,7 @@ size = "235644"
 usize = "694650"
 sha1sum = "a4536b3bc2798b0019395681ecd0cd2f0471267f"
 depends = "['lib32-avahi', 'lib32-gnutls', 'lib32-libsystemd', 'lib32-openssl', 'lib32-pam']"
-reverse depends = "['lib32-gtk+2-libs', 'steam-native']"
+reverse_depends = "['lib32-gtk+2-libs', 'steam-native']"
 files = "['/usr/lib32/cups/backend/smb', '/usr/lib32/libcups.so', '/usr/lib32/libcups.so.2', '/usr/lib32/libcupsimage.so', '/usr/lib32/libcupsimage.so.2']"
 +++
 Main library of the CUPS printing system. ( 32bit )

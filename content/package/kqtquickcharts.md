@@ -11,7 +11,7 @@ size = "69108"
 usize = "335778"
 sha1sum = "a0ad7b5cdc7b94b35de29a95346de5475521bf9d"
 depends = "['qt5-declarative']"
-reverse depends = "['ktouch']"
+reverse_depends = "['ktouch']"
 files = "['/usr/include/KF5/kqtquickcharts_version.h', '/usr/lib/cmake/KQtQuickCharts/KQtQuickChartsConfig.cmake', '/usr/lib/cmake/KQtQuickCharts/KQtQuickChartsVersion.cmake', '/usr/share/doc/kqtquickcharts-23.08.5/AUTHORS', '/usr/share/doc/kqtquickcharts-23.08.5/COPYING', '/usr/share/doc/kqtquickcharts-23.08.5/README.md', '/usr/share/qt5/qml/org/kde/charts/BarChart.qml', '/usr/share/qt5/qml/org/kde/charts/Label.qml', '/usr/share/qt5/qml/org/kde/charts/LegendItem.qml', '/usr/share/qt5/qml/org/kde/charts/libkqtquickcharts.so', '/usr/share/qt5/qml/org/kde/charts/LineChart.qml', '/usr/share/qt5/qml/org/kde/charts/LineLabel.qml', '/usr/share/qt5/qml/org/kde/charts/qmldir', '/usr/share/qt5/qml/org/kde/charts/XYChart.qml']"
 +++
 A QtQuick plugin to render beautiful and interactive charts.

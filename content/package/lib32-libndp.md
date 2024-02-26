@@ -11,7 +11,7 @@ size = "11572"
 usize = "32173"
 sha1sum = "eb8fe866686ab1e38a7b398068f8b5fa8b7f1146"
 depends = "[]"
-reverse depends = "['lib32-networkmanager']"
+reverse_depends = "['lib32-networkmanager']"
 files = "['/usr/lib32/libndp.so', '/usr/lib32/libndp.so.0', '/usr/lib32/libndp.so.0.2.0', '/usr/lib32/pkgconfig/libndp.pc']"
 +++
 This package contains a library which provides a wrapper for IPv6 Neighbor Discovery Protocol. ( 32bit )

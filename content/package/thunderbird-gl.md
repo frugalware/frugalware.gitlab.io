@@ -11,7 +11,7 @@ size = "657168"
 usize = "718872"
 sha1sum = "ef70d269dcdd8a3bfa13f7f596672beaa85ec69f"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-gl@thunderbird.mozilla.org.xpi']"
 +++
 Galician language support for Thunderbird

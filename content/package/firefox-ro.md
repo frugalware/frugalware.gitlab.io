@@ -11,7 +11,7 @@ size = "482496"
 usize = "542065"
 sha1sum = "623791116cea27adb368f0b462e7938b2eeccdce"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-ro@firefox.mozilla.org.xpi']"
 +++
 Romanian language support for Firefox

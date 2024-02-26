@@ -11,7 +11,7 @@ size = "599136"
 usize = "653087"
 sha1sum = "be5c51f8c5f7e7d1b53393ec295d67488e8954c7"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-ka@firefox.mozilla.org.xpi']"
 +++
 Georgian language support for Firefox

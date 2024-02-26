@@ -11,7 +11,7 @@ size = "576308"
 usize = "630539"
 sha1sum = "359afb0f1b3a5ddb40f85ddbea189e36413ffeaa"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-hu@firefox.mozilla.org.xpi']"
 +++
 Hungarian language support for Firefox

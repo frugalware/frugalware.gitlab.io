@@ -11,7 +11,7 @@ size = "526704"
 usize = "609797"
 sha1sum = "783e3780f7c3107f547ed546a9c55f3348a0e49d"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-ga-IE@thunderbird.mozilla.org.xpi']"
 +++
 Irish language support for Thunderbird

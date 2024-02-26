@@ -11,7 +11,7 @@ size = "558504"
 usize = "612985"
 sha1sum = "d1a405a5ff77d9cf747fef7e1e3044d1de2d5475"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-he@firefox.mozilla.org.xpi']"
 +++
 Hebrew language support for Firefox

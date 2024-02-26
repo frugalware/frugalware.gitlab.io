@@ -11,7 +11,7 @@ size = "544256"
 usize = "598363"
 sha1sum = "9f06998cb6b7322062b388734053d270fec224f6"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-is@firefox.mozilla.org.xpi']"
 +++
 Icelandic language support for Firefox

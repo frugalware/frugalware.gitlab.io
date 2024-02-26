@@ -11,7 +11,7 @@ size = "552616"
 usize = "608581"
 sha1sum = "a9c3a5614eeac311dd738045004764d62458e059"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-es-AR@firefox.mozilla.org.xpi']"
 +++
 Argentine Spanish language support for Firefox

@@ -11,7 +11,7 @@ size = "454880"
 usize = "520457"
 sha1sum = "a74211375e63f36a0fdc432ed872871324937eaa"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-gu-IN@firefox.mozilla.org.xpi']"
 +++
 Gujarati language support for Firefox

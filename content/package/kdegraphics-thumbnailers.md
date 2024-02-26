@@ -11,7 +11,7 @@ size = "51668"
 usize = "195758"
 sha1sum = "f84970b3b4bcbe66c6802ba68be5cbc47d00c818"
 depends = "['kdegraphics-mobipocket>=23.08.5', 'kio>=5.115.0', 'libkdcraw>=23.08.5', 'libkexiv2>=23.08.5', 'qt5-svg>=5.15.12']"
-reverse depends = "['dolphin']"
+reverse_depends = "['dolphin']"
 files = "['/usr/lib/qt5/plugins/kf5/thumbcreator/blenderthumbnail.so', '/usr/lib/qt5/plugins/kf5/thumbcreator/gsthumbnail.so', '/usr/lib/qt5/plugins/kf5/thumbcreator/mobithumbnail.so', '/usr/lib/qt5/plugins/kf5/thumbcreator/rawthumbnail.so', '/usr/share/doc/kdegraphics-thumbnailers-23.08.5/COPYING', '/usr/share/doc/kdegraphics-thumbnailers-23.08.5/COPYING.LIB', '/usr/share/metainfo/org.kde.kdegraphics-thumbnailers.metainfo.xml']"
 +++
 Thumnailers Creators for Kdegraphics.

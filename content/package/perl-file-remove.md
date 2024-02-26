@@ -11,7 +11,7 @@ size = "17112"
 usize = "38125"
 sha1sum = "c4e74337326c7ee70c3b2e1ea12c9be930c69cb6"
 depends = "['perl>=5.34.0']"
-reverse depends = "['perl-module-install']"
+reverse_depends = "['perl-module-install']"
 files = "['/usr/lib/perl5/site_perl/File/Remove.pm', '/usr/share/doc/perl-file-remove-1.61/LICENSE', '/usr/share/doc/perl-file-remove-1.61/MANIFEST', '/usr/share/doc/perl-file-remove-1.61/README', '/usr/share/man/man3/File::Remove.3perl.gz']"
 +++
 Remove files and directories

@@ -11,7 +11,7 @@ size = "14784"
 usize = "44990"
 sha1sum = "ca2fe97a80f31f574002a8d6c6bf21e856e2b94e"
 depends = "['libmnl']"
-reverse depends = "['nfacct']"
+reverse_depends = "['nfacct']"
 files = "['/usr/include/libnetfilter_acct/libnetfilter_acct.h', '/usr/lib/libnetfilter_acct.so', '/usr/lib/libnetfilter_acct.so.1', '/usr/lib/libnetfilter_acct.so.1.0.0', '/usr/lib/pkgconfig/libnetfilter_acct.pc', '/usr/share/doc/libnetfilter_acct-1.0.3/COPYING', '/usr/share/doc/libnetfilter_acct-1.0.3/README']"
 +++
 A userspace library providing interface to extended accounting infrastructure.

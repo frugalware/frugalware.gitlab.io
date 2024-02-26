@@ -11,7 +11,7 @@ size = "85564"
 usize = "242155"
 sha1sum = "012fba0b6faff21a488d8d8c5bc1f7c502506b1a"
 depends = "['lib32-ncurses>=6.0-18']"
-reverse depends = "['lib32-llvm-libs']"
+reverse_depends = "['lib32-llvm-libs']"
 files = "['/usr/i686-frugalware-linux/include/editline/readline.h', '/usr/i686-frugalware-linux/include/histedit.h', '/usr/lib32/libedit.so', '/usr/lib32/libedit.so.0', '/usr/lib32/libedit.so.0.0.72', '/usr/lib32/pkgconfig/libedit.pc']"
 +++
 Editline Library ( 32bit )

@@ -11,7 +11,7 @@ size = "47912"
 usize = "143502"
 sha1sum = "f566f4d0e9714c119f4c26e0cdaf19e527fbe308"
 depends = "['libx11>=1.6.3-4']"
-reverse depends = "['i3']"
+reverse_depends = "['i3']"
 files = "['/etc/X11/xinit/xinitrc', '/usr/bin/startx', '/usr/bin/xinit', '/usr/share/doc/xinit-1.4.2/ChangeLog', '/usr/share/doc/xinit-1.4.2/COPYING', '/usr/share/doc/xinit-1.4.2/INSTALL', '/usr/share/doc/xinit-1.4.2/README.md', '/usr/share/man/man1/startx.1.gz', '/usr/share/man/man1/xinit.1.gz']"
 license = "GPL2"
 +++

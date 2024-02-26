@@ -11,7 +11,7 @@ size = "657728"
 usize = "710118"
 sha1sum = "cee7ae9ad0aa75ceb901a9533de82dcae551f70e"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-el@firefox.mozilla.org.xpi']"
 +++
 Modern Greek (1453-) language support for Firefox

@@ -11,7 +11,7 @@ size = "29308"
 usize = "126736"
 sha1sum = "27784d3d8b12f260f1dbb1c207fd55c72328a333"
 depends = "['glibc']"
-reverse depends = "['mutt-devel', 'thunderbird']"
+reverse_depends = "['mutt-devel', 'thunderbird']"
 files = "['/etc/mailcap', '/etc/mime.types', '/etc/nginx/mime.types', '/usr/share/doc/mailcap-2.1.54/COPYING', '/usr/share/doc/mailcap-2.1.54/NEWS', '/usr/share/man/man5/mailcap.5.gz']"
 +++
 Helper application and MIME type associations for file types

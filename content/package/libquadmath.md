@@ -11,7 +11,7 @@ size = "394236"
 usize = "2125467"
 sha1sum = "c37c65b9e46f4f471c6976ade939762449fb452e"
 depends = "['glibc']"
-reverse depends = "['libgfortran']"
+reverse_depends = "['libgfortran']"
 files = "['/usr/lib/libquadmath.a', '/usr/lib/libquadmath.so', '/usr/lib/libquadmath.so.0', '/usr/lib/libquadmath.so.0.0.0', '/usr/lib32/libquadmath.a', '/usr/lib32/libquadmath.so', '/usr/lib32/libquadmath.so.0', '/usr/lib32/libquadmath.so.0.0.0', '/usr/share/info/libquadmath.info.gz']"
 +++
 Quadruple Precision Math library from GCC

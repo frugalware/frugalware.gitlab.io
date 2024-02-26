@@ -11,7 +11,7 @@ size = "640160"
 usize = "693186"
 sha1sum = "4fda54f5d9cdf71c1d6872cef1a81b02285d4578"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-be@firefox.mozilla.org.xpi']"
 +++
 Belarusian language support for Firefox

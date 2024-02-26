@@ -11,7 +11,7 @@ size = "87000"
 usize = "190012"
 sha1sum = "9e73ecd115a10b9db43179a0469ae8d2d47ac49e"
 depends = "['openal>=1.17.2-2']"
-reverse depends = "['qtox', 'utox']"
+reverse_depends = "['qtox', 'utox']"
 files = "['/usr/include/filter_audio.h', '/usr/lib/libfilteraudio.so', '/usr/lib/libfilteraudio.so.0', '/usr/lib/libfilteraudio.so.0.0.0', '/usr/lib/pkgconfig/filteraudio.pc', '/usr/share/doc/filter_audio-0.0.1/README']"
 +++
 An easy to use audio filtering library made from webrtc code.

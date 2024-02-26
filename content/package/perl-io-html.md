@@ -11,7 +11,7 @@ size = "19248"
 usize = "45258"
 sha1sum = "dc2f05ffdd4242f5966a3e2915f235ea5e830eba"
 depends = "['perl>=5.34.0']"
-reverse depends = "['perl-http-message']"
+reverse_depends = "['perl-http-message']"
 files = "['/usr/lib/perl5/site_perl/current/IO/HTML.pm', '/usr/share/doc/perl-io-html-1.004/LICENSE', '/usr/share/doc/perl-io-html-1.004/MANIFEST', '/usr/share/doc/perl-io-html-1.004/README', '/usr/share/man/man3/IO::HTML.3perl.gz']"
 +++
 Open an HTML file with automatic charset detection.

@@ -11,7 +11,7 @@ size = "649012"
 usize = "710487"
 sha1sum = "dd906739bd948c83adc3a0d28c0459e4c554908f"
 depends = "['thunderbird>=115.7.0']"
-reverse depends = "['thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 files = "['/usr/lib/thunderbird/extensions/langpack-da@thunderbird.mozilla.org.xpi']"
 +++
 Danish language support for Thunderbird

@@ -11,7 +11,7 @@ size = "62032"
 usize = "236787"
 sha1sum = "cda620a8834ff658c3a02c199a22f92ea5529bc3"
 depends = "['glibc>=2.35', 'python3>=3.12']"
-reverse depends = "['libcanberra', 'libpulse', 'notification-daemon', 'samba', 'samba-client']"
+reverse_depends = "['libcanberra', 'libpulse', 'notification-daemon', 'samba', 'samba-client']"
 files = "['/usr/bin/tdbbackup', '/usr/bin/tdbdump', '/usr/bin/tdbrestore', '/usr/bin/tdbtool', '/usr/include/tdb.h', '/usr/lib/libtdb.so', '/usr/lib/libtdb.so.1', '/usr/lib/libtdb.so.1.4.10', '/usr/lib/pkgconfig/tdb.pc', '/usr/lib/python3.12/site-packages/tdb.cpython-312-x86_64-linux-gnu.so', '/usr/lib/python3.12/site-packages/_tdb_text.py']"
 +++
 A Trivial Database

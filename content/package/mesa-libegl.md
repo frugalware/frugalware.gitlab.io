@@ -11,7 +11,7 @@ size = "147172"
 usize = "369628"
 sha1sum = "c1602712cdf323e8bd5e5e94fb647bc041a178a4"
 depends = "['libdrm>=2.4.70-2', 'libgbm', 'libx11>=1.6.4', 'libxshmfence>=1.2-3', 'wayland>=1.11.0-3']"
-reverse depends = "['libepoxy', 'libwayland-egl', 'qt5-base', 'virtualbox', 'xorg-server']"
+reverse_depends = "['libepoxy', 'libwayland-egl', 'qt5-base', 'virtualbox', 'xorg-server']"
 files = "['/usr/include/EGL/eglext_angle.h', '/usr/include/EGL/eglmesaext.h', '/usr/lib/libEGL_mesa.so', '/usr/lib/libEGL_mesa.so.0', '/usr/lib/libEGL_mesa.so.0.0.0', '/usr/share/glvnd/egl_vendor.d/50_mesa.json']"
 +++
 Mesa OpenEGL library.

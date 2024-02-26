@@ -11,7 +11,7 @@ size = "270528"
 usize = "1883898"
 sha1sum = "85f22bcfbbafeedc611a210e4e4448285c9a1f38"
 depends = "['glibc']"
-reverse depends = "['qtcreator']"
+reverse_depends = "['qtcreator']"
 files = "['/usr/include/rustc_demangle.h', '/usr/lib/librustc_demangle.a', '/usr/lib/librustc_demangle.so', '/usr/share/doc/rustc-demangle-0.1.23/README.md']"
 +++
 Demangling for Rust symbols, C API

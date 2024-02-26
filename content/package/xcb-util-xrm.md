@@ -11,7 +11,7 @@ size = "31484"
 usize = "137306"
 sha1sum = "7c9dcc6609e744396cca0bbe123692592365c172"
 depends = "['libx11', 'xcb-util']"
-reverse depends = "['i3', 'i3lock']"
+reverse_depends = "['i3', 'i3lock']"
 files = "['/usr/include/xcb/xcb_xrm.h', '/usr/lib/libxcb-xrm.la', '/usr/lib/libxcb-xrm.so', '/usr/lib/libxcb-xrm.so.0', '/usr/lib/libxcb-xrm.so.0.0.0', '/usr/lib/pkgconfig/xcb-xrm.pc', '/usr/share/doc/xcb-util-xrm-1.3/ChangeLog', '/usr/share/doc/xcb-util-xrm-1.3/COPYING', '/usr/share/doc/xcb-util-xrm-1.3/INSTALL', '/usr/share/doc/xcb-util-xrm-1.3/README']"
 +++
 XCB utility functions for the X resource manager

@@ -11,7 +11,7 @@ size = "496032"
 usize = "550961"
 sha1sum = "c6eb90d5ed1f7f42fa141e4d8dd44563c29f02df"
 depends = "['firefox>=123.0']"
-reverse depends = "['firefox-i18n']"
+reverse_depends = "['firefox-i18n']"
 files = "['/usr/lib/firefox/browser/extensions/langpack-it@firefox.mozilla.org.xpi']"
 +++
 Italian language support for Firefox

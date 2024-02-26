@@ -11,7 +11,7 @@ size = "23600"
 usize = "81973"
 sha1sum = "8e054491af2322ca681c272dc7656c3e87551216"
 depends = "['alsa-lib', 'libpulse']"
-reverse depends = "['espeak-ng']"
+reverse_depends = "['espeak-ng']"
 files = "['/usr/include/pcaudiolib/audio.h', '/usr/lib/libpcaudio.so', '/usr/lib/libpcaudio.so.0', '/usr/lib/libpcaudio.so.0.0.1', '/usr/share/doc/pcaudiolib-1.2/AUTHORS', '/usr/share/doc/pcaudiolib-1.2/COPYING', '/usr/share/doc/pcaudiolib-1.2/INSTALL', '/usr/share/doc/pcaudiolib-1.2/NEWS', '/usr/share/doc/pcaudiolib-1.2/README', '/usr/share/doc/pcaudiolib-1.2/README.md']"
 +++
 Portable C Audio Library

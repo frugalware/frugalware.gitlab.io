@@ -11,7 +11,7 @@ size = "21844"
 usize = "57975"
 sha1sum = "df3754125bf25165f0970fcf0866bd4e339ea9d8"
 depends = "['lib32-zlib']"
-reverse depends = "['lib32-libdrm']"
+reverse_depends = "['lib32-libdrm']"
 files = "['/usr/i686-frugalware-linux/include/pciaccess.h', '/usr/lib32/libpciaccess.so', '/usr/lib32/libpciaccess.so.0', '/usr/lib32/libpciaccess.so.0.11.1', '/usr/lib32/pkgconfig/pciaccess.pc']"
 +++
 X.Org PCI access library ( 32bit )
