@@ -13,9 +13,10 @@ usize = "208229"
 sha1sum = "412c9e683c7dbadf77eb0486d355756ef0d607e1"
 depends = "['glibc>=2.35']"
 +++
+### Description: 
 Bootstrap a basic Debian system
 
-## Files: 
+### Files: 
 * /usr/bin/debootstrap
 * /usr/share/debootstrap/functions
 * /usr/share/debootstrap/scripts/aequorea

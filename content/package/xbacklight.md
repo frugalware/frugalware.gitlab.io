@@ -15,9 +15,10 @@ depends = "['libxcb>=1.11.1-3', 'xcb-util>=0.4.0-2']"
 reverse_depends = "['lumina-desktop']"
 license = "GPL2"
 +++
+### Description: 
 X.Org adjust backlight brightness using RandR extension
 
-## Files: 
+### Files: 
 * /usr/bin/xbacklight
 * /usr/share/doc/xbacklight-1.2.3/ChangeLog
 * /usr/share/doc/xbacklight-1.2.3/COPYING

@@ -13,9 +13,10 @@ usize = "5484004"
 sha1sum = "bc178838271b429f2219dfdbbe93ba32c3968d18"
 depends = "['geany>=1.38', 'gtkspell', 'libxslt', 'lua', 'webkit-gtk3>=2.42.1']"
 +++
+### Description: 
 The combined plugins release for Geany.
 
-## Files: 
+### Files: 
 * /usr/lib/geany/addons.so
 * /usr/lib/geany/autoclose.so
 * /usr/lib/geany/automark.so

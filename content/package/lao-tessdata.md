@@ -13,7 +13,8 @@ usize = "7055291"
 sha1sum = "e20f3fdbc976feae14744e8bbec62322ebbbdd37"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang lao
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/lao.traineddata

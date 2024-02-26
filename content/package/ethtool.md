@@ -14,9 +14,10 @@ sha1sum = "6c19af75e51848b39a111abebd3c86c188e89775"
 depends = "['libmnl']"
 reverse_depends = "['aircrack-ng', 'networkmanager', 'pm-utils', 'rdma-core']"
 +++
+### Description: 
 A tool for setting ethernet parameters
 
-## Files: 
+### Files: 
 * /usr/bin/ethtool
 * /usr/lib/systemd/system/ethtool@.service
 * /usr/share/bash-completion/completions/ethtool

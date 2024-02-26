@@ -14,9 +14,10 @@ sha1sum = "4f36b3c39fd29c77f988c1d9a5e6cd3a016e301a"
 depends = "['kbd']"
 reverse_depends = "['kernel-initrd', 'kernel-lts-initrd', 'terminus-font']"
 +++
+### Description: 
 Terminus is a clean fixed width font for long (8 and more hours per day) work. (console only fonts)
 
-## Files: 
+### Files: 
 * /usr/share/consolefonts/ter-112n.psf.gz
 * /usr/share/consolefonts/ter-114b.psf.gz
 * /usr/share/consolefonts/ter-114n.psf.gz

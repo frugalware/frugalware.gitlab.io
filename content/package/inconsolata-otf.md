@@ -13,7 +13,8 @@ usize = "58582"
 sha1sum = "2eba3f11ab010029c9207420c8411988824d2f4b"
 depends = "['fontconfig', 'mkfontscale']"
 +++
+### Description: 
 A monospaced font for use with Terminals and Editors.
 
-## Files: 
+### Files: 
 * /usr/share/fonts/X11/OTF/Inconsolata.otf

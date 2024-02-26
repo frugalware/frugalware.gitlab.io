@@ -13,9 +13,10 @@ usize = "35378"
 sha1sum = "9c2cd8c56703f86204a57b29bc74a491d89222cf"
 depends = "['perl']"
 +++
+### Description: 
 Convert subtitles from .sub to subviewer .srt format.
 
-## Files: 
+### Files: 
 * /usr/bin/sub2srt
 * /usr/share/doc/sub2srt-0.5.5/COPYING
 * /usr/share/doc/sub2srt-0.5.5/README

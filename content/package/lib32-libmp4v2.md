@@ -14,9 +14,10 @@ sha1sum = "3cf844696d1e416211d8bffb843949f36d554dfa"
 depends = "[]"
 reverse_depends = "['lib32-faac']"
 +++
+### Description: 
 A library for working with files using the mp4 container format. (extracted from mpeg4ip). ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/mp4art
 * /usr/i686-frugalware-linux/bin/mp4chaps
 * /usr/i686-frugalware-linux/bin/mp4extract

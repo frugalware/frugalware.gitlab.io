@@ -14,9 +14,10 @@ sha1sum = "69069786f2403f246b421f48da7ac01069fde6cf"
 depends = "['lib32-expat', 'lib32-gdbm>=1.15', 'lib32-libdaemon', 'lib32-libdbus', 'lib32-libevent', 'lib32-libsystemd']"
 reverse_depends = "['lib32-libcups']"
 +++
+### Description: 
 A multicast/unicast DNS-SD framework (32-Bit)
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/avahi-browse
 * /usr/i686-frugalware-linux/bin/avahi-browse-domains
 * /usr/i686-frugalware-linux/bin/avahi-publish

@@ -13,7 +13,8 @@ usize = "7428815"
 sha1sum = "cc0c76a7e4f80b5c4fa9a1c2adb843b0cdb1ddbe"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang grc
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/grc.traineddata

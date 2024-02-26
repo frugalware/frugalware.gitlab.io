@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "793433c3dd8fcc4a091be39ef5fa93b945df07e3"
 depends = "[]"
 +++
+### Description: 
 GUI versions of the BitTorrent file transfer tool 
 
-## Files: 
+### Files: 
 * usr/bin/bittorrent
 * usr/bin/maketorrent
 * usr/share/applications/bittorrent.desktop

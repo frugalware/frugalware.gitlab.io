@@ -14,9 +14,10 @@ sha1sum = "9593339979fff1c73f43b0c979ef54ef6406f5db"
 depends = "['karchive>=5.115.0', 'kconfig>=5.115.0', 'kcoreaddons>=5.115.0', 'ki18n>=5.115.0']"
 reverse_depends = "['frameworkintegration', 'kdeclarative', 'kinfocenter5', 'knewstuff']"
 +++
+### Description: 
 Framework that lets applications manage user installable packages of non-binary assets.
 
-## Files: 
+### Files: 
 * /usr/bin/kpackagetool5
 * /usr/include/KF5/KPackage/KPackage/Package
 * /usr/include/KF5/KPackage/kpackage/package.h

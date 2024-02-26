@@ -13,9 +13,10 @@ usize = "69789"
 sha1sum = "670aad73110fca4761ac43bcd2e6ba69cddc7f7e"
 depends = "['python3-hatchling']"
 +++
+### Description: 
 Fancy PyPI READMEs with Hatch
 
-## Files: 
+### Files: 
 * /usr/bin/hatch-fancy-pypi-readme
 * /usr/lib/python3.12/site-packages/hatch_fancy_pypi_readme-23.1.0.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/hatch_fancy_pypi_readme-23.1.0.dist-info/licenses/AUTHORS.md

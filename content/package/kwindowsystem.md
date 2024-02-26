@@ -14,9 +14,10 @@ sha1sum = "c9dad9edd2394d2f50388d5c7b4e28d6937deaad"
 depends = "['qt5-x11extras>=5.15.12', 'xcb-util-keysyms>=0.4.0-3']"
 reverse_depends = "['audiotube', 'dolphin', 'kcrash', 'keysmith', 'krecorder', 'kwayland-integration', 'libksysguard5', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'plasma-browser-integration', 'plasma-sdk', 'qmlkonsole', 'rkward']"
 +++
+### Description: 
 KDE Access to window manager.
 
-## Files: 
+### Files: 
 * /usr/include/KF5/KWindowSystem/config-kwindowsystem.h
 * /usr/include/KF5/KWindowSystem/fixx11h.h
 * /usr/include/KF5/KWindowSystem/KKeyServer

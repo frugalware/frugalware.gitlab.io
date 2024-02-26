@@ -14,9 +14,10 @@ sha1sum = "b0ad9c514b0d8ccef8431ccb812caf2e9bb0fba3"
 depends = "['curl', 'faad2', 'fluidsynth', 'freetype2', 'fribidi', 'glib2', 'libjpeg-turbo', 'libmad', 'libtheora', 'sdl2_net']"
 reverse_depends = "['scummvm-tools']"
 +++
+### Description: 
 ScummVM is a program which allows you to run certain classic graphical point-and-click adventure games.
 
-## Files: 
+### Files: 
 * /usr/bin/scummvm
 * /usr/share/applications/scummvm.desktop
 * /usr/share/doc/scummvm-2.7.1/AUTHORS

@@ -13,9 +13,10 @@ usize = "27028273"
 sha1sum = "a591f7c43b03806a72d468c2d6fc5fffe3183e0a"
 depends = "[]"
 +++
+### Description: 
 Portuguese Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/apps/khangman/data/pt/animals.kvtml
 * usr/share/apps/khangman/data/pt/easy.kvtml
 * usr/share/apps/khangman/data/pt/hard.kvtml

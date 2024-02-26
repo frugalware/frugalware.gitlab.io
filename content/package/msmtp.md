@@ -13,9 +13,10 @@ usize = "252020"
 sha1sum = "e72f39806dcc3b8d5f2664999395a6a6fac5bd9b"
 depends = "['glib2', 'gnutls', 'libgsasl', 'libsecret']"
 +++
+### Description: 
 msmtp is small light SMTP Client
 
-## Files: 
+### Files: 
 * /usr/bin/msmtp
 * /usr/share/doc/msmtp-1.6.6/AUTHORS
 * /usr/share/doc/msmtp-1.6.6/ChangeLog

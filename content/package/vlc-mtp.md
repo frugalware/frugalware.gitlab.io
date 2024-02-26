@@ -13,8 +13,9 @@ usize = "28048"
 sha1sum = "96abb61f0a168266e2dfe5bf655142c9069dde3d"
 depends = "['libmtp', 'libvlc>=3.0.20']"
 +++
+### Description: 
 vlc plugin for mpt
 
-## Files: 
+### Files: 
 * /usr/lib/vlc/plugins/access/libaccess_mtp_plugin.so
 * /usr/lib/vlc/plugins/services_discovery/libmtp_plugin.so

@@ -13,9 +13,10 @@ usize = "1491898"
 sha1sum = "49fab72d3e389cb5d567a671b34b1b472c4a4608"
 depends = "['haskell-doclayout', 'haskell-hslua']"
 +++
+### Description: 
 Lua module wrapping Text.DocLayout
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/hslua-module-doclayout-1.1.0/HsLua/Module/DocLayout.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-module-doclayout-1.1.0/HsLua/Module/DocLayout.hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-module-doclayout-1.1.0/libHShslua-module-doclayout-1.1.0-B4uHQVR8Qug2uD95XWdVF0.a

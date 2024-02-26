@@ -13,6 +13,7 @@ usize = "0"
 sha1sum = "bb628ce4b2f8b279c12ca08fcf94997e62900b81"
 depends = "['xf86-input-mouse', 'xf86-video-ati', 'xf86-video-dummy', 'xf86-video-fbdev', 'xorg-server']"
 +++
+### Description: 
 Dummy X.Org compatibility package
 
-## Files: 
+### Files: 

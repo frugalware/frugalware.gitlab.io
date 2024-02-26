@@ -13,9 +13,10 @@ usize = "216829"
 sha1sum = "220f2321423a688855500d1ab89df076e2b2a813"
 depends = "['zlib>=1.2.12']"
 +++
+### Description: 
 Fastjar is an implementation of Sun's jar utility
 
-## Files: 
+### Files: 
 * /usr/bin/fastjar
 * /usr/bin/grepjar
 * /usr/share/doc/fastjar-0.98/AUTHORS

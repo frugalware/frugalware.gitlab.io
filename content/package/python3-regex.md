@@ -14,9 +14,10 @@ sha1sum = "941aadef7076e269b379dc7c85b0df8b4a3bed80"
 depends = "['python3>=3.12']"
 reverse_depends = "['calibre']"
 +++
+### Description: 
 Alternative python regular expression module.
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/regex-2023.10.3-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/regex-2023.10.3-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/regex-2023.10.3-py3.12.egg-info/SOURCES.txt

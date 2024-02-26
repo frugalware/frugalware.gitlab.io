@@ -13,7 +13,8 @@ usize = "104006"
 sha1sum = "dc724ad676fd5fca0a9e56cc95d6e0667627be53"
 depends = "['libshout']"
 +++
+### Description: 
 Audacious icecast output plugin
 
-## Files: 
+### Files: 
 * /usr/lib/audacious/Output/icecast.so

@@ -13,9 +13,10 @@ usize = "32122"
 sha1sum = "044d6a85ab239e47dae8afb9d35fab8efc6c91aa"
 depends = "['love']"
 +++
+### Description: 
 A very small utility to test variable refresh rate.
 
-## Files: 
+### Files: 
 * /opt/vrrtest/.gitignore
 * /opt/vrrtest/colorFade.lua
 * /opt/vrrtest/conf.lua

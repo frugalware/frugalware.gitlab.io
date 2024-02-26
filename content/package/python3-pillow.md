@@ -14,9 +14,10 @@ sha1sum = "7b06a300ded518e710782cee92bf653049fe1ce5"
 depends = "['libtiff', 'libwebp', 'openjpeg', 'python3-pytz', 'sane-backends', 'tk']"
 reverse_depends = "['calibre', 'discover-overlay', 'face_recognition', 'howdy', 'python3-nml']"
 +++
+### Description: 
 Python Imaging Library (PIL) fork
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/PIL/BdfFontFile.py
 * /usr/lib/python3.12/site-packages/PIL/BlpImagePlugin.py
 * /usr/lib/python3.12/site-packages/PIL/BmpImagePlugin.py

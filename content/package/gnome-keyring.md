@@ -13,9 +13,10 @@ usize = "5038474"
 sha1sum = "e4315e436f936ab6f2a474a62b896301b287266e"
 depends = "['gcr>=4.0.0', 'gcr-1', 'openssh']"
 +++
+### Description: 
 Password and keyring managing daemon for GNOME
 
-## Files: 
+### Files: 
 * /etc/xdg/autostart/gnome-keyring-pkcs11.desktop
 * /etc/xdg/autostart/gnome-keyring-secrets.desktop
 * /etc/xdg/autostart/gnome-keyring-ssh.desktop

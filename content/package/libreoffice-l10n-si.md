@@ -13,9 +13,10 @@ usize = "32901828"
 sha1sum = "653dc4b5c2b4efd413ca029584f205ecc770bc7f"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Sinhala support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/help/si/default.css
 * /usr/lib/libreoffice/help/si/err.html
 * /usr/lib/libreoffice/help/si/highcontrast1.css

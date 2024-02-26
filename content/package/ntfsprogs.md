@@ -14,9 +14,10 @@ sha1sum = "6e031425d745f70dcee21c7f5ec368b271a3b95d"
 depends = "['fuse', 'glibc>=2.29-6', 'ntfs-3g']"
 reverse_depends = "['partclone']"
 +++
+### Description: 
 The ntfsprogs will eventually include utilities for doing all required tasks to NTFS partitions.
 
-## Files: 
+### Files: 
 * /usr/bin/mkfs.ntfs
 * /usr/bin/mkntfs
 * /usr/bin/ntfs-3g

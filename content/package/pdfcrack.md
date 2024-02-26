@@ -13,9 +13,10 @@ usize = "72874"
 sha1sum = "d2c07688d30a9ea9c2d7da2bce1a8fa829ad1276"
 depends = "['glibc']"
 +++
+### Description: 
 Password recovery tool for PDF-files
 
-## Files: 
+### Files: 
 * /usr/bin/pdfcrack
 * /usr/share/doc/pdfcrack-0.19/COPYING
 * /usr/share/doc/pdfcrack-0.19/README

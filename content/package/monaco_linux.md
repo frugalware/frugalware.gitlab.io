@@ -13,7 +13,8 @@ usize = "275863"
 sha1sum = "7b42a059f889c045486b742700bcbb490decfc66"
 depends = "['fontconfig', 'mkfontscale']"
 +++
+### Description: 
 Mono-spaced Macintosh system font
 
-## Files: 
+### Files: 
 * /usr/share/fonts/X11/TTF/Monaco_Linux.ttf

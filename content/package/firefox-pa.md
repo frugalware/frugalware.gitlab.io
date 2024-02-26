@@ -13,8 +13,9 @@ usize = "0"
 sha1sum = ""
 depends = "['firefox>=1.0.6']"
 +++
+### Description: 
 Punjabi language support for Firefox
 
-## Files: 
+### Files: 
 * usr/lib/firefox/chrome/pa-IN.jar
 * usr/lib/firefox/chrome/rc.d/10_firefox-pa.txt

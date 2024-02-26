@@ -14,9 +14,10 @@ sha1sum = "fd57c0828081162d2a3470233b40c19fd6c24fa5"
 depends = "['libx86emu', 'perl-xml-parser', 'perl-xml-writer']"
 reverse_depends = "['hw-probe']"
 +++
+### Description: 
 Hardware detection tool from openSUSE
 
-## Files: 
+### Files: 
 * /usr/bin/check_hd
 * /usr/bin/convert_hd
 * /usr/bin/getsysinfo

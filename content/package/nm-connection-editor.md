@@ -14,9 +14,10 @@ sha1sum = "80217890bf6b2f1532ed637a33bfffe654862b37"
 depends = "['gtk+3>=3.22.29', 'mobile-broadband-provider-info>=20151214-3', 'networkmanager>=1.4.0-2']"
 reverse_depends = "['nm-applet', 'nm-libreswan', 'nm-openconnect', 'nm-openvpn', 'nm-pptp', 'nm-vpnc', 'nm-wireguard']"
 +++
+### Description: 
 A network connection configuration editor for NetworkManager
 
-## Files: 
+### Files: 
 * /usr/bin/nm-connection-editor
 * /usr/include/libnma/nma-bar-code-widget.h
 * /usr/include/libnma/nma-bar-code.h

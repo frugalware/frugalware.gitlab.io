@@ -14,9 +14,10 @@ sha1sum = "9d8ac89d4cb109bca99ab29c1184b0b5126acc2f"
 depends = "['glibc>=2.34']"
 reverse_depends = "['easyeffects', 'mixxx']"
 +++
+### Description: 
 A library that implements the EBU R 128 standard for loudness normalisation.
 
-## Files: 
+### Files: 
 * /usr/include/ebur128.h
 * /usr/lib/libebur128.so
 * /usr/lib/libebur128.so.1

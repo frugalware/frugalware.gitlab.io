@@ -14,9 +14,10 @@ sha1sum = "948f311c55601fa97701b698c73b9c2a49488b12"
 depends = "['libsmbclient', 'libwbclient']"
 reverse_depends = "['cifs-utils', 'libsmbclient', 'libwbclient', 'samba-client']"
 +++
+### Description: 
 WinBind Client library.
 
-## Files: 
+### Files: 
 * /usr/include/samba-4.0/wbclient.h
 * /usr/lib/libwbclient.so
 * /usr/lib/libwbclient.so.0

@@ -14,9 +14,10 @@ sha1sum = "c49f5476dbcc58e9b2bbc4a6d2f40d5f19fde4b6"
 depends = "['gtk+3>=3.22.29', 'libnotify>=0.7.7-4', 'libxml2>=2.9.4-2']"
 reverse_depends = "['get_steam', 'zenity-doc']"
 +++
+### Description: 
 A rewrite of gdialog
 
-## Files: 
+### Files: 
 * /usr/bin/gdialog
 * /usr/bin/zenity
 * /usr/share/doc/zenity-3.44.0/AUTHORS

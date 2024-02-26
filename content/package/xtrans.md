@@ -15,9 +15,10 @@ depends = "[]"
 reverse_depends = "['x11-protos']"
 license = "GPL2"
 +++
+### Description: 
 Abstract Network code for X
 
-## Files: 
+### Files: 
 * /usr/include/X11/Xtrans/transport.c
 * /usr/include/X11/Xtrans/Xtrans.c
 * /usr/include/X11/Xtrans/Xtrans.h

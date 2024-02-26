@@ -14,7 +14,8 @@ sha1sum = "7353cc70b7e525f35b3100c18e509118956e7b2d"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Tamil language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-ta@firefox.mozilla.org.xpi

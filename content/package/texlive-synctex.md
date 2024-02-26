@@ -14,9 +14,10 @@ sha1sum = "27064a5d589102ab0d64924043f440bc90d460e3"
 depends = "['zlib>=1.2.12']"
 reverse_depends = "['texlive-utils']"
 +++
+### Description: 
 libsynctex
 
-## Files: 
+### Files: 
 * /usr/lib/libsynctex.so
 * /usr/lib/libsynctex.so.2
 * /usr/lib/libsynctex.so.2.0.0

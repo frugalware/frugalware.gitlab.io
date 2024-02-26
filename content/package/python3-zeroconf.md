@@ -13,9 +13,10 @@ usize = "5469614"
 sha1sum = "e3a40bd889fb27a8dec212ad88d773e46c061571"
 depends = "['python3-ifaddr', 'python3-netifaces', 'python3-six']"
 +++
+### Description: 
 A pure python implementation of multicast DNS service discovery
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/zeroconf-0.131.0.dist-info/COPYING
 * /usr/lib/python3.12/site-packages/zeroconf-0.131.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/zeroconf-0.131.0.dist-info/RECORD

@@ -14,9 +14,10 @@ sha1sum = "c01c4c1572353d22f7b915de795060453cba0650"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-citeproc', 'haskell-doclayout', 'haskell-pandoc-lua-marshal', 'haskell-skylighting-core']"
 +++
+### Description: 
 Library of safe (exception free) functions
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/safe-0.3.19/libHSsafe-0.3.19-10Q9N1LJWQ5J9PAwsFEMc2.a
 * /usr/lib/ghc-9.8.1/site-local/safe-0.3.19/Safe.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/safe-0.3.19/Safe.hi

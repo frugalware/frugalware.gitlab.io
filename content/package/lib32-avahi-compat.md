@@ -13,9 +13,10 @@ usize = "264350"
 sha1sum = "29cb5984aeda6426d23e183398ac804dffe34b7e"
 depends = "[]"
 +++
+### Description: 
 mDNSresponder and Howl compatibility libraries/headers for Avahi (32-Bit)
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/avahi-compat-howl/corby/buffer.h
 * /usr/i686-frugalware-linux/include/avahi-compat-howl/corby/channel.h
 * /usr/i686-frugalware-linux/include/avahi-compat-howl/corby/corby.h

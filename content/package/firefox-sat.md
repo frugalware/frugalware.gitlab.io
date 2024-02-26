@@ -14,7 +14,8 @@ sha1sum = "d431434108c56884002c7c78ba7b08a15b361269"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Santali language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-sat@firefox.mozilla.org.xpi

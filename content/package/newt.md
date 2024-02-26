@@ -14,9 +14,10 @@ sha1sum = "95e54ab6e6764197eba03ad3987e8c9b3e5e6082"
 depends = "['popt>=1.16-7', 'slang>=2.3.0-4']"
 reverse_depends = "['networkmanager', 'partimage']"
 +++
+### Description: 
 A programming library for color text mode, widget based user interfaces.
 
-## Files: 
+### Files: 
 * /etc/newt.theme
 * /usr/bin/whiptail
 * /usr/include/newt.h

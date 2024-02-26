@@ -13,9 +13,10 @@ usize = "320098"
 sha1sum = "ad6534737aa4a26b117b4a66f98bee2e00acb37a"
 depends = "['inih>=r49', 'polkit', 'systemd']"
 +++
+### Description: 
 A daemon/lib combo for Linux that allows games to request a set of optimisations be temporarily applied to the host OS
 
-## Files: 
+### Files: 
 * /etc/limits.d/45-gamemode.conf
 * /etc/security/limits.d/10-gamemode.conf
 * /usr/bin/gamemode-simulate-game

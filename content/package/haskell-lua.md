@@ -14,9 +14,10 @@ sha1sum = "eb90f94ea2c6d791cecbc2039bcfe38710b6a090"
 depends = "['ghc>=9.8.1', 'lua']"
 reverse_depends = "['haskell-hslua-core', 'haskell-lpeg']"
 +++
+### Description: 
 Lua, an embeddable scripting language
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/lua-2.3.1/libHSlua-2.3.1-3QKfP14YGJTLK88sa6OXV7.a
 * /usr/lib/ghc-9.8.1/site-local/lua-2.3.1/Lua.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/lua-2.3.1/Lua.hi

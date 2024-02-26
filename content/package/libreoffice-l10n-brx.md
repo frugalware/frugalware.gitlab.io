@@ -13,9 +13,10 @@ usize = "1783123"
 sha1sum = "c9ad47cc5411247bd41c9f05e4f833d1e9be0a07"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Bodo support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/resource/brx/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/brx/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/brx/LC_MESSAGES/basctl.mo

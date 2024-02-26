@@ -14,9 +14,10 @@ sha1sum = "b712703d349e4b8242d22e064e8565462596bb44"
 depends = "['akonadi-contacts>=23.08.5', 'kcmutils>=5.115.0', 'ksmtp>=23.08.5', 'libkgapi>=23.08.5', 'qtkeychain']"
 reverse_depends = "['akonadi-calendar', 'kalarm', 'kmail-account-wizard', 'libksieve', 'messagelib']"
 +++
+### Description: 
 Mail Transport Service
 
-## Files: 
+### Files: 
 * /usr/include/KPim5/MailTransport/mailtransport/mailtransport_export.h
 * /usr/include/KPim5/MailTransport/MailTransport/PrecommandJob
 * /usr/include/KPim5/MailTransport/mailtransport/precommandjob.h

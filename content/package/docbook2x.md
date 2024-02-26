@@ -13,9 +13,10 @@ usize = "1366607"
 sha1sum = "833661bbd9b5013b3baaddf4bce627d1561a8c58"
 depends = "['libxslt', 'perl-sgmlspm', 'perl-xml-sax>=0.99-5', 'perl-xml-writer>=0.625-5', 'perl-xml-xslt>=0.48-4']"
 +++
+### Description: 
 Converts DocBook documents to man and Texinfo format.
 
-## Files: 
+### Files: 
 * /usr/bin/db2x_manxml
 * /usr/bin/db2x_texixml
 * /usr/bin/db2x_xsltproc

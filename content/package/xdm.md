@@ -14,9 +14,10 @@ sha1sum = "d9cd247ff4d350453894cdfa8c7ed71ea7abf9ef"
 depends = "['libsystemd', 'libxaw>=1.0.13-2']"
 license = "GPL2"
 +++
+### Description: 
 X.Org xdm application
 
-## Files: 
+### Files: 
 * /etc/X11/xdm/Xaccess
 * /etc/X11/xdm/xdm-config
 * /etc/X11/xdm/Xresources

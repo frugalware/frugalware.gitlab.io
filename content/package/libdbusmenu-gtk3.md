@@ -14,9 +14,10 @@ sha1sum = "8154f79238a41730b71ecdd2d7653dbaa68f9870"
 depends = "['gtk+3', 'libdbusmenu']"
 reverse_depends = "['ibus', 'libappindicator']"
 +++
+### Description: 
 GTK3 bindings for libdbusmenu
 
-## Files: 
+### Files: 
 * /usr/include/libdbusmenu-gtk3-0.4/libdbusmenu-gtk/client.h
 * /usr/include/libdbusmenu-gtk3-0.4/libdbusmenu-gtk/dbusmenu-gtk.h
 * /usr/include/libdbusmenu-gtk3-0.4/libdbusmenu-gtk/menu.h

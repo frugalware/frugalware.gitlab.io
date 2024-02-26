@@ -13,9 +13,10 @@ usize = "905926"
 sha1sum = "de86f3b9fa029a0d0042f4325001f4ad4aebebc2"
 depends = "['aspell', 'glib2', 'gpgme', 'libotr', 'loudmouth>=1.5.3-3', 'ncurses>=6.0-15', 'openssl']"
 +++
+### Description: 
 Small Jabber console client, includes features: SSL, PGP, MUC, UTF8
 
-## Files: 
+### Files: 
 * /usr/bin/mcabber
 * /usr/include/mcabber/api.h
 * /usr/include/mcabber/caps.h

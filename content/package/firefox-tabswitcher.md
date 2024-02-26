@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "f00e97ca65f6212c31c983d3e5e3964a85ec6946"
 depends = "['firefox>=1.5']"
 +++
+### Description: 
 allows you to switch between tabs with customized shortcuts. Default are Ctrl+Left/Right
 
-## Files: 
+### Files: 
 * usr/lib/firefox/extensions/{7AFBDE9F-DFC7-4528-913A-CE8BCAA6EA0E}/chrome.manifest
 * usr/lib/firefox/extensions/{7AFBDE9F-DFC7-4528-913A-CE8BCAA6EA0E}/chrome/tabswitcher.jar
 * usr/lib/firefox/extensions/{7AFBDE9F-DFC7-4528-913A-CE8BCAA6EA0E}/install.rdf

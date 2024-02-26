@@ -13,9 +13,10 @@ usize = "186716154"
 sha1sum = "c80ef3993bc9126db434ad120c8d31d93357e8af"
 depends = "['freetype2>=2.6.2-3', 'glew>=2.2.0', 'libboost>=1.83.0', 'libjpeg-turbo', 'libpng>=1.6.20', 'libtiff>=4.0.6', 'libvorbis>=1.3.5-4', 'openal>=1.17.2', 'python3>=3.12', 'sdl2>=2.0.4']"
 +++
+### Description: 
 Free Clone of Master of Orion
 
-## Files: 
+### Files: 
 * /etc/ld.so.conf.d/freeorion.conf
 * /usr/bin/freeorion
 * /usr/bin/freeorionca

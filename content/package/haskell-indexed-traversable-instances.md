@@ -14,9 +14,10 @@ sha1sum = "b09bd34a1957560fc3e8d78a85f4d9a3aebacfd6"
 depends = "['haskell-indexed-traversable', 'haskell-onetuple', 'haskell-tagged', 'haskell-unordered-containers', 'haskell-vector']"
 reverse_depends = "['haskell-semialign', 'haskell-witherable']"
 +++
+### Description: 
 More instances of FunctorWithIndex, FoldableWithIndex, TraversableWithIndex
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/indexed-traversable-instances-0.1.1.2/Data/Functor/WithIndex/Instances.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/indexed-traversable-instances-0.1.1.2/Data/Functor/WithIndex/Instances.hi
 * /usr/lib/ghc-9.8.1/site-local/indexed-traversable-instances-0.1.1.2/libHSindexed-traversable-instances-0.1.1.2-89sxTTdUCIv81FxCCV1PGC.a

@@ -13,7 +13,8 @@ usize = "2185017"
 sha1sum = "53a65907a3226367a7967762f489e26b649b00f6"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang tir
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/tir.traineddata

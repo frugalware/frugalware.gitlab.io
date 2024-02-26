@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "32ea5d0ebaf0bcc1e35db94468ccbe04b658be59"
 depends = "[]"
 +++
+### Description: 
 Lithuanian Localization for KOffice. 
 
-## Files: 
+### Files: 
 * usr/share/locale/lt/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/lt/LC_MESSAGES/example.mo
 * usr/share/locale/lt/LC_MESSAGES/karbon.mo

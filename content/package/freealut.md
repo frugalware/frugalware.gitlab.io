@@ -14,9 +14,10 @@ sha1sum = "820ebe5066f5fdf1f487025bea733a6407d349fd"
 depends = "['openal>=1.15.1']"
 reverse_depends = "['flightgear']"
 +++
+### Description: 
 OpenAL Utility Toolkit
 
-## Files: 
+### Files: 
 * /usr/bin/freealut-config
 * /usr/include/AL/alut.h
 * /usr/lib/libalut.so

@@ -13,9 +13,10 @@ usize = "869244"
 sha1sum = "a6bd9a667206c181665f1266172a30a5bb359c15"
 depends = "['openjre']"
 +++
+### Description: 
 GNU Crypto cryptographic primitives for Java.
 
-## Files: 
+### Files: 
 * /usr/share/doc/gnu-crypto-2.0.1/AUTHORS
 * /usr/share/doc/gnu-crypto-2.0.1/ChangeLog
 * /usr/share/doc/gnu-crypto-2.0.1/COPYING

@@ -13,8 +13,9 @@ usize = "182129"
 sha1sum = "59dd45318bd8712dfcdc76cdb069698a9568d4bb"
 depends = "['glibc', 'libxcrypt']"
 +++
+### Description: 
 Modern library for one-way hashing of passwords - glibc compat
 
-## Files: 
+### Files: 
 * /usr/lib/libcrypt.so.1
 * /usr/lib/libcrypt.so.1.1.0

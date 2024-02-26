@@ -14,9 +14,10 @@ sha1sum = "72935dfd5801283d87ad34585047707c0bee771c"
 depends = "['lib32-readline>=8.0-2']"
 reverse_depends = "['lib32-avahi']"
 +++
+### Description: 
 GNU database library ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/gdbmtool
 * /usr/i686-frugalware-linux/bin/gdbm_dump
 * /usr/i686-frugalware-linux/bin/gdbm_load

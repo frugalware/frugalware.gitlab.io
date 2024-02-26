@@ -13,9 +13,10 @@ usize = "2412562"
 sha1sum = "c24955cf9ce06fe74fa1150ad0752558d2947e30"
 depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5']"
 +++
+### Description: 
 A ship sinking game.
 
-## Files: 
+### Files: 
 * /usr/bin/knavalbattle
 * /usr/share/applications/org.kde.knavalbattle.desktop
 * /usr/share/doc/HTML/ca/knavalbattle/gameboard.png

@@ -13,9 +13,10 @@ usize = "1617061"
 sha1sum = "34701621562fd45ad4cafc56d036cdf58e7f01da"
 depends = "[]"
 +++
+### Description: 
 Uzbek Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/locale/uz/charset
 * usr/share/locale/uz/entry.desktop
 * usr/share/locale/uz/flag.png

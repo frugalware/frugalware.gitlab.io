@@ -14,9 +14,10 @@ sha1sum = "bcc2dfe2f48b65f34a9b452f5f6eba5acb47eb71"
 depends = "['libpulse', 'qt5-base>=5.15.11']"
 reverse_depends = "['kdeconnect-kde']"
 +++
+### Description: 
 Qt bindings for libpulse
 
-## Files: 
+### Files: 
 * /usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/Card
 * /usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/card.h
 * /usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/CardPort

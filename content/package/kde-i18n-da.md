@@ -13,9 +13,10 @@ usize = "26601227"
 sha1sum = "1b8c7733ebaff3e295238c2b7e786ce85d9cfc7f"
 depends = "[]"
 +++
+### Description: 
 Danish Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/apps/khangman/da.txt
 * usr/share/apps/khangman/data/da/animals.kvtml
 * usr/share/apps/khangman/data/da/easy.kvtml

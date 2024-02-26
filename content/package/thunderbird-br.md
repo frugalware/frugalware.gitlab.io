@@ -14,7 +14,8 @@ sha1sum = "3b896e5a413cbc07a466e434003f90cb7c0fd116"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
+### Description: 
 Breton language support for Thunderbird
 
-## Files: 
+### Files: 
 * /usr/lib/thunderbird/extensions/langpack-br@thunderbird.mozilla.org.xpi

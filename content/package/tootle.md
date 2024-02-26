@@ -13,9 +13,10 @@ usize = "2006153"
 sha1sum = "db72d660302f6c53d1ec6cf9d8f96e121406f50a"
 depends = "['glib2', 'granite', 'gtk+3', 'hicolor-icon-theme', 'json-glib', 'libsoup', 'noto-emoji']"
 +++
+### Description: 
 GTK3 client for Mastodon
 
-## Files: 
+### Files: 
 * /usr/bin/com.github.bleakgrey.tootle
 * /usr/bin/tootle
 * /usr/include/libhandy-1/handy.h

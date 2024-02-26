@@ -14,9 +14,10 @@ sha1sum = "9f1fb674f66b0047189309ecdc94eb11e1f2657f"
 depends = "['alsa-lib>=1.1.2-2']"
 reverse_depends = "['darktable', 'mixxx', 'performous']"
 +++
+### Description: 
 Platform independent library for real-time MIDI input/output.
 
-## Files: 
+### Files: 
 * /usr/bin/pmdefaults
 * /usr/include/portmidi.h
 * /usr/include/porttime.h

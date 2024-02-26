@@ -14,9 +14,10 @@ sha1sum = "d2a6d114c609a309f5de9e8dbb91037d997e0359"
 depends = "['gtk+3', 'libappindicator', 'libnotify', 'pygobject3-cairo', 'python3-bcrypt', 'python3-dateutil', 'syncthing>=0.13']"
 license = "MIT"
 +++
+### Description: 
 GTK Frontend for Syncthing
 
-## Files: 
+### Files: 
 * /usr/bin/syncthing-gtk
 * /usr/lib/python3.12/site-packages/syncthing_gtk-0.9.4.4-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/syncthing_gtk-0.9.4.4-py3.12.egg-info/PKG-INFO

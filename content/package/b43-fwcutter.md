@@ -13,9 +13,10 @@ usize = "66349"
 sha1sum = "3eaf6b89f65b7bccfd58b0cbc36b779c35597053"
 depends = "['glibc']"
 +++
+### Description: 
 A tool which can extract firmware from various source files.
 
-## Files: 
+### Files: 
 * /usr/bin/b43-fwcutter
 * /usr/share/doc/b43-fwcutter-019/COPYING
 * /usr/share/doc/b43-fwcutter-019/README

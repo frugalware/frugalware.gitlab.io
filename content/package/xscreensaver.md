@@ -14,9 +14,10 @@ sha1sum = "f950d0e59d802d4c3047654ab6e1ac50f4ad3189"
 depends = "['gdk-pixbuf-xlib', 'glade', 'gtk+2', 'libxmu', 'libxt', 'xscreensaver-data']"
 reverse_depends = "['lumina-desktop']"
 +++
+### Description: 
 A screen saver and locker for the X Window System.
 
-## Files: 
+### Files: 
 * /etc/pam.d/xscreensaver
 * /usr/bin/xscreensaver
 * /usr/bin/xscreensaver-command

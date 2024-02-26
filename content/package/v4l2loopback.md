@@ -14,9 +14,10 @@ sha1sum = "e077a9ce87a15b1891217fdff37cc1171562d47c"
 depends = "['kernel=6.7.6-1']"
 reverse_depends = "['obs-v4l2sink']"
 +++
+### Description: 
 v4l2-loopback device
 
-## Files: 
+### Files: 
 * /usr/lib/modules/6.7.6-fw1/kernel/extra/v4l2loopback.ko.zst
 * /usr/share/doc/v4l2loopback-0.12.7/AUTHORS
 * /usr/share/doc/v4l2loopback-0.12.7/ChangeLog

@@ -14,9 +14,10 @@ sha1sum = "212cccc4a79c8e8d6fa289f46085a95536508c5d"
 depends = "['haskell-hslua-aeson', 'haskell-hslua-classes', 'haskell-hslua-objectorientation', 'haskell-hslua-packaging']"
 reverse_depends = "['haskell-hslua-module-doclayout', 'haskell-hslua-module-system', 'haskell-hslua-module-text', 'haskell-pandoc-lua-marshal']"
 +++
+### Description: 
 A Lua language interpreter embedding in Haskell
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/hslua-2.3.0/HsLua.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-2.3.0/HsLua.hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-2.3.0/HsLua/Util.dyn_hi

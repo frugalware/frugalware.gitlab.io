@@ -13,9 +13,10 @@ usize = "12876999"
 sha1sum = "336b2370d25b40865c78d95ec3ea9d29740f629d"
 depends = "['glibc', 'libgcrypt', 'libgpg-error']"
 +++
+### Description: 
 GNU Intelligent Platform Management Interface implementation.
 
-## Files: 
+### Files: 
 * /etc/freeipmi/freeipmi.conf
 * /etc/freeipmi/freeipmi_interpret_sel.conf
 * /etc/freeipmi/freeipmi_interpret_sensor.conf

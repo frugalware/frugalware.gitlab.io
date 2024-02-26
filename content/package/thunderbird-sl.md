@@ -14,7 +14,8 @@ sha1sum = "dba8b0770b3e45a2a77356062ad80baa38f6eee7"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
+### Description: 
 Slovenian language support for Thunderbird
 
-## Files: 
+### Files: 
 * /usr/lib/thunderbird/extensions/langpack-sl@thunderbird.mozilla.org.xpi

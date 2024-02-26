@@ -15,9 +15,10 @@ depends = "['libx11>=1.6.3-4']"
 reverse_depends = "['plasma-workspace', 'screenfetch', 'steamtinkerlaunch']"
 license = "GPL2"
 +++
+### Description: 
 X.Org xprop application
 
-## Files: 
+### Files: 
 * /usr/bin/xprop
 * /usr/share/doc/xprop-1.2.7/ChangeLog
 * /usr/share/doc/xprop-1.2.7/COPYING

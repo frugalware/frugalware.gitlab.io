@@ -14,9 +14,10 @@ sha1sum = "14f8f246d0f9ef81b1d9f6fcbfaaf5b95ac3fc1b"
 depends = "['kactivities5>=5.115.0', 'kio>=5.115.0']"
 reverse_depends = "['plasma-desktop', 'plasma-workspace', 'sweeper', 'systemsettings5']"
 +++
+### Description: 
 Library for accessing the usage statistics data collected by the KDE activity manager.
 
-## Files: 
+### Files: 
 * /usr/include/KF5/KActivitiesStats/KActivities/Stats/Cleaning
 * /usr/include/KF5/KActivitiesStats/KActivities/Stats/Query
 * /usr/include/KF5/KActivitiesStats/KActivities/Stats/ResultModel

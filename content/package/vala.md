@@ -14,9 +14,10 @@ sha1sum = "c555e55f850dc3901851ed1275555b7563b006b8"
 depends = "['glib2>=2.60.0', 'graphviz', 'libffi>=3.2.1-2']"
 reverse_depends = "['libproxy-vala', 'libsecret-vala']"
 +++
+### Description: 
 Vala is a prgramming language that aims to bring modern programming language features to GNOME developers
 
-## Files: 
+### Files: 
 * /usr/bin/vala
 * /usr/bin/vala-0.56
 * /usr/bin/vala-gen-introspect

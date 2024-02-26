@@ -14,9 +14,10 @@ sha1sum = "c37c65b9e46f4f471c6976ade939762449fb452e"
 depends = "['glibc']"
 reverse_depends = "['libgfortran']"
 +++
+### Description: 
 Quadruple Precision Math library from GCC
 
-## Files: 
+### Files: 
 * /usr/lib/libquadmath.a
 * /usr/lib/libquadmath.so
 * /usr/lib/libquadmath.so.0

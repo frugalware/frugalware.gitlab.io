@@ -13,7 +13,8 @@ usize = "26544"
 sha1sum = "a770e08a3f8832b0c773ec88852e35f335300ea0"
 depends = "['a52dec>=0.7.4-6', 'gst1-plugins-base>=1.22.10', 'gst1-plugins-ugly>=1.22.10', 'libffi>=3.2.1-2']"
 +++
+### Description: 
 GStreamer a52dec plugin (Ugly).
 
-## Files: 
+### Files: 
 * /usr/lib/gstreamer-1.0/libgsta52dec.so

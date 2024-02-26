@@ -13,7 +13,8 @@ usize = "14024"
 sha1sum = "1db9da7191e09caa37203ccff03135f8d659b031"
 depends = "['libmpcdec', 'libvlc>=3.0.20']"
 +++
+### Description: 
 vlc musepack support
 
-## Files: 
+### Files: 
 * /usr/lib/vlc/plugins/demux/libmpc_plugin.so

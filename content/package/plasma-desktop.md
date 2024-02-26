@@ -13,9 +13,10 @@ usize = "32855496"
 sha1sum = "c080c299e015cae7c2789439d219c23af176e40c"
 depends = "['hack', 'kactivities-stats>=5.115.0', 'kactivitymanagerd>=5.27.10', 'kauth>=5.115.0', 'kcmutils>=5.115.0', 'kdelibs4support>=5.115.0', 'kemoticons>=5.115.0', 'knewstuff>=5.115.0', 'knotifyconfig>=5.115.0', 'kpeople5>=5.115.0', 'krunner5>=5.115.0', 'libcanberra>=0.30-14', 'libxft>=2.3.2-2', 'libxkbfile>=1.0.9-3', 'packagekit-qt5>=1.0.1', 'plasma-framework>=5.115.0', 'plasma-workspace>=5.27.10', 'qqc2-desktop-style>=5.115.0', 'qt5-graphicaleffects>=5.15.12', 'qt5-quickcontrols>=5.15.12', 'setxkbmap']"
 +++
+### Description: 
 KDE Plasma Desktop.
 
-## Files: 
+### Files: 
 * /etc/xdg/autostart/kaccess.desktop
 * /usr/bin/kaccess
 * /usr/bin/kapplymousetheme

@@ -13,9 +13,10 @@ usize = "7458179"
 sha1sum = "2034c1ef564d4e926a05f9d8b56049574e2bdd40"
 depends = "['glib2>=2.70', 'libssh2>=1.8.0-4', 'slang>=2.3.1a-5']"
 +++
+### Description: 
 The GNU Midnight Commander is a CLI-based file manager
 
-## Files: 
+### Files: 
 * /etc/mc/edit.indent.rc
 * /etc/mc/filehighlight.ini
 * /etc/mc/mc.default.keymap

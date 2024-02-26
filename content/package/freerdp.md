@@ -14,9 +14,10 @@ sha1sum = "b2c3d109ed33081dc0e6af9e2fb8c0d299124223"
 depends = "['ffmpeg', 'fuse3', 'libcups', 'libkrb5', 'libkrb5', 'libxcursor', 'libxdamage', 'libxinerama', 'libxkbcommon', 'libxkbfile', 'libxrandr', 'sdl2_ttf']"
 reverse_depends = "['krdc', 'remmina-rdp']"
 +++
+### Description: 
 Remote Desktop Protocol cliente
 
-## Files: 
+### Files: 
 * /usr/bin/freerdp-proxy
 * /usr/bin/freerdp-shadow-cli
 * /usr/bin/sdl-freerdp

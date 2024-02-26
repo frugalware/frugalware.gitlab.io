@@ -14,9 +14,10 @@ sha1sum = "c0343a21efde87c4e392fe4e690f9607b93f6425"
 depends = "['xorg-server>=1.20.4-3']"
 license = "GPL2"
 +++
+### Description: 
 X.Org driver for penmount input devices
 
-## Files: 
+### Files: 
 * /usr/lib/xorg/modules/input/penmount_drv.so
 * /usr/share/doc/xf86-input-penmount-1.5.0/ChangeLog
 * /usr/share/doc/xf86-input-penmount-1.5.0/COPYING

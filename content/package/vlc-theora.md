@@ -13,7 +13,8 @@ usize = "22296"
 sha1sum = "60b99f80084163bd1faab6973ea62c8664626525"
 depends = "['libtheora', 'libvlc>=3.0.20']"
 +++
+### Description: 
 vlc theora support
 
-## Files: 
+### Files: 
 * /usr/lib/vlc/plugins/codec/libtheora_plugin.so

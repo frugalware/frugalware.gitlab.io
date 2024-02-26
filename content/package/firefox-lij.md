@@ -14,7 +14,8 @@ sha1sum = "dda4c78e3d885f754013ee765a2a3b8a9185fe54"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Ligurian language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-lij@firefox.mozilla.org.xpi

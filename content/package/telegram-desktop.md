@@ -13,9 +13,10 @@ usize = "86366188"
 sha1sum = "23336704024bf01c4a2c6f54f7b4c1e56ade5525"
 depends = "['abseil-cpp>=20230125', 'ffmpeg>=6.0', 'fmtlib', 'glib2', 'glibmm', 'hicolor-icon-theme', 'hunspell', 'jemalloc', 'libboost', 'libdispatch', 'libsigc++3', 'libxrandr', 'libxtst', 'lz4', 'openal', 'openssl', 'opus', 'pipewire', 'protobuf>=25.3', 'qt6-5compat>=6.6.2', 'qt6-imageformats>=6.6.2', 'qt6-svg>=6.6.2', 'qt6-wayland>=6.6.2', 'rnnoise', 'webkit-gtk3', 'xxhash']"
 +++
+### Description: 
 Official Telegram Desktop client
 
-## Files: 
+### Files: 
 * /usr/bin/telegram-desktop
 * /usr/share/applications/org.telegram.desktop.desktop
 * /usr/share/dbus-1/services/org.telegram.desktop.service

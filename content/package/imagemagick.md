@@ -14,9 +14,10 @@ sha1sum = "31d2aefdcc620bc4d158b77edada8de1d443fd03"
 depends = "['djvulibre>=3.5.27-4', 'fftw>=3.3.4-4', 'lcms2>=2.8-2', 'libgomp>=9.1.0-3', 'libheif', 'libjpeg-turbo', 'libraw>=0.21.1', 'librsvg>=2.40.16-3', 'libstdc++>=11.2', 'libtiff>=4.0.6-2', 'libtool>=2.4.6-4', 'libwebp>=0.5.0', 'openexr>=3.2.0', 'openjpeg', 'perl']"
 reverse_depends = "['darktable', 'digikam', 'emacs', 'kitty', 'libvips', 'polychromatic', 'xine-lib']"
 +++
+### Description: 
 A robust collection of tools and libraries to read, write and manipulate image files.
 
-## Files: 
+### Files: 
 * /etc/ImageMagick-7/colors.xml
 * /etc/ImageMagick-7/delegates.xml
 * /etc/ImageMagick-7/log.xml

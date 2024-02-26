@@ -13,9 +13,10 @@ usize = "4582263"
 sha1sum = "d3dc2688c8c7bbf10000c4abd88021df24608750"
 depends = "['eventviews', 'kirigami-addons', 'mailcommon', 'qqc2-desktop-style']"
 +++
+### Description: 
 A calendar application using Akonadi to sync with external services
 
-## Files: 
+### Files: 
 * /usr/bin/merkuro-calendar
 * /usr/bin/merkuro-contact
 * /usr/bin/merkuro-mail

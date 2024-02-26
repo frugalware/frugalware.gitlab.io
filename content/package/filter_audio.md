@@ -14,9 +14,10 @@ sha1sum = "9e73ecd115a10b9db43179a0469ae8d2d47ac49e"
 depends = "['openal>=1.17.2-2']"
 reverse_depends = "['qtox', 'utox']"
 +++
+### Description: 
 An easy to use audio filtering library made from webrtc code.
 
-## Files: 
+### Files: 
 * /usr/include/filter_audio.h
 * /usr/lib/libfilteraudio.so
 * /usr/lib/libfilteraudio.so.0

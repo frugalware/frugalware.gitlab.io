@@ -13,9 +13,10 @@ usize = "872985"
 sha1sum = "2bf11b888ceabfaa02a7cdcfe3896112c0781a08"
 depends = "['kirigami2', 'kquickimageeditor', 'ksanecore', 'libgomp', 'purpose', 'tesseract-ocr']"
 +++
+### Description: 
 Utility to scan images and multi-page documents
 
-## Files: 
+### Files: 
 * /usr/bin/skanpage
 * /usr/share/applications/org.kde.skanpage.desktop
 * /usr/share/doc/skanpage-23.08.5/README.md

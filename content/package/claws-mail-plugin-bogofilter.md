@@ -13,7 +13,8 @@ usize = "39416"
 sha1sum = "e0248fd5a8a8309712e80c873cc8fe1aa6d3c0a5"
 depends = "['claws-mail=4.1.1']"
 +++
+### Description: 
 Enables the scanning of incoming mail received from a POP, IMAP, or LOCAL account using Bogofilter.
 
-## Files: 
+### Files: 
 * /usr/lib/claws-mail/plugins/bogofilter.so

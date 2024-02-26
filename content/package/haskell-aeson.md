@@ -14,9 +14,10 @@ sha1sum = "6fd8b8bb695addfac8d635c27d66ec2e5830f998"
 depends = "['haskell-data-fix', 'haskell-dlist', 'haskell-generically', 'haskell-network-uri', 'haskell-quickcheck', 'haskell-scientific', 'haskell-semialign', 'haskell-strict', 'haskell-text-iso8601', 'haskell-text-short', 'haskell-uuid-types', 'haskell-witherable']"
 reverse_depends = "['haskell-aeson-pretty', 'haskell-attoparsec-aeson', 'haskell-doctemplates', 'haskell-hslua-aeson', 'haskell-ipynb', 'haskell-pandoc-types', 'haskell-skylighting-core', 'haskell-wai-extra', 'haskell-yaml', 'shellcheck']"
 +++
+### Description: 
 Fast JSON parsing and encoding
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/aeson-2.2.1.0/Data/Aeson.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/aeson-2.2.1.0/Data/Aeson.hi
 * /usr/lib/ghc-9.8.1/site-local/aeson-2.2.1.0/Data/Aeson/Decoding.dyn_hi

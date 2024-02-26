@@ -13,9 +13,10 @@ usize = "48760226"
 sha1sum = "b8a5e6aa384b88e5d7eabb17f15d84ca809b6d8b"
 depends = "['lib32-elfutils>=0.167-3', 'lib32-expat>=2.1.0-6', 'lib32-libdrm>=2.4.70', 'lib32-libffi>=3.2.1-2', 'lib32-llvm-libs>=17.0.6', 'lib32-lmsensors>=3.5.0', 'lib32-zstd']"
 +++
+### Description: 
 Mesa Support for DirectX 9 (32-bit)
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/d3dadapter/d3dadapter9.h
 * /usr/i686-frugalware-linux/include/d3dadapter/drm.h
 * /usr/i686-frugalware-linux/include/d3dadapter/present.h

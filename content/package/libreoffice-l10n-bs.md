@@ -13,9 +13,10 @@ usize = "31999419"
 sha1sum = "3a3c87d02fc3d769dc4aefd8b16534d47dc76e90"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Bosnian support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/help/bs/default.css
 * /usr/lib/libreoffice/help/bs/err.html
 * /usr/lib/libreoffice/help/bs/highcontrast1.css

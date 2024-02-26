@@ -13,9 +13,10 @@ usize = "936415"
 sha1sum = "2a53b67277c18a196b8fcc4cdf5cb31ea48d3324"
 depends = "['gst-python']"
 +++
+### Description: 
 Transmageddon is a video transcoder for Linux and Unix systems built using GStreamer.
 
-## Files: 
+### Files: 
 * /usr/bin/transmageddon
 * /usr/share/appdata/transmageddon.appdata.xml
 * /usr/share/applications/transmageddon.desktop

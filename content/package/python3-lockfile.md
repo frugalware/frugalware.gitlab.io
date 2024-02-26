@@ -14,9 +14,10 @@ sha1sum = "aae2d6af050e7824019cd5147b9102f064e71082"
 depends = "['python3']"
 reverse_depends = "['duplicity', 'python3-poetry']"
 +++
+### Description: 
 Platform-independent file locking module. The lockfile package exports a LockFile class which provides a simple API for locking files.
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/lockfile-0.12.2-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/lockfile-0.12.2-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/lockfile-0.12.2-py3.12.egg-info/pbr.json

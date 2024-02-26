@@ -13,8 +13,9 @@ usize = "715332"
 sha1sum = "e3ff3e6c9bd5f5719bcab0b20f44824eab63a9a6"
 depends = "['qt5-declarative>=5.15.12', 'qt5-websockets>=5.15.12']"
 +++
+### Description: 
 The Qt5 toolkit, qtwebglplugin
 
-## Files: 
+### Files: 
 * /usr/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake
 * /usr/lib/qt5/plugins/platforms/libqwebgl.so

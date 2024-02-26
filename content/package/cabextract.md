@@ -14,9 +14,10 @@ sha1sum = "54db5a3409b0ebc154405631e3f0dd9069404a75"
 depends = "['glibc']"
 reverse_depends = "['binwalk', 'wimlib', 'winetricks']"
 +++
+### Description: 
 a program to extract Microsoft Cabinet files
 
-## Files: 
+### Files: 
 * /usr/bin/cabextract
 * /usr/share/doc/cabextract-1.9.1/AUTHORS
 * /usr/share/doc/cabextract-1.9.1/ChangeLog

@@ -13,7 +13,8 @@ usize = "257794"
 sha1sum = "94603a1d93aa6c637f6f636132674f57cd6f050e"
 depends = "[]"
 +++
+### Description: 
 Static files for bzip2
 
-## Files: 
+### Files: 
 * /usr/lib/libbz2.a

@@ -14,9 +14,10 @@ sha1sum = "68763b648583f0cc7f02835b738892627334dfa0"
 depends = "['fontconfig', 'mkfontscale']"
 reverse_depends = "['plasma-desktop', 'plasma-integration', 'sddm']"
 +++
+### Description: 
 A hand groomed and optically balanced typeface based on Bitstream Vera Mono
 
-## Files: 
+### Files: 
 * /usr/share/doc/hack-3.003/FAQ.md
 * /usr/share/doc/hack-3.003/README.md
 * /usr/share/fonts/X11/TTF/Hack-Bold.ttf

@@ -13,9 +13,10 @@ usize = "4537765"
 sha1sum = "2a48ad434a8e0383b95e5fcd5245f3d2734e9ff8"
 depends = "['gtk+2>=2.24.29-2', 'libffi>=3.2.1', 'libpng>=1.6.20', 'ncurses>=6.0-6', 'openssl>=3.1.0', 'readline>=8.0']"
 +++
+### Description: 
 A multithreaded ftp client for X
 
-## Files: 
+### Files: 
 * /usr/bin/gftp
 * /usr/bin/gftp-gtk
 * /usr/bin/gftp-text

@@ -14,9 +14,10 @@ sha1sum = "50b6f340980d9396e2ddc83a24da10791efc0d90"
 depends = "['desktop-file-utils', 'ffmpeg4.4', 'libxv', 'openal', 'qt5-declarative>=5.15.10', 'qt5-quickcontrols>=5.15.10', 'qt5-svg>=5.15.10']"
 reverse_depends = "['digikam']"
 +++
+### Description: 
 A cross-platform multimedia playback framework based on Qt and FFmpeg
 
-## Files: 
+### Files: 
 * /usr/include/qt5/QtAV/5.15.11/QtAV/private/AudioOutputBackend.h
 * /usr/include/qt5/QtAV/5.15.11/QtAV/private/AudioResampler_p.h
 * /usr/include/qt5/QtAV/5.15.11/QtAV/private/AVCompat.h

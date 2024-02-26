@@ -15,9 +15,10 @@ depends = "['bash', 'clisp', 'glibc', 'ncurses>=6.0-3', 'readline>=8.0', 'tk']"
 reverse_depends = "['wxmaxima']"
 license = "GPL"
 +++
+### Description: 
 A sophisticated computer algebra system.
 
-## Files: 
+### Files: 
 * /usr/bin/maxima
 * /usr/bin/rmaxima
 * /usr/bin/xmaxima

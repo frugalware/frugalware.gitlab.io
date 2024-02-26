@@ -14,9 +14,10 @@ sha1sum = "69535b40f0084d1c72f164e37120e61ef312eeee"
 depends = "['aalib>=1.4rc5-8', 'dav1d>=1.3.0', 'ffmpeg>=6.0', 'flac>=1.4.0', 'imagemagick>=7.1.1', 'libdca>=0.0.5-4', 'libdvdnav>=6.1.0', 'libffi>=3.2.1', 'libglu>=9.0.0-2', 'libmad>=0.15.1b-9', 'libmng>=2.0.3-3', 'libmodplug>=0.8.8.5-2', 'libmpcdec>=1.2.6-3', 'libpng>=1.6.25', 'libva>=2.3', 'libvpx>=1.13.0', 'libxinerama>=1.1.3-2', 'libxvmc>=1.0.9-2', 'ocl-icd', 'sdl', 'vcdimager>=0.7.24-6', 'wavpack>=4.75.2-2']"
 reverse_depends = "['codeine', 'opencv', 'xine-ui']"
 +++
+### Description: 
 Xine multimedia playback engine libraries
 
-## Files: 
+### Files: 
 * /usr/bin/xine-config
 * /usr/bin/xine-list-1.2
 * /usr/include/xine.h

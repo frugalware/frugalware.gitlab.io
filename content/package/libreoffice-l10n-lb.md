@@ -13,9 +13,10 @@ usize = "946603"
 sha1sum = "f69d34652d9b1a5c966d43649f7da223536d5708"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Luxembourgish support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/lb/LC_MESSAGES/basctl.mo

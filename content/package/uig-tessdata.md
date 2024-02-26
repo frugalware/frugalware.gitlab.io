@@ -13,7 +13,8 @@ usize = "2794389"
 sha1sum = "ea1555e1bb45074c601803256d1a635ef00d9ae9"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang uig
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/uig.traineddata

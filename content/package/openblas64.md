@@ -14,9 +14,10 @@ sha1sum = "d0c98fed4e95283b516bbc801bf655ecd73540bd"
 depends = "['libgfortran']"
 reverse_depends = "['cantor', 'opencv-python3']"
 +++
+### Description: 
 An optimized BLAS library based on GotoBLAS2 1.13 BSD 64-bit
 
-## Files: 
+### Files: 
 * /usr/include/openblas64/cblas.h
 * /usr/include/openblas64/f77blas.h
 * /usr/include/openblas64/lapack.h

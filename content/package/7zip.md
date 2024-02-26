@@ -14,9 +14,10 @@ sha1sum = "d0438093f00b3861265bfe7d4c05665c4ef57440"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['binwalk', 'element', 'julia']"
 +++
+### Description: 
 7-Zip is a file archiver with high compression ratio.
 
-## Files: 
+### Files: 
 * /usr/bin/7z
 * /usr/bin/7za
 * /usr/bin/7zCon.sfx

@@ -14,9 +14,10 @@ sha1sum = "3e268774c485a22007dfb38230fe46da7a74db11"
 depends = "['imlib2>=1.4.7-4', 'libstdc++>=11.2', 'ncurses>=6.1', 'python3>=3.11', 'slang>=2.3.0-4']"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-good-caca', 'vlc-caca']"
 +++
+### Description: 
 A graphics library that outputs text instead of pixels.
 
-## Files: 
+### Files: 
 * /usr/bin/caca-config
 * /usr/bin/cacaclock
 * /usr/bin/cacademo

@@ -14,9 +14,10 @@ sha1sum = "bb3b79938185cab9dec54192fa2837140b5b6e8e"
 depends = "['kmod', 'sed']"
 reverse_depends = "['kernel-lts-initrd']"
 +++
+### Description: 
 The Linux Kernel and modules (lts version)
 
-## Files: 
+### Files: 
 * /boot/config-6.1.79-lts-fw1
 * /boot/System.map-6.1.79-lts-fw1
 * /boot/vmlinuz-6.1.79-lts-fw1

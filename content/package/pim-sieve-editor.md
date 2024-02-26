@@ -13,9 +13,10 @@ usize = "1324764"
 sha1sum = "118a9a5730918ef6c6f9c4b32923d8f4a0479e81"
 depends = "['libksieve>=23.08.5', 'messagelib>=23.08.5']"
 +++
+### Description: 
 Assistant for editing IMAP Sieve filters
 
-## Files: 
+### Files: 
 * /usr/bin/sieveeditor
 * /usr/lib/libsieveeditor.so.5
 * /usr/lib/libsieveeditor.so.5.24.5

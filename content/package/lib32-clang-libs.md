@@ -14,9 +14,10 @@ sha1sum = "139bb679f13049b8137179faaeb25bd59a450100"
 depends = "['lib32-libffi>=3.4', 'lib32-libxml2', 'lib32-llvm-libs>=17.0.6']"
 reverse_depends = "['lib32-clang']"
 +++
+### Description: 
 C/C++ language family frontend for LLVM Libs (32-bit)
 
-## Files: 
+### Files: 
 * /usr/lib32/libclang-cpp.so
 * /usr/lib32/libclang-cpp.so.17
 * /usr/lib32/libclang.so

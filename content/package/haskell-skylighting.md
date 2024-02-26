@@ -14,9 +14,10 @@ sha1sum = "10b842a10335bb234f71ea0a5f5397c43ccbe8fc"
 depends = "['haskell-skylighting-format-ansi', 'haskell-skylighting-format-blaze-html', 'haskell-skylighting-format-context', 'haskell-skylighting-format-latex']"
 reverse_depends = "['pandoc']"
 +++
+### Description: 
 syntax highlighting library
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/skylighting-0.14.1/libHSskylighting-0.14.1-AOHsFPzcofdD2r0qbJ3f6u.a
 * /usr/lib/ghc-9.8.1/site-local/skylighting-0.14.1/Skylighting.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/skylighting-0.14.1/Skylighting.hi

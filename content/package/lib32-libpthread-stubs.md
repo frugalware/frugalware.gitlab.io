@@ -14,7 +14,8 @@ sha1sum = "bb22ff82ad318ccc64b76c41b83211e64e9d1237"
 depends = "[]"
 reverse_depends = "['lib32-xcb-proto']"
 +++
+### Description: 
 X.org Stubs missing from libc for standard pthread functions ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/lib32/pkgconfig/pthread-stubs.pc

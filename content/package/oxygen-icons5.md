@@ -14,9 +14,10 @@ sha1sum = "662c6badf10504401874a20dccd7185f65d4b061"
 depends = "[]"
 reverse_depends = "['lumina-desktop']"
 +++
+### Description: 
 KDE Icons Oxygen style.
 
-## Files: 
+### Files: 
 * /usr/share/doc/oxygen-icons5-5.115.0/AUTHORS
 * /usr/share/doc/oxygen-icons5-5.115.0/COPYING
 * /usr/share/doc/oxygen-icons5-5.115.0/COPYING.LIB

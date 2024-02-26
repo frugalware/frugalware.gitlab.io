@@ -13,9 +13,10 @@ usize = "9113930"
 sha1sum = "8c07fb650a3dafcb2d67ce3d6c0718325031113c"
 depends = "['libstdc++', 'zlib>=1.2.12']"
 +++
+### Description: 
 Folding@Home is a distributed computing project which studies protein folding, misfolding, aggregation, and related diseases.
 
-## Files: 
+### Files: 
 * /opt/fah/FAHClient
 * /opt/fah/FAHCoreWrapper
 * /opt/fah/sample-config.xml

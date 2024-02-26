@@ -14,9 +14,10 @@ sha1sum = "40a939271cdcd8fcf8e6fc66d34b87005e71de1f"
 depends = "['glib2', 'libgudev', 'polkit', 'systemd']"
 reverse_depends = "['qt5-sensors', 'qt6-sensors']"
 +++
+### Description: 
 IIO accelerometer sensor to input device proxy
 
-## Files: 
+### Files: 
 * /usr/bin/monitor-sensor
 * /usr/lib/iio-sensor-proxy/iio-sensor-proxy
 * /usr/lib/systemd/system/iio-sensor-proxy.service

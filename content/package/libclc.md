@@ -14,9 +14,10 @@ sha1sum = "249ec09b1c939ce4465788d1685bc48b8c1eff6a"
 depends = "['glibc']"
 reverse_depends = "['lib32-opencl-clover', 'opencl-clover', 'opencl-rusticl']"
 +++
+### Description: 
 Library requirements of the OpenCL C programming language
 
-## Files: 
+### Files: 
 * /usr/include/clc/async/async_work_group_copy.h
 * /usr/include/clc/async/async_work_group_copy.inc
 * /usr/include/clc/async/async_work_group_strided_copy.h

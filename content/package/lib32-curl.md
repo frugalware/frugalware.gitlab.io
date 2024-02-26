@@ -14,9 +14,10 @@ sha1sum = "5f39a342440ee888cf861bf00ba82c08e83b0a6f"
 depends = "['lib32-brotli', 'lib32-libpsl', 'lib32-openssl', 'lib32-zlib', 'lib32-zstd']"
 reverse_depends = "['lib32-elfutils-debuginfod', 'lib32-libcurl-gnutls', 'lib32-libmicrohttpd', 'lib32-networkmanager', 'steam-native']"
 +++
+### Description: 
 A command line tool for transferring data specified with URL syntax. ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/curl
 * /usr/i686-frugalware-linux/bin/curl-config
 * /usr/i686-frugalware-linux/include/curl/curl.h

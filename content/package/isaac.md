@@ -13,9 +13,10 @@ usize = "12736"
 sha1sum = "72bd1cbe95a475c1f32d324be5d46fa36c9b7e42"
 depends = "['ruby>=2.5.0']"
 +++
+### Description: 
 A smallish DSL for writing IRC bots.
 
-## Files: 
+### Files: 
 * /usr/lib/ruby/2.5.0/isaac.rb
 * /usr/lib/ruby/2.5.0/isaac/bot.rb
 * /usr/share/doc/isaac-0.2.6/CHANGES

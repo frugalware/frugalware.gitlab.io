@@ -14,9 +14,10 @@ sha1sum = "1ed0b26df363697fb1bebf207ac33fe06a1e1c16"
 depends = "['karchive>=5.115.0', 'kservice>=5.115.0']"
 reverse_depends = "['kdelibs4support', 'konversation', 'kopete', 'kpimtextedit', 'plasma-desktop', 'systemsettings5']"
 +++
+### Description: 
 Convert text emoticons to graphical emoticons.
 
-## Files: 
+### Files: 
 * /usr/include/KF5/KEmoticons/KEmoticons
 * /usr/include/KF5/KEmoticons/kemoticons.h
 * /usr/include/KF5/KEmoticons/KEmoticonsProvider

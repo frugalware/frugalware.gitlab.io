@@ -14,9 +14,10 @@ sha1sum = "d3e1bb5626b632436d828872eb384d0045b0c91c"
 depends = "['python3']"
 reverse_depends = "['python3-trio']"
 +++
+### Description: 
 Sniff out which async library your code is running under
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/sniffio-1.3.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/sniffio-1.3.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/sniffio-1.3.0-py3.12.egg-info/SOURCES.txt

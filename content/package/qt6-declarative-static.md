@@ -13,9 +13,10 @@ usize = "140489664"
 sha1sum = "126784696164c8fbef9c0b33211515e1accdfa41"
 depends = "['libstdc++>=11.3']"
 +++
+### Description: 
 Qt6 declarative static libs.
 
-## Files: 
+### Files: 
 * /usr/lib/libQt6PacketProtocol.a
 * /usr/lib/libQt6QmlDebug.a
 * /usr/lib/libQt6QmlDom.a

@@ -14,9 +14,10 @@ sha1sum = "51ca8a38f650f5a37488907f845e64d8f260165b"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['m17n-lib']"
 +++
+### Description: 
 Free and secure Japanese conversion engine.
 
-## Files: 
+### Files: 
 * /etc/anthy-conf
 * /usr/bin/anthy-agent
 * /usr/bin/anthy-dic-tool

@@ -13,9 +13,10 @@ usize = "44292"
 sha1sum = "12e6bce8403477b65126553290c3fe83af57ff55"
 depends = "[]"
 +++
+### Description: 
 Frugalware Versatile Bootable Environment
 
-## Files: 
+### Files: 
 * /usr/share/doc/fvbe-0.7/LICENSE
 * /usr/share/doc/fvbe-0.7/README
 * /usr/share/doc/fvbe-0.7/TODO

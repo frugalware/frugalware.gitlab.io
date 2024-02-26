@@ -13,9 +13,10 @@ usize = "5869018"
 sha1sum = "b6d7875d74b27f65b8de2ee6240bd1c496d97ccb"
 depends = "['python3>=3.10', 'python3-astroid', 'python3-isort', 'python3-mccabe']"
 +++
+### Description: 
 Python code checker.
 
-## Files: 
+### Files: 
 * /usr/bin/epylint
 * /usr/bin/pylint
 * /usr/bin/pylint-config

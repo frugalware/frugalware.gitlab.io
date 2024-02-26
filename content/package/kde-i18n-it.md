@@ -13,9 +13,10 @@ usize = "31864514"
 sha1sum = "7c7465e4de81f0af60326c007149fbccf2641f29"
 depends = "[]"
 +++
+### Description: 
 Italian Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/apps/kanagram/data/it/animali.kvtml
 * usr/share/apps/kanagram/data/it/capitalidelmondo.kvtml
 * usr/share/apps/kanagram/data/it/computer.kvtml

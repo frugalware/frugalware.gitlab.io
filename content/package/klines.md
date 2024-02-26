@@ -13,9 +13,10 @@ usize = "7538290"
 sha1sum = "ed9934555dcd844fabca93ecf03a7accbb614cd7"
 depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5']"
 +++
+### Description: 
 A simple but highly addictive, one player game.
 
-## Files: 
+### Files: 
 * /usr/bin/klines
 * /usr/share/applications/org.kde.klines.desktop
 * /usr/share/config.kcfg/klines.kcfg

@@ -13,9 +13,10 @@ usize = "28235718"
 sha1sum = "b865685658d55a1d8eb7a3f3f47330cd9b75e7c5"
 depends = "[]"
 +++
+### Description: 
 Compiler runtime libraries for clang (static)
 
-## Files: 
+### Files: 
 * /usr/lib/llvm15/lib/clang/15.0.7/lib/x86_64-frugalware-linux/libclang_rt.asan-preinit.a
 * /usr/lib/llvm15/lib/clang/15.0.7/lib/x86_64-frugalware-linux/libclang_rt.asan.a
 * /usr/lib/llvm15/lib/clang/15.0.7/lib/x86_64-frugalware-linux/libclang_rt.asan_cxx.a

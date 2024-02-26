@@ -14,9 +14,10 @@ sha1sum = "3607278ebc3ad773ba658c85b345a605f8523a06"
 depends = "['cups', 'polkit']"
 reverse_depends = "['system-config-printer']"
 +++
+### Description: 
 A helper that makes system-config-printer use PolicyKit
 
-## Files: 
+### Files: 
 * /usr/lib/cups-pk-helper/cups-pk-helper-mechanism
 * /usr/share/dbus-1/system-services/org.opensuse.CupsPkHelper.Mechanism.service
 * /usr/share/dbus-1/system.d/org.opensuse.CupsPkHelper.Mechanism.conf

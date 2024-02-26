@@ -14,9 +14,10 @@ sha1sum = "15402e35545cafb9763094fcc4f62d7da369464c"
 depends = "[]"
 reverse_depends = "['lib32-ffmpeg']"
 +++
+### Description: 
 ISO AAC audio decoder ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/faad
 * /usr/i686-frugalware-linux/include/faad.h
 * /usr/i686-frugalware-linux/include/neaacdec.h

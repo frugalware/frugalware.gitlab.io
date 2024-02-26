@@ -14,9 +14,10 @@ sha1sum = "9ef746956908b319357c2a6b671002ca5842db3d"
 depends = "['glibc>=2.34']"
 reverse_depends = "['fontforge']"
 +++
+### Description: 
 Simplifies the drawing of beautiful curves
 
-## Files: 
+### Files: 
 * /usr/include/bezctx.h
 * /usr/include/spiro.h
 * /usr/include/spiroentrypoints.h

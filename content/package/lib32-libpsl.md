@@ -14,9 +14,10 @@ sha1sum = "be3dcf23a6da56553e0147adf0b9b6a02a88d7f1"
 depends = "['lib32-libidn2>=2.0.0-11']"
 reverse_depends = "['lib32-curl', 'lib32-libcurl-gnutls', 'lib32-networkmanager']"
 +++
+### Description: 
 Public Suffix List library ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/psl
 * /usr/i686-frugalware-linux/bin/psl-make-dafsa
 * /usr/i686-frugalware-linux/include/libpsl.h

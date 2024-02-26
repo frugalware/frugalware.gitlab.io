@@ -13,9 +13,10 @@ usize = "44236"
 sha1sum = "866fa821b483f372051942eea9f1274b84c5beb5"
 depends = "['python3-hatchling', 'python3-setuptools_scm']"
 +++
+### Description: 
 Hatch plugin for versioning with your preferred VCS
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/hatch_vcs-0.4.0.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/hatch_vcs-0.4.0.dist-info/licenses/LICENSE.txt
 * /usr/lib/python3.12/site-packages/hatch_vcs-0.4.0.dist-info/METADATA

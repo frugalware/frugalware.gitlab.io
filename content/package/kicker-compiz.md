@@ -13,9 +13,10 @@ usize = "329751"
 sha1sum = "1839276ce4210043dac9c27a51813d132589c089"
 depends = "[]"
 +++
+### Description: 
 Modified pager applet for kicker to make it work with compiz.
 
-## Files: 
+### Files: 
 * usr/lib/kde3/compizpager_panelapplet.la
 * usr/lib/kde3/compizpager_panelapplet.so
 * usr/share/apps/kicker/applets/compizpagerapplet.desktop

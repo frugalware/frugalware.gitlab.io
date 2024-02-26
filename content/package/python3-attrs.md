@@ -14,9 +14,10 @@ sha1sum = "96a7a31c95efe4c7f3cf2e1efea1789cae46a3cd"
 depends = "['python3>=3.11']"
 reverse_depends = "['python3-jsonschema', 'python3-outcome', 'python3-trio', 'python3-twisted']"
 +++
+### Description: 
 Attributes without boilerplate.
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/attr/converters.py
 * /usr/lib/python3.12/site-packages/attr/converters.pyi
 * /usr/lib/python3.12/site-packages/attr/exceptions.py

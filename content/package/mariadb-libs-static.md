@@ -13,9 +13,10 @@ usize = "316159981"
 sha1sum = "2d102ef294e0fcb553e324db97d9a22322e4804b"
 depends = "[]"
 +++
+### Description: 
 Static files for mariadb
 
-## Files: 
+### Files: 
 * /usr/lib/libmariadb.a
 * /usr/lib/libmariadbclient.a
 * /usr/lib/libmariadbd.a

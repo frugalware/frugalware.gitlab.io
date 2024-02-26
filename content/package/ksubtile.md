@@ -13,9 +13,10 @@ usize = "612529"
 sha1sum = "991fb7572a133343408fff7cb805a4e1898e6f68"
 depends = "['libgl', 'libpng', 'libsm', 'libstdc++', 'libxcursor', 'libxdamage', 'libxft', 'libxi', 'libxinerama', 'libxmu', 'libxrandr', 'mplayer', 'xfsprogs-attr']"
 +++
+### Description: 
 KSubtile is a KDE program (C++) which provides an easy to use interface to edit subtitles in the SRT format
 
-## Files: 
+### Files: 
 * usr/bin/ksubtile
 * usr/share/applnk/Editors/ksubtile.desktop
 * usr/share/apps/ksubtile/ksubtileui.rc

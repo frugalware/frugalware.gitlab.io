@@ -13,6 +13,7 @@ usize = "0"
 sha1sum = "222236c420f260d519f68e873d5155bf221cceb3"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs nlpsolver support in LibreOffice
 
-## Files: 
+### Files: 

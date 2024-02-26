@@ -14,9 +14,10 @@ sha1sum = "833712830b221e1703cf9cac3a7694af9380d273"
 depends = "['libstdc++']"
 reverse_depends = "['hk_classes-xbase']"
 +++
+### Description: 
 Set of GUI C++ libraries which allow the development of database applications.
 
-## Files: 
+### Files: 
 * usr/bin/hk_actionquery
 * usr/bin/hk_dbcopy
 * usr/bin/hk_exportcsv

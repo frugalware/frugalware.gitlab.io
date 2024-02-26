@@ -13,9 +13,10 @@ usize = "548325"
 sha1sum = "2382cd105036c88f360545a5adaea937a0dc28b9"
 depends = "['libnl', 'ncurses>=6.0-3']"
 +++
+### Description: 
 A tool that helps you find what software is using the most power.
 
-## Files: 
+### Files: 
 * /usr/bin/powertop
 * /usr/share/bash-completion/completions/powertop
 * /usr/share/doc/powertop-2.15/COPYING

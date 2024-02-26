@@ -14,7 +14,8 @@ sha1sum = "e2bfb1b97849b615d17f7052c6584fcac54267cf"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 German language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-de@firefox.mozilla.org.xpi

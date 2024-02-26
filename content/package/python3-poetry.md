@@ -13,9 +13,10 @@ usize = "2639759"
 sha1sum = "b81b40f47ea96c57ef369d8bbc27a41c1356a614"
 depends = "['html5lib-python', 'pexpect', 'python3-build', 'python3-cachecontrol', 'python3-cachy', 'python3-cleo', 'python3-crashtest', 'python3-dulwich', 'python3-fastjsonschema', 'python3-filelock', 'python3-installer', 'python3-keyring', 'python3-lockfile', 'python3-packaging', 'python3-pkginfo', 'python3-platformdirs', 'python3-poetry-core', 'python3-poetry-plugin-export', 'python3-pyproject-hooks', 'python3-requests-toolbelt', 'python3-shellingham', 'python3-tomlkit', 'python3-trove-classifiers', 'python3-urllib3', 'python3-virtualenv']"
 +++
+### Description: 
 Python dependency management and packaging made easy
 
-## Files: 
+### Files: 
 * /usr/bin/poetry
 * /usr/lib/python3.12/site-packages/poetry-1.7.1.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/poetry-1.7.1.dist-info/LICENSE

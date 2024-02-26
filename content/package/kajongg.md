@@ -13,9 +13,10 @@ usize = "10659717"
 sha1sum = "436f0eb06fe12e77eadd95909e22404fec8f0a9d"
 depends = "['libkmahjongg>=23.08.5', 'python3-twisted']"
 +++
+### Description: 
 KDE Mahjongg game.
 
-## Files: 
+### Files: 
 * /usr/bin/kajongg
 * /usr/bin/kajonggserver
 * /usr/share/applications/org.kde.kajongg.desktop

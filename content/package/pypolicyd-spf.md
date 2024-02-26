@@ -13,9 +13,10 @@ usize = "135724"
 sha1sum = "c13766c18f7e50d11d82637308f51401c31f6cc8"
 depends = "['py3dns', 'pyspf', 'python3>=3.8.3']"
 +++
+### Description: 
 Python-based policy daemon for Postfix SPF verification.
 
-## Files: 
+### Files: 
 * /etc/python-policyd-spf/policyd-spf.conf
 * /usr/bin/policyd-spf
 * /usr/lib/python3.12/site-packages/policydspfsupp.py

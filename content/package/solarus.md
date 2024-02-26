@@ -14,9 +14,10 @@ sha1sum = "402a4ebbdb604d1d74558d0a0b07d5d42e90fdd3"
 depends = "['glm', 'libmodplug', 'libogg', 'libvorbis', 'luajit2', 'openal', 'physfs', 'qt5-base>=5.15.10', 'sdl2', 'sdl2_image', 'sdl2_ttf']"
 reverse_depends = "['solarus-zsdx', 'solarus-zsxd']"
 +++
+### Description: 
 Solarus is an open-source Zelda-like game engine written in C++.
 
-## Files: 
+### Files: 
 * /usr/bin/solarus-launcher
 * /usr/bin/solarus-run
 * /usr/include/solarus/audio/ItDecoder.h

@@ -13,9 +13,10 @@ usize = "1252339"
 sha1sum = "d5368e834e69b00297a34d97e9b10458cb2e78c8"
 depends = "['c-ares>=1.7.5', 'libtorrent>=0.13.8', 'ncurses>=6.0-3', 'openssl', 'xmlrpc-c>=1.51.03']"
 +++
+### Description: 
 The ncurses client for libtorrent.
 
-## Files: 
+### Files: 
 * /usr/bin/rtorrent
 * /usr/share/doc/rtorrent-0.9.8/AUTHORS
 * /usr/share/doc/rtorrent-0.9.8/COPYING

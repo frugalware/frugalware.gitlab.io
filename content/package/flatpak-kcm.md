@@ -13,9 +13,10 @@ usize = "311143"
 sha1sum = "953415b806fd925971238c14ad4ad0a11b69cb61"
 depends = "['flatpak', 'systemsettings5>=5.27.10']"
 +++
+### Description: 
 Flatpak Permissions Management KCM
 
-## Files: 
+### Files: 
 * /usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_flatpak.so
 * /usr/share/applications/kcm_flatpak.desktop
 * /usr/share/doc/flatpak-kcm-5.27.10/README.md

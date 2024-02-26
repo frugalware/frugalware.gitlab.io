@@ -13,9 +13,10 @@ usize = "10536364"
 sha1sum = "c91f3a9400943dbf8eca133c4dbab7e4de2948ee"
 depends = "['libstdc++', 'sdl2', 'zlib>=1.2.12']"
 +++
+### Description: 
 A multi-platform Atari 2600 VCS emulator
 
-## Files: 
+### Files: 
 * /usr/bin/stella
 * /usr/share/applications/stella.desktop
 * /usr/share/doc/stella-6.7/AUTHORS

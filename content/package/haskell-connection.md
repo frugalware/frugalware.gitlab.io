@@ -13,9 +13,10 @@ usize = "850161"
 sha1sum = "0a9ce4dd73e5810074a698248d2771078b4d2cf0"
 depends = "['haskell-crypton-x509-system', 'haskell-crypton-x509-validation', 'haskell-socks', 'haskell-tls']"
 +++
+### Description: 
 Simple and easy network connections API
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/connection-0.3.1/libHSconnection-0.3.1-7cW3adDaWeVHtzc2kKLdtO.a
 * /usr/lib/ghc-9.8.1/site-local/connection-0.3.1/Network/Connection.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/connection-0.3.1/Network/Connection.hi

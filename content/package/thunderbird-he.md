@@ -14,7 +14,8 @@ sha1sum = "3d5eb4bd9cd589ee653df0b5c2649ed89313ab77"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
+### Description: 
 Hebrew language support for Thunderbird
 
-## Files: 
+### Files: 
 * /usr/lib/thunderbird/extensions/langpack-he@thunderbird.mozilla.org.xpi

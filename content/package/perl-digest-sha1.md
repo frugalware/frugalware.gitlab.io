@@ -14,9 +14,10 @@ sha1sum = "57d50f2d87fde94fe060d88dab1b9807000a15e5"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-mail-dkim', 'spamassassin']"
 +++
+### Description: 
 Perl interface to the SHA-1 algorithm
 
-## Files: 
+### Files: 
 * /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/Digest/SHA1/SHA1.so
 * /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Digest/SHA1.pm
 * /usr/share/doc/perl-digest-sha1-2.13/MANIFEST

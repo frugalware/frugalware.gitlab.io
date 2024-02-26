@@ -14,9 +14,10 @@ sha1sum = "d940ef861ffa9875c09ad4bfe9581d4b3b645ba5"
 depends = "['glib2>=2.60.3']"
 reverse_depends = "['neovim']"
 +++
+### Description: 
 A terminal emulator library for VT100 and rxvt.
 
-## Files: 
+### Files: 
 * /usr/bin/unterm
 * /usr/bin/vterm-ctrl
 * /usr/bin/vterm-dump

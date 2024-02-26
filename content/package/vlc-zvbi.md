@@ -13,8 +13,9 @@ usize = "60896"
 sha1sum = "63bf7590da26e174777ded3b42f6eeac7780dacd"
 depends = "['libvlc>=3.0.20', 'zvbi']"
 +++
+### Description: 
 vlc plugin for zvbi
 
-## Files: 
+### Files: 
 * /usr/lib/vlc/plugins/access/liblinsys_sdi_plugin.so
 * /usr/lib/vlc/plugins/codec/libzvbi_plugin.so

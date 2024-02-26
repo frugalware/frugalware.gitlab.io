@@ -13,9 +13,10 @@ usize = "5330419"
 sha1sum = "aa4b7d32fe61f384dcab67cd26e77e53b1098948"
 depends = "['glibc']"
 +++
+### Description: 
 Fast, reliable, and secure dependency management
 
-## Files: 
+### Files: 
 * /usr/bin/yarn
 * /usr/bin/yarnpkg
 * /usr/lib/node_modules/yarn/bin/yarn

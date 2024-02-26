@@ -13,9 +13,10 @@ usize = "79609"
 sha1sum = "68b0534ea295b57353b6627d64ff6dc657fdd227"
 depends = "['python3>=3.11']"
 +++
+### Description: 
 JavaScript minifier.
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/jsmin-3.0.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/jsmin-3.0.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/jsmin-3.0.1-py3.12.egg-info/SOURCES.txt

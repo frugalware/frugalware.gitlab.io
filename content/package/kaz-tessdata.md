@@ -13,7 +13,8 @@ usize = "9263626"
 sha1sum = "1248aab6fd6a6e1aed529b8e88631511d22a7c3d"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang kaz
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/kaz.traineddata

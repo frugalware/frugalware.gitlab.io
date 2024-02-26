@@ -14,9 +14,10 @@ sha1sum = "ffaec2623756f23e7bff9aca6a6d77315486b38c"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-comonad', 'haskell-glob', 'haskell-mmorph', 'haskell-optparse-applicative', 'haskell-tagged', 'haskell-transformers-base']"
 +++
+### Description: 
 A small compatibility shim exposing the new types from transformers 0.3 and 0.4 to older Haskell platforms.
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/transformers-compat-0.7.2/Control/Monad/Trans/Instances.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/transformers-compat-0.7.2/Control/Monad/Trans/Instances.hi
 * /usr/lib/ghc-9.8.1/site-local/transformers-compat-0.7.2/Data/Functor/Classes/Generic.dyn_hi

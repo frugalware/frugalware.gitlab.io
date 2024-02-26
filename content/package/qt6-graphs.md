@@ -13,9 +13,10 @@ usize = "2930676"
 sha1sum = "a2b6f8ee649010a3cbebe9be2b5b446ee3cae921"
 depends = "['qt6-quick3d']"
 +++
+### Description: 
 The Qt6 toolkit, qtgraphs
 
-## Files: 
+### Files: 
 * /usr/include/qt6/QtGraphs/6.6.2/QtGraphs/private/abstract3dcontroller_p.h
 * /usr/include/qt6/QtGraphs/6.6.2/QtGraphs/private/abstractitemmodelhandler_p.h
 * /usr/include/qt6/QtGraphs/6.6.2/QtGraphs/private/axishelper_p.h

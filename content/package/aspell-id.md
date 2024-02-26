@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = ""
 depends = "['aspell']"
 +++
+### Description: 
 GNU Aspell Indonesian Word List Package
 
-## Files: 
+### Files: 
 * usr/lib/aspell-0.60/id.dat
 * usr/lib/aspell-0.60/id.multi
 * usr/lib/aspell-0.60/id.rws

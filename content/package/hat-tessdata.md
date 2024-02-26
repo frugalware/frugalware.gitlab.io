@@ -13,7 +13,8 @@ usize = "3326809"
 sha1sum = "7cf5803479370a8bb96cabe92e8dfd57be345e96"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang hat
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/hat.traineddata

@@ -14,9 +14,10 @@ sha1sum = "6de1204fcf15c1bac05a49a9e079475cecda9e75"
 depends = "['python3-numpy']"
 reverse_depends = "['python3-cleo']"
 +++
+### Description: 
 Rapid fuzzy string matching in Python using various string metrics
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/rapidfuzz-3.5.2.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/rapidfuzz-3.5.2.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/rapidfuzz-3.5.2.dist-info/METADATA

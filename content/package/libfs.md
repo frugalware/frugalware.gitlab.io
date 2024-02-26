@@ -15,9 +15,10 @@ depends = "['glibc>=2.29-6']"
 reverse_depends = "['fslsfonts', 'fstobdf', 'showfont', 'xfsinfo']"
 license = "GPL2"
 +++
+### Description: 
 X.Org FS library
 
-## Files: 
+### Files: 
 * /usr/include/X11/fonts/FSlib.h
 * /usr/lib/libFS.so
 * /usr/lib/libFS.so.6

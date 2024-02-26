@@ -13,9 +13,10 @@ usize = "16498584"
 sha1sum = "96e99e80573218195d66146fd5b53af531275a69"
 depends = "['bzip2', 'curl', 'glade', 'jansson', 'libextractor>=1.11', 'libgcrypt>=1.6.1', 'libidn>=1.35', 'libmicrohttpd', 'libsodium>=1.0.19', 'libunistring>=1.1', 'libxfixes', 'sqlite3']"
 +++
+### Description: 
 A framework for secure peer-to-peer networking
 
-## Files: 
+### Files: 
 * /usr/bin/gnunet-arm
 * /usr/bin/gnunet-ats
 * /usr/bin/gnunet-auto-share

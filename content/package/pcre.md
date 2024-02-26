@@ -14,9 +14,10 @@ sha1sum = "633e2aaac3349ccccf59adcfb3ce91335f1abf65"
 depends = "['bzip2>=1.0.6-16', 'libstdc++>=12.2', 'readline>=8.0-3', 'zlib>=1.2.12']"
 reverse_depends = "['aide', 'apache', 'editorconfig-core-c', 'efl', 'enlightenment', 'ethereal', 'gdal', 'glib2', 'hyperscan', 'imapfilter', 'insight-toolkit', 'json-glib', 'leafnode', 'libmp3splt', 'libselinux', 'lighttpd', 'nginx', 'opencollada', 'php-embed', 'postfix', 'privoxy', 'qpdf', 'qt5-base', 'rasqal', 'slang', 'sord', 'swig', 'terminology', 'uwsgi', 'varnish']"
 +++
+### Description: 
 Perl-compatible regular expression library
 
-## Files: 
+### Files: 
 * /usr/bin/pcre-config
 * /usr/bin/pcregrep
 * /usr/bin/pcretest

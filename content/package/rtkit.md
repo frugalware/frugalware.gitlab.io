@@ -14,9 +14,10 @@ sha1sum = "5316914c8462b8343608f9a27512a473ce97be32"
 depends = "['dbus', 'polkit']"
 reverse_depends = "['xdg-desktop-portal']"
 +++
+### Description: 
 Realtime Policy and Watchdog Daemon
 
-## Files: 
+### Files: 
 * /usr/bin/rtkitctl
 * /usr/lib/rtkit/rtkit-daemon
 * /usr/lib/systemd/system/rtkit-daemon.service

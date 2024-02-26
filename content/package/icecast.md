@@ -13,9 +13,10 @@ usize = "2359243"
 sha1sum = "33e5d700fecf26b661d2b5bb13163d4149f0f6ad"
 depends = "['curl', 'libtheora', 'libvorbis', 'libxslt', 'openssl>=3.1.0', 'speex']"
 +++
+### Description: 
 Icecast is a streaming media server.
 
-## Files: 
+### Files: 
 * /etc/icecast/icecast.xml
 * /usr/bin/icecast
 * /usr/lib/systemd/system/icecast.service

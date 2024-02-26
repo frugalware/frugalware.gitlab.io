@@ -14,7 +14,8 @@ sha1sum = "1673cbdf67463233f639b8f89cca26957f5255ec"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 American English language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-en-US@firefox.mozilla.org.xpi

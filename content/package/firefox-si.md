@@ -14,7 +14,8 @@ sha1sum = "bedb1c4a744e35b5b1642ac7e6fb99066d895b73"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Sinhala language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-si@firefox.mozilla.org.xpi

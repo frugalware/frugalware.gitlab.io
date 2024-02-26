@@ -13,7 +13,8 @@ usize = "2020681"
 sha1sum = "0fe0e56096a3882391eab60db74d5c2dc30ceb2b"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang kur
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/kur.traineddata

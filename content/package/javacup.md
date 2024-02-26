@@ -13,8 +13,9 @@ usize = "155445"
 sha1sum = "b8a4fe9b2bb6fbfbdbec0b2b8e0801ceb6a6cd22"
 depends = "['openjre']"
 +++
+### Description: 
 CUP Parser Generator for Java
 
-## Files: 
+### Files: 
 * /usr/share/java/javacup-runtime.jar
 * /usr/share/java/javacup.jar

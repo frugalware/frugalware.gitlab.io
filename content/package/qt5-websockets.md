@@ -14,9 +14,10 @@ sha1sum = "fdac2c1d08bd7dcc4b1b48cd054f3aa6cb7d8c32"
 depends = "['qt5-declarative>=5.15.12']"
 reverse_depends = "['arianna', 'babe', 'kstars', 'qcoro', 'qownnotes', 'qt5-webglplugin', 'snorenotify', 'tokodon']"
 +++
+### Description: 
 The Qt5 toolkit, qtwebsockets
 
-## Files: 
+### Files: 
 * /usr/include/qt5/QtWebSockets/5.15.12/QtWebSockets/private/qdefaultmaskgenerator_p.h
 * /usr/include/qt5/QtWebSockets/5.15.12/QtWebSockets/private/qsslserver_p.h
 * /usr/include/qt5/QtWebSockets/5.15.12/QtWebSockets/private/qwebsocketcorsauthenticator_p.h

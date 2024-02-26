@@ -14,7 +14,8 @@ sha1sum = "84ef0abf8737606e1753df844d005cc339426fcc"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Persian language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-fa@firefox.mozilla.org.xpi

@@ -14,9 +14,10 @@ sha1sum = "1d69eebfd8db78dd908eecee76950869e398f35b"
 depends = "['haskell-aeson>=1.5.6.0-14', 'haskell-quickcheck', 'haskell-syb']"
 reverse_depends = "['haskell-citeproc', 'haskell-commonmark-pandoc', 'haskell-pandoc-lua-marshal', 'haskell-texmath']"
 +++
+### Description: 
 Types for representing a structured document
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/pandoc-types-1.23.1/libHSpandoc-types-1.23.1-FTSGZOyc06R8MkM3IevUzi.a
 * /usr/lib/ghc-9.8.1/site-local/pandoc-types-1.23.1/Paths_pandoc_types.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/pandoc-types-1.23.1/Paths_pandoc_types.hi

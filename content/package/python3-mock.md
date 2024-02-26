@@ -13,9 +13,10 @@ usize = "249191"
 sha1sum = "b8deeb2c341d8df27283013079879a758505e462"
 depends = "['python3>=3.11']"
 +++
+### Description: 
 A Python Mocking and Patching Library for Testing
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/mock-5.1.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/mock-5.1.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/mock-5.1.0-py3.12.egg-info/requires.txt

@@ -14,9 +14,10 @@ sha1sum = "ffb739ed4eea826fcbe335ff54b8acfa86faaf3c"
 depends = "[]"
 reverse_depends = "['forms']"
 +++
+### Description: 
 JGoodies Common Library
 
-## Files: 
+### Files: 
 * /usr/share/doc/jgoodies-common-1.8.1/AUTHORS
 * /usr/share/doc/jgoodies-common-1.8.1/ChangeLog
 * /usr/share/doc/jgoodies-common-1.8.1/COPYING

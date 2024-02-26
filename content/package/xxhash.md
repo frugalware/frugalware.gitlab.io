@@ -14,9 +14,10 @@ sha1sum = "49feffab0d87d5101fa5b0ae0699d70edd4afe71"
 depends = "['glibc>=2.34']"
 reverse_depends = "['python3-xxhash', 'rsync', 'telegram-desktop']"
 +++
+### Description: 
 Extremely fast non-cryptographic hash algorithm
 
-## Files: 
+### Files: 
 * /usr/bin/xxh128sum
 * /usr/bin/xxh32sum
 * /usr/bin/xxh64sum

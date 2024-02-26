@@ -13,7 +13,8 @@ usize = "51216"
 sha1sum = "56c95c7cadb1403257bd687746f0e86c7bc8d398"
 depends = "['cyrus-sasl>=2.1.26-3', 'qca']"
 +++
+### Description: 
 Plugins for qca providing SASL
 
-## Files: 
+### Files: 
 * /usr/lib/qca-qt5/crypto/libqca-cyrus-sasl.so

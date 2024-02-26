@@ -13,7 +13,8 @@ usize = "19344222"
 sha1sum = "8df66bd351f8b9fa47ff45916eae799904681a9e"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang pol
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/pol.traineddata

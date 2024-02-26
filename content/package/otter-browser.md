@@ -13,9 +13,10 @@ usize = "13055248"
 sha1sum = "2d721ab305f8b0767095c2d2d840f3598719ec6f"
 depends = "['hunspell>=1.7.0', 'libgcrypt>=1.7.5-1', 'qt5-imageformats>=5.15.10', 'qt5-multimedia>=5.15.10', 'qt5-script>=5.15.10', 'qt5-svg>=5.15.10', 'qt5-webengine>=5.15.10', 'qt5-xmlpatterns>=5.15.10']"
 +++
+### Description: 
 Otter Browser, project aiming to recreate classic Opera (12.x) UI using Qt5.
 
-## Files: 
+### Files: 
 * /usr/bin/otter-browser
 * /usr/share/applications/otter-browser.desktop
 * /usr/share/doc/otter-browser-1.0.03/CHANGELOG

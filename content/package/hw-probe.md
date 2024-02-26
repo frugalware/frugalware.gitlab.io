@@ -13,9 +13,10 @@ usize = "578313"
 sha1sum = "7389689b90dfb54284910010fca98f57741eac36"
 depends = "['curl', 'ddcutil', 'dmidecode', 'edid-decode', 'efibootmgr', 'hdparm', 'hwinfo', 'iasl', 'inxi', 'pciutils', 'perl>=5', 'smartmontools', 'usbutils']"
 +++
+### Description: 
 Tool to probe for hardware, check its operability and upload result to the Linux hardware DB: http://linux-hardware.org
 
-## Files: 
+### Files: 
 * /usr/bin/hw-probe
 * /usr/share/doc/hw-probe-1.6.5/INSTALL.BSD.md
 * /usr/share/doc/hw-probe-1.6.5/INSTALL.md

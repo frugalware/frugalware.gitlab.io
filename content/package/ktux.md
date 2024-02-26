@@ -13,9 +13,10 @@ usize = "182958"
 sha1sum = "a5f617e0e7dcb747374dcd6db340f2968e0d6cb9"
 depends = "['kconfig>=5.71.0', 'kcoreaddons>=5.71.0']"
 +++
+### Description: 
 Screensaver of outer space.
 
-## Files: 
+### Files: 
 * /usr/bin/ktux
 * /usr/share/applications/ktux/org.kde.ktux.desktop
 * /usr/share/doc/ktux-20200621.gfc79881/AUTHORS

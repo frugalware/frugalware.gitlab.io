@@ -14,9 +14,10 @@ sha1sum = "52f698f4a5166581ec1198410b7ff38576337832"
 depends = "['gtk+3>=3.22.29', 'libgcrypt>=1.7.3-2', 'libsecret', 'p11-kit>=0.23.2-4']"
 reverse_depends = "['gcr-1-doc', 'gnome-keyring', 'gvfs', 'nm-openconnect', 'seahorse']"
 +++
+### Description: 
 A library for bits of crypto UI
 
-## Files: 
+### Files: 
 * /usr/bin/gcr-viewer
 * /usr/include/gck-1/gck/gck-deprecated.h
 * /usr/include/gck-1/gck/gck-enum-types.h

@@ -14,9 +14,10 @@ sha1sum = "0a49b7fbb302e9ec5279324f842cb0c50c2c2e40"
 depends = "['haskell-crypton-x509']"
 reverse_depends = "['haskell-crypton-x509-system', 'haskell-crypton-x509-validation']"
 +++
+### Description: 
 X.509 collection accessing and storing methods
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/crypton-x509-store-1.6.9/Data/X509/CertificateStore.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/crypton-x509-store-1.6.9/Data/X509/CertificateStore.hi
 * /usr/lib/ghc-9.8.1/site-local/crypton-x509-store-1.6.9/Data/X509/File.dyn_hi

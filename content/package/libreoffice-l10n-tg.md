@@ -13,9 +13,10 @@ usize = "32788554"
 sha1sum = "b609e85abb89aa6084870f9b082795b6832c3ae1"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Tajik support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/help/tg/default.css
 * /usr/lib/libreoffice/help/tg/err.html
 * /usr/lib/libreoffice/help/tg/highcontrast1.css

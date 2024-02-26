@@ -14,9 +14,10 @@ sha1sum = "c7982704d1ed6c8abbfcb6f11d7a55fbf4e55579"
 depends = "['qt5-base>=5.15.12', 'qt5-xmlpatterns>=5.15.12']"
 reverse_depends = "['drkonqi', 'kio-extras', 'kpimtextedit', 'ktextaddons', 'ktexteditor', 'neochat']"
 +++
+### Description: 
 Syntax highlighting Engine for Structured Text and Code
 
-## Files: 
+### Files: 
 * /usr/bin/kate-syntax-highlighter
 * /usr/include/KF5/KSyntaxHighlighting/KSyntaxHighlighting/AbstractHighlighter
 * /usr/include/KF5/KSyntaxHighlighting/KSyntaxHighlighting/abstracthighlighter.h

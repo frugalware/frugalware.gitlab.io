@@ -14,9 +14,10 @@ sha1sum = "ff3090d254c4bfeb6ca796a05c8cf7cc3926eaa9"
 depends = "['perl>=5.34.0', 'perl-html-tagset']"
 reverse_depends = "['perl-libwww', 'spamassassin']"
 +++
+### Description: 
 Perl Module: HTML parser class
 
-## Files: 
+### Files: 
 * /usr/lib/perl5/5.38/site_perl/auto/HTML/Parser/Parser.so
 * /usr/lib/perl5/5.38/site_perl/HTML/Entities.pm
 * /usr/lib/perl5/5.38/site_perl/HTML/Filter.pm

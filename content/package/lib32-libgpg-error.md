@@ -14,9 +14,10 @@ sha1sum = "33ea2b959f8e04dcf8179fc6127ecf957ea28276"
 depends = "[]"
 reverse_depends = "['lib32-libgcrypt', 'lib32-libgcrypt15', 'lib32-libsystemd']"
 +++
+### Description: 
 Support library for libgcrypt ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/gpg-error
 * /usr/i686-frugalware-linux/bin/gpgrt-config
 * /usr/i686-frugalware-linux/bin/yat2m

@@ -14,9 +14,10 @@ sha1sum = "e615f37d0ee76c1b65b250550f6cf35b773c9f5c"
 depends = "['glib2>=2.60.0', 'gtk+3>=3.24.41', 'libffi>=3.2.1-2', 'pango>=1.42.0']"
 reverse_depends = "['gtk+3', 'gtk+4']"
 +++
+### Description: 
 GTK+3 commandline tools.
 
-## Files: 
+### Files: 
 * /usr/bin/gtk-query-immodules-3.0
 * /usr/share/man/man1/broadwayd.1.gz
 * /usr/share/man/man1/gtk-builder-tool.1.gz

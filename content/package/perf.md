@@ -13,9 +13,10 @@ usize = "11010812"
 sha1sum = "e7e71f390952ef7174c14f42ed50ae8b6ee0064a"
 depends = "['binutils>=2.40', 'elfutils', 'libtraceevent', 'python3>=3.11', 'slang', 'xz']"
 +++
+### Description: 
 Kernel performance profiling tool
 
-## Files: 
+### Files: 
 * /etc/bash_completion.d/perf
 * /usr/bin/perf
 * /usr/bin/perf-read-vdso32

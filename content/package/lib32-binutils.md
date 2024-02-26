@@ -14,9 +14,10 @@ sha1sum = "1dbf8c679f7c8ce0e74c6f3048d09f6616037d2b"
 depends = "['lib32-zstd']"
 reverse_depends = "['lib32-cairo']"
 +++
+### Description: 
 A set of programs to assemble and manipulate binary and object files ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/addr2line
 * /usr/i686-frugalware-linux/bin/ar
 * /usr/i686-frugalware-linux/bin/as

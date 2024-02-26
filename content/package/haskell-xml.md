@@ -14,9 +14,10 @@ sha1sum = "89a037ddac00b87f048639f11f38623d6216bbc4"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-texmath']"
 +++
+### Description: 
 A simple XML library
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/xml-1.3.14/libHSxml-1.3.14-DEY1vlTbzWbKcufXaFaRMm.a
 * /usr/lib/ghc-9.8.1/site-local/xml-1.3.14/Text/XML/Light.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/xml-1.3.14/Text/XML/Light.hi

@@ -14,7 +14,8 @@ sha1sum = "9928cd9c4523400140f12d06213b7b769146ed35"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
+### Description: 
 Romanian language support for Thunderbird
 
-## Files: 
+### Files: 
 * /usr/lib/thunderbird/extensions/langpack-ro@thunderbird.mozilla.org.xpi

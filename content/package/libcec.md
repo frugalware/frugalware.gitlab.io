@@ -14,9 +14,10 @@ sha1sum = "1f72339115fc84cdf8e2d4542e42d1432b6cf487"
 depends = "['libudev', 'libxrandr', 'p8-platform']"
 reverse_depends = "['plasma-remotecontrollers']"
 +++
+### Description: 
 Pulse-Eight's libcec for the Pulse-Eight USB-CEC adapter
 
-## Files: 
+### Files: 
 * /usr/bin/cec-client
 * /usr/bin/cec-client-6.0.2
 * /usr/bin/cecc-client

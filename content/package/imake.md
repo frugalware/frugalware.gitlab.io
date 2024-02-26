@@ -14,9 +14,10 @@ sha1sum = "38b8869a55e9768fba87d6111e8009cb25334011"
 depends = "['glibc']"
 license = "GPL2"
 +++
+### Description: 
 X.Org imake build system
 
-## Files: 
+### Files: 
 * /usr/bin/ccmakedep
 * /usr/bin/cleanlinks
 * /usr/bin/imake

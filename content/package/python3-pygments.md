@@ -14,9 +14,10 @@ sha1sum = "ddbc88b8b90764bf6c1b68bdc237338be5f7182b"
 depends = "['python3>=3.12']"
 reverse_depends = "['gi-docgen', 'kitty', 'python3-mako', 'python3-sphinx']"
 +++
+### Description: 
 Pygments is a fast syntax highlighter written in Python with a special focus on details. (Python3)
 
-## Files: 
+### Files: 
 * /usr/bin/pygmentize
 * /usr/lib/python3.12/site-packages/Pygments-2.16.1.dist-info/AUTHORS
 * /usr/lib/python3.12/site-packages/Pygments-2.16.1.dist-info/entry_points.txt

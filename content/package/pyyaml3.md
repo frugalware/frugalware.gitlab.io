@@ -14,9 +14,10 @@ sha1sum = "5ea9a2016a83c853a0728c4c8a459751cd1ae0d8"
 depends = "['libyaml', 'python3>=3.9.6']"
 reverse_depends = "['crawl', 'crawl-tiles', 'hotdoc', 'lutris']"
 +++
+### Description: 
 a complete python YAML 1.1 parser
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/PyYAML-5.3.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/PyYAML-5.3.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/PyYAML-5.3.1-py3.12.egg-info/SOURCES.txt

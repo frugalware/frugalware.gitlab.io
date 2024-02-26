@@ -13,9 +13,10 @@ usize = "144002"
 sha1sum = "6fd60345a2afd4ba2b47996146929e006367bfec"
 depends = "['glibc>=2.34']"
 +++
+### Description: 
 a utility designed to clean up filenames
 
-## Files: 
+### Files: 
 * /etc/detoxrc
 * /etc/detoxrc.sample
 * /usr/bin/detox

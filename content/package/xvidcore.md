@@ -15,9 +15,10 @@ depends = "['glibc>=2.34']"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'mencoder', 'mplayer', 'ufoai']"
 license = "GPL"
 +++
+### Description: 
 XviD is an open source MPEG-4 video codec
 
-## Files: 
+### Files: 
 * /usr/include/xvid.h
 * /usr/lib/libxvidcore.so
 * /usr/lib/libxvidcore.so.4

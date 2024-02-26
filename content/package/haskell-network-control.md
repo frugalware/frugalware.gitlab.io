@@ -14,9 +14,10 @@ sha1sum = "303a7f634d066307721f0f4dc236a7f266afbeca"
 depends = "['haskell-psqueues', 'haskell-unix-time']"
 reverse_depends = "['haskell-http2']"
 +++
+### Description: 
 Library to control network protocols
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/network-control-0.0.2/libHSnetwork-control-0.0.2-AfQxKAphlceBOSpJztC1TJ.a
 * /usr/lib/ghc-9.8.1/site-local/network-control-0.0.2/Network/Control.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/network-control-0.0.2/Network/Control.hi

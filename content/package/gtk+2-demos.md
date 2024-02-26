@@ -13,9 +13,10 @@ usize = "654164"
 sha1sum = "0a3d003be69671a73617886cff2558b30828fffc"
 depends = "['gtk+2>=2.24.32']"
 +++
+### Description: 
 GTK+2 Demos.
 
-## Files: 
+### Files: 
 * /usr/bin/gtk-demo
 * /usr/share/gtk-2.0/demo/alphatest.png
 * /usr/share/gtk-2.0/demo/apple-red.png

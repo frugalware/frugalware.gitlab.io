@@ -13,9 +13,10 @@ usize = "43496624"
 sha1sum = "258124215b6201e844b065f953839d9acfc29e9c"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Bulgarian support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/help/bg/default.css
 * /usr/lib/libreoffice/help/bg/err.html
 * /usr/lib/libreoffice/help/bg/highcontrast1.css

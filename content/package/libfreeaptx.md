@@ -14,9 +14,10 @@ sha1sum = "88d0f92aac2456989a15ccad9bdf0758ecad6af3"
 depends = "['glibc>=2.34']"
 reverse_depends = "['gst1-plugins-bad', 'pipewire']"
 +++
+### Description: 
 Open Source implementation of Audio Processing Technology codec (aptX)
 
-## Files: 
+### Files: 
 * /usr/bin/freeaptxdec
 * /usr/bin/freeaptxenc
 * /usr/include/freeaptx.h

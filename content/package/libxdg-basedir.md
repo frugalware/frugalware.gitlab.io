@@ -14,9 +14,10 @@ sha1sum = "37d7de0cdf4623946188b1193a688183aa69f33b"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['dunst']"
 +++
+### Description: 
 Library that assists with XDG specification.
 
-## Files: 
+### Files: 
 * /usr/include/basedir.h
 * /usr/include/basedir_fs.h
 * /usr/lib/libxdg-basedir.so

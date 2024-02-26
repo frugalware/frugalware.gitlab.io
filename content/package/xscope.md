@@ -14,9 +14,10 @@ sha1sum = "5dc05dd88edf57c0b44385afb842ca0d755b5a03"
 depends = "['glibc>=2.25']"
 license = "GPL2"
 +++
+### Description: 
 X.Org xsope application
 
-## Files: 
+### Files: 
 * /usr/bin/xscope
 * /usr/share/doc/xscope-1.4.4/AUTHORS
 * /usr/share/doc/xscope-1.4.4/ChangeLog

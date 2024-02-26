@@ -14,9 +14,10 @@ sha1sum = "82007f2e458ad0d1dedf7c26441a74ca917ba701"
 depends = "['jsoncpp']"
 reverse_depends = "['vtk']"
 +++
+### Description: 
 API and runtime that allows access to VR hardware from multiple vendors
 
-## Files: 
+### Files: 
 * /usr/include/openvr/openvr.h
 * /usr/include/openvr/openvr_capi.h
 * /usr/include/openvr/openvr_driver.h

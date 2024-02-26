@@ -13,7 +13,8 @@ usize = "22216"
 sha1sum = "0322ecca6262ded2ce6d1fab8308389007504968"
 depends = "['libcaca', 'libvlc>=3.0.20']"
 +++
+### Description: 
 vlc plugin for libcaca
 
-## Files: 
+### Files: 
 * /usr/lib/vlc/plugins/video_output/libcaca_plugin.so

@@ -14,9 +14,10 @@ sha1sum = "b096ebc12241e547ae38e7472a964a3487d293ca"
 depends = "['python3']"
 reverse_depends = "['python3-cachecontrol', 'python3-poetry', 'python3-virtualenv']"
 +++
+### Description: 
 A platform independent file lock
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/filelock-3.13.1.dist-info/licenses/LICENSE
 * /usr/lib/python3.12/site-packages/filelock-3.13.1.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/filelock-3.13.1.dist-info/RECORD

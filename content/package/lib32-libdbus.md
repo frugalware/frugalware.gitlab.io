@@ -14,9 +14,10 @@ sha1sum = "c74e52e65e50d92ce4efe2b908ade33f0996da43"
 depends = "['glibc>=2.34']"
 reverse_depends = "['lib32-avahi', 'lib32-dbus-glib', 'lib32-glib2', 'lib32-libpulse', 'lib32-xorg-server']"
 +++
+### Description: 
 A message bus system ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/dbus-1.0/dbus/dbus-address.h
 * /usr/i686-frugalware-linux/include/dbus-1.0/dbus/dbus-arch-deps.h
 * /usr/i686-frugalware-linux/include/dbus-1.0/dbus/dbus-bus.h

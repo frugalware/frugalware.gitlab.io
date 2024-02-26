@@ -14,9 +14,10 @@ sha1sum = "53fffa41d5c0d745344da6b73e9ac63ad155e476"
 depends = "['curl', 'libpq', 'luajit2', 'openal']"
 reverse_depends = "['minetest-game']"
 +++
+### Description: 
 Minetest is an infinite-world block sandbox game and a game engine, inspired by InfiniMiner and Minecraft.
 
-## Files: 
+### Files: 
 * /usr/bin/minetest
 * /usr/share/applications/net.minetest.minetest.desktop
 * /usr/share/doc/minetest-5.8.0/COPYING.LESSER

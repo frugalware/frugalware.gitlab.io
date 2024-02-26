@@ -14,9 +14,10 @@ sha1sum = "51ad8761ed2d2b13260306644d14e064210913de"
 depends = "['glibc>=2.34', 'lib32-glib2', 'lib32-gnutls', 'lib32-libblkid>=2.28.2-4', 'lib32-libcap>=2.25-5', 'lib32-libgcrypt>=1.7.3-3', 'lib32-libgpg-error>=1.24-3', 'lib32-libidn2', 'lib32-libuuid>=2.28.2-4', 'lib32-libxcrypt', 'lib32-p11-kit', 'lib32-util-linux', 'lib32-xfsprogs-acl', 'lib32-xz', 'lib32-zstd', 'libgcc>=11.2']"
 reverse_depends = "['lib32-avahi', 'lib32-libcups', 'lib32-modemmanager', 'lib32-p11-kit', 'lib32-pam', 'lib32-pipewire', 'lib32-polkit', 'lib32-v4l-utils', 'lib32-xorg-server', 'lib32-xorg-server-fbdev', 'lib32-xorg-server-xephyr']"
 +++
+### Description: 
 systemd libs ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/systemd/sd-bus-protocol.h
 * /usr/i686-frugalware-linux/include/systemd/sd-bus-vtable.h
 * /usr/i686-frugalware-linux/include/systemd/sd-bus.h

@@ -14,9 +14,10 @@ sha1sum = "5495c7edccd7064e33ea1f4b66c320db84e0121d"
 depends = "[]"
 reverse_depends = "['lib32-gdk-pixbuf2', 'lib32-imlib2', 'lib32-lcms2', 'lib32-libwebp', 'lib32-v4l-utils']"
 +++
+### Description: 
 JPEG image codec that uses SIMD instructions ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/cjpeg
 * /usr/i686-frugalware-linux/bin/djpeg
 * /usr/i686-frugalware-linux/bin/jpegtran

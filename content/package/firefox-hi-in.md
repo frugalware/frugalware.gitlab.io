@@ -14,7 +14,8 @@ sha1sum = "024a781404167781c26ed8bedd12a4572e02b549"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Hindi language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-hi-IN@firefox.mozilla.org.xpi

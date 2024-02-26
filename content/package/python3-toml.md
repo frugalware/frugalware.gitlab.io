@@ -14,9 +14,10 @@ sha1sum = "ba2ea3ba0576bfdfd23536690b31b66e70028106"
 depends = "['python3>=3.12']"
 reverse_depends = "['gi-docgen', 'pyproject2setuppy', 'python3-setuptools-rust', 'sip']"
 +++
+### Description: 
 Python Library for Tom's Obvious, Minimal Language
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/toml-0.10.2-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/toml-0.10.2-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/toml-0.10.2-py3.12.egg-info/SOURCES.txt

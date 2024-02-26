@@ -13,9 +13,10 @@ usize = "870425"
 sha1sum = "1a8fe2e06de29a7dffc8d2b89ebb12587f1b6586"
 depends = "['kactivities-stats>=5.115.0', 'kconfig>=5.115.0', 'kconfigwidgets>=5.115.0', 'kcoreaddons>=5.115.0', 'kcrash>=5.115.0', 'kdoctools>=5.115.0', 'ki18n>=5.115.0']"
 +++
+### Description: 
 System cleaner.
 
-## Files: 
+### Files: 
 * /usr/bin/sweeper
 * /usr/share/applications/org.kde.sweeper.desktop
 * /usr/share/dbus-1/interfaces/org.kde.sweeper.xml

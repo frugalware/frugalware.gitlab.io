@@ -15,9 +15,10 @@ depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3', 'libxt>=1.1.5-3']"
 reverse_depends = "['editres', 'flightgear', 'guarddog', 'kasablanca', 'kat', 'klamav', 'knetstats', 'knoda', 'ksniffer', 'ksubeditor', 'ksubtile', 'libxaw', 'libxaw3d', 'maxemumtvguide', 'oclock', 'qtparted', 'smproxy', 'twm', 'virtualbox', 'virtualbox-guest-additions', 'wmctrl', 'x11perf', 'xauth', 'xaw3d', 'xclip', 'xeyes', 'xhost', 'xkill', 'xpr', 'xrdb', 'xscreensaver', 'xset', 'xsetroot', 'xstdcmap', 'xterm']"
 license = "GPL2"
 +++
+### Description: 
 X.Org Xmu library
 
-## Files: 
+### Files: 
 * /usr/include/X11/Xmu/Atoms.h
 * /usr/include/X11/Xmu/CharSet.h
 * /usr/include/X11/Xmu/CloseHook.h

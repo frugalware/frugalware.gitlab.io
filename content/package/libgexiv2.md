@@ -14,9 +14,10 @@ sha1sum = "dd83a19c7e25e715a7d567f53bdb16686fd42b3c"
 depends = "['exiv2>=0.28.1', 'glib2>=2.60.0']"
 reverse_depends = "['gimp']"
 +++
+### Description: 
 GObject-based wrapper around the Exiv2 library.
 
-## Files: 
+### Files: 
 * /usr/include/gexiv2/gexiv2-enums.h
 * /usr/include/gexiv2/gexiv2-log.h
 * /usr/include/gexiv2/gexiv2-managed-stream.h

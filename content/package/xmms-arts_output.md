@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "829f9fa197fc046199ac978bdcea0d6e45de0eed"
 depends = "[]"
 +++
+### Description: 
 aRts plugin for XMMS
 
-## Files: 
+### Files: 
 * usr/bin/xmms-arts-helper
 * usr/lib/xmms/Output/libarts.la
 * usr/lib/xmms/Output/libarts.so

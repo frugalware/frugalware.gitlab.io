@@ -14,9 +14,10 @@ sha1sum = "dc6625464b2c79ddc96dc2d43c95ba85d1dc67cd"
 depends = "['mpfr>=4.0.2-3']"
 reverse_depends = "['gcc', 'gcc-12']"
 +++
+### Description: 
 A library for the arithmetic of complex numbers.
 
-## Files: 
+### Files: 
 * /usr/include/mpc.h
 * /usr/lib/libmpc.so
 * /usr/lib/libmpc.so.3

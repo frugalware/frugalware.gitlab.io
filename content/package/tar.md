@@ -14,9 +14,10 @@ sha1sum = "501a59acf36a293b4c75c26a104a21dcc8686dd9"
 depends = "['bash>=4.4.12-2', 'xfsprogs-acl>=2.2.53-2']"
 reverse_depends = "['binwalk', 'kernel-initrd', 'kernel-lts-initrd']"
 +++
+### Description: 
 Utility used to store, backup, and transport files
 
-## Files: 
+### Files: 
 * /usr/bin/tar
 * /usr/lib/tar/rmt
 * /usr/share/doc/tar-1.35/AUTHORS

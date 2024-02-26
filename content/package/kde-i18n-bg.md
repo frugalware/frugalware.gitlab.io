@@ -13,9 +13,10 @@ usize = "9169042"
 sha1sum = "d45693bf1257ade18ea9300c75f5ee96dfa3d27c"
 depends = "[]"
 +++
+### Description: 
 Bulgarian Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/apps/khangman/data/bg/animals.kvtml
 * usr/share/apps/khangman/data/bg/easy.kvtml
 * usr/share/apps/khangman/data/bg/hard.kvtml

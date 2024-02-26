@@ -14,9 +14,10 @@ sha1sum = "517fd308873bc318e27bbb1358b5c6917db6ab2f"
 depends = "['lv2>=1.18.0', 'python3>=3.12', 'sratom']"
 reverse_depends = "['mixxx', 'pipewire', 'qtractor']"
 +++
+### Description: 
 Lilv is a C library to make the use of LV2 plugins as simple as possible for applications.
 
-## Files: 
+### Files: 
 * /etc/bash_completion.d/lilv
 * /usr/bin/lv2apply
 * /usr/bin/lv2bench

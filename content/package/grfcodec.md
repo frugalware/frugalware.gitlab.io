@@ -13,9 +13,10 @@ usize = "582216"
 sha1sum = "c5cbcc014017647fbf40e2041968f880b97ff0d4"
 depends = "['libpng>=1.6.25', 'libstdc++>=6.2.1-5']"
 +++
+### Description: 
 A utility for encoding and decoding the graphic files used by openttd.
 
-## Files: 
+### Files: 
 * /usr/bin/grfcodec
 * /usr/bin/grfid
 * /usr/bin/nforenum

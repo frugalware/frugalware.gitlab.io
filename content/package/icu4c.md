@@ -15,9 +15,10 @@ depends = "['libstdc++>=11.2']"
 reverse_depends = "['blender', 'calamares-frugalware', 'chromium-browser', 'darktable', 'dovecot', 'firefox', 'freeciv', 'gettext', 'grpc', 'gspell', 'harfbuzz', 'kdeplasma-addons5', 'kvirc', 'libboost', 'libcdr', 'libe-book', 'libical', 'liblcf', 'libmspub', 'libqalculate', 'libsmbclient', 'libvisio', 'libxml2', 'libzmf', 'mpd', 'ncmpcpp', 'netpbm', 'nodejs', 'nodejs18', 'nodejs20', 'openttd', 'plasma-workspace', 'poedit', 'postfix', 'postgresql', 'qt5-base', 'qt5-location', 'qt5-webengine', 'qt6-5compat', 'qt6-base', 'r', 'rspamd', 'scribus', 'texlive', 'thunderbird', 'user-kcm', 'webkit-gtk3', 'xerces-c', 'xfsprogs', 'znc']"
 license = "License"
 +++
+### Description: 
 International Components for Unicode library
 
-## Files: 
+### Files: 
 * /usr/bin/derb
 * /usr/bin/escapesrc
 * /usr/bin/genbrk

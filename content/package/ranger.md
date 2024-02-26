@@ -13,9 +13,10 @@ usize = "2520001"
 sha1sum = "075f139d5b91013ba6c4f40aa833c60141a8cfb8"
 depends = "['python3>=3.8.3']"
 +++
+### Description: 
 Ranger is a free console file manager
 
-## Files: 
+### Files: 
 * /usr/bin/ranger
 * /usr/bin/rifle
 * /usr/lib/python3.12/site-packages/ranger/api/commands.py

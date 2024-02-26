@@ -13,9 +13,10 @@ usize = "16093"
 sha1sum = "2246e777a933ce3a9b75406a67fae08efd42eb62"
 depends = "['perl>=5.34.0']"
 +++
+### Description: 
 Try every conceivable way to get hostname
 
-## Files: 
+### Files: 
 * /usr/lib/perl5/site_perl/current/Sys/Hostname/Long.pm
 * /usr/lib/perl5/site_perl/current/Sys/Hostname/testall.pl
 * /usr/share/doc/perl-sys-hostname-long-1.5/MANIFEST

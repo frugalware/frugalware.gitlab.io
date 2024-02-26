@@ -13,9 +13,10 @@ usize = "32785"
 sha1sum = "bb20010749383919ecbfd82c1ad36989f9a5c2f3"
 depends = "['kwallet5>=5.115.0', 'libgcrypt>=1.7.3-2', 'pam>=1.1.8-4', 'socat>=1.7.3.1-2']"
 +++
+### Description: 
 KWallet PAM integration
 
-## Files: 
+### Files: 
 * /etc/xdg/autostart/pam_kwallet_init.desktop
 * /usr/lib/kf5/pam_kwallet_init
 * /usr/lib/security/pam_kwallet5.so

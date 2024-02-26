@@ -14,9 +14,10 @@ sha1sum = "690a2774189746571e3ee77e200d2cd7a0734f90"
 depends = "['openjre']"
 reverse_depends = "['commons-httpclient', 'xmlgraphics-commons']"
 +++
+### Description: 
 An ultra-thin bridge between different logging libraries.
 
-## Files: 
+### Files: 
 * /usr/share/doc/commons-logging-1.0.4/RELEASE-NOTES.txt
 * /usr/share/java/commons-logging-api.jar
 * /usr/share/java/commons-logging.jar

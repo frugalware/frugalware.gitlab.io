@@ -14,9 +14,10 @@ sha1sum = "b299a1421c2a4f9022d3d63c0f398f790dabd9e0"
 depends = "['libx11>=1.6.3-3']"
 license = "GPL2"
 +++
+### Description: 
 X.Org ico application
 
-## Files: 
+### Files: 
 * /usr/bin/ico
 * /usr/share/doc/ico-1.0.6/ChangeLog
 * /usr/share/doc/ico-1.0.6/COPYING

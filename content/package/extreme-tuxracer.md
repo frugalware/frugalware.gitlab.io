@@ -13,9 +13,10 @@ usize = "44047259"
 sha1sum = "1175baa899f3addf07895561ba1f326db37803b8"
 depends = "['sfml>=2.5.0']"
 +++
+### Description: 
 High speed arctic racing game based on Tux Racer
 
-## Files: 
+### Files: 
 * /usr/bin/etr
 * /usr/share/applications/extreme-tuxracer.desktop
 * /usr/share/applications/net.sourceforge.extremetuxracer.desktop

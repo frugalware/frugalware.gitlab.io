@@ -13,9 +13,10 @@ usize = "10895960"
 sha1sum = "e9efe8d352dbde7df48e799ee1ea62bdb4413879"
 depends = "['eigen', 'exiv2>=0.28.1', 'fftw', 'gsl>=2.7.1', 'lcms2>=2.8-2', 'libboost>=1.82.0', 'libgomp>=6.2.1-5', 'libraw>=0.21.1', 'openexr>=3.2.0', 'qt5-svg>=5.15.10', 'qt5-webengine']"
 +++
+### Description: 
 An open source graphical user interface application that aims to provide a workflow for HDR imaging
 
-## Files: 
+### Files: 
 * /usr/bin/luminance-hdr
 * /usr/bin/luminance-hdr-cli
 * /usr/share/appdata/net.sourceforge.qtpfsgui.LuminanceHDR.appdata.xml

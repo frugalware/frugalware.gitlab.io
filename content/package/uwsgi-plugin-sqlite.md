@@ -13,7 +13,8 @@ usize = "14616"
 sha1sum = "243c33aa74c27c57759df968f7c77b59f050acad"
 depends = "['sqlite3', 'uwsgi']"
 +++
+### Description: 
 UWSGI SQLite3 Plugin
 
-## Files: 
+### Files: 
 * /usr/lib/uwsgi/sqlite3_plugin.so

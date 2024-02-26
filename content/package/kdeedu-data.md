@@ -14,9 +14,10 @@ sha1sum = "984acf68b0710a99b854faccefcf2aa838b31577"
 depends = "['qt5-base>=5.15.12']"
 reverse_depends = "['libkeduvocdocument']"
 +++
+### Description: 
 Common libraries for KDE Edu release-service
 
-## Files: 
+### Files: 
 * /usr/share/apps/kvtml/bg/animals.kvtml
 * /usr/share/apps/kvtml/bg/easy.kvtml
 * /usr/share/apps/kvtml/bg/hard.kvtml

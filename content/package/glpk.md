@@ -14,9 +14,10 @@ sha1sum = "f0fd487b23aa1606864cd1e8ef3e9cc9af2bea4f"
 depends = "['gmp>=5.0.5-2']"
 reverse_depends = "['4ti2', 'coin-or-coinutils', 'octave']"
 +++
+### Description: 
 GNU Linear Programming Kit
 
-## Files: 
+### Files: 
 * /usr/bin/glpsol
 * /usr/include/glpk.h
 * /usr/lib/libglpk.so

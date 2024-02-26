@@ -14,7 +14,8 @@ sha1sum = "ba8fef6bf32a4802ccbd683888573d96c1fde4eb"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
+### Description: 
 Bulgarian language support for Thunderbird
 
-## Files: 
+### Files: 
 * /usr/lib/thunderbird/extensions/langpack-bg@thunderbird.mozilla.org.xpi

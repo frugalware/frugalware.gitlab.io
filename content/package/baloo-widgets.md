@@ -14,9 +14,10 @@ sha1sum = "9db0d72e3a751b3e6e650e2112472703d626b98c"
 depends = "['baloo5>=5.115.0']"
 reverse_depends = "['dolphin']"
 +++
+### Description: 
 Widgets for Baloo
 
-## Files: 
+### Files: 
 * /usr/bin/baloo_filemetadata_temp_extractor
 * /usr/include/KF5/BalooWidgets/Baloo/FileMetaDataConfigWidget
 * /usr/include/KF5/BalooWidgets/baloo/filemetadataconfigwidget.h

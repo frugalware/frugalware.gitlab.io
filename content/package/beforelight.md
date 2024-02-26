@@ -14,9 +14,10 @@ sha1sum = "314f3acc011017df2212e2f6bc9ff97e0dab7d9d"
 depends = "['libx11>=1.6.3-4', 'libxscrnsaver>=1.2.2-3', 'libxt>=1.1.5-3']"
 license = "GPL2"
 +++
+### Description: 
 X.Org beforelight application
 
-## Files: 
+### Files: 
 * /usr/bin/beforelight
 * /usr/share/doc/beforelight-1.0.6/ChangeLog
 * /usr/share/doc/beforelight-1.0.6/COPYING

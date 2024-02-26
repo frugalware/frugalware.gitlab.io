@@ -14,9 +14,10 @@ sha1sum = "a755f962afdf1b453209ed22bc32f2ea776d116d"
 depends = "['kcoreaddons>=5.115.0', 'ki18n>=5.115.0', 'qt5-base>=5.15.12']"
 reverse_depends = "['breeze', 'kde-gtk-config', 'kwin5']"
 +++
+### Description: 
 KDE Decoration
 
-## Files: 
+### Files: 
 * /usr/include/KDecoration2/KDecoration2/DecoratedClient
 * /usr/include/KDecoration2/kdecoration2/decoratedclient.h
 * /usr/include/KDecoration2/KDecoration2/Decoration

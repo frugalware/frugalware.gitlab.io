@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "173474f3f4ac40e865413e436f1ec9af4dc7f178"
 depends = "['apache', 'php']"
 +++
+### Description: 
 A fully-featured online forum solution for your website
 
-## Files: 
+### Files: 
 * usr/bin/phpbbsetup
 * usr/share/doc/phpbb-php5mod-2.0.17.5/AUTHORS
 * usr/share/doc/phpbb-php5mod-2.0.17.5/COPYING

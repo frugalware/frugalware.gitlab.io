@@ -13,9 +13,10 @@ usize = "1449227"
 sha1sum = "1b25c5ec93a92df1530e1a07baa94cf71ffd4ebb"
 depends = "['libxrandr', 'plasma-framework', 'qt5-x11extras', 'wrapland']"
 +++
+### Description: 
 Qt/C++ display management library
 
-## Files: 
+### Files: 
 * /usr/bin/dismanctl
 * /usr/include/disman/backendmanager_p.h
 * /usr/include/disman/config.h

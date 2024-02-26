@@ -13,9 +13,10 @@ usize = "451995"
 sha1sum = "8a3a28fdd341b8a6e82a93c2677c2a581fe63291"
 depends = "['python3>=3.11']"
 +++
+### Description: 
 WebSocket client for Python. hybi13 is supported.
 
-## Files: 
+### Files: 
 * /usr/bin/wsdump
 * /usr/lib/python3.12/site-packages/websocket/py.typed
 * /usr/lib/python3.12/site-packages/websocket/tests/data/header01.txt

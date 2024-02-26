@@ -14,7 +14,8 @@ sha1sum = "dbce415f987e13bd5cd299a4a936199b3cafac42"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Mexican Spanish language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-es-MX@firefox.mozilla.org.xpi

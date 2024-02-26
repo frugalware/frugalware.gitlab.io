@@ -13,9 +13,10 @@ usize = "10319372"
 sha1sum = "92eb6864f491d175339c267b067052dd02037766"
 depends = "['glibc']"
 +++
+### Description: 
 A tool that stress tests your system (CPU, memory, I/O, disks) (NG)
 
-## Files: 
+### Files: 
 * /usr/bin/stress-ng
 * /usr/share/bash-completion/completions/stress-ng
 * /usr/share/doc/stress-ng-0.17.03/COPYING

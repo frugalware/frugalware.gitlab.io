@@ -13,9 +13,10 @@ usize = "2935827"
 sha1sum = "8c0fd47b38f5b2a36e2b30e4458e667c34caae96"
 depends = "[]"
 +++
+### Description: 
 Afrikaans Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/locale/af/charset
 * usr/share/locale/af/entry.desktop
 * usr/share/locale/af/flag.png

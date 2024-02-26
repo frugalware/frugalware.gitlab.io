@@ -13,9 +13,10 @@ usize = "1654590"
 sha1sum = "363d6d962635b4926fc3f1791f6f49daa288537d"
 depends = "['kio>=5.115.0', 'libqaccessibilityclient']"
 +++
+### Description: 
 Screen Magnifier
 
-## Files: 
+### Files: 
 * /usr/bin/kmag
 * /usr/share/applications/org.kde.kmag.desktop
 * /usr/share/doc/HTML/ca/kmag/index.cache.bz2

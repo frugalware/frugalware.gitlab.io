@@ -14,9 +14,10 @@ sha1sum = "961a302aae9d2649ea925ebfe98132765a922328"
 depends = "['haskell-async', 'haskell-unliftio-core']"
 reverse_depends = "['haskell-conduit-extra']"
 +++
+### Description: 
 Run external processes, with strong typing of streams
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/typed-process-0.2.11.1/libHStyped-process-0.2.11.1-C3IUulLJ51IASq1jeqc02y.a
 * /usr/lib/ghc-9.8.1/site-local/typed-process-0.2.11.1/Paths_typed_process.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/typed-process-0.2.11.1/Paths_typed_process.hi

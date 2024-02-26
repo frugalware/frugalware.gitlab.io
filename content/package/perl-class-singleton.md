@@ -14,9 +14,10 @@ sha1sum = "ceb12abb633bf1436da2395f4397e7ed10bef214"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-datetime-timezone']"
 +++
+### Description: 
 Implementation of a Singleton class
 
-## Files: 
+### Files: 
 * /usr/lib/perl5/site_perl/Class/Singleton.pm
 * /usr/share/doc/perl-class-singleton-1.6/INSTALL
 * /usr/share/doc/perl-class-singleton-1.6/MANIFEST

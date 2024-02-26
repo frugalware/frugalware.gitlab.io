@@ -13,7 +13,8 @@ usize = "64256"
 sha1sum = "929669f43a674a42bb958de9dd2f1acf8fdb2c73"
 depends = "['claws-mail=4.1.1']"
 +++
+### Description: 
 Enables the scanning of incoming mail received from a POP, IMAP, or LOCAL account using SpamAssassin.
 
-## Files: 
+### Files: 
 * /usr/lib/claws-mail/plugins/spamassassin.so

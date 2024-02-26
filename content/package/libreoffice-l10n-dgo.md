@@ -13,9 +13,10 @@ usize = "2039605"
 sha1sum = "826e17e9e8755d2dad95506749b01394715c01b8"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Dogri support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/resource/dgo/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/dgo/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/dgo/LC_MESSAGES/basctl.mo

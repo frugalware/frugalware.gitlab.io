@@ -13,9 +13,10 @@ usize = "3038130"
 sha1sum = "e2eab3a5e86ce1c9ccab1165ba047a2f22c706d7"
 depends = "['kdeclarative>=5.115.0', 'kidletime>=5.115.0', 'kuserfeedback', 'kxmlrpcclient>=5.115.0', 'pcre2', 'syntax-highlighting>=5.115.0']"
 +++
+### Description: 
 The KDE Crash Handler.
 
-## Files: 
+### Files: 
 * /usr/bin/drkonqi-coredump-gui
 * /usr/lib/kf5/drkonqi
 * /usr/lib/kf5/drkonqi-coredump-cleanup

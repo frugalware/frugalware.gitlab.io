@@ -13,9 +13,10 @@ usize = "1460859"
 sha1sum = "f9c01178dcc11d041158d180ea4d107e9d3535b9"
 depends = "['calendarsupport>=23.08.5', 'messagelib>=23.08.5']"
 +++
+### Description: 
 A utility that can be used to explore or manage Akonadi
 
-## Files: 
+### Files: 
 * /usr/bin/akonadiconsole
 * /usr/lib/libakonadiconsole.so.5
 * /usr/lib/libakonadiconsole.so.5.24.5

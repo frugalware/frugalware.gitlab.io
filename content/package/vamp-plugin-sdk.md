@@ -14,9 +14,10 @@ sha1sum = "bcfeac253b20c9d59577b076a78541a0bb2a9f38"
 depends = "['libsndfile', 'libstdc++>=9.1.0-3']"
 reverse_depends = "['rubberband']"
 +++
+### Description: 
 An audio processing plugin system for plugins that extract descriptive information from audio data
 
-## Files: 
+### Files: 
 * /usr/bin/vamp-rdf-template-generator
 * /usr/bin/vamp-simple-host
 * /usr/include/vamp-hostsdk/hostguard.h

@@ -14,9 +14,10 @@ sha1sum = "9db48bb3b4001b443003c647c6ded6613f90d443"
 depends = "['kontactinterface>=23.08.5', 'mailcommon>=23.08.5']"
 reverse_depends = "['kdepim-addons']"
 +++
+### Description: 
 Contact Manager
 
-## Files: 
+### Files: 
 * /usr/bin/kaddressbook
 * /usr/include/KPim5/KAddressBookImportExport/KAddressBookImportExport/ContactFields
 * /usr/include/KPim5/KAddressBookImportExport/kaddressbookimportexport/contactfields.h

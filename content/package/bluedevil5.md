@@ -13,9 +13,10 @@ usize = "1904312"
 sha1sum = "9f964d6c5c26c48a9b94a258cc451571c6e27bcb"
 depends = "['bluez-qt>=5.115.0', 'kcmutils>=5.115.0', 'kded>=5.115.0', 'kio>=5.115.0', 'plasma-framework>=5.115.0']"
 +++
+### Description: 
 KDE Bluetooth Framework
 
-## Files: 
+### Files: 
 * /usr/bin/bluedevil-sendfile
 * /usr/bin/bluedevil-wizard
 * /usr/lib/qt5/plugins/kf5/kded/bluedevil.so

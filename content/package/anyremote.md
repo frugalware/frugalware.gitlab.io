@@ -13,9 +13,10 @@ usize = "3623980"
 sha1sum = "bfff4f4544d24ce9dd29885b4500d5e1b5121c00"
 depends = "['avahi', 'bluez', 'dbus-glib', 'libxtst']"
 +++
+### Description: 
 Allows controlling your computer with your phone
 
-## Files: 
+### Files: 
 * /usr/bin/anyremote
 * /usr/share/anyremote/cfg-data/AT-mode/all-in-one.cfg
 * /usr/share/anyremote/cfg-data/AT-mode/amarok.cfg

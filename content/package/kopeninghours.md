@@ -13,9 +13,10 @@ usize = "351162"
 sha1sum = "ed54655327e8fe1551be8bc8a64680831262ad68"
 depends = "['kholidays', 'ki18n', 'qt5-declarative']"
 +++
+### Description: 
 Library for parsing and evaluating OSM opening hours expressions
 
-## Files: 
+### Files: 
 * /usr/include/KOpeningHours/Display
 * /usr/include/kopeninghours/display.h
 * /usr/include/KOpeningHours/Interval

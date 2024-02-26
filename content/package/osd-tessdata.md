@@ -13,7 +13,8 @@ usize = "10562961"
 sha1sum = "aabb793c117807cf600497bfa94e6d20c1c98661"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang osd
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/osd.traineddata

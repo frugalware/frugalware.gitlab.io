@@ -13,9 +13,10 @@ usize = "2553935"
 sha1sum = "ffbf5b0630f67c67ee10ff079a9bfbfda051bb15"
 depends = "[]"
 +++
+### Description: 
 Mac OS theme for KDE
 
-## Files: 
+### Files: 
 * usr/bin/bab
 * usr/include/baghirasidebar.h
 * usr/include/baghirasidebariface.h

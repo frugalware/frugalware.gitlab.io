@@ -13,9 +13,10 @@ usize = "751730"
 sha1sum = "ead30c4ca0110f38fca189d7b8d94dbf96e5f3aa"
 depends = "['greetd', 'qt5-base>=5.15.10', 'qt5-wayland>=5.15.10', 'wlroots']"
 +++
+### Description: 
 Qt based greeter for greetd
 
-## Files: 
+### Files: 
 * /etc/qtgreet/config.ini
 * /etc/qtgreet/wayfire.ini
 * /usr/bin/qtgreet

@@ -14,7 +14,8 @@ sha1sum = "76a48d9602e179a72af3c0cf1ec70b4ed70ccef3"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Azerbaijani language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-az@firefox.mozilla.org.xpi

@@ -14,9 +14,10 @@ sha1sum = "f498b3bff40cea1c0904b942ea4d8ab36b27961f"
 depends = "['libxaw>=1.0.13-2', 'xbitmaps>=1.1.1-2']"
 license = "GPL2"
 +++
+### Description: 
 X.Org xbiff application
 
-## Files: 
+### Files: 
 * /usr/bin/xbiff
 * /usr/share/doc/xbiff-1.0.5/ChangeLog
 * /usr/share/doc/xbiff-1.0.5/COPYING

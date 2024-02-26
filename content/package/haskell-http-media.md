@@ -14,9 +14,10 @@ sha1sum = "9ad210fbf10184092a8b642f152f05fcfebbbab4"
 depends = "['haskell-case-insensitive', 'haskell-utf8-string']"
 reverse_depends = "['haskell-servant']"
 +++
+### Description: 
 Processing HTTP Content-Type and Accept headers
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/http-media-0.8.1.1/libHShttp-media-0.8.1.1-IQGlnrzu1Xj4A5CMatETNo.a
 * /usr/lib/ghc-9.8.1/site-local/http-media-0.8.1.1/Network/HTTP/Media.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/http-media-0.8.1.1/Network/HTTP/Media.hi

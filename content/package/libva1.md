@@ -13,9 +13,10 @@ usize = "618847"
 sha1sum = "22975b64a036ae4b6ab82497452cb77f9bcfe26c"
 depends = "['libdrm>=2.4.70-2', 'libxext>=1.3.3-3', 'libxfixes>=5.0.1-3', 'wayland>=1.11.0-3']"
 +++
+### Description: 
 Uniform library API for hardware acceleration of video decoding.
 
-## Files: 
+### Files: 
 * /etc/ld.so.conf.d/libva1.conf
 * /usr/include/libva1/va/va.h
 * /usr/include/libva1/va/va_backend.h

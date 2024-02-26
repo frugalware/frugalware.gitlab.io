@@ -13,9 +13,10 @@ usize = "28473"
 sha1sum = "3745ffc6f79aa4b58de257cedab3afe7b5821ec1"
 depends = "['fontconfig', 'mkfontscale']"
 +++
+### Description: 
 A modified version of terminus font, 12 and 14. Added bold to 12, the 14 is smaller. Also have versions with status icons
 
-## Files: 
+### Files: 
 * /usr/share/doc/terminusmod-1.9.9/README.terminusmod
 * /usr/share/fonts/X11/misc/terminusmod12b.pcf.gz
 * /usr/share/fonts/X11/misc/terminusmod12r.icons.pcf.gz

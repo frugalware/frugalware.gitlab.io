@@ -14,7 +14,8 @@ sha1sum = "ab936de90d141686a4a8978d245a823020c935b7"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Indonesian language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-id@firefox.mozilla.org.xpi

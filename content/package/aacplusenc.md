@@ -13,9 +13,10 @@ usize = "275163"
 sha1sum = "14b9c966dfbb10e9e32c44d268a2d5784d59dfff"
 depends = "['fftw']"
 +++
+### Description: 
 An AAC+ encoder which outputs raw AAC
 
-## Files: 
+### Files: 
 * /usr/bin/aacplusenc
 * /usr/share/doc/aacplusenc-0.17.5/CHANGELOG
 * /usr/share/doc/aacplusenc-0.17.5/COPYRIGHT

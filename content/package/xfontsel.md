@@ -14,9 +14,10 @@ sha1sum = "3a24e6491f04014f582ad184ce0b723b1da72c3b"
 depends = "['libxaw>=1.0.13-3']"
 license = "GPL2"
 +++
+### Description: 
 X.Org xfontsel application
 
-## Files: 
+### Files: 
 * /usr/bin/xfontsel
 * /usr/share/doc/xfontsel-1.1.0/ChangeLog
 * /usr/share/doc/xfontsel-1.1.0/COPYING

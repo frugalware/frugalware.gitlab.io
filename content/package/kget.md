@@ -13,9 +13,10 @@ usize = "11561987"
 sha1sum = "83d3f7d14f13acc42217f5d98c3b10d440d96a87"
 depends = "['kcmutils>=5.115.0', 'kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libktorrent', 'libmms', 'libqgpgme', 'plasma-workspace>=5.27.10']"
 +++
+### Description: 
 A free download manager for KDE.
 
-## Files: 
+### Files: 
 * /usr/bin/kget
 * /usr/lib/libkgetcore.so
 * /usr/lib/libkgetcore.so.5

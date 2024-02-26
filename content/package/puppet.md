@@ -14,9 +14,10 @@ sha1sum = "c7b2f28b22f4ec016e703683751fe2c16d8744b3"
 depends = "['facter', 'ruby-hiera']"
 license = "Apache"
 +++
+### Description: 
 Server automation framework and application
 
-## Files: 
+### Files: 
 * /etc/puppetlabs/puppet/hiera.yaml
 * /etc/puppetlabs/puppet/puppet.conf
 * /opt/puppetlabs/puppet/share/locale/config.yaml

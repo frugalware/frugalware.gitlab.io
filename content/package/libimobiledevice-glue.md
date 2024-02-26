@@ -14,9 +14,10 @@ sha1sum = "41ec44984c0dd413297a05c7291f708436dcdf92"
 depends = "['libplist>=2.3.0']"
 reverse_depends = "['libimobiledevice']"
 +++
+### Description: 
 Common library for connecting to mobile devices
 
-## Files: 
+### Files: 
 * /usr/include/libimobiledevice-glue/cbuf.h
 * /usr/include/libimobiledevice-glue/collection.h
 * /usr/include/libimobiledevice-glue/opack.h

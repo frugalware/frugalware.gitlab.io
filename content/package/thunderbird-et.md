@@ -14,7 +14,8 @@ sha1sum = "88b690d929ab4bdc7f75a238f4d26fdc3ccf0c24"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
+### Description: 
 Estonian language support for Thunderbird
 
-## Files: 
+### Files: 
 * /usr/lib/thunderbird/extensions/langpack-et@thunderbird.mozilla.org.xpi

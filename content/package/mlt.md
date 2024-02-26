@@ -14,9 +14,10 @@ sha1sum = "c4fb250968bedbf16d3acc2429dc68082ce66f66"
 depends = "['alsa-lib>=1.1.2-2', 'exiv2', 'ffmpeg>=6.0', 'frei0r-plugins>=1.5.0-2', 'lame', 'libatomic', 'libdv', 'libdv', 'libexif>=0.6.21-3', 'libmad', 'libogg', 'libsamplerate', 'libvorbis', 'libxcb>=1.12-2', 'sox>=14.3.2-2']"
 reverse_depends = "['kdenlive', 'krita', 'mlt-jack', 'mlt-qt', 'mlt-sdl']"
 +++
+### Description: 
 MLT is an open source multimedia framework, designed and developed for television broadcasting.
 
-## Files: 
+### Files: 
 * /usr/bin/melt
 * /usr/bin/melt-7
 * /usr/include/mlt-7/framework/mlt.h

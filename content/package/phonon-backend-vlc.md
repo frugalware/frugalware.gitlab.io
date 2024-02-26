@@ -13,9 +13,10 @@ usize = "300544"
 sha1sum = "6eb2d5bcb44b7627eeb2f1a367ef7c6b8016b28a"
 depends = "['libvlc>=3.0.0', 'phonon-qt5>=4.9.0']"
 +++
+### Description: 
 Phonon VLC(Video Lan Client) backend.
 
-## Files: 
+### Files: 
 * /usr/lib/qt5/plugins/phonon4qt5_backend/phonon_vlc_qt5.so
 * /usr/share/doc/phonon-backend-vlc-0.12.0/AUTHORS
 * /usr/share/doc/phonon-backend-vlc-0.12.0/COPYING.LIB

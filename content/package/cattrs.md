@@ -13,9 +13,10 @@ usize = "259575"
 sha1sum = "43d42430160b2bbf79b7fc7d95c1fd1ec4b6069e"
 depends = "['python3>=3.10']"
 +++
+### Description: 
 Composable complex class support for attrs.
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/cattr/converters.py
 * /usr/lib/python3.12/site-packages/cattr/disambiguators.py
 * /usr/lib/python3.12/site-packages/cattr/dispatch.py

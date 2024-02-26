@@ -14,9 +14,10 @@ sha1sum = "bac9c1e3fd123fd8895cc51135aba4e64a0749c2"
 depends = "['libkrb5', 'pam']"
 reverse_depends = "['php']"
 +++
+### Description: 
 Imap client library
 
-## Files: 
+### Files: 
 * /usr/include/imap/c-client.h
 * /usr/include/imap/env.h
 * /usr/include/imap/env_unix.h

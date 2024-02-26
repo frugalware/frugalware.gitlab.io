@@ -13,9 +13,10 @@ usize = "73688"
 sha1sum = "f29c7c1ab98e667ee658c1f7fad5cddf8e2e0d1a"
 depends = "['libmtp']"
 +++
+### Description: 
 Udev rules to connect Android devices to your linux box
 
-## Files: 
+### Files: 
 * /usr/lib/sysusers.d/android-udev.conf
 * /usr/lib/udev/rules.d/51-android.rules
 * /usr/share/doc/android-udev-20240114/LICENSE

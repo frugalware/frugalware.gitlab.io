@@ -13,8 +13,9 @@ usize = "44882"
 sha1sum = "9232fc1e92c5b75989cb61048cac33a62a37d596"
 depends = "[]"
 +++
+### Description: 
 Static files for libatomic_ops
 
-## Files: 
+### Files: 
 * /usr/lib/libatomic_ops.a
 * /usr/lib/libatomic_ops_gpl.a

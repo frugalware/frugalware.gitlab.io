@@ -14,9 +14,10 @@ sha1sum = "c12676dc6f78ebf6f88aa4a522c7ad51d590f40e"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['darktable', 'digikam']"
 +++
+### Description: 
 Read and write meta information
 
-## Files: 
+### Files: 
 * /usr/bin/site_perl/exiftool
 * /usr/lib/perl5/site_perl/File/RandomAccess.pm
 * /usr/lib/perl5/site_perl/File/RandomAccess.pod

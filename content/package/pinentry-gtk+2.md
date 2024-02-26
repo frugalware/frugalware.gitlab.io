@@ -13,8 +13,9 @@ usize = "84342"
 sha1sum = "9d9567992481ca92c3c09affb1d39b2b387c8255"
 depends = "['gtk+2', 'pinentry>=1.2.1']"
 +++
+### Description: 
 GTK+2 based Applications for entering PINs or Passphrases.
 
-## Files: 
+### Files: 
 * /usr/bin/pinentry-gtk
 * /usr/bin/pinentry-gtk-2

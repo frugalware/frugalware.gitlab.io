@@ -13,9 +13,10 @@ usize = "48882"
 sha1sum = "3474d340b8c22dafb010859f188e4b0ec9ef497e"
 depends = "['libmad', 'python3']"
 +++
+### Description: 
 Python bindings for MAD
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/mad.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/pymad-0.10-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pymad-0.10-py3.12.egg-info/PKG-INFO

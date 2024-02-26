@@ -14,9 +14,10 @@ sha1sum = "6adefc560509d4ef346b775b40a3a6d0d2f54ebf"
 depends = "['libxaw>=1.0.13-2']"
 license = "GPL2"
 +++
+### Description: 
 X.Org xsm application
 
-## Files: 
+### Files: 
 * /etc/X11/xsm/system.xsm
 * /usr/bin/xsm
 * /usr/share/doc/xsm-1.0.5/ChangeLog

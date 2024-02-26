@@ -13,9 +13,10 @@ usize = "155540"
 sha1sum = "83ebd7e7d6b42547074515edb02bcd92d2a17557"
 depends = "['gpsd', 'qt5-base']"
 +++
+### Description: 
 GPSD Qt5 bindings
 
-## Files: 
+### Files: 
 * /usr/lib/libQgpsmm.prl
 * /usr/lib/libQgpsmm.so
 * /usr/lib/libQgpsmm.so.30

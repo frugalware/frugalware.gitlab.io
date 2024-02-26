@@ -14,9 +14,10 @@ sha1sum = "9188420a0b59c87f5b10fdf57af9c6e4d080bc4a"
 depends = "['glibc>=2.34']"
 reverse_depends = "['exiv2', 'gamemode', 'xfsprogs']"
 +++
+### Description: 
 Simple .INI file parser in C, good for embedded systems
 
-## Files: 
+### Files: 
 * /usr/include/ini.h
 * /usr/include/INIReader.h
 * /usr/lib/libinih.so

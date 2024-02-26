@@ -13,9 +13,10 @@ usize = "31782"
 sha1sum = "a60842a56ad3a445f23971e9bdbe7717f4bd0264"
 depends = "['libdaemon>=0.14-5', 'libssp>=7.3.0-5']"
 +++
+### Description: 
 Discovers DNS servers broadcast with Avahi on a local network
 
-## Files: 
+### Files: 
 * /etc/avahi/avahi-dnsconfd.action
 * /usr/bin/avahi-dnsconfd
 * /usr/lib/systemd/system/avahi-dnsconfd.service

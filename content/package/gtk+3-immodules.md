@@ -13,9 +13,10 @@ usize = "232264"
 sha1sum = "cc0181d352ff697ae10e170912951a56ced9a239"
 depends = "['glib2>=2.60.0', 'gtk+3>=3.24.41', 'libffi>=3.2.1-2', 'pango>=1.42.0']"
 +++
+### Description: 
 Input methods for GTK3+.
 
-## Files: 
+### Files: 
 * /usr/lib/gtk-3.0/3.0.0/immodules/im-am-et.so
 * /usr/lib/gtk-3.0/3.0.0/immodules/im-broadway.so
 * /usr/lib/gtk-3.0/3.0.0/immodules/im-cedilla.so

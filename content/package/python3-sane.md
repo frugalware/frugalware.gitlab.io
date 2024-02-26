@@ -13,9 +13,10 @@ usize = "60032"
 sha1sum = "1b7c1be4fffb6b4aab0e57ab61ddaadb7182fdea"
 depends = "['python3>=3.11', 'sane-backends']"
 +++
+### Description: 
 An interface to the SANE scanner and frame grabber interface for Linux.
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/python_sane-2.9.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/python_sane-2.9.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/python_sane-2.9.1-py3.12.egg-info/SOURCES.txt

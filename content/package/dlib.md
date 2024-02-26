@@ -14,9 +14,10 @@ sha1sum = "f51b23dd536ed959253e45913ba2abef47e80dc6"
 depends = "['lapack', 'libcblas', 'libgif', 'libjpeg-turbo', 'libpng', 'libx11', 'pybind11', 'sqlite3']"
 reverse_depends = "['face_recognition', 'howdy']"
 +++
+### Description: 
 Dlib is a general purpose cross-platform C++ library designed using contract programming and modern C++ techniques.
 
-## Files: 
+### Files: 
 * /usr/include/dlib/algs.h
 * /usr/include/dlib/any.h
 * /usr/include/dlib/any/any.h

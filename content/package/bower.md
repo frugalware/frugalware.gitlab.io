@@ -13,9 +13,10 @@ usize = "20123936"
 sha1sum = "ecee246f1ae25a4297a19dcd4d6487a1799670fe"
 depends = "['glibc']"
 +++
+### Description: 
 A package manager for the web
 
-## Files: 
+### Files: 
 * /usr/bin/bower
 * /usr/lib/node_modules/bower/.editorconfig
 * /usr/lib/node_modules/bower/.eslintignore

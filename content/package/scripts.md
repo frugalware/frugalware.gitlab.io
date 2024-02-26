@@ -14,9 +14,10 @@ sha1sum = "13828671e78c5cb3b5fc5972f1149eb39b9803c5"
 depends = "['libx11>=1.6.3-3']"
 license = "GPL2"
 +++
+### Description: 
 X.Org scripts application
 
-## Files: 
+### Files: 
 * /usr/bin/fontname.sh
 * /usr/bin/fontprop.sh
 * /usr/bin/xauth_switch_to_sun-des-1

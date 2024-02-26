@@ -14,9 +14,10 @@ sha1sum = "27a6a52a0db7eb82af7987fc0147139af376c0cf"
 depends = "['glib2>=2.60.3']"
 reverse_depends = "['appstream', 'fwupd']"
 +++
+### Description: 
 A library to help create and query binary XML blobs
 
-## Files: 
+### Files: 
 * /usr/bin/xb-tool
 * /usr/include/libxmlb-2/libxmlb/xb-builder-fixup.h
 * /usr/include/libxmlb-2/libxmlb/xb-builder-node.h

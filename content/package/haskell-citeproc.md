@@ -14,9 +14,10 @@ sha1sum = "909aa5e313dda2d85e55e1570c4a70227b79f39f"
 depends = "['haskell-case-insensitive', 'haskell-data-default', 'haskell-file-embed', 'haskell-pandoc-types>=1.23.1', 'haskell-safe', 'haskell-unicode-collation', 'haskell-uniplate', 'haskell-xml-conduit']"
 reverse_depends = "['pandoc']"
 +++
+### Description: 
 Generates citations and bibliography from CSL styles.
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/citeproc-0.8.1/Citeproc.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/citeproc-0.8.1/Citeproc.hi
 * /usr/lib/ghc-9.8.1/site-local/citeproc-0.8.1/Citeproc/CaseTransform.dyn_hi

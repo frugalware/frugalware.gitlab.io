@@ -13,9 +13,10 @@ usize = "6470385"
 sha1sum = "1dc9418d11095cb7417810bc7fec53f114642bfa"
 depends = "['freetype2', 'gtk+3', 'gtkmm3', 'pango>=1.40.3-2', 'parted>=3.3']"
 +++
+### Description: 
 Parted GUI written in C++ using gtkmm as Graphical Toolkit
 
-## Files: 
+### Files: 
 * /usr/bin/gparted
 * /usr/lib/gparted/gpartedbin
 * /usr/share/appdata/gparted.appdata.xml

@@ -13,9 +13,10 @@ usize = "7076921"
 sha1sum = "ef6f2f04133e102d818a5e2a34a502faa94afeea"
 depends = "['bcmail', 'dom4j']"
 +++
+### Description: 
 A Java library that generate documents in the Portable Document Format (PDF) and/or HTML.
 
-## Files: 
+### Files: 
 * /usr/share/doc/itext7-7.2.1/README.md
 * /usr/share/java/itext7-barcodes-7.2.1.jar
 * /usr/share/java/itext7-commons-7.2.1.jar

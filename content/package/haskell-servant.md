@@ -14,9 +14,10 @@ sha1sum = "55b70273ffd3e8df5dd1c970fc2520ffe9455778"
 depends = "['haskell-attoparsec-aeson', 'haskell-case-insensitive', 'haskell-constraints', 'haskell-http-api-data', 'haskell-http-media', 'haskell-http-types', 'haskell-mmorph', 'haskell-network-uri', 'haskell-quickcheck', 'haskell-singleton-bool', 'haskell-sop-core', 'haskell-string-conversions', 'haskell-th-compat', 'haskell-type-equality', 'haskell-vault']"
 reverse_depends = "['haskell-servant-server']"
 +++
+### Description: 
 A family of combinators for defining webservices APIs
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/servant-0.20.1/libHSservant-0.20.1-BOlfa9PkkAl9AYEec7rsxw.a
 * /usr/lib/ghc-9.8.1/site-local/servant-0.20.1/Servant/API.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/servant-0.20.1/Servant/API.hi

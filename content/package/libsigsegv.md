@@ -14,9 +14,10 @@ sha1sum = "3679388dd6b001e6e677110ceadfc261818f137a"
 depends = "['glibc>=2.34']"
 reverse_depends = "['clisp', 'texlive-xindy']"
 +++
+### Description: 
 GNU libsigsegv is a library for handling page faults in user mode.
 
-## Files: 
+### Files: 
 * /usr/include/sigsegv.h
 * /usr/lib/libsigsegv.so
 * /usr/lib/libsigsegv.so.2

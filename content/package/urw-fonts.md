@@ -14,9 +14,10 @@ sha1sum = "c487a42a86a209afcbb27447c4dc1261743bf5ac"
 depends = "['fontconfig', 'mkfontscale']"
 reverse_depends = "['a2ps']"
 +++
+### Description: 
 URW++ base 35 font set.
 
-## Files: 
+### Files: 
 * /etc/fonts/conf.avail/70-urw-bookman.conf
 * /etc/fonts/conf.avail/70-urw-c059.conf
 * /etc/fonts/conf.avail/70-urw-d050000l.conf

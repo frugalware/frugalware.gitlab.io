@@ -14,9 +14,10 @@ sha1sum = "ce63836deae0e0d93b42b604c608995d85c260e5"
 depends = "['python3>=3.11']"
 reverse_depends = "['python3-cryptography']"
 +++
+### Description: 
 Python ASN.1 library with a focus on performance and a pythonic API.
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/asn1crypto-1.5.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/asn1crypto-1.5.1-py3.12.egg-info/LICENSE
 * /usr/lib/python3.12/site-packages/asn1crypto-1.5.1-py3.12.egg-info/PKG-INFO

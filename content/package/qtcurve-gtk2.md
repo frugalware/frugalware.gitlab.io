@@ -13,9 +13,10 @@ usize = "443896"
 sha1sum = "104474f4ce624d1fa697f8482c5bc3db64854a99"
 depends = "['gtk+2-libs', 'qtcurve>=1.9']"
 +++
+### Description: 
 QtCurve-Gtk2
 
-## Files: 
+### Files: 
 * /usr/lib/gtk-2.0/2.10.0/engines/libqtcurve.so
 * /usr/lib/libqtcurve-cairo.so
 * /usr/lib/libqtcurve-cairo.so.1

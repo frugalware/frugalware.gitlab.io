@@ -15,9 +15,10 @@ depends = "['libgpg-error>=1.24-2']"
 reverse_depends = "['dirmngr', 'dirmngr-ldap', 'gnupg2', 'gpg-agent', 'gpgme', 'pinentry']"
 license = "LGPLv2.1"
 +++
+### Description: 
 Libassuan is the IPC library used by some GnuPG related software.
 
-## Files: 
+### Files: 
 * /usr/bin/libassuan-config
 * /usr/include/assuan.h
 * /usr/lib/libassuan.so

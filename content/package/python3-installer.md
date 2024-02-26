@@ -14,9 +14,10 @@ sha1sum = "218cdbde94adbc639628b45f7ea12adab440e94e"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-poetry']"
 +++
+### Description: 
 A library for installing Python wheels
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/installer-0.7.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/installer-0.7.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/installer-0.7.0.dist-info/RECORD

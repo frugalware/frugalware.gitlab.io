@@ -14,9 +14,10 @@ sha1sum = "bd0a4d75650da76bb8055104f442137a09f48097"
 depends = "['clang-libs>=17.0.0', 'intel-tbb']"
 reverse_depends = "['openvkl']"
 +++
+### Description: 
 A compiler for high-performance SIMD programming on the CPU
 
-## Files: 
+### Files: 
 * /usr/bin/check_isa
 * /usr/bin/ispc
 * /usr/include/ispcrt/ispcrt.h

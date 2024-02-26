@@ -13,7 +13,8 @@ usize = "22624"
 sha1sum = "7e19177f514a75220beeded9f423b5245a7defb5"
 depends = "['claws-mail=4.1.1']"
 +++
+### Description: 
 Warns when the user composes a message mentioning an attachment and no file is attached
 
-## Files: 
+### Files: 
 * /usr/lib/claws-mail/plugins/attachwarner.so

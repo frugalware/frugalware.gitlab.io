@@ -13,8 +13,9 @@ usize = "5597466"
 sha1sum = "6fb69e814fe06bc8079530f9e955969da9397df0"
 depends = "['fontconfig', 'mkfontscale']"
 +++
+### Description: 
 Font for unicode symbols (part of Unicode Fonts for Ancient Scripts).
 
-## Files: 
+### Files: 
 * /usr/share/fonts/X11/TTF/Symbola.ttf
 * /usr/share/fonts/X11/TTF/Symbola_hint.ttf

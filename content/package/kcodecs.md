@@ -14,9 +14,10 @@ sha1sum = "e8045ad63f6521e58ed08f02779910c75d98cb63"
 depends = "['qt5-base>=5.15.12']"
 reverse_depends = "['akonadi-contacts', 'kconfigwidgets', 'kcontacts', 'kmime']"
 +++
+### Description: 
 Plugins allowing Qt applications to access further types of images.
 
-## Files: 
+### Files: 
 * /usr/include/KF5/KCodecs/KCharsets
 * /usr/include/KF5/KCodecs/kcharsets.h
 * /usr/include/KF5/KCodecs/KCodecs

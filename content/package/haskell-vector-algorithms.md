@@ -14,9 +14,10 @@ sha1sum = "626f2264b02ca6414ba9ef8ec55920624b2b4c5a"
 depends = "['haskell-bitvec']"
 reverse_depends = "['haskell-mono-traversable']"
 +++
+### Description: 
 Efficient algorithms for vector arrays
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/vector-algorithms-0.9.0.1/Data/Vector/Algorithms.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/vector-algorithms-0.9.0.1/Data/Vector/Algorithms.hi
 * /usr/lib/ghc-9.8.1/site-local/vector-algorithms-0.9.0.1/Data/Vector/Algorithms/AmericanFlag.dyn_hi

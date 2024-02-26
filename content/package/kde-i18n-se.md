@@ -13,9 +13,10 @@ usize = "1960123"
 sha1sum = "c5d149566b23cf99fa3eb1109c0b48297db5c9e2"
 depends = "[]"
 +++
+### Description: 
 Northern Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/locale/se/ChangeLog
 * usr/share/locale/se/charset
 * usr/share/locale/se/entry.desktop

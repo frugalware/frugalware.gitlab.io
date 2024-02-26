@@ -15,9 +15,10 @@ depends = "['libcddb>=1.3.2-5', 'libstdc++>=11.2', 'ncurses>=6.1-2']"
 reverse_depends = "['gst1-plugins-ugly-cdio', 'gvfs', 'kiso', 'libcdio-paranoia', 'vcdimager', 'xcfa']"
 license = "GPL2"
 +++
+### Description: 
 Portable CD-ROM I/O library
 
-## Files: 
+### Files: 
 * /usr/bin/cd-drive
 * /usr/bin/cd-info
 * /usr/bin/cd-read

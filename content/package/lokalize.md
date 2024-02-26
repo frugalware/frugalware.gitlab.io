@@ -13,9 +13,10 @@ usize = "7802534"
 sha1sum = "f88feb5b201bc1c66bc805955cc03feb2f3c1eb1"
 depends = "['hunspell>=1.7.0', 'kross>=5.115.0']"
 +++
+### Description: 
 Computer-Aided Translation System.
 
-## Files: 
+### Files: 
 * /usr/bin/lokalize
 * /usr/share/applications/org.kde.lokalize.desktop
 * /usr/share/config.kcfg/lokalize.kcfg

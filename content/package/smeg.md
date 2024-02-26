@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = ""
 depends = "['pyxdg']"
 +++
+### Description: 
 Menu editor for GNOME that lets you get things done, simply and quickly.
 
-## Files: 
+### Files: 
 * usr/bin/smeg
 * usr/lib/smeg/config.py
 * usr/lib/smeg/DialogHandler.py

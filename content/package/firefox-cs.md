@@ -14,7 +14,8 @@ sha1sum = "5a198a6c0c86b94a6d3d3c399f27c6aa025c9090"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Czech language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-cs@firefox.mozilla.org.xpi

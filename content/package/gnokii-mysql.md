@@ -13,8 +13,9 @@ usize = "19103"
 sha1sum = "8670cc283a11bc38aad8a625ce98cec288bc0e82"
 depends = "['glib2', 'gnokii=0.6.31', 'mariadb-libs>=10.3.14']"
 +++
+### Description: 
 MySQL support for gnokii.
 
-## Files: 
+### Files: 
 * /usr/lib/smsd/libsmsd_mysql.la
 * /usr/lib/smsd/libsmsd_mysql.so

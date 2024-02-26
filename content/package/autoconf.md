@@ -14,9 +14,10 @@ sha1sum = "44e19ed868fd501432be7a90395f532bfd2ff275"
 depends = "['bash', 'diffutils>=2.8.1-4', 'gawk>=3.1.6-3', 'm4>=1.4.17-3']"
 reverse_depends = "['autoconf-archive']"
 +++
+### Description: 
 A GNU tool for automatically configuring source code
 
-## Files: 
+### Files: 
 * /usr/bin/autoconf
 * /usr/bin/autoheader
 * /usr/bin/autom4te

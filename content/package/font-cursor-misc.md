@@ -14,9 +14,10 @@ sha1sum = "ed5f80c7b6f6e432e9df29d3df63746bfc9c47f0"
 depends = "['fontconfig', 'mkfontscale']"
 license = "GPL2"
 +++
+### Description: 
 X.Org Cursor Misc Fontset
 
-## Files: 
+### Files: 
 * /usr/share/doc/font-cursor-misc-1.0.4/ChangeLog
 * /usr/share/doc/font-cursor-misc-1.0.4/COPYING
 * /usr/share/doc/font-cursor-misc-1.0.4/INSTALL

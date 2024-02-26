@@ -14,9 +14,10 @@ sha1sum = "272b3beaad0e1bd3596218466b1e662e8e1740e3"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-doctemplates']"
 +++
+### Description: 
 Pure Haskell YAML 1.2 processor
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/HsYAML-0.2.1.3/Data/DList.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/HsYAML-0.2.1.3/Data/DList.hi
 * /usr/lib/ghc-9.8.1/site-local/HsYAML-0.2.1.3/Data/YAML.dyn_hi

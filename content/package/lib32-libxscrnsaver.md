@@ -14,9 +14,10 @@ sha1sum = "c8e00ef20e4930eccfc5b554da5c2cf8a783d4cf"
 depends = "['lib32-libx11>=1.6.7-2', 'lib32-libxext>=1.3.4-2']"
 reverse_depends = "['steam-native']"
 +++
+### Description: 
 The XScrnSaver Library ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/X11/extensions/scrnsaver.h
 * /usr/lib32/libXss.so
 * /usr/lib32/libXss.so.1

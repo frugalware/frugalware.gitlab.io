@@ -14,9 +14,10 @@ sha1sum = "2b3bca3386d30c172839578aa1acbef1b11a53d6"
 depends = "['glib2']"
 reverse_depends = "['libportal-gtk3', 'libportal-gtk4', 'libportal-qt5', 'xdg-desktop-portal']"
 +++
+### Description: 
 GIO-style async APIs for most Flatpak portals
 
-## Files: 
+### Files: 
 * /usr/include/libportal/account.h
 * /usr/include/libportal/background.h
 * /usr/include/libportal/camera.h

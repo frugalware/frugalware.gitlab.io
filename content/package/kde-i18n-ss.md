@@ -13,9 +13,10 @@ usize = "623483"
 sha1sum = "13c601584a9e5e8218d637fd52a92a4cef10fb6c"
 depends = "[]"
 +++
+### Description: 
 Swati Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/locale/ss/charset
 * usr/share/locale/ss/entry.desktop
 * usr/share/locale/ss/LC_MESSAGES/appletproxy.mo

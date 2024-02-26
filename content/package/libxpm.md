@@ -15,9 +15,10 @@ depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3', 'libxt>=1.1.5-3']"
 reverse_depends = "['emacs', 'fluxbox', 'freeciv', 'gimp', 'graphviz', 'gvim', 'libxaw', 'libxaw3d', 'transfig', 'vlc-skins', 'xaw3d', 'xonotic', 'xterm', 'xxkb']"
 license = "GPL2"
 +++
+### Description: 
 X Pixmap Library
 
-## Files: 
+### Files: 
 * /usr/bin/cxpm
 * /usr/bin/sxpm
 * /usr/include/X11/xpm.h

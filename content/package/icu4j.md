@@ -13,8 +13,9 @@ usize = "14597505"
 sha1sum = "c25b7e93e09fdd9142ac3c5fcd2871154e3a5ad6"
 depends = "[]"
 +++
+### Description: 
 ICU4J is a set of Java libraries providing Unicode and Globalization support.
 
-## Files: 
+### Files: 
 * /usr/share/doc/icu4j-73.2/README.txt
 * /usr/share/java/icu4j.jar

@@ -14,9 +14,10 @@ sha1sum = "5748312f2a89b4cc5a9c7de08155268cc45cd13e"
 depends = "['eigen', 'libboost>=1.83']"
 reverse_depends = "['alicevision']"
 +++
+### Description: 
 An efficient C++ library for calibrated camera pose computation using geometric computer vision algorithms.
 
-## Files: 
+### Files: 
 * /usr/include/opengv/absolute_pose/AbsoluteAdapterBase.hpp
 * /usr/include/opengv/absolute_pose/AbsoluteMultiAdapterBase.hpp
 * /usr/include/opengv/absolute_pose/CentralAbsoluteAdapter.hpp

@@ -13,9 +13,10 @@ usize = "797303"
 sha1sum = "70c51c670dad8e0ceba7f3a073cabe30d1bc8f0b"
 depends = "['libkdegames>=23.08.5']"
 +++
+### Description: 
 A Gomoku like game for two players.
 
-## Files: 
+### Files: 
 * /usr/bin/bovo
 * /usr/share/applications/org.kde.bovo.desktop
 * /usr/share/bovo/themes/gomoku/theme.svg

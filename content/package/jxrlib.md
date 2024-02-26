@@ -14,9 +14,10 @@ sha1sum = "78b746c2a51c6e21fbc5fdba5ee1eec8d4a46bb6"
 depends = "['glibc>=2.34']"
 reverse_depends = "['freeimage', 'sdl2_image']"
 +++
+### Description: 
 Open source implementation of jpegxr
 
-## Files: 
+### Files: 
 * /usr/bin/JxrDecApp
 * /usr/bin/JxrEncApp
 * /usr/include/libjxr/common/guiddef.h

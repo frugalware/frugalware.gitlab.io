@@ -14,9 +14,10 @@ sha1sum = "2cd96a7df4e9431cf5b340bd07de900cbe68ef87"
 depends = "['libwayland-egl', 'libxkbcommon', 'vulkan-icd-loader']"
 reverse_depends = "['box2d', 'embree', 'geogram', 'mupdf-gl', 'ospray']"
 +++
+### Description: 
 A free, open source, portable framework for OpenGL application development.
 
-## Files: 
+### Files: 
 * /usr/include/GLFW/glfw3.h
 * /usr/include/GLFW/glfw3native.h
 * /usr/lib/cmake/glfw3/glfw3Config.cmake

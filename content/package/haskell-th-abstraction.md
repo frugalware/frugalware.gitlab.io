@@ -14,9 +14,10 @@ sha1sum = "fd6ba3933faa78bdacb29ed9c2670f9d84016ccb"
 depends = "['ghc>=9.8.1']"
 reverse_depends = "['haskell-bifunctors', 'haskell-microlens-th', 'haskell-th-lift']"
 +++
+### Description: 
 Nicer interface for reified information about data types
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/th-abstraction-0.6.0.0/Language/Haskell/TH/Datatype.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/th-abstraction-0.6.0.0/Language/Haskell/TH/Datatype.hi
 * /usr/lib/ghc-9.8.1/site-local/th-abstraction-0.6.0.0/Language/Haskell/TH/Datatype/Internal.dyn_hi

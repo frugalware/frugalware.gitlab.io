@@ -13,9 +13,10 @@ usize = "1283071"
 sha1sum = "c94ae8f3704aa314374f8dec66c6b460628e861e"
 depends = "['hunspell>=1.0.8']"
 +++
+### Description: 
 Italian dictionary for Hunspell
 
-## Files: 
+### Files: 
 * /usr/share/doc/hunspell-it-20061130/README.txt
 * /usr/share/doc/hunspell-it-20061130/README_it_IT.txt
 * /usr/share/myspell/it_IT.aff

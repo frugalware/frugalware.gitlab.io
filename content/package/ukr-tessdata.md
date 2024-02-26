@@ -13,7 +13,8 @@ usize = "12408731"
 sha1sum = "d2adefa33113493b9027438fe06a1a60a82b9a64"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang ukr
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/ukr.traineddata

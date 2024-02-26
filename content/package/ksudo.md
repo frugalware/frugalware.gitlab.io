@@ -14,9 +14,10 @@ sha1sum = "ea4e22102fa0fa8ecae625244d3aeb5331df98a3"
 depends = "[]"
 license = "GPL2"
 +++
+### Description: 
 GUI with which you can quickly and easily create a config file
 
-## Files: 
+### Files: 
 * usr/bin/ksudo
 * usr/share/applnk/System/ksudo.desktop
 * usr/share/apps/ksudo/defaults.dat

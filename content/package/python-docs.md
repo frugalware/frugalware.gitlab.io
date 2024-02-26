@@ -13,9 +13,10 @@ usize = "34658839"
 sha1sum = "f2ee01c3a4a2cdba2ccd2305a74ad8832039866b"
 depends = "[]"
 +++
+### Description: 
 Documentation for the Python scripting language
 
-## Files: 
+### Files: 
 * /etc/profile.d/python-docs.sh
 * /usr/share/doc/python-2.7.18/.buildinfo
 * /usr/share/doc/python-2.7.18/about.html

@@ -13,9 +13,10 @@ usize = "17325903"
 sha1sum = "fe103f94b76d7fa4a0108ba81e5bab7ceb2178fd"
 depends = "[]"
 +++
+### Description: 
 Ellanna theme for Gnome.
 
-## Files: 
+### Files: 
 * /usr/share/doc/gnome-theme-ellannar-1.3.2/COPYING
 * /usr/share/gnome-background-properties/ellanna-wallpaper.xml
 * /usr/share/icons/ellanna/actions/16/add.svg

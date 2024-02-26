@@ -14,9 +14,10 @@ sha1sum = "e23af1d6620bb2c51950faf168d821a163885f62"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['kitinerary', 'prison']"
 +++
+### Description: 
 A command-line tool to decode QRCode
 
-## Files: 
+### Files: 
 * /usr/bin/ZXingReader
 * /usr/bin/ZXingWriter
 * /usr/include/ZXing/BarcodeFormat.h

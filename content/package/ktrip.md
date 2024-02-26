@@ -13,9 +13,10 @@ usize = "255121"
 sha1sum = "ae37e83653870b67d74f5ce4971131e884d769fd"
 depends = "['kconfig', 'kcoreaddons', 'kitemmodels', 'kpublictransport', 'qqc2-desktop-style', 'qt5-quickcontrols2']"
 +++
+### Description: 
 Public Transport Assistance for Mobile Devices
 
-## Files: 
+### Files: 
 * /usr/bin/ktrip
 * /usr/share/applications/org.kde.ktrip.desktop
 * /usr/share/doc/ktrip-23.08.5/README.md

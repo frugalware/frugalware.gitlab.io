@@ -14,9 +14,10 @@ sha1sum = "c045c68a39a61ef8166bfdee149b39b868e2ab19"
 depends = "['python3>=3.12']"
 reverse_depends = "['picard', 'yt-dlp']"
 +++
+### Description: 
 Mutagen is an audio metadata tag reader and writer.
 
-## Files: 
+### Files: 
 * /usr/bin/mid3cp
 * /usr/bin/mid3iconv
 * /usr/bin/mid3v2

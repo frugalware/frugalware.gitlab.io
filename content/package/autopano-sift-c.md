@@ -13,9 +13,10 @@ usize = "395191"
 sha1sum = "1186e3547b55e4202fe5e5d328b2065e6ee8781d"
 depends = "['libpano13>=2.9.19', 'libxml2']"
 +++
+### Description: 
 Identify key feature points within arbitrary images.
 
-## Files: 
+### Files: 
 * /usr/bin/autopano
 * /usr/bin/autopano-c-complete.sh
 * /usr/bin/autopano-sift-c

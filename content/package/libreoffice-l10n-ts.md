@@ -13,9 +13,10 @@ usize = "1324895"
 sha1sum = "0c9790babe8b876581a4aab7c15ddd807c663067"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Tsonga support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/resource/ts/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/ts/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/ts/LC_MESSAGES/basctl.mo

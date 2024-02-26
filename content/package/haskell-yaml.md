@@ -14,9 +14,10 @@ sha1sum = "6eaf49a419d467c793ddcd980b6526a02a79ef02"
 depends = "['haskell-aeson', 'haskell-attoparsec', 'haskell-libyaml']"
 reverse_depends = "['haskell-typst']"
 +++
+### Description: 
 Support for parsing and rendering YAML documents
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/yaml-0.11.11.2/Data/Yaml.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/yaml-0.11.11.2/Data/Yaml.hi
 * /usr/lib/ghc-9.8.1/site-local/yaml-0.11.11.2/Data/Yaml/Aeson.dyn_hi

@@ -13,9 +13,10 @@ usize = "2680824"
 sha1sum = "6c463a64c81fe5f4815c90e03e3a05be7b43587a"
 depends = "['glib2>=2.60.3', 'gpgme', 'libidn>=1.35']"
 +++
+### Description: 
 Library and set of utilities for the creation and parsing of messages using MIME (version 3)
 
-## Files: 
+### Files: 
 * /usr/include/gmime-3.0/gmime/gmime-application-pkcs7-mime.h
 * /usr/include/gmime-3.0/gmime/gmime-autocrypt.h
 * /usr/include/gmime-3.0/gmime/gmime-certificate.h

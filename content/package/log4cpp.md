@@ -13,9 +13,10 @@ usize = "1582014"
 sha1sum = "daf125d72130cb5e4f1546312ed4da8d6ea4b37c"
 depends = "['libgcc>=7.3.0-7', 'libstdc++>=7.3.0-7']"
 +++
+### Description: 
 A library of C++ classes for flexible logging to files, syslog, IDSA and other destinations.
 
-## Files: 
+### Files: 
 * /usr/include/log4cplus/appender.h
 * /usr/include/log4cplus/asyncappender.h
 * /usr/include/log4cplus/boost/deviceappender.hxx

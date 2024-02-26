@@ -13,9 +13,10 @@ usize = "45929886"
 sha1sum = "da19e5644e4ac71cd7e019c021452653dc2bc898"
 depends = "['python3-numpy', 'python3-scipy']"
 +++
+### Description: 
 A set of python modules for machine learning and data mining
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/scikit_learn-1.3.2-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/scikit_learn-1.3.2-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/scikit_learn-1.3.2-py3.12.egg-info/PKG-INFO

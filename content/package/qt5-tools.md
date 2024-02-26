@@ -14,9 +14,10 @@ sha1sum = "a47c5cc6dee3649a719dec8031329795115c212d"
 depends = "['clang-libs>=16.0.6', 'qt5-declarative>=5.15.6', 'qt5-location>=5.15.6', 'qt5-qdbus>=5.15.12']"
 reverse_depends = "['kde-dev-utils', 'kdevelop', 'librecad', 'marble', 'plasma-workspace', 'qscintilla2-qt5']"
 +++
+### Description: 
 The Qt5 toolkit, qttools
 
-## Files: 
+### Files: 
 * /usr/bin/assistant
 * /usr/bin/assistant-qt5
 * /usr/bin/designer

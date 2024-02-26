@@ -14,9 +14,10 @@ sha1sum = "e14e465feea8a644952bb97230cd11f0015daf98"
 depends = "['perl>=5.34.0', 'perl-http-message']"
 reverse_depends = "['perl-libwww']"
 +++
+### Description: 
 Choose a variant to serve.
 
-## Files: 
+### Files: 
 * /usr/lib/perl5/site_perl/current/HTTP/Negotiate.pm
 * /usr/share/doc/perl-http-negotiate-6.01/MANIFEST
 * /usr/share/doc/perl-http-negotiate-6.01/README

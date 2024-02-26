@@ -14,9 +14,10 @@ sha1sum = "5e439a4f5b72bd1e5e6fd1513d360f0ff3b0baeb"
 depends = "['libxres>=1.0.7-3', 'ncurses>=6.0-6']"
 license = "GPL"
 +++
+### Description: 
 A utility to monitor the usage of resources within the X Server, and display them in a manner similar to top.
 
-## Files: 
+### Files: 
 * /usr/bin/xrestop
 * /usr/share/doc/xrestop-0.4/AUTHORS
 * /usr/share/doc/xrestop-0.4/ChangeLog

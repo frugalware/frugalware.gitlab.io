@@ -14,9 +14,10 @@ sha1sum = "c3e3fe5653c7461bcaafb70c4277c5e4677f201e"
 depends = "['glibc>=2.34']"
 reverse_depends = "['lib32-libsystemd', 'lib32-pipewire']"
 +++
+### Description: 
 POSIX 1003.1e capabilities ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/sys/capability.h
 * /usr/i686-frugalware-linux/include/sys/psx_syscall.h
 * /usr/i686-frugalware-linux/sbin/capsh

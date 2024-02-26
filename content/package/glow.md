@@ -13,9 +13,10 @@ usize = "19982492"
 sha1sum = "4bd51b4bcd9115c787f4f2a9a9ebc451b29db2a9"
 depends = "['glibc']"
 +++
+### Description: 
 Markdown renderer for the CLI
 
-## Files: 
+### Files: 
 * /usr/bin/glow
 * /usr/share/doc/glow-1.5.1/LICENSE
 * /usr/share/doc/glow-1.5.1/README.md

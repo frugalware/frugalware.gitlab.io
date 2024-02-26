@@ -14,9 +14,10 @@ sha1sum = "2656a7b6293c548dde3c1419f3ace26a5a4a0ea5"
 depends = "['freeimage>=3.17.0-3', 'freetype2>=2.7.1', 'harfbuzz', 'libatomic>=6.2.1-5', 'libboost>=1.72.0', 'libglu', 'libxaw', 'libxrandr', 'pugixml', 'zziplib>=0.13.62-2']"
 reverse_depends = "['ogre-media']"
 +++
+### Description: 
 A scene-oriented flexible 3D engine written in C++
 
-## Files: 
+### Files: 
 * /etc/ld.so.conf.d/ogre.conf
 * /usr/bin/OgreMeshUpgrader
 * /usr/bin/OgreXMLConverter

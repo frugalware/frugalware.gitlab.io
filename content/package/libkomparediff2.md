@@ -14,9 +14,10 @@ sha1sum = "a6551388615f1d7692d959b5c128b31ba819317b"
 depends = "['kparts>=5.115.0', 'qt5-svg>=5.15.12']"
 reverse_depends = "['kdevelop', 'kompare']"
 +++
+### Description: 
 Library to compare files and strings.
 
-## Files: 
+### Files: 
 * /usr/include/KompareDiff2/KompareDiff2/Difference
 * /usr/include/KompareDiff2/komparediff2/difference.h
 * /usr/include/KompareDiff2/KompareDiff2/DifferenceString

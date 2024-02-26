@@ -14,9 +14,10 @@ sha1sum = "1365b5b93ca7e695f20c1c51927b39c643d089c4"
 depends = "['ghc>=9.6.2']"
 reverse_depends = "['haskell-texmath', 'haskell-typst']"
 +++
+### Description: 
 Symbol and emoji lookup for typst language
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/typst-symbols-0.1.5/libHStypst-symbols-0.1.5-CubrA7qysq974frutcgFfb.a
 * /usr/lib/ghc-9.8.1/site-local/typst-symbols-0.1.5/Typst/Emoji.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/typst-symbols-0.1.5/Typst/Emoji.hi

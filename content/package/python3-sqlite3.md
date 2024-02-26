@@ -14,9 +14,10 @@ sha1sum = "0bedc990187059ad19dbfc35fc582466f13f1e19"
 depends = "['python3>=3.12.2', 'sqlite3>=3.22.0-2']"
 reverse_depends = "['fail2ban', 'gem', 'lutris', 'sunflower']"
 +++
+### Description: 
 Python3 support for sqlite3
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/lib-dynload/_sqlite3.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/sqlite3/dbapi2.py
 * /usr/lib/python3.12/sqlite3/dump.py

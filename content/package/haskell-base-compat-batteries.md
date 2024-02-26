@@ -13,9 +13,10 @@ usize = "4280822"
 sha1sum = "b5d28ca574bf0dde414a64bf4ed46c0df4d46b5a"
 depends = "['haskell-base-compat>=0.11.1-2']"
 +++
+### Description: 
 A compatibility layer for base batteries
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/base-compat-batteries-0.13.1/Control/Concurrent/Compat.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/base-compat-batteries-0.13.1/Control/Concurrent/Compat.hi
 * /usr/lib/ghc-9.8.1/site-local/base-compat-batteries-0.13.1/Control/Concurrent/Compat/Repl/Batteries.dyn_hi

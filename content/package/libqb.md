@@ -14,9 +14,10 @@ sha1sum = "d07ab963fb54be46ee942c2f4c6e7b5af54c4138"
 depends = "['glibc>=2.34']"
 reverse_depends = "['usbguard']"
 +++
+### Description: 
 Library with the primary purpose of providing high performance client server reusable features
 
-## Files: 
+### Files: 
 * /usr/bin/doxygen2man
 * /usr/bin/qb-blackbox
 * /usr/include/qb/qbarray.h

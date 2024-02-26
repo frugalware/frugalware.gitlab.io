@@ -14,9 +14,10 @@ sha1sum = "57f5ef785eed2a2a0e8176b06b532084f41f43e4"
 depends = "['bzip2>=1.0.6-16', 'expat>=2.2.6-2', 'lzo>=1.9.2', 'nettle>=3.5.1', 'openssl>=3.1.0', 'xz>=5.2.4-2', 'zlib>=1.2.12', 'zstd']"
 reverse_depends = "['ark', 'claws-mail-plugin-archive', 'cmake', 'dracut-ykfde', 'fwupd', 'gvfs', 'networkmanager', 'ostree', 'pacman-g2', 'qmmp', 'samba-client', 'vlc-archive']"
 +++
+### Description: 
 Library to create and read several different archive formats
 
-## Files: 
+### Files: 
 * /usr/bin/bsdcat
 * /usr/bin/bsdcpio
 * /usr/bin/bsdtar

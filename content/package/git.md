@@ -14,9 +14,10 @@ sha1sum = "fb2ce654dd05e8768b939226458b59742aafdcec"
 depends = "['curl>=7.19.0', 'expat', 'openssl>=3.1.0', 'pcre2', 'perl-authen-sasl', 'perl-error']"
 reverse_depends = "['discover', 'etckeeper', 'flutter', 'git-crypt', 'git-gui', 'git-imerge', 'git-lfs', 'gitk', 'gitweb', 'opam', 'plasma-sdk', 'qgit', 'steamtinkerlaunch']"
 +++
+### Description: 
 A fast, scalable, distributed revision control system.
 
-## Files: 
+### Files: 
 * /etc/bash_completion.d/git
 * /etc/sysconfig/git
 * /usr/bin/git

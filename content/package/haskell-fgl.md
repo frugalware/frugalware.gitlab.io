@@ -14,9 +14,10 @@ sha1sum = "a1451662239efb4d65106316a730da77636b96dc"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['shellcheck']"
 +++
+### Description: 
 Martin Erwig's Functional Graph Library
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/fgl-5.8.2.0/Data/Graph/Inductive.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/fgl-5.8.2.0/Data/Graph/Inductive.hi
 * /usr/lib/ghc-9.8.1/site-local/fgl-5.8.2.0/Data/Graph/Inductive/Basic.dyn_hi

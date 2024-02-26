@@ -14,7 +14,8 @@ sha1sum = "359afb0f1b3a5ddb40f85ddbea189e36413ffeaa"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Hungarian language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-hu@firefox.mozilla.org.xpi

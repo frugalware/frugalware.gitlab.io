@@ -13,7 +13,8 @@ usize = "29502"
 sha1sum = "ef876b6f11e8802e67de19c8f89b0e18c5c97ada"
 depends = "['dialog>=1.3_20160828']"
 +++
+### Description: 
 Provide information about alsa
 
-## Files: 
+### Files: 
 * /usr/bin/alsa-info.sh

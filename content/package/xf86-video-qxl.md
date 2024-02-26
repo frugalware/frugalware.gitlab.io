@@ -14,9 +14,10 @@ sha1sum = "cf8d82db2eed6aa6a3f468f6b3173de3f090d71c"
 depends = "['libsystemd', 'spice-protocol>=0.12.12-1', 'xorg-server>=1.20']"
 license = "GPL2"
 +++
+### Description: 
 X.Org driver for the QXL virtual GPU.
 
-## Files: 
+### Files: 
 * /usr/lib/xorg/modules/drivers/qxl_drv.so
 * /usr/share/doc/xf86-video-qxl-0.1.6/ChangeLog
 * /usr/share/doc/xf86-video-qxl-0.1.6/COPYING

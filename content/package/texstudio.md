@@ -13,9 +13,10 @@ usize = "369648020"
 sha1sum = "afb48e35792a61a81e6a7685efecfeafa4d3f705"
 depends = "['hunspell>=1.7.0', 'poppler-qt5>=0.60.1-2', 'qt5-base>=5.15.10', 'qt5-script>=5.15.10', 'qt5-svg>=5.15.10']"
 +++
+### Description: 
 Fork of the LaTeX IDE TexMaker. Gives you an environment where you can easily create and manage LaTeX documents
 
-## Files: 
+### Files: 
 * /usr/bin/texstudio
 * /usr/share/applications/texstudio.desktop
 * /usr/share/doc/texstudio-4.5.2/COPYING

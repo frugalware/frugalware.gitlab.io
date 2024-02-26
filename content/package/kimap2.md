@@ -13,9 +13,10 @@ usize = "656789"
 sha1sum = "6a1d90abd39702153e8a79748fc2308e93073848"
 depends = "['cyrus-sasl', 'kcoreaddons>=5.105.0', 'kmime>=23.04.0', 'pcre2']"
 +++
+### Description: 
 Job-based API for interacting with an IMAP4rev1 server.
 
-## Files: 
+### Files: 
 * /usr/include/kimap2/Acl
 * /usr/include/KIMAP2/Acl
 * /usr/include/kimap2/acl.h

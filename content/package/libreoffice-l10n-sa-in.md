@@ -13,9 +13,10 @@ usize = "2118449"
 sha1sum = "f436aa46bad552704f453ff2b861a503a816debb"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Sanskrit (India) support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/resource/sa_IN/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/sa_IN/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/sa_IN/LC_MESSAGES/basctl.mo

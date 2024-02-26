@@ -13,9 +13,10 @@ usize = "383887"
 sha1sum = "16f056b472369e03fa8414d40deb76afbbbf048c"
 depends = "['curl>=7.50.3-2', 'libgcrypt>=1.6.4-3', 'libproxy>=0.4.13-2', 'libstdc++>=11.2', 'lua>=5.4']"
 +++
+### Description: 
 Small C library used to parse flash media stream URLs
 
-## Files: 
+### Files: 
 * /usr/include/quvi-0.9/quvi.h
 * /usr/include/quvi-0.9/quvi/qbool.h
 * /usr/include/quvi-0.9/quvi/qcallback.h

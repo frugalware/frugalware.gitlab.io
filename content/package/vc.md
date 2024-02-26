@@ -13,9 +13,10 @@ usize = "3712573"
 sha1sum = "34160cb4ba22b600345f02541e66b777b26b795b"
 depends = "[]"
 +++
+### Description: 
 C++ types for explicitly data-parallel programming
 
-## Files: 
+### Files: 
 * /usr/include/Vc/algorithm
 * /usr/include/Vc/Allocator
 * /usr/include/Vc/array

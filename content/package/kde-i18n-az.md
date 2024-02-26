@@ -13,9 +13,10 @@ usize = "1386634"
 sha1sum = "fc50ddfae7d0eea36bc8d2f1a00ceea84ddc783d"
 depends = "[]"
 +++
+### Description: 
 Azerbaijani Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/locale/az/charset
 * usr/share/locale/az/entry.desktop
 * usr/share/locale/az/flag.png

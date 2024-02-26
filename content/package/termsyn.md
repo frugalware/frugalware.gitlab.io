@@ -13,9 +13,10 @@ usize = "170796"
 sha1sum = "7e73c760c11f51b965ad10ce65164fdae8dd6d67"
 depends = "['fontconfig', 'mkfontscale']"
 +++
+### Description: 
 Monospaced font based on terminus and tamsyn with bold and versions with status icons
 
-## Files: 
+### Files: 
 * /usr/share/doc/termsyn-1.8.7/README.termsyn
 * /usr/share/fonts/X11/misc/termsyn6x11b.icons.pcf.gz
 * /usr/share/fonts/X11/misc/termsyn6x11b.pcf.gz

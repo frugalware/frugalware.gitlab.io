@@ -15,9 +15,10 @@ depends = "[]"
 reverse_depends = "['otf-texgyre']"
 license = "GPL2"
 +++
+### Description: 
 X.Org font utils
 
-## Files: 
+### Files: 
 * /usr/bin/bdftruncate
 * /usr/bin/ucs2any
 * /usr/lib/pkgconfig/fontutil.pc

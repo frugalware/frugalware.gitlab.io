@@ -13,9 +13,10 @@ usize = "30861"
 sha1sum = "4bf3046f42210cae5cd0c64d7a18e6b68e494f08"
 depends = "['colord-gtk', 'gtk+4']"
 +++
+### Description: 
 GTK+4 integration for libcolord
 
-## Files: 
+### Files: 
 * /usr/lib/libcolord-gtk4.so
 * /usr/lib/libcolord-gtk4.so.1
 * /usr/lib/libcolord-gtk4.so.1.0.3

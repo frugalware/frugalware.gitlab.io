@@ -14,7 +14,8 @@ sha1sum = "adb00be2e3f35291f0e473f160638dfe06edf071"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
+### Description: 
 Indonesian language support for Thunderbird
 
-## Files: 
+### Files: 
 * /usr/lib/thunderbird/extensions/langpack-id@thunderbird.mozilla.org.xpi

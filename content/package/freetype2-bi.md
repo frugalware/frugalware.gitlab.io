@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "8351684e523935afa45c116bab9a012aecdbe8f2"
 depends = "['glibc', 'zlib']"
 +++
+### Description: 
 TrueType font rendering library - 2.0 series (with bytecode interpreter)
 
-## Files: 
+### Files: 
 * usr/bin/freetype-config
 * usr/include/freetype2/freetype/config/ftconfig.h
 * usr/include/freetype2/freetype/config/ftheader.h

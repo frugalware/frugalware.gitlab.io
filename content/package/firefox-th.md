@@ -14,7 +14,8 @@ sha1sum = "1314d0dd1330efa88358324cb72dc80a691f34d9"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Thai language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-th@firefox.mozilla.org.xpi

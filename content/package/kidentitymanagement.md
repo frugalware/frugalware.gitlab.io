@@ -14,9 +14,10 @@ sha1sum = "18862da39aa41781452dfbf17730a7817bb03d4b"
 depends = "['kpimtextedit>=23.08.5']"
 reverse_depends = "['kcalutils', 'kmail-account-wizard', 'kopete', 'libksieve', 'messagelib']"
 +++
+### Description: 
 KDE PIM libraries
 
-## Files: 
+### Files: 
 * /usr/include/KPim5/KIdentityManagement/KIdentityManagement/Identity
 * /usr/include/KPim5/KIdentityManagement/kidentitymanagement/identity.h
 * /usr/include/KPim5/KIdentityManagement/KIdentityManagement/IdentityManager

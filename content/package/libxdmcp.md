@@ -15,9 +15,10 @@ depends = "['glibc>=2.3.4']"
 reverse_depends = "['distcc-gui', 'efl', 'enlightenment', 'firefox', 'guvcview', 'libextractor', 'libx11', 'libxcb', 'mupen64plus', 'printoxx', 'terminology', 'xcb-util', 'xcb-util-image', 'xcb-util-wm', 'xcfa', 'xorg-server-fbdev', 'xpad', 'xrdp']"
 license = "GPL2"
 +++
+### Description: 
 X.Org Xdmcp library
 
-## Files: 
+### Files: 
 * /usr/include/X11/Xdmcp.h
 * /usr/lib/libXdmcp.so
 * /usr/lib/libXdmcp.so.6

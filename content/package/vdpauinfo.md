@@ -13,9 +13,10 @@ usize = "47750"
 sha1sum = "e5415564ae3ad05049d8cbf65fd8b42a9cb78875"
 depends = "['libstdc++>=5.3.0-2', 'libvdpau>=1.1.1-2']"
 +++
+### Description: 
 Command line utility for querying the capabilities of a VDPAU
 
-## Files: 
+### Files: 
 * /usr/bin/vdpauinfo
 * /usr/share/doc/vdpauinfo-1.0/ChangeLog
 * /usr/share/doc/vdpauinfo-1.0/COPYING

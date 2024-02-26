@@ -14,7 +14,8 @@ sha1sum = "723c518e06ff15c70809c8760aba9850197de5d5"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Turkish language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-tr@firefox.mozilla.org.xpi

@@ -14,9 +14,10 @@ sha1sum = "640e97eab8ac2c1746a1fc012c7183ac8f100374"
 depends = "['gtk+3', 'libreoffice>=24.2.0.3']"
 reverse_depends = "['libreoffice-gtk3-kde5']"
 +++
+### Description: 
 libreoffice GTK3 integration
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/liblibreofficekitgtk.so
 * /usr/lib/libreoffice/program/liblosessioninstalllo.so
 * /usr/lib/libreoffice/program/libucpgio1lo.so

@@ -15,9 +15,10 @@ depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3']"
 reverse_depends = "['alienarena', 'allegro', 'kdetv', 'mencoder', 'mjpegtools', 'mplayer', 'mpv', 'xf86dga', 'xonotic']"
 license = "GPL2"
 +++
+### Description: 
 X.Org Xxf86dga library
 
-## Files: 
+### Files: 
 * /usr/include/X11/extensions/xf86dga1.h
 * /usr/include/X11/extensions/Xxf86dga.h
 * /usr/lib/libXxf86dga.so

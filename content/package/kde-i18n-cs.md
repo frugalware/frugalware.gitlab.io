@@ -13,9 +13,10 @@ usize = "8227145"
 sha1sum = "000b32894d2415b5a272ce5024e3ba4df538402b"
 depends = "[]"
 +++
+### Description: 
 Czech Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/apps/khangman/cs.txt
 * usr/share/apps/khangman/data/cs/animals.kvtml
 * usr/share/apps/khangman/data/cs/easy.kvtml

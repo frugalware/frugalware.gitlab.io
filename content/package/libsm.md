@@ -15,9 +15,10 @@ depends = "['libice>=1.0.9-8', 'libuuid>=2.31.1-3']"
 reverse_depends = "['allegro', 'claws-mail', 'dbus-x11', 'gifsicle', 'gvim', 'kdelibs4support', 'ksubeditor', 'ksubtile', 'kwin5', 'libpulse', 'libxt', 'openbox', 'opencv', 'pidgin', 'pulseaudio-x11', 'qt5-base', 'wmi', 'xpad']"
 license = "GPL2"
 +++
+### Description: 
 X Session Management Library
 
-## Files: 
+### Files: 
 * /usr/include/X11/SM/SM.h
 * /usr/include/X11/SM/SMlib.h
 * /usr/include/X11/SM/SMproto.h

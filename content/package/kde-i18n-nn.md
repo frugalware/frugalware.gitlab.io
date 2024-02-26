@@ -13,9 +13,10 @@ usize = "5201523"
 sha1sum = "293f121e16288e4b44ff2c0c9a15e5573b46a62d"
 depends = "[]"
 +++
+### Description: 
 Norwegian Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/apps/khangman/data/nn/animals.kvtml
 * usr/share/apps/khangman/data/nn/easy.kvtml
 * usr/share/apps/khangman/data/nn/hard.kvtml

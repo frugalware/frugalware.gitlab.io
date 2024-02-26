@@ -13,6 +13,7 @@ usize = "0"
 sha1sum = "d302eda1d8dc0dbbce10a4b52be30f1c26d8b844"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs scripting javascript support in LibreOffice
 
-## Files: 
+### Files: 

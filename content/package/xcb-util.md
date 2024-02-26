@@ -14,9 +14,10 @@ sha1sum = "5f10187b435c1decc8f2db80f990340acea03592"
 depends = "['libxau>=1.0.8-3', 'libxcb>=1.13', 'libxdmcp>=1.1.2-3', 'xcb-util-keysyms>=0.4.0-3', 'xcb-util-renderutil>=0.3.9-4']"
 reverse_depends = "['startup-notification', 'wlroots', 'xbacklight', 'xcb-util-image', 'xcb-util-xrm', 'xf86-video-intel']"
 +++
+### Description: 
 Utility libraries for X C Binding
 
-## Files: 
+### Files: 
 * /usr/include/xcb/xcb_atom.h
 * /usr/include/xcb/xcb_aux.h
 * /usr/include/xcb/xcb_event.h

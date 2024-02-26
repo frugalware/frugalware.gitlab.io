@@ -14,7 +14,8 @@ sha1sum = "782df49286eedad4c79d4b1136ba367f024198d7"
 depends = "[]"
 license = "GPL2"
 +++
+### Description: 
 Russian language files for Eric
 
-## Files: 
+### Files: 
 * usr/lib/python2.6/site-packages/eric3/i18n/eric3_ru.qm

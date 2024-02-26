@@ -13,7 +13,8 @@ usize = "2494893"
 sha1sum = "d256ca1a0151395d45729ce7da63830e14302a2c"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang ara
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/ara.traineddata

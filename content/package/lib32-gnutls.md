@@ -14,9 +14,10 @@ sha1sum = "f3d10217b2fc5abbce56ae3d4116258641d1cb31"
 depends = "['lib32-brotli', 'lib32-libidn2>=1.35', 'lib32-libunistring>=1.1', 'lib32-nettle>=3.6', 'lib32-p11-kit>=0.23.2-10', 'lib32-zstd']"
 reverse_depends = "['lib32-ffmpeg', 'lib32-libcups', 'lib32-libcurl-gnutls', 'lib32-libmicrohttpd', 'lib32-libsystemd', 'lib32-libzip', 'lib32-rtmpdump']"
 +++
+### Description: 
 A library which provides a secure layer over a reliable transport layer ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/certtool
 * /usr/i686-frugalware-linux/bin/gnutls-cli
 * /usr/i686-frugalware-linux/bin/gnutls-cli-debug

@@ -13,9 +13,10 @@ usize = "3822206"
 sha1sum = "7a107f2272dcd9f9953630ec6f49ca963798f983"
 depends = "['ffmpeg', 'python3-isodate', 'python3-pycountry', 'python3-pycryptodome', 'python3-requests', 'python3-websocket_client', 'rtmpdump']"
 +++
+### Description: 
 CLI program that launches streams from various streaming services in a custom video player
 
-## Files: 
+### Files: 
 * /usr/bin/streamlink
 * /usr/lib/python3.12/site-packages/streamlink-0.0.0+unknown-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/streamlink-0.0.0+unknown-py3.12.egg-info/entry_points.txt

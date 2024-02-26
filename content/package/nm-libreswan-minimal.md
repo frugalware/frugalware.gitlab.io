@@ -13,9 +13,10 @@ usize = "412749"
 sha1sum = "218a680a597502bb529692476be965517b3ae978"
 depends = "['networkmanager']"
 +++
+### Description: 
 network management framework (libreswan plugin) without GNOME
 
-## Files: 
+### Files: 
 * /etc/dbus-1/system.d/nm-libreswan-service.conf
 * /usr/lib/NetworkManager/libnm-vpn-plugin-libreswan.so
 * /usr/lib/nm-libreswan/nm-libreswan-auth-dialog

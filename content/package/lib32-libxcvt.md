@@ -14,9 +14,10 @@ sha1sum = "044b6252be50c1c6b81257a1f4d901ce6ab89d06"
 depends = "[]"
 reverse_depends = "['lib32-xorg-server']"
 +++
+### Description: 
 library providing a standalone version of the X server implementation of the VESA CVT standard timing modelines generator ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/cvt
 * /usr/i686-frugalware-linux/include/libxcvt/libxcvt.h
 * /usr/i686-frugalware-linux/include/libxcvt/libxcvt_mode.h

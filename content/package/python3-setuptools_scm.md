@@ -14,9 +14,10 @@ sha1sum = "741e95aa9c1b9828eac998b5391a690512f7d0f4"
 depends = "['python3-setuptools', 'python3-tomli', 'python3-typing_extensions']"
 reverse_depends = "['duplicity', 'psautohint', 'python3-flit_scm', 'python3-hatch-vcs', 'python3-setuptools-git-ls-files', 'python3-setuptools_scm-git-archive']"
 +++
+### Description: 
 Handles managing your python package versions in scm metadata.
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/setuptools_scm-8.0.4.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/setuptools_scm-8.0.4.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/setuptools_scm-8.0.4.dist-info/METADATA

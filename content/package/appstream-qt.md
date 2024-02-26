@@ -14,9 +14,10 @@ sha1sum = "aff373898db86b5897d61b17ea9e73660bd39e16"
 depends = "['appstream=1.0.2', 'qt5-base']"
 reverse_depends = "['discover', 'frameworkintegration']"
 +++
+### Description: 
 Qt Bindings for Appstream
 
-## Files: 
+### Files: 
 * /usr/include/AppStreamQt5/appstreamqt_export.h
 * /usr/include/AppStreamQt5/bundle.h
 * /usr/include/AppStreamQt5/category.h

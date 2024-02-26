@@ -14,9 +14,10 @@ sha1sum = "bb72e03b41d1e2ab915bf713abe2739583eddb63"
 depends = "[]"
 reverse_depends = "['lib32-curl', 'lib32-db', 'lib32-libcups', 'lib32-libevent', 'lib32-libldap', 'lib32-libpulse', 'lib32-libssh2', 'lib32-libzip']"
 +++
+### Description: 
 The Open Source toolkit for Secure Sockets Layer and Transport Layer Security ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/c_rehash
 * /usr/i686-frugalware-linux/bin/openssl
 * /usr/i686-frugalware-linux/include/openssl/aes.h

@@ -15,9 +15,10 @@ depends = "[]"
 reverse_depends = "['bitmap', 'xbiff', 'xsetroot']"
 license = "GPL2"
 +++
+### Description: 
 X.Org bitmaps data
 
-## Files: 
+### Files: 
 * /usr/include/X11/bitmaps/1x1
 * /usr/include/X11/bitmaps/2x2
 * /usr/include/X11/bitmaps/black

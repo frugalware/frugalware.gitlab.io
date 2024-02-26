@@ -14,9 +14,10 @@ sha1sum = "74abbdd8590d1e0bdc35c133b152cd5d6a5192da"
 depends = "['haskell-hashable>=1.4.2.0']"
 reverse_depends = "['haskell-citeproc', 'haskell-http-media', 'haskell-http-types', 'haskell-servant', 'haskell-skylighting-core']"
 +++
+### Description: 
 Case insensitive string comparison
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/case-insensitive-1.2.1.0/Data/CaseInsensitive.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/case-insensitive-1.2.1.0/Data/CaseInsensitive.hi
 * /usr/lib/ghc-9.8.1/site-local/case-insensitive-1.2.1.0/Data/CaseInsensitive/Internal.dyn_hi

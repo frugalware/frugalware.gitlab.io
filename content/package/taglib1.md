@@ -14,9 +14,10 @@ sha1sum = "5f8c9e389aaa7f759e2f06ca97d23a9fc99d419c"
 depends = "['libstdc++>=11.3', 'zlib>=1.2.12']"
 reverse_depends = "['mixxx']"
 +++
+### Description: 
 A library for reading and editing the meta-data of several popular audio formats. Version 1
 
-## Files: 
+### Files: 
 * /usr/bin/taglib1-config
 * /usr/include/taglib1/taglib/aifffile.h
 * /usr/include/taglib1/taglib/aiffproperties.h

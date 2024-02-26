@@ -13,9 +13,10 @@ usize = "1863774"
 sha1sum = "5c8226ae406011a50630b49b5709afe1209f8cfa"
 depends = "[]"
 +++
+### Description: 
 KShowmail is a POP3 mail checker for the KDE.
 
-## Files: 
+### Files: 
 * usr/bin/kshowmail
 * usr/lib/kde3/kcm_kshowmailconfigaccounts.la
 * usr/lib/kde3/kcm_kshowmailconfigaccounts.so

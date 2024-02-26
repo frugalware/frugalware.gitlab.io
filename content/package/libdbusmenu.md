@@ -14,9 +14,10 @@ sha1sum = "f0ac91bf92bea93eb21db93c5db56233493e359e"
 depends = "['glib2>=2.50.0']"
 reverse_depends = "['libdbusmenu-gtk2', 'libdbusmenu-gtk3']"
 +++
+### Description: 
 A small little library that was created by pulling out some common code out of indicator-applet.
 
-## Files: 
+### Files: 
 * /usr/include/libdbusmenu-glib-0.4/libdbusmenu-glib/client.h
 * /usr/include/libdbusmenu-glib-0.4/libdbusmenu-glib/dbusmenu-glib.h
 * /usr/include/libdbusmenu-glib-0.4/libdbusmenu-glib/enum-types.h

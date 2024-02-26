@@ -13,9 +13,10 @@ usize = "1309912"
 sha1sum = "8ef51d93c08c3e1bd1b315c12efb6ba25f1d5935"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Ndebele South support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/resource/nr/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/nr/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/nr/LC_MESSAGES/basctl.mo

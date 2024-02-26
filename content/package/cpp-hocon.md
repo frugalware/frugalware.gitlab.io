@@ -13,9 +13,10 @@ usize = "69307951"
 sha1sum = "e90c5026da5f80bc726584a11d825ec76bb3d88f"
 depends = "['libboost']"
 +++
+### Description: 
 C++ port of the Typesafe Config library
 
-## Files: 
+### Files: 
 * /usr/include/hocon/config.hpp
 * /usr/include/hocon/config_exception.hpp
 * /usr/include/hocon/config_includer.hpp

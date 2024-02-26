@@ -15,9 +15,10 @@ depends = "['glibc']"
 reverse_depends = "['kbarcode']"
 license = "GPL"
 +++
+### Description: 
 GNU Barcode is a tool to convert text strings to printed bars.
 
-## Files: 
+### Files: 
 * /usr/bin/barcode
 * /usr/bin/sample
 * /usr/share/doc/barcode-0.99/ChangeLog

@@ -14,9 +14,10 @@ sha1sum = "0ded815e7a517ae6c8c11f81ab06b9d569ecda42"
 depends = "['dbus>=1.10.10-4', 'glib2>=2.60.0', 'libatspi>=2.51.0', 'libxtst>=1.2.2-3']"
 reverse_depends = "['gail', 'gtk+2-libs', 'gtk+3', 'qt6-base']"
 +++
+### Description: 
 Gnome Accessibility Toolkit
 
-## Files: 
+### Files: 
 * /etc/xdg/autostart/at-spi-dbus-bus.desktop
 * /etc/xdg/Xwayland-session.d/00-at-spi
 * /usr/include/at-spi2-atk/2.0/atk-bridge.h

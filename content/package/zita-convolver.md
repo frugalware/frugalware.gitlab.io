@@ -14,9 +14,10 @@ sha1sum = "81e080075e0205fdbc424fa5efc56b8c59724a61"
 depends = "['fftw']"
 reverse_depends = "['easyeffects', 'zam-plugins']"
 +++
+### Description: 
 Convolution library for aeolus and jconvolver
 
-## Files: 
+### Files: 
 * /usr/include/zita-convolver.h
 * /usr/lib/libzita-convolver.so
 * /usr/lib/libzita-convolver.so.4.0.3

@@ -13,9 +13,10 @@ usize = "1188683"
 sha1sum = "9541aa9be01ee8e0bba68960862e379125f41e1a"
 depends = "['libidn2', 'libkrb5', 'openssl']"
 +++
+### Description: 
 Environment for sending and receiving mail
 
-## Files: 
+### Files: 
 * /etc/mail.rc
 * /usr/bin/mail
 * /usr/bin/mailx

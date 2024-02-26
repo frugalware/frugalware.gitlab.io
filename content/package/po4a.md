@@ -13,9 +13,10 @@ usize = "3820306"
 sha1sum = "0f875e96addef3458681d4c151dd1078606f4f76"
 depends = "['perl-gettext', 'perl-sgmlspm', 'perl-text-wrapi18n']"
 +++
+### Description: 
 Eases translation work, and in particular the maintenance of translations.
 
-## Files: 
+### Files: 
 * /usr/bin/msguntypot
 * /usr/bin/po4a
 * /usr/bin/po4a-display-man

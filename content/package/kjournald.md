@@ -13,9 +13,10 @@ usize = "469140"
 sha1sum = "a37bf3010f4d4293397d001e0a6bb2ccf81a2078"
 depends = "['kcoreaddons', 'ki18n', 'kirigami2']"
 +++
+### Description: 
 Framework for interacting with systemd-journald
 
-## Files: 
+### Files: 
 * /usr/bin/kjournaldbrowser
 * /usr/lib/libkjournald.so
 * /usr/lib/libkjournald.so.0

@@ -14,9 +14,10 @@ sha1sum = "61d8376af60e8c20e7cd052622d09f0d51a1c884"
 depends = "['glibc>=2.34']"
 reverse_depends = "['php']"
 +++
+### Description: 
 A library that provides uniform interface to access several encryption algorithms.
 
-## Files: 
+### Files: 
 * /usr/bin/libmcrypt-config
 * /usr/include/mcrypt.h
 * /usr/include/mutils/mcrypt.h

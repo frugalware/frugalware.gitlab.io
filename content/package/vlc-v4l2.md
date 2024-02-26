@@ -13,7 +13,8 @@ usize = "71496"
 sha1sum = "ae366d14ebf0f9d70d056634c1361d8dd6a19ee9"
 depends = "['libvlc>=3.0.20', 'zvbi']"
 +++
+### Description: 
 vlc plugin for Video4Linux 2
 
-## Files: 
+### Files: 
 * /usr/lib/vlc/plugins/access/libv4l2_plugin.so

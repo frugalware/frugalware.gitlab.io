@@ -14,9 +14,10 @@ sha1sum = "2e396203447dae182cf3fe592250a7fae0d59b06"
 depends = "['kidentitymanagement>=23.08.5', 'kmailtransport>=23.08.5', 'knewstuff>=5.115.0', 'knotifyconfig>=5.115.0', 'kross>=5.115.0', 'ktexteditor>=5.115.0', 'libkdepim>=23.08.5', 'libkleo>=23.08.5', 'mailcommon>=23.08.5']"
 reverse_depends = "['kmail']"
 +++
+### Description: 
 Assistant for KMail accounts configuration
 
-## Files: 
+### Files: 
 * /usr/bin/accountwizard
 * /usr/bin/ispdb
 * /usr/lib/qt5/plugins/accountwizard_plugin.so

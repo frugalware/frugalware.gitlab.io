@@ -13,9 +13,10 @@ usize = "85536889"
 sha1sum = "060a25c58586498d98683eb55ee47f5adf1b2258"
 depends = "['bzip2', 'curl', 'libx11', 'libxcb', 'openssl>=3.1.0']"
 +++
+### Description: 
 A new type of shell
 
-## Files: 
+### Files: 
 * /usr/bin/nu
 * /usr/bin/nu_plugin_custom_values
 * /usr/bin/nu_plugin_example

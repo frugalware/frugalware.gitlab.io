@@ -14,9 +14,10 @@ sha1sum = "16bc16b36e1ade617524e1e7dda78a9e2e939f85"
 depends = "['libx11>=1.6.3-4']"
 license = "GPL2"
 +++
+### Description: 
 X.Org xlsfonts application
 
-## Files: 
+### Files: 
 * /usr/bin/xlsfonts
 * /usr/share/doc/xlsfonts-1.0.7/ChangeLog
 * /usr/share/doc/xlsfonts-1.0.7/COPYING

@@ -13,9 +13,10 @@ usize = "2734807"
 sha1sum = "68665d57e08078e00a4dcbdd0c0f997d24169474"
 depends = "['fontconfig', 'mkfontscale']"
 +++
+### Description: 
 Equivalent font to Microsoft's Calibri
 
-## Files: 
+### Files: 
 * /usr/share/doc/crosextrafonts-carlito-20230623.g3a810ca/README.md
 * /usr/share/fonts/X11/TTF/Carlito-Bold.ttf
 * /usr/share/fonts/X11/TTF/Carlito-BoldItalic.ttf

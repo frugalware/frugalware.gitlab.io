@@ -13,9 +13,10 @@ usize = "1366790"
 sha1sum = "b55a648269afd9fa6ae84ad176890de7d02156b6"
 depends = "['futuresql', 'kcoreaddons>=', 'kcrash>=', 'ki18n>=', 'kirigami-addons', 'kwindowsystem>=', 'pybind11', 'python3-ytmusicapi', 'qcoro', 'yt-dlp']"
 +++
+### Description: 
 Client for YouTube Music
 
-## Files: 
+### Files: 
 * /usr/bin/audiotube
 * /usr/share/applications/org.kde.audiotube.desktop
 * /usr/share/doc/audiotube-23.08.5/README.md

@@ -14,9 +14,10 @@ sha1sum = "60fee149cd40f5c93b316feaba6f04e3155ef922"
 depends = "['farstream>=0.2.8-2', 'libffi>=3.2.1-2', 'telepathy-glib>=0.24.1-8']"
 reverse_depends = "['telepathy-qt5']"
 +++
+### Description: 
 Telepathy client library that uses Farsight2 to handle Call channels
 
-## Files: 
+### Files: 
 * /usr/include/telepathy-1.0/telepathy-farstream/channel.h
 * /usr/include/telepathy-1.0/telepathy-farstream/content.h
 * /usr/include/telepathy-1.0/telepathy-farstream/telepathy-farstream.h

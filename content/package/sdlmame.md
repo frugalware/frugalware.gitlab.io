@@ -13,6 +13,7 @@ usize = "0"
 sha1sum = ""
 depends = "['asio', 'flac', 'libpulse', 'pcre2', 'qt5-base>=5.15.10', 'sdl2_ttf', 'utf8proc']"
 +++
+### Description: 
 A port of the popular Multiple Arcade Machine Emulator using SDL with OpenGL support.
 
-## Files: 
+### Files: 

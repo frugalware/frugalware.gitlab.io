@@ -14,9 +14,10 @@ sha1sum = "6dd124066006b563334de5b3f75649e332e35677"
 depends = "['haskell-attoparsec']"
 reverse_depends = "['haskell-warp']"
 +++
+### Description: 
 HTTP Date parser/formatter
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/http-date-0.0.11/libHShttp-date-0.0.11-2teN056nUjvdEHN8XO08g.a
 * /usr/lib/ghc-9.8.1/site-local/http-date-0.0.11/Network/HTTP/Date.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/http-date-0.0.11/Network/HTTP/Date.hi

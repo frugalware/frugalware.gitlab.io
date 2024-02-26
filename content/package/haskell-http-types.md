@@ -14,9 +14,10 @@ sha1sum = "f4606bd0dbd03707b205944fd4fa306d1bb3bf2e"
 depends = "['haskell-case-insensitive>=1.2.1.0-3']"
 reverse_depends = "['haskell-http-api-data', 'haskell-http-client', 'haskell-http2', 'haskell-servant', 'haskell-wai', 'haskell-wai-logger']"
 +++
+### Description: 
 Generic HTTP types for Haskell (for both client and server code).
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/http-types-0.12.4/libHShttp-types-0.12.4-7bj1JQvKNRj3AnMjzjUPgh.a
 * /usr/lib/ghc-9.8.1/site-local/http-types-0.12.4/Network/HTTP/Types.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/http-types-0.12.4/Network/HTTP/Types.hi

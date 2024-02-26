@@ -14,9 +14,10 @@ sha1sum = "d8983a3bcb57f620f500f54237968c81c9cb192c"
 depends = "['fuse']"
 reverse_depends = "['q4wine']"
 +++
+### Description: 
 Mount ISO filesystem images as a non-root user
 
-## Files: 
+### Files: 
 * /usr/bin/fuseiso
 * /usr/share/doc/fuseiso-20070708/AUTHORS
 * /usr/share/doc/fuseiso-20070708/ChangeLog

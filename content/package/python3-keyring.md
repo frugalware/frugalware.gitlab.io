@@ -14,9 +14,10 @@ sha1sum = "a1c6cd158c6fb3a321b6a87d1cff75b45bcb4c6f"
 depends = "['python3-importlib-metadata', 'python3-jaraco.classes', 'python3-secretstorage']"
 reverse_depends = "['python3-poetry']"
 +++
+### Description: 
 Store and access your passwords safely
 
-## Files: 
+### Files: 
 * /usr/bin/keyring
 * /usr/lib/python3.12/site-packages/keyring-24.3.0.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/keyring-24.3.0.dist-info/LICENSE

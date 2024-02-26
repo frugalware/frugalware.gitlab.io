@@ -14,9 +14,10 @@ sha1sum = "6be5df1e74f76a0cda0b340d02ca45b7f174afa6"
 depends = "['imath>=3.1.10', 'libdeflate', 'zlib>=1.2.12']"
 reverse_depends = "['alicevision', 'blender', 'darktable', 'devil', 'freeimage', 'gegl', 'gmic', 'imagemagick', 'kimageformats', 'kio-extras', 'libvips', 'luminance-hdr', 'opencv', 'openimageio', 'openshadinglanguage', 'qmlalembic', 'vigra']"
 +++
+### Description: 
 OpenEXR is a high dynamic-range (HDR) image file format.
 
-## Files: 
+### Files: 
 * /usr/bin/exr2aces
 * /usr/bin/exrenvmap
 * /usr/bin/exrheader

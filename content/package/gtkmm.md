@@ -14,9 +14,10 @@ sha1sum = "488ec77bed6c24e3ce817a90e461354e2c7064f8"
 depends = "['atkmm>=2.24.2-7', 'cairomm>=1.12.0-4', 'glibmm>=2.68.1', 'gtk+4', 'libstdc++>=11.2', 'libxrandr', 'pangomm>=2.40.1-5']"
 reverse_depends = "['transmission-gtk']"
 +++
+### Description: 
 C++ interface for GTK+4
 
-## Files: 
+### Files: 
 * /usr/include/gtkmm-4.0/gdkmm.h
 * /usr/include/gtkmm-4.0/gdkmm/applaunchcontext.h
 * /usr/include/gtkmm-4.0/gdkmm/cairocontext.h

@@ -14,9 +14,10 @@ sha1sum = "87e74f7eb69384d2c10c6541633cc8ee00fd3a93"
 depends = "[]"
 reverse_depends = "['lib32-gettext', 'lib32-harfbuzz', 'lib32-libxml2']"
 +++
+### Description: 
 International Components for Unicode library ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/derb
 * /usr/i686-frugalware-linux/bin/genbrk
 * /usr/i686-frugalware-linux/bin/gencfu

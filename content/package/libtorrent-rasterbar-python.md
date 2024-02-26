@@ -13,7 +13,8 @@ usize = "3589800"
 sha1sum = "15df38e839b71a1db81ff3cf30731e87ab3db2a3"
 depends = "['libboost>=1.83.0', 'libtorrent-rasterbar=2.0.10', 'python3>=3.12']"
 +++
+### Description: 
 libtorrent-rasterbar python bindings
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/libtorrent.cpython-312-x86_64-linux-gnu.so

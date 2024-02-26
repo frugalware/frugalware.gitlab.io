@@ -13,8 +13,9 @@ usize = "563110"
 sha1sum = "c2cd548943fa14ed7ab75bafefa8658f73209fe4"
 depends = "['firefox>=3.5.6']"
 +++
+### Description: 
 mn language support for Firefox
 
-## Files: 
+### Files: 
 * usr/lib/firefox/chrome/mn.jar
 * usr/lib/firefox/chrome/mn.manifest

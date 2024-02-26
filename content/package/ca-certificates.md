@@ -14,9 +14,10 @@ sha1sum = "5c38ca714ce9d993286377e5963182e581ca8092"
 depends = "['openssl>=3.0.7', 'scriptlet-core']"
 reverse_depends = "['aria2', 'glib-networking', 'networkmanager', 'p11-kit']"
 +++
+### Description: 
 Common CA certificates
 
-## Files: 
+### Files: 
 * /etc/ca-certificates.conf
 * /usr/bin/openssl-c_rehash.sh
 * /usr/bin/update-ca-certificates

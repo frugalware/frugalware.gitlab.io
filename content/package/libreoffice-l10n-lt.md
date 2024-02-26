@@ -13,9 +13,10 @@ usize = "34889514"
 sha1sum = "7e0d92e8eaa3f7777ad95f0aaeec359b3d526f81"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Lithuanian support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/help/lt/default.css
 * /usr/lib/libreoffice/help/lt/err.html
 * /usr/lib/libreoffice/help/lt/highcontrast1.css

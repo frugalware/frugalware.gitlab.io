@@ -13,8 +13,9 @@ usize = "161259"
 sha1sum = "56f9be2905f1119b406888b61b73ac36fdb3787a"
 depends = "['kpipewire', 'kwayland-integration', 'plasma-workspace', 'qt5-wayland', 'xdg-desktop-portal', 'xdg-desktop-portal-kde', 'xorg-server-xwayland']"
 +++
+### Description: 
 Plasma Wayland session
 
-## Files: 
+### Files: 
 * /usr/bin/startplasma-wayland
 * /usr/share/wayland-sessions/plasmawayland.desktop

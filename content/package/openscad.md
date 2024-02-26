@@ -14,9 +14,10 @@ sha1sum = "2c6883177eac7cb16fb63c145d00c238cd2bd4d1"
 depends = "['double-conversion', 'libboost>=1.83.0', 'libzip', 'opencsg>=1.4.2-3', 'qscintilla2-qt5>=2.11.1', 'qt5-multimedia>=5.15.10']"
 license = "GPLv2"
 +++
+### Description: 
 Software for creating solid 3D CAD objects.
 
-## Files: 
+### Files: 
 * /usr/bin/openscad
 * /usr/share/applications/openscad.desktop
 * /usr/share/doc/openscad-2021.01/COPYING

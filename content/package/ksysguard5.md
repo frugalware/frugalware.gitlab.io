@@ -14,9 +14,10 @@ sha1sum = "865edf72ee366b29cf08ebba85c59b4f9d055f9f"
 depends = "['knewstuff>=5.83.0', 'libksysguard5>=5.22.2.1', 'libnl', 'libpcap', 'lmsensors>=3.5.0', 'networkmanager-qt>=5.83.0']"
 reverse_depends = "['knemo']"
 +++
+### Description: 
 KDE System Monitor.
 
-## Files: 
+### Files: 
 * /etc/ksysguarddrc
 * /usr/bin/ksysguard
 * /usr/bin/ksysguardd

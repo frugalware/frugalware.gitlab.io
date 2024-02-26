@@ -14,7 +14,8 @@ sha1sum = "12c407b50f71781885dd2b6ce25d8e6e098c546a"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Norwegian Nynorsk language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-nn-NO@firefox.mozilla.org.xpi

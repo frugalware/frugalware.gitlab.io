@@ -13,9 +13,10 @@ usize = "3719934"
 sha1sum = "d40f782cebf0c12eed6775d2fadac7b3b102b475"
 depends = "['expat', 'libidn', 'openssl', 'zlib']"
 +++
+### Description: 
 An advanced and well-established feature-rich text mode web browser
 
-## Files: 
+### Files: 
 * /usr/bin/elinks
 * /usr/share/doc/elinks-0.17.0/AUTHORS
 * /usr/share/doc/elinks-0.17.0/BUGS

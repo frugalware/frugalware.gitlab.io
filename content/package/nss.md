@@ -15,9 +15,10 @@ depends = "['glibc>=2.35', 'libstdc++>=11.3', 'nspr>=4.34', 'sqlite3>=3.14.2-2',
 reverse_depends = "['apr-util', 'cef', 'chromium-browser', 'discord', 'firefox', 'libblockdev', 'libfprint', 'liboauth', 'libpurple', 'libreswan', 'networkmanager', 'nvu', 'openjre', 'pesign', 'poppler', 'qca', 'qca-nss', 'qemu', 'qt5-webengine', 'qt6-webengine', 'slack-desktop', 'teams', 'thunderbird', 'volume_key', 'whalebird', 'xmlsec1']"
 license = "GPL"
 +++
+### Description: 
 NSS library from mozilla.org
 
-## Files: 
+### Files: 
 * /usr/bin/nss-certutil
 * /usr/bin/nss-cmsutil
 * /usr/bin/nss-config

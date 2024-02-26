@@ -13,9 +13,10 @@ usize = "1685272"
 sha1sum = "652bfce15a67cad62db73a626c087cffc9e76e17"
 depends = "['libreoffice>=4.0.3.3']"
 +++
+### Description: 
 Installs report builder support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/share/extensions/report-builder/components.rdb
 * /usr/lib/libreoffice/share/extensions/report-builder/description-af.txt
 * /usr/lib/libreoffice/share/extensions/report-builder/description-am.txt

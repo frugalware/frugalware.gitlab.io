@@ -13,9 +13,10 @@ usize = "1136077"
 sha1sum = "5065a770fc7098056df34629ce4ff2dc8555f2c6"
 depends = "[]"
 +++
+### Description: 
 Qt5 tools static libs.
 
-## Files: 
+### Files: 
 * /usr/lib/libQt5UiTools.a
 * /usr/lib/libQt5UiTools.la
 * /usr/lib/libQt5UiTools.prl

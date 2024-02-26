@@ -13,9 +13,10 @@ usize = "696310"
 sha1sum = "0fcdfd1c489c72d84e5ca52091574592c471f165"
 depends = "[]"
 +++
+### Description: 
 Modified taskbar applet for kicker to make it work with compiz.
 
-## Files: 
+### Files: 
 * usr/lib/kde3/compiztaskbar_panelapplet.la
 * usr/lib/kde3/compiztaskbar_panelapplet.so
 * usr/lib/libcompiztaskbar.la

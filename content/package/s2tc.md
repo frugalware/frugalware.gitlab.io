@@ -13,9 +13,10 @@ usize = "312146"
 sha1sum = "6ae576795a39d9fc1444bdb72317490e44d9ff79"
 depends = "['libstdc++']"
 +++
+### Description: 
 S2TC - a subset of a wellknown texture compression scheme
 
-## Files: 
+### Files: 
 * /usr/bin/s2tc_compress
 * /usr/bin/s2tc_decompress
 * /usr/bin/s2tc_from_s3tc

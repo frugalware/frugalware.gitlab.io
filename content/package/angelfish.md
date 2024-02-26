@@ -13,9 +13,10 @@ usize = "4795352"
 sha1sum = "9c9ba6fa2c3a8b44334cfc2f5e7c95a0bb2437ff"
 depends = "['futuresql', 'kirigami-addons', 'purpose', 'qcoro', 'qqc2-desktop-style', 'qt5-webengine']"
 +++
+### Description: 
 Web browser for Plasma Mobile
 
-## Files: 
+### Files: 
 * /usr/bin/angelfish
 * /usr/bin/angelfish-webapp
 * /usr/share/applications/org.kde.angelfish.desktop

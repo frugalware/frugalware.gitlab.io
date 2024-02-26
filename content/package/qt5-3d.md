@@ -14,9 +14,10 @@ sha1sum = "39d0675048b2eb1efc0f5a90b43c73b8061e39ab"
 depends = "['assimp', 'qt5-declarative>=5.15.12']"
 reverse_depends = "['meshroom', 'qmlalembic', 'qtoiio']"
 +++
+### Description: 
 The Qt5 toolkit, qt3d
 
-## Files: 
+### Files: 
 * /usr/bin/qgltf
 * /usr/bin/qgltf-qt5
 * /usr/include/qt5/Qt3DAnimation/5.15.12/Qt3DAnimation/private/abstractevaluateclipanimatorjob_p.h

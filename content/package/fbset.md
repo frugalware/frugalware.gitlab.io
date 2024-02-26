@@ -13,9 +13,10 @@ usize = "86384"
 sha1sum = "3d2f41bb3d0d5fe59d2d2cbe19eadae5ebe34588"
 depends = "['glibc>=2.34']"
 +++
+### Description: 
 Show and modify frame buffer device settings
 
-## Files: 
+### Files: 
 * /etc/fb.modes.ATI
 * /etc/fb.modes.Falcon
 * /etc/fb.modes.NTSC

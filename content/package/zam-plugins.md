@@ -13,9 +13,10 @@ usize = "52912706"
 sha1sum = "52f7079dd29ff21c4be958ca5ad4d56f053dc05c"
 depends = "['libglvnd', 'liblo', 'libsamplerate', 'zita-convolver']"
 +++
+### Description: 
 Collection of LADSPA/LV2/VST/JACK audio plugins for high-quality processing
 
-## Files: 
+### Files: 
 * /usr/bin/ZamAutoSat
 * /usr/bin/ZaMaximX2
 * /usr/bin/ZamComp

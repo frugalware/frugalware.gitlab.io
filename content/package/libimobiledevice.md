@@ -14,9 +14,10 @@ sha1sum = "ade5dd8e33209782b2871128cf2807b0a3d66d0f"
 depends = "['libimobiledevice-glue', 'libusbmuxd>=2.0.2', 'openssl>=3.1.0']"
 reverse_depends = "['ifuse', 'solid', 'upower', 'usbmuxd']"
 +++
+### Description: 
 Library for connecting to mobile devices
 
-## Files: 
+### Files: 
 * /usr/bin/idevicebackup
 * /usr/bin/idevicebackup2
 * /usr/bin/idevicebtlogger

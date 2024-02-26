@@ -14,9 +14,10 @@ sha1sum = "aad208cb92bcc3360f18be38c881c7d9b3e8eaf4"
 depends = "['gavl>=1.4.0-3']"
 reverse_depends = "['kamoso', 'mlt']"
 +++
+### Description: 
 frei0r is a minimalistic plugin API for video sources and filters.
 
-## Files: 
+### Files: 
 * /usr/include/frei0r.h
 * /usr/lib/frei0r-1/3dflippo.so
 * /usr/lib/frei0r-1/addition.so

@@ -14,9 +14,10 @@ sha1sum = "7a33969790eeb32721ae530afd7ab4d9def25f71"
 depends = "['qt6-declarative']"
 reverse_depends = "['qt6-httpserver']"
 +++
+### Description: 
 The Qt6 toolkit, qtwebsockets
 
-## Files: 
+### Files: 
 * /usr/include/qt6/QtWebSockets/6.6.2/QtWebSockets/private/qdefaultmaskgenerator_p.h
 * /usr/include/qt6/QtWebSockets/6.6.2/QtWebSockets/private/qwebsocketcorsauthenticator_p.h
 * /usr/include/qt6/QtWebSockets/6.6.2/QtWebSockets/private/qwebsocketdataprocessor_p.h

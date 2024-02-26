@@ -14,9 +14,10 @@ sha1sum = "68dcac089b036ef9f8ab9b76372c6d0fc23d8dc6"
 depends = "['libcap-ng', 'libstdc++>=9.1.0-3', 'libsystemd']"
 reverse_depends = "['hw-probe', 'plasma-disks']"
 +++
+### Description: 
 For monitoring S.M.A.R.T. disks and devices
 
-## Files: 
+### Files: 
 * /etc/smartd.conf
 * /etc/sysconfig/smartmontools
 * /usr/bin/smartctl

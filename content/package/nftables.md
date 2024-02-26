@@ -14,9 +14,10 @@ sha1sum = "267a8cfab08e66203654fb4766f74867f6c5095a"
 depends = "['glibc>=2.34', 'gmp', 'libedit', 'libmnl', 'libnftnl>=1.2.1', 'ncurses', 'python3', 'readline>=8.0']"
 reverse_depends = "['criu']"
 +++
+### Description: 
 Replacement for the popular {ip,ip6,arp,eb} tables.
 
-## Files: 
+### Files: 
 * /etc/nftables.conf
 * /usr/bin/nft
 * /usr/include/nftables/libnftables.h

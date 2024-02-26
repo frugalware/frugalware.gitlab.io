@@ -13,9 +13,10 @@ usize = "2176207"
 sha1sum = "a5acb72329ef675e233ab5ae57799bcd52fcf3b9"
 depends = "['kdelibs4support>=5.115.0', 'khtml>=5.115.0', 'pcre2', 'qt5-webengine>=5.15.12']"
 +++
+### Description: 
 KImageMapEditor is an HTML imagemap editor.
 
-## Files: 
+### Files: 
 * /usr/bin/kimagemapeditor
 * /usr/lib/qt5/plugins/kf5/parts/kimagemapeditorpart.so
 * /usr/share/applications/org.kde.kimagemapeditor.desktop

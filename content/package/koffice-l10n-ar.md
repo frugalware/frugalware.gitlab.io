@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "e42d22ec882f7274c65ce2fda556eb8df3a8cb58"
 depends = "[]"
 +++
+### Description: 
 Arabic Localization for KOffice. 
 
-## Files: 
+### Files: 
 * usr/share/locale/ar/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/ar/LC_MESSAGES/example.mo
 * usr/share/locale/ar/LC_MESSAGES/karbon.mo

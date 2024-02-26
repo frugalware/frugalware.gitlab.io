@@ -14,9 +14,10 @@ sha1sum = "4d512d701727ce763c1c67986dfe0e1d92ff5cd4"
 depends = "[]"
 reverse_depends = "['glibmm', 'glibmm24']"
 +++
+### Description: 
 Common build files of the C++ bindings
 
-## Files: 
+### Files: 
 * /usr/bin/mm-common-get
 * /usr/bin/mm-common-prepare
 * /usr/lib/aclocal/mm-ax_cxx_compile_stdcxx.m4

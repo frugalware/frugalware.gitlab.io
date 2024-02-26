@@ -13,9 +13,10 @@ usize = "2550377"
 sha1sum = "8d70a90853bb6e68f08df282a4027d578362a447"
 depends = "['libice', 'libstdc++', 'libxi', 'libxrender']"
 +++
+### Description: 
 QScintilla2 is a port to Qt of Neil Hodgson's Scintilla C++ editor class.
 
-## Files: 
+### Files: 
 * usr/include/Qsci/qsciapis.h
 * usr/include/Qsci/qscicommand.h
 * usr/include/Qsci/qscicommandset.h

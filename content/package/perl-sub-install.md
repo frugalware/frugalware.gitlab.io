@@ -14,9 +14,10 @@ sha1sum = "abe5d79aa88735745ffc85de430c0fc97a718fd6"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-data-optlist', 'perl-sub-exporter']"
 +++
+### Description: 
 Install subroutines into packages easily
 
-## Files: 
+### Files: 
 * /usr/lib/perl5/site_perl/Sub/Install.pm
 * /usr/share/doc/perl-sub-install-0.929/LICENSE
 * /usr/share/doc/perl-sub-install-0.929/MANIFEST

@@ -13,8 +13,9 @@ usize = "4728835"
 sha1sum = "2c5b5b46ae620f5d0c2b6457759f941b54cae66a"
 depends = "[]"
 +++
+### Description: 
 Static files for c-client
 
-## Files: 
+### Files: 
 * /usr/lib/c-client.a
 * /usr/lib/libc-client.a

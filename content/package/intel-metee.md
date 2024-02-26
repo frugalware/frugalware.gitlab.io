@@ -14,9 +14,10 @@ sha1sum = "464d0b6b04a256fd44c2879566c1160b1658319f"
 depends = "['glibc']"
 reverse_depends = "['igsc']"
 +++
+### Description: 
 Access library for Intel CSME HECI interface
 
-## Files: 
+### Files: 
 * /usr/include/metee.h
 * /usr/lib/libmetee.so
 * /usr/lib/libmetee.so.3.2.4

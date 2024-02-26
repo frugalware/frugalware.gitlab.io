@@ -13,9 +13,10 @@ usize = "199000"
 sha1sum = "e1bcfb28e9cd5603241da615ace2bda9d20ead88"
 depends = "['glibc']"
 +++
+### Description: 
 Transducers for C++
 
-## Files: 
+### Files: 
 * /usr/include/zug/any_state.hpp
 * /usr/include/zug/compat/apply.hpp
 * /usr/include/zug/compat/invoke.hpp

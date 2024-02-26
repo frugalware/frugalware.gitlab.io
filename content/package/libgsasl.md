@@ -14,9 +14,10 @@ sha1sum = "f1efef134fc8b982a7b59537f0584ef0076c2992"
 depends = "['libidn>=1.35']"
 reverse_depends = "['jreen', 'msmtp']"
 +++
+### Description: 
 Implementation of the Simple Authentication and Security Layer framework and a few common SASL mechanisms
 
-## Files: 
+### Files: 
 * /usr/include/gsasl-compat.h
 * /usr/include/gsasl-mech.h
 * /usr/include/gsasl.h

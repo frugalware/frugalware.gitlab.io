@@ -14,9 +14,10 @@ sha1sum = "978f6c16d3b03ffab931374e20ed53e794c978d1"
 depends = "['python3-packaging', 'python3-pyproject-hooks', 'python3-tomli']"
 reverse_depends = "['python3-poetry']"
 +++
+### Description: 
 A simple, correct PEP 517 build frontend
 
-## Files: 
+### Files: 
 * /usr/bin/pyproject-build
 * /usr/lib/python3.12/site-packages/build-1.0.3.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/build-1.0.3.dist-info/LICENSE

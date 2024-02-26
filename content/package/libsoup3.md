@@ -14,9 +14,10 @@ sha1sum = "f37fdfe50e8c3ff9cf322b56c5454fc2263fdc7e"
 depends = "['brotli', 'glib-networking', 'glib2', 'libpsl', 'libsysprof-capture', 'nghttp2', 'sqlite3']"
 reverse_depends = "['geoclue2', 'gssdp', 'gvfs', 'libosinfo', 'librest', 'remmina', 'seahorse', 'webkit-gtk3']"
 +++
+### Description: 
 An HTTP library implementation in C
 
-## Files: 
+### Files: 
 * /usr/include/libsoup-3.0/libsoup/soup-auth-domain-basic.h
 * /usr/include/libsoup-3.0/libsoup/soup-auth-domain-digest.h
 * /usr/include/libsoup-3.0/libsoup/soup-auth-domain.h

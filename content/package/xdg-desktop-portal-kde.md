@@ -14,9 +14,10 @@ sha1sum = "c8f044035bffc1f96f0c52e2e783f65af34f8320"
 depends = "['kconfig>=5.115.0', 'kcoreaddons>=5.115.0', 'kdeclarative>=5.115.0', 'ki18n>=5.115.0', 'kio>=5.115.0', 'kio-fuse', 'kirigami2>=5.115.0', 'knotifications>=5.115.0', 'kwidgetsaddons>=5.115.0', 'plasma-framework>=5.115.0']"
 reverse_depends = "['plasma-wayland-session']"
 +++
+### Description: 
 A backend implementation for xdg-desktop-portal using Qt/KF5
 
-## Files: 
+### Files: 
 * /usr/lib/kf5/xdg-desktop-portal-kde
 * /usr/lib/systemd/user/plasma-xdg-desktop-portal-kde.service
 * /usr/share/applications/org.freedesktop.impl.portal.desktop.kde.desktop

@@ -14,9 +14,10 @@ sha1sum = "c7414e660ebae6599a42b5d664e28fb40c48ff21"
 depends = "['curl>=7.50.3-2', 'libboost>=1.83.0', 'libxml2>=2.9.4-3']"
 reverse_depends = "['libreoffice']"
 +++
+### Description: 
 A C++ client library for the CMIS interface.
 
-## Files: 
+### Files: 
 * /usr/bin/cmis-client
 * /usr/include/libcmis-0.6/libcmis/allowable-actions.hxx
 * /usr/include/libcmis-0.6/libcmis/document.hxx

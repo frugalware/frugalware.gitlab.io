@@ -13,9 +13,10 @@ usize = "680806"
 sha1sum = "86b114180228fc3dd0aa270ac64fd75e7637833c"
 depends = "['xaw3d', 'xghostscript']"
 +++
+### Description: 
 gv allows to view and navigate through PostScript and PDF documents on an X display
 
-## Files: 
+### Files: 
 * /usr/bin/gv
 * /usr/bin/gv-update-userconfig
 * /usr/share/doc/gv-3.7.4/AUTHORS

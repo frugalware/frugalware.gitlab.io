@@ -13,9 +13,10 @@ usize = "202674"
 sha1sum = "fba06dfe1a7ecfad4b7e0b9d3184e34f343c01c1"
 depends = "['bash>=4.3_042-5', 'less>=458-3', 'perl>=5.26.1']"
 +++
+### Description: 
 A powerful input filer that makes 'less' more usable.
 
-## Files: 
+### Files: 
 * /etc/profile.d/lesspipe.sh
 * /usr/bin/archive_color
 * /usr/bin/code2color

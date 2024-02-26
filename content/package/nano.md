@@ -13,9 +13,10 @@ usize = "3115186"
 sha1sum = "b45c35496c3a1e16f89e62bc93422a7816ff5b48"
 depends = "['file>=5.28-3', 'ncurses>=6.1-2']"
 +++
+### Description: 
 Free Pico clone with some new features.
 
-## Files: 
+### Files: 
 * /etc/nanorc
 * /usr/bin/nano
 * /usr/bin/rnano

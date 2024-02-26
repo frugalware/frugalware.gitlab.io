@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "8f27296af43578b121977f0065d32a29afcb966c"
 depends = "[]"
 +++
+### Description: 
 Uzbek Localization for KOffice. 
 
-## Files: 
+### Files: 
 * usr/share/locale/uz/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/uz/LC_MESSAGES/example.mo
 * usr/share/locale/uz/LC_MESSAGES/karbon.mo

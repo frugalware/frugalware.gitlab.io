@@ -14,9 +14,10 @@ sha1sum = "4ae9d374cc74abb4688c0677b8e3c0c169ae5391"
 depends = "['glib2>=2.70.2', 'libcap>=2.24-5', 'libffi>=3.2.1-2']"
 reverse_depends = "['efl', 'gst1-plugins-bad-bzip2', 'gst1-plugins-base', 'gst1-plugins-base-alsa', 'gst1-plugins-base-cdparanoia', 'gst1-plugins-base-gio', 'gst1-plugins-base-libvisual', 'gst1-plugins-base-ogg', 'gst1-plugins-base-opus', 'gst1-plugins-base-pango', 'gst1-plugins-base-theora', 'gst1-plugins-base-vorbis', 'gst1-plugins-good', 'gst1-plugins-ugly', 'libcanberra-gst', 'nice', 'spice', 'spice-gtk', 'uget', 'vokoscreenng']"
 +++
+### Description: 
 Open Source Multimedia Framework
 
-## Files: 
+### Files: 
 * /etc/profile.d/gstreamer1.sh
 * /usr/bin/gst-inspect-1.0
 * /usr/bin/gst-launch-1.0

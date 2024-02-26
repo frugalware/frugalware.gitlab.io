@@ -14,9 +14,10 @@ sha1sum = "6926f1d93eb0580f32e9ec416d4671594074f575"
 depends = "['python3-decorator']"
 reverse_depends = "['hotdoc', 'python3-pythran']"
 +++
+### Description: 
 Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/networkx-3.2.1.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/networkx-3.2.1.dist-info/LICENSE.txt
 * /usr/lib/python3.12/site-packages/networkx-3.2.1.dist-info/METADATA

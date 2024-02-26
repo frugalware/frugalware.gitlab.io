@@ -14,9 +14,10 @@ sha1sum = "e6e5a0dc0a70fdca40699b557a6901a73d514135"
 depends = "['python3']"
 reverse_depends = "['polychromatic']"
 +++
+### Description: 
 Python API for cross-platform colored terminal text.
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/colorama-0.4.6.dist-info/licenses/LICENSE.txt
 * /usr/lib/python3.12/site-packages/colorama-0.4.6.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/colorama-0.4.6.dist-info/RECORD

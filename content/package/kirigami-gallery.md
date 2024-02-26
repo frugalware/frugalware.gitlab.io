@@ -13,9 +13,10 @@ usize = "801656"
 sha1sum = "81d0b9eee6a333be1c7b9b6dda6d648bda4949a9"
 depends = "['kirigami2', 'kitemmodels']"
 +++
+### Description: 
 Gallery application built using Kirigami
 
-## Files: 
+### Files: 
 * /usr/bin/kirigami2gallery
 * /usr/share/applications/org.kde.kirigami2.gallery.desktop
 * /usr/share/doc/kirigami-gallery-23.08.5/README.md

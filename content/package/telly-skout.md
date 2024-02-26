@@ -13,9 +13,10 @@ usize = "351909"
 sha1sum = "4b9e12a87c03d0a9d995e811e646b9f3b87a43f7"
 depends = "['kconfig', 'kcrash', 'ki18n', 'kirigami2']"
 +++
+### Description: 
 Convergent TV guide based on Kirigami
 
-## Files: 
+### Files: 
 * /usr/bin/telly-skout
 * /usr/share/applications/org.kde.telly-skout.desktop
 * /usr/share/doc/telly-skout-23.08.5/README.md

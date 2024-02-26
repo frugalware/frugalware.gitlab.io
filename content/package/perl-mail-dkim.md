@@ -14,9 +14,10 @@ sha1sum = "9cf908bdc1a9146fe38d10f0bc540b53b5dc0f7a"
 depends = "['perl-crypt-openssl-rsa>=0.24', 'perl-digest-sha1', 'perl-mailtools', 'perl-net-dns']"
 reverse_depends = "['spamassassin']"
 +++
+### Description: 
 Signs/verifies Internet mail with DKIM/DomainKey signatures
 
-## Files: 
+### Files: 
 * /usr/lib/perl5/site_perl/Mail/DKIM.pm
 * /usr/lib/perl5/site_perl/Mail/DKIM/Algorithm/Base.pm
 * /usr/lib/perl5/site_perl/Mail/DKIM/Algorithm/dk_rsa_sha1.pm

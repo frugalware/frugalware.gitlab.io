@@ -14,9 +14,10 @@ sha1sum = "3a759de45a056ed6697f30cd285354bdf0573c39"
 depends = "['adwaita-icon-theme', 'freetype2', 'gdk-pixbuf2>=2.36.11-3', 'gtk+2-libs', 'libcups>=2.2.0-2', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'pango>=1.42.0', 'shared-mime-info']"
 reverse_depends = "['dunst', 'emacs', 'ethereal', 'firefox', 'freeciv-gtk2', 'gfpm', 'gftp', 'gnokii-gui', 'gnome-clipboard-daemon', 'gtans', 'gtk+2-demos', 'gtk+2-engines-clearlooks', 'gtk-lshw', 'gtk-sharp', 'gtk2-sharp', 'gtkspell', 'gvidcap', 'gxmame', 'hot-babe', 'libcanberra-gtk2', 'libextractor', 'libwnck2', 'mozilla', 'mupen64plus', 'obconf', 'openssh-askpass', 'oxygen-gtk', 'parcellite', 'pidgin', 'pinentry-gtk+2', 'pioneers', 'printoxx', 'qtcurve-gtk', 'qtox', 'scim', 'thunderbird', 'xsane', 'xscreensaver']"
 +++
+### Description: 
 The GTK+ Toolkit (2.x series)
 
-## Files: 
+### Files: 
 * /etc/gtk-2.0/im-multipress.conf
 * /usr/bin/gtk-builder-convert
 * /usr/bin/gtk-query-immodules-2.0

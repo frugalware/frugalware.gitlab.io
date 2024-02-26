@@ -14,9 +14,10 @@ sha1sum = "79ca6a1317ab125aa2aed81ce521096d92b1b4bd"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-sphinx']"
 +++
+### Description: 
 Getting image size from png/jpeg/jpeg2000/gif file
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/imagesize-1.4.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/imagesize-1.4.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/imagesize-1.4.1-py3.12.egg-info/SOURCES.txt

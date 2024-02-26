@@ -13,9 +13,10 @@ usize = "12871488"
 sha1sum = "9d55cda39d378b74132e47bacb85cd32d3e5e9e9"
 depends = "['hplip-driver>=3.23.12', 'libcups>=2.2', 'libusb>=0.1.5-4', 'pygobject3-cairo', 'pyqt5', 'python3-distro', 'rpcbind', 'sane-backends>=1.0.25-2', 'wget']"
 +++
+### Description: 
 HPLIP is an HP developed solution for printing, scanning, and faxing with HP inkjet and laser based printers in Linux.
 
-## Files: 
+### Files: 
 * /etc/xdg/autostart/hplip-systray.desktop
 * /usr/bin/hp-align
 * /usr/bin/hp-check

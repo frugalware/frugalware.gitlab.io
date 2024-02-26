@@ -14,9 +14,10 @@ sha1sum = "07eb297c896289ded850f3c8daf9d157d43d61a8"
 depends = "['lib32-zlib>=1.2.12']"
 reverse_depends = "['lib32-imlib2']"
 +++
+### Description: 
 ID3 tag manipulation library ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/id3tag.h
 * /usr/lib32/libid3tag.so
 * /usr/lib32/libid3tag.so.0

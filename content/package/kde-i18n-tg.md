@@ -13,9 +13,10 @@ usize = "7272282"
 sha1sum = "09b3df50c144e41a93706ee960528da627920655"
 depends = "[]"
 +++
+### Description: 
 Tajik Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/apps/khangman/data/tg/animals.kvtml
 * usr/share/apps/khangman/data/tg/easy.kvtml
 * usr/share/apps/khangman/data/tg/hard.kvtml

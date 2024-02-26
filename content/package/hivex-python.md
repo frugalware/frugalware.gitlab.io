@@ -13,9 +13,10 @@ usize = "31514"
 sha1sum = "0091fc66b10377267fec03bc11a8f5ac0d4b16e7"
 depends = "['hivex', 'python3']"
 +++
+### Description: 
 Python bindings for hivex
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/hivex/hive_types.py
 * /usr/lib/python3.12/site-packages/hivex/__init__.py
 * /usr/lib/python3.12/site-packages/libhivexmod.cpython-312-x86_64-linux-gnu.so

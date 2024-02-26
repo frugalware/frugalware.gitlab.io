@@ -14,9 +14,10 @@ sha1sum = "c16e76286fa41a254599889820015bd331c28cde"
 depends = "['glibc>=2.34']"
 reverse_depends = "['ccache', 'openvas-libraries']"
 +++
+### Description: 
 Minimalistic C client library for Redis
 
-## Files: 
+### Files: 
 * /usr/include/hiredis/adapters/ae.h
 * /usr/include/hiredis/adapters/glib.h
 * /usr/include/hiredis/adapters/ivykis.h

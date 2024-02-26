@@ -14,9 +14,10 @@ sha1sum = "9eca4c7d532af5b20546811a3ad3f769f7019af8"
 depends = "['libproxy>=0.4.13-2', 'qt5-base>=5.15.10', 'qt5-qdbus>=5.13.1']"
 reverse_depends = "['accounts-qml-module', 'libsignon-glib', 'signon-kwallet-extension', 'signon-plugin-oauth2']"
 +++
+### Description: 
 Framework to provide credential storage and authentication service.
 
-## Files: 
+### Files: 
 * /etc/signond.conf
 * /usr/bin/signond
 * /usr/bin/signonpluginprocess

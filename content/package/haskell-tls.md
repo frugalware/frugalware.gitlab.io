@@ -14,9 +14,10 @@ sha1sum = "a360bce5aff4275ecdd2f9bf43477717699fb2e7"
 depends = "['haskell-async', 'haskell-cereal', 'haskell-crypton-x509-validation', 'haskell-network', 'haskell-unix-time']"
 reverse_depends = "['haskell-connection', 'haskell-crypton-connection', 'haskell-http-client-tls']"
 +++
+### Description: 
 TLS/SSL protocol native implementation (Server and Client)
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/tls-1.9.0/libHStls-1.9.0-96pjRdYTtVWLxCNpAhjg5X.a
 * /usr/lib/ghc-9.8.1/site-local/tls-1.9.0/Network/TLS.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/tls-1.9.0/Network/TLS.hi

@@ -13,9 +13,10 @@ usize = "1238831"
 sha1sum = "1b9ff20fd7453521ea4f55608f9124dca62ada7d"
 depends = "['glibc>=2.34']"
 +++
+### Description: 
 GNU shar makes so-called shell archives out of many files
 
-## Files: 
+### Files: 
 * /usr/bin/shar
 * /usr/bin/unshar
 * /usr/bin/uudecode

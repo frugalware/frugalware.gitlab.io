@@ -14,9 +14,10 @@ sha1sum = "3b3fae7d870b21c83f98b3f09a098910a811f8b5"
 depends = "['libfs>=1.0.7-3', 'libx11>=1.6.3-4']"
 license = "GPL2"
 +++
+### Description: 
 X.Org fstobdf application
 
-## Files: 
+### Files: 
 * /usr/bin/fstobdf
 * /usr/share/doc/fstobdf-1.0.7/ChangeLog
 * /usr/share/doc/fstobdf-1.0.7/COPYING

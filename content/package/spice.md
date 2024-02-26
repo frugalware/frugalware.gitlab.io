@@ -13,9 +13,10 @@ usize = "1181951"
 sha1sum = "960fca77085604f9fa49274276ba0746c4d2b734"
 depends = "['cyrus-sasl', 'gdk-pixbuf2', 'gst-libav', 'gst1-plugins-base', 'gst1-plugins-good', 'gst1-plugins-ugly', 'gstreamer1', 'libjpeg-turbo', 'openssl>=3.1.0', 'opus', 'orc', 'pixman>=0.32.8-2']"
 +++
+### Description: 
 Implements the SPICE protocol
 
-## Files: 
+### Files: 
 * /usr/include/spice-server/spice-audio.h
 * /usr/include/spice-server/spice-char.h
 * /usr/include/spice-server/spice-core.h

@@ -13,9 +13,10 @@ usize = "1048029"
 sha1sum = "bbf8028ed8e59846da47f37ec1a1d5f5c1271acc"
 depends = "['courier-authlib>=0.69.0', 'libidn>=1.35', 'openssl>=3.1.0']"
 +++
+### Description: 
 The Courier IMAP and POP3 server
 
-## Files: 
+### Files: 
 * /etc/courier/imapd
 * /etc/courier/imapd-ssl
 * /etc/courier/pop3d

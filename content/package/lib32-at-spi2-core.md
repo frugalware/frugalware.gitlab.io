@@ -14,9 +14,10 @@ sha1sum = "01ee8888c1c1a331e4660b8d0eab1393db230ec4"
 depends = "['lib32-glib2', 'lib32-libxml2', 'lib32-libxtst']"
 reverse_depends = "['lib32-gtk+2-libs']"
 +++
+### Description: 
 Gnome Accessibility Toolkit ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/at-spi-2.0/atspi/atspi-accessible.h
 * /usr/i686-frugalware-linux/include/at-spi-2.0/atspi/atspi-action.h
 * /usr/i686-frugalware-linux/include/at-spi-2.0/atspi/atspi-application.h

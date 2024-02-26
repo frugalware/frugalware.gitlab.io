@@ -14,8 +14,9 @@ sha1sum = "522856bf6d6e40df5329cbb6645e4de48a35d113"
 depends = "[]"
 reverse_depends = "['openjre']"
 +++
+### Description: 
 Java Keystore of common CA certificates
 
-## Files: 
+### Files: 
 * /etc/cron.daily/updatekeystore
 * /usr/lib/jvm/java-21-openjdk/jre/lib/security/cacerts

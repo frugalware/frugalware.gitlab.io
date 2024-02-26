@@ -14,9 +14,10 @@ sha1sum = "c5a1ef6a27291bcb2890b526fbd3d636ea0ad2d5"
 depends = "['libxrender>=0.9.9-4']"
 license = "GPL2"
 +++
+### Description: 
 X.Org rendercheck application
 
-## Files: 
+### Files: 
 * /usr/bin/rendercheck
 * /usr/share/doc/rendercheck-1.5/AUTHORS
 * /usr/share/doc/rendercheck-1.5/ChangeLog

@@ -13,7 +13,8 @@ usize = "63408"
 sha1sum = "ac512034ef40a4fef3e8fb499567da8c928c38ff"
 depends = "['db>=6.2.23', 'gst1-plugins-base>=1.22.10', 'gst1-plugins-good>=1.22.10', 'libffi>=3.2.1-2']"
 +++
+### Description: 
 GStreamer jack plugin (Good).
 
-## Files: 
+### Files: 
 * /usr/lib/gstreamer-1.0/libgstjack.so

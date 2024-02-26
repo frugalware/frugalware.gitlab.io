@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "9156d2740290275bf83aaf9d2352f2672372af3d"
 depends = "[]"
 +++
+### Description: 
 OpenOffice.org Quickstarter, runs in the KDE SystemTray
 
-## Files: 
+### Files: 
 * usr/bin/oooqs
 * usr/share/applnk/Utilities/oooqs.desktop
 * usr/share/autostart/oooqs.desktop

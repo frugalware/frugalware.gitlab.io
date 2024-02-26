@@ -14,9 +14,10 @@ sha1sum = "1624caac9e7bf5371d0ec1813fba1a7d39eaf9ba"
 depends = "['python3']"
 reverse_depends = "['python3-pytest']"
 +++
+### Description: 
 brain-dead simple config-ini parsing
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/iniconfig-2.0.0.dist-info/licenses/LICENSE
 * /usr/lib/python3.12/site-packages/iniconfig-2.0.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/iniconfig-2.0.0.dist-info/RECORD

@@ -14,9 +14,10 @@ sha1sum = "771e5a3edfab79178c53b3d28e379e4fd72f5e02"
 depends = "['curl', 'json-c>=0.14', 'openssl>=3.1.0', 'shadow']"
 reverse_depends = "['fwupd']"
 +++
+### Description: 
 Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2)
 
-## Files: 
+### Files: 
 * /etc/sysusers.d/tpm2-tss.conf
 * /etc/tmpfiles.d/tpm2-tss-fapi.conf
 * /etc/tpm2-tss/fapi-config.json

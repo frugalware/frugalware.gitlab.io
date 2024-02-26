@@ -14,9 +14,10 @@ sha1sum = "87db09387ba0a3aafc29aea3dc061461088fb60c"
 depends = "['alsa-lib', 'lapack', 'python3']"
 reverse_depends = "['pocketsphinx']"
 +++
+### Description: 
 Common library for sphinx speech recongnition
 
-## Files: 
+### Files: 
 * /usr/bin/sphinx_cepview
 * /usr/bin/sphinx_cont_seg
 * /usr/bin/sphinx_fe

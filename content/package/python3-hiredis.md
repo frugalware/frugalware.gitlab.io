@@ -13,9 +13,10 @@ usize = "101441"
 sha1sum = "0b13dd855d051daafdc4d510ab91c13bcee0e302"
 depends = "['python3']"
 +++
+### Description: 
 Non-blocking redis client for python
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/hiredis-2.2.3-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/hiredis-2.2.3-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/hiredis-2.2.3-py3.12.egg-info/SOURCES.txt

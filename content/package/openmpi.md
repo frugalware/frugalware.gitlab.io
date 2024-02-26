@@ -14,9 +14,10 @@ sha1sum = "d14486596191ed5d12f55d13920a60caed1d0cef"
 depends = "['libstdc++>=11.2', 'prrte', 'zlib>=1.2.12']"
 reverse_depends = "['libboost-mpi', 'ospray']"
 +++
+### Description: 
 A high-performance message passing library
 
-## Files: 
+### Files: 
 * /etc/ld.so.conf.d/openmpi.conf
 * /etc/openmpi/openmpi-mca-params.conf
 * /etc/openmpi/openmpi-totalview.tcl

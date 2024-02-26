@@ -14,9 +14,10 @@ sha1sum = "38421bfd80082e395fd4095f016b6ba098765d28"
 depends = "['libuv', 'luajit2']"
 reverse_depends = "['neovim']"
 +++
+### Description: 
 Bare libuv bindings for lua
 
-## Files: 
+### Files: 
 * /usr/include/luv/lhandle.h
 * /usr/include/luv/lreq.h
 * /usr/include/luv/luv.h

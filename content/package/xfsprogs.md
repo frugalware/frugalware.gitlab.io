@@ -14,9 +14,10 @@ sha1sum = "78b12570d98c97234312aba886803bfbabdd5a39"
 depends = "['glibc>=2.35', 'icu4c>=74.1', 'inih', 'liburcu', 'libuuid>=2.31.1-3', 'readline>=8.0']"
 reverse_depends = "['kernel-initrd', 'kernel-lts-initrd', 'partitionmanager', 'qtparted']"
 +++
+### Description: 
 XFS filesystem-specific static libraries and headers.
 
-## Files: 
+### Files: 
 * /usr/bin/fsck.xfs
 * /usr/bin/mkfs.xfs
 * /usr/bin/xfs_admin

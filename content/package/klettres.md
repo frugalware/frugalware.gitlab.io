@@ -13,9 +13,10 @@ usize = "50087154"
 sha1sum = "91962aa6af7a090685ad6227e0d5345d2cbb988e"
 depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5']"
 +++
+### Description: 
 Learn The Alphabet.
 
-## Files: 
+### Files: 
 * /usr/bin/klettres
 * /usr/share/applications/org.kde.klettres.desktop
 * /usr/share/config.kcfg/klettres.kcfg

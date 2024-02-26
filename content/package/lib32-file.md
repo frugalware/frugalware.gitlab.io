@@ -14,9 +14,10 @@ sha1sum = "1755d78098272ce36d0ff764716ed4b63981648f"
 depends = "['lib32-bzip2', 'lib32-xz', 'lib32-zlib>=1.2.12', 'lib32-zstd']"
 reverse_depends = "['lib32-libmicrohttpd', 'lib32-util-linux']"
 +++
+### Description: 
 File type identification utility ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/file
 * /usr/i686-frugalware-linux/include/magic.h
 * /usr/lib32/libmagic.so

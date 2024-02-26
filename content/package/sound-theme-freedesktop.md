@@ -14,9 +14,10 @@ sha1sum = "1b85ef71edefc78fe8080305f53e5872c2e13880"
 depends = "[]"
 reverse_depends = "['plasma-pa']"
 +++
+### Description: 
 The default freedesktop.org sound theme following the XDG theming.
 
-## Files: 
+### Files: 
 * /usr/share/doc/sound-theme-freedesktop-0.8/CREDITS
 * /usr/share/doc/sound-theme-freedesktop-0.8/INSTALL
 * /usr/share/doc/sound-theme-freedesktop-0.8/NEWS

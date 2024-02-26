@@ -13,7 +13,8 @@ usize = "26392"
 sha1sum = "b90c3ca02e6200a7db0b22fa6d195abb6b8eb5bd"
 depends = "['gst1-plugins-base>=1.22.10', 'gst1-plugins-ugly>=1.22.10', 'libcdio>=0.93-4', 'libffi>=3.2.1-2']"
 +++
+### Description: 
 GStreamer cdio plugin (Ugly).
 
-## Files: 
+### Files: 
 * /usr/lib/gstreamer-1.0/libgstcdio.so

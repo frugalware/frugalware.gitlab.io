@@ -13,7 +13,8 @@ usize = "19920972"
 sha1sum = "110785b589c7238517f35654fcc225a00523b985"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang rus
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/rus.traineddata

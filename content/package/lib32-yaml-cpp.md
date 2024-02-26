@@ -13,9 +13,10 @@ usize = "412772"
 sha1sum = "0a041c0773d011771f6795294b6028961e2b3bda"
 depends = "[]"
 +++
+### Description: 
 YAML parser and emitter in C++, written around the YAML 1.2 spec ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/yaml-cpp/anchor.h
 * /usr/i686-frugalware-linux/include/yaml-cpp/binary.h
 * /usr/i686-frugalware-linux/include/yaml-cpp/contrib/anchordict.h

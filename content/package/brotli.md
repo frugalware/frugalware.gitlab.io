@@ -14,9 +14,10 @@ sha1sum = "d21657ce107997b9cd2110c2b2bb809606697ebf"
 depends = "['glibc>=2.34']"
 reverse_depends = "['android-tools', 'curl', 'freetype2', 'gnutls', 'ladybird', 'libsoup3', 'nodejs18', 'nodejs20', 'qt6-base', 'wget2', 'woff2']"
 +++
+### Description: 
 Brotli compression library
 
-## Files: 
+### Files: 
 * /usr/bin/brotli
 * /usr/include/brotli/decode.h
 * /usr/include/brotli/encode.h

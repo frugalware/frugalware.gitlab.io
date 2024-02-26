@@ -14,9 +14,10 @@ sha1sum = "302b8292e8690518111e658b792c944e8677436e"
 depends = "['python3-attrs']"
 reverse_depends = "['python3-trio']"
 +++
+### Description: 
 Capture the outcome of Python function calls
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/outcome-1.3.0.post0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/outcome-1.3.0.post0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/outcome-1.3.0.post0-py3.12.egg-info/requires.txt

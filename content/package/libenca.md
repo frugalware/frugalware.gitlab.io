@@ -14,9 +14,10 @@ sha1sum = "967a09d72404087f6719eec4f211ee4f80e46c52"
 depends = "['recode>=3.6-5']"
 reverse_depends = "['enca', 'libass']"
 +++
+### Description: 
 An extremely naive character set analyzer library
 
-## Files: 
+### Files: 
 * /usr/include/enca.h
 * /usr/lib/libenca.so
 * /usr/lib/libenca.so.0

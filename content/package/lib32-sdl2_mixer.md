@@ -14,9 +14,10 @@ sha1sum = "d176f6ade93da8c03f063e9edc0098b1324f692c"
 depends = "['lib32-libmikmod>=3.3.10', 'lib32-libvorbis>=1.3.5-5', 'lib32-sdl2>=2.0.7']"
 reverse_depends = "['openloco']"
 +++
+### Description: 
 SDL2 Mixer library ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/SDL2/SDL_mixer.h
 * /usr/lib32/cmake/SDL2_mixer/sdl2_mixer-config-version.cmake
 * /usr/lib32/cmake/SDL2_mixer/sdl2_mixer-config.cmake

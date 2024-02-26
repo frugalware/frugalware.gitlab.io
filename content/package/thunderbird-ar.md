@@ -14,7 +14,8 @@ sha1sum = "c86b5356d1cae0db796476a6cb63a72144773bba"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
+### Description: 
 Arabic language support for Thunderbird
 
-## Files: 
+### Files: 
 * /usr/lib/thunderbird/extensions/langpack-ar@thunderbird.mozilla.org.xpi

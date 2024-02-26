@@ -14,9 +14,10 @@ sha1sum = "fbba042d84433c07a605aca02442f44ef2023805"
 depends = "['lib32-popt', 'lib32-slang']"
 reverse_depends = "['lib32-networkmanager']"
 +++
+### Description: 
 A programming library for color text mode, widget based user interfaces. ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/whiptail
 * /usr/i686-frugalware-linux/include/newt.h
 * /usr/lib32/libnewt.so

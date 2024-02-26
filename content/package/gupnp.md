@@ -14,9 +14,10 @@ sha1sum = "6e4c90f361b7a21227fe6167f7b37c1897936ad0"
 depends = "['gssdp>=1.6.2']"
 reverse_depends = "['gupnp-av']"
 +++
+### Description: 
 GUPnP implements the UPnP specification of GUPnP framework.
 
-## Files: 
+### Files: 
 * /usr/bin/gupnp-binding-tool-1.6
 * /usr/include/gupnp-1.6/libgupnp/gupnp-acl.h
 * /usr/include/gupnp-1.6/libgupnp/gupnp-context-filter.h

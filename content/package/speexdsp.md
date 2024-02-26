@@ -14,9 +14,10 @@ sha1sum = "247a44dc4babd4118cdb126602d7596a29a775d9"
 depends = "['glibc>=2.34']"
 reverse_depends = "['easyeffects', 'libpulse', 'mumble', 'speex']"
 +++
+### Description: 
 Speex DSP lib
 
-## Files: 
+### Files: 
 * /usr/include/speex/speexdsp_config_types.h
 * /usr/include/speex/speexdsp_types.h
 * /usr/include/speex/speex_echo.h

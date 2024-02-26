@@ -14,9 +14,10 @@ sha1sum = "4b57d8603041607d6072984921e961097b059c42"
 depends = "[]"
 reverse_depends = "['lib32-avahi', 'lib32-dbus-glib', 'lib32-fontconfig', 'lib32-libgl', 'lib32-libosmesa', 'lib32-libva-mesa-driver', 'lib32-libxatracker', 'lib32-mesa-dri-drivers', 'lib32-mesa-libglx', 'lib32-mesa-nine', 'lib32-mesa-opemax', 'lib32-mesa-vdpau-drivers', 'lib32-polkit', 'lib32-wayland']"
 +++
+### Description: 
 An XML Parser library written in C ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/xmlwf
 * /usr/i686-frugalware-linux/include/expat.h
 * /usr/i686-frugalware-linux/include/expat_config.h

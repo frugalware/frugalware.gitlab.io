@@ -13,9 +13,10 @@ usize = "2342792"
 sha1sum = "5f602bdb43683329eb593b4eb972f51cea225fe7"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Burmese support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/resource/my/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/my/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/my/LC_MESSAGES/basctl.mo

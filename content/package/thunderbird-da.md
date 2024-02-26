@@ -14,7 +14,8 @@ sha1sum = "dd906739bd948c83adc3a0d28c0459e4c554908f"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
+### Description: 
 Danish language support for Thunderbird
 
-## Files: 
+### Files: 
 * /usr/lib/thunderbird/extensions/langpack-da@thunderbird.mozilla.org.xpi

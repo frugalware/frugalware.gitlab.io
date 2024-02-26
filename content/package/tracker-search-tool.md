@@ -13,9 +13,10 @@ usize = "136432"
 sha1sum = "bb5b517c72f639f652c5fc9d23e3fbcd06c9818d"
 depends = "[]"
 +++
+### Description: 
 GNOME frontend for Tracker
 
-## Files: 
+### Files: 
 * usr/bin/tracker-search-tool
 * usr/share/applications/tracker-search-tool.desktop
 * usr/share/pixmaps/tracker/thumbnail_frame.png

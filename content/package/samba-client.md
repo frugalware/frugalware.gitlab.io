@@ -14,9 +14,10 @@ sha1sum = "78958e895703e94e35ae239d23ed6c572bf0c6f3"
 depends = "['libarchive>=3.2.1', 'libkrb5', 'libsmbclient>=4.19.5', 'libsystemd>=231-7', 'libwbclient>=4.19.5', 'popt>=1.16-6', 'readline>=8.0', 'talloc>=2.3.0', 'tdb>=1.4.3-2']"
 reverse_depends = "['gvfs-smb', 'kio-extras', 'mpv', 'samba', 'smb4k']"
 +++
+### Description: 
 SMB client tools.
 
-## Files: 
+### Files: 
 * /usr/bin/net
 * /usr/bin/nmblookup
 * /usr/bin/smbclient

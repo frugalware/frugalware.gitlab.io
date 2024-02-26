@@ -15,9 +15,10 @@ depends = "['libstdc++>=9.1.0-3', 'python3>=3.9.6']"
 reverse_depends = "['fwupd']"
 license = "OSL"
 +++
+### Description: 
 libsmbios is a library and set of tools that provide access to BIOS information.
 
-## Files: 
+### Files: 
 * /etc/libsmbios/logging.conf
 * /usr/bin/smbios-battery-ctl
 * /usr/bin/smbios-get-ut-data

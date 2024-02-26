@@ -14,9 +14,10 @@ sha1sum = "86130def6c7850e9427bec628468347d672e9fe6"
 depends = "['libxkbfile>=1.0.9-3', 'libxt>=1.1.5-3']"
 license = "GPL2"
 +++
+### Description: 
 X.Org xkbui library
 
-## Files: 
+### Files: 
 * /usr/include/X11/extensions/XKBui.h
 * /usr/lib/libxkbui.so
 * /usr/lib/libxkbui.so.1

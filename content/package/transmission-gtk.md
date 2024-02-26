@@ -13,9 +13,10 @@ usize = "5030440"
 sha1sum = "8df08305b227eeac8c232b499641a89a687f0a7d"
 depends = "['gtkmm', 'transmission-cli>=4.0.5']"
 +++
+### Description: 
 Gtk based gui for transmission.
 
-## Files: 
+### Files: 
 * /usr/bin/transmission-gtk
 * /usr/share/applications/transmission-gtk.desktop
 * /usr/share/icons/hicolor/scalable/apps/transmission-devel.svg

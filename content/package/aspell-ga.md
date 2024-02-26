@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = ""
 depends = "['aspell']"
 +++
+### Description: 
 GNU Aspell Irish Word List Package
 
-## Files: 
+### Files: 
 * usr/lib/aspell-0.60/ga.dat
 * usr/lib/aspell-0.60/ga.multi
 * usr/lib/aspell-0.60/ga.rws

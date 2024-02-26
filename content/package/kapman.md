@@ -13,9 +13,10 @@ usize = "3065889"
 sha1sum = "93107f9d30f75340a4b17fc8df900fe438ed7271"
 depends = "['libkdegames>=23.08.5', 'qt5-svg>=5.15.12']"
 +++
+### Description: 
 A clone of the well known game Pac-Man.
 
-## Files: 
+### Files: 
 * /usr/bin/kapman
 * /usr/share/applications/org.kde.kapman.desktop
 * /usr/share/doc/HTML/ca/kapman/config.png

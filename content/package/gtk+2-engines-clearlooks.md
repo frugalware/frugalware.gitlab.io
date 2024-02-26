@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = ""
 depends = "['gtk+2']"
 +++
+### Description: 
 Clearlooks GTK+2 engine
 
-## Files: 
+### Files: 
 * usr/lib/gtk-2.0/2.4.0/engines/libclearlooks.la
 * usr/lib/gtk-2.0/2.4.0/engines/libclearlooks.so
 * usr/share/doc/gtk+2-engines-clearlooks-0.6.2/AUTHORS

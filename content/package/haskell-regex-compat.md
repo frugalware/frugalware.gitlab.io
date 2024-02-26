@@ -13,9 +13,10 @@ usize = "197665"
 sha1sum = "f162133799bead220117d47e4c5373158958b2de"
 depends = "['haskell-regex-posix']"
 +++
+### Description: 
 Replaces/enhances \"Text.Regex\"
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/regex-compat-0.95.2.1/libHSregex-compat-0.95.2.1-8QZKHwuGO5nGs18tefpb9A.a
 * /usr/lib/ghc-9.8.1/site-local/regex-compat-0.95.2.1/Text/Regex.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/regex-compat-0.95.2.1/Text/Regex.hi

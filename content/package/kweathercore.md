@@ -14,9 +14,10 @@ sha1sum = "447ba3d45d3c79558876574914fd4073ee2950a4"
 depends = "['kholidays', 'ki18n', 'qt5-location']"
 reverse_depends = "['kweather']"
 +++
+### Description: 
 Audio recorder for Plasma Mobile and other platforms
 
-## Files: 
+### Files: 
 * /usr/include/KF5/KWeatherCore/KWeatherCore/AlertFeedEntry
 * /usr/include/KF5/KWeatherCore/kweathercore/alertfeedentry.h
 * /usr/include/KF5/KWeatherCore/KWeatherCore/AlertManager

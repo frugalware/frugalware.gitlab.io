@@ -13,9 +13,10 @@ usize = "7368396"
 sha1sum = "81bf5360002c3e25e7f9684e69d69520af361c14"
 depends = "['kdelibs4support>=5.115.0']"
 +++
+### Description: 
 Mathematical Function Plotter.
 
-## Files: 
+### Files: 
 * /usr/bin/kmplot
 * /usr/lib/qt5/plugins/kf5/parts/kmplotpart.so
 * /usr/share/applications/org.kde.kmplot.desktop

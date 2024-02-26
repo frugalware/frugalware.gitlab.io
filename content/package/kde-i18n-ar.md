@@ -13,9 +13,10 @@ usize = "4818262"
 sha1sum = "00d607819fdb800a6c73b236f1aad3af9f0bca2c"
 depends = "[]"
 +++
+### Description: 
 Arabic Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/locale/ar/charset
 * usr/share/locale/ar/entry.desktop
 * usr/share/locale/ar/LC_MESSAGES/akregator.mo

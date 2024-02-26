@@ -14,7 +14,8 @@ sha1sum = "a9c3a5614eeac311dd738045004764d62458e059"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Argentine Spanish language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-es-AR@firefox.mozilla.org.xpi

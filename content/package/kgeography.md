@@ -13,9 +13,10 @@ usize = "31287298"
 sha1sum = "7554557e2524c9c9de8f095e5583ba41a90211fb"
 depends = "['kxmlgui>=5.115.0', 'qt5-svg>=5.15.12', 'qt5-x11extras>=5.15.12']"
 +++
+### Description: 
 Geography Trainer.
 
-## Files: 
+### Files: 
 * /usr/bin/kgeography
 * /usr/share/applications/org.kde.kgeography.desktop
 * /usr/share/config.kcfg/kgeography.kcfg

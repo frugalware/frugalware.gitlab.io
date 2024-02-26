@@ -13,9 +13,10 @@ usize = "772140"
 sha1sum = "28c9732703ed8ec7a50efbc0e4fc62c686ae5ecb"
 depends = "['bzip2', 'libstdc++', 'newt', 'openssl>=3.1.0', 'zlib>=1.2.12']"
 +++
+### Description: 
 a Linux/UNIX utility which saves partitions in many formats to an image file.
 
-## Files: 
+### Files: 
 * /etc/partimaged/partimagedusers
 * /etc/partimaged/servercert.cnf
 * /etc/sysconfig/partimaged

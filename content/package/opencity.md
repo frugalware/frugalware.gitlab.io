@@ -13,9 +13,10 @@ usize = "9333699"
 sha1sum = "fde538c0bb08e49f491719e80a3e26a9fd94b665"
 depends = "['libglu', 'libpng', 'sdlimage>=1.2.10-2', 'sdl_mixer', 'sdl_net']"
 +++
+### Description: 
 A full 3D city simulator game project
 
-## Files: 
+### Files: 
 * /etc/opencity/config/graphism.conf
 * /etc/opencity/config/graphism.xml
 * /etc/opencity/config/opencity.xml

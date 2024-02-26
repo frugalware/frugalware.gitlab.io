@@ -13,9 +13,10 @@ usize = "388106"
 sha1sum = "dfb45db89fceef337fe0a11e013aae1b28e1abaf"
 depends = "['kparts>=5.115.0', 'qt5-tools']"
 +++
+### Description: 
 Developer utilities for kde.
 
-## Files: 
+### Files: 
 * /usr/bin/kpartloader
 * /usr/bin/kuiviewer
 * /usr/lib/qt5/plugins/kf5/parts/kuiviewerpart.so

@@ -14,9 +14,10 @@ sha1sum = "28e1f4e94665b0b1298521d95996119fe59f58ee"
 depends = "['libstdc++>=11.3']"
 reverse_depends = "['python3']"
 +++
+### Description: 
 Package for correctly-rounded arbitrary precision decimal floating point arithmetic
 
-## Files: 
+### Files: 
 * /usr/include/decimal.hh
 * /usr/include/mpdecimal.h
 * /usr/lib/libmpdec++.so

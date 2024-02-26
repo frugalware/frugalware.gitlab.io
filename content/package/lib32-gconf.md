@@ -14,9 +14,10 @@ sha1sum = "e8cdbc5d5a5a5d837c7170dd6c0b580c8e1071e7"
 depends = "['lib32-dbus-glib', 'lib32-libffi', 'lib32-libxml2', 'lib32-polkit']"
 reverse_depends = "['steam-native']"
 +++
+### Description: 
 A configuration database system for GNOME ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/gconf-merge-tree
 * /usr/i686-frugalware-linux/bin/gconftool-2
 * /usr/i686-frugalware-linux/bin/gsettings-data-convert

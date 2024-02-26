@@ -14,9 +14,10 @@ sha1sum = "c107493eb8916c127b34413823eeec36dfcfcf41"
 depends = "['ncurses>=6.1-5', 'readline>=8.0-3']"
 reverse_depends = "['pulse-autoconf', 'steamtinkerlaunch']"
 +++
+### Description: 
 An arbitrary precision calculator language
 
-## Files: 
+### Files: 
 * /usr/bin/bc
 * /usr/bin/dc
 * /usr/share/doc/bc-1.07.1/AUTHORS

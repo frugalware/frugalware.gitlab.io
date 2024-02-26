@@ -14,9 +14,10 @@ sha1sum = "59167a2c020acaaf58eb7374d8331fa00eda9171"
 depends = "['glibc']"
 license = "GPL2"
 +++
+### Description: 
 X.Org create a shadow directory of symbolic links to another directory tree
 
-## Files: 
+### Files: 
 * /usr/bin/lndir
 * /usr/share/doc/lndir-1.0.4/ChangeLog
 * /usr/share/doc/lndir-1.0.4/COPYING

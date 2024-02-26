@@ -13,9 +13,10 @@ usize = "2002018"
 sha1sum = "fd53e895a1813479571300a33ad882f631165a7d"
 depends = "['clang-libs>=17.0.6', 'libxslt', 'qt5-xmlpatterns>=5.15.10']"
 +++
+### Description: 
 Support library for Python bindings.
 
-## Files: 
+### Files: 
 * /usr/bin/shiboken2
 * /usr/bin/shiboken_tool.py
 * /usr/include/shiboken2/autodecref.h

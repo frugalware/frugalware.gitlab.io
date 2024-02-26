@@ -13,9 +13,10 @@ usize = "23726359"
 sha1sum = "0a0d7bda430cf22ed4fb87edb5ea51cb9ee02d1b"
 depends = "['gtk+3>=3.24.41']"
 +++
+### Description: 
 gtk+3 documention
 
-## Files: 
+### Files: 
 * /usr/share/gtk-doc/html/gail-libgail-util3/gail-libgail-util3-GailMisc.html
 * /usr/share/gtk-doc/html/gail-libgail-util3/gail-libgail-util3-GailTextUtil.html
 * /usr/share/gtk-doc/html/gail-libgail-util3/home.png

@@ -13,9 +13,10 @@ usize = "400249"
 sha1sum = "c38b942b8d71ba9e22e08af63f83721588eee01e"
 depends = "['glibc']"
 +++
+### Description: 
 Rapid fuzzy string matching in C++ using the Levenshtein Distance
 
-## Files: 
+### Files: 
 * /usr/include/rapidfuzz/details/CharSet.hpp
 * /usr/include/rapidfuzz/details/common.hpp
 * /usr/include/rapidfuzz/details/common_impl.hpp

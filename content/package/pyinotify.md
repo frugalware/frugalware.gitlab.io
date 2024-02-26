@@ -14,9 +14,10 @@ sha1sum = "0be1d80208734bfb8f6dd6f3bd0af76ea014b62a"
 depends = "['python3']"
 reverse_depends = "['fail2ban', 'git-cola', 'python3-dulwich']"
 +++
+### Description: 
 Pyinotify is a Python package used for monitoring filesystems events on Linux platforms with inotify.
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/pyinotify-0.9.6-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pyinotify-0.9.6-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/pyinotify-0.9.6-py3.12.egg-info/SOURCES.txt

@@ -13,9 +13,10 @@ usize = "291170"
 sha1sum = "fd8d59e7ac742c1845bce6c36d9a30d9ddcaddde"
 depends = "['ghc>=9.6.1']"
 +++
+### Description: 
 Windows code page library for Haskell
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/code-page-0.2.1/libHScode-page-0.2.1-BoW65gHPWFY2WubjSVmVsI.a
 * /usr/lib/ghc-9.8.1/site-local/code-page-0.2.1/System/IO/CodePage.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/code-page-0.2.1/System/IO/CodePage.hi

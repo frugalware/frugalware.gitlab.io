@@ -14,9 +14,10 @@ sha1sum = "58fc2b452f9acfe704561eb52d4033803a527b9a"
 depends = "['ncurses>=6.1-2']"
 reverse_depends = "['aalib', 'fpc', 'gvim', 'joe']"
 +++
+### Description: 
 General purpose mouse server
 
-## Files: 
+### Files: 
 * /etc/sysconfig/gpm
 * /usr/bin/disable-paste
 * /usr/bin/display-buttons

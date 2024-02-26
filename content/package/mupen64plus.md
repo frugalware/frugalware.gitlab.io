@@ -13,9 +13,10 @@ usize = "5095307"
 sha1sum = "47a5ba628586259424cc44f72e6475c4d65d8683"
 depends = "['freetype2', 'gtk+2>=2.20.1', 'libboost>=1.83.0', 'libglu', 'libxau', 'libxdmcp', 'libxml2>=2.7.8', 'sdl2']"
 +++
+### Description: 
 Nintendo64 Emulator
 
-## Files: 
+### Files: 
 * /usr/bin/mupen64plus
 * /usr/include/mupen64plus/m64p_common.h
 * /usr/include/mupen64plus/m64p_config.h

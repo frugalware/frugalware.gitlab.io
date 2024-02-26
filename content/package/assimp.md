@@ -14,9 +14,10 @@ sha1sum = "406184f8700f71332d0962de068d5fe070ecb8b6"
 depends = "['libstdc++', 'zlib']"
 reverse_depends = "['alicevision', 'qt5-3d', 'qt6-3d', 'qt6-quick3d']"
 +++
+### Description: 
 Library to import various well-known 3D model formats in an uniform manner
 
-## Files: 
+### Files: 
 * /usr/bin/assimp
 * /usr/include/assimp/aabb.h
 * /usr/include/assimp/ai_assert.h

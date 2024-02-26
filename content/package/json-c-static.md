@@ -13,7 +13,8 @@ usize = "360466"
 sha1sum = "6847e8851321ced01eab994a1908484b52aa1721"
 depends = "[]"
 +++
+### Description: 
 JSON-C static
 
-## Files: 
+### Files: 
 * /usr/lib/libjson-c.a

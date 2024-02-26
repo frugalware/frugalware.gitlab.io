@@ -14,9 +14,10 @@ sha1sum = "91f74e7c985e7fee0ee3b53188e191d43c82de66"
 depends = "['libx11>=1.6.3-4', 'libxt>=1.1.5-3']"
 license = "GPL2"
 +++
+### Description: 
 X.Org appres application
 
-## Files: 
+### Files: 
 * /usr/bin/appres
 * /usr/share/doc/appres-1.0.6/AUTHORS
 * /usr/share/doc/appres-1.0.6/ChangeLog

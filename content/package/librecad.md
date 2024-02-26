@@ -13,9 +13,10 @@ usize = "83231941"
 sha1sum = "0022495222b7799002600629b45ebb1aa0b5784b"
 depends = "['muparser>=2.2.5-2', 'qt5-svg>=5.15.10', 'qt5-tools>=5.15.10']"
 +++
+### Description: 
 Free Open Source personal CAD application.
 
-## Files: 
+### Files: 
 * /usr/bin/librecad
 * /usr/bin/ttf2lff
 * /usr/share/applications/librecad.desktop

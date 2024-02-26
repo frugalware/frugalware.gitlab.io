@@ -13,9 +13,10 @@ usize = "69272"
 sha1sum = "e9151f591ed8534d5b5536e9cb840bc3bd058f64"
 depends = "['nss']"
 +++
+### Description: 
 A WYSIWG web editor for linux similiar to Dreamweaver
 
-## Files: 
+### Files: 
 * /usr/lib/nvu
 * /usr/share/applications/nvu.desktop
 * /usr/share/doc/nvu-1.0/LICENSE

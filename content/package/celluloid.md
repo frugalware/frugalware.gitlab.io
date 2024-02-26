@@ -13,9 +13,10 @@ usize = "1611823"
 sha1sum = "5b5013bcf93967b026597a8dc568ebdef5d40b46"
 depends = "['gtk+4', 'libadwaita', 'mpv>=0.35']"
 +++
+### Description: 
 A simple GTK+ frontend for mpv
 
-## Files: 
+### Files: 
 * /usr/bin/celluloid
 * /usr/share/applications/io.github.celluloid_player.Celluloid.desktop
 * /usr/share/dbus-1/services/io.github.celluloid_player.Celluloid.service

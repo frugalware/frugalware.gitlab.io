@@ -14,9 +14,10 @@ sha1sum = "7ed58d01ffaaf4f9d2e8a1ac866012f10380065c"
 depends = "['curl', 'gnutls>=3.4.8', 'libestr>=0.1.10-4', 'libfastjson>=0.99.8', 'liblogging>=1.0.5-3']"
 reverse_depends = "['rsyslog-gssapi', 'rsyslog-mysql', 'rsyslog-pgsql', 'rsyslog-snmp', 'rsyslog-udpspoof']"
 +++
+### Description: 
 Enhanced system logging and kernel message trapping daemon
 
-## Files: 
+### Files: 
 * /etc/logrotate.d/rsyslog
 * /etc/rsyslog.conf
 * /usr/bin/rsyslogd

@@ -14,9 +14,10 @@ sha1sum = "91ef8552ed3162139fdc4ef7b1387fed745512b3"
 depends = "['hunspell>=1.7.0', 'qt5-declarative>=5.15.12', 'qt5-svg>=5.15.12']"
 reverse_depends = "['aura-browser', 'kwin5', 'plasma-bigscreen']"
 +++
+### Description: 
 The Qt5 toolkit, qtvirtualkeyboard
 
-## Files: 
+### Files: 
 * /usr/include/qt5/QtHunspellInputMethod/5.15.12/QtHunspellInputMethod/private/hunspellinputmethod_p.h
 * /usr/include/qt5/QtHunspellInputMethod/5.15.12/QtHunspellInputMethod/private/hunspellinputmethod_p_p.h
 * /usr/include/qt5/QtHunspellInputMethod/5.15.12/QtHunspellInputMethod/private/hunspellworker_p.h

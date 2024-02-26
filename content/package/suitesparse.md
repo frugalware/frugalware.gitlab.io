@@ -14,9 +14,10 @@ sha1sum = "fc8168df9674f8274a7bd8d9c3e4d8e3842739de"
 depends = "['lapack', 'libgomp', 'libstdc++>=11.2']"
 reverse_depends = "['ceres-solver', 'gegl', 'julia']"
 +++
+### Description: 
 A collection of sparse matrix libraries
 
-## Files: 
+### Files: 
 * /usr/bin/suitesparse_mongoose
 * /usr/include/suitesparse/amd.h
 * /usr/include/suitesparse/btf.h

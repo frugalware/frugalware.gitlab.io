@@ -13,9 +13,10 @@ usize = "571300"
 sha1sum = "9474ec61e19f57b9bbada0bbb9d8e43d296ea599"
 depends = "['bash', 'glib2>=2.16.4-2', 'libxml2>=2.6.32-2', 'openssl>=1.0.0', 'pacman-g2>=3.9.0-31', 'perl>=5.34', 'python3', 'shadow', 'wget']"
 +++
+### Description: 
 Tools for developers for managing packages
 
-## Files: 
+### Files: 
 * /etc/repoman.conf
 * /etc/repoman.d/current
 * /etc/repoman.d/stable

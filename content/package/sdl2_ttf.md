@@ -14,9 +14,10 @@ sha1sum = "9d89392355a5151ee79af5cb6c14b90ef9e4d9df"
 depends = "['freetype2', 'libglvnd', 'sdl2>=1.2.12']"
 reverse_depends = "['crawl-tiles', 'enigma', 'freeciv', 'freerdp', 'lincity-ng', 'sdlmame', 'solarus', 'wesnoth']"
 +++
+### Description: 
 SDL_ttf is a TrueType font rendering library.
 
-## Files: 
+### Files: 
 * /usr/include/SDL2/SDL_ttf.h
 * /usr/lib/cmake/SDL2_ttf/sdl2_ttf-config-version.cmake
 * /usr/lib/cmake/SDL2_ttf/sdl2_ttf-config.cmake

@@ -13,9 +13,10 @@ usize = "114056"
 sha1sum = "02bae73bdc1a1a1dff9e1194d45efc85f483c932"
 depends = "['nettle>=3.1.1']"
 +++
+### Description: 
 Rdfind is a program that find duplicate files
 
-## Files: 
+### Files: 
 * /usr/bin/rdfind
 * /usr/share/doc/rdfind-1.6.0/AUTHORS
 * /usr/share/doc/rdfind-1.6.0/ChangeLog

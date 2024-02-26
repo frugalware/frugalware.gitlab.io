@@ -15,9 +15,10 @@ depends = "['python3>=3.12']"
 reverse_depends = "['smeg']"
 license = "LGPL2"
 +++
+### Description: 
 PyXDG is a python library to access freedesktop.org standards.
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/pyxdg-0.25-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pyxdg-0.25-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/pyxdg-0.25-py3.12.egg-info/SOURCES.txt

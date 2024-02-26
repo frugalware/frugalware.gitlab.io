@@ -14,9 +14,10 @@ sha1sum = "7b386f2ef27fd044faec913ba7546ef75e306e03"
 depends = "['haskell-prettyprinter-ansi-terminal', 'haskell-transformers-compat']"
 reverse_depends = "['haskell-wai-app-static']"
 +++
+### Description: 
 Utilities and combinators for parsing command line options
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/optparse-applicative-0.18.1.0/libHSoptparse-applicative-0.18.1.0-J3Sn5W5wOp1HAAPlBZjLbb.a
 * /usr/lib/ghc-9.8.1/site-local/optparse-applicative-0.18.1.0/Options/Applicative.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/optparse-applicative-0.18.1.0/Options/Applicative.hi

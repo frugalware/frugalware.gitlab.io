@@ -13,9 +13,10 @@ usize = "361804"
 sha1sum = "252ae1d41d1b99a239c82e632d465ee1126bae03"
 depends = "['sdl2>=2.0.4-2']"
 +++
+### Description: 
 SDL2 MPEG Player Library is a general purpose MPEG video/audio player
 
-## Files: 
+### Files: 
 * /usr/bin/plaympeg2
 * /usr/bin/smpeg2-config
 * /usr/include/smpeg2/MPEG.h

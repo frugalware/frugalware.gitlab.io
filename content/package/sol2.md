@@ -13,9 +13,10 @@ usize = "1149051"
 sha1sum = "e9fc35bf7388a01cbaccbe2d8700508ebdf01787"
 depends = "['glibc']"
 +++
+### Description: 
 C++ <-> Lua API wrapper with advanced features and top notch performance
 
-## Files: 
+### Files: 
 * /usr/include/sol/assert.hpp
 * /usr/include/sol/as_args.hpp
 * /usr/include/sol/as_returns.hpp

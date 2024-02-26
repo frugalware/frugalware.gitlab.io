@@ -14,9 +14,10 @@ sha1sum = "4ace182214c7b2567df8f5b20aabab35c8231b5b"
 depends = "['glibc>=2.34', 'libsystemd', 'polkit']"
 reverse_depends = "['ccid', 'keepassxc', 'libykneomgr', 'openjre', 'opensc', 'qt6-connectivity', 'wine', 'wine-devel']"
 +++
+### Description: 
 PC/SC Architecture smartcard middleware library
 
-## Files: 
+### Files: 
 * /usr/bin/pcsc-spy
 * /usr/bin/pcscd
 * /usr/include/PCSC/debuglog.h

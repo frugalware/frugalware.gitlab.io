@@ -14,9 +14,10 @@ sha1sum = "b1fa69baf43c543a5375a60cb00d5215dbecc418"
 depends = "['glibc>=2.34']"
 reverse_depends = "['cmake', 'kopete', 'opendht', 'openvr', 'openxr', 'qt5-webengine', 'sysdig']"
 +++
+### Description: 
 JSON C++ library.
 
-## Files: 
+### Files: 
 * /usr/include/json/allocator.h
 * /usr/include/json/assertions.h
 * /usr/include/json/config.h

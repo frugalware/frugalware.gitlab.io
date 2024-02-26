@@ -13,9 +13,10 @@ usize = "1993445"
 sha1sum = "eafad44063fb9426ab13bab19270056c8229fa8f"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Guarani support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/resource/gug/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/gug/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/gug/LC_MESSAGES/basctl.mo

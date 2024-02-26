@@ -13,9 +13,10 @@ usize = "2013762"
 sha1sum = "9856ec44ddbc9f55f43bf07d931fa7b39b5a7e7d"
 depends = "['git', 'karchive>=5.115.0', 'kcompletion>=5.115.0', 'kconfig>=5.115.0', 'kconfigwidgets>=5.115.0', 'kcoreaddons>=5.115.0', 'kdbusaddons>=5.115.0', 'kdeclarative>=5.115.0', 'kdelibs4support', 'kdoctools', 'ki18n>=5.115.0', 'kiconthemes>=5.115.0', 'kio>=5.115.0', 'kirigami2', 'knewstuff>=5.115.0', 'kparts>=5.115.0', 'kservice>=5.115.0', 'ktexteditor>=5.115.0', 'kwidgetsaddons>=5.115.0', 'kwindowsystem>=5.115.0', 'kxmlgui>=5.115.0', 'plasma-workspace>=5.27.10', 'qt5-svg>=5.15.12']"
 +++
+### Description: 
 Plasma SDK
 
-## Files: 
+### Files: 
 * /usr/bin/cuttlefish
 * /usr/bin/lookandfeelexplorer
 * /usr/bin/plasmaengineexplorer

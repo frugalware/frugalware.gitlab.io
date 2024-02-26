@@ -14,9 +14,10 @@ sha1sum = "10effc45460bb5743b5407ed1b48c694d91ea948"
 depends = "['libstdc++>=12.2']"
 reverse_depends = "['intel-compute-runtime', 'media-driver']"
 +++
+### Description: 
 Intel Graphics Memory Management Library
 
-## Files: 
+### Files: 
 * /usr/include/igdgmm/GmmLib/CachePolicy/GmmCachePolicyConditionals.h
 * /usr/include/igdgmm/GmmLib/CachePolicy/GmmCachePolicyResourceUsageDefinitions.h
 * /usr/include/igdgmm/GmmLib/CachePolicy/GmmCachePolicyUndefineConditionals.h

@@ -13,9 +13,10 @@ usize = "699757"
 sha1sum = "49f4f05251d2fe487def8adc8bebfc208d57baf1"
 depends = "['commons-io', 'commons-logging']"
 +++
+### Description: 
 A library of several reusable components used by Apache Batik and Apache FOP.
 
-## Files: 
+### Files: 
 * /usr/share/doc/xmlgraphics-commons-2.7/LICENSE
 * /usr/share/doc/xmlgraphics-commons-2.7/README
 * /usr/share/java/xmlgraphics-commons-2.7.jar

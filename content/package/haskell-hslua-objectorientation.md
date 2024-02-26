@@ -14,9 +14,10 @@ sha1sum = "ba590dce95b696f1146302faf6c0a13eedf4a6dd"
 depends = "['haskell-hslua-typing']"
 reverse_depends = "['haskell-hslua', 'haskell-hslua-packaging']"
 +++
+### Description: 
 Object orientation tools for HsLua
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/hslua-objectorientation-2.3.0/HsLua/ObjectOrientation.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-objectorientation-2.3.0/HsLua/ObjectOrientation.hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-objectorientation-2.3.0/HsLua/ObjectOrientation/Operation.dyn_hi

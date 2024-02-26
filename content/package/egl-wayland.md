@@ -14,9 +14,10 @@ sha1sum = "7e3c97bfd3cfd5cd5d77d38421d2ebf6a1174662"
 depends = "['eglexternalplatform', 'wayland']"
 reverse_depends = "['xorg-server-xwayland']"
 +++
+### Description: 
 EGLStream-based Wayland external platform
 
-## Files: 
+### Files: 
 * /usr/lib/libnvidia-egl-wayland.so
 * /usr/lib/libnvidia-egl-wayland.so.1
 * /usr/lib/libnvidia-egl-wayland.so.1.1.13

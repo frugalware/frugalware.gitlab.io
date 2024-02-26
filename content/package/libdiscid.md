@@ -14,9 +14,10 @@ sha1sum = "e9d01f1dce558966cfea760fdc04477e4d0f6d73"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['picard']"
 +++
+### Description: 
 A Library for creating MusicBrainz DiscIDs
 
-## Files: 
+### Files: 
 * /usr/include/discid/discid.h
 * /usr/lib/libdiscid.so
 * /usr/lib/libdiscid.so.0

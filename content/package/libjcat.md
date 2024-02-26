@@ -14,9 +14,10 @@ sha1sum = "7c1170af3faac8d86b1a20e3508e5b5eb2334855"
 depends = "['gnutls', 'gpgme', 'json-glib']"
 reverse_depends = "['fwupd']"
 +++
+### Description: 
 Library for reading and writing Jcat files
 
-## Files: 
+### Files: 
 * /usr/bin/jcat-tool
 * /usr/include/libjcat-1/jcat.h
 * /usr/include/libjcat-1/libjcat/jcat-blob.h

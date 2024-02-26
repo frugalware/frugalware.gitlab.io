@@ -14,9 +14,10 @@ sha1sum = "bf3190d5b1470879e9e0724e7285f2d16ab5d7a2"
 depends = "['asio', 'curl', 'fdk-aac', 'fdk-aac', 'ffmpeg>=6.0', 'gtk+3', 'jansson', 'libxcomposite', 'libxinerama', 'libxkbcommon', 'luajit2', 'mbedtls>=2.27.0', 'pipewire', 'python3>=3.12', 'qt6-svg', 'vlc', 'websocketpp', 'x264>=20230712.ga8b68eb']"
 reverse_depends = "['obs-v4l2sink']"
 +++
+### Description: 
 Free, open source software for live streaming and recording
 
-## Files: 
+### Files: 
 * /usr/bin/obs
 * /usr/bin/obs-ffmpeg-mux
 * /usr/include/obs/audio-monitoring/pulse/pulseaudio-wrapper.h

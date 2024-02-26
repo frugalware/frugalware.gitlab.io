@@ -13,9 +13,10 @@ usize = "26671238"
 sha1sum = "1f7d005f9a9b020dee7a6047399c6838b52b4cad"
 depends = "[]"
 +++
+### Description: 
 Brazilian Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/apps/katepart/syntax/logohighlightstyle.pt_BR.xml
 * usr/share/apps/khangman/data/pt_BR/animals.kvtml
 * usr/share/apps/khangman/data/pt_BR/easy.kvtml

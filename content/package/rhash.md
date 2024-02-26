@@ -14,9 +14,10 @@ sha1sum = "5b910fdc8ee67b0576e69f5c67d9e9ea09930376"
 depends = "['glibc']"
 reverse_depends = "['cmake']"
 +++
+### Description: 
 Utility for verifying hash sums (SFV, CRC, etc). Supports lots of algorithms.
 
-## Files: 
+### Files: 
 * /etc/rhashrc
 * /usr/bin/ed2k-link
 * /usr/bin/edonr256-hash

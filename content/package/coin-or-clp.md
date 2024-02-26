@@ -14,9 +14,10 @@ sha1sum = "baf19cbe666d9734e861edbc9b056a291df9443b"
 depends = "['coin-or-osi']"
 reverse_depends = "['alicevision']"
 +++
+### Description: 
 COIN-OR linear programming solver (AliceVision fork)
 
-## Files: 
+### Files: 
 * /usr/include/Coin/CbcOrClpParam.hpp
 * /usr/include/Coin/ClpCholeskyBase.hpp
 * /usr/include/Coin/ClpCholeskyDense.hpp

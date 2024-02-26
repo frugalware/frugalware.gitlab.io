@@ -14,7 +14,8 @@ sha1sum = "a995d521a078f2e587534c9f7ae79e973662b61d"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Acoli language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-ach@firefox.mozilla.org.xpi

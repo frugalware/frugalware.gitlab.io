@@ -14,9 +14,10 @@ sha1sum = "dab9d9476237ffa9e05c7f61c2e6ec87b14ec297"
 depends = "['mailcommon>=23.08.5']"
 reverse_depends = "['kmail']"
 +++
+### Description: 
 Wizard to assist with importing MBox email archives into Akonadi
 
-## Files: 
+### Files: 
 * /usr/bin/mboximporter
 * /usr/share/applications/org.kde.mboximporter.desktop
 * /usr/share/locale/ar/LC_MESSAGES/mboximporter.mo

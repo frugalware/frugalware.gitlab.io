@@ -13,9 +13,10 @@ usize = "7506182"
 sha1sum = "1eaf0dabb6c14c099c9683489d800772adcc0b60"
 depends = "['glibc']"
 +++
+### Description: 
 WenQuanYi Bitmap Song CJK font (TTF)
 
-## Files: 
+### Files: 
 * /usr/share/doc/wqy-bitmapfont-ttf-0.7.0_4/ChangeLog
 * /usr/share/doc/wqy-bitmapfont-ttf-0.7.0_4/INSTALL
 * /usr/share/doc/wqy-bitmapfont-ttf-0.7.0_4/INSTALL.zh.gb2312

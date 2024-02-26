@@ -13,9 +13,10 @@ usize = "461917"
 sha1sum = "3ba4e5530d3f1bd4b000378e33383439fd16cf08"
 depends = "['python3>=3.12']"
 +++
+### Description: 
 Encoding and language detection alternative to chardet
 
-## Files: 
+### Files: 
 * /usr/bin/normalizer
 * /usr/lib/python3.12/site-packages/charset_normalizer-3.3.2-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/charset_normalizer-3.3.2-py3.12.egg-info/entry_points.txt

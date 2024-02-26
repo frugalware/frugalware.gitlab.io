@@ -13,9 +13,10 @@ usize = "373164"
 sha1sum = "881dceeb425b8eeb7875309583e30b832e97f3f3"
 depends = "['haskell-hslua-packaging']"
 +++
+### Description: 
 Lua module to work with version specifiers
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/hslua-module-version-1.1.0/HsLua/Module/Version.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-module-version-1.1.0/HsLua/Module/Version.hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-module-version-1.1.0/libHShslua-module-version-1.1.0-D6HftYeTlZoKEAcnTT1il0.a

@@ -14,7 +14,8 @@ sha1sum = "5262145279c1d52775a3f46b7e6bd473db7dbff9"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Scots language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-sco@firefox.mozilla.org.xpi

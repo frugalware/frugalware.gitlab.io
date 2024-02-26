@@ -14,9 +14,10 @@ sha1sum = "97f76a0f5f556086760e7cfa76bfd8c35cc4f555"
 depends = "[]"
 reverse_depends = "['lib32-networkmanager']"
 +++
+### Description: 
 C library for encoding, decoding and manipulating JSON data ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/jansson.h
 * /usr/i686-frugalware-linux/include/jansson_config.h
 * /usr/lib32/libjansson.so

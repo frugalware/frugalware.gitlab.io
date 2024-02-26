@@ -14,9 +14,10 @@ sha1sum = "1e4f038cab0d80ba5b43a47e1a130d22ca0c800f"
 depends = "['haskell-lexer']"
 reverse_depends = "['pandoc']"
 +++
+### Description: 
 Tools for working with derived 'Show' instances and generic inspection of values
 
-## Files: 
+### Files: 
 * /usr/bin/ppsh
 * /usr/lib/ghc-9.8.1/site-local/pretty-show-1.10/libHSpretty-show-1.10-IzWVWvc7T3FbSvrrAq35S.a
 * /usr/lib/ghc-9.8.1/site-local/pretty-show-1.10/Paths_pretty_show.dyn_hi

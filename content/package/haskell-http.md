@@ -13,9 +13,10 @@ usize = "6057742"
 sha1sum = "159a86868ef3214b5ea8a290d2daf4cfb177cc23"
 depends = "['haskell-network>=3.1.2.2', 'haskell-network-uri']"
 +++
+### Description: 
 A library for client-side HTTP
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/HTTP-4000.4.1/libHSHTTP-4000.4.1-6MaBiVZFmHoAepoYFM3pPy.a
 * /usr/lib/ghc-9.8.1/site-local/HTTP-4000.4.1/Network/Browser.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/HTTP-4000.4.1/Network/Browser.hi

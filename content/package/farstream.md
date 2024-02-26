@@ -14,9 +14,10 @@ sha1sum = "bb7c9833491b6d1c4936e02f45f7d89b6cb7c745"
 depends = "['gst1-plugins-base>=1.9.2-2', 'libffi>=3.2.1-2', 'nice>=0.1.16']"
 reverse_depends = "['libpurple', 'telepathy-farstream', 'telepathy-qt5']"
 +++
+### Description: 
 Farstream - Audio/Video Communications Framework
 
-## Files: 
+### Files: 
 * /usr/include/farstream-0.2/farstream/fs-candidate.h
 * /usr/include/farstream-0.2/farstream/fs-codec.h
 * /usr/include/farstream-0.2/farstream/fs-conference.h

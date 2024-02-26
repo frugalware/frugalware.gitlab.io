@@ -14,9 +14,10 @@ sha1sum = "1281df01b64fd73d7036a4da7198c2616e2f660a"
 depends = "['ghc>=9.8.1']"
 reverse_depends = "['haskell-comonad', 'haskell-indexed-traversable-instances']"
 +++
+### Description: 
 FunctorWithIndex, FoldableWithIndex, TraversableWithIndex
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/indexed-traversable-0.1.3/CoerceCompat.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/indexed-traversable-0.1.3/CoerceCompat.hi
 * /usr/lib/ghc-9.8.1/site-local/indexed-traversable-0.1.3/Data/Foldable/WithIndex.dyn_hi

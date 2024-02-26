@@ -14,9 +14,10 @@ sha1sum = "eec69871f43b6c131621e4af7cfec2ec50f73efd"
 depends = "['haskell-hourglass', 'haskell-memory']"
 reverse_depends = "['haskell-asn1-encoding']"
 +++
+### Description: 
 ASN.1 types
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/asn1-types-0.3.4/Data/ASN1/BitArray.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/asn1-types-0.3.4/Data/ASN1/BitArray.hi
 * /usr/lib/ghc-9.8.1/site-local/asn1-types-0.3.4/Data/ASN1/OID.dyn_hi

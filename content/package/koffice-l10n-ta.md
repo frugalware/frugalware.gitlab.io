@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "7ece0507e0db5f7cb0199355f4fa4cbc35c0c8d7"
 depends = "[]"
 +++
+### Description: 
 Tamil Localization for KOffice. 
 
-## Files: 
+### Files: 
 * usr/share/locale/ta/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/ta/LC_MESSAGES/example.mo
 * usr/share/locale/ta/LC_MESSAGES/karbon.mo

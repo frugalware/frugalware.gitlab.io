@@ -14,9 +14,10 @@ sha1sum = "56afd98f3adae5448009d0a6840b7e3c8f7bc5c2"
 depends = "['mailimporter>=23.08.5', 'messagelib>=23.08.5']"
 reverse_depends = "['akonadi-import-wizard', 'kaddressbook', 'kalarm', 'kdepim-addons', 'kmail', 'kmail-account-wizard', 'kontact', 'korganizer', 'mbox-importer', 'merkuro', 'pim-data-exporter']"
 +++
+### Description: 
 KdePim mail-common files
 
-## Files: 
+### Files: 
 * /usr/include/KPim5/MailCommon/MailCommon/AccountConfigOrderDialog
 * /usr/include/KPim5/MailCommon/mailcommon/accountconfigorderdialog.h
 * /usr/include/KPim5/MailCommon/MailCommon/AddTagDialog

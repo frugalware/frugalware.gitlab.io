@@ -13,9 +13,10 @@ usize = "14956891"
 sha1sum = "15f68095458728e40c310b42fa3d40b205ca2fd2"
 depends = "['gst1-plugins-base', 'gtk+3', 'handbrake', 'lame', 'libass', 'libnotify', 'libsamplerate', 'libtheora', 'x264>=20230712.ga8b68eb']"
 +++
+### Description: 
 gtk gui for handbrake
 
-## Files: 
+### Files: 
 * /usr/bin/ghb
 * /usr/share/applications/fr.handbrake.ghb.desktop
 * /usr/share/icons/hicolor/scalable/apps/fr.handbrake.ghb.svg

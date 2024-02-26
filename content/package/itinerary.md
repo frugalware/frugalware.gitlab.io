@@ -13,9 +13,10 @@ usize = "4093666"
 sha1sum = "5204d9c694550dabff9df44f6f8ae9a3f72e48e5"
 depends = "['kcontacts>=5.115.0', 'kcoreaddons>=5.115.0', 'kholidays>=5.115.0', 'kirigami-addons', 'kitinerary>=', 'knotifications>=5.115.0', 'kosmindoormap>=', 'kpkpass>=', 'networkmanager-qt>=5.115.0', 'prison>=5.115.0', 'qqc2-desktop-style>=5.115.0', 'qt5-quickcontrols2>=5.15.12', 'solid>=5.115.0']"
 +++
+### Description: 
 Itinerary and boarding pass management application
 
-## Files: 
+### Files: 
 * /usr/bin/itinerary
 * /usr/lib/libSolidExtras.so
 * /usr/lib/qt5/plugins/kf5/thumbcreator/itinerarythumbnail.so

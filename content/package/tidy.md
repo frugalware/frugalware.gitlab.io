@@ -14,9 +14,10 @@ sha1sum = "01a75ae6a905eb354a02635c3a4c6a4a721bec27"
 depends = "['glibc>=2.34']"
 reverse_depends = "['konqueror']"
 +++
+### Description: 
 Tidy the layout and correct errors in HTML, XHTML and XML documents
 
-## Files: 
+### Files: 
 * /usr/bin/tidy
 * /usr/include/buffio.h
 * /usr/include/platform.h

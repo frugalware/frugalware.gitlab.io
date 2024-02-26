@@ -14,9 +14,10 @@ sha1sum = "b2c04245630eecc1b45138852bb3043859dcbe9b"
 depends = "['bash>=4.3_042-5', 'glibc>=2.35']"
 reverse_depends = "['profile-sync-daemon', 'pulse-autoconf', 'scriptlet-core']"
 +++
+### Description: 
 Basic directory searching utilities
 
-## Files: 
+### Files: 
 * /usr/bin/find
 * /usr/bin/xargs
 * /usr/lib/findutils/frcode

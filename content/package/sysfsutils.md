@@ -14,9 +14,10 @@ sha1sum = "fb7a4f4a35a31bd0f31f8e9acd6c916af6fac461"
 depends = "['glibc>=2.34']"
 reverse_depends = "['rng-tools']"
 +++
+### Description: 
 System utilities based on sysfs
 
-## Files: 
+### Files: 
 * /usr/bin/dlist_test
 * /usr/bin/get_device
 * /usr/bin/get_driver

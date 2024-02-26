@@ -14,9 +14,10 @@ sha1sum = "682ad98dea306d8c2c0f54e34f6a8b5ff1d91292"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['cairomm', 'glibmm24', 'libtorrent', 'net6']"
 +++
+### Description: 
 A typesafe callback framework for C++
 
-## Files: 
+### Files: 
 * /usr/include/sigc++-2.0/sigc++/adaptors/adaptors.h
 * /usr/include/sigc++-2.0/sigc++/adaptors/adaptor_trait.h
 * /usr/include/sigc++-2.0/sigc++/adaptors/bind.h

@@ -13,9 +13,10 @@ usize = "1776014"
 sha1sum = "1b73b9e372cf31dd41f548ea94594c21ba0fdbe7"
 depends = "['pcsc-lite>=1.8.14', 'systemd>=188']"
 +++
+### Description: 
 CCID free software driver
 
-## Files: 
+### Files: 
 * /etc/reader.conf.d/libccidtwin
 * /etc/udev/rules.d/92_pcscd_ccid.rules
 * /usr/share/doc/ccid-1.5.4/AUTHORS

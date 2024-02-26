@@ -15,9 +15,10 @@ depends = "['glibc>=2.34']"
 reverse_depends = "['kwin5', 'xorg-server', 'xorg-server-xwayland']"
 license = "GPL2"
 +++
+### Description: 
 library providing a standalone version of the X server implementation of the VESA CVT standard timing modelines generator
 
-## Files: 
+### Files: 
 * /usr/bin/cvt
 * /usr/include/libxcvt/libxcvt.h
 * /usr/include/libxcvt/libxcvt_mode.h

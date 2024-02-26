@@ -14,9 +14,10 @@ sha1sum = "ecbc8ff08a04bb2e9debcaca7167a2eb8a1a9d63"
 depends = "['haskell-statevar']"
 reverse_depends = "['haskell-semigroupoids']"
 +++
+### Description: 
 Contravariant functors
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/contravariant-1.5.5/Data/Functor/Contravariant/Compose.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/contravariant-1.5.5/Data/Functor/Contravariant/Compose.hi
 * /usr/lib/ghc-9.8.1/site-local/contravariant-1.5.5/Data/Functor/Contravariant/Divisible.dyn_hi

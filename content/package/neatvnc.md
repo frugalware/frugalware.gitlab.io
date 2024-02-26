@@ -14,9 +14,10 @@ sha1sum = "4800046ca00aac2d64a81e1dfba6a44f42921300"
 depends = "['aml', 'gnutls', 'libdrm', 'libjpeg-turbo', 'pixman']"
 reverse_depends = "['weston']"
 +++
+### Description: 
 Fast and neat VNC server library
 
-## Files: 
+### Files: 
 * /usr/include/neatvnc.h
 * /usr/lib/libneatvnc.so
 * /usr/lib/libneatvnc.so.0

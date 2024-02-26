@@ -13,9 +13,10 @@ usize = "38550131"
 sha1sum = "db529e9e89644636b09b5d12952176527553e6c7"
 depends = "['gst1-plugins-base', 'libpulse>=6.0', 'libsamplerate', 'python3', 'sphinxbase>=0.8', 'xz']"
 +++
+### Description: 
 Lightweight speech recognition engine, specifically tuned for handheld and mobile devices, though it works equally well on the desktop
 
-## Files: 
+### Files: 
 * /usr/bin/pocketsphinx_batch
 * /usr/bin/pocketsphinx_continuous
 * /usr/bin/pocketsphinx_mdef_convert

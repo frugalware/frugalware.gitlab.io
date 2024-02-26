@@ -13,7 +13,8 @@ usize = "43104"
 sha1sum = "9baf19e3273c5377af283e2c5270f27f456669e8"
 depends = "['ffmpeg>=6.0', 'libde265', 'qt5-base>=5.15.10', 'sdl2']"
 +++
+### Description: 
 Qt-based video player
 
-## Files: 
+### Files: 
 * /usr/bin/sherlock265

@@ -14,7 +14,8 @@ sha1sum = "d9d4b5eb4ce2c88ee32374be93f826b344aa0ef6"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Korean language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-ko@firefox.mozilla.org.xpi

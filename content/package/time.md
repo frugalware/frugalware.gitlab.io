@@ -13,9 +13,10 @@ usize = "106552"
 sha1sum = "c66daef837ea39eec07b0a1db3109604a3e93297"
 depends = "['glibc>=2.34']"
 +++
+### Description: 
 Time a simple command or give resource usage
 
-## Files: 
+### Files: 
 * /usr/bin/time
 * /usr/share/doc/time-1.9/AUTHORS
 * /usr/share/doc/time-1.9/ChangeLog

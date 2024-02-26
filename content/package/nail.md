@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = ""
 depends = "[]"
 +++
+### Description: 
 A MUA derived from Berkeley Mail 8.1 and contains builtin support for MIME messages and IPv6
 
-## Files: 
+### Files: 
 * etc/nail.rc
 * usr/bin/mail
 * usr/bin/nail

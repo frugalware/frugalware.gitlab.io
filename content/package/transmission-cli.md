@@ -14,9 +14,10 @@ sha1sum = "f2b7b29cb234d18b67be4cbc8c446058ac9bb012"
 depends = "['curl>=7.26.0', 'libb64', 'libdeflate', 'libevent>=2.1.11', 'miniupnpc>=2.1', 'openssl>=3.1.0']"
 reverse_depends = "['transmission-gtk', 'transmission-qt']"
 +++
+### Description: 
 A free, lightweight BitTorrent Client. (CLI based)
 
-## Files: 
+### Files: 
 * /usr/bin/transmission-cli
 * /usr/bin/transmission-create
 * /usr/bin/transmission-daemon

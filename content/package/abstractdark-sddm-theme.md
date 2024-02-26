@@ -13,9 +13,10 @@ usize = "7403663"
 sha1sum = "196c30bb442b10cd4feacef1862965aed9522902"
 depends = "['glibc', 'sddm']"
 +++
+### Description: 
 Abstract Dark theme for SDDM
 
-## Files: 
+### Files: 
 * /usr/share/doc/abstractdark-sddm-theme-0.1.0.ge817d4b/LICENSE
 * /usr/share/doc/abstractdark-sddm-theme-0.1.0.ge817d4b/README.md
 * /usr/share/sddm/themes/abstractdark-sddm-theme/abstractdark-sddm-theme.png

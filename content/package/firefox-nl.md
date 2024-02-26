@@ -14,7 +14,8 @@ sha1sum = "18b2f3bb5bb95aef194a49ffc1b618e5008a9277"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Dutch language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-nl@firefox.mozilla.org.xpi

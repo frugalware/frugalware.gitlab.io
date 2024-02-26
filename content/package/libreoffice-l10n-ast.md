@@ -13,9 +13,10 @@ usize = "33451919"
 sha1sum = "5e8b73f6643620f82b501d5ab913777c5cd557a1"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Asturian support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/help/ast/default.css
 * /usr/lib/libreoffice/help/ast/err.html
 * /usr/lib/libreoffice/help/ast/highcontrast1.css

@@ -14,9 +14,10 @@ sha1sum = "d9d2cd4cca28b734b7b5ca09958a788bd0fa4e4a"
 depends = "['glibc>=2.34']"
 reverse_depends = "['hw-probe', 'inxi', 'libvirt']"
 +++
+### Description: 
 Desktop Management Interface (DMI) table related utilities.
 
-## Files: 
+### Files: 
 * /usr/bin/biosdecode
 * /usr/bin/dmidecode
 * /usr/bin/ownership

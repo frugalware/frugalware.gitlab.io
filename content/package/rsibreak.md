@@ -13,9 +13,10 @@ usize = "1823376"
 sha1sum = "7ae5f150a8a466977cfe52a2e180c4b22496727d"
 depends = "['kidletime>=5.97.0', 'knotifyconfig>=5.97.0']"
 +++
+### Description: 
 RSIBreak bothers you at certain intervals, to prevent Repetive Strain Injury.
 
-## Files: 
+### Files: 
 * /etc/xdg/autostart/rsibreak_autostart.desktop
 * /usr/bin/rsibreak
 * /usr/share/applications/org.kde.rsibreak.desktop

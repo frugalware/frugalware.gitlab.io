@@ -13,9 +13,10 @@ usize = "2418349"
 sha1sum = "f85bcd7c52e36a98a076d8620c8f5727a1349aac"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Santali support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/resource/sat/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/sat/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/sat/LC_MESSAGES/basctl.mo

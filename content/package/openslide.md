@@ -14,9 +14,10 @@ sha1sum = "d293a08dd9a266aa07d27f96973e6646726fcae7"
 depends = "['cairo', 'gdk-pixbuf2', 'libjpeg', 'libtiff', 'libxml2', 'openjpeg', 'sqlite3']"
 reverse_depends = "['vtk']"
 +++
+### Description: 
 C library for reading virtual slide images
 
-## Files: 
+### Files: 
 * /usr/bin/dcm-dump
 * /usr/bin/dcm-getframe
 * /usr/bin/openslide-quickhash1sum

@@ -14,9 +14,10 @@ sha1sum = "9554f7fef3153da37f8d378c63fc1566a0e194e9"
 depends = "['cyrus-sasl>=2.1.26-3', 'db>=18.1.32', 'icu4c>=74.1', 'libldap>=2.4.47-2', 'libnsl>=2.0.0', 'libpq>=11.2-2', 'mariadb-libs>=10.3.14', 'openssl>=3.1.0', 'pcre>=8.30']"
 reverse_depends = "['arpwatch', 'postfixadmin', 'postgrey']"
 +++
+### Description: 
 A fast, easy to administer, and secure MTA
 
-## Files: 
+### Files: 
 * /etc/postfix/access
 * /etc/postfix/aliases
 * /etc/postfix/bounce.cf.default

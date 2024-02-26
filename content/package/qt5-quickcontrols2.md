@@ -14,9 +14,10 @@ sha1sum = "cae84d13a205fecf784fd0a9fe96d6ea4d07beb1"
 depends = "['qt5-declarative>=5.15.12']"
 reverse_depends = "['calindori', 'filelight', 'itinerary', 'kalk', 'kasts', 'keysmith', 'kirigami2', 'kquickcharts', 'ktrip', 'kwin5', 'meshroom', 'minuet', 'neochat', 'plasma-integration', 'plasma-workspace', 'qqc2-breeze-style', 'qt5-xmlpatterns', 'tiled']"
 +++
+### Description: 
 The Qt5 toolkit, qtquickcontrols2
 
-## Files: 
+### Files: 
 * /usr/include/qt5/QtQuickControls2/5.15.12/QtQuickControls2/private/qquickanimatednode_p.h
 * /usr/include/qt5/QtQuickControls2/5.15.12/QtQuickControls2/private/qquickattachedobject_p.h
 * /usr/include/qt5/QtQuickControls2/5.15.12/QtQuickControls2/private/qquickchecklabel_p.h

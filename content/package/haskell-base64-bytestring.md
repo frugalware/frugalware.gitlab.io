@@ -14,9 +14,10 @@ sha1sum = "a999bf176f081813dbf16e7a3374e621f8302661"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-http-client', 'haskell-ipynb', 'haskell-skylighting-core', 'haskell-text-conversions', 'haskell-wai-extra']"
 +++
+### Description: 
 Fast base64 encoding and decoding for ByteStrings
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/base64-bytestring-1.2.1.0/Data/ByteString/Base64.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/base64-bytestring-1.2.1.0/Data/ByteString/Base64.hi
 * /usr/lib/ghc-9.8.1/site-local/base64-bytestring-1.2.1.0/Data/ByteString/Base64/Internal.dyn_hi

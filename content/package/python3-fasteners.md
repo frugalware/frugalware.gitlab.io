@@ -14,9 +14,10 @@ sha1sum = "abf2f5ce40326cf138bdcd1518904c5071fa21d2"
 depends = "['python3>=3.11']"
 reverse_depends = "['duplicity']"
 +++
+### Description: 
 A python package that provides useful locks.
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/fasteners-0.19.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/fasteners-0.19.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/fasteners-0.19.dist-info/RECORD

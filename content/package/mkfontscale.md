@@ -15,9 +15,10 @@ depends = "['freetype2>=2.9', 'libfontenc>=1.1.3-6']"
 reverse_depends = "['anonymous-pro-ttf', 'artwiz-fonts', 'crosextrafonts-caladea', 'crosextrafonts-carlito', 'dejavu-lgc-ttf', 'dejavu-ttf', 'encodings', 'firacode', 'font-cursor-misc', 'font-misc-misc', 'fontconfig', 'freefont-ttf', 'hack', 'inconsolata-otf', 'monaco_linux', 'noto-cjk', 'noto-emoji', 'noto-fonts', 'ohsnap', 'open-sans', 'otf-texgyre', 'sourcecodepro-fonts', 'terminus-font', 'terminus-font-ttf', 'terminusmod', 'termsyn', 'ttf-agave', 'ttf-emojione-color', 'ttf-fantasque-sans', 'ttf-linux-libertine', 'ttf-mintspirit', 'ttf-roboto', 'ttf-symbola', 'ttf-twemoji-color', 'ttf-ubuntu-font-family', 'ttf-zick-fonts', 'unifont', 'urw-fonts']"
 license = "GPL2"
 +++
+### Description: 
 Create an index of scalable font files for X
 
-## Files: 
+### Files: 
 * /usr/bin/mkfontdir
 * /usr/bin/mkfontscale
 * /usr/share/doc/mkfontscale-1.2.2/ChangeLog

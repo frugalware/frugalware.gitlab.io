@@ -13,9 +13,10 @@ usize = "60707427"
 sha1sum = "52860e7f25096c6c705ce5dfcae818a589dd8d21"
 depends = "[]"
 +++
+### Description: 
 Libmwaw Documentation
 
-## Files: 
+### Files: 
 * /usr/share/doc/libmwaw-0.3.22/html/ActaParser_8cxx.html
 * /usr/share/doc/libmwaw-0.3.22/html/ActaParser_8hxx.html
 * /usr/share/doc/libmwaw-0.3.22/html/ActaParser_8hxx_source.html

@@ -14,9 +14,10 @@ sha1sum = "d0e928efa54724928eb973a7637c91f368086b7f"
 depends = "['libpsl', 'libuuid', 'openssl>=3.1.0', 'pcre2']"
 reverse_depends = "['get_steam', 'hplip', 'pacman-tools']"
 +++
+### Description: 
 A network utility to retrieve files from the Web
 
-## Files: 
+### Files: 
 * /etc/wgetrc
 * /usr/bin/wget
 * /usr/share/doc/wget-1.21.4/AUTHORS

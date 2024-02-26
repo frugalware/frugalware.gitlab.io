@@ -13,9 +13,10 @@ usize = "6492569"
 sha1sum = "58250440cb1b834b1e55f08a819a739eb1ec66e3"
 depends = "['libkdegames>=23.08.5']"
 +++
+### Description: 
 Kigo is an open-source implementation of the popular Go game
 
-## Files: 
+### Files: 
 * /usr/bin/kigo
 * /usr/share/applications/org.kde.kigo.desktop
 * /usr/share/config.kcfg/kigo.kcfg

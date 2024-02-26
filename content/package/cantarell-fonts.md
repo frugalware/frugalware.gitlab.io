@@ -13,9 +13,10 @@ usize = "211860"
 sha1sum = "e7d11a23e9795493c49805347de648ef333d48d8"
 depends = "['glibc']"
 +++
+### Description: 
 Contemporary humanist sans-serif font
 
-## Files: 
+### Files: 
 * /usr/share/doc/cantarell-fonts-0.303/COPYING
 * /usr/share/doc/cantarell-fonts-0.303/NEWS
 * /usr/share/doc/cantarell-fonts-0.303/README.md

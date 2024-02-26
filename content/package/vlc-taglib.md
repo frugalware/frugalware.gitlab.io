@@ -13,7 +13,8 @@ usize = "96120"
 sha1sum = "4e26947a17f64d8fde2cdc8481bc1a5edc033178"
 depends = "['libvlc>=3.0.20', 'taglib>=2.0']"
 +++
+### Description: 
 vlc taglib support
 
-## Files: 
+### Files: 
 * /usr/lib/vlc/plugins/meta_engine/libtaglib_plugin.so

@@ -14,9 +14,10 @@ sha1sum = "c44baa3ce2283efd1d852c7b2fbd0d0b8e0fc1bf"
 depends = "[]"
 reverse_depends = "['lib32-xfsprogs-acl']"
 +++
+### Description: 
 Dynamic library for extended attribute support. ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/attr
 * /usr/i686-frugalware-linux/bin/getfattr
 * /usr/i686-frugalware-linux/bin/setfattr

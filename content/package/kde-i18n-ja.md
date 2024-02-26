@@ -13,9 +13,10 @@ usize = "9809377"
 sha1sum = "5c9d26d823d1c78b946144f68420ef1188c8d65c"
 depends = "[]"
 +++
+### Description: 
 Japanese Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/doc/HTML/ja/common/1.png
 * usr/share/doc/HTML/ja/common/10.png
 * usr/share/doc/HTML/ja/common/2.png

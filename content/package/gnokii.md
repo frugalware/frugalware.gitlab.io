@@ -14,9 +14,10 @@ sha1sum = "5d9aaa51faf3cde610de78555a16e64510926805"
 depends = "['bluez>=5.49-2', 'libusb>=0.1.5-4', 'ncurses>=6.0-12', 'readline>=8.0']"
 reverse_depends = "['gnokii-gui', 'gnokii-mysql', 'gnokii-pq']"
 +++
+### Description: 
 Tools and user space driver for use with mobile phones
 
-## Files: 
+### Files: 
 * /etc/gnokiirc
 * /usr/bin/gnokii
 * /usr/bin/gnokiid

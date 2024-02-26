@@ -14,9 +14,10 @@ sha1sum = "c34513207aadc2071585bf820534865e49ae598d"
 depends = "['python3-formencode>=1.3.0']"
 reverse_depends = "['yokadi']"
 +++
+### Description: 
 SQLObject is a popular Object Relational Manager for providing an object interface to your database.
 
-## Files: 
+### Files: 
 * /usr/bin/sqlobject-admin
 * /usr/bin/sqlobject-convertOldURI
 * /usr/lib/python3.12/site-packages/SQLObject-3.11.0-py3.12.egg-info/dependency_links.txt

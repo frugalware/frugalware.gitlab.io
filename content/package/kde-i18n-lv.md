@@ -13,9 +13,10 @@ usize = "1225585"
 sha1sum = "b035c5653f6ad8f317d432265cdf4f7e31a8eca7"
 depends = "[]"
 +++
+### Description: 
 Latvian Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/locale/lv/charset
 * usr/share/locale/lv/entry.desktop
 * usr/share/locale/lv/flag.png

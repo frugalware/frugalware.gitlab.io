@@ -14,9 +14,10 @@ sha1sum = "9ad1a6797c0d72e7ba954dd4c7c87f99c9262fb8"
 depends = "['libgphoto2>=2.5.9-2', 'libieee1284>=0.2.11-4', 'libjpeg-turbo', 'libsystemd>=242-3', 'libtiff>=3.2.1-2', 'libusb1>=1.0.20-5', 'v4l-utils']"
 reverse_depends = "['hplip', 'ksanecore', 'libreoffice', 'python3-pillow', 'python3-sane', 'wine', 'wine-devel', 'xsane']"
 +++
+### Description: 
 Scanner Access Now Easy
 
-## Files: 
+### Files: 
 * /etc/sane.d/abaton.conf
 * /etc/sane.d/agfafocus.conf
 * /etc/sane.d/apple.conf

@@ -14,9 +14,10 @@ sha1sum = "ea9112518db303f1c22206f4fec673c9a8702cda"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['a2ps', 'man-db', 'ruby-ronn']"
 +++
+### Description: 
 GNU troff text-formatting system
 
-## Files: 
+### Files: 
 * /usr/bin/addftinfo
 * /usr/bin/afmtodit
 * /usr/bin/chem

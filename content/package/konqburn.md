@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "a5a8a5fd1ef3af39d7015c42c20d8d5df99aa1bd"
 depends = "[]"
 +++
+### Description: 
 A KDE ioslave and sidebar that lets you create and burn CDs or DVDs from Konqueror.
 
-## Files: 
+### Files: 
 * usr/lib/kde3/kded_burndirnotify.la
 * usr/lib/kde3/kded_burndirnotify.so
 * usr/lib/kde3/kio_burn.la

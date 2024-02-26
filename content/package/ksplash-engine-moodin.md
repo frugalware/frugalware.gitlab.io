@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "a63b21185a3150a3720cf57c9e9227230e7d9d44"
 depends = "[]"
 +++
+### Description: 
 Splash Screen Engine for KDE
 
-## Files: 
+### Files: 
 * usr/lib/kde3/ksplashmoodin.la
 * usr/lib/kde3/ksplashmoodin.so
 * usr/share/apps/ksplash/Themes/FingerPrint/1.png

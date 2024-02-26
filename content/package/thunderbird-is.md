@@ -14,7 +14,8 @@ sha1sum = "0e18114c7d6f095dacbdc279341d21fb976d935d"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
+### Description: 
 Icelandic language support for Thunderbird
 
-## Files: 
+### Files: 
 * /usr/lib/thunderbird/extensions/langpack-is@thunderbird.mozilla.org.xpi

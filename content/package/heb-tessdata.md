@@ -13,7 +13,8 @@ usize = "5413546"
 sha1sum = "3a62725b313e294453068a536d4f938004336572"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang heb
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/heb.traineddata

@@ -14,9 +14,10 @@ sha1sum = "6c9aabb9c4bf63a2cf3c1b2ea285bd5ce5fba47c"
 depends = "['glibc>=2.34']"
 reverse_depends = "['kernel-initrd', 'kernel-lts-initrd']"
 +++
+### Description: 
 A tool for managing software RAID under Linux
 
-## Files: 
+### Files: 
 * /etc/dracut.conf.d/11-raid.conf
 * /etc/tmpfiles.d/mdadm.conf
 * /usr/bin/mdadm

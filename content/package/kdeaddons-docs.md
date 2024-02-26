@@ -13,9 +13,10 @@ usize = "366373"
 sha1sum = "8d43165d001f415a5a72e372cfd84613faa4957e"
 depends = "[]"
 +++
+### Description: 
 Kdeaddons Documentation
 
-## Files: 
+### Files: 
 * usr/share/doc/HTML/en/kate-plugins/common
 * usr/share/doc/HTML/en/kate-plugins/configure_insertcommand.png
 * usr/share/doc/HTML/en/kate-plugins/filetemplates.docbook

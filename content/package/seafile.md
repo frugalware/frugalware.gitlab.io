@@ -13,9 +13,10 @@ usize = "472231"
 sha1sum = "8ced81ab3699ea0ca6defba757f4186d76014db6"
 depends = "['curl', 'libevent', 'libseafile', 'libwebsockets', 'sqlite3']"
 +++
+### Description: 
 File syncing and sharing software with file encryption and group sharing, emphasis on reliability and high performance.
 
-## Files: 
+### Files: 
 * /usr/bin/seaf-cli
 * /usr/bin/seaf-daemon
 * /usr/lib/python3.12/site-packages/seafile/rpcclient.py

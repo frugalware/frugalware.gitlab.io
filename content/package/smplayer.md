@@ -13,9 +13,10 @@ usize = "16187849"
 sha1sum = "d897655c4df265e8c3ba205ccdd52219e54e3225"
 depends = "['mplayer', 'qt5-base>=5.15.10', 'qt5-script>=5.15.10']"
 +++
+### Description: 
 SMPlayer intends to be a complete front-end for MPlayer.
 
-## Files: 
+### Files: 
 * /usr/bin/simple_web_server
 * /usr/bin/smplayer
 * /usr/share/applications/smplayer.desktop

@@ -13,9 +13,10 @@ usize = "418314"
 sha1sum = "40e4901609fd953043d69bddc3c45811cb2bc239"
 depends = "['qt6-webengine']"
 +++
+### Description: 
 The Qt6 toolkit, qtwebview
 
-## Files: 
+### Files: 
 * /usr/include/qt6/QtWebView/6.6.2/QtWebView/private/qabstractwebview_p.h
 * /usr/include/qt6/QtWebView/6.6.2/QtWebView/private/qnativeviewcontroller_p.h
 * /usr/include/qt6/QtWebView/6.6.2/QtWebView/private/qwebviewfactory_p.h

@@ -13,9 +13,10 @@ usize = "699242"
 sha1sum = "e9f99762324c674d95034ff4514ba4aaadd24cfb"
 depends = "['libsecret', 'nm-connection-editor>=>=1.8.20', 'nm-vpnc-minimal']"
 +++
+### Description: 
 network management framework (VPNC plugin)
 
-## Files: 
+### Files: 
 * /usr/lib/NetworkManager/libnm-vpn-plugin-vpnc-editor.so
 * /usr/lib/NetworkManager/libnm-vpn-plugin-vpnc.so
 * /usr/lib/nm-vpnc/nm-vpnc-auth-dialog

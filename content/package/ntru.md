@@ -13,7 +13,8 @@ usize = "118103"
 sha1sum = "05020427491493728ced16a2ff95201a3a24c255"
 depends = "['openjre']"
 +++
+### Description: 
 A Java implementation of the NTRU public-key cryptosystem.
 
-## Files: 
+### Files: 
 * /usr/share/java/ntru.jar

@@ -14,9 +14,10 @@ sha1sum = "224d840657b996e716398577ef51d13ec0f10ac8"
 depends = "['libxaw>=1.0.13-3']"
 license = "GPL2"
 +++
+### Description: 
 X.Org xmessage application
 
-## Files: 
+### Files: 
 * /usr/bin/xmessage
 * /usr/share/doc/xmessage-1.0.6/ChangeLog
 * /usr/share/doc/xmessage-1.0.6/COPYING

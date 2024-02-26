@@ -14,9 +14,10 @@ sha1sum = "bb69e6ddb124e497d7b4b7ecc33071da1f5be17b"
 depends = "['openjre']"
 reverse_depends = "['bcmail', 'gnumail']"
 +++
+### Description: 
 GNU implementation of the JavaBeans Activation Framework
 
-## Files: 
+### Files: 
 * /usr/share/doc/jaf-1.1.2/AUTHORS
 * /usr/share/doc/jaf-1.1.2/ChangeLog
 * /usr/share/doc/jaf-1.1.2/COPYING
