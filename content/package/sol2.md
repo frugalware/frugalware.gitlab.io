@@ -13,7 +13,7 @@ usize = "1149051"
 sha1sum = "e9fc35bf7388a01cbaccbe2d8700508ebdf01787"
 depends = "['glibc']"
 +++
-C++ <-> Lua API wrapper with advanced features and top notch performance{{< spoiler text="show files" >}}* /usr/include/sol/assert.hpp
+C++ <-> Lua API wrapper with advanced features and top notch performance{{< files text="show files" >}}* /usr/include/sol/assert.hpp
 * /usr/include/sol/as_args.hpp
 * /usr/include/sol/as_returns.hpp
 * /usr/include/sol/base_traits.hpp
@@ -130,4 +130,4 @@ C++ <-> Lua API wrapper with advanced features and top notch performance{{< spoi
 * /usr/lib/cmake/sol2/sol2-targets.cmake
 * /usr/lib/pkgconfig/sol2.pc
 * /usr/share/doc/sol2-3.3.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "b3a8323ac9466ac1f2853ce60b6040f137877d93"
 depends = "['glibc>=2.34']"
 reverse_depends = "['efl', 'enlightenment', 'libinput', 'qt5-base', 'terminology', 'xf86-input-evdev', 'xf86-input-mtrack', 'xf86-input-synaptics']"
 +++
-Kernel multi-touch transformation library{{< spoiler text="show files" >}}* /usr/bin/mtdev-test
+Kernel multi-touch transformation library{{< files text="show files" >}}* /usr/bin/mtdev-test
 * /usr/include/mtdev-mapping.h
 * /usr/include/mtdev-plumbing.h
 * /usr/include/mtdev.h
@@ -26,4 +26,4 @@ Kernel multi-touch transformation library{{< spoiler text="show files" >}}* /usr
 * /usr/share/doc/mtdev-1.1.6/COPYING
 * /usr/share/doc/mtdev-1.1.6/INSTALL
 * /usr/share/doc/mtdev-1.1.6/README
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "64790"
 sha1sum = "6b90af760485729e9ec19037747d4e4021935b64"
 depends = "['curl', 'elfutils']"
 +++
-Elfutils debuginfod{{< spoiler text="show files" >}}* /usr/bin/debuginfod-find
+Elfutils debuginfod{{< files text="show files" >}}* /usr/bin/debuginfod-find
 * /usr/include/elfutils/debuginfod.h
 * /usr/lib/libdebuginfod-0.190.so
 * /usr/lib/libdebuginfod.so
@@ -30,4 +30,4 @@ Elfutils debuginfod{{< spoiler text="show files" >}}* /usr/bin/debuginfod-find
 * /usr/share/man/man3/debuginfod_get_user_data.3.gz
 * /usr/share/man/man3/debuginfod_set_progressfn.3.gz
 * /usr/share/man/man3/debuginfod_set_user_data.3.gz
-{{< /spoiler >}}
+{{< /files >}}

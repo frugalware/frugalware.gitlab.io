@@ -13,5 +13,5 @@ usize = "22498"
 sha1sum = "2fd6dccc3c1d298a3851bddbbf9d14ed30efd3c4"
 depends = "['alsa-plugins>=1.2.7.1']"
 +++
-ALSA plugin for jack.{{< spoiler text="show files" >}}* /usr/lib/alsa-lib/libasound_module_pcm_jack.so
-{{< /spoiler >}}
+ALSA plugin for jack.{{< files text="show files" >}}* /usr/lib/alsa-lib/libasound_module_pcm_jack.so
+{{< /files >}}

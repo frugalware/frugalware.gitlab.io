@@ -13,5 +13,5 @@ usize = "1641"
 sha1sum = "6ea6edde5b516b073625a31589e433ed2036ef32"
 depends = "['go', 'libaudit>=3.1.2']"
 +++
-Go bindings for audit{{< spoiler text="show files" >}}* /usr/lib/golang/src/pkg/redhat.com/audit/audit.go
-{{< /spoiler >}}
+Go bindings for audit{{< files text="show files" >}}* /usr/lib/golang/src/pkg/redhat.com/audit/audit.go
+{{< /files >}}

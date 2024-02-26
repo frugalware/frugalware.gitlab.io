@@ -14,7 +14,7 @@ sha1sum = "c3f7f54bb1a4c46de6da17536a2b022a10c90e97"
 depends = "['libx11>=1.6.5-2', 'libxext>=1.1.5-4', 'libxfixes>=5.0.2-2', 'libxrandr>=1.5.0-5']"
 license = "GPL2"
 +++
-Xlib-compatible API for the Present extension{{< spoiler text="show files" >}}* /usr/include/X11/extensions/Xpresent.h
+Xlib-compatible API for the Present extension{{< files text="show files" >}}* /usr/include/X11/extensions/Xpresent.h
 * /usr/lib/libXpresent.so
 * /usr/lib/libXpresent.so.1
 * /usr/lib/libXpresent.so.1.0.0
@@ -33,4 +33,4 @@ Xlib-compatible API for the Present extension{{< spoiler text="show files" >}}* 
 * /usr/share/man/man3/XPresentQueryVersion.3.gz
 * /usr/share/man/man3/XPresentSelectInput.3.gz
 * /usr/share/man/man3/XPresentVersion.3.gz
-{{< /spoiler >}}
+{{< /files >}}

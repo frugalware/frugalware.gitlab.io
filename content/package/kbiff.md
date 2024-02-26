@@ -13,7 +13,7 @@ usize = "1257915"
 sha1sum = "cd5b05fee08f04d0981b3cff5fd371d62d05b2ac"
 depends = "[]"
 +++
-New mail notification utility for KDE{{< spoiler text="show files" >}}* usr/bin/kbiff
+New mail notification utility for KDE{{< files text="show files" >}}* usr/bin/kbiff
 * usr/lib/kde3/kbiff.la
 * usr/lib/kde3/kbiff.so
 * usr/lib/libkdeinit_kbiff.la
@@ -86,4 +86,4 @@ New mail notification utility for KDE{{< spoiler text="show files" >}}* usr/bin/
 * usr/share/locale/uk/LC_MESSAGES/kbiff.mo
 * usr/share/locale/zh_TW.Big5/LC_MESSAGES/kbiff.mo
 * usr/share/man/man1/kbiff.1.gz
-{{< /spoiler >}}
+{{< /files >}}

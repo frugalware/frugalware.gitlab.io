@@ -14,5 +14,5 @@ sha1sum = "7e80b2a417609c884b9ac3a272ba7750113f68a0"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Nepali language support for Firefox{{< spoiler text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-ne-NP@firefox.mozilla.org.xpi
-{{< /spoiler >}}
+Nepali language support for Firefox{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-ne-NP@firefox.mozilla.org.xpi
+{{< /files >}}

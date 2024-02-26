@@ -13,7 +13,7 @@ usize = "15651734"
 sha1sum = "2e249e36a118f62a468dea466498489b73d0eb15"
 depends = "['libpng', 'sdl2_mixer']"
 +++
-An open source re-implementation of Caesar III (with gameplay changes){{< spoiler text="show files" >}}* /usr/bin/augustus
+An open source re-implementation of Caesar III (with gameplay changes){{< files text="show files" >}}* /usr/bin/augustus
 * /usr/share/applications/com.github.keriew.augustus.desktop
 * /usr/share/augustus-game/assets/Cursors/Color_Cursors/Arrow.png
 * /usr/share/augustus-game/assets/Cursors/Color_Cursors/Arrow_150.png
@@ -1705,4 +1705,4 @@ An open source re-implementation of Caesar III (with gameplay changes){{< spoile
 * /usr/share/icons/hicolor/48x48/apps/com.github.keriew.augustus.png
 * /usr/share/icons/hicolor/512x512/apps/com.github.keriew.augustus.png
 * /usr/share/metainfo/com.github.keriew.augustus.metainfo.xml
-{{< /spoiler >}}
+{{< /files >}}

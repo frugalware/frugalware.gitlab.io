@@ -14,7 +14,7 @@ sha1sum = "6e2f4ef176072c15d7ba35ccdac55aa727d76e77"
 depends = "['cairo>=1.17.2-2', 'libffi>=3.2.1-2', 'libsigc++2']"
 reverse_depends = "['gtkmm', 'gtkmm3', 'pangomm']"
 +++
-C++ bindings for cairo{{< spoiler text="show files" >}}* /usr/include/cairomm-1.0/cairomm/cairomm.h
+C++ bindings for cairo{{< files text="show files" >}}* /usr/include/cairomm-1.0/cairomm/cairomm.h
 * /usr/include/cairomm-1.0/cairomm/context.h
 * /usr/include/cairomm-1.0/cairomm/device.h
 * /usr/include/cairomm-1.0/cairomm/enums.h
@@ -53,4 +53,4 @@ C++ bindings for cairo{{< spoiler text="show files" >}}* /usr/include/cairomm-1.
 * /usr/share/doc/cairomm-1.14.3/COPYING
 * /usr/share/doc/cairomm-1.14.3/NEWS
 * /usr/share/doc/cairomm-1.14.3/README
-{{< /spoiler >}}
+{{< /files >}}

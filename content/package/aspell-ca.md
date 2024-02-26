@@ -13,9 +13,9 @@ usize = "0"
 sha1sum = ""
 depends = "['aspell']"
 +++
-GNU Aspell Catalan Word List Package{{< spoiler text="show files" >}}* usr/lib/aspell-0.60/ca.dat
+GNU Aspell Catalan Word List Package{{< files text="show files" >}}* usr/lib/aspell-0.60/ca.dat
 * usr/lib/aspell-0.60/ca.multi
 * usr/lib/aspell-0.60/ca.rws
 * usr/lib/aspell-0.60/catalan.alias
 * usr/share/doc/aspell-ca-0.50r2/README
-{{< /spoiler >}}
+{{< /files >}}

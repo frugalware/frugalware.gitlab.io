@@ -13,6 +13,6 @@ usize = "773587"
 sha1sum = "2fa29741976b15402f2558cd69f75643880d6afc"
 depends = "['gimp', 'xsane']"
 +++
-XSane Gimp plugin{{< spoiler text="show files" >}}* /usr/bin/xsane-gimp
+XSane Gimp plugin{{< files text="show files" >}}* /usr/bin/xsane-gimp
 * /usr/lib/gimp/2.0/plug-ins/xsane
-{{< /spoiler >}}
+{{< /files >}}

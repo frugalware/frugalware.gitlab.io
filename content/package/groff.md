@@ -14,7 +14,7 @@ sha1sum = "ea9112518db303f1c22206f4fec673c9a8702cda"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['a2ps', 'man-db', 'ruby-ronn']"
 +++
-GNU troff text-formatting system{{< spoiler text="show files" >}}* /usr/bin/addftinfo
+GNU troff text-formatting system{{< files text="show files" >}}* /usr/bin/addftinfo
 * /usr/bin/afmtodit
 * /usr/bin/chem
 * /usr/bin/eqn
@@ -626,4 +626,4 @@ GNU troff text-formatting system{{< spoiler text="show files" >}}* /usr/bin/addf
 * /usr/share/man/man7/groff_trace.7.gz
 * /usr/share/man/man7/groff_www.7.gz
 * /usr/share/man/man7/roff.7.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "970866893d6ef91f8e28a869a24c4dec3ce79c77"
 depends = "['hwloc', 'libevent']"
 reverse_depends = "['prrte']"
 +++
-Extended version of the PMI standard{{< spoiler text="show files" >}}* /etc/pmix-mca-params.conf
+Extended version of the PMI standard{{< files text="show files" >}}* /etc/pmix-mca-params.conf
 * /usr/bin/pattrs
 * /usr/bin/pctrl
 * /usr/bin/pevent
@@ -365,4 +365,4 @@ Extended version of the PMI standard{{< spoiler text="show files" >}}* /etc/pmix
 * /usr/share/pmix/help-ptl-base.txt
 * /usr/share/pmix/pmix-valgrind.supp
 * /usr/share/pmix/pmixcc-wrapper-data.txt
-{{< /spoiler >}}
+{{< /files >}}

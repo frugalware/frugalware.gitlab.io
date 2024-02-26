@@ -14,7 +14,7 @@ sha1sum = "0696d4e9b0f207d1133ad9b078835a350eece1d9"
 depends = "['libid3tag', 'libmad', 'libtool', 'libvorbis', 'pcre']"
 reverse_depends = "['mp3splt', 'mp3splt-gtk']"
 +++
-Library for mp3splt a utility for mp3/ogg splitting without decoding{{< spoiler text="show files" >}}* /usr/include/libmp3splt/mp3splt.h
+Library for mp3splt a utility for mp3/ogg splitting without decoding{{< files text="show files" >}}* /usr/include/libmp3splt/mp3splt.h
 * /usr/include/libmp3splt/version.h
 * /usr/lib/libmp3splt.so
 * /usr/lib/libmp3splt.so.0
@@ -37,4 +37,4 @@ Library for mp3splt a utility for mp3/ogg splitting without decoding{{< spoiler 
 * /usr/share/locale/es/LC_MESSAGES/libmp3splt0.mo
 * /usr/share/locale/fr_FR/LC_MESSAGES/libmp3splt0.mo
 * /usr/share/locale/hr/LC_MESSAGES/libmp3splt0.mo
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "7458179"
 sha1sum = "2034c1ef564d4e926a05f9d8b56049574e2bdd40"
 depends = "['glib2>=2.70', 'libssh2>=1.8.0-4', 'slang>=2.3.1a-5']"
 +++
-The GNU Midnight Commander is a CLI-based file manager{{< spoiler text="show files" >}}* /etc/mc/edit.indent.rc
+The GNU Midnight Commander is a CLI-based file manager{{< files text="show files" >}}* /etc/mc/edit.indent.rc
 * /etc/mc/filehighlight.ini
 * /etc/mc/mc.default.keymap
 * /etc/mc/mc.emacs.keymap
@@ -351,4 +351,4 @@ The GNU Midnight Commander is a CLI-based file manager{{< spoiler text="show fil
 * /usr/share/mc/syntax/yaml.syntax
 * /usr/share/mc/syntax/yum-repo.syntax
 * /usr/share/mc/syntax/yxx.syntax
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "c9e01bb12fbe3cce41b9ea606dbb1f76cf860310"
 depends = "['libjpeg-turbo', 'libtiff>=4.0.6-2', 'zlib>=1.2.12']"
 reverse_depends = "['babl', 'colord', 'dcraw', 'enblend-enfuse', 'firefox', 'ghostscript', 'imagemagick', 'kitty', 'libcdr', 'libfreehand', 'libmng', 'libplacebo', 'libraw', 'luminance-hdr', 'nufraw', 'opencolorio', 'openjpeg', 'openjre', 'poppler-pdftools', 'qt5-webengine', 'weston', 'wine', 'wine-devel']"
 +++
-Lightweight color management development library/engine{{< spoiler text="show files" >}}* /usr/bin/jpgicc
+Lightweight color management development library/engine{{< files text="show files" >}}* /usr/bin/jpgicc
 * /usr/bin/linkicc
 * /usr/bin/psicc
 * /usr/bin/tificc
@@ -35,4 +35,4 @@ Lightweight color management development library/engine{{< spoiler text="show fi
 * /usr/share/man/man1/psicc.1.gz
 * /usr/share/man/man1/tificc.1.gz
 * /usr/share/man/man1/transicc.1.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "12052622"
 sha1sum = "5c2171449f095d9226c4daa3990618b9f6ae80e9"
 depends = "['kross>=5.115.0', 'libktorrent>=23.08.5', 'plasma-workspace>=5.27.10', 'syndication']"
 +++
-A BitTorrent application for KDE.{{< spoiler text="show files" >}}* /usr/bin/ktmagnetdownloader
+A BitTorrent application for KDE.{{< files text="show files" >}}* /usr/bin/ktmagnetdownloader
 * /usr/bin/ktorrent
 * /usr/bin/ktupnptest
 * /usr/lib/libktcore.so.16
@@ -227,4 +227,4 @@ A BitTorrent application for KDE.{{< spoiler text="show files" >}}* /usr/bin/ktm
 * /usr/share/locale/zh_CN/LC_MESSAGES/ktorrent.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/ktorrent.mo
 * /usr/share/metainfo/org.kde.ktorrent.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

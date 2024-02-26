@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = ""
 depends = "[]"
 +++
-Upper Sorbian Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale/hsb/charset
+Upper Sorbian Localization for KDE.{{< files text="show files" >}}* usr/share/locale/hsb/charset
 * usr/share/locale/hsb/entry.desktop
 * usr/share/locale/hsb/LC_MESSAGES/appletproxy.mo
 * usr/share/locale/hsb/LC_MESSAGES/childpanelextension.mo
@@ -109,4 +109,4 @@ Upper Sorbian Localization for KDE.{{< spoiler text="show files" >}}* usr/share/
 * usr/share/locale/hsb/LC_MESSAGES/passwords.mo
 * usr/share/locale/hsb/LC_MESSAGES/quicklauncher.mo
 * usr/share/locale/hsb/LC_MESSAGES/taskbarextension.mo
-{{< /spoiler >}}
+{{< /files >}}

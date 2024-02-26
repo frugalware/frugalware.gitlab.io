@@ -13,7 +13,7 @@ usize = "136758190"
 sha1sum = "5966ff2e740f7d8e12100bb4bbf419de535d4bf1"
 depends = "['cairo', 'fontconfig', 'freetype2', 'ghostscript', 'glib2', 'hunspell>=1.7.0', 'hyphen', 'icu4c>=74.1', 'libcdr', 'libfreehand', 'libmspub', 'libpagemaker', 'librevenge', 'libvisio', 'podofo-0.9', 'poppler>=24.02.0', 'python3>=3.12', 'qt5-declarative>=5.15.0']"
 +++
-A professional desktop publishing application.{{< spoiler text="show files" >}}* /usr/bin/scribus
+A professional desktop publishing application.{{< files text="show files" >}}* /usr/bin/scribus
 * /usr/lib/scribus/plugins/gettext/libcsvim.so
 * /usr/lib/scribus/plugins/gettext/libdocim.so
 * /usr/lib/scribus/plugins/gettext/libdocximplugin.so
@@ -3580,4 +3580,4 @@ A professional desktop publishing application.{{< spoiler text="show files" >}}*
 * /usr/share/scribus/translations/scribus.zh_CN.qm
 * /usr/share/scribus/translations/scribus.zh_TW.qm
 * /usr/share/scribus/unicodenameslist.txt
-{{< /spoiler >}}
+{{< /files >}}

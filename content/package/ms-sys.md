@@ -13,7 +13,7 @@ usize = "279538"
 sha1sum = "98592f2aee7090f1992675c66756a037268b1726"
 depends = "['glibc']"
 +++
-Linux program for writing Microsoft compatible boot records.{{< spoiler text="show files" >}}* /usr/bin/ms-sys
+Linux program for writing Microsoft compatible boot records.{{< files text="show files" >}}* /usr/bin/ms-sys
 * /usr/share/doc/ms-sys-2.6.0/CHANGELOG
 * /usr/share/doc/ms-sys-2.6.0/CONTRIBUTORS
 * /usr/share/doc/ms-sys-2.6.0/COPYING
@@ -27,4 +27,4 @@ Linux program for writing Microsoft compatible boot records.{{< spoiler text="sh
 * /usr/share/man/fr/man1/ms-sys.1.gz
 * /usr/share/man/man1/ms-sys.1.gz
 * /usr/share/man/sv/man1/ms-sys.1.gz
-{{< /spoiler >}}
+{{< /files >}}

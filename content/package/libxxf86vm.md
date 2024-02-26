@@ -15,7 +15,7 @@ depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3']"
 reverse_depends = "['alienarena', 'allegro', 'argyllcms', 'dosbox', 'efl', 'freeglut', 'geogram', 'guarddog', 'irrlicht', 'kgamma5', 'knoda', 'koverartist', 'libepoxy', 'libgl', 'mesa-libglx', 'mpv', 'nvidia-settings', 'opendiablo2', 'openxr', 'redshift', 'wxwidgets', 'xgamma', 'xonotic', 'xvidtune']"
 license = "GPL2"
 +++
-X.Org Xxf86vm library{{< spoiler text="show files" >}}* /usr/include/X11/extensions/xf86vmode.h
+X.Org Xxf86vm library{{< files text="show files" >}}* /usr/include/X11/extensions/xf86vmode.h
 * /usr/lib/libXxf86vm.so
 * /usr/lib/libXxf86vm.so.1
 * /usr/lib/libXxf86vm.so.1.0.0
@@ -47,4 +47,4 @@ X.Org Xxf86vm library{{< spoiler text="show files" >}}* /usr/include/X11/extensi
 * /usr/share/man/man3/XF86VidModeSwitchToMode.3.gz
 * /usr/share/man/man3/XF86VidModeValidateModeLine.3.gz
 * /usr/share/man/man3/XF86VM.3.gz
-{{< /spoiler >}}
+{{< /files >}}

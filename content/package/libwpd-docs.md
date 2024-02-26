@@ -13,7 +13,7 @@ usize = "15324836"
 sha1sum = "c046de1764e567ab2aa6121dae816c5e40bcac25"
 depends = "[]"
 +++
-Libwpd Documentation{{< spoiler text="show files" >}}* /usr/share/doc/libwpd-0.10.3/html/annotated.html
+Libwpd Documentation{{< files text="show files" >}}* /usr/share/doc/libwpd-0.10.3/html/annotated.html
 * /usr/share/doc/libwpd-0.10.3/html/bc_s.png
 * /usr/share/doc/libwpd-0.10.3/html/bdwn.png
 * /usr/share/doc/libwpd-0.10.3/html/classes.html
@@ -1349,4 +1349,4 @@ Libwpd Documentation{{< spoiler text="show files" >}}* /usr/share/doc/libwpd-0.1
 * /usr/share/doc/libwpd-0.10.3/html/WPXTable_8h_source.html
 * /usr/share/doc/libwpd-0.10.3/libwpd.dia
 * /usr/share/doc/libwpd-0.10.3/libwpd.png
-{{< /spoiler >}}
+{{< /files >}}

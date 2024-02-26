@@ -14,7 +14,7 @@ sha1sum = "e62124aa239e41616967a525ba220efbdfe1c22a"
 depends = "['gawk', 'perl>=5.28.2']"
 reverse_depends = "['audit-go']"
 +++
-Compiler and tools for the Go programming language from Google{{< spoiler text="show files" >}}* /etc/profile.d/go.sh
+Compiler and tools for the Go programming language from Google{{< files text="show files" >}}* /etc/profile.d/go.sh
 * /usr/bin/go
 * /usr/bin/gofmt
 * /usr/lib/go/bin
@@ -9576,4 +9576,4 @@ Compiler and tools for the Go programming language from Google{{< spoiler text="
 * /usr/share/go/misc/wasm/wasm_exec.html
 * /usr/share/go/misc/wasm/wasm_exec.js
 * /usr/share/go/misc/wasm/wasm_exec_node.js
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "94421"
 sha1sum = "c02aa3080cd3a77c112fda21d1aeb6b27ffcbeda"
 depends = "['libjpeg-turbo', 'libpng>=1.6.25', 'libstdc++>=9.1.0-3']"
 +++
-Simple Image Loading LibrarY.{{< spoiler text="show files" >}}* /usr/include/SILLY/SILLY.h
+Simple Image Loading LibrarY.{{< files text="show files" >}}* /usr/include/SILLY/SILLY.h
 * /usr/include/SILLY/SILLYBase.h
 * /usr/include/SILLY/SILLYDataSource.h
 * /usr/include/SILLY/SILLYDataSource.icpp
@@ -37,4 +37,4 @@ Simple Image Loading LibrarY.{{< spoiler text="show files" >}}* /usr/include/SIL
 * /usr/share/doc/silly-0.1.0/AUTHORS
 * /usr/share/doc/silly-0.1.0/ChangeLog
 * /usr/share/doc/silly-0.1.0/COPYING
-{{< /spoiler >}}
+{{< /files >}}

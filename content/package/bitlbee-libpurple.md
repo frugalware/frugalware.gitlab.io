@@ -13,5 +13,5 @@ usize = "377096"
 sha1sum = "7f20819916c16c85b30b42c4856936ad7e5cd8b5"
 depends = "['bitlbee-common=3.6-2', 'libpurple>=2.10.9']"
 +++
-An IRC to other chat networks gateway (libpurple version).{{< spoiler text="show files" >}}* /usr/bin/bitlbee-libpurple
-{{< /spoiler >}}
+An IRC to other chat networks gateway (libpurple version).{{< files text="show files" >}}* /usr/bin/bitlbee-libpurple
+{{< /files >}}

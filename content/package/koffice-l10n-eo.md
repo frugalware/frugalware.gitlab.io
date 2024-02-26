@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "f56ca59d187d787abcb92a47a8ee76f21270a58a"
 depends = "[]"
 +++
-Esperanto Localization for KOffice. {{< spoiler text="show files" >}}* usr/share/locale/eo/LC_MESSAGES/desktop_koffice.mo
+Esperanto Localization for KOffice. {{< files text="show files" >}}* usr/share/locale/eo/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/eo/LC_MESSAGES/example.mo
 * usr/share/locale/eo/LC_MESSAGES/kchart.mo
 * usr/share/locale/eo/LC_MESSAGES/kformula.mo
@@ -28,4 +28,4 @@ Esperanto Localization for KOffice. {{< spoiler text="show files" >}}* usr/share
 * usr/share/locale/eo/LC_MESSAGES/kspreadcalc_calc.mo
 * usr/share/locale/eo/LC_MESSAGES/kugar.mo
 * usr/share/locale/eo/LC_MESSAGES/kword.mo
-{{< /spoiler >}}
+{{< /files >}}

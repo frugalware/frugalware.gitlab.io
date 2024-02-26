@@ -14,7 +14,7 @@ sha1sum = "f143c59dd95d161d807942042726907c44562c17"
 depends = "['libxml2>=2.7.8', 'sed']"
 reverse_depends = "['docbook-xsl']"
 +++
-A widely used XML scheme for writing documentation and help{{< spoiler text="show files" >}}* /usr/share/doc/docbook-xml-4.5/ChangeLog
+A widely used XML scheme for writing documentation and help{{< files text="show files" >}}* /usr/share/doc/docbook-xml-4.5/ChangeLog
 * /usr/share/doc/docbook-xml-4.5/README
 * /usr/share/sgml/docbook
 * /usr/share/xml/docbook/xml-dtd-4.1.2
@@ -53,4 +53,4 @@ A widely used XML scheme for writing documentation and help{{< spoiler text="sho
 * /usr/share/xml/docbook/xml-dtd/ent/README
 * /usr/share/xml/docbook/xml-dtd/htmltblx.mod
 * /usr/share/xml/docbook/xml-dtd/soextblx.dtd
-{{< /spoiler >}}
+{{< /files >}}

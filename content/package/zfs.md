@@ -13,7 +13,7 @@ usize = "48726669"
 sha1sum = "9a1cf455ef75a61d8bebd67a6efa68a41420c263"
 depends = "['kernel=6.7.6-1', 'libtirpc']"
 +++
-ZFS{{< spoiler text="show files" >}}* /etc/bash_completion.d/zfs
+ZFS{{< files text="show files" >}}* /etc/bash_completion.d/zfs
 * /etc/default/zfs
 * /etc/sudoers.d/zfs
 * /etc/zfs/vdev_id.conf
@@ -3003,4 +3003,4 @@ ZFS{{< spoiler text="show files" >}}* /etc/bash_completion.d/zfs
 * /usr/src/zfs-2.2.3/include/zfs_prop.h
 * /usr/src/zfs-2.2.3/zfs.release.in
 * /usr/src/zfs-2.2.3/zfs_config.h.in
-{{< /spoiler >}}
+{{< /files >}}

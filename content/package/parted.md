@@ -14,7 +14,7 @@ sha1sum = "8972c355ff2c4e70ea951a7adb17d379b861c1f5"
 depends = "['e2fsprogs>=1.41.14', 'gawk>=3.1.8', 'gzip>=1.4', 'lvm2>=2.02.96', 'ncurses>=6.1', 'readline>=8.0', 'shadow>=4.1.2.2-10']"
 reverse_depends = "['calamares-frugalware', 'gparted', 'libblockdev', 'libvirt', 'qtparted']"
 +++
-A program for creating, destroying, resizing, checking and copying partitions{{< spoiler text="show files" >}}* /usr/bin/parted
+A program for creating, destroying, resizing, checking and copying partitions{{< files text="show files" >}}* /usr/bin/parted
 * /usr/bin/partprobe
 * /usr/include/parted/constraint.h
 * /usr/include/parted/debug.h
@@ -78,4 +78,4 @@ A program for creating, destroying, resizing, checking and copying partitions{{<
 * /usr/share/locale/zh_TW/LC_MESSAGES/parted.mo
 * /usr/share/man/man8/parted.8.gz
 * /usr/share/man/man8/partprobe.8.gz
-{{< /spoiler >}}
+{{< /files >}}

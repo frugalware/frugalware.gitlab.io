@@ -13,7 +13,7 @@ usize = "204934"
 sha1sum = "d36cfb5fbf3961f9277d1732d108aeb5f4bc197f"
 depends = "['qt5-base>=5.15.0']"
 +++
-C++ library for controlling asynchronous tasks.{{< spoiler text="show files" >}}* /usr/include/KAsync/Async
+C++ library for controlling asynchronous tasks.{{< files text="show files" >}}* /usr/include/KAsync/Async
 * /usr/include/KAsync/async.h
 * /usr/include/KAsync/async_impl.h
 * /usr/include/KAsync/debug.h
@@ -33,4 +33,4 @@ C++ library for controlling asynchronous tasks.{{< spoiler text="show files" >}}
 * /usr/share/doc/kasync-0.3.0/COPYING.LIB
 * /usr/share/doc/kasync-0.3.0/README.md
 * /usr/share/qt5/mkspecs/modules/qt_KAsync.pri
-{{< /spoiler >}}
+{{< /files >}}

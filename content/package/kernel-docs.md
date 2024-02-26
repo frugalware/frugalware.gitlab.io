@@ -13,7 +13,7 @@ usize = "47033675"
 sha1sum = "6251870977be96c026e7dc443027203cc6204c6f"
 depends = "[]"
 +++
-Linux kernel documentation{{< spoiler text="show files" >}}* /usr/src/linux-6.7.6-fw1/COPYING
+Linux kernel documentation{{< files text="show files" >}}* /usr/src/linux-6.7.6-fw1/COPYING
 * /usr/src/linux-6.7.6-fw1/CREDITS
 * /usr/src/linux-6.7.6-fw1/Documentation/.gitignore
 * /usr/src/linux-6.7.6-fw1/Documentation/ABI/obsolete/o2cb
@@ -9586,4 +9586,4 @@ Linux kernel documentation{{< spoiler text="show files" >}}* /usr/src/linux-6.7.
 * /usr/src/linux-6.7.6-fw1/Documentation/wmi/index.rst
 * /usr/src/linux-6.7.6-fw1/MAINTAINERS
 * /usr/src/linux-6.7.6-fw1/README
-{{< /spoiler >}}
+{{< /files >}}

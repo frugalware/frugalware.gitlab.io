@@ -14,10 +14,10 @@ sha1sum = "c5f9d04688fd5136dadba903241b73c655d70457"
 depends = "['libtraceevent']"
 reverse_depends = "['ndctl']"
 +++
-Linux kernel trace file system library{{< spoiler text="show files" >}}* /usr/include/tracefs/tracefs.h
+Linux kernel trace file system library{{< files text="show files" >}}* /usr/include/tracefs/tracefs.h
 * /usr/lib/libtracefs.so
 * /usr/lib/libtracefs.so.1
 * /usr/lib/libtracefs.so.1.8.0
 * /usr/lib/pkgconfig/libtracefs.pc
 * /usr/share/doc/libtracefs-1.8.0/README
-{{< /spoiler >}}
+{{< /files >}}

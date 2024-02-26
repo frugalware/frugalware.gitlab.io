@@ -14,7 +14,7 @@ sha1sum = "f4c34f7e18c8c25947bb9c072a3cb6e7c3d51c8f"
 depends = "['bash>=4.4.12-3', 'glibc>=2.35', 'gmp>=6.1.2-6', 'libcap>=2.25-8', 'xfsprogs-acl>=2.2.52-7', 'xfsprogs-attr>=2.4.47-8']"
 reverse_depends = "['e2fsprogs', 'expat', 'inxi', 'kernel-initrd', 'kernel-lts-initrd', 'pacman-g2', 'pulse-autoconf', 'scriptlet-core', 'syslinux']"
 +++
-These are the GNU core utilities, the basic command line programs{{< spoiler text="show files" >}}* /etc/DIR_COLORS
+These are the GNU core utilities, the basic command line programs{{< files text="show files" >}}* /etc/DIR_COLORS
 * /etc/profile.d/dircolors.sh
 * /etc/profile.d/newbie-aliases.sh
 * /usr/bin/arch
@@ -327,4 +327,4 @@ These are the GNU core utilities, the basic command line programs{{< spoiler tex
 * /usr/share/man/man1/who.1.gz
 * /usr/share/man/man1/whoami.1.gz
 * /usr/share/man/man1/yes.1.gz
-{{< /spoiler >}}
+{{< /files >}}

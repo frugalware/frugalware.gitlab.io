@@ -14,7 +14,7 @@ sha1sum = "9c81e42fde132a8062530b6690ee3ee09a632685"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['pandoc']"
 +++
-Parsing and extracting information from (possibly malformed) HTML/XML documents{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/tagsoup-0.14.8/libHStagsoup-0.14.8-Kjx8oMbbwoD6IwlFLhLhJQ.a
+Parsing and extracting information from (possibly malformed) HTML/XML documents{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/tagsoup-0.14.8/libHStagsoup-0.14.8-Kjx8oMbbwoD6IwlFLhLhJQ.a
 * /usr/lib/ghc-9.8.1/site-local/tagsoup-0.14.8/Text/HTML/TagSoup.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/tagsoup-0.14.8/Text/HTML/TagSoup.hi
 * /usr/lib/ghc-9.8.1/site-local/tagsoup-0.14.8/Text/HTML/TagSoup/Entity.dyn_hi
@@ -62,4 +62,4 @@ Parsing and extracting information from (possibly malformed) HTML/XML documents{
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/tagsoup-0.14.8/LICENSE
 * /usr/share/haskell/haskell-tagsoup/register.sh
 * /usr/share/haskell/haskell-tagsoup/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

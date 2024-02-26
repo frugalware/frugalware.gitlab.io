@@ -14,7 +14,7 @@ sha1sum = "d881343d6dbf700c514eabd9ec5c9d1bc87c29b9"
 depends = "['kcompletion>=5.115.0', 'kiconthemes>=5.115.0', 'kservice>=5.115.0', 'qt5-speech>=5.15.12', 'sonnet>=5.115.0']"
 reverse_depends = "['dolphin', 'kpimtextedit', 'kxmlgui', 'libksane']"
 +++
-KDE Text editing widgets.{{< spoiler text="show files" >}}* /usr/include/KF5/KTextWidgets/KFind
+KDE Text editing widgets.{{< files text="show files" >}}* /usr/include/KF5/KTextWidgets/KFind
 * /usr/include/KF5/KTextWidgets/kfind.h
 * /usr/include/KF5/KTextWidgets/KFindDialog
 * /usr/include/KF5/KTextWidgets/kfinddialog.h
@@ -144,4 +144,4 @@ KDE Text editing widgets.{{< spoiler text="show files" >}}* /usr/include/KF5/KTe
 * /usr/share/locale/zh_HK/LC_MESSAGES/ktextwidgets5.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/ktextwidgets5.mo
 * /usr/share/qt5/mkspecs/modules/qt_KTextWidgets.pri
-{{< /spoiler >}}
+{{< /files >}}

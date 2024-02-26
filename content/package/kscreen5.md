@@ -14,7 +14,7 @@ sha1sum = "cb5e27bf1aba66bd0b739b6b58c5327a3794df97"
 depends = "['kcmutils>=5.115.0', 'kxmlgui>=5.115.0', 'layer-shell-qt>=5.27.10', 'libkscreen5>=5.27.10', 'plasma-framework>=5.115.0', 'qt5-sensors>=5.15.12']"
 reverse_depends = "['kscreenlocker', 'spectacle']"
 +++
-KDE's screen management utility.{{< spoiler text="show files" >}}* /usr/bin/kscreen-console
+KDE's screen management utility.{{< files text="show files" >}}* /usr/bin/kscreen-console
 * /usr/lib/kf5/kscreen_osd_service
 * /usr/lib/qt5/plugins/kf5/kded/kscreen.so
 * /usr/lib/qt5/plugins/plasma/applets/plasma_applet_kscreen.so
@@ -231,4 +231,4 @@ KDE's screen management utility.{{< spoiler text="show files" >}}* /usr/bin/kscr
 * /usr/share/plasma/plasmoids/org.kde.kscreen/metadata.desktop
 * /usr/share/plasma/plasmoids/org.kde.kscreen/metadata.json
 * /usr/share/qlogging-categories5/kscreen.categories
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,4 +13,4 @@ usize = "4096"
 sha1sum = "e291ac32456d20f86828bd44f5f6d36b592c4034"
 depends = "[]"
 +++
-Dummy package.{{< spoiler text="show files" >}}{{< /spoiler >}}
+Dummy package.{{< files text="show files" >}}{{< /files >}}

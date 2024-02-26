@@ -13,7 +13,7 @@ usize = "36989018"
 sha1sum = "bd1e63c789d5746b729e0b0c9f06bc4e00d85101"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs German support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/de/default.css
+Installs German support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/de/default.css
 * /usr/lib/libreoffice/help/de/err.html
 * /usr/lib/libreoffice/help/de/highcontrast1.css
 * /usr/lib/libreoffice/help/de/highcontrast2.css
@@ -133,4 +133,4 @@ Installs German support in LibreOffice{{< spoiler text="show files" >}}* /usr/li
 * /usr/lib/libreoffice/share/registry/Langpack-de.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_de.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_de.xcd
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "73585"
 sha1sum = "28a43149f446a1787b8304a9450b27101c1f19a6"
 depends = "['kparts>=5.115.0']"
 +++
-Interface for media player KParts.{{< spoiler text="show files" >}}* /usr/include/KF5/KMediaPlayer/kmediaplayer/kmediaplayer_export.h
+Interface for media player KParts.{{< files text="show files" >}}* /usr/include/KF5/KMediaPlayer/kmediaplayer/kmediaplayer_export.h
 * /usr/include/KF5/KMediaPlayer/KMediaPlayer/Player
 * /usr/include/KF5/KMediaPlayer/kmediaplayer/player.h
 * /usr/include/KF5/KMediaPlayer/KMediaPlayer/View
@@ -31,4 +31,4 @@ Interface for media player KParts.{{< spoiler text="show files" >}}* /usr/includ
 * /usr/share/doc/kmediaplayer-5.115.0/README.md
 * /usr/share/kservicetypes5/kmediaplayer-engine.desktop
 * /usr/share/kservicetypes5/kmediaplayer-player.desktop
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "8f3edfe79f7cc212f70160099c4a417bc78c90d6"
 depends = "['qt5-script>=5.15.10']"
 reverse_depends = "['grantleetheme', 'kdevelop', 'khelpcenter5', 'kpimtextedit', 'rocs', 'skrooge']"
 +++
-Grantlee Templates and Grantlee TextDocument.{{< spoiler text="show files" >}}* /usr/include/grantlee/abstractlocalizer.h
+Grantlee Templates and Grantlee TextDocument.{{< files text="show files" >}}* /usr/include/grantlee/abstractlocalizer.h
 * /usr/include/grantlee/abstractmarkupbuilder.h
 * /usr/include/grantlee/bbcodebuilder.h
 * /usr/include/grantlee/cachingloaderdecorator.h
@@ -65,4 +65,4 @@ Grantlee Templates and Grantlee TextDocument.{{< spoiler text="show files" >}}* 
 * /usr/share/doc/grantlee-5.3.1/CHANGELOG
 * /usr/share/doc/grantlee-5.3.1/COPYING.LIB
 * /usr/share/doc/grantlee-5.3.1/README.md
-{{< /spoiler >}}
+{{< /files >}}

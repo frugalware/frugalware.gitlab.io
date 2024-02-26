@@ -14,7 +14,7 @@ sha1sum = "988cbdbc098c99f99ed2dd76f4c179c36f30dd71"
 depends = "['efivar', 'libuuid', 'nss']"
 license = "GPL2"
 +++
-Tools for manipulating signed PE-COFF binaries{{< spoiler text="show files" >}}* /etc/pesign/groups
+Tools for manipulating signed PE-COFF binaries{{< files text="show files" >}}* /etc/pesign/groups
 * /etc/pesign/users
 * /etc/pki/pesign/cert8.db
 * /etc/pki/pesign/key3.db
@@ -36,4 +36,4 @@ Tools for manipulating signed PE-COFF binaries{{< spoiler text="show files" >}}*
 * /usr/share/man/man1/pesigcheck.1.gz
 * /usr/share/man/man1/pesign-client.1.gz
 * /usr/share/man/man1/pesign.1.gz
-{{< /spoiler >}}
+{{< /files >}}

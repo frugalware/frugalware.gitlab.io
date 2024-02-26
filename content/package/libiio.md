@@ -14,7 +14,7 @@ sha1sum = "eb054811e00eeab97660057d9fb3d3b77d4ca7d1"
 depends = "['avahi', 'libaio', 'libserialport', 'libusb', 'libxml2']"
 reverse_depends = "['clightd']"
 +++
-Interface to the Linux Industrial Input/Output (IIO) Subsystem{{< spoiler text="show files" >}}* /usr/bin/iiod
+Interface to the Linux Industrial Input/Output (IIO) Subsystem{{< files text="show files" >}}* /usr/bin/iiod
 * /usr/bin/iio_attr
 * /usr/bin/iio_genxml
 * /usr/bin/iio_info
@@ -48,4 +48,4 @@ Interface to the Linux Industrial Input/Output (IIO) Subsystem{{< spoiler text="
 * /usr/share/man/man1/man/iio_stresstest.1.gz
 * /usr/share/man/man1/man/iio_writedev.1.gz
 * /usr/share/man/man3/man/libiio.3.gz
-{{< /spoiler >}}
+{{< /files >}}

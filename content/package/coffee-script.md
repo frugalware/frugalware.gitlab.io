@@ -13,7 +13,7 @@ usize = "9541828"
 sha1sum = "1805c8f630e472e45a85f64917ddd4b4f18f0a2d"
 depends = "['glibc']"
 +++
-CoffeeScript is a little language that compiles into JavaScript{{< spoiler text="show files" >}}* /usr/bin/cake
+CoffeeScript is a little language that compiles into JavaScript{{< files text="show files" >}}* /usr/bin/cake
 * /usr/bin/coffee
 * /usr/lib/node_modules/coffeescript/.babelrc
 * /usr/lib/node_modules/coffeescript/.github/workflows/continuous-integration.yml
@@ -522,4 +522,4 @@ CoffeeScript is a little language that compiles into JavaScript{{< spoiler text=
 * /usr/lib/node_modules/root/tests/test-urls.js
 * /usr/share/doc/coffee-script-2.7.0/LICENSE
 * /usr/share/doc/coffee-script-2.7.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

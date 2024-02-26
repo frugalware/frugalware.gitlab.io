@@ -13,6 +13,6 @@ usize = "50779"
 sha1sum = "f3de68def75202b35b3b1f56442c470dfa5f85cb"
 depends = "['lua51']"
 +++
-A new pattern-matching library for Lua, based on Parsing Expression Grammars.{{< spoiler text="show files" >}}* /usr/lib/lua/5.1/lpeg.so
+A new pattern-matching library for Lua, based on Parsing Expression Grammars.{{< files text="show files" >}}* /usr/lib/lua/5.1/lpeg.so
 * /usr/share/doc/lua51-lpeg-1.0.2/HISTORY
-{{< /spoiler >}}
+{{< /files >}}

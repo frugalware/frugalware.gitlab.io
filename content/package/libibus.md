@@ -14,7 +14,7 @@ sha1sum = "11f8d523fc43f7627afc5d79d5f25e1b3eeaf5ed"
 depends = "['glib2']"
 reverse_depends = "['ibus']"
 +++
-Ibus library{{< spoiler text="show files" >}}* /usr/include/ibus-1.0/ibus.h
+Ibus library{{< files text="show files" >}}* /usr/include/ibus-1.0/ibus.h
 * /usr/include/ibus-1.0/ibusaccelgroup.h
 * /usr/include/ibus-1.0/ibusattribute.h
 * /usr/include/ibus-1.0/ibusattrlist.h
@@ -215,4 +215,4 @@ Ibus library{{< spoiler text="show files" >}}* /usr/include/ibus-1.0/ibus.h
 * /usr/share/ibus/dicts/unicode-names.dict
 * /usr/share/vala/vapi/ibus-1.0.deps
 * /usr/share/vala/vapi/ibus-1.0.vapi
-{{< /spoiler >}}
+{{< /files >}}

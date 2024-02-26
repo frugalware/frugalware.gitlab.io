@@ -14,7 +14,7 @@ sha1sum = "d6a17de989c4ada7602b513dc7d207053ace374c"
 depends = "['curl', 'libusb']"
 reverse_depends = "['dracut-ykfde', 'ykclient']"
 +++
-Yubico YubiKey C library{{< spoiler text="show files" >}}* /usr/bin/modhex
+Yubico YubiKey C library{{< files text="show files" >}}* /usr/bin/modhex
 * /usr/bin/ykgenerate
 * /usr/bin/ykparse
 * /usr/include/yubikey.h
@@ -31,4 +31,4 @@ Yubico YubiKey C library{{< spoiler text="show files" >}}* /usr/bin/modhex
 * /usr/share/man/man1/modhex.1.gz
 * /usr/share/man/man1/ykgenerate.1.gz
 * /usr/share/man/man1/ykparse.1.gz
-{{< /spoiler >}}
+{{< /files >}}

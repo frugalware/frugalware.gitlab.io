@@ -14,7 +14,7 @@ sha1sum = "a1451662239efb4d65106316a730da77636b96dc"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['shellcheck']"
 +++
-Martin Erwig's Functional Graph Library{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/fgl-5.8.2.0/Data/Graph/Inductive.dyn_hi
+Martin Erwig's Functional Graph Library{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/fgl-5.8.2.0/Data/Graph/Inductive.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/fgl-5.8.2.0/Data/Graph/Inductive.hi
 * /usr/lib/ghc-9.8.1/site-local/fgl-5.8.2.0/Data/Graph/Inductive/Basic.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/fgl-5.8.2.0/Data/Graph/Inductive/Basic.hi
@@ -140,4 +140,4 @@ Martin Erwig's Functional Graph Library{{< spoiler text="show files" >}}* /usr/l
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/fgl-5.8.2.0/LICENSE
 * /usr/share/haskell/haskell-fgl/register.sh
 * /usr/share/haskell/haskell-fgl/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

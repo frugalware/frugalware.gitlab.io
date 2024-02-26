@@ -14,7 +14,7 @@ sha1sum = "ec7eaefe8a7ed716a265a5e8f10b629ca27023e6"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-build', 'python3-flit_core', 'python3-hatchling', 'python3-pep517', 'python3-pyproject-hooks', 'python3-setuptools_scm', 'python3-versioningit']"
 +++
-A lil' TOML parser{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/tomli-2.0.1.dist-info/LICENSE
+A lil' TOML parser{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/tomli-2.0.1.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/tomli-2.0.1.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/tomli-2.0.1.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/tomli-2.0.1.dist-info/WHEEL
@@ -33,4 +33,4 @@ A lil' TOML parser{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-pa
 * /usr/lib/python3.12/site-packages/tomli/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-tomli-2.0.1/LICENSE
 * /usr/share/doc/python3-tomli-2.0.1/README.md
-{{< /spoiler >}}
+{{< /files >}}

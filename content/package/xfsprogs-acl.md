@@ -14,7 +14,7 @@ sha1sum = "c33a42a6fd4e7a7dc735591933fa6c14cf7e7bbd"
 depends = "['xfsprogs-attr>=2.5.1-3']"
 reverse_depends = "['aide', 'cdrtools', 'coreutils', 'libisofs', 'libsystemd', 'logrotate', 'tar', 'vim', 'xorriso']"
 +++
-Dynamic library for access control list support.{{< spoiler text="show files" >}}* /usr/bin/chacl
+Dynamic library for access control list support.{{< files text="show files" >}}* /usr/bin/chacl
 * /usr/bin/getfacl
 * /usr/bin/setfacl
 * /usr/include/acl/libacl.h
@@ -84,4 +84,4 @@ Dynamic library for access control list support.{{< spoiler text="show files" >}
 * /usr/share/man/man3/acl_to_text.3.gz
 * /usr/share/man/man3/acl_valid.3.gz
 * /usr/share/man/man5/acl.5.gz
-{{< /spoiler >}}
+{{< /files >}}

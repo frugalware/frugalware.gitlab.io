@@ -13,7 +13,7 @@ usize = "11304142"
 sha1sum = "dd0ffdd8ab4a2b2ae7a5db228eea6e8eeb94fedf"
 depends = "['fontconfig', 'mkfontscale']"
 +++
-GNU FreeFont is a free family of scalable outline fonts.{{< spoiler text="show files" >}}* /usr/share/doc/freefont-ttf-20120503/AUTHORS
+GNU FreeFont is a free family of scalable outline fonts.{{< files text="show files" >}}* /usr/share/doc/freefont-ttf-20120503/AUTHORS
 * /usr/share/doc/freefont-ttf-20120503/ChangeLog
 * /usr/share/doc/freefont-ttf-20120503/COPYING
 * /usr/share/doc/freefont-ttf-20120503/CREDITS
@@ -31,4 +31,4 @@ GNU FreeFont is a free family of scalable outline fonts.{{< spoiler text="show f
 * /usr/share/fonts/X11/TTF/FreeSerifBold.ttf
 * /usr/share/fonts/X11/TTF/FreeSerifBoldItalic.ttf
 * /usr/share/fonts/X11/TTF/FreeSerifItalic.ttf
-{{< /spoiler >}}
+{{< /files >}}

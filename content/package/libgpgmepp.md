@@ -14,7 +14,7 @@ sha1sum = "921216488be7f3efe15c1ce646a7db44a572cabc"
 depends = "['gpgme>=1.23.2', 'libstdc++>=11.2']"
 reverse_depends = "['kwallet5', 'libkleo', 'libreoffice', 'poppler']"
 +++
-C++ bindings for gpgme{{< spoiler text="show files" >}}* /usr/lib/libgpgmepp.so
+C++ bindings for gpgme{{< files text="show files" >}}* /usr/lib/libgpgmepp.so
 * /usr/lib/libgpgmepp.so.6
 * /usr/lib/libgpgmepp.so.6.20.1
-{{< /spoiler >}}
+{{< /files >}}

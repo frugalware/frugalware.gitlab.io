@@ -13,5 +13,5 @@ usize = "84448"
 sha1sum = "99b92cf535fc45f1ead3a4718fc46507b103010f"
 depends = "['claws-mail=4.1.1', 'gpgme>=1.6.0-3']"
 +++
-Handles core PGP functions and is a dependency of both the PGP/Inline and PGP/MIME plugins.{{< spoiler text="show files" >}}* /usr/lib/claws-mail/plugins/pgpcore.so
-{{< /spoiler >}}
+Handles core PGP functions and is a dependency of both the PGP/Inline and PGP/MIME plugins.{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/pgpcore.so
+{{< /files >}}

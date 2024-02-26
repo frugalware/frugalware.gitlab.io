@@ -14,7 +14,7 @@ sha1sum = "263729c2e14dec97b9899949d66d75e48ea55272"
 depends = "['argyllcms>=1.8.3-2', 'glib2>=2.60.0', 'lcms2>=2.8-2', 'libffi>=3.2.1-2', 'libgudev>=232-4', 'libgusb>=0.3.0-2', 'libudev>=242', 'libxslt', 'polkit>=0.113-6', 'sqlite3>=3.9.2-4']"
 reverse_depends = "['colord-gtk', 'colord-kde', 'fwupd', 'gtk+4']"
 +++
-color daemon{{< spoiler text="show files" >}}* /usr/bin/cd-create-profile
+color daemon{{< files text="show files" >}}* /usr/bin/cd-create-profile
 * /usr/bin/cd-fix-profile
 * /usr/bin/cd-iccdump
 * /usr/bin/cd-it8
@@ -246,4 +246,4 @@ color daemon{{< spoiler text="show files" >}}* /usr/bin/cd-create-profile
 * /usr/share/polkit-1/actions/org.freedesktop.color.policy
 * /usr/share/vala/vapi/colord.deps
 * /usr/share/vala/vapi/colord.vapi
-{{< /spoiler >}}
+{{< /files >}}

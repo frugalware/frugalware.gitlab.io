@@ -13,7 +13,7 @@ usize = "38721148"
 sha1sum = "9ac2ee195fa5face4496dc0cd3e88fda06ec9b09"
 depends = "['poppler-qt5>=0.60.1-2', 'qt5-base>=5.15.10', 'qt5-script>=5.15.10', 'xghostscript']"
 +++
-Texmaker is a free LaTeX editor.{{< spoiler text="show files" >}}* /usr/bin/texmaker
+Texmaker is a free LaTeX editor.{{< files text="show files" >}}* /usr/bin/texmaker
 * /usr/share/applications/texmaker.desktop
 * /usr/share/doc/texmaker-5.1.4/INSTALL
 * /usr/share/metainfo/texmaker.metainfo.xml
@@ -135,4 +135,4 @@ Texmaker is a free LaTeX editor.{{< spoiler text="show files" >}}* /usr/bin/texm
 * /usr/share/texmaker/titlecase_selection.tms
 * /usr/share/texmaker/usermanual_en.html
 * /usr/share/texmaker/usermanual_fr.html
-{{< /spoiler >}}
+{{< /files >}}

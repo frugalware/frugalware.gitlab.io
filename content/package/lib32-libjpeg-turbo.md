@@ -14,7 +14,7 @@ sha1sum = "5495c7edccd7064e33ea1f4b66c320db84e0121d"
 depends = "[]"
 reverse_depends = "['lib32-gdk-pixbuf2', 'lib32-imlib2', 'lib32-lcms2', 'lib32-libwebp', 'lib32-v4l-utils']"
 +++
-JPEG image codec that uses SIMD instructions ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/cjpeg
+JPEG image codec that uses SIMD instructions ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/cjpeg
 * /usr/i686-frugalware-linux/bin/djpeg
 * /usr/i686-frugalware-linux/bin/jpegtran
 * /usr/i686-frugalware-linux/bin/rdjpgcom
@@ -37,4 +37,4 @@ JPEG image codec that uses SIMD instructions ( 32bit ){{< spoiler text="show fil
 * /usr/lib32/libturbojpeg.so.0.3.0
 * /usr/lib32/pkgconfig/libjpeg.pc
 * /usr/lib32/pkgconfig/libturbojpeg.pc
-{{< /spoiler >}}
+{{< /files >}}

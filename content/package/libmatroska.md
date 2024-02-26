@@ -14,7 +14,7 @@ sha1sum = "c5f7cf9e37f7b3270d3c4357295292d0e3bb0732"
 depends = "['libebml>=1.4.2']"
 reverse_depends = "['mkvtoolnix', 'vlc-mkv']"
 +++
-libmatroska is a C++ libary to parse Matroska files (.mkv and .mka).{{< spoiler text="show files" >}}* /usr/include/matroska/c/libmatroska.h
+libmatroska is a C++ libary to parse Matroska files (.mkv and .mka).{{< files text="show files" >}}* /usr/include/matroska/c/libmatroska.h
 * /usr/include/matroska/c/libmatroska_t.h
 * /usr/include/matroska/FileKax.h
 * /usr/include/matroska/KaxAttached.h
@@ -54,4 +54,4 @@ libmatroska is a C++ libary to parse Matroska files (.mkv and .mka).{{< spoiler 
 * /usr/lib/pkgconfig/libmatroska.pc
 * /usr/share/doc/libmatroska-1.6.3/ChangeLog
 * /usr/share/doc/libmatroska-1.6.3/README.md
-{{< /spoiler >}}
+{{< /files >}}

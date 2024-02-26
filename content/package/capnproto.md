@@ -14,7 +14,7 @@ sha1sum = "df0368b0b5cd95c5e79de7e4885ceeca7853e607"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['rr']"
 +++
-Fast data interchange format and capability-based RPC system{{< spoiler text="show files" >}}* /usr/bin/capnp
+Fast data interchange format and capability-based RPC system{{< files text="show files" >}}* /usr/bin/capnp
 * /usr/bin/capnpc
 * /usr/bin/capnpc-c++
 * /usr/bin/capnpc-capnp
@@ -140,4 +140,4 @@ Fast data interchange format and capability-based RPC system{{< spoiler text="sh
 * /usr/share/doc/capnproto-0.10.3/LICENSE
 * /usr/share/doc/capnproto-0.10.3/README.md
 * /usr/share/doc/capnproto-0.10.3/RELEASE-PROCESS.md
-{{< /spoiler >}}
+{{< /files >}}

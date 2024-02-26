@@ -13,7 +13,7 @@ usize = "3503986"
 sha1sum = "fa5afe0fcb33305f3b1edd5f40f2e206cedb4790"
 depends = "['kdeclarative>=5.115.0', 'kio>=5.115.0', 'kipi-plugins>=23.08.5', 'knewstuff>=5.115.0', 'kpipewire>=5.27.10', 'kscreen5>=5.27.10', 'libkipi>=23.08.5', 'purpose>=5.115.0', 'xcb-util-cursor']"
 +++
-KDE screenshot capture utility{{< spoiler text="show files" >}}* /usr/bin/spectacle
+KDE screenshot capture utility{{< files text="show files" >}}* /usr/bin/spectacle
 * /usr/lib/kconf_update_bin/spectacle-migrate-rememberregion
 * /usr/lib/kconf_update_bin/spectacle-migrate-shortcuts
 * /usr/lib/systemd/user/app-org.kde.spectacle.service
@@ -126,4 +126,4 @@ KDE screenshot capture utility{{< spoiler text="show files" >}}* /usr/bin/specta
 * /usr/share/man/uk/man1/spectacle.1.gz
 * /usr/share/metainfo/org.kde.spectacle.appdata.xml
 * /usr/share/qlogging-categories5/spectacle.categories
-{{< /spoiler >}}
+{{< /files >}}

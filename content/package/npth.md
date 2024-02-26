@@ -14,7 +14,7 @@ sha1sum = "7a7ff8360e6adaef41a6d77b134a4e22e7705835"
 depends = "['glibc>=2.34']"
 reverse_depends = "['dirmngr', 'dirmngr-ldap', 'gnupg2', 'gpg-agent']"
 +++
-nPth - The New Pth library{{< spoiler text="show files" >}}* /usr/bin/npth-config
+nPth - The New Pth library{{< files text="show files" >}}* /usr/bin/npth-config
 * /usr/include/npth.h
 * /usr/lib/libnpth.so
 * /usr/lib/libnpth.so.0
@@ -28,4 +28,4 @@ nPth - The New Pth library{{< spoiler text="show files" >}}* /usr/bin/npth-confi
 * /usr/share/doc/npth-1.6/NEWS
 * /usr/share/doc/npth-1.6/README
 * /usr/share/doc/npth-1.6/VERSION
-{{< /spoiler >}}
+{{< /files >}}

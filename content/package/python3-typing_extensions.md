@@ -14,7 +14,7 @@ sha1sum = "2866b2d3a1db1dd9a00e1eade79b8e49b341e55d"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-async-timeout', 'python3-cleo', 'python3-jsonschema', 'python3-lark-parser', 'python3-platformdirs', 'python3-pydantic-core', 'python3-setuptools-rust', 'python3-setuptools_scm', 'python3-twisted']"
 +++
-Backported and Experimental Type Hints for Python 3.5+{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/typing_extensions-4.8.0.dist-info/LICENSE
+Backported and Experimental Type Hints for Python 3.5+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/typing_extensions-4.8.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/typing_extensions-4.8.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/typing_extensions-4.8.0.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/typing_extensions-4.8.0.dist-info/WHEEL
@@ -24,4 +24,4 @@ Backported and Experimental Type Hints for Python 3.5+{{< spoiler text="show fil
 * /usr/share/doc/python3-typing_extensions-4.8.0/LICENSE
 * /usr/share/doc/python3-typing_extensions-4.8.0/README.md
 * /usr/share/doc/python3-typing_extensions-4.8.0/README.rst
-{{< /spoiler >}}
+{{< /files >}}

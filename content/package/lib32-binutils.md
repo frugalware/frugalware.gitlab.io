@@ -14,7 +14,7 @@ sha1sum = "1dbf8c679f7c8ce0e74c6f3048d09f6616037d2b"
 depends = "['lib32-zstd']"
 reverse_depends = "['lib32-cairo']"
 +++
-A set of programs to assemble and manipulate binary and object files ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/addr2line
+A set of programs to assemble and manipulate binary and object files ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/addr2line
 * /usr/i686-frugalware-linux/bin/ar
 * /usr/i686-frugalware-linux/bin/as
 * /usr/i686-frugalware-linux/bin/c++filt
@@ -176,4 +176,4 @@ A set of programs to assemble and manipulate binary and object files ( 32bit ){{
 * /usr/lib32/libsframe.so
 * /usr/lib32/libsframe.so.1
 * /usr/lib32/libsframe.so.1.0.0
-{{< /spoiler >}}
+{{< /files >}}

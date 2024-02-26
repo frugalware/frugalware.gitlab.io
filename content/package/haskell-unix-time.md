@@ -14,7 +14,7 @@ sha1sum = "353114ab1271cf5fc1575a51b860bae6881344ce"
 depends = "['haskell-old-time']"
 reverse_depends = "['haskell-fast-logger', 'haskell-network-control', 'haskell-tls']"
 +++
-Unix time parser/formatter and utilities{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/unix-time-0.4.11/Data/UnixTime.dyn_hi
+Unix time parser/formatter and utilities{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/unix-time-0.4.11/Data/UnixTime.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/unix-time-0.4.11/Data/UnixTime.hi
 * /usr/lib/ghc-9.8.1/site-local/unix-time-0.4.11/Data/UnixTime/Conv.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/unix-time-0.4.11/Data/UnixTime/Conv.hi
@@ -39,4 +39,4 @@ Unix time parser/formatter and utilities{{< spoiler text="show files" >}}* /usr/
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/unix-time-0.4.11/LICENSE
 * /usr/share/haskell/haskell-unix-time/register.sh
 * /usr/share/haskell/haskell-unix-time/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

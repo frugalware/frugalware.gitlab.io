@@ -14,7 +14,7 @@ sha1sum = "03d654cf2e6e2e1ff5dcffc3b25a8d4ae2ea3ead"
 depends = "['glib2>=2.60.3', 'libsigc++3', 'mm-common']"
 reverse_depends = "['atkmm', 'gtkmm', 'libxml++2', 'pangomm', 'telegram-desktop']"
 +++
-C++ interface for glib2{{< spoiler text="show files" >}}* /usr/include/giomm-2.68/giomm.h
+C++ interface for glib2{{< files text="show files" >}}* /usr/include/giomm-2.68/giomm.h
 * /usr/include/giomm-2.68/giomm/action.h
 * /usr/include/giomm-2.68/giomm/actiongroup.h
 * /usr/include/giomm-2.68/giomm/actionmap.h
@@ -467,4 +467,4 @@ C++ interface for glib2{{< spoiler text="show files" >}}* /usr/include/giomm-2.6
 * /usr/share/doc/glibmm-2.78.0/NEWS
 * /usr/share/doc/glibmm-2.78.0/README.md
 * /usr/share/doc/glibmm-2.78.0/README.win32.md
-{{< /spoiler >}}
+{{< /files >}}

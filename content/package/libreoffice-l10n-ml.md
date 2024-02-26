@@ -13,7 +13,7 @@ usize = "2538222"
 sha1sum = "0b87843981e8e3b20c1cf6e4814894a5f0a8bfba"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Malayalam support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/program/resource/ml/LC_MESSAGES/acc.mo
+Installs Malayalam support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/ml/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/ml/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/ml/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/ml/LC_MESSAGES/chart.mo
@@ -51,4 +51,4 @@ Installs Malayalam support in LibreOffice{{< spoiler text="show files" >}}* /usr
 * /usr/lib/libreoffice/share/registry/Langpack-ml.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_ml.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_ml.xcd
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,9 +13,9 @@ usize = "61568"
 sha1sum = "76e546dbb471d9e69b4d98e683c5675dbe9004f8"
 depends = "['kernel=6.7.6-1']"
 +++
-Modules for ThinkPad's SMAPI functionality{{< spoiler text="show files" >}}* /usr/lib/modules/6.7.6-fw1/kernel/drivers/platform/x86/thinkpad_ec.ko.zst
+Modules for ThinkPad's SMAPI functionality{{< files text="show files" >}}* /usr/lib/modules/6.7.6-fw1/kernel/drivers/platform/x86/thinkpad_ec.ko.zst
 * /usr/lib/modules/6.7.6-fw1/kernel/drivers/platform/x86/tp_smapi.ko.zst
 * /usr/share/doc/tp-smapi-0.44/CHANGES
 * /usr/share/doc/tp-smapi-0.44/README
 * /usr/share/doc/tp-smapi-0.44/TODO
-{{< /spoiler >}}
+{{< /files >}}

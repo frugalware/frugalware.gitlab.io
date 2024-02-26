@@ -14,7 +14,7 @@ sha1sum = "fac94a9895a0f7d18b31f398670fc3558a2f48ff"
 depends = "['ocaml>=5.1.1']"
 reverse_depends = "['ounit']"
 +++
-compatibility package for the standard OCaml iterator type{{< spoiler text="show files" >}}* /usr/lib/ocaml/seq/dune-package
+compatibility package for the standard OCaml iterator type{{< files text="show files" >}}* /usr/lib/ocaml/seq/dune-package
 * /usr/lib/ocaml/seq/META
 * /usr/lib/ocaml/seq/opam
 * /usr/lib/ocaml/seq/seq.a
@@ -32,4 +32,4 @@ compatibility package for the standard OCaml iterator type{{< spoiler text="show
 * /usr/share/doc/ocaml-seq-0.3.1/seq/CHANGES.md
 * /usr/share/doc/ocaml-seq-0.3.1/seq/LICENSE
 * /usr/share/doc/ocaml-seq-0.3.1/seq/README.md
-{{< /spoiler >}}
+{{< /files >}}

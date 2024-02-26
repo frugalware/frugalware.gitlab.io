@@ -14,8 +14,8 @@ sha1sum = "250629073ae8ef49d09472954bcd66cf1b7a4824"
 depends = "['libstdc++']"
 reverse_depends = "['hw-probe']"
 +++
-EDID decoder and conformance tester{{< spoiler text="show files" >}}* /usr/bin/edid-decode
+EDID decoder and conformance tester{{< files text="show files" >}}* /usr/bin/edid-decode
 * /usr/share/doc/edid-decode-20230120.ge052f5f/LICENSE
 * /usr/share/doc/edid-decode-20230120.ge052f5f/README
 * /usr/share/man/man1/edid-decode.1.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "271650"
 sha1sum = "2d2ff93981b3da44df2ec8b622b416ffafd2ae62"
 depends = "['perl>=5.34.0']"
 +++
-Modules for parsing/translating POD format documents{{< spoiler text="show files" >}}* /usr/bin/core_perl/podselect
+Modules for parsing/translating POD format documents{{< files text="show files" >}}* /usr/bin/core_perl/podselect
 * /usr/lib/perl5/core_perl/Pod/Find.pm
 * /usr/lib/perl5/core_perl/Pod/InputObjects.pm
 * /usr/lib/perl5/core_perl/Pod/Parser.pm
@@ -32,4 +32,4 @@ Modules for parsing/translating POD format documents{{< spoiler text="show files
 * /usr/share/man/man3/Pod::ParseUtils.3perl.gz
 * /usr/share/man/man3/Pod::PlainText.3perl.gz
 * /usr/share/man/man3/Pod::Select.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "3514613"
 sha1sum = "bbb97fc73f6e8d18abd0aa714c52c0f1e053a5e9"
 depends = "['python3-async-timeout']"
 +++
-The Python interface to the Redis key-value store{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/redis-5.0.1.dist-info/LICENSE
+The Python interface to the Redis key-value store{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/redis-5.0.1.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/redis-5.0.1.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/redis-5.0.1.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/redis-5.0.1.dist-info/top_level.txt
@@ -231,4 +231,4 @@ The Python interface to the Redis key-value store{{< spoiler text="show files" >
 * /usr/share/doc/python3-redis-5.0.1/INSTALL
 * /usr/share/doc/python3-redis-5.0.1/LICENSE
 * /usr/share/doc/python3-redis-5.0.1/README.md
-{{< /spoiler >}}
+{{< /files >}}

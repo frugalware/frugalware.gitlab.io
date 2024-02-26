@@ -13,7 +13,7 @@ usize = "9915548"
 sha1sum = "8eb67b0024a490b39a611d6de0f69f97ae6c83de"
 depends = "['akonadi-import-wizard>=23.08.5', 'discount', 'incidenceeditor>=23.08.5', 'kaddressbook>=23.08.5', 'kitinerary>=23.08.5', 'kontactinterface>=23.08.5', 'ktnef>=23.08.5', 'libksieve>=23.08.5', 'mailcommon>=23.08.5', 'poppler-qt5']"
 +++
-Addons for PIM release-service.{{< spoiler text="show files" >}}* /etc/xdg/kmail.antispamrc
+Addons for PIM release-service.{{< files text="show files" >}}* /etc/xdg/kmail.antispamrc
 * /etc/xdg/kmail.antivirusrc
 * /usr/bin/kmail_antivir.sh
 * /usr/bin/kmail_clamav.sh
@@ -1268,4 +1268,4 @@ Addons for PIM release-service.{{< spoiler text="show files" >}}* /etc/xdg/kmail
 * /usr/share/qtcreator/templates/kmaileditorplugins/plugineditorinterface.cpp
 * /usr/share/qtcreator/templates/kmaileditorplugins/plugineditorinterface.h
 * /usr/share/qtcreator/templates/kmaileditorplugins/wizard.json
-{{< /spoiler >}}
+{{< /files >}}

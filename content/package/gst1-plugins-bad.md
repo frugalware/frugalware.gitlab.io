@@ -14,7 +14,7 @@ sha1sum = "25221e6da8bfcd72ac4a2a46e1b075fe87a71b83"
 depends = "['gst1-plugins-base>=1.22.10', 'ldacbt', 'libass>=0.13.6', 'libffi>=3.2.1-2', 'libfreeaptx', 'libgudev>=230-7', 'libjpeg-turbo', 'libpng>=1.6.27', 'mjpegtools>=2.2.1', 'nettle>=3.6', 'openjpeg>=2.2.0', 'openssl>=3.1.0', 'webrtc-audio-processing', 'x265>=3.5']"
 reverse_depends = "['castersoundboard', 'gst1-plugins-bad-bzip2', 'gst1-plugins-bad-dts', 'gst1-plugins-bad-faac', 'gst1-plugins-bad-faad2', 'gst1-plugins-bad-libdc1394', 'gst1-plugins-bad-mpeg2enc', 'gst1-plugins-bad-resindvd', 'gst1-plugins-bad-soundtouch', 'gtk+4', 'pulseaudio-bluetooth', 'qt5-gstreamer', 'qt5-multimedia', 'spice-glib', 'webkit-gtk3']"
 +++
-Plugins for GStreamer (Bad){{< spoiler text="show files" >}}* /usr/bin/gst-transcoder-1.0
+Plugins for GStreamer (Bad){{< files text="show files" >}}* /usr/bin/gst-transcoder-1.0
 * /usr/bin/playout
 * /usr/include/gstreamer-1.0/gst/audio/audio-bad-prelude.h
 * /usr/include/gstreamer-1.0/gst/audio/gstnonstreamaudiodecoder.h
@@ -315,4 +315,4 @@ Plugins for GStreamer (Bad){{< spoiler text="show files" >}}* /usr/bin/gst-trans
 * /usr/share/locale/vi/LC_MESSAGES/gst-plugins-bad-1.0.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/gst-plugins-bad-1.0.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/gst-plugins-bad-1.0.mo
-{{< /spoiler >}}
+{{< /files >}}

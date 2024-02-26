@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = ""
 depends = "['openldap']"
 +++
-Library to help mapping id's, mainly for NFSv4.{{< spoiler text="show files" >}}* usr/include/nfsidmap.h
+Library to help mapping id's, mainly for NFSv4.{{< files text="show files" >}}* usr/include/nfsidmap.h
 * usr/lib/libnfsidmap.a
 * usr/lib/libnfsidmap.la
 * usr/lib/libnfsidmap.so
@@ -26,4 +26,4 @@ Library to help mapping id's, mainly for NFSv4.{{< spoiler text="show files" >}}
 * usr/share/doc/nfsidmap-0.11/INSTALL
 * usr/share/doc/nfsidmap-0.11/NEWS
 * usr/share/doc/nfsidmap-0.11/README
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "582817"
 sha1sum = "fd5af90575fe2d9eb4610592e27ce0636a4ea37e"
 depends = "['glibc>=2.34']"
 +++
-SGML converters for the LinuxDoc DTD only.{{< spoiler text="show files" >}}* /usr/bin/linuxdoc
+SGML converters for the LinuxDoc DTD only.{{< files text="show files" >}}* /usr/bin/linuxdoc
 * /usr/bin/rtf2rtf
 * /usr/bin/sgml2html
 * /usr/bin/sgml2info
@@ -197,4 +197,4 @@ SGML converters for the LinuxDoc DTD only.{{< spoiler text="show files" >}}* /us
 * /usr/share/texmf-dist/tex/latex/misc/linuxdoctr-sgml.sty
 * /usr/share/texmf-dist/tex/latex/misc/null.sty
 * /usr/share/texmf-dist/tex/latex/misc/qwertz.sty
-{{< /spoiler >}}
+{{< /files >}}

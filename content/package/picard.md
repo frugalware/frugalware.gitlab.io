@@ -13,7 +13,7 @@ usize = "11798083"
 sha1sum = "c442a09f3e1b671dae7688064d933ea265bfadc8"
 depends = "['ffmpeg>=3.3.2', 'libdiscid', 'libgcc', 'libtheora', 'libx11', 'mutagen', 'pyqt5>=5.9.2', 'python3>=3.9.6']"
 +++
-The next generation MusicBrainz tagger{{< spoiler text="show files" >}}* /usr/bin/picard
+The next generation MusicBrainz tagger{{< files text="show files" >}}* /usr/bin/picard
 * /usr/lib/python3.12/site-packages/picard-2.9.2-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/picard-2.9.2-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/picard-2.9.2-py3.12.egg-info/requires.txt
@@ -614,4 +614,4 @@ The next generation MusicBrainz tagger{{< spoiler text="show files" >}}* /usr/bi
 * /usr/share/share/locale/zh_TW/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/zh_TW/LC_MESSAGES/picard.mo
 * /usr/share/share/metainfo/org.musicbrainz.Picard.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

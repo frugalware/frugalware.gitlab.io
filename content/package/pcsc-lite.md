@@ -14,7 +14,7 @@ sha1sum = "4ace182214c7b2567df8f5b20aabab35c8231b5b"
 depends = "['glibc>=2.34', 'libsystemd', 'polkit']"
 reverse_depends = "['ccid', 'keepassxc', 'libykneomgr', 'openjre', 'opensc', 'qt6-connectivity', 'wine', 'wine-devel']"
 +++
-PC/SC Architecture smartcard middleware library{{< spoiler text="show files" >}}* /usr/bin/pcsc-spy
+PC/SC Architecture smartcard middleware library{{< files text="show files" >}}* /usr/bin/pcsc-spy
 * /usr/bin/pcscd
 * /usr/include/PCSC/debuglog.h
 * /usr/include/PCSC/ifdhandler.h
@@ -45,4 +45,4 @@ PC/SC Architecture smartcard middleware library{{< spoiler text="show files" >}}
 * /usr/share/man/man5/reader.conf.5.gz
 * /usr/share/man/man8/pcscd.8.gz
 * /usr/share/polkit-1/actions/org.debian.pcsc-lite.policy
-{{< /spoiler >}}
+{{< /files >}}

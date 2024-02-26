@@ -13,5 +13,5 @@ usize = "51040"
 sha1sum = "7056af4b67a3bc37d8faa74e487445efc25db522"
 depends = "['bitlbee=3.6', 'libotr>=4.0.0']"
 +++
-OTR support for BitlBee.{{< spoiler text="show files" >}}* /usr/lib/bitlbee/otr.so
-{{< /spoiler >}}
+OTR support for BitlBee.{{< files text="show files" >}}* /usr/lib/bitlbee/otr.so
+{{< /files >}}

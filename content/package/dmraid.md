@@ -15,7 +15,7 @@ depends = "['libsystemd>=231-22', 'lvm2-libs>=2.02.177-4']"
 reverse_depends = "['dracut', 'libblockdev']"
 license = "GPL"
 +++
-Device mapper RAID interface{{< spoiler text="show files" >}}* /usr/bin/dmevent_tool
+Device mapper RAID interface{{< files text="show files" >}}* /usr/bin/dmevent_tool
 * /usr/bin/dmraid
 * /usr/include/dmraid/display.h
 * /usr/include/dmraid/dmraid.h
@@ -36,4 +36,4 @@ Device mapper RAID interface{{< spoiler text="show files" >}}* /usr/bin/dmevent_
 * /usr/lib/tmpfiles.d/dmraid.conf
 * /usr/share/man/man8/dmevent_tool.8.gz
 * /usr/share/man/man8/dmraid.8.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "d2de41c3a338b68a62253e3fc9a4efb57bb2715c"
 depends = "['ncurses>=6.0-18']"
 reverse_depends = "['firebird', 'ghc', 'llvm-libs', 'llvm15-libs', 'nftables', 'ntp', 'openssh']"
 +++
-Editline Library{{< spoiler text="show files" >}}* /usr/include/editline/readline.h
+Editline Library{{< files text="show files" >}}* /usr/include/editline/readline.h
 * /usr/include/histedit.h
 * /usr/lib/libedit.so
 * /usr/lib/libedit.so.0
@@ -66,4 +66,4 @@ Editline Library{{< spoiler text="show files" >}}* /usr/include/editline/readlin
 * /usr/share/man/man3/tok_wstr.3.gz
 * /usr/share/man/man5/editrc.5.gz
 * /usr/share/man/man7/editline.7.gz
-{{< /spoiler >}}
+{{< /files >}}

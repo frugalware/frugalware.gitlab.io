@@ -14,7 +14,7 @@ sha1sum = "56bafdabc139a370b8c51e923a85e213b89f0642"
 depends = "['libgssglue>=0.4-3', 'libkrb5>=1.16']"
 reverse_depends = "['libnsl', 'libvirt', 'quota-tools', 'rpcbind', 'xorg-server-xwayland', 'zfs']"
 +++
-A port of Suns Transport-Independent RPC library to Linux.{{< spoiler text="show files" >}}* /etc/bindresvport.blacklist
+A port of Suns Transport-Independent RPC library to Linux.{{< files text="show files" >}}* /etc/bindresvport.blacklist
 * /etc/netconfig
 * /usr/include/tirpc/netconfig.h
 * /usr/include/tirpc/rpc/auth.h
@@ -100,4 +100,4 @@ A port of Suns Transport-Independent RPC library to Linux.{{< spoiler text="show
 * /usr/share/man/man3/rpc_xdr.3t.gz
 * /usr/share/man/man3/rtime.3t.gz
 * /usr/share/man/man5/netconfig.5.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "8523a2b9eaa9a7fb913f9fe51d70d901e6e785ef"
 depends = "['kcmutils>=5.113.0', 'knewstuff>=5.113.0', 'kparts>=5.113.0', 'qca>=2.1.1-6', 'qt5-declarative>=5.15.12']"
 reverse_depends = "['kdevelop']"
 +++
-Okteta is a simple hexadecimal editor or binary editor.{{< spoiler text="show files" >}}* /usr/bin/okteta
+Okteta is a simple hexadecimal editor or binary editor.{{< files text="show files" >}}* /usr/bin/okteta
 * /usr/bin/struct2osd
 * /usr/include/KastenControllers/Kasten/ClipboardControllerFactory
 * /usr/include/KastenControllers/kasten/clipboardcontrollerfactory.hpp
@@ -912,4 +912,4 @@ Okteta is a simple hexadecimal editor or binary editor.{{< spoiler text="show fi
 * /usr/share/okteta/structures/uuid.js
 * /usr/share/qt5/mkspecs/modules/qt_OktetaCore.pri
 * /usr/share/qt5/mkspecs/modules/qt_OktetaGui.pri
-{{< /spoiler >}}
+{{< /files >}}

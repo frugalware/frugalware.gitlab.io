@@ -13,7 +13,7 @@ usize = "1681555023"
 sha1sum = "85fb54374e73b8ca659bd42e86b9ecbceaa8eaad"
 depends = "['curl', 'git', 'libglu', 'libglvnd', 'openjdk', 'unzip', 'xz']"
 +++
-A new mobile app SDK to help developers and designers build modern mobile apps for iOS and Android.{{< spoiler text="show files" >}}* /etc/profile.d/flutter.sh
+A new mobile app SDK to help developers and designers build modern mobile apps for iOS and Android.{{< files text="show files" >}}* /etc/profile.d/flutter.sh
 * /opt/flutter/.ci.yaml
 * /opt/flutter/.cirrus.yml
 * /opt/flutter/.git/config
@@ -9091,4 +9091,4 @@ A new mobile app SDK to help developers and designers build modern mobile apps f
 * /usr/share/doc/flutter-3.7.7/AUTHORS
 * /usr/share/doc/flutter-3.7.7/LICENSE
 * /usr/share/doc/flutter-3.7.7/README.md
-{{< /spoiler >}}
+{{< /files >}}

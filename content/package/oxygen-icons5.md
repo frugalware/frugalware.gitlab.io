@@ -14,7 +14,7 @@ sha1sum = "662c6badf10504401874a20dccd7185f65d4b061"
 depends = "[]"
 reverse_depends = "['lumina-desktop']"
 +++
-KDE Icons Oxygen style.{{< spoiler text="show files" >}}* /usr/share/doc/oxygen-icons5-5.115.0/AUTHORS
+KDE Icons Oxygen style.{{< files text="show files" >}}* /usr/share/doc/oxygen-icons5-5.115.0/AUTHORS
 * /usr/share/doc/oxygen-icons5-5.115.0/COPYING
 * /usr/share/doc/oxygen-icons5-5.115.0/COPYING.LIB
 * /usr/share/doc/oxygen-icons5-5.115.0/README.md
@@ -8832,4 +8832,4 @@ KDE Icons Oxygen style.{{< spoiler text="show files" >}}* /usr/share/doc/oxygen-
 * /usr/share/icons/oxygen/base/8x8/emblems/vcs-update-required.png
 * /usr/share/icons/oxygen/base/8x8/places/folder-activities.png
 * /usr/share/icons/oxygen/index.theme
-{{< /spoiler >}}
+{{< /files >}}

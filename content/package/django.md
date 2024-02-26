@@ -13,7 +13,7 @@ usize = "28327724"
 sha1sum = "fcd1e15a2ddffcb652238530460e19e76e660caf"
 depends = "['python3>=3.10']"
 +++
-Django is a Python web framework{{< spoiler text="show files" >}}* /usr/bin/django-admin
+Django is a Python web framework{{< files text="show files" >}}* /usr/bin/django-admin
 * /usr/lib/python3.12/site-packages/Django-4.1.7-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/Django-4.1.7-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/Django-4.1.7-py3.12.egg-info/not-zip-safe
@@ -4465,4 +4465,4 @@ Django is a Python web framework{{< spoiler text="show files" >}}* /usr/bin/djan
 * /usr/share/doc/django-4.1.7/INSTALL
 * /usr/share/doc/django-4.1.7/LICENSE
 * /usr/share/doc/django-4.1.7/README.rst
-{{< /spoiler >}}
+{{< /files >}}

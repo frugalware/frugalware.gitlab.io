@@ -13,7 +13,7 @@ usize = "3208703"
 sha1sum = "a1095ab0756191a609eaf1c815c776eac40fca3d"
 depends = "['json-glib', 'libadwaita', 'libdex', 'libpanel', 'libsysprof-capture', 'libunwind', 'lzo', 'polkit']"
 +++
-A sampling CPU profiler that uses a Linux kernel module to profile the entire system{{< spoiler text="show files" >}}* /usr/bin/sysprof
+A sampling CPU profiler that uses a Linux kernel module to profile the entire system{{< files text="show files" >}}* /usr/bin/sysprof
 * /usr/bin/sysprof-agent
 * /usr/bin/sysprof-cli
 * /usr/include/sysprof-6/sysprof-battery-charge.h
@@ -240,4 +240,4 @@ A sampling CPU profiler that uses a Linux kernel module to profile the entire sy
 * /usr/share/metainfo/org.gnome.Sysprof.appdata.xml
 * /usr/share/mime/packages/sysprof-mime.xml
 * /usr/share/polkit-1/actions/org.gnome.sysprof3.policy
-{{< /spoiler >}}
+{{< /files >}}

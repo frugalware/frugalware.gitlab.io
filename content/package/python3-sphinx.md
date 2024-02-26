@@ -14,7 +14,7 @@ sha1sum = "60b5d844377b872581d8e7cb5ba7679dfb354dd9"
 depends = "['docutils', 'python3>=3.10', 'python3-alabaster', 'python3-babel', 'python3-imagesize', 'python3-jinja', 'python3-pygments', 'python3-requests', 'python3-setuptools', 'python3-snowballstemmer', 'python3-sphinx-applehelp', 'python3-sphinx-devhelp', 'python3-sphinx-htmlhelp', 'python3-sphinx-jsmath', 'python3-sphinx-qthelp', 'python3-sphinx-serializinghtml']"
 reverse_depends = "['python3-breathe', 'python3-hawkmoth', 'sphinx-httpdomain', 'sphinx-jquery', 'sphinx-websupport']"
 +++
-Python documentation generator{{< spoiler text="show files" >}}* /usr/bin/sphinx-apidoc
+Python documentation generator{{< files text="show files" >}}* /usr/bin/sphinx-apidoc
 * /usr/bin/sphinx-autogen
 * /usr/bin/sphinx-build
 * /usr/bin/sphinx-quickstart
@@ -936,4 +936,4 @@ Python documentation generator{{< spoiler text="show files" >}}* /usr/bin/sphinx
 * /usr/share/doc/python3-sphinx-7.2.6/LICENSE
 * /usr/share/doc/python3-sphinx-7.2.6/README.rst
 * /usr/share/doc/python3-sphinx-7.2.6/README.txt
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,11 +14,11 @@ sha1sum = "50f7a1e34dd058abc30b407761788ada3377f31e"
 depends = "['libx11>=1.6.3-3', 'libxaw>=1.0.13-2']"
 license = "GPL2"
 +++
-X.Org xconsole application{{< spoiler text="show files" >}}* /usr/bin/xconsole
+X.Org xconsole application{{< files text="show files" >}}* /usr/bin/xconsole
 * /usr/share/doc/xconsole-1.0.8/ChangeLog
 * /usr/share/doc/xconsole-1.0.8/COPYING
 * /usr/share/doc/xconsole-1.0.8/INSTALL
 * /usr/share/doc/xconsole-1.0.8/README.md
 * /usr/share/man/man1/xconsole.1.gz
 * /usr/share/X11/app-defaults/XConsole
-{{< /spoiler >}}
+{{< /files >}}

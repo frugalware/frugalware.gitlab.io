@@ -14,7 +14,7 @@ sha1sum = "de932acc5852a10c7df3428aeb616984f64cd9d9"
 depends = "['libxscrnsaver', 'qt5-x11extras>=5.15.12']"
 reverse_depends = "['baloo5', 'discover', 'drkonqi', 'kalarm', 'konversation', 'kscreenlocker', 'kup', 'kwayland-integration', 'plasma-workspace', 'rsibreak']"
 +++
-Reporting of idle time of user and system.{{< spoiler text="show files" >}}* /usr/include/KF5/KIdleTime/KIdleTime
+Reporting of idle time of user and system.{{< files text="show files" >}}* /usr/include/KF5/KIdleTime/KIdleTime
 * /usr/include/KF5/KIdleTime/kidletime.h
 * /usr/include/KF5/KIdleTime/kidletime_export.h
 * /usr/include/KF5/KIdleTime/kidletime_version.h
@@ -33,4 +33,4 @@ Reporting of idle time of user and system.{{< spoiler text="show files" >}}* /us
 * /usr/share/qlogging-categories5/kidletime.categories
 * /usr/share/qlogging-categories5/kidletime.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KIdleTime.pri
-{{< /spoiler >}}
+{{< /files >}}

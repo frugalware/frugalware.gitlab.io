@@ -14,8 +14,8 @@ sha1sum = "c0d198ec656cd49cf757954832674a36b1ad09f0"
 depends = "['glibc>=2.36']"
 reverse_depends = "['cuda-tools']"
 +++
-JPEG image codec that uses SIMD instructions{{< spoiler text="show files" >}}* /usr/lib/libjpeg.so.62
+JPEG image codec that uses SIMD instructions{{< files text="show files" >}}* /usr/lib/libjpeg.so.62
 * /usr/lib/libjpeg.so.62.2.0
 * /usr/share/doc/libjpeg6-turbo-1.5.3/README.ijg
 * /usr/share/doc/libjpeg6-turbo-1.5.3/README.md
-{{< /spoiler >}}
+{{< /files >}}

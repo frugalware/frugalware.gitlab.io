@@ -13,7 +13,7 @@ usize = "6335821"
 sha1sum = "5f1db4d2de92b347b91547f0dbdf908bff3c0a83"
 depends = "['glibc']"
 +++
-The streaming build system{{< spoiler text="show files" >}}* /usr/bin/gulp
+The streaming build system{{< files text="show files" >}}* /usr/bin/gulp
 * /usr/lib/node_modules/gulp/.ci/.azure-pipelines-steps.yml
 * /usr/lib/node_modules/gulp/.ci/.azure-pipelines.yml
 * /usr/lib/node_modules/gulp/.editorconfig
@@ -2943,4 +2943,4 @@ The streaming build system{{< spoiler text="show files" >}}* /usr/bin/gulp
 * /usr/lib/node_modules/root/tests/test-urls.js
 * /usr/share/doc/gulp-4.0.2/LICENSE
 * /usr/share/doc/gulp-4.0.2/README.md
-{{< /spoiler >}}
+{{< /files >}}

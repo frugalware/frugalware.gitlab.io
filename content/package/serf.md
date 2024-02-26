@@ -14,7 +14,7 @@ sha1sum = "7c7e889681ef8b676e09e1a746b970ca58cba984"
 depends = "['apr-util>=1.6.1-5', 'openssl>=3.1.0']"
 reverse_depends = "['subversion']"
 +++
-High-performance asynchronous HTTP client library{{< spoiler text="show files" >}}* /usr/include/serf-1/serf.h
+High-performance asynchronous HTTP client library{{< files text="show files" >}}* /usr/include/serf-1/serf.h
 * /usr/include/serf-1/serf_bucket_types.h
 * /usr/include/serf-1/serf_bucket_util.h
 * /usr/lib/libserf-1.a
@@ -25,4 +25,4 @@ High-performance asynchronous HTTP client library{{< spoiler text="show files" >
 * /usr/share/doc/serf-1.3.10/CHANGES
 * /usr/share/doc/serf-1.3.10/LICENSE
 * /usr/share/doc/serf-1.3.10/README
-{{< /spoiler >}}
+{{< /files >}}

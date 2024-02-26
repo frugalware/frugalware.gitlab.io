@@ -14,7 +14,7 @@ sha1sum = "9eca713cc1e4c1a9f858d51d4b4ac2b0e6cacbe6"
 depends = "['glibc']"
 reverse_depends = "['hubbub', 'libcss']"
 +++
-A library for building efficient parsers, written in C.{{< spoiler text="show files" >}}* /usr/include/parserutils/charset/codec.h
+A library for building efficient parsers, written in C.{{< files text="show files" >}}* /usr/include/parserutils/charset/codec.h
 * /usr/include/parserutils/charset/mibenum.h
 * /usr/include/parserutils/charset/utf16.h
 * /usr/include/parserutils/charset/utf8.h
@@ -32,4 +32,4 @@ A library for building efficient parsers, written in C.{{< spoiler text="show fi
 * /usr/lib/pkgconfig/libparserutils.pc
 * /usr/share/doc/libparserutils-0.2.5/COPYING
 * /usr/share/doc/libparserutils-0.2.5/README
-{{< /spoiler >}}
+{{< /files >}}

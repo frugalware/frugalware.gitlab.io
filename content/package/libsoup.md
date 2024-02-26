@@ -14,7 +14,7 @@ sha1sum = "493631b8d9019aed583f41c4e9b1644b39085dc0"
 depends = "['glib-networking>=2.60.0', 'glib2>=2.60.0', 'libffi>=3.2.1-2', 'libkrb5', 'libpsl', 'libxml2>=2.9.4-3', 'sqlite3>=3.9.2-4', 'zlib>=1.2.12']"
 reverse_depends = "['gst1-plugins-good-libsoup', 'inkscape', 'strongswan', 'telepathy-gabble', 'telepathy-salut', 'tootle']"
 +++
-An HTTP library implementation in C{{< spoiler text="show files" >}}* /usr/include/libsoup-2.4/libsoup/soup-address.h
+An HTTP library implementation in C{{< files text="show files" >}}* /usr/include/libsoup-2.4/libsoup/soup-address.h
 * /usr/include/libsoup-2.4/libsoup/soup-auth-domain-basic.h
 * /usr/include/libsoup-2.4/libsoup/soup-auth-domain-digest.h
 * /usr/include/libsoup-2.4/libsoup/soup-auth-domain.h
@@ -162,4 +162,4 @@ An HTTP library implementation in C{{< spoiler text="show files" >}}* /usr/inclu
 * /usr/share/locale/zh_TW/LC_MESSAGES/libsoup.mo
 * /usr/share/vala/vapi/libsoup-2.4.deps
 * /usr/share/vala/vapi/libsoup-2.4.vapi
-{{< /spoiler >}}
+{{< /files >}}

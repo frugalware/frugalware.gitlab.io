@@ -14,7 +14,7 @@ sha1sum = "cda620a8834ff658c3a02c199a22f92ea5529bc3"
 depends = "['glibc>=2.35', 'python3>=3.12']"
 reverse_depends = "['libcanberra', 'libpulse', 'notification-daemon', 'samba', 'samba-client']"
 +++
-A Trivial Database{{< spoiler text="show files" >}}* /usr/bin/tdbbackup
+A Trivial Database{{< files text="show files" >}}* /usr/bin/tdbbackup
 * /usr/bin/tdbdump
 * /usr/bin/tdbrestore
 * /usr/bin/tdbtool
@@ -25,4 +25,4 @@ A Trivial Database{{< spoiler text="show files" >}}* /usr/bin/tdbbackup
 * /usr/lib/pkgconfig/tdb.pc
 * /usr/lib/python3.12/site-packages/tdb.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/_tdb_text.py
-{{< /spoiler >}}
+{{< /files >}}

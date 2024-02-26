@@ -14,7 +14,7 @@ sha1sum = "fd36435ce9b3e3930f0fad59dc1bf9a16caa6403"
 depends = "['kcodecs>=5.115.0', 'ki18n>=5.115.0']"
 reverse_depends = "['akonadi-contacts', 'akonadi-mime', 'akonadi-notes', 'kimap', 'kimap2', 'kitinerary', 'kleopatra', 'kmbox', 'ksmtp']"
 +++
-Desc: C++ API for MIME handling.{{< spoiler text="show files" >}}* /usr/include/KPim5/KMime/KMime/Content
+Desc: C++ API for MIME handling.{{< files text="show files" >}}* /usr/include/KPim5/KMime/KMime/Content
 * /usr/include/KPim5/KMime/KMime/ContentIndex
 * /usr/include/KPim5/KMime/KMime/DateFormatter
 * /usr/include/KPim5/KMime/KMime/HeaderParsing
@@ -122,4 +122,4 @@ Desc: C++ API for MIME handling.{{< spoiler text="show files" >}}* /usr/include/
 * /usr/share/locale/zh_TW/LC_MESSAGES/libkmime5.mo
 * /usr/share/qlogging-categories5/kmime.categories
 * /usr/share/qt5/mkspecs/modules/qt_KMime.pri
-{{< /spoiler >}}
+{{< /files >}}

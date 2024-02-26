@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "39e3d9ad32d18b9d5f90e0744311245cfcb9755e"
 depends = "['cdrdao', 'vcdimager']"
 +++
-A grahphical user interface for transcode, vcdimager and cdrdao.{{< spoiler text="show files" >}}* usr/bin/kavi2svcd
+A grahphical user interface for transcode, vcdimager and cdrdao.{{< files text="show files" >}}* usr/bin/kavi2svcd
 * usr/bin/kavi2svcd-script
 * usr/local/bin/restlosKillTranscode
 * usr/share/doc/HTML/de/kavi2svcd/common
@@ -32,4 +32,4 @@ A grahphical user interface for transcode, vcdimager and cdrdao.{{< spoiler text
 * usr/share/locale/de/LC_MESSAGES/kavi2svcd.mo
 * usr/share/locale/es/LC_MESSAGES/kavi2svcd.mo
 * usr/share/locale/fr/LC_MESSAGES/kavi2svcd.mo
-{{< /spoiler >}}
+{{< /files >}}

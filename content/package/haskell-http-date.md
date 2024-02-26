@@ -14,7 +14,7 @@ sha1sum = "6dd124066006b563334de5b3f75649e332e35677"
 depends = "['haskell-attoparsec']"
 reverse_depends = "['haskell-warp']"
 +++
-HTTP Date parser/formatter{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/http-date-0.0.11/libHShttp-date-0.0.11-2teN056nUjvdEHN8XO08g.a
+HTTP Date parser/formatter{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/http-date-0.0.11/libHShttp-date-0.0.11-2teN056nUjvdEHN8XO08g.a
 * /usr/lib/ghc-9.8.1/site-local/http-date-0.0.11/Network/HTTP/Date.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/http-date-0.0.11/Network/HTTP/Date.hi
 * /usr/lib/ghc-9.8.1/site-local/http-date-0.0.11/Network/HTTP/Date/Converter.dyn_hi
@@ -39,4 +39,4 @@ HTTP Date parser/formatter{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/http-date-0.0.11/LICENSE
 * /usr/share/haskell/haskell-http-date/register.sh
 * /usr/share/haskell/haskell-http-date/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

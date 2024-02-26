@@ -13,7 +13,7 @@ usize = "1495469"
 sha1sum = "aa6895bc90496b85b6c929c31056b38e08d80d5e"
 depends = "['glibc']"
 +++
-ATM-related demons and utilities.{{< spoiler text="show files" >}}* /etc/atmsigd.conf
+ATM-related demons and utilities.{{< files text="show files" >}}* /etc/atmsigd.conf
 * /etc/hosts.atm
 * /usr/bin/aread
 * /usr/bin/atmaddr
@@ -83,4 +83,4 @@ ATM-related demons and utilities.{{< spoiler text="show files" >}}* /etc/atmsigd
 * /usr/share/man/man8/les.8.gz
 * /usr/share/man/man8/mpcd.8.gz
 * /usr/share/man/man8/zeppelin.8.gz
-{{< /spoiler >}}
+{{< /files >}}

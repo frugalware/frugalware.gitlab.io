@@ -14,7 +14,7 @@ sha1sum = "5d5bd6cf8d0aac962d429dea1edeba3110a09acd"
 depends = "['glibmm>=2.68.1']"
 reverse_depends = "['gtkmm', 'gtkmm3']"
 +++
-C++ interface for atk{{< spoiler text="show files" >}}* /usr/include/atkmm-2.36/atkmm.h
+C++ interface for atk{{< files text="show files" >}}* /usr/include/atkmm-2.36/atkmm.h
 * /usr/include/atkmm-2.36/atkmm/action.h
 * /usr/include/atkmm-2.36/atkmm/component.h
 * /usr/include/atkmm-2.36/atkmm/document.h
@@ -71,4 +71,4 @@ C++ interface for atk{{< spoiler text="show files" >}}* /usr/include/atkmm-2.36/
 * /usr/share/doc/atkmm-2.36.2/COPYING.tools
 * /usr/share/doc/atkmm-2.36.2/NEWS
 * /usr/share/doc/atkmm-2.36.2/README.md
-{{< /spoiler >}}
+{{< /files >}}

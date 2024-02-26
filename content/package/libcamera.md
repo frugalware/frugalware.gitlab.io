@@ -14,7 +14,7 @@ sha1sum = "ae45df7e7e2dd0d3ef56adf8a2b1d7762e302d27"
 depends = "['gnutls', 'libdrm', 'libjpeg-turbo', 'libyaml']"
 reverse_depends = "['gst1-plugin-libcamera', 'libcamera-tools', 'pipewire']"
 +++
-A complex camera support library for Linux, Android, and ChromeOS{{< spoiler text="show files" >}}* /usr/bin/libcamerify
+A complex camera support library for Linux, Android, and ChromeOS{{< files text="show files" >}}* /usr/bin/libcamerify
 * /usr/include/libcamera/libcamera/base/bound_method.h
 * /usr/include/libcamera/libcamera/base/class.h
 * /usr/include/libcamera/libcamera/base/compiler.h
@@ -1393,4 +1393,4 @@ A complex camera support library for Linux, Android, and ChromeOS{{< spoiler tex
 * /usr/share/doc/libcamera-0.2.0/html/_static/sphinx_highlight.js
 * /usr/share/doc/libcamera-0.2.0/README.rst
 * /usr/share/libcamera/ipa/ipu3/uncalibrated.yaml
-{{< /spoiler >}}
+{{< /files >}}

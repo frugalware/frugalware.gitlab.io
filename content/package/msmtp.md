@@ -13,7 +13,7 @@ usize = "252020"
 sha1sum = "e72f39806dcc3b8d5f2664999395a6a6fac5bd9b"
 depends = "['glib2', 'gnutls', 'libgsasl', 'libsecret']"
 +++
-msmtp is small light SMTP Client{{< spoiler text="show files" >}}* /usr/bin/msmtp
+msmtp is small light SMTP Client{{< files text="show files" >}}* /usr/bin/msmtp
 * /usr/share/doc/msmtp-1.6.6/AUTHORS
 * /usr/share/doc/msmtp-1.6.6/ChangeLog
 * /usr/share/doc/msmtp-1.6.6/COPYING
@@ -24,4 +24,4 @@ msmtp is small light SMTP Client{{< spoiler text="show files" >}}* /usr/bin/msmt
 * /usr/share/info/msmtp.info.gz
 * /usr/share/locale/de/LC_MESSAGES/msmtp.mo
 * /usr/share/man/man1/msmtp.1.gz
-{{< /spoiler >}}
+{{< /files >}}

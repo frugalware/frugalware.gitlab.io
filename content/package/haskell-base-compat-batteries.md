@@ -13,7 +13,7 @@ usize = "4280822"
 sha1sum = "b5d28ca574bf0dde414a64bf4ed46c0df4d46b5a"
 depends = "['haskell-base-compat>=0.11.1-2']"
 +++
-A compatibility layer for base batteries{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/base-compat-batteries-0.13.1/Control/Concurrent/Compat.dyn_hi
+A compatibility layer for base batteries{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/base-compat-batteries-0.13.1/Control/Concurrent/Compat.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/base-compat-batteries-0.13.1/Control/Concurrent/Compat.hi
 * /usr/lib/ghc-9.8.1/site-local/base-compat-batteries-0.13.1/Control/Concurrent/Compat/Repl/Batteries.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/base-compat-batteries-0.13.1/Control/Concurrent/Compat/Repl/Batteries.hi
@@ -462,4 +462,4 @@ A compatibility layer for base batteries{{< spoiler text="show files" >}}* /usr/
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/base-compat-batteries-0.13.1/LICENSE
 * /usr/share/haskell/haskell-base-compat-batteries/register.sh
 * /usr/share/haskell/haskell-base-compat-batteries/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

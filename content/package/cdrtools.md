@@ -14,7 +14,7 @@ sha1sum = "a3e94e3f8813c85c7d986d3120ce9043b8ef9203"
 depends = "['glibc>=2.29-6', 'libcap>=2.25-3', 'xfsprogs-acl>=2.2.52-4', 'xfsprogs-attr>=2.4.47-4']"
 reverse_depends = "['k3b', 'libguestfs', 'wimlib']"
 +++
-Tools for recording CDs{{< spoiler text="show files" >}}* /etc/default/cdrecord
+Tools for recording CDs{{< files text="show files" >}}* /etc/default/cdrecord
 * /etc/default/rscsi
 * /etc/modules-load.d/cdrtools.conf
 * /usr/bin/btcflash
@@ -143,4 +143,4 @@ Tools for recording CDs{{< spoiler text="show files" >}}* /etc/default/cdrecord
 * /usr/share/man/man8/isovfy.8.gz
 * /usr/share/man/man8/mkhybrid.8.gz
 * /usr/share/man/man8/mkisofs.8.gz
-{{< /spoiler >}}
+{{< /files >}}

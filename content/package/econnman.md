@@ -13,7 +13,7 @@ usize = "161137"
 sha1sum = "a1887585190594dd8ab40939cbc7716610efbb15"
 depends = "['connman', 'python-efl>=1.21.0']"
 +++
-Connections manager using Connman and EFL{{< spoiler text="show files" >}}* /usr/bin/econnman-bin
+Connections manager using Connman and EFL{{< files text="show files" >}}* /usr/bin/econnman-bin
 * /usr/share/applications/econnman-agent.desktop
 * /usr/share/applications/econnman.desktop
 * /usr/share/doc/econnman-1.1/AUTHORS
@@ -24,4 +24,4 @@ Connections manager using Connman and EFL{{< spoiler text="show files" >}}* /usr
 * /usr/share/doc/econnman-1.1/TODO
 * /usr/share/econnman/theme/default.edj
 * /var/lib/connman/econnman.config
-{{< /spoiler >}}
+{{< /files >}}

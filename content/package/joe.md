@@ -13,7 +13,7 @@ usize = "2096506"
 sha1sum = "0e3cbe93ff78fd879e8121d1e020c2491a61664e"
 depends = "['gpm>=1.20.5-2', 'ncurses>=6.0']"
 +++
-An easy to use text editor, similar to WordStar[tm]{{< spoiler text="show files" >}}* /etc/joe/ftyperc
+An easy to use text editor, similar to WordStar[tm]{{< files text="show files" >}}* /etc/joe/ftyperc
 * /etc/joe/jicerc.ru
 * /etc/joe/jmacsrc
 * /etc/joe/joerc
@@ -139,4 +139,4 @@ An easy to use text editor, similar to WordStar[tm]{{< spoiler text="show files"
 * /usr/share/joe/syntax/yaml.jsf
 * /usr/share/man/man1/joe.1.gz
 * /usr/share/man/ru/man1/joe.1.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "150582"
 sha1sum = "ffaf2f88278af1e77afdbb65d5fc6c7b5fddd837"
 depends = "['cmake']"
 +++
-Various packaging tools and scripts for LXQt applications.{{< spoiler text="show files" >}}* /usr/bin/lxqt-transupdate
+Various packaging tools and scripts for LXQt applications.{{< files text="show files" >}}* /usr/bin/lxqt-transupdate
 * /usr/share/cmake/lxqt-build-tools/find-modules/FindClazy.cmake
 * /usr/share/cmake/lxqt-build-tools/find-modules/FindExif.cmake
 * /usr/share/cmake/lxqt-build-tools/find-modules/FindFontconfig.cmake
@@ -51,4 +51,4 @@ Various packaging tools and scripts for LXQt applications.{{< spoiler text="show
 * /usr/share/doc/lxqt-build-tools-0.13.0/CHANGELOG
 * /usr/share/doc/lxqt-build-tools-0.13.0/LICENSE
 * /usr/share/doc/lxqt-build-tools-0.13.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

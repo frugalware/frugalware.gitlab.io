@@ -13,7 +13,7 @@ usize = "161635"
 sha1sum = "4bb6d7ecea6224b53f81045511eedd58b4a65cec"
 depends = "['python3']"
 +++
-A cd command that learns{{< spoiler text="show files" >}}* /etc/profile.d/autojump.bash
+A cd command that learns{{< files text="show files" >}}* /etc/profile.d/autojump.bash
 * /etc/profile.d/autojump.fish
 * /etc/profile.d/autojump.sh
 * /etc/profile.d/autojump.zsh
@@ -28,4 +28,4 @@ A cd command that learns{{< spoiler text="show files" >}}* /etc/profile.d/autoju
 * /usr/share/doc/autojump-22.5.3/README.md
 * /usr/share/man/man1/autojump.1.gz
 * /usr/share/zsh/site-functions/_j
-{{< /spoiler >}}
+{{< /files >}}

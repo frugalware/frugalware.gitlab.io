@@ -14,5 +14,5 @@ sha1sum = "6771a8acf72d48981e0f733c2a403843237e6de1"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Kannada language support for Firefox{{< spoiler text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-kn@firefox.mozilla.org.xpi
-{{< /spoiler >}}
+Kannada language support for Firefox{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-kn@firefox.mozilla.org.xpi
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "81949"
 sha1sum = "d4e2d56f36283cf8d52d8f6fa390a6c23b74b620"
 depends = "['kmod>=25-2']"
 +++
-Contains the initialization tools necessary to allow the PCMCIA subsystem to behave as every other hotpluggable bus system.{{< spoiler text="show files" >}}* /etc/pcmcia/config.opts
+Contains the initialization tools necessary to allow the PCMCIA subsystem to behave as every other hotpluggable bus system.{{< files text="show files" >}}* /etc/pcmcia/config.opts
 * /usr/bin/lspcmcia
 * /usr/bin/pccardctl
 * /usr/lib/firmware/3CCFEM556.cis
@@ -36,4 +36,4 @@ Contains the initialization tools necessary to allow the PCMCIA subsystem to beh
 * /usr/share/doc/pcmciautils-018/COPYING
 * /usr/share/man/man8/lspcmcia.8.gz
 * /usr/share/man/man8/pccardctl.8.gz
-{{< /spoiler >}}
+{{< /files >}}

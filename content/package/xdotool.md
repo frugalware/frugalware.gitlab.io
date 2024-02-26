@@ -14,7 +14,7 @@ sha1sum = "4ac0393492d1202d8e6430f6d7cb7236f65ee1c5"
 depends = "['libxkbcommon', 'libxtst', 'shadow', 'xinput']"
 reverse_depends = "['libinput-gestures', 'steamtinkerlaunch']"
 +++
-CLI X11 automation tool{{< spoiler text="show files" >}}* /usr/bin/xdotool
+CLI X11 automation tool{{< files text="show files" >}}* /usr/bin/xdotool
 * /usr/include/xdo.h
 * /usr/lib/libxdo.so
 * /usr/lib/libxdo.so.3
@@ -25,4 +25,4 @@ CLI X11 automation tool{{< spoiler text="show files" >}}* /usr/bin/xdotool
 * /usr/share/doc/xdotool-3.20211022.1/TODO
 * /usr/share/doc/xdotool-3.20211022.1/VERSION
 * /usr/share/man/man1/xdotool.1.gz
-{{< /spoiler >}}
+{{< /files >}}

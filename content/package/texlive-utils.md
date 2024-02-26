@@ -13,7 +13,7 @@ usize = "5155627"
 sha1sum = "717f5c48dfe5cf7ab2ecdb757b591d0c7ccfde31"
 depends = "['texlive=2023.0', 'texlive-kpathsea', 'texlive-ptexen', 'texlive-synctex']"
 +++
-Utilities for TeX Live{{< spoiler text="show files" >}}* /usr/bin/a2ping
+Utilities for TeX Live{{< files text="show files" >}}* /usr/bin/a2ping
 * /usr/bin/a5toa4
 * /usr/bin/afm2afm
 * /usr/bin/afm2pl
@@ -265,4 +265,4 @@ Utilities for TeX Live{{< spoiler text="show files" >}}* /usr/bin/a2ping
 * /usr/share/texmf-dist/tex/plain/cweb/cwebbin/Xcwebmac.tex
 * /usr/share/texmf-dist/tex/plain/cweb/cwebmac.tex
 * /usr/share/texmf-dist/tex/plain/cweb/twinx-startup.tex
-{{< /spoiler >}}
+{{< /files >}}

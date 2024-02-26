@@ -13,7 +13,7 @@ usize = "11854328"
 sha1sum = "76ec1970e01c61d0b966ad41ceac3b1ca9d86b2d"
 depends = "['luajit2', 'openssl>=1.0.0']"
 +++
-A fast webinterface for git.{{< spoiler text="show files" >}}* /usr/lib/cgit/filters/about-formatting.sh
+A fast webinterface for git.{{< files text="show files" >}}* /usr/lib/cgit/filters/about-formatting.sh
 * /usr/lib/cgit/filters/commit-links.sh
 * /usr/lib/cgit/filters/email-gravatar.lua
 * /usr/lib/cgit/filters/email-gravatar.py
@@ -38,4 +38,4 @@ A fast webinterface for git.{{< spoiler text="show files" >}}* /usr/lib/cgit/fil
 * /var/www/cgit/cgit.png
 * /var/www/cgit/favicon.ico
 * /var/www/cgit/robots.txt
-{{< /spoiler >}}
+{{< /files >}}

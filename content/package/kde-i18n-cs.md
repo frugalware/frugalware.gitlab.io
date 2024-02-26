@@ -13,7 +13,7 @@ usize = "8227145"
 sha1sum = "000b32894d2415b5a272ce5024e3ba4df538402b"
 depends = "[]"
 +++
-Czech Localization for KDE.{{< spoiler text="show files" >}}* usr/share/apps/khangman/cs.txt
+Czech Localization for KDE.{{< files text="show files" >}}* usr/share/apps/khangman/cs.txt
 * usr/share/apps/khangman/data/cs/animals.kvtml
 * usr/share/apps/khangman/data/cs/easy.kvtml
 * usr/share/apps/khangman/data/cs/hard.kvtml
@@ -800,4 +800,4 @@ Czech Localization for KDE.{{< spoiler text="show files" >}}* usr/share/apps/kha
 * usr/share/locale/cs/LC_MESSAGES/wakeup.mo
 * usr/share/locale/cs/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/cs/LC_MESSAGES/webarchiver.mo
-{{< /spoiler >}}
+{{< /files >}}

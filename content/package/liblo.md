@@ -14,7 +14,7 @@ sha1sum = "9940e4f3603f592bb523a322be0a709dc76b5a39"
 depends = "[]"
 reverse_depends = "['dssi', 'qtractor', 'zam-plugins']"
 +++
-Lightweight OSC implementation.{{< spoiler text="show files" >}}* /usr/bin/oscdump
+Lightweight OSC implementation.{{< files text="show files" >}}* /usr/bin/oscdump
 * /usr/bin/oscsend
 * /usr/bin/oscsendfile
 * /usr/include/lo/lo.h
@@ -38,4 +38,4 @@ Lightweight OSC implementation.{{< spoiler text="show files" >}}* /usr/bin/oscdu
 * /usr/share/doc/liblo-0.31/NEWS
 * /usr/share/doc/liblo-0.31/README
 * /usr/share/doc/liblo-0.31/TODO
-{{< /spoiler >}}
+{{< /files >}}

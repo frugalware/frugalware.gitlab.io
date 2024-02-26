@@ -13,7 +13,7 @@ usize = "2556691"
 sha1sum = "9635e57ac39fecf3dfbb723518977c1ef8fd490d"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Punjabi support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/program/resource/pa_IN/LC_MESSAGES/acc.mo
+Installs Punjabi support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/pa_IN/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/pa_IN/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/pa_IN/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/pa_IN/LC_MESSAGES/chart.mo
@@ -52,4 +52,4 @@ Installs Punjabi support in LibreOffice{{< spoiler text="show files" >}}* /usr/l
 * /usr/lib/libreoffice/share/registry/Langpack-pa-IN.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_pa-IN.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_pa-IN.xcd
-{{< /spoiler >}}
+{{< /files >}}

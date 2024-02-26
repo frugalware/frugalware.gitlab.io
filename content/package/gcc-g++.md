@@ -14,7 +14,7 @@ sha1sum = "1e2668b533d519fff9add0a110f25deffc45593e"
 depends = "['gcc', 'libstdc++', 'zstd']"
 reverse_depends = "['gcc-objc++']"
 +++
-C++ support for GCC{{< spoiler text="show files" >}}* /usr/bin/c++
+C++ support for GCC{{< files text="show files" >}}* /usr/bin/c++
 * /usr/bin/g++
 * /usr/bin/x86_64-frugalware-linux-c++
 * /usr/bin/x86_64-frugalware-linux-g++
@@ -27,4 +27,4 @@ C++ support for GCC{{< spoiler text="show files" >}}* /usr/bin/c++
 * /usr/share/gcc-13.2.0/python/libstdcxx/v6/__init__.py
 * /usr/share/gcc-13.2.0/python/libstdcxx/__init__.py
 * /usr/share/man/man1/g++.1.gz
-{{< /spoiler >}}
+{{< /files >}}

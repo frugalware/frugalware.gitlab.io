@@ -14,7 +14,7 @@ sha1sum = "f7d0db6479d489bf2d261c938b61de3544d702f8"
 depends = "['cfitsio']"
 reverse_depends = "['stellarsolver']"
 +++
-A C library that implements the 'World Coordinate System' (WCS) standard in FITS{{< spoiler text="show files" >}}* /usr/bin/fitshdr
+A C library that implements the 'World Coordinate System' (WCS) standard in FITS{{< files text="show files" >}}* /usr/bin/fitshdr
 * /usr/bin/HPXcvt
 * /usr/bin/sundazel
 * /usr/bin/tofits
@@ -601,4 +601,4 @@ A C library that implements the 'World Coordinate System' (WCS) standard in FITS
 * /usr/share/man/man1/sundazel.1.gz
 * /usr/share/man/man1/tofits.1.gz
 * /usr/share/man/man1/wcsware.1.gz
-{{< /spoiler >}}
+{{< /files >}}

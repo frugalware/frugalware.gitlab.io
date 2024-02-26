@@ -13,10 +13,10 @@ usize = "198886"
 sha1sum = "b82d8086bd78c807b86b3ed98e0c3b3adf17e745"
 depends = "['bash']"
 +++
-Node Version Manager - Simple bash script to manage multiple active node.js versions{{< spoiler text="show files" >}}* /usr/share/doc/nvm-0.39.7/README.md
+Node Version Manager - Simple bash script to manage multiple active node.js versions{{< files text="show files" >}}* /usr/share/doc/nvm-0.39.7/README.md
 * /usr/share/nvm/bash_completion
 * /usr/share/nvm/init-nvm.sh
 * /usr/share/nvm/install-nvm-exec
 * /usr/share/nvm/nvm-exec
 * /usr/share/nvm/nvm.sh
-{{< /spoiler >}}
+{{< /files >}}

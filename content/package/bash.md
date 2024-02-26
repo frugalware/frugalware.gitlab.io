@@ -14,7 +14,7 @@ sha1sum = "cb28fedd1986ecda11fc98358eb409d7186d51eb"
 depends = "['glibc>=2.37', 'readline>=8.2']"
 reverse_depends = "['autoconf', 'autoconf213', 'automake', 'backupninja', 'bash-completion', 'bzip2', 'coreutils', 'cpio', 'diffutils', 'dosfstools', 'dracut', 'findutils', 'flex', 'gradle', 'gzip', 'kbd', 'keychain', 'less', 'lesspipe', 'libtool', 'lxc', 'lynis', 'make', 'maxima', 'neofetch', 'nvm', 'openresolv', 'os-prober', 'pacman-tools', 'prettyping', 'pulse-autoconf', 'pyenv', 'rpcbind', 'screenfetch', 'scriptlet-core', 'steamtinkerlaunch', 'systemd-swap', 'tar', 'wgetpaste']"
 +++
-The GNU Bourne Again shell{{< spoiler text="show files" >}}* /etc/bashrc
+The GNU Bourne Again shell{{< files text="show files" >}}* /etc/bashrc
 * /etc/profile
 * /etc/shells
 * /etc/skel/.bashrc
@@ -177,4 +177,4 @@ The GNU Bourne Again shell{{< spoiler text="show files" >}}* /etc/bashrc
 * /usr/share/locale/zh_TW/LC_MESSAGES/bash.mo
 * /usr/share/man/man1/bash.1.gz
 * /usr/share/man/man1/bashbug.1.gz
-{{< /spoiler >}}
+{{< /files >}}

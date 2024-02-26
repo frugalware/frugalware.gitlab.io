@@ -14,11 +14,11 @@ sha1sum = "efc56f0e5ce813094ac6fcdd7f524954766dc1d9"
 depends = "['openjre']"
 reverse_depends = "['gnumail']"
 +++
-Network extensions library for GNU classpath and classpathx{{< spoiler text="show files" >}}* /usr/share/doc/gnuinetlib-1.1.2/AUTHORS
+Network extensions library for GNU classpath and classpathx{{< files text="show files" >}}* /usr/share/doc/gnuinetlib-1.1.2/AUTHORS
 * /usr/share/doc/gnuinetlib-1.1.2/ChangeLog
 * /usr/share/doc/gnuinetlib-1.1.2/COPYING
 * /usr/share/doc/gnuinetlib-1.1.2/INSTALL
 * /usr/share/doc/gnuinetlib-1.1.2/README
 * /usr/share/doc/gnuinetlib-1.1.2/THANKS
 * /usr/share/java/inetlib.jar
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,9 +14,9 @@ sha1sum = "e8bcfe3e636bf18b2cfec2386766df753fd191a0"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['postgrey']"
 +++
-Manage IO on many file handles{{< spoiler text="show files" >}}* /usr/lib/perl5/site_perl/current/IO/Multiplex.pm
+Manage IO on many file handles{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/IO/Multiplex.pm
 * /usr/share/doc/perl-io-multiplex-1.16/MANIFEST
 * /usr/share/doc/perl-io-multiplex-1.16/README
 * /usr/share/doc/perl-io-multiplex-1.16/TODO
 * /usr/share/man/man3/IO::Multiplex.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

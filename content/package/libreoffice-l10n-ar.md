@@ -13,7 +13,7 @@ usize = "32691078"
 sha1sum = "9e9e97a7433cce37108a5ef99bba4ca01f8578c6"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Arabic support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/ar/default.css
+Installs Arabic support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/ar/default.css
 * /usr/lib/libreoffice/help/ar/err.html
 * /usr/lib/libreoffice/help/ar/highcontrast1.css
 * /usr/lib/libreoffice/help/ar/highcontrast2.css
@@ -132,4 +132,4 @@ Installs Arabic support in LibreOffice{{< spoiler text="show files" >}}* /usr/li
 * /usr/lib/libreoffice/share/registry/Langpack-ar.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_ar.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_ar.xcd
-{{< /spoiler >}}
+{{< /files >}}

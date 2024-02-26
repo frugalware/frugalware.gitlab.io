@@ -14,7 +14,7 @@ sha1sum = "33dcbd57b0917ac726bc1f8420a5c68f7e6713d7"
 depends = "['glibc>=2.24-8']"
 reverse_depends = "['audit', 'audit-go', 'pam', 'usbguard']"
 +++
-Dynamic library for security auditing{{< spoiler text="show files" >}}* /usr/include/auparse-defs.h
+Dynamic library for security auditing{{< files text="show files" >}}* /usr/include/auparse-defs.h
 * /usr/include/auparse.h
 * /usr/include/libaudit.h
 * /usr/lib/libaudit.a
@@ -27,4 +27,4 @@ Dynamic library for security auditing{{< spoiler text="show files" >}}* /usr/inc
 * /usr/lib/libauparse.so.0.0.0
 * /usr/lib/pkgconfig/audit.pc
 * /usr/lib/pkgconfig/auparse.pc
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "6b375baaaacb5e74d1f7486afc7352db539c64e3"
 depends = "['glibc>=2.29-6', 'python3>=3.12']"
 reverse_depends = "['sane-backends']"
 +++
-A library for applications communicates with pralallel port devices{{< spoiler text="show files" >}}* /usr/bin/libieee1284_test
+A library for applications communicates with pralallel port devices{{< files text="show files" >}}* /usr/bin/libieee1284_test
 * /usr/include/ieee1284.h
 * /usr/lib/libieee1284.so
 * /usr/lib/libieee1284.so.3
@@ -72,4 +72,4 @@ A library for applications communicates with pralallel port devices{{< spoiler t
 * /usr/share/man/man3/libieee1284.3.gz
 * /usr/share/man/man3/parport.3.gz
 * /usr/share/man/man3/parport_list.3.gz
-{{< /spoiler >}}
+{{< /files >}}

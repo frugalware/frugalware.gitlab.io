@@ -13,7 +13,7 @@ usize = "6575287"
 sha1sum = "077cec4f93ffd019ea3f8ff0a39c48e65e369b61"
 depends = "['kdesu>=5.115.0', 'kinit>=5.115.0', 'kparts>=5.115.0']"
 +++
-CVS Frontend{{< spoiler text="show files" >}}* /usr/bin/cervisia
+CVS Frontend{{< files text="show files" >}}* /usr/bin/cervisia
 * /usr/bin/cvsaskpass
 * /usr/bin/cvsservice5
 * /usr/lib/libkdeinit5_cervisia.so
@@ -280,4 +280,4 @@ CVS Frontend{{< spoiler text="show files" >}}* /usr/bin/cervisia
 * /usr/share/man/sv/man1/cervisia.1.gz
 * /usr/share/man/uk/man1/cervisia.1.gz
 * /usr/share/metainfo/org.kde.cervisia.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

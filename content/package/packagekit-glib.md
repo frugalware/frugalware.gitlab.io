@@ -14,7 +14,7 @@ sha1sum = "bf895c2a9daccf57c2eec089d20110aba50af40a"
 depends = "['glib2>=2.50.0']"
 reverse_depends = "['packagekit']"
 +++
-GLib Libraries and headers for PackageKit{{< spoiler text="show files" >}}* /usr/include/PackageKit/packagekit-glib2/packagekit.h
+GLib Libraries and headers for PackageKit{{< files text="show files" >}}* /usr/include/PackageKit/packagekit-glib2/packagekit.h
 * /usr/include/PackageKit/packagekit-glib2/pk-bitfield.h
 * /usr/include/PackageKit/packagekit-glib2/pk-category.h
 * /usr/include/PackageKit/packagekit-glib2/pk-client-helper.h
@@ -55,4 +55,4 @@ GLib Libraries and headers for PackageKit{{< spoiler text="show files" >}}* /usr
 * /usr/lib/libpackagekit-glib2.so.18
 * /usr/lib/libpackagekit-glib2.so.18.1.3
 * /usr/lib/pkgconfig/packagekit-glib2.pc
-{{< /spoiler >}}
+{{< /files >}}

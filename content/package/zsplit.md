@@ -14,7 +14,7 @@ sha1sum = "451fcc9f0e5187d5e44d1d778d283fc4ca062702"
 depends = "['libstdc++', 'zlib>=1.2.12']"
 reverse_depends = "['unzsplit']"
 +++
-Creates Images of blockdevices.{{< spoiler text="show files" >}}* /usr/bin/zsplit
+Creates Images of blockdevices.{{< files text="show files" >}}* /usr/bin/zsplit
 * /usr/share/doc/zsplit-1.2.0/AUTHORS
 * /usr/share/doc/zsplit-1.2.0/ChangeLog
 * /usr/share/doc/zsplit-1.2.0/COPYING
@@ -24,4 +24,4 @@ Creates Images of blockdevices.{{< spoiler text="show files" >}}* /usr/bin/zspli
 * /usr/share/doc/zsplit-1.2.0/README
 * /usr/share/doc/zsplit-1.2.0/TODO
 * /usr/share/man/man8/zsplit.8.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,4 +13,4 @@ usize = "0"
 sha1sum = ""
 depends = "['curl', 'freeglut', 'freetype2', 'libgl', 'libjpeg', 'libvorbis', 'libxxf86dga', 'libxxf86vm', 'ode', 'openal', 'sdl']"
 +++
-Multiplayer retro sci-fi deathmatch game{{< spoiler text="show files" >}}{{< /spoiler >}}
+Multiplayer retro sci-fi deathmatch game{{< files text="show files" >}}{{< /files >}}

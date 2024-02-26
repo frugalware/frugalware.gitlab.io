@@ -13,7 +13,7 @@ usize = "2760509"
 sha1sum = "30d31a6b76a29dc461a9cc57e447814c83f66d48"
 depends = "['akonadi-notes>=23.08.5', 'grantleetheme>=23.08.5', 'kcalutils>=23.08.5', 'kdnssd>=5.115.0', 'knotifyconfig>=5.115.0', 'kontactinterface>=23.08.5', 'pimcommon>=23.08.5']"
 +++
-KDE Popup Notes.{{< spoiler text="show files" >}}* /usr/bin/akonadi_notes_agent
+KDE Popup Notes.{{< files text="show files" >}}* /usr/bin/akonadi_notes_agent
 * /usr/bin/knotes
 * /usr/lib/libknotesprivate.so.5
 * /usr/lib/libknotesprivate.so.5.24.5
@@ -276,4 +276,4 @@ KDE Popup Notes.{{< spoiler text="show files" >}}* /usr/bin/akonadi_notes_agent
 * /usr/share/metainfo/org.kde.knotes.appdata.xml
 * /usr/share/qlogging-categories5/knotes.categories
 * /usr/share/qlogging-categories5/knotes.renamecategories
-{{< /spoiler >}}
+{{< /files >}}

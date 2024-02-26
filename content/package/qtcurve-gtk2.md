@@ -13,7 +13,7 @@ usize = "443896"
 sha1sum = "104474f4ce624d1fa697f8482c5bc3db64854a99"
 depends = "['gtk+2-libs', 'qtcurve>=1.9']"
 +++
-QtCurve-Gtk2{{< spoiler text="show files" >}}* /usr/lib/gtk-2.0/2.10.0/engines/libqtcurve.so
+QtCurve-Gtk2{{< files text="show files" >}}* /usr/lib/gtk-2.0/2.10.0/engines/libqtcurve.so
 * /usr/lib/libqtcurve-cairo.so
 * /usr/lib/libqtcurve-cairo.so.1
 * /usr/lib/libqtcurve-cairo.so.1.0
@@ -25,4 +25,4 @@ QtCurve-Gtk2{{< spoiler text="show files" >}}* /usr/lib/gtk-2.0/2.10.0/engines/l
 * /usr/share/themes/QtCurve/mozilla/preferences-rev.xml
 * /usr/share/themes/QtCurve/mozilla/QtCurve-KDEButtonOrder.css
 * /usr/share/themes/QtCurve/mozilla/QtCurve.css
-{{< /spoiler >}}
+{{< /files >}}

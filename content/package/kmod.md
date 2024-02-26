@@ -14,7 +14,7 @@ sha1sum = "0b58a9588178ec29d4792385046fe4a5e4351e43"
 depends = "['openssl>=3.1.0', 'xz>=5.2.4-2', 'zlib>=1.2.12', 'zstd>=1.4.4']"
 reverse_depends = "['dracut', 'hwdata', 'intel-gpu-tools', 'inxi', 'iscsi', 'kernel', 'kernel-initrd', 'kernel-lts', 'kernel-lts-initrd', 'libndctl', 'ndctl', 'pciutils', 'pcmciautils', 'systemd', 'systemd-nspawn', 'systemd-systemctl', 'systemd-sysvinit']"
 +++
-Utilities for inserting and removing modules from the Linux kernel{{< spoiler text="show files" >}}* /etc/modules-load.d/sysconfig.conf
+Utilities for inserting and removing modules from the Linux kernel{{< files text="show files" >}}* /etc/modules-load.d/sysconfig.conf
 * /etc/sysconfig/modules
 * /usr/bin/depmod
 * /usr/bin/insmod
@@ -46,4 +46,4 @@ Utilities for inserting and removing modules from the Linux kernel{{< spoiler te
 * /usr/share/man/man8/modinfo.8.gz
 * /usr/share/man/man8/modprobe.8.gz
 * /usr/share/man/man8/rmmod.8.gz
-{{< /spoiler >}}
+{{< /files >}}

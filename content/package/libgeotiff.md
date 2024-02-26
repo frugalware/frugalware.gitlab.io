@@ -14,7 +14,7 @@ sha1sum = "22769d79abb9fb23a10d94ecfcb0338c0ad7e2b8"
 depends = "['libtiff', 'proj>=8.0.0']"
 reverse_depends = "['liblas', 'pdal']"
 +++
-A TIFF based interchange format for georeferenced raster imagery{{< spoiler text="show files" >}}* /usr/bin/applygeo
+A TIFF based interchange format for georeferenced raster imagery{{< files text="show files" >}}* /usr/bin/applygeo
 * /usr/bin/geotifcp
 * /usr/bin/listgeo
 * /usr/include/cpl_serv.h
@@ -47,4 +47,4 @@ A TIFF based interchange format for georeferenced raster imagery{{< spoiler text
 * /usr/share/man/man1/applygeo.1.gz
 * /usr/share/man/man1/geotifcp.1.gz
 * /usr/share/man/man1/listgeo.1.gz
-{{< /spoiler >}}
+{{< /files >}}

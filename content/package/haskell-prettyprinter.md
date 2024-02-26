@@ -14,7 +14,7 @@ sha1sum = "a2779eb3ee0b6bf40deff5dfdf33107ee4fb2a8b"
 depends = "['ghc>=9.8.1']"
 reverse_depends = "['haskell-prettyprinter-ansi-terminal', 'haskell-toml-parser']"
 +++
-A modern, easy to use, well-documented, extensible pretty-printer.{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/prettyprinter-1.7.1/Data/Text/Prettyprint/Doc.dyn_hi
+A modern, easy to use, well-documented, extensible pretty-printer.{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/prettyprinter-1.7.1/Data/Text/Prettyprint/Doc.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/prettyprinter-1.7.1/Data/Text/Prettyprint/Doc.hi
 * /usr/lib/ghc-9.8.1/site-local/prettyprinter-1.7.1/Data/Text/Prettyprint/Doc/Internal.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/prettyprinter-1.7.1/Data/Text/Prettyprint/Doc/Internal.hi
@@ -135,4 +135,4 @@ A modern, easy to use, well-documented, extensible pretty-printer.{{< spoiler te
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/prettyprinter-1.7.1/LICENSE.md
 * /usr/share/haskell/haskell-prettyprinter/register.sh
 * /usr/share/haskell/haskell-prettyprinter/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "8e5e4cfcaa3f3d4f65380100fa21dada171cb4ea"
 depends = "['libsndfile>=1.0.0']"
 reverse_depends = "['lilv', 'qtractor', 'sratom']"
 +++
-LV2 is a plugin standard for audio system.{{< spoiler text="show files" >}}* /usr/bin/lv2_validate
+LV2 is a plugin standard for audio system.{{< files text="show files" >}}* /usr/bin/lv2_validate
 * /usr/include/lv2.h
 * /usr/include/lv2/atom/atom.h
 * /usr/include/lv2/atom/forge.h
@@ -181,4 +181,4 @@ LV2 is a plugin standard for audio system.{{< spoiler text="show files" >}}* /us
 * /usr/share/doc/lv2-1.18.10/INSTALL.md
 * /usr/share/doc/lv2-1.18.10/NEWS
 * /usr/share/doc/lv2-1.18.10/README.md
-{{< /spoiler >}}
+{{< /files >}}

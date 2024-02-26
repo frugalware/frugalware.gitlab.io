@@ -13,7 +13,7 @@ usize = "4301530"
 sha1sum = "3f21891056f4d54416ed7b4736b762b587a44254"
 depends = "[]"
 +++
-Static files for postgresql{{< spoiler text="show files" >}}* /usr/lib/libecpg.a
+Static files for postgresql{{< files text="show files" >}}* /usr/lib/libecpg.a
 * /usr/lib/libecpg_compat.a
 * /usr/lib/libpgcommon.a
 * /usr/lib/libpgcommon_shlib.a
@@ -22,4 +22,4 @@ Static files for postgresql{{< spoiler text="show files" >}}* /usr/lib/libecpg.a
 * /usr/lib/libpgport_shlib.a
 * /usr/lib/libpgtypes.a
 * /usr/lib/libpq.a
-{{< /spoiler >}}
+{{< /files >}}

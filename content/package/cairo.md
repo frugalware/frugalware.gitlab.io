@@ -14,7 +14,7 @@ sha1sum = "f98df17ca2f85217f2bd073a266748c41cf10365"
 depends = "['binutils>=2.42', 'fontconfig>=2.12.1-2', 'freetype2', 'glib2>=2.60.0', 'libffi>=3.2.1-2', 'libpng>=1.6.24', 'libx11', 'libxcb', 'libxext', 'libxrender>=0.9.9-5', 'lzo', 'pixman>=0.32.8-3']"
 reverse_depends = "['cairomm', 'castor', 'firefox', 'granite', 'gst1-plugins-good', 'harfbuzz', 'i3lock', 'intel-gpu-tools', 'libgdiplus', 'lsp-plugins', 'openscenegraph', 'openslide', 'pango', 'pdf2svg', 'poppler', 'poppler-glib', 'poppler-pdftools', 'pygobject3-cairo', 'python3-pycairo', 'scribus', 'whalebird']"
 +++
-A vector graphics library with cross-device output support{{< spoiler text="show files" >}}* /usr/bin/cairo-trace
+A vector graphics library with cross-device output support{{< files text="show files" >}}* /usr/bin/cairo-trace
 * /usr/include/cairo/cairo-deprecated.h
 * /usr/include/cairo/cairo-features.h
 * /usr/include/cairo/cairo-ft.h
@@ -66,4 +66,4 @@ A vector graphics library with cross-device output support{{< spoiler text="show
 * /usr/share/doc/cairo-1.18.0/NEWS
 * /usr/share/doc/cairo-1.18.0/README.md
 * /usr/share/doc/cairo-1.18.0/README.win32
-{{< /spoiler >}}
+{{< /files >}}

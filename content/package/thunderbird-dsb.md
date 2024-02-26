@@ -14,5 +14,5 @@ sha1sum = "58b6307fa688681cde96bdaf39e0b7757bb7be85"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
-Lower Sorbian language support for Thunderbird{{< spoiler text="show files" >}}* /usr/lib/thunderbird/extensions/langpack-dsb@thunderbird.mozilla.org.xpi
-{{< /spoiler >}}
+Lower Sorbian language support for Thunderbird{{< files text="show files" >}}* /usr/lib/thunderbird/extensions/langpack-dsb@thunderbird.mozilla.org.xpi
+{{< /files >}}

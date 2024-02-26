@@ -13,5 +13,5 @@ usize = "14024"
 sha1sum = "d22c030cd12a45ed7f789a72e2ecf5a5403e8beb"
 depends = "['chromaprint', 'libvlc>=3.0.20']"
 +++
-vlc plugin for chromaprint{{< spoiler text="show files" >}}* /usr/lib/vlc/plugins/stream_out/libstream_out_chromaprint_plugin.so
-{{< /spoiler >}}
+vlc plugin for chromaprint{{< files text="show files" >}}* /usr/lib/vlc/plugins/stream_out/libstream_out_chromaprint_plugin.so
+{{< /files >}}

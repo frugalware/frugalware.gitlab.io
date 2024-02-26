@@ -13,7 +13,7 @@ usize = "4742216"
 sha1sum = "85dc69772ca01321d16261664e9990a2806f430f"
 depends = "['libglu', 'libkdegames>=23.08.5']"
 +++
-KSudoku is a logic-based symbol placement puzzle{{< spoiler text="show files" >}}* /etc/xdg/ksudokurc
+KSudoku is a logic-based symbol placement puzzle{{< files text="show files" >}}* /etc/xdg/ksudokurc
 * /usr/bin/ksudoku
 * /usr/share/applications/org.kde.ksudoku.desktop
 * /usr/share/doc/HTML/ca/ksudoku/index.cache.bz2
@@ -234,4 +234,4 @@ KSudoku is a logic-based symbol placement puzzle{{< spoiler text="show files" >}
 * /usr/share/locale/zh_CN/LC_MESSAGES/ksudoku.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/ksudoku.mo
 * /usr/share/metainfo/org.kde.ksudoku.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

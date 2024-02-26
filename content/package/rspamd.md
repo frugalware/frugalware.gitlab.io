@@ -13,7 +13,7 @@ usize = "13377920"
 sha1sum = "4441786c0648fe385e17a7b224b6796c08cf81ce"
 depends = "['glib2', 'hyperscan', 'icu4c>=74.1', 'libsodium>=1.0.19', 'luajit2']"
 +++
-Rapid spam filtering system.{{< spoiler text="show files" >}}* /etc/ld.so.conf.d/rspmad.conf
+Rapid spam filtering system.{{< files text="show files" >}}* /etc/ld.so.conf.d/rspmad.conf
 * /etc/logrotate.d/rspamd
 * /etc/rspamd/actions.conf
 * /etc/rspamd/cgp.inc
@@ -388,4 +388,4 @@ Rapid spam filtering system.{{< spoiler text="show files" >}}* /etc/ld.so.conf.d
 * /usr/share/rspamd/www/mstile-150x150.png
 * /usr/share/rspamd/www/README.md
 * /usr/share/rspamd/www/safari-pinned-tab.svg
-{{< /spoiler >}}
+{{< /files >}}

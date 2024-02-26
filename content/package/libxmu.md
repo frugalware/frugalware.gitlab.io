@@ -15,7 +15,7 @@ depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3', 'libxt>=1.1.5-3']"
 reverse_depends = "['editres', 'flightgear', 'guarddog', 'kasablanca', 'kat', 'klamav', 'knetstats', 'knoda', 'ksniffer', 'ksubeditor', 'ksubtile', 'libxaw', 'libxaw3d', 'maxemumtvguide', 'oclock', 'qtparted', 'smproxy', 'twm', 'virtualbox', 'virtualbox-guest-additions', 'wmctrl', 'x11perf', 'xauth', 'xaw3d', 'xclip', 'xeyes', 'xhost', 'xkill', 'xpr', 'xrdb', 'xscreensaver', 'xset', 'xsetroot', 'xstdcmap', 'xterm']"
 license = "GPL2"
 +++
-X.Org Xmu library{{< spoiler text="show files" >}}* /usr/include/X11/Xmu/Atoms.h
+X.Org Xmu library{{< files text="show files" >}}* /usr/include/X11/Xmu/Atoms.h
 * /usr/include/X11/Xmu/CharSet.h
 * /usr/include/X11/Xmu/CloseHook.h
 * /usr/include/X11/Xmu/Converters.h
@@ -52,4 +52,4 @@ X.Org Xmu library{{< spoiler text="show files" >}}* /usr/include/X11/Xmu/Atoms.h
 * /usr/share/doc/libxmu-1.1.4/README.md
 * /usr/share/doc/libxmu-1.1.4/xlogo.svg
 * /usr/share/doc/libxmu-1.1.4/Xmu.xml
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "08abef5435e89df7c4cd735bb9b37a74c30bed5e"
 depends = "['libjpeg-turbo']"
 reverse_depends = "['darktable', 'dcraw', 'devil', 'digikam', 'gdk-pixbuf2', 'gegl', 'ghostscript', 'graphicsmagick', 'kimageformats', 'nufraw', 'opencv', 'opencv', 'opencv-cuda', 'openscenegraph', 'qt5-imageformats', 'qt6-imageformats']"
 +++
-Jasper is a implementation of the codec specified in the JPEG-2000 Part-1 standard.{{< spoiler text="show files" >}}* /usr/bin/imgcmp
+Jasper is a implementation of the codec specified in the JPEG-2000 Part-1 standard.{{< files text="show files" >}}* /usr/bin/imgcmp
 * /usr/bin/imginfo
 * /usr/bin/jasper
 * /usr/bin/jiv
@@ -53,4 +53,4 @@ Jasper is a implementation of the codec specified in the JPEG-2000 Part-1 standa
 * /usr/share/man/man1/imginfo.1.gz
 * /usr/share/man/man1/jasper.1.gz
 * /usr/share/man/man1/jiv.1.gz
-{{< /spoiler >}}
+{{< /files >}}

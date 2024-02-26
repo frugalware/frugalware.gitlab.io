@@ -13,7 +13,7 @@ usize = "5055165"
 sha1sum = "623cb1ba9edc69babcaa3d2cb7583e87ce04ff09"
 depends = "[]"
 +++
-Hindi Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale/hi/charset
+Hindi Localization for KDE.{{< files text="show files" >}}* usr/share/locale/hi/charset
 * usr/share/locale/hi/entry.desktop
 * usr/share/locale/hi/LC_MESSAGES/akregator_konqplugin.mo
 * usr/share/locale/hi/LC_MESSAGES/alsaplayerui.mo
@@ -486,4 +486,4 @@ Hindi Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale/h
 * usr/share/locale/hi/LC_MESSAGES/wakeup.mo
 * usr/share/locale/hi/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/hi/LC_MESSAGES/webarchiver.mo
-{{< /spoiler >}}
+{{< /files >}}

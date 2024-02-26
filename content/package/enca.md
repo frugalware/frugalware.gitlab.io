@@ -13,8 +13,8 @@ usize = "92018"
 sha1sum = "75eba28ad76dfea28b7cd0b11e13d41ca468db7d"
 depends = "['libenca=1.19']"
 +++
-Enca is a character set analyzer{{< spoiler text="show files" >}}* /usr/bin/enca
+Enca is a character set analyzer{{< files text="show files" >}}* /usr/bin/enca
 * /usr/bin/enconv
 * /usr/share/man/man1/enca.1.gz
 * /usr/share/man/man1/enconv.1.gz
-{{< /spoiler >}}
+{{< /files >}}

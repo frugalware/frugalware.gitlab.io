@@ -14,7 +14,7 @@ sha1sum = "4922d5d08a060596dc5d984a8fa5833d93561379"
 depends = "['coreutils>=8.29-5', 'glibc>=2.34', 'libblkid>=2.31.1-2', 'libuuid>=2.31.1-2', 'util-linux>=2.31.1-2']"
 reverse_depends = "['aide', 'btrfs-progs', 'cyrus-sasl', 'cyrus-sasl-sql', 'dovecot', 'e2fsimage', 'fsarchiver', 'kernel-initrd', 'kernel-lts-initrd', 'krb5', 'libkrb5', 'partclone', 'parted', 'partitionmanager', 'quota-tools', 'reiserfsprogs']"
 +++
-Utilities needed to create and maintain ext2 and ext3 filesystems{{< spoiler text="show files" >}}* /etc/e2scrub.conf
+Utilities needed to create and maintain ext2 and ext3 filesystems{{< files text="show files" >}}* /etc/e2scrub.conf
 * /etc/mke2fs.conf
 * /usr/bin/badblocks
 * /usr/bin/chattr
@@ -144,4 +144,4 @@ Utilities needed to create and maintain ext2 and ext3 filesystems{{< spoiler tex
 * /usr/share/man/man8/tune2fs.8.gz
 * /usr/share/ss/ct_c.awk
 * /usr/share/ss/ct_c.sed
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "09239df77459486a1e2c37683ff496eaf9aa0fcc"
 depends = "[]"
 +++
-Apollon is a Peer-to-Peer File-Sharing Program written for Linux.{{< spoiler text="show files" >}}* usr/bin/apollon
+Apollon is a Peer-to-Peer File-Sharing Program written for Linux.{{< files text="show files" >}}* usr/bin/apollon
 * usr/lib/libapollon.la
 * usr/lib/libapollon.so
 * usr/lib/libapollon.so.0
@@ -81,4 +81,4 @@ Apollon is a Peer-to-Peer File-Sharing Program written for Linux.{{< spoiler tex
 * usr/share/locale/ru/LC_MESSAGES/apollon.mo
 * usr/share/locale/sr/LC_MESSAGES/apollon.mo
 * usr/share/locale/tr/LC_MESSAGES/apollon.mo
-{{< /spoiler >}}
+{{< /files >}}

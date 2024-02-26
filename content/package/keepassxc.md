@@ -13,7 +13,7 @@ usize = "31822047"
 sha1sum = "60b17d1a491b06a4dc7e3acd76778dc497c7bb1d"
 depends = "['argon2', 'botan>=3.3.0', 'curl', 'hicolor-icon-theme', 'libusb', 'libxtst', 'pcsc-lite', 'qrencode', 'qt5-svg>=5.15.10', 'qt5-x11extras>=5.15.10']"
 +++
-Cross-platform community-driven port of Keepass password manager{{< spoiler text="show files" >}}* /usr/bin/keepassxc
+Cross-platform community-driven port of Keepass password manager{{< files text="show files" >}}* /usr/bin/keepassxc
 * /usr/bin/keepassxc-cli
 * /usr/bin/keepassxc-proxy
 * /usr/lib/keepassxc/libkeepassxc-autotype-xcb.so
@@ -83,4 +83,4 @@ Cross-platform community-driven port of Keepass password manager{{< spoiler text
 * /usr/share/man/man1/keepassxc.1.gz
 * /usr/share/metainfo/org.keepassxc.KeePassXC.appdata.xml
 * /usr/share/mime/packages/keepassxc.xml
-{{< /spoiler >}}
+{{< /files >}}

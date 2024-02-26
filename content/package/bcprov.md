@@ -14,5 +14,5 @@ sha1sum = "f3d5e543b13d36d54d84e209129ffeb8818aaf30"
 depends = "['openjre']"
 reverse_depends = "['bcpg', 'bcutil']"
 +++
-Java cryptography APIs.{{< spoiler text="show files" >}}* /usr/share/java/bcprov.jar
-{{< /spoiler >}}
+Java cryptography APIs.{{< files text="show files" >}}* /usr/share/java/bcprov.jar
+{{< /files >}}

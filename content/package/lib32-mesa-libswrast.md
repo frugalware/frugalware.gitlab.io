@@ -13,4 +13,4 @@ usize = "0"
 sha1sum = "57de46d350c0ca2b4becf48c661ef885087fe90c"
 depends = "['elfutils>=0.167-2', 'expat>=2.1.0-6', 'libdrm>=2.4.70-2', 'libffi>=3.2.1-2', 'libx11>=1.6.3-4', 'llvm-libs>=17.0.6']"
 +++
-Mesa SWR driver{{< spoiler text="show files" >}}{{< /spoiler >}}
+Mesa SWR driver{{< files text="show files" >}}{{< /files >}}

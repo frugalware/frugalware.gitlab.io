@@ -14,7 +14,7 @@ sha1sum = "f5f6ccf3264172bf0047c0e8cccf509bfd896ddd"
 depends = "['glib2', 'libassuan', 'libsecret']"
 reverse_depends = "['pinentry-gtk+2', 'pinentry-qt5']"
 +++
-Applications for entering PINs or Passphrases.{{< spoiler text="show files" >}}* /usr/bin/pinentry
+Applications for entering PINs or Passphrases.{{< files text="show files" >}}* /usr/bin/pinentry
 * /usr/bin/pinentry-curses
 * /usr/share/doc/pinentry-1.2.1/AUTHORS
 * /usr/share/doc/pinentry-1.2.1/ChangeLog
@@ -27,4 +27,4 @@ Applications for entering PINs or Passphrases.{{< spoiler text="show files" >}}*
 * /usr/share/doc/pinentry-1.2.1/TODO
 * /usr/share/doc/pinentry-1.2.1/VERSION
 * /usr/share/info/pinentry.info.gz
-{{< /spoiler >}}
+{{< /files >}}

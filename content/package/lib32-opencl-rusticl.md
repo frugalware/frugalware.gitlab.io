@@ -13,4 +13,4 @@ usize = "0"
 sha1sum = "cfb21b3abbbd7993acc82ab8d3380d435311b5a7"
 depends = "['lib32-spirv-llvm-translator']"
 +++
-Mesa OpenCL rusticl{{< spoiler text="show files" >}}{{< /spoiler >}}
+Mesa OpenCL rusticl{{< files text="show files" >}}{{< /files >}}

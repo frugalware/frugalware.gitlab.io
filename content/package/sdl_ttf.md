@@ -14,7 +14,7 @@ sha1sum = "81fed8edc454439985f017f0176d8088e7426962"
 depends = "['freetype2>=2.6.2-3', 'sdl>=1.2.15-3']"
 reverse_depends = "['manaplus', 'netpanzer', 'ufoai']"
 +++
-SDL_ttf is a TrueType font rendering library.{{< spoiler text="show files" >}}* /usr/include/SDL/SDL_ttf.h
+SDL_ttf is a TrueType font rendering library.{{< files text="show files" >}}* /usr/include/SDL/SDL_ttf.h
 * /usr/lib/libSDL_ttf-2.0.so.0
 * /usr/lib/libSDL_ttf-2.0.so.0.10.1
 * /usr/lib/libSDL_ttf.so
@@ -23,4 +23,4 @@ SDL_ttf is a TrueType font rendering library.{{< spoiler text="show files" >}}* 
 * /usr/share/doc/sdl_ttf-2.0.11/COPYING
 * /usr/share/doc/sdl_ttf-2.0.11/INSTALL
 * /usr/share/doc/sdl_ttf-2.0.11/README
-{{< /spoiler >}}
+{{< /files >}}

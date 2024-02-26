@@ -14,7 +14,7 @@ sha1sum = "98f70703839b328cce057a5868ab17db82c1f34e"
 depends = "['qt5-base>=5.15.10', 'qt5-quickcontrols>=5.15.10', 'qt5-x11extras>=5.15.10', 'vtk>=9.3.0']"
 reverse_depends = "['vtk-java-qt5', 'vtk-python3-qt5']"
 +++
-Qt5 interface and bindings for vtk{{< spoiler text="show files" >}}* /usr/lib/libvtkGUISupportQt.so
+Qt5 interface and bindings for vtk{{< files text="show files" >}}* /usr/lib/libvtkGUISupportQt.so
 * /usr/lib/libvtkGUISupportQt.so.1
 * /usr/lib/libvtkGUISupportQt.so.9.3
 * /usr/lib/libvtkGUISupportQtQuick.so
@@ -29,4 +29,4 @@ Qt5 interface and bindings for vtk{{< spoiler text="show files" >}}* /usr/lib/li
 * /usr/lib/libvtkViewsQt.so
 * /usr/lib/libvtkViewsQt.so.1
 * /usr/lib/libvtkViewsQt.so.9.3
-{{< /spoiler >}}
+{{< /files >}}

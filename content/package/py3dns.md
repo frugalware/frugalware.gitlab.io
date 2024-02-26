@@ -14,7 +14,7 @@ sha1sum = "55db21e87f5a78ae292212321c58c4a6df29b72d"
 depends = "['python3>=3.12']"
 reverse_depends = "['pypolicyd-spf']"
 +++
-Python 3 DNS library{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/DNS/Base.py
+Python 3 DNS library{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/DNS/Base.py
 * /usr/lib/python3.12/site-packages/DNS/Class.py
 * /usr/lib/python3.12/site-packages/DNS/lazy.py
 * /usr/lib/python3.12/site-packages/DNS/Lib.py
@@ -58,4 +58,4 @@ Python 3 DNS library{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-
 * /usr/share/doc/py3dns-4.0.0/LICENSE
 * /usr/share/doc/py3dns-4.0.0/README-guido.txt
 * /usr/share/doc/py3dns-4.0.0/README.txt
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "428721"
 sha1sum = "31ebed8ee4b62ca743fed90ffe992c8ab582aae6"
 depends = "['qt6-declarative', 'qt6-multimedia', 'speech-dispatcher']"
 +++
-The Qt6 toolkit, qtspeech{{< spoiler text="show files" >}}* /usr/include/qt6/QtTextToSpeech/6.6.2/QtTextToSpeech/private/qtexttospeech_p.h
+The Qt6 toolkit, qtspeech{{< files text="show files" >}}* /usr/include/qt6/QtTextToSpeech/6.6.2/QtTextToSpeech/private/qtexttospeech_p.h
 * /usr/include/qt6/QtTextToSpeech/6.6.2/QtTextToSpeech/private/qttexttospeech-config_p.h
 * /usr/include/qt6/QtTextToSpeech/6.6.2/QtTextToSpeech/private/qvoice_p.h
 * /usr/include/qt6/QtTextToSpeech/QTextToSpeech
@@ -74,4 +74,4 @@ The Qt6 toolkit, qtspeech{{< spoiler text="show files" >}}* /usr/include/qt6/QtT
 * /usr/lib/qt6/qml/QtTextToSpeech/libtexttospeechqmlplugin.so
 * /usr/lib/qt6/qml/QtTextToSpeech/plugins.qmltypes
 * /usr/lib/qt6/qml/QtTextToSpeech/qmldir
-{{< /spoiler >}}
+{{< /files >}}

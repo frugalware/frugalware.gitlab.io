@@ -13,7 +13,7 @@ usize = "4415430"
 sha1sum = "18abfd0dc8f6a8621e9e0619c49834cfc641c6f1"
 depends = "['kdelibs4support>=5.71.0', 'knewstuff>=5.71.0']"
 +++
-A memory and pairs game.{{< spoiler text="show files" >}}* /etc/xdg/pairs.knsrc
+A memory and pairs game.{{< files text="show files" >}}* /etc/xdg/pairs.knsrc
 * /usr/bin/pairs
 * /usr/bin/pairseditor
 * /usr/share/appdata/pairs.appdata.xml
@@ -86,4 +86,4 @@ A memory and pairs game.{{< spoiler text="show files" >}}* /etc/xdg/pairs.knsrc
 * /usr/share/pairs/themes/right.ogg
 * /usr/share/pairs/themes/wrong.ogg
 * /usr/share/pairseditor/pairseditorui.rc
-{{< /spoiler >}}
+{{< /files >}}

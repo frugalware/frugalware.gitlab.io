@@ -14,7 +14,7 @@ sha1sum = "6d45bd909b21e3277eb933d5fddf8ecdb8be79bb"
 depends = "['gnutls', 'gstreamer1>=1.9.2-2', 'libffi>=3.2.1-2']"
 reverse_depends = "['farstream', 'telepathy-gabble']"
 +++
-Library for Interactive Connectivity Establishment.{{< spoiler text="show files" >}}* /usr/bin/stunbdc
+Library for Interactive Connectivity Establishment.{{< files text="show files" >}}* /usr/bin/stunbdc
 * /usr/bin/stund
 * /usr/include/nice/address.h
 * /usr/include/nice/agent.h
@@ -96,4 +96,4 @@ Library for Interactive Connectivity Establishment.{{< spoiler text="show files"
 * /usr/share/gtk-doc/html/libnice/style.css
 * /usr/share/gtk-doc/html/libnice/up-insensitive.png
 * /usr/share/gtk-doc/html/libnice/up.png
-{{< /spoiler >}}
+{{< /files >}}

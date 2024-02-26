@@ -14,7 +14,7 @@ sha1sum = "82214e47d2f2c617dd258c580dede7ed71caad5e"
 depends = "['karchive>=5.115.0', 'kconfigwidgets>=5.115.0', 'kitemviews>=5.115.0', 'qt5-declarative>=5.15.12', 'qt5-svg>=5.15.12']"
 reverse_depends = "['discover', 'dolphin', 'kbackup', 'kdesignerplugin', 'kdiff3', 'kmousetool', 'knotifications', 'ktextwidgets', 'partitionmanager', 'plasma-sdk', 'polkit-kde-agent-1', 'qqc2-breeze-style', 'qqc2-desktop-style', 'smb4k', 'user-kcm']"
 +++
-Icon GUI utilities.{{< spoiler text="show files" >}}* /usr/bin/kiconfinder5
+Icon GUI utilities.{{< files text="show files" >}}* /usr/bin/kiconfinder5
 * /usr/include/KF5/KIconThemes/KIconButton
 * /usr/include/KF5/KIconThemes/kiconbutton.h
 * /usr/include/KF5/KIconThemes/KIconColors
@@ -132,4 +132,4 @@ Icon GUI utilities.{{< spoiler text="show files" >}}* /usr/bin/kiconfinder5
 * /usr/share/qlogging-categories5/kiconthemes.categories
 * /usr/share/qlogging-categories5/kiconthemes.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KIconThemes.pri
-{{< /spoiler >}}
+{{< /files >}}

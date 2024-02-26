@@ -13,7 +13,7 @@ usize = "16007508"
 sha1sum = "6136991d875cb1bcdfba1d1a46fa725b44f503f1"
 depends = "['kparts>=5.110.0', 'qt5-svg>=5.15.11']"
 +++
-Twin Panel File Manager For Your Desktop{{< spoiler text="show files" >}}* /etc/xdg/kio_isorc
+Twin Panel File Manager For Your Desktop{{< files text="show files" >}}* /etc/xdg/kio_isorc
 * /usr/bin/krusader
 * /usr/lib/qt5/plugins/kf5/kio/kio_iso.so
 * /usr/lib/qt5/plugins/kf5/kio/kio_krarc.so
@@ -462,4 +462,4 @@ Twin Panel File Manager For Your Desktop{{< spoiler text="show files" >}}* /etc/
 * /usr/share/man/sv/man1/krusader.1.gz
 * /usr/share/man/uk/man1/krusader.1.gz
 * /usr/share/metainfo/org.kde.krusader.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

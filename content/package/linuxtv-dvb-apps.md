@@ -13,7 +13,7 @@ usize = "1409580"
 sha1sum = "8f2bbe398f20b530fafd85bebdac6befb7f4c62a"
 depends = "['glibc']"
 +++
-Utilities for DVB cards{{< spoiler text="show files" >}}* /usr/bin/atsc_epg
+Utilities for DVB cards{{< files text="show files" >}}* /usr/bin/atsc_epg
 * /usr/bin/av7110_loadkeys
 * /usr/bin/azap
 * /usr/bin/czap
@@ -252,4 +252,4 @@ Utilities for DVB cards{{< spoiler text="show files" >}}* /usr/bin/atsc_epg
 * /usr/share/dvb/av7110_loadkeys/philips.rc5
 * /usr/share/dvb/av7110_loadkeys/philips1358.rc5
 * /usr/share/dvb/av7110_loadkeys/technotrend.rc5
-{{< /spoiler >}}
+{{< /files >}}

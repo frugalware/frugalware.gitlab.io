@@ -13,7 +13,7 @@ usize = "14041175"
 sha1sum = "7f85281bf56ea0fe8f625d135b235312e341af58"
 depends = "['curl', 'grpc>=1.62', 'intel-tbb', 'jq', 'jsoncpp>=1.9.2', 'kernel=6.7.6-1', 'libb64', 'luajit2', 'nlohmann-json', 'yaml-cpp']"
 +++
-Open source system-level exploration and troubleshooting tool{{< spoiler text="show files" >}}* /usr/bin/csysdig
+Open source system-level exploration and troubleshooting tool{{< files text="show files" >}}* /usr/bin/csysdig
 * /usr/bin/scap-driver-loader
 * /usr/bin/sysdig
 * /usr/include/sysdig/driver/capture_macro.h
@@ -343,4 +343,4 @@ Open source system-level exploration and troubleshooting tool{{< spoiler text="s
 * /usr/share/sysdig/chisels/wsysdig_summary.lua
 * /usr/share/zsh/site-functions/_sysdig
 * /usr/share/zsh/vendor-completions/_sysdig
-{{< /spoiler >}}
+{{< /files >}}

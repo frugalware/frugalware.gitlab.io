@@ -13,9 +13,9 @@ usize = "125189"
 sha1sum = "c972c0cf0767a507912d59d05d5e67b7425e7e48"
 depends = "['qt5-base>=5.15.10']"
 +++
-Qt frontend for youtube-dl{{< spoiler text="show files" >}}* /usr/bin/youtube-dl-qt
+Qt frontend for youtube-dl{{< files text="show files" >}}* /usr/bin/youtube-dl-qt
 * /usr/share/applications/youtube-dl-qt.desktop
 * /usr/share/doc/youtube-dl-qt-0.5/LICENSE
 * /usr/share/doc/youtube-dl-qt-0.5/README.md
 * /usr/share/icons/hicolor/scalable/apps/youtube-dl-qt-icon.svg
-{{< /spoiler >}}
+{{< /files >}}

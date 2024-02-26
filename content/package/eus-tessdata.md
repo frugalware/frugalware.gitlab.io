@@ -13,5 +13,5 @@ usize = "10145528"
 sha1sum = "062ec4d95f6132410938d81413f2d3d2e019abf7"
 depends = "['glibc']"
 +++
-Language specific files for tesseract lang eus{{< spoiler text="show files" >}}* /usr/share/tessdata/eus.traineddata
-{{< /spoiler >}}
+Language specific files for tesseract lang eus{{< files text="show files" >}}* /usr/share/tessdata/eus.traineddata
+{{< /files >}}

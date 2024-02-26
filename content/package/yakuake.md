@@ -14,7 +14,7 @@ sha1sum = "be87f2aa7227ffc8be1ec0f18e07e595a081eb5d"
 depends = "['knewstuff>=5.115.0', 'knotifyconfig>=5.115.0', 'kparts>=5.115.0', 'kwayland>=5.115.0', 'qt5-svg>=5.15.12']"
 license = "GPL"
 +++
-Yakuake is a Quake-style terminal emulator based on KDE Konsole technology.{{< spoiler text="show files" >}}* /usr/bin/yakuake
+Yakuake is a Quake-style terminal emulator based on KDE Konsole technology.{{< files text="show files" >}}* /usr/bin/yakuake
 * /usr/share/applications/org.kde.yakuake.desktop
 * /usr/share/dbus-1/services/org.kde.yakuake.service
 * /usr/share/doc/yakuake-23.08.5/AUTHORS
@@ -213,4 +213,4 @@ Yakuake is a Quake-style terminal emulator based on KDE Konsole technology.{{< s
 * /usr/share/yakuake/skins/plastik_light/title/quit_up.png
 * /usr/share/yakuake/skins/plastik_light/title/right.png
 * /usr/share/yakuake/skins/README
-{{< /spoiler >}}
+{{< /files >}}

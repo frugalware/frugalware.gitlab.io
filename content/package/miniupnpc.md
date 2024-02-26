@@ -14,7 +14,7 @@ sha1sum = "179b9fd6cf0a29d9571935036e123ee3582e8dda"
 depends = "['glibc']"
 reverse_depends = "['dante', 'eiskaltdc', 'transmission-cli', 'warzone2100']"
 +++
-A small UPnP client library/tool to access Internet Gateway Devices{{< spoiler text="show files" >}}* /usr/bin/external-ip
+A small UPnP client library/tool to access Internet Gateway Devices{{< files text="show files" >}}* /usr/bin/external-ip
 * /usr/bin/upnpc
 * /usr/include/miniupnpc/igd_desc_parse.h
 * /usr/include/miniupnpc/miniupnpc.h
@@ -35,4 +35,4 @@ A small UPnP client library/tool to access Internet Gateway Devices{{< spoiler t
 * /usr/share/doc/miniupnpc-2.1/VERSION
 * /usr/share/man/man3/miniupnpc.3
 * /usr/share/man/man3/miniupnpc.3.gz
-{{< /spoiler >}}
+{{< /files >}}

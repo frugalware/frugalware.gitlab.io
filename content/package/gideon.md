@@ -13,7 +13,7 @@ usize = "6159164"
 sha1sum = "84d600144dd450c9943d1141a3ed7df9dbcc704e"
 depends = "[]"
 +++
-Modern GUI Designer for GTK+{{< spoiler text="show files" >}}* usr/bin/gideon
+Modern GUI Designer for GTK+{{< files text="show files" >}}* usr/bin/gideon
 * usr/include/gideon/gideon.h
 * usr/lib/libgideon.la
 * usr/lib/libgideon.so
@@ -27,4 +27,4 @@ Modern GUI Designer for GTK+{{< spoiler text="show files" >}}* usr/bin/gideon
 * usr/share/doc/gideon-2.8.0/README
 * usr/share/doc/gideon-2.8.0/README.msvc
 * usr/share/pixmaps/gideon.png
-{{< /spoiler >}}
+{{< /files >}}

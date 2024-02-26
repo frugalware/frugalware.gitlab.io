@@ -14,11 +14,11 @@ sha1sum = "6564bd469b4e2c9e4f2b0bf03c70873b39e0e95b"
 depends = "['lib32-libxau>=1.0.8-3', 'lib32-libxcb>=1.12-2', 'lib32-libxdmcp>=1.1.2-3', 'lib32-xcb-util>=0.4.0-3']"
 reverse_depends = "['lib32-xorg-server-xephyr']"
 +++
-image libraries for X C Binding ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/include/xcb/xcb_bitops.h
+image libraries for X C Binding ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/xcb/xcb_bitops.h
 * /usr/i686-frugalware-linux/include/xcb/xcb_image.h
 * /usr/i686-frugalware-linux/include/xcb/xcb_pixel.h
 * /usr/lib32/libxcb-image.so
 * /usr/lib32/libxcb-image.so.0
 * /usr/lib32/libxcb-image.so.0.0.0
 * /usr/lib32/pkgconfig/xcb-image.pc
-{{< /spoiler >}}
+{{< /files >}}

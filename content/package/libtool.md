@@ -14,7 +14,7 @@ sha1sum = "7b09ec4e77bcd893c31cd316c249fd3a962174f5"
 depends = "['bash>=3.2_039-3', 'glibc>=2.34']"
 reverse_depends = "['clamav', 'courier-authlib', 'guile', 'imagemagick', 'libcanberra', 'libextractor', 'libgphoto2', 'libmp3splt', 'libmpg123', 'libpulse', 'librdf', 'openldap', 'pulseaudio', 'scim', 'squid', 'unixodbc']"
 +++
-A generic library support script{{< spoiler text="show files" >}}* /usr/bin/libtool
+A generic library support script{{< files text="show files" >}}* /usr/bin/libtool
 * /usr/bin/libtoolize
 * /usr/include/libltdl/lt_dlloader.h
 * /usr/include/libltdl/lt_error.h
@@ -85,4 +85,4 @@ A generic library support script{{< spoiler text="show files" >}}* /usr/bin/libt
 * /usr/share/libtool/slist.c
 * /usr/share/man/man1/libtool.1.gz
 * /usr/share/man/man1/libtoolize.1.gz
-{{< /spoiler >}}
+{{< /files >}}

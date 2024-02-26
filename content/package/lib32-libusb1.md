@@ -14,9 +14,9 @@ sha1sum = "a2d39178303dd785b3a9c4ff252685523cb746bb"
 depends = "['lib32-libudev>=242']"
 reverse_depends = "['lib32-libdc1394', 'steam-native']"
 +++
-A library which allows userspace access to USB devices ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/include/libusb-1.0/libusb.h
+A library which allows userspace access to USB devices ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/libusb-1.0/libusb.h
 * /usr/lib32/libusb-1.0.so
 * /usr/lib32/libusb-1.0.so.0
 * /usr/lib32/libusb-1.0.so.0.4.0
 * /usr/lib32/pkgconfig/libusb-1.0.pc
-{{< /spoiler >}}
+{{< /files >}}

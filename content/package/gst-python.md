@@ -14,7 +14,7 @@ sha1sum = "98048feee0a4b2573ef2b3bcd5ff92af751741de"
 depends = "['gst1-plugins-base>=1.22.10']"
 reverse_depends = "['transmageddon']"
 +++
-GStreamer python bindings{{< spoiler text="show files" >}}* /usr/lib/gstreamer-1.0/libgstpython.so
+GStreamer python bindings{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstpython.so
 * /usr/lib/python3.12/site-packages/gi/overrides/Gst.py
 * /usr/lib/python3.12/site-packages/gi/overrides/GstAudio.py
 * /usr/lib/python3.12/site-packages/gi/overrides/GstPbutils.py
@@ -31,4 +31,4 @@ GStreamer python bindings{{< spoiler text="show files" >}}* /usr/lib/gstreamer-1
 * /usr/share/doc/gst-python-1.22.10/README
 * /usr/share/doc/gst-python-1.22.10/RELEASE
 * /usr/share/doc/gst-python-1.22.10/TODO
-{{< /spoiler >}}
+{{< /files >}}

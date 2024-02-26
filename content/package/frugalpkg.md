@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "09af415c55db389f68651d58158629eed4251e8a"
 depends = "['shared-mime-info']"
 +++
-Graphical frontend to pacman{{< spoiler text="show files" >}}* usr/bin/frugalpkg
+Graphical frontend to pacman{{< files text="show files" >}}* usr/bin/frugalpkg
 * usr/share/applications/frugalpkg.desktop
 * usr/share/applications/kde/frugalpkg.desktop
 * usr/share/doc/frugalpkg-1.1/ChangeLog
@@ -43,4 +43,4 @@ Graphical frontend to pacman{{< spoiler text="show files" >}}* usr/bin/frugalpkg
 * usr/share/locale/hu_HU/LC_MESSAGES/frugalpkg.mo
 * usr/share/mime/packages/frugalpkg.xml
 * usr/share/mimelnk/applications/x-fpm.desktop
-{{< /spoiler >}}
+{{< /files >}}

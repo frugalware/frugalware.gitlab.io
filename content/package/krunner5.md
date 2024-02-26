@@ -14,7 +14,7 @@ sha1sum = "460d32abd01e2fe66c81d7943cdcd6b53e6523d8"
 depends = "['plasma-framework>=5.115.0', 'threadweaver>=5.115.0']"
 reverse_depends = "['akonadi-search', 'kdeplasma-addons5', 'kdevelop', 'kwin5', 'libmarble', 'milou', 'plasma-browser-integration', 'plasma-desktop', 'plasma-workspace', 'skrooge']"
 +++
-Framework for providing different actions given a string query.{{< spoiler text="show files" >}}* /usr/include/KF5/KRunner/KRunner/AbstractRunner
+Framework for providing different actions given a string query.{{< files text="show files" >}}* /usr/include/KF5/KRunner/KRunner/AbstractRunner
 * /usr/include/KF5/KRunner/krunner/abstractrunner.h
 * /usr/include/KF5/KRunner/KRunner/AbstractRunnerTest
 * /usr/include/KF5/KRunner/krunner/abstractrunnertest.h
@@ -47,4 +47,4 @@ Framework for providing different actions given a string query.{{< spoiler text=
 * /usr/share/qt5/mkspecs/modules/qt_KRunner.pri
 * /usr/share/qt5/qml/org/kde/runnermodel/librunnermodelplugin.so
 * /usr/share/qt5/qml/org/kde/runnermodel/qmldir
-{{< /spoiler >}}
+{{< /files >}}

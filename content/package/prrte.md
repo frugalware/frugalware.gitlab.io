@@ -14,7 +14,7 @@ sha1sum = "be5cd4acd143a85f9c120a6a216e293bdab31012"
 depends = "['openpmix>=4.2.9']"
 reverse_depends = "['openmpi']"
 +++
-PMIx Reference RunTime Environment{{< spoiler text="show files" >}}* /etc/prte-default-hostfile
+PMIx Reference RunTime Environment{{< files text="show files" >}}* /etc/prte-default-hostfile
 * /etc/prte-mca-params.conf
 * /etc/prte.conf
 * /usr/bin/pcc
@@ -304,4 +304,4 @@ PMIx Reference RunTime Environment{{< spoiler text="show files" >}}* /etc/prte-d
 * /usr/share/prte/rst/prrte-rst-content/detail-placement-rankfiles.rst
 * /usr/share/prte/rst/prrte-rst-content/detail-placement.rst
 * /usr/share/prte/rst/schizo-ompi-rst-content/schizo-ompi-cli.rstxt
-{{< /spoiler >}}
+{{< /files >}}

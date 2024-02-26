@@ -13,5 +13,5 @@ usize = "14024"
 sha1sum = "f74e50cfdbcc341e7e0fa4575cc3ce0d313f7006"
 depends = "['libmad', 'libvlc>=3.0.20']"
 +++
-vlc mad filter support{{< spoiler text="show files" >}}* /usr/lib/vlc/plugins/audio_filter/libmad_plugin.so
-{{< /spoiler >}}
+vlc mad filter support{{< files text="show files" >}}* /usr/lib/vlc/plugins/audio_filter/libmad_plugin.so
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "10162612"
 sha1sum = "0ce7f7af02005ffe00b322ce75a6bee1f5884d09"
 depends = "[]"
 +++
-Develompent files for binutils{{< spoiler text="show files" >}}* /usr/include/ansidecl.h
+Develompent files for binutils{{< files text="show files" >}}* /usr/include/ansidecl.h
 * /usr/include/bfd.h
 * /usr/include/bfdlink.h
 * /usr/include/collectorAPI.h
@@ -44,4 +44,4 @@ Develompent files for binutils{{< spoiler text="show files" >}}* /usr/include/an
 * /usr/lib/libbfd.so
 * /usr/lib/libopcodes.a
 * /usr/lib/libopcodes.so
-{{< /spoiler >}}
+{{< /files >}}

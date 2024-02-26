@@ -14,7 +14,7 @@ sha1sum = "6df8bd81860f303658444b28baf4ab8ff19afe68"
 depends = "['glibc', 'zstd>=1.5.0']"
 reverse_depends = "['adios2']"
 +++
-Modular parametrizable lossy compressor framework for scientific data{{< spoiler text="show files" >}}* /usr/include/sz/ArithmeticCoding.h
+Modular parametrizable lossy compressor framework for scientific data{{< files text="show files" >}}* /usr/include/sz/ArithmeticCoding.h
 * /usr/include/sz/ByteToolkit.h
 * /usr/include/sz/CacheTable.h
 * /usr/include/sz/callZlib.h
@@ -82,4 +82,4 @@ Modular parametrizable lossy compressor framework for scientific data{{< spoiler
 * /usr/share/doc/sz-2.1.12.5/README.md
 * /usr/share/SZ/cmake/SZConfig-release.cmake
 * /usr/share/SZ/cmake/SZConfig.cmake
-{{< /spoiler >}}
+{{< /files >}}

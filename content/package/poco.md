@@ -14,7 +14,7 @@ sha1sum = "1020a3129bdf18a296a0ea67840e628bb2d75bb8"
 depends = "['mariadb-libs', 'openssl>=3.1.0', 'unixodbc']"
 reverse_depends = "['mumble']"
 +++
-C++ class libraries for network-centric, portable applications, complete edition with debug libraries{{< spoiler text="show files" >}}* /usr/bin/cpspc
+C++ class libraries for network-centric, portable applications, complete edition with debug libraries{{< files text="show files" >}}* /usr/bin/cpspc
 * /usr/bin/f2cpsp
 * /usr/bin/poco-arc
 * /usr/include/Poco/AbstractCache.h
@@ -971,4 +971,4 @@ C++ class libraries for network-centric, portable applications, complete edition
 * /usr/share/doc/poco-1.13.2/MANIFEST
 * /usr/share/doc/poco-1.13.2/README
 * /usr/share/doc/poco-1.13.2/VERSION
-{{< /spoiler >}}
+{{< /files >}}

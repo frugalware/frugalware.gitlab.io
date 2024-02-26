@@ -14,7 +14,7 @@ sha1sum = "8aa5b9b80ba98c1f6089eb77c46cac57baea3f4f"
 depends = "['appstream-qt>=1.0.0', 'kio>=5.115.0', 'knewstuff>=5.115.0', 'kpackage>=5.115.0', 'noto-fonts', 'packagekit-qt5>=1.0.1']"
 reverse_depends = "['breeze', 'oxygen', 'plasma-workspace']"
 +++
-Framework providing components to allow applications to integrate with a KDE Workspace.{{< spoiler text="show files" >}}* /usr/include/KF5/FrameworkIntegration/frameworkintegration_version.h
+Framework providing components to allow applications to integrate with a KDE Workspace.{{< files text="show files" >}}* /usr/include/KF5/FrameworkIntegration/frameworkintegration_version.h
 * /usr/include/KF5/KStyle/KStyle
 * /usr/include/KF5/KStyle/kstyle.h
 * /usr/include/KF5/KStyle/kstyle_export.h
@@ -50,4 +50,4 @@ Framework providing components to allow applications to integrate with a KDE Wor
 * /usr/share/kf5/infopage/kde_infopage_rtl.css
 * /usr/share/kf5/infopage/top-middle.png
 * /usr/share/knotifications5/plasma_workspace.notifyrc
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "63277"
 sha1sum = "3d76d097d67a3f40570f48e826397fb24ea485ad"
 depends = "['libmnl', 'libnfnetlink']"
 +++
-A userspace library providing interface to packets that have been logged by the kernel packet filter.{{< spoiler text="show files" >}}* /usr/include/libnetfilter_log/libipulog.h
+A userspace library providing interface to packets that have been logged by the kernel packet filter.{{< files text="show files" >}}* /usr/include/libnetfilter_log/libipulog.h
 * /usr/include/libnetfilter_log/libnetfilter_log.h
 * /usr/include/libnetfilter_log/linux_nfnetlink_log.h
 * /usr/lib/libnetfilter_log.so
@@ -25,4 +25,4 @@ A userspace library providing interface to packets that have been logged by the 
 * /usr/lib/pkgconfig/libnetfilter_log.pc
 * /usr/lib/pkgconfig/libnetfilter_log_libipulog.pc
 * /usr/share/doc/libnetfilter_log-1.0.2/COPYING
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,6 +13,6 @@ usize = "252370"
 sha1sum = "692af04c4e4c5dd69c5fb30287e7709f070b6adf"
 depends = "['gtk+3', 'qt5-base>=5.15.12']"
 +++
-Qt5 GTK3 Theme support{{< spoiler text="show files" >}}* /usr/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake
+Qt5 GTK3 Theme support{{< files text="show files" >}}* /usr/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake
 * /usr/lib/qt5/plugins/platformthemes/libqgtk3.so
-{{< /spoiler >}}
+{{< /files >}}

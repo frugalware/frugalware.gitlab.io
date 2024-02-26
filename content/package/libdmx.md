@@ -14,7 +14,7 @@ sha1sum = "054d7c36920744b32a6e1ae89c18206cc228b015"
 depends = "['libx11>=1.6.3-4', 'libxext>=1.3.3-3']"
 license = "GPL2"
 +++
-X.Org dmx library{{< spoiler text="show files" >}}* /usr/include/X11/extensions/dmxext.h
+X.Org dmx library{{< files text="show files" >}}* /usr/include/X11/extensions/dmxext.h
 * /usr/lib/libdmx.so
 * /usr/lib/libdmx.so.1
 * /usr/lib/libdmx.so.1.0.0
@@ -40,4 +40,4 @@ X.Org dmx library{{< spoiler text="show files" >}}* /usr/include/X11/extensions/
 * /usr/share/man/man3/DMXRemoveInput.3.gz
 * /usr/share/man/man3/DMXRemoveScreen.3.gz
 * /usr/share/man/man3/DMXSync.3.gz
-{{< /spoiler >}}
+{{< /files >}}

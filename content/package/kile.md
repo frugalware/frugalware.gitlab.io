@@ -13,7 +13,7 @@ usize = "8407181"
 sha1sum = "4c3bfce8bd790d93fbbe0dd9d2e78e42b49e0be0"
 depends = "['khtml>=5.110.0', 'kinit>=5.110.0', 'ktexteditor>=5.110.0', 'okular>=23.08.2', 'poppler-qt5>=0.53.0', 'qt5-svg>=5.15.11']"
 +++
-A qt latex environment.{{< spoiler text="show files" >}}* /etc/xdg/kile.categories
+A qt latex environment.{{< files text="show files" >}}* /etc/xdg/kile.categories
 * /usr/bin/kile
 * /usr/lib/libkdeinit5_kile.so
 * /usr/share/applications/org.kde.kile.desktop
@@ -1608,4 +1608,4 @@ A qt latex environment.{{< spoiler text="show files" >}}* /etc/xdg/kile.categori
 * /usr/share/kile/usermenu/example.xml
 * /usr/share/metainfo/org.kde.kile.appdata.xml
 * /usr/share/mime/packages/kile.xml
-{{< /spoiler >}}
+{{< /files >}}

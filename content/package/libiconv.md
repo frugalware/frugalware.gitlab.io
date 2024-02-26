@@ -13,7 +13,7 @@ usize = "1589658"
 sha1sum = "220d3ed59f616993b6ae6859f6dc92b865e9ed76"
 depends = "['glibc>=2.34']"
 +++
-GNU charset conversion library{{< spoiler text="show files" >}}* /usr/bin/libiconv
+GNU charset conversion library{{< files text="show files" >}}* /usr/bin/libiconv
 * /usr/include/libcharset.h
 * /usr/include/libiconv.h
 * /usr/include/localcharset.h
@@ -83,4 +83,4 @@ GNU charset conversion library{{< spoiler text="show files" >}}* /usr/bin/libico
 * /usr/share/man/man3/libiconv_iconv_close.3.gz
 * /usr/share/man/man3/libiconv_iconv_open.3.gz
 * /usr/share/man/man3/libiconv_iconv_open_into.3.gz
-{{< /spoiler >}}
+{{< /files >}}

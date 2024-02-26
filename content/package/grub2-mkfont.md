@@ -13,5 +13,5 @@ usize = "126992"
 sha1sum = "35eee40cbd3a2680a8bebd04d9278c19c37deaa5"
 depends = "['freetype2>=2.9']"
 +++
-grub2 mkfont utility{{< spoiler text="show files" >}}* /usr/bin/grub-mkfont
-{{< /spoiler >}}
+grub2 mkfont utility{{< files text="show files" >}}* /usr/bin/grub-mkfont
+{{< /files >}}

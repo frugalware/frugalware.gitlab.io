@@ -14,7 +14,7 @@ sha1sum = "ada25c7a980048ab932d0bd6028d0f34f7a6c3c7"
 depends = "['lv2', 'sord']"
 reverse_depends = "['lilv']"
 +++
-Sratom is a library for serialising LV2 atoms to/from RDF, particularly the Turtle syntax.{{< spoiler text="show files" >}}* /usr/include/sratom-0/sratom/sratom.h
+Sratom is a library for serialising LV2 atoms to/from RDF, particularly the Turtle syntax.{{< files text="show files" >}}* /usr/include/sratom-0/sratom/sratom.h
 * /usr/lib/libsratom-0.so
 * /usr/lib/libsratom-0.so.0
 * /usr/lib/libsratom-0.so.0.6.16
@@ -23,4 +23,4 @@ Sratom is a library for serialising LV2 atoms to/from RDF, particularly the Turt
 * /usr/share/doc/sratom-0.6.16/INSTALL.md
 * /usr/share/doc/sratom-0.6.16/NEWS
 * /usr/share/doc/sratom-0.6.16/README.md
-{{< /spoiler >}}
+{{< /files >}}

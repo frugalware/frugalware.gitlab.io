@@ -13,7 +13,7 @@ usize = "2016510"
 sha1sum = "a8b644fae3716501b651253fd52a20a3ee238e90"
 depends = "['libstdc++']"
 +++
-A source code beautifier{{< spoiler text="show files" >}}* /usr/bin/uncrustify
+A source code beautifier{{< files text="show files" >}}* /usr/bin/uncrustify
 * /usr/share/doc/uncrustify-0.74.0/AUTHORS
 * /usr/share/doc/uncrustify-0.74.0/BUGS
 * /usr/share/doc/uncrustify-0.74.0/ChangeLog
@@ -44,4 +44,4 @@ A source code beautifier{{< spoiler text="show files" >}}* /usr/bin/uncrustify
 * /usr/share/doc/uncrustify/HELP
 * /usr/share/doc/uncrustify/README.md
 * /usr/share/man/man1/uncrustify.1.gz
-{{< /spoiler >}}
+{{< /files >}}

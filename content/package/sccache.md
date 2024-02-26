@@ -13,8 +13,8 @@ usize = "26446495"
 sha1sum = "ea192372ed0bf6d2e65878693936c4af3b47797a"
 depends = "['openssl', 'zlib', 'zstd']"
 +++
-Shared compilation cache{{< spoiler text="show files" >}}* /usr/bin/sccache
+Shared compilation cache{{< files text="show files" >}}* /usr/bin/sccache
 * /usr/bin/sccache-dist
 * /usr/share/doc/sccache-0.7.7/LICENSE
 * /usr/share/doc/sccache-0.7.7/README.md
-{{< /spoiler >}}
+{{< /files >}}

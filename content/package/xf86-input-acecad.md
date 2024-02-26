@@ -14,10 +14,10 @@ sha1sum = "eb00c3b51b13c523e20c529af68c62be6a0c152c"
 depends = "['xorg-server>=1.20.4-3']"
 license = "GPL2"
 +++
-X.Org driver for acecad input devices{{< spoiler text="show files" >}}* /usr/lib/xorg/modules/input/acecad_drv.so
+X.Org driver for acecad input devices{{< files text="show files" >}}* /usr/lib/xorg/modules/input/acecad_drv.so
 * /usr/share/doc/xf86-input-acecad-1.5.0/ChangeLog
 * /usr/share/doc/xf86-input-acecad-1.5.0/COPYING
 * /usr/share/doc/xf86-input-acecad-1.5.0/INSTALL
 * /usr/share/doc/xf86-input-acecad-1.5.0/README
 * /usr/share/man/man4/acecad.4.gz
-{{< /spoiler >}}
+{{< /files >}}

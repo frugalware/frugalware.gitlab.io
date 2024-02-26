@@ -14,7 +14,7 @@ sha1sum = "729a40dbfbbaa9563a636dd641909b38d7f07d98"
 depends = "['haskell-async', 'haskell-safe-exceptions', 'haskell-unliftio-core']"
 reverse_depends = "['haskell-time-manager', 'haskell-warp']"
 +++
-The MonadUnliftIO typeclass for unlifting monads to IO (batteries included){{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/unliftio-0.2.25.0/libHSunliftio-0.2.25.0-65EuUeXAG608VoLguN5fab.a
+The MonadUnliftIO typeclass for unlifting monads to IO (batteries included){{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/unliftio-0.2.25.0/libHSunliftio-0.2.25.0-65EuUeXAG608VoLguN5fab.a
 * /usr/lib/ghc-9.8.1/site-local/unliftio-0.2.25.0/Paths_unliftio.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/unliftio-0.2.25.0/Paths_unliftio.hi
 * /usr/lib/ghc-9.8.1/site-local/unliftio-0.2.25.0/UnliftIO.dyn_hi
@@ -123,4 +123,4 @@ The MonadUnliftIO typeclass for unlifting monads to IO (batteries included){{< s
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/unliftio-0.2.25.0/LICENSE
 * /usr/share/haskell/haskell-unliftio/register.sh
 * /usr/share/haskell/haskell-unliftio/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

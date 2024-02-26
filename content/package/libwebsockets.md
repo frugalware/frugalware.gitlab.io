@@ -14,7 +14,7 @@ sha1sum = "05464a2a8ef450267464c6665a59f1dd4054dce6"
 depends = "['glibc', 'libev', 'libuv', 'openssl>=3.1.0', 'zlib']"
 reverse_depends = "['seafile']"
 +++
-C library for websocket clients and servers{{< spoiler text="show files" >}}* /usr/include/libwebsockets.h
+C library for websocket clients and servers{{< files text="show files" >}}* /usr/include/libwebsockets.h
 * /usr/include/libwebsockets/abstract/abstract.h
 * /usr/include/libwebsockets/abstract/protocols.h
 * /usr/include/libwebsockets/abstract/protocols/smtp.h
@@ -113,4 +113,4 @@ C library for websocket clients and servers{{< spoiler text="show files" >}}* /u
 * /usr/lib/pkgconfig/libwebsockets_static.pc
 * /usr/share/doc/libwebsockets-4.3.3/LICENSE
 * /usr/share/doc/libwebsockets-4.3.3/README.md
-{{< /spoiler >}}
+{{< /files >}}

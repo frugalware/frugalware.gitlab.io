@@ -14,7 +14,7 @@ sha1sum = "a78df4eedab9b175e693dfe4a47213a5193df3e9"
 depends = "['expat>=2.1.0-6', 'libffi>=3.4', 'libxml2']"
 reverse_depends = "['clightd', 'efl', 'efl', 'egl-wayland', 'enlightenment', 'gtk-layer-shell', 'kitty', 'libegl', 'libgbm', 'libva', 'libva1', 'libvpl', 'mangohud', 'mesa-libegl', 'qt5-wayland', 'qt6-wayland', 'terminology', 'wayland-protocols', 'wayland-utils', 'weston', 'wlroots', 'wpebackend-fdo']"
 +++
-Wayland is intended as a simpler replacement for Xorg.{{< spoiler text="show files" >}}* /usr/bin/wayland-scanner
+Wayland is intended as a simpler replacement for Xorg.{{< files text="show files" >}}* /usr/bin/wayland-scanner
 * /usr/include/wayland-client-core.h
 * /usr/include/wayland-client-protocol.h
 * /usr/include/wayland-client.h
@@ -51,4 +51,4 @@ Wayland is intended as a simpler replacement for Xorg.{{< spoiler text="show fil
 * /usr/share/wayland/wayland-scanner.mk
 * /usr/share/wayland/wayland.dtd
 * /usr/share/wayland/wayland.xml
-{{< /spoiler >}}
+{{< /files >}}

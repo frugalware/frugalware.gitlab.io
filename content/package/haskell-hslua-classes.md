@@ -14,7 +14,7 @@ sha1sum = "99c58d468aa115918165dbd5f73d1118bd5ac866"
 depends = "['haskell-hslua-marshalling']"
 reverse_depends = "['haskell-hslua']"
 +++
-Type classes for HsLua{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hslua-classes-2.3.0/HsLua/Class/Exposable.dyn_hi
+Type classes for HsLua{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hslua-classes-2.3.0/HsLua/Class/Exposable.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-classes-2.3.0/HsLua/Class/Exposable.hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-classes-2.3.0/HsLua/Class/Invokable.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-classes-2.3.0/HsLua/Class/Invokable.hi
@@ -47,4 +47,4 @@ Type classes for HsLua{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/hslua-classes-2.3.0/LICENSE
 * /usr/share/haskell/haskell-hslua-classes/register.sh
 * /usr/share/haskell/haskell-hslua-classes/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

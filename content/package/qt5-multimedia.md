@@ -14,7 +14,7 @@ sha1sum = "72511b81a67721c33451c0817c611cb4abad7c3d"
 depends = "['gst1-plugins-bad>=1.10.3', 'gst1-plugins-base>=1.10.3', 'gst1-plugins-good>=1.10.3', 'libpulse', 'openal', 'qt5-declarative>=5.15.12']"
 reverse_depends = "['artikulate', 'aseman-qt-tools', 'aura-browser', 'babe', 'castersoundboard', 'eiskaltdc', 'hills', 'kclock', 'kdeconnect-kde', 'kfilemetadata5', 'konversation', 'krecorder', 'ktuberling', 'kvirc', 'kwave', 'kwin5', 'libquotient', 'lumina-desktop', 'openscad', 'otter-browser', 'parley', 'plank-player', 'prison', 'qt-virt-manager', 'qt5-speech', 'quassel', 'rolisteam', 'snorenotify', 'stellarium', 'vokoscreenng', 'wireshark-qt']"
 +++
-The Qt5 toolkit, qtmultimedia{{< spoiler text="show files" >}}* /usr/include/qt5/QtMultimedia/5.15.12/QtMultimedia/private/qabstractvideobuffer_p.h
+The Qt5 toolkit, qtmultimedia{{< files text="show files" >}}* /usr/include/qt5/QtMultimedia/5.15.12/QtMultimedia/private/qabstractvideobuffer_p.h
 * /usr/include/qt5/QtMultimedia/5.15.12/QtMultimedia/private/qaudiobuffer_p.h
 * /usr/include/qt5/QtMultimedia/5.15.12/QtMultimedia/private/qaudiodevicefactory_p.h
 * /usr/include/qt5/QtMultimedia/5.15.12/QtMultimedia/private/qaudiohelpers_p.h
@@ -350,4 +350,4 @@ The Qt5 toolkit, qtmultimedia{{< spoiler text="show files" >}}* /usr/include/qt5
 * /usr/share/qt5/qml/QtMultimedia/plugins.qmltypes
 * /usr/share/qt5/qml/QtMultimedia/qmldir
 * /usr/share/qt5/qml/QtMultimedia/Video.qml
-{{< /spoiler >}}
+{{< /files >}}

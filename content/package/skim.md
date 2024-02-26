@@ -14,7 +14,7 @@ sha1sum = "0f78e23dd5b343fc1144aea4848b2e79a3258660"
 depends = "['scim>=1.4.7']"
 reverse_depends = "['skim-scim-ccinput']"
 +++
-SKIM is an SCIM input method platform for *NIX systems optimized for KDE.{{< spoiler text="show files" >}}* usr/bin/scim-panel-kde
+SKIM is an SCIM input method platform for *NIX systems optimized for KDE.{{< files text="show files" >}}* usr/bin/scim-panel-kde
 * usr/bin/skim
 * usr/include/skim/extra_utils.h
 * usr/include/skim/skimglobalactions.h
@@ -162,4 +162,4 @@ SKIM is an SCIM input method platform for *NIX systems optimized for KDE.{{< spo
 * usr/share/servicetypes/skimplugin.desktop
 * usr/share/servicetypes/skimsetupcategory.desktop
 * usr/share/servicetypes/skimui.desktop
-{{< /spoiler >}}
+{{< /files >}}

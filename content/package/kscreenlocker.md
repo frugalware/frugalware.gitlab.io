@@ -14,7 +14,7 @@ sha1sum = "19120d89b40523de40ad2fd18f99b685828242da"
 depends = "['kidletime>=', 'kscreen5>=5.27.10', 'layer-shell-qt>=5.27.10', 'libseccomp', 'systemd']"
 reverse_depends = "['kwin5']"
 +++
-KDE Screenlocker{{< spoiler text="show files" >}}* /usr/include/KScreenLocker/KScreenLocker/kscreenlocker_export.h
+KDE Screenlocker{{< files text="show files" >}}* /usr/include/KScreenLocker/KScreenLocker/kscreenlocker_export.h
 * /usr/include/KScreenLocker/KScreenLocker/KsldApp
 * /usr/include/KScreenLocker/KScreenLocker/ksldapp.h
 * /usr/lib/cmake/KScreenLocker/KScreenLockerConfig.cmake
@@ -201,4 +201,4 @@ KDE Screenlocker{{< spoiler text="show files" >}}* /usr/include/KScreenLocker/KS
 * /usr/share/locale/zh_TW/LC_MESSAGES/kscreenlocker.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kscreenlocker_greet.mo
 * /usr/share/qlogging-categories5/kscreenlocker.categories
-{{< /spoiler >}}
+{{< /files >}}

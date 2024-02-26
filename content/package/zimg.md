@@ -14,7 +14,7 @@ sha1sum = "00c0a96e9002f14f952ecfacfc040c3f4ee24268"
 depends = "['glibc']"
 reverse_depends = "['ffmpeg']"
 +++
-Scaling, colorspace conversion, and dithering library{{< spoiler text="show files" >}}* /usr/include/zimg++.hpp
+Scaling, colorspace conversion, and dithering library{{< files text="show files" >}}* /usr/include/zimg++.hpp
 * /usr/include/zimg.h
 * /usr/lib/libzimg.so
 * /usr/lib/libzimg.so.2
@@ -36,4 +36,4 @@ Scaling, colorspace conversion, and dithering library{{< spoiler text="show file
 * /usr/share/doc/zimg-3.0.5/example/misc/win32_bitmap.h
 * /usr/share/doc/zimg-3.0.5/example/tile_example.cpp
 * /usr/share/doc/zimg-3.0.5/README.md
-{{< /spoiler >}}
+{{< /files >}}

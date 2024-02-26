@@ -14,7 +14,7 @@ sha1sum = "0252d4d4b607a1d8138a3c20483f224f7c7d9d72"
 depends = "['glibc>=2.35', 'hwdata', 'kmod>=25-2', 'libudev>=242']"
 reverse_depends = "['chromium-browser', 'cpupower', 'efibootmgr', 'hexchat', 'hw-probe', 'inxi', 'kinfocenter5', 'kvm', 'net-snmp', 'x86_energy_perf_policy']"
 +++
-PCI utilities{{< spoiler text="show files" >}}* /usr/bin/lspci
+PCI utilities{{< files text="show files" >}}* /usr/bin/lspci
 * /usr/bin/pcilmr
 * /usr/bin/setpci
 * /usr/include/pci/config.h
@@ -34,4 +34,4 @@ PCI utilities{{< spoiler text="show files" >}}* /usr/bin/lspci
 * /usr/share/man/man8/lspci.8.gz
 * /usr/share/man/man8/pcilmr.8.gz
 * /usr/share/man/man8/setpci.8.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "9ef746956908b319357c2a6b671002ca5842db3d"
 depends = "['glibc>=2.34']"
 reverse_depends = "['fontforge']"
 +++
-Simplifies the drawing of beautiful curves{{< spoiler text="show files" >}}* /usr/include/bezctx.h
+Simplifies the drawing of beautiful curves{{< files text="show files" >}}* /usr/include/bezctx.h
 * /usr/include/spiro.h
 * /usr/include/spiroentrypoints.h
 * /usr/lib/libspiro.so
@@ -30,4 +30,4 @@ Simplifies the drawing of beautiful curves{{< spoiler text="show files" >}}* /us
 * /usr/share/doc/libspiro-20221101/README-RaphLevien
 * /usr/share/doc/libspiro-20221101/README.md
 * /usr/share/man/man3/libspiro.3.gz
-{{< /spoiler >}}
+{{< /files >}}

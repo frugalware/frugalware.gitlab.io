@@ -14,7 +14,7 @@ sha1sum = "8a3b06c2443eddd553fd6f9d2fb2bfff21e5c9f8"
 depends = "['libxt', 'python3-six', 'vtk>=9.3.0']"
 reverse_depends = "['vtk-python3-ffmpeg', 'vtk-python3-java', 'vtk-python3-qt5', 'vtk-python3-tcl']"
 +++
-Python interface and bindings for vtk{{< spoiler text="show files" >}}* /usr/bin/vtkpython
+Python interface and bindings for vtk{{< files text="show files" >}}* /usr/bin/vtkpython
 * /usr/bin/vtkWrapPython
 * /usr/bin/vtkWrapPythonInit
 * /usr/lib/libvtkCommonPython.so
@@ -241,4 +241,4 @@ Python interface and bindings for vtk{{< spoiler text="show files" >}}* /usr/bin
 * /usr/lib/python3.12/site-packages/vtkmodules/wx/wxVTKRenderWindowInteractor.py
 * /usr/lib/python3.12/site-packages/vtkmodules/wx/__init__.py
 * /usr/lib/python3.12/site-packages/vtkmodules/__init__.py
-{{< /spoiler >}}
+{{< /files >}}

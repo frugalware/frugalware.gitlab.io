@@ -13,7 +13,7 @@ usize = "813634"
 sha1sum = "b99c012e849cb59c56e9c7356c2632085cde1b1e"
 depends = "['dbus>=0.93']"
 +++
-Qt3 bindings for D-BUS{{< spoiler text="show files" >}}* usr/include/dbus-1.0/dbus/connection.h
+Qt3 bindings for D-BUS{{< files text="show files" >}}* usr/include/dbus-1.0/dbus/connection.h
 * usr/include/dbus-1.0/dbus/dbus-qt.h
 * usr/include/dbus-1.0/dbus/message.h
 * usr/include/dbus-1.0/dbus/server.h
@@ -29,4 +29,4 @@ Qt3 bindings for D-BUS{{< spoiler text="show files" >}}* usr/include/dbus-1.0/db
 * usr/share/doc/dbus-qt3-20060814/INSTALL
 * usr/share/doc/dbus-qt3-20060814/NEWS
 * usr/share/doc/dbus-qt3-20060814/README
-{{< /spoiler >}}
+{{< /files >}}

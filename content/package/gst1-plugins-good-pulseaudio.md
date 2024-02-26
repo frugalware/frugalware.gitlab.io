@@ -14,5 +14,5 @@ sha1sum = "987f405163fd8bc225d38e12dd30a8c2a6cf3ce9"
 depends = "['gst1-plugins-base>=1.22.10', 'gst1-plugins-good>=1.22.10', 'libffi>=3.2.1-2', 'libpulse>=9.0-2', 'libsystemd>=231-6']"
 reverse_depends = "['plasma-pa']"
 +++
-GStreamer pulseaudio plugin (Good).{{< spoiler text="show files" >}}* /usr/lib/gstreamer-1.0/libgstpulseaudio.so
-{{< /spoiler >}}
+GStreamer pulseaudio plugin (Good).{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstpulseaudio.so
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "35c6b90f8afa44df94143449eeb3efbddef265aa"
 depends = "['libjpeg-turbo', 'libvncserver', 'libxtst>=1.2.2-2', 'openssl>=3.1.0', 'zlib>=1.2.12']"
 license = "GPL"
 +++
-A VNC server for real X displays{{< spoiler text="show files" >}}* /usr/bin/x11vnc
+A VNC server for real X displays{{< files text="show files" >}}* /usr/bin/x11vnc
 * /usr/bin/Xdummy
 * /usr/share/applications/x11vnc.desktop
 * /usr/share/doc/x11vnc-0.9.16/ChangeLog
@@ -25,4 +25,4 @@ A VNC server for real X displays{{< spoiler text="show files" >}}* /usr/bin/x11v
 * /usr/share/doc/x11vnc-0.9.16/README.Frugalware
 * /usr/share/doc/x11vnc-0.9.16/README.md
 * /usr/share/man/man1/x11vnc.1.gz
-{{< /spoiler >}}
+{{< /files >}}

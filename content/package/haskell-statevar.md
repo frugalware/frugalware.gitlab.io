@@ -14,7 +14,7 @@ sha1sum = "3760db0cf94c8349c12f7540aed859fb75116013"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-contravariant']"
 +++
-State variables{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/StateVar-1.2.2/Data/StateVar.dyn_hi
+State variables{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/StateVar-1.2.2/Data/StateVar.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/StateVar-1.2.2/Data/StateVar.hi
 * /usr/lib/ghc-9.8.1/site-local/StateVar-1.2.2/libHSStateVar-1.2.2-5a1gBGjK3e549OW9PiZw1R.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSStateVar-1.2.2-5a1gBGjK3e549OW9PiZw1R-ghc9.8.1.so
@@ -32,4 +32,4 @@ State variables{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/StateVar-1.2.2/LICENSE
 * /usr/share/haskell/haskell-statevar/register.sh
 * /usr/share/haskell/haskell-statevar/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

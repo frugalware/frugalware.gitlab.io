@@ -14,7 +14,7 @@ sha1sum = "503dc25488599ae7ca7280370bbf12479d71f722"
 depends = "['elfutils>=0.167-2', 'libgudev>=231-2', 'libsystemd>=242', 'ppp>=2.5.0']"
 reverse_depends = "['geoclue2', 'modemmanager-qt', 'networkmanager', 'ofono']"
 +++
-Mobile broadband modem management service{{< spoiler text="show files" >}}* /etc/dbus-1/system.d/org.freedesktop.ModemManager1.conf
+Mobile broadband modem management service{{< files text="show files" >}}* /etc/dbus-1/system.d/org.freedesktop.ModemManager1.conf
 * /usr/bin/mmcli
 * /usr/bin/ModemManager
 * /usr/include/libmm-glib/libmm-glib.h
@@ -210,4 +210,4 @@ Mobile broadband modem management service{{< spoiler text="show files" >}}* /etc
 * /usr/share/ModemManager/fcc-unlock.available.d/413c:81a3
 * /usr/share/ModemManager/fcc-unlock.available.d/413c:81a8
 * /usr/share/ModemManager/mm-foxconn-t77w968-carrier-mapping.conf
-{{< /spoiler >}}
+{{< /files >}}

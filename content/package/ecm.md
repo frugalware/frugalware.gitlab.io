@@ -13,7 +13,7 @@ usize = "1487459"
 sha1sum = "64a8666343ff84a726d4e6b489e9c4bdaa04f581"
 depends = "['gmp']"
 +++
-Elliptic Curve Method for Integer Factorization{{< spoiler text="show files" >}}* /usr/bin/ecm
+Elliptic Curve Method for Integer Factorization{{< files text="show files" >}}* /usr/bin/ecm
 * /usr/include/ecm.h
 * /usr/lib/libecm.la
 * /usr/lib/libecm.so
@@ -31,4 +31,4 @@ Elliptic Curve Method for Integer Factorization{{< spoiler text="show files" >}}
 * /usr/share/doc/ecm-7.0.4/README.lib
 * /usr/share/doc/ecm-7.0.4/TODO
 * /usr/share/man/man1/ecm.1.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = ""
 depends = "['aspell']"
 +++
-GNU Aspell German Word List Package{{< spoiler text="show files" >}}* usr/lib/aspell-0.60/de-only.rws
+GNU Aspell German Word List Package{{< files text="show files" >}}* usr/lib/aspell-0.60/de-only.rws
 * usr/lib/aspell-0.60/de.dat
 * usr/lib/aspell-0.60/de.multi
 * usr/lib/aspell-0.60/deutsch.alias
@@ -26,4 +26,4 @@ GNU Aspell German Word List Package{{< spoiler text="show files" >}}* usr/lib/as
 * usr/lib/aspell-0.60/swiss.alias
 * usr/share/doc/aspell-de-0.50r2/COPYING
 * usr/share/doc/aspell-de-0.50r2/README
-{{< /spoiler >}}
+{{< /files >}}

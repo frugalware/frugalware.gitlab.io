@@ -14,7 +14,7 @@ sha1sum = "41c0564e86795e9e8589acc35fe83a34d10e8d08"
 depends = "['openjpeg', 'python3>=3.12']"
 reverse_depends = "['insight-toolkit']"
 +++
-C++ library for DICOM medical files{{< spoiler text="show files" >}}* /usr/bin/gdcmanon
+C++ library for DICOM medical files{{< files text="show files" >}}* /usr/bin/gdcmanon
 * /usr/bin/gdcmclean
 * /usr/bin/gdcmconv
 * /usr/bin/gdcmdiff
@@ -479,4 +479,4 @@ C++ library for DICOM medical files{{< spoiler text="show files" >}}* /usr/bin/g
 * /usr/share/gdcm-3.0/XML/Part7a.xml
 * /usr/share/gdcm-3.0/XML/Part7b.xml
 * /usr/share/gdcm-3.0/XML/UIDs.xml
-{{< /spoiler >}}
+{{< /files >}}

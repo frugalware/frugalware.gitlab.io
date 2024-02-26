@@ -13,7 +13,7 @@ usize = "2094353"
 sha1sum = "5f8296b22c27db512c2311f68b6a912a7bedaf3a"
 depends = "['ruby>=3.3.0']"
 +++
-Tools & Ruby libraries for the CSS3 extension languages: Sass & SCSS.{{< spoiler text="show files" >}}* /usr/bin/sass
+Tools & Ruby libraries for the CSS3 extension languages: Sass & SCSS.{{< files text="show files" >}}* /usr/bin/sass
 * /usr/bin/sass-convert
 * /usr/bin/scss
 * /usr/lib/ruby/gems/3.3.0/cache/sass-3.7.4.gem
@@ -2033,4 +2033,4 @@ Tools & Ruby libraries for the CSS3 extension languages: Sass & SCSS.{{< spoiler
 * /usr/lib/ruby/gems/3.3.0/gems/sass-3.7.4/VERSION_DATE
 * /usr/lib/ruby/gems/3.3.0/gems/sass-3.7.4/VERSION_NAME
 * /usr/lib/ruby/gems/3.3.0/specifications/sass-3.7.4.gemspec
-{{< /spoiler >}}
+{{< /files >}}

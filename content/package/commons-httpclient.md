@@ -13,10 +13,10 @@ usize = "492415"
 sha1sum = "c96edf0a6013d8886e79ea412b04bc9704b24581"
 depends = "['commons-codec', 'commons-logging', 'junit']"
 +++
-Jakarta Commons HTTPClient Package{{< spoiler text="show files" >}}* /usr/share/doc/commons-httpclient-3.1/LICENSE
+Jakarta Commons HTTPClient Package{{< files text="show files" >}}* /usr/share/doc/commons-httpclient-3.1/LICENSE
 * /usr/share/doc/commons-httpclient-3.1/README
 * /usr/share/doc/commons-httpclient-3.1/README.txt
 * /usr/share/doc/commons-httpclient-3.1/RELEASE_NOTES
 * /usr/share/doc/commons-httpclient-3.1/RELEASE_NOTES.txt
 * /usr/share/java/commons-httpclient.jar
-{{< /spoiler >}}
+{{< /files >}}

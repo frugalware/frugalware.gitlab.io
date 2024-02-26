@@ -14,7 +14,7 @@ sha1sum = "5e08bf446ab62f83fa345632befe1e0ec471eead"
 depends = "['expat>=2.0.1']"
 reverse_depends = "['pwmanager-i18n']"
 +++
-A secure password manager{{< spoiler text="show files" >}}* usr/bin/pwmanager
+A secure password manager{{< files text="show files" >}}* usr/bin/pwmanager
 * usr/lib/kde3/kded_pwmanager_kwalletemu.la
 * usr/lib/kde3/kded_pwmanager_kwalletemu.so
 * usr/share/applnk/Applications/pwmanager.desktop
@@ -35,4 +35,4 @@ A secure password manager{{< spoiler text="show files" >}}* usr/bin/pwmanager
 * usr/share/icons/locolor/16x16/apps/pwmanager.png
 * usr/share/icons/locolor/32x32/apps/pwmanager.png
 * usr/share/services/kded/pwmanager_kwalletemu.desktop
-{{< /spoiler >}}
+{{< /files >}}

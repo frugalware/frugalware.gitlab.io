@@ -13,5 +13,5 @@ usize = "52888"
 sha1sum = "90d051333bd5b6a3c348fa20124be25b1437b845"
 depends = "['libvncserver>=0.9.11']"
 +++
-vnc plugin for remmina{{< spoiler text="show files" >}}* /usr/lib/remmina/plugins/remmina-plugin-vnc.so
-{{< /spoiler >}}
+vnc plugin for remmina{{< files text="show files" >}}* /usr/lib/remmina/plugins/remmina-plugin-vnc.so
+{{< /files >}}

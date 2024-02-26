@@ -14,7 +14,7 @@ sha1sum = "749d48623754db78d18ceebc844e982f63361783"
 depends = "['lmsensors>=3.5.0']"
 reverse_depends = "['lumina-desktop']"
 +++
-A collection of performance monitoring tools for Linux{{< spoiler text="show files" >}}* /etc/sysconfig/sysstat
+A collection of performance monitoring tools for Linux{{< files text="show files" >}}* /etc/sysconfig/sysstat
 * /etc/sysconfig/sysstat.ioconf
 * /usr/bin/cifsiostat
 * /usr/bin/iostat
@@ -89,4 +89,4 @@ A collection of performance monitoring tools for Linux{{< spoiler text="show fil
 * /usr/share/man/man8/sa1.8.xz.gz
 * /usr/share/man/man8/sa2.8.xz.gz
 * /usr/share/man/man8/sadc.8.xz.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "1909560"
 sha1sum = "238de4bba157488cdcb3a0f6c4eb4ace269aa8e3"
 depends = "['glibc>=2.34']"
 +++
-A small and fast C compiler for x86.{{< spoiler text="show files" >}}* /usr/bin/tcc
+A small and fast C compiler for x86.{{< files text="show files" >}}* /usr/bin/tcc
 * /usr/include/libtcc.h
 * /usr/lib/libtcc.a
 * /usr/lib/tcc/bcheck.o
@@ -39,4 +39,4 @@ A small and fast C compiler for x86.{{< spoiler text="show files" >}}* /usr/bin/
 * /usr/share/doc/tcc-0.9.27.g4a03f1f/VERSION
 * /usr/share/info/tcc-doc.info.gz
 * /usr/share/man/man1/tcc.1.gz
-{{< /spoiler >}}
+{{< /files >}}

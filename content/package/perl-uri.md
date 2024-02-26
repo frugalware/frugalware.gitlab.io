@@ -14,7 +14,7 @@ sha1sum = "109cb60c958b18a83015f418365decd8241bd4f8"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-http-message', 'perl-io-socket-ssl', 'perl-mail-spf', 'perl-www-robotrules']"
 +++
-Uniform Resource Identifiers (absolute and relative){{< spoiler text="show files" >}}* /usr/lib/perl5/site_perl/URI.pm
+Uniform Resource Identifiers (absolute and relative){{< files text="show files" >}}* /usr/lib/perl5/site_perl/URI.pm
 * /usr/lib/perl5/site_perl/URI/data.pm
 * /usr/lib/perl5/site_perl/URI/Escape.pm
 * /usr/lib/perl5/site_perl/URI/file.pm
@@ -88,4 +88,4 @@ Uniform Resource Identifiers (absolute and relative){{< spoiler text="show files
 * /usr/share/man/man3/URI::URL.3perl.gz
 * /usr/share/man/man3/URI::WithBase.3perl.gz
 * /usr/share/man/man3/URI::_punycode.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

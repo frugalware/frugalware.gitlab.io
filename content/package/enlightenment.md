@@ -13,7 +13,7 @@ usize = "422482840"
 sha1sum = "555dbbb11e50c2c9db0863ffc73cbb57639942f5"
 depends = "['alsa-lib', 'bluez', 'bullet', 'bzip2', 'dbus', 'efl>=1.21.0', 'expat', 'flac', 'fontconfig', 'freetype2', 'fribidi', 'glib2', 'glibc', 'graphite2', 'harfbuzz', 'hyphen', 'json-c', 'libasyncns', 'libblkid', 'libdrm', 'libevdev', 'libexif', 'libffi', 'libgbm', 'libgcc', 'libgcrypt', 'libgpg-error', 'libinput', 'libjpeg-turbo', 'libogg', 'libpng', 'libpulse', 'libsndfile', 'libstdc++', 'libsystemd', 'libunwind', 'libuuid', 'libvorbis', 'libx11', 'libxau', 'libxcb', 'libxcomposite', 'libxcursor', 'libxdamage', 'libxdmcp', 'libxext', 'libxfixes', 'libxi', 'libxinerama', 'libxkbcommon', 'libxrandr', 'libxrender', 'libxscrnsaver', 'libxtst', 'luajit2', 'lz4', 'mtdev', 'openssl', 'pam', 'pcre', 'util-linux', 'wayland', 'xcb-util-keysyms', 'xz', 'zlib>=1.2.12']"
 +++
-Enlightenment Foundation Window Manager{{< spoiler text="show files" >}}* /etc/enlightenment/sysactions.conf
+Enlightenment Foundation Window Manager{{< files text="show files" >}}* /etc/enlightenment/sysactions.conf
 * /etc/enlightenment/system.conf
 * /etc/X11/sessions/enlightenment.desktop
 * /etc/xdg/menus/e-applications.menu
@@ -653,4 +653,4 @@ Enlightenment Foundation Window Manager{{< spoiler text="show files" >}}* /etc/e
 * /usr/share/locale/zh_CN/LC_MESSAGES/enlightenment.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/enlightenment.mo
 * /usr/share/pixmaps/enlightenment-askpass.png
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "3d9bb3f82ec737ece94fefb245e9accff6de92c6"
 depends = "['python3>=3.10', 'python3-dnspython', 'python3-greenlet', 'python3-httplib2', 'python3-monotonic', 'python3-openssl', 'python3-pyzmq']"
 reverse_depends = "['python3-gunicorn']"
 +++
-Highly concurrent networking library{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/eventlet-0.33.3-py3.12.egg-info/dependency_links.txt
+Highly concurrent networking library{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/eventlet-0.33.3-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/eventlet-0.33.3-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/eventlet-0.33.3-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/eventlet-0.33.3-py3.12.egg-info/requires.txt
@@ -206,4 +206,4 @@ Highly concurrent networking library{{< spoiler text="show files" >}}* /usr/lib/
 * /usr/share/doc/python3-eventlet-0.33.3/LICENSE
 * /usr/share/doc/python3-eventlet-0.33.3/NEWS
 * /usr/share/doc/python3-eventlet-0.33.3/README.rst
-{{< /spoiler >}}
+{{< /files >}}

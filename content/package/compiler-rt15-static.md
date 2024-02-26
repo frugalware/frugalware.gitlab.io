@@ -13,7 +13,7 @@ usize = "28235718"
 sha1sum = "b865685658d55a1d8eb7a3f3f47330cd9b75e7c5"
 depends = "[]"
 +++
-Compiler runtime libraries for clang (static){{< spoiler text="show files" >}}* /usr/lib/llvm15/lib/clang/15.0.7/lib/x86_64-frugalware-linux/libclang_rt.asan-preinit.a
+Compiler runtime libraries for clang (static){{< files text="show files" >}}* /usr/lib/llvm15/lib/clang/15.0.7/lib/x86_64-frugalware-linux/libclang_rt.asan-preinit.a
 * /usr/lib/llvm15/lib/clang/15.0.7/lib/x86_64-frugalware-linux/libclang_rt.asan.a
 * /usr/lib/llvm15/lib/clang/15.0.7/lib/x86_64-frugalware-linux/libclang_rt.asan_cxx.a
 * /usr/lib/llvm15/lib/clang/15.0.7/lib/x86_64-frugalware-linux/libclang_rt.asan_static.a
@@ -57,4 +57,4 @@ Compiler runtime libraries for clang (static){{< spoiler text="show files" >}}* 
 * /usr/lib/llvm15/lib/clang/15.0.7/lib/x86_64-frugalware-linux/libclang_rt.xray-fdr.a
 * /usr/lib/llvm15/lib/clang/15.0.7/lib/x86_64-frugalware-linux/libclang_rt.xray-profiling.a
 * /usr/lib/llvm15/lib/clang/15.0.7/lib/x86_64-frugalware-linux/libclang_rt.xray.a
-{{< /spoiler >}}
+{{< /files >}}

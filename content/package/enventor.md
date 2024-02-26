@@ -14,7 +14,7 @@ sha1sum = "431325bd51259f258932e1203168e1de3fd5b0ab"
 depends = "['efl>=1.20.1']"
 license = "BSD"
 +++
-Enlightenment Foundation dynamic EDC editor{{< spoiler text="show files" >}}* /usr/bin/enventor
+Enlightenment Foundation dynamic EDC editor{{< files text="show files" >}}* /usr/bin/enventor
 * /usr/include/enventor-1/Enventor.h
 * /usr/include/enventor-1/Enventor_Eo.h
 * /usr/include/enventor-1/Enventor_Legacy.h
@@ -152,4 +152,4 @@ Enlightenment Foundation dynamic EDC editor{{< spoiler text="show files" >}}* /u
 * /usr/share/icons/enventor.png
 * /usr/share/locale/en/LC_MESSAGES/enventor.mo
 * /usr/share/locale/ru/LC_MESSAGES/enventor.mo
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "4de7ce43087779d788edc0d0c31cb49690ba6813"
 depends = "['glibc>=2.35']"
 reverse_depends = "['alicevision', 'cmake', 'efl', 'enlightenment', 'flann', 'libsystemd', 'libvlc', 'mariadb-libs', 'openconnect', 'pacman-g2', 'squashfs', 'systemd', 'systemd-remote', 'systemd-sysvinit', 'telegram-desktop', 'terminology', 'zstd']"
 +++
-Extremely Fast Compression algorithm{{< spoiler text="show files" >}}* /usr/bin/lz4
+Extremely Fast Compression algorithm{{< files text="show files" >}}* /usr/bin/lz4
 * /usr/bin/lz4c
 * /usr/bin/lz4cat
 * /usr/bin/unlz4
@@ -40,4 +40,4 @@ Extremely Fast Compression algorithm{{< spoiler text="show files" >}}* /usr/bin/
 * /usr/share/man/man1/lz4c.1.gz
 * /usr/share/man/man1/lz4cat.1.gz
 * /usr/share/man/man1/unlz4.1.gz
-{{< /spoiler >}}
+{{< /files >}}

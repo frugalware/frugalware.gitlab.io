@@ -13,7 +13,7 @@ usize = "291170"
 sha1sum = "fd8d59e7ac742c1845bce6c36d9a30d9ddcaddde"
 depends = "['ghc>=9.6.1']"
 +++
-Windows code page library for Haskell{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/code-page-0.2.1/libHScode-page-0.2.1-BoW65gHPWFY2WubjSVmVsI.a
+Windows code page library for Haskell{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/code-page-0.2.1/libHScode-page-0.2.1-BoW65gHPWFY2WubjSVmVsI.a
 * /usr/lib/ghc-9.8.1/site-local/code-page-0.2.1/System/IO/CodePage.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/code-page-0.2.1/System/IO/CodePage.hi
 * /usr/lib/ghc-9.8.1/site-local/code-page-0.2.1/System/IO/CodePage/Internal.dyn_hi
@@ -37,4 +37,4 @@ Windows code page library for Haskell{{< spoiler text="show files" >}}* /usr/lib
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/code-page-0.2.1/LICENSE
 * /usr/share/haskell/haskell-code-page/register.sh
 * /usr/share/haskell/haskell-code-page/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

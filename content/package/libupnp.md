@@ -14,7 +14,7 @@ sha1sum = "22f0953c5099676dd4317dea1344954d47347c51"
 depends = "['glibc>=2.34']"
 reverse_depends = "['mpd', 'openclonk', 'vlc-upnp']"
 +++
-An Portable Open Source UPnP Development Kit{{< spoiler text="show files" >}}* /usr/include/upnp/Callback.h
+An Portable Open Source UPnP Development Kit{{< files text="show files" >}}* /usr/include/upnp/Callback.h
 * /usr/include/upnp/ithread.h
 * /usr/include/upnp/ixml.h
 * /usr/include/upnp/ixmldebug.h
@@ -51,4 +51,4 @@ An Portable Open Source UPnP Development Kit{{< spoiler text="show files" >}}* /
 * /usr/share/doc/libupnp-1.14.18/COPYING
 * /usr/share/doc/libupnp-1.14.18/README.md
 * /usr/share/doc/libupnp-1.14.18/THANKS
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,8 +14,8 @@ sha1sum = "9020a2a78c754b6f84cd7960bbafd1864cbad1a3"
 depends = "['libstdc++>=7.3.0-4']"
 reverse_depends = "['php']"
 +++
-re2c is an tool for generating C based recognizers from regular expressions{{< spoiler text="show files" >}}* /usr/bin/re2c
+re2c is an tool for generating C based recognizers from regular expressions{{< files text="show files" >}}* /usr/bin/re2c
 * /usr/share/doc/re2c-1.0.1/CHANGELOG
 * /usr/share/doc/re2c-1.0.1/README
 * /usr/share/man/man1/re2c.1.gz
-{{< /spoiler >}}
+{{< /files >}}

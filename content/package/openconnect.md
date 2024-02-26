@@ -15,7 +15,7 @@ depends = "['gnutls', 'krb5', 'libproxy', 'libxml2', 'lz4', 'vpnc']"
 reverse_depends = "['nm-openconnect', 'plasma-nm-openconnect']"
 license = "LGPL2.1"
 +++
-Open client for Cisco AnyConnect VPN{{< spoiler text="show files" >}}* /usr/bin/openconnect
+Open client for Cisco AnyConnect VPN{{< files text="show files" >}}* /usr/bin/openconnect
 * /usr/include/openconnect.h
 * /usr/lib/libopenconnect.so
 * /usr/lib/libopenconnect.so.5
@@ -70,4 +70,4 @@ Open client for Cisco AnyConnect VPN{{< spoiler text="show files" >}}* /usr/bin/
 * /usr/share/locale/zh_CN/LC_MESSAGES/openconnect.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/openconnect.mo
 * /usr/share/man/man8/openconnect.8.gz
-{{< /spoiler >}}
+{{< /files >}}

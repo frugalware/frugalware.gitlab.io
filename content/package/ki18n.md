@@ -14,7 +14,7 @@ sha1sum = "42ebb03edf6091713a33e191a995fc5b8e1149e7"
 depends = "['gettext', 'qt5-script>=5.15.12']"
 reverse_depends = "['akonadi-mime', 'akonadi-notes', 'alligator', 'audiotube', 'aura-browser', 'dolphin', 'incidenceeditor', 'kamoso', 'kbackup', 'kcachegrind', 'kclock', 'kcolorchooser', 'kconfigwidgets', 'kcontacts', 'kdebugsettings', 'kdecoration', 'kdeplasma-addons5', 'kdesdk-kio', 'kdiff3', 'keysmith', 'kfilemetadata5', 'kio-gdrive', 'kitinerary', 'kjournald', 'kjsembed', 'kldap', 'kmime', 'kmousetool', 'kongress', 'kontrast', 'kopeninghours', 'kopete', 'kosmindoormap', 'kpackage', 'kpipewire', 'kpmcore', 'kpty', 'kpublictransport', 'krecorder', 'krita', 'ksanecore', 'kservice', 'kunitconversion', 'kweathercore', 'libkcompactdisc', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'plank-player', 'plasma-browser-integration', 'plasma-sdk', 'plasmatube', 'purpose', 'qmlkonsole', 'rkward', 'skanlite', 'sweeper', 'telly-skout', 'xdg-desktop-portal-kde']"
 +++
-KDE Gettext-based UI text.{{< spoiler text="show files" >}}* /usr/include/KF5/KI18n/ki18n_export.h
+KDE Gettext-based UI text.{{< files text="show files" >}}* /usr/include/KF5/KI18n/ki18n_export.h
 * /usr/include/KF5/KI18n/ki18n_version.h
 * /usr/include/KF5/KI18n/KLazyLocalizedString
 * /usr/include/KF5/KI18n/klazylocalizedstring.h
@@ -184,4 +184,4 @@ KDE Gettext-based UI text.{{< spoiler text="show files" >}}* /usr/include/KF5/KI
 * /usr/share/qt5/mkspecs/modules/qt_KI18n.pri
 * /usr/share/qt5/qml/org/kde/i18n/localeData/libki18nlocaledataqmlplugin.so
 * /usr/share/qt5/qml/org/kde/i18n/localeData/qmldir
-{{< /spoiler >}}
+{{< /files >}}

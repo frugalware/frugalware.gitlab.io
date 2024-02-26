@@ -13,7 +13,7 @@ usize = "1409661"
 sha1sum = "2ae1910af4343492f02af7a2d8fdd32ab0250f27"
 depends = "['perl-net-server']"
 +++
-Munin is a tool for graphing all sorts of information about one or more servers and displaying it in a web interface. (Node){{< spoiler text="show files" >}}* /etc/logrotate.d/munin-node
+Munin is a tool for graphing all sorts of information about one or more servers and displaying it in a web interface. (Node){{< files text="show files" >}}* /etc/logrotate.d/munin-node
 * /etc/munin/plugin-conf.d/munin-node
 * /usr/bin/munin-get
 * /usr/bin/munin-node
@@ -288,4 +288,4 @@ Munin is a tool for graphing all sorts of information about one or more servers 
 * /usr/share/man/man3/Munin::Plugin.3perl.gz
 * /usr/share/man/man3/Munin::Plugin::Pgsql.3perl.gz
 * /usr/share/man/man3/Munin::Plugin::SNMP.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,8 +13,8 @@ usize = "435045"
 sha1sum = "6e9be689898b9372c2d166e9d9003abffb8bf5dd"
 depends = "['libreoffice>=3.4.5.2']"
 +++
-Installs scripting python support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/share/extensions/script-provider-for-python/description.xml
+Installs scripting python support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/share/extensions/script-provider-for-python/description.xml
 * /usr/lib/libreoffice/share/extensions/script-provider-for-python/META-INF/manifest.xml
 * /usr/lib/libreoffice/share/extensions/script-provider-for-python/pythonscript.py
 * /usr/lib/libreoffice/share/extensions/script-provider-for-python/registration/LICENSE
-{{< /spoiler >}}
+{{< /files >}}

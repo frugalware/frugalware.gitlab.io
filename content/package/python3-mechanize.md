@@ -14,7 +14,7 @@ sha1sum = "f34a66cee0eb1cbdddd415c4606e95022fe78e0b"
 depends = "['python3-html5-parser']"
 reverse_depends = "['calibre']"
 +++
-Stateful programmatic web browsing in Python.{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/mechanize-0.4.9-py3.12.egg-info/dependency_links.txt
+Stateful programmatic web browsing in Python.{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/mechanize-0.4.9-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/mechanize-0.4.9-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/mechanize-0.4.9-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/mechanize-0.4.9-py3.12.egg-info/SOURCES.txt
@@ -74,4 +74,4 @@ Stateful programmatic web browsing in Python.{{< spoiler text="show files" >}}* 
 * /usr/share/doc/python3-mechanize-0.4.9/COPYRIGHT
 * /usr/share/doc/python3-mechanize-0.4.9/LICENSE
 * /usr/share/doc/python3-mechanize-0.4.9/README.rst
-{{< /spoiler >}}
+{{< /files >}}

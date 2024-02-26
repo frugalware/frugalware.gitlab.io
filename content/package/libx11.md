@@ -15,7 +15,7 @@ depends = "['libxau>=1.0.8-8', 'libxcb>=1.13.1', 'libxdmcp>=1.1.2-8']"
 reverse_depends = "['appres', 'argyllcms', 'beforelight', 'cairo', 'clightd', 'dbus-x11', 'dlib', 'editres', 'efl', 'enlightenment', 'fstobdf', 'gdk-pixbuf-xlib', 'gdk-pixbuf2', 'get_steam', 'gifsicle', 'gst1-plugins-good-ximage', 'ico', 'irrlicht', 'kitty', 'kvm', 'lib32-mesa-libswrast', 'libatspi', 'libdmx', 'libegl', 'libepoxy', 'libglvnd', 'liboldx', 'libosmesa', 'libpulse', 'libspnav', 'libva-mesa-driver', 'libvdpau', 'libxcomposite', 'libxcursor', 'libxdamage', 'libxext', 'libxfixes', 'libxft', 'libxi', 'libxinerama', 'libxkbfile', 'libxmu', 'libxp', 'libxpm', 'libxpresent', 'libxrandr', 'libxrender', 'libxres', 'libxscrnsaver', 'libxt', 'libxtst', 'libxv', 'libxvmc', 'libxxf86dga', 'libxxf86vm', 'mangohud', 'mesa-libegl', 'mesa-opemax', 'mesa-vdpau-drivers', 'mkcomposecache', 'mtools', 'netpbm', 'nushell', 'octave', 'openxr', 'pari', 'picard', 'pipewire-x11', 'qemu', 'qtcurve', 'scripts', 'startup-notification', 'terminology', 'tk', 'virtualbox', 'vkbasalt', 'whalebird', 'wmi', 'xauth', 'xaw3d', 'xcb-util-xrm', 'xclipboard', 'xclock', 'xcmsdb', 'xconsole', 'xcursorgen', 'xinit', 'xkbcomp', 'xlsfonts', 'xmodmap', 'xprop', 'xrdp', 'xrefresh', 'xterm', 'xwininfo', 'xwud', 'xxkb']"
 license = "GPL2"
 +++
-X.Org X11 library{{< spoiler text="show files" >}}* /usr/include/X11/cursorfont.h
+X.Org X11 library{{< files text="show files" >}}* /usr/include/X11/cursorfont.h
 * /usr/include/X11/extensions/XKBgeom.h
 * /usr/include/X11/ImUtil.h
 * /usr/include/X11/Xcms.h
@@ -1185,4 +1185,4 @@ X.Org X11 library{{< spoiler text="show files" >}}* /usr/include/X11/cursorfont.
 * /usr/share/X11/locale/zh_TW/XLC_LOCALE
 * /usr/share/X11/Xcms.txt
 * /usr/share/X11/XErrorDB
-{{< /spoiler >}}
+{{< /files >}}

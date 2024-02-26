@@ -13,7 +13,7 @@ usize = "283932"
 sha1sum = "7860a0770a95fe14c8cf3eeece9f347c3ff56c29"
 depends = "['gtk+3', 'wayland']"
 +++
-Library to create Wayland desktop components using the Layer Shell protocol{{< spoiler text="show files" >}}* /usr/include/gtk-layer-shell/gtk-layer-shell.h
+Library to create Wayland desktop components using the Layer Shell protocol{{< files text="show files" >}}* /usr/include/gtk-layer-shell/gtk-layer-shell.h
 * /usr/lib/girepository-1.0/GtkLayerShell-0.1.typelib
 * /usr/lib/libgtk-layer-shell.so
 * /usr/lib/libgtk-layer-shell.so.0
@@ -23,4 +23,4 @@ Library to create Wayland desktop components using the Layer Shell protocol{{< s
 * /usr/share/gir-1.0/GtkLayerShell-0.1.gir
 * /usr/share/vala/vapi/gtk-layer-shell-0.deps
 * /usr/share/vala/vapi/gtk-layer-shell-0.vapi
-{{< /spoiler >}}
+{{< /files >}}

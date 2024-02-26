@@ -15,7 +15,7 @@ depends = "['glibc>=2.3.4']"
 reverse_depends = "['distcc-gui', 'efl', 'enlightenment', 'firefox', 'guvcview', 'libextractor', 'libx11', 'libxcb', 'libxp', 'libxres', 'libxv', 'mupen64plus', 'printoxx', 'sddm', 'terminology', 'xcb-util', 'xcb-util-image', 'xcb-util-wm', 'xcfa', 'xorg-server-fbdev', 'xpad', 'xrdp']"
 license = "GPL2"
 +++
-X.Org Xau library{{< spoiler text="show files" >}}* /usr/include/X11/Xauth.h
+X.Org Xau library{{< files text="show files" >}}* /usr/include/X11/Xauth.h
 * /usr/lib/libXau.so
 * /usr/lib/libXau.so.6
 * /usr/lib/libXau.so.6.0.0
@@ -34,4 +34,4 @@ X.Org Xau library{{< spoiler text="show files" >}}* /usr/include/X11/Xauth.h
 * /usr/share/man/man3/XauReadAuth.3.gz
 * /usr/share/man/man3/XauUnlockAuth.3.gz
 * /usr/share/man/man3/XauWriteAuth.3.gz
-{{< /spoiler >}}
+{{< /files >}}

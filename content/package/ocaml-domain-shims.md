@@ -14,7 +14,7 @@ sha1sum = "a0ab202bbcd76a5b927c020daf151e11bae64589"
 depends = "['ocaml>=5.1.1']"
 reverse_depends = "['saturn']"
 +++
-Self-contained implementation of the Domain module for OCaml 4{{< spoiler text="show files" >}}* /usr/lib/ocaml/domain_shims/domain_shims.cma
+Self-contained implementation of the Domain module for OCaml 4{{< files text="show files" >}}* /usr/lib/ocaml/domain_shims/domain_shims.cma
 * /usr/lib/ocaml/domain_shims/domain_shims.cmxa
 * /usr/lib/ocaml/domain_shims/domain_shims.cmxs
 * /usr/lib/ocaml/domain_shims/dune-package
@@ -25,4 +25,4 @@ Self-contained implementation of the Domain module for OCaml 4{{< spoiler text="
 * /usr/share/doc/ocaml-domain-shims-0.1.0/domain_shims/README.md
 * /usr/share/doc/ocaml-domain-shims-0.1.0/LICENSE
 * /usr/share/doc/ocaml-domain-shims-0.1.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

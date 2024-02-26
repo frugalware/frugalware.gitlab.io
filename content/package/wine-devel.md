@@ -13,7 +13,7 @@ usize = "652944391"
 sha1sum = "c1326e749ecb15d9d465c3e8c632f779cc8ba264"
 depends = "['faudio', 'gettext', 'gst1-plugins-base', 'gst1-plugins-base', 'lcms2', 'lib32-faudio', 'lib32-freetype2', 'lib32-lcms2', 'lib32-libldap>=2.5.4', 'lib32-libosmesa', 'lib32-libxcomposite', 'lib32-libxcursor', 'lib32-libxi', 'lib32-libxinerama', 'lib32-libxml2', 'lib32-libxrandr', 'lib32-libxrender', 'lib32-ncurses', 'lib32-ocl-icd', 'lib32-vkd3d', 'lib32-vulkan-icd-loader', 'libglu', 'libgphoto2', 'libldap>=2.5.4', 'libmpg123', 'libosmesa', 'libpcap', 'libpulse', 'libxcomposite', 'libxcursor', 'libxi', 'libxinerama', 'libxkbcommon', 'libxml2', 'libxrandr', 'libxrender', 'libxslt', 'ocl-icd', 'openal', 'pcsc-lite', 'sane-backends', 'v4l-utils', 'vkd3d', 'vulkan-icd-loader']"
 +++
-An Open Source implementation of the Windows API on top of X and Unix. (Development){{< spoiler text="show files" >}}* /etc/binfmt.d/wine.conf
+An Open Source implementation of the Windows API on top of X and Unix. (Development){{< files text="show files" >}}* /etc/binfmt.d/wine.conf
 * /usr/bin/function_grep.pl
 * /usr/bin/msidb
 * /usr/bin/msiexec
@@ -4994,4 +4994,4 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/share/wine/nls/normnfkd.nls
 * /usr/share/wine/nls/sortdefault.nls
 * /usr/share/wine/wine.inf
-{{< /spoiler >}}
+{{< /files >}}

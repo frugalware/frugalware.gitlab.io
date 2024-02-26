@@ -13,7 +13,7 @@ usize = "908757"
 sha1sum = "461c6a8abc20bd88d385bf21fa3eacf488bf1871"
 depends = "['llvm>=17.0.6', 'ocaml>=4.10.0']"
 +++
-OCaml bindings for LLVM{{< spoiler text="show files" >}}* /usr/lib/cmake/llvm/AddOCaml.cmake
+OCaml bindings for LLVM{{< files text="show files" >}}* /usr/lib/cmake/llvm/AddOCaml.cmake
 * /usr/lib/cmake/llvm/FindOCaml.cmake
 * /usr/lib/ocaml/llvm/llvm.cma
 * /usr/lib/ocaml/llvm/llvm.cmi
@@ -245,4 +245,4 @@ OCaml bindings for LLVM{{< spoiler text="show files" >}}* /usr/lib/cmake/llvm/Ad
 * /usr/lib/ocaml/META.llvm_WebAssembly
 * /usr/lib/ocaml/META.llvm_X86
 * /usr/lib/ocaml/META.llvm_XCore
-{{< /spoiler >}}
+{{< /files >}}

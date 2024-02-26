@@ -14,7 +14,7 @@ sha1sum = "2a4de674cc5e2c08b3d30b59957e6116eea363b3"
 depends = "['kconfigwidgets>=5.115.0', 'kiconthemes>=5.115.0', 'kirigami2>=5.115.0', 'plasma-framework>=5.115.0', 'qt5-x11extras>=5.15.12']"
 reverse_depends = "['angelfish', 'arianna', 'itinerary', 'kdeconnect-kde', 'ktrip', 'merkuro', 'neochat', 'plasma-desktop', 'tokodon']"
 +++
-QtQuickControls2 style that uses QWidget's QStyle for painting.{{< spoiler text="show files" >}}* /usr/lib/cmake/KF5QQC2DeskopStyle/KF5QQC2DeskopStyleConfig.cmake
+QtQuickControls2 style that uses QWidget's QStyle for painting.{{< files text="show files" >}}* /usr/lib/cmake/KF5QQC2DeskopStyle/KF5QQC2DeskopStyleConfig.cmake
 * /usr/lib/cmake/KF5QQC2DeskopStyle/KF5QQC2DeskopStyleConfigVersion.cmake
 * /usr/lib/cmake/KF5QQC2DesktopStyle/KF5QQC2DesktopStyleConfig.cmake
 * /usr/lib/cmake/KF5QQC2DesktopStyle/KF5QQC2DesktopStyleConfigVersion.cmake
@@ -74,4 +74,4 @@ QtQuickControls2 style that uses QWidget's QStyle for painting.{{< spoiler text=
 * /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolButton.qml
 * /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolSeparator.qml
 * /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml
-{{< /spoiler >}}
+{{< /files >}}

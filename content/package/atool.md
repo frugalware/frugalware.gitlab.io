@@ -13,7 +13,7 @@ usize = "188615"
 sha1sum = "b6e68b66fab5ef967146c2a650434c3641780936"
 depends = "[]"
 +++
-A script for managing file archives of various types.{{< spoiler text="show files" >}}* /usr/bin/acat
+A script for managing file archives of various types.{{< files text="show files" >}}* /usr/bin/acat
 * /usr/bin/adiff
 * /usr/bin/als
 * /usr/bin/apack
@@ -34,4 +34,4 @@ A script for managing file archives of various types.{{< spoiler text="show file
 * /usr/share/man/man1/arepack.1.gz
 * /usr/share/man/man1/atool.1.gz
 * /usr/share/man/man1/aunpack.1.gz
-{{< /spoiler >}}
+{{< /files >}}

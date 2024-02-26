@@ -13,7 +13,7 @@ usize = "40498794"
 sha1sum = "410229da41b72a4b08b65f0e7d952599a7fa6f53"
 depends = "['eigen', 'kdelibs4support>=5.115.0', 'khtml>=5.115.0', 'knewstuff>=5.115.0', 'kparts>=5.115.0', 'kplotting>=5.115.0', 'kunitconversion>=5.115.0']"
 +++
-Periodic Table of Elements.{{< spoiler text="show files" >}}* /usr/bin/kalzium
+Periodic Table of Elements.{{< files text="show files" >}}* /usr/bin/kalzium
 * /usr/include/libkdeedu/chemicaldataobject.h
 * /usr/include/libkdeedu/element.h
 * /usr/include/libkdeedu/elementparser.h
@@ -790,4 +790,4 @@ Periodic Table of Elements.{{< spoiler text="show files" >}}* /usr/bin/kalzium
 * /usr/share/man/uk/man1/kalzium.1.gz
 * /usr/share/metainfo/org.kde.kalzium.appdata.xml
 * /usr/share/qlogging-categories5/kalzium.categories
-{{< /spoiler >}}
+{{< /files >}}

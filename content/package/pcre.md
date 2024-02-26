@@ -14,7 +14,7 @@ sha1sum = "633e2aaac3349ccccf59adcfb3ce91335f1abf65"
 depends = "['bzip2>=1.0.6-16', 'libstdc++>=12.2', 'readline>=8.0-3', 'zlib>=1.2.12']"
 reverse_depends = "['aide', 'apache', 'editorconfig-core-c', 'efl', 'enlightenment', 'ethereal', 'gdal', 'glib2', 'hyperscan', 'imapfilter', 'insight-toolkit', 'json-glib', 'leafnode', 'libmp3splt', 'libselinux', 'lighttpd', 'nginx', 'opencollada', 'php-embed', 'postfix', 'privoxy', 'qpdf', 'qt5-base', 'rasqal', 'slang', 'sord', 'swig', 'terminology', 'uwsgi', 'varnish']"
 +++
-Perl-compatible regular expression library{{< spoiler text="show files" >}}* /usr/bin/pcre-config
+Perl-compatible regular expression library{{< files text="show files" >}}* /usr/bin/pcre-config
 * /usr/bin/pcregrep
 * /usr/bin/pcretest
 * /usr/include/pcre.h
@@ -210,4 +210,4 @@ Perl-compatible regular expression library{{< spoiler text="show files" >}}* /us
 * /usr/share/man/man3/pcre_utf16_to_host_byte_order.3.gz
 * /usr/share/man/man3/pcre_utf32_to_host_byte_order.3.gz
 * /usr/share/man/man3/pcre_version.3.gz
-{{< /spoiler >}}
+{{< /files >}}

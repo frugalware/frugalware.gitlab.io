@@ -13,7 +13,7 @@ usize = "3065818"
 sha1sum = "785063ebdcd205f3e59e5c980f28351a1356f9ab"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Serbian (Cyrillic) support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/program/resource/sr/LC_MESSAGES/acc.mo
+Installs Serbian (Cyrillic) support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/sr/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/sr/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/sr/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/sr/LC_MESSAGES/chart.mo
@@ -51,4 +51,4 @@ Installs Serbian (Cyrillic) support in LibreOffice{{< spoiler text="show files" 
 * /usr/lib/libreoffice/share/registry/Langpack-sr.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_sr.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_sr.xcd
-{{< /spoiler >}}
+{{< /files >}}

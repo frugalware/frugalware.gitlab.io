@@ -13,7 +13,7 @@ usize = "1486272"
 sha1sum = "555de52c0670691b96dbb579c94bae6f479b50b8"
 depends = "['kparts>=5.115.0']"
 +++
-KDE's bookmarks editor{{< spoiler text="show files" >}}* /usr/bin/kbookmarkmerger
+KDE's bookmarks editor{{< files text="show files" >}}* /usr/bin/kbookmarkmerger
 * /usr/bin/keditbookmarks
 * /usr/lib/libkbookmarkmodel_private.so
 * /usr/lib/libkbookmarkmodel_private.so.5.97.0
@@ -156,4 +156,4 @@ KDE's bookmarks editor{{< spoiler text="show files" >}}* /usr/bin/kbookmarkmerge
 * /usr/share/man/uk/man1/kbookmarkmerger.1.gz
 * /usr/share/man/zh_CN/man1/kbookmarkmerger.1.gz
 * /usr/share/qlogging-categories5/keditbookmarks.categories
-{{< /spoiler >}}
+{{< /files >}}

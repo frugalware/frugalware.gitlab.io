@@ -14,7 +14,7 @@ sha1sum = "97557b9aa628499584b6a8dbe5dd57251921c001"
 depends = "['db>=18.1.25', 'icu4c>=74.1']"
 reverse_depends = "['bluez', 'claws-mail-plugin-vcalendar', 'kcalendarcore', 'openvas-manager']"
 +++
-An open source reference implementation of the icalendar data type and serialization format{{< spoiler text="show files" >}}* /usr/include/libical-glib/i-cal-array.h
+An open source reference implementation of the icalendar data type and serialization format{{< files text="show files" >}}* /usr/include/libical-glib/i-cal-array.h
 * /usr/include/libical-glib/i-cal-attach.h
 * /usr/include/libical-glib/i-cal-comp-iter.h
 * /usr/include/libical-glib/i-cal-component.h
@@ -133,4 +133,4 @@ An open source reference implementation of the icalendar data type and serializa
 * /usr/share/doc/libical-3.0.17/README.md
 * /usr/share/doc/libical-3.0.17/THANKS
 * /usr/share/doc/libical-3.0.17/TODO
-{{< /spoiler >}}
+{{< /files >}}

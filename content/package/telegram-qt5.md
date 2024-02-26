@@ -14,7 +14,7 @@ sha1sum = "82861056b1f71078f0f8a7cf935149c387c74048"
 depends = "['openssl>=3.1.0', 'qt5-base>=5.15.10']"
 reverse_depends = "['telepathy-morse']"
 +++
-Telegram Qt5 bindings{{< spoiler text="show files" >}}* /usr/include/telegram-qt5/TelegramQt/CAppInformation
+Telegram Qt5 bindings{{< files text="show files" >}}* /usr/include/telegram-qt5/TelegramQt/CAppInformation
 * /usr/include/telegram-qt5/TelegramQt/CAppInformation.hpp
 * /usr/include/telegram-qt5/TelegramQt/CTelegramCore
 * /usr/include/telegram-qt5/TelegramQt/CTelegramCore.hpp
@@ -27,4 +27,4 @@ Telegram Qt5 bindings{{< spoiler text="show files" >}}* /usr/include/telegram-qt
 * /usr/lib/libtelegram-qt5.so.0.1
 * /usr/lib/libtelegram-qt5.so.0.1.0
 * /usr/share/doc/telegram-qt5-0.1.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

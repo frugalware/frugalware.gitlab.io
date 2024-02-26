@@ -14,7 +14,7 @@ sha1sum = "a422d5cfb4f8ff2e41fb8c2504a0ac8d21a75a2c"
 depends = "['glibc>=2.34']"
 reverse_depends = "['gwenview', 'kst', 'kstars', 'labplot', 'libvips', 'nufraw', 'wcslib']"
 +++
-C and Fortran library for manipulating FITS files{{< spoiler text="show files" >}}* /usr/include/drvrsmem.h
+C and Fortran library for manipulating FITS files{{< files text="show files" >}}* /usr/include/drvrsmem.h
 * /usr/include/fitsio.h
 * /usr/include/fitsio2.h
 * /usr/include/longnam.h
@@ -26,4 +26,4 @@ C and Fortran library for manipulating FITS files{{< spoiler text="show files" >
 * /usr/share/doc/cfitsio-4.3.1/README.MacOS
 * /usr/share/doc/cfitsio-4.3.1/README.win
 * /usr/share/doc/cfitsio-4.3.1/README_OLD.win
-{{< /spoiler >}}
+{{< /files >}}

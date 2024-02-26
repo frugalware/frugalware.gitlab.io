@@ -13,7 +13,7 @@ usize = "2764067"
 sha1sum = "ea4063509a8e7a9981536e9fc5ebb74be694ffa5"
 depends = "['openjre']"
 +++
-Ant is a Java-based build tool.{{< spoiler text="show files" >}}* /usr/bin/ant
+Ant is a Java-based build tool.{{< files text="show files" >}}* /usr/bin/ant
 * /usr/bin/antRun
 * /usr/bin/antRun.pl
 * /usr/bin/complete-ant-cmd.pl
@@ -48,4 +48,4 @@ Ant is a Java-based build tool.{{< spoiler text="show files" >}}* /usr/bin/ant
 * /usr/share/java/ant-testutil.jar
 * /usr/share/java/ant-xz.jar
 * /usr/share/java/ant.jar
-{{< /spoiler >}}
+{{< /files >}}

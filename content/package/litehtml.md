@@ -14,7 +14,7 @@ sha1sum = "882ffd06a05c6972ff6da4d31d5c470076680305"
 depends = "['gumbo-parser', 'libstdc++']"
 reverse_depends = "['qtcreator']"
 +++
-Fast and lightweight HTML/CSS rendering engine{{< spoiler text="show files" >}}* /usr/include/litehtml/background.h
+Fast and lightweight HTML/CSS rendering engine{{< files text="show files" >}}* /usr/include/litehtml/background.h
 * /usr/include/litehtml/borders.h
 * /usr/include/litehtml/codepoint.h
 * /usr/include/litehtml/css_length.h
@@ -84,4 +84,4 @@ Fast and lightweight HTML/CSS rendering engine{{< spoiler text="show files" >}}*
 * /usr/lib/liblitehtml.so.0.0.0
 * /usr/share/doc/litehtml-0.9/LICENSE
 * /usr/share/doc/litehtml-0.9/README.md
-{{< /spoiler >}}
+{{< /files >}}

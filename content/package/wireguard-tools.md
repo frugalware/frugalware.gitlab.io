@@ -13,7 +13,7 @@ usize = "145917"
 sha1sum = "25529d3be8b3d892bc9b9874e136a6ae338fc8f1"
 depends = "['libmnl']"
 +++
-Fast, modern, secure VPN tunnel (tools){{< spoiler text="show files" >}}* /usr/bin/wg
+Fast, modern, secure VPN tunnel (tools){{< files text="show files" >}}* /usr/bin/wg
 * /usr/bin/wg-quick
 * /usr/lib/systemd/system/wg-quick.target
 * /usr/lib/systemd/system/wg-quick@.service
@@ -23,4 +23,4 @@ Fast, modern, secure VPN tunnel (tools){{< spoiler text="show files" >}}* /usr/b
 * /usr/share/doc/wireguard-tools-1.0.20210914/README.md
 * /usr/share/man/man8/wg-quick.8.gz
 * /usr/share/man/man8/wg.8.gz
-{{< /spoiler >}}
+{{< /files >}}

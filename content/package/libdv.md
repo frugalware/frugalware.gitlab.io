@@ -14,7 +14,7 @@ sha1sum = "f6d85cba47d40d7f8df46aa4a4b5eba3bd261732"
 depends = "['glibc>=2.34', 'popt>=1.16-9']"
 reverse_depends = "['gst1-plugins-good-dv', 'mencoder', 'mjpegtools', 'mlt', 'mlt', 'mplayer', 'mpv']"
 +++
-The Quasar DV codec (libdv) is a software codec for DV video{{< spoiler text="show files" >}}* /usr/bin/dubdv
+The Quasar DV codec (libdv) is a software codec for DV video{{< files text="show files" >}}* /usr/bin/dubdv
 * /usr/bin/dvconnect
 * /usr/bin/encodedv
 * /usr/include/libdv/dv.h
@@ -36,4 +36,4 @@ The Quasar DV codec (libdv) is a software codec for DV video{{< spoiler text="sh
 * /usr/share/man/man1/dubdv.1.gz
 * /usr/share/man/man1/dvconnect.1.gz
 * /usr/share/man/man1/encodedv.1.gz
-{{< /spoiler >}}
+{{< /files >}}

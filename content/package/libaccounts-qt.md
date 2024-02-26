@@ -14,7 +14,7 @@ sha1sum = "ed608632806af115015633e6446f85ec052abec5"
 depends = "['libaccounts-glib>=1.25', 'qt5-base>=5.15.10']"
 reverse_depends = "['accounts-qml-module', 'kaccounts-integration']"
 +++
-Qt-based client library for accessing the online accounts database.{{< spoiler text="show files" >}}* /usr/bin/accountstest
+Qt-based client library for accessing the online accounts database.{{< files text="show files" >}}* /usr/bin/accountstest
 * /usr/include/accounts-qt5/Accounts/Account
 * /usr/include/accounts-qt5/Accounts/account-service.h
 * /usr/include/accounts-qt5/Accounts/account.h
@@ -162,4 +162,4 @@ Qt-based client library for accessing the online accounts database.{{< spoiler t
 * /usr/share/doc/libaccounts-qt-1.16/INSTALL
 * /usr/share/doc/libaccounts-qt-1.16/README.md
 * /usr/share/doc/libaccounts-qt-1.16/TODO
-{{< /spoiler >}}
+{{< /files >}}

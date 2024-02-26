@@ -14,7 +14,7 @@ sha1sum = "875329420e5bbe4495a705a008a478ca1b9e4d80"
 depends = "['perl>=5.28.2', 'perl>=5.34.0']"
 reverse_depends = "['spamassassin']"
 +++
-Perl extension for fast lookup of country codes from IP addresses{{< spoiler text="show files" >}}* /usr/bin/ip2cc
+Perl extension for fast lookup of country codes from IP addresses{{< files text="show files" >}}* /usr/bin/ip2cc
 * /usr/lib/perl5/site_perl/current/IP/Authority.pm
 * /usr/lib/perl5/site_perl/current/IP/Authority/auth.gif
 * /usr/lib/perl5/site_perl/current/IP/Authority/ipauth.gif
@@ -36,4 +36,4 @@ Perl extension for fast lookup of country codes from IP addresses{{< spoiler tex
 * /usr/share/man/man3/IP::Country::MaxMind.3perl.gz
 * /usr/share/man/man3/IP::Country::Medium.3perl.gz
 * /usr/share/man/man3/IP::Country::Slow.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "981223"
 sha1sum = "66019f6c857e74e3f29eed58ee653be49d99e416"
 depends = "['lib32-brotli', 'lib32-curl', 'lib32-gnutls>=3.6.9', 'lib32-libpsl>=0.20.1', 'lib32-nettle>=3.6', 'lib32-zlib', 'lib32-zstd']"
 +++
-A command line tool for transferring data specified with URL syntax. (32-bit gnutls version){{< spoiler text="show files" >}}* /usr/lib32/libcurl-gnutls.so.3
+A command line tool for transferring data specified with URL syntax. (32-bit gnutls version){{< files text="show files" >}}* /usr/lib32/libcurl-gnutls.so.3
 * /usr/lib32/libcurl-gnutls.so.4
 * /usr/lib32/libcurl-gnutls.so.4.0.0
 * /usr/lib32/libcurl-gnutls.so.4.1.0
@@ -28,4 +28,4 @@ A command line tool for transferring data specified with URL syntax. (32-bit gnu
 * /usr/share/doc/lib32-libcurl-gnutls-8.6.0/COPYING
 * /usr/share/doc/lib32-libcurl-gnutls-8.6.0/README
 * /usr/share/doc/lib32-libcurl-gnutls-8.6.0/RELEASE-NOTES
-{{< /spoiler >}}
+{{< /files >}}

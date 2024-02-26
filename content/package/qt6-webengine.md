@@ -14,7 +14,7 @@ sha1sum = "2ed314b396dc3dcd6f6c167f5c6663df9dce2d58"
 depends = "['ffmpeg>=6.0', 'libepoxy', 'libevent', 'libgbm', 'libjpeg-turbo', 'libkrb5', 'libxcomposite', 'libxcursor', 'libxrandr', 'libxshmfence', 'libxslt', 'nss', 'opus', 'qt6-positioning', 'qt6-webchannel', 'snappy']"
 reverse_depends = "['pyqt6webengine', 'qt6-webview', 'qtcreator', 'seafile-client']"
 +++
-The Qt6 toolkit, qtwebengine{{< spoiler text="show files" >}}* /usr/include/qt6/QtPdf/6.6.2/QtPdf/private/qpdfdocument_p.h
+The Qt6 toolkit, qtwebengine{{< files text="show files" >}}* /usr/include/qt6/QtPdf/6.6.2/QtPdf/private/qpdfdocument_p.h
 * /usr/include/qt6/QtPdf/6.6.2/QtPdf/private/qpdffile_p.h
 * /usr/include/qt6/QtPdf/6.6.2/QtPdf/private/qpdflinkmodel_p.h
 * /usr/include/qt6/QtPdf/6.6.2/QtPdf/private/qpdflink_p.h
@@ -453,4 +453,4 @@ The Qt6 toolkit, qtwebengine{{< spoiler text="show files" >}}* /usr/include/qt6/
 * /usr/share/qt6/translations/qtwebengine_locales/vi.pak
 * /usr/share/qt6/translations/qtwebengine_locales/zh-CN.pak
 * /usr/share/qt6/translations/qtwebengine_locales/zh-TW.pak
-{{< /spoiler >}}
+{{< /files >}}

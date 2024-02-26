@@ -13,7 +13,7 @@ usize = "2680824"
 sha1sum = "6c463a64c81fe5f4815c90e03e3a05be7b43587a"
 depends = "['glib2>=2.60.3', 'gpgme', 'libidn>=1.35']"
 +++
-Library and set of utilities for the creation and parsing of messages using MIME (version 3){{< spoiler text="show files" >}}* /usr/include/gmime-3.0/gmime/gmime-application-pkcs7-mime.h
+Library and set of utilities for the creation and parsing of messages using MIME (version 3){{< files text="show files" >}}* /usr/include/gmime-3.0/gmime/gmime-application-pkcs7-mime.h
 * /usr/include/gmime-3.0/gmime/gmime-autocrypt.h
 * /usr/include/gmime-3.0/gmime/gmime-certificate.h
 * /usr/include/gmime-3.0/gmime/gmime-charset.h
@@ -184,4 +184,4 @@ Library and set of utilities for the creation and parsing of messages using MIME
 * /usr/share/gtk-doc/html/gmime-3.2/style.css
 * /usr/share/gtk-doc/html/gmime-3.2/up-insensitive.png
 * /usr/share/gtk-doc/html/gmime-3.2/up.png
-{{< /spoiler >}}
+{{< /files >}}

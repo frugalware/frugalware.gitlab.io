@@ -14,7 +14,7 @@ sha1sum = "d67ec3cecd4943ed165e277dbfa2c82285309a66"
 depends = "['qt5-declarative']"
 reverse_depends = "['koko', 'neochat', 'skanpage']"
 +++
-QML image editing components{{< spoiler text="show files" >}}* /usr/lib/cmake/KQuickImageEditor/KQuickImageEditorConfig.cmake
+QML image editing components{{< files text="show files" >}}* /usr/lib/cmake/KQuickImageEditor/KQuickImageEditorConfig.cmake
 * /usr/lib/cmake/KQuickImageEditor/KQuickImageEditorConfigVersion.cmake
 * /usr/share/doc/kquickimageeditor-0.3.0/README.md
 * /usr/share/qt5/mkspecs/modules/qt_KQuickImageEditor.pri
@@ -26,4 +26,4 @@ QML image editing components{{< spoiler text="show files" >}}* /usr/lib/cmake/KQ
 * /usr/share/qt5/qml/org/kde/kquickimageeditor/SelectionBackground.qml
 * /usr/share/qt5/qml/org/kde/kquickimageeditor/SelectionHandle.qml
 * /usr/share/qt5/qml/org/kde/kquickimageeditor/SelectionTool.qml
-{{< /spoiler >}}
+{{< /files >}}

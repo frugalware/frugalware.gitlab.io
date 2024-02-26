@@ -14,7 +14,7 @@ sha1sum = "6341fbd7dd961d54be4d93700fcf43c98d8ef85a"
 depends = "['glibc>=2.34', 'libogg>=1.3.2-8']"
 reverse_depends = "['jack2']"
 +++
-Ultra-low delay audio codec{{< spoiler text="show files" >}}* /usr/bin/celtdec
+Ultra-low delay audio codec{{< files text="show files" >}}* /usr/bin/celtdec
 * /usr/bin/celtenc
 * /usr/include/celt/celt.h
 * /usr/include/celt/celt_header.h
@@ -27,4 +27,4 @@ Ultra-low delay audio codec{{< spoiler text="show files" >}}* /usr/bin/celtdec
 * /usr/share/doc/celt-0.11.3/INSTALL
 * /usr/share/doc/celt-0.11.3/README
 * /usr/share/doc/celt-0.11.3/TODO
-{{< /spoiler >}}
+{{< /files >}}

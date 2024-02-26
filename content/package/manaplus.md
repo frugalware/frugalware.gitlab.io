@@ -13,7 +13,7 @@ usize = "28547164"
 sha1sum = "2064c6760e5eb4ae8090d5bac9f000299ddf28ca"
 depends = "['curl>=7.46.0-3', 'libglu>=9.0.0-2', 'libpng>=1.6.20', 'physfs>=2.0.3-3', 'pugixml', 'sdlimage>=1.2.12-2', 'sdl_gfx>=2.0.27', 'sdl_mixer>=1.2.12-2', 'sdl_net>=1.2.8-2', 'sdl_ttf>=2.0.11-2']"
 +++
-ManaPlus is a free OpenSource 2D MMORPG client for Evol Online, The mana world and similar servers.{{< spoiler text="show files" >}}* /usr/bin/dyecmd
+ManaPlus is a free OpenSource 2D MMORPG client for Evol Online, The mana world and similar servers.{{< files text="show files" >}}* /usr/bin/dyecmd
 * /usr/bin/manaplus
 * /usr/share/applications/manaplus.desktop
 * /usr/share/applications/manaplustest.desktop
@@ -840,4 +840,4 @@ ManaPlus is a free OpenSource 2D MMORPG client for Evol Online, The mana world a
 * /usr/share/manaplus/data/translations/help/zh_CN.po
 * /usr/share/manaplus/data/translations/test/test1.po
 * /usr/share/metainfo/manaplus.metainfo.xml
-{{< /spoiler >}}
+{{< /files >}}

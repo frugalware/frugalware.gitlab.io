@@ -14,7 +14,7 @@ sha1sum = "2e5cd81c6f97b6a309380f5528eea859cc39857e"
 depends = "['libevdev', 'libsystemd', 'libunistring>=1.1']"
 reverse_depends = "['piper']"
 +++
-A library to configure gaming mice{{< spoiler text="show files" >}}* /usr/bin/lur-command
+A library to configure gaming mice{{< files text="show files" >}}* /usr/bin/lur-command
 * /usr/bin/ratbagctl
 * /usr/bin/ratbagd
 * /usr/include/liblur.h
@@ -129,4 +129,4 @@ A library to configure gaming mice{{< spoiler text="show files" >}}* /usr/bin/lu
 * /usr/share/man/man1/lur-command.1.gz
 * /usr/share/man/man1/ratbagctl.1.gz
 * /usr/share/man/man8/ratbagd.8.gz
-{{< /spoiler >}}
+{{< /files >}}

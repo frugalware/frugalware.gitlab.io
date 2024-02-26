@@ -14,7 +14,7 @@ sha1sum = "30c947677f7239157aa1d93f026feeb6554c650f"
 depends = "['glibc']"
 reverse_depends = "['clamav', 'wxwidgets']"
 +++
-A library for Microsoft compression formats{{< spoiler text="show files" >}}* /usr/include/mspack.h
+A library for Microsoft compression formats{{< files text="show files" >}}* /usr/include/mspack.h
 * /usr/lib/libmspack.so
 * /usr/lib/libmspack.so.0
 * /usr/lib/libmspack.so.0.1.0
@@ -25,4 +25,4 @@ A library for Microsoft compression formats{{< spoiler text="show files" >}}* /u
 * /usr/share/doc/libmspack-0.11alpha/INSTALL
 * /usr/share/doc/libmspack-0.11alpha/README
 * /usr/share/doc/libmspack-0.11alpha/TODO
-{{< /spoiler >}}
+{{< /files >}}

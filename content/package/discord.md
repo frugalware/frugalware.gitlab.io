@@ -13,4 +13,4 @@ usize = "0"
 sha1sum = ""
 depends = "['gtk+3', 'libnotify', 'libxscrnsaver', 'nspr', 'nss']"
 +++
-All-in-one voice and text chat for gamers that's free and secure.{{< spoiler text="show files" >}}{{< /spoiler >}}
+All-in-one voice and text chat for gamers that's free and secure.{{< files text="show files" >}}{{< /files >}}

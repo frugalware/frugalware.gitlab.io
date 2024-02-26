@@ -14,7 +14,7 @@ sha1sum = "810323ca9a76695087770ce5604894d68e824bf6"
 depends = "['coin-or-coinutils']"
 reverse_depends = "['coin-or-clp']"
 +++
-COIN-OR Open Solver Interface (AliceVision fork){{< spoiler text="show files" >}}* /usr/include/Coin/config_osi_default.h
+COIN-OR Open Solver Interface (AliceVision fork){{< files text="show files" >}}* /usr/include/Coin/config_osi_default.h
 * /usr/include/Coin/OsiAuxInfo.hpp
 * /usr/include/Coin/OsiBranchingObject.hpp
 * /usr/include/Coin/OsiChooseVariable.hpp
@@ -39,4 +39,4 @@ COIN-OR Open Solver Interface (AliceVision fork){{< spoiler text="show files" >}
 * /usr/share/doc/coin-or-osi-0.108.7/CHANGELOG
 * /usr/share/doc/coin-or-osi-0.108.7/LICENSE
 * /usr/share/doc/coin-or-osi-0.108.7/README.md
-{{< /spoiler >}}
+{{< /files >}}

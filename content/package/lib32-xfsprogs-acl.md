@@ -14,10 +14,10 @@ sha1sum = "4798aeeb5693ba906ba5e1a7350f37f2d63a89e6"
 depends = "['lib32-xfsprogs-attr>=2.5.1-3']"
 reverse_depends = "['lib32-libsystemd']"
 +++
-Dynamic library for access control list support. ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/include/acl/libacl.h
+Dynamic library for access control list support. ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/acl/libacl.h
 * /usr/i686-frugalware-linux/include/sys/acl.h
 * /usr/lib32/libacl.so
 * /usr/lib32/libacl.so.1
 * /usr/lib32/libacl.so.1.1.2302
 * /usr/lib32/pkgconfig/libacl.pc
-{{< /spoiler >}}
+{{< /files >}}

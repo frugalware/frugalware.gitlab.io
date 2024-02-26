@@ -14,7 +14,7 @@ sha1sum = "179b1e088ebce011e33f77f99ae8cefcf11b6ad3"
 depends = "['libgcc']"
 reverse_depends = "['lvm2']"
 +++
-Suite of tools for manipulating the metadata of the dm-thin device-mapper target{{< spoiler text="show files" >}}* /usr/bin/cache_check
+Suite of tools for manipulating the metadata of the dm-thin device-mapper target{{< files text="show files" >}}* /usr/bin/cache_check
 * /usr/bin/cache_dump
 * /usr/bin/cache_metadata_size
 * /usr/bin/cache_repair
@@ -60,4 +60,4 @@ Suite of tools for manipulating the metadata of the dm-thin device-mapper target
 * /usr/share/man/man8/thin_restore.8.gz
 * /usr/share/man/man8/thin_rmap.8.gz
 * /usr/share/man/man8/thin_trim.8.gz
-{{< /spoiler >}}
+{{< /files >}}

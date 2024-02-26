@@ -14,7 +14,7 @@ sha1sum = "4e1c30f47b15b2db29f8a8d7bbafb535532db543"
 depends = "['dbus-glib>=0.104-3', 'libffi>=3.2.1', 'polkit>=0.113-5']"
 reverse_depends = "['cpod']"
 +++
-A configuration database system for GNOME{{< spoiler text="show files" >}}* /etc/dbus-1/system.d/org.gnome.GConf.Defaults.conf
+A configuration database system for GNOME{{< files text="show files" >}}* /etc/dbus-1/system.d/org.gnome.GConf.Defaults.conf
 * /etc/gconf/2/evoldap.conf
 * /etc/gconf/2/path
 * /etc/xdg/autostart/gsettings-data-convert.desktop
@@ -166,4 +166,4 @@ A configuration database system for GNOME{{< spoiler text="show files" >}}* /etc
 * /usr/share/man/man1/gsettings-schema-convert.1.gz
 * /usr/share/polkit-1/actions/org.gnome.gconf.defaults.policy
 * /usr/share/sgml/gconf/gconf-1.0.dtd
-{{< /spoiler >}}
+{{< /files >}}

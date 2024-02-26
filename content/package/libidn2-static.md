@@ -13,5 +13,5 @@ usize = "507832"
 sha1sum = "e627cf011b26bbb26124e727937b3c630ffdb794"
 depends = "[]"
 +++
-Static files for libidn2{{< spoiler text="show files" >}}* /usr/lib/libidn2.a
-{{< /spoiler >}}
+Static files for libidn2{{< files text="show files" >}}* /usr/lib/libidn2.a
+{{< /files >}}

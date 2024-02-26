@@ -14,7 +14,7 @@ sha1sum = "590925cced2e7b7d10bd5fd54fbae413b799d56e"
 depends = "['glibc>=2.34']"
 reverse_depends = "['alienarena', 'blender', 'devil', 'kdeaddons', 'kvm', 'mpeg2dec', 'netpanzer', 'openttd', 'sdlimage', 'sdl_gfx', 'sdl_mixer', 'sdl_net', 'sdl_ttf', 'smpeg', 'virtualbox', 'wxwidgets', 'xine-lib']"
 +++
-Simple DirectMedia Layer library{{< spoiler text="show files" >}}* /usr/bin/sdl-config
+Simple DirectMedia Layer library{{< files text="show files" >}}* /usr/bin/sdl-config
 * /usr/include/SDL/begin_code.h
 * /usr/include/SDL/close_code.h
 * /usr/include/SDL/SDL.h
@@ -253,4 +253,4 @@ Simple DirectMedia Layer library{{< spoiler text="show files" >}}* /usr/bin/sdl-
 * /usr/share/man/man3/SDL_WM_SetCaption.3.gz
 * /usr/share/man/man3/SDL_WM_SetIcon.3.gz
 * /usr/share/man/man3/SDL_WM_ToggleFullScreen.3.gz
-{{< /spoiler >}}
+{{< /files >}}

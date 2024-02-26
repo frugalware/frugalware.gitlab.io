@@ -14,7 +14,7 @@ sha1sum = "0fe89459fb1ca1e1fb1fc2664c7c98fc217fb689"
 depends = "['python3>=3.10', 'systemd>=188']"
 reverse_depends = "['openrazer']"
 +++
-Python binding to libudev.{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/pyudev-0.24.1-py3.12.egg-info/dependency_links.txt
+Python binding to libudev.{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pyudev-0.24.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pyudev-0.24.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/pyudev-0.24.1-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/pyudev-0.24.1-py3.12.egg-info/top_level.txt
@@ -68,4 +68,4 @@ Python binding to libudev.{{< spoiler text="show files" >}}* /usr/lib/python3.12
 * /usr/lib/python3.12/site-packages/pyudev/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/pyudev-0.24.1/COPYING
 * /usr/share/doc/pyudev-0.24.1/README.rst
-{{< /spoiler >}}
+{{< /files >}}

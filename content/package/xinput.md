@@ -15,7 +15,7 @@ depends = "['libxi>=1.7.6-2', 'libxinerama>=1.1.3-3', 'libxrandr>=1.5.0-4']"
 reverse_depends = "['xdotool']"
 license = "GPL2"
 +++
-Utility to set XInput device parameters{{< spoiler text="show files" >}}* /usr/bin/xinput
+Utility to set XInput device parameters{{< files text="show files" >}}* /usr/bin/xinput
 * /usr/share/doc/xinput-1.6.4/AUTHORS
 * /usr/share/doc/xinput-1.6.4/ChangeLog
 * /usr/share/doc/xinput-1.6.4/COPYING
@@ -23,4 +23,4 @@ Utility to set XInput device parameters{{< spoiler text="show files" >}}* /usr/b
 * /usr/share/doc/xinput-1.6.4/NEWS
 * /usr/share/doc/xinput-1.6.4/README
 * /usr/share/man/man1/xinput.1.gz
-{{< /spoiler >}}
+{{< /files >}}

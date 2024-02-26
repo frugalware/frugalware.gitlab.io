@@ -14,7 +14,7 @@ sha1sum = "5627c1e832ff4b1c15b6434209a5cfdcc5dd4fd2"
 depends = "['glibc']"
 reverse_depends = "['libproxy', 'polkit']"
 +++
-Embeddable Javascript engine{{< spoiler text="show files" >}}* /usr/include/duktape.h
+Embeddable Javascript engine{{< files text="show files" >}}* /usr/include/duktape.h
 * /usr/include/duk_config.h
 * /usr/lib/libduktape.so
 * /usr/lib/libduktape.so.207
@@ -24,4 +24,4 @@ Embeddable Javascript engine{{< spoiler text="show files" >}}* /usr/include/dukt
 * /usr/lib/libduktaped.so.207.20700
 * /usr/lib/pkgconfig/duktape.pc
 * /usr/share/doc/duktape-2.7.0/README.rst
-{{< /spoiler >}}
+{{< /files >}}

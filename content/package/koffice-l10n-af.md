@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "90b52d8bd71152faff94ff37f762f31e236511a7"
 depends = "[]"
 +++
-Afrikaans Localization for KOffice. {{< spoiler text="show files" >}}* usr/share/locale/af/LC_MESSAGES/desktop_koffice.mo
+Afrikaans Localization for KOffice. {{< files text="show files" >}}* usr/share/locale/af/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/af/LC_MESSAGES/example.mo
 * usr/share/locale/af/LC_MESSAGES/karbon.mo
 * usr/share/locale/af/LC_MESSAGES/kchart.mo
@@ -34,4 +34,4 @@ Afrikaans Localization for KOffice. {{< spoiler text="show files" >}}* usr/share
 * usr/share/locale/af/LC_MESSAGES/kugar.mo
 * usr/share/locale/af/LC_MESSAGES/kword.mo
 * usr/share/locale/af/LC_MESSAGES/thesaurus_tool.mo
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,5 +13,5 @@ usize = "27008"
 sha1sum = "f85dc9193bb50e8ada4044fdb047f59f5c976bca"
 depends = "['claws-mail=4.1.1', 'curl>=7.47.0']"
 +++
-This plugin reports spam to various places.{{< spoiler text="show files" >}}* /usr/lib/claws-mail/plugins/spamreport.so
-{{< /spoiler >}}
+This plugin reports spam to various places.{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/spamreport.so
+{{< /files >}}

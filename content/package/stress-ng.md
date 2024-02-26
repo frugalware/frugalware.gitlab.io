@@ -13,7 +13,7 @@ usize = "10319372"
 sha1sum = "92eb6864f491d175339c267b067052dd02037766"
 depends = "['glibc']"
 +++
-A tool that stress tests your system (CPU, memory, I/O, disks) (NG){{< spoiler text="show files" >}}* /usr/bin/stress-ng
+A tool that stress tests your system (CPU, memory, I/O, disks) (NG){{< files text="show files" >}}* /usr/bin/stress-ng
 * /usr/share/bash-completion/completions/stress-ng
 * /usr/share/doc/stress-ng-0.17.03/COPYING
 * /usr/share/doc/stress-ng-0.17.03/README.Android
@@ -35,4 +35,4 @@ A tool that stress tests your system (CPU, memory, I/O, disks) (NG){{< spoiler t
 * /usr/share/stress-ng/example-jobs/scheduler.job
 * /usr/share/stress-ng/example-jobs/security.job
 * /usr/share/stress-ng/example-jobs/vm.job
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "8578757bac37ff111c7c7309b3b2eda184be1f9b"
 depends = "['glibc>=2.35']"
 reverse_depends = "['calamares-frugalware', 'facter', 'opencolorio', 'qtcreator', 'sysdig']"
 +++
-YAML parser and emitter in C++, written around the YAML 1.2 spec{{< spoiler text="show files" >}}* /usr/include/yaml-cpp/anchor.h
+YAML parser and emitter in C++, written around the YAML 1.2 spec{{< files text="show files" >}}* /usr/include/yaml-cpp/anchor.h
 * /usr/include/yaml-cpp/binary.h
 * /usr/include/yaml-cpp/contrib/anchordict.h
 * /usr/include/yaml-cpp/contrib/graphbuilder.h
@@ -61,4 +61,4 @@ YAML parser and emitter in C++, written around the YAML 1.2 spec{{< spoiler text
 * /usr/lib/pkgconfig/yaml-cpp.pc
 * /usr/share/doc/yaml-cpp-0.8.0/LICENSE
 * /usr/share/doc/yaml-cpp-0.8.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

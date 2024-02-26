@@ -14,7 +14,7 @@ sha1sum = "07c17be3a32ef6aa8cb472cde4f14e0afc24ed22"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['faac']"
 +++
-A library for working with files using the mp4 container format. (extracted from mpeg4ip).{{< spoiler text="show files" >}}* /usr/bin/mp4art
+A library for working with files using the mp4 container format. (extracted from mpeg4ip).{{< files text="show files" >}}* /usr/bin/mp4art
 * /usr/bin/mp4chaps
 * /usr/bin/mp4extract
 * /usr/bin/mp4file
@@ -47,4 +47,4 @@ A library for working with files using the mp4 container format. (extracted from
 * /usr/share/man/man1/mp4file.1.gz
 * /usr/share/man/man1/mp4subtitle.1.gz
 * /usr/share/man/man1/mp4track.1.gz
-{{< /spoiler >}}
+{{< /files >}}

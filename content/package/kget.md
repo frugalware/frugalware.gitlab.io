@@ -13,7 +13,7 @@ usize = "11561987"
 sha1sum = "83d3f7d14f13acc42217f5d98c3b10d440d96a87"
 depends = "['kcmutils>=5.115.0', 'kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libktorrent', 'libmms', 'libqgpgme', 'plasma-workspace>=5.27.10']"
 +++
-A free download manager for KDE.{{< spoiler text="show files" >}}* /usr/bin/kget
+A free download manager for KDE.{{< files text="show files" >}}* /usr/bin/kget
 * /usr/lib/libkgetcore.so
 * /usr/lib/libkgetcore.so.5
 * /usr/lib/libkgetcore.so.5.0.0
@@ -294,4 +294,4 @@ A free download manager for KDE.{{< spoiler text="show files" >}}* /usr/bin/kget
 * /usr/share/locale/zh_TW/LC_MESSAGES/kget.mo
 * /usr/share/metainfo/org.kde.kget.appdata.xml
 * /usr/share/qlogging-categories5/kget.categories
-{{< /spoiler >}}
+{{< /files >}}

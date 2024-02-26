@@ -14,7 +14,7 @@ sha1sum = "07b666d7f87ce88348289ce1e6f56731aa417996"
 depends = "['zlib>=1.2.12']"
 reverse_depends = "['mpd', 'ogre', 'texlive']"
 +++
-easily extract data from files archived in a single zip file{{< spoiler text="show files" >}}* /usr/bin/unzip-mem
+easily extract data from files archived in a single zip file{{< files text="show files" >}}* /usr/bin/unzip-mem
 * /usr/bin/unzzip
 * /usr/bin/unzzipcat
 * /usr/bin/unzzipcat-mem
@@ -168,4 +168,4 @@ easily extract data from files archived in a single zip file{{< spoiler text="sh
 * /usr/share/man/man3/__zzip_fetch_disk_trailer.3.gz
 * /usr/share/man/man3/__zzip_parse_root_directory.3.gz
 * /usr/share/man/man3/__zzip_try_open.3.gz
-{{< /spoiler >}}
+{{< /files >}}

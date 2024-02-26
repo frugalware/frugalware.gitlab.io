@@ -14,7 +14,7 @@ sha1sum = "5080a65296ec440533241cb8ecdbe67e44cf5516"
 depends = "['qt5-declarative>=5.15.12']"
 reverse_depends = "['bluedevil5', 'powerdevil5']"
 +++
-A Qt wrapper for bluez{{< spoiler text="show files" >}}* /usr/include/KF5/BluezQt/BluezQt/Adapter
+A Qt wrapper for bluez{{< files text="show files" >}}* /usr/include/KF5/BluezQt/BluezQt/Adapter
 * /usr/include/KF5/BluezQt/bluezqt/adapter.h
 * /usr/include/KF5/BluezQt/BluezQt/Agent
 * /usr/include/KF5/BluezQt/bluezqt/agent.h
@@ -108,4 +108,4 @@ A Qt wrapper for bluez{{< spoiler text="show files" >}}* /usr/include/KF5/BluezQ
 * /usr/share/qt5/qml/org/kde/bluezqt/DevicesModel.qml
 * /usr/share/qt5/qml/org/kde/bluezqt/libbluezqtextensionplugin.so
 * /usr/share/qt5/qml/org/kde/bluezqt/qmldir
-{{< /spoiler >}}
+{{< /files >}}

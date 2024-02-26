@@ -14,7 +14,7 @@ sha1sum = "ee33b58122003d3f4f2e6a788ce19ce568a6a6f6"
 depends = "['ncurses>=6.0-3', 'openssl>=3.1.0']"
 reverse_depends = "['elixir', 'erlang-odbc']"
 +++
-A programming language designed at the Ericsson Computer Science Laboratory.{{< spoiler text="show files" >}}* /usr/bin/beam
+A programming language designed at the Ericsson Computer Science Laboratory.{{< files text="show files" >}}* /usr/bin/beam
 * /usr/bin/ct_run
 * /usr/bin/dialyzer
 * /usr/bin/epmd
@@ -5479,4 +5479,4 @@ A programming language designed at the Ericsson Computer Science Laboratory.{{< 
 * /usr/share/man/man7erl/SNMPv2-TM.7erl.gz
 * /usr/share/man/man7erl/STANDARD-MIB.7erl.gz
 * /usr/share/man/man7erl/TRANSPORT-ADDRESS-MIB.7erl.gz
-{{< /spoiler >}}
+{{< /files >}}

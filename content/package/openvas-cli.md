@@ -13,7 +13,7 @@ usize = "119724"
 sha1sum = "b1055faca03ef5d85cb387e514cb89757f802c7e"
 depends = "['openvas-manager', 'openvas-scanner', 'python3>=3.8.3', 'python3-gvm']"
 +++
-OpenVAS command line client{{< spoiler text="show files" >}}* /usr/bin/gvm-cli
+OpenVAS command line client{{< files text="show files" >}}* /usr/bin/gvm-cli
 * /usr/bin/gvm-pyshell
 * /usr/bin/gvm-script
 * /usr/lib/python3.12/site-packages/gvmtools/cli.py
@@ -40,4 +40,4 @@ OpenVAS command line client{{< spoiler text="show files" >}}* /usr/bin/gvm-cli
 * /usr/share/doc/openvas-cli-20.10.1/LICENSE
 * /usr/share/doc/openvas-cli-20.10.1/README.md
 * /usr/share/doc/openvas-cli-20.10.1/RELEASE.md
-{{< /spoiler >}}
+{{< /files >}}

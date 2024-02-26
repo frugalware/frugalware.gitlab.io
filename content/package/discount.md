@@ -14,7 +14,7 @@ sha1sum = "98ac50ce0557180529a1e176dc3cb16e03e765be"
 depends = "['glibc>=2.34']"
 reverse_depends = "['kdepim-addons', 'labplot', 'okular']"
 +++
-A Markdown implementation written in C{{< spoiler text="show files" >}}* /usr/bin/makepage
+A Markdown implementation written in C{{< files text="show files" >}}* /usr/bin/makepage
 * /usr/bin/markdown
 * /usr/bin/mkd2html
 * /usr/bin/theme
@@ -50,4 +50,4 @@ A Markdown implementation written in C{{< spoiler text="show files" >}}* /usr/bi
 * /usr/share/man/man3/mkd_string.3.gz
 * /usr/share/man/man7/markdown.7.gz
 * /usr/share/man/man7/mkd-extensions.7.gz
-{{< /spoiler >}}
+{{< /files >}}

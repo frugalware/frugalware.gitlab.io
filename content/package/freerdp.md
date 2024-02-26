@@ -14,7 +14,7 @@ sha1sum = "b2c3d109ed33081dc0e6af9e2fb8c0d299124223"
 depends = "['ffmpeg', 'fuse3', 'libcups', 'libkrb5', 'libkrb5', 'libxcursor', 'libxdamage', 'libxinerama', 'libxkbcommon', 'libxkbfile', 'libxrandr', 'sdl2_ttf']"
 reverse_depends = "['krdc', 'remmina-rdp']"
 +++
-Remote Desktop Protocol cliente{{< spoiler text="show files" >}}* /usr/bin/freerdp-proxy
+Remote Desktop Protocol cliente{{< files text="show files" >}}* /usr/bin/freerdp-proxy
 * /usr/bin/freerdp-shadow-cli
 * /usr/bin/sdl-freerdp
 * /usr/bin/sfreerdp
@@ -376,4 +376,4 @@ Remote Desktop Protocol cliente{{< spoiler text="show files" >}}* /usr/bin/freer
 * /usr/share/man/man1/wlfreerdp.1.gz
 * /usr/share/man/man1/xfreerdp.1.gz
 * /usr/share/man/man7/wlog.7.gz
-{{< /spoiler >}}
+{{< /files >}}

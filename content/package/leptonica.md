@@ -14,7 +14,7 @@ sha1sum = "d42560e2bed61180e575c3b919e6e48b7fed5320"
 depends = "['libgif', 'libjpeg-turbo', 'libpng', 'libtiff']"
 reverse_depends = "['tesseract-ocr']"
 +++
-Software that is broadly useful for image processing and image analysis applications{{< spoiler text="show files" >}}* /usr/bin/convertfilestopdf
+Software that is broadly useful for image processing and image analysis applications{{< files text="show files" >}}* /usr/bin/convertfilestopdf
 * /usr/bin/convertfilestops
 * /usr/bin/convertformat
 * /usr/bin/convertsegfilestopdf
@@ -68,4 +68,4 @@ Software that is broadly useful for image processing and image analysis applicat
 * /usr/lib/pkgconfig/lept.pc
 * /usr/share/doc/leptonica-1.83.0/README.html
 * /usr/share/doc/leptonica-1.83.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

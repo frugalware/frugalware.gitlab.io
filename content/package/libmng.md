@@ -14,7 +14,7 @@ sha1sum = "6f6d5c7a5acf43868ce5ec44b1547d0b894e04d5"
 depends = "['lcms2>=2.8-3']"
 reverse_depends = "['bootsplash', 'devil', 'gimp', 'mpv', 'qt5-imageformats', 'qt6-imageformats', 'xine-lib']"
 +++
-A collection of routines used to create and manipulate MNG format graphics files{{< spoiler text="show files" >}}* /usr/include/libmng.h
+A collection of routines used to create and manipulate MNG format graphics files{{< files text="show files" >}}* /usr/include/libmng.h
 * /usr/include/libmng_conf.h
 * /usr/include/libmng_types.h
 * /usr/lib/libmng.so
@@ -35,4 +35,4 @@ A collection of routines used to create and manipulate MNG format graphics files
 * /usr/share/man/man3/libmng.3.gz
 * /usr/share/man/man5/jng.5.gz
 * /usr/share/man/man5/mng.5.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "26100786"
 sha1sum = "7f76e1fcc8981fd69ed0df6f39000bb65f6ce32a"
 depends = "['texlive=2023.0']"
 +++
-Extra science packages for TeX Live{{< spoiler text="show files" >}}* /usr/bin/pygmentex
+Extra science packages for TeX Live{{< files text="show files" >}}* /usr/bin/pygmentex
 * /usr/bin/ulqda
 * /usr/share/texmf-dist/bibtex/bst/computational-complexity/cc.bst
 * /usr/share/texmf-dist/bibtex/bst/computational-complexity/cc2.bst
@@ -915,4 +915,4 @@ Extra science packages for TeX Live{{< spoiler text="show files" >}}* /usr/bin/p
 * /usr/share/texmf-dist/tex/latex/yhmath/yhmath.sty
 * /usr/share/texmf-dist/tex/latex/ytableau/ytableau.sty
 * /usr/share/texmf-dist/tex/plain/enigma/enigma.tex
-{{< /spoiler >}}
+{{< /files >}}

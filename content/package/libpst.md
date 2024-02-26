@@ -14,7 +14,7 @@ sha1sum = "5139902a5863a7753446599ce345b7558aef553f"
 depends = "['libgsf>=1.14.40-3']"
 reverse_depends = "['libpst-python']"
 +++
-Utilities to convert Outlook .pst files to other formats{{< spoiler text="show files" >}}* /usr/bin/lspst
+Utilities to convert Outlook .pst files to other formats{{< files text="show files" >}}* /usr/bin/lspst
 * /usr/bin/nick2ldif
 * /usr/bin/pst2ldif
 * /usr/bin/readpst
@@ -256,4 +256,4 @@ Utilities to convert Outlook .pst files to other formats{{< spoiler text="show f
 * /usr/share/man/man1/pst2ldif.1.gz
 * /usr/share/man/man1/readpst.1.gz
 * /usr/share/man/man5/outlook.pst.5.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "363f3f49965be39af163349cbf37acaa55920711"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['blosc', 'chromium-browser', 'ospray', 'qemu', 'qt5-webengine', 'qt6-webengine', 'wireshark']"
 +++
-Snappy is a compression/decompression library which aim for very high speeds and reasonable compression{{< spoiler text="show files" >}}* /usr/include/snappy-c.h
+Snappy is a compression/decompression library which aim for very high speeds and reasonable compression{{< files text="show files" >}}* /usr/include/snappy-c.h
 * /usr/include/snappy-sinksource.h
 * /usr/include/snappy-stubs-public.h
 * /usr/include/snappy.h
@@ -30,4 +30,4 @@ Snappy is a compression/decompression library which aim for very high speeds and
 * /usr/share/doc/snappy-1.1.10/COPYING
 * /usr/share/doc/snappy-1.1.10/NEWS
 * /usr/share/doc/snappy-1.1.10/README.md
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "2321152"
 sha1sum = "6dde341152b1507fc92c770b59dfb84a33b789a7"
 depends = "['libpq>=12.17', 'libxml2>=2.9.4-3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.12', 'readline>=6.3-14']"
 +++
-Seperate latest 12 PGSQL for pg_upgrade{{< spoiler text="show files" >}}* /opt/pgsql-12/bin/oid2name
+Seperate latest 12 PGSQL for pg_upgrade{{< files text="show files" >}}* /opt/pgsql-12/bin/oid2name
 * /opt/pgsql-12/bin/pg_standby
 * /opt/pgsql-12/bin/vacuumlo
 * /opt/pgsql-12/include/server/extension/cube/cubedata.h
@@ -306,4 +306,4 @@ Seperate latest 12 PGSQL for pg_upgrade{{< spoiler text="show files" >}}* /opt/p
 * /usr/share/doc/postgresql-upgrade-from-12-12.17/HISTORY
 * /usr/share/doc/postgresql-upgrade-from-12-12.17/INSTALL
 * /usr/share/doc/postgresql-upgrade-from-12-12.17/README
-{{< /spoiler >}}
+{{< /files >}}

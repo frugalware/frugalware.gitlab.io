@@ -13,5 +13,5 @@ usize = "46992"
 sha1sum = "9307c03f675cf0cf06c149f34afd79eba036465d"
 depends = "['gst1-plugins-base>=1.22.10', 'gst1-plugins-ugly>=1.22.10', 'libdvdread>=6.1.1', 'libffi>=3.2.1-2']"
 +++
-GStreamer dvdread plugin (Ugly).{{< spoiler text="show files" >}}* /usr/lib/gstreamer-1.0/libgstdvdread.so
-{{< /spoiler >}}
+GStreamer dvdread plugin (Ugly).{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstdvdread.so
+{{< /files >}}

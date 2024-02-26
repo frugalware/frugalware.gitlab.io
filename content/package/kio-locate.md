@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "e9eb215fe7d772e48f87413cb748b1e33a85ceb0"
 depends = "[]"
 +++
-kio-locate is a KDE I/O Slave for the locate command.{{< spoiler text="show files" >}}* usr/lib/kde3/kio_locate.la
+kio-locate is a KDE I/O Slave for the locate command.{{< files text="show files" >}}* usr/lib/kde3/kio_locate.la
 * usr/lib/kde3/kio_locate.so
 * usr/share/doc/HTML/en/kio-locate/common
 * usr/share/doc/HTML/en/kio-locate/index.cache.bz2
@@ -29,4 +29,4 @@ kio-locate is a KDE I/O Slave for the locate command.{{< spoiler text="show file
 * usr/share/services/locater.protocol
 * usr/share/services/rlocate.protocol
 * usr/share/services/searchproviders/locate.desktop
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "81341969e6794ef7ee52076f0735914d1ddb5a56"
 depends = "['qt5-declarative>=5.15.12']"
 reverse_depends = "['kirigami2', 'meshroom', 'plank-player', 'plasma-desktop']"
 +++
-The Qt5 toolkit, qtgraphicaleffects{{< spoiler text="show files" >}}* /usr/share/qt5/qml/QtGraphicalEffects/Blend.qml
+The Qt5 toolkit, qtgraphicaleffects{{< files text="show files" >}}* /usr/share/qt5/qml/QtGraphicalEffects/Blend.qml
 * /usr/share/qt5/qml/QtGraphicalEffects/BrightnessContrast.qml
 * /usr/share/qt5/qml/QtGraphicalEffects/Colorize.qml
 * /usr/share/qt5/qml/QtGraphicalEffects/ColorOverlay.qml
@@ -60,4 +60,4 @@ The Qt5 toolkit, qtgraphicaleffects{{< spoiler text="show files" >}}* /usr/share
 * /usr/share/qt5/qml/QtGraphicalEffects/RecursiveBlur.qml
 * /usr/share/qt5/qml/QtGraphicalEffects/ThresholdMask.qml
 * /usr/share/qt5/qml/QtGraphicalEffects/ZoomBlur.qml
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "9049773"
 sha1sum = "71c8581570db5f59867648aac9f58c0335fb1246"
 depends = "['libstdc++']"
 +++
-Compact Language Detector 2{{< spoiler text="show files" >}}* /usr/include/cld2/cld2tablesummary.h
+Compact Language Detector 2{{< files text="show files" >}}* /usr/include/cld2/cld2tablesummary.h
 * /usr/include/cld2/cld2_dynamic_compat.h
 * /usr/include/cld2/cld2_dynamic_data.h
 * /usr/include/cld2/cld2_dynamic_data_extractor.h
@@ -48,4 +48,4 @@ Compact Language Detector 2{{< spoiler text="show files" >}}* /usr/include/cld2/
 * /usr/lib/libcld2_full.so
 * /usr/share/doc/cld2-2020.4.0/LICENSE
 * /usr/share/doc/cld2-2020.4.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

@@ -15,10 +15,10 @@ depends = "['libxkbfile>=1.0.9-2', 'libxrandr']"
 reverse_depends = "['i3', 'plasma-desktop']"
 license = "GPL2"
 +++
-X.Org setxkbmap application{{< spoiler text="show files" >}}* /usr/bin/setxkbmap
+X.Org setxkbmap application{{< files text="show files" >}}* /usr/bin/setxkbmap
 * /usr/share/doc/setxkbmap-1.3.4/ChangeLog
 * /usr/share/doc/setxkbmap-1.3.4/COPYING
 * /usr/share/doc/setxkbmap-1.3.4/INSTALL
 * /usr/share/doc/setxkbmap-1.3.4/README.md
 * /usr/share/man/man1/setxkbmap.1.gz
-{{< /spoiler >}}
+{{< /files >}}

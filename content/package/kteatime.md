@@ -13,7 +13,7 @@ usize = "763655"
 sha1sum = "7a2e67de03bcb860b25d7a3fd07cf285c53df9bf"
 depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5']"
 +++
-Tea Cooker.{{< spoiler text="show files" >}}* /usr/bin/kteatime
+Tea Cooker.{{< files text="show files" >}}* /usr/bin/kteatime
 * /usr/share/applications/org.kde.kteatime.desktop
 * /usr/share/doc/HTML/ca/kteatime/index.cache.bz2
 * /usr/share/doc/HTML/ca/kteatime/index.docbook
@@ -131,4 +131,4 @@ Tea Cooker.{{< spoiler text="show files" >}}* /usr/bin/kteatime
 * /usr/share/locale/zh_CN/LC_MESSAGES/kteatime.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kteatime.mo
 * /usr/share/metainfo/org.kde.kteatime.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

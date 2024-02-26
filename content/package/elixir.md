@@ -13,7 +13,7 @@ usize = "7115945"
 sha1sum = "4147473b4e7a5347dfc0b4eb16c265d4cdde7426"
 depends = "['erlang>=26.1']"
 +++
-a functional meta-programming aware language built on top of the Erlang VM{{< spoiler text="show files" >}}* /usr/bin/elixir
+a functional meta-programming aware language built on top of the Erlang VM{{< files text="show files" >}}* /usr/bin/elixir
 * /usr/bin/elixirc
 * /usr/bin/iex
 * /usr/bin/mix
@@ -460,4 +460,4 @@ a functional meta-programming aware language built on top of the Erlang VM{{< sp
 * /usr/share/man/man1/elixirc.1.gz
 * /usr/share/man/man1/iex.1.gz
 * /usr/share/man/man1/mix.1.gz
-{{< /spoiler >}}
+{{< /files >}}

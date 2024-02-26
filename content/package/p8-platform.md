@@ -14,7 +14,7 @@ sha1sum = "27e79b34c89d242884841817e4314ea4f1d002bd"
 depends = "['libstdc++']"
 reverse_depends = "['libcec']"
 +++
-Platform support library used by libCEC and binary add-ons for Kodi{{< spoiler text="show files" >}}* /usr/include/p8-platform/os.h
+Platform support library used by libCEC and binary add-ons for Kodi{{< files text="show files" >}}* /usr/include/p8-platform/os.h
 * /usr/include/p8-platform/posix/os-socket.h
 * /usr/include/p8-platform/posix/os-threads.h
 * /usr/include/p8-platform/posix/os-types.h
@@ -36,4 +36,4 @@ Platform support library used by libCEC and binary add-ons for Kodi{{< spoiler t
 * /usr/lib/p8-platform/p8-platform-config.cmake
 * /usr/lib/pkgconfig/p8-platform.pc
 * /usr/share/doc/p8-platform-2.1.0.1/README.md
-{{< /spoiler >}}
+{{< /files >}}

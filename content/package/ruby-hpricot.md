@@ -11,10 +11,10 @@ arch = "x86_64"
 size = "591808"
 usize = "2691642"
 sha1sum = "aa34c7760e43c33072bb6ea6f6157aa8fa980aa2"
-depends = "['ruby>=3.3.0', 'ruby>=3.2.0']"
+depends = "['ruby>=3.2.0', 'ruby>=3.3.0']"
 reverse_depends = "['ruby-ronn']"
 +++
-A swift, liberal HTML parser with a fantastic library{{< spoiler text="show files" >}}* /usr/lib/ruby/gems/3.3.0/cache/hpricot-0.8.6.gem
+A swift, liberal HTML parser with a fantastic library{{< files text="show files" >}}* /usr/lib/ruby/gems/3.3.0/cache/hpricot-0.8.6.gem
 * /usr/lib/ruby/gems/3.3.0/doc/hpricot-0.8.6/ri/cache.ri
 * /usr/lib/ruby/gems/3.3.0/doc/hpricot-0.8.6/ri/ext/fast_xs/page-FastXsService_java.ri
 * /usr/lib/ruby/gems/3.3.0/doc/hpricot-0.8.6/ri/ext/fast_xs/page-Makefile.ri
@@ -317,4 +317,4 @@ A swift, liberal HTML parser with a fantastic library{{< spoiler text="show file
 * /usr/lib/ruby/gems/3.3.0/gems/hpricot-0.8.6/test/test_preserved.rb
 * /usr/lib/ruby/gems/3.3.0/gems/hpricot-0.8.6/test/test_xml.rb
 * /usr/lib/ruby/gems/3.3.0/specifications/hpricot-0.8.6.gemspec
-{{< /spoiler >}}
+{{< /files >}}

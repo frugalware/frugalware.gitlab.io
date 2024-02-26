@@ -14,7 +14,7 @@ sha1sum = "d6712d3d01a9c525c236798c112d1ffc8e42ca98"
 depends = "['bluez>=5.41-2', 'libusb1>=1.0.20-4']"
 reverse_depends = "['gpsd-qt', 'libmarble', 'plasma-workspace']"
 +++
-GPS daemon and library to support USB/serial GPS devices{{< spoiler text="show files" >}}* /etc/hotplug/usb/gpsd
+GPS daemon and library to support USB/serial GPS devices{{< files text="show files" >}}* /etc/hotplug/usb/gpsd
 * /etc/hotplug/usb/gpsd.usermap
 * /etc/sysconfig/gpsd
 * /etc/tmpfiles.d/gpsd.conf
@@ -106,4 +106,4 @@ GPS daemon and library to support USB/serial GPS devices{{< spoiler text="show f
 * /usr/share/man/man8/gpsinit.8.gz
 * /usr/share/man/man8/ppscheck.8.gz
 * /usr/share/snmp/mibs/gpsd/GPSD-MIB
-{{< /spoiler >}}
+{{< /files >}}

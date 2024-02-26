@@ -15,7 +15,7 @@ depends = "['dbus', 'libepoxy>=1.5.2', 'libgbm>=19.0.0', 'libglapi>=19.0.0', 'li
 reverse_depends = "['i3', 'ksynaptics', 'lumina-desktop', 'openbox', 'xf86-input-acecad', 'xf86-input-elographics', 'xf86-input-evdev', 'xf86-input-fpit', 'xf86-input-hyperpen', 'xf86-input-joystick', 'xf86-input-libinput', 'xf86-input-mouse', 'xf86-input-mtrack', 'xf86-input-mutouch', 'xf86-input-penmount', 'xf86-input-synaptics', 'xf86-input-vmmouse', 'xf86-input-void', 'xf86-input-wacom', 'xf86-video-amdgpu', 'xf86-video-ast', 'xf86-video-ati', 'xf86-video-chips', 'xf86-video-dummy', 'xf86-video-fbdev', 'xf86-video-i810', 'xf86-video-intel', 'xf86-video-nouveau', 'xf86-video-qxl', 'xf86-video-s3virge', 'xf86-video-sunbw2', 'xf86-video-suncg14', 'xf86-video-suncg3', 'xf86-video-suncg6', 'xf86-video-sunffb', 'xf86-video-sunleo', 'xf86-video-suntcx', 'xf86-video-vboxvideo', 'xf86-video-vesa', 'xf86-video-vmware', 'xorg-compat']"
 license = "GPL2"
 +++
-Modular X.Org X Server{{< spoiler text="show files" >}}* /usr/bin/gtf
+Modular X.Org X Server{{< files text="show files" >}}* /usr/bin/gtf
 * /usr/bin/X
 * /usr/bin/Xnest
 * /usr/bin/Xorg
@@ -211,4 +211,4 @@ Modular X.Org X Server{{< spoiler text="show files" >}}* /usr/bin/gtf
 * /usr/share/man/man5/xorg.conf.d.5.gz
 * /usr/share/X11/xorg.conf.d/10-quirks.conf
 * /var/lib/xkb/README.compiled
-{{< /spoiler >}}
+{{< /files >}}

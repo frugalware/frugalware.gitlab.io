@@ -13,7 +13,7 @@ usize = "1696856"
 sha1sum = "0955b252d3d57cd231e52678c08fb5229d4cff68"
 depends = "['python3>=3.10']"
 +++
-Standalone CFF subroutinizer based on AFDKO tx{{< spoiler text="show files" >}}* /usr/bin/cffsubr
+Standalone CFF subroutinizer based on AFDKO tx{{< files text="show files" >}}* /usr/bin/cffsubr
 * /usr/lib/python3.12/site-packages/cffsubr-0.2.9-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/cffsubr-0.2.9-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/cffsubr-0.2.9-py3.12.egg-info/not-zip-safe
@@ -30,4 +30,4 @@ Standalone CFF subroutinizer based on AFDKO tx{{< spoiler text="show files" >}}*
 * /usr/lib/python3.12/site-packages/cffsubr/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/cffsubr-0.2.9/LICENSE
 * /usr/share/doc/cffsubr-0.2.9/README.md
-{{< /spoiler >}}
+{{< /files >}}

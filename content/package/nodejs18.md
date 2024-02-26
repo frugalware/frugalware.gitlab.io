@@ -14,7 +14,7 @@ sha1sum = "0b40cb946fbbf9154511b1bd12c2db1b32bcd5c6"
 depends = "['brotli', 'c-ares', 'icu4c>=74.1', 'libuv', 'nghttp2>=1.41.0', 'python3-setuptools', 'zlib>=1.2.12']"
 license = "MIT"
 +++
-Evented I/O for V8 javascript (LTS release: Hydrogen){{< spoiler text="show files" >}}* /usr/bin/corepack
+Evented I/O for V8 javascript (LTS release: Hydrogen){{< files text="show files" >}}* /usr/bin/corepack
 * /usr/bin/node
 * /usr/bin/npm
 * /usr/bin/npx
@@ -2180,4 +2180,4 @@ Evented I/O for V8 javascript (LTS release: Hydrogen){{< spoiler text="show file
 * /usr/share/doc/nodejs18-18.19.0/README.md
 * /usr/share/man/man1/node.1.gz
 * /usr/share/systemtap/tapset/node.stp
-{{< /spoiler >}}
+{{< /files >}}

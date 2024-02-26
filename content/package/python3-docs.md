@@ -13,7 +13,7 @@ usize = "43438628"
 sha1sum = "25f385c0ac32b9fed4387d0ba3e418b138b3610a"
 depends = "[]"
 +++
-Documentation for the Python 3 scripting language{{< spoiler text="show files" >}}* /etc/profile.d/python3-docs.sh
+Documentation for the Python 3 scripting language{{< files text="show files" >}}* /etc/profile.d/python3-docs.sh
 * /usr/share/doc/python-3.6.7/.buildinfo
 * /usr/share/doc/python-3.6.7/about.html
 * /usr/share/doc/python-3.6.7/bugs.html
@@ -1019,4 +1019,4 @@ Documentation for the Python 3 scripting language{{< spoiler text="show files" >
 * /usr/share/doc/python-3.6.7/_static/up-pressed.png
 * /usr/share/doc/python-3.6.7/_static/up.png
 * /usr/share/doc/python-3.6.7/_static/websupport.js
-{{< /spoiler >}}
+{{< /files >}}

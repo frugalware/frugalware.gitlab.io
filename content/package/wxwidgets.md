@@ -14,7 +14,7 @@ sha1sum = "d9cb9d53866bb7f686bf61565b143b746704ea14"
 depends = "['gspell', 'libglu>=9.0.0-3', 'libmspack', 'libnotify>=0.7.6-3', 'libxslt>=1.1.28-3', 'libxxf86vm', 'sdl>=1.2.15-3', 'webkit-gtk3>=2.42.1']"
 reverse_depends = "['kicad', 'scummvm-tools', 'wxmaxima']"
 +++
-GTK+ implementation of wxWidgets API for GUI (Development Release){{< spoiler text="show files" >}}* /usr/bin/wx-config
+GTK+ implementation of wxWidgets API for GUI (Development Release){{< files text="show files" >}}* /usr/bin/wx-config
 * /usr/bin/wxrc
 * /usr/bin/wxrc-3.2
 * /usr/include/wx-3.2/wx/aboutdlg.h
@@ -1579,4 +1579,4 @@ GTK+ implementation of wxWidgets API for GUI (Development Release){{< spoiler te
 * /usr/lib/wx/include/gtk3-unicode-3.2/wx/setup.h
 * /usr/share/doc/wxwidgets-3.2.2.1/README-GIT.md
 * /usr/share/doc/wxwidgets-3.2.2.1/README.md
-{{< /spoiler >}}
+{{< /files >}}

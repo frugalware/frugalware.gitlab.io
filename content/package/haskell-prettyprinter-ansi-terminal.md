@@ -14,7 +14,7 @@ sha1sum = "f6b7aa2afdcf453e147e688dbc6dc7b7cec81d87"
 depends = "['haskell-ansi-terminal', 'haskell-prettyprinter']"
 reverse_depends = "['haskell-optparse-applicative']"
 +++
-ANSI terminal backend for the »prettyprinter« package.{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/prettyprinter-ansi-terminal-1.1.3/Data/Text/Prettyprint/Doc/Render/Terminal.dyn_hi
+ANSI terminal backend for the »prettyprinter« package.{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/prettyprinter-ansi-terminal-1.1.3/Data/Text/Prettyprint/Doc/Render/Terminal.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/prettyprinter-ansi-terminal-1.1.3/Data/Text/Prettyprint/Doc/Render/Terminal.hi
 * /usr/lib/ghc-9.8.1/site-local/prettyprinter-ansi-terminal-1.1.3/Data/Text/Prettyprint/Doc/Render/Terminal/Internal.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/prettyprinter-ansi-terminal-1.1.3/Data/Text/Prettyprint/Doc/Render/Terminal/Internal.hi
@@ -42,4 +42,4 @@ ANSI terminal backend for the »prettyprinter« package.{{< spoiler text="show f
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/prettyprinter-ansi-terminal-1.1.3/LICENSE.md
 * /usr/share/haskell/haskell-prettyprinter-ansi-terminal/register.sh
 * /usr/share/haskell/haskell-prettyprinter-ansi-terminal/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

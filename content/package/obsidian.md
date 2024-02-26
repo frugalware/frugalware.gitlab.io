@@ -13,4 +13,4 @@ usize = "0"
 sha1sum = ""
 depends = "['fuse', 'hicolor-icon-theme', 'zlib']"
 +++
-A powerful knowledge base that works on top of a local folder of plain text Markdown files{{< spoiler text="show files" >}}{{< /spoiler >}}
+A powerful knowledge base that works on top of a local folder of plain text Markdown files{{< files text="show files" >}}{{< /files >}}

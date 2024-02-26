@@ -14,7 +14,7 @@ sha1sum = "c1292f567311294baedb39c3f0f4fbf8d9cfe3bf"
 depends = "['qt5-base>=5.15.12']"
 reverse_depends = "['grantlee', 'ki18n', 'mixxx', 'otter-browser', 'qbs', 'smplayer', 'sqlitestudio', 'stellarium', 'texmaker', 'texstudio', 'texworks']"
 +++
-The Qt5 toolkit, qtscript{{< spoiler text="show files" >}}* /usr/include/qt5/QtScript/5.15.12/QtScript/private/qscriptable_p.h
+The Qt5 toolkit, qtscript{{< files text="show files" >}}* /usr/include/qt5/QtScript/5.15.12/QtScript/private/qscriptable_p.h
 * /usr/include/qt5/QtScript/5.15.12/QtScript/private/qscriptactivationobject_p.h
 * /usr/include/qt5/QtScript/5.15.12/QtScript/private/qscriptastfwd_p.h
 * /usr/include/qt5/QtScript/5.15.12/QtScript/private/qscriptastvisitor_p.h
@@ -184,4 +184,4 @@ The Qt5 toolkit, qtscript{{< spoiler text="show files" >}}* /usr/include/qt5/QtS
 * /usr/share/qt5/mkspecs/modules/qt_lib_scripttools.pri
 * /usr/share/qt5/mkspecs/modules/qt_lib_scripttools_private.pri
 * /usr/share/qt5/mkspecs/modules/qt_lib_script_private.pri
-{{< /spoiler >}}
+{{< /files >}}

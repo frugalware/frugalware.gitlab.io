@@ -13,7 +13,7 @@ usize = "1000457"
 sha1sum = "f8d244fd0acec4e8614ebc9e87ef9c1cc43e0dec"
 depends = "['libkdegames>=23.08.5', 'qt5-svg>=5.15.12']"
 +++
-An addictive and fun dice game.{{< spoiler text="show files" >}}* /usr/bin/kiriki
+An addictive and fun dice game.{{< files text="show files" >}}* /usr/bin/kiriki
 * /usr/share/applications/org.kde.kiriki.desktop
 * /usr/share/doc/HTML/ca/kiriki/configuration.png
 * /usr/share/doc/HTML/ca/kiriki/gameboard.png
@@ -123,4 +123,4 @@ An addictive and fun dice game.{{< spoiler text="show files" >}}* /usr/bin/kirik
 * /usr/share/locale/zh_CN/LC_MESSAGES/kiriki.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kiriki.mo
 * /usr/share/metainfo/org.kde.kiriki.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

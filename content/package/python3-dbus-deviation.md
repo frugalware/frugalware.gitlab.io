@@ -14,7 +14,7 @@ sha1sum = "9113c4b902e0ecab0ddb33213f5eb06080ca72a4"
 depends = "['python3-lxml']"
 reverse_depends = "['hotdoc']"
 +++
-Parser for D-Bus introspection XML and processing it in various ways{{< spoiler text="show files" >}}* /usr/bin/dbus-interface-diff
+Parser for D-Bus introspection XML and processing it in various ways{{< files text="show files" >}}* /usr/bin/dbus-interface-diff
 * /usr/bin/dbus-interface-vcs-helper
 * /usr/lib/python3.12/site-packages/dbusapi/ast.py
 * /usr/lib/python3.12/site-packages/dbusapi/interfaceparser.py
@@ -86,4 +86,4 @@ Parser for D-Bus introspection XML and processing it in various ways{{< spoiler 
 * /usr/share/doc/python3-dbus-deviation-0.6.1/HACKING
 * /usr/share/doc/python3-dbus-deviation-0.6.1/NEWS
 * /usr/share/doc/python3-dbus-deviation-0.6.1/README.md
-{{< /spoiler >}}
+{{< /files >}}

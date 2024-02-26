@@ -13,7 +13,7 @@ usize = "1151298"
 sha1sum = "eee783db0afcb99260645216bae88a4c376ba7fe"
 depends = "['ncurses>=6.1-2']"
 +++
-Enhanced version of the Berkeley C shell{{< spoiler text="show files" >}}* /etc/csh.login
+Enhanced version of the Berkeley C shell{{< files text="show files" >}}* /etc/csh.login
 * /usr/bin/csh
 * /usr/bin/tcsh
 * /usr/share/doc/tcsh-6.24.10/BUGS
@@ -32,4 +32,4 @@ Enhanced version of the Berkeley C shell{{< spoiler text="show files" >}}* /etc/
 * /usr/share/locale/ru/LC_MESSAGES/tcsh.cat
 * /usr/share/locale/ru_UA/LC_MESSAGES/tcsh.cat
 * /usr/share/man/man1/tcsh.1.gz
-{{< /spoiler >}}
+{{< /files >}}

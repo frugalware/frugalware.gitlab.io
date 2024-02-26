@@ -14,7 +14,7 @@ sha1sum = "9936275330cbb54cd296acb64d3276451138f985"
 depends = "['qt6-declarative', 'qt6-serialport']"
 reverse_depends = "['qt6-location', 'qt6-webengine', 'yin-yang']"
 +++
-The Qt6 toolkit, qtpositioning{{< spoiler text="show files" >}}* /usr/include/qt6/QtPositioning/6.6.2/QtPositioning/private/qclipperutils_p.h
+The Qt6 toolkit, qtpositioning{{< files text="show files" >}}* /usr/include/qt6/QtPositioning/6.6.2/QtPositioning/private/qclipperutils_p.h
 * /usr/include/qt6/QtPositioning/6.6.2/QtPositioning/private/qdoublematrix4x4_p.h
 * /usr/include/qt6/QtPositioning/6.6.2/QtPositioning/private/qdoublevector2d_p.h
 * /usr/include/qt6/QtPositioning/6.6.2/QtPositioning/private/qdoublevector3d_p.h
@@ -166,4 +166,4 @@ The Qt6 toolkit, qtpositioning{{< spoiler text="show files" >}}* /usr/include/qt
 * /usr/lib/qt6/qml/QtPositioning/libpositioningquickplugin.so
 * /usr/lib/qt6/qml/QtPositioning/plugins.qmltypes
 * /usr/lib/qt6/qml/QtPositioning/qmldir
-{{< /spoiler >}}
+{{< /files >}}

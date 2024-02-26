@@ -13,6 +13,6 @@ usize = "0"
 sha1sum = "17f4a94daffca9cde85bcefd38809b26360d2cf6"
 depends = "['gtk+2']"
 +++
-GTK frontend to Xvidcap{{< spoiler text="show files" >}}* usr/bin/gvidcap
+GTK frontend to Xvidcap{{< files text="show files" >}}* usr/bin/gvidcap
 * usr/man/man1/gvidcap.1.gz
-{{< /spoiler >}}
+{{< /files >}}

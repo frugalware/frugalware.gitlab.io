@@ -13,7 +13,7 @@ usize = "11509798"
 sha1sum = "2a7021030c5ae764a8c99b76213e7c7bef8232ff"
 depends = "['kdevelop', 'python3>=3.12']"
 +++
-Python Language Plugin for KDevelop{{< spoiler text="show files" >}}* /usr/lib/libkdevpythoncompletion.so
+Python Language Plugin for KDevelop{{< files text="show files" >}}* /usr/lib/libkdevpythoncompletion.so
 * /usr/lib/libkdevpythonduchain.so
 * /usr/lib/libkdevpythonparser.so
 * /usr/lib/qt5/plugins/kdevplatform/512/kdevpdb.so
@@ -205,4 +205,4 @@ Python Language Plugin for KDevelop{{< spoiler text="show files" >}}* /usr/lib/l
 * /usr/share/locale/zh_TW/LC_MESSAGES/kdevpython.mo
 * /usr/share/metainfo/org.kde.kdev-python.metainfo.xml
 * /usr/share/qlogging-categories5/kdevpythonsupport.categories
-{{< /spoiler >}}
+{{< /files >}}

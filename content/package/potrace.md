@@ -14,7 +14,7 @@ sha1sum = "c6d928888abdf7ee502fda960c1d0f900dfe3f32"
 depends = "['zlib>=1.2.12']"
 reverse_depends = "['blender', 'inkscape', 'mftrace', 'potracegui', 'texlive']"
 +++
-Transforming bitmaps into vector graphics{{< spoiler text="show files" >}}* /usr/bin/mkbitmap
+Transforming bitmaps into vector graphics{{< files text="show files" >}}* /usr/bin/mkbitmap
 * /usr/bin/potrace
 * /usr/include/potracelib.h
 * /usr/lib/libpotrace.so
@@ -30,4 +30,4 @@ Transforming bitmaps into vector graphics{{< spoiler text="show files" >}}* /usr
 * /usr/share/doc/potrace-1.16/README-WIN
 * /usr/share/man/man1/mkbitmap.1.gz
 * /usr/share/man/man1/potrace.1.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "f27ef9616d72ed847ae3e6f82b979ac020e6917b"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['efl', 'enlightenment', 'harfbuzz', 'libreoffice', 'terminology', 'texlive']"
 +++
-Font rendering capabilities for complex non-Roman writing systems{{< spoiler text="show files" >}}* /usr/bin/gr2fonttest
+Font rendering capabilities for complex non-Roman writing systems{{< files text="show files" >}}* /usr/bin/gr2fonttest
 * /usr/include/graphite2/Font.h
 * /usr/include/graphite2/Log.h
 * /usr/include/graphite2/Segment.h
@@ -29,4 +29,4 @@ Font rendering capabilities for complex non-Roman writing systems{{< spoiler tex
 * /usr/share/doc/graphite2-1.3.14/README.md
 * /usr/share/graphite2/graphite2-release.cmake
 * /usr/share/graphite2/graphite2.cmake
-{{< /spoiler >}}
+{{< /files >}}

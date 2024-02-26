@@ -15,7 +15,7 @@ depends = "['avahi', 'bullet>=2.89', 'bzip2', 'dbus', 'expat', 'flac', 'fontconf
 reverse_depends = "['eflete', 'enlightenment', 'enventor', 'python-efl', 'rage', 'terminology']"
 license = "LGPL2.1"
 +++
-Enlightenment Foundation Libraries{{< spoiler text="show files" >}}* /usr/bin/diffeet
+Enlightenment Foundation Libraries{{< files text="show files" >}}* /usr/bin/diffeet
 * /usr/bin/ecore_evas_convert
 * /usr/bin/edje_cc
 * /usr/bin/edje_codegen
@@ -3407,4 +3407,4 @@ Enlightenment Foundation Libraries{{< spoiler text="show files" >}}* /usr/bin/di
 * /usr/share/locale/zh_CN/LC_MESSAGES/efl.mo
 * /usr/share/mime/packages/edje.xml
 * /usr/share/mime/packages/evas.xml
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "20387587"
 sha1sum = "7559d2c236d0331845de7fce86065657cfa9f96c"
 depends = "[]"
 +++
-Development files for glibc.{{< spoiler text="show files" >}}* /usr/include/a.out.h
+Development files for glibc.{{< files text="show files" >}}* /usr/include/a.out.h
 * /usr/include/aio.h
 * /usr/include/aliases.h
 * /usr/include/alloca.h
@@ -547,4 +547,4 @@ Development files for glibc.{{< spoiler text="show files" >}}* /usr/include/a.ou
 * /usr/lib32/Mcrt1.o
 * /usr/lib32/rcrt1.o
 * /usr/lib32/Scrt1.o
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "6585136"
 sha1sum = "3e66a7ef0710e163622798fe75311a1cd7a4c754"
 depends = "[]"
 +++
-Hangul hanja input support.{{< spoiler text="show files" >}}* /usr/bin/hangul
+Hangul hanja input support.{{< files text="show files" >}}* /usr/bin/hangul
 * /usr/include/hangul-1.0/hangul.h
 * /usr/lib/libhangul.so
 * /usr/lib/libhangul.so.1
@@ -26,4 +26,4 @@ Hangul hanja input support.{{< spoiler text="show files" >}}* /usr/bin/hangul
 * /usr/share/doc/libhangul-0.1.0/README
 * /usr/share/libhangul/hanja/hanja.txt
 * /usr/share/locale/ko/LC_MESSAGES/libhangul.mo
-{{< /spoiler >}}
+{{< /files >}}

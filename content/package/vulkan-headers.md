@@ -14,7 +14,7 @@ sha1sum = "eeb5e6c663db0e706a7126865e0eba5e27e4d355"
 depends = "['glibc>=2.35']"
 reverse_depends = "['qt6-base']"
 +++
-Vulkan Header files and API registry{{< spoiler text="show files" >}}* /usr/include/vk_video/vulkan_video_codecs_common.h
+Vulkan Header files and API registry{{< files text="show files" >}}* /usr/include/vk_video/vulkan_video_codecs_common.h
 * /usr/include/vk_video/vulkan_video_codec_h264std.h
 * /usr/include/vk_video/vulkan_video_codec_h264std_decode.h
 * /usr/include/vk_video/vulkan_video_codec_h264std_encode.h
@@ -72,4 +72,4 @@ Vulkan Header files and API registry{{< spoiler text="show files" >}}* /usr/incl
 * /usr/share/vulkan/registry/video.xml
 * /usr/share/vulkan/registry/vk.xml
 * /usr/share/vulkan/registry/vkconventions.py
-{{< /spoiler >}}
+{{< /files >}}

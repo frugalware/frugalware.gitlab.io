@@ -14,7 +14,7 @@ sha1sum = "1bb3dc4dcb355e5058be0fdc53c7604efb6e7ac4"
 depends = "['libstdc++>=12.2']"
 reverse_depends = "['cln', 'coreutils', 'ecm', 'frobby', 'ghc', 'glpk', 'guile', 'julia', 'libisl', 'libsecp256k1', 'libtomcrypt', 'mpfr', 'ncurses', 'nettle', 'nftables', 'pari', 'python3-pycryptodome', 'ruby', 'strongswan']"
 +++
-GNU multiple precision arithmetic library{{< spoiler text="show files" >}}* /usr/include/gmp.h
+GNU multiple precision arithmetic library{{< files text="show files" >}}* /usr/include/gmp.h
 * /usr/include/gmpxx.h
 * /usr/lib/libgmp.so
 * /usr/lib/libgmp.so.10
@@ -37,4 +37,4 @@ GNU multiple precision arithmetic library{{< spoiler text="show files" >}}* /usr
 * /usr/share/info/gmp.info-1.gz
 * /usr/share/info/gmp.info-2.gz
 * /usr/share/info/gmp.info.gz
-{{< /spoiler >}}
+{{< /files >}}

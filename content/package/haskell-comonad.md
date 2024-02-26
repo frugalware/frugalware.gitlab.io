@@ -14,7 +14,7 @@ sha1sum = "3bdffbb615c4b8f3c5f918e148896c3f992bfca0"
 depends = "['haskell-distributive>=0.6.2.1-3', 'haskell-indexed-traversable', 'haskell-transformers-compat>=0.7']"
 reverse_depends = "['haskell-bifunctors']"
 +++
-Comonads{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/comonad-5.0.8/Control/Comonad.dyn_hi
+Comonads{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/comonad-5.0.8/Control/Comonad.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/comonad-5.0.8/Control/Comonad.hi
 * /usr/lib/ghc-9.8.1/site-local/comonad-5.0.8/Control/Comonad/Env.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/comonad-5.0.8/Control/Comonad/Env.hi
@@ -74,4 +74,4 @@ Comonads{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/comonad
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/comonad-5.0.8/LICENSE
 * /usr/share/haskell/haskell-comonad/register.sh
 * /usr/share/haskell/haskell-comonad/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

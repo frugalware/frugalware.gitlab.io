@@ -14,7 +14,7 @@ sha1sum = "700ddb3a336811d26955d1ebf544cc51b77aaa43"
 depends = "['thread-table']"
 reverse_depends = "['domainslib']"
 +++
-A scheduler independent blocking mechanism{{< spoiler text="show files" >}}* /usr/lib/ocaml/domain-local-await/Domain_local_await.a
+A scheduler independent blocking mechanism{{< files text="show files" >}}* /usr/lib/ocaml/domain-local-await/Domain_local_await.a
 * /usr/lib/ocaml/domain-local-await/Domain_local_await.cma
 * /usr/lib/ocaml/domain-local-await/domain_local_await.cmi
 * /usr/lib/ocaml/domain-local-await/domain_local_await.cmt
@@ -39,4 +39,4 @@ A scheduler independent blocking mechanism{{< spoiler text="show files" >}}* /us
 * /usr/share/doc/domain-local-await-1.0.0/domain-local-await/LICENSE.md
 * /usr/share/doc/domain-local-await-1.0.0/domain-local-await/README.md
 * /usr/share/doc/domain-local-await-1.0.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

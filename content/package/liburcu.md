@@ -15,7 +15,7 @@ depends = "['glibc>=2.34']"
 reverse_depends = "['multipath-tools', 'xfsprogs']"
 license = "LGPL2.1"
 +++
-Userspace RCU (read-copy-update) library{{< spoiler text="show files" >}}* /usr/include/urcu-bp.h
+Userspace RCU (read-copy-update) library{{< files text="show files" >}}* /usr/include/urcu-bp.h
 * /usr/include/urcu-call-rcu.h
 * /usr/include/urcu-defer.h
 * /usr/include/urcu-flavor.h
@@ -228,4 +228,4 @@ Userspace RCU (read-copy-update) library{{< spoiler text="show files" >}}* /usr/
 * /usr/share/doc/liburcu-0.14.0/README.md
 * /usr/share/doc/liburcu-0.14.0/solaris-build.md
 * /usr/share/doc/liburcu-0.14.0/uatomic-api.md
-{{< /spoiler >}}
+{{< /files >}}

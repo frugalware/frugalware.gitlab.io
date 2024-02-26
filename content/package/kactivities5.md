@@ -14,7 +14,7 @@ sha1sum = "ac35e2d35c113bcb19a55c856ae9ae6a2edea41b"
 depends = "['kio>=5.115.0']"
 reverse_depends = "['dolphin', 'gwenview', 'kactivities-stats', 'kde-cli-tools', 'kdeplasma-addons5', 'kio-extras', 'konqueror', 'okular', 'plasma-browser-integration', 'plasma-framework']"
 +++
-The KActivity Manager Daemon.{{< spoiler text="show files" >}}* /usr/bin/kactivities-cli
+The KActivity Manager Daemon.{{< files text="show files" >}}* /usr/bin/kactivities-cli
 * /usr/include/KF5/KActivities/KActivities/ActivitiesModel
 * /usr/include/KF5/KActivities/kactivities/activitiesmodel.h
 * /usr/include/KF5/KActivities/KActivities/Consumer
@@ -47,4 +47,4 @@ The KActivity Manager Daemon.{{< spoiler text="show files" >}}* /usr/bin/kactivi
 * /usr/share/qt5/mkspecs/modules/qt_KActivities.pri
 * /usr/share/qt5/qml/org/kde/activities/libkactivitiesextensionplugin.so
 * /usr/share/qt5/qml/org/kde/activities/qmldir
-{{< /spoiler >}}
+{{< /files >}}

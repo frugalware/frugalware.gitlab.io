@@ -13,7 +13,7 @@ usize = "624016"
 sha1sum = "fea59778aed4abbde7876976f3c6724d9c7fe412"
 depends = "['knotifications>=5.115.0', 'kxmlgui>=5.115.0']"
 +++
-KDE Ruler Widget.{{< spoiler text="show files" >}}* /usr/bin/kruler
+KDE Ruler Widget.{{< files text="show files" >}}* /usr/bin/kruler
 * /usr/share/applications/org.kde.kruler.desktop
 * /usr/share/doc/HTML/ca/kruler/index.cache.bz2
 * /usr/share/doc/HTML/ca/kruler/index.docbook
@@ -145,4 +145,4 @@ KDE Ruler Widget.{{< spoiler text="show files" >}}* /usr/bin/kruler
 * /usr/share/locale/zh_HK/LC_MESSAGES/kruler.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kruler.mo
 * /usr/share/metainfo/org.kde.kruler.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

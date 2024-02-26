@@ -13,7 +13,7 @@ usize = "44604"
 sha1sum = "e173859fc883158cc2c0c606cf54f25c265509fa"
 depends = "['kaccounts-integration', 'signon-plugin-oauth2']"
 +++
-OpenDesktop kaccount provider{{< spoiler text="show files" >}}* /usr/lib/qt5/plugins/attica_kde.so
+OpenDesktop kaccount provider{{< files text="show files" >}}* /usr/lib/qt5/plugins/attica_kde.so
 * /usr/share/accounts/providers/kde/opendesktop.provider
 * /usr/share/accounts/services/kde/opendesktop-rating.service
-{{< /spoiler >}}
+{{< /files >}}

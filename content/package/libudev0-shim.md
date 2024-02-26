@@ -13,6 +13,6 @@ usize = "14059"
 sha1sum = "b516c4aa2f65e9b949fa103ae8f3cccee54887bc"
 depends = "['libudev']"
 +++
-libudev.so.0 compatibility library for systems with newer udev versions{{< spoiler text="show files" >}}* /usr/lib/libudev.so.0
+libudev.so.0 compatibility library for systems with newer udev versions{{< files text="show files" >}}* /usr/lib/libudev.so.0
 * /usr/lib/libudev.so.0.0.9999
-{{< /spoiler >}}
+{{< /files >}}

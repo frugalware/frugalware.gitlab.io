@@ -13,7 +13,7 @@ usize = "3452617"
 sha1sum = "3a9bd71436d511435755ce741a70747e17f4f97e"
 depends = "[]"
 +++
-Esperanto Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale/eo/charset
+Esperanto Localization for KDE.{{< files text="show files" >}}* usr/share/locale/eo/charset
 * usr/share/locale/eo/entry.desktop
 * usr/share/locale/eo/flag.png
 * usr/share/locale/eo/LC_MESSAGES/akregator.mo
@@ -401,4 +401,4 @@ Esperanto Localization for KDE.{{< spoiler text="show files" >}}* usr/share/loca
 * usr/share/locale/eo/LC_MESSAGES/wakeup.mo
 * usr/share/locale/eo/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/eo/LC_MESSAGES/webarchiver.mo
-{{< /spoiler >}}
+{{< /files >}}

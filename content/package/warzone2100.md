@@ -13,7 +13,7 @@ usize = "395760592"
 sha1sum = "2c75082098b859ca37558338be1fe3d8426f7688"
 depends = "['curl', 'fmtlib', 'libsodium>=1.0.19', 'libzip', 'miniupnpc', 'ocl-icd', 'openal', 'opus', 'physfs']"
 +++
-3D realtime strategy game on a future Earth{{< spoiler text="show files" >}}* /usr/bin/warzone2100
+3D realtime strategy game on a future Earth{{< files text="show files" >}}* /usr/bin/warzone2100
 * /usr/share/applications/net.wz2100.warzone2100.desktop
 * /usr/share/doc/warzone2100-4.4.1/AUTHORS
 * /usr/share/doc/warzone2100-4.4.1/ChangeLog
@@ -175,4 +175,4 @@ depends = "['curl', 'fmtlib', 'libsodium>=1.0.19', 'libzip', 'miniupnpc', 'ocl-i
 * /usr/share/warzone2100/music/menu.opus
 * /usr/share/warzone2100/terrain_overrides/classic.wz
 * /usr/share/warzone2100/terrain_overrides/high.wz
-{{< /spoiler >}}
+{{< /files >}}

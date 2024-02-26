@@ -14,7 +14,7 @@ sha1sum = "09b1cccae72809fd2d8838235f147f9e674b67a9"
 depends = "['haskell-http-types', 'haskell-network', 'haskell-network-byte-order', 'haskell-network-control', 'haskell-time-manager']"
 reverse_depends = "['haskell-warp']"
 +++
-HTTP/2 library{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/http2-5.0.0/Imports.dyn_hi
+HTTP/2 library{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/http2-5.0.0/Imports.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/http2-5.0.0/Imports.hi
 * /usr/lib/ghc-9.8.1/site-local/http2-5.0.0/libHShttp2-5.0.0-CU2TdgpCBx9FFSLcCkWWs0.a
 * /usr/lib/ghc-9.8.1/site-local/http2-5.0.0/Network/HPACK.dyn_hi
@@ -167,4 +167,4 @@ HTTP/2 library{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/h
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/http2-5.0.0/LICENSE
 * /usr/share/haskell/haskell-http2/register.sh
 * /usr/share/haskell/haskell-http2/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

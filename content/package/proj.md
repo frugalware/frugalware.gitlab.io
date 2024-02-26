@@ -14,7 +14,7 @@ sha1sum = "601f0907454c60f3a09c75f0976a866a8bfa779c"
 depends = "['curl', 'libtiff']"
 reverse_depends = "['gdal', 'libgeotiff']"
 +++
-Cartographic projection software{{< spoiler text="show files" >}}* /usr/bin/cct
+Cartographic projection software{{< files text="show files" >}}* /usr/bin/cct
 * /usr/bin/cs2cs
 * /usr/bin/geod
 * /usr/bin/gie
@@ -72,4 +72,4 @@ Cartographic projection software{{< spoiler text="show files" >}}* /usr/bin/cct
 * /usr/share/proj/projjson.schema.json
 * /usr/share/proj/triangulation.schema.json
 * /usr/share/proj/world
-{{< /spoiler >}}
+{{< /files >}}

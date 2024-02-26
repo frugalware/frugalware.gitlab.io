@@ -11,9 +11,9 @@ arch = "x86_64"
 size = "5068788"
 usize = "37516263"
 sha1sum = "c538a7eb01075c366fc9d728171f81e78b09e0b9"
-depends = "['audiofile', 'audiofile>=0.3.6-3', 'enchant', 'icu4c>=68.1', 'kio>=5.110.0', 'knotifications>=5.110.0', 'kparts>=5.110.0', 'kxmlgui>=5.110.0', 'libxscrnsaver>=1.2.2-2', 'openssl>=3.1.0', 'python3>=3.12', 'qt5-multimedia>=5.15.11', 'qt5-svg>=5.15.11', 'qt5-webengine>=5.15.11', 'qt5-x11extras>=5.15.11']"
+depends = "['audiofile>=0.3.6-3', 'audiofile', 'enchant', 'icu4c>=68.1', 'kio>=5.110.0', 'knotifications>=5.110.0', 'kparts>=5.110.0', 'kxmlgui>=5.110.0', 'libxscrnsaver>=1.2.2-2', 'openssl>=3.1.0', 'python3>=3.12', 'qt5-multimedia>=5.15.11', 'qt5-svg>=5.15.11', 'qt5-webengine>=5.15.11', 'qt5-x11extras>=5.15.11']"
 +++
-Graphical Irc client for K Desktop{{< spoiler text="show files" >}}* /usr/bin/kvirc
+Graphical Irc client for K Desktop{{< files text="show files" >}}* /usr/bin/kvirc
 * /usr/bin/kvirc-config
 * /usr/lib/kvirc/5.0/modules/libkviabout.so
 * /usr/lib/kvirc/5.0/modules/libkviaction.so
@@ -2333,4 +2333,4 @@ Graphical Irc client for K Desktop{{< spoiler text="show files" >}}* /usr/bin/kv
 * /usr/share/man/pt/man1/kvirc.1.gz
 * /usr/share/man/uk/man1/kvirc.1.gz
 * /usr/share/pixmaps/kvirc.png
-{{< /spoiler >}}
+{{< /files >}}

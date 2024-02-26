@@ -14,7 +14,7 @@ sha1sum = "158709bb19f7a271f9a4266dff0a305147f202e2"
 depends = "['gdal>=3.7.1']"
 reverse_depends = "['pdal']"
 +++
-LAS and OGR hexagonal density and boundary surface generation{{< spoiler text="show files" >}}* /usr/bin/curse
+LAS and OGR hexagonal density and boundary surface generation{{< files text="show files" >}}* /usr/bin/curse
 * /usr/include/hexer/Draw.hpp
 * /usr/include/hexer/exception.hpp
 * /usr/include/hexer/export.hpp
@@ -34,4 +34,4 @@ LAS and OGR hexagonal density and boundary surface generation{{< spoiler text="s
 * /usr/lib/libhexer.so.1.1.0
 * /usr/share/doc/hexer-1.4.0/COPYING
 * /usr/share/doc/hexer-1.4.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

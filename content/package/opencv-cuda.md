@@ -13,7 +13,7 @@ usize = "1590836797"
 sha1sum = "9fb37ce573d1dd9e9e9ac40b83afcd938ebd73be"
 depends = "['cuda-tools', 'jasper', 'opencv>=4.9.0']"
 +++
-Intel(R) Open Source Computer Vision Library CUDA{{< spoiler text="show files" >}}* /usr/bin/opencv_annotation
+Intel(R) Open Source Computer Vision Library CUDA{{< files text="show files" >}}* /usr/bin/opencv_annotation
 * /usr/bin/opencv_interactive-calibration
 * /usr/bin/opencv_model_diagnostics
 * /usr/bin/opencv_version
@@ -945,4 +945,4 @@ Intel(R) Open Source Computer Vision Library CUDA{{< spoiler text="show files" >
 * /usr/share/opencv4/quality/brisque_range_live.yml
 * /usr/share/opencv4/valgrind.supp
 * /usr/share/opencv4/valgrind_3rdparty.supp
-{{< /spoiler >}}
+{{< /files >}}

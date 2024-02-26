@@ -14,7 +14,7 @@ sha1sum = "172296bb118f3127e520b0306b927f53c5330d5d"
 depends = "['oniguruma>=6.9.8']"
 reverse_depends = "['sysdig']"
 +++
-Command-line JSON processor.{{< spoiler text="show files" >}}* /usr/bin/jq
+Command-line JSON processor.{{< files text="show files" >}}* /usr/bin/jq
 * /usr/include/jq.h
 * /usr/include/jv.h
 * /usr/lib/libjq.so
@@ -27,4 +27,4 @@ Command-line JSON processor.{{< spoiler text="show files" >}}* /usr/bin/jq
 * /usr/share/doc/jq-1.7/NEWS.md
 * /usr/share/doc/jq-1.7/README.md
 * /usr/share/man/man1/jq.1.gz
-{{< /spoiler >}}
+{{< /files >}}

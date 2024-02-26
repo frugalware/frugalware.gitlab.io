@@ -14,7 +14,7 @@ sha1sum = "d2a3dc54e51ffc91d4464a5d7982f3d7a521e00e"
 depends = "['baloo-widgets>=23.08.5', 'ffmpegthumbs', 'kactivities5>=5.115.0', 'kbookmarks>=5.115.0', 'kcmutils>=5.115.0', 'kcompletion>=5.115.0', 'kconfig>=5.115.0', 'kcoreaddons>=5.115.0', 'kcrash>=5.115.0', 'kdbusaddons>=5.115.0', 'kdegraphics-thumbnailers', 'kdelibs4support>=5.115.0', 'kdesdk-thumbnailers', 'kfilemetadata5>=5.115.0', 'ki18n>=5.115.0', 'kiconthemes>=5.115.0', 'kinit>=5.115.0', 'kio>=5.115.0', 'knewstuff>=5.115.0', 'knotifications>=5.115.0', 'kparts>=5.115.0', 'ktextwidgets>=5.115.0', 'kwindowsystem>=5.115.0', 'qt5-declarative>=5.15.12', 'solid>=5.115.0']"
 reverse_depends = "['dolphin-plugins', 'kio-gdrive']"
 +++
-File Manager{{< spoiler text="show files" >}}* /usr/bin/dolphin
+File Manager{{< files text="show files" >}}* /usr/bin/dolphin
 * /usr/bin/servicemenuinstaller
 * /usr/include/Dolphin/dolphinvcs_version.h
 * /usr/include/Dolphin/KVersionControlPlugin
@@ -371,4 +371,4 @@ File Manager{{< spoiler text="show files" >}}* /usr/bin/dolphin
 * /usr/share/metainfo/org.kde.dolphin.appdata.xml
 * /usr/share/qlogging-categories5/dolphin.categories
 * /usr/share/zsh/site-functions/_dolphin
-{{< /spoiler >}}
+{{< /files >}}

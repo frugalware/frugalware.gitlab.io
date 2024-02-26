@@ -14,5 +14,5 @@ sha1sum = "f544b0b33ac919295404900b70741bc945614edf"
 depends = "['gcc', 'libobjc']"
 reverse_depends = "['gcc-objc++']"
 +++
-Objective-C support for GCC{{< spoiler text="show files" >}}* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/cc1obj
-{{< /spoiler >}}
+Objective-C support for GCC{{< files text="show files" >}}* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/cc1obj
+{{< /files >}}

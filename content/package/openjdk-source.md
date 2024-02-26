@@ -13,5 +13,5 @@ usize = "53478665"
 sha1sum = "77dba6ba9602938a7dd5df2713abf513bd3a79ce"
 depends = "['openjdk=21.0.3']"
 +++
-Java Development Kit source-code.{{< spoiler text="show files" >}}* /usr/lib/jvm/java-21-openjdk/lib/src.zip
-{{< /spoiler >}}
+Java Development Kit source-code.{{< files text="show files" >}}* /usr/lib/jvm/java-21-openjdk/lib/src.zip
+{{< /files >}}

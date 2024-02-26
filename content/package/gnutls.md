@@ -14,7 +14,7 @@ sha1sum = "ada662c5360e589ae63578b105cf9c7519b65b72"
 depends = "['brotli', 'libidn2>=1.35', 'libunistring>=1.1', 'nettle>=3.6', 'p11-kit>=0.23.2-10', 'zstd']"
 reverse_depends = "['aria2', 'bitlbee-common', 'claws-mail', 'connman', 'dirmngr', 'dirmngr-ldap', 'emacs', 'ethereal', 'ffmpeg', 'ffmpeg4.4', 'glib-networking', 'gloox', 'kvm', 'lftp', 'libcamera', 'libcups', 'libgadu', 'libjcat', 'libmicrohttpd', 'libvirt', 'libvncserver', 'libzip', 'loudmouth', 'mencoder', 'mplayer', 'msmtp', 'neatvnc', 'net6', 'nice', 'openconnect', 'opendht', 'rsyslog', 'rtmpdump', 'squid', 'weechat', 'wireshark', 'wput']"
 +++
-A library which provides a secure layer over a reliable transport layer{{< spoiler text="show files" >}}* /usr/bin/certtool
+A library which provides a secure layer over a reliable transport layer{{< files text="show files" >}}* /usr/bin/certtool
 * /usr/bin/gnutls-cli
 * /usr/bin/gnutls-cli-debug
 * /usr/bin/gnutls-serv
@@ -1305,4 +1305,4 @@ A library which provides a secure layer over a reliable transport layer{{< spoil
 * /usr/share/man/man3/gnutls_x509_trust_list_verify_crt.3.gz
 * /usr/share/man/man3/gnutls_x509_trust_list_verify_crt2.3.gz
 * /usr/share/man/man3/gnutls_x509_trust_list_verify_named_crt.3.gz
-{{< /spoiler >}}
+{{< /files >}}

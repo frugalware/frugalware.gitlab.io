@@ -15,10 +15,10 @@ depends = "['libx11>=1.6.3-3', 'libxcb>=1.11.1-3']"
 reverse_depends = "['steamtinkerlaunch']"
 license = "GPL2"
 +++
-X.Org xwininfo application{{< spoiler text="show files" >}}* /usr/bin/xwininfo
+X.Org xwininfo application{{< files text="show files" >}}* /usr/bin/xwininfo
 * /usr/share/doc/xwininfo-1.1.6/ChangeLog
 * /usr/share/doc/xwininfo-1.1.6/COPYING
 * /usr/share/doc/xwininfo-1.1.6/INSTALL
 * /usr/share/doc/xwininfo-1.1.6/README.md
 * /usr/share/man/man1/xwininfo.1.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "7a3fe969ee54155e246cf7757a31544cfa336aa9"
 depends = "['akonadi>=23.08.5', 'akonadi-contacts>=23.08.5', 'akonadi-search>=23.08.5', 'kldap>=23.08.5']"
 reverse_depends = "['kmail-account-wizard', 'mailimporter', 'pimcommon']"
 +++
-KDEPim library.{{< spoiler text="show files" >}}* /usr/include/KPim5/Libkdepim/Libkdepim/KCheckComboBox
+KDEPim library.{{< files text="show files" >}}* /usr/include/KPim5/Libkdepim/Libkdepim/KCheckComboBox
 * /usr/include/KPim5/Libkdepim/libkdepim/kcheckcombobox.h
 * /usr/include/KPim5/Libkdepim/libkdepim/kdepim_export.h
 * /usr/include/KPim5/Libkdepim/Libkdepim/KWidgetLister
@@ -131,4 +131,4 @@ KDEPim library.{{< spoiler text="show files" >}}* /usr/include/KPim5/Libkdepim/L
 * /usr/share/qlogging-categories5/libkdepim.categories
 * /usr/share/qlogging-categories5/libkdepim.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_Libkdepim.pri
-{{< /spoiler >}}
+{{< /files >}}

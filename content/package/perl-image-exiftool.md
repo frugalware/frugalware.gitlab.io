@@ -14,7 +14,7 @@ sha1sum = "c12676dc6f78ebf6f88aa4a522c7ad51d590f40e"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['darktable', 'digikam']"
 +++
-Read and write meta information{{< spoiler text="show files" >}}* /usr/bin/site_perl/exiftool
+Read and write meta information{{< files text="show files" >}}* /usr/bin/site_perl/exiftool
 * /usr/lib/perl5/site_perl/File/RandomAccess.pm
 * /usr/lib/perl5/site_perl/File/RandomAccess.pod
 * /usr/lib/perl5/site_perl/Image/ExifTool.pm
@@ -444,4 +444,4 @@ Read and write meta information{{< spoiler text="show files" >}}* /usr/bin/site_
 * /usr/share/man/man3/Image::ExifTool::XMPStruct.3perl.gz
 * /usr/share/man/man3/Image::ExifTool::ZIP.3perl.gz
 * /usr/share/man/man3/Image::ExifTool::ZISRAW.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,6 +13,6 @@ usize = "13312248"
 sha1sum = "16836d3361ceb3c4dd58bb36b3ef463a0068e7c9"
 depends = "['gdk-pixbuf2>=2.38.1-2', 'gtk+4>=4.13.8', 'libepoxy>=1.3.1-3', 'libffi>=3.2.1-2', 'pango>=1.42.0']"
 +++
-GTK+4 Demos.{{< spoiler text="show files" >}}* /usr/bin/gtk4-demo
+GTK+4 Demos.{{< files text="show files" >}}* /usr/bin/gtk4-demo
 * /usr/bin/gtk4-demo-application
-{{< /spoiler >}}
+{{< /files >}}

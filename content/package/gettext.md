@@ -14,7 +14,7 @@ sha1sum = "6e2a28356347ac6a3f8200dbcbf01c699e167851"
 depends = "['icu4c>=74.1', 'libcroco', 'libtextstyle', 'libunistring>=1.1', 'ncurses>=6.1-5']"
 reverse_depends = "['bison', 'clisp', 'kdesdk-thumbnailers', 'ki18n', 'lib32-libtextstyle', 'libtextstyle', 'poxml', 'quilt', 'wine', 'wine-devel']"
 +++
-GNU internationalization library{{< spoiler text="show files" >}}* /usr/bin/autopoint
+GNU internationalization library{{< files text="show files" >}}* /usr/bin/autopoint
 * /usr/bin/envsubst
 * /usr/bin/gettext
 * /usr/bin/gettext.sh
@@ -313,4 +313,4 @@ GNU internationalization library{{< spoiler text="show files" >}}* /usr/bin/auto
 * /usr/share/man/man3/gettext.3.gz
 * /usr/share/man/man3/ngettext.3.gz
 * /usr/share/man/man3/textdomain.3.gz
-{{< /spoiler >}}
+{{< /files >}}

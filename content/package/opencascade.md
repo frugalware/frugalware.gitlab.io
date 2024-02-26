@@ -14,7 +14,7 @@ sha1sum = "ce1c9629a94921eed0614343a714ce5e67abfc00"
 depends = "['ffmpeg4.4', 'freeimage', 'intel-tbb', 'libboost', 'tk', 'vtk']"
 reverse_depends = "['kicad']"
 +++
-SDK intended for development of applications dealing with 3D CAD data{{< spoiler text="show files" >}}* /usr/bin/custom.sh
+SDK intended for development of applications dealing with 3D CAD data{{< files text="show files" >}}* /usr/bin/custom.sh
 * /usr/bin/custom_gcc_64.sh
 * /usr/bin/draw.sh
 * /usr/bin/DRAWEXE
@@ -8895,4 +8895,4 @@ SDK intended for development of applications dealing with 3D CAD data{{< spoiler
 * /usr/share/opencascade/samples/tcl/VisualizationDemo.tcl
 * /usr/share/opencascade/samples/tcl/vis_pbr_spheres.tcl
 * /usr/share/opencascade/samples/tcl/xde.tcl
-{{< /spoiler >}}
+{{< /files >}}

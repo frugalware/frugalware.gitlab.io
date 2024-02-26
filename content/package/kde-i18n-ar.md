@@ -13,7 +13,7 @@ usize = "4818262"
 sha1sum = "00d607819fdb800a6c73b236f1aad3af9f0bca2c"
 depends = "[]"
 +++
-Arabic Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale/ar/charset
+Arabic Localization for KDE.{{< files text="show files" >}}* usr/share/locale/ar/charset
 * usr/share/locale/ar/entry.desktop
 * usr/share/locale/ar/LC_MESSAGES/akregator.mo
 * usr/share/locale/ar/LC_MESSAGES/akregator_konqplugin.mo
@@ -562,4 +562,4 @@ Arabic Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale/
 * usr/share/locale/ar/LC_MESSAGES/wakeup.mo
 * usr/share/locale/ar/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/ar/LC_MESSAGES/webarchiver.mo
-{{< /spoiler >}}
+{{< /files >}}

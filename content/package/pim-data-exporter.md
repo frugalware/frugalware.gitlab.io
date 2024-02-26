@@ -13,7 +13,7 @@ usize = "1765719"
 sha1sum = "7d31173d6454227d97716234e29b12246dc4b61a"
 depends = "['calendarsupport>=23.08.5', 'kalarm>=23.08.5', 'mailcommon>=23.08.5']"
 +++
-Assistant to backup and archive PIM data and configuration{{< spoiler text="show files" >}}* /usr/bin/pimdataexporter
+Assistant to backup and archive PIM data and configuration{{< files text="show files" >}}* /usr/bin/pimdataexporter
 * /usr/bin/pimdataexporterconsole
 * /usr/lib/libpimdataexporterprivate.so.5
 * /usr/lib/libpimdataexporterprivate.so.5.24.5
@@ -99,4 +99,4 @@ Assistant to backup and archive PIM data and configuration{{< spoiler text="show
 * /usr/share/metainfo/org.kde.pimdataexporter.appdata.xml
 * /usr/share/qlogging-categories5/pimdataexporter.categories
 * /usr/share/qlogging-categories5/pimdataexporter.renamecategories
-{{< /spoiler >}}
+{{< /files >}}

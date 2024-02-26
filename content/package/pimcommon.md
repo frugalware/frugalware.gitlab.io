@@ -14,7 +14,7 @@ sha1sum = "23abf1a8dd985250badf5b2caa46ab2a7cb184c9"
 depends = "['kimap>=23.08.5', 'knewstuff>=5.115.0', 'kpimtextedit>=23.08.5', 'ktextaddons>=1.3.1', 'libkdepim>=23.08.5', 'purpose>=5.115.0']"
 reverse_depends = "['calendarsupport', 'kalarm', 'kdepim-runtime', 'knotes', 'libgravatar', 'libksieve', 'mailimporter']"
 +++
-KdePim common files{{< spoiler text="show files" >}}* /usr/include/KPim5/PimCommon/config-pimcommon.h
+KdePim common files{{< files text="show files" >}}* /usr/include/KPim5/PimCommon/config-pimcommon.h
 * /usr/include/KPim5/PimCommon/PimCommon/AbstractGenericPlugin
 * /usr/include/KPim5/PimCommon/pimcommon/abstractgenericplugin.h
 * /usr/include/KPim5/PimCommon/PimCommon/AbstractGenericPluginInterface
@@ -188,4 +188,4 @@ KdePim common files{{< spoiler text="show files" >}}* /usr/include/KPim5/PimComm
 * /usr/share/qlogging-categories5/pimcommon.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_PimCommon.pri
 * /usr/share/qt5/mkspecs/modules/qt_PimCommonAkonadi.pri
-{{< /spoiler >}}
+{{< /files >}}

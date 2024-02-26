@@ -13,7 +13,7 @@ usize = "994432"
 sha1sum = "940dfc728acc6d86754fc7b4c74d06b803f0a979"
 depends = "['qt6-serialport']"
 +++
-The Qt6 toolkit, qtserialbus{{< spoiler text="show files" >}}* /usr/include/qt6/QtSerialBus/6.6.2/QtSerialBus/private/qcanbusdeviceinfo_p.h
+The Qt6 toolkit, qtserialbus{{< files text="show files" >}}* /usr/include/qt6/QtSerialBus/6.6.2/QtSerialBus/private/qcanbusdeviceinfo_p.h
 * /usr/include/qt6/QtSerialBus/6.6.2/QtSerialBus/private/qcanbusdevice_p.h
 * /usr/include/qt6/QtSerialBus/6.6.2/QtSerialBus/private/qcandbcfileparser_p.h
 * /usr/include/qt6/QtSerialBus/6.6.2/QtSerialBus/private/qcanframeprocessor_p.h
@@ -144,4 +144,4 @@ The Qt6 toolkit, qtserialbus{{< spoiler text="show files" >}}* /usr/include/qt6/
 * /usr/lib/qt6/plugins/canbus/libqtsocketcanbus.so
 * /usr/lib/qt6/plugins/canbus/libqttinycanbus.so
 * /usr/lib/qt6/plugins/canbus/libqtvirtualcanbus.so
-{{< /spoiler >}}
+{{< /files >}}

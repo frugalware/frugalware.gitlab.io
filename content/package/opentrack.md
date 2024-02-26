@@ -13,7 +13,7 @@ usize = "26415109"
 sha1sum = "508e60ad68209791501db4505f73edf41a11137c"
 depends = "['opencv>=4.9.0', 'procps-ng>=4.0.3', 'qt5-base>=5.15.10']"
 +++
-Head tracking software{{< spoiler text="show files" >}}* /usr/bin/opentrack
+Head tracking software{{< files text="show files" >}}* /usr/bin/opentrack
 * /usr/lib/opentrack/freetrackclient.dll
 * /usr/lib/opentrack/freetrackclient64.dll
 * /usr/lib/opentrack/NPClient.dll
@@ -112,4 +112,4 @@ Head tracking software{{< spoiler text="show files" >}}* /usr/bin/opentrack
 * /usr/share/opentrack/i18n/ru_RU.qm
 * /usr/share/opentrack/i18n/stub.qm
 * /usr/share/opentrack/i18n/zh_CN.qm
-{{< /spoiler >}}
+{{< /files >}}

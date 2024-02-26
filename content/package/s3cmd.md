@@ -14,7 +14,7 @@ sha1sum = "9319c4056f8ec30226703da132dd5c77009afe38"
 depends = "['python3']"
 license = "GPL"
 +++
-A command line client for Amazon S3{{< spoiler text="show files" >}}* /usr/bin/s3cmd
+A command line client for Amazon S3{{< files text="show files" >}}* /usr/bin/s3cmd
 * /usr/lib/python3.12/site-packages/S3/AccessLog.py
 * /usr/lib/python3.12/site-packages/S3/ACL.py
 * /usr/lib/python3.12/site-packages/S3/BaseUtils.py
@@ -75,4 +75,4 @@ A command line client for Amazon S3{{< spoiler text="show files" >}}* /usr/bin/s
 * /usr/share/share/doc/packages/s3cmd/NEWS
 * /usr/share/share/doc/packages/s3cmd/README.md
 * /usr/share/share/man/man1/s3cmd.1
-{{< /spoiler >}}
+{{< /files >}}

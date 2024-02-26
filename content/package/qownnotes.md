@@ -13,7 +13,7 @@ usize = "23163245"
 sha1sum = "074aff9106e66d3c985b4d8419e647805fab0b53"
 depends = "['hicolor-icon-theme>=0.15-3', 'qt5-declarative>=5.15.10', 'qt5-svg>=5.15.10', 'qt5-websockets>=5.15.10', 'qt5-x11extras>=5.15.10', 'qt5-xmlpatterns>=5.15.10']"
 +++
-Plain-text file notepad with markdown support and ownCloud integration{{< spoiler text="show files" >}}* /usr/bin/QOwnNotes
+Plain-text file notepad with markdown support and ownCloud integration{{< files text="show files" >}}* /usr/bin/QOwnNotes
 * /usr/share/applications/PBE.QOwnNotes.desktop
 * /usr/share/doc/qownnotes-23.6.4/LICENSE
 * /usr/share/doc/qownnotes-23.6.4/README.md
@@ -92,4 +92,4 @@ Plain-text file notepad with markdown support and ownCloud integration{{< spoile
 * /usr/share/qt5/translations/QOwnNotes_zh_CN.qm
 * /usr/share/qt5/translations/QOwnNotes_zh_TW.qm
 * /usr/share/qt5/translations/QOwnNotes_zu.qm
-{{< /spoiler >}}
+{{< /files >}}

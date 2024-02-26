@@ -14,5 +14,5 @@ sha1sum = "54c4be43967e83d2c2a1bbed86ba6dca38efcd62"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
-Western Frisian language support for Thunderbird{{< spoiler text="show files" >}}* /usr/lib/thunderbird/extensions/langpack-fy-NL@thunderbird.mozilla.org.xpi
-{{< /spoiler >}}
+Western Frisian language support for Thunderbird{{< files text="show files" >}}* /usr/lib/thunderbird/extensions/langpack-fy-NL@thunderbird.mozilla.org.xpi
+{{< /files >}}

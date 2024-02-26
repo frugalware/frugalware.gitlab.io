@@ -13,10 +13,10 @@ usize = "66564"
 sha1sum = "16ec797b34ffc0f0818af53321cb9b4bba5822a1"
 depends = "['libstdc++', 'physfs>=2.0.2', 'sdl', 'sdlimage', 'sdl_mixer', 'sdl_ttf']"
 +++
-Fast-action multiplayer strategic network game{{< spoiler text="show files" >}}* /usr/share/doc/netpanzer-0.8.7/0.8.7-RELEASE
+Fast-action multiplayer strategic network game{{< files text="show files" >}}* /usr/share/doc/netpanzer-0.8.7/0.8.7-RELEASE
 * /usr/share/doc/netpanzer-0.8.7/COPYING
 * /usr/share/doc/netpanzer-0.8.7/README
 * /usr/share/doc/netpanzer-0.8.7/README-SDL.txt
 * /usr/share/doc/netpanzer-0.8.7/README-SDL_mixer.txt
 * /usr/share/doc/netpanzer-0.8.7/README-zlib123.txt
-{{< /spoiler >}}
+{{< /files >}}

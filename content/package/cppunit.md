@@ -14,7 +14,7 @@ sha1sum = "6bf9592365718e26ebd8a05a8a4db7d7545360e3"
 depends = "['libstdc++>=11.2']"
 license = "LGPL"
 +++
-CppUnit is the C++ port of the famous JUnit framework for unit testing.{{< spoiler text="show files" >}}* /usr/bin/DllPlugInTester
+CppUnit is the C++ port of the famous JUnit framework for unit testing.{{< files text="show files" >}}* /usr/bin/DllPlugInTester
 * /usr/include/cppunit/AdditionalMessage.h
 * /usr/include/cppunit/Asserter.h
 * /usr/include/cppunit/BriefTestProgressListener.h
@@ -872,4 +872,4 @@ CppUnit is the C++ port of the famous JUnit framework for unit testing.{{< spoil
 * /usr/share/doc/cppunit-1.15.1/README
 * /usr/share/doc/cppunit-1.15.1/THANKS
 * /usr/share/doc/cppunit-1.15.1/TODO
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "1959407"
 sha1sum = "cd9c35d78077ed6a0da49f40399381da3e4f8dc6"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Manipuri support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/program/resource/mni/LC_MESSAGES/acc.mo
+Installs Manipuri support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/mni/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/mni/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/mni/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/mni/LC_MESSAGES/chart.mo
@@ -51,4 +51,4 @@ Installs Manipuri support in LibreOffice{{< spoiler text="show files" >}}* /usr/
 * /usr/lib/libreoffice/share/registry/Langpack-mni.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_mni.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_mni.xcd
-{{< /spoiler >}}
+{{< /files >}}

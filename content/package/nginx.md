@@ -14,7 +14,7 @@ sha1sum = "0cade31546589b8981e004af32d43bee78a42141"
 depends = "['gd', 'geoip', 'libaio', 'libxslt', 'nghttp2', 'openssl>=3.1.0', 'pcre']"
 license = "BSD"
 +++
-[engine x] is a HTTP server and mail proxy server.{{< spoiler text="show files" >}}* /etc/logrotate.d/nginx
+[engine x] is a HTTP server and mail proxy server.{{< files text="show files" >}}* /etc/logrotate.d/nginx
 * /etc/nginx/conf/fastcgi.conf
 * /etc/nginx/conf/fastcgi.conf.default
 * /etc/nginx/conf/fastcgi_params
@@ -48,4 +48,4 @@ license = "BSD"
 * /usr/share/man/man3/nginx.3perl.gz
 * /var/www/nginx/50x.html
 * /var/www/nginx/index.html
-{{< /spoiler >}}
+{{< /files >}}

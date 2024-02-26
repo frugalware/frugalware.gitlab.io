@@ -13,7 +13,7 @@ usize = "38149"
 sha1sum = "c530cec27803b5d52290356f7661e39f0dcbe803"
 depends = "['gtk+4', 'libportal']"
 +++
-libportal gtk+4 backend{{< spoiler text="show files" >}}* /usr/include/libportal-gtk4/portal-gtk4.h
+libportal gtk+4 backend{{< files text="show files" >}}* /usr/include/libportal-gtk4/portal-gtk4.h
 * /usr/lib/girepository-1.0/XdpGtk4-1.0.typelib
 * /usr/lib/libportal-gtk4.so
 * /usr/lib/libportal-gtk4.so.1
@@ -22,4 +22,4 @@ libportal gtk+4 backend{{< spoiler text="show files" >}}* /usr/include/libportal
 * /usr/share/gir-1.0/XdpGtk4-1.0.gir
 * /usr/share/vala/vapi/libportal-gtk4.deps
 * /usr/share/vala/vapi/libportal-gtk4.vapi
-{{< /spoiler >}}
+{{< /files >}}

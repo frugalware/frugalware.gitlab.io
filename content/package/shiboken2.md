@@ -13,7 +13,7 @@ usize = "2002018"
 sha1sum = "fd53e895a1813479571300a33ad882f631165a7d"
 depends = "['clang-libs>=17.0.6', 'libxslt', 'qt5-xmlpatterns>=5.15.10']"
 +++
-Support library for Python bindings.{{< spoiler text="show files" >}}* /usr/bin/shiboken2
+Support library for Python bindings.{{< files text="show files" >}}* /usr/bin/shiboken2
 * /usr/bin/shiboken_tool.py
 * /usr/include/shiboken2/autodecref.h
 * /usr/include/shiboken2/basewrapper.h
@@ -52,4 +52,4 @@ Support library for Python bindings.{{< spoiler text="show files" >}}* /usr/bin/
 * /usr/share/doc/shiboken2-5.15.11/README.pyside2.md
 * /usr/share/doc/shiboken2-5.15.11/README.shiboken2-generator.md
 * /usr/share/doc/shiboken2-5.15.11/README.shiboken2.md
-{{< /spoiler >}}
+{{< /files >}}

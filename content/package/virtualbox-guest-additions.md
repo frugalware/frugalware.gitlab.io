@@ -13,7 +13,7 @@ usize = "3126186"
 sha1sum = "30b81a4e816d6cf2d8a1a0143d0d2ab44a8fe463"
 depends = "['kernel=6.7.6-1', 'libxcomposite', 'libxdamage', 'libxmu', 'libxrandr', 'mesa-dri-drivers', 'pam', 'xf86-video-vmware']"
 +++
-VirtualBox guest Additions{{< spoiler text="show files" >}}* /etc/xdg/autostart/vboxclient.desktop
+VirtualBox guest Additions{{< files text="show files" >}}* /etc/xdg/autostart/vboxclient.desktop
 * /usr/bin/mount.vboxsf
 * /usr/bin/VBoxClient
 * /usr/bin/VBoxClient-all
@@ -31,4 +31,4 @@ VirtualBox guest Additions{{< spoiler text="show files" >}}* /etc/xdg/autostart/
 * /usr/lib/systemd/system/vboxservice.service
 * /usr/lib/sysusers.d/virtualbox-guest-utils.conf
 * /usr/lib/udev/rules.d/60-vboxguest.rules
-{{< /spoiler >}}
+{{< /files >}}

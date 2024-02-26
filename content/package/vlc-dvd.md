@@ -13,5 +13,5 @@ usize = "34504"
 sha1sum = "361e977fe519611de57cd0b187a05144c32b9858"
 depends = "['libdvdread>=6.1.1', 'libvlc>=3.0.20']"
 +++
-vlc DVD support{{< spoiler text="show files" >}}* /usr/lib/vlc/plugins/access/libdvdread_plugin.so
-{{< /spoiler >}}
+vlc DVD support{{< files text="show files" >}}* /usr/lib/vlc/plugins/access/libdvdread_plugin.so
+{{< /files >}}

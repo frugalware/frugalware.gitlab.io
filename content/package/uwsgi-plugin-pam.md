@@ -13,5 +13,5 @@ usize = "14616"
 sha1sum = "4a42ad16bffb2c6cbd17d3dedfde669d26a79e8d"
 depends = "['uwsgi']"
 +++
-UWSGI PAM Plugin{{< spoiler text="show files" >}}* /usr/lib/uwsgi/pam_plugin.so
-{{< /spoiler >}}
+UWSGI PAM Plugin{{< files text="show files" >}}* /usr/lib/uwsgi/pam_plugin.so
+{{< /files >}}

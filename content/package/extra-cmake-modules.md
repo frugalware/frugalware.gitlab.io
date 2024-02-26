@@ -13,7 +13,7 @@ usize = "1786875"
 sha1sum = "9d502439c42a7aa0ec574dd58045700e812ff479"
 depends = "[]"
 +++
-Extra CMake modules.{{< spoiler text="show files" >}}* /usr/share/doc/ECM/html/find-module/Find7z.html
+Extra CMake modules.{{< files text="show files" >}}* /usr/share/doc/ECM/html/find-module/Find7z.html
 * /usr/share/doc/ECM/html/find-module/Find7Zip.html
 * /usr/share/doc/ECM/html/find-module/FindCanberra.html
 * /usr/share/doc/ECM/html/find-module/FindEGL.html
@@ -332,4 +332,4 @@ Extra CMake modules.{{< spoiler text="show files" >}}* /usr/share/doc/ECM/html/f
 * /usr/share/man/man7/ecm-modules.7.gz
 * /usr/share/man/man7/ecm-toolchains.7.gz
 * /usr/share/man/man7/ecm.7.gz
-{{< /spoiler >}}
+{{< /files >}}

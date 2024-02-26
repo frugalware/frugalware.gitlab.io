@@ -13,7 +13,7 @@ usize = "3055532"
 sha1sum = "a326dd13b6c0f491796bacbe01b7cf4226458719"
 depends = "['gtk+2>=2.24.29-2', 'libffi>=3.2.1', 'libxres>=1.0.7-3', 'startup-notification>=0.12-3']"
 +++
-Window Navigator Construction Kit (Gtk+2){{< spoiler text="show files" >}}* /usr/include/libwnck-1.0/libwnck/application.h
+Window Navigator Construction Kit (Gtk+2){{< files text="show files" >}}* /usr/include/libwnck-1.0/libwnck/application.h
 * /usr/include/libwnck-1.0/libwnck/class-group.h
 * /usr/include/libwnck-1.0/libwnck/libwnck.h
 * /usr/include/libwnck-1.0/libwnck/pager.h
@@ -167,4 +167,4 @@ Window Navigator Construction Kit (Gtk+2){{< spoiler text="show files" >}}* /usr
 * /usr/share/locale/zh_CN/LC_MESSAGES/libwnck.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/libwnck.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libwnck.mo
-{{< /spoiler >}}
+{{< /files >}}

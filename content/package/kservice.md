@@ -14,7 +14,7 @@ sha1sum = "9d6a84c208a58f97ae52e352e4a4558dd5a424a5"
 depends = "['kconfig>=5.115.0', 'kcrash>=5.115.0', 'kdbusaddons>=5.115.0', 'ki18n>=5.115.0']"
 reverse_depends = "['kdeplasma-addons5', 'kdesu', 'kemoticons', 'kglobalaccel', 'knotifications', 'kpeople5', 'ktextwidgets', 'plasma-sdk']"
 +++
-Plugin framework for desktop services.{{< spoiler text="show files" >}}* /etc/xdg/menus/applications.menu
+Plugin framework for desktop services.{{< files text="show files" >}}* /etc/xdg/menus/applications.menu
 * /usr/bin/kbuildsycoca5
 * /usr/include/KF5/KService/KApplicationTrader
 * /usr/include/KF5/KService/kapplicationtrader.h
@@ -188,4 +188,4 @@ Plugin framework for desktop services.{{< spoiler text="show files" >}}* /etc/xd
 * /usr/share/qlogging-categories5/kservice.categories
 * /usr/share/qlogging-categories5/kservice.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KService.pri
-{{< /spoiler >}}
+{{< /files >}}

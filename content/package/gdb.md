@@ -14,7 +14,7 @@ sha1sum = "98ada6123fa4ffc20431d45b11229a1c274646ed"
 depends = "['binutils', 'expat>=2.1.0-6', 'ncurses>=6.0-18', 'python3>=3.12', 'readline>=8.0']"
 reverse_depends = "['qtcreator', 'rr']"
 +++
-Gnu Project Debugger{{< spoiler text="show files" >}}* /usr/bin/gcore
+Gnu Project Debugger{{< files text="show files" >}}* /usr/bin/gcore
 * /usr/bin/gdb
 * /usr/bin/gdb-add-index
 * /usr/bin/gdbserver
@@ -109,4 +109,4 @@ Gnu Project Debugger{{< spoiler text="show files" >}}* /usr/bin/gcore
 * /usr/share/man/man1/gdb.1.gz
 * /usr/share/man/man1/gdbserver.1.gz
 * /usr/share/man/man5/gdbinit.5.gz
-{{< /spoiler >}}
+{{< /files >}}

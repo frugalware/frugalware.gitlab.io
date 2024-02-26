@@ -13,7 +13,7 @@ usize = "141451434"
 sha1sum = "5ad447e4158819a86bccbf2dcb0c11e87dde2c21"
 depends = "['cfitsio>=4.2.0', 'eigen', 'kio>=5.110.0', 'knewstuff>=5.110.0', 'knotifyconfig>=5.110.0', 'kplotting>=5.110.0', 'libraw>=0.21.1', 'qt5-websockets>=5.15.11']"
 +++
-Desktop Planetarium.{{< spoiler text="show files" >}}* /usr/bin/kstars
+Desktop Planetarium.{{< files text="show files" >}}* /usr/bin/kstars
 * /usr/lib/libhtmesh.a
 * /usr/share/applications/org.kde.kstars.desktop
 * /usr/share/config.kcfg/kstars.kcfg
@@ -1937,4 +1937,4 @@ Desktop Planetarium.{{< spoiler text="show files" >}}* /usr/bin/kstars
 * /usr/share/sounds/KDE-KStars-Sys-App-Error-Serious.ogg
 * /usr/share/sounds/KDE-KStars-Sys-App-Message.ogg
 * /usr/share/sounds/KDE-KStars-Warning.ogg
-{{< /spoiler >}}
+{{< /files >}}

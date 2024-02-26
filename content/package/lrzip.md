@@ -13,7 +13,7 @@ usize = "775965"
 sha1sum = "29694c5a44025d5039e4c3f12313c482bfeecc15"
 depends = "['bzip2', 'libstdc++', 'lzo', 'zlib>=1.2.12']"
 +++
-A compression program optimized for large files.{{< spoiler text="show files" >}}* /usr/bin/lrunzip
+A compression program optimized for large files.{{< files text="show files" >}}* /usr/bin/lrunzip
 * /usr/bin/lrz
 * /usr/bin/lrzcat
 * /usr/bin/lrzip
@@ -52,4 +52,4 @@ A compression program optimized for large files.{{< spoiler text="show files" >}
 * /usr/share/man/man1/lrztar.1.gz
 * /usr/share/man/man1/lrzuntar.1.gz
 * /usr/share/man/man5/lrzip.conf.5.gz
-{{< /spoiler >}}
+{{< /files >}}

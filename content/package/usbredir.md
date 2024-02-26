@@ -14,7 +14,7 @@ sha1sum = "424fa86a68bf5e7a135d1e48e32627396bb5fc6b"
 depends = "['libusb1']"
 reverse_depends = "['qemu', 'spice-glib']"
 +++
-USB network redirection protocol libraries{{< spoiler text="show files" >}}* /usr/bin/usbredirect
+USB network redirection protocol libraries{{< files text="show files" >}}* /usr/bin/usbredirect
 * /usr/include/usbredirfilter.h
 * /usr/include/usbredirhost.h
 * /usr/include/usbredirparser.h
@@ -32,4 +32,4 @@ USB network redirection protocol libraries{{< spoiler text="show files" >}}* /us
 * /usr/share/doc/usbredir-0.13.0/README.md
 * /usr/share/doc/usbredir-0.13.0/TODO
 * /usr/share/man/man1/usbredirect.1.gz
-{{< /spoiler >}}
+{{< /files >}}

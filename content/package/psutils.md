@@ -14,7 +14,7 @@ sha1sum = "69aa2fad91c155691233ca4e1971d670a6edf6e1"
 depends = "['glibc']"
 reverse_depends = "['a2ps', 'a2ps']"
 +++
-Postscript utilities{{< spoiler text="show files" >}}* /usr/bin/epsffit
+Postscript utilities{{< files text="show files" >}}* /usr/bin/epsffit
 * /usr/bin/extractres
 * /usr/bin/fixdlsrps
 * /usr/bin/fixfmps
@@ -59,4 +59,4 @@ Postscript utilities{{< spoiler text="show files" >}}* /usr/bin/epsffit
 * /usr/share/man/man1/pstops.1.gz
 * /usr/share/psutils/md68_0.ps
 * /usr/share/psutils/md71_0.ps
-{{< /spoiler >}}
+{{< /files >}}

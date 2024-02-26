@@ -14,11 +14,11 @@ sha1sum = "024c82b6b6dde7cd14db135cc34ea53100f50e3b"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-moo']"
 +++
-Roles. Like a nouvelle cuisine portion size slice of Moose.{{< spoiler text="show files" >}}* /usr/lib/perl5/site_perl/current/Role/Tiny.pm
+Roles. Like a nouvelle cuisine portion size slice of Moose.{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/Role/Tiny.pm
 * /usr/lib/perl5/site_perl/current/Role/Tiny/With.pm
 * /usr/share/doc/perl-role-tiny-2.002004/LICENSE
 * /usr/share/doc/perl-role-tiny-2.002004/MANIFEST
 * /usr/share/doc/perl-role-tiny-2.002004/README
 * /usr/share/man/man3/Role::Tiny.3perl.gz
 * /usr/share/man/man3/Role::Tiny::With.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

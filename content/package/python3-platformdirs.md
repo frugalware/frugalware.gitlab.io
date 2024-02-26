@@ -14,7 +14,7 @@ sha1sum = "b9342853660ec1a6b81ba69421d500a12ef32d41"
 depends = "['python3-typing_extensions']"
 reverse_depends = "['python3-poetry', 'python3-virtualenv']"
 +++
-A library to determine platform-specific system directories{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/platformdirs-4.0.0.dist-info/licenses/LICENSE
+A library to determine platform-specific system directories{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/platformdirs-4.0.0.dist-info/licenses/LICENSE
 * /usr/lib/python3.12/site-packages/platformdirs-4.0.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/platformdirs-4.0.0.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/platformdirs-4.0.0.dist-info/WHEEL
@@ -45,4 +45,4 @@ A library to determine platform-specific system directories{{< spoiler text="sho
 * /usr/lib/python3.12/site-packages/platformdirs/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/python3-platformdirs-4.0.0/LICENSE
 * /usr/share/doc/python3-platformdirs-4.0.0/README.rst
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "381001"
 sha1sum = "d6327337918b943ac378603a57ca0f996148c60c"
 depends = "['gettext', 'qt5-base>=5.15.12']"
 +++
-Tools that facilitate translating XML files using gettext message files.{{< spoiler text="show files" >}}* /usr/bin/po2xml
+Tools that facilitate translating XML files using gettext message files.{{< files text="show files" >}}* /usr/bin/po2xml
 * /usr/bin/split2po
 * /usr/bin/swappo
 * /usr/bin/xml2pot
@@ -76,4 +76,4 @@ Tools that facilitate translating XML files using gettext message files.{{< spoi
 * /usr/share/man/uk/man1/split2po.1.gz
 * /usr/share/man/uk/man1/swappo.1.gz
 * /usr/share/man/uk/man1/xml2pot.1.gz
-{{< /spoiler >}}
+{{< /files >}}

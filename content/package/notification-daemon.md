@@ -13,7 +13,7 @@ usize = "232629"
 sha1sum = "c4f4fa8488d4545186fe81576d1c0c2477d775ea"
 depends = "['dbus-glib>=0.78', 'libcanberra-gtk', 'libnotify>=0.7', 'libwnck', 'libxml2>=2.7.8', 'tdb']"
 +++
-Notifications daemon{{< spoiler text="show files" >}}* /usr/lib/notification-daemon/notification-daemon
+Notifications daemon{{< files text="show files" >}}* /usr/lib/notification-daemon/notification-daemon
 * /usr/share/applications/notification-daemon.desktop
 * /usr/share/doc/notification-daemon-3.20.0/AUTHORS
 * /usr/share/doc/notification-daemon-3.20.0/ChangeLog
@@ -90,4 +90,4 @@ Notifications daemon{{< spoiler text="show files" >}}* /usr/lib/notification-dae
 * /usr/share/locale/zh_HK/LC_MESSAGES/notification-daemon.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/notification-daemon.mo
 * /usr/share/locale/zu/LC_MESSAGES/notification-daemon.mo
-{{< /spoiler >}}
+{{< /files >}}

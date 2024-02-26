@@ -14,7 +14,7 @@ sha1sum = "b97bda2e4b2c318c57c99d3f7d45704415b738c4"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-xml-sax']"
 +++
-Base class SAX Drivers and Filters{{< spoiler text="show files" >}}* /usr/lib/perl5/site_perl/XML/SAX/Base.pm
+Base class SAX Drivers and Filters{{< files text="show files" >}}* /usr/lib/perl5/site_perl/XML/SAX/Base.pm
 * /usr/lib/perl5/site_perl/XML/SAX/BuildSAXBase.pl
 * /usr/lib/perl5/site_perl/XML/SAX/Exception.pm
 * /usr/share/doc/perl-xml-sax-base-1.09/MANIFEST
@@ -22,4 +22,4 @@ Base class SAX Drivers and Filters{{< spoiler text="show files" >}}* /usr/lib/pe
 * /usr/share/man/man3/XML::SAX::Base.3perl.gz
 * /usr/share/man/man3/XML::SAX::BuildSAXBase.3perl.gz
 * /usr/share/man/man3/XML::SAX::Exception.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

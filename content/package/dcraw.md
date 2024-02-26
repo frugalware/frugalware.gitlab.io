@@ -14,7 +14,7 @@ sha1sum = "7ff47dbb07c93fd63842da9d7980a5677af8d6f8"
 depends = "['jasper>=2.0.10', 'lcms2', 'libjpeg-turbo']"
 reverse_depends = "['darktable']"
 +++
-A command line based converter for raw digital photos.{{< spoiler text="show files" >}}* /usr/bin/dcraw
+A command line based converter for raw digital photos.{{< files text="show files" >}}* /usr/bin/dcraw
 * /usr/share/locale/ca/LC_MESSAGES/dcraw.mo
 * /usr/share/locale/cs/LC_MESSAGES/dcraw.mo
 * /usr/share/locale/da/LC_MESSAGES/dcraw.mo
@@ -64,4 +64,4 @@ A command line based converter for raw digital photos.{{< spoiler text="show fil
 * /usr/share/man/zh_CN/man1/dcraw.1.gz
 * /usr/share/man/zh_TW.UTF-8/man1/dcraw.1.gz
 * /usr/share/man/zh_TW/man1/dcraw.1.gz
-{{< /spoiler >}}
+{{< /files >}}

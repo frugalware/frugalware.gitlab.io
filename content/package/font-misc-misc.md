@@ -14,7 +14,7 @@ sha1sum = "65596b21ebe9c340f38e8ee8241392d93f5612c3"
 depends = "['fontconfig', 'mkfontscale']"
 license = "GPL2"
 +++
-X.Org Misc Misc Fontset{{< spoiler text="show files" >}}* /usr/share/doc/font-misc-misc-1.1.3/AUTHORS
+X.Org Misc Misc Fontset{{< files text="show files" >}}* /usr/share/doc/font-misc-misc-1.1.3/AUTHORS
 * /usr/share/doc/font-misc-misc-1.1.3/ChangeLog
 * /usr/share/doc/font-misc-misc-1.1.3/COPYING
 * /usr/share/doc/font-misc-misc-1.1.3/INSTALL
@@ -46,4 +46,4 @@ X.Org Misc Misc Fontset{{< spoiler text="show files" >}}* /usr/share/doc/font-mi
 * /usr/share/fonts/X11/misc/9x18B.pcf.gz
 * /usr/share/fonts/X11/misc/k14.pcf.gz
 * /usr/share/fonts/X11/misc/nil2.pcf.gz
-{{< /spoiler >}}
+{{< /files >}}

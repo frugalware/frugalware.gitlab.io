@@ -15,7 +15,7 @@ depends = "['gnutls>=3.4.15-2', 'libffi>=3.2.1-2', 'libidn>=1.33-2']"
 reverse_depends = "['kopete', 'libpurple']"
 license = "GPL"
 +++
-Gadu-Gadu protocol libraries{{< spoiler text="show files" >}}* /usr/include/libgadu.h
+Gadu-Gadu protocol libraries{{< files text="show files" >}}* /usr/include/libgadu.h
 * /usr/lib/libgadu.so
 * /usr/lib/libgadu.so.3
 * /usr/lib/libgadu.so.3.13.0
@@ -25,4 +25,4 @@ Gadu-Gadu protocol libraries{{< spoiler text="show files" >}}* /usr/include/libg
 * /usr/share/doc/libgadu-1.12.2/COPYING
 * /usr/share/doc/libgadu-1.12.2/NEWS
 * /usr/share/doc/libgadu-1.12.2/README
-{{< /spoiler >}}
+{{< /files >}}

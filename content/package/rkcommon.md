@@ -14,7 +14,7 @@ sha1sum = "acce577a86f21f8289e42e7b23a3ae03b3aaa216"
 depends = "['intel-tbb']"
 reverse_depends = "['openvkl']"
 +++
-Common C++ infrastructure for oneAPI Rendering Toolkit{{< spoiler text="show files" >}}* /usr/bin/rkcommon_test_suite
+Common C++ infrastructure for oneAPI Rendering Toolkit{{< files text="show files" >}}* /usr/bin/rkcommon_test_suite
 * /usr/include/rkcommon/array3D/Array3D.h
 * /usr/include/rkcommon/array3D/for_each.h
 * /usr/include/rkcommon/common.h
@@ -97,4 +97,4 @@ Common C++ infrastructure for oneAPI Rendering Toolkit{{< spoiler text="show fil
 * /usr/lib/librkcommon.so.1
 * /usr/lib/librkcommon.so.1.9.0
 * /usr/share/doc/rkcommon-1.9.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

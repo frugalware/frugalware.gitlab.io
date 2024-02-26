@@ -14,7 +14,7 @@ sha1sum = "659e26fc3129f0daa0df0cf210d3899b7eb735ce"
 depends = "['exiv2>=0.28.1', 'expat', 'gtk+2>=2.20.1', 'libgsf', 'libstdc++', 'libtool', 'libvorbis', 'libxau>=1.0.4', 'libxdamage', 'libxdmcp', 'libxext>=1.0.99.4-1', 'zlib>=1.2.12']"
 reverse_depends = "['gnunet']"
 +++
-libextractor is a library used to extract meta-data from files of arbitrary type{{< spoiler text="show files" >}}* /usr/bin/extract
+libextractor is a library used to extract meta-data from files of arbitrary type{{< files text="show files" >}}* /usr/bin/extract
 * /usr/include/extractor.h
 * /usr/lib/libextractor.so
 * /usr/lib/libextractor.so.3
@@ -72,4 +72,4 @@ libextractor is a library used to extract meta-data from files of arbitrary type
 * /usr/share/locale/vi/LC_MESSAGES/libextractor.mo
 * /usr/share/man/man1/extract.1.gz
 * /usr/share/man/man3/libextractor.3.gz
-{{< /spoiler >}}
+{{< /files >}}

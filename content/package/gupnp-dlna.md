@@ -13,7 +13,7 @@ usize = "625451"
 sha1sum = "dc90dcc0ae82fe92161d2e89900b8619f57bde06"
 depends = "['gst1-plugins-base']"
 +++
-dlna utility for GUPnP{{< spoiler text="show files" >}}* /usr/bin/gupnp-dlna-info-2.0
+dlna utility for GUPnP{{< files text="show files" >}}* /usr/bin/gupnp-dlna-info-2.0
 * /usr/bin/gupnp-dlna-ls-profiles-2.0
 * /usr/include/gupnp-dlna-2.0/libgupnp-dlna/gupnp-dlna-audio-information.h
 * /usr/include/gupnp-dlna-2.0/libgupnp-dlna/gupnp-dlna-container-information.h
@@ -69,4 +69,4 @@ dlna utility for GUPnP{{< spoiler text="show files" >}}* /usr/bin/gupnp-dlna-inf
 * /usr/share/vala/vapi/gupnp-dlna-2.0.vapi
 * /usr/share/vala/vapi/gupnp-dlna-gst-2.0.deps
 * /usr/share/vala/vapi/gupnp-dlna-gst-2.0.vapi
-{{< /spoiler >}}
+{{< /files >}}

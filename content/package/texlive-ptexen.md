@@ -14,8 +14,8 @@ sha1sum = "5935e8f5e778fd378762eefe4d5775ce9813793f"
 depends = "[]"
 reverse_depends = "['texlive', 'texlive-utils']"
 +++
-Libptexen{{< spoiler text="show files" >}}* /usr/lib/libptexenc.so
+Libptexen{{< files text="show files" >}}* /usr/lib/libptexenc.so
 * /usr/lib/libptexenc.so.1
 * /usr/lib/libptexenc.so.1.4.3
 * /usr/lib/pkgconfig/ptexenc.pc
-{{< /spoiler >}}
+{{< /files >}}

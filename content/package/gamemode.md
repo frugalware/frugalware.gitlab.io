@@ -13,7 +13,7 @@ usize = "320098"
 sha1sum = "ad6534737aa4a26b117b4a66f98bee2e00acb37a"
 depends = "['inih>=r49', 'polkit', 'systemd']"
 +++
-A daemon/lib combo for Linux that allows games to request a set of optimisations be temporarily applied to the host OS{{< spoiler text="show files" >}}* /etc/limits.d/45-gamemode.conf
+A daemon/lib combo for Linux that allows games to request a set of optimisations be temporarily applied to the host OS{{< files text="show files" >}}* /etc/limits.d/45-gamemode.conf
 * /etc/security/limits.d/10-gamemode.conf
 * /usr/bin/gamemode-simulate-game
 * /usr/bin/gamemoded
@@ -45,4 +45,4 @@ A daemon/lib combo for Linux that allows games to request a set of optimisations
 * /usr/share/metainfo/io.github.feralinteractive.gamemode.metainfo.xml
 * /usr/share/polkit-1/actions/com.feralinteractive.GameMode.policy
 * /usr/share/polkit-1/rules.d/gamemode.rules
-{{< /spoiler >}}
+{{< /files >}}

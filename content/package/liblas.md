@@ -14,7 +14,7 @@ sha1sum = "98df635eabbac74c6a91c9ea6295e1dd0ca7be8c"
 depends = "['gdal', 'libboost>=1.83.0', 'libgeotiff']"
 reverse_depends = "['vtk']"
 +++
-C/C++ library for reading and writing the very common LAS LiDAR format{{< spoiler text="show files" >}}* /usr/bin/las2col
+C/C++ library for reading and writing the very common LAS LiDAR format{{< files text="show files" >}}* /usr/bin/las2col
 * /usr/bin/las2las
 * /usr/bin/las2pg
 * /usr/bin/las2txt
@@ -122,4 +122,4 @@ C/C++ library for reading and writing the very common LAS LiDAR format{{< spoile
 * /usr/share/liblas/doc/INSTALL
 * /usr/share/liblas/doc/LICENSE.txt
 * /usr/share/liblas/doc/README.txt
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "3477051"
 sha1sum = "1018891a84c3328f0bb297f256f582137cf0e64e"
 depends = "[]"
 +++
-Welsh Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale/cy/charset
+Welsh Localization for KDE.{{< files text="show files" >}}* usr/share/locale/cy/charset
 * usr/share/locale/cy/entry.desktop
 * usr/share/locale/cy/flag.png
 * usr/share/locale/cy/LC_MESSAGES/akregator.mo
@@ -574,4 +574,4 @@ Welsh Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale/c
 * usr/share/locale/cy/LC_MESSAGES/wakeup.mo
 * usr/share/locale/cy/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/cy/LC_MESSAGES/webarchiver.mo
-{{< /spoiler >}}
+{{< /files >}}

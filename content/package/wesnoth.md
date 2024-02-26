@@ -13,4 +13,4 @@ usize = "0"
 sha1sum = ""
 depends = "['curl', 'libboost>=1.72.0', 'pango', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'zlib>=1.2.12']"
 +++
-Wesnoth is a turn based strategy game played in the fantasy world{{< spoiler text="show files" >}}{{< /spoiler >}}
+Wesnoth is a turn based strategy game played in the fantasy world{{< files text="show files" >}}{{< /files >}}

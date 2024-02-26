@@ -14,7 +14,7 @@ sha1sum = "7873aca21dfe2503ad56c706f09752d7a7f26622"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['spamassassin']"
 +++
-Razor2 is a distributed, collaborative, spam detection and filtering network tool{{< spoiler text="show files" >}}* /usr/bin/razor-admin
+Razor2 is a distributed, collaborative, spam detection and filtering network tool{{< files text="show files" >}}* /usr/bin/razor-admin
 * /usr/bin/razor-check
 * /usr/bin/razor-client
 * /usr/bin/razor-report
@@ -55,4 +55,4 @@ Razor2 is a distributed, collaborative, spam detection and filtering network too
 * /usr/share/man/man5/razor-agent.conf.5.gz
 * /usr/share/man/man5/razor-agents.5.gz
 * /usr/share/man/man5/razor-whitelist.5.gz
-{{< /spoiler >}}
+{{< /files >}}

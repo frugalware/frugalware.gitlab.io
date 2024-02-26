@@ -14,7 +14,7 @@ sha1sum = "e4cbfa5ab854d0ec159693734c6bcee1335dbf83"
 depends = "['dbus-glib>=0.108-3', 'libffi>=3.2.1-2', 'libxml2>=2.9.4-3', 'sqlite3>=3.9.2-4', 'telepathy-glib>=0.24.1-8']"
 reverse_depends = "['telepathy-logger-qt']"
 +++
-telepathy logger service{{< spoiler text="show files" >}}* /usr/include/telepathy-logger-0.2/telepathy-logger/call-event.h
+telepathy logger service{{< files text="show files" >}}* /usr/include/telepathy-logger-0.2/telepathy-logger/call-event.h
 * /usr/include/telepathy-logger-0.2/telepathy-logger/entity.h
 * /usr/include/telepathy-logger-0.2/telepathy-logger/event.h
 * /usr/include/telepathy-logger-0.2/telepathy-logger/log-manager.h
@@ -66,4 +66,4 @@ telepathy logger service{{< spoiler text="show files" >}}* /usr/include/telepath
 * /usr/share/gtk-doc/html/telepathy-logger/up-insensitive.png
 * /usr/share/gtk-doc/html/telepathy-logger/up.png
 * /usr/share/telepathy/clients/Logger.client
-{{< /spoiler >}}
+{{< /files >}}

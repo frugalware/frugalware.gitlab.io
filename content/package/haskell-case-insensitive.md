@@ -14,7 +14,7 @@ sha1sum = "74abbdd8590d1e0bdc35c133b152cd5d6a5192da"
 depends = "['haskell-hashable>=1.4.2.0']"
 reverse_depends = "['haskell-citeproc', 'haskell-http-media', 'haskell-http-types', 'haskell-servant', 'haskell-skylighting-core']"
 +++
-Case insensitive string comparison{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/case-insensitive-1.2.1.0/Data/CaseInsensitive.dyn_hi
+Case insensitive string comparison{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/case-insensitive-1.2.1.0/Data/CaseInsensitive.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/case-insensitive-1.2.1.0/Data/CaseInsensitive.hi
 * /usr/lib/ghc-9.8.1/site-local/case-insensitive-1.2.1.0/Data/CaseInsensitive/Internal.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/case-insensitive-1.2.1.0/Data/CaseInsensitive/Internal.hi
@@ -38,4 +38,4 @@ Case insensitive string comparison{{< spoiler text="show files" >}}* /usr/lib/gh
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/case-insensitive-1.2.1.0/LICENSE
 * /usr/share/haskell/haskell-case-insensitive/register.sh
 * /usr/share/haskell/haskell-case-insensitive/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

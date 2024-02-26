@@ -13,7 +13,7 @@ usize = "3902574"
 sha1sum = "b10b44bb6fb71fb4669f96952b56f0b713aa76e9"
 depends = "['kcmutils>=5.115.0', 'kpackage>=5.115.0', 'kwayland>=5.115.0', 'libglu>=9.0.0-3', 'libraw1394>=2.1.2-2', 'pciutils>=3.5.1-4', 'plasma-framework>=5.115.0', 'solid>=5.115.0', 'wayland-utils']"
 +++
-Utility that provides information about a computer system.{{< spoiler text="show files" >}}* /etc/xdg/menus/kinfocenter.menu
+Utility that provides information about a computer system.{{< files text="show files" >}}* /etc/xdg/menus/kinfocenter.menu
 * /usr/bin/kinfocenter
 * /usr/lib/kf5/kauth/kinfocenter-dmidecode-helper
 * /usr/lib/libKInfoCenterInternal.so
@@ -944,4 +944,4 @@ Utility that provides information about a computer system.{{< spoiler text="show
 * /usr/share/polkit-1/actions/org.kde.kinfocenter.dmidecode.policy
 * /usr/share/qt5/qml/org/kde/kinfocenter/private/CommandOutputKCM.qml
 * /usr/share/qt5/qml/org/kde/kinfocenter/private/qmldir
-{{< /spoiler >}}
+{{< /files >}}

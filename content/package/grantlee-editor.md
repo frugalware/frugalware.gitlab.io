@@ -13,7 +13,7 @@ usize = "1252268"
 sha1sum = "79ff238d9c5a2c46f5ae6a2e4ada64e8732bb38e"
 depends = "['ktexteditor>=5.115.0', 'messagelib>=23.08.5']"
 +++
-gantt editor for PIM application.{{< spoiler text="show files" >}}* /usr/bin/contactprintthemeeditor
+gantt editor for PIM application.{{< files text="show files" >}}* /usr/bin/contactprintthemeeditor
 * /usr/bin/contactthemeeditor
 * /usr/bin/headerthemeeditor
 * /usr/lib/libgrantleethemeeditor.so.5
@@ -231,4 +231,4 @@ gantt editor for PIM application.{{< spoiler text="show files" >}}* /usr/bin/con
 * /usr/share/locale/zh_TW/LC_MESSAGES/libgrantleethemeeditor.mo
 * /usr/share/qlogging-categories5/grantleeditor.categories
 * /usr/share/qlogging-categories5/grantleeditor.renamecategories
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "366418"
 sha1sum = "1d0337f8d43acc4b6b84b161988ad92ec00d1dfc"
 depends = "['python3-six>=1.16']"
 +++
-A Python 3interface to Last.fm and Libre.fm{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/pylast-5.2.0.dist-info/licenses/COPYING
+A Python 3interface to Last.fm and Libre.fm{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pylast-5.2.0.dist-info/licenses/COPYING
 * /usr/lib/python3.12/site-packages/pylast-5.2.0.dist-info/licenses/LICENSE.txt
 * /usr/lib/python3.12/site-packages/pylast-5.2.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/pylast-5.2.0.dist-info/RECORD
@@ -23,4 +23,4 @@ A Python 3interface to Last.fm and Libre.fm{{< spoiler text="show files" >}}* /u
 * /usr/lib/python3.12/site-packages/pylast/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-pylast-5.2.0/COPYING
 * /usr/share/doc/python3-pylast-5.2.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

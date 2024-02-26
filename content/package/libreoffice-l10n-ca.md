@@ -13,7 +13,7 @@ usize = "35976234"
 sha1sum = "4895f8ee297c335795e465604de0605fa8af8ee8"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Catalan support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/ca/default.css
+Installs Catalan support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/ca/default.css
 * /usr/lib/libreoffice/help/ca/err.html
 * /usr/lib/libreoffice/help/ca/highcontrast1.css
 * /usr/lib/libreoffice/help/ca/highcontrast2.css
@@ -131,4 +131,4 @@ Installs Catalan support in LibreOffice{{< spoiler text="show files" >}}* /usr/l
 * /usr/lib/libreoffice/share/registry/Langpack-ca.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_ca.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_ca.xcd
-{{< /spoiler >}}
+{{< /files >}}

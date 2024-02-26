@@ -13,7 +13,7 @@ usize = "251522"
 sha1sum = "8fda83a825b1fb36a22f425eed4595b38e2c57c4"
 depends = "['libxml2-python>=2.9.3-3']"
 +++
-ITS-based XML translation tool.{{< spoiler text="show files" >}}* /usr/bin/itstool
+ITS-based XML translation tool.{{< files text="show files" >}}* /usr/bin/itstool
 * /usr/share/doc/itstool-2.0.7/ChangeLog
 * /usr/share/doc/itstool-2.0.7/COPYING
 * /usr/share/doc/itstool-2.0.7/COPYING.GPL3
@@ -26,4 +26,4 @@ ITS-based XML translation tool.{{< spoiler text="show files" >}}* /usr/bin/itsto
 * /usr/share/itstool/its/ttml.its
 * /usr/share/itstool/its/xhtml.its
 * /usr/share/man/man1/itstool.1.gz
-{{< /spoiler >}}
+{{< /files >}}

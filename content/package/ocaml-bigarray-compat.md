@@ -14,7 +14,7 @@ sha1sum = "35911e98d8e2c54717dbf1541280bc0f53f4d1ee"
 depends = "['ocaml>=5.1.1']"
 reverse_depends = "['ocaml-ctypes']"
 +++
-Compatibility library to use Stdlib.Bigarray when possible{{< spoiler text="show files" >}}* /usr/lib/ocaml/bigarray-compat/bigarray_compat.a
+Compatibility library to use Stdlib.Bigarray when possible{{< files text="show files" >}}* /usr/lib/ocaml/bigarray-compat/bigarray_compat.a
 * /usr/lib/ocaml/bigarray-compat/bigarray_compat.cma
 * /usr/lib/ocaml/bigarray-compat/bigarray_compat.cmi
 * /usr/lib/ocaml/bigarray-compat/bigarray_compat.cmt
@@ -29,4 +29,4 @@ Compatibility library to use Stdlib.Bigarray when possible{{< spoiler text="show
 * /usr/share/doc/ocaml-bigarray-compat-1.1.0/bigarray-compat/LICENSE.md
 * /usr/share/doc/ocaml-bigarray-compat-1.1.0/bigarray-compat/README.md
 * /usr/share/doc/ocaml-bigarray-compat-1.1.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "1195731"
 sha1sum = "f0a70b4f0fd7736a6c56b249faa7d02af9c88e92"
 depends = "['karchive>=5.115.0', 'ki18n>=5.115.0', 'kiconthemes>=5.115.0', 'kio>=5.115.0', 'knotifications>=5.115.0', 'kwidgetsaddons>=5.115.0', 'kxmlgui>=5.115.0']"
 +++
-Backup program for KDE.{{< spoiler text="show files" >}}* /usr/bin/kbackup
+Backup program for KDE.{{< files text="show files" >}}* /usr/bin/kbackup
 * /usr/share/applications/org.kde.kbackup.desktop
 * /usr/share/doc/HTML/ca/kbackup/index.cache.bz2
 * /usr/share/doc/HTML/ca/kbackup/index.docbook
@@ -91,4 +91,4 @@ Backup program for KDE.{{< spoiler text="show files" >}}* /usr/bin/kbackup
 * /usr/share/man/uk/man1/kbackup.1.gz
 * /usr/share/metainfo/org.kde.kbackup.appdata.xml
 * /usr/share/mime/packages/kbackup.xml
-{{< /spoiler >}}
+{{< /files >}}

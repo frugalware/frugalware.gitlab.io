@@ -13,7 +13,7 @@ usize = "3196279"
 sha1sum = "0c67073a2f1262739972caf67a70214839a8fc62"
 depends = "['bash']"
 +++
-Easily switch between multiple versions of Python{{< spoiler text="show files" >}}* /usr/bin/pyenv
+Easily switch between multiple versions of Python{{< files text="show files" >}}* /usr/bin/pyenv
 * /usr/bin/pyenv-install
 * /usr/bin/pyenv-uninstall
 * /usr/bin/python-build
@@ -1096,4 +1096,4 @@ Easily switch between multiple versions of Python{{< spoiler text="show files" >
 * /usr/share/pyenv/pyenv.d/rehash/source.bash
 * /usr/share/pyenv/pyenv.d/rehash/source.d/default.list
 * /usr/share/zsh/site-functions/_pyenv
-{{< /spoiler >}}
+{{< /files >}}

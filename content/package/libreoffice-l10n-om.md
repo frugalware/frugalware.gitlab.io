@@ -13,7 +13,7 @@ usize = "32886043"
 sha1sum = "9a5a6c52f6cd4299428e9b8141615bcdcc7fea10"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Oromo support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/om/default.css
+Installs Oromo support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/om/default.css
 * /usr/lib/libreoffice/help/om/err.html
 * /usr/lib/libreoffice/help/om/highcontrast1.css
 * /usr/lib/libreoffice/help/om/highcontrast2.css
@@ -131,4 +131,4 @@ Installs Oromo support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib
 * /usr/lib/libreoffice/share/registry/Langpack-om.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_om.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_om.xcd
-{{< /spoiler >}}
+{{< /files >}}

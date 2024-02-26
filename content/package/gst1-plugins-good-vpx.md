@@ -13,5 +13,5 @@ usize = "96432"
 sha1sum = "bd9257cc972ba8371c79c3d45a45cff6cf42c34e"
 depends = "['gst1-plugins-base>=1.22.10', 'gst1-plugins-good>=1.22.10', 'libffi>=3.2.1-2', 'libvpx>=1.13.0']"
 +++
-GStreamer vpx plugin (Good).{{< spoiler text="show files" >}}* /usr/lib/gstreamer-1.0/libgstvpx.so
-{{< /spoiler >}}
+GStreamer vpx plugin (Good).{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstvpx.so
+{{< /files >}}

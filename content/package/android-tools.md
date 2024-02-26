@@ -14,7 +14,7 @@ sha1sum = "f22e6d157bbb8107a857658ad8f8a2a02339a7eb"
 depends = "['brotli', 'libcap', 'libusb1', 'pcre2', 'protobuf>=25.3', 'zstd']"
 reverse_depends = "['scrcpy']"
 +++
-Android platform tools{{< spoiler text="show files" >}}* /usr/bin/adb
+Android platform tools{{< files text="show files" >}}* /usr/bin/adb
 * /usr/bin/append2simg
 * /usr/bin/avbtool
 * /usr/bin/e2fsdroid
@@ -40,4 +40,4 @@ Android platform tools{{< spoiler text="show files" >}}* /usr/bin/adb
 * /usr/share/bash-completion/completions/fastboot
 * /usr/share/doc/android-tools-34.0.4/LICENSE
 * /usr/share/doc/android-tools-34.0.4/README.md
-{{< /spoiler >}}
+{{< /files >}}

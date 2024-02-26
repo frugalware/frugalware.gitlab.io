@@ -13,7 +13,7 @@ usize = "533786"
 sha1sum = "bf7f207054259e7ad7bd273716209df9a1ff2113"
 depends = "['lua']"
 +++
-Scripts used by libquvi{{< spoiler text="show files" >}}* /usr/lib/pkgconfig/libquvi-scripts-0.9.pc
+Scripts used by libquvi{{< files text="show files" >}}* /usr/lib/pkgconfig/libquvi-scripts-0.9.pc
 * /usr/share/doc/libquvi-scripts-0.9.20131130/AUTHORS
 * /usr/share/doc/libquvi-scripts-0.9.20131130/ChangeLog
 * /usr/share/doc/libquvi-scripts-0.9.20131130/COPYING
@@ -85,4 +85,4 @@ Scripts used by libquvi{{< spoiler text="show files" >}}* /usr/lib/pkgconfig/lib
 * /usr/share/man/man7/libquvi-scripts.7.gz
 * /usr/share/man/man7/quvi-modules-3rdparty.7.gz
 * /usr/share/man/man7/quvi-modules.7.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "f0ac91bf92bea93eb21db93c5db56233493e359e"
 depends = "['glib2>=2.50.0']"
 reverse_depends = "['libdbusmenu-gtk2', 'libdbusmenu-gtk3']"
 +++
-A small little library that was created by pulling out some common code out of indicator-applet.{{< spoiler text="show files" >}}* /usr/include/libdbusmenu-glib-0.4/libdbusmenu-glib/client.h
+A small little library that was created by pulling out some common code out of indicator-applet.{{< files text="show files" >}}* /usr/include/libdbusmenu-glib-0.4/libdbusmenu-glib/client.h
 * /usr/include/libdbusmenu-glib-0.4/libdbusmenu-glib/dbusmenu-glib.h
 * /usr/include/libdbusmenu-glib-0.4/libdbusmenu-glib/enum-types.h
 * /usr/include/libdbusmenu-glib-0.4/libdbusmenu-glib/menuitem-proxy.h
@@ -81,4 +81,4 @@ A small little library that was created by pulling out some common code out of i
 * /usr/share/gtk-doc/html/libdbusmenu-gtk/up-insensitive.png
 * /usr/share/gtk-doc/html/libdbusmenu-gtk/up.png
 * /usr/share/vala/vapi/Dbusmenu-0.4.vapi
-{{< /spoiler >}}
+{{< /files >}}

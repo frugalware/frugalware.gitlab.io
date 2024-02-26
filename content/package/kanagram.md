@@ -13,7 +13,7 @@ usize = "8388931"
 sha1sum = "fab552695fbe2e73e25eeb730befca03b9624721"
 depends = "['kdeclarative>=5.115.0', 'knewstuff>=5.115.0', 'libkeduvocdocument>=23.08.5', 'qt5-declarative>=5.15.12', 'qt5-svg>=5.15.12']"
 +++
-Letter Order Game.{{< spoiler text="show files" >}}* /usr/bin/kanagram
+Letter Order Game.{{< files text="show files" >}}* /usr/bin/kanagram
 * /usr/share/applications/org.kde.kanagram.desktop
 * /usr/share/config.kcfg/kanagram.kcfg
 * /usr/share/doc/HTML/ca/kanagram/general-settings.png
@@ -210,4 +210,4 @@ Letter Order Game.{{< spoiler text="show files" >}}* /usr/bin/kanagram
 * /usr/share/locale/zh_CN/LC_MESSAGES/kanagram.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kanagram.mo
 * /usr/share/metainfo/org.kde.kanagram.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

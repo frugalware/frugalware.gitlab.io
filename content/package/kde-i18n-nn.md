@@ -13,7 +13,7 @@ usize = "5201523"
 sha1sum = "293f121e16288e4b44ff2c0c9a15e5573b46a62d"
 depends = "[]"
 +++
-Norwegian Localization for KDE.{{< spoiler text="show files" >}}* usr/share/apps/khangman/data/nn/animals.kvtml
+Norwegian Localization for KDE.{{< files text="show files" >}}* usr/share/apps/khangman/data/nn/animals.kvtml
 * usr/share/apps/khangman/data/nn/easy.kvtml
 * usr/share/apps/khangman/data/nn/hard.kvtml
 * usr/share/apps/khangman/data/nn/medium.kvtml
@@ -479,4 +479,4 @@ Norwegian Localization for KDE.{{< spoiler text="show files" >}}* usr/share/apps
 * usr/share/locale/nn/LC_MESSAGES/wakeup.mo
 * usr/share/locale/nn/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/nn/LC_MESSAGES/webarchiver.mo
-{{< /spoiler >}}
+{{< /files >}}

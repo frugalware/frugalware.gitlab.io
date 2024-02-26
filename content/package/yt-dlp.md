@@ -14,7 +14,7 @@ sha1sum = "63a3c4ee555b81b766f1e895ca3af1f904e8c2c7"
 depends = "['ffmpeg', 'mutagen', 'rtmpdump']"
 reverse_depends = "['audiotube', 'plasmatube']"
 +++
-A youtube-dl fork with additional features and fixes{{< spoiler text="show files" >}}* /usr/bin/yt-dlp
+A youtube-dl fork with additional features and fixes{{< files text="show files" >}}* /usr/bin/yt-dlp
 * /usr/lib/python3.12/site-packages/yt_dlp-2023.9.24.dist-info/AUTHORS
 * /usr/lib/python3.12/site-packages/yt_dlp-2023.9.24.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/yt_dlp-2023.9.24.dist-info/LICENSE
@@ -3463,4 +3463,4 @@ A youtube-dl fork with additional features and fixes{{< spoiler text="show files
 * /usr/share/fish/vendor_completions.d/yt-dlp.fish
 * /usr/share/man/man1/yt-dlp.1.gz
 * /usr/share/zsh/site-functions/_yt-dlp
-{{< /spoiler >}}
+{{< /files >}}

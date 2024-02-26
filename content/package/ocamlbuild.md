@@ -13,7 +13,7 @@ usize = "8862613"
 sha1sum = "933b492a3c9c57e8eb7ff350149ad4136e2afe33"
 depends = "['ocaml>=5.1.1']"
 +++
-Build tool, that has built-in rules for building OCaml library and programs{{< spoiler text="show files" >}}* /usr/bin/ocamlbuild
+Build tool, that has built-in rules for building OCaml library and programs{{< files text="show files" >}}* /usr/bin/ocamlbuild
 * /usr/bin/ocamlbuild.byte
 * /usr/bin/ocamlbuild.native
 * /usr/lib/ocaml/ocamlbuild/META
@@ -41,4 +41,4 @@ Build tool, that has built-in rules for building OCaml library and programs{{< s
 * /usr/share/doc/ocamlbuild-0.14.2/Readme.md
 * /usr/share/doc/ocamlbuild-0.14.2/VERSION
 * /usr/share/man/man1/ocamlbuild.1.gz
-{{< /spoiler >}}
+{{< /files >}}

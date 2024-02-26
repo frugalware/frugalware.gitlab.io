@@ -14,7 +14,7 @@ sha1sum = "070b50f9e0065d38d009e8d829288077e41a285a"
 depends = "['python3']"
 reverse_depends = "['python3-beniget']"
 +++
-AST that abstracts the underlying Python version{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/gast-0.5.4-py3.12.egg-info/dependency_links.txt
+AST that abstracts the underlying Python version{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/gast-0.5.4-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/gast-0.5.4-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/gast-0.5.4-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/gast-0.5.4-py3.12.egg-info/top_level.txt
@@ -34,4 +34,4 @@ AST that abstracts the underlying Python version{{< spoiler text="show files" >}
 * /usr/lib/python3.12/site-packages/gast/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-gast-0.5.4/LICENSE
 * /usr/share/doc/python3-gast-0.5.4/README.rst
-{{< /spoiler >}}
+{{< /files >}}

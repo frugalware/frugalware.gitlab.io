@@ -13,7 +13,7 @@ usize = "1520604"
 sha1sum = "3569affa68437d32c431df136d3020ffe57aa19d"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Kashmiri support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/program/resource/ks/LC_MESSAGES/acc.mo
+Installs Kashmiri support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/ks/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/ks/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/ks/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/ks/LC_MESSAGES/chart.mo
@@ -51,4 +51,4 @@ Installs Kashmiri support in LibreOffice{{< spoiler text="show files" >}}* /usr/
 * /usr/lib/libreoffice/share/registry/Langpack-ks.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_ks.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_ks.xcd
-{{< /spoiler >}}
+{{< /files >}}

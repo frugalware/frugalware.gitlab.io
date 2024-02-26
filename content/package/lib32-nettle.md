@@ -14,7 +14,7 @@ sha1sum = "889313a02e1a4905d93865a3c790a96af288c840"
 depends = "['lib32-gmp>=6.1.2-12']"
 reverse_depends = "['lib32-gnutls', 'lib32-libcurl-gnutls']"
 +++
-A low-level cryptographic library ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/nettle-hash
+A low-level cryptographic library ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/nettle-hash
 * /usr/i686-frugalware-linux/bin/nettle-lfib-stream
 * /usr/i686-frugalware-linux/bin/nettle-pbkdf2
 * /usr/i686-frugalware-linux/bin/pkcs1-conv
@@ -99,4 +99,4 @@ A low-level cryptographic library ( 32bit ){{< spoiler text="show files" >}}* /u
 * /usr/lib32/libnettle.so.8.8
 * /usr/lib32/pkgconfig/hogweed.pc
 * /usr/lib32/pkgconfig/nettle.pc
-{{< /spoiler >}}
+{{< /files >}}

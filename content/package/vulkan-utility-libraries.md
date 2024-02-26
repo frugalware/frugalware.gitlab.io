@@ -13,7 +13,7 @@ usize = "3159035"
 sha1sum = "6f6d9d77507d131ae0ed2a57d37f35c93f3f8e72"
 depends = "['glibc>=2.35']"
 +++
-Utility libraries for Vulkan developers{{< spoiler text="show files" >}}* /usr/include/vulkan/layer/vk_layer_settings.h
+Utility libraries for Vulkan developers{{< files text="show files" >}}* /usr/include/vulkan/layer/vk_layer_settings.h
 * /usr/include/vulkan/layer/vk_layer_settings.hpp
 * /usr/include/vulkan/utility/vk_dispatch_table.h
 * /usr/include/vulkan/utility/vk_format_utils.h
@@ -24,4 +24,4 @@ Utility libraries for Vulkan developers{{< spoiler text="show files" >}}* /usr/i
 * /usr/lib/cmake/VulkanUtilityLibraries/VulkanUtilityLibrariesConfig.cmake
 * /usr/lib/libVulkanLayerSettings.a
 * /usr/share/doc/vulkan-utility-libraries-1.3.275.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

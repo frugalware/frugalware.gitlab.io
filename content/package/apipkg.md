@@ -13,7 +13,7 @@ usize = "50612"
 sha1sum = "c8c742462cf88c4dded93cf05b0f9dd058c51fbb"
 depends = "['python3>=3.10']"
 +++
-Namespace control and lazy-import mechanism.{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/apipkg-3.0.1.dist-info/licenses/LICENSE
+Namespace control and lazy-import mechanism.{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/apipkg-3.0.1.dist-info/licenses/LICENSE
 * /usr/lib/python3.12/site-packages/apipkg-3.0.1.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/apipkg-3.0.1.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/apipkg-3.0.1.dist-info/WHEEL
@@ -40,4 +40,4 @@ Namespace control and lazy-import mechanism.{{< spoiler text="show files" >}}* /
 * /usr/share/doc/apipkg-3.0.1/LICENSE
 * /usr/share/doc/apipkg-3.0.1/README
 * /usr/share/doc/apipkg-3.0.1/README.rst
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "19392703"
 sha1sum = "33c82005ba11b364aed9f79e188fd433b0436a2d"
 depends = "['glibc']"
 +++
-WenQuanYi Bitmap Song CJK font{{< spoiler text="show files" >}}* /usr/share/doc/wqy-bitmapfont-pcf-0.9.9_0/AUTHORS
+WenQuanYi Bitmap Song CJK font{{< files text="show files" >}}* /usr/share/doc/wqy-bitmapfont-pcf-0.9.9_0/AUTHORS
 * /usr/share/doc/wqy-bitmapfont-pcf-0.9.9_0/ChangeLog
 * /usr/share/doc/wqy-bitmapfont-pcf-0.9.9_0/COPYING
 * /usr/share/doc/wqy-bitmapfont-pcf-0.9.9_0/INSTALL
@@ -27,4 +27,4 @@ WenQuanYi Bitmap Song CJK font{{< spoiler text="show files" >}}* /usr/share/doc/
 * /usr/share/fonts/X11/75dpi/wenquanyi_12ptb.pcf
 * /usr/share/fonts/X11/75dpi/wenquanyi_9pt.pcf
 * /usr/share/fonts/X11/75dpi/wenquanyi_9ptb.pcf
-{{< /spoiler >}}
+{{< /files >}}

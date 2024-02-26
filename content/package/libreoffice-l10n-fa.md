@@ -13,7 +13,7 @@ usize = "1748758"
 sha1sum = "3e71342044ac41329a6bb30a7914aef70e2c8cb1"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Persian support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/program/resource/fa/LC_MESSAGES/acc.mo
+Installs Persian support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/fa/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/fa/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/fa/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/fa/LC_MESSAGES/chart.mo
@@ -52,4 +52,4 @@ Installs Persian support in LibreOffice{{< spoiler text="show files" >}}* /usr/l
 * /usr/lib/libreoffice/share/registry/Langpack-fa.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_fa.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_fa.xcd
-{{< /spoiler >}}
+{{< /files >}}

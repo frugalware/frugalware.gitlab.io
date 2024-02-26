@@ -13,7 +13,7 @@ usize = "84642317"
 sha1sum = "f5944058b36c2c919055d021b8dbd2c264969f6c"
 depends = "['binutils', 'libstdc++']"
 +++
-The GNU Compiler Collection (4.1.x series){{< spoiler text="show files" >}}* lib/cpp-4.1
+The GNU Compiler Collection (4.1.x series){{< files text="show files" >}}* lib/cpp-4.1
 * usr/bin/c++-4.1
 * usr/bin/cc-4.1
 * usr/bin/cpp-4.1
@@ -550,4 +550,4 @@ The GNU Compiler Collection (4.1.x series){{< spoiler text="show files" >}}* lib
 * usr/share/man/man1/g++-4.1.1.gz
 * usr/share/man/man1/gcc-4.1.1.gz
 * usr/share/man/man1/gcov-4.1.1.gz
-{{< /spoiler >}}
+{{< /files >}}

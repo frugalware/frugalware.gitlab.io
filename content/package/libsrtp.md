@@ -14,7 +14,7 @@ sha1sum = "fc960b00716897418c5aa4399803cf7daf3de4ff"
 depends = "['glibc>=2.34']"
 reverse_depends = "['kopete', 'qt5-webengine']"
 +++
-Library for SRTP (Secure Realtime Transport Protocol){{< spoiler text="show files" >}}* /usr/include/srtp2/auth.h
+Library for SRTP (Secure Realtime Transport Protocol){{< files text="show files" >}}* /usr/include/srtp2/auth.h
 * /usr/include/srtp2/cipher.h
 * /usr/include/srtp2/crypto_types.h
 * /usr/include/srtp2/srtp.h
@@ -24,4 +24,4 @@ Library for SRTP (Secure Realtime Transport Protocol){{< spoiler text="show file
 * /usr/share/doc/libsrtp-2.6.0/CHANGES
 * /usr/share/doc/libsrtp-2.6.0/LICENSE
 * /usr/share/doc/libsrtp-2.6.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "1195598"
 sha1sum = "cbdab854f6ba6f6c8615b1d4635026ade4f19fba"
 depends = "['imlib2', 'libpulse', 'libxdamage', 'libxft', 'libxinerama', 'libxml2', 'lua>=5.4', 'wireless_tools']"
 +++
-Light-weight system monitor.{{< spoiler text="show files" >}}* /usr/bin/conky
+Light-weight system monitor.{{< files text="show files" >}}* /usr/bin/conky
 * /usr/share/applications/conky.desktop
 * /usr/share/doc/conky-1.19.4/AUTHORS
 * /usr/share/doc/conky-1.19.4/COPYING
@@ -23,4 +23,4 @@ Light-weight system monitor.{{< spoiler text="show files" >}}* /usr/bin/conky
 * /usr/share/doc/conky-1.19.4_pre/conky_no_x11.conf
 * /usr/share/doc/conky-1.19.4_pre/convert.lua
 * /usr/share/icons/hicolor/scalable/apps/conky-logomark-violet.svg
-{{< /spoiler >}}
+{{< /files >}}

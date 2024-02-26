@@ -14,7 +14,7 @@ sha1sum = "6adefc560509d4ef346b775b40a3a6d0d2f54ebf"
 depends = "['libxaw>=1.0.13-2']"
 license = "GPL2"
 +++
-X.Org xsm application{{< spoiler text="show files" >}}* /etc/X11/xsm/system.xsm
+X.Org xsm application{{< files text="show files" >}}* /etc/X11/xsm/system.xsm
 * /usr/bin/xsm
 * /usr/share/doc/xsm-1.0.5/ChangeLog
 * /usr/share/doc/xsm-1.0.5/COPYING
@@ -22,4 +22,4 @@ X.Org xsm application{{< spoiler text="show files" >}}* /etc/X11/xsm/system.xsm
 * /usr/share/doc/xsm-1.0.5/README
 * /usr/share/man/man1/xsm.1.gz
 * /usr/share/X11/app-defaults/XSm
-{{< /spoiler >}}
+{{< /files >}}

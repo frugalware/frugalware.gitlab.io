@@ -13,5 +13,5 @@ usize = "360466"
 sha1sum = "6847e8851321ced01eab994a1908484b52aa1721"
 depends = "[]"
 +++
-JSON-C static{{< spoiler text="show files" >}}* /usr/lib/libjson-c.a
-{{< /spoiler >}}
+JSON-C static{{< files text="show files" >}}* /usr/lib/libjson-c.a
+{{< /files >}}

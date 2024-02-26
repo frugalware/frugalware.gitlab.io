@@ -14,7 +14,7 @@ sha1sum = "760f112951aab2713d2073ed21b1dc24954089b3"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['amavisd-new']"
 +++
-extract data from Macintosh BinHex files{{< spoiler text="show files" >}}* /usr/bin/site_perl/binhex.pl
+extract data from Macintosh BinHex files{{< files text="show files" >}}* /usr/bin/site_perl/binhex.pl
 * /usr/bin/site_perl/debinhex.pl
 * /usr/lib/perl5/site_perl/Convert/BinHex.pm
 * /usr/share/doc/perl-convert-binhex-1.125/COPYING
@@ -25,4 +25,4 @@ extract data from Macintosh BinHex files{{< spoiler text="show files" >}}* /usr/
 * /usr/share/man/man1/binhex.pl.1perl.gz
 * /usr/share/man/man1/debinhex.pl.1perl.gz
 * /usr/share/man/man3/Convert::BinHex.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

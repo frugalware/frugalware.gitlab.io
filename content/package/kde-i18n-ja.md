@@ -13,7 +13,7 @@ usize = "9809377"
 sha1sum = "5c9d26d823d1c78b946144f68420ef1188c8d65c"
 depends = "[]"
 +++
-Japanese Localization for KDE.{{< spoiler text="show files" >}}* usr/share/doc/HTML/ja/common/1.png
+Japanese Localization for KDE.{{< files text="show files" >}}* usr/share/doc/HTML/ja/common/1.png
 * usr/share/doc/HTML/ja/common/10.png
 * usr/share/doc/HTML/ja/common/2.png
 * usr/share/doc/HTML/ja/common/3.png
@@ -814,4 +814,4 @@ Japanese Localization for KDE.{{< spoiler text="show files" >}}* usr/share/doc/H
 * usr/share/locale/ja/LC_MESSAGES/wakeup.mo
 * usr/share/locale/ja/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/ja/LC_MESSAGES/webarchiver.mo
-{{< /spoiler >}}
+{{< /files >}}

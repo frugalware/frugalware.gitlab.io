@@ -13,7 +13,7 @@ usize = "32415878"
 sha1sum = "8b969a06dcb71d990578ccbc41162b3c769acb53"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Croatian support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/hr/default.css
+Installs Croatian support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/hr/default.css
 * /usr/lib/libreoffice/help/hr/err.html
 * /usr/lib/libreoffice/help/hr/highcontrast1.css
 * /usr/lib/libreoffice/help/hr/highcontrast2.css
@@ -131,4 +131,4 @@ Installs Croatian support in LibreOffice{{< spoiler text="show files" >}}* /usr/
 * /usr/lib/libreoffice/share/registry/Langpack-hr.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_hr.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_hr.xcd
-{{< /spoiler >}}
+{{< /files >}}

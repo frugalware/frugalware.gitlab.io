@@ -14,7 +14,7 @@ sha1sum = "56be6ed191034947d7251e45c290e4eeb172f7b6"
 depends = "['python3-importlib-metadata']"
 reverse_depends = "['gi-docgen', 'meshroom']"
 +++
-Python implementation of Markdown.{{< spoiler text="show files" >}}* /usr/bin/markdown_py
+Python implementation of Markdown.{{< files text="show files" >}}* /usr/bin/markdown_py
 * /usr/lib/python3.12/site-packages/Markdown-3.5.1.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/Markdown-3.5.1.dist-info/LICENSE.md
 * /usr/lib/python3.12/site-packages/Markdown-3.5.1.dist-info/METADATA
@@ -122,4 +122,4 @@ Python implementation of Markdown.{{< spoiler text="show files" >}}* /usr/bin/ma
 * /usr/lib/python3.12/site-packages/markdown/__pycache__/__meta__.cpython-312.pyc
 * /usr/share/doc/python3-markdown-3.5.1/INSTALL.md
 * /usr/share/doc/python3-markdown-3.5.1/README.md
-{{< /spoiler >}}
+{{< /files >}}

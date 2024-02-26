@@ -14,5 +14,5 @@ sha1sum = "f1265601006a2a3194f1a6622cf84dc945cef2d3"
 depends = "[]"
 license = "GPL2"
 +++
-Frech language files for Eric{{< spoiler text="show files" >}}* usr/lib/python2.6/site-packages/eric3/i18n/eric3_fr.qm
-{{< /spoiler >}}
+Frech language files for Eric{{< files text="show files" >}}* usr/lib/python2.6/site-packages/eric3/i18n/eric3_fr.qm
+{{< /files >}}

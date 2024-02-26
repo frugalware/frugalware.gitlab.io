@@ -14,7 +14,7 @@ sha1sum = "da5d5d4a1a7d246295d49f6bfcbf37449a78a452"
 depends = "['kauth>=5.115.0', 'ki18n>=>=5.115.0', 'kwidgetsaddons>=5.115.0', 'qca', 'qca-ossl', 'qt5-svg>=5.15.12', 'util-linux']"
 reverse_depends = "['calamares-frugalware', 'partitionmanager']"
 +++
-Library for managing partitions{{< spoiler text="show files" >}}* /usr/include/kpmcore/backend/corebackend.h
+Library for managing partitions{{< files text="show files" >}}* /usr/include/kpmcore/backend/corebackend.h
 * /usr/include/kpmcore/backend/corebackendmanager.h
 * /usr/include/kpmcore/core/device.h
 * /usr/include/kpmcore/core/devicescanner.h
@@ -196,4 +196,4 @@ Library for managing partitions{{< spoiler text="show files" >}}* /usr/include/k
 * /usr/share/locale/zh_TW/LC_MESSAGES/kpmcore.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kpmcore._policy_.mo
 * /usr/share/polkit-1/actions/org.kde.kpmcore.externalcommand.policy
-{{< /spoiler >}}
+{{< /files >}}

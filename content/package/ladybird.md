@@ -13,7 +13,7 @@ usize = "211811128"
 sha1sum = "61f5970ab5a6577fb7d54aeb43ade24c9e4945ea"
 depends = "['brotli', 'libgl', 'python3', 'qt6-base', 'qt6-multimedia', 'qt6-svg', 'qt6-wayland']"
 +++
-Web browser built from scratch using the SerenityOS LibWeb engine{{< spoiler text="show files" >}}* /usr/bin/headless-browser
+Web browser built from scratch using the SerenityOS LibWeb engine{{< files text="show files" >}}* /usr/bin/headless-browser
 * /usr/bin/ImageDecoder
 * /usr/bin/Ladybird
 * /usr/bin/RequestServer
@@ -757,4 +757,4 @@ Web browser built from scratch using the SerenityOS LibWeb engine{{< spoiler tex
 * /usr/share/res/themes/Scarlett.ini
 * /usr/share/res/themes/Silver.ini
 * /usr/share/res/themes/Sunshine.ini
-{{< /spoiler >}}
+{{< /files >}}

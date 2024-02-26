@@ -13,7 +13,7 @@ usize = "9182010"
 sha1sum = "dcd6abc790e7bb2467a11bfe5b9ddcc59f37e840"
 depends = "[]"
 +++
-Tamil Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale/ta/charset
+Tamil Localization for KDE.{{< files text="show files" >}}* usr/share/locale/ta/charset
 * usr/share/locale/ta/entry.desktop
 * usr/share/locale/ta/flag.png
 * usr/share/locale/ta/LC_MESSAGES/akregator.mo
@@ -552,4 +552,4 @@ Tamil Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale/t
 * usr/share/locale/ta/LC_MESSAGES/wakeup.mo
 * usr/share/locale/ta/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/ta/LC_MESSAGES/webarchiver.mo
-{{< /spoiler >}}
+{{< /files >}}

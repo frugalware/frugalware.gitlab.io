@@ -14,7 +14,7 @@ sha1sum = "eda3268e4a32e594a420be6c4a32604e2fcb8ddd"
 depends = "['python3-pysocks']"
 reverse_depends = "['lutris', 'python3-cachecontrol', 'python3-dulwich', 'python3-poetry', 'python3-requests', 'python3-selenium']"
 +++
-HTTP library with thread-safe connection pooling and file post support{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/urllib3-2.2.1.dist-info/licenses/LICENSE.txt
+HTTP library with thread-safe connection pooling and file post support{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/urllib3-2.2.1.dist-info/licenses/LICENSE.txt
 * /usr/lib/python3.12/site-packages/urllib3-2.2.1.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/urllib3-2.2.1.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/urllib3-2.2.1.dist-info/WHEEL
@@ -123,4 +123,4 @@ HTTP library with thread-safe connection pooling and file post support{{< spoile
 * /usr/lib/python3.12/site-packages/urllib3/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/urllib3/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-urllib3-2.2.1/README.md
-{{< /spoiler >}}
+{{< /files >}}

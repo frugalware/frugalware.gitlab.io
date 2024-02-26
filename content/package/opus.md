@@ -14,7 +14,7 @@ sha1sum = "7077c200bcacefccc6b1cf1820194b45ae9fe08f"
 depends = "['glibc>=2.34']"
 reverse_depends = "['chromium-browser', 'gst1-plugins-base-opus', 'handbrake', 'jack2', 'kwave', 'mpd', 'mumble', 'qt5-webengine', 'qt5-webengine', 'qt6-webengine', 'spice', 'spice-glib', 'telegram-desktop', 'tox-core', 'virtualbox', 'vlc-opus', 'warzone2100', 'xrdp']"
 +++
-codec designed for interactive speech and audio transmission over the Internet{{< spoiler text="show files" >}}* /usr/include/opus/opus.h
+codec designed for interactive speech and audio transmission over the Internet{{< files text="show files" >}}* /usr/include/opus/opus.h
 * /usr/include/opus/opus_custom.h
 * /usr/include/opus/opus_defines.h
 * /usr/include/opus/opus_multistream.h
@@ -29,4 +29,4 @@ codec designed for interactive speech and audio transmission over the Internet{{
 * /usr/share/doc/opus-1.4/COPYING
 * /usr/share/doc/opus-1.4/INSTALL
 * /usr/share/doc/opus-1.4/README
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "9f3a078af12fc01998fad1e52788292f25d963fd"
 depends = "['libwpd>=0.10.1-5', 'libwpg>=0.3.1-4']"
 reverse_depends = "['libreoffice']"
 +++
-Import library for some old mac text documents{{< spoiler text="show files" >}}* /usr/bin/mwaw2csv
+Import library for some old mac text documents{{< files text="show files" >}}* /usr/bin/mwaw2csv
 * /usr/bin/mwaw2html
 * /usr/bin/mwaw2raw
 * /usr/bin/mwaw2svg
@@ -35,4 +35,4 @@ Import library for some old mac text documents{{< spoiler text="show files" >}}*
 * /usr/share/doc/libmwaw-0.3.22/INSTALL
 * /usr/share/doc/libmwaw-0.3.22/README
 * /usr/share/doc/libmwaw-0.3.22/TODO
-{{< /spoiler >}}
+{{< /files >}}

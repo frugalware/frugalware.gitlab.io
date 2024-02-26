@@ -15,7 +15,7 @@ depends = "['glibc>=2.34']"
 reverse_depends = "['discord', 'firefox', 'nss', 'thunderbird', 'whalebird']"
 license = "GPL"
 +++
-NSPR library from mozilla.org{{< spoiler text="show files" >}}* /usr/bin/nspr-config
+NSPR library from mozilla.org{{< files text="show files" >}}* /usr/bin/nspr-config
 * /usr/bin/prerr.properties
 * /usr/include/nspr
 * /usr/include/nspr4/nspr.h
@@ -77,4 +77,4 @@ NSPR library from mozilla.org{{< spoiler text="show files" >}}* /usr/bin/nspr-co
 * /usr/lib/libplc4.so
 * /usr/lib/libplds4.so
 * /usr/lib/pkgconfig/nspr.pc
-{{< /spoiler >}}
+{{< /files >}}

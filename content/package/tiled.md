@@ -13,7 +13,7 @@ usize = "17132822"
 sha1sum = "7228509cb2ce731e280f2f292709647cb65f164b"
 depends = "['python3>=3.12', 'qt5-declarative>=5.15.10', 'qt5-quickcontrols2>=5.15.10', 'qt5-svg>=5.15.10', 'zlib>=1.2.12']"
 +++
-Tiled is a general purpose tile map editor.{{< spoiler text="show files" >}}* /usr/bin/terraingenerator
+Tiled is a general purpose tile map editor.{{< files text="show files" >}}* /usr/bin/terraingenerator
 * /usr/bin/tiled
 * /usr/bin/tmxrasterizer
 * /usr/bin/tmxviewer
@@ -137,4 +137,4 @@ Tiled is a general purpose tile map editor.{{< spoiler text="show files" >}}* /u
 * /usr/share/tiled/translations/tiled_uk.qm
 * /usr/share/tiled/translations/tiled_zh_CN.qm
 * /usr/share/tiled/translations/tiled_zh_TW.qm
-{{< /spoiler >}}
+{{< /files >}}

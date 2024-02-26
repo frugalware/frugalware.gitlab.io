@@ -13,7 +13,7 @@ usize = "468634"
 sha1sum = "5caf5a2f6a7aa7d9d34f548361a7f27e6d0ffcd0"
 depends = "['kdeclarative>=5.115.0', 'smartmontools']"
 +++
-Monitors S.M.A.R.T. capable devices for imminent failure{{< spoiler text="show files" >}}* /usr/lib/kf5/kauth/kded-smart-helper
+Monitors S.M.A.R.T. capable devices for imminent failure{{< files text="show files" >}}* /usr/lib/kf5/kauth/kded-smart-helper
 * /usr/lib/qt5/plugins/kf5/kded/smart.so
 * /usr/lib/qt5/plugins/plasma/kcms/kinfocenter/smart.so
 * /usr/share/dbus-1/system-services/org.kde.kded.smart.service
@@ -64,4 +64,4 @@ Monitors S.M.A.R.T. capable devices for imminent failure{{< spoiler text="show f
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_disks.mo
 * /usr/share/metainfo/org.kde.plasma.disks.metainfo.xml
 * /usr/share/polkit-1/actions/org.kde.kded.smart.policy
-{{< /spoiler >}}
+{{< /files >}}

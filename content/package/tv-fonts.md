@@ -13,7 +13,7 @@ usize = "287997"
 sha1sum = "d5c974696f413367bf210f0a6397f832927cd505"
 depends = "['glibc']"
 +++
-Fonts which are useful for TV applications.{{< spoiler text="show files" >}}* /usr/share/fonts/X11/misc/caption.pcf.gz
+Fonts which are useful for TV applications.{{< files text="show files" >}}* /usr/share/fonts/X11/misc/caption.pcf.gz
 * /usr/share/fonts/X11/misc/captioni.pcf.gz
 * /usr/share/fonts/X11/misc/led-iso10646-1.pcf.gz
 * /usr/share/fonts/X11/misc/led-iso8859-1.pcf.gz
@@ -35,4 +35,4 @@ Fonts which are useful for TV applications.{{< spoiler text="show files" >}}* /u
 * /usr/share/fonts/X11/misc/teletext2i.pcf.gz
 * /usr/share/fonts/X11/misc/teletext4.pcf.gz
 * /usr/share/fonts/X11/misc/teletext4i.pcf.gz
-{{< /spoiler >}}
+{{< /files >}}

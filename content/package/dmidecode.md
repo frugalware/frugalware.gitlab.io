@@ -14,7 +14,7 @@ sha1sum = "d9d2cd4cca28b734b7b5ca09958a788bd0fa4e4a"
 depends = "['glibc>=2.34']"
 reverse_depends = "['hw-probe', 'inxi', 'libvirt']"
 +++
-Desktop Management Interface (DMI) table related utilities.{{< spoiler text="show files" >}}* /usr/bin/biosdecode
+Desktop Management Interface (DMI) table related utilities.{{< files text="show files" >}}* /usr/bin/biosdecode
 * /usr/bin/dmidecode
 * /usr/bin/ownership
 * /usr/bin/vpddecode
@@ -29,4 +29,4 @@ Desktop Management Interface (DMI) table related utilities.{{< spoiler text="sho
 * /usr/share/man/man8/dmidecode.8.gz
 * /usr/share/man/man8/ownership.8.gz
 * /usr/share/man/man8/vpddecode.8.gz
-{{< /spoiler >}}
+{{< /files >}}

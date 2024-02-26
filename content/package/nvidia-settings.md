@@ -14,7 +14,7 @@ sha1sum = "3e89aea720ef7f00534e533342d0ad8abbbe114b"
 depends = "['libxxf86vm>=1.1.4-2']"
 reverse_depends = "['nvidia']"
 +++
-nVidia settings configuration tool.{{< spoiler text="show files" >}}* /usr/bin/nvidia-settings
+nVidia settings configuration tool.{{< files text="show files" >}}* /usr/bin/nvidia-settings
 * /usr/include/NVCtrl/NVCtrl.h
 * /usr/include/NVCtrl/NVCtrlLib.h
 * /usr/lib/libnvidia-wayland-client.so.550.40.07
@@ -25,4 +25,4 @@ nVidia settings configuration tool.{{< spoiler text="show files" >}}* /usr/bin/n
 * /usr/share/doc/nvidia-settings-550.40.07/NV-CONTROL-API.txt
 * /usr/share/man/man1/nvidia-settings.1.gz
 * /usr/share/pixmaps/nvidia-settings.png
-{{< /spoiler >}}
+{{< /files >}}

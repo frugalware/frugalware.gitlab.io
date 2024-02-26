@@ -13,7 +13,7 @@ usize = "36493082"
 sha1sum = "6499626bd5d6eeeccfaee236aad6a926efc66667"
 depends = "['texlive=2023.0']"
 +++
-Graphics packages for TeX Live{{< spoiler text="show files" >}}* /usr/bin/cachepic
+Graphics packages for TeX Live{{< files text="show files" >}}* /usr/bin/cachepic
 * /usr/bin/epspdf
 * /usr/bin/epspdftk
 * /usr/bin/fig4latex
@@ -1366,4 +1366,4 @@ Graphics packages for TeX Live{{< spoiler text="show files" >}}* /usr/bin/cachep
 * /usr/share/texmf-dist/tex/plain/pgf/utilities/pgfrcs.tex
 * /usr/share/texmf-dist/tex/plain/pgfplots/pgfplots.tex
 * /usr/share/texmf-dist/tex/plain/pgfplots/pgfplotstable.tex
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "48732731"
 sha1sum = "b8ee168c97bc93c4d46b69a2a500e2646a9240b4"
 depends = "['alicevision', 'libffi>=3.4', 'python3>=3.11', 'python3-markdown', 'python3-psutil', 'qmlalembic', 'qt5-3d>=5.15.10', 'qt5-graphicaleffects>=5.15.10', 'qt5-imageformats>=5.15.10', 'qt5-location>=5.15.10', 'qt5-quickcontrols>=5.15.10', 'qt5-quickcontrols2>=5.15.10', 'qt5-svg>=5.15.10', 'qtoiio']"
 +++
-3D Reconstruction Software{{< spoiler text="show files" >}}* /usr/bin/Meshroom
+3D Reconstruction Software{{< files text="show files" >}}* /usr/bin/Meshroom
 * /usr/bin/meshroom_batch
 * /usr/bin/meshroom_compute
 * /usr/bin/meshroom_newNodeType
@@ -1497,4 +1497,4 @@ depends = "['alicevision', 'libffi>=3.4', 'python3>=3.11', 'python3-markdown', '
 * /usr/share/doc/meshroom-2023.3.0/COPYING.md
 * /usr/share/doc/meshroom-2023.3.0/INSTALL.md
 * /usr/share/doc/meshroom-2023.3.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

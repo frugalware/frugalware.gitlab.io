@@ -14,7 +14,7 @@ sha1sum = "961315d1d35f02104a1cd3b09f858c4be1fcada5"
 depends = "['glibc>=2.34', 'gpm>=1.20.7-2', 'ncurses>=6.1-2']"
 reverse_depends = "['gimp', 'gst1-plugins-good-aalib', 'mencoder', 'mplayer', 'mpv', 'vlc-aa', 'xine-lib']"
 +++
-A portable ascii art graphics library.{{< spoiler text="show files" >}}* /usr/bin/aafire
+A portable ascii art graphics library.{{< files text="show files" >}}* /usr/bin/aafire
 * /usr/bin/aainfo
 * /usr/bin/aalib-config
 * /usr/bin/aasavefont
@@ -100,4 +100,4 @@ A portable ascii art graphics library.{{< spoiler text="show files" >}}* /usr/bi
 * /usr/share/man/man3/aa_uninitmouse.3.gz
 * /usr/share/man/man3/mem_d.3.gz
 * /usr/share/man/man3/save_d.3.gz
-{{< /spoiler >}}
+{{< /files >}}

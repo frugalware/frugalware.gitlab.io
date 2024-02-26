@@ -14,7 +14,7 @@ sha1sum = "a2a3fb36923ed372d3f225e700c2e1e8b6671eb5"
 depends = "['glibc>=2.34']"
 license = "BSD"
 +++
-Yasm is a complete rewrite of the NASM assembler under BSD License with x64 support.{{< spoiler text="show files" >}}* /usr/bin/vsyasm
+Yasm is a complete rewrite of the NASM assembler under BSD License with x64 support.{{< files text="show files" >}}* /usr/bin/vsyasm
 * /usr/bin/yasm
 * /usr/bin/ytasm
 * /usr/include/libyasm-stdint.h
@@ -55,4 +55,4 @@ Yasm is a complete rewrite of the NASM assembler under BSD License with x64 supp
 * /usr/share/man/man7/yasm_dbgfmts.7.gz
 * /usr/share/man/man7/yasm_objfmts.7.gz
 * /usr/share/man/man7/yasm_parsers.7.gz
-{{< /spoiler >}}
+{{< /files >}}

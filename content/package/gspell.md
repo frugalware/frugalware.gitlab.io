@@ -14,7 +14,7 @@ sha1sum = "a7d98f2fcb53a357544ce882096d5384aabf3994"
 depends = "['enchant>=2.2.3', 'gtk+3>=3.24.0', 'icu4c>=74.1', 'iso-codes>=3.70-2']"
 reverse_depends = "['inkscape', 'wxwidgets']"
 +++
-Spell-checking library for GTK+{{< spoiler text="show files" >}}* /usr/bin/gspell-app1
+Spell-checking library for GTK+{{< files text="show files" >}}* /usr/bin/gspell-app1
 * /usr/include/gspell-1/gspell/gspell-checker-dialog.h
 * /usr/include/gspell-1/gspell/gspell-checker.h
 * /usr/include/gspell-1/gspell/gspell-entry-buffer.h
@@ -138,4 +138,4 @@ Spell-checking library for GTK+{{< spoiler text="show files" >}}* /usr/bin/gspel
 * /usr/share/locale/zh_TW/LC_MESSAGES/gspell-1.mo
 * /usr/share/vala/vapi/gspell-1.deps
 * /usr/share/vala/vapi/gspell-1.vapi
-{{< /spoiler >}}
+{{< /files >}}

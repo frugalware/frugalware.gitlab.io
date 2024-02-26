@@ -14,7 +14,7 @@ sha1sum = "1a294e9c00ae0f8c49e0820ca4e2f564dace0315"
 depends = "['glibc>=2.35']"
 reverse_depends = "['scriptlet-core', 'steamtinkerlaunch']"
 +++
-A utility to show the full path of commands{{< spoiler text="show files" >}}* /usr/bin/which
+A utility to show the full path of commands{{< files text="show files" >}}* /usr/bin/which
 * /usr/share/doc/which-2.21/AUTHORS
 * /usr/share/doc/which-2.21/COPYING
 * /usr/share/doc/which-2.21/INSTALL
@@ -23,4 +23,4 @@ A utility to show the full path of commands{{< spoiler text="show files" >}}* /u
 * /usr/share/doc/which-2.21/README.alias
 * /usr/share/info/which.info.gz
 * /usr/share/man/man1/which.1.gz
-{{< /spoiler >}}
+{{< /files >}}

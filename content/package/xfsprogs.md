@@ -14,7 +14,7 @@ sha1sum = "78b12570d98c97234312aba886803bfbabdd5a39"
 depends = "['glibc>=2.35', 'icu4c>=74.1', 'inih', 'liburcu', 'libuuid>=2.31.1-3', 'readline>=8.0']"
 reverse_depends = "['kernel-initrd', 'kernel-lts-initrd', 'partitionmanager', 'qtparted']"
 +++
-XFS filesystem-specific static libraries and headers.{{< spoiler text="show files" >}}* /usr/bin/fsck.xfs
+XFS filesystem-specific static libraries and headers.{{< files text="show files" >}}* /usr/bin/fsck.xfs
 * /usr/bin/mkfs.xfs
 * /usr/bin/xfs_admin
 * /usr/bin/xfs_bmap
@@ -130,4 +130,4 @@ XFS filesystem-specific static libraries and headers.{{< spoiler text="show file
 * /usr/share/xfsprogs/mkfs/lts_6.1.conf
 * /usr/share/xfsprogs/mkfs/lts_6.6.conf
 * /usr/share/xfsprogs/xfs_scrub_all.cron
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "357906"
 sha1sum = "4f22b5ac419e75eeff9d96e67ff4551c3f451cce"
 depends = "['libsm', 'libuuid', 'libx11', 'libxt']"
 +++
-A command-line tool for creating, editing, and getting information about GIF images and animations{{< spoiler text="show files" >}}* /usr/bin/gifdiff
+A command-line tool for creating, editing, and getting information about GIF images and animations{{< files text="show files" >}}* /usr/bin/gifdiff
 * /usr/bin/gifsicle
 * /usr/bin/gifview
 * /usr/share/doc/gifsicle-1.94/COPYING
@@ -22,4 +22,4 @@ A command-line tool for creating, editing, and getting information about GIF ima
 * /usr/share/man/man1/gifdiff.1.gz
 * /usr/share/man/man1/gifsicle.1.gz
 * /usr/share/man/man1/gifview.1.gz
-{{< /spoiler >}}
+{{< /files >}}

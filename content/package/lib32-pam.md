@@ -14,7 +14,7 @@ sha1sum = "856aecab7f800a301804af94663519715d999398"
 depends = "['lib32-db>=18.1.32-2', 'lib32-libsystemd', 'lib32-libxcrypt']"
 reverse_depends = "['lib32-libcups', 'lib32-polkit', 'lib32-util-linux', 'lib32-xorg-server']"
 +++
-Linux-PAM (Pluggable Authentication Modules) ( 32bit ){{< spoiler text="show files" >}}* /usr/lib32/libpam.so
+Linux-PAM (Pluggable Authentication Modules) ( 32bit ){{< files text="show files" >}}* /usr/lib32/libpam.so
 * /usr/lib32/libpam.so.0
 * /usr/lib32/libpam.so.0.85.1
 * /usr/lib32/libpamc.so
@@ -69,4 +69,4 @@ Linux-PAM (Pluggable Authentication Modules) ( 32bit ){{< spoiler text="show fil
 * /usr/lib32/security/pam_warn.so
 * /usr/lib32/security/pam_wheel.so
 * /usr/lib32/security/pam_xauth.so
-{{< /spoiler >}}
+{{< /files >}}

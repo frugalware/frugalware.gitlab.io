@@ -13,7 +13,7 @@ usize = "36203236"
 sha1sum = "29a04c62d98af2756bdb1d55376cb21accc625f7"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Dutch support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/nl/default.css
+Installs Dutch support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/nl/default.css
 * /usr/lib/libreoffice/help/nl/err.html
 * /usr/lib/libreoffice/help/nl/highcontrast1.css
 * /usr/lib/libreoffice/help/nl/highcontrast2.css
@@ -133,4 +133,4 @@ Installs Dutch support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib
 * /usr/lib/libreoffice/share/registry/Langpack-nl.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_nl.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_nl.xcd
-{{< /spoiler >}}
+{{< /files >}}

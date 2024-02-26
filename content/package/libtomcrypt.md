@@ -14,7 +14,7 @@ sha1sum = "18db0584b2a131b1189476aa9965325b02465116"
 depends = "['gmp', 'libtommath']"
 reverse_depends = "['firebird']"
 +++
-A fairly comprehensive, modular and portable cryptographic toolkit{{< spoiler text="show files" >}}* /usr/include/tomcrypt.h
+A fairly comprehensive, modular and portable cryptographic toolkit{{< files text="show files" >}}* /usr/include/tomcrypt.h
 * /usr/include/tomcrypt_argchk.h
 * /usr/include/tomcrypt_cfg.h
 * /usr/include/tomcrypt_cipher.h
@@ -34,4 +34,4 @@ A fairly comprehensive, modular and portable cryptographic toolkit{{< spoiler te
 * /usr/lib/pkgconfig/libtomcrypt.pc
 * /usr/share/doc/libtomcrypt-1.18.2/LICENSE
 * /usr/share/doc/libtomcrypt-1.18.2/README.md
-{{< /spoiler >}}
+{{< /files >}}

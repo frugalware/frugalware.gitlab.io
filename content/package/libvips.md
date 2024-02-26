@@ -14,7 +14,7 @@ sha1sum = "807fc0623c8ae32a40d09f778c6aa36319ae8cf1"
 depends = "['cfitsio>=4.2.0', 'fftw', 'imagemagick>=7.1.1', 'libexif', 'libgsf', 'libheif', 'librsvg', 'libwebp', 'libxml2', 'openexr', 'orc', 'pango', 'poppler-glib']"
 reverse_depends = "['signal-desktop']"
 +++
-A fast image processing library with low memory needs{{< spoiler text="show files" >}}* /usr/bin/vips
+A fast image processing library with low memory needs{{< files text="show files" >}}* /usr/bin/vips
 * /usr/bin/vipsedit
 * /usr/bin/vipsheader
 * /usr/bin/vipsprofile
@@ -95,4 +95,4 @@ A fast image processing library with low memory needs{{< spoiler text="show file
 * /usr/share/man/man1/vipsheader.1.gz
 * /usr/share/man/man1/vipsprofile.1.gz
 * /usr/share/man/man1/vipsthumbnail.1.gz
-{{< /spoiler >}}
+{{< /files >}}

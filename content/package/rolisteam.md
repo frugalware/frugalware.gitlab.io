@@ -13,7 +13,7 @@ usize = "8988959"
 sha1sum = "5b0a4262ba5c02a680ad3139ad15b9603534b6ab"
 depends = "['qt5-multimedia>=5.15.10', 'qt5-svg>=5.15.10', 'qt5-webengine>=5.15.10']"
 +++
-An online role game helper.{{< spoiler text="show files" >}}* /usr/bin/roliserver
+An online role game helper.{{< files text="show files" >}}* /usr/bin/roliserver
 * /usr/bin/rolisteam
 * /usr/share/applications/rolisteam.desktop
 * /usr/share/doc/rolisteam-1.9.3/AUTHORS
@@ -21,4 +21,4 @@ An online role game helper.{{< spoiler text="show files" >}}* /usr/bin/roliserve
 * /usr/share/doc/rolisteam-1.9.3/COPYRIGHT
 * /usr/share/doc/rolisteam-1.9.3/README.md
 * /usr/share/pixmaps/rolisteam.png
-{{< /spoiler >}}
+{{< /files >}}

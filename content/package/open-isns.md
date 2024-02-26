@@ -14,7 +14,7 @@ sha1sum = "edeab4ded0480aa17d3cd5244bf068e0e95a2634"
 depends = "['openslp>=2.0.0-5', 'openssl>=3.1.0']"
 reverse_depends = "['iscsi']"
 +++
-iSNS server and client for Linux{{< spoiler text="show files" >}}* /etc/isns/isnsadm.conf
+iSNS server and client for Linux{{< files text="show files" >}}* /etc/isns/isnsadm.conf
 * /etc/isns/isnsd.conf
 * /etc/isns/isnsdd.conf
 * /usr/bin/isnsadm
@@ -44,4 +44,4 @@ iSNS server and client for Linux{{< spoiler text="show files" >}}* /etc/isns/isn
 * /usr/share/man/man8/isnsd.8.gz
 * /usr/share/man/man8/isnsdd.8.gz
 * /usr/share/man/man8/isnssetup.8.gz
-{{< /spoiler >}}
+{{< /files >}}

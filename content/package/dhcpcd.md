@@ -13,7 +13,7 @@ usize = "510971"
 sha1sum = "9507faef6036f8a4e4483c03e0b0af358eab8371"
 depends = "['glibc>=2.34', 'libudev>=242']"
 +++
-A DHCP client daemon{{< spoiler text="show files" >}}* /etc/dhcpcd.conf
+A DHCP client daemon{{< files text="show files" >}}* /etc/dhcpcd.conf
 * /usr/bin/dhcpcd
 * /usr/lib/dhcpcd/dev/udev.so
 * /usr/lib/dhcpcd/dhcpcd-hooks/01-test
@@ -30,4 +30,4 @@ A DHCP client daemon{{< spoiler text="show files" >}}* /etc/dhcpcd.conf
 * /usr/share/man/man5/dhcpcd.conf.5.gz
 * /usr/share/man/man8/dhcpcd-run-hooks.8.gz
 * /usr/share/man/man8/dhcpcd.8.gz
-{{< /spoiler >}}
+{{< /files >}}

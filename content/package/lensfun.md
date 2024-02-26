@@ -14,7 +14,7 @@ sha1sum = "985e7cb0dfadddcc79996ba1588f7bc3a2bc0c15"
 depends = "['glib2>=2.50.0', 'libstdc++>=11.2']"
 reverse_depends = "['darktable', 'digikam', 'nufraw']"
 +++
-Database of photographic lenses and a library that allows advanced access to the database{{< spoiler text="show files" >}}* /usr/bin/g-lensfun-update-data
+Database of photographic lenses and a library that allows advanced access to the database{{< files text="show files" >}}* /usr/bin/g-lensfun-update-data
 * /usr/bin/lensfun-add-adapter
 * /usr/bin/lensfun-update-data
 * /usr/include/lensfun/lensfun.h
@@ -77,4 +77,4 @@ Database of photographic lenses and a library that allows advanced access to the
 * /usr/share/lensfun/version_1/slr-vivitar.xml
 * /usr/share/lensfun/version_1/slr-zeiss.xml
 * /usr/share/lensfun/version_1/timestamp.txt
-{{< /spoiler >}}
+{{< /files >}}

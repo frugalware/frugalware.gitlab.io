@@ -14,7 +14,7 @@ sha1sum = "9ece4d036d062912f8d9e057ffd2cf8f3735dc56"
 depends = "['gmp>=5.0.1', 'libffi>=3.4', 'libgc>=7.6.2-2', 'libtool>=2.2.2', 'libunistring>=1.1', 'ncurses>=6.0-18', 'readline>=8.0']"
 reverse_depends = "['autogen', 'graphviz', 'weechat']"
 +++
-Guile is a portable, embeddable Scheme implementation written in C{{< spoiler text="show files" >}}* /usr/bin/guild
+Guile is a portable, embeddable Scheme implementation written in C{{< files text="show files" >}}* /usr/bin/guild
 * /usr/bin/guile
 * /usr/bin/guile-config
 * /usr/bin/guile-snarf
@@ -861,4 +861,4 @@ Guile is a portable, embeddable Scheme implementation written in C{{< spoiler te
 * /usr/share/info/guile.info.gz
 * /usr/share/info/r5rs.info.gz
 * /usr/share/man/man1/guile.1.gz
-{{< /spoiler >}}
+{{< /files >}}

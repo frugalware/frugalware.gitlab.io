@@ -13,7 +13,7 @@ usize = "52202184"
 sha1sum = "822228b6d23957dd9996fd7e85cb8ed5c7e9a512"
 depends = "[]"
 +++
-Gtkmm gtk+2 Documentation{{< spoiler text="show files" >}}* /usr/share/doc/gtkmm-2.4/images/gtkmm_logo.gif
+Gtkmm gtk+2 Documentation{{< files text="show files" >}}* /usr/share/doc/gtkmm-2.4/images/gtkmm_logo.gif
 * /usr/share/doc/gtkmm-2.4/images/top.gif
 * /usr/share/doc/gtkmm-2.4/reference/gtkmm-2.4.tag
 * /usr/share/doc/gtkmm-2.4/reference/html/aboutdialog1.png
@@ -1412,4 +1412,4 @@ Gtkmm gtk+2 Documentation{{< spoiler text="show files" >}}* /usr/share/doc/gtkmm
 * /usr/share/doc/gtkmm-2.4/reference/html/vscale1.png
 * /usr/share/doc/gtkmm-2.4/reference/html/vscrollbar1.png
 * /usr/share/doc/gtkmm-2.4/reference/html/vseparator1.png
-{{< /spoiler >}}
+{{< /files >}}

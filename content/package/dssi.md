@@ -14,7 +14,7 @@ sha1sum = "10e159ac34e788cf44bdaaaf9cfc315726c55c07"
 depends = "['ladspa_sdk', 'liblo>=0.26', 'libsamplerate', 'libstdc++>=11.3', 'libuuid']"
 reverse_depends = "['calf', 'qtractor']"
 +++
-DSSI is an API for audio processing plugins.{{< spoiler text="show files" >}}* /usr/bin/dssi_analyse_plugin
+DSSI is an API for audio processing plugins.{{< files text="show files" >}}* /usr/bin/dssi_analyse_plugin
 * /usr/bin/dssi_list_plugins
 * /usr/bin/dssi_osc_send
 * /usr/bin/dssi_osc_update
@@ -38,4 +38,4 @@ DSSI is an API for audio processing plugins.{{< spoiler text="show files" >}}* /
 * /usr/share/man/man1/dssi_osc_send.1.gz
 * /usr/share/man/man1/dssi_osc_update.1.gz
 * /usr/share/man/man1/jack-dssi-host.1.gz
-{{< /spoiler >}}
+{{< /files >}}

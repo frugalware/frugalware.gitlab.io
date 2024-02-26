@@ -13,7 +13,7 @@ usize = "704437"
 sha1sum = "2e7e05df1d50c8f82f05492ea7fac033f468c59b"
 depends = "['python3']"
 +++
-This module encapsulates the access for the serial port.{{< spoiler text="show files" >}}* /usr/bin/pyserial-miniterm
+This module encapsulates the access for the serial port.{{< files text="show files" >}}* /usr/bin/pyserial-miniterm
 * /usr/bin/pyserial-ports
 * /usr/lib/python3.12/site-packages/pyserial-3.5-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pyserial-3.5-py3.12.egg-info/entry_points.txt
@@ -78,4 +78,4 @@ This module encapsulates the access for the serial port.{{< spoiler text="show f
 * /usr/lib/python3.12/site-packages/serial/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/serial/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/pyserial-3.5/README.rst
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "d33e3dd69471511e252d874d81479eae887153c0"
 depends = "['gd>=2.1.1-3', 'libexif>=0.6.21-3', 'libffi>=3.2.1-2', 'libjpeg-turbo', 'libtool', 'libudev>=242', 'libusb1>=1.0.20-5']"
 reverse_depends = "['darktable', 'gphoto2', 'opencv', 'sane-backends', 'wine', 'wine-devel', 'xsane']"
 +++
-A portable library to gives access to many digital cameras{{< spoiler text="show files" >}}* /usr/bin/gphoto2-config
+A portable library to gives access to many digital cameras{{< files text="show files" >}}* /usr/bin/gphoto2-config
 * /usr/bin/gphoto2-port-config
 * /usr/include/gphoto2/gphoto2-abilities-list.h
 * /usr/include/gphoto2/gphoto2-camera.h
@@ -169,4 +169,4 @@ A portable library to gives access to many digital cameras{{< spoiler text="show
 * /usr/share/locale/zh_TW/LC_MESSAGES/libgphoto2_port-12.mo
 * /usr/share/man/man3/libgphoto2.3.gz
 * /usr/share/man/man3/libgphoto2_port.3.gz
-{{< /spoiler >}}
+{{< /files >}}

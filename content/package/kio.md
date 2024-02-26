@@ -14,7 +14,7 @@ sha1sum = "5701eb35579b94b98a45520d6accb962bc6ecfc1"
 depends = "['karchive>=5.115.0', 'kbookmarks>=5.115.0', 'kded', 'kjobwidgets>=5.115.0', 'kwallet5>=5.115.0', 'libkrb5>=1.14.4', 'libxslt', 'solid>=5.115.0', 'switcheroo-control']"
 reverse_depends = "['akonadi', 'akonadi-contacts', 'akonadi-mime', 'baloo5', 'bluedevil5', 'discover', 'dolphin', 'falkon-kde', 'ffmpegthumbs', 'frameworkintegration', 'juk', 'kactivities-stats', 'kactivities5', 'kactivitymanagerd', 'kaffeine', 'kalgebra', 'kamera', 'kamoso', 'kapptemplate', 'kbackup', 'kcachegrind', 'kcron', 'kdav', 'kdeclarative', 'kdeconnect-kde', 'kdegraphics-mobipocket', 'kdegraphics-thumbnailers', 'kdenetwork-filesharing', 'kdeplasma-addons5', 'kdesdk-kio', 'kdesdk-thumbnailers', 'kdesignerplugin', 'kdf', 'kgoldrunner', 'kimap', 'kinit', 'kio-admin', 'kio-fuse', 'kio-gdrive', 'kio-zeroconf', 'kipi-plugins', 'kldap', 'kmag', 'kmouth', 'knewstuff', 'knotifyconfig', 'koko', 'kparts', 'kpimtextedit', 'ksmtp', 'kstars', 'ksystemlog', 'ktextaddons', 'ktimer', 'ktouch', 'kturtle', 'kvirc', 'kwave', 'kxmlrpcclient', 'libkcddb', 'libkeduvocdocument', 'libkgapi', 'libktorrent', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'neochat', 'partitionmanager', 'plasma-browser-integration', 'plasma-integration', 'plasma-sdk', 'plasma-workspace', 'print-manager', 'purpose', 'skanlite', 'spectacle', 'syndication', 'tokodon', 'xdg-desktop-portal-kde']"
 +++
-Network transparent access to files and data.{{< spoiler text="show files" >}}* /etc/xdg/accept-languages.codes
+Network transparent access to files and data.{{< files text="show files" >}}* /etc/xdg/accept-languages.codes
 * /etc/xdg/kshorturifilterrc
 * /usr/bin/kcookiejar5
 * /usr/bin/ktelnetservice5
@@ -1063,4 +1063,4 @@ Network transparent access to files and data.{{< spoiler text="show files" >}}* 
 * /usr/share/qt5/mkspecs/modules/qt_KIOGui.pri
 * /usr/share/qt5/mkspecs/modules/qt_KIOWidgets.pri
 * /usr/share/qt5/mkspecs/modules/qt_KNTLM.pri
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "69fc7a1c74fa334076544d1ac3e58119e809ea41"
 depends = "['libcec', 'plasma-workspace>=5.27.10']"
 reverse_depends = "['plasma-bigscreen']"
 +++
-Translate various input device events into keyboard and pointer events{{< spoiler text="show files" >}}* /etc/xdg/autostart/org.kde.plasma-remotecontrollers.desktop
+Translate various input device events into keyboard and pointer events{{< files text="show files" >}}* /etc/xdg/autostart/org.kde.plasma-remotecontrollers.desktop
 * /etc/xdg/plasma-remotecontrollersrc
 * /usr/bin/plasma-remotecontrollers
 * /usr/lib/qt5/plugins/kcms/kcm_mediacenter_remotecontrollers.so
@@ -96,4 +96,4 @@ Translate various input device events into keyboard and pointer events{{< spoile
 * /usr/share/metainfo/org.kde.plasma.remotecontrollers.metainfo.xml
 * /usr/share/qlogging-categories5/plasma-remotecontrollers.categories
 * /usr/share/qt5/qml/org/kde/plasma/remotecontrollers/qmldir
-{{< /spoiler >}}
+{{< /files >}}

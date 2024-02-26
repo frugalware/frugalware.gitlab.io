@@ -15,7 +15,7 @@ depends = "['iproute2', 'libgcrypt', 'openssl>=3.1.0']"
 reverse_depends = "['nm-vpnc-minimal', 'openconnect']"
 license = "GPL"
 +++
-VPN client for cisco3000 VPN Concentrators{{< spoiler text="show files" >}}* /etc/vpnc/default.conf
+VPN client for cisco3000 VPN Concentrators{{< files text="show files" >}}* /etc/vpnc/default.conf
 * /etc/vpnc/vpnc-script
 * /usr/bin/cisco-decrypt
 * /usr/bin/pcf2vpnc
@@ -37,4 +37,4 @@ VPN client for cisco3000 VPN Concentrators{{< spoiler text="show files" >}}* /et
 * /usr/share/man/man1/cisco-decrypt.1.gz
 * /usr/share/man/man1/pcf2vpnc.1.gz
 * /usr/share/man/man8/vpnc.8.gz
-{{< /spoiler >}}
+{{< /files >}}

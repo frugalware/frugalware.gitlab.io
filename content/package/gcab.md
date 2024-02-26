@@ -14,7 +14,7 @@ sha1sum = "884f961fd448e41df5a9972c65dc07cb614a6a76"
 depends = "['glib2>=2.60.0']"
 reverse_depends = "['appstream-glib']"
 +++
-A GObject library to create cabinet files{{< spoiler text="show files" >}}* /usr/bin/gcab
+A GObject library to create cabinet files{{< files text="show files" >}}* /usr/bin/gcab
 * /usr/include/libgcab-1.0/libgcab.h
 * /usr/include/libgcab-1.0/libgcab/gcab-cabinet.h
 * /usr/include/libgcab-1.0/libgcab/gcab-enums.h
@@ -88,4 +88,4 @@ A GObject library to create cabinet files{{< spoiler text="show files" >}}* /usr
 * /usr/share/man/man1/gcab.1.gz
 * /usr/share/vala/vapi/libgcab-1.0.deps
 * /usr/share/vala/vapi/libgcab-1.0.vapi
-{{< /spoiler >}}
+{{< /files >}}

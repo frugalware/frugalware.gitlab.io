@@ -14,7 +14,7 @@ sha1sum = "1d69eebfd8db78dd908eecee76950869e398f35b"
 depends = "['haskell-aeson>=1.5.6.0-14', 'haskell-quickcheck', 'haskell-syb']"
 reverse_depends = "['haskell-citeproc', 'haskell-commonmark-pandoc', 'haskell-pandoc-lua-marshal', 'haskell-texmath']"
 +++
-Types for representing a structured document{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/pandoc-types-1.23.1/libHSpandoc-types-1.23.1-FTSGZOyc06R8MkM3IevUzi.a
+Types for representing a structured document{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/pandoc-types-1.23.1/libHSpandoc-types-1.23.1-FTSGZOyc06R8MkM3IevUzi.a
 * /usr/lib/ghc-9.8.1/site-local/pandoc-types-1.23.1/Paths_pandoc_types.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/pandoc-types-1.23.1/Paths_pandoc_types.hi
 * /usr/lib/ghc-9.8.1/site-local/pandoc-types-1.23.1/Text/Pandoc/Arbitrary.dyn_hi
@@ -69,4 +69,4 @@ Types for representing a structured document{{< spoiler text="show files" >}}* /
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/pandoc-types-1.23.1/LICENSE
 * /usr/share/haskell/haskell-pandoc-types/register.sh
 * /usr/share/haskell/haskell-pandoc-types/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

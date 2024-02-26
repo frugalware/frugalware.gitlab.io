@@ -13,4 +13,4 @@ usize = "0"
 sha1sum = ""
 depends = "[]"
 +++
-A set of free roms for sdlmame{{< spoiler text="show files" >}}{{< /spoiler >}}
+A set of free roms for sdlmame{{< files text="show files" >}}{{< /files >}}

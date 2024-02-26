@@ -13,7 +13,7 @@ usize = "1814069"
 sha1sum = "211507800766ecacfc6605f57e9754b80efed1fb"
 depends = "['libgc>=7.6.2', 'ncurses>=6.0-3', 'openssl>=3.1.0', 'zlib>=1.2.12']"
 +++
-A pager with WWW capability{{< spoiler text="show files" >}}* /usr/bin/w3m
+A pager with WWW capability{{< files text="show files" >}}* /usr/bin/w3m
 * /usr/bin/w3mman
 * /usr/lib/w3m/w3m/cgi-bin/dirlist.cgi
 * /usr/lib/w3m/w3m/cgi-bin/multipart.cgi
@@ -45,4 +45,4 @@ A pager with WWW capability{{< spoiler text="show files" >}}* /usr/bin/w3m
 * /usr/share/w3m/w3mhelp-funcdesc.ja.pl
 * /usr/share/w3m/w3mhelp-funcname.pl
 * /usr/share/w3m/w3mhelp.html
-{{< /spoiler >}}
+{{< /files >}}

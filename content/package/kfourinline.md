@@ -13,7 +13,7 @@ usize = "6247779"
 sha1sum = "864a6c009065add7099cb61f537e906ea5c2d55f"
 depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5', 'qt5-svg>=5.15.12']"
 +++
-A four-in-a-row game.{{< spoiler text="show files" >}}* /usr/bin/kfourinline
+A four-in-a-row game.{{< files text="show files" >}}* /usr/bin/kfourinline
 * /usr/bin/kfourinlineproc
 * /usr/share/applications/org.kde.kfourinline.desktop
 * /usr/share/config.kcfg/kwin4.kcfg
@@ -139,4 +139,4 @@ A four-in-a-row game.{{< spoiler text="show files" >}}* /usr/bin/kfourinline
 * /usr/share/locale/zh_TW/LC_MESSAGES/kfourinline.mo
 * /usr/share/metainfo/org.kde.kfourinline.appdata.xml
 * /usr/share/qlogging-categories5/kfourinline.categories
-{{< /spoiler >}}
+{{< /files >}}

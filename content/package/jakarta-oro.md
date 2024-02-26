@@ -13,10 +13,10 @@ usize = "90470"
 sha1sum = "4dd015013d25c32abbb292d63c55ed5ee41c0244"
 depends = "['openjre']"
 +++
-Set text-processing Java classes that provide Perl5 compatible regular expressions.{{< spoiler text="show files" >}}* /usr/share/doc/jakarta-oro-2.0.8/CHANGES
+Set text-processing Java classes that provide Perl5 compatible regular expressions.{{< files text="show files" >}}* /usr/share/doc/jakarta-oro-2.0.8/CHANGES
 * /usr/share/doc/jakarta-oro-2.0.8/CONTRIBUTORS
 * /usr/share/doc/jakarta-oro-2.0.8/LICENSE
 * /usr/share/doc/jakarta-oro-2.0.8/README
 * /usr/share/doc/jakarta-oro-2.0.8/TODO
 * /usr/share/java/jakarta-oro.jar
-{{< /spoiler >}}
+{{< /files >}}

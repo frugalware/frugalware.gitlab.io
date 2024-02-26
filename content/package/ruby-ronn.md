@@ -13,7 +13,7 @@ usize = "347487"
 sha1sum = "0cf0f7642ac36cc4ceab6de2a0fddf89f515d5c5"
 depends = "['groff', 'ruby>=3.3.0', 'ruby-hpricot', 'ruby-mustache', 'ruby-rdiscount']"
 +++
-Manual page formatter that generates man pages from markdown{{< spoiler text="show files" >}}* /usr/bin/ronn
+Manual page formatter that generates man pages from markdown{{< files text="show files" >}}* /usr/bin/ronn
 * /usr/lib/ruby/gems/3.3.0/cache/ronn-0.7.3.gem
 * /usr/lib/ruby/gems/3.3.0/doc/ronn-0.7.3/ri/cache.ri
 * /usr/lib/ruby/gems/3.3.0/doc/ronn-0.7.3/ri/lib/ronn/template/page-80c_css.ri
@@ -232,4 +232,4 @@ Manual page formatter that generates man pages from markdown{{< spoiler text="sh
 * /usr/lib/ruby/gems/3.3.0/gems/ronn-0.7.3/test/underline_spacing_test.roff
 * /usr/lib/ruby/gems/3.3.0/gems/ronn-0.7.3/test/underline_spacing_test.ronn
 * /usr/lib/ruby/gems/3.3.0/specifications/ronn-0.7.3.gemspec
-{{< /spoiler >}}
+{{< /files >}}

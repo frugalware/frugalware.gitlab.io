@@ -13,4 +13,4 @@ usize = "0"
 sha1sum = "f845a26766b9fb60fc903d4a96a3104d33d2b80b"
 depends = "['lib32-libpthread-stubs']"
 +++
-X.org X protocol descriptions for XCB ( 32bit ){{< spoiler text="show files" >}}{{< /spoiler >}}
+X.org X protocol descriptions for XCB ( 32bit ){{< files text="show files" >}}{{< /files >}}

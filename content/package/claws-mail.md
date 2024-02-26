@@ -14,7 +14,7 @@ sha1sum = "4fe3d156603f4a0b08886350ee7f11802c601ad3"
 depends = "['dbus-glib>=0.106', 'enchant', 'gnutls>=3.4.8', 'gtk+3', 'libetpan>=1.7.2-2', 'libldap>=2.6.2', 'libsm>=1.2.2-2', 'nettle>=3.6', 'networkmanager>=1.4.0-2', 'startup-notification>=0.12-3']"
 reverse_depends = "['claws-mail-plugin-acpi_notifier', 'claws-mail-plugin-address_keeper', 'claws-mail-plugin-archive', 'claws-mail-plugin-att-remover', 'claws-mail-plugin-attachwarner', 'claws-mail-plugin-bogofilter', 'claws-mail-plugin-bsfilter', 'claws-mail-plugin-clamd', 'claws-mail-plugin-fetchinfo', 'claws-mail-plugin-libravatar', 'claws-mail-plugin-mailmbox', 'claws-mail-plugin-newmail', 'claws-mail-plugin-notification', 'claws-mail-plugin-pdf_viewer', 'claws-mail-plugin-perl', 'claws-mail-plugin-pgpcore', 'claws-mail-plugin-pgpinline', 'claws-mail-plugin-pgpmime', 'claws-mail-plugin-python', 'claws-mail-plugin-rssyl', 'claws-mail-plugin-smime', 'claws-mail-plugin-spam-report', 'claws-mail-plugin-spamassassin', 'claws-mail-plugin-tnef-parse', 'claws-mail-plugin-vcalendar']"
 +++
-The extended version of Sylpheed, a GTK+ based, lightweight, and fast e-mail client{{< spoiler text="show files" >}}* /usr/bin/claws-mail
+The extended version of Sylpheed, a GTK+ based, lightweight, and fast e-mail client{{< files text="show files" >}}* /usr/bin/claws-mail
 * /usr/include/claws-mail/account.h
 * /usr/include/claws-mail/action.h
 * /usr/include/claws-mail/adbookbase.h
@@ -316,4 +316,4 @@ The extended version of Sylpheed, a GTK+ based, lightweight, and fast e-mail cli
 * /usr/share/locale/zh_TW/LC_MESSAGES/claws-mail.mo
 * /usr/share/man/man1/claws-mail.1.gz
 * /usr/share/pixmaps/claws-mail.png
-{{< /spoiler >}}
+{{< /files >}}

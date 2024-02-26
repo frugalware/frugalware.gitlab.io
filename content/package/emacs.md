@@ -13,7 +13,7 @@ usize = "117345674"
 sha1sum = "91a4164724dbdb9acb7b0f424786fa026f01cf24"
 depends = "['gnutls>=3.4.2', 'gtk+2', 'imagemagick>=7.1.1', 'libgif>=5.1.1', 'libjpeg-turbo', 'libpng>=1.4.2', 'libtiff>=4.0.6', 'libxpm', 'ncurses>=6.0-3']"
 +++
-An extensible, customizable, self-documenting real-time display editor{{< spoiler text="show files" >}}* /usr/bin/ctags
+An extensible, customizable, self-documenting real-time display editor{{< files text="show files" >}}* /usr/bin/ctags
 * /usr/bin/ebrowse
 * /usr/bin/emacs
 * /usr/bin/emacs-28.2
@@ -4110,4 +4110,4 @@ An extensible, customizable, self-documenting real-time display editor{{< spoile
 * /usr/share/man/man1/emacsclient.1.gz
 * /usr/share/man/man1/etags.1.gz
 * /usr/share/metainfo/emacs.metainfo.xml
-{{< /spoiler >}}
+{{< /files >}}

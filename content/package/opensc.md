@@ -14,7 +14,7 @@ sha1sum = "54d87dc822359150ca2159a48bf29535dd67f633"
 depends = "['openssl>=3.1.0', 'pcsc-lite']"
 reverse_depends = "['rng-tools']"
 +++
-Tools and libraries for smart cards{{< spoiler text="show files" >}}* /etc/bash_completion.d/cardos-tool
+Tools and libraries for smart cards{{< files text="show files" >}}* /etc/bash_completion.d/cardos-tool
 * /etc/bash_completion.d/cryptoflex-tool
 * /etc/bash_completion.d/dnie-tool
 * /etc/bash_completion.d/egk-tool
@@ -133,4 +133,4 @@ Tools and libraries for smart cards{{< spoiler text="show files" >}}* /etc/bash_
 * /usr/share/opensc/setcos.profile
 * /usr/share/opensc/starcos.profile
 * /usr/share/opensc/westcos.profile
-{{< /spoiler >}}
+{{< /files >}}

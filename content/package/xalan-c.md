@@ -14,7 +14,7 @@ sha1sum = "274509030759cec329b9d0d4fb2ecce01cdbe1d4"
 depends = "['xerces-c>=3.2.4']"
 reverse_depends = "['virtualbox']"
 +++
-Xalan C++ Parser{{< spoiler text="show files" >}}* /usr/bin/Xalan
+Xalan C++ Parser{{< files text="show files" >}}* /usr/bin/Xalan
 * /usr/include/xalanc/DOMSupport/DOMServices.hpp
 * /usr/include/xalanc/DOMSupport/DOMSupport.hpp
 * /usr/include/xalanc/DOMSupport/DOMSupportDefault.hpp
@@ -472,4 +472,4 @@ Xalan C++ Parser{{< spoiler text="show files" >}}* /usr/bin/Xalan
 * /usr/share/doc/xalan-c-1.12/CREDITS
 * /usr/share/doc/xalan-c-1.12/LICENSE
 * /usr/share/doc/xalan-c-1.12/README.md
-{{< /spoiler >}}
+{{< /files >}}

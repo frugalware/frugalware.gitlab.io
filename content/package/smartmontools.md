@@ -14,7 +14,7 @@ sha1sum = "68dcac089b036ef9f8ab9b76372c6d0fc23d8dc6"
 depends = "['libcap-ng', 'libstdc++>=9.1.0-3', 'libsystemd']"
 reverse_depends = "['hw-probe', 'plasma-disks']"
 +++
-For monitoring S.M.A.R.T. disks and devices{{< spoiler text="show files" >}}* /etc/smartd.conf
+For monitoring S.M.A.R.T. disks and devices{{< files text="show files" >}}* /etc/smartd.conf
 * /etc/sysconfig/smartmontools
 * /usr/bin/smartctl
 * /usr/bin/smartd
@@ -44,4 +44,4 @@ For monitoring S.M.A.R.T. disks and devices{{< spoiler text="show files" >}}* /e
 * /usr/share/man/man8/smartd.8.gz
 * /usr/share/man/man8/update-smart-drivedb.8.gz
 * /usr/share/smartmontools/drivedb.h
-{{< /spoiler >}}
+{{< /files >}}

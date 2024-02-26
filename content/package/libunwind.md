@@ -14,7 +14,7 @@ sha1sum = "9a23422d14099fb09d177c83223a9c83a38eb61e"
 depends = "['xz>=5.2.2-4']"
 reverse_depends = "['efl', 'enlightenment', 'intel-gpu-tools', 'julia', 'mesa-dri-drivers', 'pdal', 'spring', 'sysprof', 'terminology']"
 +++
-Portable and efficient C programming interface (API) to determine the call-chain of a program{{< spoiler text="show files" >}}* /usr/include/libunwind-common.h
+Portable and efficient C programming interface (API) to determine the call-chain of a program{{< files text="show files" >}}* /usr/include/libunwind-common.h
 * /usr/include/libunwind-coredump.h
 * /usr/include/libunwind-dynamic.h
 * /usr/include/libunwind-ptrace.h
@@ -97,4 +97,4 @@ Portable and efficient C programming interface (API) to determine the call-chain
 * /usr/share/doc/libunwind-1.8.1/NEWS
 * /usr/share/doc/libunwind-1.8.1/README
 * /usr/share/doc/libunwind-1.8.1/TODO
-{{< /spoiler >}}
+{{< /files >}}

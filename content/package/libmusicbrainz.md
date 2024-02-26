@@ -14,7 +14,7 @@ sha1sum = "f83ff4e95aaef9796441fec535ceb075e2166daa"
 depends = "['libxml2>=2.9.4-3', 'neon>=0.30.1-3']"
 reverse_depends = "['libkcddb']"
 +++
-MusicBrainz is the second generation incarnation of the CD Index{{< spoiler text="show files" >}}* /usr/include/musicbrainz5/Alias.h
+MusicBrainz is the second generation incarnation of the CD Index{{< files text="show files" >}}* /usr/include/musicbrainz5/Alias.h
 * /usr/include/musicbrainz5/AliasList.h
 * /usr/include/musicbrainz5/Annotation.h
 * /usr/include/musicbrainz5/AnnotationList.h
@@ -89,4 +89,4 @@ MusicBrainz is the second generation incarnation of the CD Index{{< spoiler text
 * /usr/share/doc/libmusicbrainz-5.1.0/COPYING.txt
 * /usr/share/doc/libmusicbrainz-5.1.0/INSTALL.txt
 * /usr/share/doc/libmusicbrainz-5.1.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

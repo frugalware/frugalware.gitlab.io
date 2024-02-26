@@ -14,7 +14,7 @@ sha1sum = "7b386f2ef27fd044faec913ba7546ef75e306e03"
 depends = "['haskell-prettyprinter-ansi-terminal', 'haskell-transformers-compat']"
 reverse_depends = "['haskell-wai-app-static']"
 +++
-Utilities and combinators for parsing command line options{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/optparse-applicative-0.18.1.0/libHSoptparse-applicative-0.18.1.0-J3Sn5W5wOp1HAAPlBZjLbb.a
+Utilities and combinators for parsing command line options{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/optparse-applicative-0.18.1.0/libHSoptparse-applicative-0.18.1.0-J3Sn5W5wOp1HAAPlBZjLbb.a
 * /usr/lib/ghc-9.8.1/site-local/optparse-applicative-0.18.1.0/Options/Applicative.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/optparse-applicative-0.18.1.0/Options/Applicative.hi
 * /usr/lib/ghc-9.8.1/site-local/optparse-applicative-0.18.1.0/Options/Applicative/Arrows.dyn_hi
@@ -114,4 +114,4 @@ Utilities and combinators for parsing command line options{{< spoiler text="show
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/optparse-applicative-0.18.1.0/LICENSE
 * /usr/share/haskell/haskell-optparse-applicative/register.sh
 * /usr/share/haskell/haskell-optparse-applicative/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

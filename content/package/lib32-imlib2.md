@@ -14,7 +14,7 @@ sha1sum = "b50516636829bff2501d42252921d35e5f79eba8"
 depends = "['lib32-freetype2>=2.9', 'lib32-libgif>=5.1.1-2', 'lib32-libid3tag>=0.15.1b-6', 'lib32-libjpeg-turbo', 'lib32-libpng>=1.6.25', 'lib32-libtiff>=4.0.6', 'lib32-libxext>=1.3.3-3']"
 reverse_depends = "['lib32-ffmpeg', 'lib32-libcaca']"
 +++
-Imlib 2 is the successor to Imlib. ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/imlib2_bumpmap
+Imlib 2 is the successor to Imlib. ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/imlib2_bumpmap
 * /usr/i686-frugalware-linux/bin/imlib2_colorspace
 * /usr/i686-frugalware-linux/bin/imlib2_conv
 * /usr/i686-frugalware-linux/bin/imlib2_grab
@@ -51,4 +51,4 @@ Imlib 2 is the successor to Imlib. ( 32bit ){{< spoiler text="show files" >}}* /
 * /usr/lib32/libImlib2.so.1
 * /usr/lib32/libImlib2.so.1.12.2
 * /usr/lib32/pkgconfig/imlib2.pc
-{{< /spoiler >}}
+{{< /files >}}

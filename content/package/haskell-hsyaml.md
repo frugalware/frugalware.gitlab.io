@@ -14,7 +14,7 @@ sha1sum = "272b3beaad0e1bd3596218466b1e662e8e1740e3"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-doctemplates']"
 +++
-Pure Haskell YAML 1.2 processor{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/HsYAML-0.2.1.3/Data/DList.dyn_hi
+Pure Haskell YAML 1.2 processor{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/HsYAML-0.2.1.3/Data/DList.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/HsYAML-0.2.1.3/Data/DList.hi
 * /usr/lib/ghc-9.8.1/site-local/HsYAML-0.2.1.3/Data/YAML.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/HsYAML-0.2.1.3/Data/YAML.hi
@@ -80,4 +80,4 @@ Pure Haskell YAML 1.2 processor{{< spoiler text="show files" >}}* /usr/lib/ghc-9
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/HsYAML-0.2.1.3/LICENSE.GPLv3
 * /usr/share/haskell/haskell-hsyaml/register.sh
 * /usr/share/haskell/haskell-hsyaml/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

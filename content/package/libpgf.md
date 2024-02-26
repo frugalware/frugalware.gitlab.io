@@ -14,7 +14,7 @@ sha1sum = "fc4589399c8c024c513511ea51108e1a1a8b9945"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['digikam']"
 +++
-An implementation of the Progressive Graphics File.{{< spoiler text="show files" >}}* /usr/include/libpgf/PGFimage.h
+An implementation of the Progressive Graphics File.{{< files text="show files" >}}* /usr/include/libpgf/PGFimage.h
 * /usr/include/libpgf/PGFplatform.h
 * /usr/include/libpgf/PGFstream.h
 * /usr/include/libpgf/PGFtypes.h
@@ -25,4 +25,4 @@ An implementation of the Progressive Graphics File.{{< spoiler text="show files"
 * /usr/share/doc/libpgf-7.21.7/COPYING
 * /usr/share/doc/libpgf-7.21.7/INSTALL
 * /usr/share/doc/libpgf-7.21.7/README
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "2302398"
 sha1sum = "619824124668459dc4943762920c93230bc8cdef"
 depends = "['libkdegames>=23.08.5']"
 +++
-A single player arcade game.{{< spoiler text="show files" >}}* /usr/bin/bomber
+A single player arcade game.{{< files text="show files" >}}* /usr/bin/bomber
 * /usr/share/applications/org.kde.bomber.desktop
 * /usr/share/bomber/sounds/bomb.ogg
 * /usr/share/bomber/sounds/crash.ogg
@@ -126,4 +126,4 @@ A single player arcade game.{{< spoiler text="show files" >}}* /usr/bin/bomber
 * /usr/share/locale/zh_CN/LC_MESSAGES/bomber.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/bomber.mo
 * /usr/share/metainfo/org.kde.bomber.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "762195eb0bfe69557a7c2ce317eb01327c5f09f9"
 depends = "['breeze-icons', 'frameworkintegration>=5.115.0', 'kcmutils>=5.115.0', 'kdecoration>=5.27.10', 'kwayland>=5.115.0', 'plasma-framework>=5.115.0']"
 reverse_depends = "['kwin5', 'plasma-integration', 'plasma-workspace']"
 +++
-Artwork, styles and assets for the Breeze visual style for the Plasma Desktop.{{< spoiler text="show files" >}}* /usr/bin/breeze-settings5
+Artwork, styles and assets for the Breeze visual style for the Plasma Desktop.{{< files text="show files" >}}* /usr/bin/breeze-settings5
 * /usr/lib/cmake/Breeze/BreezeConfig.cmake
 * /usr/lib/cmake/Breeze/BreezeConfigVersion.cmake
 * /usr/lib/kconf_update_bin/breezehighcontrasttobreezedark
@@ -414,4 +414,4 @@ Artwork, styles and assets for the Breeze visual style for the Plasma Desktop.{{
 * /usr/share/wallpapers/Next/contents/images_dark/720x1440.png
 * /usr/share/wallpapers/Next/contents/screenshot.png
 * /usr/share/wallpapers/Next/metadata.json
-{{< /spoiler >}}
+{{< /files >}}

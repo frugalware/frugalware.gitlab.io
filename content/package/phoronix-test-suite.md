@@ -13,7 +13,7 @@ usize = "3922925"
 sha1sum = "578c3a0548ff96afbc8691947e8c6e73fcd319ed"
 depends = "['php']"
 +++
-The most comprehensive testing and benchmarking platform available for Linux.{{< spoiler text="show files" >}}* /usr/bin/phoronix-test-suite
+The most comprehensive testing and benchmarking platform available for Linux.{{< files text="show files" >}}* /usr/bin/phoronix-test-suite
 * /usr/share/doc/phoronix-test-suite-10.8.4/AUTHORS
 * /usr/share/doc/phoronix-test-suite-10.8.4/ChangeLog
 * /usr/share/doc/phoronix-test-suite-10.8.4/COPYING
@@ -535,4 +535,4 @@ The most comprehensive testing and benchmarking platform available for Linux.{{<
 * /usr/share/phoronix-test-suite/pts-core/web-interface/web-interfaces/pts_webui_system.php
 * /usr/share/phoronix-test-suite/pts-core/web-interface/web-interfaces/pts_webui_test.php
 * /usr/share/phoronix-test-suite/pts-core/web-interface/web-interfaces/pts_webui_tests.php
-{{< /spoiler >}}
+{{< /files >}}

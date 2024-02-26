@@ -14,7 +14,7 @@ sha1sum = "f70123e548fbfac6cb40b85b8c3d8acf2d5ce67d"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-json', 'haskell-pandoc-types', 'haskell-uniplate']"
 +++
-library for generic programming in Haskell{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/syb-0.7.2.4/Data/Generics.dyn_hi
+library for generic programming in Haskell{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/syb-0.7.2.4/Data/Generics.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/syb-0.7.2.4/Data/Generics.hi
 * /usr/lib/ghc-9.8.1/site-local/syb-0.7.2.4/Data/Generics/Aliases.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/syb-0.7.2.4/Data/Generics/Aliases.hi
@@ -96,4 +96,4 @@ library for generic programming in Haskell{{< spoiler text="show files" >}}* /us
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/syb-0.7.2.4/LICENSE
 * /usr/share/haskell/haskell-syb/register.sh
 * /usr/share/haskell/haskell-syb/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

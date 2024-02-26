@@ -13,5 +13,5 @@ usize = "63536"
 sha1sum = "ca99cfef7a13784123db31f0a50bbf8f80525364"
 depends = "['gst1-plugins-base>=1.22.10', 'gstreamer1>=1.22.10', 'opus>=1.1.3-2']"
 +++
-GStreamer opus plugin (Base).{{< spoiler text="show files" >}}* /usr/lib/gstreamer-1.0/libgstopus.so
-{{< /spoiler >}}
+GStreamer opus plugin (Base).{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstopus.so
+{{< /files >}}

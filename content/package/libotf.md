@@ -14,7 +14,7 @@ sha1sum = "1c8f26c62c4df083ec0eb4dd8564d60af6115a63"
 depends = "['freetype2', 'libxaw>=1.0.5']"
 reverse_depends = "['m17n-lib']"
 +++
-Library for handling OpenType fonts (OTF).{{< spoiler text="show files" >}}* /usr/bin/libotf-config
+Library for handling OpenType fonts (OTF).{{< files text="show files" >}}* /usr/bin/libotf-config
 * /usr/bin/otfdump
 * /usr/bin/otflist
 * /usr/bin/otftobdf
@@ -29,4 +29,4 @@ Library for handling OpenType fonts (OTF).{{< spoiler text="show files" >}}* /us
 * /usr/share/doc/libotf-0.9.16/INSTALL
 * /usr/share/doc/libotf-0.9.16/NEWS
 * /usr/share/doc/libotf-0.9.16/README
-{{< /spoiler >}}
+{{< /files >}}

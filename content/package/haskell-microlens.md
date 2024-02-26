@@ -14,7 +14,7 @@ sha1sum = "c42407cfcedc7fda47337efe27e02ed7311ed57c"
 depends = "['ghc>=9.8.1']"
 reverse_depends = "['haskell-microlens-th']"
 +++
-A tiny lens library with no dependencies{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/microlens-0.4.13.1/Lens/Micro.dyn_hi
+A tiny lens library with no dependencies{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/microlens-0.4.13.1/Lens/Micro.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/microlens-0.4.13.1/Lens/Micro.hi
 * /usr/lib/ghc-9.8.1/site-local/microlens-0.4.13.1/Lens/Micro/Extras.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/microlens-0.4.13.1/Lens/Micro/Extras.hi
@@ -40,4 +40,4 @@ A tiny lens library with no dependencies{{< spoiler text="show files" >}}* /usr/
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/microlens-0.4.13.1/LICENSE
 * /usr/share/haskell/haskell-microlens/register.sh
 * /usr/share/haskell/haskell-microlens/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

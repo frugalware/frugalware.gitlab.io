@@ -13,7 +13,7 @@ usize = "15887675"
 sha1sum = "ee2cbf0ce793b2972f7c1a5a8fdc3d054969edb4"
 depends = "['lib32-libx11', 'libstdc++']"
 +++
-Vulkan Validation Layers ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/smoketest
+Vulkan Validation Layers ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/smoketest
 * /usr/i686-frugalware-linux/bin/vulkaninfo
 * /usr/i686-frugalware-linux/include/vulkan/vk_icd.h
 * /usr/i686-frugalware-linux/include/vulkan/vk_layer.h
@@ -40,4 +40,4 @@ Vulkan Validation Layers ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-f
 * /usr/lib32/libVkLayer_unique_objects.so
 * /usr/lib32/libVkLayer_utils.so
 * /usr/lib32/pkgconfig/vulkan.pc
-{{< /spoiler >}}
+{{< /files >}}

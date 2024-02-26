@@ -13,7 +13,7 @@ usize = "29555177"
 sha1sum = "3a93d743e637555b0bea38c4a147cac33d25d532"
 depends = "['dejavu-ttf', 'freetype2', 'libglu', 'libpng', 'lua', 'pyyaml3', 'sdl2', 'sdl2_image', 'sdl2_ttf', 'sqlite3', 'zlib>=1.2.12']"
 +++
-Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-player, role-playing roguelike game{{< spoiler text="show files" >}}* /usr/bin/crawl-tiles
+Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-player, role-playing roguelike game{{< files text="show files" >}}* /usr/bin/crawl-tiles
 * /usr/share/doc/crawl-tiles-0.27.1/INSTALL.md
 * /usr/share/doc/crawl-tiles-0.27.1/LICENSE
 * /usr/share/games/crawl-tiles/data/dat/clua/autofight.lua
@@ -670,4 +670,4 @@ Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-pla
 * /usr/share/games/crawl-tiles/data/settings/no_vi_command_keys.txt
 * /usr/share/games/crawl-tiles/data/settings/old_unicode_glyphs.txt
 * /usr/share/games/crawl-tiles/data/settings/safe_move_shift.txt
-{{< /spoiler >}}
+{{< /files >}}

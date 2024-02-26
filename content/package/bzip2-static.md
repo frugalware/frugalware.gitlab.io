@@ -13,5 +13,5 @@ usize = "257794"
 sha1sum = "94603a1d93aa6c637f6f636132674f57cd6f050e"
 depends = "[]"
 +++
-Static files for bzip2{{< spoiler text="show files" >}}* /usr/lib/libbz2.a
-{{< /spoiler >}}
+Static files for bzip2{{< files text="show files" >}}* /usr/lib/libbz2.a
+{{< /files >}}

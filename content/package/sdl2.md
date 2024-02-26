@@ -14,7 +14,7 @@ sha1sum = "9e2c83b4367d4785a53d63ed885b19aa5d5327d4"
 depends = "['glibc>=2.34']"
 reverse_depends = "['crawl-tiles', 'faudio', 'ffmpeg', 'ffmpeg4.4', 'freeorion', 'guvcview', 'libcamera-tools', 'linuxconsole', 'love', 'mednafen', 'mupen64plus', 'naev', 'openal', 'opendiablo2', 'openscenegraph', 'qemu', 'qt5-gamepad', 'scrcpy', 'sdl2_gfx', 'sdl2_image', 'sdl2_mixer', 'sdl2_net', 'sdl2_ttf', 'sherlock265', 'smpeg2', 'solarus', 'spring', 'stella', 'ultrastardx', 'v4l-utils', 'xonotic']"
 +++
-Simple DirectMedia Layer library v2{{< spoiler text="show files" >}}* /usr/bin/sdl2-config
+Simple DirectMedia Layer library v2{{< files text="show files" >}}* /usr/bin/sdl2-config
 * /usr/include/SDL2/begin_code.h
 * /usr/include/SDL2/close_code.h
 * /usr/include/SDL2/SDL.h
@@ -104,4 +104,4 @@ Simple DirectMedia Layer library v2{{< spoiler text="show files" >}}* /usr/bin/s
 * /usr/share/doc/sdl2-2.30.0/INSTALL.txt
 * /usr/share/doc/sdl2-2.30.0/README-SDL.txt
 * /usr/share/doc/sdl2-2.30.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

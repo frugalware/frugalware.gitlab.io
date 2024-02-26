@@ -13,7 +13,7 @@ usize = "35394036"
 sha1sum = "190c81a9ee50253b79578118626861a52898b42c"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Czech support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/cs/default.css
+Installs Czech support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/cs/default.css
 * /usr/lib/libreoffice/help/cs/err.html
 * /usr/lib/libreoffice/help/cs/highcontrast1.css
 * /usr/lib/libreoffice/help/cs/highcontrast2.css
@@ -134,4 +134,4 @@ Installs Czech support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib
 * /usr/lib/libreoffice/share/registry/Langpack-cs.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_cs.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_cs.xcd
-{{< /spoiler >}}
+{{< /files >}}

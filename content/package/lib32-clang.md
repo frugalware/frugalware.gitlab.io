@@ -13,7 +13,7 @@ usize = "162545705"
 sha1sum = "8a39338acb2b0cfbf87fdfa79be8d3c73ca05fc5"
 depends = "['lib32-clang-libs>=17.0.6', 'lib32-libffi>=3.4', 'lib32-libxml2']"
 +++
-C/C++ language family frontend for LLVM (32-bit){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/analyze-build
+C/C++ language family frontend for LLVM (32-bit){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/analyze-build
 * /usr/i686-frugalware-linux/bin/c-index-test
 * /usr/i686-frugalware-linux/bin/clang
 * /usr/i686-frugalware-linux/bin/clang++
@@ -985,4 +985,4 @@ C/C++ language family frontend for LLVM (32-bit){{< spoiler text="show files" >}
 * /usr/lib32/cmake/clang/ClangConfigVersion.cmake
 * /usr/lib32/cmake/clang/ClangTargets-release.cmake
 * /usr/lib32/cmake/clang/ClangTargets.cmake
-{{< /spoiler >}}
+{{< /files >}}

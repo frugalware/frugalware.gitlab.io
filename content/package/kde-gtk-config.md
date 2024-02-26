@@ -13,7 +13,7 @@ usize = "310558"
 sha1sum = "4cb7ba7be6e34bc30113b6efbc82709e75844928"
 depends = "['gsettings-desktop-schemas', 'harfbuzz', 'kcmutils>=5.115.0', 'kdecoration>=5.27.10', 'knewstuff>=5.115.0', 'qt5-svg']"
 +++
-Config for GTK within KDE{{< spoiler text="show files" >}}* /usr/lib/gtk-3.0/modules/libcolorreload-gtk-module.so
+Config for GTK within KDE{{< files text="show files" >}}* /usr/lib/gtk-3.0/modules/libcolorreload-gtk-module.so
 * /usr/lib/gtk-3.0/modules/libwindow-decorations-gtk-module.so
 * /usr/lib/kconf_update_bin/gtk_theme
 * /usr/lib/kconf_update_bin/remove_deprecated_gtk4_option
@@ -24,4 +24,4 @@ Config for GTK within KDE{{< spoiler text="show files" >}}* /usr/lib/gtk-3.0/mod
 * /usr/share/kconf_update/gtkconfig.upd
 * /usr/share/kconf_update/remove_window_decorations_from_gtk_css.sh
 * /usr/share/themes/Breeze/window_decorations.css
-{{< /spoiler >}}
+{{< /files >}}

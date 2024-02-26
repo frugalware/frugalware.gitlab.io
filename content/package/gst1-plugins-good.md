@@ -14,7 +14,7 @@ sha1sum = "c1949f30e4ce02562d4f30ce721c45aee47daa0e"
 depends = "['cairo>=1.15.14', 'gst1-plugins-base>=1.22.10', 'gstreamer1>=1.22.10', 'orc>=0.4.26']"
 reverse_depends = "['castersoundboard', 'gst1-plugins-good-aalib', 'gst1-plugins-good-avc1394', 'gst1-plugins-good-caca', 'gst1-plugins-good-dv', 'gst1-plugins-good-flac', 'gst1-plugins-good-gdkpixbuf', 'gst1-plugins-good-jack', 'gst1-plugins-good-jpeg', 'gst1-plugins-good-libsoup', 'gst1-plugins-good-png', 'gst1-plugins-good-pulseaudio', 'gst1-plugins-good-shout', 'gst1-plugins-good-speex', 'gst1-plugins-good-taglib', 'gst1-plugins-good-video4linux2', 'gst1-plugins-good-videobox', 'gst1-plugins-good-vpx', 'gst1-plugins-good-wavpack', 'gst1-plugins-good-ximage', 'qt5-gstreamer', 'qt5-multimedia', 'spice', 'spice-glib', 'webkit-gtk3']"
 +++
-Plugins for GStreamer (Good){{< spoiler text="show files" >}}* /usr/lib/gstreamer-1.0/libgstadaptivedemux2.so
+Plugins for GStreamer (Good){{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstadaptivedemux2.so
 * /usr/lib/gstreamer-1.0/libgstalaw.so
 * /usr/lib/gstreamer-1.0/libgstalpha.so
 * /usr/lib/gstreamer-1.0/libgstalphacolor.so
@@ -119,4 +119,4 @@ Plugins for GStreamer (Good){{< spoiler text="show files" >}}* /usr/lib/gstreame
 * /usr/share/locale/zh_CN/LC_MESSAGES/gst-plugins-good-1.0.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/gst-plugins-good-1.0.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/gst-plugins-good-1.0.mo
-{{< /spoiler >}}
+{{< /files >}}

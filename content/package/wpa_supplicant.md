@@ -14,7 +14,7 @@ sha1sum = "40f4c8ca8a54628b88208811e4ce145397e77085"
 depends = "['dbus>=1.10.10-3', 'libnl>=3.2.25-4', 'ncurses>=6.1', 'openssl>=3.1.0', 'readline>=7.0-3']"
 reverse_depends = "['connman', 'networkmanager']"
 +++
-Linux WPA/WPA2/IEEE 802.1X Supplicant{{< spoiler text="show files" >}}* /etc/dbus-1/system.d/dbus-wpa_supplicant.conf
+Linux WPA/WPA2/IEEE 802.1X Supplicant{{< files text="show files" >}}* /etc/dbus-1/system.d/dbus-wpa_supplicant.conf
 * /etc/wpa_supplicant.conf
 * /usr/bin/wpa_cli
 * /usr/bin/wpa_passphrase
@@ -31,4 +31,4 @@ Linux WPA/WPA2/IEEE 802.1X Supplicant{{< spoiler text="show files" >}}* /etc/dbu
 * /usr/share/man/man8/wpa_passphrase.8.gz
 * /usr/share/man/man8/wpa_priv.8.gz
 * /usr/share/man/man8/wpa_supplicant.8.gz
-{{< /spoiler >}}
+{{< /files >}}

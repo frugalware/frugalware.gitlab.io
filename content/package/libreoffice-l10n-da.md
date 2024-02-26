@@ -13,7 +13,7 @@ usize = "35198277"
 sha1sum = "00b41809ef8c6b0009e6fd32a2577b2b98d0d5df"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Danish support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/da/default.css
+Installs Danish support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/da/default.css
 * /usr/lib/libreoffice/help/da/err.html
 * /usr/lib/libreoffice/help/da/highcontrast1.css
 * /usr/lib/libreoffice/help/da/highcontrast2.css
@@ -133,4 +133,4 @@ Installs Danish support in LibreOffice{{< spoiler text="show files" >}}* /usr/li
 * /usr/lib/libreoffice/share/registry/Langpack-da.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_da.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_da.xcd
-{{< /spoiler >}}
+{{< /files >}}

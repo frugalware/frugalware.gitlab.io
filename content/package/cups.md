@@ -14,7 +14,7 @@ sha1sum = "67c9e55382fbff9f41a55e631788d18e6a828bb8"
 depends = "['avahi>=0.6.31-9', 'dbus', 'libcups', 'libpaper', 'libusb1>=1.0.20-5', 'pam']"
 reverse_depends = "['cups-pk-helper', 'gimp-print', 'gutenprint', 'libreoffice', 'print-manager']"
 +++
-The CUPS Printing System{{< spoiler text="show files" >}}* /etc/cups/cups-files.conf
+The CUPS Printing System{{< files text="show files" >}}* /etc/cups/cups-files.conf
 * /etc/cups/cups-files.conf.default
 * /etc/cups/cupsd.conf
 * /etc/cups/cupsd.conf.default
@@ -883,4 +883,4 @@ The CUPS Printing System{{< spoiler text="show files" >}}* /etc/cups/cups-files.
 * /usr/share/man/man8/lpinfo.8.gz
 * /usr/share/man/man8/lpmove.8.gz
 * /usr/share/pixmaps/cups-128.png
-{{< /spoiler >}}
+{{< /files >}}

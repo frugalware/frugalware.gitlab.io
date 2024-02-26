@@ -13,7 +13,7 @@ usize = "184033"
 sha1sum = "88e2db5871564b06984fda903e14a8a09ce6670c"
 depends = "['glibc>=2.29-6']"
 +++
-Object Oriented Input System{{< spoiler text="show files" >}}* /usr/include/OIS/OIS.h
+Object Oriented Input System{{< files text="show files" >}}* /usr/include/OIS/OIS.h
 * /usr/include/OIS/OISConfig.h
 * /usr/include/OIS/OISEffect.h
 * /usr/include/OIS/OISEvents.h
@@ -31,4 +31,4 @@ Object Oriented Input System{{< spoiler text="show files" >}}* /usr/include/OIS/
 * /usr/lib/libOIS-1.3.0.so
 * /usr/lib/libOIS.so
 * /usr/lib/pkgconfig/OIS.pc
-{{< /spoiler >}}
+{{< /files >}}

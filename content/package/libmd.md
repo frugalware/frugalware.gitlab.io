@@ -14,7 +14,7 @@ sha1sum = "ac744da2f8510b7bbfba701ad528378ca57e769e"
 depends = "['glibc>=2.34']"
 reverse_depends = "['libbsd']"
 +++
-Message Digest functions from BSD systems{{< spoiler text="show files" >}}* /usr/include/md2.h
+Message Digest functions from BSD systems{{< files text="show files" >}}* /usr/include/md2.h
 * /usr/include/md4.h
 * /usr/include/md5.h
 * /usr/include/ripemd.h
@@ -109,4 +109,4 @@ Message Digest functions from BSD systems{{< spoiler text="show files" >}}* /usr
 * /usr/share/man/man3/SHA512Transform.3.gz
 * /usr/share/man/man3/SHA512Update.3.gz
 * /usr/share/man/man7/libmd.7.gz
-{{< /spoiler >}}
+{{< /files >}}

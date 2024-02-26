@@ -13,7 +13,7 @@ usize = "4269155"
 sha1sum = "b5daf5b8f246a542f51be2a431418a7852b91fc7"
 depends = "[]"
 +++
-Bosnian Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale/bs/charset
+Bosnian Localization for KDE.{{< files text="show files" >}}* usr/share/locale/bs/charset
 * usr/share/locale/bs/entry.desktop
 * usr/share/locale/bs/flag.png
 * usr/share/locale/bs/LC_MESSAGES/amor.mo
@@ -429,4 +429,4 @@ Bosnian Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale
 * usr/share/locale/bs/LC_MESSAGES/wakeup.mo
 * usr/share/locale/bs/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/bs/LC_MESSAGES/webarchiver.mo
-{{< /spoiler >}}
+{{< /files >}}

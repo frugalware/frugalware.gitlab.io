@@ -14,7 +14,7 @@ sha1sum = "6ebe3cf5985a9564fdd57f620dcb22e97e8da016"
 depends = "['python3>=3.11', 'python3-shiboken6>=6.6.2', 'qt6-declarative>=6.6.2']"
 reverse_depends = "['yin-yang']"
 +++
-The PySide project provides LGPL-licensed Python bindings for the Qt cross-platform application and UI framework.{{< spoiler text="show files" >}}* /usr/include/PySide6/class_property.h
+The PySide project provides LGPL-licensed Python bindings for the Qt cross-platform application and UI framework.{{< files text="show files" >}}* /usr/include/PySide6/class_property.h
 * /usr/include/PySide6/dynamicqmetaobject.h
 * /usr/include/PySide6/feature_select.h
 * /usr/include/PySide6/globalreceiverv2.h
@@ -386,4 +386,4 @@ The PySide project provides LGPL-licensed Python bindings for the Qt cross-platf
 * /usr/share/PySide6/typesystems/typesystem_widgets_common.xml
 * /usr/share/PySide6/typesystems/typesystem_xml.xml
 * /usr/share/PySide6/typesystems/widgets_common.xml
-{{< /spoiler >}}
+{{< /files >}}

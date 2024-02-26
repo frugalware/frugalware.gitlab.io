@@ -14,7 +14,7 @@ sha1sum = "305062e1e38240a81dcabc951007475f6682111e"
 depends = "['python3-zipp']"
 reverse_depends = "['python3-cx-freeze', 'python3-keyring', 'python3-markdown']"
 +++
-Read metadata from Python packages{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/importlib_metadata-7.0.0.dist-info/LICENSE
+Read metadata from Python packages{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/importlib_metadata-7.0.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/importlib_metadata-7.0.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/importlib_metadata-7.0.0.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/importlib_metadata-7.0.0.dist-info/top_level.txt
@@ -52,4 +52,4 @@ Read metadata from Python packages{{< spoiler text="show files" >}}* /usr/lib/py
 * /usr/lib/python3.12/site-packages/importlib_metadata/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-importlib-metadata-7.0.0/LICENSE
 * /usr/share/doc/python3-importlib-metadata-7.0.0/README.rst
-{{< /spoiler >}}
+{{< /files >}}

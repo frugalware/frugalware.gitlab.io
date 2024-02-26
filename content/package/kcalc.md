@@ -13,7 +13,7 @@ usize = "2788906"
 sha1sum = "07a58acf8e12cee04f5344a41c6556b0999634ac"
 depends = "['kinit>=5.115.0']"
 +++
-A scientific calculator.{{< spoiler text="show files" >}}* /usr/bin/kcalc
+A scientific calculator.{{< files text="show files" >}}* /usr/bin/kcalc
 * /usr/share/applications/org.kde.kcalc.desktop
 * /usr/share/config.kcfg/kcalc.kcfg
 * /usr/share/doc/HTML/ca/kcalc/commands.docbook
@@ -149,4 +149,4 @@ A scientific calculator.{{< spoiler text="show files" >}}* /usr/bin/kcalc
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcalc.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcalc.mo
 * /usr/share/metainfo/org.kde.kcalc.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

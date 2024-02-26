@@ -13,7 +13,7 @@ usize = "27967763"
 sha1sum = "4954975f82176a8eddeda1133842bed8ff536190"
 depends = "['libstdc++>=11.3']"
 +++
-Qt5 base static libs.{{< spoiler text="show files" >}}* /usr/lib/libQt5AccessibilitySupport.a
+Qt5 base static libs.{{< files text="show files" >}}* /usr/lib/libQt5AccessibilitySupport.a
 * /usr/lib/libQt5AccessibilitySupport.la
 * /usr/lib/libQt5AccessibilitySupport.prl
 * /usr/lib/libQt5Bootstrap.a
@@ -64,4 +64,4 @@ Qt5 base static libs.{{< spoiler text="show files" >}}* /usr/lib/libQt5Accessibi
 * /usr/lib/libQt5XkbCommonSupport.a
 * /usr/lib/libQt5XkbCommonSupport.la
 * /usr/lib/libQt5XkbCommonSupport.prl
-{{< /spoiler >}}
+{{< /files >}}

@@ -15,7 +15,7 @@ depends = "['libx11>=1.6.7-2']"
 reverse_depends = "['cairo', 'clightd', 'distcc-gui', 'efl', 'enlightenment', 'graphicsmagick', 'guvcview', 'imlib2', 'kchart', 'kdebase-runtime-kstyles', 'libdmx', 'libepoxy', 'libextractor', 'libglvnd', 'libqtdesignercomponents', 'libva', 'libva1', 'libvdpau', 'libxcomposite', 'libxft', 'libxi', 'libxinerama', 'libxmu', 'libxp', 'libxpm', 'libxpresent', 'libxrandr', 'libxres', 'libxscrnsaver', 'libxtst', 'libxv', 'libxvmc', 'libxxf86dga', 'libxxf86vm', 'mesa-libglx', 'polkit-qt5-1', 'printoxx', 'terminology', 'virtualbox', 'whalebird', 'xauth', 'xcfa', 'xdbedizzy', 'xpad', 'xrdp', 'xxkb']"
 license = "GPL2"
 +++
-Misc X Extension Library{{< spoiler text="show files" >}}* /usr/include/X11/extensions/dpms.h
+Misc X Extension Library{{< files text="show files" >}}* /usr/include/X11/extensions/dpms.h
 * /usr/include/X11/extensions/extutil.h
 * /usr/include/X11/extensions/MITMisc.h
 * /usr/include/X11/extensions/multibuf.h
@@ -106,4 +106,4 @@ Misc X Extension Library{{< spoiler text="show files" >}}* /usr/include/X11/exte
 * /usr/share/man/man3/XShmPutImage.3.gz
 * /usr/share/man/man3/XShmQueryExtension.3.gz
 * /usr/share/man/man3/XShmQueryVersion.3.gz
-{{< /spoiler >}}
+{{< /files >}}

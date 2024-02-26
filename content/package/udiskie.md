@@ -13,7 +13,7 @@ usize = "619734"
 sha1sum = "9287cc6218bdba29dbdf8db96d9377a8f62502d4"
 depends = "['pygobject3', 'udisks2']"
 +++
-An automatic disk mounting service using udisks.{{< spoiler text="show files" >}}* /usr/bin/udiskie
+An automatic disk mounting service using udisks.{{< files text="show files" >}}* /usr/bin/udiskie
 * /usr/bin/udiskie-info
 * /usr/bin/udiskie-mount
 * /usr/bin/udiskie-umount
@@ -85,4 +85,4 @@ An automatic disk mounting service using udisks.{{< spoiler text="show files" >}
 * /usr/share/share/zsh/site-functions/_udiskie-canonical_paths
 * /usr/share/share/zsh/site-functions/_udiskie-mount
 * /usr/share/share/zsh/site-functions/_udiskie-umount
-{{< /spoiler >}}
+{{< /files >}}

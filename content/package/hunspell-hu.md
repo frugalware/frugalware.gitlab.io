@@ -13,7 +13,7 @@ usize = "3554150"
 sha1sum = "36eaf6a10eff5a8a4f562c55a9d7ea61d9be6ab4"
 depends = "['hunspell>=1.1.3']"
 +++
-Hungarian dictionary for Hunspell{{< spoiler text="show files" >}}* /usr/share/doc/hunspell-hu-1.6.1/README_hu_HU.txt
+Hungarian dictionary for Hunspell{{< files text="show files" >}}* /usr/share/doc/hunspell-hu-1.6.1/README_hu_HU.txt
 * /usr/share/myspell/hu_HU.aff
 * /usr/share/myspell/hu_HU.dic
-{{< /spoiler >}}
+{{< /files >}}

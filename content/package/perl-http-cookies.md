@@ -14,7 +14,7 @@ sha1sum = "3fec10efd31b50a686a7ba1339ea7f7ae718dd04"
 depends = "['perl>=5.34.0', 'perl-http-date']"
 reverse_depends = "['perl-libwww']"
 +++
-HTTP cookie jars{{< spoiler text="show files" >}}* /usr/lib/perl5/site_perl/current/HTTP/Cookies.pm
+HTTP cookie jars{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/HTTP/Cookies.pm
 * /usr/lib/perl5/site_perl/current/HTTP/Cookies/Microsoft.pm
 * /usr/lib/perl5/site_perl/current/HTTP/Cookies/Netscape.pm
 * /usr/share/doc/perl-http-cookies-6.10/CONTRIBUTORS
@@ -25,4 +25,4 @@ HTTP cookie jars{{< spoiler text="show files" >}}* /usr/lib/perl5/site_perl/curr
 * /usr/share/man/man3/HTTP::Cookies.3perl.gz
 * /usr/share/man/man3/HTTP::Cookies::Microsoft.3perl.gz
 * /usr/share/man/man3/HTTP::Cookies::Netscape.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

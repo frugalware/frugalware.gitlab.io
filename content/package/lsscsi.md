@@ -13,7 +13,7 @@ usize = "129763"
 sha1sum = "b7db438ea61d340323d472ad7a904f8f10ef1449"
 depends = "['glibc']"
 +++
-The lsscsi command lists information about SCSI devices in Linux{{< spoiler text="show files" >}}* /usr/bin/lsscsi
+The lsscsi command lists information about SCSI devices in Linux{{< files text="show files" >}}* /usr/bin/lsscsi
 * /usr/share/doc/lsscsi-0.32/AUTHORS
 * /usr/share/doc/lsscsi-0.32/ChangeLog
 * /usr/share/doc/lsscsi-0.32/COPYING
@@ -21,4 +21,4 @@ The lsscsi command lists information about SCSI devices in Linux{{< spoiler text
 * /usr/share/doc/lsscsi-0.32/INSTALL
 * /usr/share/doc/lsscsi-0.32/README
 * /usr/share/man/man8/lsscsi.8.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "bb1588eef7521ec2b73d5e173218095ac5dc9a70"
 depends = "['python3>=3.12']"
 reverse_depends = "['pyside6']"
 +++
-Shiboken lib python only{{< spoiler text="show files" >}}* /usr/lib/libshiboken6.abi3.so
+Shiboken lib python only{{< files text="show files" >}}* /usr/lib/libshiboken6.abi3.so
 * /usr/lib/libshiboken6.abi3.so.6.6
 * /usr/lib/libshiboken6.abi3.so.6.6.2
 * /usr/lib/python3.12/site-packages/shiboken6/py.typed
@@ -26,4 +26,4 @@ Shiboken lib python only{{< spoiler text="show files" >}}* /usr/lib/libshiboken6
 * /usr/lib/python3.12/site-packages/shiboken6_generator/_config.py
 * /usr/lib/python3.12/site-packages/shiboken6_generator/_git_shiboken_generator_version.py
 * /usr/lib/python3.12/site-packages/shiboken6_generator/__init__.py
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "354251c0833509117dc77ffa3d94f41815388bcc"
 depends = "['haskell-regex-base>=0.93.2-18']"
 reverse_depends = "['haskell-typst', 'shellcheck']"
 +++
-A new all Haskell tagged DFA regex engine, inspired by libtre{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/regex-tdfa-1.3.2.2/Data/IntMap/CharMap2.dyn_hi
+A new all Haskell tagged DFA regex engine, inspired by libtre{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/regex-tdfa-1.3.2.2/Data/IntMap/CharMap2.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/regex-tdfa-1.3.2.2/Data/IntMap/CharMap2.hi
 * /usr/lib/ghc-9.8.1/site-local/regex-tdfa-1.3.2.2/Data/IntMap/EnumMap2.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/regex-tdfa-1.3.2.2/Data/IntMap/EnumMap2.hi
@@ -128,4 +128,4 @@ A new all Haskell tagged DFA regex engine, inspired by libtre{{< spoiler text="s
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/regex-tdfa-1.3.2.2/LICENSE
 * /usr/share/haskell/haskell-regex-tdfa/register.sh
 * /usr/share/haskell/haskell-regex-tdfa/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

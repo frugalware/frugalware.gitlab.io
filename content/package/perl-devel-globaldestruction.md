@@ -14,8 +14,8 @@ sha1sum = "6cf185742aa07268fefb13d33639100567c3fca5"
 depends = "['perl>=5.34.0', 'perl-sub-exporter', 'perl-sub-exporter-progressive']"
 reverse_depends = "['perl-moo']"
 +++
-Expose the flag which marks global{{< spoiler text="show files" >}}* /usr/lib/perl5/site_perl/current/Devel/GlobalDestruction.pm
+Expose the flag which marks global{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/Devel/GlobalDestruction.pm
 * /usr/share/doc/perl-devel-globaldestruction-0.14/MANIFEST
 * /usr/share/doc/perl-devel-globaldestruction-0.14/README
 * /usr/share/man/man3/Devel::GlobalDestruction.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "cb50ebd482c1c49fe1b8008ccfc419bb1fe1e4db"
 depends = "[]"
 reverse_depends = "['mod_security']"
 +++
-ModSecurity Core Rule Set (CRS){{< spoiler text="show files" >}}* /etc/modsecurity/crs/CHANGES
+ModSecurity Core Rule Set (CRS){{< files text="show files" >}}* /etc/modsecurity/crs/CHANGES
 * /etc/modsecurity/crs/CONTRIBUTING.md
 * /etc/modsecurity/crs/CONTRIBUTORS.md
 * /etc/modsecurity/crs/crs-setup.conf
@@ -76,4 +76,4 @@ ModSecurity Core Rule Set (CRS){{< spoiler text="show files" >}}* /etc/modsecuri
 * /etc/modsecurity/crs/rules/sql-errors.data
 * /etc/modsecurity/crs/rules/unix-shell.data
 * /etc/modsecurity/crs/rules/windows-powershell-commands.data
-{{< /spoiler >}}
+{{< /files >}}

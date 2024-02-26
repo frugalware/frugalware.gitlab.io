@@ -13,7 +13,7 @@ usize = "1030293"
 sha1sum = "c6846f8eef070bf3c43d6c5b4b43b0d6e09e234c"
 depends = "['qt5-declarative>=5.15.12']"
 +++
-The Qt5 toolkit, qtscxml{{< spoiler text="show files" >}}* /usr/bin/qscxmlc
+The Qt5 toolkit, qtscxml{{< files text="show files" >}}* /usr/bin/qscxmlc
 * /usr/bin/qscxmlc-qt5
 * /usr/include/qt5/QtScxml/5.15.12/QtScxml/private/qscxmlcompiler_p.h
 * /usr/include/qt5/QtScxml/5.15.12/QtScxml/private/qscxmlcppdatamodel_p.h
@@ -74,4 +74,4 @@ The Qt5 toolkit, qtscxml{{< spoiler text="show files" >}}* /usr/bin/qscxmlc
 * /usr/share/qt5/qml/QtScxml/libdeclarative_scxml.so
 * /usr/share/qt5/qml/QtScxml/plugins.qmltypes
 * /usr/share/qt5/qml/QtScxml/qmldir
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "654164"
 sha1sum = "0a3d003be69671a73617886cff2558b30828fffc"
 depends = "['gtk+2>=2.24.32']"
 +++
-GTK+2 Demos.{{< spoiler text="show files" >}}* /usr/bin/gtk-demo
+GTK+2 Demos.{{< files text="show files" >}}* /usr/bin/gtk-demo
 * /usr/share/gtk-2.0/demo/alphatest.png
 * /usr/share/gtk-2.0/demo/apple-red.png
 * /usr/share/gtk-2.0/demo/appwindow.c
@@ -67,4 +67,4 @@ GTK+2 Demos.{{< spoiler text="show files" >}}* /usr/bin/gtk-demo
 * /usr/share/gtk-2.0/demo/toolpalette.c
 * /usr/share/gtk-2.0/demo/tree_store.c
 * /usr/share/gtk-2.0/demo/ui_manager.c
-{{< /spoiler >}}
+{{< /files >}}

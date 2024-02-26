@@ -14,7 +14,7 @@ sha1sum = "b05fc44ee6d0a4bbcbd2e1d696753ba01555b451"
 depends = "['polkit>=0.113-6']"
 reverse_depends = "['plasma-workspace']"
 +++
-D-Bus interfaces for querying and manipulating user account information{{< spoiler text="show files" >}}* /usr/include/accountsservice-1.0/act/act-user-enum-types.h
+D-Bus interfaces for querying and manipulating user account information{{< files text="show files" >}}* /usr/include/accountsservice-1.0/act/act-user-enum-types.h
 * /usr/include/accountsservice-1.0/act/act-user-manager.h
 * /usr/include/accountsservice-1.0/act/act-user.h
 * /usr/include/accountsservice-1.0/act/act.h
@@ -129,4 +129,4 @@ D-Bus interfaces for querying and manipulating user account information{{< spoil
 * /usr/share/polkit-1/actions/org.freedesktop.accounts.policy
 * /usr/share/vala/vapi/accountsservice.deps
 * /usr/share/vala/vapi/accountsservice.vapi
-{{< /spoiler >}}
+{{< /files >}}

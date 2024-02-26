@@ -13,7 +13,7 @@ usize = "4965024"
 sha1sum = "6381314f84e91c94fc35e47e1e16c16cfc5c852c"
 depends = "['python3>=3.8.3', 'python3-sqlite3']"
 +++
-Graphical Emulators Manager - gui to manage emulators and roms{{< spoiler text="show files" >}}* /usr/bin/gem-ui
+Graphical Emulators Manager - gui to manage emulators and roms{{< files text="show files" >}}* /usr/bin/gem-ui
 * /usr/bin/geode-gem
 * /usr/lib/python3.12/site-packages/Geode_GEM-0.12.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/Geode_GEM-0.12.0-py3.12.egg-info/entry_points.txt
@@ -295,4 +295,4 @@ Graphical Emulators Manager - gui to manage emulators and roms{{< spoiler text="
 * /usr/lib/python3.12/site-packages/test/data/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/gem-0.12.0/LICENSE
 * /usr/share/doc/gem-0.12.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

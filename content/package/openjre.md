@@ -14,7 +14,7 @@ sha1sum = "e7a1cb4041f98701276defe64f842dbd65482aa3"
 depends = "['ca-certificates-java', 'harfbuzz', 'lcms2', 'libkrb5', 'libpulse>=7.1', 'libuuid', 'lksctp-tools>=1.0.18-2', 'nss', 'pcsc-lite']"
 reverse_depends = "['antlr-openjava', 'apache-ant', 'apache-log4j1', 'bcel', 'bcprov', 'bouncycastle-mail', 'commons-cli', 'commons-codec', 'commons-io', 'commons-logging', 'dom4j', 'freerapid', 'gnu-crypto', 'gnuinetlib', 'gradle', 'insight-toolkit', 'iso-relax', 'itext-core', 'jaf', 'jakarta-oro', 'jakarta-regexp', 'java-hamcrest', 'javacup', 'libreoffice', 'lxmed', 'ntru', 'oneswarm', 'openjdk', 'openjre-x', 'rhino', 'sac', 'servletapi', 'subversion-bindings', 'sweethome3d', 'swt', 'vtk-java', 'xalan-j-serializer', 'xjavac', 'xml-commons-resolver', 'xpp3']"
 +++
-Open-source Java Runtime Environment.{{< spoiler text="show files" >}}* /etc/java/jaxp.properties
+Open-source Java Runtime Environment.{{< files text="show files" >}}* /etc/java/jaxp.properties
 * /etc/java/logging.properties
 * /etc/java/management/jmxremote.access
 * /etc/java/management/jmxremote.password.template
@@ -135,4 +135,4 @@ Open-source Java Runtime Environment.{{< spoiler text="show files" >}}* /etc/jav
 * /usr/lib/jvm/java-21-openjdk/lib/server/libjvm.so
 * /usr/lib/jvm/java-21-openjdk/lib/tzdb.dat
 * /usr/lib/jvm/java-21-openjdk/release
-{{< /spoiler >}}
+{{< /files >}}

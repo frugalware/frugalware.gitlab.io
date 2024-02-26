@@ -13,7 +13,7 @@ usize = "4944076"
 sha1sum = "4a3ea1fe8a2b84f21ee9fac35d4458031a498c3f"
 depends = "['gpm>=1.20.5-2', 'gtk+3>=3.22.6', 'libice', 'libsm', 'libxpm', 'libxt', 'vim>=9.0.2130']"
 +++
-VIM - GTK+2 GUI{{< spoiler text="show files" >}}* /usr/bin/eview
+VIM - GTK+2 GUI{{< files text="show files" >}}* /usr/bin/eview
 * /usr/bin/evim
 * /usr/bin/gview
 * /usr/bin/gvim
@@ -27,4 +27,4 @@ VIM - GTK+2 GUI{{< spoiler text="show files" >}}* /usr/bin/eview
 * /usr/share/doc/gvim-9.0.2130/README.txt
 * /usr/share/doc/gvim-9.0.2130/README_VIM9.md
 * /usr/share/vim/gvimrc
-{{< /spoiler >}}
+{{< /files >}}

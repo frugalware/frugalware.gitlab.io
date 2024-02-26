@@ -13,5 +13,5 @@ usize = "22904"
 sha1sum = "524934a4e6400141662afce1f583cf0a44079338"
 depends = "['uwsgi', 'zeromq']"
 +++
-UWSGI Mongrel Plugin{{< spoiler text="show files" >}}* /usr/lib/uwsgi/mongrel2_plugin.so
-{{< /spoiler >}}
+UWSGI Mongrel Plugin{{< files text="show files" >}}* /usr/lib/uwsgi/mongrel2_plugin.so
+{{< /files >}}

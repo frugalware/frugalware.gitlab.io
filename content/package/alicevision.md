@@ -14,7 +14,7 @@ sha1sum = "62661659165c5786f5344ae9911cfa5b0abb23c8"
 depends = "['alembic', 'assimp', 'ceres-solver>=2.2.0', 'coin-or-clp', 'eigen', 'flann', 'geogram', 'imath', 'libboost>=1.83.0', 'libgomp', 'lz4', 'openexr', 'opengv', 'openimageio>=2.5.4.0', 'zlib>=1.2.12']"
 reverse_depends = "['meshroom']"
 +++
-Photogrammetric Computer Vision Framework{{< spoiler text="show files" >}}* /usr/bin/aliceVision_cameraInit
+Photogrammetric Computer Vision Framework{{< files text="show files" >}}* /usr/bin/aliceVision_cameraInit
 * /usr/bin/aliceVision_cameraInit-2.0
 * /usr/bin/aliceVision_cameraLocalization
 * /usr/bin/aliceVision_cameraLocalization-1.0
@@ -1031,4 +1031,4 @@ Photogrammetric Computer Vision Framework{{< spoiler text="show files" >}}* /usr
 * /usr/share/doc/alicevision-3.1.0/INSTALL.md
 * /usr/share/doc/alicevision-3.1.0/README.md
 * /usr/share/lemon/cmake/LEMONConfig.cmake
-{{< /spoiler >}}
+{{< /files >}}

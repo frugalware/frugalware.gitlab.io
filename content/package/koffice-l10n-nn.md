@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "0f8246493c240cfad5e6b5b4f488aadc9c6ef036"
 depends = "[]"
 +++
-Norwegian (Nynorsk) Localization for KOffice. {{< spoiler text="show files" >}}* usr/share/apps/koffice/autocorrect/nn.xml
+Norwegian (Nynorsk) Localization for KOffice. {{< files text="show files" >}}* usr/share/apps/koffice/autocorrect/nn.xml
 * usr/share/locale/nn/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/nn/LC_MESSAGES/example.mo
 * usr/share/locale/nn/LC_MESSAGES/karbon.mo
@@ -41,4 +41,4 @@ Norwegian (Nynorsk) Localization for KOffice. {{< spoiler text="show files" >}}*
 * usr/share/locale/nn/LC_MESSAGES/kugar.mo
 * usr/share/locale/nn/LC_MESSAGES/kword.mo
 * usr/share/locale/nn/LC_MESSAGES/thesaurus_tool.mo
-{{< /spoiler >}}
+{{< /files >}}

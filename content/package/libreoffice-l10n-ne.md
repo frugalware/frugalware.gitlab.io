@@ -13,7 +13,7 @@ usize = "39451409"
 sha1sum = "d81f40a218b77ca26c590469650ab525b10d2b17"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Nepali support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/ne/default.css
+Installs Nepali support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/ne/default.css
 * /usr/lib/libreoffice/help/ne/err.html
 * /usr/lib/libreoffice/help/ne/highcontrast1.css
 * /usr/lib/libreoffice/help/ne/highcontrast2.css
@@ -132,4 +132,4 @@ Installs Nepali support in LibreOffice{{< spoiler text="show files" >}}* /usr/li
 * /usr/lib/libreoffice/share/registry/Langpack-ne.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_ne.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_ne.xcd
-{{< /spoiler >}}
+{{< /files >}}

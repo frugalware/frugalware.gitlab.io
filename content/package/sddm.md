@@ -14,7 +14,7 @@ sha1sum = "3e6e8503dd36f403c448a4d12a8d35fc7ec5952b"
 depends = "['hack', 'libsystemd>=242-4', 'libxau', 'qt5-declarative>=5.15.10', 'xauth']"
 reverse_depends = "['abstractdark-sddm-theme', 'hills', 'joe-theme1', 'lumina-desktop', 'sddm-deepin', 'sddm-kcm', 'solarized_sddm_theme', 'stellar']"
 +++
-QML based X11 display manager{{< spoiler text="show files" >}}* /etc/dbus-1/system.d/org.freedesktop.DisplayManager.conf
+QML based X11 display manager{{< files text="show files" >}}* /etc/dbus-1/system.d/org.freedesktop.DisplayManager.conf
 * /etc/pam.d/sddm
 * /etc/pam.d/sddm-autologin
 * /etc/pam.d/sddm-greeter
@@ -218,4 +218,4 @@ QML based X11 display manager{{< spoiler text="show files" >}}* /etc/dbus-1/syst
 * /usr/share/sddm/translations/uk.qm
 * /usr/share/sddm/translations/zh_CN.qm
 * /usr/share/sddm/translations/zh_TW.qm
-{{< /spoiler >}}
+{{< /files >}}

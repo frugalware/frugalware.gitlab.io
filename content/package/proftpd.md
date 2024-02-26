@@ -13,7 +13,7 @@ usize = "4580595"
 sha1sum = "56e2cca07742caa46fc855903dc1ff6999a78c2f"
 depends = "['libldap>=2.6.2', 'mariadb-libs>=10.3.14', 'ncurses>=6.0-12', 'openssl>=3.1.0']"
 +++
-Highly configurable GPL-licensed FTP server software{{< spoiler text="show files" >}}* /etc/ftpusers
+Highly configurable GPL-licensed FTP server software{{< files text="show files" >}}* /etc/ftpusers
 * /etc/proftpd.conf
 * /usr/bin/ftpasswd
 * /usr/bin/ftpcount
@@ -135,4 +135,4 @@ Highly configurable GPL-licensed FTP server software{{< spoiler text="show files
 * /usr/share/man/man8/ftpscrub.8.gz
 * /usr/share/man/man8/ftpshut.8.gz
 * /usr/share/man/man8/proftpd.8.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "70307"
 sha1sum = "51d27737d6ca88c92568a5dc61b0dfcc50306827"
 depends = "['ruby>=2.5.0']"
 +++
-FLVTool2 is a manipulation tool for Macromedia Flash Video files (FLV){{< spoiler text="show files" >}}* /usr/bin/flvtool2
+FLVTool2 is a manipulation tool for Macromedia Flash Video files (FLV){{< files text="show files" >}}* /usr/bin/flvtool2
 * /usr/lib/ruby/2.5.0/flv.rb
 * /usr/lib/ruby/2.5.0/flv/amf_string_buffer.rb
 * /usr/lib/ruby/2.5.0/flv/audio_tag.rb
@@ -30,4 +30,4 @@ FLVTool2 is a manipulation tool for Macromedia Flash Video files (FLV){{< spoile
 * /usr/share/doc/flvtool2-1.0.6/CHANGELOG
 * /usr/share/doc/flvtool2-1.0.6/LICENSE
 * /usr/share/doc/flvtool2-1.0.6/README
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "663226225c4b3d53d6772a3b71b525142bea6d3d"
 depends = "['kcoreaddons>=5.115.0', 'polkit-qt5-1>=0.112.0-11']"
 reverse_depends = "['kconfigwidgets', 'kpmcore', 'plasma-desktop', 'smb4k', 'user-kcm']"
 +++
-Framework which lets applications perform actions as a privileged user.{{< spoiler text="show files" >}}* /usr/include/KF5/KAuth/KAuth
+Framework which lets applications perform actions as a privileged user.{{< files text="show files" >}}* /usr/include/KF5/KAuth/KAuth
 * /usr/include/KF5/KAuth/kauth.h
 * /usr/include/KF5/KAuth/KAuthAction
 * /usr/include/KF5/KAuth/kauthaction.h
@@ -163,4 +163,4 @@ Framework which lets applications perform actions as a privileged user.{{< spoil
 * /usr/share/qlogging-categories5/kauth.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KAuth.pri
 * /usr/share/qt5/mkspecs/modules/qt_KAuthCore.pri
-{{< /spoiler >}}
+{{< /files >}}

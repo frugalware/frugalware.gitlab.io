@@ -14,7 +14,7 @@ sha1sum = "8d0b60e5eec75c8bbd9681dc15e2febeeb549b35"
 depends = "['openssl>=3.1.0']"
 reverse_depends = "['fetchmailconf']"
 +++
-A remote-mail retrieval and forwarding utility.{{< spoiler text="show files" >}}* /usr/bin/fetchmail
+A remote-mail retrieval and forwarding utility.{{< files text="show files" >}}* /usr/bin/fetchmail
 * /usr/share/doc/fetchmail-6.4.38/AUTHORS
 * /usr/share/doc/fetchmail-6.4.38/COPYING
 * /usr/share/doc/fetchmail-6.4.38/COPYING.DOC
@@ -47,4 +47,4 @@ A remote-mail retrieval and forwarding utility.{{< spoiler text="show files" >}}
 * /usr/share/locale/sv/LC_MESSAGES/fetchmail.mo
 * /usr/share/locale/vi/LC_MESSAGES/fetchmail.mo
 * /usr/share/man/man1/fetchmail.1.gz
-{{< /spoiler >}}
+{{< /files >}}

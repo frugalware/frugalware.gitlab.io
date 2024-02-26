@@ -14,7 +14,7 @@ sha1sum = "5c4800387c83e3e69399b4f8b7733dfc2f336b86"
 depends = "['glibc>=2.34']"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-ugly-a52dec', 'mencoder', 'mplayer', 'vlc-a52']"
 +++
-liba52 is a free library for decoding ATSC A/52 streams.{{< spoiler text="show files" >}}* /usr/bin/a52dec
+liba52 is a free library for decoding ATSC A/52 streams.{{< files text="show files" >}}* /usr/bin/a52dec
 * /usr/bin/extract_a52
 * /usr/include/a52dec/a52.h
 * /usr/include/a52dec/attributes.h
@@ -35,4 +35,4 @@ liba52 is a free library for decoding ATSC A/52 streams.{{< spoiler text="show f
 * /usr/share/doc/a52dec-0.7.4/TODO
 * /usr/share/man/man1/a52dec.1.gz
 * /usr/share/man/man1/extract_a52.1.gz
-{{< /spoiler >}}
+{{< /files >}}

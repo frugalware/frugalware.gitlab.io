@@ -14,7 +14,7 @@ sha1sum = "78ec3678910277334cfb9e66041002c307cbb6d0"
 depends = "['gobject-introspection>=1.60.0', 'gtk+4']"
 reverse_depends = "['gamt', 'geany', 'remmina', 'sakura', 'sunflower', 'virt-manager', 'xcfa']"
 +++
-Virtual Terminal Emulator (gtk+4){{< spoiler text="show files" >}}* /etc/profile.d/vte.csh
+Virtual Terminal Emulator (gtk+4){{< files text="show files" >}}* /etc/profile.d/vte.csh
 * /etc/profile.d/vte.sh
 * /usr/bin/vte-2.91
 * /usr/bin/vte-2.91-gtk4
@@ -165,4 +165,4 @@ Virtual Terminal Emulator (gtk+4){{< spoiler text="show files" >}}* /etc/profile
 * /usr/share/vala/vapi/vte-2.91-gtk4.vapi
 * /usr/share/vala/vapi/vte-2.91.deps
 * /usr/share/vala/vapi/vte-2.91.vapi
-{{< /spoiler >}}
+{{< /files >}}

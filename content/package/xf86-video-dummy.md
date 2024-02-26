@@ -15,8 +15,8 @@ depends = "['xorg-server>=1.20.4-3']"
 reverse_depends = "['xorg-compat']"
 license = "GPL2"
 +++
-X.Org driver for dummy cards{{< spoiler text="show files" >}}* /usr/lib/xorg/modules/drivers/dummy_drv.so
+X.Org driver for dummy cards{{< files text="show files" >}}* /usr/lib/xorg/modules/drivers/dummy_drv.so
 * /usr/share/doc/xf86-video-dummy-0.4.1/ChangeLog
 * /usr/share/doc/xf86-video-dummy-0.4.1/COPYING
 * /usr/share/doc/xf86-video-dummy-0.4.1/README.md
-{{< /spoiler >}}
+{{< /files >}}

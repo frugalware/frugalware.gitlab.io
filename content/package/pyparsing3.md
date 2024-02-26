@@ -13,7 +13,7 @@ usize = "1430714"
 sha1sum = "c4314ecc828f2f4ae358f671584b4338ea0d3680"
 depends = "['python3>=3.11']"
 +++
-Alternative approach to creating and executing simple grammars, vs.{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/pyparsing-3.0.9.dist-info/LICENSE
+Alternative approach to creating and executing simple grammars, vs.{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pyparsing-3.0.9.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/pyparsing-3.0.9.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/pyparsing-3.0.9.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/pyparsing-3.0.9.dist-info/WHEEL
@@ -54,4 +54,4 @@ Alternative approach to creating and executing simple grammars, vs.{{< spoiler t
 * /usr/share/doc/pyparsing3-3.0.9/CHANGES
 * /usr/share/doc/pyparsing3-3.0.9/LICENSE
 * /usr/share/doc/pyparsing3-3.0.9/README.rst
-{{< /spoiler >}}
+{{< /files >}}

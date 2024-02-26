@@ -14,7 +14,7 @@ sha1sum = "26e572ceff6c28c34f23b408c0a8a592c19a659a"
 depends = "['libgcc>=12.2']"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'libavif', 'libheif']"
 +++
-An AV1 encoder focused on speed and safety{{< spoiler text="show files" >}}* /usr/bin/rav1e
+An AV1 encoder focused on speed and safety{{< files text="show files" >}}* /usr/bin/rav1e
 * /usr/include/rav1e/rav1e.h
 * /usr/lib/librav1e.a
 * /usr/lib/librav1e.so
@@ -34,4 +34,4 @@ An AV1 encoder focused on speed and safety{{< spoiler text="show files" >}}* /us
 * /usr/share/doc/rav1e-0.6.6/RELEASE
 * /usr/share/doc/rav1e-0.6.6/RELEASE_NOTES
 * /usr/share/doc/rav1e-0.6.6/VERSION
-{{< /spoiler >}}
+{{< /files >}}

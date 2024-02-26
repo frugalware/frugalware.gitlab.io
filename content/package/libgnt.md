@@ -14,7 +14,7 @@ sha1sum = "de774920b2de8303c2376fa32a32f47bc271512f"
 depends = "['libxml2', 'ncurses']"
 reverse_depends = "['finch']"
 +++
-GLib Ncurses Toolkit{{< spoiler text="show files" >}}* /usr/include/gnt/gnt.h
+GLib Ncurses Toolkit{{< files text="show files" >}}* /usr/include/gnt/gnt.h
 * /usr/include/gnt/gntbindable.h
 * /usr/include/gnt/gntbox.h
 * /usr/include/gnt/gntbutton.h
@@ -107,4 +107,4 @@ GLib Ncurses Toolkit{{< spoiler text="show files" >}}* /usr/include/gnt/gnt.h
 * /usr/share/gtk-doc/html/libgnt/up-insensitive.png
 * /usr/share/gtk-doc/html/libgnt/up.png
 * /usr/share/gtk-doc/html/libgnt/widgets.html
-{{< /spoiler >}}
+{{< /files >}}

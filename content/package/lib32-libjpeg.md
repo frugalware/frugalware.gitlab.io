@@ -13,7 +13,7 @@ usize = "427103"
 sha1sum = "43bb7b4bcf673840fabc6db4f184aa779b229f04"
 depends = "[]"
 +++
-Library of JPEG support functions ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/cjpeg
+Library of JPEG support functions ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/cjpeg
 * /usr/i686-frugalware-linux/bin/djpeg
 * /usr/i686-frugalware-linux/bin/jpegtran
 * /usr/i686-frugalware-linux/bin/rdjpgcom
@@ -26,4 +26,4 @@ Library of JPEG support functions ( 32bit ){{< spoiler text="show files" >}}* /u
 * /usr/lib32/libjpeg.so
 * /usr/lib32/libjpeg.so.9
 * /usr/lib32/libjpeg.so.9.2.0
-{{< /spoiler >}}
+{{< /files >}}

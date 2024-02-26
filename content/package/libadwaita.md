@@ -14,7 +14,7 @@ sha1sum = "27a8d6ffc60da61d82fb4a4f17c82b38a7171478"
 depends = "['appstream>=1.0.0', 'gtk+4']"
 reverse_depends = "['celluloid', 'easyeffects', 'libpanel', 'sysprof']"
 +++
-Building blocks for modern adaptive GNOME applications{{< spoiler text="show files" >}}* /usr/bin/adwaita-1-demo
+Building blocks for modern adaptive GNOME applications{{< files text="show files" >}}* /usr/bin/adwaita-1-demo
 * /usr/include/libadwaita-1/adw-about-window.h
 * /usr/include/libadwaita-1/adw-action-row.h
 * /usr/include/libadwaita-1/adw-animation-target.h
@@ -143,4 +143,4 @@ Building blocks for modern adaptive GNOME applications{{< spoiler text="show fil
 * /usr/share/metainfo/org.gnome.Adwaita1.Demo.metainfo.xml
 * /usr/share/vala/vapi/libadwaita-1.deps
 * /usr/share/vala/vapi/libadwaita-1.vapi
-{{< /spoiler >}}
+{{< /files >}}

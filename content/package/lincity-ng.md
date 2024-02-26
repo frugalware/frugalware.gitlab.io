@@ -14,7 +14,7 @@ sha1sum = "2e4da21f72978ee4bd52414a5461ba8d417d781c"
 depends = "['physfs>=2.0.3-3', 'sdl2_gfx', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'sdlimage>=1.2.12-2']"
 license = "GPL"
 +++
-A City Simulation Game. It is a polished and improved version of the classic LinCity game.{{< spoiler text="show files" >}}* /usr/bin/lincity-ng
+A City Simulation Game. It is a polished and improved version of the classic LinCity game.{{< files text="show files" >}}* /usr/bin/lincity-ng
 * /usr/share/applications/lincity-ng.desktop
 * /usr/share/doc/lincity-ng-2.9.0/COPYING
 * /usr/share/doc/lincity-ng-2.9.0/COPYING-data.txt
@@ -1876,4 +1876,4 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/sounds/WindowClose.wav
 * /usr/share/lincity-ng/sounds/WindowOpen.wav
 * /usr/share/pixmaps/lincity-ng.png
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "1345404"
 sha1sum = "ab18ff44af0b1829a3afb73d479c79b97d27d9f3"
 depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5']"
 +++
-A simple tactical game.{{< spoiler text="show files" >}}* /usr/bin/kjumpingcube
+A simple tactical game.{{< files text="show files" >}}* /usr/bin/kjumpingcube
 * /usr/share/applications/org.kde.kjumpingcube.desktop
 * /usr/share/config.kcfg/kjumpingcube.kcfg
 * /usr/share/doc/HTML/ca/kjumpingcube/index.cache.bz2
@@ -135,4 +135,4 @@ A simple tactical game.{{< spoiler text="show files" >}}* /usr/bin/kjumpingcube
 * /usr/share/locale/zh_TW/LC_MESSAGES/kjumpingcube.mo
 * /usr/share/metainfo/org.kde.kjumpingcube.appdata.xml
 * /usr/share/qlogging-categories5/kjumpingcube.categories
-{{< /spoiler >}}
+{{< /files >}}

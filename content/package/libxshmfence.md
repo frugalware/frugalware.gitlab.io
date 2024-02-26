@@ -15,7 +15,7 @@ depends = "['glibc>=2.34']"
 reverse_depends = "['efl', 'libegl', 'libepoxy', 'libgl', 'mesa-libegl', 'mesa-libglx', 'qt6-webengine', 'xf86-video-intel']"
 license = "GPL2"
 +++
-X Shared memory fences using futexes{{< spoiler text="show files" >}}* /usr/include/X11/xshmfence.h
+X Shared memory fences using futexes{{< files text="show files" >}}* /usr/include/X11/xshmfence.h
 * /usr/lib/libxshmfence.so
 * /usr/lib/libxshmfence.so.1
 * /usr/lib/libxshmfence.so.1.0.0
@@ -23,4 +23,4 @@ X Shared memory fences using futexes{{< spoiler text="show files" >}}* /usr/incl
 * /usr/share/doc/libxshmfence-1.3.2/ChangeLog
 * /usr/share/doc/libxshmfence-1.3.2/COPYING
 * /usr/share/doc/libxshmfence-1.3.2/README.md
-{{< /spoiler >}}
+{{< /files >}}

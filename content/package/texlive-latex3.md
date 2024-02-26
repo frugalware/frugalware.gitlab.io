@@ -13,7 +13,7 @@ usize = "6252941"
 sha1sum = "504c21390dcc407f72a3e23683afb5121b580009"
 depends = "['texlive=2023.0']"
 +++
-LaTeX3 packages for TeX Live{{< spoiler text="show files" >}}* /usr/share/texmf-dist/source/latex/l3experimental/l3benchmark/l3benchmark.dtx
+LaTeX3 packages for TeX Live{{< files text="show files" >}}* /usr/share/texmf-dist/source/latex/l3experimental/l3benchmark/l3benchmark.dtx
 * /usr/share/texmf-dist/source/latex/l3experimental/l3benchmark/l3benchmark.ins
 * /usr/share/texmf-dist/source/latex/l3experimental/l3bitset/l3bitset.dtx
 * /usr/share/texmf-dist/source/latex/l3experimental/l3bitset/l3bitset.ins
@@ -153,4 +153,4 @@ LaTeX3 packages for TeX Live{{< spoiler text="show files" >}}* /usr/share/texmf-
 * /usr/share/texmf-dist/tex/latex/lt3graph/lt3graph-dry.sty
 * /usr/share/texmf-dist/tex/latex/lt3graph/lt3graph-packagedoc.cls
 * /usr/share/texmf-dist/tex/latex/lt3graph/lt3graph.sty
-{{< /spoiler >}}
+{{< /files >}}

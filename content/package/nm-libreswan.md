@@ -13,7 +13,7 @@ usize = "114781"
 sha1sum = "a29e374a7d2befd04eb2a09608fd79d7b6c638e7"
 depends = "['glib2', 'libsecret>=0.18.5', 'nm-connection-editor>=1.8.20']"
 +++
-network management framework (libreswan plugin){{< spoiler text="show files" >}}* /usr/lib/NetworkManager/libnm-vpn-plugin-libreswan-editor.so
+network management framework (libreswan plugin){{< files text="show files" >}}* /usr/lib/NetworkManager/libnm-vpn-plugin-libreswan-editor.so
 * /usr/lib/NetworkManager/VPN/nm-libreswan-service.name
 * /usr/share/doc/nm-libreswan-1.2.16/AUTHORS
 * /usr/share/doc/nm-libreswan-1.2.16/ChangeLog
@@ -23,4 +23,4 @@ network management framework (libreswan plugin){{< spoiler text="show files" >}}
 * /usr/share/doc/nm-libreswan-1.2.16/README
 * /usr/share/man/man5/nm-settings-libreswan.5.gz
 * /usr/share/metainfo/network-manager-libreswan.metainfo.xml
-{{< /spoiler >}}
+{{< /files >}}

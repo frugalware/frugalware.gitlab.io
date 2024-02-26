@@ -14,7 +14,7 @@ sha1sum = "4220fc89ed67d041222103a346bca2fc5a19b2ac"
 depends = "['gtk+4', 'libadwaita']"
 reverse_depends = "['sysprof']"
 +++
-Dock/panel library for GTK 4{{< spoiler text="show files" >}}* /usr/include/libpanel-1/libpanel.h
+Dock/panel library for GTK 4{{< files text="show files" >}}* /usr/include/libpanel-1/libpanel.h
 * /usr/include/libpanel-1/panel-action-group.h
 * /usr/include/libpanel-1/panel-action-muxer.h
 * /usr/include/libpanel-1/panel-application.h
@@ -634,4 +634,4 @@ Dock/panel library for GTK 4{{< spoiler text="show files" >}}* /usr/include/libp
 * /usr/share/locale/zh_CN/LC_MESSAGES/libpanel.mo
 * /usr/share/vala/vapi/libpanel-1.deps
 * /usr/share/vala/vapi/libpanel-1.vapi
-{{< /spoiler >}}
+{{< /files >}}

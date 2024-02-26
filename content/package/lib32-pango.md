@@ -14,7 +14,7 @@ sha1sum = "eac575992aa9d54f2209c47e4990ba52357027c6"
 depends = "['lib32-cairo>=1.17.2-2', 'lib32-fribidi>=1.0.5', 'lib32-harfbuzz>=2.5.0', 'lib32-libffi>=3.2.1-2', 'lib32-libpng>=1.6.25', 'lib32-libxft>=2.3.2-2', 'lib32-util-linux']"
 reverse_depends = "['lib32-gtk+2-libs']"
 +++
-A library for layout and rendering of text ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/pango-list
+A library for layout and rendering of text ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/pango-list
 * /usr/i686-frugalware-linux/bin/pango-segmentation
 * /usr/i686-frugalware-linux/bin/pango-view
 * /usr/i686-frugalware-linux/include/pango-1.0/pango/pango-attributes.h
@@ -73,4 +73,4 @@ A library for layout and rendering of text ( 32bit ){{< spoiler text="show files
 * /usr/lib32/pkgconfig/pangoft2.pc
 * /usr/lib32/pkgconfig/pangoot.pc
 * /usr/lib32/pkgconfig/pangoxft.pc
-{{< /spoiler >}}
+{{< /files >}}

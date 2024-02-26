@@ -13,7 +13,7 @@ usize = "4839436"
 sha1sum = "05a729e5850e1d924cce68aa078c253cccaf7c99"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Armenian support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/program/resource/hy/LC_MESSAGES/acc.mo
+Installs Armenian support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/hy/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/hy/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/hy/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/hy/LC_MESSAGES/chart.mo
@@ -50,4 +50,4 @@ Installs Armenian support in LibreOffice{{< spoiler text="show files" >}}* /usr/
 * /usr/lib/libreoffice/share/registry/Langpack-hy.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_hy.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_hy.xcd
-{{< /spoiler >}}
+{{< /files >}}

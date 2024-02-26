@@ -14,7 +14,7 @@ sha1sum = "8e9ab103ef7cd2474a24cce653a626356ffba0aa"
 depends = "['kio>=5.115.0', 'pcre2', 'qca']"
 reverse_depends = "['kget', 'ktorrent']"
 +++
-A BitTorrent library for KDE applications.{{< spoiler text="show files" >}}* /usr/include/KF5/libktorrent/bcodec/bdecoder.h
+A BitTorrent library for KDE applications.{{< files text="show files" >}}* /usr/include/KF5/libktorrent/bcodec/bdecoder.h
 * /usr/include/KF5/libktorrent/bcodec/bencoder.h
 * /usr/include/KF5/libktorrent/bcodec/bnode.h
 * /usr/include/KF5/libktorrent/bcodec/value.h
@@ -266,4 +266,4 @@ A BitTorrent library for KDE applications.{{< spoiler text="show files" >}}* /us
 * /usr/share/locale/uk/LC_MESSAGES/libktorrent5.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/libktorrent5.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libktorrent5.mo
-{{< /spoiler >}}
+{{< /files >}}

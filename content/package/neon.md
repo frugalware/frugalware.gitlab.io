@@ -14,7 +14,7 @@ sha1sum = "c67b6007e7253932c6dbe7ea935b697cefa9aee2"
 depends = "['expat>=2.1.0-5', 'libkrb5>=1.17-2', 'openssl>=3.1.0', 'zlib>=1.2.12']"
 reverse_depends = "['libmusicbrainz']"
 +++
-An HTTP and WebDAV client library, with a C interface.{{< spoiler text="show files" >}}* /usr/bin/neon-config
+An HTTP and WebDAV client library, with a C interface.{{< files text="show files" >}}* /usr/bin/neon-config
 * /usr/include/neon/ne_207.h
 * /usr/include/neon/ne_acl.h
 * /usr/include/neon/ne_acl3744.h
@@ -210,4 +210,4 @@ An HTTP and WebDAV client library, with a C interface.{{< spoiler text="show fil
 * /usr/share/man/man3/ne_vstrhash.3.gz
 * /usr/share/man/man3/ne_xml_create.3.gz
 * /usr/share/man/man3/ne_xml_destroy.3.gz
-{{< /spoiler >}}
+{{< /files >}}

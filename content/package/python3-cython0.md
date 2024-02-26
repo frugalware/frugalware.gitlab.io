@@ -13,7 +13,7 @@ usize = "13830092"
 sha1sum = "b68bc5179e19f8c145ac36e4160163f7aa92d346"
 depends = "['python3>=3.11']"
 +++
-C-Extensions for Python (legacy){{< spoiler text="show files" >}}* /usr/bin/cygdb
+C-Extensions for Python (legacy){{< files text="show files" >}}* /usr/bin/cygdb
 * /usr/bin/cython
 * /usr/bin/cythonize
 * /usr/lib/python3.12/site-packages/Cython-0.29.37.dist-info/COPYING.txt
@@ -563,4 +563,4 @@ C-Extensions for Python (legacy){{< spoiler text="show files" >}}* /usr/bin/cygd
 * /usr/share/doc/python3-cython0-0.29.37/COPYING.txt
 * /usr/share/doc/python3-cython0-0.29.37/INSTALL.txt
 * /usr/share/doc/python3-cython0-0.29.37/README.rst
-{{< /spoiler >}}
+{{< /files >}}

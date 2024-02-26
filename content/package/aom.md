@@ -14,7 +14,7 @@ sha1sum = "44742114381e35935a6924257f9e3461a5d4cb76"
 depends = "['libstdc++']"
 reverse_depends = "['ffmpeg', 'firefox', 'libavif', 'libheif', 'thunderbird']"
 +++
-Alliance for Open Media video codec{{< spoiler text="show files" >}}* /usr/bin/aomdec
+Alliance for Open Media video codec{{< files text="show files" >}}* /usr/bin/aomdec
 * /usr/bin/aomenc
 * /usr/include/aom/aom.h
 * /usr/include/aom/aomcx.h
@@ -34,4 +34,4 @@ Alliance for Open Media video codec{{< spoiler text="show files" >}}* /usr/bin/a
 * /usr/share/doc/aom-3.4.0/CHANGELOG
 * /usr/share/doc/aom-3.4.0/LICENSE
 * /usr/share/doc/aom-3.4.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "e6a6fdc770c657d9d7351c605e5fb6a1507df520"
 depends = "['dbus>=1.10.10-3', 'glib2>=2.50.0', 'harfbuzz>=1.3.3-4', 'icu4c>=74.1', 'libcups>=2.2.0-2', 'libevdev>=1.5.4-2', 'libglvnd', 'libinput>=1.4.0-2', 'libjpeg-turbo', 'libpng>=1.6.25', 'libproxy>=0.4.13-2', 'libsm>=1.2.2-3', 'libsystemd>=231-6', 'libxcb>=1.12-4', 'libxcursor>=1.1.14-3', 'libxi>=1.7.6-2', 'libxkbcommon>=0.6.1-2', 'libxrender>=0.9.9-5', 'mesa-libegl>=18.2.0-2', 'mesa-libglx>=18.2.0-2', 'mtdev>=1.1.5-4', 'openssl>=3.1.0', 'pcre>=8.39-3', 'sqlite3>=3.14.2-3', 'tslib', 'xcb-util-image>=0.4.0-3', 'xcb-util-wm>=0.4.1-3', 'zstd']"
 reverse_depends = "['accounts-qml-module', 'akonadi', 'appstream-qt', 'attica', 'breeze-gtk', 'castersoundboard', 'chromium-browser', 'cmst', 'database-browser-sqlite', 'doxywizard', 'falkon', 'firetools', 'freeciv-qt', 'futuresql', 'gnuplot', 'gpsd-qt', 'greetd-qtgreet', 'jreen', 'karchive', 'kasync', 'kcodecs', 'kcolorpicker', 'kconfig', 'kcoreaddons', 'kdecoration', 'kdeedu-data', 'kdevelop-pg-qt', 'kdnssd', 'kdsoap', 'kguiaddons', 'kholidays', 'kimageformats', 'kitemmodels', 'kitemviews', 'kjs', 'kplotting', 'kseexpr', 'kunitconversion', 'kwidgetsaddons', 'libaccounts-qt', 'libcamera-tools', 'libdbusmenu-qt5', 'libkdcraw', 'libkexiv2', 'liblastfm', 'libopenrazer', 'libqaccessibilityclient', 'libqgpgme', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'lyx', 'mediainfo-qt', 'mlt-qt', 'modemmanager-qt', 'mumble', 'murmur', 'networkmanager-qt', 'openrgb', 'opentrack', 'packagekit-qt5', 'pavucontrol-qt', 'phonon-qt5', 'pinentry-qt5', 'polkit-qt5-1', 'poppler-qt5', 'poxml', 'prison', 'pulseaudio-qt', 'pyqt5', 'qbs', 'qca', 'qgit', 'qhttpengine', 'qmdnsengine', 'qscintilla2-qt5', 'qt-virt-manager', 'qt5-base-mysql', 'qt5-base-platformtheme-gtk3', 'qt5-base-postgresql', 'qt5-declarative', 'qt5-gstreamer', 'qt5-imageformats', 'qt5-mqtt', 'qt5-networkauth', 'qt5-qdbus', 'qt5-script', 'qt5-speech', 'qt5-svg', 'qt5-x11extras', 'qt5-xmlpatterns', 'qtermwidget', 'qtkeychain', 'qtractor', 'quazip', 'qv4l2', 'radeon-profile', 'radeon-profile-daemon', 'sdlmame', 'sherlock265', 'signon', 'smplayer', 'solarus', 'sonnet', 'ssr', 'stellarsolver', 'syntax-highlighting', 'telegram-qt5', 'telepathy-qt5', 'texmaker', 'texstudio', 'texworks', 'threadweaver', 'transmission-qt', 'usbguard-applet-qt', 'virtualbox', 'vtk-qt5', 'wireshark-qt', 'youtube-dl-qt', 'yubikey-personalization-gui', 'zulucrypt']"
 +++
-The Qt5 GUI toolkit.{{< spoiler text="show files" >}}* /usr/bin/fixqt4headers.pl
+The Qt5 GUI toolkit.{{< files text="show files" >}}* /usr/bin/fixqt4headers.pl
 * /usr/bin/fixqt4headers.pl-qt5
 * /usr/bin/moc
 * /usr/bin/moc-qt5
@@ -3476,4 +3476,4 @@ The Qt5 GUI toolkit.{{< spoiler text="show files" >}}* /usr/bin/fixqt4headers.pl
 * /usr/share/qt5/mkspecs/winrt-x86-msvc2017/qplatformdefs.h
 * /usr/share/qt5/mkspecs/winrt-x86-msvc2019/qmake.conf
 * /usr/share/qt5/mkspecs/winrt-x86-msvc2019/qplatformdefs.h
-{{< /spoiler >}}
+{{< /files >}}

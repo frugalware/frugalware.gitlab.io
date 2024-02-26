@@ -13,5 +13,5 @@ usize = "67760"
 sha1sum = "cd55ed26a9695f099bccb13761806df4b3a13fbd"
 depends = "['gst1-plugins-base>=1.22.10', 'gstreamer1>=1.22.10', 'libffi>=3.2.1-2', 'libogg>=1.3.2-5', 'libtheora>=1.1.1-5']"
 +++
-GStreamer theora plugin (Base).{{< spoiler text="show files" >}}* /usr/lib/gstreamer-1.0/libgsttheora.so
-{{< /spoiler >}}
+GStreamer theora plugin (Base).{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgsttheora.so
+{{< /files >}}

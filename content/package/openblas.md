@@ -14,7 +14,7 @@ sha1sum = "281c2001e99e7cbdfc5ebef480d1774fa84c0d72"
 depends = "['libgfortran', 'libgomp']"
 reverse_depends = "['blender', 'digikam', 'gmic', 'julia', 'nomacs', 'opencv-python3', 'openimageio', 'performous']"
 +++
-An optimized BLAS library based on GotoBLAS2 1.13 BSD{{< spoiler text="show files" >}}* /usr/include/openblas/cblas.h
+An optimized BLAS library based on GotoBLAS2 1.13 BSD{{< files text="show files" >}}* /usr/include/openblas/cblas.h
 * /usr/include/openblas/f77blas.h
 * /usr/include/openblas/lapack.h
 * /usr/include/openblas/lapacke.h
@@ -48,4 +48,4 @@ An optimized BLAS library based on GotoBLAS2 1.13 BSD{{< spoiler text="show file
 * /usr/share/doc/openblas-0.3.26/GotoBLAS_04FAQ.txt
 * /usr/share/doc/openblas-0.3.26/LICENSE
 * /usr/share/doc/openblas-0.3.26/README.md
-{{< /spoiler >}}
+{{< /files >}}

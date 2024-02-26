@@ -13,7 +13,7 @@ usize = "548325"
 sha1sum = "2382cd105036c88f360545a5adaea937a0dc28b9"
 depends = "['libnl', 'ncurses>=6.0-3']"
 +++
-A tool that helps you find what software is using the most power.{{< spoiler text="show files" >}}* /usr/bin/powertop
+A tool that helps you find what software is using the most power.{{< files text="show files" >}}* /usr/bin/powertop
 * /usr/share/bash-completion/completions/powertop
 * /usr/share/doc/powertop-2.15/COPYING
 * /usr/share/doc/powertop-2.15/README.md
@@ -30,4 +30,4 @@ A tool that helps you find what software is using the most power.{{< spoiler tex
 * /usr/share/locale/nl_NL/LC_MESSAGES/powertop.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/powertop.mo
 * /usr/share/man/man8/powertop.8.gz
-{{< /spoiler >}}
+{{< /files >}}

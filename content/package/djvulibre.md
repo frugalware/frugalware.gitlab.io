@@ -14,7 +14,7 @@ sha1sum = "69cfe4c66ef8e254f047bda4e19bfd220766ecdd"
 depends = "['libjpeg-turbo', 'libstdc++>=9.1.0-3', 'libtiff>=4.0.6-2', 'xdg-utils']"
 reverse_depends = "['imagemagick', 'okular']"
 +++
-DjVu is a web-centric format for distributing documents and images.{{< spoiler text="show files" >}}* /usr/bin/any2djvu
+DjVu is a web-centric format for distributing documents and images.{{< files text="show files" >}}* /usr/bin/any2djvu
 * /usr/bin/bzz
 * /usr/bin/c44
 * /usr/bin/cjb2
@@ -100,4 +100,4 @@ DjVu is a web-centric format for distributing documents and images.{{< spoiler t
 * /usr/share/man/man1/djvutxt.1.gz
 * /usr/share/man/man1/djvuxml.1.gz
 * /usr/share/man/man1/djvuxmlparser.1.gz
-{{< /spoiler >}}
+{{< /files >}}

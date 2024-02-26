@@ -13,7 +13,7 @@ usize = "344844978"
 sha1sum = "4e01be6da33c9b5e7f4bc483f5e1bac090a55037"
 depends = "['7zip', 'libsecret', 'sqlcipher']"
 +++
-A feature-rich client for Matrix.org{{< spoiler text="show files" >}}* /usr/bin/element
+A feature-rich client for Matrix.org{{< files text="show files" >}}* /usr/bin/element
 * /usr/share/applications/element.desktop
 * /usr/share/doc/element-1.11.55/LICENSE
 * /usr/share/doc/element-1.11.55/README.md
@@ -733,4 +733,4 @@ A feature-rich client for Matrix.org{{< spoiler text="show files" >}}* /usr/bin/
 * /usr/share/icons/hicolor/64x64/apps/element.png
 * /usr/share/icons/hicolor/96x96/apps/element.png
 * /usr/share/icons/hicolor/scalable/apps/element.svg
-{{< /spoiler >}}
+{{< /files >}}

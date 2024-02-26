@@ -14,7 +14,7 @@ sha1sum = "6db2e5915620fc65a007db943209052fd66cf4ce"
 depends = "['alsa-lib', 'dbus>=1.10.10-4', 'fftw>=3.3.4-4', 'flac', 'libasyncns>=0.8-3', 'libogg', 'libsm', 'libsndfile>=1.0.26-2', 'libsystemd>=242-3', 'libtool>=2.4.6-4', 'libudev>=242-3', 'libvorbis', 'libx11>=1.6.3-4', 'libxtst', 'orc>=0.4.24-2', 'soxr', 'speexdsp>=1.2rc3-3', 'tdb>=1.3.10-2', 'webrtc-audio-processing']"
 reverse_depends = "['alsa-plugin-pulseaudio', 'chromium-browser', 'conky', 'efl', 'enlightenment', 'ffmpeg', 'ffmpeg4.4', 'firefox', 'fluidsynth', 'gst1-plugins-good-pulseaudio', 'gtk-vnc', 'guvcview', 'i3status', 'libao-pulse', 'libcanberra-pulseaudio', 'libmikmod', 'mencoder', 'mplayer', 'mpv', 'openjre', 'pavucontrol-qt', 'pcaudiolib', 'phonon-qt5', 'pipewire-pulse', 'pocketsphinx', 'pulse-autoconf', 'pulseaudio', 'pulseaudio-qt', 'qt5-multimedia', 'sdlmame', 'sox', 'speech-dispatcher', 'spice-glib', 'terminology', 'thunderbird', 'virtualbox', 'vlc-pulseaudio', 'wine', 'wine-devel']"
 +++
-pulseaduio client library{{< spoiler text="show files" >}}* /etc/pulse/client.conf
+pulseaduio client library{{< files text="show files" >}}* /etc/pulse/client.conf
 * /usr/include/pulse/cdecl.h
 * /usr/include/pulse/channelmap.h
 * /usr/include/pulse/context.h
@@ -156,4 +156,4 @@ pulseaduio client library{{< spoiler text="show files" >}}* /etc/pulse/client.co
 * /usr/share/man/man5/pulse-cli-syntax.5.gz
 * /usr/share/man/man5/pulse-client.conf.5.gz
 * /usr/share/man/man5/pulse-daemon.conf.5.gz
-{{< /spoiler >}}
+{{< /files >}}

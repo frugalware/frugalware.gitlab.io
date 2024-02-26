@@ -14,7 +14,7 @@ sha1sum = "17ed6325be8f6243baa0444bbe7ac9a7640d6973"
 depends = "['glibc']"
 reverse_depends = "['qt5-base', 'qt6-base']"
 +++
-Touchscreen Access Library{{< spoiler text="show files" >}}* /etc/ts.conf
+Touchscreen Access Library{{< files text="show files" >}}* /etc/ts.conf
 * /usr/bin/ts_calibrate
 * /usr/bin/ts_conf
 * /usr/bin/ts_finddev
@@ -83,4 +83,4 @@ Touchscreen Access Library{{< spoiler text="show files" >}}* /etc/ts.conf
 * /usr/share/man/man3/ts_read_raw_mt.3.gz
 * /usr/share/man/man3/ts_setup.3.gz
 * /usr/share/man/man5/ts.conf.5.gz
-{{< /spoiler >}}
+{{< /files >}}

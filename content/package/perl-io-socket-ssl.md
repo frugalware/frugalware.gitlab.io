@@ -14,7 +14,7 @@ sha1sum = "aec27da9f02c40253dacfaa5c458510da36eb312"
 depends = "['perl>=5.34.0', 'perl-net-ssleay>=1.85-3', 'perl-uri>=1.76-2']"
 reverse_depends = "['spamassassin', 'spamassassin']"
 +++
-Perl extension Nearly transparent SSL encapsulation for IO::Socket::INET{{< spoiler text="show files" >}}* /usr/lib/perl5/site_perl/IO/Socket/SSL.pm
+Perl extension Nearly transparent SSL encapsulation for IO::Socket::INET{{< files text="show files" >}}* /usr/lib/perl5/site_perl/IO/Socket/SSL.pm
 * /usr/lib/perl5/site_perl/IO/Socket/SSL.pod
 * /usr/lib/perl5/site_perl/IO/Socket/SSL/Intercept.pm
 * /usr/lib/perl5/site_perl/IO/Socket/SSL/PublicSuffix.pm
@@ -27,4 +27,4 @@ Perl extension Nearly transparent SSL encapsulation for IO::Socket::INET{{< spoi
 * /usr/share/man/man3/IO::Socket::SSL::Intercept.3perl.gz
 * /usr/share/man/man3/IO::Socket::SSL::PublicSuffix.3perl.gz
 * /usr/share/man/man3/IO::Socket::SSL::Utils.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

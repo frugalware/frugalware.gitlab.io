@@ -14,7 +14,7 @@ sha1sum = "062f73b1e5f23efd62772b9ac1712c36366f40d8"
 depends = "['cairomm>=1.12.2', 'glibmm>=2.68.1', 'pango>=1.42.4-2']"
 reverse_depends = "['gtkmm']"
 +++
-Pangomm is a C++ wrapper for the pango library.{{< spoiler text="show files" >}}* /usr/include/cairomm-1.16/cairomm/cairomm.h
+Pangomm is a C++ wrapper for the pango library.{{< files text="show files" >}}* /usr/include/cairomm-1.16/cairomm/cairomm.h
 * /usr/include/cairomm-1.16/cairomm/context.h
 * /usr/include/cairomm-1.16/cairomm/device.h
 * /usr/include/cairomm-1.16/cairomm/enums.h
@@ -740,4 +740,4 @@ Pangomm is a C++ wrapper for the pango library.{{< spoiler text="show files" >}}
 * /usr/share/doc/pangomm-2.50.1/README.md
 * /usr/share/doc/pangomm-2.50.1/README.SUN
 * /usr/share/doc/pangomm-2.50.1/README.win32
-{{< /spoiler >}}
+{{< /files >}}

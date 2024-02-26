@@ -14,7 +14,7 @@ sha1sum = "9d1ba94d3fbf3afa7aae13e3867f2ee2eebc6219"
 depends = "['mbedtls']"
 reverse_depends = "['ffmpeg']"
 +++
-A library that can be used to add the RIST protocol to applications{{< spoiler text="show files" >}}* /usr/bin/rist2rist
+A library that can be used to add the RIST protocol to applications{{< files text="show files" >}}* /usr/bin/rist2rist
 * /usr/bin/ristreceiver
 * /usr/bin/ristsender
 * /usr/bin/ristsrppasswd
@@ -40,4 +40,4 @@ A library that can be used to add the RIST protocol to applications{{< spoiler t
 * /usr/share/doc/librist-0.2.10/COPYING
 * /usr/share/doc/librist-0.2.10/NEWS
 * /usr/share/doc/librist-0.2.10/README.md
-{{< /spoiler >}}
+{{< /files >}}

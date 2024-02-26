@@ -14,5 +14,5 @@ sha1sum = "bdbf15248da6f38e865a2f815f31288692656bef"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
-Panjabi language support for Thunderbird{{< spoiler text="show files" >}}* /usr/lib/thunderbird/extensions/langpack-pa-IN@thunderbird.mozilla.org.xpi
-{{< /spoiler >}}
+Panjabi language support for Thunderbird{{< files text="show files" >}}* /usr/lib/thunderbird/extensions/langpack-pa-IN@thunderbird.mozilla.org.xpi
+{{< /files >}}

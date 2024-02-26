@@ -13,7 +13,7 @@ usize = "11201077"
 sha1sum = "22f5922fe4900815ae5032d809f35ba64125ff7b"
 depends = "[]"
 +++
-EL Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale/el/charset
+EL Localization for KDE.{{< files text="show files" >}}* usr/share/locale/el/charset
 * usr/share/locale/el/entry.desktop
 * usr/share/locale/el/flag.png
 * usr/share/locale/el/LC_MESSAGES/akregator.mo
@@ -572,4 +572,4 @@ EL Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale/el/c
 * usr/share/locale/el/LC_MESSAGES/wakeup.mo
 * usr/share/locale/el/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/el/LC_MESSAGES/webarchiver.mo
-{{< /spoiler >}}
+{{< /files >}}

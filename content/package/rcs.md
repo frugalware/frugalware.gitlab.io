@@ -13,7 +13,7 @@ usize = "516412"
 sha1sum = "f7eeb08903a34ad3fedfd4823f30337342ac2e24"
 depends = "['diffutils']"
 +++
-Revision Control System{{< spoiler text="show files" >}}* /usr/bin/ci
+Revision Control System{{< files text="show files" >}}* /usr/bin/ci
 * /usr/bin/co
 * /usr/bin/ident
 * /usr/bin/merge
@@ -40,4 +40,4 @@ Revision Control System{{< spoiler text="show files" >}}* /usr/bin/ci
 * /usr/share/man/man1/rcsmerge.1.gz
 * /usr/share/man/man1/rlog.1.gz
 * /usr/share/man/man5/rcsfile.5.gz
-{{< /spoiler >}}
+{{< /files >}}

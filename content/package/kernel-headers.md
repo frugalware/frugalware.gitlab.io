@@ -13,7 +13,7 @@ usize = "5658811"
 sha1sum = "8bf3593c89e24cff20c93e54d49b18d58fe9e282"
 depends = "[]"
 +++
-Linux kernel include files{{< spoiler text="show files" >}}* /usr/include/asm-generic/auxvec.h
+Linux kernel include files{{< files text="show files" >}}* /usr/include/asm-generic/auxvec.h
 * /usr/include/asm-generic/bitsperlong.h
 * /usr/include/asm-generic/bpf_perf_event.h
 * /usr/include/asm-generic/errno-base.h
@@ -960,4 +960,4 @@ Linux kernel include files{{< spoiler text="show files" >}}* /usr/include/asm-ge
 * /usr/include/xen/gntalloc.h
 * /usr/include/xen/gntdev.h
 * /usr/include/xen/privcmd.h
-{{< /spoiler >}}
+{{< /files >}}

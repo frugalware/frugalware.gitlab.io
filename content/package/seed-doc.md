@@ -13,7 +13,7 @@ usize = "1651499"
 sha1sum = "5a05a8d41153934b383a6102e5ddf084471a7dd7"
 depends = "[]"
 +++
-seed documention{{< spoiler text="show files" >}}* /usr/share/doc/seed-3.8.1/AUTHORS
+seed documention{{< files text="show files" >}}* /usr/share/doc/seed-3.8.1/AUTHORS
 * /usr/share/doc/seed-3.8.1/ChangeLog
 * /usr/share/doc/seed-3.8.1/conventions.html
 * /usr/share/doc/seed-3.8.1/COPYING
@@ -78,4 +78,4 @@ seed documention{{< spoiler text="show files" >}}* /usr/share/doc/seed-3.8.1/AUT
 * /usr/share/gtk-doc/html/seed/types.html
 * /usr/share/gtk-doc/html/seed/up.png
 * /usr/share/man/man1/seed.1.gz
-{{< /spoiler >}}
+{{< /files >}}

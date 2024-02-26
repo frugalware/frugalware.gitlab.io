@@ -14,7 +14,7 @@ sha1sum = "43c79bffe80b67d0e726a6e7c79bb2b24625331b"
 depends = "['libxml2>=2.9.3-3', 'pango>=1.38.1', 'python3']"
 reverse_depends = "['munin']"
 +++
-a program to generate fancy graphs from network usage or from any thing is able to meter{{< spoiler text="show files" >}}* /usr/bin/rrdcached
+a program to generate fancy graphs from network usage or from any thing is able to meter{{< files text="show files" >}}* /usr/bin/rrdcached
 * /usr/bin/rrdcgi
 * /usr/bin/rrdcreate
 * /usr/bin/rrdinfo
@@ -196,4 +196,4 @@ a program to generate fancy graphs from network usage or from any thing is able 
 * /usr/share/rrdtool/examples/shared-demo.pl
 * /usr/share/rrdtool/examples/stripes.pl
 * /usr/share/rrdtool/examples/stripes.py
-{{< /spoiler >}}
+{{< /files >}}

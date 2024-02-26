@@ -13,6 +13,6 @@ usize = "34688"
 sha1sum = "b0c76783f786747ca98ed9d111dcd910b02b2c1b"
 depends = "['claws-mail=4.1.1', 'gpgme>=1.6.0-3']"
 +++
-This plugin handles S/MIME signed and/or encrypted mails.{{< spoiler text="show files" >}}* /usr/lib/claws-mail/plugins/smime.deps
+This plugin handles S/MIME signed and/or encrypted mails.{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/smime.deps
 * /usr/lib/claws-mail/plugins/smime.so
-{{< /spoiler >}}
+{{< /files >}}

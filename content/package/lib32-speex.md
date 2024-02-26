@@ -14,7 +14,7 @@ sha1sum = "cd4b1f4f44d7b6da20fbef86fe09cb94840f654b"
 depends = "['lib32-libogg>=1.3.2-8', 'lib32-speexdsp>=1.2rc3-6']"
 reverse_depends = "['lib32-ffmpeg']"
 +++
-Speex is an audio codec tuned for speech ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/speexdec
+Speex is an audio codec tuned for speech ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/speexdec
 * /usr/i686-frugalware-linux/bin/speexenc
 * /usr/i686-frugalware-linux/include/speex/speex.h
 * /usr/i686-frugalware-linux/include/speex/speex_bits.h
@@ -27,4 +27,4 @@ Speex is an audio codec tuned for speech ( 32bit ){{< spoiler text="show files" 
 * /usr/lib32/libspeex.so.1
 * /usr/lib32/libspeex.so.1.5.2
 * /usr/lib32/pkgconfig/speex.pc
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "1960123"
 sha1sum = "c5d149566b23cf99fa3eb1109c0b48297db5c9e2"
 depends = "[]"
 +++
-Northern Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale/se/ChangeLog
+Northern Localization for KDE.{{< files text="show files" >}}* usr/share/locale/se/ChangeLog
 * usr/share/locale/se/charset
 * usr/share/locale/se/entry.desktop
 * usr/share/locale/se/flag.png
@@ -308,4 +308,4 @@ Northern Localization for KDE.{{< spoiler text="show files" >}}* usr/share/local
 * usr/share/locale/se/LC_MESSAGES/timezones.mo
 * usr/share/locale/se/LC_MESSAGES/trashapplet.mo
 * usr/share/locale/se/LC_MESSAGES/useraccount.mo
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,8 +13,8 @@ usize = "33806"
 sha1sum = "30530df7b215e936a75155f2ad0dc513dd3b764f"
 depends = "['glibc>=2.34']"
 +++
-allows you to look at and change various attributes of a serial device{{< spoiler text="show files" >}}* /etc/serial.conf
+allows you to look at and change various attributes of a serial device{{< files text="show files" >}}* /etc/serial.conf
 * /usr/bin/setserial
 * /usr/share/doc/setserial-2.17/README
 * /usr/share/man/man8/setserial.8.gz
-{{< /spoiler >}}
+{{< /files >}}

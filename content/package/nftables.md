@@ -14,7 +14,7 @@ sha1sum = "267a8cfab08e66203654fb4766f74867f6c5095a"
 depends = "['glibc>=2.34', 'gmp', 'libedit', 'libmnl', 'libnftnl>=1.2.1', 'ncurses', 'python3', 'readline>=8.0']"
 reverse_depends = "['criu']"
 +++
-Replacement for the popular {ip,ip6,arp,eb} tables.{{< spoiler text="show files" >}}* /etc/nftables.conf
+Replacement for the popular {ip,ip6,arp,eb} tables.{{< files text="show files" >}}* /etc/nftables.conf
 * /usr/bin/nft
 * /usr/include/nftables/libnftables.h
 * /usr/lib/libnftables.so
@@ -46,4 +46,4 @@ Replacement for the popular {ip,ip6,arp,eb} tables.{{< spoiler text="show files"
 * /usr/share/nftables/ipv6-raw.nft
 * /usr/share/nftables/netdev-ingress.nft
 * /usr/share/nftables/osf/pf.os
-{{< /spoiler >}}
+{{< /files >}}

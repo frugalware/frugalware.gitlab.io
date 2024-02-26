@@ -13,7 +13,7 @@ usize = "667159"
 sha1sum = "be455cf7391545e1934ce600a7dd4f1ff93228c2"
 depends = "['poppler', 'qt6-base>=6.6.2']"
 +++
-Poppler QT6 bindings{{< spoiler text="show files" >}}* /usr/include/poppler/qt6/poppler-annotation.h
+Poppler QT6 bindings{{< files text="show files" >}}* /usr/include/poppler/qt6/poppler-annotation.h
 * /usr/include/poppler/qt6/poppler-export.h
 * /usr/include/poppler/qt6/poppler-form.h
 * /usr/include/poppler/qt6/poppler-link.h
@@ -26,4 +26,4 @@ Poppler QT6 bindings{{< spoiler text="show files" >}}* /usr/include/poppler/qt6/
 * /usr/lib/libpoppler-qt6.so.3
 * /usr/lib/libpoppler-qt6.so.3.4.0
 * /usr/lib/pkgconfig/poppler-qt6.pc
-{{< /spoiler >}}
+{{< /files >}}

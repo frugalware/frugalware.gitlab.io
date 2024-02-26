@@ -13,7 +13,7 @@ usize = "3534111"
 sha1sum = "fe02c5fdd324065feb1b2b59dee228685f2036d9"
 depends = "['glibc>=2.3.4']"
 +++
-NASM is the Netwide Assembler{{< spoiler text="show files" >}}* /usr/bin/nasm
+NASM is the Netwide Assembler{{< files text="show files" >}}* /usr/bin/nasm
 * /usr/bin/ndisasm
 * /usr/share/doc/nasm-2.16.01/AUTHORS
 * /usr/share/doc/nasm-2.16.01/ChangeLog
@@ -23,4 +23,4 @@ NASM is the Netwide Assembler{{< spoiler text="show files" >}}* /usr/bin/nasm
 * /usr/share/doc/nasm-2.16.01/README.md
 * /usr/share/man/man1/nasm.1.gz
 * /usr/share/man/man1/ndisasm.1.gz
-{{< /spoiler >}}
+{{< /files >}}

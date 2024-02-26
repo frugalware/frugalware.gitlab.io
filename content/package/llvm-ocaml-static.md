@@ -13,7 +13,7 @@ usize = "1336686"
 sha1sum = "c7ad0604c0c004db526eb997d9fa693247b77e05"
 depends = "[]"
 +++
-OCaml bindings for LLVM (static){{< spoiler text="show files" >}}* /usr/lib/ocaml/llvm/libllvm.a
+OCaml bindings for LLVM (static){{< files text="show files" >}}* /usr/lib/ocaml/llvm/libllvm.a
 * /usr/lib/ocaml/llvm/libllvm_AArch64.a
 * /usr/lib/ocaml/llvm/libllvm_all_backends.a
 * /usr/lib/ocaml/llvm/libllvm_AMDGPU.a
@@ -73,4 +73,4 @@ OCaml bindings for LLVM (static){{< spoiler text="show files" >}}* /usr/lib/ocam
 * /usr/lib/ocaml/llvm/llvm_WebAssembly.a
 * /usr/lib/ocaml/llvm/llvm_X86.a
 * /usr/lib/ocaml/llvm/llvm_XCore.a
-{{< /spoiler >}}
+{{< /files >}}

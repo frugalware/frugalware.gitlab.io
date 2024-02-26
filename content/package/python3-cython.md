@@ -13,7 +13,7 @@ usize = "14637207"
 sha1sum = "6aa6d571c23cd8dcf5a734be31fd469cfe676463"
 depends = "['python3>=3.12']"
 +++
-C-Extensions for Python{{< spoiler text="show files" >}}* /usr/bin/cygdb
+C-Extensions for Python{{< files text="show files" >}}* /usr/bin/cygdb
 * /usr/bin/cython
 * /usr/bin/cythonize
 * /usr/lib/python3.12/site-packages/Cython-3.0.8-py3.12.egg-info/dependency_links.txt
@@ -461,4 +461,4 @@ C-Extensions for Python{{< spoiler text="show files" >}}* /usr/bin/cygdb
 * /usr/share/doc/python3-cython-3.0.8/COPYING.txt
 * /usr/share/doc/python3-cython-3.0.8/INSTALL.txt
 * /usr/share/doc/python3-cython-3.0.8/README.rst
-{{< /spoiler >}}
+{{< /files >}}

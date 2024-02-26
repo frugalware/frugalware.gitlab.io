@@ -14,7 +14,7 @@ sha1sum = "cdb7f80709257e3b6821ca6a923199dd524b0109"
 depends = "['libjpeg-turbo', 'libpng>=1.6.25', 'libtiff>=4.0.6-2', 'openexr>=3.2.0']"
 reverse_depends = "['enblend-enfuse']"
 +++
-The VIGRA Computer Vision Library{{< spoiler text="show files" >}}* /usr/bin/vigra-config
+The VIGRA Computer Vision Library{{< files text="show files" >}}* /usr/bin/vigra-config
 * /usr/include/vigra/accessor.hxx
 * /usr/include/vigra/accumulator-grammar.hxx
 * /usr/include/vigra/accumulator.hxx
@@ -3522,4 +3522,4 @@ The VIGRA Computer Vision Library{{< spoiler text="show files" >}}* /usr/bin/vig
 * /usr/share/doc/vigra-1.11.1/vigranumpy/_static/up.png
 * /usr/share/doc/vigra-1.11.1/vigranumpy/_static/vigra-icon.ico
 * /usr/share/doc/vigra-1.11.1/vigranumpy/_static/websupport.js
-{{< /spoiler >}}
+{{< /files >}}

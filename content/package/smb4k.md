@@ -13,7 +13,7 @@ usize = "11856456"
 sha1sum = "a340c61fa3bd16862c078224f2c05a6004b4453e"
 depends = "['kauth>=5.112.0', 'kcompletion>=5.112.0', 'kconfig>=5.112.0', 'kdelibs4support>=5.112.0', 'kdnssd>=5.112.0', 'kiconthemes>=5.112.0', 'libsmbclient', 'plasma-framework>=5.112.0', 'samba-client', 'solid>=5.112.0']"
 +++
-Smb4K is a SMB/CIFS share browser for KDE.{{< spoiler text="show files" >}}* /usr/bin/smb4k
+Smb4K is a SMB/CIFS share browser for KDE.{{< files text="show files" >}}* /usr/bin/smb4k
 * /usr/lib/kf5/kauth/mounthelper
 * /usr/lib/libsmb4kcore.so
 * /usr/lib/qt5/plugins/smb4kconfigdialog.so
@@ -268,4 +268,4 @@ Smb4K is a SMB/CIFS share browser for KDE.{{< spoiler text="show files" >}}* /us
 * /usr/share/polkit-1/actions/org.kde.smb4k.mounthelper.policy
 * /usr/share/qt5/qml/org/kde/smb4k/smb4kqmlplugin/libsmb4kqmlplugin.so
 * /usr/share/qt5/qml/org/kde/smb4k/smb4kqmlplugin/qmldir
-{{< /spoiler >}}
+{{< /files >}}

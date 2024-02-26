@@ -14,7 +14,7 @@ sha1sum = "2f59bbeec2c29eceff113827066adba433c0d51d"
 depends = "['glibc>=2.25']"
 reverse_depends = "['firetools']"
 +++
-Linux namespaces sandbox program{{< spoiler text="show files" >}}* /etc/firejail/0ad.profile
+Linux namespaces sandbox program{{< files text="show files" >}}* /etc/firejail/0ad.profile
 * /etc/firejail/1password.profile
 * /etc/firejail/2048-qt.profile
 * /etc/firejail/7z.profile
@@ -1322,4 +1322,4 @@ Linux namespaces sandbox program{{< spoiler text="show files" >}}* /etc/firejail
 * /usr/share/vim/vimfiles/ftdetect/firejail.vim
 * /usr/share/vim/vimfiles/syntax/firejail.vim
 * /usr/share/zsh/site-functions/_firejail
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "2343f28ee257b6021f763c6dafe767dad448610f"
 depends = "['libgcc>=6.2.1-5', 'libice>=1.0.9-3', 'libuuid>=2.29.2-2', 'libxext>=1.3.3-3', 'libxrender>=0.9.9-5', 'polkit>=0.113-9', 'qt5-base>=5.15.10']"
 reverse_depends = "['calamares-frugalware', 'kauth']"
 +++
-A library that allows developers to access Polikit API with a nice Qt-style API{{< spoiler text="show files" >}}* /usr/include/polkit-qt5-1/polkitqt1-actiondescription.h
+A library that allows developers to access Polikit API with a nice Qt-style API{{< files text="show files" >}}* /usr/include/polkit-qt5-1/polkitqt1-actiondescription.h
 * /usr/include/polkit-qt5-1/polkitqt1-agent-export.h
 * /usr/include/polkit-qt5-1/polkitqt1-agent-listener.h
 * /usr/include/polkit-qt5-1/polkitqt1-agent-session.h
@@ -62,4 +62,4 @@ A library that allows developers to access Polikit API with a nice Qt-style API{
 * /usr/share/doc/polkit-qt5-1-0.200.0/README
 * /usr/share/doc/polkit-qt5-1-0.200.0/README.porting
 * /usr/share/doc/polkit-qt5-1-0.200.0/TODO
-{{< /spoiler >}}
+{{< /files >}}

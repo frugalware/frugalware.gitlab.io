@@ -14,11 +14,11 @@ sha1sum = "a9c5db62f90e68669ed226d4d7a658024ffac33b"
 depends = "['libxfont>=1.5.4-2']"
 license = "GPL2"
 +++
-X.Org bdftopcf application{{< spoiler text="show files" >}}* /usr/bin/bdftopcf
+X.Org bdftopcf application{{< files text="show files" >}}* /usr/bin/bdftopcf
 * /usr/share/doc/bdftopcf-1.1/AUTHORS
 * /usr/share/doc/bdftopcf-1.1/ChangeLog
 * /usr/share/doc/bdftopcf-1.1/COPYING
 * /usr/share/doc/bdftopcf-1.1/INSTALL
 * /usr/share/doc/bdftopcf-1.1/README
 * /usr/share/man/man1/bdftopcf.1.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "c3364b7f7d59b27721d9bfab8249ee524c12e5ec"
 depends = "['curl', 'icu4c>=74.1', 'lapack>=3.6.0-2', 'libjpeg-turbo', 'libtiff>=4.0.6', 'libxt>=1.1.5-2', 'pango>=1.38.1-2', 'readline>=8.0', 'tk>=8.6.4']"
 reverse_depends = "['cantor', 'rkward']"
 +++
-R is a language and environment for statistical computing and graphics.{{< spoiler text="show files" >}}* /etc/ld.so.conf.d/r.conf
+R is a language and environment for statistical computing and graphics.{{< files text="show files" >}}* /etc/ld.so.conf.d/r.conf
 * /usr/bin/R
 * /usr/bin/Rscript
 * /usr/lib/pkgconfig/libR.pc
@@ -1708,4 +1708,4 @@ R is a language and environment for statistical computing and graphics.{{< spoil
 * /usr/share/doc/r-4.3.2/VERSION
 * /usr/share/man/man1/R.1.gz
 * /usr/share/man/man1/Rscript.1.gz
-{{< /spoiler >}}
+{{< /files >}}

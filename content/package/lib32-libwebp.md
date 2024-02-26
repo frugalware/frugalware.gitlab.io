@@ -14,7 +14,7 @@ sha1sum = "c266b50010c80c8cc149e152afb3b853742eb275"
 depends = "['lib32-libgif', 'lib32-libjpeg-turbo', 'lib32-libpng>=1.6.25', 'lib32-libtiff>=4.0.10-2']"
 reverse_depends = "['lib32-sdl2_image']"
 +++
-A library for a new image format comparable to JPEG. ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/cwebp
+A library for a new image format comparable to JPEG. ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/cwebp
 * /usr/i686-frugalware-linux/bin/dwebp
 * /usr/i686-frugalware-linux/bin/gif2webp
 * /usr/i686-frugalware-linux/bin/img2webp
@@ -48,4 +48,4 @@ A library for a new image format comparable to JPEG. ( 32bit ){{< spoiler text="
 * /usr/lib32/pkgconfig/libwebpdecoder.pc
 * /usr/lib32/pkgconfig/libwebpdemux.pc
 * /usr/lib32/pkgconfig/libwebpmux.pc
-{{< /spoiler >}}
+{{< /files >}}

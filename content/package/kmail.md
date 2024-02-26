@@ -13,7 +13,7 @@ usize = "23503975"
 sha1sum = "b4ea31b141568bdef8d3150d039454efaeacce26"
 depends = "['akonadi-import-wizard>=23.08.5', 'kcalutils>=23.08.5', 'kdepim-runtime>=23.08.5', 'kmail-account-wizard>=23.08.5', 'knotifyconfig>=5.115.0', 'kontactinterface>=23.08.5', 'ktnef>=23.08.5', 'libksieve>=23.08.5', 'mailcommon>=23.08.5', 'mbox-importer>=']"
 +++
-Email client, supporting POP3 and IMAP mailboxes{{< spoiler text="show files" >}}* /usr/bin/akonadi_archivemail_agent
+Email client, supporting POP3 and IMAP mailboxes{{< files text="show files" >}}* /usr/bin/akonadi_archivemail_agent
 * /usr/bin/akonadi_followupreminder_agent
 * /usr/bin/akonadi_mailfilter_agent
 * /usr/bin/akonadi_mailmerge_agent
@@ -870,4 +870,4 @@ Email client, supporting POP3 and IMAP mailboxes{{< spoiler text="show files" >}
 * /usr/share/metainfo/org.kde.kmail2.appdata.xml
 * /usr/share/qlogging-categories5/kmail.categories
 * /usr/share/qlogging-categories5/kmail.renamecategories
-{{< /spoiler >}}
+{{< /files >}}

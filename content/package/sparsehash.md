@@ -13,7 +13,7 @@ usize = "642574"
 sha1sum = "7c73d4fd21c80650b8d80117bfde6cb5b05324dc"
 depends = "[]"
 +++
-An extremely memory-efficient hash_map implementation.{{< spoiler text="show files" >}}* /usr/include/google/dense_hash_map
+An extremely memory-efficient hash_map implementation.{{< files text="show files" >}}* /usr/include/google/dense_hash_map
 * /usr/include/google/dense_hash_set
 * /usr/include/google/sparsehash/densehashtable.h
 * /usr/include/google/sparsehash/hashtable-common.h
@@ -62,4 +62,4 @@ An extremely memory-efficient hash_map implementation.{{< spoiler text="show fil
 * /usr/share/doc/sparsehash-2.0.4/README
 * /usr/share/doc/sparsehash-2.0.4/README_windows.txt
 * /usr/share/doc/sparsehash-2.0.4/TODO
-{{< /spoiler >}}
+{{< /files >}}

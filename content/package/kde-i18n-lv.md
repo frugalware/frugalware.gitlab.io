@@ -13,7 +13,7 @@ usize = "1225585"
 sha1sum = "b035c5653f6ad8f317d432265cdf4f7e31a8eca7"
 depends = "[]"
 +++
-Latvian Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale/lv/charset
+Latvian Localization for KDE.{{< files text="show files" >}}* usr/share/locale/lv/charset
 * usr/share/locale/lv/entry.desktop
 * usr/share/locale/lv/flag.png
 * usr/share/locale/lv/LC_MESSAGES/appletproxy.mo
@@ -300,4 +300,4 @@ Latvian Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale
 * usr/share/locale/lv/LC_MESSAGES/uachangerplugin.mo
 * usr/share/locale/lv/LC_MESSAGES/validatorsplugin.mo
 * usr/share/locale/lv/LC_MESSAGES/webarchiver.mo
-{{< /spoiler >}}
+{{< /files >}}

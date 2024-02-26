@@ -14,7 +14,7 @@ sha1sum = "c9e377558f5baf927206050e9f802884adb3f308"
 depends = "['glibc>=2.34']"
 reverse_depends = "['libfido2']"
 +++
-C library for parsing and generating CBOR, the general-purpose schema-less binary data format{{< spoiler text="show files" >}}* /usr/include/cbor.h
+C library for parsing and generating CBOR, the general-purpose schema-less binary data format{{< files text="show files" >}}* /usr/include/cbor.h
 * /usr/include/cbor/arrays.h
 * /usr/include/cbor/bytestrings.h
 * /usr/include/cbor/callbacks.h
@@ -43,4 +43,4 @@ C library for parsing and generating CBOR, the general-purpose schema-less binar
 * /usr/lib/libcbor.so.0.11.0
 * /usr/lib/pkgconfig/libcbor.pc
 * /usr/share/doc/libcbor-0.11.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

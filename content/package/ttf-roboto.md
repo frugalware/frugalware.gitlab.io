@@ -13,7 +13,7 @@ usize = "2226593"
 sha1sum = "dc741944c7e6985750245cc3196e52ea80c50136"
 depends = "['fontconfig', 'mkfontscale']"
 +++
-The new version font of Android 4, Codename 'Ice Cream Sandwich'.{{< spoiler text="show files" >}}* /usr/share/fonts/X11/TTF/Roboto-Black.ttf
+The new version font of Android 4, Codename 'Ice Cream Sandwich'.{{< files text="show files" >}}* /usr/share/fonts/X11/TTF/Roboto-Black.ttf
 * /usr/share/fonts/X11/TTF/Roboto-BlackItalic.ttf
 * /usr/share/fonts/X11/TTF/Roboto-Bold.ttf
 * /usr/share/fonts/X11/TTF/Roboto-BoldItalic.ttf
@@ -30,4 +30,4 @@ The new version font of Android 4, Codename 'Ice Cream Sandwich'.{{< spoiler tex
 * /usr/share/fonts/X11/TTF/RobotoCondensed-Light.ttf
 * /usr/share/fonts/X11/TTF/RobotoCondensed-LightItalic.ttf
 * /usr/share/fonts/X11/TTF/RobotoCondensed-Regular.ttf
-{{< /spoiler >}}
+{{< /files >}}

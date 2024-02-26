@@ -14,5 +14,5 @@ sha1sum = "b85d5eae83958481280c6d0a2c117ae11ec06efd"
 depends = "[]"
 reverse_depends = "['libreoffice-scripting-beanshell']"
 +++
-Lightweight Scripting for Java{{< spoiler text="show files" >}}* /usr/share/java/bsh.jar
-{{< /spoiler >}}
+Lightweight Scripting for Java{{< files text="show files" >}}* /usr/share/java/bsh.jar
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "15f833d8dbddc0b5540a50732c42aa0b6bf872fd"
 depends = "['libxaw>=1.0.13-3', 'xbitmaps>=1.1.1-3']"
 license = "GPL2"
 +++
-X.Org bitmap application{{< spoiler text="show files" >}}* /usr/bin/atobm
+X.Org bitmap application{{< files text="show files" >}}* /usr/bin/atobm
 * /usr/bin/bitmap
 * /usr/bin/bmtoa
 * /usr/include/X11/bitmaps/Dashes
@@ -41,4 +41,4 @@ X.Org bitmap application{{< spoiler text="show files" >}}* /usr/bin/atobm
 * /usr/share/X11/app-defaults/Bitmap
 * /usr/share/X11/app-defaults/Bitmap-color
 * /usr/share/X11/app-defaults/Bitmap-nocase
-{{< /spoiler >}}
+{{< /files >}}

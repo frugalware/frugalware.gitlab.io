@@ -13,7 +13,7 @@ usize = "6104044"
 sha1sum = "18e9239fbbaaf43aa076cc19ed9eb13aaaab3296"
 depends = "['kio>=5.115.0', 'pcre2', 'taglib>=2.0']"
 +++
-JuK is an audio jukebox application.{{< spoiler text="show files" >}}* /usr/bin/juk
+JuK is an audio jukebox application.{{< files text="show files" >}}* /usr/bin/juk
 * /usr/share/applications/org.kde.juk.desktop
 * /usr/share/dbus-1/interfaces/org.kde.juk.collection.xml
 * /usr/share/dbus-1/interfaces/org.kde.juk.player.xml
@@ -200,4 +200,4 @@ JuK is an audio jukebox application.{{< spoiler text="show files" >}}* /usr/bin/
 * /usr/share/locale/zh_CN/LC_MESSAGES/juk.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/juk.mo
 * /usr/share/metainfo/org.kde.juk.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "8ee5f2783e22fb9ccaf6d48f75ff7c5c12911a87"
 depends = "['haskell-syb', 'haskell-unordered-containers']"
 reverse_depends = "['haskell-citeproc']"
 +++
-Help writing simple, concise and fast generic operations.{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/uniplate-1.6.13/Data/Generics/Biplate.dyn_hi
+Help writing simple, concise and fast generic operations.{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/uniplate-1.6.13/Data/Generics/Biplate.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/uniplate-1.6.13/Data/Generics/Biplate.hi
 * /usr/lib/ghc-9.8.1/site-local/uniplate-1.6.13/Data/Generics/Compos.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/uniplate-1.6.13/Data/Generics/Compos.hi
@@ -111,4 +111,4 @@ Help writing simple, concise and fast generic operations.{{< spoiler text="show 
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/uniplate-1.6.13/LICENSE
 * /usr/share/haskell/haskell-uniplate/register.sh
 * /usr/share/haskell/haskell-uniplate/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

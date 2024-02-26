@@ -14,7 +14,7 @@ sha1sum = "3e79439ac74dc8dd4011175354c95476600dd82b"
 depends = "['a52dec>=0.7.4-6', 'alsa-lib>=1.1.2-2', 'dav1d>=0.8.0', 'faac>=1.28-5', 'faad2>=2.7-5', 'gnutls', 'gsm>=1.0.18-2', 'imlib2>=1.4.7-3', 'lame>=3.99.5-5', 'libass>=0.13.6', 'libbluray>=1.1.1-2', 'libcaca>=0.99.beta19-5', 'libdc1394>=2.2.7', 'libidn2', 'libpulse>=12.2-8', 'libstdc++>=9.1.0-3', 'libtheora>=1.1.1-5', 'libva>=2.3', 'libvdpau>=1.1.1-2', 'libvorbis>=1.3.5-5', 'libvpx>=1.13.0', 'libxcb>=1.11.1-3', 'libxfixes>=5.0.1-2', 'opencore-amr>=0.1.3-2', 'openjpeg>=2.2.0', 'rav1e', 'rtmpdump>=2.4-9', 'sdl2>=2.0.5', 'speex>=1.2rc2-4', 'svt-av1', 'v4l-utils>=1.8.1-3', 'x264>==20230712.ga8b68eb', 'x265>=3.5', 'xvidcore>=1.3.4-3', 'zlib>=1.2.12']"
 reverse_depends = "['aubio', 'opencascade', 'openjfx', 'qtav']"
 +++
-FFMpeg compatibility version{{< spoiler text="show files" >}}* /usr/include/ffmpeg4.4/libavcodec/ac3_parser.h
+FFMpeg compatibility version{{< files text="show files" >}}* /usr/include/ffmpeg4.4/libavcodec/ac3_parser.h
 * /usr/include/ffmpeg4.4/libavcodec/adts_parser.h
 * /usr/include/ffmpeg4.4/libavcodec/avcodec.h
 * /usr/include/ffmpeg4.4/libavcodec/avdct.h
@@ -183,4 +183,4 @@ FFMpeg compatibility version{{< spoiler text="show files" >}}* /usr/include/ffmp
 * /usr/share/doc/ffmpeg4.4-4.4.4/RELEASE
 * /usr/share/doc/ffmpeg4.4-4.4.4/RELEASE_NOTES
 * /usr/share/doc/ffmpeg4.4-4.4.4/VERSION
-{{< /spoiler >}}
+{{< /files >}}

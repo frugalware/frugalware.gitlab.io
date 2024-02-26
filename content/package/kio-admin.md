@@ -13,7 +13,7 @@ usize = "295568"
 sha1sum = "ab50f9d9c8391bdb50ea39c19f78d775dedf60f1"
 depends = "['kio']"
 +++
-Manage files as administrator using the admin:// KIO protocol{{< spoiler text="show files" >}}* /usr/lib/kf5/kf5/kio-admin-helper
+Manage files as administrator using the admin:// KIO protocol{{< files text="show files" >}}* /usr/lib/kf5/kf5/kio-admin-helper
 * /usr/lib/qt5/plugins/kf5/kfileitemaction/kio-admin.so
 * /usr/lib/qt5/plugins/kf5/kio/admin.so
 * /usr/share/dbus-1/system-services/org.kde.kio.admin.service
@@ -53,4 +53,4 @@ Manage files as administrator using the admin:// KIO protocol{{< spoiler text="s
 * /usr/share/locale/zh_TW/LC_MESSAGES/kio5_admin.mo
 * /usr/share/metainfo/org.kde.kio.admin.metainfo.xml
 * /usr/share/polkit-1/actions/org.kde.kio.admin.policy
-{{< /spoiler >}}
+{{< /files >}}

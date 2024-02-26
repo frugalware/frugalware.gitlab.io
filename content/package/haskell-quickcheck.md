@@ -14,7 +14,7 @@ sha1sum = "38c096eb744460f8a38e6b0171456bc27adb6b1a"
 depends = "['haskell-splitmix>=0.1.0.3', 'haskell-tf-random>=0.5-41']"
 reverse_depends = "['haskell-aeson', 'haskell-digits', 'haskell-pandoc-types', 'haskell-servant', 'shellcheck']"
 +++
-Automatic testing of Haskell programs{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/QuickCheck-2.14.3/libHSQuickCheck-2.14.3-1NfLsBY1h76jIEZnQ1fV6.a
+Automatic testing of Haskell programs{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/QuickCheck-2.14.3/libHSQuickCheck-2.14.3-1NfLsBY1h76jIEZnQ1fV6.a
 * /usr/lib/ghc-9.8.1/site-local/QuickCheck-2.14.3/Test/QuickCheck.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/QuickCheck-2.14.3/Test/QuickCheck.hi
 * /usr/lib/ghc-9.8.1/site-local/QuickCheck-2.14.3/Test/QuickCheck/All.dyn_hi
@@ -95,4 +95,4 @@ Automatic testing of Haskell programs{{< spoiler text="show files" >}}* /usr/lib
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/QuickCheck-2.14.3/LICENSE
 * /usr/share/haskell/haskell-quickcheck/register.sh
 * /usr/share/haskell/haskell-quickcheck/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

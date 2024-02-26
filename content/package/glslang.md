@@ -14,7 +14,7 @@ sha1sum = "229630c1f6ab96be5c933716c2b42e6b27d89189"
 depends = "['libstdc++>=11.3']"
 reverse_depends = "['shaderc', 'vkbasalt']"
 +++
-An OpenGL and OpenGL ES shader front end and validator{{< spoiler text="show files" >}}* /usr/bin/glslang
+An OpenGL and OpenGL ES shader front end and validator{{< files text="show files" >}}* /usr/bin/glslang
 * /usr/bin/glslangValidator
 * /usr/bin/spirv-remap
 * /usr/include/glslang/build_info.h
@@ -62,4 +62,4 @@ An OpenGL and OpenGL ES shader front end and validator{{< spoiler text="show fil
 * /usr/lib/libSPVRemapper.so.14.0.0
 * /usr/share/doc/glslang-14.0.0/README-spirv-remap.txt
 * /usr/share/doc/glslang-14.0.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

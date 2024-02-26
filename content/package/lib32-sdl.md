@@ -13,7 +13,7 @@ usize = "946412"
 sha1sum = "399947835f1ae6b0df0b8d7a1b4359e3af70e20a"
 depends = "[]"
 +++
-Simple DirectMedia Layer library ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/sdl-config
+Simple DirectMedia Layer library ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/sdl-config
 * /usr/i686-frugalware-linux/include/SDL/begin_code.h
 * /usr/i686-frugalware-linux/include/SDL/close_code.h
 * /usr/i686-frugalware-linux/include/SDL/SDL.h
@@ -50,4 +50,4 @@ Simple DirectMedia Layer library ( 32bit ){{< spoiler text="show files" >}}* /us
 * /usr/lib32/libSDL-1.2.so.0.11.4
 * /usr/lib32/libSDL.so
 * /usr/lib32/pkgconfig/sdl.pc
-{{< /spoiler >}}
+{{< /files >}}

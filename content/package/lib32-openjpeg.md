@@ -14,7 +14,7 @@ sha1sum = "5e385ba30cb3e433abc9379fe64b85a9610f6d3c"
 depends = "['lib32-lcms2>=2.8-2', 'lib32-libpng>=1.6.25', 'lib32-libtiff>=4.0.6-2']"
 reverse_depends = "['lib32-ffmpeg']"
 +++
-An open-source JPEG 2000 codec written in C ( 32bit ){{< spoiler text="show files" >}}* /usr/lib32/libopenjp2.a
+An open-source JPEG 2000 codec written in C ( 32bit ){{< files text="show files" >}}* /usr/lib32/libopenjp2.a
 * /usr/lib32/libopenjp2.so
 * /usr/lib32/libopenjp2.so.2.5.0
 * /usr/lib32/libopenjp2.so.7
@@ -22,4 +22,4 @@ An open-source JPEG 2000 codec written in C ( 32bit ){{< spoiler text="show file
 * /usr/lib32/openjpeg-2.5/OpenJPEGTargets-release.cmake
 * /usr/lib32/openjpeg-2.5/OpenJPEGTargets.cmake
 * /usr/lib32/pkgconfig/libopenjp2.pc
-{{< /spoiler >}}
+{{< /files >}}

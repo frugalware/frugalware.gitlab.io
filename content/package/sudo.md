@@ -14,7 +14,7 @@ sha1sum = "329ee64ab2c6e1bcfcc493aa29359305292671d8"
 depends = "['glibc>=2.34', 'libxcrypt', 'openssl>=3.1.0']"
 reverse_depends = "['inxi']"
 +++
-Give limited root privileges to certain users{{< spoiler text="show files" >}}* /etc/sudo.conf
+Give limited root privileges to certain users{{< files text="show files" >}}* /etc/sudo.conf
 * /etc/sudoers
 * /etc/sudoers.d/.sudo
 * /etc/sudoers.dist
@@ -143,4 +143,4 @@ Give limited root privileges to certain users{{< spoiler text="show files" >}}* 
 * /usr/share/man/man8/sudo_logsrvd.8.gz
 * /usr/share/man/man8/sudo_sendlog.8.gz
 * /usr/share/man/man8/visudo.8.gz
-{{< /spoiler >}}
+{{< /files >}}

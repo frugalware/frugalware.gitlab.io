@@ -14,7 +14,7 @@ sha1sum = "4c8eeb315fcb11788840f3150259902fe081aea6"
 depends = "['glibc']"
 license = "GPL2"
 +++
-X.Org Documentation{{< spoiler text="show files" >}}* /usr/share/doc/xorg-docs-1.7.2/ChangeLog
+X.Org Documentation{{< files text="show files" >}}* /usr/share/doc/xorg-docs-1.7.2/ChangeLog
 * /usr/share/doc/xorg-docs-1.7.2/ctext/ctext.xml
 * /usr/share/doc/xorg-docs-1.7.2/fonts/fonts.xml
 * /usr/share/doc/xorg-docs-1.7.2/graphics/dps.xml
@@ -41,4 +41,4 @@ X.Org Documentation{{< spoiler text="show files" >}}* /usr/share/doc/xorg-docs-1
 * /usr/share/man/man7/XOrgFoundation.7.gz
 * /usr/share/man/man7/XProjectTeam.7.gz
 * /usr/share/man/man7/Xsecurity.7.gz
-{{< /spoiler >}}
+{{< /files >}}

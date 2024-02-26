@@ -14,8 +14,8 @@ sha1sum = "b213f22e2e7540affaa79ca68ec3b32b19d75f80"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['amavisd-new']"
 +++
-Perl module to read TNEF files{{< spoiler text="show files" >}}* /usr/lib/perl5/site_perl/Convert/TNEF.pm
+Perl module to read TNEF files{{< files text="show files" >}}* /usr/lib/perl5/site_perl/Convert/TNEF.pm
 * /usr/share/doc/perl-convert-tnef-0.18/MANIFEST
 * /usr/share/doc/perl-convert-tnef-0.18/README
 * /usr/share/man/man3/Convert::TNEF.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

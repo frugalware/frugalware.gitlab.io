@@ -14,7 +14,7 @@ sha1sum = "6f3ac5de7696d4ac0cfca7f7ba0b398ddcdb4f3d"
 depends = "['python3-pbr>=5.6.0']"
 reverse_depends = "['freecell-solver']"
 +++
-Deal PySol FC Cards{{< spoiler text="show files" >}}* /usr/bin/pysol_cards
+Deal PySol FC Cards{{< files text="show files" >}}* /usr/bin/pysol_cards
 * /usr/lib/python3.12/site-packages/pysol_cards-0.16.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pysol_cards-0.16.0-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/pysol_cards-0.16.0-py3.12.egg-info/not-zip-safe
@@ -48,4 +48,4 @@ Deal PySol FC Cards{{< spoiler text="show files" >}}* /usr/bin/pysol_cards
 * /usr/share/doc/python3-pysol_cards-0.16.0/README
 * /usr/share/doc/python3-pysol_cards-0.16.0/README.rst
 * /usr/share/doc/python3-pysol_cards-0.16.0/VERSION
-{{< /spoiler >}}
+{{< /files >}}

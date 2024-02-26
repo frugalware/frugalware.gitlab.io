@@ -13,7 +13,7 @@ usize = "751508"
 sha1sum = "ff35913aedcd3a7bd2b0bebf092efefb23572ded"
 depends = "['bzip2', 'libxext', 'xfsprogs-attr']"
 +++
-Runtime Files for Kstyles.{{< spoiler text="show files" >}}* /usr/lib/kde4/kstyle_oxygen_config.so
+Runtime Files for Kstyles.{{< files text="show files" >}}* /usr/lib/kde4/kstyle_oxygen_config.so
 * /usr/lib/kde4/plugins/styles/oxygen.so
 * /usr/share/apps/kstyle/themes/oxygen.themerc
 * /usr/share/apps/kstyle/themes/qtcde.themerc
@@ -22,4 +22,4 @@ Runtime Files for Kstyles.{{< spoiler text="show files" >}}* /usr/lib/kde4/kstyl
 * /usr/share/apps/kstyle/themes/qtmotif.themerc
 * /usr/share/apps/kstyle/themes/qtplastique.themerc
 * /usr/share/apps/kstyle/themes/qtwindows.themerc
-{{< /spoiler >}}
+{{< /files >}}

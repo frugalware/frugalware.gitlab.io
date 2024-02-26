@@ -14,7 +14,7 @@ sha1sum = "89afea2f7b322a5a79120b37995520a4bcc19ad5"
 depends = "['glib2>=2.60.3', 'openssl>=3.1.0']"
 reverse_depends = "['telepathy-sofiasip']"
 +++
-Sofia-SIP is an open-source SIP User-Agent library{{< spoiler text="show files" >}}* /usr/bin/addrinfo
+Sofia-SIP is an open-source SIP User-Agent library{{< files text="show files" >}}* /usr/bin/addrinfo
 * /usr/bin/localinfo
 * /usr/bin/sip-date
 * /usr/bin/sip-dig
@@ -157,4 +157,4 @@ Sofia-SIP is an open-source SIP User-Agent library{{< spoiler text="show files" 
 * /usr/share/man/man1/stunc.1.gz
 * /usr/share/sofia-sip/msg_parser.awk
 * /usr/share/sofia-sip/tag_dll.awk
-{{< /spoiler >}}
+{{< /files >}}

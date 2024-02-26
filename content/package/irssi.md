@@ -14,7 +14,7 @@ sha1sum = "afa0141d528a8b8822e0a19b5d3161328962b36d"
 depends = "['glib2>=2.46.2-3', 'ncurses>=6.1-2', 'openssl>=3.1.0', 'perl>=5.28.2']"
 reverse_depends = "['irssi-otr']"
 +++
-Irssi is a modular IRC client for UNIX that currently has only text mode user interface{{< spoiler text="show files" >}}* /etc/irssi.conf
+Irssi is a modular IRC client for UNIX that currently has only text mode user interface{{< files text="show files" >}}* /etc/irssi.conf
 * /usr/bin/botti
 * /usr/bin/irssi
 * /usr/include/irssi/irssi-config.h
@@ -310,4 +310,4 @@ Irssi is a modular IRC client for UNIX that currently has only text mode user in
 * /usr/share/irssi/themes/colorless.theme
 * /usr/share/irssi/themes/default.theme
 * /usr/share/man/man1/irssi.1.gz
-{{< /spoiler >}}
+{{< /files >}}

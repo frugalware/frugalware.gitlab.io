@@ -13,7 +13,7 @@ usize = "178190"
 sha1sum = "4235727087233a92a374c981ed1c2f1e71505ba1"
 depends = "[]"
 +++
-Small application which wraps Riot to provide better integration with desktop environments{{< spoiler text="show files" >}}* /usr/bin/revolt
+Small application which wraps Riot to provide better integration with desktop environments{{< files text="show files" >}}* /usr/bin/revolt
 * /usr/share/appdata/org.perezdecastro.Revolt.appdata.xml
 * /usr/share/applications/org.perezdecastro.Revolt.desktop
 * /usr/share/doc/revolt-0.1.0.g04bf4b5/COPYING
@@ -42,4 +42,4 @@ Small application which wraps Riot to provide better integration with desktop en
 * /usr/share/revolt/py/revolt/__pycache__/util.cpython-36.pyc
 * /usr/share/revolt/py/revolt/__pycache__/window.cpython-36.pyc
 * /usr/share/revolt/py/revolt/__pycache__/__init__.cpython-36.pyc
-{{< /spoiler >}}
+{{< /files >}}

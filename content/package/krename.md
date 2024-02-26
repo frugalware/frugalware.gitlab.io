@@ -14,7 +14,7 @@ sha1sum = "cb710d55b776170dee4bff55b27306e22c4f14f2"
 depends = "['exiv2>=0.28.1', 'kdelibs4support>=5.114.0', 'kjs>=5.114.0', 'podofo>=0.10.1', 'taglib>=2.0']"
 license = "GPL-2"
 +++
-KRename is a powerful batch renamer for KDE.{{< spoiler text="show files" >}}* /usr/bin/krename
+KRename is a powerful batch renamer for KDE.{{< files text="show files" >}}* /usr/bin/krename
 * /usr/share/applications/org.kde.krename.desktop
 * /usr/share/doc/krename-5.0.2/AUTHORS
 * /usr/share/doc/krename-5.0.2/COPYING
@@ -65,4 +65,4 @@ KRename is a powerful batch renamer for KDE.{{< spoiler text="show files" >}}* /
 * /usr/share/locale/zh_CN/LC_MESSAGES/krename.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/krename.mo
 * /usr/share/metainfo/org.kde.krename.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

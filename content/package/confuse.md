@@ -14,7 +14,7 @@ sha1sum = "fb3e3296590ace969de60d5e109f60bbb3711556"
 depends = "['glibc>=2.34']"
 reverse_depends = "['i3status']"
 +++
-libConfuse is a configuration file parser library written in C{{< spoiler text="show files" >}}* /usr/include/confuse.h
+libConfuse is a configuration file parser library written in C{{< files text="show files" >}}* /usr/include/confuse.h
 * /usr/lib/libconfuse.so
 * /usr/lib/libconfuse.so.2
 * /usr/lib/libconfuse.so.2.1.0
@@ -27,4 +27,4 @@ libConfuse is a configuration file parser library written in C{{< spoiler text="
 * /usr/share/locale/de/LC_MESSAGES/confuse.mo
 * /usr/share/locale/fr/LC_MESSAGES/confuse.mo
 * /usr/share/locale/sv/LC_MESSAGES/confuse.mo
-{{< /spoiler >}}
+{{< /files >}}

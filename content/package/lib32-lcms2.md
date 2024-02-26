@@ -14,7 +14,7 @@ sha1sum = "06774cd81e69b8fa458d3fcf0a918b893a019d9f"
 depends = "['lib32-libjpeg-turbo', 'lib32-libtiff>=4.0.6-2', 'lib32-zlib>=1.2.12']"
 reverse_depends = "['get_steam', 'lib32-openjpeg', 'wine', 'wine-devel']"
 +++
-Lightweight color management development library/engine ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/jpgicc
+Lightweight color management development library/engine ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/jpgicc
 * /usr/i686-frugalware-linux/bin/linkicc
 * /usr/i686-frugalware-linux/bin/psicc
 * /usr/i686-frugalware-linux/bin/tificc
@@ -25,4 +25,4 @@ Lightweight color management development library/engine ( 32bit ){{< spoiler tex
 * /usr/lib32/liblcms2.so.2
 * /usr/lib32/liblcms2.so.2.0.16
 * /usr/lib32/pkgconfig/lcms2.pc
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,8 +13,8 @@ usize = "5031980"
 sha1sum = "5bf80b188c82c1f3ab75820f14af2bae966e0326"
 depends = "[]"
 +++
-Static files for pcre2{{< spoiler text="show files" >}}* /usr/lib/libpcre2-16.a
+Static files for pcre2{{< files text="show files" >}}* /usr/lib/libpcre2-16.a
 * /usr/lib/libpcre2-32.a
 * /usr/lib/libpcre2-8.a
 * /usr/lib/libpcre2-posix.a
-{{< /spoiler >}}
+{{< /files >}}

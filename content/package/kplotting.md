@@ -14,7 +14,7 @@ sha1sum = "1db9399a44f76a9fc6e2ec78174581fde1f8fefd"
 depends = "['qt5-base>=5.15.12']"
 reverse_depends = "['kalzium', 'kdenlive', 'kdesignerplugin', 'knights', 'kstars']"
 +++
-Framework providing easy data-plotting functions.{{< spoiler text="show files" >}}* /usr/include/KF5/KPlotting/KPlotAxis
+Framework providing easy data-plotting functions.{{< files text="show files" >}}* /usr/include/KF5/KPlotting/KPlotAxis
 * /usr/include/KF5/KPlotting/kplotaxis.h
 * /usr/include/KF5/KPlotting/KPlotObject
 * /usr/include/KF5/KPlotting/kplotobject.h
@@ -34,4 +34,4 @@ Framework providing easy data-plotting functions.{{< spoiler text="show files" >
 * /usr/lib/qt5/plugins/designer/kplotting5widgets.so
 * /usr/share/doc/kplotting-5.115.0/README.md
 * /usr/share/qt5/mkspecs/modules/qt_KPlotting.pri
-{{< /spoiler >}}
+{{< /files >}}

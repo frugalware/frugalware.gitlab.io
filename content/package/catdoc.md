@@ -14,7 +14,7 @@ sha1sum = "3237ffb7250caf43897ce561d9022aeb45c54a99"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['kfilemetadata5']"
 +++
-reads one or more Microsoft word files and outputs text{{< spoiler text="show files" >}}* /usr/bin/catdoc
+reads one or more Microsoft word files and outputs text{{< files text="show files" >}}* /usr/bin/catdoc
 * /usr/bin/catppt
 * /usr/bin/wordview
 * /usr/bin/xls2csv
@@ -74,4 +74,4 @@ reads one or more Microsoft word files and outputs text{{< spoiler text="show fi
 * /usr/share/doc/catdoc-0.95/NEWS
 * /usr/share/doc/catdoc-0.95/README
 * /usr/share/doc/catdoc-0.95/TODO
-{{< /spoiler >}}
+{{< /files >}}

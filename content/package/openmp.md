@@ -14,7 +14,7 @@ sha1sum = "f968b31b38fdc9469cd328df6ca8467f2cfeb594"
 depends = "['llvm-libs>=17.0.6']"
 reverse_depends = "['darktable']"
 +++
-LLVM OpenMP Runtime Library{{< spoiler text="show files" >}}* /usr/bin/llvm-omp-device-info
+LLVM OpenMP Runtime Library{{< files text="show files" >}}* /usr/bin/llvm-omp-device-info
 * /usr/lib/cmake/openmp/FindOpenMPTarget.cmake
 * /usr/lib/libarcher.so
 * /usr/lib/libarcher_static.a
@@ -119,4 +119,4 @@ LLVM OpenMP Runtime Library{{< spoiler text="show files" >}}* /usr/bin/llvm-omp-
 * /usr/share/doc/LLVM/openmp/html/_static/searchtools.js
 * /usr/share/doc/LLVM/openmp/html/_static/sphinx_highlight.js
 * /usr/share/man/man1/llvmopenmp.1.gz
-{{< /spoiler >}}
+{{< /files >}}

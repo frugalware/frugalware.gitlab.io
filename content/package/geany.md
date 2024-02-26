@@ -14,7 +14,7 @@ sha1sum = "720b4f64963bdac052c2bda5493e21718fe79617"
 depends = "['gtk+3', 'vte3']"
 reverse_depends = "['geany-plugins']"
 +++
-Geany is a text editor using the GTK3 toolkit.{{< spoiler text="show files" >}}* /usr/bin/geany
+Geany is a text editor using the GTK3 toolkit.{{< files text="show files" >}}* /usr/bin/geany
 * /usr/include/geany/app.h
 * /usr/include/geany/build.h
 * /usr/include/geany/dialogs.h
@@ -291,4 +291,4 @@ Geany is a text editor using the GTK3 toolkit.{{< spoiler text="show files" >}}*
 * /usr/share/locale/zh_CN/LC_MESSAGES/geany.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/geany.mo
 * /usr/share/man/man1/geany.1.gz
-{{< /spoiler >}}
+{{< /files >}}

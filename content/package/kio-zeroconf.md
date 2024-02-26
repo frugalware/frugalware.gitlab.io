@@ -13,7 +13,7 @@ usize = "188113"
 sha1sum = "52498a7b52c11f4cefa2190473a68a93f590c252"
 depends = "['kdnssd>=5.115.0', 'kio>=5.115.0']"
 +++
-DNS Service Discovery for KDE.{{< spoiler text="show files" >}}* /usr/lib/qt5/plugins/kf5/kded/dnssdwatcher.so
+DNS Service Discovery for KDE.{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/kded/dnssdwatcher.so
 * /usr/lib/qt5/plugins/kf5/kio/zeroconf.so
 * /usr/share/dbus-1/interfaces/org.kde.kdnssd.xml
 * /usr/share/locale/ar/LC_MESSAGES/kio5_zeroconf.mo
@@ -91,4 +91,4 @@ DNS Service Discovery for KDE.{{< spoiler text="show files" >}}* /usr/lib/qt5/pl
 * /usr/share/locale/zh_TW/LC_MESSAGES/kio5_zeroconf.mo
 * /usr/share/metainfo/org.kde.kio_zeroconf.metainfo.xml
 * /usr/share/remoteview/zeroconf.desktop
-{{< /spoiler >}}
+{{< /files >}}

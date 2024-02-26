@@ -13,7 +13,7 @@ usize = "3563466"
 sha1sum = "ba1c3a0db7d3b987ea21f0b4950ad5587643285b"
 depends = "[]"
 +++
-Ogre Documentation{{< spoiler text="show files" >}}* /usr/share/doc/ogre-14.0.0/html/1.10-Notes.md
+Ogre Documentation{{< files text="show files" >}}* /usr/share/doc/ogre-14.0.0/html/1.10-Notes.md
 * /usr/share/doc/ogre-14.0.0/html/1.11-Notes.md
 * /usr/share/doc/ogre-14.0.0/html/1.12-Notes.md
 * /usr/share/doc/ogre-14.0.0/html/13-Notes.md
@@ -103,4 +103,4 @@ Ogre Documentation{{< spoiler text="show files" >}}* /usr/share/doc/ogre-14.0.0/
 * /usr/share/doc/ogre-14.0.0/html/src/umldocs/TextureSource.puml
 * /usr/share/doc/ogre-14.0.0/html/src/umldocs/uml-overview.puml
 * /usr/share/doc/ogre-14.0.0/html/src/vbo-update.texi
-{{< /spoiler >}}
+{{< /files >}}

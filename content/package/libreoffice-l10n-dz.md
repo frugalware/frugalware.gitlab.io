@@ -13,7 +13,7 @@ usize = "43090494"
 sha1sum = "c178ff53a3139974b1e9c2f9705754eb04d79605"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Dzongkha support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/dz/default.css
+Installs Dzongkha support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/dz/default.css
 * /usr/lib/libreoffice/help/dz/err.html
 * /usr/lib/libreoffice/help/dz/highcontrast1.css
 * /usr/lib/libreoffice/help/dz/highcontrast2.css
@@ -132,4 +132,4 @@ Installs Dzongkha support in LibreOffice{{< spoiler text="show files" >}}* /usr/
 * /usr/lib/libreoffice/share/registry/Langpack-dz.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_dz.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_dz.xcd
-{{< /spoiler >}}
+{{< /files >}}

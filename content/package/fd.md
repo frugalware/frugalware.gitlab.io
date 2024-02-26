@@ -13,7 +13,7 @@ usize = "4252495"
 sha1sum = "7b800e602eebb103c54c93d55a52dd530e07e44d"
 depends = "['libgcc']"
 +++
-Simple, fast and user-friendly alternative to find{{< spoiler text="show files" >}}* /usr/bin/fd
+Simple, fast and user-friendly alternative to find{{< files text="show files" >}}* /usr/bin/fd
 * /usr/share/doc/fd-8.7.1/README.md
 * /usr/share/man/man1/fd.1.gz
-{{< /spoiler >}}
+{{< /files >}}

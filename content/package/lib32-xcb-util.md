@@ -14,7 +14,7 @@ sha1sum = "68c1c1f278f791a655ff6720d6c7105eb0c1b08c"
 depends = "['lib32-libxau>=1.0.8-3', 'lib32-libxcb>=1.13', 'lib32-libxdmcp>=1.1.2-3']"
 reverse_depends = "['lib32-xcb-util-image']"
 +++
-Utility libraries for X C Binding ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/include/xcb/xcb_atom.h
+Utility libraries for X C Binding ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/xcb/xcb_atom.h
 * /usr/i686-frugalware-linux/include/xcb/xcb_aux.h
 * /usr/i686-frugalware-linux/include/xcb/xcb_event.h
 * /usr/i686-frugalware-linux/include/xcb/xcb_util.h
@@ -25,4 +25,4 @@ Utility libraries for X C Binding ( 32bit ){{< spoiler text="show files" >}}* /u
 * /usr/lib32/pkgconfig/xcb-aux.pc
 * /usr/lib32/pkgconfig/xcb-event.pc
 * /usr/lib32/pkgconfig/xcb-util.pc
-{{< /spoiler >}}
+{{< /files >}}

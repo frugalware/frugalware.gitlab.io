@@ -14,7 +14,7 @@ sha1sum = "89841f3b2aed32ecf412ff22a4e70f47cdb59966"
 depends = "['python3-gast']"
 reverse_depends = "['python3-pythran']"
 +++
-A static analyzer for Python code{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/beniget-0.4.1-py3.12.egg-info/dependency_links.txt
+A static analyzer for Python code{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/beniget-0.4.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/beniget-0.4.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/beniget-0.4.1-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/beniget-0.4.1-py3.12.egg-info/SOURCES.txt
@@ -25,4 +25,4 @@ A static analyzer for Python code{{< spoiler text="show files" >}}* /usr/lib/pyt
 * /usr/lib/python3.12/site-packages/beniget/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-beniget-0.4.1/LICENSE
 * /usr/share/doc/python3-beniget-0.4.1/README.rst
-{{< /spoiler >}}
+{{< /files >}}

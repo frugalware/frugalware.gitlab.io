@@ -13,7 +13,7 @@ usize = "1600162"
 sha1sum = "9569619cac01cb330134d92de7e52a4bda378cb5"
 depends = "['bash', 'bc', 'git', 'procps-ng', 'unzip', 'which', 'xdotool', 'xprop', 'xrandr', 'xwininfo', 'yad']"
 +++
-Wrapper script for Steam custom launch options{{< spoiler text="show files" >}}* /usr/bin/steamtinkerlaunch
+Wrapper script for Steam custom launch options{{< files text="show files" >}}* /usr/bin/steamtinkerlaunch
 * /usr/share/applications
 * /usr/share/doc/steamtinkerlaunch-12.12/LICENSE
 * /usr/share/doc/steamtinkerlaunch-12.12/README.md
@@ -193,4 +193,4 @@ Wrapper script for Steam custom launch options{{< spoiler text="show files" >}}*
 * /usr/share/steamtinkerlaunch/misc/vortexgames.txt
 * /usr/share/steamtinkerlaunch/misc/winedebugchannels.txt
 * /usr/share/steamtinkerlaunch/misc/x64dbg.reg
-{{< /spoiler >}}
+{{< /files >}}

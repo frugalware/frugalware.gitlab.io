@@ -14,7 +14,7 @@ sha1sum = "f8d9e6878d6ada8d9ce3e3cb58176476c3f26bd9"
 depends = "['ncurses>=6.1-5']"
 reverse_depends = "['augeas', 'bash', 'bc', 'bind', 'bluez', 'chrony', 'clisp', 'connman', 'fluidsynth', 'fontforge', 'freeciv', 'freetds', 'gawk', 'gdb', 'gdbm', 'gftp', 'ghc', 'gimp-print', 'ginac', 'gnokii', 'gnucap', 'gnupg2', 'gnuplot', 'gpg-agent', 'gphoto2', 'grv', 'guile', 'gutenprint', 'hivex', 'hunspell', 'kalgebra', 'lftp', 'libguestfs', 'libqalculate', 'libvirt', 'lua', 'lua51', 'lua53', 'lvm2', 'maxima', 'mdbtools', 'multipath-tools', 'ncmpcpp', 'networkmanager', 'nftables', 'ngspice', 'octave', 'opendht', 'pari', 'parted', 'pcre', 'pcre2', 'php', 'physfs', 'postgresql', 'postgresql-upgrade-from-11', 'postgresql-upgrade-from-12', 'postgresql-upgrade-from-13', 'postgresql-upgrade-from-14', 'postgresql-upgrade-from-15', 'python3', 'r', 'ruby', 'samba', 'samba-client', 'socat', 'sqlcipher', 'sqlite3', 'texlive-xindy', 'tftp-hpa', 'unixodbc', 'util-linux', 'wpa_supplicant', 'xfsprogs', 'xine-ui', 'xmlrpc-c', 'xorriso']"
 +++
-GNU readline library{{< spoiler text="show files" >}}* /etc/inputrc
+GNU readline library{{< files text="show files" >}}* /etc/inputrc
 * /etc/profile.d/readline.sh
 * /usr/include/readline/chardefs.h
 * /usr/include/readline/history.h
@@ -44,4 +44,4 @@ GNU readline library{{< spoiler text="show files" >}}* /etc/inputrc
 * /usr/share/info/rluserman.info.gz
 * /usr/share/man/man3/history.3.gz
 * /usr/share/man/man3/readline.3.gz
-{{< /spoiler >}}
+{{< /files >}}

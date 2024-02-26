@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "8f27296af43578b121977f0065d32a29afcb966c"
 depends = "[]"
 +++
-Uzbek Localization for KOffice. {{< spoiler text="show files" >}}* usr/share/locale/uz/LC_MESSAGES/desktop_koffice.mo
+Uzbek Localization for KOffice. {{< files text="show files" >}}* usr/share/locale/uz/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/uz/LC_MESSAGES/example.mo
 * usr/share/locale/uz/LC_MESSAGES/karbon.mo
 * usr/share/locale/uz/LC_MESSAGES/kchart.mo
@@ -38,4 +38,4 @@ Uzbek Localization for KOffice. {{< spoiler text="show files" >}}* usr/share/loc
 * usr/share/locale/uz/LC_MESSAGES/kugar.mo
 * usr/share/locale/uz/LC_MESSAGES/kword.mo
 * usr/share/locale/uz/LC_MESSAGES/thesaurus_tool.mo
-{{< /spoiler >}}
+{{< /files >}}

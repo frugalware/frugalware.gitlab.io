@@ -15,7 +15,7 @@ depends = "['libx11>=1.6.5-2', 'libxau>=1.0.8-3', 'libxext>=1.3.3-3']"
 reverse_depends = "['ffmpeg', 'gst1-plugins-base', 'kdetv', 'libxvmc', 'mpeg2dec', 'mpv', 'qtav', 'xvinfo']"
 license = "GPL2"
 +++
-X.Org Xv library{{< spoiler text="show files" >}}* /usr/include/X11/extensions/Xvlib.h
+X.Org Xv library{{< files text="show files" >}}* /usr/include/X11/extensions/Xvlib.h
 * /usr/lib/libXv.so
 * /usr/lib/libXv.so.1
 * /usr/lib/libXv.so.1.0.0
@@ -51,4 +51,4 @@ X.Org Xv library{{< spoiler text="show files" >}}* /usr/include/X11/extensions/X
 * /usr/share/man/man3/XvStopVideo.3.gz
 * /usr/share/man/man3/XvUngrabPort.3.gz
 * /usr/share/man/man3/XvVideoNotify.3.gz
-{{< /spoiler >}}
+{{< /files >}}

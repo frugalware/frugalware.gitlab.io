@@ -14,7 +14,7 @@ sha1sum = "b71a9c2e55fdb9a6941f5f578fbb86011a7fbd13"
 depends = "['glibc>=2.35', 'libmnl>=1.0.5', 'libnftnl>=1.2.2']"
 reverse_depends = "['connman', 'fail2ban', 'guarddog', 'iproute2', 'ipset', 'networkmanager', 'ufw']"
 +++
-IP packet filter administration{{< spoiler text="show files" >}}* /etc/ethertypes
+IP packet filter administration{{< files text="show files" >}}* /etc/ethertypes
 * /etc/sysconfig/firewall
 * /etc/sysconfig/iptables
 * /usr/bin/arptables
@@ -243,4 +243,4 @@ IP packet filter administration{{< spoiler text="show files" >}}* /etc/ethertype
 * /usr/share/man/man8/xtables-nft.8.gz
 * /usr/share/man/man8/xtables-translate.8.gz
 * /usr/share/xtables/iptables.xslt
-{{< /spoiler >}}
+{{< /files >}}

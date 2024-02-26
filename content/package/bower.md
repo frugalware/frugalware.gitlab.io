@@ -13,7 +13,7 @@ usize = "20123936"
 sha1sum = "ecee246f1ae25a4297a19dcd4d6487a1799670fe"
 depends = "['glibc']"
 +++
-A package manager for the web{{< spoiler text="show files" >}}* /usr/bin/bower
+A package manager for the web{{< files text="show files" >}}* /usr/bin/bower
 * /usr/lib/node_modules/bower/.editorconfig
 * /usr/lib/node_modules/bower/.eslintignore
 * /usr/lib/node_modules/bower/.eslintrc
@@ -5492,4 +5492,4 @@ A package manager for the web{{< spoiler text="show files" >}}* /usr/bin/bower
 * /usr/lib/node_modules/root/tests/test-urls.js
 * /usr/share/doc/bower-1.8.14/LICENSE
 * /usr/share/doc/bower-1.8.14/README.md
-{{< /spoiler >}}
+{{< /files >}}

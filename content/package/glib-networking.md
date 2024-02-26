@@ -14,7 +14,7 @@ sha1sum = "2b48422f50d4c598122196949e7608d5e3742abf"
 depends = "['ca-certificates', 'glib2', 'gnutls', 'libproxy']"
 reverse_depends = "['gimp', 'libsoup', 'libsoup3']"
 +++
-Network extensions for GLib{{< spoiler text="show files" >}}* /usr/lib/gio/modules/libgiognomeproxy.so
+Network extensions for GLib{{< files text="show files" >}}* /usr/lib/gio/modules/libgiognomeproxy.so
 * /usr/lib/gio/modules/libgiognutls.so
 * /usr/lib/gio/modules/libgiolibproxy.so
 * /usr/lib/glib-networking/glib-pacrunner
@@ -94,4 +94,4 @@ Network extensions for GLib{{< spoiler text="show files" >}}* /usr/lib/gio/modul
 * /usr/share/locale/zh_CN/LC_MESSAGES/glib-networking.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/glib-networking.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/glib-networking.mo
-{{< /spoiler >}}
+{{< /files >}}

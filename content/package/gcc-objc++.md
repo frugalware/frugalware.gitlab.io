@@ -13,5 +13,5 @@ usize = "39694696"
 sha1sum = "ec3d1aa988be41d68f41a2df220f3657a52c3f7a"
 depends = "['gcc-g++', 'gcc-objc']"
 +++
-Objective-C++ support for GCC{{< spoiler text="show files" >}}* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/cc1objplus
-{{< /spoiler >}}
+Objective-C++ support for GCC{{< files text="show files" >}}* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/cc1objplus
+{{< /files >}}

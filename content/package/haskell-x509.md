@@ -14,7 +14,7 @@ sha1sum = "3c3a7409d6e78f14937fd15322c01c716d69b45e"
 depends = "['haskell-asn1-parse', 'haskell-cryptonite', 'haskell-pem']"
 reverse_depends = "['haskell-x509-store']"
 +++
-X509 reader and writer{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/x509-1.7.7/Data/X509.dyn_hi
+X509 reader and writer{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/x509-1.7.7/Data/X509.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/x509-1.7.7/Data/X509.hi
 * /usr/lib/ghc-9.8.1/site-local/x509-1.7.7/Data/X509/AlgorithmIdentifier.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/x509-1.7.7/Data/X509/AlgorithmIdentifier.hi
@@ -75,4 +75,4 @@ X509 reader and writer{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/x509-1.7.7/LICENSE
 * /usr/share/haskell/haskell-x509/register.sh
 * /usr/share/haskell/haskell-x509/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

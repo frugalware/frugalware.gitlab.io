@@ -13,7 +13,7 @@ usize = "17325903"
 sha1sum = "fe103f94b76d7fa4a0108ba81e5bab7ceb2178fd"
 depends = "[]"
 +++
-Ellanna theme for Gnome.{{< spoiler text="show files" >}}* /usr/share/doc/gnome-theme-ellannar-1.3.2/COPYING
+Ellanna theme for Gnome.{{< files text="show files" >}}* /usr/share/doc/gnome-theme-ellannar-1.3.2/COPYING
 * /usr/share/gnome-background-properties/ellanna-wallpaper.xml
 * /usr/share/icons/ellanna/actions/16/add.svg
 * /usr/share/icons/ellanna/actions/16/address-book-new.svg
@@ -4873,4 +4873,4 @@ Ellanna theme for Gnome.{{< spoiler text="show files" >}}* /usr/share/doc/gnome-
 * /usr/share/themes/ellanna/metacity-1/metacity-theme-1.xml
 * /usr/share/themes/ellanna/metacity-1/top_left.png
 * /usr/share/themes/ellanna/metacity-1/top_right.png
-{{< /spoiler >}}
+{{< /files >}}

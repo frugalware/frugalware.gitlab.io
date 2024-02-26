@@ -14,10 +14,10 @@ sha1sum = "bb63456ea509c3c340eb24d7c3de181d8dc9419c"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-json-xs']"
 +++
-save a tree AND a kitten, use common::sense!{{< spoiler text="show files" >}}* /usr/lib/perl5/5.38/site_perl/common/sense.pm
+save a tree AND a kitten, use common::sense!{{< files text="show files" >}}* /usr/lib/perl5/5.38/site_perl/common/sense.pm
 * /usr/lib/perl5/5.38/site_perl/common/sense.pod
 * /usr/share/doc/perl-common-sense-3.75/LICENSE
 * /usr/share/doc/perl-common-sense-3.75/MANIFEST
 * /usr/share/doc/perl-common-sense-3.75/README
 * /usr/share/man/man3/common::sense.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

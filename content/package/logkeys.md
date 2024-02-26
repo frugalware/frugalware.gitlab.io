@@ -13,7 +13,7 @@ usize = "119738"
 sha1sum = "f75a5758112549a7855b232f798a3b5e90946e28"
 depends = "['kbd']"
 +++
-Logkeys is a linux keylogger.{{< spoiler text="show files" >}}* /etc/sysconfig/logkeysd
+Logkeys is a linux keylogger.{{< files text="show files" >}}* /etc/sysconfig/logkeysd
 * /usr/bin/llk
 * /usr/bin/llkk
 * /usr/bin/logkeys
@@ -49,4 +49,4 @@ Logkeys is a linux keylogger.{{< spoiler text="show files" >}}* /etc/sysconfig/l
 * /usr/share/logkeys/keymaps/sv.map
 * /usr/share/logkeys/keymaps/tr.map
 * /usr/share/man/man8/logkeys.8.gz
-{{< /spoiler >}}
+{{< /files >}}

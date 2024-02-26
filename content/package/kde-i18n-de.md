@@ -13,7 +13,7 @@ usize = "38457699"
 sha1sum = "19bfd1360e5e6f18eff3ad4cebbdd34f77e6c6ea"
 depends = "[]"
 +++
-German Localization for KDE.{{< spoiler text="show files" >}}* usr/share/apps/kanagram/data/de/hauptstaedte.kvtml
+German Localization for KDE.{{< files text="show files" >}}* usr/share/apps/kanagram/data/de/hauptstaedte.kvtml
 * usr/share/apps/kanagram/data/de/personen.kvtml
 * usr/share/apps/kanagram/data/de/tiere.kvtml
 * usr/share/apps/katepart/syntax/logohighlightstyle.de_DE.xml
@@ -2463,4 +2463,4 @@ German Localization for KDE.{{< spoiler text="show files" >}}* usr/share/apps/ka
 * usr/share/locale/de/LC_MESSAGES/wakeup.mo
 * usr/share/locale/de/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/de/LC_MESSAGES/webarchiver.mo
-{{< /spoiler >}}
+{{< /files >}}

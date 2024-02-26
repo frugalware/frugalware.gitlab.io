@@ -13,7 +13,7 @@ usize = "2553935"
 sha1sum = "ffbf5b0630f67c67ee10ff079a9bfbfda051bb15"
 depends = "[]"
 +++
-Mac OS theme for KDE{{< spoiler text="show files" >}}* usr/bin/bab
+Mac OS theme for KDE{{< files text="show files" >}}* usr/bin/bab
 * usr/include/baghirasidebar.h
 * usr/include/baghirasidebariface.h
 * usr/include/dndlistbox.h
@@ -89,4 +89,4 @@ Mac OS theme for KDE{{< spoiler text="show files" >}}* usr/bin/bab
 * usr/share/icons/crystalsvg/64x64/apps/baghira_grey.png
 * usr/share/icons/crystalsvg/64x64/apps/baghira_white.png
 * usr/share/icons/crystalsvg/64x64/apps/baghira_yellow.png
-{{< /spoiler >}}
+{{< /files >}}

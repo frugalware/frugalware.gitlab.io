@@ -14,7 +14,7 @@ sha1sum = "d022e5b602c831a69b06ca02d8c3b97af227699f"
 depends = "['glibc>=2.34']"
 reverse_depends = "['libselinux']"
 +++
-SELinux binary policy manipulation library{{< spoiler text="show files" >}}* /usr/bin/chkcon
+SELinux binary policy manipulation library{{< files text="show files" >}}* /usr/bin/chkcon
 * /usr/bin/sepol_check_access
 * /usr/bin/sepol_compute_av
 * /usr/bin/sepol_compute_member
@@ -75,4 +75,4 @@ SELinux binary policy manipulation library{{< spoiler text="show files" >}}* /us
 * /usr/share/man/man8/chkcon.8.gz
 * /usr/share/man/man8/genpolbools.8.gz
 * /usr/share/man/man8/genpolusers.8.gz
-{{< /spoiler >}}
+{{< /files >}}

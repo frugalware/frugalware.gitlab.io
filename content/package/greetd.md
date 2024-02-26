@@ -14,7 +14,7 @@ sha1sum = "3bfe5db6e0d5b2fd0c7fb92266f3418b34c99dc0"
 depends = "['libcap-ng', 'pam', 'systemd']"
 reverse_depends = "['greetd-qtgreet']"
 +++
-Generic greeter daemon{{< spoiler text="show files" >}}* /etc/greetd/config.toml
+Generic greeter daemon{{< files text="show files" >}}* /etc/greetd/config.toml
 * /etc/pam.d/greetd
 * /usr/bin/agreety
 * /usr/bin/greetd
@@ -22,4 +22,4 @@ Generic greeter daemon{{< spoiler text="show files" >}}* /etc/greetd/config.toml
 * /usr/lib/sysusers.d/greetd.conf
 * /usr/share/doc/greetd-0.9.0/LICENSE
 * /usr/share/doc/greetd-0.9.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

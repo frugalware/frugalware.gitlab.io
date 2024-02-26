@@ -13,7 +13,7 @@ usize = "37080562"
 sha1sum = "114aed3be4e42a8c5c4d1c351b3c93bf69337709"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Chinese (traditional) support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/zh-TW/default.css
+Installs Chinese (traditional) support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/zh-TW/default.css
 * /usr/lib/libreoffice/help/zh-TW/err.html
 * /usr/lib/libreoffice/help/zh-TW/highcontrast1.css
 * /usr/lib/libreoffice/help/zh-TW/highcontrast2.css
@@ -134,4 +134,4 @@ Installs Chinese (traditional) support in LibreOffice{{< spoiler text="show file
 * /usr/lib/libreoffice/share/registry/Langpack-zh-TW.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_zh-TW.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_zh-TW.xcd
-{{< /spoiler >}}
+{{< /files >}}

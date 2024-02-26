@@ -14,7 +14,7 @@ sha1sum = "e24a3e8373ac5a6cbbe148ae27ad2d141a3ae7d6"
 depends = "['qt5-svg>=5.15.11']"
 reverse_depends = "['eventviews']"
 +++
-Libraries for creating business diagrams{{< spoiler text="show files" >}}* /usr/include/KChart/KChart
+Libraries for creating business diagrams{{< files text="show files" >}}* /usr/include/KChart/KChart
 * /usr/include/KChart/KChartAbstractArea
 * /usr/include/KChart/KChartAbstractArea.h
 * /usr/include/KChart/KChartAbstractAreaBase
@@ -273,4 +273,4 @@ Libraries for creating business diagrams{{< spoiler text="show files" >}}* /usr/
 * /usr/share/locale/zh_TW/LC_MESSAGES/kgantt_qt.qm
 * /usr/share/qt5/mkspecs/modules/qt_KChart.pri
 * /usr/share/qt5/mkspecs/modules/qt_KGantt.pri
-{{< /spoiler >}}
+{{< /files >}}

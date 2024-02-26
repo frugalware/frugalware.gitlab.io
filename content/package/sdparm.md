@@ -13,7 +13,7 @@ usize = "516649"
 sha1sum = "9e4bba7f2d7fec8b9fd098dd05a3c866dc3b647a"
 depends = "['glibc>=2.29-6']"
 +++
-sdparm list or change SCSI/ATAPI disk parameters.{{< spoiler text="show files" >}}* /usr/bin/sas_disk_blink
+sdparm list or change SCSI/ATAPI disk parameters.{{< files text="show files" >}}* /usr/bin/sas_disk_blink
 * /usr/bin/scsi_ch_swp
 * /usr/bin/sdparm
 * /usr/share/doc/sdparm-1.12/AUTHORS
@@ -25,4 +25,4 @@ sdparm list or change SCSI/ATAPI disk parameters.{{< spoiler text="show files" >
 * /usr/share/man/man8/sas_disk_blink.8.gz
 * /usr/share/man/man8/scsi_ch_swp.8.gz
 * /usr/share/man/man8/sdparm.8.gz
-{{< /spoiler >}}
+{{< /files >}}

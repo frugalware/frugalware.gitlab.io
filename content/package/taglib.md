@@ -14,7 +14,7 @@ sha1sum = "3bebaa5c9aeb84906704bdb93031d8558fb420b8"
 depends = "['libstdc++>=11.3', 'zlib>=1.2.12']"
 reverse_depends = "['babe', 'ffmpegthumbs', 'gst1-plugins-good-taglib', 'juk', 'kasts', 'kfilemetadata5', 'kio-extras', 'krename', 'kzenexplorer', 'ncmpcpp', 'qmmp', 'vlc-taglib', 'xcfa']"
 +++
-A library for reading and editing the meta-data of several popular audio formats.{{< spoiler text="show files" >}}* /usr/bin/taglib-config
+A library for reading and editing the meta-data of several popular audio formats.{{< files text="show files" >}}* /usr/bin/taglib-config
 * /usr/include/taglib/aifffile.h
 * /usr/include/taglib/aiffproperties.h
 * /usr/include/taglib/apefile.h
@@ -145,4 +145,4 @@ A library for reading and editing the meta-data of several popular audio formats
 * /usr/share/doc/taglib-2.0/COPYING.MPL
 * /usr/share/doc/taglib-2.0/INSTALL.md
 * /usr/share/doc/taglib-2.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

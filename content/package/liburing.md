@@ -14,7 +14,7 @@ sha1sum = "7e1eadc7ee44a5fc1ac3888e72a3093458a0915b"
 depends = "['glibc']"
 reverse_depends = "['libdex', 'mariadb-libs', 'mpd', 'qemu', 'qemu-guest']"
 +++
-Linux-native io_uring I/O access library{{< spoiler text="show files" >}}* /usr/include/liburing.h
+Linux-native io_uring I/O access library{{< files text="show files" >}}* /usr/include/liburing.h
 * /usr/include/liburing/barrier.h
 * /usr/include/liburing/compat.h
 * /usr/include/liburing/io_uring.h
@@ -189,4 +189,4 @@ Linux-native io_uring I/O access library{{< spoiler text="show files" >}}* /usr/
 * /usr/share/man/man3/io_uring_wait_cqe_timeout.3.gz
 * /usr/share/man/man3/__io_uring_buf_ring_cq_advance.3.gz
 * /usr/share/man/man7/io_uring.7.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,5 +13,5 @@ usize = "149030"
 sha1sum = "7f6015a89c5e851c6de1e52a7dda0c4dc3c4dda0"
 depends = "[]"
 +++
-Generates conjugations of french verbs - with gnome-panel applet{{< spoiler text="show files" >}}* /usr/libexec/verbiste-applet
-{{< /spoiler >}}
+Generates conjugations of french verbs - with gnome-panel applet{{< files text="show files" >}}* /usr/libexec/verbiste-applet
+{{< /files >}}

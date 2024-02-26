@@ -14,7 +14,7 @@ sha1sum = "dcadeec2f09b6866264b2171015f239b98f43434"
 depends = "['curl', 'raptor']"
 reverse_depends = "['darktable']"
 +++
-C library for the Flickr API{{< spoiler text="show files" >}}* /usr/bin/flickcurl
+C library for the Flickr API{{< files text="show files" >}}* /usr/bin/flickcurl
 * /usr/bin/flickcurl-config
 * /usr/bin/flickrdf
 * /usr/include/flickcurl.h
@@ -106,4 +106,4 @@ C library for the Flickr API{{< spoiler text="show files" >}}* /usr/bin/flickcur
 * /usr/share/man/man1/flickcurl-config.1.gz
 * /usr/share/man/man1/flickcurl.1.gz
 * /usr/share/man/man1/flickrdf.1.gz
-{{< /spoiler >}}
+{{< /files >}}

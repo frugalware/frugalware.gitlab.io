@@ -13,7 +13,7 @@ usize = "25488090"
 sha1sum = "5ab5a62d63499caf64e4409ef16f720b72982099"
 depends = "['texlive=2023.0']"
 +++
-Extra Bibtex Styles for TeX Live{{< spoiler text="show files" >}}* /usr/bin/bbl2bib
+Extra Bibtex Styles for TeX Live{{< files text="show files" >}}* /usr/bin/bbl2bib
 * /usr/bin/bibdoiadd
 * /usr/bin/bibexport
 * /usr/bin/bibmradd
@@ -805,4 +805,4 @@ Extra Bibtex Styles for TeX Live{{< spoiler text="show files" >}}* /usr/bin/bbl2
 * /usr/share/texmf-dist/tex/latex/uni-wtal-lin/uni-wtal-lin.cbx
 * /usr/share/texmf-dist/tex/latex/usebib/usebib.sty
 * /usr/share/texmf-dist/tex/plain/harvmac/harvmac.tex
-{{< /spoiler >}}
+{{< /files >}}

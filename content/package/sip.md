@@ -13,7 +13,7 @@ usize = "3723689"
 sha1sum = "52e235821ba607dec628599d2f6d5f7c2a3902d7"
 depends = "['python3-packaging', 'python3-ply', 'python3-toml']"
 +++
-SIP bindings for C and C++ libraries{{< spoiler text="show files" >}}* /usr/bin/sip-build
+SIP bindings for C and C++ libraries{{< files text="show files" >}}* /usr/bin/sip-build
 * /usr/bin/sip-distinfo
 * /usr/bin/sip-install
 * /usr/bin/sip-module
@@ -215,4 +215,4 @@ SIP bindings for C and C++ libraries{{< spoiler text="show files" >}}* /usr/bin/
 * /usr/share/doc/sip-6.7.12/README.pyside2.md
 * /usr/share/doc/sip-6.7.12/README.shiboken2-generator.md
 * /usr/share/doc/sip-6.7.12/README.shiboken2.md
-{{< /spoiler >}}
+{{< /files >}}

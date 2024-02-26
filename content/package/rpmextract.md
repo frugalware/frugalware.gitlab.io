@@ -13,8 +13,8 @@ usize = "979"
 sha1sum = "f6fe1fdb80f25deac9fd05bee981acaafd1793e0"
 depends = "[]"
 +++
-Script to convert or extract RPM archives (contains rpm2cpio){{< spoiler text="show files" >}}* /usr/bin/rpm2cpio
+Script to convert or extract RPM archives (contains rpm2cpio){{< files text="show files" >}}* /usr/bin/rpm2cpio
 * /usr/bin/rpmextract
 * /usr/bin/rpmextract.sh
 * /usr/bin/rpmunpack
-{{< /spoiler >}}
+{{< /files >}}

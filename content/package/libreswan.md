@@ -13,7 +13,7 @@ usize = "4097759"
 sha1sum = "cf90db5dfed634e8bf67dc23abaed087a3087c6b"
 depends = "['curl', 'ldns>=1.7.1', 'libcap-ng', 'libevent>=2.1.11', 'libsystemd', 'libxcrypt', 'nss', 'unbound>=1.18.0']"
 +++
-IPsec implementation with IKEv1 and IKEv2 keying protocols{{< spoiler text="show files" >}}* /etc/ipsec.conf
+IPsec implementation with IKEv1 and IKEv2 keying protocols{{< files text="show files" >}}* /etc/ipsec.conf
 * /etc/ipsec.d/policies/block
 * /etc/ipsec.d/policies/clear
 * /etc/ipsec.d/policies/clear-or-private
@@ -70,4 +70,4 @@ IPsec implementation with IKEv1 and IKEv2 keying protocols{{< spoiler text="show
 * /usr/share/doc/libreswan-4.12/README.x509
 * /usr/share/doc/libreswan/ipsec.conf-sample
 * /usr/share/doc/libreswan/ipsec.secrets-sample
-{{< /spoiler >}}
+{{< /files >}}

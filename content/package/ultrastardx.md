@@ -13,7 +13,7 @@ usize = "82141311"
 sha1sum = "3967a1a4a99a65b4248abce94bb42351ed4e2630"
 depends = "['ffmpeg>=6.0', 'freetype2', 'lua', 'sdl2', 'sdl2_image']"
 +++
-Free and open source karaoke game. (GIT){{< spoiler text="show files" >}}* /usr/bin/ultrastardx
+Free and open source karaoke game. (GIT){{< files text="show files" >}}* /usr/bin/ultrastardx
 * /usr/share/applications/ultrastardx.desktop
 * /usr/share/doc/ultrastardx-2020.4.0/COPYRIGHT.txt
 * /usr/share/doc/ultrastardx-2020.4.0/LICENSE
@@ -746,4 +746,4 @@ Free and open source karaoke game. (GIT){{< spoiler text="show files" >}}* /usr/
 * /usr/share/ultrastardx/themes/Modern/[stat]mainBG3.png
 * /usr/share/ultrastardx/themes/Modern/[tournament]trophy.png
 * /usr/share/ultrastardx/themes/Modern/[tournament]winner.png
-{{< /spoiler >}}
+{{< /files >}}

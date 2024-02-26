@@ -13,7 +13,7 @@ usize = "423865"
 sha1sum = "085ac581023fbcf87874c415cd98ef4706753f7e"
 depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kirigami-addons', 'mpv', 'qt5-svg', 'yt-dlp']"
 +++
-Kirigami YouTube video player based on QtMultimedia and youtube-dl{{< spoiler text="show files" >}}* /usr/bin/plasmatube
+Kirigami YouTube video player based on QtMultimedia and youtube-dl{{< files text="show files" >}}* /usr/bin/plasmatube
 * /usr/share/applications/org.kde.plasmatube.desktop
 * /usr/share/doc/plasmatube-23.08.5/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.plasmatube.svg
@@ -55,4 +55,4 @@ Kirigami YouTube video player based on QtMultimedia and youtube-dl{{< spoiler te
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasmatube.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasmatube.mo
 * /usr/share/metainfo/org.kde.plasmatube.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

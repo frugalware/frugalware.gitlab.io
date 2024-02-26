@@ -13,7 +13,7 @@ usize = "32581373"
 sha1sum = "e3df59222f2ab10035ece94be9e7656cc7cd7644"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Latvian support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/lv/default.css
+Installs Latvian support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/lv/default.css
 * /usr/lib/libreoffice/help/lv/err.html
 * /usr/lib/libreoffice/help/lv/highcontrast1.css
 * /usr/lib/libreoffice/help/lv/highcontrast2.css
@@ -131,4 +131,4 @@ Installs Latvian support in LibreOffice{{< spoiler text="show files" >}}* /usr/l
 * /usr/lib/libreoffice/share/registry/Langpack-lv.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_lv.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_lv.xcd
-{{< /spoiler >}}
+{{< /files >}}

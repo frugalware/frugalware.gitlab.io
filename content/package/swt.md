@@ -14,7 +14,7 @@ sha1sum = "3055deaa46ccef70d14b17007c5f7c4bd52b5379"
 depends = "['gtk+3', 'libglu', 'libxt', 'libxtst', 'openjre']"
 reverse_depends = "['oneswarm', 'tuxguitar']"
 +++
-SWT is an open source widget toolkit for Java designed to provide efficient, portable access to the user-interface.{{< spoiler text="show files" >}}* /usr/lib/libswt-cairo-gtk-4956r13.so
+SWT is an open source widget toolkit for Java designed to provide efficient, portable access to the user-interface.{{< files text="show files" >}}* /usr/lib/libswt-cairo-gtk-4956r13.so
 * /usr/lib/libswt-glx-gtk-4956r13.so
 * /usr/lib/libswt-gtk-4956r13.so
 * /usr/lib/libswt-pi3-gtk-4956r13.so
@@ -25,4 +25,4 @@ SWT is an open source widget toolkit for Java designed to provide efficient, por
 * /usr/share/doc/swt-4.26/about_files/mpl-v20.txt
 * /usr/share/doc/swt-4.26/about_files/webkit-bsd.txt
 * /usr/share/java/swt.jar
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "2e1f70db02725a4b5209a739ed188b7b131e3680"
 depends = "['libstdc++', 'libx11']"
 reverse_depends = "['kde-theme-qtcurve', 'qtcurve-gtk2', 'qtcurve-qt5']"
 +++
-QtCurve Theme libs{{< spoiler text="show files" >}}* /usr/lib/libqtcurve-utils.so
+QtCurve Theme libs{{< files text="show files" >}}* /usr/lib/libqtcurve-utils.so
 * /usr/lib/libqtcurve-utils.so.2
 * /usr/lib/libqtcurve-utils.so.2.0
 * /usr/share/doc/qtcurve-1.9/AUTHORS
@@ -48,4 +48,4 @@ QtCurve Theme libs{{< spoiler text="show files" >}}* /usr/lib/libqtcurve-utils.s
 * /usr/share/locale/zh_CN/LC_MESSAGES/qtcurve.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/qtcurve.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/qtcurve.mo
-{{< /spoiler >}}
+{{< /files >}}

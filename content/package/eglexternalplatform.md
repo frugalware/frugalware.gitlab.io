@@ -14,9 +14,9 @@ sha1sum = "dbdd6f31e1bc7213528546f0104e35fb9710c7ab"
 depends = "['libegl']"
 reverse_depends = "['egl-wayland']"
 +++
-EGL External Platform interface{{< spoiler text="show files" >}}* /usr/include/EGL/eglexternalplatform.h
+EGL External Platform interface{{< files text="show files" >}}* /usr/include/EGL/eglexternalplatform.h
 * /usr/include/EGL/eglexternalplatformversion.h
 * /usr/lib/pkgconfig/eglexternalplatform.pc
 * /usr/share/doc/eglexternalplatform-1.1/COPYING
 * /usr/share/doc/eglexternalplatform-1.1/README.md
-{{< /spoiler >}}
+{{< /files >}}

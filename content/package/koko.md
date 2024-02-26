@@ -13,7 +13,7 @@ usize = "28213034"
 sha1sum = "ce508e4118cbc9bec66a1802c4fa2024ddb90101"
 depends = "['exiv2>=0.28.1', 'kdeclarative', 'kfilemetadata5', 'kio', 'kquickimageeditor', 'qt5-location']"
 +++
-Image gallery application{{< spoiler text="show files" >}}* /usr/bin/koko
+Image gallery application{{< files text="show files" >}}* /usr/bin/koko
 * /usr/lib/libkokocommon.so
 * /usr/lib/libkokocommon.so.0.0.1
 * /usr/share/applications/org.kde.koko.desktop
@@ -60,4 +60,4 @@ Image gallery application{{< spoiler text="show files" >}}* /usr/bin/koko
 * /usr/share/metainfo/org.kde.koko.appdata.xml
 * /usr/share/qt5/qml/org/kde/koko/libkokoqmlplugin.so
 * /usr/share/qt5/qml/org/kde/koko/qmldir
-{{< /spoiler >}}
+{{< /files >}}

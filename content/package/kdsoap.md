@@ -14,7 +14,7 @@ sha1sum = "944bd3f2f50e17c51df681a954074d2c271c7078"
 depends = "['qt5-base>=5.15.10']"
 reverse_depends = "['kio-extras']"
 +++
-Qt-based client-side and server-side SOAP component{{< spoiler text="show files" >}}* /usr/bin/kdwsdl2cpp
+Qt-based client-side and server-side SOAP component{{< files text="show files" >}}* /usr/bin/kdwsdl2cpp
 * /usr/include/KDSoapClient/KDDateTime
 * /usr/include/KDSoapClient/KDDateTime.h
 * /usr/include/KDSoapClient/KDQName
@@ -96,4 +96,4 @@ Qt-based client-side and server-side SOAP component{{< spoiler text="show files"
 * /usr/share/mkspecs/features/kdsoap.prf
 * /usr/share/qt5/mkspecs/modules/qt_KDSoapClient.pri
 * /usr/share/qt5/mkspecs/modules/qt_KDSoapServer.pri
-{{< /spoiler >}}
+{{< /files >}}

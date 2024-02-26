@@ -14,7 +14,7 @@ sha1sum = "b2ca2a2cb25845419c8c1350d511749f0b80dd7a"
 depends = "['kdevelop', 'php']"
 reverse_depends = "['umbrello']"
 +++
-PHP Language Plugin for KDevelop{{< spoiler text="show files" >}}* /usr/include/kdev-php/kdevphpversion.h
+PHP Language Plugin for KDevelop{{< files text="show files" >}}* /usr/include/kdev-php/kdevphpversion.h
 * /usr/include/kdev-php/parser/parsesession.h
 * /usr/include/kdev-php/parser/phplexer.h
 * /usr/include/kdev-php/parser/tokenstream.h
@@ -90,4 +90,4 @@ PHP Language Plugin for KDevelop{{< spoiler text="show files" >}}* /usr/include/
 * /usr/share/locale/zh_TW/LC_MESSAGES/kdevphp.mo
 * /usr/share/metainfo/org.kde.kdev-php.metainfo.xml
 * /usr/share/qlogging-categories5/kdevphpsupport.categories
-{{< /spoiler >}}
+{{< /files >}}

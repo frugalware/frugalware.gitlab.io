@@ -13,7 +13,7 @@ usize = "971985"
 sha1sum = "7fe5843c9e1ecae06d7e45a9e64c3f003663c57d"
 depends = "['ncurses>=6.1-2', 'pam']"
 +++
-A full-screen window manager that multiplexes a physical terminal{{< spoiler text="show files" >}}* /etc/pam.d/screen
+A full-screen window manager that multiplexes a physical terminal{{< files text="show files" >}}* /etc/pam.d/screen
 * /etc/screen/screenrc
 * /etc/screen/screenrc.user.example
 * /etc/tmpfiles.d/screen.conf
@@ -46,4 +46,4 @@ A full-screen window manager that multiplexes a physical terminal{{< spoiler tex
 * /usr/share/screen/utf8encodings/cc
 * /usr/share/screen/utf8encodings/cd
 * /usr/share/screen/utf8encodings/d6
-{{< /spoiler >}}
+{{< /files >}}

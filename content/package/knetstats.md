@@ -14,7 +14,7 @@ sha1sum = "172bcdf86dc719662fc68d84f00361134c9b7330"
 depends = "['libstdc++', 'libxi', 'libxmu']"
 license = "GPL"
 +++
-A network monitor that show the network transfer rate in a system tray icon.{{< spoiler text="show files" >}}* usr/bin/knetstats
+A network monitor that show the network transfer rate in a system tray icon.{{< files text="show files" >}}* usr/bin/knetstats
 * usr/share/applications/kde/knetstats.desktop
 * usr/share/apps/knetstats/pics/icon_pci.png
 * usr/share/apps/knetstats/pics/theme0_both.png
@@ -76,4 +76,4 @@ A network monitor that show the network transfer rate in a system tray icon.{{< 
 * usr/share/locale/sr@Latn/LC_MESSAGES/knetstats.mo
 * usr/share/locale/sv/LC_MESSAGES/knetstats.mo
 * usr/share/locale/tr/LC_MESSAGES/knetstats.mo
-{{< /spoiler >}}
+{{< /files >}}

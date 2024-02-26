@@ -13,7 +13,7 @@ usize = "271507"
 sha1sum = "7902cfe5c7cf7ef009e827718442847c03131d50"
 depends = "['meson', 'patchelf', 'python3-pyproject-metadata', 'python3-wheel']"
 +++
-Meson PEP 517 Python build backend{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/mesonpy/_compat.py
+Meson PEP 517 Python build backend{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/mesonpy/_compat.py
 * /usr/lib/python3.12/site-packages/mesonpy/_editable.py
 * /usr/lib/python3.12/site-packages/mesonpy/_rpath.py
 * /usr/lib/python3.12/site-packages/mesonpy/_tags.py
@@ -40,4 +40,4 @@ Meson PEP 517 Python build backend{{< spoiler text="show files" >}}* /usr/lib/py
 * /usr/lib/python3.12/site-packages/meson_python-0.15.0.dist-info/WHEEL
 * /usr/share/doc/meson-python-0.15.0/LICENSE
 * /usr/share/doc/meson-python-0.15.0/README.rst
-{{< /spoiler >}}
+{{< /files >}}

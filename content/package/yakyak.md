@@ -13,7 +13,7 @@ usize = "301085167"
 sha1sum = "d181ed6dcbf6f01b1aefc906a00beb404a2e20dc"
 depends = "['ttf-emojione-color']"
 +++
-Desktop client for Google Hangouts{{< spoiler text="show files" >}}* /usr/bin/yakyak
+Desktop client for Google Hangouts{{< files text="show files" >}}* /usr/bin/yakyak
 * /usr/share/applications/yakyak.desktop
 * /usr/share/doc/yakyak-1.5.11.5/LICENSE
 * /usr/share/doc/yakyak-1.5.11.5/README.md
@@ -133,4 +133,4 @@ Desktop client for Google Hangouts{{< spoiler text="show files" >}}* /usr/bin/ya
 * /usr/share/yakyak/version
 * /usr/share/yakyak/vk_swiftshader_icd.json
 * /usr/share/yakyak/yakyak
-{{< /spoiler >}}
+{{< /files >}}

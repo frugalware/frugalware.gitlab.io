@@ -14,7 +14,7 @@ sha1sum = "41377249b3de404cf494e6163a86317893a8d718"
 depends = "['ethtool', 'libnl', 'libsystemd', 'perl', 'python3']"
 reverse_depends = "['openucx']"
 +++
-RDMA core userspace libraries and daemons{{< spoiler text="show files" >}}* /etc/infiniband-diags/error_thresholds
+RDMA core userspace libraries and daemons{{< files text="show files" >}}* /etc/infiniband-diags/error_thresholds
 * /etc/infiniband-diags/ibdiag.conf
 * /etc/init.d/ibacm
 * /etc/init.d/iwpmd
@@ -684,4 +684,4 @@ RDMA core userspace libraries and daemons{{< spoiler text="show files" >}}* /etc
 * /usr/share/man/man8/smpquery.8.gz
 * /usr/share/man/man8/srp_daemon.8.gz
 * /usr/share/man/man8/vendstat.8.gz
-{{< /spoiler >}}
+{{< /files >}}

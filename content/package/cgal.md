@@ -13,7 +13,7 @@ usize = "40956890"
 sha1sum = "984b1c2a63f1c1bfca7955b2c32a9da16724340b"
 depends = "['libboost>=1.78.0', 'mpfr>=4.0.0-3']"
 +++
-An efficient C++ software library of geometric data structures and algorithms{{< spoiler text="show files" >}}* /usr/bin/cgal_create_CMakeLists
+An efficient C++ software library of geometric data structures and algorithms{{< files text="show files" >}}* /usr/bin/cgal_create_CMakeLists
 * /usr/bin/cgal_create_cmake_script
 * /usr/bin/cgal_make_macosx_app
 * /usr/include/CGAL/AABB_face_graph_triangle_primitive.h
@@ -3729,4 +3729,4 @@ An efficient C++ software library of geometric data structures and algorithms{{<
 * /usr/share/doc/CGAL/LICENSE.GPL
 * /usr/share/doc/CGAL/LICENSE.LGPL
 * /usr/share/man/man1/cgal_create_cmake_script.1.gz
-{{< /spoiler >}}
+{{< /files >}}

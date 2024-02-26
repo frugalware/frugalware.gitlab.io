@@ -14,7 +14,7 @@ sha1sum = "8177b6b06399d12492449c7cfc44261a88b3aa26"
 depends = "['python3']"
 reverse_depends = "['python3-poetry']"
 +++
-Style-preserving TOML library for Python{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/tomlkit-0.12.3.dist-info/LICENSE
+Style-preserving TOML library for Python{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/tomlkit-0.12.3.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/tomlkit-0.12.3.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/tomlkit-0.12.3.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/tomlkit-0.12.3.dist-info/WHEEL
@@ -60,4 +60,4 @@ Style-preserving TOML library for Python{{< spoiler text="show files" >}}* /usr/
 * /usr/lib/python3.12/site-packages/tomlkit/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-tomlkit-0.12.3/LICENSE
 * /usr/share/doc/python3-tomlkit-0.12.3/README.md
-{{< /spoiler >}}
+{{< /files >}}

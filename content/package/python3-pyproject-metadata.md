@@ -14,7 +14,7 @@ sha1sum = "ed19cf9d91fc31732818a09f095749aadf86c14d"
 depends = "['python3-packaging']"
 reverse_depends = "['meson-python']"
 +++
-PEP 621 metadata parsing{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/pyproject_metadata-0.7.1.dist-info/LICENSE
+PEP 621 metadata parsing{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pyproject_metadata-0.7.1.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/pyproject_metadata-0.7.1.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/pyproject_metadata-0.7.1.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/pyproject_metadata-0.7.1.dist-info/top_level.txt
@@ -25,4 +25,4 @@ PEP 621 metadata parsing{{< spoiler text="show files" >}}* /usr/lib/python3.12/s
 * /usr/lib/python3.12/site-packages/pyproject_metadata/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-pyproject-metadata-0.7.1/LICENSE
 * /usr/share/doc/python3-pyproject-metadata-0.7.1/README.md
-{{< /spoiler >}}
+{{< /files >}}

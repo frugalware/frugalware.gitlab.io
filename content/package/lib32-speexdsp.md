@@ -14,7 +14,7 @@ sha1sum = "74f149c8ac24aa0b3b1e6430e7399a75d7e2e51f"
 depends = "[]"
 reverse_depends = "['lib32-libpulse', 'lib32-speex']"
 +++
-Speex DSP lib ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/include/speex/speexdsp_config_types.h
+Speex DSP lib ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/speex/speexdsp_config_types.h
 * /usr/i686-frugalware-linux/include/speex/speexdsp_types.h
 * /usr/i686-frugalware-linux/include/speex/speex_echo.h
 * /usr/i686-frugalware-linux/include/speex/speex_jitter.h
@@ -24,4 +24,4 @@ Speex DSP lib ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-l
 * /usr/lib32/libspeexdsp.so.1
 * /usr/lib32/libspeexdsp.so.1.5.2
 * /usr/lib32/pkgconfig/speexdsp.pc
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,6 +13,6 @@ usize = "12519787"
 sha1sum = "43421f54d64d91d085c60d22cd5c2b2555b9ee9b"
 depends = "['vulkan-icd-loader', 'xcb-util-keysyms', 'zstd']"
 +++
-AMD Mesa Support for Vulkan{{< spoiler text="show files" >}}* /usr/lib/libvulkan_radeon.so
+AMD Mesa Support for Vulkan{{< files text="show files" >}}* /usr/lib/libvulkan_radeon.so
 * /usr/share/vulkan/icd.d/radeon_icd.x86_64.json
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "234e47428a346383d583ce7bb7294998b8fe2963"
 depends = "['qt5-base>=5.15.12']"
 reverse_depends = "['ghostwriter', 'kpimtextedit', 'ktextwidgets']"
 +++
-Spelling framework for Qt, plugin-based.{{< spoiler text="show files" >}}* /usr/bin/gentrigrams
+Spelling framework for Qt, plugin-based.{{< files text="show files" >}}* /usr/bin/gentrigrams
 * /usr/bin/parsetrigrams
 * /usr/include/KF5/Sonnet/sonnet_version.h
 * /usr/include/KF5/SonnetCore/Sonnet/BackgroundChecker
@@ -160,4 +160,4 @@ Spelling framework for Qt, plugin-based.{{< spoiler text="show files" >}}* /usr/
 * /usr/share/qt5/qml/org/kde/sonnet/libsonnetquickplugin.so
 * /usr/share/qt5/qml/org/kde/sonnet/plugins.qmltypes
 * /usr/share/qt5/qml/org/kde/sonnet/qmldir
-{{< /spoiler >}}
+{{< /files >}}

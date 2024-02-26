@@ -13,7 +13,7 @@ usize = "292268"
 sha1sum = "cdfa916aed5c5414e8f8ad0d9633845bf79f8b1e"
 depends = "['glibc']"
 +++
-Process accounting utilities{{< spoiler text="show files" >}}* /usr/bin/ac
+Process accounting utilities{{< files text="show files" >}}* /usr/bin/ac
 * /usr/bin/accton
 * /usr/bin/dump-acct
 * /usr/bin/dump-utmp
@@ -35,4 +35,4 @@ Process accounting utilities{{< spoiler text="show files" >}}* /usr/bin/ac
 * /usr/share/man/man8/dump-utmp.8.gz
 * /usr/share/man/man8/sa.8.gz
 * /var/log/account/pacct
-{{< /spoiler >}}
+{{< /files >}}

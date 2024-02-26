@@ -14,7 +14,7 @@ sha1sum = "b6a090fa8981cbf2a027486b1dff4dd06605c506"
 depends = "['curl', 'gcab>=1.2-2', 'gtk+3>=3.24.7-2', 'json-glib>=1.4.2-3', 'libstemmer', 'libyaml']"
 reverse_depends = "['fwupd']"
 +++
-Library for AppStream metadata{{< spoiler text="show files" >}}* /usr/bin/appstream-builder
+Library for AppStream metadata{{< files text="show files" >}}* /usr/bin/appstream-builder
 * /usr/bin/appstream-compose
 * /usr/bin/appstream-util
 * /usr/include/libappstream-glib/appstream-glib.h
@@ -105,4 +105,4 @@ Library for AppStream metadata{{< spoiler text="show files" >}}* /usr/bin/appstr
 * /usr/share/locale/uk/LC_MESSAGES/appstream-glib.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/appstream-glib.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/appstream-glib.mo
-{{< /spoiler >}}
+{{< /files >}}

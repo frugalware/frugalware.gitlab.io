@@ -13,7 +13,7 @@ usize = "7168130"
 sha1sum = "87122446fceb16dad07000d36e289bb4e3f4b01e"
 depends = "[]"
 +++
-Norwegian Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale/nb/charset
+Norwegian Localization for KDE.{{< files text="show files" >}}* usr/share/locale/nb/charset
 * usr/share/locale/nb/entry.desktop
 * usr/share/locale/nb/flag.png
 * usr/share/locale/nb/LC_MESSAGES/akregator.mo
@@ -563,4 +563,4 @@ Norwegian Localization for KDE.{{< spoiler text="show files" >}}* usr/share/loca
 * usr/share/locale/nb/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/nb/LC_MESSAGES/webarchiver.mo
 * usr/share/locale/nb/README
-{{< /spoiler >}}
+{{< /files >}}

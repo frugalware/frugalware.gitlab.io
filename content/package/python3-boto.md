@@ -14,7 +14,7 @@ sha1sum = "1c9dda80e2aad256351f239821112a12b33ed88f"
 depends = "['python3']"
 reverse_depends = "['duplicity']"
 +++
-Python interface to Amazon Web Services{{< spoiler text="show files" >}}* /usr/bin/asadmin
+Python interface to Amazon Web Services{{< files text="show files" >}}* /usr/bin/asadmin
 * /usr/bin/bundle_image
 * /usr/bin/cfadmin
 * /usr/bin/cq
@@ -796,4 +796,4 @@ Python interface to Amazon Web Services{{< spoiler text="show files" >}}* /usr/b
 * /usr/lib/python3.12/site-packages/boto/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-boto-2.49.0/LICENSE
 * /usr/share/doc/python3-boto-2.49.0/README.rst
-{{< /spoiler >}}
+{{< /files >}}

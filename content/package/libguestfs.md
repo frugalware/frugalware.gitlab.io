@@ -13,7 +13,7 @@ usize = "13540930"
 sha1sum = "a664a13353b43714b05fe4f5c0ed7c8c8c0922e3"
 depends = "['augeas>=1.9.0', 'cdrtools', 'cpio', 'fuse>=2.9.4', 'glib2>=2.50.1', 'gperf', 'jansson', 'libconfig', 'libvirt>=3.8.0', 'libxml2>=2.9.3-3', 'qemu>=2.10.1', 'readline>=8.0', 'yajl']"
 +++
-tools for accessing and modifying virtual machine disk images{{< spoiler text="show files" >}}* /etc/libguestfs-tools.conf
+tools for accessing and modifying virtual machine disk images{{< files text="show files" >}}* /etc/libguestfs-tools.conf
 * /usr/bin/guestfish
 * /usr/bin/guestmount
 * /usr/bin/guestunmount
@@ -216,4 +216,4 @@ tools for accessing and modifying virtual machine disk images{{< spoiler text="s
 * /usr/share/man/man3/guestfs.3.gz
 * /usr/share/man/man3/libguestfs.3.gz
 * /usr/share/man/man5/libguestfs-tools.conf.5.gz
-{{< /spoiler >}}
+{{< /files >}}

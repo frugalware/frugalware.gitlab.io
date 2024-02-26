@@ -14,7 +14,7 @@ sha1sum = "89e48cfdbe205e05890bf6ebb0648d174dac1222"
 depends = "['cyrus-sasl', 'kcalendarcore>=5.115.0', 'kcontacts>=5.115.0', 'kio>=5.115.0', 'kwallet5>=5.115.0', 'qt5-svg>=5.15.12', 'qt5-webengine>=5.15.12']"
 reverse_depends = "['kdepim-runtime', 'kio-gdrive', 'kmailtransport']"
 +++
-A KDE-based library for accessing various Google services via their public API.{{< spoiler text="show files" >}}* /usr/include/KPim5/KGAPI/KGAPI/Account
+A KDE-based library for accessing various Google services via their public API.{{< files text="show files" >}}* /usr/include/KPim5/KGAPI/KGAPI/Account
 * /usr/include/KPim5/KGAPI/kgapi/account.h
 * /usr/include/KPim5/KGAPI/KGAPI/AccountInfo
 * /usr/include/KPim5/KGAPI/kgapi/accountinfo.h
@@ -469,4 +469,4 @@ A KDE-based library for accessing various Google services via their public API.{
 * /usr/share/qt5/mkspecs/modules/qt_KGAPIMaps.pri
 * /usr/share/qt5/mkspecs/modules/qt_KGAPIPeople.pri
 * /usr/share/qt5/mkspecs/modules/qt_KGAPITasks.pri
-{{< /spoiler >}}
+{{< /files >}}

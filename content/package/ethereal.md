@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "a39303bbb22a83a1631e592f43d86ed82ef07412"
 depends = "['gnutls', 'gtk+2', 'libpcap', 'pcre']"
 +++
-The world's most popular network protocol analyzer{{< spoiler text="show files" >}}* usr/bin/capinfos
+The world's most popular network protocol analyzer{{< files text="show files" >}}* usr/bin/capinfos
 * usr/bin/dftest
 * usr/bin/dumpcap
 * usr/bin/editcap
@@ -206,4 +206,4 @@ The world's most popular network protocol analyzer{{< spoiler text="show files" 
 * usr/share/ethereal/radius/dictionary.xedia
 * usr/share/ethereal/tethereal.html
 * usr/share/ethereal/text2pcap.html
-{{< /spoiler >}}
+{{< /files >}}

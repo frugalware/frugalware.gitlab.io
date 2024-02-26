@@ -13,7 +13,7 @@ usize = "2138006"
 sha1sum = "422200752d1d6948fdfcd7a37baea29525211ab3"
 depends = "['ruby>=3.3.0']"
 +++
-Bundler manages an application's dependencies through its entire life, across many machines, systematically and repeatably.{{< spoiler text="show files" >}}* /usr/bin/bundle
+Bundler manages an application's dependencies through its entire life, across many machines, systematically and repeatably.{{< files text="show files" >}}* /usr/bin/bundle
 * /usr/bin/bundler
 * /usr/lib/ruby/gems/3.3.0/cache/bundler-2.5.5.gem
 * /usr/lib/ruby/gems/3.3.0/doc/bundler-2.5.5/ri/Bundler/app_cache-c.ri
@@ -429,4 +429,4 @@ Bundler manages an application's dependencies through its entire life, across ma
 * /usr/lib/ruby/gems/3.3.0/gems/bundler-2.5.5/LICENSE.md
 * /usr/lib/ruby/gems/3.3.0/gems/bundler-2.5.5/README.md
 * /usr/lib/ruby/gems/3.3.0/specifications/bundler-2.5.5.gemspec
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "5565c37b839e5a41d1a3148a7be2c5186e6eb9fd"
 depends = "['haskell-primitive>=0.7.2.0', 'haskell-random>=1.2.1']"
 reverse_depends = "['haskell-quickcheck']"
 +++
-High-quality splittable pseudorandom number generator.{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/tf-random-0.5/libHStf-random-0.5-EaH212NoU866yFMXChcsis.a
+High-quality splittable pseudorandom number generator.{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/tf-random-0.5/libHStf-random-0.5-EaH212NoU866yFMXChcsis.a
 * /usr/lib/ghc-9.8.1/site-local/tf-random-0.5/System/Random/TF.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/tf-random-0.5/System/Random/TF.hi
 * /usr/lib/ghc-9.8.1/site-local/tf-random-0.5/System/Random/TF/Gen.dyn_hi
@@ -41,4 +41,4 @@ High-quality splittable pseudorandom number generator.{{< spoiler text="show fil
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/tf-random-0.5/LICENSE
 * /usr/share/haskell/haskell-tf-random/register.sh
 * /usr/share/haskell/haskell-tf-random/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

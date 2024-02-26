@@ -13,7 +13,7 @@ usize = "32702822"
 sha1sum = "90fb71fd15d7b08886611fc8472ece7a534b0969"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Sidama support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/sid/default.css
+Installs Sidama support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/sid/default.css
 * /usr/lib/libreoffice/help/sid/err.html
 * /usr/lib/libreoffice/help/sid/highcontrast1.css
 * /usr/lib/libreoffice/help/sid/highcontrast2.css
@@ -131,4 +131,4 @@ Installs Sidama support in LibreOffice{{< spoiler text="show files" >}}* /usr/li
 * /usr/lib/libreoffice/share/registry/Langpack-sid.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_sid.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_sid.xcd
-{{< /spoiler >}}
+{{< /files >}}

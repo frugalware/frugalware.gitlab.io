@@ -14,7 +14,7 @@ sha1sum = "c37c65b9e46f4f471c6976ade939762449fb452e"
 depends = "['glibc']"
 reverse_depends = "['libgfortran']"
 +++
-Quadruple Precision Math library from GCC{{< spoiler text="show files" >}}* /usr/lib/libquadmath.a
+Quadruple Precision Math library from GCC{{< files text="show files" >}}* /usr/lib/libquadmath.a
 * /usr/lib/libquadmath.so
 * /usr/lib/libquadmath.so.0
 * /usr/lib/libquadmath.so.0.0.0
@@ -23,4 +23,4 @@ Quadruple Precision Math library from GCC{{< spoiler text="show files" >}}* /usr
 * /usr/lib32/libquadmath.so.0
 * /usr/lib32/libquadmath.so.0.0.0
 * /usr/share/info/libquadmath.info.gz
-{{< /spoiler >}}
+{{< /files >}}

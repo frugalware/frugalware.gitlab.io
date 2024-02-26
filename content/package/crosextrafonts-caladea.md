@@ -13,7 +13,7 @@ usize = "560427"
 sha1sum = "e32efbeff2a40b7a3ff037d0e52d459f4f090978"
 depends = "['fontconfig', 'mkfontscale']"
 +++
-Free equivalent font to Microsoft's Cambria{{< spoiler text="show files" >}}* /usr/share/doc/crosextrafonts-caladea-20230622.g336a529/README.md
+Free equivalent font to Microsoft's Cambria{{< files text="show files" >}}* /usr/share/doc/crosextrafonts-caladea-20230622.g336a529/README.md
 * /usr/share/fonts/X11/OTF/Caladea-Bold.otf
 * /usr/share/fonts/X11/OTF/Caladea-BoldItalic.otf
 * /usr/share/fonts/X11/OTF/Caladea-Italic.otf
@@ -22,4 +22,4 @@ Free equivalent font to Microsoft's Cambria{{< spoiler text="show files" >}}* /u
 * /usr/share/fonts/X11/TTF/Caladea-BoldItalic.ttf
 * /usr/share/fonts/X11/TTF/Caladea-Italic.ttf
 * /usr/share/fonts/X11/TTF/Caladea-Regular.ttf
-{{< /spoiler >}}
+{{< /files >}}

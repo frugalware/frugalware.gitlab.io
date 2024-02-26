@@ -14,7 +14,7 @@ sha1sum = "5213032cc1c25aaba2d58f6f78d2c28bb3d60ba9"
 depends = "['libvirt>=9.10.0', 'python3>=3.10']"
 reverse_depends = "['virt-manager']"
 +++
-The libvirt python binding.{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/libvirt.py
+The libvirt python binding.{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/libvirt.py
 * /usr/lib/python3.12/site-packages/libvirtaio.py
 * /usr/lib/python3.12/site-packages/libvirtmod.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/libvirtmod_lxc.cpython-312-x86_64-linux-gnu.so
@@ -35,4 +35,4 @@ The libvirt python binding.{{< spoiler text="show files" >}}* /usr/lib/python3.1
 * /usr/share/doc/libvirt-python3-9.10.0/HACKING
 * /usr/share/doc/libvirt-python3-9.10.0/README
 * /usr/share/doc/libvirt-python3-9.10.0/VERSION
-{{< /spoiler >}}
+{{< /files >}}

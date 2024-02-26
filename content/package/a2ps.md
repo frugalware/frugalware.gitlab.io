@@ -13,7 +13,7 @@ usize = "3811706"
 sha1sum = "b81f116197aac8de5f23b75cc418b483c799fe12"
 depends = "['groff', 'libgc', 'libpaper', 'psutils', 'psutils', 'texinfo', 'urw-fonts']"
 +++
-An Any to PostScript filter{{< spoiler text="show files" >}}* /etc/a2ps-site.cfg
+An Any to PostScript filter{{< files text="show files" >}}* /etc/a2ps-site.cfg
 * /etc/a2ps.cfg
 * /usr/bin/a2ps
 * /usr/bin/a2ps-lpr-wrapper
@@ -363,4 +363,4 @@ An Any to PostScript filter{{< spoiler text="show files" >}}* /etc/a2ps-site.cfg
 * /usr/share/ogonkify/ptmr-o.ps
 * /usr/share/ogonkify/ptmri-o.ps
 * /usr/share/ogonkify/README
-{{< /spoiler >}}
+{{< /files >}}

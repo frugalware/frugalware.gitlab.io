@@ -13,7 +13,7 @@ usize = "2456112"
 sha1sum = "7fe10532bd15e4ac0e5c81d9461f76e65b8abae8"
 depends = "['cups>=2.2.0-2', 'cups-filters', 'kio>=5.115.0', 'qt5-declarative>=5.15.12']"
 +++
-System tray utility, to autoconfig printers.{{< spoiler text="show files" >}}* /usr/bin/configure-printer
+System tray utility, to autoconfig printers.{{< files text="show files" >}}* /usr/bin/configure-printer
 * /usr/bin/kde-add-printer
 * /usr/bin/kde-print-queue
 * /usr/lib/libkcupslib.so
@@ -145,4 +145,4 @@ System tray utility, to autoconfig printers.{{< spoiler text="show files" >}}* /
 * /usr/share/plasma/plasmoids/org.kde.plasma.printmanager/metadata.json
 * /usr/share/qt5/qml/org/kde/plasma/printmanager/libprintmanager.so
 * /usr/share/qt5/qml/org/kde/plasma/printmanager/qmldir
-{{< /spoiler >}}
+{{< /files >}}

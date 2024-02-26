@@ -14,7 +14,7 @@ sha1sum = "f3cfb93c0fccc15d10c6ff12f84f85731eda76c1"
 depends = "[]"
 reverse_depends = "['lib32-fontconfig', 'lib32-v4l-utils']"
 +++
-JSON-C - A JSON implementation in C ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/include/json-c/arraylist.h
+JSON-C - A JSON implementation in C ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/json-c/arraylist.h
 * /usr/i686-frugalware-linux/include/json-c/debug.h
 * /usr/i686-frugalware-linux/include/json-c/json.h
 * /usr/i686-frugalware-linux/include/json-c/json_config.h
@@ -37,4 +37,4 @@ JSON-C - A JSON implementation in C ( 32bit ){{< spoiler text="show files" >}}* 
 * /usr/lib32/libjson-c.so.5
 * /usr/lib32/libjson-c.so.5.3.0
 * /usr/lib32/pkgconfig/json-c.pc
-{{< /spoiler >}}
+{{< /files >}}

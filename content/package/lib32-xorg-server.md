@@ -13,7 +13,7 @@ usize = "10447536"
 sha1sum = "cf200b2d67f7269c6d79c120a8b3ea6728e8c823"
 depends = "['lib32-libdbus', 'lib32-libepoxy>=1.5.2', 'lib32-libgbm>=19.0.0', 'lib32-libglapi>=19.0.0', 'lib32-libglvnd', 'lib32-libsystemd>=231-17', 'lib32-libudev', 'lib32-libxcvt', 'lib32-libxfont2>=2.0.1', 'lib32-mesa-dri-drivers>=19.0.0', 'lib32-mesa-libegl>=19.0.0', 'lib32-mesa-libglx>=19.0.0', 'lib32-pam', 'lib32-pixman>=0.32.8-3']"
 +++
-Modular X.Org X Server (32-bit){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/gtf
+Modular X.Org X Server (32-bit){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/gtf
 * /usr/i686-frugalware-linux/bin/X
 * /usr/i686-frugalware-linux/bin/Xnest
 * /usr/i686-frugalware-linux/bin/Xorg
@@ -188,4 +188,4 @@ Modular X.Org X Server (32-bit){{< spoiler text="show files" >}}* /usr/i686-frug
 * /usr/lib32/xorg/modules/libvgahw.so
 * /usr/lib32/xorg/modules/libwfb.so
 * /usr/lib32/xorg/protocol.txt
-{{< /spoiler >}}
+{{< /files >}}

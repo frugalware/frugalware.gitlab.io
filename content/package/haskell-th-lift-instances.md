@@ -14,7 +14,7 @@ sha1sum = "2a0553a94fcb7bbad39310570face2f045b86392"
 depends = "['haskell-th-lift', 'haskell-vector']"
 reverse_depends = "['haskell-unicode-collation']"
 +++
-Lift instances for template-haskell for common data types.{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/th-lift-instances-0.1.20/Instances/TH/Lift.dyn_hi
+Lift instances for template-haskell for common data types.{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/th-lift-instances-0.1.20/Instances/TH/Lift.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/th-lift-instances-0.1.20/Instances/TH/Lift.hi
 * /usr/lib/ghc-9.8.1/site-local/th-lift-instances-0.1.20/libHSth-lift-instances-0.1.20-1fENze1wK073fKtOql8uDB.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSth-lift-instances-0.1.20-1fENze1wK073fKtOql8uDB-ghc9.8.1.so
@@ -32,4 +32,4 @@ Lift instances for template-haskell for common data types.{{< spoiler text="show
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/th-lift-instances-0.1.20/LICENSE
 * /usr/share/haskell/haskell-th-lift-instances/register.sh
 * /usr/share/haskell/haskell-th-lift-instances/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "c071fcf23394ef95b45d24a56cef8ddd7614dd19"
 depends = "['libjpeg-turbo', 'libstdc++>=9.1.0-3']"
 reverse_depends = "['libopenraw-gnome']"
 +++
-Free software implementation for camera RAW files decoding{{< spoiler text="show files" >}}* /usr/include/libopenraw-0.3/libopenraw/bitmapdata.h
+Free software implementation for camera RAW files decoding{{< files text="show files" >}}* /usr/include/libopenraw-0.3/libopenraw/bitmapdata.h
 * /usr/include/libopenraw-0.3/libopenraw/cameraids.h
 * /usr/include/libopenraw-0.3/libopenraw/consts.h
 * /usr/include/libopenraw-0.3/libopenraw/debug.h
@@ -42,4 +42,4 @@ Free software implementation for camera RAW files decoding{{< spoiler text="show
 * /usr/share/doc/libopenraw-0.3.4/README
 * /usr/share/doc/libopenraw-0.3.4/RELEASE_NOTES
 * /usr/share/doc/libopenraw-0.3.4/TODO
-{{< /spoiler >}}
+{{< /files >}}

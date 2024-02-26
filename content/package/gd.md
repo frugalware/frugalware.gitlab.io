@@ -14,7 +14,7 @@ sha1sum = "98305dedfbe07bd8f4703651ce28a94e793806b6"
 depends = "['fontconfig>=2.12.1-2', 'freetype2>=2.9', 'libjpeg-turbo', 'libpng>=1.6.25', 'libtiff>=4.0.7-2', 'libxml2>=2.9.4-3']"
 reverse_depends = "['glibc-memusagestat', 'gnuplot', 'graphviz', 'libgphoto2', 'm17n-lib', 'nginx', 'texlive']"
 +++
-an ansi C library to generate fancy images from programs{{< spoiler text="show files" >}}* /usr/bin/annotate
+an ansi C library to generate fancy images from programs{{< files text="show files" >}}* /usr/bin/annotate
 * /usr/bin/bdftogd
 * /usr/bin/gd2copypal
 * /usr/bin/gd2togif
@@ -45,4 +45,4 @@ an ansi C library to generate fancy images from programs{{< spoiler text="show f
 * /usr/share/doc/gd-2.3.3/CONTRIBUTORS
 * /usr/share/doc/gd-2.3.3/COPYING
 * /usr/share/doc/gd-2.3.3/README.md
-{{< /spoiler >}}
+{{< /files >}}

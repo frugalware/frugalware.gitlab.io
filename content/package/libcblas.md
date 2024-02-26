@@ -14,7 +14,7 @@ sha1sum = "5f44da3287da0ade8c8dff8093374a555e516058"
 depends = "['libblas>=3.12.0', 'libgfortran>=11.2']"
 reverse_depends = "['dlib', 'python3-scipy']"
 +++
-C Standard Interface to BLAS Basic Linear Algebra Subprograms.{{< spoiler text="show files" >}}* /usr/lib/cmake/cblas-3.12.0/cblas-config-version.cmake
+C Standard Interface to BLAS Basic Linear Algebra Subprograms.{{< files text="show files" >}}* /usr/lib/cmake/cblas-3.12.0/cblas-config-version.cmake
 * /usr/lib/cmake/cblas-3.12.0/cblas-config.cmake
 * /usr/lib/cmake/cblas-3.12.0/cblas-targets-release.cmake
 * /usr/lib/cmake/cblas-3.12.0/cblas-targets.cmake
@@ -22,4 +22,4 @@ C Standard Interface to BLAS Basic Linear Algebra Subprograms.{{< spoiler text="
 * /usr/lib/libcblas.so.3
 * /usr/lib/libcblas.so.3.12.0
 * /usr/lib/pkgconfig/cblas.pc
-{{< /spoiler >}}
+{{< /files >}}

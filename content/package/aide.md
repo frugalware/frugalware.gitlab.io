@@ -13,7 +13,7 @@ usize = "315634"
 sha1sum = "87dbedda6c7023cae205d3758275749812116b88"
 depends = "['e2fsprogs', 'elfutils', 'mhash', 'pcre', 'xfsprogs-acl']"
 +++
-AIDE (Advanced Intrusion Detection Environment) is a replacement for Tripwire{{< spoiler text="show files" >}}* /etc/aide.conf
+AIDE (Advanced Intrusion Detection Environment) is a replacement for Tripwire{{< files text="show files" >}}* /etc/aide.conf
 * /usr/bin/aide
 * /usr/share/doc/aide-0.16.2/AUTHORS
 * /usr/share/doc/aide-0.16.2/ChangeLog
@@ -23,4 +23,4 @@ AIDE (Advanced Intrusion Detection Environment) is a replacement for Tripwire{{<
 * /usr/share/doc/aide-0.16.2/README
 * /usr/share/man/man1/aide.1.gz
 * /usr/share/man/man5/aide.conf.5.gz
-{{< /spoiler >}}
+{{< /files >}}

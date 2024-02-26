@@ -13,7 +13,7 @@ usize = "4582263"
 sha1sum = "d3dc2688c8c7bbf10000c4abd88021df24608750"
 depends = "['eventviews', 'kirigami-addons', 'mailcommon', 'qqc2-desktop-style']"
 +++
-A calendar application using Akonadi to sync with external services{{< spoiler text="show files" >}}* /usr/bin/merkuro-calendar
+A calendar application using Akonadi to sync with external services{{< files text="show files" >}}* /usr/bin/merkuro-calendar
 * /usr/bin/merkuro-contact
 * /usr/bin/merkuro-mail
 * /usr/share/applications/org.kde.merkuro.calendar.desktop
@@ -186,4 +186,4 @@ A calendar application using Akonadi to sync with external services{{< spoiler t
 * /usr/share/qt5/qml/org/kde/merkuro/mail/private/AttachmentDelegate.qml
 * /usr/share/qt5/qml/org/kde/merkuro/mail/private/MailDelegate.qml
 * /usr/share/qt5/qml/org/kde/merkuro/mail/qmldir
-{{< /spoiler >}}
+{{< /files >}}

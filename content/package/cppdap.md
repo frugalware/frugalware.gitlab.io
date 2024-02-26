@@ -13,7 +13,7 @@ usize = "1656810"
 sha1sum = "8ddec296264daf87e8b480d606d5802855b9ae19"
 depends = "['libstdc++']"
 +++
-C++ library for the Debug Adapter Protocol{{< spoiler text="show files" >}}* /usr/include/dap/any.h
+C++ library for the Debug Adapter Protocol{{< files text="show files" >}}* /usr/include/dap/any.h
 * /usr/include/dap/dap.h
 * /usr/include/dap/future.h
 * /usr/include/dap/io.h
@@ -34,4 +34,4 @@ C++ library for the Debug Adapter Protocol{{< spoiler text="show files" >}}* /us
 * /usr/lib/libcppdap.so
 * /usr/share/doc/cppdap-1.58.0/LICENSE
 * /usr/share/doc/cppdap-1.58.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

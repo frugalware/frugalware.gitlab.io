@@ -15,7 +15,7 @@ depends = "['curl>=7.50.3-2', 'libboost>=1.82.0', 'openssl>=3.1.0', 'ruby>=2.3.1
 reverse_depends = "['puppet']"
 license = "APACHE"
 +++
-Collect and display system facts{{< spoiler text="show files" >}}* /usr/bin/facter
+Collect and display system facts{{< files text="show files" >}}* /usr/bin/facter
 * /usr/include/facter/cwrapper.hpp
 * /usr/include/facter/export.h
 * /usr/include/facter/facts/array_value.hpp
@@ -44,4 +44,4 @@ Collect and display system facts{{< spoiler text="show files" >}}* /usr/bin/fact
 * /usr/share/doc/facter-3.14.24/LICENSE
 * /usr/share/doc/facter-3.14.24/README.md
 * /usr/share/man/man8/facter.8.gz
-{{< /spoiler >}}
+{{< /files >}}

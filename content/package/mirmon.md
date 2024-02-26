@@ -13,7 +13,7 @@ usize = "297186"
 sha1sum = "771183f2b1c99c3711ae6f0108a275e3ef8e9705"
 depends = "['perl>=5.28.2']"
 +++
-Monitors the status of mirrors.{{< spoiler text="show files" >}}* /usr/share/doc/mirmon-2.11/INSTALL
+Monitors the status of mirrors.{{< files text="show files" >}}* /usr/share/doc/mirmon-2.11/INSTALL
 * /usr/share/doc/mirmon-2.11/LICENSE
 * /usr/share/doc/mirmon-2.11/RELEASE-NOTES
 * /usr/share/doc/mirmon-2.11/VERSION
@@ -137,4 +137,4 @@ Monitors the status of mirrors.{{< spoiler text="show files" >}}* /usr/share/doc
 * /var/www/mirmon/probe
 * /var/www/mirmon/RELEASE-NOTES
 * /var/www/mirmon/VERSION
-{{< /spoiler >}}
+{{< /files >}}

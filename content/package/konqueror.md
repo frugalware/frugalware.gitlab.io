@@ -13,7 +13,7 @@ usize = "29174989"
 sha1sum = "512b0a9b6315f111754fe16ea0b85407496425a0"
 depends = "['kactivities5', 'kcmutils', 'kdelibs4support', 'kdesu', 'khtml', 'qt5-speech>=5.15.12', 'qt5-webengine>=5.15.12', 'tidy>=5.6.0']"
 +++
-Web browser and file manager{{< spoiler text="show files" >}}* /etc/xdg/autostart/konqy_preload.desktop
+Web browser and file manager{{< files text="show files" >}}* /etc/xdg/autostart/konqy_preload.desktop
 * /etc/xdg/konqsidebartngrc
 * /etc/xdg/translaterc
 * /etc/xdg/useragenttemplatesrc
@@ -2471,4 +2471,4 @@ Web browser and file manager{{< spoiler text="show files" >}}* /etc/xdg/autostar
 * /usr/share/qlogging-categories5/fsview.categories
 * /usr/share/qlogging-categories5/konqueror.categories
 * /usr/share/webenginepart/error.html
-{{< /spoiler >}}
+{{< /files >}}

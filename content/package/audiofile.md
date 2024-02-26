@@ -14,7 +14,7 @@ sha1sum = "35ffd9034568e1a46a5a1283de833111e0f76949"
 depends = "['glibc>=2.34', 'libstdc++>=11.2']"
 reverse_depends = "['kvirc', 'kvirc', 'kwave', 'mpd', 'pidgin']"
 +++
-Silicon Graphics Audio File Library{{< spoiler text="show files" >}}* /usr/bin/sfconvert
+Silicon Graphics Audio File Library{{< files text="show files" >}}* /usr/bin/sfconvert
 * /usr/bin/sfinfo
 * /usr/include/af_vfs.h
 * /usr/include/audiofile.h
@@ -64,4 +64,4 @@ Silicon Graphics Audio File Library{{< spoiler text="show files" >}}* /usr/bin/s
 * /usr/share/man/man3/afTellFrame.3.gz
 * /usr/share/man/man3/afWriteFrames.3.gz
 * /usr/share/man/man3/afWriteMisc.3.gz
-{{< /spoiler >}}
+{{< /files >}}

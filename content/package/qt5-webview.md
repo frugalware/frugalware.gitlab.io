@@ -13,7 +13,7 @@ usize = "232609"
 sha1sum = "76fe71d1d1fbd3bfcde3bed7a93d74770981638c"
 depends = "['qt5-webengine>=5.15.12']"
 +++
-The Qt5 toolkit, qtwebview{{< spoiler text="show files" >}}* /usr/include/qt5/QtWebView/5.15.12/QtWebView/private/qabstractwebview_p.h
+The Qt5 toolkit, qtwebview{{< files text="show files" >}}* /usr/include/qt5/QtWebView/5.15.12/QtWebView/private/qabstractwebview_p.h
 * /usr/include/qt5/QtWebView/5.15.12/QtWebView/private/qnativeviewcontroller_p.h
 * /usr/include/qt5/QtWebView/5.15.12/QtWebView/private/qquickviewcontroller_p.h
 * /usr/include/qt5/QtWebView/5.15.12/QtWebView/private/qquickwebviewloadrequest_p.h
@@ -44,4 +44,4 @@ The Qt5 toolkit, qtwebview{{< spoiler text="show files" >}}* /usr/include/qt5/Qt
 * /usr/share/qt5/qml/QtWebView/libdeclarative_webview.so
 * /usr/share/qt5/qml/QtWebView/plugins.qmltypes
 * /usr/share/qt5/qml/QtWebView/qmldir
-{{< /spoiler >}}
+{{< /files >}}

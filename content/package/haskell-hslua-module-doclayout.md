@@ -13,7 +13,7 @@ usize = "1491898"
 sha1sum = "49fab72d3e389cb5d567a671b34b1b472c4a4608"
 depends = "['haskell-doclayout', 'haskell-hslua']"
 +++
-Lua module wrapping Text.DocLayout{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hslua-module-doclayout-1.1.0/HsLua/Module/DocLayout.dyn_hi
+Lua module wrapping Text.DocLayout{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hslua-module-doclayout-1.1.0/HsLua/Module/DocLayout.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-module-doclayout-1.1.0/HsLua/Module/DocLayout.hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-module-doclayout-1.1.0/libHShslua-module-doclayout-1.1.0-B4uHQVR8Qug2uD95XWdVF0.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHShslua-module-doclayout-1.1.0-B4uHQVR8Qug2uD95XWdVF0-ghc9.8.1.so
@@ -33,4 +33,4 @@ Lua module wrapping Text.DocLayout{{< spoiler text="show files" >}}* /usr/lib/gh
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/hslua-module-doclayout-1.1.0/LICENSE
 * /usr/share/haskell/haskell-hslua-module-doclayout/register.sh
 * /usr/share/haskell/haskell-hslua-module-doclayout/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

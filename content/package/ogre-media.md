@@ -13,7 +13,7 @@ usize = "327628"
 sha1sum = "dfb1637007cf3a3cd917c2c2dfdc1a7e66bca7cb"
 depends = "['ogre']"
 +++
-OGRE media files and packs.{{< spoiler text="show files" >}}* /usr/share/OGRE-14.0/Media/Main/DefaultShaders.metal
+OGRE media files and packs.{{< files text="show files" >}}* /usr/share/OGRE-14.0/Media/Main/DefaultShaders.metal
 * /usr/share/OGRE-14.0/Media/Main/GLSL_GL3Support.glsl
 * /usr/share/OGRE-14.0/Media/Main/HLSL_SM4Support.hlsl
 * /usr/share/OGRE-14.0/Media/Main/OgreUnifiedShader.h
@@ -45,4 +45,4 @@ OGRE media files and packs.{{< spoiler text="show files" >}}* /usr/share/OGRE-14
 * /usr/share/OGRE-14.0/Media/RTShaderLib/SGXLib_WBOIT.glsl
 * /usr/share/OGRE-14.0/Media/Terrain/TerrainSurface.glsl
 * /usr/share/OGRE-14.0/Media/Terrain/TerrainTransforms.glsl
-{{< /spoiler >}}
+{{< /files >}}

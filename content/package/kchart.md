@@ -13,4 +13,4 @@ usize = "4096"
 sha1sum = "19e35630361d53a7720caa7e18cb6ad1f781a3be"
 depends = "['libgl', 'libxext']"
 +++
-KOffice Chart Generator{{< spoiler text="show files" >}}{{< /spoiler >}}
+KOffice Chart Generator{{< files text="show files" >}}{{< /files >}}

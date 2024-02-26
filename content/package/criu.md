@@ -14,7 +14,7 @@ sha1sum = "3fedd80b0938f6db5dd4307dd7ed3cc9798c9435"
 depends = "['libbsd', 'libdrm', 'libnet', 'libnl', 'libpthread-stubs', 'nftables', 'protobuf-c', 'python3>=3.11']"
 license = "GPL2"
 +++
-Checkpoint/Restore in Userspace tool{{< spoiler text="show files" >}}* /usr/bin/compel
+Checkpoint/Restore in Userspace tool{{< files text="show files" >}}* /usr/bin/compel
 * /usr/bin/crit
 * /usr/bin/criu
 * /usr/bin/criu-ns
@@ -89,4 +89,4 @@ Checkpoint/Restore in Userspace tool{{< spoiler text="show files" >}}* /usr/bin/
 * /usr/share/man/man1/criu-amdgpu-plugin.1.gz
 * /usr/share/man/man1/criu-ns.1.gz
 * /usr/share/man/man8/criu.8.gz
-{{< /spoiler >}}
+{{< /files >}}

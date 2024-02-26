@@ -13,7 +13,7 @@ usize = "2632260"
 sha1sum = "b995c76e9d5902065b75c0928f5a55556f059bdb"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Belarusian support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/program/resource/be/LC_MESSAGES/acc.mo
+Installs Belarusian support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/be/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/be/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/be/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/be/LC_MESSAGES/chart.mo
@@ -51,4 +51,4 @@ Installs Belarusian support in LibreOffice{{< spoiler text="show files" >}}* /us
 * /usr/lib/libreoffice/share/registry/Langpack-be.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_be.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_be.xcd
-{{< /spoiler >}}
+{{< /files >}}

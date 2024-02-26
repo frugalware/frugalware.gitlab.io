@@ -15,7 +15,7 @@ depends = "['glib2>=2.60.0', 'libffi>=3.2.1-2', 'libudev>=242']"
 reverse_depends = "['colord', 'fprintd', 'gammu', 'gst1-plugins-bad', 'gst1-plugins-good-video4linux2', 'iio-sensor-proxy', 'libmanette', 'libwacom', 'lvm2-libs', 'modemmanager', 'switcheroo-control', 'udisks2', 'umockdev', 'upower', 'webkit-gtk3']"
 license = "LGPL2.1"
 +++
-GObject bindings for libudev{{< spoiler text="show files" >}}* /usr/include/gudev-1.0/gudev/gudev.h
+GObject bindings for libudev{{< files text="show files" >}}* /usr/include/gudev-1.0/gudev/gudev.h
 * /usr/include/gudev-1.0/gudev/gudevclient.h
 * /usr/include/gudev-1.0/gudev/gudevdevice.h
 * /usr/include/gudev-1.0/gudev/gudevenumerator.h
@@ -31,4 +31,4 @@ GObject bindings for libudev{{< spoiler text="show files" >}}* /usr/include/gude
 * /usr/share/doc/libgudev-238/NEWS
 * /usr/share/doc/libgudev-238/README.md
 * /usr/share/gir-1.0/GUdev-1.0.gir
-{{< /spoiler >}}
+{{< /files >}}

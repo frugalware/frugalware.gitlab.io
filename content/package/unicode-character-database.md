@@ -14,7 +14,7 @@ sha1sum = "fe526f5d3d8dfa00bb72747d0f2d440c5e6ccbe1"
 depends = "['glibc']"
 reverse_depends = "['unicode-emoji']"
 +++
-Unicode Character Database{{< spoiler text="show files" >}}* /usr/share/unicode/ArabicShaping.txt
+Unicode Character Database{{< files text="show files" >}}* /usr/share/unicode/ArabicShaping.txt
 * /usr/share/unicode/auxiliary/GraphemeBreakProperty.txt
 * /usr/share/unicode/auxiliary/GraphemeBreakTest.html
 * /usr/share/unicode/auxiliary/GraphemeBreakTest.txt
@@ -91,4 +91,4 @@ Unicode Character Database{{< spoiler text="show files" >}}* /usr/share/unicode/
 * /usr/share/unicode/USourceGlyphs.pdf
 * /usr/share/unicode/USourceRSChart.pdf
 * /usr/share/unicode/VerticalOrientation.txt
-{{< /spoiler >}}
+{{< /files >}}

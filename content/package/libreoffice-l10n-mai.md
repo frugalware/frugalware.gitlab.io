@@ -13,7 +13,7 @@ usize = "1681126"
 sha1sum = "5d91c17999a48fe7375ed03d90e4a34ee1c51ac8"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Maithili support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/program/resource/mai/LC_MESSAGES/acc.mo
+Installs Maithili support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/mai/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/mai/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/mai/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/mai/LC_MESSAGES/chart.mo
@@ -51,4 +51,4 @@ Installs Maithili support in LibreOffice{{< spoiler text="show files" >}}* /usr/
 * /usr/lib/libreoffice/share/registry/Langpack-mai.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_mai.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_mai.xcd
-{{< /spoiler >}}
+{{< /files >}}

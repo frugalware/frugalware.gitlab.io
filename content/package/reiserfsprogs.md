@@ -14,7 +14,7 @@ sha1sum = "c31cc9efef9fe7c9de484187aef222eba64e98ee"
 depends = "['e2fsprogs>=1.43.3-2']"
 reverse_depends = "['partitionmanager']"
 +++
-Reiserfs utilities{{< spoiler text="show files" >}}* /usr/bin/debugfs.reiserfs
+Reiserfs utilities{{< files text="show files" >}}* /usr/bin/debugfs.reiserfs
 * /usr/bin/debugreiserfs
 * /usr/bin/fsck.reiserfs
 * /usr/bin/mkfs.reiserfs
@@ -47,4 +47,4 @@ Reiserfs utilities{{< spoiler text="show files" >}}* /usr/bin/debugfs.reiserfs
 * /usr/share/man/man8/reiserfstune.8.gz
 * /usr/share/man/man8/resize_reiserfs.8.gz
 * /usr/share/man/man8/tunefs.reiserfs.8.gz
-{{< /spoiler >}}
+{{< /files >}}

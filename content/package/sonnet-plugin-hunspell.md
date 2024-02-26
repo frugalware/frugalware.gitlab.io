@@ -13,5 +13,5 @@ usize = "55208"
 sha1sum = "c1fd83b358976b4b83e347fc32cfc567f09e3166"
 depends = "['hunspell>=1.7.0']"
 +++
-Hunspell plugin for sonnet{{< spoiler text="show files" >}}* /usr/lib/qt5/plugins/kf5/sonnet/sonnet_hunspell.so
-{{< /spoiler >}}
+Hunspell plugin for sonnet{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/sonnet/sonnet_hunspell.so
+{{< /files >}}

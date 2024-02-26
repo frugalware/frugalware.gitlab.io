@@ -13,7 +13,7 @@ usize = "366077"
 sha1sum = "fbfb0bd72a23b2fa11be5df2b084b6199513ff21"
 depends = "['git>=2.44.0']"
 +++
-Web interface for Git.{{< spoiler text="show files" >}}* /etc/gitweb.conf
+Web interface for Git.{{< files text="show files" >}}* /etc/gitweb.conf
 * /etc/httpd/conf/modules.d/gitweb.conf
 * /var/www/gitweb/git-favicon.png
 * /var/www/gitweb/git-logo.png
@@ -27,4 +27,4 @@ Web interface for Git.{{< spoiler text="show files" >}}* /etc/gitweb.conf
 * /var/www/gitweb/js/lib/cookies.js
 * /var/www/gitweb/js/lib/datetime.js
 * /var/www/gitweb/js/README
-{{< /spoiler >}}
+{{< /files >}}

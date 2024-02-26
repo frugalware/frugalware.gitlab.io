@@ -14,7 +14,7 @@ sha1sum = "ab9fbc4af5eca830a840ab3a8bb3224c27f0169a"
 depends = "['qt5-declarative>=5.15.10', 'qt5-websockets>=5.15.10']"
 reverse_depends = "['angelfish', 'audiotube', 'kaccounts-integration', 'kdenetwork-filesharing', 'kontrast']"
 +++
-C++ Coroutines for Qt{{< spoiler text="show files" >}}* /usr/include/qcoro5/qcoro/concepts_p.h
+C++ Coroutines for Qt{{< files text="show files" >}}* /usr/include/qcoro5/qcoro/concepts_p.h
 * /usr/include/qcoro5/qcoro/config.h
 * /usr/include/qcoro5/qcoro/coroutine.h
 * /usr/include/qcoro5/qcoro/impl/connect.h
@@ -138,4 +138,4 @@ C++ Coroutines for Qt{{< spoiler text="show files" >}}* /usr/include/qcoro5/qcor
 * /usr/share/qt5/mkspecs/modules/qt_QCoroQuick.pri
 * /usr/share/qt5/mkspecs/modules/qt_QCoroTest.pri
 * /usr/share/qt5/mkspecs/modules/qt_QCoroWebSockets.pri
-{{< /spoiler >}}
+{{< /files >}}

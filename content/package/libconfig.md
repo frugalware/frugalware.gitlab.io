@@ -14,7 +14,7 @@ sha1sum = "c77f7f2f2d4cb2e33e2860e075bd579997061d99"
 depends = "['libstdc++>=9.2']"
 reverse_depends = "['clight', 'libguestfs']"
 +++
-Configuration file library for C and C++.{{< spoiler text="show files" >}}* /usr/include/libconfig.h
+Configuration file library for C and C++.{{< files text="show files" >}}* /usr/include/libconfig.h
 * /usr/include/libconfig.h++
 * /usr/lib/cmake/libconfig++/libconfig++Config.cmake
 * /usr/lib/cmake/libconfig/libconfigConfig.cmake
@@ -36,4 +36,4 @@ Configuration file library for C and C++.{{< spoiler text="show files" >}}* /usr
 * /usr/share/doc/libconfig-1.7.3/README.md
 * /usr/share/doc/libconfig-1.7.3/TODO
 * /usr/share/info/libconfig.info.gz
-{{< /spoiler >}}
+{{< /files >}}

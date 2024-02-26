@@ -13,7 +13,7 @@ usize = "1957923"
 sha1sum = "c07fc7430db5a03a3eb87a0cf110f552c36d17da"
 depends = "['kontactinterface>=23.08.5', 'mailcommon>=23.08.5']"
 +++
-Personal Information Manager{{< spoiler text="show files" >}}* /usr/bin/kontact
+Personal Information Manager{{< files text="show files" >}}* /usr/bin/kontact
 * /usr/lib/libkontactprivate.so.5
 * /usr/lib/libkontactprivate.so.5.24.5
 * /usr/lib/qt5/plugins/pim5/kcms/kontact/kcm_kontact.so
@@ -148,4 +148,4 @@ Personal Information Manager{{< spoiler text="show files" >}}* /usr/bin/kontact
 * /usr/share/metainfo/org.kde.kontact.appdata.xml
 * /usr/share/qlogging-categories5/kontact.categories
 * /usr/share/qlogging-categories5/kontact.renamecategories
-{{< /spoiler >}}
+{{< /files >}}

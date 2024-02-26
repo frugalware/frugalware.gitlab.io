@@ -14,7 +14,7 @@ sha1sum = "ac625ce210898c5e29bd446ed19ada9156a9ca4c"
 depends = "['ncurses>=6.1-2']"
 reverse_depends = "['intel-gpu-tools', 'opentrack', 'parallel', 'profile-sync-daemon', 'steamtinkerlaunch']"
 +++
-utilities for displaying process information{{< spoiler text="show files" >}}* /etc/sysctl.conf
+utilities for displaying process information{{< files text="show files" >}}* /etc/sysctl.conf
 * /etc/sysctl.d/20-printk-be-quiet.conf
 * /etc/sysctl.d/99-sysctl.conf
 * /usr/bin/free
@@ -202,4 +202,4 @@ utilities for displaying process information{{< spoiler text="show files" >}}* /
 * /usr/share/man/uk/man5/sysctl.conf.5.gz
 * /usr/share/man/uk/man8/sysctl.8.gz
 * /usr/share/man/uk/man8/vmstat.8.gz
-{{< /spoiler >}}
+{{< /files >}}

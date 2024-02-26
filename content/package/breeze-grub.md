@@ -13,7 +13,7 @@ usize = "13292029"
 sha1sum = "3ac30c22198f96a786b57e4bb72b2f2c26cae092"
 depends = "['grub2']"
 +++
-Breeze theme for GRUB{{< spoiler text="show files" >}}* /usr/share/grub/themes/breeze/progress_bar2_c.png
+Breeze theme for GRUB{{< files text="show files" >}}* /usr/share/grub/themes/breeze/progress_bar2_c.png
 * /usr/share/grub/themes/breeze/progress_bar2_c.png.license
 * /usr/share/grub/themes/breeze/progress_bar_c.png
 * /usr/share/grub/themes/breeze/progress_bar_c.png.license
@@ -28,4 +28,4 @@ Breeze theme for GRUB{{< spoiler text="show files" >}}* /usr/share/grub/themes/b
 * /usr/share/grub/themes/breeze/unifont-regular-16.pf2.license
 * /usr/share/grub/themes/breeze/unifont-regular-32.pf2
 * /usr/share/grub/themes/breeze/unifont-regular-32.pf2.license
-{{< /spoiler >}}
+{{< /files >}}

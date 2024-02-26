@@ -14,7 +14,7 @@ sha1sum = "a145b3a30dc10efef21d408aafbbdb1e88b97c44"
 depends = "['libedit', 'openssl>=3.1.0']"
 reverse_depends = "['networkmanager-dispatcher-ntp']"
 +++
-The ntp daemon from ntp.org{{< spoiler text="show files" >}}* /etc/ntp.org.conf
+The ntp daemon from ntp.org{{< files text="show files" >}}* /etc/ntp.org.conf
 * /usr/bin/calc_tickadj
 * /usr/bin/ntp-keygen
 * /usr/bin/ntp-wait
@@ -297,4 +297,4 @@ The ntp daemon from ntp.org{{< spoiler text="show files" >}}* /etc/ntp.org.conf
 * /usr/share/man/man5/ntp.conf.5.gz
 * /usr/share/man/man5/ntp.keys.5.gz
 * /usr/share/ntp/lib/NTP/Util.pm
-{{< /spoiler >}}
+{{< /files >}}

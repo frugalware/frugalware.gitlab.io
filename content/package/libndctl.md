@@ -14,10 +14,10 @@ sha1sum = "dc4ed0fe3cf630f8476250514c5492035687069f"
 depends = "['kmod', 'libdaxctl', 'libsystemd', 'libuuid']"
 reverse_depends = "['libblockdev', 'ndctl']"
 +++
-Library for managing the libnvdimm subsystem devices.{{< spoiler text="show files" >}}* /usr/include/ndctl/libndctl.h
+Library for managing the libnvdimm subsystem devices.{{< files text="show files" >}}* /usr/include/ndctl/libndctl.h
 * /usr/include/ndctl/ndctl.h
 * /usr/lib/libndctl.so
 * /usr/lib/libndctl.so.6
 * /usr/lib/libndctl.so.6.2.21
 * /usr/lib/pkgconfig/libndctl.pc
-{{< /spoiler >}}
+{{< /files >}}

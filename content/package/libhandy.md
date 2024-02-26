@@ -14,7 +14,7 @@ sha1sum = "ef4cbdb084ebb4a279c68bec3045e3e8f3767f69"
 depends = "['glib2', 'gtk+3']"
 reverse_depends = "['seahorse']"
 +++
-Library full of GTK+ widgets for mobile phones{{< spoiler text="show files" >}}* /usr/bin/handy-1-demo
+Library full of GTK+ widgets for mobile phones{{< files text="show files" >}}* /usr/bin/handy-1-demo
 * /usr/include/libhandy-1/handy.h
 * /usr/include/libhandy-1/hdy-action-row.h
 * /usr/include/libhandy-1/hdy-animation.h
@@ -100,4 +100,4 @@ Library full of GTK+ widgets for mobile phones{{< spoiler text="show files" >}}*
 * /usr/share/locale/zh_CN/LC_MESSAGES/libhandy.mo
 * /usr/share/vala/vapi/libhandy-1.deps
 * /usr/share/vala/vapi/libhandy-1.vapi
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "1957944"
 sha1sum = "8eb99af3f731d78a7eade1ac32e50ac907c637ee"
 depends = "['hunspell>=1.0.8']"
 +++
-Slovak dictionary for Hunspell{{< spoiler text="show files" >}}* /usr/share/doc/hunspell-sk-20050911/README_sk_SK.txt
+Slovak dictionary for Hunspell{{< files text="show files" >}}* /usr/share/doc/hunspell-sk-20050911/README_sk_SK.txt
 * /usr/share/myspell/sk_SK.aff
 * /usr/share/myspell/sk_SK.dic
-{{< /spoiler >}}
+{{< /files >}}

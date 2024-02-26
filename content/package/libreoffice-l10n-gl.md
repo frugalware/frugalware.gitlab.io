@@ -13,7 +13,7 @@ usize = "35003350"
 sha1sum = "20897d63da0e8e72fe1e88d30a03f9372bfb175b"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Galician support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/gl/default.css
+Installs Galician support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/gl/default.css
 * /usr/lib/libreoffice/help/gl/err.html
 * /usr/lib/libreoffice/help/gl/highcontrast1.css
 * /usr/lib/libreoffice/help/gl/highcontrast2.css
@@ -131,4 +131,4 @@ Installs Galician support in LibreOffice{{< spoiler text="show files" >}}* /usr/
 * /usr/lib/libreoffice/share/registry/Langpack-gl.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_gl.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_gl.xcd
-{{< /spoiler >}}
+{{< /files >}}

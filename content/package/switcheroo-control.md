@@ -14,7 +14,7 @@ sha1sum = "4105d76d2ac485ebf64479d0e2d9526dc26d9670"
 depends = "['glib2', 'libgudev', 'pygobject3']"
 reverse_depends = "['kio']"
 +++
-D-Bus service to check the availability of dual-GPU{{< spoiler text="show files" >}}* /usr/bin/switcherooctl
+D-Bus service to check the availability of dual-GPU{{< files text="show files" >}}* /usr/bin/switcherooctl
 * /usr/lib/switcheroo-control/switcheroo-control
 * /usr/lib/systemd/system/switcheroo-control.service
 * /usr/lib/udev/hwdb.d/30-pci-intel-gpu.hwdb
@@ -22,4 +22,4 @@ D-Bus service to check the availability of dual-GPU{{< spoiler text="show files"
 * /usr/share/doc/switcheroo-control-2.6/COPYING
 * /usr/share/doc/switcheroo-control-2.6/NEWS
 * /usr/share/doc/switcheroo-control-2.6/README.md
-{{< /spoiler >}}
+{{< /files >}}

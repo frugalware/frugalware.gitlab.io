@@ -14,7 +14,7 @@ sha1sum = "c2b1acef9b60af7a5b58c0a146b9a5399c6f1957"
 depends = "['python3']"
 reverse_depends = "['python3-trio']"
 +++
-Making it easy to write async iterators{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/async_generator-1.10.dist-info/LICENSE
+Making it easy to write async iterators{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/async_generator-1.10.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/async_generator-1.10.dist-info/LICENSE.APACHE2
 * /usr/lib/python3.12/site-packages/async_generator-1.10.dist-info/LICENSE.MIT
 * /usr/lib/python3.12/site-packages/async_generator-1.10.dist-info/METADATA
@@ -47,4 +47,4 @@ Making it easy to write async iterators{{< spoiler text="show files" >}}* /usr/l
 * /usr/lib/python3.12/site-packages/async_generator/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-async_generator-1.10/LICENSE
 * /usr/share/doc/python3-async_generator-1.10/README.rst
-{{< /spoiler >}}
+{{< /files >}}

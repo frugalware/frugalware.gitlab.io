@@ -13,7 +13,7 @@ usize = "862293"
 sha1sum = "e7b176ed4f2b849f532ca63ff5532d4226b4d2c8"
 depends = "['cabextract', 'cdrtools', 'fuse', 'innoextract', 'libxml2', 'mtools', 'ntfs-3g>=2021.8.22', 'openssl>=3.1.0', 'syslinux']"
 +++
-The open source Windows Imaging (WIM) library{{< spoiler text="show files" >}}* /usr/bin/mkwinpeimg
+The open source Windows Imaging (WIM) library{{< files text="show files" >}}* /usr/bin/mkwinpeimg
 * /usr/bin/wimappend
 * /usr/bin/wimapply
 * /usr/bin/wimcapture
@@ -77,4 +77,4 @@ The open source Windows Imaging (WIM) library{{< spoiler text="show files" >}}* 
 * /usr/share/man/man1/wimunmount.1.gz
 * /usr/share/man/man1/wimupdate.1.gz
 * /usr/share/man/man1/wimverify.1.gz
-{{< /spoiler >}}
+{{< /files >}}

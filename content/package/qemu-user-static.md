@@ -13,7 +13,7 @@ usize = "150162592"
 sha1sum = "2e415a554652528bd3f574a85fc69c3728f5d0cf"
 depends = "['glibc']"
 +++
-Statically linked binaries of Qemu with user emulation{{< spoiler text="show files" >}}* /usr/bin/qemu-aarch64
+Statically linked binaries of Qemu with user emulation{{< files text="show files" >}}* /usr/bin/qemu-aarch64
 * /usr/bin/qemu-aarch64_be
 * /usr/bin/qemu-alpha
 * /usr/bin/qemu-arm
@@ -47,4 +47,4 @@ Statically linked binaries of Qemu with user emulation{{< spoiler text="show fil
 * /usr/bin/qemu-xtensa
 * /usr/bin/qemu-xtensaeb
 * /usr/lib/binfmt.d/qemu-static.conf
-{{< /spoiler >}}
+{{< /files >}}

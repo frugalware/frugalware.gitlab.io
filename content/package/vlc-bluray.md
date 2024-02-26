@@ -13,5 +13,5 @@ usize = "75544"
 sha1sum = "681a38c800619fd2743ec98e7b7945abe47f2e7b"
 depends = "['libbluray', 'libvlc>=3.0.20']"
 +++
-vlc Bluray support{{< spoiler text="show files" >}}* /usr/lib/vlc/plugins/access/liblibbluray_plugin.so
-{{< /spoiler >}}
+vlc Bluray support{{< files text="show files" >}}* /usr/lib/vlc/plugins/access/liblibbluray_plugin.so
+{{< /files >}}

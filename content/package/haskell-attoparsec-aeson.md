@@ -14,7 +14,7 @@ sha1sum = "9ba133086c48c0ab76dbce9ebe88faac93857337"
 depends = "['haskell-aeson', 'haskell-attoparsec']"
 reverse_depends = "['haskell-servant']"
 +++
-Parsing of aeson's Value with attoparsec{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/attoparsec-aeson-2.2.0.1/Data/Aeson/Internal/ByteString.dyn_hi
+Parsing of aeson's Value with attoparsec{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/attoparsec-aeson-2.2.0.1/Data/Aeson/Internal/ByteString.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/attoparsec-aeson-2.2.0.1/Data/Aeson/Internal/ByteString.hi
 * /usr/lib/ghc-9.8.1/site-local/attoparsec-aeson-2.2.0.1/Data/Aeson/Internal/Text.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/attoparsec-aeson-2.2.0.1/Data/Aeson/Internal/Text.hi
@@ -40,4 +40,4 @@ Parsing of aeson's Value with attoparsec{{< spoiler text="show files" >}}* /usr/
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/attoparsec-aeson-2.2.0.1/LICENSE
 * /usr/share/haskell/haskell-attoparsec-aeson/register.sh
 * /usr/share/haskell/haskell-attoparsec-aeson/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

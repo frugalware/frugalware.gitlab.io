@@ -13,11 +13,11 @@ usize = "378796"
 sha1sum = "264e4bed09623d726c3007ec451cebba26b2694e"
 depends = "['glibc>=2.34']"
 +++
-FFmpeg version of headers required to interface with Nvidias codec APIs{{< spoiler text="show files" >}}* /usr/include/ffnvcodec/dynlink_cuda.h
+FFmpeg version of headers required to interface with Nvidias codec APIs{{< files text="show files" >}}* /usr/include/ffnvcodec/dynlink_cuda.h
 * /usr/include/ffnvcodec/dynlink_cuviddec.h
 * /usr/include/ffnvcodec/dynlink_loader.h
 * /usr/include/ffnvcodec/dynlink_nvcuvid.h
 * /usr/include/ffnvcodec/nvEncodeAPI.h
 * /usr/lib/pkgconfig/ffnvcodec.pc
 * /usr/share/doc/nv-codec-headers-11.1.5.3/README
-{{< /spoiler >}}
+{{< /files >}}

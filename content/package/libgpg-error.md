@@ -14,7 +14,7 @@ sha1sum = "c566296c7f9db769b93c5c5137041ddcfcf7f7f5"
 depends = "['glibc>=2.35']"
 reverse_depends = "['efl', 'enlightenment', 'freeipmi', 'gpg-agent', 'gpgme', 'libassuan', 'libassuan1', 'libgcrypt', 'libgcrypt15', 'libksba', 'libvlc', 'terminology']"
 +++
-Support library for libgcrypt{{< spoiler text="show files" >}}* /usr/bin/gpg-error
+Support library for libgcrypt{{< files text="show files" >}}* /usr/bin/gpg-error
 * /usr/bin/gpgrt-config
 * /usr/bin/yat2m
 * /usr/include/gpg-error.h
@@ -62,4 +62,4 @@ Support library for libgcrypt{{< spoiler text="show files" >}}* /usr/bin/gpg-err
 * /usr/share/locale/zh_CN/LC_MESSAGES/libgpg-error.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libgpg-error.mo
 * /usr/share/man/man1/gpgrt-config.1.gz
-{{< /spoiler >}}
+{{< /files >}}

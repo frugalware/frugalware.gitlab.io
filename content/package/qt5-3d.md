@@ -14,7 +14,7 @@ sha1sum = "39d0675048b2eb1efc0f5a90b43c73b8061e39ab"
 depends = "['assimp', 'qt5-declarative>=5.15.12']"
 reverse_depends = "['meshroom', 'qmlalembic', 'qtoiio']"
 +++
-The Qt5 toolkit, qt3d{{< spoiler text="show files" >}}* /usr/bin/qgltf
+The Qt5 toolkit, qt3d{{< files text="show files" >}}* /usr/bin/qgltf
 * /usr/bin/qgltf-qt5
 * /usr/include/qt5/Qt3DAnimation/5.15.12/Qt3DAnimation/private/abstractevaluateclipanimatorjob_p.h
 * /usr/include/qt5/Qt3DAnimation/5.15.12/Qt3DAnimation/private/additiveclipblend_p.h
@@ -1338,4 +1338,4 @@ The Qt5 toolkit, qt3d{{< spoiler text="show files" >}}* /usr/bin/qgltf
 * /usr/share/qt5/qml/QtQuick/Scene3D/libqtquickscene3dplugin.so
 * /usr/share/qt5/qml/QtQuick/Scene3D/plugins.qmltypes
 * /usr/share/qt5/qml/QtQuick/Scene3D/qmldir
-{{< /spoiler >}}
+{{< /files >}}

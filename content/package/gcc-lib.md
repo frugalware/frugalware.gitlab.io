@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "8df8da78f69a3503194ee778725a46125fab0442"
 depends = "['glibc']"
 +++
-The GNU GCC library (libgcc_s.so){{< spoiler text="show files" >}}* usr/lib/libgcc_s.so
+The GNU GCC library (libgcc_s.so){{< files text="show files" >}}* usr/lib/libgcc_s.so
 * usr/lib/libgcc_s.so.1
 * usr/share/doc/gcc-lib-4.0.3/BUGS
 * usr/share/doc/gcc-lib-4.0.3/ChangeLog
@@ -35,4 +35,4 @@ The GNU GCC library (libgcc_s.so){{< spoiler text="show files" >}}* usr/lib/libg
 * usr/share/doc/gcc-lib-4.0.3/NEWS
 * usr/share/doc/gcc-lib-4.0.3/README
 * usr/share/doc/gcc-lib-4.0.3/README.SCO
-{{< /spoiler >}}
+{{< /files >}}

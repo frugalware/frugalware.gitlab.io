@@ -13,5 +13,5 @@ usize = "26944"
 sha1sum = "3ffe74a6088748b79941c3ebce10db817a2bafcc"
 depends = "['net-snmp>=5.9', 'rsyslog>=8.2312.0']"
 +++
-SNMP protocol support for rsyslog{{< spoiler text="show files" >}}* /usr/lib/rsyslog/omsnmp.so
-{{< /spoiler >}}
+SNMP protocol support for rsyslog{{< files text="show files" >}}* /usr/lib/rsyslog/omsnmp.so
+{{< /files >}}

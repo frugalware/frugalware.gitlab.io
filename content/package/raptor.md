@@ -14,7 +14,7 @@ sha1sum = "f16693eaf440d34fb806a99bb68788379e01ead1"
 depends = "['curl>=7.50.3-2', 'libxml2>=2.9.4-3', 'libxslt>=1.1.28-3', 'openssl>=1.0.2-20']"
 reverse_depends = "['flickcurl', 'rasqal']"
 +++
-Library providing a set of parsers that generate Resource Description Framework (RDF).{{< spoiler text="show files" >}}* /usr/bin/rapper
+Library providing a set of parsers that generate Resource Description Framework (RDF).{{< files text="show files" >}}* /usr/bin/rapper
 * /usr/include/raptor2/raptor.h
 * /usr/include/raptor2/raptor2.h
 * /usr/lib/libraptor2.so
@@ -135,4 +135,4 @@ Library providing a set of parsers that generate Resource Description Framework 
 * /usr/share/gtk-doc/html/raptor2/up.png
 * /usr/share/man/man1/rapper.1.gz
 * /usr/share/man/man3/libraptor2.3.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,9 +13,9 @@ usize = "304431"
 sha1sum = "9a61330caf013b6d37e1f4ed93f7393828a86842"
 depends = "['libgl', 'libpng', 'libsm', 'libstdc++', 'libxcursor', 'libxdamage', 'libxft', 'libxi', 'libxinerama', 'libxmu', 'libxrandr', 'xfsprogs-attr']"
 +++
-A subtitle editor for KDE{{< spoiler text="show files" >}}* usr/bin/ksubeditor
+A subtitle editor for KDE{{< files text="show files" >}}* usr/bin/ksubeditor
 * usr/share/applnk/Applications/ksubeditor.desktop
 * usr/share/apps/ksubeditor/ksubeditorui.rc
 * usr/share/icons/locolor/16x16/apps/ksubeditor.png
 * usr/share/icons/locolor/32x32/apps/ksubeditor.png
-{{< /spoiler >}}
+{{< /files >}}

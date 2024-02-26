@@ -14,7 +14,7 @@ sha1sum = "717c63850f2bd5544dd32ba83371d1021239c181"
 depends = "['librevenge>=0.0.4-2']"
 reverse_depends = "['libreoffice']"
 +++
-An ODF generator library{{< spoiler text="show files" >}}* /usr/include/libodfgen-0.1/libodfgen/libodfgen-api.hxx
+An ODF generator library{{< files text="show files" >}}* /usr/include/libodfgen-0.1/libodfgen/libodfgen-api.hxx
 * /usr/include/libodfgen-0.1/libodfgen/libodfgen.hxx
 * /usr/include/libodfgen-0.1/libodfgen/OdfDocumentHandler.hxx
 * /usr/include/libodfgen-0.1/libodfgen/OdgGenerator.hxx
@@ -113,4 +113,4 @@ An ODF generator library{{< spoiler text="show files" >}}* /usr/include/libodfge
 * /usr/share/doc/libodfgen-0.1.8/html/tab_s.png
 * /usr/share/doc/libodfgen-0.1.8/NEWS
 * /usr/share/doc/libodfgen-0.1.8/README
-{{< /spoiler >}}
+{{< /files >}}

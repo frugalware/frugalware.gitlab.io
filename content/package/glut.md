@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "624f50cea71ae33771d5639beeb5bc01bff4d9bb"
 depends = "['glibc']"
 +++
-Provides functionality for small OpenGL programs{{< spoiler text="show files" >}}* usr/share/doc/glut-3.7/AUTHORS
+Provides functionality for small OpenGL programs{{< files text="show files" >}}* usr/share/doc/glut-3.7/AUTHORS
 * usr/share/doc/glut-3.7/CHANGES
 * usr/share/doc/glut-3.7/COPYING
 * usr/share/doc/glut-3.7/COPYING.BSD
@@ -53,4 +53,4 @@ Provides functionality for small OpenGL programs{{< spoiler text="show files" >}
 * usr/X11R6/lib/libglut.so
 * usr/X11R6/lib/libglut.so.3
 * usr/X11R6/lib/libglut.so.3.7
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "7a9265e3f6a21c71045f69c32432c58535f74b72"
 depends = "['gtk+3', 'kernel=6.7.6-1', 'pygobject3', 'python3-daemonize', 'python3-notify2', 'python3-numpy', 'python3-setproctitle', 'pyudev', 'xautomation']"
 reverse_depends = "['libopenrazer', 'polychromatic']"
 +++
-An entirely open source driver and user-space daemon that allows you to manage your Razer peripherals on GNU/Linux.{{< spoiler text="show files" >}}* /usr/bin/openrazer-daemon
+An entirely open source driver and user-space daemon that allows you to manage your Razer peripherals on GNU/Linux.{{< files text="show files" >}}* /usr/bin/openrazer-daemon
 * /usr/lib/modules/6.7.6-fw1/kernel/drivers/hid/razeraccessory.ko
 * /usr/lib/modules/6.7.6-fw1/kernel/drivers/hid/razerkbd.ko
 * /usr/lib/modules/6.7.6-fw1/kernel/drivers/hid/razerkraken.ko
@@ -137,4 +137,4 @@ An entirely open source driver and user-space daemon that allows you to manage y
 * /usr/share/man/man5/razer.conf.5.gz
 * /usr/share/man/man8/openrazer-daemon.8.gz
 * /usr/share/openrazer/razer.conf.example
-{{< /spoiler >}}
+{{< /files >}}

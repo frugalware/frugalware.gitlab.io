@@ -14,7 +14,7 @@ sha1sum = "32bdb150aeecac9fa64eadbf3fa0004e2cd5e50e"
 depends = "['lib32-recode']"
 reverse_depends = "['lib32-libass']"
 +++
-An extremely naive character set analyzer library ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/enca
+An extremely naive character set analyzer library ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/enca
 * /usr/i686-frugalware-linux/bin/enconv
 * /usr/i686-frugalware-linux/include/enca.h
 * /usr/i686-frugalware-linux/libenca/enca/extconv/cstocs
@@ -26,4 +26,4 @@ An extremely naive character set analyzer library ( 32bit ){{< spoiler text="sho
 * /usr/lib32/libenca.so.0
 * /usr/lib32/libenca.so.0.5.1
 * /usr/lib32/pkgconfig/enca.pc
-{{< /spoiler >}}
+{{< /files >}}

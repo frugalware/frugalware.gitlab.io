@@ -14,7 +14,7 @@ sha1sum = "d1b9d386f34abaa64bb2498e480870346252a2a8"
 depends = "['embree', 'ispc', 'rkcommon>=1.6.0']"
 reverse_depends = "['ospray']"
 +++
-Open Volume Kernel Library{{< spoiler text="show files" >}}* /usr/bin/vklExamples
+Open Volume Kernel Library{{< files text="show files" >}}* /usr/bin/vklExamples
 * /usr/bin/vklMinimal_01
 * /usr/bin/vklMinimal_02
 * /usr/bin/vklMinimal_03
@@ -96,4 +96,4 @@ Open Volume Kernel Library{{< spoiler text="show files" >}}* /usr/bin/vklExample
 * /usr/share/doc/openvkl/third-party-programs-OSPRay.txt
 * /usr/share/doc/openvkl/third-party-programs-TBB.txt
 * /usr/share/doc/openvkl/third-party-programs.txt
-{{< /spoiler >}}
+{{< /files >}}

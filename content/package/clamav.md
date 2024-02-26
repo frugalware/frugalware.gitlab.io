@@ -14,7 +14,7 @@ sha1sum = "1869bb62e902f649bb10581e80166e463064dd59"
 depends = "['curl', 'libmspack', 'libsystemd', 'libtool', 'libxml2', 'openssl>=3.1.0', 'pcre2', 'shadow']"
 reverse_depends = "['klamav']"
 +++
-Clam AntiVirus is a GPL anti-virus toolkit for UNIX{{< spoiler text="show files" >}}* /etc/clamav/clamd.conf
+Clam AntiVirus is a GPL anti-virus toolkit for UNIX{{< files text="show files" >}}* /etc/clamav/clamd.conf
 * /etc/clamav/freshclam.conf
 * /etc/tmpfiles.d/clamav.conf
 * /usr/bin/clamav-config
@@ -199,4 +199,4 @@ Clam AntiVirus is a GPL anti-virus toolkit for UNIX{{< spoiler text="show files"
 * /usr/share/man/man8/clamav-milter.8.gz
 * /usr/share/man/man8/clamd.8.gz
 * /usr/share/man/man8/clamonacc.8.gz
-{{< /spoiler >}}
+{{< /files >}}

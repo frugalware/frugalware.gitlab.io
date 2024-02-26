@@ -14,10 +14,10 @@ sha1sum = "e38ad582b244fd3b868514fe3363d63b5b18f680"
 depends = "['libfs>=1.0.7-2']"
 license = "GPL2"
 +++
-X.Org showfont application{{< spoiler text="show files" >}}* /usr/bin/showfont
+X.Org showfont application{{< files text="show files" >}}* /usr/bin/showfont
 * /usr/share/doc/showfont-1.0.6/ChangeLog
 * /usr/share/doc/showfont-1.0.6/COPYING
 * /usr/share/doc/showfont-1.0.6/INSTALL
 * /usr/share/doc/showfont-1.0.6/README.md
 * /usr/share/man/man1/showfont.1.gz
-{{< /spoiler >}}
+{{< /files >}}

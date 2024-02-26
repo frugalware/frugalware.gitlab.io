@@ -14,7 +14,7 @@ sha1sum = "e3eee6cf3d2f93d0c2334c2ba567e8d8a8f88b0d"
 depends = "['haskell-boring', 'haskell-hashable', 'haskell-type-equality']"
 reverse_depends = "['haskell-servant']"
 +++
-Constraint manipulation{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/constraints-0.14/Data/Constraint.dyn_hi
+Constraint manipulation{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/constraints-0.14/Data/Constraint.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/constraints-0.14/Data/Constraint.hi
 * /usr/lib/ghc-9.8.1/site-local/constraints-0.14/Data/Constraint/Char.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/constraints-0.14/Data/Constraint/Char.hi
@@ -79,4 +79,4 @@ Constraint manipulation{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/sit
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/constraints-0.14/LICENSE
 * /usr/share/haskell/haskell-constraints/register.sh
 * /usr/share/haskell/haskell-constraints/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

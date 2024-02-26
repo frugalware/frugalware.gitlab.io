@@ -14,7 +14,7 @@ sha1sum = "8fcd02ae051c955805a349c847910567165e29f3"
 depends = "['coreutils>=6.26-2', 'glibc>=2.35']"
 reverse_depends = "['apache', 'apr-util', 'avahi', 'dbus', 'efl', 'elinks', 'enlightenment', 'exempi', 'exiv2', 'fontconfig', 'gdal', 'gdb', 'git', 'guarddog', 'insight-toolkit', 'intltool', 'kasablanca', 'kat', 'ksniffer', 'lftp', 'lib32-mesa-libswrast', 'libarchive', 'libdom', 'libextractor', 'libgl', 'liblcf', 'libosmesa', 'libreoffice', 'libva-mesa-driver', 'libxatracker', 'mesa-dri-drivers', 'mesa-libglx', 'mesa-nine', 'mesa-opemax', 'mesa-vdpau-drivers', 'neon', 'perl-xml-parser', 'polkit', 'pwmanager', 'python3', 'qtparted', 'sablotron', 'terminology', 'unbound', 'wayland']"
 +++
-An XML Parser library written in C{{< spoiler text="show files" >}}* /usr/bin/xmlwf
+An XML Parser library written in C{{< files text="show files" >}}* /usr/bin/xmlwf
 * /usr/include/expat.h
 * /usr/include/expat_config.h
 * /usr/include/expat_external.h
@@ -32,4 +32,4 @@ An XML Parser library written in C{{< spoiler text="show files" >}}* /usr/bin/xm
 * /usr/share/doc/expat-2.6.0/COPYING
 * /usr/share/doc/expat-2.6.0/README.md
 * /usr/share/man/man1/xmlwf.1.gz
-{{< /spoiler >}}
+{{< /files >}}

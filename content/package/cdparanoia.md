@@ -14,7 +14,7 @@ sha1sum = "df1406815f7df3546efcfc2ca468714f7b494733"
 depends = "['glibc>=2.34']"
 reverse_depends = "['audiocd-kio', 'gst1-plugins-base-cdparanoia', 'mencoder', 'mplayer', 'mpv']"
 +++
-A CD ripping application{{< spoiler text="show files" >}}* /usr/bin/cdparanoia
+A CD ripping application{{< files text="show files" >}}* /usr/bin/cdparanoia
 * /usr/include/cdda_interface.h
 * /usr/include/cdda_paranoia.h
 * /usr/include/utils.h
@@ -28,4 +28,4 @@ A CD ripping application{{< spoiler text="show files" >}}* /usr/bin/cdparanoia
 * /usr/share/doc/cdparanoia-10.2/COPYING-LGPL
 * /usr/share/doc/cdparanoia-10.2/README
 * /usr/share/man/man1/cdparanoia.1.gz
-{{< /spoiler >}}
+{{< /files >}}

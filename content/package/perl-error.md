@@ -14,7 +14,7 @@ sha1sum = "e2e72106c96e7dd5f5fb20e91d0240867f4c5142"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['git', 'perl-mail-spf']"
 +++
-Error/exception handling in an OO-ish way{{< spoiler text="show files" >}}* /usr/lib/perl5/site_perl/Error.pm
+Error/exception handling in an OO-ish way{{< files text="show files" >}}* /usr/lib/perl5/site_perl/Error.pm
 * /usr/lib/perl5/site_perl/Error/Simple.pm
 * /usr/share/doc/perl-error-0.17029/ChangeLog
 * /usr/share/doc/perl-error-0.17029/LICENSE
@@ -22,4 +22,4 @@ Error/exception handling in an OO-ish way{{< spoiler text="show files" >}}* /usr
 * /usr/share/doc/perl-error-0.17029/README
 * /usr/share/man/man3/Error.3perl.gz
 * /usr/share/man/man3/Error::Simple.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

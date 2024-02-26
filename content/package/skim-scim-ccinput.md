@@ -13,7 +13,7 @@ usize = "197291"
 sha1sum = "aff4a5460577b02d0134b32dd5f401de0db43ed6"
 depends = "['skim>=1.4.5-2']"
 +++
-Chinese input method for SKIM.{{< spoiler text="show files" >}}* usr/lib/kde3/kcm_skimplugin_scim_ccinput.la
+Chinese input method for SKIM.{{< files text="show files" >}}* usr/lib/kde3/kcm_skimplugin_scim_ccinput.la
 * usr/lib/kde3/kcm_skimplugin_scim_ccinput.so
 * usr/share/apps/skim/pics/ccinput.png
 * usr/share/apps/skim/pics/sp_ls.png
@@ -25,4 +25,4 @@ Chinese input method for SKIM.{{< spoiler text="show files" >}}* usr/lib/kde3/kc
 * usr/share/config.kcfg/ccinput.kcfg
 * usr/share/locale/zh_CN/LC_MESSAGES/skim-scim-ccinput.mo
 * usr/share/services/skimconfiguredialog/skimplugin_scim_ccinput_config.desktop
-{{< /spoiler >}}
+{{< /files >}}

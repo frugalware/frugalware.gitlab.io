@@ -13,7 +13,7 @@ usize = "360706346"
 sha1sum = "f3af1a267d8e9d479c6a9fc318527570455cf315"
 depends = "['gpm>=1.20.6']"
 +++
-Free Pascal Compiler{{< spoiler text="show files" >}}* /etc/fpc.cfg
+Free Pascal Compiler{{< files text="show files" >}}* /etc/fpc.cfg
 * /etc/fppkg.cfg
 * /etc/fppkg/default
 * /usr/bin/bin2obj
@@ -3297,4 +3297,4 @@ Free Pascal Compiler{{< spoiler text="show files" >}}* /etc/fpc.cfg
 * /usr/share/man/man5/fpc.cfg.5.gz
 * /usr/share/man/man5/fpcmake.5.gz
 * /usr/share/man/man5/ptop.cfg.5.gz
-{{< /spoiler >}}
+{{< /files >}}

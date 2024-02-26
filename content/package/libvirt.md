@@ -14,7 +14,7 @@ sha1sum = "5f81b95acfa6ca9c76ac55ce4b15ed143a483d7d"
 depends = "['avahi', 'bridge-utils', 'curl', 'cyrus-sasl', 'dmidecode', 'dnsmasq', 'fuse', 'gnutls>=3.4.2', 'iproute2', 'iscsi', 'libnl>=3.2.9', 'libpciaccess', 'libssh2', 'libtirpc', 'libudev', 'libxml2', 'lvm2>=2.02.96', 'numactl', 'parted>=3.3', 'polkit', 'readline>=8.0', 'systemd>=228', 'yajl']"
 reverse_depends = "['libguestfs', 'libvirt-glib', 'libvirt-python3', 'qt-virt-manager']"
 +++
-libvirt is a library providing access to information from various virtualization tools{{< spoiler text="show files" >}}* /etc/libvirt/libvirt-admin.conf
+libvirt is a library providing access to information from various virtualization tools{{< files text="show files" >}}* /etc/libvirt/libvirt-admin.conf
 * /etc/libvirt/libvirt.conf
 * /etc/libvirt/libvirtd.conf
 * /etc/libvirt/lxc.conf
@@ -746,4 +746,4 @@ libvirt is a library providing access to information from various virtualization
 * /usr/share/polkit-1/actions/org.libvirt.api.policy
 * /usr/share/polkit-1/actions/org.libvirt.unix.policy
 * /usr/share/polkit-1/rules.d/50-libvirt.rules
-{{< /spoiler >}}
+{{< /files >}}

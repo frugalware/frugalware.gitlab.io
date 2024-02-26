@@ -13,7 +13,7 @@ usize = "12502426"
 sha1sum = "c909c73632cb3cb174f440f25f1a6d065e8e1933"
 depends = "['insight-toolkit', 'qt6-5compat', 'qt6-base', 'qt6-base-sql-common']"
 +++
-Qt6 DICOM Viewer{{< spoiler text="show files" >}}* /usr/bin/alizams
+Qt6 DICOM Viewer{{< files text="show files" >}}* /usr/bin/alizams
 * /usr/include/mdcmopenjpeg-2.5/opj_config.h
 * /usr/share/alizams/datasets/001US/TESTXX02.dcm
 * /usr/share/alizams/datasets/001US/TESTXX04_SR.dcm
@@ -36,4 +36,4 @@ Qt6 DICOM Viewer{{< spoiler text="show files" >}}* /usr/bin/alizams
 * /usr/share/icons/hicolor/scalable/apps/alizams.svg
 * /usr/share/man/man1/alizams.1.gz
 * /usr/share/metainfo/alizams.metainfo.xml
-{{< /spoiler >}}
+{{< /files >}}

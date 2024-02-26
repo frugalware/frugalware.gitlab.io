@@ -14,7 +14,7 @@ sha1sum = "7b8754d4ca54acde0c37dba08676b26c71bba3e4"
 depends = "['python3>=3.11']"
 reverse_depends = "['openvas-cli']"
 +++
-OpenVAS Python3 bindings{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/gvm/connections.py
+OpenVAS Python3 bindings{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/gvm/connections.py
 * /usr/lib/python3.12/site-packages/gvm/errors.py
 * /usr/lib/python3.12/site-packages/gvm/protocols/base.py
 * /usr/lib/python3.12/site-packages/gvm/protocols/gmp.py
@@ -228,4 +228,4 @@ OpenVAS Python3 bindings{{< spoiler text="show files" >}}* /usr/lib/python3.12/s
 * /usr/lib/python3.12/site-packages/python_gvm-23.11.0.dist-info/WHEEL
 * /usr/share/doc/python3-gvm-23.11.0/LICENSE
 * /usr/share/doc/python3-gvm-23.11.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

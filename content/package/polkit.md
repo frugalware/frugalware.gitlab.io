@@ -14,7 +14,7 @@ sha1sum = "87f40c32e3fa80cd87667cdbc7b0c102da1948f5"
 depends = "['duktape', 'expat>=2.1.0-6', 'libffi>=3.2.1-2', 'libsystemd>=242', 'pam>=1.3.0-4', 'scriptlet-core']"
 reverse_depends = "['accountsservice', 'bolt', 'clightd', 'colord', 'connman', 'cups-pk-helper', 'flatpak', 'fprintd', 'gamemode', 'gconf', 'iio-sensor-proxy', 'libvirt', 'networkmanager', 'packagekit', 'pcsc-lite', 'polkit-qt5-1', 'rtkit', 'sysprof', 'udisks2', 'usbguard']"
 +++
-Policy framework for controlling privileges for system-wide services{{< spoiler text="show files" >}}* /etc/pam.d/polkit-1
+Policy framework for controlling privileges for system-wide services{{< files text="show files" >}}* /etc/pam.d/polkit-1
 * /etc/polkit-1/rules.d/50-default.rules
 * /usr/bin/pk-example-frobnicate
 * /usr/bin/pkaction
@@ -156,4 +156,4 @@ Policy framework for controlling privileges for system-wide services{{< spoiler 
 * /usr/share/polkit-1/actions/org.freedesktop.policykit.examples.pkexec.policy
 * /usr/share/polkit-1/actions/org.freedesktop.policykit.policy
 * /usr/share/polkit-1/policyconfig-1.dtd
-{{< /spoiler >}}
+{{< /files >}}

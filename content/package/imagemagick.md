@@ -14,7 +14,7 @@ sha1sum = "0339b97950723c825ae3b604600b8a8ab0b82b03"
 depends = "['djvulibre>=3.5.27-4', 'fftw>=3.3.4-4', 'lcms2>=2.8-2', 'libgomp>=9.1.0-3', 'libheif', 'libjpeg-turbo', 'libraw>=0.21.1', 'librsvg>=2.40.16-3', 'libstdc++>=11.2', 'libtiff>=4.0.6-2', 'libtool>=2.4.6-4', 'libwebp>=0.5.0', 'openexr>=3.2.0', 'openjpeg', 'perl']"
 reverse_depends = "['darktable', 'digikam', 'emacs', 'kitty', 'libvips', 'polychromatic', 'xine-lib']"
 +++
-A robust collection of tools and libraries to read, write and manipulate image files.{{< spoiler text="show files" >}}* /etc/ImageMagick-7/colors.xml
+A robust collection of tools and libraries to read, write and manipulate image files.{{< files text="show files" >}}* /etc/ImageMagick-7/colors.xml
 * /etc/ImageMagick-7/delegates.xml
 * /etc/ImageMagick-7/log.xml
 * /etc/ImageMagick-7/mime.xml
@@ -829,4 +829,4 @@ A robust collection of tools and libraries to read, write and manipulate image f
 * /usr/share/man/man1/stream.1.gz
 * /usr/share/man/man3/Image::Magick.3perl.gz
 * /usr/share/man/man3/Image::Magick::Q16HDRI.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

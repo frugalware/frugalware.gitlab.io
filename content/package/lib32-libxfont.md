@@ -14,7 +14,7 @@ sha1sum = "f9bac248781dedb4875e93c7dee04eeea25fedd9"
 depends = "['lib32-freetype2>=2.9', 'lib32-libfontenc>=1.1.3-6']"
 reverse_depends = "['lib32-xorg-server-fbdev', 'lib32-xorg-server-xephyr']"
 +++
-X font Library ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/include/X11/fonts/bdfint.h
+X font Library ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/fonts/bdfint.h
 * /usr/i686-frugalware-linux/include/X11/fonts/bitmap.h
 * /usr/i686-frugalware-linux/include/X11/fonts/bufio.h
 * /usr/i686-frugalware-linux/include/X11/fonts/fntfil.h
@@ -33,4 +33,4 @@ X font Library ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-
 * /usr/lib32/libXfont.so.1
 * /usr/lib32/libXfont.so.1.4.1
 * /usr/lib32/pkgconfig/xfont.pc
-{{< /spoiler >}}
+{{< /files >}}

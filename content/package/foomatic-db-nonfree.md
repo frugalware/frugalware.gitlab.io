@@ -13,4 +13,4 @@ usize = "0"
 sha1sum = ""
 depends = "['libxml2', 'perl', 'xz']"
 +++
-Foomatic - database extension consisting of manufacturer-supplied PPD files released under non-free licenses.{{< spoiler text="show files" >}}{{< /spoiler >}}
+Foomatic - database extension consisting of manufacturer-supplied PPD files released under non-free licenses.{{< files text="show files" >}}{{< /files >}}

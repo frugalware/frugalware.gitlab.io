@@ -14,7 +14,7 @@ sha1sum = "d818ce220b20dff11f11345c4d8ae98f95ca6af8"
 depends = "['lib32-libtool']"
 reverse_depends = "['get_steam']"
 +++
-libmpg123 is the API used by the mpg123 audio player (32-bit){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/include/fmt123.h
+libmpg123 is the API used by the mpg123 audio player (32-bit){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/fmt123.h
 * /usr/i686-frugalware-linux/include/mpg123.h
 * /usr/i686-frugalware-linux/include/out123.h
 * /usr/i686-frugalware-linux/include/syn123.h
@@ -32,4 +32,4 @@ libmpg123 is the API used by the mpg123 audio player (32-bit){{< spoiler text="s
 * /usr/lib32/pkgconfig/libmpg123.pc
 * /usr/lib32/pkgconfig/libout123.pc
 * /usr/lib32/pkgconfig/libsyn123.pc
-{{< /spoiler >}}
+{{< /files >}}

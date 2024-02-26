@@ -14,7 +14,7 @@ sha1sum = "667202dc32b6eb31eee3629b64a38ca78ada9661"
 depends = "[]"
 reverse_depends = "['fontforge']"
 +++
-Library of Unicode annotation data{{< spoiler text="show files" >}}* /usr/include/uninameslist.h
+Library of Unicode annotation data{{< files text="show files" >}}* /usr/include/uninameslist.h
 * /usr/lib/libuninameslist-fr.so
 * /usr/lib/libuninameslist-fr.so.0
 * /usr/lib/libuninameslist-fr.so.0.0.2
@@ -23,4 +23,4 @@ Library of Unicode annotation data{{< spoiler text="show files" >}}* /usr/includ
 * /usr/lib/libuninameslist.so.0.0.2
 * /usr/share/doc/libuninameslist-20091231/COPYING
 * /usr/share/doc/libuninameslist-20091231/LICENSE
-{{< /spoiler >}}
+{{< /files >}}

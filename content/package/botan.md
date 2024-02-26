@@ -14,7 +14,7 @@ sha1sum = "ca3c3361ed716edb0817d001b914cc541393d5e2"
 depends = "['bzip2', 'libgcc', 'libstdc++', 'python3', 'sqlite3', 'xz', 'zlib>=1.2.12']"
 reverse_depends = "['keepassxc', 'qca-botan']"
 +++
-Crypto library written in C++{{< spoiler text="show files" >}}* /usr/bin/botan
+Crypto library written in C++{{< files text="show files" >}}* /usr/bin/botan
 * /usr/include/botan-3/botan/aead.h
 * /usr/include/botan-3/botan/allocator.h
 * /usr/include/botan-3/botan/argon2.h
@@ -265,4 +265,4 @@ Crypto library written in C++{{< spoiler text="show files" >}}* /usr/bin/botan
 * /usr/share/doc/botan-3.3.0/license.txt
 * /usr/share/doc/botan-3.3.0/news.txt
 * /usr/share/doc/botan-3.3.0/pgpkey.txt
-{{< /spoiler >}}
+{{< /files >}}

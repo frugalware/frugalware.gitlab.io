@@ -13,7 +13,7 @@ usize = "31192439"
 sha1sum = "b50899917ed2ce86542829531cbda8b0fb37e955"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Hebrew support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/he/default.css
+Installs Hebrew support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/he/default.css
 * /usr/lib/libreoffice/help/he/err.html
 * /usr/lib/libreoffice/help/he/highcontrast1.css
 * /usr/lib/libreoffice/help/he/highcontrast2.css
@@ -132,4 +132,4 @@ Installs Hebrew support in LibreOffice{{< spoiler text="show files" >}}* /usr/li
 * /usr/lib/libreoffice/share/registry/Langpack-he.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_he.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_he.xcd
-{{< /spoiler >}}
+{{< /files >}}

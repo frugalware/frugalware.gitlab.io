@@ -14,7 +14,7 @@ sha1sum = "a87c2a3c8b05844c078e42cab314867e9ca82676"
 depends = "['libxaw>=1.0.13-2']"
 license = "GPL2"
 +++
-X.Org xditview application{{< spoiler text="show files" >}}* /usr/bin/xditview
+X.Org xditview application{{< files text="show files" >}}* /usr/bin/xditview
 * /usr/include/X11/bitmaps/ldblarrow
 * /usr/include/X11/bitmaps/rdblarrow
 * /usr/share/doc/xditview-1.0.7/ChangeLog
@@ -24,4 +24,4 @@ X.Org xditview application{{< spoiler text="show files" >}}* /usr/bin/xditview
 * /usr/share/man/man1/xditview.1.gz
 * /usr/share/X11/app-defaults/Xditview
 * /usr/share/X11/app-defaults/Xditview-chrtr
-{{< /spoiler >}}
+{{< /files >}}

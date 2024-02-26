@@ -13,7 +13,7 @@ usize = "38257041"
 sha1sum = "b0c9a31886dc12420f4c6da5890a1dd27884f309"
 depends = "[]"
 +++
-Glibmm Documentation{{< spoiler text="show files" >}}* /usr/share/doc/glibmm-2.4/images/gtkmm_logo.gif
+Glibmm Documentation{{< files text="show files" >}}* /usr/share/doc/glibmm-2.4/images/gtkmm_logo.gif
 * /usr/share/doc/glibmm-2.4/images/top.gif
 * /usr/share/doc/glibmm-2.4/reference/glibmm-2.4.tag
 * /usr/share/doc/glibmm-2.4/reference/html/annotated.html
@@ -1993,4 +1993,4 @@ Glibmm Documentation{{< spoiler text="show files" >}}* /usr/share/doc/glibmm-2.4
 * /usr/share/doc/glibmm-2.4/reference/html/tab_s.png
 * /usr/share/doc/glibmm-2.4/reference/html/thread_2dispatcher_8cc-example.html
 * /usr/share/doc/glibmm-2.4/reference/html/thread_2thread_8cc-example.html
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "5176970"
 sha1sum = "09244929a0d61c6370719983a04db134b8f0f118"
 depends = "['knotifyconfig>=5.115.0', 'libkdegames>=23.08.5', 'qt5-svg>=5.15.12']"
 +++
-A single player puzzle game.{{< spoiler text="show files" >}}* /usr/bin/kdiamond
+A single player puzzle game.{{< files text="show files" >}}* /usr/bin/kdiamond
 * /usr/share/applications/org.kde.kdiamond.desktop
 * /usr/share/doc/HTML/ca/kdiamond/index.cache.bz2
 * /usr/share/doc/HTML/ca/kdiamond/index.docbook
@@ -126,4 +126,4 @@ A single player puzzle game.{{< spoiler text="show files" >}}* /usr/bin/kdiamond
 * /usr/share/sounds/KDiamond-Stone-Drop.ogg
 * /usr/share/sounds/KDiamond-Stone-Swap.ogg
 * /usr/share/sounds/KDiamond-Stone-Touch.ogg
-{{< /spoiler >}}
+{{< /files >}}

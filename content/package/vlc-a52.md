@@ -13,5 +13,5 @@ usize = "14024"
 sha1sum = "2013f241af61b542db22ceb11ae50bb5cb218301"
 depends = "['a52dec', 'libvlc>=3.0.20']"
 +++
-vlc a52 support{{< spoiler text="show files" >}}* /usr/lib/vlc/plugins/codec/liba52_plugin.so
-{{< /spoiler >}}
+vlc a52 support{{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/liba52_plugin.so
+{{< /files >}}

@@ -13,9 +13,9 @@ usize = "273669"
 sha1sum = "7707b58731465196c7b7c5d49e5e7e6a1dcbda50"
 depends = "[]"
 +++
-KDE Kwin-Deco Blended{{< spoiler text="show files" >}}* usr/lib/kde3/kwin3_Blended.la
+KDE Kwin-Deco Blended{{< files text="show files" >}}* usr/lib/kde3/kwin3_Blended.la
 * usr/lib/kde3/kwin3_Blended.so
 * usr/lib/kde3/kwin_Blended_config.la
 * usr/lib/kde3/kwin_Blended_config.so
 * usr/share/apps/kwin/Blended.desktop
-{{< /spoiler >}}
+{{< /files >}}

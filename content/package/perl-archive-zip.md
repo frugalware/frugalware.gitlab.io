@@ -14,7 +14,7 @@ sha1sum = "a349636d4fb833dfd964fd7b3a5ad8e6deed032b"
 depends = "['perl>=5.28.2', 'perl-file-which>=1.23-2']"
 reverse_depends = "['amavisd-new', 'libreoffice']"
 +++
-Module allows a Perl program to create, manipulate, read, and write Zip archive files.{{< spoiler text="show files" >}}* /usr/bin/crc32
+Module allows a Perl program to create, manipulate, read, and write Zip archive files.{{< files text="show files" >}}* /usr/bin/crc32
 * /usr/lib/perl5/site_perl/current/Archive/Zip.pm
 * /usr/lib/perl5/site_perl/current/Archive/Zip/Archive.pm
 * /usr/lib/perl5/site_perl/current/Archive/Zip/BufferedFileHandle.pm
@@ -34,4 +34,4 @@ Module allows a Perl program to create, manipulate, read, and write Zip archive 
 * /usr/share/man/man3/Archive::Zip::FAQ.3perl.gz
 * /usr/share/man/man3/Archive::Zip::MemberRead.3perl.gz
 * /usr/share/man/man3/Archive::Zip::Tree.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

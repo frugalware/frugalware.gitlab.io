@@ -13,7 +13,7 @@ usize = "958391"
 sha1sum = "104919c938af68b4db4e5596c5a8028731cb2425"
 depends = "['glibc>=2.34']"
 +++
-Open DataBase Connectivity library.{{< spoiler text="show files" >}}* /usr/bin/iodbc-config
+Open DataBase Connectivity library.{{< files text="show files" >}}* /usr/bin/iodbc-config
 * /usr/bin/iodbctest
 * /usr/bin/iodbctestw
 * /usr/include/iodbc/iodbcext.h
@@ -51,4 +51,4 @@ Open DataBase Connectivity library.{{< spoiler text="show files" >}}* /usr/bin/i
 * /usr/share/man/man1/iodbc-config.1.gz
 * /usr/share/man/man1/iodbctest.1.gz
 * /usr/share/man/man1/iodbctestw.1.gz
-{{< /spoiler >}}
+{{< /files >}}

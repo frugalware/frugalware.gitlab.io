@@ -14,5 +14,5 @@ sha1sum = "a028121799cea766a814e53af075c64a05caf328"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Occitan (post 1500) language support for Firefox{{< spoiler text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-oc@firefox.mozilla.org.xpi
-{{< /spoiler >}}
+Occitan (post 1500) language support for Firefox{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-oc@firefox.mozilla.org.xpi
+{{< /files >}}

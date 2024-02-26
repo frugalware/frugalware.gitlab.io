@@ -14,7 +14,7 @@ sha1sum = "d9cd247ff4d350453894cdfa8c7ed71ea7abf9ef"
 depends = "['libsystemd', 'libxaw>=1.0.13-2']"
 license = "GPL2"
 +++
-X.Org xdm application{{< spoiler text="show files" >}}* /etc/X11/xdm/Xaccess
+X.Org xdm application{{< files text="show files" >}}* /etc/X11/xdm/Xaccess
 * /etc/X11/xdm/xdm-config
 * /etc/X11/xdm/Xresources
 * /etc/X11/xdm/Xservers
@@ -39,4 +39,4 @@ X.Org xdm application{{< spoiler text="show files" >}}* /etc/X11/xdm/Xaccess
 * /usr/share/doc/xdm-1.1.14/README.md
 * /usr/share/man/man8/xdm.8.gz
 * /usr/share/X11/app-defaults/Chooser
-{{< /spoiler >}}
+{{< /files >}}

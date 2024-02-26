@@ -13,7 +13,7 @@ usize = "35297618"
 sha1sum = "77fc5a73f6b4da0ad7d3e43e52a26d1a0936dc14"
 depends = "['cups>=1.1.15', 'foomatic-filters>=2.0', 'libxml2>=2.7.8', 'openssl>=1.0.0-2', 'readline>=8.0']"
 +++
-IJS printer driver for Ghostscript and CUPS{{< spoiler text="show files" >}}* /etc/cups/command.types
+IJS printer driver for Ghostscript and CUPS{{< files text="show files" >}}* /etc/cups/command.types
 * /usr/bin/cups-calibrate
 * /usr/bin/cups-genppd.5.3
 * /usr/bin/cups-genppdupdate
@@ -457,4 +457,4 @@ IJS printer driver for Ghostscript and CUPS{{< spoiler text="show files" >}}* /e
 * /usr/share/man/man8/cups-calibrate.8.gz
 * /usr/share/man/man8/cups-genppd.8.gz
 * /usr/share/man/man8/cups-genppdupdate.8.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,5 +13,5 @@ usize = "23168"
 sha1sum = "19f44264bb6ba1bc5bfd7651495601dec80db88f"
 depends = "['libnet>=1.1.6', 'rsyslog=8.2312.0']"
 +++
-Provides the omudpspoof module for rsyslog{{< spoiler text="show files" >}}* /usr/lib/rsyslog/omudpspoof.so
-{{< /spoiler >}}
+Provides the omudpspoof module for rsyslog{{< files text="show files" >}}* /usr/lib/rsyslog/omudpspoof.so
+{{< /files >}}

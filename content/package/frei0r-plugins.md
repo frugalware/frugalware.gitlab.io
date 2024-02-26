@@ -14,7 +14,7 @@ sha1sum = "aad208cb92bcc3360f18be38c881c7d9b3e8eaf4"
 depends = "['gavl>=1.4.0-3']"
 reverse_depends = "['kamoso', 'mlt']"
 +++
-frei0r is a minimalistic plugin API for video sources and filters.{{< spoiler text="show files" >}}* /usr/include/frei0r.h
+frei0r is a minimalistic plugin API for video sources and filters.{{< files text="show files" >}}* /usr/include/frei0r.h
 * /usr/lib/frei0r-1/3dflippo.so
 * /usr/lib/frei0r-1/addition.so
 * /usr/lib/frei0r-1/addition_alpha.so
@@ -149,4 +149,4 @@ frei0r is a minimalistic plugin API for video sources and filters.{{< spoiler te
 * /usr/share/doc/frei0r-plugins-1.8.0/COPYING.txt
 * /usr/share/doc/frei0r-plugins-1.8.0/INSTALL.txt
 * /usr/share/doc/frei0r-plugins-1.8.0/README.txt
-{{< /spoiler >}}
+{{< /files >}}

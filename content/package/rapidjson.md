@@ -13,7 +13,7 @@ usize = "604498"
 sha1sum = "7216327f841b7dfaf305fe42145b89ca4eda8fab"
 depends = "[]"
 +++
-A fast JSON parser/generator for C++{{< spoiler text="show files" >}}* /usr/include/rapidjson/allocators.h
+A fast JSON parser/generator for C++{{< files text="show files" >}}* /usr/include/rapidjson/allocators.h
 * /usr/include/rapidjson/document.h
 * /usr/include/rapidjson/encodedstream.h
 * /usr/include/rapidjson/encodings.h
@@ -52,4 +52,4 @@ A fast JSON parser/generator for C++{{< spoiler text="show files" >}}* /usr/incl
 * /usr/lib/cmake/RapidJSON/RapidJSONConfigVersion.cmake
 * /usr/lib/pkgconfig/RapidJSON.pc
 * /usr/share/doc/RapidJSON/readme.md
-{{< /spoiler >}}
+{{< /files >}}

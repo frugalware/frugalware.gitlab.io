@@ -13,7 +13,7 @@ usize = "205950"
 sha1sum = "a9b009107fb34b196df82e8334d5c5f7b4885c3f"
 depends = "['poppler']"
 +++
-Poppler QT bindings{{< spoiler text="show files" >}}* /usr/include/poppler/qt3/poppler-link-qt3.h
+Poppler QT bindings{{< files text="show files" >}}* /usr/include/poppler/qt3/poppler-link-qt3.h
 * /usr/include/poppler/qt3/poppler-page-transition.h
 * /usr/include/poppler/qt3/poppler-qt.h
 * /usr/lib/libpoppler-qt.a
@@ -22,4 +22,4 @@ Poppler QT bindings{{< spoiler text="show files" >}}* /usr/include/poppler/qt3/p
 * /usr/lib/libpoppler-qt.so.3
 * /usr/lib/libpoppler-qt.so.3.0.0
 * /usr/lib/pkgconfig/poppler-qt.pc
-{{< /spoiler >}}
+{{< /files >}}

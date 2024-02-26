@@ -14,7 +14,7 @@ sha1sum = "f937956443edf758938749360c7f317b7559fdd3"
 depends = "['libkdepim>=23.08.5', 'pimcommon>=23.08.5']"
 reverse_depends = "['mailcommon']"
 +++
-Mail importer library.{{< spoiler text="show files" >}}* /usr/include/KPim5/MailImporter/MailImporter/FilterBalsa
+Mail importer library.{{< files text="show files" >}}* /usr/include/KPim5/MailImporter/MailImporter/FilterBalsa
 * /usr/include/KPim5/MailImporter/mailimporter/filterbalsa.h
 * /usr/include/KPim5/MailImporter/MailImporter/FilterClawsMail
 * /usr/include/KPim5/MailImporter/mailimporter/filterclawsmail.h
@@ -168,4 +168,4 @@ Mail importer library.{{< spoiler text="show files" >}}* /usr/include/KPim5/Mail
 * /usr/share/qlogging-categories5/mailimporter.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_MailImporter.pri
 * /usr/share/qt5/mkspecs/modules/qt_MailImporterAkonadi.pri
-{{< /spoiler >}}
+{{< /files >}}

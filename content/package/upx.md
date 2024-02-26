@@ -13,7 +13,7 @@ usize = "2500047"
 sha1sum = "ca84c3ddcf49ffba2ef5392006c3b19da4df6038"
 depends = "['libstdc++', 'ucl>=1.03-3', 'zlib>=1.2.12']"
 +++
-A binary executable compression program.{{< spoiler text="show files" >}}* /usr/bin/upx
+A binary executable compression program.{{< files text="show files" >}}* /usr/bin/upx
 * /usr/share/doc/upx-4.0.2/COPYING
 * /usr/share/doc/upx-4.0.2/LICENSE
 * /usr/share/doc/upx-4.0.2/NEWS
@@ -28,4 +28,4 @@ A binary executable compression program.{{< spoiler text="show files" >}}* /usr/
 * /usr/share/doc/upx/upx-doc.html
 * /usr/share/doc/upx/upx-doc.txt
 * /usr/share/man/man1/upx.1.gz
-{{< /spoiler >}}
+{{< /files >}}

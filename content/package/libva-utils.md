@@ -13,7 +13,7 @@ usize = "3300745"
 sha1sum = "48c838e113f4e607c102503266fb510725ad5d4a"
 depends = "['libva>=2.18.0']"
 +++
-Intel VA-API Media Applications and Scripts for libva{{< spoiler text="show files" >}}* /usr/bin/av1encode
+Intel VA-API Media Applications and Scripts for libva{{< files text="show files" >}}* /usr/bin/av1encode
 * /usr/bin/avcenc
 * /usr/bin/avcstreamoutdemo
 * /usr/bin/h264encode
@@ -42,4 +42,4 @@ Intel VA-API Media Applications and Scripts for libva{{< spoiler text="show file
 * /usr/share/doc/libva-utils-2.20.1/INSTALL
 * /usr/share/doc/libva-utils-2.20.1/NEWS
 * /usr/share/doc/libva-utils-2.20.1/README.md
-{{< /spoiler >}}
+{{< /files >}}

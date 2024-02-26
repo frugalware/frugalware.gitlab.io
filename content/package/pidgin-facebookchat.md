@@ -13,7 +13,7 @@ usize = "248298"
 sha1sum = "14d40f4a9df41da913ce1bec3e6aacf4be909d1c"
 depends = "['json-glib>=0.8.0', 'libpurple']"
 +++
-This is a Facebook chat plugin for Pidgin and libpurple messengers.{{< spoiler text="show files" >}}* /usr/lib/purple-2/libfacebook.so
+This is a Facebook chat plugin for Pidgin and libpurple messengers.{{< files text="show files" >}}* /usr/lib/purple-2/libfacebook.so
 * /usr/share/doc/pidgin-facebookchat-0.9.6/AUTHORS
 * /usr/share/doc/pidgin-facebookchat-0.9.6/ChangeLog
 * /usr/share/doc/pidgin-facebookchat-0.9.6/COPYING
@@ -21,4 +21,4 @@ This is a Facebook chat plugin for Pidgin and libpurple messengers.{{< spoiler t
 * /usr/share/doc/pidgin-facebookchat-0.9.6/README
 * /usr/share/doc/pidgin-facebookchat-0.9.6/RELEASE_VERSION
 * /usr/share/doc/pidgin-facebookchat-0.9.6/VERSION
-{{< /spoiler >}}
+{{< /files >}}

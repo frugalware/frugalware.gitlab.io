@@ -14,7 +14,7 @@ sha1sum = "f9b30836e6aa2a00e6223e43ea23e39ae4e010f8"
 depends = "['libidn>=1.3.5']"
 reverse_depends = "['fail2ban']"
 +++
-The GNU whois client{{< spoiler text="show files" >}}* /etc/bash_completion.d/mkpasswd
+The GNU whois client{{< files text="show files" >}}* /etc/bash_completion.d/mkpasswd
 * /etc/bash_completion.d/whois
 * /etc/whois.conf
 * /usr/bin/whois
@@ -38,4 +38,4 @@ The GNU whois client{{< spoiler text="show files" >}}* /etc/bash_completion.d/mk
 * /usr/share/locale/zh_CN/LC_MESSAGES/whois.mo
 * /usr/share/man/man1/whois.1.gz
 * /usr/share/man/man5/whois.conf.5.gz
-{{< /spoiler >}}
+{{< /files >}}

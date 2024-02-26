@@ -14,7 +14,7 @@ sha1sum = "ac7c041d74dbca86d1dd8e8bd597d788b5c0df55"
 depends = "['libstdc++>=12.2']"
 reverse_depends = "['insight-toolkit']"
 +++
-Google Test - C++ testing utility based on the xUnit framework (like JUnit){{< spoiler text="show files" >}}* /usr/include/gmock/gmock-actions.h
+Google Test - C++ testing utility based on the xUnit framework (like JUnit){{< files text="show files" >}}* /usr/include/gmock/gmock-actions.h
 * /usr/include/gmock/gmock-cardinalities.h
 * /usr/include/gmock/gmock-function-mocker.h
 * /usr/include/gmock/gmock-matchers.h
@@ -71,4 +71,4 @@ Google Test - C++ testing utility based on the xUnit framework (like JUnit){{< s
 * /usr/share/doc/gtest-1.14.0/LICENSE
 * /usr/share/doc/gtest-1.14.0/README.md
 * /usr/share/doc/gtest-1.14.0/README.rst
-{{< /spoiler >}}
+{{< /files >}}

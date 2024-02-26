@@ -13,5 +13,5 @@ usize = "47120"
 sha1sum = "6afc8302ea9e4944ad4f0783293b64f86cf39dd2"
 depends = "['nss', 'qca']"
 +++
-Plugins for qca with nss{{< spoiler text="show files" >}}* /usr/lib/qca-qt5/crypto/libqca-nss.so
-{{< /spoiler >}}
+Plugins for qca with nss{{< files text="show files" >}}* /usr/lib/qca-qt5/crypto/libqca-nss.so
+{{< /files >}}

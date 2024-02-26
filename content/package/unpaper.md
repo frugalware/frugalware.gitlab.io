@@ -13,9 +13,9 @@ usize = "104739"
 sha1sum = "505f5723a4acbd302ba66c74de179dcbc9f574e6"
 depends = "['ffmpeg>=6.0']"
 +++
-post-processing scanned and photocopied book pages{{< spoiler text="show files" >}}* /usr/bin/unpaper
+post-processing scanned and photocopied book pages{{< files text="show files" >}}* /usr/bin/unpaper
 * /usr/share/doc/unpaper-7.0.0/AUTHORS
 * /usr/share/doc/unpaper-7.0.0/NEWS
 * /usr/share/doc/unpaper-7.0.0/README.md
 * /usr/share/man/man1/unpaper.1.gz
-{{< /spoiler >}}
+{{< /files >}}

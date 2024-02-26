@@ -13,7 +13,7 @@ usize = "6527066"
 sha1sum = "fb9d6a3f6a0b5e514e63334a0a95e8e6dc63a071"
 depends = "['haskell-hslua', 'haskell-hslua-list', 'haskell-hslua-marshalling', 'haskell-pandoc-types>=1.23.1', 'haskell-safe']"
 +++
-Use pandoc types in Lua{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/pandoc-lua-marshal-0.2.2/libHSpandoc-lua-marshal-0.2.2-Cr5ryE2kZFk7AHt7gVvHx2.a
+Use pandoc types in Lua{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/pandoc-lua-marshal-0.2.2/libHSpandoc-lua-marshal-0.2.2-Cr5ryE2kZFk7AHt7gVvHx2.a
 * /usr/lib/ghc-9.8.1/site-local/pandoc-lua-marshal-0.2.2/Text/Pandoc/Lua/Marshal/Alignment.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/pandoc-lua-marshal-0.2.2/Text/Pandoc/Lua/Marshal/Alignment.hi
 * /usr/lib/ghc-9.8.1/site-local/pandoc-lua-marshal-0.2.2/Text/Pandoc/Lua/Marshal/AST.dyn_hi
@@ -104,4 +104,4 @@ Use pandoc types in Lua{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/sit
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/pandoc-lua-marshal-0.2.2/LICENSE
 * /usr/share/haskell/haskell-pandoc-lua-marshal/register.sh
 * /usr/share/haskell/haskell-pandoc-lua-marshal/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

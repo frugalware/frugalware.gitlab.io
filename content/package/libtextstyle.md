@@ -14,7 +14,7 @@ sha1sum = "917f6e35c0c34b66990cce6402848a43fec475ce"
 depends = "['gettext']"
 reverse_depends = "['gettext']"
 +++
-gettext lib{{< spoiler text="show files" >}}* /usr/include/textstyle.h
+gettext lib{{< files text="show files" >}}* /usr/include/textstyle.h
 * /usr/include/textstyle/stdbool.h
 * /usr/include/textstyle/version.h
 * /usr/include/textstyle/woe32dll.h
@@ -31,4 +31,4 @@ gettext lib{{< spoiler text="show files" >}}* /usr/include/textstyle.h
 * /usr/share/doc/gettext-0.22.5/libtextstyle_abt.html
 * /usr/share/doc/gettext-0.22.5/libtextstyle_toc.html
 * /usr/share/info/libtextstyle.info.gz
-{{< /spoiler >}}
+{{< /files >}}

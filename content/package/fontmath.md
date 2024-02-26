@@ -13,7 +13,7 @@ usize = "352893"
 sha1sum = "68099abc7c92518d1c940fff796cd627580fbd73"
 depends = "['python3>=3.10']"
 +++
-A set of objects for performing math operations on font data.{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/fontMath-0.9.3-py3.12.egg-info/dependency_links.txt
+A set of objects for performing math operations on font data.{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/fontMath-0.9.3-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/fontMath-0.9.3-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/fontMath-0.9.3-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/fontMath-0.9.3-py3.12.egg-info/SOURCES.txt
@@ -50,4 +50,4 @@ A set of objects for performing math operations on font data.{{< spoiler text="s
 * /usr/lib/python3.12/site-packages/fontMath/__pycache__/_version.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontMath/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/fontmath-0.9.3/README.md
-{{< /spoiler >}}
+{{< /files >}}

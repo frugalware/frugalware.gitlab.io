@@ -14,7 +14,7 @@ sha1sum = "38b8869a55e9768fba87d6111e8009cb25334011"
 depends = "['glibc']"
 license = "GPL2"
 +++
-X.Org imake build system{{< spoiler text="show files" >}}* /usr/bin/ccmakedep
+X.Org imake build system{{< files text="show files" >}}* /usr/bin/ccmakedep
 * /usr/bin/cleanlinks
 * /usr/bin/imake
 * /usr/bin/makeg
@@ -36,4 +36,4 @@ X.Org imake build system{{< spoiler text="show files" >}}* /usr/bin/ccmakedep
 * /usr/share/man/man1/mkhtmlindex.1.gz
 * /usr/share/man/man1/revpath.1.gz
 * /usr/share/man/man1/xmkmf.1.gz
-{{< /spoiler >}}
+{{< /files >}}

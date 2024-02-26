@@ -14,7 +14,7 @@ sha1sum = "d4cdf9a45682136ddb3c8520080edc1edb7e7152"
 depends = "['kio>=5.115.0']"
 reverse_depends = "['drkonqi', 'plasma-workspace']"
 +++
-XML-RPC client library for KDE.{{< spoiler text="show files" >}}* /usr/include/KF5/KXmlRpcClient/KXmlRpcClient/Client
+XML-RPC client library for KDE.{{< files text="show files" >}}* /usr/include/KF5/KXmlRpcClient/KXmlRpcClient/Client
 * /usr/include/KF5/KXmlRpcClient/kxmlrpcclient/client.h
 * /usr/include/KF5/KXmlRpcClient/kxmlrpcclient/kxmlrpcclient_export.h
 * /usr/include/KF5/KXmlRpcClient/kxmlrpcclient_version.h
@@ -91,4 +91,4 @@ XML-RPC client library for KDE.{{< spoiler text="show files" >}}* /usr/include/K
 * /usr/share/qlogging-categories5/kxmlrpcclient.categories
 * /usr/share/qlogging-categories5/kxmlrpcclient.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KXmlRpcClient.pri
-{{< /spoiler >}}
+{{< /files >}}

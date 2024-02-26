@@ -13,7 +13,7 @@ usize = "452999"
 sha1sum = "6092e67df1647d58e45b53076dff5defa9b4a8a0"
 depends = "['futuresql', 'kcoreaddons>=5.115.0', 'kdeclarative>=5.115.0', 'ki18n>=5.115.0', 'kirigami2>=5.115.0', 'qcoro']"
 +++
-Tool to check contrast for colors that allows verifying that your colors are correctly accessible{{< spoiler text="show files" >}}* /usr/bin/kontrast
+Tool to check contrast for colors that allows verifying that your colors are correctly accessible{{< files text="show files" >}}* /usr/bin/kontrast
 * /usr/share/applications/org.kde.kontrast.desktop
 * /usr/share/doc/HTML/ca/kontrast/index.cache.bz2
 * /usr/share/doc/HTML/ca/kontrast/index.docbook
@@ -65,4 +65,4 @@ Tool to check contrast for colors that allows verifying that your colors are cor
 * /usr/share/locale/zh_CN/LC_MESSAGES/kontrast.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kontrast.mo
 * /usr/share/metainfo/org.kde.kontrast.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

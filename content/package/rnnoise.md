@@ -14,7 +14,7 @@ sha1sum = "c0b779e62e45371082f794d6752068965eacea41"
 depends = "['glibc']"
 reverse_depends = "['easyeffects', 'telegram-desktop']"
 +++
-A noise suppression library based on a recurrent neural network{{< spoiler text="show files" >}}* /usr/include/rnnoise.h
+A noise suppression library based on a recurrent neural network{{< files text="show files" >}}* /usr/include/rnnoise.h
 * /usr/lib/librnnoise.so
 * /usr/lib/librnnoise.so.0
 * /usr/lib/librnnoise.so.0.4.1
@@ -27,4 +27,4 @@ A noise suppression library based on a recurrent neural network{{< spoiler text=
 * /usr/share/doc/rnnoise-0.1.g7f449bf/README
 * /usr/share/doc/rnnoise-0.1.g7f449bf/TRAINING-README
 * /usr/share/doc/rnnoise-0.1.g7f449bf/VERSION
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "bc4e2129abd3c99a0342e455aa4579b82c22b408"
 depends = "['haskell-th-lift-instances']"
 reverse_depends = "['haskell-citeproc']"
 +++
-Haskell implementation of the Unicode Collation Algorithm{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/unicode-collation-0.1.3.5/libHSunicode-collation-0.1.3.5-7zBCUzkEaCAFvmrdM9xaZt.a
+Haskell implementation of the Unicode Collation Algorithm{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/unicode-collation-0.1.3.5/libHSunicode-collation-0.1.3.5-7zBCUzkEaCAFvmrdM9xaZt.a
 * /usr/lib/ghc-9.8.1/site-local/unicode-collation-0.1.3.5/Text/Collate.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/unicode-collation-0.1.3.5/Text/Collate.hi
 * /usr/lib/ghc-9.8.1/site-local/unicode-collation-0.1.3.5/Text/Collate/CanonicalCombiningClass.dyn_hi
@@ -54,4 +54,4 @@ Haskell implementation of the Unicode Collation Algorithm{{< spoiler text="show 
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/unicode-collation-0.1.3.5/LICENSE
 * /usr/share/haskell/haskell-unicode-collation/register.sh
 * /usr/share/haskell/haskell-unicode-collation/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

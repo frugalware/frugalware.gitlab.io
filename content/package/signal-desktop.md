@@ -13,7 +13,7 @@ usize = "425461974"
 sha1sum = "244af7b54bb28187697152d797b3ce3976053f01"
 depends = "['gtk+3', 'hicolor-icon-theme', 'libvips', 'libxscrnsaver']"
 +++
-Signal Private Messenger for Linux{{< spoiler text="show files" >}}* /usr/bin/signal-desktop
+Signal Private Messenger for Linux{{< files text="show files" >}}* /usr/bin/signal-desktop
 * /usr/lib/signal-desktop/chrome-sandbox
 * /usr/lib/signal-desktop/chrome_100_percent.pak
 * /usr/lib/signal-desktop/chrome_200_percent.pak
@@ -145,4 +145,4 @@ Signal Private Messenger for Linux{{< spoiler text="show files" >}}* /usr/bin/si
 * /usr/share/icons/hicolor/48x48/apps/signal-desktop.png
 * /usr/share/icons/hicolor/512x512/apps/signal-desktop.png
 * /usr/share/icons/hicolor/64x64/apps/signal-desktop.png
-{{< /spoiler >}}
+{{< /files >}}

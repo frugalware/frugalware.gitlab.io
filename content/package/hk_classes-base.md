@@ -14,7 +14,7 @@ sha1sum = "833712830b221e1703cf9cac3a7694af9380d273"
 depends = "['libstdc++']"
 reverse_depends = "['hk_classes-xbase']"
 +++
-Set of GUI C++ libraries which allow the development of database applications.{{< spoiler text="show files" >}}* usr/bin/hk_actionquery
+Set of GUI C++ libraries which allow the development of database applications.{{< files text="show files" >}}* usr/bin/hk_actionquery
 * usr/bin/hk_dbcopy
 * usr/bin/hk_exportcsv
 * usr/bin/hk_exporthtml
@@ -90,4 +90,4 @@ Set of GUI C++ libraries which allow the development of database applications.{{
 * usr/share/doc/hk_classes-base-0.8/INSTALL
 * usr/share/doc/hk_classes-base-0.8/NEWS
 * usr/share/doc/hk_classes-base-0.8/README
-{{< /spoiler >}}
+{{< /files >}}

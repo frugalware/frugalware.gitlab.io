@@ -14,7 +14,7 @@ sha1sum = "2d6413623701f361d393b270da7cd23769548722"
 depends = "['libxml2>=2.9.4-3']"
 reverse_depends = "['libe-book', 'libreoffice']"
 +++
-An interface library to access tags for identifying languages{{< spoiler text="show files" >}}* /usr/include/liblangtag/langtag.h
+An interface library to access tags for identifying languages{{< files text="show files" >}}* /usr/include/liblangtag/langtag.h
 * /usr/include/liblangtag/lt-config.h
 * /usr/include/liblangtag/lt-database.h
 * /usr/include/liblangtag/lt-error.h
@@ -118,4 +118,4 @@ An interface library to access tags for identifying languages{{< spoiler text="s
 * /usr/share/liblangtag/common/supplemental/supplementalData.xml
 * /usr/share/liblangtag/common/supplemental/supplementalMetadata.xml
 * /usr/share/liblangtag/language-subtag-registry.xml
-{{< /spoiler >}}
+{{< /files >}}

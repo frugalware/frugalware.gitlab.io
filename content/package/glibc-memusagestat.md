@@ -13,5 +13,5 @@ usize = "22672"
 sha1sum = "0cc5f4f73dd7633e8d2d3caa4ac8a337ce43b079"
 depends = "['gd>=2.1.1']"
 +++
-glibc memusagestat utility{{< spoiler text="show files" >}}* /usr/bin/memusagestat
-{{< /spoiler >}}
+glibc memusagestat utility{{< files text="show files" >}}* /usr/bin/memusagestat
+{{< /files >}}

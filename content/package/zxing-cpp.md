@@ -14,7 +14,7 @@ sha1sum = "e23af1d6620bb2c51950faf168d821a163885f62"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['kitinerary', 'prison']"
 +++
-A command-line tool to decode QRCode{{< spoiler text="show files" >}}* /usr/bin/ZXingReader
+A command-line tool to decode QRCode{{< files text="show files" >}}* /usr/bin/ZXingReader
 * /usr/bin/ZXingWriter
 * /usr/include/ZXing/BarcodeFormat.h
 * /usr/include/ZXing/BitHacks.h
@@ -51,4 +51,4 @@ A command-line tool to decode QRCode{{< spoiler text="show files" >}}* /usr/bin/
 * /usr/lib/pkgconfig/zxing.pc
 * /usr/share/doc/zxing-cpp-2.2.1/LICENSE
 * /usr/share/doc/zxing-cpp-2.2.1/README.md
-{{< /spoiler >}}
+{{< /files >}}

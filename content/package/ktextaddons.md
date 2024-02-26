@@ -14,7 +14,7 @@ sha1sum = "1d44ffc9af859633da198ddaf453ff7d07b04403"
 depends = "['kio>=', 'kxmlgui>=', 'qt5-speech>=', 'qtkeychain', 'syntax-highlighting>=']"
 reverse_depends = "['messagelib', 'pimcommon']"
 +++
-Various text handling addons{{< spoiler text="show files" >}}* /usr/include/KF5/TextAddonsWidgets/TextAddonsWidgets/LineEditCatchReturnKey
+Various text handling addons{{< files text="show files" >}}* /usr/include/KF5/TextAddonsWidgets/TextAddonsWidgets/LineEditCatchReturnKey
 * /usr/include/KF5/TextAddonsWidgets/textaddonswidgets/lineeditcatchreturnkey.h
 * /usr/include/KF5/TextAddonsWidgets/TextAddonsWidgets/SelectSpecialCharDialog
 * /usr/include/KF5/TextAddonsWidgets/textaddonswidgets/selectspecialchardialog.h
@@ -465,4 +465,4 @@ Various text handling addons{{< spoiler text="show files" >}}* /usr/include/KF5/
 * /usr/share/qt5/mkspecs/modules/qt_TextGrammarCheck.pri
 * /usr/share/qt5/mkspecs/modules/qt_TextTranslator.pri
 * /usr/share/qt5/mkspecs/modules/qt_textutils.pri
-{{< /spoiler >}}
+{{< /files >}}

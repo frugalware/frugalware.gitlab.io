@@ -14,7 +14,7 @@ sha1sum = "5a62798e9ef8f1b05df626cef9fa8ed93e7a51a2"
 depends = "['haskell-hslua-objectorientation']"
 reverse_depends = "['haskell-hslua', 'haskell-hslua-module-path', 'haskell-hslua-module-version']"
 +++
-Utilities to build Lua modules.{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hslua-packaging-2.3.0/HsLua/Packaging.dyn_hi
+Utilities to build Lua modules.{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hslua-packaging-2.3.0/HsLua/Packaging.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-packaging-2.3.0/HsLua/Packaging.hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-packaging-2.3.0/HsLua/Packaging/Convenience.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-packaging-2.3.0/HsLua/Packaging/Convenience.hi
@@ -53,4 +53,4 @@ Utilities to build Lua modules.{{< spoiler text="show files" >}}* /usr/lib/ghc-9
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/hslua-packaging-2.3.0/LICENSE
 * /usr/share/haskell/haskell-hslua-packaging/register.sh
 * /usr/share/haskell/haskell-hslua-packaging/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

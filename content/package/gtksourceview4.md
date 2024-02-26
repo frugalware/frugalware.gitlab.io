@@ -14,7 +14,7 @@ sha1sum = "f1dbc27649e9148b5eff40c44d846f2ac0f9c01a"
 depends = "['gtk+3>=3.22.29', 'libxml2>=2.9.4-3']"
 reverse_depends = "['gtksourceview4-doc', 'inkscape', 'input-remapper', 'xpad']"
 +++
-A text widget adding syntax highlighting and more to GNOME{{< spoiler text="show files" >}}* /usr/include/gtksourceview-4/gtksourceview/completion-providers/words/gtksourcecompletionwords.h
+A text widget adding syntax highlighting and more to GNOME{{< files text="show files" >}}* /usr/include/gtksourceview-4/gtksourceview/completion-providers/words/gtksourcecompletionwords.h
 * /usr/include/gtksourceview-4/gtksourceview/gtksource-enumtypes.h
 * /usr/include/gtksourceview-4/gtksourceview/gtksource.h
 * /usr/include/gtksourceview-4/gtksourceview/gtksourceautocleanups.h
@@ -336,4 +336,4 @@ A text widget adding syntax highlighting and more to GNOME{{< spoiler text="show
 * /usr/share/locale/zh_TW/LC_MESSAGES/gtksourceview-4.mo
 * /usr/share/vala/vapi/gtksourceview-4.deps
 * /usr/share/vala/vapi/gtksourceview-4.vapi
-{{< /spoiler >}}
+{{< /files >}}

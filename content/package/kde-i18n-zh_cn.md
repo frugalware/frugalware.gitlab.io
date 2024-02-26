@@ -13,7 +13,7 @@ usize = "6054442"
 sha1sum = "9bae8b382334d412dc2083359c8470f5b1cb9f19"
 depends = "[]"
 +++
-Chinese Simplified Localization for KDE.{{< spoiler text="show files" >}}* usr/share/doc/HTML/zh_CN/common/1.png
+Chinese Simplified Localization for KDE.{{< files text="show files" >}}* usr/share/doc/HTML/zh_CN/common/1.png
 * usr/share/doc/HTML/zh_CN/common/10.png
 * usr/share/doc/HTML/zh_CN/common/2.png
 * usr/share/doc/HTML/zh_CN/common/3.png
@@ -622,4 +622,4 @@ Chinese Simplified Localization for KDE.{{< spoiler text="show files" >}}* usr/s
 * usr/share/locale/zh_CN/LC_MESSAGES/wakeup.mo
 * usr/share/locale/zh_CN/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/zh_CN/LC_MESSAGES/webarchiver.mo
-{{< /spoiler >}}
+{{< /files >}}

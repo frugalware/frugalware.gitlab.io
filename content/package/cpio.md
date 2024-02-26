@@ -14,7 +14,7 @@ sha1sum = "4b3f3a6b71a7b9ad51d7e100ab59c618198af99a"
 depends = "['bash>=4.4.12-4', 'glibc>=2.34']"
 reverse_depends = "['binwalk', 'dracut', 'libguestfs', 'supermin']"
 +++
-A program to manage archives of files{{< spoiler text="show files" >}}* /usr/bin/cpio
+A program to manage archives of files{{< files text="show files" >}}* /usr/bin/cpio
 * /usr/lib/cpio/rmt
 * /usr/share/doc/cpio-2.15/AUTHORS
 * /usr/share/doc/cpio-2.15/ChangeLog
@@ -54,4 +54,4 @@ A program to manage archives of files{{< spoiler text="show files" >}}* /usr/bin
 * /usr/share/locale/zh_CN/LC_MESSAGES/cpio.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/cpio.mo
 * /usr/share/man/man1/cpio.1.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "65af485a82cb2a465ba0a53b78120bd1442c0e4e"
 depends = "['glibc>=2.34', 'readline>=8.0-2']"
 reverse_depends = "['apache', 'apr-util', 'avahi', 'courier-authlib', 'cyrus-sasl', 'man-db', 'ocaml', 'perl', 'php', 'python3', 'ruby', 'zsh']"
 +++
-GNU database library{{< spoiler text="show files" >}}* /usr/bin/gdbmtool
+GNU database library{{< files text="show files" >}}* /usr/bin/gdbmtool
 * /usr/bin/gdbm_dump
 * /usr/bin/gdbm_load
 * /usr/include/gdbm.h
@@ -47,4 +47,4 @@ GNU database library{{< spoiler text="show files" >}}* /usr/bin/gdbmtool
 * /usr/share/man/man1/gdbm_dump.1.gz
 * /usr/share/man/man1/gdbm_load.1.gz
 * /usr/share/man/man3/gdbm.3.gz
-{{< /spoiler >}}
+{{< /files >}}

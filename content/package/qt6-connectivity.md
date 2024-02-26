@@ -14,7 +14,7 @@ sha1sum = "2c40927de5b77d39c3f3c8f919340fcfa91a6257"
 depends = "['bluez', 'pcsc-lite', 'qt6-declarative']"
 reverse_depends = "['qt6-sensors']"
 +++
-The Qt6 toolkit, qtconnectivity{{< spoiler text="show files" >}}* /usr/include/qt6/QtBluetooth/6.6.2/QtBluetooth/private/adapter1_bluez5_p.h
+The Qt6 toolkit, qtconnectivity{{< files text="show files" >}}* /usr/include/qt6/QtBluetooth/6.6.2/QtBluetooth/private/adapter1_bluez5_p.h
 * /usr/include/qt6/QtBluetooth/6.6.2/QtBluetooth/private/battery1_p.h
 * /usr/include/qt6/QtBluetooth/6.6.2/QtBluetooth/private/bluetoothmanagement_p.h
 * /usr/include/qt6/QtBluetooth/6.6.2/QtBluetooth/private/bluez5_helper_p.h
@@ -189,4 +189,4 @@ The Qt6 toolkit, qtconnectivity{{< spoiler text="show files" >}}* /usr/include/q
 * /usr/lib/qt6/modules/Bluetooth.json
 * /usr/lib/qt6/modules/Nfc.json
 * /usr/lib/qt6/sdpscanner
-{{< /spoiler >}}
+{{< /files >}}

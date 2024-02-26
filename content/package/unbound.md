@@ -14,7 +14,7 @@ sha1sum = "980581c5207c5de496732856e0344243a258f48e"
 depends = "['expat', 'libevent>=2.1.11', 'openssl>=3.1.0']"
 reverse_depends = "['libreswan']"
 +++
-Validating, recursive, and caching DNS resolver{{< spoiler text="show files" >}}* /etc/unbound/unbound.conf
+Validating, recursive, and caching DNS resolver{{< files text="show files" >}}* /etc/unbound/unbound.conf
 * /usr/bin/unbound
 * /usr/bin/unbound-anchor
 * /usr/bin/unbound-checkconf
@@ -69,4 +69,4 @@ Validating, recursive, and caching DNS resolver{{< spoiler text="show files" >}}
 * /usr/share/man/man8/unbound-control-setup.8.gz
 * /usr/share/man/man8/unbound-control.8.gz
 * /usr/share/man/man8/unbound.8.gz
-{{< /spoiler >}}
+{{< /files >}}

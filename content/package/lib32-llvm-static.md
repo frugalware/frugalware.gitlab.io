@@ -13,7 +13,7 @@ usize = "1457006974"
 sha1sum = "95bf16ab4de4ad7da78cbf420befba713a6436f5"
 depends = "[]"
 +++
-Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit static){{< spoiler text="show files" >}}* /usr/lib32/libLLVMAArch64AsmParser.a
+Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit static){{< files text="show files" >}}* /usr/lib32/libLLVMAArch64AsmParser.a
 * /usr/lib32/libLLVMAArch64CodeGen.a
 * /usr/lib32/libLLVMAArch64Desc.a
 * /usr/lib32/libLLVMAArch64Disassembler.a
@@ -201,4 +201,4 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit static){{< spoiler 
 * /usr/lib32/libLLVMXCoreDisassembler.a
 * /usr/lib32/libLLVMXCoreInfo.a
 * /usr/lib32/libLLVMXRay.a
-{{< /spoiler >}}
+{{< /files >}}

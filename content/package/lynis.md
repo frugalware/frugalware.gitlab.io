@@ -13,7 +13,7 @@ usize = "1627114"
 sha1sum = "313eebb04cf51023d6a239429a3fdf8c9f7fc77a"
 depends = "['bash']"
 +++
-Open source security auditing tool.{{< spoiler text="show files" >}}* /etc/lynis/default.prf
+Open source security auditing tool.{{< files text="show files" >}}* /etc/lynis/default.prf
 * /etc/lynis/plugins/custom_plugin.template
 * /etc/lynis/README
 * /usr/bin/lynis
@@ -122,4 +122,4 @@ Open source security auditing tool.{{< spoiler text="show files" >}}* /etc/lynis
 * /usr/share/lynis/include/tests_virtualization
 * /usr/share/lynis/include/tests_webservers
 * /usr/share/lynis/include/tool_tips
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "763edeb60ca88af7efad7dec2b737ec1b624a4ec"
 depends = "['ksanecore>=23.08.5', 'ktextwidgets>=5.115.0']"
 reverse_depends = "['digikam', 'kolourpaint', 'skanlite']"
 +++
-KDE SANE interface library.{{< spoiler text="show files" >}}* /usr/include/KF5/KSane/KSaneWidget
+KDE SANE interface library.{{< files text="show files" >}}* /usr/include/KF5/KSane/KSaneWidget
 * /usr/include/KF5/KSane/ksanewidget.h
 * /usr/include/KF5/KSane/ksane_export.h
 * /usr/include/KF5/KSane/ksane_version.h
@@ -91,4 +91,4 @@ KDE SANE interface library.{{< spoiler text="show files" >}}* /usr/include/KF5/K
 * /usr/share/locale/wa/LC_MESSAGES/libksane.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/libksane.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libksane.mo
-{{< /spoiler >}}
+{{< /files >}}

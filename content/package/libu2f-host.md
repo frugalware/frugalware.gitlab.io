@@ -13,7 +13,7 @@ usize = "166058"
 sha1sum = "75a00523eac25b9db88b76222fba273dcbd277c1"
 depends = "['curl', 'json-c>=0.14', 'libhidapi', 'libusb']"
 +++
-Yubico Universal 2nd Factor (U2F) Host C Library{{< spoiler text="show files" >}}* /usr/bin/u2f-host
+Yubico Universal 2nd Factor (U2F) Host C Library{{< files text="show files" >}}* /usr/bin/u2f-host
 * /usr/include/u2f-host/u2f-host-types.h
 * /usr/include/u2f-host/u2f-host-version.h
 * /usr/include/u2f-host/u2f-host.h
@@ -31,4 +31,4 @@ Yubico Universal 2nd Factor (U2F) Host C Library{{< spoiler text="show files" >}
 * /usr/share/doc/libu2f-host-1.1.10/README.adoc
 * /usr/share/doc/libu2f-host-1.1.10/THANKS
 * /usr/share/man/man1/u2f-host.1.gz
-{{< /spoiler >}}
+{{< /files >}}

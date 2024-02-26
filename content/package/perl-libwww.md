@@ -14,7 +14,7 @@ sha1sum = "08499f6ad94d3b82d23ddc5893f6c6f95a5e7e3f"
 depends = "['perl>=5.34.0', 'perl-file-listing', 'perl-html-parser', 'perl-http-cookies', 'perl-http-daemon', 'perl-http-negotiate', 'perl-net-http', 'perl-www-robotrules']"
 reverse_depends = "['spamassassin']"
 +++
-A set of Perl modules which provides a simple and consistent API to the WWW.{{< spoiler text="show files" >}}* /usr/bin/site_perl/lwp-download
+A set of Perl modules which provides a simple and consistent API to the WWW.{{< files text="show files" >}}* /usr/bin/site_perl/lwp-download
 * /usr/bin/site_perl/lwp-dump
 * /usr/bin/site_perl/lwp-mirror
 * /usr/bin/site_perl/lwp-request
@@ -62,4 +62,4 @@ A set of Perl modules which provides a simple and consistent API to the WWW.{{< 
 * /usr/share/man/man3/LWP::UserAgent.3perl.gz
 * /usr/share/man/man3/lwpcook.3perl.gz
 * /usr/share/man/man3/lwptut.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

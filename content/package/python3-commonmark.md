@@ -14,7 +14,7 @@ sha1sum = "e2e00bf1cf0e626cd7b3f2f4cb95507b2137165c"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-recommonmark']"
 +++
-Python parser for the CommonMark Markdown spec{{< spoiler text="show files" >}}* /usr/bin/cmark
+Python parser for the CommonMark Markdown spec{{< files text="show files" >}}* /usr/bin/cmark
 * /usr/lib/python3.12/site-packages/commonmark-0.9.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/commonmark-0.9.1-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/commonmark-0.9.1-py3.12.egg-info/PKG-INFO
@@ -60,4 +60,4 @@ Python parser for the CommonMark Markdown spec{{< spoiler text="show files" >}}*
 * /usr/share/doc/python3-commonmark-0.9.1/LICENSE
 * /usr/share/doc/python3-commonmark-0.9.1/README.md
 * /usr/share/doc/python3-commonmark-0.9.1/README.rst
-{{< /spoiler >}}
+{{< /files >}}

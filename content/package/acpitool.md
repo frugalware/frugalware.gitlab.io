@@ -13,7 +13,7 @@ usize = "146406"
 sha1sum = "933f49c89252803180e609bc237f9fad6ee82ad0"
 depends = "['libstdc++']"
 +++
-AcpiTool is a Linux ACPI client.{{< spoiler text="show files" >}}* /usr/bin/acpitool
+AcpiTool is a Linux ACPI client.{{< files text="show files" >}}* /usr/bin/acpitool
 * /usr/share/doc/acpitool-0.5.1/AUTHORS
 * /usr/share/doc/acpitool-0.5.1/ChangeLog
 * /usr/share/doc/acpitool-0.5.1/COPYING
@@ -22,4 +22,4 @@ AcpiTool is a Linux ACPI client.{{< spoiler text="show files" >}}* /usr/bin/acpi
 * /usr/share/doc/acpitool-0.5.1/README
 * /usr/share/doc/acpitool-0.5.1/TODO
 * /usr/share/man/man1/acpitool.1.gz
-{{< /spoiler >}}
+{{< /files >}}

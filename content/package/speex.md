@@ -14,7 +14,7 @@ sha1sum = "174cd43b3926ce718cd2c6555f9178e61e4be874"
 depends = "['glibc>=2.34', 'libogg>=1.3.2-8', 'speexdsp>=1.2rc3-6']"
 reverse_depends = "['alsa-plugin-speex', 'ffmpeg', 'ffmpeg4.4', 'gst1-plugins-good-speex', 'icecast', 'libshout', 'mencoder', 'mplayer', 'mpv', 'mumble', 'vlc-speex', 'vorbis-tools']"
 +++
-Speex is an audio codec tuned for speech{{< spoiler text="show files" >}}* /usr/bin/speexdec
+Speex is an audio codec tuned for speech{{< files text="show files" >}}* /usr/bin/speexdec
 * /usr/bin/speexenc
 * /usr/include/speex/speex.h
 * /usr/include/speex/speex_bits.h
@@ -41,4 +41,4 @@ Speex is an audio codec tuned for speech{{< spoiler text="show files" >}}* /usr/
 * /usr/share/doc/speex-1.2.1/TODO
 * /usr/share/man/man1/speexdec.1.gz
 * /usr/share/man/man1/speexenc.1.gz
-{{< /spoiler >}}
+{{< /files >}}

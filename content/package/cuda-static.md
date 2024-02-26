@@ -13,7 +13,7 @@ usize = "2381211486"
 sha1sum = "b738c6c45adae35042584c115e802d1dfae7600a"
 depends = "['glibc']"
 +++
-NVIDIA GPU programming toolkit static files{{< spoiler text="show files" >}}* /opt/cuda/targets/x86_64-linux/lib/libcublasLt_static.a
+NVIDIA GPU programming toolkit static files{{< files text="show files" >}}* /opt/cuda/targets/x86_64-linux/lib/libcublasLt_static.a
 * /opt/cuda/targets/x86_64-linux/lib/libcublas_static.a
 * /opt/cuda/targets/x86_64-linux/lib/libcudadevrt.a
 * /opt/cuda/targets/x86_64-linux/lib/libcudart_static.a
@@ -46,4 +46,4 @@ NVIDIA GPU programming toolkit static files{{< spoiler text="show files" >}}* /o
 * /opt/cuda/targets/x86_64-linux/lib/libnvptxcompiler_static.a
 * /opt/cuda/targets/x86_64-linux/lib/libnvrtc-builtins_static.a
 * /opt/cuda/targets/x86_64-linux/lib/libnvrtc_static.a
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "35d88e3010905a5fddac0bd52fadaa9e217e665d"
 depends = "['dbus-glib>=0.108-3', 'libgudev>=230-7', 'libimobiledevice>=1.3.0', 'libsystemd>=231-6', 'libusb1>=1.0.20-5']"
 reverse_depends = "['clight', 'mixxx', 'solid']"
 +++
-upower provides a daemon, API and command line tools for managing power devices attached to the system.{{< spoiler text="show files" >}}* /etc/UPower/UPower.conf
+upower provides a daemon, API and command line tools for managing power devices attached to the system.{{< files text="show files" >}}* /etc/UPower/UPower.conf
 * /usr/bin/upower
 * /usr/include/libupower-glib/up-autocleanups.h
 * /usr/include/libupower-glib/up-client.h
@@ -90,4 +90,4 @@ upower provides a daemon, API and command line tools for managing power devices 
 * /usr/share/man/man1/upower.1.gz
 * /usr/share/man/man7/UPower.7.gz
 * /usr/share/man/man8/upowerd.8.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "850161"
 sha1sum = "0a9ce4dd73e5810074a698248d2771078b4d2cf0"
 depends = "['haskell-crypton-x509-system', 'haskell-crypton-x509-validation', 'haskell-socks', 'haskell-tls']"
 +++
-Simple and easy network connections API{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/connection-0.3.1/libHSconnection-0.3.1-7cW3adDaWeVHtzc2kKLdtO.a
+Simple and easy network connections API{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/connection-0.3.1/libHSconnection-0.3.1-7cW3adDaWeVHtzc2kKLdtO.a
 * /usr/lib/ghc-9.8.1/site-local/connection-0.3.1/Network/Connection.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/connection-0.3.1/Network/Connection.hi
 * /usr/lib/ghc-9.8.1/site-local/connection-0.3.1/Network/Connection/Types.dyn_hi
@@ -33,4 +33,4 @@ Simple and easy network connections API{{< spoiler text="show files" >}}* /usr/l
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/connection-0.3.1/LICENSE
 * /usr/share/haskell/haskell-connection/register.sh
 * /usr/share/haskell/haskell-connection/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

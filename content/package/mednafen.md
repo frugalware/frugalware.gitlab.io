@@ -13,7 +13,7 @@ usize = "19856875"
 sha1sum = "35d781a3765d74319b100d6789c754db501499cb"
 depends = "['libsndfile>=1.0.28-6', 'sdl2']"
 +++
-Mednafen is a command-line multi-system emulator{{< spoiler text="show files" >}}* /usr/bin/mednafen
+Mednafen is a command-line multi-system emulator{{< files text="show files" >}}* /usr/bin/mednafen
 * /usr/share/doc/mednafen-1.29.0/ChangeLog
 * /usr/share/doc/mednafen-1.29.0/COPYING
 * /usr/share/doc/mednafen-1.29.0/INSTALL
@@ -25,4 +25,4 @@ Mednafen is a command-line multi-system emulator{{< spoiler text="show files" >}
 * /usr/share/locale/de/LC_MESSAGES/mednafen.mo
 * /usr/share/locale/es/LC_MESSAGES/mednafen.mo
 * /usr/share/locale/ru/LC_MESSAGES/mednafen.mo
-{{< /spoiler >}}
+{{< /files >}}

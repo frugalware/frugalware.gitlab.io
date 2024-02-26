@@ -14,7 +14,7 @@ sha1sum = "5a85b4e3d167af980f4ba28b4d9a50e29e8c42f8"
 depends = "['kfilemetadata5>=5.115.0', 'kidletime>=5.115.0', 'kio>=5.115.0', 'lmdb>=0.9.18-3']"
 reverse_depends = "['arianna', 'baloo-widgets', 'elisa', 'gwenview', 'plasma-workspace']"
 +++
-A framework for searching and managing metadata.{{< spoiler text="show files" >}}* /usr/bin/balooctl
+A framework for searching and managing metadata.{{< files text="show files" >}}* /usr/bin/balooctl
 * /usr/bin/baloosearch
 * /usr/bin/balooshow
 * /usr/bin/baloo_file
@@ -525,4 +525,4 @@ A framework for searching and managing metadata.{{< spoiler text="show files" >}
 * /usr/share/qt5/qml/org/kde/baloo/experimental/qmldir
 * /usr/share/qt5/qml/org/kde/baloo/libbalooplugin.so
 * /usr/share/qt5/qml/org/kde/baloo/qmldir
-{{< /spoiler >}}
+{{< /files >}}

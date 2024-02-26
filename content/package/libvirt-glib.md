@@ -14,7 +14,7 @@ sha1sum = "08bcfe8fd55d6fce9a927450633c212c769d40ff"
 depends = "['curl', 'libvirt>=9.5.0']"
 reverse_depends = "['virt-manager']"
 +++
-GLib and GObject mapping{{< spoiler text="show files" >}}* /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-capabilities-cpu-feature.h
+GLib and GObject mapping{{< files text="show files" >}}* /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-capabilities-cpu-feature.h
 * /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-capabilities-cpu-model.h
 * /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-capabilities-cpu-topology.h
 * /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-capabilities-cpu.h
@@ -168,4 +168,4 @@ GLib and GObject mapping{{< spoiler text="show files" >}}* /usr/include/libvirt-
 * /usr/share/vala/vapi/libvirt-glib-1.0.vapi
 * /usr/share/vala/vapi/libvirt-gobject-1.0.deps
 * /usr/share/vala/vapi/libvirt-gobject-1.0.vapi
-{{< /spoiler >}}
+{{< /files >}}

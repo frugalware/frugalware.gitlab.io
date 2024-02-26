@@ -13,7 +13,7 @@ usize = "1048029"
 sha1sum = "bbf8028ed8e59846da47f37ec1a1d5f5c1271acc"
 depends = "['courier-authlib>=0.69.0', 'libidn>=1.35', 'openssl>=3.1.0']"
 +++
-The Courier IMAP and POP3 server{{< spoiler text="show files" >}}* /etc/courier/imapd
+The Courier IMAP and POP3 server{{< files text="show files" >}}* /etc/courier/imapd
 * /etc/courier/imapd-ssl
 * /etc/courier/pop3d
 * /etc/courier/pop3d-ssl
@@ -70,4 +70,4 @@ The Courier IMAP and POP3 server{{< spoiler text="show files" >}}* /etc/courier/
 * /usr/share/man/man8/mkdhparams.8.gz
 * /usr/share/man/man8/mkimapdcert.8.gz
 * /usr/share/man/man8/mkpop3dcert.8.gz
-{{< /spoiler >}}
+{{< /files >}}

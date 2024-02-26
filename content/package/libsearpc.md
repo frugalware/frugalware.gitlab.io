@@ -14,7 +14,7 @@ sha1sum = "439e02282d2e02476e2c32b23e9196de716f294b"
 depends = "['jansson', 'python3']"
 reverse_depends = "['libseafile']"
 +++
-A simple C language RPC framework (including both server side & client side).{{< spoiler text="show files" >}}* /usr/bin/searpc-codegen.py
+A simple C language RPC framework (including both server side & client side).{{< files text="show files" >}}* /usr/bin/searpc-codegen.py
 * /usr/include/searpc-client.h
 * /usr/include/searpc-named-pipe-transport.h
 * /usr/include/searpc-server.h
@@ -51,4 +51,4 @@ A simple C language RPC framework (including both server side & client side).{{<
 * /usr/share/doc/libsearpc-3.3/AUTHORS
 * /usr/share/doc/libsearpc-3.3/INSTALL
 * /usr/share/doc/libsearpc-3.3/README.markdown
-{{< /spoiler >}}
+{{< /files >}}

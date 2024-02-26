@@ -13,7 +13,7 @@ usize = "99584"
 sha1sum = "8115704bbd81a051f77b60f4a2b205af2fb01aaa"
 depends = "['python3>=3.12']"
 +++
-A copy of the imp module that was removed in Python 3.12{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/imp.py
+A copy of the imp module that was removed in Python 3.12{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/imp.py
 * /usr/lib/python3.12/site-packages/zombie_imp-0.0.2.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/zombie_imp-0.0.2.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/zombie_imp-0.0.2.dist-info/RECORD
@@ -32,4 +32,4 @@ A copy of the imp module that was removed in Python 3.12{{< spoiler text="show f
 * /usr/lib/python3.12/site-packages/__pycache__/imp.cpython-312.pyc
 * /usr/share/doc/python3-zombie-imp-0.0.2/LICENSE
 * /usr/share/doc/python3-zombie-imp-0.0.2/README.md
-{{< /spoiler >}}
+{{< /files >}}

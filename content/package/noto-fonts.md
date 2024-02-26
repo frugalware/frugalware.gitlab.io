@@ -14,7 +14,7 @@ sha1sum = "11b8da9557b4e86e81e9488998cc95ded992418b"
 depends = "['fontconfig', 'mkfontscale']"
 reverse_depends = "['frameworkintegration', 'i3', 'lumina-desktop', 'plasma-integration']"
 +++
-Noto fonts{{< spoiler text="show files" >}}* /usr/share/doc/noto-fonts-20170821/FAQ-KR.md
+Noto fonts{{< files text="show files" >}}* /usr/share/doc/noto-fonts-20170821/FAQ-KR.md
 * /usr/share/doc/noto-fonts-20170821/FAQ.md
 * /usr/share/doc/noto-fonts-20170821/LICENSE
 * /usr/share/doc/noto-fonts-20170821/README.md
@@ -2477,4 +2477,4 @@ Noto fonts{{< spoiler text="show files" >}}* /usr/share/doc/noto-fonts-20170821/
 * /usr/share/fonts/X11/TTF/NotoTraditionalNushu-Bold.ttf
 * /usr/share/fonts/X11/TTF/NotoTraditionalNushu-Light.ttf
 * /usr/share/fonts/X11/TTF/NotoTraditionalNushu-Regular.ttf
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "92c865f0bc2a780f7fd573e198c01618275b372b"
 depends = "['libuuid>=2.29.2-2', 'libxmu>=1.1.2-3', 'libxpm>=3.5.11-3']"
 license = "GPL2"
 +++
-Athena widgets (libXaw) drop-in replacement{{< spoiler text="show files" >}}* /usr/include/X11/Xaw3d/AllWidgets.h
+Athena widgets (libXaw) drop-in replacement{{< files text="show files" >}}* /usr/include/X11/Xaw3d/AllWidgets.h
 * /usr/include/X11/Xaw3d/AsciiSink.h
 * /usr/include/X11/Xaw3d/AsciiSinkP.h
 * /usr/include/X11/Xaw3d/AsciiSrc.h
@@ -98,4 +98,4 @@ Athena widgets (libXaw) drop-in replacement{{< spoiler text="show files" >}}* /u
 * /usr/share/doc/libxaw3d-1.6.5/INSTALL
 * /usr/share/doc/libxaw3d-1.6.5/README.md
 * /usr/share/doc/libxaw3d-1.6.5/README.XAW3D
-{{< /spoiler >}}
+{{< /files >}}

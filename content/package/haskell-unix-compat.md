@@ -14,7 +14,7 @@ sha1sum = "e5258fc24e4db290223d074ffe306d8337f8adf1"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-fast-logger', 'haskell-warp']"
 +++
-Portable POSIX-compatibility layer{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/unix-compat-0.7.1/include/HsUnixCompat.h
+Portable POSIX-compatibility layer{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/unix-compat-0.7.1/include/HsUnixCompat.h
 * /usr/lib/ghc-9.8.1/site-local/unix-compat-0.7.1/libHSunix-compat-0.7.1-ZSDu2t4JbH6lNlP0GYvNc.a
 * /usr/lib/ghc-9.8.1/site-local/unix-compat-0.7.1/System/PosixCompat.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/unix-compat-0.7.1/System/PosixCompat.hi
@@ -53,4 +53,4 @@ Portable POSIX-compatibility layer{{< spoiler text="show files" >}}* /usr/lib/gh
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/unix-compat-0.7.1/LICENSE
 * /usr/share/haskell/haskell-unix-compat/register.sh
 * /usr/share/haskell/haskell-unix-compat/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

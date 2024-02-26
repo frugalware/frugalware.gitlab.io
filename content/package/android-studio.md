@@ -13,4 +13,4 @@ usize = "0"
 sha1sum = ""
 depends = "['ncurses>=6.2']"
 +++
-Software development kit for Android{{< spoiler text="show files" >}}{{< /spoiler >}}
+Software development kit for Android{{< files text="show files" >}}{{< /files >}}

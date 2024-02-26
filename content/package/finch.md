@@ -13,7 +13,7 @@ usize = "399994"
 sha1sum = "8300db4437c7ab00e243e516311cef1f3bdf4f06"
 depends = "['libgnt', 'libpurple']"
 +++
-A ncurses-based messaging client{{< spoiler text="show files" >}}* /usr/bin/finch
+A ncurses-based messaging client{{< files text="show files" >}}* /usr/bin/finch
 * /usr/include/finch/finch.h
 * /usr/include/finch/gntaccount.h
 * /usr/include/finch/gntblist.h
@@ -41,4 +41,4 @@ A ncurses-based messaging client{{< spoiler text="show files" >}}* /usr/bin/finc
 * /usr/lib/finch/gnttinyurl.so
 * /usr/lib/finch/grouping.so
 * /usr/lib/pkgconfig/finch.pc
-{{< /spoiler >}}
+{{< /files >}}

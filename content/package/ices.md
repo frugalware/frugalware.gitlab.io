@@ -13,7 +13,7 @@ usize = "157845"
 sha1sum = "3c6b387cf6b538933a42c07d8618261a060fc3e2"
 depends = "['libshout', 'libvorbis', 'libxml2>=2.7.8']"
 +++
-Source client for broadcasting in Ogg Vorbis format to an icecast2 server.{{< spoiler text="show files" >}}* /usr/bin/ices
+Source client for broadcasting in Ogg Vorbis format to an icecast2 server.{{< files text="show files" >}}* /usr/bin/ices
 * /usr/share/doc/ices-2.0.3/AUTHORS
 * /usr/share/doc/ices-2.0.3/COPYING
 * /usr/share/doc/ices-2.0.3/README.md
@@ -28,4 +28,4 @@ Source client for broadcasting in Ogg Vorbis format to an icecast2 server.{{< sp
 * /usr/share/ices/inputs.html
 * /usr/share/ices/intro.html
 * /usr/share/ices/style.css
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "a63b21185a3150a3720cf57c9e9227230e7d9d44"
 depends = "[]"
 +++
-Splash Screen Engine for KDE{{< spoiler text="show files" >}}* usr/lib/kde3/ksplashmoodin.la
+Splash Screen Engine for KDE{{< files text="show files" >}}* usr/lib/kde3/ksplashmoodin.la
 * usr/lib/kde3/ksplashmoodin.so
 * usr/share/apps/ksplash/Themes/FingerPrint/1.png
 * usr/share/apps/ksplash/Themes/FingerPrint/2.png
@@ -37,4 +37,4 @@ Splash Screen Engine for KDE{{< spoiler text="show files" >}}* usr/lib/kde3/kspl
 * usr/share/doc/ksplash-engine-moodin-0.4.2/README
 * usr/share/doc/ksplash-engine-moodin-0.4.2/TODO
 * usr/share/services/ksplashmoodin.desktop
-{{< /spoiler >}}
+{{< /files >}}

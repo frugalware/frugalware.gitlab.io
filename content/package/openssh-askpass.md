@@ -13,4 +13,4 @@ usize = "0"
 sha1sum = "d1b0ab30c93d24072e899bd5303472739ecb0422"
 depends = "['gdk-pixbuf2', 'gtk+2']"
 +++
-X11 passphrase dialog for OpenSSH{{< spoiler text="show files" >}}{{< /spoiler >}}
+X11 passphrase dialog for OpenSSH{{< files text="show files" >}}{{< /files >}}

@@ -13,7 +13,7 @@ usize = "16550372"
 sha1sum = "0a39582a092269252d1030e9e7a79d4910b64b02"
 depends = "['kemoticons>=5.115.0', 'kidletime>=5.115.0', 'knewstuff>=5.115.0', 'knotifyconfig>=5.115.0', 'kparts>=5.115.0', 'phonon-qt5', 'qca', 'qt5-multimedia>=5.15.12']"
 +++
-IRC clinet for KDE5{{< spoiler text="show files" >}}* /usr/bin/konversation
+IRC clinet for KDE5{{< files text="show files" >}}* /usr/bin/konversation
 * /usr/share/applications/org.kde.konversation.desktop
 * /usr/share/dbus-1/services/org.kde.konversation.service
 * /usr/share/doc/HTML/ca/konversation/index.cache.bz2
@@ -318,4 +318,4 @@ IRC clinet for KDE5{{< spoiler text="show files" >}}* /usr/bin/konversation
 * /usr/share/locale/zh_TW/LC_MESSAGES/konversation.mo
 * /usr/share/metainfo/org.kde.konversation.appdata.xml
 * /usr/share/qlogging-categories5/konversation.categories
-{{< /spoiler >}}
+{{< /files >}}

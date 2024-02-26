@@ -14,7 +14,7 @@ sha1sum = "117a17b723c0860aaa2d51696eb9025fecf4ae2f"
 depends = "['libraw>=0.21.1', 'qt5-base>=5.15.12']"
 reverse_depends = "['gwenview', 'kdegraphics-thumbnailers', 'krita']"
 +++
-KDE Paint Program.{{< spoiler text="show files" >}}* /usr/include/KF5/KDCRAW/KDCRAW/DcrawInfoContainer
+KDE Paint Program.{{< files text="show files" >}}* /usr/include/KF5/KDCRAW/KDCRAW/DcrawInfoContainer
 * /usr/include/KF5/KDCRAW/kdcraw/dcrawinfocontainer.h
 * /usr/include/KF5/KDCRAW/KDCRAW/KDcraw
 * /usr/include/KF5/KDCRAW/kdcraw/kdcraw.h
@@ -35,4 +35,4 @@ KDE Paint Program.{{< spoiler text="show files" >}}* /usr/include/KF5/KDCRAW/KDC
 * /usr/share/doc/libkdcraw-23.08.5/README
 * /usr/share/doc/libkdcraw-23.08.5/TODO
 * /usr/share/qlogging-categories5/libkdcraw.categories
-{{< /spoiler >}}
+{{< /files >}}

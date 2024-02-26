@@ -15,7 +15,7 @@ depends = "['libxcb>=1.12-2']"
 reverse_depends = "['wlroots', 'xcb-util', 'xorg-server-xephyr']"
 license = "GPL2"
 +++
-renderutil libraries for X C Binding{{< spoiler text="show files" >}}* /usr/include/xcb/xcb_renderutil.h
+renderutil libraries for X C Binding{{< files text="show files" >}}* /usr/include/xcb/xcb_renderutil.h
 * /usr/lib/libxcb-render-util.so
 * /usr/lib/libxcb-render-util.so.0
 * /usr/lib/libxcb-render-util.so.0.0.0
@@ -25,4 +25,4 @@ renderutil libraries for X C Binding{{< spoiler text="show files" >}}* /usr/incl
 * /usr/share/doc/xcb-util-renderutil-0.3.10/INSTALL
 * /usr/share/doc/xcb-util-renderutil-0.3.10/NEWS
 * /usr/share/doc/xcb-util-renderutil-0.3.10/README.md
-{{< /spoiler >}}
+{{< /files >}}

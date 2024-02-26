@@ -14,8 +14,8 @@ sha1sum = "1458da204cc9754e05d3e5b3c7e8f361b6c6a14f"
 depends = "['openjre']"
 reverse_depends = "['commons-httpclient']"
 +++
-Commons Codec provides implementations of common encoders and decoders such as Base64, Hex, Phonetic and URLs.{{< spoiler text="show files" >}}* /usr/share/doc/commons-codec-1.15/LICENSE
+Commons Codec provides implementations of common encoders and decoders such as Base64, Hex, Phonetic and URLs.{{< files text="show files" >}}* /usr/share/doc/commons-codec-1.15/LICENSE
 * /usr/share/doc/commons-codec-1.15/RELEASE-NOTES.txt
 * /usr/share/doc/commons-codec-1.15/TODO
 * /usr/share/java/commons-codec.jar
-{{< /spoiler >}}
+{{< /files >}}

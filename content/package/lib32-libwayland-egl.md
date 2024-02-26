@@ -13,9 +13,9 @@ usize = "22879"
 sha1sum = "2b8463621c611622212ea729c368506990faf0ff"
 depends = "['lib32-mesa-libegl']"
 +++
-Mesa Wayland EGL library. (32-bit){{< spoiler text="show files" >}}* /usr/lib32/libwayland-egl.la
+Mesa Wayland EGL library. (32-bit){{< files text="show files" >}}* /usr/lib32/libwayland-egl.la
 * /usr/lib32/libwayland-egl.so
 * /usr/lib32/libwayland-egl.so.1
 * /usr/lib32/libwayland-egl.so.1.0.0
 * /usr/lib32/pkgconfig/wayland-egl.pc
-{{< /spoiler >}}
+{{< /files >}}

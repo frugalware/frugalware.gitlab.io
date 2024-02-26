@@ -14,7 +14,7 @@ sha1sum = "e584d3c4e13e151164fa36b7c7c97be083efda50"
 depends = "['json-glib', 'libbsd', 'openvas-libraries>=22.4']"
 reverse_depends = "['openvas-cli']"
 +++
-OpenVAS scanner.{{< spoiler text="show files" >}}* /etc/openvas/openvas_log.conf
+OpenVAS scanner.{{< files text="show files" >}}* /etc/openvas/openvas_log.conf
 * /usr/bin/greenbone-nvt-sync
 * /usr/bin/openvas
 * /usr/bin/openvas-nasl
@@ -32,4 +32,4 @@ OpenVAS scanner.{{< spoiler text="show files" >}}* /etc/openvas/openvas_log.conf
 * /usr/share/man/man1/openvas-nasl.1.gz
 * /usr/share/man/man8/greenbone-nvt-sync.8.gz
 * /usr/share/man/man8/openvas.8.gz
-{{< /spoiler >}}
+{{< /files >}}

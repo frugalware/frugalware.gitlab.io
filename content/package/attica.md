@@ -14,7 +14,7 @@ sha1sum = "699ee8fcc66bc13d16248511979c0d6208fc1dee"
 depends = "['qt5-base>=5.15.12']"
 reverse_depends = "['kxmlgui', 'okular']"
 +++
-Qt library to access Open Collaboration Services{{< spoiler text="show files" >}}* /usr/include/KF5/Attica/Attica/AccountBalance
+Qt library to access Open Collaboration Services{{< files text="show files" >}}* /usr/include/KF5/Attica/Attica/AccountBalance
 * /usr/include/KF5/Attica/attica/accountbalance.h
 * /usr/include/KF5/Attica/Attica/Achievement
 * /usr/include/KF5/Attica/attica/achievement.h
@@ -111,4 +111,4 @@ Qt library to access Open Collaboration Services{{< spoiler text="show files" >}
 * /usr/share/qlogging-categories5/attica.categories
 * /usr/share/qlogging-categories5/attica.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_Attica.pri
-{{< /spoiler >}}
+{{< /files >}}

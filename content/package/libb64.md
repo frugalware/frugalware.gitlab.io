@@ -14,7 +14,7 @@ sha1sum = "d28c1fa56ee6594e12730b2cc5148dcaf717da0c"
 depends = "['gcc>=13.2']"
 reverse_depends = "['sysdig', 'transmission-cli']"
 +++
-Base64 Encoding/Decoding Routines{{< spoiler text="show files" >}}* /usr/include/b64/cdecode.h
+Base64 Encoding/Decoding Routines{{< files text="show files" >}}* /usr/include/b64/cdecode.h
 * /usr/include/b64/cencode.h
 * /usr/include/b64/decode.h
 * /usr/include/b64/encode.h
@@ -26,4 +26,4 @@ Base64 Encoding/Decoding Routines{{< spoiler text="show files" >}}* /usr/include
 * /usr/share/doc/libb64-1.2.1/LICENSE
 * /usr/share/doc/libb64-1.2.1/README
 * /usr/share/doc/libb64-1.2.1/README.md
-{{< /spoiler >}}
+{{< /files >}}

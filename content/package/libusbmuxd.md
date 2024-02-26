@@ -14,7 +14,7 @@ sha1sum = "552a4902fb90032e845d56a8593a18887d4c1cc8"
 depends = "['libplist>=2.3.0', 'libusb1>=1.0.20-5', 'shadow']"
 reverse_depends = "['libimobiledevice']"
 +++
-Lib for communicating with Apple's iPod Touch and iPhone{{< spoiler text="show files" >}}* /usr/bin/inetcat
+Lib for communicating with Apple's iPod Touch and iPhone{{< files text="show files" >}}* /usr/bin/inetcat
 * /usr/bin/iproxy
 * /usr/include/usbmuxd-proto.h
 * /usr/include/usbmuxd.h
@@ -28,4 +28,4 @@ Lib for communicating with Apple's iPod Touch and iPhone{{< spoiler text="show f
 * /usr/share/doc/libusbmuxd-2.0.2/README.md
 * /usr/share/man/man1/inetcat.1.gz
 * /usr/share/man/man1/iproxy.1.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "6f47156da5d9963c2caa46502b2a1f1809db077b"
 depends = "['haskell-http-types', 'haskell-network', 'haskell-vault']"
 reverse_depends = "['haskell-wai-cors', 'haskell-wai-logger', 'haskell-warp']"
 +++
-Web Application Interface{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/wai-3.2.4/libHSwai-3.2.4-7FAHeLzaFx6Dymi4swA2pp.a
+Web Application Interface{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/wai-3.2.4/libHSwai-3.2.4-7FAHeLzaFx6Dymi4swA2pp.a
 * /usr/lib/ghc-9.8.1/site-local/wai-3.2.4/Network/Wai.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/wai-3.2.4/Network/Wai.hi
 * /usr/lib/ghc-9.8.1/site-local/wai-3.2.4/Network/Wai/Internal.dyn_hi
@@ -35,4 +35,4 @@ Web Application Interface{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/s
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/wai-3.2.4/LICENSE
 * /usr/share/haskell/haskell-wai/register.sh
 * /usr/share/haskell/haskell-wai/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "fc8f5110379c84c5326e1f2f5f65c72537f7bcf4"
 depends = "['haskell-tagged>=0.8.5-11', 'haskell-unordered-containers>=0.2.9.0-4']"
 reverse_depends = "['haskell-semigroupoids']"
 +++
-Anything that associates{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/semigroups-0.20/Data/Semigroup/Generic.dyn_hi
+Anything that associates{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/semigroups-0.20/Data/Semigroup/Generic.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/semigroups-0.20/Data/Semigroup/Generic.hi
 * /usr/lib/ghc-9.8.1/site-local/semigroups-0.20/libHSsemigroups-0.20-E5GWr2A9lEaLFFYy4Mn0aN.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSsemigroups-0.20-E5GWr2A9lEaLFFYy4Mn0aN-ghc9.8.1.so
@@ -32,4 +32,4 @@ Anything that associates{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/si
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/semigroups-0.20/LICENSE
 * /usr/share/haskell/haskell-semigroups/register.sh
 * /usr/share/haskell/haskell-semigroups/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

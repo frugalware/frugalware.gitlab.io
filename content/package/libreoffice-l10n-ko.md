@@ -13,7 +13,7 @@ usize = "35882396"
 sha1sum = "5b96258e4dcb8d26cb242b2f62fbe0701150e35a"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Korean support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/ko/default.css
+Installs Korean support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/ko/default.css
 * /usr/lib/libreoffice/help/ko/err.html
 * /usr/lib/libreoffice/help/ko/highcontrast1.css
 * /usr/lib/libreoffice/help/ko/highcontrast2.css
@@ -134,4 +134,4 @@ Installs Korean support in LibreOffice{{< spoiler text="show files" >}}* /usr/li
 * /usr/lib/libreoffice/share/registry/Langpack-ko.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_ko.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_ko.xcd
-{{< /spoiler >}}
+{{< /files >}}

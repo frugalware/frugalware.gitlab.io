@@ -14,7 +14,7 @@ sha1sum = "9afdb9a856a0afb32f4b7fc24095707d3bd9f07f"
 depends = "['kcoreaddons>=5.115.0', 'kwidgetsaddons>=5.115.0', 'qt5-x11extras>=5.15.12']"
 reverse_depends = "['kio']"
 +++
-Widgets for showing progress of asynchronous jobs.{{< spoiler text="show files" >}}* /usr/include/KF5/KJobWidgets/KAbstractWidgetJobTracker
+Widgets for showing progress of asynchronous jobs.{{< files text="show files" >}}* /usr/include/KF5/KJobWidgets/KAbstractWidgetJobTracker
 * /usr/include/KF5/KJobWidgets/kabstractwidgetjobtracker.h
 * /usr/include/KF5/KJobWidgets/KDialogJobUiDelegate
 * /usr/include/KF5/KJobWidgets/kdialogjobuidelegate.h
@@ -145,4 +145,4 @@ Widgets for showing progress of asynchronous jobs.{{< spoiler text="show files" 
 * /usr/share/qlogging-categories5/kjobwidgets.categories
 * /usr/share/qlogging-categories5/kjobwidgets.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KJobWidgets.pri
-{{< /spoiler >}}
+{{< /files >}}

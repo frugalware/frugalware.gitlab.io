@@ -13,7 +13,7 @@ usize = "14853313"
 sha1sum = "b05a85e3d5f1967526b18685785cab475bc658dc"
 depends = "['kdelibs4support', 'kdev-php']"
 +++
-UML Modeller.{{< spoiler text="show files" >}}* /usr/bin/po2xmi5
+UML Modeller.{{< files text="show files" >}}* /usr/bin/po2xmi5
 * /usr/bin/umbrello5
 * /usr/bin/xmi2pot5
 * /usr/share/applications/org.kde.umbrello.desktop
@@ -420,4 +420,4 @@ UML Modeller.{{< spoiler text="show files" >}}* /usr/bin/po2xmi5
 * /usr/share/umbrello5/xmi.css
 * /usr/share/umbrello5/xmi1docbook.xsl
 * /usr/share/umbrello5/xmi2docbook.xsl
-{{< /spoiler >}}
+{{< /files >}}

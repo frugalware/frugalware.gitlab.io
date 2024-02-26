@@ -13,7 +13,7 @@ usize = "4736589"
 sha1sum = "569ef977536e13fe07f642ade9cf5f70cd316504"
 depends = "['karchive>=5.115.0', 'kconfig>=5.115.0', 'kcoreaddons>=5.115.0', 'kdoctools>=5.115.0', 'ki18n>=5.115.0', 'kio>=5.115.0', 'kwidgetsaddons>=5.115.0', 'kxmlgui>=5.115.0']"
 +++
-Visualization of Performance Profiling Data.{{< spoiler text="show files" >}}* /usr/bin/dprof2calltree
+Visualization of Performance Profiling Data.{{< files text="show files" >}}* /usr/bin/dprof2calltree
 * /usr/bin/hotshot2calltree
 * /usr/bin/kcachegrind
 * /usr/bin/memprof2calltree
@@ -171,4 +171,4 @@ Visualization of Performance Profiling Data.{{< spoiler text="show files" >}}* /
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcachegrind.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcachegrind_qt.qm
 * /usr/share/metainfo/org.kde.kcachegrind.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,5 +13,5 @@ usize = "140400"
 sha1sum = "6c5e7cb893335a344e9ce3d92af2b6bdca6da83e"
 depends = "['freerdp']"
 +++
-rdp plugin for remmina{{< spoiler text="show files" >}}* /usr/lib/remmina/plugins/remmina-plugin-rdp.so
-{{< /spoiler >}}
+rdp plugin for remmina{{< files text="show files" >}}* /usr/lib/remmina/plugins/remmina-plugin-rdp.so
+{{< /files >}}

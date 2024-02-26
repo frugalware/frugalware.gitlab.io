@@ -13,7 +13,7 @@ usize = "503966"
 sha1sum = "f726826f13a05501b5373331078fa409a2e8b34d"
 depends = "['kcmutils>=5.115.0', 'kdeclarative>=5.115.0', 'knewstuff>=5.115.0', 'sddm>=0.16.0']"
 +++
-KCM module for SDDM{{< spoiler text="show files" >}}* /usr/bin/sddmthemeinstaller
+KCM module for SDDM{{< files text="show files" >}}* /usr/bin/sddmthemeinstaller
 * /usr/lib/kf5/kauth/kcmsddm_authhelper
 * /usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_sddm.so
 * /usr/share/applications/kcm_sddm.desktop
@@ -75,4 +75,4 @@ KCM module for SDDM{{< spoiler text="show files" >}}* /usr/bin/sddmthemeinstalle
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy
-{{< /spoiler >}}
+{{< /files >}}

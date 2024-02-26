@@ -14,7 +14,7 @@ sha1sum = "7ea0d0056be8ff8ec97094ea0fc83bdec0705a80"
 depends = "['e2fsprogs>=1.43.8-2', 'lzo>=2.10-3', 'zstd>=1.3.3-2']"
 reverse_depends = "['docker', 'kernel-initrd', 'kernel-lts-initrd', 'udisks2']"
 +++
-Utilities for managing btrfs filesystems.{{< spoiler text="show files" >}}* /usr/bin/btrfs
+Utilities for managing btrfs filesystems.{{< files text="show files" >}}* /usr/bin/btrfs
 * /usr/bin/btrfs-convert
 * /usr/bin/btrfs-find-root
 * /usr/bin/btrfs-image
@@ -75,4 +75,4 @@ Utilities for managing btrfs filesystems.{{< spoiler text="show files" >}}* /usr
 * /usr/share/man/man8/btrfstune.8.gz
 * /usr/share/man/man8/fsck.btrfs.8.gz
 * /usr/share/man/man8/mkfs.btrfs.8.gz
-{{< /spoiler >}}
+{{< /files >}}

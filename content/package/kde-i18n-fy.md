@@ -13,7 +13,7 @@ usize = "3355157"
 sha1sum = "61a5743c641be2243e4e7ccb9162e8256b0ecb2e"
 depends = "[]"
 +++
-Frisian Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale/fy/charset
+Frisian Localization for KDE.{{< files text="show files" >}}* usr/share/locale/fy/charset
 * usr/share/locale/fy/entry.desktop
 * usr/share/locale/fy/LC_MESSAGES/akregator.mo
 * usr/share/locale/fy/LC_MESSAGES/akregator_konqplugin.mo
@@ -336,4 +336,4 @@ Frisian Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale
 * usr/share/locale/fy/LC_MESSAGES/wakeup.mo
 * usr/share/locale/fy/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/fy/LC_MESSAGES/webarchiver.mo
-{{< /spoiler >}}
+{{< /files >}}

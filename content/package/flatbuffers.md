@@ -13,7 +13,7 @@ usize = "7653117"
 sha1sum = "473712925bc662114001b124de48bf1173207a76"
 depends = "['glibc>=2.34', 'libgcc>=11.2', 'libstdc++>=11.2']"
 +++
-Memory Efficient Serialization Library.{{< spoiler text="show files" >}}* /usr/bin/flatc
+Memory Efficient Serialization Library.{{< files text="show files" >}}* /usr/bin/flatc
 * /usr/include/flatbuffers/allocator.h
 * /usr/include/flatbuffers/array.h
 * /usr/include/flatbuffers/base.h
@@ -59,4 +59,4 @@ Memory Efficient Serialization Library.{{< spoiler text="show files" >}}* /usr/b
 * /usr/lib/libflatbuffers.so.23.3.3
 * /usr/lib/pkgconfig/flatbuffers.pc
 * /usr/share/doc/flatbuffers-23.3.3/LICENSE
-{{< /spoiler >}}
+{{< /files >}}

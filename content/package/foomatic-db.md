@@ -14,7 +14,7 @@ sha1sum = "10ecb0ddfc32d185d04167fec7df4c1a2094a31f"
 depends = "['libxml2', 'perl', 'xz']"
 reverse_depends = "['hplip-driver']"
 +++
-The collected knowledge about printers, drivers, and driver options in XML files, used by foomatic-db-engine to generate PPD files.{{< spoiler text="show files" >}}* /usr/share/cups/model/foomatic-db-ppds
+The collected knowledge about printers, drivers, and driver options in XML files, used by foomatic-db-engine to generate PPD files.{{< files text="show files" >}}* /usr/share/cups/model/foomatic-db-ppds
 * /usr/share/doc/foomatic-db-20200928.g28466ef/ChangeLog
 * /usr/share/doc/foomatic-db-20200928.g28466ef/COPYING
 * /usr/share/doc/foomatic-db-20200928.g28466ef/README
@@ -12667,4 +12667,4 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/xmlschema/option.xsd
 * /usr/share/foomatic/xmlschema/printer.xsd
 * /usr/share/foomatic/xmlschema/types.xsd
-{{< /spoiler >}}
+{{< /files >}}

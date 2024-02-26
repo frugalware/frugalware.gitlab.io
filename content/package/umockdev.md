@@ -13,7 +13,7 @@ usize = "543358"
 sha1sum = "1cf16553331e020e4f7afaf236f550154b5ebeb5"
 depends = "['libgudev', 'libpcap', 'systemd']"
 +++
-Record/mock hardware devices for bug reports and regression tests{{< spoiler text="show files" >}}* /usr/bin/umockdev-record
+Record/mock hardware devices for bug reports and regression tests{{< files text="show files" >}}* /usr/bin/umockdev-record
 * /usr/bin/umockdev-run
 * /usr/bin/umockdev-wrapper
 * /usr/include/umockdev-1.0/umockdev.h
@@ -30,4 +30,4 @@ Record/mock hardware devices for bug reports and regression tests{{< spoiler tex
 * /usr/share/doc/umockdev-0.17.16/README.md
 * /usr/share/gir-1.0/UMockdev-1.0.gir
 * /usr/share/vala/vapi/umockdev-1.0.vapi
-{{< /spoiler >}}
+{{< /files >}}

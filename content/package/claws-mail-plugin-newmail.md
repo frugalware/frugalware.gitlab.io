@@ -13,5 +13,5 @@ usize = "14080"
 sha1sum = "79c4082d9fc036794dcbd05b357ca8056b359feb"
 depends = "['claws-mail=4.1.1']"
 +++
-This plugin writes a msg header summary to a log file,on arrival of new mail.{{< spoiler text="show files" >}}* /usr/lib/claws-mail/plugins/newmail.so
-{{< /spoiler >}}
+This plugin writes a msg header summary to a log file,on arrival of new mail.{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/newmail.so
+{{< /files >}}

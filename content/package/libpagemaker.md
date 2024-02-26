@@ -14,7 +14,7 @@ sha1sum = "5188b5eefcc27123b568f693ca169321a4d3baaa"
 depends = "['librevenge>=0.0.4-2']"
 reverse_depends = "['libreoffice', 'scribus']"
 +++
-A library for import of Adobe PageMaker documents{{< spoiler text="show files" >}}* /usr/bin/pmd2raw
+A library for import of Adobe PageMaker documents{{< files text="show files" >}}* /usr/bin/pmd2raw
 * /usr/bin/pmd2svg
 * /usr/bin/pmd2text
 * /usr/include/libpagemaker-0.0/libpagemaker/libpagemaker.h
@@ -215,4 +215,4 @@ A library for import of Adobe PageMaker documents{{< spoiler text="show files" >
 * /usr/share/doc/libpagemaker-0.0.4/html/Units_8h_source.html
 * /usr/share/doc/libpagemaker-0.0.4/NEWS
 * /usr/share/doc/libpagemaker-0.0.4/README
-{{< /spoiler >}}
+{{< /files >}}

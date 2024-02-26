@@ -14,7 +14,7 @@ sha1sum = "1ec5c4dbf75df8ce37788740d49b5beb3285317c"
 depends = "['lib32-libdrm>=2.4.70-2', 'lib32-libglvnd', 'lib32-libxext>=1.3.3-3', 'lib32-libxfixes>=5.0.1-3', 'lib32-wayland>=1.11.0-3']"
 reverse_depends = "['lib32-ffmpeg', 'lib32-libva-intel-driver', 'steam-native']"
 +++
-Uniform library API for hardware acceleration of video decoding. ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/include/va/va.h
+Uniform library API for hardware acceleration of video decoding. ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/va/va.h
 * /usr/i686-frugalware-linux/include/va/va_backend.h
 * /usr/i686-frugalware-linux/include/va/va_backend_glx.h
 * /usr/i686-frugalware-linux/include/va/va_backend_prot.h
@@ -69,4 +69,4 @@ Uniform library API for hardware acceleration of video decoding. ( 32bit ){{< sp
 * /usr/lib32/pkgconfig/libva-wayland.pc
 * /usr/lib32/pkgconfig/libva-x11.pc
 * /usr/lib32/pkgconfig/libva.pc
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "26671238"
 sha1sum = "1f7d005f9a9b020dee7a6047399c6838b52b4cad"
 depends = "[]"
 +++
-Brazilian Localization for KDE.{{< spoiler text="show files" >}}* usr/share/apps/katepart/syntax/logohighlightstyle.pt_BR.xml
+Brazilian Localization for KDE.{{< files text="show files" >}}* usr/share/apps/katepart/syntax/logohighlightstyle.pt_BR.xml
 * usr/share/apps/khangman/data/pt_BR/animals.kvtml
 * usr/share/apps/khangman/data/pt_BR/easy.kvtml
 * usr/share/apps/khangman/data/pt_BR/hard.kvtml
@@ -2082,4 +2082,4 @@ Brazilian Localization for KDE.{{< spoiler text="show files" >}}* usr/share/apps
 * usr/share/locale/pt_BR/LC_MESSAGES/wakeup.mo
 * usr/share/locale/pt_BR/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/pt_BR/LC_MESSAGES/webarchiver.mo
-{{< /spoiler >}}
+{{< /files >}}

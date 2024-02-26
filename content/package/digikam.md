@@ -13,7 +13,7 @@ usize = "86940820"
 sha1sum = "256dec53dd0309db5625efa2644051899b95b595"
 depends = "['akonadi-contacts', 'imagemagick>=7.1.1', 'jasper>=2.0.10', 'kcalendarcore>=', 'kfilemetadata5>=5.114.0', 'kfilemetadata5', 'knotifyconfig>=5.114.0', 'lensfun', 'libheif', 'libkipi', 'libksane>=23.08.4', 'liblqr', 'libmarble>=23.08.4', 'libpgf', 'openblas', 'opencv>=4.9.0', 'perl-image-exiftool', 'qt5-networkauth>=5.15.12', 'qt5-webengine>=5.15.12', 'qt5-xmlpatterns>=5.15.12', 'qtav', 'x265>=3.5']"
 +++
-Digital photo management application for kde{{< spoiler text="show files" >}}* /usr/bin/cleanup_digikamdb
+Digital photo management application for kde{{< files text="show files" >}}* /usr/bin/cleanup_digikamdb
 * /usr/bin/digikam
 * /usr/bin/digitaglinktree
 * /usr/bin/showfoto
@@ -863,4 +863,4 @@ Digital photo management application for kde{{< spoiler text="show files" >}}* /
 * /usr/share/showfoto/data/logo-showfoto.png
 * /usr/share/showfoto/data/splash-showfoto.png
 * /usr/share/solid/actions/digikam-opencamera.desktop
-{{< /spoiler >}}
+{{< /files >}}

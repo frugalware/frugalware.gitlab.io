@@ -14,7 +14,7 @@ sha1sum = "093746796ebae2896e83f603eb14d87d8b870741"
 depends = "['lib32-xz>=5.2.2-5', 'lib32-zlib>=1.2.12']"
 reverse_depends = "['lib32-gdk-pixbuf2', 'lib32-imlib2', 'lib32-lcms2', 'lib32-libwebp', 'lib32-openjpeg', 'lib32-sdl2_image']"
 +++
-Library for manipulation of TIFF images ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/fax2ps
+Library for manipulation of TIFF images ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/fax2ps
 * /usr/i686-frugalware-linux/bin/fax2tiff
 * /usr/i686-frugalware-linux/bin/pal2rgb
 * /usr/i686-frugalware-linux/bin/ppm2tiff
@@ -44,4 +44,4 @@ Library for manipulation of TIFF images ( 32bit ){{< spoiler text="show files" >
 * /usr/lib32/libtiffxx.so.5
 * /usr/lib32/libtiffxx.so.5.8.0
 * /usr/lib32/pkgconfig/libtiff-4.pc
-{{< /spoiler >}}
+{{< /files >}}

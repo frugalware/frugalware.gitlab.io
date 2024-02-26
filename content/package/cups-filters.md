@@ -14,7 +14,7 @@ sha1sum = "d15112e88c2837e404b7b0e6bfb5d5e96e03b3c3"
 depends = "['avahi-glib', 'ijs>=0.35-5', 'libcups', 'libexif', 'mupdf', 'poppler>=0.62.0', 'poppler-pdftools>=0.62.0', 'qpdf>=11.1.0']"
 reverse_depends = "['hplip-driver', 'print-manager']"
 +++
-Backends, filters and other software from CUPS distribution.{{< spoiler text="show files" >}}* /etc/cups/cups-browsed.conf
+Backends, filters and other software from CUPS distribution.{{< files text="show files" >}}* /etc/cups/cups-browsed.conf
 * /usr/bin/cups-browsed
 * /usr/bin/driverless
 * /usr/bin/driverless-fax
@@ -154,4 +154,4 @@ Backends, filters and other software from CUPS distribution.{{< spoiler text="sh
 * /usr/share/ppd/cupsfilters/pxlcolor.ppd
 * /usr/share/ppd/cupsfilters/pxlmono.ppd
 * /usr/share/ppd/cupsfilters/Ricoh-PDF_Printer-PDF.ppd
-{{< /spoiler >}}
+{{< /files >}}

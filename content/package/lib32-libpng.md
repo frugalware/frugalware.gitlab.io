@@ -14,7 +14,7 @@ sha1sum = "b01fcc975247b565b41a141abcda57b1946ecf01"
 depends = "['lib32-zlib>=1.2.12']"
 reverse_depends = "['lib32-cairo', 'lib32-freetype2', 'lib32-gdk-pixbuf2', 'lib32-imlib2', 'lib32-libwebp', 'lib32-openjpeg', 'lib32-pango', 'lib32-pixman', 'openloco']"
 +++
-A collection of routines used to create PNG format graphics files ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/libpng-config
+A collection of routines used to create PNG format graphics files ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/libpng-config
 * /usr/i686-frugalware-linux/bin/libpng16-config
 * /usr/i686-frugalware-linux/bin/png-fix-itxt
 * /usr/i686-frugalware-linux/bin/pngfix
@@ -31,4 +31,4 @@ A collection of routines used to create PNG format graphics files ( 32bit ){{< s
 * /usr/lib32/libpng16.so.16.41.0
 * /usr/lib32/pkgconfig/libpng.pc
 * /usr/lib32/pkgconfig/libpng16.pc
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "18008048"
 sha1sum = "bf91b76a6bfdf60fe2748ce2ddfdf30cb68f947f"
 depends = "['efl>=1.20.1']"
 +++
-EFL Edje Theme Editor{{< spoiler text="show files" >}}* /usr/bin/eflete
+EFL Edje Theme Editor{{< files text="show files" >}}* /usr/bin/eflete
 * /usr/bin/eflete_exporter
 * /usr/share/applications/eflete.desktop
 * /usr/share/doc/eflete-1.19.1/AUTHORS
@@ -389,4 +389,4 @@ EFL Edje Theme Editor{{< spoiler text="show files" >}}* /usr/bin/eflete
 * /usr/share/locale/fr/LC_MESSAGES/eflete.mo
 * /usr/share/locale/it/LC_MESSAGES/eflete.mo
 * /usr/share/locale/uk/LC_MESSAGES/eflete.mo
-{{< /spoiler >}}
+{{< /files >}}

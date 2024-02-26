@@ -14,5 +14,5 @@ sha1sum = "1d56f90c84389fa13ba58259a36efe91b2ce801a"
 depends = "['gst1-plugins-base>=1.22.10', 'gst1-plugins-good>=1.22.10', 'libffi>=3.2.1-2', 'libjpeg-turbo']"
 reverse_depends = "['kamoso']"
 +++
-GStreamer jpeg plugin (Good).{{< spoiler text="show files" >}}* /usr/lib/gstreamer-1.0/libgstjpeg.so
-{{< /spoiler >}}
+GStreamer jpeg plugin (Good).{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstjpeg.so
+{{< /files >}}

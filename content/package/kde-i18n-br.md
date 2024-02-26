@@ -13,7 +13,7 @@ usize = "3012668"
 sha1sum = "964d240981414dbc7b70c7e7f04beed50c6d2756"
 depends = "[]"
 +++
-Breton Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale/br/charset
+Breton Localization for KDE.{{< files text="show files" >}}* usr/share/locale/br/charset
 * usr/share/locale/br/entry.desktop
 * usr/share/locale/br/flag.png
 * usr/share/locale/br/LC_MESSAGES/akregator.mo
@@ -575,4 +575,4 @@ Breton Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale/
 * usr/share/locale/br/LC_MESSAGES/wakeup.mo
 * usr/share/locale/br/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/br/LC_MESSAGES/webarchiver.mo
-{{< /spoiler >}}
+{{< /files >}}

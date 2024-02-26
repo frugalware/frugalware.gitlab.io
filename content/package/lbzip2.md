@@ -13,7 +13,7 @@ usize = "225938"
 sha1sum = "0f01e8017b7c2c1928d6c9762425ffde382d43d2"
 depends = "['bzip2']"
 +++
-Lbzip2 is a parallel, SMP-based, bzip2-compatible compression utility.{{< spoiler text="show files" >}}* /usr/bin/lbunzip2
+Lbzip2 is a parallel, SMP-based, bzip2-compatible compression utility.{{< files text="show files" >}}* /usr/bin/lbunzip2
 * /usr/bin/lbzcat
 * /usr/bin/lbzip2
 * /usr/share/doc/lbzip2-2.5/AUTHORS
@@ -26,4 +26,4 @@ Lbzip2 is a parallel, SMP-based, bzip2-compatible compression utility.{{< spoile
 * /usr/share/man/man1/lbunzip2.1.gz
 * /usr/share/man/man1/lbzcat.1.gz
 * /usr/share/man/man1/lbzip2.1.gz
-{{< /spoiler >}}
+{{< /files >}}

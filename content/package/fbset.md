@@ -13,7 +13,7 @@ usize = "86384"
 sha1sum = "3d2f41bb3d0d5fe59d2d2cbe19eadae5ebe34588"
 depends = "['glibc>=2.34']"
 +++
-Show and modify frame buffer device settings{{< spoiler text="show files" >}}* /etc/fb.modes.ATI
+Show and modify frame buffer device settings{{< files text="show files" >}}* /etc/fb.modes.ATI
 * /etc/fb.modes.Falcon
 * /etc/fb.modes.NTSC
 * /etc/fb.modes.PAL
@@ -21,4 +21,4 @@ Show and modify frame buffer device settings{{< spoiler text="show files" >}}* /
 * /usr/share/doc/fbset-2.1/INSTALL
 * /usr/share/man/man5/fb.modes.5.gz
 * /usr/share/man/man8/fbset.8.gz
-{{< /spoiler >}}
+{{< /files >}}

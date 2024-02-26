@@ -13,7 +13,7 @@ usize = "1360982"
 sha1sum = "1a945b23b23ee7c8cfee3e029bf2293232d47a67"
 depends = "['bzip2', 'dbus-glib', 'gtk+2', 'libuuid']"
 +++
-Port of the KDE widget theme (Oxygen) to Gtk2.{{< spoiler text="show files" >}}* /usr/bin/oxygen-gtk-demo
+Port of the KDE widget theme (Oxygen) to Gtk2.{{< files text="show files" >}}* /usr/bin/oxygen-gtk-demo
 * /usr/lib/gtk-2.0/2.10.0/engines/liboxygen-gtk.so
 * /usr/share/doc/oxygen-gtk-1.4.6/AUTHORS
 * /usr/share/doc/oxygen-gtk-1.4.6/COPYING
@@ -28,4 +28,4 @@ Port of the KDE widget theme (Oxygen) to Gtk2.{{< spoiler text="show files" >}}*
 * /usr/share/themes/oxygen-gtk/gtk-2.0/special-icons/standardbutton-closetab-16.png
 * /usr/share/themes/oxygen-gtk/gtk-2.0/special-icons/standardbutton-closetab-down-16.png
 * /usr/share/themes/oxygen-gtk/gtk-2.0/special-icons/standardbutton-closetab-hover-16.png
-{{< /spoiler >}}
+{{< /files >}}

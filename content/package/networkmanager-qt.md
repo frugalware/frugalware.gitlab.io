@@ -14,7 +14,7 @@ sha1sum = "ac8e8f926c2593b56d421a9fa0716af90c6b3fa9"
 depends = "['networkmanager>=1.6.2', 'qt5-base>=5.15.12']"
 reverse_depends = "['itinerary', 'kasts', 'kpublictransport', 'ksysguard5', 'ksystemstats', 'plasma-nm', 'plasma-settings', 'plasma-vault', 'plasma-workspace']"
 +++
-Qt wrapper for NetworkManager API.{{< spoiler text="show files" >}}* /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/AccessPoint
+Qt wrapper for NetworkManager API.{{< files text="show files" >}}* /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/AccessPoint
 * /usr/include/KF5/NetworkManagerQt/networkmanagerqt/accesspoint.h
 * /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/ActiveConnection
 * /usr/include/KF5/NetworkManagerQt/networkmanagerqt/activeconnection.h
@@ -163,4 +163,4 @@ Qt wrapper for NetworkManager API.{{< spoiler text="show files" >}}* /usr/includ
 * /usr/share/doc/networkmanager-qt-5.115.0/TODO
 * /usr/share/qlogging-categories5/networkmanagerqt.categories
 * /usr/share/qlogging-categories5/networkmanagerqt.renamecategories
-{{< /spoiler >}}
+{{< /files >}}

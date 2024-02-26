@@ -13,7 +13,7 @@ usize = "2768873"
 sha1sum = "06b15da3d57c5635ebb8b8e28bd331298b44a512"
 depends = "['docbook-xsl', 'openjade', 'perl>=5.28.2', 'python3-six', 'source-highlight']"
 +++
-Used to document the public API of libraries{{< spoiler text="show files" >}}* /usr/bin/gtkdoc-check
+Used to document the public API of libraries{{< files text="show files" >}}* /usr/bin/gtkdoc-check
 * /usr/bin/gtkdoc-depscan
 * /usr/bin/gtkdoc-fixxref
 * /usr/bin/gtkdoc-mkdb
@@ -101,4 +101,4 @@ Used to document the public API of libraries{{< spoiler text="show files" >}}* /
 * /usr/share/help/te/gtk-doc-manual/index.docbook
 * /usr/share/help/zh_CN/gtk-doc-manual/fdl-appendix.xml
 * /usr/share/help/zh_CN/gtk-doc-manual/index.docbook
-{{< /spoiler >}}
+{{< /files >}}

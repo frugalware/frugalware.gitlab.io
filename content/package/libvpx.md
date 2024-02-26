@@ -14,7 +14,7 @@ sha1sum = "5d62358bdca53fc2b296917c6cfd52edf94358b1"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-good-vpx', 'mencoder', 'mplayer', 'mpv', 'qt5-webengine', 'qtox', 'thunderbird', 'tox-core', 'virtualbox', 'vlc-vpx', 'xine-lib']"
 +++
-WebM VP8 VP9 Codec SDK{{< spoiler text="show files" >}}* /usr/bin/vpxdec
+WebM VP8 VP9 Codec SDK{{< files text="show files" >}}* /usr/bin/vpxdec
 * /usr/bin/vpxenc
 * /usr/include/vpx/vp8.h
 * /usr/include/vpx/vp8cx.h
@@ -38,4 +38,4 @@ WebM VP8 VP9 Codec SDK{{< spoiler text="show files" >}}* /usr/bin/vpxdec
 * /usr/share/doc/libvpx-1.14.0/LICENSE
 * /usr/share/doc/libvpx-1.14.0/README
 * /usr/share/doc/libvpx-1.14.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "8d088f88f020516566ba9b5245910e5a672b691a"
 depends = "[]"
 +++
-Bulgarian Localization for KOffice. {{< spoiler text="show files" >}}* usr/share/locale/bg/LC_MESSAGES/desktop_koffice.mo
+Bulgarian Localization for KOffice. {{< files text="show files" >}}* usr/share/locale/bg/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/bg/LC_MESSAGES/example.mo
 * usr/share/locale/bg/LC_MESSAGES/karbon.mo
 * usr/share/locale/bg/LC_MESSAGES/kchart.mo
@@ -38,4 +38,4 @@ Bulgarian Localization for KOffice. {{< spoiler text="show files" >}}* usr/share
 * usr/share/locale/bg/LC_MESSAGES/kugar.mo
 * usr/share/locale/bg/LC_MESSAGES/kword.mo
 * usr/share/locale/bg/LC_MESSAGES/thesaurus_tool.mo
-{{< /spoiler >}}
+{{< /files >}}

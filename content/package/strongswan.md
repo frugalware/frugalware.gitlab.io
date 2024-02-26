@@ -13,7 +13,7 @@ usize = "5181322"
 sha1sum = "0ee16710154abf4060ce80fb31a776a593f322eb"
 depends = "['curl', 'gmp', 'iproute2', 'json-c>=0.13.1', 'libsoup', 'libsystemd', 'networkmanager', 'openresolv', 'openssl', 'sqlite3']"
 +++
-the OpenSource IPsec-based VPN Solution for Linux{{< spoiler text="show files" >}}* /etc/ipsec.conf
+the OpenSource IPsec-based VPN Solution for Linux{{< files text="show files" >}}* /etc/ipsec.conf
 * /etc/ipsec.secrets
 * /etc/strongswan.conf
 * /etc/strongswan.d/attest.conf
@@ -365,4 +365,4 @@ the OpenSource IPsec-based VPN Solution for Linux{{< spoiler text="show files" >
 * /usr/share/strongswan/templates/database/imv/tables.sql
 * /usr/share/strongswan/templates/database/sql/mysql.sql
 * /usr/share/strongswan/templates/database/sql/sqlite.sql
-{{< /spoiler >}}
+{{< /files >}}

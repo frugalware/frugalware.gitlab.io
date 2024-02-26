@@ -14,7 +14,7 @@ sha1sum = "e194e86fad6cc0a9aa9fb33f5ca899e88898e7f9"
 depends = "['icu4c>=74.1', 'lcms2>=2.8-2', 'libwpd>=0.10.1-5', 'libwpg>=0.3.1-4']"
 reverse_depends = "['inkscape', 'libreoffice', 'scribus']"
 +++
-A library providing ability to interpret and import Corel Draw drawings into various applications.{{< spoiler text="show files" >}}* /usr/bin/cdr2raw
+A library providing ability to interpret and import Corel Draw drawings into various applications.{{< files text="show files" >}}* /usr/bin/cdr2raw
 * /usr/bin/cdr2text
 * /usr/bin/cdr2xhtml
 * /usr/bin/cmx2raw
@@ -33,4 +33,4 @@ A library providing ability to interpret and import Corel Draw drawings into var
 * /usr/share/doc/libcdr-0.1.7/COPYING.MPL
 * /usr/share/doc/libcdr-0.1.7/NEWS
 * /usr/share/doc/libcdr-0.1.7/README
-{{< /spoiler >}}
+{{< /files >}}

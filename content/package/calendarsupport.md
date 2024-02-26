@@ -14,7 +14,7 @@ sha1sum = "ff3224f78020314c68030e4b40c3430790b657b1"
 depends = "['akonadi>=23.08.5', 'akonadi-calendar>=23.08.5', 'akonadi-notes>=23.08.5', 'kholidays>=5.115.0', 'pimcommon>=23.08.5']"
 reverse_depends = "['akonadi-calendar-tools', 'akonadiconsole', 'eventviews', 'pim-data-exporter']"
 +++
-This lib provides calendar support{{< spoiler text="show files" >}}* /usr/include/KPim5/CalendarSupport/CalendarSupport/ArchiveDialog
+This lib provides calendar support{{< files text="show files" >}}* /usr/include/KPim5/CalendarSupport/CalendarSupport/ArchiveDialog
 * /usr/include/KPim5/CalendarSupport/calendarsupport/archivedialog.h
 * /usr/include/KPim5/CalendarSupport/CalendarSupport/CalendarSingleton
 * /usr/include/KPim5/CalendarSupport/calendarsupport/calendarsingleton.h
@@ -159,4 +159,4 @@ This lib provides calendar support{{< spoiler text="show files" >}}* /usr/includ
 * /usr/share/qlogging-categories5/calendarsupport.categories
 * /usr/share/qlogging-categories5/calendarsupport.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_CalendarSupport.pri
-{{< /spoiler >}}
+{{< /files >}}

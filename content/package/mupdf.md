@@ -1,20 +1,20 @@
 +++
 draft = false
-title = "mupdf 1.23.9-1"
-version = "1.23.9-1"
+title = "mupdf 1.23.11-1"
+version = "1.23.11-1"
 description = "Lightweight PDF and XPS viewer"
-date = "2024-01-23T15:47:32"
+date = "2024-02-26T14:44:38"
 aliases = "/packages/218921"
 categories = ['xapps']
 upstreamurl = "https://mupdf.com"
 arch = "x86_64"
-size = "86821176"
-usize = "154055839"
-sha1sum = "ef10e0e8ac9da976cbe2729e6257c1fc57899510"
+size = "86881116"
+usize = "154059462"
+sha1sum = "f46098b7a1d6fcfe6937a5e052b0e81118f314e1"
 depends = "['curl', 'freetype2', 'harfbuzz', 'libglu', 'libjpeg-turbo', 'libxi', 'libxrandr', 'openjpeg>=2.3.0']"
 reverse_depends = "['cups-filters']"
 +++
-Lightweight PDF and XPS viewer{{< spoiler text="show files" >}}* /usr/bin/mupdf
+Lightweight PDF and XPS viewer{{< files text="show files" >}}* /usr/bin/mupdf
 * /usr/bin/mupdf-x11
 * /usr/bin/mupdf-x11-curl
 * /usr/bin/muraster
@@ -90,10 +90,10 @@ Lightweight PDF and XPS viewer{{< spoiler text="show files" >}}* /usr/bin/mupdf
 * /usr/include/mupdf/pdf/xref.h
 * /usr/include/mupdf/ucdn.h
 * /usr/share/applications/mupdf.desktop
-* /usr/share/doc/mupdf-1.23.9/CHANGES
-* /usr/share/doc/mupdf-1.23.9/CONTRIBUTORS
-* /usr/share/doc/mupdf-1.23.9/COPYING
-* /usr/share/doc/mupdf-1.23.9/README
+* /usr/share/doc/mupdf-1.23.11/CHANGES
+* /usr/share/doc/mupdf-1.23.11/CONTRIBUTORS
+* /usr/share/doc/mupdf-1.23.11/COPYING
+* /usr/share/doc/mupdf-1.23.11/README
 * /usr/share/doc/mupdf/CHANGES
 * /usr/share/doc/mupdf/COPYING
 * /usr/share/doc/mupdf/examples/bbox-device.js
@@ -120,4 +120,4 @@ Lightweight PDF and XPS viewer{{< spoiler text="show files" >}}* /usr/bin/mupdf
 * /usr/share/man/man1/mupdf.1.gz
 * /usr/share/man/man1/mutool.1.gz
 * /usr/share/pixmaps/mupdf.xpm
-{{< /spoiler >}}
+{{< /files >}}

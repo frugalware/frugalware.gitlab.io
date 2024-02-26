@@ -15,7 +15,7 @@ depends = "['glibc>=2.34']"
 reverse_depends = "['efl', 'enlightenment', 'libass', 'pango', 'scummvm', 'supertuxkart', 'terminology', 'vlc', 'vlc-skins']"
 license = "GPL2.1"
 +++
-A Free Implementation of the Unicode BiDirectional algorithm{{< spoiler text="show files" >}}* /usr/bin/fribidi
+A Free Implementation of the Unicode BiDirectional algorithm{{< files text="show files" >}}* /usr/bin/fribidi
 * /usr/include/fribidi/fribidi-arabic.h
 * /usr/include/fribidi/fribidi-begindecls.h
 * /usr/include/fribidi/fribidi-bidi-types-list.h
@@ -82,4 +82,4 @@ A Free Implementation of the Unicode BiDirectional algorithm{{< spoiler text="sh
 * /usr/share/man/man3/fribidi_shape_arabic.3.gz
 * /usr/share/man/man3/fribidi_shape_mirroring.3.gz
 * /usr/share/man/man3/fribidi_unicode_to_charset.3.gz
-{{< /spoiler >}}
+{{< /files >}}

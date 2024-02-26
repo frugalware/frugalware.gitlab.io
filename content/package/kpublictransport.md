@@ -14,7 +14,7 @@ sha1sum = "0f12b7a7b674d6b04415a8b7aa49aeee22c854f6"
 depends = "['ki18n>=5.115.0', 'networkmanager-qt>=5.115.0', 'qt5-declarative>=5.15.12']"
 reverse_depends = "['kosmindoormap', 'ktrip']"
 +++
-Library to assist with accessing public transport timetables and other data{{< spoiler text="show files" >}}* /usr/include/KPublicTransport/KPublicTransport/AbstractQueryModel
+Library to assist with accessing public transport timetables and other data{{< files text="show files" >}}* /usr/include/KPublicTransport/KPublicTransport/AbstractQueryModel
 * /usr/include/KPublicTransport/kpublictransport/abstractquerymodel.h
 * /usr/include/KPublicTransport/KPublicTransport/Attribution
 * /usr/include/KPublicTransport/kpublictransport/attribution.h
@@ -110,4 +110,4 @@ Library to assist with accessing public transport timetables and other data{{< s
 * /usr/share/qt5/qml/org/kde/kpublictransport/ui/libkpublictransportquickplugin.so
 * /usr/share/qt5/qml/org/kde/kpublictransport/ui/qmldir
 * /usr/share/qt5/qml/org/kde/kpublictransport/ui/VehicleSectionItem.qml
-{{< /spoiler >}}
+{{< /files >}}

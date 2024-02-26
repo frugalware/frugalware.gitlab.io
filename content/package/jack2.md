@@ -14,7 +14,7 @@ sha1sum = "af278d4416ecbf35fe7ce49d04a6da28149c9ed1"
 depends = "['alsa-lib', 'celt', 'dbus', 'libsamplerate', 'libsystemd', 'opus']"
 reverse_depends = "['aubio', 'lsp-plugins', 'pipewire-jack']"
 +++
-C++ version of jack audio connection kit is a low-latency audio server{{< spoiler text="show files" >}}* /etc/jack/example.conf
+C++ version of jack audio connection kit is a low-latency audio server{{< files text="show files" >}}* /etc/jack/example.conf
 * /usr/bin/jackd
 * /usr/bin/jackdbus
 * /usr/bin/jack_control
@@ -62,4 +62,4 @@ C++ version of jack audio connection kit is a low-latency audio server{{< spoile
 * /usr/share/doc/jack2-1.9.22/README.rst
 * /usr/share/doc/jack2-1.9.22/README_NETJACK2
 * /usr/share/man/man1/jackd.1.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,5 +13,5 @@ usize = "34744"
 sha1sum = "24a2e61a018b283017dc05002cc70852858f370a"
 depends = "[]"
 +++
-Gnome menu support for icewm.{{< spoiler text="show files" >}}* /usr/bin/icewm-menu-gnome2
-{{< /spoiler >}}
+Gnome menu support for icewm.{{< files text="show files" >}}* /usr/bin/icewm-menu-gnome2
+{{< /files >}}

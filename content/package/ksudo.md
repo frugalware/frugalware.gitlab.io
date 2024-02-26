@@ -14,7 +14,7 @@ sha1sum = "ea4e22102fa0fa8ecae625244d3aeb5331df98a3"
 depends = "[]"
 license = "GPL2"
 +++
-GUI with which you can quickly and easily create a config file{{< spoiler text="show files" >}}* usr/bin/ksudo
+GUI with which you can quickly and easily create a config file{{< files text="show files" >}}* usr/bin/ksudo
 * usr/share/applnk/System/ksudo.desktop
 * usr/share/apps/ksudo/defaults.dat
 * usr/share/apps/ksudo/ksudoui.rc
@@ -29,4 +29,4 @@ GUI with which you can quickly and easily create a config file{{< spoiler text="
 * usr/share/doc/ksudo-0.2/TODO
 * usr/share/icons/hicolor/16x16/apps/ksudo.png
 * usr/share/icons/hicolor/32x32/apps/ksudo.png
-{{< /spoiler >}}
+{{< /files >}}

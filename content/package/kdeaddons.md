@@ -13,7 +13,7 @@ usize = "12500664"
 sha1sum = "572fe8758951e327371a9253abfccd316845fd7e"
 depends = "['db>=4.7.25', 'sdl']"
 +++
-Additional plugins and scripts for some KDE applications.{{< spoiler text="show files" >}}* usr/bin/atlantikdesigner
+Additional plugins and scripts for some KDE applications.{{< files text="show files" >}}* usr/bin/atlantikdesigner
 * usr/bin/fsview
 * usr/bin/jpegorient
 * usr/bin/kio_media_realfolder
@@ -400,4 +400,4 @@ Additional plugins and scripts for some KDE applications.{{< spoiler text="show 
 * usr/share/services/renaudiodlg.desktop
 * usr/share/services/renimagedlg.desktop
 * usr/share/services/webarchivethumbnail.desktop
-{{< /spoiler >}}
+{{< /files >}}

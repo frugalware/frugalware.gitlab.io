@@ -15,7 +15,7 @@ depends = "['adios2', 'libboost', 'liblas', 'openslide>=4.0.0', 'openturns>=1.22
 reverse_depends = "['opencascade', 'opencv', 'vtk-ffmpeg', 'vtk-java', 'vtk-java-ffmpeg', 'vtk-java-mpi', 'vtk-java-mysql', 'vtk-java-qt5', 'vtk-mysql', 'vtk-python3', 'vtk-python3-ffmpeg', 'vtk-python3-java', 'vtk-python3-qt5', 'vtk-python3-tcl', 'vtk-qt5']"
 license = "GPL-2"
 +++
-Software system for 3D computer graphics, modeling, image processing, volume rendering, scientific visualization, and information visualization.{{< spoiler text="show files" >}}* /usr/bin/vtkProbeOpenGLVersion
+Software system for 3D computer graphics, modeling, image processing, volume rendering, scientific visualization, and information visualization.{{< files text="show files" >}}* /usr/bin/vtkProbeOpenGLVersion
 * /usr/bin/vtkWrapHierarchy
 * /usr/lib/libvtkAcceleratorsVTKmCore.so
 * /usr/lib/libvtkAcceleratorsVTKmCore.so.1
@@ -992,4 +992,4 @@ Software system for 3D computer graphics, modeling, image processing, volume ren
 * /usr/share/vtk/proj/projjson.schema.json
 * /usr/share/vtk/proj/triangulation.schema.json
 * /usr/share/vtk/proj/world
-{{< /spoiler >}}
+{{< /files >}}

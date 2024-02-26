@@ -14,7 +14,7 @@ sha1sum = "9b774af7d189246d8b6cb3e5e83e30a771733587"
 depends = "['clang-libs', 'intel-tbb', 'libboost>=1.83.0', 'openexr', 'openimageio>=2.5.4.0', 'pugixml', 'python3>=3.12']"
 reverse_depends = "['blender']"
 +++
-Advanced shading language for production GI renderers{{< spoiler text="show files" >}}* /usr/bin/oslc
+Advanced shading language for production GI renderers{{< files text="show files" >}}* /usr/bin/oslc
 * /usr/bin/oslinfo
 * /usr/bin/osltoy
 * /usr/bin/testrender
@@ -131,4 +131,4 @@ Advanced shading language for production GI renderers{{< spoiler text="show file
 * /usr/share/OSL/shaders/ubersurface.oso
 * /usr/share/OSL/shaders/vector2.h
 * /usr/share/OSL/shaders/vector4.h
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "138735"
 sha1sum = "d4f592821fac8e4d367a0a271b95128300387c6b"
 depends = "['gtk+2-libs', 'libdbusmenu']"
 +++
-GTK2 bindings for libdbusmenu{{< spoiler text="show files" >}}* /usr/include/libdbusmenu-gtk-0.4/libdbusmenu-gtk/client.h
+GTK2 bindings for libdbusmenu{{< files text="show files" >}}* /usr/include/libdbusmenu-gtk-0.4/libdbusmenu-gtk/client.h
 * /usr/include/libdbusmenu-gtk-0.4/libdbusmenu-gtk/dbusmenu-gtk.h
 * /usr/include/libdbusmenu-gtk-0.4/libdbusmenu-gtk/menu.h
 * /usr/include/libdbusmenu-gtk-0.4/libdbusmenu-gtk/menuitem.h
@@ -24,4 +24,4 @@ GTK2 bindings for libdbusmenu{{< spoiler text="show files" >}}* /usr/include/lib
 * /usr/lib/pkgconfig/dbusmenu-gtk-0.4.pc
 * /usr/share/gir-1.0/DbusmenuGtk-0.4.gir
 * /usr/share/vala/vapi/DbusmenuGtk-0.4.vapi
-{{< /spoiler >}}
+{{< /files >}}

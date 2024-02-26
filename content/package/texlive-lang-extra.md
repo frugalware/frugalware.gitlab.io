@@ -13,7 +13,7 @@ usize = "52829788"
 sha1sum = "6c4b46cf9f15e8c4cc470c7c5ffc332a3bcfa97c"
 depends = "['texlive=2023.0']"
 +++
-Extra languages support for TeX Live{{< spoiler text="show files" >}}* /usr/share/texmf-dist/bibtex/bst/persian-bib/acm-fa.bst
+Extra languages support for TeX Live{{< files text="show files" >}}* /usr/share/texmf-dist/bibtex/bst/persian-bib/acm-fa.bst
 * /usr/share/texmf-dist/bibtex/bst/persian-bib/asa-fa.bst
 * /usr/share/texmf-dist/bibtex/bst/persian-bib/chicago-fa.bst
 * /usr/share/texmf-dist/bibtex/bst/persian-bib/ieeetr-fa.bst
@@ -2828,4 +2828,4 @@ Extra languages support for TeX Live{{< spoiler text="show files" >}}* /usr/shar
 * /usr/share/texmf-dist/xindy/modules/lang/lithuanian/utf8-lang.xdy
 * /usr/share/texmf-dist/xindy/modules/lang/lithuanian/utf8-test.xdy
 * /usr/share/texmf-dist/xindy/modules/lang/lithuanian/utf8.xdy
-{{< /spoiler >}}
+{{< /files >}}

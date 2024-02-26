@@ -13,7 +13,7 @@ usize = "41115"
 sha1sum = "56f9029103c99f15536010f72ab368b219e13d25"
 depends = "['libnetfilter_acct']"
 +++
-A command line tool to create/retrieve/delete accounting objects{{< spoiler text="show files" >}}* /usr/bin/nfacct
+A command line tool to create/retrieve/delete accounting objects{{< files text="show files" >}}* /usr/bin/nfacct
 * /usr/share/doc/nfacct-1.0.2/COPYING
 * /usr/share/man/man8/nfacct.8.gz
-{{< /spoiler >}}
+{{< /files >}}

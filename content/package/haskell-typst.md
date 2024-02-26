@@ -14,7 +14,7 @@ sha1sum = "18b1c66a37ce7a4775461c762508ab5a797f3d2a"
 depends = "['haskell-cassava', 'haskell-digits', 'haskell-ordered-containers', 'haskell-regex-tdfa', 'haskell-toml-parser', 'haskell-typst-symbols', 'haskell-xml-conduit', 'haskell-yaml']"
 reverse_depends = "['pandoc']"
 +++
-Parsing and evaluating typst syntax{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/typst-0.5/libHStypst-0.5-JBJUvK1AD9E1fnlEjlnBtT.a
+Parsing and evaluating typst syntax{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/typst-0.5/libHStypst-0.5-JBJUvK1AD9E1fnlEjlnBtT.a
 * /usr/lib/ghc-9.8.1/site-local/typst-0.5/Typst.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/typst-0.5/Typst.hi
 * /usr/lib/ghc-9.8.1/site-local/typst-0.5/Typst/Bind.dyn_hi
@@ -97,4 +97,4 @@ Parsing and evaluating typst syntax{{< spoiler text="show files" >}}* /usr/lib/g
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/typst-0.5/LICENSE
 * /usr/share/haskell/haskell-typst/register.sh
 * /usr/share/haskell/haskell-typst/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "a9c723ed0358f12e27e166ae9115c36c2d98b838"
 depends = "['jsoncpp', 'libglvnd', 'libx11', 'libxrandr', 'libxxf86vm', 'vulkan-icd-loader']"
 reverse_depends = "['vtk']"
 +++
-An open standard for virtual reality and augmented reality platforms and devices{{< spoiler text="show files" >}}* /usr/bin/hello_xr
+An open standard for virtual reality and augmented reality platforms and devices{{< files text="show files" >}}* /usr/bin/hello_xr
 * /usr/bin/openxr_runtime_list
 * /usr/include/openxr/openxr.h
 * /usr/include/openxr/openxr_platform.h
@@ -40,4 +40,4 @@ An open standard for virtual reality and augmented reality platforms and devices
 * /usr/share/man/man1/openxr_runtime_list.1.gz
 * /usr/share/openxr/1/api_layers/explicit.d/XrApiLayer_api_dump.json
 * /usr/share/openxr/1/api_layers/explicit.d/XrApiLayer_core_validation.json
-{{< /spoiler >}}
+{{< /files >}}

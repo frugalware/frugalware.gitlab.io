@@ -14,7 +14,7 @@ sha1sum = "20472d3d1a87d562a18ee19bec6fa1af24e83e24"
 depends = "['lib32-bzip2>=1.0.6-16', 'lib32-readline>=8.0-3', 'lib32-zlib>=1.2.12']"
 reverse_depends = "['lib32-glib2', 'lib32-slang']"
 +++
-Perl-compatible regular expression library ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/pcre-config
+Perl-compatible regular expression library ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/pcre-config
 * /usr/i686-frugalware-linux/bin/pcregrep
 * /usr/i686-frugalware-linux/bin/pcretest
 * /usr/i686-frugalware-linux/include/pcre.h
@@ -43,4 +43,4 @@ Perl-compatible regular expression library ( 32bit ){{< spoiler text="show files
 * /usr/lib32/pkgconfig/libpcre32.pc
 * /usr/lib32/pkgconfig/libpcrecpp.pc
 * /usr/lib32/pkgconfig/libpcreposix.pc
-{{< /spoiler >}}
+{{< /files >}}

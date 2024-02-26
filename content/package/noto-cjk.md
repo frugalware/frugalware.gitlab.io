@@ -13,7 +13,7 @@ usize = "1839308983"
 sha1sum = "722a7a625df1ab54c83f23f4f52121494519f9cd"
 depends = "['fontconfig', 'mkfontscale']"
 +++
-Noto CJK fonts{{< spoiler text="show files" >}}* /usr/share/doc/noto-cjk-20201206/LICENSE
+Noto CJK fonts{{< files text="show files" >}}* /usr/share/doc/noto-cjk-20201206/LICENSE
 * /usr/share/doc/noto-cjk-20201206/README-formats.md
 * /usr/share/doc/noto-cjk-20201206/README-third_party.md
 * /usr/share/fonts/X11/OTF/NotoSansCJKhk-Black.otf
@@ -152,4 +152,4 @@ Noto CJK fonts{{< spoiler text="show files" >}}* /usr/share/doc/noto-cjk-2020120
 * /usr/share/fonts/X11/OTF/NotoSerifTC-Medium.otf
 * /usr/share/fonts/X11/OTF/NotoSerifTC-Regular.otf
 * /usr/share/fonts/X11/OTF/NotoSerifTC-SemiBold.otf
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "31661181"
 sha1sum = "aee1289a22f70df31324e2d5ba585bfe71ae4d2f"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Albanian support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/sq/default.css
+Installs Albanian support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/sq/default.css
 * /usr/lib/libreoffice/help/sq/err.html
 * /usr/lib/libreoffice/help/sq/highcontrast1.css
 * /usr/lib/libreoffice/help/sq/highcontrast2.css
@@ -131,4 +131,4 @@ Installs Albanian support in LibreOffice{{< spoiler text="show files" >}}* /usr/
 * /usr/lib/libreoffice/share/registry/Langpack-sq.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_sq.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_sq.xcd
-{{< /spoiler >}}
+{{< /files >}}

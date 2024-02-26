@@ -15,7 +15,7 @@ depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3']"
 reverse_depends = "['alienarena', 'allegro', 'kdetv', 'mencoder', 'mjpegtools', 'mplayer', 'mpv', 'xf86dga', 'xonotic']"
 license = "GPL2"
 +++
-X.Org Xxf86dga library{{< spoiler text="show files" >}}* /usr/include/X11/extensions/xf86dga1.h
+X.Org Xxf86dga library{{< files text="show files" >}}* /usr/include/X11/extensions/xf86dga1.h
 * /usr/include/X11/extensions/Xxf86dga.h
 * /usr/lib/libXxf86dga.so
 * /usr/lib/libXxf86dga.so.1
@@ -46,4 +46,4 @@ X.Org Xxf86dga library{{< spoiler text="show files" >}}* /usr/include/X11/extens
 * /usr/share/man/man3/XDGASync.3.gz
 * /usr/share/man/man3/XF86DGA.3.gz
 * /usr/share/man/man3/XFree86-DGA.3.gz
-{{< /spoiler >}}
+{{< /files >}}

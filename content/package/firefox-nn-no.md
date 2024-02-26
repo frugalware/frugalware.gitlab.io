@@ -14,5 +14,5 @@ sha1sum = "12c407b50f71781885dd2b6ce25d8e6e098c546a"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Norwegian Nynorsk language support for Firefox{{< spoiler text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-nn-NO@firefox.mozilla.org.xpi
-{{< /spoiler >}}
+Norwegian Nynorsk language support for Firefox{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-nn-NO@firefox.mozilla.org.xpi
+{{< /files >}}

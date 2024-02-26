@@ -14,7 +14,7 @@ sha1sum = "88d90fde07fb6e8c0f625c6a50d6f7de684cb166"
 depends = "['glibc>=2.34', 'scriptlet-core']"
 license = "GPLv2"
 +++
-mlocate (merging locate) is a locate/updatedb implementation.{{< spoiler text="show files" >}}* /etc/cron.daily/updatedb
+mlocate (merging locate) is a locate/updatedb implementation.{{< files text="show files" >}}* /etc/cron.daily/updatedb
 * /etc/updatedb.conf
 * /usr/bin/locate
 * /usr/bin/mlocate
@@ -68,4 +68,4 @@ mlocate (merging locate) is a locate/updatedb implementation.{{< spoiler text="s
 * /usr/share/man/man5/mlocate.db.5.gz
 * /usr/share/man/man5/updatedb.conf.5.gz
 * /usr/share/man/man8/updatedb.8.gz
-{{< /spoiler >}}
+{{< /files >}}

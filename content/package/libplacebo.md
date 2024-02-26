@@ -14,7 +14,7 @@ sha1sum = "479d835443c3d43273fb773a09ceb86abbe950a0"
 depends = "['lcms2', 'libepoxy', 'libglvnd', 'shaderc', 'vulkan-icd-loader']"
 reverse_depends = "['mpv']"
 +++
-Reusable library for GPU-accelerated video/image rendering primitives{{< spoiler text="show files" >}}* /usr/include/libplacebo/cache.h
+Reusable library for GPU-accelerated video/image rendering primitives{{< files text="show files" >}}* /usr/include/libplacebo/cache.h
 * /usr/include/libplacebo/colorspace.h
 * /usr/include/libplacebo/common.h
 * /usr/include/libplacebo/config.h
@@ -53,4 +53,4 @@ Reusable library for GPU-accelerated video/image rendering primitives{{< spoiler
 * /usr/lib/pkgconfig/libplacebo.pc
 * /usr/share/doc/libplacebo-6.338.2/LICENSE
 * /usr/share/doc/libplacebo-6.338.2/README.md
-{{< /spoiler >}}
+{{< /files >}}

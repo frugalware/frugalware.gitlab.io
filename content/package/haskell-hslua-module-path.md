@@ -13,7 +13,7 @@ usize = "734394"
 sha1sum = "4126d55b264bea87d37bbf81c9b5e400df146108"
 depends = "['haskell-hslua-packaging']"
 +++
-Lua module to work with file paths.{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hslua-module-path-1.1.0/HsLua/Module/Path.dyn_hi
+Lua module to work with file paths.{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hslua-module-path-1.1.0/HsLua/Module/Path.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-module-path-1.1.0/HsLua/Module/Path.hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-module-path-1.1.0/libHShslua-module-path-1.1.0-G9i78Nwyah26Hp9XztorFP.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHShslua-module-path-1.1.0-G9i78Nwyah26Hp9XztorFP-ghc9.8.1.so
@@ -33,4 +33,4 @@ Lua module to work with file paths.{{< spoiler text="show files" >}}* /usr/lib/g
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/hslua-module-path-1.1.0/LICENSE
 * /usr/share/haskell/haskell-hslua-module-path/register.sh
 * /usr/share/haskell/haskell-hslua-module-path/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "773123"
 sha1sum = "28db397c9707a87b6b00851073b8b71660078c2e"
 depends = "['libgl', 'libstdc++', 'libxdamage', 'libxi', 'libxmu']"
 +++
-Maxemum TV-Guide is a KDE TV-guide.{{< spoiler text="show files" >}}* usr/bin/maxemumtvguide
+Maxemum TV-Guide is a KDE TV-guide.{{< files text="show files" >}}* usr/bin/maxemumtvguide
 * usr/share/applnk/Utilities/maxemumtvguide.desktop
 * usr/share/apps/maxemumtvguide/maxemumtvguideui.rc
 * usr/share/doc/HTML/en/maxemumtvguide/common
@@ -29,4 +29,4 @@ Maxemum TV-Guide is a KDE TV-guide.{{< spoiler text="show files" >}}* usr/bin/ma
 * usr/share/locale/nb/LC_MESSAGES/maxemumtvguide.mo
 * usr/share/locale/sk/LC_MESSAGES/maxemumtvguide.mo
 * usr/share/locale/sv/LC_MESSAGES/maxemumtvguide.mo
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "601099"
 sha1sum = "18e937d75362af96f47217f076c2fe2973c0d295"
 depends = "['cmake', 'python3-distro', 'python3-setuptools', 'python3-wheel']"
 +++
-Improved build system generator for CPython C, C++, Cython and Fortran extensions{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/scikit_build-0.17.6.dist-info/licenses/AUTHORS.rst
+Improved build system generator for CPython C, C++, Cython and Fortran extensions{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/scikit_build-0.17.6.dist-info/licenses/AUTHORS.rst
 * /usr/lib/python3.12/site-packages/scikit_build-0.17.6.dist-info/licenses/LICENSE
 * /usr/lib/python3.12/site-packages/scikit_build-0.17.6.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/scikit_build-0.17.6.dist-info/RECORD
@@ -135,4 +135,4 @@ Improved build system generator for CPython C, C++, Cython and Fortran extension
 * /usr/lib/python3.12/site-packages/skbuild/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/scikit-build-0.17.6/LICENSE
 * /usr/share/doc/scikit-build-0.17.6/README.rst
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "dab56d914049534644a0beccf8a50fa3fb103d79"
 depends = "['accounts-qml-module', 'kconfig>=5.115.0', 'kcoreaddons>=5.115.0', 'kdeclarative>=5.115.0', 'ki18n>=5.115.0', 'kio>=5.115.0', 'kirigami2>=5.115.0']"
 reverse_depends = "['angelfish', 'discover', 'falkon-kde', 'kamoso', 'kdenlive', 'kdeplasma-addons5', 'okular', 'pimcommon', 'plasma-browser-integration', 'skanpage', 'spectacle']"
 +++
-Offers the possibility to create integrate services and actions on any application.{{< spoiler text="show files" >}}* /usr/include/KF5/purpose/Purpose/AlternativesModel
+Offers the possibility to create integrate services and actions on any application.{{< files text="show files" >}}* /usr/include/KF5/purpose/Purpose/AlternativesModel
 * /usr/include/KF5/purpose/purpose/alternativesmodel.h
 * /usr/include/KF5/purpose/Purpose/Configuration
 * /usr/include/KF5/purpose/purpose/configuration.h
@@ -694,4 +694,4 @@ Offers the possibility to create integrate services and actions on any applicati
 * /usr/share/qt5/qml/org/kde/purpose/qmldir
 * /usr/share/qt5/qml/org/kde/purpose/reviewboard/librbpurposequickplugin.so
 * /usr/share/qt5/qml/org/kde/purpose/reviewboard/qmldir
-{{< /spoiler >}}
+{{< /files >}}

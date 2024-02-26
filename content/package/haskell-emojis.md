@@ -14,7 +14,7 @@ sha1sum = "b2e70d9a5a12321fe07e12f487af40f870b60a72"
 depends = "['ghc>=9.8.1']"
 reverse_depends = "['haskell-commonmark-extensions', 'haskell-doclayout', 'haskell-doctemplates']"
 +++
-Conversion between emoji characters and their names{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/emojis-0.1.3/libHSemojis-0.1.3-ENMmXzviFEA8ahZslbuKBs.a
+Conversion between emoji characters and their names{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/emojis-0.1.3/libHSemojis-0.1.3-ENMmXzviFEA8ahZslbuKBs.a
 * /usr/lib/ghc-9.8.1/site-local/emojis-0.1.3/Text/Emoji.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/emojis-0.1.3/Text/Emoji.hi
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSemojis-0.1.3-ENMmXzviFEA8ahZslbuKBs-ghc9.8.1.so
@@ -32,4 +32,4 @@ Conversion between emoji characters and their names{{< spoiler text="show files"
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/emojis-0.1.3/LICENSE
 * /usr/share/haskell/haskell-emojis/register.sh
 * /usr/share/haskell/haskell-emojis/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

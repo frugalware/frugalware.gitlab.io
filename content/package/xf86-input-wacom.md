@@ -14,7 +14,7 @@ sha1sum = "d92e8f32805619de9686a8b75585969878eb5066"
 depends = "['libudev>=242', 'libxi>=1.7.6-2', 'libxinerama>=1.1.3-2', 'libxrandr>=1.5.0-4', 'systemd>=231-6', 'xorg-server>=1.20.4-3']"
 license = "GPL2"
 +++
-X.Org driver for wacom input devices{{< spoiler text="show files" >}}* /usr/bin/isdv4-serial-debugger
+X.Org driver for wacom input devices{{< files text="show files" >}}* /usr/bin/isdv4-serial-debugger
 * /usr/bin/isdv4-serial-inputattach
 * /usr/bin/xsetwacom
 * /usr/include/xorg/isdv4.h
@@ -32,4 +32,4 @@ X.Org driver for wacom input devices{{< spoiler text="show files" >}}* /usr/bin/
 * /usr/share/man/man1/xsetwacom.1.gz
 * /usr/share/man/man4/wacom.4.gz
 * /usr/share/X11/xorg.conf.d/70-wacom.conf
-{{< /spoiler >}}
+{{< /files >}}

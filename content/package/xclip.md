@@ -13,7 +13,7 @@ usize = "92705"
 sha1sum = "4a7db52d2b25b60052981d6b97e22e387594c845"
 depends = "['libxmu']"
 +++
-Command line interface to the clipboard{{< spoiler text="show files" >}}* /usr/bin/xclip
+Command line interface to the clipboard{{< files text="show files" >}}* /usr/bin/xclip
 * /usr/bin/xclip-copyfile
 * /usr/bin/xclip-cutfile
 * /usr/bin/xclip-pastefile
@@ -23,4 +23,4 @@ Command line interface to the clipboard{{< spoiler text="show files" >}}* /usr/b
 * /usr/share/doc/xclip-0.13/README
 * /usr/share/man/man1/xclip-copyfile.1.gz
 * /usr/share/man/man1/xclip.1.gz
-{{< /spoiler >}}
+{{< /files >}}

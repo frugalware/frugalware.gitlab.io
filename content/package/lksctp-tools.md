@@ -14,7 +14,7 @@ sha1sum = "ca27e3ffe6cd9fcb9466fb8fbc788c11ce1bc253"
 depends = "['glibc>=2.34']"
 reverse_depends = "['openjre']"
 +++
-Stream Control Transmission Protocol (SCTP) is a reliable, message-oriented, multihomed transport protocol.{{< spoiler text="show files" >}}* /usr/bin/checksctp
+Stream Control Transmission Protocol (SCTP) is a reliable, message-oriented, multihomed transport protocol.{{< files text="show files" >}}* /usr/bin/checksctp
 * /usr/bin/sctp_darn
 * /usr/bin/sctp_status
 * /usr/bin/sctp_test
@@ -56,4 +56,4 @@ Stream Control Transmission Protocol (SCTP) is a reliable, message-oriented, mul
 * /usr/share/man/man3/sctp_sendmsg.3.gz
 * /usr/share/man/man3/sctp_sendv.3.gz
 * /usr/share/man/man7/sctp.7.gz
-{{< /spoiler >}}
+{{< /files >}}

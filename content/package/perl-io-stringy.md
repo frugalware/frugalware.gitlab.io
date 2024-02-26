@@ -14,7 +14,7 @@ sha1sum = "aa51ffce913c0e5342381004a47bbf194fee5b01"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['amavisd-new', 'perl-mime-tools']"
 +++
-Perl5 modules for IO from scalars and arrays{{< spoiler text="show files" >}}* /usr/lib/perl5/site_perl/IO/AtomicFile.pm
+Perl5 modules for IO from scalars and arrays{{< files text="show files" >}}* /usr/lib/perl5/site_perl/IO/AtomicFile.pm
 * /usr/lib/perl5/site_perl/IO/InnerFile.pm
 * /usr/lib/perl5/site_perl/IO/Lines.pm
 * /usr/lib/perl5/site_perl/IO/Scalar.pm
@@ -34,4 +34,4 @@ Perl5 modules for IO from scalars and arrays{{< spoiler text="show files" >}}* /
 * /usr/share/man/man3/IO::Stringy.3perl.gz
 * /usr/share/man/man3/IO::Wrap.3perl.gz
 * /usr/share/man/man3/IO::WrapTie.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

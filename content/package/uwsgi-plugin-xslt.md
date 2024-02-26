@@ -13,5 +13,5 @@ usize = "22936"
 sha1sum = "2c4dd90ca20d6e01e55d960a9f58e4f8a35f9100"
 depends = "['libxml2', 'uwsgi']"
 +++
-UWSGI XSLT Plugin{{< spoiler text="show files" >}}* /usr/lib/uwsgi/xslt_plugin.so
-{{< /spoiler >}}
+UWSGI XSLT Plugin{{< files text="show files" >}}* /usr/lib/uwsgi/xslt_plugin.so
+{{< /files >}}

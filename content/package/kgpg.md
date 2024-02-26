@@ -13,7 +13,7 @@ usize = "8862548"
 sha1sum = "dfb1ccfb35b78172ae611775e8f051db740600a1"
 depends = "['akonadi-contacts>=23.08.5', 'gpg-agent', 'gpgme']"
 +++
-KGpg is a simple interface for GnuPG{{< spoiler text="show files" >}}* /etc/xdg/autostart/org.kde.kgpg.desktop
+KGpg is a simple interface for GnuPG{{< files text="show files" >}}* /etc/xdg/autostart/org.kde.kgpg.desktop
 * /usr/bin/kgpg
 * /usr/share/applications/org.kde.kgpg.desktop
 * /usr/share/config.kcfg/kgpg.kcfg
@@ -221,4 +221,4 @@ KGpg is a simple interface for GnuPG{{< spoiler text="show files" >}}* /etc/xdg/
 * /usr/share/locale/zh_TW/LC_MESSAGES/kgpg.mo
 * /usr/share/metainfo/org.kde.kgpg.appdata.xml
 * /usr/share/qlogging-categories5/kgpg.categories
-{{< /spoiler >}}
+{{< /files >}}

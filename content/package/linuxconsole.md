@@ -14,7 +14,7 @@ sha1sum = "bd43ee486de8981020b96254e953814b298331f4"
 depends = "['sdl2']"
 license = "GPL"
 +++
-Set of utilities for joysticks and serial devices{{< spoiler text="show files" >}}* /etc/sysconfig/inputattach
+Set of utilities for joysticks and serial devices{{< files text="show files" >}}* /etc/sysconfig/inputattach
 * /usr/bin/evdev-joystick
 * /usr/bin/ffcfstress
 * /usr/bin/ffmvforce
@@ -45,4 +45,4 @@ Set of utilities for joysticks and serial devices{{< spoiler text="show files" >
 * /usr/share/man/man1/jscal-store.1.gz
 * /usr/share/man/man1/jscal.1.gz
 * /usr/share/man/man1/jstest.1.gz
-{{< /spoiler >}}
+{{< /files >}}

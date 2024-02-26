@@ -13,7 +13,7 @@ usize = "59216"
 sha1sum = "be0707c674e12de4ab00406daf984d7bc8ae1a09"
 depends = "['python3-setuptools']"
 +++
-Setuptools revision control system plugin for Git{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/setuptools_git-1.2-py3.12.egg-info/dependency_links.txt
+Setuptools revision control system plugin for Git{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/setuptools_git-1.2-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/setuptools_git-1.2-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/setuptools_git-1.2-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/setuptools_git-1.2-py3.12.egg-info/SOURCES.txt
@@ -26,4 +26,4 @@ Setuptools revision control system plugin for Git{{< spoiler text="show files" >
 * /usr/lib/python3.12/site-packages/setuptools_git/__pycache__/utils.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/setuptools_git/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-setuptools-git-1.2/README.rst
-{{< /spoiler >}}
+{{< /files >}}

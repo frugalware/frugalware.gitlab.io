@@ -13,7 +13,7 @@ usize = "559505"
 sha1sum = "05b1acbbcbe3d1d4bdcbfb67df81b651fc4592d4"
 depends = "[]"
 +++
-K3b Monkey's Audio plugin{{< spoiler text="show files" >}}* usr/lib/kde3/libk3bmonkeydecoder.la
+K3b Monkey's Audio plugin{{< files text="show files" >}}* usr/lib/kde3/libk3bmonkeydecoder.la
 * usr/lib/kde3/libk3bmonkeydecoder.so
 * usr/lib/kde3/libk3bmonkeydecoder.so.0
 * usr/lib/kde3/libk3bmonkeydecoder.so.0.0.0
@@ -31,4 +31,4 @@ K3b Monkey's Audio plugin{{< spoiler text="show files" >}}* usr/lib/kde3/libk3bm
 * usr/share/doc/k3bmonkeyaudioplugin-3.1/README
 * usr/share/doc/k3bmonkeyaudioplugin-3.1/TODO
 * usr/share/locale/de/LC_MESSAGES/k3bmonkeyplugin.mo
-{{< /spoiler >}}
+{{< /files >}}

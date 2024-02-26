@@ -13,7 +13,7 @@ usize = "177965"
 sha1sum = "fec07cd1f1b9c4c31c46df80f362a9f77c16dc6a"
 depends = "['fontconfig', 'mkfontscale']"
 +++
-A set of fonts known as artwiz.{{< spoiler text="show files" >}}* /usr/share/doc/artwiz-fonts-1.3/AUTHORS
+A set of fonts known as artwiz.{{< files text="show files" >}}* /usr/share/doc/artwiz-fonts-1.3/AUTHORS
 * /usr/share/doc/artwiz-fonts-1.3/BUGS
 * /usr/share/doc/artwiz-fonts-1.3/ChangeLog
 * /usr/share/doc/artwiz-fonts-1.3/COPYING
@@ -71,4 +71,4 @@ A set of fonts known as artwiz.{{< spoiler text="show files" >}}* /usr/share/doc
 * /usr/share/fonts/X11/misc/snap.de.pcf.gz
 * /usr/share/fonts/X11/misc/snap.en.pcf.gz
 * /usr/share/fonts/X11/misc/snap.se.pcf.gz
-{{< /spoiler >}}
+{{< /files >}}

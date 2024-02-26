@@ -13,7 +13,7 @@ usize = "37277049"
 sha1sum = "f19573bde916908d60959f25bb924d9a1df487f7"
 depends = "['texlive=2023.0']"
 +++
-Extra PsTricks packages for TeX Live{{< spoiler text="show files" >}}* /usr/bin/pst2pdf
+Extra PsTricks packages for TeX Live{{< files text="show files" >}}* /usr/bin/pst2pdf
 * /usr/share/texmf-dist/dvips/pst-3d/pst-3d.pro
 * /usr/share/texmf-dist/dvips/pst-3dplot/pst-3dplot.pro
 * /usr/share/texmf-dist/dvips/pst-bar/pst-bar.pro
@@ -475,4 +475,4 @@ Extra PsTricks packages for TeX Live{{< spoiler text="show files" >}}* /usr/bin/
 * /usr/share/texmf-dist/tex/latex/pstricks/pstricks-pdf.sty
 * /usr/share/texmf-dist/tex/latex/pstricks/pstricks.sty
 * /usr/share/texmf-dist/tex/latex/uml/uml.sty
-{{< /spoiler >}}
+{{< /files >}}

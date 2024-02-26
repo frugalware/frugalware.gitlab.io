@@ -14,7 +14,7 @@ sha1sum = "254770d436fa3ba22068439ac1ce5bca71003d3c"
 depends = "['python3>=3.11', 'python3-setuptools']"
 reverse_depends = "['python3-pysol_cards']"
 +++
-Python Build Reasonableness{{< spoiler text="show files" >}}* /usr/bin/pbr
+Python Build Reasonableness{{< files text="show files" >}}* /usr/bin/pbr
 * /usr/lib/python3.12/site-packages/pbr-6.0.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pbr-6.0.0-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/pbr-6.0.0-py3.12.egg-info/not-zip-safe
@@ -126,4 +126,4 @@ Python Build Reasonableness{{< spoiler text="show files" >}}* /usr/bin/pbr
 * /usr/share/doc/python3-pbr-6.0.0/ChangeLog
 * /usr/share/doc/python3-pbr-6.0.0/LICENSE
 * /usr/share/doc/python3-pbr-6.0.0/README.rst
-{{< /spoiler >}}
+{{< /files >}}

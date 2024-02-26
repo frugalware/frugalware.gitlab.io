@@ -13,7 +13,7 @@ usize = "680806"
 sha1sum = "86b114180228fc3dd0aa270ac64fd75e7637833c"
 depends = "['xaw3d', 'xghostscript']"
 +++
-gv allows to view and navigate through PostScript and PDF documents on an X display{{< spoiler text="show files" >}}* /usr/bin/gv
+gv allows to view and navigate through PostScript and PDF documents on an X display{{< files text="show files" >}}* /usr/bin/gv
 * /usr/bin/gv-update-userconfig
 * /usr/share/doc/gv-3.7.4/AUTHORS
 * /usr/share/doc/gv-3.7.4/ChangeLog
@@ -28,4 +28,4 @@ gv allows to view and navigate through PostScript and PDF documents on an X disp
 * /usr/share/info/gv.info.gz
 * /usr/share/man/man1/gv-update-userconfig.1.gz
 * /usr/share/man/man1/gv.1.gz
-{{< /spoiler >}}
+{{< /files >}}

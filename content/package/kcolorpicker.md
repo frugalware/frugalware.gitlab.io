@@ -14,7 +14,7 @@ sha1sum = "8ef8be2ac51ccf42f7a8276d4eb2a721a55ffeef"
 depends = "['qt5-base>=5.15.6']"
 reverse_depends = "['kimageannotator']"
 +++
-Qt based Color Picker with popup menu{{< spoiler text="show files" >}}* /usr/include/kColorPicker/KColorPicker.h
+Qt based Color Picker with popup menu{{< files text="show files" >}}* /usr/include/kColorPicker/KColorPicker.h
 * /usr/include/kColorPicker/KColorPickerExport.h
 * /usr/lib/cmake/kColorPicker/kColorPicker-targets-release.cmake
 * /usr/lib/cmake/kColorPicker/kColorPicker-targets.cmake
@@ -25,4 +25,4 @@ Qt based Color Picker with popup menu{{< spoiler text="show files" >}}* /usr/inc
 * /usr/lib/libkColorPicker.so.0.2.0
 * /usr/share/doc/kcolorpicker-0.2.0/LICENSE
 * /usr/share/doc/kcolorpicker-0.2.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

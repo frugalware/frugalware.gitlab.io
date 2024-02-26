@@ -14,7 +14,7 @@ sha1sum = "b4d7f98c6b443e89c288abc6e0fd9170c220ea58"
 depends = "['libxvmc', 'xorg-server>=1.2.0-3']"
 license = "GPL2"
 +++
-X.Org driver for i810 cards{{< spoiler text="show files" >}}* usr/lib/libI810XvMC.la
+X.Org driver for i810 cards{{< files text="show files" >}}* usr/lib/libI810XvMC.la
 * usr/lib/libI810XvMC.so
 * usr/lib/libI810XvMC.so.1
 * usr/lib/libI810XvMC.so.1.0.0
@@ -24,4 +24,4 @@ X.Org driver for i810 cards{{< spoiler text="show files" >}}* usr/lib/libI810XvM
 * usr/share/doc/xf86-video-i810-1.7.4/README
 * usr/share/doc/xf86-video-i810-1.7.4/README.sgml
 * usr/share/man/man4/i810.4.gz
-{{< /spoiler >}}
+{{< /files >}}

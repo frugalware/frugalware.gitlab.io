@@ -14,11 +14,11 @@ sha1sum = "35f3309fdf89e1b38edfbaf5b02bd1987384c209"
 depends = "['libx11>=1.6.3-3']"
 license = "GPL2"
 +++
-X.Org mkcomposecache application{{< spoiler text="show files" >}}* /usr/bin/mkcomposecache
+X.Org mkcomposecache application{{< files text="show files" >}}* /usr/bin/mkcomposecache
 * /usr/share/doc/mkcomposecache-1.2.2/AUTHORS
 * /usr/share/doc/mkcomposecache-1.2.2/ChangeLog
 * /usr/share/doc/mkcomposecache-1.2.2/COPYING
 * /usr/share/doc/mkcomposecache-1.2.2/INSTALL
 * /usr/share/doc/mkcomposecache-1.2.2/README.md
 * /usr/share/man/man8/mkcomposecache.8.gz
-{{< /spoiler >}}
+{{< /files >}}

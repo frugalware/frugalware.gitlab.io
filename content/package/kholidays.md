@@ -14,7 +14,7 @@ sha1sum = "59bab2191ae97be9874dece1d34cebc1608622b3"
 depends = "['qt5-base>=5.15.12']"
 reverse_depends = "['calendarsupport', 'itinerary', 'kalarm', 'kopeninghours', 'kweathercore', 'plasma-workspace']"
 +++
-C++ library for calendar holidays.{{< spoiler text="show files" >}}* /usr/include/KF5/KHolidays/KHolidays/AstroSeasons
+C++ library for calendar holidays.{{< files text="show files" >}}* /usr/include/KF5/KHolidays/KHolidays/AstroSeasons
 * /usr/include/KF5/KHolidays/kholidays/astroseasons.h
 * /usr/include/KF5/KHolidays/KHolidays/Holiday
 * /usr/include/KF5/KHolidays/kholidays/holiday.h
@@ -114,4 +114,4 @@ C++ library for calendar holidays.{{< spoiler text="show files" >}}* /usr/includ
 * /usr/share/qt5/mkspecs/modules/qt_KHolidays.pri
 * /usr/share/qt5/qml/org/kde/kholidays/libkholidaysdeclarativeplugin.so
 * /usr/share/qt5/qml/org/kde/kholidays/qmldir
-{{< /spoiler >}}
+{{< /files >}}

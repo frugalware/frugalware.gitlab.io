@@ -13,7 +13,7 @@ usize = "34014"
 sha1sum = "98caff10f0683a8591f12ab9f1988b9e4f56ba9b"
 depends = "['perl-xml-parser']"
 +++
-Convert xml to man pages in groff format or html{{< spoiler text="show files" >}}* /usr/bin/xmlmantohtml
+Convert xml to man pages in groff format or html{{< files text="show files" >}}* /usr/bin/xmlmantohtml
 * /usr/bin/xmltoman
 * /usr/share/doc/xmltoman-0.4/ChangeLog
 * /usr/share/doc/xmltoman-0.4/COPYING
@@ -21,4 +21,4 @@ Convert xml to man pages in groff format or html{{< spoiler text="show files" >}
 * /usr/share/xmltoman/xmltoman.css
 * /usr/share/xmltoman/xmltoman.dtd
 * /usr/share/xmltoman/xmltoman.xsl
-{{< /spoiler >}}
+{{< /files >}}

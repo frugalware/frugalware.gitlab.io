@@ -13,5 +13,5 @@ usize = "46992"
 sha1sum = "8304d3c7dbbc2f721e415780b20933358da914be"
 depends = "['gst1-plugins-base>=1.22.10', 'gst1-plugins-good>=1.22.10', 'libffi>=3.2.1-2', 'libx11>=1.6.3-4', 'libxdamage>=1.1.4-3']"
 +++
-GStreamer ximage plugin (Good).{{< spoiler text="show files" >}}* /usr/lib/gstreamer-1.0/libgstximagesrc.so
-{{< /spoiler >}}
+GStreamer ximage plugin (Good).{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstximagesrc.so
+{{< /files >}}

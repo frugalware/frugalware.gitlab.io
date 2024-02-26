@@ -14,7 +14,7 @@ sha1sum = "5b910fdc8ee67b0576e69f5c67d9e9ea09930376"
 depends = "['glibc']"
 reverse_depends = "['cmake']"
 +++
-Utility for verifying hash sums (SFV, CRC, etc). Supports lots of algorithms.{{< spoiler text="show files" >}}* /etc/rhashrc
+Utility for verifying hash sums (SFV, CRC, etc). Supports lots of algorithms.{{< files text="show files" >}}* /etc/rhashrc
 * /usr/bin/ed2k-link
 * /usr/bin/edonr256-hash
 * /usr/bin/edonr512-hash
@@ -48,4 +48,4 @@ Utility for verifying hash sums (SFV, CRC, etc). Supports lots of algorithms.{{<
 * /usr/share/man/man1/tiger-hash.1.gz
 * /usr/share/man/man1/tth-hash.1.gz
 * /usr/share/man/man1/whirlpool-hash.1.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "2662395"
 sha1sum = "84565a25025e66035ea613c35df212a9168a693c"
 depends = "['perl-archive-zip', 'perl-berkeleydb', 'perl-convert-binhex', 'perl-convert-tnef', 'perl-convert-uulib', 'perl-io-stringy', 'perl-mailtools', 'perl-mime-tools', 'perl-net-server', 'perl-unix-syslog', 'spamassassin', 'systemd']"
 +++
-Amavisd-new is a high-performance interface between mailer (MTA) and content checkers{{< spoiler text="show files" >}}* /etc/amavis/10-amavisconf
+Amavisd-new is a high-performance interface between mailer (MTA) and content checkers{{< files text="show files" >}}* /etc/amavis/10-amavisconf
 * /etc/amavis/20-userconf
 * /etc/tmpfiles.d/amavisd-new.conf
 * /usr/bin/amavisd
@@ -33,4 +33,4 @@ Amavisd-new is a high-performance interface between mailer (MTA) and content che
 * /usr/share/doc/amavisd-new-2.11.1/sample-messages/README
 * /usr/share/doc/amavisd-new-2.11.1/sample-messages/sample.tar.gz.compl
 * /usr/share/doc/amavisd-new-2.11.1/TODO
-{{< /spoiler >}}
+{{< /files >}}

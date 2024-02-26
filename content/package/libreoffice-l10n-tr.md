@@ -13,7 +13,7 @@ usize = "35617946"
 sha1sum = "3bc9c0254ea21fea09af2aa42e103b6c332e7d62"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Turkish support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/tr/default.css
+Installs Turkish support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/tr/default.css
 * /usr/lib/libreoffice/help/tr/err.html
 * /usr/lib/libreoffice/help/tr/highcontrast1.css
 * /usr/lib/libreoffice/help/tr/highcontrast2.css
@@ -133,4 +133,4 @@ Installs Turkish support in LibreOffice{{< spoiler text="show files" >}}* /usr/l
 * /usr/lib/libreoffice/share/registry/Langpack-tr.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_tr.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_tr.xcd
-{{< /spoiler >}}
+{{< /files >}}

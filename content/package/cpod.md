@@ -13,7 +13,7 @@ usize = "158171675"
 sha1sum = "fff50ae63f63a24d41d8bfa3303b73453c5b115a"
 depends = "['dbus-glib', 'gconf']"
 +++
-A simple, beautiful podcast app{{< spoiler text="show files" >}}* /opt/CPod/blink_image_resources_200_percent.pak
+A simple, beautiful podcast app{{< files text="show files" >}}* /opt/CPod/blink_image_resources_200_percent.pak
 * /opt/CPod/content_resources_200_percent.pak
 * /opt/CPod/content_shell.pak
 * /opt/CPod/cpod
@@ -96,4 +96,4 @@ A simple, beautiful podcast app{{< spoiler text="show files" >}}* /opt/CPod/blin
 * /usr/share/icons/hicolor/512x512/apps/cpod.png
 * /usr/share/icons/hicolor/64x64/apps/cpod.png
 * /usr/share/icons/hicolor/96x96/apps/cpod.png
-{{< /spoiler >}}
+{{< /files >}}

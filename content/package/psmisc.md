@@ -14,7 +14,7 @@ sha1sum = "0326a20aae802471e793428615a03854d66adf3f"
 depends = "['ncurses>=6.1-2']"
 reverse_depends = "['dcron', 'scriptlet-core']"
 +++
-Miscellaneous procfs tools{{< spoiler text="show files" >}}* /usr/bin/fuser
+Miscellaneous procfs tools{{< files text="show files" >}}* /usr/bin/fuser
 * /usr/bin/killall
 * /usr/bin/peekfd
 * /usr/bin/prtstat
@@ -124,4 +124,4 @@ Miscellaneous procfs tools{{< spoiler text="show files" >}}* /usr/bin/fuser
 * /usr/share/man/uk/man1/prtstat.1.gz
 * /usr/share/man/uk/man1/pslog.1.gz
 * /usr/share/man/uk/man1/pstree.1.gz
-{{< /spoiler >}}
+{{< /files >}}

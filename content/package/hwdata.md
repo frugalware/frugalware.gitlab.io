@@ -14,7 +14,7 @@ sha1sum = "6c9e2ae7211982238cf809ebac54a9821a6b287e"
 depends = "['kmod>=25-2']"
 reverse_depends = "['kwin5', 'libgusb', 'pciutils', 'systemd', 'usbutils']"
 +++
-Hardware identification and configuration data{{< spoiler text="show files" >}}* /usr/lib/modprobe.d/dist-blacklist.conf
+Hardware identification and configuration data{{< files text="show files" >}}* /usr/lib/modprobe.d/dist-blacklist.conf
 * /usr/lib/pkgconfig/hwdata.pc
 * /usr/share/doc/hwdata-0.379/COPYING
 * /usr/share/doc/hwdata-0.379/LICENSE
@@ -24,4 +24,4 @@ Hardware identification and configuration data{{< spoiler text="show files" >}}*
 * /usr/share/hwdata/pci.ids
 * /usr/share/hwdata/pnp.ids
 * /usr/share/hwdata/usb.ids
-{{< /spoiler >}}
+{{< /files >}}

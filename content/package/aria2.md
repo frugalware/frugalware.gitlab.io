@@ -14,7 +14,7 @@ sha1sum = "e662e09cf9633b86a723f6fc726067f75d4da337"
 depends = "['c-ares', 'ca-certificates', 'gnutls>=3.4.2', 'libidn2', 'libssh2', 'libxml2>=2.8.0', 'nettle>=3.6', 'sqlite3', 'xz']"
 license = "GPL"
 +++
-aria2 is an utility for downloading files.{{< spoiler text="show files" >}}* /usr/bin/aria2c
+aria2 is an utility for downloading files.{{< files text="show files" >}}* /usr/bin/aria2c
 * /usr/share/doc/aria2-1.36.0/AUTHORS
 * /usr/share/doc/aria2-1.36.0/bash_completion/aria2c
 * /usr/share/doc/aria2-1.36.0/bash_completion/README.txt
@@ -73,4 +73,4 @@ aria2 is an utility for downloading files.{{< spoiler text="show files" >}}* /us
 * /usr/share/man/man1/aria2c.1.gz
 * /usr/share/man/pt/man1/aria2c.1.gz
 * /usr/share/man/ru/man1/aria2c.1.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,4 +13,4 @@ usize = "0"
 sha1sum = "1aef718226e2155640d705e210e90fc741932a6e"
 depends = "['btrfs-progs>=6.5', 'coreutils>=9.1', 'cryptsetup-luks>=2.6.0', 'dracut>=056', 'e2fsprogs>=1.46.5', 'frugalware>=2.1', 'gnupg2', 'intel-ucode>=20220809', 'kernel-lts=6.1.79-1', 'keyutils>=1.5.9-5', 'kmod>=30', 'less', 'linux-firmware>=20230404', 'lvm2>=2.03.16', 'mdadm>=4.0', 'scriptlet-core', 'systemd>=253.3', 'tar', 'terminus-font-console', 'xfsprogs>=6.0.0', 'xz']"
 +++
-The initrd for the Frugalware Linux Kernel.{{< spoiler text="show files" >}}{{< /spoiler >}}
+The initrd for the Frugalware Linux Kernel.{{< files text="show files" >}}{{< /files >}}

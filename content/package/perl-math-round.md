@@ -13,9 +13,9 @@ usize = "14904"
 sha1sum = "876c559600a4285e7ee2543945141fa5c0805a8e"
 depends = "['perl>=5.34.0']"
 +++
-Perl extension for rounding numbers{{< spoiler text="show files" >}}* /usr/lib/perl5/site_perl/current/auto/Math/Round/autosplit.ix
+Perl extension for rounding numbers{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/auto/Math/Round/autosplit.ix
 * /usr/lib/perl5/site_perl/current/Math/Round.pm
 * /usr/share/doc/perl-math-round-0.07/MANIFEST
 * /usr/share/doc/perl-math-round-0.07/README
 * /usr/share/man/man3/Math::Round.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

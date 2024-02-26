@@ -15,7 +15,7 @@ depends = "['gtk+2', 'lcms', 'libgphoto2>=2.5.0', 'libjpeg', 'sane-backends>=1.0
 reverse_depends = "['xsane-gimp']"
 license = "2"
 +++
-XSane is a graphical scanning frontend for SANE (Scanner Access Now Easy).{{< spoiler text="show files" >}}* /usr/bin/xsane
+XSane is a graphical scanning frontend for SANE (Scanner Access Now Easy).{{< files text="show files" >}}* /usr/bin/xsane
 * /usr/share/applications/xsane.desktop
 * /usr/share/doc/xsane-0.999/xsane-WIN32-README.txt
 * /usr/share/doc/xsane-0.999/xsane.BUGS
@@ -201,4 +201,4 @@ XSane is a graphical scanning frontend for SANE (Scanner Access Now Easy).{{< sp
 * /usr/share/sane/xsane/xsane-logo.xpm
 * /usr/share/sane/xsane/xsane-startimage.pnm
 * /usr/share/sane/xsane/xsane-style.rc
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,5 +13,5 @@ usize = "67504"
 sha1sum = "0427cf2f7f84bc973d474cc8e05d3e432b413568"
 depends = "['postgresql>=16.1', 'tcl>=8.6.8']"
 +++
-PostgreSQL tcl bindings{{< spoiler text="show files" >}}* /usr/lib/postgresql/pltcl.so
-{{< /spoiler >}}
+PostgreSQL tcl bindings{{< files text="show files" >}}* /usr/lib/postgresql/pltcl.so
+{{< /files >}}

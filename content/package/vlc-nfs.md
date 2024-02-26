@@ -13,5 +13,5 @@ usize = "26312"
 sha1sum = "f19044765dc653868acd4cf1dd84e37981a09859"
 depends = "['libnfs>=4.0', 'libvlc>=3.0.20']"
 +++
-vlc NFS support{{< spoiler text="show files" >}}* /usr/lib/vlc/plugins/access/libnfs_plugin.so
-{{< /spoiler >}}
+vlc NFS support{{< files text="show files" >}}* /usr/lib/vlc/plugins/access/libnfs_plugin.so
+{{< /files >}}

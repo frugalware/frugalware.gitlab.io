@@ -14,7 +14,7 @@ sha1sum = "5449dde2a5870f5d6b3a49961eae40c73bd13f42"
 depends = "['glibc']"
 reverse_depends = "['firacode', 'ttf-twemoji-color']"
 +++
-Bitstream Vera fonts{{< spoiler text="show files" >}}* /usr/share/doc/ttf-bitstream-vera-1.10/COPYRIGHT.TXT
+Bitstream Vera fonts{{< files text="show files" >}}* /usr/share/doc/ttf-bitstream-vera-1.10/COPYRIGHT.TXT
 * /usr/share/doc/ttf-bitstream-vera-1.10/README.TXT
 * /usr/share/doc/ttf-bitstream-vera-1.10/RELEASENOTES.TXT
 * /usr/share/fonts/X11/TTF/Vera.ttf
@@ -27,4 +27,4 @@ Bitstream Vera fonts{{< spoiler text="show files" >}}* /usr/share/doc/ttf-bitstr
 * /usr/share/fonts/X11/TTF/VeraMono.ttf
 * /usr/share/fonts/X11/TTF/VeraSe.ttf
 * /usr/share/fonts/X11/TTF/VeraSeBd.ttf
-{{< /spoiler >}}
+{{< /files >}}

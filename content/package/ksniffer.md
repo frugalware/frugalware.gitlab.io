@@ -14,7 +14,7 @@ sha1sum = "03ba4446765f761ff6bd0cd0713743797e036358"
 depends = "['expat', 'libstdc++', 'libxi', 'libxmu']"
 license = "GPL"
 +++
-Network sniffing application for KDE{{< spoiler text="show files" >}}* usr/bin/ksniff
+Network sniffing application for KDE{{< files text="show files" >}}* usr/bin/ksniff
 * usr/bin/ksniffer
 * usr/bin/ksniffer_client
 * usr/share/applications/kde/ksniffer.desktop
@@ -61,4 +61,4 @@ Network sniffing application for KDE{{< spoiler text="show files" >}}* usr/bin/k
 * usr/share/locale/ta/LC_MESSAGES/ksniffer.mo
 * usr/share/locale/tr/LC_MESSAGES/ksniffer.mo
 * usr/share/locale/vi/LC_MESSAGES/ksniffer.mo
-{{< /spoiler >}}
+{{< /files >}}

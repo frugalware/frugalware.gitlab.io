@@ -13,7 +13,7 @@ usize = "694460"
 sha1sum = "2f98696da710d5b6080e70775475c0078bd27d3c"
 depends = "['kcompletion>=5.115.0', 'kcoreaddons>=5.115.0', 'kdbusaddons>=5.115.0', 'ki18n>=5.115.0', 'kitemviews>=5.115.0', 'qt5-x11extras>=5.15.12']"
 +++
-An application to enable/disable qCDebug{{< spoiler text="show files" >}}* /usr/bin/kdebugsettings
+An application to enable/disable qCDebug{{< files text="show files" >}}* /usr/bin/kdebugsettings
 * /usr/lib/libkdebugsettings.so.23.08.5
 * /usr/lib/libkdebugsettings.so.5
 * /usr/lib/libkdebugsettingscore.so.23.08.5
@@ -63,4 +63,4 @@ An application to enable/disable qCDebug{{< spoiler text="show files" >}}* /usr/
 * /usr/share/metainfo/org.kde.kdebugsettings.appdata.xml
 * /usr/share/qlogging-categories5/kde.renamecategories
 * /usr/share/qlogging-categories5/kdebugsettings.categories
-{{< /spoiler >}}
+{{< /files >}}

@@ -15,7 +15,7 @@ depends = "['libstdc++>=12.2', 'libuuid>=2.28.2-2', 'zlib>=1.2.12']"
 reverse_depends = "['akonadi-search', 'khelpcenter5']"
 license = "GPL"
 +++
-Xapian is an Open Source Search Engine Library.{{< spoiler text="show files" >}}* /usr/bin/copydatabase
+Xapian is an Open Source Search Engine Library.{{< files text="show files" >}}* /usr/bin/copydatabase
 * /usr/bin/quest
 * /usr/bin/simpleexpand
 * /usr/bin/simpleindex
@@ -563,4 +563,4 @@ Xapian is an Open Source Search Engine Library.{{< spoiler text="show files" >}}
 * /usr/share/xapian-core/stopwords/russian.list
 * /usr/share/xapian-core/stopwords/spanish.list
 * /usr/share/xapian-core/stopwords/swedish.list
-{{< /spoiler >}}
+{{< /files >}}

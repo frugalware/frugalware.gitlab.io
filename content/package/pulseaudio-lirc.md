@@ -13,5 +13,5 @@ usize = "14104"
 sha1sum = "0f9a912e593b04e788d43caa899f0076836c949c"
 depends = "['liblirc>=0.9.1-2', 'pulseaudio>=17.0']"
 +++
-lirc module for PulseAudio sound server{{< spoiler text="show files" >}}* /usr/lib/pulseaudio/modules/module-lirc.so
-{{< /spoiler >}}
+lirc module for PulseAudio sound server{{< files text="show files" >}}* /usr/lib/pulseaudio/modules/module-lirc.so
+{{< /files >}}

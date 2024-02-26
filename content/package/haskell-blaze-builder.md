@@ -14,7 +14,7 @@ sha1sum = "94565cc4445036f3779eec70f6bbedeb47759ec3"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-blaze-markup', 'haskell-http-client']"
 +++
-Efficient buffered output{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/blaze-builder-0.4.2.3/Blaze/ByteString/Builder.dyn_hi
+Efficient buffered output{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/blaze-builder-0.4.2.3/Blaze/ByteString/Builder.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/blaze-builder-0.4.2.3/Blaze/ByteString/Builder.hi
 * /usr/lib/ghc-9.8.1/site-local/blaze-builder-0.4.2.3/Blaze/ByteString/Builder/ByteString.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/blaze-builder-0.4.2.3/Blaze/ByteString/Builder/ByteString.hi
@@ -64,4 +64,4 @@ Efficient buffered output{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/s
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/blaze-builder-0.4.2.3/LICENSE
 * /usr/share/haskell/haskell-blaze-builder/register.sh
 * /usr/share/haskell/haskell-blaze-builder/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

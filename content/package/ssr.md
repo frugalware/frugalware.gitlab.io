@@ -13,7 +13,7 @@ usize = "3821381"
 sha1sum = "c6b69381df46a34cc65b5504c4c46b3a6ff4d097"
 depends = "['alsa-lib', 'ffmpeg>=6.0', 'libxinerama', 'pcre2', 'pulseaudio', 'qt5-base>=5.15.10', 'qt5-x11extras>=5.15.10']"
 +++
-Screen recorder for Linux{{< spoiler text="show files" >}}* /usr/bin/simplescreenrecorder
+Screen recorder for Linux{{< files text="show files" >}}* /usr/bin/simplescreenrecorder
 * /usr/bin/ssr-glinject
 * /usr/lib/libssr-glinject.so
 * /usr/share/applications/simplescreenrecorder.desktop
@@ -105,4 +105,4 @@ Screen recorder for Linux{{< spoiler text="show files" >}}* /usr/bin/simplescree
 * /usr/share/simplescreenrecorder/translations/simplescreenrecorder_uk.qm
 * /usr/share/simplescreenrecorder/translations/simplescreenrecorder_zh_CN.qm
 * /usr/share/simplescreenrecorder/translations/simplescreenrecorder_zh_TW.qm
-{{< /spoiler >}}
+{{< /files >}}

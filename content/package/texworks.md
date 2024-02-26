@@ -13,7 +13,7 @@ usize = "6430248"
 sha1sum = "ba1371cec0b6ff5a8f40307a570e37494a451f5d"
 depends = "['ghostscript', 'hunspell>=1.7.0', 'hunspell>=1.6.1', 'lua>=5.4', 'poppler-qt5>=0.60.1-2', 'qt5-base>=5.15.10', 'qt5-script>=5.15.10', 'texlive']"
 +++
-A simple interface for working with TeX documents{{< spoiler text="show files" >}}* /usr/bin/texworks
+A simple interface for working with TeX documents{{< files text="show files" >}}* /usr/bin/texworks
 * /usr/lib/texworks/libTWLuaPlugin.so
 * /usr/share/applications/texworks.desktop
 * /usr/share/doc/texworks-0.6.8/COPYING
@@ -28,4 +28,4 @@ A simple interface for working with TeX documents{{< spoiler text="show files" >
 * /usr/share/icons/hicolor/64x64/apps/TeXworks.png
 * /usr/share/man/man1/texworks.1.gz
 * /usr/share/metainfo/texworks.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

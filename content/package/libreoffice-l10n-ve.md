@@ -13,7 +13,7 @@ usize = "1334360"
 sha1sum = "63150049fe64770cfb792a8089f1ebf7d0d8b8b3"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Venda support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/program/resource/ve/LC_MESSAGES/acc.mo
+Installs Venda support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/ve/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/ve/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/ve/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/ve/LC_MESSAGES/chart.mo
@@ -51,4 +51,4 @@ Installs Venda support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib
 * /usr/lib/libreoffice/share/registry/Langpack-ve.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_ve.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_ve.xcd
-{{< /spoiler >}}
+{{< /files >}}

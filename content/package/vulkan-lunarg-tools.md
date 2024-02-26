@@ -13,7 +13,7 @@ usize = "6336711"
 sha1sum = "9b469360916fa40dd64e8a75ca92344896b822fb"
 depends = "['pcre2', 'qt5-svg>=5.15.10', 'vulkan-icd-loader']"
 +++
-Vulkan Header files and API registry{{< spoiler text="show files" >}}* /usr/bin/vkconfig
+Vulkan Header files and API registry{{< files text="show files" >}}* /usr/bin/vkconfig
 * /usr/lib/libVkLayer_api_dump.so
 * /usr/lib/libVkLayer_monitor.so
 * /usr/lib/libVkLayer_screenshot.so
@@ -21,4 +21,4 @@ Vulkan Header files and API registry{{< spoiler text="show files" >}}* /usr/bin/
 * /usr/share/vulkan/explicit_layer.d/VkLayer_api_dump.json
 * /usr/share/vulkan/explicit_layer.d/VkLayer_monitor.json
 * /usr/share/vulkan/explicit_layer.d/VkLayer_screenshot.json
-{{< /spoiler >}}
+{{< /files >}}

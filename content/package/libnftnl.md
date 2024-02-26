@@ -14,7 +14,7 @@ sha1sum = "90b74bf7272c137ace3b5ed80c94cf87c291ec21"
 depends = "['glibc>=2.35', 'libmnl>=1.0.4-5']"
 reverse_depends = "['iptables', 'nftables']"
 +++
-A low-level netlink programming interface.{{< spoiler text="show files" >}}* /usr/include/libnftnl/batch.h
+A low-level netlink programming interface.{{< files text="show files" >}}* /usr/include/libnftnl/batch.h
 * /usr/include/libnftnl/chain.h
 * /usr/include/libnftnl/common.h
 * /usr/include/libnftnl/expr.h
@@ -32,4 +32,4 @@ A low-level netlink programming interface.{{< spoiler text="show files" >}}* /us
 * /usr/lib/libnftnl.so.11.6.0
 * /usr/lib/pkgconfig/libnftnl.pc
 * /usr/share/doc/libnftnl-1.2.6/COPYING
-{{< /spoiler >}}
+{{< /files >}}

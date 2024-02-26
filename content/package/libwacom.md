@@ -14,7 +14,7 @@ sha1sum = "a2051575e67bf47ba2a9c3b23abd8f73741f2ed5"
 depends = "['glib2>=2.49.7-2', 'libevdev', 'libffi>=3.2.1-2', 'libgudev>=230-7', 'libudev>=231-6']"
 reverse_depends = "['libinput']"
 +++
-Tablet Information Client Library{{< spoiler text="show files" >}}* /usr/bin/libwacom-list-devices
+Tablet Information Client Library{{< files text="show files" >}}* /usr/bin/libwacom-list-devices
 * /usr/bin/libwacom-list-local-devices
 * /usr/bin/libwacom-show-stylus
 * /usr/bin/libwacom-update-db
@@ -511,4 +511,4 @@ Tablet Information Client Library{{< spoiler text="show files" >}}* /usr/bin/lib
 * /usr/share/libwacom/xp-pen-star03.tablet
 * /usr/share/man/man1/libwacom-list-devices.1.gz
 * /usr/share/man/man1/libwacom-list-local-devices.1.gz
-{{< /spoiler >}}
+{{< /files >}}

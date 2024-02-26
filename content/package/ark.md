@@ -13,7 +13,7 @@ usize = "5068202"
 sha1sum = "f77b84e10d3566ea9b3d706a689f2ed35c25b7e4"
 depends = "['kitemmodels>=5.115.0', 'kparts>=5.115.0', 'kpty>=5.115.0', 'libarchive>=3.1.2-8', 'libzip']"
 +++
-KDE Archiving Tool.{{< spoiler text="show files" >}}* /etc/xdg/arkrc
+KDE Archiving Tool.{{< files text="show files" >}}* /etc/xdg/arkrc
 * /usr/bin/ark
 * /usr/lib/libkerfuffle.so.23
 * /usr/lib/libkerfuffle.so.23.08.5
@@ -192,4 +192,4 @@ KDE Archiving Tool.{{< spoiler text="show files" >}}* /etc/xdg/arkrc
 * /usr/share/man/uk/man1/ark.1.gz
 * /usr/share/metainfo/org.kde.ark.appdata.xml
 * /usr/share/qlogging-categories5/ark.categories
-{{< /spoiler >}}
+{{< /files >}}

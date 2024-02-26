@@ -13,7 +13,7 @@ usize = "185585"
 sha1sum = "0dcc549f3f623db6ceda64a00fde61edf94d3f98"
 depends = "['python3-sphinx']"
 +++
-Python API to easily integrate Sphinx documentation into your Web application.{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/sphinxcontrib/websupport/builder.py
+Python API to easily integrate Sphinx documentation into your Web application.{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sphinxcontrib/websupport/builder.py
 * /usr/lib/python3.12/site-packages/sphinxcontrib/websupport/core.py
 * /usr/lib/python3.12/site-packages/sphinxcontrib/websupport/errors.py
 * /usr/lib/python3.12/site-packages/sphinxcontrib/websupport/files/ajax-loader.gif
@@ -65,4 +65,4 @@ Python API to easily integrate Sphinx documentation into your Web application.{{
 * /usr/share/doc/sphinx-websupport-1.2.4/CHANGES
 * /usr/share/doc/sphinx-websupport-1.2.4/LICENSE
 * /usr/share/doc/sphinx-websupport-1.2.4/README.rst
-{{< /spoiler >}}
+{{< /files >}}

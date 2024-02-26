@@ -13,7 +13,7 @@ usize = "36766701"
 sha1sum = "61cdb6d79a4ac5ef9fccbd301821fa848f9163f4"
 depends = "['glibc>=2.34']"
 +++
-A composable build system for OCaml (formerly jbuilder){{< spoiler text="show files" >}}* /usr/bin/dune
+A composable build system for OCaml (formerly jbuilder){{< files text="show files" >}}* /usr/bin/dune
 * /usr/lib/ocaml/dune-action-plugin/dune-package
 * /usr/lib/ocaml/dune-action-plugin/dune_action_plugin.a
 * /usr/lib/ocaml/dune-action-plugin/dune_action_plugin.cma
@@ -1120,4 +1120,4 @@ A composable build system for OCaml (formerly jbuilder){{< spoiler text="show fi
 * /usr/share/man/man1/dune-utop.1.gz
 * /usr/share/man/man1/dune.1.gz
 * /usr/share/man/man5/dune-config.5.gz
-{{< /spoiler >}}
+{{< /files >}}

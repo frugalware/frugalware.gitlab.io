@@ -14,7 +14,7 @@ sha1sum = "b7d0abb63849c60c6f7ed52a037b83d35e2f3f3e"
 depends = "['lib32-binutils>=2.42', 'lib32-fontconfig>=2.12.1-2', 'lib32-freetype2', 'lib32-glib2>=2.60.0', 'lib32-libffi>=3.2.1-2', 'lib32-libpng>=1.6.24', 'lib32-libx11', 'lib32-libxcb', 'lib32-libxext', 'lib32-libxrender>=0.9.9-5', 'lib32-lzo', 'lib32-pixman>=0.32.8-3']"
 reverse_depends = "['lib32-harfbuzz', 'lib32-pango', 'steam-native']"
 +++
-A vector graphics library with cross-device output support ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/cairo-trace
+A vector graphics library with cross-device output support ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/cairo-trace
 * /usr/i686-frugalware-linux/include/cairo/cairo-deprecated.h
 * /usr/i686-frugalware-linux/include/cairo/cairo-features.h
 * /usr/i686-frugalware-linux/include/cairo/cairo-ft.h
@@ -57,4 +57,4 @@ A vector graphics library with cross-device output support ( 32bit ){{< spoiler 
 * /usr/lib32/pkgconfig/cairo-xlib-xrender.pc
 * /usr/lib32/pkgconfig/cairo-xlib.pc
 * /usr/lib32/pkgconfig/cairo.pc
-{{< /spoiler >}}
+{{< /files >}}

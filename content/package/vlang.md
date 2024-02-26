@@ -13,7 +13,7 @@ usize = "26689438"
 sha1sum = "ea2d782a2f0b75c3391e393d1e43eed4fb04ba64"
 depends = "['glibc']"
 +++
-Simple, fast, safe, compiled language for developing maintainable software{{< spoiler text="show files" >}}* /usr/bin/v
+Simple, fast, safe, compiled language for developing maintainable software{{< files text="show files" >}}* /usr/bin/v
 * /usr/lib/vlang/cmd/tools/.disable_autorecompilation
 * /usr/lib/vlang/cmd/tools/bench/wyhash.v
 * /usr/lib/vlang/cmd/tools/builders/c_builder.v
@@ -7046,4 +7046,4 @@ Simple, fast, safe, compiled language for developing maintainable software{{< sp
 * /usr/share/vlang/examples/word_counter/cinderella.txt
 * /usr/share/vlang/examples/word_counter/README.md
 * /usr/share/vlang/examples/word_counter/word_counter.v
-{{< /spoiler >}}
+{{< /files >}}

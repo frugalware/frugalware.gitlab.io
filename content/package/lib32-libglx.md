@@ -13,6 +13,6 @@ usize = "336753"
 sha1sum = "03bffae3e87a3cb166dcdf8244fcf2597243eb84"
 depends = "['lib32-libgl']"
 +++
-Glx library for XOrg. (32-bit){{< spoiler text="show files" >}}* /usr/lib32/xorg/modules/extensions/libglx.la
+Glx library for XOrg. (32-bit){{< files text="show files" >}}* /usr/lib32/xorg/modules/extensions/libglx.la
 * /usr/lib32/xorg/modules/extensions/libglx.so
-{{< /spoiler >}}
+{{< /files >}}

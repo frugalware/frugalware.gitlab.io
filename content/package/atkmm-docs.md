@@ -13,7 +13,7 @@ usize = "2789312"
 sha1sum = "e773317ba5cc00d3f9097140774293cc98aee3c4"
 depends = "[]"
 +++
-atkmm Documentation{{< spoiler text="show files" >}}* /usr/share/doc/atkmm-2.36/reference/atkmm-2.36.tag
+atkmm Documentation{{< files text="show files" >}}* /usr/share/doc/atkmm-2.36/reference/atkmm-2.36.tag
 * /usr/share/doc/atkmm-2.36/reference/html/annotated.html
 * /usr/share/doc/atkmm-2.36/reference/html/bc_s.png
 * /usr/share/doc/atkmm-2.36/reference/html/bc_sd.png
@@ -236,4 +236,4 @@ atkmm Documentation{{< spoiler text="show files" >}}* /usr/share/doc/atkmm-2.36/
 * /usr/share/doc/atkmm-2.36/reference/html/tab_hd.png
 * /usr/share/doc/atkmm-2.36/reference/html/tab_s.png
 * /usr/share/doc/atkmm-2.36/reference/html/tab_sd.png
-{{< /spoiler >}}
+{{< /files >}}

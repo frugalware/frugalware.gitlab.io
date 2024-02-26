@@ -14,7 +14,7 @@ sha1sum = "4455d6b2fa2023944d3386265341cc539abcb954"
 depends = "['cracklib>=2.9.5-6', 'pam>=1.1.8-4', 'python3']"
 reverse_depends = "['calamares-frugalware', 'seahorse', 'zulucrypt']"
 +++
-A library for password generation and password quality checking{{< spoiler text="show files" >}}* /etc/security/pwquality.conf
+A library for password generation and password quality checking{{< files text="show files" >}}* /etc/security/pwquality.conf
 * /usr/bin/pwmake
 * /usr/bin/pwscore
 * /usr/include/pwquality.h
@@ -95,4 +95,4 @@ A library for password generation and password quality checking{{< spoiler text=
 * /usr/share/man/man3/pwquality.3.gz
 * /usr/share/man/man5/pwquality.conf.5.gz
 * /usr/share/man/man8/pam_pwquality.8.gz
-{{< /spoiler >}}
+{{< /files >}}

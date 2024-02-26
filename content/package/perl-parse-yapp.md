@@ -14,7 +14,7 @@ sha1sum = "093c26fe5f980013217efe275389f386693cc9c0"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['samba']"
 +++
-Parse::YappGenerates OO LALR parser modules{{< spoiler text="show files" >}}* /usr/bin/site_perl/yapp
+Parse::YappGenerates OO LALR parser modules{{< files text="show files" >}}* /usr/bin/site_perl/yapp
 * /usr/bin/yapp
 * /usr/lib/perl5/site_perl/Parse/Yapp.pm
 * /usr/lib/perl5/site_perl/Parse/Yapp/Driver.pm
@@ -28,4 +28,4 @@ Parse::YappGenerates OO LALR parser modules{{< spoiler text="show files" >}}* /u
 * /usr/share/doc/perl-parse-yapp-1.21/README.md
 * /usr/share/man/man1/yapp.1perl.gz
 * /usr/share/man/man3/Parse::Yapp.3.gz
-{{< /spoiler >}}
+{{< /files >}}

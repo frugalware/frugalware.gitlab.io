@@ -14,7 +14,7 @@ sha1sum = "bb7c9833491b6d1c4936e02f45f7d89b6cb7c745"
 depends = "['gst1-plugins-base>=1.9.2-2', 'libffi>=3.2.1-2', 'nice>=0.1.16']"
 reverse_depends = "['libpurple', 'telepathy-farstream', 'telepathy-qt5']"
 +++
-Farstream - Audio/Video Communications Framework{{< spoiler text="show files" >}}* /usr/include/farstream-0.2/farstream/fs-candidate.h
+Farstream - Audio/Video Communications Framework{{< files text="show files" >}}* /usr/include/farstream-0.2/farstream/fs-candidate.h
 * /usr/include/farstream-0.2/farstream/fs-codec.h
 * /usr/include/farstream-0.2/farstream/fs-conference.h
 * /usr/include/farstream-0.2/farstream/fs-element-added-notifier.h
@@ -109,4 +109,4 @@ Farstream - Audio/Video Communications Framework{{< spoiler text="show files" >}
 * /usr/share/gtk-doc/html/farstream-plugins-0.2/style.css
 * /usr/share/gtk-doc/html/farstream-plugins-0.2/up-insensitive.png
 * /usr/share/gtk-doc/html/farstream-plugins-0.2/up.png
-{{< /spoiler >}}
+{{< /files >}}

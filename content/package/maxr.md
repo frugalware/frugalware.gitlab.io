@@ -13,7 +13,7 @@ usize = "38817864"
 sha1sum = "6c4cad595856779de51a88ff84d0091379f1b76c"
 depends = "['sdl2_mixer', 'sdl2_net']"
 +++
-OpenSource reimplementation for M.A.X.{{< spoiler text="show files" >}}* /usr/bin/maxr
+OpenSource reimplementation for M.A.X.{{< files text="show files" >}}* /usr/bin/maxr
 * /usr/share/applications/maxr.desktop
 * /usr/share/doc/maxr-0.2.14/README.md
 * /usr/share/maxr/ABOUT
@@ -1306,4 +1306,4 @@ OpenSource reimplementation for M.A.X.{{< spoiler text="show files" >}}* /usr/bi
 * /usr/share/maxr/vehicles/trans_oil/video.flc
 * /usr/share/maxr/vehicles/vehicles.json
 * /usr/share/maxr/voices/.empty
-{{< /spoiler >}}
+{{< /files >}}

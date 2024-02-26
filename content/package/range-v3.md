@@ -13,7 +13,7 @@ usize = "2099244"
 sha1sum = "c124526ae5a30d4e1ffd0e27677d7a6892cdc2c8"
 depends = "['glibc>=2.34']"
 +++
-Experimental range library for C++11/14/17{{< spoiler text="show files" >}}* /usr/include/concepts/compare.hpp
+Experimental range library for C++11/14/17{{< files text="show files" >}}* /usr/include/concepts/compare.hpp
 * /usr/include/concepts/concepts.hpp
 * /usr/include/concepts/swap.hpp
 * /usr/include/concepts/type_traits.hpp
@@ -336,4 +336,4 @@ Experimental range library for C++11/14/17{{< spoiler text="show files" >}}* /us
 * /usr/lib/cmake/range-v3/range-v3-config.cmake
 * /usr/lib/cmake/range-v3/range-v3-targets.cmake
 * /usr/share/doc/range-v3-0.12.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

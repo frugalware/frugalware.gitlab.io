@@ -14,7 +14,7 @@ sha1sum = "ab2153a00e545a43404ff455202fca17a09750ba"
 depends = "['libstdc++>=11.3']"
 reverse_depends = "['libreoffice']"
 +++
-Number to number name and money text conversion library{{< spoiler text="show files" >}}* /usr/bin/spellout
+Number to number name and money text conversion library{{< files text="show files" >}}* /usr/bin/spellout
 * /usr/include/libnumbertext/numbertext-version.h
 * /usr/include/libnumbertext/Numbertext.hxx
 * /usr/include/libnumbertext/Soros.hxx
@@ -79,4 +79,4 @@ Number to number name and money text conversion library{{< spoiler text="show fi
 * /usr/share/libnumbertext/uk.sor
 * /usr/share/libnumbertext/vi.sor
 * /usr/share/libnumbertext/zh.sor
-{{< /spoiler >}}
+{{< /files >}}

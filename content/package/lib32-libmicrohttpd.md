@@ -13,9 +13,9 @@ usize = "351952"
 sha1sum = "8ea630e9646010c66ef094b49f03410a45087149"
 depends = "['lib32-curl>=7.58.0-2', 'lib32-file>=5.25-4', 'lib32-gnutls>=3.5.17-2', 'lib32-libffi>=3.2.1-7', 'lib32-libgcrypt>=1.8.2-2']"
 +++
-C library that make easy to run an HTTP server as part of an application ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/include/microhttpd.h
+C library that make easy to run an HTTP server as part of an application ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/microhttpd.h
 * /usr/lib32/libmicrohttpd.so
 * /usr/lib32/libmicrohttpd.so.12
 * /usr/lib32/libmicrohttpd.so.12.61.0
 * /usr/lib32/pkgconfig/libmicrohttpd.pc
-{{< /spoiler >}}
+{{< /files >}}

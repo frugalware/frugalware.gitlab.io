@@ -14,7 +14,7 @@ sha1sum = "01a75ae6a905eb354a02635c3a4c6a4a721bec27"
 depends = "['glibc>=2.34']"
 reverse_depends = "['konqueror']"
 +++
-Tidy the layout and correct errors in HTML, XHTML and XML documents{{< spoiler text="show files" >}}* /usr/bin/tidy
+Tidy the layout and correct errors in HTML, XHTML and XML documents{{< files text="show files" >}}* /usr/bin/tidy
 * /usr/include/buffio.h
 * /usr/include/platform.h
 * /usr/include/tidy.h
@@ -27,4 +27,4 @@ Tidy the layout and correct errors in HTML, XHTML and XML documents{{< spoiler t
 * /usr/lib/pkgconfig/tidy.pc
 * /usr/share/doc/tidy-5.8.0/README.md
 * /usr/share/man/man1/tidy.1.gz
-{{< /spoiler >}}
+{{< /files >}}

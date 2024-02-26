@@ -13,7 +13,7 @@ usize = "1213907"
 sha1sum = "bbd098f526f01eff0c8c7ee141433096f0098413"
 depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kirigami-addons', 'plasma-framework', 'qt5-multimedia']"
 +++
-Clock app for Plasma Mobile{{< spoiler text="show files" >}}* /etc/xdg/autostart/org.kde.kclockd-autostart.desktop
+Clock app for Plasma Mobile{{< files text="show files" >}}* /etc/xdg/autostart/org.kde.kclockd-autostart.desktop
 * /usr/bin/kclock
 * /usr/bin/kclockd
 * /usr/lib/qt5/plugins/plasma/applets/plasma_applet_kclock_1x2.so
@@ -99,4 +99,4 @@ Clock app for Plasma Mobile{{< spoiler text="show files" >}}* /etc/xdg/autostart
 * /usr/share/plasma/plasmoids/org.kde.plasma.kclock_1x2/contents/ui/main.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.kclock_1x2/metadata.json
 * /usr/share/plasma/plasmoids/org.kde.plasma.kclock_1x2/metadata.json.license
-{{< /spoiler >}}
+{{< /files >}}

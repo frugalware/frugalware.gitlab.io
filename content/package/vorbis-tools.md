@@ -13,7 +13,7 @@ usize = "768025"
 sha1sum = "eda1900e9f21c91f7e317fe681461b26c53d09d4"
 depends = "['curl>=7.50.3-2', 'flac>=1.4.0', 'libao>=1.2.0-5', 'libvorbis>=1.3.5-5', 'speex>=1.2rc2-5']"
 +++
-Tools to play, encode and manage Ogg Vorbis files{{< spoiler text="show files" >}}* /usr/bin/ogg123
+Tools to play, encode and manage Ogg Vorbis files{{< files text="show files" >}}* /usr/bin/ogg123
 * /usr/bin/oggdec
 * /usr/bin/oggenc
 * /usr/bin/ogginfo
@@ -47,4 +47,4 @@ Tools to play, encode and manage Ogg Vorbis files{{< spoiler text="show files" >
 * /usr/share/man/man1/ogginfo.1.gz
 * /usr/share/man/man1/vcut.1.gz
 * /usr/share/man/man1/vorbiscomment.1.gz
-{{< /spoiler >}}
+{{< /files >}}

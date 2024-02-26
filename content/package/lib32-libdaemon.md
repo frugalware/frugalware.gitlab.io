@@ -14,7 +14,7 @@ sha1sum = "4db05bcf0e9170300eee620da7527e3c1f8ecc9f"
 depends = "[]"
 reverse_depends = "['lib32-avahi']"
 +++
-libdaemon is a lightweight C library that eases the writing of UNIX daemons. ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/include/libdaemon/daemon.h
+libdaemon is a lightweight C library that eases the writing of UNIX daemons. ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/libdaemon/daemon.h
 * /usr/i686-frugalware-linux/include/libdaemon/dexec.h
 * /usr/i686-frugalware-linux/include/libdaemon/dfork.h
 * /usr/i686-frugalware-linux/include/libdaemon/dlog.h
@@ -25,4 +25,4 @@ libdaemon is a lightweight C library that eases the writing of UNIX daemons. ( 3
 * /usr/lib32/libdaemon.so.0
 * /usr/lib32/libdaemon.so.0.5.0
 * /usr/lib32/pkgconfig/libdaemon.pc
-{{< /spoiler >}}
+{{< /files >}}

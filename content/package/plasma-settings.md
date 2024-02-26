@@ -14,7 +14,7 @@ sha1sum = "8a87204263eaa875354a3704c86f39b3c570d395"
 depends = "['kirigami-addons', 'modemmanager-qt', 'networkmanager-qt', 'plasma-framework>=']"
 reverse_depends = "['plasma-bigscreen']"
 +++
-Settings application for Plasma Mobile{{< spoiler text="show files" >}}* /usr/bin/plasma-settings
+Settings application for Plasma Mobile{{< files text="show files" >}}* /usr/bin/plasma-settings
 * /usr/lib/qt5/plugins/kcms/kcm_cellular_network.so
 * /usr/lib/qt5/plugins/kcms/kcm_mobile_info.so
 * /usr/lib/qt5/plugins/kcms/kcm_mobile_onscreenkeyboard.so
@@ -249,4 +249,4 @@ Settings application for Plasma Mobile{{< spoiler text="show files" >}}* /usr/bi
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_mobile_time.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_mobile_virtualkeyboard.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/mobile.plasmasettings.mo
-{{< /spoiler >}}
+{{< /files >}}

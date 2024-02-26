@@ -14,7 +14,7 @@ sha1sum = "4bdfd7c200c353ae97c05218528fc348d154d546"
 depends = "['flac>=1.3.1-2', 'libsndfile>=1.0.26-2']"
 reverse_depends = "['guvcview', 'mpd', 'vlc-twolame']"
 +++
-An optimised MPEG Audio Layer 2 (MP2) encoder based on tooLAME and LAME.{{< spoiler text="show files" >}}* /usr/bin/twolame
+An optimised MPEG Audio Layer 2 (MP2) encoder based on tooLAME and LAME.{{< files text="show files" >}}* /usr/bin/twolame
 * /usr/include/twolame.h
 * /usr/lib/libtwolame.so
 * /usr/lib/libtwolame.so.0
@@ -30,4 +30,4 @@ An optimised MPEG Audio Layer 2 (MP2) encoder based on tooLAME and LAME.{{< spoi
 * /usr/share/doc/twolame-0.4.0/README
 * /usr/share/doc/twolame-0.4.0/vbr.txt
 * /usr/share/man/man1/twolame.1.gz
-{{< /spoiler >}}
+{{< /files >}}

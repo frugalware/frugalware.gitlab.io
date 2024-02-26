@@ -13,7 +13,7 @@ usize = "11010812"
 sha1sum = "e7e71f390952ef7174c14f42ed50ae8b6ee0064a"
 depends = "['binutils>=2.40', 'elfutils', 'libtraceevent', 'python3>=3.11', 'slang', 'xz']"
 +++
-Kernel performance profiling tool{{< spoiler text="show files" >}}* /etc/bash_completion.d/perf
+Kernel performance profiling tool{{< files text="show files" >}}* /etc/bash_completion.d/perf
 * /usr/bin/perf
 * /usr/bin/perf-read-vdso32
 * /usr/bin/trace
@@ -250,4 +250,4 @@ Kernel performance profiling tool{{< spoiler text="show files" >}}* /etc/bash_co
 * /usr/share/man/man1/perf.1.gz
 * /usr/share/perf-core/strace/groups/file
 * /usr/share/perf-core/strace/groups/string
-{{< /spoiler >}}
+{{< /files >}}

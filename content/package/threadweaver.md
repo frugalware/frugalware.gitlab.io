@@ -14,7 +14,7 @@ sha1sum = "599e3ae0744352d1cd0264d428408f8544398a75"
 depends = "['qt5-base>=5.15.12']"
 reverse_depends = "['kasts', 'kate', 'krunner5', 'okular']"
 +++
-KDE Helper for multithreaded programming.{{< spoiler text="show files" >}}* /usr/include/KF5/ThreadWeaver/ThreadWeaver/Collection
+KDE Helper for multithreaded programming.{{< files text="show files" >}}* /usr/include/KF5/ThreadWeaver/ThreadWeaver/Collection
 * /usr/include/KF5/ThreadWeaver/threadweaver/collection.h
 * /usr/include/KF5/ThreadWeaver/ThreadWeaver/DebuggingAids
 * /usr/include/KF5/ThreadWeaver/threadweaver/debuggingaids.h
@@ -92,4 +92,4 @@ KDE Helper for multithreaded programming.{{< spoiler text="show files" >}}* /usr
 * /usr/share/doc/threadweaver-5.115.0/COPYING.LIB
 * /usr/share/doc/threadweaver-5.115.0/README.md
 * /usr/share/qt5/mkspecs/modules/qt_ThreadWeaver.pri
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "393780"
 sha1sum = "872b28654501596b608be7955dc83dbb9085f096"
 depends = "['glibc>=2.34']"
 +++
-OpenCL (Open Computing Language) header files{{< spoiler text="show files" >}}* /usr/include/CL/cl.h
+OpenCL (Open Computing Language) header files{{< files text="show files" >}}* /usr/include/CL/cl.h
 * /usr/include/CL/cl_d3d10.h
 * /usr/include/CL/cl_d3d11.h
 * /usr/include/CL/cl_dx9_media_sharing.h
@@ -37,4 +37,4 @@ OpenCL (Open Computing Language) header files{{< spoiler text="show files" >}}* 
 * /usr/share/doc/opencl-headers-2023.12.14/LICENSE
 * /usr/share/doc/opencl-headers-2023.12.14/README.md
 * /usr/share/pkgconfig/OpenCL-Headers.pc
-{{< /spoiler >}}
+{{< /files >}}

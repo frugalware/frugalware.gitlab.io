@@ -13,7 +13,7 @@ usize = "11243529"
 sha1sum = "a7d71323c45854de99f13c0a8b0e13c95fa32c93"
 depends = "['qt5-script>=5.15.10', 'qt5-svg>=5.15.10']"
 +++
-A sqlite database manager{{< spoiler text="show files" >}}* /usr/bin/sqlitestudio
+A sqlite database manager{{< files text="show files" >}}* /usr/bin/sqlitestudio
 * /usr/bin/sqlitestudiocli
 * /usr/lib/libcoreSQLiteStudio.so
 * /usr/lib/libcoreSQLiteStudio.so.1
@@ -27,4 +27,4 @@ A sqlite database manager{{< spoiler text="show files" >}}* /usr/bin/sqlitestudi
 * /usr/share/doc/sqlitestudio-3.4.4/LICENSE
 * /usr/share/doc/sqlitestudio-3.4.4/README.md
 * /usr/share/icons/hicolor/scalable/apps/sqlitestudio.svg
-{{< /spoiler >}}
+{{< /files >}}

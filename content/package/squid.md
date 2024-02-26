@@ -13,7 +13,7 @@ usize = "8393760"
 sha1sum = "b1fff9eed0a05b0aba6e4c8e2ba569987f4f5ccb"
 depends = "['dcron', 'gnutls', 'libtool', 'libxcrypt', 'nettle>=3.6']"
 +++
-Squid Web Proxy Cache{{< spoiler text="show files" >}}* /etc/cron.weekly/squid
+Squid Web Proxy Cache{{< files text="show files" >}}* /etc/cron.weekly/squid
 * /etc/squid/cachemgr.conf
 * /etc/squid/cachemgr.conf.default
 * /etc/squid/errorpage.css
@@ -186,4 +186,4 @@ Squid Web Proxy Cache{{< spoiler text="show files" >}}* /etc/cron.weekly/squid
 * /usr/share/squid/icons/silk/script_palette.png
 * /usr/share/squid/icons/SN.png
 * /usr/share/squid/mib.txt
-{{< /spoiler >}}
+{{< /files >}}

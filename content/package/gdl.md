@@ -14,7 +14,7 @@ sha1sum = "c36978dfc7db5c0318d7d19ffaaa680a18541adf"
 depends = "['gtk+3']"
 reverse_depends = "['inkscape']"
 +++
-Gnome Docking library.{{< spoiler text="show files" >}}* /usr/include/libgdl-3.0/gdl/gdl-dock-bar.h
+Gnome Docking library.{{< files text="show files" >}}* /usr/include/libgdl-3.0/gdl/gdl-dock-bar.h
 * /usr/include/libgdl-3.0/gdl/gdl-dock-item-grip.h
 * /usr/include/libgdl-3.0/gdl/gdl-dock-item.h
 * /usr/include/libgdl-3.0/gdl/gdl-dock-layout.h
@@ -143,4 +143,4 @@ Gnome Docking library.{{< spoiler text="show files" >}}* /usr/include/libgdl-3.0
 * /usr/share/locale/zh_CN/LC_MESSAGES/gdl-3.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/gdl-3.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/gdl-3.mo
-{{< /spoiler >}}
+{{< /files >}}

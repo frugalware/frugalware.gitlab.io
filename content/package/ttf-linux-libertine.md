@@ -13,7 +13,7 @@ usize = "13058561"
 sha1sum = "a58d4ea7bb926c703a4ccadc41d3e7a9fb92fb9d"
 depends = "['fontconfig', 'mkfontscale']"
 +++
-Serif (Libertine) and Sans Serif (Biolinum) OpenType fonts with large Unicode coverage.{{< spoiler text="show files" >}}* /usr/share/doc/ttf-linux-libertine-5.3.0_2012_07_02/INSTALL.txt
+Serif (Libertine) and Sans Serif (Biolinum) OpenType fonts with large Unicode coverage.{{< files text="show files" >}}* /usr/share/doc/ttf-linux-libertine-5.3.0_2012_07_02/INSTALL.txt
 * /usr/share/doc/ttf-linux-libertine-5.3.0_2012_07_02/README
 * /usr/share/doc/ttf-linux-libertine-5.3.0_2012_07_02/Readme-TEX.txt
 * /usr/share/fonts/X11/TTF/LinBiolinum_K.otf
@@ -42,4 +42,4 @@ Serif (Libertine) and Sans Serif (Biolinum) OpenType fonts with large Unicode co
 * /usr/share/fonts/X11/TTF/LinLibertine_RZah.ttf
 * /usr/share/fonts/X11/TTF/LinLibertine_RZI.otf
 * /usr/share/fonts/X11/TTF/LinLibertine_RZIah.ttf
-{{< /spoiler >}}
+{{< /files >}}

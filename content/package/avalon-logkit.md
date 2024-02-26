@@ -14,5 +14,5 @@ sha1sum = "59c38f739f2577a5b988599f7b2874c83f7e7644"
 depends = "['apache-log4j1', 'gnumail', 'servletapi']"
 reverse_depends = "['avalon-framework']"
 +++
-Easy-to-use Java logging toolkit{{< spoiler text="show files" >}}* /usr/share/java/avalon-logkit.jar
-{{< /spoiler >}}
+Easy-to-use Java logging toolkit{{< files text="show files" >}}* /usr/share/java/avalon-logkit.jar
+{{< /files >}}

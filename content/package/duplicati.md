@@ -13,7 +13,7 @@ usize = "127890220"
 sha1sum = "1f03a21965614415b1164c134241f3760872fa41"
 depends = "['gtk2-sharp']"
 +++
-A free backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers{{< spoiler text="show files" >}}* /opt/duplicati/acknowledgements.txt
+A free backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers{{< files text="show files" >}}* /opt/duplicati/acknowledgements.txt
 * /opt/duplicati/AlphaFS.dll
 * /opt/duplicati/AlphaVSS.Common.dll
 * /opt/duplicati/alphavss/AlphaVSS.Common.dll
@@ -752,4 +752,4 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /usr/lib/systemd/user/duplicati.service
 * /usr/lib/sysusers.d/duplicati.conf
 * /usr/share/doc/duplicati-2.0.7.100/README.txt
-{{< /spoiler >}}
+{{< /files >}}

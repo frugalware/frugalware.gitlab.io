@@ -14,7 +14,7 @@ sha1sum = "d3e1bb5626b632436d828872eb384d0045b0c91c"
 depends = "['python3']"
 reverse_depends = "['python3-trio']"
 +++
-Sniff out which async library your code is running under{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/sniffio-1.3.0-py3.12.egg-info/dependency_links.txt
+Sniff out which async library your code is running under{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sniffio-1.3.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/sniffio-1.3.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/sniffio-1.3.0-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/sniffio-1.3.0-py3.12.egg-info/top_level.txt
@@ -31,4 +31,4 @@ Sniff out which async library your code is running under{{< spoiler text="show f
 * /usr/lib/python3.12/site-packages/sniffio/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-sniffio-1.3.0/LICENSE
 * /usr/share/doc/python3-sniffio-1.3.0/README.rst
-{{< /spoiler >}}
+{{< /files >}}

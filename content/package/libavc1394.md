@@ -14,7 +14,7 @@ sha1sum = "da9e4c6615d0d3cbfb1d0ba5fa7257161a804c89"
 depends = "['libraw1394>=2.1.2-6']"
 reverse_depends = "['gst1-plugins-good-avc1394', 'vlc-dv1394']"
 +++
-A library to control A/V devices using the 1394ta AV/C commands.{{< spoiler text="show files" >}}* /usr/bin/dvcont
+A library to control A/V devices using the 1394ta AV/C commands.{{< files text="show files" >}}* /usr/bin/dvcont
 * /usr/bin/mkrfc2734
 * /usr/bin/panelctl
 * /usr/include/libavc1394/avc1394.h
@@ -37,4 +37,4 @@ A library to control A/V devices using the 1394ta AV/C commands.{{< spoiler text
 * /usr/share/man/man1/dvcont.1.gz
 * /usr/share/man/man1/mkrfc2734.1.gz
 * /usr/share/man/man1/panelctl.1.gz
-{{< /spoiler >}}
+{{< /files >}}

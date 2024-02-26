@@ -13,7 +13,7 @@ usize = "515042"
 sha1sum = "fdb72113c429aed381cff1c6ef4ccfb3f495a1b5"
 depends = "['clight', 'qt5-charts>=5.15.10']"
 +++
-Qt GUI for Clight{{< spoiler text="show files" >}}* /usr/bin/clight-gui
+Qt GUI for Clight{{< files text="show files" >}}* /usr/bin/clight-gui
 * /usr/share/doc/clight-gui-4.8/LICENSE
 * /usr/share/doc/clight-gui-4.8/README.md
 * /usr/share/icons/hicolor/scalable/status/brightness-high-dark.svg
@@ -24,4 +24,4 @@ Qt GUI for Clight{{< spoiler text="show files" >}}* /usr/bin/clight-gui
 * /usr/share/icons/hicolor/scalable/status/brightness-minus-light.svg
 * /usr/share/icons/hicolor/scalable/status/brightness-plus-dark.svg
 * /usr/share/icons/hicolor/scalable/status/brightness-plus-light.svg
-{{< /spoiler >}}
+{{< /files >}}

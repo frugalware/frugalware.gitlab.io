@@ -13,5 +13,5 @@ usize = "14456"
 sha1sum = "3a6dc8a0007c8d79af070f287c236849d56c7c1c"
 depends = "['systemd', 'uwsgi']"
 +++
-UWSGI Sysemd Logging Plugin{{< spoiler text="show files" >}}* /usr/lib/uwsgi/systemd_logger_plugin.so
-{{< /spoiler >}}
+UWSGI Sysemd Logging Plugin{{< files text="show files" >}}* /usr/lib/uwsgi/systemd_logger_plugin.so
+{{< /files >}}

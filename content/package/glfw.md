@@ -14,7 +14,7 @@ sha1sum = "2cd96a7df4e9431cf5b340bd07de900cbe68ef87"
 depends = "['libwayland-egl', 'libxkbcommon', 'vulkan-icd-loader']"
 reverse_depends = "['box2d', 'embree', 'geogram', 'mupdf-gl', 'ospray']"
 +++
-A free, open source, portable framework for OpenGL application development.{{< spoiler text="show files" >}}* /usr/include/GLFW/glfw3.h
+A free, open source, portable framework for OpenGL application development.{{< files text="show files" >}}* /usr/include/GLFW/glfw3.h
 * /usr/include/GLFW/glfw3native.h
 * /usr/lib/cmake/glfw3/glfw3Config.cmake
 * /usr/lib/cmake/glfw3/glfw3ConfigVersion.cmake
@@ -25,4 +25,4 @@ A free, open source, portable framework for OpenGL application development.{{< s
 * /usr/lib/libglfw.so.3.4
 * /usr/lib/pkgconfig/glfw3.pc
 * /usr/share/doc/glfw-3.4/README.md
-{{< /spoiler >}}
+{{< /files >}}

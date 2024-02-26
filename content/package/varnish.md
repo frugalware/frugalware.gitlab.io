@@ -13,7 +13,7 @@ usize = "3589582"
 sha1sum = "45bda2cef9b05654940bf1058e1e2917412e2d0b"
 depends = "['pcre']"
 +++
-Varnish is an high-performance HTTP accelerator.{{< spoiler text="show files" >}}* /etc/varnish.conf
+Varnish is an high-performance HTTP accelerator.{{< files text="show files" >}}* /etc/varnish.conf
 * /usr/bin/varnishadm
 * /usr/bin/varnishd
 * /usr/bin/varnishhist
@@ -172,4 +172,4 @@ Varnish is an high-performance HTTP accelerator.{{< spoiler text="show files" >}
 * /usr/share/varnish/vcl/devicedetect.vcl
 * /usr/share/varnish/vmodtool.py
 * /usr/share/varnish/vsctool.py
-{{< /spoiler >}}
+{{< /files >}}

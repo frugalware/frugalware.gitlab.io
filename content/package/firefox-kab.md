@@ -14,5 +14,5 @@ sha1sum = "476fb7ca471ef83b1285145ac6b705161dc7a9d2"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Kabyle language support for Firefox{{< spoiler text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-kab@firefox.mozilla.org.xpi
-{{< /spoiler >}}
+Kabyle language support for Firefox{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-kab@firefox.mozilla.org.xpi
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "05de5b576fbe5160abe4a3ad801bfe9e69b9c2f5"
 depends = "['ncurses>=6.1']"
 reverse_depends = "['cdrdao', 'ffmpeg', 'ffmpeg4.4', 'gtk-handbrake', 'mencoder', 'mlt', 'mplayer', 'realrekord', 'sox']"
 +++
-An LGPL MP3 encoder.{{< spoiler text="show files" >}}* /usr/bin/lame
+An LGPL MP3 encoder.{{< files text="show files" >}}* /usr/bin/lame
 * /usr/include/lame/lame.h
 * /usr/lib/libmp3lame.so
 * /usr/lib/libmp3lame.so.0
@@ -43,4 +43,4 @@ An LGPL MP3 encoder.{{< spoiler text="show files" >}}* /usr/bin/lame
 * /usr/share/doc/lame/html/usage.html
 * /usr/share/doc/lame/html/vbr.html
 * /usr/share/man/man1/lame.1.gz
-{{< /spoiler >}}
+{{< /files >}}

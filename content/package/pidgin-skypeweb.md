@@ -13,7 +13,7 @@ usize = "207225"
 sha1sum = "f00c84a3f550437f82fab2023ec0b8c3070dad9b"
 depends = "['json-glib', 'libpurple']"
 +++
-This is a Skype chat plugin for Pidgin and libpurple messengers.{{< spoiler text="show files" >}}* /usr/lib/purple-2/libskypeweb.so
+This is a Skype chat plugin for Pidgin and libpurple messengers.{{< files text="show files" >}}* /usr/lib/purple-2/libskypeweb.so
 * /usr/share/doc/pidgin-skypeweb-1.7/README.md
 * /usr/share/pixmaps/pidgin/emotes/skype/theme
 * /usr/share/pixmaps/pidgin/protocols/16/skype.png
@@ -22,4 +22,4 @@ This is a Skype chat plugin for Pidgin and libpurple messengers.{{< spoiler text
 * /usr/share/pixmaps/pidgin/protocols/22/skypeout.png
 * /usr/share/pixmaps/pidgin/protocols/48/skype.png
 * /usr/share/pixmaps/pidgin/protocols/48/skypeout.png
-{{< /spoiler >}}
+{{< /files >}}

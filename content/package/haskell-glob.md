@@ -14,7 +14,7 @@ sha1sum = "7a258f0c1d01e1b72189011255030e34106f9a32"
 depends = "['haskell-dlist', 'haskell-transformers-compat>=0.7']"
 reverse_depends = "['pandoc']"
 +++
-Globbing library{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/Glob-0.10.2/libHSGlob-0.10.2-GdwChcAsgFw7Si8wXHRSgw.a
+Globbing library{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/Glob-0.10.2/libHSGlob-0.10.2-GdwChcAsgFw7Si8wXHRSgw.a
 * /usr/lib/ghc-9.8.1/site-local/Glob-0.10.2/System/FilePath/Glob.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/Glob-0.10.2/System/FilePath/Glob.hi
 * /usr/lib/ghc-9.8.1/site-local/Glob-0.10.2/System/FilePath/Glob/Base.dyn_hi
@@ -44,4 +44,4 @@ Globbing library{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/Glob-0.10.2/LICENSE.txt
 * /usr/share/haskell/haskell-glob/register.sh
 * /usr/share/haskell/haskell-glob/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

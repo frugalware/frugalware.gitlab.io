@@ -14,7 +14,7 @@ sha1sum = "91db2b392ed0030adddeb035f48d70ba5c26d357"
 depends = "['glibc>=2.34']"
 reverse_depends = "['laptop-mode-tools']"
 +++
-Utilities for using ACPI power management{{< spoiler text="show files" >}}* /etc/acpi/acpi_handler.sh
+Utilities for using ACPI power management{{< files text="show files" >}}* /etc/acpi/acpi_handler.sh
 * /etc/acpi/events/default
 * /etc/sysconfig/acpid
 * /usr/bin/acpid
@@ -29,4 +29,4 @@ Utilities for using ACPI power management{{< spoiler text="show files" >}}* /etc
 * /usr/share/man/man8/acpid.8.gz
 * /usr/share/man/man8/acpi_listen.8.gz
 * /usr/share/man/man8/kacpimon.8.gz
-{{< /spoiler >}}
+{{< /files >}}

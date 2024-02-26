@@ -14,7 +14,7 @@ sha1sum = "f2b45880fa738644378cdfff8d73dae9946cbd46"
 depends = "['icu4c>=74.1', 'libpng', 'librevenge']"
 reverse_depends = "['libreoffice']"
 +++
-libzmf import filter library{{< spoiler text="show files" >}}* /usr/bin/zmf2raw
+libzmf import filter library{{< files text="show files" >}}* /usr/bin/zmf2raw
 * /usr/bin/zmf2svg
 * /usr/include/libzmf-0.0/libzmf/libzmf.h
 * /usr/include/libzmf-0.0/libzmf/ZMFDocument.h
@@ -27,4 +27,4 @@ libzmf import filter library{{< spoiler text="show files" >}}* /usr/bin/zmf2raw
 * /usr/share/doc/libzmf-0.0.2/COPYING
 * /usr/share/doc/libzmf-0.0.2/NEWS
 * /usr/share/doc/libzmf-0.0.2/README
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "35bd98efa2aadf12cef861386fb25306b192491c"
 depends = "['abseil-cpp>=20230125', 'libstdc++>=11.2']"
 reverse_depends = "['pipewire']"
 +++
-AudioProcessing library based on Google's implementation of WebRTC{{< spoiler text="show files" >}}* /usr/include/webrtc-audio-processing-1/api/array_view.h
+AudioProcessing library based on Google's implementation of WebRTC{{< files text="show files" >}}* /usr/include/webrtc-audio-processing-1/api/array_view.h
 * /usr/include/webrtc-audio-processing-1/api/audio/echo_canceller3_config.h
 * /usr/include/webrtc-audio-processing-1/api/audio/echo_control.h
 * /usr/include/webrtc-audio-processing-1/api/scoped_refptr.h
@@ -49,4 +49,4 @@ AudioProcessing library based on Google's implementation of WebRTC{{< spoiler te
 * /usr/share/doc/webrtc-audio-processing-1-1.3/NEWS
 * /usr/share/doc/webrtc-audio-processing-1-1.3/README
 * /usr/share/doc/webrtc-audio-processing-1-1.3/README.md
-{{< /spoiler >}}
+{{< /files >}}

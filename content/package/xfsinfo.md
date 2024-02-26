@@ -14,10 +14,10 @@ sha1sum = "b777bd4763fc3e86bc73268ba77760c7eaefe8d3"
 depends = "['libfs>=1.0.7-3']"
 license = "GPL2"
 +++
-X.Org xfsinfo application{{< spoiler text="show files" >}}* /usr/bin/xfsinfo
+X.Org xfsinfo application{{< files text="show files" >}}* /usr/bin/xfsinfo
 * /usr/share/doc/xfsinfo-1.0.7/ChangeLog
 * /usr/share/doc/xfsinfo-1.0.7/COPYING
 * /usr/share/doc/xfsinfo-1.0.7/INSTALL
 * /usr/share/doc/xfsinfo-1.0.7/README.md
 * /usr/share/man/man1/xfsinfo.1.gz
-{{< /spoiler >}}
+{{< /files >}}

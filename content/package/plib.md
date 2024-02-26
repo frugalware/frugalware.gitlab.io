@@ -14,7 +14,7 @@ sha1sum = "3575c6c94a79b123c89664e1a1a0358a9512e4e2"
 depends = "['glibc']"
 reverse_depends = "['flightgear']"
 +++
-A Suite of Portable Game Libraries.{{< spoiler text="show files" >}}* /usr/include/plib/fnt.h
+A Suite of Portable Game Libraries.{{< files text="show files" >}}* /usr/include/plib/fnt.h
 * /usr/include/plib/js.h
 * /usr/include/plib/net.h
 * /usr/include/plib/netBuffer.h
@@ -77,4 +77,4 @@ A Suite of Portable Game Libraries.{{< spoiler text="show files" >}}* /usr/inclu
 * /usr/share/doc/plib-1.8.5/README.GLUT
 * /usr/share/doc/plib-1.8.5/README.mac
 * /usr/share/doc/plib-1.8.5/README.win32
-{{< /spoiler >}}
+{{< /files >}}

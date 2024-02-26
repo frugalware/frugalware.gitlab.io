@@ -14,7 +14,7 @@ sha1sum = "771e5a3edfab79178c53b3d28e379e4fd72f5e02"
 depends = "['curl', 'json-c>=0.14', 'openssl>=3.1.0', 'shadow']"
 reverse_depends = "['fwupd']"
 +++
-Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2){{< spoiler text="show files" >}}* /etc/sysusers.d/tpm2-tss.conf
+Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2){{< files text="show files" >}}* /etc/sysusers.d/tpm2-tss.conf
 * /etc/tmpfiles.d/tpm2-tss-fapi.conf
 * /etc/tpm2-tss/fapi-config.json
 * /etc/tpm2-tss/fapi-profiles/P_ECCP256SHA256.json
@@ -252,4 +252,4 @@ Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2){{< s
 * /usr/share/man/man7/tss2-tcti-mssim.7.gz
 * /usr/share/man/man7/tss2-tcti-swtpm.7.gz
 * /usr/share/man/man7/tss2-tctildr.7.gz
-{{< /spoiler >}}
+{{< /files >}}

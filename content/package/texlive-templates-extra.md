@@ -13,7 +13,7 @@ usize = "30469062"
 sha1sum = "92677a08eedfd32d735a047dc506cf36f6cb49d5"
 depends = "['texlive=2023.0']"
 +++
-Extra publications templates for Tex Live{{< spoiler text="show files" >}}* /usr/share/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib
+Extra publications templates for Tex Live{{< files text="show files" >}}* /usr/share/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib
 * /usr/share/texmf-dist/bibtex/bib/nostarch/nostarch.bib
 * /usr/share/texmf-dist/bibtex/bib/spie/report.bib
 * /usr/share/texmf-dist/bibtex/bst/aastex/aasjournal.bst
@@ -1101,4 +1101,4 @@ Extra publications templates for Tex Live{{< spoiler text="show files" >}}* /usr
 * /usr/share/texmf-dist/tex/plain/tugboat-plain/tugboat.sty
 * /usr/share/texmf-dist/tex/plain/tugboat-plain/tugproc.sty
 * /usr/share/texmf-dist/tex/xelatex/tabriz-thesis/tabriz-thesis.cls
-{{< /spoiler >}}
+{{< /files >}}

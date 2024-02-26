@@ -14,7 +14,7 @@ sha1sum = "f29e4d5c91b6b09153905d011cb4fe32b82b4541"
 depends = "['glibc>=2.34', 'ncurses>=6.0-18', 'readline>=8.0']"
 reverse_depends = "['apache']"
 +++
-A powerful light-weight programming language designed for extending applications.{{< spoiler text="show files" >}}* /usr/bin/lua5.3
+A powerful light-weight programming language designed for extending applications.{{< files text="show files" >}}* /usr/bin/lua5.3
 * /usr/bin/luac5.3
 * /usr/include/lua5.3/lauxlib.h
 * /usr/include/lua5.3/lua.h
@@ -29,4 +29,4 @@ A powerful light-weight programming language designed for extending applications
 * /usr/share/doc/lua53-5.3.6/README
 * /usr/share/man/man1/lua5.3.6.gz
 * /usr/share/man/man1/luac5.3.6.gz
-{{< /spoiler >}}
+{{< /files >}}

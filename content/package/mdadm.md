@@ -14,7 +14,7 @@ sha1sum = "6c9aabb9c4bf63a2cf3c1b2ea285bd5ce5fba47c"
 depends = "['glibc>=2.34']"
 reverse_depends = "['kernel-initrd', 'kernel-lts-initrd']"
 +++
-A tool for managing software RAID under Linux{{< spoiler text="show files" >}}* /etc/dracut.conf.d/11-raid.conf
+A tool for managing software RAID under Linux{{< files text="show files" >}}* /etc/dracut.conf.d/11-raid.conf
 * /etc/tmpfiles.d/mdadm.conf
 * /usr/bin/mdadm
 * /usr/bin/mdmon
@@ -32,4 +32,4 @@ A tool for managing software RAID under Linux{{< spoiler text="show files" >}}* 
 * /usr/share/man/man5/mdadm.conf.5.gz
 * /usr/share/man/man8/mdadm.8.gz
 * /usr/share/man/man8/mdmon.8.gz
-{{< /spoiler >}}
+{{< /files >}}

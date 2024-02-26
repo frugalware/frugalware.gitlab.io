@@ -14,7 +14,7 @@ sha1sum = "a5122d590f2e2eee6756299274aa6ce189ed7f7b"
 depends = "['python3-attrs', 'python3-constantly', 'python3-incremental', 'python3-typing_extensions', 'python3-zopeinterface']"
 reverse_depends = "['kajongg']"
 +++
-An event-driven networking framework written in Python.{{< spoiler text="show files" >}}* /usr/bin/cftp3
+An event-driven networking framework written in Python.{{< files text="show files" >}}* /usr/bin/cftp3
 * /usr/bin/ckeygen3
 * /usr/bin/conch3
 * /usr/bin/mailmail3
@@ -1742,4 +1742,4 @@ An event-driven networking framework written in Python.{{< spoiler text="show fi
 * /usr/share/doc/python3-twisted-22.10.0/INSTALL.rst
 * /usr/share/doc/python3-twisted-22.10.0/LICENSE
 * /usr/share/doc/python3-twisted-22.10.0/README.rst
-{{< /spoiler >}}
+{{< /files >}}

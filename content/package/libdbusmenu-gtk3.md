@@ -14,7 +14,7 @@ sha1sum = "8154f79238a41730b71ecdd2d7653dbaa68f9870"
 depends = "['gtk+3', 'libdbusmenu']"
 reverse_depends = "['ibus', 'libappindicator']"
 +++
-GTK3 bindings for libdbusmenu{{< spoiler text="show files" >}}* /usr/include/libdbusmenu-gtk3-0.4/libdbusmenu-gtk/client.h
+GTK3 bindings for libdbusmenu{{< files text="show files" >}}* /usr/include/libdbusmenu-gtk3-0.4/libdbusmenu-gtk/client.h
 * /usr/include/libdbusmenu-gtk3-0.4/libdbusmenu-gtk/dbusmenu-gtk.h
 * /usr/include/libdbusmenu-gtk3-0.4/libdbusmenu-gtk/menu.h
 * /usr/include/libdbusmenu-gtk3-0.4/libdbusmenu-gtk/menuitem.h
@@ -25,4 +25,4 @@ GTK3 bindings for libdbusmenu{{< spoiler text="show files" >}}* /usr/include/lib
 * /usr/lib/pkgconfig/dbusmenu-gtk3-0.4.pc
 * /usr/share/gir-1.0/DbusmenuGtk3-0.4.gir
 * /usr/share/vala/vapi/DbusmenuGtk3-0.4.vapi
-{{< /spoiler >}}
+{{< /files >}}

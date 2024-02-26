@@ -14,7 +14,7 @@ sha1sum = "51ce2e57ad40089bf4c2565b8d49f3eced434b25"
 depends = "['libboost>=1.72.0', 'libwpd>=0.10.2-2']"
 reverse_depends = "['libreoffice']"
 +++
-A library to import of AbiWord files{{< spoiler text="show files" >}}* /usr/bin/abw2html
+A library to import of AbiWord files{{< files text="show files" >}}* /usr/bin/abw2html
 * /usr/bin/abw2raw
 * /usr/bin/abw2text
 * /usr/include/libabw-0.1/libabw/AbiDocument.h
@@ -30,4 +30,4 @@ A library to import of AbiWord files{{< spoiler text="show files" >}}* /usr/bin/
 * /usr/share/doc/libabw-0.1.3/INSTALL
 * /usr/share/doc/libabw-0.1.3/NEWS
 * /usr/share/doc/libabw-0.1.3/README
-{{< /spoiler >}}
+{{< /files >}}

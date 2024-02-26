@@ -13,7 +13,7 @@ usize = "212904"
 sha1sum = "ac0cbb02392fa79253953257e6b655e78ec5f52d"
 depends = "['glibc>=2.34']"
 +++
-Utilities for exFAT file system{{< spoiler text="show files" >}}* /usr/bin/dump.exfat
+Utilities for exFAT file system{{< files text="show files" >}}* /usr/bin/dump.exfat
 * /usr/bin/exfat2img
 * /usr/bin/exfatlabel
 * /usr/bin/fsck.exfat
@@ -28,4 +28,4 @@ Utilities for exFAT file system{{< spoiler text="show files" >}}* /usr/bin/dump.
 * /usr/share/man/man8/fsck.exfat.8.gz
 * /usr/share/man/man8/mkfs.exfat.8.gz
 * /usr/share/man/man8/tune.exfat.8.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,5 +13,5 @@ usize = "18200"
 sha1sum = "7c1c49b183701a8ca3b2963f1d7c78ec887d2218"
 depends = "['libvlc>=3.0.20', 'libvncserver>=0.9.11']"
 +++
-vlc plugin for vnc{{< spoiler text="show files" >}}* /usr/lib/vlc/plugins/access/libvnc_plugin.so
-{{< /spoiler >}}
+vlc plugin for vnc{{< files text="show files" >}}* /usr/lib/vlc/plugins/access/libvnc_plugin.so
+{{< /files >}}

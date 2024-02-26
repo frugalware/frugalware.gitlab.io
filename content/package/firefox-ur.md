@@ -14,5 +14,5 @@ sha1sum = "edda85acd1b3d92fa46be8024fd3689c45a57e8a"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Urdu language support for Firefox{{< spoiler text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-ur@firefox.mozilla.org.xpi
-{{< /spoiler >}}
+Urdu language support for Firefox{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-ur@firefox.mozilla.org.xpi
+{{< /files >}}

@@ -14,9 +14,9 @@ sha1sum = "cb650d418d288519e35df78f0eeef31db5487953"
 depends = "['libdrm>=2.4.71', 'libglapi', 'wayland>=1.11.0-3']"
 reverse_depends = "['efl', 'enlightenment', 'libegl', 'mesa-libegl', 'qemu', 'qt6-webengine', 'terminology', 'weston', 'wlroots', 'xf86-video-amdgpu', 'xorg-server']"
 +++
-Mesa gbm library.{{< spoiler text="show files" >}}* /usr/include/gbm.h
+Mesa gbm library.{{< files text="show files" >}}* /usr/include/gbm.h
 * /usr/lib/libgbm.so
 * /usr/lib/libgbm.so.1
 * /usr/lib/libgbm.so.1.0.0
 * /usr/lib/pkgconfig/gbm.pc
-{{< /spoiler >}}
+{{< /files >}}

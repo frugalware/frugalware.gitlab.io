@@ -14,7 +14,7 @@ sha1sum = "438394379fc65ebab6d1fe83b16da39b0e60603e"
 depends = "['haskell-network']"
 reverse_depends = "['haskell-warp']"
 +++
-Cross platform library for the sendfile system call{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/simple-sendfile-0.2.32/libHSsimple-sendfile-0.2.32-99ouwTKbW3aKXBC7SnJkcE.a
+Cross platform library for the sendfile system call{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/simple-sendfile-0.2.32/libHSsimple-sendfile-0.2.32-99ouwTKbW3aKXBC7SnJkcE.a
 * /usr/lib/ghc-9.8.1/site-local/simple-sendfile-0.2.32/Network/Sendfile.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/simple-sendfile-0.2.32/Network/Sendfile.hi
 * /usr/lib/ghc-9.8.1/site-local/simple-sendfile-0.2.32/Network/Sendfile/Linux.dyn_hi
@@ -38,4 +38,4 @@ Cross platform library for the sendfile system call{{< spoiler text="show files"
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/simple-sendfile-0.2.32/LICENSE
 * /usr/share/haskell/haskell-simple-sendfile/register.sh
 * /usr/share/haskell/haskell-simple-sendfile/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

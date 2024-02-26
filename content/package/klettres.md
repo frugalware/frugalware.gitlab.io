@@ -13,7 +13,7 @@ usize = "50087154"
 sha1sum = "91962aa6af7a090685ad6227e0d5345d2cbb988e"
 depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5']"
 +++
-Learn The Alphabet.{{< spoiler text="show files" >}}* /usr/bin/klettres
+Learn The Alphabet.{{< files text="show files" >}}* /usr/bin/klettres
 * /usr/share/applications/org.kde.klettres.desktop
 * /usr/share/config.kcfg/klettres.kcfg
 * /usr/share/doc/HTML/ca/klettres/index.cache.bz2
@@ -2073,4 +2073,4 @@ Learn The Alphabet.{{< spoiler text="show files" >}}* /usr/bin/klettres
 * /usr/share/locale/zh_TW/LC_MESSAGES/klettres.mo
 * /usr/share/metainfo/org.kde.klettres.appdata.xml
 * /usr/share/qlogging-categories5/klettres.categories
-{{< /spoiler >}}
+{{< /files >}}

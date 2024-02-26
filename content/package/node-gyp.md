@@ -13,7 +13,7 @@ usize = "7589307"
 sha1sum = "daa48aa15af23fa978b2d701a7263d3c2bef968a"
 depends = "['glibc']"
 +++
-Node.js native addon build tool{{< spoiler text="show files" >}}* /usr/bin/node-gyp
+Node.js native addon build tool{{< files text="show files" >}}* /usr/bin/node-gyp
 * /usr/lib/node_modules/node-gyp/.github/ISSUE_TEMPLATE.md
 * /usr/lib/node_modules/node-gyp/.github/PULL_REQUEST_TEMPLATE.md
 * /usr/lib/node_modules/node-gyp/.github/scripts/check-engines.js
@@ -1185,4 +1185,4 @@ Node.js native addon build tool{{< spoiler text="show files" >}}* /usr/bin/node-
 * /usr/lib/node_modules/node-gyp/update-gyp.py
 * /usr/share/doc/node-gyp-10.0.1/LICENSE
 * /usr/share/doc/node-gyp-10.0.1/README.md
-{{< /spoiler >}}
+{{< /files >}}

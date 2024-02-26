@@ -14,7 +14,7 @@ sha1sum = "e113567bd35dcd81f81fb6366f99c8e07be1ce5b"
 depends = "['libjpeg-turbo', 'libstdc++>=11.2', 'openssl>=3.1.0', 'pcre>=8.37-4']"
 reverse_depends = "['cups-filters']"
 +++
-QPDF do structural, content-preserving transformations on PDF files.{{< spoiler text="show files" >}}* /usr/bin/fix-qdf
+QPDF do structural, content-preserving transformations on PDF files.{{< files text="show files" >}}* /usr/bin/fix-qdf
 * /usr/bin/qpdf
 * /usr/bin/zlib-flate
 * /usr/include/qpdf/auto_job_c_att.hh
@@ -131,4 +131,4 @@ QPDF do structural, content-preserving transformations on PDF files.{{< spoiler 
 * /usr/share/man/man1/fix-qdf.1.gz
 * /usr/share/man/man1/qpdf.1.gz
 * /usr/share/man/man1/zlib-flate.1.gz
-{{< /spoiler >}}
+{{< /files >}}

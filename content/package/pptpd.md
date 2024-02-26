@@ -13,7 +13,7 @@ usize = "189975"
 sha1sum = "ef33ddc4ae6253dc6fad7e2e4de2d163fe2f1194"
 depends = "['ppp>=2.5.0']"
 +++
-Poptop is the PPTP server solution for Linux.{{< spoiler text="show files" >}}* /etc/ppp/options.pptpd
+Poptop is the PPTP server solution for Linux.{{< files text="show files" >}}* /etc/ppp/options.pptpd
 * /etc/pptpd.conf
 * /usr/bin/bcrelay
 * /usr/bin/pptpctrl
@@ -37,4 +37,4 @@ Poptop is the PPTP server solution for Linux.{{< spoiler text="show files" >}}* 
 * /usr/share/man/man8/bcrelay.8.gz
 * /usr/share/man/man8/pptpctrl.8.gz
 * /usr/share/man/man8/pptpd.8.gz
-{{< /spoiler >}}
+{{< /files >}}

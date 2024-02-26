@@ -14,7 +14,7 @@ sha1sum = "f21cf3679fe0daabde7a6f93f369b6e69083ef1b"
 depends = "['alsa-lib>=1.1.3']"
 reverse_depends = "['alsa-plugin-ffmpeg', 'alsa-plugin-jack', 'alsa-plugin-pulseaudio', 'alsa-plugin-samplerate', 'alsa-plugin-speex']"
 +++
-Various plugins for ALSA.{{< spoiler text="show files" >}}* /etc/alsa/conf.d/10-rate-lav.conf
+Various plugins for ALSA.{{< files text="show files" >}}* /etc/alsa/conf.d/10-rate-lav.conf
 * /etc/alsa/conf.d/10-samplerate.conf
 * /etc/alsa/conf.d/10-speexrate.conf
 * /etc/alsa/conf.d/50-arcam-av-ctl.conf
@@ -47,4 +47,4 @@ Various plugins for ALSA.{{< spoiler text="show files" >}}* /etc/alsa/conf.d/10-
 * /usr/share/alsa/alsa.conf.d/98-usb-stream.conf
 * /usr/share/doc/alsa-plugins-1.2.7.1/COPYING
 * /usr/share/doc/alsa-plugins-1.2.7.1/COPYING.GPL
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "2e8c30b7f8cfffc7922e2d9d61a73d6105688d6f"
 depends = "['glibc>=2.34', 'texinfo>=6.5-2']"
 reverse_depends = "['p11-kit']"
 +++
-The ASN.1 library used in GNUTLS{{< spoiler text="show files" >}}* /usr/bin/asn1Coding
+The ASN.1 library used in GNUTLS{{< files text="show files" >}}* /usr/bin/asn1Coding
 * /usr/bin/asn1Decoding
 * /usr/bin/asn1Parser
 * /usr/include/libtasn1.h
@@ -75,4 +75,4 @@ The ASN.1 library used in GNUTLS{{< spoiler text="show files" >}}* /usr/bin/asn1
 * /usr/share/man/man3/asn1_read_value_type.3.gz
 * /usr/share/man/man3/asn1_strerror.3.gz
 * /usr/share/man/man3/asn1_write_value.3.gz
-{{< /spoiler >}}
+{{< /files >}}

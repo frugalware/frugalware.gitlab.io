@@ -13,7 +13,7 @@ usize = "105484946"
 sha1sum = "c11fca80022f4182a8cf61843141ab1ab825549c"
 depends = "['lib32-libffi', 'lib32-xz', 'rust']"
 +++
-Programming language focused on safety, speed and concurrency ( 32bit ){{< spoiler text="show files" >}}* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libaddr2line-fd053e1238d95ea5.rlib
+Programming language focused on safety, speed and concurrency ( 32bit ){{< files text="show files" >}}* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libaddr2line-fd053e1238d95ea5.rlib
 * /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libadler-b9d33b14f5075274.rlib
 * /usr/lib/rustlib/i686-unknown-linux-gnu/lib/liballoc-171811459912db30.rlib
 * /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libcfg_if-88e4b4ef5f02b533.rlib
@@ -41,4 +41,4 @@ Programming language focused on safety, speed and concurrency ( 32bit ){{< spoil
 * /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libtest-2079b733fc410a55.so
 * /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libunicode_width-bec0a92aa8c98c0f.rlib
 * /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libunwind-b0ed0088fe0d4cf4.rlib
-{{< /spoiler >}}
+{{< /files >}}

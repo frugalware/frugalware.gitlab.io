@@ -14,7 +14,7 @@ sha1sum = "350a799bfb979e6466cc73e9b1a1bc5dbc079ea4"
 depends = "['alsa-lib', 'python3']"
 reverse_depends = "['alsa-tools']"
 +++
-Python bindings for ALSA lib{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/pyalsa-1.2.7-py3.12.egg-info/dependency_links.txt
+Python bindings for ALSA lib{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pyalsa-1.2.7-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pyalsa-1.2.7-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/pyalsa-1.2.7-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/pyalsa-1.2.7-py3.12.egg-info/top_level.txt
@@ -25,4 +25,4 @@ Python bindings for ALSA lib{{< spoiler text="show files" >}}* /usr/lib/python3.
 * /usr/lib/python3.12/site-packages/pyalsa/alsaseq.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/pyalsa/__init__.py
 * /usr/lib/python3.12/site-packages/pyalsa/__pycache__/__init__.cpython-312.pyc
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "ff4d69719b56c61fd0a343d9f3e8c00a2812da06"
 depends = "[]"
 reverse_depends = "['pm-utils']"
 +++
-Power management quirks database for certain hardware.{{< spoiler text="show files" >}}* /usr/lib/pm-utils/video-quirks/20-video-quirk-pm-acer.quirkdb
+Power management quirks database for certain hardware.{{< files text="show files" >}}* /usr/lib/pm-utils/video-quirks/20-video-quirk-pm-acer.quirkdb
 * /usr/lib/pm-utils/video-quirks/20-video-quirk-pm-apple.quirkdb
 * /usr/lib/pm-utils/video-quirks/20-video-quirk-pm-asus.quirkdb
 * /usr/lib/pm-utils/video-quirks/20-video-quirk-pm-dell.quirkdb
@@ -26,4 +26,4 @@ Power management quirks database for certain hardware.{{< spoiler text="show fil
 * /usr/lib/pm-utils/video-quirks/20-video-quirk-pm-samsung.quirkdb
 * /usr/lib/pm-utils/video-quirks/20-video-quirk-pm-sony.quirkdb
 * /usr/lib/pm-utils/video-quirks/20-video-quirk-pm-toshiba.quirkdb
-{{< /spoiler >}}
+{{< /files >}}

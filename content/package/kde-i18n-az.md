@@ -13,7 +13,7 @@ usize = "1386634"
 sha1sum = "fc50ddfae7d0eea36bc8d2f1a00ceea84ddc783d"
 depends = "[]"
 +++
-Azerbaijani Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale/az/charset
+Azerbaijani Localization for KDE.{{< files text="show files" >}}* usr/share/locale/az/charset
 * usr/share/locale/az/entry.desktop
 * usr/share/locale/az/flag.png
 * usr/share/locale/az/LC_MESSAGES/alsaplayerui.mo
@@ -446,4 +446,4 @@ Azerbaijani Localization for KDE.{{< spoiler text="show files" >}}* usr/share/lo
 * usr/share/locale/az/LC_MESSAGES/wakeup.mo
 * usr/share/locale/az/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/az/LC_MESSAGES/webarchiver.mo
-{{< /spoiler >}}
+{{< /files >}}

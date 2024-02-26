@@ -14,7 +14,7 @@ sha1sum = "362876edc7ab9e94963126a3c47a191f271e9a06"
 depends = "['gtk+4-update-icon-cache', 'gtk-update-icon-cache>=3.22.29', 'hicolor-icon-theme']"
 reverse_depends = "['gtk+2', 'gtk+3', 'gtk+4']"
 +++
-Default icon theme for GNOME{{< spoiler text="show files" >}}* /usr/share/doc/adwaita-icon-theme-45.0/AUTHORS
+Default icon theme for GNOME{{< files text="show files" >}}* /usr/share/doc/adwaita-icon-theme-45.0/AUTHORS
 * /usr/share/doc/adwaita-icon-theme-45.0/COPYING
 * /usr/share/doc/adwaita-icon-theme-45.0/COPYING_CCBYSA3
 * /usr/share/doc/adwaita-icon-theme-45.0/COPYING_LGPL
@@ -920,4 +920,4 @@ Default icon theme for GNOME{{< spoiler text="show files" >}}* /usr/share/doc/ad
 * /usr/share/licenses/adwaita-icon-theme/COPYING_CCBYSA3
 * /usr/share/licenses/adwaita-icon-theme/COPYING_LGPL
 * /usr/share/pkgconfig/adwaita-icon-theme.pc
-{{< /spoiler >}}
+{{< /files >}}

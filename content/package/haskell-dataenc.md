@@ -13,7 +13,7 @@ usize = "2492012"
 sha1sum = "7124eaefd0885d3fc083d65da63a4fcadab8f6d6"
 depends = "['ghc>=9.8.1']"
 +++
-haskell-dataenc{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/dataenc-0.14.0.7/Codec/Binary/Base16.dyn_hi
+haskell-dataenc{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/dataenc-0.14.0.7/Codec/Binary/Base16.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/dataenc-0.14.0.7/Codec/Binary/Base16.hi
 * /usr/lib/ghc-9.8.1/site-local/dataenc-0.14.0.7/Codec/Binary/Base32.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/dataenc-0.14.0.7/Codec/Binary/Base32.hi
@@ -68,4 +68,4 @@ haskell-dataenc{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/dataenc-0.14.0.7/LICENSE
 * /usr/share/haskell/haskell-dataenc/register.sh
 * /usr/share/haskell/haskell-dataenc/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

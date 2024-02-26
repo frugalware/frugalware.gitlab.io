@@ -14,7 +14,7 @@ sha1sum = "cf937086e13e2dd0549ff53d8d54dfcef91d5477"
 depends = "['perl>=5.34.0', 'perl-encode-locale', 'perl-http-date', 'perl-io-html', 'perl-lwp-mediatypes', 'perl-uri']"
 reverse_depends = "['perl-http-daemon', 'perl-http-negotiate']"
 +++
-HTTP style message (base class).{{< spoiler text="show files" >}}* /usr/lib/perl5/site_perl/HTTP/Config.pm
+HTTP style message (base class).{{< files text="show files" >}}* /usr/lib/perl5/site_perl/HTTP/Config.pm
 * /usr/lib/perl5/site_perl/HTTP/Headers.pm
 * /usr/lib/perl5/site_perl/HTTP/Headers/Auth.pm
 * /usr/lib/perl5/site_perl/HTTP/Headers/ETag.pm
@@ -39,4 +39,4 @@ HTTP style message (base class).{{< spoiler text="show files" >}}* /usr/lib/perl
 * /usr/share/man/man3/HTTP::Request::Common.3perl.gz
 * /usr/share/man/man3/HTTP::Response.3perl.gz
 * /usr/share/man/man3/HTTP::Status.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

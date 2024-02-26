@@ -13,7 +13,7 @@ usize = "34113318"
 sha1sum = "8395a65dd7b2fbff222bdf09752914b75020a9da"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Estonian support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/et/default.css
+Installs Estonian support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/et/default.css
 * /usr/lib/libreoffice/help/et/err.html
 * /usr/lib/libreoffice/help/et/highcontrast1.css
 * /usr/lib/libreoffice/help/et/highcontrast2.css
@@ -131,4 +131,4 @@ Installs Estonian support in LibreOffice{{< spoiler text="show files" >}}* /usr/
 * /usr/lib/libreoffice/share/registry/Langpack-et.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_et.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_et.xcd
-{{< /spoiler >}}
+{{< /files >}}

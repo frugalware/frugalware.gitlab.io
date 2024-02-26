@@ -14,7 +14,7 @@ sha1sum = "25ce35ff5e6a61629516188fc0e8de732ec4b59a"
 depends = "['glib2>=2.60.0', 'libffi>=3.2.1']"
 reverse_depends = "['cups-filters', 'geoclue2', 'gvfs', 'telepathy-salut']"
 +++
-Glib bindings for Avahi{{< spoiler text="show files" >}}* /usr/include/avahi-glib/glib-malloc.h
+Glib bindings for Avahi{{< files text="show files" >}}* /usr/include/avahi-glib/glib-malloc.h
 * /usr/include/avahi-glib/glib-watch.h
 * /usr/include/avahi-gobject/ga-client.h
 * /usr/include/avahi-gobject/ga-entry-group.h
@@ -31,4 +31,4 @@ Glib bindings for Avahi{{< spoiler text="show files" >}}* /usr/include/avahi-gli
 * /usr/lib/libavahi-gobject.so.0.0.5
 * /usr/lib/pkgconfig/avahi-glib.pc
 * /usr/lib/pkgconfig/avahi-gobject.pc
-{{< /spoiler >}}
+{{< /files >}}

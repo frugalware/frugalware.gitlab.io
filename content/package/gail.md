@@ -13,7 +13,7 @@ usize = "507147"
 sha1sum = "ae4061d3a29e38d1da64a1b1f40e925268507763"
 depends = "['at-spi2-core', 'gdk-pixbuf2>=2.36.11-3', 'gtk+2-libs>=2.24.32', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'pango>=1.42.0']"
 +++
-Accessibility support for GTK+2 and libgnomecanvas{{< spoiler text="show files" >}}* /usr/include/gail-1.0/gail/gailwidget.h
+Accessibility support for GTK+2 and libgnomecanvas{{< files text="show files" >}}* /usr/include/gail-1.0/gail/gailwidget.h
 * /usr/include/gail-1.0/libgail-util/gail-util.h
 * /usr/include/gail-1.0/libgail-util/gailmisc.h
 * /usr/include/gail-1.0/libgail-util/gailtextutil.h
@@ -35,4 +35,4 @@ Accessibility support for GTK+2 and libgnomecanvas{{< spoiler text="show files" 
 * /usr/share/gtk-doc/html/gail-libgail-util/style.css
 * /usr/share/gtk-doc/html/gail-libgail-util/up-insensitive.png
 * /usr/share/gtk-doc/html/gail-libgail-util/up.png
-{{< /spoiler >}}
+{{< /files >}}

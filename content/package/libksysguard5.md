@@ -14,7 +14,7 @@ sha1sum = "74eca924bdd88f4caa005b9f0c7051638f35d7ae"
 depends = "['kconfigwidgets>=5.115.0', 'knewstuff>=5.115.0', 'kwindowsystem>=5.115.0', 'libnl', 'libxres>=1.0.7-4', 'lmsensors', 'qt5-webengine>=5.15.12']"
 reverse_depends = "['kdevelop', 'ksysguard5', 'ksystemstats', 'plasma-vault', 'plasma-workspace']"
 +++
-Task management and system monitoring library.{{< spoiler text="show files" >}}* /usr/include/ksysguard/faces/FaceLoader.h
+Task management and system monitoring library.{{< files text="show files" >}}* /usr/include/ksysguard/faces/FaceLoader.h
 * /usr/include/ksysguard/faces/SensorFaceController.h
 * /usr/include/ksysguard/faces/sensorfaces_export.h
 * /usr/include/ksysguard/faces/SensorFace_p.h
@@ -758,4 +758,4 @@ Task management and system monitoring library.{{< spoiler text="show files" >}}*
 * /usr/share/qt5/qml/org/kde/ksysguard/process/qmldir
 * /usr/share/qt5/qml/org/kde/ksysguard/sensors/libSensorsPlugin.so
 * /usr/share/qt5/qml/org/kde/ksysguard/sensors/qmldir
-{{< /spoiler >}}
+{{< /files >}}

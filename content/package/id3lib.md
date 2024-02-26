@@ -14,7 +14,7 @@ sha1sum = "3ff538f19fdec366a96fa3b999c731eb02ff9a1b"
 depends = "['libstdc++>=9.1.0-3', 'zlib>=1.2.12']"
 reverse_depends = "['kwave']"
 +++
-A library for reading, writing, and manipulating ID3v1 and ID3v2 tags.{{< spoiler text="show files" >}}* /usr/bin/id3convert
+A library for reading, writing, and manipulating ID3v1 and ID3v2 tags.{{< files text="show files" >}}* /usr/bin/id3convert
 * /usr/bin/id3cp
 * /usr/bin/id3info
 * /usr/bin/id3tag
@@ -44,4 +44,4 @@ A library for reading, writing, and manipulating ID3v1 and ID3v2 tags.{{< spoile
 * /usr/share/doc/id3lib-3.8.3/README
 * /usr/share/doc/id3lib-3.8.3/THANKS
 * /usr/share/doc/id3lib-3.8.3/TODO
-{{< /spoiler >}}
+{{< /files >}}

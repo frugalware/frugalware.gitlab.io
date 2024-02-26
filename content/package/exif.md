@@ -13,7 +13,7 @@ usize = "223910"
 sha1sum = "251d9a26fce559c8493c951179c01192bae9a82f"
 depends = "['libexif>=0.6.20', 'popt']"
 +++
-A small command-line utility to show EXIF information hidden in JPEG files.{{< spoiler text="show files" >}}* /usr/bin/exif
+A small command-line utility to show EXIF information hidden in JPEG files.{{< files text="show files" >}}* /usr/bin/exif
 * /usr/share/doc/exif-0.6.21/AUTHORS
 * /usr/share/doc/exif-0.6.21/ChangeLog
 * /usr/share/doc/exif-0.6.21/COPYING
@@ -41,4 +41,4 @@ A small command-line utility to show EXIF information hidden in JPEG files.{{< s
 * /usr/share/locale/vi/LC_MESSAGES/exif.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/exif.mo
 * /usr/share/man/man1/exif.1.gz
-{{< /spoiler >}}
+{{< /files >}}

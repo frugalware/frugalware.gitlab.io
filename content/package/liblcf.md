@@ -14,7 +14,7 @@ sha1sum = "0793dad0664c2b2dd3450fec5a98edfeddad3006"
 depends = "['expat', 'icu4c>=74.1']"
 reverse_depends = "['easyrpg-player']"
 +++
-liblcf is a library to handle RPG Maker 2000 and 2003 game data.{{< spoiler text="show files" >}}* /usr/bin/lcf2xml
+liblcf is a library to handle RPG Maker 2000 and 2003 game data.{{< files text="show files" >}}* /usr/bin/lcf2xml
 * /usr/bin/lcfstrings
 * /usr/include/lcf/config.h
 * /usr/include/lcf/context.h
@@ -124,4 +124,4 @@ liblcf is a library to handle RPG Maker 2000 and 2003 game data.{{< spoiler text
 * /usr/share/doc/liblcf-0.8/COPYING
 * /usr/share/doc/liblcf-0.8/README.md
 * /usr/share/mime/packages/liblcf.xml
-{{< /spoiler >}}
+{{< /files >}}

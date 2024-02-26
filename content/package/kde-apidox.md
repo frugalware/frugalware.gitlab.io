@@ -13,7 +13,7 @@ usize = "207851877"
 sha1sum = "77b7fddf0194b883786336a789702cb1a6198b45"
 depends = "[]"
 +++
-KDE API Documentation{{< spoiler text="show files" >}}* usr/share/doc/HTML/en/kdelibs-apidocs/arts/arts.tag
+KDE API Documentation{{< files text="show files" >}}* usr/share/doc/HTML/en/kdelibs-apidocs/arts/arts.tag
 * usr/share/doc/HTML/en/kdelibs-apidocs/arts/html/annotated.html
 * usr/share/doc/HTML/en/kdelibs-apidocs/arts/html/artskde_8cc-source.html
 * usr/share/doc/HTML/en/kdelibs-apidocs/arts/html/artskde_8h-source.html
@@ -6898,4 +6898,4 @@ KDE API Documentation{{< spoiler text="show files" >}}* usr/share/doc/HTML/en/kd
 * usr/share/doc/HTML/en/kdelibs-apidocs/tab_b.gif
 * usr/share/doc/HTML/en/kdelibs-apidocs/tab_l.gif
 * usr/share/doc/HTML/en/kdelibs-apidocs/tab_r.gif
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "46a5c97973c79e4fbbc0850a41d4714a2ee510ad"
 depends = "['python3-filelock', 'python3-msgpack', 'python3-requests', 'python3-urllib3']"
 reverse_depends = "['python3-poetry']"
 +++
-httplib2 caching for requests{{< spoiler text="show files" >}}* /usr/bin/doesitcache
+httplib2 caching for requests{{< files text="show files" >}}* /usr/bin/doesitcache
 * /usr/lib/python3.12/site-packages/cachecontrol-0.13.1.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/cachecontrol-0.13.1.dist-info/LICENSE.txt
 * /usr/lib/python3.12/site-packages/cachecontrol-0.13.1.dist-info/METADATA
@@ -58,4 +58,4 @@ httplib2 caching for requests{{< spoiler text="show files" >}}* /usr/bin/doesitc
 * /usr/lib/python3.12/site-packages/cachecontrol/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/cachecontrol/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-cachecontrol-0.13.1/README.rst
-{{< /spoiler >}}
+{{< /files >}}

@@ -11,10 +11,10 @@ arch = "x86_64"
 size = "181500"
 usize = "547385"
 sha1sum = "adcfab4b7177cfb14b31c29bc3211e37c0f2b794"
-depends = "['ruby>=3.3.0', 'ruby>=3.2.0']"
+depends = "['ruby>=3.2.0', 'ruby>=3.3.0']"
 reverse_depends = "['ruby-ronn']"
 +++
-Fast Implementation of Gruber's Markdown in C{{< spoiler text="show files" >}}* /usr/bin/rdiscount
+Fast Implementation of Gruber's Markdown in C{{< files text="show files" >}}* /usr/bin/rdiscount
 * /usr/lib/ruby/gems/3.3.0/cache/rdiscount-2.2.7.3.gem
 * /usr/lib/ruby/gems/3.3.0/doc/rdiscount-2.2.7.3/ri/cache.ri
 * /usr/lib/ruby/gems/3.3.0/doc/rdiscount-2.2.7.3/ri/ext/page-blocktags.ri
@@ -107,4 +107,4 @@ Fast Implementation of Gruber's Markdown in C{{< spoiler text="show files" >}}* 
 * /usr/lib/ruby/gems/3.3.0/gems/rdiscount-2.2.7.3/test/markdown_test.rb
 * /usr/lib/ruby/gems/3.3.0/gems/rdiscount-2.2.7.3/test/rdiscount_test.rb
 * /usr/lib/ruby/gems/3.3.0/specifications/rdiscount-2.2.7.3.gemspec
-{{< /spoiler >}}
+{{< /files >}}

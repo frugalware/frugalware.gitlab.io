@@ -13,7 +13,7 @@ usize = "32656854"
 sha1sum = "444338537b06b7c1189d26e157801d56f70db0c0"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Uyghur support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/ug/default.css
+Installs Uyghur support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/ug/default.css
 * /usr/lib/libreoffice/help/ug/err.html
 * /usr/lib/libreoffice/help/ug/highcontrast1.css
 * /usr/lib/libreoffice/help/ug/highcontrast2.css
@@ -131,4 +131,4 @@ Installs Uyghur support in LibreOffice{{< spoiler text="show files" >}}* /usr/li
 * /usr/lib/libreoffice/share/registry/Langpack-ug.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_ug.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_ug.xcd
-{{< /spoiler >}}
+{{< /files >}}

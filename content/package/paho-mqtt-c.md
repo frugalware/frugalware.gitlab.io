@@ -14,7 +14,7 @@ sha1sum = "5b128a90d17ff4e787ecbb00937c1477ad26f86e"
 depends = "['openssl']"
 reverse_depends = "['openvas-libraries']"
 +++
-Eclipse Paho C Client Library for the MQTT Protocol{{< spoiler text="show files" >}}* /usr/bin/MQTTVersion
+Eclipse Paho C Client Library for the MQTT Protocol{{< files text="show files" >}}* /usr/bin/MQTTVersion
 * /usr/include/MQTTAsync.h
 * /usr/include/MQTTClient.h
 * /usr/include/MQTTClientPersistence.h
@@ -49,4 +49,4 @@ Eclipse Paho C Client Library for the MQTT Protocol{{< spoiler text="show files"
 * /usr/share/doc/Eclipse Paho C/samples/pubsub_opts.c
 * /usr/share/doc/paho-mqtt-c-1.3.13/LICENSE
 * /usr/share/doc/paho-mqtt-c-1.3.13/README.md
-{{< /spoiler >}}
+{{< /files >}}

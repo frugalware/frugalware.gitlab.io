@@ -14,11 +14,11 @@ sha1sum = "b90185c075f6f7478338ccb568de033beae6b98b"
 depends = "[]"
 reverse_depends = "['lib32-mangohud', 'lib32-mesa-vulkan-amd', 'lib32-mesa-vulkan-intel', 'lib32-mesa-vulkan-swrast', 'lib32-vkd3d', 'wine', 'wine-devel']"
 +++
-Vulkan Installable Client Driver (ICD) Loader ( 32bit ){{< spoiler text="show files" >}}* /usr/lib32/cmake/VulkanLoader/VulkanLoaderConfig-release.cmake
+Vulkan Installable Client Driver (ICD) Loader ( 32bit ){{< files text="show files" >}}* /usr/lib32/cmake/VulkanLoader/VulkanLoaderConfig-release.cmake
 * /usr/lib32/cmake/VulkanLoader/VulkanLoaderConfig.cmake
 * /usr/lib32/cmake/VulkanLoader/VulkanLoaderConfigVersion.cmake
 * /usr/lib32/libvulkan.so
 * /usr/lib32/libvulkan.so.1
 * /usr/lib32/libvulkan.so.1.3.275
 * /usr/lib32/pkgconfig/vulkan.pc
-{{< /spoiler >}}
+{{< /files >}}

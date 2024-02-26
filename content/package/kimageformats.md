@@ -13,7 +13,7 @@ usize = "753776"
 sha1sum = "3ad6dde375a7b602a84f4fc7e9f54537385a7c73"
 depends = "['jasper>=1.900.1-10', 'karchive>=5.115.0', 'libavif', 'libheif', 'libraw', 'openexr>=3.2.0', 'qt5-base>=5.15.12']"
 +++
-Image format plugins.{{< spoiler text="show files" >}}* /usr/lib/qt5/plugins/imageformats/kimg_ani.so
+Image format plugins.{{< files text="show files" >}}* /usr/lib/qt5/plugins/imageformats/kimg_ani.so
 * /usr/lib/qt5/plugins/imageformats/kimg_avif.so
 * /usr/lib/qt5/plugins/imageformats/kimg_eps.so
 * /usr/lib/qt5/plugins/imageformats/kimg_exr.so
@@ -50,4 +50,4 @@ Image format plugins.{{< spoiler text="show files" >}}* /usr/lib/qt5/plugins/ima
 * /usr/share/kservices5/qimageioplugins/rgb.desktop
 * /usr/share/kservices5/qimageioplugins/tga.desktop
 * /usr/share/kservices5/qimageioplugins/xcf.desktop
-{{< /spoiler >}}
+{{< /files >}}

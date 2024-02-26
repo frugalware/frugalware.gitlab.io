@@ -14,7 +14,7 @@ sha1sum = "5eec279b17f543a7a808d25e47fa281f43be8ee6"
 depends = "['kio>=5.115.0', 'libkipi>=23.08.5']"
 reverse_depends = "['gwenview', 'spectacle']"
 +++
-kipi-plugins is based in part on the work of the Independent JPEG Group.{{< spoiler text="show files" >}}* /usr/lib/libKF5kipiplugins.so
+kipi-plugins is based in part on the work of the Independent JPEG Group.{{< files text="show files" >}}* /usr/lib/libKF5kipiplugins.so
 * /usr/lib/libKF5kipiplugins.so.5.9.1
 * /usr/lib/qt5/plugins/kipiplugin_dropbox.so
 * /usr/lib/qt5/plugins/kipiplugin_facebook.so
@@ -959,4 +959,4 @@ kipi-plugins is based in part on the work of the Independent JPEG Group.{{< spoi
 * /usr/share/locale/zh_TW/LC_MESSAGES/kipiplugin_smug.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kipiplugin_yandexfotki.mo
 * /usr/share/metainfo/org.kde.kipi_plugins.metainfo.xml
-{{< /spoiler >}}
+{{< /files >}}

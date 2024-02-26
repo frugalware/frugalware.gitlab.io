@@ -14,7 +14,7 @@ sha1sum = "d30d683c4b90e7c90710b16e307bc74d5fc11fe0"
 depends = "[]"
 reverse_depends = "['fwupd']"
 +++
-EFI Development Environment for x86_64.{{< spoiler text="show files" >}}* /usr/include/efi/efi.h
+EFI Development Environment for x86_64.{{< files text="show files" >}}* /usr/include/efi/efi.h
 * /usr/include/efi/efiapi.h
 * /usr/include/efi/eficompiler.h
 * /usr/include/efi/eficon.h
@@ -120,4 +120,4 @@ EFI Development Environment for x86_64.{{< spoiler text="show files" >}}* /usr/i
 * /usr/share/gnu-efi/apps/x86_64/t8.efi
 * /usr/share/gnu-efi/apps/x86_64/tcc.efi
 * /usr/share/gnu-efi/apps/x86_64/unsetdbg.efi
-{{< /spoiler >}}
+{{< /files >}}

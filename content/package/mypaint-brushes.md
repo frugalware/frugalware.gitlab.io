@@ -14,7 +14,7 @@ sha1sum = "6c175e9f51c187486d2ca9b36b5b90d1b5e091c4"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['gimp']"
 +++
-Default MyPaint brushes{{< spoiler text="show files" >}}* /usr/lib/pkgconfig/mypaint-brushes-1.0.pc
+Default MyPaint brushes{{< files text="show files" >}}* /usr/lib/pkgconfig/mypaint-brushes-1.0.pc
 * /usr/share/doc/mypaint-brushes-1.3.0/AUTHORS
 * /usr/share/doc/mypaint-brushes-1.3.0/ChangeLog
 * /usr/share/doc/mypaint-brushes-1.3.0/COPYING
@@ -380,4 +380,4 @@ Default MyPaint brushes{{< spoiler text="show files" >}}* /usr/lib/pkgconfig/myp
 * /usr/share/mypaint-data/1.0/brushes/tanda/watercolor-02-paint_prev.png
 * /usr/share/mypaint-data/1.0/brushes/tanda/watercolor-02-water.myb
 * /usr/share/mypaint-data/1.0/brushes/tanda/watercolor-02-water_prev.png
-{{< /spoiler >}}
+{{< /files >}}

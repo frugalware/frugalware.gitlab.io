@@ -13,7 +13,7 @@ usize = "137717"
 sha1sum = "c00ad16bc5d8aa03c71563a316680cc0d5c6c898"
 depends = "['glibc>=2.3.4']"
 +++
-xmlto is a front-end to an XSL toolchain.{{< spoiler text="show files" >}}* /usr/bin/xmlif
+xmlto is a front-end to an XSL toolchain.{{< files text="show files" >}}* /usr/bin/xmlif
 * /usr/bin/xmlto
 * /usr/share/doc/xmlto-0.0.28/AUTHORS
 * /usr/share/doc/xmlto-0.0.28/ChangeLog
@@ -60,4 +60,4 @@ xmlto is a front-end to an XSL toolchain.{{< spoiler text="show files" >}}* /usr
 * /usr/share/xmlto/format/xhtml1/svg
 * /usr/share/xmlto/format/xhtml1/txt
 * /usr/share/xmlto/xmlto.mak
-{{< /spoiler >}}
+{{< /files >}}

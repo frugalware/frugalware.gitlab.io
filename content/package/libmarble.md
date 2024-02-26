@@ -14,7 +14,7 @@ sha1sum = "056f52fda3b82aa66b9a0c4a4cbccd7060e6bc6b"
 depends = "['gpsd>=3.25', 'knewstuff', 'kparts', 'krunner5', 'protobuf>=25.3', 'qt5-serialport', 'qt5-webengine']"
 reverse_depends = "['digikam', 'marble']"
 +++
-Marble libs{{< spoiler text="show files" >}}* /usr/lib/libastro.so
+Marble libs{{< files text="show files" >}}* /usr/lib/libastro.so
 * /usr/lib/libastro.so.1
 * /usr/lib/libastro.so.23.8.5
 * /usr/lib/libmarbledeclarative.so
@@ -83,4 +83,4 @@ Marble libs{{< spoiler text="show files" >}}* /usr/lib/libastro.so
 * /usr/lib/qt5/plugins/kf5/krunner/plasma_runner_marble.so
 * /usr/lib/qt5/plugins/libmarble_part.so
 * /usr/lib/qt5/plugins/marblethumbnail.so
-{{< /spoiler >}}
+{{< /files >}}

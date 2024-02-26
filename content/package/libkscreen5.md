@@ -14,7 +14,7 @@ sha1sum = "ae6ead5ff3422fdb1d6acaa15d3651b14291fb9b"
 depends = "['kconfig>=5.115.0', 'kwayland>=5.115.0', 'libxrandr>=1.5.0-5', 'qt5-x11extras>=5.15.12']"
 reverse_depends = "['kscreen5', 'plasma-workspace']"
 +++
-KDE screen management software.{{< spoiler text="show files" >}}* /usr/bin/kscreen-doctor
+KDE screen management software.{{< files text="show files" >}}* /usr/bin/kscreen-doctor
 * /usr/include/KF5/KScreen/kscreen/backendmanager_p.h
 * /usr/include/KF5/KScreen/KScreen/Config
 * /usr/include/KF5/KScreen/kscreen/config.h
@@ -94,4 +94,4 @@ KDE screen management software.{{< spoiler text="show files" >}}* /usr/bin/kscre
 * /usr/share/qlogging-categories5/libkscreen.categories
 * /usr/share/qt5/mkspecs/modules/qt_KScreen.pri
 * /usr/share/zsh/site-functions/_kscreen-doctor
-{{< /spoiler >}}
+{{< /files >}}

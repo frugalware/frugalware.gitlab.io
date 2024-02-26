@@ -13,7 +13,7 @@ usize = "423314"
 sha1sum = "e265cbd61f7db2f99924def7a0f56e54e326d68a"
 depends = "['qt5-base>=5.15.10']"
 +++
-Qt5 based gui for mediainfo.{{< spoiler text="show files" >}}* /usr/bin/mediainfo-gui
+Qt5 based gui for mediainfo.{{< files text="show files" >}}* /usr/bin/mediainfo-gui
 * /usr/share/applications/mediainfo-gui.desktop
 * /usr/share/icons/hicolor/scalable/apps/mediainfo.svg
-{{< /spoiler >}}
+{{< /files >}}

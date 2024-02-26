@@ -13,7 +13,7 @@ usize = "2451052"
 sha1sum = "a3ad04474d789d617dc9ece00048ba92f4c4aea4"
 depends = "[]"
 +++
-Kdenetwork Documentation{{< spoiler text="show files" >}}* usr/share/doc/HTML/en/kcontrol/kcmtalkd/common
+Kdenetwork Documentation{{< files text="show files" >}}* usr/share/doc/HTML/en/kcontrol/kcmtalkd/common
 * usr/share/doc/HTML/en/kcontrol/kcmtalkd/index.cache.bz2
 * usr/share/doc/HTML/en/kcontrol/kcmtalkd/index.docbook
 * usr/share/doc/HTML/en/kcontrol/lanbrowser/common
@@ -152,4 +152,4 @@ Kdenetwork Documentation{{< spoiler text="show files" >}}* usr/share/doc/HTML/en
 * usr/share/doc/HTML/en/lisa/common
 * usr/share/doc/HTML/en/lisa/index.cache.bz2
 * usr/share/doc/HTML/en/lisa/index.docbook
-{{< /spoiler >}}
+{{< /files >}}

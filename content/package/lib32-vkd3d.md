@@ -14,7 +14,7 @@ sha1sum = "83334a45cbfa136f4221bca58c307e7c9bbbdb24"
 depends = "['lib32-ncurses', 'lib32-vulkan-icd-loader']"
 reverse_depends = "['wine', 'wine-devel']"
 +++
-Direct3D 12 to Vulkan translation library ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/vkd3d-compiler
+Direct3D 12 to Vulkan translation library ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/vkd3d-compiler
 * /usr/i686-frugalware-linux/bin/vkd3d-dxbc
 * /usr/i686-frugalware-linux/include/vkd3d/vkd3d.h
 * /usr/i686-frugalware-linux/include/vkd3d/vkd3d_d3d12.h
@@ -42,4 +42,4 @@ Direct3D 12 to Vulkan translation library ( 32bit ){{< spoiler text="show files"
 * /usr/lib32/pkgconfig/libvkd3d-shader.pc
 * /usr/lib32/pkgconfig/libvkd3d-utils.pc
 * /usr/lib32/pkgconfig/libvkd3d.pc
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "b3a03aadd745a98c40276223805cc08c992a25fe"
 depends = "['curl>=7.46.0', 'icu4c>=74.1', 'libxdamage', 'libxpm', 'ncurses', 'readline>=8.0', 'sdl2_gfx', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'sqlite3']"
 reverse_depends = "['freeciv-gtk2', 'freeciv-gtk3', 'freeciv-qt']"
 +++
-A multiuser clone of the famous Microprose game of Civilization.{{< spoiler text="show files" >}}* /etc/freeciv/database.lua
+A multiuser clone of the famous Microprose game of Civilization.{{< files text="show files" >}}* /etc/freeciv/database.lua
 * /usr/bin/freeciv-manual
 * /usr/bin/freeciv-ruledit
 * /usr/bin/freeciv-ruleup
@@ -3533,4 +3533,4 @@ A multiuser clone of the famous Microprose game of Civilization.{{< spoiler text
 * /usr/share/pixmaps/freeciv-client.png
 * /usr/share/pixmaps/freeciv-modpack.png
 * /usr/share/pixmaps/freeciv-ruledit.png
-{{< /spoiler >}}
+{{< /files >}}

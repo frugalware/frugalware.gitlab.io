@@ -13,5 +13,5 @@ usize = "7851244"
 sha1sum = "9ff4b8a6f6929a2959a9e40278b924cf29291623"
 depends = "['glibc']"
 +++
-Language specific files for tesseract lang afr{{< spoiler text="show files" >}}* /usr/share/tessdata/afr.traineddata
-{{< /spoiler >}}
+Language specific files for tesseract lang afr{{< files text="show files" >}}* /usr/share/tessdata/afr.traineddata
+{{< /files >}}

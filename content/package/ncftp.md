@@ -14,7 +14,7 @@ sha1sum = "8f8fae7b7e6b709a23930ca8519e2dedeef39657"
 depends = "['ncurses>=6.0-15']"
 reverse_depends = "['duplicity']"
 +++
-Console based FTP client{{< spoiler text="show files" >}}* /usr/bin/ncftp
+Console based FTP client{{< files text="show files" >}}* /usr/bin/ncftp
 * /usr/bin/ncftpbatch
 * /usr/bin/ncftpbookmarks
 * /usr/bin/ncftpget
@@ -28,4 +28,4 @@ Console based FTP client{{< spoiler text="show files" >}}* /usr/bin/ncftp
 * /usr/share/man/man1/ncftpls.1.gz
 * /usr/share/man/man1/ncftpput.1.gz
 * /usr/share/man/man1/ncftpspooler.1.gz
-{{< /spoiler >}}
+{{< /files >}}

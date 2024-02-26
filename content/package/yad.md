@@ -14,7 +14,7 @@ sha1sum = "99cac91930cfb47aff4bebfdb577f9f11b7277e0"
 depends = "['gtk+3']"
 reverse_depends = "['steamtinkerlaunch']"
 +++
-Display graphical dialogs from shell scripts or command line{{< spoiler text="show files" >}}* /usr/bin/yad
+Display graphical dialogs from shell scripts or command line{{< files text="show files" >}}* /usr/bin/yad
 * /usr/bin/yad-icon-browser
 * /usr/bin/yad-settings
 * /usr/bin/yad-tools
@@ -44,4 +44,4 @@ Display graphical dialogs from shell scripts or command line{{< spoiler text="sh
 * /usr/share/locale/zh_TW/LC_MESSAGES/yad.mo
 * /usr/share/man/man1/yad-tools.1.gz
 * /usr/share/man/man1/yad.1.gz
-{{< /spoiler >}}
+{{< /files >}}

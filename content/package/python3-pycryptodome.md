@@ -14,7 +14,7 @@ sha1sum = "efad8c9ca9b91c01e02600876ae37fa3eb2095ae"
 depends = "['gmp', 'python3>=3.11']"
 reverse_depends = "['streamlink']"
 +++
-Collection of cryptographic algorithms and protocols, implemented for use from Python 3.{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/Crypto/Cipher/AES.py
+Collection of cryptographic algorithms and protocols, implemented for use from Python 3.{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/Crypto/Cipher/AES.py
 * /usr/lib/python3.12/site-packages/Crypto/Cipher/AES.pyi
 * /usr/lib/python3.12/site-packages/Crypto/Cipher/ARC2.py
 * /usr/lib/python3.12/site-packages/Crypto/Cipher/ARC2.pyi
@@ -531,4 +531,4 @@ Collection of cryptographic algorithms and protocols, implemented for use from P
 * /usr/lib/python3.12/site-packages/pycryptodome-3.19.0-py3.12.egg-info/top_level.txt
 * /usr/share/doc/python3-pycryptodome-3.19.0/INSTALL.rst
 * /usr/share/doc/python3-pycryptodome-3.19.0/README.rst
-{{< /spoiler >}}
+{{< /files >}}

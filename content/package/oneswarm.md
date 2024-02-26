@@ -13,7 +13,7 @@ usize = "53483932"
 sha1sum = "8c0a6add54886270c90833341fcce207e87519dc"
 depends = "['openjre', 'swt']"
 +++
-OneSwarm is a new peer-to-peer tool.{{< spoiler text="show files" >}}* /usr/bin/oneswarm
+OneSwarm is a new peer-to-peer tool.{{< files text="show files" >}}* /usr/bin/oneswarm
 * /usr/share/applications/oneswarm.desktop
 * /usr/share/OneSwarm/.install4j/firstrun
 * /usr/share/OneSwarm/.install4j/i4jparams.conf
@@ -40,4 +40,4 @@ OneSwarm is a new peer-to-peer tool.{{< spoiler text="show files" >}}* /usr/bin/
 * /usr/share/OneSwarm/plugins/azupdater/plugin.properties
 * /usr/share/OneSwarm/plugins/azupdater/Updater.jar
 * /usr/share/pixmaps/oneswarm.png
-{{< /spoiler >}}
+{{< /files >}}

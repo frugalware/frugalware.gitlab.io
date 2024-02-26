@@ -15,7 +15,7 @@ depends = "['glibc>=2.35']"
 reverse_depends = "['audit', 'greetd', 'libreswan', 'openvswitch', 'smartmontools', 'usbguard', 'util-linux']"
 license = "LGPL2.1"
 +++
-A library making programming with POSIX capabilities easier than traditional libcap{{< spoiler text="show files" >}}* /usr/bin/captest
+A library making programming with POSIX capabilities easier than traditional libcap{{< files text="show files" >}}* /usr/bin/captest
 * /usr/bin/filecap
 * /usr/bin/netcap
 * /usr/bin/pscap
@@ -61,4 +61,4 @@ A library making programming with POSIX capabilities easier than traditional lib
 * /usr/share/man/man8/filecap.8.gz
 * /usr/share/man/man8/netcap.8.gz
 * /usr/share/man/man8/pscap.8.gz
-{{< /spoiler >}}
+{{< /files >}}

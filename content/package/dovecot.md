@@ -14,7 +14,7 @@ sha1sum = "16ed66234f7f9f6040a6478c0769d41c8041ea5d"
 depends = "['clucene', 'curl', 'e2fsprogs', 'icu4c>=74.1', 'libkrb5', 'libldap>=2.4.47-2', 'libpq>=11.2-2', 'libsodium>=1.0.19', 'mariadb-libs>=10.3.14', 'openssl>=3.1.0', 'pam']"
 reverse_depends = "['dovecot-sieve']"
 +++
-An open source IMAP and POP3 server, written with security primarily in mind.{{< spoiler text="show files" >}}* /etc/dovecot/README
+An open source IMAP and POP3 server, written with security primarily in mind.{{< files text="show files" >}}* /etc/dovecot/README
 * /usr/bin/doveadm
 * /usr/bin/doveconf
 * /usr/bin/dovecot
@@ -1116,4 +1116,4 @@ An open source IMAP and POP3 server, written with security primarily in mind.{{<
 * /usr/share/man/man1/dovecot.1.gz
 * /usr/share/man/man1/dsync.1.gz
 * /usr/share/man/man7/doveadm-search-query.7.gz
-{{< /spoiler >}}
+{{< /files >}}

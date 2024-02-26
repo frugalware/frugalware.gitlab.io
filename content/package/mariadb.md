@@ -14,7 +14,7 @@ sha1sum = "0deb43302f0da6d084cf274b4f27c90afb2221d5"
 depends = "['jemalloc', 'libaio', 'libsystemd', 'libxml2', 'lzo', 'mariadb-libs>=11.2.2', 'openssl>=3.1.0']"
 reverse_depends = "['postfixadmin']"
 +++
-A fast SQL database server{{< spoiler text="show files" >}}* /etc/mysql/logrotate.d/mariadb
+A fast SQL database server{{< files text="show files" >}}* /etc/mysql/logrotate.d/mariadb
 * /etc/mysql/my.cnf
 * /etc/mysql/my.cnf.d/client.cnf
 * /etc/mysql/my.cnf.d/enable_encryption.preset
@@ -20268,4 +20268,4 @@ A fast SQL database server{{< spoiler text="show files" >}}* /etc/mysql/logrotat
 * /usr/share/mysql/wsrep_notify
 * /usr/share/pam_user_map.so
 * /usr/share/user_map.conf
-{{< /spoiler >}}
+{{< /files >}}

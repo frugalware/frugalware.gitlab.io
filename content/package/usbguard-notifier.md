@@ -13,11 +13,11 @@ usize = "113974"
 sha1sum = "07fbcc179ca1421f0eaff3c28d025f649e34de72"
 depends = "['libnotify', 'librsvg', 'usbguard']"
 +++
-A tool for detecting usbguard policy and device presence changes{{< spoiler text="show files" >}}* /usr/bin/usbguard-notifier
+A tool for detecting usbguard policy and device presence changes{{< files text="show files" >}}* /usr/bin/usbguard-notifier
 * /usr/bin/usbguard-notifier-cli
 * /usr/lib/systemd/user/usbguard-notifier.service
 * /usr/share/doc/usbguard-notifier-0.1.0/LICENSE
 * /usr/share/doc/usbguard-notifier-0.1.0/README.md
 * /usr/share/man/man1/usbguard-notifier-cli.1.gz
 * /usr/share/man/man1/usbguard-notifier.1.gz
-{{< /spoiler >}}
+{{< /files >}}

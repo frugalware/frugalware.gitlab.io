@@ -14,7 +14,7 @@ sha1sum = "ed3ba46e85828b6bef1e68174c0af0b56429fbd6"
 depends = "['qt5-wayland>=5.15.12']"
 reverse_depends = "['breeze', 'kdeconnect-kde', 'kinfocenter5', 'kpipewire', 'krfb', 'kwayland-integration', 'libkscreen5', 'plasma-framework', 'plasma-integration', 'wrapland', 'yakuake']"
 +++
-KDE Wayland{{< spoiler text="show files" >}}* /usr/include/KF5/KWayland/KWayland/Client/appmenu.h
+KDE Wayland{{< files text="show files" >}}* /usr/include/KF5/KWayland/KWayland/Client/appmenu.h
 * /usr/include/KF5/KWayland/KWayland/Client/blur.h
 * /usr/include/KF5/KWayland/KWayland/Client/buffer.h
 * /usr/include/KF5/KWayland/KWayland/Client/compositor.h
@@ -138,4 +138,4 @@ KDE Wayland{{< spoiler text="show files" >}}* /usr/include/KF5/KWayland/KWayland
 * /usr/share/qlogging-categories5/kwayland.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KWaylandClient.pri
 * /usr/share/qt5/mkspecs/modules/qt_KWaylandServer.pri
-{{< /spoiler >}}
+{{< /files >}}

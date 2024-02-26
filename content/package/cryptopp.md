@@ -14,7 +14,7 @@ sha1sum = "7ab1bb4ca079460b6e03964c2f8f73fec870e892"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['cryfs']"
 +++
-C++ library for cryptography{{< spoiler text="show files" >}}* /usr/bin/cryptest.exe
+C++ library for cryptography{{< files text="show files" >}}* /usr/bin/cryptest.exe
 * /usr/include/cryptopp/3way.h
 * /usr/include/cryptopp/adler32.h
 * /usr/include/cryptopp/adv_simd.h
@@ -365,4 +365,4 @@ C++ library for cryptography{{< spoiler text="show files" >}}* /usr/bin/cryptest
 * /usr/share/cryptopp/TestVectors/xchacha.txt
 * /usr/share/cryptopp/TestVectors/xts.txt
 * /usr/share/doc/cryptopp-8.9.0/Readme.txt
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "36603799"
 sha1sum = "bc0ace269f136a3b79ffb4eec4c4bad21b10be2d"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Hungarian support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/hu/default.css
+Installs Hungarian support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/hu/default.css
 * /usr/lib/libreoffice/help/hu/err.html
 * /usr/lib/libreoffice/help/hu/highcontrast1.css
 * /usr/lib/libreoffice/help/hu/highcontrast2.css
@@ -134,4 +134,4 @@ Installs Hungarian support in LibreOffice{{< spoiler text="show files" >}}* /usr
 * /usr/lib/libreoffice/share/registry/Langpack-hu.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_hu.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_hu.xcd
-{{< /spoiler >}}
+{{< /files >}}

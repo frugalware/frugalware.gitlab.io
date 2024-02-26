@@ -14,7 +14,7 @@ sha1sum = "0774177988530a042fe45e9f26c9faed277f4c67"
 depends = "['libpciaccess>=0.13.4-4']"
 reverse_depends = "['chromium-browser', 'clightd', 'criu', 'ddcutil', 'dosbox', 'efl', 'enlightenment', 'evdi', 'guarddog', 'intel-compute-runtime', 'intel-gpu-tools', 'knoda', 'koverartist', 'lib32-mesa-libswrast', 'libcamera', 'libegl', 'libgbm', 'libgl', 'libosmesa', 'libva', 'libva-mesa-driver', 'libva1', 'libvpl', 'libxatracker', 'mesa-dri-drivers', 'mesa-libegl', 'mesa-libglx', 'mesa-nine', 'mesa-opemax', 'mesa-pipe-drivers', 'mesa-vdpau-drivers', 'neatvnc', 'qt5-wayland', 'qt6-wayland', 'radeon-profile', 'redshift', 'spice-vdagent', 'terminology', 'tg_owt', 'vulkan-mesa-layers', 'wayland-utils', 'wlroots', 'xf86-video-intel']"
 +++
-X.Org Userspace interface to kernel DRM services{{< spoiler text="show files" >}}* /usr/bin/amdgpu_stress
+X.Org Userspace interface to kernel DRM services{{< files text="show files" >}}* /usr/bin/amdgpu_stress
 * /usr/bin/drmdevice
 * /usr/bin/modeprint
 * /usr/bin/modetest
@@ -85,4 +85,4 @@ X.Org Userspace interface to kernel DRM services{{< spoiler text="show files" >}
 * /usr/lib/pkgconfig/libdrm_radeon.pc
 * /usr/share/doc/libdrm-2.4.120/README.rst
 * /usr/share/libdrm/amdgpu.ids
-{{< /spoiler >}}
+{{< /files >}}

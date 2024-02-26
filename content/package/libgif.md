@@ -14,7 +14,7 @@ sha1sum = "f8cf94c4bd45e2186e36f2eed6d5cec42010eec7"
 depends = "['glibc>=2.34']"
 reverse_depends = "['dlib', 'efl', 'efl', 'emacs', 'fontforge', 'imlib2', 'khtml', 'leptonica', 'libgdiplus', 'libwebp', 'mencoder', 'mplayer', 'openjre-x']"
 +++
-GIF loading and saving shared library{{< spoiler text="show files" >}}* /usr/bin/gif2rgb
+GIF loading and saving shared library{{< files text="show files" >}}* /usr/bin/gif2rgb
 * /usr/bin/gifbuild
 * /usr/bin/gifclrmp
 * /usr/bin/giffix
@@ -36,4 +36,4 @@ GIF loading and saving shared library{{< spoiler text="show files" >}}* /usr/bin
 * /usr/share/man/man1/giflib.xml.gz
 * /usr/share/man/man1/giftext.xml.gz
 * /usr/share/man/man1/giftool.xml.gz
-{{< /spoiler >}}
+{{< /files >}}

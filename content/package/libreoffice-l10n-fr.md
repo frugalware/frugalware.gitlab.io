@@ -13,7 +13,7 @@ usize = "37474444"
 sha1sum = "51263d9328c7ac0cd5991ec971eb72fa8081c385"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs French support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/fr/default.css
+Installs French support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/fr/default.css
 * /usr/lib/libreoffice/help/fr/err.html
 * /usr/lib/libreoffice/help/fr/highcontrast1.css
 * /usr/lib/libreoffice/help/fr/highcontrast2.css
@@ -133,4 +133,4 @@ Installs French support in LibreOffice{{< spoiler text="show files" >}}* /usr/li
 * /usr/lib/libreoffice/share/registry/Langpack-fr.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_fr.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_fr.xcd
-{{< /spoiler >}}
+{{< /files >}}

@@ -15,7 +15,7 @@ depends = "['util-linux>=2.28.2-2']"
 reverse_depends = "['partclone']"
 license = "LGPL2.1"
 +++
-A log-structured file system supporting continuous snapshotting (userspace utils){{< spoiler text="show files" >}}* /etc/nilfs_cleanerd.conf
+A log-structured file system supporting continuous snapshotting (userspace utils){{< files text="show files" >}}* /etc/nilfs_cleanerd.conf
 * /usr/bin/chcp
 * /usr/bin/dumpseg
 * /usr/bin/lscp
@@ -61,4 +61,4 @@ A log-structured file system supporting continuous snapshotting (userspace utils
 * /usr/share/man/man8/nilfs_cleanerd.8.gz
 * /usr/share/man/man8/rmcp.8.gz
 * /usr/share/man/man8/umount.nilfs2.8.gz
-{{< /spoiler >}}
+{{< /files >}}

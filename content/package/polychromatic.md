@@ -13,7 +13,7 @@ usize = "4827418"
 sha1sum = "9692c364659bc7bee2fff59e85b5b02fee6d2276"
 depends = "['hicolor-icon-theme', 'imagemagick>=7.1.1', 'libappindicator', 'openrazer', 'pyqtwebengine', 'python3-colorama', 'python3-colour']"
 +++
-A graphical front end for managing Razer peripherals under GNU/Linux.{{< spoiler text="show files" >}}* /etc/xdg/autostart/polychromatic-autostart.desktop
+A graphical front end for managing Razer peripherals under GNU/Linux.{{< files text="show files" >}}* /etc/xdg/autostart/polychromatic-autostart.desktop
 * /usr/bin/polychromatic-cli
 * /usr/bin/polychromatic-controller
 * /usr/bin/polychromatic-helper
@@ -362,4 +362,4 @@ A graphical front end for managing Razer peripherals under GNU/Linux.{{< spoiler
 * /usr/share/polychromatic/qt/style.qss
 * /usr/share/polychromatic/qt/troubleshooter.ui
 * /usr/share/polychromatic/qt/widget-summary.ui
-{{< /spoiler >}}
+{{< /files >}}

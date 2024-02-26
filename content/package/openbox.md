@@ -14,7 +14,7 @@ sha1sum = "154fd00ee073098403d3c0098a04eec4c162b9d2"
 depends = "['imlib2>=1.4.7-3', 'libffi>=3.2.1', 'libpng>=1.6.20', 'librsvg>=2.40.13', 'libsm>=1.2.2-2', 'libxcursor>=1.1.14-2', 'libxinerama>=1.1.3-2', 'libxrandr>=1.5.0-4', 'openbox-frugalware', 'python3', 'startup-notification>=0.12-3', 'xorg-server>=1.18.0']"
 reverse_depends = "['obconf']"
 +++
-A standards compliant, fast, light-weight, extensible window manager.{{< spoiler text="show files" >}}* /etc/X11/sessions/openbox-kde.desktop
+A standards compliant, fast, light-weight, extensible window manager.{{< files text="show files" >}}* /etc/X11/sessions/openbox-kde.desktop
 * /etc/X11/sessions/openbox.desktop
 * /etc/xdg/openbox/autostart
 * /etc/xdg/openbox/environment
@@ -165,4 +165,4 @@ A standards compliant, fast, light-weight, extensible window manager.{{< spoiler
 * /usr/share/themes/Syscrash/openbox-3/themerc
 * /usr/share/xsessions/openbox-kde.desktop
 * /usr/share/xsessions/openbox.desktop
-{{< /spoiler >}}
+{{< /files >}}

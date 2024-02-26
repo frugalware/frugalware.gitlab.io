@@ -13,5 +13,5 @@ usize = "463112"
 sha1sum = "ec4003250d923705a3d4d4ed69ce021311e55d51"
 depends = "['libboost>=1.83.0', 'libpst', 'python3>=3.12']"
 +++
-libpst python binding{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/_libpst.so
-{{< /spoiler >}}
+libpst python binding{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/_libpst.so
+{{< /files >}}

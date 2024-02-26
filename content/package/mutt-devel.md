@@ -14,7 +14,7 @@ sha1sum = "7f08441d41137381765397f8ce5de405a465a492"
 depends = "['cyrus-sasl>=2.1.26-7', 'gpgme>=1.6.0-3', 'libidn>=1.35', 'mailcap', 'openssl>=3.1.0']"
 license = "GPL"
 +++
-A small but very powerful text-based mail client development release.{{< spoiler text="show files" >}}* /etc/mutt-devel/mime.types
+A small but very powerful text-based mail client development release.{{< files text="show files" >}}* /etc/mutt-devel/mime.types
 * /etc/mutt-devel/mime.types.dist
 * /etc/mutt-devel/Muttrc
 * /etc/mutt-devel/Muttrc.dist
@@ -140,4 +140,4 @@ A small but very powerful text-based mail client development release.{{< spoiler
 * /usr/share/man/man5/mbox.5.gz
 * /usr/share/man/man5/mmdf.5.gz
 * /usr/share/man/man5/muttrc.5.gz
-{{< /spoiler >}}
+{{< /files >}}

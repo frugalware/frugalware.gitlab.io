@@ -15,7 +15,7 @@ depends = "['cyrus-sasl>=2.1.26-3', 'nss>=3.26', 'qt5-base>=5.15.10']"
 reverse_depends = "['kdeconnect-kde', 'kdepim-runtime', 'kdevelop', 'konversation', 'kopete', 'kpmcore', 'ksirk', 'kwallet5', 'libktorrent', 'messagelib', 'okteta', 'plasma-nm', 'qca-botan', 'qca-cyrus-sasl', 'qca-gcrypt', 'qca-gnupg', 'qca-nss', 'qca-ossl', 'quassel', 'skrooge']"
 license = "2.1"
 +++
-QCA aims to provide a straightforward and cross-platform crypto API, using Qt5 datatypes and conventions.{{< spoiler text="show files" >}}* /usr/bin/mozcerts-qt5
+QCA aims to provide a straightforward and cross-platform crypto API, using Qt5 datatypes and conventions.{{< files text="show files" >}}* /usr/bin/mozcerts-qt5
 * /usr/bin/qcatool-qt5
 * /usr/include/Qca-qt5/QtCrypto/qca.h
 * /usr/include/Qca-qt5/QtCrypto/qcaprovider.h
@@ -51,4 +51,4 @@ QCA aims to provide a straightforward and cross-platform crypto API, using Qt5 d
 * /usr/share/doc/qca-2.3.8/TODO
 * /usr/share/man/man1/qcatool-qt5.1.gz
 * /usr/share/qt5/mkspecs/features/crypto.prf
-{{< /spoiler >}}
+{{< /files >}}

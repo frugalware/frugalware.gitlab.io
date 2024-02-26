@@ -14,7 +14,7 @@ sha1sum = "f1ca3286bc1849286ac77a65922049101c77f94e"
 depends = "['assimp', 'qt6-quicktimeline', 'qt6-shadertools']"
 reverse_depends = "['qt6-graphs', 'qt6-grpc', 'qt6-multimedia', 'qt6-quick3dphysics', 'qt6-quickeffectmaker', 'qtcreator']"
 +++
-The Qt6 toolkit, qtquick3d{{< spoiler text="show files" >}}* /usr/include/qt6/QtQuick3D/6.6.2/QtQuick3D/private/qquick3dabstractlight_p.h
+The Qt6 toolkit, qtquick3d{{< files text="show files" >}}* /usr/include/qt6/QtQuick3D/6.6.2/QtQuick3D/private/qquick3dabstractlight_p.h
 * /usr/include/qt6/QtQuick3D/6.6.2/QtQuick3D/private/qquick3dbakedlightmap_p.h
 * /usr/include/qt6/QtQuick3D/6.6.2/QtQuick3D/private/qquick3dcamera_p.h
 * /usr/include/qt6/QtQuick3D/6.6.2/QtQuick3D/private/qquick3dcubemaptexture_p.h
@@ -1095,4 +1095,4 @@ The Qt6 toolkit, qtquick3d{{< spoiler text="show files" >}}* /usr/include/qt6/Qt
 * /usr/lib/qt6/qml/QtQuick3D/Particles3D/qmldir
 * /usr/lib/qt6/qml/QtQuick3D/plugins.qmltypes
 * /usr/lib/qt6/qml/QtQuick3D/qmldir
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "504828"
 sha1sum = "bb934e39836570347a5a81940fd8709be9f72ab3"
 depends = "['glibc']"
 +++
-Lightweight system for writing, administering, and running unit tests in C{{< spoiler text="show files" >}}* /usr/include/BCUnit/Automated.h
+Lightweight system for writing, administering, and running unit tests in C{{< files text="show files" >}}* /usr/include/BCUnit/Automated.h
 * /usr/include/BCUnit/Basic.h
 * /usr/include/BCUnit/BCUnit.h
 * /usr/include/BCUnit/BCUnit_intl.h
@@ -44,4 +44,4 @@ Lightweight system for writing, administering, and running unit tests in C{{< sp
 * /usr/share/doc/bcunit-5.2.0/README.md
 * /usr/share/doc/bcunit-5.2.0/TODO
 * /usr/share/doc/bcunit-5.2.0/VERSION
-{{< /spoiler >}}
+{{< /files >}}

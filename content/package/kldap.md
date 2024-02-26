@@ -14,7 +14,7 @@ sha1sum = "9b27926e8682a5277cea161eabca60dc6020e92b"
 depends = "['kcompletion>=5.115.0', 'ki18n>=5.115.0', 'kio>=5.115.0', 'kmbox>=23.08.5', 'libldap>=2.5.4', 'qtkeychain']"
 reverse_depends = "['libkdepim']"
 +++
-Desc: C++ API for LDAP access.{{< spoiler text="show files" >}}* /usr/include/KPim5/KLDAP/KLDAP/AddHostDialog
+Desc: C++ API for LDAP access.{{< files text="show files" >}}* /usr/include/KPim5/KLDAP/KLDAP/AddHostDialog
 * /usr/include/KPim5/KLDAP/kldap/addhostdialog.h
 * /usr/include/KPim5/KLDAP/KLDAP/Ber
 * /usr/include/KPim5/KLDAP/kldap/ber.h
@@ -235,4 +235,4 @@ Desc: C++ API for LDAP access.{{< spoiler text="show files" >}}* /usr/include/KP
 * /usr/share/qlogging-categories5/kldap.categories
 * /usr/share/qlogging-categories5/kldap.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_Ldap.pri
-{{< /spoiler >}}
+{{< /files >}}

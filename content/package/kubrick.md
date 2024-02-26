@@ -13,7 +13,7 @@ usize = "1965698"
 sha1sum = "b0638c606e8ede0f91e74a4bda3094a79975e155"
 depends = "['libglu', 'libkdegames>=23.08.5']"
 +++
-Kubrick is based on the famous Rubik's Cube{{< spoiler text="show files" >}}* /usr/bin/kubrick
+Kubrick is based on the famous Rubik's Cube{{< files text="show files" >}}* /usr/bin/kubrick
 * /usr/share/applications/org.kde.kubrick.desktop
 * /usr/share/doc/HTML/ca/kubrick/index.cache.bz2
 * /usr/share/doc/HTML/ca/kubrick/index.docbook
@@ -130,4 +130,4 @@ Kubrick is based on the famous Rubik's Cube{{< spoiler text="show files" >}}* /u
 * /usr/share/locale/zh_TW/LC_MESSAGES/kubrick.mo
 * /usr/share/metainfo/org.kde.kubrick.appdata.xml
 * /usr/share/qlogging-categories5/kubrick.categories
-{{< /spoiler >}}
+{{< /files >}}

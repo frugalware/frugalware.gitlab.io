@@ -13,7 +13,7 @@ usize = "24174601"
 sha1sum = "022c269abfc8e0524eb71bc45b393f0100062417"
 depends = "['clang>=17.0.6']"
 +++
-Next generation, high-performance debugger{{< spoiler text="show files" >}}* /usr/bin/lldb
+Next generation, high-performance debugger{{< files text="show files" >}}* /usr/bin/lldb
 * /usr/bin/lldb-argdumper
 * /usr/bin/lldb-instr
 * /usr/bin/lldb-server
@@ -549,4 +549,4 @@ Next generation, high-performance debugger{{< spoiler text="show files" >}}* /us
 * /usr/lib/liblldb.so.17.0.6
 * /usr/lib/liblldbIntelFeatures.so
 * /usr/lib/liblldbIntelFeatures.so.17
-{{< /spoiler >}}
+{{< /files >}}

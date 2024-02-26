@@ -13,7 +13,7 @@ usize = "383072"
 sha1sum = "280c8852ba92ca80016136dca1d95def17b42eff"
 depends = "['glibc>=2.34']"
 +++
-A tool for generating text-scanning programs ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/flex
+A tool for generating text-scanning programs ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/flex
 * /usr/i686-frugalware-linux/bin/flex++
 * /usr/i686-frugalware-linux/bin/lex
 * /usr/i686-frugalware-linux/include/FlexLexer.h
@@ -22,4 +22,4 @@ A tool for generating text-scanning programs ( 32bit ){{< spoiler text="show fil
 * /usr/lib32/libfl.so.2
 * /usr/lib32/libfl.so.2.0.0
 * /usr/lib32/libl.a
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,5 +14,5 @@ sha1sum = "0e18114c7d6f095dacbdc279341d21fb976d935d"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
-Icelandic language support for Thunderbird{{< spoiler text="show files" >}}* /usr/lib/thunderbird/extensions/langpack-is@thunderbird.mozilla.org.xpi
-{{< /spoiler >}}
+Icelandic language support for Thunderbird{{< files text="show files" >}}* /usr/lib/thunderbird/extensions/langpack-is@thunderbird.mozilla.org.xpi
+{{< /files >}}

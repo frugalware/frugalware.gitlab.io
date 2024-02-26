@@ -13,7 +13,7 @@ usize = "351162"
 sha1sum = "ed54655327e8fe1551be8bc8a64680831262ad68"
 depends = "['kholidays', 'ki18n', 'qt5-declarative']"
 +++
-Library for parsing and evaluating OSM opening hours expressions{{< spoiler text="show files" >}}* /usr/include/KOpeningHours/Display
+Library for parsing and evaluating OSM opening hours expressions{{< files text="show files" >}}* /usr/include/KOpeningHours/Display
 * /usr/include/kopeninghours/display.h
 * /usr/include/KOpeningHours/Interval
 * /usr/include/kopeninghours/interval.h
@@ -66,4 +66,4 @@ Library for parsing and evaluating OSM opening hours expressions{{< spoiler text
 * /usr/share/qlogging-categories5/org_kde_kopeninghours.categories
 * /usr/share/qt5/qml/org/kde/kopeninghours/libkopeninghoursqmlplugin.so
 * /usr/share/qt5/qml/org/kde/kopeninghours/qmldir
-{{< /spoiler >}}
+{{< /files >}}

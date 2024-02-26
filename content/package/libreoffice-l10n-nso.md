@@ -13,7 +13,7 @@ usize = "1456358"
 sha1sum = "81c66ed0d5feeab48dc84a3c929a392db2d97368"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Northern Sotho support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/program/resource/nso/LC_MESSAGES/acc.mo
+Installs Northern Sotho support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/nso/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/nso/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/nso/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/nso/LC_MESSAGES/chart.mo
@@ -51,4 +51,4 @@ Installs Northern Sotho support in LibreOffice{{< spoiler text="show files" >}}*
 * /usr/lib/libreoffice/share/registry/Langpack-nso.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_nso.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_nso.xcd
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "5815136"
 sha1sum = "2215c9f793940817af9d4ab5d9f7e6abcf23435e"
 depends = "['kio>=5.115.0', 'knewstuff>=5.115.0']"
 +++
-Educational Programming Environment.{{< spoiler text="show files" >}}* /etc/xdg/kturtle.knsrc
+Educational Programming Environment.{{< files text="show files" >}}* /etc/xdg/kturtle.knsrc
 * /usr/bin/kturtle
 * /usr/share/applications/org.kde.kturtle.desktop
 * /usr/share/doc/HTML/ar/kturtle/getting-started.docbook
@@ -236,4 +236,4 @@ Educational Programming Environment.{{< spoiler text="show files" >}}* /etc/xdg/
 * /usr/share/locale/zh_CN/LC_MESSAGES/kturtle.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kturtle.mo
 * /usr/share/metainfo/org.kde.kturtle.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

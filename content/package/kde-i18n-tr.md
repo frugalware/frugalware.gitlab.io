@@ -13,7 +13,7 @@ usize = "6337503"
 sha1sum = "6f77d266a9c404fafecd6c98c906e144df48065f"
 depends = "[]"
 +++
-Turkish Localization for KDE.{{< spoiler text="show files" >}}* usr/share/apps/khangman/data/tr/animals.kvtml
+Turkish Localization for KDE.{{< files text="show files" >}}* usr/share/apps/khangman/data/tr/animals.kvtml
 * usr/share/apps/khangman/data/tr/easy.kvtml
 * usr/share/apps/khangman/data/tr/hard.kvtml
 * usr/share/apps/khangman/data/tr/medium.kvtml
@@ -689,4 +689,4 @@ Turkish Localization for KDE.{{< spoiler text="show files" >}}* usr/share/apps/k
 * usr/share/locale/tr/LC_MESSAGES/wakeup.mo
 * usr/share/locale/tr/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/tr/LC_MESSAGES/webarchiver.mo
-{{< /spoiler >}}
+{{< /files >}}

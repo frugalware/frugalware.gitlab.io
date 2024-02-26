@@ -13,7 +13,7 @@ usize = "219016"
 sha1sum = "38be8ccb7d0666aede58bc5ab15bbf07649dde8d"
 depends = "['perl>=5.28.2']"
 +++
-ddclient is a perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network{{< spoiler text="show files" >}}* /etc/ddclient/ddclient.conf
+ddclient is a perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network{{< files text="show files" >}}* /etc/ddclient/ddclient.conf
 * /usr/bin/ddclient
 * /usr/lib/systemd/system/ddclient.service
 * /usr/share/doc/ddclient-3.8.3/ChangeLog
@@ -36,4 +36,4 @@ ddclient is a perl client used to update dynamic DNS entries for accounts on Dyn
 * /usr/share/doc/ddclient-3.8.3/sample-etc_rc.d_init.d_ddclient.redhat
 * /usr/share/doc/ddclient-3.8.3/sample-etc_rc.d_init.d_ddclient.ubuntu
 * /usr/share/doc/ddclient-3.8.3/TODO
-{{< /spoiler >}}
+{{< /files >}}

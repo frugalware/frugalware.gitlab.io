@@ -13,6 +13,6 @@ usize = "9091540"
 sha1sum = "ec384d06d19ab11e4af640b1de3ac0c560314559"
 depends = "['libstdc++', 'zlib>=1.2.12']"
 +++
-Alternative rust compiler{{< spoiler text="show files" >}}* /usr/bin/mrustc
+Alternative rust compiler{{< files text="show files" >}}* /usr/bin/mrustc
 * /usr/share/doc/mrustc-0.9/README.md
-{{< /spoiler >}}
+{{< /files >}}

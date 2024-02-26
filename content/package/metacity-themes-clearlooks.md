@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "0ed3a832eb0628c8969a937c724e36a14b0b8bb4"
 depends = "[]"
 +++
-Clearlooks Metacity theme{{< spoiler text="show files" >}}* usr/share/themes/Clearlooks-Balloon/metacity-1/metacity-theme-1.xml
+Clearlooks Metacity theme{{< files text="show files" >}}* usr/share/themes/Clearlooks-Balloon/metacity-1/metacity-theme-1.xml
 * usr/share/themes/Clearlooks-Sharp/metacity-1/metacity-theme-1.xml
 * usr/share/themes/Clearlooks/metacity-1/metacity-theme-1.xml
-{{< /spoiler >}}
+{{< /files >}}

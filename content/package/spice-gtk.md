@@ -14,7 +14,7 @@ sha1sum = "a25543b14a00658c07910fecf33aae9d9f476945"
 depends = "['gstreamer1', 'gtk+3>=3.18.7', 'spice-glib>=0.41']"
 reverse_depends = "['remmina-spice', 'virt-manager']"
 +++
-A Gtk client and libraries for SPICE remote desktop servers{{< spoiler text="show files" >}}* /usr/bin/spicy
+A Gtk client and libraries for SPICE remote desktop servers{{< files text="show files" >}}* /usr/bin/spicy
 * /usr/bin/spicy-screenshot
 * /usr/bin/spicy-stats
 * /usr/include/spice-client-gtk-3.0/spice-client-gtk.h
@@ -43,4 +43,4 @@ A Gtk client and libraries for SPICE remote desktop servers{{< spoiler text="sho
 * /usr/share/man/man1/spice-client.1.gz
 * /usr/share/vala/vapi/spice-client-gtk-3.0.deps
 * /usr/share/vala/vapi/spice-client-gtk-3.0.vapi
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "86d46a343062b6e8a5586c1d5be9d958403d1087"
 depends = "['ffcall', 'gettext', 'glibc', 'libsigsegv', 'ncurses>=6.0-3', 'readline>=8.0']"
 reverse_depends = "['maxima']"
 +++
-GNU CLisp is an ANSI Common Lisp Implementation{{< spoiler text="show files" >}}* /usr/bin/clisp
+GNU CLisp is an ANSI Common Lisp Implementation{{< files text="show files" >}}* /usr/bin/clisp
 * /usr/bin/clisp-link
 * /usr/lib/clisp-2.49/base/bogomips.o
 * /usr/lib/clisp-2.49/base/calls.o
@@ -92,4 +92,4 @@ GNU CLisp is an ANSI Common Lisp Implementation{{< spoiler text="show files" >}}
 * /usr/share/man/man1/clisp-link.1.gz
 * /usr/share/man/man1/clisp.1.gz
 * /usr/share/vim/vimfiles/after/syntax/lisp.vim
-{{< /spoiler >}}
+{{< /files >}}

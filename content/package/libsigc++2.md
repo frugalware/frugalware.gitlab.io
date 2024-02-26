@@ -14,7 +14,7 @@ sha1sum = "682ad98dea306d8c2c0f54e34f6a8b5ff1d91292"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['cairomm', 'glibmm24', 'libtorrent', 'net6']"
 +++
-A typesafe callback framework for C++{{< spoiler text="show files" >}}* /usr/include/sigc++-2.0/sigc++/adaptors/adaptors.h
+A typesafe callback framework for C++{{< files text="show files" >}}* /usr/include/sigc++-2.0/sigc++/adaptors/adaptors.h
 * /usr/include/sigc++-2.0/sigc++/adaptors/adaptor_trait.h
 * /usr/include/sigc++-2.0/sigc++/adaptors/bind.h
 * /usr/include/sigc++-2.0/sigc++/adaptors/bind_return.h
@@ -57,4 +57,4 @@ A typesafe callback framework for C++{{< spoiler text="show files" >}}* /usr/inc
 * /usr/share/doc/libsigc++2-2.12.0/COPYING
 * /usr/share/doc/libsigc++2-2.12.0/NEWS
 * /usr/share/doc/libsigc++2-2.12.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "2dc53663f2f7cf86b82fb94ab1e4887d25078824"
 depends = "['libgpg-error>=1.36-2']"
 reverse_depends = "['dirmngr', 'dirmngr-ldap', 'efl', 'enlightenment', 'freeipmi', 'fsarchiver', 'gcr-1', 'gnunet', 'gpg-agent', 'gtk-vnc', 'kvm', 'kwallet-pam', 'lftp', 'libgl', 'libgnome-keyring', 'libmicrohttpd', 'libotr', 'libquvi', 'libsecret', 'libssh', 'libsystemd', 'libvlc', 'libvncserver', 'libxslt', 'networkmanager', 'otter-browser', 'qca-gcrypt', 'rasqal', 'remmina', 'rng-tools', 'rtmpdump', 'systemd-pull', 'systemd-sysvinit', 'terminology', 'vpnc', 'weechat']"
 +++
-Libgcrypt is a general purpose cryptographic library based on the code from GnuPG.{{< spoiler text="show files" >}}* /usr/bin/dumpsexp
+Libgcrypt is a general purpose cryptographic library based on the code from GnuPG.{{< files text="show files" >}}* /usr/bin/dumpsexp
 * /usr/bin/hmac256
 * /usr/bin/libgcrypt-config
 * /usr/bin/mpicalc
@@ -39,4 +39,4 @@ Libgcrypt is a general purpose cryptographic library based on the code from GnuP
 * /usr/share/info/gcrypt.info-2.gz
 * /usr/share/info/gcrypt.info.gz
 * /usr/share/man/man1/hmac256.1.gz
-{{< /spoiler >}}
+{{< /files >}}

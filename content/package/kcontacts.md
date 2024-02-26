@@ -14,7 +14,7 @@ sha1sum = "57efab4f0c23c94360befdf54de349b7bfa906ca"
 depends = "['kcodecs>=5.115.0', 'kconfig>=5.115.0', 'kcoreaddons>=5.115.0', 'ki18n>=5.115.0']"
 reverse_depends = "['akonadi-contacts', 'itinerary', 'kitinerary', 'kopete', 'kpeoplevcard', 'ktnef', 'libkgapi']"
 +++
-Address book API for KDE{{< spoiler text="show files" >}}* /usr/include/KF5/KContacts/KContacts/Address
+Address book API for KDE{{< files text="show files" >}}* /usr/include/KF5/KContacts/KContacts/Address
 * /usr/include/KF5/KContacts/kcontacts/address.h
 * /usr/include/KF5/KContacts/KContacts/Addressee
 * /usr/include/KF5/KContacts/kcontacts/addressee.h
@@ -153,4 +153,4 @@ Address book API for KDE{{< spoiler text="show files" >}}* /usr/include/KF5/KCon
 * /usr/share/qlogging-categories5/kcontacts.categories
 * /usr/share/qlogging-categories5/kcontacts.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KContacts.pri
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,6 +13,6 @@ usize = "163320"
 sha1sum = "14b8c64ecf0c1497c681e616b72b11f8784619a8"
 depends = "['glibc', 'xz']"
 +++
-Delta/differential compression tools and binary diff tool{{< spoiler text="show files" >}}* /usr/bin/xdelta3
+Delta/differential compression tools and binary diff tool{{< files text="show files" >}}* /usr/bin/xdelta3
 * /usr/share/man/man1/xdelta3.1.gz
-{{< /spoiler >}}
+{{< /files >}}

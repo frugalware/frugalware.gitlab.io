@@ -13,5 +13,5 @@ usize = "22216"
 sha1sum = "9683187c4662b7cc0fa3c25a0a015b6c03a6f3a7"
 depends = "['libssh2', 'libvlc>=3.0.20']"
 +++
-vlc plugin for libssh2{{< spoiler text="show files" >}}* /usr/lib/vlc/plugins/access/libsftp_plugin.so
-{{< /spoiler >}}
+vlc plugin for libssh2{{< files text="show files" >}}* /usr/lib/vlc/plugins/access/libsftp_plugin.so
+{{< /files >}}

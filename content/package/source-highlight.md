@@ -14,7 +14,7 @@ sha1sum = "b0a2d5baee58908a54b7a9a7d0ca4ce3a4093d74"
 depends = "['ctags>=5.8-6', 'libboost>=1.78.0']"
 reverse_depends = "['gtk-doc']"
 +++
-Given a source file, produces a document with syntax highlighting.{{< spoiler text="show files" >}}* /etc/bash_completion.d/source-highlight
+Given a source file, produces a document with syntax highlighting.{{< files text="show files" >}}* /etc/bash_completion.d/source-highlight
 * /usr/bin/check-regexp
 * /usr/bin/cpp2html
 * /usr/bin/java2html
@@ -433,4 +433,4 @@ Given a source file, produces a document with syntax highlighting.{{< spoiler te
 * /usr/share/source-highlight/xml.lang
 * /usr/share/source-highlight/xorg.lang
 * /usr/share/source-highlight/zsh.lang
-{{< /spoiler >}}
+{{< /files >}}

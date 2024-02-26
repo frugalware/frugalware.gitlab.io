@@ -14,7 +14,7 @@ sha1sum = "d039232bd2f74e71169f06ee49d12bfd927d0780"
 depends = "['libpng>=1.6.25']"
 reverse_depends = "['keepassxc', 'prison', 'qtox']"
 +++
-A C library for encoding data in a QR Code symbol{{< spoiler text="show files" >}}* /usr/bin/qrencode
+A C library for encoding data in a QR Code symbol{{< files text="show files" >}}* /usr/bin/qrencode
 * /usr/include/qrencode.h
 * /usr/lib/libqrencode.so
 * /usr/lib/libqrencode.so.4
@@ -27,4 +27,4 @@ A C library for encoding data in a QR Code symbol{{< spoiler text="show files" >
 * /usr/share/doc/qrencode-4.1.1/Readme.markdown
 * /usr/share/doc/qrencode-4.1.1/TODO
 * /usr/share/man/man1/qrencode.1.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "fe9ca070c7711ce82226deaa1e2f904b22183572"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-mail-spf', 'spamassassin']"
 +++
-Manages IPv4 and IPv6 addresses and subnets{{< spoiler text="show files" >}}* /usr/lib/perl5/5.38/site_perl/auto/NetAddr/IP/autosplit.ix
+Manages IPv4 and IPv6 addresses and subnets{{< files text="show files" >}}* /usr/lib/perl5/5.38/site_perl/auto/NetAddr/IP/autosplit.ix
 * /usr/lib/perl5/5.38/site_perl/auto/NetAddr/IP/canon.al
 * /usr/lib/perl5/5.38/site_perl/auto/NetAddr/IP/coalesce.al
 * /usr/lib/perl5/5.38/site_perl/auto/NetAddr/IP/compactref.al
@@ -83,4 +83,4 @@ Manages IPv4 and IPv6 addresses and subnets{{< spoiler text="show files" >}}* /u
 * /usr/share/man/man3/NetAddr::IP::Lite.3perl.gz
 * /usr/share/man/man3/NetAddr::IP::Util.3perl.gz
 * /usr/share/man/man3/NetAddr::IP::UtilPP.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

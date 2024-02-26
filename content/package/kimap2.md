@@ -13,7 +13,7 @@ usize = "656789"
 sha1sum = "6a1d90abd39702153e8a79748fc2308e93073848"
 depends = "['cyrus-sasl', 'kcoreaddons>=5.105.0', 'kmime>=23.04.0', 'pcre2']"
 +++
-Job-based API for interacting with an IMAP4rev1 server.{{< spoiler text="show files" >}}* /usr/include/kimap2/Acl
+Job-based API for interacting with an IMAP4rev1 server.{{< files text="show files" >}}* /usr/include/kimap2/Acl
 * /usr/include/KIMAP2/Acl
 * /usr/include/kimap2/acl.h
 * /usr/include/kimap2/AclJobBase
@@ -147,4 +147,4 @@ Job-based API for interacting with an IMAP4rev1 server.{{< spoiler text="show fi
 * /usr/share/doc/kimap2-0.4.0/COPYING.LIB
 * /usr/share/doc/kimap2-0.4.0/README.md
 * /usr/share/qt5/mkspecs/modules/qt_KIMAP2.pri
-{{< /spoiler >}}
+{{< /files >}}

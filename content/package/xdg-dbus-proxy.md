@@ -14,8 +14,8 @@ sha1sum = "9f4cc7e0e2d01e0daabadf691211ac6084369a4b"
 depends = "['glib2']"
 reverse_depends = "['flatpak', 'webkit-gtk3']"
 +++
-A D-Bus proxy.{{< spoiler text="show files" >}}* /usr/bin/xdg-dbus-proxy
+A D-Bus proxy.{{< files text="show files" >}}* /usr/bin/xdg-dbus-proxy
 * /usr/share/doc/xdg-dbus-proxy-0.1.5/COPYING
 * /usr/share/doc/xdg-dbus-proxy-0.1.5/NEWS
 * /usr/share/doc/xdg-dbus-proxy-0.1.5/README.md
-{{< /spoiler >}}
+{{< /files >}}

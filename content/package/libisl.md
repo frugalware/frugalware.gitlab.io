@@ -14,7 +14,7 @@ sha1sum = "92a89c698878883df1f81e7686aab42472930ea9"
 depends = "['gmp']"
 reverse_depends = "['gcc', 'gcc-12']"
 +++
-Library for manipulating sets and relations of integer points bounded by linear constraints{{< spoiler text="show files" >}}* /usr/include/isl/aff.h
+Library for manipulating sets and relations of integer points bounded by linear constraints{{< files text="show files" >}}* /usr/include/isl/aff.h
 * /usr/include/isl/aff_type.h
 * /usr/include/isl/arg.h
 * /usr/include/isl/ast.h
@@ -86,4 +86,4 @@ Library for manipulating sets and relations of integer points bounded by linear 
 * /usr/share/doc/libisl-0.26/ChangeLog
 * /usr/share/doc/libisl-0.26/LICENSE
 * /usr/share/doc/libisl-0.26/README
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "e84a9d808aa9b1114bb3107bfe81ed9defa0b3d9"
 depends = "['gdk-pixbuf2>=2.36.11-3', 'libcroco>=0.6.12-4', 'pango>=1.42.0']"
 reverse_depends = "['efl', 'gegl', 'graphviz', 'gtk-sharp', 'imagemagick', 'libvips', 'openbox', 'openscenegraph', 'thunderbird', 'usbguard-notifier', 'vlc-dts-ca', 'vlc-svg']"
 +++
-A high performance SVG rendering library for GNOME{{< spoiler text="show files" >}}* /usr/bin/rsvg-convert
+A high performance SVG rendering library for GNOME{{< files text="show files" >}}* /usr/bin/rsvg-convert
 * /usr/include/librsvg-2.0/librsvg/rsvg-cairo.h
 * /usr/include/librsvg-2.0/librsvg/rsvg-features.h
 * /usr/include/librsvg-2.0/librsvg/rsvg-version.h
@@ -34,4 +34,4 @@ A high performance SVG rendering library for GNOME{{< spoiler text="show files" 
 * /usr/share/gir-1.0/Rsvg-2.0.gir
 * /usr/share/thumbnailers/librsvg.thumbnailer
 * /usr/share/vala/vapi/librsvg-2.0.vapi
-{{< /spoiler >}}
+{{< /files >}}

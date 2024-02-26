@@ -14,10 +14,10 @@ sha1sum = "0abdb04c9112f94aef9ceeb607ed418131f9f34a"
 depends = "['xorg-server>=1.20.4-3']"
 license = "GPL2"
 +++
-X.Org video driver for VESA cards{{< spoiler text="show files" >}}* /usr/lib/xorg/modules/drivers/vesa_drv.so
+X.Org video driver for VESA cards{{< files text="show files" >}}* /usr/lib/xorg/modules/drivers/vesa_drv.so
 * /usr/share/doc/xf86-video-vesa-2.6.0/ChangeLog
 * /usr/share/doc/xf86-video-vesa-2.6.0/COPYING
 * /usr/share/doc/xf86-video-vesa-2.6.0/INSTALL
 * /usr/share/doc/xf86-video-vesa-2.6.0/README.md
 * /usr/share/man/man4/vesa.4.gz
-{{< /spoiler >}}
+{{< /files >}}

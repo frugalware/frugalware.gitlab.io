@@ -14,7 +14,7 @@ sha1sum = "ffb739ed4eea826fcbe335ff54b8acfa86faaf3c"
 depends = "[]"
 reverse_depends = "['forms']"
 +++
-JGoodies Common Library{{< spoiler text="show files" >}}* /usr/share/doc/jgoodies-common-1.8.1/AUTHORS
+JGoodies Common Library{{< files text="show files" >}}* /usr/share/doc/jgoodies-common-1.8.1/AUTHORS
 * /usr/share/doc/jgoodies-common-1.8.1/ChangeLog
 * /usr/share/doc/jgoodies-common-1.8.1/COPYING
 * /usr/share/doc/jgoodies-common-1.8.1/INSTALL
@@ -30,4 +30,4 @@ JGoodies Common Library{{< spoiler text="show files" >}}* /usr/share/doc/jgoodie
 * /usr/share/doc/jgoodies-common-1.8.1/THANKS
 * /usr/share/doc/jgoodies-common-1.8.1/TODO
 * /usr/share/java/jgoodies-common.jar
-{{< /spoiler >}}
+{{< /files >}}

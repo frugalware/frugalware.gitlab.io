@@ -13,7 +13,7 @@ usize = "9218278"
 sha1sum = "40b0c7de8a4af2f958644fb99488af2d72af95ad"
 depends = "['icu4c>=74.1', 'kconfig', 'kcoreaddons', 'kdbusaddons', 'kpmcore>=22.04.3', 'libboost>=1.83.0', 'libpwquality', 'parted', 'polkit-qt5-1', 'python3>=3.12', 'qt5-declarative>=5.15.10', 'qt5-svg>=5.15.10', 'rsync', 'squashfs', 'yaml-cpp>=0.8.0']"
 +++
-Distribution-independent installer framework{{< spoiler text="show files" >}}* /etc/polkit-1/rules.d/49-nopasswd_calamares.rules
+Distribution-independent installer framework{{< files text="show files" >}}* /etc/polkit-1/rules.d/49-nopasswd_calamares.rules
 * /etc/sudoers.d/calamares-frugalware-live
 * /usr/bin/calamares
 * /usr/include/libcalamares/Branding.h
@@ -320,4 +320,4 @@ Distribution-independent installer framework{{< spoiler text="show files" >}}* /
 * /usr/share/locale/zh_TW/LC_MESSAGES/calamares-python.mo
 * /usr/share/man/man8/calamares.8.gz
 * /usr/share/polkit-1/actions/com.github.calamares.calamares.policy
-{{< /spoiler >}}
+{{< /files >}}

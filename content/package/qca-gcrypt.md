@@ -13,5 +13,5 @@ usize = "71696"
 sha1sum = "08694310e815712067a3737295f956e00fa290e7"
 depends = "['libgcrypt>=1.7.3-2', 'qca']"
 +++
-Plugins for qca with gcrypt{{< spoiler text="show files" >}}* /usr/lib/qca-qt5/crypto/libqca-gcrypt.so
-{{< /spoiler >}}
+Plugins for qca with gcrypt{{< files text="show files" >}}* /usr/lib/qca-qt5/crypto/libqca-gcrypt.so
+{{< /files >}}

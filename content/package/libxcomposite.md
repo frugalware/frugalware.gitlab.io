@@ -15,7 +15,7 @@ depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3', 'libxfixes>=5.0.2-2']"
 reverse_depends = "['cef', 'efl', 'enlightenment', 'gtk+2-libs', 'gtk+3', 'gtk+4', 'kompose', 'obs-studio', 'openjre-x', 'qt5-wayland', 'qt5-webengine', 'qt6-webengine', 'terminology', 'virtualbox', 'virtualbox-guest-additions', 'whalebird', 'wine', 'wine-devel']"
 license = "GPL2"
 +++
-X.Org XComposite library{{< spoiler text="show files" >}}* /usr/include/X11/extensions/Xcomposite.h
+X.Org XComposite library{{< files text="show files" >}}* /usr/include/X11/extensions/Xcomposite.h
 * /usr/lib/libXcomposite.so
 * /usr/lib/libXcomposite.so.1
 * /usr/lib/libXcomposite.so.1.0.0
@@ -37,4 +37,4 @@ X.Org XComposite library{{< spoiler text="show files" >}}* /usr/include/X11/exte
 * /usr/share/man/man3/XCompositeUnredirectSubwindows.3.gz
 * /usr/share/man/man3/XCompositeUnredirectWindow.3.gz
 * /usr/share/man/man3/XCompositeVersion.3.gz
-{{< /spoiler >}}
+{{< /files >}}

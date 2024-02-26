@@ -14,7 +14,7 @@ sha1sum = "5b23cff823d9810c3c0ce2f130b1a7bd8f838501"
 depends = "['cairo>=1.15.10', 'libffi>=3.4', 'pygobject3>=3.47.0', 'python3-pycairo>=1.20.1']"
 reverse_depends = "['hplip', 'input-remapper', 'piper', 'sunflower', 'syncthing-gtk', 'virt-manager']"
 +++
-pygobject3 with cairo support{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/gi/docstring.py
+pygobject3 with cairo support{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/gi/docstring.py
 * /usr/lib/python3.12/site-packages/gi/importer.py
 * /usr/lib/python3.12/site-packages/gi/module.py
 * /usr/lib/python3.12/site-packages/gi/overrides/Gdk.py
@@ -64,4 +64,4 @@ pygobject3 with cairo support{{< spoiler text="show files" >}}* /usr/lib/python3
 * /usr/lib/python3.12/site-packages/gi/__pycache__/_propertyhelper.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gi/__pycache__/_signalhelper.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gi/__pycache__/__init__.cpython-312.pyc
-{{< /spoiler >}}
+{{< /files >}}

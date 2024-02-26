@@ -14,7 +14,7 @@ sha1sum = "392df61051c7aaf5ce6f5b348cefca71d4ca4d95"
 depends = "['perl>=5.34.0', 'perl', 'perl-date-parse', 'perl-test-pod']"
 reverse_depends = "['amavisd-new', 'perl-mail-dkim', 'perl-mime-tools']"
 +++
-Manipulate email in perl programs{{< spoiler text="show files" >}}* /usr/lib/perl5/site_perl/current/Mail/Address.pm
+Manipulate email in perl programs{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/Mail/Address.pm
 * /usr/lib/perl5/site_perl/current/Mail/Address.pod
 * /usr/lib/perl5/site_perl/current/Mail/Cap.pm
 * /usr/lib/perl5/site_perl/current/Mail/Cap.pod
@@ -64,4 +64,4 @@ Manipulate email in perl programs{{< spoiler text="show files" >}}* /usr/lib/per
 * /usr/share/man/man3/Mail::Send.3perl.gz
 * /usr/share/man/man3/Mail::Util.3perl.gz
 * /usr/share/man/man3/MailTools.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

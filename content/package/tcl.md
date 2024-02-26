@@ -14,7 +14,7 @@ sha1sum = "e54aa2de9d55e125137a547fcfd640bfd640c981"
 depends = "['zlib>=1.2.12']"
 reverse_depends = "['expect', 'insight-toolkit', 'postgresql-pltcl', 'sqlite3-tcl', 'tk', 'usb-modeswitch']"
 +++
-The Tcl scripting language{{< spoiler text="show files" >}}* /usr/bin/sqlite3_analyzer
+The Tcl scripting language{{< files text="show files" >}}* /usr/bin/sqlite3_analyzer
 * /usr/bin/tclsh
 * /usr/bin/tclsh8.6
 * /usr/include/fakemysql.h
@@ -1201,4 +1201,4 @@ The Tcl scripting language{{< spoiler text="show files" >}}* /usr/bin/sqlite3_an
 * /usr/share/man/mann/yield.n.gz
 * /usr/share/man/mann/yieldto.n.gz
 * /usr/share/man/mann/zlib.n.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "3d68fd8d4e3f4d4e4b61795ad3ba3b3b3d2fdb5f"
 depends = "['glibc>=2.34']"
 reverse_depends = "['man-db']"
 +++
-a C library for manipulating pipelines of subprocesses in a flexible and convenient way{{< spoiler text="show files" >}}* /usr/include/pipeline.h
+a C library for manipulating pipelines of subprocesses in a flexible and convenient way{{< files text="show files" >}}* /usr/include/pipeline.h
 * /usr/lib/libpipeline.so
 * /usr/lib/libpipeline.so.1
 * /usr/lib/libpipeline.so.1.5.7
@@ -91,4 +91,4 @@ a C library for manipulating pipelines of subprocesses in a flexible and conveni
 * /usr/share/man/man3/pipeline_want_infile.3.gz
 * /usr/share/man/man3/pipeline_want_out.3.gz
 * /usr/share/man/man3/pipeline_want_outfile.3.gz
-{{< /spoiler >}}
+{{< /files >}}

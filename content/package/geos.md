@@ -15,7 +15,7 @@ depends = "['libstdc++>=11.2']"
 reverse_depends = "['gdal']"
 license = "LGPL"
 +++
-GEOS (Geometry Engine, Open Source) topology library{{< spoiler text="show files" >}}* /usr/bin/geos-config
+GEOS (Geometry Engine, Open Source) topology library{{< files text="show files" >}}* /usr/bin/geos-config
 * /usr/bin/geosop
 * /usr/include/geos/algorithm/Angle.h
 * /usr/include/geos/algorithm/Area.h
@@ -495,4 +495,4 @@ GEOS (Geometry Engine, Open Source) topology library{{< spoiler text="show files
 * /usr/share/doc/geos-3.10.2/INSTALL.md
 * /usr/share/doc/geos-3.10.2/NEWS
 * /usr/share/doc/geos-3.10.2/README.md
-{{< /spoiler >}}
+{{< /files >}}

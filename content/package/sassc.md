@@ -14,7 +14,7 @@ sha1sum = "36c2aa2a13123aa5a925a55ac270eaa6191a7e85"
 depends = "['libsass']"
 reverse_depends = "['gtk+4']"
 +++
-Wrapper around libsass to compile CSS stylesheet{{< spoiler text="show files" >}}* /usr/bin/sassc
+Wrapper around libsass to compile CSS stylesheet{{< files text="show files" >}}* /usr/bin/sassc
 * /usr/share/doc/sassc-3.6.2/LICENSE
 * /usr/share/doc/sassc-3.6.2/Readme.md
-{{< /spoiler >}}
+{{< /files >}}

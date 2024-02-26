@@ -14,7 +14,7 @@ sha1sum = "1ebe662b45565a601afccff3530e1cd4c18f9d57"
 depends = "['blosc', 'hdf5', 'libfabric', 'libpng', 'libsodium>=1.0.19', 'python3-numpy', 'sz', 'zeromq', 'zfp>=1.0.0']"
 reverse_depends = "['vtk']"
 +++
-Next generation of ADIOS developed in the Exascale Computing Program{{< spoiler text="show files" >}}* /usr/bin/adios2_deactivate_bp
+Next generation of ADIOS developed in the Exascale Computing Program{{< files text="show files" >}}* /usr/bin/adios2_deactivate_bp
 * /usr/bin/adios2_json_pp
 * /usr/bin/adios2_reorganize
 * /usr/bin/bp2h5
@@ -349,4 +349,4 @@ Next generation of ADIOS developed in the Exascale Computing Program{{< spoiler 
 * /usr/lib/python3.12/site-packages/adios2/bp5dbg/__init__.py
 * /usr/lib/python3.12/site-packages/adios2/__init__.py
 * /usr/share/doc/adios2-2.9.2/LICENSE
-{{< /spoiler >}}
+{{< /files >}}

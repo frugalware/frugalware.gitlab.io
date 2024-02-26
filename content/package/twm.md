@@ -14,11 +14,11 @@ sha1sum = "9edc8a140642185d6365253368bced6fbe553ee8"
 depends = "['libxmu>=1.1.2-2']"
 license = "GPL2"
 +++
-Tab Window Manager for the X Window System{{< spoiler text="show files" >}}* /usr/bin/twm
+Tab Window Manager for the X Window System{{< files text="show files" >}}* /usr/bin/twm
 * /usr/share/doc/twm-1.0.12/ChangeLog
 * /usr/share/doc/twm-1.0.12/COPYING
 * /usr/share/doc/twm-1.0.12/INSTALL
 * /usr/share/doc/twm-1.0.12/README.md
 * /usr/share/man/man1/twm.1.gz
 * /usr/share/X11/twm/system.twmrc
-{{< /spoiler >}}
+{{< /files >}}

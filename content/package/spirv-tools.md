@@ -14,7 +14,7 @@ sha1sum = "8f215ac339c3d25c256a32ab0b79960d993b7b25"
 depends = "['python3']"
 reverse_depends = "['intel-graphics-compiler', 'shaderc', 'spirv-llvm-translator']"
 +++
-API and commands for processing SPIR-V modules{{< spoiler text="show files" >}}* /usr/bin/spirv-as
+API and commands for processing SPIR-V modules{{< files text="show files" >}}* /usr/bin/spirv-as
 * /usr/bin/spirv-cfg
 * /usr/bin/spirv-dis
 * /usr/bin/spirv-lesspipe.sh
@@ -62,4 +62,4 @@ API and commands for processing SPIR-V modules{{< spoiler text="show files" >}}*
 * /usr/share/doc/spirv-tools-1.3.275.0/CHANGES
 * /usr/share/doc/spirv-tools-1.3.275.0/LICENSE
 * /usr/share/doc/spirv-tools-1.3.275.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

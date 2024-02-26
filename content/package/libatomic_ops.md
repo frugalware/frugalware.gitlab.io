@@ -14,7 +14,7 @@ sha1sum = "925911bc19375d621b1058efdfca7aa7e859b69e"
 depends = "[]"
 reverse_depends = "['libgc']"
 +++
-Implementation for atomic memory update operations{{< spoiler text="show files" >}}* /usr/include/atomic_ops.h
+Implementation for atomic memory update operations{{< files text="show files" >}}* /usr/include/atomic_ops.h
 * /usr/include/atomic_ops/ao_version.h
 * /usr/include/atomic_ops/generalize-arithm.h
 * /usr/include/atomic_ops/generalize-small.h
@@ -92,4 +92,4 @@ Implementation for atomic memory update operations{{< spoiler text="show files" 
 * /usr/share/doc/libatomic_ops-7.8.2/README_malloc.txt
 * /usr/share/doc/libatomic_ops-7.8.2/README_stack.txt
 * /usr/share/doc/libatomic_ops-7.8.2/README_win32.txt
-{{< /spoiler >}}
+{{< /files >}}

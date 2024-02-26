@@ -13,7 +13,7 @@ usize = "161650"
 sha1sum = "45e86a781bce4bd16289cfe30b67f62617e0ebdb"
 depends = "['plasma-framework>=5.97.0']"
 +++
-A dynamic tiling extension for KWin{{< spoiler text="show files" >}}* /usr/share/doc/krohnkite-0.8.2/LICENSE
+A dynamic tiling extension for KWin{{< files text="show files" >}}* /usr/share/doc/krohnkite-0.8.2/LICENSE
 * /usr/share/doc/krohnkite-0.8.2/README.md
 * /usr/share/kwin/scripts/krohnkite/contents/code/script.js
 * /usr/share/kwin/scripts/krohnkite/contents/config/main.xml
@@ -21,4 +21,4 @@ A dynamic tiling extension for KWin{{< spoiler text="show files" >}}* /usr/share
 * /usr/share/kwin/scripts/krohnkite/contents/ui/main.qml
 * /usr/share/kwin/scripts/krohnkite/contents/ui/popup.qml
 * /usr/share/kwin/scripts/krohnkite/metadata.desktop
-{{< /spoiler >}}
+{{< /files >}}

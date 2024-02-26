@@ -13,7 +13,7 @@ usize = "51855321"
 sha1sum = "da82507ed398f3afbcc0b8adaf8d114e53288403"
 depends = "['curl', 'libgl', 'libvorbis', 'openal', 'sdlimage']"
 +++
-A realistic team oriented multiplayer FPS based on the Cube engine{{< spoiler text="show files" >}}* /usr/bin/ac_client
+A realistic team oriented multiplayer FPS based on the Cube engine{{< files text="show files" >}}* /usr/bin/ac_client
 * /usr/bin/ac_server
 * /usr/bin/assaultcube
 * /usr/bin/assaultcube-server
@@ -1842,4 +1842,4 @@ A realistic team oriented multiplayer FPS based on the Cube engine{{< spoiler te
 * /usr/share/doc/assaultcube-1.3.0.2/README.html
 * /usr/share/doc/assaultcube-1.3.0.2/README.md
 * /usr/share/pixmaps/assaultcube.png
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "4bf33bcd1363072b8fcfb36c13885e669680b96d"
 depends = "['glibc>=2.34']"
 reverse_depends = "['celt', 'celt051', 'efl', 'enlightenment', 'flac', 'gst1-plugins-base-ogg', 'gst1-plugins-base-theora', 'gst1-plugins-base-vorbis', 'guvcview', 'libpulse', 'libsndfile', 'libtheora', 'libvorbis', 'minidlna', 'mlt', 'solarus', 'speex', 'stepmania', 'terminology']"
 +++
-Ogg bitstream and framing library{{< spoiler text="show files" >}}* /usr/include/ogg/config_types.h
+Ogg bitstream and framing library{{< files text="show files" >}}* /usr/include/ogg/config_types.h
 * /usr/include/ogg/ogg.h
 * /usr/include/ogg/os_types.h
 * /usr/lib/libogg.so
@@ -109,4 +109,4 @@ Ogg bitstream and framing library{{< spoiler text="show files" >}}* /usr/include
 * /usr/share/doc/libogg-1.3.5/vorbisword2.png
 * /usr/share/doc/libogg-1.3.5/white-ogg.png
 * /usr/share/doc/libogg-1.3.5/white-xifish.png
-{{< /spoiler >}}
+{{< /files >}}

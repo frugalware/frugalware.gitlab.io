@@ -13,7 +13,7 @@ usize = "14628091"
 sha1sum = "11e9655245d274f20a660a9a2e6d7d1a62e1e36d"
 depends = "['cyrus-sasl', 'icu4c>=74.1', 'libstdc++', 'openssl>=3.1.0', 'python3>=3.12', 'zlib>=1.2.12']"
 +++
-An IRC bouncer with modules and scripts support.{{< spoiler text="show files" >}}* /usr/bin/znc
+An IRC bouncer with modules and scripts support.{{< files text="show files" >}}* /usr/bin/znc
 * /usr/bin/znc-buildmod
 * /usr/include/znc/Buffer.h
 * /usr/include/znc/Chan.h
@@ -199,4 +199,4 @@ An IRC bouncer with modules and scripts support.{{< spoiler text="show files" >}
 * /usr/share/znc/webskins/_default_/tmpl/MessageBar.tmpl
 * /usr/share/znc/webskins/_default_/tmpl/Options.tmpl
 * /usr/share/znc/webskins/_default_/tmpl/_csrf_check.tmpl
-{{< /spoiler >}}
+{{< /files >}}

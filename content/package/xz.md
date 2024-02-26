@@ -14,7 +14,7 @@ sha1sum = "e782a8865693020e6fe3d16693f2df0ef9b50da0"
 depends = "['glibc>=2.37']"
 reverse_depends = "['aria2', 'binwalk', 'botan', 'efl', 'elfutils', 'enlightenment', 'file', 'flutter', 'foomatic-db', 'foomatic-db-engine', 'foomatic-db-nonfree', 'fsarchiver', 'hivex', 'innoextract', 'kernel-initrd', 'kernel-lts-initrd', 'kmod', 'libarchive', 'libsystemd', 'libtiff', 'libunwind', 'libvlc', 'libxml2', 'links', 'mariadb-libs', 'minizip-ng', 'opencollada', 'openttd', 'pacman-g2', 'perf', 'pocketsphinx', 'python3', 'squashfs', 'terminology', 'xdelta', 'xmlstarlet', 'zstd']"
 +++
-XZ Utils is free general-purpose data compression software with high compression ratio.{{< spoiler text="show files" >}}* /usr/bin/lzcat
+XZ Utils is free general-purpose data compression software with high compression ratio.{{< files text="show files" >}}* /usr/bin/lzcat
 * /usr/bin/lzcmp
 * /usr/bin/lzdiff
 * /usr/bin/lzegrep
@@ -311,4 +311,4 @@ XZ Utils is free general-purpose data compression software with high compression
 * /usr/share/man/uk/man1/xzgrep.1.gz
 * /usr/share/man/uk/man1/xzless.1.gz
 * /usr/share/man/uk/man1/xzmore.1.gz
-{{< /spoiler >}}
+{{< /files >}}

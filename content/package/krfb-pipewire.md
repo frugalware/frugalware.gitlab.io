@@ -13,7 +13,7 @@ usize = "157616"
 sha1sum = "b4d33dc67931de56b4c93682e595a931ce7f2174"
 depends = "['kpipewire>=5.27.10', 'krfb', 'libepoxy']"
 +++
-KRfb pipewire plugin{{< spoiler text="show files" >}}* /usr/lib/qt5/plugins/krfb/framebuffer/pw.so
+KRfb pipewire plugin{{< files text="show files" >}}* /usr/lib/qt5/plugins/krfb/framebuffer/pw.so
 * /usr/lib/qt5/plugins/krfb/framebuffer/qt.so
 * /usr/lib/qt5/plugins/krfb/framebuffer/xcb.so
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "7076921"
 sha1sum = "ef6f2f04133e102d818a5e2a34a502faa94afeea"
 depends = "['bcmail', 'dom4j']"
 +++
-A Java library that generate documents in the Portable Document Format (PDF) and/or HTML.{{< spoiler text="show files" >}}* /usr/share/doc/itext7-7.2.1/README.md
+A Java library that generate documents in the Portable Document Format (PDF) and/or HTML.{{< files text="show files" >}}* /usr/share/doc/itext7-7.2.1/README.md
 * /usr/share/java/itext7-barcodes-7.2.1.jar
 * /usr/share/java/itext7-commons-7.2.1.jar
 * /usr/share/java/itext7-font-asian-7.2.1.jar
@@ -27,4 +27,4 @@ A Java library that generate documents in the Portable Document Format (PDF) and
 * /usr/share/java/itext7-sign-7.2.1.jar
 * /usr/share/java/itext7-styled-xml-parser-7.2.1.jar
 * /usr/share/java/itext7-svg-7.2.1.jar
-{{< /spoiler >}}
+{{< /files >}}

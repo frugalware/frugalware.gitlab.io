@@ -14,7 +14,7 @@ sha1sum = "4861836c187788aaa1e881a89116e226ffa394b8"
 depends = "['libatomic_ops>=7.6.2-2', 'libgcc>=11.2']"
 reverse_depends = "['a2ps', 'guile', 'inkscape', 'neko', 'w3m']"
 +++
-Boehm conservative garbage collector{{< spoiler text="show files" >}}* /usr/include/gc.h
+Boehm conservative garbage collector{{< files text="show files" >}}* /usr/include/gc.h
 * /usr/include/gc/cord.h
 * /usr/include/gc/cord_pos.h
 * /usr/include/gc/ec.h
@@ -84,4 +84,4 @@ Boehm conservative garbage collector{{< spoiler text="show files" >}}* /usr/incl
 * /usr/share/doc/libgc-8.2.0/simple_example.md
 * /usr/share/doc/libgc-8.2.0/tree.md
 * /usr/share/man/man3/gc.3.gz
-{{< /spoiler >}}
+{{< /files >}}

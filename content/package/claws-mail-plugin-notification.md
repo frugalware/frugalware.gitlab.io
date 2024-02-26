@@ -13,5 +13,5 @@ usize = "152176"
 sha1sum = "966497fac61f13e92dfea29d3172f5b9d524f746"
 depends = "['claws-mail=4.1.1', 'libnotify>=0.7.6-2']"
 +++
-This plugin provides various ways to notify the user of new and unread email.{{< spoiler text="show files" >}}* /usr/lib/claws-mail/plugins/notification.so
-{{< /spoiler >}}
+This plugin provides various ways to notify the user of new and unread email.{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/notification.so
+{{< /files >}}

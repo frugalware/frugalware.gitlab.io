@@ -14,7 +14,7 @@ sha1sum = "379e578439a5c5b5b74f7345434894ddb1c69d34"
 depends = "['libx11>=1.6.5-3', 'libxft>=2.3.2-6', 'libxml2>=2.9.7-3', 'libxscrnsaver>=1.2.2-6', 'tcl>=8.6.13', 'zlib>=1.2.12']"
 reverse_depends = "['fetchmailconf', 'git-gui', 'gitk', 'maxima', 'mercurial-hgk', 'opencascade', 'python3-pillow', 'python3-tk', 'r', 'weechat']"
 +++
-A windowing toolkit for use with tcl{{< spoiler text="show files" >}}* /usr/bin/wish
+A windowing toolkit for use with tcl{{< files text="show files" >}}* /usr/bin/wish
 * /usr/include/tk.h
 * /usr/include/tk/generic/default.h
 * /usr/include/tk/generic/ks_names.h
@@ -612,4 +612,4 @@ A windowing toolkit for use with tcl{{< spoiler text="show files" >}}* /usr/bin/
 * /usr/share/man/mann/ttk_widget.n.gz
 * /usr/share/man/mann/winfo.n.gz
 * /usr/share/man/mann/wm.n.gz
-{{< /spoiler >}}
+{{< /files >}}

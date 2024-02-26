@@ -14,7 +14,7 @@ sha1sum = "035166e4aa33fe0e6f411f9866ff670ad263f2f7"
 depends = "['glib2>=2.50.0']"
 reverse_depends = "['kget', 'libmediainfo', 'mpd', 'qmmp']"
 +++
-Microsoft streaming protocols parsing library.{{< spoiler text="show files" >}}* /usr/include/libmms/mms.h
+Microsoft streaming protocols parsing library.{{< files text="show files" >}}* /usr/include/libmms/mms.h
 * /usr/include/libmms/mmsh.h
 * /usr/include/libmms/mmsio.h
 * /usr/include/libmms/mmsx.h
@@ -29,4 +29,4 @@ Microsoft streaming protocols parsing library.{{< spoiler text="show files" >}}*
 * /usr/share/doc/libmms-0.6.4/INSTALL
 * /usr/share/doc/libmms-0.6.4/README
 * /usr/share/doc/libmms-0.6.4/README.LICENSE
-{{< /spoiler >}}
+{{< /files >}}

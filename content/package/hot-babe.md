@@ -13,7 +13,7 @@ usize = "495447"
 sha1sum = "f0a638ba51d2f268bccb03a737a7b13f0334f7cc"
 depends = "['gtk+2>=2.20.1', 'libxdamage']"
 +++
-A system load monitor that displays the system activity in a very special way{{< spoiler text="show files" >}}* /usr/bin/hot-babe
+A system load monitor that displays the system activity in a very special way{{< files text="show files" >}}* /usr/bin/hot-babe
 * /usr/share/applications/hot-babe.desktop
 * /usr/share/doc/hot-babe-0.2.2/ChangeLog
 * /usr/share/doc/hot-babe-0.2.2/CONTRIBUTORS
@@ -35,4 +35,4 @@ A system load monitor that displays the system activity in a very special way{{<
 * /usr/share/hot-babe/hb01/hb01_4.png
 * /usr/share/man/man1/hot-babe.1.gz
 * /usr/share/pixmaps/hot-babe.xpm
-{{< /spoiler >}}
+{{< /files >}}

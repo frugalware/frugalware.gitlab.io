@@ -13,6 +13,6 @@ usize = "0"
 sha1sum = ""
 depends = "['firefox>=1.0.7']"
 +++
-Norwegian Bokmal language support for Firefox{{< spoiler text="show files" >}}* usr/lib/firefox/chrome/nb-NO.jar
+Norwegian Bokmal language support for Firefox{{< files text="show files" >}}* usr/lib/firefox/chrome/nb-NO.jar
 * usr/lib/firefox/chrome/rc.d/10_firefox-nb.txt
-{{< /spoiler >}}
+{{< /files >}}

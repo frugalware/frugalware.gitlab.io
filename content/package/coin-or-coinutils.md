@@ -14,7 +14,7 @@ sha1sum = "4d0ad215ef01cd9da325fa394ff13223f3efeb84"
 depends = "['bzip2', 'glpk', 'lapack', 'zlib>=1.2.12']"
 reverse_depends = "['coin-or-osi']"
 +++
-COIN-OR collection of utility classes (AliceVision fork){{< spoiler text="show files" >}}* /usr/include/Coin/CoinAdjacencyVector.hpp
+COIN-OR collection of utility classes (AliceVision fork){{< files text="show files" >}}* /usr/include/Coin/CoinAdjacencyVector.hpp
 * /usr/include/Coin/CoinAlloc.hpp
 * /usr/include/Coin/CoinBronKerbosch.hpp
 * /usr/include/Coin/CoinBuild.hpp
@@ -97,4 +97,4 @@ COIN-OR collection of utility classes (AliceVision fork){{< spoiler text="show f
 * /usr/lib/libCoinUtils.a
 * /usr/share/doc/coin-or-coinutils-2.11.6/LICENSE
 * /usr/share/doc/coin-or-coinutils-2.11.6/README.md
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "d4a96ce6b418ede9b59e1f2609728df6617e7426"
 depends = "['fuse3', 'geoclue2', 'glib2', 'libportal', 'pipewire', 'rtkit', 'systemd']"
 reverse_depends = "['plasma-wayland-session']"
 +++
-Desktop integration portals for sandboxed apps{{< spoiler text="show files" >}}* /usr/lib/systemd/user/xdg-desktop-portal-rewrite-launchers.service
+Desktop integration portals for sandboxed apps{{< files text="show files" >}}* /usr/lib/systemd/user/xdg-desktop-portal-rewrite-launchers.service
 * /usr/lib/systemd/user/xdg-desktop-portal.service
 * /usr/lib/systemd/user/xdg-document-portal.service
 * /usr/lib/systemd/user/xdg-permission-store.service
@@ -120,4 +120,4 @@ Desktop integration portals for sandboxed apps{{< spoiler text="show files" >}}*
 * /usr/share/locale/zh_CN/LC_MESSAGES/xdg-desktop-portal.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/xdg-desktop-portal.mo
 * /usr/share/pkgconfig/xdg-desktop-portal.pc
-{{< /spoiler >}}
+{{< /files >}}

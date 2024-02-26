@@ -14,7 +14,7 @@ sha1sum = "dc5a867e71b85ba8ba5c0d79a6089a1b6c421c24"
 depends = "['lib32-bzip2>=1.0.6-16', 'lib32-expat>=2.2.5-2', 'lib32-freetype2>=2.10.0-2', 'lib32-json-c', 'lib32-libuuid']"
 reverse_depends = "['get_steam', 'lib32-cairo', 'lib32-libbluray', 'lib32-libxft']"
 +++
-A library for configuring and customizing font access ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/fc-cache
+A library for configuring and customizing font access ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/fc-cache
 * /usr/i686-frugalware-linux/bin/fc-cat
 * /usr/i686-frugalware-linux/bin/fc-conflist
 * /usr/i686-frugalware-linux/bin/fc-list
@@ -30,4 +30,4 @@ A library for configuring and customizing font access ( 32bit ){{< spoiler text=
 * /usr/lib32/libfontconfig.so.1
 * /usr/lib32/libfontconfig.so.1.12.1
 * /usr/lib32/pkgconfig/fontconfig.pc
-{{< /spoiler >}}
+{{< /files >}}

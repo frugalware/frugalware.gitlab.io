@@ -14,7 +14,7 @@ sha1sum = "ed58120b0e1b74c96993ef1bc7eaeef7211e8369"
 depends = "['alsa-lib>=1.1.2-2']"
 reverse_depends = "['espeak', 'guvcview', 'mixxx', 'performous']"
 +++
-PortAudio is a free, cross platform, open-source, audio I/O library{{< spoiler text="show files" >}}* /usr/include/pa_linux_alsa.h
+PortAudio is a free, cross platform, open-source, audio I/O library{{< files text="show files" >}}* /usr/include/pa_linux_alsa.h
 * /usr/include/portaudio.h
 * /usr/lib/libportaudio.so
 * /usr/lib/libportaudio.so.2
@@ -22,4 +22,4 @@ PortAudio is a free, cross platform, open-source, audio I/O library{{< spoiler t
 * /usr/lib/pkgconfig/portaudio-2.0.pc
 * /usr/share/doc/portaudio-190600_20161030/README.configure.txt
 * /usr/share/doc/portaudio-190600_20161030/README.txt
-{{< /spoiler >}}
+{{< /files >}}

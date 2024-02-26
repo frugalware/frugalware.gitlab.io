@@ -13,7 +13,7 @@ usize = "498818"
 sha1sum = "b4ec732047c94c364ffa0476e6b6d04a9090e4d7"
 depends = "['libevent>=2.1.11']"
 +++
-A high-performance, distributed memory object caching system.{{< spoiler text="show files" >}}* /etc/sysconfig/memcached
+A high-performance, distributed memory object caching system.{{< files text="show files" >}}* /etc/sysconfig/memcached
 * /usr/bin/memcached
 * /usr/include/memcached/protocol_binary.h
 * /usr/include/memcached/xxhash.h
@@ -24,4 +24,4 @@ A high-performance, distributed memory object caching system.{{< spoiler text="s
 * /usr/share/doc/memcached-1.6.23/NEWS
 * /usr/share/doc/memcached-1.6.23/README.md
 * /usr/share/man/man1/memcached.1.gz
-{{< /spoiler >}}
+{{< /files >}}

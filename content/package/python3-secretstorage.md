@@ -14,7 +14,7 @@ sha1sum = "b588453806f1f0c08160ab3a47c67358d8869d79"
 depends = "['python3-cryptography', 'python3-jeepney']"
 reverse_depends = "['python3-keyring']"
 +++
-Securely store passwords and other private data using the SecretService DBus API{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/SecretStorage-3.3.3-py3.12.egg-info/dependency_links.txt
+Securely store passwords and other private data using the SecretService DBus API{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/SecretStorage-3.3.3-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/SecretStorage-3.3.3-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/SecretStorage-3.3.3-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/SecretStorage-3.3.3-py3.12.egg-info/SOURCES.txt
@@ -36,4 +36,4 @@ Securely store passwords and other private data using the SecretService DBus API
 * /usr/lib/python3.12/site-packages/secretstorage/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-secretstorage-3.3.3/LICENSE
 * /usr/share/doc/python3-secretstorage-3.3.3/README.rst
-{{< /spoiler >}}
+{{< /files >}}

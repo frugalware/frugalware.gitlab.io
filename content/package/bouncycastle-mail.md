@@ -13,5 +13,5 @@ usize = "609416"
 sha1sum = "46d8e57ec2ff1f589eeef2387def018abdd7b70f"
 depends = "['gnumail', 'openjre']"
 +++
-S/MIME and CMS libraries for Bouncy Castle{{< spoiler text="show files" >}}* /usr/share/java/bcmail.jar
-{{< /spoiler >}}
+S/MIME and CMS libraries for Bouncy Castle{{< files text="show files" >}}* /usr/share/java/bcmail.jar
+{{< /files >}}

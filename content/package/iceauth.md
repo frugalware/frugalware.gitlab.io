@@ -14,10 +14,10 @@ sha1sum = "56dad2a734a5adf185fd5a4780c139cd5fee70bb"
 depends = "['libice>=1.0.9-2']"
 license = "GPL2"
 +++
-X.Org iceauth application{{< spoiler text="show files" >}}* /usr/bin/iceauth
+X.Org iceauth application{{< files text="show files" >}}* /usr/bin/iceauth
 * /usr/share/doc/iceauth-1.0.9/ChangeLog
 * /usr/share/doc/iceauth-1.0.9/COPYING
 * /usr/share/doc/iceauth-1.0.9/INSTALL
 * /usr/share/doc/iceauth-1.0.9/README.md
 * /usr/share/man/man1/iceauth.1.gz
-{{< /spoiler >}}
+{{< /files >}}

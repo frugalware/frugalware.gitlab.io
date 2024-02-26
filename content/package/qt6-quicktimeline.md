@@ -14,7 +14,7 @@ sha1sum = "a9646e92149972dfdc51b0fb0ed52976d9d7de29"
 depends = "['qt6-declarative']"
 reverse_depends = "['qt6-quick3d']"
 +++
-The Qt6 toolkit, qtquicktimeline{{< spoiler text="show files" >}}* /usr/include/qt6/QtQuickTimeline/6.6.2/QtQuickTimeline/private/qquickkeyframedatautils_p.h
+The Qt6 toolkit, qtquicktimeline{{< files text="show files" >}}* /usr/include/qt6/QtQuickTimeline/6.6.2/QtQuickTimeline/private/qquickkeyframedatautils_p.h
 * /usr/include/qt6/QtQuickTimeline/6.6.2/QtQuickTimeline/private/qquickkeyframe_p.h
 * /usr/include/qt6/QtQuickTimeline/6.6.2/QtQuickTimeline/private/qquicktimelineanimation_p.h
 * /usr/include/qt6/QtQuickTimeline/6.6.2/QtQuickTimeline/private/qquicktimeline_p.h
@@ -53,4 +53,4 @@ The Qt6 toolkit, qtquicktimeline{{< spoiler text="show files" >}}* /usr/include/
 * /usr/lib/qt6/qml/QtQuick/Timeline/libqtquicktimelineplugin.so
 * /usr/lib/qt6/qml/QtQuick/Timeline/plugins.qmltypes
 * /usr/lib/qt6/qml/QtQuick/Timeline/qmldir
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,5 +13,5 @@ usize = "104480"
 sha1sum = "c1ca76ed4221e60750e44e62275a890101bd9b78"
 depends = "['alsa-lib>=1.1.2-2', 'gst1-plugins-base>=1.22.10', 'gstreamer1>=1.22.10', 'libffi>=3.2.1-2']"
 +++
-GStreamer alsa plugin (Base).{{< spoiler text="show files" >}}* /usr/lib/gstreamer-1.0/libgstalsa.so
-{{< /spoiler >}}
+GStreamer alsa plugin (Base).{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstalsa.so
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "34658839"
 sha1sum = "f2ee01c3a4a2cdba2ccd2305a74ad8832039866b"
 depends = "[]"
 +++
-Documentation for the Python scripting language{{< spoiler text="show files" >}}* /etc/profile.d/python-docs.sh
+Documentation for the Python scripting language{{< files text="show files" >}}* /etc/profile.d/python-docs.sh
 * /usr/share/doc/python-2.7.18/.buildinfo
 * /usr/share/doc/python-2.7.18/about.html
 * /usr/share/doc/python-2.7.18/bugs.html
@@ -1030,4 +1030,4 @@ Documentation for the Python scripting language{{< spoiler text="show files" >}}
 * /usr/share/doc/python-2.7.18/_static/switchers.js
 * /usr/share/doc/python-2.7.18/_static/underscore-1.3.1.js
 * /usr/share/doc/python-2.7.18/_static/underscore.js
-{{< /spoiler >}}
+{{< /files >}}

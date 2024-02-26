@@ -14,7 +14,7 @@ sha1sum = "d73b566265456874f6f3867fc60d213ae1ac6496"
 depends = "['libxml2>=2.9.4-3']"
 reverse_depends = "['kio-extras', 'libimobiledevice-glue', 'libusbmuxd']"
 +++
-Library for manipulating Apple Binary and XML Property Lists{{< spoiler text="show files" >}}* /usr/bin/plistutil
+Library for manipulating Apple Binary and XML Property Lists{{< files text="show files" >}}* /usr/bin/plistutil
 * /usr/include/plist/Array.h
 * /usr/include/plist/Boolean.h
 * /usr/include/plist/Data.h
@@ -43,4 +43,4 @@ Library for manipulating Apple Binary and XML Property Lists{{< spoiler text="sh
 * /usr/share/doc/libplist-2.3.0/NEWS
 * /usr/share/doc/libplist-2.3.0/README.md
 * /usr/share/man/man1/plistutil.1.gz
-{{< /spoiler >}}
+{{< /files >}}

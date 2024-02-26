@@ -14,7 +14,7 @@ sha1sum = "11ab2721a549edf1b9d9e4c9bc667040676a087c"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-hatchling']"
 +++
-Utility library for gitignore style pattern matching of file paths{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/pathspec-0.11.2.dist-info/LICENSE
+Utility library for gitignore style pattern matching of file paths{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pathspec-0.11.2.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/pathspec-0.11.2.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/pathspec-0.11.2.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/pathspec-0.11.2.dist-info/WHEEL
@@ -47,4 +47,4 @@ Utility library for gitignore style pattern matching of file paths{{< spoiler te
 * /usr/share/doc/python3-pathspec-0.11.2/README-dist.rst
 * /usr/share/doc/python3-pathspec-0.11.2/README.md
 * /usr/share/doc/python3-pathspec-0.11.2/README.rst
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "36615"
 sha1sum = "745fea8dd50b5e2115a68c73cde6803898dc116c"
 depends = "['python3>=3.11']"
 +++
-Sphinx extension to add a 'copy' button to code blocks{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/sphinx_copybutton-0.5.2-py3.12.egg-info/dependency_links.txt
+Sphinx extension to add a 'copy' button to code blocks{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sphinx_copybutton-0.5.2-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/sphinx_copybutton-0.5.2-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/sphinx_copybutton-0.5.2-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/sphinx_copybutton-0.5.2-py3.12.egg-info/SOURCES.txt
@@ -28,4 +28,4 @@ Sphinx extension to add a 'copy' button to code blocks{{< spoiler text="show fil
 * /usr/lib/python3.12/site-packages/sphinx_copybutton/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-sphinx-copybutton-0.5.2/LICENSE
 * /usr/share/doc/python3-sphinx-copybutton-0.5.2/README.md
-{{< /spoiler >}}
+{{< /files >}}

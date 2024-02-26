@@ -14,7 +14,7 @@ sha1sum = "2d6465470464d50605bb94ebe1d572a5eac32504"
 depends = "['ocaml>=5.1.1']"
 reverse_depends = "['ppxlib']"
 +++
-Library containing the definition of S-expressions and some base converters{{< spoiler text="show files" >}}* /usr/lib/ocaml/sexplib0/dune-package
+Library containing the definition of S-expressions and some base converters{{< files text="show files" >}}* /usr/lib/ocaml/sexplib0/dune-package
 * /usr/lib/ocaml/sexplib0/META
 * /usr/lib/ocaml/sexplib0/opam
 * /usr/lib/ocaml/sexplib0/sexp.ml
@@ -69,4 +69,4 @@ Library containing the definition of S-expressions and some base converters{{< s
 * /usr/share/doc/sexplib0-0.16.0/sexplib0/CHANGES.md
 * /usr/share/doc/sexplib0-0.16.0/sexplib0/LICENSE.md
 * /usr/share/doc/sexplib0-0.16.0/sexplib0/README.md
-{{< /spoiler >}}
+{{< /files >}}

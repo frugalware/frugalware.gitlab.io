@@ -13,10 +13,10 @@ usize = "37065"
 sha1sum = "f41d27afdb0440b4a996f3b1832e06bfa7c832fb"
 depends = "['alsa-plugins>=1.2.7.1', 'ffmpeg>=6.0']"
 +++
-ALSA plugin for ffmpeg.{{< spoiler text="show files" >}}* /usr/lib/alsa-lib/libasound_module_pcm_a52.so
+ALSA plugin for ffmpeg.{{< files text="show files" >}}* /usr/lib/alsa-lib/libasound_module_pcm_a52.so
 * /usr/lib/alsa-lib/libasound_module_rate_lavrate.so
 * /usr/lib/alsa-lib/libasound_module_rate_lavrate_fast.so
 * /usr/lib/alsa-lib/libasound_module_rate_lavrate_faster.so
 * /usr/lib/alsa-lib/libasound_module_rate_lavrate_high.so
 * /usr/lib/alsa-lib/libasound_module_rate_lavrate_higher.so
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "4f3ed14dc417831a3e98cce1ae076c77533a4268"
 depends = "['librevenge>=0.0.4-2']"
 reverse_depends = "['libreoffice']"
 +++
-An EPUB generator library{{< spoiler text="show files" >}}* /usr/include/libepubgen-0.1/libepubgen/EPUBDrawingGenerator.h
+An EPUB generator library{{< files text="show files" >}}* /usr/include/libepubgen-0.1/libepubgen/EPUBDrawingGenerator.h
 * /usr/include/libepubgen-0.1/libepubgen/EPUBPackage.h
 * /usr/include/libepubgen-0.1/libepubgen/EPUBPresentationGenerator.h
 * /usr/include/libepubgen-0.1/libepubgen/EPUBTextGenerator.h
@@ -250,4 +250,4 @@ An EPUB generator library{{< spoiler text="show files" >}}* /usr/include/libepub
 * /usr/share/doc/libepubgen-0.1.1/NEWS
 * /usr/share/doc/libepubgen-0.1.1/README
 * /usr/share/doc/libepubgen-0.1.1/TODO
-{{< /spoiler >}}
+{{< /files >}}

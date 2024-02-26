@@ -13,5 +13,5 @@ usize = "260120"
 sha1sum = "30130539ee8f8415c3ffbcd9333fc11fbe21892c"
 depends = "['gnupg2>=2.1.15-2', 'qca']"
 +++
-Plugins for qca with gnupg{{< spoiler text="show files" >}}* /usr/lib/qca-qt5/crypto/libqca-gnupg.so
-{{< /spoiler >}}
+Plugins for qca with gnupg{{< files text="show files" >}}* /usr/lib/qca-qt5/crypto/libqca-gnupg.so
+{{< /files >}}

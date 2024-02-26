@@ -13,4 +13,4 @@ usize = "0"
 sha1sum = ""
 depends = "['alsa-lib', 'curl', 'libjpeg', 'libmodplug', 'libpng>=1.4.0', 'libvorbis', 'libxpm', 'libxxf86dga', 'libxxf86vm', 'sdl2']"
 +++
-A free, fast-paced crossplatform first-person shooter{{< spoiler text="show files" >}}{{< /spoiler >}}
+A free, fast-paced crossplatform first-person shooter{{< files text="show files" >}}{{< /files >}}

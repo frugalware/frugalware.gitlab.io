@@ -15,7 +15,7 @@ depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3', 'libxv>=1.0.11']"
 reverse_depends = "['xf86-video-i810', 'xf86-video-intel', 'xine-lib']"
 license = "GPL2"
 +++
-X.Org XvMC library{{< spoiler text="show files" >}}* /usr/include/X11/extensions/vldXvMC.h
+X.Org XvMC library{{< files text="show files" >}}* /usr/include/X11/extensions/vldXvMC.h
 * /usr/include/X11/extensions/XvMClib.h
 * /usr/lib/libXvMC.so
 * /usr/lib/libXvMC.so.1
@@ -30,4 +30,4 @@ X.Org XvMC library{{< spoiler text="show files" >}}* /usr/include/X11/extensions
 * /usr/share/doc/libxvmc-1.0.14/INSTALL
 * /usr/share/doc/libxvmc-1.0.14/README.md
 * /usr/share/doc/libxvmc-1.0.14/XvMC_API.txt
-{{< /spoiler >}}
+{{< /files >}}

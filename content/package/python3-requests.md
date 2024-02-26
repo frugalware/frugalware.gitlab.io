@@ -14,7 +14,7 @@ sha1sum = "37f9c4cd95f3adacf6cd55ac913ff5be6e81564a"
 depends = "['python3>=3.12', 'python3-idna', 'python3-urllib3']"
 reverse_depends = "['blender', 'discover-overlay', 'lutris', 'python3-cachecontrol', 'python3-requests-toolbelt', 'python3-sphinx', 'python3-ytmusicapi', 'streamlink', 'system-config-printer', 'virt-manager']"
 +++
-Python HTTP for Humans.{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/requests-2.31.0-py3.12.egg-info/dependency_links.txt
+Python HTTP for Humans.{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/requests-2.31.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/requests-2.31.0-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/requests-2.31.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/requests-2.31.0-py3.12.egg-info/requires.txt
@@ -58,4 +58,4 @@ Python HTTP for Humans.{{< spoiler text="show files" >}}* /usr/lib/python3.12/si
 * /usr/lib/python3.12/site-packages/requests/__version__.py
 * /usr/share/doc/python3-requests-2.31.0/LICENSE
 * /usr/share/doc/python3-requests-2.31.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "a5ce7c811f7467dddc165c36150f20e123959680"
 depends = "['gperf', 'perl-path-tiny', 'perl-template-toolkit', 'python3-pysol_cards', 'python3-random2', 'python3-six', 'rinutils']"
 reverse_depends = "['kpat']"
 +++
-A program that automatically solves layouts of Freecell and similar variants of Card Solitaire{{< spoiler text="show files" >}}* /usr/bin/dbm-fc-solver
+A program that automatically solves layouts of Freecell and similar variants of Card Solitaire{{< files text="show files" >}}* /usr/bin/dbm-fc-solver
 * /usr/bin/depth-dbm-fc-solver
 * /usr/bin/fc-solve
 * /usr/bin/fc_solve_find_index_s2ints.py
@@ -97,4 +97,4 @@ A program that automatically solves layouts of Freecell and similar variants of 
 * /usr/share/man/man6/make_pysol_freecell_board.py.6.gz
 * /usr/share/man/man6/pi-make-microsoft-freecell-board.6.gz
 * /usr/share/man/man6/transpose-freecell-board.py.6.gz
-{{< /spoiler >}}
+{{< /files >}}

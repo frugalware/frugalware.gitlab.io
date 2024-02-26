@@ -13,7 +13,7 @@ usize = "4537599"
 sha1sum = "4a1a8db5484bb8387c82924d86ca34d468b45c45"
 depends = "['perl', 'procps-ng']"
 +++
-A shell tool for executing jobs in parallel{{< spoiler text="show files" >}}* /usr/bin/env_parallel
+A shell tool for executing jobs in parallel{{< files text="show files" >}}* /usr/bin/env_parallel
 * /usr/bin/env_parallel.ash
 * /usr/bin/env_parallel.bash
 * /usr/bin/env_parallel.csh
@@ -105,4 +105,4 @@ A shell tool for executing jobs in parallel{{< spoiler text="show files" >}}* /u
 * /usr/share/man/man7/parallel_examples.7.gz
 * /usr/share/man/man7/parallel_tutorial.7.gz
 * /usr/share/zsh/site-functions/_parallel
-{{< /spoiler >}}
+{{< /files >}}

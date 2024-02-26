@@ -14,7 +14,7 @@ sha1sum = "3a2841802e271fcc98fcb3307e640151c963553b"
 depends = "['lib32-libx11>=1.6.7-2']"
 reverse_depends = "['lib32-cairo', 'lib32-imlib2', 'lib32-libdmx', 'lib32-libepoxy', 'lib32-libglvnd', 'lib32-libva', 'lib32-libva1', 'lib32-libvdpau', 'lib32-libxcomposite', 'lib32-libxft', 'lib32-libxi', 'lib32-libxinerama', 'lib32-libxmu', 'lib32-libxpm', 'lib32-libxrandr', 'lib32-libxres', 'lib32-libxscrnsaver', 'lib32-libxtst', 'lib32-libxv', 'lib32-libxvmc', 'lib32-libxxf86dga', 'lib32-libxxf86vm', 'lib32-mesa-libglx']"
 +++
-Misc X Extension Library ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/dpms.h
+Misc X Extension Library ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/dpms.h
 * /usr/i686-frugalware-linux/include/X11/extensions/extutil.h
 * /usr/i686-frugalware-linux/include/X11/extensions/MITMisc.h
 * /usr/i686-frugalware-linux/include/X11/extensions/multibuf.h
@@ -34,4 +34,4 @@ Misc X Extension Library ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-f
 * /usr/lib32/libXext.so.6
 * /usr/lib32/libXext.so.6.4.0
 * /usr/lib32/pkgconfig/xext.pc
-{{< /spoiler >}}
+{{< /files >}}

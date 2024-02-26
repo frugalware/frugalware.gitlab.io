@@ -14,7 +14,7 @@ sha1sum = "ee7b51738231dd9952c70c773d2e327d6057768e"
 depends = "[]"
 reverse_depends = "['djvulibre', 'gimp', 'keepass', 'lumina-desktop', 'plasma-workspace', 'qt6-base', 'slack-desktop']"
 +++
-A set of command line tools that assist applications with a variety of desktop integration tasks.{{< spoiler text="show files" >}}* /usr/bin/xdg-desktop-icon
+A set of command line tools that assist applications with a variety of desktop integration tasks.{{< files text="show files" >}}* /usr/bin/xdg-desktop-icon
 * /usr/bin/xdg-desktop-menu
 * /usr/bin/xdg-email
 * /usr/bin/xdg-icon-resource
@@ -35,4 +35,4 @@ A set of command line tools that assist applications with a variety of desktop i
 * /usr/share/man/man1/xdg-open.1.gz
 * /usr/share/man/man1/xdg-screensaver.1.gz
 * /usr/share/man/man1/xdg-settings.1.gz
-{{< /spoiler >}}
+{{< /files >}}

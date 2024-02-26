@@ -13,7 +13,7 @@ usize = "742150"
 sha1sum = "bf9316c58ca871dd7a9f47ca38681923fd3330dd"
 depends = "['gtk+3', 'gupnp-av>=0.14.0']"
 +++
-Tools for testing UPnP devices and control points{{< spoiler text="show files" >}}* /usr/bin/gssdp-discover
+Tools for testing UPnP devices and control points{{< files text="show files" >}}* /usr/bin/gssdp-discover
 * /usr/bin/gupnp-av-cp
 * /usr/bin/gupnp-event-dumper
 * /usr/bin/gupnp-network-light
@@ -67,4 +67,4 @@ Tools for testing UPnP devices and control points{{< spoiler text="show files" >
 * /usr/share/locale/tr/LC_MESSAGES/gupnp-tools.mo
 * /usr/share/locale/uk/LC_MESSAGES/gupnp-tools.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/gupnp-tools.mo
-{{< /spoiler >}}
+{{< /files >}}

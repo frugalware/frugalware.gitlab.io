@@ -13,7 +13,7 @@ usize = "4206241"
 sha1sum = "ca6b0efb37b415a700fef1e83963a4373c11ad59"
 depends = "['apache>=1.3.27', 'mariadb', 'php>=5.0', 'postfix>=2.0']"
 +++
-web-based management tool for postfix{{< spoiler text="show files" >}}* /usr/share/doc/postfixadmin-3.2/README.Frugalware
+web-based management tool for postfix{{< files text="show files" >}}* /usr/share/doc/postfixadmin-3.2/README.Frugalware
 * /var/www/postfixadmin/.php_cs.dist
 * /var/www/postfixadmin/.travis.yml
 * /var/www/postfixadmin/ADDITIONS/change_password.tgz
@@ -494,4 +494,4 @@ web-based management tool for postfix{{< spoiler text="show files" >}}* /usr/sha
 * /var/www/postfixadmin/VIRTUAL_VACATION/tests/test-email.txt
 * /var/www/postfixadmin/VIRTUAL_VACATION/tests/test.sh
 * /var/www/postfixadmin/VIRTUAL_VACATION/vacation.pl
-{{< /spoiler >}}
+{{< /files >}}

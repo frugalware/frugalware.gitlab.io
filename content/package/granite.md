@@ -14,7 +14,7 @@ sha1sum = "f8217e875c8a3e6c48f0abc78a24a0dbd96b5bfa"
 depends = "['cairo', 'gdk-pixbuf2', 'gtk+4', 'libgee8', 'pango']"
 reverse_depends = "['tootle']"
 +++
-A development library for elementary development.{{< spoiler text="show files" >}}* /usr/bin/granite-7-demo
+A development library for elementary development.{{< files text="show files" >}}* /usr/bin/granite-7-demo
 * /usr/include/granite-7/granite-7.h
 * /usr/lib/girepository-1.0/Granite-7.0.typelib
 * /usr/lib/libgranite-7.so
@@ -230,4 +230,4 @@ A development library for elementary development.{{< spoiler text="show files" >
 * /usr/share/metainfo/granite-7.appdata.xml
 * /usr/share/vala/vapi/granite-7.deps
 * /usr/share/vala/vapi/granite-7.vapi
-{{< /spoiler >}}
+{{< /files >}}

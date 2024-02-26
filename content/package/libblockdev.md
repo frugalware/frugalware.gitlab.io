@@ -14,7 +14,7 @@ sha1sum = "7c423c598828a9533c030e9bede8dc1f0063edcf"
 depends = "['dmraid', 'libbytesize', 'libndctl', 'libnvme', 'libyaml', 'nss', 'parted>=3.3', 'python3>=3.12', 'volume_key']"
 reverse_depends = "['udisks2']"
 +++
-A library for manipulating block devices{{< spoiler text="show files" >}}* /etc/libblockdev/3/conf.d/00-default.cfg
+A library for manipulating block devices{{< files text="show files" >}}* /etc/libblockdev/3/conf.d/00-default.cfg
 * /etc/libblockdev/3/conf.d/10-lvm-dbus.cfg
 * /usr/bin/lvm-cache-stats
 * /usr/bin/vfat-resize
@@ -103,4 +103,4 @@ A library for manipulating block devices{{< spoiler text="show files" >}}* /etc/
 * /usr/share/doc/libblockdev-3.1.0/LICENSE
 * /usr/share/doc/libblockdev-3.1.0/README.md
 * /usr/share/gir-1.0/BlockDev-3.0.gir
-{{< /spoiler >}}
+{{< /files >}}

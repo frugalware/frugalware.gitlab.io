@@ -13,7 +13,7 @@ usize = "219463"
 sha1sum = "b0dbea5b859843ef4358aa07645368aa58577fbe"
 depends = "['pam', 'python3>=3.12']"
 +++
-Tool to test PAM applications and PAM modules{{< spoiler text="show files" >}}* /usr/include/libpamtest.h
+Tool to test PAM applications and PAM modules{{< files text="show files" >}}* /usr/include/libpamtest.h
 * /usr/lib/cmake/pamtest/pamtest-config-release.cmake
 * /usr/lib/cmake/pamtest/pamtest-config-version.cmake
 * /usr/lib/cmake/pamtest/pamtest-config.cmake
@@ -46,4 +46,4 @@ Tool to test PAM applications and PAM modules{{< spoiler text="show files" >}}* 
 * /usr/share/man/man8/pam_get_items.8.gz
 * /usr/share/man/man8/pam_matrix.8.gz
 * /usr/share/man/man8/pam_set_items.8.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "b27792363f476c19a97f02cb4770f1377f3354f3"
 depends = "['curl>=7.19.0', 'libstdc++', 'libxml2>=2.7.8', 'openssl>=3.1.0', 'readline>=8.0']"
 reverse_depends = "['rtorrent']"
 +++
-This library provides a modular implementation of XML-RPC for C and C++.{{< spoiler text="show files" >}}* /usr/bin/xml-rpc-api2cpp
+This library provides a modular implementation of XML-RPC for C and C++.{{< files text="show files" >}}* /usr/bin/xml-rpc-api2cpp
 * /usr/bin/xml-rpc-api2txt
 * /usr/bin/xmlrpc
 * /usr/bin/xmlrpc-c-config
@@ -140,4 +140,4 @@ This library provides a modular implementation of XML-RPC for C and C++.{{< spoi
 * /usr/share/doc/xmlrpc-c-1.54.06/README
 * /usr/share/man/man1/xml-rpc-api2cpp.1.gz
 * /usr/share/man/man1/xml-rpc-api2txt.1.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "2d407fc9cff7c19af6d6b3f8a13f0ba8c50731f7"
 depends = "[]"
 +++
-Breton Localization for KOffice. {{< spoiler text="show files" >}}* usr/share/locale/br/LC_MESSAGES/desktop_koffice.mo
+Breton Localization for KOffice. {{< files text="show files" >}}* usr/share/locale/br/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/br/LC_MESSAGES/example.mo
 * usr/share/locale/br/LC_MESSAGES/karbon.mo
 * usr/share/locale/br/LC_MESSAGES/kchart.mo
@@ -43,4 +43,4 @@ Breton Localization for KOffice. {{< spoiler text="show files" >}}* usr/share/lo
 * usr/share/locale/br/LC_MESSAGES/kugar.mo
 * usr/share/locale/br/LC_MESSAGES/kword.mo
 * usr/share/locale/br/LC_MESSAGES/thesaurus_tool.mo
-{{< /spoiler >}}
+{{< /files >}}

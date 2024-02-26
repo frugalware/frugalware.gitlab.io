@@ -13,7 +13,7 @@ usize = "243706"
 sha1sum = "a173e650e6186ce8f5b8a77b7b0a7b0549a26fb1"
 depends = "['pciutils']"
 +++
-Kernel cpu powersaving tool{{< spoiler text="show files" >}}* /etc/cpufreq-bench.conf
+Kernel cpu powersaving tool{{< files text="show files" >}}* /etc/cpufreq-bench.conf
 * /etc/sysconfig/cpupower
 * /usr/bin/cpufreq-bench
 * /usr/bin/cpufreq-bench_plot.sh
@@ -44,4 +44,4 @@ Kernel cpu powersaving tool{{< spoiler text="show files" >}}* /etc/cpufreq-bench
 * /usr/share/man/man1/cpupower-powercap-info.1.gz
 * /usr/share/man/man1/cpupower-set.1.gz
 * /usr/share/man/man1/cpupower.1.gz
-{{< /spoiler >}}
+{{< /files >}}

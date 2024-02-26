@@ -14,7 +14,7 @@ sha1sum = "c5405121ff68f589a4e3970d5febdba5ac110071"
 depends = "['libraw1394>=2.1.2-2', 'libudev>=242', 'libusb1>=1.0.20-5']"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-bad-libdc1394', 'opencv']"
 +++
-libdc1394 provides a high level programming interface to control IEEE 1394 based cameras.{{< spoiler text="show files" >}}* /usr/bin/dc1394_reset_bus
+libdc1394 provides a high level programming interface to control IEEE 1394 based cameras.{{< files text="show files" >}}* /usr/bin/dc1394_reset_bus
 * /usr/include/dc1394/camera.h
 * /usr/include/dc1394/capture.h
 * /usr/include/dc1394/control.h
@@ -51,4 +51,4 @@ libdc1394 provides a high level programming interface to control IEEE 1394 based
 * /usr/share/man/man1/grab_color_image.1.gz
 * /usr/share/man/man1/grab_gray_image.1.gz
 * /usr/share/man/man1/grab_partial_image.1.gz
-{{< /spoiler >}}
+{{< /files >}}

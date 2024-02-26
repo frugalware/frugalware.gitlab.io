@@ -14,7 +14,7 @@ sha1sum = "9188420a0b59c87f5b10fdf57af9c6e4d080bc4a"
 depends = "['glibc>=2.34']"
 reverse_depends = "['exiv2', 'gamemode', 'xfsprogs']"
 +++
-Simple .INI file parser in C, good for embedded systems{{< spoiler text="show files" >}}* /usr/include/ini.h
+Simple .INI file parser in C, good for embedded systems{{< files text="show files" >}}* /usr/include/ini.h
 * /usr/include/INIReader.h
 * /usr/lib/libinih.so
 * /usr/lib/libinih.so.0
@@ -23,4 +23,4 @@ Simple .INI file parser in C, good for embedded systems{{< spoiler text="show fi
 * /usr/lib/pkgconfig/inih.pc
 * /usr/lib/pkgconfig/INIReader.pc
 * /usr/share/doc/inih-r58/README.md
-{{< /spoiler >}}
+{{< /files >}}

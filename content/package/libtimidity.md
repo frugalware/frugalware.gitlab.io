@@ -14,7 +14,7 @@ sha1sum = "629d71b86729d6ce33cac3961d525430f7f4c72a"
 depends = "[]"
 reverse_depends = "['openttd']"
 +++
-A MIDI to WAVE converter library{{< spoiler text="show files" >}}* /usr/include/timidity.h
+A MIDI to WAVE converter library{{< files text="show files" >}}* /usr/include/timidity.h
 * /usr/lib/libtimidity-0.1.so.0
 * /usr/lib/libtimidity-0.1.so.0.0.0
 * /usr/lib/libtimidity.so
@@ -28,4 +28,4 @@ A MIDI to WAVE converter library{{< spoiler text="show files" >}}* /usr/include/
 * /usr/share/doc/libtimidity-0.1.0/README
 * /usr/share/doc/libtimidity-0.1.0/README.timidity
 * /usr/share/doc/libtimidity-0.1.0/TODO
-{{< /spoiler >}}
+{{< /files >}}

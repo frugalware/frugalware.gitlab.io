@@ -14,7 +14,7 @@ sha1sum = "dccecc53c7271ff32dfd790c02b5cde17c2c0a21"
 depends = "['curl', 'graphviz', 'libmms', 'libzen>=0.4.40', 'tinyxml2']"
 reverse_depends = "['mediainfo']"
 +++
-shared library for mediainfo{{< spoiler text="show files" >}}* /usr/include/MediaInfo/File_Dummy.h
+shared library for mediainfo{{< files text="show files" >}}* /usr/include/MediaInfo/File_Dummy.h
 * /usr/include/MediaInfo/File_Other.h
 * /usr/include/MediaInfo/File_Unknown.h
 * /usr/include/MediaInfo/File__Analyse_Automatic.h
@@ -50,4 +50,4 @@ shared library for mediainfo{{< spoiler text="show files" >}}* /usr/include/Medi
 * /usr/lib/pkgconfig/libmediainfo.pc
 * /usr/share/doc/libmediainfo-23.09/LICENSE
 * /usr/share/doc/libmediainfo-23.09/README.md
-{{< /spoiler >}}
+{{< /files >}}

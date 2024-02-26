@@ -13,5 +13,5 @@ usize = "14552"
 sha1sum = "c38555e752a4cba041e6fa8ac55daa3b42efb817"
 depends = "['uwsgi']"
 +++
-UWSGI Nagios Plugin{{< spoiler text="show files" >}}* /usr/lib/uwsgi/nagios_plugin.so
-{{< /spoiler >}}
+UWSGI Nagios Plugin{{< files text="show files" >}}* /usr/lib/uwsgi/nagios_plugin.so
+{{< /files >}}

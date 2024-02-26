@@ -13,7 +13,7 @@ usize = "1123542"
 sha1sum = "46b3fea1f1097ad4c2494971bbdb5ce9d4a18445"
 depends = "['qt5-base>=']"
 +++
-KDevelop Parser Generator, a LL(1) parser generator used by KDevelop language plugins{{< spoiler text="show files" >}}* /usr/bin/kdev-pg-qt
+KDevelop Parser Generator, a LL(1) parser generator used by KDevelop language plugins{{< files text="show files" >}}* /usr/bin/kdev-pg-qt
 * /usr/include/kdevelop-pg-qt/kdev-pg-allocator.h
 * /usr/include/kdevelop-pg-qt/kdev-pg-char-sets.h
 * /usr/include/kdevelop-pg-qt/kdev-pg-list.h
@@ -27,4 +27,4 @@ KDevelop Parser Generator, a LL(1) parser generator used by KDevelop language pl
 * /usr/share/doc/kdevelop-pg-qt-2.2.2/COPYING.LIB
 * /usr/share/doc/kdevelop-pg-qt-2.2.2/README
 * /usr/share/doc/kdevelop-pg-qt-2.2.2/TODO
-{{< /spoiler >}}
+{{< /files >}}

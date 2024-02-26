@@ -14,7 +14,7 @@ sha1sum = "5048d4f684c4cba8cf0b2e10aec31e88f4e169cb"
 depends = "['libstdc++>=11.2', 'pcre>=8.39-3']"
 reverse_depends = "['insight-toolkit']"
 +++
-SWIG interface compiler{{< spoiler text="show files" >}}* /usr/bin/ccache-swig
+SWIG interface compiler{{< files text="show files" >}}* /usr/bin/ccache-swig
 * /usr/bin/swig
 * /usr/share/doc/swig-4.1.1/ANNOUNCE
 * /usr/share/doc/swig-4.1.1/CHANGES
@@ -788,4 +788,4 @@ SWIG interface compiler{{< spoiler text="show files" >}}* /usr/bin/ccache-swig
 * /usr/share/swig/4.1.1/windows.i
 * /usr/share/swig/4.1.1/xml/typemaps.i
 * /usr/share/swig/4.1.1/xml/xml.swg
-{{< /spoiler >}}
+{{< /files >}}

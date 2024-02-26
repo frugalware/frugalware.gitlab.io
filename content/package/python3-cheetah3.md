@@ -13,7 +13,7 @@ usize = "1558652"
 sha1sum = "3bcef791471caaf1e6c0ed1349f43fc803605493"
 depends = "['python3>=3.11']"
 +++
-A Python-powered template engine and code generator{{< spoiler text="show files" >}}* /usr/bin/cheetah
+A Python-powered template engine and code generator{{< files text="show files" >}}* /usr/bin/cheetah
 * /usr/bin/cheetah-analyze
 * /usr/bin/cheetah-compile
 * /usr/lib/python3.12/site-packages/Cheetah/CacheRegion.py
@@ -154,4 +154,4 @@ A Python-powered template engine and code generator{{< spoiler text="show files"
 * /usr/share/doc/python3-cheetah3-3.3.3/LICENSE
 * /usr/share/doc/python3-cheetah3-3.3.3/README.rst
 * /usr/share/doc/python3-cheetah3-3.3.3/TODO
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "537d2a87a22eb805aea1bec48e6fb8f4d9a27102"
 depends = "['python3-cffi', 'python3-six']"
 reverse_depends = "['syncthing-gtk']"
 +++
-Modern password hashing for your software and your servers{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/bcrypt-4.1.1-py3.12.egg-info/dependency_links.txt
+Modern password hashing for your software and your servers{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/bcrypt-4.1.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/bcrypt-4.1.1-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/bcrypt-4.1.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/bcrypt-4.1.1-py3.12.egg-info/requires.txt
@@ -27,4 +27,4 @@ Modern password hashing for your software and your servers{{< spoiler text="show
 * /usr/lib/python3.12/site-packages/bcrypt/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-bcrypt-4.1.1/LICENSE
 * /usr/share/doc/python3-bcrypt-4.1.1/README.rst
-{{< /spoiler >}}
+{{< /files >}}

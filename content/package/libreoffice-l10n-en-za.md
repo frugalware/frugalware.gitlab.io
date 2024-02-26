@@ -13,7 +13,7 @@ usize = "31385072"
 sha1sum = "d1621954166a9a954268056d495705b55be2fc8c"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs English (South Africa) support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/en-ZA/default.css
+Installs English (South Africa) support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/en-ZA/default.css
 * /usr/lib/libreoffice/help/en-ZA/err.html
 * /usr/lib/libreoffice/help/en-ZA/highcontrast1.css
 * /usr/lib/libreoffice/help/en-ZA/highcontrast2.css
@@ -131,4 +131,4 @@ Installs English (South Africa) support in LibreOffice{{< spoiler text="show fil
 * /usr/lib/libreoffice/share/registry/Langpack-en-ZA.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_en-ZA.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_en-ZA.xcd
-{{< /spoiler >}}
+{{< /files >}}

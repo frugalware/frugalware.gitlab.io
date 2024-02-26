@@ -14,7 +14,7 @@ sha1sum = "9c72655e3b1b6208c420b4dda1748f10fa16adc8"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['obs-studio']"
 +++
-C++/Boost Asio based websocket client/server library{{< spoiler text="show files" >}}* /usr/include/websocketpp/base64/base64.hpp
+C++/Boost Asio based websocket client/server library{{< files text="show files" >}}* /usr/include/websocketpp/base64/base64.hpp
 * /usr/include/websocketpp/client.hpp
 * /usr/include/websocketpp/close.hpp
 * /usr/include/websocketpp/common/asio.hpp
@@ -110,4 +110,4 @@ C++/Boost Asio based websocket client/server library{{< spoiler text="show files
 * /usr/lib/cmake/websocketpp/websocketpp-config.cmake
 * /usr/lib/cmake/websocketpp/websocketpp-configVersion.cmake
 * /usr/share/doc/websocketpp-0.8.2/COPYING
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "4c19b682199dcfe34af7b9edc3e864e0bc7823f7"
 depends = "['avahi>=0.6.31-9', 'avahi-glib>=0.6.31-9', 'json-glib>=1.4.2-3', 'libnotify', 'libsoup3', 'modemmanager>=1.6.2']"
 reverse_depends = "['clight', 'xdg-desktop-portal']"
 +++
-A D-Bus service that provides location information{{< spoiler text="show files" >}}* /etc/geoclue/geoclue.conf
+A D-Bus service that provides location information{{< files text="show files" >}}* /etc/geoclue/geoclue.conf
 * /etc/xdg/autostart/geoclue-demo-agent.desktop
 * /usr/include/libgeoclue-2.0/gclue-client.h
 * /usr/include/libgeoclue-2.0/gclue-enum-types.h
@@ -98,4 +98,4 @@ A D-Bus service that provides location information{{< spoiler text="show files" 
 * /usr/share/polkit-1/rules.d/org.freedesktop.GeoClue2.rules
 * /usr/share/vala/vapi/libgeoclue-2.0.deps
 * /usr/share/vala/vapi/libgeoclue-2.0.vapi
-{{< /spoiler >}}
+{{< /files >}}

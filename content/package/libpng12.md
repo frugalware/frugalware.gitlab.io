@@ -13,7 +13,7 @@ usize = "519537"
 sha1sum = "f4369cfc3cc8317a6ba90dec6511e527a09fb748"
 depends = "['zlib>=1.2.12']"
 +++
-A collection of routines used to create PNG format graphics files.{{< spoiler text="show files" >}}* /usr/bin/libpng12-config
+A collection of routines used to create PNG format graphics files.{{< files text="show files" >}}* /usr/bin/libpng12-config
 * /usr/lib/libpng.so.3
 * /usr/lib/libpng.so.3.57.0
 * /usr/lib/libpng12.so
@@ -25,4 +25,4 @@ A collection of routines used to create PNG format graphics files.{{< spoiler te
 * /usr/share/doc/libpng12-1.2.57/LICENSE
 * /usr/share/doc/libpng12-1.2.57/README
 * /usr/share/doc/libpng12-1.2.57/TODO
-{{< /spoiler >}}
+{{< /files >}}

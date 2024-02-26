@@ -13,7 +13,7 @@ usize = "15099567"
 sha1sum = "bdbc828cf349c55c84892662d3efc2dfac975429"
 depends = "['evdi']"
 +++
-Linux driver for DL-6xxx, DL-5xxx, DL-41xx and DL-3x00{{< spoiler text="show files" >}}* /etc/udev/rules.d/99-displaylink.rules
+Linux driver for DL-6xxx, DL-5xxx, DL-41xx and DL-3x00{{< files text="show files" >}}* /etc/udev/rules.d/99-displaylink.rules
 * /opt/displaylink/udev.sh
 * /usr/lib/displaylink/DisplayLinkManager
 * /usr/lib/displaylink/ella-dock-release.spkg
@@ -23,4 +23,4 @@ Linux driver for DL-6xxx, DL-5xxx, DL-41xx and DL-3x00{{< spoiler text="show fil
 * /usr/lib/systemd/system-sleep/displaylink.sh
 * /usr/lib/systemd/system/displaylink.service
 * /usr/share/doc/displaylink-5.8/LICENSE
-{{< /spoiler >}}
+{{< /files >}}

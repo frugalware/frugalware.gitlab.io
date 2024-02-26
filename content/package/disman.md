@@ -13,7 +13,7 @@ usize = "1449227"
 sha1sum = "1b25c5ec93a92df1530e1a07baa94cf71ffd4ebb"
 depends = "['libxrandr', 'plasma-framework', 'qt5-x11extras', 'wrapland']"
 +++
-Qt/C++ display management library{{< spoiler text="show files" >}}* /usr/bin/dismanctl
+Qt/C++ display management library{{< files text="show files" >}}* /usr/bin/dismanctl
 * /usr/include/disman/backendmanager_p.h
 * /usr/include/disman/config.h
 * /usr/include/disman/configmonitor.h
@@ -60,4 +60,4 @@ Qt/C++ display management library{{< spoiler text="show files" >}}* /usr/bin/dis
 * /usr/share/doc/disman-0.527.0/COPYING.LIB
 * /usr/share/doc/disman-0.527.0/README.md
 * /usr/share/qlogging-categories5/disman.categories
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "5d3f1fedc195a516c96d8d522e6cd78cae257612"
 depends = "['cairo', 'jack2', 'libglvnd', 'libxrandr']"
 reverse_depends = "['easyeffects']"
 +++
-Collection of open-source plugins{{< spoiler text="show files" >}}* /etc/xdg/menus/applications-merged/lsp-plugins.menu
+Collection of open-source plugins{{< files text="show files" >}}* /etc/xdg/menus/applications-merged/lsp-plugins.menu
 * /usr/bin/lsp-plugins-ab-tester-x2-mono
 * /usr/bin/lsp-plugins-ab-tester-x2-stereo
 * /usr/bin/lsp-plugins-ab-tester-x4-mono
@@ -1239,4 +1239,4 @@ Collection of open-source plugins{{< spoiler text="show files" >}}* /etc/xdg/men
 * /usr/share/icons/hicolor/48x48/apps/lsp-plugins.png
 * /usr/share/icons/hicolor/64x64/apps/lsp-plugins.png
 * /usr/share/icons/hicolor/scalable/apps/lsp-plugins.svg
-{{< /spoiler >}}
+{{< /files >}}

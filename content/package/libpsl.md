@@ -14,7 +14,7 @@ sha1sum = "8cdf4dcd59c9f23ebea18e42a83f8e7de974475e"
 depends = "['libidn2>=2.0.0-11']"
 reverse_depends = "['curl', 'libsoup', 'libsoup3', 'wget', 'wget2']"
 +++
-Public Suffix List library{{< spoiler text="show files" >}}* /usr/bin/psl
+Public Suffix List library{{< files text="show files" >}}* /usr/bin/psl
 * /usr/bin/psl-make-dafsa
 * /usr/include/libpsl.h
 * /usr/lib/libpsl.so
@@ -49,4 +49,4 @@ Public Suffix List library{{< spoiler text="show files" >}}* /usr/bin/psl
 * /usr/share/man/man1/psl-make-dafsa.1.gz
 * /usr/share/man/man1/psl.1.gz
 * /usr/share/man/man3/libpsl.3.gz
-{{< /spoiler >}}
+{{< /files >}}

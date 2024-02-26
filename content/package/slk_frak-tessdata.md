@@ -13,5 +13,5 @@ usize = "845490"
 sha1sum = "8ca35082303624a0fae73a727df523cc698b3e65"
 depends = "['glibc']"
 +++
-Language specific files for tesseract lang slk_frak{{< spoiler text="show files" >}}* /usr/share/tessdata/slk_frak.traineddata
-{{< /spoiler >}}
+Language specific files for tesseract lang slk_frak{{< files text="show files" >}}* /usr/share/tessdata/slk_frak.traineddata
+{{< /files >}}

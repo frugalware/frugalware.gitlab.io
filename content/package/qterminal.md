@@ -14,7 +14,7 @@ sha1sum = "880eb8e9cb353ac1878dcf2679079870edd32a3f"
 depends = "['qt5-x11extras>=5.15.10', 'qtermwidget>=1.3.0']"
 reverse_depends = "['lumina-desktop']"
 +++
-The lightweight Qt5 terminal emulator{{< spoiler text="show files" >}}* /usr/bin/qterminal
+The lightweight Qt5 terminal emulator{{< files text="show files" >}}* /usr/bin/qterminal
 * /usr/share/applications/qterminal-drop.desktop
 * /usr/share/applications/qterminal.desktop
 * /usr/share/doc/qterminal-1.3.0/AUTHORS
@@ -64,4 +64,4 @@ The lightweight Qt5 terminal emulator{{< spoiler text="show files" >}}* /usr/bin
 * /usr/share/qterminal/translations/qterminal_uk.qm
 * /usr/share/qterminal/translations/qterminal_zh_CN.qm
 * /usr/share/qterminal/translations/qterminal_zh_TW.qm
-{{< /spoiler >}}
+{{< /files >}}

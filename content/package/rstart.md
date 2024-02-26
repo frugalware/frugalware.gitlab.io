@@ -14,7 +14,7 @@ sha1sum = "014a94c3b9e0494f2c7c196e5f8e4e3cce904c0d"
 depends = "['glibc']"
 license = "GPL2"
 +++
-X.Org rstart application{{< spoiler text="show files" >}}* /usr/bin/rstart
+X.Org rstart application{{< files text="show files" >}}* /usr/bin/rstart
 * /usr/bin/rstartd
 * /usr/lib/X11/rstart/commands/@List
 * /usr/lib/X11/rstart/commands/ListContexts
@@ -37,4 +37,4 @@ X.Org rstart application{{< spoiler text="show files" >}}* /usr/bin/rstart
 * /usr/share/doc/rstart-1.0.6/README.md
 * /usr/share/man/man1/rstart.1.gz
 * /usr/share/man/man1/rstartd.1.gz
-{{< /spoiler >}}
+{{< /files >}}

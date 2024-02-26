@@ -13,7 +13,7 @@ usize = "8884064"
 sha1sum = "c1c4e56659b14f4c179bd1be83c83ce059b163d4"
 depends = "['libuv', 'libxml2>=2.9.3-3', 'ncurses>=6.1-2', 'nghttp2', 'openssl>=3.1.0', 'python3-ply', 'readline>=8.0']"
 +++
-DNS server and utilities{{< spoiler text="show files" >}}* /etc/bind.keys
+DNS server and utilities{{< files text="show files" >}}* /etc/bind.keys
 * /etc/logrotate.d/bind
 * /etc/named.conf
 * /usr/bin/arpaname
@@ -328,4 +328,4 @@ DNS server and utilities{{< spoiler text="show files" >}}* /etc/bind.keys
 * /var/named/caching-example/localhost.zone
 * /var/named/caching-example/named.local
 * /var/named/caching-example/named.root
-{{< /spoiler >}}
+{{< /files >}}

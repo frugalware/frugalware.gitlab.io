@@ -14,7 +14,7 @@ sha1sum = "0cda17a1e46f226bee6ca38e1e70085bdc015357"
 depends = "['haskell-appar', 'haskell-byteorder', 'haskell-data-default-class', 'haskell-network']"
 reverse_depends = "['haskell-http-client', 'haskell-warp']"
 +++
-IP Routing Table{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/iproute-1.7.12/Data/IP.dyn_hi
+IP Routing Table{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/iproute-1.7.12/Data/IP.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/iproute-1.7.12/Data/IP.hi
 * /usr/lib/ghc-9.8.1/site-local/iproute-1.7.12/Data/IP/Addr.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/iproute-1.7.12/Data/IP/Addr.hi
@@ -51,4 +51,4 @@ IP Routing Table{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/iproute-1.7.12/LICENSE
 * /usr/share/haskell/haskell-iproute/register.sh
 * /usr/share/haskell/haskell-iproute/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "302769"
 sha1sum = "bc2a6da336e9d9170323eb892adcde918058d823"
 depends = "['libxml2', 'popt']"
 +++
-Tools to convert PowerTab files to various formats.{{< spoiler text="show files" >}}* /usr/bin/gp2ly
+Tools to convert PowerTab files to various formats.{{< files text="show files" >}}* /usr/bin/gp2ly
 * /usr/bin/ptb2abc
 * /usr/bin/ptb2ascii
 * /usr/bin/ptb2ly
@@ -38,4 +38,4 @@ Tools to convert PowerTab files to various formats.{{< spoiler text="show files"
 * /usr/share/man/man1/ptbinfo.1.gz
 * /usr/share/ptabtools/ptbxml.dtd
 * /usr/share/ptabtools/ptbxml2musicxml.xsl
-{{< /spoiler >}}
+{{< /files >}}

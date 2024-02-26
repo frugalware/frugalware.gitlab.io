@@ -14,7 +14,7 @@ sha1sum = "606d832f49f85a3d4f39ce2a5188a6726299ede9"
 depends = "['haskell-attoparsec', 'haskell-only', 'haskell-text-short', 'haskell-unordered-containers', 'haskell-vector']"
 reverse_depends = "['haskell-typst']"
 +++
-A CSV parsing and encoding library{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/cassava-0.5.3.0/Data/Csv.dyn_hi
+A CSV parsing and encoding library{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/cassava-0.5.3.0/Data/Csv.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/cassava-0.5.3.0/Data/Csv.hi
 * /usr/lib/ghc-9.8.1/site-local/cassava-0.5.3.0/Data/Csv/Builder.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/cassava-0.5.3.0/Data/Csv/Builder.hi
@@ -54,4 +54,4 @@ A CSV parsing and encoding library{{< spoiler text="show files" >}}* /usr/lib/gh
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/cassava-0.5.3.0/LICENSE
 * /usr/share/haskell/haskell-cassava/register.sh
 * /usr/share/haskell/haskell-cassava/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

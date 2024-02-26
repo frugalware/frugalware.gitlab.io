@@ -13,4 +13,4 @@ usize = "0"
 sha1sum = ""
 depends = "['bluez', 'curl', 'freetype2', 'fribidi', 'glew>=2.2.0', 'libgl', 'libjpeg-turbo', 'libvorbis', 'libxrandr', 'nettle>=3.6', 'openal']"
 +++
-A new and improved version of TuxKart, a kart racing game featuring Tux and his friends{{< spoiler text="show files" >}}{{< /spoiler >}}
+A new and improved version of TuxKart, a kart racing game featuring Tux and his friends{{< files text="show files" >}}{{< /files >}}

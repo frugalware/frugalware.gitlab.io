@@ -13,7 +13,7 @@ usize = "259604"
 sha1sum = "531770e100005efb7e1162e047132b0335d671ff"
 depends = "['lib32-libdrm', 'lib32-libxext', 'lib32-libxfixes', 'lib32-wayland']"
 +++
-Uniform library API for hardware acceleration of video decoding. (32-bit){{< spoiler text="show files" >}}* /etc/ld.so.conf.d/lib32-libva1.conf
+Uniform library API for hardware acceleration of video decoding. (32-bit){{< files text="show files" >}}* /etc/ld.so.conf.d/lib32-libva1.conf
 * /usr/lib32/libva1/libva-drm.la
 * /usr/lib32/libva1/libva-drm.so
 * /usr/lib32/libva1/libva-drm.so.1
@@ -49,4 +49,4 @@ Uniform library API for hardware acceleration of video decoding. (32-bit){{< spo
 * /usr/lib32/libva1/pkgconfig/libva-wayland.pc
 * /usr/lib32/libva1/pkgconfig/libva-x11.pc
 * /usr/lib32/libva1/pkgconfig/libva.pc
-{{< /spoiler >}}
+{{< /files >}}

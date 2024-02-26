@@ -13,7 +13,7 @@ usize = "3039081"
 sha1sum = "1592ed6e780b5a77a2daf71320fa12bf4a1cafdf"
 depends = "['dovecot>=2.3.21']"
 +++
-Sieve Support for Dovecot{{< spoiler text="show files" >}}* /usr/bin/sieve-dump
+Sieve Support for Dovecot{{< files text="show files" >}}* /usr/bin/sieve-dump
 * /usr/bin/sieve-filter
 * /usr/bin/sieve-test
 * /usr/bin/sievec
@@ -118,4 +118,4 @@ Sieve Support for Dovecot{{< spoiler text="show files" >}}* /usr/bin/sieve-dump
 * /usr/share/man/man1/sievec.1.gz
 * /usr/share/man/man1/sieved.1.gz
 * /usr/share/man/man7/pigeonhole.7.gz
-{{< /spoiler >}}
+{{< /files >}}

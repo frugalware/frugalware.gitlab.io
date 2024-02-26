@@ -14,7 +14,7 @@ sha1sum = "68a978f65365598388ee795209b50f6bcb365a48"
 depends = "['python3-typing_extensions']"
 reverse_depends = "['python3-poetry-core']"
 +++
-A modern parsing library{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/lark-1.1.8.dist-info/entry_points.txt
+A modern parsing library{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/lark-1.1.8.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/lark-1.1.8.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/lark-1.1.8.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/lark-1.1.8.dist-info/RECORD
@@ -132,4 +132,4 @@ A modern parsing library{{< spoiler text="show files" >}}* /usr/lib/python3.12/s
 * /usr/lib/python3.12/site-packages/lark/__pyinstaller/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-lark-parser-1.1.8/LICENSE
 * /usr/share/doc/python3-lark-parser-1.1.8/README.md
-{{< /spoiler >}}
+{{< /files >}}

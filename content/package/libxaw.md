@@ -15,7 +15,7 @@ depends = "['libuuid>=2.29.2-2', 'libxmu>=1.1.2-3', 'libxpm>=3.5.11-3']"
 reverse_depends = "['bitmap', 'editres', 'graphviz', 'libotf', 'libreoffice', 'listres', 'm17n-lib', 'ngspice', 'ogre', 't1lib', 'viewres', 'xbiff', 'xcalc', 'xclipboard', 'xclock', 'xconsole', 'xditview', 'xdm', 'xedit', 'xfd', 'xfontsel', 'xgc', 'xkbutils', 'xload', 'xlogo', 'xmag', 'xman', 'xmessage', 'xmh', 'xmore', 'xsm', 'xterm', 'xvidtune']"
 license = "GPL2"
 +++
-X.Org Xaw library{{< spoiler text="show files" >}}* /usr/include/X11/Xaw/AllWidgets.h
+X.Org Xaw library{{< files text="show files" >}}* /usr/include/X11/Xaw/AllWidgets.h
 * /usr/include/X11/Xaw/AsciiSink.h
 * /usr/include/X11/Xaw/AsciiSinkP.h
 * /usr/include/X11/Xaw/AsciiSrc.h
@@ -148,4 +148,4 @@ X.Org Xaw library{{< spoiler text="show files" >}}* /usr/include/X11/Xaw/AllWidg
 * /usr/share/doc/libxaw-1.0.15/Tree.xml
 * /usr/share/doc/libxaw-1.0.15/Viewport.xml
 * /usr/share/man/man3/Xaw.3.gz
-{{< /spoiler >}}
+{{< /files >}}

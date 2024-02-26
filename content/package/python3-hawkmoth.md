@@ -13,7 +13,7 @@ usize = "162193"
 sha1sum = "d3883fc1dd84e872c7238de179be46678bfee775"
 depends = "['python3-sphinx']"
 +++
-Hawkmoth - Sphinx Autodoc for C{{< spoiler text="show files" >}}* /usr/bin/hawkmoth
+Hawkmoth - Sphinx Autodoc for C{{< files text="show files" >}}* /usr/bin/hawkmoth
 * /usr/lib/python3.12/site-packages/hawkmoth-0.16.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/hawkmoth-0.16.0-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/hawkmoth-0.16.0-py3.12.egg-info/PKG-INFO
@@ -49,4 +49,4 @@ Hawkmoth - Sphinx Autodoc for C{{< spoiler text="show files" >}}* /usr/bin/hawkm
 * /usr/lib/python3.12/site-packages/hawkmoth/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/python3-hawkmoth-0.16.0/LICENSE
 * /usr/share/doc/python3-hawkmoth-0.16.0/README.rst
-{{< /spoiler >}}
+{{< /files >}}

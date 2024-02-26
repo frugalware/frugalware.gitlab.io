@@ -14,7 +14,7 @@ sha1sum = "b4c44774a835d4a4c4913d83d7129cd729d1614b"
 depends = "['libuuid>=2.28.2-2']"
 reverse_depends = "['apr-util']"
 +++
-Apache Portable Runtime{{< spoiler text="show files" >}}* /usr/bin/apr-1-config
+Apache Portable Runtime{{< files text="show files" >}}* /usr/bin/apr-1-config
 * /usr/include/apr-1/apr.h
 * /usr/include/apr-1/apr_allocator.h
 * /usr/include/apr-1/apr_atomic.h
@@ -70,4 +70,4 @@ Apache Portable Runtime{{< spoiler text="show files" >}}* /usr/bin/apr-1-config
 * /var/www/build/make_exports.awk
 * /var/www/build/make_var_export.awk
 * /var/www/build/mkdir.sh
-{{< /spoiler >}}
+{{< /files >}}

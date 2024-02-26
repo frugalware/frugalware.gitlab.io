@@ -13,7 +13,7 @@ usize = "365040"
 sha1sum = "5c504b217f37956d478acdd67ab18959308e33a2"
 depends = "['kcoreaddons>=5.97.0']"
 +++
-A KDE C++ interface for MediaWiki based web service.{{< spoiler text="show files" >}}* /usr/include/KF5/MediaWiki/Edit
+A KDE C++ interface for MediaWiki based web service.{{< files text="show files" >}}* /usr/include/KF5/MediaWiki/Edit
 * /usr/include/KF5/MediaWiki/edit.h
 * /usr/include/KF5/MediaWiki/Generalinfo
 * /usr/include/KF5/MediaWiki/generalinfo.h
@@ -68,4 +68,4 @@ A KDE C++ interface for MediaWiki based web service.{{< spoiler text="show files
 * /usr/share/doc/libmediawiki-5.38.0/COPYING.LIB
 * /usr/share/doc/libmediawiki-5.38.0/README.md
 * /usr/share/qt5/mkspecs/modules/qt_MediaWiki.pri
-{{< /spoiler >}}
+{{< /files >}}

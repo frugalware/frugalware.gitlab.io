@@ -14,7 +14,7 @@ sha1sum = "16bb4f2345586fdf93ef96eee43c136d41524583"
 depends = "['lib32-elfutils>=0.167-3', 'lib32-expat>=2.1.0-6', 'lib32-libdrm>=2.4.71', 'lib32-libffi>=3.2.1-2', 'lib32-libunwind', 'lib32-llvm-libs>=17.0.6', 'lib32-lmsensors>=3.5.0', 'lib32-zstd']"
 reverse_depends = "['lib32-libgl', 'lib32-xorg-server']"
 +++
-Mesa OpenGL DRI drivers. (32-Bit){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/include/GL/internal/dri_interface.h
+Mesa OpenGL DRI drivers. (32-Bit){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/GL/internal/dri_interface.h
 * /usr/lib32/dri/crocus_dri.so
 * /usr/lib32/dri/iris_dri.so
 * /usr/lib32/dri/kms_swrast_dri.so
@@ -28,4 +28,4 @@ Mesa OpenGL DRI drivers. (32-Bit){{< spoiler text="show files" >}}* /usr/i686-fr
 * /usr/lib32/dri/vmwgfx_dri.so
 * /usr/lib32/dri/zink_dri.so
 * /usr/lib32/pkgconfig/dri.pc
-{{< /spoiler >}}
+{{< /files >}}

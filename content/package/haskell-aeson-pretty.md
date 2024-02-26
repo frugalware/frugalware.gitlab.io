@@ -14,7 +14,7 @@ sha1sum = "344ee36085f71f82ca53f3b008f2ce981828c056"
 depends = "['haskell-aeson']"
 reverse_depends = "['pandoc']"
 +++
-JSON pretty-printing library and command-line tool.{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/aeson-pretty-0.8.10/Data/Aeson/Encode/Pretty.dyn_hi
+JSON pretty-printing library and command-line tool.{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/aeson-pretty-0.8.10/Data/Aeson/Encode/Pretty.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/aeson-pretty-0.8.10/Data/Aeson/Encode/Pretty.hi
 * /usr/lib/ghc-9.8.1/site-local/aeson-pretty-0.8.10/libHSaeson-pretty-0.8.10-9VkDB5IBeuj4KITu7FiNWr.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSaeson-pretty-0.8.10-9VkDB5IBeuj4KITu7FiNWr-ghc9.8.1.so
@@ -34,4 +34,4 @@ JSON pretty-printing library and command-line tool.{{< spoiler text="show files"
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/aeson-pretty-0.8.10/LICENSE
 * /usr/share/haskell/haskell-aeson-pretty/register.sh
 * /usr/share/haskell/haskell-aeson-pretty/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

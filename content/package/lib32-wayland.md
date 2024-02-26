@@ -14,7 +14,7 @@ sha1sum = "c67f45b014ed8bf8dc4ede1f59060d23906642f5"
 depends = "['lib32-expat>=2.1.0-6', 'lib32-libffi>=3.4', 'lib32-libxml2']"
 reverse_depends = "['lib32-libegl', 'lib32-libgbm', 'lib32-libva', 'lib32-libva1', 'lib32-mangohud', 'lib32-mesa-libegl', 'lib32-vulkan-mesa-layers', 'vulkan-mesa-layers']"
 +++
-Wayland is intended as a simpler replacement for Xorg. ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/wayland-scanner
+Wayland is intended as a simpler replacement for Xorg. ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/wayland-scanner
 * /usr/i686-frugalware-linux/include/wayland-client-core.h
 * /usr/i686-frugalware-linux/include/wayland-client-protocol.h
 * /usr/i686-frugalware-linux/include/wayland-client.h
@@ -45,4 +45,4 @@ Wayland is intended as a simpler replacement for Xorg. ( 32bit ){{< spoiler text
 * /usr/lib32/pkgconfig/wayland-egl.pc
 * /usr/lib32/pkgconfig/wayland-scanner.pc
 * /usr/lib32/pkgconfig/wayland-server.pc
-{{< /spoiler >}}
+{{< /files >}}

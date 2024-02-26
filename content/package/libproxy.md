@@ -14,7 +14,7 @@ sha1sum = "3f71e6e73979803d80a1b4bac5201a54755e077c"
 depends = "['curl', 'dbus', 'duktape']"
 reverse_depends = "['glib-networking', 'hexchat', 'libproxy-python3', 'libproxy-vala', 'libquvi', 'openconnect', 'qt5-base', 'qt6-base', 'signon', 'telepathy-qt5']"
 +++
-libproxy is a library that provides automatic proxy configuration management.{{< spoiler text="show files" >}}* /usr/bin/proxy
+libproxy is a library that provides automatic proxy configuration management.{{< files text="show files" >}}* /usr/bin/proxy
 * /usr/include/libproxy/proxy.h
 * /usr/lib/girepository-1.0/Libproxy-1.0.typelib
 * /usr/lib/libproxy.so
@@ -84,4 +84,4 @@ libproxy is a library that provides automatic proxy configuration management.{{<
 * /usr/share/doc/libproxy-1.0/vala.html
 * /usr/share/gir-1.0/Libproxy-1.0.gir
 * /usr/share/man/man8/proxy.8.gz
-{{< /spoiler >}}
+{{< /files >}}

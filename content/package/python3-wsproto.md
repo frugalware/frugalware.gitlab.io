@@ -14,7 +14,7 @@ sha1sum = "ae2dfd481fea3fd67e5f6e309f11e3bce0ed7ee8"
 depends = "['python3-h11']"
 reverse_depends = "['python3-trio-websocket']"
 +++
-WebSockets state-machine based protocol implementation{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/wsproto-1.2.0-py3.12.egg-info/dependency_links.txt
+WebSockets state-machine based protocol implementation{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/wsproto-1.2.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/wsproto-1.2.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/wsproto-1.2.0-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/wsproto-1.2.0-py3.12.egg-info/SOURCES.txt
@@ -38,4 +38,4 @@ WebSockets state-machine based protocol implementation{{< spoiler text="show fil
 * /usr/lib/python3.12/site-packages/wsproto/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-wsproto-1.2.0/LICENSE
 * /usr/share/doc/python3-wsproto-1.2.0/README.rst
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,5 +14,5 @@ sha1sum = "d3b69477f47603064eeb9264bcfb59d18e4241e0"
 depends = "['mlt', 'sdlimage']"
 reverse_depends = "['kdenlive']"
 +++
-SDL module for mlt{{< spoiler text="show files" >}}* /usr/lib/mlt-7/libmltsdl.so
-{{< /spoiler >}}
+SDL module for mlt{{< files text="show files" >}}* /usr/lib/mlt-7/libmltsdl.so
+{{< /files >}}

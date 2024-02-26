@@ -14,5 +14,5 @@ sha1sum = "76a48d9602e179a72af3c0cf1ec70b4ed70ccef3"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Azerbaijani language support for Firefox{{< spoiler text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-az@firefox.mozilla.org.xpi
-{{< /spoiler >}}
+Azerbaijani language support for Firefox{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-az@firefox.mozilla.org.xpi
+{{< /files >}}

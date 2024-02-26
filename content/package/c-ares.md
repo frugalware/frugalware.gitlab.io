@@ -14,7 +14,7 @@ sha1sum = "5f0399cf68c9719b35adbf419d692be2c2f83c2c"
 depends = "['glibc>=2.3.4']"
 reverse_depends = "['aria2', 'curl', 'grpc', 'nodejs', 'nodejs18', 'nodejs20', 'python3-gevent', 'rtorrent', 'wireshark', 'wireshark-qt']"
 +++
-C library that performs DNS requests and name resolves asynchronously.{{< spoiler text="show files" >}}* /usr/bin/adig
+C library that performs DNS requests and name resolves asynchronously.{{< files text="show files" >}}* /usr/bin/adig
 * /usr/bin/ahost
 * /usr/include/ares.h
 * /usr/include/ares_build.h
@@ -170,4 +170,4 @@ C library that performs DNS requests and name resolves asynchronously.{{< spoile
 * /usr/share/man/man3/ares_tlsa_selector_t.3.gz
 * /usr/share/man/man3/ares_tlsa_usage_t.3.gz
 * /usr/share/man/man3/ares_version.3.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "49f343cc1264c312490f367b3d8207ec641951dd"
 depends = "['lib32-libogg>=1.3.4']"
 reverse_depends = "['lib32-libsndfile']"
 +++
-Free Lossless Audio Coder ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/flac
+Free Lossless Audio Coder ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/flac
 * /usr/i686-frugalware-linux/bin/metaflac
 * /usr/i686-frugalware-linux/include/FLAC++/all.h
 * /usr/i686-frugalware-linux/include/FLAC++/decoder.h
@@ -38,4 +38,4 @@ Free Lossless Audio Coder ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-
 * /usr/lib32/libFLAC.so.12.1.0
 * /usr/lib32/pkgconfig/flac++.pc
 * /usr/lib32/pkgconfig/flac.pc
-{{< /spoiler >}}
+{{< /files >}}

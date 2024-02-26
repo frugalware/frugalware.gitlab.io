@@ -14,7 +14,7 @@ sha1sum = "3ccb6512ae027010797d23993e71dda8b7701916"
 depends = "['glibc>=2.34']"
 reverse_depends = "['guvcview', 'kinfocenter5', 'libavc1394', 'libdc1394', 'libiec61883']"
 +++
-Provides an API to the Linux IEEE1394 (FireWire) driver{{< spoiler text="show files" >}}* /usr/bin/dumpiso
+Provides an API to the Linux IEEE1394 (FireWire) driver{{< files text="show files" >}}* /usr/bin/dumpiso
 * /usr/bin/sendiso
 * /usr/bin/testlibraw
 * /usr/include/libraw1394/csr.h
@@ -34,4 +34,4 @@ Provides an API to the Linux IEEE1394 (FireWire) driver{{< spoiler text="show fi
 * /usr/share/man/man1/sendiso.1.gz
 * /usr/share/man/man1/testlibraw.1.gz
 * /usr/share/man/man5/isodump.5.gz
-{{< /spoiler >}}
+{{< /files >}}

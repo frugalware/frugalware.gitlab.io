@@ -14,5 +14,5 @@ sha1sum = "acacad677ef83e4d80ac5343593387e518e90cd9"
 depends = "['fuse>=2.7.9-4']"
 reverse_depends = "['os-prober']"
 +++
-grub2 mount utility{{< spoiler text="show files" >}}* /usr/bin/grub-mount
-{{< /spoiler >}}
+grub2 mount utility{{< files text="show files" >}}* /usr/bin/grub-mount
+{{< /files >}}

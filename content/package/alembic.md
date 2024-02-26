@@ -14,7 +14,7 @@ sha1sum = "65541e101beec1a44fbbd2021e34c625cbb408a7"
 depends = "['hdf5', 'imath>=3.1.9', 'libboost']"
 reverse_depends = "['alicevision', 'blender', 'qmlalembic']"
 +++
-A open framework for storing and sharing scene data{{< spoiler text="show files" >}}* /usr/bin/abcconvert
+A open framework for storing and sharing scene data{{< files text="show files" >}}* /usr/bin/abcconvert
 * /usr/bin/abcdiff
 * /usr/bin/abcecho
 * /usr/bin/abcechobounds
@@ -152,4 +152,4 @@ A open framework for storing and sharing scene data{{< spoiler text="show files"
 * /usr/lib/libAlembic.so.1.8
 * /usr/lib/libAlembic.so.1.8.6
 * /usr/share/doc/alembic-1.8.6/README.txt
-{{< /spoiler >}}
+{{< /files >}}

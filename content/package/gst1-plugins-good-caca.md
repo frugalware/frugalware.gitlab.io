@@ -13,5 +13,5 @@ usize = "26608"
 sha1sum = "b02d90cb58d1e7d00c37a2d5b971ad19c7db17f9"
 depends = "['gst1-plugins-base>=1.22.10', 'gst1-plugins-good>=1.22.10', 'libcaca>=0.99.beta19-6', 'libffi>=3.2.1-2', 'ncurses>=6.0-12', 'slang>=2.3.0-4']"
 +++
-GStreamer caca plugin (Good).{{< spoiler text="show files" >}}* /usr/lib/gstreamer-1.0/libgstcacasink.so
-{{< /spoiler >}}
+GStreamer caca plugin (Good).{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstcacasink.so
+{{< /files >}}

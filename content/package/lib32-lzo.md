@@ -14,7 +14,7 @@ sha1sum = "9f2e18a33a2bc7f8b9c3b6c65b69e73d6e16729d"
 depends = "[]"
 reverse_depends = "['lib32-cairo']"
 +++
-A real-time data compression library ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/include/lzo/lzo1.h
+A real-time data compression library ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/lzo/lzo1.h
 * /usr/i686-frugalware-linux/include/lzo/lzo1a.h
 * /usr/i686-frugalware-linux/include/lzo/lzo1b.h
 * /usr/i686-frugalware-linux/include/lzo/lzo1c.h
@@ -31,4 +31,4 @@ A real-time data compression library ( 32bit ){{< spoiler text="show files" >}}*
 * /usr/lib32/liblzo2.so.2
 * /usr/lib32/liblzo2.so.2.0.0
 * /usr/lib32/pkgconfig/lzo2.pc
-{{< /spoiler >}}
+{{< /files >}}

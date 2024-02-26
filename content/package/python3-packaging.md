@@ -14,7 +14,7 @@ sha1sum = "899f96a2984f582d1681e686419d37c1d5b94755"
 depends = "['python3>=3.12']"
 reverse_depends = "['input-remapper', 'python3-build', 'python3-hatchling', 'python3-poetry', 'python3-poetry-core', 'python3-pyproject-metadata', 'python3-pytest', 'python3-setuptools', 'python3-versioningit', 'python3-wheel', 'sip']"
 +++
-Core utilities for Python packages{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/packaging-23.2.dist-info/LICENSE
+Core utilities for Python packages{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/packaging-23.2.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/packaging-23.2.dist-info/LICENSE.APACHE
 * /usr/lib/python3.12/site-packages/packaging-23.2.dist-info/LICENSE.BSD
 * /usr/lib/python3.12/site-packages/packaging-23.2.dist-info/METADATA
@@ -65,4 +65,4 @@ Core utilities for Python packages{{< spoiler text="show files" >}}* /usr/lib/py
 * /usr/lib/python3.12/site-packages/packaging/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-packaging-23.2/LICENSE
 * /usr/share/doc/python3-packaging-23.2/README.rst
-{{< /spoiler >}}
+{{< /files >}}

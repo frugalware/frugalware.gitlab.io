@@ -13,7 +13,7 @@ usize = "178051346"
 sha1sum = "df4f80155b96fafc7ab806d239ac5d77bea30818"
 depends = "['exiv2>=0.28.1', 'gsl', 'kcompletion', 'kcrash', 'kguiaddons', 'ki18n', 'kitemviews', 'kseexpr', 'libkdcraw', 'libmypaint', 'libunibreak', 'mlt', 'opencolorio', 'poppler-qt5', 'qt5-svg', 'quazip']"
 +++
-Krita is a FREE sketching and painting program{{< spoiler text="show files" >}}* /etc/xdg/kritarc
+Krita is a FREE sketching and painting program{{< files text="show files" >}}* /etc/xdg/kritarc
 * /usr/bin/krita
 * /usr/bin/kritarunner
 * /usr/bin/krita_version
@@ -1352,4 +1352,4 @@ Krita is a FREE sketching and painting program{{< spoiler text="show files" >}}*
 * /usr/share/qt5/qml/org/krita/sketch/components/VirtualKeyboard.qml
 * /usr/share/qt5/qml/org/krita/sketch/libkritasketchplugin.so
 * /usr/share/qt5/qml/org/krita/sketch/qmldir
-{{< /spoiler >}}
+{{< /files >}}

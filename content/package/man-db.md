@@ -14,7 +14,7 @@ sha1sum = "1ef8c0ee534f20c53a0f3f447ecfcff3b96b2beb"
 depends = "['gdbm>=1.15', 'groff>=1.22.3-4', 'less>=481-4', 'libpipeline>=1.4.1-5', 'zlib>=1.2.12']"
 reverse_depends = "['man2html']"
 +++
-A utility for reading man pages{{< spoiler text="show files" >}}* /etc/cron.daily/man-db
+A utility for reading man pages{{< files text="show files" >}}* /etc/cron.daily/man-db
 * /etc/man_db.conf
 * /etc/profile.d/man-colors.sh
 * /etc/profile.d/man.sh
@@ -132,4 +132,4 @@ A utility for reading man pages{{< spoiler text="show files" >}}* /etc/cron.dail
 * /usr/share/man/man8/accessdb.8.gz
 * /usr/share/man/man8/catman.8.gz
 * /usr/share/man/man8/mandb.8.gz
-{{< /spoiler >}}
+{{< /files >}}

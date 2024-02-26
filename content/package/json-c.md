@@ -14,7 +14,7 @@ sha1sum = "5dadbf758f6055cf8c2c6825ede8e4e8ee3aec3c"
 depends = "['glibc>=2.34']"
 reverse_depends = "['cryptsetup-luks', 'efl', 'enlightenment', 'fontconfig', 'gdal', 'gdal', 'libmypaint', 'libnvme', 'libu2f-host', 'multipath-tools', 'ndctl', 'strongswan', 'terminology', 'tpm2-tss', 'v4l-utils']"
 +++
-JSON-C - A JSON implementation in C{{< spoiler text="show files" >}}* /usr/include/json-c/arraylist.h
+JSON-C - A JSON implementation in C{{< files text="show files" >}}* /usr/include/json-c/arraylist.h
 * /usr/include/json-c/debug.h
 * /usr/include/json-c/json.h
 * /usr/include/json-c/json_config.h
@@ -46,4 +46,4 @@ JSON-C - A JSON implementation in C{{< spoiler text="show files" >}}* /usr/inclu
 * /usr/share/doc/json-c-0.17/README.html
 * /usr/share/doc/json-c-0.17/README.md
 * /usr/share/doc/json-c-0.17/RELEASE_CHECKLIST.txt
-{{< /spoiler >}}
+{{< /files >}}

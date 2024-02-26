@@ -13,7 +13,7 @@ usize = "34939055"
 sha1sum = "6462f2eca6a660ce8826a376af6385e780ad2b58"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Upper Sorbian support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/hsb/default.css
+Installs Upper Sorbian support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/hsb/default.css
 * /usr/lib/libreoffice/help/hsb/err.html
 * /usr/lib/libreoffice/help/hsb/highcontrast1.css
 * /usr/lib/libreoffice/help/hsb/highcontrast2.css
@@ -131,4 +131,4 @@ Installs Upper Sorbian support in LibreOffice{{< spoiler text="show files" >}}* 
 * /usr/lib/libreoffice/share/registry/Langpack-hsb.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_hsb.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_hsb.xcd
-{{< /spoiler >}}
+{{< /files >}}

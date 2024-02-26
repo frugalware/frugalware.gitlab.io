@@ -13,6 +13,6 @@ usize = "0"
 sha1sum = ""
 depends = "['firefox>=1.0.6']"
 +++
-Punjabi language support for Firefox{{< spoiler text="show files" >}}* usr/lib/firefox/chrome/pa-IN.jar
+Punjabi language support for Firefox{{< files text="show files" >}}* usr/lib/firefox/chrome/pa-IN.jar
 * usr/lib/firefox/chrome/rc.d/10_firefox-pa.txt
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "3cf844696d1e416211d8bffb843949f36d554dfa"
 depends = "[]"
 reverse_depends = "['lib32-faac']"
 +++
-A library for working with files using the mp4 container format. (extracted from mpeg4ip). ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/mp4art
+A library for working with files using the mp4 container format. (extracted from mpeg4ip). ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/mp4art
 * /usr/i686-frugalware-linux/bin/mp4chaps
 * /usr/i686-frugalware-linux/bin/mp4extract
 * /usr/i686-frugalware-linux/bin/mp4file
@@ -40,4 +40,4 @@ A library for working with files using the mp4 container format. (extracted from
 * /usr/lib32/libmp4v2.so
 * /usr/lib32/libmp4v2.so.2
 * /usr/lib32/libmp4v2.so.2.0.0
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "536645"
 sha1sum = "8463cebe31f3ab9d1a29cd0c3e6481c2c545581a"
 depends = "['firejail>=0.9.62', 'qt5-base>=5.15.10', 'qt5-svg>=5.15.10']"
 +++
-Firejail Qt5 GUI.{{< spoiler text="show files" >}}* /usr/bin/firejail-ui
+Firejail Qt5 GUI.{{< files text="show files" >}}* /usr/bin/firejail-ui
 * /usr/bin/firetools
 * /usr/lib/firetools/fmgr
 * /usr/lib/firetools/fstats
@@ -31,4 +31,4 @@ Firejail Qt5 GUI.{{< spoiler text="show files" >}}* /usr/bin/firejail-ui
 * /usr/share/pixmaps/firejail-ui.png
 * /usr/share/pixmaps/firetools-minimal.png
 * /usr/share/pixmaps/firetools.png
-{{< /spoiler >}}
+{{< /files >}}

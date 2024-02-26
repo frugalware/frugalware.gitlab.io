@@ -14,7 +14,7 @@ sha1sum = "024e95b908c9fa198c9ca6c38ddca19e65a09919"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['easyeffects', 'glibmm', 'telegram-desktop']"
 +++
-A typesafe callback framework for C++{{< spoiler text="show files" >}}* /usr/include/sigc++-3.0/sigc++/adaptors/adaptors.h
+A typesafe callback framework for C++{{< files text="show files" >}}* /usr/include/sigc++-3.0/sigc++/adaptors/adaptors.h
 * /usr/include/sigc++-3.0/sigc++/adaptors/adaptor_base.h
 * /usr/include/sigc++-3.0/sigc++/adaptors/adaptor_trait.h
 * /usr/include/sigc++-3.0/sigc++/adaptors/adapts.h
@@ -64,4 +64,4 @@ A typesafe callback framework for C++{{< spoiler text="show files" >}}* /usr/inc
 * /usr/share/doc/libsigc++3-3.4.0/COPYING
 * /usr/share/doc/libsigc++3-3.4.0/NEWS
 * /usr/share/doc/libsigc++3-3.4.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

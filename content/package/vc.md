@@ -13,7 +13,7 @@ usize = "3712573"
 sha1sum = "34160cb4ba22b600345f02541e66b777b26b795b"
 depends = "[]"
 +++
-C++ types for explicitly data-parallel programming{{< spoiler text="show files" >}}* /usr/include/Vc/algorithm
+C++ types for explicitly data-parallel programming{{< files text="show files" >}}* /usr/include/Vc/algorithm
 * /usr/include/Vc/Allocator
 * /usr/include/Vc/array
 * /usr/include/Vc/avx/casts.h
@@ -180,4 +180,4 @@ C++ types for explicitly data-parallel programming{{< spoiler text="show files" 
 * /usr/share/doc/vc-1.4.3/INSTALL
 * /usr/share/doc/vc-1.4.3/LICENSE
 * /usr/share/doc/vc-1.4.3/README.md
-{{< /spoiler >}}
+{{< /files >}}

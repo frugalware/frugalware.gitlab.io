@@ -13,7 +13,7 @@ usize = "192242"
 sha1sum = "046b34054c55b5017a45f72b002a3da04d2a886e"
 depends = "['ruby>=3.0.0']"
 +++
-Make-like scripting in Ruby{{< spoiler text="show files" >}}* /usr/lib/ruby/3.1.0/rake.rb
+Make-like scripting in Ruby{{< files text="show files" >}}* /usr/lib/ruby/3.1.0/rake.rb
 * /usr/lib/ruby/3.1.0/rake/application.rb
 * /usr/lib/ruby/3.1.0/rake/backtrace.rb
 * /usr/lib/ruby/3.1.0/rake/clean.rb
@@ -69,4 +69,4 @@ Make-like scripting in Ruby{{< spoiler text="show files" >}}* /usr/lib/ruby/3.1.
 * /usr/share/doc/rake-13.0.6/rakefile.rdoc
 * /usr/share/doc/rake-13.0.6/rational.rdoc
 * /usr/share/doc/rake-13.0.6/README.rdoc
-{{< /spoiler >}}
+{{< /files >}}

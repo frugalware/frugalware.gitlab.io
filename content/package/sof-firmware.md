@@ -13,7 +13,7 @@ usize = "21083749"
 sha1sum = "165acebaa7f06b6d2187adfa494989d6c521e515"
 depends = "['glibc>=2.35']"
 +++
-Sound Open Firmware{{< spoiler text="show files" >}}* /usr/bin/mtrace-reader.py
+Sound Open Firmware{{< files text="show files" >}}* /usr/bin/mtrace-reader.py
 * /usr/bin/sof-ctl
 * /usr/bin/sof-logger
 * /usr/bin/sof-probes
@@ -393,4 +393,4 @@ Sound Open Firmware{{< spoiler text="show files" >}}* /usr/bin/mtrace-reader.py
 * /usr/lib/firmware/intel/sof/sof-tgl.ri
 * /usr/share/doc/sof-firmware-2023.12/README.Intel
 * /usr/share/doc/sof-firmware-2023.12/README.md
-{{< /spoiler >}}
+{{< /files >}}

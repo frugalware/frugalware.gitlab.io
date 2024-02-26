@@ -14,5 +14,5 @@ sha1sum = "be2519960d5cafecd73d291150183f5e989a6e3a"
 depends = "['alsa-lib>=1.1.2-2', 'libcanberra>=0.30']"
 reverse_depends = "['knotifications']"
 +++
-Alsa libcanberra{{< spoiler text="show files" >}}* /usr/lib/libcanberra-0.30/libcanberra-alsa.so
-{{< /spoiler >}}
+Alsa libcanberra{{< files text="show files" >}}* /usr/lib/libcanberra-0.30/libcanberra-alsa.so
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "976728b912fe27804d856d145a8bfb0ab5d70831"
 depends = "['glibc>=2.27-2', 'libstdc++>=7.3.0-7']"
 reverse_depends = "['vlc-live']"
 +++
-Source-code libraries for standards-based RTP/RTCP/RTSP multimedia streaming{{< spoiler text="show files" >}}* /usr/bin/live555HLSProxy
+Source-code libraries for standards-based RTP/RTCP/RTSP multimedia streaming{{< files text="show files" >}}* /usr/bin/live555HLSProxy
 * /usr/bin/live555MediaServer
 * /usr/bin/live555ProxyServer
 * /usr/bin/mikeyParse
@@ -249,4 +249,4 @@ Source-code libraries for standards-based RTP/RTCP/RTSP multimedia streaming{{< 
 * /usr/share/doc/live-2024.02.15/COPYING
 * /usr/share/doc/live-2024.02.15/COPYING.LESSER
 * /usr/share/doc/live-2024.02.15/README
-{{< /spoiler >}}
+{{< /files >}}

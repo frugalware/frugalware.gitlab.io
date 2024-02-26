@@ -14,7 +14,7 @@ sha1sum = "27ffb8019e586c54f019a53648fceb045c4b047d"
 depends = "['haskell-aeson', 'haskell-base64-bytestring', 'haskell-case-insensitive', 'haskell-colour', 'haskell-safe', 'haskell-utf8-string', 'haskell-xml-conduit']"
 reverse_depends = "['haskell-skylighting-format-ansi', 'haskell-skylighting-format-blaze-html', 'haskell-skylighting-format-context', 'haskell-skylighting-format-latex']"
 +++
-Syntax highlighting library{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/skylighting-core-0.14.1/libHSskylighting-core-0.14.1-2Qzdunreawm7X7pC2z3WSG.a
+Syntax highlighting library{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/skylighting-core-0.14.1/libHSskylighting-core-0.14.1-2Qzdunreawm7X7pC2z3WSG.a
 * /usr/lib/ghc-9.8.1/site-local/skylighting-core-0.14.1/Regex/KDE.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/skylighting-core-0.14.1/Regex/KDE.hi
 * /usr/lib/ghc-9.8.1/site-local/skylighting-core-0.14.1/Regex/KDE/Compile.dyn_hi
@@ -79,4 +79,4 @@ Syntax highlighting library{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/skylighting-core-0.14.1/LICENSE
 * /usr/share/haskell/haskell-skylighting-core/register.sh
 * /usr/share/haskell/haskell-skylighting-core/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

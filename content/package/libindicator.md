@@ -14,7 +14,7 @@ sha1sum = "5c0ca6f60068fa1c4778b7f5a1d7cb6e502034d4"
 depends = "['gtk+3']"
 reverse_depends = "['libappindicator']"
 +++
-A set of symbols and convenience functions that all indicators would like to use.{{< spoiler text="show files" >}}* /usr/include/libindicator3-0.4/libindicator/indicator-desktop-shortcuts.h
+A set of symbols and convenience functions that all indicators would like to use.{{< files text="show files" >}}* /usr/include/libindicator3-0.4/libindicator/indicator-desktop-shortcuts.h
 * /usr/include/libindicator3-0.4/libindicator/indicator-image-helper.h
 * /usr/include/libindicator3-0.4/libindicator/indicator-object.h
 * /usr/include/libindicator3-0.4/libindicator/indicator-service-manager.h
@@ -39,4 +39,4 @@ A set of symbols and convenience functions that all indicators would like to use
 * /usr/share/doc/libindicator-12.10.1/NEWS
 * /usr/share/doc/libindicator-12.10.1/README
 * /usr/share/libindicator/80indicator-debugging
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "e9dde8755d63b7d7a18bb9491fbd8540cc3142b6"
 depends = "['libtirpc']"
 reverse_depends = "['postfix', 'vsftpd']"
 +++
-Public client interface library for NIS(YP) and NIS+{{< spoiler text="show files" >}}* /usr/include/rpcsvc/yp.h
+Public client interface library for NIS(YP) and NIS+{{< files text="show files" >}}* /usr/include/rpcsvc/yp.h
 * /usr/include/rpcsvc/yp.x
 * /usr/include/rpcsvc/ypclnt.h
 * /usr/include/rpcsvc/yppasswd.h
@@ -29,4 +29,4 @@ Public client interface library for NIS(YP) and NIS+{{< spoiler text="show files
 * /usr/share/doc/libnsl-2.0.1/INSTALL
 * /usr/share/doc/libnsl-2.0.1/NEWS
 * /usr/share/doc/libnsl-2.0.1/README
-{{< /spoiler >}}
+{{< /files >}}

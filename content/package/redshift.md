@@ -14,7 +14,7 @@ sha1sum = "38c268135b416a9f3085f0dae37ac8f1a642f88b"
 depends = "['glib2>=2.46.2-4', 'libdrm', 'libxcb', 'libxxf86vm']"
 reverse_depends = "['plasma-applet-redshift-control']"
 +++
-Redshift color temperature adjustment.{{< spoiler text="show files" >}}* /usr/bin/redshift
+Redshift color temperature adjustment.{{< files text="show files" >}}* /usr/bin/redshift
 * /usr/lib/systemd/user/redshift-gtk.service
 * /usr/lib/systemd/user/redshift.service
 * /usr/share/applications/redshift.desktop
@@ -62,4 +62,4 @@ Redshift color temperature adjustment.{{< spoiler text="show files" >}}* /usr/bi
 * /usr/share/locale/zh_CN/LC_MESSAGES/redshift.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/redshift.mo
 * /usr/share/man/man1/redshift.1.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "123019"
 sha1sum = "83d272f58a6e4e699892da9a396742aa68b24920"
 depends = "['glibc']"
 +++
-Allows you to run jobs at specified times{{< spoiler text="show files" >}}* /etc/at.deny
+Allows you to run jobs at specified times{{< files text="show files" >}}* /etc/at.deny
 * /etc/sysconfig/atd
 * /usr/bin/at
 * /usr/bin/atd
@@ -40,4 +40,4 @@ Allows you to run jobs at specified times{{< spoiler text="show files" >}}* /etc
 * /usr/share/man/man8/atd.8.gz
 * /usr/share/man/man8/atrun.8.gz
 * /var/spool/atjobs/.SEQ
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,5 +14,5 @@ sha1sum = "5c96a8cc41f94065f30a6debb5d074b9057a4f70"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Asturian language support for Firefox{{< spoiler text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-ast@firefox.mozilla.org.xpi
-{{< /spoiler >}}
+Asturian language support for Firefox{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-ast@firefox.mozilla.org.xpi
+{{< /files >}}

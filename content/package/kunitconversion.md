@@ -14,7 +14,7 @@ sha1sum = "5a718c7a6bb067b4272f204229bae088c3a8d50b"
 depends = "['ki18n>=5.115.0', 'qt5-base>=5.15.12']"
 reverse_depends = "['kalk', 'kalzium', 'kdelibs4support', 'kdeplasma-addons5']"
 +++
-Converting physical units.{{< spoiler text="show files" >}}* /usr/include/KF5/KUnitConversion/KUnitConversion/Converter
+Converting physical units.{{< files text="show files" >}}* /usr/include/KF5/KUnitConversion/KUnitConversion/Converter
 * /usr/include/KF5/KUnitConversion/kunitconversion/converter.h
 * /usr/include/KF5/KUnitConversion/kunitconversion/kunitconversion_export.h
 * /usr/include/KF5/KUnitConversion/KUnitConversion/Unit
@@ -95,4 +95,4 @@ Converting physical units.{{< spoiler text="show files" >}}* /usr/include/KF5/KU
 * /usr/share/locale/zh_TW/LC_MESSAGES/kunitconversion5.mo
 * /usr/share/qlogging-categories5/kunitconversion.categories
 * /usr/share/qt5/mkspecs/modules/qt_KUnitConversion.pri
-{{< /spoiler >}}
+{{< /files >}}

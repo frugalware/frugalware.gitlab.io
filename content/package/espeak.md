@@ -13,4 +13,4 @@ usize = "4096"
 sha1sum = "4172d56ba0c40b04dab6a292a40e895521de751a"
 depends = "['portaudio']"
 +++
-Text to Speech engine for good quality English, with support for other languages{{< spoiler text="show files" >}}{{< /spoiler >}}
+Text to Speech engine for good quality English, with support for other languages{{< files text="show files" >}}{{< /files >}}

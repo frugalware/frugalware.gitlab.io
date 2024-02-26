@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "7f738203919bc6089c118374c786930cf0f04ae4"
 depends = "['freetype2', 'lcms', 'libmng']"
 +++
-Graphical boot process for the linux kernel{{< spoiler text="show files" >}}* etc/bootsplash/themes/current
+Graphical boot process for the linux kernel{{< files text="show files" >}}* etc/bootsplash/themes/current
 * etc/bootsplash/themes/frugalware/config/bootsplash-1024x768.cfg
 * etc/bootsplash/themes/frugalware/config/bootsplash-1280x1024.cfg
 * etc/bootsplash/themes/frugalware/config/bootsplash-1400x1050.cfg
@@ -42,4 +42,4 @@ Graphical boot process for the linux kernel{{< spoiler text="show files" >}}* et
 * usr/share/doc/bootsplash-3.3/README.config
 * usr/share/doc/bootsplash-3.3/README.kernel
 * usr/share/doc/bootsplash-3.3/README.themes
-{{< /spoiler >}}
+{{< /files >}}

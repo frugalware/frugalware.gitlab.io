@@ -13,7 +13,7 @@ usize = "1037856"
 sha1sum = "0b608a77d5022cd6a6cabfa4f56dd5680d8c2d72"
 depends = "['libpcap', 'tcpdump']"
 +++
-Gives the ability to replay previously captured traffic in a libpcap format{{< spoiler text="show files" >}}* /usr/bin/tcpbridge
+Gives the ability to replay previously captured traffic in a libpcap format{{< files text="show files" >}}* /usr/bin/tcpbridge
 * /usr/bin/tcpcapinfo
 * /usr/bin/tcpliveplay
 * /usr/bin/tcpprep
@@ -28,4 +28,4 @@ Gives the ability to replay previously captured traffic in a libpcap format{{< s
 * /usr/share/man/man1/tcpreplay-edit.1.gz
 * /usr/share/man/man1/tcpreplay.1.gz
 * /usr/share/man/man1/tcprewrite.1.gz
-{{< /spoiler >}}
+{{< /files >}}

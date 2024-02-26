@@ -13,7 +13,7 @@ usize = "3736199"
 sha1sum = "ae568917500b5f7e3c50b1db575f6efaa7e2c023"
 depends = "['qt5-location>=5.15.10', 'qt5-multimedia>=5.15.10', 'qt5-sensors>=5.15.10', 'qtkeychain']"
 +++
-AsemanQtTools, is the shared tools and functions, we used in the aseman's projects.{{< spoiler text="show files" >}}* /usr/share/doc/aseman-qt-tools-1.0.0/LICENSE
+AsemanQtTools, is the shared tools and functions, we used in the aseman's projects.{{< files text="show files" >}}* /usr/share/doc/aseman-qt-tools-1.0.0/LICENSE
 * /usr/share/doc/aseman-qt-tools-1.0.0/README.md
 * /usr/share/qt5/qml/AsemanTools/AboutPage.qml
 * /usr/share/qt5/qml/AsemanTools/AboutPageAseman.qml
@@ -170,4 +170,4 @@ AsemanQtTools, is the shared tools and functions, we used in the aseman's projec
 * /usr/share/qt5/qml/AsemanTools/Tooltip.qml
 * /usr/share/qt5/qml/AsemanTools/WindowDragArea.qml
 * /usr/share/qt5/qml/AsemanTools/WindowResizeGrip.qml
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,6 +13,6 @@ usize = "92616"
 sha1sum = "abb0c46be404626349959c7751d7a14dd08edd49"
 depends = "['libpq>=11.2-2', 'qt5-base>=5.15.12', 'qt5-base-sql-common']"
 +++
-Postgresql support for qt5{{< spoiler text="show files" >}}* /usr/lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake
+Postgresql support for qt5{{< files text="show files" >}}* /usr/lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake
 * /usr/lib/qt5/plugins/sqldrivers/libqsqlpsql.so
-{{< /spoiler >}}
+{{< /files >}}

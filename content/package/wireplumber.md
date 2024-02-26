@@ -14,7 +14,7 @@ sha1sum = "ad91e2904a81f4dfd1f0f9e1c5c8bd731fe1d1fd"
 depends = "['lua', 'pipewire']"
 reverse_depends = "['gst1-plugins-pipewire', 'pipewire-alsa', 'pipewire-jack', 'pipewire-pulse', 'pipewire-x11']"
 +++
-Session / policy manager implementation for PipeWire{{< spoiler text="show files" >}}* /usr/bin/wireplumber
+Session / policy manager implementation for PipeWire{{< files text="show files" >}}* /usr/bin/wireplumber
 * /usr/bin/wpctl
 * /usr/bin/wpexec
 * /usr/include/wireplumber-0.5/wp/client.h
@@ -207,4 +207,4 @@ Session / policy manager implementation for PipeWire{{< spoiler text="show files
 * /usr/share/wireplumber/scripts/policy-dsp.lua
 * /usr/share/wireplumber/scripts/sm-objects.lua
 * /usr/share/zsh/site-functions/_wpctl
-{{< /spoiler >}}
+{{< /files >}}

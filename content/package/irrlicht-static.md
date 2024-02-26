@@ -13,5 +13,5 @@ usize = "87340609"
 sha1sum = "0f51c851af5c3fffb8f6d803b8d249c3251dfcd9"
 depends = "[]"
 +++
-Static files for irrlicht{{< spoiler text="show files" >}}* /usr/lib/libIrrlicht.a
-{{< /spoiler >}}
+Static files for irrlicht{{< files text="show files" >}}* /usr/lib/libIrrlicht.a
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "e001cf285857202d7fe3488b8f6556a983d334e7"
 depends = "['glibc>=2.34']"
 reverse_depends = "['efl', 'gst1-plugins-base', 'gst1-plugins-good', 'gst1-plugins-ugly', 'libpulse', 'libvips', 'spice']"
 +++
-The Oil Runtime Compiler{{< spoiler text="show files" >}}* /usr/bin/orc-bugreport
+The Oil Runtime Compiler{{< files text="show files" >}}* /usr/bin/orc-bugreport
 * /usr/bin/orcc
 * /usr/include/orc-0.4/orc-test/orcarray.h
 * /usr/include/orc-0.4/orc-test/orcprofile.h
@@ -66,4 +66,4 @@ The Oil Runtime Compiler{{< spoiler text="show files" >}}* /usr/bin/orc-bugrepor
 * /usr/share/doc/orc-0.4.37/README
 * /usr/share/doc/orc-0.4.37/RELEASE
 * /usr/share/doc/orc-0.4.37/TODO
-{{< /spoiler >}}
+{{< /files >}}

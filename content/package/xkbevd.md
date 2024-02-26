@@ -14,10 +14,10 @@ sha1sum = "c7a6c35ede63a0d6cbd105b9218a1273af29ee5d"
 depends = "['libxkbfile>=1.0.9-3']"
 license = "GPL2"
 +++
-X.Org xkbevd application{{< spoiler text="show files" >}}* /usr/bin/xkbevd
+X.Org xkbevd application{{< files text="show files" >}}* /usr/bin/xkbevd
 * /usr/share/doc/xkbevd-1.1.5/ChangeLog
 * /usr/share/doc/xkbevd-1.1.5/COPYING
 * /usr/share/doc/xkbevd-1.1.5/INSTALL
 * /usr/share/doc/xkbevd-1.1.5/README.md
 * /usr/share/man/man1/xkbevd.1.gz
-{{< /spoiler >}}
+{{< /files >}}

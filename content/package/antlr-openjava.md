@@ -13,7 +13,7 @@ usize = "2300259"
 sha1sum = "198828b4c3c1edcd6497f6b9f89bfbc3a05dfa45"
 depends = "['openjre']"
 +++
-ANother Tool for Language Recognition{{< spoiler text="show files" >}}* /usr/bin/antlr
+ANother Tool for Language Recognition{{< files text="show files" >}}* /usr/bin/antlr
 * /usr/bin/antlr-config
 * /usr/bin/pyantlr.sh
 * /usr/lib/antlr.jar
@@ -56,4 +56,4 @@ ANother Tool for Language Recognition{{< spoiler text="show files" >}}* /usr/bin
 * /usr/share/doc/antlr-openjava-2.7.7/INSTALL.txt
 * /usr/share/doc/antlr-openjava-2.7.7/README.txt
 * /usr/share/java/antlr-openjava.jar
-{{< /spoiler >}}
+{{< /files >}}

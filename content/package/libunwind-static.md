@@ -13,10 +13,10 @@ usize = "1995978"
 sha1sum = "c6e97605b4c32870f49e71c3b8ead6039ede8e01"
 depends = "[]"
 +++
-Static files for libunwind{{< spoiler text="show files" >}}* /usr/lib/libunwind-coredump.a
+Static files for libunwind{{< files text="show files" >}}* /usr/lib/libunwind-coredump.a
 * /usr/lib/libunwind-generic.a
 * /usr/lib/libunwind-ptrace.a
 * /usr/lib/libunwind-setjmp.a
 * /usr/lib/libunwind-x86_64.a
 * /usr/lib/libunwind.a
-{{< /spoiler >}}
+{{< /files >}}

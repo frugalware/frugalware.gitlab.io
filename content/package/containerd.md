@@ -14,7 +14,7 @@ sha1sum = "60597029b23f859b4439dd0ae597d288efd78fb8"
 depends = "['glibc', 'runc']"
 reverse_depends = "['docker']"
 +++
-open and reliable container runtime{{< spoiler text="show files" >}}* /usr/bin/containerd
+open and reliable container runtime{{< files text="show files" >}}* /usr/bin/containerd
 * /usr/bin/containerd-ctr
 * /usr/bin/containerd-shim
 * /usr/bin/containerd-shim-runc-v1
@@ -28,4 +28,4 @@ open and reliable container runtime{{< spoiler text="show files" >}}* /usr/bin/c
 * /usr/share/man/man8/containerd-config.8.gz
 * /usr/share/man/man8/containerd.8.gz
 * /usr/share/man/man8/ctr.8.gz
-{{< /spoiler >}}
+{{< /files >}}

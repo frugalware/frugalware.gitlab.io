@@ -13,7 +13,7 @@ usize = "165653"
 sha1sum = "c7e6138f5a25cdf79fd26574ab49d442d1f9762f"
 depends = "['perl>=5.34.0', 'perl-class-method-modifiers', 'perl-devel-globaldestruction', 'perl-import-into', 'perl-module-runtime', 'perl-module-runtime', 'perl-role-tiny', 'perl-sub-quote']"
 +++
-Minimalist Object Orientation (with Moose compatiblity){{< spoiler text="show files" >}}* /usr/lib/perl5/site_perl/Method/Generate/Accessor.pm
+Minimalist Object Orientation (with Moose compatiblity){{< files text="show files" >}}* /usr/lib/perl5/site_perl/Method/Generate/Accessor.pm
 * /usr/lib/perl5/site_perl/Method/Generate/BuildAll.pm
 * /usr/lib/perl5/site_perl/Method/Generate/Constructor.pm
 * /usr/lib/perl5/site_perl/Method/Generate/DemolishAll.pm
@@ -32,4 +32,4 @@ Minimalist Object Orientation (with Moose compatiblity){{< spoiler text="show fi
 * /usr/share/man/man3/Moo.3perl.gz
 * /usr/share/man/man3/Moo::Role.3perl.gz
 * /usr/share/man/man3/oo.3perl.gz
-{{< /spoiler >}}
+{{< /files >}}

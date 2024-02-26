@@ -14,7 +14,7 @@ sha1sum = "e3705c28ad4b0badb19888e9c2241cb576aaac35"
 depends = "['ruby>=3.3.0', 'ruby>=3.3.0']"
 reverse_depends = "['puppet']"
 +++
-A pluggable data store for hierarchical data.{{< spoiler text="show files" >}}* /etc/hiera.yaml
+A pluggable data store for hierarchical data.{{< files text="show files" >}}* /etc/hiera.yaml
 * /usr/bin/hiera
 * /usr/lib/ruby/gems/3.3.0/cache/hiera-3.12.0.gem
 * /usr/lib/ruby/gems/3.3.0/doc/hiera-3.12.0/ri/cache.ri
@@ -159,4 +159,4 @@ A pluggable data store for hierarchical data.{{< spoiler text="show files" >}}* 
 * /usr/lib/ruby/gems/3.3.0/gems/hiera-3.12.0/spec/unit/util_spec.rb
 * /usr/lib/ruby/gems/3.3.0/gems/hiera-3.12.0/spec/unit/version_spec.rb
 * /usr/lib/ruby/gems/3.3.0/specifications/hiera-3.12.0.gemspec
-{{< /spoiler >}}
+{{< /files >}}

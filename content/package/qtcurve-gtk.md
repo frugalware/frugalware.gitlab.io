@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "73f2b8dcaddde150b5a30cf7f26be17aa3549d0a"
 depends = "['gtk+2>=2.10.0', 'libstdc++']"
 +++
-GTK QtCurve Theme {{< spoiler text="show files" >}}* usr/lib/gtk-2.0/2.10.0/engines/libqtcurve.la
+GTK QtCurve Theme {{< files text="show files" >}}* usr/lib/gtk-2.0/2.10.0/engines/libqtcurve.la
 * usr/lib/gtk-2.0/2.10.0/engines/libqtcurve.so
 * usr/lib/gtk/themes/engines/libqtcurve.la
 * usr/lib/gtk/themes/engines/libqtcurve.so
@@ -23,4 +23,4 @@ GTK QtCurve Theme {{< spoiler text="show files" >}}* usr/lib/gtk-2.0/2.10.0/engi
 * usr/share/themes/QtCurve/mozilla/mailto.sh
 * usr/share/themes/QtCurve/mozilla/preferences-rev.xml
 * usr/share/themes/QtCurve/mozilla/QtCurve.css
-{{< /spoiler >}}
+{{< /files >}}

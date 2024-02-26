@@ -13,7 +13,7 @@ usize = "500122"
 sha1sum = "71bca2b132f220bab3ad06259609f1c6ede4555c"
 depends = "['qt6-declarative']"
 +++
-The Qt6 toolkit, qtlottie{{< spoiler text="show files" >}}* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/beziereasing_p.h
+The Qt6 toolkit, qtlottie{{< files text="show files" >}}* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/beziereasing_p.h
 * /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmbase_p.h
 * /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmbasictransform_p.h
 * /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmconstants_p.h
@@ -70,4 +70,4 @@ The Qt6 toolkit, qtlottie{{< spoiler text="show files" >}}* /usr/include/qt6/QtB
 * /usr/lib/qt6/qml/Qt/labs/lottieqt/liblottieqtplugin.so
 * /usr/lib/qt6/qml/Qt/labs/lottieqt/plugins.qmltypes
 * /usr/lib/qt6/qml/Qt/labs/lottieqt/qmldir
-{{< /spoiler >}}
+{{< /files >}}

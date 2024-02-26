@@ -14,7 +14,7 @@ sha1sum = "70490dd0a449dbb580d5372bd146af90a5716386"
 depends = "['ghc>=9.6.2']"
 reverse_depends = "['haskell-cassava']"
 +++
-The 1-tuple type or single-value "collection"{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/Only-0.1/Data/Tuple/Only.dyn_hi
+The 1-tuple type or single-value "collection"{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/Only-0.1/Data/Tuple/Only.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/Only-0.1/Data/Tuple/Only.hi
 * /usr/lib/ghc-9.8.1/site-local/Only-0.1/libHSOnly-0.1-GOQ8x7ANPHLAhW8HAOeFpS.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSOnly-0.1-GOQ8x7ANPHLAhW8HAOeFpS-ghc9.8.1.so
@@ -31,4 +31,4 @@ The 1-tuple type or single-value "collection"{{< spoiler text="show files" >}}* 
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/Only-0.1/LICENSE
 * /usr/share/haskell/haskell-only/register.sh
 * /usr/share/haskell/haskell-only/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

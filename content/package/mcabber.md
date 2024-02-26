@@ -13,7 +13,7 @@ usize = "905926"
 sha1sum = "de86f3b9fa029a0d0042f4325001f4ad4aebebc2"
 depends = "['aspell', 'glib2', 'gpgme', 'libotr', 'loudmouth>=1.5.3-3', 'ncurses>=6.0-15', 'openssl']"
 +++
-Small Jabber console client, includes features: SSL, PGP, MUC, UTF8{{< spoiler text="show files" >}}* /usr/bin/mcabber
+Small Jabber console client, includes features: SSL, PGP, MUC, UTF8{{< files text="show files" >}}* /usr/bin/mcabber
 * /usr/include/mcabber/api.h
 * /usr/include/mcabber/caps.h
 * /usr/include/mcabber/commands.h
@@ -414,4 +414,4 @@ Small Jabber console client, includes features: SSL, PGP, MUC, UTF8{{< spoiler t
 * /usr/share/mcabber/help/uk/hlp_status.txt
 * /usr/share/mcabber/help/uk/hlp_status_to.txt
 * /usr/share/mcabber/help/uk/hlp_version.txt
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,5 +14,5 @@ sha1sum = "c69b90faaec4ed70a44f2c1b81e811611fa4191f"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Central Khmer language support for Firefox{{< spoiler text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-km@firefox.mozilla.org.xpi
-{{< /spoiler >}}
+Central Khmer language support for Firefox{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-km@firefox.mozilla.org.xpi
+{{< /files >}}

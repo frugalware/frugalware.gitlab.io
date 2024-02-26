@@ -13,7 +13,7 @@ usize = "601457"
 sha1sum = "8be30691bc1d4b12e69fabab0d590ee1e1a9ca28"
 depends = "['libsamplerate', 'qt5-base>=5.15.10']"
 +++
-A collection of libraries to help you integrate Last.fm services into your rich desktop software.{{< spoiler text="show files" >}}* /usr/include/lastfm5/AbstractType.h
+A collection of libraries to help you integrate Last.fm services into your rich desktop software.{{< files text="show files" >}}* /usr/include/lastfm5/AbstractType.h
 * /usr/include/lastfm5/Album.h
 * /usr/include/lastfm5/Artist.h
 * /usr/include/lastfm5/Audioscrobbler.h
@@ -51,4 +51,4 @@ A collection of libraries to help you integrate Last.fm services into your rich 
 * /usr/lib/liblastfm_fingerprint5.so.1.1.0
 * /usr/share/doc/liblastfm-1.1.0/COPYING
 * /usr/share/doc/liblastfm-1.1.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

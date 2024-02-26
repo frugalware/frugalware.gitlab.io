@@ -13,7 +13,7 @@ usize = "4371411"
 sha1sum = "cabd0a9ada937d218e35d1619394161ab732118d"
 depends = "['fontconfig', 'mkfontscale']"
 +++
-A set of monospaced OpenType fonts designed for coding environments.{{< spoiler text="show files" >}}* /usr/share/doc/sourcecodepro-fonts-1.030R/LICENSE.txt
+A set of monospaced OpenType fonts designed for coding environments.{{< files text="show files" >}}* /usr/share/doc/sourcecodepro-fonts-1.030R/LICENSE.txt
 * /usr/share/doc/sourcecodepro-fonts-1.030R/README.md
 * /usr/share/fonts/X11/OTF/SourceCodePro-Black.otf
 * /usr/share/fonts/X11/OTF/SourceCodePro-BlackIt.otf
@@ -43,4 +43,4 @@ A set of monospaced OpenType fonts designed for coding environments.{{< spoiler 
 * /usr/share/fonts/X11/TTF/SourceCodePro-Regular.ttf
 * /usr/share/fonts/X11/TTF/SourceCodePro-Semibold.ttf
 * /usr/share/fonts/X11/TTF/SourceCodePro-SemiboldIt.ttf
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "78b961c9b4b097158209ce7666d821ac878b1868"
 depends = "['glibc>=2.34']"
 reverse_depends = "['aircrack-ng', 'criu', 'hostapd', 'i3status', 'iw', 'ksysguard5', 'libksysguard5', 'libvirt', 'networkmanager', 'powertop', 'quota-tools', 'rdma-core', 'wavemon', 'wireshark', 'wireshark-qt', 'wpa_supplicant']"
 +++
-A library to ease the use of netlink sockets{{< spoiler text="show files" >}}* /etc/libnl/classid
+A library to ease the use of netlink sockets{{< files text="show files" >}}* /etc/libnl/classid
 * /etc/libnl/pktloc
 * /usr/bin/genl-ctrl-list
 * /usr/bin/idiag-socket-details
@@ -245,4 +245,4 @@ A library to ease the use of netlink sockets{{< spoiler text="show files" >}}* /
 * /usr/share/man/man8/nl-qdisc-add.8.gz
 * /usr/share/man/man8/nl-qdisc-delete.8.gz
 * /usr/share/man/man8/nl-qdisc-list.8.gz
-{{< /spoiler >}}
+{{< /files >}}

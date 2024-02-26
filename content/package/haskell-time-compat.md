@@ -14,7 +14,7 @@ sha1sum = "260fac671b6b6cac1d557a0cc1c98cac31ec5b35"
 depends = "['haskell-base-orphans>=0.8.5', 'haskell-hashable>=1.4.2.0']"
 reverse_depends = "['haskell-attoparsec-iso8601', 'haskell-text-iso8601']"
 +++
-Compatibile module for time{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/time-compat-1.9.6.1/Data/Format.dyn_hi
+Compatibile module for time{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/time-compat-1.9.6.1/Data/Format.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/time-compat-1.9.6.1/Data/Format.hi
 * /usr/lib/ghc-9.8.1/site-local/time-compat-1.9.6.1/Data/Time/Calendar/Compat.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/time-compat-1.9.6.1/Data/Time/Calendar/Compat.hi
@@ -109,4 +109,4 @@ Compatibile module for time{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/time-compat-1.9.6.1/LICENSE
 * /usr/share/haskell/haskell-time-compat/register.sh
 * /usr/share/haskell/haskell-time-compat/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

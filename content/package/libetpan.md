@@ -14,7 +14,7 @@ sha1sum = "eb4bc4a885c80b779ce03c8a9b978088cad52bc6"
 depends = "['cyrus-sasl>=2.1.26-2', 'db>=8.1.32', 'openssl>=3.1.0']"
 reverse_depends = "['claws-mail']"
 +++
-A mail library{{< spoiler text="show files" >}}* /usr/include/libetpan.h
+A mail library{{< files text="show files" >}}* /usr/include/libetpan.h
 * /usr/include/libetpan/acl.h
 * /usr/include/libetpan/acl_types.h
 * /usr/include/libetpan/annotatemore.h
@@ -187,4 +187,4 @@ A mail library{{< spoiler text="show files" >}}* /usr/include/libetpan.h
 * /usr/share/doc/libetpan-1.9.4/COPYRIGHT
 * /usr/share/doc/libetpan-1.9.4/NEWS
 * /usr/share/doc/libetpan-1.9.4/README.md
-{{< /spoiler >}}
+{{< /files >}}

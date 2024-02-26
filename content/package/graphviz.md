@@ -14,7 +14,7 @@ sha1sum = "13a0588b8525b5da17ce3736d3607f9afcd07f98"
 depends = "['devil>=1.8.0', 'freeglut', 'gd>=2.1.1-4', 'guile>=3.0.4', 'libgs>=10.0.0', 'librsvg', 'libxaw', 'libxpm', 'perl>=5.22.1', 'python3>=3.12']"
 reverse_depends = "['libmediainfo', 'vala']"
 +++
-Open Source Graph Visualization Software{{< spoiler text="show files" >}}* /usr/bin/acyclic
+Open Source Graph Visualization Software{{< files text="show files" >}}* /usr/bin/acyclic
 * /usr/bin/bcomps
 * /usr/bin/ccomps
 * /usr/bin/circo
@@ -419,4 +419,4 @@ Open Source Graph Visualization Software{{< spoiler text="show files" >}}* /usr/
 * /usr/share/man/man3/tcldot.3tcl.gz
 * /usr/share/man/man3/xdot.3.gz
 * /usr/share/man/man7/graphviz.7.gz
-{{< /spoiler >}}
+{{< /files >}}

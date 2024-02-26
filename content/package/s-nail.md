@@ -13,7 +13,7 @@ usize = "1188683"
 sha1sum = "9541aa9be01ee8e0bba68960862e379125f41e1a"
 depends = "['libidn2', 'libkrb5', 'openssl']"
 +++
-Environment for sending and receiving mail{{< spoiler text="show files" >}}* /etc/mail.rc
+Environment for sending and receiving mail{{< files text="show files" >}}* /etc/mail.rc
 * /usr/bin/mail
 * /usr/bin/mailx
 * /usr/lib/mail-dotlock
@@ -24,4 +24,4 @@ Environment for sending and receiving mail{{< spoiler text="show files" >}}* /et
 * /usr/share/doc/s-nail-14.9.24/THANKS
 * /usr/share/man/man1/mail.1.gz
 * /usr/share/man/man1/mailx.1.gz
-{{< /spoiler >}}
+{{< /files >}}

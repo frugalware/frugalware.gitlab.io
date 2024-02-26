@@ -14,7 +14,7 @@ sha1sum = "59e2a96066a7d01e5f5d428903949727611a6636"
 depends = "['glibc']"
 reverse_depends = "['litehtml']"
 +++
-HTML5 parsing library in pure C99{{< spoiler text="show files" >}}* /usr/include/gumbo.h
+HTML5 parsing library in pure C99{{< files text="show files" >}}* /usr/include/gumbo.h
 * /usr/include/tag_enum.h
 * /usr/lib/libgumbo.so
 * /usr/lib/libgumbo.so.1
@@ -23,4 +23,4 @@ HTML5 parsing library in pure C99{{< spoiler text="show files" >}}* /usr/include
 * /usr/share/doc/gumbo-parser-0.10.1/COPYING
 * /usr/share/doc/gumbo-parser-0.10.1/README.md
 * /usr/share/doc/gumbo-parser-0.10.1/THANKS
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "22d303b722ae8668f206aa4465a7b56cf87e0979"
 depends = "['libusb1']"
 reverse_depends = "['rng-tools']"
 +++
-Software to turn the RTL2832U into an SDR{{< spoiler text="show files" >}}* /usr/bin/rtl_adsb
+Software to turn the RTL2832U into an SDR{{< files text="show files" >}}* /usr/bin/rtl_adsb
 * /usr/bin/rtl_biast
 * /usr/bin/rtl_eeprom
 * /usr/bin/rtl_fm
@@ -35,4 +35,4 @@ Software to turn the RTL2832U into an SDR{{< spoiler text="show files" >}}* /usr
 * /usr/share/doc/librtlsdr-2.0.1/AUTHORS
 * /usr/share/doc/librtlsdr-2.0.1/COPYING
 * /usr/share/doc/librtlsdr-2.0.1/README
-{{< /spoiler >}}
+{{< /files >}}

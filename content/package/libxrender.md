@@ -15,7 +15,7 @@ depends = "['libx11>=1.6.7-2']"
 reverse_depends = "['cairo', 'efl', 'enlightenment', 'libqtdesignercomponents', 'libxcursor', 'libxft', 'libxrandr', 'mlt-qt', 'openjre-x', 'polkit-qt5-1', 'qscintilla2', 'qt5-base', 'qt6-base', 'rendercheck', 'terminology', 'utox', 'whalebird', 'wine', 'wine-devel', 'x11perf', 'xclock', 'xeyes', 'xrdp', 'xterm']"
 license = "GPL2"
 +++
-X Render Library{{< spoiler text="show files" >}}* /usr/include/X11/extensions/Xrender.h
+X Render Library{{< files text="show files" >}}* /usr/include/X11/extensions/Xrender.h
 * /usr/lib/libXrender.so
 * /usr/lib/libXrender.so.1
 * /usr/lib/libXrender.so.1.3.0
@@ -26,4 +26,4 @@ X Render Library{{< spoiler text="show files" >}}* /usr/include/X11/extensions/X
 * /usr/share/doc/libxrender-0.9.11/INSTALL
 * /usr/share/doc/libxrender-0.9.11/libXrender.txt
 * /usr/share/doc/libxrender-0.9.11/README.md
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "1792117"
 sha1sum = "6e8c002ef9120fb5ab64b42b783b47b4aab1cd33"
 depends = "['libkdegames>=23.08.5']"
 +++
-KSpaceDuel: each of two possible players controls a satellite spaceship orbiting the sun{{< spoiler text="show files" >}}* /usr/bin/kspaceduel
+KSpaceDuel: each of two possible players controls a satellite spaceship orbiting the sun{{< files text="show files" >}}* /usr/bin/kspaceduel
 * /usr/share/applications/org.kde.kspaceduel.desktop
 * /usr/share/config.kcfg/kspaceduel.kcfg
 * /usr/share/doc/HTML/ca/kspaceduel/index.cache.bz2
@@ -160,4 +160,4 @@ KSpaceDuel: each of two possible players controls a satellite spaceship orbiting
 * /usr/share/locale/zh_CN/LC_MESSAGES/kspaceduel.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kspaceduel.mo
 * /usr/share/metainfo/org.kde.kspaceduel.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

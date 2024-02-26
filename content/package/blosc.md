@@ -14,7 +14,7 @@ sha1sum = "abe802792fb00e72f16a5de7f3cb051e8829f9d4"
 depends = "['snappy', 'zstd']"
 reverse_depends = "['adios2', 'openvdb']"
 +++
-A blocking, shuffling and loss-less compression library.{{< spoiler text="show files" >}}* /usr/include/blosc-export.h
+A blocking, shuffling and loss-less compression library.{{< files text="show files" >}}* /usr/include/blosc-export.h
 * /usr/include/blosc.h
 * /usr/lib/libblosc.a
 * /usr/lib/libblosc.so
@@ -34,4 +34,4 @@ A blocking, shuffling and loss-less compression library.{{< spoiler text="show f
 * /usr/share/doc/blosc-1.21.1/RELEASE_NOTES.rst
 * /usr/share/doc/blosc-1.21.1/TODO
 * /usr/share/doc/blosc-1.21.1/VERSION
-{{< /spoiler >}}
+{{< /files >}}

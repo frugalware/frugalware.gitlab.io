@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "017b9fcc92152aebb740792a1d178301c956fa32"
 depends = "[]"
 +++
-Tajik Localization for KOffice. {{< spoiler text="show files" >}}* usr/share/locale/tg/LC_MESSAGES/desktop_koffice.mo
+Tajik Localization for KOffice. {{< files text="show files" >}}* usr/share/locale/tg/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/tg/LC_MESSAGES/example.mo
 * usr/share/locale/tg/LC_MESSAGES/karbon.mo
 * usr/share/locale/tg/LC_MESSAGES/kchart.mo
@@ -42,4 +42,4 @@ Tajik Localization for KOffice. {{< spoiler text="show files" >}}* usr/share/loc
 * usr/share/locale/tg/LC_MESSAGES/kugar.mo
 * usr/share/locale/tg/LC_MESSAGES/kword.mo
 * usr/share/locale/tg/LC_MESSAGES/thesaurus_tool.mo
-{{< /spoiler >}}
+{{< /files >}}

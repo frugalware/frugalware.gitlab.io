@@ -13,7 +13,7 @@ usize = "436817"
 sha1sum = "20b3454796bb1f38c225c9e59deeb2729410c34e"
 depends = "['kcalendarcore', 'kconfig', 'kcoreaddons', 'kdbusaddons', 'ki18n', 'kirigami2', 'knotifications']"
 +++
-Companion application for conferences{{< spoiler text="show files" >}}* /usr/bin/kongress
+Companion application for conferences{{< files text="show files" >}}* /usr/bin/kongress
 * /usr/bin/kongressac
 * /usr/share/applications/org.kde.kongress.desktop
 * /usr/share/dbus-1/services/org.kde.kongressac.service
@@ -89,4 +89,4 @@ Companion application for conferences{{< spoiler text="show files" >}}* /usr/bin
 * /usr/share/locale/zh_TW/LC_MESSAGES/kongress.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kongressac.mo
 * /usr/share/metainfo/org.kde.kongress.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "e6e5a0dc0a70fdca40699b557a6901a73d514135"
 depends = "['python3']"
 reverse_depends = "['polychromatic']"
 +++
-Python API for cross-platform colored terminal text.{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/colorama-0.4.6.dist-info/licenses/LICENSE.txt
+Python API for cross-platform colored terminal text.{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/colorama-0.4.6.dist-info/licenses/LICENSE.txt
 * /usr/lib/python3.12/site-packages/colorama-0.4.6.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/colorama-0.4.6.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/colorama-0.4.6.dist-info/WHEEL
@@ -58,4 +58,4 @@ Python API for cross-platform colored terminal text.{{< spoiler text="show files
 * /usr/lib/python3.12/site-packages/colorama/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/colorama/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-colorama-0.4.6/README.rst
-{{< /spoiler >}}
+{{< /files >}}

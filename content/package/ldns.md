@@ -14,7 +14,7 @@ sha1sum = "2346499a9017cf8dbe221cefb52505d515df1dc5"
 depends = "['dnssec-anchors', 'libpcap', 'openssl>=3.1.0']"
 reverse_depends = "['libreswan', 'openssh']"
 +++
-Fast DNS library supporting recent RFCs{{< spoiler text="show files" >}}* /usr/bin/drill
+Fast DNS library supporting recent RFCs{{< files text="show files" >}}* /usr/bin/drill
 * /usr/bin/ldns-chaos
 * /usr/bin/ldns-compare-zones
 * /usr/bin/ldns-config
@@ -581,4 +581,4 @@ Fast DNS library supporting recent RFCs{{< spoiler text="show files" >}}* /usr/b
 * /usr/share/man/man3/ldns_zone_sign_nsec3.3.gz
 * /usr/share/man/man3/ldns_zone_soa.3.gz
 * /usr/share/man/man3/ldns_zone_sort.3.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "59eb8cc7be4f8b3d1969a380e975a3fc9ff8f606"
 depends = "['glib2>=2.70.2', 'libffi>=3.4', 'python3>=3.12']"
 reverse_depends = "['appstream', 'libfprint', 'libmypaint', 'lutris', 'piper', 'vte3']"
 +++
-Generate interface introspection data for GObject libraries.{{< spoiler text="show files" >}}* /usr/bin/g-ir-annotation-tool
+Generate interface introspection data for GObject libraries.{{< files text="show files" >}}* /usr/bin/g-ir-annotation-tool
 * /usr/bin/g-ir-compiler
 * /usr/bin/g-ir-generate
 * /usr/bin/g-ir-inspect
@@ -208,4 +208,4 @@ Generate interface introspection data for GObject libraries.{{< spoiler text="sh
 * /usr/share/man/man1/g-ir-doc-tool.1.gz
 * /usr/share/man/man1/g-ir-generate.1.gz
 * /usr/share/man/man1/g-ir-scanner.1.gz
-{{< /spoiler >}}
+{{< /files >}}

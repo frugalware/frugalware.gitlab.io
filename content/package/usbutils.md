@@ -14,7 +14,7 @@ sha1sum = "1fea558742a6e3d0aaadb0414d53c8b0857d9020"
 depends = "['hwdata', 'libudev>=242', 'libusb>=0.1.5-4']"
 reverse_depends = "['hw-probe', 'inxi']"
 +++
-USB utilities - lsusb,usbmodules{{< spoiler text="show files" >}}* /usr/bin/lsusb
+USB utilities - lsusb,usbmodules{{< files text="show files" >}}* /usr/bin/lsusb
 * /usr/bin/lsusb.py
 * /usr/bin/usb-devices
 * /usr/bin/usbhid-dump
@@ -24,4 +24,4 @@ USB utilities - lsusb,usbmodules{{< spoiler text="show files" >}}* /usr/bin/lsus
 * /usr/share/man/man1/usb-devices.1.gz
 * /usr/share/man/man8/lsusb.8.gz
 * /usr/share/man/man8/usbhid-dump.8.gz
-{{< /spoiler >}}
+{{< /files >}}

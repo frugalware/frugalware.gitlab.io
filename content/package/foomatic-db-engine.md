@@ -14,7 +14,7 @@ sha1sum = "db49de0d752772859fa955e34dcdb027103b7dae"
 depends = "['libxml2', 'perl', 'xz']"
 reverse_depends = "['hplip-driver']"
 +++
-Foomatic's database engine generates PPD files from the data in Foomatic's XML database.{{< spoiler text="show files" >}}* /usr/bin/foomatic-addpjloptions
+Foomatic's database engine generates PPD files from the data in Foomatic's XML database.{{< files text="show files" >}}* /usr/bin/foomatic-addpjloptions
 * /usr/bin/foomatic-cleanupdrivers
 * /usr/bin/foomatic-combo-xml
 * /usr/bin/foomatic-compiledb
@@ -56,4 +56,4 @@ Foomatic's database engine generates PPD files from the data in Foomatic's XML d
 * /usr/share/man/man8/foomatic-getpjloptions.8.gz
 * /usr/share/man/man8/foomatic-kitload.8.gz
 * /usr/share/man/man8/foomatic-preferred-driver.8.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "067b2ad96d3f7e93b42d6d9f19f7ec43c047db8f"
 depends = "['libglvnd', 'libxi>=1.7.6-2', 'libxxf86vm']"
 reverse_depends = "['alienarena', 'flightgear', 'graphviz', 'mesademos', 'mupdf-gl', 'openal', 'opencolorio', 'opencsg']"
 +++
-The free OpenGL utility toolkit, alternative to the GLUT library{{< spoiler text="show files" >}}* /usr/include/GL/freeglut.h
+The free OpenGL utility toolkit, alternative to the GLUT library{{< files text="show files" >}}* /usr/include/GL/freeglut.h
 * /usr/include/GL/freeglut_ext.h
 * /usr/include/GL/freeglut_std.h
 * /usr/include/GL/freeglut_ucall.h
@@ -38,4 +38,4 @@ The free OpenGL utility toolkit, alternative to the GLUT library{{< spoiler text
 * /usr/share/doc/freeglut-3.4.0/README.md
 * /usr/share/doc/freeglut-3.4.0/README.mingw_cross
 * /usr/share/doc/freeglut-3.4.0/README.win32
-{{< /spoiler >}}
+{{< /files >}}

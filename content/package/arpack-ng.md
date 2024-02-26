@@ -14,7 +14,7 @@ sha1sum = "736f403c8b9f5a40696f0d6998b8456bc2c8fe70"
 depends = "['libgfortran']"
 reverse_depends = "['octave']"
 +++
-Fortran77 subroutines designed to solve large scale eigenvalue problems.{{< spoiler text="show files" >}}* /usr/include/arpack/arpackdef.h
+Fortran77 subroutines designed to solve large scale eigenvalue problems.{{< files text="show files" >}}* /usr/include/arpack/arpackdef.h
 * /usr/include/arpack/debug.h
 * /usr/include/arpack/stat.h
 * /usr/lib/cmake/arpack-ng/arpack-ng-config-version.cmake
@@ -27,4 +27,4 @@ Fortran77 subroutines designed to solve large scale eigenvalue problems.{{< spoi
 * /usr/share/doc/arpack-ng-3.8.0/COPYING
 * /usr/share/doc/arpack-ng-3.8.0/README.md
 * /usr/share/doc/arpack-ng-3.8.0/TODO
-{{< /spoiler >}}
+{{< /files >}}

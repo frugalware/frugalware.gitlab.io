@@ -14,7 +14,7 @@ sha1sum = "05978bd13472fe02e8091150b8e3310b9d8c2e9c"
 depends = "['cln>=1.3.4-3', 'curl', 'glib2>=2.49.7-2', 'icu4c>=74.1', 'libstdc++>=9.1.0-3', 'libxml2>=2.9.4-3', 'ncurses>=6.1-2', 'readline>=8.0']"
 reverse_depends = "['cantor', 'plasma-workspace', 'step']"
 +++
-A multi-purpose desktop calculator library{{< spoiler text="show files" >}}* /usr/bin/qalc
+A multi-purpose desktop calculator library{{< files text="show files" >}}* /usr/bin/qalc
 * /usr/include/libqalculate/BuiltinFunctions.h
 * /usr/include/libqalculate/Calculator.h
 * /usr/include/libqalculate/DataSet.h
@@ -315,4 +315,4 @@ A multi-purpose desktop calculator library{{< spoiler text="show files" >}}* /us
 * /usr/share/qalculate/rates.json
 * /usr/share/qalculate/units.xml
 * /usr/share/qalculate/variables.xml
-{{< /spoiler >}}
+{{< /files >}}

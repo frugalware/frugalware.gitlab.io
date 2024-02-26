@@ -14,7 +14,7 @@ sha1sum = "892d59ad0628b05237528f216fc556df640b8f4c"
 depends = "['glibc>=2.35', 'gzip>=1.9.1-2', 'python3', 'scriptlet-core', 'zlib>=1.2.12']"
 reverse_depends = "['libpwquality']"
 +++
-Next generation version of libCrack password checking library.{{< spoiler text="show files" >}}* /usr/bin/cracklib-check
+Next generation version of libCrack password checking library.{{< files text="show files" >}}* /usr/bin/cracklib-check
 * /usr/bin/cracklib-format
 * /usr/bin/cracklib-packer
 * /usr/bin/cracklib-unpacker
@@ -70,4 +70,4 @@ Next generation version of libCrack password checking library.{{< spoiler text="
 * /usr/share/locale/uk/LC_MESSAGES/cracklib.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/cracklib.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/cracklib.mo
-{{< /spoiler >}}
+{{< /files >}}

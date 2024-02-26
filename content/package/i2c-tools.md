@@ -14,7 +14,7 @@ sha1sum = "f1e40c8a1c84e16e78bdf732d1ae8f28e473b316"
 depends = "['perl']"
 reverse_depends = "['ddcutil', 'openrgb']"
 +++
-Heterogeneous set of I2C tools for Linux that used to be part of lm-sensors{{< spoiler text="show files" >}}* /usr/bin/ddcmon
+Heterogeneous set of I2C tools for Linux that used to be part of lm-sensors{{< files text="show files" >}}* /usr/bin/ddcmon
 * /usr/bin/decode-dimms
 * /usr/bin/decode-edid
 * /usr/bin/decode-vaio
@@ -41,4 +41,4 @@ Heterogeneous set of I2C tools for Linux that used to be part of lm-sensors{{< s
 * /usr/share/man/man8/i2cget.8.gz
 * /usr/share/man/man8/i2cset.8.gz
 * /usr/share/man/man8/i2ctransfer.8.gz
-{{< /spoiler >}}
+{{< /files >}}

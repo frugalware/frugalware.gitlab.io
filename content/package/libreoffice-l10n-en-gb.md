@@ -13,7 +13,7 @@ usize = "33360018"
 sha1sum = "b28e2f595187f12e0d4a732a38302f012212566e"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs English (United Kingdom) support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/help/en-GB/default.css
+Installs English (United Kingdom) support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/en-GB/default.css
 * /usr/lib/libreoffice/help/en-GB/err.html
 * /usr/lib/libreoffice/help/en-GB/highcontrast1.css
 * /usr/lib/libreoffice/help/en-GB/highcontrast2.css
@@ -133,4 +133,4 @@ Installs English (United Kingdom) support in LibreOffice{{< spoiler text="show f
 * /usr/lib/libreoffice/share/registry/Langpack-en-GB.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_en-GB.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_en-GB.xcd
-{{< /spoiler >}}
+{{< /files >}}

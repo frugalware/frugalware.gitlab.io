@@ -14,7 +14,7 @@ sha1sum = "cf0f6ed45b2a5fa755ba6773a6f758f04b6f0fd6"
 depends = "['glibc>=2.34']"
 reverse_depends = "['cups-filters', 'enlightenment', 'exif', 'feh', 'libgdiplus', 'libgphoto2', 'libvips', 'minidlna', 'mlt', 'qtox']"
 +++
-Exchangeable Image File Format tag library{{< spoiler text="show files" >}}* /usr/include/libexif/exif-byte-order.h
+Exchangeable Image File Format tag library{{< files text="show files" >}}* /usr/include/libexif/exif-byte-order.h
 * /usr/include/libexif/exif-content.h
 * /usr/include/libexif/exif-data-type.h
 * /usr/include/libexif/exif-data.h
@@ -63,4 +63,4 @@ Exchangeable Image File Format tag library{{< spoiler text="show files" >}}* /us
 * /usr/share/locale/uk/LC_MESSAGES/libexif-12.mo
 * /usr/share/locale/vi/LC_MESSAGES/libexif-12.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/libexif-12.mo
-{{< /spoiler >}}
+{{< /files >}}

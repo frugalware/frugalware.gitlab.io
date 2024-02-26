@@ -13,7 +13,7 @@ usize = "9107"
 sha1sum = "377ffbbcb9cb3d1f45bc81ef5b195aacbd153255"
 depends = "['python3-flit_core', 'python3-setuptools_scm']"
 +++
-Python language bindings for Selenium WebDriver{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/flit_scm-1.7.0.dist-info/LICENSE
+Python language bindings for Selenium WebDriver{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/flit_scm-1.7.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/flit_scm-1.7.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/flit_scm-1.7.0.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/flit_scm-1.7.0.dist-info/WHEEL
@@ -25,4 +25,4 @@ Python language bindings for Selenium WebDriver{{< spoiler text="show files" >}}
 * /usr/lib/python3.12/site-packages/flit_scm/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-flit_scm-1.7.0/LICENSE
 * /usr/share/doc/python3-flit_scm-1.7.0/README.md
-{{< /spoiler >}}
+{{< /files >}}

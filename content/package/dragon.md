@@ -13,7 +13,7 @@ usize = "2778466"
 sha1sum = "6105f30f23978c7a4c8fbbad7bd286a2a82dbb5f"
 depends = "['kparts>=5.115.0']"
 +++
-KDE Video Player.{{< spoiler text="show files" >}}* /etc/xdg/dragonplayerrc
+KDE Video Player.{{< files text="show files" >}}* /etc/xdg/dragonplayerrc
 * /usr/bin/dragon
 * /usr/lib/qt5/plugins/kf5/parts/dragonpart.so
 * /usr/share/applications/org.kde.dragonplayer.desktop
@@ -160,4 +160,4 @@ KDE Video Player.{{< spoiler text="show files" >}}* /etc/xdg/dragonplayerrc
 * /usr/share/metainfo/org.kde.dragonplayer.appdata.xml
 * /usr/share/solid/actions/dragonplayer-openaudiocd.desktop
 * /usr/share/solid/actions/dragonplayer-opendvd.desktop
-{{< /spoiler >}}
+{{< /files >}}

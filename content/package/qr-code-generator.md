@@ -13,7 +13,7 @@ usize = "128153"
 sha1sum = "146e38a58ce64c8f1a78a0c7cffb119fee5cd781"
 depends = "['libstdc++']"
 +++
-a program to extract Microsoft Cabinet files{{< spoiler text="show files" >}}* /usr/include/qrcodegen/qrcodegen.h
+a program to extract Microsoft Cabinet files{{< files text="show files" >}}* /usr/include/qrcodegen/qrcodegen.h
 * /usr/include/qrcodegencpp/QrCode.hpp
 * /usr/lib/libqrcodegen.so
 * /usr/lib/libqrcodegen.so.1
@@ -22,4 +22,4 @@ a program to extract Microsoft Cabinet files{{< spoiler text="show files" >}}* /
 * /usr/lib/libqrcodegencpp.so.1
 * /usr/lib/libqrcodegencpp.so.1.6.0
 * /usr/share/doc/qr-code-generator-1.6.0/Readme.markdown
-{{< /spoiler >}}
+{{< /files >}}

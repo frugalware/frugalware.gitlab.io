@@ -14,7 +14,7 @@ sha1sum = "25f8b90c606875f03dd131f66f4fd951b14c2af5"
 depends = "['glibc']"
 license = "BSD"
 +++
-Pythonic JavaScript that doesn't suck{{< spoiler text="show files" >}}* /usr/bin/rapydscript
+Pythonic JavaScript that doesn't suck{{< files text="show files" >}}* /usr/bin/rapydscript
 * /usr/lib/node_modules/rapydscript-ng/=template.pyj
 * /usr/lib/node_modules/rapydscript-ng/add-toc-to-readme
 * /usr/lib/node_modules/rapydscript-ng/bin/export
@@ -2629,4 +2629,4 @@ Pythonic JavaScript that doesn't suck{{< spoiler text="show files" >}}* /usr/bin
 * /usr/share/doc/rapydscript-ng-0.7.22/CONTRIBUTORS
 * /usr/share/doc/rapydscript-ng-0.7.22/LICENSE
 * /usr/share/doc/rapydscript-ng-0.7.22/README.md
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "211613"
 sha1sum = "606375682a2c3a10de3f957a933fd591753fe144"
 depends = "['lib32-libx11>=1.6.4-3']"
 +++
-The xkbfile Library ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/XKBbells.h
+The xkbfile Library ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/XKBbells.h
 * /usr/i686-frugalware-linux/include/X11/extensions/XKBconfig.h
 * /usr/i686-frugalware-linux/include/X11/extensions/XKBfile.h
 * /usr/i686-frugalware-linux/include/X11/extensions/XKBrules.h
@@ -23,4 +23,4 @@ The xkbfile Library ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugal
 * /usr/lib32/libxkbfile.so.1
 * /usr/lib32/libxkbfile.so.1.0.2
 * /usr/lib32/pkgconfig/xkbfile.pc
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,11 +14,11 @@ sha1sum = "1dc149f198fb45ef1aa7ab1624d9ea150154e760"
 depends = "['glibc']"
 reverse_depends = "['qt6-base']"
 +++
-C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp hash functions{{< spoiler text="show files" >}}* /usr/include/blake2.h
+C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp hash functions{{< files text="show files" >}}* /usr/include/blake2.h
 * /usr/lib/libb2.so
 * /usr/lib/libb2.so.1
 * /usr/lib/libb2.so.1.0.4
 * /usr/lib/pkgconfig/libb2.pc
 * /usr/share/doc/libb2-0.98.1/COPYING
 * /usr/share/doc/libb2-0.98.1/README.md
-{{< /spoiler >}}
+{{< /files >}}

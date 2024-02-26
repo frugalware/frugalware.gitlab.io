@@ -14,4 +14,4 @@ sha1sum = ""
 depends = "['xorg-server>=1.6.1-2']"
 license = "GPL2"
 +++
-X.Org video driver for sunleo cards{{< spoiler text="show files" >}}{{< /spoiler >}}
+X.Org video driver for sunleo cards{{< files text="show files" >}}{{< /files >}}

@@ -14,10 +14,10 @@ sha1sum = "d0c50d5144c696a653269ad9176d38fc8356a92b"
 depends = "['python3>=3.9.6']"
 reverse_depends = "['opencolorio']"
 +++
-C++ functions matching the interface and behavior of python string methods with std::string{{< spoiler text="show files" >}}* /usr/include/pystring/pystring.h
+C++ functions matching the interface and behavior of python string methods with std::string{{< files text="show files" >}}* /usr/include/pystring/pystring.h
 * /usr/lib/libpystring.so
 * /usr/lib/libpystring.so.0
 * /usr/lib/libpystring.so.0.0.0
 * /usr/share/doc/pystring-1.1.4/LICENSE
 * /usr/share/doc/pystring-1.1.4/README.md
-{{< /spoiler >}}
+{{< /files >}}

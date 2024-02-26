@@ -13,7 +13,7 @@ usize = "1386651"
 sha1sum = "f629b58a89262fda594bf0fa9433d6fed8d56ec5"
 depends = "['kcalendarcore', 'kirigami2', 'knotifications', 'kpeople5', 'qt5-quickcontrols2']"
 +++
-Calendar for Plasma Mobil{{< spoiler text="show files" >}}* /etc/xdg/autostart/org.kde.calindac.desktop
+Calendar for Plasma Mobil{{< files text="show files" >}}* /etc/xdg/autostart/org.kde.calindac.desktop
 * /usr/bin/calindac
 * /usr/bin/calindori
 * /usr/share/applications/org.kde.calindori.desktop
@@ -90,4 +90,4 @@ Calendar for Plasma Mobil{{< spoiler text="show files" >}}* /etc/xdg/autostart/o
 * /usr/share/locale/zh_TW/LC_MESSAGES/calindac.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/calindori.mo
 * /usr/share/metainfo/org.kde.calindori.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

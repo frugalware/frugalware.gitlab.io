@@ -14,7 +14,7 @@ sha1sum = "2e6986905dcd18622f152e27c646cdc99dafaeb6"
 depends = "['eigen>=3.4.0', 'google-glog>=0.7.0', 'libgomp', 'suitesparse>=7.3.1']"
 reverse_depends = "['alicevision']"
 +++
-Solver for nonlinear least squares problems{{< spoiler text="show files" >}}* /usr/include/ceres/autodiff_cost_function.h
+Solver for nonlinear least squares problems{{< files text="show files" >}}* /usr/include/ceres/autodiff_cost_function.h
 * /usr/include/ceres/autodiff_first_order_function.h
 * /usr/include/ceres/autodiff_manifold.h
 * /usr/include/ceres/ceres.h
@@ -90,4 +90,4 @@ Solver for nonlinear least squares problems{{< spoiler text="show files" >}}* /u
 * /usr/share/doc/ceres-solver-2.2.0/LICENSE
 * /usr/share/doc/ceres-solver-2.2.0/README.md
 * /usr/share/doc/ceres-solver-2.2.0/VERSION
-{{< /spoiler >}}
+{{< /files >}}

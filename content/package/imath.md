@@ -14,7 +14,7 @@ sha1sum = "ddb845ad119476938945f59b304adf6d641d4ce6"
 depends = "['zlib>=1.2.12']"
 reverse_depends = "['alembic', 'alicevision', 'opencolorio', 'openexr']"
 +++
-Imath is a C++ and python library of 2D and 3D vector, matrix, and math operations for computer graphics{{< spoiler text="show files" >}}* /usr/include/Imath/half.h
+Imath is a C++ and python library of 2D and 3D vector, matrix, and math operations for computer graphics{{< files text="show files" >}}* /usr/include/Imath/half.h
 * /usr/include/Imath/halfFunction.h
 * /usr/include/Imath/halfLimits.h
 * /usr/include/Imath/ImathBox.h
@@ -59,4 +59,4 @@ Imath is a C++ and python library of 2D and 3D vector, matrix, and math operatio
 * /usr/lib/libImath.so
 * /usr/lib/pkgconfig/Imath.pc
 * /usr/share/doc/imath-3.1.10/README.md
-{{< /spoiler >}}
+{{< /files >}}

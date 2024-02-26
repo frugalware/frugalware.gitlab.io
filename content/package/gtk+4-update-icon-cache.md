@@ -14,5 +14,5 @@ sha1sum = "f16e9154dd2d0818df69d1a3a8faa245d8de99f2"
 depends = "['gdk-pixbuf2>=2.38.1-2', 'libffi>=3.2.1-2', 'pango>=1.42.0']"
 reverse_depends = "['adwaita-icon-theme']"
 +++
-The GTK+ update icon cache tool.{{< spoiler text="show files" >}}* /usr/bin/gtk4-update-icon-cache
-{{< /spoiler >}}
+The GTK+ update icon cache tool.{{< files text="show files" >}}* /usr/bin/gtk4-update-icon-cache
+{{< /files >}}

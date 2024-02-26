@@ -13,7 +13,7 @@ usize = "1469412"
 sha1sum = "7ebb2c4082bd49b7434a3c24de542896974aa722"
 depends = "[]"
 +++
-Mongolian Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale/mn/30x16.png
+Mongolian Localization for KDE.{{< files text="show files" >}}* usr/share/locale/mn/30x16.png
 * usr/share/locale/mn/60x40.png
 * usr/share/locale/mn/charset
 * usr/share/locale/mn/entry.desktop
@@ -206,4 +206,4 @@ Mongolian Localization for KDE.{{< spoiler text="show files" >}}* usr/share/loca
 * usr/share/locale/mn/LC_MESSAGES/quicklauncher.mo
 * usr/share/locale/mn/LC_MESSAGES/secpolicy.mo
 * usr/share/locale/mn/LC_MESSAGES/timezones.mo
-{{< /spoiler >}}
+{{< /files >}}

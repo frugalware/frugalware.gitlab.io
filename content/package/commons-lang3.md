@@ -13,7 +13,7 @@ usize = "682288"
 sha1sum = "9e7bbddbaa2cbcdd5e3927aa3c6db0c667536ee0"
 depends = "[]"
 +++
-The Lang Component provides a host of helper utilities for the java.lang API{{< spoiler text="show files" >}}* /usr/share/doc/commons-lang3-3.12.0/README.md
+The Lang Component provides a host of helper utilities for the java.lang API{{< files text="show files" >}}* /usr/share/doc/commons-lang3-3.12.0/README.md
 * /usr/share/doc/commons-lang3-3.12.0/RELEASE-NOTES.txt
 * /usr/share/java/commons-lang3-3.12.0.jar
-{{< /spoiler >}}
+{{< /files >}}

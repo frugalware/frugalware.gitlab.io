@@ -14,7 +14,7 @@ sha1sum = "a0ad7b5cdc7b94b35de29a95346de5475521bf9d"
 depends = "['qt5-declarative']"
 reverse_depends = "['ktouch']"
 +++
-A QtQuick plugin to render beautiful and interactive charts.{{< spoiler text="show files" >}}* /usr/include/KF5/kqtquickcharts_version.h
+A QtQuick plugin to render beautiful and interactive charts.{{< files text="show files" >}}* /usr/include/KF5/kqtquickcharts_version.h
 * /usr/lib/cmake/KQtQuickCharts/KQtQuickChartsConfig.cmake
 * /usr/lib/cmake/KQtQuickCharts/KQtQuickChartsVersion.cmake
 * /usr/share/doc/kqtquickcharts-23.08.5/AUTHORS
@@ -28,4 +28,4 @@ A QtQuick plugin to render beautiful and interactive charts.{{< spoiler text="sh
 * /usr/share/qt5/qml/org/kde/charts/LineLabel.qml
 * /usr/share/qt5/qml/org/kde/charts/qmldir
 * /usr/share/qt5/qml/org/kde/charts/XYChart.qml
-{{< /spoiler >}}
+{{< /files >}}

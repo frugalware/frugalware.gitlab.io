@@ -14,7 +14,7 @@ sha1sum = "20a833251f70091f6bfd60583d80700a86550f5c"
 depends = "['desktop-file-utils', 'freetype2', 'hicolor-icon-theme', 'libmodplug', 'libtheora', 'libvorbis', 'luajit2', 'mpg123', 'openal', 'sdl2', 'shared-mime-info']"
 reverse_depends = "['vrrtest']"
 +++
-LÃ–VE is a free game engine wich use the LUA programming language{{< spoiler text="show files" >}}* /usr/bin/love
+LÃ–VE is a free game engine wich use the LUA programming language{{< files text="show files" >}}* /usr/bin/love
 * /usr/lib/liblove-11.4.so
 * /usr/lib/liblove.so
 * /usr/share/applications/love.desktop
@@ -22,4 +22,4 @@ LÃ–VE is a free game engine wich use the LUA programming language{{< spoiler 
 * /usr/share/man/man1/love.1.gz
 * /usr/share/mime/packages/love.xml
 * /usr/share/pixmaps/love.svg
-{{< /spoiler >}}
+{{< /files >}}

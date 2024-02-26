@@ -13,5 +13,5 @@ usize = "14456"
 sha1sum = "410396e7ec8902f5d429c332e66827bd2f63536f"
 depends = "['libpq>=11.2-2', 'uwsgi']"
 +++
-USWGI Emperor PostgreSQL Plugin{{< spoiler text="show files" >}}* /usr/lib/uwsgi/emperor_pg_plugin.so
-{{< /spoiler >}}
+USWGI Emperor PostgreSQL Plugin{{< files text="show files" >}}* /usr/lib/uwsgi/emperor_pg_plugin.so
+{{< /files >}}

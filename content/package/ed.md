@@ -13,7 +13,7 @@ usize = "121338"
 sha1sum = "28059825c7ae3462e0d48f70268b2b5176737445"
 depends = "['glibc>=2.34']"
 +++
-A POSIX-compliant line editor{{< spoiler text="show files" >}}* /usr/bin/ed
+A POSIX-compliant line editor{{< files text="show files" >}}* /usr/bin/ed
 * /usr/bin/red
 * /usr/share/doc/ed-1.20.1/AUTHORS
 * /usr/share/doc/ed-1.20.1/ChangeLog
@@ -24,4 +24,4 @@ A POSIX-compliant line editor{{< spoiler text="show files" >}}* /usr/bin/ed
 * /usr/share/info/ed.info.gz
 * /usr/share/man/man1/ed.1.gz
 * /usr/share/man/man1/red.1.gz
-{{< /spoiler >}}
+{{< /files >}}

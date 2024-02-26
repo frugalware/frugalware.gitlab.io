@@ -13,7 +13,7 @@ usize = "13339086"
 sha1sum = "b52693f6791a862a543c81e7d68e7addc8d330d9"
 depends = "['assimp', 'qt6-declarative', 'qt6-shadertools']"
 +++
-The Qt6 toolkit, qt3d{{< spoiler text="show files" >}}* /usr/include/qt6/Qt3DAnimation/6.6.2/Qt3DAnimation/private/abstractevaluateclipanimatorjob_p.h
+The Qt6 toolkit, qt3d{{< files text="show files" >}}* /usr/include/qt6/Qt3DAnimation/6.6.2/Qt3DAnimation/private/abstractevaluateclipanimatorjob_p.h
 * /usr/include/qt6/Qt3DAnimation/6.6.2/Qt3DAnimation/private/additiveclipblend_p.h
 * /usr/include/qt6/Qt3DAnimation/6.6.2/Qt3DAnimation/private/animationclip_p.h
 * /usr/include/qt6/Qt3DAnimation/6.6.2/Qt3DAnimation/private/animationlogging_p.h
@@ -1434,4 +1434,4 @@ The Qt6 toolkit, qt3d{{< spoiler text="show files" >}}* /usr/include/qt6/Qt3DAni
 * /usr/lib/qt6/qml/QtQuick/Scene3D/libqtquickscene3dplugin.so
 * /usr/lib/qt6/qml/QtQuick/Scene3D/plugins.qmltypes
 * /usr/lib/qt6/qml/QtQuick/Scene3D/qmldir
-{{< /spoiler >}}
+{{< /files >}}

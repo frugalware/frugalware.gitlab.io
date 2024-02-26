@@ -13,7 +13,7 @@ usize = "80654"
 sha1sum = "f0ec31a51e75053ad18dacd860dd17d00cdbf87a"
 depends = "['glibc']"
 +++
-Measures the power consumption of a laptop using the ACPI battery information.{{< spoiler text="show files" >}}* /usr/bin/powerstat
+Measures the power consumption of a laptop using the ACPI battery information.{{< files text="show files" >}}* /usr/bin/powerstat
 * /usr/share/bash-completion/completions/powerstat
 * /usr/share/doc/powerstat-0.04.02/AUTHORS
 * /usr/share/doc/powerstat-0.04.02/COPYING
@@ -21,4 +21,4 @@ Measures the power consumption of a laptop using the ACPI battery information.{{
 * /usr/share/doc/powerstat-0.04.02/README.md
 * /usr/share/doc/powerstat-0.04.02/README.txt
 * /usr/share/man/man8/powerstat.8.gz
-{{< /spoiler >}}
+{{< /files >}}

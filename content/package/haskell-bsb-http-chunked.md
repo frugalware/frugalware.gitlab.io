@@ -14,7 +14,7 @@ sha1sum = "f0a2dc82c95197791a2209033ad3312aae283c8c"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-warp']"
 +++
-Chunked HTTP transfer encoding for bytestring builders{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/bsb-http-chunked-0.0.0.4/Data/ByteString/Builder/HTTP/Chunked.dyn_hi
+Chunked HTTP transfer encoding for bytestring builders{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/bsb-http-chunked-0.0.0.4/Data/ByteString/Builder/HTTP/Chunked.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/bsb-http-chunked-0.0.0.4/Data/ByteString/Builder/HTTP/Chunked.hi
 * /usr/lib/ghc-9.8.1/site-local/bsb-http-chunked-0.0.0.4/libHSbsb-http-chunked-0.0.0.4-7ioWo6gOymR4DyBbmqvbO3.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSbsb-http-chunked-0.0.0.4-7ioWo6gOymR4DyBbmqvbO3-ghc9.8.1.so
@@ -31,4 +31,4 @@ Chunked HTTP transfer encoding for bytestring builders{{< spoiler text="show fil
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/bsb-http-chunked-0.0.0.4/LICENSE
 * /usr/share/haskell/haskell-bsb-http-chunked/register.sh
 * /usr/share/haskell/haskell-bsb-http-chunked/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "39c1a2701a50e0d3b8a90839bcac567ceb1b7921"
 depends = "['libgomp', 'qt5-declarative>=5.15.12', 'qt5-graphicaleffects>=5.15.12', 'qt5-quickcontrols2>=5.15.12', 'qt5-svg>=5.15.12']"
 reverse_depends = "['aura-browser', 'calindori', 'discover', 'elisa', 'kalk', 'kdeconnect-kde', 'keysmith', 'kirigami-addons', 'kirigami-gallery', 'kjournald', 'knewstuff', 'kongress', 'kontrast', 'okular', 'plank-player', 'plasma-framework', 'plasma-sdk', 'plasma-systemmonitor', 'plasma-welcome', 'purpose', 'qqc2-breeze-style', 'qqc2-desktop-style', 'skanpage', 'systemsettings5', 'telly-skout', 'xdg-desktop-portal-kde']"
 +++
-UI framework for mobile and convergent applications written in Qt.{{< spoiler text="show files" >}}* /usr/include/KF5/Kirigami2/kirigami/kirigami2_export.h
+UI framework for mobile and convergent applications written in Qt.{{< files text="show files" >}}* /usr/include/KF5/Kirigami2/kirigami/kirigami2_export.h
 * /usr/include/KF5/Kirigami2/Kirigami/KirigamiPluginFactory
 * /usr/include/KF5/Kirigami2/kirigami/kirigamipluginfactory.h
 * /usr/include/KF5/Kirigami2/Kirigami/PlatformTheme
@@ -215,4 +215,4 @@ UI framework for mobile and convergent applications written in Qt.{{< spoiler te
 * /usr/share/qt5/qml/org/kde/kirigami.2/templates/SwipeListItem.qml
 * /usr/share/qt5/qml/org/kde/kirigami.2/ToolBarApplicationHeader.qml
 * /usr/share/qt5/qml/org/kde/kirigami.2/UrlButton.qml
-{{< /spoiler >}}
+{{< /files >}}

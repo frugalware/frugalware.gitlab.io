@@ -13,7 +13,7 @@ usize = "9440920"
 sha1sum = "10ab69f5d44fe77da071c428f23bb66b8d159d81"
 depends = "[]"
 +++
-Khmer Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale/km/charset
+Khmer Localization for KDE.{{< files text="show files" >}}* usr/share/locale/km/charset
 * usr/share/locale/km/entry.desktop
 * usr/share/locale/km/flag.png
 * usr/share/locale/km/LC_MESSAGES/akregator.mo
@@ -581,4 +581,4 @@ Khmer Localization for KDE.{{< spoiler text="show files" >}}* usr/share/locale/k
 * usr/share/locale/km/LC_MESSAGES/wakeup.mo
 * usr/share/locale/km/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/km/LC_MESSAGES/webarchiver.mo
-{{< /spoiler >}}
+{{< /files >}}

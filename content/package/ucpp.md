@@ -13,7 +13,7 @@ usize = "246322"
 sha1sum = "e36c0bf692cc178a322aad71d20dccf6b21e01f4"
 depends = "['glibc>=2.25']"
 +++
-Embeddable, quick, light and fully compliant ISO C99 preprocessor.{{< spoiler text="show files" >}}* /usr/bin/ucpp
+Embeddable, quick, light and fully compliant ISO C99 preprocessor.{{< files text="show files" >}}* /usr/bin/ucpp
 * /usr/include/libucpp/cpp.h
 * /usr/include/libucpp/hash.h
 * /usr/include/libucpp/mem.h
@@ -33,4 +33,4 @@ Embeddable, quick, light and fully compliant ISO C99 preprocessor.{{< spoiler te
 * /usr/share/doc/ucpp-1.3.5/TODO
 * /usr/share/doc/ucpp-1.3.5/VERSION
 * /usr/share/man/man1/ucpp.1.gz
-{{< /spoiler >}}
+{{< /files >}}

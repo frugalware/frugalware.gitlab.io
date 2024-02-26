@@ -13,11 +13,11 @@ usize = "2054"
 sha1sum = "75a5138a947b8fda6c87bd7d3d09bc1949b48c84"
 depends = "['pam']"
 +++
-PAM base configuration files{{< spoiler text="show files" >}}* /etc/pam.d/login-manager
+PAM base configuration files{{< files text="show files" >}}* /etc/pam.d/login-manager
 * /etc/pam.d/other
 * /etc/pam.d/system-auth
 * /etc/pam.d/system-local-login
 * /etc/pam.d/system-login
 * /etc/pam.d/system-remote-login
 * /etc/pam.d/system-services
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "fb2ce654dd05e8768b939226458b59742aafdcec"
 depends = "['curl>=7.19.0', 'expat', 'openssl>=3.1.0', 'pcre2', 'perl-authen-sasl', 'perl-error']"
 reverse_depends = "['discover', 'etckeeper', 'flutter', 'git-crypt', 'git-gui', 'git-imerge', 'git-lfs', 'gitk', 'gitweb', 'opam', 'plasma-sdk', 'qgit', 'steamtinkerlaunch']"
 +++
-A fast, scalable, distributed revision control system.{{< spoiler text="show files" >}}* /etc/bash_completion.d/git
+A fast, scalable, distributed revision control system.{{< files text="show files" >}}* /etc/bash_completion.d/git
 * /etc/sysconfig/git
 * /usr/bin/git
 * /usr/bin/git-cvsserver
@@ -1423,4 +1423,4 @@ A fast, scalable, distributed revision control system.{{< spoiler text="show fil
 * /usr/share/man/man7/gittutorial-2.7.gz
 * /usr/share/man/man7/gittutorial.7.gz
 * /usr/share/man/man7/gitworkflows.7.gz
-{{< /spoiler >}}
+{{< /files >}}

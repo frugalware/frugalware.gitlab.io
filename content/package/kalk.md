@@ -13,7 +13,7 @@ usize = "475871"
 sha1sum = "9e2010db8d032d539e4f08242bcad80f2c2eca3f"
 depends = "['kconfig', 'kcoreaddons', 'kirigami2', 'kunitconversion', 'mpfr', 'qt5-quickcontrols2']"
 +++
-A powerful cross-platform calculator application built with the Kirigami framework{{< spoiler text="show files" >}}* /usr/bin/kalk
+A powerful cross-platform calculator application built with the Kirigami framework{{< files text="show files" >}}* /usr/bin/kalk
 * /usr/share/applications/org.kde.kalk.desktop
 * /usr/share/doc/kalk-23.08.5/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.kalk.svg
@@ -53,4 +53,4 @@ A powerful cross-platform calculator application built with the Kirigami framewo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kalk.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kalk.mo
 * /usr/share/metainfo/org.kde.kalk.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

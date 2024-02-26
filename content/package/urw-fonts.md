@@ -14,7 +14,7 @@ sha1sum = "c487a42a86a209afcbb27447c4dc1261743bf5ac"
 depends = "['fontconfig', 'mkfontscale']"
 reverse_depends = "['a2ps']"
 +++
-URW++ base 35 font set.{{< spoiler text="show files" >}}* /etc/fonts/conf.avail/70-urw-bookman.conf
+URW++ base 35 font set.{{< files text="show files" >}}* /etc/fonts/conf.avail/70-urw-bookman.conf
 * /etc/fonts/conf.avail/70-urw-c059.conf
 * /etc/fonts/conf.avail/70-urw-d050000l.conf
 * /etc/fonts/conf.avail/70-urw-fallback-backwards.conf
@@ -159,4 +159,4 @@ URW++ base 35 font set.{{< spoiler text="show files" >}}* /etc/fonts/conf.avail/
 * /usr/share/fonts/X11/Type1/URWGothic-Demi.afm
 * /usr/share/fonts/X11/Type1/URWGothic-DemiOblique.afm
 * /usr/share/fonts/X11/Type1/Z003-MediumItalic.afm
-{{< /spoiler >}}
+{{< /files >}}

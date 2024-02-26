@@ -14,7 +14,7 @@ sha1sum = "50e286a597aca1653dac92810a9a3c283e0ecf7d"
 depends = "['glibc>=2.37']"
 reverse_depends = "['blender', 'btrfs-progs', 'cairo', 'dd-rescue', 'distcc', 'easyeffects', 'fsarchiver', 'libarchive', 'lrzip', 'lzop', 'mariadb', 'mariadb-libs', 'mtd-utils', 'openttd', 'openvpn', 'qemu', 'squashfs', 'sysprof', 'vtun']"
 +++
-A real-time data compression library{{< spoiler text="show files" >}}* /usr/include/lzo/lzo1.h
+A real-time data compression library{{< files text="show files" >}}* /usr/include/lzo/lzo1.h
 * /usr/include/lzo/lzo1a.h
 * /usr/include/lzo/lzo1b.h
 * /usr/include/lzo/lzo1c.h
@@ -42,4 +42,4 @@ A real-time data compression library{{< spoiler text="show files" >}}* /usr/incl
 * /usr/share/doc/lzo-2.10/NEWS
 * /usr/share/doc/lzo-2.10/README
 * /usr/share/doc/lzo-2.10/THANKS
-{{< /spoiler >}}
+{{< /files >}}

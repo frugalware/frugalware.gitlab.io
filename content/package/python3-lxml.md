@@ -14,7 +14,7 @@ sha1sum = "6b17eb34a62539514602e1ef68830ccaf7e895ce"
 depends = "['libxml2>=2.9.6', 'libxslt>=1.1.31', 'python3>=3.12']"
 reverse_depends = "['calibre', 'glad', 'hotdoc', 'hotdoc', 'piper', 'python3-dbus-deviation', 'sigil']"
 +++
-Easy-to-use library for working with XML and HTML in Python.{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/lxml-4.9.3-py3.12.egg-info/dependency_links.txt
+Easy-to-use library for working with XML and HTML in Python.{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/lxml-4.9.3-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/lxml-4.9.3-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/lxml-4.9.3-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/lxml-4.9.3-py3.12.egg-info/requires.txt
@@ -160,4 +160,4 @@ Easy-to-use library for working with XML and HTML in Python.{{< spoiler text="sh
 * /usr/lib/python3.12/site-packages/lxml/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-lxml-4.9.3/INSTALL.txt
 * /usr/share/doc/python3-lxml-4.9.3/README.rst
-{{< /spoiler >}}
+{{< /files >}}

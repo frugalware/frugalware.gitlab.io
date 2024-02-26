@@ -14,7 +14,7 @@ sha1sum = "9893236231629ff7451ef32793a9c9a15b17e64f"
 depends = "['leptonica>=1.74.4', 'tessdata']"
 reverse_depends = "['opencv', 'skanpage']"
 +++
-An OCR program{{< spoiler text="show files" >}}* /usr/bin/tesseract
+An OCR program{{< files text="show files" >}}* /usr/bin/tesseract
 * /usr/include/tesseract/baseapi.h
 * /usr/include/tesseract/capi.h
 * /usr/include/tesseract/export.h
@@ -70,4 +70,4 @@ An OCR program{{< spoiler text="show files" >}}* /usr/bin/tesseract
 * /usr/share/tessdata/tessconfigs/msdemo
 * /usr/share/tessdata/tessconfigs/nobatch
 * /usr/share/tessdata/tessconfigs/segdemo
-{{< /spoiler >}}
+{{< /files >}}

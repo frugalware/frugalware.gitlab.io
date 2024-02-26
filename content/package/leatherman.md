@@ -14,7 +14,7 @@ sha1sum = "ccebec301290baafed444b2f4da1f9cd638bf63d"
 depends = "[]"
 license = "APACHE"
 +++
-Collection of C++ and CMake utility libraries{{< spoiler text="show files" >}}* /usr/include/leatherman/curl/client.hpp
+Collection of C++ and CMake utility libraries{{< files text="show files" >}}* /usr/include/leatherman/curl/client.hpp
 * /usr/include/leatherman/curl/export.h
 * /usr/include/leatherman/curl/request.hpp
 * /usr/include/leatherman/curl/response.hpp
@@ -105,4 +105,4 @@ Collection of C++ and CMake utility libraries{{< spoiler text="show files" >}}* 
 * /usr/share/doc/leatherman-1.12.11/README.md
 * /usr/share/locale/fr/LC_MESSAGES/leatherman_locale.mo
 * /usr/share/locale/fr/LC_MESSAGES/leatherman_logging.mo
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "289b9c55a795093f88100315fb7e0f17259de556"
 depends = "['glibc>=2.35', 'python3>=3.12']"
 reverse_depends = "['cifs-utils', 'libsmbclient', 'mpd', 'nss-wins', 'samba', 'samba-client']"
 +++
-talloc is a hierarchical, reference counted memory pool system with destructors{{< spoiler text="show files" >}}* /usr/include/pytalloc.h
+talloc is a hierarchical, reference counted memory pool system with destructors{{< files text="show files" >}}* /usr/include/pytalloc.h
 * /usr/include/talloc.h
 * /usr/lib/libpytalloc-util.cpython-312-x86-64-linux-gnu.so
 * /usr/lib/libpytalloc-util.cpython-312-x86-64-linux-gnu.so.2
@@ -28,4 +28,4 @@ talloc is a hierarchical, reference counted memory pool system with destructors{
 * /usr/lib/pkgconfig/talloc.pc
 * /usr/lib/python3.12/site-packages/talloc.cpython-312-x86_64-linux-gnu.so
 * /usr/share/doc/talloc-2.4.2/NEWS
-{{< /spoiler >}}
+{{< /files >}}

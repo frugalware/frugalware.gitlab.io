@@ -13,7 +13,7 @@ usize = "11974914"
 sha1sum = "2b037a8d3191e5733b7469c8d6e582d2ce3b90fd"
 depends = "['knotifyconfig>=5.110.0', 'libboost', 'qca>=2.1.1-6', 'qt5-multimedia>=5.15.11', 'qt5-svg>=5.15.11', 'qt5-webengine>=5.15.11']"
 +++
-A modern, cross-platform, distributed IRC client.{{< spoiler text="show files" >}}* /usr/bin/quassel
+A modern, cross-platform, distributed IRC client.{{< files text="show files" >}}* /usr/bin/quassel
 * /usr/bin/quasselclient
 * /usr/bin/quasselcore
 * /usr/lib/libquassel-client.so
@@ -1142,4 +1142,4 @@ A modern, cross-platform, distributed IRC client.{{< spoiler text="show files" >
 * /usr/share/quassel/translations/tr.qm
 * /usr/share/quassel/translations/uk.qm
 * /usr/share/quassel/translations/zh_CN.qm
-{{< /spoiler >}}
+{{< /files >}}

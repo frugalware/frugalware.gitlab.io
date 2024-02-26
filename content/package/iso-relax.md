@@ -13,5 +13,5 @@ usize = "182514"
 sha1sum = "d4151aad918ca28d6621357a80e5492b0ca5cd20"
 depends = "['openjre']"
 +++
-Interface definitions which are necessary for RELAX-related programs.{{< spoiler text="show files" >}}* /usr/share/java/isorelax.jar
-{{< /spoiler >}}
+Interface definitions which are necessary for RELAX-related programs.{{< files text="show files" >}}* /usr/share/java/isorelax.jar
+{{< /files >}}

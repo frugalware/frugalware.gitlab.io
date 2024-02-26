@@ -13,7 +13,7 @@ usize = "13522267"
 sha1sum = "5f9810d2b2a2262756c6698b9d1980fd26400eb9"
 depends = "['benchmark', 'glfw', 'libglu', 'openmpi', 'openvkl>=1.0.0', 'snappy']"
 +++
-A Ray Tracing Based Rendering Engine for High-Fidelity Visualization{{< spoiler text="show files" >}}* /usr/bin/ospBenchmark
+A Ray Tracing Based Rendering Engine for High-Fidelity Visualization{{< files text="show files" >}}* /usr/bin/ospBenchmark
 * /usr/bin/ospConvertRawToAMR
 * /usr/bin/ospExamples
 * /usr/bin/ospMPIDistribTestSuite
@@ -97,4 +97,4 @@ A Ray Tracing Based Rendering Engine for High-Fidelity Visualization{{< spoiler 
 * /usr/share/doc/OSPRay/third-party-programs-oneTBB.txt
 * /usr/share/doc/OSPRay/third-party-programs-OpenVKL.txt
 * /usr/share/doc/OSPRay/third-party-programs.txt
-{{< /spoiler >}}
+{{< /files >}}

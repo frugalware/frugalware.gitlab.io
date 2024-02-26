@@ -13,7 +13,7 @@ usize = "572606"
 sha1sum = "e27cbf6b031d763ac158a39feae1211ae2323576"
 depends = "['glibc']"
 +++
-Header-only C++ library for JSON Schema validation{{< spoiler text="show files" >}}* /usr/include/compat/optional.hpp
+Header-only C++ library for JSON Schema validation{{< files text="show files" >}}* /usr/include/compat/optional.hpp
 * /usr/include/valijson/adapters/boost_json_adapter.hpp
 * /usr/include/valijson/adapters/json11_adapter.hpp
 * /usr/include/valijson/adapters/jsoncpp_adapter.hpp
@@ -62,4 +62,4 @@ Header-only C++ library for JSON Schema validation{{< spoiler text="show files" 
 * /usr/lib/cmake/valijson/valijsonConfig.cmake
 * /usr/share/doc/valijson-1.0.1/LICENSE
 * /usr/share/doc/valijson-1.0.1/README.md
-{{< /spoiler >}}
+{{< /files >}}

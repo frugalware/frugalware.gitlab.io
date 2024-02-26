@@ -13,7 +13,7 @@ usize = "7336891"
 sha1sum = "da358bf00568d8eecd686d745723d63928aa8125"
 depends = "['cmark>=0.31.0', 'mkvtoolnix', 'qt6-multimedia', 'qt6-svg']"
 +++
-Qt6 GUI for MKVToolnix{{< spoiler text="show files" >}}* /usr/bin/mkvtoolnix-gui
+Qt6 GUI for MKVToolnix{{< files text="show files" >}}* /usr/bin/mkvtoolnix-gui
 * /usr/share/applications/org.bunkus.mkvtoolnix-gui.desktop
 * /usr/share/icons/hicolor/128x128/apps/mkvextract.png
 * /usr/share/icons/hicolor/128x128/apps/mkvinfo.png
@@ -57,4 +57,4 @@ Qt6 GUI for MKVToolnix{{< spoiler text="show files" >}}* /usr/bin/mkvtoolnix-gui
 * /usr/share/icons/hicolor/96x96/apps/mkvtoolnix-gui.png
 * /usr/share/man/man1/mkvtoolnix-gui.1.gz
 * /usr/share/mime/packages/org.bunkus.mkvtoolnix-gui.xml
-{{< /spoiler >}}
+{{< /files >}}

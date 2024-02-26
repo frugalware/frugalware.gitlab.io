@@ -14,7 +14,7 @@ sha1sum = "79ca6a1317ab125aa2aed81ce521096d92b1b4bd"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-sphinx']"
 +++
-Getting image size from png/jpeg/jpeg2000/gif file{{< spoiler text="show files" >}}* /usr/lib/python3.12/site-packages/imagesize-1.4.1-py3.12.egg-info/dependency_links.txt
+Getting image size from png/jpeg/jpeg2000/gif file{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/imagesize-1.4.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/imagesize-1.4.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/imagesize-1.4.1-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/imagesize-1.4.1-py3.12.egg-info/top_level.txt
@@ -23,4 +23,4 @@ Getting image size from png/jpeg/jpeg2000/gif file{{< spoiler text="show files" 
 * /usr/lib/python3.12/site-packages/imagesize/__pycache__/imagesize.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/imagesize/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-imagesize-1.4.1/README.rst
-{{< /spoiler >}}
+{{< /files >}}

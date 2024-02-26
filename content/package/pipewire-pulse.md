@@ -13,7 +13,7 @@ usize = "482408"
 sha1sum = "d9ec480e87b3e0daa6832b83b28a457dd5683344"
 depends = "['avahi', 'libpulse', 'wireplumber']"
 +++
-Pipewire alsa config{{< spoiler text="show files" >}}* /usr/bin/pipewire-pulse
+Pipewire alsa config{{< files text="show files" >}}* /usr/bin/pipewire-pulse
 * /usr/lib/pipewire-0.3/libpipewire-module-protocol-pulse.so
 * /usr/lib/pipewire-0.3/libpipewire-module-pulse-tunnel.so
 * /usr/lib/systemd/user/pipewire-pulse.service
@@ -21,4 +21,4 @@ Pipewire alsa config{{< spoiler text="show files" >}}* /usr/bin/pipewire-pulse
 * /usr/share/man/man1/pipewire-pulse.1.gz
 * /usr/share/pipewire/media-session.d/with-pulseaudio
 * /usr/share/pipewire/pipewire-pulse.conf
-{{< /spoiler >}}
+{{< /files >}}

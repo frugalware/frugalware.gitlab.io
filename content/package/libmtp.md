@@ -14,7 +14,7 @@ sha1sum = "7ac88d68b99599636b33a7445491f4824c8fe036"
 depends = "['libusb1>=1.0.20-5']"
 reverse_depends = "['android-udev', 'calibre', 'gvfs-mtp', 'kio-extras', 'vlc-mtp']"
 +++
-libmtp is an implementation of Microsoft's Media Transfer Protocol (MTP).{{< spoiler text="show files" >}}* /usr/bin/mtp-albumart
+libmtp is an implementation of Microsoft's Media Transfer Protocol (MTP).{{< files text="show files" >}}* /usr/bin/mtp-albumart
 * /usr/bin/mtp-albums
 * /usr/bin/mtp-connect
 * /usr/bin/mtp-delfile
@@ -52,4 +52,4 @@ libmtp is an implementation of Microsoft's Media Transfer Protocol (MTP).{{< spo
 * /usr/share/doc/libmtp-1.1.21/README.windows.txt
 * /usr/share/doc/libmtp-1.1.21/RELEASE-CHECKLIST.md
 * /usr/share/doc/libmtp-1.1.21/TODO
-{{< /spoiler >}}
+{{< /files >}}

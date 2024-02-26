@@ -13,7 +13,7 @@ usize = "224977"
 sha1sum = "cdadc660a302de55f1c1dbd149644d768ded639d"
 depends = "[]"
 +++
-Library for Low Complexity Subband Coding with BlueZ ( 32bit ){{< spoiler text="show files" >}}* /usr/i686-frugalware-linux/bin/sbcdec
+Library for Low Complexity Subband Coding with BlueZ ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/sbcdec
 * /usr/i686-frugalware-linux/bin/sbcenc
 * /usr/i686-frugalware-linux/bin/sbcinfo
 * /usr/i686-frugalware-linux/include/sbc/sbc.h
@@ -21,4 +21,4 @@ Library for Low Complexity Subband Coding with BlueZ ( 32bit ){{< spoiler text="
 * /usr/lib32/libsbc.so.1
 * /usr/lib32/libsbc.so.1.3.1
 * /usr/lib32/pkgconfig/sbc.pc
-{{< /spoiler >}}
+{{< /files >}}

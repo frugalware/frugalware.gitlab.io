@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "7a057c89012bc042d6d60a7ac0c4c4c16cef5638"
 depends = "['openssh']"
 +++
-KSSH is a ssh/openssh frontend for KDE.{{< spoiler text="show files" >}}* usr/bin/kssh
+KSSH is a ssh/openssh frontend for KDE.{{< files text="show files" >}}* usr/bin/kssh
 * usr/share/applnk/Internet/kssh.desktop
 * usr/share/apps/konsole/kssh.desktop
 * usr/share/doc/HTML/en/kssh/common
@@ -30,4 +30,4 @@ KSSH is a ssh/openssh frontend for KDE.{{< spoiler text="show files" >}}* usr/bi
 * usr/share/icons/hicolor/48x48/apps/kssh.png
 * usr/share/icons/locolor/16x16/apps/kssh.png
 * usr/share/icons/locolor/32x32/apps/kssh.png
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "746950"
 sha1sum = "6df955b5748a7f6e6ef169662c3ce25376198bca"
 depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5']"
 +++
-A simple ball dodging game.{{< spoiler text="show files" >}}* /usr/bin/kollision
+A simple ball dodging game.{{< files text="show files" >}}* /usr/bin/kollision
 * /usr/share/applications/org.kde.kollision.desktop
 * /usr/share/doc/HTML/ca/kollision/gameboard.png
 * /usr/share/doc/HTML/ca/kollision/index.cache.bz2
@@ -128,4 +128,4 @@ A simple ball dodging game.{{< spoiler text="show files" >}}* /usr/bin/kollision
 * /usr/share/locale/zh_CN/LC_MESSAGES/kollision.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kollision.mo
 * /usr/share/metainfo/org.kde.kollision.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "6e35531bc64c8cb3959d6dbaf071e17d35c992fd"
 depends = "['glibc>=2.35']"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4']"
 +++
-Gsm is an implementation of the final draft GSM 06.10 standard for full-rate speech transcoding.{{< spoiler text="show files" >}}* /usr/bin/tcat
+Gsm is an implementation of the final draft GSM 06.10 standard for full-rate speech transcoding.{{< files text="show files" >}}* /usr/bin/tcat
 * /usr/bin/toast
 * /usr/bin/untoast
 * /usr/include/gsm/gsm.h
@@ -29,4 +29,4 @@ Gsm is an implementation of the final draft GSM 06.10 standard for full-rate spe
 * /usr/share/man/man3/gsm_explode.3.gz
 * /usr/share/man/man3/gsm_option.3.gz
 * /usr/share/man/man3/gsm_print.3.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "8556659"
 sha1sum = "1355cffe2ab77351835773090cd90309b7d437e4"
 depends = "['texlive=2023.0']"
 +++
-Cyrillic language support for TeX Live{{< spoiler text="show files" >}}* /usr/share/texmf-dist/bibtex/bst/gost/gost2003.bst
+Cyrillic language support for TeX Live{{< files text="show files" >}}* /usr/share/texmf-dist/bibtex/bst/gost/gost2003.bst
 * /usr/share/texmf-dist/bibtex/bst/gost/gost2003s.bst
 * /usr/share/texmf-dist/bibtex/bst/gost/gost2008.bst
 * /usr/share/texmf-dist/bibtex/bst/gost/gost2008l.bst
@@ -1760,4 +1760,4 @@ Cyrillic language support for TeX Live{{< spoiler text="show files" >}}* /usr/sh
 * /usr/share/texmf-dist/tex/plain/cyrplain/txxextra.tex
 * /usr/share/texmf-dist/tex/plain/lh/testfox.tex
 * /usr/share/texmf-dist/tex/plain/lh/testkern.tex
-{{< /spoiler >}}
+{{< /files >}}

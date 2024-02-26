@@ -14,7 +14,7 @@ sha1sum = "bd3bb71c96b71cc9030b558194acd8328751a4bb"
 depends = "['kitemviews>=5.115.0', 'kservice>=5.115.0', 'kwidgetsaddons>=5.115.0', 'qt5-declarative>=5.15.12']"
 reverse_depends = "['calindori', 'kpeoplevcard', 'plasma-desktop', 'plasma-workspace']"
 +++
-A library that provides access to all contacts and the people who hold them.{{< spoiler text="show files" >}}* /usr/include/KF5/KPeople/KPeople/Global
+A library that provides access to all contacts and the people who hold them.{{< files text="show files" >}}* /usr/include/KF5/KPeople/KPeople/Global
 * /usr/include/KF5/KPeople/kpeople/global.h
 * /usr/include/KF5/KPeople/kpeople/kpeople_export.h
 * /usr/include/KF5/KPeople/KPeople/PersonData
@@ -122,4 +122,4 @@ A library that provides access to all contacts and the people who hold them.{{< 
 * /usr/share/qt5/mkspecs/modules/qt_KPeopleWidgets.pri
 * /usr/share/qt5/qml/org/kde/people/libKF5PeopleDeclarative.so
 * /usr/share/qt5/qml/org/kde/people/qmldir
-{{< /spoiler >}}
+{{< /files >}}

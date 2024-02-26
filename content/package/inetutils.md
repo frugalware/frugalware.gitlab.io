@@ -13,7 +13,7 @@ usize = "1343104"
 sha1sum = "5e3ba89b491a6894d1e3f2b515a094c215b8b4fc"
 depends = "['libcap', 'libxcrypt', 'pam']"
 +++
-A collection of common network programs{{< spoiler text="show files" >}}* /etc/host.conf
+A collection of common network programs{{< files text="show files" >}}* /etc/host.conf
 * /etc/hostname
 * /etc/hosts.equiv
 * /etc/pam.d/rlogin
@@ -68,4 +68,4 @@ A collection of common network programs{{< spoiler text="show files" >}}* /etc/h
 * /usr/share/man/man8/rshd.8.gz
 * /usr/share/man/man8/talkd.8.gz
 * /usr/share/man/man8/telnetd.8.gz
-{{< /spoiler >}}
+{{< /files >}}

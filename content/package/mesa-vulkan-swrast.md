@@ -13,6 +13,6 @@ usize = "10893544"
 sha1sum = "546c957b5c4d81911b85a4c69f529aef28b1c2b5"
 depends = "['vulkan-icd-loader', 'xcb-util-keysyms', 'zstd']"
 +++
-SWRast Support for Vulkan{{< spoiler text="show files" >}}* /usr/lib/libvulkan_lvp.so
+SWRast Support for Vulkan{{< files text="show files" >}}* /usr/lib/libvulkan_lvp.so
 * /usr/share/vulkan/icd.d/lvp_icd.x86_64.json
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "41210e6877cf77c5f8e72d1e4b738ea9c6fa0902"
 depends = "['openjre', 'vtk>=9.3.0']"
 reverse_depends = "['vtk-java-ffmpeg', 'vtk-java-mpi', 'vtk-java-mysql', 'vtk-java-qt5', 'vtk-python3-java']"
 +++
-Java interface and bindings for vtk{{< spoiler text="show files" >}}* /usr/bin/vtkParseJava
+Java interface and bindings for vtk{{< files text="show files" >}}* /usr/bin/vtkParseJava
 * /usr/bin/vtkWrapJava
 * /usr/lib/java/vtk-Linux-x86_64/libvtkAcceleratorsVTKmCoreJava.so
 * /usr/lib/java/vtk-Linux-x86_64/libvtkAcceleratorsVTKmDataModelJava.so
@@ -169,4 +169,4 @@ Java interface and bindings for vtk{{< spoiler text="show files" >}}* /usr/bin/v
 * /usr/lib/libvtkJava.so
 * /usr/lib/libvtkJava.so.1
 * /usr/lib/libvtkJava.so.9.3
-{{< /spoiler >}}
+{{< /files >}}

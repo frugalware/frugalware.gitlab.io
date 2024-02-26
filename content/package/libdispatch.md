@@ -14,7 +14,7 @@ sha1sum = "b6ffc7ded2f4ae9e61f8674fe7e3018f201609e9"
 depends = "['glibc']"
 reverse_depends = "['telegram-desktop']"
 +++
-Comprehensive support for concurrent code execution on multicore hardware{{< spoiler text="show files" >}}* /usr/include/Block.h
+Comprehensive support for concurrent code execution on multicore hardware{{< files text="show files" >}}* /usr/include/Block.h
 * /usr/include/dispatch/base.h
 * /usr/include/dispatch/block.h
 * /usr/include/dispatch/data.h
@@ -53,4 +53,4 @@ Comprehensive support for concurrent code execution on multicore hardware{{< spo
 * /usr/share/man/man3/dispatch_semaphore_create.3.gz
 * /usr/share/man/man3/dispatch_source_create.3.gz
 * /usr/share/man/man3/dispatch_time.3.gz
-{{< /spoiler >}}
+{{< /files >}}

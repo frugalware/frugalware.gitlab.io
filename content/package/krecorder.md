@@ -13,7 +13,7 @@ usize = "456058"
 sha1sum = "3c96a21a5db70d9a9fe5ff94ff72090f81bd02c1"
 depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kirigami-addons', 'kwindowsystem', 'qt5-multimedia', 'qt5-svg']"
 +++
-Audio recorder for Plasma Mobile and other platforms{{< spoiler text="show files" >}}* /usr/bin/krecorder
+Audio recorder for Plasma Mobile and other platforms{{< files text="show files" >}}* /usr/bin/krecorder
 * /usr/share/applications/org.kde.krecorder.desktop
 * /usr/share/doc/krecorder-23.08.5/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.krecorder.svg
@@ -50,4 +50,4 @@ Audio recorder for Plasma Mobile and other platforms{{< spoiler text="show files
 * /usr/share/locale/zh_CN/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/krecorder.mo
 * /usr/share/metainfo/org.kde.krecorder.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

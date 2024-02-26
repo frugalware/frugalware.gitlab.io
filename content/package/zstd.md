@@ -14,7 +14,7 @@ sha1sum = "946fca5b1917dd3f717df266c485069d82d8d09a"
 depends = "['lz4>=1.9.1-2', 'xz>=5.2.4-2', 'zlib>=1.2.12']"
 reverse_depends = "['android-tools', 'binutils', 'blosc', 'btrfs-progs', 'ccache', 'curl', 'elfutils', 'file', 'freeimage', 'fsarchiver', 'gcc', 'gcc-12', 'gcc-g++', 'gnutls', 'kmod', 'libarchive', 'libboost', 'libosmesa', 'libsystemd', 'libzip', 'llvm-libs', 'llvm15-libs', 'mesa-dri-drivers', 'mesa-nine', 'mesa-vulkan-amd', 'mesa-vulkan-intel', 'mesa-vulkan-swrast', 'minizip-ng', 'mold', 'mtd-utils', 'pacman-g2', 'pdal', 'qt5-base', 'qt6-tools', 'rsync', 'sccache', 'squashfs', 'sz', 'wget2']"
 +++
-Zstandard - Fast real-time compression algorithm{{< spoiler text="show files" >}}* /usr/bin/unzstd
+Zstandard - Fast real-time compression algorithm{{< files text="show files" >}}* /usr/bin/unzstd
 * /usr/bin/zstd
 * /usr/bin/zstdcat
 * /usr/bin/zstdgrep
@@ -40,4 +40,4 @@ Zstandard - Fast real-time compression algorithm{{< spoiler text="show files" >}
 * /usr/share/man/man1/zstdcat.1.gz
 * /usr/share/man/man1/zstdgrep.1.gz
 * /usr/share/man/man1/zstdless.1.gz
-{{< /spoiler >}}
+{{< /files >}}

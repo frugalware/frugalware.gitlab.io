@@ -13,7 +13,7 @@ usize = "17934216"
 sha1sum = "583db29792c572ae4e10d5193eb0a5da03ba6cb8"
 depends = "[]"
 +++
-Catalan Localization for KDE.{{< spoiler text="show files" >}}* usr/share/apps/kanagram/data/ca/animals_pri.kvtml
+Catalan Localization for KDE.{{< files text="show files" >}}* usr/share/apps/kanagram/data/ca/animals_pri.kvtml
 * usr/share/apps/kanagram/data/ca/biografies_sec.kvtml
 * usr/share/apps/kanagram/data/ca/capitals_del_mon_sec.kvtml
 * usr/share/apps/kanagram/data/ca/comarques_sec.kvtml
@@ -1559,4 +1559,4 @@ Catalan Localization for KDE.{{< spoiler text="show files" >}}* usr/share/apps/k
 * usr/share/locale/ca/LC_MESSAGES/wakeup.mo
 * usr/share/locale/ca/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/ca/LC_MESSAGES/webarchiver.mo
-{{< /spoiler >}}
+{{< /files >}}

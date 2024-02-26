@@ -13,7 +13,7 @@ usize = "8225550"
 sha1sum = "f72a6d9a57b79b0e284d954aa6ac17fa1e67a42b"
 depends = "['gdbm>=1.15', 'libcap', 'ncurses>=6.1']"
 +++
-Zsh is a shell designed for interactive use{{< spoiler text="show files" >}}* /etc/zsh/zprofile
+Zsh is a shell designed for interactive use{{< files text="show files" >}}* /etc/zsh/zprofile
 * /usr/bin/zsh
 * /usr/bin/zsh-5.9
 * /usr/lib/zsh/5.9/zsh/attr.so
@@ -1387,4 +1387,4 @@ Zsh is a shell designed for interactive use{{< spoiler text="show files" >}}* /e
 * /usr/share/zsh/functions/Zle/zcalc-auto-insert
 * /usr/share/zsh/functions/Zle/zed-set-file-name
 * /usr/share/zsh/scripts/newuser
-{{< /spoiler >}}
+{{< /files >}}

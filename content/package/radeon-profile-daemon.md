@@ -14,8 +14,8 @@ sha1sum = "04835a85ac4d5fe196a1a3cb04ead49ad34aa169"
 depends = "['qt5-base>=5.15.10']"
 reverse_depends = "['radeon-profile']"
 +++
-Daemon for radeon-profile GUI{{< spoiler text="show files" >}}* /usr/bin/radeon-profile-daemon
+Daemon for radeon-profile GUI{{< files text="show files" >}}* /usr/bin/radeon-profile-daemon
 * /usr/lib/systemd/system/radeon-profile-daemon.service
 * /usr/share/doc/radeon-profile-daemon-20190603/LICENSE
 * /usr/share/doc/radeon-profile-daemon-20190603/README.md
-{{< /spoiler >}}
+{{< /files >}}

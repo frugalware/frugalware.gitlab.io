@@ -14,7 +14,7 @@ sha1sum = "10b842a10335bb234f71ea0a5f5397c43ccbe8fc"
 depends = "['haskell-skylighting-format-ansi', 'haskell-skylighting-format-blaze-html', 'haskell-skylighting-format-context', 'haskell-skylighting-format-latex']"
 reverse_depends = "['pandoc']"
 +++
-syntax highlighting library{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/skylighting-0.14.1/libHSskylighting-0.14.1-AOHsFPzcofdD2r0qbJ3f6u.a
+syntax highlighting library{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/skylighting-0.14.1/libHSskylighting-0.14.1-AOHsFPzcofdD2r0qbJ3f6u.a
 * /usr/lib/ghc-9.8.1/site-local/skylighting-0.14.1/Skylighting.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/skylighting-0.14.1/Skylighting.hi
 * /usr/lib/ghc-9.8.1/site-local/skylighting-0.14.1/Skylighting/Syntax.dyn_hi
@@ -366,4 +366,4 @@ syntax highlighting library{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/skylighting-0.14.1/LICENSE
 * /usr/share/haskell/haskell-skylighting/register.sh
 * /usr/share/haskell/haskell-skylighting/unregister.sh
-{{< /spoiler >}}
+{{< /files >}}

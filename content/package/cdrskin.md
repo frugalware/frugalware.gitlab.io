@@ -13,6 +13,6 @@ usize = "194454"
 sha1sum = "4a0ade3738fdfb57d35c68646e5fd5a190cfcedc"
 depends = "['libburn=1.5.6']"
 +++
-burns preformatted data to CD, DVD, and BD via libburn.{{< spoiler text="show files" >}}* /usr/bin/cdrskin
+burns preformatted data to CD, DVD, and BD via libburn.{{< files text="show files" >}}* /usr/bin/cdrskin
 * /usr/share/man/man1/cdrskin.1.gz
-{{< /spoiler >}}
+{{< /files >}}

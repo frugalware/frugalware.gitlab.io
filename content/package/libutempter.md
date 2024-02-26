@@ -14,7 +14,7 @@ sha1sum = "048b5182714f6a34e8ef82e8fa63044111c95dd7"
 depends = "['glibc>=2.34']"
 reverse_depends = "['kpty']"
 +++
-Interface for terminal emulators such as screen and xterm to record user sessions to utmp and wtmp files{{< spoiler text="show files" >}}* /usr/include/utempter.h
+Interface for terminal emulators such as screen and xterm to record user sessions to utmp and wtmp files{{< files text="show files" >}}* /usr/include/utempter.h
 * /usr/lib/libutempter.so
 * /usr/lib/libutempter.so.0
 * /usr/lib/libutempter.so.1.2.1
@@ -27,4 +27,4 @@ Interface for terminal emulators such as screen and xterm to record user session
 * /usr/share/man/man3/utempter_remove_added_record.3.gz
 * /usr/share/man/man3/utempter_remove_record.3.gz
 * /usr/share/man/man3/utempter_set_helper.3.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -13,7 +13,7 @@ usize = "6293886"
 sha1sum = "ae1d122f18d53f93869c40c821a96542cbaacfa2"
 depends = "['curl', 'libboost>=1.83.0', 'libsodium>=1.0.19', 'libstdc++>=12.2', 'libsystemd', 'lua', 'luajit2', 'openssl>=3.1.0', 'protobuf>=3.16.0']"
 +++
-Power DNS recursor{{< spoiler text="show files" >}}* /etc/powerdns/recursor.conf
+Power DNS recursor{{< files text="show files" >}}* /etc/powerdns/recursor.conf
 * /etc/powerdns/recursor.conf-dist
 * /usr/bin/pdns_recursor
 * /usr/bin/rec_control
@@ -23,4 +23,4 @@ Power DNS recursor{{< spoiler text="show files" >}}* /etc/powerdns/recursor.conf
 * /usr/share/doc/pdns-recursor-4.9.2/README
 * /usr/share/man/man1/pdns_recursor.1.gz
 * /usr/share/man/man1/rec_control.1.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "0e78942819a2fbb24957c95aa434ba574898c221"
 depends = "['kcoreaddons>=5.115.0', 'ki18n>=5.115.0', 'libutempter']"
 reverse_depends = "['ark', 'cantor', 'kdesu', 'kio-extras', 'konsole', 'kwrited5', 'okular']"
 +++
-Interfacing with pseudo terminal devices.{{< spoiler text="show files" >}}* /usr/include/KF5/KPty/KPty
+Interfacing with pseudo terminal devices.{{< files text="show files" >}}* /usr/include/KF5/KPty/KPty
 * /usr/include/KF5/KPty/kpty.h
 * /usr/include/KF5/KPty/KPtyDevice
 * /usr/include/KF5/KPty/kptydevice.h
@@ -132,4 +132,4 @@ Interfacing with pseudo terminal devices.{{< spoiler text="show files" >}}* /usr
 * /usr/share/locale/zh_TW/LC_MESSAGES/kpty5.mo
 * /usr/share/qlogging-categories5/kpty.categories
 * /usr/share/qt5/mkspecs/modules/qt_KPty.pri
-{{< /spoiler >}}
+{{< /files >}}

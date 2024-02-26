@@ -13,7 +13,7 @@ usize = "182958"
 sha1sum = "a5f617e0e7dcb747374dcd6db340f2968e0d6cb9"
 depends = "['kconfig>=5.71.0', 'kcoreaddons>=5.71.0']"
 +++
-Screensaver of outer space.{{< spoiler text="show files" >}}* /usr/bin/ktux
+Screensaver of outer space.{{< files text="show files" >}}* /usr/bin/ktux
 * /usr/share/applications/ktux/org.kde.ktux.desktop
 * /usr/share/doc/ktux-20200621.gfc79881/AUTHORS
 * /usr/share/doc/ktux-20200621.gfc79881/COPYING
@@ -35,4 +35,4 @@ Screensaver of outer space.{{< spoiler text="show files" >}}* /usr/bin/ktux
 * /usr/share/ktux/sprites/spriterc
 * /usr/share/ktux/sprites/star0001.png
 * /usr/share/ktux/sprites/star0002.png
-{{< /spoiler >}}
+{{< /files >}}

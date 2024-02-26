@@ -15,7 +15,7 @@ depends = "['xorg-server>=1.20.4-3']"
 reverse_depends = "['xorg-compat']"
 license = "GPL2"
 +++
-X.Org driver for mouse input devices{{< spoiler text="show files" >}}* /usr/include/xorg/xf86-mouse-properties.h
+X.Org driver for mouse input devices{{< files text="show files" >}}* /usr/include/xorg/xf86-mouse-properties.h
 * /usr/lib/pkgconfig/xorg-mouse.pc
 * /usr/lib/xorg/modules/input/mouse_drv.so
 * /usr/share/doc/xf86-input-mouse-1.9.5/ChangeLog
@@ -23,4 +23,4 @@ X.Org driver for mouse input devices{{< spoiler text="show files" >}}* /usr/incl
 * /usr/share/doc/xf86-input-mouse-1.9.5/INSTALL
 * /usr/share/doc/xf86-input-mouse-1.9.5/README
 * /usr/share/man/man4/mousedrv.4.gz
-{{< /spoiler >}}
+{{< /files >}}

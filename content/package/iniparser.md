@@ -14,7 +14,7 @@ sha1sum = "b7b38aececc0a128537de4e26227247dee206ac7"
 depends = "['libstdc++>=13.2']"
 reverse_depends = "['dracut-ykfde']"
 +++
-A free stand-alone ini file parsing library written in portable ANSI C{{< spoiler text="show files" >}}* /usr/include/dictionary.h
+A free stand-alone ini file parsing library written in portable ANSI C{{< files text="show files" >}}* /usr/include/dictionary.h
 * /usr/include/iniparser.h
 * /usr/lib/libiniparser.a
 * /usr/lib/libiniparser.so.1
@@ -24,4 +24,4 @@ A free stand-alone ini file parsing library written in portable ANSI C{{< spoile
 * /usr/share/doc/iniparser-4.1/INSTALL
 * /usr/share/doc/iniparser-4.1/LICENSE
 * /usr/share/doc/iniparser-4.1/README.md
-{{< /spoiler >}}
+{{< /files >}}

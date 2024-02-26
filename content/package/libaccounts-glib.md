@@ -14,7 +14,7 @@ sha1sum = "1e1ff2843cc3d879fe4e71015607369ed8dbaa27"
 depends = "['glib2>=2.60.0', 'python3>=3.9.6', 'sqlite3']"
 reverse_depends = "['libaccounts-qt', 'telepathy-accounts-signon', 'telepathy-mission-control']"
 +++
-Glib-based client library for accessing the online accounts database.{{< spoiler text="show files" >}}* /usr/bin/ag-backup
+Glib-based client library for accessing the online accounts database.{{< files text="show files" >}}* /usr/bin/ag-backup
 * /usr/bin/ag-tool
 * /usr/include/libaccounts-glib/accounts-glib.h
 * /usr/include/libaccounts-glib/ag-account-service.h
@@ -54,4 +54,4 @@ Glib-based client library for accessing the online accounts database.{{< spoiler
 * /usr/share/xml/accounts/schema/dtd/accounts-provider.dtd
 * /usr/share/xml/accounts/schema/dtd/accounts-service-type.dtd
 * /usr/share/xml/accounts/schema/dtd/accounts-service.dtd
-{{< /spoiler >}}
+{{< /files >}}

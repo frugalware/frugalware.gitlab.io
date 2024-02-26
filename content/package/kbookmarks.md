@@ -14,7 +14,7 @@ sha1sum = "06f3fb3b54e8a87ed3630036e37fa335bd237a22"
 depends = "['kxmlgui>=5.115.0']"
 reverse_depends = "['dolphin', 'kcharselect', 'kio', 'krdc']"
 +++
-Framework that let you access and manipulate bookmarks stored using XBEL format.{{< spoiler text="show files" >}}* /usr/include/KF5/KBookmarks/KBookmark
+Framework that let you access and manipulate bookmarks stored using XBEL format.{{< files text="show files" >}}* /usr/include/KF5/KBookmarks/KBookmark
 * /usr/include/KF5/KBookmarks/kbookmark.h
 * /usr/include/KF5/KBookmarks/KBookmarkAction
 * /usr/include/KF5/KBookmarks/kbookmarkaction.h
@@ -140,4 +140,4 @@ Framework that let you access and manipulate bookmarks stored using XBEL format.
 * /usr/share/qlogging-categories5/kbookmarks.categories
 * /usr/share/qlogging-categories5/kbookmarks.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KBookmarks.pri
-{{< /spoiler >}}
+{{< /files >}}

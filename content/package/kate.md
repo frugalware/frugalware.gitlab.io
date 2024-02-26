@@ -13,7 +13,7 @@ usize = "31654442"
 sha1sum = "7a001ae596605de3f539e98c3b11285b8c84960a"
 depends = "['kitemmodels>=5.115.0', 'knewstuff>=5.115.0', 'ktexteditor>=5.115.0', 'libgit2>=0.26', 'plasma-framework>=5.115.0', 'qt5-declarative>=5.15.12', 'threadweaver>=5.115.0']"
 +++
-KDE Advanced Text Editor.{{< spoiler text="show files" >}}* /usr/bin/kate
+KDE Advanced Text Editor.{{< files text="show files" >}}* /usr/bin/kate
 * /usr/bin/kwrite
 * /usr/lib/libkateprivate.so.23.08.5
 * /usr/lib/qt5/plugins/ktexteditor/cmaketoolsplugin.so
@@ -1839,4 +1839,4 @@ KDE Advanced Text Editor.{{< spoiler text="show files" >}}* /usr/bin/kate
 * /usr/share/man/uk/man1/kate.1.gz
 * /usr/share/metainfo/org.kde.kate.appdata.xml
 * /usr/share/metainfo/org.kde.kwrite.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

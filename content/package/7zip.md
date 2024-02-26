@@ -14,7 +14,7 @@ sha1sum = "d0438093f00b3861265bfe7d4c05665c4ef57440"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['binwalk', 'element', 'julia']"
 +++
-7-Zip is a file archiver with high compression ratio.{{< spoiler text="show files" >}}* /usr/bin/7z
+7-Zip is a file archiver with high compression ratio.{{< files text="show files" >}}* /usr/bin/7z
 * /usr/bin/7za
 * /usr/bin/7zCon.sfx
 * /usr/bin/7zr
@@ -116,4 +116,4 @@ reverse_depends = "['binwalk', 'element', 'julia']"
 * /usr/share/man/man1/7z.1.gz
 * /usr/share/man/man1/7za.1.gz
 * /usr/share/man/man1/7zr.1.gz
-{{< /spoiler >}}
+{{< /files >}}

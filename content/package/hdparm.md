@@ -14,9 +14,9 @@ sha1sum = "448019095acd55e8bc54479c04c9f953a111d707"
 depends = "['glibc>=2.34']"
 reverse_depends = "['hw-probe', 'laptop-mode-tools']"
 +++
-Read/set hard drive parameters{{< spoiler text="show files" >}}* /usr/bin/hdparm
+Read/set hard drive parameters{{< files text="show files" >}}* /usr/bin/hdparm
 * /usr/share/doc/hdparm-9.65/Changelog
 * /usr/share/doc/hdparm-9.65/README.acoustic
 * /usr/share/doc/hdparm-9.65/TODO
 * /usr/share/man/man8/hdparm.8.gz
-{{< /spoiler >}}
+{{< /files >}}

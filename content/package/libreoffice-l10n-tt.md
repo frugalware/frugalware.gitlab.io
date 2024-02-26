@@ -13,7 +13,7 @@ usize = "1060446"
 sha1sum = "0e5309e53e4e446ff30bfe74541436aba3c896ea"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Tatar support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib/libreoffice/program/resource/tt/LC_MESSAGES/acc.mo
+Installs Tatar support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/tt/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/tt/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/tt/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/tt/LC_MESSAGES/chart.mo
@@ -51,4 +51,4 @@ Installs Tatar support in LibreOffice{{< spoiler text="show files" >}}* /usr/lib
 * /usr/lib/libreoffice/share/registry/Langpack-tt.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_tt.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_tt.xcd
-{{< /spoiler >}}
+{{< /files >}}

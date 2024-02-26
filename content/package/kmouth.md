@@ -13,7 +13,7 @@ usize = "4165529"
 sha1sum = "e07c417bdef7438c5c315620d4c9f02d3a5a09a9"
 depends = "['kio>=5.115.0', 'pcre2', 'qt5-speech>=5.15.12']"
 +++
-Speech Synthesizer Frontend{{< spoiler text="show files" >}}* /etc/xdg/kmouthrc
+Speech Synthesizer Frontend{{< files text="show files" >}}* /etc/xdg/kmouthrc
 * /usr/bin/kmouth
 * /usr/share/applications/org.kde.kmouth.desktop
 * /usr/share/doc/HTML/ca/kmouth/index.cache.bz2
@@ -218,4 +218,4 @@ Speech Synthesizer Frontend{{< spoiler text="show files" >}}* /etc/xdg/kmouthrc
 * /usr/share/man/sv/man1/kmouth.1.gz
 * /usr/share/man/uk/man1/kmouth.1.gz
 * /usr/share/metainfo/org.kde.kmouth.appdata.xml
-{{< /spoiler >}}
+{{< /files >}}

@@ -15,7 +15,7 @@ depends = "['aspell', 'glib2>=2.50.0', 'hspell', 'hunspell>=1.7.0', 'libstdc++>=
 reverse_depends = "['claws-mail', 'gspell', 'gtkspell', 'gtkspell3', 'kvirc', 'lyx', 'pyenchant', 'sylpheed', 'webkit-gtk3']"
 license = "LGPL"
 +++
-Generic spell checking library{{< spoiler text="show files" >}}* /usr/bin/enchant-2
+Generic spell checking library{{< files text="show files" >}}* /usr/bin/enchant-2
 * /usr/bin/enchant-lsmod-2
 * /usr/include/enchant-2/enchant++.h
 * /usr/include/enchant-2/enchant-provider.h
@@ -41,4 +41,4 @@ Generic spell checking library{{< spoiler text="show files" >}}* /usr/bin/enchan
 * /usr/share/man/man1/enchant-2.1.gz
 * /usr/share/man/man1/enchant-lsmod-2.1.gz
 * /usr/share/man/man5/enchant.5.gz
-{{< /spoiler >}}
+{{< /files >}}

@@ -14,5 +14,5 @@ sha1sum = "a74211375e63f36a0fdc432ed872871324937eaa"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Gujarati language support for Firefox{{< spoiler text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-gu-IN@firefox.mozilla.org.xpi
-{{< /spoiler >}}
+Gujarati language support for Firefox{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-gu-IN@firefox.mozilla.org.xpi
+{{< /files >}}
