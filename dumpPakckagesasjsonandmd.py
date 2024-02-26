@@ -128,7 +128,7 @@ for package in cur:
     f.write('sha1sum = "'+sha1sum+'"\n')
     f.write('depends = "'+str(depends)+'"\n')
     if reverse_depends:
-        f.write('reverse depends = "'+str(reverse_depends)+'"\n')
+        f.write('reverse_depends = "'+str(reverse_depends)+'"\n')
     f.write('files = "'+str(files)+'"\n')
     if package_license:
         f.write('license = "'+str(package_license)+'"\n')
