@@ -3,13 +3,14 @@ draft = false
 title = "qv4l2 1.26.1-3"
 version = "1.26.1-3"
 date = "2024-01-05T11:23:17"
+aliases = "/packages/219238"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://linuxtv.org"
 arch = "x86_64"
 size = "195300"
 usize = "587249"
 sha1sum = "5499cfcca5dfb146403b5533b6ddf0757dd34daa"
-depends = "['qt5-base>=5.15.11', 'alsa-lib', 'v4l-utils>=1.26.1']"
-files = "['usr/', 'usr/bin/', 'usr/bin/qv4l2', 'usr/share/', 'usr/share/applications/', 'usr/share/applications/qv4l2.desktop', 'usr/share/icons/', 'usr/share/icons/hicolor/', 'usr/share/icons/hicolor/16x16/', 'usr/share/icons/hicolor/16x16/apps/', 'usr/share/icons/hicolor/16x16/apps/qv4l2.png', 'usr/share/icons/hicolor/24x24/', 'usr/share/icons/hicolor/24x24/apps/', 'usr/share/icons/hicolor/24x24/apps/qv4l2.png', 'usr/share/icons/hicolor/32x32/', 'usr/share/icons/hicolor/32x32/apps/', 'usr/share/icons/hicolor/32x32/apps/qv4l2.png', 'usr/share/icons/hicolor/64x64/', 'usr/share/icons/hicolor/64x64/apps/', 'usr/share/icons/hicolor/64x64/apps/qv4l2.png', 'usr/share/icons/hicolor/scalable/', 'usr/share/icons/hicolor/scalable/apps/', 'usr/share/icons/hicolor/scalable/apps/qv4l2.svg', 'usr/share/man/', 'usr/share/man/man1/', 'usr/share/man/man1/qv4l2.1.gz']"
+depends = "['alsa-lib', 'qt5-base>=5.15.11', 'v4l-utils>=1.26.1']"
+files = "['/usr/bin/qv4l2', '/usr/share/applications/qv4l2.desktop', '/usr/share/icons/hicolor/16x16/apps/qv4l2.png', '/usr/share/icons/hicolor/24x24/apps/qv4l2.png', '/usr/share/icons/hicolor/32x32/apps/qv4l2.png', '/usr/share/icons/hicolor/64x64/apps/qv4l2.png', '/usr/share/icons/hicolor/scalable/apps/qv4l2.svg', '/usr/share/man/man1/qv4l2.1.gz']"
 +++
 Video 4 Linux Qt Application

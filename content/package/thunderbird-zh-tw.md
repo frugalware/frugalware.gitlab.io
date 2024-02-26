@@ -3,13 +3,15 @@ draft = false
 title = "thunderbird-zh-tw 115.7.0-1"
 version = "115.7.0-1"
 date = "2024-01-29T10:02:06"
-categories = ['locale-extra', 'thunderbird-extensions']
+aliases = "/packages/16131"
+categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
 size = "700428"
 usize = "766124"
 sha1sum = "85bbb9417951d981e69c1a91de559aa072c3e18c"
 depends = "['thunderbird>=115.7.0']"
-files = "['usr/', 'usr/lib/', 'usr/lib/thunderbird/', 'usr/lib/thunderbird/extensions/', 'usr/lib/thunderbird/extensions/langpack-zh-TW@thunderbird.mozilla.org.xpi']"
+reverse depends = "['thunderbird-i18n']"
+files = "['/usr/lib/thunderbird/extensions/langpack-zh-TW@thunderbird.mozilla.org.xpi']"
 +++
 Chinese Traditional language support for Thunderbird

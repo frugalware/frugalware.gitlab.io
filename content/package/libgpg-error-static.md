@@ -1,15 +1,16 @@
 +++
 draft = false
-title = "libgpg-error-static 1.47-2"
-version = "1.47-2"
-date = "2023-09-05T10:03:45"
+title = "libgpg-error-static 1.48-1"
+version = "1.48-1"
+date = "2024-02-26T10:08:46"
+aliases = "/packages/219915"
 categories = ['devel-extra']
 upstreamurl = "http://www.gnupg.org"
 arch = "x86_64"
-size = "662212"
-usize = "789202"
-sha1sum = "c6212f3a160f52cd9008b4cf231897e7fc5df33a"
+size = "670276"
+usize = "798398"
+sha1sum = "5d14c0ba7a192f4ba8f3ecb3249fa0083352bfa2"
 depends = "[]"
-files = "['usr/', 'usr/lib/', 'usr/lib/libgpg-error.a']"
+files = "['/usr/lib/libgpg-error.a']"
 +++
 Static files for libgpg-error

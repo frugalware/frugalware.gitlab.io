@@ -3,13 +3,15 @@ draft = false
 title = "thunderbird-de 115.7.0-1"
 version = "115.7.0-1"
 date = "2024-01-29T10:02:06"
-categories = ['locale-extra', 'thunderbird-extensions']
+aliases = "/packages/5145"
+categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
 size = "679404"
 usize = "740823"
 sha1sum = "82ad96791578c99879278dc14ab969a3814d4797"
 depends = "['thunderbird>=115.7.0']"
-files = "['usr/', 'usr/lib/', 'usr/lib/thunderbird/', 'usr/lib/thunderbird/extensions/', 'usr/lib/thunderbird/extensions/langpack-de@thunderbird.mozilla.org.xpi']"
+reverse depends = "['thunderbird-i18n']"
+files = "['/usr/lib/thunderbird/extensions/langpack-de@thunderbird.mozilla.org.xpi']"
 +++
 German language support for Thunderbird

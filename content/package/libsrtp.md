@@ -1,15 +1,17 @@
 +++
 draft = false
-title = "libsrtp 2.5.0-2"
-version = "2.5.0-2"
-date = "2023-09-05T10:29:54"
+title = "libsrtp 2.6.0-1"
+version = "2.6.0-1"
+date = "2024-02-25T16:06:32"
+aliases = "/packages/218004"
 categories = ['lib']
 upstreamurl = "https://github.com/cisco/libsrtp"
 arch = "x86_64"
-size = "61760"
-usize = "233009"
-sha1sum = "a07ff4c1a249ed0b2af4c231c0d881081874f1f8"
+size = "62160"
+usize = "234027"
+sha1sum = "fc960b00716897418c5aa4399803cf7daf3de4ff"
 depends = "['glibc>=2.34']"
-files = "['usr/', 'usr/include/', 'usr/include/srtp2/', 'usr/include/srtp2/auth.h', 'usr/include/srtp2/cipher.h', 'usr/include/srtp2/crypto_types.h', 'usr/include/srtp2/srtp.h', 'usr/lib/', 'usr/lib/libsrtp2.so', 'usr/lib/libsrtp2.so.1', 'usr/lib/pkgconfig/', 'usr/lib/pkgconfig/libsrtp2.pc', 'usr/share/', 'usr/share/doc/', 'usr/share/doc/libsrtp-2.5.0/', 'usr/share/doc/libsrtp-2.5.0/CHANGES', 'usr/share/doc/libsrtp-2.5.0/LICENSE', 'usr/share/doc/libsrtp-2.5.0/README.md']"
+reverse depends = "['kopete', 'qt5-webengine']"
+files = "['/usr/include/srtp2/auth.h', '/usr/include/srtp2/cipher.h', '/usr/include/srtp2/crypto_types.h', '/usr/include/srtp2/srtp.h', '/usr/lib/libsrtp2.so', '/usr/lib/libsrtp2.so.1', '/usr/lib/pkgconfig/libsrtp2.pc', '/usr/share/doc/libsrtp-2.6.0/CHANGES', '/usr/share/doc/libsrtp-2.6.0/LICENSE', '/usr/share/doc/libsrtp-2.6.0/README.md']"
 +++
 Library for SRTP (Secure Realtime Transport Protocol)

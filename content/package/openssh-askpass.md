@@ -1,15 +1,16 @@
 +++
 draft = false
-title = "openssh-askpass 9.6-3"
-version = "9.6-3"
-date = "2024-02-01T15:13:59"
+title = "openssh-askpass 9.6-4"
+version = "9.6-4"
+date = "2024-02-26T08:35:32"
+aliases = "/packages/217543"
 categories = ['xapps-extra']
 upstreamurl = "http://www.openssh.com/"
 arch = "x86_64"
-size = "7084"
+size = "7088"
 usize = "0"
-sha1sum = "8fd825bf24088015eb348ae120b7b5077f33cbc2"
-depends = "['gtk+2', 'gdk-pixbuf2']"
-files = "['usr/', 'usr/lib/', 'usr/lib/openssh-askpass/']"
+sha1sum = "d1b0ab30c93d24072e899bd5303472739ecb0422"
+depends = "['gdk-pixbuf2', 'gtk+2']"
+files = "[]"
 +++
 X11 passphrase dialog for OpenSSH

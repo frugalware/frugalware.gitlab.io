@@ -3,13 +3,14 @@ draft = false
 title = "vlc-svg 3.0.20-9"
 version = "3.0.20-9"
 date = "2024-02-23T15:34:47"
-categories = ['xmultimedia-extra', 'vlc-codecs']
+aliases = "/packages/219571"
+categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
 size = "18436"
 usize = "28048"
 sha1sum = "5fceeadc044a0c76b488558eee182f0e83d896ae"
 depends = "['librsvg>=2.26.3', 'libvlc>=3.0.20']"
-files = "['usr/', 'usr/lib/', 'usr/lib/vlc/', 'usr/lib/vlc/plugins/', 'usr/lib/vlc/plugins/codec/', 'usr/lib/vlc/plugins/codec/libsvgdec_plugin.so', 'usr/lib/vlc/plugins/text_renderer/', 'usr/lib/vlc/plugins/text_renderer/libsvg_plugin.so']"
+files = "['/usr/lib/vlc/plugins/codec/libsvgdec_plugin.so', '/usr/lib/vlc/plugins/text_renderer/libsvg_plugin.so']"
 +++
 vlc plugin for SVG
