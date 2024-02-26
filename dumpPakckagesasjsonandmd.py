@@ -130,12 +130,16 @@ for package in cur:
     f.write('depends = "'+str(depends)+'"\n')
     if reverse_depends:
         f.write('reverse_depends = "'+str(reverse_depends)+'"\n')
-    f.write('files = "'+str(files)+'"\n')
+    
     if package_license:
         f.write('license = "'+str(package_license)+'"\n')
     
     f.write("+++\n")
     f.write(desc)
+    f.write("{{< spoiler text="show files" >}"}            
+    for file in files:
+    f.write("* "+str(file)+"\n")
+    f.write("{{< /spoiler >}"}
     f.close()
 
 if packages_as_dict:
