@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "28939"
 usize = "151578"
 sha1sum = "c34ab510c1fff563c6e5d4ec6783b711f685b5e5"
-depends = "['perl>=5.10.0-2', 'perl']"
+depends = "['perl', 'perl>=5.10.0-2']"
 +++
 Interface to bzip2 compression library
 
