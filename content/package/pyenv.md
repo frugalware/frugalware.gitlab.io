@@ -13,7 +13,7 @@ usize = "3196279"
 sha1sum = "0c67073a2f1262739972caf67a70214839a8fc62"
 depends = "['bash']"
 +++
-Easily switch between multiple versions of Python"
+Easily switch between multiple versions of Python
 
 {{< files text="show files" >}}* /usr/bin/pyenv
 * /usr/bin/pyenv-install

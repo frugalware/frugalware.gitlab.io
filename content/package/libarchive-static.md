@@ -13,7 +13,7 @@ usize = "4828602"
 sha1sum = "49b6a17a38193754808023755aa2dc75e801b408"
 depends = "[]"
 +++
-Static files for libarchive"
+Static files for libarchive
 
 {{< files text="show files" >}}* /usr/lib/libarchive.a
 {{< /files >}}

@@ -13,7 +13,7 @@ usize = "2197347"
 sha1sum = "2b3818c096c529eb11aaf05a47e940aecb2174e1"
 depends = "['perl']"
 +++
-a program to check system logs for unusual events and mail them to sysadmin"
+a program to check system logs for unusual events and mail them to sysadmin
 
 {{< files text="show files" >}}* /etc/logwatch/conf/html/footer.html
 * /etc/logwatch/conf/html/header.html

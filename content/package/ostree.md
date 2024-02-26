@@ -14,7 +14,7 @@ sha1sum = "83074c0e21f349d5044f4342ba0dc8179e7865b2"
 depends = "['curl', 'fuse3', 'gpgme', 'libarchive', 'libsodium>=1.0.19']"
 reverse_depends = "['flatpak']"
 +++
-Operating system and container binary deployment and upgrades"
+Operating system and container binary deployment and upgrades
 
 {{< files text="show files" >}}* /etc/dracut.conf.d/ostree.conf
 * /usr/bin/ostree

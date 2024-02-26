@@ -14,7 +14,7 @@ sha1sum = "7c4b6610a91638ee33f5ff0e8a62d03aa29fcba3"
 depends = "['haskell-x509']"
 reverse_depends = "['haskell-x509-system', 'haskell-x509-validation']"
 +++
-X.509 collection accessing and storing methods"
+X.509 collection accessing and storing methods
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/x509-store-1.6.9/Data/X509/CertificateStore.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/x509-store-1.6.9/Data/X509/CertificateStore.hi

@@ -15,7 +15,7 @@ depends = "['libcdio>=2.1.0']"
 reverse_depends = "['gvfs', 'mpv', 'qmmp']"
 license = "GPL2"
 +++
-Paranoia support for Portable CD-ROM I/O library"
+Paranoia support for Portable CD-ROM I/O library
 
 {{< files text="show files" >}}* /usr/bin/cd-paranoia
 * /usr/include/cdio/paranoia/cdda.h

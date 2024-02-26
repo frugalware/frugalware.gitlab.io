@@ -14,7 +14,7 @@ sha1sum = "5e110910f20ad31d9e459c15a56f72129bdbf9a4"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['efl', 'enlightenment', 'terminology']"
 +++
-Bullet is a professional free 3D Game Multiphysics Library"
+Bullet is a professional free 3D Game Multiphysics Library
 
 {{< files text="show files" >}}* /usr/include/ActiveSocket.h
 * /usr/include/bullet/BasicDemo/BasicExample.h

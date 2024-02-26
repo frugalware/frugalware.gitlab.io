@@ -13,7 +13,7 @@ usize = "3783695"
 sha1sum = "d0775c51bcf7818697cca215b90880e6302f4cd3"
 depends = "['libgcc']"
 +++
-Terminal bandwidth utilization tool"
+Terminal bandwidth utilization tool
 
 {{< files text="show files" >}}* /usr/bin/bandwhich
 * /usr/share/doc/bandwhich-0.21.1/README.md

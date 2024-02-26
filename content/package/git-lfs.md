@@ -1,23 +1,23 @@
 +++
 draft = false
-title = "git-lfs 3.4.0-1"
-version = "3.4.0-1"
+title = "git-lfs 3.4.1-1"
+version = "3.4.1-1"
 description = "An open source Git extension for versioning large files"
-date = "2023-09-14T08:05:50"
+date = "2024-02-26T15:29:08"
 aliases = "/packages/219492"
 categories = ['devel-extra']
 upstreamurl = "https://git-lfs.github.com/"
 arch = "x86_64"
-size = "3562028"
-usize = "11481193"
-sha1sum = "42ff4ec03be7f0af604962464f7441564cb2c785"
+size = "3625752"
+usize = "11725655"
+sha1sum = "a0bb566cd8daaaeb677d1533857d81efda28f22f"
 depends = "['git>=1.8.5']"
 +++
-An open source Git extension for versioning large files"
+An open source Git extension for versioning large files
 
 {{< files text="show files" >}}* /usr/bin/git-lfs
-* /usr/share/doc/git-lfs-3.4.0/INSTALLING.md
-* /usr/share/doc/git-lfs-3.4.0/README.md
+* /usr/share/doc/git-lfs-3.4.1/INSTALLING.md
+* /usr/share/doc/git-lfs-3.4.1/README.md
 * /usr/share/man/man1/git-lfs-checkout.1.gz
 * /usr/share/man/man1/git-lfs-clean.1.gz
 * /usr/share/man/man1/git-lfs-clone.1.gz

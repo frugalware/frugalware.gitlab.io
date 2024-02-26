@@ -14,7 +14,7 @@ sha1sum = "f5b656915b2f8c331286d21202c6b6e009fa3c02"
 depends = "['analitza>=23.08.5', 'julia>=1.0.2', 'knewstuff>=5.115.0', 'kpty>=5.115.0', 'ktexteditor>=5.115.0', 'libqalculate>=3.20.1', 'libspectre', 'luajit2', 'openblas64', 'poppler-qt5', 'python3>=3.12', 'qt5-webengine>=5.15.12', 'qt5-xmlpatterns>=5.15.12', 'r']"
 reverse_depends = "['labplot']"
 +++
-KDE Frontend to Mathematical Software."
+KDE Frontend to Mathematical Software.
 
 {{< files text="show files" >}}* /usr/bin/cantor
 * /usr/bin/cantor_juliaserver

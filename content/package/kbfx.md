@@ -13,7 +13,7 @@ usize = "4401873"
 sha1sum = "882dc7544af1732f6055f8909cf4fce070b4b117"
 depends = "[]"
 +++
-KBFX is an alternative to the classical K-Menu button and it's menu."
+KBFX is an alternative to the classical K-Menu button and it's menu.
 
 {{< files text="show files" >}}* usr/bin/kbfxconfigapp
 * usr/include/kbfx/effect.h

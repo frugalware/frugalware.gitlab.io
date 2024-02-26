@@ -14,7 +14,7 @@ sha1sum = "7a3ea95f78e2f7f78201a8735ecaa5c85d47d133"
 depends = "['libblkid', 'libcap-ng>=0.7.8-8', 'libsystemd', 'libudev', 'libuuid', 'libxcrypt', 'ncurses>=6.1-5', 'pam>=1.3.0-4', 'pcre2', 'readline>=8.0-3', 'zlib>=1.2.12']"
 reverse_depends = "['dracut', 'e2fsprogs', 'efl', 'enlightenment', 'f2fs-tools', 'glib2', 'harfbuzz', 'kpmcore', 'nilfs-utils', 'pacman-g2', 'pango', 'pulse-autoconf', 'scriptlet-core', 'syslinux', 'terminology', 'udisks2']"
 +++
-Miscellaneous system utilities for Linux"
+Miscellaneous system utilities for Linux
 
 {{< files text="show files" >}}* /etc/mtab
 * /etc/pam.d/chsh

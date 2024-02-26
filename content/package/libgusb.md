@@ -14,7 +14,7 @@ sha1sum = "3e0cb520c1a00a385adfe6397b530fff6f6b2a63"
 depends = "['glib2>=2.60.0', 'hwdata', 'json-glib', 'libffi>=3.2.1-2', 'libusb1>=1.0.20-5']"
 reverse_depends = "['colord', 'fwupd', 'libfprint']"
 +++
-Is a GObject wrapper for libusb1."
+Is a GObject wrapper for libusb1.
 
 {{< files text="show files" >}}* /usr/bin/gusbcmd
 * /usr/include/gusb-1/gusb.h

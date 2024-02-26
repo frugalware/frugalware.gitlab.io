@@ -14,7 +14,7 @@ sha1sum = "00de84ce334429b4d66e87e86fc066defda4cb26"
 depends = "['lib32-brotli', 'lib32-bzip2>=1.0.6-16', 'lib32-libpng>=1.6.34-2', 'lib32-zlib>=1.2.12']"
 reverse_depends = "['lib32-cairo', 'lib32-fontconfig', 'lib32-imlib2', 'lib32-libbluray', 'lib32-libxfont', 'lib32-libxfont2', 'lib32-libxft', 'wine', 'wine-devel']"
 +++
-TrueType font rendering library - 2.0 series (with bytecode interpreter) ( 32bit )"
+TrueType font rendering library - 2.0 series (with bytecode interpreter) ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/include/freetype2/freetype/config/ftconfig.h
 * /usr/i686-frugalware-linux/include/freetype2/freetype/config/ftheader.h

@@ -15,7 +15,7 @@ depends = "['glibc>=2.34', 'zlib']"
 reverse_depends = "['libdrm', 'libvirt', 'nvidia-xconfig', 'radeontool', 'spice-vdagent']"
 license = "GPL2"
 +++
-X.Org PCI access library"
+X.Org PCI access library
 
 {{< files text="show files" >}}* /usr/include/pciaccess.h
 * /usr/lib/libpciaccess.so

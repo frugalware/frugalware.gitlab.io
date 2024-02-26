@@ -14,7 +14,7 @@ sha1sum = "8b9d1536f9fd64d92c6705c67a120c9a4fc85909"
 depends = "['freeglut', 'gtk+3', 'libglu', 'libosmesa', 'vulkan-icd-loader']"
 reverse_depends = "['radeon-profile']"
 +++
-OpenGL demonstration and test programs."
+OpenGL demonstration and test programs.
 
 {{< files text="show files" >}}* /usr/bin/arbfplight
 * /usr/bin/arbfslight

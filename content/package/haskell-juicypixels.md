@@ -14,7 +14,7 @@ sha1sum = "c15d7c3755aa668857525f53294965feb5cee818"
 depends = "['haskell-vector>=0.12.3.1', 'haskell-zlib']"
 reverse_depends = "['pandoc']"
 +++
-Picture loading/serialization (in png, jpeg, bitmap, gif, tga, tiff and radiance)"
+Picture loading/serialization (in png, jpeg, bitmap, gif, tga, tiff and radiance)
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/JuicyPixels-3.3.8/Codec/Picture.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/JuicyPixels-3.3.8/Codec/Picture.hi

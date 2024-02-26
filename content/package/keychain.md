@@ -13,7 +13,7 @@ usize = "102254"
 sha1sum = "e4908c1a7c69183a0547ff728a1e1147b9ccac29"
 depends = "['bash', 'grep', 'openssh']"
 +++
-Keychain is a script that provides some automation around the task of sharing a long-running ssh-agent between processes."
+Keychain is a script that provides some automation around the task of sharing a long-running ssh-agent between processes.
 
 {{< files text="show files" >}}* /usr/bin/keychain
 * /usr/share/doc/keychain-2.8.5/ChangeLog

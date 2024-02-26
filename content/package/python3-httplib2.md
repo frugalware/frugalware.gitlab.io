@@ -14,7 +14,7 @@ sha1sum = "dc8734755c536608a78e959a7a9d54eacb0a4fa7"
 depends = "['python3>=3.11']"
 reverse_depends = "['python3-eventlet']"
 +++
-A comprehensive HTTP client library."
+A comprehensive HTTP client library.
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/httplib2-0.22.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/httplib2-0.22.0-py3.12.egg-info/PKG-INFO

@@ -13,7 +13,7 @@ usize = "608582"
 sha1sum = "406e5da189afd1b8dc34fd620b20e04b781e1588"
 depends = "['lib32-gettext']"
 +++
-A general-purpose parser generator. ( 32bit )"
+A general-purpose parser generator. ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/bison
 * /usr/i686-frugalware-linux/bin/yacc

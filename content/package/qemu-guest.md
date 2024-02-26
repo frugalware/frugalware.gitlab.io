@@ -13,7 +13,7 @@ usize = "1057525"
 sha1sum = "9fb6b996fe3975419316c9ad9ddc600fdfeca9ee"
 depends = "['liburing']"
 +++
-Files for use in QEMU guests."
+Files for use in QEMU guests.
 
 {{< files text="show files" >}}* /usr/bin/qemu-ga
 * /usr/lib/systemd/system/qemu-guest-agent.service

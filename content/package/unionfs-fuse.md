@@ -13,7 +13,7 @@ usize = "152029"
 sha1sum = "d20cf09d709da031d13e6b29ed1be0428266e2ef"
 depends = "['fuse3']"
 +++
-A user space unionfs implementation."
+A user space unionfs implementation.
 
 {{< files text="show files" >}}* /usr/bin/mount.unionfs
 * /usr/bin/unionfs

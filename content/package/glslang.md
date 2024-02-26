@@ -14,7 +14,7 @@ sha1sum = "229630c1f6ab96be5c933716c2b42e6b27d89189"
 depends = "['libstdc++>=11.3']"
 reverse_depends = "['shaderc', 'vkbasalt']"
 +++
-An OpenGL and OpenGL ES shader front end and validator"
+An OpenGL and OpenGL ES shader front end and validator
 
 {{< files text="show files" >}}* /usr/bin/glslang
 * /usr/bin/glslangValidator

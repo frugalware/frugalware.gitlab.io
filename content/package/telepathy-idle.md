@@ -13,7 +13,7 @@ usize = "446684"
 sha1sum = "d65e993a6a5d5e9260d6585580cc9a03aaeaafa9"
 depends = "['dbus-glib>=0.108-3', 'libffi>=3.2.1-2', 'openssl>=1.1.1-2', 'telepathy-glib>=0.24.1-8']"
 +++
-Full-featured IRC connection manager for Telepathy"
+Full-featured IRC connection manager for Telepathy
 
 {{< files text="show files" >}}* /usr/lib/telepathy-idle/telepathy-idle
 * /usr/share/dbus-1/services/org.freedesktop.Telepathy.ConnectionManager.idle.service

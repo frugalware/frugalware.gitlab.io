@@ -14,7 +14,7 @@ sha1sum = "da626f698f815961cc2a57c3f0d535d72dec91a9"
 depends = "['kdeedu-data>=23.08.5', 'kio>=5.115.0']"
 reverse_depends = "['kanagram', 'khangman', 'kwordquiz', 'parley']"
 +++
-Common libraries for KDE Edu release-service"
+Common libraries for KDE Edu release-service
 
 {{< files text="show files" >}}* /usr/include/libkeduvocdocument/KEduVocArticle
 * /usr/include/libkeduvocdocument/keduvocarticle.h

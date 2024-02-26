@@ -13,7 +13,7 @@ usize = "619155"
 sha1sum = "611333726974095b52a3502d77e86d97f2c7fad6"
 depends = "['mariadb-libs', 'openssl>=1.1.1']"
 +++
-Database Interface to the MySQL database"
+Database Interface to the MySQL database
 
 {{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/DBD/mysql/mysql.so
 * /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Bundle/DBD/mysql.pm

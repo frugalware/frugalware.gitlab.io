@@ -14,7 +14,7 @@ sha1sum = "fe9ca070c7711ce82226deaa1e2f904b22183572"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-mail-spf', 'spamassassin']"
 +++
-Manages IPv4 and IPv6 addresses and subnets"
+Manages IPv4 and IPv6 addresses and subnets
 
 {{< files text="show files" >}}* /usr/lib/perl5/5.38/site_perl/auto/NetAddr/IP/autosplit.ix
 * /usr/lib/perl5/5.38/site_perl/auto/NetAddr/IP/canon.al

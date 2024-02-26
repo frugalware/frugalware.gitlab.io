@@ -14,7 +14,7 @@ sha1sum = "db7c2b31bb15ac741bd5cd91bcdbbd189081f8cc"
 depends = "['libxml2', 'readline>=8.0']"
 reverse_depends = "['libguestfs', 'ocaml-augeas']"
 +++
-A configuration editing tool."
+A configuration editing tool.
 
 {{< files text="show files" >}}* /usr/bin/augmatch
 * /usr/bin/augparse

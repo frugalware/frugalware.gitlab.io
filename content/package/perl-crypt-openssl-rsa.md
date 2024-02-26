@@ -14,7 +14,7 @@ sha1sum = "b312c84208116fa34dd1a075c098f2d1cb961fca"
 depends = "['openssl>=3.0.7', 'perl>=5.34.0', 'perl-crypt-openssl-guess']"
 reverse_depends = "['perl-mail-dkim']"
 +++
-RSA encoding and decoding, using the openSSL libraries"
+RSA encoding and decoding, using the openSSL libraries
 
 {{< files text="show files" >}}* /usr/lib/perl5/5.38/site_perl/auto/Crypt/OpenSSL/RSA/autosplit.ix
 * /usr/lib/perl5/5.38/site_perl/auto/Crypt/OpenSSL/RSA/get_key_parameters.al

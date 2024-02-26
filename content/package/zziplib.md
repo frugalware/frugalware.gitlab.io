@@ -14,7 +14,7 @@ sha1sum = "07b666d7f87ce88348289ce1e6f56731aa417996"
 depends = "['zlib>=1.2.12']"
 reverse_depends = "['mpd', 'ogre', 'texlive']"
 +++
-easily extract data from files archived in a single zip file"
+easily extract data from files archived in a single zip file
 
 {{< files text="show files" >}}* /usr/bin/unzip-mem
 * /usr/bin/unzzip

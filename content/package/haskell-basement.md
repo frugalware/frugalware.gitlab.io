@@ -14,7 +14,7 @@ sha1sum = "ffc7f1745caf8c897247aac2ab80357a519a24f7"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-memory', 'haskell-socks']"
 +++
-Foundation scrap box of array & string"
+Foundation scrap box of array & string
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/basement-0.0.16/Basement/Alg/Class.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/basement-0.0.16/Basement/Alg/Class.hi

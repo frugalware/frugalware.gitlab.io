@@ -13,7 +13,7 @@ usize = "17148338"
 sha1sum = "5756e81a5dfe313777d4734e07735967f3d8fcba"
 depends = "[]"
 +++
-GTK+2 Documentation."
+GTK+2 Documentation.
 
 {{< files text="show files" >}}* /usr/share/gtk-doc/html/gdk2/annotation-glossary.html
 * /usr/share/gtk-doc/html/gdk2/api-index-2-10.html

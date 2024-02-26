@@ -14,7 +14,7 @@ sha1sum = "8b0fb2c635c98f3deb780c4d3b20395716b66614"
 depends = "['lcms2>=2.8-2', 'libpng>=1.6.25', 'libtiff>=4.0.6-2']"
 reverse_depends = "['blender', 'efl', 'ffmpeg', 'ffmpeg4.4', 'freeimage', 'gdcm', 'ghostscript', 'gst1-plugins-bad', 'imagemagick', 'libgs', 'mupdf', 'openimageio', 'openslide', 'poppler', 'python3-pillow', 'webkit-gtk3']"
 +++
-An open-source JPEG 2000 codec written in C"
+An open-source JPEG 2000 codec written in C
 
 {{< files text="show files" >}}* /usr/bin/opj_compress
 * /usr/bin/opj_decompress

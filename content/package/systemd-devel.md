@@ -13,7 +13,7 @@ usize = "182997"
 sha1sum = "921de11bfb4dd8848506318e712054f156c4ccb8"
 depends = "[]"
 +++
-Systemd development files."
+Systemd development files.
 
 {{< files text="show files" >}}* /usr/include/systemd/sd-bus-protocol.h
 * /usr/include/systemd/sd-bus-vtable.h

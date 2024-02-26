@@ -14,7 +14,7 @@ sha1sum = "55af14530bc6f0ad0c7fcb05e0f0b0a8cc0d42c4"
 depends = "['libstdc++>=11.2']"
 license = "MIT"
 +++
-a free, MIT licensed, Email library (MIME) written in C++"
+a free, MIT licensed, Email library (MIME) written in C++
 
 {{< files text="show files" >}}* /usr/include/mimetic/body.h
 * /usr/include/mimetic/circular_buffer.h

@@ -14,7 +14,7 @@ sha1sum = "4bfcacb566d9f3129fd63eaf3dde9d67f5f077a5"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['i3', 'i3status', 'libguestfs', 'libvirt', 'mod_security', 'mpd']"
 +++
-Is a small event-driven (SAX-style) JSON parser written in ANSI C, and a small validating JSON generator"
+Is a small event-driven (SAX-style) JSON parser written in ANSI C, and a small validating JSON generator
 
 {{< files text="show files" >}}* /usr/bin/json_reformat
 * /usr/bin/json_verify

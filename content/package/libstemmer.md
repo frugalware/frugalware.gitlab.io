@@ -14,7 +14,7 @@ sha1sum = "3903904cc424d3d7dc3e27498e8f4e80a2dba31e"
 depends = "['glibc>=2.34']"
 reverse_depends = "['appstream', 'appstream-glib', 'calibre']"
 +++
-String processing language for creating stemming algorithms"
+String processing language for creating stemming algorithms
 
 {{< files text="show files" >}}* /usr/include/libstemmer.h
 * /usr/lib/libstemmer.so

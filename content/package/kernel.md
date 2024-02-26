@@ -14,7 +14,7 @@ sha1sum = "12d15a704633dd96da8f3281d6109ba78f02ff64"
 depends = "['kmod', 'sed']"
 reverse_depends = "['acpi_call', 'ddcci-driver-linux', 'evdi', 'ieee80211', 'intel-ucode', 'ipw2200', 'ipw3945', 'kernel-initrd', 'nvidia', 'openrazer', 'r8168', 'rtl8821ce', 'shfs', 'submount', 'sysdig', 'tp-smapi', 'v4l2loopback', 'vhba-module', 'virtualbox', 'virtualbox-guest-additions', 'virtualbox-modules', 'zenpower', 'zfs']"
 +++
-The Linux Kernel and modules"
+The Linux Kernel and modules
 
 {{< files text="show files" >}}* /boot/config-6.7.6-fw1
 * /boot/System.map-6.7.6-fw1

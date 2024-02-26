@@ -13,7 +13,7 @@ usize = "5871"
 sha1sum = "9c3c5480274129806f90f898a4e8eab17a477528"
 depends = "['tcl-static']"
 +++
-Static files for tk"
+Static files for tk
 
 {{< files text="show files" >}}* /usr/lib/libtkstub.a
 * /usr/lib/libtkstub8.6.a

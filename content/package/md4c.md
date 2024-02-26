@@ -14,7 +14,7 @@ sha1sum = "d7363fef96ef22990b856ba8ef5c3efcbea8f1ed"
 depends = "['glibc']"
 reverse_depends = "['qt6-base']"
 +++
-C Markdown parser"
+C Markdown parser
 
 {{< files text="show files" >}}* /usr/bin/md2html
 * /usr/include/md4c-html.h

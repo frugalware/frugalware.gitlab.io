@@ -14,7 +14,7 @@ sha1sum = "96b3fc0c4e2c465473c4556947c6d3a3ab4e748e"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-asn1-types']"
 +++
-simple performant time related library"
+simple performant time related library
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hourglass-0.2.12/Data/Hourglass.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hourglass-0.2.12/Data/Hourglass.hi

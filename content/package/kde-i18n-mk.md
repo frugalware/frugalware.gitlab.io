@@ -13,7 +13,7 @@ usize = "7393814"
 sha1sum = "04548067caf96e69a2068493a1d3c5a48ff9c3f2"
 depends = "[]"
 +++
-Macedonian Localization for KDE."
+Macedonian Localization for KDE.
 
 {{< files text="show files" >}}* usr/share/apps/katepart/syntax/logohighlightstyle.mk.xml
 * usr/share/apps/kturtle/data/logokeywords.mk.xml

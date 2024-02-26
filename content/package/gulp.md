@@ -13,7 +13,7 @@ usize = "6335821"
 sha1sum = "5f1db4d2de92b347b91547f0dbdf908bff3c0a83"
 depends = "['glibc']"
 +++
-The streaming build system"
+The streaming build system
 
 {{< files text="show files" >}}* /usr/bin/gulp
 * /usr/lib/node_modules/gulp/.ci/.azure-pipelines-steps.yml

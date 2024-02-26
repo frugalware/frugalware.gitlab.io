@@ -13,7 +13,7 @@ usize = "1089693"
 sha1sum = "1d07c6436da4111c7280e4c069b31b76efd377b2"
 depends = "['hunspell>=1.0.8']"
 +++
-German (Switzerland) dictionary for Hunspell"
+German (Switzerland) dictionary for Hunspell
 
 {{< files text="show files" >}}* /usr/share/doc/hunspell-de_ch-20071211/COPYING
 * /usr/share/doc/hunspell-de_ch-20071211/COPYING_OASIS

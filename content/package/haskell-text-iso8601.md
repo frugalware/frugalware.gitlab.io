@@ -14,7 +14,7 @@ sha1sum = "827227e39f5b7dfb1621bae4e243915ae395f113"
 depends = "['haskell-integer-conversion', 'haskell-time-compat']"
 reverse_depends = "['haskell-aeson', 'haskell-http-api-data']"
 +++
-Converting time to and from ISO 8601 text"
+Converting time to and from ISO 8601 text
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/text-iso8601-0.1/Data/Time/FromText.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/text-iso8601-0.1/Data/Time/FromText.hi

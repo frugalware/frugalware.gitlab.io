@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "10404ea71f43a457ba0a15f0cce0c1e5fde1839f"
 depends = "[]"
 +++
-A fork of the XFree86 Project with a GPL-compatible license for emulation of i686 on x86_64"
+A fork of the XFree86 Project with a GPL-compatible license for emulation of i686 on x86_64
 
 {{< files text="show files" >}}* usr/lib/chroot32/etc/profile.d/xprint.csh
 * usr/lib/chroot32/etc/profile.d/xprint.sh

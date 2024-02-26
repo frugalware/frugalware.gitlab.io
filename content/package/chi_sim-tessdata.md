@@ -13,7 +13,7 @@ usize = "44366184"
 sha1sum = "eb9b564f1bf5aafb3ebef6f31957718d3e1d5690"
 depends = "['glibc']"
 +++
-Language specific files for tesseract lang chi_sim"
+Language specific files for tesseract lang chi_sim
 
 {{< files text="show files" >}}* /usr/share/tessdata/chi_sim.traineddata
 {{< /files >}}

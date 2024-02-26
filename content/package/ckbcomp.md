@@ -13,7 +13,7 @@ usize = "304194"
 sha1sum = "7e484f05c46b59c665938ceed83ee0c54d0d2204"
 depends = "['kbd', 'perl', 'xkeyboard-config']"
 +++
-Compile an XKB keymap for loadkeys"
+Compile an XKB keymap for loadkeys
 
 {{< files text="show files" >}}* /usr/bin/ckbcomp
 * /usr/share/doc/ckbcomp-1.217/CHANGES

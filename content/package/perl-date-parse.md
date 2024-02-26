@@ -14,7 +14,7 @@ sha1sum = "63ec68d9bb0f9bfb4b9c7f38b873f23154788cc3"
 depends = "['perl>=5.28.2']"
 reverse_depends = "['perl-mailtools']"
 +++
-Parse date strings into time values"
+Parse date strings into time values
 
 {{< files text="show files" >}}* /usr/lib/perl5/site_perl/Date/Format.pm
 * /usr/lib/perl5/site_perl/Date/Language.pm

@@ -14,7 +14,7 @@ sha1sum = "6c42f9ee935e0054cc14302f2a44038c94fc01ac"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['courier-authlib']"
 +++
-This library implements several algorithms related to the Unicode"
+This library implements several algorithms related to the Unicode
 
 {{< files text="show files" >}}* /usr/include/courier-unicode-categories-tab.h
 * /usr/include/courier-unicode-script-tab.h

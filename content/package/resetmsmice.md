@@ -13,7 +13,7 @@ usize = "157551"
 sha1sum = "bb3ccf3abb680413b8616e490601e0a348bf5c15"
 depends = "['gtk+3', 'libusb']"
 +++
-Application to reset many MS wireless mice models to stop excessive wheel scrolling"
+Application to reset many MS wireless mice models to stop excessive wheel scrolling
 
 {{< files text="show files" >}}* /usr/bin/resetmsmice
 * /usr/bin/resetmsmice-enable-boot

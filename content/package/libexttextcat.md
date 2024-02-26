@@ -14,7 +14,7 @@ sha1sum = "cd4d84649ea9ec478107503c168923074509ec3a"
 depends = "['glibc>=2.27-2']"
 reverse_depends = "['libreoffice']"
 +++
-Library implementing N-gram-based text categorization"
+Library implementing N-gram-based text categorization
 
 {{< files text="show files" >}}* /usr/include/libexttextcat/common.h
 * /usr/include/libexttextcat/constants.h

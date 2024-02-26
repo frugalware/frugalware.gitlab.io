@@ -14,7 +14,7 @@ sha1sum = "1e5ada0b0b2d38ff954849b40ffb160974af1c46"
 depends = "['bash', 'systemd']"
 license = "GPL3"
 +++
-Script for creating hybrid swap space from zram swaps, swap files and swap partitions."
+Script for creating hybrid swap space from zram swaps, swap files and swap partitions.
 
 {{< files text="show files" >}}* /etc/systemd/swap.conf
 * /usr/bin/systemd-swap

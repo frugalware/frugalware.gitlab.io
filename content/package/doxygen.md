@@ -14,7 +14,7 @@ sha1sum = "b5070deae5d9d4b5d23481fd556e7ed77f9ddd0c"
 depends = "['libpng', 'libstdc++>=7.3.0-4']"
 reverse_depends = "['doxywizard']"
 +++
-Doxygen is the documentation system for C/C++"
+Doxygen is the documentation system for C/C++
 
 {{< files text="show files" >}}* /usr/bin/doxygen
 * /usr/share/doc/doxygen-1.9.7/INSTALL

@@ -13,7 +13,7 @@ usize = "182958"
 sha1sum = "a5f617e0e7dcb747374dcd6db340f2968e0d6cb9"
 depends = "['kconfig>=5.71.0', 'kcoreaddons>=5.71.0']"
 +++
-Screensaver of outer space."
+Screensaver of outer space.
 
 {{< files text="show files" >}}* /usr/bin/ktux
 * /usr/share/applications/ktux/org.kde.ktux.desktop

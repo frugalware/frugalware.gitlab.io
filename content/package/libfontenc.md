@@ -15,7 +15,7 @@ depends = "['zlib>=1.2.12']"
 reverse_depends = "['fonttosfnt', 'libxfont', 'libxfont2', 'luit', 'mkfontscale']"
 license = "GPL2"
 +++
-The fontenc Library"
+The fontenc Library
 
 {{< files text="show files" >}}* /usr/include/X11/fonts/fontenc.h
 * /usr/lib/libfontenc.so

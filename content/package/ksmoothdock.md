@@ -14,7 +14,7 @@ sha1sum = "03d69715fdbb9bf3730d6ccc481125a76c4e48a0"
 depends = "[]"
 license = "2"
 +++
-KSmoothDock is a cool desktop panel (like KDE's kicker) for KDE."
+KSmoothDock is a cool desktop panel (like KDE's kicker) for KDE.
 
 {{< files text="show files" >}}* usr/bin/ksmoothdock
 * usr/share/applnk/Utilities/ksmoothdock.desktop

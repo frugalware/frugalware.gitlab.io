@@ -14,7 +14,7 @@ sha1sum = "e43b751f3ef2ab31f6638dcd3b86e2ff41865ee6"
 depends = "['paramiko', 'pyinotify', 'python3-fastimport', 'python3-gpgme', 'python3-idna', 'python3-openssl', 'python3-urllib3']"
 reverse_depends = "['python3-poetry']"
 +++
-Pure-Python implementation of the Git file formats and protocols"
+Pure-Python implementation of the Git file formats and protocols
 
 {{< files text="show files" >}}* /usr/bin/dul-receive-pack
 * /usr/bin/dul-upload-pack

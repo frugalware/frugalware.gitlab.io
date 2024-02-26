@@ -13,7 +13,7 @@ usize = "35156409"
 sha1sum = "deed9e731f50f8d1a0ef7856dc29066360af8771"
 depends = "['cdrdao>=1.2.3-6', 'cdrtools>=3.01-3', 'dvd+rw-tools>=7.1-4', 'ffmpeg>=5.0', 'kcmutils>=5.115.0', 'kfilemetadata5>=5.115.0', 'knewstuff>=5.115.0', 'knotifyconfig>=5.115.0', 'libdvdread>=6.1.1', 'libkcddb', 'libmad>=0.15.1b-9', 'libmpcdec>=1.2.6-4', 'libsamplerate>=0.1.9', 'qt5-svg>=5.15.12']"
 +++
-The CD Kreator"
+The CD Kreator
 
 {{< files text="show files" >}}* /usr/bin/k3b
 * /usr/include/k3bactivepipe.h

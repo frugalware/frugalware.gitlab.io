@@ -13,7 +13,7 @@ usize = "185565"
 sha1sum = "406fdd95a99a626d266c5b9d87afdf4d34c314ba"
 depends = "['networkmanager']"
 +++
-NetworkManager VPN Plugin: Wireguard without GNOME"
+NetworkManager VPN Plugin: Wireguard without GNOME
 
 {{< files text="show files" >}}* /etc/dbus-1/system.d/nm-wireguard-service.conf
 * /usr/lib/NetworkManager/libnm-vpn-plugin-wireguard.la

@@ -13,7 +13,7 @@ usize = "7837"
 sha1sum = "c39a8960e6d1efe8c2e9f654a8bb863b227ed271"
 depends = "['openjdk']"
 +++
-A testing framework inspired by JUnit and NUnit"
+A testing framework inspired by JUnit and NUnit
 
 {{< files text="show files" >}}* /usr/share/doc/testng-7.7.1/README.md
 * /usr/share/java/testng-7.7.1-SNAPSHOT.jar

@@ -13,7 +13,7 @@ usize = "2179973"
 sha1sum = "a6afb2c96e248b6e629f0187bb13c127637936da"
 depends = "['slang']"
 +++
-slrn (S-Lang read news) is a newsreader"
+slrn (S-Lang read news) is a newsreader
 
 {{< files text="show files" >}}* /usr/bin/slrn
 * /usr/bin/slrnpull

@@ -13,7 +13,7 @@ usize = "467764"
 sha1sum = "009df358dd0afe3778bfac0feb91b38cc480f4db"
 depends = "['bolt', 'kcmutils>=5.115.0']"
 +++
-Plasma integration for controlling Thunderbolt devices"
+Plasma integration for controlling Thunderbolt devices
 
 {{< files text="show files" >}}* /usr/lib/libkbolt.so
 * /usr/lib/qt5/plugins/kf5/kded/kded_bolt.so

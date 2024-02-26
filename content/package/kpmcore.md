@@ -14,7 +14,7 @@ sha1sum = "da5d5d4a1a7d246295d49f6bfcbf37449a78a452"
 depends = "['kauth>=5.115.0', 'ki18n>=>=5.115.0', 'kwidgetsaddons>=5.115.0', 'qca', 'qca-ossl', 'qt5-svg>=5.15.12', 'util-linux']"
 reverse_depends = "['calamares-frugalware', 'partitionmanager']"
 +++
-Library for managing partitions"
+Library for managing partitions
 
 {{< files text="show files" >}}* /usr/include/kpmcore/backend/corebackend.h
 * /usr/include/kpmcore/backend/corebackendmanager.h

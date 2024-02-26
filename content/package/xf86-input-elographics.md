@@ -14,7 +14,7 @@ sha1sum = "d976e74085b6091c8439db220f63cd8d97571900"
 depends = "['xorg-server>=1.20.4-3']"
 license = "GPL2"
 +++
-X.Org driver for elographics input devices"
+X.Org driver for elographics input devices
 
 {{< files text="show files" >}}* /usr/lib/xorg/modules/input/elographics_drv.so
 * /usr/share/doc/xf86-input-elographics-1.4.3/ChangeLog

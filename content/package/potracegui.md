@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = ""
 depends = "['potrace']"
 +++
-Frontend for potrace"
+Frontend for potrace
 
 {{< files text="show files" >}}* usr/bin/potracegui
 * usr/share/applnk/Utilities/potracegui.desktop

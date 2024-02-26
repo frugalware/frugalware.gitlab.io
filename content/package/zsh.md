@@ -13,7 +13,7 @@ usize = "8225550"
 sha1sum = "f72a6d9a57b79b0e284d954aa6ac17fa1e67a42b"
 depends = "['gdbm>=1.15', 'libcap', 'ncurses>=6.1']"
 +++
-Zsh is a shell designed for interactive use"
+Zsh is a shell designed for interactive use
 
 {{< files text="show files" >}}* /etc/zsh/zprofile
 * /usr/bin/zsh

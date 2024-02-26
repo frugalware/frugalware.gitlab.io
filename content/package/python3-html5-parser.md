@@ -14,7 +14,7 @@ sha1sum = "5accb8d8fd21247ac6ee7e241f9aa136d1c34d2a"
 depends = "['libxml2', 'python3>=3.12']"
 reverse_depends = "['python3-mechanize']"
 +++
-Fast C based HTML 5 parsing for python"
+Fast C based HTML 5 parsing for python
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/html5_parser-0.4.12-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/html5_parser-0.4.12-py3.12.egg-info/PKG-INFO

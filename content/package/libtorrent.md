@@ -14,7 +14,7 @@ sha1sum = "c9eb3cf463f03cc4c947c2f23341b1187791402d"
 depends = "['libsigc++2', 'openssl>=3.1.0']"
 reverse_depends = "['rtorrent']"
 +++
-LibTorrent is a BitTorrent library written in C++ for *nix, with a focus on high performance and good code."
+LibTorrent is a BitTorrent library written in C++ for *nix, with a focus on high performance and good code.
 
 {{< files text="show files" >}}* /usr/include/torrent/bitfield.h
 * /usr/include/torrent/chunk_manager.h

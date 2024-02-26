@@ -14,7 +14,7 @@ sha1sum = "2c9807d4c402a825672edb5abfe3381c834d4b97"
 depends = "[]"
 reverse_depends = "['lib32-elfutils', 'lib32-file', 'lib32-libsystemd', 'lib32-libtiff', 'lib32-libunwind', 'lib32-libxml2', 'lib32-rust', 'lib32-zstd']"
 +++
-XZ Utils is free general-purpose data compression software with high compression ratio. ( 32bit )"
+XZ Utils is free general-purpose data compression software with high compression ratio. ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/lzcat
 * /usr/i686-frugalware-linux/bin/lzcmp

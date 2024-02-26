@@ -13,7 +13,7 @@ usize = "9926305"
 sha1sum = "8576b31841076b60c04a57667507ef823f43996b"
 depends = "['c-ares', 'geoip', 'libnl', 'lua51', 'qt5-base>=5.15.10', 'qt5-multimedia>=5.15.10', 'qt5-svg>=5.15.10', 'sbc', 'wireshark>=4.0.10']"
 +++
-The world's most popular network protocol analyzer. (Qt5 frontend)"
+The world's most popular network protocol analyzer. (Qt5 frontend)
 
 {{< files text="show files" >}}* /usr/bin/wireshark
 * /usr/share/applications/org.wireshark.Wireshark.desktop

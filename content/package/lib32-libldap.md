@@ -14,7 +14,7 @@ sha1sum = "8f1ba305ed4ea0c70dfb6091fe4aae46b1d0d96f"
 depends = "['lib32-libtool', 'lib32-openssl>=3.0.7']"
 reverse_depends = "['wine', 'wine-devel']"
 +++
-OpenLDAP library ( 32bit )"
+OpenLDAP library ( 32bit )
 
 {{< files text="show files" >}}* /usr/lib32/liblber.la
 * /usr/lib32/liblber.so

@@ -14,7 +14,7 @@ sha1sum = "74d51148e03e0d2adbc57a776f2c6a568ceda5f6"
 depends = "['lz4', 'lzo', 'xz', 'zlib>=1.2.12', 'zstd']"
 reverse_depends = "['binwalk', 'calamares-frugalware']"
 +++
-A compressed read-only filesystem."
+A compressed read-only filesystem.
 
 {{< files text="show files" >}}* /usr/bin/mksquashfs
 * /usr/bin/sqfscat

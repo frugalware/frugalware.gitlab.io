@@ -14,7 +14,7 @@ sha1sum = "baa991ce13b81aee2f6249f2a5d8f9bd1f6cca52"
 depends = "[]"
 reverse_depends = "['steam-native']"
 +++
-libudev.so.0 compatibility library for systems with newer udev versions ( 32bit )"
+libudev.so.0 compatibility library for systems with newer udev versions ( 32bit )
 
 {{< files text="show files" >}}* /usr/lib32/libudev.so.0
 * /usr/lib32/libudev.so.0.0.9999

@@ -14,7 +14,7 @@ sha1sum = "0ea8d50c74b9ba38c56a351e49e26bb8dea221be"
 depends = "['perl>=5.34.0', 'perl-digest-hmac', 'perl-io-socket-inet6>=2.72-2', 'perl-net-ip']"
 reverse_depends = "['perl-mail-dkim', 'perl-mail-spf', 'perl-net-dns-resolver-programmable', 'spamassassin']"
 +++
-Perl interface to the DNS resolver"
+Perl interface to the DNS resolver
 
 {{< files text="show files" >}}* /usr/lib/perl5/site_perl/Net/DNS.pm
 * /usr/lib/perl5/site_perl/Net/DNS/Domain.pm

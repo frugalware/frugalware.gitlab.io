@@ -13,7 +13,7 @@ usize = "393167"
 sha1sum = "e14b70ad0045badbd0479f5afcecf4003e064855"
 depends = "['python3-sphinx']"
 +++
-Extension to include jQuery on newer Sphinx releases"
+Extension to include jQuery on newer Sphinx releases
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sphinxcontrib/jquery/jquery-3.6.0.js
 * /usr/lib/python3.12/site-packages/sphinxcontrib/jquery/jquery.js

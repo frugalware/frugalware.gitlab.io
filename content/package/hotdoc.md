@@ -13,7 +13,7 @@ usize = "4254191"
 sha1sum = "460d9618e2c2b43fa5773ab9797000606485f1f6"
 depends = "['clang', 'flex', 'json-glib', 'llvm', 'python3-cchardet', 'python3-dbus-deviation', 'python3-lxml', 'python3-lxml', 'python3-networkx', 'python3-pkgconfig', 'python3-schema', 'python3-toposort', 'python3-wheezy', 'python3-xdg', 'pyyaml3']"
 +++
-HotDoc: the tastiest API documentation system"
+HotDoc: the tastiest API documentation system
 
 {{< files text="show files" >}}* /usr/bin/hotdoc
 * /usr/bin/hotdoc_dep_printer

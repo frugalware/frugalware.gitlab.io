@@ -13,7 +13,7 @@ usize = "188016"
 sha1sum = "05b888db2c08aec2f85a2cd38b80d8e1d3cfb0e8"
 depends = "['glibc>=2.34']"
 +++
-libdvdcss is a cross-platform library for transparent DVD device access with on-the-fly CSS decryption."
+libdvdcss is a cross-platform library for transparent DVD device access with on-the-fly CSS decryption.
 
 {{< files text="show files" >}}* /usr/include/dvdcss/dvdcss.h
 * /usr/include/dvdcss/version.h

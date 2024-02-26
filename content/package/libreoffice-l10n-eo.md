@@ -13,7 +13,7 @@ usize = "34043775"
 sha1sum = "74e39f4b5c3a486ed11e3825b47bcfaa20edb391"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Esperanto support in LibreOffice"
+Installs Esperanto support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/help/eo/default.css
 * /usr/lib/libreoffice/help/eo/err.html

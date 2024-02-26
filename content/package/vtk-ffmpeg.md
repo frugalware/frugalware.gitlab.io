@@ -14,7 +14,7 @@ sha1sum = "724a384d2fb9ca2450d98906426e508a071f0f2c"
 depends = "['vtk>=9.3.0']"
 reverse_depends = "['vtk-java-ffmpeg', 'vtk-python3-ffmpeg']"
 +++
-Openmpi interface and bindings for vtk"
+Openmpi interface and bindings for vtk
 
 {{< files text="show files" >}}* /usr/lib/libvtkIOFFMPEG.so
 * /usr/lib/libvtkIOFFMPEG.so.1

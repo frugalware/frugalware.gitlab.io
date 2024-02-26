@@ -13,7 +13,7 @@ usize = "247130"
 sha1sum = "34899bf21b3c8d20ea4c95ef7301af5a65e423e2"
 depends = "['glibc']"
 +++
-userspace device driver that allows joystick events to be remapped."
+userspace device driver that allows joystick events to be remapped.
 
 {{< files text="show files" >}}* /usr/bin/loadmap
 * /usr/bin/reserve_js

@@ -14,7 +14,7 @@ sha1sum = "33d53bd0578e69f56ef9775045aeb1bc0404e311"
 depends = "['wayland>=1.15.0']"
 reverse_depends = "['efl', 'gtk+4', 'kwayland-integration']"
 +++
-Wayland protocols that adds functionality not available in the core protocol."
+Wayland protocols that adds functionality not available in the core protocol.
 
 {{< files text="show files" >}}* /usr/lib/pkgconfig/wayland-protocols.pc
 * /usr/share/doc/wayland-protocols-1.32/COPYING

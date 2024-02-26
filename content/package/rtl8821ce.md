@@ -13,7 +13,7 @@ usize = "4819455"
 sha1sum = "71d947abe2a6c32eef839d56be67e2b8b30608fb"
 depends = "['kernel=6.7.6-1']"
 +++
-rtl8821CE driver with firmware"
+rtl8821CE driver with firmware
 
 {{< files text="show files" >}}* /usr/lib/modules/6.7.6-fw1/updates/drivers/net/wireless/8821ce.ko
 * /usr/share/doc/rtl8821ce-1.0.4.r76.g7c4f827/COPYING

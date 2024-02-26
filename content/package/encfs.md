@@ -14,7 +14,7 @@ sha1sum = "4e8c9511c06752636f6be2bb14b44efc0c8e2505"
 depends = "['fuse>=2.9.7', 'libboost>=1.78.0', 'openssl>=3.1.0']"
 reverse_depends = "['plasma-vault']"
 +++
-EncFS provides an encrypted filesystem in user-space."
+EncFS provides an encrypted filesystem in user-space.
 
 {{< files text="show files" >}}* /usr/bin/encfs
 * /usr/bin/encfsctl

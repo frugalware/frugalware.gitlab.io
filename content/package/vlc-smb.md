@@ -13,7 +13,7 @@ usize = "14024"
 sha1sum = "9221d0eee502167d8666fc84ba0051839e56f7aa"
 depends = "['libsmbclient', 'libvlc>=3.0.20']"
 +++
-vlc plugin for Samba"
+vlc plugin for Samba
 
 {{< files text="show files" >}}* /usr/lib/vlc/plugins/access/libsmb_plugin.so
 {{< /files >}}

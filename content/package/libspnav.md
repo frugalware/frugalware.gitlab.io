@@ -14,7 +14,7 @@ sha1sum = "eef13685ffe996f5f83106e942e343d2b0eacdc8"
 depends = "['libx11']"
 reverse_depends = "['blender']"
 +++
-Alternative to the proprietary 3Dconnexion device driver and SDK for their 3D input devices"
+Alternative to the proprietary 3Dconnexion device driver and SDK for their 3D input devices
 
 {{< files text="show files" >}}* /usr/include/spnav.h
 * /usr/include/spnav_config.h

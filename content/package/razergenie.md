@@ -13,7 +13,7 @@ usize = "496435"
 sha1sum = "fc1c30ec95171f425f83ebd8ac0570da8f278b13"
 depends = "['libopenrazer']"
 +++
-Qt application for configuring your Razer devices under GNU/Linux."
+Qt application for configuring your Razer devices under GNU/Linux.
 
 {{< files text="show files" >}}* /usr/bin/razergenie
 * /usr/share/applications/xyz.z3ntu.razergenie.desktop

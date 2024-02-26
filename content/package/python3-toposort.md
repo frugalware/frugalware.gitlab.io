@@ -14,7 +14,7 @@ sha1sum = "a167ce5f3e0a430316bb230298ab5f93e4ee7d3e"
 depends = "['python3>=3.11']"
 reverse_depends = "['hotdoc']"
 +++
-Implements a topological sort algorithm"
+Implements a topological sort algorithm
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/toposort-1.10.dist-info/LICENSE.txt
 * /usr/lib/python3.12/site-packages/toposort-1.10.dist-info/METADATA

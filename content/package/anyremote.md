@@ -13,7 +13,7 @@ usize = "3623980"
 sha1sum = "bfff4f4544d24ce9dd29885b4500d5e1b5121c00"
 depends = "['avahi', 'bluez', 'dbus-glib', 'libxtst']"
 +++
-Allows controlling your computer with your phone"
+Allows controlling your computer with your phone
 
 {{< files text="show files" >}}* /usr/bin/anyremote
 * /usr/share/anyremote/cfg-data/AT-mode/all-in-one.cfg

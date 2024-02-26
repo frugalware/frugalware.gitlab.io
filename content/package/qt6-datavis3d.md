@@ -13,7 +13,7 @@ usize = "3201755"
 sha1sum = "0a3734fc97255c523dc67733af9dae2c1ef37cbf"
 depends = "['qt6-declarative']"
 +++
-The Qt6 toolkit, qtdatavis3d"
+The Qt6 toolkit, qtdatavis3d
 
 {{< files text="show files" >}}* /usr/include/qt6/QtDataVisualization/6.6.2/QtDataVisualization/private/abstract3dcontroller_p.h
 * /usr/include/qt6/QtDataVisualization/6.6.2/QtDataVisualization/private/abstract3drenderer_p.h

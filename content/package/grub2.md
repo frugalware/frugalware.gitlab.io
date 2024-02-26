@@ -14,7 +14,7 @@ sha1sum = "93abe0f45c97dd619427da605f068ae155e34fac"
 depends = "['efibootmgr', 'grub-theme-frugalware', 'scriptlet-core']"
 reverse_depends = "['breeze-grub']"
 +++
-The GNU GRand Unified Bootloader"
+The GNU GRand Unified Bootloader
 
 {{< files text="show files" >}}* /etc/bash_completion.d/grub
 * /etc/default/grub

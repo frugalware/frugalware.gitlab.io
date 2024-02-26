@@ -14,7 +14,7 @@ sha1sum = "920c62dbae2aa2e5af2861e3d6f5f7238e7701d1"
 depends = "[]"
 reverse_depends = "['lib32-libpulse']"
 +++
-The Oil Runtime Compiler ( 32bit )"
+The Oil Runtime Compiler ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/orc-bugreport
 * /usr/i686-frugalware-linux/bin/orcc

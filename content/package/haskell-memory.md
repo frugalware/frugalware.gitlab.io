@@ -14,7 +14,7 @@ sha1sum = "1e478352b6d924b42b34764eb57b936526919c95"
 depends = "['haskell-basement>=0.0.16']"
 reverse_depends = "['haskell-asn1-types', 'haskell-crypton', 'haskell-cryptonite', 'haskell-pem']"
 +++
-memory and related abstraction stuff"
+memory and related abstraction stuff
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/memory-0.18.0/Data/ByteArray.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/memory-0.18.0/Data/ByteArray.hi

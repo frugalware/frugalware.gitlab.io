@@ -14,7 +14,7 @@ sha1sum = "da34318aa24f558c2b7e6daee74beaf2b7b73409"
 depends = "['ykclient']"
 reverse_depends = "['dracut-ykfde', 'yubikey-personalization-gui']"
 +++
-Yubico YubiKey C client"
+Yubico YubiKey C client
 
 {{< files text="show files" >}}* /usr/bin/ykchalresp
 * /usr/bin/ykinfo

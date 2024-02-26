@@ -14,7 +14,7 @@ sha1sum = "3e89aea720ef7f00534e533342d0ad8abbbe114b"
 depends = "['libxxf86vm>=1.1.4-2']"
 reverse_depends = "['nvidia']"
 +++
-nVidia settings configuration tool."
+nVidia settings configuration tool.
 
 {{< files text="show files" >}}* /usr/bin/nvidia-settings
 * /usr/include/NVCtrl/NVCtrl.h

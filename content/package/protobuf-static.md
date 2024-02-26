@@ -13,7 +13,7 @@ usize = "24842"
 sha1sum = "0173d97da2f5fbcbaac0751fab2b0e13324bd8b1"
 depends = "[]"
 +++
-Static files for protobuf"
+Static files for protobuf
 
 {{< files text="show files" >}}* /usr/lib/libutf8_range.a
 * /usr/lib/libutf8_validity.a

@@ -14,7 +14,7 @@ sha1sum = "76bd340128c696db33978f4e3eeaf82f1821ad6c"
 depends = "[]"
 reverse_depends = "['lib32-faudio', 'lib32-ffmpeg', 'lib32-openal', 'lib32-sdl2_image', 'lib32-sdl2_mixer', 'lib32-v4l-utils']"
 +++
-Simple DirectMedia Layer library v2 ( 32bit )"
+Simple DirectMedia Layer library v2 ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/sdl2-config
 * /usr/i686-frugalware-linux/include/SDL2/begin_code.h

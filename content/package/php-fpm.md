@@ -13,7 +13,7 @@ usize = "21064946"
 sha1sum = "3038cdfbc594567ec995494ad5c06d899541398a"
 depends = "['php=8.3.3', 'systemd']"
 +++
-FastCGI Process Manager for PHP."
+FastCGI Process Manager for PHP.
 
 {{< files text="show files" >}}* /etc/php-fpm.d/www.conf.default
 * /etc/php/php-fpm.conf

@@ -13,7 +13,7 @@ usize = "34178"
 sha1sum = "254f7324f1ac6dd669c738506da600e7550c07d2"
 depends = "['perl>=5.34.0']"
 +++
-Declare version conflicts for your dist"
+Declare version conflicts for your dist
 
 {{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/Dist/CheckConflicts.pm
 * /usr/share/doc/perl-dist-checkconflicts-0.11/LICENSE

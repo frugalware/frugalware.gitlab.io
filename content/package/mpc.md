@@ -13,7 +13,7 @@ usize = "142913"
 sha1sum = "932b299bf1417fd839a11a024d7fc4198362b6a6"
 depends = "['libmpdclient']"
 +++
-A command line tool to interface MPD."
+A command line tool to interface MPD.
 
 {{< files text="show files" >}}* /usr/bin/mpc
 * /usr/share/doc/mpc-0.34/AUTHORS

@@ -14,7 +14,7 @@ sha1sum = "47d479c85024766d8912707c3b3ab6947d1594e4"
 depends = "['kparts>=5.115.0']"
 reverse_depends = "['akregator', 'kaddressbook', 'kdepim-addons', 'kmail', 'knotes', 'kontact', 'korganizer', 'zanshin']"
 +++
-KParts Kontact interface."
+KParts Kontact interface.
 
 {{< files text="show files" >}}* /usr/include/KPim5/KontactInterface/KontactInterface/Core
 * /usr/include/KPim5/KontactInterface/kontactinterface/core.h

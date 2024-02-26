@@ -13,7 +13,7 @@ usize = "11008721"
 sha1sum = "b187e92a970d038c4ef3314443d219c72919e17c"
 depends = "['glibc']"
 +++
-Language specific files for tesseract lang ron"
+Language specific files for tesseract lang ron
 
 {{< files text="show files" >}}* /usr/share/tessdata/ron.traineddata
 {{< /files >}}

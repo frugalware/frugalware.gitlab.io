@@ -13,7 +13,7 @@ usize = "381244541"
 sha1sum = "12d981b72c023dcc675f1a930f7e13cff4aeaf3c"
 depends = "['libstdc++>=13.2.0']"
 +++
-Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)"
+Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/amdgpu-arch
 * /usr/i686-frugalware-linux/bin/bugpoint

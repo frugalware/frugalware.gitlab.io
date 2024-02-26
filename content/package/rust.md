@@ -14,7 +14,7 @@ sha1sum = "197106ddb19339bf303623bb3b77b1d95300dd9e"
 depends = "['curl', 'libffi', 'llvm-libs>=17.0.6', 'zlib>=1.2.12']"
 reverse_depends = "['corrosion', 'lib32-rust', 'python3-maturin', 'python3-setuptools-rust', 'rust-wasm']"
 +++
-Programming language focused on safety, speed and concurrency"
+Programming language focused on safety, speed and concurrency
 
 {{< files text="show files" >}}* /etc/bash_completion.d/cargo
 * /usr/bin/cargo

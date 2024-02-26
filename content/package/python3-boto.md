@@ -14,7 +14,7 @@ sha1sum = "1c9dda80e2aad256351f239821112a12b33ed88f"
 depends = "['python3']"
 reverse_depends = "['duplicity']"
 +++
-Python interface to Amazon Web Services"
+Python interface to Amazon Web Services
 
 {{< files text="show files" >}}* /usr/bin/asadmin
 * /usr/bin/bundle_image

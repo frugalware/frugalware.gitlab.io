@@ -14,7 +14,7 @@ sha1sum = "81dfc502a3ee7ba25efbe311599230d969f9ecd4"
 depends = "['haskell-auto-update', 'haskell-easy-file', 'haskell-unix-compat', 'haskell-unix-time']"
 reverse_depends = "['haskell-wai-logger']"
 +++
-A fast logging system"
+A fast logging system
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/fast-logger-3.2.2/libHSfast-logger-3.2.2-CJKeGRjCjd49K4jrVv9ixr.a
 * /usr/lib/ghc-9.8.1/site-local/fast-logger-3.2.2/System/Log/FastLogger.dyn_hi

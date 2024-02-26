@@ -13,7 +13,7 @@ usize = "16565587"
 sha1sum = "a9628e05caf3f6cbf22a78b34dbb0e1117193bac"
 depends = "['python3>=3.11']"
 +++
-A Python-centric SQL toolset, database resource manager and object-relational mapper."
+A Python-centric SQL toolset, database resource manager and object-relational mapper.
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/SQLAlchemy-2.0.23-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/SQLAlchemy-2.0.23-py3.12.egg-info/PKG-INFO

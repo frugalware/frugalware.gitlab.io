@@ -13,7 +13,7 @@ usize = "9440920"
 sha1sum = "10ab69f5d44fe77da071c428f23bb66b8d159d81"
 depends = "[]"
 +++
-Khmer Localization for KDE."
+Khmer Localization for KDE.
 
 {{< files text="show files" >}}* usr/share/locale/km/charset
 * usr/share/locale/km/entry.desktop

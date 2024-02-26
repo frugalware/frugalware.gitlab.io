@@ -13,7 +13,7 @@ usize = "766784"
 sha1sum = "50f8029928484320f651ce64a12750e19166a3a2"
 depends = "['glibc>=2.34']"
 +++
-Check is a unit test framework for C."
+Check is a unit test framework for C.
 
 {{< files text="show files" >}}* /usr/bin/checkmk
 * /usr/include/check.h

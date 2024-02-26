@@ -14,7 +14,7 @@ sha1sum = "10e159ac34e788cf44bdaaaf9cfc315726c55c07"
 depends = "['ladspa_sdk', 'liblo>=0.26', 'libsamplerate', 'libstdc++>=11.3', 'libuuid']"
 reverse_depends = "['calf', 'qtractor']"
 +++
-DSSI is an API for audio processing plugins."
+DSSI is an API for audio processing plugins.
 
 {{< files text="show files" >}}* /usr/bin/dssi_analyse_plugin
 * /usr/bin/dssi_list_plugins

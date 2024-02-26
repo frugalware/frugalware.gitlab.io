@@ -14,7 +14,7 @@ sha1sum = "987b70146ed71af997615e417204932d4962a07d"
 depends = "['python3']"
 reverse_depends = "['python3-jaraco.classes']"
 +++
-More routines for operating on iterables, beyond itertools"
+More routines for operating on iterables, beyond itertools
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/more_itertools-10.1.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/more_itertools-10.1.0.dist-info/METADATA

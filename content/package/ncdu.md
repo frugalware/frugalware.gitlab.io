@@ -13,7 +13,7 @@ usize = "92262"
 sha1sum = "193fdbcdf9c771c4c6163d857af104c97672ae5f"
 depends = "['ncurses>=6.0-9']"
 +++
-Tool which shows space used by folder in Ncurses"
+Tool which shows space used by folder in Ncurses
 
 {{< files text="show files" >}}* /usr/bin/ncdu
 * /usr/share/doc/ncdu-1.14.1/ChangeLog

@@ -14,7 +14,7 @@ sha1sum = "e815ae33c403494f9b17f052e0ea8d4999f43cb3"
 depends = "['audiofile', 'dbus-x11', 'gtk+2', 'libao', 'libpurple', 'libsm', 'libxscrnsaver', 'startup-notification']"
 reverse_depends = "['pidgin-otr']"
 +++
-A multi-protocol instant messaging (IM) client"
+A multi-protocol instant messaging (IM) client
 
 {{< files text="show files" >}}* /usr/bin/pidgin
 * /usr/bin/purple-client-example

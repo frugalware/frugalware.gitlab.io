@@ -13,7 +13,7 @@ usize = "1957923"
 sha1sum = "c07fc7430db5a03a3eb87a0cf110f552c36d17da"
 depends = "['kontactinterface>=23.08.5', 'mailcommon>=23.08.5']"
 +++
-Personal Information Manager"
+Personal Information Manager
 
 {{< files text="show files" >}}* /usr/bin/kontact
 * /usr/lib/libkontactprivate.so.5

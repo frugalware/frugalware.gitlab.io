@@ -14,7 +14,7 @@ sha1sum = "cc1d02bda9f55070aff928edfd8ce96e53765059"
 depends = "['glibc>=2.35']"
 reverse_depends = "['courier-imap', 'courier-maildrop', 'dirmngr', 'dirmngr-ldap', 'eiskaltdc', 'elinks', 'gloox', 'gmime3', 'gnunet', 'kopete', 'libgadu', 'libgs', 'libgsasl', 'libpurple', 'libsystemd', 'libvlc', 'libvncserver', 'lynx', 'mutt-devel', 'php', 'podofo', 'podofo-0.9', 'whois']"
 +++
-GNU Libidn is an implementation of the Stringprep,Punycode and IDNA specification."
+GNU Libidn is an implementation of the Stringprep,Punycode and IDNA specification.
 
 {{< files text="show files" >}}* /usr/bin/idn
 * /usr/include/idn-free.h

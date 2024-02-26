@@ -13,7 +13,7 @@ usize = "304039"
 sha1sum = "6630be0106d3a8ad796046fda4db3258f3515525"
 depends = "['sgml-common']"
 +++
-Docbook SGML DTD 4.1"
+Docbook SGML DTD 4.1
 
 {{< files text="show files" >}}* /usr/share/doc/docbook-sgml-dtd-4.1-4.1/ChangeLog
 * /usr/share/sgml/docbook/sgml-dtd-4.1/cals-tbl.dtd

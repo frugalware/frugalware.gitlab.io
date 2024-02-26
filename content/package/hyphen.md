@@ -14,7 +14,7 @@ sha1sum = "b1f8b54a583f1152df52e401d68f2a007f3b535b"
 depends = "['glibc>=2.34']"
 reverse_depends = "['calibre', 'enlightenment', 'libreoffice', 'scribus', 'terminology', 'webkit-gtk3']"
 +++
-A text hyphenation library"
+A text hyphenation library
 
 {{< files text="show files" >}}* /usr/bin/substrings.pl
 * /usr/include/hyphen.h

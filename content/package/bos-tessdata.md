@@ -13,7 +13,7 @@ usize = "7930530"
 sha1sum = "e7f19062f87f00aba4297143a5ebb7834a99509d"
 depends = "['glibc']"
 +++
-Language specific files for tesseract lang bos"
+Language specific files for tesseract lang bos
 
 {{< files text="show files" >}}* /usr/share/tessdata/bos.traineddata
 {{< /files >}}

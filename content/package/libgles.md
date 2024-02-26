@@ -13,7 +13,7 @@ usize = "756018"
 sha1sum = "677433d4fd62e4277a7f1b3bf5bf28139eeff248"
 depends = "['glibc>=2.24-4', 'libglapi']"
 +++
-Mesa OpenGL ES1/ES2 libraries."
+Mesa OpenGL ES1/ES2 libraries.
 
 {{< files text="show files" >}}* /usr/include/GLES/egl.h
 * /usr/include/GLES/gl.h

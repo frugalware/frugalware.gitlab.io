@@ -13,7 +13,7 @@ usize = "4965024"
 sha1sum = "6381314f84e91c94fc35e47e1e16c16cfc5c852c"
 depends = "['python3>=3.8.3', 'python3-sqlite3']"
 +++
-Graphical Emulators Manager - gui to manage emulators and roms"
+Graphical Emulators Manager - gui to manage emulators and roms
 
 {{< files text="show files" >}}* /usr/bin/gem-ui
 * /usr/bin/geode-gem

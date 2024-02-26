@@ -13,7 +13,7 @@ usize = "2303968"
 sha1sum = "e063293396c190ce36d2dc88204af5eb7d2632a4"
 depends = "['pcre']"
 +++
-Privoxy is a web proxy with advanced filtering capabilities."
+Privoxy is a web proxy with advanced filtering capabilities.
 
 {{< files text="show files" >}}* /etc/privoxy/config
 * /etc/privoxy/default.action

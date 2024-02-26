@@ -13,7 +13,7 @@ usize = "59312"
 sha1sum = "dc9ebe4b72ea412750a0dd3e815cc2ff1fbac8a3"
 depends = "['gst1-plugins-base>=1.22.10', 'gst1-plugins-good>=1.22.10', 'libffi>=3.2.1-2']"
 +++
-GStreamer videobox plugin (Good)."
+GStreamer videobox plugin (Good).
 
 {{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstvideobox.so
 {{< /files >}}

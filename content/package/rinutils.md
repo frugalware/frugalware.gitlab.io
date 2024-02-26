@@ -14,7 +14,7 @@ sha1sum = "01e371205e2161fefaf8620a3c98e48006b7c23c"
 depends = "['glibc>=2.34']"
 reverse_depends = "['freecell-solver']"
 +++
-C11 / gnu11 utilities C library"
+C11 / gnu11 utilities C library
 
 {{< files text="show files" >}}* /usr/include/rinutils/alloc_wrap.h
 * /usr/include/rinutils/bit_rw.h

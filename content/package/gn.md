@@ -13,7 +13,7 @@ usize = "2202711"
 sha1sum = "28ce725d0f359755cbf236c5b7b71cbac1b35770"
 depends = "['libgcc']"
 +++
-Meta-build system that generates build files for Ninja"
+Meta-build system that generates build files for Ninja
 
 {{< files text="show files" >}}* /usr/bin/gn
 * /usr/share/doc/gn-20230918.g991530c/AUTHORS

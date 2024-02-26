@@ -14,7 +14,7 @@ sha1sum = "1eaf7fc877f0f6348b0a9a6c28902f980fb6df00"
 depends = "['cyrus-sasl', 'kcoreaddons>=5.115.0', 'kio>=5.115.0', 'kmime>=23.08.5', 'pcre2']"
 reverse_depends = "['kmailtransport']"
 +++
-Job-based library to send email through an SMTP server."
+Job-based library to send email through an SMTP server.
 
 {{< files text="show files" >}}* /usr/include/KPim5/KSMTP/KSMTP/Job
 * /usr/include/KPim5/KSMTP/ksmtp/job.h

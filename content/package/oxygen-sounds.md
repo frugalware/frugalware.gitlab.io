@@ -14,7 +14,7 @@ sha1sum = "33dd52af2a888f009d0d40b3d9b8437e06b77866"
 depends = "[]"
 reverse_depends = "['kwrited5']"
 +++
-The Oxygen Sound Theme"
+The Oxygen Sound Theme
 
 {{< files text="show files" >}}* /usr/share/sounds/Oxygen-Im-Cant-Connect.ogg
 * /usr/share/sounds/Oxygen-Im-Connection-Lost.ogg

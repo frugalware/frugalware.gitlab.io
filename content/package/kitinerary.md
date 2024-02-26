@@ -14,7 +14,7 @@ sha1sum = "939923f0a5961c4c654d62f4181ba44e0eb6f84a"
 depends = "['kcalendarcore>=5.115.0', 'kcontacts>=5.115.0', 'ki18n>=5.115.0', 'kmime>=5.115.0', 'kpkpass>=23.08.5', 'poppler>=24.02.0', 'zxing-cpp']"
 reverse_depends = "['itinerary', 'kdepim-addons']"
 +++
-Data model and extraction system for travel reservation information"
+Data model and extraction system for travel reservation information
 
 {{< files text="show files" >}}* /usr/include/KPim5/KItinerary/AbstractExtractor
 * /usr/include/KPim5/kitinerary/abstractextractor.h

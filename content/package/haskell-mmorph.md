@@ -14,7 +14,7 @@ sha1sum = "1d3a66a15dba8a426005a738877e8dbdf09247e1"
 depends = "['haskell-transformers-compat']"
 reverse_depends = "['haskell-servant']"
 +++
-Monad morphisms"
+Monad morphisms
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/mmorph-1.2.0/Control/Monad/Morph.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/mmorph-1.2.0/Control/Monad/Morph.hi

@@ -14,7 +14,7 @@ sha1sum = "11d268738d5a66d403656ee6ce60328d26429419"
 depends = "['python3-crashtest', 'python3-rapidfuzz', 'python3-typing_extensions']"
 reverse_depends = "['python3-poetry']"
 +++
-create beautiful and testable command-line interfaces"
+create beautiful and testable command-line interfaces
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/cleo-2.1.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/cleo-2.1.0.dist-info/METADATA

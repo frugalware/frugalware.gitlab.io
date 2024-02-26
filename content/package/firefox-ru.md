@@ -14,7 +14,7 @@ sha1sum = "d3ebc1986ed23102c29a8d53d1ff2d2a95246954"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Russian language support for Firefox"
+Russian language support for Firefox
 
 {{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-ru@firefox.mozilla.org.xpi
 {{< /files >}}

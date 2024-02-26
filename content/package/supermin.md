@@ -13,7 +13,7 @@ usize = "2460026"
 sha1sum = "2d4288ad3a8b24cdabf646db93afeb711390c229"
 depends = "['cpio', 'ocaml-findlib>=1.4.1']"
 +++
-supermin, tool for creating supermin appliances"
+supermin, tool for creating supermin appliances
 
 {{< files text="show files" >}}* /usr/bin/supermin
 * /usr/share/doc/supermin-5.2.2/AUTHORS

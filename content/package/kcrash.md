@@ -14,7 +14,7 @@ sha1sum = "4898577debb5812ae81e12a34b6988be3e5acdfa"
 depends = "['kcoreaddons>=5.115.0', 'kwindowsystem>=5.115.0']"
 reverse_depends = "['audiotube', 'dolphin', 'kopete', 'krita', 'kservice', 'polkit-kde-agent-1', 'sweeper', 'telly-skout']"
 +++
-Gracefull handling of application crashes."
+Gracefull handling of application crashes.
 
 {{< files text="show files" >}}* /usr/include/KF5/KCrash/KCrash
 * /usr/include/KF5/KCrash/kcrash.h

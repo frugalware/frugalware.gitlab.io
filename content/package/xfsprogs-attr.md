@@ -14,7 +14,7 @@ sha1sum = "9013982190bafb9b2ca3a8fba6e2bde25b4c7116"
 depends = "['glibc>=2.35']"
 reverse_depends = "['cdrtools', 'coreutils', 'kdebase-runtime-kstyles', 'ksubeditor', 'ksubtile', 'libcap', 'lighttpd', 'ntfs-3g', 'patch', 'xfsprogs-acl']"
 +++
-Dynamic library for extended attribute support."
+Dynamic library for extended attribute support.
 
 {{< files text="show files" >}}* /etc/xattr.conf
 * /usr/bin/attr

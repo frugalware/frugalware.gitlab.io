@@ -14,7 +14,7 @@ sha1sum = "9b29c24b037570bbe725c33b696c5110f79dd2a1"
 depends = "['perl>=5.34.0', 'perl>=5.28.2']"
 reverse_depends = "['perl-net-dns']"
 +++
-Perl extension for manipulating IPv4/IPv6 addresses"
+Perl extension for manipulating IPv4/IPv6 addresses
 
 {{< files text="show files" >}}* /usr/bin/ipcount
 * /usr/bin/iptab

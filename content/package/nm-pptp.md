@@ -13,7 +13,7 @@ usize = "520145"
 sha1sum = "9d59642bbfe91339db93d55f66696b88e1c61f3a"
 depends = "['libsecret', 'nm-connection-editor', 'nm-pptp-minimal']"
 +++
-network management framework (PPTP plugin)"
+network management framework (PPTP plugin)
 
 {{< files text="show files" >}}* /usr/lib/NetworkManager/libnm-vpn-plugin-pptp-editor.so
 * /usr/lib/NetworkManager/libnm-vpn-plugin-pptp.so

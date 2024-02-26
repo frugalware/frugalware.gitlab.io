@@ -14,7 +14,7 @@ sha1sum = "0444046b5bc1338cc44b1363400aa7460f10fc04"
 depends = "['ghc>=9.8.1']"
 reverse_depends = "['haskell-aeson', 'haskell-data-default-instances-dlist', 'haskell-glob']"
 +++
-Haskell differences lists."
+Haskell differences lists.
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/dlist-1.0/Data/DList.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/dlist-1.0/Data/DList.hi

@@ -14,7 +14,7 @@ sha1sum = "8e054491af2322ca681c272dc7656c3e87551216"
 depends = "['alsa-lib', 'libpulse']"
 reverse_depends = "['espeak-ng']"
 +++
-Portable C Audio Library"
+Portable C Audio Library
 
 {{< files text="show files" >}}* /usr/include/pcaudiolib/audio.h
 * /usr/lib/libpcaudio.so

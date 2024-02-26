@@ -14,7 +14,7 @@ sha1sum = "bafcc3cfb301e59e92ad8b034bfb92437fbeb644"
 depends = "[]"
 reverse_depends = "['lib32-ffmpeg']"
 +++
-WebM VP8 VP9 Codec SDK ( 32bit )"
+WebM VP8 VP9 Codec SDK ( 32bit )
 
 {{< files text="show files" >}}* /usr/lib32/libvpx.so
 * /usr/lib32/libvpx.so.9

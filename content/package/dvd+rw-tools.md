@@ -14,7 +14,7 @@ sha1sum = "9e23ebb668b22719af2f32b433a922266d38bf04"
 depends = "['libstdc++>=9.1.0-3']"
 reverse_depends = "['k3b', 'xcfa']"
 +++
-A collection of tools to master DVD+RW/+R/-R/-RW media"
+A collection of tools to master DVD+RW/+R/-R/-RW media
 
 {{< files text="show files" >}}* /usr/bin/dvd+rw-booktype
 * /usr/bin/dvd+rw-format

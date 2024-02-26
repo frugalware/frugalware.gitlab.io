@@ -13,7 +13,7 @@ usize = "11198822"
 sha1sum = "82002da501ee8de7765e60db8b15cacab29d4ef4"
 depends = "['curl', 'libarchive', 'libbs2b', 'libcdio-paranoia', 'libmad', 'libmms', 'libmpg123', 'qt6-multimedia', 'taglib>=2.0', 'wavpack']"
 +++
-A music player written in Qt that supports Winamp skins."
+A music player written in Qt that supports Winamp skins.
 
 {{< files text="show files" >}}* /usr/bin/qmmp
 * /usr/include/qmmp/abstractengine.h

@@ -2,7 +2,7 @@
 draft = false
 title = "haskell-regex-compat 0.95.2.1-3"
 version = "0.95.2.1-3"
-description = "Replaces/enhances "Text.Regex""
+description = "Replaces/enhances \"Text.Regex\""
 date = "2023-12-13T14:49:52"
 aliases = "/packages/221047"
 categories = ['devel-extra']
@@ -13,7 +13,7 @@ usize = "197665"
 sha1sum = "f162133799bead220117d47e4c5373158958b2de"
 depends = "['haskell-regex-posix']"
 +++
-Replaces/enhances "Text.Regex""
+Replaces/enhances \"Text.Regex\"
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/regex-compat-0.95.2.1/libHSregex-compat-0.95.2.1-8QZKHwuGO5nGs18tefpb9A.a
 * /usr/lib/ghc-9.8.1/site-local/regex-compat-0.95.2.1/Text/Regex.dyn_hi

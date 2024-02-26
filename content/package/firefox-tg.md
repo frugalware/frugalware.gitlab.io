@@ -14,7 +14,7 @@ sha1sum = "1fe10f6c3d2d687135d9dc29aeb3978cde8bc9f7"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Tajik language support for Firefox"
+Tajik language support for Firefox
 
 {{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-tg@firefox.mozilla.org.xpi
 {{< /files >}}

@@ -13,7 +13,7 @@ usize = "516412"
 sha1sum = "f7eeb08903a34ad3fedfd4823f30337342ac2e24"
 depends = "['diffutils']"
 +++
-Revision Control System"
+Revision Control System
 
 {{< files text="show files" >}}* /usr/bin/ci
 * /usr/bin/co

@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "f06cbe06386120420ec4fc05c216519631edea59"
 depends = "[]"
 +++
-An HTTP protocol implementation together with clients and servers."
+An HTTP protocol implementation together with clients and servers.
 
 {{< files text="show files" >}}* usr/bin/websetroot
 * usr/lib/python2.4/site-packages/twisted/plugins/twisted_web.py

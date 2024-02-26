@@ -14,7 +14,7 @@ sha1sum = "51453431c2e3b2dfa11d7b7ad6c85a2949a49500"
 depends = "['haskell-crypton-x509-system', 'haskell-socks', 'haskell-tls']"
 reverse_depends = "['haskell-http-client-tls']"
 +++
-Simple and easy network connections API"
+Simple and easy network connections API
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/crypton-connection-0.3.1/libHScrypton-connection-0.3.1-GTuRqX20Nlz3yEkAVTcFSO.a
 * /usr/lib/ghc-9.8.1/site-local/crypton-connection-0.3.1/Network/Connection.dyn_hi

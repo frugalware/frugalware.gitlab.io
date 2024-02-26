@@ -14,7 +14,7 @@ sha1sum = "869a41851fe97eeb2194fcdf6ea8dcb86da8841b"
 depends = "['blosc', 'intel-tbb', 'jemalloc', 'libboost>=1.83.0']"
 reverse_depends = "['blender', 'openimageio', 'vtk']"
 +++
-A large suite of tools for the efficient storage and manipulation 	of sparse volumetric data discretized on three-dimensional grids"
+A large suite of tools for the efficient storage and manipulation 	of sparse volumetric data discretized on three-dimensional grids
 
 {{< files text="show files" >}}* /usr/bin/vdb_print
 * /usr/include/openvdb/Exceptions.h

@@ -14,7 +14,7 @@ sha1sum = "95ac18f8ecba5bcc69b2ed9ddd9839be75458153"
 depends = "['haskell-data-default-class>=0.1.2.0-7', 'haskell-old-locale>=1.0.0.7-8']"
 reverse_depends = "['haskell-data-default']"
 +++
-Default instances for types in old-locale."
+Default instances for types in old-locale.
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/data-default-instances-old-locale-0.0.1/Data/Default/Instances/OldLocale.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/data-default-instances-old-locale-0.0.1/Data/Default/Instances/OldLocale.hi

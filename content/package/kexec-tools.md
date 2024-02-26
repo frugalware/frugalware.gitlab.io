@@ -13,7 +13,7 @@ usize = "319938"
 sha1sum = "208af37ff379f0fb1688ba8bc3d080ffaac69e53"
 depends = "['zlib>=1.2.12']"
 +++
-Loads a kernel in memory and reboot into it using the kexec system call."
+Loads a kernel in memory and reboot into it using the kexec system call.
 
 {{< files text="show files" >}}* /usr/bin/kexec
 * /usr/bin/vmcore-dmesg

@@ -13,7 +13,7 @@ usize = "1726568"
 sha1sum = "4b5f37f9750433bd9d9befe52b446631b514db5b"
 depends = "['glibc']"
 +++
-level-zero devel"
+level-zero devel
 
 {{< files text="show files" >}}* /usr/include/level_zero/layers/zel_tracing_api.h
 * /usr/include/level_zero/layers/zel_tracing_ddi.h

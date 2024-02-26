@@ -14,7 +14,7 @@ sha1sum = "3cb6bc539c32d2213c5ff73ca160ee9a46ec23b9"
 depends = "[]"
 reverse_depends = "['fuse', 'fuse3']"
 +++
-Common files for fuse2 and fuse3 package"
+Common files for fuse2 and fuse3 package
 
 {{< files text="show files" >}}* /etc/fuse.conf
 * /usr/lib/udev/rules.d/99-fuse3.rules

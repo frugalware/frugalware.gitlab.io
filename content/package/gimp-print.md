@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "d12736f870d2bf651cd898c1d2374bcf6cce47eb"
 depends = "['cups', 'readline']"
 +++
-IJS printer driver for Ghostscript and CUPS"
+IJS printer driver for Ghostscript and CUPS
 
 {{< files text="show files" >}}* etc/cups/command.types
 * usr/bin/cups-calibrate

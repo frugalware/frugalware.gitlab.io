@@ -2,7 +2,7 @@
 draft = false
 title = "haskell-only 0.1-3"
 version = "0.1-3"
-description = "The 1-tuple type or single-value "collection""
+description = "The 1-tuple type or single-value \"collection\""
 date = "2023-12-13T14:55:17"
 aliases = "/packages/221048"
 categories = ['devel-extra']
@@ -14,7 +14,7 @@ sha1sum = "70490dd0a449dbb580d5372bd146af90a5716386"
 depends = "['ghc>=9.6.2']"
 reverse_depends = "['haskell-cassava']"
 +++
-The 1-tuple type or single-value "collection""
+The 1-tuple type or single-value \"collection\"
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/Only-0.1/Data/Tuple/Only.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/Only-0.1/Data/Tuple/Only.hi

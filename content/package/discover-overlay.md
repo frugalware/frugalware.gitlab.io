@@ -13,7 +13,7 @@ usize = "1209752"
 sha1sum = "36ed5074a4b0e760a190535751b829494916169b"
 depends = "['gtk+3', 'pygobject3', 'python3-pidfile', 'python3-pillow', 'python3-pycairo', 'python3-requests', 'python3-websocket_client']"
 +++
-Yet another Discord overlay for Linux written in Python using GTK3"
+Yet another Discord overlay for Linux written in Python using GTK3
 
 {{< files text="show files" >}}* /usr/bin/discover-overlay
 * /usr/lib/python3.12/site-packages/build/lib/discover_overlay/autostart.py

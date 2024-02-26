@@ -13,7 +13,7 @@ usize = "594372"
 sha1sum = "8af7b24b15014774e2848baeda842fd476cfcb62"
 depends = "['glibc', 'libotr>=4.0.0', 'pidgin>=2.10.9']"
 +++
-Off-the-Record Messaging plugin for Pidgin"
+Off-the-Record Messaging plugin for Pidgin
 
 {{< files text="show files" >}}* /usr/lib/pidgin/pidgin-otr.so
 * /usr/share/doc/pidgin-otr-4.0.2/AUTHORS

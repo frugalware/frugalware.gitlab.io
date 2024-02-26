@@ -13,7 +13,7 @@ usize = "10819934"
 sha1sum = "c3420aa2e7f4f498f935fd9d0899cf915cee9be2"
 depends = "['aspell', 'libboost>=1.72.0', 'libidn>=1.35', 'lua>=5.4', 'miniupnpc', 'openssl>=3.1.0', 'qt5-multimedia>=5.15.10']"
 +++
-EiskaltDC++ is a cross-platform program that uses the Direct Connect and ADC protocol"
+EiskaltDC++ is a cross-platform program that uses the Direct Connect and ADC protocol
 
 {{< files text="show files" >}}* /usr/bin/eiskaltdcpp-daemon
 * /usr/bin/eiskaltdcpp-qt

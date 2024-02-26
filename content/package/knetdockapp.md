@@ -14,7 +14,7 @@ sha1sum = "9083b17321d5830702040c5d19ce0e82b2e52f16"
 depends = "[]"
 license = "GPL"
 +++
-A small application that docks in the systray and monitors the activity of the selected network interface."
+A small application that docks in the systray and monitors the activity of the selected network interface.
 
 {{< files text="show files" >}}* usr/bin/knetdockapp
 * usr/share/applnk/Utilities/knetdockapp.desktop

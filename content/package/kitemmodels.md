@@ -14,7 +14,7 @@ sha1sum = "3dfe172886e4469ab4aa794c85b6f858ea0d809c"
 depends = "['qt5-base>=5.15.12']"
 reverse_depends = "['akonadi', 'akonadi-mime', 'ark', 'colord-kde', 'discover', 'kate', 'kdelibs4support', 'kdevelop', 'kirigami-gallery', 'kleopatra', 'ktrip', 'libkleo', 'milou', 'neochat', 'plasma-systemmonitor', 'systemsettings5', 'tokodon', 'user-kcm']"
 +++
-Set of item models extending the Qt model-view framework."
+Set of item models extending the Qt model-view framework.
 
 {{< files text="show files" >}}* /usr/include/KF5/KItemModels/KBreadcrumbSelectionModel
 * /usr/include/KF5/KItemModels/kbreadcrumbselectionmodel.h

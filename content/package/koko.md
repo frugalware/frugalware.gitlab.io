@@ -13,7 +13,7 @@ usize = "28213034"
 sha1sum = "ce508e4118cbc9bec66a1802c4fa2024ddb90101"
 depends = "['exiv2>=0.28.1', 'kdeclarative', 'kfilemetadata5', 'kio', 'kquickimageeditor', 'qt5-location']"
 +++
-Image gallery application"
+Image gallery application
 
 {{< files text="show files" >}}* /usr/bin/koko
 * /usr/lib/libkokocommon.so

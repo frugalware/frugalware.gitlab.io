@@ -13,7 +13,7 @@ usize = "296492"
 sha1sum = "3982990b37e28c4bbce5c91037978536a0689311"
 depends = "['android-tools', 'ffmpeg', 'sdl2']"
 +++
-Display and control your Android device"
+Display and control your Android device
 
 {{< files text="show files" >}}* /usr/bin/scrcpy
 * /usr/share/applications/scrcpy-console.desktop

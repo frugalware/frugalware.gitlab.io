@@ -13,7 +13,7 @@ usize = "26720"
 sha1sum = "5a080a9ae50dc338ead3661314bef32b40c8119e"
 depends = "['claws-mail=4.1.1']"
 +++
-Keeps all recipient addresses in a designated addressbook folder."
+Keeps all recipient addresses in a designated addressbook folder.
 
 {{< files text="show files" >}}* /usr/lib/claws-mail/plugins/address_keeper.so
 {{< /files >}}

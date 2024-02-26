@@ -14,7 +14,7 @@ sha1sum = "d47489c8acad11fa3323721abdbadb968b0c592b"
 depends = "['expat', 'libdrm', 'libglapi', 'libxdamage', 'libxext', 'libxshmfence', 'libxxf86vm', 'zlib>=1.2.12']"
 reverse_depends = "['opencv', 'qt5-base', 'virtualbox', 'xorg-server', 'xorg-server-xephyr']"
 +++
-Mesa OpenGL GLX"
+Mesa OpenGL GLX
 
 {{< files text="show files" >}}* /usr/lib/libGLX_indirect.so.0
 * /usr/lib/libGLX_mesa.so

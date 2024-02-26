@@ -13,7 +13,7 @@ usize = "643016"
 sha1sum = "c5be93db23973a6ea44871acd45f756928dcb644"
 depends = "['python3>=3.8.3']"
 +++
-A bridge from UFOs to FontTools objects (and therefore, OTFs and TTFs)."
+A bridge from UFOs to FontTools objects (and therefore, OTFs and TTFs).
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/ufo2ft-2.24.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/ufo2ft-2.24.0-py3.12.egg-info/PKG-INFO

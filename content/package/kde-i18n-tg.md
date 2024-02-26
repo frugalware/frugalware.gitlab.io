@@ -13,7 +13,7 @@ usize = "7272282"
 sha1sum = "09b3df50c144e41a93706ee960528da627920655"
 depends = "[]"
 +++
-Tajik Localization for KDE."
+Tajik Localization for KDE.
 
 {{< files text="show files" >}}* usr/share/apps/khangman/data/tg/animals.kvtml
 * usr/share/apps/khangman/data/tg/easy.kvtml

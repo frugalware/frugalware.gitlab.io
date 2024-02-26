@@ -13,7 +13,7 @@ usize = "5480812"
 sha1sum = "4c34824cf509bb45722645fc943dfce151c7f8c3"
 depends = "['python3']"
 +++
-An autocompletion tool for Python that can be used for text editors"
+An autocompletion tool for Python that can be used for text editors
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/jedi-0.19.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/jedi-0.19.1-py3.12.egg-info/PKG-INFO

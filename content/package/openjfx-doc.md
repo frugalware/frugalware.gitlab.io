@@ -13,7 +13,7 @@ usize = "63730907"
 sha1sum = "e08ec3b8876395a1a3f742610005af8219c25d30"
 depends = "[]"
 +++
-OpenJFX Documentation"
+OpenJFX Documentation
 
 {{< files text="show files" >}}* /usr/share/doc/java-openjfx/allclasses-index.html
 * /usr/share/doc/java-openjfx/allpackages-index.html

@@ -14,7 +14,7 @@ sha1sum = "83233cab623b55dbf3ca57a30148d21eea052acc"
 depends = "['python3>=3.11']"
 reverse_depends = "['fail2ban']"
 +++
-A python development support library."
+A python development support library.
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/py-1.11.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/py-1.11.0-py3.12.egg-info/not-zip-safe

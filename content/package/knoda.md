@@ -14,7 +14,7 @@ sha1sum = "c72769abf33fc88dac8aab00d764a0fc0a131af0"
 depends = "['file', 'libdrm', 'libgl', 'libstdc++', 'libxi', 'libxmu', 'libxxf86vm']"
 license = "GPL2"
 +++
-knoda is a database frontend for KDE."
+knoda is a database frontend for KDE.
 
 {{< files text="show files" >}}* usr/bin/knoda
 * usr/bin/knoda-rt

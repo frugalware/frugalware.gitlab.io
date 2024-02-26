@@ -14,7 +14,7 @@ sha1sum = "87b2482d17f57c670981b9fff2fbf181aa40e56d"
 depends = "['glibc']"
 reverse_depends = "['libcss', 'libdom']"
 +++
-A string internment library, written in C."
+A string internment library, written in C.
 
 {{< files text="show files" >}}* /usr/include/libwapcaplet/libwapcaplet.h
 * /usr/lib/libwapcaplet.so

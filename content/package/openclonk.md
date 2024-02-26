@@ -13,7 +13,7 @@ usize = "121200084"
 sha1sum = "e9048c0e0a584c51dbc506f2b4b383fe8d2f4051"
 depends = "['glew>=2.2.0', 'gtk+3>=3.18.7', 'libjpeg-turbo', 'libupnp>=1.8.3', 'sdl2_mixer']"
 +++
-Free multiplayer action game where you control clonks, small but witty and nimble humanoid beings."
+Free multiplayer action game where you control clonks, small but witty and nimble humanoid beings.
 
 {{< files text="show files" >}}* /usr/bin/c4group
 * /usr/bin/openclonk

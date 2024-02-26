@@ -13,7 +13,7 @@ usize = "22986753"
 sha1sum = "d9298265279ddd6032911adb5dbaccc0812fc6df"
 depends = "['cairo>=1.14.6-2', 'kmod', 'libdrm>=2.4.71', 'libudev', 'libunwind>=1.1-4', 'procps-ng>=4.0.3']"
 +++
-X.Org intel-gpu-tools application"
+X.Org intel-gpu-tools application
 
 {{< files text="show files" >}}* /usr/bin/amd_hdmi_compliance
 * /usr/bin/code_cov_capture

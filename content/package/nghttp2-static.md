@@ -13,7 +13,7 @@ usize = "1072112"
 sha1sum = "4e1a7b5c7aff34d1e505ffff4d489536f56bf54c"
 depends = "[]"
 +++
-Static files for nghttp2"
+Static files for nghttp2
 
 {{< files text="show files" >}}* /usr/lib/libnghttp2.a
 {{< /files >}}

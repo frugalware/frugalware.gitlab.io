@@ -14,7 +14,7 @@ sha1sum = "d918a055064958eb09c82c773a6973bbf86309ef"
 depends = "['glibc>=2.34']"
 reverse_depends = "['sord']"
 +++
-Serd is a lightweight C library for RDF syntax which supports reading and writing Turtle and NTriples."
+Serd is a lightweight C library for RDF syntax which supports reading and writing Turtle and NTriples.
 
 {{< files text="show files" >}}* /usr/bin/serdi
 * /usr/include/serd-0/serd/serd.h

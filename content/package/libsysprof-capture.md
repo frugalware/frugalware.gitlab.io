@@ -14,7 +14,7 @@ sha1sum = "48b2f0c11bdb507ac33e9b9daa1dc1673f14b02b"
 depends = "['glibc']"
 reverse_depends = "['libsoup3', 'sysprof']"
 +++
-sysprof capture library"
+sysprof capture library
 
 {{< files text="show files" >}}* /usr/include/sysprof-6/sysprof-address.h
 * /usr/include/sysprof-6/sysprof-capture-condition.h

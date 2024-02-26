@@ -14,7 +14,7 @@ sha1sum = "5a4e5983b619377a132892355059048a7cade786"
 depends = "['cairo>=1.14.6-2', 'libexif>=0.6.21-2', 'libgif>=5.1.2', 'libjpeg-turbo', 'libtiff>=4.0.6']"
 reverse_depends = "['keepass']"
 +++
-libgdiplus is an implementation of the GDI+ library on Windows"
+libgdiplus is an implementation of the GDI+ library on Windows
 
 {{< files text="show files" >}}* /usr/lib/libgdiplus.so
 * /usr/lib/libgdiplus.so.0

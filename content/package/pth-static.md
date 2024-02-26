@@ -13,7 +13,7 @@ usize = "516400"
 sha1sum = "9d1ac5dec90dd8ca7a42a17c2780c1498d1088e8"
 depends = "[]"
 +++
-Static files for pth"
+Static files for pth
 
 {{< files text="show files" >}}* /usr/lib/libpth.a
 {{< /files >}}

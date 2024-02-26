@@ -14,7 +14,7 @@ sha1sum = "40cf0261084610f76ff5b2533633c8da59bebef0"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-warp']"
 +++
-Word8 library"
+Word8 library
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/word8-0.1.3/Data/Char8.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/word8-0.1.3/Data/Char8.hi

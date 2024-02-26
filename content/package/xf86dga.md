@@ -14,7 +14,7 @@ sha1sum = "51e840e28b1e8bd8df4f71cc36159ae16f2f91b0"
 depends = "['libxxf86dga>=1.1.4-2']"
 license = "GPL2"
 +++
-test program for the XFree86-DGA extension"
+test program for the XFree86-DGA extension
 
 {{< files text="show files" >}}* /usr/bin/dga
 * /usr/share/doc/xf86dga-1.0.3/ChangeLog

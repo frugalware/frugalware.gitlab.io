@@ -13,7 +13,7 @@ usize = "34946"
 sha1sum = "1b2db25336d22d51a842ed58869c85b6e5704896"
 depends = "[]"
 +++
-Kdebindings Documentation"
+Kdebindings Documentation
 
 {{< files text="show files" >}}* usr/share/doc/HTML/en/javalib/index-1.html
 * usr/share/doc/HTML/en/javalib/index-2.html

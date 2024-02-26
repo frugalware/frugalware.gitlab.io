@@ -14,7 +14,7 @@ sha1sum = "f937956443edf758938749360c7f317b7559fdd3"
 depends = "['libkdepim>=23.08.5', 'pimcommon>=23.08.5']"
 reverse_depends = "['mailcommon']"
 +++
-Mail importer library."
+Mail importer library.
 
 {{< files text="show files" >}}* /usr/include/KPim5/MailImporter/MailImporter/FilterBalsa
 * /usr/include/KPim5/MailImporter/mailimporter/filterbalsa.h

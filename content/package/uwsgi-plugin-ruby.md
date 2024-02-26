@@ -13,7 +13,7 @@ usize = "72856"
 sha1sum = "618b19f5246d44d1875e0294f54bd0bdf5cdca6e"
 depends = "['ruby>=3.3.0', 'uwsgi']"
 +++
-UWSGI Ruby Plugin"
+UWSGI Ruby Plugin
 
 {{< files text="show files" >}}* /usr/lib/uwsgi/ruby19_plugin.so
 {{< /files >}}

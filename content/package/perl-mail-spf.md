@@ -14,7 +14,7 @@ sha1sum = "adc74b3476061b2562ca3ac09d82f61d13e8a92f"
 depends = "['perl>=5.34.0', 'perl-error', 'perl-net-dns', 'perl-netaddr-ip', 'perl-uri']"
 reverse_depends = "['spamassassin']"
 +++
-An object-oriented implementation of Sender Policy Framework"
+An object-oriented implementation of Sender Policy Framework
 
 {{< files text="show files" >}}* /usr/bin/site_perl/spfquery
 * /usr/bin/spfd

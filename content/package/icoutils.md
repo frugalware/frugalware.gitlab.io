@@ -14,7 +14,7 @@ sha1sum = "3234b0aff326a4faede37530eb52b7124747f903"
 depends = "['libpng>=1.6.23']"
 reverse_depends = "['q4wine']"
 +++
-A set of command-line programs for extracting and converting images"
+A set of command-line programs for extracting and converting images
 
 {{< files text="show files" >}}* /usr/bin/extresso
 * /usr/bin/genresscript

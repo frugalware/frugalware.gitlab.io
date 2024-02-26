@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = ""
 depends = "['aspell>=0.60']"
 +++
-GNU Aspell 0.60 German - Old Spelling dictionary"
+GNU Aspell 0.60 German - Old Spelling dictionary
 
 {{< files text="show files" >}}* usr/lib/aspell-0.60/de-alt.dat
 * usr/lib/aspell-0.60/de-alt.multi

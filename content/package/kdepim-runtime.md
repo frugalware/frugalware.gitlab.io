@@ -14,7 +14,7 @@ sha1sum = "8767c9203eaa28260a58ef9389eee8b6e55f478d"
 depends = "['akonadi-calendar>=23.08.5', 'akonadi-notes>=23.08.5', 'kalarm>=23.08.5', 'kdav>=5.115.0', 'kimap>=23.08.5', 'kmbox>=23.08.5', 'knotifyconfig>=5.115.0', 'kross>=5.115.0', 'libkgapi>=23.08.5', 'pimcommon>=23.08.5', 'qca', 'qt5-networkauth>=5.15.12', 'qt5-xmlpatterns>=5.15.12', 'syndication>=5.115.0']"
 reverse_depends = "['kmail', 'korganizer', 'zanshin']"
 +++
-KDE PIM Runtime"
+KDE PIM Runtime
 
 {{< files text="show files" >}}* /usr/bin/akonadi_akonotes_resource
 * /usr/bin/akonadi_birthdays_resource

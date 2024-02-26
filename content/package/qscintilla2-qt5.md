@@ -15,7 +15,7 @@ depends = "['qt5-base>=5.15.10', 'qt5-tools>=5.15.10']"
 reverse_depends = "['database-browser-sqlite', 'openscad']"
 license = "2"
 +++
-QScintilla2 is a port to Qt of Neil Hodgson's Scintilla C++ editor class. (Qt5)"
+QScintilla2 is a port to Qt of Neil Hodgson's Scintilla C++ editor class. (Qt5)
 
 {{< files text="show files" >}}* /usr/include/qt5/Qsci/qsciabstractapis.h
 * /usr/include/qt5/Qsci/qsciapis.h

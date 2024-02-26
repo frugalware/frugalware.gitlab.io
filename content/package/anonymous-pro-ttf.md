@@ -13,7 +13,7 @@ usize = "640193"
 sha1sum = "178b4dab708d2061e831c13bf479340eec2c7132"
 depends = "['fontconfig', 'mkfontscale']"
 +++
-A fixed width sans font designed especially for programmers."
+A fixed width sans font designed especially for programmers.
 
 {{< files text="show files" >}}* /usr/share/doc/anonymous-pro-ttf-1.002/FONTLOG.txt
 * /usr/share/doc/anonymous-pro-ttf-1.002/OFL-FAQ.txt

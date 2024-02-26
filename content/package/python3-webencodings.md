@@ -14,7 +14,7 @@ sha1sum = "01538d1c16c26ab5d0d49e91abafca552b44e6e6"
 depends = "['python3>=3.12']"
 reverse_depends = "['html5lib-python']"
 +++
-A Python implementation of the WHATWG Encoding standard."
+A Python implementation of the WHATWG Encoding standard.
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/webencodings-0.5.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/webencodings-0.5.1-py3.12.egg-info/PKG-INFO

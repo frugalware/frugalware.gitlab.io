@@ -13,7 +13,7 @@ usize = "352617106"
 sha1sum = "62659698adcb1863ff6210c4c53b658efc9d2756"
 depends = "['ffmpeg', 'libsecret', 'libxkbfile', 'ripgrep', 'sqlite3']"
 +++
-The Open Source build of Visual Studio Code (vscode) editor"
+The Open Source build of Visual Studio Code (vscode) editor
 
 {{< files text="show files" >}}* /usr/bin/code-oss
 * /usr/share/applications/code-oss-url-handler.desktop

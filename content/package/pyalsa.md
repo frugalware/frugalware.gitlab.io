@@ -14,7 +14,7 @@ sha1sum = "350a799bfb979e6466cc73e9b1a1bc5dbc079ea4"
 depends = "['alsa-lib', 'python3']"
 reverse_depends = "['alsa-tools']"
 +++
-Python bindings for ALSA lib"
+Python bindings for ALSA lib
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pyalsa-1.2.7-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pyalsa-1.2.7-py3.12.egg-info/PKG-INFO

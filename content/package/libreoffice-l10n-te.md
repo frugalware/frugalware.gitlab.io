@@ -13,7 +13,7 @@ usize = "2404446"
 sha1sum = "91dc0edfca91f07499f38a7496212d3e50938df7"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Telugu support in LibreOffice"
+Installs Telugu support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/te/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/te/LC_MESSAGES/avmedia.mo

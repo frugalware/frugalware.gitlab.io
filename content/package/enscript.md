@@ -13,7 +13,7 @@ usize = "1911701"
 sha1sum = "306c3be56fb70ac89cb13ca9a66f57f5dff15fe3"
 depends = "['glibc>=2.34']"
 +++
-Converts text files to PostScript"
+Converts text files to PostScript
 
 {{< files text="show files" >}}* /etc/enscript/enscript.cfg
 * /usr/bin/diffpp

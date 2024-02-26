@@ -14,7 +14,7 @@ sha1sum = "48b74522101f1bcbca689a3f737554de5da15b78"
 depends = "['libuv', 'ocaml>=5.1.1', 'ocaml-ctypes']"
 reverse_depends = "['lwt']"
 +++
-Cross-platform asynchronous I/O and system calls"
+Cross-platform asynchronous I/O and system calls
 
 {{< files text="show files" >}}* /usr/lib/ocaml/luv/async.ml
 * /usr/lib/ocaml/luv/async.mli

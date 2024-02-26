@@ -13,7 +13,7 @@ usize = "2134626"
 sha1sum = "b7015d8032cdcfd0aa71c61ae58649868103e768"
 depends = "['libkdegames>=23.08.5', 'qt5-svg>=5.15.12']"
 +++
-A fun and educational game built around molecular geometry."
+A fun and educational game built around molecular geometry.
 
 {{< files text="show files" >}}* /usr/bin/katomic
 * /usr/share/applications/org.kde.katomic.desktop

@@ -13,7 +13,7 @@ usize = "147556"
 sha1sum = "861ac5e64b87a1535825135adb4553b0e39b4ff5"
 depends = "['gvfs>=1.52.0', 'ifuse>=1.1.4-2']"
 +++
-gvfs with iPhone and iPod touch support"
+gvfs with iPhone and iPod touch support
 
 {{< files text="show files" >}}* /usr/lib/gvfs/gvfs-afc-volume-monitor
 * /usr/lib/gvfs/gvfsd-afc

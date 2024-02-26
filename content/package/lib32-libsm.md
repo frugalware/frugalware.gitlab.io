@@ -14,7 +14,7 @@ sha1sum = "3f5f00ab08c45239d1629da11ee825a7cacbfb57"
 depends = "['lib32-libice>=1.0.9-8', 'lib32-libuuid>=2.31.1-3']"
 reverse_depends = "['lib32-libxt', 'steam-native']"
 +++
-X Session Management Library ( 32bit )"
+X Session Management Library ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/SM/SM.h
 * /usr/i686-frugalware-linux/include/X11/SM/SMlib.h

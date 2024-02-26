@@ -14,7 +14,7 @@ sha1sum = "1fea558742a6e3d0aaadb0414d53c8b0857d9020"
 depends = "['hwdata', 'libudev>=242', 'libusb>=0.1.5-4']"
 reverse_depends = "['hw-probe', 'inxi']"
 +++
-USB utilities - lsusb,usbmodules"
+USB utilities - lsusb,usbmodules
 
 {{< files text="show files" >}}* /usr/bin/lsusb
 * /usr/bin/lsusb.py

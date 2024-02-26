@@ -14,7 +14,7 @@ sha1sum = "8e53c2a882981bea30859d910e8e826155c4904e"
 depends = "['bash', 'coreutils', 'file', 'findutils', 'grep', 'psmisc', 'sed', 'shadow', 'util-linux', 'which']"
 reverse_depends = "['ca-certificates', 'cracklib', 'dbus', 'grub-theme-frugalware', 'grub2', 'kernel-initrd', 'kernel-lts-initrd', 'm4', 'mlocate', 'perl', 'polkit', 'systemd']"
 +++
-Dummy package. Pulls in everything required for the basic scriptlets to function."
+Dummy package. Pulls in everything required for the basic scriptlets to function.
 
 {{< files text="show files" >}}* /usr/share/doc/scriptlet-core-1/README
 {{< /files >}}

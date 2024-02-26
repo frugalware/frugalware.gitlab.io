@@ -14,7 +14,7 @@ sha1sum = "bd2b181baef04d6a2ea2036fa5a0a209e223c931"
 depends = "['faudio', 'gettext', 'gst1-plugins-base', 'lcms2', 'lib32-faudio', 'lib32-freetype2', 'lib32-lcms2', 'lib32-libldap>=2.5.4', 'lib32-libosmesa', 'lib32-libxcomposite', 'lib32-libxcursor', 'lib32-libxi', 'lib32-libxinerama', 'lib32-libxml2', 'lib32-libxrandr', 'lib32-libxrender', 'lib32-ncurses', 'lib32-ocl-icd', 'lib32-vkd3d', 'lib32-vulkan-icd-loader', 'libglu', 'libgphoto2', 'libldap>=2.5.4', 'libmpg123', 'libosmesa', 'libpcap', 'libpulse', 'libxcomposite', 'libxcursor', 'libxi', 'libxinerama', 'libxkbcommon', 'libxml2', 'libxrandr', 'libxrender', 'libxslt', 'ocl-icd', 'openal', 'pcsc-lite', 'sane-backends', 'v4l-utils', 'vkd3d', 'vulkan-icd-loader']"
 reverse_depends = "['winetricks']"
 +++
-An Open Source implementation of the Windows API on top of X and Unix. (Stable)"
+An Open Source implementation of the Windows API on top of X and Unix. (Stable)
 
 {{< files text="show files" >}}* /etc/binfmt.d/wine.conf
 * /usr/bin/function_grep.pl

@@ -13,7 +13,7 @@ usize = "46301392"
 sha1sum = "5e68fbcf0c32174afa8b41b5542a0d8c5e55403a"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Greek support in LibreOffice"
+Installs Greek support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/help/el/default.css
 * /usr/lib/libreoffice/help/el/err.html

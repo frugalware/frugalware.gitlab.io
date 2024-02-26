@@ -13,7 +13,7 @@ usize = "8299610"
 sha1sum = "c13b2c94bb7fe390a05ec0fbc2e1358b26b01f7a"
 depends = "['texlive=2023.0']"
 +++
-Miscellaneous packages for TeX Live"
+Miscellaneous packages for TeX Live
 
 {{< files text="show files" >}}* /usr/bin/lily-glyph-commands
 * /usr/bin/lily-image-commands

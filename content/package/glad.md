@@ -13,7 +13,7 @@ usize = "6116674"
 sha1sum = "c173acf6358bf8de2cb606f078f6af12ae87853c"
 depends = "['python3-jinja', 'python3-lxml', 'python3-setuptools']"
 +++
-Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs"
+Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs
 
 {{< files text="show files" >}}* /usr/bin/glad
 * /usr/lib/python3.12/site-packages/glad/config.py

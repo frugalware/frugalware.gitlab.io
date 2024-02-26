@@ -14,7 +14,7 @@ sha1sum = "feb0559b08ab7df74ccd3544b7d438a5c875fe63"
 depends = "['libstdc++']"
 reverse_depends = "['calibre']"
 +++
-An encoding detector library"
+An encoding detector library
 
 {{< files text="show files" >}}* /usr/bin/uchardet
 * /usr/include/uchardet/uchardet.h

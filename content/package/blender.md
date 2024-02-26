@@ -13,7 +13,7 @@ usize = "209474034"
 sha1sum = "a53dcc4e8474bc9e747e5e6df06afc04c927029f"
 depends = "['alembic', 'embree', 'fftw', 'freetype2>=2.7', 'glew>=2.2.0', 'icu4c>=72.1', 'jemalloc', 'libboost>=1.82.0', 'libepoxy', 'libjpeg-turbo', 'libpng>=1.6.25', 'libsamplerate', 'libspnav', 'libtiff', 'libxi', 'lzo', 'openal>=1.7.411', 'openblas', 'opencollada', 'opencolorio', 'openexr>=3.1.0', 'openimageio>=2.1.12.0', 'openjpeg', 'openshadinglanguage', 'openvdb>=10.1.0', 'potrace', 'python3-numpy>=1.19.0', 'python3-requests', 'sdl>=1.2.13-2']"
 +++
-A 3D modeling/rendering/animation/gaming application"
+A 3D modeling/rendering/animation/gaming application
 
 {{< files text="show files" >}}* /usr/bin/blender
 * /usr/bin/blender-thumbnailer

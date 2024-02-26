@@ -14,7 +14,7 @@ sha1sum = "ba381d5d59e63b5a5acb5966d8b6f5b8123fb339"
 depends = "['lib32-libraw1394>=2.1.2-2', 'lib32-libudev>=242', 'lib32-libusb1>=1.0.20-5']"
 reverse_depends = "['lib32-ffmpeg']"
 +++
-libdc1394 provides a high level programming interface to control IEEE 1394 based cameras. ( 32bit )"
+libdc1394 provides a high level programming interface to control IEEE 1394 based cameras. ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/dc1394_reset_bus
 * /usr/i686-frugalware-linux/include/dc1394/camera.h

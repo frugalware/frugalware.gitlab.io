@@ -14,7 +14,7 @@ sha1sum = "6e0523f5e31ed082c7192fc861713e6a3b10d426"
 depends = "['libboost>=1.72.0', 'libmpdclient', 'ncurses>=6.0-12']"
 license = "GPL2"
 +++
-ncmpc is a ncurses based music manager for mpd"
+ncmpc is a ncurses based music manager for mpd
 
 {{< files text="show files" >}}* /usr/bin/ncmpc
 * /usr/share/doc/ncmpc-0.49/AUTHORS

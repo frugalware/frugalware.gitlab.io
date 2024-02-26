@@ -13,7 +13,7 @@ usize = "141776"
 sha1sum = "a492b83429abda9443ab87a36257e13f93279a26"
 depends = "['claws-mail=4.1.1']"
 +++
-This plugin handles mailboxes in mbox format."
+This plugin handles mailboxes in mbox format.
 
 {{< files text="show files" >}}* /usr/lib/claws-mail/plugins/mailmbox.so
 {{< /files >}}

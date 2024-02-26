@@ -13,7 +13,7 @@ usize = "640032"
 sha1sum = "4c4538aa70154beb6bd95cc78f594ec898171834"
 depends = "['glibc']"
 +++
-Postmodern immutable and persistent data structures for C++"
+Postmodern immutable and persistent data structures for C++
 
 {{< files text="show files" >}}* /usr/include/immer/algorithm.hpp
 * /usr/include/immer/array.hpp

@@ -13,7 +13,7 @@ usize = "235357"
 sha1sum = "bbe309efdcf2fb1106af8a6293404a8303efa3c6"
 depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kirigami-addons', 'kwindowsystem', 'qmltermwidget', 'qt5-svg']"
 +++
-Terminal app for Plasma Mobile"
+Terminal app for Plasma Mobile
 
 {{< files text="show files" >}}* /usr/bin/qmlkonsole
 * /usr/share/applications/org.kde.qmlkonsole.desktop

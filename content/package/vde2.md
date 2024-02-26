@@ -13,7 +13,7 @@ usize = "891770"
 sha1sum = "b0ac910476c6402c50c937ccbbefbe47971c7662"
 depends = "['glibc', 'libpcap', 'openssl>=3.1.0', 'python3']"
 +++
-Emulates ethernet switches over existing connections."
+Emulates ethernet switches over existing connections.
 
 {{< files text="show files" >}}* /etc/vde2/libvdemgmt/asyncrecv.rc
 * /etc/vde2/libvdemgmt/closemachine.rc

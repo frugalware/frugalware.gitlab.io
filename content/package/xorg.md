@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "3580740e6a2edbc37794b0fff5a5853dcf494af1"
 depends = "['fontconfig', 'libpng', 'libstdc++', 'ncurses']"
 +++
-A fork of the XFree86 Project with a GPL-compatible license"
+A fork of the XFree86 Project with a GPL-compatible license
 
 {{< files text="show files" >}}* etc/profile.d/xprint.csh
 * etc/profile.d/xprint.sh

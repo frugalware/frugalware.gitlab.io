@@ -14,7 +14,7 @@ sha1sum = "5cf2c04fbc7e5555f19d99810fb06b6d0c0b2aea"
 depends = "[]"
 reverse_depends = "['alizams', 'qt6-base-mysql', 'qt6-base-postgresql', 'qtcreator']"
 +++
-Development files for SQL plugins"
+Development files for SQL plugins
 
 {{< files text="show files" >}}* /usr/include/qt6/QtSql/6.6.2/QtSql/private/qsqlcachedresult_p.h
 * /usr/include/qt6/QtSql/6.6.2/QtSql/private/qsqldriver_p.h

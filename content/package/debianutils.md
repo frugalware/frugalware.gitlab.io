@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "5c75e8e54f08f20efb2638a063591975458baa71"
 depends = "['glibc']"
 +++
-This package provides small utilities which are used by the scripts of Debian packages."
+This package provides small utilities which are used by the scripts of Debian packages.
 
 {{< files text="show files" >}}* usr/bin/mktemp
 * usr/bin/savelog

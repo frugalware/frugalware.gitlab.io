@@ -13,7 +13,7 @@ usize = "1912122"
 sha1sum = "3b77e65063e5cd4ff020c296bee570ed2961481d"
 depends = "[]"
 +++
-Sesame2 storage backend (java-based)"
+Sesame2 storage backend (java-based)
 
 {{< files text="show files" >}}* usr/lib/soprano/libsoprano_sesame2backend.so
 * usr/share/soprano/plugins/sesame2backend.desktop

@@ -14,7 +14,7 @@ sha1sum = "7233b1ee7792c1b7e27dbe04ce2c08a4352edf51"
 depends = "['fuse-common', 'glibc>=2.34']"
 reverse_depends = "['cryfs', 'encfs', 'fuseiso', 'grub2-mount', 'ifuse', 'libguestfs', 'libvirt', 'ntfs-3g', 'ntfsprogs', 'obsidian', 'rclone', 'wimlib', 'xrdp']"
 +++
-An interface for filesystems implemented in userspace."
+An interface for filesystems implemented in userspace.
 
 {{< files text="show files" >}}* /usr/bin/fusermount
 * /usr/bin/mount.fuse

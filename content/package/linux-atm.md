@@ -13,7 +13,7 @@ usize = "1495469"
 sha1sum = "aa6895bc90496b85b6c929c31056b38e08d80d5e"
 depends = "['glibc']"
 +++
-ATM-related demons and utilities."
+ATM-related demons and utilities.
 
 {{< files text="show files" >}}* /etc/atmsigd.conf
 * /etc/hosts.atm

@@ -14,7 +14,7 @@ sha1sum = "7e7187d169c0301efb171a77e59aeab2d4dfb794"
 depends = "['python3-distlib', 'python3-filelock', 'python3-platformdirs']"
 reverse_depends = "['python3-poetry']"
 +++
-Virtual Python Environment builder"
+Virtual Python Environment builder
 
 {{< files text="show files" >}}* /usr/bin/virtualenv
 * /usr/lib/python3.12/site-packages/virtualenv-20.25.0.dist-info/entry_points.txt

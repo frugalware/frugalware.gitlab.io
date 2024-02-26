@@ -14,7 +14,7 @@ sha1sum = "0cab53be91164abdcd6371c057ba94cee2a518ad"
 depends = "['freetype2', 'jasper>=2.0.10', 'lcms', 'libheif', 'libwebp>=0.6.0', 'libxext>=1.3.3-6', 'libxml2']"
 reverse_depends = "['darktable', 'inkscape']"
 +++
-A collection of tools and libraries for many image formats"
+A collection of tools and libraries for many image formats
 
 {{< files text="show files" >}}* /usr/bin/gm
 * /usr/bin/GraphicsMagick++-config

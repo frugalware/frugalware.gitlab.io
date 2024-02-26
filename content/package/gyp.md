@@ -13,7 +13,7 @@ usize = "2270861"
 sha1sum = "9207dacca363f86cd0e50f8eb9f536abb8fce804"
 depends = "['ninja']"
 +++
-GYP can Generate Your Projects."
+GYP can Generate Your Projects.
 
 {{< files text="show files" >}}* /usr/bin/gyp
 * /usr/lib/python3.12/site-packages/gyp-0.1-py3.12.egg-info/dependency_links.txt

@@ -14,7 +14,7 @@ sha1sum = "861cf8cf5ecec8482fdff6b1e71e9e34ac426114"
 depends = "['lib32-libdrm>=2.4.71', 'lib32-libglapi', 'lib32-wayland>=1.11.0-3']"
 reverse_depends = "['lib32-libegl', 'lib32-mesa-libegl', 'lib32-xorg-server']"
 +++
-Mesa gbm library. (32-Bit)"
+Mesa gbm library. (32-Bit)
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/include/gbm.h
 * /usr/lib32/libgbm.so

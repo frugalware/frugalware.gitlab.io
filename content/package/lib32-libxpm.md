@@ -14,7 +14,7 @@ sha1sum = "7f635d928571a204bcbbcd2afb5a7086b43b96d7"
 depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxext>=1.3.3-3', 'lib32-libxt>=1.1.5-3']"
 reverse_depends = "['lib32-libxaw']"
 +++
-X Pixmap Library ( 32bit )"
+X Pixmap Library ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/cxpm
 * /usr/i686-frugalware-linux/bin/sxpm

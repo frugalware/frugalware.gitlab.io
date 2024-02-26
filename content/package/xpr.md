@@ -14,7 +14,7 @@ sha1sum = "fdd7288f8032badb542ad94036927b9fe49fd252"
 depends = "['libxmu>=1.1.2-3']"
 license = "GPL2"
 +++
-X.Org xpr application"
+X.Org xpr application
 
 {{< files text="show files" >}}* /usr/bin/xdpr
 * /usr/bin/xpr

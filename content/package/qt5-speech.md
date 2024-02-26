@@ -14,7 +14,7 @@ sha1sum = "3e919a54d6a96e665390104feeb46d492b8cb4f4"
 depends = "['qt5-base>=5.15.12', 'qt5-multimedia>=5.15.12', 'speech-dispatcher']"
 reverse_depends = "['kmouth', 'knotifications', 'konqueror', 'kpimtextedit', 'ktextaddons', 'ktextwidgets', 'okular']"
 +++
-The Qt5 toolkit, qtspeech"
+The Qt5 toolkit, qtspeech
 
 {{< files text="show files" >}}* /usr/include/qt5/QtTextToSpeech/5.15.12/QtTextToSpeech/private/qtexttospeech_p.h
 * /usr/include/qt5/QtTextToSpeech/5.15.12/QtTextToSpeech/private/qttexttospeech-config_p.h

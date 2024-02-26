@@ -14,7 +14,7 @@ sha1sum = "53197f3f18331a7d7c21000c7c2bb817f1c9b453"
 depends = "['python3-requests']"
 reverse_depends = "['audiotube']"
 +++
-Unofficial API for YouTube Music"
+Unofficial API for YouTube Music
 
 {{< files text="show files" >}}* /usr/bin/ytmusicapi
 * /usr/lib/python3.12/site-packages/ytmusicapi-1.3.2.dist-info/entry_points.txt

@@ -14,7 +14,7 @@ sha1sum = "f50d2d964608c6dfbf74d2364bf315068851e0be"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['dssi', 'easyeffects', 'fluidsynth', 'mpv']"
 +++
-Linux Audio Developer's Simple Plugin API."
+Linux Audio Developer's Simple Plugin API.
 
 {{< files text="show files" >}}* /etc/profile.d/ladspa.sh
 * /usr/bin/analyseplugin

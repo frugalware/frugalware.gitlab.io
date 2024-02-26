@@ -14,7 +14,7 @@ sha1sum = "5ba08ccd596a272a4f57a55c1f722cd4873298d7"
 depends = "['libxext>=1.3.3-2']"
 license = "GPL2"
 +++
-demo of DBE creating a double buffered spinning scene"
+demo of DBE creating a double buffered spinning scene
 
 {{< files text="show files" >}}* /usr/bin/xdbedizzy
 * /usr/share/doc/xdbedizzy-1.1.0/ChangeLog

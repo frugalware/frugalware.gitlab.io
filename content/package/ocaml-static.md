@@ -13,7 +13,7 @@ usize = "30965700"
 sha1sum = "81ae976c86b2194965fff683c06b75f9872d0223"
 depends = "[]"
 +++
-Caml libraries statically linked."
+Caml libraries statically linked.
 
 {{< files text="show files" >}}* /usr/lib/ocaml/libasmrun.a
 * /usr/lib/ocaml/libasmrund.a

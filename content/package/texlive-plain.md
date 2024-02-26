@@ -13,7 +13,7 @@ usize = "1202114"
 sha1sum = "d6f0b921d12772c96326077b0193a3b5fac3b941"
 depends = "['texlive=2023.0']"
 +++
-Plain Tex packages for TeX Live"
+Plain Tex packages for TeX Live
 
 {{< files text="show files" >}}* /usr/share/texmf-dist/tex/plain/figflow/figflow.tex
 * /usr/share/texmf-dist/tex/plain/fixpdfmag/fixpdfmag.tex

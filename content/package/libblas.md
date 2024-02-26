@@ -14,7 +14,7 @@ sha1sum = "0f0f162771eca95b134de6e5ad7bbc657101a27f"
 depends = "['libgfortran>=11.2']"
 reverse_depends = "['lapack', 'libcblas', 'libcblas64', 'liblapacke', 'liblapacke64']"
 +++
-Basic Linear Algebra Subprograms."
+Basic Linear Algebra Subprograms.
 
 {{< files text="show files" >}}* /usr/lib/libblas.so
 * /usr/lib/libblas.so.3

@@ -14,7 +14,7 @@ sha1sum = "9b29a869e1bb86a7f6b8951db918514cd926438a"
 depends = "['kio>=5.115.0']"
 reverse_depends = "['plasma-desktop']"
 +++
-System service to manage user's activities, track the usage patterns etc."
+System service to manage user's activities, track the usage patterns etc.
 
 {{< files text="show files" >}}* /usr/lib/kf5/kactivitymanagerd
 * /usr/lib/libkactivitymanagerd_plugin.so

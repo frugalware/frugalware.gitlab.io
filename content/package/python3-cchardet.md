@@ -14,7 +14,7 @@ sha1sum = "575accdaeff6455dc740e64962af00c34dcb0afa"
 depends = "['python3>=3.11']"
 reverse_depends = "['hotdoc']"
 +++
-Universal encoding detector faster than chardet."
+Universal encoding detector faster than chardet.
 
 {{< files text="show files" >}}* /usr/bin/cchardetect
 * /usr/lib/python3.12/site-packages/cchardet-2.1.7-py3.12.egg-info/dependency_links.txt

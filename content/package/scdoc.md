@@ -14,7 +14,7 @@ sha1sum = "72613da4d25a66a1d0ce7aa0ddd68ec481d5d69b"
 depends = "['glibc']"
 reverse_depends = "['seatd']"
 +++
-Tool for generating roff manual pages"
+Tool for generating roff manual pages
 
 {{< files text="show files" >}}* /usr/bin/scdoc
 * /usr/lib/pkgconfig/scdoc.pc

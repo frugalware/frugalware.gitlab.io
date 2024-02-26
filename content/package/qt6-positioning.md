@@ -14,7 +14,7 @@ sha1sum = "9936275330cbb54cd296acb64d3276451138f985"
 depends = "['qt6-declarative', 'qt6-serialport']"
 reverse_depends = "['qt6-location', 'qt6-webengine', 'yin-yang']"
 +++
-The Qt6 toolkit, qtpositioning"
+The Qt6 toolkit, qtpositioning
 
 {{< files text="show files" >}}* /usr/include/qt6/QtPositioning/6.6.2/QtPositioning/private/qclipperutils_p.h
 * /usr/include/qt6/QtPositioning/6.6.2/QtPositioning/private/qdoublematrix4x4_p.h

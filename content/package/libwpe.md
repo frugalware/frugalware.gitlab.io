@@ -14,7 +14,7 @@ sha1sum = "5898e74bc98e5cb6f7e13183b0b8b758f3627196"
 depends = "['libstdc++', 'libxkbcommon']"
 reverse_depends = "['wpebackend-fdo']"
 +++
-General-purpose library for the WPE WebKit."
+General-purpose library for the WPE WebKit.
 
 {{< files text="show files" >}}* /usr/include/wpe-1.0/wpe/export.h
 * /usr/include/wpe-1.0/wpe/gamepad.h

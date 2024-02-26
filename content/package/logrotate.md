@@ -13,7 +13,7 @@ usize = "124473"
 sha1sum = "ed5b4eae2e378e5ff1a56b67099427849eae0962"
 depends = "['popt>=1.16-5', 'xfsprogs-acl>=2.2.52-4']"
 +++
-Rotates, compresses, removes and mails system log files."
+Rotates, compresses, removes and mails system log files.
 
 {{< files text="show files" >}}* /etc/cron.daily/logrotate
 * /etc/logrotate.conf

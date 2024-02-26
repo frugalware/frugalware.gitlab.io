@@ -13,7 +13,7 @@ usize = "4077534"
 sha1sum = "1b1a5e98bccc3a3eb044a3bdf7f77794cf679dbe"
 depends = "['librsync>=0.9.7', 'ncftp', 'python3-boto>=2.5.2', 'python3-fasteners', 'python3-gnupginterface>=0.3.2', 'python3-lockfile', 'python3-setuptools_scm']"
 +++
-Encrypted bandwidth-efficient backup using the rsync algorithm."
+Encrypted bandwidth-efficient backup using the rsync algorithm.
 
 {{< files text="show files" >}}* /usr/bin/duplicity
 * /usr/bin/rdiffdir

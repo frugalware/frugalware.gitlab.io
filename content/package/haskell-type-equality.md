@@ -14,7 +14,7 @@ sha1sum = "102942604192c593ab5de18852d992a7e6b208db"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-constraints', 'haskell-servant']"
 +++
-Data.Type.Equality compat package"
+Data.Type.Equality compat package
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/type-equality-1/Data/Type/Equality/Hetero.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/type-equality-1/Data/Type/Equality/Hetero.hi

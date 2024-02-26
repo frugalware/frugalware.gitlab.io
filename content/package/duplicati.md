@@ -13,7 +13,7 @@ usize = "127890220"
 sha1sum = "1f03a21965614415b1164c134241f3760872fa41"
 depends = "['gtk2-sharp']"
 +++
-A free backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers"
+A free backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers
 
 {{< files text="show files" >}}* /opt/duplicati/acknowledgements.txt
 * /opt/duplicati/AlphaFS.dll

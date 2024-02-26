@@ -14,7 +14,7 @@ sha1sum = "e6ea9898906130293c3123236a18da4005256fcb"
 depends = "['perl>=5.34.0', 'perl-inc-latest>=0.500-4']"
 reverse_depends = "['perl-module-runtime']"
 +++
-Build and install Perl modules"
+Build and install Perl modules
 
 {{< files text="show files" >}}* /usr/bin/site_perl/config_data
 * /usr/lib/perl5/site_perl/Module/Build.pm

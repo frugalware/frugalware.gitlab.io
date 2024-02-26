@@ -14,7 +14,7 @@ sha1sum = "a6dffe2c5950323fcd8a071d1d437aa2f72f73b6"
 depends = "['libxv>=1.0.10-2']"
 license = "GPL2"
 +++
-X.Org xvinfo application"
+X.Org xvinfo application
 
 {{< files text="show files" >}}* /usr/bin/xvinfo
 * /usr/share/doc/xvinfo-1.1.5/ChangeLog

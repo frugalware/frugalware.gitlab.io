@@ -14,7 +14,7 @@ sha1sum = "518f1c76a13a93787087622ccad49749acb8f63e"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-http', 'haskell-http2', 'haskell-iproute', 'haskell-recv', 'haskell-simple-sendfile', 'haskell-socks', 'haskell-streaming-commons', 'haskell-tls', 'haskell-wai', 'haskell-wai-logger']"
 +++
-Networking-related facilities"
+Networking-related facilities
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/network-3.1.5.0/include/alignment.h
 * /usr/lib/ghc-9.8.1/site-local/network-3.1.5.0/include/HsNet.h

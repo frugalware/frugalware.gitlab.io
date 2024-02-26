@@ -13,7 +13,7 @@ usize = "460089"
 sha1sum = "8157d4ac3a0fd05cbcbf26e7f172c3cdec571048"
 depends = "[]"
 +++
-JPEG image codec that uses SIMD instructions ( 32bit )"
+JPEG image codec that uses SIMD instructions ( 32bit )
 
 {{< files text="show files" >}}* /usr/lib32/libjpeg.so.62
 * /usr/lib32/libjpeg.so.62.2.0

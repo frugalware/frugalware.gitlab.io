@@ -13,7 +13,7 @@ usize = "1519"
 sha1sum = "ef35de0257ac196282870476de43c542ffeff59a"
 depends = "[]"
 +++
-This script can be used to implement persistent leases on openWRT, DD-WRT etc."
+This script can be used to implement persistent leases on openWRT, DD-WRT etc.
 
 {{< files text="show files" >}}* /usr/bin/lease_update.sh
 {{< /files >}}

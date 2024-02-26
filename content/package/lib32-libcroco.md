@@ -14,7 +14,7 @@ sha1sum = "9c2ac649e9c6c8fce92f8352e2c022e9151e47d5"
 depends = "['lib32-glib2>=2.70', 'lib32-libxml2>=2.9.4-3']"
 reverse_depends = "['lib32-gettext']"
 +++
-A standalone CSS2 parsing and manipulation library ( 32bit )"
+A standalone CSS2 parsing and manipulation library ( 32bit )
 
 {{< files text="show files" >}}* /usr/lib32/libcroco-0.6.so
 * /usr/lib32/libcroco-0.6.so.3

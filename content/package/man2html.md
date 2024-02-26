@@ -13,7 +13,7 @@ usize = "64399"
 sha1sum = "d1660c33a893829492eafef68908acfc2c80e35a"
 depends = "['man-db', 'perl']"
 +++
-A Unix manpage-to-HTML converter"
+A Unix manpage-to-HTML converter
 
 {{< files text="show files" >}}* /usr/bin/man.cgi
 * /usr/bin/man2html

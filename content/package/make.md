@@ -14,7 +14,7 @@ sha1sum = "d94e54c86f88f1d957d555696c1e6bb1b72596c9"
 depends = "['bash', 'glibc>=2.34']"
 reverse_depends = "['get_steam', 'kernel-lts-source']"
 +++
-GNU make utility to maintain groups of programs"
+GNU make utility to maintain groups of programs
 
 {{< files text="show files" >}}* /usr/bin/make
 * /usr/include/gnumake.h

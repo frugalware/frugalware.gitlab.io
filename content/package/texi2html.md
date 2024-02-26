@@ -13,7 +13,7 @@ usize = "6567001"
 sha1sum = "cb1d0733075270f6405902681074070b6c60aed6"
 depends = "['perl']"
 +++
-Texi2html is a Perl script that converts Texinfo to HTML."
+Texi2html is a Perl script that converts Texinfo to HTML.
 
 {{< files text="show files" >}}* /usr/bin/texi2html
 * /usr/share/doc/texi2html-5.0/AUTHORS

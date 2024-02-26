@@ -14,7 +14,7 @@ sha1sum = "7f51d7ec557e836d124baf3fba21b57c4099ef36"
 depends = "['openssl>=3.1.0', 'readline>=8.0']"
 reverse_depends = "['kwallet-pam', 'plasma-workspace']"
 +++
-Relay for bidirectional data transfer between two independent data channels"
+Relay for bidirectional data transfer between two independent data channels
 
 {{< files text="show files" >}}* /usr/bin/filan
 * /usr/bin/procan

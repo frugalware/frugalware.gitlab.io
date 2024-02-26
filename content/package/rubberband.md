@@ -14,7 +14,7 @@ sha1sum = "310d7efb53adaf043070f37347070ed122525b0e"
 depends = "['flac', 'libsamplerate', 'vamp-plugin-sdk>=2.2.1-2']"
 reverse_depends = "['easyeffects', 'mixxx', 'qtractor']"
 +++
-An audio time-stretching and pitch-shifting library and utility program"
+An audio time-stretching and pitch-shifting library and utility program
 
 {{< files text="show files" >}}* /usr/bin/rubberband
 * /usr/include/rubberband/rubberband-c.h

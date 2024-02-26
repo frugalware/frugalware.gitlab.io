@@ -14,7 +14,7 @@ sha1sum = "d4a631d4e21ee10a7b2b8b03976053be466df14e"
 depends = "[]"
 reverse_depends = "['lib32-libpulse']"
 +++
-libasyncns is a C library for Linux/Unix for executing name service queries asynchronously ( 32bit )"
+libasyncns is a C library for Linux/Unix for executing name service queries asynchronously ( 32bit )
 
 {{< files text="show files" >}}* /usr/lib32/libasyncns.so
 * /usr/lib32/libasyncns.so.0

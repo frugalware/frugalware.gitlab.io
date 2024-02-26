@@ -14,7 +14,7 @@ sha1sum = "4883d25ac292de64a4e56793fcea47438cd713ca"
 depends = "['zlib>=1.2.12']"
 reverse_depends = "['imlib2', 'libmp3splt', 'minidlna']"
 +++
-ID3 tag manipulation library"
+ID3 tag manipulation library
 
 {{< files text="show files" >}}* /usr/include/id3tag.h
 * /usr/lib/libid3tag.so

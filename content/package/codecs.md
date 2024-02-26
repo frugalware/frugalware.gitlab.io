@@ -13,7 +13,7 @@ usize = "67166834"
 sha1sum = "87c390e10c4affb077f59ce65989e40f261eaa9b"
 depends = "['libstdc++>=7.3.0-7']"
 +++
-Binary codecs, for Linux x86"
+Binary codecs, for Linux x86
 
 {{< files text="show files" >}}* /usr/lib/win32/14_43260.dll
 * /usr/lib/win32/28_83260.dll

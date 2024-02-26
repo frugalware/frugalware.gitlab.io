@@ -14,7 +14,7 @@ sha1sum = "ebbab92fb222c6fc7d68233680d5d4b57082d2ae"
 depends = "['glibc>=2.25-5']"
 license = "GPL2"
 +++
-X.Org sessreg application"
+X.Org sessreg application
 
 {{< files text="show files" >}}* /usr/bin/sessreg
 * /usr/share/doc/sessreg-1.1.3/AUTHORS

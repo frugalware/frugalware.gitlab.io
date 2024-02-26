@@ -13,7 +13,7 @@ usize = "15273238"
 sha1sum = "51de240140da26fc708de3028e9e54315dcf65bd"
 depends = "['acpi', 'alsa-utils', 'dbus', 'dejavu-ttf', 'fluxbox', 'noto-fonts', 'oxygen', 'oxygen-icons5', 'pavucontrol-qt', 'pcre2', 'qt5-multimedia>=5.15.10', 'qt5-x11extras>=5.15.10', 'qterminal', 'sddm', 'sysstat', 'xbacklight', 'xdg-user-dirs', 'xdg-utils', 'xorg-server', 'xscreensaver']"
 +++
-Lumina Desktop Environment."
+Lumina Desktop Environment.
 
 {{< files text="show files" >}}* /etc/lumina/luminaDesktop.conf
 * /etc/luminaDesktop.conf.dist

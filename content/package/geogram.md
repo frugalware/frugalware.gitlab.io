@@ -14,7 +14,7 @@ sha1sum = "75cf2535b216bf36f3fc61aad37b20f3f0f4a864"
 depends = "['glfw', 'libglu', 'libxcursor', 'libxi', 'libxinerama', 'libxrandr', 'libxxf86vm']"
 reverse_depends = "['alicevision']"
 +++
-Library of geometric algorithms. It includes a simple yet efficient Mesh data structure."
+Library of geometric algorithms. It includes a simple yet efficient Mesh data structure.
 
 {{< files text="show files" >}}* /usr/include/geogram1/geogram/api/defs.h
 * /usr/include/geogram1/geogram/basic/algorithm.h

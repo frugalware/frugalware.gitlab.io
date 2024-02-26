@@ -13,7 +13,7 @@ usize = "108469"
 sha1sum = "6eb5ec46b0153739833779c55b93133964df3e61"
 depends = "['apr-util>=1.5.4-3', 'subversion=1.14.3']"
 +++
-Standalone SVN server daemon"
+Standalone SVN server daemon
 
 {{< files text="show files" >}}* /etc/sysconfig/svnserve
 * /usr/bin/svnserve

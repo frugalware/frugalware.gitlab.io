@@ -13,7 +13,7 @@ usize = "2596822"
 sha1sum = "682ee73d1a0978a5093ebfbaeb2cf0333cf4f2d5"
 depends = "['openssl>=1.1.1', 'qt5-base>=5.15.10', 'qt5-qdbus>=5.15.10', 'qt5-svg', 'transmission-cli>=4.0.5']"
 +++
-Qt5 based gui for transmission."
+Qt5 based gui for transmission.
 
 {{< files text="show files" >}}* /usr/bin/transmission-qt
 * /usr/share/applications/transmission-qt.desktop

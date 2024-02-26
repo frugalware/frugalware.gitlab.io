@@ -13,7 +13,7 @@ usize = "18568"
 sha1sum = "f02b4521b3ce7163c1b900adb3a84477c7f2166f"
 depends = "['claws-mail=4.1.1']"
 +++
-This plugin inserts headers containing some download information."
+This plugin inserts headers containing some download information.
 
 {{< files text="show files" >}}* /usr/lib/claws-mail/plugins/fetchinfo.so
 {{< /files >}}

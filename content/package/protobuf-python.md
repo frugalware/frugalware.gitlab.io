@@ -13,7 +13,7 @@ usize = "1419890"
 sha1sum = "8d40fa219ed139e99aea8b446687582a3d0a4d94"
 depends = "['protobuf=25.3', 'python3>=3.12']"
 +++
-python bindings for protobuf"
+python bindings for protobuf
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/google/protobuf/any_pb2.py
 * /usr/lib/python3.12/site-packages/google/protobuf/api_pb2.py

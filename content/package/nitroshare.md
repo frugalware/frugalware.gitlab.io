@@ -13,7 +13,7 @@ usize = "564368"
 sha1sum = "268f7616c9ba3b63191751180ee1adc1b7ca06c5"
 depends = "['hicolor-icon-theme', 'python3', 'qhttpengine', 'qmdnsengine', 'qt5-svg']"
 +++
-LAN file sender application, designed to make transferring files from one device to another extremely simple"
+LAN file sender application, designed to make transferring files from one device to another extremely simple
 
 {{< files text="show files" >}}* /usr/bin/nitroshare
 * /usr/bin/nitroshare-send

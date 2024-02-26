@@ -14,7 +14,7 @@ sha1sum = "e541b42e882beb101005cdc2b134879a09c0e428"
 depends = "['kcmutils>=5.115.0', 'plasma-framework>=5.115.0', 'plasma-workspace>=5.27.10']"
 reverse_depends = "['kmenuedit5']"
 +++
-KDE's hotkey daemon."
+KDE's hotkey daemon.
 
 {{< files text="show files" >}}* /usr/lib/cmake/KHotKeysDBusInterface/KHotKeysDBusInterfaceConfig.cmake
 * /usr/lib/libkhotkeysprivate.so.5

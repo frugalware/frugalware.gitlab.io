@@ -14,7 +14,7 @@ sha1sum = "adcfab4b7177cfb14b31c29bc3211e37c0f2b794"
 depends = "['ruby>=3.2.0', 'ruby>=3.3.0']"
 reverse_depends = "['ruby-ronn']"
 +++
-Fast Implementation of Gruber's Markdown in C"
+Fast Implementation of Gruber's Markdown in C
 
 {{< files text="show files" >}}* /usr/bin/rdiscount
 * /usr/lib/ruby/gems/3.3.0/cache/rdiscount-2.2.7.3.gem

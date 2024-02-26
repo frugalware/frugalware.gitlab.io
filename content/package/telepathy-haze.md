@@ -13,7 +13,7 @@ usize = "464470"
 sha1sum = "632dac9cae9bdc25ca1ebd48256c3eda27b36bf5"
 depends = "['libpurple>=2.11.0-5', 'pygobject3', 'telepathy-glib>=0.24.1-8']"
 +++
-A telepathy connection manager that use libpurple"
+A telepathy connection manager that use libpurple
 
 {{< files text="show files" >}}* /usr/lib/telepathy-haze/telepathy-haze
 * /usr/share/dbus-1/services/org.freedesktop.Telepathy.ConnectionManager.haze.service

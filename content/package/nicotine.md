@@ -13,7 +13,7 @@ usize = "1641323"
 sha1sum = "4a3a9811ce274718da32fc7d367cbde0da311908"
 depends = "[]"
 +++
-Nicotine is a SoulSeek client written in Python"
+Nicotine is a SoulSeek client written in Python
 
 {{< files text="show files" >}}* usr/bin/nicotine
 * usr/bin/nicotine-import-winconfig

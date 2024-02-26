@@ -13,7 +13,7 @@ usize = "2583984"
 sha1sum = "fdaad71df3556fdac9b670148078379e97e12932"
 depends = "['libice', 'libxext', 'libxrender']"
 +++
-Qt4 DesignerComponents Library"
+Qt4 DesignerComponents Library
 
 {{< files text="show files" >}}* usr/include/QtDesigner/QDesignerComponents
 * usr/include/QtDesigner/qdesigner_components.h

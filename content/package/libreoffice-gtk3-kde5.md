@@ -13,7 +13,7 @@ usize = "2252512"
 sha1sum = "396516a2ea6429e6d66722a930f0c4e2324c6d10"
 depends = "['gtk+3', 'kconfig', 'kcoreaddons', 'ki18n', 'kio', 'kwindowsystem', 'libreoffice>=24.2.0.3', 'libreoffice-gtk3', 'qt5-base>=5.15.10', 'qt5-x11extras>=5.15.10']"
 +++
-libreoffice KF5/Qt5 integration using GTK3."
+libreoffice KF5/Qt5 integration using GTK3.
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/program/libvclplug_gtk3_kde5lo.so
 {{< /files >}}

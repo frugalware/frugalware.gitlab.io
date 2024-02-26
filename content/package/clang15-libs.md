@@ -13,7 +13,7 @@ usize = "88948394"
 sha1sum = "92dca6a824cc69566dedf3ebd21928ce5abcb801"
 depends = "['libffi>=3.4', 'libxml2']"
 +++
-C/C++ language family frontend for LLVM15 Libs"
+C/C++ language family frontend for LLVM15 Libs
 
 {{< files text="show files" >}}* /usr/lib/libclang-cpp.so.15
 * /usr/lib/libclang.so.15

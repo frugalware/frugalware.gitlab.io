@@ -14,7 +14,7 @@ sha1sum = "f41b8e9e834e6f318df09d1f3c352c73af8b161f"
 depends = "['glibc>=2.34']"
 reverse_depends = "['libpulse']"
 +++
-The SoX Resampler library that aims to give fast and high quality results for any constant resampling ratio"
+The SoX Resampler library that aims to give fast and high quality results for any constant resampling ratio
 
 {{< files text="show files" >}}* /usr/include/soxr-lsr.h
 * /usr/include/soxr.h

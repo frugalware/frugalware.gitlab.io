@@ -14,7 +14,7 @@ sha1sum = "9a490815059e85a4686cbc63ab96d55b761ff41f"
 depends = "['python3>=3.11']"
 reverse_depends = "['python3-zeroconf']"
 +++
-Portable module to access network interface information in Python3."
+Portable module to access network interface information in Python3.
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/netifaces-0.11.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/netifaces-0.11.0-py3.12.egg-info/PKG-INFO

@@ -14,7 +14,7 @@ sha1sum = "6fe6f432d6d61b8c9ccb53bc9a453a197f09ac83"
 depends = "['catdoc>=0.95-3', 'ebook-tools>=0.2.2-6', 'exiv2>=0.28.1', 'ffmpeg>=6.0', 'karchive>=5.115.0', 'kcoreaddons>=5.115.0', 'ki18n>=5.115.0', 'poppler-qt5>=0.62.0', 'qt5-multimedia>=5.10.0', 'taglib>=2.0']"
 reverse_depends = "['baloo5', 'digikam', 'digikam', 'dolphin', 'k3b', 'kdenlive', 'kfind', 'koko', 'plasma-browser-integration']"
 +++
-A library for extracting file metadata."
+A library for extracting file metadata.
 
 {{< files text="show files" >}}* /usr/include/KF5/KFileMetaData/KFileMetaData/EmbeddedImageData
 * /usr/include/KF5/KFileMetaData/kfilemetadata/embeddedimagedata.h

@@ -14,7 +14,7 @@ sha1sum = "ed36a7ab78b3bf5a3ba681453cfa08a3f5c7f73b"
 depends = "['jxrlib', 'libraw>=0.21.1', 'libtiff', 'libwebp', 'openexr>=3.2.0', 'openjpeg', 'zstd']"
 reverse_depends = "['ogre', 'opencascade']"
 +++
-Image library"
+Image library
 
 {{< files text="show files" >}}* /usr/include/FreeImage.h
 * /usr/include/FreeImagePlus.h

@@ -13,7 +13,7 @@ usize = "4172994"
 sha1sum = "15852fa74b5c383138c7e4ad4b163491e4a32259"
 depends = "[]"
 +++
-Protocols and services provided by IANA"
+Protocols and services provided by IANA
 
 {{< files text="show files" >}}* /etc/protocols
 * /etc/services

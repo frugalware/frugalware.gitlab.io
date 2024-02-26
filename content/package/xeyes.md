@@ -14,7 +14,7 @@ sha1sum = "148a14c1c52fc3c23c5cc5a6e7f7012433129115"
 depends = "['libxi', 'libxmu>=1.1.2-2', 'libxrender>=0.9.9-4']"
 license = "GPL2"
 +++
-X.Org xeyes application"
+X.Org xeyes application
 
 {{< files text="show files" >}}* /usr/bin/xeyes
 * /usr/share/doc/xeyes-1.3.0/ChangeLog

@@ -14,7 +14,7 @@ sha1sum = "a1dbd595162628f8a0052e6d331d44893733e57d"
 depends = "['libdrm', 'wayland']"
 reverse_depends = "['kinfocenter5']"
 +++
-Wayland tools to display information about current compositor"
+Wayland tools to display information about current compositor
 
 {{< files text="show files" >}}* /usr/bin/wayland-info
 * /usr/share/doc/wayland-utils-1.2.0/COPYING

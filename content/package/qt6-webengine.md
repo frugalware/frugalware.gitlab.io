@@ -14,7 +14,7 @@ sha1sum = "2ed314b396dc3dcd6f6c167f5c6663df9dce2d58"
 depends = "['ffmpeg>=6.0', 'libepoxy', 'libevent', 'libgbm', 'libjpeg-turbo', 'libkrb5', 'libxcomposite', 'libxcursor', 'libxrandr', 'libxshmfence', 'libxslt', 'nss', 'opus', 'qt6-positioning', 'qt6-webchannel', 'snappy']"
 reverse_depends = "['pyqt6webengine', 'qt6-webview', 'qtcreator', 'seafile-client']"
 +++
-The Qt6 toolkit, qtwebengine"
+The Qt6 toolkit, qtwebengine
 
 {{< files text="show files" >}}* /usr/include/qt6/QtPdf/6.6.2/QtPdf/private/qpdfdocument_p.h
 * /usr/include/qt6/QtPdf/6.6.2/QtPdf/private/qpdffile_p.h

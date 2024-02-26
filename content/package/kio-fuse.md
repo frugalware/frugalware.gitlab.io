@@ -14,7 +14,7 @@ sha1sum = "a4b4fb5b18161eb0d6db1ade7b97cd66c39fa6b1"
 depends = "['fuse3', 'kio>=5.112.0']"
 reverse_depends = "['xdg-desktop-portal-kde']"
 +++
-FUSE interface for KIO"
+FUSE interface for KIO
 
 {{< files text="show files" >}}* /usr/lib/kf5/kio-fuse
 * /usr/lib/systemd/user/kio-fuse.service

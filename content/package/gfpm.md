@@ -13,7 +13,7 @@ usize = "695365"
 sha1sum = "35fda9af766e8cbb19b65f964d1c580f9fb8dedb"
 depends = "['gtk+2>=2.24.29-2', 'openssl>=1.0.2-4']"
 +++
-Graphical Frugalware Package Manager"
+Graphical Frugalware Package Manager
 
 {{< files text="show files" >}}* /usr/bin/gfpm
 * /usr/share/applications/gfpm.desktop

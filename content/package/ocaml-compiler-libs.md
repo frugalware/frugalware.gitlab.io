@@ -14,7 +14,7 @@ sha1sum = "dafcc7c647ec7297e4b6c82d471ee177177142e8"
 depends = "['ocaml']"
 reverse_depends = "['ocaml-compiler-libs-repackaged', 'opam']"
 +++
-Several modules used internally by the OCaml compiler"
+Several modules used internally by the OCaml compiler
 
 {{< files text="show files" >}}* /usr/lib/ocaml/compiler-libs/afl_instrument.cmi
 * /usr/lib/ocaml/compiler-libs/afl_instrument.cmt

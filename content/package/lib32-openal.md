@@ -14,7 +14,7 @@ sha1sum = "da7b14d6ac4a568a427733e661a9098c17e29dcb"
 depends = "['lib32-ffmpeg', 'lib32-sdl2', 'openal=1.23.1']"
 reverse_depends = "['get_steam', 'openloco']"
 +++
-A cross-platform 3D audio API appropriate for use with gaming applications. (32-bit)"
+A cross-platform 3D audio API appropriate for use with gaming applications. (32-bit)
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/openal-info
 * /usr/i686-frugalware-linux/include/AL/al.h

@@ -13,7 +13,7 @@ usize = "42297"
 sha1sum = "b74eef5f2fe2a4a8c888ec4d39d8a43355760704"
 depends = "['python3>=3.11']"
 +++
-Invoke py.test as distutils command with dependency resolution"
+Invoke py.test as distutils command with dependency resolution
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/ptr/__init__.py
 * /usr/lib/python3.12/site-packages/ptr/__pycache__/__init__.cpython-312.opt-1.pyc

@@ -13,7 +13,7 @@ usize = "99894"
 sha1sum = "a1e47706eea4207f7a343fbdca29076c872adad5"
 depends = "['libpcap']"
 +++
-A simple port-knocking daemon"
+A simple port-knocking daemon
 
 {{< files text="show files" >}}* /etc/knockd.conf
 * /etc/logrotate.d/knockd

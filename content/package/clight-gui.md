@@ -13,7 +13,7 @@ usize = "515042"
 sha1sum = "fdb72113c429aed381cff1c6ef4ccfb3f495a1b5"
 depends = "['clight', 'qt5-charts>=5.15.10']"
 +++
-Qt GUI for Clight"
+Qt GUI for Clight
 
 {{< files text="show files" >}}* /usr/bin/clight-gui
 * /usr/share/doc/clight-gui-4.8/LICENSE

@@ -13,7 +13,7 @@ usize = "35485952"
 sha1sum = "1a6333573a4ea395338f31c7d50650ee597cb49f"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Portuguese support in LibreOffice"
+Installs Portuguese support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/help/pt/default.css
 * /usr/lib/libreoffice/help/pt/err.html

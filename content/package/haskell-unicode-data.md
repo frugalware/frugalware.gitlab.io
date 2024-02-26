@@ -14,7 +14,7 @@ sha1sum = "ece2da7c3ad4562a18863be5da7dd53ba8ca9390"
 depends = "['ghc>=9.8.1']"
 reverse_depends = "['haskell-unicode-transforms']"
 +++
-Unicode data"
+Unicode data
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/unicode-data-0.4.0.1/libHSunicode-data-0.4.0.1-KOM962DJlWYA3uLGs2ixR9.a
 * /usr/lib/ghc-9.8.1/site-local/unicode-data-0.4.0.1/Unicode/Char.dyn_hi

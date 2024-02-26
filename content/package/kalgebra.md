@@ -13,7 +13,7 @@ usize = "1999542"
 sha1sum = "02fb7f53fbfec2329daea252b4fc4b4c1d6505c3"
 depends = "['analitza>=23.08.5', 'kio>=5.115.0', 'libglu>=9.0.0-3', 'qt5-webengine>=5.15.12', 'readline>=8.0']"
 +++
-2D and 3D Graph Calculator."
+2D and 3D Graph Calculator.
 
 {{< files text="show files" >}}* /usr/bin/calgebra
 * /usr/share/doc/HTML/ca/kalgebra/commands.docbook

@@ -13,7 +13,7 @@ usize = "2330891"
 sha1sum = "7d56eec5540d258d06e28660675f6e86c62edbec"
 depends = "['libpq>=14.10', 'libxml2>=2.9.4-3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.12', 'readline>=6.3-14']"
 +++
-Seperate latest 14 PGSQL for pg_upgrade"
+Seperate latest 14 PGSQL for pg_upgrade
 
 {{< files text="show files" >}}* /opt/pgsql-14/bin/oid2name
 * /opt/pgsql-14/bin/vacuumlo

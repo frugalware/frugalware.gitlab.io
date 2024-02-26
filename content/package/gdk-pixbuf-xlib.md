@@ -14,7 +14,7 @@ sha1sum = "d4bb4ef68771c1848e6380e04592ffc0dbfb2d28"
 depends = "['gdk-pixbuf2', 'libx11']"
 reverse_depends = "['xscreensaver']"
 +++
-Deprecated Xlib integration for GdkPixbuf"
+Deprecated Xlib integration for GdkPixbuf
 
 {{< files text="show files" >}}* /usr/include/gdk-pixbuf-2.0/gdk-pixbuf-xlib/gdk-pixbuf-xlib.h
 * /usr/include/gdk-pixbuf-2.0/gdk-pixbuf-xlib/gdk-pixbuf-xlibrgb.h

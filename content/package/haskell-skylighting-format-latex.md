@@ -14,7 +14,7 @@ sha1sum = "9959f7b516cf8017a332a52ec9a12bac57dd5aea"
 depends = "['haskell-skylighting-core>=0.14']"
 reverse_depends = "['haskell-skylighting']"
 +++
-LaTeX formatter for skylighting syntax highlighting library"
+LaTeX formatter for skylighting syntax highlighting library
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/skylighting-format-latex-0.1/libHSskylighting-format-latex-0.1-EEKvs0L1dG37wYTZH3s4jr.a
 * /usr/lib/ghc-9.8.1/site-local/skylighting-format-latex-0.1/Skylighting/Format/LaTeX.dyn_hi

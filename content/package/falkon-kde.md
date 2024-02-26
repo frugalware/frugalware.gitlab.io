@@ -13,7 +13,7 @@ usize = "108456"
 sha1sum = "718373e0025388ae6c093c071514a06739d7c02d"
 depends = "['falkon', 'kio>=5.115.0', 'kwallet5>=5.115.0', 'purpose>=5.115.0']"
 +++
-Plugin for Falkon integration with KWallet."
+Plugin for Falkon integration with KWallet.
 
 {{< files text="show files" >}}* /usr/lib/qt5/plugins/falkon/KDEFrameworksIntegration.so
 {{< /files >}}

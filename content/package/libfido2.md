@@ -14,7 +14,7 @@ sha1sum = "2037c9099ab969321e793b2ef86ead0cad429ba1"
 depends = "['libcbor>=0.11.0', 'libhidapi', 'openssl>=3.1.0', 'systemd']"
 reverse_depends = "['openssh']"
 +++
-Library functionality for FIDO 2.0, including communication with a device over USB"
+Library functionality for FIDO 2.0, including communication with a device over USB
 
 {{< files text="show files" >}}* /usr/bin/fido2-assert
 * /usr/bin/fido2-cred

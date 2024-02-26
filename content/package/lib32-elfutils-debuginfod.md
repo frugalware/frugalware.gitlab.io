@@ -13,7 +13,7 @@ usize = "59333"
 sha1sum = "d38d5fd7652163d4427581972922ab9d01594698"
 depends = "['lib32-curl', 'lib32-elfutils']"
 +++
-Elfutils debuginfod (32-bit)"
+Elfutils debuginfod (32-bit)
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/debuginfod-find
 * /usr/i686-frugalware-linux/include/elfutils/debuginfod.h

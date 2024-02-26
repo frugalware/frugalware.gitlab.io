@@ -14,7 +14,7 @@ sha1sum = "0fbc2659d4c295284efc09c0fe92755d49dc707c"
 depends = "['python3']"
 reverse_depends = "['hotdoc']"
 +++
-A lightweight template library"
+A lightweight template library
 
 {{< files text="show files" >}}* /usr/bin/wheezy.template
 * /usr/lib/python3.12/site-packages/wheezy.template-3.2.1-py3.12-nspkg.pth

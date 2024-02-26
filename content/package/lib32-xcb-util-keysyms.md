@@ -14,7 +14,7 @@ sha1sum = "7aefc2090ffe48d29ebe596cc123f8a4a758a6cb"
 depends = "['lib32-libxcb>=1.13']"
 reverse_depends = "['lib32-mesa-vulkan-amd', 'lib32-mesa-vulkan-intel', 'lib32-mesa-vulkan-swrast', 'lib32-xorg-server-xephyr']"
 +++
-keysyms libraries for X C Binding ( 32bit )"
+keysyms libraries for X C Binding ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/include/xcb/xcb_keysyms.h
 * /usr/lib32/libxcb-keysyms.so

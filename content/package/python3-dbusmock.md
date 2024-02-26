@@ -13,7 +13,7 @@ usize = "754370"
 sha1sum = "44d9861b4251b2bebcbd3e9e21fd05bc73d887d8"
 depends = "['dbus-python']"
 +++
-python-dbusmock: mock D-Bus objects for tests"
+python-dbusmock: mock D-Bus objects for tests
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/dbusmock/mockobject.py
 * /usr/lib/python3.12/site-packages/dbusmock/pytest_fixtures.py

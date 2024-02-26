@@ -13,7 +13,7 @@ usize = "654945"
 sha1sum = "26cb706cb266cec0cb4d22bfa6cb7071d68da085"
 depends = "['libstdc++', 'ncurses>=6.0-3', 'openssl>=3.1.0', 'perl>=5.22.0', 'protobuf>=25.3', 'zlib>=1.2.12']"
 +++
-SSH replacement with roaming, supports intermittent connectivity"
+SSH replacement with roaming, supports intermittent connectivity
 
 {{< files text="show files" >}}* /usr/bin/mosh
 * /usr/bin/mosh-client

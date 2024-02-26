@@ -14,7 +14,7 @@ sha1sum = "52bf9458ebad8be723a795d0c157d747b3928343"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
-Dutch language support for Thunderbird"
+Dutch language support for Thunderbird
 
 {{< files text="show files" >}}* /usr/lib/thunderbird/extensions/langpack-nl@thunderbird.mozilla.org.xpi
 {{< /files >}}

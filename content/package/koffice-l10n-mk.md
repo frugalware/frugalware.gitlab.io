@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "2fd44f67dd33b182a665740b395fe01bf7946188"
 depends = "[]"
 +++
-Macedonian Localization for KOffice. "
+Macedonian Localization for KOffice. 
 
 {{< files text="show files" >}}* usr/share/locale/mk/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/mk/LC_MESSAGES/example.mo

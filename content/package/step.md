@@ -13,7 +13,7 @@ usize = "11882423"
 sha1sum = "dc8f911b81c17a39ef3c6a28eb1683249b8b2e99"
 depends = "['gsl>=2.6', 'kdelibs4support>=5.115.0', 'khtml>=5.115.0', 'knewstuff>=5.115.0', 'libqalculate>=3.20.1']"
 +++
-Interactive Physics Simulator."
+Interactive Physics Simulator.
 
 {{< files text="show files" >}}* /usr/bin/step
 * /usr/share/applications/org.kde.step.desktop

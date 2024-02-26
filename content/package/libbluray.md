@@ -14,7 +14,7 @@ sha1sum = "3640e1ce1fe9e375945aa400dd6822c4605bf716"
 depends = "['fontconfig>=2.12.1-2', 'freetype2>=2.10.0', 'libxml2>=2.9.4-3']"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gvfs', 'mencoder', 'mplayer', 'mpv', 'vlc-bluray']"
 +++
-Blu-Ray access library"
+Blu-Ray access library
 
 {{< files text="show files" >}}* /usr/bin/bd_info
 * /usr/bin/bd_list_titles

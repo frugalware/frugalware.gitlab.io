@@ -13,7 +13,7 @@ usize = "76414"
 sha1sum = "a09a1c3d1d4f9d424b2fea32d4e5a30a5acf39d9"
 depends = "['avalon-logkit']"
 +++
-Avalon Framework"
+Avalon Framework
 
 {{< files text="show files" >}}* /usr/share/java/avalon-framework.jar
 {{< /files >}}

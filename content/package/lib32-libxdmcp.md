@@ -14,7 +14,7 @@ sha1sum = "742fa2d76f9a49b5df569c021788a81498c0e007"
 depends = "[]"
 reverse_depends = "['lib32-libx11', 'lib32-libxcb', 'lib32-xcb-util', 'lib32-xcb-util-image', 'lib32-xcb-util-wm', 'lib32-xorg-server-fbdev']"
 +++
-X.Org Xdmcp library ( 32bit )"
+X.Org Xdmcp library ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/Xdmcp.h
 * /usr/lib32/libXdmcp.so

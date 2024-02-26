@@ -14,7 +14,7 @@ sha1sum = "b674dbb55a6e3c4588f3ed8902ba7f7619e376f1"
 depends = "['libjpeg-turbo', 'libpng', 'libtiff']"
 reverse_depends = "['autopano-sift-c']"
 +++
-Basic library to calculate panoramical pictures - core functions of the panotools."
+Basic library to calculate panoramical pictures - core functions of the panotools.
 
 {{< files text="show files" >}}* /usr/bin/panoinfo
 * /usr/bin/PTblender

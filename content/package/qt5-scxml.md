@@ -13,7 +13,7 @@ usize = "1030293"
 sha1sum = "c6846f8eef070bf3c43d6c5b4b43b0d6e09e234c"
 depends = "['qt5-declarative>=5.15.12']"
 +++
-The Qt5 toolkit, qtscxml"
+The Qt5 toolkit, qtscxml
 
 {{< files text="show files" >}}* /usr/bin/qscxmlc
 * /usr/bin/qscxmlc-qt5

@@ -14,7 +14,7 @@ sha1sum = "beb13e88010770a629ab5559609abee3665d4781"
 depends = "['glibc>=2.34']"
 reverse_depends = "['gst1-plugins-bad', 'pipewire']"
 +++
-AOSP libldac dispatcher"
+AOSP libldac dispatcher
 
 {{< files text="show files" >}}* /usr/include/ldac/ldacBT.h
 * /usr/include/ldac/ldacBT_abr.h

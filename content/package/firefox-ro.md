@@ -14,7 +14,7 @@ sha1sum = "623791116cea27adb368f0b462e7938b2eeccdce"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Romanian language support for Firefox"
+Romanian language support for Firefox
 
 {{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-ro@firefox.mozilla.org.xpi
 {{< /files >}}

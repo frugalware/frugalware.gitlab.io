@@ -13,7 +13,7 @@ usize = "466651136"
 sha1sum = "e036f4e69b9becb7df204961ce355151af512874"
 depends = "[]"
 +++
-Frugalware Versatile Bootable Environment (Basic)"
+Frugalware Versatile Bootable Environment (Basic)
 
 {{< files text="show files" >}}* /usr/share/fvbe/fvbe-2.0rc2-basic-x86_64.iso
 {{< /files >}}

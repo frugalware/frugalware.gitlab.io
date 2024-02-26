@@ -13,7 +13,7 @@ usize = "53483932"
 sha1sum = "8c0a6add54886270c90833341fcce207e87519dc"
 depends = "['openjre', 'swt']"
 +++
-OneSwarm is a new peer-to-peer tool."
+OneSwarm is a new peer-to-peer tool.
 
 {{< files text="show files" >}}* /usr/bin/oneswarm
 * /usr/share/applications/oneswarm.desktop

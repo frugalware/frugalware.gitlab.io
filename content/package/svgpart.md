@@ -13,7 +13,7 @@ usize = "103805"
 sha1sum = "3669c3cb5e9a57e25be95b8858a1eda2c8d2023e"
 depends = "['kcoreaddons>=5.115.0', 'kparts>=5.115.0', 'kxmlgui>=5.115.0']"
 +++
-KDE kpart for viewing SVGs."
+KDE kpart for viewing SVGs.
 
 {{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/parts/svgpart.so
 * /usr/share/kservices5/svgpart.desktop

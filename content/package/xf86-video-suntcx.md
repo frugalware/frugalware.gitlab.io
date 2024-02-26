@@ -14,6 +14,6 @@ sha1sum = ""
 depends = "['xorg-server>=1.6.1-2']"
 license = "GPL2"
 +++
-X.Org video driver for vmware cards"
+X.Org video driver for vmware cards
 
 {{< files text="show files" >}}{{< /files >}}

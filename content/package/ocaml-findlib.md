@@ -15,7 +15,7 @@ depends = "['ocaml>=5.1.1']"
 reverse_depends = "['libguestfs-ocaml', 'supermin']"
 license = "MIT"
 +++
-Objective Caml (OCaml) package manager"
+Objective Caml (OCaml) package manager
 
 {{< files text="show files" >}}* /etc/findlib.conf
 * /usr/bin/ocamlfind

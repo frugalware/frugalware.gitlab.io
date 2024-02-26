@@ -13,7 +13,7 @@ usize = "1530620"
 sha1sum = "1bcffc4517ab99309e5500c4da60d83fe59fb024"
 depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5']"
 +++
-The classic Minesweeper game."
+The classic Minesweeper game.
 
 {{< files text="show files" >}}* /usr/bin/kmines
 * /usr/share/applications/org.kde.kmines.desktop

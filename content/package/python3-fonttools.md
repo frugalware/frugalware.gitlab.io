@@ -13,7 +13,7 @@ usize = "8817560"
 sha1sum = "c492153e9aeb5e6cd9e364a242061b95cea84ff2"
 depends = "['python3>=3.11']"
 +++
-Library to manipulate font files from Python"
+Library to manipulate font files from Python
 
 {{< files text="show files" >}}* /usr/bin/fonttools
 * /usr/bin/pyftmerge

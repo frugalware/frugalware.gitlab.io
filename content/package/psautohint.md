@@ -13,7 +13,7 @@ usize = "567535"
 sha1sum = "13b2743d8d75d6a71af89f278e11a821b44786a6"
 depends = "['python3-setuptools_scm']"
 +++
-A standalone version of AFDKO’s autohinter"
+A standalone version of AFDKO’s autohinter
 
 {{< files text="show files" >}}* /usr/bin/psautohint
 * /usr/bin/psstemhist

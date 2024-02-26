@@ -15,7 +15,7 @@ depends = "['xorg-server>=1.20.4-3']"
 reverse_depends = "['xorg-compat']"
 license = "GPL2"
 +++
-X.Org driver for fbdev cards"
+X.Org driver for fbdev cards
 
 {{< files text="show files" >}}* /usr/lib/xorg/modules/drivers/fbdev_drv.so
 * /usr/share/doc/xf86-video-fbdev-0.5.0/ChangeLog

@@ -13,7 +13,7 @@ usize = "1786875"
 sha1sum = "9d502439c42a7aa0ec574dd58045700e812ff479"
 depends = "[]"
 +++
-Extra CMake modules."
+Extra CMake modules.
 
 {{< files text="show files" >}}* /usr/share/doc/ECM/html/find-module/Find7z.html
 * /usr/share/doc/ECM/html/find-module/Find7Zip.html

@@ -14,7 +14,7 @@ sha1sum = "c7cc0fed34803a40af484097782d275224a5a455"
 depends = "['glibc>=2.35', 'lib32-gmp>=6.1.2-9']"
 reverse_depends = "['lib32-gettext', 'lib32-lame', 'lib32-libcaca', 'lib32-libedit', 'lib32-llvm-libs', 'lib32-pcre2', 'lib32-readline', 'lib32-sqlite3', 'lib32-util-linux', 'lib32-vkd3d', 'wine', 'wine-devel']"
 +++
-A System V curses emulation library ( 32bit )"
+A System V curses emulation library ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/captoinfo
 * /usr/i686-frugalware-linux/bin/captoinfow

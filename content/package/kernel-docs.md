@@ -13,7 +13,7 @@ usize = "47033675"
 sha1sum = "6251870977be96c026e7dc443027203cc6204c6f"
 depends = "[]"
 +++
-Linux kernel documentation"
+Linux kernel documentation
 
 {{< files text="show files" >}}* /usr/src/linux-6.7.6-fw1/COPYING
 * /usr/src/linux-6.7.6-fw1/CREDITS

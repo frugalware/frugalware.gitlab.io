@@ -14,7 +14,7 @@ sha1sum = "926f4ad36a1e23648f0ad7e6dcbd680bc94f0bb2"
 depends = "[]"
 reverse_depends = "['alicevision', 'analitza', 'ceres-solver', 'insight-toolkit', 'kalzium', 'kstars', 'luminance-hdr', 'opencv', 'opengv']"
 +++
-A lightweight C++ template library for vector and matrix math."
+A lightweight C++ template library for vector and matrix math.
 
 {{< files text="show files" >}}* /usr/include/eigen3/Eigen/Cholesky
 * /usr/include/eigen3/Eigen/CholmodSupport

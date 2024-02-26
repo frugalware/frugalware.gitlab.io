@@ -13,7 +13,7 @@ usize = "2482349"
 sha1sum = "b14ec07441c4104c09a163dcdf557073144c6bb5"
 depends = "['freeciv', 'gtk+2']"
 +++
-GTK+2 client for freeciv"
+GTK+2 client for freeciv
 
 {{< files text="show files" >}}* /usr/bin/freeciv-gtk2
 * /usr/share/appdata/freeciv-gtk2.appdata.xml

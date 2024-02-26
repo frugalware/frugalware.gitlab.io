@@ -14,7 +14,7 @@ sha1sum = "3492232f817f0d4ae497b66926a3eeb8a9f256ac"
 depends = "['haskell-hashable>=1.4.2.0', 'haskell-random>=1.2.1']"
 reverse_depends = "['haskell-aeson', 'haskell-http-api-data']"
 +++
-Type definitions for Universally Unique Identifiers"
+Type definitions for Universally Unique Identifiers
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/uuid-types-1.0.5.1/Data/UUID/Types.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/uuid-types-1.0.5.1/Data/UUID/Types.hi

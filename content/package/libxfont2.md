@@ -15,7 +15,7 @@ depends = "['freetype2>=2.9', 'libfontenc>=1.1.3-3']"
 reverse_depends = "['xfs', 'xorg-server', 'xorg-server-xwayland']"
 license = "GPL2"
 +++
-X font Library V2"
+X font Library V2
 
 {{< files text="show files" >}}* /usr/include/X11/fonts/libxfont2.h
 * /usr/lib/libXfont2.so

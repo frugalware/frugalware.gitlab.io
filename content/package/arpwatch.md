@@ -13,7 +13,7 @@ usize = "97166"
 sha1sum = "03186c8106c231f48a417aa970ea30053655b1d5"
 depends = "['libpcap', 'postfix']"
 +++
-Ethernet/FDDI station activity monitor"
+Ethernet/FDDI station activity monitor
 
 {{< files text="show files" >}}* /usr/bin/arpsnmp
 * /usr/bin/arpwatch

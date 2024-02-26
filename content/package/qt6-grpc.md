@@ -13,7 +13,7 @@ usize = "2205617"
 sha1sum = "71ddeac53e8e5cdec3a216287cd73a8723f52a22"
 depends = "['grpc>=1.62', 'qt6-quick3d']"
 +++
-The Qt6 toolkit, qtgrpc"
+The Qt6 toolkit, qtgrpc
 
 {{< files text="show files" >}}* /usr/include/qt6/QtGrpc/6.6.2/QtGrpc/private/qabstractgrpcchannel_p.h
 * /usr/include/qt6/QtGrpc/6.6.2/QtGrpc/private/qgrpcchannel_p.h

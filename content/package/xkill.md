@@ -14,7 +14,7 @@ sha1sum = "f2c0549d65b14c9f87d07a58b6f6edef8a1ba587"
 depends = "['libxmu>=1.1.2-3']"
 license = "GPL2"
 +++
-X.Org xkill application"
+X.Org xkill application
 
 {{< files text="show files" >}}* /usr/bin/xkill
 * /usr/share/doc/xkill-1.0.6/ChangeLog

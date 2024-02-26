@@ -14,7 +14,7 @@ sha1sum = "7292516981382059891bba7462b2bea6c1cf44f1"
 depends = "['curl>=7.50.3-2', 'openssl>=3.1.0', 'python3', 'zlib>=1.2.12']"
 reverse_depends = "['system-config-printer']"
 +++
-Python module interface to the cURL library"
+Python module interface to the cURL library
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pycurl-7.45.3-py3.12-linux-x86_64.egg/curl/__init__.py
 * /usr/lib/python3.12/site-packages/pycurl-7.45.3-py3.12-linux-x86_64.egg/curl/__pycache__/__init__.cpython-312.pyc

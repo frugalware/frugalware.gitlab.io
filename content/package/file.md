@@ -14,7 +14,7 @@ sha1sum = "e07cba547ba91832730fa5c612a655de8e9eb43e"
 depends = "['bzip2', 'glibc>=2.35', 'xz', 'zlib>=1.2.12', 'zstd']"
 reverse_depends = "['dracut', 'inxi', 'knoda', 'less', 'libmicrohttpd', 'mkvtoolnix', 'nano', 'scriptlet-core', 'subversion']"
 +++
-File type identification utility"
+File type identification utility
 
 {{< files text="show files" >}}* /etc/magic
 * /usr/bin/file

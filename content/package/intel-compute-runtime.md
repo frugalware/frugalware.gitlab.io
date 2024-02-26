@@ -13,7 +13,7 @@ usize = "36519390"
 sha1sum = "a4860eae2e015ae3b786d2e93b47669d2c2baf81"
 depends = "['gmmlib', 'igsc', 'intel-graphics-compiler>=1.0.5064', 'libdrm', 'libva']"
 +++
-Intel(R) Graphics Compute Runtime for OpenCL(TM). Replaces Beignet for Gen8 (Broadwell) and beyond."
+Intel(R) Graphics Compute Runtime for OpenCL(TM). Replaces Beignet for Gen8 (Broadwell) and beyond.
 
 {{< files text="show files" >}}* /etc/OpenCL/vendors/intel.icd
 * /usr/bin/ocloc

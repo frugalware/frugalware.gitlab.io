@@ -13,7 +13,7 @@ usize = "34728"
 sha1sum = "0516340f3b0aa084a5912c45a118ac4e93874384"
 depends = "['hspell>=1.3-3']"
 +++
-Hspell plugin for sonnet"
+Hspell plugin for sonnet
 
 {{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/sonnet/sonnet_hspell.so
 {{< /files >}}

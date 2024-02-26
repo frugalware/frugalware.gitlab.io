@@ -13,7 +13,7 @@ usize = "158092"
 sha1sum = "f9acc02586ec34e5c7cd27738e55243ae356f7b6"
 depends = "['curl>=7.44.0-2', 'nss']"
 +++
-An open protocol to allow secure API authorization in a simple and standard method from desktop and web applications."
+An open protocol to allow secure API authorization in a simple and standard method from desktop and web applications.
 
 {{< files text="show files" >}}* /usr/include/oauth.h
 * /usr/lib/liboauth.la

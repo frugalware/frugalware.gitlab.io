@@ -14,7 +14,7 @@ sha1sum = "e5fdfc1cd9facc951f4a2d20e37496d416e979bf"
 depends = "['libdrm>=2.4.70-2', 'libglvnd', 'libxext>=1.3.3-3', 'libxfixes>=5.0.1-3', 'wayland>=1.11.0-3']"
 reverse_depends = "['chromium-browser', 'ffmpeg', 'ffmpeg4.4', 'intel-compute-runtime', 'libva-intel-driver', 'libva-utils', 'libva-vdpau-driver', 'libvdpau-va-gl', 'libvpl', 'media-driver', 'mpv', 'stepmania', 'vlc', 'weston', 'xine-lib']"
 +++
-Uniform library API for hardware acceleration of video decoding."
+Uniform library API for hardware acceleration of video decoding.
 
 {{< files text="show files" >}}* /usr/include/va/va.h
 * /usr/include/va/va_backend.h

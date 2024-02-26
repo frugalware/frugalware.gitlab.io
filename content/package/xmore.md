@@ -14,7 +14,7 @@ sha1sum = "61e4811d803c4afb3dde6dca63aa361c67de332a"
 depends = "['libxaw>=1.0.13-3']"
 license = "GPL2"
 +++
-X.Org xmore application"
+X.Org xmore application
 
 {{< files text="show files" >}}* /usr/bin/xmore
 * /usr/share/doc/xmore-1.0.4/ChangeLog

@@ -14,7 +14,7 @@ sha1sum = "e539416f378a2f377554f6acb6287969c7c42a50"
 depends = "['qt5-base>=5.15.6']"
 reverse_depends = "['akonadi-search', 'analitza', 'calamares-frugalware', 'discover', 'firetools', 'flightgear', 'gnuplot', 'k3b', 'kaccounts-providers', 'kanagram', 'kapman', 'kapptemplate', 'katomic', 'kblackbox', 'kblocks', 'kbounce', 'kbreakout', 'kbruch', 'kcron', 'kde-gtk-config', 'kdegraphics-thumbnailers', 'kdenetwork-filesharing', 'kdenlive', 'kdesdk-thumbnailers', 'kdiagram', 'kdiamond', 'keepassxc', 'keysmith', 'kfourinline', 'kgeography', 'kgoldrunner', 'khangman', 'kiconthemes', 'kig', 'kile', 'killbots', 'kimageannotator', 'kirigami2', 'kiriki', 'kiten', 'kjsembed', 'kpmcore', 'krecorder', 'krita', 'krusader', 'kst', 'kuserfeedback', 'kvirc', 'kxmlgui', 'libkgapi', 'libkipi', 'libkmahjongg', 'libkomparediff2', 'librecad', 'luminance-hdr', 'lyx', 'meshroom', 'mixxx', 'mlt-qt', 'mumble', 'nitroshare', 'nomacs', 'okular', 'otter-browser', 'plasma-integration', 'plasma-sdk', 'plasmatube', 'q4wine', 'qbittorrent', 'qmlkonsole', 'qownnotes', 'qt-virt-manager', 'qt5-virtualkeyboard', 'qtav', 'qtcurve-qt5', 'qtox', 'qtractor', 'quassel', 'rolisteam', 'sigil', 'skrooge', 'sqlitestudio', 'texstudio', 'tiled', 'transmission-qt', 'vlc', 'vulkan-lunarg-tools', 'wireshark-qt', 'yakuake']"
 +++
-The Qt5 toolkit, qtsvg"
+The Qt5 toolkit, qtsvg
 
 {{< files text="show files" >}}* /usr/include/qt5/QtSvg/5.15.12/QtSvg/private/qsvgfont_p.h
 * /usr/include/qt5/QtSvg/5.15.12/QtSvg/private/qsvggraphics_p.h

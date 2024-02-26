@@ -14,7 +14,7 @@ sha1sum = "780767138758644726e08b642b97fffa4e5dcb6c"
 depends = "['glibc>=2.34']"
 reverse_depends = "['pipewire', 'pulseaudio-bluetooth', 'wireshark-qt']"
 +++
-Library for Low Complexity Subband Coding with BlueZ"
+Library for Low Complexity Subband Coding with BlueZ
 
 {{< files text="show files" >}}* /usr/bin/sbcdec
 * /usr/bin/sbcenc

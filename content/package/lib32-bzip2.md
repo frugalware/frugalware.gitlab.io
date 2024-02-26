@@ -14,7 +14,7 @@ sha1sum = "00266e88adf680ee818684dd060f60720cb803cb"
 depends = "['glibc>=2.35']"
 reverse_depends = "['lib32-elfutils', 'lib32-file', 'lib32-fontconfig', 'lib32-freetype2', 'lib32-libzip', 'lib32-pcre', 'lib32-pcre2']"
 +++
-A block-sorting file compressor ( 32bit )"
+A block-sorting file compressor ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/include/bzlib.h
 * /usr/lib32/libbz2.so

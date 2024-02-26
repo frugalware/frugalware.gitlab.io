@@ -14,7 +14,7 @@ sha1sum = "1cc9edc535d173c9968b71d4091f8717c6c252a5"
 depends = "['glibc']"
 reverse_depends = "['libtracefs', 'perf']"
 +++
-Linux kernel trace event library"
+Linux kernel trace event library
 
 {{< files text="show files" >}}* /usr/include/traceevent/event-parse.h
 * /usr/include/traceevent/event-utils.h

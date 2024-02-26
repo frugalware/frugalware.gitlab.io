@@ -13,7 +13,7 @@ usize = "367656"
 sha1sum = "70453a7cb496e3ee92ec2426c64c5d7d381e08f8"
 depends = "[]"
 +++
-Lipstik theme for KDE"
+Lipstik theme for KDE
 
 {{< files text="show files" >}}* usr/lib/kde3/kstyle_lipstik_config.la
 * usr/lib/kde3/kstyle_lipstik_config.so

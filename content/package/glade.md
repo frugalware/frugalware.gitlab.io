@@ -14,7 +14,7 @@ sha1sum = "2ffb00976fa653ce453713115aa98c86185347df"
 depends = "['gtk+3', 'libxml2>=2.9.4-3', 'python3']"
 reverse_depends = "['gnunet', 'gtk2-sharp', 'xscreensaver']"
 +++
-Allows you to load glade interface files in a program at runtime"
+Allows you to load glade interface files in a program at runtime
 
 {{< files text="show files" >}}* /usr/bin/glade
 * /usr/bin/glade-previewer

@@ -14,7 +14,7 @@ sha1sum = "32a0523ad486af5ccf5e5f88390c9eddd8771927"
 depends = "['at-spi2-core', 'gdk-pixbuf2>=2.36.11-3', 'libxcomposite>=0.4.4-3', 'libxcursor>=1.1.14-3', 'libxi>=1.7.6-2', 'libxinerama>=1.1.3-3', 'libxrandr>=1.5.0-5', 'pango>=1.42.0']"
 reverse_depends = "['calf', 'gail', 'gtk+2', 'hexchat', 'libdbusmenu-gtk2', 'openjfx', 'qtcurve-gtk2']"
 +++
-GTK+2 core libraries."
+GTK+2 core libraries.
 
 {{< files text="show files" >}}* /usr/lib/libgdk-x11-2.0.so
 * /usr/lib/libgdk-x11-2.0.so.0

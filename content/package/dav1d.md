@@ -14,7 +14,7 @@ sha1sum = "5bbef8503778d627b0fd2368a4f5e34b0d7e6d97"
 depends = "[]"
 reverse_depends = "['chromium-browser', 'ffmpeg', 'ffmpeg4.4', 'firefox', 'libavif', 'libheif', 'thunderbird', 'vlc-dav1d', 'xine-lib']"
 +++
-dav1d is an AV1 decoder"
+dav1d is an AV1 decoder
 
 {{< files text="show files" >}}* /usr/bin/dav1d
 * /usr/include/dav1d/common.h

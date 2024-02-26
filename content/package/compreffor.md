@@ -13,7 +13,7 @@ usize = "292114"
 sha1sum = "f9efc74379f07d13d78ee0e7e80e8acb9328b215"
 depends = "['python3>=3.10']"
 +++
-A CFF subroutinizer for fontTools."
+A CFF subroutinizer for fontTools.
 
 {{< files text="show files" >}}* /usr/bin/compreffor
 * /usr/lib/python3.12/site-packages/compreffor-0.5.5-py3.12.egg-info/dependency_links.txt

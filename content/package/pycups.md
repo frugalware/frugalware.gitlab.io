@@ -13,7 +13,7 @@ usize = "230869"
 sha1sum = "668768fdd1a08f1b0699bd3c47126dee575bba1a"
 depends = "['libcups', 'python3']"
 +++
-The python bindings for cups."
+The python bindings for cups.
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/cups.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/pycups-1.9.73-py3.12.egg-info/dependency_links.txt

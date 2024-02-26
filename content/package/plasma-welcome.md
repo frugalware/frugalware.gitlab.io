@@ -13,7 +13,7 @@ usize = "1410592"
 sha1sum = "29044ae0fcfa8fb8375289340f738c408eecab5f"
 depends = "['kaccounts-integration>=23.08.4', 'kirigami2>=5.115.0', 'knewstuff>=5.115.0', 'kuserfeedback', 'plasma-framework>=5.115.0']"
 +++
-A friendly onboarding wizard for Plasma"
+A friendly onboarding wizard for Plasma
 
 {{< files text="show files" >}}* /etc/xdg/autostart/org.kde.plasma-welcome.desktop
 * /usr/bin/plasma-welcome

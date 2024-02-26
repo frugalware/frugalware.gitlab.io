@@ -14,7 +14,7 @@ sha1sum = "30d828693d00b2adc27486db77c441fa2677f111"
 depends = "['arpack-ng', 'curl', 'fftw', 'fltk>=1.3.3', 'glpk>=4.60', 'gnuplot', 'hdf5-fortran>=1.10.4', 'lapack', 'libgfortran>=9.1.0', 'libglu', 'libstdc++>=11.2', 'libx11', 'ncurses>=6.0-3', 'readline>=8.0']"
 reverse_depends = "['flann']"
 +++
-Octave is a high-level language, primarily intended for numerical computations."
+Octave is a high-level language, primarily intended for numerical computations.
 
 {{< files text="show files" >}}* /etc/ld.so.conf.d/octave.conf
 * /usr/bin/mkoctfile

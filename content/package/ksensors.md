@@ -13,7 +13,7 @@ usize = "787980"
 sha1sum = "23cb438599b953b285f8a07d3dd5155a848d87b5"
 depends = "['lmsensors']"
 +++
-lm-sensors frontend for KDE"
+lm-sensors frontend for KDE
 
 {{< files text="show files" >}}* usr/bin/ksensors
 * usr/share/applnk/Utilities/ksensors.desktop

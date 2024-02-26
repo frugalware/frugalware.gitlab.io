@@ -13,7 +13,7 @@ usize = "6536410"
 sha1sum = "571d0a4c5870279a2dae14d59a86230f812be0eb"
 depends = "['libkdegames>=23.08.5', 'qt5-svg>=5.15.12']"
 +++
-A single player arcade game with the elements of puzzle."
+A single player arcade game with the elements of puzzle.
 
 {{< files text="show files" >}}* /usr/bin/kbounce
 * /usr/share/applications/org.kde.kbounce.desktop

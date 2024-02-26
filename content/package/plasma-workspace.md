@@ -14,7 +14,7 @@ sha1sum = "e67b48259399299c174b23b1b06407089e92ca73"
 depends = "['accountsservice', 'baloo5>=5.115.0', 'breeze>=5.27.10', 'cln>=1.3.4-3', 'desktop-file-utils', 'fontconfig', 'frameworkintegration>=5.115.0', 'gpsd>=3.25', 'hicolor-icon-theme', 'icu4c>=74.1', 'iso-codes>=3.70-2', 'kactivities-stats>=5.115.0', 'kcmutils>=5.115.0', 'kdelibs4support>=5.115.0', 'kdesu>=5.115.0', 'kholidays>=5.115.0', 'kidletime>=5.115.0', 'kinit>=5.115.0', 'kio>=5.115.0', 'kjsembed>=5.115.0', 'knewstuff>=5.115.0', 'knotifyconfig>=5.115.0', 'kpeople5>=5.115.0', 'kquickcharts>=5.115.0', 'krunner5>=5.115.0', 'ktexteditor>=5.115.0', 'kwin5>=5.27.10', 'kxmlgui>=5.115.0', 'kxmlrpcclient>=5.115.0', 'libkscreen5>=5.27.10', 'libksysguard5>=5.27.10', 'libqalculate>=3.20.1', 'libxcrypt', 'libxft', 'libxtst', 'milou>=5.27.10', 'networkmanager-qt>=5.115.0', 'pipewire', 'plasma-integration>=5.27.10', 'prison>=5.115.0', 'qt5-qdbus>=5.7.0-2', 'qt5-quickcontrols>=5.15.12', 'qt5-quickcontrols2>=5.15.12', 'qt5-tools>=5.15.12', 'socat', 'xdg-user-dirs', 'xdg-utils', 'xf86-input-libinput', 'xprop', 'xrdb', 'xset', 'xsetroot']"
 reverse_depends = "['kde-cli-tools', 'kdeplasma-addons5', 'kget', 'khotkeys5', 'ktorrent', 'plasma-browser-integration', 'plasma-desktop', 'plasma-nm', 'plasma-remotecontrollers', 'plasma-sdk', 'plasma-wayland-session', 'powerdevil5', 'systemsettings5']"
 +++
-KDE Plasma Workspace."
+KDE Plasma Workspace.
 
 {{< files text="show files" >}}* /etc/X11/sessions/plasma.desktop
 * /etc/xdg/autostart/gmenudbusmenuproxy.desktop

@@ -13,7 +13,7 @@ usize = "43432"
 sha1sum = "58fe8c07168d8a019550b8ae0688d71f4adf7267"
 depends = "['claws-mail=4.1.1']"
 +++
-This plugin scans all messages that are received from an IMAP, LOCAL or POP account using clamd (Clam AV)."
+This plugin scans all messages that are received from an IMAP, LOCAL or POP account using clamd (Clam AV).
 
 {{< files text="show files" >}}* /usr/lib/claws-mail/plugins/clamd.so
 {{< /files >}}

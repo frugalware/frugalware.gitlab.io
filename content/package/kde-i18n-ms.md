@@ -13,7 +13,7 @@ usize = "4275752"
 sha1sum = "2e86cabe8ac7b401bdaa6459431aeaee336b0d93"
 depends = "[]"
 +++
-Malay Localization for KDE."
+Malay Localization for KDE.
 
 {{< files text="show files" >}}* usr/share/locale/ms/charset
 * usr/share/locale/ms/entry.desktop

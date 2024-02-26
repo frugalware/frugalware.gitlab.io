@@ -14,7 +14,7 @@ sha1sum = "45cfec6eb28be9c94f1ed22626121459e286f051"
 depends = "['fuse', 'glib2', 'libimobiledevice>=1.3']"
 reverse_depends = "['gvfs-apple']"
 +++
-A fuse filesystem for mounting iPhone and iPod touch devices"
+A fuse filesystem for mounting iPhone and iPod touch devices
 
 {{< files text="show files" >}}* /usr/bin/ifuse
 * /usr/share/doc/ifuse-1.1.4/AUTHORS

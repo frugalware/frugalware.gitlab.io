@@ -13,7 +13,7 @@ usize = "563494"
 sha1sum = "abb3979e91dc0e93c50aa875b091b90a9567ba6d"
 depends = "['llvm-libs>=17.0.6']"
 +++
-LLVM Parallel STL"
+LLVM Parallel STL
 
 {{< files text="show files" >}}* /usr/include/pstl/internal/algorithm_fwd.h
 * /usr/include/pstl/internal/algorithm_impl.h

@@ -13,7 +13,7 @@ usize = "1669107"
 sha1sum = "376c360d42e26e942398fab7c70ab41138eb3692"
 depends = "[]"
 +++
-A low-overhead robust logging package for Java."
+A low-overhead robust logging package for Java.
 
 {{< files text="show files" >}}* /usr/share/doc/apache-log4j-2.8.2/README.md
 * /usr/share/doc/apache-log4j-2.8.2/RELEASE-NOTES.md

@@ -13,7 +13,7 @@ usize = "7105522"
 sha1sum = "a1bd8491b3bde6400f83ce7e40d757d1fad6be03"
 depends = "['flac>=1.4.0', 'libpng>=1.4.3', 'libvorbis', 'scummvm>=2.7.0', 'wxwidgets>=3.2.2.1']"
 +++
-The ScummVM tools enable you to convert, compress and decode game datafiles for ScummVM"
+The ScummVM tools enable you to convert, compress and decode game datafiles for ScummVM
 
 {{< files text="show files" >}}* /usr/bin/construct_mohawk
 * /usr/bin/create_sjisfnt

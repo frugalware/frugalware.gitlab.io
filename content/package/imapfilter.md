@@ -13,7 +13,7 @@ usize = "216651"
 sha1sum = "92bf6f3c0a1003be58b08058ba222d6b85056db3"
 depends = "['lua>=5.4', 'openssl>=3.1.0', 'pcre>=8.30']"
 +++
-A non-graphical lua-based remote imap filter"
+A non-graphical lua-based remote imap filter
 
 {{< files text="show files" >}}* /usr/bin/imapfilter
 * /usr/share/doc/imapfilter-2.7.5/AUTHORS

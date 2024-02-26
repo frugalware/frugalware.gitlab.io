@@ -15,7 +15,7 @@ depends = "['glibc>=2.34']"
 reverse_depends = "['rsyslog']"
 license = "LGPL2.1"
 +++
-Essentials for string handling."
+Essentials for string handling.
 
 {{< files text="show files" >}}* /usr/include/libestr.h
 * /usr/lib/libestr.so

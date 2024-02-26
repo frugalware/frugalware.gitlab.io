@@ -13,7 +13,7 @@ usize = "308478"
 sha1sum = "75385bbe169f58137083c1a3c99e6eac325605ed"
 depends = "['glibc']"
 +++
-A small collection of programs that operate on patch files."
+A small collection of programs that operate on patch files.
 
 {{< files text="show files" >}}* /usr/bin/combinediff
 * /usr/bin/dehtmldiff

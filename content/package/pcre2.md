@@ -14,7 +14,7 @@ sha1sum = "ee32da443a0166fd57847655dc93b406b920f1de"
 depends = "['bzip2>=1.0.6-18', 'ncurses>=6.1', 'readline>=8.0-3', 'zlib>=1.2.12']"
 reverse_depends = "['android-tools', 'babe', 'clamav', 'cmst', 'drkonqi', 'fish', 'git', 'grep', 'juk', 'julia', 'kdav2', 'kimagemapeditor', 'kimap2', 'kmouth', 'ksmtp', 'kup', 'libgit2', 'libktorrent', 'lumina-desktop', 'pavucontrol-qt', 'qt5-networkauth', 'ripgrep', 'sdlmame', 'ssr', 'systemd', 'util-linux', 'vlc', 'vulkan-lunarg-tools', 'wget', 'wget2']"
 +++
-Perl-compatible regular expression library (version 2)."
+Perl-compatible regular expression library (version 2).
 
 {{< files text="show files" >}}* /usr/bin/pcre2-config
 * /usr/bin/pcre2grep

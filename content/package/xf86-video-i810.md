@@ -14,7 +14,7 @@ sha1sum = "b4d7f98c6b443e89c288abc6e0fd9170c220ea58"
 depends = "['libxvmc', 'xorg-server>=1.2.0-3']"
 license = "GPL2"
 +++
-X.Org driver for i810 cards"
+X.Org driver for i810 cards
 
 {{< files text="show files" >}}* usr/lib/libI810XvMC.la
 * usr/lib/libI810XvMC.so

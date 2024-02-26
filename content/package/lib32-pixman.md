@@ -14,7 +14,7 @@ sha1sum = "6b494a403585c86af5e74d932817b3a259f79018"
 depends = "['lib32-libpng']"
 reverse_depends = "['lib32-cairo', 'lib32-xorg-server', 'lib32-xorg-server-fbdev', 'lib32-xorg-server-xephyr']"
 +++
-X.Org pixman library ( 32bit )"
+X.Org pixman library ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/include/pixman-1/pixman-version.h
 * /usr/i686-frugalware-linux/include/pixman-1/pixman.h

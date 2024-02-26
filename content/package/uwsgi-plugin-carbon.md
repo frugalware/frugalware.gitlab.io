@@ -13,7 +13,7 @@ usize = "23320"
 sha1sum = "885cbe5a9dce1af8ebf252b95188ad7810515536"
 depends = "['uwsgi']"
 +++
-UWSGI Carbon Plugin"
+UWSGI Carbon Plugin
 
 {{< files text="show files" >}}* /usr/lib/uwsgi/carbon_plugin.so
 {{< /files >}}

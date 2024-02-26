@@ -14,7 +14,7 @@ sha1sum = "f0a2dc82c95197791a2209033ad3312aae283c8c"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-warp']"
 +++
-Chunked HTTP transfer encoding for bytestring builders"
+Chunked HTTP transfer encoding for bytestring builders
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/bsb-http-chunked-0.0.0.4/Data/ByteString/Builder/HTTP/Chunked.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/bsb-http-chunked-0.0.0.4/Data/ByteString/Builder/HTTP/Chunked.hi

@@ -13,7 +13,7 @@ usize = "1137794"
 sha1sum = "97f59cfac42e2797d7f983174c95213a1242c1a3"
 depends = "['dosfstools', 'e2fsprogs>=1.42.4', 'ncurses>=6.0-3', 'nilfs-utils', 'ntfs-3g>=2021.8.22', 'ntfsprogs', 'openssl>=3.1.0']"
 +++
-File System Clone Utilities for ext2/3/4, reiserfs, hfs+, fat, ntfs File System."
+File System Clone Utilities for ext2/3/4, reiserfs, hfs+, fat, ntfs File System.
 
 {{< files text="show files" >}}* /usr/bin/partclone.chkimg
 * /usr/bin/partclone.dd

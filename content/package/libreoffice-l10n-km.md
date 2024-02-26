@@ -13,7 +13,7 @@ usize = "43972390"
 sha1sum = "a2131b689e0654fc5fae6a39a4b5e2220d5df560"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Khmer support in LibreOffice"
+Installs Khmer support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/help/km/default.css
 * /usr/lib/libreoffice/help/km/err.html

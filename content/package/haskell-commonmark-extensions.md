@@ -14,7 +14,7 @@ sha1sum = "3b749ec4827d49abd9988ee9d74cff69e1cd2436"
 depends = "['haskell-commonmark>=0.2.1-2', 'haskell-emojis', 'haskell-network-uri']"
 reverse_depends = "['haskell-commonmark-pandoc']"
 +++
-Pure Haskell commonmark parser"
+Pure Haskell commonmark parser
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/commonmark-extensions-0.2.5/Commonmark/Extensions.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/commonmark-extensions-0.2.5/Commonmark/Extensions.hi

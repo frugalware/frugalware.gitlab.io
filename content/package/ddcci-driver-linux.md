@@ -13,7 +13,7 @@ usize = "109030"
 sha1sum = "d36886bdcf737fbf563b9e19e02646171c797a7e"
 depends = "['kernel=6.7.6-1']"
 +++
-A pair of Linux kernel drivers for DDC/CI monitors"
+A pair of Linux kernel drivers for DDC/CI monitors
 
 {{< files text="show files" >}}* /usr/include/linux/ddcci.h
 * /usr/lib/modules/6.7.6-fw1/extra/ddcci-backlight.ko

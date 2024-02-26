@@ -13,7 +13,7 @@ usize = "32461296"
 sha1sum = "f6927721555a8889b76afc475f7ccb91966a012d"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Gujarati support in LibreOffice"
+Installs Gujarati support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/help/gu/default.css
 * /usr/lib/libreoffice/help/gu/err.html

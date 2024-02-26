@@ -13,7 +13,7 @@ usize = "34857475"
 sha1sum = "16edac2e92a70a3dbc33ec4e39e8c16b1df444df"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Lower Sorbian support in LibreOffice"
+Installs Lower Sorbian support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/help/dsb/default.css
 * /usr/lib/libreoffice/help/dsb/err.html

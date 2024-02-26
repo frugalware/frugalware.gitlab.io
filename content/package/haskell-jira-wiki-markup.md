@@ -14,7 +14,7 @@ sha1sum = "50dc4645de49ed8a8201a04a4e5e124e98950f5c"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['pandoc']"
 +++
-Handle Jira wiki markup"
+Handle Jira wiki markup
 
 {{< files text="show files" >}}* /usr/bin/jira-wiki-markup
 * /usr/lib/ghc-9.8.1/site-local/jira-wiki-markup-1.5.1/libHSjira-wiki-markup-1.5.1-DmyDf84v5GEClBCSqzHB1E.a

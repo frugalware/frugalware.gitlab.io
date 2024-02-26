@@ -13,7 +13,7 @@ usize = "262395"
 sha1sum = "6206fe7a8aed29b6d53d470f98faa9632f9c9975"
 depends = "['haskell-lua']"
 +++
-LPeg – Parsing Expression Grammars For Lua"
+LPeg – Parsing Expression Grammars For Lua
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/lpeg-1.1.0/libHSlpeg-1.1.0-LJcslgLdR4X44Yk6lGTW0f.a
 * /usr/lib/ghc-9.8.1/site-local/lpeg-1.1.0/Lua/LPeg.dyn_hi

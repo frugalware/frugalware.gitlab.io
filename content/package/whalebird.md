@@ -13,7 +13,7 @@ usize = "380402168"
 sha1sum = "c945dcc366b597246aeaac02b1eade9d7719b974"
 depends = "['alsa-lib', 'cairo', 'dbus', 'gdk-pixbuf2', 'glib2', 'gtk+3', 'hicolor-icon-theme', 'libcups', 'libglvnd', 'libx11', 'libxcb', 'libxcomposite', 'libxcursor', 'libxdamage', 'libxext', 'libxfixes', 'libxi', 'libxrandr', 'libxrender', 'libxtst', 'nspr', 'nss', 'pango']"
 +++
-An Electron based Mastodon, Pleroma and Misskey client"
+An Electron based Mastodon, Pleroma and Misskey client
 
 {{< files text="show files" >}}* /usr/bin/whalebird
 * /usr/lib/whalebird-desktop/chrome-sandbox

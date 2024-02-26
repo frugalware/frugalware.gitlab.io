@@ -13,7 +13,7 @@ usize = "944417"
 sha1sum = "d38df28dcf854920281953e6012b2bd5c66d262c"
 depends = "['kdeclarative>=5.115.0', 'kio>=5.115.0', 'packagekit-qt5>=1.0.1', 'qcoro', 'qt5-svg>=5.15.12']"
 +++
-Front end for KDE to enable or disable, simple ( HOME ) or advanced ( SAMBA, NFS ) file sharing."
+Front end for KDE to enable or disable, simple ( HOME ) or advanced ( SAMBA, NFS ) file sharing.
 
 {{< files text="show files" >}}* /usr/lib/kf5/kauth/authhelper
 * /usr/lib/qt5/plugins/kf5/propertiesdialog/SambaAcl.so

@@ -14,7 +14,7 @@ sha1sum = "57698f04bb3ef874231a9ff72253dfa8b0691cc4"
 depends = "['ffmpeg>=6.0', 'gst1-plugins-base', 'libxrandr', 'qt6-quick3d']"
 reverse_depends = "['ladybird', 'mkvtoolnix-gui', 'qmmp', 'qt6-speech']"
 +++
-The Qt6 toolkit, qtmultimedia"
+The Qt6 toolkit, qtmultimedia
 
 {{< files text="show files" >}}* /usr/include/qt6/QtMultimedia/6.6.2/QtMultimedia/private/qabstractvideobuffer_p.h
 * /usr/include/qt6/QtMultimedia/6.6.2/QtMultimedia/private/qaudiodevice_p.h

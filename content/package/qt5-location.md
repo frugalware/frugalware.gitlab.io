@@ -14,7 +14,7 @@ sha1sum = "2220df330998d2c766c461d4540507994621e40b"
 depends = "['icu4c>=74.1', 'qt5-declarative>=5.15.12']"
 reverse_depends = "['aseman-qt-tools', 'koko', 'kweathercore', 'marble', 'meshroom', 'qsyncthingtray', 'qt5-tools', 'qt5-webengine']"
 +++
-The Qt5 toolkit, qtlocation"
+The Qt5 toolkit, qtlocation
 
 {{< files text="show files" >}}* /usr/include/qt5/QtLocation/5.15.12/QtLocation/private/error_messages_p.h
 * /usr/include/qt5/QtLocation/5.15.12/QtLocation/private/locationvaluetypehelper_p.h

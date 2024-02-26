@@ -13,7 +13,7 @@ usize = "146352"
 sha1sum = "3774c991d925af86aab33d6f39427dafd24428d5"
 depends = "['claws-mail=4.1.1', 'curl>=7.47.0']"
 +++
-This plugin allows you to read your favourite newsfeeds in Claws."
+This plugin allows you to read your favourite newsfeeds in Claws.
 
 {{< files text="show files" >}}* /usr/lib/claws-mail/plugins/rssyl.so
 {{< /files >}}

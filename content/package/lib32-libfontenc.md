@@ -14,7 +14,7 @@ sha1sum = "2c0bf577057f722619bd53860cf5e02aaa22fe40"
 depends = "['lib32-zlib>=1.2.12']"
 reverse_depends = "['lib32-libxfont', 'lib32-libxfont2']"
 +++
-The fontenc Library ( 32bit )"
+The fontenc Library ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/fonts/fontenc.h
 * /usr/lib32/libfontenc.so

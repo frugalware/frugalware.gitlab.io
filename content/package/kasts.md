@@ -13,7 +13,7 @@ usize = "2259095"
 sha1sum = "2f590e8739d245a637f5bee109f660f55c6c6d28"
 depends = "['kirigami-addons', 'libvlc', 'networkmanager-qt', 'qt5-quickcontrols2', 'qtkeychain', 'syndication', 'taglib>=2.0', 'threadweaver', 'vlc']"
 +++
-Kirigami-based podcast player"
+Kirigami-based podcast player
 
 {{< files text="show files" >}}* /usr/bin/kasts
 * /usr/lib/libKastsSolidExtras.so

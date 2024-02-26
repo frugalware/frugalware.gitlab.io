@@ -14,7 +14,7 @@ sha1sum = "a1a797a0e6bf066a6935bca7e3cac0e2d94a43d4"
 depends = "['haskell-asn1-types']"
 reverse_depends = "['haskell-asn1-parse', 'haskell-crypton-x509']"
 +++
-ASN1 data reader and writer in RAW, BER and DER forms"
+ASN1 data reader and writer in RAW, BER and DER forms
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/asn1-encoding-0.9.6/Data/ASN1/BinaryEncoding.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/asn1-encoding-0.9.6/Data/ASN1/BinaryEncoding.hi

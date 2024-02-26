@@ -14,7 +14,7 @@ sha1sum = "a5c709e5a46c89348b0c1e28d2ca88b1e13ec592"
 depends = "['clang-libs>=17.0.6', 'libffi>=3.4', 'libxml2']"
 reverse_depends = "['hotdoc', 'insight-toolkit', 'lldb', 'qtcreator']"
 +++
-C/C++ language family frontend for LLVM"
+C/C++ language family frontend for LLVM
 
 {{< files text="show files" >}}* /usr/bin/analyze-build
 * /usr/bin/c-index-test

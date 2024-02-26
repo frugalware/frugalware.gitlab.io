@@ -14,7 +14,7 @@ sha1sum = "b806c99499174417dca222365d95dac584ff3092"
 depends = "['dbus-glib>=0.108-3', 'farstream>=0.2.8-2', 'libproxy>=0.4.13-2', 'qt5-base>=5.15.10', 'qt5-qdbus>=5.15.10', 'telepathy-farstream>=0.6.2-5']"
 reverse_depends = "['telepathy-logger-qt', 'telepathy-morse']"
 +++
-Telepathy Qt5 bindings"
+Telepathy Qt5 bindings
 
 {{< files text="show files" >}}* /usr/include/telepathy-qt5/TelepathyQt/abstract-adaptor.h
 * /usr/include/telepathy-qt5/TelepathyQt/abstract-client.h

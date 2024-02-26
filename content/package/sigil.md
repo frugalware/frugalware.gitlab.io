@@ -13,7 +13,7 @@ usize = "33622801"
 sha1sum = "c465510d0c8ba473f1779c073178e6f1cd330474"
 depends = "['hunspell', 'python3>=3.12', 'python3-lxml', 'qt5-svg>=5.15.10', 'qt5-webengine>=5.15.10']"
 +++
-A WYSISYG ebook editor."
+A WYSISYG ebook editor.
 
 {{< files text="show files" >}}* /usr/bin/sigil
 * /usr/lib/sigil/libhunspell.so

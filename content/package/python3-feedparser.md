@@ -13,7 +13,7 @@ usize = "553940"
 sha1sum = "f20316da97ab037dd9d7dffb87102194bceadccd"
 depends = "['python3>=3.11']"
 +++
-Python RSS and Atom feeds parser."
+Python RSS and Atom feeds parser.
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/feedparser-6.0.10-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/feedparser-6.0.10-py3.12.egg-info/PKG-INFO

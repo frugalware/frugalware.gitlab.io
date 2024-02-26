@@ -13,7 +13,7 @@ usize = "7031583"
 sha1sum = "be57c04df6ba7ae968b97ad505c9ac4d88d02251"
 depends = "['dssi', 'liblo', 'libmad', 'libsndfile', 'lilv', 'lv2', 'qt5-base>=5.15.10', 'qt5-svg>=5.15.10', 'qt5-x11extras>=5.15.10', 'rubberband']"
 +++
-Audio/MIDI multi-track sequencer written in C++ with the Qt5 framework"
+Audio/MIDI multi-track sequencer written in C++ with the Qt5 framework
 
 {{< files text="show files" >}}* /usr/bin/qtractor
 * /usr/lib/qtractor/qtractor_plugin_scan

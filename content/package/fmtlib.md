@@ -14,7 +14,7 @@ sha1sum = "c75394b0073432e25fe3c5ae3d911cd4478dafb7"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['cppgir', 'easyeffects', 'easyrpg-player', 'mkvtoolnix', 'mpd', 'opendht', 'openimageio', 'performous', 'restinio', 'telegram-desktop', 'warzone2100']"
 +++
-Open-source formatting library for C++"
+Open-source formatting library for C++
 
 {{< files text="show files" >}}* /usr/include/fmt/args.h
 * /usr/include/fmt/chrono.h

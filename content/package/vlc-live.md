@@ -13,7 +13,7 @@ usize = "59256"
 sha1sum = "9470f30ee66a03d6ea9f3bd16e5ff4a68ff47dc6"
 depends = "['libvlc>=3.0.20', 'live>=2024.02.15']"
 +++
-vlc plugin for Live555"
+vlc plugin for Live555
 
 {{< files text="show files" >}}* /usr/lib/vlc/plugins/access/liblive555_plugin.so
 {{< /files >}}

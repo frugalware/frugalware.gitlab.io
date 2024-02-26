@@ -14,7 +14,7 @@ sha1sum = "c31cc9efef9fe7c9de484187aef222eba64e98ee"
 depends = "['e2fsprogs>=1.43.3-2']"
 reverse_depends = "['partitionmanager']"
 +++
-Reiserfs utilities"
+Reiserfs utilities
 
 {{< files text="show files" >}}* /usr/bin/debugfs.reiserfs
 * /usr/bin/debugreiserfs

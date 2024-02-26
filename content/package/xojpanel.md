@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "36a3247ad0b17255a08d27fa34e3885d9efe34f4"
 depends = "[]"
 +++
-Graphical application that displays the contents of the LCD on the device"
+Graphical application that displays the contents of the LCD on the device
 
 {{< files text="show files" >}}* usr/bin/xojpanel
 * usr/share/doc/hpoj-0.91/xojpanel.html

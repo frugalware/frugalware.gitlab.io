@@ -14,7 +14,7 @@ sha1sum = "f6b1ec658b250ff2f93f2bf30d53f8c6d89a0085"
 depends = "['python3-annotated-types', 'python3-pydantic-core']"
 reverse_depends = "['input-remapper']"
 +++
-Data validation using Python type hints"
+Data validation using Python type hints
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pydantic-2.5.2.dist-info/licenses/LICENSE
 * /usr/lib/python3.12/site-packages/pydantic-2.5.2.dist-info/METADATA

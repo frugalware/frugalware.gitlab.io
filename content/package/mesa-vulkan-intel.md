@@ -13,7 +13,7 @@ usize = "37061620"
 sha1sum = "fb9d37eb7c159cee906cb7337c8e30d0ee51fd81"
 depends = "['vulkan-icd-loader', 'xcb-util-keysyms', 'zstd']"
 +++
-Intel Mesa Support for Vulkan"
+Intel Mesa Support for Vulkan
 
 {{< files text="show files" >}}* /usr/lib/libvulkan_intel.so
 * /usr/lib/libvulkan_intel_hasvk.so

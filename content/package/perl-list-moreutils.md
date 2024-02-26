@@ -14,7 +14,7 @@ sha1sum = "25c21ea0a3605ae452a0d1b0dcf20d3e7a70b2e1"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-datetime-locale']"
 +++
-Provide the stuff missing in List::Util"
+Provide the stuff missing in List::Util
 
 {{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/List/MoreUtils.pm
 * /usr/lib/perl5/site_perl/current/List/MoreUtils/Contributing.pod

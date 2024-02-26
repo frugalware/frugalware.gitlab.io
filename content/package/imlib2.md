@@ -14,7 +14,7 @@ sha1sum = "8d0ae70168b1e6559bcc689a171e24df7636dbd1"
 depends = "['freetype2>=2.9', 'libgif>=5.1.1-2', 'libid3tag>=0.15.1b-6', 'libjpeg-turbo', 'libpng>=1.6.25', 'libtiff>=4.0.6', 'libxext>=1.3.3-3']"
 reverse_depends = "['conky', 'feh', 'ffmpeg', 'ffmpeg4.4', 'fluxbox', 'kompose', 'libcaca', 'openbox']"
 +++
-Imlib 2 is the successor to Imlib."
+Imlib 2 is the successor to Imlib.
 
 {{< files text="show files" >}}* /usr/bin/imlib2_bumpmap
 * /usr/bin/imlib2_colorspace

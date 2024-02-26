@@ -13,7 +13,7 @@ usize = "48150208"
 sha1sum = "4823d0165e22130466af414a5cb91dd02a767f43"
 depends = "[]"
 +++
-Headers and cmake files for vtk"
+Headers and cmake files for vtk
 
 {{< files text="show files" >}}* /usr/include/fides/predefined/DataModelFactory.h
 * /usr/include/fides/predefined/DataModelHelperFunctions.h

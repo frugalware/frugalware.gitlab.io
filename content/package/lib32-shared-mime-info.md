@@ -14,7 +14,7 @@ sha1sum = "b446d7af483095c46df1555daa2de2680a507a72"
 depends = "['lib32-glib2>=2.56.0', 'lib32-libxml2>=2.9.4-3']"
 reverse_depends = "['lib32-gdk-pixbuf2']"
 +++
-Freedesktop.org Shared MIME Info ( 32bit )"
+Freedesktop.org Shared MIME Info ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/update-mime-database
 * /usr/lib32/pkgconfig/shared-mime-info.pc

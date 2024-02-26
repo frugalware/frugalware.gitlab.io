@@ -14,7 +14,7 @@ sha1sum = "675493b314a884540f6ec99f25842d4d337ef84f"
 depends = "['bzip2', 'libaio', 'liburing', 'lz4', 'lzo', 'openssl>=3.0.7', 'xz', 'zlib']"
 reverse_depends = "['courier-authlib', 'cyrus-sasl-sql', 'dovecot', 'gammu', 'gnokii-mysql', 'libreoffice', 'lighttpd', 'mariadb', 'neko', 'pdns', 'perl-dbd-mysql', 'php', 'poco', 'postfix', 'proftpd', 'pure-ftpd', 'qt5-base-mysql', 'qt6-base-mysql', 'rsyslog-mysql', 'vtk-mysql']"
 +++
-Mariadb library."
+Mariadb library.
 
 {{< files text="show files" >}}* /usr/bin/mysqltest_embedded
 * /usr/bin/mysql_client_test_embedded

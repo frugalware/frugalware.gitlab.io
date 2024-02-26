@@ -13,7 +13,7 @@ usize = "50513"
 sha1sum = "5dbbe29a724efda52dd8aa1c659bfea333499164"
 depends = "['findutils', 'procps-ng', 'rsync', 'systemd']"
 +++
-Syncs browser profiles to tmpfs reducing SSD/HDD calls and speeding-up browsers."
+Syncs browser profiles to tmpfs reducing SSD/HDD calls and speeding-up browsers.
 
 {{< files text="show files" >}}* /usr/bin/profile-sync-daemon
 * /usr/bin/psd

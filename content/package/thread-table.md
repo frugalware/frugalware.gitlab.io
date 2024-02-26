@@ -14,7 +14,7 @@ sha1sum = "d7ecbca16c4d1b4ba35b2e52af92a335daa2cc0d"
 depends = "['ocaml>=5.1.1']"
 reverse_depends = "['domain-local-await']"
 +++
-A lock-free thread-safe integer keyed hash table"
+A lock-free thread-safe integer keyed hash table
 
 {{< files text="show files" >}}* /usr/lib/ocaml/thread-table/dune-package
 * /usr/lib/ocaml/thread-table/META

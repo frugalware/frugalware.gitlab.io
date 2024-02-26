@@ -14,7 +14,7 @@ sha1sum = "ee50a56715282961c5c082b6b88baea10b4a4060"
 depends = "['glib2>=2.70', 'libxml2>=2.9.4-3']"
 reverse_depends = "['gettext', 'librsvg']"
 +++
-A standalone CSS2 parsing and manipulation library"
+A standalone CSS2 parsing and manipulation library
 
 {{< files text="show files" >}}* /usr/bin/croco-0.6-config
 * /usr/bin/csslint-0.6

@@ -14,7 +14,7 @@ sha1sum = "faa5cc242d5738177640471c8cf5b32e93349847"
 depends = "['python3']"
 reverse_depends = "['pexpect']"
 +++
-Launch a subprocess in a pseudo terminal (pty), and interact with both the process and its pty."
+Launch a subprocess in a pseudo terminal (pty), and interact with both the process and its pty.
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/ptyprocess-0.7.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/ptyprocess-0.7.0-py3.12.egg-info/PKG-INFO

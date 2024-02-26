@@ -14,7 +14,7 @@ sha1sum = "75d1c8c41c3fdc7ef333e813410db5ef0a4815b1"
 depends = "['poppler', 'qt5-base>=5.15.10']"
 reverse_depends = "['cantor', 'kdepim-addons', 'kfilemetadata5', 'kile', 'krita', 'okular', 'texmaker', 'texstudio', 'texworks']"
 +++
-Poppler QT5 bindings"
+Poppler QT5 bindings
 
 {{< files text="show files" >}}* /usr/include/poppler/qt5/poppler-annotation.h
 * /usr/include/poppler/qt5/poppler-export.h

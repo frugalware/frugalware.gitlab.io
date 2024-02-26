@@ -13,7 +13,7 @@ usize = "22440"
 sha1sum = "9d3dd40ed728e89b40d75d1b46ce6fe2a674c5c2"
 depends = "['aspell>=0.60.6.1-4']"
 +++
-Aspell plugin for sonnet"
+Aspell plugin for sonnet
 
 {{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/sonnet/sonnet_aspell.so
 {{< /files >}}

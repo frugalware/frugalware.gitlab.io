@@ -14,7 +14,7 @@ sha1sum = "e5b69def6e3c1ccdda3525d0fc022297884922fa"
 depends = "['libnsl', 'openssl>=3.1.0', 'pam']"
 license = "GPL2"
 +++
-A very secure ftp server"
+A very secure ftp server
 
 {{< files text="show files" >}}* /etc/vsftpd.conf
 * /usr/bin/vsftpd

@@ -14,7 +14,7 @@ sha1sum = "861102265de57a8c095553cd622c68de747fb129"
 depends = "[]"
 reverse_depends = "['docbook-sgml-dtd', 'docbook-sgml-dtd-4.1', 'opensp']"
 +++
-Gathers very basic stuff necessary to work with SGML and XML."
+Gathers very basic stuff necessary to work with SGML and XML.
 
 {{< files text="show files" >}}* /etc/sgml/sgml.conf
 * /usr/bin/install-catalog

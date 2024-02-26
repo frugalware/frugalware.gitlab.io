@@ -13,7 +13,7 @@ usize = "24021381"
 sha1sum = "c2572f9bdd5ba0044611a9dc3bf4938c1681ad3f"
 depends = "[]"
 +++
-Polish Localization for KDE."
+Polish Localization for KDE.
 
 {{< files text="show files" >}}* usr/share/apps/katepart/syntax/logohighlightstyle.pl.xml
 * usr/share/apps/khangman/data/pl/animals.kvtml

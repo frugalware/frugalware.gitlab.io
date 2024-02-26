@@ -14,7 +14,7 @@ sha1sum = "2d7f516d9ca1f0a4665df23e87bef09fd9c69f50"
 depends = "['perl>=5.34.0', 'perl-appconfig']"
 reverse_depends = "['freecell-solver']"
 +++
-Perl template processing system"
+Perl template processing system
 
 {{< files text="show files" >}}* /usr/bin/site_perl/tpage
 * /usr/bin/site_perl/ttree

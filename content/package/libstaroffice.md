@@ -14,7 +14,7 @@ sha1sum = "8d839551f1e6028079751a4210dee2c2a249e4f5"
 depends = "['librevenge', 'zlib>=1.2.12']"
 reverse_depends = "['libreoffice']"
 +++
-A library for import of binary StarOffice documents"
+A library for import of binary StarOffice documents
 
 {{< files text="show files" >}}* /usr/bin/sd2raw
 * /usr/bin/sd2svg

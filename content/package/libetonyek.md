@@ -14,7 +14,7 @@ sha1sum = "f7b5b5e025b13766d5a7821a6c67b6fb4d1ceeb5"
 depends = "['libboost>=1.72.0', 'libwpd>=0.10.1-5']"
 reverse_depends = "['libreoffice']"
 +++
-Libetonyek is library providing ability to interpret and import Apple Keynote presentations into various applications."
+Libetonyek is library providing ability to interpret and import Apple Keynote presentations into various applications.
 
 {{< files text="show files" >}}* /usr/bin/key2raw
 * /usr/bin/key2text

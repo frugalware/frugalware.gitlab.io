@@ -14,7 +14,7 @@ sha1sum = "5c7b998a4bf8a0e01fa8701cecd5a25f2db9c236"
 depends = "['ghc>=9.6.1', 'zlib>=1.2.12']"
 reverse_depends = "['haskell-juicypixels', 'haskell-streaming-commons', 'haskell-zip-archive']"
 +++
-Compression and decompression in the gzip and zlib formats"
+Compression and decompression in the gzip and zlib formats
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/zlib-0.6.3.0/Codec/Compression/GZip.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/zlib-0.6.3.0/Codec/Compression/GZip.hi

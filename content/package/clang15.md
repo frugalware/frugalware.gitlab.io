@@ -13,7 +13,7 @@ usize = "126426191"
 sha1sum = "ec42ecccc7fba0d53d63ae7765f64ecb72dadf48"
 depends = "['clang-libs>=15.0.7', 'libffi>=3.4', 'libxml2']"
 +++
-C/C++ language family frontend for LLVM15"
+C/C++ language family frontend for LLVM15
 
 {{< files text="show files" >}}* /usr/lib/llvm15/bin/analyze-build
 * /usr/lib/llvm15/bin/c-index-test

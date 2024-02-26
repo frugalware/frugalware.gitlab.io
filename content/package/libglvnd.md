@@ -14,7 +14,7 @@ sha1sum = "949a8ac2deb7b1b869e82063befca48d536ef33a"
 depends = "['libx11', 'libxext']"
 reverse_depends = "['cef', 'fltk', 'flutter', 'freeglut', 'glew', 'gst1-plugins-base', 'irrlicht', 'libepoxy', 'libglu', 'libplacebo', 'libva', 'lsp-plugins', 'nvidia', 'opencv', 'opendiablo2', 'openscenegraph', 'openxr', 'qt5-base', 'qt6-base', 'sdl2_ttf', 'virtualbox', 'weston', 'whalebird', 'wlroots', 'wpebackend-fdo', 'wrapland', 'xdriinfo', 'xorg-server', 'xorg-server-xephyr', 'zam-plugins']"
 +++
-The GL Vendor-Neutral Dispatch library"
+The GL Vendor-Neutral Dispatch library
 
 {{< files text="show files" >}}* /usr/include/EGL/egl.h
 * /usr/include/EGL/eglext.h

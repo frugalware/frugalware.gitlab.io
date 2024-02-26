@@ -14,7 +14,7 @@ sha1sum = "e483733d184d77569d4871f8688adcca8dac32c7"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Marathi language support for Firefox"
+Marathi language support for Firefox
 
 {{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-mr@firefox.mozilla.org.xpi
 {{< /files >}}

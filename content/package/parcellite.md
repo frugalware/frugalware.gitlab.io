@@ -13,7 +13,7 @@ usize = "542070"
 sha1sum = "29fdbf8bec0cfe1f92c5c35d0886e80dc7bdb4c9"
 depends = "['gtk+2']"
 +++
-Parcellite is a lightweight GTK+ clipboard manager."
+Parcellite is a lightweight GTK+ clipboard manager.
 
 {{< files text="show files" >}}* /etc/xdg/autostart/parcellite-startup.desktop
 * /usr/bin/parcellite

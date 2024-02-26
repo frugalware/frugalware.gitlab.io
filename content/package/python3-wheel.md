@@ -14,7 +14,7 @@ sha1sum = "c8f49ecfa78fe35a732d30ed36e662626ac71e17"
 depends = "['python3-packaging']"
 reverse_depends = "['meson-python', 'python3-dnspython', 'scikit-build']"
 +++
-A built-package format for Python"
+A built-package format for Python
 
 {{< files text="show files" >}}* /usr/bin/wheel
 * /usr/lib/python3.12/site-packages/wheel-0.42.0-py3.12.egg-info/dependency_links.txt

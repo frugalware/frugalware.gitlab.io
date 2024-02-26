@@ -13,7 +13,7 @@ usize = "919789"
 sha1sum = "8e0c950574c06f295b5c23af7a07362a74c09d9a"
 depends = "[]"
 +++
-Utility libraries for Vulkan developers ( 32bit )"
+Utility libraries for Vulkan developers ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/include/vulkan/layer/vk_layer_settings.h
 * /usr/i686-frugalware-linux/include/vulkan/layer/vk_layer_settings.hpp

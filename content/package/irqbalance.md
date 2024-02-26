@@ -13,7 +13,7 @@ usize = "123230"
 sha1sum = "ab100bce3979b6c1672f00c1b804ecf9e22c160f"
 depends = "['glib2>=2.60.3', 'libsystemd>=231-7']"
 +++
-Distributes interrupts over the processors and cores you have."
+Distributes interrupts over the processors and cores you have.
 
 {{< files text="show files" >}}* /etc/sysconfig/irqbalance
 * /usr/bin/irqbalance

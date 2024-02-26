@@ -13,7 +13,7 @@ usize = "246024"
 sha1sum = "e04a806e8dea334e3d705076b986493421330006"
 depends = "['ffmpeg>=6.0', 'libvlc>=3.0.20']"
 +++
-vlc ffmpeg support"
+vlc ffmpeg support
 
 {{< files text="show files" >}}* /usr/lib/vlc/plugins/access/libavio_plugin.so
 * /usr/lib/vlc/plugins/codec/libavcodec_plugin.so

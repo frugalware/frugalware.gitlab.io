@@ -13,7 +13,7 @@ usize = "1236986"
 sha1sum = "2354fa0e6b5a1bc032c4aac50017cb4dd278a754"
 depends = "['glibc']"
 +++
-QuantStack tools library - Multi-dimensional arrays with broadcasting and lazy computing"
+QuantStack tools library - Multi-dimensional arrays with broadcasting and lazy computing
 
 {{< files text="show files" >}}* /usr/include/xsimd/arch/generic/xsimd_generic_arithmetic.hpp
 * /usr/include/xsimd/arch/generic/xsimd_generic_complex.hpp

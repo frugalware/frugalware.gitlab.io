@@ -13,7 +13,7 @@ usize = "2115768"
 sha1sum = "6e760f53ec2c5204c2dd5279bca208b68e142186"
 depends = "['alsa-lib>=1.1.2-2', 'liblirc=0.10.2', 'libudev>=242-3', 'libusb>=0.1.5-4']"
 +++
-LIRC is a package that allows you to decode and send infra-red signals of many commonly used remote controls."
+LIRC is a package that allows you to decode and send infra-red signals of many commonly used remote controls.
 
 {{< files text="show files" >}}* /etc/lirc/irexec.lircrc
 * /etc/lirc/lircd.conf

@@ -13,7 +13,7 @@ usize = "1140880"
 sha1sum = "fa682f3bfd9751934334eaf94c3072c0878351d9"
 depends = "['iio-sensor-proxy', 'qt6-connectivity', 'qt6-declarative']"
 +++
-The Qt6 toolkit, qtsensors"
+The Qt6 toolkit, qtsensors
 
 {{< files text="show files" >}}* /usr/include/qt6/QtSensors/6.6.2/QtSensors/private/qaccelerometer_p.h
 * /usr/include/qt6/QtSensors/6.6.2/QtSensors/private/qambientlightsensor_p.h

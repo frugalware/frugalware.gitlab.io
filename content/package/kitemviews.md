@@ -14,7 +14,7 @@ sha1sum = "3db1032fcdc534ae5ca778e6ec200f977af92a36"
 depends = "['qt5-base>=5.15.12']"
 reverse_depends = "['akonadi', 'discover', 'kdebugsettings', 'kiconthemes', 'kpeople5', 'krita']"
 +++
-Set of item views extending the Qt model-view framework."
+Set of item views extending the Qt model-view framework.
 
 {{< files text="show files" >}}* /usr/include/KF5/KItemViews/KCategorizedSortFilterProxyModel
 * /usr/include/KF5/KItemViews/kcategorizedsortfilterproxymodel.h

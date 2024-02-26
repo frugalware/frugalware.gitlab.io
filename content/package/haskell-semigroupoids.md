@@ -14,7 +14,7 @@ sha1sum = "f7d7b980158854cb8ba97e40e804e62e24b44c37"
 depends = "['haskell-base-orphans', 'haskell-bifunctors', 'haskell-contravariant', 'haskell-semigroups']"
 reverse_depends = "['haskell-semialign']"
 +++
-Category sans id"
+Category sans id
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/semigroupoids-6.0.0.1/Data/Bifunctor/Apply.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/semigroupoids-6.0.0.1/Data/Bifunctor/Apply.hi

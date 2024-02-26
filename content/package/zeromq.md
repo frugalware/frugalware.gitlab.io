@@ -14,7 +14,7 @@ sha1sum = "8b9e648774f9b16b79fc1be1e2fe3734a3752173"
 depends = "['libsodium>=1.0.11-2', 'libstdc++>=11.2']"
 reverse_depends = "['adios2', 'python3-pyzmq', 'uwsgi', 'uwsgi-plugin-mongrel']"
 +++
-A messaging/socket library."
+A messaging/socket library.
 
 {{< files text="show files" >}}* /usr/bin/curve_keygen
 * /usr/include/zmq.h

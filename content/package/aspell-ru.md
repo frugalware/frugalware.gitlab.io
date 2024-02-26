@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = ""
 depends = "['aspell']"
 +++
-GNU Aspell Russian Word List Package"
+GNU Aspell Russian Word List Package
 
 {{< files text="show files" >}}* usr/lib/aspell-0.60/ru.dat
 * usr/lib/aspell-0.60/ru.multi

@@ -13,7 +13,7 @@ usize = "541313"
 sha1sum = "696249cf1459cac03e43459a902f0be24befcd9e"
 depends = "['libnetfilter_conntrack>=1.0.7', 'libnetfilter_cthelper', 'libnetfilter_cttimeout', 'libnetfilter_queue']"
 +++
-A command line tool to create/retrieve/delete accounting objects"
+A command line tool to create/retrieve/delete accounting objects
 
 {{< files text="show files" >}}* /usr/bin/conntrack
 * /usr/bin/conntrackd

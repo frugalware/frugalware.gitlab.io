@@ -13,7 +13,7 @@ usize = "920200"
 sha1sum = "3e92d8c1f5250c5b97ae9cced3bc48f92ddf2e7d"
 depends = "['fmtlib>=10.0', 'libboost>=1.83.0']"
 +++
-GObject-Introspection C++ binding wrapper generator"
+GObject-Introspection C++ binding wrapper generator
 
 {{< files text="show files" >}}* /usr/bin/cppgir
 * /usr/include/cppgir/gi/base.hpp

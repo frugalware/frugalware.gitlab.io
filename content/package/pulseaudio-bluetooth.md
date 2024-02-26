@@ -13,6 +13,6 @@ usize = "0"
 sha1sum = "c55c258534d7040486e933cc6b5a2e5d8f35e40a"
 depends = "['bluez', 'dbus>=1.10.10-4', 'gst1-plugins-bad', 'pulseaudio>=17.0', 'sbc>=1.3-4']"
 +++
-bluetooth module for PulseAudio sound server"
+bluetooth module for PulseAudio sound server
 
 {{< files text="show files" >}}{{< /files >}}

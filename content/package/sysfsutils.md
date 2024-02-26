@@ -14,7 +14,7 @@ sha1sum = "fb7a4f4a35a31bd0f31f8e9acd6c916af6fac461"
 depends = "['glibc>=2.34']"
 reverse_depends = "['rng-tools']"
 +++
-System utilities based on sysfs"
+System utilities based on sysfs
 
 {{< files text="show files" >}}* /usr/bin/dlist_test
 * /usr/bin/get_device

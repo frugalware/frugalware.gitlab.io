@@ -14,7 +14,7 @@ sha1sum = "04053cff76cd89d4ee7949d12feae3694c298af8"
 depends = "['haskell-splitmix>=0.1.0.3']"
 reverse_depends = "['haskell-streaming-commons', 'haskell-temporary', 'haskell-tf-random', 'haskell-uuid-types']"
 +++
-Haskell random number library."
+Haskell random number library.
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/random-1.2.1.1/libHSrandom-1.2.1.1-8cX9UKNPxmNDIXFj6fQYS0.a
 * /usr/lib/ghc-9.8.1/site-local/random-1.2.1.1/System/Random.dyn_hi

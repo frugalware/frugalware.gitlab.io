@@ -14,7 +14,7 @@ sha1sum = "1ca9c3c69acbb2e4d52b7119c32c8b81baf2badd"
 depends = "['libmikmod>=3.3.10', 'libvorbis>=1.3.5-5', 'sdl2>=2.0.7']"
 reverse_depends = "['augustus', 'easyrpg-player', 'enigma', 'freeciv', 'julius', 'lincity-ng', 'maxr', 'openclonk', 'opendiablo2', 'redeclipse', 'supertux', 'wesnoth']"
 +++
-SDL2 Mixer library"
+SDL2 Mixer library
 
 {{< files text="show files" >}}* /usr/include/SDL2/SDL_mixer.h
 * /usr/lib/cmake/SDL2_mixer/sdl2_mixer-config-version.cmake

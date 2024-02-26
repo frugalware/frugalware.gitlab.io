@@ -13,7 +13,7 @@ usize = "13342534"
 sha1sum = "cd490f7464ae9b7f8f2954f411a86a905539d561"
 depends = "[]"
 +++
-British Localization for KDE."
+British Localization for KDE.
 
 {{< files text="show files" >}}* usr/share/apps/katepart/syntax/logohighlightstyle.en_GB.xml
 * usr/share/apps/klettres/en_GB/alpha/a.ogg

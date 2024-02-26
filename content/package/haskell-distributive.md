@@ -14,7 +14,7 @@ sha1sum = "2833605250ff1afe9956aa26ed6a6764cb479972"
 depends = "['haskell-base-orphans>=0.8.5', 'haskell-tagged>=0.8.6.1']"
 reverse_depends = "['haskell-comonad']"
 +++
-Distributive functors -- Dual to Traversable"
+Distributive functors -- Dual to Traversable
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/distributive-0.6.2.1/Data/Distributive.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/distributive-0.6.2.1/Data/Distributive.hi

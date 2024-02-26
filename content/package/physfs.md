@@ -14,7 +14,7 @@ sha1sum = "3c178b55b051c94a5f0eb44f7c3c237e137f6b9b"
 depends = "['readline>=8.0']"
 reverse_depends = "['lincity-ng', 'manaplus', 'netpanzer', 'solarus', 'supertux', 'warzone2100']"
 +++
-PhysicsFS is a library to provide abstract access to various archive"
+PhysicsFS is a library to provide abstract access to various archive
 
 {{< files text="show files" >}}* /usr/bin/test_physfs
 * /usr/include/physfs.h

@@ -13,7 +13,7 @@ usize = "34592"
 sha1sum = "83e064bec2c3685ebafa31e220218ac3da9b27df"
 depends = "['vtk>=9.3.0', 'vtk-java>=9.3.0', 'vtk-mysql>=9.3.0']"
 +++
-Java MySql interface and bindings for vtk"
+Java MySql interface and bindings for vtk
 
 {{< files text="show files" >}}* /usr/lib/java/vtk-Linux-x86_64/libvtkIOMySQLJava.so
 {{< /files >}}

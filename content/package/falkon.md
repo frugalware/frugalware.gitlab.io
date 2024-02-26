@@ -14,7 +14,7 @@ sha1sum = "ae9dc900e8dd9a5836eb833d22bf73e20e870e2b"
 depends = "['openssl>=3.1.0', 'qt5-base>=5.15.0', 'qt5-webchannel>=5.15.0', 'qt5-webengine>=5.15.0', 'qt5-x11extras>=5.15.0']"
 reverse_depends = "['falkon-kde', 'falkon-python-plugins']"
 +++
-Web browser written in Qt."
+Web browser written in Qt.
 
 {{< files text="show files" >}}* /usr/bin/falkon
 * /usr/lib/libFalkonPrivate.so.23.08.5

@@ -14,7 +14,7 @@ sha1sum = "325b5d2663af9fa86534934b68e283115bcf5364"
 depends = "['haskell-byteorder', 'haskell-fast-logger', 'haskell-http-types', 'haskell-network', 'haskell-wai']"
 reverse_depends = "['haskell-wai-extra']"
 +++
-A logging system for WAI"
+A logging system for WAI
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/wai-logger-2.4.0/libHSwai-logger-2.4.0-nKkI79JjCCLJ08212JLDd.a
 * /usr/lib/ghc-9.8.1/site-local/wai-logger-2.4.0/Network/Wai/Logger.dyn_hi

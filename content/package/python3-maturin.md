@@ -13,7 +13,7 @@ usize = "12032272"
 sha1sum = "172f7454566fa17fc0fde693a0799f2b62f1e5c4"
 depends = "['rust']"
 +++
-Build and publish crates with pyo3, rust-cpython and cffi bindings"
+Build and publish crates with pyo3, rust-cpython and cffi bindings
 
 {{< files text="show files" >}}* /usr/bin/maturin
 * /usr/lib/python3.12/site-packages/maturin-1.4.0.dist-info/METADATA

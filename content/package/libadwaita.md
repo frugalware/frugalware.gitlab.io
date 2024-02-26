@@ -14,7 +14,7 @@ sha1sum = "27a8d6ffc60da61d82fb4a4f17c82b38a7171478"
 depends = "['appstream>=1.0.0', 'gtk+4']"
 reverse_depends = "['celluloid', 'easyeffects', 'libpanel', 'sysprof']"
 +++
-Building blocks for modern adaptive GNOME applications"
+Building blocks for modern adaptive GNOME applications
 
 {{< files text="show files" >}}* /usr/bin/adwaita-1-demo
 * /usr/include/libadwaita-1/adw-about-window.h

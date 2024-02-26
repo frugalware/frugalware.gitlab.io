@@ -13,7 +13,7 @@ usize = "508053"
 sha1sum = "416307bf03292f7c032ddb2b4499719d3e43d5ef"
 depends = "['fontconfig', 'mkfontscale', 'terminus-font-console']"
 +++
-Terminus is a clean fixed width font for long (8 and more hours per day) work."
+Terminus is a clean fixed width font for long (8 and more hours per day) work.
 
 {{< files text="show files" >}}* /usr/share/doc/terminus-font-4.49.1/AUTHORS
 * /usr/share/doc/terminus-font-4.49.1/CHANGES

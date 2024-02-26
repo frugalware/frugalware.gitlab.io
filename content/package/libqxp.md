@@ -14,7 +14,7 @@ sha1sum = "c15ddfc5feecab00efcadc7242c65ccbbead336e"
 depends = "['librevenge']"
 reverse_depends = "['libreoffice']"
 +++
-A library that parses the file format of QuarkXPress documents."
+A library that parses the file format of QuarkXPress documents.
 
 {{< files text="show files" >}}* /usr/bin/qxp2raw
 * /usr/bin/qxp2svg

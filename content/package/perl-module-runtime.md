@@ -14,7 +14,7 @@ sha1sum = "ba346fb69d20d0e1f9312d1183757e68754a4d4f"
 depends = "['perl>=5.34.0', 'perl-module-build']"
 reverse_depends = "['perl-import-into', 'perl-moo', 'perl-moo']"
 +++
-runtime module handling"
+runtime module handling
 
 {{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/Module/Runtime.pm
 * /usr/share/doc/perl-module-runtime-0.016/MANIFEST

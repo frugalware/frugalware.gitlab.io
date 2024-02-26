@@ -14,7 +14,7 @@ sha1sum = "4892b4a94eea65f1a18e16215b0660fc89e7184d"
 depends = "['haskell-bsb-http-chunked', 'haskell-http-date', 'haskell-http2', 'haskell-iproute', 'haskell-recv', 'haskell-simple-sendfile', 'haskell-streaming-commons', 'haskell-unix-compat', 'haskell-unliftio', 'haskell-wai', 'haskell-word8']"
 reverse_depends = "['haskell-wai-extra']"
 +++
-A fast, light-weight web server for WAI applications"
+A fast, light-weight web server for WAI applications
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/warp-3.3.31/libHSwarp-3.3.31-D722qC70NKg6WEjEWreknu.a
 * /usr/lib/ghc-9.8.1/site-local/warp-3.3.31/Network/Wai/Handler/Warp.dyn_hi

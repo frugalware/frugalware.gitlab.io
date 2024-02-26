@@ -13,7 +13,7 @@ usize = "3520381"
 sha1sum = "af911cc9722a459f852fa891b9ed2921bc19274f"
 depends = "[]"
 +++
-Irish Localization for KDE."
+Irish Localization for KDE.
 
 {{< files text="show files" >}}* usr/share/apps/khangman/data/ga/animals.kvtml
 * usr/share/apps/khangman/data/ga/easy.kvtml

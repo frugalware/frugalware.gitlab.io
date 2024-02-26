@@ -14,7 +14,7 @@ sha1sum = "e547864f73b3214376e98090d4a720752465c724"
 depends = "['glew', 'glfw', 'libxcursor', 'libxi', 'libxinerama', 'libxrandr']"
 reverse_depends = "['libreoffice']"
 +++
-A 2D Physics Engine for Games"
+A 2D Physics Engine for Games
 
 {{< files text="show files" >}}* /usr/include/box2d/b2_api.h
 * /usr/include/box2d/b2_block_allocator.h

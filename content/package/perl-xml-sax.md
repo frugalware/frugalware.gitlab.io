@@ -14,7 +14,7 @@ sha1sum = "8e93890b1ff425d559b29d7527fe317358076344"
 depends = "['perl>=5.34.0', 'perl-xml-namespacesupport>=1.12-2', 'perl-xml-sax-base>=1.09-2']"
 reverse_depends = "['docbook2x', 'perl-xml-sax-expat']"
 +++
-Simple API for XML"
+Simple API for XML
 
 {{< files text="show files" >}}* /usr/lib/perl5/site_perl/XML/SAX.pm
 * /usr/lib/perl5/site_perl/XML/SAX/DocumentLocator.pm

@@ -14,7 +14,7 @@ sha1sum = "32f481fa96982ef67d9f61ddc2b78b9642baade6"
 depends = "['mkfontscale>=1.1.2-4']"
 license = "GPL2"
 +++
-X.Org encodings fonts"
+X.Org encodings fonts
 
 {{< files text="show files" >}}* /usr/share/doc/encodings-1.0.7/ChangeLog
 * /usr/share/doc/encodings-1.0.7/COPYING

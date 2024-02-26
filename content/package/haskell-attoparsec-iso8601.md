@@ -13,7 +13,7 @@ usize = "434935"
 sha1sum = "f2ad58be5b9c16fc812044899b068b2299009735"
 depends = "['haskell-attoparsec', 'haskell-integer-conversion', 'haskell-time-compat']"
 +++
-Parsing of ISO 8601 dates, originally from aeson"
+Parsing of ISO 8601 dates, originally from aeson
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/attoparsec-iso8601-1.1.0.1/Data/Attoparsec/Time.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/attoparsec-iso8601-1.1.0.1/Data/Attoparsec/Time.hi

@@ -15,7 +15,7 @@ depends = "['libx11>=1.6.5-2', 'libxau>=1.0.8-3', 'libxext>=1.3.3-3']"
 reverse_depends = "['libksysguard5', 'libwnck', 'libwnck2', 'xrestop']"
 license = "GPL2"
 +++
-X Resource Information Extension Library"
+X Resource Information Extension Library
 
 {{< files text="show files" >}}* /usr/include/X11/extensions/XRes.h
 * /usr/lib/libXRes.so

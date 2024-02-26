@@ -14,7 +14,7 @@ sha1sum = "7afecf5d707d79f4033a050ed76a0244784a69f0"
 depends = "['libxaw>=1.0.13-3']"
 license = "GPL2"
 +++
-X.Org xmh application"
+X.Org xmh application
 
 {{< files text="show files" >}}* /usr/bin/xmh
 * /usr/share/doc/xmh-1.0.4/ChangeLog

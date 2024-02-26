@@ -14,7 +14,7 @@ sha1sum = "9882f730f8cd2b44a78f8f01590012f251cdeb7f"
 depends = "[]"
 reverse_depends = "['lib32-mesa-opemax']"
 +++
-An opensource implementation of the OpenMAX Integration Layer API ( 32bit )"
+An opensource implementation of the OpenMAX Integration Layer API ( 32bit )
 
 {{< files text="show files" >}}* /usr/lib32/bellagio/libomxaudio_effects.so
 * /usr/lib32/bellagio/libomxaudio_effects.so.0

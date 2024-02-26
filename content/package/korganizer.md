@@ -13,7 +13,7 @@ usize = "10899849"
 sha1sum = "bd07c15cdad3a1a37fcd54170b5532b508c67352"
 depends = "['incidenceeditor>=23.08.5', 'kdepim-runtime>=23.08.5', 'kontactinterface>=23.08.5', 'mailcommon>=23.08.5']"
 +++
-KDE Personal Organizer."
+KDE Personal Organizer.
 
 {{< files text="show files" >}}* /usr/bin/korganizer
 * /usr/lib/libkorganizerprivate.so.5

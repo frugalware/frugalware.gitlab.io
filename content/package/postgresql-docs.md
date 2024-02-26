@@ -13,7 +13,7 @@ usize = "9814818"
 sha1sum = "d8fa720f2671f031d9b8576430fc895ed33d3a0b"
 depends = "['postgresql=8.4.3']"
 +++
-PostgreSQL Documentation"
+PostgreSQL Documentation
 
 {{< files text="show files" >}}* /usr/share/doc/postgresql-8.4.3/html/acronyms.html
 * /usr/share/doc/postgresql-8.4.3/html/admin.html

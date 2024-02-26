@@ -13,7 +13,7 @@ usize = "347487"
 sha1sum = "0cf0f7642ac36cc4ceab6de2a0fddf89f515d5c5"
 depends = "['groff', 'ruby>=3.3.0', 'ruby-hpricot', 'ruby-mustache', 'ruby-rdiscount']"
 +++
-Manual page formatter that generates man pages from markdown"
+Manual page formatter that generates man pages from markdown
 
 {{< files text="show files" >}}* /usr/bin/ronn
 * /usr/lib/ruby/gems/3.3.0/cache/ronn-0.7.3.gem

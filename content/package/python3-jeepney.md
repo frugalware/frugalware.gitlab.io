@@ -14,7 +14,7 @@ sha1sum = "3a536bb736fc6fdc05f9b1f89ca3bc75afe9b863"
 depends = "['python3']"
 reverse_depends = "['python3-secretstorage']"
 +++
-Low-level, pure Python DBus protocol wrapper"
+Low-level, pure Python DBus protocol wrapper
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/jeepney-0.8.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/jeepney-0.8.0.dist-info/METADATA

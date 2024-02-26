@@ -13,7 +13,7 @@ usize = "1554201"
 sha1sum = "abaab41237237bf349196db36b90f5ea5231a8d0"
 depends = "['zlib']"
 +++
-A suite of tools compiling mdoc from the OpenBSD project"
+A suite of tools compiling mdoc from the OpenBSD project
 
 {{< files text="show files" >}}* /usr/bin/apropos
 * /usr/bin/catman

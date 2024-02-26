@@ -14,7 +14,7 @@ sha1sum = "0886398640f71cf76726dc2e62e41882a0cfb689"
 depends = "['libx11>=1.6.3-4']"
 reverse_depends = "['udisks2', 'wimlib']"
 +++
-A is a collection of utilities to access MS-DOS disks from Unix without mounting them"
+A is a collection of utilities to access MS-DOS disks from Unix without mounting them
 
 {{< files text="show files" >}}* /usr/bin/amuFormat.sh
 * /usr/bin/floppyd

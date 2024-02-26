@@ -14,7 +14,7 @@ sha1sum = "dec5111470666fa5aa5f8ab9d12055457f0906b6"
 depends = "['haskell-crypton-x509-store', 'haskell-data-default-class']"
 reverse_depends = "['haskell-connection', 'haskell-tls']"
 +++
-X.509 Certificate and CRL validation"
+X.509 Certificate and CRL validation
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/crypton-x509-validation-1.6.12/Data/X509/Validation.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/crypton-x509-validation-1.6.12/Data/X509/Validation.hi

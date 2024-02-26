@@ -14,7 +14,7 @@ sha1sum = "488689186b4cd840eb21fd03b70639ab1e55758f"
 depends = "['glibc>=2.34']"
 reverse_depends = "['libenca']"
 +++
-Converts files between various character sets and usages"
+Converts files between various character sets and usages
 
 {{< files text="show files" >}}* /usr/bin/recode
 * /usr/include/recode.h

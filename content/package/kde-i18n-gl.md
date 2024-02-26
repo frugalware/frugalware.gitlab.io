@@ -13,7 +13,7 @@ usize = "6315543"
 sha1sum = "d5c4a169c80370775f2dc43f05ce1810aff501f5"
 depends = "[]"
 +++
-Galician Localization for KDE."
+Galician Localization for KDE.
 
 {{< files text="show files" >}}* usr/share/locale/gl/charset
 * usr/share/locale/gl/entry.desktop

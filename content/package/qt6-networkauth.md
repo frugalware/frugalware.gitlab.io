@@ -13,7 +13,7 @@ usize = "310786"
 sha1sum = "ecef86a25956265f027c1eb08f4327297cf54833"
 depends = "['qt6-base']"
 +++
-The Qt6 toolkit, qtnetworkauth"
+The Qt6 toolkit, qtnetworkauth
 
 {{< files text="show files" >}}* /usr/include/qt6/QtNetworkAuth/6.6.2/QtNetworkAuth/private/qabstractoauth2_p.h
 * /usr/include/qt6/QtNetworkAuth/6.6.2/QtNetworkAuth/private/qabstractoauthreplyhandler_p.h

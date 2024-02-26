@@ -14,7 +14,7 @@ sha1sum = "659e26fc3129f0daa0df0cf210d3899b7eb735ce"
 depends = "['exiv2>=0.28.1', 'expat', 'gtk+2>=2.20.1', 'libgsf', 'libstdc++', 'libtool', 'libvorbis', 'libxau>=1.0.4', 'libxdamage', 'libxdmcp', 'libxext>=1.0.99.4-1', 'zlib>=1.2.12']"
 reverse_depends = "['gnunet']"
 +++
-libextractor is a library used to extract meta-data from files of arbitrary type"
+libextractor is a library used to extract meta-data from files of arbitrary type
 
 {{< files text="show files" >}}* /usr/bin/extract
 * /usr/include/extractor.h

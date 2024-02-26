@@ -13,7 +13,7 @@ usize = "510445"
 sha1sum = "e199b962c02d119bdf348470ea4e753a8c199dc0"
 depends = "['flex', 'openssl>=3.1.0']"
 +++
-BIP is an IRC proxy."
+BIP is an IRC proxy.
 
 {{< files text="show files" >}}* /usr/bin/bip
 * /usr/bin/bipgenconfig

@@ -13,7 +13,7 @@ usize = "718010433"
 sha1sum = "52703e4ea39027f0448a3922841bae109538d96c"
 depends = "['libsecret', 'libxkbfile', 'ripgrep']"
 +++
-A community-led hyper-hackable text editor, built on electron"
+A community-led hyper-hackable text editor, built on electron
 
 {{< files text="show files" >}}* /opt/Pulsar/chrome-sandbox
 * /opt/Pulsar/chrome_100_percent.pak

@@ -13,7 +13,7 @@ usize = "63690452"
 sha1sum = "7c014dc5712dfbf84cdcc2c088deb8b18ff73710"
 depends = "['curl', 'enet', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'xerces-c']"
 +++
-Enigma is a puzzle game inspired by Oxyd on the Atari ST and Rock n Roll on the Amiga."
+Enigma is a puzzle game inspired by Oxyd on the Atari ST and Rock n Roll on the Amiga.
 
 {{< files text="show files" >}}* /usr/bin/enigma
 * /usr/share/appdata/enigma.appdata.xml

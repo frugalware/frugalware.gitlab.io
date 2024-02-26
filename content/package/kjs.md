@@ -14,7 +14,7 @@ sha1sum = "2e1585aa0d1416aa6b8cab9662532942d892dc8d"
 depends = "['qt5-base>=5.15.12']"
 reverse_depends = "['khtml', 'kjsembed', 'krename', 'okular']"
 +++
-KDE Javascript engine."
+KDE Javascript engine.
 
 {{< files text="show files" >}}* /usr/bin/kjs5
 * /usr/include/KF5/kjs/array_instance.h

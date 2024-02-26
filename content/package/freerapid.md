@@ -13,7 +13,7 @@ usize = "15931634"
 sha1sum = "670ec55f000b0cbf6061e20ccf5bd53e883ac881"
 depends = "['openjre']"
 +++
-FreeRapid Dowbloader is a simple Java downloader that supports downloading from Rapidshare and other file-sharing services."
+FreeRapid Dowbloader is a simple Java downloader that supports downloading from Rapidshare and other file-sharing services.
 
 {{< files text="show files" >}}* /usr/bin/freerapid
 * /usr/share/applications/freerapid.desktop

@@ -13,7 +13,7 @@ usize = "918884"
 sha1sum = "f006554293b896de3bd65f72e000e2d4d40c51c1"
 depends = "[]"
 +++
-Static files for lzo"
+Static files for lzo
 
 {{< files text="show files" >}}* /usr/lib/liblzo2.a
 {{< /files >}}

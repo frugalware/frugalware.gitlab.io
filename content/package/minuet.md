@@ -13,7 +13,7 @@ usize = "33280438"
 sha1sum = "c2452c362347070ba14082d5e8196e34221b92ee"
 depends = "['fluidsynth>=2.0.0', 'libkdegames>=23.08.5', 'qt5-quickcontrols2>=5.15.12']"
 +++
-A KDE Software for Music Education"
+A KDE Software for Music Education
 
 {{< files text="show files" >}}* /usr/bin/minuet
 * /usr/include/minuet/interfaces/icore.h

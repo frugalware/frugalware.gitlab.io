@@ -13,7 +13,7 @@ usize = "328600"
 sha1sum = "6d3a2cd2bb240d732e361895452eba3878e5cc73"
 depends = "['perl>=5.34.0', 'perl-datetime-locale>=1.22', 'perl-datetime-timezone>=2.00', 'perl-params-validate>=1.03', 'perl-try-tiny']"
 +++
-A complete, easy to use date and time object"
+A complete, easy to use date and time object
 
 {{< files text="show files" >}}* /usr/lib/perl5/5.38/site_perl/auto/DateTime/DateTime.so
 * /usr/lib/perl5/5.38/site_perl/DateTime.pm

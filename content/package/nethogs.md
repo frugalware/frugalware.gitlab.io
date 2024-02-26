@@ -13,7 +13,7 @@ usize = "95913"
 sha1sum = "f409003539e0e3327088de56cbbb873870b4237e"
 depends = "['libpcap']"
 +++
-A Net top tool grouping bandwidth per process."
+A Net top tool grouping bandwidth per process.
 
 {{< files text="show files" >}}* /usr/bin/nethogs
 * /usr/share/doc/nethogs-0.8.7/COPYING

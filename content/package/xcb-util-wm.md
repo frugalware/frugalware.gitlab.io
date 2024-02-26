@@ -14,7 +14,7 @@ sha1sum = "943879d5caca95190273bbc80a72d17441ba9d10"
 depends = "['libxau>=1.0.8-3', 'libxcb>=1.13', 'libxdmcp>=1.1.2-3']"
 reverse_depends = "['i3', 'qt5-base', 'qt6-base', 'wlroots', 'xorg-server-xephyr']"
 +++
-wm libraries for X C Binding"
+wm libraries for X C Binding
 
 {{< files text="show files" >}}* /usr/include/xcb/xcb_ewmh.h
 * /usr/include/xcb/xcb_icccm.h

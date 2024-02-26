@@ -13,7 +13,7 @@ usize = "3039081"
 sha1sum = "1592ed6e780b5a77a2daf71320fa12bf4a1cafdf"
 depends = "['dovecot>=2.3.21']"
 +++
-Sieve Support for Dovecot"
+Sieve Support for Dovecot
 
 {{< files text="show files" >}}* /usr/bin/sieve-dump
 * /usr/bin/sieve-filter

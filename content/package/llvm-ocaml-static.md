@@ -13,7 +13,7 @@ usize = "1336686"
 sha1sum = "c7ad0604c0c004db526eb997d9fa693247b77e05"
 depends = "[]"
 +++
-OCaml bindings for LLVM (static)"
+OCaml bindings for LLVM (static)
 
 {{< files text="show files" >}}* /usr/lib/ocaml/llvm/libllvm.a
 * /usr/lib/ocaml/llvm/libllvm_AArch64.a

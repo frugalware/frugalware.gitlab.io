@@ -13,7 +13,7 @@ usize = "61475076"
 sha1sum = "2547ab68286c361a5bea18e1db31cc5b81062704"
 depends = "['clang-libs>=17.0.6', 'elfutils', 'python3>=3.11']"
 +++
-BPF Compiler Collection"
+BPF Compiler Collection
 
 {{< files text="show files" >}}* /usr/include/bcc/bcc_common.h
 * /usr/include/bcc/bcc_elf.h

@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "a66007d9439a468ec959dc25ce7fabd260086074"
 depends = "['fox-1.2', 'ruby']"
 +++
-An extension module for Ruby that provides an interface to the FOX GUI toolkit."
+An extension module for Ruby that provides an interface to the FOX GUI toolkit.
 
 {{< files text="show files" >}}* usr/lib/ruby/site_ruby/1.8/fox12/aliases.rb
 * usr/lib/ruby/site_ruby/1.8/fox12/bitmapview.rb

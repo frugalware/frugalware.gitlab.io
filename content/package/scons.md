@@ -13,7 +13,7 @@ usize = "21899416"
 sha1sum = "d16ed2fa68731e0db437d18406e61776ce281e6c"
 depends = "['python3>=3.9.6']"
 +++
-SCons is an Open Source software construction tool, a next-generation build tool."
+SCons is an Open Source software construction tool, a next-generation build tool.
 
 {{< files text="show files" >}}* /usr/bin/scons
 * /usr/bin/scons-configure-cache

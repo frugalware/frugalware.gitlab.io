@@ -13,7 +13,7 @@ usize = "14024"
 sha1sum = "7fa98af7362ef4fa48739d0e0b0ae6bc00828a6f"
 depends = "['dav1d>=1.3.0', 'libvlc>=3.0.20']"
 +++
-vlc dav1d support"
+vlc dav1d support
 
 {{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/libdav1d_plugin.so
 {{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "43884ef3fb6cc1eed09c17b0e41cedb84ba7c223"
 depends = "['fontconfig', 'mkfontscale']"
 reverse_depends = "['plasma-integration', 'tootle']"
 +++
-Noto Emoji fonts"
+Noto Emoji fonts
 
 {{< files text="show files" >}}* /usr/share/doc/noto-emoji-20170821/AUTHORS
 * /usr/share/doc/noto-emoji-20170821/CONTRIBUTORS

@@ -14,7 +14,7 @@ sha1sum = "39d0675048b2eb1efc0f5a90b43c73b8061e39ab"
 depends = "['assimp', 'qt5-declarative>=5.15.12']"
 reverse_depends = "['meshroom', 'qmlalembic', 'qtoiio']"
 +++
-The Qt5 toolkit, qt3d"
+The Qt5 toolkit, qt3d
 
 {{< files text="show files" >}}* /usr/bin/qgltf
 * /usr/bin/qgltf-qt5

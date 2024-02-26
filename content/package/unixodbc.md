@@ -14,7 +14,7 @@ sha1sum = "d8b96edd2f18c469167c1f3cf11efb35876243c8"
 depends = "['libtool>=2.4.6-5', 'ncurses>=6.0-18', 'readline>=8.0']"
 reverse_depends = "['apr-util', 'freetds', 'gdal', 'libreoffice', 'mdbtools', 'poco']"
 +++
-ODBC is an open specification for providing application developers with a predictable API with which to access Data Sources"
+ODBC is an open specification for providing application developers with a predictable API with which to access Data Sources
 
 {{< files text="show files" >}}* /etc/odbc.ini
 * /etc/odbcinst.ini

@@ -15,7 +15,7 @@ depends = "['libffi>=3.4', 'ocaml>=5.1.1', 'ocaml-bigarray-compat', 'ocaml-integ
 reverse_depends = "['ocaml-luv']"
 license = "custom"
 +++
-Library for binding to C libraries using pure OCaml"
+Library for binding to C libraries using pure OCaml
 
 {{< files text="show files" >}}* /usr/lib/ocaml/ctypes-foreign/.private/ctypes_foreign_threaded_stubs.cmi
 * /usr/lib/ocaml/ctypes-foreign/.private/ctypes_foreign_threaded_stubs.cmt

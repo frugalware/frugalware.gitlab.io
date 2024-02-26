@@ -13,7 +13,7 @@ usize = "1501408"
 sha1sum = "d7c690f831e6bc4029df91b57ddb8e97401e46c1"
 depends = "['expat>=2.1.0-5', 'libstdc++>=9.1.0-3', 'zlib>=1.2.12']"
 +++
-Exempi is an implementation of XMP. Version 2.x is based on Adobe XMP SDK"
+Exempi is an implementation of XMP. Version 2.x is based on Adobe XMP SDK
 
 {{< files text="show files" >}}* /usr/bin/exempi
 * /usr/include/exempi-2.0/exempi/xmp++.hpp

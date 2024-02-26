@@ -14,7 +14,7 @@ sha1sum = "191627d86e8e28fb402cbc743b0001cb4e7742b7"
 depends = "['freetype2', 'gtk+2>=2.20.0-2', 'libstdc++', 'libtool', 'pango>=1.14.2']"
 reverse_depends = "['efl', 'skim']"
 +++
-Input methods covering more than 30 languages."
+Input methods covering more than 30 languages.
 
 {{< files text="show files" >}}* /etc/profile.d/scim.sh
 * /etc/scim/config

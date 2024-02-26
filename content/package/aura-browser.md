@@ -14,7 +14,7 @@ sha1sum = "d5eed79de3f810ab78857e9ab7036ba0ba77e392"
 depends = "['ki18n>=5.115.0', 'kirigami2>=5.115.0', 'qt5-multimedia>=5.15.12', 'qt5-virtualkeyboard>=5.15.12', 'qt5-webengine>=5.15.12']"
 reverse_depends = "['plasma-bigscreen']"
 +++
-Browser for a fully immersed Big Screen experience allowing you to navigate the world wide web using just your remote contro"
+Browser for a fully immersed Big Screen experience allowing you to navigate the world wide web using just your remote contro
 
 {{< files text="show files" >}}* /usr/bin/aura-browser
 * /usr/share/applications/org.kde.aura-browser.desktop

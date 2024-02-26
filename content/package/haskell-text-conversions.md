@@ -14,7 +14,7 @@ sha1sum = "db2b6c1c8400e33ac4508eebb063e63d1bc11790"
 depends = "['haskell-base16-bytestring', 'haskell-base64-bytestring']"
 reverse_depends = "['haskell-doctemplates']"
 +++
-Safe conversions between textual types"
+Safe conversions between textual types
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/text-conversions-0.3.1.1/Data/Text/Conversions.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/text-conversions-0.3.1.1/Data/Text/Conversions.hi

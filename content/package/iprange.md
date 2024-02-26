@@ -13,7 +13,7 @@ usize = "114797"
 sha1sum = "43d4b0c2ee69a911229468dee323bc42354224e7"
 depends = "[]"
 +++
-Util to manage IP ranges"
+Util to manage IP ranges
 
 {{< files text="show files" >}}* /usr/bin/iprange
 * /usr/share/doc/iprange-1.0.4/ChangeLog

@@ -14,7 +14,7 @@ sha1sum = "6754a11d802338bbe358aaeb400497d782a2ad9f"
 depends = "['imlib2>=1.4.3-2', 'libstdc++', 'libxft>=2.1.13-2', 'libxml2>=2.7.8', 'libxpm>=3.5.7-2', 'libxrandr']"
 reverse_depends = "['lumina-desktop']"
 +++
-A lightweight wm, based on the code of blackbox"
+A lightweight wm, based on the code of blackbox
 
 {{< files text="show files" >}}* /etc/X11/sessions/fluxbox.desktop
 * /usr/bin/fbrun

@@ -14,7 +14,7 @@ sha1sum = "4bf33bcd1363072b8fcfb36c13885e669680b96d"
 depends = "['glibc>=2.34']"
 reverse_depends = "['celt', 'celt051', 'efl', 'enlightenment', 'flac', 'gst1-plugins-base-ogg', 'gst1-plugins-base-theora', 'gst1-plugins-base-vorbis', 'guvcview', 'libpulse', 'libsndfile', 'libtheora', 'libvorbis', 'minidlna', 'mlt', 'solarus', 'speex', 'stepmania', 'terminology']"
 +++
-Ogg bitstream and framing library"
+Ogg bitstream and framing library
 
 {{< files text="show files" >}}* /usr/include/ogg/config_types.h
 * /usr/include/ogg/ogg.h

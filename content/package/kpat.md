@@ -13,7 +13,7 @@ usize = "5566978"
 sha1sum = "b4a0c80e53b463678b632f710383aa93edbc80e4"
 depends = "['black-hole-solver', 'freecell-solver', 'kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5']"
 +++
-Offers a selection of solitaire card games."
+Offers a selection of solitaire card games.
 
 {{< files text="show files" >}}* /usr/bin/kpat
 * /usr/lib/libkcardgame.so

@@ -14,7 +14,7 @@ sha1sum = "a96a47a5031285b8d8fd0ec8c015c6dcdc59cc28"
 depends = "['glibc>=2.35']"
 reverse_depends = "['flatpak', 'gnome-desktop', 'kscreenlocker', 'qemu', 'runc', 'systemd', 'systemd-nspawn', 'systemd-systemctl', 'tor', 'usbguard', 'webkit-gtk3']"
 +++
-Enhanced seccomp library"
+Enhanced seccomp library
 
 {{< files text="show files" >}}* /usr/bin/scmp_sys_resolver
 * /usr/include/seccomp-syscalls.h

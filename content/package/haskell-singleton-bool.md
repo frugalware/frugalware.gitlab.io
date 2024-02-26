@@ -14,7 +14,7 @@ sha1sum = "d33a7e30c10b30010e3da8a7875bdca1d7fc31eb"
 depends = "['haskell-dec', 'haskell-some']"
 reverse_depends = "['haskell-servant']"
 +++
-Type level booleans"
+Type level booleans
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/singleton-bool-0.1.7/Data/Singletons/Bool.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/singleton-bool-0.1.7/Data/Singletons/Bool.hi

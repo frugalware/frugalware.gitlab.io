@@ -13,7 +13,7 @@ usize = "28284086"
 sha1sum = "e51172065ea7afe741927c1bc45900cbc24df18b"
 depends = "['mono']"
 +++
-Microsoft .NET Portable Library Reference Assemblies"
+Microsoft .NET Portable Library Reference Assemblies
 
 {{< files text="show files" >}}* /usr/lib/mono/xbuild-frameworks/.NETPortable/v4.0/Microsoft.CSharp.dll
 * /usr/lib/mono/xbuild-frameworks/.NETPortable/v4.0/mscorlib.dll

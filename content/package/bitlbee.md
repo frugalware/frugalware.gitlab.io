@@ -14,6 +14,6 @@ sha1sum = "c3cf9390ad02fbe96a130ce7fb2d12605706e935"
 depends = "['bitlbee-common=3.6-2']"
 reverse_depends = "['bitlbee-otr']"
 +++
-An IRC to other chat networks gateway."
+An IRC to other chat networks gateway.
 
 {{< files text="show files" >}}{{< /files >}}

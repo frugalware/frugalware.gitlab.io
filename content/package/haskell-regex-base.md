@@ -14,7 +14,7 @@ sha1sum = "5738bac0f28dffb056da6718e0e90a767d116e4d"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-regex-posix', 'haskell-regex-tdfa']"
 +++
-Haskell regex base library."
+Haskell regex base library.
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/regex-base-0.94.0.2/libHSregex-base-0.94.0.2-CuXFT0mT5X78vCtRv7Sh9t.a
 * /usr/lib/ghc-9.8.1/site-local/regex-base-0.94.0.2/Paths_regex_base.dyn_hi

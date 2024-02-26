@@ -14,7 +14,7 @@ sha1sum = "39c0f01fbb58f66ce85915a844d1c5e42e65d3ce"
 depends = "['kcompletion>=5.115.0', 'kconfigwidgets>=5.115.0', 'qt5-svg>=5.15.12', 'qt5-x11extras>=5.15.12']"
 reverse_depends = "['kajongg', 'kmahjongg', 'kshisen']"
 +++
-Library for KDE mahjongg games."
+Library for KDE mahjongg games.
 
 {{< files text="show files" >}}* /usr/include/KF5/KMahjongg/KMahjonggBackground
 * /usr/include/KF5/KMahjongg/kmahjonggbackground.h

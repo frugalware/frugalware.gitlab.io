@@ -14,7 +14,7 @@ sha1sum = "4b5713bbf5e7fb2e7e893857c171e50048137bca"
 depends = "['haskell-assoc>=1.0.2-10', 'haskell-base-compat>=0.12.0', 'haskell-hashable>=1.3.4.0']"
 reverse_depends = "['haskell-semialign', 'haskell-strict']"
 +++
-An either-or-both data type."
+An either-or-both data type.
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/these-1.2/Data/Functor/These.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/these-1.2/Data/Functor/These.hi

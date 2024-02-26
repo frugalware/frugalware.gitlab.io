@@ -14,7 +14,7 @@ sha1sum = "4ea63a4da90c7e13c2ff372be4da780256607e57"
 depends = "['haskell-cookie', 'haskell-http-types', 'haskell-tagged', 'haskell-text-iso8601', 'haskell-unordered-containers', 'haskell-uuid-types']"
 reverse_depends = "['haskell-servant']"
 +++
-Converting to/from HTTP API data like URL pieces, headers and query parameters"
+Converting to/from HTTP API data like URL pieces, headers and query parameters
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/http-api-data-0.6/libHShttp-api-data-0.6-SL1uk4xsIw8K2WRhz3r0c.a
 * /usr/lib/ghc-9.8.1/site-local/http-api-data-0.6/Web/FormUrlEncoded.dyn_hi

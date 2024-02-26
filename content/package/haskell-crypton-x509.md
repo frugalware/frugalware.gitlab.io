@@ -14,7 +14,7 @@ sha1sum = "f6c0fdda7517ba735e278303618ffd9f296b7af5"
 depends = "['haskell-asn1-encoding', 'haskell-asn1-parse', 'haskell-crypton', 'haskell-pem']"
 reverse_depends = "['haskell-crypton-x509-store']"
 +++
-X509 reader and writer"
+X509 reader and writer
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/crypton-x509-1.7.6/Data/X509.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/crypton-x509-1.7.6/Data/X509.hi

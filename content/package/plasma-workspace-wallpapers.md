@@ -13,7 +13,7 @@ usize = "95170020"
 sha1sum = "56e4bb734524c3b97b160fe207a1bb886df0d185"
 depends = "[]"
 +++
-Additional wallpapers for the Plasma Workspace."
+Additional wallpapers for the Plasma Workspace.
 
 {{< files text="show files" >}}* /usr/share/doc/plasma-workspace-wallpapers-5.27.10/AUTHORS
 * /usr/share/doc/plasma-workspace-wallpapers-5.27.10/COPYING

@@ -13,7 +13,7 @@ usize = "14456"
 sha1sum = "516c8d145e3092a9ee87365f2660757be4d1ca62"
 depends = "['libstdc++>=6.2.1-5', 'uwsgi']"
 +++
-UWSGI C++ Plugin"
+UWSGI C++ Plugin
 
 {{< files text="show files" >}}* /usr/lib/uwsgi/cplusplus_plugin.so
 {{< /files >}}

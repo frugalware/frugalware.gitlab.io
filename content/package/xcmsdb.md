@@ -14,7 +14,7 @@ sha1sum = "977da7bffd605f21298c6a4fee6fb5f7fe29af30"
 depends = "['libx11>=1.6.3-3']"
 license = "GPL2"
 +++
-X.Org xcmsdb application"
+X.Org xcmsdb application
 
 {{< files text="show files" >}}* /usr/bin/xcmsdb
 * /usr/share/doc/xcmsdb-1.0.6/ChangeLog

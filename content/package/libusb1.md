@@ -14,7 +14,7 @@ sha1sum = "1df68fc24688197278c630f2592a3a41ddc19996"
 depends = "['glibc>=2.34', 'libudev>=242']"
 reverse_depends = "['android-tools', 'argyllcms', 'chromium-browser', 'cups', 'gpsd', 'hplip-driver', 'libdc1394', 'libgphoto2', 'libgusb', 'libhidapi', 'libmtp', 'libpcap', 'librtlsdr', 'libusb', 'libusbmuxd', 'sane-backends', 'upower', 'usb-modeswitch', 'usbredir', 'wireshark']"
 +++
-A library which allows userspace access to USB devices"
+A library which allows userspace access to USB devices
 
 {{< files text="show files" >}}* /usr/include/libusb-1.0/libusb.h
 * /usr/lib/libusb-1.0.so

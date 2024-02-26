@@ -14,7 +14,7 @@ sha1sum = "e87e373fbaf271535764dc54509cd6e61a83a783"
 depends = "['libraw1394>=2.1.2-2']"
 reverse_depends = "['gst1-plugins-good-avc1394']"
 +++
-libiec61883 provides higher level API for streaming over IEEE 1394."
+libiec61883 provides higher level API for streaming over IEEE 1394.
 
 {{< files text="show files" >}}* /usr/bin/plugctl
 * /usr/bin/plugreport

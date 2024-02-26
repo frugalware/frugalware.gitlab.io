@@ -14,7 +14,7 @@ sha1sum = "878d3cfc28c1cea0955d2ab72d931365c403260c"
 depends = "['glibc>=2.35']"
 reverse_depends = "['clight', 'cryptsetup-luks', 'desktop-file-utils', 'distcc', 'distcc-gui', 'dracut', 'efivar', 'exif', 'gphoto2', 'gptfdisk', 'hd2u', 'intltool', 'libdv', 'librsync', 'logrotate', 'newt', 'ptabtools', 'rsync', 'samba-client', 'vcdimager']"
 +++
-A commandline option parser"
+A commandline option parser
 
 {{< files text="show files" >}}* /usr/include/popt.h
 * /usr/lib/libpopt.so

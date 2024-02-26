@@ -13,7 +13,7 @@ usize = "7801212"
 sha1sum = "1519ff6c87cd8b3950307ee20186e598a49a4b5f"
 depends = "['gtk+3>=3.22.29', 'gtk+4', 'libdbusmenu-gtk3', 'libffi>=3.2.1-2', 'libibus', 'libnotify>=0.7.7-4', 'libsystemd>=231-7']"
 +++
-Intelligent Input Bus."
+Intelligent Input Bus.
 
 {{< files text="show files" >}}* /etc/xdg/Xwayland-session.d/10-ibus-x11
 * /usr/bin/ibus

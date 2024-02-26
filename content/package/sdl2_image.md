@@ -14,7 +14,7 @@ sha1sum = "bd5e161dfb197fcacd95899c7e250fe86fa3e5f0"
 depends = "['jxrlib', 'libavif', 'libtiff>=4.0.6', 'libwebp>=0.5.0', 'sdl2>=2.0.8']"
 reverse_depends = "['crawl-tiles', 'enigma', 'freeciv', 'lincity-ng', 'redeclipse', 'solarus', 'supertux', 'ultrastardx', 'v4l-utils', 'wesnoth']"
 +++
-Image loading library for SDL2"
+Image loading library for SDL2
 
 {{< files text="show files" >}}* /usr/include/SDL2/SDL_image.h
 * /usr/lib/cmake/SDL2_image/sdl2_image-config-version.cmake

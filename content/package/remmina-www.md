@@ -13,7 +13,7 @@ usize = "34768"
 sha1sum = "0bb6673c09b6a158237b24fa45de448ebe8bb034"
 depends = "['webkit-gtk3>=2.42.1']"
 +++
-ww plugin for remmina"
+ww plugin for remmina
 
 {{< files text="show files" >}}* /usr/lib/remmina/plugins/remmina-plugin-www.so
 {{< /files >}}

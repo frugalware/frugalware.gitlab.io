@@ -13,7 +13,7 @@ usize = "1150186"
 sha1sum = "05a63d52b79b4f20f201034fff64432220a6dd05"
 depends = "[]"
 +++
-A collection of multi-dimensional data structure and indexing algorithm."
+A collection of multi-dimensional data structure and indexing algorithm.
 
 {{< files text="show files" >}}* /usr/include/mdds-2.1/mdds/flat_segment_tree.hpp
 * /usr/include/mdds-2.1/mdds/flat_segment_tree_def.inl

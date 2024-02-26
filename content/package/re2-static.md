@@ -13,7 +13,7 @@ usize = "4536508"
 sha1sum = "f7ae0991b489826e6916bbe03e161efa0f69c420"
 depends = "[]"
 +++
-Static files for re2"
+Static files for re2
 
 {{< files text="show files" >}}* /usr/lib/libre2.a
 {{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "601dae25a83997d35a70445325f17fb3ba934299"
 depends = "['json-glib', 'libsoup3', 'libxml2>=2.9.4-3']"
 reverse_depends = "['libgovirt']"
 +++
-This library was designed to make it easier to access web services"
+This library was designed to make it easier to access web services
 
 {{< files text="show files" >}}* /usr/include/rest-1.0/rest-extras/flickr-proxy-call.h
 * /usr/include/rest-1.0/rest-extras/flickr-proxy.h

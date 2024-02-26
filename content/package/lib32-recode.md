@@ -14,7 +14,7 @@ sha1sum = "e79756a3b8227a2231f3ec60538062ec07dc3246"
 depends = "[]"
 reverse_depends = "['lib32-libenca']"
 +++
-Converts files between various character sets and usages ( 32bit )"
+Converts files between various character sets and usages ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/recode
 * /usr/i686-frugalware-linux/include/recode.h

@@ -14,7 +14,7 @@ sha1sum = "68b049915dea9df954386c2be249f89bcc6c59d4"
 depends = "['glibc']"
 reverse_depends = "['mftrace']"
 +++
-Type 1 utilities"
+Type 1 utilities
 
 {{< files text="show files" >}}* /usr/bin/t1ascii
 * /usr/bin/t1asm

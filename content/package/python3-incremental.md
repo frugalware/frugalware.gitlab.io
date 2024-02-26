@@ -14,7 +14,7 @@ sha1sum = "c393b9cef3ac9a5914421e88ddda674565b9593c"
 depends = "['python3>=3.11']"
 reverse_depends = "['python3-twisted']"
 +++
-A small library that versions your Python projects."
+A small library that versions your Python projects.
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/incremental-22.10.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/incremental-22.10.0-py3.12.egg-info/entry_points.txt

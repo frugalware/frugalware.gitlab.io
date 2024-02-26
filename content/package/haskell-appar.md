@@ -14,7 +14,7 @@ sha1sum = "11e859df42fa4e39ab80cecb7851710da8556c27"
 depends = "['haskell-data-default-class']"
 reverse_depends = "['haskell-iproute']"
 +++
-A simple applicative parser"
+A simple applicative parser
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/appar-0.1.8/libHSappar-0.1.8-AXmmK3Cixy7E6o5t6sKrJo.a
 * /usr/lib/ghc-9.8.1/site-local/appar-0.1.8/Text/Appar/ByteString.dyn_hi

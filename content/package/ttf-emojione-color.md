@@ -14,7 +14,7 @@ sha1sum = "e22ec40ec83ee45259cdb2f1edadc6149c8e9df0"
 depends = "['fontconfig', 'mkfontscale']"
 reverse_depends = "['yakyak']"
 +++
-A color and B&W emoji SVGinOT font built from EmojiOne."
+A color and B&W emoji SVGinOT font built from EmojiOne.
 
 {{< files text="show files" >}}* /etc/fonts/conf.avail/64-ttf-emojione-color.conf
 * /etc/fonts/conf.d/64-ttf-emojione-color.conf

@@ -13,7 +13,7 @@ usize = "803935"
 sha1sum = "fdbd9d0cf2e8e822012a3f643619a24889a6eee2"
 depends = "['diffstat', 'diffutils', 'gawk', 'gettext', 'patch', 'perl>=5.28.2']"
 +++
-Allows to manage a series of patches."
+Allows to manage a series of patches.
 
 {{< files text="show files" >}}* /etc/bash_completion.d/quilt
 * /etc/quilt.quiltrc

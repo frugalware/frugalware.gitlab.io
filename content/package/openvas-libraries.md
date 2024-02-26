@@ -14,7 +14,7 @@ sha1sum = "cea8d51d8868a35b7e359b96f875177299068b72"
 depends = "['gpgme', 'hiredis', 'libldap', 'libnet', 'libpcap', 'libxcrypt', 'paho-mqtt-c']"
 reverse_depends = "['openvas-manager', 'openvas-scanner']"
 +++
-OpenVAS libraries."
+OpenVAS libraries.
 
 {{< files text="show files" >}}* /usr/include/gvm/base/array.h
 * /usr/include/gvm/base/credentials.h

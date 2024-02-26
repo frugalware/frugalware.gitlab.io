@@ -13,7 +13,7 @@ usize = "167881"
 sha1sum = "fbe6360c7001e7cc96212cde6065684e25672cd8"
 depends = "['qt5-declarative>=5.15.12']"
 +++
-The Qt5 toolkit, qtpurchasing"
+The Qt5 toolkit, qtpurchasing
 
 {{< files text="show files" >}}* /usr/include/qt5/QtPurchasing/5.15.12/QtPurchasing/private/qandroidinappproduct_p.h
 * /usr/include/qt5/QtPurchasing/5.15.12/QtPurchasing/private/qandroidinapppurchasebackend_p.h

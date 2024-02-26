@@ -13,7 +13,7 @@ usize = "89415670"
 sha1sum = "e155147060be3096a907346be6f4df172fb4b930"
 depends = "[]"
 +++
-Static files for botan"
+Static files for botan
 
 {{< files text="show files" >}}* /usr/lib/libbotan-3.a
 {{< /files >}}

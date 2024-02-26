@@ -13,7 +13,7 @@ usize = "1697272"
 sha1sum = "df8b46ec94a9ebc48e9148fa93aec15a6f3564e8"
 depends = "[]"
 +++
-Static files for lua"
+Static files for lua
 
 {{< files text="show files" >}}* /usr/lib/liblua.a
 {{< /files >}}

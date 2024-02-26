@@ -14,7 +14,7 @@ sha1sum = "3a6cfe19c02c90a0412b46e7e0ea62080d67cd97"
 depends = "['glib2>=2.60.3', 'libsoup3', 'libxslt']"
 reverse_depends = "['virt-manager']"
 +++
-libosinfo is a GObject based library API for managing information about operating systems"
+libosinfo is a GObject based library API for managing information about operating systems
 
 {{< files text="show files" >}}* /usr/bin/osinfo-detect
 * /usr/bin/osinfo-install-script

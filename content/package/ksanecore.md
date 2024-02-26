@@ -14,7 +14,7 @@ sha1sum = "2c4f979d015951a87b7e1da2f43ca5349a40ba2d"
 depends = "['ki18n>=5.115.0', 'sane-backends>=1.0.25-3']"
 reverse_depends = "['libksane', 'skanpage']"
 +++
-Library providing logic to interface scanners"
+Library providing logic to interface scanners
 
 {{< files text="show files" >}}* /usr/include/KSaneCore/DeviceInformation
 * /usr/include/KSaneCore/deviceinformation.h

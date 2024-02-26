@@ -13,7 +13,7 @@ usize = "88480"
 sha1sum = "8bd4fa07d7ed89eb1a85a24267eab83cbfadb931"
 depends = "['libsm>=1.2.2-3', 'libxtst>=1.2.2-3', 'pulseaudio>=17.0']"
 +++
-x11 module for PulseAudio sound server"
+x11 module for PulseAudio sound server
 
 {{< files text="show files" >}}* /etc/xdg/autostart/pulseaudio.desktop
 * /etc/xdg/Xwayland-session.d/00-pulseaudio-x11

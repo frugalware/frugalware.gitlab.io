@@ -13,7 +13,7 @@ usize = "88548"
 sha1sum = "80ee7829901910893e9f1972ab24f82c724d9a57"
 depends = "['glibc']"
 +++
-Archive OpenPGP keys on paper"
+Archive OpenPGP keys on paper
 
 {{< files text="show files" >}}* /usr/bin/paperkey
 * /usr/share/doc/paperkey-1.6/AUTHORS

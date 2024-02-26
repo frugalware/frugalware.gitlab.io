@@ -15,7 +15,7 @@ depends = "['fontconfig>=2.12.6-2', 'freetype2>=2.9', 'libx11>=1.6.7-2', 'libxex
 reverse_depends = "['conky', 'dmenu', 'firefox', 'fltk', 'fluxbox', 'fox', 'fox-1.2', 'ksubeditor', 'ksubtile', 'm17n-lib', 'pango', 'plasma-desktop', 'plasma-workspace', 'tk', 'wmi', 'xclock', 'xfd', 'xscreensaver-data', 'xterm']"
 license = "GPL2"
 +++
-X FreeType library"
+X FreeType library
 
 {{< files text="show files" >}}* /usr/include/X11/Xft/Xft.h
 * /usr/include/X11/Xft/XftCompat.h

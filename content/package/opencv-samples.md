@@ -13,7 +13,7 @@ usize = "56785933"
 sha1sum = "bfda563bcf003adb87685aea671838d9d7552ea6"
 depends = "['opencv>=4.9.0']"
 +++
-Intel(R) Open Source Computer Vision Library Examples"
+Intel(R) Open Source Computer Vision Library Examples
 
 {{< files text="show files" >}}* /usr/share/opencv4/samples/alphamat/information_flow_matting.cpp
 * /usr/share/opencv4/samples/alphamat/input_images/plant.jpg

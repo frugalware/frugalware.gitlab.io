@@ -13,7 +13,7 @@ usize = "2027376"
 sha1sum = "0acf1107e72be06c351d8b545630464e4a9ad00f"
 depends = "['glibc']"
 +++
-Frugalware X11 cursor theme"
+Frugalware X11 cursor theme
 
 {{< files text="show files" >}}* /usr/share/icons/FwX11MouseThemeFading/cursors/00008160000006810000408080010102
 * /usr/share/icons/FwX11MouseThemeFading/cursors/028006030e0e7ebffc7f7070c0600140

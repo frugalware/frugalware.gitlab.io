@@ -14,7 +14,7 @@ sha1sum = "c2a745f83d212063b03fad90d71e1233ec78e9b9"
 depends = "['hdf5', 'libgomp', 'lz4', 'octave']"
 reverse_depends = "['alicevision']"
 +++
-Library for performing fast approximate nearest neighbor searches in high dimensional spaces"
+Library for performing fast approximate nearest neighbor searches in high dimensional spaces
 
 {{< files text="show files" >}}* /usr/include/flann/algorithms/all_indices.h
 * /usr/include/flann/algorithms/autotuned_index.h

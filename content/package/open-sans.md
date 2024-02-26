@@ -13,7 +13,7 @@ usize = "1514618"
 sha1sum = "63232574387010db3200d0a3994675236fb23365"
 depends = "['fontconfig', 'mkfontscale']"
 +++
-Open Sans is a humanist sans serif typeface designed by Steve Matteson, Type Director of Ascender Corp."
+Open Sans is a humanist sans serif typeface designed by Steve Matteson, Type Director of Ascender Corp.
 
 {{< files text="show files" >}}* /usr/share/fonts/X11/TTF/OpenSans-Bold.ttf
 * /usr/share/fonts/X11/TTF/OpenSans-BoldItalic.ttf

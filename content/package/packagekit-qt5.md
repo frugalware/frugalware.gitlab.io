@@ -14,7 +14,7 @@ sha1sum = "eaec1be9a472bc60cb0a8287be86e57d6c4353e7"
 depends = "['qt5-base>=5.15.10']"
 reverse_depends = "['discover', 'frameworkintegration', 'kdenetwork-filesharing', 'plasma-desktop']"
 +++
-A system designed to make installation and updates of packages easier"
+A system designed to make installation and updates of packages easier
 
 {{< files text="show files" >}}* /usr/include/packagekitqt5/PackageKit/bitfield.h
 * /usr/include/packagekitqt5/PackageKit/common.h

@@ -13,7 +13,7 @@ usize = "938122"
 sha1sum = "ffc02ae51b3fb926e37be919bc2462c3d7d42694"
 depends = "['kio>=5.115.0']"
 +++
-Countdown timer."
+Countdown timer.
 
 {{< files text="show files" >}}* /usr/bin/ktimer
 * /usr/share/applications/org.kde.ktimer.desktop

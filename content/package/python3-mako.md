@@ -13,7 +13,7 @@ usize = "638354"
 sha1sum = "e730ec4889f91c27c1aadee00d993ae3fd5995e1"
 depends = "['python3-markupsafe', 'python3-pygments']"
 +++
-Mako is a template library written in Python."
+Mako is a template library written in Python.
 
 {{< files text="show files" >}}* /usr/bin/mako-render
 * /usr/lib/python3.12/site-packages/Mako-1.3.0-py3.12.egg-info/dependency_links.txt

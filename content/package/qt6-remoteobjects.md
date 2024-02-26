@@ -13,7 +13,7 @@ usize = "1658414"
 sha1sum = "149cd77631ca717acfd481f2dcbe17610201b127"
 depends = "['qt6-declarative']"
 +++
-The Qt6 toolkit, qtremoteobjects"
+The Qt6 toolkit, qtremoteobjects
 
 {{< files text="show files" >}}* /usr/include/qt6/QtRemoteObjects/6.6.2/QtRemoteObjects/private/qconnectionfactories_p.h
 * /usr/include/qt6/QtRemoteObjects/6.6.2/QtRemoteObjects/private/qconnection_local_backend_p.h

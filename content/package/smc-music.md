@@ -13,7 +13,7 @@ usize = "47953011"
 sha1sum = "69da195d631138019bf02be28276f7d974c1e295"
 depends = "[]"
 +++
-Music for the Super Mario Brothers Clone"
+Music for the Super Mario Brothers Clone
 
 {{< files text="show files" >}}* /usr/share/doc/smc-music-5.0/Addon - Music Readme.txt
 * /usr/share/smc/music/game/bossbattle_1.ogg

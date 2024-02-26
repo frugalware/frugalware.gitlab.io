@@ -14,7 +14,7 @@ sha1sum = "8e88c78cb6b3604ec82716be421b76dff2fa77ea"
 depends = "['python3-cryptography>=2.1.4', 'python3-pyasn1>=0.4.2']"
 reverse_depends = "['python3-dulwich']"
 +++
-SSH2 protocol for python."
+SSH2 protocol for python.
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/paramiko-2.12.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/paramiko-2.12.0-py3.12.egg-info/PKG-INFO

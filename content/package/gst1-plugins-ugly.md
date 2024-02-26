@@ -14,7 +14,7 @@ sha1sum = "6a45b583c7baf0e37a8d53900286ce60c4209f54"
 depends = "['gst1-plugins-base>=1.22.10', 'gstreamer1>=1.22.10', 'libffi>=3.2.1-2', 'orc>=0.4.24-2']"
 reverse_depends = "['castersoundboard', 'gst1-plugins-ugly-a52dec', 'gst1-plugins-ugly-cdio', 'gst1-plugins-ugly-dvdread', 'gst1-plugins-ugly-mpeg2dec', 'gst1-plugins-ugly-x264', 'spice']"
 +++
-Plugins for GStreamer (Ugly)"
+Plugins for GStreamer (Ugly)
 
 {{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstasf.so
 * /usr/lib/gstreamer-1.0/libgstdvdlpcmdec.so

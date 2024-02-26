@@ -13,7 +13,7 @@ usize = "169288"
 sha1sum = "466525ad35a01f3bc25dc31ee50f4f1d5c88b8fc"
 depends = "['libvlc>=3.0.20', 'libvorbis']"
 +++
-vlc vorbis support"
+vlc vorbis support
 
 {{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/libvorbis_plugin.so
 * /usr/lib/vlc/plugins/demux/libogg_plugin.so

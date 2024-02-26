@@ -14,7 +14,7 @@ sha1sum = "27bfb47f1d0de1238e0ed258dc0e928bce903124"
 depends = "[]"
 reverse_depends = "['lib32-ffmpeg']"
 +++
-Scaling, colorspace conversion, and dithering library ( 32bit )"
+Scaling, colorspace conversion, and dithering library ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/include/zimg++.hpp
 * /usr/i686-frugalware-linux/include/zimg.h

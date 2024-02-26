@@ -14,7 +14,7 @@ sha1sum = "231cf42d2de656f34d98bcb15016ce2777ddeb83"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['amavisd-new']"
 +++
-Perl interface to the UNIX syslog(3) calls"
+Perl interface to the UNIX syslog(3) calls
 
 {{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/Unix/Syslog/Syslog.so
 * /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Unix/Syslog.pm

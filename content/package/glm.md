@@ -14,7 +14,7 @@ sha1sum = "9b7618226d53b0f3a08b46a49dc48ebc1a3bd79f"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['kicad', 'performous', 'solarus', 'supertux']"
 +++
-OpenGL Mathematics"
+OpenGL Mathematics
 
 {{< files text="show files" >}}* /usr/include/glm/common.hpp
 * /usr/include/glm/detail/compute_common.hpp

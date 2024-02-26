@@ -13,7 +13,7 @@ usize = "908757"
 sha1sum = "461c6a8abc20bd88d385bf21fa3eacf488bf1871"
 depends = "['llvm>=17.0.6', 'ocaml>=4.10.0']"
 +++
-OCaml bindings for LLVM"
+OCaml bindings for LLVM
 
 {{< files text="show files" >}}* /usr/lib/cmake/llvm/AddOCaml.cmake
 * /usr/lib/cmake/llvm/FindOCaml.cmake

@@ -14,7 +14,7 @@ sha1sum = "a5df1722a663d788049509c57084ac71f9b1d5b3"
 depends = "['glibc']"
 reverse_depends = "['weston']"
 +++
-EDID and DisplayID library"
+EDID and DisplayID library
 
 {{< files text="show files" >}}* /usr/bin/di-edid-decode
 * /usr/include/libdisplay-info/cta.h

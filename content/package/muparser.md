@@ -14,7 +14,7 @@ sha1sum = "8afc7a5eedd189df5a02fc716b4047af5f72f45b"
 depends = "['libgomp>=11.2']"
 reverse_depends = "['librecad']"
 +++
-A fast math parser library"
+A fast math parser library
 
 {{< files text="show files" >}}* /usr/include/muParser.h
 * /usr/include/muParserBase.h

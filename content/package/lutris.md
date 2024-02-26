@@ -13,7 +13,7 @@ usize = "5148943"
 sha1sum = "1e760fc8c187607c9f0123524f90b7dfa4e3d786"
 depends = "['gnome-desktop', 'gobject-introspection', 'python3-astroid', 'python3-cffi', 'python3-cryptography', 'python3-evdev', 'python3-idna', 'python3-lazy-object-proxy', 'python3-mccabe', 'python3-pycairo', 'python3-pycparser', 'python3-requests', 'python3-six', 'python3-sqlite3', 'python3-urllib3', 'python3-wrapt', 'pyyaml3', 'xrandr']"
 +++
-Open Gaming Platform"
+Open Gaming Platform
 
 {{< files text="show files" >}}* /usr/bin/lutris
 * /usr/lib/python3.12/site-packages/lutris-0.5.16-py3.12.egg-info/dependency_links.txt

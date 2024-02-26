@@ -13,7 +13,7 @@ usize = "177965"
 sha1sum = "fec07cd1f1b9c4c31c46df80f362a9f77c16dc6a"
 depends = "['fontconfig', 'mkfontscale']"
 +++
-A set of fonts known as artwiz."
+A set of fonts known as artwiz.
 
 {{< files text="show files" >}}* /usr/share/doc/artwiz-fonts-1.3/AUTHORS
 * /usr/share/doc/artwiz-fonts-1.3/BUGS

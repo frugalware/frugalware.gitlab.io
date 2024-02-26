@@ -14,7 +14,7 @@ sha1sum = "be5cd4acd143a85f9c120a6a216e293bdab31012"
 depends = "['openpmix>=4.2.9']"
 reverse_depends = "['openmpi']"
 +++
-PMIx Reference RunTime Environment"
+PMIx Reference RunTime Environment
 
 {{< files text="show files" >}}* /etc/prte-default-hostfile
 * /etc/prte-mca-params.conf

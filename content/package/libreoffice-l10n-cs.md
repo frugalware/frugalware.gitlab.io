@@ -13,7 +13,7 @@ usize = "35394036"
 sha1sum = "190c81a9ee50253b79578118626861a52898b42c"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Czech support in LibreOffice"
+Installs Czech support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/help/cs/default.css
 * /usr/lib/libreoffice/help/cs/err.html

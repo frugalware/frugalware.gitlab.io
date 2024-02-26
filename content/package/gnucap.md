@@ -13,7 +13,7 @@ usize = "3436354"
 sha1sum = "61ce87ecda1c7cfa65e432222e5df94af1eac94b"
 depends = "['libstdc++', 'readline>=8.0']"
 +++
-GNU Circuit Analysis Package"
+GNU Circuit Analysis Package
 
 {{< files text="show files" >}}* /usr/bin/gnucap
 * /usr/bin/gnucap-modelgen

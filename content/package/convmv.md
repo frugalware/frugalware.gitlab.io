@@ -13,7 +13,7 @@ usize = "80681"
 sha1sum = "8345723b47c58ad4ac18ea789b929c3a885795bd"
 depends = "['perl']"
 +++
-A version of 'mv' which is capable of converting the charset of file names."
+A version of 'mv' which is capable of converting the charset of file names.
 
 {{< files text="show files" >}}* /usr/bin/convmv
 * /usr/share/doc/convmv-2.05/CREDITS

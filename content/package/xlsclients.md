@@ -14,7 +14,7 @@ sha1sum = "874dcaadb4caa7f8a2e9c7747367e0dbf121d350"
 depends = "['libxcb>=1.12-2']"
 license = "GPL2"
 +++
-X.Org xlsclients application"
+X.Org xlsclients application
 
 {{< files text="show files" >}}* /usr/bin/xlsclients
 * /usr/share/doc/xlsclients-1.1.5/ChangeLog

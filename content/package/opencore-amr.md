@@ -14,7 +14,7 @@ sha1sum = "2c046af729bc7b069e9364986bea5117d27b8558"
 depends = "['glibc>=2.34']"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'mencoder', 'mplayer']"
 +++
-Library of OpenCORE Framework implementation of Adaptive Multi Rate Narrowband and Wideband speech codec"
+Library of OpenCORE Framework implementation of Adaptive Multi Rate Narrowband and Wideband speech codec
 
 {{< files text="show files" >}}* /usr/include/opencore-amrnb/interf_dec.h
 * /usr/include/opencore-amrnb/interf_enc.h

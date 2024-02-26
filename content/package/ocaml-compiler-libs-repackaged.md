@@ -14,7 +14,7 @@ sha1sum = "d66797b4d6b2fa1e6a4c72d505519daccd8986b6"
 depends = "['ocaml>=5.1.1', 'ocaml-compiler-libs']"
 reverse_depends = "['ppxlib']"
 +++
-OCaml compiler libraries repackaged"
+OCaml compiler libraries repackaged
 
 {{< files text="show files" >}}* /usr/lib/ocaml/ocaml-compiler-libs/bytecomp/ocaml_bytecomp.a
 * /usr/lib/ocaml/ocaml-compiler-libs/bytecomp/ocaml_bytecomp.cma

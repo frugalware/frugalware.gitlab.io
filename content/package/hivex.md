@@ -14,7 +14,7 @@ sha1sum = "585b30b44d05bb7a049e9d24f6bcb309f0d5735f"
 depends = "['libxml2', 'readline>=8.0', 'xz']"
 reverse_depends = "['hivex-ocaml', 'hivex-perl', 'hivex-python', 'hivex-ruby']"
 +++
-windows registry hive extraction library"
+windows registry hive extraction library
 
 {{< files text="show files" >}}* /usr/bin/hivexget
 * /usr/bin/hivexml

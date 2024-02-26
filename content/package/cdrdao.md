@@ -14,7 +14,7 @@ sha1sum = "1807508c5fe239b522ef7caca628b0bf46ac3253"
 depends = "['lame>=3.99.5-5', 'libao>=1.2.0-10', 'libmad>=0.15.1b-9', 'libstdc++>=11.2', 'libvorbis>=1.3.5-5']"
 reverse_depends = "['k3b', 'kavi2svcd']"
 +++
-Records audio/data CD-Rs in disk-at-once (DAO) mode"
+Records audio/data CD-Rs in disk-at-once (DAO) mode
 
 {{< files text="show files" >}}* /usr/bin/cdrdao
 * /usr/bin/cue2toc

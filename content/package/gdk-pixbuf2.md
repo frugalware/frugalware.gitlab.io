@@ -14,7 +14,7 @@ sha1sum = "0e438336c57cf0b751d83bf1e8f2c3c93f91869e"
 depends = "['glib2>=2.60.0', 'jasper>=2.0.10', 'libjpeg-turbo', 'libpng>=1.6.20', 'libtiff>=4.0.6-2', 'libx11>=1.6.3-4', 'shared-mime-info>=1.9-3']"
 reverse_depends = "['castor', 'flatpak', 'gail', 'gdk-pixbuf-xlib', 'get_steam', 'granite', 'gst1-plugins-good-gdkpixbuf', 'gtans', 'gtk+2', 'gtk+2-libs', 'gtk+3', 'gtk+3-demos', 'gtk+4', 'gtk+4-demos', 'gtk+4-update-icon-cache', 'gtk-update-icon-cache', 'libgsf', 'libheif-gdk-pixbuf', 'libnotify', 'libopenraw-gnome', 'librsvg', 'openslide', 'openssh-askpass', 'qtox', 'spice', 'thunderbird', 'whalebird', 'xscreensaver-data']"
 +++
-An image loading library"
+An image loading library
 
 {{< files text="show files" >}}* /usr/bin/gdk-pixbuf-csource
 * /usr/bin/gdk-pixbuf-pixdata

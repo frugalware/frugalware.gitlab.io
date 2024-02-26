@@ -14,7 +14,7 @@ sha1sum = "454e370cc55b493a24b2e9b59901698e828bccc3"
 depends = "[]"
 reverse_depends = "['upx']"
 +++
-UCL is a portable lossless data compression library written in ANSI C."
+UCL is a portable lossless data compression library written in ANSI C.
 
 {{< files text="show files" >}}* /usr/include/ucl/ucl.h
 * /usr/include/ucl/uclconf.h

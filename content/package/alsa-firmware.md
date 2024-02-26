@@ -13,7 +13,7 @@ usize = "14818312"
 sha1sum = "abb7e03cffb117030cac757fc7c387397d9f9248"
 depends = "[]"
 +++
-Firmwares for ALSA."
+Firmwares for ALSA.
 
 {{< files text="show files" >}}* /usr/lib/firmware/aica_firmware.bin
 * /usr/lib/firmware/asihpi/dsp5000.bin

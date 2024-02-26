@@ -13,7 +13,7 @@ usize = "102814"
 sha1sum = "e7cf6f023c95be254189c29a6ae280ca7e92fbd5"
 depends = "[]"
 +++
-Check is a unit test framework for C. ( 32bit )"
+Check is a unit test framework for C. ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/checkmk
 * /usr/i686-frugalware-linux/include/check.h

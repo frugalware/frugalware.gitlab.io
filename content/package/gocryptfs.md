@@ -13,7 +13,7 @@ usize = "7932578"
 sha1sum = "8010559c180ec33a5471382d649f9b33b20694db"
 depends = "['glibc', 'openssl>=3.1.0']"
 +++
-Encrypted overlay filesystem written in Go."
+Encrypted overlay filesystem written in Go.
 
 {{< files text="show files" >}}* /usr/bin/gocryptfs
 * /usr/bin/gocryptfs-xray

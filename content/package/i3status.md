@@ -14,7 +14,7 @@ sha1sum = "2bd0b8e6cb121da954afaaa2e57cbc955de885fd"
 depends = "['confuse>=3.2.1', 'libcap', 'libnl>=3.2.27-3', 'libpulse>=7.1-3', 'yajl>=2.1.0-2']"
 reverse_depends = "['i3']"
 +++
-Generates status bar to use with dzen2 or xmobar"
+Generates status bar to use with dzen2 or xmobar
 
 {{< files text="show files" >}}* /etc/i3status.conf
 * /usr/bin/i3status

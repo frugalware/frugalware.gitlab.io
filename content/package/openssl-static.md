@@ -13,7 +13,7 @@ usize = "33079604"
 sha1sum = "0ca627456d01a5a44eca8c15f0ae9eddbdc795ba"
 depends = "[]"
 +++
-Static files for openssl"
+Static files for openssl
 
 {{< files text="show files" >}}* /usr/lib/libcrypto.a
 * /usr/lib/libssl.a

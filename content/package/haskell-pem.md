@@ -14,7 +14,7 @@ sha1sum = "dce3663d11363bd034a1f9e320fb62570e0637c9"
 depends = "['haskell-memory']"
 reverse_depends = "['haskell-crypton-x509', 'haskell-x509']"
 +++
-Privacy Enhanced Mail (PEM) format reader and writer"
+Privacy Enhanced Mail (PEM) format reader and writer
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/pem-0.2.4/Data/PEM.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/pem-0.2.4/Data/PEM.hi

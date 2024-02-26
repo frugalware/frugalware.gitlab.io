@@ -14,7 +14,7 @@ sha1sum = "7c662282510bbe10cca4afd4da2e50824389d7ad"
 depends = "['python3>=3.12']"
 reverse_depends = "['libblockdev']"
 +++
-A tiny library providing a C class for working with arbitrary big sizes in bytes"
+A tiny library providing a C class for working with arbitrary big sizes in bytes
 
 {{< files text="show files" >}}* /usr/bin/bscalc
 * /usr/include/bytesize/bs_size.h

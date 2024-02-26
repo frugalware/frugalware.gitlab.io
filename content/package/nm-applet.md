@@ -13,7 +13,7 @@ usize = "973900"
 sha1sum = "d9b6509ccbbfe417c2c525b9053983e72930f811"
 depends = "['iso-codes>=3.70-2', 'libnotify>=0.7.7-4', 'libsecret>=0.18.5-5', 'networkmanager>=1.8.4', 'nm-connection-editor']"
 +++
-Network Management applet"
+Network Management applet
 
 {{< files text="show files" >}}* /etc/xdg/autostart/nm-applet.desktop
 * /usr/bin/nm-applet

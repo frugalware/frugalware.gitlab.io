@@ -13,7 +13,7 @@ usize = "2050267"
 sha1sum = "5be5eea69fcef7af01e78a26725aeaf222e46194"
 depends = "['kdelibs4support>=5.115.0', 'khotkeys5>=5.27.10']"
 +++
-KDE menu editor."
+KDE menu editor.
 
 {{< files text="show files" >}}* /usr/bin/kmenuedit
 * /usr/lib/kconf_update_bin/kmenuedit_globalaccel

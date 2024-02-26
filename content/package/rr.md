@@ -13,7 +13,7 @@ usize = "3209386"
 sha1sum = "8416a262c22f35c31d94ad98cf55f84d9fa00edd"
 depends = "['capnproto', 'gdb', 'libstdc++', 'pexpect']"
 +++
-Record and Replay Framework"
+Record and Replay Framework
 
 {{< files text="show files" >}}* /usr/bin/rr
 * /usr/bin/rr_exec_stub

@@ -13,7 +13,7 @@ usize = "20387587"
 sha1sum = "7559d2c236d0331845de7fce86065657cfa9f96c"
 depends = "[]"
 +++
-Development files for glibc."
+Development files for glibc.
 
 {{< files text="show files" >}}* /usr/include/a.out.h
 * /usr/include/aio.h

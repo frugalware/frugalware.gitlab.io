@@ -13,7 +13,7 @@ usize = "1171013"
 sha1sum = "3486118c5916f8d9fac406bc9da474287cadd31a"
 depends = "['openconnect']"
 +++
-Openconnect Plugin for Plasma network manager"
+Openconnect Plugin for Plasma network manager
 
 {{< files text="show files" >}}* /usr/lib/qt5/plugins/plasma/network/vpn/plasmanetworkmanagement_openconnect_anyconnect.so
 * /usr/lib/qt5/plugins/plasma/network/vpn/plasmanetworkmanagement_openconnect_arrayui.so

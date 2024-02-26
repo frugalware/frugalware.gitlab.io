@@ -14,7 +14,7 @@ sha1sum = "0fbd76efca3f853f3bfb054aa5324c063693e05c"
 depends = "[]"
 reverse_depends = "['texlive', 'texlive-utils']"
 +++
-Libkpathsea"
+Libkpathsea
 
 {{< files text="show files" >}}* /usr/lib/libkpathsea.so
 * /usr/lib/libkpathsea.so.6

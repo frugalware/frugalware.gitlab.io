@@ -14,7 +14,7 @@ sha1sum = "a69a947b77186a82ce3d96ebd179fcf2afc27e28"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Aragonese language support for Firefox"
+Aragonese language support for Firefox
 
 {{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-an@firefox.mozilla.org.xpi
 {{< /files >}}

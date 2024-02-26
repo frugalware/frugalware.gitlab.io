@@ -14,7 +14,7 @@ sha1sum = "6133ee1d375c18df6fb87c5c22297dfd22c1a1d4"
 depends = "['avahi>=0.6.31-9', 'qt5-base>=5.15.12']"
 reverse_depends = "['kio-extras', 'kio-zeroconf', 'knotes', 'kopete', 'krdc', 'krfb', 'libkdegames', 'smb4k']"
 +++
-Zeroconf Support for KDE."
+Zeroconf Support for KDE.
 
 {{< files text="show files" >}}* /usr/include/KF5/KDNSSD/DNSSD/DomainBrowser
 * /usr/include/KF5/KDNSSD/dnssd/domainbrowser.h

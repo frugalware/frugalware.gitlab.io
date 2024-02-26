@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "9dba82a369fe6d7c133ac1e9d6349463d94494a5"
 depends = "['expat', 'libstdc++', 'libxi', 'libxmu', 'sqlite3']"
 +++
-Kat Desktop Search Environment is an open source framework designed to allow KDE applications to index and retrieve files."
+Kat Desktop Search Environment is an open source framework designed to allow KDE applications to index and retrieve files.
 
 {{< files text="show files" >}}* usr/bin/kat
 * usr/bin/katdaemon

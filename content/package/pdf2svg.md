@@ -13,7 +13,7 @@ usize = "57048"
 sha1sum = "2fc59725c62435cc05f4fc3060c04b4e3bfc9672"
 depends = "['cairo', 'poppler-glib>=0.60.1-2']"
 +++
-A pdf to svg convertor"
+A pdf to svg convertor
 
 {{< files text="show files" >}}* /usr/bin/pdf2svg
 * /usr/share/doc/pdf2svg-0.2.3/AUTHORS

@@ -14,7 +14,7 @@ sha1sum = "8945d901a1fd7a61bc8f6b956304e8904fd60a84"
 depends = "['libffi>=3.4', 'python3>=3.12', 'python3-pycparser>=2.16']"
 reverse_depends = "['lutris', 'python3-bcrypt', 'python3-cryptography', 'python3-xattr']"
 +++
-cryptography expose cryptographic recipes and primitives in a python module"
+cryptography expose cryptographic recipes and primitives in a python module
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/cffi-1.16.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/cffi-1.16.0-py3.12.egg-info/entry_points.txt

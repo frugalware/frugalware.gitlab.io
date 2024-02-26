@@ -14,7 +14,7 @@ sha1sum = "7a9363e6b04c3ea38e29f230c72276b57574f438"
 depends = "['libgphoto2>=2.5.23', 'ncurses>=6.1-2', 'popt>=1.16-7', 'readline>=8.0']"
 reverse_depends = "['gvfs-gphoto2', 'kamera']"
 +++
-A set of digital camera applications for Unix-like systems."
+A set of digital camera applications for Unix-like systems.
 
 {{< files text="show files" >}}* /usr/bin/gphoto2
 * /usr/share/doc/gphoto2-2.5.28/AUTHORS

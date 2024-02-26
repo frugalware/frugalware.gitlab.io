@@ -13,7 +13,7 @@ usize = "329410"
 sha1sum = "6c145aa7eb46f0d84a11572eec74917609eb82e1"
 depends = "['glibc']"
 +++
-Cross-vendor public domain suffix database"
+Cross-vendor public domain suffix database
 
 {{< files text="show files" >}}* /usr/share/doc/publicsuffix-list-20240131.gefa378c/LICENSE
 * /usr/share/doc/publicsuffix-list-20240131.gefa378c/README.md

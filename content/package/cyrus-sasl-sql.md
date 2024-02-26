@@ -13,7 +13,7 @@ usize = "34686"
 sha1sum = "e8a36e301e4daf16219542be17a17d18d24c7a51"
 depends = "['cyrus-sasl>=2.1.28', 'e2fsprogs>=1.42.13-4', 'libpq>=11.2-2', 'mariadb-libs>=10.3.14']"
 +++
-cyrus-sasl mysql, postgresql and sqlite plugin."
+cyrus-sasl mysql, postgresql and sqlite plugin.
 
 {{< files text="show files" >}}* /usr/lib/sasl2/libsql.so
 * /usr/lib/sasl2/libsql.so.3

@@ -14,7 +14,7 @@ sha1sum = "693d2fa61def484529d2c8617f293b4cfccb8fcb"
 depends = "['ffmpeg4.4', 'jack2', 'python3-numpy']"
 reverse_depends = "['performous']"
 +++
-A tool for extracting annotations from audio signals"
+A tool for extracting annotations from audio signals
 
 {{< files text="show files" >}}* /usr/bin/aubio
 * /usr/bin/aubiocut

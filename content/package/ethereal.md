@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "a39303bbb22a83a1631e592f43d86ed82ef07412"
 depends = "['gnutls', 'gtk+2', 'libpcap', 'pcre']"
 +++
-The world's most popular network protocol analyzer"
+The world's most popular network protocol analyzer
 
 {{< files text="show files" >}}* usr/bin/capinfos
 * usr/bin/dftest

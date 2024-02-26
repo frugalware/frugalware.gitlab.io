@@ -13,7 +13,7 @@ usize = "40956890"
 sha1sum = "984b1c2a63f1c1bfca7955b2c32a9da16724340b"
 depends = "['libboost>=1.78.0', 'mpfr>=4.0.0-3']"
 +++
-An efficient C++ software library of geometric data structures and algorithms"
+An efficient C++ software library of geometric data structures and algorithms
 
 {{< files text="show files" >}}* /usr/bin/cgal_create_CMakeLists
 * /usr/bin/cgal_create_cmake_script

@@ -13,7 +13,7 @@ usize = "89220"
 sha1sum = "0a610fb71c8b923ac2965dc553129cfa25498363"
 depends = "['gtk+3']"
 +++
-A searchable command palette in every modern GTK+ application"
+A searchable command palette in every modern GTK+ application
 
 {{< files text="show files" >}}* /usr/lib/libplotinus.so
 * /usr/share/doc/plotinus-0.2.0/README.md

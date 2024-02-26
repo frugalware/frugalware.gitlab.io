@@ -14,7 +14,7 @@ sha1sum = "8976de1844cc6dec3f985f7b8fce4a34ea032365"
 depends = "['bubblewrap', 'enchant', 'gperf', 'gst-libav', 'gst1-plugins-bad', 'gst1-plugins-good', 'gtk+3', 'hyphen', 'icu4c>=74.1', 'libatomic', 'libavif>=1.0.1', 'libgudev', 'libmanette', 'libnotify', 'libseccomp', 'libsecret', 'libsoup3', 'libwebp', 'libxslt', 'libxt', 'openjpeg', 'woff2', 'wpebackend-fdo', 'xdg-dbus-proxy']"
 reverse_depends = "['geany-plugins', 'remmina-www', 'telegram-desktop', 'wxwidgets']"
 +++
-Open source web browser engine gtk+3"
+Open source web browser engine gtk+3
 
 {{< files text="show files" >}}* /usr/bin/WebKitWebDriver
 * /usr/include/webkitgtk-4.1/JavaScriptCore/JavaScript.h

@@ -13,7 +13,7 @@ usize = "188615"
 sha1sum = "b6e68b66fab5ef967146c2a650434c3641780936"
 depends = "[]"
 +++
-A script for managing file archives of various types."
+A script for managing file archives of various types.
 
 {{< files text="show files" >}}* /usr/bin/acat
 * /usr/bin/adiff

@@ -14,7 +14,7 @@ sha1sum = "4ffe5e6c74d77debbcd2678890d99239efa43996"
 depends = "['glibc']"
 reverse_depends = "['libfbclient', 'libtomcrypt']"
 +++
-Highly optimized and portable routines for integer based number theoretic applications"
+Highly optimized and portable routines for integer based number theoretic applications
 
 {{< files text="show files" >}}* /usr/include/tommath.h
 * /usr/lib/libtommath.la

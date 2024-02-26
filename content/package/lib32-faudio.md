@@ -14,7 +14,7 @@ sha1sum = "22f9bfbdb0cef9a7be76704efd930b244f453c3e"
 depends = "['lib32-ffmpeg', 'lib32-sdl2']"
 reverse_depends = "['wine', 'wine-devel']"
 +++
-XAudio2 reimplementation ( 32bit )"
+XAudio2 reimplementation ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/include/F3DAudio.h
 * /usr/i686-frugalware-linux/include/FACT.h

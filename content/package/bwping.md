@@ -13,7 +13,7 @@ usize = "40966"
 sha1sum = "6cdcb4ef1a9477c1cbaf579ce56356dfcaa40399"
 depends = "['glibc']"
 +++
-Tool to measure bandwidth and response times between two hosts using Internet Control Message Protocol (ICMP)"
+Tool to measure bandwidth and response times between two hosts using Internet Control Message Protocol (ICMP)
 
 {{< files text="show files" >}}* /usr/bin/bwping
 * /usr/bin/bwping6

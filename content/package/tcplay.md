@@ -14,7 +14,7 @@ sha1sum = "37e7df9005a2ee852fc83f2b8998c0619ab6a96b"
 depends = "['systemd']"
 reverse_depends = "['zulucrypt']"
 +++
-Free and simple TrueCrypt implementation based on dm-crypt."
+Free and simple TrueCrypt implementation based on dm-crypt.
 
 {{< files text="show files" >}}* /usr/bin/tcplay
 * /usr/include/tcplay_api.h

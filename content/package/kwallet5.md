@@ -14,7 +14,7 @@ sha1sum = "258aa2baa3ae9957077a11eae8586dd5fc5081e2"
 depends = "['knotifications>=5.115.0', 'libgpgmepp>=1.10.0', 'qca']"
 reverse_depends = "['discover', 'falkon-kde', 'kio', 'kopete', 'krdc', 'krfb', 'ksshaskpass5', 'kwallet-pam', 'libkgapi', 'remmina-kwallet', 'signon-kwallet-extension']"
 +++
-Safe desktop-wide storage for passwords."
+Safe desktop-wide storage for passwords.
 
 {{< files text="show files" >}}* /usr/bin/kwallet-query
 * /usr/bin/kwalletd5

@@ -13,7 +13,7 @@ usize = "3296854"
 sha1sum = "cae407db55f6866c498d8b8c174114d8abae1d50"
 depends = "['kdeclarative>=5.115.0', 'knewstuff>=5.115.0', 'qt5-gstreamer>=1.2.0']"
 +++
-Memory Enhancement Game."
+Memory Enhancement Game.
 
 {{< files text="show files" >}}* /usr/bin/blinken
 * /usr/share/applications/org.kde.blinken.desktop

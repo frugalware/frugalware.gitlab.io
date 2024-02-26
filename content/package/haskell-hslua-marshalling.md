@@ -14,7 +14,7 @@ sha1sum = "0a9db37bf24cfae707211a658fd1e781e2013524"
 depends = "['haskell-hslua-core']"
 reverse_depends = "['haskell-hslua-aeson', 'haskell-hslua-classes', 'haskell-hslua-typing', 'haskell-pandoc-lua-marshal']"
 +++
-Marshalling of values between Haskell and Lua."
+Marshalling of values between Haskell and Lua.
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hslua-marshalling-2.3.0/HsLua/Marshalling.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-marshalling-2.3.0/HsLua/Marshalling.hi

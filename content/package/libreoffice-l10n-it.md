@@ -13,7 +13,7 @@ usize = "36865811"
 sha1sum = "db569f9992704af520c32a8f16c89976b70b7b9b"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Italian support in LibreOffice"
+Installs Italian support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/help/it/default.css
 * /usr/lib/libreoffice/help/it/err.html

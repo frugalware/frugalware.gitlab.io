@@ -14,7 +14,7 @@ sha1sum = "7609344db363c22001df07e9a16fbf2d91941506"
 depends = "['glslang>=14.0', 'spirv-tools']"
 reverse_depends = "['libplacebo']"
 +++
-Collection of tools, libraries and tests for shader compilation"
+Collection of tools, libraries and tests for shader compilation
 
 {{< files text="show files" >}}* /usr/bin/glslc
 * /usr/include/shaderc/env.h

@@ -13,7 +13,7 @@ usize = "19720321"
 sha1sum = "265836cb054f7b58f41479b8a10b69cf49602048"
 depends = "['lua', 'ncurses>=6.0-3', 'pyyaml3', 'sqlite3', 'zlib>=1.2.12']"
 +++
-Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelike game of exploration and treasure-hunting"
+Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelike game of exploration and treasure-hunting
 
 {{< files text="show files" >}}* /usr/bin/crawl
 * /usr/share/doc/crawl-0.27.1/INSTALL.md

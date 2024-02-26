@@ -14,7 +14,7 @@ sha1sum = "bc8d4729f0201dba7a46b261f22b66108a465fac"
 depends = "['haskell-asn1-encoding']"
 reverse_depends = "['haskell-crypton-x509', 'haskell-x509']"
 +++
-Simple monadic parser for ASN1 stream types"
+Simple monadic parser for ASN1 stream types
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/asn1-parse-0.9.5/Data/ASN1/Parse.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/asn1-parse-0.9.5/Data/ASN1/Parse.hi

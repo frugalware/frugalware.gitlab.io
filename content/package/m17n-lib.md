@@ -13,7 +13,7 @@ usize = "989867"
 sha1sum = "029b2d2b00554495153bede48c6112504aaa3aae"
 depends = "['anthy', 'fontconfig', 'gd>=2.1.1-4', 'libotf>=0.9.16', 'libxaw>=1.0.5-1', 'libxft>=2.1.13-2', 'libxml2>=2.7.8', 'm17n-db>=1.8.0']"
 +++
-A multilingual text processing library."
+A multilingual text processing library.
 
 {{< files text="show files" >}}* /usr/bin/m17n-conv
 * /usr/bin/m17n-date

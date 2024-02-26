@@ -13,7 +13,7 @@ usize = "207851877"
 sha1sum = "77b7fddf0194b883786336a789702cb1a6198b45"
 depends = "[]"
 +++
-KDE API Documentation"
+KDE API Documentation
 
 {{< files text="show files" >}}* usr/share/doc/HTML/en/kdelibs-apidocs/arts/arts.tag
 * usr/share/doc/HTML/en/kdelibs-apidocs/arts/html/annotated.html

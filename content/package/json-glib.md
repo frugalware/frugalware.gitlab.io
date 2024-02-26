@@ -14,7 +14,7 @@ sha1sum = "3aed066ad8c2eb1203adc86183b9456519ec65b7"
 depends = "['glib2>=2.60.0', 'libffi>=3.2.1-3', 'pcre>=8.37-3']"
 reverse_depends = "['appstream-glib', 'chromium-browser', 'conky-manager', 'darktable', 'flatpak', 'gegl', 'geoclue2', 'hotdoc', 'jsonrpc-glib', 'libgusb', 'libjcat', 'librest', 'openvas-scanner', 'pavucontrol', 'pidgin-facebookchat', 'pidgin-skypeweb', 'remmina', 'spice-glib', 'sysprof', 'tootle', 'zeitgeist']"
 +++
-JSON library built on GLib"
+JSON library built on GLib
 
 {{< files text="show files" >}}* /usr/bin/json-glib-format
 * /usr/bin/json-glib-validate

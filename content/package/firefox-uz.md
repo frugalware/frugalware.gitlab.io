@@ -14,7 +14,7 @@ sha1sum = "4d8b11ca85bc281e2034abf7ff487465dd86ae2b"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Uzbek language support for Firefox"
+Uzbek language support for Firefox
 
 {{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-uz@firefox.mozilla.org.xpi
 {{< /files >}}

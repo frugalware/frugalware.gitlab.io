@@ -14,7 +14,7 @@ sha1sum = "b5b9b3fea3c0cf029f855f8449e2b6d988d5ef15"
 depends = "['kpty>=5.115.0', 'kservice>=5.115.0']"
 reverse_depends = "['cervisia', 'kde-cli-tools', 'konqueror', 'plasma-workspace']"
 +++
-User interface for running shell commands with root privileges."
+User interface for running shell commands with root privileges.
 
 {{< files text="show files" >}}* /usr/include/KF5/KDESu/KDESu/Client
 * /usr/include/KF5/KDESu/kdesu/client.h

@@ -14,7 +14,7 @@ sha1sum = "9c3e716597fe13b8ff5f717118851dad131fd945"
 depends = "['libtool>=2.4.6-4', 'libudev>=242-3', 'libvorbis>=1.3.5-5', 'tdb>=1.3.10-2']"
 reverse_depends = "['hexchat', 'kitty', 'kmix', 'knotifications', 'libcanberra-alsa', 'libcanberra-gst', 'libcanberra-gtk', 'libcanberra-gtk2', 'libcanberra-pulseaudio', 'pipewire', 'plasma-desktop', 'plasma-pa']"
 +++
-libcanberra is an implementation of the XDG Sound Theme and Name Specifications."
+libcanberra is an implementation of the XDG Sound Theme and Name Specifications.
 
 {{< files text="show files" >}}* /usr/bin/canberra-boot
 * /usr/include/canberra.h

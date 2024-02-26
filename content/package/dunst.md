@@ -13,7 +13,7 @@ usize = "114988"
 sha1sum = "8429d083e9b8bd97d968c973724d4427e5f0cd28"
 depends = "['gtk+2', 'libxdg-basedir>=1.2.0-2', 'libxinerama>=1.1.3-2', 'libxscrnsaver>=1.2.2-2', 'pango>=1.38.1-2']"
 +++
-Dunst is a lightweight replacement for the notification-daemons provided by most desktop environments."
+Dunst is a lightweight replacement for the notification-daemons provided by most desktop environments.
 
 {{< files text="show files" >}}* /usr/bin/dunst
 * /usr/lib/systemd/user/dunst.service

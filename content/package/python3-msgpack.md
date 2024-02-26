@@ -14,7 +14,7 @@ sha1sum = "cbbba02e4e2aba6090baa1eae60f713e2e365956"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-cachecontrol']"
 +++
-Python module for MessagePack serialization/deserialization library"
+Python module for MessagePack serialization/deserialization library
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/msgpack-1.0.6-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/msgpack-1.0.6-py3.12.egg-info/PKG-INFO

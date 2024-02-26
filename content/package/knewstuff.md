@@ -14,7 +14,7 @@ sha1sum = "c352b32d06a66ef083d7f73ea360f5caf76b91f1"
 depends = "['kio>=5.115.0', 'kirigami2>=5.115.0', 'kpackage>=5.115.0', 'syndication>=5.115.0']"
 reverse_depends = "['artikulate', 'blinken', 'cantor', 'discover', 'dolphin', 'frameworkintegration', 'grantleetheme', 'k3b', 'kalzium', 'kanagram', 'kate', 'kde-gtk-config', 'kdenlive', 'kdeplasma-addons5', 'kgoldrunner', 'khangman', 'kmail-account-wizard', 'konsole', 'konversation', 'kstars', 'ksysguard5', 'ktouch', 'kturtle', 'kwin5', 'libkdegames', 'libksysguard5', 'libmarble', 'okteta', 'pairs', 'parley', 'pimcommon', 'plasma-desktop', 'plasma-sdk', 'plasma-welcome', 'plasma-workspace', 'sddm-kcm', 'skrooge', 'spectacle', 'step', 'yakuake']"
 +++
-Framework for downloading and sharing additional application data."
+Framework for downloading and sharing additional application data.
 
 {{< files text="show files" >}}* /usr/bin/knewstuff-dialog
 * /usr/include/KF5/KMoreTools/KMoreTools

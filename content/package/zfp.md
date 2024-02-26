@@ -14,7 +14,7 @@ sha1sum = "be097b71a1c2b9154e0554ac535f7fd5e504b388"
 depends = "['glibc']"
 reverse_depends = "['adios2']"
 +++
-Compressed numerical arrays that support high-speed random access"
+Compressed numerical arrays that support high-speed random access
 
 {{< files text="show files" >}}* /usr/bin/zfp
 * /usr/include/zfp.h

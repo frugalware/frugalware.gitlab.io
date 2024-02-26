@@ -13,7 +13,7 @@ usize = "640465"
 sha1sum = "a2b81fba055308b783510ff7a968c4b07f6de78b"
 depends = "['qt6-svg']"
 +++
-CuteMaze is a simple, top-down game in which mazes are randomly generated."
+CuteMaze is a simple, top-down game in which mazes are randomly generated.
 
 {{< files text="show files" >}}* /usr/bin/cutemaze
 * /usr/share/applications/cutemaze.desktop

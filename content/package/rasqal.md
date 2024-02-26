@@ -14,7 +14,7 @@ sha1sum = "9e2aa6cbdb0a9c2312648e99125e7b75268aa020"
 depends = "['libgcrypt>=1.7.3-2', 'libuuid>=2.29.2-2', 'mpfr>=3.1.3_05-3', 'pcre>=8.39-3', 'raptor>=2.0.15-5']"
 reverse_depends = "['librdf']"
 +++
-RDF query parsing and execution library"
+RDF query parsing and execution library
 
 {{< files text="show files" >}}* /usr/bin/rasqal-config
 * /usr/bin/roqet

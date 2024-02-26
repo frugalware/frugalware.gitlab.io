@@ -13,7 +13,7 @@ usize = "2672689"
 sha1sum = "982391e3486079b588ac6a165906c49d9e13377e"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Silesian support in LibreOffice"
+Installs Silesian support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/szl/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/szl/LC_MESSAGES/avmedia.mo

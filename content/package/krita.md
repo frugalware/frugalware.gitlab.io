@@ -13,7 +13,7 @@ usize = "178051346"
 sha1sum = "df4f80155b96fafc7ab806d239ac5d77bea30818"
 depends = "['exiv2>=0.28.1', 'gsl', 'kcompletion', 'kcrash', 'kguiaddons', 'ki18n', 'kitemviews', 'kseexpr', 'libkdcraw', 'libmypaint', 'libunibreak', 'mlt', 'opencolorio', 'poppler-qt5', 'qt5-svg', 'quazip']"
 +++
-Krita is a FREE sketching and painting program"
+Krita is a FREE sketching and painting program
 
 {{< files text="show files" >}}* /etc/xdg/kritarc
 * /usr/bin/krita

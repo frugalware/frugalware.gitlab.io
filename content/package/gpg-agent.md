@@ -14,7 +14,7 @@ sha1sum = "bebc4ffa7d0057fbb4a181ee7e46580104977893"
 depends = "['libassuan>=2.5.1-2', 'libgcrypt>=1.7.3-2', 'libgpg-error>=1.24', 'libksba>=1.3.3-3', 'ncurses>=6.0-18', 'npth>=1.2-6', 'readline>=8.0']"
 reverse_depends = "['kgpg']"
 +++
-gpg-agent is made for handling gpg-keys"
+gpg-agent is made for handling gpg-keys
 
 {{< files text="show files" >}}* /usr/bin/gpg-agent
 * /usr/bin/gpg-connect-agent

@@ -13,7 +13,7 @@ usize = "3012668"
 sha1sum = "964d240981414dbc7b70c7e7f04beed50c6d2756"
 depends = "[]"
 +++
-Breton Localization for KDE."
+Breton Localization for KDE.
 
 {{< files text="show files" >}}* usr/share/locale/br/charset
 * usr/share/locale/br/entry.desktop

@@ -14,7 +14,7 @@ sha1sum = "9e14d6f83ed6e258698b78cf009f9b047d34602a"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-hatchling', 'python3-poetry']"
 +++
-Canonical source for classifiers on PyPI (pypi.org)"
+Canonical source for classifiers on PyPI (pypi.org)
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/trove_classifiers-2023.11.29-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/trove_classifiers-2023.11.29-py3.12.egg-info/PKG-INFO

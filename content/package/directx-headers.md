@@ -13,7 +13,7 @@ usize = "3363458"
 sha1sum = "6419cede0d264c34bd471dda32b5b288dc8aee79"
 depends = "['glibc>=2.38']"
 +++
-DirectX headers for using D3D12"
+DirectX headers for using D3D12
 
 {{< files text="show files" >}}* /usr/include/directx/d3d12.h
 * /usr/include/directx/d3d12.idl

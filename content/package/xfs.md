@@ -14,7 +14,7 @@ sha1sum = "78ab6716ac512600db654673e433b063f158a5c4"
 depends = "['libxfont2']"
 license = "GPL2"
 +++
-X font server"
+X font server
 
 {{< files text="show files" >}}* /etc/X11/fs/config
 * /usr/bin/xfs

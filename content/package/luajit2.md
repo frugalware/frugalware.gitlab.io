@@ -14,7 +14,7 @@ sha1sum = "6a5758b1b4c377d16c8c2df6fe292d3357d7a435"
 depends = "['lua>=5.4']"
 reverse_depends = "['cantor', 'cgit', 'efl', 'enlightenment', 'libluv', 'love', 'minetest', 'mpv', 'naev', 'obs-studio', 'pdns-recursor', 'rspamd', 'solarus', 'sysdig', 'terminology']"
 +++
-A Just-In-Time Compiler for Lua"
+A Just-In-Time Compiler for Lua
 
 {{< files text="show files" >}}* /usr/bin/luajit
 * /usr/bin/luajit-2.1.1703358377

@@ -13,7 +13,7 @@ usize = "592828"
 sha1sum = "f044c49b0f54976ffa841806d3ff7d96ead92687"
 depends = "['libxslt', 'sofia-sip', 'telepathy-glib>=0.24.1-3']"
 +++
-A SIP connection manager for Telepathy based around the Sofia-SIP library."
+A SIP connection manager for Telepathy based around the Sofia-SIP library.
 
 {{< files text="show files" >}}* /usr/include/telepathy-sofiasip-0.6/tpsip/codec-param-formats.h
 * /usr/include/telepathy-sofiasip-0.6/tpsip/event-target.h

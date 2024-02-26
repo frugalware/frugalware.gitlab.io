@@ -14,7 +14,7 @@ sha1sum = "f6ceeb2f15ff8c0fc19f343ce47fb2a93f00b4ab"
 depends = "['coreutils', 'libuuid', 'util-linux']"
 reverse_depends = "['wimlib']"
 +++
-Bootloaders for FAT, EXT2/3/4, and ISO file systems."
+Bootloaders for FAT, EXT2/3/4, and ISO file systems.
 
 {{< files text="show files" >}}* /usr/bin/extlinux
 * /usr/bin/gethostip

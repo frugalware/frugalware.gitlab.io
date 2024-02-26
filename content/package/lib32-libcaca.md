@@ -14,7 +14,7 @@ sha1sum = "1430b04fe5b68767f9340f9125408d825599904e"
 depends = "['lib32-imlib2', 'lib32-ncurses', 'lib32-slang']"
 reverse_depends = "['lib32-ffmpeg']"
 +++
-A graphics library that outputs text instead of pixels. ( 32bit )"
+A graphics library that outputs text instead of pixels. ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/caca-config
 * /usr/i686-frugalware-linux/bin/cacaclock

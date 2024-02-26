@@ -14,7 +14,7 @@ sha1sum = "fb0446028134632c88405b34ebb8a3d49b5b8bb6"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['shellcheck']"
 +++
-O(ND) diff algorithm in haskell"
+O(ND) diff algorithm in haskell
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/Diff-0.5/Data/Algorithm/Diff.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/Diff-0.5/Data/Algorithm/Diff.hi

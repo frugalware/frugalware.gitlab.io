@@ -14,7 +14,7 @@ sha1sum = "44dcaccc6afdcd412ad39623bfb67291b6bdfd0b"
 depends = "['glibc']"
 reverse_depends = "['lib32-p11-kit']"
 +++
-The ASN.1 library used in GNUTLS ( 32bit )"
+The ASN.1 library used in GNUTLS ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/asn1Coding
 * /usr/i686-frugalware-linux/bin/asn1Decoding

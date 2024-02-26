@@ -14,7 +14,7 @@ sha1sum = "f84970b3b4bcbe66c6802ba68be5cbc47d00c818"
 depends = "['kdegraphics-mobipocket>=23.08.5', 'kio>=5.115.0', 'libkdcraw>=23.08.5', 'libkexiv2>=23.08.5', 'qt5-svg>=5.15.12']"
 reverse_depends = "['dolphin']"
 +++
-Thumnailers Creators for Kdegraphics."
+Thumnailers Creators for Kdegraphics.
 
 {{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/thumbcreator/blenderthumbnail.so
 * /usr/lib/qt5/plugins/kf5/thumbcreator/gsthumbnail.so

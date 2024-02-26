@@ -13,7 +13,7 @@ usize = "10046370"
 sha1sum = "665ad186092a6314259f9ab314849daa52894067"
 depends = "['python3']"
 +++
-A toolkit to convert between various different translation formats."
+A toolkit to convert between various different translation formats.
 
 {{< files text="show files" >}}* /usr/bin/buildxpi.py
 * /usr/bin/build_firefox.sh

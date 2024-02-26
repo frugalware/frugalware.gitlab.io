@@ -13,7 +13,7 @@ usize = "440220"
 sha1sum = "078076cf31df163c62be5dfc8295fe3a726e74d0"
 depends = "['qt6-base']"
 +++
-Gottet is a tetris clone."
+Gottet is a tetris clone.
 
 {{< files text="show files" >}}* /usr/bin/gottet
 * /usr/share/applications/gottet.desktop

@@ -14,7 +14,7 @@ sha1sum = "d6f38c51e5e1463605685db28d454ecf41622688"
 depends = "['ladspa_sdk', 'libpulse', 'libsndfile', 'ncurses>=6.1-2', 'readline>=8.0']"
 reverse_depends = "['calf', 'minuet', 'mpd', 'scummvm', 'vlc-fluidsynth']"
 +++
-A real-time software synthesizer based on the SoundFont 2 specifications."
+A real-time software synthesizer based on the SoundFont 2 specifications.
 
 {{< files text="show files" >}}* /usr/bin/fluidsynth
 * /usr/include/fluidsynth.h

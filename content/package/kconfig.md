@@ -14,7 +14,7 @@ sha1sum = "7378f14de4e0bbc59a3c11c26f2523d843605432"
 depends = "['qt5-base>=5.15.12']"
 reverse_depends = "['akonadi-mime', 'alligator', 'calamares-frugalware', 'discover', 'dolphin', 'kalk', 'kamoso', 'kcachegrind', 'kclock', 'kcompletion', 'kconfigwidgets', 'kcontacts', 'kdeplasma-addons5', 'kdesignerplugin', 'kongress', 'kopete', 'kpackage', 'krecorder', 'kservice', 'ktrip', 'ktux', 'libkscreen5', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'plasma-browser-integration', 'plasma-sdk', 'plasmatube', 'purpose', 'qmlkonsole', 'qqc2-breeze-style', 'rkward', 'smb4k', 'sweeper', 'telly-skout', 'xdg-desktop-portal-kde']"
 +++
-Provides an advanced configuration system."
+Provides an advanced configuration system.
 
 {{< files text="show files" >}}* /usr/bin/kreadconfig5
 * /usr/bin/kwriteconfig5

@@ -13,7 +13,7 @@ usize = "188506"
 sha1sum = "b81e0a49cdba2495123b84211cc9addccf2ab0eb"
 depends = "['glib2']"
 +++
-A Kexi plugin to allow the import of MS Access (.mdb) files."
+A Kexi plugin to allow the import of MS Access (.mdb) files.
 
 {{< files text="show files" >}}* usr/lib/kde3/keximigrate_mdb.la
 * usr/lib/kde3/keximigrate_mdb.so

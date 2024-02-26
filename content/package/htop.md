@@ -13,7 +13,7 @@ usize = "460602"
 sha1sum = "3268f571196e7c3bdd854f5b7b4a33991f186298"
 depends = "['ncurses>=6.1-2']"
 +++
-An interactive process viewer for Linux."
+An interactive process viewer for Linux.
 
 {{< files text="show files" >}}* /usr/bin/htop
 * /usr/share/applications/htop.desktop

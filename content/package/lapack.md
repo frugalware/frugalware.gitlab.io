@@ -14,7 +14,7 @@ sha1sum = "565a7b63499888de5fd8c4800613e427b17957e6"
 depends = "['libblas', 'libgfortran>=11.2']"
 reverse_depends = "['coin-or-coinutils', 'dlib', 'julia', 'liblapacke', 'liblapacke64', 'octave', 'r', 'sphinxbase', 'suitesparse']"
 +++
-Linear Algebra PACKage."
+Linear Algebra PACKage.
 
 {{< files text="show files" >}}* /usr/include/cblas.h
 * /usr/include/cblas_64.h

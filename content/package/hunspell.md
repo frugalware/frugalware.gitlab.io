@@ -14,7 +14,7 @@ sha1sum = "ea998f89548465afb378b5c375eef3f17430cee6"
 depends = "['libstdc++>=11.2', 'ncurses>=6.1-2', 'readline>=8.0']"
 reverse_depends = "['calibre', 'enchant', 'firefox', 'ghostwriter', 'hunspell-be', 'hunspell-br', 'hunspell-de', 'hunspell-de_ch', 'hunspell-en', 'hunspell-en_us', 'hunspell-es', 'hunspell-es_mx', 'hunspell-fr', 'hunspell-hu', 'hunspell-it', 'hunspell-nl', 'hunspell-sk', 'lokalize', 'lyx', 'otter-browser', 'qt5-virtualkeyboard', 'qt6-virtualkeyboard', 'scribus', 'sigil', 'sonnet-plugin-hunspell', 'telegram-desktop', 'texstudio', 'texworks', 'texworks', 'thunderbird']"
 +++
-An interactive Hungarian spell checker"
+An interactive Hungarian spell checker
 
 {{< files text="show files" >}}* /usr/bin/affixcompress
 * /usr/bin/analyze-hunspell

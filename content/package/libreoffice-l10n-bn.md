@@ -13,7 +13,7 @@ usize = "37752917"
 sha1sum = "10de8cb49e70bb508edcb4d93059f173739a90b1"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Bengali (Bangladesh) support in LibreOffice"
+Installs Bengali (Bangladesh) support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/help/bn/default.css
 * /usr/lib/libreoffice/help/bn/err.html

@@ -14,7 +14,7 @@ sha1sum = "438dc786d943c421af1099cc22d5f514b67ad1d2"
 depends = "['bash>=4.4.12-4', 'glibc>=2.34']"
 reverse_depends = "['bip', 'gsoap', 'hotdoc', 'libreoffice']"
 +++
-A tool for generating text-scanning programs"
+A tool for generating text-scanning programs
 
 {{< files text="show files" >}}* /usr/bin/flex
 * /usr/bin/flex++

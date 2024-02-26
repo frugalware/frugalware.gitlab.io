@@ -14,7 +14,7 @@ sha1sum = "92afbde6ba3edd5466185011a6d184997cb7d70e"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
-Canadian English language support for Thunderbird"
+Canadian English language support for Thunderbird
 
 {{< files text="show files" >}}* /usr/lib/thunderbird/extensions/langpack-en-CA@thunderbird.mozilla.org.xpi
 {{< /files >}}

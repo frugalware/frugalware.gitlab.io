@@ -13,7 +13,7 @@ usize = "672692"
 sha1sum = "9e9a3537a818d67d38cd9aa14c6d172e3049e192"
 depends = "['bash', 'diffutils>=2.8.1-4', 'gawk>=3.1.6-3', 'm4>=1.4.17-3']"
 +++
-A GNU tool for automatically configuring source code"
+A GNU tool for automatically configuring source code
 
 {{< files text="show files" >}}* /usr/bin/autoconf-2.13
 * /usr/bin/autoheader-2.13

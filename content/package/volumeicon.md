@@ -13,7 +13,7 @@ usize = "191458"
 sha1sum = "7781a0181f0dc2a9d70bc4f78b8d26032a77c21d"
 depends = "['alsa-lib', 'gtk+3', 'libnotify>=0.5.0']"
 +++
-Lightweight volume control thats sits in the systray"
+Lightweight volume control thats sits in the systray
 
 {{< files text="show files" >}}* /usr/bin/volumeicon
 * /usr/share/doc/volumeicon-0.5.1/AUTHORS

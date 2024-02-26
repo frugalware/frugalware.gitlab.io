@@ -14,7 +14,7 @@ sha1sum = "095f7c8a70de50460c59b1d395ac6a95728d3638"
 depends = "['lib32-curl', 'lib32-dbus-glib', 'lib32-glib2', 'lib32-jansson', 'lib32-libgudev', 'lib32-libndp', 'lib32-libnl', 'lib32-libpsl', 'lib32-modemmanager', 'lib32-newt', 'lib32-nss', 'lib32-polkit', 'lib32-readline']"
 reverse_depends = "['steam-native']"
 +++
-Network Management daemon ( 32bit )"
+Network Management daemon ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/nm-online
 * /usr/i686-frugalware-linux/bin/nmcli

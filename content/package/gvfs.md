@@ -14,7 +14,7 @@ sha1sum = "97e38a315a732319729d8593c344c789ce56d27a"
 depends = "['avahi-glib>=0.6.31-9', 'dbus>=1.10.10-4', 'gcr-1>=3.28.0', 'glib2>=2.56.0', 'gsettings-desktop-schemas', 'gtk+3>=3.22.29', 'libarchive>=3.2.1', 'libbluray', 'libcdio>=2.1.0', 'libcdio-paranoia>=10.2+0.93+1-3', 'libsecret>=0.18.5-5', 'libsoup3', 'udisks2>=2.7.6']"
 reverse_depends = "['gvfs-apple', 'gvfs-fuse', 'gvfs-gphoto2', 'gvfs-mtp', 'gvfs-smb']"
 +++
-gvfs is a userspace virtual filesystem designed to work with the i/o abstractions of gio."
+gvfs is a userspace virtual filesystem designed to work with the i/o abstractions of gio.
 
 {{< files text="show files" >}}* /etc/ld.so.conf.d/gvfs.conf
 * /usr/include/gvfs-client/gvfs/gvfsurimapper.h

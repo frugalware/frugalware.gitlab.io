@@ -13,7 +13,7 @@ usize = "3797472"
 sha1sum = "7bd7c81b2cbc75134ab13fee9219794ed176c5b1"
 depends = "['glibc']"
 +++
-Language specific files for tesseract lang iku"
+Language specific files for tesseract lang iku
 
 {{< files text="show files" >}}* /usr/share/tessdata/iku.traineddata
 {{< /files >}}

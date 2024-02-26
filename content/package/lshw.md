@@ -14,7 +14,7 @@ sha1sum = "93fd6463f19c07896bd29df13d366a5fec7450a3"
 depends = "['libstdc++']"
 license = "GPL2"
 +++
-A tool to provide information on the hardware configuration of the machine."
+A tool to provide information on the hardware configuration of the machine.
 
 {{< files text="show files" >}}* /usr/bin/lshw
 * /usr/share/doc/lshw-B.02.18/Changelog

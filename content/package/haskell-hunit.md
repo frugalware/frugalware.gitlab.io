@@ -14,7 +14,7 @@ sha1sum = "d1487e3592052c16dc414d2b0eb0d04a245ee366"
 depends = "['haskell-call-stack']"
 reverse_depends = "['haskell-wai-extra']"
 +++
-A unit testing framework for Haskell"
+A unit testing framework for Haskell
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/HUnit-1.6.2.0/libHSHUnit-1.6.2.0-HzzmrbBraolKq5IRwboZyL.a
 * /usr/lib/ghc-9.8.1/site-local/HUnit-1.6.2.0/Paths_HUnit.dyn_hi

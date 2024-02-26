@@ -13,7 +13,7 @@ usize = "5486584"
 sha1sum = "9ea6c70f9029782cdf6719bd00558f67e8fa42d0"
 depends = "['freeciv', 'qt5-base>=5.15.10']"
 +++
-Qt client for freeciv"
+Qt client for freeciv
 
 {{< files text="show files" >}}* /usr/bin/freeciv-qt
 * /usr/share/applications/org.freeciv.qt.desktop

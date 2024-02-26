@@ -13,7 +13,7 @@ usize = "28327724"
 sha1sum = "fcd1e15a2ddffcb652238530460e19e76e660caf"
 depends = "['python3>=3.10']"
 +++
-Django is a Python web framework"
+Django is a Python web framework
 
 {{< files text="show files" >}}* /usr/bin/django-admin
 * /usr/lib/python3.12/site-packages/Django-4.1.7-py3.12.egg-info/dependency_links.txt

@@ -14,7 +14,7 @@ sha1sum = "8129dc89ed3afb662837f61cdaad9713e0507071"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Japanese language support for Firefox"
+Japanese language support for Firefox
 
 {{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-ja@firefox.mozilla.org.xpi
 {{< /files >}}

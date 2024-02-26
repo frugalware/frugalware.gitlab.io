@@ -14,7 +14,7 @@ sha1sum = "38548e972d69638c95cce7ad30533de22c2c9f5a"
 depends = "['glibc>=2.34']"
 reverse_depends = "['clinfo', 'warzone2100', 'wine', 'wine-devel', 'xine-lib']"
 +++
-OpenCL ICD Bindings"
+OpenCL ICD Bindings
 
 {{< files text="show files" >}}* /usr/bin/cllayerinfo
 * /usr/include/ocl_icd.h

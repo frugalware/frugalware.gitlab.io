@@ -13,7 +13,7 @@ usize = "107227"
 sha1sum = "232e76dec7437379921dc26fb00b604d039cae11"
 depends = "['glibc>=2.34']"
 +++
-C++11/14/17 std::expected with functional-style extensions"
+C++11/14/17 std::expected with functional-style extensions
 
 {{< files text="show files" >}}* /usr/include/tl/expected.hpp
 * /usr/share/cmake/tl-expected/tl-expected-config-version.cmake

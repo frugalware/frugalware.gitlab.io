@@ -13,7 +13,7 @@ usize = "874530"
 sha1sum = "f2a1425cbf032976e0c3709ece992868173f33a1"
 depends = "['thunderbird>=1.5.0.7']"
 +++
-Portuguese language support for Thunderbird"
+Portuguese language support for Thunderbird
 
 {{< files text="show files" >}}* usr/lib/thunderbird/chrome/pt-BR.jar
 * usr/lib/thunderbird/chrome/pt-BR.manifest

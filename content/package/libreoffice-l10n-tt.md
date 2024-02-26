@@ -13,7 +13,7 @@ usize = "1060446"
 sha1sum = "0e5309e53e4e446ff30bfe74541436aba3c896ea"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Tatar support in LibreOffice"
+Installs Tatar support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/tt/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/tt/LC_MESSAGES/avmedia.mo

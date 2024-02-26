@@ -14,7 +14,7 @@ sha1sum = "ba31f755be0fc6066c0f5a4b2b8b7b9e06c68491"
 depends = "['gtk+3', 'libgif', 'libjpeg-turbo', 'libspiro', 'libtiff', 'libuninameslist', 'pango', 'python3>=3.12', 'readline>=8.0']"
 reverse_depends = "['mftrace']"
 +++
-Font editor and converter"
+Font editor and converter
 
 {{< files text="show files" >}}* /usr/bin/acorn2sfd
 * /usr/bin/dewoff

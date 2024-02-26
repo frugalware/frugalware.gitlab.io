@@ -13,6 +13,6 @@ usize = "0"
 sha1sum = "21e20fd3ebe513300a84bbebed3489b894605b64"
 depends = "['libproxy>=0.5.4', 'python3>=3.11']"
 +++
-libproxy python3 binding"
+libproxy python3 binding
 
 {{< files text="show files" >}}{{< /files >}}

@@ -14,7 +14,7 @@ sha1sum = "3b896e5a413cbc07a466e434003f90cb7c0fd116"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
-Breton language support for Thunderbird"
+Breton language support for Thunderbird
 
 {{< files text="show files" >}}* /usr/lib/thunderbird/extensions/langpack-br@thunderbird.mozilla.org.xpi
 {{< /files >}}

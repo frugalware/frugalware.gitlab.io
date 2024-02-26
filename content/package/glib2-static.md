@@ -13,7 +13,7 @@ usize = "21896120"
 sha1sum = "c979c1d90b7b8cbde7855975d6659ca39713fc9c"
 depends = "['glibc>=2.35']"
 +++
-Common C routines used by GTK+ and other libraries (static)"
+Common C routines used by GTK+ and other libraries (static)
 
 {{< files text="show files" >}}* /usr/lib/libgio-2.0.a
 * /usr/lib/libglib-2.0.a

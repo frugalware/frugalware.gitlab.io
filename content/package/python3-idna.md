@@ -14,7 +14,7 @@ sha1sum = "2783b9fc737784f5a16a094cae0bbc5515d48b44"
 depends = "['python3>=3.12']"
 reverse_depends = "['lutris', 'python3-cryptography', 'python3-dulwich', 'python3-requests', 'python3-trio']"
 +++
-Internationalized Domain Names in Applications (IDNA)"
+Internationalized Domain Names in Applications (IDNA)
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/idna-3.6.dist-info/LICENSE.md
 * /usr/lib/python3.12/site-packages/idna-3.6.dist-info/METADATA

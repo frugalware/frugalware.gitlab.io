@@ -14,7 +14,7 @@ sha1sum = "fb40bd410aefa86ff21c7b72f324013b53f2da9e"
 depends = "['libtool']"
 reverse_depends = "['mpd', 'mpg123', 'qmmp', 'vlc-mpg123', 'wine', 'wine-devel']"
 +++
-libmpg123 is the API used by the mpg123 audio player"
+libmpg123 is the API used by the mpg123 audio player
 
 {{< files text="show files" >}}* /usr/include/fmt123.h
 * /usr/include/mpg123.h

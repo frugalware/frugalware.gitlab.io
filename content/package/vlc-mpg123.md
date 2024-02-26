@@ -13,7 +13,7 @@ usize = "14024"
 sha1sum = "79c68163d010b33c0e1a172436897a736f8de926"
 depends = "['libmpg123', 'libvlc>=3.0.20']"
 +++
-vlc mpg123 support"
+vlc mpg123 support
 
 {{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/libmpg123_plugin.so
 {{< /files >}}

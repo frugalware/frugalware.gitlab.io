@@ -13,7 +13,7 @@ usize = "647920"
 sha1sum = "eb82492bbde60717c5a8fb0fe8d48caea830ddda"
 depends = "['libgpg-error>=1.24-3']"
 +++
-Libgcrypt is a general purpose cryptographic library based on the code from GnuPG. (old version)"
+Libgcrypt is a general purpose cryptographic library based on the code from GnuPG. (old version)
 
 {{< files text="show files" >}}* /usr/lib/libgcrypt.so.11
 * /usr/lib/libgcrypt.so.11.8.5

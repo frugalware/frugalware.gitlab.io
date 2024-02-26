@@ -13,7 +13,7 @@ usize = "880002"
 sha1sum = "b08844432b61fade70e843490b2ae0283a882707"
 depends = "[]"
 +++
-Tasty Menu is a KMenu replacement."
+Tasty Menu is a KMenu replacement.
 
 {{< files text="show files" >}}* usr/lib/kde3/tastymenu_panelapplet.la
 * usr/lib/kde3/tastymenu_panelapplet.so

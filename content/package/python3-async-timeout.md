@@ -14,7 +14,7 @@ sha1sum = "606da038f6e2b444e6450883e4fda17b0bd3a7eb"
 depends = "['python3-typing_extensions']"
 reverse_depends = "['python3-redis']"
 +++
-Asyncio-compatible timeout class"
+Asyncio-compatible timeout class
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/async_timeout-4.0.3-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/async_timeout-4.0.3-py3.12.egg-info/PKG-INFO

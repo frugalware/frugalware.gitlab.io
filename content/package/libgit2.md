@@ -14,7 +14,7 @@ sha1sum = "241ab62ff01c84e3d7cf5a56f1cb3d52ead5fc58"
 depends = "['http-parser', 'libssh2', 'pcre2']"
 reverse_depends = "['julia', 'kate', 'ktexteditor']"
 +++
-portable, pure C implementation of the Git core methods"
+portable, pure C implementation of the Git core methods
 
 {{< files text="show files" >}}* /usr/bin/git2
 * /usr/include/git2.h

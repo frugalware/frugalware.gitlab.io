@@ -13,7 +13,7 @@ usize = "9766909"
 sha1sum = "cc94f3b153f8d7f4b69bfbd59449e3c24a874492"
 depends = "['kdeclarative>=5.115.0', 'knewstuff>=5.115.0', 'libkeduvocdocument>=23.08.5', 'qt5-declarative>=5.15.12', 'qt5-svg>=5.15.12']"
 +++
-KDE hangman game."
+KDE hangman game.
 
 {{< files text="show files" >}}* /etc/xdg/khangman.knsrc
 * /usr/bin/khangman

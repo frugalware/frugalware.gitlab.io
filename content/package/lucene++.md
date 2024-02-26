@@ -14,7 +14,7 @@ sha1sum = "ffe9ffcf93f0c5992e472a70d5119a47631515e9"
 depends = "['libboost>=1.83.0']"
 reverse_depends = "['poedit']"
 +++
-An up to date C++ port of the popular Java Lucene library, a high-performance, full-featured text search engine"
+An up to date C++ port of the popular Java Lucene library, a high-performance, full-featured text search engine
 
 {{< files text="show files" >}}* /usr/include/lucene++/AbstractAllTermDocs.h
 * /usr/include/lucene++/AbstractField.h

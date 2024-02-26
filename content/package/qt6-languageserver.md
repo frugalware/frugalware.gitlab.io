@@ -14,7 +14,7 @@ sha1sum = "32a5d6d885e6ed619b4280003f2c0d0903ea0ad2"
 depends = "['qt6-base']"
 reverse_depends = "['qt6-declarative']"
 +++
-The Qt6 toolkit, qtlanguageserver"
+The Qt6 toolkit, qtlanguageserver
 
 {{< files text="show files" >}}* /usr/include/qt6/QtJsonRpc/6.6.2/QtJsonRpc/private/qhttpmessagestreamparser_p.h
 * /usr/include/qt6/QtJsonRpc/6.6.2/QtJsonRpc/private/qjsonrpcprotocol_p.h

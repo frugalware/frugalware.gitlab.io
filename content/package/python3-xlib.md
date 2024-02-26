@@ -13,7 +13,7 @@ usize = "1459384"
 sha1sum = "a3e06b9aae77639e5713e8c6b47c871049be2794"
 depends = "['python3-six']"
 +++
-A fully functional X client library for Python programs"
+A fully functional X client library for Python programs
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/python_xlib-0.33-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/python_xlib-0.33-py3.12.egg-info/PKG-INFO

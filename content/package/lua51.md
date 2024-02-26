@@ -14,7 +14,7 @@ sha1sum = "59b165695b6dfd00563d4e3dd57f54e743f00ce4"
 depends = "['glibc>=2.34', 'ncurses>=6.0-18', 'readline>=8.0']"
 reverse_depends = "['libmpack-lua', 'lua51-lpeg', 'wireshark', 'wireshark-qt']"
 +++
-A powerful light-weight programming language designed for extending applications."
+A powerful light-weight programming language designed for extending applications.
 
 {{< files text="show files" >}}* /usr/bin/lua5.1
 * /usr/bin/luac5.1

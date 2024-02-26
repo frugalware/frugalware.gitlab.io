@@ -13,7 +13,7 @@ usize = "1252268"
 sha1sum = "79ff238d9c5a2c46f5ae6a2e4ada64e8732bb38e"
 depends = "['ktexteditor>=5.115.0', 'messagelib>=23.08.5']"
 +++
-gantt editor for PIM application."
+gantt editor for PIM application.
 
 {{< files text="show files" >}}* /usr/bin/contactprintthemeeditor
 * /usr/bin/contactthemeeditor

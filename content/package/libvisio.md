@@ -14,7 +14,7 @@ sha1sum = "12dc8379ab3d08cb7690aa0629e1dd03b77e9026"
 depends = "['icu4c>=74.1', 'libwpd>=0.10.1-4', 'libwpg>=0.3.1-4']"
 reverse_depends = "['inkscape', 'libreoffice', 'scribus']"
 +++
-libvisio import filter library"
+libvisio import filter library
 
 {{< files text="show files" >}}* /usr/bin/vsd2raw
 * /usr/bin/vsd2text

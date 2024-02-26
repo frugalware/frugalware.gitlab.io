@@ -14,7 +14,7 @@ sha1sum = "056f52fda3b82aa66b9a0c4a4cbccd7060e6bc6b"
 depends = "['gpsd>=3.25', 'knewstuff', 'kparts', 'krunner5', 'protobuf>=25.3', 'qt5-serialport', 'qt5-webengine']"
 reverse_depends = "['digikam', 'marble']"
 +++
-Marble libs"
+Marble libs
 
 {{< files text="show files" >}}* /usr/lib/libastro.so
 * /usr/lib/libastro.so.1

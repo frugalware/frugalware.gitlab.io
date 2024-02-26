@@ -13,7 +13,7 @@ usize = "2079186"
 sha1sum = "e3880d248e64a7224b47b7141a92281cf47979e8"
 depends = "['fontconfig', 'mkfontscale', 'ttf-bitstream-vera']"
 +++
-Monospaced font with programming ligatures"
+Monospaced font with programming ligatures
 
 {{< files text="show files" >}}* /usr/share/doc/firacode-6.2/README.txt
 * /usr/share/fonts/X11/TTF/FiraCode-Bold.ttf

@@ -13,7 +13,7 @@ usize = "35117717"
 sha1sum = "4776445b03359d7db49c77c6f61a43d6dafb27c5"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Norwegian (Bokmål) support in LibreOffice"
+Installs Norwegian (Bokmål) support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/help/nb/default.css
 * /usr/lib/libreoffice/help/nb/err.html

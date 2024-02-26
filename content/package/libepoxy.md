@@ -14,7 +14,7 @@ sha1sum = "6ed8e43ed24c0a1be7c0e369369799956e16d05f"
 depends = "['libglvnd', 'libx11>=1.6.5-2', 'libxdamage>=1.1.4-3', 'libxext>=1.3.3-3', 'libxshmfence>=1.2-3', 'libxxf86vm>=1.1.4-3', 'mesa-libegl']"
 reverse_depends = "['blender', 'gtk+3', 'gtk+3-demos', 'gtk+4', 'gtk+4-demos', 'kdeclarative', 'kpipewire', 'krfb-pipewire', 'libgltf', 'libplacebo', 'performous', 'qemu', 'qt6-webengine', 'wpebackend-fdo', 'xorg-server', 'xorg-server-xephyr', 'xorg-server-xwayland']"
 +++
-Epoxy is a library for handling OpenGL function pointer management for you"
+Epoxy is a library for handling OpenGL function pointer management for you
 
 {{< files text="show files" >}}* /usr/include/epoxy/common.h
 * /usr/include/epoxy/egl.h

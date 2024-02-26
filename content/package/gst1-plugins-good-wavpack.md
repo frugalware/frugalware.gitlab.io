@@ -13,7 +13,7 @@ usize = "43120"
 sha1sum = "522684006677e2fda63b713f5e29d67ef05e1f4b"
 depends = "['gst1-plugins-base>=1.22.10', 'gst1-plugins-good>=1.22.10', 'libffi>=3.2.1-2', 'wavpack>=4.80.0-2']"
 +++
-GStreamer wavpack plugin (Good)."
+GStreamer wavpack plugin (Good).
 
 {{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstwavpack.so
 {{< /files >}}

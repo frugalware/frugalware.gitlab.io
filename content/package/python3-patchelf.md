@@ -14,7 +14,7 @@ sha1sum = "f3307c1826fcf4c06b4c20bf3438b49dbbaf976d"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-cx-freeze']"
 +++
-patchelf Python wheel for PyP"
+patchelf Python wheel for PyP
 
 {{< files text="show files" >}}* /usr/bin/patchelf
 * /usr/lib/python3.12/site-packages/patchelf-0.17.2.1-py3.12.egg-info/dependency_links.txt

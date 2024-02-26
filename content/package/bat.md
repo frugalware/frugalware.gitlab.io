@@ -13,7 +13,7 @@ usize = "5693632"
 sha1sum = "51cd19c3acd75e8942ef93c5cb78a62ff998aaa8"
 depends = "['libgcc']"
 +++
-Cat clone with syntax highlighting and git integration"
+Cat clone with syntax highlighting and git integration
 
 {{< files text="show files" >}}* /usr/bin/bat
 * /usr/share/doc/bat-0.24.0/README.md

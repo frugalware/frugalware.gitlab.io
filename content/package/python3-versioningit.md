@@ -13,7 +13,7 @@ usize = "337414"
 sha1sum = "09ecdf15f01ff93d405ed9eb9e051be51189cd5f"
 depends = "['python3-packaging', 'python3-tomli']"
 +++
-Pathlib-compatible object wrapper for zip files"
+Pathlib-compatible object wrapper for zip files
 
 {{< files text="show files" >}}* /usr/bin/versioningit
 * /usr/lib/python3.12/site-packages/versioningit-2.3.0.dist-info/entry_points.txt

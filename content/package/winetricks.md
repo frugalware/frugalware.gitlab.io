@@ -13,7 +13,7 @@ usize = "914794"
 sha1sum = "2bffebb273bff48476360fbb22bf98d05dc8bbd7"
 depends = "['cabextract', 'unzip', 'wine']"
 +++
-Winetricks is an easy way to work around problems in Wine."
+Winetricks is an easy way to work around problems in Wine.
 
 {{< files text="show files" >}}* /usr/bin/winetricks
 * /usr/share/applications/winetricks.desktop

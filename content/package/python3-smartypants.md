@@ -14,7 +14,7 @@ sha1sum = "0219220acd8f30658b94a55bf97f52f6ad06519f"
 depends = "['python3>=3.11']"
 reverse_depends = "['python3-typogrify']"
 +++
-Python with the SmartyPants"
+Python with the SmartyPants
 
 {{< files text="show files" >}}* /usr/bin/smartypants
 * /usr/lib/python3.12/site-packages/smartypants-2.0.1-py3.12.egg-info/dependency_links.txt

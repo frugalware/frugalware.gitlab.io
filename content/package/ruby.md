@@ -14,7 +14,7 @@ sha1sum = "9c7ee8e9cef5894b09d8717cf36d189039ca019f"
 depends = "['db>=18.1.25', 'gdbm>=1.15', 'gmp>=6.1.1-4', 'libffi>=3.4', 'libxml2>=2.9.4-3', 'libyaml', 'ncurses>=6.0-18', 'openssl>=3.1.0', 'readline>=8.0', 'zlib>=1.2.12']"
 reverse_depends = "['facter', 'flvtool2', 'fxruby-1.2', 'hivex-ruby', 'insight-toolkit', 'isaac', 'kross-interpreters', 'libselinux', 'rake', 'ruby-asciidoctor', 'ruby-bundler', 'ruby-hiera', 'ruby-hiera', 'ruby-hpricot', 'ruby-hpricot', 'ruby-mustache', 'ruby-rdiscount', 'ruby-rdiscount', 'ruby-ronn', 'ruby-sass', 'uwsgi-plugin-rack', 'uwsgi-plugin-ruby', 'weechat']"
 +++
-An object-oriented programming language."
+An object-oriented programming language.
 
 {{< files text="show files" >}}* /usr/bin/bundle
 * /usr/bin/bundler

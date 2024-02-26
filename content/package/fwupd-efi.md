@@ -14,7 +14,7 @@ sha1sum = "502d4645417a4d5f3ededdf7cdaa636e20089d2f"
 depends = "['glibc>=2.34']"
 reverse_depends = "['fwupd']"
 +++
-EFI Application used by uefi-capsule plugin in fwupd"
+EFI Application used by uefi-capsule plugin in fwupd
 
 {{< files text="show files" >}}* /usr/lib/fwupd/efi/fwupdx64.efi
 * /usr/lib/pkgconfig/fwupd-efi.pc

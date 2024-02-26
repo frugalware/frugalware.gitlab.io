@@ -13,7 +13,7 @@ usize = "37363"
 sha1sum = "626e35b5fefb2112d7bc8c66e5a45f9e98241e1b"
 depends = "['python3-toml']"
 +++
-build for pyproject.toml-based systems"
+build for pyproject.toml-based systems
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pyproject2setuppy-22-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pyproject2setuppy-22-py3.12.egg-info/PKG-INFO

@@ -13,7 +13,7 @@ usize = "5894638"
 sha1sum = "6f99c2d2d1cfbda4593074c6707a7fc11282ae35"
 depends = "[]"
 +++
-Hebrew Localization for KDE."
+Hebrew Localization for KDE.
 
 {{< files text="show files" >}}* usr/share/apps/klettres/he/alpha/a-01.ogg
 * usr/share/apps/klettres/he/alpha/a-02.ogg

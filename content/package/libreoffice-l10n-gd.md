@@ -13,7 +13,7 @@ usize = "2742383"
 sha1sum = "555c223797729c50262bdf43f95210baa985bba8"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Scottish Gaelic support in LibreOffice"
+Installs Scottish Gaelic support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/gd/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/gd/LC_MESSAGES/avmedia.mo

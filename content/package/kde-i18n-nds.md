@@ -13,7 +13,7 @@ usize = "9319358"
 sha1sum = "e7b2695060d52f9fbd3c64de1f88dcac76f2e2f5"
 depends = "[]"
 +++
-Low Saxon Localization for KDE."
+Low Saxon Localization for KDE.
 
 {{< files text="show files" >}}* usr/share/apps/khangman/data/nds/animals.kvtml
 * usr/share/apps/khangman/data/nds/easy.kvtml

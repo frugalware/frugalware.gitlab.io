@@ -14,7 +14,7 @@ sha1sum = "fcd1fbea9893bfee87a26b4899c49c476724fc94"
 depends = "['pcre2']"
 reverse_depends = "['pulsar', 'vscode']"
 +++
-A search tool that combines the usability of ag with the raw speed of grep"
+A search tool that combines the usability of ag with the raw speed of grep
 
 {{< files text="show files" >}}* /usr/bin/rg
 * /usr/share/bash-completion/completions/rg

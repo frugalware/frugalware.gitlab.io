@@ -14,7 +14,7 @@ sha1sum = "a25ea73a27670a110492f5fa79936460a6160b06"
 depends = "['glibc']"
 reverse_depends = "['pdal']"
 +++
-ASPRS LAS lossless compression library"
+ASPRS LAS lossless compression library
 
 {{< files text="show files" >}}* /usr/include/laszip/laszip_api.h
 * /usr/include/laszip/laszip_api_version.h

@@ -14,7 +14,7 @@ sha1sum = "b3a972f0fdfeda5c4177d237cb5be2f220bf9a21"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['darktable', 'manaplus', 'mkvtoolnix', 'ogre', 'openshadinglanguage', 'poedit']"
 +++
-Light-weight, simple and fast XML parser for C++ with XPath support"
+Light-weight, simple and fast XML parser for C++ with XPath support
 
 {{< files text="show files" >}}* /etc/ld.so.conf.d/pugixml.conf
 * /usr/include/pugiconfig.hpp

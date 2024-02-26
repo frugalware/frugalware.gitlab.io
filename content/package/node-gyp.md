@@ -13,7 +13,7 @@ usize = "7589307"
 sha1sum = "daa48aa15af23fa978b2d701a7263d3c2bef968a"
 depends = "['glibc']"
 +++
-Node.js native addon build tool"
+Node.js native addon build tool
 
 {{< files text="show files" >}}* /usr/bin/node-gyp
 * /usr/lib/node_modules/node-gyp/.github/ISSUE_TEMPLATE.md

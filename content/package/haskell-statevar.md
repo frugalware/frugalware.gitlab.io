@@ -14,7 +14,7 @@ sha1sum = "3760db0cf94c8349c12f7540aed859fb75116013"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-contravariant']"
 +++
-State variables"
+State variables
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/StateVar-1.2.2/Data/StateVar.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/StateVar-1.2.2/Data/StateVar.hi

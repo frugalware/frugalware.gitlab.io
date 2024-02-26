@@ -14,7 +14,7 @@ sha1sum = "9c1e155a0df92958fc268674c17fce778996e08e"
 depends = "['alsa-topology-conf', 'alsa-ucm-conf', 'glibc>=2.34']"
 reverse_depends = "['allegro', 'alsa-plugins', 'alsa-tools', 'alsa-utils', 'bluez', 'cef', 'enlightenment', 'ffmpeg', 'ffmpeg4.4', 'firefox', 'gst1-plugins-base-alsa', 'jack2', 'libao', 'libcanberra-alsa', 'libpulse', 'libsndfile', 'lirc', 'mlt', 'pcaudiolib', 'portaudio', 'portmidi', 'pyalsa', 'qemu', 'qt5-webengine', 'qv4l2', 'sphinxbase', 'spice-vdagent', 'ssr', 'stepmania', 'teams', 'tuxguitar', 'v4l-utils', 'virtualbox', 'vlc', 'volumeicon', 'whalebird', 'wildmidi', 'xcfa', 'xonotic']"
 +++
-An alternative implementation of Linux sound support"
+An alternative implementation of Linux sound support
 
 {{< files text="show files" >}}* /usr/bin/aserver
 * /usr/include/alsa/asoundef.h

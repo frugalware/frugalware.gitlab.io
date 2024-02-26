@@ -13,7 +13,7 @@ usize = "81949"
 sha1sum = "d4e2d56f36283cf8d52d8f6fa390a6c23b74b620"
 depends = "['kmod>=25-2']"
 +++
-Contains the initialization tools necessary to allow the PCMCIA subsystem to behave as every other hotpluggable bus system."
+Contains the initialization tools necessary to allow the PCMCIA subsystem to behave as every other hotpluggable bus system.
 
 {{< files text="show files" >}}* /etc/pcmcia/config.opts
 * /usr/bin/lspcmcia

@@ -13,7 +13,7 @@ usize = "763881"
 sha1sum = "07ee81457a7794f776e100bfab41f85664e6c972"
 depends = "['filter_audio', 'fontconfig', 'libxrender', 'tox-core>=0.2.18']"
 +++
-Lightweight Tox client."
+Lightweight Tox client.
 
 {{< files text="show files" >}}* /usr/bin/utox
 * /usr/share/applications/utox.desktop

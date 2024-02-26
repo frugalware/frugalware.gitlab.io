@@ -14,7 +14,7 @@ sha1sum = "9a41044c7e6ce75b47c071080de6437f725980bd"
 depends = "['qt6-declarative']"
 reverse_depends = "['socnetv']"
 +++
-The Qt6 toolkit, qtcharts"
+The Qt6 toolkit, qtcharts
 
 {{< files text="show files" >}}* /usr/include/qt6/QtCharts/6.6.2/QtCharts/private/abstractbarchartitem_p.h
 * /usr/include/qt6/QtCharts/6.6.2/QtCharts/private/abstractchartlayout_p.h

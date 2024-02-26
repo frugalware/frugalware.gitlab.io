@@ -14,7 +14,7 @@ sha1sum = "d94d0ed53bacd2065191bb8ad0a7a5793b607b30"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-moo']"
 +++
-provides Moose-like method modifiers"
+provides Moose-like method modifiers
 
 {{< files text="show files" >}}* /usr/lib/perl5/site_perl/Class/Method/Modifiers.pm
 * /usr/share/doc/perl-class-method-modifiers-2.15/INSTALL

@@ -13,7 +13,7 @@ usize = "14853313"
 sha1sum = "b05a85e3d5f1967526b18685785cab475bc658dc"
 depends = "['kdelibs4support', 'kdev-php']"
 +++
-UML Modeller."
+UML Modeller.
 
 {{< files text="show files" >}}* /usr/bin/po2xmi5
 * /usr/bin/umbrello5

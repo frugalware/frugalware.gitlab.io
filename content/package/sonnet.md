@@ -14,7 +14,7 @@ sha1sum = "234e47428a346383d583ce7bb7294998b8fe2963"
 depends = "['qt5-base>=5.15.12']"
 reverse_depends = "['ghostwriter', 'kpimtextedit', 'ktextwidgets']"
 +++
-Spelling framework for Qt, plugin-based."
+Spelling framework for Qt, plugin-based.
 
 {{< files text="show files" >}}* /usr/bin/gentrigrams
 * /usr/bin/parsetrigrams

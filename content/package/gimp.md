@@ -14,7 +14,7 @@ sha1sum = "5895a5f605a600f667619f83b4991bb629d63e6b"
 depends = "['aalib', 'darktable>=2.2.5-4', 'gegl>=0.4.42', 'ghostscript>=10.0.0', 'glib-networking', 'iso-codes', 'libgexiv2', 'libheif', 'libmng', 'libmypaint>=1.6', 'libxpm', 'mypaint-brushes', 'poppler-glib>=0.60.1-2', 'xdg-utils']"
 reverse_depends = "['gmic', 'xsane-gimp']"
 +++
-The GNU Image Manipulation Program"
+The GNU Image Manipulation Program
 
 {{< files text="show files" >}}* /etc/gimp/2.0/controllerrc
 * /etc/gimp/2.0/gimprc

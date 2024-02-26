@@ -14,7 +14,7 @@ sha1sum = "ce2ac0dff029dc8877710ca2d2ed49659cf746bd"
 depends = "['haskell-hslua-core']"
 reverse_depends = "['haskell-pandoc-lua-marshal']"
 +++
-Opinionated, but extensible Lua list type"
+Opinionated, but extensible Lua list type
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hslua-list-1.1.1/HsLua/List.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-list-1.1.1/HsLua/List.hi

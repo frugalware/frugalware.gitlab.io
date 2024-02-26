@@ -14,7 +14,7 @@ sha1sum = "7b98b9ce2023cc59a682c9ff06ee22d02f2d5296"
 depends = "['libgs>=10.0.0']"
 reverse_depends = "['cantor', 'efl', 'okular']"
 +++
-libspectre is a small library for rendering Postscript documents"
+libspectre is a small library for rendering Postscript documents
 
 {{< files text="show files" >}}* /usr/include/libspectre/spectre-document.h
 * /usr/include/libspectre/spectre-exporter.h

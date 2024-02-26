@@ -13,7 +13,7 @@ usize = "29560"
 sha1sum = "8df2a8498def245da50f456c48c580d98e827032"
 depends = "['curl', 'uwsgi']"
 +++
-UWSGI Curl Plugin"
+UWSGI Curl Plugin
 
 {{< files text="show files" >}}* /usr/lib/uwsgi/alarm_curl_plugin.so
 * /usr/lib/uwsgi/curl_cron_plugin.so

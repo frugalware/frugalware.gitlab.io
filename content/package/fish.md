@@ -14,7 +14,7 @@ sha1sum = "9849e124b5b811e4846d796ce42bd0fa41b51d7a"
 depends = "['libstdc++>=7.3.0-5', 'ncurses>=6.1', 'pcre2']"
 license = "GPL2"
 +++
-fish is a user friendly command line shell for UNIX-like operating systems."
+fish is a user friendly command line shell for UNIX-like operating systems.
 
 {{< files text="show files" >}}* /etc/fish/config.fish
 * /usr/bin/fish

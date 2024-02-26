@@ -13,6 +13,6 @@ usize = "6"
 sha1sum = "711b067782115a5b9b4c701ce3b38939d44551e9"
 depends = "['zenity>=3.44.0']"
 +++
-zenity documention"
+zenity documention
 
 {{< files text="show files" >}}{{< /files >}}

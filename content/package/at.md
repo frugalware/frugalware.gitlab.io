@@ -13,7 +13,7 @@ usize = "123019"
 sha1sum = "83d272f58a6e4e699892da9a396742aa68b24920"
 depends = "['glibc']"
 +++
-Allows you to run jobs at specified times"
+Allows you to run jobs at specified times
 
 {{< files text="show files" >}}* /etc/at.deny
 * /etc/sysconfig/atd

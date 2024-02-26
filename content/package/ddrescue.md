@@ -13,7 +13,7 @@ usize = "291526"
 sha1sum = "a7958f11f2d952c881240f8c32c7dc01bd7d5794"
 depends = "['libstdc++']"
 +++
-GNU ddrescue is a data recovery tool"
+GNU ddrescue is a data recovery tool
 
 {{< files text="show files" >}}* /usr/bin/ddrescue
 * /usr/bin/ddrescuelog

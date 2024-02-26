@@ -14,7 +14,7 @@ sha1sum = "c28b5cec01334d62d192c1e273c77ae3fd712ad4"
 depends = "['glibc>=2.34']"
 reverse_depends = "['alsa-lib']"
 +++
-ALSA Use Case Manager configuration (and topologies)"
+ALSA Use Case Manager configuration (and topologies)
 
 {{< files text="show files" >}}* /usr/share/alsa/ucm2/Allwinner/A64/PinePhone/HiFi.conf
 * /usr/share/alsa/ucm2/Allwinner/A64/PinePhone/PinePhone.conf

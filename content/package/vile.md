@@ -13,7 +13,7 @@ usize = "3568281"
 sha1sum = "8614196a1edf6f050d5dbd0e4db7c1a2383468d6"
 depends = "['ncurses>=6.0-4']"
 +++
-VI Like Emacs"
+VI Like Emacs
 
 {{< files text="show files" >}}* /etc/profile.d/vile.sh
 * /usr/bin/vile

@@ -14,7 +14,7 @@ sha1sum = "7b52122420e19b753d1ab4d4de54545e10b78dc4"
 depends = "['haskell-crypton-connection', 'haskell-http-client', 'haskell-tls']"
 reverse_depends = "['pandoc']"
 +++
-http-client backend using the connection package and tls library"
+http-client backend using the connection package and tls library
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/http-client-tls-0.3.6.3/libHShttp-client-tls-0.3.6.3-DpJxR5tNG4qGRhwgO5PLKg.a
 * /usr/lib/ghc-9.8.1/site-local/http-client-tls-0.3.6.3/Network/HTTP/Client/TLS.dyn_hi

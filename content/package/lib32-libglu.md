@@ -14,7 +14,7 @@ sha1sum = "125508087113e5d92d3c790c19880a2c7516742b"
 depends = "['lib32-libglvnd']"
 reverse_depends = "['get_steam', 'lib32-v4l-utils']"
 +++
-Mesa OpenGL Utility Library. ( 32bit )"
+Mesa OpenGL Utility Library. ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/include/GL/glu.h
 * /usr/lib32/libGLU.so

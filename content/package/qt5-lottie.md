@@ -13,7 +13,7 @@ usize = "440673"
 sha1sum = "251b4b097310f92c68d9c378132d8e06821c8052"
 depends = "['qt5-declarative>=5.15.12']"
 +++
-The Qt5 toolkit, qtlottie"
+The Qt5 toolkit, qtlottie
 
 {{< files text="show files" >}}* /usr/include/qt5/QtBodymovin/5.15.12/QtBodymovin/private/beziereasing_p.h
 * /usr/include/qt5/QtBodymovin/5.15.12/QtBodymovin/private/bmbase_p.h

@@ -13,7 +13,7 @@ usize = "1311405"
 sha1sum = "ce4651af3bbb4477daf2ca50d43b897e1ea6a93c"
 depends = "['dbus-glib>=0.104-3', 'libgcrypt>=1.6.4-3']"
 +++
-Compatibility library for accessing secrets."
+Compatibility library for accessing secrets.
 
 {{< files text="show files" >}}* /usr/include/gnome-keyring-1/gnome-keyring-memory.h
 * /usr/include/gnome-keyring-1/gnome-keyring-result.h

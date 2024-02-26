@@ -14,7 +14,7 @@ sha1sum = "ac6d0cbdf572754d9f9e45e58263fd854291b631"
 depends = "['haskell-blaze-html', 'haskell-conduit-extra', 'haskell-data-default-class', 'haskell-xml-types']"
 reverse_depends = "['haskell-citeproc', 'haskell-skylighting-core', 'haskell-typst']"
 +++
-Pure-Haskell utilities for dealing with XML with the conduit package"
+Pure-Haskell utilities for dealing with XML with the conduit package
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/xml-conduit-1.9.1.3/libHSxml-conduit-1.9.1.3-9IHEePnYko5I9vmKvLBU67.a
 * /usr/lib/ghc-9.8.1/site-local/xml-conduit-1.9.1.3/Text/XML.dyn_hi

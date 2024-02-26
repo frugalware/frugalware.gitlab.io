@@ -14,7 +14,7 @@ sha1sum = "88605d0014622f6d5a341fabec183e886756b9b0"
 depends = "['python3>=3.11']"
 reverse_depends = "['python3-sphinx']"
 +++
-Documentation Utilities"
+Documentation Utilities
 
 {{< files text="show files" >}}* /usr/bin/docutils
 * /usr/bin/rst2html

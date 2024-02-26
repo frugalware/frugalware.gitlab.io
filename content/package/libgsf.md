@@ -14,7 +14,7 @@ sha1sum = "01b7e1dc267de00e791bb7d099ae1bdb3893697e"
 depends = "['gdk-pixbuf2>=2.36.11-3', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libxml2>=2.9.4-3']"
 reverse_depends = "['libextractor', 'libpst', 'libvips']"
 +++
-A library for reading and writing structured files (eg MS OLE and Zip)"
+A library for reading and writing structured files (eg MS OLE and Zip)
 
 {{< files text="show files" >}}* /usr/bin/gsf
 * /usr/bin/gsf-office-thumbnailer

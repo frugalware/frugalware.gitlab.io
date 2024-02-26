@@ -14,7 +14,7 @@ sha1sum = "e601c18579d8c41834c7477bac1cc69825ab4535"
 depends = "['libgfortran', 'openblas', 'openblas64', 'opencv>=4.9.0', 'python3>=3.12', 'python3-numpy']"
 reverse_depends = "['howdy']"
 +++
-Opencv python3 bindings"
+Opencv python3 bindings
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/cv2/alphamat/__init__.pyi
 * /usr/lib/python3.12/site-packages/cv2/aruco/__init__.pyi

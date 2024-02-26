@@ -14,7 +14,7 @@ sha1sum = "1b1ea2f7b4e42346e0f04e14e593d0b72e89d8fd"
 depends = "[]"
 reverse_depends = "['qemu', 'qt-virt-manager', 'xf86-video-qxl']"
 +++
-Simple Protocol for Independent Computing Environments"
+Simple Protocol for Independent Computing Environments
 
 {{< files text="show files" >}}* /usr/include/spice-1/spice/barrier.h
 * /usr/include/spice-1/spice/end-packed.h

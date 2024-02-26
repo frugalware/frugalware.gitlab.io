@@ -13,7 +13,7 @@ usize = "297330"
 sha1sum = "70a8a48f5682fd564cc60b1ecf9fd18e1be115e8"
 depends = "['telegram-qt5>=0.1.0-6', 'telepathy-qt5>=0.9.8']"
 +++
-Qt-based Telegram connection manager for the Telepathy framework"
+Qt-based Telegram connection manager for the Telepathy framework
 
 {{< files text="show files" >}}* /usr/lib/telepathy-morse/telepathy-morse
 * /usr/share/dbus-1/services/org.freedesktop.Telepathy.ConnectionManager.morse.service

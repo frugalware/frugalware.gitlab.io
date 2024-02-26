@@ -13,7 +13,7 @@ usize = "405181"
 sha1sum = "4f48bed8b62dbd3976b7496f10e74dc78d4f8c07"
 depends = "['ffmpeg>=6.0', 'flac>=1.4.0', 'libexif', 'libid3tag', 'libjpeg-turbo', 'libogg', 'libvorbis', 'sqlite3']"
 +++
-MiniDLNA is a UPnP (TM) A/V & DLNA Media Server."
+MiniDLNA is a UPnP (TM) A/V & DLNA Media Server.
 
 {{< files text="show files" >}}* /etc/minidlna.conf
 * /usr/bin/minidlnad

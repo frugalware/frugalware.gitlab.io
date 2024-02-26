@@ -14,7 +14,7 @@ sha1sum = "8cdbbc23b28d23d408600a6c762874da82b2b9cc"
 depends = "['libxaw>=1.0.13-3']"
 license = "GPL2"
 +++
-X.Org xmag application"
+X.Org xmag application
 
 {{< files text="show files" >}}* /usr/bin/xmag
 * /usr/share/doc/xmag-1.0.7/ChangeLog

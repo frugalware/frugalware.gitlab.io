@@ -13,7 +13,7 @@ usize = "33442824"
 sha1sum = "74d934fec5ef634f64219657ebb6b0e918a44f17"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Georgian support in LibreOffice"
+Installs Georgian support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/help/ka/default.css
 * /usr/lib/libreoffice/help/ka/err.html

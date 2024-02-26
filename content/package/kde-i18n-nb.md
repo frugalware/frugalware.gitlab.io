@@ -13,7 +13,7 @@ usize = "7168130"
 sha1sum = "87122446fceb16dad07000d36e289bb4e3f4b01e"
 depends = "[]"
 +++
-Norwegian Localization for KDE."
+Norwegian Localization for KDE.
 
 {{< files text="show files" >}}* usr/share/locale/nb/charset
 * usr/share/locale/nb/entry.desktop

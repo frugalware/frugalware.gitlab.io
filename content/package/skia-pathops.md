@@ -13,7 +13,7 @@ usize = "5609913"
 sha1sum = "6fed369499e6de20e8fa4977bcb1af0b1779476a"
 depends = "['python3>=3.10']"
 +++
-Boolean operations on paths using the Skia library"
+Boolean operations on paths using the Skia library
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pathops/operations.py
 * /usr/lib/python3.12/site-packages/pathops/_pathops.cpython-312-x86_64-linux-gnu.so

@@ -13,7 +13,7 @@ usize = "41152"
 sha1sum = "924cfa3f71b807778a90aae47508d3f6ff083ee6"
 depends = "['libbs2b']"
 +++
-Bauer stereophonic-to-binaural DSP for LADSPA"
+Bauer stereophonic-to-binaural DSP for LADSPA
 
 {{< files text="show files" >}}* /usr/lib/ladspa/bs2b.so
 * /usr/share/doc/ladspa-bs2b-0.9.1/AUTHORS

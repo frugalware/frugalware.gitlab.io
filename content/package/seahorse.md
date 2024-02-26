@@ -13,7 +13,7 @@ usize = "7496856"
 sha1sum = "12255b9093101d42a6a03a1b4b4da0a96ab950f7"
 depends = "['desktop-file-utils', 'gcr-1', 'libhandy', 'libldap', 'libpwquality', 'libsecret-vala', 'libsoup3', 'openssh']"
 +++
-A GNOME application for managing PGP keys."
+A GNOME application for managing PGP keys.
 
 {{< files text="show files" >}}* /usr/bin/seahorse
 * /usr/lib/seahorse/seahorse/ssh-askpass

@@ -14,7 +14,7 @@ sha1sum = "a2051575e67bf47ba2a9c3b23abd8f73741f2ed5"
 depends = "['glib2>=2.49.7-2', 'libevdev', 'libffi>=3.2.1-2', 'libgudev>=230-7', 'libudev>=231-6']"
 reverse_depends = "['libinput']"
 +++
-Tablet Information Client Library"
+Tablet Information Client Library
 
 {{< files text="show files" >}}* /usr/bin/libwacom-list-devices
 * /usr/bin/libwacom-list-local-devices

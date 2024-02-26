@@ -13,7 +13,7 @@ usize = "150441"
 sha1sum = "a442239ffddfb734569176f793aa3456b6614ceb"
 depends = "['ncurses']"
 +++
-Program with a top like UI used to show of behalf of which process is the I/O going on."
+Program with a top like UI used to show of behalf of which process is the I/O going on.
 
 {{< files text="show files" >}}* /usr/bin/iotop
 * /usr/share/doc/iotop-1.26/COPYING

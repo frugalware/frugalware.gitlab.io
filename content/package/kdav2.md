@@ -13,7 +13,7 @@ usize = "425579"
 sha1sum = "932668dbf5db322cc060d9b41a73e073f703fde4"
 depends = "['kcoreaddons>=5.110.0', 'pcre2', 'qt5-xmlpatterns>=5.15.11']"
 +++
-DAV protocol implementation with KJobs, 2 version"
+DAV protocol implementation with KJobs, 2 version
 
 {{< files text="show files" >}}* /etc/xdg/kdav2.categories
 * /usr/include/KPim/KDAV2/DavCollection

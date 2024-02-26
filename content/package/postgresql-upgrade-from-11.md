@@ -13,7 +13,7 @@ usize = "2325435"
 sha1sum = "004976024dbde718fe0bf5a0ae19fd6a0a10910b"
 depends = "['libpq>=11.22', 'libxml2>=2.9.4-3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.12', 'readline>=6.3-14']"
 +++
-Seperate latest 11 PGSQL for pg_upgrade"
+Seperate latest 11 PGSQL for pg_upgrade
 
 {{< files text="show files" >}}* /opt/pgsql-11/bin/oid2name
 * /opt/pgsql-11/bin/pg_standby

@@ -13,7 +13,7 @@ usize = "13339086"
 sha1sum = "b52693f6791a862a543c81e7d68e7addc8d330d9"
 depends = "['assimp', 'qt6-declarative', 'qt6-shadertools']"
 +++
-The Qt6 toolkit, qt3d"
+The Qt6 toolkit, qt3d
 
 {{< files text="show files" >}}* /usr/include/qt6/Qt3DAnimation/6.6.2/Qt3DAnimation/private/abstractevaluateclipanimatorjob_p.h
 * /usr/include/qt6/Qt3DAnimation/6.6.2/Qt3DAnimation/private/additiveclipblend_p.h

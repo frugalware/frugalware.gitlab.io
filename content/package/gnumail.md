@@ -14,7 +14,7 @@ sha1sum = "4459ad9d68db13c18571081693b9c7354c12c780"
 depends = "['gnuinetlib', 'jaf']"
 reverse_depends = "['avalon-logkit', 'bcmail', 'bouncycastle-mail']"
 +++
-GNU implementation of the Javamail API"
+GNU implementation of the Javamail API
 
 {{< files text="show files" >}}* /usr/share/doc/gnumail-1.1.2/AUTHORS
 * /usr/share/doc/gnumail-1.1.2/ChangeLog

@@ -14,7 +14,7 @@ sha1sum = "5715f99f4799a52414dc1ba2f902076ac4c18fd9"
 depends = "['bash']"
 reverse_depends = "['git-imerge', 'packagekit']"
 +++
-Programmable completion for bash"
+Programmable completion for bash
 
 {{< files text="show files" >}}* /etc/profile.d/bash_completion.sh
 * /usr/lib/pkgconfig/bash-completion.pc

@@ -14,7 +14,7 @@ sha1sum = "58679eae729bfc3279a7edb1d9ed121cb7039c4a"
 depends = "['libdrm', 'libxcomposite', 'qt5-declarative>=5.15.6', 'wayland']"
 reverse_depends = "['greetd-qtgreet', 'kguiaddons', 'kwayland', 'layer-shell-qt', 'plasma-wayland-session']"
 +++
-The Qt5 toolkit, qtwayland"
+The Qt5 toolkit, qtwayland
 
 {{< files text="show files" >}}* /usr/bin/qtwaylandscanner
 * /usr/bin/qtwaylandscanner-qt5

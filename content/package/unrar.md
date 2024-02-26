@@ -14,7 +14,7 @@ sha1sum = "aac95ce22da4fe3c98f10e16dcd62a8fd78af568"
 depends = "['libstdc++']"
 reverse_depends = "['binwalk']"
 +++
-Uncompress rar files"
+Uncompress rar files
 
 {{< files text="show files" >}}* /usr/bin/unrar
 * /usr/include/unrar/dll.hpp

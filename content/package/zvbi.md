@@ -15,7 +15,7 @@ depends = "['libpng>=1.4.8']"
 reverse_depends = "['vlc-v4l2', 'vlc-zvbi']"
 license = "GPL"
 +++
-Raw VBI, Teletext and Closed Caption decoding library"
+Raw VBI, Teletext and Closed Caption decoding library
 
 {{< files text="show files" >}}* /usr/bin/zvbi-atsc-cc
 * /usr/bin/zvbi-chains

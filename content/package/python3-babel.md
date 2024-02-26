@@ -14,7 +14,7 @@ sha1sum = "17fd609b9782141600bb3dea23833652ab2950a0"
 depends = "['python3>=3.12', 'python3-pytz']"
 reverse_depends = "['python3-sphinx']"
 +++
-A collection of tools for internationalizing Python applications"
+A collection of tools for internationalizing Python applications
 
 {{< files text="show files" >}}* /usr/bin/pybabel
 * /usr/lib/python3.12/site-packages/Babel-2.13.1-py3.12.egg-info/dependency_links.txt

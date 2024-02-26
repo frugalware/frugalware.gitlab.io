@@ -14,7 +14,7 @@ sha1sum = "4b3f3a6b71a7b9ad51d7e100ab59c618198af99a"
 depends = "['bash>=4.4.12-4', 'glibc>=2.34']"
 reverse_depends = "['binwalk', 'dracut', 'libguestfs', 'supermin']"
 +++
-A program to manage archives of files"
+A program to manage archives of files
 
 {{< files text="show files" >}}* /usr/bin/cpio
 * /usr/lib/cpio/rmt

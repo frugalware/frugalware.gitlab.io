@@ -14,7 +14,7 @@ sha1sum = "4e9eca5c7d4d8e0f72ddfb87a24a3ea6ad99359a"
 depends = "['haskell-hashable>=1.4.2.0']"
 reverse_depends = "['haskell-aeson', 'haskell-base64', 'haskell-cassava']"
 +++
-Memory-efficient representation of Unicode text strings"
+Memory-efficient representation of Unicode text strings
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/text-short-0.1.5.1/Data/Text/Short.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/text-short-0.1.5.1/Data/Text/Short.hi

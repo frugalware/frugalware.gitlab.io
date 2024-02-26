@@ -13,7 +13,7 @@ usize = "2138006"
 sha1sum = "422200752d1d6948fdfcd7a37baea29525211ab3"
 depends = "['ruby>=3.3.0']"
 +++
-Bundler manages an application's dependencies through its entire life, across many machines, systematically and repeatably."
+Bundler manages an application's dependencies through its entire life, across many machines, systematically and repeatably.
 
 {{< files text="show files" >}}* /usr/bin/bundle
 * /usr/bin/bundler

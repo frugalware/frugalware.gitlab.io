@@ -14,7 +14,7 @@ sha1sum = "3184624f1b282816c479d7c1844890649b6438bf"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Fulah language support for Firefox"
+Fulah language support for Firefox
 
 {{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-ff@firefox.mozilla.org.xpi
 {{< /files >}}

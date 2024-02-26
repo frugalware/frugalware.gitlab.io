@@ -13,7 +13,7 @@ usize = "623483"
 sha1sum = "13c601584a9e5e8218d637fd52a92a4cef10fb6c"
 depends = "[]"
 +++
-Swati Localization for KDE."
+Swati Localization for KDE.
 
 {{< files text="show files" >}}* usr/share/locale/ss/charset
 * usr/share/locale/ss/entry.desktop

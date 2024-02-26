@@ -14,7 +14,7 @@ sha1sum = "b297f95cb5b97beb6ef67390fba8c6a07ec16237"
 depends = "[]"
 reverse_depends = "['lib32-newt']"
 +++
-A commandline option parser ( 32bit )"
+A commandline option parser ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/include/popt.h
 * /usr/lib32/libpopt.so

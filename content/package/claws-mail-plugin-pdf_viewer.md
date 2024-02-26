@@ -13,7 +13,7 @@ usize = "51016"
 sha1sum = "bf1146365c949d45c6a3649d217543708c65a96a"
 depends = "['claws-mail=4.1.1', 'poppler-glib>=0.60.1-2']"
 +++
-This plugin enables the viewing of PDF and PostScript attachments."
+This plugin enables the viewing of PDF and PostScript attachments.
 
 {{< files text="show files" >}}* /usr/lib/claws-mail/plugins/pdf_viewer.so
 {{< /files >}}

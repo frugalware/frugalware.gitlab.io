@@ -13,7 +13,7 @@ usize = "2551762"
 sha1sum = "7ec25b9f78543e90ba5131e19468c83a7bd73ad1"
 depends = "['lapack>=3.12.0', 'libblas>=3.12.0', 'libgfortran>=11.2']"
 +++
-C Standard Interface to LAPACK Linear Algebra Package."
+C Standard Interface to LAPACK Linear Algebra Package.
 
 {{< files text="show files" >}}* /usr/lib/cmake/lapacke-3.12.0/lapacke-config-version.cmake
 * /usr/lib/cmake/lapacke-3.12.0/lapacke-config.cmake

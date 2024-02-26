@@ -14,7 +14,7 @@ sha1sum = "07966fbfe813190bf6b00c4fdf69301991e71e5f"
 depends = "['brotli', 'c-ares', 'icu4c>=74.1', 'libuv', 'nghttp2>=1.41.0', 'python3-setuptools', 'zlib>=1.2.12']"
 license = "MIT"
 +++
-Evented I/O for V8 javascript (LTS release: Iron)"
+Evented I/O for V8 javascript (LTS release: Iron)
 
 {{< files text="show files" >}}* /usr/bin/corepack
 * /usr/bin/node

@@ -13,7 +13,7 @@ usize = "16813"
 sha1sum = "6c863d44529e59ab945e4325b9e6099e6395ce8c"
 depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxau>=1.0.8-3', 'lib32-libxext>=1.3.3-3']"
 +++
-X Resource Information Extension Library ( 32bit )"
+X Resource Information Extension Library ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/XRes.h
 * /usr/lib32/libXRes.so

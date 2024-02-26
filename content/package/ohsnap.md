@@ -13,7 +13,7 @@ usize = "119474"
 sha1sum = "9a7e059693b5c942d026b59fb59b0165564ff107"
 depends = "['fontconfig', 'mkfontscale']"
 +++
-Monospaced font 7x14 based on artwiz-snap and a version with status icons."
+Monospaced font 7x14 based on artwiz-snap and a version with status icons.
 
 {{< files text="show files" >}}* /usr/share/doc/ohsnap-1.8.0/README.ohsnap
 * /usr/share/fonts/X11/misc/ohsnap6x11b.icons.pcf.gz

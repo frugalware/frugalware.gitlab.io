@@ -14,7 +14,7 @@ sha1sum = "d4c202c12c4959927186af2bb59da2782798e7e8"
 depends = "['fribidi>=0.19.7-4', 'harfbuzz>=1.3.1', 'libenca>=1.16-4']"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-bad', 'gtk-handbrake', 'mencoder', 'mplayer', 'mpv', 'vlc-ass']"
 +++
-A portable library for SSA/ASS subtitles rendering"
+A portable library for SSA/ASS subtitles rendering
 
 {{< files text="show files" >}}* /usr/include/ass/ass.h
 * /usr/include/ass/ass_types.h

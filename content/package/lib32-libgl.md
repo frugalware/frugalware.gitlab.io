@@ -14,7 +14,7 @@ sha1sum = "4f8f4644affdf086ad93796944729034934f8b18"
 depends = "['lib32-expat>=2.1.0-6', 'lib32-libdrm>=2.4.71', 'lib32-libgcrypt', 'lib32-libglapi', 'lib32-libxdamage>=1.1.4-3', 'lib32-libxshmfence>=1.2-3', 'lib32-libxxf86vm>=1.1.4-3', 'lib32-mesa-dri-drivers>=17.2.6-2']"
 reverse_depends = "['lib32-libglx']"
 +++
-Mesa DRI OpenGL files (32-Bit)."
+Mesa DRI OpenGL files (32-Bit).
 
 {{< files text="show files" >}}* /usr/lib32/libGL.la
 * /usr/lib32/libGL.so

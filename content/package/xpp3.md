@@ -13,7 +13,7 @@ usize = "372890"
 sha1sum = "6083589a34ab390281d4a2e1748da36a427f5847"
 depends = "['openjre']"
 +++
-A stable XmlPull parsing engine."
+A stable XmlPull parsing engine.
 
 {{< files text="show files" >}}* /usr/share/doc/xpp3-1.1.4c/README.html
 * /usr/share/java/xpp3.jar

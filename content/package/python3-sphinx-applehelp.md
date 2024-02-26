@@ -14,7 +14,7 @@ sha1sum = "5a6c05ae37e8958899e616d3633e5155f4e23dd0"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-sphinx']"
 +++
-Sphinx extension which outputs Apple help books"
+Sphinx extension which outputs Apple help books
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sphinxcontrib/applehelp/locales/.tx/config
 * /usr/lib/python3.12/site-packages/sphinxcontrib/applehelp/locales/ar/LC_MESSAGES/sphinxcontrib.applehelp.mo

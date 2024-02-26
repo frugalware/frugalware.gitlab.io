@@ -13,7 +13,7 @@ usize = "5646978"
 sha1sum = "5c36bf6bd176465605406179d3e890143a252656"
 depends = "['qscintilla2-qt5>=2.11.1', 'qt5-base>=5.15.10']"
 +++
-A light GUI editor for SQLite databases, built on top of Qt"
+A light GUI editor for SQLite databases, built on top of Qt
 
 {{< files text="show files" >}}* /usr/bin/sqlitebrowser
 * /usr/share/applications/sqlitebrowser.desktop

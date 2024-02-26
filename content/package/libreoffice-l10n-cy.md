@@ -13,7 +13,7 @@ usize = "3930267"
 sha1sum = "f40bc86dd3ddf15235a983b22174346f09e70f18"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Welsh support in LibreOffice"
+Installs Welsh support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/cy/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/cy/LC_MESSAGES/avmedia.mo

@@ -14,7 +14,7 @@ sha1sum = "28a6f62ceef5282ae5f305fbf78948d0ad760dc1"
 depends = "['glibc']"
 reverse_depends = "['tesseract-ocr']"
 +++
-Language specific files for tesseract"
+Language specific files for tesseract
 
 {{< files text="show files" >}}* /usr/share/doc/tessdata-4.1.0/LICENSE
 * /usr/share/doc/tessdata-4.1.0/README.md

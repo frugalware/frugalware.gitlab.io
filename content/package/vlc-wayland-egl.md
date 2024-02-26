@@ -13,7 +13,7 @@ usize = "14024"
 sha1sum = "4099ef47b7439a3739868ad2324dad83f8b63845"
 depends = "['libvlc>=3.0.20', 'libwayland-egl']"
 +++
-vlc Wayland EGL support"
+vlc Wayland EGL support
 
 {{< files text="show files" >}}* /usr/lib/vlc/plugins/video_output/libegl_wl_plugin.so
 {{< /files >}}

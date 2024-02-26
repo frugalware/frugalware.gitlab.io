@@ -14,7 +14,7 @@ sha1sum = "2962ae3a6c7ab3cc98b419addf2296c5cff73a83"
 depends = "['kauth>=5.115.0', 'kcodecs>=5.115.0', 'kconfig>=5.115.0', 'kguiaddons>=5.115.0', 'ki18n>=5.115.0', 'kwidgetsaddons>=5.115.0', 'qt5-x11extras>=5.15.12']"
 reverse_depends = "['kaccounts-integration', 'kdeplasma-addons5', 'kgamma5', 'kiconthemes', 'libkmahjongg', 'libksysguard5', 'plasma-sdk', 'qqc2-desktop-style', 'sweeper', 'user-kcm']"
 +++
-Widgets for KConfig."
+Widgets for KConfig.
 
 {{< files text="show files" >}}* /usr/bin/preparetips5
 * /usr/include/KF5/KConfigWidgets/KCModule

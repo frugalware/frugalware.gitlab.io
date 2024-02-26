@@ -14,7 +14,7 @@ sha1sum = "4aba989837c44045dbf396a24c101e4b90a68329"
 depends = "['openssl>=3.1.0']"
 reverse_depends = "['avahi', 'faifa', 'firefox', 'libreswan', 'memcached', 'nfs-utils', 'openpmix', 'qt5-webengine', 'qt6-webengine', 'seafile', 'thunderbird', 'tmux', 'tor', 'transmission-cli', 'unbound']"
 +++
-Provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached"
+Provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached
 
 {{< files text="show files" >}}* /usr/bin/event_rpcgen.py
 * /usr/include/evdns.h

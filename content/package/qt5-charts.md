@@ -14,7 +14,7 @@ sha1sum = "a8a80baf18d995a9aa0511f994096dd2b096393a"
 depends = "['qt5-declarative>=5.15.12']"
 reverse_depends = "['clight-gui', 'kuserfeedback', 'kweather', 'radeon-profile', 'stellarium']"
 +++
-The Qt5 toolkit, qtcharts"
+The Qt5 toolkit, qtcharts
 
 {{< files text="show files" >}}* /usr/include/qt5/QtCharts/5.15.12/QtCharts/private/abstractbarchartitem_p.h
 * /usr/include/qt5/QtCharts/5.15.12/QtCharts/private/abstractchartlayout_p.h

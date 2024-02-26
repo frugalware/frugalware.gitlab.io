@@ -14,7 +14,7 @@ sha1sum = "49d1899ba0cada63244a38ac2f2ea3a5d4d14c14"
 depends = "['dbus>=1.10.10-4']"
 reverse_depends = "['ghostscript', 'gutenprint']"
 +++
-Foomatic is a system for using free software printer drivers with common spoolers on Unix"
+Foomatic is a system for using free software printer drivers with common spoolers on Unix
 
 {{< files text="show files" >}}* /etc/foomatic/filter.conf
 * /etc/foomatic/filter.conf.sample

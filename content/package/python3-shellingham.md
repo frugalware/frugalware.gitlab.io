@@ -14,7 +14,7 @@ sha1sum = "3ee7452e7d14bf43861c7059b3de919ced191c82"
 depends = "['python3']"
 reverse_depends = "['python3-poetry']"
 +++
-Detect what shell the current Python executable is running in"
+Detect what shell the current Python executable is running in
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/shellingham-1.5.4.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/shellingham-1.5.4.dist-info/METADATA

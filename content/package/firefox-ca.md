@@ -14,7 +14,7 @@ sha1sum = "6b85257e1b794e24c5c37c9b14c88d69cc773645"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Catalan language support for Firefox"
+Catalan language support for Firefox
 
 {{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-ca@firefox.mozilla.org.xpi
 {{< /files >}}

@@ -13,7 +13,7 @@ usize = "3961941"
 sha1sum = "02f45169a910cf117091b84c5a58d1c715569c34"
 depends = "['haskell-syb']"
 +++
-This library provides a parser and pretty printer for converting between Haskell values and JSON."
+This library provides a parser and pretty printer for converting between Haskell values and JSON.
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/json-0.11/libHSjson-0.11-22QoS7vWhQiUsaRECvh1I.a
 * /usr/lib/ghc-9.8.1/site-local/json-0.11/Text/JSON.dyn_hi

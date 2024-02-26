@@ -13,7 +13,7 @@ usize = "1350192"
 sha1sum = "172e43515a8c6c15483e48f5b079dee4142296c1"
 depends = "['libnvme', 'libsystemd', 'libuuid']"
 +++
-NVMe management command line interface."
+NVMe management command line interface.
 
 {{< files text="show files" >}}* /etc/nvme/discovery.conf
 * /usr/bin/nvme

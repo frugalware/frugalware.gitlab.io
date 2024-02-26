@@ -14,7 +14,7 @@ sha1sum = "d8867144f627e3f15d6f03a30b0a7613a7a7fb3c"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-http-message']"
 +++
-Guess media type for a file or a URL."
+Guess media type for a file or a URL.
 
 {{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/LWP/media.types
 * /usr/lib/perl5/site_perl/current/LWP/MediaTypes.pm

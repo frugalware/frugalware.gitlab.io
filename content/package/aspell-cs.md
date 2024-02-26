@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = ""
 depends = "['aspell']"
 +++
-GNU Aspell Czech Word List Package"
+GNU Aspell Czech Word List Package
 
 {{< files text="show files" >}}* usr/lib/aspell-0.60/cs.dat
 * usr/lib/aspell-0.60/cs.multi

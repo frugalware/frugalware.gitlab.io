@@ -13,7 +13,7 @@ usize = "1372873"
 sha1sum = "16f5cd04d5249ea39b77282d18d06340af5315e7"
 depends = "['gtk+3', 'libgc', 'mariadb-libs', 'mbedtls', 'sqlite3']"
 +++
-High-level and dynamically typed programming language"
+High-level and dynamically typed programming language
 
 {{< files text="show files" >}}* /usr/bin/neko
 * /usr/bin/nekoc

@@ -13,7 +13,7 @@ usize = "21083749"
 sha1sum = "165acebaa7f06b6d2187adfa494989d6c521e515"
 depends = "['glibc>=2.35']"
 +++
-Sound Open Firmware"
+Sound Open Firmware
 
 {{< files text="show files" >}}* /usr/bin/mtrace-reader.py
 * /usr/bin/sof-ctl

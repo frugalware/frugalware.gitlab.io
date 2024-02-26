@@ -14,7 +14,7 @@ sha1sum = "846d2f53315375eaba6b625a3ee853983610db16"
 depends = "['gpgme', 'libbsd', 'libical', 'libpq', 'openvas-libraries>=22.7.3', 'postgresql']"
 reverse_depends = "['openvas-cli']"
 +++
-OpenVAS manager."
+OpenVAS manager.
 
 {{< files text="show files" >}}* /etc/gvm/gvmd_log.conf
 * /etc/gvm/pwpolicy.conf

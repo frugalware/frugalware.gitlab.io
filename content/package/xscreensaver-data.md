@@ -14,7 +14,7 @@ sha1sum = "52ea2211d13757b240e8aaea3d14576ab7c1a5e9"
 depends = "['gdk-pixbuf2>=2.42.0', 'libglu', 'libxcrypt', 'libxft']"
 reverse_depends = "['xscreensaver']"
 +++
-Screensavers for Xscreensaver"
+Screensavers for Xscreensaver
 
 {{< files text="show files" >}}* /usr/lib/xscreensaver/abstractile
 * /usr/lib/xscreensaver/anemone

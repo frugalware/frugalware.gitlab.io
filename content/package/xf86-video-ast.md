@@ -14,7 +14,7 @@ sha1sum = "a07cdbde7d8001ba6a5268b573754b26181a9a52"
 depends = "['xorg-server>=1.20.4-3']"
 license = "GPL2"
 +++
-X.Org video driver for ast cards"
+X.Org video driver for ast cards
 
 {{< files text="show files" >}}* /usr/lib/xorg/modules/drivers/ast_drv.so
 * /usr/share/doc/xf86-video-ast-1.1.6/ChangeLog

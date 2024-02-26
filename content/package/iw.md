@@ -14,7 +14,7 @@ sha1sum = "3d5512348f9239dda7d8f5284ef0c13fc07c3f62"
 depends = "['libnl>=3.4.0-2']"
 reverse_depends = "['aircrack-ng']"
 +++
-iw is a tool for nl80211."
+iw is a tool for nl80211.
 
 {{< files text="show files" >}}* /usr/bin/iw
 * /usr/share/doc/iw-6.7/COPYING

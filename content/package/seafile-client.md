@@ -13,7 +13,7 @@ usize = "4320639"
 sha1sum = "06992bd5a3f80670423a3279bdc960f246480566"
 depends = "['jansson', 'libseafile>=9.0.4', 'qt6-5compat', 'qt6-base', 'qt6-webengine']"
 +++
-Seafile desktop client."
+Seafile desktop client.
 
 {{< files text="show files" >}}* /usr/bin/seafile-applet
 * /usr/share/applications/seafile.desktop

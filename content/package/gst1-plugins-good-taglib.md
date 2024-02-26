@@ -13,7 +13,7 @@ usize = "51336"
 sha1sum = "84daf0c86605f3b5579ce758484156be92cf1966"
 depends = "['gst1-plugins-base>=1.22.10', 'gst1-plugins-good>=1.22.10', 'libffi>=3.2.1-2', 'taglib>=2.0']"
 +++
-GStreamer taglib plugin (Good)."
+GStreamer taglib plugin (Good).
 
 {{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgsttaglib.so
 {{< /files >}}

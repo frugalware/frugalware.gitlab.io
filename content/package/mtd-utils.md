@@ -14,7 +14,7 @@ sha1sum = "837cacb8943ab7e494b590819b3d6d6a6ac38b18"
 depends = "['libuuid', 'lzo', 'openssl>=3.1.0', 'zlib>=1.2.12', 'zstd']"
 reverse_depends = "['binwalk']"
 +++
-Utilities for dealing with MTD (flash) devices"
+Utilities for dealing with MTD (flash) devices
 
 {{< files text="show files" >}}* /usr/bin/docfdisk
 * /usr/bin/doc_loadbios

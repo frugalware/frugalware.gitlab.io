@@ -13,7 +13,7 @@ usize = "34780036"
 sha1sum = "8b5b27e37aa3c6818174e00699ac88422da46e85"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Slovak support in LibreOffice"
+Installs Slovak support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/help/sk/default.css
 * /usr/lib/libreoffice/help/sk/err.html

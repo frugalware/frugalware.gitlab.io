@@ -14,7 +14,7 @@ sha1sum = "55a3964251f0536eafd5ed537d643c84827cb20c"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-text-conversions']"
 +++
-RFC 4648-compliant Base16 encodings for ByteStrings"
+RFC 4648-compliant Base16 encodings for ByteStrings
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/base16-bytestring-1.0.2.0/Data/ByteString/Base16.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/base16-bytestring-1.0.2.0/Data/ByteString/Base16.hi

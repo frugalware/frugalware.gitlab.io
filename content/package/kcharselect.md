@@ -13,7 +13,7 @@ usize = "780429"
 sha1sum = "396f39568b53673ee93d180c009f63cb0bc77fc5"
 depends = "['kbookmarks>=5.115.0', 'kxmlgui>=5.115.0']"
 +++
-Character selector."
+Character selector.
 
 {{< files text="show files" >}}* /usr/bin/kcharselect
 * /usr/share/applications/org.kde.kcharselect.desktop

@@ -14,7 +14,7 @@ sha1sum = "541e9471f0cb922d01bc80b09429f103f1a60446"
 depends = "['glibc']"
 reverse_depends = "['libiio']"
 +++
-A minimal library that provides OS abstraction when interfacing serial ports"
+A minimal library that provides OS abstraction when interfacing serial ports
 
 {{< files text="show files" >}}* /usr/include/libserialport.h
 * /usr/lib/libserialport.so

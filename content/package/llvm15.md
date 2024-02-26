@@ -14,7 +14,7 @@ sha1sum = "20b93946cf8ec222f8c3d0c835f70d4ec5bd81e1"
 depends = "['libstdc++>=13.2.0', 'python3']"
 reverse_depends = "['ghc']"
 +++
-Low Level Virtual Machine (Compiler , Tools and Libs) Version 15"
+Low Level Virtual Machine (Compiler , Tools and Libs) Version 15
 
 {{< files text="show files" >}}* /usr/lib/llvm15/analyze-c++
 * /usr/lib/llvm15/analyze-cc

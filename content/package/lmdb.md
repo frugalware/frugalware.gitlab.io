@@ -14,7 +14,7 @@ sha1sum = "3e117e01830bb4914bea7019227c3e87b829e707"
 depends = "['glibc>=2.34']"
 reverse_depends = "['baloo5', 'libsmbclient']"
 +++
-Symas Lightning Memory-Mapped Database"
+Symas Lightning Memory-Mapped Database
 
 {{< files text="show files" >}}* /usr/bin/mdb_copy
 * /usr/bin/mdb_dump

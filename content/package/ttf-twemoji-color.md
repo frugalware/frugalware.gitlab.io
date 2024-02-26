@@ -13,7 +13,7 @@ usize = "14491411"
 sha1sum = "2d0570718deed76bd7696fca9dcfb414d8e454ad"
 depends = "['fontconfig', 'mkfontscale', 'ttf-bitstream-vera']"
 +++
-A color and B&W emoji SVG-in-OpenType font with support for ZWJ, skin tone modifiers and country flags."
+A color and B&W emoji SVG-in-OpenType font with support for ZWJ, skin tone modifiers and country flags.
 
 {{< files text="show files" >}}* /etc/fonts/conf.avail/46-twemoji-color.conf
 * /etc/fonts/conf.d/46-twemoji-color.conf

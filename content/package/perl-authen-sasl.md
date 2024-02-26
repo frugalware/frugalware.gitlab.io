@@ -14,7 +14,7 @@ sha1sum = "20b2f5e606a1ccbd814af4626089c016d6b4770e"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['git']"
 +++
-SASL Authentication framework"
+SASL Authentication framework
 
 {{< files text="show files" >}}* /usr/lib/perl5/site_perl/Authen/SASL.pm
 * /usr/lib/perl5/site_perl/Authen/SASL.pod

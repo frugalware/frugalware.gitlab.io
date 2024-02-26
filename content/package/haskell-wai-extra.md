@@ -14,7 +14,7 @@ sha1sum = "726bf6dd37bec3e31e8370c96c8f85378678cc86"
 depends = "['haskell-aeson', 'haskell-ansi-terminal', 'haskell-base64-bytestring', 'haskell-cookie', 'haskell-hunit', 'haskell-resourcet', 'haskell-wai-logger', 'haskell-warp']"
 reverse_depends = "['haskell-wai-app-static']"
 +++
-Provides some basic WAI handlers and middleware"
+Provides some basic WAI handlers and middleware
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/wai-extra-3.1.13.0/libHSwai-extra-3.1.13.0-7XyqZX1D0P6Dqr0jyu4iK9.a
 * /usr/lib/ghc-9.8.1/site-local/wai-extra-3.1.13.0/Network/Wai/EventSource.dyn_hi

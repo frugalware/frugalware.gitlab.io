@@ -14,7 +14,7 @@ sha1sum = "364d9174181d1c667487140b6919d47056fcdcba"
 depends = "['python3>=3.11']"
 reverse_depends = "['python3-networkx']"
 +++
-Simplify the usage of python decorators for the average programmer"
+Simplify the usage of python decorators for the average programmer
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/decorator-5.1.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/decorator-5.1.1-py3.12.egg-info/not-zip-safe

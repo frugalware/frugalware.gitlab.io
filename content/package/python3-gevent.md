@@ -14,7 +14,7 @@ sha1sum = "b862474ea365ba9abb1f94911baffac77ed2b07c"
 depends = "['c-ares', 'python3>=3.10', 'python3-greenlet']"
 reverse_depends = "['python3-gunicorn']"
 +++
-Network library that uses greenlet and libev for easy and scalable concurrency"
+Network library that uses greenlet and libev for easy and scalable concurrency
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/gevent-23.9.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/gevent-23.9.1-py3.12.egg-info/entry_points.txt

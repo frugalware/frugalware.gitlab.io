@@ -14,7 +14,7 @@ sha1sum = "6cc2335988408971aa2079e6aaf6005c5ffe2bea"
 depends = "['icu4c>=74.1', 'libboost>=1.82.0', 'liblangtag', 'libwpd>=0.10.1-5']"
 reverse_depends = "['libreoffice']"
 +++
-A library for import of non-HTML reflowable e-book formats"
+A library for import of non-HTML reflowable e-book formats
 
 {{< files text="show files" >}}* /usr/bin/ebook2html
 * /usr/bin/ebook2raw

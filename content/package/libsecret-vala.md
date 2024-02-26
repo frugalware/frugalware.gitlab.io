@@ -14,7 +14,7 @@ sha1sum = "3bdee205c48e03e27940727777a1ad13cd1a1f97"
 depends = "['vala>=0.40.0']"
 reverse_depends = "['seahorse']"
 +++
-Libsecret Vala Bindings"
+Libsecret Vala Bindings
 
 {{< files text="show files" >}}* /usr/share/vala/vapi/libsecret-1.deps
 * /usr/share/vala/vapi/libsecret-1.vapi

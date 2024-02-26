@@ -15,7 +15,7 @@ depends = "['glibc>=2.27-2']"
 reverse_depends = "['hw-probe', 'virtualbox']"
 license = "iASL"
 +++
-Intel ACPI Source Language (ASL) compiler"
+Intel ACPI Source Language (ASL) compiler
 
 {{< files text="show files" >}}* /usr/bin/acpibin
 * /usr/bin/acpidump

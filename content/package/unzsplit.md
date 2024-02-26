@@ -13,7 +13,7 @@ usize = "137920"
 sha1sum = "f905c99e5ddf20ec2ad43cb81b2b75cf7a921078"
 depends = "['zsplit']"
 +++
-Restores Images of blockdevices made with zsplit."
+Restores Images of blockdevices made with zsplit.
 
 {{< files text="show files" >}}* /usr/bin/unzsplit
 * /usr/share/doc/unzsplit-1.2.0/AUTHORS

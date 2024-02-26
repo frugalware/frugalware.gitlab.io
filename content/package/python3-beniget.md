@@ -14,7 +14,7 @@ sha1sum = "89841f3b2aed32ecf412ff22a4e70f47cdb59966"
 depends = "['python3-gast']"
 reverse_depends = "['python3-pythran']"
 +++
-A static analyzer for Python code"
+A static analyzer for Python code
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/beniget-0.4.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/beniget-0.4.1-py3.12.egg-info/PKG-INFO

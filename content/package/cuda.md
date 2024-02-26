@@ -14,7 +14,7 @@ sha1sum = "b2a0cc9198345b24fac0b3e587d029412a097763"
 depends = "['nvidia', 'python3']"
 reverse_depends = "['cuda-tools']"
 +++
-NVIDIA's GPU programming toolkit"
+NVIDIA's GPU programming toolkit
 
 {{< files text="show files" >}}* /etc/ld.so.conf.d/cuda.conf
 * /etc/profile.d/cuda.sh

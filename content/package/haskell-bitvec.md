@@ -14,7 +14,7 @@ sha1sum = "4d008761339dfb3b9394df20cf7dbd1734ea20c8"
 depends = "['haskell-vector']"
 reverse_depends = "['haskell-vector-algorithms']"
 +++
-Space-efficient bit vectors"
+Space-efficient bit vectors
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/bitvec-1.1.5.0/Data/Bit.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/bitvec-1.1.5.0/Data/Bit.hi

@@ -13,7 +13,7 @@ usize = "601457"
 sha1sum = "8be30691bc1d4b12e69fabab0d590ee1e1a9ca28"
 depends = "['libsamplerate', 'qt5-base>=5.15.10']"
 +++
-A collection of libraries to help you integrate Last.fm services into your rich desktop software."
+A collection of libraries to help you integrate Last.fm services into your rich desktop software.
 
 {{< files text="show files" >}}* /usr/include/lastfm5/AbstractType.h
 * /usr/include/lastfm5/Album.h

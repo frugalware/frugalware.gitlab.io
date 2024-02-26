@@ -13,7 +13,7 @@ usize = "1330600"
 sha1sum = "93c99524760908536868819c5bed5935dc15d63a"
 depends = "['falkon', 'python3']"
 +++
-Python Plugins for Falkon"
+Python Plugins for Falkon
 
 {{< files text="show files" >}}* /usr/lib/qt5/plugins/falkon/AutoScroll.so
 * /usr/lib/qt5/plugins/falkon/FlashCookieManager.so

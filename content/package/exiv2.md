@@ -14,7 +14,7 @@ sha1sum = "c33324dfa535ce93089a8b7442c9bccd1220f18b"
 depends = "['curl>=7.50.3-2', 'expat>=2.1.0-6', 'inih', 'libssh>=0.7.4-2', 'libstdc++>=11.2', 'zlib>=1.2.12']"
 reverse_depends = "['darktable', 'gwenview', 'kfilemetadata5', 'kio-extras', 'koko', 'krename', 'krita', 'libextractor', 'libgexiv2', 'libkexiv2', 'luminance-hdr', 'mlt', 'nomacs', 'nufraw']"
 +++
-Exiv2 is a C++ library and a command line utility to access image metadata."
+Exiv2 is a C++ library and a command line utility to access image metadata.
 
 {{< files text="show files" >}}* /usr/bin/exiv2
 * /usr/include/exiv2/asfvideo.hpp

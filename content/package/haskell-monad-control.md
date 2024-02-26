@@ -14,7 +14,7 @@ sha1sum = "b475fab285e315175fcad78ed8b401b811e84c4e"
 depends = "['haskell-transformers-base']"
 reverse_depends = "['haskell-servant-server']"
 +++
-Lift control operations, like exception catching, through monad transformers"
+Lift control operations, like exception catching, through monad transformers
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/monad-control-1.0.3.1/Control/Monad/Trans/Control.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/monad-control-1.0.3.1/Control/Monad/Trans/Control.hi

@@ -14,7 +14,7 @@ sha1sum = "2929f2abace99142bf8eb94678b7a245505b3398"
 depends = "['coreutils', 'diffutils', 'glibc>=2.36', 'grep>=2.5.3-4', 'libarchive>=3.3.2', 'lz4>=r131-8', 'nettle>=3.5.1', 'openssl>=3.0.7', 'python3>=3.12', 'shadow', 'util-linux>=2.28.2-2', 'xz>=5.2.2-4', 'zstd']"
 reverse_depends = "['etckeeper', 'pacman-tools']"
 +++
-A .tar.xz based package manager library (libpacman) and client (pacman-g2) with dependency support."
+A .tar.xz based package manager library (libpacman) and client (pacman-g2) with dependency support.
 
 {{< files text="show files" >}}* /etc/bash_completion.d/pacman-g2
 * /etc/makepkg.d/current-makepkg.conf

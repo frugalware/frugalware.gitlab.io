@@ -14,7 +14,7 @@ sha1sum = "53bbb87ce446c18eb37ab1b8ee25ae3d8d85ca15"
 depends = "['libxaw>=1.0.13-3']"
 license = "GPL2"
 +++
-X.Org xman application"
+X.Org xman application
 
 {{< files text="show files" >}}* /usr/bin/xman
 * /usr/share/doc/xman-1.1.6/ChangeLog

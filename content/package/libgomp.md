@@ -14,7 +14,7 @@ sha1sum = "88691b3507636bfe161103eae49efbcf730caa62"
 depends = "['glibc']"
 reverse_depends = "['alicevision', 'ceres-solver', 'cryfs', 'flann', 'imagemagick', 'inkscape', 'kirigami2', 'luminance-hdr', 'muparser', 'ngspice', 'nufraw', 'openblas', 'openucx', 'skanpage', 'sox', 'suitesparse']"
 +++
-GNU OpenMP runtime library"
+GNU OpenMP runtime library
 
 {{< files text="show files" >}}* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/omp.h
 * /usr/lib/libgomp.a

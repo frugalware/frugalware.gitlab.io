@@ -13,7 +13,7 @@ usize = "2467965"
 sha1sum = "cf5d3b7ff5649d693c9a817a3004e8cab1326a0d"
 depends = "['glib2>=2.60.3', 'gpgme>=1.6.0-3', 'zlib>=1.2.12']"
 +++
-Provides a core library and set of utilities for the creation and parsing of messages using MIME"
+Provides a core library and set of utilities for the creation and parsing of messages using MIME
 
 {{< files text="show files" >}}* /usr/include/gmime-2.6/gmime/gmime-certificate.h
 * /usr/include/gmime-2.6/gmime/gmime-charset.h

@@ -14,7 +14,7 @@ sha1sum = "361cc365076044bf76de8a86bba146f99339558c"
 depends = "['binutils>=2.41', 'glibc>=2.38', 'libisl', 'libmpc>=1.1.0-11', 'zlib>=1.2.11-11', 'zstd']"
 reverse_depends = "['gcc-g++', 'gcc-gfortran', 'gcc-objc', 'kernel-lts-source', 'libb64']"
 +++
-The GNU Compiler Collection"
+The GNU Compiler Collection
 
 {{< files text="show files" >}}* /usr/bin/c89
 * /usr/bin/c99

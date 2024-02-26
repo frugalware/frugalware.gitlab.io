@@ -14,7 +14,7 @@ sha1sum = "422792799eb75ad3efe91e51d170375ac98cc258"
 depends = "['libxmu>=1.1.2-3']"
 license = "GPL2"
 +++
-X.Org xgc application"
+X.Org xgc application
 
 {{< files text="show files" >}}* /usr/bin/xhost
 * /usr/share/doc/xhost-1.0.9/AUTHORS

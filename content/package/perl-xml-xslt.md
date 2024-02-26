@@ -14,7 +14,7 @@ sha1sum = "8274eccda0dcafea552dc7a79a3547f0ff6f5840"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['docbook2x']"
 +++
-A perl module for processing XSLT"
+A perl module for processing XSLT
 
 {{< files text="show files" >}}* /usr/bin/xslt-parser
 * /usr/lib/perl5/site_perl/current/XML/XSLT.pm

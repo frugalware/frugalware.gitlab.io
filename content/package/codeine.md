@@ -13,7 +13,7 @@ usize = "627814"
 sha1sum = "b19ff8b00c632b1be95f4c5d984b97e48cd6f02b"
 depends = "['xine-lib']"
 +++
-A simple video-player for KDE with a focus on ergonomics and usability"
+A simple video-player for KDE with a focus on ergonomics and usability
 
 {{< files text="show files" >}}* usr/bin/codeine
 * usr/lib/kde3/libcodeine.la

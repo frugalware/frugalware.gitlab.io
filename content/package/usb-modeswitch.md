@@ -13,7 +13,7 @@ usize = "113626"
 sha1sum = "1784a86749411f9f628e1b140e5f6f90b2ce5857"
 depends = "['libusb1', 'tcl', 'usb-modeswitch-data']"
 +++
-A mode switching tool for controlling 'flip flop' (multiple device) USB gear"
+A mode switching tool for controlling 'flip flop' (multiple device) USB gear
 
 {{< files text="show files" >}}* /etc/usb_modeswitch.conf
 * /usr/bin/usb_modeswitch

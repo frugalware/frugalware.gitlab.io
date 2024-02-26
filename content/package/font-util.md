@@ -15,7 +15,7 @@ depends = "[]"
 reverse_depends = "['otf-texgyre']"
 license = "GPL2"
 +++
-X.Org font utils"
+X.Org font utils
 
 {{< files text="show files" >}}* /usr/bin/bdftruncate
 * /usr/bin/ucs2any

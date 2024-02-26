@@ -13,7 +13,7 @@ usize = "22528"
 sha1sum = "75c137da3ce7fc738552a9c679607a80e65c0488"
 depends = "['mariadb-libs>=10.3.14', 'rsyslog>=8.2312.0']"
 +++
-MySQL support for rsyslog"
+MySQL support for rsyslog
 
 {{< files text="show files" >}}* /usr/lib/rsyslog/ommysql.so
 {{< /files >}}

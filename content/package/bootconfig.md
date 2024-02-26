@@ -13,7 +13,7 @@ usize = "22528"
 sha1sum = "ef9d7e452d8f7db076920acfec972d5df40f6757"
 depends = "[]"
 +++
-Kernel tool for appending cmd line options to a initrd."
+Kernel tool for appending cmd line options to a initrd.
 
 {{< files text="show files" >}}* /usr/bin/bootconfig
 {{< /files >}}

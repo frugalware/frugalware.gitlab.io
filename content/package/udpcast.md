@@ -13,7 +13,7 @@ usize = "102967"
 sha1sum = "3cb502cfe077aac8f0ab8801a9f9a019d969e911"
 depends = "['glibc']"
 +++
-A file transfer tool that can send data simultaneously to many destinations on a LAN"
+A file transfer tool that can send data simultaneously to many destinations on a LAN
 
 {{< files text="show files" >}}* /usr/bin/udp-receiver
 * /usr/bin/udp-sender

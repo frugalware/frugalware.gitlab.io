@@ -14,7 +14,7 @@ sha1sum = "c9166f103b5712a9db4126a9ab2ddcaee8f22c44"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-distributive', 'haskell-semigroupoids', 'haskell-time-compat', 'haskell-transformers-base', 'haskell-witherable']"
 +++
-Backwards-compatible orphan instances for base"
+Backwards-compatible orphan instances for base
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/base-orphans-0.9.1/Data/Orphans.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/base-orphans-0.9.1/Data/Orphans.hi

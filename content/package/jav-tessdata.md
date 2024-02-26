@@ -13,7 +13,7 @@ usize = "7387052"
 sha1sum = "629b066ac953d3c66d91d4c4824044d02f782343"
 depends = "['glibc']"
 +++
-Language specific files for tesseract lang jav"
+Language specific files for tesseract lang jav
 
 {{< files text="show files" >}}* /usr/share/tessdata/jav.traineddata
 {{< /files >}}

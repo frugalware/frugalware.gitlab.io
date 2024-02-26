@@ -13,7 +13,7 @@ usize = "299125"
 sha1sum = "ce57bc3e1661402915bdfc078ece4f98aa745f15"
 depends = "['python3-psutil']"
 +++
-Resource monitor that shows usage and stats for processor, memory, disks, network and processes"
+Resource monitor that shows usage and stats for processor, memory, disks, network and processes
 
 {{< files text="show files" >}}* /usr/bin/bpytop
 * /usr/share/bpytop/doc/README.md

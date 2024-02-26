@@ -13,7 +13,7 @@ usize = "397876"
 sha1sum = "b392f8f76d2cee0f37f454c1869c3541c5316273"
 depends = "['lib32-openssl>=3.1.0', 'lib32-zlib>=1.2.12']"
 +++
-libssh2 is a library implementing the SSH2 protocol as defined by Internet Drafts. ( 32bit )"
+libssh2 is a library implementing the SSH2 protocol as defined by Internet Drafts. ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/include/libssh2.h
 * /usr/i686-frugalware-linux/include/libssh2_publickey.h

@@ -13,7 +13,7 @@ usize = "1117003"
 sha1sum = "6a285b8417f2451a61ead3de03a098b2c5b02471"
 depends = "['xorg-server']"
 +++
-Helps desktop users to configure their synaptics touch pad that's commonly used in laptops."
+Helps desktop users to configure their synaptics touch pad that's commonly used in laptops.
 
 {{< files text="show files" >}}* usr/bin/syndock
 * usr/lib/kde3/kcm_ksynaptics.la

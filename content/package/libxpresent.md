@@ -14,7 +14,7 @@ sha1sum = "c3f7f54bb1a4c46de6da17536a2b022a10c90e97"
 depends = "['libx11>=1.6.5-2', 'libxext>=1.1.5-4', 'libxfixes>=5.0.2-2', 'libxrandr>=1.5.0-5']"
 license = "GPL2"
 +++
-Xlib-compatible API for the Present extension"
+Xlib-compatible API for the Present extension
 
 {{< files text="show files" >}}* /usr/include/X11/extensions/Xpresent.h
 * /usr/lib/libXpresent.so

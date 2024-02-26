@@ -14,7 +14,7 @@ sha1sum = "ffbcfc27d2fa1833254b3fe5b989b74d308c077e"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-module-install']"
 +++
-Read/Write YAML files with as little code as possible"
+Read/Write YAML files with as little code as possible
 
 {{< files text="show files" >}}* /usr/lib/perl5/site_perl/YAML/Tiny.pm
 * /usr/share/doc/perl-yaml-tiny-1.74/INSTALL

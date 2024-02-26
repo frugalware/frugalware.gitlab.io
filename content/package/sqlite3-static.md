@@ -13,7 +13,7 @@ usize = "6525464"
 sha1sum = "204bb4c74cb315465ae6250d3519ac7b98d3d9e3"
 depends = "[]"
 +++
-Static files for sqlite3"
+Static files for sqlite3
 
 {{< files text="show files" >}}* /usr/lib/libsqlite3.a
 {{< /files >}}

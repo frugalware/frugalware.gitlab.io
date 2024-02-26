@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "de0105e1f91826e0587f874b397e9f068f42cb33"
 depends = "['expat', 'libstdc++', 'libxi', 'libxmu']"
 +++
-Kasablanca is a KDE ftp client."
+Kasablanca is a KDE ftp client.
 
 {{< files text="show files" >}}* usr/bin/kasablanca
 * usr/share/applnk/Utilities/kasablanca.desktop

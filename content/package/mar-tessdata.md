@@ -13,7 +13,7 @@ usize = "3193203"
 sha1sum = "911799922aa8e6855ea149e5a6296a5f4cf63c1d"
 depends = "['glibc']"
 +++
-Language specific files for tesseract lang mar"
+Language specific files for tesseract lang mar
 
 {{< files text="show files" >}}* /usr/share/tessdata/mar.traineddata
 {{< /files >}}

@@ -13,7 +13,7 @@ usize = "1617061"
 sha1sum = "34701621562fd45ad4cafc56d036cdf58e7f01da"
 depends = "[]"
 +++
-Uzbek Localization for KDE."
+Uzbek Localization for KDE.
 
 {{< files text="show files" >}}* usr/share/locale/uz/charset
 * usr/share/locale/uz/entry.desktop

@@ -14,7 +14,7 @@ sha1sum = "28f35a9fe4b24f3348f9cc95bbd8dd37c23dd49c"
 depends = "['qt5-wayland>=5.15.12']"
 reverse_depends = "['kscreen5', 'kscreenlocker']"
 +++
-Qt component to allow applications to make use of the Wayland wl-layer-shell protocol"
+Qt component to allow applications to make use of the Wayland wl-layer-shell protocol
 
 {{< files text="show files" >}}* /usr/include/LayerShellQt/layershellqt_export.h
 * /usr/include/LayerShellQt/Shell

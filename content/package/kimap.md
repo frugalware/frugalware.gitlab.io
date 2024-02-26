@@ -14,7 +14,7 @@ sha1sum = "7526fde74a0807a86857051d6b1f7395abc4328f"
 depends = "['cyrus-sasl>=2.1.26-3', 'kio>=5.115.0', 'kmime>=23.08.5']"
 reverse_depends = "['kdepim-runtime', 'pimcommon']"
 +++
-C++ API for IMAP support."
+C++ API for IMAP support.
 
 {{< files text="show files" >}}* /usr/include/KPim5/KIMAP/kimap/Acl
 * /usr/include/KPim5/KIMAP/KIMAP/Acl

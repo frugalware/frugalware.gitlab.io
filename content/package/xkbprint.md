@@ -14,7 +14,7 @@ sha1sum = "7c0b3650f40cd78d03558d26665a89d1e4876016"
 depends = "['libxkbfile>=1.0.9-2']"
 license = "GPL2"
 +++
-X.Org xkbprint application"
+X.Org xkbprint application
 
 {{< files text="show files" >}}* /usr/bin/xkbprint
 * /usr/share/doc/xkbprint-1.0.6/ChangeLog

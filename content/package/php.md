@@ -14,7 +14,7 @@ sha1sum = "334e429db3665bc41664fb518ff0078662f3aa1b"
 depends = "['c-client>=2007f-2', 'curl>=7.19.0', 'freetype2>=2.3.1', 'gdbm>=1.15', 'libidn>=1.30', 'libjpeg-turbo', 'libmcrypt', 'libpng>=1.6.20', 'libpq>=8.4.0', 'libxml2', 'libxslt', 'mariadb-libs>=10.3.14', 'ncurses>=6.0-3', 'openssl>=3.1.0', 're2c', 'readline>=8.0', 'sqlite3', 'zlib>=1.2.12']"
 reverse_depends = "['adodb', 'kdev-php', 'phoronix-test-suite', 'php-cgi', 'php-embed', 'php-fpm', 'php-pear-db', 'phpbb-php5mod', 'phppgadmin', 'postfixadmin', 'xcache']"
 +++
-A widely-used general-purpose scripting language"
+A widely-used general-purpose scripting language
 
 {{< files text="show files" >}}* /etc/httpd/conf/modules.d/php.conf
 * /etc/pear.conf

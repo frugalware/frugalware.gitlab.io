@@ -13,7 +13,7 @@ usize = "7487044"
 sha1sum = "d383b650ae0b37e9ebc047dfba4b98ef6d26214c"
 depends = "[]"
 +++
-Static files for elfutils"
+Static files for elfutils
 
 {{< files text="show files" >}}* /usr/lib/libasm.a
 * /usr/lib/libdw.a

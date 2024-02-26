@@ -13,7 +13,7 @@ usize = "57394"
 sha1sum = "3b0614d9bae5915a6b1cd72d8e64ddd66f8b672d"
 depends = "['libaccounts-glib>=1.25', 'libsignon-glib>=2.1', 'telepathy-mission-control>=5.16.4']"
 +++
-A mission control plugin for Telepathy, integrating with libaccounts and libsignon"
+A mission control plugin for Telepathy, integrating with libaccounts and libsignon
 
 {{< files text="show files" >}}* /usr/lib/mission-control-plugins.0/mcp-account-manager-accounts-sso.so
 * /usr/share/doc/telepathy-accounts-signon-2.1/COPYING.LGPL

@@ -13,7 +13,7 @@ usize = "917669"
 sha1sum = "de1804081d4af46f356b38820e4cd27a78578356"
 depends = "['expat', 'jfsutils', 'libxmu', 'parted>=2.3', 'xfsprogs']"
 +++
-A Partition Magic clone written in C++ using qt toolkit"
+A Partition Magic clone written in C++ using qt toolkit
 
 {{< files text="show files" >}}* /usr/bin/qtparted
 * /usr/share/applications/qtparted.desktop

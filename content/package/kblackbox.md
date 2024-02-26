@@ -13,7 +13,7 @@ usize = "1929618"
 sha1sum = "222a9e8758cc46f09ab2e721054593a2af45779e"
 depends = "['libkdegames>=23.08.5', 'qt5-svg>=5.15.12']"
 +++
-A game of hide and seek played on a grid of boxes."
+A game of hide and seek played on a grid of boxes.
 
 {{< files text="show files" >}}* /usr/bin/kblackbox
 * /usr/share/applications/org.kde.kblackbox.desktop

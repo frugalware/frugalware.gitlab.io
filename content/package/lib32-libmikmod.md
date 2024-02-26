@@ -14,7 +14,7 @@ sha1sum = "9a0ab0e7e6eed9493e4161184da20028314f1d98"
 depends = "['lib32-libpulse>=9.0-2']"
 reverse_depends = "['lib32-sdl2_mixer']"
 +++
-A module sound player and library ( 32bit )"
+A module sound player and library ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/libmikmod-config
 * /usr/i686-frugalware-linux/include/mikmod.h

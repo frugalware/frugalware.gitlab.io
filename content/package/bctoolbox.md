@@ -14,7 +14,7 @@ sha1sum = "e0f677e56a4c9665e13007347b29328380bee19f"
 depends = "['cunit', 'mbedtls>=2.27.0']"
 reverse_depends = "['ortp']"
 +++
-A library written in C that allows you to create and run audio and video streams"
+A library written in C that allows you to create and run audio and video streams
 
 {{< files text="show files" >}}* /usr/include/bctoolbox/crypto.h
 * /usr/include/bctoolbox/list.h

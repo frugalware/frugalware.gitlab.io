@@ -14,7 +14,7 @@ sha1sum = "7e68bcf7f51bd9c6fbf6dad78c5bb3edcf100f82"
 depends = "['haskell-hslua-marshalling']"
 reverse_depends = "['haskell-hslua-objectorientation']"
 +++
-Type specifiers for Lua"
+Type specifiers for Lua
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hslua-typing-0.1.0/HsLua/Typing.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-typing-0.1.0/HsLua/Typing.hi

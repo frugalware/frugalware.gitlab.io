@@ -14,7 +14,7 @@ sha1sum = "7603dfa0db2077314b5e785a824bcef27d886dfb"
 depends = "['fftw>=3.3.5-2', 'glibc>=2.34', 'libsndfile>=1.0.27-2']"
 reverse_depends = "['alsa-plugin-samplerate', 'alsa-utils', 'blender', 'dssi', 'gtk-handbrake', 'jack2', 'k3b', 'kwave', 'liblastfm', 'mlt', 'mpd', 'pocketsphinx', 'rubberband', 'vlc-samplerate', 'zam-plugins']"
 +++
-Secret Rabbit Code"
+Secret Rabbit Code
 
 {{< files text="show files" >}}* /usr/bin/sndfile-resample
 * /usr/include/samplerate.h

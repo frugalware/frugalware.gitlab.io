@@ -14,7 +14,7 @@ sha1sum = "87c1de261732ae1ecc4cafa536e6dd0e200eba39"
 depends = "['python3>=3.10']"
 reverse_depends = "['pypolicyd-spf']"
 +++
-SPF (Sender Policy Framework) implemented in Python"
+SPF (Sender Policy Framework) implemented in Python
 
 {{< files text="show files" >}}* /usr/bin/spfquery.py
 * /usr/bin/type99.py

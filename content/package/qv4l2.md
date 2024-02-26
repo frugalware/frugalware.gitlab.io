@@ -13,7 +13,7 @@ usize = "587249"
 sha1sum = "5499cfcca5dfb146403b5533b6ddf0757dd34daa"
 depends = "['alsa-lib', 'qt5-base>=5.15.11', 'v4l-utils>=1.26.1']"
 +++
-Video 4 Linux Qt Application"
+Video 4 Linux Qt Application
 
 {{< files text="show files" >}}* /usr/bin/qv4l2
 * /usr/share/applications/qv4l2.desktop

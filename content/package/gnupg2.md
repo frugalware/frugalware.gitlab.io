@@ -14,7 +14,7 @@ sha1sum = "5fb6664697097b698f5d1983358d98606599880f"
 depends = "['libassuan>=2.5.1-2', 'libksba>=1.3.5-2', 'libsystemd>=231-22', 'libusb>=0.1.5-4', 'ncurses>=6.0-12', 'npth>=1.5-2', 'readline>=8.0', 'sqlite3>=3.9.2-4']"
 reverse_depends = "['kernel-initrd', 'kernel-lts-initrd', 'qca-gnupg']"
 +++
-GnuPG2 is the new modularized version of GnuPG supporting OpenPGP and S/MIME"
+GnuPG2 is the new modularized version of GnuPG supporting OpenPGP and S/MIME
 
 {{< files text="show files" >}}* /usr/bin/addgnupghome
 * /usr/bin/applygnupgdefaults

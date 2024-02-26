@@ -15,7 +15,7 @@ depends = "['libx11>=1.6.4-3']"
 reverse_depends = "['freerdp', 'gnome-desktop', 'libxkbui', 'oclock', 'plasma-desktop', 'pulsar', 'setxkbmap', 'vscode', 'xclock', 'xfd', 'xkbcomp', 'xkbevd', 'xkbprint', 'xterm', 'xwd']"
 license = "GPL2"
 +++
-The xkbfile Library"
+The xkbfile Library
 
 {{< files text="show files" >}}* /usr/include/X11/extensions/XKBbells.h
 * /usr/include/X11/extensions/XKBconfig.h

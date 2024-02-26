@@ -13,7 +13,7 @@ usize = "465944"
 sha1sum = "1da231b4a4350fcdf849cbc5a91cb123646a445b"
 depends = "['clang-libs>=17.0.6', 'python3']"
 +++
-clang python binding"
+clang python binding
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/clang/cindex.py
 * /usr/lib/python3.12/site-packages/clang/enumerations.py

@@ -14,7 +14,7 @@ sha1sum = "ab59a203284feffb32d26b032df69ee52e2fd7a4"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
-Modern Greek (1453-) language support for Thunderbird"
+Modern Greek (1453-) language support for Thunderbird
 
 {{< files text="show files" >}}* /usr/lib/thunderbird/extensions/langpack-el@thunderbird.mozilla.org.xpi
 {{< /files >}}

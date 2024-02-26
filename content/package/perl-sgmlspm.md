@@ -14,7 +14,7 @@ sha1sum = "6d9e0bfca2d2557c208e0138a7d69779f2f9a320"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['docbook2x', 'po4a']"
 +++
-class for postprocessing the output from the sgmls and nsgmls parsers."
+class for postprocessing the output from the sgmls and nsgmls parsers.
 
 {{< files text="show files" >}}* /usr/bin/sgmlspl
 * /usr/bin/site_perl/sgmlspl.pl

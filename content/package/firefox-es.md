@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "f45bdb7099c0161aec4406d8f53ddd57a58aa5fb"
 depends = "['firefox>=1.0.7']"
 +++
-Spanish language support for Firefox"
+Spanish language support for Firefox
 
 {{< files text="show files" >}}* usr/lib/firefox/chrome/es-ES.jar
 * usr/lib/firefox/chrome/rc.d/10_firefox-es.txt

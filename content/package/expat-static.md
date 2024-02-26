@@ -13,7 +13,7 @@ usize = "698866"
 sha1sum = "b3f24d238d3ea532da17d153d2a371491e62210f"
 depends = "[]"
 +++
-Static files for expat"
+Static files for expat
 
 {{< files text="show files" >}}* /usr/lib/libexpat.a
 {{< /files >}}

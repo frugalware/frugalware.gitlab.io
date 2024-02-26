@@ -13,7 +13,7 @@ usize = "404542"
 sha1sum = "8207c8bce837b169ed0150b292115450b09169a7"
 depends = "[]"
 +++
-The MirOS KornShell"
+The MirOS KornShell
 
 {{< files text="show files" >}}* /bin/mksh
 * /etc/mkshrc

@@ -14,7 +14,7 @@ sha1sum = "5f1e3fbdeb52eba14a55f81eaf990cf2792ab491"
 depends = "['glibc>=2.34']"
 reverse_depends = "['aide']"
 +++
-A uniform interface to a large number of hash algorithms."
+A uniform interface to a large number of hash algorithms.
 
 {{< files text="show files" >}}* /usr/include/mhash.h
 * /usr/include/mutils/mglobal.h

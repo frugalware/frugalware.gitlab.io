@@ -14,7 +14,7 @@ sha1sum = "c975faa5a29451e9174980d3cfedba88437c3e3f"
 depends = "[]"
 reverse_depends = "['lib32-ncurses', 'lib32-nettle']"
 +++
-GNU multiple precision arithmetic library ( 32bit )"
+GNU multiple precision arithmetic library ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/include/gmp.h
 * /usr/i686-frugalware-linux/include/gmpxx.h

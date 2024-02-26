@@ -14,7 +14,7 @@ sha1sum = "bfbe7562f070359126c8a9089cb614f187ce4fde"
 depends = "['libxi>=1.7.6-2']"
 license = "GPL2"
 +++
-set an X Input device as the main pointer"
+set an X Input device as the main pointer
 
 {{< files text="show files" >}}* /usr/bin/xsetpointer
 * /usr/share/doc/xsetpointer-1.0.1/ChangeLog

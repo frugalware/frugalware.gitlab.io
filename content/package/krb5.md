@@ -15,7 +15,7 @@ depends = "['e2fsprogs>=1.43.3-2', 'libkrb5>=1.21.2', 'openssl>=3.1.0']"
 reverse_depends = "['openconnect']"
 license = "licence"
 +++
-Kerberos: The Network Authentication Protocol"
+Kerberos: The Network Authentication Protocol
 
 {{< files text="show files" >}}* /usr/bin/gss-client
 * /usr/bin/gss-server

@@ -14,7 +14,7 @@ sha1sum = "8e7bc37a94e14b57e915f33063f6219a07306350"
 depends = "['glibc>=2.34']"
 reverse_depends = "['efl', 'enlightenment', 'libinput', 'libinput-debug-events', 'libmanette', 'libratbag', 'libwacom', 'python3-evdev', 'qt5-base', 'terminology', 'xf86-input-evdev', 'xf86-input-synaptics']"
 +++
-Wrapper library for evdev devices"
+Wrapper library for evdev devices
 
 {{< files text="show files" >}}* /usr/bin/libevdev-tweak-device
 * /usr/bin/mouse-dpi-tool

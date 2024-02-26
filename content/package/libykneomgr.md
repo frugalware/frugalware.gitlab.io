@@ -13,7 +13,7 @@ usize = "154216"
 sha1sum = "fa72e5421269d86e1b369f84d3a1ae0dccde3cbc"
 depends = "['curl', 'libusb', 'libzip', 'pcsc-lite']"
 +++
-Yubico YubiKey NEO Manager C Library"
+Yubico YubiKey NEO Manager C Library
 
 {{< files text="show files" >}}* /usr/bin/ykneomgr
 * /usr/include/ykneomgr/ykneomgr-types.h

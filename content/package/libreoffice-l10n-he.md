@@ -13,7 +13,7 @@ usize = "31192439"
 sha1sum = "b50899917ed2ce86542829531cbda8b0fb37e955"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Hebrew support in LibreOffice"
+Installs Hebrew support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/help/he/default.css
 * /usr/lib/libreoffice/help/he/err.html

@@ -13,7 +13,7 @@ usize = "47393251"
 sha1sum = "c962c6f62765507eefa33ffbdb09c3ee70cb2ff8"
 depends = "['openjre']"
 +++
-An interior design application"
+An interior design application
 
 {{< files text="show files" >}}* /usr/bin/sweethome3d
 * /usr/share/applications/sweethome3d.desktop

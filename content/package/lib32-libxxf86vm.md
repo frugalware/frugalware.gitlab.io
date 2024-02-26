@@ -14,7 +14,7 @@ sha1sum = "f74edbe4fcb2fea85e05ca3b9755cbc9cf6d74a9"
 depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxext>=1.3.3-3']"
 reverse_depends = "['lib32-libepoxy', 'lib32-libgl', 'lib32-mesa-libglx']"
 +++
-X.Org Xxf86vm library ( 32bit )"
+X.Org Xxf86vm library ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/xf86vmode.h
 * /usr/lib32/libXxf86vm.so

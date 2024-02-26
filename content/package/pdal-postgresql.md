@@ -13,7 +13,7 @@ usize = "216088"
 sha1sum = "c0ee484e8358edba75d8211eb5a83bdfafb79fc9"
 depends = "['libpq', 'libxml2', 'pdal']"
 +++
-PDAL postgresql plugin"
+PDAL postgresql plugin
 
 {{< files text="show files" >}}* /usr/lib/libpdal_plugin_reader_pgpointcloud.so
 * /usr/lib/libpdal_plugin_reader_pgpointcloud.so.16

@@ -13,7 +13,7 @@ usize = "6548484"
 sha1sum = "d05e22c89f0cf692a72ca2715e474ba8f3ebeb9f"
 depends = "[]"
 +++
-GraphicsMagick Documentation"
+GraphicsMagick Documentation
 
 {{< files text="show files" >}}* /usr/share/doc/graphicsmagick-1.3.40/www/animate.html
 * /usr/share/doc/graphicsmagick-1.3.40/www/api/animate.html

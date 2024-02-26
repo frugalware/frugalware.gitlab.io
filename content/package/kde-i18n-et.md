@@ -13,7 +13,7 @@ usize = "23721556"
 sha1sum = "9e9ca02d334562e7b9bb07b479ee459e0c9ee9c5"
 depends = "[]"
 +++
-Estonian Localization for KDE."
+Estonian Localization for KDE.
 
 {{< files text="show files" >}}* usr/share/apps/kanagram/data/et/arvutid.kvtml
 * usr/share/apps/kanagram/data/et/elukutsed.kvtml

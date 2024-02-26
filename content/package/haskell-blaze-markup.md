@@ -14,7 +14,7 @@ sha1sum = "72ee0f1f2ceba479f567919596fbd05bb0c9d7c3"
 depends = "['haskell-blaze-builder']"
 reverse_depends = "['haskell-blaze-html']"
 +++
-A blazingly fast markup combinator library for Haskell"
+A blazingly fast markup combinator library for Haskell
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/blaze-markup-0.8.3.0/libHSblaze-markup-0.8.3.0-FevMNeaUMKRAsG1RQeBFnh.a
 * /usr/lib/ghc-9.8.1/site-local/blaze-markup-0.8.3.0/Text/Blaze.dyn_hi

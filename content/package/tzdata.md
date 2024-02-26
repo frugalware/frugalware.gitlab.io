@@ -14,7 +14,7 @@ sha1sum = "3a907b0f87ea37df1d2ca256d6d6b3a8a51f0248"
 depends = "[]"
 reverse_depends = "['glibc']"
 +++
-Sources for time zone and daylight saving time data"
+Sources for time zone and daylight saving time data
 
 {{< files text="show files" >}}* /usr/bin/tzselect
 * /usr/bin/zdump

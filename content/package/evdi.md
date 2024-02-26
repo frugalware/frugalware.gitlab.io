@@ -14,7 +14,7 @@ sha1sum = "60ca4536110b713920a763034fbfa1c9c0805b5a"
 depends = "['kernel=6.7.6-1', 'libdrm', 'python3>=3.12']"
 reverse_depends = "['displaylink']"
 +++
-Extensible Virtual Display Interface"
+Extensible Virtual Display Interface
 
 {{< files text="show files" >}}* /usr/lib/libevdi.so
 * /usr/lib/libevdi.so.1

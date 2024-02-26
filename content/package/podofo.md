@@ -14,7 +14,7 @@ sha1sum = "1d6885bdddcf89169c7955406ab14441d0a8c465"
 depends = "['fontconfig>=2.12.1-2', 'freetype2>=2.7', 'libidn>=1.35', 'libjpeg-turbo', 'libpng>=1.6.25', 'libtiff', 'libunistring>=1.1', 'lua>=5.4', 'openssl>=3.1.0', 'zlib>=1.2.8-8']"
 reverse_depends = "['calibre', 'krename']"
 +++
-PoDoFo is a library to work with the PDF file format."
+PoDoFo is a library to work with the PDF file format.
 
 {{< files text="show files" >}}* /usr/include/podofo/auxiliary/basecompat.h
 * /usr/include/podofo/auxiliary/basedefs.h

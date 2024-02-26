@@ -14,7 +14,7 @@ sha1sum = "c18ca787e45bd2406af0f0f6c2ed75b0a58f5192"
 depends = "['psmisc>=22.21-5']"
 reverse_depends = "['etckeeper', 'squid']"
 +++
-Dillon's Cron daemon"
+Dillon's Cron daemon
 
 {{< files text="show files" >}}* /usr/bin/crond
 * /usr/bin/crontab

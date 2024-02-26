@@ -13,7 +13,7 @@ usize = "8758645"
 sha1sum = "4e60335ecf58027cb884685eb7beb117b00b1a9e"
 depends = "[]"
 +++
-Qt5 declarative static libs."
+Qt5 declarative static libs.
 
 {{< files text="show files" >}}* /usr/lib/libQt5PacketProtocol.a
 * /usr/lib/libQt5PacketProtocol.la

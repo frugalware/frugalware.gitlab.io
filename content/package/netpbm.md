@@ -14,7 +14,7 @@ sha1sum = "8dd75c8352adceb23b2591b64da3ae1093718931"
 depends = "['icu4c>=74.1', 'libjpeg-turbo', 'libpng', 'libtiff', 'libx11', 'libxml2']"
 reverse_depends = "['latex2html']"
 +++
-A toolkit for manipulation of graphic images"
+A toolkit for manipulation of graphic images
 
 {{< files text="show files" >}}* /usr/bin/411toppm
 * /usr/bin/anytopnm

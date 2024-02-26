@@ -13,7 +13,7 @@ usize = "5108754"
 sha1sum = "e97cac235b3bca5da04623c1de429a5560ae8f0e"
 depends = "['cmark>=0.31.0', 'kio', 'kirigami-addons', 'kitemmodels', 'kquickimageeditor', 'libquotient', 'qqc2-desktop-style', 'qt5-quickcontrols2', 'syntax-highlighting']"
 +++
-A client for matrix, the decentralized communication protocol"
+A client for matrix, the decentralized communication protocol
 
 {{< files text="show files" >}}* /usr/bin/neochat
 * /usr/share/applications/org.kde.neochat.desktop

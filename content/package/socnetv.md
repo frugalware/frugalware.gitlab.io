@@ -13,7 +13,7 @@ usize = "3385256"
 sha1sum = "4575abd6730cd4183efc1a75a1cab58251232984"
 depends = "['qt6-5compat', 'qt6-charts', 'qt6-svg']"
 +++
-Social Networks Analysis and Visualisation"
+Social Networks Analysis and Visualisation
 
 {{< files text="show files" >}}* /usr/bin/socnetv
 * /usr/share/applications/socnetv.desktop

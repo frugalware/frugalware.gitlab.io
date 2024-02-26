@@ -13,7 +13,7 @@ usize = "27128706"
 sha1sum = "d791daa1474bda733da0dd342d5075822c2d9faf"
 depends = "['libstdc++', 'ncurses']"
 +++
-Speech tools for Festival Text to Speech engine"
+Speech tools for Festival Text to Speech engine
 
 {{< files text="show files" >}}* /usr/bin/align
 * /usr/bin/bcat

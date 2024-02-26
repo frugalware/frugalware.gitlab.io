@@ -14,7 +14,7 @@ sha1sum = "e29ed5eb85744e9773b0fd6fca3ae738ca158ae0"
 depends = "[]"
 license = "Apache"
 +++
-HttpCore is a set of low level HTTP transport components that can be used to build custom client and server side HTTP services with a minimal footprint."
+HttpCore is a set of low level HTTP transport components that can be used to build custom client and server side HTTP services with a minimal footprint.
 
 {{< files text="show files" >}}* /usr/share/doc/httpcomponents-core-5.1.4/README.md
 * /usr/share/doc/httpcomponents-core-5.1.4/README.txt

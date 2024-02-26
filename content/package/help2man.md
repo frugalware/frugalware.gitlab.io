@@ -13,7 +13,7 @@ usize = "456596"
 sha1sum = "a3f197c048308dd35be1cc61d221d88611d98604"
 depends = "['perl-gettext>=1.07-4']"
 +++
-A script to create simple man pages from the --help and --version output of programs."
+A script to create simple man pages from the --help and --version output of programs.
 
 {{< files text="show files" >}}* /usr/bin/help2man
 * /usr/lib/help2man/bindtextdomain.so

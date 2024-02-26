@@ -13,7 +13,7 @@ usize = "118379"
 sha1sum = "d46cd66054ad8a98bb664aec20ec320a6b7588c3"
 depends = "['lzo', 'openssl>=3.1.0', 'zlib>=1.2.12']"
 +++
-The easiest way to create Virtual Tunnels over TCP/IP networks"
+The easiest way to create Virtual Tunnels over TCP/IP networks
 
 {{< files text="show files" >}}* /etc/tmpfiles.d/vtun.conf
 * /etc/vtun/vtund-start.conf

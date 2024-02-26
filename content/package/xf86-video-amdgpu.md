@@ -14,7 +14,7 @@ sha1sum = "c58cc6d4247e813864939aa8fecc2e6401add025"
 depends = "['libgbm>=11.1.0-2', 'libudev>=242', 'xorg-server>=1.20.4-3']"
 license = "GPL2"
 +++
-X.Org driver for newer ATI cards"
+X.Org driver for newer ATI cards
 
 {{< files text="show files" >}}* /etc/profile.d/amdgpu-mesa.sh
 * /usr/lib/xorg/modules/drivers/amdgpu_drv.so

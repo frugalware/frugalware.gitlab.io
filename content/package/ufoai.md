@@ -13,6 +13,6 @@ usize = "0"
 sha1sum = ""
 depends = "['curl>=7.46.0-3', 'libglu>=9.0.0-2', 'libjpeg-turbo', 'libpng>=1.6.20', 'libtheora>=1.1.1-4', 'sdl_mixer>=1.2.12-2', 'sdl_ttf>=2.0.11-2', 'xvidcore>=1.3.4-2']"
 +++
-UFO: ALIEN INVASION is a squad-based tactical strategy game in the tradition of the old X-COM PC games, but with a twist."
+UFO: ALIEN INVASION is a squad-based tactical strategy game in the tradition of the old X-COM PC games, but with a twist.
 
 {{< files text="show files" >}}{{< /files >}}

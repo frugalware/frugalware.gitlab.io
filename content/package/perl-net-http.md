@@ -14,7 +14,7 @@ sha1sum = "3f3400e694b4226b21ce45198860d206b876dcfa"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-libwww']"
 +++
-Low-level HTTP connection (client)"
+Low-level HTTP connection (client)
 
 {{< files text="show files" >}}* /usr/lib/perl5/site_perl/Net/HTTP.pm
 * /usr/lib/perl5/site_perl/Net/HTTP/Methods.pm

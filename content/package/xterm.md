@@ -13,7 +13,7 @@ usize = "1298900"
 sha1sum = "77d9d2b533167d56e320971518dd04b5374b9309"
 depends = "['desktop-file-utils', 'fontconfig', 'freetype2', 'libx11>=1.6.3-3', 'libxaw>=1.0.6', 'libxft>=2.1.13-2', 'libxinerama', 'libxkbfile>=1.0.5', 'libxmu>=1.0.4-2', 'libxpm', 'libxrender>=0.9.4-3', 'libxt>=1.0.5-2', 'ncurses>=6.0-3']"
 +++
-X terminal emulator"
+X terminal emulator
 
 {{< files text="show files" >}}* /usr/bin/koi8rxterm
 * /usr/bin/resize

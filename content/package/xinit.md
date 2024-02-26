@@ -15,7 +15,7 @@ depends = "['libx11>=1.6.3-4']"
 reverse_depends = "['i3']"
 license = "GPL2"
 +++
-X Window System initializer"
+X Window System initializer
 
 {{< files text="show files" >}}* /etc/X11/xinit/xinitrc
 * /usr/bin/startx

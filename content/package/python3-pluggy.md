@@ -14,7 +14,7 @@ sha1sum = "f0b941a22d591971533ea646b18918873d1941df"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-hatchling', 'python3-pytest']"
 +++
-Plugin and hook calling mechanisms for python"
+Plugin and hook calling mechanisms for python
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pluggy-1.3.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pluggy-1.3.0-py3.12.egg-info/PKG-INFO

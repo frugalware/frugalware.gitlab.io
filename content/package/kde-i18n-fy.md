@@ -13,7 +13,7 @@ usize = "3355157"
 sha1sum = "61a5743c641be2243e4e7ccb9162e8256b0ecb2e"
 depends = "[]"
 +++
-Frisian Localization for KDE."
+Frisian Localization for KDE.
 
 {{< files text="show files" >}}* usr/share/locale/fy/charset
 * usr/share/locale/fy/entry.desktop

@@ -14,7 +14,7 @@ sha1sum = "329be6b8e300ee731613caf86240e370b61d9e8e"
 depends = "['glibc']"
 reverse_depends = "['calibre', 'ghostwriter']"
 +++
-An open source JavaScript display engine for mathematics that works in all modern browsers"
+An open source JavaScript display engine for mathematics that works in all modern browsers
 
 {{< files text="show files" >}}* /usr/share/doc/mathjax-3.2.2/LICENSE
 * /usr/share/doc/mathjax-3.2.2/README.md

@@ -13,7 +13,7 @@ usize = "1531806"
 sha1sum = "b364f42c56ce30a327efb83fb8e8dc7ec6025882"
 depends = "['fontconfig', 'freetype2', 'mkfontscale']"
 +++
-Terminus font in TTF"
+Terminus font in TTF
 
 {{< files text="show files" >}}* /usr/share/doc/terminus-font-ttf-4.49.3/COPYING
 * /usr/share/fonts/X11/TTF/TerminusTTF-4.49.3.ttf

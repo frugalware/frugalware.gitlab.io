@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = ""
 depends = "['gtk+2', 'libidl']"
 +++
-The Mozilla Web Browser"
+The Mozilla Web Browser
 
 {{< files text="show files" >}}* usr/bin/mozilla
 * usr/bin/mozilla-config

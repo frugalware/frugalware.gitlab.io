@@ -13,7 +13,7 @@ usize = "325588"
 sha1sum = "53caa156dc9a3dfda4921203e2d9bfe2f6abd021"
 depends = "['dialog', 'fetchmail>=6.4.38', 'python3-tk>=2.7.11-4', 'tk>=8.6.4']"
 +++
-fetchmail setup tool"
+fetchmail setup tool
 
 {{< files text="show files" >}}* /usr/bin/fetchmailconf
 * /usr/lib/python3.12/site-packages/fetchmailconf.py

@@ -13,6 +13,6 @@ usize = "6"
 sha1sum = "d134b31832270884e67cb8f6045c3f96b16b7565"
 depends = "['telepathy-mission-control>=5.16.6']"
 +++
-telepathy-mission-control documention"
+telepathy-mission-control documention
 
 {{< files text="show files" >}}{{< /files >}}

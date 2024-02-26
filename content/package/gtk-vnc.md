@@ -14,7 +14,7 @@ sha1sum = "3796515b7b170d472f84789df4df9a355be7d8bd"
 depends = "['cyrus-sasl', 'gtk+3>=3.24.0', 'libgcrypt>=1.7.3-2', 'libpulse>=9.0-2', 'python3']"
 reverse_depends = "['virt-manager']"
 +++
-VNC viewer wigdet for GTK+"
+VNC viewer wigdet for GTK+
 
 {{< files text="show files" >}}* /usr/bin/gvnccapture
 * /usr/include/gtk-vnc-2.0/gtk-vnc.h

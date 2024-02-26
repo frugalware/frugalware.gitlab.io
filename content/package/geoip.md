@@ -14,7 +14,7 @@ sha1sum = "c338b2cfc07edd6d01ab7c7503bb90f07fdcf731"
 depends = "['zlib>=1.2.12']"
 reverse_depends = "['libtorrent-rasterbar', 'lighttpd', 'mod_security', 'nginx', 'qbittorrent', 'uwsgi-plugin-geoip', 'wireshark', 'wireshark-qt']"
 +++
-Easily lookup countries by IP addresses, even when Reverse DNS entries don't exist."
+Easily lookup countries by IP addresses, even when Reverse DNS entries don't exist.
 
 {{< files text="show files" >}}* /usr/bin/geoiplookup
 * /usr/bin/geoiplookup6

@@ -14,7 +14,7 @@ sha1sum = "bf7f3f9edcd6e3a3cc7271b3874ac00841908302"
 depends = "['glibc>=2.35']"
 reverse_depends = "['ethtool', 'ipset', 'iptables', 'libnetfilter_acct', 'libnetfilter_conntrack', 'libnetfilter_cthelper', 'libnetfilter_cttimeout', 'libnetfilter_log', 'libnetfilter_queue', 'libnftnl', 'nftables', 'wireguard-tools']"
 +++
-A minimalistic user-space Netlink library"
+A minimalistic user-space Netlink library
 
 {{< files text="show files" >}}* /usr/include/libmnl/libmnl.h
 * /usr/lib/libmnl.so

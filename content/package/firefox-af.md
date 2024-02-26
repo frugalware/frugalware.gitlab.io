@@ -14,7 +14,7 @@ sha1sum = "73b4a075da6caeae4db57b7b9304e239c4c8cf2e"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Afrikaans language support for Firefox"
+Afrikaans language support for Firefox
 
 {{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-af@firefox.mozilla.org.xpi
 {{< /files >}}

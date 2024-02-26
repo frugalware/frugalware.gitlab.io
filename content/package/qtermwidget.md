@@ -14,7 +14,7 @@ sha1sum = "7c7f8373bcea92a9a413bcba5b10062a4a0948e1"
 depends = "['qt5-base>=5.15.10', 'utf8proc>=2.2.0']"
 reverse_depends = "['qt-virt-manager', 'qterminal']"
 +++
-A terminal emulator widget for Qt5"
+A terminal emulator widget for Qt5
 
 {{< files text="show files" >}}* /usr/include/qtermwidget5/Emulation.h
 * /usr/include/qtermwidget5/Filter.h

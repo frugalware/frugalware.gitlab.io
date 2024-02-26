@@ -15,7 +15,7 @@ depends = "[]"
 reverse_depends = "['x11-protos']"
 license = "GPL2"
 +++
-X.Org Unified Protocol"
+X.Org Unified Protocol
 
 {{< files text="show files" >}}* /usr/include/GL/glxint.h
 * /usr/include/GL/glxmd.h

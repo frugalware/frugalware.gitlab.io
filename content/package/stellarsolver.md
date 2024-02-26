@@ -13,7 +13,7 @@ usize = "1467443"
 sha1sum = "251ad20f491706ccf5a397775ca08ceed57e7ff9"
 depends = "['gsl', 'hicolor-icon-theme', 'qt5-base', 'wcslib']"
 +++
-The cross platform Sextractor and Astrometry.net-Based internal astrometric solver"
+The cross platform Sextractor and Astrometry.net-Based internal astrometric solver
 
 {{< files text="show files" >}}* /usr/include/libstellarsolver/astrometry/an-bool.h
 * /usr/include/libstellarsolver/astrometry/anqfits.h

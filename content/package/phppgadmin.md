@@ -13,7 +13,7 @@ usize = "3180789"
 sha1sum = "5b92cf25c926a17bbb602c57b4f89d203a344cf3"
 depends = "['php']"
 +++
-Set of PHP-scripts to administrate PostgreSQL over the WWW."
+Set of PHP-scripts to administrate PostgreSQL over the WWW.
 
 {{< files text="show files" >}}* /usr/share/doc/phppgadmin-5.1/CREDITS
 * /usr/share/doc/phppgadmin-5.1/FAQ

@@ -14,7 +14,7 @@ sha1sum = "46b869d5d78d454d8acbe207c3a50f9362cfa1f1"
 depends = "['libmnl', 'libnfnetlink']"
 reverse_depends = "['conntrack-tools']"
 +++
-A userspace library that provides the programming interface to packets that have been queued by the kernel packet filter."
+A userspace library that provides the programming interface to packets that have been queued by the kernel packet filter.
 
 {{< files text="show files" >}}* /usr/include/libnetfilter_queue/libnetfilter_queue.h
 * /usr/include/libnetfilter_queue/libnetfilter_queue_ipv4.h

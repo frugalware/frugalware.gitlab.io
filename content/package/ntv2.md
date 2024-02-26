@@ -13,7 +13,7 @@ usize = "82005452"
 sha1sum = "fb0305a69d49d4072b5cf26a7140e08688b1b9b4"
 depends = "['libstdc++']"
 +++
-AJA NTV2 SDK"
+AJA NTV2 SDK
 
 {{< files text="show files" >}}* /usr/bin/logjammer
 * /usr/bin/logreader

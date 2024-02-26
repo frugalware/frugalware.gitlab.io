@@ -14,7 +14,7 @@ sha1sum = "30ae96a9cdeb58da587a935afe5fa13d5d74b36e"
 depends = "['grantlee>=5.1.0-2', 'knewstuff>=5.115.0']"
 reverse_depends = "['akonadi-contacts', 'knotes']"
 +++
-This lib provides grantlee theme support"
+This lib provides grantlee theme support
 
 {{< files text="show files" >}}* /usr/include/KPim5/GrantleeTheme/grantleetheme/GenericFormatter
 * /usr/include/KPim5/GrantleeTheme/GrantleeTheme/GenericFormatter

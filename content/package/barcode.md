@@ -15,7 +15,7 @@ depends = "['glibc']"
 reverse_depends = "['kbarcode']"
 license = "GPL"
 +++
-GNU Barcode is a tool to convert text strings to printed bars."
+GNU Barcode is a tool to convert text strings to printed bars.
 
 {{< files text="show files" >}}* /usr/bin/barcode
 * /usr/bin/sample

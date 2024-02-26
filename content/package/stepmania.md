@@ -14,7 +14,7 @@ sha1sum = "5b8f2758969433397e2de19eea292b8a3185e421"
 depends = "['alsa-lib', 'libglu>=9.0.0-2', 'libjpeg-turbo', 'libmad>=0.15.1b-8', 'libogg', 'libva>=2.3', 'libvorbis', 'libxrandr>=1.5.0-4']"
 license = "MIT"
 +++
-A free dance and rhythm game (was previously sm-ssc)"
+A free dance and rhythm game (was previously sm-ssc)
 
 {{< files text="show files" >}}* /usr/bin/stepmania
 * /usr/share/doc/stepmania-5.0.12/README.md

@@ -14,7 +14,7 @@ sha1sum = "f8a39a0a9cc70e586e614926bcac02dc560ce028"
 depends = "['glibc']"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'libavif']"
 +++
-Scalable Video Technology AV1 encoder and decoder"
+Scalable Video Technology AV1 encoder and decoder
 
 {{< files text="show files" >}}* /usr/bin/SvtAv1DecApp
 * /usr/bin/SvtAv1EncApp

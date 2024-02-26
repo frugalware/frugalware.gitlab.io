@@ -13,7 +13,7 @@ usize = "4816256"
 sha1sum = "be73c90f8dd137e8b3da365802fc2be342515c59"
 depends = "['bluez>=4.61', 'curl', 'cyrus-sasl', 'gnutls', 'libgcrypt', 'libx11', 'ncurses', 'pciutils', 'sdl']"
 +++
-KVM is a kernel based virtual machine"
+KVM is a kernel based virtual machine
 
 {{< files text="show files" >}}* etc/udev/rules.d/49-kvm.rules
 * usr/bin/qemu-img-kvm

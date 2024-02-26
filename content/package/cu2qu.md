@@ -13,7 +13,7 @@ usize = "719799"
 sha1sum = "86bd0ed48eeebf5e09a6a9fbc43ed5fd75bae0ff"
 depends = "['python3>=3.10']"
 +++
-Cubic-to-quadratic bezier curve conversion"
+Cubic-to-quadratic bezier curve conversion
 
 {{< files text="show files" >}}* /usr/bin/cu2qu
 * /usr/lib/python3.12/site-packages/cu2qu-1.6.7-py3.12.egg-info/dependency_links.txt

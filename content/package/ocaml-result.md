@@ -14,7 +14,7 @@ sha1sum = "c66abc4d8ec91f60401ab9aa1b2bbe0c6331c55e"
 depends = "['ocaml>=5.1.1']"
 reverse_depends = "['ocaml-topkg']"
 +++
-Compatibility Result module"
+Compatibility Result module
 
 {{< files text="show files" >}}* /usr/lib/ocaml/result/dune-package
 * /usr/lib/ocaml/result/META

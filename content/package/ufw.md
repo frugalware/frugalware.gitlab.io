@@ -13,7 +13,7 @@ usize = "1019561"
 sha1sum = "e62f33d0f457745a39a52d06874967f30e2add06"
 depends = "['iptables>=1.8.2-3', 'python3', 'sed>=4.2.1']"
 +++
-Uncomplicated Firewall is program for managing a netfilter firewall"
+Uncomplicated Firewall is program for managing a netfilter firewall
 
 {{< files text="show files" >}}* /etc/default/ufw
 * /etc/ufw/after.init

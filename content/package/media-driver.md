@@ -13,7 +13,7 @@ usize = "37760774"
 sha1sum = "d2416d482ec228218122e720e21ef022a4a1f3cd"
 depends = "['gmmlib>=22.3.1', 'libva>=2.7']"
 +++
-Intel Media Driver for VAAPI — Broadwell+ iGPUs"
+Intel Media Driver for VAAPI — Broadwell+ iGPUs
 
 {{< files text="show files" >}}* /usr/include/igfxcmrt/cm_hw_vebox_cmd_g10.h
 * /usr/include/igfxcmrt/cm_rt.h

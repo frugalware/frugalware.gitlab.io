@@ -13,7 +13,7 @@ usize = "36989018"
 sha1sum = "bd1e63c789d5746b729e0b0c9f06bc4e00d85101"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs German support in LibreOffice"
+Installs German support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/help/de/default.css
 * /usr/lib/libreoffice/help/de/err.html

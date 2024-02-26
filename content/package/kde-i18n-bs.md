@@ -13,7 +13,7 @@ usize = "4269155"
 sha1sum = "b5daf5b8f246a542f51be2a431418a7852b91fc7"
 depends = "[]"
 +++
-Bosnian Localization for KDE."
+Bosnian Localization for KDE.
 
 {{< files text="show files" >}}* usr/share/locale/bs/charset
 * usr/share/locale/bs/entry.desktop

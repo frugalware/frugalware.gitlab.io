@@ -13,7 +13,7 @@ usize = "14456"
 sha1sum = "0fd0088cf962199307485204e076d08c88e23bef"
 depends = "['uwsgi', 'zlib>=1.2.12']"
 +++
-UWSGI Graylog Plugin"
+UWSGI Graylog Plugin
 
 {{< files text="show files" >}}* /usr/lib/uwsgi/graylog2_plugin.so
 {{< /files >}}

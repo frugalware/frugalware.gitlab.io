@@ -13,7 +13,7 @@ usize = "14024"
 sha1sum = "59b944970989531c1d5740a67fb65076a84bec99"
 depends = "['aalib', 'libvlc>=3.0.20']"
 +++
-vlc Ascii Art support"
+vlc Ascii Art support
 
 {{< files text="show files" >}}* /usr/lib/vlc/plugins/video_output/libaa_plugin.so
 {{< /files >}}

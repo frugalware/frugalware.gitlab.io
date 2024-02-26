@@ -14,7 +14,7 @@ sha1sum = "3239aab563018849ab8f153e884ef35d2bb74ebf"
 depends = "['dbus>=1.10.10-3', 'expat>=2.1.0-6', 'gdbm>=1.15', 'libdaemon>=0.14-4', 'libevent', 'libssp>=9.1.0-3', 'libsystemd>=231-6', 'shadow>=4.2.1-5']"
 reverse_depends = "['anyremote', 'cups', 'efl', 'geoclue2', 'kdnssd', 'libcups', 'libiio', 'libvirt', 'mpd', 'mumble', 'murmur', 'pipewire-pulse', 'pulseaudio-avahi', 'remmina', 'telepathy-salut', 'vlc-avahi']"
 +++
-A multicast/unicast DNS-SD framework"
+A multicast/unicast DNS-SD framework
 
 {{< files text="show files" >}}* /etc/avahi/avahi-autoipd.action
 * /etc/avahi/avahi-daemon.conf

@@ -14,7 +14,7 @@ sha1sum = "0c3c1a16c273bea8bc12ccb6c1c32092f0809759"
 depends = "['glibc>=2.36']"
 reverse_depends = "['lib32-fontconfig', 'lib32-libblkid', 'lib32-libsm', 'lib32-libsystemd', 'lib32-libxaw', 'lib32-util-linux']"
 +++
-Universally unique id library ( 32bit )"
+Universally unique id library ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/include/uuid/uuid.h
 * /usr/lib32/libuuid.so

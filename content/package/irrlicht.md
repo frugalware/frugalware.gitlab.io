@@ -14,7 +14,7 @@ sha1sum = "7749f66b8369c02cd609d6d6128eb8d10cb9bb59"
 depends = "['libglvnd', 'libx11', 'libxcursor', 'libxxf86vm']"
 reverse_depends = "['irrlicht-examples']"
 +++
-An open source high performance realtime 3D graphics engine."
+An open source high performance realtime 3D graphics engine.
 
 {{< files text="show files" >}}* /usr/include/irrlicht/aabbox3d.h
 * /usr/include/irrlicht/CDynamicMeshBuffer.h

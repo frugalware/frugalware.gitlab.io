@@ -14,7 +14,7 @@ sha1sum = "e1c6a342dbba589ec6bad53b9ed778d91cdc0f65"
 depends = "['mesa-libegl']"
 reverse_depends = "['glfw', 'gtk+3', 'gtk+4', 'vlc-wayland-egl']"
 +++
-Mesa Wayland EGL library."
+Mesa Wayland EGL library.
 
 {{< files text="show files" >}}* /usr/lib/libwayland-egl.la
 * /usr/lib/libwayland-egl.so

@@ -13,7 +13,7 @@ usize = "890031"
 sha1sum = "ed6fb94fbadec0aae18fa3fcaf546f8f7932e13e"
 depends = "['python3']"
 +++
-libguestfs python3 bindings"
+libguestfs python3 bindings
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/guestfs.py
 * /usr/lib/python3.12/site-packages/libguestfsmod.cpython-312-x86_64-linux-gnu.so

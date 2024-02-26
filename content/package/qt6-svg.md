@@ -14,7 +14,7 @@ sha1sum = "86ec18f274476ac02a2928057094b1613bc3afd5"
 depends = "['qt6-base']"
 reverse_depends = "['cutemaze', 'ladybird', 'mkvtoolnix-gui', 'obs-studio', 'qt6-virtualkeyboard', 'qtcreator', 'socnetv', 'telegram-desktop']"
 +++
-The Qt6 toolkit, qtsvg"
+The Qt6 toolkit, qtsvg
 
 {{< files text="show files" >}}* /usr/include/qt6/QtSvg/6.6.2/QtSvg/private/qsvgfont_p.h
 * /usr/include/qt6/QtSvg/6.6.2/QtSvg/private/qsvggraphics_p.h

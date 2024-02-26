@@ -14,7 +14,7 @@ sha1sum = "7e1eadc7ee44a5fc1ac3888e72a3093458a0915b"
 depends = "['glibc']"
 reverse_depends = "['libdex', 'mariadb-libs', 'mpd', 'qemu', 'qemu-guest']"
 +++
-Linux-native io_uring I/O access library"
+Linux-native io_uring I/O access library
 
 {{< files text="show files" >}}* /usr/include/liburing.h
 * /usr/include/liburing/barrier.h

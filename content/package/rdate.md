@@ -14,7 +14,7 @@ sha1sum = "a45f669c678740ccc7f4cc1a15f9a9316935ff9e"
 depends = "['glibc']"
 license = "GPL-2"
 +++
-A tool to get the date and time via the network"
+A tool to get the date and time via the network
 
 {{< files text="show files" >}}* /usr/bin/rdate
 * /usr/share/doc/rdate-1.5/AUTHORS

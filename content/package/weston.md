@@ -13,7 +13,7 @@ usize = "4991910"
 sha1sum = "75f0c88a28807bbaa5024b865abbf8e837005f8c"
 depends = "['gst1-plugins-base', 'lcms2', 'libdisplay-info', 'libgbm', 'libglvnd', 'libinput', 'libva', 'libwebp', 'libxcursor', 'libxkbcommon', 'neatvnc', 'pango', 'pipewire', 'seatd', 'wayland']"
 +++
-Wayland Default Display Compositor"
+Wayland Default Display Compositor
 
 {{< files text="show files" >}}* /etc/pam.d/weston-remote-access
 * /usr/bin/wcap-decode

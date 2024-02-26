@@ -13,7 +13,7 @@ usize = "32463433"
 sha1sum = "f9df58dc84eb85466eb00ca32c689b4833345e3e"
 depends = "['dlib', 'face_recognition', 'face_recognition_models', 'hdf5', 'opencv', 'opencv-python3', 'pam-python', 'python3-click', 'python3-numpy', 'python3-pillow']"
 +++
-Windows Hello for Linux"
+Windows Hello for Linux
 
 {{< files text="show files" >}}* /usr/bin/howdy
 * /usr/lib/security/howdy/cli.py

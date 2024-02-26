@@ -14,7 +14,7 @@ sha1sum = "fe99bac28ff63623081fecafc563c7c6df29441e"
 depends = "['abseil-cpp>=20240116.0', 'libgcc', 'libstdc++']"
 reverse_depends = "['grpc']"
 +++
-Fast, safe, thread-friendly regular expression engine."
+Fast, safe, thread-friendly regular expression engine.
 
 {{< files text="show files" >}}* /usr/include/re2/filtered_re2.h
 * /usr/include/re2/re2.h

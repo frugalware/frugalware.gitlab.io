@@ -14,7 +14,7 @@ sha1sum = "f32c22d11ce14a9dbcc9f069f6632df44a7c632b"
 depends = "['libstdc++>=9.1.0-3', 'zlib>=1.2.12']"
 reverse_depends = "['adios2', 'alembic', 'flann', 'hdf5-fortran', 'howdy', 'insight-toolkit', 'labplot', 'opencv']"
 +++
-Library and file format for storing scientific data"
+Library and file format for storing scientific data
 
 {{< files text="show files" >}}* /usr/bin/gif2h5
 * /usr/bin/h52gif

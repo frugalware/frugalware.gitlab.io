@@ -14,7 +14,7 @@ sha1sum = "177a54712351c20ed2f02f31a5ef0f8659ca811a"
 depends = "['lib32-alsa-lib>=1.1.2-2', 'lib32-flac>=1.4.0', 'lib32-libogg>=1.3.2-5', 'lib32-libvorbis>=1.3.5-5', 'lib32-sqlite3>=3.9.2-4']"
 reverse_depends = "['lib32-libpulse']"
 +++
-Libsndfile is a C library for reading and writing files containing sampled sound ( 32bit )"
+Libsndfile is a C library for reading and writing files containing sampled sound ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/sndfile-cmp
 * /usr/i686-frugalware-linux/bin/sndfile-concat

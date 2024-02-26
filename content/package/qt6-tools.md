@@ -14,7 +14,7 @@ sha1sum = "333977f106ed77aaa4179b71c2e5f313a0d9cb76"
 depends = "['clang-libs>=17.0.6', 'qt6-declarative', 'zstd']"
 reverse_depends = "['qtcreator']"
 +++
-The Qt6 toolkit, qttools"
+The Qt6 toolkit, qttools
 
 {{< files text="show files" >}}* /usr/include/qt6/QtDesigner/6.6.2/QtDesigner/private/abstractdialoggui_p.h
 * /usr/include/qt6/QtDesigner/6.6.2/QtDesigner/private/abstractintrospection_p.h

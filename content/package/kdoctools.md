@@ -14,7 +14,7 @@ sha1sum = "99a7004298d374d67d7fc17d80743671ba197373"
 depends = "['docbook-xsl', 'karchive>=5.115.0', 'libxslt']"
 reverse_depends = "['kcachegrind', 'plasma-sdk', 'rkward', 'sweeper']"
 +++
-Create documentation from DocBook."
+Create documentation from DocBook.
 
 {{< files text="show files" >}}* /usr/bin/checkXML5
 * /usr/bin/meinproc5

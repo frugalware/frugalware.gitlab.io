@@ -14,7 +14,7 @@ sha1sum = "5f7275bffaec6d29542bcc7047acb08f5f40a20a"
 depends = "['haskell-assoc', 'haskell-comonad', 'haskell-th-abstraction']"
 reverse_depends = "['haskell-semigroupoids']"
 +++
-bifunctors"
+bifunctors
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/bifunctors-5.6.1/Data/Biapplicative.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/bifunctors-5.6.1/Data/Biapplicative.hi

@@ -13,7 +13,7 @@ usize = "5617660"
 sha1sum = "fc6310777fc1597ec19075fead4ef9ebfb455cd8"
 depends = "['hunspell>=1.1.3']"
 +++
-Breton dictionary for Hunspell"
+Breton dictionary for Hunspell
 
 {{< files text="show files" >}}* /usr/share/myspell/br_FR.aff
 * /usr/share/myspell/br_FR.dic

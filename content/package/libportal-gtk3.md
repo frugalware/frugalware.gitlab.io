@@ -13,7 +13,7 @@ usize = "38154"
 sha1sum = "ea726256142c663f76ccd961bc2ed8b820a70b6b"
 depends = "['gtk+3', 'libportal']"
 +++
-libportal gtk+3 backend"
+libportal gtk+3 backend
 
 {{< files text="show files" >}}* /usr/include/libportal-gtk3/portal-gtk3.h
 * /usr/lib/girepository-1.0/XdpGtk3-1.0.typelib

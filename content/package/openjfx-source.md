@@ -13,7 +13,7 @@ usize = "6636085"
 sha1sum = "74c2e1b18dc073529230e9172b2472a48be286c2"
 depends = "[]"
 +++
-OpenJFX Sourcecode"
+OpenJFX Sourcecode
 
 {{< files text="show files" >}}* /usr/lib/jvm/java-19-openjdk/lib/javafx-src.zip
 {{< /files >}}

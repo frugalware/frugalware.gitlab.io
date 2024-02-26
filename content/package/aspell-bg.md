@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = ""
 depends = "['aspell']"
 +++
-GNU Aspell Bulgarian Word List Package"
+GNU Aspell Bulgarian Word List Package
 
 {{< files text="show files" >}}* usr/lib/aspell-0.60/bg.dat
 * usr/lib/aspell-0.60/bg.multi

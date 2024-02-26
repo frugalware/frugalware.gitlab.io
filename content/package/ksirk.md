@@ -13,7 +13,7 @@ usize = "13085754"
 sha1sum = "55a1d0371c0db15240e0d7314464c3e3d172cac0"
 depends = "['kdelibs4support>=5.115.0', 'libkdegames>=23.08.5', 'qca']"
 +++
-KsirK is a computerized version of the well known strategic board game Risk."
+KsirK is a computerized version of the well known strategic board game Risk.
 
 {{< files text="show files" >}}* /usr/bin/ksirk
 * /usr/bin/ksirkskineditor

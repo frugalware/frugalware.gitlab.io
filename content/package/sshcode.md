@@ -13,7 +13,7 @@ usize = "5556653"
 sha1sum = "5ed41155fc3a9f998998a68ca2b9fe3376b35632"
 depends = "['openssh', 'rsync']"
 +++
-A CLI to automatically install and run code-server over SSH."
+A CLI to automatically install and run code-server over SSH.
 
 {{< files text="show files" >}}* /usr/bin/sshcode
 * /usr/share/doc/sshcode-0.10.0/LICENSE

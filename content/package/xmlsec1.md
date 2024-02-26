@@ -14,7 +14,7 @@ sha1sum = "fe3ef1ec2a5ba20df94550eb76df7f0fa542cf3d"
 depends = "['libxml2', 'nss']"
 reverse_depends = "['libreoffice']"
 +++
-Library providing support for 'XML Signature' and 'XML Encryption' standards"
+Library providing support for 'XML Signature' and 'XML Encryption' standards
 
 {{< files text="show files" >}}* /usr/bin/xmlsec1-config
 * /usr/include/xmlsec1/xmlsec/app.h

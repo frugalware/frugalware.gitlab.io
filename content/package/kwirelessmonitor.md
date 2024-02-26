@@ -13,7 +13,7 @@ usize = "221031"
 sha1sum = "b373c133b9ff4f9aa19c06b855923843d4d1c974"
 depends = "['wireless_tools']"
 +++
-Docks into the system tray and monitors the wireless network interface"
+Docks into the system tray and monitors the wireless network interface
 
 {{< files text="show files" >}}* usr/bin/kwirelessmonitor
 * usr/bin/kwirelessmonitor-helper

@@ -13,7 +13,7 @@ usize = "3154868"
 sha1sum = "6e0c30d15f5586e2b892ab0b46e3cfe2fa3527a1"
 depends = "['qt6-declarative', 'qt6-positioning']"
 +++
-The Qt6 toolkit, qtlocation"
+The Qt6 toolkit, qtlocation
 
 {{< files text="show files" >}}* /usr/include/qt6/QtLocation/6.6.2/QtLocation/private/error_messages_p.h
 * /usr/include/qt6/QtLocation/6.6.2/QtLocation/private/qabstractgeotilecache_p.h

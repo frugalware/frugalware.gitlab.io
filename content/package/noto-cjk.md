@@ -13,7 +13,7 @@ usize = "1839308983"
 sha1sum = "722a7a625df1ab54c83f23f4f52121494519f9cd"
 depends = "['fontconfig', 'mkfontscale']"
 +++
-Noto CJK fonts"
+Noto CJK fonts
 
 {{< files text="show files" >}}* /usr/share/doc/noto-cjk-20201206/LICENSE
 * /usr/share/doc/noto-cjk-20201206/README-formats.md

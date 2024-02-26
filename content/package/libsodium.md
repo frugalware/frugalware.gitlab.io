@@ -14,7 +14,7 @@ sha1sum = "082264dc17218d8e35ccea218fd5e38266ff4f56"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['adios2', 'dovecot', 'gnunet', 'keysmith', 'ostree', 'pdns-recursor', 'remmina', 'rspamd', 'tox-core', 'usbguard', 'warzone2100', 'zeromq']"
 +++
-Sodium is a portable, cross-compilable, installable, packageable fork of NaCl"
+Sodium is a portable, cross-compilable, installable, packageable fork of NaCl
 
 {{< files text="show files" >}}* /usr/include/sodium.h
 * /usr/include/sodium/core.h

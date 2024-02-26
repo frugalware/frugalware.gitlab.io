@@ -14,7 +14,7 @@ sha1sum = "c0ca0d6e69b79031efad94741066ac3c285ec9f1"
 depends = "['haskell-auto-update', 'haskell-unliftio']"
 reverse_depends = "['haskell-http2']"
 +++
-Scalable timer"
+Scalable timer
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/time-manager-0.0.1/libHStime-manager-0.0.1-Ersi1kkJ22tE8kjnRxVEv2.a
 * /usr/lib/ghc-9.8.1/site-local/time-manager-0.0.1/System/TimeManager.dyn_hi

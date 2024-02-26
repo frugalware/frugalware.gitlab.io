@@ -14,7 +14,7 @@ sha1sum = "acd67ac8875382c7b051d4b55990c0394089476b"
 depends = "['iproute2', 'lzo', 'openssl>=3.1.0', 'pam']"
 reverse_depends = "['connman', 'nm-openvpn']"
 +++
-A secure tunneling daemon"
+A secure tunneling daemon
 
 {{< files text="show files" >}}* /etc/tmpfiles.d/openvpn.conf
 * /usr/bin/openvpn

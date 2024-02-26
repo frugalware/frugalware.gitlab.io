@@ -13,7 +13,7 @@ usize = "2075273"
 sha1sum = "7cf23d915c887bb55cb912783ca5386d309681be"
 depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5']"
 +++
-A nonogram logic game for KDE."
+A nonogram logic game for KDE.
 
 {{< files text="show files" >}}* /usr/bin/picmi
 * /usr/share/applications/org.kde.picmi.desktop

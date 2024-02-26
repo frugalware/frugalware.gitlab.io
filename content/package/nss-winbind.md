@@ -13,7 +13,7 @@ usize = "98152"
 sha1sum = "407dbee2fac42a0833b84dc506c6c9129f7e1d6c"
 depends = "['glibc>=2.24-4']"
 +++
-Winbind Lookup Support for NSS."
+Winbind Lookup Support for NSS.
 
 {{< files text="show files" >}}* /usr/lib/libnss_winbind.so.2
 * /usr/lib/security/pam_winbind.so

@@ -13,7 +13,7 @@ usize = "5101166"
 sha1sum = "bca9a8a12c846c4cc1b403ed0e5615fbf6b7da06"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Thai support in LibreOffice"
+Installs Thai support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/th/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/th/LC_MESSAGES/avmedia.mo

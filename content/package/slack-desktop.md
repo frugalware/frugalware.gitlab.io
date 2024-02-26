@@ -13,7 +13,7 @@ usize = "289178168"
 sha1sum = "280b48118ee691691fa8759669be198c3bd6b227"
 depends = "['gtk+3', 'libappindicator', 'libsecret', 'libxscrnsaver', 'nss', 'xdg-utils']"
 +++
-Slack Desktop (Beta) for Linux"
+Slack Desktop (Beta) for Linux
 
 {{< files text="show files" >}}* /usr/bin/slack
 * /usr/lib/slack/chrome-sandbox

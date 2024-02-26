@@ -13,7 +13,7 @@ usize = "153009"
 sha1sum = "82715778fd8b8fde5367ef3ceeee2a8d2f9ba22f"
 depends = "['java-hamcrest']"
 +++
-A regression testing framework."
+A regression testing framework.
 
 {{< files text="show files" >}}* /usr/share/doc/junit3-3.8.2/README.html
 * /usr/share/doc/junit3-3.8.2/RELEASE-NOTES.txt

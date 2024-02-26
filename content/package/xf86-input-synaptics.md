@@ -14,7 +14,7 @@ sha1sum = "ee16943c2f830ae56e30f40d12a854785e021754"
 depends = "['libevdev', 'libudev>=242', 'libxi>=1.7.6-2', 'mtdev>=1.1.5-$', 'xorg-server>=1.20.4-3']"
 license = "GPL2"
 +++
-X.Org driver for synaptics input devices"
+X.Org driver for synaptics input devices
 
 {{< files text="show files" >}}* /etc/X11/xorg.conf.d/20-synaptics.conf
 * /usr/bin/synclient

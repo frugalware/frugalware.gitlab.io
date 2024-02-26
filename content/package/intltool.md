@@ -13,7 +13,7 @@ usize = "182097"
 sha1sum = "af4f47b5bbcdc4a477de3c18b64709f734914490"
 depends = "['expat>=2.1.0-4', 'perl>=5.28.2', 'perl-xml-parser>=2.44-5', 'popt>=1.16-7']"
 +++
-Contains scripts and autoconf magic for internationalizing various kinds of data files."
+Contains scripts and autoconf magic for internationalizing various kinds of data files.
 
 {{< files text="show files" >}}* /usr/bin/intltool-extract
 * /usr/bin/intltool-merge

@@ -13,7 +13,7 @@ usize = "1409580"
 sha1sum = "8f2bbe398f20b530fafd85bebdac6befb7f4c62a"
 depends = "['glibc']"
 +++
-Utilities for DVB cards"
+Utilities for DVB cards
 
 {{< files text="show files" >}}* /usr/bin/atsc_epg
 * /usr/bin/av7110_loadkeys

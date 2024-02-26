@@ -13,7 +13,7 @@ usize = "53969120"
 sha1sum = "29ab8e39f88ec95e863665cc683020531442bbbf"
 depends = "['docker', 'glibc>=2.35']"
 +++
-Fast, isolated development environments using Docker"
+Fast, isolated development environments using Docker
 
 {{< files text="show files" >}}* /usr/bin/docker-compose
 * /usr/lib/docker/cli-plugins/docker-compose

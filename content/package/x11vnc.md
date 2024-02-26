@@ -14,7 +14,7 @@ sha1sum = "35c6b90f8afa44df94143449eeb3efbddef265aa"
 depends = "['libjpeg-turbo', 'libvncserver', 'libxtst>=1.2.2-2', 'openssl>=3.1.0', 'zlib>=1.2.12']"
 license = "GPL"
 +++
-A VNC server for real X displays"
+A VNC server for real X displays
 
 {{< files text="show files" >}}* /usr/bin/x11vnc
 * /usr/bin/Xdummy

@@ -14,7 +14,7 @@ sha1sum = "c566296c7f9db769b93c5c5137041ddcfcf7f7f5"
 depends = "['glibc>=2.35']"
 reverse_depends = "['efl', 'enlightenment', 'freeipmi', 'gpg-agent', 'gpgme', 'libassuan', 'libassuan1', 'libgcrypt', 'libgcrypt15', 'libksba', 'libvlc', 'terminology']"
 +++
-Support library for libgcrypt"
+Support library for libgcrypt
 
 {{< files text="show files" >}}* /usr/bin/gpg-error
 * /usr/bin/gpgrt-config

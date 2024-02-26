@@ -13,7 +13,7 @@ usize = "1099431"
 sha1sum = "f2cfc87ab8d22f92002a342cf4e18249f27072ea"
 depends = "['libnl>=3.2.9', 'openssl>=3.1.0']"
 +++
-A daemon for managing software wireless access points."
+A daemon for managing software wireless access points.
 
 {{< files text="show files" >}}* /etc/hostapd/hostapd.accept
 * /etc/hostapd/hostapd.conf

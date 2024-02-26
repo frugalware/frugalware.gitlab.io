@@ -13,7 +13,7 @@ usize = "3092113"
 sha1sum = "3235701099d6e56319ec8af4bbb399d17501f22b"
 depends = "['lwt', 'ocaml-seq']"
 +++
-Unit testing framework for OCaml"
+Unit testing framework for OCaml
 
 {{< files text="show files" >}}* /usr/lib/ocaml/ounit-lwt/dune-package
 * /usr/lib/ocaml/ounit-lwt/META

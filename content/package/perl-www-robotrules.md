@@ -14,7 +14,7 @@ sha1sum = "dc9f192185a49ad6d6e240db6920d3d2328373dd"
 depends = "['perl>=5.34.0', 'perl-uri']"
 reverse_depends = "['perl-libwww']"
 +++
-Database of robots.txt-derived permissions."
+Database of robots.txt-derived permissions.
 
 {{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/WWW/RobotRules.pm
 * /usr/lib/perl5/site_perl/current/WWW/RobotRules/AnyDBM_File.pm

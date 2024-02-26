@@ -13,7 +13,7 @@ usize = "2094353"
 sha1sum = "5f8296b22c27db512c2311f68b6a912a7bedaf3a"
 depends = "['ruby>=3.3.0']"
 +++
-Tools & Ruby libraries for the CSS3 extension languages: Sass & SCSS."
+Tools & Ruby libraries for the CSS3 extension languages: Sass & SCSS.
 
 {{< files text="show files" >}}* /usr/bin/sass
 * /usr/bin/sass-convert

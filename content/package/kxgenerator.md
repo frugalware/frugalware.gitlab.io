@@ -13,7 +13,7 @@ usize = "665681"
 sha1sum = "5715f807174c97efa4b0b22675dd3de7836199c8"
 depends = "[]"
 +++
-A utilitty to configure the X server."
+A utilitty to configure the X server.
 
 {{< files text="show files" >}}* usr/bin/kxgenerator
 * usr/share/applnk/Utilities/kxgenerator-layout.desktop

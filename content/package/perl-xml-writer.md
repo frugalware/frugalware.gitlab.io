@@ -14,7 +14,7 @@ sha1sum = "f8e975fbbc0b00d76ba5c5d12b589509538ed516"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['docbook2x', 'hwinfo']"
 +++
-Perl extension for writing XML documents."
+Perl extension for writing XML documents.
 
 {{< files text="show files" >}}* /usr/lib/perl5/site_perl/XML/Writer.pm
 * /usr/share/doc/perl-xml-writer-0.900/LICENSE

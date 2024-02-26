@@ -13,7 +13,7 @@ usize = "12502426"
 sha1sum = "c909c73632cb3cb174f440f25f1a6d065e8e1933"
 depends = "['insight-toolkit', 'qt6-5compat', 'qt6-base', 'qt6-base-sql-common']"
 +++
-Qt6 DICOM Viewer"
+Qt6 DICOM Viewer
 
 {{< files text="show files" >}}* /usr/bin/alizams
 * /usr/include/mdcmopenjpeg-2.5/opj_config.h

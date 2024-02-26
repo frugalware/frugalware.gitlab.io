@@ -13,7 +13,7 @@ usize = "26689438"
 sha1sum = "ea2d782a2f0b75c3391e393d1e43eed4fb04ba64"
 depends = "['glibc']"
 +++
-Simple, fast, safe, compiled language for developing maintainable software"
+Simple, fast, safe, compiled language for developing maintainable software
 
 {{< files text="show files" >}}* /usr/bin/v
 * /usr/lib/vlang/cmd/tools/.disable_autorecompilation

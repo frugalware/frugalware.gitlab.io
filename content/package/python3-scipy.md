@@ -14,7 +14,7 @@ sha1sum = "7a3d24ae349a16f572b04fa43c44189673f74b08"
 depends = "['libcblas', 'pybind11', 'python3-numpy>=1.7.1']"
 reverse_depends = "['face_recognition', 'scikit-learn']"
 +++
-SciPy is open-source software for mathematics, science, and engineering."
+SciPy is open-source software for mathematics, science, and engineering.
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/scipy-1.11.4.dist-info/LICENSE.txt
 * /usr/lib/python3.12/site-packages/scipy-1.11.4.dist-info/METADATA

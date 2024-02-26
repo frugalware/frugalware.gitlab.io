@@ -14,7 +14,7 @@ sha1sum = "95560f1d381b4425614b0909838f920abddf62b4"
 depends = "['libaccounts-qt>=1.15-10', 'qt5-base>=5.15.10', 'signon>=8.60-2']"
 reverse_depends = "['purpose']"
 +++
-Qt-based client library for accessing the online accounts database."
+Qt-based client library for accessing the online accounts database.
 
 {{< files text="show files" >}}* /usr/bin/tst_plugin
 * /usr/share/doc/accounts-qml-module-0.7/COPYING

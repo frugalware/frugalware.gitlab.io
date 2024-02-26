@@ -13,7 +13,7 @@ usize = "163941"
 sha1sum = "0928dbeb915cbf4915cdaa50aecf11ae5d066a21"
 depends = "['gphoto2>=2.5.9-2', 'gvfs>=1.52.0']"
 +++
-gvfs with gphoto2 support"
+gvfs with gphoto2 support
 
 {{< files text="show files" >}}* /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
 * /usr/lib/gvfs/gvfsd-gphoto2

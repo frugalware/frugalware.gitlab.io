@@ -13,7 +13,7 @@ usize = "2611725"
 sha1sum = "e4806e4b4111c7837f3cca61f90fc6b1b80e0dbf"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Kannada support in LibreOffice"
+Installs Kannada support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/kn/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/kn/LC_MESSAGES/avmedia.mo

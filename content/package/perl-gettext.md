@@ -15,7 +15,7 @@ depends = "['perl>=5.34']"
 reverse_depends = "['help2man', 'po4a']"
 license = "License"
 +++
-Perl5 module to gain access to the C library functions for internatialization."
+Perl5 module to gain access to the C library functions for internatialization.
 
 {{< files text="show files" >}}* /usr/lib/perl5/5.38/site_perl/auto/Locale/gettext/gettext.so
 * /usr/lib/perl5/5.38/site_perl/Locale/gettext.pm

@@ -14,7 +14,7 @@ sha1sum = "760c6fa24426ef608e0bc50605d7c02d4fac97fb"
 depends = "['libxaw>=1.0.13-3', 'libxft>=2.3.2-3', 'libxkbfile']"
 license = "GPL2"
 +++
-X.Org xfd application"
+X.Org xfd application
 
 {{< files text="show files" >}}* /usr/bin/xfd
 * /usr/share/doc/xfd-1.1.4/ChangeLog

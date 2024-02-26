@@ -13,7 +13,7 @@ usize = "9129836"
 sha1sum = "578a4615a843cb54d3aa21d85298a1cce7b7d2ae"
 depends = "['lib32-spirv-llvm-translator', 'libclc']"
 +++
-Mesa OpenCL Clover"
+Mesa OpenCL Clover
 
 {{< files text="show files" >}}* /usr/lib32/libMesaOpenCL.so
 * /usr/lib32/libMesaOpenCL.so.1

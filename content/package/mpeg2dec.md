@@ -15,7 +15,7 @@ depends = "['libxv>=1.0.10-3', 'sdl']"
 reverse_depends = "['gst1-plugins-ugly-mpeg2dec', 'vlc-mpeg2']"
 license = "GPL2"
 +++
-libmpeg2 is a free library for decoding mpeg-2 and mpeg-1 video streams."
+libmpeg2 is a free library for decoding mpeg-2 and mpeg-1 video streams.
 
 {{< files text="show files" >}}* /usr/bin/corrupt_mpeg2
 * /usr/bin/extract_mpeg2

@@ -13,7 +13,7 @@ usize = "33020609"
 sha1sum = "9287a5b5558f262106b5408e48ee586b7410fafa"
 depends = "['khtml>=5.115.0', 'qt5-svg>=5.15.12']"
 +++
-Japanese Reference/Study Tool."
+Japanese Reference/Study Tool.
 
 {{< files text="show files" >}}* /usr/bin/kiten
 * /usr/bin/kitengen

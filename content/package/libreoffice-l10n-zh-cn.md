@@ -13,7 +13,7 @@ usize = "37674111"
 sha1sum = "ac3ac4db689ae896ca80b4515a8c58280c6b6966"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Chinese (simplified) support in LibreOffice"
+Installs Chinese (simplified) support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/help/zh-CN/default.css
 * /usr/lib/libreoffice/help/zh-CN/err.html

@@ -13,7 +13,7 @@ usize = "973303"
 sha1sum = "0437c1d862e20eb8a7d11c1ab8a32388a967cea8"
 depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5']"
 +++
-A game modeled after the well known pen and paper based game of Dots and Boxes."
+A game modeled after the well known pen and paper based game of Dots and Boxes.
 
 {{< files text="show files" >}}* /usr/bin/ksquares
 * /usr/share/applications/org.kde.ksquares.desktop

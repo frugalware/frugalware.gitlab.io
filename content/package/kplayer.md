@@ -14,7 +14,7 @@ sha1sum = "1e842f384acc56d11d343eb44c6f16bae701e8e5"
 depends = "['mplayer']"
 license = "GPL"
 +++
-KPlayer is a KDE media player based on MPlayer."
+KPlayer is a KDE media player based on MPlayer.
 
 {{< files text="show files" >}}* usr/bin/kplayer
 * usr/lib/kde3/libkplayerpart.la

@@ -14,7 +14,7 @@ sha1sum = "b452113af2de3665119cefd01163cbeccdd4e43e"
 depends = "['ghc>=9.6.1', 'zlib']"
 reverse_depends = "['haskell-zip-archive']"
 +++
-Various cryptographic hashes for bytestrings; CRC32 and Adler32 for now"
+Various cryptographic hashes for bytestrings; CRC32 and Adler32 for now
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/digest-0.0.2.0/Data/Digest/Adler32.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/digest-0.0.2.0/Data/Digest/Adler32.hi

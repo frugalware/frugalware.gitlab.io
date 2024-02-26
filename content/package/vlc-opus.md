@@ -13,7 +13,7 @@ usize = "22296"
 sha1sum = "7f9824108856616c58826ba3ec6f96b73ea89c07"
 depends = "['libvlc>=3.0.20', 'opus>=1.1.2']"
 +++
-vlc plugin for opus"
+vlc plugin for opus
 
 {{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/libopus_plugin.so
 {{< /files >}}

@@ -13,7 +13,7 @@ usize = "91389"
 sha1sum = "97049635c3b85e97e3b2d40b1a7ae3396adda3bf"
 depends = "['python3-cffi']"
 +++
-Python wrapper for extended filesystem attributes"
+Python wrapper for extended filesystem attributes
 
 {{< files text="show files" >}}* /usr/bin/pathon3-xattr
 * /usr/lib/python3.12/site-packages/xattr-1.0.0-py3.12.egg-info/dependency_links.txt

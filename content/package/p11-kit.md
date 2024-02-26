@@ -14,7 +14,7 @@ sha1sum = "1cc273bece83d41f9c59057b5cb5c7176f82ad00"
 depends = "['ca-certificates', 'libffi>=3.4', 'libsystemd', 'libtasn1>=4.13-2']"
 reverse_depends = "['gcr-1', 'gnutls', 'libsystemd']"
 +++
-Provides a way to load and enumerate PKCS#11 modules."
+Provides a way to load and enumerate PKCS#11 modules.
 
 {{< files text="show files" >}}* /etc/pkcs11/pkcs11.conf.example
 * /usr/bin/p11-kit

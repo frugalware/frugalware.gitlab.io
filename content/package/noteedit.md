@@ -13,7 +13,7 @@ usize = "6719994"
 sha1sum = "28c12d6867ab56d8114826d7c03afef09f0cfb62"
 depends = "[]"
 +++
-a free music score editor for Linux"
+a free music score editor for Linux
 
 {{< files text="show files" >}}* usr/bin/noteedit
 * usr/lib/libnoteedit.la

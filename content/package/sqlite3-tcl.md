@@ -13,7 +13,7 @@ usize = "55820"
 sha1sum = "f47b5337d25d440a591224ffe2f6e4f68daffe5a"
 depends = "['tcl']"
 +++
-sqlite Tcl Extension Architecture (TEA)"
+sqlite Tcl Extension Architecture (TEA)
 
 {{< files text="show files" >}}* /usr/lib/sqlite3-3.45.1/libtclsqlite3.so
 * /usr/lib/sqlite3-3.45.1/pkgIndex.tcl

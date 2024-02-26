@@ -13,7 +13,7 @@ usize = "67934"
 sha1sum = "7703e1241ab49a86e8fc48d8bbba7b6c46f7e113"
 depends = "['perl']"
 +++
-unp is a small perl script which makes extraction of any archive files easier."
+unp is a small perl script which makes extraction of any archive files easier.
 
 {{< files text="show files" >}}* /etc/bash_completion.d/unp.sh
 * /usr/bin/ucat

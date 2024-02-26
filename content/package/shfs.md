@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "8e9764fa7f36e4eff9dcdeb755e6ed55a5cddf4f"
 depends = "['kernel']"
 +++
-Allows you to mount remote filesystems using a shell (ssh) connection"
+Allows you to mount remote filesystems using a shell (ssh) connection
 
 {{< files text="show files" >}}* lib/modules/2.6.15-fw2/kernel/fs/shfs/shfs.ko
 * sbin/mount.shfs

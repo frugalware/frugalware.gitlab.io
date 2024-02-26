@@ -13,7 +13,7 @@ usize = "38197057"
 sha1sum = "fd73fa404c641d602a6be437f55dc2411205ed0c"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Amharic support in LibreOffice"
+Installs Amharic support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/help/am/default.css
 * /usr/lib/libreoffice/help/am/err.html

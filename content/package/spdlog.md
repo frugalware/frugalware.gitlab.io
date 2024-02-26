@@ -13,7 +13,7 @@ usize = "6309138"
 sha1sum = "1730ffc14fcbc5e1724f72d8119801a0b9c748e7"
 depends = "['glibc>=2.38']"
 +++
-Very fast, header-only/compiled, C++ logging library"
+Very fast, header-only/compiled, C++ logging library
 
 {{< files text="show files" >}}* /usr/include/spdlog/async.h
 * /usr/include/spdlog/async_logger-inl.h

@@ -14,7 +14,7 @@ sha1sum = "7a43ff96bb7e8c5fc2c1cba7215e50e0bbe433ee"
 depends = "[]"
 reverse_depends = "['wine', 'wine-devel']"
 +++
-OpenCL ICD Bindings ( 32bit )"
+OpenCL ICD Bindings ( 32bit )
 
 {{< files text="show files" >}}* /usr/lib32/libOpenCL.so
 * /usr/lib32/libOpenCL.so.1

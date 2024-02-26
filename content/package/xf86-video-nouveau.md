@@ -14,7 +14,7 @@ sha1sum = "fb12cf519c9639de41a6ed57564bdb9de51325ce"
 depends = "['libudev>=242', 'xorg-server>=1.20.4-3']"
 license = "GPL2"
 +++
-X.Org driver for Nvidia cards (opensource)"
+X.Org driver for Nvidia cards (opensource)
 
 {{< files text="show files" >}}* /usr/lib/xorg/modules/drivers/nouveau_drv.so
 * /usr/share/doc/xf86-video-nouveau-1.0.17/ChangeLog

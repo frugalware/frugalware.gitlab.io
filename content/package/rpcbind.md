@@ -14,7 +14,7 @@ sha1sum = "27dfc607f5d87fcc901003d0954a6612a980c9b2"
 depends = "['bash', 'libtirpc>=1.1.4']"
 reverse_depends = "['hplip', 'nfs-utils']"
 +++
-A server that converts RPC program numbers into universal addresses."
+A server that converts RPC program numbers into universal addresses.
 
 {{< files text="show files" >}}* /usr/bin/rpcbind
 * /usr/bin/rpcinfo

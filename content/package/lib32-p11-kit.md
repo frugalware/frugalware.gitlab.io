@@ -14,7 +14,7 @@ sha1sum = "9323dab2bc56b2542ae31ddc5e34d3aafad1122d"
 depends = "['lib32-libffi', 'lib32-libsystemd', 'lib32-libtasn1']"
 reverse_depends = "['lib32-gnutls', 'lib32-libsystemd']"
 +++
-Provides a way to load and enumerate PKCS#11 modules. ( 32bit )"
+Provides a way to load and enumerate PKCS#11 modules. ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/p11-kit
 * /usr/i686-frugalware-linux/bin/trust

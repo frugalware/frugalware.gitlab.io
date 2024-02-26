@@ -14,7 +14,7 @@ sha1sum = "b9c747f13b270457932aff5b9bd842fba7faf750"
 depends = "['python3', 'systemd']"
 reverse_depends = "['fail2ban', 'yin-yang']"
 +++
-Systemd python bindings"
+Systemd python bindings
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/systemd/daemon.py
 * /usr/lib/python3.12/site-packages/systemd/id128.cpython-312-x86_64-linux-gnu.so

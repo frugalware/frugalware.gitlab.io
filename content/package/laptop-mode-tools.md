@@ -13,7 +13,7 @@ usize = "264376"
 sha1sum = "71de355ec5005bb3417a3c9aa71fceca12bb8991"
 depends = "['acpid', 'hdparm']"
 +++
-A kernel mode that allows you to extend the battery life of your laptop"
+A kernel mode that allows you to extend the battery life of your laptop
 
 {{< files text="show files" >}}* /etc/acpi/actions/lm_ac_adapter.sh
 * /etc/acpi/actions/lm_battery.sh

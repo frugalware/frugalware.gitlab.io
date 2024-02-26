@@ -14,7 +14,7 @@ sha1sum = "ab68f4b9b4aac1a281688e50183e8e75fd7252bb"
 depends = "['libjpeg-turbo', 'libpng>=1.6.25', 'libtiff>=4.0.6-2', 'libusb1>=1.0.20-5', 'libx11>=1.6.3-4', 'libxinerama>=1.1.3-3', 'libxrandr>=1.5.0-5', 'libxxf86vm>=1.1.4-3']"
 reverse_depends = "['colord']"
 +++
-ICC compatible color management system"
+ICC compatible color management system
 
 {{< files text="show files" >}}* /usr/bin/applycal
 * /usr/bin/average

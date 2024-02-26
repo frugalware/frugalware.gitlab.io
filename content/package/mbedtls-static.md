@@ -13,7 +13,7 @@ usize = "3550384"
 sha1sum = "47f5ed4a518d282ed5c655a1fa069b1497e51384"
 depends = "[]"
 +++
-Static files for mbedtls"
+Static files for mbedtls
 
 {{< files text="show files" >}}* /usr/lib/libmbedcrypto.a
 * /usr/lib/libmbedtls.a

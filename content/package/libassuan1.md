@@ -13,7 +13,7 @@ usize = "430109"
 sha1sum = "d28c411f50d50f0158854ce24948d7be2a9dcebe"
 depends = "['libgpg-error']"
 +++
-Libassuan is the IPC library used by some GnuPG related software"
+Libassuan is the IPC library used by some GnuPG related software
 
 {{< files text="show files" >}}* /usr/bin/libassuan-config
 * /usr/include/assuan.h

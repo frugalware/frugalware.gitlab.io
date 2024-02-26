@@ -14,7 +14,7 @@ sha1sum = "e26a49c727ff50efc5a91f2b15365a8f690d70af"
 depends = "['protobuf>=25.3']"
 reverse_depends = "['criu', 'fwupd']"
 +++
-C bindings for Google's Protocol Buffers"
+C bindings for Google's Protocol Buffers
 
 {{< files text="show files" >}}* /usr/bin/protoc-c
 * /usr/bin/protoc-gen-c

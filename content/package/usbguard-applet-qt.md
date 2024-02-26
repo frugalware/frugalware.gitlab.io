@@ -13,7 +13,7 @@ usize = "245618"
 sha1sum = "d9b9af5943c25969053eb3fe1cd8583d1931f3ed"
 depends = "['qt5-base>=5.15.10', 'usbguard']"
 +++
-USBguard QT GUI"
+USBguard QT GUI
 
 {{< files text="show files" >}}* /usr/bin/usbguard-applet-qt
 * /usr/share/applications/usbguard-applet-qt.desktop

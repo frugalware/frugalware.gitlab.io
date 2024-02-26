@@ -14,7 +14,7 @@ sha1sum = "05441097806e98d198480597f7d1aa674f26ec0d"
 depends = "['iptables', 'libmnl']"
 reverse_depends = "['fail2ban']"
 +++
-An administration tool for IP sets."
+An administration tool for IP sets.
 
 {{< files text="show files" >}}* /etc/bash_completion.d/ipset
 * /usr/bin/ipset

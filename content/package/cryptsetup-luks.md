@@ -14,7 +14,7 @@ sha1sum = "7250607ff5723af1a6aa1499e02751098a654766"
 depends = "['argon2', 'json-c>=0.14', 'libblkid', 'libssh', 'libuuid>=2.31.1-3', 'lvm2-libs>=2.02.177-4', 'openssl>=3.1.0', 'popt>=1.16-9']"
 reverse_depends = "['dracut-ykfde', 'kernel-initrd', 'kernel-lts-initrd', 'systemd', 'systemd-nspawn', 'systemd-systemctl', 'volume_key', 'zulucrypt']"
 +++
-cryptsetup-luks is intended as a complete replacement for the original cryptsetup."
+cryptsetup-luks is intended as a complete replacement for the original cryptsetup.
 
 {{< files text="show files" >}}* /usr/bin/cryptsetup
 * /usr/bin/cryptsetup-ssh

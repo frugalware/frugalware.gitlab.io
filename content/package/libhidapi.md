@@ -14,7 +14,7 @@ sha1sum = "c58d51f17dfe534b1e83898e77ee3fb80ae4d491"
 depends = "['libusb1']"
 reverse_depends = "['libfido2', 'libu2f-host', 'mixxx', 'openrgb']"
 +++
-A Simple library for communicating with USB and Bluetooth HID devices on Linux, Mac, and Windows."
+A Simple library for communicating with USB and Bluetooth HID devices on Linux, Mac, and Windows.
 
 {{< files text="show files" >}}* /usr/include/hidapi/hidapi.h
 * /usr/include/hidapi/hidapi_libusb.h

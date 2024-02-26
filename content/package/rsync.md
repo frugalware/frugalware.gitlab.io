@@ -14,7 +14,7 @@ sha1sum = "b1f924cc26604dc5fca2fbce481676696a2961bc"
 depends = "['openssl>=3.1.0', 'popt>=1.14-2', 'xxhash', 'zstd']"
 reverse_depends = "['calamares-frugalware', 'profile-sync-daemon', 'sshcode']"
 +++
-An open source utility that provides fast incremental file transfer."
+An open source utility that provides fast incremental file transfer.
 
 {{< files text="show files" >}}* /etc/logrotate.d/rsyncd
 * /etc/rsyncd.conf

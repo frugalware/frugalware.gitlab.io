@@ -13,7 +13,7 @@ usize = "153152"
 sha1sum = "b21385338141726187ac44a8da340846275f73ad"
 depends = "['cryptsetup-luks>=2.0.1', 'iniparser>=4.0-2', 'keyutils', 'libarchive', 'libsystemd', 'libyubikey', 'yubikey-personalization']"
 +++
-Full disk encryption with Yubikey (Yubico key) for dracut"
+Full disk encryption with Yubikey (Yubico key) for dracut
 
 {{< files text="show files" >}}* /etc/ykfde.conf
 * /etc/ykfde.d/.gitignore

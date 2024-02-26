@@ -14,7 +14,7 @@ sha1sum = "32431fbdc5c5d05212c6538b20c46d60da00c308"
 depends = "['kitemmodels>=5.115.0', 'kpimtextedit>=23.08.5', 'libgpgmepp>=1.18.0', 'libqgpgme>=1.18.0']"
 reverse_depends = "['akonadi-contacts', 'kleopatra', 'kmail-account-wizard', 'kopete']"
 +++
-This lib provides crypto for mails."
+This lib provides crypto for mails.
 
 {{< files text="show files" >}}* /etc/xdg/libkleopatrarc
 * /usr/include/KPim5/Libkleo/Libkleo/Algorithm

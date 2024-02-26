@@ -14,7 +14,7 @@ sha1sum = "48132782e5f19628311674fcc4d4662ac7b7c4e8"
 depends = "['kcalutils>=23.08.5', 'kcontacts>=5.115.0']"
 reverse_depends = "['kdepim-addons', 'kmail']"
 +++
-Desc: C++ API for the handling of TNEF data."
+Desc: C++ API for the handling of TNEF data.
 
 {{< files text="show files" >}}* /usr/include/KPim5/KTNEF/KTNEF/Formatter
 * /usr/include/KPim5/KTNEF/ktnef/formatter.h

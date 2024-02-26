@@ -14,7 +14,7 @@ sha1sum = "909d84fa311b3d3a3f04fd680360677e42a229c8"
 depends = "['libsystemd', 'libxcrypt']"
 reverse_depends = "['avahi', 'clamav', 'distcc', 'libusbmuxd', 'pacman-g2', 'pacman-tools', 'parted', 'redis', 'scriptlet-core', 'systemd', 'texinfo', 'tpm2-tss', 'xdotool']"
 +++
-Shadow password file utilities"
+Shadow password file utilities
 
 {{< files text="show files" >}}* /etc/adduser.conf
 * /etc/group

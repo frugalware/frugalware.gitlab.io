@@ -14,7 +14,7 @@ sha1sum = "493d26423d98385faa7cf5edaf85b0cfaca6df71"
 depends = "['libxaw>=1.0.13-2']"
 license = "GPL2"
 +++
-X.Org xcalc application"
+X.Org xcalc application
 
 {{< files text="show files" >}}* /usr/bin/xcalc
 * /usr/share/doc/xcalc-1.1.2/ChangeLog

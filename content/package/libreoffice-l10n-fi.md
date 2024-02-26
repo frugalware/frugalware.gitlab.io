@@ -13,7 +13,7 @@ usize = "34460670"
 sha1sum = "54f29ccebb38643efbec2bfc675655080120da26"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Finnish support in LibreOffice"
+Installs Finnish support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/help/fi/default.css
 * /usr/lib/libreoffice/help/fi/err.html

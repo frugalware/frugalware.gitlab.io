@@ -13,7 +13,7 @@ usize = "422521"
 sha1sum = "517946b08504a80bafc793063818b25211101f1c"
 depends = "[]"
 +++
-ZyDAS ZD1211 802.11b/g USB WLAN chipset Linux drivers Firmware"
+ZyDAS ZD1211 802.11b/g USB WLAN chipset Linux drivers Firmware
 
 {{< files text="show files" >}}* /usr/lib/firmware/zd1211/COPYING
 * /usr/lib/firmware/zd1211/WS11Ub.h

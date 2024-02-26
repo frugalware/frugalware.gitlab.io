@@ -15,7 +15,7 @@ depends = "['glibc>=2.34']"
 reverse_depends = "['aacplusenc', 'blender', 'calf', 'imagemagick', 'insight-toolkit', 'julia', 'labplot', 'libkeyfinder', 'libpulse', 'libsamplerate', 'libvips', 'luminance-hdr', 'ncmpcpp', 'octave', 'zita-convolver']"
 license = "GPL-2"
 +++
-C subroutine library for computing the Discrete Fourier Transform (DFT)"
+C subroutine library for computing the Discrete Fourier Transform (DFT)
 
 {{< files text="show files" >}}* /usr/bin/fftw-wisdom
 * /usr/bin/fftw-wisdom-to-conf

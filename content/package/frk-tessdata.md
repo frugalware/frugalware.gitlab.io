@@ -13,7 +13,7 @@ usize = "22874121"
 sha1sum = "66577e9239ef0a2b897460ff2286c6a3977e445f"
 depends = "['glibc']"
 +++
-Language specific files for tesseract lang frk"
+Language specific files for tesseract lang frk
 
 {{< files text="show files" >}}* /usr/share/tessdata/frk.traineddata
 {{< /files >}}

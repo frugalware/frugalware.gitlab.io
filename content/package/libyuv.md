@@ -14,7 +14,7 @@ sha1sum = "92ba090eeb8745ea4807e5500f0667d1707ac65c"
 depends = "['libjpeg-turbo']"
 reverse_depends = "['libavif']"
 +++
-Library for YUV scaling"
+Library for YUV scaling
 
 {{< files text="show files" >}}* /usr/bin/yuvconvert
 * /usr/include/libyuv.h

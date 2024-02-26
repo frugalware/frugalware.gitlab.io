@@ -14,7 +14,7 @@ sha1sum = "c447282803cd141f9cb6f61dad918df8c0839a6b"
 depends = "['7zip', 'curl', 'fftw', 'gmp', 'lapack', 'libatomic', 'libgfortran', 'libgit2>=0.25.0', 'libunwind', 'lld', 'llvm15-libs', 'mbedtls', 'openblas', 'pcre2', 'suitesparse', 'utf8proc', 'zlib>=1.2.12']"
 reverse_depends = "['cantor']"
 +++
-High-level, high-performance dynamic programming language for technical computing."
+High-level, high-performance dynamic programming language for technical computing.
 
 {{< files text="show files" >}}* /etc/julia/startup.jl
 * /etc/ld.so.conf.d/julia.conf

@@ -13,7 +13,7 @@ usize = "289220411"
 sha1sum = "4f3e34564cf8709bb818bed27fb05d3625e82e1a"
 depends = "['dbus', 'glib2']"
 +++
-Threema Desktop (Threema Web in Electron)."
+Threema Desktop (Threema Web in Electron).
 
 {{< files text="show files" >}}* /usr/bin/threema
 * /usr/lib/threema-desktop/chrome-sandbox

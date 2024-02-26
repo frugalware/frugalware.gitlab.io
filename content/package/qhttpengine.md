@@ -14,7 +14,7 @@ sha1sum = "3892d36d59b779116cdfe90da3079bdea617451d"
 depends = "['qt5-base']"
 reverse_depends = "['nitroshare']"
 +++
-Simple and secure HTTP server for Qt"
+Simple and secure HTTP server for Qt
 
 {{< files text="show files" >}}* /usr/include/qhttpengine/basicauthmiddleware.h
 * /usr/include/qhttpengine/filesystemhandler.h

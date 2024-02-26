@@ -13,7 +13,7 @@ usize = "247220"
 sha1sum = "4338620c329f070984b8b5a11c9a182b382a702d"
 depends = "['libnl', 'libpcap', 'ncurses>=6.0-3']"
 +++
-Ncursed-based monitoring application for wireless network devices"
+Ncursed-based monitoring application for wireless network devices
 
 {{< files text="show files" >}}* /usr/bin/wavemon
 * /usr/share/doc/wavemon-0.9.0/AUTHORS

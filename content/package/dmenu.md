@@ -14,7 +14,7 @@ sha1sum = "a291f8c2feadfd644fdbfe0b1a70ce0b231ed912"
 depends = "['libxft>=2.3.2-2', 'libxinerama>=1.1.3-2']"
 reverse_depends = "['i3']"
 +++
-Dynamic menu for wmii."
+Dynamic menu for wmii.
 
 {{< files text="show files" >}}* /usr/bin/dmenu
 * /usr/bin/dmenu_path

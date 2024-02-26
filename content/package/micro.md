@@ -14,7 +14,7 @@ sha1sum = "341873defc7f692872aa9fbe8d7d8c5bbf59041b"
 depends = "['glibc']"
 license = "MIT"
 +++
-A modern and intuitive terminal-based text editor"
+A modern and intuitive terminal-based text editor
 
 {{< files text="show files" >}}* /usr/bin/micro
 * /usr/share/doc/micro-2.0.13/LICENSE

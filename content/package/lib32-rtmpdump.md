@@ -14,7 +14,7 @@ sha1sum = "d5bf6f4b822cd6b3c1e44dbd6bb704be83785214"
 depends = "['lib32-gnutls', 'lib32-libgcrypt', 'lib32-zlib>=1.2.12']"
 reverse_depends = "['lib32-ffmpeg']"
 +++
-A tool to download rtmp:// and rtmpe:// streams ( 32bit )"
+A tool to download rtmp:// and rtmpe:// streams ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/sbin/rtmpdump
 * /usr/i686-frugalware-linux/sbin/rtmpgw

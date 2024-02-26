@@ -14,7 +14,7 @@ sha1sum = "d22d7c923af90881367306c546ba17ec3b5a3bf2"
 depends = "['haskell-hashable', 'haskell-unordered-containers']"
 reverse_depends = "['haskell-servant', 'haskell-wai']"
 +++
-a persistent store for values of arbitrary types"
+a persistent store for values of arbitrary types
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/vault-0.3.1.5/Data/Unique/Really.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/vault-0.3.1.5/Data/Unique/Really.hi

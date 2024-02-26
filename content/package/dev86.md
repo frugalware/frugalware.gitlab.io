@@ -14,7 +14,7 @@ sha1sum = "7d5a1c53ae1eaf7218900b06f2faad6452a1ce8c"
 depends = "['bin86', 'glibc>=2.27-2']"
 reverse_depends = "['virtualbox']"
 +++
-The dev86 package provides an assembler and linker for real mode 80x86 instructions"
+The dev86 package provides an assembler and linker for real mode 80x86 instructions
 
 {{< files text="show files" >}}* /usr/bin/ar86
 * /usr/bin/bcc

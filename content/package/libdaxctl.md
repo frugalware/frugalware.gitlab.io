@@ -14,7 +14,7 @@ sha1sum = "556e0e127481ced09b0afb8eb7de4d4457ff099f"
 depends = "['libuuid']"
 reverse_depends = "['libndctl', 'ndctl']"
 +++
-Library for managing DAX devices."
+Library for managing DAX devices.
 
 {{< files text="show files" >}}* /usr/include/daxctl/libdaxctl.h
 * /usr/lib/libdaxctl.so

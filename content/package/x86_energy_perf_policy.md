@@ -13,7 +13,7 @@ usize = "38644"
 sha1sum = "95dd6138d39a74728b355430bfc370acba49ddcd"
 depends = "['pciutils']"
 +++
-Kernel tool for setting MSR energy policies"
+Kernel tool for setting MSR energy policies
 
 {{< files text="show files" >}}* /usr/bin/x86_energy_perf_policy
 * /usr/share/man/man8/x86_energy_perf_policy.8.gz

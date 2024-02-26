@@ -13,7 +13,7 @@ usize = "5201523"
 sha1sum = "293f121e16288e4b44ff2c0c9a15e5573b46a62d"
 depends = "[]"
 +++
-Norwegian Localization for KDE."
+Norwegian Localization for KDE.
 
 {{< files text="show files" >}}* usr/share/apps/khangman/data/nn/animals.kvtml
 * usr/share/apps/khangman/data/nn/easy.kvtml

@@ -13,7 +13,7 @@ usize = "35827309"
 sha1sum = "3d24ee0f59baa9e227ae553f242a8f8ca1c0b6c6"
 depends = "['texlive=2023.0']"
 +++
-XML/HTML packages for TeX Live"
+XML/HTML packages for TeX Live
 
 {{< files text="show files" >}}* /usr/bin/ht
 * /usr/bin/htcontext

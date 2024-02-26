@@ -14,7 +14,7 @@ sha1sum = "8a5861e052da28249b3e25db58e7b6ccbc5ae0bf"
 depends = "['glibc']"
 license = "GPL"
 +++
-A tool for generating static binaries of dynamic ELF executables"
+A tool for generating static binaries of dynamic ELF executables
 
 {{< files text="show files" >}}* /usr/bin/statifier
 * /usr/lib/statifier/64/dl-var

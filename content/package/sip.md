@@ -13,7 +13,7 @@ usize = "3723689"
 sha1sum = "52e235821ba607dec628599d2f6d5f7c2a3902d7"
 depends = "['python3-packaging', 'python3-ply', 'python3-toml']"
 +++
-SIP bindings for C and C++ libraries"
+SIP bindings for C and C++ libraries
 
 {{< files text="show files" >}}* /usr/bin/sip-build
 * /usr/bin/sip-distinfo

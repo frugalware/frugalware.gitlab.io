@@ -14,7 +14,7 @@ sha1sum = "c7568fa09d7090f024ea42e3a61a883072090de7"
 depends = "['lib32-at-spi2-core', 'lib32-gdk-pixbuf2>=2.36.0', 'lib32-libcups', 'lib32-libxcomposite>=0.4.4-3', 'lib32-libxcursor>=1.1.14-3', 'lib32-libxi>=1.7.6-2', 'lib32-libxinerama>=1.1.3-3', 'lib32-libxrandr>=1.5.0-5', 'lib32-pango>=1.40.3-2']"
 reverse_depends = "['steam-native']"
 +++
-GTK+2 core libraries. ( 32bit )"
+GTK+2 core libraries. ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/gtk-builder-convert
 * /usr/i686-frugalware-linux/bin/gtk-demo

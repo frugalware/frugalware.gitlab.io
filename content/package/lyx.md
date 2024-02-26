@@ -13,7 +13,7 @@ usize = "65297189"
 sha1sum = "081a5264cfacf70bf74c099d1e3814325734233f"
 depends = "['aspell>=0.60.6.1-4', 'enchant', 'hunspell>=1.7.0', 'libboost>=1.72.0', 'mythes', 'qt5-base>=5.15.10', 'qt5-svg>=5.15.10', 'texlive']"
 +++
-An advanced open-source document processor based on TeX"
+An advanced open-source document processor based on TeX
 
 {{< files text="show files" >}}* /usr/bin/lyx
 * /usr/bin/lyxclient

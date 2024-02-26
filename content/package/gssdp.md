@@ -14,7 +14,7 @@ sha1sum = "ee12182415c7629d35943f782ac73261c9f91814"
 depends = "['gtk+4', 'libsoup3']"
 reverse_depends = "['gupnp']"
 +++
-GSSDP implements resource discovery and announcement over SSDP of GUPnP framework."
+GSSDP implements resource discovery and announcement over SSDP of GUPnP framework.
 
 {{< files text="show files" >}}* /usr/bin/gssdp-device-sniffer
 * /usr/include/gssdp-1.6/libgssdp/gssdp-client.h

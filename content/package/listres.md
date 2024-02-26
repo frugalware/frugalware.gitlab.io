@@ -14,7 +14,7 @@ sha1sum = "9f60982d14e537e603ac85fe094ff16509fba58a"
 depends = "['libxaw>=1.0.13-2']"
 license = "GPL2"
 +++
-X.Org listres application"
+X.Org listres application
 
 {{< files text="show files" >}}* /usr/bin/listres
 * /usr/share/doc/listres-1.0.5/ChangeLog

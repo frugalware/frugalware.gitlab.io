@@ -14,7 +14,7 @@ sha1sum = "7f1a489420253ec44fe15b7fbe70ed431de97f1e"
 depends = "['glibc']"
 reverse_depends = "['sord']"
 +++
-A lightweight C99 portability and data structure library"
+A lightweight C99 portability and data structure library
 
 {{< files text="show files" >}}* /usr/include/zix-0/zix/allocator.h
 * /usr/include/zix-0/zix/attributes.h

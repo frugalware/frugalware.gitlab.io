@@ -15,7 +15,7 @@ depends = "['libsm>=1.2.2-3', 'libx11>=1.6.8']"
 reverse_depends = "['appres', 'beforelight', 'editres', 'firefox', 'gifsicle', 'gvim', 'kmousetool', 'libxkbui', 'libxmu', 'libxpm', 'opencv', 'r', 'swt', 'thunderbird', 'vtk-python3', 'webkit-gtk3', 'wmi', 'xaw3d', 'xghostscript', 'xscreensaver', 'xsel', 'xterm']"
 license = "GPL2"
 +++
-X Toolkit Library"
+X Toolkit Library
 
 {{< files text="show files" >}}* /usr/include/X11/CallbackI.h
 * /usr/include/X11/Composite.h

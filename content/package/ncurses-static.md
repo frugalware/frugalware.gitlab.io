@@ -13,7 +13,7 @@ usize = "8811924"
 sha1sum = "aa769d450fd08ed81036fede432964e2bfde8045"
 depends = "[]"
 +++
-Static files for ncurses"
+Static files for ncurses
 
 {{< files text="show files" >}}* /usr/lib/libcurses.a
 * /usr/lib/libform.a

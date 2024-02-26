@@ -14,7 +14,7 @@ sha1sum = "8ac11c26ceef584dd63c77d6e08e2b3d1e219a17"
 depends = "['cairo>=1.14.6-4', 'curl', 'fontconfig>=2.12-2', 'libgpgmepp', 'libjpeg-turbo', 'libpng>=1.6.25', 'libstdc++>=9.1.0-3', 'nss', 'openjpeg>=2.2.0', 'poppler-data', 'poppler-data']"
 reverse_depends = "['cups-filters', 'efl', 'kitinerary', 'poppler-glib', 'poppler-pdftools', 'poppler-qt', 'poppler-qt5', 'poppler-qt6', 'scribus', 'texlive']"
 +++
-A PDF rendering library"
+A PDF rendering library
 
 {{< files text="show files" >}}* /etc/fonts/conf.avail/01-poppler.conf
 * /etc/fonts/conf.d/01-poppler.conf

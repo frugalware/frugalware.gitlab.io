@@ -14,7 +14,7 @@ sha1sum = "8ad896c6853d23c3bce219c0190582a0d108a7b5"
 depends = "[]"
 reverse_depends = "['pygobject3']"
 +++
-pygobject devel"
+pygobject devel
 
 {{< files text="show files" >}}* /usr/include/pygobject-3.0/pygobject.h
 * /usr/lib/pkgconfig/pygobject-3.0.pc

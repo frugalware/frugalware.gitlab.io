@@ -13,7 +13,7 @@ usize = "448623"
 sha1sum = "b53264c2caf38d0fb63c6693d91d2e7133b7a848"
 depends = "['glib2', 'librest']"
 +++
-GObject-based library to access oVirt REST API."
+GObject-based library to access oVirt REST API.
 
 {{< files text="show files" >}}* /usr/include/govirt-1.0/govirt/govirt.h
 * /usr/include/govirt-1.0/govirt/ovirt-api.h

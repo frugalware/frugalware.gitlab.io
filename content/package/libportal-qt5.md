@@ -13,7 +13,7 @@ usize = "54181"
 sha1sum = "ace95c33804373054b50b780f8c2196c4e823661"
 depends = "['libportal', 'qt5-x11extras>=5.15.10']"
 +++
-libportal qt5 backend"
+libportal qt5 backend
 
 {{< files text="show files" >}}* /usr/include/libportal-qt5/portal-qt5.h
 * /usr/lib/libportal-qt5.so

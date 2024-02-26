@@ -14,7 +14,7 @@ sha1sum = "042f7737c93dfada0618db8c87682d4b950a6138"
 depends = "['domainslib', 'ocaml-luv', 'ocaml-react', 'ocplib-endian', 'ppxlib']"
 reverse_depends = "['ounit']"
 +++
-A library for cooperative threads in OCaml"
+A library for cooperative threads in OCaml
 
 {{< files text="show files" >}}* /usr/lib/ocaml/lwt/dune-package
 * /usr/lib/ocaml/lwt/lwt.a

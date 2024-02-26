@@ -13,7 +13,7 @@ usize = "34560"
 sha1sum = "777be33a47f9fc6be2101b70f9848c56a17a96a2"
 depends = "['claws-mail=4.1.1', 'libytnef']"
 +++
-This plugin enables reading application/ms-tnef attachments."
+This plugin enables reading application/ms-tnef attachments.
 
 {{< files text="show files" >}}* /usr/lib/claws-mail/plugins/tnef_parse.so
 {{< /files >}}

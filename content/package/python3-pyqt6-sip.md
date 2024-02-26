@@ -14,7 +14,7 @@ sha1sum = "e74830b3e5a8a9a2298749fd516a9987e58cdefd"
 depends = "['python3>=3.12']"
 reverse_depends = "['pyqt6']"
 +++
-SIP module support PyQT6"
+SIP module support PyQT6
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/PyQt6/sip.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/PyQt6_sip-13.6.0-py3.12.egg-info/dependency_links.txt

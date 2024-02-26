@@ -14,7 +14,7 @@ sha1sum = "47245fe0fa1c297ad7586dad220dfe36f406b168"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Kazakh language support for Firefox"
+Kazakh language support for Firefox
 
 {{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-kk@firefox.mozilla.org.xpi
 {{< /files >}}

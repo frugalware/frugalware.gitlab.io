@@ -14,7 +14,7 @@ sha1sum = "0aba64aa44b2c10db03b4634324ef3b5a4378157"
 depends = "['haskell-digest', 'haskell-zlib']"
 reverse_depends = "['pandoc']"
 +++
-Library for creating and modifying zip archives"
+Library for creating and modifying zip archives
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/zip-archive-0.4.3/Codec/Archive/Zip.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/zip-archive-0.4.3/Codec/Archive/Zip.hi

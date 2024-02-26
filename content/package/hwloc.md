@@ -14,7 +14,7 @@ sha1sum = "f24fdb7f0dd0cfef2710c326da8cd22197b9b64e"
 depends = "['libcap', 'libudev', 'libxml2', 'ncurses']"
 reverse_depends = "['openpmix']"
 +++
-Portable Hardware Locality is a portable abstraction of hierarchical architectures"
+Portable Hardware Locality is a portable abstraction of hierarchical architectures
 
 {{< files text="show files" >}}* /usr/bin/hwloc-annotate
 * /usr/bin/hwloc-bind

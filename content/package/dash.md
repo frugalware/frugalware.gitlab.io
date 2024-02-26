@@ -14,7 +14,7 @@ sha1sum = "d36d7be2c1c34659a317454a68880b3471e77651"
 depends = "['glibc>=2.34']"
 reverse_depends = "['dracut']"
 +++
-A POSIX compliant shell implementation of /bin/sh."
+A POSIX compliant shell implementation of /bin/sh.
 
 {{< files text="show files" >}}* /usr/bin/dash
 * /usr/share/doc/dash-0.5.12/ChangeLog

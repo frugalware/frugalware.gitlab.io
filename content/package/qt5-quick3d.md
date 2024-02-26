@@ -13,7 +13,7 @@ usize = "10536110"
 sha1sum = "800d77529902585030148c2b4a42d1ee74f7d760"
 depends = "['qt5-declarative>=5.15.12']"
 +++
-The Qt5 toolkit, qtquick3d"
+The Qt5 toolkit, qtquick3d
 
 {{< files text="show files" >}}* /usr/bin/balsam
 * /usr/bin/balsam-qt5

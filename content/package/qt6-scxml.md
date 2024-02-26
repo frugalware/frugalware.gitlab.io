@@ -13,7 +13,7 @@ usize = "2153497"
 sha1sum = "74c9e2dcee7ba901b9f9aee364f62cf09aad9fd9"
 depends = "['qt6-declarative']"
 +++
-The Qt6 toolkit, qtscxml"
+The Qt6 toolkit, qtscxml
 
 {{< files text="show files" >}}* /usr/include/qt6/QtScxml/6.6.2/QtScxml/private/qscxmlcompiler_p.h
 * /usr/include/qt6/QtScxml/6.6.2/QtScxml/private/qscxmlcppdatamodel_p.h

@@ -13,7 +13,7 @@ usize = "1258208"
 sha1sum = "5c47188eb64044778f7d0491d1d0bc752ea06cb2"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Tswana support in LibreOffice"
+Installs Tswana support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/tn/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/tn/LC_MESSAGES/avmedia.mo

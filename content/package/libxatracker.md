@@ -14,7 +14,7 @@ sha1sum = "bd5b545e22b796efc2cb86eca031a03bea9e0160"
 depends = "['expat>=2.1.0-6', 'libdrm>=2.4.71', 'libffi>=3.2.1-2', 'llvm-libs>=17.0.6', 'zlib>=1.2.8-8']"
 reverse_depends = "['xf86-video-vmware']"
 +++
-Mesa xatracker library"
+Mesa xatracker library
 
 {{< files text="show files" >}}* /usr/include/xa_composite.h
 * /usr/include/xa_context.h

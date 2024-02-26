@@ -13,7 +13,7 @@ usize = "16617"
 sha1sum = "cb4d5c7064e16278b739bb4f09d89d03e018c171"
 depends = "['glibc>=2.34']"
 +++
-Central Regulatory Domain Database"
+Central Regulatory Domain Database
 
 {{< files text="show files" >}}* /usr/lib/crda/pubkeys/root.key.pub.pem
 * /usr/lib/crda/pubkeys/wens.key.pub.pem

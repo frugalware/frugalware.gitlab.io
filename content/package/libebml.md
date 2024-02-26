@@ -14,7 +14,7 @@ sha1sum = "89244d5ec63a475a9792965a24104b6d6ff2c705"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['libmatroska']"
 +++
-libebml is a C++ libary to parse EBML files."
+libebml is a C++ libary to parse EBML files.
 
 {{< files text="show files" >}}* /usr/include/ebml/c/libebml_t.h
 * /usr/include/ebml/Debug.h

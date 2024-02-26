@@ -13,7 +13,7 @@ usize = "4477732"
 sha1sum = "0748732a2807454a2fd3529030c0dcd30fd01e87"
 depends = "['kactivities5>=5.115.0', 'kcmutils>=5.115.0', 'kdesu>=5.115.0', 'plasma-workspace>=5.27.10']"
 +++
-Tools based on KDE Frameworks 5 to better interact with the system."
+Tools based on KDE Frameworks 5 to better interact with the system.
 
 {{< files text="show files" >}}* /usr/bin/kbroadcastnotification
 * /usr/bin/kcmshell5

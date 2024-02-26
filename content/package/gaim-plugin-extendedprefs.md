@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = ""
 depends = "[]"
 +++
-Gaim Extended Preferencies Plugin"
+Gaim Extended Preferencies Plugin
 
 {{< files text="show files" >}}* usr/lib/gaim/libextprefs.a
 * usr/lib/gaim/libextprefs.la

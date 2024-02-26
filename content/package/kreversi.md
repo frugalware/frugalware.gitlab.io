@@ -13,7 +13,7 @@ usize = "2267230"
 sha1sum = "c1dbe95e6225563a2bfce4d443df441e3022face"
 depends = "['libkdegames>=23.08.5']"
 +++
-KReversi is is a simple one player strategy game played against the computer"
+KReversi is is a simple one player strategy game played against the computer
 
 {{< files text="show files" >}}* /usr/bin/kreversi
 * /usr/share/applications/org.kde.kreversi.desktop

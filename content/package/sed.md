@@ -14,7 +14,7 @@ sha1sum = "077ded302f200c09da00b036a23d69e4804b3f82"
 depends = "['glibc>=2.35']"
 reverse_depends = "['docbook-xml', 'docbook-xsl', 'inxi', 'kbd', 'kernel', 'kernel-lts', 'pulse-autoconf', 'scriptlet-core', 'texinfo', 'ufw']"
 +++
-GNU version of sed, a stream editor"
+GNU version of sed, a stream editor
 
 {{< files text="show files" >}}* /usr/bin/sed
 * /usr/share/doc/sed-4.9/AUTHORS

@@ -14,7 +14,7 @@ sha1sum = "afac14e20503130aff99a8817c567b0742d83b10"
 depends = "['glibc', 'libxcrypt']"
 reverse_depends = "['lib32-libsystemd', 'lib32-libxcrypt-compat', 'lib32-pam', 'lib32-util-linux']"
 +++
-Modern library for one-way hashing of passwords - lib32"
+Modern library for one-way hashing of passwords - lib32
 
 {{< files text="show files" >}}* /usr/lib32/libcrypt.so
 * /usr/lib32/libcrypt.so.2

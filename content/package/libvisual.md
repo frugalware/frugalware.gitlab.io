@@ -14,7 +14,7 @@ sha1sum = "eb13fced9f8d7c69ce2162e622f7e8f55117d8c0"
 depends = "['glibc']"
 reverse_depends = "['gst1-plugins-base-libvisual']"
 +++
-An audio visualisation library that acts as a middle layer between audio visualisation plugins and applications."
+An audio visualisation library that acts as a middle layer between audio visualisation plugins and applications.
 
 {{< files text="show files" >}}* /usr/include/libvisual-0.4/libvisual/libvisual.h
 * /usr/include/libvisual-0.4/libvisual/lvconfig.h

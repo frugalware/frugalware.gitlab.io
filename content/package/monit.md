@@ -13,7 +13,7 @@ usize = "989747"
 sha1sum = "fb1ad9e39fb95466d5ddf7e4fa09966f8e07118c"
 depends = "['openssl>=3.1.0', 'pam']"
 +++
-monit is a utility for managing and monitoring, processes, files, directories and devices on a UNIX system"
+monit is a utility for managing and monitoring, processes, files, directories and devices on a UNIX system
 
 {{< files text="show files" >}}* /usr/bin/monit
 * /usr/lib/systemd/system/monit.service

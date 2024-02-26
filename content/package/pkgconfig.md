@@ -14,7 +14,7 @@ sha1sum = "01262b35a234399b98430820e2a1edba1149bae5"
 depends = "['glib2>=2.70']"
 reverse_depends = "['dracut']"
 +++
-A system for managing library compile/link flags"
+A system for managing library compile/link flags
 
 {{< files text="show files" >}}* /etc/profile.d/pkgconfig.sh
 * /usr/bin/pkg-config

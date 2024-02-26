@@ -14,7 +14,7 @@ sha1sum = "53d9f9c001c0a32ffb859926076fc03f59f37e39"
 depends = "['c-ares', 'icu4c>=74.1', 'nghttp2', 'openssl>=3.1.0', 'python3-setuptools', 'zlib']"
 license = "MIT"
 +++
-Evented I/O for V8 javascript"
+Evented I/O for V8 javascript
 
 {{< files text="show files" >}}* /usr/bin/corepack
 * /usr/bin/node

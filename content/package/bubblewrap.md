@@ -14,7 +14,7 @@ sha1sum = "eac7e32c0288b0b66ca075f153cbea1fa9d100c4"
 depends = "['glibc']"
 reverse_depends = "['flatpak', 'opam', 'webkit-gtk3']"
 +++
-Unprivileged sandboxing tool"
+Unprivileged sandboxing tool
 
 {{< files text="show files" >}}* /usr/bin/bwrap
 * /usr/share/bash-completion/completions/bwrap

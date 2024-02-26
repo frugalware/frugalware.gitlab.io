@@ -14,7 +14,7 @@ sha1sum = "25cdb47b587d3c52ff3cad8f7eee888d80ad1fed"
 depends = "['lib32-fftw>=3.3.4-4', 'lib32-libasyncns>=0.8-3', 'lib32-libdbus', 'lib32-libsndfile>=1.0.26-2', 'lib32-libtool>=2.4.6-4', 'lib32-libudev', 'lib32-libx11>=1.6.3-4', 'lib32-openssl', 'lib32-orc>=0.4.24-2', 'lib32-speexdsp>=1.2rc3-3', 'lib32-tdb>=1.3.10-2']"
 reverse_depends = "['lib32-ffmpeg', 'lib32-libmikmod', 'lib32-pipewire', 'steam-native']"
 +++
-pulseaduio client library (32-bit)"
+pulseaduio client library (32-bit)
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/pa-info
 * /usr/i686-frugalware-linux/bin/pacat

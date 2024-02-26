@@ -13,7 +13,7 @@ usize = "10545981"
 sha1sum = "1e974362d2ad7bf1d798fc86682b534cd9dd36cb"
 depends = "['curl', 'libboost>=1.83.0', 'libpq>=11.2-2', 'libstdc++>=12.2', 'lua>=5.4', 'mariadb-libs>=10.3.14', 'openssl>=3.1.0', 'sqlite3']"
 +++
-Power DNS Server and Recursor"
+Power DNS Server and Recursor
 
 {{< files text="show files" >}}* /etc/powerdns/pdns.conf
 * /etc/powerdns/pdns.conf-dist

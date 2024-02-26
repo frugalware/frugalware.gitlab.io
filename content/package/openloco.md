@@ -13,7 +13,7 @@ usize = "19487244"
 sha1sum = "bb80ac21f03311e89d09e964dce1a23ffbc085bd"
 depends = "['lib32-libpng', 'lib32-openal', 'lib32-sdl2_mixer', 'libstdc++']"
 +++
-An open source re-implementation of Locomotion"
+An open source re-implementation of Locomotion
 
 {{< files text="show files" >}}* /usr/bin/openloco
 * /usr/share/applications/openloco.desktop

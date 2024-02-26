@@ -13,7 +13,7 @@ usize = "8275"
 sha1sum = "330234e5221811492423b58f561a7da907e51b06"
 depends = "[]"
 +++
-Static files for flex"
+Static files for flex
 
 {{< files text="show files" >}}* /usr/lib/libfl.a
 * /usr/lib/libl.a

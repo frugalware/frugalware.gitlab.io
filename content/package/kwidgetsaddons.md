@@ -14,7 +14,7 @@ sha1sum = "3fb8fede6c215e65ab5b8bfced734ce5a9589de9"
 depends = "['qt5-base>=5.15.12']"
 reverse_depends = "['kbackup', 'kcachegrind', 'kcompletion', 'kconfigwidgets', 'kdiff3', 'kjobwidgets', 'kpeople5', 'kpmcore', 'plasma-sdk', 'rkward', 'xdg-desktop-portal-kde']"
 +++
-Large set of desktop widgets."
+Large set of desktop widgets.
 
 {{< files text="show files" >}}* /usr/include/KF5/KWidgetsAddons/KAcceleratorManager
 * /usr/include/KF5/KWidgetsAddons/kacceleratormanager.h

@@ -13,7 +13,7 @@ usize = "8071173"
 sha1sum = "d352a2bcce75d3899c150fe6c5df7cbdd0364f47"
 depends = "[]"
 +++
-Basque Localization for KDE."
+Basque Localization for KDE.
 
 {{< files text="show files" >}}* usr/share/doc/HTML/eu/common/1.png
 * usr/share/doc/HTML/eu/common/10.png

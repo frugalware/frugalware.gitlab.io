@@ -14,7 +14,7 @@ sha1sum = "179b1e088ebce011e33f77f99ae8cefcf11b6ad3"
 depends = "['libgcc']"
 reverse_depends = "['lvm2']"
 +++
-Suite of tools for manipulating the metadata of the dm-thin device-mapper target"
+Suite of tools for manipulating the metadata of the dm-thin device-mapper target
 
 {{< files text="show files" >}}* /usr/bin/cache_check
 * /usr/bin/cache_dump

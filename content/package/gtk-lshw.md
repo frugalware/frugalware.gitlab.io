@@ -14,7 +14,7 @@ sha1sum = "852516af7197dfa60f2b16bf89b495c094245f85"
 depends = "['gtk+2']"
 license = "GPL2"
 +++
-Gtk+2 frontend for lshw"
+Gtk+2 frontend for lshw
 
 {{< files text="show files" >}}* /usr/bin/gtk-lshw
 * /usr/share/doc/gtk-lshw-B.02.18/Changelog

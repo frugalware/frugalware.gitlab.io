@@ -13,7 +13,7 @@ usize = "30592"
 sha1sum = "7c9c945ff3430094758cab3ca13a7473d6696fc1"
 depends = "['claws-mail=4.1.1', 'gpgme>=1.6.0-3']"
 +++
-Handles PGP/MIME signed and/or encrypted mails."
+Handles PGP/MIME signed and/or encrypted mails.
 
 {{< files text="show files" >}}* /usr/lib/claws-mail/plugins/pgpmime.deps
 * /usr/lib/claws-mail/plugins/pgpmime.so

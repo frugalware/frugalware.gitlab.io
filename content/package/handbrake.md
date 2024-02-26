@@ -14,7 +14,7 @@ sha1sum = "4238de81ac07d94dfc366a34802ea94bcec3b718"
 depends = "['ffmpeg>=6.0', 'jansson', 'libdvdnav', 'numactl', 'opus', 'x264>=20230712.ga8b68eb']"
 reverse_depends = "['gtk-handbrake']"
 +++
-HandBrake is an open-source, multiplatform, multithreaded video transcoder"
+HandBrake is an open-source, multiplatform, multithreaded video transcoder
 
 {{< files text="show files" >}}* /usr/bin/HandBrakeCLI
 * /usr/share/doc/handbrake-1.6.1/COPYING

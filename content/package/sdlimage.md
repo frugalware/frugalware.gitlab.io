@@ -14,7 +14,7 @@ sha1sum = "bb8131925e4b540bcf581fd37751e06bcbe7c52c"
 depends = "['sdl>=1.2.15-4']"
 reverse_depends = "['assaultcube', 'lincity-ng', 'manaplus', 'mlt-sdl', 'netpanzer', 'opencity', 'vlc-sdlimage']"
 +++
-Image loading library for Simple DirectMedia Layer 1.2"
+Image loading library for Simple DirectMedia Layer 1.2
 
 {{< files text="show files" >}}* /usr/include/SDL/SDL_image.h
 * /usr/lib/libSDL_image-1.2.so.0

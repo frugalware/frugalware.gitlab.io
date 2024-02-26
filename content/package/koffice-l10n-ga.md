@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "bbe89004417f30fa6c94a3fdc24ccadd0c429d71"
 depends = "[]"
 +++
-Irish Gaelic Localization for KOffice. "
+Irish Gaelic Localization for KOffice. 
 
 {{< files text="show files" >}}* usr/share/locale/ga/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/ga/LC_MESSAGES/example.mo

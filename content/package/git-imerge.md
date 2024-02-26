@@ -13,7 +13,7 @@ usize = "359785"
 sha1sum = "e03c709a18b6d2d9cf090effa77e738cf0b86da4"
 depends = "['bash-completion', 'git', 'python3']"
 +++
-Incremental merge and rebase for git"
+Incremental merge and rebase for git
 
 {{< files text="show files" >}}* /usr/bin/git-imerge
 * /usr/lib/python3.12/site-packages/gitimerge.py

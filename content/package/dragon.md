@@ -13,7 +13,7 @@ usize = "2778466"
 sha1sum = "6105f30f23978c7a4c8fbbad7bd286a2a82dbb5f"
 depends = "['kparts>=5.115.0']"
 +++
-KDE Video Player."
+KDE Video Player.
 
 {{< files text="show files" >}}* /etc/xdg/dragonplayerrc
 * /usr/bin/dragon

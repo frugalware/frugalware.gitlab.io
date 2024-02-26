@@ -13,7 +13,7 @@ usize = "1547917"
 sha1sum = "722a97e35418b84710c3f2f3991a0020d65609f1"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Kinyarwanda support in LibreOffice"
+Installs Kinyarwanda support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/rw/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/rw/LC_MESSAGES/avmedia.mo

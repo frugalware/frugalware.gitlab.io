@@ -13,7 +13,7 @@ usize = "2852225"
 sha1sum = "6946d7566a6e09e427d3dc9b2e4741fc578295ad"
 depends = "['libkdegames>=23.08.5', 'qt5-svg>=5.15.12']"
 +++
-The classic falling blocks game."
+The classic falling blocks game.
 
 {{< files text="show files" >}}* /usr/bin/kblocks
 * /usr/share/applications/org.kde.kblocks.desktop

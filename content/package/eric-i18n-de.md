@@ -14,7 +14,7 @@ sha1sum = "e1e001d58c72e58e4b2fb3174a95c2a6acec25ea"
 depends = "[]"
 license = "GPL2"
 +++
-German language files for Eric"
+German language files for Eric
 
 {{< files text="show files" >}}* usr/lib/python2.6/site-packages/eric3/i18n/eric3_de.qm
 {{< /files >}}

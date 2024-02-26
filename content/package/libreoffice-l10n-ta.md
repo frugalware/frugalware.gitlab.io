@@ -13,7 +13,7 @@ usize = "36784537"
 sha1sum = "4ce783b47e3bd4697d9eea8fcdd6b8705c41710f"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Tamil support in LibreOffice"
+Installs Tamil support in LibreOffice
 
 {{< files text="show files" >}}* /usr/lib/libreoffice/help/ta/default.css
 * /usr/lib/libreoffice/help/ta/err.html

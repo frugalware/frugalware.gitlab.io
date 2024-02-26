@@ -14,7 +14,7 @@ sha1sum = "6f12775c93b42c4587412828bcbba02319c054b8"
 depends = "['pyqt6', 'qt6-webengine']"
 reverse_depends = "['calibre']"
 +++
-Python bindings for Qt6WebEngine"
+Python bindings for Qt6WebEngine
 
 {{< files text="show files" >}}* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtWebEngineCore/QtWebEngineCore.toml
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtWebEngineCore/qtwebenginecoreglobal.sip

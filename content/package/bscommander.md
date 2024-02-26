@@ -13,7 +13,7 @@ usize = "992595"
 sha1sum = "47d6d9b8d5928a8f183cf6c81b55ec02cd670ae1"
 depends = "[]"
 +++
-Two panels file manager with FTP support."
+Two panels file manager with FTP support.
 
 {{< files text="show files" >}}* usr/bin/bsc
 * usr/share/applications/bscommander.desktop

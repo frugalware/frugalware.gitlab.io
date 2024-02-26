@@ -14,7 +14,7 @@ sha1sum = "a31272e9925262443f1203c25d3e5729ea803e3e"
 depends = "['babl>=0.1.92', 'dejavu-ttf', 'ffmpeg>=6.0', 'jasper>=2.0.10', 'json-glib>=1.0.4-3', 'libffi>=3.2.1', 'libjpeg-turbo', 'libraw>=0.21.1', 'librsvg>=2.40.12-2', 'libstdc++>=9.1.0-3', 'libtiff>=4.0.6', 'libwebp>=0.6.0', 'openexr>=3.2.0', 'suitesparse>=7.0.1']"
 reverse_depends = "['gimp', 'libmypaint']"
 +++
-GEGL is a graph based image processing framework."
+GEGL is a graph based image processing framework.
 
 {{< files text="show files" >}}* /usr/bin/gegl
 * /usr/bin/gegl-imgcmp

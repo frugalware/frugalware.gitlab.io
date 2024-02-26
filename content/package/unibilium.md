@@ -14,7 +14,7 @@ sha1sum = "8905e4439221bf06259fc4cb56b9cae448761410"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['neovim']"
 +++
-A terminfo parsing library"
+A terminfo parsing library
 
 {{< files text="show files" >}}* /usr/include/unibilium.h
 * /usr/lib/libunibilium.so

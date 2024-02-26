@@ -14,7 +14,7 @@ sha1sum = "8fac1e960f58abd4d6872ace46ad6c117a97f01a"
 depends = "['qt6-declarative']"
 reverse_depends = "['qt6-webengine']"
 +++
-The Qt6 toolkit, qtwebchannel"
+The Qt6 toolkit, qtwebchannel
 
 {{< files text="show files" >}}* /usr/include/qt6/QtWebChannel/6.6.2/QtWebChannel/private/qmetaobjectpublisher_p.h
 * /usr/include/qt6/QtWebChannel/6.6.2/QtWebChannel/private/qwebchannel_p.h

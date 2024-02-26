@@ -13,7 +13,7 @@ usize = "1484099"
 sha1sum = "a99bc4ba14eec989b999ce1481c9f10b5aa46f84"
 depends = "['calendarsupport>=23.08.5']"
 +++
-Akonadi calendar tools"
+Akonadi calendar tools
 
 {{< files text="show files" >}}* /usr/bin/calendarjanitor
 * /usr/bin/konsolekalendar

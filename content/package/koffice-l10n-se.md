@@ -13,7 +13,7 @@ usize = "0"
 sha1sum = "f5e944fede56940f892b6825829e6faa1cf0ed70"
 depends = "[]"
 +++
-Northern Sami Localization for KOffice. "
+Northern Sami Localization for KOffice. 
 
 {{< files text="show files" >}}* usr/share/locale/se/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/se/LC_MESSAGES/example.mo

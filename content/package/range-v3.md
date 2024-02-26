@@ -13,7 +13,7 @@ usize = "2099244"
 sha1sum = "c124526ae5a30d4e1ffd0e27677d7a6892cdc2c8"
 depends = "['glibc>=2.34']"
 +++
-Experimental range library for C++11/14/17"
+Experimental range library for C++11/14/17
 
 {{< files text="show files" >}}* /usr/include/concepts/compare.hpp
 * /usr/include/concepts/concepts.hpp

@@ -14,7 +14,7 @@ sha1sum = "599e3ae0744352d1cd0264d428408f8544398a75"
 depends = "['qt5-base>=5.15.12']"
 reverse_depends = "['kasts', 'kate', 'krunner5', 'okular']"
 +++
-KDE Helper for multithreaded programming."
+KDE Helper for multithreaded programming.
 
 {{< files text="show files" >}}* /usr/include/KF5/ThreadWeaver/ThreadWeaver/Collection
 * /usr/include/KF5/ThreadWeaver/threadweaver/collection.h

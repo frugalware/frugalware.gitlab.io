@@ -13,7 +13,7 @@ usize = "682625"
 sha1sum = "149a5d30e2dc0eacb2e2ec23a04183a67492c79d"
 depends = "['glib2', 'readline>=8.0', 'unixodbc']"
 +++
-MDB Tools is a suite of libraries and program for accessing data stored in Microsoft Access databases."
+MDB Tools is a suite of libraries and program for accessing data stored in Microsoft Access databases.
 
 {{< files text="show files" >}}* /usr/bin/mdb-array
 * /usr/bin/mdb-export

@@ -13,7 +13,7 @@ usize = "1298727"
 sha1sum = "213809132bd263269a5f8f7e712ba15cdff22638"
 depends = "['hiredis', 'zstd']"
 +++
-A fast compiler cache"
+A fast compiler cache
 
 {{< files text="show files" >}}* /usr/bin/ccache
 * /usr/lib/ccache/bin/c++

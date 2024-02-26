@@ -14,7 +14,7 @@ sha1sum = "4543e167eab8a1289530ea5c000076058a4d10b7"
 depends = "['perl>=5.34.0', 'perl-class-singleton', 'perl-params-validate']"
 reverse_depends = "['perl-datetime']"
 +++
-Time zone object base class and factory"
+Time zone object base class and factory
 
 {{< files text="show files" >}}* /usr/lib/perl5/site_perl/DateTime/TimeZone.pm
 * /usr/lib/perl5/site_perl/DateTime/TimeZone/Africa/Abidjan.pm

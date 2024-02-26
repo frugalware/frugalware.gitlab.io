@@ -13,7 +13,7 @@ usize = "26100786"
 sha1sum = "7f76e1fcc8981fd69ed0df6f39000bb65f6ce32a"
 depends = "['texlive=2023.0']"
 +++
-Extra science packages for TeX Live"
+Extra science packages for TeX Live
 
 {{< files text="show files" >}}* /usr/bin/pygmentex
 * /usr/bin/ulqda

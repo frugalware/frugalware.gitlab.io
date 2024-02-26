@@ -13,7 +13,7 @@ usize = "16546543"
 sha1sum = "df8a554c12e5baaedefaa0b39064573ba5ccabb2"
 depends = "['kconfig>=5.110.0', 'kcoreaddons>=5.110.0', 'kdoctools>=5.110.0', 'ki18n>=5.110.0', 'knotifications>=5.110.0', 'kparts>=5.110.0', 'ktexteditor>=5.110.0', 'kwidgetsaddons>=5.110.0', 'kwindowsystem>=5.110.0', 'kxmlgui>=5.110.0', 'qt5-webengine>=5.15.11', 'r']"
 +++
-Easily extensible, easy to use IDE/GUI for R."
+Easily extensible, easy to use IDE/GUI for R.
 
 {{< files text="show files" >}}* /usr/bin/rkward
 * /usr/lib/kf5/rkward.rbackend

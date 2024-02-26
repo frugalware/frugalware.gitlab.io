@@ -14,7 +14,7 @@ sha1sum = "9adcc2a31b0ea7a0e4e539444dc9f5de9a92041d"
 depends = "['glade', 'gtk+2>=2.20.0-2', 'libxdamage>=1.1.1-3', 'libxml2>=2.7.8', 'mono>=2.8', 'mono']"
 reverse_depends = "['duplicati']"
 +++
-A C# language binding for the GTK+2 toolkit"
+A C# language binding for the GTK+2 toolkit
 
 {{< files text="show files" >}}* /usr/bin/gapi2-codegen
 * /usr/bin/gapi2-fixup

@@ -14,7 +14,7 @@ sha1sum = "01217eb8483daa68491acd83aea67ece7ef5448c"
 depends = "['lib32-icu4c', 'lib32-xz>=5.2.4-2', 'lib32-zlib>=1.2.12']"
 reverse_depends = "['get_steam', 'lib32-at-spi2-core', 'lib32-clang', 'lib32-clang-libs', 'lib32-gconf', 'lib32-libbluray', 'lib32-libcroco', 'lib32-shared-mime-info', 'lib32-spirv-llvm-translator', 'lib32-wayland', 'wine', 'wine-devel']"
 +++
-XML parsing library ( 32bit )"
+XML parsing library ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/xml2-config
 * /usr/i686-frugalware-linux/bin/xmlcatalog

@@ -13,7 +13,7 @@ usize = "11378402"
 sha1sum = "865841e678fca42464f556d298f40e44a5d2b899"
 depends = "['lib32-expat>=2.1.0-6', 'lib32-libdrm>=2.4.71', 'lib32-libffi>=3.2.1-2', 'lib32-llvm-libs>=17.0.6', 'lib32-zlib>=1.2.8-8']"
 +++
-Mesa xatracker library (32-bit)"
+Mesa xatracker library (32-bit)
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/include/xa_composite.h
 * /usr/i686-frugalware-linux/include/xa_context.h

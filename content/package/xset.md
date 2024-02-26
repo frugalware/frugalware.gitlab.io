@@ -15,7 +15,7 @@ depends = "['libxmu>=1.1.2-3']"
 reverse_depends = "['i3', 'plasma-workspace']"
 license = "GPL2"
 +++
-X.Org xset application"
+X.Org xset application
 
 {{< files text="show files" >}}* /usr/bin/xset
 * /usr/share/doc/xset-1.2.5/ChangeLog

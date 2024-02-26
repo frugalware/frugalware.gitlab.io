@@ -14,7 +14,7 @@ sha1sum = "a4dd4a1f862e47b77b4434136106f94292acb5d7"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-socks', 'haskell-tls']"
 +++
-A binary serialization library"
+A binary serialization library
 
 {{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/cereal-0.5.8.3/Data/Serialize.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/cereal-0.5.8.3/Data/Serialize.hi

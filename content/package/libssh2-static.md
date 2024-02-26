@@ -13,7 +13,7 @@ usize = "1458108"
 sha1sum = "38eb1c2008dc98fe0fed39e37d12201f9208b253"
 depends = "[]"
 +++
-Static files for libssh2"
+Static files for libssh2
 
 {{< files text="show files" >}}* /usr/lib/libssh2.a
 {{< /files >}}

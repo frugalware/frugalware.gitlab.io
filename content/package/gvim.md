@@ -13,7 +13,7 @@ usize = "4944076"
 sha1sum = "4a3ea1fe8a2b84f21ee9fac35d4458031a498c3f"
 depends = "['gpm>=1.20.5-2', 'gtk+3>=3.22.6', 'libice', 'libsm', 'libxpm', 'libxt', 'vim>=9.0.2130']"
 +++
-VIM - GTK+2 GUI"
+VIM - GTK+2 GUI
 
 {{< files text="show files" >}}* /usr/bin/eview
 * /usr/bin/evim

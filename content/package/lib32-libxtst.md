@@ -14,7 +14,7 @@ sha1sum = "6e28477ef509119e3f913687de034bbe3728c5e0"
 depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxext>=1.3.3-3', 'lib32-libxi>=1.7.7']"
 reverse_depends = "['lib32-at-spi2-core', 'steam-native']"
 +++
-X.Org Xtst library ( 32bit )"
+X.Org Xtst library ( 32bit )
 
 {{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/record.h
 * /usr/i686-frugalware-linux/include/X11/extensions/XTest.h

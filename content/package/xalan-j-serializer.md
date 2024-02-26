@@ -13,7 +13,7 @@ usize = "292637"
 sha1sum = "a741f2a47a6731c1178317d5c41006a936dc4ce9"
 depends = "['openjre']"
 +++
-Java XSLT processor for transforming XML documents"
+Java XSLT processor for transforming XML documents
 
 {{< files text="show files" >}}* /usr/share/java/serializer.jar
 {{< /files >}}

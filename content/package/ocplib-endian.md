@@ -14,7 +14,7 @@ sha1sum = "de679583dca67f758a3127e304f1154e798b743c"
 depends = "['ocaml>=5.1.1']"
 reverse_depends = "['lwt']"
 +++
-Optimised functions to read and write int16/32/64 from strings, bytes and bigarrays"
+Optimised functions to read and write int16/32/64 from strings, bytes and bigarrays
 
 {{< files text="show files" >}}* /usr/lib/ocaml/ocplib-endian/bigstring/endianBigstring.cmi
 * /usr/lib/ocaml/ocplib-endian/bigstring/endianBigstring.cmt

@@ -13,7 +13,7 @@ usize = "38392712"
 sha1sum = "84c7f7921f86329e1faa124f82b3ad53a5dc2363"
 depends = "['freeglut', 'glfw', 'harfbuzz', 'libjpeg-turbo', 'openssl']"
 +++
-Lightweight PDF and XPS viewer (OpenGL)"
+Lightweight PDF and XPS viewer (OpenGL)
 
 {{< files text="show files" >}}* /usr/bin/mupdf-gl
 {{< /files >}}

@@ -13,7 +13,7 @@ usize = "3678661"
 sha1sum = "3998a6f8c3a5b3eaa16779c5a905b335a55dbf8c"
 depends = "['glibc']"
 +++
-Hamachi is a UDP-based virtual private networking system."
+Hamachi is a UDP-based virtual private networking system.
 
 {{< files text="show files" >}}* /opt/hamachi/bin/dnsdown
 * /opt/hamachi/bin/dnsup

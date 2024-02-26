@@ -13,7 +13,7 @@ usize = "266590"
 sha1sum = "9d436d2fd2cac54fa24879a2f433617a12f14bd9"
 depends = "['libblas>=3.12.0', 'libgfortran>=11.2']"
 +++
-C Standard Interface to BLAS Basic Linear Algebra Subprograms."
+C Standard Interface to BLAS Basic Linear Algebra Subprograms.
 
 {{< files text="show files" >}}* /usr/include/cblas_64.h
 * /usr/lib/cmake/cblas64-3.12.0/cblas64-config-version.cmake
