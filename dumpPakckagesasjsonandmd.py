@@ -117,6 +117,7 @@ for package in cur:
     f.write("draft = false\n")
     f.write('title = "'+name+" "+version+'"\n')
     f.write('version = "'+version+'"\n')
+    f.write('description = "'+desc+'"\n')
     f.write('date = "'+builddate.isoformat()+'"\n')
     f.write('aliases = "/packages/'+str(package_id)+'"\n')
 
