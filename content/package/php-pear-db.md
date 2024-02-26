@@ -13,7 +13,9 @@ usize = "747676"
 sha1sum = "b72f9a5fbb9f3681979f2040f511620f14e1d346"
 depends = "['php']"
 +++
-PEAR: database abstraction layer{{< files text="show files" >}}* /usr/share/pear/DB.php
+PEAR: database abstraction layer"
+
+{{< files text="show files" >}}* /usr/share/pear/DB.php
 * /usr/share/pear/DB/common.php
 * /usr/share/pear/DB/dbase.php
 * /usr/share/pear/DB/fbsql.php

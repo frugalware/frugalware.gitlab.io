@@ -13,7 +13,9 @@ usize = "1538029"
 sha1sum = "6469f65aec6df3142bf93477edbea47a66200536"
 depends = "['libstdc++', 'libxcb', 'vulkan-icd-loader']"
 +++
-Vulkan Utilities and Tools{{< files text="show files" >}}* /usr/bin/vkcube
+Vulkan Utilities and Tools"
+
+{{< files text="show files" >}}* /usr/bin/vkcube
 * /usr/bin/vkcube-wayland
 * /usr/bin/vkcubepp
 * /usr/bin/vulkaninfo

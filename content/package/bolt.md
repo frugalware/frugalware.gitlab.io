@@ -14,7 +14,9 @@ sha1sum = "3fae1716b29ae15a6404117f577516b2cf9e118b"
 depends = "['polkit', 'systemd']"
 reverse_depends = "['plasma-thunderbolt']"
 +++
-Thunderbolt 3 security system daemon{{< files text="show files" >}}* /usr/bin/boltctl
+Thunderbolt 3 security system daemon"
+
+{{< files text="show files" >}}* /usr/bin/boltctl
 * /usr/lib/bolt/boltd
 * /usr/lib/systemd/system/bolt.service
 * /usr/lib/udev/rules.d/90-bolt.rules

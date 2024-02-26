@@ -13,7 +13,9 @@ usize = "1405686"
 sha1sum = "de9fb9e7995535424ad17fc835604fa3451526f1"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Zulu support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/zu/LC_MESSAGES/acc.mo
+Installs Zulu support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/zu/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/zu/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/zu/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/zu/LC_MESSAGES/chart.mo

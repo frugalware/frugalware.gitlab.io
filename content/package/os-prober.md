@@ -13,7 +13,9 @@ usize = "114274"
 sha1sum = "a86dc12788256bfcd6c25f622178d9bac8a9a6dd"
 depends = "['bash', 'grub2-mount']"
 +++
-Utility to detect other OSes on a set of drives.{{< files text="show files" >}}* /usr/bin/linux-boot-prober
+Utility to detect other OSes on a set of drives."
+
+{{< files text="show files" >}}* /usr/bin/linux-boot-prober
 * /usr/bin/os-prober
 * /usr/lib/linux-boot-probes/50mounted-tests
 * /usr/lib/linux-boot-probes/mounted/40grub

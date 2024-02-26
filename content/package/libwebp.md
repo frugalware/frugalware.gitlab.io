@@ -14,7 +14,9 @@ sha1sum = "23a4a286c608320d28d24ada51d1711e88cab8d4"
 depends = "['libgif', 'libjpeg-turbo', 'libpng>=1.6.25', 'libtiff>=4.0.10-2']"
 reverse_depends = "['chromium-browser', 'efl', 'freeimage', 'gegl', 'graphicsmagick', 'imagemagick', 'libvips', 'opencv', 'python3-pillow', 'qt5-imageformats', 'qt5-webengine', 'qt6-imageformats', 'sdl2_image', 'thunderbird', 'webkit-gtk3', 'weston']"
 +++
-A library for a new image format comparable to JPEG.{{< files text="show files" >}}* /usr/bin/cwebp
+A library for a new image format comparable to JPEG."
+
+{{< files text="show files" >}}* /usr/bin/cwebp
 * /usr/bin/dwebp
 * /usr/bin/gif2webp
 * /usr/bin/img2webp

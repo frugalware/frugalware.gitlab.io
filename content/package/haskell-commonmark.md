@@ -14,7 +14,9 @@ sha1sum = "09ea2c41d13528febd784294805bbc9b8be1c01f"
 depends = "['haskell-unicode-transforms>=0-3.8']"
 reverse_depends = "['haskell-commonmark-extensions']"
 +++
-Pure Haskell commonmark parser{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/commonmark-0.2.4.1/Commonmark.dyn_hi
+Pure Haskell commonmark parser"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/commonmark-0.2.4.1/Commonmark.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/commonmark-0.2.4.1/Commonmark.hi
 * /usr/lib/ghc-9.8.1/site-local/commonmark-0.2.4.1/Commonmark/Blocks.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/commonmark-0.2.4.1/Commonmark/Blocks.hi

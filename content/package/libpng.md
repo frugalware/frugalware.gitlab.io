@@ -14,7 +14,9 @@ sha1sum = "7d165c512e7bfb741180ac52ad9e43d140c01d46"
 depends = "['zlib>=1.2.12']"
 reverse_depends = "['adios2', 'allegro', 'argyllcms', 'augustus', 'blender', 'cairo', 'crawl-tiles', 'devil', 'dlib', 'dosbox', 'doxygen', 'efl', 'emacs', 'enlightenment', 'feh', 'fltk', 'fox', 'fox-1.2', 'freeorion', 'freetype2', 'gail', 'gd', 'gdal', 'gdk-pixbuf2', 'gftp', 'ghostscript', 'grfcodec', 'gst1-plugins-bad', 'gst1-plugins-base-pango', 'gst1-plugins-good-png', 'gtk+2', 'gtk+3', 'gtk+4', 'gtkspell', 'icoutils', 'imlib2', 'insight-toolkit', 'julius', 'ksubeditor', 'ksubtile', 'latex2html', 'leptonica', 'libavif', 'libgsf', 'libnotify', 'libpano13', 'libreoffice', 'libreoffice', 'libvncserver', 'libwebp', 'libzmf', 'manaplus', 'mencoder', 'mjpegtools', 'mplayer', 'naev', 'netpbm', 'nufraw', 'ocrad', 'openbox', 'opencity', 'opencv', 'openjpeg', 'openjre-x', 'openscenegraph', 'openttd', 'optipng', 'pango', 'php', 'pixman', 'pngcrush', 'podofo', 'podofo-0.9', 'poppler', 'poppler-glib', 'poppler-pdftools', 'python3-pycairo', 'qemu', 'qrencode', 'qt5-base', 'scummvm-tools', 'silly', 'sox', 'terminology', 'transfig', 'ufoai', 'vigra', 'xautomation', 'xcursorgen', 'xine-lib', 'xine-ui', 'xonotic', 'xorg', 'zeitgeist', 'zvbi']"
 +++
-A collection of routines used to create PNG format graphics files{{< files text="show files" >}}* /usr/bin/libpng-config
+A collection of routines used to create PNG format graphics files"
+
+{{< files text="show files" >}}* /usr/bin/libpng-config
 * /usr/bin/libpng16-config
 * /usr/bin/png-fix-itxt
 * /usr/bin/pngfix

@@ -13,7 +13,9 @@ usize = "0"
 sha1sum = "73e381ead7f310ff2469314b33aff0428fed4e39"
 depends = "[]"
 +++
-Widget style for KDE.{{< files text="show files" >}}* usr/lib/kde3/kstyle_klearlook_config.la
+Widget style for KDE."
+
+{{< files text="show files" >}}* usr/lib/kde3/kstyle_klearlook_config.la
 * usr/lib/kde3/kstyle_klearlook_config.so
 * usr/lib/kde3/plugins/styles/klearlook.la
 * usr/lib/kde3/plugins/styles/klearlook.so

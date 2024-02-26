@@ -14,7 +14,9 @@ sha1sum = "3fedd80b0938f6db5dd4307dd7ed3cc9798c9435"
 depends = "['libbsd', 'libdrm', 'libnet', 'libnl', 'libpthread-stubs', 'nftables', 'protobuf-c', 'python3>=3.11']"
 license = "GPL2"
 +++
-Checkpoint/Restore in Userspace tool{{< files text="show files" >}}* /usr/bin/compel
+Checkpoint/Restore in Userspace tool"
+
+{{< files text="show files" >}}* /usr/bin/compel
 * /usr/bin/crit
 * /usr/bin/criu
 * /usr/bin/criu-ns

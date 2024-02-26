@@ -13,7 +13,9 @@ usize = "344621"
 sha1sum = "4132a6de2834595bf346ef03d52a645c29cc8b98"
 depends = "[]"
 +++
-An advanced memory diagnostic tool{{< files text="show files" >}}* /boot/memtest.bin
+An advanced memory diagnostic tool"
+
+{{< files text="show files" >}}* /boot/memtest.bin
 * /boot/memtest.efi
 * /etc/grub.d/35_memtest86+
 * /etc/grub.d/60_memtest86+-efi

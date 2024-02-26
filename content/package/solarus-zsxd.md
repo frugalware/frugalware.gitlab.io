@@ -13,7 +13,9 @@ usize = "4710448"
 sha1sum = "22c2cfb72c8788a51841415f698378fd7a7ca3ca"
 depends = "['solarus', 'zip']"
 +++
-Zelda: Mystery of Solarus XD (or ZSXD for short): a humorous game.{{< files text="show files" >}}* /usr/bin/zsxd
+Zelda: Mystery of Solarus XD (or ZSXD for short): a humorous game."
+
+{{< files text="show files" >}}* /usr/bin/zsxd
 * /usr/share/applications/zsxd.desktop
 * /usr/share/icons/hicolor/1024x1024/apps/zsxd.png
 * /usr/share/icons/hicolor/128x128/apps/zsxd.png

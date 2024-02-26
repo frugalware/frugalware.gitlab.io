@@ -14,7 +14,9 @@ sha1sum = "e1722ec7ddc5a868f2d2e48f2c115cfb7ce79f0f"
 depends = "['bash>=4.3_042-5', 'glibc>=2.35']"
 reverse_depends = "['autoconf', 'autoconf213', 'pacman-g2', 'quilt', 'rcs']"
 +++
-Utility programs used for creating patch files{{< files text="show files" >}}* /usr/bin/cmp
+Utility programs used for creating patch files"
+
+{{< files text="show files" >}}* /usr/bin/cmp
 * /usr/bin/diff
 * /usr/bin/diff3
 * /usr/bin/sdiff

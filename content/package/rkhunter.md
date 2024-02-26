@@ -13,7 +13,9 @@ usize = "1217150"
 sha1sum = "2b2dea07df50705f50d160e88f6edc8272665772"
 depends = "['perl']"
 +++
-Rootkit Hunter, security monitoring and analyzing tool for POSIX compliant systems.{{< files text="show files" >}}* /etc/rkhunter.conf
+Rootkit Hunter, security monitoring and analyzing tool for POSIX compliant systems."
+
+{{< files text="show files" >}}* /etc/rkhunter.conf
 * /usr/bin/rkhunter
 * /usr/lib/rkhunter/scripts/check_modules.pl
 * /usr/lib/rkhunter/scripts/filehashsha.pl

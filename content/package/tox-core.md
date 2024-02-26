@@ -14,7 +14,9 @@ sha1sum = "a1264d1a7bdb4f0dfbbafc43e6d9dc3672ad5c72"
 depends = "['ffmpeg>=3.3.2', 'libsodium>=1.0.19', 'libvpx>=1.13.0', 'openal', 'opus>=1.1']"
 reverse_depends = "['qtox', 'utox']"
 +++
-Project Tox, also known as Tox, is a FOSS instant messaging application aimed to replace Skype.{{< files text="show files" >}}* /usr/bin/DHT_bootstrap
+Project Tox, also known as Tox, is a FOSS instant messaging application aimed to replace Skype."
+
+{{< files text="show files" >}}* /usr/bin/DHT_bootstrap
 * /usr/include/tox/tox.h
 * /usr/include/tox/toxav.h
 * /usr/include/tox/toxencryptsave.h

@@ -14,7 +14,9 @@ sha1sum = "9aca25d14639030df184c9b065ed3a4e2e5bc962"
 depends = "['c-ares', 'icu4c>=74.1', 'openssl>=3.1.0', 'protobuf>=25.3', 're2']"
 reverse_depends = "['qt6-grpc', 'sysdig']"
 +++
-High performance, open source, general RPC framework that puts mobile and HTTP/2 first.{{< files text="show files" >}}* /usr/bin/grpc_cpp_plugin
+High performance, open source, general RPC framework that puts mobile and HTTP/2 first."
+
+{{< files text="show files" >}}* /usr/bin/grpc_cpp_plugin
 * /usr/bin/grpc_node_plugin
 * /usr/bin/grpc_php_plugin
 * /usr/bin/grpc_python_plugin

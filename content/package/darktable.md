@@ -14,7 +14,9 @@ sha1sum = "fed1ee2dd0508d9f24f59cbfc8cf079c2ffe4b78"
 depends = "['colord-gtk3', 'dcraw', 'exiv2>=0.28.1', 'flickcurl', 'ghostscript', 'gmic>=3.2.6', 'gnuplot', 'graphicsmagick', 'icu4c>=74.1', 'imagemagick>=7.1.1', 'iso-codes', 'jasper', 'json-glib', 'lensfun', 'libavif>=1.0.1', 'libgphoto2', 'libjpeg-turbo', 'libsecret', 'lua', 'openexr', 'openmp', 'perl-image-exiftool', 'portmidi', 'pugixml', 'zlib']"
 reverse_depends = "['gimp']"
 +++
-A virtual lighttable and darkroom for photographers (manage RAW images){{< files text="show files" >}}* /etc/ld.so.conf.d/darktable.conf
+A virtual lighttable and darkroom for photographers (manage RAW images)"
+
+{{< files text="show files" >}}* /etc/ld.so.conf.d/darktable.conf
 * /usr/bin/darktable
 * /usr/bin/darktable-chart
 * /usr/bin/darktable-cli

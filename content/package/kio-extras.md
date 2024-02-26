@@ -13,7 +13,9 @@ usize = "4644469"
 sha1sum = "8e6e3a22a96510ee193826465fbc06a5d7f42caf"
 depends = "['exiv2>=0.25-7', 'kactivities5>=5.115.0', 'kdelibs4support>=5.115.0', 'kdnssd>=5.115.0', 'kdsoap>=2.0.0', 'khtml>=5.115.0', 'kpty>=5.115.0', 'libmtp>=1.1.12-2', 'libplist>=2.3.0', 'libssh>=0.7.3-2', 'openexr>=3.2.0', 'openslp>=2.0.0-3', 'qt5-webengine>=5.15.12', 'samba-client>=4.5.0', 'syntax-highlighting>=5.115.0', 'taglib>=2.0']"
 +++
-Additional components to increase the functionality of KIO.{{< files text="show files" >}}* /usr/include/KioArchive/kioarchive_version.h
+Additional components to increase the functionality of KIO."
+
+{{< files text="show files" >}}* /usr/include/KioArchive/kioarchive_version.h
 * /usr/include/KioArchive/kio_archivebase.h
 * /usr/include/KioArchive/libkioarchive_export.h
 * /usr/lib/cmake/KioArchive/KioArchiveConfig.cmake

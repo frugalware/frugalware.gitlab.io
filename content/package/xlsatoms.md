@@ -14,7 +14,9 @@ sha1sum = "6ecd6f2dc59b2352c81ccdb00c9a42d081b4a746"
 depends = "['libxcb>=1.12-2']"
 license = "GPL2"
 +++
-X.Org xlsatoms application{{< files text="show files" >}}* /usr/bin/xlsatoms
+X.Org xlsatoms application"
+
+{{< files text="show files" >}}* /usr/bin/xlsatoms
 * /usr/share/doc/xlsatoms-1.1.4/ChangeLog
 * /usr/share/doc/xlsatoms-1.1.4/COPYING
 * /usr/share/doc/xlsatoms-1.1.4/INSTALL

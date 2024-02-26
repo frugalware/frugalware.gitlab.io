@@ -14,7 +14,9 @@ sha1sum = "b2998e0f673f25592fd373f4f70496c97fb7934d"
 depends = "['python3-psutil']"
 reverse_depends = "['discover-overlay']"
 +++
-Python context manager for managing pid files{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pidfile/pidfile.py
+Python context manager for managing pid files"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pidfile/pidfile.py
 * /usr/lib/python3.12/site-packages/pidfile/version.py
 * /usr/lib/python3.12/site-packages/pidfile/__init__.py
 * /usr/lib/python3.12/site-packages/pidfile/__pycache__/pidfile.cpython-312.pyc

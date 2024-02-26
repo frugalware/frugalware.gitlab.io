@@ -13,6 +13,8 @@ usize = "666878"
 sha1sum = "93c95f0c910b228f711a2665a2f7ef4e603d775f"
 depends = "[]"
 +++
-Static files for zlib{{< files text="show files" >}}* /usr/lib/libminizip.a
+Static files for zlib"
+
+{{< files text="show files" >}}* /usr/lib/libminizip.a
 * /usr/lib/libz.a
 {{< /files >}}

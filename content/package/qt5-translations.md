@@ -13,7 +13,9 @@ usize = "15421930"
 sha1sum = "f65c3bbaec2c6bba2a79d86fabffde3284daea7a"
 depends = "['qt5-declarative>=5.15.12']"
 +++
-The Qt5 toolkit, qttranslations{{< files text="show files" >}}* /usr/share/qt5/translations/assistant_ar.qm
+The Qt5 toolkit, qttranslations"
+
+{{< files text="show files" >}}* /usr/share/qt5/translations/assistant_ar.qm
 * /usr/share/qt5/translations/assistant_bg.qm
 * /usr/share/qt5/translations/assistant_cs.qm
 * /usr/share/qt5/translations/assistant_da.qm

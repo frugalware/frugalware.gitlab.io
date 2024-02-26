@@ -13,7 +13,9 @@ usize = "408889"
 sha1sum = "896b4aebc2f12311d95340bc9d9c3970a5165b31"
 depends = "['libvlc>=3.0.20', 'lua>=5.4']"
 +++
-vlc Lua support{{< files text="show files" >}}* /usr/lib/vlc/lua/extensions/VLSub.luac
+vlc Lua support"
+
+{{< files text="show files" >}}* /usr/lib/vlc/lua/extensions/VLSub.luac
 * /usr/lib/vlc/lua/intf/cli.luac
 * /usr/lib/vlc/lua/intf/dummy.luac
 * /usr/lib/vlc/lua/intf/dumpmeta.luac

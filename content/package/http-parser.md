@@ -14,7 +14,9 @@ sha1sum = "fe2c2438f8c6954f07ecdfacbc294a86dadf311d"
 depends = "['glibc']"
 reverse_depends = "['libgit2', 'restinio']"
 +++
-Parser for HTTP Request/Response written in C{{< files text="show files" >}}* /usr/include/http_parser.h
+Parser for HTTP Request/Response written in C"
+
+{{< files text="show files" >}}* /usr/include/http_parser.h
 * /usr/lib/libhttp_parser.so
 * /usr/lib/libhttp_parser.so.2.9
 * /usr/lib/libhttp_parser.so.2.9.4

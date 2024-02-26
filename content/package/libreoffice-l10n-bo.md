@@ -13,7 +13,9 @@ usize = "38340900"
 sha1sum = "bdad8ae3d392f912b117d213ca0b235869f17257"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Tibetan support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/bo/default.css
+Installs Tibetan support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/help/bo/default.css
 * /usr/lib/libreoffice/help/bo/err.html
 * /usr/lib/libreoffice/help/bo/highcontrast1.css
 * /usr/lib/libreoffice/help/bo/highcontrast2.css

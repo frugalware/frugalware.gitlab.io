@@ -14,7 +14,9 @@ sha1sum = "49038c876e832271223846ab0574fdf80903f17f"
 depends = "['libstdc++']"
 reverse_depends = "['protobuf', 're2', 'telegram-desktop', 'webrtc-audio-processing-1']"
 +++
-Abseil Common Libraries (C++){{< files text="show files" >}}* /usr/include/absl/algorithm/algorithm.h
+Abseil Common Libraries (C++)"
+
+{{< files text="show files" >}}* /usr/include/absl/algorithm/algorithm.h
 * /usr/include/absl/algorithm/container.h
 * /usr/include/absl/base/attributes.h
 * /usr/include/absl/base/call_once.h

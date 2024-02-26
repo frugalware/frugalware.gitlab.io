@@ -15,7 +15,9 @@ depends = "['glibc>=2.34']"
 reverse_depends = "['source-highlight']"
 license = "GPL2"
 +++
-A multilanguage implementation of Ctags{{< files text="show files" >}}* /usr/bin/ctags
+A multilanguage implementation of Ctags"
+
+{{< files text="show files" >}}* /usr/bin/ctags
 * /usr/bin/optscript
 * /usr/bin/readtags
 * /usr/share/doc/ctags-5.9.20220313.0/COPYING

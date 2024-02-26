@@ -14,7 +14,9 @@ sha1sum = "702e2104e21587885a4f72fb17dec635e0d62134"
 depends = "['libxaw>=1.0.13-3']"
 license = "GPL2"
 +++
-X.Org xload application{{< files text="show files" >}}* /usr/bin/xload
+X.Org xload application"
+
+{{< files text="show files" >}}* /usr/bin/xload
 * /usr/share/doc/xload-1.1.4/ChangeLog
 * /usr/share/doc/xload-1.1.4/COPYING
 * /usr/share/doc/xload-1.1.4/INSTALL

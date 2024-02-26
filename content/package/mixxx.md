@@ -13,7 +13,9 @@ usize = "46969535"
 sha1sum = "c6ba42ef6e0f204dd9f1e4d1293cbe00270d9574"
 depends = "['chromaprint', 'libebur128', 'libhidapi', 'libkeyfinder', 'libmad', 'libmodplug', 'lilv', 'portaudio', 'portmidi', 'protobuf>=25.3', 'qt5-script>=5.15.10', 'qt5-svg>=5.15.10', 'qt5-x11extras>=5.15.10', 'qtkeychain', 'rubberband', 'soundtouch', 'taglib1', 'upower', 'wavpack']"
 +++
-An open source DJ tool.{{< files text="show files" >}}* /usr/bin/mixxx
+An open source DJ tool."
+
+{{< files text="show files" >}}* /usr/bin/mixxx
 * /usr/lib/udev/rules.d/69-mixxx-usb-uaccess.rules
 * /usr/share/applications/org.mixxx.Mixxx.desktop
 * /usr/share/doc/mixxx-2.4.0/COPYING

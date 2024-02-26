@@ -14,7 +14,9 @@ sha1sum = "6dbdeb1b19d010d9c8f6848a4a4f4b67c577098d"
 depends = "['ca-certificates', 'curl', 'dbus-glib>=0.108-2', 'ethtool', 'iproute2>=4.7.0-2', 'iptables', 'jansson', 'libarchive>=3.0.3-2', 'libgcrypt>=1.7.3-2', 'libndp>=1.5-4', 'libnl>=3.2.9-2', 'mobile-broadband-provider-info', 'modemmanager>=1.6.0-2', 'newt>=0.52.19-2', 'nss>=3.21-2', 'openresolv', 'polkit>=0.113-9', 'ppp>=2.4.7-3', 'readline>=8.0', 'wireless_tools>=29-5', 'wpa_supplicant>=2.5-4']"
 reverse_depends = "['claws-mail', 'kdelibs4support', 'networkmanager-dispatcher-chrony', 'networkmanager-dispatcher-ntp', 'networkmanager-qt', 'nm-applet', 'nm-connection-editor', 'nm-libreswan-minimal', 'nm-openvpn-minimal', 'nm-pptp-minimal', 'nm-vpnc-minimal', 'nm-wireguard-minimal', 'packagekit', 'strongswan', 'telepathy-mission-control']"
 +++
-Network Management daemon{{< files text="show files" >}}* /etc/dbus-1/system.d/nm-dispatcher.conf
+Network Management daemon"
+
+{{< files text="show files" >}}* /etc/dbus-1/system.d/nm-dispatcher.conf
 * /etc/dbus-1/system.d/nm-priv-helper.conf
 * /etc/dbus-1/system.d/org.freedesktop.NetworkManager.conf
 * /etc/NetworkManager/NetworkManager.conf

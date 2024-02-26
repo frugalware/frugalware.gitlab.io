@@ -14,7 +14,9 @@ sha1sum = "17af97e7dbaa14fa74779f110ff94d55e5b05145"
 depends = "['dbus']"
 reverse_depends = "['libvirt']"
 +++
-Dnsmasq is a lightweight, easy to configure DNS forwarder and DHCP server.{{< files text="show files" >}}* /etc/dbus-1/system.d/dnsmasq.conf
+Dnsmasq is a lightweight, easy to configure DNS forwarder and DHCP server."
+
+{{< files text="show files" >}}* /etc/dbus-1/system.d/dnsmasq.conf
 * /etc/dnsmasq.conf
 * /usr/bin/dnsmasq
 * /usr/lib/systemd/system/dnsmasq.service

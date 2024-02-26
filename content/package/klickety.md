@@ -13,7 +13,9 @@ usize = "3099788"
 sha1sum = "1d944304f89fd6c66ccda3dac388788fc8593f7c"
 depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5']"
 +++
-An adaptation of the Clickomania game.{{< files text="show files" >}}* /usr/bin/klickety
+An adaptation of the Clickomania game."
+
+{{< files text="show files" >}}* /usr/bin/klickety
 * /usr/share/applications/org.kde.klickety.desktop
 * /usr/share/applications/org.kde.ksame.desktop
 * /usr/share/doc/HTML/ca/klickety/config-background.png

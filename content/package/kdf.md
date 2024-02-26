@@ -13,7 +13,9 @@ usize = "1368357"
 sha1sum = "a52c81f54e7faa23662abec8d05d1beff1022830"
 depends = "['kcmutils>=5.115.0', 'kio>=5.115.0']"
 +++
-KDiskFree displays the available file devices{{< files text="show files" >}}* /usr/bin/kdf
+KDiskFree displays the available file devices"
+
+{{< files text="show files" >}}* /usr/bin/kdf
 * /usr/bin/kwikdisk
 * /usr/lib/libkdfprivate.so.23
 * /usr/lib/libkdfprivate.so.23.08.5

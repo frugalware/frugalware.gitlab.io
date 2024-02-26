@@ -13,7 +13,9 @@ usize = "133978"
 sha1sum = "3639ec42b6bffca2a4a5010e7d7f6107c9615ad1"
 depends = "['glibc']"
 +++
-The Netsurf buildsystem{{< files text="show files" >}}* /usr/share/doc/netsurf-buildsystem-1.10/AUTHORS
+The Netsurf buildsystem"
+
+{{< files text="show files" >}}* /usr/share/doc/netsurf-buildsystem-1.10/AUTHORS
 * /usr/share/doc/netsurf-buildsystem-1.10/BUGS
 * /usr/share/doc/netsurf-buildsystem-1.10/ChangeLog
 * /usr/share/doc/netsurf-buildsystem-1.10/COPYING

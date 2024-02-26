@@ -14,7 +14,9 @@ sha1sum = "71fe94cebcdf15391eace74daa906a2a01bbc376"
 depends = "[]"
 reverse_depends = "['python3-pythran']"
 +++
-Boost header files, examples and tools{{< files text="show files" >}}* /usr/include/boost/accumulators/accumulators.hpp
+Boost header files, examples and tools"
+
+{{< files text="show files" >}}* /usr/include/boost/accumulators/accumulators.hpp
 * /usr/include/boost/accumulators/accumulators_fwd.hpp
 * /usr/include/boost/accumulators/framework/accumulators/droppable_accumulator.hpp
 * /usr/include/boost/accumulators/framework/accumulators/external_accumulator.hpp

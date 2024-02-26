@@ -13,7 +13,9 @@ usize = "3132654"
 sha1sum = "85061023556b1685e79813cff9ef27060af81018"
 depends = "[]"
 +++
-Bengali Localization for KDE.{{< files text="show files" >}}* usr/share/locale/bn/charset
+Bengali Localization for KDE."
+
+{{< files text="show files" >}}* usr/share/locale/bn/charset
 * usr/share/locale/bn/entry.desktop
 * usr/share/locale/bn/LC_MESSAGES/amor.mo
 * usr/share/locale/bn/LC_MESSAGES/appletproxy.mo

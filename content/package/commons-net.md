@@ -13,7 +13,9 @@ usize = "344603"
 sha1sum = "b42d87f5c40ecb7d56496c86d8ddbe0bc3acc19a"
 depends = "[]"
 +++
-Commons Net implements the client side of many basic Internet protocols.{{< files text="show files" >}}* /usr/share/doc/commons-net-3.9.0/README.md
+Commons Net implements the client side of many basic Internet protocols."
+
+{{< files text="show files" >}}* /usr/share/doc/commons-net-3.9.0/README.md
 * /usr/share/doc/commons-net-3.9.0/RELEASE-NOTES.txt
 * /usr/share/java/commons-net.jar
 {{< /files >}}

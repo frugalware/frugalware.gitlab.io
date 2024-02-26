@@ -14,7 +14,9 @@ sha1sum = "3c3ce07db2fa9a15b0bca5828304a30e2d9b2ecd"
 depends = "['libgcc', 'libquadmath']"
 reverse_depends = "['arpack-ng', 'gcc-gfortran', 'hdf5-fortran', 'julia', 'lapack', 'lapack64', 'libblas', 'libblas64', 'libcblas', 'libcblas64', 'liblapacke', 'liblapacke64', 'octave', 'openblas', 'openblas64', 'opencv-python3']"
 +++
-Fortran 95 runtime{{< files text="show files" >}}* /usr/lib/libgfortran.a
+Fortran 95 runtime"
+
+{{< files text="show files" >}}* /usr/lib/libgfortran.a
 * /usr/lib/libgfortran.so
 * /usr/lib/libgfortran.so.5
 * /usr/lib/libgfortran.so.5.0.0

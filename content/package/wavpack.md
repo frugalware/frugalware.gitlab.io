@@ -14,7 +14,9 @@ sha1sum = "1dd6298dbf27cb48b74e3f09451dde76825809fe"
 depends = "['glibc>=2.34']"
 reverse_depends = "['gst1-plugins-good-wavpack', 'mixxx', 'mpd', 'qmmp', 'sox', 'xine-lib']"
 +++
-A completely open audio compression format providing lossless, high-quality lossy, and a unique hybrid compression mode.{{< files text="show files" >}}* /usr/bin/wavpack
+A completely open audio compression format providing lossless, high-quality lossy, and a unique hybrid compression mode."
+
+{{< files text="show files" >}}* /usr/bin/wavpack
 * /usr/bin/wvgain
 * /usr/bin/wvtag
 * /usr/bin/wvunpack

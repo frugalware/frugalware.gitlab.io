@@ -14,7 +14,9 @@ sha1sum = "8062c9d9fa8da32e33d565517cc415a8d3f8b09e"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-integer-conversion', 'haskell-resourcet', 'haskell-scientific', 'haskell-tf-random', 'haskell-vector']"
 +++
-Wrappers for primitive operations.{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/primitive-0.9.0.0/Control/Monad/Primitive.dyn_hi
+Wrappers for primitive operations."
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/primitive-0.9.0.0/Control/Monad/Primitive.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/primitive-0.9.0.0/Control/Monad/Primitive.hi
 * /usr/lib/ghc-9.8.1/site-local/primitive-0.9.0.0/Data/Primitive.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/primitive-0.9.0.0/Data/Primitive.hi

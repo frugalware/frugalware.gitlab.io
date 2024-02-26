@@ -13,7 +13,9 @@ usize = "9125153"
 sha1sum = "3e0824ece87e8b02212901952b167b334b8e6dd7"
 depends = "['aubio', 'fmtlib', 'glm', 'libboost>=1.83.0', 'libepoxy', 'libxml++2', 'nlohmann-json', 'openblas', 'opencv>=4.9.0', 'performous-songs', 'portaudio', 'portmidi']"
 +++
-PerformousThe free Linux karaoke game{{< files text="show files" >}}* /usr/bin/performous
+PerformousThe free Linux karaoke game"
+
+{{< files text="show files" >}}* /usr/bin/performous
 * /usr/share/applications/performous.desktop
 * /usr/share/doc/performous-1.2.0/README.md
 * /usr/share/games/performous/backgrounds/blue_band.svg

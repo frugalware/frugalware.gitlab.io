@@ -14,7 +14,9 @@ sha1sum = "b023312f2c531a7285a4377a0f7dbdc76421fdd4"
 depends = "['zlib']"
 reverse_depends = "['pipewire']"
 +++
-C library to read HRTFs if they are stored in the AES69-2015 SOFA format{{< files text="show files" >}}* /usr/bin/mysofa2json
+C library to read HRTFs if they are stored in the AES69-2015 SOFA format"
+
+{{< files text="show files" >}}* /usr/bin/mysofa2json
 * /usr/include/mysofa.h
 * /usr/lib/cmake/mysofa/mysofaConfig.cmake
 * /usr/lib/cmake/mysofa/mysofaConfigVersion.cmake

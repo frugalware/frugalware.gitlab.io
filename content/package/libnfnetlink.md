@@ -14,7 +14,9 @@ sha1sum = "eb30c1d515ae4791a362d2e9b5fa326d38e33680"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['libnetfilter_conntrack', 'libnetfilter_cthelper', 'libnetfilter_cttimeout', 'libnetfilter_log', 'libnetfilter_queue']"
 +++
-A low-level library for netfilter related kernel/userspace communication{{< files text="show files" >}}* /usr/include/libnfnetlink/libnfnetlink.h
+A low-level library for netfilter related kernel/userspace communication"
+
+{{< files text="show files" >}}* /usr/include/libnfnetlink/libnfnetlink.h
 * /usr/include/libnfnetlink/linux_nfnetlink.h
 * /usr/include/libnfnetlink/linux_nfnetlink_compat.h
 * /usr/lib/libnfnetlink.so

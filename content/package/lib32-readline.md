@@ -14,7 +14,9 @@ sha1sum = "7d827289586005852ce687271b96b7a53ad54a50"
 depends = "['lib32-ncurses>=6.1-3']"
 reverse_depends = "['lib32-gdbm', 'lib32-networkmanager', 'lib32-pcre', 'lib32-pcre2', 'lib32-sqlite3']"
 +++
-GNU readline library ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/readline/chardefs.h
+GNU readline library ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/readline/chardefs.h
 * /usr/i686-frugalware-linux/include/readline/history.h
 * /usr/i686-frugalware-linux/include/readline/keymaps.h
 * /usr/i686-frugalware-linux/include/readline/readline.h

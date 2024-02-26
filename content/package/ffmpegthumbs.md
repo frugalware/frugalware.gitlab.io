@@ -14,7 +14,9 @@ sha1sum = "53cd2591d4a2d2320308e9a8cb7dd4b4be0ee5a8"
 depends = "['ffmpeg>=6.0', 'kio>=5.115.0', 'taglib']"
 reverse_depends = "['dolphin']"
 +++
-FFmpeg based thumbnail generator.{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/thumbcreator/ffmpegthumbs.so
+FFmpeg based thumbnail generator."
+
+{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/thumbcreator/ffmpegthumbs.so
 * /usr/share/config.kcfg/ffmpegthumbnailersettings5.kcfg
 * /usr/share/metainfo/org.kde.ffmpegthumbs.metainfo.xml
 * /usr/share/qlogging-categories5/ffmpegthumbs.categories

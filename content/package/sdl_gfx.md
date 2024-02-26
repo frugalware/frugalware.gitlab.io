@@ -15,7 +15,9 @@ depends = "['sdl>=1.2.15-4']"
 reverse_depends = "['manaplus', 'mjpegtools']"
 license = "LGPL"
 +++
-SDL library for graphics drawing primitives and other support functions.{{< files text="show files" >}}* /usr/include/SDL/SDL_framerate.h
+SDL library for graphics drawing primitives and other support functions."
+
+{{< files text="show files" >}}* /usr/include/SDL/SDL_framerate.h
 * /usr/include/SDL/SDL_gfxBlitFunc.h
 * /usr/include/SDL/SDL_gfxPrimitives.h
 * /usr/include/SDL/SDL_gfxPrimitives_font.h

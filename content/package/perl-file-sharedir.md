@@ -14,7 +14,9 @@ sha1sum = "0f3b7e344486ca12f08ddbce7fa12ea3224277ef"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-datetime-locale']"
 +++
-Locate per-dist and per-module shared files{{< files text="show files" >}}* /usr/lib/perl5/site_perl/auto/share/dist/File-ShareDir/sample.txt
+Locate per-dist and per-module shared files"
+
+{{< files text="show files" >}}* /usr/lib/perl5/site_perl/auto/share/dist/File-ShareDir/sample.txt
 * /usr/lib/perl5/site_perl/auto/share/dist/File-ShareDir/subdir/sample.txt
 * /usr/lib/perl5/site_perl/auto/share/module/File-ShareDir/test_file.txt
 * /usr/lib/perl5/site_perl/File/ShareDir.pm

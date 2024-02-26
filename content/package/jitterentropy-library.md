@@ -14,7 +14,9 @@ sha1sum = "e67b48ee42aae12e8bdb93aaa774be1bfec64b55"
 depends = "['glibc>=2.34']"
 reverse_depends = "['rng-tools']"
 +++
-Hardware RNG based on CPU timing jitter{{< files text="show files" >}}* /usr/include/jitterentropy-base-user.h
+Hardware RNG based on CPU timing jitter"
+
+{{< files text="show files" >}}* /usr/include/jitterentropy-base-user.h
 * /usr/include/jitterentropy.h
 * /usr/lib/libjitterentropy.so
 * /usr/lib/libjitterentropy.so.3

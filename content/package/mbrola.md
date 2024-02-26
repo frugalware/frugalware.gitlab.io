@@ -14,7 +14,9 @@ sha1sum = "d8e1efbb6eba5b250739d603cc417a2e6839442f"
 depends = "['glibc']"
 reverse_depends = "['mbrola-de', 'mbrola-en', 'mbrola-es', 'mbrola-fr']"
 +++
-Speech synthesizer based on the concatenation of diphones.{{< files text="show files" >}}* /usr/bin/mbrola
+Speech synthesizer based on the concatenation of diphones."
+
+{{< files text="show files" >}}* /usr/bin/mbrola
 * /usr/share/doc/mbrola-3.3/LICENSE
 * /usr/share/doc/mbrola-3.3/README.md
 * /usr/share/doc/mbrola-3.3/README_Makefile.md

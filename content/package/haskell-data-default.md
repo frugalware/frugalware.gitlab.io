@@ -14,7 +14,9 @@ sha1sum = "a07b4b8431a4e2262caf7f7076a1c0d3d0646da8"
 depends = "['haskell-data-default-instances-base>=0.1.0.1-7', 'haskell-data-default-instances-containers>=0.0.1-14', 'haskell-data-default-instances-dlist>=0.0.1-35', 'haskell-data-default-instances-old-locale>=0.0.1-15']"
 reverse_depends = "['haskell-citeproc']"
 +++
-A class for types with a default value.{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/data-default-0.7.1.1/Data/Default.dyn_hi
+A class for types with a default value."
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/data-default-0.7.1.1/Data/Default.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/data-default-0.7.1.1/Data/Default.hi
 * /usr/lib/ghc-9.8.1/site-local/data-default-0.7.1.1/libHSdata-default-0.7.1.1-3ePyKcjgKfa7pSpdDMvPTH.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSdata-default-0.7.1.1-3ePyKcjgKfa7pSpdDMvPTH-ghc9.8.1.so

@@ -14,7 +14,9 @@ sha1sum = "58e1445f8dc385dddbd00b397930fe89b792f6b6"
 depends = "['dotconf', 'libao', 'libpulse>=9.0-2', 'libsndfile', 'libsystemd', 'python3>=3.12']"
 reverse_depends = "['chromium-browser', 'mumble', 'qt5-speech', 'qt6-speech']"
 +++
-speech-dispatcher speech synthesis interface{{< files text="show files" >}}* /etc/speech-dispatcher/clients/emacs.conf
+speech-dispatcher speech synthesis interface"
+
+{{< files text="show files" >}}* /etc/speech-dispatcher/clients/emacs.conf
 * /etc/speech-dispatcher/modules/cicero.conf
 * /etc/speech-dispatcher/modules/dtk-generic.conf
 * /etc/speech-dispatcher/modules/epos-generic.conf

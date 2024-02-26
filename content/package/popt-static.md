@@ -13,5 +13,7 @@ usize = "239936"
 sha1sum = "3ecedccd84d674808272961d0933bfc7e9dbd539"
 depends = "[]"
 +++
-Static files for popt{{< files text="show files" >}}* /usr/lib/libpopt.a
+Static files for popt"
+
+{{< files text="show files" >}}* /usr/lib/libpopt.a
 {{< /files >}}

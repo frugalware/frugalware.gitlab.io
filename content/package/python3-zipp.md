@@ -14,7 +14,9 @@ sha1sum = "27b8ac2366aa84d9cf932034724fb3224039f5ab"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-importlib-metadata']"
 +++
-Pathlib-compatible object wrapper for zip files{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/zipp-3.17.0.dist-info/LICENSE
+Pathlib-compatible object wrapper for zip files"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/zipp-3.17.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/zipp-3.17.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/zipp-3.17.0.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/zipp-3.17.0.dist-info/top_level.txt

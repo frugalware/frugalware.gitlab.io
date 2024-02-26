@@ -13,7 +13,9 @@ usize = "1518013"
 sha1sum = "fe75cd8a96a140c5009e7bde1ffc0891a0285b95"
 depends = "['haskell-microlens', 'haskell-th-abstraction>=0.5']"
 +++
-Automatic generation of record lenses for microlens{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/microlens-th-0.4.3.14/Lens/Micro/TH.dyn_hi
+Automatic generation of record lenses for microlens"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/microlens-th-0.4.3.14/Lens/Micro/TH.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/microlens-th-0.4.3.14/Lens/Micro/TH.hi
 * /usr/lib/ghc-9.8.1/site-local/microlens-th-0.4.3.14/Lens/Micro/TH/Internal.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/microlens-th-0.4.3.14/Lens/Micro/TH/Internal.hi

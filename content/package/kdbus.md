@@ -13,7 +13,9 @@ usize = "464086"
 sha1sum = "b93a57dfa8450458a66207d997575199a03abde0"
 depends = "['dbus>=0.93']"
 +++
-kdbus is a D-BUS service browser for KDE.{{< files text="show files" >}}* usr/bin/kdbus
+kdbus is a D-BUS service browser for KDE."
+
+{{< files text="show files" >}}* usr/bin/kdbus
 * usr/share/applications/kde/kdbus.desktop
 * usr/share/apps/kdbus/kdbusui.rc
 * usr/share/doc/HTML/en/kdbus/common

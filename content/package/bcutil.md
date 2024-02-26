@@ -13,5 +13,7 @@ usize = "449474"
 sha1sum = "9863b8c602eeb94e6a423be0ae1af63e2e173e70"
 depends = "['bcprov']"
 +++
-Java cryptography APIs.{{< files text="show files" >}}* /usr/share/java/bcutil.jar
+Java cryptography APIs."
+
+{{< files text="show files" >}}* /usr/share/java/bcutil.jar
 {{< /files >}}

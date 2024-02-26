@@ -14,7 +14,9 @@ sha1sum = "f4e4a56bc37024564b8ade270d5453e7dd1f02bd"
 depends = "['ki18n>=5.115.0', 'kjs>=5.115.0', 'qt5-svg>=5.15.12']"
 reverse_depends = "['plasma-workspace']"
 +++
-Binding Javascript object to QObjects.{{< files text="show files" >}}* /usr/bin/kjscmd5
+Binding Javascript object to QObjects."
+
+{{< files text="show files" >}}* /usr/bin/kjscmd5
 * /usr/bin/kjsconsole
 * /usr/include/KF5/KJsEmbed/kjsembed/binding_support.h
 * /usr/include/KF5/KJsEmbed/kjsembed/kjseglobal.h

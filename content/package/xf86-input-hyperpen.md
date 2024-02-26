@@ -14,7 +14,9 @@ sha1sum = "09b304c05c822a5dfeb30100e7ac713d5b8da977"
 depends = "['xorg-server>=1.20.4-3']"
 license = "GPL2"
 +++
-X.Org driver for hyperpen input devices{{< files text="show files" >}}* /usr/lib/xorg/modules/input/hyperpen_drv.so
+X.Org driver for hyperpen input devices"
+
+{{< files text="show files" >}}* /usr/lib/xorg/modules/input/hyperpen_drv.so
 * /usr/share/doc/xf86-input-hyperpen-1.4.1/AUTHORS
 * /usr/share/doc/xf86-input-hyperpen-1.4.1/ChangeLog
 * /usr/share/doc/xf86-input-hyperpen-1.4.1/COPYING

@@ -13,7 +13,9 @@ usize = "76049"
 sha1sum = "15f1efe166c3d365e1c83faa65861520b50d73c8"
 depends = "['hivex', 'perl']"
 +++
-Perl bindings for hivex{{< files text="show files" >}}* /usr/lib/perl5/5.38/site_perl/auto/Win/Hivex/Hivex.so
+Perl bindings for hivex"
+
+{{< files text="show files" >}}* /usr/lib/perl5/5.38/site_perl/auto/Win/Hivex/Hivex.so
 * /usr/lib/perl5/5.38/site_perl/Win/Hivex.pm
 * /usr/lib/perl5/5.38/site_perl/Win/Hivex/Regedit.pm
 {{< /files >}}

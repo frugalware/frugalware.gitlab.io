@@ -14,7 +14,9 @@ sha1sum = "3bc0fb16e8e554960a9c496f5005cc879620cb6c"
 depends = "['networkmanager']"
 reverse_depends = "['nm-openvpn']"
 +++
-network management framework (OPENVPN plugin) without GNOME{{< files text="show files" >}}* /usr/lib/NetworkManager/libnm-vpn-plugin-openvpn.so
+network management framework (OPENVPN plugin) without GNOME"
+
+{{< files text="show files" >}}* /usr/lib/NetworkManager/libnm-vpn-plugin-openvpn.so
 * /usr/lib/NetworkManager/VPN/nm-openvpn-service.name
 * /usr/lib/nm-openvpn/nm-openvpn-service
 * /usr/lib/nm-openvpn/nm-openvpn-service-openvpn-helper

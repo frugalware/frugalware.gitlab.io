@@ -14,7 +14,9 @@ sha1sum = "a560fb79612b1407e149ed4f79347003255d608d"
 depends = "['dlib', 'face_recognition_models', 'python3-click', 'python3-numpy', 'python3-pillow', 'python3-scipy']"
 reverse_depends = "['howdy']"
 +++
-Fce_recognition python library{{< files text="show files" >}}* /usr/bin/face_detection
+Fce_recognition python library"
+
+{{< files text="show files" >}}* /usr/bin/face_detection
 * /usr/bin/face_recognition
 * /usr/lib/python3.12/site-packages/face_recognition-1.3.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/face_recognition-1.3.0-py3.12.egg-info/entry_points.txt

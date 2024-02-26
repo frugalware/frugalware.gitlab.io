@@ -13,7 +13,9 @@ usize = "9364083"
 sha1sum = "7486b4c22441227aa1420d6eb5e3e0e83bbca5bc"
 depends = "['glibc']"
 +++
-WASI LLVM C++ standard library{{< files text="show files" >}}* /usr/share/doc/wasi-libc++-17.0.6/README.md
+WASI LLVM C++ standard library"
+
+{{< files text="show files" >}}* /usr/share/doc/wasi-libc++-17.0.6/README.md
 * /usr/share/wasi-sysroot/include/c++/v1/algorithm
 * /usr/share/wasi-sysroot/include/c++/v1/any
 * /usr/share/wasi-sysroot/include/c++/v1/array

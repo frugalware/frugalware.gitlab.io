@@ -14,7 +14,9 @@ sha1sum = "ac6f163649d975519efffee92dbabfcda6a7ccbd"
 depends = "['libstdc++>=9.1.0-3']"
 reverse_depends = "['freecell-solver', 'libguestfs', 'webkit-gtk3']"
 +++
-A perfect hash function generator.{{< files text="show files" >}}* /usr/bin/gperf
+A perfect hash function generator."
+
+{{< files text="show files" >}}* /usr/bin/gperf
 * /usr/share/doc/gperf-3.1/AUTHORS
 * /usr/share/doc/gperf-3.1/ChangeLog
 * /usr/share/doc/gperf-3.1/COPYING

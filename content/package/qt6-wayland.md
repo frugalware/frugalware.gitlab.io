@@ -14,7 +14,9 @@ sha1sum = "88e3b742c8695b8c781895f0091af03407e72987"
 depends = "['libdrm', 'qt6-declarative', 'wayland']"
 reverse_depends = "['ladybird', 'telegram-desktop']"
 +++
-The Qt6 toolkit, qtwayland{{< files text="show files" >}}* /usr/include/qt6/QtWaylandClient/6.6.2/QtWaylandClient/private/qtwaylandclient-config_p.h
+The Qt6 toolkit, qtwayland"
+
+{{< files text="show files" >}}* /usr/include/qt6/QtWaylandClient/6.6.2/QtWaylandClient/private/qtwaylandclient-config_p.h
 * /usr/include/qt6/QtWaylandClient/6.6.2/QtWaylandClient/private/qtwaylandclientglobal_p.h
 * /usr/include/qt6/QtWaylandClient/6.6.2/QtWaylandClient/private/qwayland-cursor-shape-v1.h
 * /usr/include/qt6/QtWaylandClient/6.6.2/QtWaylandClient/private/qwayland-fractional-scale-v1.h

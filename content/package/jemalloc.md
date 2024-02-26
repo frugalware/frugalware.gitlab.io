@@ -14,7 +14,9 @@ sha1sum = "5dd38568bc1d66d63da5f23709b4ed02de10e82d"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['blender', 'firefox', 'inkscape', 'mariadb', 'openvdb', 'qemu', 'redis', 'telegram-desktop']"
 +++
-General-purpose scalable concurrent malloc(3) implementation{{< files text="show files" >}}* /usr/bin/jemalloc-config
+General-purpose scalable concurrent malloc(3) implementation"
+
+{{< files text="show files" >}}* /usr/bin/jemalloc-config
 * /usr/bin/jemalloc.sh
 * /usr/bin/jeprof
 * /usr/include/jemalloc/jemalloc.h

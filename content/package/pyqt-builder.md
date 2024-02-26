@@ -13,7 +13,9 @@ usize = "9547831"
 sha1sum = "df69de79915feb23e9ba63d1346b5f19cd4f1451"
 depends = "['python3>=3.12']"
 +++
-The PEP 517 compliant PyQt build system{{< files text="show files" >}}* /usr/bin/pyqt-bundle
+The PEP 517 compliant PyQt build system"
+
+{{< files text="show files" >}}* /usr/bin/pyqt-bundle
 * /usr/bin/pyqt-qt-wheel
 * /usr/lib/python3.12/site-packages/pyqtbuild/bindings.py
 * /usr/lib/python3.12/site-packages/pyqtbuild/builder.py

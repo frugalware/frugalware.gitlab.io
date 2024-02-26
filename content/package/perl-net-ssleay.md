@@ -14,7 +14,9 @@ sha1sum = "0be410591198b15a5b0083a308e392d2cd3d808e"
 depends = "['openssl>=3.1.0', 'perl>=5.34.0']"
 reverse_depends = "['perl-io-socket-ssl', 'spamassassin']"
 +++
-Perl extension for using OpenSSL{{< files text="show files" >}}* /usr/lib/perl5/5.38/site_perl/auto/Net/SSLeay/autosplit.ix
+Perl extension for using OpenSSL"
+
+{{< files text="show files" >}}* /usr/lib/perl5/5.38/site_perl/auto/Net/SSLeay/autosplit.ix
 * /usr/lib/perl5/5.38/site_perl/auto/Net/SSLeay/debug_read.al
 * /usr/lib/perl5/5.38/site_perl/auto/Net/SSLeay/do_https.al
 * /usr/lib/perl5/5.38/site_perl/auto/Net/SSLeay/do_https2.al

@@ -13,7 +13,9 @@ usize = "59740133"
 sha1sum = "94e6b05cc724929ec34b7773f2276869c5b9207a"
 depends = "['glibc', 'libedit', 'libfbclient>=4.0.4.3010_0-1', 'libgcc', 'libstdc++', 'libtomcrypt', 'ncurses']"
 +++
-SQL relational database management system{{< files text="show files" >}}* /etc/firebird/CHANGELOG.md
+SQL relational database management system"
+
+{{< files text="show files" >}}* /etc/firebird/CHANGELOG.md
 * /etc/firebird/databases.conf
 * /etc/firebird/fbintl.conf
 * /etc/firebird/fbtrace.conf

@@ -14,7 +14,9 @@ sha1sum = "3bf68f15505a6805a187d9989867627e6d5bcc29"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-wai-cors']"
 +++
-Unicode alternatives for common functions and operators{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/base-unicode-symbols-0.2.4.2/Control/Applicative/Unicode.dyn_hi
+Unicode alternatives for common functions and operators"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/base-unicode-symbols-0.2.4.2/Control/Applicative/Unicode.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/base-unicode-symbols-0.2.4.2/Control/Applicative/Unicode.hi
 * /usr/lib/ghc-9.8.1/site-local/base-unicode-symbols-0.2.4.2/Control/Arrow/Unicode.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/base-unicode-symbols-0.2.4.2/Control/Arrow/Unicode.hi

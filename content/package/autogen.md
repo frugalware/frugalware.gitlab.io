@@ -13,7 +13,9 @@ usize = "1477021"
 sha1sum = "2e6f59f7fa1b6cd39758968bbe4c74644d016a56"
 depends = "['guile>=3.0.4', 'libffi>=3.2.1', 'libxml2>=2.9.3-2']"
 +++
-AutoGen is a tool designed to simplify the creation and maintenance of programs that contain large amounts of repetitious text{{< files text="show files" >}}* /usr/bin/autogen
+AutoGen is a tool designed to simplify the creation and maintenance of programs that contain large amounts of repetitious text"
+
+{{< files text="show files" >}}* /usr/bin/autogen
 * /usr/bin/autoopts-config
 * /usr/bin/columns
 * /usr/bin/getdefs

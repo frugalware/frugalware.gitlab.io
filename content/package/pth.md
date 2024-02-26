@@ -13,7 +13,9 @@ usize = "348312"
 sha1sum = "530861e82de082a36f37a0b276a0cade8d29bb4a"
 depends = "['glibc>=2.34']"
 +++
-The GNU Portable Threads.{{< files text="show files" >}}* /usr/bin/pth-config
+The GNU Portable Threads."
+
+{{< files text="show files" >}}* /usr/bin/pth-config
 * /usr/include/pth.h
 * /usr/lib/libpth.so
 * /usr/lib/libpth.so.20

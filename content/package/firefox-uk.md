@@ -14,5 +14,7 @@ sha1sum = "9a764b01155061d007cc38cdfbbd30c33d598079"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Ukrainian language support for Firefox{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-uk@firefox.mozilla.org.xpi
+Ukrainian language support for Firefox"
+
+{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-uk@firefox.mozilla.org.xpi
 {{< /files >}}

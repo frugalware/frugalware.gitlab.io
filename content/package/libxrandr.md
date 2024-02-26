@@ -15,7 +15,9 @@ depends = "['libx11>=1.6.5-2', 'libxext>=1.1.5-4', 'libxrender>=0.9.10']"
 reverse_depends = "['argyllcms', 'box2d', 'cef', 'clightd', 'colord-kde', 'ddcutil', 'disman', 'efl', 'enlightenment', 'fluxbox', 'fox', 'fox-1.2', 'freerdp', 'geogram', 'gtk+2-libs', 'gtk+3', 'gtk+4', 'gtkmm', 'gtkmm3', 'ksubeditor', 'ksubtile', 'libcec', 'libkscreen5', 'libreoffice', 'libreoffice', 'libxpresent', 'lsp-plugins', 'mpv', 'mupdf', 'ogre', 'openbox', 'opendiablo2', 'openscenegraph', 'openxr', 'qt5-webengine', 'qt6-multimedia', 'qt6-webengine', 'radeon-profile', 'radeon-profile', 'setxkbmap', 'sfml', 'spice-vdagent', 'stepmania', 'supertuxkart', 'telegram-desktop', 'terminology', 'virtualbox', 'virtualbox-guest-additions', 'whalebird', 'wine', 'wine-devel', 'xev', 'xf86-input-wacom', 'xf86-video-intel', 'xinput', 'xrandr', 'xrdp']"
 license = "GPL2"
 +++
-X RandR Library{{< files text="show files" >}}* /usr/include/X11/extensions/Xrandr.h
+X RandR Library"
+
+{{< files text="show files" >}}* /usr/include/X11/extensions/Xrandr.h
 * /usr/lib/libXrandr.so
 * /usr/lib/libXrandr.so.2
 * /usr/lib/libXrandr.so.2.2.0

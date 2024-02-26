@@ -13,7 +13,9 @@ usize = "4843488"
 sha1sum = "77ed2ec6cee75d25aa389190d849c03b2e0c04fd"
 depends = "['font-util', 'fontconfig', 'fontconfig', 'mkfontscale']"
 +++
-High quality open source opentype font collection resembling Helvetica, Times, Palatino, Courier, Gothic, Bookman, Schoolbook, and Chancery.{{< files text="show files" >}}* /usr/share/fonts/X11/OTF/texgyreadventor-bold.otf
+High quality open source opentype font collection resembling Helvetica, Times, Palatino, Courier, Gothic, Bookman, Schoolbook, and Chancery."
+
+{{< files text="show files" >}}* /usr/share/fonts/X11/OTF/texgyreadventor-bold.otf
 * /usr/share/fonts/X11/OTF/texgyreadventor-bolditalic.otf
 * /usr/share/fonts/X11/OTF/texgyreadventor-italic.otf
 * /usr/share/fonts/X11/OTF/texgyreadventor-regular.otf

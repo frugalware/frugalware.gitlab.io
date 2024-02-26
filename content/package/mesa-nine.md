@@ -13,7 +13,9 @@ usize = "31442698"
 sha1sum = "d74acc220998ac57c382bf1f890acc59abd4c123"
 depends = "['elfutils>=0.167-2', 'expat>=2.1.0-6', 'libdrm>=2.4.70', 'libffi>=3.2.1-2', 'llvm-libs>=17.0.6', 'lmsensors>=3.5.0', 'zstd']"
 +++
-Mesa Support for DirectX 9{{< files text="show files" >}}* /usr/include/d3dadapter/d3dadapter9.h
+Mesa Support for DirectX 9"
+
+{{< files text="show files" >}}* /usr/include/d3dadapter/d3dadapter9.h
 * /usr/include/d3dadapter/drm.h
 * /usr/include/d3dadapter/present.h
 * /usr/lib/d3d/d3dadapter9.so

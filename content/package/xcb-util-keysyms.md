@@ -14,7 +14,9 @@ sha1sum = "4acbfb7ddef4f236c2e2f30388679c20de73bb03"
 depends = "['libxcb>=1.13']"
 reverse_depends = "['enlightenment', 'kwindowsystem', 'mesa-vulkan-amd', 'mesa-vulkan-intel', 'mesa-vulkan-swrast', 'qt6-base', 'xcb-util', 'xorg-server-xephyr']"
 +++
-keysyms libraries for X C Binding{{< files text="show files" >}}* /usr/include/xcb/xcb_keysyms.h
+keysyms libraries for X C Binding"
+
+{{< files text="show files" >}}* /usr/include/xcb/xcb_keysyms.h
 * /usr/lib/libxcb-keysyms.so
 * /usr/lib/libxcb-keysyms.so.1
 * /usr/lib/libxcb-keysyms.so.1.0.0

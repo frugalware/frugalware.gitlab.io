@@ -13,7 +13,9 @@ usize = "5646100"
 sha1sum = "05e35a015d85ab2fa5d4514e1bb96828a9dd1298"
 depends = "[]"
 +++
-Romanian Localization for KDE.{{< files text="show files" >}}* usr/share/apps/ktuberling/sounds/ro/ceas.wav
+Romanian Localization for KDE."
+
+{{< files text="show files" >}}* usr/share/apps/ktuberling/sounds/ro/ceas.wav
 * usr/share/apps/ktuberling/sounds/ro/cercel.wav
 * usr/share/apps/ktuberling/sounds/ro/colier.wav
 * usr/share/apps/ktuberling/sounds/ro/corn.wav

@@ -13,7 +13,9 @@ usize = "85349"
 sha1sum = "8ac40d895e0ac5067d170275ae2568e655669c50"
 depends = "['glibc']"
 +++
-A minimal dumb terminal emulation program.{{< files text="show files" >}}* /usr/bin/picocom
+A minimal dumb terminal emulation program."
+
+{{< files text="show files" >}}* /usr/bin/picocom
 * /usr/share/doc/picocom-3.1/CONTRIBUTORS
 * /usr/share/doc/picocom-3.1/README.md
 * /usr/share/doc/picocom-3.1/TODO

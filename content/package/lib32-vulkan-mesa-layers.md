@@ -13,7 +13,9 @@ usize = "1582216"
 sha1sum = "955e69db721642f26432c7d04963dad8ba0cb032"
 depends = "['lib32-libdrm', 'lib32-libxcb', 'lib32-wayland', 'vulkan-mesa-layers']"
 +++
-Mesa Vulkan layers{{< files text="show files" >}}* /usr/lib32/libVkLayer_INTEL_nullhw.so
+Mesa Vulkan layers"
+
+{{< files text="show files" >}}* /usr/lib32/libVkLayer_INTEL_nullhw.so
 * /usr/lib32/libVkLayer_MESA_device_select.so
 * /usr/lib32/libVkLayer_MESA_overlay.so
 {{< /files >}}

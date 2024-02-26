@@ -14,7 +14,9 @@ sha1sum = "18ec63d3545724f695ef19a8d232dd08211c18b7"
 depends = "['haskell-data-default-class>=0.1.2.0-7']"
 reverse_depends = "['haskell-data-default']"
 +++
-Default instances for types in containers.{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/data-default-instances-containers-0.0.1/Data/Default/Instances/Containers.dyn_hi
+Default instances for types in containers."
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/data-default-instances-containers-0.0.1/Data/Default/Instances/Containers.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/data-default-instances-containers-0.0.1/Data/Default/Instances/Containers.hi
 * /usr/lib/ghc-9.8.1/site-local/data-default-instances-containers-0.0.1/libHSdata-default-instances-containers-0.0.1-3kwj4Q5YxmO2m9egth6F6m.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSdata-default-instances-containers-0.0.1-3kwj4Q5YxmO2m9egth6F6m-ghc9.8.1.so

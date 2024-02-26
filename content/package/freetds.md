@@ -14,7 +14,9 @@ sha1sum = "b8b16641ac4bb5d49511a458893ad1e6f955242b"
 depends = "['readline>=8.0', 'unixodbc>=2.3.1']"
 license = "GPL"
 +++
-FreeTDS is a set of libraries for Unix and Linux that allows your programs to natively talk to Microsoft SQL Server and Sybase databases.{{< files text="show files" >}}* /etc/freetds.conf
+FreeTDS is a set of libraries for Unix and Linux that allows your programs to natively talk to Microsoft SQL Server and Sybase databases."
+
+{{< files text="show files" >}}* /etc/freetds.conf
 * /etc/locales.conf
 * /etc/pool.conf
 * /usr/bin/bsqldb

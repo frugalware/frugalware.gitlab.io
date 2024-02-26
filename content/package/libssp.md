@@ -14,7 +14,9 @@ sha1sum = "0c035affcc6755f954d83992e30dd68db9b3029f"
 depends = "['glibc']"
 reverse_depends = "['avahi', 'avahi-compat', 'avahi-dnsconfd', 'efl']"
 +++
-SSP libraries from GCC{{< files text="show files" >}}* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/ssp/ssp.h
+SSP libraries from GCC"
+
+{{< files text="show files" >}}* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/ssp/ssp.h
 * /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/ssp/stdio.h
 * /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/ssp/string.h
 * /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/ssp/unistd.h

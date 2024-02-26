@@ -14,7 +14,9 @@ sha1sum = "5ec49d605db8083daf3022ed1a7c2f52d48d01c0"
 depends = "['fontconfig>=2.12.1-2', 'freetype2>=2.7', 'libidn>=1.35', 'libjpeg-turbo', 'libpng>=1.6.25', 'libtiff', 'libunistring>=1.1', 'lua>=5.4', 'openssl>=3.1.0', 'zlib>=1.2.8-8']"
 reverse_depends = "['scribus']"
 +++
-PoDoFo is a library to work with the PDF file format.{{< files text="show files" >}}* /usr/include/podofo-0.9/podofo/base/Pdf3rdPtyForwardDecl.h
+PoDoFo is a library to work with the PDF file format."
+
+{{< files text="show files" >}}* /usr/include/podofo-0.9/podofo/base/Pdf3rdPtyForwardDecl.h
 * /usr/include/podofo-0.9/podofo/base/PdfArray.h
 * /usr/include/podofo-0.9/podofo/base/PdfCanvas.h
 * /usr/include/podofo-0.9/podofo/base/PdfColor.h

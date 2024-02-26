@@ -13,7 +13,9 @@ usize = "377569"
 sha1sum = "fc5217857db905d9a86254e5fbdb046df040d17b"
 depends = "['perl>=5.34.0']"
 +++
-Object oriented interface to SNMP{{< files text="show files" >}}* /usr/bin/snmpkey
+Object oriented interface to SNMP"
+
+{{< files text="show files" >}}* /usr/bin/snmpkey
 * /usr/lib/perl5/site_perl/current/Net/SNMP.pm
 * /usr/lib/perl5/site_perl/current/Net/SNMP/Dispatcher.pm
 * /usr/lib/perl5/site_perl/current/Net/SNMP/Message.pm

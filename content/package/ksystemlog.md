@@ -13,7 +13,9 @@ usize = "6078059"
 sha1sum = "cf64bd1b0ec5170c0529d83c8a86b703973c9a4e"
 depends = "['kio>=5.115.0']"
 +++
-KDE system log viewer tool.{{< files text="show files" >}}* /usr/bin/ksystemlog
+KDE system log viewer tool."
+
+{{< files text="show files" >}}* /usr/bin/ksystemlog
 * /usr/share/applications/org.kde.ksystemlog.desktop
 * /usr/share/doc/HTML/ca/ksystemlog/index.cache.bz2
 * /usr/share/doc/HTML/ca/ksystemlog/index.docbook

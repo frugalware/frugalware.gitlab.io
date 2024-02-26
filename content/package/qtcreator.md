@@ -13,7 +13,9 @@ usize = "121975675"
 sha1sum = "08e8e3e4e4763a8b87535dc2caa4e977f138a4bd"
 depends = "['clang>=17.0.6', 'cmake', 'gdb', 'litehtml', 'qt6-5compat', 'qt6-base-sql-common', 'qt6-quick3d', 'qt6-svg', 'qt6-tools', 'qt6-webengine', 'rustc-demangle', 'yaml-cpp>=0.8.0']"
 +++
-The Qt6 toolkit, qtcreator{{< files text="show files" >}}* /usr/bin/qtcreator
+The Qt6 toolkit, qtcreator"
+
+{{< files text="show files" >}}* /usr/bin/qtcreator
 * /usr/bin/qtcreator.sh
 * /usr/lib/qtcreator/libAdvancedDockingSystem.so.12
 * /usr/lib/qtcreator/libAdvancedDockingSystem.so.12.0.2

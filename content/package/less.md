@@ -14,7 +14,9 @@ sha1sum = "5739cbcc1ab3f2c364294f71487c90316f8ad8e2"
 depends = "['bash>=4.4.12-4', 'file>=5.32-2', 'ncurses>=6.1-4']"
 reverse_depends = "['kernel-initrd', 'kernel-lts-initrd', 'lesspipe', 'man-db']"
 +++
-A paginator similar to more{{< files text="show files" >}}* /usr/bin/less
+A paginator similar to more"
+
+{{< files text="show files" >}}* /usr/bin/less
 * /usr/bin/lessecho
 * /usr/bin/lesskey
 * /usr/share/doc/less-643/COPYING

@@ -13,5 +13,7 @@ usize = "22840"
 sha1sum = "2419a78f4600d162f1298b8a9294357310b2192f"
 depends = "['libldap>=2.5.4', 'uwsgi']"
 +++
-UWSGI LDAP Plugin{{< files text="show files" >}}* /usr/lib/uwsgi/ldap_plugin.so
+UWSGI LDAP Plugin"
+
+{{< files text="show files" >}}* /usr/lib/uwsgi/ldap_plugin.so
 {{< /files >}}

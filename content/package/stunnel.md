@@ -13,7 +13,9 @@ usize = "590307"
 sha1sum = "e3d73f38bc36394473f42a4ae5526c50553319bf"
 depends = "['openssl>=3.1.0', 'perl', 'zlib>=1.2.12']"
 +++
-Universal SSL Wrapper{{< files text="show files" >}}* /etc/stunnel/stunnel.conf
+Universal SSL Wrapper"
+
+{{< files text="show files" >}}* /etc/stunnel/stunnel.conf
 * /etc/stunnel/stunnel.conf-sample
 * /usr/bin/stunnel
 * /usr/bin/stunnel3

@@ -13,7 +13,9 @@ usize = "4335360"
 sha1sum = "c1d2de1f4c62a7acc39b1211229b5f09850ec934"
 depends = "['aspell>=0.60']"
 +++
-GNU Aspell 0.60 English Dictionary Package{{< files text="show files" >}}* /usr/lib/aspell-0.60/american-variant_0.alias
+GNU Aspell 0.60 English Dictionary Package"
+
+{{< files text="show files" >}}* /usr/lib/aspell-0.60/american-variant_0.alias
 * /usr/lib/aspell-0.60/american-variant_1.alias
 * /usr/lib/aspell-0.60/american-wo_accents.alias
 * /usr/lib/aspell-0.60/american-w_accents.alias

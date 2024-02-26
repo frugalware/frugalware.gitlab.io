@@ -14,7 +14,9 @@ sha1sum = "29792b35ab62829c737320b2e71cdae4c8a7b3a7"
 depends = "['glibc>=2.34']"
 reverse_depends = "['adios2']"
 +++
-User-space API for OpenFabrics Interfaces (OFI){{< files text="show files" >}}* /usr/bin/fi_info
+User-space API for OpenFabrics Interfaces (OFI)"
+
+{{< files text="show files" >}}* /usr/bin/fi_info
 * /usr/bin/fi_pingpong
 * /usr/bin/fi_strerror
 * /usr/include/rdma/fabric.h

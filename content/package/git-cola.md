@@ -13,7 +13,9 @@ usize = "5640661"
 sha1sum = "559765b593cfcfc358c3483008445684ffbee875"
 depends = "['pyinotify', 'pyqt5']"
 +++
-Git-cola is a sleek and powerful Git GUI.{{< files text="show files" >}}* /usr/bin/cola
+Git-cola is a sleek and powerful Git GUI."
+
+{{< files text="show files" >}}* /usr/bin/cola
 * /usr/bin/git-cola
 * /usr/bin/git-cola-sequence-editor
 * /usr/bin/git-dag

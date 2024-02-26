@@ -13,7 +13,9 @@ usize = "19051"
 sha1sum = "d2dfcebd6968517e9ba817778a772a14aa6d66fe"
 depends = "['python3']"
 +++
-Setuptools extension for CalVer package versions{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/calver-2022.6.26-py3.12.egg-info/dependency_links.txt
+Setuptools extension for CalVer package versions"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/calver-2022.6.26-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/calver-2022.6.26-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/calver-2022.6.26-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/calver-2022.6.26-py3.12.egg-info/SOURCES.txt

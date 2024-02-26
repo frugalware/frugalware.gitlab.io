@@ -14,7 +14,9 @@ sha1sum = "b16800f52325a3696d1b7d3796f312ffe1f48cab"
 depends = "['ki18n>=5.115.0', 'kirigami2>=5.115.0', 'qt5-graphicaleffects>=5.15.12', 'qt5-multimedia>=5.15.12']"
 reverse_depends = "['plasma-bigscreen']"
 +++
-Multimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote control{{< files text="show files" >}}* /usr/bin/plank-player
+Multimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote control"
+
+{{< files text="show files" >}}* /usr/bin/plank-player
 * /usr/share/applications/org.plank.player.desktop
 * /usr/share/doc/plank-player-5.27.10/README.md
 * /usr/share/icons/hicolor/128x128/apps/plank-player.png

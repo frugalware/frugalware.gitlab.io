@@ -13,7 +13,9 @@ usize = "111130"
 sha1sum = "5eefd3572c6059ee1f8e614c0f476f55df4171de"
 depends = "['ghc>=9.6.1']"
 +++
-Compatibile module for time-format locale{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/time-locale-compat-0.1.1.5/Data/Time/Locale/Compat.dyn_hi
+Compatibile module for time-format locale"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/time-locale-compat-0.1.1.5/Data/Time/Locale/Compat.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/time-locale-compat-0.1.1.5/Data/Time/Locale/Compat.hi
 * /usr/lib/ghc-9.8.1/site-local/time-locale-compat-0.1.1.5/libHStime-locale-compat-0.1.1.5-KvcdJAZ3yQQ2elluxpXGcd.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHStime-locale-compat-0.1.1.5-KvcdJAZ3yQQ2elluxpXGcd-ghc9.8.1.so

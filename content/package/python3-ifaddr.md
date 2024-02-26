@@ -14,7 +14,9 @@ sha1sum = "84efc594ad1f5ed856c8cd0381ee28257840cfb3"
 depends = "['python3>=3.11']"
 reverse_depends = "['python3-zeroconf']"
 +++
-Enumerates all IP addresses on all network adapters of the system{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/ifaddr-0.2.0-py3.12.egg-info/dependency_links.txt
+Enumerates all IP addresses on all network adapters of the system"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/ifaddr-0.2.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/ifaddr-0.2.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/ifaddr-0.2.0-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/ifaddr-0.2.0-py3.12.egg-info/top_level.txt

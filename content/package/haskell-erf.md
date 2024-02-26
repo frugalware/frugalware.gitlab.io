@@ -13,7 +13,9 @@ usize = "235714"
 sha1sum = "316d5f7ef9edb0ea9f0191a77d5b4aa52fc89f5c"
 depends = "['ghc>=9.6.1']"
 +++
-The error function, erf, and related functions.{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/erf-2.0.0.0/Data/Number/Erf.dyn_hi
+The error function, erf, and related functions."
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/erf-2.0.0.0/Data/Number/Erf.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/erf-2.0.0.0/Data/Number/Erf.hi
 * /usr/lib/ghc-9.8.1/site-local/erf-2.0.0.0/libHSerf-2.0.0.0-92efuiuTK54A2F9IwoRdny.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSerf-2.0.0.0-92efuiuTK54A2F9IwoRdny-ghc9.8.1.so

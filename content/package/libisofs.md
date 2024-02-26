@@ -13,7 +13,9 @@ usize = "1046024"
 sha1sum = "c3ac7cb3f8532f26af304a018d020267a383da3c"
 depends = "['xfsprogs-acl>=2.2.52-5', 'zlib>=1.2.12']"
 +++
-A library for creating ISO filesystem, among other things.{{< files text="show files" >}}* /usr/include/libisofs/libisofs.h
+A library for creating ISO filesystem, among other things."
+
+{{< files text="show files" >}}* /usr/include/libisofs/libisofs.h
 * /usr/lib/libisofs.so
 * /usr/lib/libisofs.so.6
 * /usr/lib/libisofs.so.6.92.0

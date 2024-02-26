@@ -13,6 +13,8 @@ usize = "4368"
 sha1sum = "6ccaf232b72b418b64fe06fe0575c61cee28407a"
 depends = "[]"
 +++
-A simple Linux bootloader for UEFI.{{< files text="show files" >}}* /usr/lib/efilinux/efilinux.efi
+A simple Linux bootloader for UEFI."
+
+{{< files text="show files" >}}* /usr/lib/efilinux/efilinux.efi
 * /usr/share/doc/efilinux-1.1/README
 {{< /files >}}

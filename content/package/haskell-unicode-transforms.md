@@ -14,7 +14,9 @@ sha1sum = "6b0e53d2a4df63686433457d3686baed360bde4c"
 depends = "['haskell-unicode-data']"
 reverse_depends = "['haskell-commonmark']"
 +++
-Unicode transforms (normalization NFC/NFD/NFKC/NFKD){{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/unicode-transforms-0.4.0.1/Data/ByteString/UTF8/Normalize.dyn_hi
+Unicode transforms (normalization NFC/NFD/NFKC/NFKD)"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/unicode-transforms-0.4.0.1/Data/ByteString/UTF8/Normalize.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/unicode-transforms-0.4.0.1/Data/ByteString/UTF8/Normalize.hi
 * /usr/lib/ghc-9.8.1/site-local/unicode-transforms-0.4.0.1/Data/Text/Normalize.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/unicode-transforms-0.4.0.1/Data/Text/Normalize.hi

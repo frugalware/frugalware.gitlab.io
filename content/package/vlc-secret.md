@@ -13,5 +13,7 @@ usize = "18200"
 sha1sum = "1a26907ba70e410a68a7b239f363be1d17eca724"
 depends = "['libsecret', 'libvlc>=3.0.20']"
 +++
-vlc secret support{{< files text="show files" >}}* /usr/lib/vlc/plugins/keystore/libsecret_plugin.so
+vlc secret support"
+
+{{< files text="show files" >}}* /usr/lib/vlc/plugins/keystore/libsecret_plugin.so
 {{< /files >}}

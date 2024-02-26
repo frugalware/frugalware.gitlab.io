@@ -13,5 +13,7 @@ usize = "1358334"
 sha1sum = "38af2356f9e12ca4199ec9dd6d0ee0fad38b4b50"
 depends = "['fontconfig', 'mkfontscale']"
 +++
-Unicode font from GNU in PCF format.{{< files text="show files" >}}* /usr/share/fonts/X11/misc/unifont.pcf.gz
+Unicode font from GNU in PCF format."
+
+{{< files text="show files" >}}* /usr/share/fonts/X11/misc/unifont.pcf.gz
 {{< /files >}}

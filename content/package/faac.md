@@ -14,7 +14,9 @@ sha1sum = "81b17e3974484c84282e63b0a4c08ef32716037c"
 depends = "['libmp4v2>=2.1.0-3', 'libstdc++>=11.2']"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-bad-faac', 'mencoder', 'mplayer']"
 +++
-FAAC is an AAC audio encoder.{{< files text="show files" >}}* /usr/bin/faac
+FAAC is an AAC audio encoder."
+
+{{< files text="show files" >}}* /usr/bin/faac
 * /usr/include/faac.h
 * /usr/include/faaccfg.h
 * /usr/lib/libfaac.so

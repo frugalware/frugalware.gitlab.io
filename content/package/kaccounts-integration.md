@@ -14,7 +14,9 @@ sha1sum = "42e19ce722c382cf5afbeaffc485f89c02d67b7e"
 depends = "['kcmutils>=5.115.0', 'kconfigwidgets>=5.115.0', 'kdbusaddons>=5.115.0', 'kdeclarative>=5.115.0', 'libaccounts-qt>=1.14-3', 'qcoro', 'qt5-declarative>=5.15.12', 'qt5-x11extras>=5.15.12', 'signon-kwallet-extension>=23.08.5']"
 reverse_depends = "['akonadi', 'kaccounts-provider-opendesktop', 'kaccounts-providers', 'plasma-welcome']"
 +++
-Small system to administer web accounts like: Google, Facebook, Owncloud, IMAP, Jabber and others{{< files text="show files" >}}* /usr/include/KAccounts/AccountServiceToggleJob
+Small system to administer web accounts like: Google, Facebook, Owncloud, IMAP, Jabber and others"
+
+{{< files text="show files" >}}* /usr/include/KAccounts/AccountServiceToggleJob
 * /usr/include/KAccounts/accountservicetogglejob.h
 * /usr/include/KAccounts/AccountsModel
 * /usr/include/KAccounts/accountsmodel.h

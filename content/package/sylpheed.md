@@ -13,7 +13,9 @@ usize = "7753583"
 sha1sum = "e784674df47179111137b83704c39de86242fe02"
 depends = "['dbus-glib', 'enchant', 'freetype2', 'glib2>=2.32.4', 'gpgme', 'gtkspell>=2.0.16-17', 'libldap>=2.6.2', 'libxcb', 'openssl>=3.1.0']"
 +++
-A GTK+ based, lightweight, and fast email client{{< files text="show files" >}}* /usr/bin/sylpheed
+A GTK+ based, lightweight, and fast email client"
+
+{{< files text="show files" >}}* /usr/bin/sylpheed
 * /usr/include/sylpheed/plugin-types.h
 * /usr/include/sylpheed/plugin.h
 * /usr/include/sylpheed/sylph/account.h

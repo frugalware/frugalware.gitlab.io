@@ -14,7 +14,9 @@ sha1sum = "89502a1ffd761ec4b1f3cfcb1e5377209ba32be6"
 depends = "['glibc>=2.34']"
 reverse_depends = "['efl', 'enlightenment', 'libpulse', 'telepathy-salut', 'terminology']"
 +++
-libasyncns is a C library for Linux/Unix for executing name service queries asynchronously{{< files text="show files" >}}* /usr/include/asyncns.h
+libasyncns is a C library for Linux/Unix for executing name service queries asynchronously"
+
+{{< files text="show files" >}}* /usr/include/asyncns.h
 * /usr/lib/libasyncns.so
 * /usr/lib/libasyncns.so.0
 * /usr/lib/libasyncns.so.0.3.1

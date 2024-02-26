@@ -13,7 +13,9 @@ usize = "7339748"
 sha1sum = "4995d9cb51f2da951c00bb7d3c0aecda5a298ff3"
 depends = "['texlive=2023.0']"
 +++
-Extra packages (generic, ..) for TeX Live{{< files text="show files" >}}* /usr/share/texmf-dist/bibtex/bst/dinat/dinat.bst
+Extra packages (generic, ..) for TeX Live"
+
+{{< files text="show files" >}}* /usr/share/texmf-dist/bibtex/bst/dinat/dinat.bst
 * /usr/share/texmf-dist/bibtex/bst/jurarsp/jurarsp.bst
 * /usr/share/texmf-dist/dvips/colorsep/colorsep.pro
 * /usr/share/texmf-dist/dvips/tree-dvips/tree-dvips91.pro

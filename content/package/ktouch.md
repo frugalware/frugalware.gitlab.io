@@ -13,7 +13,9 @@ usize = "8973836"
 sha1sum = "9bfd69449edc234e970ec6acd5fae780b5f46fef"
 depends = "['kcmutils>=5.115.0', 'kdeclarative>=5.115.0', 'kio>=5.115.0', 'knewstuff>=5.115.0', 'kqtquickcharts>=23.08.5', 'ktexteditor>=5.115.0', 'qt5-xmlpatterns>=_F_kdever_qt5']"
 +++
-Touch Typing Tutor.{{< files text="show files" >}}* /usr/bin/ktouch
+Touch Typing Tutor."
+
+{{< files text="show files" >}}* /usr/bin/ktouch
 * /usr/share/applications/org.kde.ktouch.desktop
 * /usr/share/config.kcfg/ktouch.kcfg
 * /usr/share/doc/HTML/ca/ktouch/index.cache.bz2

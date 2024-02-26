@@ -14,7 +14,9 @@ sha1sum = "e6f0520a0f027bd2879971f6167092a3b946763b"
 depends = "['dhclient>=4.3.3', 'gnutls>=3.4.2', 'iptables>=1.6.1', 'libsystemd>=229', 'openvpn>=2.3.10', 'polkit', 'ppp>=2.4.7-2', 'readline>=8.0', 'wireless_tools', 'wpa_supplicant']"
 reverse_depends = "['cmst', 'econnman']"
 +++
-open source connection manager{{< files text="show files" >}}* /usr/bin/connman-vpnd
+open source connection manager"
+
+{{< files text="show files" >}}* /usr/bin/connman-vpnd
 * /usr/bin/connmanctl
 * /usr/bin/connmand
 * /usr/bin/connmand-wait-online

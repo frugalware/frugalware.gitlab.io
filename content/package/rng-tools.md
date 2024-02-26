@@ -13,7 +13,9 @@ usize = "171271"
 sha1sum = "8ca445e6535f2202a270a685f2f065bb3c116f8d"
 depends = "['curl', 'jansson', 'jitterentropy-library>=3.0.0', 'libgcrypt', 'libp11', 'librtlsdr>=2.0.1', 'opensc', 'sysfsutils']"
 +++
-Random number generator related utilities{{< files text="show files" >}}* /etc/sysconfig/rngd
+Random number generator related utilities"
+
+{{< files text="show files" >}}* /etc/sysconfig/rngd
 * /usr/bin/randstat
 * /usr/bin/rngd
 * /usr/bin/rngtest

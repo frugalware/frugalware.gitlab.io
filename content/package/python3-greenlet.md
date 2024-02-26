@@ -14,7 +14,9 @@ sha1sum = "962d358a3101f8df9b4a76f0e4fe6f2967f9c4f9"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-eventlet', 'python3-gevent', 'uwsgi-plugin-python']"
 +++
-Lightweight in-process concurrent programming{{< files text="show files" >}}* /usr/include/python3.12/greenlet/greenlet.h
+Lightweight in-process concurrent programming"
+
+{{< files text="show files" >}}* /usr/include/python3.12/greenlet/greenlet.h
 * /usr/lib/python3.12/site-packages/greenlet-3.0.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/greenlet-3.0.1-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/greenlet-3.0.1-py3.12.egg-info/PKG-INFO

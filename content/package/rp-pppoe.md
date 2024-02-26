@@ -13,7 +13,9 @@ usize = "235181"
 sha1sum = "34910e0f67c1a18354eb1bb107656c9c71d78071"
 depends = "['ppp>=2.5.0']"
 +++
-Roaring Penguin PPPoE client{{< files text="show files" >}}* /etc/ppp/pppoe-server-options.dist
+Roaring Penguin PPPoE client"
+
+{{< files text="show files" >}}* /etc/ppp/pppoe-server-options.dist
 * /usr/bin/pppoe
 * /usr/bin/pppoe-relay
 * /usr/bin/pppoe-server

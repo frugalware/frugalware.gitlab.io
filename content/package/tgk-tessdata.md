@@ -13,5 +13,7 @@ usize = "3721667"
 sha1sum = "c6ae3048d9c09e902be6a02e84d52461c2b63c3a"
 depends = "['glibc']"
 +++
-Language specific files for tesseract lang tgk{{< files text="show files" >}}* /usr/share/tessdata/tgk.traineddata
+Language specific files for tesseract lang tgk"
+
+{{< files text="show files" >}}* /usr/share/tessdata/tgk.traineddata
 {{< /files >}}

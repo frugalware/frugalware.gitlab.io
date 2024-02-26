@@ -14,7 +14,9 @@ sha1sum = "011bfb6eadd14ebe6a3c6a459370f4f579300396"
 depends = "['lib32-pcre>=8.40-2']"
 reverse_depends = "['lib32-libcaca', 'lib32-newt']"
 +++
-S-Lang is a powerful interpreted language ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/slsh
+S-Lang is a powerful interpreted language ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/slsh
 * /usr/i686-frugalware-linux/include/slang.h
 * /usr/i686-frugalware-linux/include/slcurses.h
 * /usr/lib32/libslang.so

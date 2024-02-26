@@ -14,7 +14,9 @@ sha1sum = "8857574ef5e04bba0f96e23deca8141f77d5ecdd"
 depends = "['enchant', 'gtk+3>=3.24.0', 'libffi>=3.2.1']"
 reverse_depends = "['inkscape', 'poedit']"
 +++
-On-the-fly spell checking for GtkTextView widgets{{< files text="show files" >}}* /usr/include/gtkspell-3.0/gtkspell/gtkspell.h
+On-the-fly spell checking for GtkTextView widgets"
+
+{{< files text="show files" >}}* /usr/include/gtkspell-3.0/gtkspell/gtkspell.h
 * /usr/lib/girepository-1.0/GtkSpell-3.0.typelib
 * /usr/lib/libgtkspell3-3.so
 * /usr/lib/libgtkspell3-3.so.0

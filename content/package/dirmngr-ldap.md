@@ -13,6 +13,8 @@ usize = "511840"
 sha1sum = "5e306f517cb9257896173a05215cd68b461eec21"
 depends = "['gnutls>=3.4.8', 'libassuan>=2.5.1-2', 'libffi>=3.2.1', 'libgcrypt>=1.6.4-3', 'libidn>=1.32-4', 'libksba>=1.3.3-3', 'libldap>=2.5.4', 'npth>=1.5-2']"
 +++
-GnuPG dirmngr with LDAP support{{< files text="show files" >}}* /usr/bin/ldap_dirmngr
+GnuPG dirmngr with LDAP support"
+
+{{< files text="show files" >}}* /usr/bin/ldap_dirmngr
 * /usr/lib/gnupg2/ldap_dirmngr_ldap
 {{< /files >}}

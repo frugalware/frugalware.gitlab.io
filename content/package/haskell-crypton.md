@@ -14,7 +14,9 @@ sha1sum = "c8a4345a841c558b365c30181c7f6c0b3fe41c7b"
 depends = "['haskell-memory']"
 reverse_depends = "['haskell-crypton-x509', 'haskell-wai-app-static']"
 +++
-Cryptography Primitives sink{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/crypton-0.34/Crypto/Cipher/AES.dyn_hi
+Cryptography Primitives sink"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/crypton-0.34/Crypto/Cipher/AES.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/crypton-0.34/Crypto/Cipher/AES.hi
 * /usr/lib/ghc-9.8.1/site-local/crypton-0.34/Crypto/Cipher/AES/Primitive.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/crypton-0.34/Crypto/Cipher/AES/Primitive.hi

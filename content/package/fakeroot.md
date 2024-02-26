@@ -13,7 +13,9 @@ usize = "297957"
 sha1sum = "1a285bf76735a863d3e7fd85d16452de842d306f"
 depends = "['glibc>=2.35']"
 +++
-Gives a fake root environment{{< files text="show files" >}}* /usr/bin/faked
+Gives a fake root environment"
+
+{{< files text="show files" >}}* /usr/bin/faked
 * /usr/bin/fakeroot
 * /usr/i686-frugalware-linux/bin/faked
 * /usr/i686-frugalware-linux/bin/fakeroot

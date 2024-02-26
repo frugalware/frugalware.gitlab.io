@@ -13,7 +13,9 @@ usize = "3504325"
 sha1sum = "a122c0357ad76c5586dfff3b037d8bba040c3245"
 depends = "['ipset', 'iptables', 'pyinotify', 'python3-py', 'python3-sqlite3', 'python3-systemd', 'whois']"
 +++
-Bans IP that make too many password failures{{< files text="show files" >}}* /etc/fail2ban/action.d/abuseipdb.conf
+Bans IP that make too many password failures"
+
+{{< files text="show files" >}}* /etc/fail2ban/action.d/abuseipdb.conf
 * /etc/fail2ban/action.d/apf.conf
 * /etc/fail2ban/action.d/apprise.conf
 * /etc/fail2ban/action.d/blocklist_de.conf

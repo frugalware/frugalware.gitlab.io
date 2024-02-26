@@ -14,7 +14,9 @@ sha1sum = "884a2ed7b7348e0ad5de63aefbd38465d0a4808a"
 depends = "['db>=18.1.32-2', 'glibc>=2.35', 'libaudit', 'libsystemd', 'libxcrypt']"
 reverse_depends = "['c-client', 'cups', 'dovecot', 'dropbear', 'enlightenment', 'greetd', 'inetutils', 'kbd', 'kwallet-pam', 'libcups', 'libpwquality', 'lighttpd', 'lxc', 'monit', 'openssh', 'openvpn', 'pam-frugalware', 'pam-python', 'pam_wrapper', 'polkit', 'saslauthd', 'screen', 'systemd-sysvinit', 'util-linux', 'virtualbox-guest-additions', 'vsftpd', 'xorg-server', 'xrdp']"
 +++
-Linux-PAM (Pluggable Authentication Modules){{< files text="show files" >}}* /etc/environment
+Linux-PAM (Pluggable Authentication Modules)"
+
+{{< files text="show files" >}}* /etc/environment
 * /etc/security/access.conf
 * /etc/security/faillock.conf
 * /etc/security/group.conf

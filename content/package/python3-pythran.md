@@ -13,7 +13,9 @@ usize = "5844746"
 sha1sum = "193337c3f6dc5d5548a879dbeb09ba5233c3c4c6"
 depends = "['boost', 'python3-beniget', 'python3-networkx', 'python3-numpy', 'python3-ply', 'python3-six']"
 +++
-Ahead of Time compiler for numeric kernels{{< files text="show files" >}}* /usr/bin/pythran
+Ahead of Time compiler for numeric kernels"
+
+{{< files text="show files" >}}* /usr/bin/pythran
 * /usr/bin/pythran-config
 * /usr/lib/python3.12/site-packages/omp/__init__.py
 * /usr/lib/python3.12/site-packages/omp/__pycache__/__init__.cpython-312.pyc

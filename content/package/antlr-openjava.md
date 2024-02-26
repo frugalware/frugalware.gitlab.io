@@ -13,7 +13,9 @@ usize = "2300259"
 sha1sum = "198828b4c3c1edcd6497f6b9f89bfbc3a05dfa45"
 depends = "['openjre']"
 +++
-ANother Tool for Language Recognition{{< files text="show files" >}}* /usr/bin/antlr
+ANother Tool for Language Recognition"
+
+{{< files text="show files" >}}* /usr/bin/antlr
 * /usr/bin/antlr-config
 * /usr/bin/pyantlr.sh
 * /usr/lib/antlr.jar

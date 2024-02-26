@@ -13,5 +13,7 @@ usize = "22317"
 sha1sum = "c7a2d5e0693c3e713b692900b2aafc972a0a15cf"
 depends = "['telepathy-glib']"
 +++
-telepathy plugin for remmina{{< files text="show files" >}}* /usr/lib/remmina/plugins/remmina-plugin-telepathy.so
+telepathy plugin for remmina"
+
+{{< files text="show files" >}}* /usr/lib/remmina/plugins/remmina-plugin-telepathy.so
 {{< /files >}}

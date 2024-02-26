@@ -15,7 +15,9 @@ depends = "['glibc>=2.34']"
 reverse_depends = "['firefox', 'gvim', 'iceauth', 'libqtdesignercomponents', 'libsm', 'polkit-qt5-1', 'qscintilla2', 'xpad']"
 license = "GPL2"
 +++
-X Inter Client Exchange Library{{< files text="show files" >}}* /usr/include/X11/ICE/ICE.h
+X Inter Client Exchange Library"
+
+{{< files text="show files" >}}* /usr/include/X11/ICE/ICE.h
 * /usr/include/X11/ICE/ICEconn.h
 * /usr/include/X11/ICE/ICElib.h
 * /usr/include/X11/ICE/ICEmsg.h

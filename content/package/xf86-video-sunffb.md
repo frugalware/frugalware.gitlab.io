@@ -14,4 +14,6 @@ sha1sum = ""
 depends = "['xorg-server>=1.9.0']"
 license = "GPL2"
 +++
-X.Org video driver for sunffb cards{{< files text="show files" >}}{{< /files >}}
+X.Org video driver for sunffb cards"
+
+{{< files text="show files" >}}{{< /files >}}

@@ -13,7 +13,9 @@ usize = "31300667"
 sha1sum = "33a210c19d5d3e5f03946954aaee1b50d1727949"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Lao support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/lo/default.css
+Installs Lao support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/help/lo/default.css
 * /usr/lib/libreoffice/help/lo/err.html
 * /usr/lib/libreoffice/help/lo/highcontrast1.css
 * /usr/lib/libreoffice/help/lo/highcontrast2.css

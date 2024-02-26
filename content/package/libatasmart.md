@@ -14,7 +14,9 @@ sha1sum = "854ed64a7dfe7d21d636e34fa1f38d2d9e22a9df"
 depends = "['libudev>=242']"
 reverse_depends = "['udisks2']"
 +++
-Lean and small library for ATA S.M.A.R.T. hard disks{{< files text="show files" >}}* /usr/bin/skdump
+Lean and small library for ATA S.M.A.R.T. hard disks"
+
+{{< files text="show files" >}}* /usr/bin/skdump
 * /usr/bin/sktest
 * /usr/include/atasmart.h
 * /usr/lib/libatasmart.so

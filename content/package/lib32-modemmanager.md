@@ -14,7 +14,9 @@ sha1sum = "b90aab3cd181b8a26d8ceea5804ca7ad16adf6a2"
 depends = "['lib32-libgudev', 'lib32-libsystemd']"
 reverse_depends = "['lib32-networkmanager']"
 +++
-Mobile broadband modem management service ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/mmcli
+Mobile broadband modem management service ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/mmcli
 * /usr/i686-frugalware-linux/include/libmm-glib/libmm-glib.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-3gpp-profile.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-bearer-ip-config.h

@@ -13,6 +13,8 @@ usize = "0"
 sha1sum = ""
 depends = "['firefox>=1.0.7']"
 +++
-Chinese Traditional language support for Firefox{{< files text="show files" >}}* usr/lib/firefox/chrome/rc.d/10_firefox-zh_TW.txt
+Chinese Traditional language support for Firefox"
+
+{{< files text="show files" >}}* usr/lib/firefox/chrome/rc.d/10_firefox-zh_TW.txt
 * usr/lib/firefox/chrome/zh-TW.jar
 {{< /files >}}

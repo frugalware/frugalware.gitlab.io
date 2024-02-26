@@ -14,7 +14,9 @@ sha1sum = "d7141e728631215e03279c4379c078ffa67d2fc8"
 depends = "['apr>=1.6.3', 'cyrus-sasl>=2.1.26', 'db>=18.1.32', 'expat>=2.1.0-5', 'gdbm>=1.15', 'libldap>=2.5.4', 'nss', 'openssl>=3.1.0', 'sqlite3>=3.9.2-4', 'unixodbc']"
 reverse_depends = "['apache', 'mod_security', 'mod_svn', 'serf', 'subversion-svnserve']"
 +++
-Apache Portable Runtime{{< files text="show files" >}}* /usr/bin/apu-1-config
+Apache Portable Runtime"
+
+{{< files text="show files" >}}* /usr/bin/apu-1-config
 * /usr/include/apr-1/apr_anylock.h
 * /usr/include/apr-1/apr_base64.h
 * /usr/include/apr-1/apr_buckets.h

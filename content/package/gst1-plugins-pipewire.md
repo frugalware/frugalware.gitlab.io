@@ -13,5 +13,7 @@ usize = "124864"
 sha1sum = "8b24c43dc72b778d096201f4a658e3859b4fff13"
 depends = "['gst1-plugins-base', 'wireplumber']"
 +++
-GStreamer Pipewire Plugin{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstpipewire.so
+GStreamer Pipewire Plugin"
+
+{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstpipewire.so
 {{< /files >}}

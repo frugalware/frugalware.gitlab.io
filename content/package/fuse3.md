@@ -14,7 +14,9 @@ sha1sum = "7b549aadc6bb5fb2f831a271bedb8e6cbf2a835d"
 depends = "['fuse-common', 'glibc>=2.34']"
 reverse_depends = "['freerdp', 'gvfs-fuse', 'kio-fuse', 'ostree', 'sshfs', 'unionfs-fuse', 'xdg-desktop-portal']"
 +++
-An interface for filesystems implemented in userspace.{{< files text="show files" >}}* /usr/bin/fusermount3
+An interface for filesystems implemented in userspace."
+
+{{< files text="show files" >}}* /usr/bin/fusermount3
 * /usr/bin/mount.fuse3
 * /usr/include/fuse3/cuse_lowlevel.h
 * /usr/include/fuse3/fuse.h

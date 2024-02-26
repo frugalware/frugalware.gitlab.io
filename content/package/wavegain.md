@@ -13,6 +13,8 @@ usize = "90693"
 sha1sum = "7144230baebe8e1e6446cddff888bbe8e1daa273"
 depends = "['glibc>=2.29-6']"
 +++
-an audio file normalizer using ReplayGain algorithms{{< files text="show files" >}}* /usr/bin/wavegain
+an audio file normalizer using ReplayGain algorithms"
+
+{{< files text="show files" >}}* /usr/bin/wavegain
 * /usr/share/doc/wavegain-1.3.1/COPYING
 {{< /files >}}

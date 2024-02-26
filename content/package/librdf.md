@@ -14,7 +14,9 @@ sha1sum = "ad984405efc974331f9278b41e08039818acce1c"
 depends = "['db>=18.1.25', 'libpq>=10.1-2', 'libtool>=2.4.6-6', 'libxml2>=2.9.4-3', 'openssl>=1.1.1-2', 'rasqal>=0.9.33-6', 'sqlite3>=3.14.2-3']"
 reverse_depends = "['libreoffice']"
 +++
-RDF Application Framework{{< files text="show files" >}}* /usr/bin/rdfproc
+RDF Application Framework"
+
+{{< files text="show files" >}}* /usr/bin/rdfproc
 * /usr/bin/redland-config
 * /usr/bin/redland-db-upgrade
 * /usr/include/librdf.h

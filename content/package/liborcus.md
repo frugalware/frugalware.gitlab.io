@@ -14,7 +14,9 @@ sha1sum = "ed6d4034fe1c620050a1e6492c8b6077fcd86d53"
 depends = "['libboost>=1.83.0']"
 reverse_depends = "['libreoffice']"
 +++
-Standalone file import filter library for spreadsheet documents{{< files text="show files" >}}* /usr/bin/orcus-css-dump
+Standalone file import filter library for spreadsheet documents"
+
+{{< files text="show files" >}}* /usr/bin/orcus-css-dump
 * /usr/bin/orcus-detect
 * /usr/bin/orcus-json
 * /usr/bin/orcus-mso-encryption

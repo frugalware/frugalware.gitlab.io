@@ -14,7 +14,9 @@ sha1sum = "865adeb9b86cfc111ab64be009e1f189243f69c6"
 depends = "['openssl>=3.1.0', 'zlib>=1.2.12']"
 reverse_depends = "['aria2', 'curl', 'libgit2', 'libvirt', 'mc', 'nmap', 'qemu', 'uwsgi-plugin-airbrake', 'vlc-sftp']"
 +++
-libssh2 is a library implementing the SSH2 protocol as defined by Internet Drafts.{{< files text="show files" >}}* /usr/include/libssh2.h
+libssh2 is a library implementing the SSH2 protocol as defined by Internet Drafts."
+
+{{< files text="show files" >}}* /usr/include/libssh2.h
 * /usr/include/libssh2_publickey.h
 * /usr/include/libssh2_sftp.h
 * /usr/lib/libssh2.so

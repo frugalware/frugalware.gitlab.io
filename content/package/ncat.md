@@ -14,7 +14,9 @@ sha1sum = "3a0d6bde2c2abd1266310aeb564ca8e9e286c1f5"
 depends = "['openssl>=3.1.0']"
 reverse_depends = "['nmap']"
 +++
-Ncat is a feature-packed networking utility which reads and writes data across networks{{< files text="show files" >}}* /usr/bin/nc
+Ncat is a feature-packed networking utility which reads and writes data across networks"
+
+{{< files text="show files" >}}* /usr/bin/nc
 * /usr/bin/ncat
 * /usr/bin/netcat
 * /usr/share/man/man1/ncat.1.gz

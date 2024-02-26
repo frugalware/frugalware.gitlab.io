@@ -14,7 +14,9 @@ sha1sum = "16d56fe6f60cd4d2ca96ea2565014209d835b497"
 depends = "['akonadi>=23.08.5', 'eventviews>=23.08.5', 'ki18n>=5.115.0']"
 reverse_depends = "['kdepim-addons', 'korganizer']"
 +++
-This lib provides incidence editor{{< files text="show files" >}}* /usr/include/KPim5/IncidenceEditor/IncidenceEditor/EditorItemManager
+This lib provides incidence editor"
+
+{{< files text="show files" >}}* /usr/include/KPim5/IncidenceEditor/IncidenceEditor/EditorItemManager
 * /usr/include/KPim5/IncidenceEditor/incidenceeditor/editoritemmanager.h
 * /usr/include/KPim5/IncidenceEditor/incidenceeditor/globalsettings_incidenceeditor.h
 * /usr/include/KPim5/IncidenceEditor/IncidenceEditor/GroupwareUiDelegate

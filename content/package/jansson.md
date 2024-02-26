@@ -14,7 +14,9 @@ sha1sum = "0ab6fafa5c28f6ce1ad0c26ac39268dba52d8d79"
 depends = "['glibc>=2.34']"
 reverse_depends = "['apache', 'ddcutil', 'gnunet', 'handbrake', 'libguestfs', 'libsearpc', 'libsmbclient', 'networkmanager', 'obs-studio', 'rng-tools', 'seafile-client', 'uwsgi']"
 +++
-C library for encoding, decoding and manipulating JSON data{{< files text="show files" >}}* /usr/include/jansson.h
+C library for encoding, decoding and manipulating JSON data"
+
+{{< files text="show files" >}}* /usr/include/jansson.h
 * /usr/include/jansson_config.h
 * /usr/lib/libjansson.so
 * /usr/lib/libjansson.so.4

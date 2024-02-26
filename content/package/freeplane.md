@@ -13,7 +13,9 @@ usize = "63315320"
 sha1sum = "c1be56fe172d8494e49e3c8849b371ab37180c1b"
 depends = "['openjre-x']"
 +++
-A free mind mapping software{{< files text="show files" >}}* /usr/bin/freeplane
+A free mind mapping software"
+
+{{< files text="show files" >}}* /usr/bin/freeplane
 * /usr/lib/freeplane/doc/api/allclasses-index.html
 * /usr/lib/freeplane/doc/api/allpackages-index.html
 * /usr/lib/freeplane/doc/api/constant-values.html

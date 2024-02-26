@@ -15,7 +15,9 @@ depends = "['glibc']"
 reverse_depends = "['qsyncthingtray', 'syncthing-gtk']"
 license = "MIT"
 +++
-Open Source Continuous Replication / Cluster Synchronization Thing{{< files text="show files" >}}* /usr/bin/syncthing
+Open Source Continuous Replication / Cluster Synchronization Thing"
+
+{{< files text="show files" >}}* /usr/bin/syncthing
 * /usr/lib/systemd/system/syncthing-resume.service
 * /usr/lib/systemd/system/syncthing@.service
 * /usr/share/doc/syncthing-1.27.2/AUTHORS

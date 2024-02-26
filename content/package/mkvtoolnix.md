@@ -14,7 +14,9 @@ sha1sum = "f91100050d77ea2550e5fddac1a5fb1c003bf83c"
 depends = "['file>=5.25-3', 'flac>=1.4.0', 'fmtlib>=10.0', 'libboost>=1.83.0', 'libmatroska>=1.4.5-2', 'libvorbis>=1.3.5-4', 'pugixml']"
 reverse_depends = "['mkvtoolnix-gui']"
 +++
-MKVToolnix is a set of tools to create, alter and inspect Matroska files under Linux.{{< files text="show files" >}}* /usr/bin/mkvextract
+MKVToolnix is a set of tools to create, alter and inspect Matroska files under Linux."
+
+{{< files text="show files" >}}* /usr/bin/mkvextract
 * /usr/bin/mkvinfo
 * /usr/bin/mkvmerge
 * /usr/bin/mkvpropedit

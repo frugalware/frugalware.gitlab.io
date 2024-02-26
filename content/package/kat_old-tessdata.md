@@ -13,5 +13,7 @@ usize = "1082474"
 sha1sum = "7cd6759a9346b837a5c79618b9c04c352c2af0bb"
 depends = "['glibc']"
 +++
-Language specific files for tesseract lang kat_old{{< files text="show files" >}}* /usr/share/tessdata/kat_old.traineddata
+Language specific files for tesseract lang kat_old"
+
+{{< files text="show files" >}}* /usr/share/tessdata/kat_old.traineddata
 {{< /files >}}

@@ -14,7 +14,9 @@ sha1sum = "4545f8578bcf2af033daa9701c5377e8caaf1fdd"
 depends = "[]"
 reverse_depends = "['openrazer']"
 +++
-Python interface to DBus notifications{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/notify2-0.3.1-py3.12.egg-info/dependency_links.txt
+Python interface to DBus notifications"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/notify2-0.3.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/notify2-0.3.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/notify2-0.3.1-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/notify2-0.3.1-py3.12.egg-info/top_level.txt

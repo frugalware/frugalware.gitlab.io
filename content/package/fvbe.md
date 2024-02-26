@@ -13,7 +13,9 @@ usize = "44292"
 sha1sum = "12e6bce8403477b65126553290c3fe83af57ff55"
 depends = "[]"
 +++
-Frugalware Versatile Bootable Environment{{< files text="show files" >}}* /usr/share/doc/fvbe-0.7/LICENSE
+Frugalware Versatile Bootable Environment"
+
+{{< files text="show files" >}}* /usr/share/doc/fvbe-0.7/LICENSE
 * /usr/share/doc/fvbe-0.7/README
 * /usr/share/doc/fvbe-0.7/TODO
 {{< /files >}}

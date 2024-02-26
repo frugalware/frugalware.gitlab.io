@@ -14,7 +14,9 @@ sha1sum = "70257eff1d60625c691d08ef7e2c9c889a5c99d9"
 depends = "['xorg-server>=1.20.4-3']"
 license = "GPL2"
 +++
-X.Org driver for joystick input devices{{< files text="show files" >}}* /usr/include/xorg/joystick-properties.h
+X.Org driver for joystick input devices"
+
+{{< files text="show files" >}}* /usr/include/xorg/joystick-properties.h
 * /usr/lib/pkgconfig/xorg-joystick.pc
 * /usr/lib/xorg/modules/input/joystick_drv.so
 * /usr/share/doc/xf86-input-joystick-1.6.4/ChangeLog

@@ -13,7 +13,9 @@ usize = "0"
 sha1sum = ""
 depends = "['aspell']"
 +++
-GNU Aspell English Word List Package{{< files text="show files" >}}* usr/lib/aspell-0.60/american-w-accents.alias
+GNU Aspell English Word List Package"
+
+{{< files text="show files" >}}* usr/lib/aspell-0.60/american-w-accents.alias
 * usr/lib/aspell-0.60/american.alias
 * usr/lib/aspell-0.60/british-w-accents.alias
 * usr/lib/aspell-0.60/british.alias

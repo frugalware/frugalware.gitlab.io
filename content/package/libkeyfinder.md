@@ -14,7 +14,9 @@ sha1sum = "27488fed05d2204d26c107106d1fec08cbf5cbc2"
 depends = "['fftw']"
 reverse_depends = "['mixxx']"
 +++
-Musical key detection for digital audio{{< files text="show files" >}}* /usr/include/keyfinder/audiodata.h
+Musical key detection for digital audio"
+
+{{< files text="show files" >}}* /usr/include/keyfinder/audiodata.h
 * /usr/include/keyfinder/binode.h
 * /usr/include/keyfinder/chromagram.h
 * /usr/include/keyfinder/chromatransform.h

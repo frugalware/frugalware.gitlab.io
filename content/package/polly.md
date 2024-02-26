@@ -13,7 +13,9 @@ usize = "18704821"
 sha1sum = "3d7ed7bac7b6291f0ede4cdbbedf5e63ee1677f1"
 depends = "['llvm-libs>=17.0.6']"
 +++
-High-level loop and data-locality optimizer and optimization infrastructure for LLVM{{< files text="show files" >}}* /usr/include/polly/Canonicalization.h
+High-level loop and data-locality optimizer and optimization infrastructure for LLVM"
+
+{{< files text="show files" >}}* /usr/include/polly/Canonicalization.h
 * /usr/include/polly/CodeGen/BlockGenerators.h
 * /usr/include/polly/CodeGen/CodegenCleanup.h
 * /usr/include/polly/CodeGen/CodeGeneration.h

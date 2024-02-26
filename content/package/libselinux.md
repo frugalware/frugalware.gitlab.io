@@ -14,7 +14,9 @@ sha1sum = "ebb2910c9159e425a741acbde4b8e857a5674c74"
 depends = "['libsepol>=3.3', 'pcre', 'python3>=3.10', 'ruby>=3.3.0']"
 reverse_depends = "['steam-native']"
 +++
-SELinux library and simple utilities{{< files text="show files" >}}* /usr/bin/avcstat
+SELinux library and simple utilities"
+
+{{< files text="show files" >}}* /usr/bin/avcstat
 * /usr/bin/compute_av
 * /usr/bin/compute_create
 * /usr/bin/compute_member

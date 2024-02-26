@@ -15,7 +15,9 @@ depends = "['libx11>=1.6.5-2', 'libxfixes>=5.0.1-3', 'libxrender>=0.9.9-5']"
 reverse_depends = "['allegro', 'box2d', 'cef', 'efl', 'enlightenment', 'fox', 'fox-1.2', 'freerdp', 'geogram', 'gtk+2-libs', 'gtk+3', 'gtk+4', 'irrlicht', 'ksubeditor', 'ksubtile', 'openbox', 'opendiablo2', 'qt5-base', 'qt6-webengine', 'spring', 'terminology', 'virtualbox', 'weston', 'whalebird', 'wine', 'wine-devel', 'xcursorgen', 'xf86-video-intel', 'xsetroot']"
 license = "GPL2"
 +++
-X Cursor Library{{< files text="show files" >}}* /usr/include/X11/Xcursor/Xcursor.h
+X Cursor Library"
+
+{{< files text="show files" >}}* /usr/include/X11/Xcursor/Xcursor.h
 * /usr/lib/libXcursor.so
 * /usr/lib/libXcursor.so.1
 * /usr/lib/libXcursor.so.1.0.2

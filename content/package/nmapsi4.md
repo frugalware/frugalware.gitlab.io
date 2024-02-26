@@ -13,7 +13,9 @@ usize = "1230461"
 sha1sum = "94fd09a0d332c3b57d5f9d17af272bbfabbe1af8"
 depends = "['gst1-plugins-base', 'nmap', 'qt5-webengine>=5.15.10']"
 +++
-NmapSi4 is a complete Qt5-based Gui with nmap.{{< files text="show files" >}}* /usr/bin/nmapsi4
+NmapSi4 is a complete Qt5-based Gui with nmap."
+
+{{< files text="show files" >}}* /usr/bin/nmapsi4
 * /usr/share/applications/kde4/nmapsi4-admin.desktop
 * /usr/share/applications/kde4/nmapsi4.desktop
 * /usr/share/dbus-1/interfaces/org.nmapsi4.Nmapsi4.xml

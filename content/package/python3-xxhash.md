@@ -13,7 +13,9 @@ usize = "96453"
 sha1sum = "15addfea880a08517da49bd4e1b46648dc09023d"
 depends = "['python3', 'xxhash']"
 +++
-Python binding for xxHash{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/xxhash-3.4.1.dist-info/LICENSE
+Python binding for xxHash"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/xxhash-3.4.1.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/xxhash-3.4.1.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/xxhash-3.4.1.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/xxhash-3.4.1.dist-info/top_level.txt

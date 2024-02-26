@@ -13,7 +13,9 @@ usize = "348113"
 sha1sum = "bf6ab81bed148ecebe4e5a95cf02b3d74dacd071"
 depends = "['plasma-framework>=5.53.0', 'redshift']"
 +++
-Plasma5 Plasmoid for Redshift{{< files text="show files" >}}* /usr/share/doc/plasma-applet-redshift-control-1.0.18/LICENSE
+Plasma5 Plasmoid for Redshift"
+
+{{< files text="show files" >}}* /usr/share/doc/plasma-applet-redshift-control-1.0.18/LICENSE
 * /usr/share/doc/plasma-applet-redshift-control-1.0.18/README.md
 * /usr/share/kservices5/plasma-applet-org.kde.redshiftControl.desktop
 * /usr/share/locale/cs/LC_MESSAGES/plasma_applet_org.kde.redshiftControl.mo

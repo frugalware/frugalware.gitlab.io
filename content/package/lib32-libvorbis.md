@@ -14,7 +14,9 @@ sha1sum = "9b0322a4de4be3fcd3224f310e5b381606b9eaf4"
 depends = "['lib32-libogg>=1.3.2-8']"
 reverse_depends = "['lib32-ffmpeg', 'lib32-libsndfile', 'lib32-sdl2_mixer']"
 +++
-Vorbis codec library ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/vorbis/codec.h
+Vorbis codec library ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/vorbis/codec.h
 * /usr/i686-frugalware-linux/include/vorbis/vorbisenc.h
 * /usr/i686-frugalware-linux/include/vorbis/vorbisfile.h
 * /usr/lib32/libvorbis.so

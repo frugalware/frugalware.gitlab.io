@@ -13,7 +13,9 @@ usize = "249234"
 sha1sum = "2d62afcf5d74441cbbfc81479a75ec732281be86"
 depends = "['wasi-libc']"
 +++
-WASI LLVM compiler runtime{{< files text="show files" >}}* /usr/lib/clang/17/lib/wasi/libclang_rt.builtins-wasm32.a
+WASI LLVM compiler runtime"
+
+{{< files text="show files" >}}* /usr/lib/clang/17/lib/wasi/libclang_rt.builtins-wasm32.a
 * /usr/share/doc/wasi-compiler-rt-17.0.6/README.md
 * /usr/share/doc/wasi-compiler-rt-17.0.6/README.rst
 * /usr/share/doc/wasi-compiler-rt-17.0.6/README.txt

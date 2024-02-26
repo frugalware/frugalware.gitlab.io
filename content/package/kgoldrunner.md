@@ -13,7 +13,9 @@ usize = "18236556"
 sha1sum = "0de02a97fea1ebb15a3d6b92d3ff6dbfa4cfe301"
 depends = "['kdelibs4support', 'kio', 'knewstuff', 'knotifyconfig', 'libkdegames', 'qt5-svg>=5.15.12']"
 +++
-A game of action and puzzle solving.{{< files text="show files" >}}* /usr/bin/kgoldrunner
+A game of action and puzzle solving."
+
+{{< files text="show files" >}}* /usr/bin/kgoldrunner
 * /usr/share/applications/org.kde.kgoldrunner.desktop
 * /usr/share/doc/HTML/ca/kgoldrunner/index.cache.bz2
 * /usr/share/doc/HTML/ca/kgoldrunner/index.docbook

@@ -13,7 +13,9 @@ usize = "5245767"
 sha1sum = "90ab04cc2c566b48aea7a58f30ff7419d732ca3f"
 depends = "['fltk>=1.1.10-1']"
 +++
-Converts HTML input files into indexed HTML, PostScript, or PDF files.{{< files text="show files" >}}* /usr/bin/htmldoc
+Converts HTML input files into indexed HTML, PostScript, or PDF files."
+
+{{< files text="show files" >}}* /usr/bin/htmldoc
 * /usr/share/applications/htmldoc.desktop
 * /usr/share/doc/htmldoc-1.9.5/COPYING
 * /usr/share/doc/htmldoc-1.9.5/INSTALL.md

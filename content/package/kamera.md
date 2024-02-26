@@ -13,7 +13,9 @@ usize = "716784"
 sha1sum = "f879ec5e11a32d7da422cbf118d8edcd85bec30a"
 depends = "['gphoto2>=2.5.11-2', 'kcmutils>=5.115.0', 'kio>=5.115.0']"
 +++
-KDE Webcam Configurator Tool.{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/kio/kio_kamera.so
+KDE Webcam Configurator Tool."
+
+{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/kio/kio_kamera.so
 * /usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/kcm_kamera.so
 * /usr/share/applications/kcm_kamera.desktop
 * /usr/share/doc/HTML/ca/kcontrol/kamera/index.cache.bz2

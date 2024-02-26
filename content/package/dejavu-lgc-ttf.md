@@ -13,7 +13,9 @@ usize = "8417613"
 sha1sum = "7252582772fb9aee74968786e72bbcba0323ee4a"
 depends = "['fontconfig', 'mkfontscale']"
 +++
-DejaVu fonts (LGC){{< files text="show files" >}}* /usr/share/doc/dejavu-lgc-ttf-2.37/AUTHORS
+DejaVu fonts (LGC)"
+
+{{< files text="show files" >}}* /usr/share/doc/dejavu-lgc-ttf-2.37/AUTHORS
 * /usr/share/doc/dejavu-lgc-ttf-2.37/BUGS
 * /usr/share/doc/dejavu-lgc-ttf-2.37/LICENSE
 * /usr/share/doc/dejavu-lgc-ttf-2.37/NEWS

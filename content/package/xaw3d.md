@@ -14,7 +14,9 @@ sha1sum = "d4dea9628a98829783b74a17b0bfb86bf9bbb64a"
 depends = "['libx11>=1.2.1', 'libxmu', 'libxp', 'libxpm', 'libxt']"
 reverse_depends = "['gv']"
 +++
-Athena widgets (libXaw) drop-in replacement{{< files text="show files" >}}* usr/include/X11/Xaw3d/AllWidgets.h
+Athena widgets (libXaw) drop-in replacement"
+
+{{< files text="show files" >}}* usr/include/X11/Xaw3d/AllWidgets.h
 * usr/include/X11/Xaw3d/AsciiSink.h
 * usr/include/X11/Xaw3d/AsciiSinkP.h
 * usr/include/X11/Xaw3d/AsciiSrc.h

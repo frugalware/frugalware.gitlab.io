@@ -14,7 +14,9 @@ sha1sum = "c011931314628a6dd436001fb3362f8157814fd0"
 depends = "['gpgme', 'icu4c>=74.1', 'jansson', 'libldap>=2.5.4', 'libwbclient>=4.19.5', 'libxcrypt', 'lmdb', 'python3>=3.12', 'talloc']"
 reverse_depends = "['gvfs-smb', 'libwbclient', 'mpd', 'samba-client', 'smb4k', 'vlc-smb']"
 +++
-SMB client library.{{< files text="show files" >}}* /etc/ld.so.conf.d/libsmbclient.conf
+SMB client library."
+
+{{< files text="show files" >}}* /etc/ld.so.conf.d/libsmbclient.conf
 * /usr/include/samba-4.0/libsmbclient.h
 * /usr/lib/libdcerpc-binding.so
 * /usr/lib/libdcerpc-binding.so.0

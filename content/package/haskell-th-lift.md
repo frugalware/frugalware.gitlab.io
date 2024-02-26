@@ -14,7 +14,9 @@ sha1sum = "085ace27c9f61ef4a835109d1dd39adbdb4ac4ac"
 depends = "['haskell-th-abstraction']"
 reverse_depends = "['haskell-th-lift-instances']"
 +++
-Derive Template Haskell's Lift class for datatypes{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/th-lift-0.8.4/Language/Haskell/TH/Lift.dyn_hi
+Derive Template Haskell's Lift class for datatypes"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/th-lift-0.8.4/Language/Haskell/TH/Lift.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/th-lift-0.8.4/Language/Haskell/TH/Lift.hi
 * /usr/lib/ghc-9.8.1/site-local/th-lift-0.8.4/Language/Haskell/TH/Lift/Internal.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/th-lift-0.8.4/Language/Haskell/TH/Lift/Internal.hi

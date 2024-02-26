@@ -13,7 +13,9 @@ usize = "845992"
 sha1sum = "baa31ab9bd0ab38191e98e8dc12f81fd98269aa2"
 depends = "['libcamera', 'libtiff', 'libyaml', 'qt5-base>=5.15.10', 'sdl2']"
 +++
-libcamera tools{{< files text="show files" >}}* /usr/bin/cam
+libcamera tools"
+
+{{< files text="show files" >}}* /usr/bin/cam
 * /usr/bin/lc-compliance
 * /usr/bin/qcam
 {{< /files >}}

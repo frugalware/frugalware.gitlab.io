@@ -14,7 +14,9 @@ sha1sum = "565f1fceedacbe8a6a397985412acb9ed4c8fa75"
 depends = "['libxml2>=2.9.4-3', 'libzip>=1.2.0']"
 reverse_depends = "['kfilemetadata5', 'okular']"
 +++
-Tools for accessing and converting various ebook file formats{{< files text="show files" >}}* /usr/bin/einfo
+Tools for accessing and converting various ebook file formats"
+
+{{< files text="show files" >}}* /usr/bin/einfo
 * /usr/bin/lit2epub
 * /usr/include/epub.h
 * /usr/include/epub_shared.h

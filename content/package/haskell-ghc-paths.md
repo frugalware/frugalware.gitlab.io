@@ -13,7 +13,9 @@ usize = "101894"
 sha1sum = "146f7d094f815d3a8e247fb2cb21b780d8a93373"
 depends = "['ghc>=9.6.1']"
 +++
-Knowledge of GHC's installation directories{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/ghc-paths-0.1.0.12/GHC/Paths.dyn_hi
+Knowledge of GHC's installation directories"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/ghc-paths-0.1.0.12/GHC/Paths.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/ghc-paths-0.1.0.12/GHC/Paths.hi
 * /usr/lib/ghc-9.8.1/site-local/ghc-paths-0.1.0.12/libHSghc-paths-0.1.0.12-73cs8kUSB6nKZm6BLanbnH.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSghc-paths-0.1.0.12-73cs8kUSB6nKZm6BLanbnH-ghc9.8.1.so

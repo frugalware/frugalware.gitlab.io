@@ -14,7 +14,9 @@ sha1sum = "4a22a3526fe26d3423c34e328547324b0bb286ae"
 depends = "['glibc', 'lib32-elfutils', 'lib32-libblkid', 'lib32-libdbus', 'lib32-libffi', 'lib32-pcre', 'lib32-util-linux', 'lib32-zlib']"
 reverse_depends = "['lib32-at-spi2-core', 'lib32-avahi-glib', 'lib32-cairo', 'lib32-dbus-glib', 'lib32-gdk-pixbuf2', 'lib32-harfbuzz', 'lib32-libcroco', 'lib32-libgudev', 'lib32-libsystemd', 'lib32-networkmanager', 'lib32-pipewire', 'lib32-polkit', 'lib32-shared-mime-info']"
 +++
-Common C routines used by GTK+ and other libraries (32-bit){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/gapplication
+Common C routines used by GTK+ and other libraries (32-bit)"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/gapplication
 * /usr/i686-frugalware-linux/bin/gdbus
 * /usr/i686-frugalware-linux/bin/gdbus-codegen
 * /usr/i686-frugalware-linux/bin/gio

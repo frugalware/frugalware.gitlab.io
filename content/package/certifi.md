@@ -14,7 +14,9 @@ sha1sum = "11b48d95c298adb63740d437021c012150ebc9f8"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-selenium']"
 +++
-Python package for providing Mozilla's CA Bundle{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/certifi-2023.7.22-py3.12.egg-info/dependency_links.txt
+Python package for providing Mozilla's CA Bundle"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/certifi-2023.7.22-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/certifi-2023.7.22-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/certifi-2023.7.22-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/certifi-2023.7.22-py3.12.egg-info/SOURCES.txt

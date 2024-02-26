@@ -13,7 +13,9 @@ usize = "540237951"
 sha1sum = "05d3fd0791f0aa74288091c64e240d72b3161850"
 depends = "['llvm-libs>=17.0.6']"
 +++
-Multi-Level Intermediate Representation{{< files text="show files" >}}* /usr/bin/mlir-cpu-runner
+Multi-Level Intermediate Representation"
+
+{{< files text="show files" >}}* /usr/bin/mlir-cpu-runner
 * /usr/bin/mlir-linalg-ods-yaml-gen
 * /usr/bin/mlir-lsp-server
 * /usr/bin/mlir-opt

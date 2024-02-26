@@ -13,7 +13,9 @@ usize = "6761764"
 sha1sum = "7839f82d45fb77d44558c4e9fa48ba00fa87c442"
 depends = "['fmtlib>=10.0', 'gsl', 'intel-tbb', 'ladspa_sdk', 'libadwaita', 'libbs2b', 'libebur128', 'libsigc++3', 'lsp-plugins', 'lzo', 'pipewire', 'rnnoise', 'rubberband', 'soundtouch', 'speexdsp', 'zita-convolver']"
 +++
-Audio Effects for Pipewire Applications{{< files text="show files" >}}* /usr/bin/easyeffects
+Audio Effects for Pipewire Applications"
+
+{{< files text="show files" >}}* /usr/bin/easyeffects
 * /usr/share/applications/com.github.wwmm.easyeffects.desktop
 * /usr/share/dbus-1/services/com.github.wwmm.easyeffects.service
 * /usr/share/doc/easyeffects-7.1.3/LICENSE

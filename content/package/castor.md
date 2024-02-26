@@ -13,7 +13,9 @@ usize = "3107659"
 sha1sum = "3bec386d6ba7139143b012fd1160412e58fe57eb"
 depends = "['cairo', 'gdk-pixbuf2', 'glibc', 'gtk+3', 'openssl>=3.1.0', 'pango']"
 +++
-A Gemini, Gopher and Finger protocol client{{< files text="show files" >}}* /usr/bin/castor
+A Gemini, Gopher and Finger protocol client"
+
+{{< files text="show files" >}}* /usr/bin/castor
 * /usr/share/doc/castor-0.9.0/LICENSE
 * /usr/share/doc/castor-0.9.0/README.md
 {{< /files >}}

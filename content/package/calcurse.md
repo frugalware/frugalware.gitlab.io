@@ -13,7 +13,9 @@ usize = "870514"
 sha1sum = "2098a2288c6913f80b7a3fceecc0eac7b346bffc"
 depends = "['ncurses>=6.0-12']"
 +++
-a text-based calendar and scheduling application{{< files text="show files" >}}* /usr/bin/calcurse
+a text-based calendar and scheduling application"
+
+{{< files text="show files" >}}* /usr/bin/calcurse
 * /usr/bin/calcurse-caldav
 * /usr/bin/calcurse-upgrade
 * /usr/bin/calcurse-vdir

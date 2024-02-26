@@ -13,7 +13,9 @@ usize = "76035"
 sha1sum = "42d9c76f0ffd10e68f5994c721cabd9deeacae5c"
 depends = "['openssh', 'telepathy-glib']"
 +++
-SSH over Telepathy Tube{{< files text="show files" >}}* /usr/bin/ssh-contact
+SSH over Telepathy Tube"
+
+{{< files text="show files" >}}* /usr/bin/ssh-contact
 * /usr/lib/ssh-contact/ssh-contact-service
 * /usr/share/dbus-1/services/org.freedesktop.Telepathy.Client.SSHContact.service
 * /usr/share/doc/ssh-contact-0.7/AUTHORS

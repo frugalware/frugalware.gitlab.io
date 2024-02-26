@@ -13,7 +13,9 @@ usize = "1274715"
 sha1sum = "56dbe99c16a36a288abd0ead518d81a9466c6c2e"
 depends = "['libgsasl>=1.8.0-2', 'qt5-base>=5.15.10']"
 +++
-Qt XMPP library{{< files text="show files" >}}* /usr/include/jreen-qt5/jreen/abstractroster.h
+Qt XMPP library"
+
+{{< files text="show files" >}}* /usr/include/jreen-qt5/jreen/abstractroster.h
 * /usr/include/jreen-qt5/jreen/activity.h
 * /usr/include/jreen-qt5/jreen/attention.h
 * /usr/include/jreen-qt5/jreen/bitsofbinary.h

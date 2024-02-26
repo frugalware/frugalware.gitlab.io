@@ -13,7 +13,9 @@ usize = "4558"
 sha1sum = "b22f93e0c0572d35fa4069f8829aa921fd85589b"
 depends = "['python3-setuptools_scm']"
 +++
-A plugin for setuptools that finds all git tracked files, including submodules{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/setuptools_git_ls_files-0.1.2-py3.12.egg-info/dependency_links.txt
+A plugin for setuptools that finds all git tracked files, including submodules"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/setuptools_git_ls_files-0.1.2-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/setuptools_git_ls_files-0.1.2-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/setuptools_git_ls_files-0.1.2-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/setuptools_git_ls_files-0.1.2-py3.12.egg-info/SOURCES.txt

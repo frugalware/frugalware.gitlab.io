@@ -13,7 +13,9 @@ usize = "30909"
 sha1sum = "0a1b33977715ca4a25c9084ef577c3589f696081"
 depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxext>=1.3.3-3']"
 +++
-X.Org Xxf86dga library ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/xf86dga1.h
+X.Org Xxf86dga library ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/xf86dga1.h
 * /usr/i686-frugalware-linux/include/X11/extensions/Xxf86dga.h
 * /usr/lib32/libXxf86dga.so
 * /usr/lib32/libXxf86dga.so.1

@@ -13,5 +13,7 @@ usize = "1436440"
 sha1sum = "4dcafdf7a266aac6c5059e3156f6538d9310d36a"
 depends = "['libstdc++>=12.2']"
 +++
-Static files for xz{{< files text="show files" >}}* /usr/lib/liblzma.a
+Static files for xz"
+
+{{< files text="show files" >}}* /usr/lib/liblzma.a
 {{< /files >}}

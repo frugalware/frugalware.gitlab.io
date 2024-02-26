@@ -13,7 +13,9 @@ usize = "36270"
 sha1sum = "5eb0795d133ed557f0103fe6f850402e99795159"
 depends = "['bash']"
 +++
-A bash script for automating pasting to pastebins.{{< files text="show files" >}}* /etc/wgetpaste.conf.example
+A bash script for automating pasting to pastebins."
+
+{{< files text="show files" >}}* /etc/wgetpaste.conf.example
 * /usr/bin/wgetpaste
 * /usr/share/doc/wgetpaste-2.30/LICENSE
 {{< /files >}}

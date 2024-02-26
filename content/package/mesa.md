@@ -13,7 +13,9 @@ usize = "135422073"
 sha1sum = "2d554ace8c1f67b447a2a6a18415a80ddddac19e"
 depends = "[]"
 +++
-Mesa is a 3D graphics library{{< files text="show files" >}}* /usr/share/doc/mesa-24.0.1/docs_html/.buildinfo
+Mesa is a 3D graphics library"
+
+{{< files text="show files" >}}* /usr/share/doc/mesa-24.0.1/docs_html/.buildinfo
 * /usr/share/doc/mesa-24.0.1/docs_html/.doctrees/amber.doctree
 * /usr/share/doc/mesa-24.0.1/docs_html/.doctrees/android.doctree
 * /usr/share/doc/mesa-24.0.1/docs_html/.doctrees/application-issues.doctree

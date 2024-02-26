@@ -14,7 +14,9 @@ sha1sum = "638448d620b43b13747ed4fff4b10ce9e60a242a"
 depends = "['elfutils>=0.167-2', 'expat>=2.1.0-6', 'libdrm>=2.4.71', 'libffi>=3.2.1-2', 'libunwind', 'llvm-libs>=17.0.6', 'lmsensors>=3.5.0', 'zstd']"
 reverse_depends = "['libgl', 'virtualbox-guest-additions', 'xorg-server']"
 +++
-Mesa OpenGL DRI drivers.{{< files text="show files" >}}* /usr/include/GL/internal/dri_interface.h
+Mesa OpenGL DRI drivers."
+
+{{< files text="show files" >}}* /usr/include/GL/internal/dri_interface.h
 * /usr/lib/dri/crocus_dri.so
 * /usr/lib/dri/d3d12_dri.so
 * /usr/lib/dri/d3d12_drv_video.so

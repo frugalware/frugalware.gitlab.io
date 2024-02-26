@@ -14,7 +14,9 @@ sha1sum = "f1f85319eb24f39952a73ed9e4f79d77bdfde06d"
 depends = "['ocaml-domain-shims']"
 reverse_depends = "['domainslib']"
 +++
-Lock-free data structures for multicore OCaml{{< files text="show files" >}}* /usr/lib/ocaml/saturn/dune-package
+Lock-free data structures for multicore OCaml"
+
+{{< files text="show files" >}}* /usr/lib/ocaml/saturn/dune-package
 * /usr/lib/ocaml/saturn/META
 * /usr/lib/ocaml/saturn/mpmc_relaxed_queue.ml
 * /usr/lib/ocaml/saturn/mpmc_relaxed_queue.mli

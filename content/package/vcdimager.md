@@ -15,7 +15,9 @@ depends = "['libcdio>=0.93-4', 'libxml2>=2.9.4-3', 'popt>=1.16-7']"
 reverse_depends = "['kavi2svcd', 'xine-lib']"
 license = "GPL2"
 +++
-GNU VCDImager is a full-featured mastering suite for authoring, disassembling and analyzing Video CD's and Super Video CD's.{{< files text="show files" >}}* /usr/bin/cdxa2mpeg
+GNU VCDImager is a full-featured mastering suite for authoring, disassembling and analyzing Video CD's and Super Video CD's."
+
+{{< files text="show files" >}}* /usr/bin/cdxa2mpeg
 * /usr/bin/vcd-info
 * /usr/bin/vcdimager
 * /usr/bin/vcdxbuild

@@ -14,7 +14,9 @@ sha1sum = "9cb61aff4a206cd01f671efcf78a319cdab1b45c"
 depends = "['dbus-glib>=0.110', 'dbus-python-devel', 'libffi>=3.2.1-2', 'python3>=3.12']"
 reverse_depends = "['python-efl', 'python3-dbusmock']"
 +++
-Python bindings for D-BUS{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/dbus/bus.py
+Python bindings for D-BUS"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/dbus/bus.py
 * /usr/lib/python3.12/site-packages/dbus/connection.py
 * /usr/lib/python3.12/site-packages/dbus/decorators.py
 * /usr/lib/python3.12/site-packages/dbus/exceptions.py

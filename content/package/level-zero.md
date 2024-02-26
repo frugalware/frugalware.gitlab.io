@@ -13,7 +13,9 @@ usize = "1287634"
 sha1sum = "9628f3816ff88b4a1eb16774eda1eda5f2ab4c1a"
 depends = "['libstdc++>=11.2']"
 +++
-API for accessing low level interfaces in oneAPI platform devices{{< files text="show files" >}}* /usr/lib/libze_loader.so
+API for accessing low level interfaces in oneAPI platform devices"
+
+{{< files text="show files" >}}* /usr/lib/libze_loader.so
 * /usr/lib/libze_loader.so.1
 * /usr/lib/libze_loader.so.1.16.1
 * /usr/lib/libze_tracing_layer.so

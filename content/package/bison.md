@@ -13,7 +13,9 @@ usize = "3864514"
 sha1sum = "6a05a4c28c6d7f0a9bd5ae26409f8cde3fac613f"
 depends = "['gettext']"
 +++
-A general-purpose parser generator.{{< files text="show files" >}}* /usr/bin/bison
+A general-purpose parser generator."
+
+{{< files text="show files" >}}* /usr/bin/bison
 * /usr/bin/yacc
 * /usr/share/aclocal/bison-i18n.m4
 * /usr/share/bison/bison-default.css

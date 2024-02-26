@@ -14,7 +14,9 @@ sha1sum = "64a6fb29399628a0e4b235a860498b6b46aebcc9"
 depends = "['glibc>=2.34']"
 reverse_depends = "['k3b', 'vlc-musepack', 'xine-lib']"
 +++
-Musepack decoding library.{{< files text="show files" >}}* /usr/include/mpcdec/config_types.h
+Musepack decoding library."
+
+{{< files text="show files" >}}* /usr/include/mpcdec/config_types.h
 * /usr/include/mpcdec/decoder.h
 * /usr/include/mpcdec/huffman.h
 * /usr/include/mpcdec/math.h

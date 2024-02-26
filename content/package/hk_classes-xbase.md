@@ -13,7 +13,9 @@ usize = "0"
 sha1sum = "b9c5fa2ebe98f3e482e09164c27306b7aaa47112"
 depends = "['hk_classes-base']"
 +++
-XBase driver for hk_classes{{< files text="show files" >}}* usr/lib/hk_classes/drivers/libhk_xbasedriver.la
+XBase driver for hk_classes"
+
+{{< files text="show files" >}}* usr/lib/hk_classes/drivers/libhk_xbasedriver.la
 * usr/lib/hk_classes/drivers/libhk_xbasedriver.so
 * usr/lib/hk_classes/drivers/libhk_xbasedriver.so.0
 * usr/lib/hk_classes/drivers/libhk_xbasedriver.so.0.0.0

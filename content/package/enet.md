@@ -14,7 +14,9 @@ sha1sum = "c2f8e9d422df602cd6a6e44841b766127ba02f0a"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['enigma']"
 +++
-A relatively thin, simple and robust network communication layer on top of UDP.{{< files text="show files" >}}* /usr/include/enet/callbacks.h
+A relatively thin, simple and robust network communication layer on top of UDP."
+
+{{< files text="show files" >}}* /usr/include/enet/callbacks.h
 * /usr/include/enet/enet.h
 * /usr/include/enet/list.h
 * /usr/include/enet/protocol.h

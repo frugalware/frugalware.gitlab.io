@@ -14,7 +14,9 @@ sha1sum = "d498c6cdc88d141cd7f0222e130b964c8d6cd5cf"
 depends = "['glibc>=2.34']"
 reverse_depends = "['lib32-libdc1394', 'lib32-libgudev', 'lib32-libpulse', 'lib32-libusb1', 'lib32-mesa-vulkan-amd', 'lib32-mesa-vulkan-intel', 'lib32-mesa-vulkan-swrast', 'lib32-v4l-utils', 'lib32-xorg-server']"
 +++
-Udev library (32bit){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/libudev.h
+Udev library (32bit)"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/libudev.h
 * /usr/lib32/libudev.so
 * /usr/lib32/libudev.so.1
 * /usr/lib32/libudev.so.1.7.8

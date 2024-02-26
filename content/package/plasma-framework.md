@@ -14,7 +14,9 @@ sha1sum = "ddbd793e8682ebed01e4c5fa43aa4f703c8aed85"
 depends = "['kactivities5>=5.115.0', 'kdeclarative>=5.115.0', 'kirigami2>=5.115.0', 'kwayland>=5.115.0']"
 reverse_depends = "['bluedevil5', 'breeze', 'discover', 'disman', 'kapptemplate', 'kate', 'kclock', 'khotkeys5', 'kinfocenter5', 'kmix', 'knemo', 'knights', 'krohnkite', 'krunner5', 'kscreen5', 'kup', 'kweather', 'kwin5', 'plasma-applet-redshift-control', 'plasma-desktop', 'plasma-nano', 'plasma-nm', 'plasma-pa', 'plasma-settings', 'plasma-vault', 'plasma-welcome', 'qqc2-desktop-style', 'smb4k', 'xdg-desktop-portal-kde']"
 +++
-Plasma library and runtime components based upon KF5 and Qt5.{{< files text="show files" >}}* /usr/bin/plasmapkg2
+Plasma library and runtime components based upon KF5 and Qt5."
+
+{{< files text="show files" >}}* /usr/bin/plasmapkg2
 * /usr/include/KF5/Plasma/Applet
 * /usr/include/KF5/plasma/applet.h
 * /usr/include/KF5/Plasma/Containment

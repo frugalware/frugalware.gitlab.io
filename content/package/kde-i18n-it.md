@@ -13,7 +13,9 @@ usize = "31864514"
 sha1sum = "7c7465e4de81f0af60326c007149fbccf2641f29"
 depends = "[]"
 +++
-Italian Localization for KDE.{{< files text="show files" >}}* usr/share/apps/kanagram/data/it/animali.kvtml
+Italian Localization for KDE."
+
+{{< files text="show files" >}}* usr/share/apps/kanagram/data/it/animali.kvtml
 * usr/share/apps/kanagram/data/it/capitalidelmondo.kvtml
 * usr/share/apps/kanagram/data/it/computer.kvtml
 * usr/share/apps/kanagram/data/it/invenzioni.kvtml

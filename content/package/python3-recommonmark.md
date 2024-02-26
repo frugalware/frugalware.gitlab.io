@@ -13,7 +13,9 @@ usize = "81668"
 sha1sum = "39cce646ebc163e5c451e64d0bbc84fe73861f8f"
 depends = "['python3-commonmark']"
 +++
-Markdown parser for docutils{{< files text="show files" >}}* /usr/bin/cm2html
+Markdown parser for docutils"
+
+{{< files text="show files" >}}* /usr/bin/cm2html
 * /usr/bin/cm2latex
 * /usr/bin/cm2man
 * /usr/bin/cm2pseudoxml

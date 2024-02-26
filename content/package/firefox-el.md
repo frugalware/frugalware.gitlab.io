@@ -14,5 +14,7 @@ sha1sum = "cee7ae9ad0aa75ceb901a9533de82dcae551f70e"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Modern Greek (1453-) language support for Firefox{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-el@firefox.mozilla.org.xpi
+Modern Greek (1453-) language support for Firefox"
+
+{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-el@firefox.mozilla.org.xpi
 {{< /files >}}

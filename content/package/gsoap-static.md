@@ -13,7 +13,9 @@ usize = "6337896"
 sha1sum = "4f91eab97db659fe65c3084a562ccf6539719897"
 depends = "[]"
 +++
-Static files for gsoap{{< files text="show files" >}}* /usr/lib/libgsoap++.a
+Static files for gsoap"
+
+{{< files text="show files" >}}* /usr/lib/libgsoap++.a
 * /usr/lib/libgsoap.a
 * /usr/lib/libgsoapck++.a
 * /usr/lib/libgsoapck.a

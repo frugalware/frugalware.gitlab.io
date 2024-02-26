@@ -14,7 +14,9 @@ sha1sum = "6604a146742dfffee74956d581afa2e1073342de"
 depends = "['clamav>=0.95.2-1', 'libxi', 'libxmu']"
 license = "GPL"
 +++
-KlamAV brings ClamAV functionality to the KDE desktop user.{{< files text="show files" >}}* usr/bin/klamarkollon
+KlamAV brings ClamAV functionality to the KDE desktop user."
+
+{{< files text="show files" >}}* usr/bin/klamarkollon
 * usr/bin/klamav
 * usr/bin/klammail
 * usr/bin/ScanWithKlamAV

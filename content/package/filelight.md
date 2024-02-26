@@ -13,7 +13,9 @@ usize = "1438086"
 sha1sum = "85c7e7ee1f4f67f61741ad65aa0e169f48b69c09"
 depends = "['kdeclarative>=5.115.0', 'kparts>=5.115.0', 'qt5-quickcontrols2>=5.15.12']"
 +++
-View disk usage information.{{< files text="show files" >}}* /etc/xdg/filelightrc
+View disk usage information."
+
+{{< files text="show files" >}}* /etc/xdg/filelightrc
 * /usr/bin/filelight
 * /usr/share/applications/org.kde.filelight.desktop
 * /usr/share/doc/filelight-23.08.5/AUTHORS

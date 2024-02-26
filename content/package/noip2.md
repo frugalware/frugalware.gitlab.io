@@ -13,7 +13,9 @@ usize = "163985"
 sha1sum = "32c505449281d87c63b897272115767a4625020c"
 depends = "['glibc']"
 +++
-A client program to auto-update dynamic DNS on www.no-ip.com{{< files text="show files" >}}* /usr/bin/noip2
+A client program to auto-update dynamic DNS on www.no-ip.com"
+
+{{< files text="show files" >}}* /usr/bin/noip2
 * /usr/lib/systemd/system/noip2.service
 * /usr/share/doc/noip2-2.1.9/._COPYING
 * /usr/share/doc/noip2-2.1.9/._README.FIRST

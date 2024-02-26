@@ -13,5 +13,7 @@ usize = "59312"
 sha1sum = "febbf5b93cdccd2b944d2ca6db457b654852c992"
 depends = "['glib2>=2.56.0', 'gst1-plugins-base>=1.22.10', 'gstreamer1>=1.22.10', 'libffi>=3.2.1-2']"
 +++
-GStreamer GIO plugin (Base).{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstgio.so
+GStreamer GIO plugin (Base)."
+
+{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstgio.so
 {{< /files >}}

@@ -14,7 +14,9 @@ sha1sum = "e2153e0255fdd27a5486470838d8348d49c30cf7"
 depends = "['glibc>=2.34']"
 reverse_depends = "['avahi', 'avahi-dnsconfd']"
 +++
-libdaemon is a lightweight C library that eases the writing of UNIX daemons.{{< files text="show files" >}}* /usr/include/libdaemon/daemon.h
+libdaemon is a lightweight C library that eases the writing of UNIX daemons."
+
+{{< files text="show files" >}}* /usr/include/libdaemon/daemon.h
 * /usr/include/libdaemon/dexec.h
 * /usr/include/libdaemon/dfork.h
 * /usr/include/libdaemon/dlog.h

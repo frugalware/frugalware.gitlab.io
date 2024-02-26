@@ -15,7 +15,9 @@ depends = "['libx11>=1.6.5-2', 'libxau>=1.0.8-3', 'libxext>=1.3.3-3']"
 reverse_depends = "['xaw3d']"
 license = "GPL2"
 +++
-X.Org Xprint library{{< files text="show files" >}}* /usr/include/X11/extensions/Print.h
+X.Org Xprint library"
+
+{{< files text="show files" >}}* /usr/include/X11/extensions/Print.h
 * /usr/include/X11/extensions/Printstr.h
 * /usr/lib/libXp.so
 * /usr/lib/libXp.so.6

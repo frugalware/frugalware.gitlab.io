@@ -14,7 +14,9 @@ sha1sum = "ca01c7a230a836255d8df5dae6208dd8545ed2a7"
 depends = "['qt5-base>=']"
 reverse_depends = "['krita']"
 +++
-An embeddable expression evaluation engine (Krita fork){{< files text="show files" >}}* /usr/include/KSeExpr/Context.h
+An embeddable expression evaluation engine (Krita fork)"
+
+{{< files text="show files" >}}* /usr/include/KSeExpr/Context.h
 * /usr/include/KSeExpr/Curve.h
 * /usr/include/KSeExpr/ErrorCode.h
 * /usr/include/KSeExpr/Evaluator.h

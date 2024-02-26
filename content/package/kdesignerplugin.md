@@ -14,7 +14,9 @@ sha1sum = "50460b7e754cf5b6f849fd157306509313d55fe4"
 depends = "['kconfig>=5.115.0', 'kcoreaddons>=5.115.0', 'kiconthemes>=5.115.0', 'kio>=5.115.0', 'kplotting>=5.115.0', 'kxmlgui>=5.115.0']"
 reverse_depends = "['akonadi', 'kdelibs4support', 'kpimtextedit']"
 +++
-Integrating KDE frameworks widgets with Qt Designer.{{< files text="show files" >}}* /usr/bin/kgendesignerplugin
+Integrating KDE frameworks widgets with Qt Designer."
+
+{{< files text="show files" >}}* /usr/bin/kgendesignerplugin
 * /usr/lib/cmake/KF5DesignerPlugin/KF5DesignerPluginConfig.cmake
 * /usr/lib/cmake/KF5DesignerPlugin/KF5DesignerPluginConfigVersion.cmake
 * /usr/lib/cmake/KF5DesignerPlugin/KF5DesignerPluginMacros.cmake

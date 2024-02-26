@@ -14,7 +14,9 @@ sha1sum = "7d591d4d73f5334c9d1b101125699cd87a92e061"
 depends = "['kdnssd>=5.115.0', 'kwallet5>=5.115.0', 'kwayland>=5.115.0', 'kxmlgui>=5.115.0', 'libvncserver>=0.9.11', 'libxtst', 'qt5-x11extras>=5.15.12']"
 reverse_depends = "['krfb-pipewire']"
 +++
-KRfb is a RFB protocol server (VNC).{{< files text="show files" >}}* /usr/bin/krfb
+KRfb is a RFB protocol server (VNC)."
+
+{{< files text="show files" >}}* /usr/bin/krfb
 * /usr/bin/krfb-virtualmonitor
 * /usr/lib/libkrfbprivate.so.5
 * /usr/lib/libkrfbprivate.so.5.0

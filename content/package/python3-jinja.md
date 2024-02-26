@@ -14,7 +14,9 @@ sha1sum = "688a2445089234691ef8153404de9cfef49e53ec"
 depends = "['python3>=3.12', 'python3-markupsafe']"
 reverse_depends = "['gi-docgen', 'glad', 'python3-sphinx']"
 +++
-A simple pythonic template language written in Python{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/Jinja2-3.1.2-py3.12.egg-info/dependency_links.txt
+A simple pythonic template language written in Python"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/Jinja2-3.1.2-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/Jinja2-3.1.2-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/Jinja2-3.1.2-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/Jinja2-3.1.2-py3.12.egg-info/requires.txt

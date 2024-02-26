@@ -14,7 +14,9 @@ sha1sum = "579e15df50d651e1ada6d35d99626656960379d4"
 depends = "['ncurses>=6.1', 'xfsprogs-acl>=2.2.52-5']"
 reverse_depends = "['gvim']"
 +++
-VIM - Vi IMproved console{{< files text="show files" >}}* /usr/bin/ex
+VIM - Vi IMproved console"
+
+{{< files text="show files" >}}* /usr/bin/ex
 * /usr/bin/rview
 * /usr/bin/rvim
 * /usr/bin/vi

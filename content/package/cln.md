@@ -15,7 +15,9 @@ depends = "['gmp>=6.1.1-4']"
 reverse_depends = "['ginac', 'libqalculate', 'plasma-workspace']"
 license = "GPL"
 +++
-CLN is a library for efficient computations with all kinds of numbers in arbitrary precision.{{< files text="show files" >}}* /usr/bin/pi
+CLN is a library for efficient computations with all kinds of numbers in arbitrary precision."
+
+{{< files text="show files" >}}* /usr/bin/pi
 * /usr/include/cln/cln.h
 * /usr/include/cln/complex.h
 * /usr/include/cln/complex_class.h

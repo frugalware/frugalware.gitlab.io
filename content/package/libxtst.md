@@ -15,7 +15,9 @@ depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3', 'libxi>=1.7.7']"
 reverse_depends = "['anyremote', 'at-spi2-core', 'cef', 'chromium-browser', 'efl', 'enlightenment', 'kdeconnect-kde', 'keepassxc', 'krfb', 'libfakekey', 'libpulse', 'openjre-x', 'plasma-workspace', 'pulseaudio-x11', 'qt5-webengine', 'swt', 'teams', 'telegram-desktop', 'terminology', 'whalebird', 'x11vnc', 'xautomation', 'xdotool', 'xdpyinfo', 'xf86-video-intel', 'xine-ui']"
 license = "GPL2"
 +++
-X.Org Xtst library{{< files text="show files" >}}* /usr/include/X11/extensions/record.h
+X.Org Xtst library"
+
+{{< files text="show files" >}}* /usr/include/X11/extensions/record.h
 * /usr/include/X11/extensions/XTest.h
 * /usr/lib/libXtst.so
 * /usr/lib/libXtst.so.6

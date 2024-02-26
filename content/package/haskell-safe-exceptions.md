@@ -14,7 +14,9 @@ sha1sum = "cc0b0985b561285321c6c41201dec92f09b9f898"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-unliftio']"
 +++
-Safe, consistent, and easy exception handling{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/safe-exceptions-0.1.7.4/Control/Exception/Safe.dyn_hi
+Safe, consistent, and easy exception handling"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/safe-exceptions-0.1.7.4/Control/Exception/Safe.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/safe-exceptions-0.1.7.4/Control/Exception/Safe.hi
 * /usr/lib/ghc-9.8.1/site-local/safe-exceptions-0.1.7.4/libHSsafe-exceptions-0.1.7.4-JIB7ML5uNELK4mnGSRWEfd.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSsafe-exceptions-0.1.7.4-JIB7ML5uNELK4mnGSRWEfd-ghc9.8.1.so

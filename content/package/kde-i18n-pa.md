@@ -13,7 +13,9 @@ usize = "3597300"
 sha1sum = "73d6d0ba143de65186ef4e7348935c10da4a216a"
 depends = "[]"
 +++
-Punjabi Localization for KDE.{{< files text="show files" >}}* usr/share/locale/pa/charset
+Punjabi Localization for KDE."
+
+{{< files text="show files" >}}* usr/share/locale/pa/charset
 * usr/share/locale/pa/entry.desktop
 * usr/share/locale/pa/LC_MESSAGES/akregator_konqplugin.mo
 * usr/share/locale/pa/LC_MESSAGES/alsaplayerui.mo

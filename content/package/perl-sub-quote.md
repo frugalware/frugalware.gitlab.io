@@ -14,7 +14,9 @@ sha1sum = "9be1f3f0ac18639ddb18cedc4f7c6e6dd2388ed1"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-moo']"
 +++
-efficient generation of subroutines via string eval{{< files text="show files" >}}* /usr/lib/perl5/site_perl/Sub/Defer.pm
+efficient generation of subroutines via string eval"
+
+{{< files text="show files" >}}* /usr/lib/perl5/site_perl/Sub/Defer.pm
 * /usr/lib/perl5/site_perl/Sub/Quote.pm
 * /usr/share/doc/perl-sub-quote-2.006008/LICENSE
 * /usr/share/doc/perl-sub-quote-2.006008/MANIFEST

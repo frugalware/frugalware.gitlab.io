@@ -14,7 +14,9 @@ sha1sum = "8eb945e89f5552270a2ecc9679a19715b35172bf"
 depends = "['python3-attrs', 'python3-pyrsistent', 'python3-typing_extensions']"
 reverse_depends = "['python3-poetry-core']"
 +++
-An implementation of JSON Schema validation for Python{{< files text="show files" >}}* /usr/bin/jsonschema
+An implementation of JSON Schema validation for Python"
+
+{{< files text="show files" >}}* /usr/bin/jsonschema
 * /usr/lib/python3.12/site-packages/jsonschema-4.20.0.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/jsonschema-4.20.0.dist-info/licenses/COPYING
 * /usr/lib/python3.12/site-packages/jsonschema-4.20.0.dist-info/METADATA

@@ -13,7 +13,9 @@ usize = "212771"
 sha1sum = "c6a6c67f7408d75ade4a18ad85d676359dd44c33"
 depends = "['sac']"
 +++
-Java CSS parser using SAC{{< files text="show files" >}}* /usr/share/doc/flute-1.3.0_OOo31/AUTHORS
+Java CSS parser using SAC"
+
+{{< files text="show files" >}}* /usr/share/doc/flute-1.3.0_OOo31/AUTHORS
 * /usr/share/doc/flute-1.3.0_OOo31/ChangeLog
 * /usr/share/doc/flute-1.3.0_OOo31/COPYING
 * /usr/share/doc/flute-1.3.0_OOo31/COPYRIGHT.html

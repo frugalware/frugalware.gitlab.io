@@ -13,7 +13,9 @@ usize = "3153587"
 sha1sum = "bfcfdb90acfd830778026deff9d1e6eaa7f75063"
 depends = "['python3>=3.12']"
 +++
-Character encoding auto-detection in Python 2{{< files text="show files" >}}* /usr/bin/chardetect
+Character encoding auto-detection in Python 2"
+
+{{< files text="show files" >}}* /usr/bin/chardetect
 * /usr/lib/python3.12/site-packages/chardet-5.2.0.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/chardet-5.2.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/chardet-5.2.0.dist-info/METADATA

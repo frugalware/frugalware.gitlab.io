@@ -13,7 +13,9 @@ usize = "188733"
 sha1sum = "c036cb5580ea10f92fe5e53b9b0c8f5ad0ecafa0"
 depends = "['libglu>=9.0.0-3', 'libva>=2.3', 'libvdpau>=1.1.1-3']"
 +++
-VDPAU backend which converts VDPAU calls to OpenGL and VAAPI.{{< files text="show files" >}}* /usr/lib/vdpau/libvdpau_va_gl.so
+VDPAU backend which converts VDPAU calls to OpenGL and VAAPI."
+
+{{< files text="show files" >}}* /usr/lib/vdpau/libvdpau_va_gl.so
 * /usr/lib/vdpau/libvdpau_va_gl.so.1
 * /usr/share/doc/libvdpau-va-gl-0.4.2/ChangeLog
 * /usr/share/doc/libvdpau-va-gl-0.4.2/LICENSE

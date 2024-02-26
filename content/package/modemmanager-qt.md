@@ -14,7 +14,9 @@ sha1sum = "cbd3de15be1768630f59b3dba348c2e028a5b1bb"
 depends = "['modemmanager>=1.6.2', 'qt5-base>=5.15.12']"
 reverse_depends = "['kdeconnect-kde', 'plasma-nm', 'plasma-settings']"
 +++
-Qt-only wrapper for ModemManager DBus API.{{< files text="show files" >}}* /usr/include/KF5/ModemManagerQt/Bearer
+Qt-only wrapper for ModemManager DBus API."
+
+{{< files text="show files" >}}* /usr/include/KF5/ModemManagerQt/Bearer
 * /usr/include/KF5/ModemManagerQt/bearer.h
 * /usr/include/KF5/ModemManagerQt/Call
 * /usr/include/KF5/ModemManagerQt/call.h

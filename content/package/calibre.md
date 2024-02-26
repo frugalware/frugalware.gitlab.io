@@ -13,7 +13,9 @@ usize = "66995528"
 sha1sum = "9cf0617afdf1b41a823152ce4a7608419751c001"
 depends = "['html5lib-python', 'hunspell', 'hyphen', 'libmtp', 'libstemmer', 'mathjax', 'podofo>=0.10.1', 'pyqt6', 'pyqt6webengine', 'python3-apsw', 'python3-beautifulsoup4', 'python3-css-parser', 'python3-lxml', 'python3-mechanize', 'python3-pillow', 'python3-regex', 'uchardet']"
 +++
-Ebook management application{{< files text="show files" >}}* /usr/bin/calibre
+Ebook management application"
+
+{{< files text="show files" >}}* /usr/bin/calibre
 * /usr/bin/calibre-complete
 * /usr/bin/calibre-customize
 * /usr/bin/calibre-debug

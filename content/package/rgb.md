@@ -14,7 +14,9 @@ sha1sum = "0c01dd93ea37cced05fcd9d55826bf9a88634c73"
 depends = "['glibc']"
 license = "GPL2"
 +++
-X.Org rgb application{{< files text="show files" >}}* /usr/bin/showrgb
+X.Org rgb application"
+
+{{< files text="show files" >}}* /usr/bin/showrgb
 * /usr/share/doc/rgb-1.1.0/AUTHORS
 * /usr/share/doc/rgb-1.1.0/ChangeLog
 * /usr/share/doc/rgb-1.1.0/COPYING

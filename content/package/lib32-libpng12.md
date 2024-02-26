@@ -14,7 +14,9 @@ sha1sum = "3cf52eb059774e354ff7d98065edca20ff0694d8"
 depends = "['lib32-zlib>=1.2.12']"
 reverse_depends = "['steam-native']"
 +++
-A collection of routines used to create PNG format graphics files. ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/libpng12-config
+A collection of routines used to create PNG format graphics files. ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/libpng12-config
 * /usr/lib32/libpng.so.3
 * /usr/lib32/libpng.so.3.57.0
 * /usr/lib32/libpng12.so

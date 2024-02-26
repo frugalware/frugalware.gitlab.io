@@ -14,7 +14,9 @@ sha1sum = "62734327775a7cad4bb881c8a508c4fc77770b09"
 depends = "['ffmpeg>=6.0']"
 reverse_depends = "['mixxx', 'vlc-chromaprint']"
 +++
-Library that implements a custom algorithm for extracting fingerprints from any audio source.{{< files text="show files" >}}* /usr/bin/fpcalc
+Library that implements a custom algorithm for extracting fingerprints from any audio source."
+
+{{< files text="show files" >}}* /usr/bin/fpcalc
 * /usr/include/chromaprint.h
 * /usr/lib/libchromaprint.so
 * /usr/lib/libchromaprint.so.1

@@ -14,7 +14,9 @@ sha1sum = "4863c5f3c45323b369c36aa3c189f73d5f552978"
 depends = "['libmnl', 'libnfnetlink']"
 reverse_depends = "['conntrack-tools']"
 +++
-A userspace library that provides the programming interface to the user-space helper infrastructure.{{< files text="show files" >}}* /usr/include/libnetfilter_cthelper/libnetfilter_cthelper.h
+A userspace library that provides the programming interface to the user-space helper infrastructure."
+
+{{< files text="show files" >}}* /usr/include/libnetfilter_cthelper/libnetfilter_cthelper.h
 * /usr/lib/libnetfilter_cthelper.so
 * /usr/lib/libnetfilter_cthelper.so.0
 * /usr/lib/libnetfilter_cthelper.so.0.0.0

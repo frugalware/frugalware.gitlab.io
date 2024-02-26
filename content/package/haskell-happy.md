@@ -13,7 +13,9 @@ usize = "14334964"
 sha1sum = "9afb3b5642f98af3fb37f25f23a892152184853d"
 depends = "['ghc>=9.6.1']"
 +++
-The Parser Generator for Haskell{{< files text="show files" >}}* /usr/bin/happy
+The Parser Generator for Haskell"
+
+{{< files text="show files" >}}* /usr/bin/happy
 * /usr/share/doc/haskell-happy-1.20.1.1/LICENSE
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/happy-1.20.1.1/LICENSE
 * /usr/share/x86_64-linux-ghc-9.8.1/happy-1.20.1.1/GLR_Base

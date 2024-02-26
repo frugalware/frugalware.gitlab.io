@@ -15,7 +15,9 @@ depends = "['libpng']"
 reverse_depends = "['cairo', 'easyrpg-player', 'libfprint', 'neatvnc', 'qemu', 'spice', 'spice-glib', 'wlroots', 'xf86-video-intel', 'xorg-server', 'xorg-server-fbdev', 'xorg-server-xephyr', 'xorg-server-xwayland']"
 license = "GPL2"
 +++
-X.Org pixman library{{< files text="show files" >}}* /usr/include/pixman-1/pixman-version.h
+X.Org pixman library"
+
+{{< files text="show files" >}}* /usr/include/pixman-1/pixman-version.h
 * /usr/include/pixman-1/pixman.h
 * /usr/lib/libpixman-1.so
 * /usr/lib/libpixman-1.so.0

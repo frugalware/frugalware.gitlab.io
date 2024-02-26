@@ -14,7 +14,9 @@ sha1sum = "ec74058658075106dd4aa9b0e19b3791c45cc4dc"
 depends = "['libical>=3.0.3']"
 reverse_depends = "['akonadi-contacts', 'calindori', 'digikam', 'kcalutils', 'kitinerary', 'kongress', 'libkgapi']"
 +++
-The KDE calendar access library{{< files text="show files" >}}* /usr/include/KF5/kcalcore_version.h
+The KDE calendar access library"
+
+{{< files text="show files" >}}* /usr/include/KF5/kcalcore_version.h
 * /usr/include/KF5/KCalendarCore/KCalCore/Alarm
 * /usr/include/KF5/KCalendarCore/kcalcore/alarm.h
 * /usr/include/KF5/KCalendarCore/KCalCore/Attachment

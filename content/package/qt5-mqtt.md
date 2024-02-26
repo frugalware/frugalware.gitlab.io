@@ -13,7 +13,9 @@ usize = "270007"
 sha1sum = "c6f705a2868c5198f77de4c7f7a9cd783f6a6799"
 depends = "['qt5-base>=5.15.12']"
 +++
-The Qt5 toolkit, qtmqtt{{< files text="show files" >}}* /usr/include/qt5/QtMqtt/5.15.12/QtMqtt/private/qmqttclient_p.h
+The Qt5 toolkit, qtmqtt"
+
+{{< files text="show files" >}}* /usr/include/qt5/QtMqtt/5.15.12/QtMqtt/private/qmqttclient_p.h
 * /usr/include/qt5/QtMqtt/5.15.12/QtMqtt/private/qmqttconnectionproperties_p.h
 * /usr/include/qt5/QtMqtt/5.15.12/QtMqtt/private/qmqttconnection_p.h
 * /usr/include/qt5/QtMqtt/5.15.12/QtMqtt/private/qmqttcontrolpacket_p.h

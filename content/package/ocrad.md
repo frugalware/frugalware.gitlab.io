@@ -13,7 +13,9 @@ usize = "320432"
 sha1sum = "e995b458ce21f26fc4094101e4356713d31881fe"
 depends = "['libpng', 'libstdc++>=11.2']"
 +++
-GNU Ocrad is an OCR (Optical Character Recognition) program.{{< files text="show files" >}}* /usr/bin/ocrad
+GNU Ocrad is an OCR (Optical Character Recognition) program."
+
+{{< files text="show files" >}}* /usr/bin/ocrad
 * /usr/include/ocradlib.h
 * /usr/share/doc/ocrad-0.29/AUTHORS
 * /usr/share/doc/ocrad-0.29/ChangeLog

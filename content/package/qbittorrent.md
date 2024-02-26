@@ -13,7 +13,9 @@ usize = "12996651"
 sha1sum = "abf9f5deda0cef9c86c399a38f3e5f67f306d0ac"
 depends = "['geoip', 'libboost>=1.70.0', 'libtorrent-rasterbar>=2.0', 'python3', 'qt5-svg>=5.15.10']"
 +++
-A Bittorrent client.{{< files text="show files" >}}* /usr/bin/qbittorrent
+A Bittorrent client."
+
+{{< files text="show files" >}}* /usr/bin/qbittorrent
 * /usr/share/applications/org.qbittorrent.qBittorrent.desktop
 * /usr/share/doc/qbittorrent-4.6.2/AUTHORS
 * /usr/share/doc/qbittorrent-4.6.2/Changelog

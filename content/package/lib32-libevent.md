@@ -14,7 +14,9 @@ sha1sum = "39602b9c9e5927c870c4afa354a77f5da3f4c370"
 depends = "['lib32-openssl>=3.1.0']"
 reverse_depends = "['lib32-avahi']"
 +++
-Provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/event_rpcgen.py
+Provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/event_rpcgen.py
 * /usr/i686-frugalware-linux/include/evdns.h
 * /usr/i686-frugalware-linux/include/event.h
 * /usr/i686-frugalware-linux/include/event2/buffer.h

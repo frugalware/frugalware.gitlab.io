@@ -14,7 +14,9 @@ sha1sum = "1c41e7be955cbcf6be7994a6a221a1a670c2079e"
 depends = "['haskell-these>=1.1.1.1-15']"
 reverse_depends = "['haskell-aeson']"
 +++
-Strict data types and String IO.{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/strict-0.5/Data/Strict.dyn_hi
+Strict data types and String IO."
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/strict-0.5/Data/Strict.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/strict-0.5/Data/Strict.hi
 * /usr/lib/ghc-9.8.1/site-local/strict-0.5/Data/Strict/Classes.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/strict-0.5/Data/Strict/Classes.hi

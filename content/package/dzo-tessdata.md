@@ -13,5 +13,7 @@ usize = "449713"
 sha1sum = "9b09a65951cca328931b55ed2d1777c8dfd32e49"
 depends = "['glibc']"
 +++
-Language specific files for tesseract lang dzo{{< files text="show files" >}}* /usr/share/tessdata/dzo.traineddata
+Language specific files for tesseract lang dzo"
+
+{{< files text="show files" >}}* /usr/share/tessdata/dzo.traineddata
 {{< /files >}}

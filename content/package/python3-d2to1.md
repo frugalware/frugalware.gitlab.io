@@ -13,7 +13,9 @@ usize = "153774"
 sha1sum = "21a8ded228d9a4edb1d462de0198af8320e769c2"
 depends = "['python3>=3.12']"
 +++
-Python library that allows using distutils2-like setup.cfg files for a package's metadata with a distribute/setuptools setup.py script{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/d2to1-0.2.12.post1-py3.12.egg-info/dependency_links.txt
+Python library that allows using distutils2-like setup.cfg files for a package's metadata with a distribute/setuptools setup.py script"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/d2to1-0.2.12.post1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/d2to1-0.2.12.post1-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/d2to1-0.2.12.post1-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/d2to1-0.2.12.post1-py3.12.egg-info/PKG-INFO

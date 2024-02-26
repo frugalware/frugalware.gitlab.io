@@ -13,7 +13,9 @@ usize = "4355773"
 sha1sum = "c594cf3c331030338de51e4966c4c190d6a03b36"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Kazakh support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/acc.mo
+Installs Kazakh support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/chart.mo

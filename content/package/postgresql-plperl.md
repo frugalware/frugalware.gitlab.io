@@ -13,5 +13,7 @@ usize = "87816"
 sha1sum = "2778ccf5e86ced0f5160ec51de821ea401fc2595"
 depends = "['perl>=2.26.1', 'postgresql>=16.1']"
 +++
-PostgreSQL perl bindings{{< files text="show files" >}}* /usr/lib/postgresql/plperl.so
+PostgreSQL perl bindings"
+
+{{< files text="show files" >}}* /usr/lib/postgresql/plperl.so
 {{< /files >}}

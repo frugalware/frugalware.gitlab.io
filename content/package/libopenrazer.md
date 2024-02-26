@@ -14,7 +14,9 @@ sha1sum = "10b0f20a42c9b9ef23c095f6425c6449a0b2647c"
 depends = "['openrazer', 'qt5-base>=5.15.10']"
 reverse_depends = "['razergenie']"
 +++
-Qt wrapper around the D-Bus API from OpenRazer{{< files text="show files" >}}* /usr/include/libopenrazer.h
+Qt wrapper around the D-Bus API from OpenRazer"
+
+{{< files text="show files" >}}* /usr/include/libopenrazer.h
 * /usr/include/libopenrazer/dbusexception.h
 * /usr/include/libopenrazer/device.h
 * /usr/include/libopenrazer/led.h

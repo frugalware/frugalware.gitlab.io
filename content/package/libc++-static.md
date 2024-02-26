@@ -13,7 +13,9 @@ usize = "3254122"
 sha1sum = "bd4e4f8de32262915ddc1d726ee52cfc25ad0d42"
 depends = "[]"
 +++
-A new implementation of the C++ standard library (static){{< files text="show files" >}}* /usr/lib/x86_64-frugalware-linux/libc++.a
+A new implementation of the C++ standard library (static)"
+
+{{< files text="show files" >}}* /usr/lib/x86_64-frugalware-linux/libc++.a
 * /usr/lib/x86_64-frugalware-linux/libc++abi.a
 * /usr/lib/x86_64-frugalware-linux/libc++experimental.a
 {{< /files >}}

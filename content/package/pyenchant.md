@@ -13,7 +13,9 @@ usize = "314549"
 sha1sum = "02dc1691f70b4ce47f846d36b27bbf43aff45734"
 depends = "['enchant', 'python3']"
 +++
-PyEnchant is a spellchecking library for Python.{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/enchant/checker/CmdLineChecker.py
+PyEnchant is a spellchecking library for Python."
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/enchant/checker/CmdLineChecker.py
 * /usr/lib/python3.12/site-packages/enchant/checker/GtkSpellCheckerDialog.py
 * /usr/lib/python3.12/site-packages/enchant/checker/wxSpellCheckerDialog.py
 * /usr/lib/python3.12/site-packages/enchant/checker/__init__.py

@@ -13,7 +13,9 @@ usize = "46451415"
 sha1sum = "10b0ac53d3649e597092e379ff1914548e4cecbb"
 depends = "['curl']"
 +++
-A cargo subcommand to build and install C-ABI compatibile dynamic and static libraries{{< files text="show files" >}}* /usr/bin/cargo-cbuild
+A cargo subcommand to build and install C-ABI compatibile dynamic and static libraries"
+
+{{< files text="show files" >}}* /usr/bin/cargo-cbuild
 * /usr/bin/cargo-cinstall
 * /usr/share/doc/cargo-c-0.9.28/LICENSE
 * /usr/share/doc/cargo-c-0.9.28/README.md

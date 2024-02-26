@@ -14,7 +14,9 @@ sha1sum = "ecf59988c06ba4e291fa0fac0eb72bad76e57963"
 depends = "['glibc>=2.25']"
 license = "GPL2"
 +++
-X.Org font alias{{< files text="show files" >}}* /usr/share/doc/font-alias-1.0.5/ChangeLog
+X.Org font alias"
+
+{{< files text="show files" >}}* /usr/share/doc/font-alias-1.0.5/ChangeLog
 * /usr/share/doc/font-alias-1.0.5/COPYING
 * /usr/share/doc/font-alias-1.0.5/INSTALL
 * /usr/share/doc/font-alias-1.0.5/README.md

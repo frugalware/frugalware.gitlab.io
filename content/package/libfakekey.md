@@ -14,7 +14,9 @@ sha1sum = "d9088aef575d7ec6a4bf1e3e8904ae882222c859"
 depends = "['libxtst']"
 reverse_depends = "['kdeconnect-kde']"
 +++
-Library for simulating key press events under X11{{< files text="show files" >}}* /usr/include/fakekey/fakekey.h
+Library for simulating key press events under X11"
+
+{{< files text="show files" >}}* /usr/include/fakekey/fakekey.h
 * /usr/lib/libfakekey.so
 * /usr/lib/libfakekey.so.0
 * /usr/lib/libfakekey.so.0.0.1

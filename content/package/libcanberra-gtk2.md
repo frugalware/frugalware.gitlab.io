@@ -13,7 +13,9 @@ usize = "50364"
 sha1sum = "60879813b6c5eb2727035ef061760d20d61ace10"
 depends = "['gtk+2>=2.24.32-3', 'libcanberra>=0.30']"
 +++
-GTK+2 libcanberra{{< files text="show files" >}}* /usr/include/canberra-gtk2.h
+GTK+2 libcanberra"
+
+{{< files text="show files" >}}* /usr/include/canberra-gtk2.h
 * /usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so
 * /usr/lib/libcanberra-gtk.so
 * /usr/lib/libcanberra-gtk.so.0

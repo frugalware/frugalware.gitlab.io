@@ -14,7 +14,9 @@ sha1sum = "1134c864ad17f537f53c04c16aa9a6675af8eb07"
 depends = "['gtk+3>=3.24.0', 'libffi>=3.2.1-2', 'libxres>=1.0.7-4', 'startup-notification>=0.12-6']"
 reverse_depends = "['notification-daemon']"
 +++
-Window Navigator Construction Kit{{< files text="show files" >}}* /usr/bin/wnck-urgency-monitor
+Window Navigator Construction Kit"
+
+{{< files text="show files" >}}* /usr/bin/wnck-urgency-monitor
 * /usr/bin/wnckprop
 * /usr/include/libwnck-3.0/libwnck/application.h
 * /usr/include/libwnck-3.0/libwnck/class-group.h

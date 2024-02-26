@@ -14,7 +14,9 @@ sha1sum = "5c7dd28546a79cfbf15463912a83bdf45a263434"
 depends = "['curl', 'jsoncpp', 'libarchive>=3.2.1', 'libuv', 'lz4', 'ncurses>=6.0-18', 'rhash']"
 reverse_depends = "['corrosion', 'lxqt-build-tools', 'qtcreator', 'scikit-build']"
 +++
-Cross platform make{{< files text="show files" >}}* /usr/bin/ccmake
+Cross platform make"
+
+{{< files text="show files" >}}* /usr/bin/ccmake
 * /usr/bin/cmake
 * /usr/bin/cpack
 * /usr/bin/ctest

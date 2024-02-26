@@ -13,7 +13,9 @@ usize = "1854270"
 sha1sum = "98dc801d8c11370fc74376eeae96ef8e1353ff4c"
 depends = "['zlib>=1.2.12']"
 +++
-Concurrent Version System - a version control system{{< files text="show files" >}}* /usr/bin/cvs
+Concurrent Version System - a version control system"
+
+{{< files text="show files" >}}* /usr/bin/cvs
 * /usr/bin/cvsbug
 * /usr/bin/rcs2log
 * /usr/share/cvs/contrib/check_cvs

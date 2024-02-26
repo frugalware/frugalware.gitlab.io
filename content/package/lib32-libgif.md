@@ -14,7 +14,9 @@ sha1sum = "2f5ce32d6443c1df7364d97094a4a86e279127f1"
 depends = "['glibc>=2.34']"
 reverse_depends = "['lib32-imlib2', 'lib32-libwebp']"
 +++
-GIF loading and saving shared library{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/gif2rgb
+GIF loading and saving shared library"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/gif2rgb
 * /usr/i686-frugalware-linux/bin/gifbuild
 * /usr/i686-frugalware-linux/bin/gifclrmp
 * /usr/i686-frugalware-linux/bin/giffix

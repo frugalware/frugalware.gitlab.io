@@ -13,7 +13,9 @@ usize = "594490"
 sha1sum = "7d248c08ab8b53d36d27e6985d40ddc9b8e0848f"
 depends = "['kdbusaddons>=5.115.0', 'ki18n>=5.115.0', 'kiconthemes>=5.115.0', 'knotifications>=5.115.0', 'kxmlgui>=5.115.0', 'libxt']"
 +++
-KMouseTool is a program that clicks the mouse for you.{{< files text="show files" >}}* /usr/bin/kmousetool
+KMouseTool is a program that clicks the mouse for you."
+
+{{< files text="show files" >}}* /usr/bin/kmousetool
 * /usr/share/applications/org.kde.kmousetool.desktop
 * /usr/share/doc/HTML/ca/kmousetool/index.cache.bz2
 * /usr/share/doc/HTML/ca/kmousetool/index.docbook

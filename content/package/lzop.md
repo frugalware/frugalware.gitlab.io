@@ -13,7 +13,9 @@ usize = "230053"
 sha1sum = "22a0d08305b9d0cc0321295495f574900cda9878"
 depends = "['lzo']"
 +++
-lzop is a file compressor which is very similar to gzip.{{< files text="show files" >}}* /usr/bin/lzop
+lzop is a file compressor which is very similar to gzip."
+
+{{< files text="show files" >}}* /usr/bin/lzop
 * /usr/share/doc/lzop-1.04/AUTHORS
 * /usr/share/doc/lzop-1.04/ChangeLog
 * /usr/share/doc/lzop-1.04/COPYING

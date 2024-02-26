@@ -13,7 +13,9 @@ usize = "52380"
 sha1sum = "0c91311f39363a886c78973564d5f2d4cfd92adb"
 depends = "['glibc']"
 +++
-Minimalist argument handler{{< files text="show files" >}}* /usr/include/argh.h
+Minimalist argument handler"
+
+{{< files text="show files" >}}* /usr/include/argh.h
 * /usr/lib/cmake/argh/argh-config.cmake
 * /usr/lib/cmake/argh/arghTargets.cmake
 * /usr/share/doc/argh-1.3.2/LICENSE

@@ -14,7 +14,9 @@ sha1sum = "bbac3bce14ef58e3b0852695d885b10df97eb112"
 depends = "['cairo>=1.17.2-2', 'freetype2', 'glib2>=2.60.0', 'graphite2>=1.3.13-2', 'icu4c>=74.1', 'libffi>=3.2.1-2', 'libstdc++>=11.2', 'util-linux']"
 reverse_depends = "['chromium-browser', 'efl', 'enlightenment', 'kde-gtk-config', 'kitty', 'libass', 'mupdf', 'mupdf-gl', 'ogre', 'openjre', 'pango', 'qt5-base', 'qt6-base', 'terminology', 'texlive']"
 +++
-Is an implementation of the OpenType Layout engine.{{< files text="show files" >}}* /usr/bin/hb-info
+Is an implementation of the OpenType Layout engine."
+
+{{< files text="show files" >}}* /usr/bin/hb-info
 * /usr/bin/hb-ot-shape-closure
 * /usr/bin/hb-shape
 * /usr/bin/hb-subset

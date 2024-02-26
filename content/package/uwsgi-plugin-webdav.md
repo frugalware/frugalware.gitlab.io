@@ -13,5 +13,7 @@ usize = "40152"
 sha1sum = "87e9f124b0cc382880addfe46da4ff2e89cec6e5"
 depends = "['libxslt', 'uwsgi']"
 +++
-UWSGI WebDAV Plugin{{< files text="show files" >}}* /usr/lib/uwsgi/webdav_plugin.so
+UWSGI WebDAV Plugin"
+
+{{< files text="show files" >}}* /usr/lib/uwsgi/webdav_plugin.so
 {{< /files >}}

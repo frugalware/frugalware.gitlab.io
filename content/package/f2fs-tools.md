@@ -14,7 +14,9 @@ sha1sum = "f93e4af56b5b6f0f110bb6f20b78bb33fbc05b23"
 depends = "['util-linux']"
 reverse_depends = "['partitionmanager']"
 +++
-Tools for Flash-Friendly File System (F2FS).{{< files text="show files" >}}* /usr/bin/defrag.f2fs
+Tools for Flash-Friendly File System (F2FS)."
+
+{{< files text="show files" >}}* /usr/bin/defrag.f2fs
 * /usr/bin/dump.f2fs
 * /usr/bin/f2fscrypt
 * /usr/bin/f2fslabel

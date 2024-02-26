@@ -14,7 +14,9 @@ sha1sum = "8710f586f9746f053d66dd0481e2c4959c6b11cb"
 depends = "[]"
 reverse_depends = "['lib32-libass', 'lib32-pango']"
 +++
-A Free Implementation of the Unicode BiDirectional algorithm ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/fribidi
+A Free Implementation of the Unicode BiDirectional algorithm ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/fribidi
 * /usr/i686-frugalware-linux/include/fribidi/fribidi-arabic.h
 * /usr/i686-frugalware-linux/include/fribidi/fribidi-begindecls.h
 * /usr/i686-frugalware-linux/include/fribidi/fribidi-bidi-types-list.h

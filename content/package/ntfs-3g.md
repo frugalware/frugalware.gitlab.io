@@ -14,7 +14,9 @@ sha1sum = "18d1dda63e9d97ab6ebcd1cee72b96268ef8c44c"
 depends = "['fuse', 'xfsprogs-attr']"
 reverse_depends = "['fsarchiver', 'ntfsprogs', 'partclone', 'udisks2', 'wimlib']"
 +++
-Third generation Linux NTFS driver with full read-write access.{{< files text="show files" >}}* /usr/bin/lowntfs-3g
+Third generation Linux NTFS driver with full read-write access."
+
+{{< files text="show files" >}}* /usr/bin/lowntfs-3g
 * /usr/bin/mount.lowntfs-3g
 * /usr/bin/mount.ntfs
 * /usr/bin/mount.ntfs-3g

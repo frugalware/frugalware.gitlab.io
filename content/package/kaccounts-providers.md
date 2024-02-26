@@ -13,7 +13,9 @@ usize = "299511"
 sha1sum = "5b1caa494bfcdd131df2b9fe333b62ffea82c36b"
 depends = "['kaccounts-integration>=23.08.5', 'qt5-svg>=5.15.12', 'qt5-webengine>=5.15.12']"
 +++
-Small system to administer web accounts for the sites and services across the KDE desktop, including: Google, Facebook, Owncloud, IMAP, Jabber and others{{< files text="show files" >}}* /etc/signon-ui/webkit-options.d/accounts.google.com.conf
+Small system to administer web accounts for the sites and services across the KDE desktop, including: Google, Facebook, Owncloud, IMAP, Jabber and others"
+
+{{< files text="show files" >}}* /etc/signon-ui/webkit-options.d/accounts.google.com.conf
 * /etc/signon-ui/webkit-options.d/api.twitter.com.conf
 * /etc/signon-ui/webkit-options.d/identi.ca.conf
 * /etc/signon-ui/webkit-options.d/www.facebook.com.conf

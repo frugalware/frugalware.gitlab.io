@@ -14,7 +14,9 @@ sha1sum = "1d90e959677f39c0debcef4b0962f264ec48bdb3"
 depends = "['breeze>=5.27.10', 'hack', 'kio>=5.115.0', 'kwayland>=5.115.0', 'noto-emoji', 'noto-fonts', 'qt5-quickcontrols2>=5.15.12', 'qt5-svg>=5.15.12']"
 reverse_depends = "['plasma-workspace']"
 +++
-Qt Platform Theme integration plugins for the Plasma workspaces.{{< files text="show files" >}}* /usr/include/PlasmaKeyData/plasmakeydata.h
+Qt Platform Theme integration plugins for the Plasma workspaces."
+
+{{< files text="show files" >}}* /usr/include/PlasmaKeyData/plasmakeydata.h
 * /usr/lib/pkgconfig/plasma-key-data.pc
 * /usr/lib/qt5/plugins/platforminputcontexts/plasmaimplatforminputcontextplugin.so
 * /usr/lib/qt5/plugins/platformthemes/KDEPlasmaPlatformTheme.so

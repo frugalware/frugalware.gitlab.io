@@ -13,7 +13,9 @@ usize = "106716"
 sha1sum = "c6db4912ec075988515f0e9e05bcafaf3cce8bf4"
 depends = "['libpq>=11.2-2', 'qt6-base>=6.6.2', 'qt6-base-sql-common']"
 +++
-Postgresql support for qt6{{< files text="show files" >}}* /usr/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginAdditionalTargetInfo.cmake
+Postgresql support for qt6"
+
+{{< files text="show files" >}}* /usr/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginConfig.cmake
 * /usr/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginConfigVersion.cmake
 * /usr/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginConfigVersionImpl.cmake

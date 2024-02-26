@@ -13,7 +13,9 @@ usize = "178734"
 sha1sum = "5a19cdd7d43d2c38d961bdfe75a4f4eaac7fdc7c"
 depends = "['libstdc++>=9.1.0-3']"
 +++
-Open source command-line RTMP client{{< files text="show files" >}}* /usr/bin/flvstreamer
+Open source command-line RTMP client"
+
+{{< files text="show files" >}}* /usr/bin/flvstreamer
 * /usr/bin/streams
 * /usr/share/doc/flvstreamer-2.1c1/ChangeLog
 * /usr/share/doc/flvstreamer-2.1c1/COPYING

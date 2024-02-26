@@ -13,7 +13,9 @@ usize = "40025"
 sha1sum = "6793ca5e46170702c00c6860002e89b5beedcb0c"
 depends = "['glibc']"
 +++
-CD image format conversion from bin/cue to iso/cdr{{< files text="show files" >}}* /usr/bin/bchunk
+CD image format conversion from bin/cue to iso/cdr"
+
+{{< files text="show files" >}}* /usr/bin/bchunk
 * /usr/share/doc/bchunk-1.2.0/ChangeLog
 * /usr/share/doc/bchunk-1.2.0/COPYING
 * /usr/share/doc/bchunk-1.2.0/README

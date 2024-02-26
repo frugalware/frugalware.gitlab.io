@@ -14,7 +14,9 @@ sha1sum = "fa14992726502f56db6e089dffb400e1ce850c70"
 depends = "['ncurses>=6.0-3', 'zlib>=1.2.12']"
 license = "GPL"
 +++
-Linux kernel crashdump analysis tool{{< files text="show files" >}}* /usr/bin/crash
+Linux kernel crashdump analysis tool"
+
+{{< files text="show files" >}}* /usr/bin/crash
 * /usr/share/doc/crash-8.0.4/COPYING3
 * /usr/share/doc/crash-8.0.4/README
 {{< /files >}}

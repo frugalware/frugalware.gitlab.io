@@ -14,7 +14,9 @@ sha1sum = "ceafee89fe2cd4c357bb106a97249596be1c8a0f"
 depends = "['alsa-lib>=1.1.2-2', 'flac>=1.4.0', 'libogg>=1.3.2-5', 'libvorbis>=1.3.5-5', 'sqlite3>=3.9.2-4']"
 reverse_depends = "['efl', 'enlightenment', 'fluidsynth', 'libbs2b', 'libpulse', 'libreoffice', 'libsamplerate', 'lv2', 'mednafen', 'mumble', 'pulseaudio', 'qtractor', 'sfml', 'speech-dispatcher', 'terminology', 'twolame', 'vamp-plugin-sdk']"
 +++
-Libsndfile is a C library for reading and writing files containing sampled sound{{< files text="show files" >}}* /usr/bin/sndfile-cmp
+Libsndfile is a C library for reading and writing files containing sampled sound"
+
+{{< files text="show files" >}}* /usr/bin/sndfile-cmp
 * /usr/bin/sndfile-concat
 * /usr/bin/sndfile-convert
 * /usr/bin/sndfile-deinterleave

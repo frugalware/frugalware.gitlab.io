@@ -13,7 +13,9 @@ usize = "97826"
 sha1sum = "e6a44fb7f20e1bece527049a9466f24eb1592963"
 depends = "['irssi', 'libotr>=4.0.0']"
 +++
-Off-The-Record messaging (OTR) for Irssi.{{< files text="show files" >}}* /usr/lib/irssi/modules/libotr.so
+Off-The-Record messaging (OTR) for Irssi."
+
+{{< files text="show files" >}}* /usr/lib/irssi/modules/libotr.so
 * /usr/share/doc/irssi-otr-1.0.2/ChangeLog
 * /usr/share/doc/irssi-otr-1.0.2/INSTALL
 * /usr/share/doc/irssi-otr-1.0.2/LICENSE

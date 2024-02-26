@@ -13,7 +13,9 @@ usize = "5680247"
 sha1sum = "d005fbe75725a3a24b45a988843ba8c2e3cd2672"
 depends = "[]"
 +++
-Icelandic Localization for KDE.{{< files text="show files" >}}* usr/share/locale/is/charset
+Icelandic Localization for KDE."
+
+{{< files text="show files" >}}* usr/share/locale/is/charset
 * usr/share/locale/is/entry.desktop
 * usr/share/locale/is/flag.png
 * usr/share/locale/is/LC_MESSAGES/akregator.mo

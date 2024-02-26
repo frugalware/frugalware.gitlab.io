@@ -14,7 +14,9 @@ sha1sum = "2a16ddfea7b1d33de572a5d4f5c0988a0f158c98"
 depends = "['ncurses>=6.1-2']"
 reverse_depends = "['alsa-info', 'fetchmailconf']"
 +++
-A tool to display dialog boxes from shell scripts{{< files text="show files" >}}* /usr/bin/dialog
+A tool to display dialog boxes from shell scripts"
+
+{{< files text="show files" >}}* /usr/bin/dialog
 * /usr/lib/libdialog.so
 * /usr/lib/libdialog.so.1.3
 * /usr/lib/libdialog.so.15.0.0

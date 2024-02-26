@@ -14,7 +14,9 @@ sha1sum = "764e4b6fff5928c4fb8b113d8e2fe7f68b7b12f2"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-template-toolkit']"
 +++
-Perl/CPAN AppConfig module - Read configuration files and parse command line arguments{{< files text="show files" >}}* /usr/lib/perl5/site_perl/AppConfig.pm
+Perl/CPAN AppConfig module - Read configuration files and parse command line arguments"
+
+{{< files text="show files" >}}* /usr/lib/perl5/site_perl/AppConfig.pm
 * /usr/lib/perl5/site_perl/AppConfig/Args.pm
 * /usr/lib/perl5/site_perl/AppConfig/CGI.pm
 * /usr/lib/perl5/site_perl/AppConfig/File.pm

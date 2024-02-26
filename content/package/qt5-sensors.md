@@ -14,7 +14,9 @@ sha1sum = "630fb45ff63941640810f50924c97891fa8cd8e2"
 depends = "['iio-sensor-proxy', 'qt5-declarative>=5.15.12']"
 reverse_depends = "['aseman-qt-tools', 'kscreen5', 'kwin5']"
 +++
-The Qt5 toolkit, qtsensors{{< files text="show files" >}}* /usr/include/qt5/QtSensors/5.15.12/QtSensors/private/qaccelerometer_p.h
+The Qt5 toolkit, qtsensors"
+
+{{< files text="show files" >}}* /usr/include/qt5/QtSensors/5.15.12/QtSensors/private/qaccelerometer_p.h
 * /usr/include/qt5/QtSensors/5.15.12/QtSensors/private/qaltimeter_p.h
 * /usr/include/qt5/QtSensors/5.15.12/QtSensors/private/qambientlightsensor_p.h
 * /usr/include/qt5/QtSensors/5.15.12/QtSensors/private/qambienttemperaturesensor_p.h

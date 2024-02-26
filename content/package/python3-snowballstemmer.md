@@ -14,7 +14,9 @@ sha1sum = "14ec7a691e90800dd891ba9599859630a43ecb08"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-sphinx']"
 +++
-Python stemming library{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/snowballstemmer-2.2.0-py3.12.egg-info/dependency_links.txt
+Python stemming library"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/snowballstemmer-2.2.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/snowballstemmer-2.2.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/snowballstemmer-2.2.0-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/snowballstemmer-2.2.0-py3.12.egg-info/top_level.txt

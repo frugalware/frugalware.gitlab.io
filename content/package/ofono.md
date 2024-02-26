@@ -14,7 +14,9 @@ sha1sum = "dde66e4eae227d6e116e37d8206e05c48a5a4fe6"
 depends = "['bluez', 'glib2', 'mobile-broadband-provider-info', 'modemmanager']"
 license = "GPL2"
 +++
-mobile manager{{< files text="show files" >}}* /etc/dbus-1/system.d/ofono.conf
+mobile manager"
+
+{{< files text="show files" >}}* /etc/dbus-1/system.d/ofono.conf
 * /etc/ofono/phonesim.conf
 * /usr/bin/ofonod
 * /usr/include/ofono/audio-settings.h

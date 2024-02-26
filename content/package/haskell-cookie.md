@@ -14,7 +14,9 @@ sha1sum = "0f5b9e70a31160ad0166311d8f5e0b169162643d"
 depends = "['haskell-data-default-class']"
 reverse_depends = "['haskell-http-api-data', 'haskell-http-client', 'haskell-wai-extra']"
 +++
-HTTP cookie parsing and rendering{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/cookie-0.4.6/libHScookie-0.4.6-3AsvfrjTUqCJ9zpB5TdXlV.a
+HTTP cookie parsing and rendering"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/cookie-0.4.6/libHScookie-0.4.6-3AsvfrjTUqCJ9zpB5TdXlV.a
 * /usr/lib/ghc-9.8.1/site-local/cookie-0.4.6/Web/Cookie.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/cookie-0.4.6/Web/Cookie.hi
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHScookie-0.4.6-3AsvfrjTUqCJ9zpB5TdXlV-ghc9.8.1.so

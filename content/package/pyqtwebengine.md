@@ -14,7 +14,9 @@ sha1sum = "dcd581c2d42c79de5800345f7e86a77220263658"
 depends = "['pyqt5', 'qt5-webengine>=5.15.14']"
 reverse_depends = "['polychromatic']"
 +++
-Python bindings for QtWebEngine{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/PyQt5/bindings/QtWebEngine/qquickwebengineprofile.sip
+Python bindings for QtWebEngine"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/PyQt5/bindings/QtWebEngine/qquickwebengineprofile.sip
 * /usr/lib/python3.12/site-packages/PyQt5/bindings/QtWebEngine/qquickwebenginescript.sip
 * /usr/lib/python3.12/site-packages/PyQt5/bindings/QtWebEngine/QtWebEngine.toml
 * /usr/lib/python3.12/site-packages/PyQt5/bindings/QtWebEngine/qtwebengineglobal.sip

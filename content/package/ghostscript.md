@@ -15,7 +15,9 @@ depends = "['fontconfig', 'foomatic-filters>=4.0.17-5', 'ijs', 'jasper', 'lcms2'
 reverse_depends = "['darktable', 'gimp', 'hplip-driver', 'latex2html', 'scribus', 'texworks', 'xghostscript']"
 license = "GPLv2"
 +++
-An interpreter for the PostScript language.{{< files text="show files" >}}* /usr/bin/dvipdf
+An interpreter for the PostScript language."
+
+{{< files text="show files" >}}* /usr/bin/dvipdf
 * /usr/bin/eps2eps
 * /usr/bin/gs
 * /usr/bin/gsbj

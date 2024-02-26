@@ -14,7 +14,9 @@ sha1sum = "ffd3e7e0981b0b76f9cd489080c27670316fe5db"
 depends = "['glibc']"
 reverse_depends = "['clightd']"
 +++
-C linux library to build simple and modular projects{{< files text="show files" >}}* /usr/include/module/map.h
+C linux library to build simple and modular projects"
+
+{{< files text="show files" >}}* /usr/include/module/map.h
 * /usr/include/module/module.h
 * /usr/include/module/modules.h
 * /usr/include/module/modules_easy.h

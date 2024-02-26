@@ -13,6 +13,8 @@ usize = "73726"
 sha1sum = "ceeec6f3b37653bcf3b922a745623dbe707149fd"
 depends = "['python3>=3.12']"
 +++
-Python3 snackmodule for newt{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/snack.py
+Python3 snackmodule for newt"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/snack.py
 * /usr/lib/python3.12/site-packages/_snack.so
 {{< /files >}}

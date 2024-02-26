@@ -14,7 +14,9 @@ sha1sum = "df7c5afc7698b62f3cdff5b050f81459f85ebac9"
 depends = "['qt5-base>=5.15.10']"
 reverse_depends = "['krita', 'nomacs']"
 +++
-Wrapper for ZIP/UNZIP package{{< files text="show files" >}}* /usr/include/quazip5/crypt.h
+Wrapper for ZIP/UNZIP package"
+
+{{< files text="show files" >}}* /usr/include/quazip5/crypt.h
 * /usr/include/quazip5/ioapi.h
 * /usr/include/quazip5/JlCompress.h
 * /usr/include/quazip5/quaadler32.h

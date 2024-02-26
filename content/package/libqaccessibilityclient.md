@@ -14,7 +14,9 @@ sha1sum = "f8166501e02419955ffcb0fb3cfc45deea5ee4a2"
 depends = "['qt5-base>=']"
 reverse_depends = "['kmag', 'kwin5']"
 +++
-Helper library to make writing accessibility tools easier{{< files text="show files" >}}* /usr/include/QAccessibilityClient/qaccessibilityclient/accessibleobject.h
+Helper library to make writing accessibility tools easier"
+
+{{< files text="show files" >}}* /usr/include/QAccessibilityClient/qaccessibilityclient/accessibleobject.h
 * /usr/include/QAccessibilityClient/qaccessibilityclient/libqaccessibilityclient-version.h
 * /usr/include/QAccessibilityClient/qaccessibilityclient/qaccessibilityclient_export.h
 * /usr/include/QAccessibilityClient/qaccessibilityclient/registry.h

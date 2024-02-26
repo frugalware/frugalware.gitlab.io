@@ -13,7 +13,9 @@ usize = "1338130"
 sha1sum = "efe7ddfd5d94befbe7e1cc4edbdee559047e0d79"
 depends = "['qt5-declarative>=5.15.12']"
 +++
-The Qt5 toolkit, qtremoteobjects{{< files text="show files" >}}* /usr/bin/repc
+The Qt5 toolkit, qtremoteobjects"
+
+{{< files text="show files" >}}* /usr/bin/repc
 * /usr/bin/repc-qt5
 * /usr/include/qt5/QtRemoteObjects/5.15.12/QtRemoteObjects/private/qconnectionfactories_p.h
 * /usr/include/qt5/QtRemoteObjects/5.15.12/QtRemoteObjects/private/qconnection_local_backend_p.h

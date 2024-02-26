@@ -14,7 +14,9 @@ sha1sum = "2dc2405c39aa69514ebae6e3c8088da8a1ef10ae"
 depends = "['celt051>=0.5.1.3-2', 'gst-libav', 'gst1-plugins-bad', 'gst1-plugins-good>=1.6.3', 'json-glib', 'libjpeg-turbo', 'libpulse>=0.32.8-2', 'openssl>=1.1.1', 'opus', 'pixman>=0.32.8-2', 'usbredir>=0.8.0']"
 reverse_depends = "['qt-virt-manager', 'spice-gtk']"
 +++
-glib objects for spice protocol decoding and surface rendering{{< files text="show files" >}}* /usr/include/spice-client-glib-2.0/channel-cursor.h
+glib objects for spice protocol decoding and surface rendering"
+
+{{< files text="show files" >}}* /usr/include/spice-client-glib-2.0/channel-cursor.h
 * /usr/include/spice-client-glib-2.0/channel-display.h
 * /usr/include/spice-client-glib-2.0/channel-inputs.h
 * /usr/include/spice-client-glib-2.0/channel-main.h

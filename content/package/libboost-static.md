@@ -13,7 +13,9 @@ usize = "97274022"
 sha1sum = "9a345dc3d7506e993248e22f9f60e420a64bd9b1"
 depends = "[]"
 +++
-Boost libraries statically linked.{{< files text="show files" >}}* /usr/lib/libboost_atomic.a
+Boost libraries statically linked."
+
+{{< files text="show files" >}}* /usr/lib/libboost_atomic.a
 * /usr/lib/libboost_chrono.a
 * /usr/lib/libboost_container.a
 * /usr/lib/libboost_context.a

@@ -13,7 +13,9 @@ usize = "5568802"
 sha1sum = "d5bc114ebfbbfdf0327ef11f3f9e834dbd58fbfa"
 depends = "['cups-pk-helper', 'pycurl', 'python3>=3.9.6', 'python3-requests']"
 +++
-The purpose of the tool is to configure a CUPS server using the CUPS API.{{< files text="show files" >}}* /etc/cupshelpers/preferreddrivers.xml
+The purpose of the tool is to configure a CUPS server using the CUPS API."
+
+{{< files text="show files" >}}* /etc/cupshelpers/preferreddrivers.xml
 * /etc/dbus-1/system.d/com.redhat.NewPrinterNotification.conf
 * /etc/dbus-1/system.d/com.redhat.PrinterDriversInstaller.conf
 * /etc/xdg/autostart/print-applet.desktop

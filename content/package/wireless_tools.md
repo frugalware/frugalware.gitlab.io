@@ -14,7 +14,9 @@ sha1sum = "0c909a09f5068032c2469b043c546119c66f0c95"
 depends = "['glibc>=2.34']"
 reverse_depends = "['conky', 'connman', 'firefox', 'ipw2200', 'ipw3945', 'knemo', 'kwirelessmonitor', 'networkmanager']"
 +++
-Wireless tools, including iwconfig{{< files text="show files" >}}* /usr/bin/ifrename
+Wireless tools, including iwconfig"
+
+{{< files text="show files" >}}* /usr/bin/ifrename
 * /usr/bin/iwconfig
 * /usr/bin/iwevent
 * /usr/bin/iwgetid

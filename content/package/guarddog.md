@@ -13,7 +13,9 @@ usize = "1348075"
 sha1sum = "830ecb6ff056af31a43027917586f1c7f4646495"
 depends = "['expat', 'iptables', 'libdrm', 'libgl', 'libstdc++', 'libxi', 'libxmu', 'libxxf86vm']"
 +++
-Guarddog is a firewall configuration utility for Linux systems.{{< files text="show files" >}}* usr/bin/guarddog
+Guarddog is a firewall configuration utility for Linux systems."
+
+{{< files text="show files" >}}* usr/bin/guarddog
 * usr/share/applnk/System/guarddog.desktop
 * usr/share/apps/guarddog/networkprotocoldb.xml
 * usr/share/apps/guarddog/pics/advanced.png

@@ -14,7 +14,9 @@ sha1sum = "8c166de1006f9905e5daf516b9c0b98a40ecbbf7"
 depends = "['glibc>=2.34', 'iproute2']"
 reverse_depends = "['connman', 'dracut-network']"
 +++
-The ISC DHCP client{{< files text="show files" >}}* /etc/dhclient-dhcpv6.conf
+The ISC DHCP client"
+
+{{< files text="show files" >}}* /etc/dhclient-dhcpv6.conf
 * /etc/dhclient.conf
 * /usr/bin/dhclient
 * /usr/bin/dhclient-script

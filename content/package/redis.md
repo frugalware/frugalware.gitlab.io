@@ -13,7 +13,9 @@ usize = "4204363"
 sha1sum = "07a7e918a930c26fd1b802dadbae40c547653546"
 depends = "['glibc', 'grep', 'hyperscan', 'jemalloc', 'shadow']"
 +++
-Redis is an open source in-memory data structure store{{< files text="show files" >}}* /etc/logrotate.d/redis
+Redis is an open source in-memory data structure store"
+
+{{< files text="show files" >}}* /etc/logrotate.d/redis
 * /etc/redis/redis.conf
 * /etc/redis/sentinel.conf
 * /usr/bin/redis-benchmark

@@ -13,7 +13,9 @@ usize = "2361078"
 sha1sum = "926c90c2884207f76fec7bca807a129a4214626b"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Breton support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/br/LC_MESSAGES/acc.mo
+Installs Breton support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/br/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/br/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/br/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/br/LC_MESSAGES/chart.mo

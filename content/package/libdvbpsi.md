@@ -15,7 +15,9 @@ depends = "['glibc>=2.29-6']"
 reverse_depends = "['vlc-dvb-ts']"
 license = "GPL2"
 +++
-library for MPEG TS/DVB PSI tables decoding and generation{{< files text="show files" >}}* /usr/include/dvbpsi/atsc_eit.h
+library for MPEG TS/DVB PSI tables decoding and generation"
+
+{{< files text="show files" >}}* /usr/include/dvbpsi/atsc_eit.h
 * /usr/include/dvbpsi/atsc_ett.h
 * /usr/include/dvbpsi/atsc_mgt.h
 * /usr/include/dvbpsi/atsc_stt.h

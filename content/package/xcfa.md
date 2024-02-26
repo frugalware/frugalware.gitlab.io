@@ -13,7 +13,9 @@ usize = "2573735"
 sha1sum = "cb38f233a4fa49c951a3afe3332b80993a42c603"
 depends = "['alsa-lib', 'curl', 'dvd+rw-tools', 'freetype2', 'gtk+3', 'libcddb', 'libcdio>=0.83', 'libxau>=1.0.4-1', 'libxdamage>=1.1.1-3', 'libxdmcp', 'libxext>=1.0.5-3', 'libxml2', 'taglib', 'vte3']"
 +++
-Frontend which use miscellaneous external programs to extract and convert music files{{< files text="show files" >}}* /usr/bin/xcfa
+Frontend which use miscellaneous external programs to extract and convert music files"
+
+{{< files text="show files" >}}* /usr/bin/xcfa
 * /usr/bin/xcfa_cli
 * /usr/share/applications/xcfa.desktop
 * /usr/share/doc/xcfa-5.0.2/AUTHORS

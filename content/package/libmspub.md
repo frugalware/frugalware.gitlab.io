@@ -14,7 +14,9 @@ sha1sum = "a808650c0a7af59c58908af8738840139016dd28"
 depends = "['icu4c>=74.1', 'libwpd>=0.10.1-5', 'libwpg>=0.3.1-4']"
 reverse_depends = "['libreoffice', 'scribus']"
 +++
-libmspub import filter library{{< files text="show files" >}}* /usr/bin/pub2raw
+libmspub import filter library"
+
+{{< files text="show files" >}}* /usr/bin/pub2raw
 * /usr/bin/pub2xhtml
 * /usr/include/libmspub-0.1/libmspub/libmspub.h
 * /usr/include/libmspub-0.1/libmspub/MSPUBDocument.h

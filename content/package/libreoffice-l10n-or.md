@@ -13,7 +13,9 @@ usize = "2620158"
 sha1sum = "73300d654bd62abf1831333da31985ac637bc52f"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Odia support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/or/LC_MESSAGES/acc.mo
+Installs Odia support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/or/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/or/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/or/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/or/LC_MESSAGES/chart.mo

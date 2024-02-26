@@ -13,5 +13,7 @@ usize = "23232"
 sha1sum = "dcc19cd319bba1e5dd7dedccd5f0e7c334eea1a0"
 depends = "['claws-mail=4.1.1']"
 +++
-This plugin enables the use of ACPI LEDs for Mail notifications.{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/acpi_notifier.so
+This plugin enables the use of ACPI LEDs for Mail notifications."
+
+{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/acpi_notifier.so
 {{< /files >}}

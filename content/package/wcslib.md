@@ -14,7 +14,9 @@ sha1sum = "f7d0db6479d489bf2d261c938b61de3544d702f8"
 depends = "['cfitsio']"
 reverse_depends = "['stellarsolver']"
 +++
-A C library that implements the 'World Coordinate System' (WCS) standard in FITS{{< files text="show files" >}}* /usr/bin/fitshdr
+A C library that implements the 'World Coordinate System' (WCS) standard in FITS"
+
+{{< files text="show files" >}}* /usr/bin/fitshdr
 * /usr/bin/HPXcvt
 * /usr/bin/sundazel
 * /usr/bin/tofits

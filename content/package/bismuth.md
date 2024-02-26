@@ -13,7 +13,9 @@ usize = "460810"
 sha1sum = "5ff16d0d9dff173abf33d2c51be8352c57807e90"
 depends = "['systemsettings5']"
 +++
-Addon for KDE Plasma to arrange your windows automatically and switch between them using keyboard shortcuts, like tiling window managers.{{< files text="show files" >}}* /usr/lib/qt5/plugins/kcms/kcm_bismuth.so
+Addon for KDE Plasma to arrange your windows automatically and switch between them using keyboard shortcuts, like tiling window managers."
+
+{{< files text="show files" >}}* /usr/lib/qt5/plugins/kcms/kcm_bismuth.so
 * /usr/lib/qt5/plugins/org.kde.kdecoration2/bismuth_kdecoration.so
 * /usr/share/config.kcfg/bismuth_config.kcfg
 * /usr/share/doc/bismuth-3.1.4/LICENSE

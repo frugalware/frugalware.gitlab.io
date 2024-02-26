@@ -14,7 +14,9 @@ sha1sum = "bac8401e9a246a41a0c4fd99699eb16b02a17a97"
 depends = "['haskell-split', 'haskell-unordered-containers', 'haskell-vector-algorithms']"
 reverse_depends = "['haskell-conduit']"
 +++
-Type classes for mapping, folding, and traversing monomorphic containers{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/mono-traversable-1.0.15.3/Data/Containers.dyn_hi
+Type classes for mapping, folding, and traversing monomorphic containers"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/mono-traversable-1.0.15.3/Data/Containers.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/mono-traversable-1.0.15.3/Data/Containers.hi
 * /usr/lib/ghc-9.8.1/site-local/mono-traversable-1.0.15.3/Data/MonoTraversable.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/mono-traversable-1.0.15.3/Data/MonoTraversable.hi

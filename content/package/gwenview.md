@@ -13,7 +13,9 @@ usize = "11662729"
 sha1sum = "b0011277f09fcce22f5c44e3722678aa84d88527"
 depends = "['baloo5>=5.115.0', 'cfitsio>=4.2.0', 'exiv2>=0.28.1', 'kactivities5>=5.115.0', 'kdelibs4support>=5.115.0', 'kimageannotator', 'kipi-plugins>=23.08.5', 'libkdcraw>=23.08.5', 'libkipi>=23.08.5']"
 +++
-KDE Image Viewer.{{< files text="show files" >}}* /usr/bin/gwenview
+KDE Image Viewer."
+
+{{< files text="show files" >}}* /usr/bin/gwenview
 * /usr/bin/gwenview_importer
 * /usr/lib/libgwenviewlib.so.4.97.0
 * /usr/lib/libgwenviewlib.so.5

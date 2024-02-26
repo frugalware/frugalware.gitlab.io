@@ -13,7 +13,9 @@ usize = "63245714"
 sha1sum = "94201b28ce13fa1bb923289908933776b4ab4d93"
 depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5', 'qt5-multimedia>=5.15.12']"
 +++
-A simple constructor game suitable for children and adults alike.{{< files text="show files" >}}* /usr/bin/ktuberling
+A simple constructor game suitable for children and adults alike."
+
+{{< files text="show files" >}}* /usr/bin/ktuberling
 * /usr/share/applications/org.kde.ktuberling.desktop
 * /usr/share/doc/HTML/ca/ktuberling/index.cache.bz2
 * /usr/share/doc/HTML/ca/ktuberling/index.docbook

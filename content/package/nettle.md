@@ -14,7 +14,9 @@ sha1sum = "6a3215e6b02e074356bd52b16e7029eb92e78469"
 depends = "['gmp>=6.1.2-12']"
 reverse_depends = "['aria2', 'chrony', 'claws-mail', 'gnutls', 'gst1-plugins-bad', 'libarchive', 'opendht', 'pacman-g2', 'qemu', 'rdfind', 'squid', 'supertuxkart', 'telepathy-salut', 'xorg-server-xwayland']"
 +++
-A low-level cryptographic library{{< files text="show files" >}}* /usr/bin/nettle-hash
+A low-level cryptographic library"
+
+{{< files text="show files" >}}* /usr/bin/nettle-hash
 * /usr/bin/nettle-lfib-stream
 * /usr/bin/nettle-pbkdf2
 * /usr/bin/pkcs1-conv

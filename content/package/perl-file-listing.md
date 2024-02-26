@@ -14,7 +14,9 @@ sha1sum = "425e33f0fbdb89469abd889e928d70a845cf295b"
 depends = "['perl>=5.34.0', 'perl-http-date']"
 reverse_depends = "['perl-libwww']"
 +++
-File::Listing - parse directory listing.{{< files text="show files" >}}* /usr/lib/perl5/site_perl/File/Listing.pm
+File::Listing - parse directory listing."
+
+{{< files text="show files" >}}* /usr/lib/perl5/site_perl/File/Listing.pm
 * /usr/share/doc/perl-file-listing-6.16/INSTALL
 * /usr/share/doc/perl-file-listing-6.16/LICENSE
 * /usr/share/doc/perl-file-listing-6.16/MANIFEST

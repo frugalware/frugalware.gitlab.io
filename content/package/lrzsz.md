@@ -13,7 +13,9 @@ usize = "231894"
 sha1sum = "ba9cd4f621a5d5a47566e9555dfb7a1befb323a9"
 depends = "['glibc']"
 +++
-A free XMODEM/YMODEM/ZMODEM implementation.{{< files text="show files" >}}* /usr/bin/lrb
+A free XMODEM/YMODEM/ZMODEM implementation."
+
+{{< files text="show files" >}}* /usr/bin/lrb
 * /usr/bin/lrx
 * /usr/bin/lrz
 * /usr/bin/lsb

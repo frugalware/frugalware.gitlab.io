@@ -14,7 +14,9 @@ sha1sum = "efd1c55c9338436db7b1a711e3660516a9dcfe5c"
 depends = "['atkmm>=2.24.2-7', 'cairomm>=1.12.0-4', 'glibmm24', 'gtk+3', 'libstdc++>=6.3.1-4', 'libxrandr']"
 reverse_depends = "['gparted', 'inkscape', 'pavucontrol']"
 +++
-C++ interface for GTK+3{{< files text="show files" >}}* /usr/include/atkmm-1.6/atkmm.h
+C++ interface for GTK+3"
+
+{{< files text="show files" >}}* /usr/include/atkmm-1.6/atkmm.h
 * /usr/include/atkmm-1.6/atkmm/action.h
 * /usr/include/atkmm-1.6/atkmm/component.h
 * /usr/include/atkmm-1.6/atkmm/document.h

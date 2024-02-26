@@ -13,5 +13,7 @@ usize = "14160"
 sha1sum = "e549158af7dfa86bc7385186e894dcebd2f35c7b"
 depends = "['gdk-pixbuf2', 'libheif']"
 +++
-libheif gdk-pixbuf-loader{{< files text="show files" >}}* /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-heif.so
+libheif gdk-pixbuf-loader"
+
+{{< files text="show files" >}}* /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-heif.so
 {{< /files >}}

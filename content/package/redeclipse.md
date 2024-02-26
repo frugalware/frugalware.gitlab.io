@@ -13,4 +13,6 @@ usize = "0"
 sha1sum = ""
 depends = "['freetype2', 'libgl', 'sdl2_image', 'sdl2_mixer']"
 +++
-A single-player and multi-player first-person ego-shooter, built as a total conversion of Cube Engine 2{{< files text="show files" >}}{{< /files >}}
+A single-player and multi-player first-person ego-shooter, built as a total conversion of Cube Engine 2"
+
+{{< files text="show files" >}}{{< /files >}}

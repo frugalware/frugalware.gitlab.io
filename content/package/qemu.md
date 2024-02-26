@@ -14,7 +14,9 @@ sha1sum = "4fbf59da633428222f55a83c27c5c07fd7ce65a0"
 depends = "['alsa-lib', 'bluez', 'curl', 'cyrus-sasl', 'jemalloc', 'libaio', 'libepoxy', 'libgbm', 'libgl', 'libglu', 'libjpeg-turbo', 'libpng>=1.6.20', 'libseccomp', 'libssh2', 'liburing', 'libx11', 'lzo', 'ncurses>=6.0-3', 'nettle>=3.6', 'nss', 'numactl', 'pixman', 'pulseaudio', 'sdl2', 'snappy', 'spice-protocol', 'usbredir>=0.8.0']"
 reverse_depends = "['libguestfs']"
 +++
-QEMU is a FAST! processor emulator{{< files text="show files" >}}* /etc/binfmt.d/qemu.conf
+QEMU is a FAST! processor emulator"
+
+{{< files text="show files" >}}* /etc/binfmt.d/qemu.conf
 * /usr/bin/elf2dmp
 * /usr/bin/qemu
 * /usr/bin/qemu-edid

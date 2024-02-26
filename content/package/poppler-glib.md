@@ -14,7 +14,9 @@ sha1sum = "048fa3b8ee8227cdd0002452ccf26523b28076a4"
 depends = "['cairo>=1.14.6-4', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libstdc++>=9.1.0-3', 'poppler>=24.02.0']"
 reverse_depends = "['claws-mail-plugin-pdf_viewer', 'gimp', 'inkscape', 'libreoffice', 'libvips', 'openscenegraph', 'pdf2svg']"
 +++
-Poppler glib bindings{{< files text="show files" >}}* /usr/include/poppler/glib/poppler-action.h
+Poppler glib bindings"
+
+{{< files text="show files" >}}* /usr/include/poppler/glib/poppler-action.h
 * /usr/include/poppler/glib/poppler-annot.h
 * /usr/include/poppler/glib/poppler-attachment.h
 * /usr/include/poppler/glib/poppler-date.h

@@ -13,7 +13,9 @@ usize = "24312111"
 sha1sum = "48fbff81a6f2259c6c0404a1874312c1effa2bdc"
 depends = "['openjre', 'perl>=5.22.0', 'python3', 'subversion=1.14.3']"
 +++
-Python,Perl and Java bindings for subversion{{< files text="show files" >}}* /usr/lib/libsvn_swig_perl-1.la
+Python,Perl and Java bindings for subversion"
+
+{{< files text="show files" >}}* /usr/lib/libsvn_swig_perl-1.la
 * /usr/lib/libsvn_swig_perl-1.so
 * /usr/lib/libsvn_swig_perl-1.so.0
 * /usr/lib/libsvn_swig_perl-1.so.0.0.0

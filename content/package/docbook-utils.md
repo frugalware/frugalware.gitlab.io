@@ -13,7 +13,9 @@ usize = "148023"
 sha1sum = "5e87984e1ca8e95a7de019aa9b6c8b077ac54231"
 depends = "['openjade>=1.3.2-6', 'perl>=5.26.1']"
 +++
-A collection of scripts used to convert and analyze SGML and DocBook files.{{< files text="show files" >}}* /usr/bin/docbook2dvi
+A collection of scripts used to convert and analyze SGML and DocBook files."
+
+{{< files text="show files" >}}* /usr/bin/docbook2dvi
 * /usr/bin/docbook2html
 * /usr/bin/docbook2man
 * /usr/bin/docbook2pdf

@@ -13,7 +13,9 @@ usize = "3609364"
 sha1sum = "d6a844ed3c43dbbb0dd7de810127c65209e50fd0"
 depends = "['kdelibs4support>=5.115.0', 'kirigami-addons', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5', 'libkeduvocdocument>=23.08.5']"
 +++
-Flash Card Trainer.{{< files text="show files" >}}* /usr/bin/kwordquiz
+Flash Card Trainer."
+
+{{< files text="show files" >}}* /usr/bin/kwordquiz
 * /usr/share/applications/org.kde.kwordquiz.desktop
 * /usr/share/config.kcfg/kwordquiz.kcfg
 * /usr/share/doc/HTML/ca/kwordquiz/index.cache.bz2

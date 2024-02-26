@@ -13,7 +13,9 @@ usize = "348882"
 sha1sum = "91d576908895eeca77096b2fc22940b84851962f"
 depends = "['bctoolbox']"
 +++
-A Real-time Transport Protocol stack.{{< files text="show files" >}}* /usr/include/ortp/b64.h
+A Real-time Transport Protocol stack."
+
+{{< files text="show files" >}}* /usr/include/ortp/b64.h
 * /usr/include/ortp/event.h
 * /usr/include/ortp/logging.h
 * /usr/include/ortp/ortp.h

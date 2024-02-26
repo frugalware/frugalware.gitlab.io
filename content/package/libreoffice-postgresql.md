@@ -13,7 +13,9 @@ usize = "941525"
 sha1sum = "a39f86a4b81effe9b5d0bd7bd0a1fb363182aa31"
 depends = "['libkrb5>=1.14.3', 'libpq', 'libreoffice>=24.2.0.3']"
 +++
-libreoffice postgresql SDBC driver{{< files text="show files" >}}* /usr/lib/libreoffice/program/libpostgresql-sdbc-impllo.so
+libreoffice postgresql SDBC driver"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/program/libpostgresql-sdbc-impllo.so
 * /usr/lib/libreoffice/program/libpostgresql-sdbclo.so
 * /usr/lib/libreoffice/program/services/postgresql-sdbc.rdb
 * /usr/lib/libreoffice/share/registry/postgresql.xcd

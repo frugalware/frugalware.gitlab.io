@@ -14,7 +14,9 @@ sha1sum = "ba28fbe92694e57e92ece4b8c643462f69b452f3"
 depends = "[]"
 license = "GPL2"
 +++
-X.Org Old Imake-related build files{{< files text="show files" >}}* /usr/lib/X11/config/Amoeba.cf
+X.Org Old Imake-related build files"
+
+{{< files text="show files" >}}* /usr/lib/X11/config/Amoeba.cf
 * /usr/lib/X11/config/apollo.cf
 * /usr/lib/X11/config/bsd.cf
 * /usr/lib/X11/config/bsdi.cf

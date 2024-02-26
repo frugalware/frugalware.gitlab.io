@@ -13,5 +13,7 @@ usize = "107256"
 sha1sum = "0143914921bcd9e08f6fe70f95de76b096deac0d"
 depends = "['claws-mail=4.1.1', 'pygobject3']"
 +++
-This plugin provides Python integration features.{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/python.so
+This plugin provides Python integration features."
+
+{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/python.so
 {{< /files >}}

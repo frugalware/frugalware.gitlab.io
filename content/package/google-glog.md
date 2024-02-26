@@ -14,7 +14,9 @@ sha1sum = "3f96cefca1a8977d60d82dd4a7d7ba73327f4c26"
 depends = "['libstdc++']"
 reverse_depends = "['ceres-solver']"
 +++
-Logging library for C++{{< files text="show files" >}}* /usr/include/glog/export.h
+Logging library for C++"
+
+{{< files text="show files" >}}* /usr/include/glog/export.h
 * /usr/include/glog/flags.h
 * /usr/include/glog/logging.h
 * /usr/include/glog/log_severity.h

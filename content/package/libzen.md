@@ -14,7 +14,9 @@ sha1sum = "103268ef943e0b031fb184a437f19facedc561ac"
 depends = "['libstdc++>=9.1.0-3']"
 reverse_depends = "['libmediainfo']"
 +++
-shared library for libmediainfo and mediainfo{{< files text="show files" >}}* /usr/include/ZenLib/BitStream.h
+shared library for libmediainfo and mediainfo"
+
+{{< files text="show files" >}}* /usr/include/ZenLib/BitStream.h
 * /usr/include/ZenLib/BitStream_Fast.h
 * /usr/include/ZenLib/BitStream_LE.h
 * /usr/include/ZenLib/Conf.h

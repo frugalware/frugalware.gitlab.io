@@ -14,7 +14,9 @@ sha1sum = "89c50bd9b2285c680b2298cec610d2cae9d56655"
 depends = "['libudev>=242', 'xorg-server>=1.20.4-3']"
 license = "GPL2"
 +++
-X.Org driver for vmmouse input devices{{< files text="show files" >}}* /usr/bin/vmmouse_detect
+X.Org driver for vmmouse input devices"
+
+{{< files text="show files" >}}* /usr/bin/vmmouse_detect
 * /usr/lib/hal/hal-probe-vmmouse
 * /usr/lib/udev/rules.d/69-xorg-vmmouse.rules
 * /usr/lib/xorg/modules/input/vmmouse_drv.so

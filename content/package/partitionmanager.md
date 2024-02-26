@@ -13,7 +13,9 @@ usize = "5684579"
 sha1sum = "d2b41b2e5b454cd276b236028868ffb311fd89cc"
 depends = "['dosfstools', 'e2fsprogs', 'f2fs-tools', 'jfsutils', 'kiconthemes>=5.115.0', 'kio>=5.115.0', 'kpmcore>=4.1.0', 'reiserfsprogs', 'xfsprogs']"
 +++
-A Kf5 utility that allows you to manage disks, partitions, and file systems.{{< files text="show files" >}}* /usr/bin/partitionmanager
+A Kf5 utility that allows you to manage disks, partitions, and file systems."
+
+{{< files text="show files" >}}* /usr/bin/partitionmanager
 * /usr/share/applications/org.kde.partitionmanager.desktop
 * /usr/share/config.kcfg/partitionmanager.kcfg
 * /usr/share/doc/HTML/ca/partitionmanager/copyhowto.docbook

@@ -13,7 +13,9 @@ usize = "41648782"
 sha1sum = "5d5e5d94d738f44be8c86246b5268bca8e90e995"
 depends = "['dbus', 'fontconfig', 'freetype2', 'harfbuzz', 'hicolor-icon-theme', 'imagemagick>=7.1.1', 'lcms2', 'libcanberra', 'libgl', 'librsync', 'libx11', 'libxi', 'libxkbcommon', 'python3>=3.12', 'python3-pygments', 'wayland']"
 +++
-A modern, hackable, featureful, OpenGL-based terminal emulator{{< files text="show files" >}}* /usr/bin/kitten
+A modern, hackable, featureful, OpenGL-based terminal emulator"
+
+{{< files text="show files" >}}* /usr/bin/kitten
 * /usr/bin/kitty
 * /usr/lib/kitty/kittens/ask/main.py
 * /usr/lib/kitty/kittens/ask/__init__.py

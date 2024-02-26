@@ -13,7 +13,9 @@ usize = "720911"
 sha1sum = "86ef291b49c9172af94287cd59524f64f14f64a0"
 depends = "['qt5-serialport>=5.15.12']"
 +++
-The Qt5 toolkit, qtserialbus{{< files text="show files" >}}* /usr/bin/canbusutil
+The Qt5 toolkit, qtserialbus"
+
+{{< files text="show files" >}}* /usr/bin/canbusutil
 * /usr/bin/canbusutil-qt5
 * /usr/include/qt5/QtSerialBus/5.15.12/QtSerialBus/private/qcanbusdeviceinfo_p.h
 * /usr/include/qt5/QtSerialBus/5.15.12/QtSerialBus/private/qcanbusdevice_p.h

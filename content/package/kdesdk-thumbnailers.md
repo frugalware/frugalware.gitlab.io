@@ -14,7 +14,9 @@ sha1sum = "0dd6adcc212de40276946b3176d739e8734add82"
 depends = "['gettext', 'kio>=5.115.0', 'qt5-svg>=5.15.12']"
 reverse_depends = "['dolphin']"
 +++
-Thumnailers Creators for KDE SDK.{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/thumbcreator/pothumbnail.so
+Thumnailers Creators for KDE SDK."
+
+{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/thumbcreator/pothumbnail.so
 * /usr/share/config.kcfg/pocreatorsettings.kcfg
 * /usr/share/locale/ar/LC_MESSAGES/pothumbnail.mo
 * /usr/share/locale/bg/LC_MESSAGES/pothumbnail.mo

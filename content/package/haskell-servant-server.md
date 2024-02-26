@@ -14,7 +14,9 @@ sha1sum = "75e60e399474ff56a49c6183c1842a6880c42462"
 depends = "['haskell-monad-control', 'haskell-servant', 'haskell-wai-app-static']"
 reverse_depends = "['pandoc-server']"
 +++
-A family of combinators for defining webservices APIs and serving them{{< files text="show files" >}}* /usr/bin/greet
+A family of combinators for defining webservices APIs and serving them"
+
+{{< files text="show files" >}}* /usr/bin/greet
 * /usr/lib/ghc-9.8.1/site-local/servant-server-0.20/libHSservant-server-0.20-4SXaIYafssjFUh1EaSjwmj.a
 * /usr/lib/ghc-9.8.1/site-local/servant-server-0.20/Servant.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/servant-server-0.20/Servant.hi

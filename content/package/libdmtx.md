@@ -14,7 +14,9 @@ sha1sum = "809f6896a703be9fcffeecd6ef17a24ca8d85c9d"
 depends = "['glibc>=2.34']"
 reverse_depends = "['prison']"
 +++
-Software for reading and writing Data Matrix 2D barcodes{{< files text="show files" >}}* /usr/include/dmtx.h
+Software for reading and writing Data Matrix 2D barcodes"
+
+{{< files text="show files" >}}* /usr/include/dmtx.h
 * /usr/lib/libdmtx.so
 * /usr/lib/libdmtx.so.0
 * /usr/lib/libdmtx.so.0.0.0

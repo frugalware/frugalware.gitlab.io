@@ -14,7 +14,9 @@ sha1sum = "e2355b1d096f5754b21bbcf905c76242a38835c2"
 depends = "['xkbcomp>=1.3.1-2']"
 reverse_depends = "['ckbcomp', 'gnome-desktop', 'libxkbcommon']"
 +++
-X.org XML-based XKB configuration registry{{< files text="show files" >}}* /usr/lib/pkgconfig/xkeyboard-config.pc
+X.org XML-based XKB configuration registry"
+
+{{< files text="show files" >}}* /usr/lib/pkgconfig/xkeyboard-config.pc
 * /usr/lib/X11/xkb
 * /usr/share/doc/xkeyboard-config-2.41/AUTHORS
 * /usr/share/doc/xkeyboard-config-2.41/ChangeLog

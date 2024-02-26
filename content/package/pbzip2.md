@@ -13,7 +13,9 @@ usize = "96187"
 sha1sum = "2a77da13123c014771b87c0f6b758988a5ad4d14"
 depends = "['bzip2', 'libstdc++']"
 +++
-PBZIP2 is a parallel implementation of the bzip2 block-sorting file compressor that uses pthreads and achieves near-linear speedup on SMP machines.{{< files text="show files" >}}* /usr/bin/pbunzip2
+PBZIP2 is a parallel implementation of the bzip2 block-sorting file compressor that uses pthreads and achieves near-linear speedup on SMP machines."
+
+{{< files text="show files" >}}* /usr/bin/pbunzip2
 * /usr/bin/pbzcat
 * /usr/bin/pbzip2
 * /usr/share/doc/pbzip2-1.1.13/AUTHORS

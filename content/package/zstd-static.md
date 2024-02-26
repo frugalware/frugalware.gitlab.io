@@ -13,5 +13,7 @@ usize = "3976230"
 sha1sum = "ddfbdb2252ba25938fa62d338743b837817725ce"
 depends = "[]"
 +++
-Static files for zstd{{< files text="show files" >}}* /usr/lib/libzstd.a
+Static files for zstd"
+
+{{< files text="show files" >}}* /usr/lib/libzstd.a
 {{< /files >}}

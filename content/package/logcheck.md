@@ -13,7 +13,9 @@ usize = "349335"
 sha1sum = "1088deebfa8362ae7a5c100bc74d781d06040b38"
 depends = "[]"
 +++
-allow a system administrator to view the logfiles under their control{{< files text="show files" >}}* /etc/logcheck/cracking.d/kernel
+allow a system administrator to view the logfiles under their control"
+
+{{< files text="show files" >}}* /etc/logcheck/cracking.d/kernel
 * /etc/logcheck/cracking.d/rlogind
 * /etc/logcheck/cracking.d/rsh
 * /etc/logcheck/cracking.d/smartd

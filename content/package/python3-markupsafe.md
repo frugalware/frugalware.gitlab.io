@@ -14,7 +14,9 @@ sha1sum = "20c0fbc1accb617225e3105556e08b78d2b37ef5"
 depends = "['python3>=3.12']"
 reverse_depends = "['gi-docgen', 'python3-jinja', 'python3-mako']"
 +++
-Implements a XML/HTML/XHTML Markup safe string for Python{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/MarkupSafe-2.1.3-py3.12.egg-info/dependency_links.txt
+Implements a XML/HTML/XHTML Markup safe string for Python"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/MarkupSafe-2.1.3-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/MarkupSafe-2.1.3-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/MarkupSafe-2.1.3-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/MarkupSafe-2.1.3-py3.12.egg-info/top_level.txt

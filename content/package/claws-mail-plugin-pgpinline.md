@@ -13,6 +13,8 @@ usize = "34688"
 sha1sum = "a1fb1109b6c649aa89025cfef23ce8c8e4c70f62"
 depends = "['claws-mail=4.1.1', 'gpgme>=1.6.0-3']"
 +++
-Handles PGP/Inline signed and/or encrypted mails.{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/pgpinline.deps
+Handles PGP/Inline signed and/or encrypted mails."
+
+{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/pgpinline.deps
 * /usr/lib/claws-mail/plugins/pgpinline.so
 {{< /files >}}

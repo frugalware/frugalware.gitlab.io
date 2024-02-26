@@ -13,7 +13,9 @@ usize = "3614081"
 sha1sum = "d97762acf6fb606197082c1e3283a8ba2cecda08"
 depends = "['python3>=3.11']"
 +++
-Python3 Sphinx Read The Docs Theme{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sphinx_rtd_theme-2.0.0-py3.12.egg-info/dependency_links.txt
+Python3 Sphinx Read The Docs Theme"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sphinx_rtd_theme-2.0.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/sphinx_rtd_theme-2.0.0-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/sphinx_rtd_theme-2.0.0-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/sphinx_rtd_theme-2.0.0-py3.12.egg-info/PKG-INFO

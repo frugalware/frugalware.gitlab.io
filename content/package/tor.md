@@ -14,7 +14,9 @@ sha1sum = "51f1143d70d530039b203f7dc32a1e377086e7b9"
 depends = "['libevent>=2.1.11', 'libseccomp', 'libsystemd', 'openssl>=3.1.0']"
 license = "GPL"
 +++
-An anonymous Internet communication system{{< files text="show files" >}}* /etc/tmpfiles.d/tor.conf
+An anonymous Internet communication system"
+
+{{< files text="show files" >}}* /etc/tmpfiles.d/tor.conf
 * /etc/tor/torrc
 * /usr/bin/tor
 * /usr/bin/tor-gencert

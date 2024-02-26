@@ -14,7 +14,9 @@ sha1sum = "78822a57b46a14977dc6e743609897d37ccd980a"
 depends = "[]"
 reverse_depends = "['lib32-flac', 'lib32-libsndfile', 'lib32-libtheora', 'lib32-libvorbis', 'lib32-speex']"
 +++
-Ogg bitstream and framing library ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/ogg/config_types.h
+Ogg bitstream and framing library ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/ogg/config_types.h
 * /usr/i686-frugalware-linux/include/ogg/ogg.h
 * /usr/i686-frugalware-linux/include/ogg/os_types.h
 * /usr/lib32/libogg.so

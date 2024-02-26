@@ -13,7 +13,9 @@ usize = "6088528"
 sha1sum = "1a171a6dc52055c5abb617bf41efa7dc3e84de00"
 depends = "['flex', 'libgcc', 'libstdc++', 'openssl>=3.1.0', 'zlib>=1.2.12']"
 +++
-A cross-platform development environment for C and C++ SOAP/XML Web services.{{< files text="show files" >}}* /usr/bin/soapcpp2
+A cross-platform development environment for C and C++ SOAP/XML Web services."
+
+{{< files text="show files" >}}* /usr/bin/soapcpp2
 * /usr/bin/wsdl2h
 * /usr/include/stdsoap2.h
 * /usr/lib/pkgconfig/gsoap++.pc

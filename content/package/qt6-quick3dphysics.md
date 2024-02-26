@@ -13,7 +13,9 @@ usize = "4547239"
 sha1sum = "b8d369450048d64570a1ee8bdde7c9db25c1cd11"
 depends = "['qt6-quick3d']"
 +++
-The Qt6 toolkit, qtquick3dphysics{{< files text="show files" >}}* /usr/include/qt6/QtQuick3DPhysics/6.6.2/QtQuick3DPhysics/private/qabstractcollisionshape_p.h
+The Qt6 toolkit, qtquick3dphysics"
+
+{{< files text="show files" >}}* /usr/include/qt6/QtQuick3DPhysics/6.6.2/QtQuick3DPhysics/private/qabstractcollisionshape_p.h
 * /usr/include/qt6/QtQuick3DPhysics/6.6.2/QtQuick3DPhysics/private/qabstractphysicsbody_p.h
 * /usr/include/qt6/QtQuick3DPhysics/6.6.2/QtQuick3DPhysics/private/qabstractphysicsnode_p.h
 * /usr/include/qt6/QtQuick3DPhysics/6.6.2/QtQuick3DPhysics/private/qabstractphysxnode_p.h

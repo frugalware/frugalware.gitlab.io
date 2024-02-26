@@ -13,7 +13,9 @@ usize = "5160219"
 sha1sum = "f3b715dea448865cdfd0973c8fce953c21b77c92"
 depends = "['minetest>=5.8.0']"
 +++
-The main game for the Minetest game engine{{< files text="show files" >}}* /usr/share/doc/minetest-game-5.8.0/README.md
+The main game for the Minetest game engine"
+
+{{< files text="show files" >}}* /usr/share/doc/minetest-game-5.8.0/README.md
 * /usr/share/minetest/games/minetest/.github/workflows/build.yml
 * /usr/share/minetest/games/minetest/.gitignore
 * /usr/share/minetest/games/minetest/.luacheckrc

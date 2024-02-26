@@ -14,7 +14,9 @@ sha1sum = "7326c8457ff667315d02e143276d66679af2b40a"
 depends = "['python3>=3.11']"
 reverse_depends = "['python3-jsonschema']"
 +++
-Persistent/Functional/Immutable data structures{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pvectorc.cpython-312-x86_64-linux-gnu.so
+Persistent/Functional/Immutable data structures"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pvectorc.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/pyrsistent-0.20.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pyrsistent-0.20.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/pyrsistent-0.20.0-py3.12.egg-info/SOURCES.txt

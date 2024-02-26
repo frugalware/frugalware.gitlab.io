@@ -14,7 +14,9 @@ sha1sum = "8b1f98ec9dfb11eb18846964876059287ba819f7"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-servant']"
 +++
-True Sums of Products{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/sop-core-0.5.0.2/Data/SOP.dyn_hi
+True Sums of Products"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/sop-core-0.5.0.2/Data/SOP.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/sop-core-0.5.0.2/Data/SOP.hi
 * /usr/lib/ghc-9.8.1/site-local/sop-core-0.5.0.2/Data/SOP/BasicFunctors.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/sop-core-0.5.0.2/Data/SOP/BasicFunctors.hi

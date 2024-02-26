@@ -14,7 +14,9 @@ sha1sum = "4966aa365ea2b914ae0c5afafebaf8641793ab79"
 depends = "['lib32-wayland', 'libdrm', 'libxcb']"
 reverse_depends = "['lib32-vulkan-mesa-layers']"
 +++
-Mesa Vulkan layers{{< files text="show files" >}}* /usr/bin/mesa-overlay-control.py
+Mesa Vulkan layers"
+
+{{< files text="show files" >}}* /usr/bin/mesa-overlay-control.py
 * /usr/lib/libVkLayer_INTEL_nullhw.so
 * /usr/lib/libVkLayer_MESA_device_select.so
 * /usr/lib/libVkLayer_MESA_overlay.so

@@ -13,7 +13,9 @@ usize = "3199951"
 sha1sum = "449e2355ae2b5220554ec2663daeec4be75ca976"
 depends = "['libstdc++>=9.1.0-3']"
 +++
-A port of the MDA VST plugins to LV2{{< files text="show files" >}}* /usr/lib/lv2/mda.lv2/Ambience.so
+A port of the MDA VST plugins to LV2"
+
+{{< files text="show files" >}}* /usr/lib/lv2/mda.lv2/Ambience.so
 * /usr/lib/lv2/mda.lv2/Ambience.ttl
 * /usr/lib/lv2/mda.lv2/Bandisto.so
 * /usr/lib/lv2/mda.lv2/Bandisto.ttl

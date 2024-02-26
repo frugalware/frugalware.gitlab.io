@@ -13,5 +13,7 @@ usize = "14304"
 sha1sum = "4682a2e4b397807cb72e37b60bf23f518acee62e"
 depends = "['kwallet5']"
 +++
-kwallet plugin for remmina{{< files text="show files" >}}* /usr/lib/remmina/plugins/remmina-plugin-kwallet.so
+kwallet plugin for remmina"
+
+{{< files text="show files" >}}* /usr/lib/remmina/plugins/remmina-plugin-kwallet.so
 {{< /files >}}

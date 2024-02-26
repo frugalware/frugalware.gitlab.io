@@ -14,7 +14,9 @@ sha1sum = "4a53cdfc443362cda47f3e9d19214d8f884f5528"
 depends = "['jasper>=2.0.10', 'libmng>=2.0.3', 'libpng>=1.6.25', 'openexr', 'sdl']"
 reverse_depends = "['graphviz', 'spring']"
 +++
-Library for reading several different image formats{{< files text="show files" >}}* /usr/include/IL/il.h
+Library for reading several different image formats"
+
+{{< files text="show files" >}}* /usr/include/IL/il.h
 * /usr/include/IL/ilu.h
 * /usr/include/IL/ilut.h
 * /usr/lib/libIL.so

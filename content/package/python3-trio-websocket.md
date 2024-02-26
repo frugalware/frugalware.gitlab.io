@@ -14,7 +14,9 @@ sha1sum = "1f8cc8f683f2999e0a85067e8d2d30fbbe8d3d00"
 depends = "['python3-trio', 'python3-wsproto']"
 reverse_depends = "['python3-selenium']"
 +++
-WebSocket library for Trio{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/trio_websocket-0.11.1.dist-info/LICENSE
+WebSocket library for Trio"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/trio_websocket-0.11.1.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/trio_websocket-0.11.1.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/trio_websocket-0.11.1.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/trio_websocket-0.11.1.dist-info/top_level.txt

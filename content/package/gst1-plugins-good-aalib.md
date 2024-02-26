@@ -13,5 +13,7 @@ usize = "34800"
 sha1sum = "351c692d7ccd7e35175a72d98ca96cbb66b7dfcd"
 depends = "['aalib>=1.4rc5-9', 'gst1-plugins-base>=1.22.10', 'gst1-plugins-good>=1.22.10', 'libffi>=3.2.1-2']"
 +++
-GStreamer aalib plugin (Good).{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstaasink.so
+GStreamer aalib plugin (Good)."
+
+{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstaasink.so
 {{< /files >}}

@@ -14,7 +14,9 @@ sha1sum = "446535507130b2ef66b0c0d60ae79aeafecd703b"
 depends = "['brotli']"
 reverse_depends = "['webkit-gtk3']"
 +++
-Web Open Font Format 2 reference implementation{{< files text="show files" >}}* /usr/include/woff2/decode.h
+Web Open Font Format 2 reference implementation"
+
+{{< files text="show files" >}}* /usr/include/woff2/decode.h
 * /usr/include/woff2/encode.h
 * /usr/include/woff2/output.h
 * /usr/lib/libwoff2common.so

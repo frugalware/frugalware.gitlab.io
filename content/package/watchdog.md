@@ -13,7 +13,9 @@ usize = "517901"
 sha1sum = "d1eae321865823ea6bd9ceeb73d7afd6e6e5302b"
 depends = "['python3>=3.10']"
 +++
-Filesystem events monitoring{{< files text="show files" >}}* /usr/bin/watchmedo
+Filesystem events monitoring"
+
+{{< files text="show files" >}}* /usr/bin/watchmedo
 * /usr/lib/python3.12/site-packages/watchdog-2.3.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/watchdog-2.3.1-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/watchdog-2.3.1-py3.12.egg-info/not-zip-safe

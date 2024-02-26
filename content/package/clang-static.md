@@ -13,7 +13,9 @@ usize = "622744464"
 sha1sum = "30c1666710ac95fd462a97053a80b56847be5918"
 depends = "[]"
 +++
-C/C++ language family frontend for LLVM (static){{< files text="show files" >}}* /usr/lib/libclangAnalysis.a
+C/C++ language family frontend for LLVM (static)"
+
+{{< files text="show files" >}}* /usr/lib/libclangAnalysis.a
 * /usr/lib/libclangAnalysisFlowSensitive.a
 * /usr/lib/libclangAnalysisFlowSensitiveModels.a
 * /usr/lib/libclangAPINotes.a

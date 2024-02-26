@@ -14,7 +14,9 @@ sha1sum = "47763cdd2a0b5d6d34b8dcc3fea3c492eec13c46"
 depends = "['scdoc', 'systemd']"
 reverse_depends = "['weston', 'wlroots']"
 +++
-A minimal seat management daemon, and a universal seat management library{{< files text="show files" >}}* /usr/bin/seatd
+A minimal seat management daemon, and a universal seat management library"
+
+{{< files text="show files" >}}* /usr/bin/seatd
 * /usr/bin/seatd-launch
 * /usr/include/libseat.h
 * /usr/lib/libseat.so

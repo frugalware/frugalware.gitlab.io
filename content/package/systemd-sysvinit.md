@@ -14,7 +14,9 @@ sha1sum = "5bfe3c5bab056f4b385026f2bc8ac87314deffa8"
 depends = "['kmod>=25-2', 'libcap>=2.25-4', 'libgcrypt>=1.8.0-2', 'lz4>=1.8.1.2-2', 'pam>=1.3.0-4', 'systemd=255.3']"
 reverse_depends = "['systemd']"
 +++
-systemd System V init tools{{< files text="show files" >}}* /usr/bin/halt
+systemd System V init tools"
+
+{{< files text="show files" >}}* /usr/bin/halt
 * /usr/bin/init
 * /usr/bin/poweroff
 * /usr/bin/reboot

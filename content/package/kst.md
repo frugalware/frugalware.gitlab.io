@@ -13,7 +13,9 @@ usize = "47960342"
 sha1sum = "ebf2d420f47f5794d5372b49569f8ed6993034a6"
 depends = "['cfitsio>=4.2.0', 'gsl>=2.7-1', 'libtiff', 'qt5-svg>=5.15.0']"
 +++
-Fast real-time large-dataset viewing and plotting tool for KDE{{< files text="show files" >}}* /usr/bin/kst2
+Fast real-time large-dataset viewing and plotting tool for KDE"
+
+{{< files text="show files" >}}* /usr/bin/kst2
 * /usr/lib/kst2/plugins/libkst2_dataobject_activitylevel.so
 * /usr/lib/kst2/plugins/libkst2_dataobject_bin.so
 * /usr/lib/kst2/plugins/libkst2_dataobject_chop.so

@@ -14,7 +14,9 @@ sha1sum = "2a046f04ad1625aeaafbbca66aecf4f15867d88d"
 depends = "['cyrus-sasl>=2.1.26-5', 'openssl>=3.0.7']"
 reverse_depends = "['apr-util', 'audit', 'claws-mail', 'courier-authlib', 'dirmngr-ldap', 'dovecot', 'kldap', 'libsmbclient', 'lighttpd', 'openldap', 'openvas-libraries', 'postfix', 'proftpd', 'samba', 'seahorse', 'sylpheed', 'uwsgi-plugin-ldap', 'wine', 'wine-devel']"
 +++
-OpenLDAP library.{{< files text="show files" >}}* /etc/openldap/ldap.conf
+OpenLDAP library."
+
+{{< files text="show files" >}}* /etc/openldap/ldap.conf
 * /etc/openldap/ldap.conf.default
 * /usr/include/lber.h
 * /usr/include/lber_types.h

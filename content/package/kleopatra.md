@@ -13,7 +13,9 @@ usize = "15261541"
 sha1sum = "a13eba9ba73363289d4838c782a28c3ce640c7a5"
 depends = "['kcmutils>=5.115.0', 'kitemmodels>=5.115.0', 'kmime>=5.115.0', 'libkleo>=23.08.5']"
 +++
-Certificate manager and GUI for OpenPGP and CMS cryptography.{{< files text="show files" >}}* /usr/bin/kleopatra
+Certificate manager and GUI for OpenPGP and CMS cryptography."
+
+{{< files text="show files" >}}* /usr/bin/kleopatra
 * /usr/bin/kwatchgnupg
 * /usr/lib/libkleopatraclientcore.so
 * /usr/lib/libkleopatraclientcore.so.1

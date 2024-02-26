@@ -14,7 +14,9 @@ sha1sum = "87a6372425b03f57a6d462a45f439dd0b4b7538e"
 depends = "['openjre=21.0.3-4']"
 reverse_depends = "['flutter', 'maven', 'openjdk-source', 'testng']"
 +++
-Open-source Java Development Kit implementation.{{< files text="show files" >}}* /usr/lib/jvm/java-21-openjdk/bin/jar
+Open-source Java Development Kit implementation."
+
+{{< files text="show files" >}}* /usr/lib/jvm/java-21-openjdk/bin/jar
 * /usr/lib/jvm/java-21-openjdk/bin/jar.debuginfo
 * /usr/lib/jvm/java-21-openjdk/bin/jarsigner
 * /usr/lib/jvm/java-21-openjdk/bin/jarsigner.debuginfo

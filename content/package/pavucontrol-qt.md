@@ -14,7 +14,9 @@ sha1sum = "98ff4559cf6f53d2cd978e4388760c05b51a2ecb"
 depends = "['libpulse', 'pcre2', 'pulseaudio', 'qt5-base>=5.15.10']"
 reverse_depends = "['lumina-desktop']"
 +++
-A Pulseaudio mixer in Qt5.{{< files text="show files" >}}* /usr/bin/pavucontrol-qt
+A Pulseaudio mixer in Qt5."
+
+{{< files text="show files" >}}* /usr/bin/pavucontrol-qt
 * /usr/share/applications/pavucontrol-qt.desktop
 * /usr/share/doc/pavucontrol-qt-1.3.0/AUTHORS
 * /usr/share/doc/pavucontrol-qt-1.3.0/CHANGELOG

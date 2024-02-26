@@ -13,5 +13,7 @@ usize = "26608"
 sha1sum = "998948009008143c3dc5574a9c6c1a861b426ad6"
 depends = "['claws-mail=4.1.1']"
 +++
-This plugin lets you remove attachments from emails.{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/att_remover.so
+This plugin lets you remove attachments from emails."
+
+{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/att_remover.so
 {{< /files >}}

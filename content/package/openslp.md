@@ -14,7 +14,9 @@ sha1sum = "86d92fc2a0286fb69ae93e6cec97c6a3a8aa6519"
 depends = "['glibc>=2.29-6', 'openssl>=3.1.0']"
 reverse_depends = "['kio-extras', 'open-isns']"
 +++
-Service Location Protocol.{{< files text="show files" >}}* /etc/slp.conf
+Service Location Protocol."
+
+{{< files text="show files" >}}* /etc/slp.conf
 * /etc/slp.reg
 * /etc/slp.spi
 * /usr/bin/slpd

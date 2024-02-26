@@ -14,7 +14,9 @@ sha1sum = "06aaebc8cddbd51c8912a479ad8ce73b476ee078"
 depends = "['ocaml>=5.1.1']"
 reverse_depends = "['lwt']"
 +++
-An OCaml module for functional reactive programming{{< files text="show files" >}}* /usr/lib/ocaml/react/META
+An OCaml module for functional reactive programming"
+
+{{< files text="show files" >}}* /usr/lib/ocaml/react/META
 * /usr/lib/ocaml/react/opam
 * /usr/lib/ocaml/react/react.cma
 * /usr/lib/ocaml/react/react.cmi

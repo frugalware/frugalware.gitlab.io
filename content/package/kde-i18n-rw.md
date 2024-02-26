@@ -13,7 +13,9 @@ usize = "2559218"
 sha1sum = "86825313259d85f33269c6be918c211830435ad2"
 depends = "[]"
 +++
-Kinyarwanda Localization for KDE.{{< files text="show files" >}}* usr/share/locale/rw/charset
+Kinyarwanda Localization for KDE."
+
+{{< files text="show files" >}}* usr/share/locale/rw/charset
 * usr/share/locale/rw/entry.desktop
 * usr/share/locale/rw/LC_MESSAGES/akregator.mo
 * usr/share/locale/rw/LC_MESSAGES/akregator_konqplugin.mo

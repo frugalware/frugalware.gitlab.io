@@ -13,7 +13,9 @@ usize = "593284"
 sha1sum = "ae05b889b6f38aeb7dc7a86654350125b4695368"
 depends = "['glibc']"
 +++
-Scripts and setting files useful during development of KDE software{{< files text="show files" >}}* /usr/bin/adddebug
+Scripts and setting files useful during development of KDE software"
+
+{{< files text="show files" >}}* /usr/bin/adddebug
 * /usr/bin/build-progress.sh
 * /usr/bin/c++-copy-class-and-file
 * /usr/bin/c++-rename-class-and-file

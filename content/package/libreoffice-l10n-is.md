@@ -13,7 +13,9 @@ usize = "32730163"
 sha1sum = "c261a684fe9dc33d509d933adcc9ecbd3958c036"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Icelandic support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/is/default.css
+Installs Icelandic support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/help/is/default.css
 * /usr/lib/libreoffice/help/is/err.html
 * /usr/lib/libreoffice/help/is/highcontrast1.css
 * /usr/lib/libreoffice/help/is/highcontrast2.css

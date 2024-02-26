@@ -15,7 +15,9 @@ depends = "['glibc>=2.34']"
 reverse_depends = "['x11-protos', 'xorg-sgml-doctools']"
 license = "GPL2"
 +++
-X.Org autotools utility macros{{< files text="show files" >}}* /usr/lib/pkgconfig/xorg-macros.pc
+X.Org autotools utility macros"
+
+{{< files text="show files" >}}* /usr/lib/pkgconfig/xorg-macros.pc
 * /usr/share/aclocal/xorg-macros.m4
 * /usr/share/doc/util-macros-1.20.0/ChangeLog
 * /usr/share/doc/util-macros-1.20.0/COPYING

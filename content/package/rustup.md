@@ -13,7 +13,9 @@ usize = "7270483"
 sha1sum = "8dd7227a724ad322e6908d8486d9321b8c9d69d4"
 depends = "['curl']"
 +++
-The Rust toolchain installer{{< files text="show files" >}}* /usr/bin/cargo
+The Rust toolchain installer"
+
+{{< files text="show files" >}}* /usr/bin/cargo
 * /usr/bin/cargo-clippy
 * /usr/bin/cargo-fmt
 * /usr/bin/clippy-driver

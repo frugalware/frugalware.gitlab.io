@@ -13,7 +13,9 @@ usize = "2721508"
 sha1sum = "b5bfd57ae95b8382159c1c9a2c1c2f4253f3d874"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Occitan support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/oc/LC_MESSAGES/acc.mo
+Installs Occitan support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/oc/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/oc/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/oc/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/oc/LC_MESSAGES/chart.mo

@@ -14,7 +14,9 @@ sha1sum = "d775a1337d3d2e8075e404292b45c2015a7e73ae"
 depends = "['dbus>=1.12.14-2', 'glib2>=2.60.0', 'libffi>=3.2.1-2']"
 reverse_depends = "['anyremote', 'claws-mail', 'cpod', 'dbus-python', 'firefox', 'freetuxtv', 'gconf', 'hexchat', 'libappindicator', 'libgnome-keyring', 'libpurple', 'networkmanager', 'notification-daemon', 'oxygen-gtk', 'sylpheed', 'telepathy-glib', 'telepathy-idle', 'telepathy-logger', 'telepathy-qt5', 'thunderbird', 'upower', 'usbguard']"
 +++
-Glib bindings for DBUS{{< files text="show files" >}}* /etc/bash_completion.d/dbus-bash-completion.sh
+Glib bindings for DBUS"
+
+{{< files text="show files" >}}* /etc/bash_completion.d/dbus-bash-completion.sh
 * /usr/bin/dbus-binding-tool
 * /usr/include/dbus-1.0/dbus/dbus-glib-bindings.h
 * /usr/include/dbus-1.0/dbus/dbus-glib-lowlevel.h

@@ -14,7 +14,9 @@ sha1sum = "6339080208db3b2e8ece41cbcb85fa3a549fe74c"
 depends = "['libpulse>=9.0-2']"
 reverse_depends = "['sdl2_mixer', 'sdl_mixer']"
 +++
-A module sound player and library{{< files text="show files" >}}* /usr/bin/libmikmod-config
+A module sound player and library"
+
+{{< files text="show files" >}}* /usr/bin/libmikmod-config
 * /usr/include/mikmod.h
 * /usr/lib/libmikmod.so
 * /usr/lib/libmikmod.so.3

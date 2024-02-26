@@ -14,7 +14,9 @@ sha1sum = "b8bd3cb23b62af069f23c6194da4466aa50b345f"
 depends = "['colord-gtk', 'gtk+3']"
 reverse_depends = "['darktable']"
 +++
-GTK+3 integration for libcolord{{< files text="show files" >}}* /usr/bin/cd-convert
+GTK+3 integration for libcolord"
+
+{{< files text="show files" >}}* /usr/bin/cd-convert
 * /usr/lib/libcolord-gtk.so
 * /usr/lib/libcolord-gtk.so.1
 * /usr/lib/libcolord-gtk.so.1.0.3

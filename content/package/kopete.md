@@ -13,7 +13,9 @@ usize = "35398794"
 sha1sum = "a503cd5d547e5e3a43207426be57700ea4a86312"
 depends = "['jsoncpp', 'kcmutils>=5.115.0', 'kconfig>=5.115.0', 'kcontacts>=5.115.0', 'kcoreaddons>=5.115.0', 'kcrash>=5.115.0', 'kdbusaddons>=5.115.0', 'kdelibs4support>=5.115.0', 'kdnssd>=5.115.0', 'kemoticons>=5.115.0', 'khtml>=5.115.0', 'ki18n>=5.115.0', 'kidentitymanagement>=23.08.5', 'knotifyconfig>=5.115.0', 'kparts>=5.115.0', 'ktexteditor>=5.115.0', 'kwallet5>=5.115.0', 'libgadu', 'libidn>=1.35', 'libkleo>=23.08.5', 'libotr', 'libsrtp', 'qca']"
 +++
-Kopete is a multi-protocol instant messenger for the KDE Desktop.{{< files text="show files" >}}* /etc/xdg/kopeterc
+Kopete is a multi-protocol instant messenger for the KDE Desktop."
+
+{{< files text="show files" >}}* /etc/xdg/kopeterc
 * /usr/bin/kopete
 * /usr/bin/winpopup-install
 * /usr/bin/winpopup-send

@@ -13,7 +13,9 @@ usize = "0"
 sha1sum = "9c3a661d2196706526f956a88b57f9059f377eeb"
 depends = "[]"
 +++
-Hebrew Localization for KOffice. {{< files text="show files" >}}* usr/share/locale/he/LC_MESSAGES/desktop_koffice.mo
+Hebrew Localization for KOffice. "
+
+{{< files text="show files" >}}* usr/share/locale/he/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/he/LC_MESSAGES/example.mo
 * usr/share/locale/he/LC_MESSAGES/karbon.mo
 * usr/share/locale/he/LC_MESSAGES/kchart.mo

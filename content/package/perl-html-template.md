@@ -14,7 +14,9 @@ sha1sum = "1cb951e8b5e2f2b6fdf550d010566c00a3375608"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['munin']"
 +++
-Perl module to use HTML Templates from CGI scripts{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/HTML/Template.pm
+Perl module to use HTML Templates from CGI scripts"
+
+{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/HTML/Template.pm
 * /usr/lib/perl5/site_perl/current/HTML/Template/FAQ.pm
 * /usr/share/doc/perl-html-template-2.97/LICENSE
 * /usr/share/doc/perl-html-template-2.97/MANIFEST

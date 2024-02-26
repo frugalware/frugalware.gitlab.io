@@ -13,7 +13,9 @@ usize = "340594"
 sha1sum = "7e53a42a713a4c2c0e4bf28f944d47a2291021e0"
 depends = "[]"
 +++
-Thirdparty libraries for xml-commons{{< files text="show files" >}}* /usr/share/doc/xml-commons-external-1.4.01/LICENSE
+Thirdparty libraries for xml-commons"
+
+{{< files text="show files" >}}* /usr/share/doc/xml-commons-external-1.4.01/LICENSE
 * /usr/share/doc/xml-commons-external-1.4.01/README.dom.txt
 * /usr/share/doc/xml-commons-external-1.4.01/README.sax.txt
 * /usr/share/java/xml-apis-ext.jar

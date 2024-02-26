@@ -14,7 +14,9 @@ sha1sum = "271b076f2e851e1f190f69d03d85ddb418ac4cc9"
 depends = "['bzip2>=1.0.6-16', 'glibc>=2.34']"
 reverse_depends = "['libreoffice', 'poedit', 'sim', 'solarus-zsdx', 'solarus-zsxd']"
 +++
-Info-ZIP's zip utility{{< files text="show files" >}}* /usr/bin/zip
+Info-ZIP's zip utility"
+
+{{< files text="show files" >}}* /usr/bin/zip
 * /usr/bin/zipcloak
 * /usr/bin/zipnote
 * /usr/bin/zipsplit

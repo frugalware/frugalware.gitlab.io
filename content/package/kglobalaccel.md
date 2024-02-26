@@ -14,7 +14,9 @@ sha1sum = "8f1d0f8bf82fe199197cd11d390e25522884bd46"
 depends = "['kservice>=5.115.0']"
 reverse_depends = "['kxmlgui']"
 +++
-Global desktop keyboard shortcuts.{{< files text="show files" >}}* /usr/bin/kglobalaccel5
+Global desktop keyboard shortcuts."
+
+{{< files text="show files" >}}* /usr/bin/kglobalaccel5
 * /usr/include/KF5/KGlobalAccel/KGlobalAccel
 * /usr/include/KF5/KGlobalAccel/kglobalaccel.h
 * /usr/include/KF5/KGlobalAccel/kglobalaccel_export.h

@@ -13,7 +13,9 @@ usize = "612863"
 sha1sum = "82b8d45bcc057354c44dbf046a3922b90d03cbf4"
 depends = "[]"
 +++
-koctave is a KDE GUI for octave{{< files text="show files" >}}* usr/bin/koctave
+koctave is a KDE GUI for octave"
+
+{{< files text="show files" >}}* usr/bin/koctave
 * usr/share/applnk/Applications/koctave.desktop
 * usr/share/applnk/share/apps/koctave/editorui.rc
 * usr/share/applnk/share/apps/koctave/koctaveui.rc

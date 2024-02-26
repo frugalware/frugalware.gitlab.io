@@ -14,7 +14,9 @@ sha1sum = "dfca8fee538c8d30015a6e38d5152fb4a06c23f7"
 depends = "['glib2>=2.60.3', 'popt']"
 reverse_depends = "['distcc-gui', 'firefox', 'get_steam', 'keepass', 'libreoffice', 'love', 'plasma-workspace', 'qtav', 'seahorse', 'xterm']"
 +++
-Utilities for manipulating desktop files{{< files text="show files" >}}* /usr/bin/desktop-file-edit
+Utilities for manipulating desktop files"
+
+{{< files text="show files" >}}* /usr/bin/desktop-file-edit
 * /usr/bin/desktop-file-install
 * /usr/bin/desktop-file-validate
 * /usr/bin/update-desktop-database

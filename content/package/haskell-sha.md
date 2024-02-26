@@ -14,7 +14,9 @@ sha1sum = "a95f4c63653d451f543dea492df11fa3d7e259d7"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['pandoc']"
 +++
-Implementations of the SHA suite of message digest functions{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/SHA-1.6.4.4/Data/Digest/Pure/SHA.dyn_hi
+Implementations of the SHA suite of message digest functions"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/SHA-1.6.4.4/Data/Digest/Pure/SHA.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/SHA-1.6.4.4/Data/Digest/Pure/SHA.hi
 * /usr/lib/ghc-9.8.1/site-local/SHA-1.6.4.4/libHSSHA-1.6.4.4-3MbMAFYw7BD1KsE0vMz1jR.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSSHA-1.6.4.4-3MbMAFYw7BD1KsE0vMz1jR-ghc9.8.1.so

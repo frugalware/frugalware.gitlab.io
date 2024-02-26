@@ -13,7 +13,9 @@ usize = "1386634"
 sha1sum = "fc50ddfae7d0eea36bc8d2f1a00ceea84ddc783d"
 depends = "[]"
 +++
-Azerbaijani Localization for KDE.{{< files text="show files" >}}* usr/share/locale/az/charset
+Azerbaijani Localization for KDE."
+
+{{< files text="show files" >}}* usr/share/locale/az/charset
 * usr/share/locale/az/entry.desktop
 * usr/share/locale/az/flag.png
 * usr/share/locale/az/LC_MESSAGES/alsaplayerui.mo

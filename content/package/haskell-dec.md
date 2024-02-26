@@ -14,7 +14,9 @@ sha1sum = "9d7a2dd5c6d27b4571721b03178e39b81996f9c0"
 depends = "['haskell-boring']"
 reverse_depends = "['haskell-singleton-bool']"
 +++
-Decidable propositions{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/dec-0.0.5/Data/Type/Dec.dyn_hi
+Decidable propositions"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/dec-0.0.5/Data/Type/Dec.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/dec-0.0.5/Data/Type/Dec.hi
 * /usr/lib/ghc-9.8.1/site-local/dec-0.0.5/libHSdec-0.0.5-GE16vgSek1vI2tJocfBhG7.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSdec-0.0.5-GE16vgSek1vI2tJocfBhG7-ghc9.8.1.so

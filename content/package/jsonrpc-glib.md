@@ -13,7 +13,9 @@ usize = "270627"
 sha1sum = "bc367e61b9b4d887fa8c70a364acfe076e9f7f37"
 depends = "['json-glib>=1.4.2-4']"
 +++
-JSON-RPC library for GLib{{< files text="show files" >}}* /usr/include/jsonrpc-glib-1.0/jsonrpc-client.h
+JSON-RPC library for GLib"
+
+{{< files text="show files" >}}* /usr/include/jsonrpc-glib-1.0/jsonrpc-client.h
 * /usr/include/jsonrpc-glib-1.0/jsonrpc-glib.h
 * /usr/include/jsonrpc-glib-1.0/jsonrpc-input-stream-private.h
 * /usr/include/jsonrpc-glib-1.0/jsonrpc-input-stream.h

@@ -13,7 +13,9 @@ usize = "1376661"
 sha1sum = "f6627f82a9e4cf75dccc982f7515faae6ff05a0e"
 depends = "['glibc']"
 +++
-A command-line benchmarking tool{{< files text="show files" >}}* /usr/bin/hyperfine
+A command-line benchmarking tool"
+
+{{< files text="show files" >}}* /usr/bin/hyperfine
 * /usr/share/bash-completion/completions/hyperfine
 * /usr/share/doc/hyperfine-1.18.0/README.md
 * /usr/share/fish/vendor_completions.d/hyperfine.fish

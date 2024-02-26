@@ -13,7 +13,9 @@ usize = "2757727"
 sha1sum = "52d3ad6d899ac91d33cca5eade178f3fc8d46f56"
 depends = "['libsoup>=2.56.0', 'nice>=0.1.13-3', 'telepathy-glib>=0.24.1-8']"
 +++
-Telepathy is a D-Bus framework for unifying real time communication.{{< files text="show files" >}}* /usr/bin/telepathy-gabble-xmpp-console
+Telepathy is a D-Bus framework for unifying real time communication."
+
+{{< files text="show files" >}}* /usr/bin/telepathy-gabble-xmpp-console
 * /usr/include/telepathy-gabble-0/gabble/capabilities-set.h
 * /usr/include/telepathy-gabble-0/gabble/capabilities.h
 * /usr/include/telepathy-gabble-0/gabble/caps-channel-manager.h

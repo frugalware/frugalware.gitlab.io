@@ -14,7 +14,9 @@ sha1sum = "dab2ad84b025228defe886a26f199afb420d682c"
 depends = "['haskell-data-default-class']"
 reverse_depends = "['haskell-iproute', 'haskell-wai-logger']"
 +++
-Exposes the native endianness or byte ordering of the system.{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/byteorder-1.0.4/libHSbyteorder-1.0.4-AhK6kw4GYA0AezjVzS8o7A.a
+Exposes the native endianness or byte ordering of the system."
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/byteorder-1.0.4/libHSbyteorder-1.0.4-AhK6kw4GYA0AezjVzS8o7A.a
 * /usr/lib/ghc-9.8.1/site-local/byteorder-1.0.4/System/ByteOrder.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/byteorder-1.0.4/System/ByteOrder.hi
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSbyteorder-1.0.4-AhK6kw4GYA0AezjVzS8o7A-ghc9.8.1.so

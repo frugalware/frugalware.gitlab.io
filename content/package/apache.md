@@ -14,7 +14,9 @@ sha1sum = "fbafa942db6170f9f4d159b88fc996368b0fe75b"
 depends = "['apr-util>=1.6.0-2', 'curl', 'expat', 'gdbm>=1.10', 'jansson', 'libxml2', 'lua53', 'nghttp2', 'openssl>=3.1.0', 'pcre']"
 reverse_depends = "['mod_evasive', 'mod_security', 'mod_svn', 'mod_wsgi', 'phpbb-php5mod', 'postfixadmin']"
 +++
-A high performance Unix-based HTTP server (with SSL){{< files text="show files" >}}* /etc/httpd/conf/extra/httpd-autoindex.conf
+A high performance Unix-based HTTP server (with SSL)"
+
+{{< files text="show files" >}}* /etc/httpd/conf/extra/httpd-autoindex.conf
 * /etc/httpd/conf/extra/httpd-dav.conf
 * /etc/httpd/conf/extra/httpd-default.conf
 * /etc/httpd/conf/extra/httpd-info.conf

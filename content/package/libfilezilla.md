@@ -13,7 +13,9 @@ usize = "288280"
 sha1sum = "810d851d5ea9ebf0c0cfe9a9a34486676b8d7b9d"
 depends = "['libstdc++>=7.3.0-7']"
 +++
-Small and modern C++ library, offering some basic functionality to build high-performing, platform-independent programs{{< files text="show files" >}}* /usr/include/libfilezilla/apply.hpp
+Small and modern C++ library, offering some basic functionality to build high-performing, platform-independent programs"
+
+{{< files text="show files" >}}* /usr/include/libfilezilla/apply.hpp
 * /usr/include/libfilezilla/buffer.hpp
 * /usr/include/libfilezilla/encode.hpp
 * /usr/include/libfilezilla/event.hpp

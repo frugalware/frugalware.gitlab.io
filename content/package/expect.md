@@ -14,7 +14,9 @@ sha1sum = "15ea4c9b99a5db8aa03e9f93167c7a6074c63528"
 depends = "['glibc>=2.34', 'tcl>=8.6.6-3']"
 reverse_depends = "['courier-authlib']"
 +++
-Expect interpreter{{< files text="show files" >}}* /usr/bin/autoexpect
+Expect interpreter"
+
+{{< files text="show files" >}}* /usr/bin/autoexpect
 * /usr/bin/autopasswd
 * /usr/bin/cryptdir
 * /usr/bin/decryptdir

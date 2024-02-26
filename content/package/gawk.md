@@ -14,7 +14,9 @@ sha1sum = "f08614e7b47ed43ef89bf8b2f8441e5b9ccd8287"
 depends = "['mpfr>=4.0.2-3', 'ncurses>=6.1', 'readline>=8.0-3']"
 reverse_depends = "['autoconf', 'autoconf213', 'backupninja', 'go', 'inxi', 'parted', 'prettyping', 'quilt', 'texinfo']"
 +++
-Gnu version of awk{{< files text="show files" >}}* /etc/profile.d/gawk.csh
+Gnu version of awk"
+
+{{< files text="show files" >}}* /etc/profile.d/gawk.csh
 * /etc/profile.d/gawk.sh
 * /usr/bin/awk
 * /usr/bin/gawk

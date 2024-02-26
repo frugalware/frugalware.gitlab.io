@@ -13,7 +13,9 @@ usize = "11508474"
 sha1sum = "9235892c927ddba48b5e51547b7f19d4717e73db"
 depends = "[]"
 +++
-Slovenian Localization for KDE.{{< files text="show files" >}}* usr/share/apps/katepart/syntax/logohighlightstyle.sl.xml
+Slovenian Localization for KDE."
+
+{{< files text="show files" >}}* usr/share/apps/katepart/syntax/logohighlightstyle.sl.xml
 * usr/share/apps/khangman/data/sl/animals.kvtml
 * usr/share/apps/khangman/data/sl/easy.kvtml
 * usr/share/apps/khangman/data/sl/hard.kvtml

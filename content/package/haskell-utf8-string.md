@@ -14,7 +14,9 @@ sha1sum = "8a6ce4b4118b5097f7348d46b9ed26a109974128"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-http-media', 'haskell-skylighting-core', 'haskell-string-conversions']"
 +++
-Support for reading and writing UTF8 Strings{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/utf8-string-1.0.2/Codec/Binary/UTF8/Generic.dyn_hi
+Support for reading and writing UTF8 Strings"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/utf8-string-1.0.2/Codec/Binary/UTF8/Generic.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/utf8-string-1.0.2/Codec/Binary/UTF8/Generic.hi
 * /usr/lib/ghc-9.8.1/site-local/utf8-string-1.0.2/Codec/Binary/UTF8/String.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/utf8-string-1.0.2/Codec/Binary/UTF8/String.hi

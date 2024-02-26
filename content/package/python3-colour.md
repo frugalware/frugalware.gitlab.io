@@ -14,7 +14,9 @@ sha1sum = "c9fbb44c97cad256ce09e1cb2c53f2a3f0942b6c"
 depends = "['python3>=3.12']"
 reverse_depends = "['polychromatic']"
 +++
-Colour representations manipulation library (RGB, HSL, web, ...){{< files text="show files" >}}* /usr/lib/python3.12/site-packages/colour-0.1.5-py3.12.egg-info/dependency_links.txt
+Colour representations manipulation library (RGB, HSL, web, ...)"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/colour-0.1.5-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/colour-0.1.5-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/colour-0.1.5-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/colour-0.1.5-py3.12.egg-info/requires.txt

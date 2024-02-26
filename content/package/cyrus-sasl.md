@@ -14,7 +14,9 @@ sha1sum = "e4ae7c3ff25e3ae03e7d1cc78ea49144f56892a1"
 depends = "['e2fsprogs>=1.42.13-4', 'gdbm>=1.15', 'libkrb5>=1.17-2', 'openssl>=3.1.0']"
 reverse_depends = "['apr-util', 'cyrus-sasl-gssapiv2', 'cyrus-sasl-sql', 'gtk-vnc', 'kimap', 'kimap2', 'ksmtp', 'kvm', 'libetpan', 'libkgapi', 'libldap', 'libpurple', 'libvirt', 'mutt-devel', 'postfix', 'qca', 'qca-cyrus-sasl', 'qemu', 'saslauthd', 'spice', 'telepathy-salut', 'znc']"
 +++
-SASL Authentication mechanism{{< files text="show files" >}}* /usr/bin/pluginviewer
+SASL Authentication mechanism"
+
+{{< files text="show files" >}}* /usr/bin/pluginviewer
 * /usr/bin/sasldblistusers2
 * /usr/bin/saslpasswd2
 * /usr/include/sasl/hmac-md5.h

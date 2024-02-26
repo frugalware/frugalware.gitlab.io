@@ -13,7 +13,9 @@ usize = "123931"
 sha1sum = "3f5c8ff77714a8db0b081b3e3248235f7e9cfa9d"
 depends = "['glibc>=2.27-2']"
 +++
-A Glibc plugin to allow hostname lookups via mDNS{{< files text="show files" >}}* /etc/mdns.allow
+A Glibc plugin to allow hostname lookups via mDNS"
+
+{{< files text="show files" >}}* /etc/mdns.allow
 * /usr/lib/libnss_mdns.so.2
 * /usr/lib/libnss_mdns4.so.2
 * /usr/lib/libnss_mdns4_minimal.so.2

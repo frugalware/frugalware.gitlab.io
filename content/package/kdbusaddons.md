@@ -14,7 +14,9 @@ sha1sum = "ccef1093c2ebb6e4d9f6e580cad622a9f2e27d34"
 depends = "['qt5-x11extras>=5.15.12']"
 reverse_depends = "['akonadi-mime', 'calamares-frugalware', 'dolphin', 'kaccounts-integration', 'kdebugsettings', 'keysmith', 'kmousetool', 'kongress', 'kopete', 'kservice', 'plasma-browser-integration', 'plasma-sdk', 'polkit-kde-agent-1', 'tokodon']"
 +++
-Convenience classes for QtDBus.{{< files text="show files" >}}* /usr/bin/kquitapp5
+Convenience classes for QtDBus."
+
+{{< files text="show files" >}}* /usr/bin/kquitapp5
 * /usr/include/KF5/KDBusAddons/kdbusaddons_export.h
 * /usr/include/KF5/KDBusAddons/kdbusaddons_version.h
 * /usr/include/KF5/KDBusAddons/KDBusConnectionPool

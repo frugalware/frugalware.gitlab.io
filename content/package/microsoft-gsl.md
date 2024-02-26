@@ -13,7 +13,9 @@ usize = "123302"
 sha1sum = "56be8297d5aa8b6df7f59edf8f3b16ef296c4b7e"
 depends = "['glibc']"
 +++
-C++ Core Guidelines Support Library{{< files text="show files" >}}* /usr/include/gsl/algorithm
+C++ Core Guidelines Support Library"
+
+{{< files text="show files" >}}* /usr/include/gsl/algorithm
 * /usr/include/gsl/assert
 * /usr/include/gsl/byte
 * /usr/include/gsl/gsl

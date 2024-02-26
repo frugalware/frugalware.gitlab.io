@@ -13,7 +13,9 @@ usize = "36490707"
 sha1sum = "76b4ec8953bc129c6de55e83a4d0926912eeb6b8"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Spanish support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/es/default.css
+Installs Spanish support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/help/es/default.css
 * /usr/lib/libreoffice/help/es/err.html
 * /usr/lib/libreoffice/help/es/highcontrast1.css
 * /usr/lib/libreoffice/help/es/highcontrast2.css

@@ -13,7 +13,9 @@ usize = "1009800"
 sha1sum = "b3ecff3df1498d0ef11cc87702c57fd56d90749f"
 depends = "['gtkmm3', 'json-glib', 'libcanberra-gtk', 'pulseaudio>=8.0']"
 +++
-PulseAudio Volume Control{{< files text="show files" >}}* /usr/bin/pavucontrol
+PulseAudio Volume Control"
+
+{{< files text="show files" >}}* /usr/bin/pavucontrol
 * /usr/share/applications/pavucontrol.desktop
 * /usr/share/doc/pavucontrol-5.0/LICENSE
 * /usr/share/doc/pavucontrol-5.0/README

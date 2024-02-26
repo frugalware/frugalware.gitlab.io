@@ -14,7 +14,9 @@ sha1sum = "6293b3537abe45c33d5d853fa36c46cfb6c4c3c2"
 depends = "['python3>=3.11']"
 reverse_depends = "['python3-twisted']"
 +++
-Symbolic constants in Python{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/constantly-15.1.0-py3.12.egg-info/dependency_links.txt
+Symbolic constants in Python"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/constantly-15.1.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/constantly-15.1.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/constantly-15.1.0-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/constantly-15.1.0-py3.12.egg-info/top_level.txt

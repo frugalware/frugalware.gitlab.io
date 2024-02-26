@@ -13,7 +13,9 @@ usize = "5568455"
 sha1sum = "2b16eb6491cc51dd6eca89aa21b46216be01ef41"
 depends = "['ghostscript', 'libpng>=1.4.3', 'netpbm', 'perl', 'texlive']"
 +++
-A converter written in Perl that converts LaTeX documents to HTML.{{< files text="show files" >}}* /usr/bin/latex2html
+A converter written in Perl that converts LaTeX documents to HTML."
+
+{{< files text="show files" >}}* /usr/bin/latex2html
 * /usr/bin/pstoimg
 * /usr/bin/texexpand
 * /usr/lib/latex2html/cfgcache.pm

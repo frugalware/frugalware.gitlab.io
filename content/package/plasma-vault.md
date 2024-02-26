@@ -13,7 +13,9 @@ usize = "1395476"
 sha1sum = "1ca91503a09f9f965377c71b7f96bc0c76d5ad76"
 depends = "['cryfs', 'encfs', 'libksysguard5>=5.27.10', 'networkmanager-qt>=5.115.0', 'plasma-framework>=5.115.0']"
 +++
-Plasma applet and services for creating encrypted vaults{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/kded/plasmavault.so
+Plasma applet and services for creating encrypted vaults"
+
+{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/kded/plasmavault.so
 * /usr/lib/qt5/plugins/kf5/kfileitemaction/plasmavaultfileitemaction.so
 * /usr/lib/qt5/plugins/plasma/applets/plasma_applet_vault.so
 * /usr/share/kservices5/plasma-applet-org.kde.plasma.vault.desktop

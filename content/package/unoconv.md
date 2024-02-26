@@ -13,7 +13,9 @@ usize = "119570"
 sha1sum = "bfc0095283836d86f4a40c6a030fdec1d8b91d53"
 depends = "['libreoffice', 'python3']"
 +++
-Automated conversion and styling using LibreOffice{{< files text="show files" >}}* /usr/bin/unoconv
+Automated conversion and styling using LibreOffice"
+
+{{< files text="show files" >}}* /usr/bin/unoconv
 * /usr/lib/python3.12/site-packages/unoconv-0.9.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/unoconv-0.9.0-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/unoconv-0.9.0-py3.12.egg-info/PKG-INFO

@@ -13,7 +13,9 @@ usize = "445032"
 sha1sum = "d40902814cdf8c34d093c751b244f1da85befc56"
 depends = "['imlib2', 'libxcomposite', 'libxdamage']"
 +++
-A fullscreen task manager for KDE{{< files text="show files" >}}* usr/bin/kompose
+A fullscreen task manager for KDE"
+
+{{< files text="show files" >}}* usr/bin/kompose
 * usr/share/applnk/Utilities/kompose.desktop
 * usr/share/apps/kompose/komposeui.rc
 * usr/share/doc/HTML/en/kompose/common

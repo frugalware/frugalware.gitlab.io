@@ -14,7 +14,9 @@ sha1sum = "5317c7b715bbae54d632a701fc0779124517ff92"
 depends = "['glibc>=2.34']"
 reverse_depends = "['speech-dispatcher']"
 +++
-dot.conf - A ConfigurationFile Parser Library.{{< files text="show files" >}}* /usr/include/dotconf.h
+dot.conf - A ConfigurationFile Parser Library."
+
+{{< files text="show files" >}}* /usr/include/dotconf.h
 * /usr/lib/libdotconf.so
 * /usr/lib/libdotconf.so.0
 * /usr/lib/libdotconf.so.0.0.1

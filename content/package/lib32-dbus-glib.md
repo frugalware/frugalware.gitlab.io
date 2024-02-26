@@ -14,7 +14,9 @@ sha1sum = "b5e3429dc15869dfa3e3ea474872a3918af1bb28"
 depends = "['lib32-expat', 'lib32-glib2', 'lib32-libdbus']"
 reverse_depends = "['lib32-gconf', 'lib32-networkmanager', 'steam-native']"
 +++
-Glib bindings for DBUS ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/dbus-binding-tool
+Glib bindings for DBUS ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/dbus-binding-tool
 * /usr/i686-frugalware-linux/dbus-glib/dbus-bash-completion-helper
 * /usr/i686-frugalware-linux/include/dbus-1.0/dbus/dbus-glib-bindings.h
 * /usr/i686-frugalware-linux/include/dbus-1.0/dbus/dbus-glib-lowlevel.h

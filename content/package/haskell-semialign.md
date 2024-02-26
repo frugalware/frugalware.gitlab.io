@@ -14,7 +14,9 @@ sha1sum = "6d584470511d7a8e15c10cdb0f42ad822fec237b"
 depends = "['haskell-indexed-traversable-instances', 'haskell-semigroupoids', 'haskell-these']"
 reverse_depends = "['haskell-aeson']"
 +++
-Align and Zip type-classes from the common Semialign ancestor.{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/semialign-1.3/Data/Align.dyn_hi
+Align and Zip type-classes from the common Semialign ancestor."
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/semialign-1.3/Data/Align.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/semialign-1.3/Data/Align.hi
 * /usr/lib/ghc-9.8.1/site-local/semialign-1.3/Data/Crosswalk.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/semialign-1.3/Data/Crosswalk.hi

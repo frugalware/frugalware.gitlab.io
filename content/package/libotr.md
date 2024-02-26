@@ -14,7 +14,9 @@ sha1sum = "91b56e49bd23d3c14e180a514f41454aad80a62c"
 depends = "['libgcrypt>=1.7.3-2']"
 reverse_depends = "['bitlbee-otr', 'irssi-otr', 'kopete', 'mcabber', 'pidgin-otr', 'thunderbird']"
 +++
-Off-the-Record (OTR) Messaging Library.{{< files text="show files" >}}* /usr/bin/otr_mackey
+Off-the-Record (OTR) Messaging Library."
+
+{{< files text="show files" >}}* /usr/bin/otr_mackey
 * /usr/bin/otr_modify
 * /usr/bin/otr_parse
 * /usr/bin/otr_readforge

@@ -14,7 +14,9 @@ sha1sum = "b8892ece5fc31d3230828d1d0f1fbcd52648a745"
 depends = "['pcre2']"
 reverse_depends = "['dracut', 'inxi', 'keychain', 'pacman-g2', 'pulse-autoconf', 'redis', 'scriptlet-core', 'texinfo']"
 +++
-Print lines matching a pattern{{< files text="show files" >}}* /usr/bin/egrep
+Print lines matching a pattern"
+
+{{< files text="show files" >}}* /usr/bin/egrep
 * /usr/bin/fgrep
 * /usr/bin/grep
 * /usr/share/doc/grep-3.11/AUTHORS

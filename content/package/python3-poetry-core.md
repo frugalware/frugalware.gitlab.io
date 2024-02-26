@@ -14,7 +14,9 @@ sha1sum = "a43b587b084317c340cb60af62de399e72f324a6"
 depends = "['python3-jsonschema', 'python3-lark-parser', 'python3-packaging']"
 reverse_depends = "['python3-poetry']"
 +++
-Poetry PEP 517 Build Backend & Core Utilities{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/poetry/core/constraints/generic/any_constraint.py
+Poetry PEP 517 Build Backend & Core Utilities"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/poetry/core/constraints/generic/any_constraint.py
 * /usr/lib/python3.12/site-packages/poetry/core/constraints/generic/base_constraint.py
 * /usr/lib/python3.12/site-packages/poetry/core/constraints/generic/constraint.py
 * /usr/lib/python3.12/site-packages/poetry/core/constraints/generic/empty_constraint.py

@@ -13,7 +13,9 @@ usize = "314910"
 sha1sum = "42f2f75ae4b4143f9a340068116c981df753c3a8"
 depends = "['glibc>=2.34']"
 +++
-This is a variant of the flex fast lexical scanner.{{< files text="show files" >}}* /usr/bin/reflex
+This is a variant of the flex fast lexical scanner."
+
+{{< files text="show files" >}}* /usr/bin/reflex
 * /usr/bin/reflex++
 * /usr/include/reFlexLexer.h
 * /usr/lib/librefl.a

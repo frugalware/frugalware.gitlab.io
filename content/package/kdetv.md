@@ -13,7 +13,9 @@ usize = "0"
 sha1sum = "32d46fcfd207d978896830f269c99e99fbb2eb1a"
 depends = "['libxv', 'libxxf86dga']"
 +++
-Allows you to watch television on your GNU/Linux box running KDE.{{< files text="show files" >}}* usr/bin/kdetv
+Allows you to watch television on your GNU/Linux box running KDE."
+
+{{< files text="show files" >}}* usr/bin/kdetv
 * usr/bin/kdetvv4lsetup
 * usr/lib/kde3/kdetv_alsa.la
 * usr/lib/kde3/kdetv_alsa.so

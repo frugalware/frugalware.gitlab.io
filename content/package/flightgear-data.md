@@ -14,4 +14,6 @@ sha1sum = ""
 depends = "[]"
 reverse_depends = "['flightgear']"
 +++
-Textures, models, data, aircraft, sample scenery, and configs files for FlightGear{{< files text="show files" >}}{{< /files >}}
+Textures, models, data, aircraft, sample scenery, and configs files for FlightGear"
+
+{{< files text="show files" >}}{{< /files >}}

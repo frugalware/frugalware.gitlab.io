@@ -13,5 +13,7 @@ usize = "7434354"
 sha1sum = "51d48864403949d315a93035358031af24dae978"
 depends = "['glibc']"
 +++
-Language specific files for tesseract lang srp{{< files text="show files" >}}* /usr/share/tessdata/srp.traineddata
+Language specific files for tesseract lang srp"
+
+{{< files text="show files" >}}* /usr/share/tessdata/srp.traineddata
 {{< /files >}}

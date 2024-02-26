@@ -13,7 +13,9 @@ usize = "0"
 sha1sum = "777322c7e4026178fc3194b4b85fccc85903b940"
 depends = "['lame', 'sox']"
 +++
-RealPlayer(R) recorder and Live Radio Station database{{< files text="show files" >}}* usr/bin/realrekord
+RealPlayer(R) recorder and Live Radio Station database"
+
+{{< files text="show files" >}}* usr/bin/realrekord
 * usr/lib/realrekord/libvsound.la
 * usr/lib/realrekord/libvsound.so
 * usr/share/applnk/Utilities/realrekord.desktop

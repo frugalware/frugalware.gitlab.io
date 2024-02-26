@@ -13,7 +13,9 @@ usize = "1192171"
 sha1sum = "10379ee49f26c55f8644fa0e9b6c8832b79a21f8"
 depends = "['pam', 'zlib>=1.2.12']"
 +++
-A small alternative to SSH{{< files text="show files" >}}* /etc/sysconfig/dropbear
+A small alternative to SSH"
+
+{{< files text="show files" >}}* /etc/sysconfig/dropbear
 * /usr/bin/dbclient
 * /usr/bin/dbscp
 * /usr/bin/dropbear

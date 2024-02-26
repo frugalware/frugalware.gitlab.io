@@ -13,7 +13,9 @@ usize = "210013"
 sha1sum = "525b79a93946a8017988d0a6c849c1c63c66d7a0"
 depends = "['ki18n>=5.115.0', 'kio>=5.115.0']"
 +++
-KIO-Slaves.{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/kio/perldoc.so
+KIO-Slaves."
+
+{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/kio/perldoc.so
 * /usr/share/doc/kdesdk-kio-23.08.5/COPYING
 * /usr/share/kio_perldoc/pod2html.pl
 * /usr/share/locale/bs/LC_MESSAGES/kio5_perldoc.mo

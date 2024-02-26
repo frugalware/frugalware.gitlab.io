@@ -14,7 +14,9 @@ sha1sum = "587b2ce7fb2bad9f8fb38ca9595a240d93ca90e5"
 depends = "['libparserutils']"
 reverse_depends = "['libdom']"
 +++
-A library for parsing HTML5, written in C.{{< files text="show files" >}}* /usr/include/hubbub/errors.h
+A library for parsing HTML5, written in C."
+
+{{< files text="show files" >}}* /usr/include/hubbub/errors.h
 * /usr/include/hubbub/functypes.h
 * /usr/include/hubbub/hubbub.h
 * /usr/include/hubbub/parser.h

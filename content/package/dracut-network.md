@@ -13,7 +13,9 @@ usize = "117599"
 sha1sum = "ba32dfdf9b81a51c174041f1ebe8f24c6bbecf38"
 depends = "['bridge-utils', 'dhclient', 'dracut=059', 'iproute2', 'iputils', 'iscsi', 'nfs-utils']"
 +++
-Dracut modules to build a dracut initramfs with network support{{< files text="show files" >}}* /usr/lib/dracut/modules.d/40network/dhcp-root.sh
+Dracut modules to build a dracut initramfs with network support"
+
+{{< files text="show files" >}}* /usr/lib/dracut/modules.d/40network/dhcp-root.sh
 * /usr/lib/dracut/modules.d/40network/ifname-genrules.sh
 * /usr/lib/dracut/modules.d/40network/module-setup.sh
 * /usr/lib/dracut/modules.d/40network/net-lib.sh

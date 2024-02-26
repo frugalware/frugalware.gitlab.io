@@ -14,7 +14,9 @@ sha1sum = "8208600e1c4aa8f14f04eee381cb216ee771d7a0"
 depends = "['haskell-regex-base>=0.93.2-18']"
 reverse_depends = "['haskell-regex-compat']"
 +++
-Haskell posix regex backend library{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/regex-posix-0.96.0.1/libHSregex-posix-0.96.0.1-3FADnIv8yQx9ywEZDMfDxq.a
+Haskell posix regex backend library"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/regex-posix-0.96.0.1/libHSregex-posix-0.96.0.1-3FADnIv8yQx9ywEZDMfDxq.a
 * /usr/lib/ghc-9.8.1/site-local/regex-posix-0.96.0.1/Paths_regex_posix.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/regex-posix-0.96.0.1/Paths_regex_posix.hi
 * /usr/lib/ghc-9.8.1/site-local/regex-posix-0.96.0.1/Text/Regex/Posix.dyn_hi

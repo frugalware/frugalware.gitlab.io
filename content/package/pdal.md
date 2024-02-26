@@ -14,7 +14,9 @@ sha1sum = "4e9fdad5663d5a6907d70331a8f4f7b6c038595e"
 depends = "['hexer>=1.4.0-5', 'laszip', 'libgeotiff', 'libunwind', 'openscenegraph', 'zstd']"
 reverse_depends = "['pdal-postgresql', 'vtk']"
 +++
-A C++ library for translating and manipulating point cloud data{{< files text="show files" >}}* /usr/bin/pdal
+A C++ library for translating and manipulating point cloud data"
+
+{{< files text="show files" >}}* /usr/bin/pdal
 * /usr/bin/pdal-config
 * /usr/include/pdal/Artifact.hpp
 * /usr/include/pdal/ArtifactManager.hpp

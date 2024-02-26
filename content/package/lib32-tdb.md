@@ -14,7 +14,9 @@ sha1sum = "8299151b046f03c30231666b5c524ce812a78911"
 depends = "['glibc']"
 reverse_depends = "['lib32-libpulse']"
 +++
-A Trivial Database ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/tdbbackup
+A Trivial Database ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/tdbbackup
 * /usr/i686-frugalware-linux/bin/tdbdump
 * /usr/i686-frugalware-linux/bin/tdbrestore
 * /usr/i686-frugalware-linux/bin/tdbtool

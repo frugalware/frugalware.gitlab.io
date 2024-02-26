@@ -14,7 +14,9 @@ sha1sum = "ed8f365b7b24e5691be725f8f9540705a36fd445"
 depends = "['qt5-quickcontrols2>=5.15.12']"
 reverse_depends = "['arianna', 'plasma-workspace']"
 +++
-A QtQuick plugin providing high-performance charts{{< files text="show files" >}}* /usr/lib/cmake/KF5QuickCharts/KF5QuickChartsConfig.cmake
+A QtQuick plugin providing high-performance charts"
+
+{{< files text="show files" >}}* /usr/lib/cmake/KF5QuickCharts/KF5QuickChartsConfig.cmake
 * /usr/lib/cmake/KF5QuickCharts/KF5QuickChartsConfigVersion.cmake
 * /usr/share/doc/kquickcharts-5.115.0/README.md
 * /usr/share/qlogging-categories5/kquickcharts.categories

@@ -13,7 +13,9 @@ usize = "268341"
 sha1sum = "c6e7d4531f604386320571c0cf05f32acdae4a67"
 depends = "['kcrash>=5.115.0', 'kdbusaddons>=5.115.0', 'kiconthemes>=5.115.0']"
 +++
-Daemon providing a polkit authentication UI for KDE{{< files text="show files" >}}* /etc/xdg/autostart/polkit-kde-authentication-agent-1.desktop
+Daemon providing a polkit authentication UI for KDE"
+
+{{< files text="show files" >}}* /etc/xdg/autostart/polkit-kde-authentication-agent-1.desktop
 * /usr/lib/kf5/polkit-kde-authentication-agent-1
 * /usr/lib/systemd/user/plasma-polkit-agent.service
 * /usr/share/applications/org.kde.polkit-kde-authentication-agent-1.desktop

@@ -13,7 +13,9 @@ usize = "11185201"
 sha1sum = "991c64bce1f758e0f76a9c06cd8d632c1f470338"
 depends = "['kparts>=5.115.0', 'libboost>=1.83.0', 'python3>=3.12', 'qt5-svg>=5.15.12', 'qt5-xmlpatterns>=5.15.12']"
 +++
-Interactive Geometry.{{< files text="show files" >}}* /usr/bin/kig
+Interactive Geometry."
+
+{{< files text="show files" >}}* /usr/bin/kig
 * /usr/bin/pykig.py
 * /usr/lib/qt5/plugins/kf5/parts/kigpart.so
 * /usr/share/applications/org.kde.kig.desktop

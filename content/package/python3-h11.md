@@ -14,7 +14,9 @@ sha1sum = "b6d3d7bdbce839e992c6fccff02fafbe7018ce0b"
 depends = "['python3']"
 reverse_depends = "['python3-wsproto']"
 +++
-A pure-Python, bring-your-own-I/O implementation of HTTP/1.1{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/h11-0.14.0-py3.12.egg-info/dependency_links.txt
+A pure-Python, bring-your-own-I/O implementation of HTTP/1.1"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/h11-0.14.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/h11-0.14.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/h11-0.14.0-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/h11-0.14.0-py3.12.egg-info/SOURCES.txt

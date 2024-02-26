@@ -14,7 +14,9 @@ sha1sum = "26c23a66c8923a776f0656bf1db9a8ba70b54155"
 depends = "['python3>=3.11']"
 reverse_depends = "['rdflib', 'streamlink']"
 +++
-An ISO 8601 date/time/duration parser and formater{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/isodate-0.6.1-py3.12.egg-info/dependency_links.txt
+An ISO 8601 date/time/duration parser and formater"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/isodate-0.6.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/isodate-0.6.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/isodate-0.6.1-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/isodate-0.6.1-py3.12.egg-info/SOURCES.txt

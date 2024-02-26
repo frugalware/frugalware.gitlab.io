@@ -13,6 +13,8 @@ usize = "226"
 sha1sum = "536cb7514e4e33fe62b52f0de37aafd74c3389f2"
 depends = "['wireplumber']"
 +++
-Pipewire alsa config{{< files text="show files" >}}* /usr/share/alsa/alsa.conf.d/99-pipewire-default.conf
+Pipewire alsa config"
+
+{{< files text="show files" >}}* /usr/share/alsa/alsa.conf.d/99-pipewire-default.conf
 * /usr/share/pipewire/media-session.d/with-alsa
 {{< /files >}}

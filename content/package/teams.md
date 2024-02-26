@@ -13,4 +13,6 @@ usize = "0"
 sha1sum = ""
 depends = "['alsa-lib', 'gtk+3', 'libsecret', 'libxscrnsaver', 'libxtst', 'nss']"
 +++
-Microsoft Teams for Linux is your chat-centered workspace in Office 365{{< files text="show files" >}}{{< /files >}}
+Microsoft Teams for Linux is your chat-centered workspace in Office 365"
+
+{{< files text="show files" >}}{{< /files >}}

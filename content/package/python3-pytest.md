@@ -13,7 +13,9 @@ usize = "3932134"
 sha1sum = "0dd8095ee58caed2544da0240dbfb44863ce24ea"
 depends = "['python3-iniconfig', 'python3-packaging', 'python3-pluggy']"
 +++
-Simple powerful testing with Python{{< files text="show files" >}}* /usr/bin/py.test
+Simple powerful testing with Python"
+
+{{< files text="show files" >}}* /usr/bin/py.test
 * /usr/bin/pytest
 * /usr/lib/python3.12/site-packages/py.py
 * /usr/lib/python3.12/site-packages/pytest-7.4.3.dist-info/entry_points.txt

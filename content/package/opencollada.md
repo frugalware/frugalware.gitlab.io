@@ -14,7 +14,9 @@ sha1sum = "b1a2d1ab936b1ce7a78fa3605e0157be5b3c09d3"
 depends = "['libxml2', 'pcre', 'xz']"
 reverse_depends = "['blender']"
 +++
-Collada 3D import and export libraries{{< files text="show files" >}}* /usr/include/opencollada/COLLADABaseUtils/COLLADABU.h
+Collada 3D import and export libraries"
+
+{{< files text="show files" >}}* /usr/include/opencollada/COLLADABaseUtils/COLLADABU.h
 * /usr/include/opencollada/COLLADABaseUtils/COLLADABUException.h
 * /usr/include/opencollada/COLLADABaseUtils/COLLADABUHashFunctions.h
 * /usr/include/opencollada/COLLADABaseUtils/COLLADABUhash_map.h

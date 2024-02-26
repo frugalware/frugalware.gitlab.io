@@ -14,7 +14,9 @@ sha1sum = "3acd390cd89f4b8b3b01f11525abfda241e1ec33"
 depends = "['cuda', 'libjpeg6-turbo', 'openucx']"
 reverse_depends = "['opencv-cuda']"
 +++
-NVIDIA GPU programming toolkit extra tools: nvvp, nsight{{< files text="show files" >}}* /opt/cuda/bin/nvvp
+NVIDIA GPU programming toolkit extra tools: nvvp, nsight"
+
+{{< files text="show files" >}}* /opt/cuda/bin/nvvp
 * /opt/cuda/libnvvp/.eclipseproduct
 * /opt/cuda/libnvvp/artifacts.xml
 * /opt/cuda/libnvvp/configuration/config.ini

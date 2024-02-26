@@ -13,7 +13,9 @@ usize = "731348305"
 sha1sum = "bee2624012b30bb90a48af5326da8fe09fe3da26"
 depends = "['ghc']"
 +++
-GHC HTML documentation..{{< files text="show files" >}}* /usr/share/doc/ghc-9.8.1/archives/Haddock.html.tar.xz
+GHC HTML documentation.."
+
+{{< files text="show files" >}}* /usr/share/doc/ghc-9.8.1/archives/Haddock.html.tar.xz
 * /usr/share/doc/ghc-9.8.1/archives/libraries.html.tar.xz
 * /usr/share/doc/ghc-9.8.1/archives/users_guide.html.tar.xz
 * /usr/share/doc/ghc-9.8.1/html/Haddock/.buildinfo

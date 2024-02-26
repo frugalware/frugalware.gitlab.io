@@ -13,7 +13,9 @@ usize = "4793497"
 sha1sum = "274bccb79e8df2c1c71daa581b71adda66c896dc"
 depends = "['libstdc++']"
 +++
-An open-source (C++ generating) VHDL simulator.{{< files text="show files" >}}* /usr/bin/freehdl-config
+An open-source (C++ generating) VHDL simulator."
+
+{{< files text="show files" >}}* /usr/bin/freehdl-config
 * /usr/bin/freehdl-gennodes
 * /usr/bin/freehdl-v2cc
 * /usr/bin/gvhdl

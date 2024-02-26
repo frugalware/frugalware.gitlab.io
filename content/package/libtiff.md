@@ -14,7 +14,9 @@ sha1sum = "59e0cdad62ed82faf2c4fae3a904f4d9a9f90fab"
 depends = "['libstdc++>=11.2', 'xz>=5.2.2-5', 'zlib>=1.2.12']"
 reverse_depends = "['argyllcms', 'blender', 'djvulibre', 'efl', 'emacs', 'fontforge', 'fox', 'fox-1.2', 'freeimage', 'freeorion', 'gd', 'gdk-pixbuf2', 'gegl', 'ghostscript', 'imagemagick', 'imlib2', 'insight-toolkit', 'kst', 'lcms', 'lcms2', 'leptonica', 'libcamera-tools', 'libgdiplus', 'libgeotiff', 'libpano13', 'libwebp', 'netpbm', 'ninja', 'opencv', 'openjpeg', 'openscenegraph', 'openslide', 'podofo', 'podofo-0.9', 'proj', 'python3-pillow', 'qt5-imageformats', 'r', 'sane-backends', 'sdl2_image', 'vigra']"
 +++
-Library for manipulation of TIFF images{{< files text="show files" >}}* /usr/bin/fax2ps
+Library for manipulation of TIFF images"
+
+{{< files text="show files" >}}* /usr/bin/fax2ps
 * /usr/bin/fax2tiff
 * /usr/bin/pal2rgb
 * /usr/bin/ppm2tiff

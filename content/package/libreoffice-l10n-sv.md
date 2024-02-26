@@ -13,7 +13,9 @@ usize = "34821106"
 sha1sum = "2f4733fcf932a574013441bf476dbd6bf181b5b4"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Swedish support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/sv/default.css
+Installs Swedish support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/help/sv/default.css
 * /usr/lib/libreoffice/help/sv/err.html
 * /usr/lib/libreoffice/help/sv/highcontrast1.css
 * /usr/lib/libreoffice/help/sv/highcontrast2.css

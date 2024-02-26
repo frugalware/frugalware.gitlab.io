@@ -14,7 +14,9 @@ sha1sum = "8655a2b086deb570a3ae3e78bc85eecb94d936bc"
 depends = "['curl', 'gobject-introspection>=1.50.0', 'libstemmer', 'libxmlb', 'libyaml']"
 reverse_depends = "['appstream-qt', 'flatpak', 'libadwaita']"
 +++
-Provides a standard for creating app stores across distributions{{< files text="show files" >}}* /usr/bin/appstreamcli
+Provides a standard for creating app stores across distributions"
+
+{{< files text="show files" >}}* /usr/bin/appstreamcli
 * /usr/include/appstream/appstream.h
 * /usr/include/appstream/as-agreement-section.h
 * /usr/include/appstream/as-agreement.h

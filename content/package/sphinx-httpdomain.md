@@ -13,7 +13,9 @@ usize = "145174"
 sha1sum = "6022d67bbd4dbd9b88a00830496e6fb571ce21c1"
 depends = "['python3-sphinx']"
 +++
-Sphinx domain for describing RESTful HTTP APIs{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sphinxcontrib/autohttp/bottle.py
+Sphinx domain for describing RESTful HTTP APIs"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sphinxcontrib/autohttp/bottle.py
 * /usr/lib/python3.12/site-packages/sphinxcontrib/autohttp/common.py
 * /usr/lib/python3.12/site-packages/sphinxcontrib/autohttp/flask.py
 * /usr/lib/python3.12/site-packages/sphinxcontrib/autohttp/flaskqref.py

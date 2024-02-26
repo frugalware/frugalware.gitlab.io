@@ -14,7 +14,9 @@ sha1sum = "d9e5397780ed04acd19b449ad6754ead9c0faf65"
 depends = "['cups-filters', 'foomatic-db', 'foomatic-db-engine', 'ghostscript', 'libcups>=2.1.2-2', 'libjpeg-turbo', 'libusb1>=1.0.20-4', 'net-snmp>=5.9']"
 reverse_depends = "['hplip']"
 +++
-HPLIP printing, scanning, and scanning driver for HP inkjet and laser based printers.{{< files text="show files" >}}* /etc/hp/hplip.conf
+HPLIP printing, scanning, and scanning driver for HP inkjet and laser based printers."
+
+{{< files text="show files" >}}* /etc/hp/hplip.conf
 * /etc/udev/rules.d/56-hpmud.rules
 * /usr/bin/hp-makeuri
 * /usr/lib/cups/backend/hp

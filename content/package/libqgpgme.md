@@ -14,7 +14,9 @@ sha1sum = "dc3e39eec80573ee78f54421b943ee5829bc5002"
 depends = "['gpgme>=1.23.2', 'qt5-base>=5.13.1']"
 reverse_depends = "['kget', 'libkleo']"
 +++
-Qt5 bindings for gpgme{{< files text="show files" >}}* /usr/lib/libqgpgme.so
+Qt5 bindings for gpgme"
+
+{{< files text="show files" >}}* /usr/lib/libqgpgme.so
 * /usr/lib/libqgpgme.so.15
 * /usr/lib/libqgpgme.so.15.5.1
 {{< /files >}}

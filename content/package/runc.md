@@ -14,6 +14,8 @@ sha1sum = "62bd2c5a14f275bcd1c293705c4b8b14bacc20fe"
 depends = "['libseccomp']"
 reverse_depends = "['containerd', 'docker']"
 +++
-CLI tool for spawning and running containers according to the OCI specification.{{< files text="show files" >}}* /usr/bin/docker-runc
+CLI tool for spawning and running containers according to the OCI specification."
+
+{{< files text="show files" >}}* /usr/bin/docker-runc
 * /usr/bin/runc
 {{< /files >}}

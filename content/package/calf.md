@@ -13,7 +13,9 @@ usize = "20860738"
 sha1sum = "0ea785b41c38628f1ca05289b6fc1d2fa7a17dad"
 depends = "['dssi', 'fftw', 'fluidsynth>=2.2.5', 'gtk+2-libs']"
 +++
-LV2/DSSI/LADSPA plug-in suite and standalone Jack host{{< files text="show files" >}}* /usr/lib/calf/calf.so
+LV2/DSSI/LADSPA plug-in suite and standalone Jack host"
+
+{{< files text="show files" >}}* /usr/lib/calf/calf.so
 * /usr/lib/lv2/calf.lv2/Analyzer.ttl
 * /usr/lib/lv2/calf.lv2/BassEnhancer.ttl
 * /usr/lib/lv2/calf.lv2/calf.so

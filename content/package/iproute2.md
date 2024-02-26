@@ -14,7 +14,9 @@ sha1sum = "f33b322971ff6547f6a5692320aa2179b31e64ee"
 depends = "['db>=18.1.25', 'iptables>=1.6.1-4']"
 reverse_depends = "['dhclient', 'dhcp', 'docker', 'dracut-network', 'inxi', 'iputils', 'libvirt', 'networkmanager', 'openvpn', 'pptp', 'strongswan', 'virtualbox', 'vpnc']"
 +++
-kernel routing and traffic control utilities.{{< files text="show files" >}}* /usr/bin/arpd
+kernel routing and traffic control utilities."
+
+{{< files text="show files" >}}* /usr/bin/arpd
 * /usr/bin/bridge
 * /usr/bin/ctstat
 * /usr/bin/dcb

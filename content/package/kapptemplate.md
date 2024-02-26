@@ -13,7 +13,9 @@ usize = "968930"
 sha1sum = "46e9862eb3d4c66e7faece8c4ef7ded3317bbabb"
 depends = "['kio>=5.115.0', 'plasma-framework', 'qt5-svg>=5.15.12']"
 +++
-KDE Template Generator.{{< files text="show files" >}}* /usr/bin/kapptemplate
+KDE Template Generator."
+
+{{< files text="show files" >}}* /usr/bin/kapptemplate
 * /usr/share/applications/org.kde.kapptemplate.desktop
 * /usr/share/config.kcfg/kapptemplate.kcfg
 * /usr/share/doc/HTML/ca/kapptemplate/index.cache.bz2

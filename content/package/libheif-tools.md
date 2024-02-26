@@ -13,7 +13,9 @@ usize = "177840"
 sha1sum = "0f2b3763c46137c8ab80572edcf205a6e0e8ae0e"
 depends = "['libheif']"
 +++
-libheif tools{{< files text="show files" >}}* /usr/bin/heif-convert
+libheif tools"
+
+{{< files text="show files" >}}* /usr/bin/heif-convert
 * /usr/bin/heif-enc
 * /usr/bin/heif-info
 * /usr/bin/heif-thumbnailer

@@ -13,7 +13,9 @@ usize = "849416"
 sha1sum = "eb89427bd76cdba0dd48b1c35930ca2ba47c1d67"
 depends = "['ncurses>=6.1-2']"
 +++
-a full featured menu-driven serial communications package{{< files text="show files" >}}* /etc/profile.d/minicom.sh
+a full featured menu-driven serial communications package"
+
+{{< files text="show files" >}}* /etc/profile.d/minicom.sh
 * /usr/bin/ascii-xfr
 * /usr/bin/minicom
 * /usr/bin/runscript

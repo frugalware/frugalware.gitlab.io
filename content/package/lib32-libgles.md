@@ -13,7 +13,9 @@ usize = "746680"
 sha1sum = "fcd72be298af735b2b06e92f569001b7e1d355e2"
 depends = "['glibc>=2.24-4', 'lib32-libglapi']"
 +++
-Mesa OpenGL ES1/ES2 libraries. (32-bit){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/GLES/egl.h
+Mesa OpenGL ES1/ES2 libraries. (32-bit)"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/GLES/egl.h
 * /usr/i686-frugalware-linux/include/GLES/gl.h
 * /usr/i686-frugalware-linux/include/GLES/glext.h
 * /usr/i686-frugalware-linux/include/GLES/glplatform.h

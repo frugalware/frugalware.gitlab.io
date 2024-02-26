@@ -13,7 +13,9 @@ usize = "419316"
 sha1sum = "5307cf25d63af5fe34a52b00ce3829617ba9789d"
 depends = "['curl', 'imlib2', 'libexif', 'libpng>=1.6.20', 'libxinerama']"
 +++
-A useful simple image viewer.{{< files text="show files" >}}* /usr/bin/feh
+A useful simple image viewer."
+
+{{< files text="show files" >}}* /usr/bin/feh
 * /usr/share/applications/feh.desktop
 * /usr/share/doc/feh-3.9.1/AUTHORS
 * /usr/share/doc/feh-3.9.1/ChangeLog

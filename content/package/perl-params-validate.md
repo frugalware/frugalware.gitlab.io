@@ -14,7 +14,9 @@ sha1sum = "ae62f165e5d7359cf8e60da61f6da270f1accd8b"
 depends = "['perl>=5.34.0', 'perl-module-implementation']"
 reverse_depends = "['perl-datetime', 'perl-datetime-locale', 'perl-datetime-timezone']"
 +++
-Validate sub params against a spec{{< files text="show files" >}}* /usr/lib/perl5/5.36/site_perl/auto/Params/Validate/XS/XS.bs
+Validate sub params against a spec"
+
+{{< files text="show files" >}}* /usr/lib/perl5/5.36/site_perl/auto/Params/Validate/XS/XS.bs
 * /usr/lib/perl5/5.36/site_perl/auto/Params/Validate/XS/XS.so
 * /usr/lib/perl5/5.36/site_perl/Params/Validate.pm
 * /usr/lib/perl5/5.36/site_perl/Params/Validate/Constants.pm

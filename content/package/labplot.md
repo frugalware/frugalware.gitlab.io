@@ -13,7 +13,9 @@ usize = "36070719"
 sha1sum = "d80cb7e9d1883bc36e5341df9e6a3836566eaf91"
 depends = "['cantor', 'cfitsio>=4.2.0', 'discount', 'fftw', 'gsl', 'hdf5', 'qt5-serialport', 'readstat']"
 +++
-Application for interactive graphing and analysis of scientific data.{{< files text="show files" >}}* /usr/bin/labplot2
+Application for interactive graphing and analysis of scientific data."
+
+{{< files text="show files" >}}* /usr/bin/labplot2
 * /usr/share/applications/org.kde.labplot2.desktop
 * /usr/share/doc/HTML/ca/labplot2/index.cache.bz2
 * /usr/share/doc/HTML/ca/labplot2/index.docbook

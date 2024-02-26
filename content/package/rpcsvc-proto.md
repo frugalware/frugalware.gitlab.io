@@ -13,7 +13,9 @@ usize = "238480"
 sha1sum = "a3f14e1353c2f621771bb7dd2c9da201216b08ef"
 depends = "['glibc>=2.34']"
 +++
-rpcsvc protocol definitions from glibc{{< files text="show files" >}}* /usr/bin/rpcgen
+rpcsvc protocol definitions from glibc"
+
+{{< files text="show files" >}}* /usr/bin/rpcgen
 * /usr/include/rpcsvc/bootparam_prot.h
 * /usr/include/rpcsvc/bootparam_prot.x
 * /usr/include/rpcsvc/key_prot.h

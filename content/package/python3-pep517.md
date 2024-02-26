@@ -13,7 +13,9 @@ usize = "189396"
 sha1sum = "80a0bbef07330058cdcaee79e72345a84d2a7b75"
 depends = "['python3-tomli']"
 +++
-Wrappers to build Python packages using PEP 517 hooks{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pep517-0.13.1.dist-info/LICENSE
+Wrappers to build Python packages using PEP 517 hooks"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pep517-0.13.1.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/pep517-0.13.1.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/pep517-0.13.1.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/pep517-0.13.1.dist-info/WHEEL

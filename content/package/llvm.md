@@ -14,7 +14,9 @@ sha1sum = "1b7fedd01da2e18618a931441d12fbf0fbf3f107"
 depends = "['libstdc++>=13.2.0', 'llvm-libs', 'python3>=3.12']"
 reverse_depends = "['hotdoc', 'llvm-ocaml']"
 +++
-Low Level Virtual Machine (Compiler , Tools and Libs){{< files text="show files" >}}* /usr/bin/amdgpu-arch
+Low Level Virtual Machine (Compiler , Tools and Libs)"
+
+{{< files text="show files" >}}* /usr/bin/amdgpu-arch
 * /usr/bin/bugpoint
 * /usr/bin/count
 * /usr/bin/dsymutil

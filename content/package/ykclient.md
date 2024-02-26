@@ -14,7 +14,9 @@ sha1sum = "80a1cb4f6e89b248e55cea654e02c68724cdf25b"
 depends = "['libyubikey']"
 reverse_depends = "['yubikey-personalization']"
 +++
-Yubico YubiKey C client{{< files text="show files" >}}* /usr/bin/ykclient
+Yubico YubiKey C client"
+
+{{< files text="show files" >}}* /usr/bin/ykclient
 * /usr/include/ykclient.h
 * /usr/include/ykclient_errors.h
 * /usr/include/ykclient_server_response.h

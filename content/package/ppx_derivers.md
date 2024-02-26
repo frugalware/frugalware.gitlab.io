@@ -14,7 +14,9 @@ sha1sum = "f998dc8db6a6d077b2c944164e85886ae66aacd0"
 depends = "['ocaml>=5.1.1']"
 reverse_depends = "['ppxlib']"
 +++
-Shared deriving plugin registry{{< files text="show files" >}}* /usr/lib/ocaml/ppx_derivers/dune-package
+Shared deriving plugin registry"
+
+{{< files text="show files" >}}* /usr/lib/ocaml/ppx_derivers/dune-package
 * /usr/lib/ocaml/ppx_derivers/META
 * /usr/lib/ocaml/ppx_derivers/opam
 * /usr/lib/ocaml/ppx_derivers/ppx_derivers.a

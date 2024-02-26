@@ -13,7 +13,9 @@ usize = "1077991"
 sha1sum = "19bb34b08659406da957237add199fa9f72467e3"
 depends = "['jack2', 'wireplumber']"
 +++
-Pipewire Jack config{{< files text="show files" >}}* /usr/bin/pw-jack
+Pipewire Jack config"
+
+{{< files text="show files" >}}* /usr/bin/pw-jack
 * /usr/lib/pipewire-0.3/jack/libjack.so
 * /usr/lib/pipewire-0.3/jack/libjack.so.0
 * /usr/lib/pipewire-0.3/jack/libjack.so.0.3.1003

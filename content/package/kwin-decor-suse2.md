@@ -13,7 +13,9 @@ usize = "778987"
 sha1sum = "2de465c892b9ac35da876b8ca975e2673bdfd001"
 depends = "[]"
 +++
-SuSe kwin decoration for KDE.{{< files text="show files" >}}* usr/lib/kde3/kwin3_SUSE2.la
+SuSe kwin decoration for KDE."
+
+{{< files text="show files" >}}* usr/lib/kde3/kwin3_SUSE2.la
 * usr/lib/kde3/kwin3_SUSE2.so
 * usr/lib/kde3/kwin_SUSE2_config.la
 * usr/lib/kde3/kwin_SUSE2_config.so

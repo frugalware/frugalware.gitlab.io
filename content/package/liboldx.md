@@ -14,7 +14,9 @@ sha1sum = "230020be2e86b991f919c148ea342011c8773ec0"
 depends = "['libx11>=1.6.7-2']"
 license = "GPL2"
 +++
-X.Org oldX library{{< files text="show files" >}}* /usr/include/X11/X10.h
+X.Org oldX library"
+
+{{< files text="show files" >}}* /usr/include/X11/X10.h
 * /usr/lib/liboldX.so
 * /usr/lib/liboldX.so.6
 * /usr/lib/liboldX.so.6.0.0

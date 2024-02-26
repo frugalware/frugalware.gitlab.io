@@ -14,7 +14,9 @@ sha1sum = "1d2f83a1abad89c60e72fb7dd1bd90ca735e0e5b"
 depends = "['gawk>=4.1.3-4', 'grep>=3.1-2', 'ncurses>=6.0-18', 'perl>=5.34', 'sed>=4.4-3', 'shadow>=4.1.2.1-2']"
 reverse_depends = "['a2ps', 'libtasn1']"
 +++
-The GNU info program and utilities{{< files text="show files" >}}* /etc/cron.daily/texinfo
+The GNU info program and utilities"
+
+{{< files text="show files" >}}* /etc/cron.daily/texinfo
 * /usr/bin/info
 * /usr/bin/install-info
 * /usr/bin/makeinfo

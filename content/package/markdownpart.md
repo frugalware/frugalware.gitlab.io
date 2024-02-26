@@ -13,7 +13,9 @@ usize = "141979"
 sha1sum = "edb66b5b0bdaa9c200932431bee0ca32ce419bed"
 depends = "['kparts>=5.115.0']"
 +++
-KPart for rendering Markdown content{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/parts/markdownpart.so
+KPart for rendering Markdown content"
+
+{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/parts/markdownpart.so
 * /usr/share/doc/markdownpart-23.08.5/README.md
 * /usr/share/locale/ar/LC_MESSAGES/markdownpart.mo
 * /usr/share/locale/ca/LC_MESSAGES/markdownpart.mo

@@ -13,7 +13,9 @@ usize = "323466"
 sha1sum = "dfb37b08e62c566cd53c9a03e4a4652de51d4723"
 depends = "['bash', 'gawk']"
 +++
-A centralized way to configure and schedule many different backup utilities{{< files text="show files" >}}* /etc/backupninja.conf
+A centralized way to configure and schedule many different backup utilities"
+
+{{< files text="show files" >}}* /etc/backupninja.conf
 * /etc/cron.d/backupninja
 * /etc/logrotate.d/backupninja
 * /usr/bin/backupninja

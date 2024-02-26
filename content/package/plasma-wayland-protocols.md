@@ -13,7 +13,9 @@ usize = "220452"
 sha1sum = "3ac8a71bb122bb4460f863de57aa3bec97d2ae2d"
 depends = "['glibc']"
 +++
-Plasma Specific Protocols for Wayland{{< files text="show files" >}}* /usr/lib/cmake/PlasmaWaylandProtocols/PlasmaWaylandProtocolsConfig.cmake
+Plasma Specific Protocols for Wayland"
+
+{{< files text="show files" >}}* /usr/lib/cmake/PlasmaWaylandProtocols/PlasmaWaylandProtocolsConfig.cmake
 * /usr/lib/cmake/PlasmaWaylandProtocols/PlasmaWaylandProtocolsConfigVersion.cmake
 * /usr/share/doc/plasma-wayland-protocols-1.12.0/COPYING.LIB
 * /usr/share/doc/plasma-wayland-protocols-1.12.0/README.md

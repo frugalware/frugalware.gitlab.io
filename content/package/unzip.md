@@ -14,7 +14,9 @@ sha1sum = "b276e03f0ec1b604e348e91e232c611fddf678d5"
 depends = "['glibc>=2.34']"
 reverse_depends = "['flutter', 'libreoffice', 'steamtinkerlaunch', 'winetricks']"
 +++
-Info-ZIP's unzip utility{{< files text="show files" >}}* /usr/bin/funzip
+Info-ZIP's unzip utility"
+
+{{< files text="show files" >}}* /usr/bin/funzip
 * /usr/bin/unzip
 * /usr/bin/unzipsfx
 * /usr/bin/zipgrep

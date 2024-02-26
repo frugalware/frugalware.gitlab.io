@@ -13,7 +13,9 @@ usize = "415625"
 sha1sum = "084ae96b31cc961c0e8640cf831a403bc5a0600f"
 depends = "['gnutls>=3.4.2', 'libsigc++2']"
 +++
-net6 is a library which eases the development of network-based applications{{< files text="show files" >}}* /usr/include/net6/address.hpp
+net6 is a library which eases the development of network-based applications"
+
+{{< files text="show files" >}}* /usr/include/net6/address.hpp
 * /usr/include/net6/client.hpp
 * /usr/include/net6/common.hpp
 * /usr/include/net6/connection.hpp

@@ -14,7 +14,9 @@ sha1sum = "f7189391488467f8b5502333a6829a2cf530fff8"
 depends = "['glib2']"
 reverse_depends = "['gst1-plugins-base', 'gtk+4']"
 +++
-A thin layer of graphic data types{{< files text="show files" >}}* /usr/include/graphene-1.0/graphene-box.h
+A thin layer of graphic data types"
+
+{{< files text="show files" >}}* /usr/include/graphene-1.0/graphene-box.h
 * /usr/include/graphene-1.0/graphene-euler.h
 * /usr/include/graphene-1.0/graphene-frustum.h
 * /usr/include/graphene-1.0/graphene-gobject.h

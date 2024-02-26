@@ -14,7 +14,9 @@ sha1sum = "925bda9123e0aefd87744503ef9561fa39817db8"
 depends = "['c-ares', 'dbus', 'geoip', 'glib2', 'gnutls', 'libkrb5', 'libnl', 'libpcap', 'libssh', 'libusb1', 'lua', 'lua51', 'nghttp2', 'snappy']"
 reverse_depends = "['wireshark-qt']"
 +++
-The world's most popular network protocol analyzer.{{< files text="show files" >}}* /usr/bin/capinfos
+The world's most popular network protocol analyzer."
+
+{{< files text="show files" >}}* /usr/bin/capinfos
 * /usr/bin/captype
 * /usr/bin/dumpcap
 * /usr/bin/editcap

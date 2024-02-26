@@ -14,7 +14,9 @@ sha1sum = "56347fe87ef0218e32abab1dbee9187e592fa406"
 depends = "['iproute2', 'libcap', 'libidn2', 'openssl>=3.0.7']"
 reverse_depends = "['dracut-network', 'prettyping']"
 +++
-The ping program for checking to see if network hosts are alive.{{< files text="show files" >}}* /usr/bin/arping
+The ping program for checking to see if network hosts are alive."
+
+{{< files text="show files" >}}* /usr/bin/arping
 * /usr/bin/clockdiff
 * /usr/bin/ping
 * /usr/bin/tracepath

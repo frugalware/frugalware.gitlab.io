@@ -14,7 +14,9 @@ sha1sum = "61cb4e562595b0914b344933931232a8ce4bcb63"
 depends = "['glibc>=2.25-5']"
 reverse_depends = "['alienarena', 'fox-1.2', 'openslide', 'xonotic', 'xsane']"
 +++
-Library of JPEG support functions{{< files text="show files" >}}* /usr/bin/cjpeg
+Library of JPEG support functions"
+
+{{< files text="show files" >}}* /usr/bin/cjpeg
 * /usr/bin/djpeg
 * /usr/bin/jpegtran
 * /usr/bin/rdjpgcom

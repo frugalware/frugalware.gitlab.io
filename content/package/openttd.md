@@ -13,7 +13,9 @@ usize = "22929914"
 sha1sum = "653b9572c4af2da16f3df270a89dce8adc4879c4"
 depends = "['fontconfig>=2.11.94-3', 'icu4c>=74.1', 'libpng>=1.6.20', 'libtimidity>=0.1.0-2', 'lzo>=2.09-4', 'opengfx>=0.5.5', 'opensfx', 'sdl>=1.2.15-3', 'xz>=5.2.2-4']"
 +++
-An open source clone of the Microprose game Transport Tycoon Deluxe.{{< files text="show files" >}}* /usr/bin/openttd
+An open source clone of the Microprose game Transport Tycoon Deluxe."
+
+{{< files text="show files" >}}* /usr/bin/openttd
 * /usr/share/applications/openttd.desktop
 * /usr/share/doc/openttd-13.4/COPYING.md
 * /usr/share/doc/openttd-13.4/README.md

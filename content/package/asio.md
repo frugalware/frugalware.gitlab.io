@@ -14,7 +14,9 @@ sha1sum = "111d2697cd5d6a5aa1bc385923f481ebe9b1fd63"
 depends = "[]"
 reverse_depends = "['obs-studio', 'opendht', 'sdlmame']"
 +++
-A a cross-platform C++ library written in C++ for consistent asynchronous I/O.{{< files text="show files" >}}* /usr/include/asio.hpp
+A a cross-platform C++ library written in C++ for consistent asynchronous I/O."
+
+{{< files text="show files" >}}* /usr/include/asio.hpp
 * /usr/include/asio/any_completion_executor.hpp
 * /usr/include/asio/any_completion_handler.hpp
 * /usr/include/asio/any_io_executor.hpp

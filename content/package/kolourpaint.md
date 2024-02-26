@@ -13,7 +13,9 @@ usize = "10026943"
 sha1sum = "3f31a907ff4cfd4a576a70158036bd181e423336"
 depends = "['kdelibs4support>=5.115.0', 'libkexiv2>=23.08.5', 'libksane>=23.08.5']"
 +++
-KDE Paint Program.{{< files text="show files" >}}* /usr/bin/kolourpaint
+KDE Paint Program."
+
+{{< files text="show files" >}}* /usr/bin/kolourpaint
 * /usr/lib/libkolourpaint_lgpl.so
 * /usr/lib/libkolourpaint_lgpl.so.5
 * /usr/share/applications/org.kde.kolourpaint.desktop

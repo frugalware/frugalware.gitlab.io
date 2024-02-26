@@ -13,7 +13,9 @@ usize = "5193712"
 sha1sum = "863e3ae2836317e51a22364b6faf584bd651a852"
 depends = "['python3-isodate>=0.5.4', 'python3-six']"
 +++
-A Python library for working with RDF, a simple yet powerful language for representing information{{< files text="show files" >}}* /usr/bin/csv2rdf
+A Python library for working with RDF, a simple yet powerful language for representing information"
+
+{{< files text="show files" >}}* /usr/bin/csv2rdf
 * /usr/bin/rdf2dot
 * /usr/bin/rdfgraphisomorphism
 * /usr/bin/rdfpipe

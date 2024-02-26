@@ -14,7 +14,9 @@ sha1sum = "f3ba3ac1b37794f05ad55e1d86e84d94f610976d"
 depends = "['haskell-primitive>=0.3.7.0-2', 'haskell-vector-stream']"
 reverse_depends = "['haskell-bitvec', 'haskell-cassava', 'haskell-indexed-traversable-instances', 'haskell-juicypixels', 'haskell-th-lift-instances']"
 +++
-Efficient Arrays{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/vector-0.13.1.0/Data/Vector.dyn_hi
+Efficient Arrays"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/vector-0.13.1.0/Data/Vector.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/vector-0.13.1.0/Data/Vector.hi
 * /usr/lib/ghc-9.8.1/site-local/vector-0.13.1.0/Data/Vector/Fusion/Bundle.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/vector-0.13.1.0/Data/Vector/Fusion/Bundle.hi

@@ -14,7 +14,9 @@ sha1sum = "7d221498b9caa67e8e1d60110834d65fc8849f68"
 depends = "['libldap>=2.6.7', 'libtool>=2.4.6-5', 'libxcrypt']"
 reverse_depends = "['nfsidmap']"
 +++
-A suite of the Lightweight Directory Access Protocol servers{{< files text="show files" >}}* /etc/openldap/schema/collective.ldif
+A suite of the Lightweight Directory Access Protocol servers"
+
+{{< files text="show files" >}}* /etc/openldap/schema/collective.ldif
 * /etc/openldap/schema/collective.schema
 * /etc/openldap/schema/corba.ldif
 * /etc/openldap/schema/corba.schema

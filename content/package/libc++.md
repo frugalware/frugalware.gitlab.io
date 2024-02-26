@@ -13,7 +13,9 @@ usize = "9198938"
 sha1sum = "ec151389ec52df04e07da418a4a958ff7331bb35"
 depends = "['libgcc']"
 +++
-A new implementation of the C++ standard library{{< files text="show files" >}}* /usr/include/c++/v1/algorithm
+A new implementation of the C++ standard library"
+
+{{< files text="show files" >}}* /usr/include/c++/v1/algorithm
 * /usr/include/c++/v1/any
 * /usr/include/c++/v1/array
 * /usr/include/c++/v1/atomic

@@ -15,7 +15,9 @@ depends = "['libglvnd']"
 reverse_depends = "['radeon-profile']"
 license = "GPL2"
 +++
-X.Org xdriinfo application{{< files text="show files" >}}* /usr/bin/xdriinfo
+X.Org xdriinfo application"
+
+{{< files text="show files" >}}* /usr/bin/xdriinfo
 * /usr/share/doc/xdriinfo-1.0.7/AUTHORS
 * /usr/share/doc/xdriinfo-1.0.7/ChangeLog
 * /usr/share/doc/xdriinfo-1.0.7/COPYING

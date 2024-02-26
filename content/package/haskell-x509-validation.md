@@ -13,7 +13,9 @@ usize = "1083127"
 sha1sum = "90a4c4e8e3acf2be22c0a63e3bf0a5357bae1a1a"
 depends = "['haskell-data-default-class', 'haskell-x509-store']"
 +++
-X.509 Certificate and CRL validation{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/x509-validation-1.6.12/Data/X509/Validation.dyn_hi
+X.509 Certificate and CRL validation"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/x509-validation-1.6.12/Data/X509/Validation.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/x509-validation-1.6.12/Data/X509/Validation.hi
 * /usr/lib/ghc-9.8.1/site-local/x509-validation-1.6.12/Data/X509/Validation/Cache.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/x509-validation-1.6.12/Data/X509/Validation/Cache.hi

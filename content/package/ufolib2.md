@@ -13,7 +13,9 @@ usize = "552934"
 sha1sum = "30e0c0e4a3b729f88c545fbd57317d38ebfe95cd"
 depends = "['python3>=3.10']"
 +++
-ufoLib2 is a UFO font library.{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/ufoLib2-0.0.0-py3.12.egg-info/dependency_links.txt
+ufoLib2 is a UFO font library."
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/ufoLib2-0.0.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/ufoLib2-0.0.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/ufoLib2-0.0.0-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/ufoLib2-0.0.0-py3.12.egg-info/SOURCES.txt

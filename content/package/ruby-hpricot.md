@@ -14,7 +14,9 @@ sha1sum = "aa34c7760e43c33072bb6ea6f6157aa8fa980aa2"
 depends = "['ruby>=3.2.0', 'ruby>=3.3.0']"
 reverse_depends = "['ruby-ronn']"
 +++
-A swift, liberal HTML parser with a fantastic library{{< files text="show files" >}}* /usr/lib/ruby/gems/3.3.0/cache/hpricot-0.8.6.gem
+A swift, liberal HTML parser with a fantastic library"
+
+{{< files text="show files" >}}* /usr/lib/ruby/gems/3.3.0/cache/hpricot-0.8.6.gem
 * /usr/lib/ruby/gems/3.3.0/doc/hpricot-0.8.6/ri/cache.ri
 * /usr/lib/ruby/gems/3.3.0/doc/hpricot-0.8.6/ri/ext/fast_xs/page-FastXsService_java.ri
 * /usr/lib/ruby/gems/3.3.0/doc/hpricot-0.8.6/ri/ext/fast_xs/page-Makefile.ri

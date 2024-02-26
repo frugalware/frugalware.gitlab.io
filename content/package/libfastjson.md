@@ -14,7 +14,9 @@ sha1sum = "10e01844d1e6a4ee80588c3587b331fd8d530181"
 depends = "['glibc>=2.34']"
 reverse_depends = "['rsyslog']"
 +++
-A small library with essential json handling functions.{{< files text="show files" >}}* /usr/include/libfastjson/atomic.h
+A small library with essential json handling functions."
+
+{{< files text="show files" >}}* /usr/include/libfastjson/atomic.h
 * /usr/include/libfastjson/json.h
 * /usr/include/libfastjson/json_object.h
 * /usr/include/libfastjson/json_object_iterator.h

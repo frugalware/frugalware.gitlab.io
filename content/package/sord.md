@@ -14,7 +14,9 @@ sha1sum = "bb0207ffa0b25777045b65e4230db764ef50bf0c"
 depends = "['pcre', 'serd>=0.20.0-2', 'zix']"
 reverse_depends = "['sratom']"
 +++
-Sord is a lightweight C library for storing RDF data in memory.{{< files text="show files" >}}* /usr/bin/sordi
+Sord is a lightweight C library for storing RDF data in memory."
+
+{{< files text="show files" >}}* /usr/bin/sordi
 * /usr/bin/sord_validate
 * /usr/include/sord-0/sord/sord.h
 * /usr/include/sord-0/sord/sordmm.hpp

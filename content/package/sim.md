@@ -13,7 +13,9 @@ usize = "12613444"
 sha1sum = "cf909ac269ab0c04ed9d71170675eef01cb96606"
 depends = "['libxml2', 'libxscrnsaver', 'libxslt', 'openssl', 'perl', 'zip']"
 +++
-Plugins-based instant messenger with support various protocols.{{< files text="show files" >}}* usr/bin/sim
+Plugins-based instant messenger with support various protocols."
+
+{{< files text="show files" >}}* usr/bin/sim
 * usr/bin/simctrl
 * usr/lib/libsim.la
 * usr/lib/libsim.so

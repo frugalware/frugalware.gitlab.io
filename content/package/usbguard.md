@@ -14,7 +14,9 @@ sha1sum = "e28dfbb516b6cf67b26f62d09344b95b3a070a62"
 depends = "['audit', 'dbus-glib', 'libaudit', 'libcap-ng', 'libqb>=2.0.0', 'libseccomp', 'libsodium>=1.0.19', 'polkit', 'protobuf>=25.3']"
 reverse_depends = "['usbguard-applet-qt', 'usbguard-notifier']"
 +++
-USBGuard is a software framework for implementing USB device authorization policies{{< files text="show files" >}}* /etc/usbguard/rules.conf
+USBGuard is a software framework for implementing USB device authorization policies"
+
+{{< files text="show files" >}}* /etc/usbguard/rules.conf
 * /etc/usbguard/usbguard-daemon.conf
 * /usr/bin/usbguard
 * /usr/bin/usbguard-daemon

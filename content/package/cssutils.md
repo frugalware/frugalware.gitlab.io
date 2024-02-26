@@ -13,7 +13,9 @@ usize = "4354674"
 sha1sum = "1fabbdbdd5364b5b2b91408d0b5c58b07b78dd10"
 depends = "['python3>=3.10']"
 +++
-A Python package to parse and build CSS Cascading Style Sheets.{{< files text="show files" >}}* /usr/bin/csscapture
+A Python package to parse and build CSS Cascading Style Sheets."
+
+{{< files text="show files" >}}* /usr/bin/csscapture
 * /usr/bin/csscombine
 * /usr/bin/cssparse
 * /usr/lib/python3.12/site-packages/cssutils-0.0.0-py3.12.egg-info/dependency_links.txt

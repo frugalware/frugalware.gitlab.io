@@ -13,7 +13,9 @@ usize = "5943588"
 sha1sum = "3534ba52dab6b25a3cd15fa9c8f79d5dc4ea52e7"
 depends = "[]"
 +++
-Korean Localization for KDE.{{< files text="show files" >}}* usr/share/doc/HTML/ko/common/1.png
+Korean Localization for KDE."
+
+{{< files text="show files" >}}* usr/share/doc/HTML/ko/common/1.png
 * usr/share/doc/HTML/ko/common/10.png
 * usr/share/doc/HTML/ko/common/2.png
 * usr/share/doc/HTML/ko/common/3.png

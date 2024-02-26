@@ -14,7 +14,9 @@ sha1sum = "db18f8ff857027e01f94bfc96a186f00eff7af72"
 depends = "['intel-tbb', 'libxml2']"
 reverse_depends = "['vtk']"
 +++
-Uncertainty treatment library{{< files text="show files" >}}* /etc/openturns/openturns.conf
+Uncertainty treatment library"
+
+{{< files text="show files" >}}* /etc/openturns/openturns.conf
 * /usr/include/openturns/AbdoRackwitz.hxx
 * /usr/include/openturns/AbsoluteExponential.hxx
 * /usr/include/openturns/AdaptiveDirectionalStratification.hxx

@@ -14,7 +14,9 @@ sha1sum = "0b4b5d3e41ecabae17ccb5a7b1b04a708f7da96e"
 depends = "['kernel']"
 reverse_depends = "['kernel-initrd', 'kernel-lts-initrd']"
 +++
-Microcode for Intel processors.{{< files text="show files" >}}* /usr/lib/firmware/intel-ucode/06-03-02
+Microcode for Intel processors."
+
+{{< files text="show files" >}}* /usr/lib/firmware/intel-ucode/06-03-02
 * /usr/lib/firmware/intel-ucode/06-05-00
 * /usr/lib/firmware/intel-ucode/06-05-01
 * /usr/lib/firmware/intel-ucode/06-05-02

@@ -13,7 +13,9 @@ usize = "66907467"
 sha1sum = "67e6f65398d1d98fd4d349dc13c4c6cae5625d3d"
 depends = "['libmarble', 'qt5-location>=5.15.12', 'qt5-tools>=5.15.12']"
 +++
-Desc: Virtual Globe and World Atlas.{{< files text="show files" >}}* /usr/bin/marble
+Desc: Virtual Globe and World Atlas."
+
+{{< files text="show files" >}}* /usr/bin/marble
 * /usr/bin/marble-qt
 * /usr/include/astro/astr2lib.h
 * /usr/include/astro/astrolib.h

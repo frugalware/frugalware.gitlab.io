@@ -14,7 +14,9 @@ sha1sum = "fc7504b0d77d0a438d4a87783ec424f822241050"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['pandoc']"
 +++
-A documentation-generation tool for Haskell libraries.{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/haddock-library-1.11.0/CompatPrelude.dyn_hi
+A documentation-generation tool for Haskell libraries."
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/haddock-library-1.11.0/CompatPrelude.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/haddock-library-1.11.0/CompatPrelude.hi
 * /usr/lib/ghc-9.8.1/site-local/haddock-library-1.11.0/Documentation/Haddock/Doc.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/haddock-library-1.11.0/Documentation/Haddock/Doc.hi

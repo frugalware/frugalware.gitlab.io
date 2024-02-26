@@ -14,7 +14,9 @@ sha1sum = "ae5aec28e7079b0a1c5a6bcc6859bb6019addf38"
 depends = "['libldap>=2.4.47-2', 'libsystemd>=231-10', 'ncurses>=6.0-15', 'openssl>=1.1.1', 'perl-parse-yapp', 'python3>=3.12', 'readline>=8.0', 'samba-client>=4.19.5', 'talloc>=2.4.0', 'tdb>=1.4.6']"
 reverse_depends = "['nss-wins']"
 +++
-SMB file and print server.{{< files text="show files" >}}* /etc/logrotate.d/samba
+SMB file and print server."
+
+{{< files text="show files" >}}* /etc/logrotate.d/samba
 * /etc/samba/smb.conf
 * /etc/tmpfiles.d/samba.conf
 * /usr/bin/cifsdd

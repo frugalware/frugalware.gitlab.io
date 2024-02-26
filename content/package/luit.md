@@ -14,7 +14,9 @@ sha1sum = "f52ad000672c9d1ab2283d474d8699b3eedfbcb8"
 depends = "['libfontenc>=1.1.3-3']"
 license = "GPL2"
 +++
-X.Org luit application{{< files text="show files" >}}* /usr/bin/luit
+X.Org luit application"
+
+{{< files text="show files" >}}* /usr/bin/luit
 * /usr/share/doc/luit-1.1.1/ChangeLog
 * /usr/share/doc/luit-1.1.1/COPYING
 * /usr/share/doc/luit-1.1.1/INSTALL

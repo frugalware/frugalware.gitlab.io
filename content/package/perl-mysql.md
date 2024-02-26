@@ -13,7 +13,9 @@ usize = "0"
 sha1sum = "1d0f224787f1f16bb11dbb62d233859da3463c4f"
 depends = "['perl']"
 +++
-Database Interface to the MySQL database{{< files text="show files" >}}* usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/DBD/mysql/mysql.bs
+Database Interface to the MySQL database"
+
+{{< files text="show files" >}}* usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/DBD/mysql/mysql.bs
 * usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/DBD/mysql/mysql.so
 * usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Bundle/DBD/mysql.pm
 * usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/DBD/mysql.pm

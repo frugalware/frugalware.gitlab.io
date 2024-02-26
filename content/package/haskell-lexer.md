@@ -14,7 +14,9 @@ sha1sum = "8c5b4cc228b5c8cee0027b9ee02e9720a46edbf3"
 depends = "['haskell-data-default-class']"
 reverse_depends = "['haskell-pretty-show']"
 +++
-A fully compliant Haskell 98 lexer{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/haskell-lexer-1.1.1/Language/Haskell/Lexer.dyn_hi
+A fully compliant Haskell 98 lexer"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/haskell-lexer-1.1.1/Language/Haskell/Lexer.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/haskell-lexer-1.1.1/Language/Haskell/Lexer.hi
 * /usr/lib/ghc-9.8.1/site-local/haskell-lexer-1.1.1/Language/Haskell/Lexer/Layout.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/haskell-lexer-1.1.1/Language/Haskell/Lexer/Layout.hi

@@ -14,7 +14,9 @@ sha1sum = "f2e2689fbf4cffab6171e7545a6995f5efdcc282"
 depends = "['qt5-declarative>=5.15.12']"
 reverse_depends = "['kwin5', 'meshroom', 'plasma-desktop', 'plasma-workspace', 'qt5-xmlpatterns', 'qtav', 'vtk-qt5']"
 +++
-The Qt5 toolkit, qtquickcontrols{{< files text="show files" >}}* /usr/share/qt5/qml/QtQuick/Controls/ApplicationWindow.qml
+The Qt5 toolkit, qtquickcontrols"
+
+{{< files text="show files" >}}* /usr/share/qt5/qml/QtQuick/Controls/ApplicationWindow.qml
 * /usr/share/qt5/qml/QtQuick/Controls/ApplicationWindow.qmlc
 * /usr/share/qt5/qml/QtQuick/Controls/BusyIndicator.qml
 * /usr/share/qt5/qml/QtQuick/Controls/BusyIndicator.qmlc

@@ -13,7 +13,9 @@ usize = "6263420"
 sha1sum = "5a97ec742a34a5e66b22f5c998397e72a006eaab"
 depends = "['libx11', 'nlohmann-json', 'vulkan-icd-loader', 'wayland']"
 +++
-Vulkan overlay layer for monitoring FPS, temperatures, CPU/GPU load and more{{< files text="show files" >}}* /usr/bin/mangohud
+Vulkan overlay layer for monitoring FPS, temperatures, CPU/GPU load and more"
+
+{{< files text="show files" >}}* /usr/bin/mangohud
 * /usr/bin/mangoplot
 * /usr/lib/mangohud/libMangoHud.so
 * /usr/lib/mangohud/libMangoHud_dlsym.so

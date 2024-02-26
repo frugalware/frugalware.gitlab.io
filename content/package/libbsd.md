@@ -14,7 +14,9 @@ sha1sum = "52aff7272081d73db0b360433d5694985f23436a"
 depends = "['libmd']"
 reverse_depends = "['criu', 'hfsprogs', 'openvas-manager', 'openvas-scanner']"
 +++
-This library provides useful functions commonly found on BSD systems{{< files text="show files" >}}* /usr/include/bsd/bitstring.h
+This library provides useful functions commonly found on BSD systems"
+
+{{< files text="show files" >}}* /usr/include/bsd/bitstring.h
 * /usr/include/bsd/bsd.h
 * /usr/include/bsd/err.h
 * /usr/include/bsd/getopt.h

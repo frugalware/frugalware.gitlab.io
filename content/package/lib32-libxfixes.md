@@ -14,7 +14,9 @@ sha1sum = "d550c7a4a36009864255b481cceaf001367c9c2f"
 depends = "['lib32-libx11>=1.6.4-3']"
 reverse_depends = "['lib32-ffmpeg', 'lib32-libva', 'lib32-libva1', 'lib32-libxcomposite', 'lib32-libxcursor', 'lib32-libxdamage', 'lib32-libxi']"
 +++
-X.Org Xfixes library ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/Xfixes.h
+X.Org Xfixes library ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/Xfixes.h
 * /usr/lib32/libXfixes.so
 * /usr/lib32/libXfixes.so.3
 * /usr/lib32/libXfixes.so.3.1.0

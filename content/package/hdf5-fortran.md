@@ -14,7 +14,9 @@ sha1sum = "acf6122a7fb33a143e6cf274c911f1ae92882709"
 depends = "['hdf5', 'libgfortran>=9.1.0-3']"
 reverse_depends = "['octave']"
 +++
-Fortran interface for hdf5 library{{< files text="show files" >}}* /usr/include/h5a.mod
+Fortran interface for hdf5 library"
+
+{{< files text="show files" >}}* /usr/include/h5a.mod
 * /usr/include/h5d.mod
 * /usr/include/h5ds.mod
 * /usr/include/h5e.mod

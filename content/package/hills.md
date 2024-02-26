@@ -13,7 +13,9 @@ usize = "28913374"
 sha1sum = "90801e3e24abd100258839bf8238a8d29c0438b5"
 depends = "['glibc', 'qt5-multimedia>=5.15.10', 'sddm']"
 +++
-Hills Theme is based on two themes: Maui and Numix{{< files text="show files" >}}* /usr/share/doc/hills-1.0/README.md
+Hills Theme is based on two themes: Maui and Numix"
+
+{{< files text="show files" >}}* /usr/share/doc/hills-1.0/README.md
 * /usr/share/sddm/themes/hills/hills.jpg
 * /usr/share/sddm/themes/hills/Main.qml
 * /usr/share/sddm/themes/hills/metadata.desktop

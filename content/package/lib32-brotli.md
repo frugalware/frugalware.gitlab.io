@@ -14,7 +14,9 @@ sha1sum = "35fd354aa509b1aeeb0e2ceb80d5d819ce897b16"
 depends = "[]"
 reverse_depends = "['lib32-curl', 'lib32-freetype2', 'lib32-gnutls', 'lib32-libcurl-gnutls']"
 +++
-Brotli compression library ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/brotli
+Brotli compression library ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/brotli
 * /usr/i686-frugalware-linux/include/brotli/decode.h
 * /usr/i686-frugalware-linux/include/brotli/encode.h
 * /usr/i686-frugalware-linux/include/brotli/port.h

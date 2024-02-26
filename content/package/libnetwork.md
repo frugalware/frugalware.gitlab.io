@@ -14,5 +14,7 @@ sha1sum = "b762dc8fb460bd0020650f08365c375f1b421994"
 depends = "['glibc']"
 reverse_depends = "['docker']"
 +++
-Docker Networking{{< files text="show files" >}}* /usr/bin/docker-proxy
+Docker Networking"
+
+{{< files text="show files" >}}* /usr/bin/docker-proxy
 {{< /files >}}

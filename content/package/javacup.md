@@ -13,6 +13,8 @@ usize = "155445"
 sha1sum = "b8a4fe9b2bb6fbfbdbec0b2b8e0801ceb6a6cd22"
 depends = "['openjre']"
 +++
-CUP Parser Generator for Java{{< files text="show files" >}}* /usr/share/java/javacup-runtime.jar
+CUP Parser Generator for Java"
+
+{{< files text="show files" >}}* /usr/share/java/javacup-runtime.jar
 * /usr/share/java/javacup.jar
 {{< /files >}}

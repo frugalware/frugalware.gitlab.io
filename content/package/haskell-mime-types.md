@@ -14,7 +14,9 @@ sha1sum = "3fcc1532b3c6a951a2a601d81695b5532d075418"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-http-client', 'haskell-wai-app-static']"
 +++
-Basic mime-type handling types and functions{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/mime-types-0.1.2.0/libHSmime-types-0.1.2.0-HTZmk6soDFW41c0Nz1vqM2.a
+Basic mime-type handling types and functions"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/mime-types-0.1.2.0/libHSmime-types-0.1.2.0-HTZmk6soDFW41c0Nz1vqM2.a
 * /usr/lib/ghc-9.8.1/site-local/mime-types-0.1.2.0/Network/Mime.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/mime-types-0.1.2.0/Network/Mime.hi
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSmime-types-0.1.2.0-HTZmk6soDFW41c0Nz1vqM2-ghc9.8.1.so

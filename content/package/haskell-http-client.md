@@ -14,7 +14,9 @@ sha1sum = "7751be3e7cc2ff19da2eb2e3e3e3bd32918837f3"
 depends = "['haskell-base64-bytestring', 'haskell-blaze-builder', 'haskell-cookie', 'haskell-http-types', 'haskell-iproute', 'haskell-mime-types', 'haskell-network-uri', 'haskell-streaming-commons']"
 reverse_depends = "['haskell-http-client-tls']"
 +++
-An HTTP client engine{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/http-client-0.7.15/Data/KeyedPool.dyn_hi
+An HTTP client engine"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/http-client-0.7.15/Data/KeyedPool.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/http-client-0.7.15/Data/KeyedPool.hi
 * /usr/lib/ghc-9.8.1/site-local/http-client-0.7.15/libHShttp-client-0.7.15-Blx4d515TQZ7r6cZLtzX.a
 * /usr/lib/ghc-9.8.1/site-local/http-client-0.7.15/Network/HTTP/Client.dyn_hi

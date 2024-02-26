@@ -15,7 +15,9 @@ depends = "['libudev>=242', 'libxatracker>=19.0.0', 'xorg-server>=1.20.4-3']"
 reverse_depends = "['virtualbox-guest-additions']"
 license = "GPL2"
 +++
-X.Org video driver for vmware cards{{< files text="show files" >}}* /usr/lib/xorg/modules/drivers/vmware_drv.so
+X.Org video driver for vmware cards"
+
+{{< files text="show files" >}}* /usr/lib/xorg/modules/drivers/vmware_drv.so
 * /usr/share/doc/xf86-video-vmware-13.4.0/ChangeLog
 * /usr/share/doc/xf86-video-vmware-13.4.0/COPYING
 * /usr/share/doc/xf86-video-vmware-13.4.0/INSTALL

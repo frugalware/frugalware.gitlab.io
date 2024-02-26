@@ -14,7 +14,9 @@ sha1sum = "e506b3f8327c4ff0a2d394e5f6c069d3c5585a67"
 depends = "['glib2>=2.60.3', 'gnutls>=3.5.18-2', 'libkrb5']"
 reverse_depends = "['mcabber']"
 +++
-A lightweight and easy-to-use C library for programming with the Jabber protocol.{{< files text="show files" >}}* /usr/include/loudmouth-1.0/loudmouth/lm-connection.h
+A lightweight and easy-to-use C library for programming with the Jabber protocol."
+
+{{< files text="show files" >}}* /usr/include/loudmouth-1.0/loudmouth/lm-connection.h
 * /usr/include/loudmouth-1.0/loudmouth/lm-error.h
 * /usr/include/loudmouth-1.0/loudmouth/lm-message-handler.h
 * /usr/include/loudmouth-1.0/loudmouth/lm-message-node.h

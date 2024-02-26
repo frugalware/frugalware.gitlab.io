@@ -14,7 +14,9 @@ sha1sum = "783a78902ff0f9cbaef05864d6517b2154e55232"
 depends = "['elfutils>=0.167-2', 'expat>=2.1.0-6', 'libdrm>=2.4.70-2', 'libffi>=3.2.1-2', 'libx11>=1.6.3-4', 'llvm-libs>=17.0.6']"
 reverse_depends = "['vlc']"
 +++
-Mesa VDPAU drivers.{{< files text="show files" >}}* /usr/lib/vdpau/libvdpau_d3d12.so
+Mesa VDPAU drivers."
+
+{{< files text="show files" >}}* /usr/lib/vdpau/libvdpau_d3d12.so
 * /usr/lib/vdpau/libvdpau_d3d12.so.1
 * /usr/lib/vdpau/libvdpau_d3d12.so.1.0
 * /usr/lib/vdpau/libvdpau_d3d12.so.1.0.0

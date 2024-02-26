@@ -14,7 +14,9 @@ sha1sum = "0a4487d5909e2b67ec38ac38dd5693a12dca16db"
 depends = "['libmnl', 'libnfnetlink']"
 reverse_depends = "['conntrack-tools']"
 +++
-A userspace library that provides the programming interface to connection tracking timeout infrastructure{{< files text="show files" >}}* /usr/include/libnetfilter_cttimeout/libnetfilter_cttimeout.h
+A userspace library that provides the programming interface to connection tracking timeout infrastructure"
+
+{{< files text="show files" >}}* /usr/include/libnetfilter_cttimeout/libnetfilter_cttimeout.h
 * /usr/lib/libnetfilter_cttimeout.so
 * /usr/lib/libnetfilter_cttimeout.so.1
 * /usr/lib/libnetfilter_cttimeout.so.1.0.0

@@ -13,7 +13,9 @@ usize = "38306091"
 sha1sum = "00ea2548add504295e0b1350645e039a5dc574a9"
 depends = "['mbrola']"
 +++
-French MBROLA Voices{{< files text="show files" >}}* /usr/share/mbrola/voices/fr1
+French MBROLA Voices"
+
+{{< files text="show files" >}}* /usr/share/mbrola/voices/fr1
 * /usr/share/mbrola/voices/fr2
 * /usr/share/mbrola/voices/fr3
 * /usr/share/mbrola/voices/fr4

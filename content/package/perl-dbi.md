@@ -14,7 +14,9 @@ sha1sum = "14fd9ca38fb3b4e2fe1481472b66255b2924e10b"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['spamassassin']"
 +++
-Database independent interface for Perl{{< files text="show files" >}}* /usr/bin/site_perl/dbilogstrip
+Database independent interface for Perl"
+
+{{< files text="show files" >}}* /usr/bin/site_perl/dbilogstrip
 * /usr/bin/site_perl/dbiprof
 * /usr/bin/site_perl/dbiproxy
 * /usr/lib/perl5/5.38/site_perl/auto/DBI/dbd_xsh.h

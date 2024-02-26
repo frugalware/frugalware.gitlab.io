@@ -14,7 +14,9 @@ sha1sum = "3880d54fbf7d01c674f0ea93c80ff807e2be3a36"
 depends = "['qt5-declarative>=5.15.12']"
 reverse_depends = "['labplot', 'libmarble', 'qt5-serialbus', 'stellarium']"
 +++
-The Qt5 toolkit, qtserialport{{< files text="show files" >}}* /usr/include/qt5/QtSerialPort/5.15.12/QtSerialPort/private/qserialportinfo_p.h
+The Qt5 toolkit, qtserialport"
+
+{{< files text="show files" >}}* /usr/include/qt5/QtSerialPort/5.15.12/QtSerialPort/private/qserialportinfo_p.h
 * /usr/include/qt5/QtSerialPort/5.15.12/QtSerialPort/private/qserialport_p.h
 * /usr/include/qt5/QtSerialPort/5.15.12/QtSerialPort/private/qtserialport-config_p.h
 * /usr/include/qt5/QtSerialPort/5.15.12/QtSerialPort/private/qtudev_p.h

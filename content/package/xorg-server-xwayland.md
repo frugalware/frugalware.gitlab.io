@@ -14,7 +14,9 @@ sha1sum = "aaa600705ceb00561effc3b854bc15df49e74d03"
 depends = "['egl-wayland', 'libepoxy', 'libtirpc', 'libxcvt', 'libxfont2', 'nettle', 'pixman']"
 reverse_depends = "['plasma-wayland-session']"
 +++
-run X clients under wayland{{< files text="show files" >}}* /usr/bin/Xwayland
+run X clients under wayland"
+
+{{< files text="show files" >}}* /usr/bin/Xwayland
 * /usr/lib/pkgconfig/xwayland.pc
 * /usr/share/applications/org.freedesktop.Xwayland.desktop
 * /usr/share/doc/xorg-server-xwayland-23.2.4/COPYING

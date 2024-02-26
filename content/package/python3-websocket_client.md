@@ -14,7 +14,9 @@ sha1sum = "028ecaaba2731bef8e706147ebeac66bbe07ddab"
 depends = "['python3>=3.11']"
 reverse_depends = "['discover-overlay', 'streamlink']"
 +++
-WebSocket client for Python3. hybi13 is supported.{{< files text="show files" >}}* /usr/bin/wsdump
+WebSocket client for Python3. hybi13 is supported."
+
+{{< files text="show files" >}}* /usr/bin/wsdump
 * /usr/lib/python3.12/site-packages/websocket/py.typed
 * /usr/lib/python3.12/site-packages/websocket/tests/data/header01.txt
 * /usr/lib/python3.12/site-packages/websocket/tests/data/header02.txt

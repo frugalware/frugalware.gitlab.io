@@ -14,7 +14,9 @@ sha1sum = "6940b8e8dc30e6b0579b0c8fa54db86dd60ada75"
 depends = "['haskell-random>=1.2.1']"
 reverse_depends = "['haskell-hslua-module-system', 'pandoc']"
 +++
-Portable temporary file and directory support{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/temporary-1.3/libHStemporary-1.3-8T4z3OTw6Zr5WKUsWyH66B.a
+Portable temporary file and directory support"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/temporary-1.3/libHStemporary-1.3-8T4z3OTw6Zr5WKUsWyH66B.a
 * /usr/lib/ghc-9.8.1/site-local/temporary-1.3/System/IO/Temp.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/temporary-1.3/System/IO/Temp.hi
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHStemporary-1.3-8T4z3OTw6Zr5WKUsWyH66B-ghc9.8.1.so

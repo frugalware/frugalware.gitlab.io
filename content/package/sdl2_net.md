@@ -14,7 +14,9 @@ sha1sum = "3fba234fe3620a2aedc537eaafbaf48970e939f2"
 depends = "['sdl2']"
 reverse_depends = "['maxr', 'opendiablo2', 'scummvm']"
 +++
-A small sample cross-platform networking library{{< files text="show files" >}}* /usr/include/SDL2/SDL_net.h
+A small sample cross-platform networking library"
+
+{{< files text="show files" >}}* /usr/include/SDL2/SDL_net.h
 * /usr/lib/cmake/SDL2_net/sdl2_net-config-version.cmake
 * /usr/lib/cmake/SDL2_net/sdl2_net-config.cmake
 * /usr/lib/libSDL2_net-2.0.so.0

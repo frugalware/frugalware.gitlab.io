@@ -13,7 +13,9 @@ usize = "669768"
 sha1sum = "a44b471e2a4a28f96f03b7623ef474717c70885f"
 depends = "['libgfortran>=11.2']"
 +++
-Basic Linear Algebra Subprograms.{{< files text="show files" >}}* /usr/lib/libblas64.so
+Basic Linear Algebra Subprograms."
+
+{{< files text="show files" >}}* /usr/lib/libblas64.so
 * /usr/lib/libblas64.so.3
 * /usr/lib/libblas64.so.3.12.0
 * /usr/lib/pkgconfig/blas64.pc

@@ -14,7 +14,9 @@ sha1sum = "7ace63165c33ac2a7e56ce911b697b6a40ad707b"
 depends = "['dbus', 'libusb1']"
 reverse_depends = "['arpwatch', 'ethereal', 'faifa', 'hyperscan', 'knock', 'ksysguard5', 'ldns', 'nethogs', 'nmap', 'openvas-libraries', 'ppp', 'tcpdump', 'tcpreplay', 'umockdev', 'vde2', 'wavemon', 'wine', 'wine-devel', 'wireshark']"
 +++
-Library for tcpdump{{< files text="show files" >}}* /usr/bin/pcap-config
+Library for tcpdump"
+
+{{< files text="show files" >}}* /usr/bin/pcap-config
 * /usr/include/pcap-bpf.h
 * /usr/include/pcap-namedb.h
 * /usr/include/pcap.h

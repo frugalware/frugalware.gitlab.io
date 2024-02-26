@@ -14,7 +14,9 @@ sha1sum = "7c03e4e860472cf09ccb63437f0d23342f143282"
 depends = "['glibc']"
 license = "GPL"
 +++
-Antiword is a free MS Word reader for Linux and RISC OS{{< files text="show files" >}}* /usr/bin/antiword
+Antiword is a free MS Word reader for Linux and RISC OS"
+
+{{< files text="show files" >}}* /usr/bin/antiword
 * /usr/share/antiword/8859-1.txt
 * /usr/share/antiword/8859-10.txt
 * /usr/share/antiword/8859-11.txt

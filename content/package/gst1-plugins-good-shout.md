@@ -13,5 +13,7 @@ usize = "34672"
 sha1sum = "32640b0cf1b08e262e34bfa6a37c4261716ba4df"
 depends = "['gst1-plugins-base>=1.22.10', 'gst1-plugins-good>=1.22.10', 'libffi>=3.2.1-2', 'libshout>=2.4.1-7']"
 +++
-GStreamer shout plugin (Good).{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstshout2.so
+GStreamer shout plugin (Good)."
+
+{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstshout2.so
 {{< /files >}}

@@ -13,7 +13,9 @@ usize = "1238290"
 sha1sum = "b2e7dd9d8bcd639590f8efbe209a760c67712a88"
 depends = "[]"
 +++
-HttpClient is a HTTP/1.1 compliant HTTP agent implementation based on HttpCore.{{< files text="show files" >}}* /usr/share/doc/httpcomponents-client-5.1.3/README.md
+HttpClient is a HTTP/1.1 compliant HTTP agent implementation based on HttpCore."
+
+{{< files text="show files" >}}* /usr/share/doc/httpcomponents-client-5.1.3/README.md
 * /usr/share/doc/httpcomponents-client-5.1.3/README.txt
 * /usr/share/doc/httpcomponents-client-5.1.3/RELEASE_NOTES.txt
 * /usr/share/java/httpclient5-5.1.3.jar

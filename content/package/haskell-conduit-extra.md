@@ -14,7 +14,9 @@ sha1sum = "a03b7cad5cc4cfa3fc9c63d67f4e5c3be5c419f0"
 depends = "['haskell-attoparsec', 'haskell-conduit', 'haskell-streaming-commons', 'haskell-typed-process']"
 reverse_depends = "['haskell-xml-conduit']"
 +++
-Batteries included conduit: adapters for common libraries{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/conduit-extra-1.3.6/Data/Conduit/Attoparsec.dyn_hi
+Batteries included conduit: adapters for common libraries"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/conduit-extra-1.3.6/Data/Conduit/Attoparsec.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/conduit-extra-1.3.6/Data/Conduit/Attoparsec.hi
 * /usr/lib/ghc-9.8.1/site-local/conduit-extra-1.3.6/Data/Conduit/Binary.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/conduit-extra-1.3.6/Data/Conduit/Binary.hi

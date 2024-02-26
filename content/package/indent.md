@@ -13,7 +13,9 @@ usize = "578135"
 sha1sum = "8a613e26dadb491ef57c05cd1cdbce0ad40f5ce0"
 depends = "['glibc>=2.34']"
 +++
-The GNU Pretty-printer{{< files text="show files" >}}* /usr/bin/indent
+The GNU Pretty-printer"
+
+{{< files text="show files" >}}* /usr/bin/indent
 * /usr/share/doc/indent-2.2.13/AUTHORS
 * /usr/share/doc/indent-2.2.13/ChangeLog
 * /usr/share/doc/indent-2.2.13/COPYING

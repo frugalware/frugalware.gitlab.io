@@ -13,5 +13,7 @@ usize = "14104"
 sha1sum = "35c6293824a0e916b6efc5bf72d28ee3d637b3ba"
 depends = "['libvlc>=3.0.20', 'sdlimage']"
 +++
-vlc plugin for sdlimage{{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/libsdl_image_plugin.so
+vlc plugin for sdlimage"
+
+{{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/libsdl_image_plugin.so
 {{< /files >}}

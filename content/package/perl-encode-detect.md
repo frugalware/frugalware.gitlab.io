@@ -14,7 +14,9 @@ sha1sum = "4e55aec6baf0c252e29fc46897e194281d2c02c5"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['spamassassin']"
 +++
-An Encode::Encoding subclass that detects the encoding of data{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/Encode/Detect/Detector/Detector.bs
+An Encode::Encoding subclass that detects the encoding of data"
+
+{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/Encode/Detect/Detector/Detector.bs
 * /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/Encode/Detect/Detector/Detector.so
 * /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Encode/Detect.pm
 * /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Encode/Detect/Detector.pm

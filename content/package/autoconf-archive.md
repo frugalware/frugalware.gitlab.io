@@ -13,7 +13,9 @@ usize = "2748710"
 sha1sum = "4d1bbc93b301e0a8ead06bb7798204c8eb8e5049"
 depends = "['autoconf']"
 +++
-A collection of freely re-usable Autoconf macros{{< files text="show files" >}}* /usr/share/aclocal/ax_absolute_header.m4
+A collection of freely re-usable Autoconf macros"
+
+{{< files text="show files" >}}* /usr/share/aclocal/ax_absolute_header.m4
 * /usr/share/aclocal/ax_ac_append_to_file.m4
 * /usr/share/aclocal/ax_ac_print_to_file.m4
 * /usr/share/aclocal/ax_add_am_macro.m4

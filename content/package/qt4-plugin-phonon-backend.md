@@ -13,5 +13,7 @@ usize = "271760"
 sha1sum = "adab1098629a551541ce9613a1ad77471fe2107b"
 depends = "['libqtphonon']"
 +++
-Qt4 Phonon Backend(s) Plugin{{< files text="show files" >}}* usr/lib/qt4/plugins/phonon_backend/libphonon_gstreamer.so
+Qt4 Phonon Backend(s) Plugin"
+
+{{< files text="show files" >}}* usr/lib/qt4/plugins/phonon_backend/libphonon_gstreamer.so
 {{< /files >}}

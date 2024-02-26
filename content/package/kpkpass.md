@@ -14,7 +14,9 @@ sha1sum = "85ebda6ec0005ae80e66ecc79872dde2ab68600e"
 depends = "['karchive>=5.115.0', 'shared-mime-info']"
 reverse_depends = "['itinerary', 'kitinerary']"
 +++
-Apple Wallet Pass reader{{< files text="show files" >}}* /usr/include/KPim5/KPkPass/Barcode
+Apple Wallet Pass reader"
+
+{{< files text="show files" >}}* /usr/include/KPim5/KPkPass/Barcode
 * /usr/include/KPim5/KPkPass/barcode.h
 * /usr/include/KPim5/KPkPass/BoardingPass
 * /usr/include/KPim5/KPkPass/boardingpass.h

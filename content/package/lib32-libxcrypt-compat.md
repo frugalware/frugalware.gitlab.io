@@ -14,6 +14,8 @@ sha1sum = "1368ae3b447372d0f2bfce19f639dd0a3f48c743"
 depends = "['glibc', 'lib32-libxcrypt']"
 reverse_depends = "['get_steam', 'steam-native']"
 +++
-Modern library for one-way hashing of passwords - lib32 glibc compat{{< files text="show files" >}}* /usr/lib32/libcrypt.so.1
+Modern library for one-way hashing of passwords - lib32 glibc compat"
+
+{{< files text="show files" >}}* /usr/lib32/libcrypt.so.1
 * /usr/lib32/libcrypt.so.1.1.0
 {{< /files >}}

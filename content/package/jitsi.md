@@ -13,7 +13,9 @@ usize = "74865795"
 sha1sum = "635806dabda1c646e63f220dffddf824c27422b4"
 depends = "['openjre-x>=7u65_2.5.2']"
 +++
-An audio/video SIP VoIP phone and instant messenger written in Java (formerly SIP-Communicator){{< files text="show files" >}}* /usr/bin/jitsi
+An audio/video SIP VoIP phone and instant messenger written in Java (formerly SIP-Communicator)"
+
+{{< files text="show files" >}}* /usr/bin/jitsi
 * /usr/lib/jitsi/lib/*.jar
 * /usr/lib/jitsi/lib/bundle/commons-logging.jar
 * /usr/lib/jitsi/lib/bundle/junit.jar

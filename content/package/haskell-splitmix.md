@@ -14,7 +14,9 @@ sha1sum = "033790a1d0ec233bbc785c4efa232a908989a96e"
 depends = "['ghc>=9.8.1']"
 reverse_depends = "['haskell-quickcheck', 'haskell-random', 'haskell-streaming-commons']"
 +++
-Fast Splittable PRNG{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/splitmix-0.1.0.5/Data/Bits/Compat.dyn_hi
+Fast Splittable PRNG"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/splitmix-0.1.0.5/Data/Bits/Compat.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/splitmix-0.1.0.5/Data/Bits/Compat.hi
 * /usr/lib/ghc-9.8.1/site-local/splitmix-0.1.0.5/libHSsplitmix-0.1.0.5-J7EGI09oGevALMYypXrdjy.a
 * /usr/lib/ghc-9.8.1/site-local/splitmix-0.1.0.5/System/Random/SplitMix.dyn_hi

@@ -13,7 +13,9 @@ usize = "412201"
 sha1sum = "94e8b2c20eca5c53779b64673ce50db31ffdac13"
 depends = "['cryptsetup-luks', 'kmod', 'libidn2', 'libseccomp', 'libsystemd>=255.3']"
 +++
-Spawn a command or OS in a light-weight container.{{< files text="show files" >}}* /usr/bin/systemd-nspawn
+Spawn a command or OS in a light-weight container."
+
+{{< files text="show files" >}}* /usr/bin/systemd-nspawn
 * /usr/lib/systemd/system/systemd-nspawn@.service
 * /usr/lib/tmpfiles.d/systemd-nspawn.conf
 * /usr/share/bash-completion/completions/systemd-nspawn

@@ -13,7 +13,9 @@ usize = "2649378"
 sha1sum = "666cf7a957d583fe9b4f421e7068fcd9a2b74976"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Irish support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/ga/LC_MESSAGES/acc.mo
+Installs Irish support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/ga/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/ga/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/ga/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/ga/LC_MESSAGES/chart.mo

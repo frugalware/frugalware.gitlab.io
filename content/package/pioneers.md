@@ -13,7 +13,9 @@ usize = "2432800"
 sha1sum = "ef73b0422a5ae311cf9f71b7dcca4ad83e236624"
 depends = "['gtk+2']"
 +++
-A clone of the famous Siedler of Catan game{{< files text="show files" >}}* /usr/bin/pioneers-metaserver
+A clone of the famous Siedler of Catan game"
+
+{{< files text="show files" >}}* /usr/bin/pioneers-metaserver
 * /usr/bin/pioneers-server-console
 * /usr/bin/pioneersai
 * /usr/share/doc/pioneers-15.6/AUTHORS

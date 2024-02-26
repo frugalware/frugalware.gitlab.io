@@ -13,7 +13,9 @@ usize = "1131324"
 sha1sum = "0c7c53a8782029bd88f2b7c6ce34d22c3802281c"
 depends = "['git', 'qt5-base>=5.15.10']"
 +++
-QGit is a git GUI viewer built on Qt/C++.{{< files text="show files" >}}* /usr/bin/qgit
+QGit is a git GUI viewer built on Qt/C++."
+
+{{< files text="show files" >}}* /usr/bin/qgit
 * /usr/share/applications/qgit.desktop
 * /usr/share/doc/qgit-2.10/COPYING.rtf
 * /usr/share/doc/qgit-2.10/README.adoc

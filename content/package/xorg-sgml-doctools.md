@@ -14,7 +14,9 @@ sha1sum = "7e39d3fab8b8916fc30cc23294fd5269eb25f193"
 depends = "['util-macros']"
 license = "GPL2"
 +++
-X.Org SGML Doctools{{< files text="show files" >}}* /usr/lib/pkgconfig/xorg-sgml-doctools.pc
+X.Org SGML Doctools"
+
+{{< files text="show files" >}}* /usr/lib/pkgconfig/xorg-sgml-doctools.pc
 * /usr/share/doc/xorg-sgml-doctools-1.12/ChangeLog
 * /usr/share/doc/xorg-sgml-doctools-1.12/COPYING
 * /usr/share/doc/xorg-sgml-doctools-1.12/INSTALL

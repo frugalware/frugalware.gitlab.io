@@ -13,7 +13,9 @@ usize = "126818"
 sha1sum = "586d906a000205c0607bb693283b9cbbc7e53b3a"
 depends = "['curl']"
 +++
-An unofficial C-API for the Last.fm web service{{< files text="show files" >}}* /usr/include/clastfm.h
+An unofficial C-API for the Last.fm web service"
+
+{{< files text="show files" >}}* /usr/include/clastfm.h
 * /usr/lib/libclastfm.so
 * /usr/lib/libclastfm.so.0
 * /usr/lib/libclastfm.so.0.0.0

@@ -14,7 +14,9 @@ sha1sum = "41445c7fb1797bda351d6c4441730cf49576bed8"
 depends = "['popt>=1.16-9']"
 reverse_depends = "['efibootmgr', 'fwupd', 'pesign']"
 +++
-Library to manipulate EFI variables{{< files text="show files" >}}* /usr/bin/efisecdb
+Library to manipulate EFI variables"
+
+{{< files text="show files" >}}* /usr/bin/efisecdb
 * /usr/bin/efivar
 * /usr/include/efivar/efiboot-creator.h
 * /usr/include/efivar/efiboot-loadopt.h

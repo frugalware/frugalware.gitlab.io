@@ -14,7 +14,9 @@ sha1sum = "5521c38486fdd4a70b3a318769ab1d1da071beae"
 depends = "['libcap>=2.24-4', 'nettle>=3.6', 'readline>=8.0']"
 reverse_depends = "['networkmanager-dispatcher-chrony']"
 +++
-Dial-up friendly NTP daemon and excellent replacement for NTP on desktop systems{{< files text="show files" >}}* /etc/chrony.conf
+Dial-up friendly NTP daemon and excellent replacement for NTP on desktop systems"
+
+{{< files text="show files" >}}* /etc/chrony.conf
 * /etc/chrony.keys
 * /usr/bin/chronyc
 * /usr/bin/chronyd

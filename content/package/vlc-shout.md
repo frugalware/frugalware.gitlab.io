@@ -13,5 +13,7 @@ usize = "22296"
 sha1sum = "cd99a49874f5086ad021f09459f08fae51f0ffce"
 depends = "['libshout', 'libvlc>=3.0.20', 'openssl>=1.1.1']"
 +++
-vlc plugin for Shout/Icecast{{< files text="show files" >}}* /usr/lib/vlc/plugins/access_output/libaccess_output_shout_plugin.so
+vlc plugin for Shout/Icecast"
+
+{{< files text="show files" >}}* /usr/lib/vlc/plugins/access_output/libaccess_output_shout_plugin.so
 {{< /files >}}

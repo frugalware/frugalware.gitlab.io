@@ -13,7 +13,9 @@ usize = "12140545"
 sha1sum = "ee9dbf61046fd603d4732746e81601d99bf56bb3"
 depends = "['cmark', 'hunspell', 'kxmlgui', 'mathjax', 'qt5-webchannel', 'qt5-webengine', 'sonnet']"
 +++
-Aesthetic, distraction-free Markdown editor{{< files text="show files" >}}* /usr/bin/ghostwriter
+Aesthetic, distraction-free Markdown editor"
+
+{{< files text="show files" >}}* /usr/bin/ghostwriter
 * /usr/share/applications/org.kde.ghostwriter.desktop
 * /usr/share/doc/ghostwriter-23.08.5/COPYING
 * /usr/share/doc/ghostwriter-23.08.5/README.md

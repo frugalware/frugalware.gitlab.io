@@ -14,7 +14,9 @@ sha1sum = "310d8298aeea952da246b5e54bf46acca1483470"
 depends = "['python3>=3.11']"
 reverse_depends = "['openrazer']"
 +++
-Allows a python process to change its process title{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/setproctitle-1.3.3-py3.12.egg-info/dependency_links.txt
+Allows a python process to change its process title"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/setproctitle-1.3.3-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/setproctitle-1.3.3-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/setproctitle-1.3.3-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/setproctitle-1.3.3-py3.12.egg-info/requires.txt

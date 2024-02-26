@@ -14,7 +14,9 @@ sha1sum = "9f1c8f37fb9686205f1823f230947f008566dfb0"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-mono-traversable', 'haskell-texmath']"
 +++
-Combinator library for splitting lists.{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/split-0.2.4/Data/List/Split.dyn_hi
+Combinator library for splitting lists."
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/split-0.2.4/Data/List/Split.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/split-0.2.4/Data/List/Split.hi
 * /usr/lib/ghc-9.8.1/site-local/split-0.2.4/Data/List/Split/Internals.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/split-0.2.4/Data/List/Split/Internals.hi

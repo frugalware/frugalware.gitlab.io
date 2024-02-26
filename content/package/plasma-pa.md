@@ -14,7 +14,9 @@ sha1sum = "c0d110109cae4d6329c3b21d5dffc0b06adbaedf"
 depends = "['gst1-plugins-good-pulseaudio', 'kcmutils>=5.115.0', 'kdeclarative>=5.115.0', 'libcanberra', 'libcanberra-pulseaudio', 'phonon-backend-gstreamer', 'plasma-framework>=5.115.0', 'pulseaudio', 'sound-theme-freedesktop']"
 reverse_depends = "['plasma-bigscreen']"
 +++
-Plasma applet written in QML for PulseAudio{{< files text="show files" >}}* /usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_pulseaudio.so
+Plasma applet written in QML for PulseAudio"
+
+{{< files text="show files" >}}* /usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_pulseaudio.so
 * /usr/share/applications/kcm_pulseaudio.desktop
 * /usr/share/doc/HTML/ca/kcontrol/plasma-pa/index.cache.bz2
 * /usr/share/doc/HTML/ca/kcontrol/plasma-pa/index.docbook

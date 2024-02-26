@@ -13,7 +13,9 @@ usize = "0"
 sha1sum = "788a130effcef6aea8b85a4face59386b399996a"
 depends = "[]"
 +++
-Rosegarden is a professional audio MIDI sequencer,score editor,music composition and editing environment.{{< files text="show files" >}}* usr/bin/rosegarden
+Rosegarden is a professional audio MIDI sequencer,score editor,music composition and editing environment."
+
+{{< files text="show files" >}}* usr/bin/rosegarden
 * usr/bin/rosegarden-lilypondview
 * usr/bin/rosegarden-project-package
 * usr/bin/rosegardensequencer

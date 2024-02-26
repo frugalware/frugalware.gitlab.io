@@ -13,7 +13,9 @@ usize = "1082562"
 sha1sum = "98ed9ea63ba2cdb10ee9d744edcecb9d41ce31b7"
 depends = "['unicode-character-database']"
 +++
-Unicode Emoji Data Files{{< files text="show files" >}}* /usr/share/unicode/emoji/emoji-sequences.txt
+Unicode Emoji Data Files"
+
+{{< files text="show files" >}}* /usr/share/unicode/emoji/emoji-sequences.txt
 * /usr/share/unicode/emoji/emoji-test.txt
 * /usr/share/unicode/emoji/emoji-zwj-sequences.txt
 {{< /files >}}

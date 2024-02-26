@@ -13,7 +13,9 @@ usize = "1328603"
 sha1sum = "9a37464e98525998cec1accbce51022a26df7d85"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Swazi support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/ss/LC_MESSAGES/acc.mo
+Installs Swazi support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/ss/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/ss/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/ss/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/ss/LC_MESSAGES/chart.mo

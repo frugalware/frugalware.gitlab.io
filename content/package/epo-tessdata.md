@@ -13,5 +13,7 @@ usize = "11330531"
 sha1sum = "b3764277a69a26f7d7adbf31bee8e671a58e32b6"
 depends = "['glibc']"
 +++
-Language specific files for tesseract lang epo{{< files text="show files" >}}* /usr/share/tessdata/epo.traineddata
+Language specific files for tesseract lang epo"
+
+{{< files text="show files" >}}* /usr/share/tessdata/epo.traineddata
 {{< /files >}}

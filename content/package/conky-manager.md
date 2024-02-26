@@ -13,7 +13,9 @@ usize = "445831"
 sha1sum = "aeb5cf759189d653a007652f293c57ed8b6a8b82"
 depends = "['gtk+3', 'json-glib', 'libgee8']"
 +++
-Graphical front-end for managing Conky config files.{{< files text="show files" >}}* /usr/bin/conky-manager2
+Graphical front-end for managing Conky config files."
+
+{{< files text="show files" >}}* /usr/bin/conky-manager2
 * /usr/share/appdata/conky-manager2.appdata.xml
 * /usr/share/applications/conky-manager2.desktop
 * /usr/share/conky-manager2/images/conky-manager.xcf

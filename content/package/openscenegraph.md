@@ -14,7 +14,9 @@ sha1sum = "80a7fb8ce722ccaaa60f098b41f98dbf9232b363"
 depends = "['cairo', 'curl', 'jasper>=2.0.10', 'libglvnd', 'libjpeg-turbo', 'libpng>=1.6.25', 'librsvg', 'libtiff', 'libxrandr', 'poppler-glib>=0.60.1-2', 'sdl2']"
 reverse_depends = "['flightgear', 'pdal']"
 +++
-A high performance 3D graphics toolkit.{{< files text="show files" >}}* /usr/bin/osgarchive
+A high performance 3D graphics toolkit."
+
+{{< files text="show files" >}}* /usr/bin/osgarchive
 * /usr/bin/osgconv
 * /usr/bin/osgfilecache
 * /usr/bin/osgversion

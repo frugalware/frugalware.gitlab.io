@@ -13,7 +13,9 @@ usize = "33164624"
 sha1sum = "7c2cecf3d29171e8a66e910fb06acdf3e3cd9757"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Macedonian support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/mk/default.css
+Installs Macedonian support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/help/mk/default.css
 * /usr/lib/libreoffice/help/mk/err.html
 * /usr/lib/libreoffice/help/mk/highcontrast1.css
 * /usr/lib/libreoffice/help/mk/highcontrast2.css

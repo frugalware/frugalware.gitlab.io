@@ -14,7 +14,9 @@ sha1sum = "28cc846922564e3fb341d3df3f9d54edd3c7b8b0"
 depends = "['akonadi>=23.08.5', 'pimcommon>=23.08.5']"
 reverse_depends = "['messagelib']"
 +++
-A library that provides an interface for the Gravatar API{{< files text="show files" >}}* /usr/include/KPim5/Gravatar/Gravatar/GravatarCache
+A library that provides an interface for the Gravatar API"
+
+{{< files text="show files" >}}* /usr/include/KPim5/Gravatar/Gravatar/GravatarCache
 * /usr/include/KPim5/Gravatar/gravatar/gravatarcache.h
 * /usr/include/KPim5/Gravatar/Gravatar/GravatarConfigureSettingsDialog
 * /usr/include/KPim5/Gravatar/gravatar/gravatarconfiguresettingsdialog.h

@@ -14,5 +14,7 @@ sha1sum = "becbbd345804b3475315e1b7f417cf4a0e079f23"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
-Basque language support for Thunderbird{{< files text="show files" >}}* /usr/lib/thunderbird/extensions/langpack-eu@thunderbird.mozilla.org.xpi
+Basque language support for Thunderbird"
+
+{{< files text="show files" >}}* /usr/lib/thunderbird/extensions/langpack-eu@thunderbird.mozilla.org.xpi
 {{< /files >}}

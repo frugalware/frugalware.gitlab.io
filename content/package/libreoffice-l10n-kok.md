@@ -13,7 +13,9 @@ usize = "1943740"
 sha1sum = "3fbc55b26ee63a90d089b7db7fed6b6eecb4c9cb"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Konkani support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/kok/LC_MESSAGES/acc.mo
+Installs Konkani support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/kok/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/kok/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/kok/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/kok/LC_MESSAGES/chart.mo

@@ -13,7 +13,9 @@ usize = "16529555"
 sha1sum = "b9722577c88a04f08a8b7fa16bd2fe3c9fa40d95"
 depends = "['intel-tbb', 'libstdc++', 'openssl>=3.1.0', 'zstd']"
 +++
-A Modern Linker{{< files text="show files" >}}* /usr/bin/ld.mold
+A Modern Linker"
+
+{{< files text="show files" >}}* /usr/bin/ld.mold
 * /usr/bin/mold
 * /usr/lib/mold/ld
 * /usr/lib/mold/mold-wrapper.so

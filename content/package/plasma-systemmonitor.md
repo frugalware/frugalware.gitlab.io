@@ -13,7 +13,9 @@ usize = "1315541"
 sha1sum = "fc517b53b3a42d2cab5c04b4ace4f4cdb4026faa"
 depends = "['kdeclarative>=5.115.0', 'kirigami2>=5.115.0', 'kitemmodels>=5.115.0', 'ksystemstats>=5.27.10']"
 +++
-An interface for monitoring system sensors, process information and other system resources{{< files text="show files" >}}* /usr/bin/plasma-systemmonitor
+An interface for monitoring system sensors, process information and other system resources"
+
+{{< files text="show files" >}}* /usr/bin/plasma-systemmonitor
 * /usr/share/applications/org.kde.plasma-systemmonitor.desktop
 * /usr/share/config.kcfg/systemmonitor.kcfg
 * /usr/share/doc/plasma-systemmonitor-5.27.10/README.md

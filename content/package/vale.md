@@ -13,7 +13,9 @@ usize = "23109201"
 sha1sum = "6425befc5599f816d96cdc1ce8c3997d1ed75f50"
 depends = "['glibc']"
 +++
-A customizable, syntax-aware linter for prose{{< files text="show files" >}}* /usr/bin/vale
+A customizable, syntax-aware linter for prose"
+
+{{< files text="show files" >}}* /usr/bin/vale
 * /usr/share/doc/vale-2.30.0/LICENSE
 * /usr/share/doc/vale-2.30.0/README.md
 {{< /files >}}

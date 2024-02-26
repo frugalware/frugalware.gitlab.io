@@ -14,7 +14,9 @@ sha1sum = "b6ffc7ded2f4ae9e61f8674fe7e3018f201609e9"
 depends = "['glibc']"
 reverse_depends = "['telegram-desktop']"
 +++
-Comprehensive support for concurrent code execution on multicore hardware{{< files text="show files" >}}* /usr/include/Block.h
+Comprehensive support for concurrent code execution on multicore hardware"
+
+{{< files text="show files" >}}* /usr/include/Block.h
 * /usr/include/dispatch/base.h
 * /usr/include/dispatch/block.h
 * /usr/include/dispatch/data.h

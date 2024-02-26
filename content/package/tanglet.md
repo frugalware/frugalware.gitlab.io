@@ -13,7 +13,9 @@ usize = "24859776"
 sha1sum = "5a0e7f3e5c90ac528c5a6939f4ded6c40cc73cec"
 depends = "['qt6-base']"
 +++
-Tanglet is a single player word finding game based on Boggle(tm).{{< files text="show files" >}}* /usr/bin/tanglet
+Tanglet is a single player word finding game based on Boggle(tm)."
+
+{{< files text="show files" >}}* /usr/bin/tanglet
 * /usr/share/applications/tanglet.desktop
 * /usr/share/doc/tanglet-1.6.4/ChangeLog
 * /usr/share/doc/tanglet-1.6.4/COPYING

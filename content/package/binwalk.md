@@ -13,7 +13,9 @@ usize = "811471"
 sha1sum = "e0dcc0dd192405c44802eec09a111cc8332e16a0"
 depends = "['7zip', 'bzip2', 'cabextract', 'cpio', 'gzip', 'mtd-utils', 'python3', 'squashfs', 'tar', 'unrar', 'xz']"
 +++
-Tool for searching a given binary image for embedded files{{< files text="show files" >}}* /usr/bin/binwalk
+Tool for searching a given binary image for embedded files"
+
+{{< files text="show files" >}}* /usr/bin/binwalk
 * /usr/lib/python3.12/site-packages/binwalk-2.3.3-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/binwalk-2.3.3-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/binwalk-2.3.3-py3.12.egg-info/SOURCES.txt

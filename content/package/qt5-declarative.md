@@ -14,7 +14,9 @@ sha1sum = "bc4b100989c0cf9db30be768bc3d0914feba4c8d"
 depends = "['qt5-base>=5.15.10']"
 reverse_depends = "['akonadi-search', 'analitza', 'bluez-qt', 'calamares-frugalware', 'dolphin', 'flightgear', 'kaccounts-integration', 'kanagram', 'kate', 'kdenlive', 'khangman', 'kiconthemes', 'kirigami2', 'kopeninghours', 'kpeople5', 'kpublictransport', 'kqtquickcharts', 'kquickimageeditor', 'kuserfeedback', 'libkdegames', 'okteta', 'print-manager', 'qcoro', 'qmlalembic', 'qmltermwidget', 'qownnotes', 'qt5-3d', 'qt5-charts', 'qt5-connectivity', 'qt5-datavis3d', 'qt5-gamepad', 'qt5-graphicaleffects', 'qt5-gstreamer', 'qt5-location', 'qt5-lottie', 'qt5-multimedia', 'qt5-purchasing', 'qt5-quick3d', 'qt5-quickcontrols', 'qt5-quickcontrols2', 'qt5-quicktimeline', 'qt5-remoteobjects', 'qt5-scxml', 'qt5-sensors', 'qt5-serialport', 'qt5-tools', 'qt5-translations', 'qt5-virtualkeyboard', 'qt5-wayland', 'qt5-webchannel', 'qt5-webengine', 'qt5-webglplugin', 'qt5-websockets', 'qtav', 'scribus', 'sddm', 'solid', 'tiled']"
 +++
-The Qt5 toolkit, qtdeclarative{{< files text="show files" >}}* /usr/bin/qml
+The Qt5 toolkit, qtdeclarative"
+
+{{< files text="show files" >}}* /usr/bin/qml
 * /usr/bin/qml-qt5
 * /usr/bin/qmlcachegen
 * /usr/bin/qmlcachegen-qt5

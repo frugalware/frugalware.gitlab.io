@@ -14,7 +14,9 @@ sha1sum = "9e5032ef28e0879fa86a4e79f39f3f0e5f06c1f9"
 depends = "['haskell-hashable>=1.4.2.0']"
 reverse_depends = "['haskell-network-control']"
 +++
-Pure priority search queues{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/psqueues-0.2.8.0/Data/BitUtil.dyn_hi
+Pure priority search queues"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/psqueues-0.2.8.0/Data/BitUtil.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/psqueues-0.2.8.0/Data/BitUtil.hi
 * /usr/lib/ghc-9.8.1/site-local/psqueues-0.2.8.0/Data/HashPSQ.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/psqueues-0.2.8.0/Data/HashPSQ.hi

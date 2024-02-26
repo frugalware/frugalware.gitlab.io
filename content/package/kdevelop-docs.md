@@ -13,7 +13,9 @@ usize = "0"
 sha1sum = "a25fea9eaaab822c7a3588f81a18d93fdfc863b2"
 depends = "[]"
 +++
-Documentation for the KDevelop package.{{< files text="show files" >}}* usr/share/apps/kdevdocumentation/tocs/kdev3api.toc
+Documentation for the KDevelop package."
+
+{{< files text="show files" >}}* usr/share/apps/kdevdocumentation/tocs/kdev3api.toc
 * usr/share/apps/kdevdocumentation/tocs/opengl.toc
 * usr/share/apps/kdevdocumentation/tocs/sdl.toc
 * usr/share/apps/kdevdocumentation/tocs/w3c-dom-level2-html.toc

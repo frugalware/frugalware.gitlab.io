@@ -13,7 +13,9 @@ usize = "431524"
 sha1sum = "290d6c6114750859c51feb6683ad2a9cbcf80530"
 depends = "['php>=5.5.14']"
 +++
-XCache is a fast, stable PHP opcode cacher.{{< files text="show files" >}}* /usr/lib/php/xcache.so
+XCache is a fast, stable PHP opcode cacher."
+
+{{< files text="show files" >}}* /usr/lib/php/xcache.so
 * /usr/share/doc/xcache-3.2.0/AUTHORS
 * /usr/share/doc/xcache-3.2.0/ChangeLog
 * /usr/share/doc/xcache-3.2.0/COPYING

@@ -14,7 +14,9 @@ sha1sum = "5c38ca714ce9d993286377e5963182e581ca8092"
 depends = "['openssl>=3.0.7', 'scriptlet-core']"
 reverse_depends = "['aria2', 'glib-networking', 'networkmanager', 'p11-kit']"
 +++
-Common CA certificates{{< files text="show files" >}}* /etc/ca-certificates.conf
+Common CA certificates"
+
+{{< files text="show files" >}}* /etc/ca-certificates.conf
 * /usr/bin/openssl-c_rehash.sh
 * /usr/bin/update-ca-certificates
 * /usr/share/ca-certificates/mozilla/ACCVRAIZ1.crt

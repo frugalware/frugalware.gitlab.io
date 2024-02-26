@@ -14,7 +14,9 @@ sha1sum = "a4f38edc136650482dc9cab23d4a0bfde16d5f4f"
 depends = "['libksysguard5>=5.27.10', 'networkmanager-qt']"
 reverse_depends = "['plasma-systemmonitor']"
 +++
-A plugin based system monitoring daemon{{< files text="show files" >}}* /usr/bin/kstatsviewer
+A plugin based system monitoring daemon"
+
+{{< files text="show files" >}}* /usr/bin/kstatsviewer
 * /usr/bin/ksystemstats
 * /usr/lib/qt5/plugins/ksystemstats/ksystemstats_plugin_cpu.so
 * /usr/lib/qt5/plugins/ksystemstats/ksystemstats_plugin_disk.so

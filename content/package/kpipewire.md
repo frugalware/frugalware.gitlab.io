@@ -14,7 +14,9 @@ sha1sum = "208f9eca503fcc6b8524f1548a16ff89e928849d"
 depends = "['ffmpeg>=6.0', 'kcoreaddons>=5.115.0', 'ki18n>=5.115.0', 'kwayland>=5.115.0', 'libepoxy', 'pipewire']"
 reverse_depends = "['krfb-pipewire', 'plasma-wayland-session', 'spectacle']"
 +++
-Components relating to pipewire use in Plasma{{< files text="show files" >}}* /usr/include/KPipeWire/DmaBufHandler
+Components relating to pipewire use in Plasma"
+
+{{< files text="show files" >}}* /usr/include/KPipeWire/DmaBufHandler
 * /usr/include/KPipeWire/dmabufhandler.h
 * /usr/include/KPipeWire/kpipewiredmabuf_export.h
 * /usr/include/KPipeWire/kpipewire_export.h

@@ -14,7 +14,9 @@ sha1sum = "c39cada2081d8042937f5dda511041f09f3323ca"
 depends = "['lib32-libxau>=1.0.8-8', 'lib32-libxdmcp>=1.1.2-8']"
 reverse_depends = "['lib32-cairo', 'lib32-ffmpeg', 'lib32-libx11', 'lib32-vulkan-mesa-layers', 'lib32-xcb-util', 'lib32-xcb-util-image', 'lib32-xcb-util-keysyms', 'lib32-xcb-util-renderutil', 'lib32-xcb-util-wm']"
 +++
-X.org X-protocol C Binding ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/xcb/bigreq.h
+X.org X-protocol C Binding ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/xcb/bigreq.h
 * /usr/i686-frugalware-linux/include/xcb/composite.h
 * /usr/i686-frugalware-linux/include/xcb/damage.h
 * /usr/i686-frugalware-linux/include/xcb/dbe.h

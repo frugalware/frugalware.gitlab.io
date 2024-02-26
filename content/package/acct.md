@@ -13,7 +13,9 @@ usize = "292268"
 sha1sum = "cdfa916aed5c5414e8f8ad0d9633845bf79f8b1e"
 depends = "['glibc']"
 +++
-Process accounting utilities{{< files text="show files" >}}* /usr/bin/ac
+Process accounting utilities"
+
+{{< files text="show files" >}}* /usr/bin/ac
 * /usr/bin/accton
 * /usr/bin/dump-acct
 * /usr/bin/dump-utmp

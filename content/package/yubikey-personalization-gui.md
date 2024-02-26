@@ -13,7 +13,9 @@ usize = "1338741"
 sha1sum = "c69acb11634947cae85d9904bc1cb34789f67231"
 depends = "['qt5-base>=5.15.10', 'yubikey-personalization']"
 +++
-Yubico YubiKey Personalization GUI{{< files text="show files" >}}* /usr/bin/yubikey-personalization-gui
+Yubico YubiKey Personalization GUI"
+
+{{< files text="show files" >}}* /usr/bin/yubikey-personalization-gui
 * /usr/share/applications/yubikey-personalization-gui.desktop
 * /usr/share/doc/yubikey-personalization-gui-3.1.25/COPYING
 * /usr/share/doc/yubikey-personalization-gui-3.1.25/NEWS

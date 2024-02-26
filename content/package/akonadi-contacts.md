@@ -14,7 +14,9 @@ sha1sum = "628135854ad71088149d6ab65c3c154e10d8468e"
 depends = "['akonadi>=23.08.5', 'akonadi-mime>=23.08.5', 'grantleetheme>=23.08.5', 'kcalendarcore>=5.115.0', 'kcodecs>=5.115.0', 'kcompletion>=5.115.0', 'kcontacts>=5.115.0', 'kio>=5.115.0', 'kmime>=23.08.5', 'libkleo>=23.08.5', 'prison>=5.115.0', 'qt5-webengine>=5.15.12']"
 reverse_depends = "['akonadi-search', 'digikam', 'kgpg', 'kmailtransport', 'libkdepim']"
 +++
-Libraries and daemons to implement Contact Management in Akonadi.{{< files text="show files" >}}* /usr/include/KPim5/AkonadiContact/akonadi-contact_version.h
+Libraries and daemons to implement Contact Management in Akonadi."
+
+{{< files text="show files" >}}* /usr/include/KPim5/AkonadiContact/akonadi-contact_version.h
 * /usr/include/KPim5/AkonadiContact/Akonadi/AbstractContactFormatter
 * /usr/include/KPim5/AkonadiContact/akonadi/abstractcontactformatter.h
 * /usr/include/KPim5/AkonadiContact/Akonadi/AbstractContactGroupFormatter

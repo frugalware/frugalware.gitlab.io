@@ -13,7 +13,9 @@ usize = "4100342"
 sha1sum = "40694e603112c60b04b51f2e6d9cc4b8ec10a238"
 depends = "['python3>=3.12.2']"
 +++
-Optional development tools to extending Python3{{< files text="show files" >}}* /usr/bin/modulator3.12.py
+Optional development tools to extending Python3"
+
+{{< files text="show files" >}}* /usr/bin/modulator3.12.py
 * /usr/bin/msgfmt3.12.py
 * /usr/bin/pygettext3.12.py
 * /usr/bin/pynche3.12

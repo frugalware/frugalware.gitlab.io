@@ -13,7 +13,9 @@ usize = "20047783"
 sha1sum = "c2144e3bf504fe7cace4dbe45fc31da5f06fb063"
 depends = "['openjre-x']"
 +++
-ProjectLibre is an open source project management software{{< files text="show files" >}}* /usr/bin/projectlibre
+ProjectLibre is an open source project management software"
+
+{{< files text="show files" >}}* /usr/bin/projectlibre
 * /usr/share/applications/projectlibre.desktop
 * /usr/share/mime/packages/projectlibre.xml
 * /usr/share/pixmaps/projectlibre.png

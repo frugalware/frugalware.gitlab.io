@@ -14,7 +14,9 @@ sha1sum = "d14b783a14c67f5477ae16a01282ecb9206d62a4"
 depends = "['openssl>=3.1.0', 'python3>=3.11', 'python3-asn1crypto', 'python3-cffi', 'python3-idna', 'python3-six']"
 reverse_depends = "['lutris', 'paramiko', 'python3-openssl', 'python3-secretstorage']"
 +++
-Cryptography expose cryptographic recipes and primitives in a python module{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/cryptography-41.0.7-py3.12.egg-info/dependency_links.txt
+Cryptography expose cryptographic recipes and primitives in a python module"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/cryptography-41.0.7-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/cryptography-41.0.7-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/cryptography-41.0.7-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/cryptography-41.0.7-py3.12.egg-info/requires.txt

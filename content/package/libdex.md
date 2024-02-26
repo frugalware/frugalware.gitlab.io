@@ -14,7 +14,9 @@ sha1sum = "a912269344b5d88255f7abb9945320679569ee28"
 depends = "['glib2', 'libatomic', 'liburing']"
 reverse_depends = "['sysprof']"
 +++
-A library supporting 'Deferred Execution'{{< files text="show files" >}}* /usr/include/libdex-1/dex-aio.h
+A library supporting 'Deferred Execution'"
+
+{{< files text="show files" >}}* /usr/include/libdex-1/dex-aio.h
 * /usr/include/libdex-1/dex-async-pair.h
 * /usr/include/libdex-1/dex-async-result.h
 * /usr/include/libdex-1/dex-block.h

@@ -13,7 +13,9 @@ usize = "3397383"
 sha1sum = "17c7d80be85bce8ba27f5489af5db7d67470893e"
 depends = "['kdelibs4support>=5.115.0', 'libkdegames>=23.08.5']"
 +++
-Kolf is a miniature golf game.{{< files text="show files" >}}* /usr/bin/kolf
+Kolf is a miniature golf game."
+
+{{< files text="show files" >}}* /usr/bin/kolf
 * /usr/share/applications/org.kde.kolf.desktop
 * /usr/share/doc/HTML/ca/kolf/index.cache.bz2
 * /usr/share/doc/HTML/ca/kolf/index.docbook

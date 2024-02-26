@@ -14,7 +14,9 @@ sha1sum = "7053798ee86d9d47bdd772bbd3628f926cb52093"
 depends = "['attica>=5.115.0', 'kglobalaccel>=5.115.0', 'ktextwidgets>=5.115.0', 'qt5-svg>=5.15.12', 'qt5-x11extras>=5.15.12']"
 reverse_depends = "['akonadi-mime', 'ghostwriter', 'kbackup', 'kbookmarks', 'kbruch', 'kcachegrind', 'kcharselect', 'kcolorchooser', 'kdesignerplugin', 'kgeography', 'kmousetool', 'krfb', 'kruler', 'kscreen5', 'ktextaddons', 'kvirc', 'libkipi', 'plasma-sdk', 'plasma-workspace', 'rkward', 'skanlite', 'svgpart']"
 +++
-Framework for managing menu and toolbar actions.{{< files text="show files" >}}* /etc/xdg/ui/ui_standards.rc
+Framework for managing menu and toolbar actions."
+
+{{< files text="show files" >}}* /etc/xdg/ui/ui_standards.rc
 * /usr/include/KF5/KXmlGui/KAboutApplicationDialog
 * /usr/include/KF5/KXmlGui/kaboutapplicationdialog.h
 * /usr/include/KF5/KXmlGui/KAboutPluginDialog

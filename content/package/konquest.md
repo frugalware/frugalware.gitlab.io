@@ -13,7 +13,9 @@ usize = "1667929"
 sha1sum = "777f0b2bedd4d2333898e96e6daae9e0f34d2e5c"
 depends = "['libkdegames>=23.08.5']"
 +++
-Konquest is the KDE version of Gnu-Lactic{{< files text="show files" >}}* /usr/bin/konquest
+Konquest is the KDE version of Gnu-Lactic"
+
+{{< files text="show files" >}}* /usr/bin/konquest
 * /usr/share/applications/org.kde.konquest.desktop
 * /usr/share/doc/HTML/ca/konquest/index.cache.bz2
 * /usr/share/doc/HTML/ca/konquest/index.docbook

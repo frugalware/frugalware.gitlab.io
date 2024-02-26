@@ -13,7 +13,9 @@ usize = "2191735"
 sha1sum = "8ac6feaa95be6e7962b0480499b67257cf65b824"
 depends = "['bluez>=5.41-2', 'qt5-declarative>=5.15.12']"
 +++
-The Qt5 toolkit, qtconnectivity{{< files text="show files" >}}* /usr/bin/sdpscanner
+The Qt5 toolkit, qtconnectivity"
+
+{{< files text="show files" >}}* /usr/bin/sdpscanner
 * /usr/bin/sdpscanner-qt5
 * /usr/include/qt5/QtBluetooth/5.15.12/QtBluetooth/private/adapter1_bluez5_p.h
 * /usr/include/qt5/QtBluetooth/5.15.12/QtBluetooth/private/adapter_p.h

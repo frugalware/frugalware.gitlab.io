@@ -14,7 +14,9 @@ sha1sum = "c3c63ae1d24b1ffbbcdadb9e53448c6a690891a9"
 depends = "['glibc']"
 license = "GPL2"
 +++
-X.Org Cursor Themes data{{< files text="show files" >}}* /usr/share/doc/xcursor-themes-1.0.7/ChangeLog
+X.Org Cursor Themes data"
+
+{{< files text="show files" >}}* /usr/share/doc/xcursor-themes-1.0.7/ChangeLog
 * /usr/share/doc/xcursor-themes-1.0.7/COPYING
 * /usr/share/doc/xcursor-themes-1.0.7/INSTALL
 * /usr/share/doc/xcursor-themes-1.0.7/README.md

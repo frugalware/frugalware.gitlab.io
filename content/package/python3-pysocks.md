@@ -14,7 +14,9 @@ sha1sum = "54def41f75731d9a1a537aab6838f49f62f6b110"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-urllib3']"
 +++
-SOCKS4, SOCKS5 or HTTP proxy{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/PySocks-1.7.1-py3.12.egg-info/dependency_links.txt
+SOCKS4, SOCKS5 or HTTP proxy"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/PySocks-1.7.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/PySocks-1.7.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/PySocks-1.7.1-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/PySocks-1.7.1-py3.12.egg-info/top_level.txt

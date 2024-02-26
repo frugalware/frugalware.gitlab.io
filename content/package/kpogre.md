@@ -13,7 +13,9 @@ usize = "9680355"
 sha1sum = "04dcea1daa7002ce108472233402bd184b542ae1"
 depends = "[]"
 +++
-A grafical client for PostgreSQL database system for KDE.{{< files text="show files" >}}* usr/bin/kpogre
+A grafical client for PostgreSQL database system for KDE."
+
+{{< files text="show files" >}}* usr/bin/kpogre
 * usr/share/applnk/Applications/kpogre.desktop
 * usr/share/apps/kpogre/icons/crystalsvg/16x16/actions/data.png
 * usr/share/apps/kpogre/icons/crystalsvg/16x16/actions/deletecell.png

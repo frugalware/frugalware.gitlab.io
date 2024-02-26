@@ -14,7 +14,9 @@ sha1sum = "9794ec1eb32ccb4f470709581d4e4ac20077cc28"
 depends = "['kparts>=5.115.0']"
 reverse_depends = "['kdepim-runtime', 'kdeplasma-addons5', 'kmail-account-wizard', 'kross-interpreters', 'ktorrent', 'lokalize', 'parley']"
 +++
-Embedding of scripting into applications.{{< files text="show files" >}}* /usr/bin/kf5kross
+Embedding of scripting into applications."
+
+{{< files text="show files" >}}* /usr/bin/kf5kross
 * /usr/include/KF5/KrossCore/Kross/Core/Action
 * /usr/include/KF5/KrossCore/kross/core/action.h
 * /usr/include/KF5/KrossCore/Kross/Core/ActionCollection

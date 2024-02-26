@@ -13,7 +13,9 @@ usize = "4909784"
 sha1sum = "e6b9ac2deec3b604acfdef2cee3d3a91a9bd6c63"
 depends = "['qt6-quick3d', 'qt6-shadertools']"
 +++
-The Qt6 toolkit, qtquickeffectmaker{{< files text="show files" >}}* /usr/lib/qt6/bin/qqem
+The Qt6 toolkit, qtquickeffectmaker"
+
+{{< files text="show files" >}}* /usr/lib/qt6/bin/qqem
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/basic/brightness_contrast.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/basic/colorize.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/basic/coloroverlay.qen

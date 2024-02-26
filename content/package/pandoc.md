@@ -14,7 +14,9 @@ sha1sum = "fa1d53ef664fedc4361050bb353934b812acb6f2"
 depends = "['haskell-aeson-pretty', 'haskell-base64', 'haskell-citeproc', 'haskell-commonmark-pandoc', 'haskell-doctemplates', 'haskell-glob', 'haskell-gridtables', 'haskell-haddock-library', 'haskell-http-client-tls', 'haskell-ipynb', 'haskell-jira-wiki-markup', 'haskell-juicypixels', 'haskell-pretty-show', 'haskell-sha', 'haskell-skylighting', 'haskell-tagsoup', 'haskell-temporary', 'haskell-texmath', 'haskell-typst>=0.5', 'haskell-zip-archive']"
 reverse_depends = "['pandoc-cli', 'pandoc-server']"
 +++
-Conversion between markup formats{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/pandoc-3.1.11/libHSpandoc-3.1.11-4l0wod7gzIP31NTlTAeaa2-xml-light.a
+Conversion between markup formats"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/pandoc-3.1.11/libHSpandoc-3.1.11-4l0wod7gzIP31NTlTAeaa2-xml-light.a
 * /usr/lib/ghc-9.8.1/site-local/pandoc-3.1.11/libHSpandoc-3.1.11-Lu4dj79zPh9G6SHLLifFIU.a
 * /usr/lib/ghc-9.8.1/site-local/pandoc-3.1.11/Paths_pandoc.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/pandoc-3.1.11/Paths_pandoc.hi

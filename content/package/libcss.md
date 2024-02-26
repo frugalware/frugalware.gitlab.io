@@ -13,7 +13,9 @@ usize = "644576"
 sha1sum = "475f770dffdd147b6a44bc023dc04bb30430b99c"
 depends = "['libparserutils', 'libwapcaplet']"
 +++
-A CSS parser and selection engine library, written in C.{{< files text="show files" >}}* /usr/include/libcss/computed.h
+A CSS parser and selection engine library, written in C."
+
+{{< files text="show files" >}}* /usr/include/libcss/computed.h
 * /usr/include/libcss/errors.h
 * /usr/include/libcss/font_face.h
 * /usr/include/libcss/fpmath.h

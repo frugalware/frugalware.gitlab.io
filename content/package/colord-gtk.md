@@ -14,7 +14,9 @@ sha1sum = "9736742011c77e8452425eee0499deab2c7c8c7e"
 depends = "['colord', 'libffi>=3.2.1']"
 reverse_depends = "['colord-gtk3', 'colord-gtk4']"
 +++
-GTK integration for libcolord{{< files text="show files" >}}* /usr/include/colord-1/colord-gtk.h
+GTK integration for libcolord"
+
+{{< files text="show files" >}}* /usr/include/colord-1/colord-gtk.h
 * /usr/include/colord-1/colord-gtk/cd-sample-widget.h
 * /usr/include/colord-1/colord-gtk/cd-sample-window.h
 * /usr/include/colord-1/colord-gtk/cd-version.h

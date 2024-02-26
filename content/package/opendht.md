@@ -13,7 +13,9 @@ usize = "3993753"
 sha1sum = "196b8130d57e40b1cff58a5e03609db9aeb25541"
 depends = "['argon2', 'asio', 'fmtlib>=10.0.0', 'gnutls', 'jsoncpp>=1.9.5', 'nettle>=3.6', 'readline>=8.0', 'restinio']"
 +++
-A C++11 implementation of the Kademlia DHT (Distributed Hash Table){{< files text="show files" >}}* /etc/dhtcluster.conf
+A C++11 implementation of the Kademlia DHT (Distributed Hash Table)"
+
+{{< files text="show files" >}}* /etc/dhtcluster.conf
 * /etc/dhtnode.conf
 * /usr/bin/dhtchat
 * /usr/bin/dhtcluster

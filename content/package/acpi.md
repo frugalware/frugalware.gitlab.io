@@ -14,7 +14,9 @@ sha1sum = "3a460a7a2adb0a17e6500f6c42ff93cb1aea5691"
 depends = "['glibc']"
 reverse_depends = "['lumina-desktop']"
 +++
-Linux ACPI Client{{< files text="show files" >}}* /usr/bin/acpi
+Linux ACPI Client"
+
+{{< files text="show files" >}}* /usr/bin/acpi
 * /usr/share/doc/acpi-1.7/AUTHORS
 * /usr/share/doc/acpi-1.7/ChangeLog
 * /usr/share/doc/acpi-1.7/COPYING

@@ -14,7 +14,9 @@ sha1sum = "75561b7cdd2d85e63b92d56253c8a957d77e0637"
 depends = "['haskell-skylighting-core>=0.14']"
 reverse_depends = "['haskell-skylighting']"
 +++
-ConTeXt formatter for skylighting syntax highlighting library{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/skylighting-format-context-0.1.0.2/libHSskylighting-format-context-0.1.0.2-K1lTZPCMvTU79ai3jj3qLn.a
+ConTeXt formatter for skylighting syntax highlighting library"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/skylighting-format-context-0.1.0.2/libHSskylighting-format-context-0.1.0.2-K1lTZPCMvTU79ai3jj3qLn.a
 * /usr/lib/ghc-9.8.1/site-local/skylighting-format-context-0.1.0.2/Skylighting/Format/ConTeXt.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/skylighting-format-context-0.1.0.2/Skylighting/Format/ConTeXt.hi
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSskylighting-format-context-0.1.0.2-K1lTZPCMvTU79ai3jj3qLn-ghc9.8.1.so

@@ -13,7 +13,9 @@ usize = "212252"
 sha1sum = "7f2e253a1e9ebc9e04322434f26f9c409dccf63a"
 depends = "['glibc']"
 +++
-UTF-8 with C++ in a Portable Way{{< files text="show files" >}}* /usr/include/utf8cpp/utf8.h
+UTF-8 with C++ in a Portable Way"
+
+{{< files text="show files" >}}* /usr/include/utf8cpp/utf8.h
 * /usr/include/utf8cpp/utf8/checked.h
 * /usr/include/utf8cpp/utf8/core.h
 * /usr/include/utf8cpp/utf8/cpp11.h

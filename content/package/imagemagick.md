@@ -1,20 +1,22 @@
 +++
 draft = false
-title = "imagemagick 7.1.1-13"
-version = "7.1.1-13"
+title = "imagemagick 7.1.1-14"
+version = "7.1.1-14"
 description = "A robust collection of tools and libraries to read, write and manipulate image files."
-date = "2024-02-06T19:12:03"
+date = "2024-02-26T15:14:56"
 aliases = "/packages/3097"
 categories = ['xapps']
 upstreamurl = "http://www.imagemagick.org"
 arch = "x86_64"
-size = "8471220"
-usize = "22345718"
-sha1sum = "0339b97950723c825ae3b604600b8a8ab0b82b03"
+size = "8471432"
+usize = "22345933"
+sha1sum = "31d2aefdcc620bc4d158b77edada8de1d443fd03"
 depends = "['djvulibre>=3.5.27-4', 'fftw>=3.3.4-4', 'lcms2>=2.8-2', 'libgomp>=9.1.0-3', 'libheif', 'libjpeg-turbo', 'libraw>=0.21.1', 'librsvg>=2.40.16-3', 'libstdc++>=11.2', 'libtiff>=4.0.6-2', 'libtool>=2.4.6-4', 'libwebp>=0.5.0', 'openexr>=3.2.0', 'openjpeg', 'perl']"
 reverse_depends = "['darktable', 'digikam', 'emacs', 'kitty', 'libvips', 'polychromatic', 'xine-lib']"
 +++
-A robust collection of tools and libraries to read, write and manipulate image files.{{< files text="show files" >}}* /etc/ImageMagick-7/colors.xml
+A robust collection of tools and libraries to read, write and manipulate image files."
+
+{{< files text="show files" >}}* /etc/ImageMagick-7/colors.xml
 * /etc/ImageMagick-7/delegates.xml
 * /etc/ImageMagick-7/log.xml
 * /etc/ImageMagick-7/mime.xml

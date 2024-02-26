@@ -13,7 +13,9 @@ usize = "64383"
 sha1sum = "8d56b8ca59097cd52321f3b0561ee86da6f21e83"
 depends = "['python3>=3.10']"
 +++
-Applies STAT information from a Stylespace to a variable font.{{< files text="show files" >}}* /usr/bin/statmake
+Applies STAT information from a Stylespace to a variable font."
+
+{{< files text="show files" >}}* /usr/bin/statmake
 * /usr/lib/python3.12/site-packages/statmake-0.6.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/statmake-0.6.0-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/statmake-0.6.0-py3.12.egg-info/PKG-INFO

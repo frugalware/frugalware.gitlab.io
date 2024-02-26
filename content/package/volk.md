@@ -13,7 +13,9 @@ usize = "615841"
 sha1sum = "ccad601ee40ef1abdc6306d4c515a3e78df1aecd"
 depends = "['glibc>=2.35']"
 +++
-Meta loader for Vulkan API{{< files text="show files" >}}* /usr/include/volk.c
+Meta loader for Vulkan API"
+
+{{< files text="show files" >}}* /usr/include/volk.c
 * /usr/include/volk.h
 * /usr/lib/cmake/volk/volkConfig.cmake
 * /usr/lib/cmake/volk/volkConfigVersion.cmake

@@ -14,7 +14,9 @@ sha1sum = "119cc83b8691fd5dd7a08d6f0cd4d67f20b51541"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['cdrskin']"
 +++
-Disc reading/writing library.{{< files text="show files" >}}* /usr/include/libburn/libburn.h
+Disc reading/writing library."
+
+{{< files text="show files" >}}* /usr/include/libburn/libburn.h
 * /usr/lib/libburn.so
 * /usr/lib/libburn.so.4
 * /usr/lib/libburn.so.4.109.0

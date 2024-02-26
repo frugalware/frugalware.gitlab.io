@@ -14,7 +14,9 @@ sha1sum = "718bb3991f22555f2bb31a3d1fffcc960a1a9160"
 depends = "['lib32-libgpg-error>=1.36-2']"
 reverse_depends = "['lib32-libgl', 'lib32-libmicrohttpd', 'lib32-libsystemd', 'lib32-pipewire', 'lib32-rtmpdump']"
 +++
-Libgcrypt is a general purpose cryptographic library based on the code from GnuPG. ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/dumpsexp
+Libgcrypt is a general purpose cryptographic library based on the code from GnuPG. ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/dumpsexp
 * /usr/i686-frugalware-linux/bin/hmac256
 * /usr/i686-frugalware-linux/bin/libgcrypt-config
 * /usr/i686-frugalware-linux/bin/mpicalc

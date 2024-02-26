@@ -13,7 +13,9 @@ usize = "0"
 sha1sum = "9ff74a80579e6f53e6201c448cf3e9cce3dda7f6"
 depends = "[]"
 +++
-Include files for wxWidgets development{{< files text="show files" >}}* usr/include/wx-2.6/wx/accel.h
+Include files for wxWidgets development"
+
+{{< files text="show files" >}}* usr/include/wx-2.6/wx/accel.h
 * usr/include/wx-2.6/wx/access.h
 * usr/include/wx-2.6/wx/afterstd.h
 * usr/include/wx-2.6/wx/animate/animate.h

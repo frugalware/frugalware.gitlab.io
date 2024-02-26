@@ -13,7 +13,9 @@ usize = "4476576"
 sha1sum = "4a89995fd88bec726cbdf9b3b6f7239d11dcc48c"
 depends = "['gsl>=2.7.1', 'lcms2>=2.7-3', 'libboost>=1.72.0', 'vigra>=1.11.0']"
 +++
-Enblend blends away the seams in a panoramic image mosaic using a multiresolution spline{{< files text="show files" >}}* /usr/bin/enblend
+Enblend blends away the seams in a panoramic image mosaic using a multiresolution spline"
+
+{{< files text="show files" >}}* /usr/bin/enblend
 * /usr/bin/enfuse
 * /usr/share/doc/enblend-enfuse-4.2/AUTHORS
 * /usr/share/doc/enblend-enfuse-4.2/ChangeLog

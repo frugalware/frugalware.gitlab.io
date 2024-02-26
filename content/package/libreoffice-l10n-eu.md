@@ -13,7 +13,9 @@ usize = "35614073"
 sha1sum = "ddf694db09b6f1829617f096c44127fbb62524e3"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Basque support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/eu/default.css
+Installs Basque support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/help/eu/default.css
 * /usr/lib/libreoffice/help/eu/err.html
 * /usr/lib/libreoffice/help/eu/highcontrast1.css
 * /usr/lib/libreoffice/help/eu/highcontrast2.css

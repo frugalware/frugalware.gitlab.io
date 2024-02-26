@@ -14,7 +14,9 @@ sha1sum = "1e9914cc52bfba66fc2b31752d54ad8f7a4d4f9e"
 depends = "['pam', 'python3>=3.12']"
 reverse_depends = "['howdy']"
 +++
-Python for PAM{{< files text="show files" >}}* /usr/lib/security/pam_python3.so
+Python for PAM"
+
+{{< files text="show files" >}}* /usr/lib/security/pam_python3.so
 * /usr/share/doc/pam-python-1.0.8/README.txt
 * /usr/share/doc/pam_python/examples/pam_deny.py
 * /usr/share/doc/pam_python/examples/pam_nologin.py

@@ -14,7 +14,9 @@ sha1sum = "4a823cff1ed18278907ec98048a3ed0f75709ec2"
 depends = "['cairo>=1.14.6-4', 'lcms2>=2.8-2', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libstdc++>=9.1.0-3', 'poppler']"
 reverse_depends = "['cups-filters']"
 +++
-Poppler xpdf tools{{< files text="show files" >}}* /usr/bin/pdfattach
+Poppler xpdf tools"
+
+{{< files text="show files" >}}* /usr/bin/pdfattach
 * /usr/bin/pdfdetach
 * /usr/bin/pdffonts
 * /usr/bin/pdfimages

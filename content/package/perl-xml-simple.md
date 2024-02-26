@@ -13,7 +13,9 @@ usize = "169634"
 sha1sum = "83be02b297757239454432f910cc4db12094593b"
 depends = "['perl>=5.28.2', 'perl-xml-sax-expat>=0.51-3']"
 +++
-Easy API to maintain XML (esp config files){{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/XML/Simple.pm
+Easy API to maintain XML (esp config files)"
+
+{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/XML/Simple.pm
 * /usr/lib/perl5/site_perl/current/XML/Simple/FAQ.pod
 * /usr/share/doc/perl-xml-simple-2.25/LICENSE
 * /usr/share/doc/perl-xml-simple-2.25/MANIFEST

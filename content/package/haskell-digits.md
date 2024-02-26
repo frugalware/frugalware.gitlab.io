@@ -14,7 +14,9 @@ sha1sum = "b55e78d8f8e2be621ab41c44e16f47bb100c2bda"
 depends = "['haskell-quickcheck']"
 reverse_depends = "['haskell-typst']"
 +++
-Converts integers to lists of digits and back{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/digits-0.3.1/Data/Digits.dyn_hi
+Converts integers to lists of digits and back"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/digits-0.3.1/Data/Digits.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/digits-0.3.1/Data/Digits.hi
 * /usr/lib/ghc-9.8.1/site-local/digits-0.3.1/libHSdigits-0.3.1-CE6xUHZ1kTFC9O6IXHbHOL.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSdigits-0.3.1-CE6xUHZ1kTFC9O6IXHbHOL-ghc9.8.1.so

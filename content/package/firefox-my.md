@@ -14,5 +14,7 @@ sha1sum = "9aebf7334f11c40d9836a4311ed9b227f98103f6"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Burmese language support for Firefox{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-my@firefox.mozilla.org.xpi
+Burmese language support for Firefox"
+
+{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-my@firefox.mozilla.org.xpi
 {{< /files >}}

@@ -13,7 +13,9 @@ usize = "33144716"
 sha1sum = "f5ae0564c45894f42b1dfcd138b15dec386b0f3f"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Hindi support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/hi/default.css
+Installs Hindi support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/help/hi/default.css
 * /usr/lib/libreoffice/help/hi/err.html
 * /usr/lib/libreoffice/help/hi/highcontrast1.css
 * /usr/lib/libreoffice/help/hi/highcontrast2.css

@@ -13,7 +13,9 @@ usize = "164151"
 sha1sum = "43eacf484ad780e64f74df6b2aea45d44bebd469"
 depends = "['gvfs>=1.52.0', 'libmtp>=1.1.10-3']"
 +++
-gvfs with MTP support{{< files text="show files" >}}* /usr/lib/gvfs/gvfs-mtp-volume-monitor
+gvfs with MTP support"
+
+{{< files text="show files" >}}* /usr/lib/gvfs/gvfs-mtp-volume-monitor
 * /usr/lib/gvfs/gvfsd-mtp
 * /usr/lib/systemd/user/gvfs-mtp-volume-monitor.service
 * /usr/share/dbus-1/services/org.gtk.vfs.MTPVolumeMonitor.service

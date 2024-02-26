@@ -14,7 +14,9 @@ sha1sum = "c4c87c03f48e3871a3fb7a1ceaf2f96be06c2167"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-setuptools-rust']"
 +++
-A library implementing the 'SemVer' scheme.{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/semantic_version-2.10.0-py3.12.egg-info/dependency_links.txt
+A library implementing the 'SemVer' scheme."
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/semantic_version-2.10.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/semantic_version-2.10.0-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/semantic_version-2.10.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/semantic_version-2.10.0-py3.12.egg-info/requires.txt

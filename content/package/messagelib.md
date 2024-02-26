@@ -14,7 +14,9 @@ sha1sum = "e686100df7d0650c11987060653b6c21476a42ab"
 depends = "['akonadi-notes>=23.08.5', 'kidentitymanagement>=23.08.5', 'kmailtransport>=23.08.5', 'ktextaddons>=1.3.1', 'libgravatar>=23.08.5', 'qca']"
 reverse_depends = "['akonadi-calendar', 'akonadiconsole', 'akregator', 'grantlee-editor', 'mailcommon', 'pim-sieve-editor']"
 +++
-KdePim message library.{{< files text="show files" >}}* /usr/include/KPim5/MessageComposer/config-messagecomposer.h
+KdePim message library."
+
+{{< files text="show files" >}}* /usr/include/KPim5/MessageComposer/config-messagecomposer.h
 * /usr/include/KPim5/MessageComposer/MessageComposer/AbstractEncryptJob
 * /usr/include/KPim5/MessageComposer/messagecomposer/abstractencryptjob.h
 * /usr/include/KPim5/MessageComposer/MessageComposer/AkonadiSender

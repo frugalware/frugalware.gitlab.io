@@ -14,7 +14,9 @@ sha1sum = "d3da241306c2a8d4b2a475987858e2cd3d710650"
 depends = "['python3']"
 reverse_depends = "['python3-trio']"
 +++
-Backport of PEP 654 (exception groups){{< files text="show files" >}}* /usr/lib/python3.12/site-packages/exceptiongroup-1.2.0.dist-info/LICENSE
+Backport of PEP 654 (exception groups)"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/exceptiongroup-1.2.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/exceptiongroup-1.2.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/exceptiongroup-1.2.0.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/exceptiongroup-1.2.0.dist-info/WHEEL

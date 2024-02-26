@@ -14,7 +14,9 @@ sha1sum = "fb8927fd67c63cc911d60d337874e539864a2975"
 depends = "['libaio', 'libblkid>=2.31.1-3', 'libsystemd', 'libudev>=242', 'lvm2-libs', 'ncurses>=6.1', 'readline>=8.0', 'systemd-systemctl', 'thin-provisioning-tools>=1.0.2']"
 reverse_depends = "['docker', 'dracut', 'kernel-initrd', 'kernel-lts-initrd', 'libvirt', 'multipath-tools', 'parted', 'udisks2', 'virtualbox']"
 +++
-Logical Volume Manager 2 utilities{{< files text="show files" >}}* /etc/dracut.conf.d/11-lvm2.conf
+Logical Volume Manager 2 utilities"
+
+{{< files text="show files" >}}* /etc/dracut.conf.d/11-lvm2.conf
 * /etc/lvm/cache/.cache
 * /etc/lvm/lvm.conf
 * /etc/lvm/lvmlocal.conf

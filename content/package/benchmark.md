@@ -14,7 +14,9 @@ sha1sum = "c9fce0bc350a85ff3418299ba109559a112f94ec"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['ospray']"
 +++
-A microbenchmark support library{{< files text="show files" >}}* /usr/include/benchmark/benchmark.h
+A microbenchmark support library"
+
+{{< files text="show files" >}}* /usr/include/benchmark/benchmark.h
 * /usr/include/benchmark/export.h
 * /usr/lib/cmake/benchmark/benchmarkConfig.cmake
 * /usr/lib/cmake/benchmark/benchmarkConfigVersion.cmake

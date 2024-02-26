@@ -13,7 +13,9 @@ usize = "1929076"
 sha1sum = "922341f0ed01da357de4f8d26d80d62c1cbf1acf"
 depends = "['aura-browser>=5.27.10', 'kdeconnect-kde>=23.08.4', 'plank-player>=5.27.10', 'plasma-nano>=5.27.10', 'plasma-nm>=5.27.10', 'plasma-pa>=5.27.10', 'plasma-remotecontrollers>=5.27.10', 'plasma-settings', 'qt5-virtualkeyboard>=5.15.12']"
 +++
-Plasma shell for TVs{{< files text="show files" >}}* /usr/bin/mycroft-skill-launcher.py
+Plasma shell for TVs"
+
+{{< files text="show files" >}}* /usr/bin/mycroft-skill-launcher.py
 * /usr/bin/plasma-bigscreen-wayland
 * /usr/bin/plasma-bigscreen-x11
 * /usr/lib/qt5/plugins/kcms/kcm_mediacenter_audiodevice.so

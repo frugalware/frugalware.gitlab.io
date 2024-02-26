@@ -13,5 +13,7 @@ usize = "1333552"
 sha1sum = "3c3a880862a253d52c2d208201ece9a369c7c9be"
 depends = "[]"
 +++
-Static files for dmraid{{< files text="show files" >}}* /usr/lib/libdmraid.a
+Static files for dmraid"
+
+{{< files text="show files" >}}* /usr/lib/libdmraid.a
 {{< /files >}}

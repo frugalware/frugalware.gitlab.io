@@ -13,7 +13,9 @@ usize = "0"
 sha1sum = "b6054c44f15765ca5dfe2ef63ff475ec611be3bc"
 depends = "[]"
 +++
-The GNU Standard C++ Library for emulation of i686 on x86_64{{< files text="show files" >}}* usr/lib/chroot32/usr/lib/libgcc_s.so
+The GNU Standard C++ Library for emulation of i686 on x86_64"
+
+{{< files text="show files" >}}* usr/lib/chroot32/usr/lib/libgcc_s.so
 * usr/lib/chroot32/usr/lib/libgcc_s.so.1
 * usr/lib/chroot32/usr/share/doc/gcc-lib-4.0.2/BUGS
 * usr/lib/chroot32/usr/share/doc/gcc-lib-4.0.2/ChangeLog

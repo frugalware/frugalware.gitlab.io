@@ -13,7 +13,9 @@ usize = "1350192"
 sha1sum = "172e43515a8c6c15483e48f5b079dee4142296c1"
 depends = "['libnvme', 'libsystemd', 'libuuid']"
 +++
-NVMe management command line interface.{{< files text="show files" >}}* /etc/nvme/discovery.conf
+NVMe management command line interface."
+
+{{< files text="show files" >}}* /etc/nvme/discovery.conf
 * /usr/bin/nvme
 * /usr/lib/dracut/dracut.conf.d/70-nvmf-autoconnect.conf
 * /usr/lib/systemd/system/nvmefc-boot-connections.service

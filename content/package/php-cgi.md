@@ -13,6 +13,8 @@ usize = "20990013"
 sha1sum = "516734487c09f9ff6ebfc4cd2b045507fce7e02b"
 depends = "['php=8.3.3']"
 +++
-CGI binary for php and its libs.{{< files text="show files" >}}* /usr/bin/php-cgi
+CGI binary for php and its libs."
+
+{{< files text="show files" >}}* /usr/bin/php-cgi
 * /usr/share/man/man1/php-cgi.1.gz
 {{< /files >}}

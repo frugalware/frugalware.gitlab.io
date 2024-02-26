@@ -14,7 +14,9 @@ sha1sum = "3e92875c05ab8dd34383ca80a238755ffcde39bb"
 depends = "['icu4c>=74.1']"
 reverse_depends = "['enigma', 'virtualbox', 'xalan-c', 'xqilla']"
 +++
-Xerces2 C++ Parser{{< files text="show files" >}}* /usr/bin/CreateDOMDocument
+Xerces2 C++ Parser"
+
+{{< files text="show files" >}}* /usr/bin/CreateDOMDocument
 * /usr/bin/DOMCount
 * /usr/bin/DOMPrint
 * /usr/bin/EnumVal

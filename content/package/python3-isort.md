@@ -14,7 +14,9 @@ sha1sum = "91e104de6e2ac9611a1928d4995093fcbae75307"
 depends = "['python3>=3.11']"
 reverse_depends = "['pylint']"
 +++
-A Python3 utility / library to sort Python3 imports{{< files text="show files" >}}* /usr/bin/isort-identify-imports
+A Python3 utility / library to sort Python3 imports"
+
+{{< files text="show files" >}}* /usr/bin/isort-identify-imports
 * /usr/bin/isort3
 * /usr/lib/python3.12/site-packages/isort-5.12.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/isort-5.12.0-py3.12.egg-info/entry_points.txt

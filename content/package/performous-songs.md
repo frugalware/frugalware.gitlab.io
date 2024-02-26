@@ -14,7 +14,9 @@ sha1sum = "c1929ede5af52e007b94837533129d619fbe3983"
 depends = "['glibc']"
 reverse_depends = "['performous']"
 +++
-Songs for performous.{{< files text="show files" >}}* /usr/share/performous/songs/libre/Joshua Morin - On the run/Joshua Morin - On the run [BG].jpg
+Songs for performous."
+
+{{< files text="show files" >}}* /usr/share/performous/songs/libre/Joshua Morin - On the run/Joshua Morin - On the run [BG].jpg
 * /usr/share/performous/songs/libre/Joshua Morin - On the run/Joshua Morin - On the run [CO].jpg
 * /usr/share/performous/songs/libre/Joshua Morin - On the run/Joshua Morin - On the run.ogg
 * /usr/share/performous/songs/libre/Joshua Morin - On the run/Joshua Morin - On the run.txt

@@ -13,7 +13,9 @@ usize = "1463194"
 sha1sum = "1bfd6124739e9214a1d0ffc73b8c2eec633883b6"
 depends = "['gtk+3', 'gtksourceview4', 'pygobject3', 'pygobject3-cairo', 'python3-evdev', 'python3-packaging', 'python3-pydantic', 'python3-pydbus', 'xmodmap']"
 +++
-A tool to change and program the mapping of your input device buttons.{{< files text="show files" >}}* /etc/dbus-1/system.d/inputremapper.Control.conf
+A tool to change and program the mapping of your input device buttons."
+
+{{< files text="show files" >}}* /etc/dbus-1/system.d/inputremapper.Control.conf
 * /etc/xdg/autostart/input-remapper-autoload.desktop
 * /usr/bin/input-remapper-control
 * /usr/bin/input-remapper-gtk

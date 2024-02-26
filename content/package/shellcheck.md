@@ -13,7 +13,9 @@ usize = "22827904"
 sha1sum = "dccb12bb2b93d19c1029bd8fee9a32841dff79e5"
 depends = "['haskell-aeson>=1.5.5.1-3', 'haskell-diff', 'haskell-fgl', 'haskell-quickcheck>=2.14.2', 'haskell-regex-tdfa>=1.3.1.1', 'libffi>=3.4']"
 +++
-Shell script analysis tool{{< files text="show files" >}}* /usr/bin/shellcheck
+Shell script analysis tool"
+
+{{< files text="show files" >}}* /usr/bin/shellcheck
 * /usr/lib/ghc-9.8.1/site-local/ShellCheck-0.9.0/Paths_ShellCheck.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/ShellCheck-0.9.0/ShellCheck/Analytics.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/ShellCheck-0.9.0/ShellCheck/Analyzer.dyn_hi

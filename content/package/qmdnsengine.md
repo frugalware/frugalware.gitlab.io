@@ -14,7 +14,9 @@ sha1sum = "4b5085881746a7c856a2a29e70df83c284de0a9a"
 depends = "['qt5-base']"
 reverse_depends = "['nitroshare']"
 +++
-Simple multicast DNS library for Qt{{< files text="show files" >}}* /usr/include/qmdnsengine/abstractserver.h
+Simple multicast DNS library for Qt"
+
+{{< files text="show files" >}}* /usr/include/qmdnsengine/abstractserver.h
 * /usr/include/qmdnsengine/bitmap.h
 * /usr/include/qmdnsengine/browser.h
 * /usr/include/qmdnsengine/cache.h

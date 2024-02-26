@@ -14,7 +14,9 @@ sha1sum = "f89594e81ef7f9f3957080e0bdb265f5c75bd1e1"
 depends = "['python3-pyqt6-sip', 'qt6-base']"
 reverse_depends = "['calibre', 'pyqt6webengine', 'yin-yang']"
 +++
-PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit.{{< files text="show files" >}}* /usr/bin/pylupdate6
+PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit."
+
+{{< files text="show files" >}}* /usr/bin/pylupdate6
 * /usr/bin/pyuic6
 * /usr/lib/python3.12/site-packages/dbus/mainloop/pyqt6.abi3.so
 * /usr/lib/python3.12/site-packages/PyQt6-6.6.0.dist-info/INSTALLER

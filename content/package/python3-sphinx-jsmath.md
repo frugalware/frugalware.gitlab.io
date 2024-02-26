@@ -14,7 +14,9 @@ sha1sum = "690d40f2ceffe3e6fc8985a5009c67364f2cfd9a"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-sphinx']"
 +++
-Sphinx extension which renders display math in HTML via JavaScript{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sphinxcontrib/jsmath/version.py
+Sphinx extension which renders display math in HTML via JavaScript"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sphinxcontrib/jsmath/version.py
 * /usr/lib/python3.12/site-packages/sphinxcontrib/jsmath/__init__.py
 * /usr/lib/python3.12/site-packages/sphinxcontrib/jsmath/__pycache__/version.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinxcontrib/jsmath/__pycache__/__init__.cpython-312.pyc

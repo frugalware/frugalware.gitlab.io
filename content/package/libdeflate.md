@@ -14,7 +14,9 @@ sha1sum = "8f798b9ca9b9d726c9b1205e0465b5c450443014"
 depends = "['zlib']"
 reverse_depends = "['gdal', 'openexr', 'transmission-cli']"
 +++
-Heavily optimized library for DEFLATE/zlib/gzip compression and decompression{{< files text="show files" >}}* /usr/bin/libdeflate-gunzip
+Heavily optimized library for DEFLATE/zlib/gzip compression and decompression"
+
+{{< files text="show files" >}}* /usr/bin/libdeflate-gunzip
 * /usr/bin/libdeflate-gzip
 * /usr/include/libdeflate.h
 * /usr/lib/cmake/libdeflate/libdeflate-config-version.cmake

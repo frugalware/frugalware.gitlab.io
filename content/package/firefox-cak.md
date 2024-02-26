@@ -14,5 +14,7 @@ sha1sum = "9110033cf37b2cc176cf2e375d18ec64a06d7557"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Kaqchikel language support for Firefox{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-cak@firefox.mozilla.org.xpi
+Kaqchikel language support for Firefox"
+
+{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-cak@firefox.mozilla.org.xpi
 {{< /files >}}

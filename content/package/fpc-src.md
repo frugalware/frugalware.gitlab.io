@@ -13,7 +13,9 @@ usize = "304385760"
 sha1sum = "22347ddc54466823f47cbdc13f3d62fcc12f6137"
 depends = "[]"
 +++
-Source code for Free Pascal Compiler{{< files text="show files" >}}* /usr/lib/fpc/src/.gitignore
+Source code for Free Pascal Compiler"
+
+{{< files text="show files" >}}* /usr/lib/fpc/src/.gitignore
 * /usr/lib/fpc/src/compiler/aarch64/a64att.inc
 * /usr/lib/fpc/src/compiler/aarch64/a64atts.inc
 * /usr/lib/fpc/src/compiler/aarch64/a64ins.dat

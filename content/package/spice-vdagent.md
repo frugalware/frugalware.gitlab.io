@@ -13,7 +13,9 @@ usize = "201708"
 sha1sum = "54e4b34a8e0e85e77618da6504ec08402e0505e9"
 depends = "['alsa-lib', 'libdrm', 'libpciaccess', 'libsystemd>=228', 'libxfixes', 'libxinerama', 'libxrandr']"
 +++
-Agent for Spice guests{{< files text="show files" >}}* /etc/xdg/autostart/spice-vdagent.desktop
+Agent for Spice guests"
+
+{{< files text="show files" >}}* /etc/xdg/autostart/spice-vdagent.desktop
 * /usr/bin/spice-vdagent
 * /usr/bin/spice-vdagentd
 * /usr/lib/systemd/system/spice-vdagentd.service

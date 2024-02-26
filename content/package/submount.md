@@ -13,7 +13,9 @@ usize = "0"
 sha1sum = "5a6e86e11a956bbc9148d577c51c9e5871d4c56f"
 depends = "['glibc', 'kernel=2.6.13-2']"
 +++
-Automatically mounts and unmounts removable media devices.{{< files text="show files" >}}* etc/rc.d/rc.submount
+Automatically mounts and unmounts removable media devices."
+
+{{< files text="show files" >}}* etc/rc.d/rc.submount
 * etc/sysconfig/submount
 * lib/modules/2.6.13-fw2/kernel/fs/subfs/subfs.ko
 * sbin/net-submountd

@@ -15,7 +15,9 @@ depends = "['libgpg-error>=1.24-2']"
 reverse_depends = "['dirmngr', 'dirmngr-ldap', 'gnupg2', 'gpg-agent']"
 license = "GPLv3"
 +++
-Libksba is a CMS and X.509 access library.{{< files text="show files" >}}* /usr/include/ksba.h
+Libksba is a CMS and X.509 access library."
+
+{{< files text="show files" >}}* /usr/include/ksba.h
 * /usr/lib/libksba.so
 * /usr/lib/libksba.so.8
 * /usr/lib/libksba.so.8.14.6

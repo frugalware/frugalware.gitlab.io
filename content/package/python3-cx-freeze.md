@@ -13,7 +13,9 @@ usize = "1556470"
 sha1sum = "86b3510f0ef921ce4362314087761fe53cbe5a7f"
 depends = "['python3-importlib-metadata', 'python3-patchelf']"
 +++
-cx_Freeze is a set of scripts and modules for freezing Python scripts into executables in much the same way that py2exe and py2app do{{< files text="show files" >}}* /usr/bin/cxfreeze
+cx_Freeze is a set of scripts and modules for freezing Python scripts into executables in much the same way that py2exe and py2app do"
+
+{{< files text="show files" >}}* /usr/bin/cxfreeze
 * /usr/bin/cxfreeze-quickstart
 * /usr/lib/python3.12/site-packages/cx_Freeze-6.15.11-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/cx_Freeze-6.15.11-py3.12.egg-info/entry_points.txt

@@ -13,7 +13,9 @@ usize = "15573642"
 sha1sum = "dd3ef94fd1e377dc1b3b984cd0f5ad3808f642f5"
 depends = "['python3']"
 +++
-Epydoc is a tool for generating API documentation for Python modules, based on their docstrings.{{< files text="show files" >}}* /usr/bin/apirst2html.py
+Epydoc is a tool for generating API documentation for Python modules, based on their docstrings."
+
+{{< files text="show files" >}}* /usr/bin/apirst2html.py
 * /usr/bin/epydoc
 * /usr/bin/epydocgui
 * /usr/lib/python3.12/site-packages/epydoc-3.0.1-py3.12.egg-info/dependency_links.txt

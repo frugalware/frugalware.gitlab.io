@@ -13,7 +13,9 @@ usize = "1309063"
 sha1sum = "ddec042f1afeb8a6948379be724fd8bcb9924e0f"
 depends = "['avahi>=0.6.31-9', 'avahi-glib>=0.6.31-9', 'cyrus-sasl>=2.1.26-3', 'libasyncns>=0.8-4', 'libffi>=3.2.1-2', 'libsoup>=2.50.0', 'nettle>=3.2-2', 'telepathy-glib>=0.24.1-8']"
 +++
-Provide Link-local Jabber functionality for Telepathy{{< files text="show files" >}}* /usr/lib/telepathy-salut/telepathy-salut
+Provide Link-local Jabber functionality for Telepathy"
+
+{{< files text="show files" >}}* /usr/lib/telepathy-salut/telepathy-salut
 * /usr/lib/telepathy/salut-0/lib/libsalut-plugins-0.8.1.so
 * /usr/lib/telepathy/salut-0/lib/libsalut-plugins.so
 * /usr/lib/telepathy/salut-0/lib/libwocky-telepathy-salut-0.8.1.so

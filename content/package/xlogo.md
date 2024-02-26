@@ -14,7 +14,9 @@ sha1sum = "d18d413b422662319a8f348d0116687aa2d994a9"
 depends = "['libxaw>=1.0.13-3']"
 license = "GPL2"
 +++
-X.Org xlogo application{{< files text="show files" >}}* /usr/bin/xlogo
+X.Org xlogo application"
+
+{{< files text="show files" >}}* /usr/bin/xlogo
 * /usr/share/doc/xlogo-1.0.6/ChangeLog
 * /usr/share/doc/xlogo-1.0.6/COPYING
 * /usr/share/doc/xlogo-1.0.6/INSTALL

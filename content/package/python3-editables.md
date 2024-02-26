@@ -14,7 +14,9 @@ sha1sum = "3995d188dc6673be15817f199963bc302361272d"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-hatchling']"
 +++
-A Python library for creating editable wheels{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/editables-0.5.dist-info/LICENSE.txt
+A Python library for creating editable wheels"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/editables-0.5.dist-info/LICENSE.txt
 * /usr/lib/python3.12/site-packages/editables-0.5.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/editables-0.5.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/editables-0.5.dist-info/WHEEL

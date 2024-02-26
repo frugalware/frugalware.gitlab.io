@@ -14,7 +14,9 @@ sha1sum = "31479e9e2698c930295fa5902d42f38c7edc1ea5"
 depends = "['libstdc++']"
 reverse_depends = "['libheif', 'sherlock265']"
 +++
-Open h.265 video codec implementation{{< files text="show files" >}}* /usr/bin/acceleration_speed
+Open h.265 video codec implementation"
+
+{{< files text="show files" >}}* /usr/bin/acceleration_speed
 * /usr/bin/bjoentegaard
 * /usr/bin/block-rate-estim
 * /usr/bin/dec265

@@ -13,7 +13,9 @@ usize = "427599"
 sha1sum = "4f6b386ac5986520b9d1cf69826fdc471458a4ce"
 depends = "['efl>=1.21.0']"
 +++
-Enlightenment Foundation Video Player{{< files text="show files" >}}* /usr/bin/rage
+Enlightenment Foundation Video Player"
+
+{{< files text="show files" >}}* /usr/bin/rage
 * /usr/lib/rage/utils/rage_thumb
 * /usr/share/applications/rage.desktop
 * /usr/share/doc/rage-0.3.0/AUTHORS

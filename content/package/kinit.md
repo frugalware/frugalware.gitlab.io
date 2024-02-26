@@ -14,7 +14,9 @@ sha1sum = "03b4125d11f326bb3d00836969a4637a3323ca45"
 depends = "['kio>=5.115.0']"
 reverse_depends = "['cervisia', 'dolphin', 'kcalc', 'kded', 'kile', 'konsole', 'kup', 'kwin5', 'plasma-workspace', 'systemsettings5']"
 +++
-KInit.{{< files text="show files" >}}* /usr/bin/kdeinit5
+KInit."
+
+{{< files text="show files" >}}* /usr/bin/kdeinit5
 * /usr/bin/kdeinit5_shutdown
 * /usr/bin/kdeinit5_wrapper
 * /usr/bin/kshell5

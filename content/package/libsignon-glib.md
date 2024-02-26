@@ -14,7 +14,9 @@ sha1sum = "ed65cba0785b58b87229e4e7816bf39064da77ae"
 depends = "['signon>=8.60-3']"
 reverse_depends = "['telepathy-accounts-signon']"
 +++
-GLib-based client library for applications handling account authentication through the Online Accounts Single Sign-On service.{{< files text="show files" >}}* /usr/include/libsignon-glib/signon-auth-service.h
+GLib-based client library for applications handling account authentication through the Online Accounts Single Sign-On service."
+
+{{< files text="show files" >}}* /usr/include/libsignon-glib/signon-auth-service.h
 * /usr/include/libsignon-glib/signon-auth-session.h
 * /usr/include/libsignon-glib/signon-enum-types.h
 * /usr/include/libsignon-glib/signon-errors.h

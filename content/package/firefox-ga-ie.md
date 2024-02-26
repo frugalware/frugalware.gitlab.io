@@ -14,5 +14,7 @@ sha1sum = "5c03279370af513ba01126b4176b12ae7cbb4625"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Irish language support for Firefox{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-ga-IE@firefox.mozilla.org.xpi
+Irish language support for Firefox"
+
+{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-ga-IE@firefox.mozilla.org.xpi
 {{< /files >}}

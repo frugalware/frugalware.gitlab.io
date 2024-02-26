@@ -14,7 +14,9 @@ sha1sum = "44ebb8c37fdf0cdfacc0ac16b916a4d697891a7c"
 depends = "['haskell-mono-traversable', 'haskell-resourcet']"
 reverse_depends = "['haskell-conduit-extra', 'haskell-libyaml']"
 +++
-Streaming data processing library{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/conduit-1.3.5/Conduit.dyn_hi
+Streaming data processing library"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/conduit-1.3.5/Conduit.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/conduit-1.3.5/Conduit.hi
 * /usr/lib/ghc-9.8.1/site-local/conduit-1.3.5/Data/Conduit.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/conduit-1.3.5/Data/Conduit.hi

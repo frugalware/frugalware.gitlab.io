@@ -14,7 +14,9 @@ sha1sum = "87d60cff57ac84bf458a280655cac071897e1972"
 depends = "['freeglut', 'glew', 'imath>=3.1.10', 'lcms2', 'minizip-ng', 'pybind11', 'pystring', 'yaml-cpp>=0.8.0']"
 reverse_depends = "['blender', 'krita']"
 +++
-Color management framework for visual effects and animation{{< files text="show files" >}}* /usr/bin/ocioarchive
+Color management framework for visual effects and animation"
+
+{{< files text="show files" >}}* /usr/bin/ocioarchive
 * /usr/bin/ociobakelut
 * /usr/bin/ociocheck
 * /usr/bin/ociochecklut

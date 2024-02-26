@@ -13,7 +13,9 @@ usize = "39400566"
 sha1sum = "b8c5862def5fb20a5ec614bac853d803460ab8f3"
 depends = "['gcc', 'libgfortran']"
 +++
-Fortran 95 support for GCC{{< files text="show files" >}}* /usr/bin/f95
+Fortran 95 support for GCC"
+
+{{< files text="show files" >}}* /usr/bin/f95
 * /usr/bin/gfortran
 * /usr/bin/x86_64-frugalware-linux-gfortran
 * /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/f951

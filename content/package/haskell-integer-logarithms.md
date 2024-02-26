@@ -14,7 +14,9 @@ sha1sum = "da00d7b99001ac2d0f73eca444140a20341919a3"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-scientific']"
 +++
-Integer logarithms.{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/integer-logarithms-1.0.3.1/GHC/Integer/Logarithms/Compat.dyn_hi
+Integer logarithms."
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/integer-logarithms-1.0.3.1/GHC/Integer/Logarithms/Compat.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/integer-logarithms-1.0.3.1/GHC/Integer/Logarithms/Compat.hi
 * /usr/lib/ghc-9.8.1/site-local/integer-logarithms-1.0.3.1/libHSinteger-logarithms-1.0.3.1-Hg8OWiAFWKk2NYD80aFCeW.a
 * /usr/lib/ghc-9.8.1/site-local/integer-logarithms-1.0.3.1/Math/NumberTheory/Logarithms.dyn_hi

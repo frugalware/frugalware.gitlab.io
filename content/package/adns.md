@@ -13,7 +13,9 @@ usize = "311942"
 sha1sum = "9c463f5dc88fff5f826a6058642cbfe0519fb8da"
 depends = "['glibc']"
 +++
-Advanced, easy to use, asynchronous-capable DNS client library and utilities{{< files text="show files" >}}* /usr/bin/adnsheloex
+Advanced, easy to use, asynchronous-capable DNS client library and utilities"
+
+{{< files text="show files" >}}* /usr/bin/adnsheloex
 * /usr/bin/adnshost
 * /usr/bin/adnslogres
 * /usr/bin/adnsresfilter

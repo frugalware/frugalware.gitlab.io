@@ -14,7 +14,9 @@ sha1sum = "bcaa01a37ac0b5d3e0491fd5a2cbf2817f45613e"
 depends = "['python3>=3.11']"
 reverse_depends = "['streamlink']"
 +++
-ISO country, subdivision, language, currency and script definitions and their translations (Python3){{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pycountry-22.3.5-py3.12.egg-info/dependency_links.txt
+ISO country, subdivision, language, currency and script definitions and their translations (Python3)"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pycountry-22.3.5-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pycountry-22.3.5-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/pycountry-22.3.5-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/pycountry-22.3.5-py3.12.egg-info/requires.txt

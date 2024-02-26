@@ -13,7 +13,9 @@ usize = "1422928"
 sha1sum = "c5518324d118984172889d074b52cb9ac2f6dbb9"
 depends = "['db>=4.7.25']"
 +++
-KLibido is a KDE usenet news grabber for Linux.{{< files text="show files" >}}* usr/bin/klibido
+KLibido is a KDE usenet news grabber for Linux."
+
+{{< files text="show files" >}}* usr/bin/klibido
 * usr/share/applnk/Utilities/klibido.desktop
 * usr/share/apps/klibido/icons/hicolor/16x16/actions/icon_article_new.png
 * usr/share/apps/klibido/icons/hicolor/16x16/actions/icon_article_read.png

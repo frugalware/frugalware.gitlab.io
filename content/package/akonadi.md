@@ -14,7 +14,9 @@ sha1sum = "1c86ea67940efdbee4eef588897672f1df4e8254"
 depends = "['kaccounts-integration>=23.08.5', 'kdesignerplugin>=5.115.0', 'kio>=5.115.0', 'kitemmodels>=5.115.0', 'kitemviews>=5.115.0', 'libstdc++>=6.3.1-4', 'libxslt', 'qt5-base>=5.15.12', 'shared-mime-info']"
 reverse_depends = "['akonadi-contacts', 'akonadi-mime', 'akonadi-notes', 'calendarsupport', 'incidenceeditor', 'libgravatar', 'libkdepim', 'libksieve']"
 +++
-PIM layer, which provides an asynchronous API to access all kind of PIM data{{< files text="show files" >}}* /etc/apparmor.d/mariadbd_akonadi
+PIM layer, which provides an asynchronous API to access all kind of PIM data"
+
+{{< files text="show files" >}}* /etc/apparmor.d/mariadbd_akonadi
 * /etc/apparmor.d/mysqld_akonadi
 * /etc/apparmor.d/postgresql_akonadi
 * /etc/apparmor.d/usr.bin.akonadiserver

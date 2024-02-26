@@ -14,7 +14,9 @@ sha1sum = "bb878d0a27fd1b63466523786e6e37d10c15b478"
 depends = "['bzip2', 'openssl', 'xz', 'zlib', 'zstd']"
 reverse_depends = "['opencolorio']"
 +++
-Fork of the popular zip manipulation library found in the zlib distribution{{< files text="show files" >}}* /usr/include/minizip-ng/ioapi.h
+Fork of the popular zip manipulation library found in the zlib distribution"
+
+{{< files text="show files" >}}* /usr/include/minizip-ng/ioapi.h
 * /usr/include/minizip-ng/mz.h
 * /usr/include/minizip-ng/mz_compat.h
 * /usr/include/minizip-ng/mz_crypt.h

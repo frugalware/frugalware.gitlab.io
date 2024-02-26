@@ -14,7 +14,9 @@ sha1sum = "0b7b5817bcc913293910521addaf7207b5d6bc67"
 depends = "['libdrm', 'libudev>=242', 'libxcursor', 'libxdamage', 'libxinerama', 'libxrandr', 'libxscrnsaver', 'libxshmfence', 'libxtst', 'libxvmc', 'pixman', 'xcb-util', 'xorg-server>=1.20.4-3']"
 license = "GPL2"
 +++
-X.Org driver for Intel cards (opensource){{< files text="show files" >}}* /usr/bin/intel-virtual-output
+X.Org driver for Intel cards (opensource)"
+
+{{< files text="show files" >}}* /usr/bin/intel-virtual-output
 * /usr/lib/libI810XvMC.so
 * /usr/lib/libI810XvMC.so.1
 * /usr/lib/libI810XvMC.so.1.0.0

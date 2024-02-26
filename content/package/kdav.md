@@ -14,7 +14,9 @@ sha1sum = "519dcf3702a095101d29dcf9459705ce4f41d169"
 depends = "['kcoreaddons>=5.115.0', 'kio>=5.115.0', 'qt5-xmlpatterns>=5.15.12']"
 reverse_depends = "['kdepim-runtime']"
 +++
-KDE DAV protocoll{{< files text="show files" >}}* /usr/include/KF5/KDAV/KDAV/DavCollection
+KDE DAV protocoll"
+
+{{< files text="show files" >}}* /usr/include/KF5/KDAV/KDAV/DavCollection
 * /usr/include/KF5/KDAV/kdav/davcollection.h
 * /usr/include/KF5/KDAV/KDAV/DavCollectionDeleteJob
 * /usr/include/KF5/KDAV/kdav/davcollectiondeletejob.h

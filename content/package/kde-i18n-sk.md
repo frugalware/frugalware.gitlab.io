@@ -13,7 +13,9 @@ usize = "13932963"
 sha1sum = "f8240d4f904965830c26edc257ae3ebcb121e9aa"
 depends = "[]"
 +++
-Slovak Localization for KDE.{{< files text="show files" >}}* usr/share/apps/katepart/syntax/logohighlightstyle.sk.xml
+Slovak Localization for KDE."
+
+{{< files text="show files" >}}* usr/share/apps/katepart/syntax/logohighlightstyle.sk.xml
 * usr/share/apps/klettres/sk/alpha/a-0.ogg
 * usr/share/apps/klettres/sk/alpha/a-1.ogg
 * usr/share/apps/klettres/sk/alpha/a-10.ogg

@@ -13,7 +13,9 @@ usize = "2855575"
 sha1sum = "407b8e65d07f7879de0c0a294ad4f593b9ebb525"
 depends = "['bash', 'perl>=5.34']"
 +++
-A tool for automatically generating Makefiles{{< files text="show files" >}}* /usr/bin/aclocal
+A tool for automatically generating Makefiles"
+
+{{< files text="show files" >}}* /usr/bin/aclocal
 * /usr/bin/aclocal-1.16
 * /usr/bin/automake
 * /usr/bin/automake-1.16

@@ -14,7 +14,9 @@ sha1sum = "fb19127e4e02ceae36647855d8720fb0a89f4168"
 depends = "['glibc>=2.34', 'libkrb5']"
 reverse_depends = "['cifs-utils', 'dracut', 'dracut-ykfde', 'kernel-initrd', 'kernel-lts-initrd', 'libnvme', 'ndctl', 'nfs-utils']"
 +++
-Keyutils is a set of utilities for managing the key retention facility in the kernel{{< files text="show files" >}}* /etc/request-key.conf
+Keyutils is a set of utilities for managing the key retention facility in the kernel"
+
+{{< files text="show files" >}}* /etc/request-key.conf
 * /usr/bin/key.dns_resolver
 * /usr/bin/keyctl
 * /usr/bin/request-key

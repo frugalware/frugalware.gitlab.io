@@ -14,7 +14,9 @@ sha1sum = "abf5be5e164b74832bb8e1deeea32b583697eeba"
 depends = "['sdl>=1.2.15-3']"
 reverse_depends = "['dosbox', 'manaplus', 'opencity']"
 +++
-A small sample cross-platform networking library{{< files text="show files" >}}* /usr/include/SDL/SDL_net.h
+A small sample cross-platform networking library"
+
+{{< files text="show files" >}}* /usr/include/SDL/SDL_net.h
 * /usr/lib/libSDL_net-1.2.so.0
 * /usr/lib/libSDL_net-1.2.so.0.8.0
 * /usr/lib/libSDL_net.so

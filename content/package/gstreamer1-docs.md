@@ -13,7 +13,9 @@ usize = "108086604"
 sha1sum = "853c2fd8b814ee8b08f206b158b966cf45347cf6"
 depends = "[]"
 +++
-GStreamer $pkgver Documentation.{{< files text="show files" >}}* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/1394/dv1394src.html
+GStreamer $pkgver Documentation."
+
+{{< files text="show files" >}}* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/1394/dv1394src.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/1394/hdv1394src.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/1394/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/a52dec/index.html

@@ -14,7 +14,9 @@ sha1sum = "085e60ae20a16b53ddc17dcebdfb48c16a3c526a"
 depends = "['gtk+3>=3.22.29', 'libcanberra>=0.30']"
 reverse_depends = "['notification-daemon', 'pavucontrol']"
 +++
-GTK+3 libcanberra{{< files text="show files" >}}* /usr/bin/canberra-gtk-play
+GTK+3 libcanberra"
+
+{{< files text="show files" >}}* /usr/bin/canberra-gtk-play
 * /usr/include/canberra-gtk.h
 * /usr/lib/gtk-3.0/modules/libcanberra-gtk-module.so
 * /usr/lib/gtk-3.0/modules/libcanberra-gtk3-module.so

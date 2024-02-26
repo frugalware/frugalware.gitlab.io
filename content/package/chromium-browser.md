@@ -14,7 +14,9 @@ sha1sum = "da479cd16a9133bc4cd3f131cc8d4e57a1846cf2"
 depends = "['curl', 'dav1d', 'flac>=1.4.0', 'fontconfig', 'freetype2', 'gtk+4', 'harfbuzz>=3.0.0', 'icu4c>=74.1', 'json-glib', 'libatomic', 'libcups', 'libdrm', 'libffi', 'libjpeg-turbo', 'libpulse>=7.1-4', 'libusb1', 'libva', 'libwebp', 'libxkbcommon', 'libxscrnsaver>=1.2.2-2', 'libxslt', 'libxtst>=1.2.2-2', 'nss>=3.21-3', 'opus', 'pango', 'pciutils>=3.5', 'qt5-base>=5.15.10', 'snappy>=1.1.6', 'speech-dispatcher>=0.7.1-4']"
 license = "BSD"
 +++
-Chromium browser{{< files text="show files" >}}* /usr/bin/chromedriver
+Chromium browser"
+
+{{< files text="show files" >}}* /usr/bin/chromedriver
 * /usr/bin/chromium
 * /usr/lib/chromium/chrome-sandbox
 * /usr/lib/chromium/chromedriver

@@ -14,7 +14,9 @@ sha1sum = "3ce6f2bcff3bd3b8e50b1a669027f3d827825707"
 depends = "['ocaml>=5.1.1']"
 reverse_depends = "['cudf']"
 +++
-OCaml standard library extensions{{< files text="show files" >}}* /usr/lib/ocaml/extlib/base64.cmi
+OCaml standard library extensions"
+
+{{< files text="show files" >}}* /usr/lib/ocaml/extlib/base64.cmi
 * /usr/lib/ocaml/extlib/base64.cmt
 * /usr/lib/ocaml/extlib/base64.cmti
 * /usr/lib/ocaml/extlib/base64.cmx

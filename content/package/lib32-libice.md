@@ -14,7 +14,9 @@ sha1sum = "47a6abbef0443fd3e58ba16d2514a0734c6b3cb9"
 depends = "['glibc>=2.34']"
 reverse_depends = "['lib32-libsm']"
 +++
-X Inter Client Exchange Library ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/ICE/ICE.h
+X Inter Client Exchange Library ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/ICE/ICE.h
 * /usr/i686-frugalware-linux/include/X11/ICE/ICEconn.h
 * /usr/i686-frugalware-linux/include/X11/ICE/ICElib.h
 * /usr/i686-frugalware-linux/include/X11/ICE/ICEmsg.h

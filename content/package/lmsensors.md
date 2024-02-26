@@ -14,7 +14,9 @@ sha1sum = "129fb0fed9c7f8431797c705e772e810c8ead296"
 depends = "['glibc>=2.34', 'perl']"
 reverse_depends = "['inxi', 'ksensors', 'ksysguard5', 'libksysguard5', 'mesa-dri-drivers', 'mesa-nine', 'sysstat']"
 +++
-Linux System Hardware Monitor{{< files text="show files" >}}* /etc/sensors3.conf
+Linux System Hardware Monitor"
+
+{{< files text="show files" >}}* /etc/sensors3.conf
 * /usr/bin/fancontrol
 * /usr/bin/isadump
 * /usr/bin/isaset

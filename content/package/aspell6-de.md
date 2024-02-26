@@ -13,7 +13,9 @@ usize = "2122980"
 sha1sum = "b3e72da104f60857d74d8739e4542690be2c8d4e"
 depends = "['aspell>=0.60']"
 +++
-GNU Aspell 0.60 German Word List Package{{< files text="show files" >}}* /usr/lib/aspell-0.60/de-common.rws
+GNU Aspell 0.60 German Word List Package"
+
+{{< files text="show files" >}}* /usr/lib/aspell-0.60/de-common.rws
 * /usr/lib/aspell-0.60/de.dat
 * /usr/lib/aspell-0.60/de.multi
 * /usr/lib/aspell-0.60/deutsch.alias

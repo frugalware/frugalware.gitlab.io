@@ -13,5 +13,7 @@ usize = "2597"
 sha1sum = "b4c6bd7270df7ae675d819bd64fa2f1ce053badf"
 depends = "['openjre']"
 +++
-The implementation of the javac compiler for JDK 1.4 and above.{{< files text="show files" >}}* /usr/share/java/xjavac.jar
+The implementation of the javac compiler for JDK 1.4 and above."
+
+{{< files text="show files" >}}* /usr/share/java/xjavac.jar
 {{< /files >}}

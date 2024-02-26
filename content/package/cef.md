@@ -13,7 +13,9 @@ usize = "1641113666"
 sha1sum = "702df64be92c186040a896ef602ccb02636cc52b"
 depends = "['alsa-lib', 'dbus', 'libglvnd', 'libxcomposite', 'libxcursor', 'libxrandr', 'libxscrnsaver', 'libxtst', 'nss', 'pango']"
 +++
-Chromium Embedded Framework standard release{{< files text="show files" >}}* /etc/ld.so.conf.d/cef.conf
+Chromium Embedded Framework standard release"
+
+{{< files text="show files" >}}* /etc/ld.so.conf.d/cef.conf
 * /opt/cef/cef_paths.gypi
 * /opt/cef/cef_paths2.gypi
 * /opt/cef/cmake/cef_macros.cmake

@@ -13,7 +13,9 @@ usize = "370276"
 sha1sum = "f77a4a5f62e8be399d2c603cc4fa5b79cb7e8e00"
 depends = "['qt5-declarative>=5.15.12', 'sdl2']"
 +++
-The Qt5 toolkit, qtgamepad{{< files text="show files" >}}* /usr/include/qt5/QtGamepad/5.15.12/QtGamepad/private/qgamepadbackendfactory_p.h
+The Qt5 toolkit, qtgamepad"
+
+{{< files text="show files" >}}* /usr/include/qt5/QtGamepad/5.15.12/QtGamepad/private/qgamepadbackendfactory_p.h
 * /usr/include/qt5/QtGamepad/5.15.12/QtGamepad/private/qgamepadbackendplugin_p.h
 * /usr/include/qt5/QtGamepad/5.15.12/QtGamepad/private/qgamepadbackend_p.h
 * /usr/include/qt5/QtGamepad/5.15.12/QtGamepad/private/qtgamepad-config_p.h

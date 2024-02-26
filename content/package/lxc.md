@@ -13,7 +13,9 @@ usize = "29205497"
 sha1sum = "510b22cfcab0f145d9547078006a539290c51d13"
 depends = "['bash', 'pam', 'perl']"
 +++
-Linux Containers{{< files text="show files" >}}* /etc/lxc/default.conf
+Linux Containers"
+
+{{< files text="show files" >}}* /etc/lxc/default.conf
 * /etc/sysconfig/lxc
 * /usr/bin/init.lxc
 * /usr/bin/lxc-attach

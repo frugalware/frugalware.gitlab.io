@@ -14,7 +14,9 @@ sha1sum = "7d2ae2fc1b91c552fd0d001c07ebae9abc134752"
 depends = "['qt6-base']"
 reverse_depends = "['qt6-3d', 'qt6-quick3d', 'qt6-quickeffectmaker']"
 +++
-The Qt6 toolkit, qtshadertools{{< files text="show files" >}}* /usr/include/qt6/QtShaderTools/6.6.2/QtShaderTools/private/qshaderrewriter_p.h
+The Qt6 toolkit, qtshadertools"
+
+{{< files text="show files" >}}* /usr/include/qt6/QtShaderTools/6.6.2/QtShaderTools/private/qshaderrewriter_p.h
 * /usr/include/qt6/QtShaderTools/6.6.2/QtShaderTools/private/qspirvcompiler_p.h
 * /usr/include/qt6/QtShaderTools/6.6.2/QtShaderTools/private/qspirvshaderremap_p.h
 * /usr/include/qt6/QtShaderTools/6.6.2/QtShaderTools/private/qspirvshader_p.h

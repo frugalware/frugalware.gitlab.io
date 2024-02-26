@@ -13,7 +13,9 @@ usize = "3381740"
 sha1sum = "d17c40e778c9c3cb82deba6bb38c74993522ed22"
 depends = "[]"
 +++
-Croatian Localization for KDE.{{< files text="show files" >}}* usr/share/doc/HTML/hr/common/1.png
+Croatian Localization for KDE."
+
+{{< files text="show files" >}}* usr/share/doc/HTML/hr/common/1.png
 * usr/share/doc/HTML/hr/common/10.png
 * usr/share/doc/HTML/hr/common/2.png
 * usr/share/doc/HTML/hr/common/3.png

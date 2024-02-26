@@ -13,7 +13,9 @@ usize = "1271334"
 sha1sum = "2e67ce7224be2f9441f4b945c10abbce504017fc"
 depends = "['courier-authlib>=0.69.0', 'glibc>=2.24-4', 'libidn>=1.35']"
 +++
-The Courier maildrop MDA{{< files text="show files" >}}* /usr/bin/deliverquota.maildrop
+The Courier maildrop MDA"
+
+{{< files text="show files" >}}* /usr/bin/deliverquota.maildrop
 * /usr/bin/lockmail
 * /usr/bin/mailbot
 * /usr/bin/maildirkw

@@ -13,7 +13,9 @@ usize = "713012"
 sha1sum = "09636a9bd60c16027bb32a11f97f1906c14480b5"
 depends = "['glib2>=2.60.3']"
 +++
-Library providing GObject-based interfaces and classes for commonly used data structures.{{< files text="show files" >}}* /usr/include/gee-1.0/gee.h
+Library providing GObject-based interfaces and classes for commonly used data structures."
+
+{{< files text="show files" >}}* /usr/include/gee-1.0/gee.h
 * /usr/lib/girepository-1.0/Gee-1.0.typelib
 * /usr/lib/libgee.so
 * /usr/lib/libgee.so.2

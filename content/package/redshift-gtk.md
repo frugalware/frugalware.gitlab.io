@@ -13,7 +13,9 @@ usize = "422798"
 sha1sum = "ed29538bd97e8f8f99a23454c8762e798ef8eb90"
 depends = "['gtk+3', 'pygobject3']"
 +++
-Gtk Client for redshift{{< files text="show files" >}}* /usr/bin/redshift-gtk
+Gtk Client for redshift"
+
+{{< files text="show files" >}}* /usr/bin/redshift-gtk
 * /usr/lib/python3.12/site-packages/redshift_gtk/controller.py
 * /usr/lib/python3.12/site-packages/redshift_gtk/defs.py
 * /usr/lib/python3.12/site-packages/redshift_gtk/statusicon.py

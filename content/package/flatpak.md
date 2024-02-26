@@ -14,7 +14,9 @@ sha1sum = "5122fd4d73865983a589813f9c222d576433f1ef"
 depends = "['appstream>=1.0.0', 'bubblewrap', 'gdk-pixbuf2', 'json-glib', 'libseccomp', 'ostree', 'polkit', 'xdg-dbus-proxy']"
 reverse_depends = "['flatpak-kcm']"
 +++
-Linux application sandboxing and distribution framework (formerly xdg-app){{< files text="show files" >}}* /etc/profile.d/flatpak.sh
+Linux application sandboxing and distribution framework (formerly xdg-app)"
+
+{{< files text="show files" >}}* /etc/profile.d/flatpak.sh
 * /usr/bin/flatpak
 * /usr/bin/flatpak-bisect
 * /usr/bin/flatpak-coredumpctl

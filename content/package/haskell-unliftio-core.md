@@ -14,7 +14,9 @@ sha1sum = "c93c969315db1e2be89ab19acc9f93b49f76290f"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-resourcet', 'haskell-typed-process', 'haskell-unliftio']"
 +++
-The MonadUnliftIO typeclass for unlifting monads to IO{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/unliftio-core-0.2.1.0/Control/Monad/IO/Unlift.dyn_hi
+The MonadUnliftIO typeclass for unlifting monads to IO"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/unliftio-core-0.2.1.0/Control/Monad/IO/Unlift.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/unliftio-core-0.2.1.0/Control/Monad/IO/Unlift.hi
 * /usr/lib/ghc-9.8.1/site-local/unliftio-core-0.2.1.0/libHSunliftio-core-0.2.1.0-J5AG9ZMXvVx9zDCuGbmIZx.a
 * /usr/lib/ghc-9.8.1/site-local/unliftio-core-0.2.1.0/Paths_unliftio_core.dyn_hi

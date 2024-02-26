@@ -14,7 +14,9 @@ sha1sum = "633e1d5f859708c236b69302efd05022444d3a23"
 depends = "['cryptsetup-luks', 'gpgme', 'libblkid', 'nss', 'python3>=3.12']"
 reverse_depends = "['libblockdev']"
 +++
-A tiny library providing a C class for working with arbitrary big sizes in bytes{{< files text="show files" >}}* /usr/bin/volume_key
+A tiny library providing a C class for working with arbitrary big sizes in bytes"
+
+{{< files text="show files" >}}* /usr/bin/volume_key
 * /usr/include/volume_key/libvolume_key.h
 * /usr/lib/libvolume_key.so
 * /usr/lib/libvolume_key.so.1

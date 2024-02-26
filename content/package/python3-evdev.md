@@ -14,7 +14,9 @@ sha1sum = "a8ef6ee76a5c3a3386b639e31ae7569c38d4ad69"
 depends = "['libevdev', 'python3>=3.11']"
 reverse_depends = "['input-remapper', 'lutris', 'piper']"
 +++
-Python bindings for the linux input handling subsystem{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/evdev-1.6.1-py3.12.egg-info/dependency_links.txt
+Python bindings for the linux input handling subsystem"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/evdev-1.6.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/evdev-1.6.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/evdev-1.6.1-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/evdev-1.6.1-py3.12.egg-info/top_level.txt

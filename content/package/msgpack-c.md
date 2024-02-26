@@ -14,7 +14,9 @@ sha1sum = "f7d776e71420e16ee3a11a08e00da8ed0fc321e0"
 depends = "['glibc>=2.34']"
 reverse_depends = "['neovim']"
 +++
-An efficient object serialization library{{< files text="show files" >}}* /usr/include/msgpack.h
+An efficient object serialization library"
+
+{{< files text="show files" >}}* /usr/include/msgpack.h
 * /usr/include/msgpack/fbuffer.h
 * /usr/include/msgpack/gcc_atomic.h
 * /usr/include/msgpack/object.h

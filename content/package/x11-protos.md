@@ -13,5 +13,7 @@ usize = "138"
 sha1sum = "010a1801161c940a5ce9c48c88d2e7cca1218d2c"
 depends = "['libpthread-stubs', 'util-macros', 'xcb-proto', 'xorgproto>=2018.3-2', 'xtrans>=1.3.5-2']"
 +++
-X.Org dummy -devel package{{< files text="show files" >}}* /usr/share/doc/x11-protos-0.1/README
+X.Org dummy -devel package"
+
+{{< files text="show files" >}}* /usr/share/doc/x11-protos-0.1/README
 {{< /files >}}

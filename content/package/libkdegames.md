@@ -14,7 +14,9 @@ sha1sum = "40955bc00fb4546afbcc3b531bbf34746dd9aa7e"
 depends = "['kdeclarative>=5.115.0', 'kdnssd>=5.115.0', 'knewstuff>=5.115.0', 'openal>=1.17.2-2', 'qt5-declarative>=5.15.12']"
 reverse_depends = "['bomber', 'bovo', 'granatier', 'kapman', 'katomic', 'kblackbox', 'kblocks', 'kbounce', 'kbreakout', 'kdiamond', 'kfourinline', 'kgoldrunner', 'kigo', 'killbots', 'kiriki', 'kjumpingcube', 'klettres', 'klickety', 'klines', 'kmahjongg', 'kmines', 'knavalbattle', 'knetwalk', 'knights', 'kolf', 'kollision', 'konquest', 'kpat', 'kreversi', 'kshisen', 'ksirk', 'ksnakeduel', 'kspaceduel', 'ksquares', 'ksudoku', 'kteatime', 'ktuberling', 'kubrick', 'kwordquiz', 'lskat', 'minuet', 'palapeli', 'picmi']"
 +++
-Library for KDE games.{{< files text="show files" >}}* /usr/include/KF5/KDEGames/highscore/khighscore.h
+Library for KDE games."
+
+{{< files text="show files" >}}* /usr/include/KF5/KDEGames/highscore/khighscore.h
 * /usr/include/KF5/KDEGames/highscore/kscoredialog.h
 * /usr/include/KF5/KDEGames/kdegames_version.h
 * /usr/include/KF5/KDEGames/KGameClock

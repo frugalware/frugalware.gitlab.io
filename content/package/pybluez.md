@@ -13,7 +13,9 @@ usize = "345885"
 sha1sum = "c81769e58a0862e836ea59f129cb61ebff7a6361"
 depends = "['bluez', 'python3']"
 +++
-Python wrapper for bluez-libs{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/bluetooth/ble.py
+Python wrapper for bluez-libs"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/bluetooth/ble.py
 * /usr/lib/python3.12/site-packages/bluetooth/bluez.py
 * /usr/lib/python3.12/site-packages/bluetooth/btcommon.py
 * /usr/lib/python3.12/site-packages/bluetooth/macos.py

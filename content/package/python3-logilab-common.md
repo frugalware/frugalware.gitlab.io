@@ -13,7 +13,9 @@ usize = "1210190"
 sha1sum = "a2d8b76d03de8169245efd19f9ef6251ae73a993"
 depends = "['python3>=3.11']"
 +++
-Providing low level functionalities needed for logilab python programs.{{< files text="show files" >}}* /usr/bin/logilab-pytest
+Providing low level functionalities needed for logilab python programs."
+
+{{< files text="show files" >}}* /usr/bin/logilab-pytest
 * /usr/lib/python3.12/site-packages/logilab/common/cache.py
 * /usr/lib/python3.12/site-packages/logilab/common/changelog.py
 * /usr/lib/python3.12/site-packages/logilab/common/clcommands.py

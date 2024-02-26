@@ -14,7 +14,9 @@ sha1sum = "7a715110437209d15ffe33786e1d5e128d79d65e"
 depends = "['glibmm>=2.68.1', 'libxml2>=2.9.3-3']"
 reverse_depends = "['libofx', 'performous']"
 +++
-libxml++ is a C++ wrapper for the libxml XML parser library{{< files text="show files" >}}* /usr/include/libxml++-5.0/libxml++/attribute.h
+libxml++ is a C++ wrapper for the libxml XML parser library"
+
+{{< files text="show files" >}}* /usr/include/libxml++-5.0/libxml++/attribute.h
 * /usr/include/libxml++-5.0/libxml++/attributedeclaration.h
 * /usr/include/libxml++-5.0/libxml++/attributenode.h
 * /usr/include/libxml++-5.0/libxml++/document.h

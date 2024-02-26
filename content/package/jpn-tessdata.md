@@ -13,5 +13,7 @@ usize = "35659246"
 sha1sum = "9d332c4cfa6843a32aac6e6f6a15f6cab701bf5f"
 depends = "['glibc']"
 +++
-Language specific files for tesseract lang jpn{{< files text="show files" >}}* /usr/share/tessdata/jpn.traineddata
+Language specific files for tesseract lang jpn"
+
+{{< files text="show files" >}}* /usr/share/tessdata/jpn.traineddata
 {{< /files >}}

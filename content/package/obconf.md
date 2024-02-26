@@ -13,7 +13,9 @@ usize = "816197"
 sha1sum = "5a90f452af02f97e8ed35ab32bfec37afff6cc67"
 depends = "['gtk+2', 'libxml2>=2.7.8', 'openbox>=3.6.1']"
 +++
-OpenBox's Configuration utility.{{< files text="show files" >}}* /usr/bin/obconf
+OpenBox's Configuration utility."
+
+{{< files text="show files" >}}* /usr/bin/obconf
 * /usr/share/applications/obconf.desktop
 * /usr/share/doc/obconf-2.0.4/AUTHORS
 * /usr/share/doc/obconf-2.0.4/CHANGELOG

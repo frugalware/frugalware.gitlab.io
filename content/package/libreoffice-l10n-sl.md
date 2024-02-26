@@ -13,7 +13,9 @@ usize = "35479507"
 sha1sum = "5e2320f574e78c85cbb550e1a8caf17876f8e157"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Slovenian support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/sl/default.css
+Installs Slovenian support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/help/sl/default.css
 * /usr/lib/libreoffice/help/sl/err.html
 * /usr/lib/libreoffice/help/sl/highcontrast1.css
 * /usr/lib/libreoffice/help/sl/highcontrast2.css

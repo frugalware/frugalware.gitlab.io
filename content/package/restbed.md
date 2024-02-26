@@ -13,7 +13,9 @@ usize = "903872"
 sha1sum = "cc40577ae027d37ab3c7a2d841952022f02bfca8"
 depends = "['openssl>=1.1.1']"
 +++
-A framework for asynchronous RESTful functionality in C++11 applications{{< files text="show files" >}}* /usr/include/corvusoft/restbed/byte.hpp
+A framework for asynchronous RESTful functionality in C++11 applications"
+
+{{< files text="show files" >}}* /usr/include/corvusoft/restbed/byte.hpp
 * /usr/include/corvusoft/restbed/common.hpp
 * /usr/include/corvusoft/restbed/context_placeholder.hpp
 * /usr/include/corvusoft/restbed/context_placeholder_base.hpp

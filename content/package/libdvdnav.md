@@ -14,7 +14,9 @@ sha1sum = "7703a376967139315040fb99919084d11c3de23b"
 depends = "['glibc>=2.34', 'libdvdread>=6.1.1']"
 reverse_depends = "['gst1-plugins-bad-resindvd', 'handbrake', 'mpv', 'vlc-libdvdnav', 'xine-lib']"
 +++
-The library for xine-dvdnav plugin.{{< files text="show files" >}}* /usr/include/dvdnav/dvdnav.h
+The library for xine-dvdnav plugin."
+
+{{< files text="show files" >}}* /usr/include/dvdnav/dvdnav.h
 * /usr/include/dvdnav/dvdnav_events.h
 * /usr/include/dvdnav/dvd_types.h
 * /usr/include/dvdnav/version.h

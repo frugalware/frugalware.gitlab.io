@@ -13,5 +13,7 @@ usize = "27256"
 sha1sum = "050d13e2cbf81eb632b925acfc35c35832bb6e5d"
 depends = "['uwsgi']"
 +++
-UWSGI Gevent Plugin{{< files text="show files" >}}* /usr/lib/uwsgi/gevent_plugin.so
+UWSGI Gevent Plugin"
+
+{{< files text="show files" >}}* /usr/lib/uwsgi/gevent_plugin.so
 {{< /files >}}

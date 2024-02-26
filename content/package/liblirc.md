@@ -14,7 +14,9 @@ sha1sum = "4dce799e3363df6e9a2b2391c38797aff130c210"
 depends = "['glibc>=2.35', 'python3>=3.12']"
 reverse_depends = "['lirc', 'mencoder', 'mplayer', 'mpv', 'pulseaudio-lirc']"
 +++
-Client library for lirc.{{< files text="show files" >}}* /usr/include/lirc/ciniparser.h
+Client library for lirc."
+
+{{< files text="show files" >}}* /usr/include/lirc/ciniparser.h
 * /usr/include/lirc/config.h
 * /usr/include/lirc/config_file.h
 * /usr/include/lirc/config_flags.h

@@ -14,7 +14,9 @@ sha1sum = "62d95940f169df52e40748d5ce6f5ff3a00765b2"
 depends = "['glib2', 'libsearpc']"
 reverse_depends = "['seafile', 'seafile-client']"
 +++
-Seafile shared lib{{< files text="show files" >}}* /usr/include/seafile/seafile-error.h
+Seafile shared lib"
+
+{{< files text="show files" >}}* /usr/include/seafile/seafile-error.h
 * /usr/include/seafile/seafile-object.h
 * /usr/include/seafile/seafile-rpc.h
 * /usr/include/seafile/seafile.h

@@ -14,7 +14,9 @@ sha1sum = "0dedc9cfbc16ec4289628bd1b4d81152062b41d3"
 depends = "['haskell-pandoc-types>=1.23.1', 'haskell-split', 'haskell-typst-symbols', 'haskell-xml']"
 reverse_depends = "['pandoc']"
 +++
-Conversion between math formats{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/texmath-0.12.8.6/libHStexmath-0.12.8.6-HZBPGqJ07wfdgjDEoS1ZO.a
+Conversion between math formats"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/texmath-0.12.8.6/libHStexmath-0.12.8.6-HZBPGqJ07wfdgjDEoS1ZO.a
 * /usr/lib/ghc-9.8.1/site-local/texmath-0.12.8.6/Paths_texmath.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/texmath-0.12.8.6/Paths_texmath.hi
 * /usr/lib/ghc-9.8.1/site-local/texmath-0.12.8.6/Text/TeXMath.dyn_hi

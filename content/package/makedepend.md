@@ -14,7 +14,9 @@ sha1sum = "944398112df7fdefb43a6a20fc3d02b28b56c1bd"
 depends = "['glibc>=2.34']"
 license = "GPL2"
 +++
-X.Org makedepend utility{{< files text="show files" >}}* /usr/bin/makedepend
+X.Org makedepend utility"
+
+{{< files text="show files" >}}* /usr/bin/makedepend
 * /usr/share/doc/makedepend-1.0.9/AUTHORS
 * /usr/share/doc/makedepend-1.0.9/ChangeLog
 * /usr/share/doc/makedepend-1.0.9/COPYING

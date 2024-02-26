@@ -13,5 +13,7 @@ usize = "14616"
 sha1sum = "8fd6e13af973dc003d04c0e4a6ca682f9ee74b89"
 depends = "['uwsgi']"
 +++
-UWSGI Zergpool Plugin{{< files text="show files" >}}* /usr/lib/uwsgi/zergpool_plugin.so
+UWSGI Zergpool Plugin"
+
+{{< files text="show files" >}}* /usr/lib/uwsgi/zergpool_plugin.so
 {{< /files >}}

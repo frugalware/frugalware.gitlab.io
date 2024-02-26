@@ -14,7 +14,9 @@ sha1sum = "5fac461abb8068ba7838a589f118287618f7bd26"
 depends = "['python3-editables', 'python3-packaging', 'python3-pathspec', 'python3-pluggy', 'python3-tomli', 'python3-trove-classifiers']"
 reverse_depends = "['python3-hatch-fancy-pypi-readme', 'python3-hatch-vcs']"
 +++
-A modern project, package, and virtual env manager (backend){{< files text="show files" >}}* /usr/bin/hatchling
+A modern project, package, and virtual env manager (backend)"
+
+{{< files text="show files" >}}* /usr/bin/hatchling
 * /usr/lib/python3.12/site-packages/hatchling-1.18.0.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/hatchling-1.18.0.dist-info/licenses/LICENSE.txt
 * /usr/lib/python3.12/site-packages/hatchling-1.18.0.dist-info/METADATA

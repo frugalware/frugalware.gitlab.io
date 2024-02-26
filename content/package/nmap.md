@@ -14,7 +14,9 @@ sha1sum = "cbfab50acc5c0e9abb7317245da40bc9d06509c8"
 depends = "['libpcap>=1.2.0', 'libssh2', 'ncat', 'openssl>=3.1.0']"
 reverse_depends = "['nmapsi4']"
 +++
-A network exploration tool and security scanner{{< files text="show files" >}}* /usr/bin/ndiff
+A network exploration tool and security scanner"
+
+{{< files text="show files" >}}* /usr/bin/ndiff
 * /usr/bin/nmap
 * /usr/bin/uninstall_ndiff
 * /usr/lib/python3.12/site-packages/ndiff.py

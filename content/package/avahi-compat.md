@@ -14,7 +14,9 @@ sha1sum = "4f6f52320877ff6877ebceffb3e99baf2d091e55"
 depends = "['libssp>=7.3.0-5']"
 reverse_depends = "['mumble', 'murmur']"
 +++
-mDNSresponder and Howl compatibility libraries/headers for Avahi{{< files text="show files" >}}* /usr/include/avahi-compat-howl/corby/buffer.h
+mDNSresponder and Howl compatibility libraries/headers for Avahi"
+
+{{< files text="show files" >}}* /usr/include/avahi-compat-howl/corby/buffer.h
 * /usr/include/avahi-compat-howl/corby/channel.h
 * /usr/include/avahi-compat-howl/corby/corby.h
 * /usr/include/avahi-compat-howl/corby/message.h

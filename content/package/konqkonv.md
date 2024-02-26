@@ -13,5 +13,7 @@ usize = "0"
 sha1sum = "b77d7a7d37dbce11b03abe117e37ffd084a2efd0"
 depends = "['mplayer']"
 +++
-A KDE service menu which allows quick and easy conversion of video files into DVD or VCD compliant mpg files.{{< files text="show files" >}}* usr/share/apps/konqueror/servicemenus/konqkonv.desktop
+A KDE service menu which allows quick and easy conversion of video files into DVD or VCD compliant mpg files."
+
+{{< files text="show files" >}}* usr/share/apps/konqueror/servicemenus/konqkonv.desktop
 {{< /files >}}

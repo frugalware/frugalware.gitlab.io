@@ -13,7 +13,9 @@ usize = "101264"
 sha1sum = "907c64974389fc99ba9e253ab1155d60ce62a386"
 depends = "['openssl>=1.0.0']"
 +++
-A free, easy to use implementation of the Network Time Protocol.{{< files text="show files" >}}* /etc/ntpd.conf
+A free, easy to use implementation of the Network Time Protocol."
+
+{{< files text="show files" >}}* /etc/ntpd.conf
 * /etc/sysconfig/openntpd
 * /usr/bin/ntpctl
 * /usr/bin/ntpd

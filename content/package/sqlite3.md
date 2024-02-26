@@ -14,7 +14,9 @@ sha1sum = "cae845816ac170ad650a46cbab2caf1d4f2a2db7"
 depends = "['ncurses>=6.1-5', 'readline>=8.0-3']"
 reverse_depends = "['aircrack-ng', 'apr-util', 'aria2', 'bogofilter', 'botan', 'colord', 'courier-authlib', 'crawl', 'crawl-tiles', 'dlib', 'docker', 'firefox', 'freeciv', 'gdal', 'glyr', 'gnunet', 'gnupg2', 'gst1-plugins-good-libsoup', 'hyperscan', 'kat', 'libaccounts-glib', 'librdf', 'libsndfile', 'libsoup', 'libsoup3', 'minidlna', 'neko', 'nfs-utils', 'nss', 'openslide', 'pdns', 'php', 'python3-apsw', 'python3-sqlite3', 'qt5-base', 'qt6-base', 'seafile', 'strongswan', 'telepathy-logger', 'thunderbird', 'uwsgi-plugin-sqlite', 'vscode']"
 +++
-A C library that implements an SQL database engine{{< files text="show files" >}}* /usr/bin/showdb
+A C library that implements an SQL database engine"
+
+{{< files text="show files" >}}* /usr/bin/showdb
 * /usr/bin/showjournal
 * /usr/bin/showstat4
 * /usr/bin/showwal

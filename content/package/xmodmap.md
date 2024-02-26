@@ -15,7 +15,9 @@ depends = "['libx11>=1.6.3-4']"
 reverse_depends = "['input-remapper']"
 license = "GPL2"
 +++
-utility for modifying keymaps and pointer button mappings in X{{< files text="show files" >}}* /usr/bin/xmodmap
+utility for modifying keymaps and pointer button mappings in X"
+
+{{< files text="show files" >}}* /usr/bin/xmodmap
 * /usr/share/doc/xmodmap-1.0.11/AUTHORS
 * /usr/share/doc/xmodmap-1.0.11/ChangeLog
 * /usr/share/doc/xmodmap-1.0.11/COPYING

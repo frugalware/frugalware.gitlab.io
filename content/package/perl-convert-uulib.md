@@ -14,7 +14,9 @@ sha1sum = "b61bb79e2303b284a96a066dfafd37d6ba943a69"
 depends = "['perl>=5.34.0', 'perl-canary-stability']"
 reverse_depends = "['amavisd-new']"
 +++
-Perl interface to the uulib library (a.k.a. uudeview/uuenview).{{< files text="show files" >}}* /usr/lib/perl5/5.38/site_perl/auto/Convert/UUlib/UUlib.so
+Perl interface to the uulib library (a.k.a. uudeview/uuenview)."
+
+{{< files text="show files" >}}* /usr/lib/perl5/5.38/site_perl/auto/Convert/UUlib/UUlib.so
 * /usr/lib/perl5/5.38/site_perl/Convert/UUlib.pm
 * /usr/share/doc/perl-convert-uulib-1.8/COPYING
 * /usr/share/doc/perl-convert-uulib-1.8/COPYING.Artistic

@@ -13,7 +13,9 @@ usize = "11110906"
 sha1sum = "b2dfec7b23b61c5e08f1162f54d670c43c553fac"
 depends = "[]"
 +++
-Static files for sdl2{{< files text="show files" >}}* /usr/lib/libSDL2.a
+Static files for sdl2"
+
+{{< files text="show files" >}}* /usr/lib/libSDL2.a
 * /usr/lib/libSDL2main.a
 * /usr/lib/libSDL2_test.a
 {{< /files >}}

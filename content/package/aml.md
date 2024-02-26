@@ -14,7 +14,9 @@ sha1sum = "6549ba047138f8916c3fbda5a95be4d342a9165d"
 depends = "['glibc']"
 reverse_depends = "['neatvnc']"
 +++
-Another Main Loop{{< files text="show files" >}}* /usr/include/aml.h
+Another Main Loop"
+
+{{< files text="show files" >}}* /usr/include/aml.h
 * /usr/lib/libaml.so
 * /usr/lib/libaml.so.0
 * /usr/lib/libaml.so.0.0.0

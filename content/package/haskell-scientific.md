@@ -14,7 +14,9 @@ sha1sum = "f57edb26e4b475523ec160245016a37573ce825b"
 depends = "['haskell-hashable>=1.4.2.0', 'haskell-integer-logarithms>=1.0.3.1', 'haskell-primitive>=0.7.2.0']"
 reverse_depends = "['haskell-aeson', 'haskell-attoparsec']"
 +++
-Numbers represented using scientific notation{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/scientific-0.3.7.0/Data/ByteString/Builder/Scientific.dyn_hi
+Numbers represented using scientific notation"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/scientific-0.3.7.0/Data/ByteString/Builder/Scientific.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/scientific-0.3.7.0/Data/ByteString/Builder/Scientific.hi
 * /usr/lib/ghc-9.8.1/site-local/scientific-0.3.7.0/Data/Scientific.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/scientific-0.3.7.0/Data/Scientific.hi

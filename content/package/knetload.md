@@ -13,7 +13,9 @@ usize = "0"
 sha1sum = "874bf68fd8a2cb64d530ab2e11ea0545b22dc8a8"
 depends = "[]"
 +++
-A Network Load Monitor applet for Kicker{{< files text="show files" >}}* usr/lib/libknetloadapplet.la
+A Network Load Monitor applet for Kicker"
+
+{{< files text="show files" >}}* usr/lib/libknetloadapplet.la
 * usr/lib/libknetloadapplet.so
 * usr/share/apps/kicker/applets/knetloadapplet.desktop
 * usr/share/apps/knetloadapplet/pics/deveth.png

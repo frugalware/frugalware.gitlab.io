@@ -14,7 +14,9 @@ sha1sum = "ab5045d0e0da2de242a1b62215924d14bd51103b"
 depends = "[]"
 reverse_depends = "['lib32-mangohud']"
 +++
-JSON for Modern C++ ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/nlohmann/adl_serializer.hpp
+JSON for Modern C++ ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/nlohmann/adl_serializer.hpp
 * /usr/i686-frugalware-linux/include/nlohmann/byte_container_with_subtype.hpp
 * /usr/i686-frugalware-linux/include/nlohmann/detail/abi_macros.hpp
 * /usr/i686-frugalware-linux/include/nlohmann/detail/conversions/from_json.hpp

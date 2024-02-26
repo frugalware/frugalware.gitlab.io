@@ -14,7 +14,9 @@ sha1sum = "7c9dcc6609e744396cca0bbe123692592365c172"
 depends = "['libx11', 'xcb-util']"
 reverse_depends = "['i3', 'i3lock']"
 +++
-XCB utility functions for the X resource manager{{< files text="show files" >}}* /usr/include/xcb/xcb_xrm.h
+XCB utility functions for the X resource manager"
+
+{{< files text="show files" >}}* /usr/include/xcb/xcb_xrm.h
 * /usr/lib/libxcb-xrm.la
 * /usr/lib/libxcb-xrm.so
 * /usr/lib/libxcb-xrm.so.0

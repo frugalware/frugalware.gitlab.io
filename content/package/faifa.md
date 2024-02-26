@@ -13,7 +13,9 @@ usize = "169512"
 sha1sum = "53949982341797eab141a25567a62410fa733a1f"
 depends = "['libevent>=2.1.8', 'libpcap']"
 +++
-Faifa is a network tool to remotely manage HomePlug 1.0 and HomePlug AV devices.{{< files text="show files" >}}* /usr/bin/faifa
+Faifa is a network tool to remotely manage HomePlug 1.0 and HomePlug AV devices."
+
+{{< files text="show files" >}}* /usr/bin/faifa
 * /usr/bin/hpav_cfg
 * /usr/include/faifa/crypto.h
 * /usr/include/faifa/device.h

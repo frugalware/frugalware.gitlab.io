@@ -14,5 +14,7 @@ sha1sum = "ac400237f4e54963659c40689f4372af916d4dda"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
-Kabyle language support for Thunderbird{{< files text="show files" >}}* /usr/lib/thunderbird/extensions/langpack-kab@thunderbird.mozilla.org.xpi
+Kabyle language support for Thunderbird"
+
+{{< files text="show files" >}}* /usr/lib/thunderbird/extensions/langpack-kab@thunderbird.mozilla.org.xpi
 {{< /files >}}

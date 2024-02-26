@@ -14,7 +14,9 @@ sha1sum = "bec521f4441b846776c1298c3911aca246fc4db6"
 depends = "['glibc>=2.34']"
 reverse_depends = "['obs-studio', 'obs-studio', 'pipewire']"
 +++
-A standalone library of the Fraunhofer FDK AAC code from Android.{{< files text="show files" >}}* /usr/include/fdk-aac/aacdecoder_lib.h
+A standalone library of the Fraunhofer FDK AAC code from Android."
+
+{{< files text="show files" >}}* /usr/include/fdk-aac/aacdecoder_lib.h
 * /usr/include/fdk-aac/aacenc_lib.h
 * /usr/include/fdk-aac/FDK_audio.h
 * /usr/include/fdk-aac/genericStds.h

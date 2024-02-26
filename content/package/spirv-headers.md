@@ -13,7 +13,9 @@ usize = "2916541"
 sha1sum = "685dcc71a50a3fa758ba1f1071e6c8d0a30dd6b3"
 depends = "['glibc>=2.35']"
 +++
-SPIRV-Headers{{< files text="show files" >}}* /usr/include/spirv/1.0/extinst.glsl.std.450.grammar.json
+SPIRV-Headers"
+
+{{< files text="show files" >}}* /usr/include/spirv/1.0/extinst.glsl.std.450.grammar.json
 * /usr/include/spirv/1.0/extinst.opencl.std.100.grammar.json
 * /usr/include/spirv/1.0/GLSL.std.450.h
 * /usr/include/spirv/1.0/OpenCL.std.h

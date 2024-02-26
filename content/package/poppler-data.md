@@ -14,7 +14,9 @@ sha1sum = "b6e699590097d7fec0eb85b085093dda7021ae08"
 depends = "[]"
 reverse_depends = "['poppler', 'poppler']"
 +++
-Encoding files for poppler{{< files text="show files" >}}* /usr/lib/pkgconfig/poppler-data.pc
+Encoding files for poppler"
+
+{{< files text="show files" >}}* /usr/lib/pkgconfig/poppler-data.pc
 * /usr/share/doc/poppler-data-0.4.12/COPYING
 * /usr/share/doc/poppler-data-0.4.12/COPYING.adobe
 * /usr/share/doc/poppler-data-0.4.12/COPYING.gpl2

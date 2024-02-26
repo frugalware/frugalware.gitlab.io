@@ -13,7 +13,9 @@ usize = "3814020"
 sha1sum = "3a9345837929833eef8404a3d2c7e184dcc53316"
 depends = "['baloo5', 'kirigami2', 'vlc']"
 +++
-A simple music player aiming to provide a nice experience for its users{{< files text="show files" >}}* /usr/bin/elisa
+A simple music player aiming to provide a nice experience for its users"
+
+{{< files text="show files" >}}* /usr/bin/elisa
 * /usr/lib/elisa/libelisaLib.so.0
 * /usr/lib/elisa/libelisaLib.so.0.1
 * /usr/share/applications/org.kde.elisa.desktop

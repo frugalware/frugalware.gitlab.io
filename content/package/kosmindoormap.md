@@ -14,7 +14,9 @@ sha1sum = "fb673552bf4502748d2685197f5ac06fcebf2e29"
 depends = "['ki18n>=5.115.0', 'kpublictransport=>23.08.5']"
 reverse_depends = "['itinerary']"
 +++
-OSM multi-floor indoor map renderer{{< files text="show files" >}}* /usr/include/KOSM/Datatypes
+OSM multi-floor indoor map renderer"
+
+{{< files text="show files" >}}* /usr/include/KOSM/Datatypes
 * /usr/include/kosm/datatypes.h
 * /usr/include/KOSM/Element
 * /usr/include/kosm/element.h

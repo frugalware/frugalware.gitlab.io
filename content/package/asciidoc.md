@@ -13,7 +13,9 @@ usize = "1489918"
 sha1sum = "89a2d17524f32c693f65581bd5f33b6a1b0b5658"
 depends = "['docbook-xsl', 'libxslt>=1.1.28-3', 'python3>=3.11']"
 +++
-AsciiDoc is a text document format for writing short documents, articles, books and UNIX man pages.{{< files text="show files" >}}* /usr/bin/a2x
+AsciiDoc is a text document format for writing short documents, articles, books and UNIX man pages."
+
+{{< files text="show files" >}}* /usr/bin/a2x
 * /usr/bin/asciidoc
 * /usr/lib/python3.12/site-packages/asciidoc-10.2.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/asciidoc-10.2.0-py3.12.egg-info/entry_points.txt

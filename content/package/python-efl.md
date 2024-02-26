@@ -14,7 +14,9 @@ sha1sum = "2f095ceef39f01b25128ddf4c0445deb9a6a8d94"
 depends = "['dbus-python', 'efl>=1.21.0']"
 reverse_depends = "['econnman']"
 +++
-Enlightenment Python bindings Libraries{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/efl/dbus_mainloop.cpython-312-x86_64-linux-gnu.so
+Enlightenment Python bindings Libraries"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/efl/dbus_mainloop.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/efl/ecore.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/efl/ecore_con.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/efl/ecore_input.cpython-312-x86_64-linux-gnu.so

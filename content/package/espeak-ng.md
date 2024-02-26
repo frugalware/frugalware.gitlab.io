@@ -13,7 +13,9 @@ usize = "12350969"
 sha1sum = "05342a6f3c6b8223ecc14e88b685582c01293c60"
 depends = "['pcaudiolib']"
 +++
-Multi-lingual software speech synthesizer{{< files text="show files" >}}* /usr/bin/espeak
+Multi-lingual software speech synthesizer"
+
+{{< files text="show files" >}}* /usr/bin/espeak
 * /usr/bin/espeak-ng
 * /usr/bin/speak
 * /usr/bin/speak-ng

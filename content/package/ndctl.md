@@ -13,7 +13,9 @@ usize = "740634"
 sha1sum = "d2256ec4356ee04a9b959d9eb1cb6e5659fa9a74"
 depends = "['json-c>=0.14', 'keyutils', 'kmod', 'libdaxctl>=78', 'libndctl>=78', 'libtracefs', 'libudev>=242', 'libuuid']"
 +++
-Utility for managing the libnvdimm sub-system in the Linux kernel{{< files text="show files" >}}* /etc/daxctl.conf.d/daxctl.example.conf
+Utility for managing the libnvdimm sub-system in the Linux kernel"
+
+{{< files text="show files" >}}* /etc/daxctl.conf.d/daxctl.example.conf
 * /etc/modprobe.d/nvdimm-security.conf
 * /etc/ndctl.conf.d/monitor.conf
 * /etc/ndctl.conf.d/ndctl.conf

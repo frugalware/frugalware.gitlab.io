@@ -14,7 +14,9 @@ sha1sum = "5b50ccc0fd70947fe0ea43a8f357e028e725a237"
 depends = "['kactivities-stats>=5.115.0', 'kcmutils>=5.115.0', 'kdeclarative>=5.115.0', 'kemoticons>=5.115.0', 'khtml>=5.115.0', 'kinit>=5.115.0', 'kirigami2>=5.115.0', 'kitemmodels>=5.115.0', 'plasma-workspace>=5.27.10']"
 reverse_depends = "['bismuth', 'flatpak-kcm', 'plasma-firewall']"
 +++
-KDE system settings.{{< files text="show files" >}}* /usr/bin/systemsettings
+KDE system settings."
+
+{{< files text="show files" >}}* /usr/bin/systemsettings
 * /usr/bin/systemsettings5
 * /usr/lib/libsystemsettingsview.so.3
 * /usr/lib/qt5/plugins/kf5/krunner/krunner_systemsettings.so

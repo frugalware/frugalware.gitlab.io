@@ -14,7 +14,9 @@ sha1sum = "ffb90a7b635ff59b1ead4f938994d42ed27b3955"
 depends = "['glibc>=2.34']"
 reverse_depends = "['bctoolbox']"
 +++
-CUnit is a lightweight system for writing, administering and running unit tests in C{{< files text="show files" >}}* /usr/include/CUnit/Automated.h
+CUnit is a lightweight system for writing, administering and running unit tests in C"
+
+{{< files text="show files" >}}* /usr/include/CUnit/Automated.h
 * /usr/include/CUnit/Basic.h
 * /usr/include/CUnit/Console.h
 * /usr/include/CUnit/CUError.h

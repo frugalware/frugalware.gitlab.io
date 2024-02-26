@@ -13,7 +13,9 @@ usize = "4132262"
 sha1sum = "183da6ee350a192d6a26a31ca758e3b3db841a44"
 depends = "['desktop-file-utils', 'libgdiplus', 'mono>=2.6', 'xdg-utils']"
 +++
-KeePass Password Safe, the free, open source, light-weight and easy-to-use password manager.{{< files text="show files" >}}* /usr/bin/keepass
+KeePass Password Safe, the free, open source, light-weight and easy-to-use password manager."
+
+{{< files text="show files" >}}* /usr/bin/keepass
 * /usr/share/applications/keepass.desktop
 * /usr/share/icons/hicolor/16x16/apps/keepass.png
 * /usr/share/icons/hicolor/256x256/apps/keepass.png

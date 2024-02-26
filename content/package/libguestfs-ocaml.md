@@ -13,7 +13,9 @@ usize = "4133340"
 sha1sum = "710c6193f1e6841923aacc055c0cf134e2be5251"
 depends = "['hivex-ocaml', 'ocaml-augeas', 'ocaml-findlib']"
 +++
-libguestfs ocaml bindings{{< files text="show files" >}}* /usr/lib/ocaml/guestfs/guestfs.cmi
+libguestfs ocaml bindings"
+
+{{< files text="show files" >}}* /usr/lib/ocaml/guestfs/guestfs.cmi
 * /usr/lib/ocaml/guestfs/guestfs.cmx
 * /usr/lib/ocaml/guestfs/guestfs.mli
 * /usr/lib/ocaml/guestfs/libmlguestfs.a

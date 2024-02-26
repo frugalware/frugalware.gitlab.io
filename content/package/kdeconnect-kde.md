@@ -14,7 +14,9 @@ sha1sum = "e036e6a80a9b8b8039643f9505f491c0a8564b89"
 depends = "['kcmutils>=5.115.0', 'kio>=5.115.0', 'kirigami2>=5.115.0', 'kpeoplevcard', 'kwayland>=5.27.10', 'libfakekey', 'libxtst', 'modemmanager-qt>=5.115.0', 'pulseaudio-qt>=1.3', 'qca', 'qca-ossl', 'qqc2-desktop-style>=5.115.0', 'qt5-multimedia>=5.15.12']"
 reverse_depends = "['plasma-bigscreen']"
 +++
-Adds communication between KDE and your smartphone{{< files text="show files" >}}* /etc/xdg/autostart/org.kde.kdeconnect.daemon.desktop
+Adds communication between KDE and your smartphone"
+
+{{< files text="show files" >}}* /etc/xdg/autostart/org.kde.kdeconnect.daemon.desktop
 * /usr/bin/kdeconnect-app
 * /usr/bin/kdeconnect-cli
 * /usr/bin/kdeconnect-handler

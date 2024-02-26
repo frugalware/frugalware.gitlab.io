@@ -14,7 +14,9 @@ sha1sum = "db303c836ab7e4f31792d31114801d00087e1fec"
 depends = "['libunistring>=1.1']"
 reverse_depends = "['aria2', 'curl', 'ffmpeg', 'ffmpeg4.4', 'gnutls', 'iputils', 'libpsl', 's-nail', 'systemd', 'systemd-nspawn', 'systemd-systemctl']"
 +++
-GNU Libidn2 is an implementation of the Stringprep,Punycode and IDNA specification.{{< files text="show files" >}}* /usr/bin/idn2
+GNU Libidn2 is an implementation of the Stringprep,Punycode and IDNA specification."
+
+{{< files text="show files" >}}* /usr/bin/idn2
 * /usr/include/idn2.h
 * /usr/lib/libidn2.la
 * /usr/lib/libidn2.so

@@ -14,7 +14,9 @@ sha1sum = "65ca5029f7686b663bfc5fd24da9592dca535a02"
 depends = "['kio>=5.115.0', 'kpackage>=5.115.0', 'libepoxy>=1.3.1-6']"
 reverse_depends = "['artikulate', 'blinken', 'colord-kde', 'discover', 'drkonqi', 'filelight', 'kaccounts-integration', 'kanagram', 'kcmutils', 'kdenetwork-filesharing', 'khangman', 'koko', 'kontrast', 'ktouch', 'libkdegames', 'plasma-disks', 'plasma-framework', 'plasma-pa', 'plasma-sdk', 'plasma-systemmonitor', 'purpose', 'rocs', 'sddm-kcm', 'spectacle', 'systemsettings5', 'xdg-desktop-portal-kde']"
 +++
-Integration of QML and KDE workspaces.{{< files text="show files" >}}* /usr/bin/kpackagelauncherqml
+Integration of QML and KDE workspaces."
+
+{{< files text="show files" >}}* /usr/bin/kpackagelauncherqml
 * /usr/include/KF5/KDeclarative/CalendarEvents/CalendarEventsPlugin
 * /usr/include/KF5/KDeclarative/calendarevents/calendareventsplugin.h
 * /usr/include/KF5/KDeclarative/calendarevents/calendarevents_export.h

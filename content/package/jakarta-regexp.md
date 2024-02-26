@@ -13,7 +13,9 @@ usize = "48870"
 sha1sum = "95f37ce4b9589beacc2ce775cbeabb2ccfb45908"
 depends = "['openjre']"
 +++
-100% Pure Java Regular Expression package{{< files text="show files" >}}* /usr/share/doc/jakarta-regexp-1.5/LICENSE
+100% Pure Java Regular Expression package"
+
+{{< files text="show files" >}}* /usr/share/doc/jakarta-regexp-1.5/LICENSE
 * /usr/share/doc/jakarta-regexp-1.5/README
 * /usr/share/java/jakarta-regexp.jar
 {{< /files >}}

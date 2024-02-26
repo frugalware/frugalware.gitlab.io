@@ -13,7 +13,9 @@ usize = "5401019"
 sha1sum = "918fb3b9e160a81a5768cee11ad154485bc667e9"
 depends = "['dbus', 'dbus-glib', 'gtk+2-libs>=2.24.31-2', 'iso-codes', 'libcanberra', 'libnotify>=0.7.7', 'libproxy', 'openssl>=3.1.0', 'pciutils>=3.4.1', 'perl>=5.22.1', 'python3>=3.12']"
 +++
-HexChat is an IRC client based on XChat.{{< files text="show files" >}}* /usr/bin/hexchat
+HexChat is an IRC client based on XChat."
+
+{{< files text="show files" >}}* /usr/bin/hexchat
 * /usr/include/hexchat-plugin.h
 * /usr/lib/hexchat/plugins/checksum.so
 * /usr/lib/hexchat/plugins/fishlim.so

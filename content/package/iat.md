@@ -13,7 +13,9 @@ usize = "161496"
 sha1sum = "5a5952035a899772687b042560f2b7e2abf94857"
 depends = "['glibc']"
 +++
-Iso9660 Analyzer Tool is a tool for detecting the structure of many types of CD/DVD image.{{< files text="show files" >}}* /usr/bin/iat
+Iso9660 Analyzer Tool is a tool for detecting the structure of many types of CD/DVD image."
+
+{{< files text="show files" >}}* /usr/bin/iat
 * /usr/include/calculate_pregap.h
 * /usr/include/cmdline.h
 * /usr/include/convert_2_iso.h

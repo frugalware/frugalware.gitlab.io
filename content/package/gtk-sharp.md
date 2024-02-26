@@ -13,7 +13,9 @@ usize = "0"
 sha1sum = "b7f16ea99fb5aade399101f28ea010c96fbbdda3"
 depends = "['gtk+2', 'librsvg', 'libxslt', 'mono']"
 +++
-A C# language binding for the GTK+2 toolkit and GNOME libraries{{< files text="show files" >}}* usr/bin/gapi2-codegen
+A C# language binding for the GTK+2 toolkit and GNOME libraries"
+
+{{< files text="show files" >}}* usr/bin/gapi2-codegen
 * usr/bin/gapi2-fixup
 * usr/bin/gapi2-parser
 * usr/bin/gconfsharp2-schemagen

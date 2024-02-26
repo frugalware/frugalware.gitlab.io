@@ -13,7 +13,9 @@ usize = "347598"
 sha1sum = "612fbf8d3a09da02db10fbc89d3132c66badc60b"
 depends = "['perl>=5.34.0']"
 +++
-Text::CSV provides facilities for the composition and decomposition of comma-separated values{{< files text="show files" >}}* /usr/lib/perl5/site_perl/Text/CSV.pm
+Text::CSV provides facilities for the composition and decomposition of comma-separated values"
+
+{{< files text="show files" >}}* /usr/lib/perl5/site_perl/Text/CSV.pm
 * /usr/lib/perl5/site_perl/Text/CSV_PP.pm
 * /usr/share/doc/perl-text-csv-2.04/MANIFEST
 * /usr/share/doc/perl-text-csv-2.04/README.md

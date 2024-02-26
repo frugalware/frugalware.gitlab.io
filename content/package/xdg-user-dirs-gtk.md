@@ -13,7 +13,9 @@ usize = "216355"
 sha1sum = "6c856ad28d256b908e4b1ac7334ebe21f34b2d92"
 depends = "['gtk+3', 'xdg-user-dirs']"
 +++
-Gnome integration of special directories{{< files text="show files" >}}* /etc/xdg/autostart/user-dirs-update-gtk.desktop
+Gnome integration of special directories"
+
+{{< files text="show files" >}}* /etc/xdg/autostart/user-dirs-update-gtk.desktop
 * /usr/bin/xdg-user-dirs-gtk-update
 * /usr/share/doc/xdg-user-dirs-gtk-0.11/AUTHORS
 * /usr/share/doc/xdg-user-dirs-gtk-0.11/ChangeLog

@@ -13,6 +13,8 @@ usize = "1093432"
 sha1sum = "76eec9ada0d1ad61c6e9a7e70551c33de4ad77dc"
 depends = "['kdelibs4support', 'qt5-svg', 'qtcurve>=1.9']"
 +++
-QtCurve Qt5 Theme{{< files text="show files" >}}* /usr/lib/qt5/plugins/kstyle_qtcurve5_config.so
+QtCurve Qt5 Theme"
+
+{{< files text="show files" >}}* /usr/lib/qt5/plugins/kstyle_qtcurve5_config.so
 * /usr/lib/qt5/plugins/styles/qtcurve.so
 {{< /files >}}

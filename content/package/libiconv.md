@@ -13,7 +13,9 @@ usize = "1589658"
 sha1sum = "220d3ed59f616993b6ae6859f6dc92b865e9ed76"
 depends = "['glibc>=2.34']"
 +++
-GNU charset conversion library{{< files text="show files" >}}* /usr/bin/libiconv
+GNU charset conversion library"
+
+{{< files text="show files" >}}* /usr/bin/libiconv
 * /usr/include/libcharset.h
 * /usr/include/libiconv.h
 * /usr/include/localcharset.h

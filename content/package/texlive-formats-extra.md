@@ -13,7 +13,9 @@ usize = "1355817"
 sha1sum = "cbfce5614f26bcda002c3cf94a4e595e0f7a5bba"
 depends = "['texlive=2023.0']"
 +++
-Extra Tex formats for Tex Live{{< files text="show files" >}}* /usr/share/texmf-dist/makeindex/startex/stxglo.ist
+Extra Tex formats for Tex Live"
+
+{{< files text="show files" >}}* /usr/share/texmf-dist/makeindex/startex/stxglo.ist
 * /usr/share/texmf-dist/makeindex/startex/stxind.ist
 * /usr/share/texmf-dist/source/eplain/eplain-source-3.13.zip
 * /usr/share/texmf-dist/source/eplain/xeplain.tex

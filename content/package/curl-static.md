@@ -13,5 +13,7 @@ usize = "6089914"
 sha1sum = "6bc9dc9885ee788028db24dda48c95d40632d5de"
 depends = "[]"
 +++
-Static files for curl{{< files text="show files" >}}* /usr/lib/libcurl.a
+Static files for curl"
+
+{{< files text="show files" >}}* /usr/lib/libcurl.a
 {{< /files >}}

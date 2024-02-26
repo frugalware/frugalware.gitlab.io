@@ -14,7 +14,9 @@ sha1sum = "f2714c8a2b2a78639a6f14c06aa6f760403b0858"
 depends = "['openjre']"
 reverse_depends = "['itext7']"
 +++
-An easy to use library for working with XML in Java.{{< files text="show files" >}}* /usr/share/doc/dom4j-2.1.4/LICENSE
+An easy to use library for working with XML in Java."
+
+{{< files text="show files" >}}* /usr/share/doc/dom4j-2.1.4/LICENSE
 * /usr/share/doc/dom4j-2.1.4/README.md
 * /usr/share/doc/dom4j-2.1.4/TODO
 * /usr/share/java/dom4j.jar

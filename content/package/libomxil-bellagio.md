@@ -15,7 +15,9 @@ depends = "['glibc>=2.34']"
 reverse_depends = "['mesa-opemax']"
 license = "LGPL"
 +++
-An opensource implementation of the OpenMAX Integration Layer API{{< files text="show files" >}}* /usr/bin/omxregister-bellagio
+An opensource implementation of the OpenMAX Integration Layer API"
+
+{{< files text="show files" >}}* /usr/bin/omxregister-bellagio
 * /usr/include/bellagio/common.h
 * /usr/include/bellagio/component_loader.h
 * /usr/include/bellagio/extension_struct.h

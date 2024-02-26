@@ -14,7 +14,9 @@ sha1sum = "8aa3cf2020e1e9693e6765cdb20dd2a505f02217"
 depends = "['systemd']"
 reverse_depends = "['usb-modeswitch']"
 +++
-A mode switching tool for controlling 'flip flop' (multiple device) USB gear - data{{< files text="show files" >}}* /usr/lib/udev/rules.d/40-usb_modeswitch.rules
+A mode switching tool for controlling 'flip flop' (multiple device) USB gear - data"
+
+{{< files text="show files" >}}* /usr/lib/udev/rules.d/40-usb_modeswitch.rules
 * /usr/share/doc/usb-modeswitch-data-20191128/ChangeLog
 * /usr/share/doc/usb-modeswitch-data-20191128/COPYING
 * /usr/share/doc/usb-modeswitch-data-20191128/README

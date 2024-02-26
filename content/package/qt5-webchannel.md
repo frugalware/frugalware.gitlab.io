@@ -14,7 +14,9 @@ sha1sum = "b8845f4f37f853f7a30cb8cb20b153357d8d4a7b"
 depends = "['qt5-declarative>=5.15.12']"
 reverse_depends = "['falkon', 'ghostwriter', 'qt5-webengine']"
 +++
-The Qt5 toolkit, qtwebchannel{{< files text="show files" >}}* /usr/include/qt5/QtWebChannel/5.15.12/QtWebChannel/private/qmetaobjectpublisher_p.h
+The Qt5 toolkit, qtwebchannel"
+
+{{< files text="show files" >}}* /usr/include/qt5/QtWebChannel/5.15.12/QtWebChannel/private/qmetaobjectpublisher_p.h
 * /usr/include/qt5/QtWebChannel/5.15.12/QtWebChannel/private/qqmlwebchannelattached_p.h
 * /usr/include/qt5/QtWebChannel/5.15.12/QtWebChannel/private/qwebchannel_p.h
 * /usr/include/qt5/QtWebChannel/5.15.12/QtWebChannel/private/signalhandler_p.h

@@ -13,5 +13,7 @@ usize = "298"
 sha1sum = "ed8110894627c976f205db7c972ee5b3da3d84ca"
 depends = "['networkmanager', 'ntp']"
 +++
-Dispatcher Script for ntpd{{< files text="show files" >}}* /etc/NetworkManager/dispatcher.d/10-ntpd
+Dispatcher Script for ntpd"
+
+{{< files text="show files" >}}* /etc/NetworkManager/dispatcher.d/10-ntpd
 {{< /files >}}

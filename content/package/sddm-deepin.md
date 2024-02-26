@@ -13,7 +13,9 @@ usize = "1867204"
 sha1sum = "1ca72b84e2231349b1a463ea41ca35b319558023"
 depends = "['glibc', 'sddm']"
 +++
-Deepin style SDDM theme.{{< files text="show files" >}}* /usr/share/doc/sddm-deepin-0.1.0.g7f5e4d0/README.MD
+Deepin style SDDM theme."
+
+{{< files text="show files" >}}* /usr/share/doc/sddm-deepin-0.1.0.g7f5e4d0/README.MD
 * /usr/share/sddm/themes/deepin/AUTHORS
 * /usr/share/sddm/themes/deepin/background.jpg
 * /usr/share/sddm/themes/deepin/COPYING

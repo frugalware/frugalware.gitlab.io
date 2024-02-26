@@ -14,7 +14,9 @@ sha1sum = "b57dd2f35b4ecf5807ee9a9055cf1365bd7a7882"
 depends = "['glibc>=2.34']"
 reverse_depends = "['networkmanager']"
 +++
-This package contains a library which provides a wrapper for IPv6 Neighbor Discovery Protocol.{{< files text="show files" >}}* /usr/bin/ndptool
+This package contains a library which provides a wrapper for IPv6 Neighbor Discovery Protocol."
+
+{{< files text="show files" >}}* /usr/bin/ndptool
 * /usr/include/ndp.h
 * /usr/lib/libndp.so
 * /usr/lib/libndp.so.0

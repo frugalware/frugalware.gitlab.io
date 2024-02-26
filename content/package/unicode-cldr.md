@@ -13,7 +13,9 @@ usize = "255325850"
 sha1sum = "cdbfd2ed2b1a915b30d9eb5dcaec7080a463f585"
 depends = "['glibc']"
 +++
-Unicode Common Locale Data Repository{{< files text="show files" >}}* /usr/share/doc/unicode-cldr-43/README-common.md
+Unicode Common Locale Data Repository"
+
+{{< files text="show files" >}}* /usr/share/doc/unicode-cldr-43/README-common.md
 * /usr/share/unicode/cldr/common/annotations/af.xml
 * /usr/share/unicode/cldr/common/annotations/am.xml
 * /usr/share/unicode/cldr/common/annotations/ar.xml

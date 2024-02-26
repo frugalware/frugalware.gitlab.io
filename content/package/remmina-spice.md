@@ -13,5 +13,7 @@ usize = "31000"
 sha1sum = "648028ed61e43e40549c14e0148eacb777d58adf"
 depends = "['spice-gtk']"
 +++
-spice plugin for remmina{{< files text="show files" >}}* /usr/lib/remmina/plugins/remmina-plugin-spice.so
+spice plugin for remmina"
+
+{{< files text="show files" >}}* /usr/lib/remmina/plugins/remmina-plugin-spice.so
 {{< /files >}}

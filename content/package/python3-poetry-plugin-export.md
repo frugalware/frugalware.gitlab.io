@@ -14,7 +14,9 @@ sha1sum = "d997b35ff23eaba51ac1bbb65fe885cb1362e328"
 depends = "['python3']"
 reverse_depends = "['python3-poetry']"
 +++
-Poetry plugin to export the dependencies to various formats{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/poetry_plugin_export-1.6.0.dist-info/entry_points.txt
+Poetry plugin to export the dependencies to various formats"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/poetry_plugin_export-1.6.0.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/poetry_plugin_export-1.6.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/poetry_plugin_export-1.6.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/poetry_plugin_export-1.6.0.dist-info/RECORD

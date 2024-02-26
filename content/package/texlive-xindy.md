@@ -13,7 +13,9 @@ usize = "6998382"
 sha1sum = "7dc356f807a7295c8a4fe148f9fc82e41a6ffe31"
 depends = "['ffcall', 'libsigsegv', 'readline>=8.0', 'texlive=2023.0']"
 +++
-Xindy package for TeX Live{{< files text="show files" >}}* /usr/bin/tex2xindy
+Xindy package for TeX Live"
+
+{{< files text="show files" >}}* /usr/bin/tex2xindy
 * /usr/bin/texindy
 * /usr/bin/xindy
 * /usr/bin/xindy.mem

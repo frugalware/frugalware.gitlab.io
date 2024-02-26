@@ -13,7 +13,9 @@ usize = "29113244"
 sha1sum = "2ba08c91634a0a5fa2f1cf5ce7ab8570237e62a4"
 depends = "['grantlee>=5.0.0', 'kdelibs4support>=5.112.0', 'knewstuff>=5.112.0', 'knotifyconfig>=5.112.0', 'krunner5>=5.112.0', 'libofx>=0.9.11', 'qca>=2.1.1-5', 'qt5-svg>=5.15.11', 'qt5-webengine>=', 'qt5-xmlpatterns>=5.15.11', 'sqlcipher>=3.3.1']"
 +++
-Personal finances manager for KDE5, allowing you to keep track of your incomes and expenses{{< files text="show files" >}}* /usr/bin/skrooge
+Personal finances manager for KDE5, allowing you to keep track of your incomes and expenses"
+
+{{< files text="show files" >}}* /usr/bin/skrooge
 * /usr/bin/skroogeconvert
 * /usr/lib/libskgbankgui.so.2
 * /usr/lib/libskgbankgui.so.2.31.0

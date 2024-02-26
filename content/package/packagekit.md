@@ -13,7 +13,9 @@ usize = "4383645"
 sha1sum = "56af4f930a46d0386744bda9865acccfac3c8df3"
 depends = "['bash-completion', 'gst1-plugins-base', 'networkmanager>=1.4.0-2', 'packagekit-glib', 'pango', 'polkit>=0.113-9', 'python3>=3.11']"
 +++
-A system designed to make installation and updates of packages easier{{< files text="show files" >}}* /etc/cron.daily/packagekit-background.cron
+A system designed to make installation and updates of packages easier"
+
+{{< files text="show files" >}}* /etc/cron.daily/packagekit-background.cron
 * /etc/PackageKit/CommandNotFound.conf
 * /etc/PackageKit/PackageKit.conf
 * /etc/PackageKit/Vendor.conf

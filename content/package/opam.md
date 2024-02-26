@@ -13,7 +13,9 @@ usize = "14939872"
 sha1sum = "7eba70f771fbcbb4e954bdcbc7609d6e40084bee"
 depends = "['bubblewrap', 'git', 'ocaml-compiler-libs>=4.14']"
 +++
-OCaml package manager{{< files text="show files" >}}* /usr/bin/opam
+OCaml package manager"
+
+{{< files text="show files" >}}* /usr/bin/opam
 * /usr/bin/opam-installer
 * /usr/share/doc/opam-2.1.4/AUTHORS
 * /usr/share/doc/opam-2.1.4/CHANGES

@@ -14,7 +14,9 @@ sha1sum = "cba9244b8a1b32c700c3d62b4812aff6c80ff84a"
 depends = "['gmp>=5.0.1', 'libedit>=20150325_3.1-3', 'libffi>=3.4', 'llvm15', 'ncurses>=6.1-7', 'readline>=7.0-2']"
 reverse_depends = "['ghc-docs', 'haskell-alex', 'haskell-auto-update', 'haskell-base-compat', 'haskell-base-orphans', 'haskell-base-unicode-symbols', 'haskell-base16-bytestring', 'haskell-base64-bytestring', 'haskell-basement', 'haskell-blaze-builder', 'haskell-bsb-http-chunked', 'haskell-cabal-doctest', 'haskell-call-stack', 'haskell-cereal', 'haskell-code-page', 'haskell-colour', 'haskell-containers', 'haskell-data-default-class', 'haskell-dataenc', 'haskell-diff', 'haskell-digest', 'haskell-dlist', 'haskell-easy-file', 'haskell-emojis', 'haskell-erf', 'haskell-fgl', 'haskell-file-embed', 'haskell-generically', 'haskell-ghc-paths', 'haskell-haddock-library', 'haskell-happy', 'haskell-hashable', 'haskell-hourglass', 'haskell-hsyaml', 'haskell-indexed-traversable', 'haskell-integer-logarithms', 'haskell-jira-wiki-markup', 'haskell-lua', 'haskell-microlens', 'haskell-mime-types', 'haskell-network', 'haskell-network-byte-order', 'haskell-old-locale', 'haskell-onetuple', 'haskell-only', 'haskell-ordered-containers', 'haskell-prettyprinter', 'haskell-primitive', 'haskell-regex-base', 'haskell-safe', 'haskell-safe-exceptions', 'haskell-sha', 'haskell-some', 'haskell-sop-core', 'haskell-split', 'haskell-splitmix', 'haskell-statevar', 'haskell-syb', 'haskell-tagsoup', 'haskell-th-abstraction', 'haskell-th-compat', 'haskell-time-locale-compat', 'haskell-transformers-compat', 'haskell-type-equality', 'haskell-typst-symbols', 'haskell-unicode-data', 'haskell-unix-compat', 'haskell-unliftio-core', 'haskell-utf8-string', 'haskell-vector-stream', 'haskell-word8', 'haskell-xml', 'haskell-xml-types', 'haskell-zlib']"
 +++
-The Glasgow Haskell Compiler{{< files text="show files" >}}* /etc/ld.so.conf.d/ghc.conf
+The Glasgow Haskell Compiler"
+
+{{< files text="show files" >}}* /etc/ld.so.conf.d/ghc.conf
 * /usr/bin/ghc
 * /usr/bin/ghc-9.8.1
 * /usr/bin/ghc-pkg

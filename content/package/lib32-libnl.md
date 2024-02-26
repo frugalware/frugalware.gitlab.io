@@ -14,7 +14,9 @@ sha1sum = "20ace2af951f6c4b391cb0bff8c748f1d5e07eeb"
 depends = "[]"
 reverse_depends = "['lib32-networkmanager']"
 +++
-A library to ease the use of netlink sockets ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/genl-ctrl-list
+A library to ease the use of netlink sockets ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/genl-ctrl-list
 * /usr/i686-frugalware-linux/bin/idiag-socket-details
 * /usr/i686-frugalware-linux/bin/nf-ct-add
 * /usr/i686-frugalware-linux/bin/nf-ct-events

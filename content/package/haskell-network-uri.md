@@ -14,7 +14,9 @@ sha1sum = "48eb46c94add4d2527e3917ad06bcd81be3f364d"
 depends = "['haskell-th-compat>=0.1.2']"
 reverse_depends = "['haskell-aeson', 'haskell-commonmark-extensions', 'haskell-http', 'haskell-http-client', 'haskell-servant']"
 +++
-Networking-related facilities{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/network-uri-2.6.4.2/libHSnetwork-uri-2.6.4.2-7O0h5d1bdes50Ignqmmb4X.a
+Networking-related facilities"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/network-uri-2.6.4.2/libHSnetwork-uri-2.6.4.2-7O0h5d1bdes50Ignqmmb4X.a
 * /usr/lib/ghc-9.8.1/site-local/network-uri-2.6.4.2/Network/URI.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/network-uri-2.6.4.2/Network/URI.hi
 * /usr/lib/ghc-9.8.1/site-local/network-uri-2.6.4.2/Network/URI/Lens.dyn_hi

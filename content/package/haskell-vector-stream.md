@@ -14,7 +14,9 @@ sha1sum = "00e2727c933eefb998b21ec65b8e426771e3654c"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-vector']"
 +++
-Efficient Streams{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/vector-stream-0.1.0.0/Data/Stream/Monadic.dyn_hi
+Efficient Streams"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/vector-stream-0.1.0.0/Data/Stream/Monadic.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/vector-stream-0.1.0.0/Data/Stream/Monadic.hi
 * /usr/lib/ghc-9.8.1/site-local/vector-stream-0.1.0.0/libHSvector-stream-0.1.0.0-LR5Se0SBuwcJgriGKwRIbs.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSvector-stream-0.1.0.0-LR5Se0SBuwcJgriGKwRIbs-ghc9.8.1.so

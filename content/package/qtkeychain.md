@@ -14,7 +14,9 @@ sha1sum = "f3f3d146fa0f418204b4ac76ba83552c8f8f33c9"
 depends = "['libsecret', 'qt5-base>=5.15.10']"
 reverse_depends = "['aseman-qt-tools', 'kasts', 'kio-gdrive', 'kldap', 'kmailtransport', 'ktextaddons', 'libquotient', 'mixxx', 'tokodon']"
 +++
-Provides support for secure credentials storage.{{< files text="show files" >}}* /usr/include/qt5keychain/keychain.h
+Provides support for secure credentials storage."
+
+{{< files text="show files" >}}* /usr/include/qt5keychain/keychain.h
 * /usr/include/qt5keychain/qkeychain_export.h
 * /usr/lib/cmake/Qt5Keychain/Qt5KeychainConfig.cmake
 * /usr/lib/cmake/Qt5Keychain/Qt5KeychainConfigVersion.cmake

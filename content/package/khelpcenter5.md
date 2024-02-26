@@ -13,7 +13,9 @@ usize = "17421081"
 sha1sum = "e3c86f40e039cfa46be84e8043ce2a981999e150"
 depends = "['grantlee>=5.1.0-2', 'kcmutils>=5.115.0', 'kdelibs4support>=5.115.0', 'khtml>=5.115.0', 'xapian-core>=1.4.0-2']"
 +++
-Application to show KDE Applications documentation.{{< files text="show files" >}}* /usr/bin/khelpcenter
+Application to show KDE Applications documentation."
+
+{{< files text="show files" >}}* /usr/bin/khelpcenter
 * /usr/lib/kf5/khc_mansearch.pl
 * /usr/lib/kf5/khc_xapianindexer
 * /usr/lib/kf5/khc_xapiansearch

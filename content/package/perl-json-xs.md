@@ -13,7 +13,9 @@ usize = "255400"
 sha1sum = "db1243658a7a638bc777436da5a968c16be57bd9"
 depends = "['perl>=5.34.0', 'perl-canary-stability', 'perl-common-sense']"
 +++
-JSON::XS - JSON serialising/deserialising, done correctly and fast{{< files text="show files" >}}* /usr/bin/json_xs
+JSON::XS - JSON serialising/deserialising, done correctly and fast"
+
+{{< files text="show files" >}}* /usr/bin/json_xs
 * /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/JSON/XS/XS.so
 * /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/JSON/XS.pm
 * /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/JSON/XS/Boolean.pm

@@ -14,7 +14,9 @@ sha1sum = "b96bca7d77730c7331cb34d05874b73b1da891c0"
 depends = "['libva>=2.3']"
 license = "GPL"
 +++
-Intel backend for VA API{{< files text="show files" >}}* /usr/lib/dri/i965_drv_video.so
+Intel backend for VA API"
+
+{{< files text="show files" >}}* /usr/lib/dri/i965_drv_video.so
 * /usr/share/doc/libva-intel-driver-2.4.1/AUTHORS
 * /usr/share/doc/libva-intel-driver-2.4.1/COPYING
 * /usr/share/doc/libva-intel-driver-2.4.1/NEWS

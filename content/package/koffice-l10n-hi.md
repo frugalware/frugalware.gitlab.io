@@ -13,7 +13,9 @@ usize = "0"
 sha1sum = "27d24dc663b50ccd90ad972e6322d0bc1b2929fe"
 depends = "[]"
 +++
-Hindi Localization for KOffice. {{< files text="show files" >}}* usr/share/locale/hi/LC_MESSAGES/desktop_koffice.mo
+Hindi Localization for KOffice. "
+
+{{< files text="show files" >}}* usr/share/locale/hi/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/hi/LC_MESSAGES/example.mo
 * usr/share/locale/hi/LC_MESSAGES/karbon.mo
 * usr/share/locale/hi/LC_MESSAGES/kchart.mo

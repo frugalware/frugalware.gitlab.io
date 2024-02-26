@@ -13,7 +13,9 @@ usize = "51754"
 sha1sum = "9c4cbf76b23df23e9a099759e8f890a2b176a8d7"
 depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxext>=1.3.3-3', 'lib32-libxv>=1.0.11']"
 +++
-X.Org XvMC library ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/vldXvMC.h
+X.Org XvMC library ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/vldXvMC.h
 * /usr/i686-frugalware-linux/include/X11/extensions/XvMClib.h
 * /usr/lib32/libXvMC.so
 * /usr/lib32/libXvMC.so.1

@@ -13,7 +13,9 @@ usize = "912742"
 sha1sum = "e6d5715b7df5723cf13c687e4513cf34ad73bb14"
 depends = "['libkdegames>=23.08.5']"
 +++
-KSnakeDuel is a simple snake duel game{{< files text="show files" >}}* /usr/bin/ksnakeduel
+KSnakeDuel is a simple snake duel game"
+
+{{< files text="show files" >}}* /usr/bin/ksnakeduel
 * /usr/share/applications/org.kde.ksnakeduel.desktop
 * /usr/share/config.kcfg/ksnakeduel.kcfg
 * /usr/share/doc/HTML/ca/ksnakeduel/index.cache.bz2

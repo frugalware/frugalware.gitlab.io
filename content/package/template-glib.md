@@ -13,7 +13,9 @@ usize = "329094"
 sha1sum = "b48588e260f2438143c2937088fed5fdc84d052a"
 depends = "['glib2>=2.60.3']"
 +++
-A templating library for GLib{{< files text="show files" >}}* /usr/include/template-glib-1.0/tmpl-debug.h
+A templating library for GLib"
+
+{{< files text="show files" >}}* /usr/include/template-glib-1.0/tmpl-debug.h
 * /usr/include/template-glib-1.0/tmpl-enums.h
 * /usr/include/template-glib-1.0/tmpl-error.h
 * /usr/include/template-glib-1.0/tmpl-expr-types.h

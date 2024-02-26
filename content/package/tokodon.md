@@ -13,7 +13,9 @@ usize = "1742338"
 sha1sum = "f1528e4a596548c2c6deb2f6194da05b9d39e3b2"
 depends = "['kdbusaddons', 'kio', 'kirigami-addons', 'kitemmodels', 'knotifications', 'mpv', 'qqc2-desktop-style', 'qt5-websockets', 'qtkeychain']"
 +++
-A Mastodon client for Plasma{{< files text="show files" >}}* /usr/bin/tokodon
+A Mastodon client for Plasma"
+
+{{< files text="show files" >}}* /usr/bin/tokodon
 * /usr/share/applications/org.kde.tokodon.desktop
 * /usr/share/doc/tokodon-23.08.5/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.tokodon.svg

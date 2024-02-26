@@ -13,7 +13,9 @@ usize = "411135"
 sha1sum = "d3cdf3439e0a7b8e03050b60328a54600a99ff08"
 depends = "['glibc']"
 +++
-A DVB / MPEG stream analyzer program{{< files text="show files" >}}* /usr/bin/dvbsnoop
+A DVB / MPEG stream analyzer program"
+
+{{< files text="show files" >}}* /usr/bin/dvbsnoop
 * /usr/share/doc/dvbsnoop-1.4.50/AUTHORS
 * /usr/share/doc/dvbsnoop-1.4.50/ChangeLog
 * /usr/share/doc/dvbsnoop-1.4.50/COPYING

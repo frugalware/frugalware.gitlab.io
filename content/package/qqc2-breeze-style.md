@@ -13,7 +13,9 @@ usize = "525848"
 sha1sum = "8211a4548278775a6ff8da9a58927a6ba30d0d8d"
 depends = "['kconfig>=5.115.0', 'kguiaddons>=5.115.0', 'kiconthemes>=5.115.0', 'kirigami2>=5.115.0', 'qt5-quickcontrols2>=5.15.12']"
 +++
-Breeze inspired QQC2 Style{{< files text="show files" >}}* /usr/lib/cmake/KF5QQC2BreezeStyle/KF5QQC2BreezeStyleConfig.cmake
+Breeze inspired QQC2 Style"
+
+{{< files text="show files" >}}* /usr/lib/cmake/KF5QQC2BreezeStyle/KF5QQC2BreezeStyleConfig.cmake
 * /usr/lib/cmake/KF5QQC2BreezeStyle/KF5QQC2BreezeStyleConfigVersion.cmake
 * /usr/lib/qt5/plugins/kf5/kirigami/org.kde.breeze.so
 * /usr/share/doc/qqc2-breeze-style-5.27.10/README.md

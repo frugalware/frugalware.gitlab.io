@@ -14,5 +14,7 @@ sha1sum = "e632512b35b0c608e1ddf0f6068da9fd1af7ee11"
 depends = "['bcpkix>=170', 'gnumail', 'jaf']"
 reverse_depends = "['itext7']"
 +++
-Java cryptography APIs.{{< files text="show files" >}}* /usr/share/java/bcmail.jar
+Java cryptography APIs."
+
+{{< files text="show files" >}}* /usr/share/java/bcmail.jar
 {{< /files >}}

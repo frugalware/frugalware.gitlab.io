@@ -13,7 +13,9 @@ usize = "1352004"
 sha1sum = "3189d116eb5d9226a03b7c956f30b6ec28f8838f"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Xhosa support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/xh/LC_MESSAGES/acc.mo
+Installs Xhosa support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/xh/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/xh/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/xh/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/xh/LC_MESSAGES/chart.mo

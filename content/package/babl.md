@@ -14,7 +14,9 @@ sha1sum = "ff41716778fda38953fe89fa93b7bc3de75510e5"
 depends = "['lcms2']"
 reverse_depends = "['gegl']"
 +++
-Babl is a dynamic, any to any, pixel format conversion library.{{< files text="show files" >}}* /usr/bin/babl
+Babl is a dynamic, any to any, pixel format conversion library."
+
+{{< files text="show files" >}}* /usr/bin/babl
 * /usr/include/babl-0.1/babl/babl-introspect.h
 * /usr/include/babl-0.1/babl/babl-macros.h
 * /usr/include/babl-0.1/babl/babl-types.h

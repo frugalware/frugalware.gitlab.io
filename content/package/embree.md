@@ -14,7 +14,9 @@ sha1sum = "ae8c186241b3a7b99938e0ae97aa393cd205c8e5"
 depends = "['glfw', 'intel-tbb', 'openimageio>=2.3.15.0']"
 reverse_depends = "['blender', 'openvkl']"
 +++
-Collection of high-performance ray tracing kernels{{< files text="show files" >}}* /usr/include/embree3/rtcore.h
+Collection of high-performance ray tracing kernels"
+
+{{< files text="show files" >}}* /usr/include/embree3/rtcore.h
 * /usr/include/embree3/rtcore.isph
 * /usr/include/embree3/rtcore_buffer.h
 * /usr/include/embree3/rtcore_buffer.isph

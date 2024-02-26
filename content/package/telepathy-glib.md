@@ -14,7 +14,9 @@ sha1sum = "5acef4e9c03213afbc703e1c8708217f6b98698e"
 depends = "['dbus-glib>=0.108-3']"
 reverse_depends = "['remmina-telepathy', 'ssh-contact', 'telepathy-farstream', 'telepathy-gabble', 'telepathy-haze', 'telepathy-idle', 'telepathy-logger', 'telepathy-mission-control', 'telepathy-salut', 'telepathy-sofiasip', 'zeitgeist']"
 +++
-A glib library to ease writing telepathy clients in glib.{{< files text="show files" >}}* /usr/include/telepathy-1.0/telepathy-glib/account-channel-request.h
+A glib library to ease writing telepathy clients in glib."
+
+{{< files text="show files" >}}* /usr/include/telepathy-1.0/telepathy-glib/account-channel-request.h
 * /usr/include/telepathy-1.0/telepathy-glib/account-manager.h
 * /usr/include/telepathy-1.0/telepathy-glib/account-request.h
 * /usr/include/telepathy-1.0/telepathy-glib/account.h

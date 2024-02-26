@@ -14,7 +14,9 @@ sha1sum = "be098aa8065f8b21da16df56796097d77467f02c"
 depends = "['xorg-server>=1.20.4-3']"
 license = "GPL2"
 +++
-X.Org driver for VirtualBox (opensource){{< files text="show files" >}}* /usr/lib/xorg/modules/drivers/vboxvideo_drv.so
+X.Org driver for VirtualBox (opensource)"
+
+{{< files text="show files" >}}* /usr/lib/xorg/modules/drivers/vboxvideo_drv.so
 * /usr/share/doc/xf86-video-vboxvideo-1.0.0/ChangeLog
 * /usr/share/doc/xf86-video-vboxvideo-1.0.0/COPYING
 * /usr/share/doc/xf86-video-vboxvideo-1.0.0/INSTALL

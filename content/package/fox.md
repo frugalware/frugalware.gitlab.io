@@ -13,7 +13,9 @@ usize = "11253229"
 sha1sum = "a32b4529f4a188afd51a3312b56398d06ce0973b"
 depends = "['libglu', 'libjpeg-turbo', 'libpng', 'libtiff', 'libxcursor', 'libxft', 'libxi', 'libxrandr']"
 +++
-FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and effectively.{{< files text="show files" >}}* /usr/bin/adie
+FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and effectively."
+
+{{< files text="show files" >}}* /usr/bin/adie
 * /usr/bin/Adie.stx
 * /usr/bin/calculator
 * /usr/bin/ControlPanel

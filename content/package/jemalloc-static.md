@@ -13,6 +13,8 @@ usize = "51829066"
 sha1sum = "daa6bf652877e3fe4a921b400a6338eeb2a63627"
 depends = "[]"
 +++
-Static files for jemalloc{{< files text="show files" >}}* /usr/lib/libjemalloc.a
+Static files for jemalloc"
+
+{{< files text="show files" >}}* /usr/lib/libjemalloc.a
 * /usr/lib/libjemalloc_pic.a
 {{< /files >}}

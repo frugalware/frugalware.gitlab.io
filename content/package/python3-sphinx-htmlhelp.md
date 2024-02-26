@@ -14,7 +14,9 @@ sha1sum = "09f63ebf00a2f453996c53dd00e9d7200569e2a4"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-sphinx']"
 +++
-Sphinx extension which renders HTML help files{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sphinxcontrib/htmlhelp/locales/.tx/config
+Sphinx extension which renders HTML help files"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sphinxcontrib/htmlhelp/locales/.tx/config
 * /usr/lib/python3.12/site-packages/sphinxcontrib/htmlhelp/locales/ar/LC_MESSAGES/sphinxcontrib.htmlhelp.mo
 * /usr/lib/python3.12/site-packages/sphinxcontrib/htmlhelp/locales/ar/LC_MESSAGES/sphinxcontrib.htmlhelp.po
 * /usr/lib/python3.12/site-packages/sphinxcontrib/htmlhelp/locales/bg/LC_MESSAGES/sphinxcontrib.htmlhelp.mo

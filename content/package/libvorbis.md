@@ -14,7 +14,9 @@ sha1sum = "b98350695ad256eb30ea85e39696561d6a33bbd1"
 depends = "['glibc>=2.34', 'libogg>=1.3.2-8']"
 reverse_depends = "['alienarena', 'allegro', 'assaultcube', 'cdrdao', 'efl', 'enlightenment', 'ffmpeg', 'ffmpeg4.4', 'freeorion', 'gst1-plugins-base-vorbis', 'icecast', 'ices', 'libcanberra', 'libextractor', 'libmp3splt', 'libpulse', 'libshout', 'libsndfile', 'love', 'minidlna', 'mkvtoolnix', 'mlt', 'naev', 'scummvm-tools', 'sdl2_mixer', 'sdl_mixer', 'solarus', 'stepmania', 'supertux', 'supertuxkart', 'terminology', 'vlc-vorbis', 'vorbis-tools', 'vorbisgain', 'xonotic']"
 +++
-Vorbis codec library{{< files text="show files" >}}* /usr/include/vorbis/codec.h
+Vorbis codec library"
+
+{{< files text="show files" >}}* /usr/include/vorbis/codec.h
 * /usr/include/vorbis/vorbisenc.h
 * /usr/include/vorbis/vorbisfile.h
 * /usr/lib/libvorbis.so

@@ -14,7 +14,9 @@ sha1sum = "41d4878e8240efc7ae7dd1f8db66947e650d35a3"
 depends = "['libaccounts-glib>=1.25', 'networkmanager>=1.4.0-2', 'telepathy-glib>=0.24.1-6']"
 reverse_depends = "['telepathy-accounts-signon', 'telepathy-mission-control-doc']"
 +++
-Mission Control, or MC, is a telepathy (chat and voip framework) component{{< files text="show files" >}}* /usr/bin/mc-tool
+Mission Control, or MC, is a telepathy (chat and voip framework) component"
+
+{{< files text="show files" >}}* /usr/bin/mc-tool
 * /usr/bin/mc-wait-for-name
 * /usr/include/mission-control-5.5/mission-control-plugins/account-storage.h
 * /usr/include/mission-control-5.5/mission-control-plugins/account.h

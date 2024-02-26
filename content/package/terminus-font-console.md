@@ -14,7 +14,9 @@ sha1sum = "4f36b3c39fd29c77f988c1d9a5e6cd3a016e301a"
 depends = "['kbd']"
 reverse_depends = "['kernel-initrd', 'kernel-lts-initrd', 'terminus-font']"
 +++
-Terminus is a clean fixed width font for long (8 and more hours per day) work. (console only fonts){{< files text="show files" >}}* /usr/share/consolefonts/ter-112n.psf.gz
+Terminus is a clean fixed width font for long (8 and more hours per day) work. (console only fonts)"
+
+{{< files text="show files" >}}* /usr/share/consolefonts/ter-112n.psf.gz
 * /usr/share/consolefonts/ter-114b.psf.gz
 * /usr/share/consolefonts/ter-114n.psf.gz
 * /usr/share/consolefonts/ter-116b.psf.gz

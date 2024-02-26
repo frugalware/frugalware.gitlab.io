@@ -15,7 +15,9 @@ depends = "['libx11>=1.6.7-2', 'libxext>=1.3.4-2']"
 reverse_depends = "['beforelight', 'cef', 'chromium-browser', 'discord', 'dunst', 'efl', 'enlightenment', 'kaffeine', 'kidletime', 'kvirc', 'mpv', 'pidgin', 'qt5-webengine', 'qtox', 'signal-desktop', 'sim', 'slack-desktop', 'teams', 'terminology', 'tk', 'xf86-video-intel', 'xine-ui']"
 license = "GPL2"
 +++
-The XScrnSaver Library{{< files text="show files" >}}* /usr/include/X11/extensions/scrnsaver.h
+The XScrnSaver Library"
+
+{{< files text="show files" >}}* /usr/include/X11/extensions/scrnsaver.h
 * /usr/lib/libXss.so
 * /usr/lib/libXss.so.1
 * /usr/lib/libXss.so.1.0.0

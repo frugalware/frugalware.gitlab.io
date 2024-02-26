@@ -13,7 +13,9 @@ usize = "2568218"
 sha1sum = "99ae1e59a2676cf310e7a8594339925361293af4"
 depends = "['qt5-declarative>=5.15.12']"
 +++
-The Qt5 toolkit, qtdatavis3d{{< files text="show files" >}}* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/abstract3dcontroller_p.h
+The Qt5 toolkit, qtdatavis3d"
+
+{{< files text="show files" >}}* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/abstract3dcontroller_p.h
 * /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/abstract3drenderer_p.h
 * /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/abstractitemmodelhandler_p.h
 * /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/abstractobjecthelper_p.h

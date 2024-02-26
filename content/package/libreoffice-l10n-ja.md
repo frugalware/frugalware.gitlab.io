@@ -13,7 +13,9 @@ usize = "40183568"
 sha1sum = "65bf451956cd1ef237e8a29038346de1584479b4"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Japanese support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/ja/default.css
+Installs Japanese support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/help/ja/default.css
 * /usr/lib/libreoffice/help/ja/err.html
 * /usr/lib/libreoffice/help/ja/highcontrast1.css
 * /usr/lib/libreoffice/help/ja/highcontrast2.css

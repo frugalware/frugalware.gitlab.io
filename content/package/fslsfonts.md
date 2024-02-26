@@ -14,7 +14,9 @@ sha1sum = "c65ee85c323778469c7ffddc412a1d8d4c2e4e76"
 depends = "['libfs>=1.0.7-2']"
 license = "GPL2"
 +++
-X.Org fslsfonts application{{< files text="show files" >}}* /usr/bin/fslsfonts
+X.Org fslsfonts application"
+
+{{< files text="show files" >}}* /usr/bin/fslsfonts
 * /usr/share/doc/fslsfonts-1.0.6/ChangeLog
 * /usr/share/doc/fslsfonts-1.0.6/COPYING
 * /usr/share/doc/fslsfonts-1.0.6/INSTALL

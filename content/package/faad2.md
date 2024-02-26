@@ -14,7 +14,9 @@ sha1sum = "ce8bd34029dae92bb401a3073661a863a336f831"
 depends = "['glibc>=2.34']"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-bad-faad2', 'mencoder', 'mplayer', 'mpv', 'scummvm', 'vlc-faad']"
 +++
-ISO AAC audio decoder{{< files text="show files" >}}* /usr/bin/faad
+ISO AAC audio decoder"
+
+{{< files text="show files" >}}* /usr/bin/faad
 * /usr/include/faad.h
 * /usr/include/neaacdec.h
 * /usr/lib/libfaad.so

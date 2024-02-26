@@ -13,7 +13,9 @@ usize = "2023137"
 sha1sum = "cc911a3250a3f505d370f40e1d6a2a304a2c62fb"
 depends = "['kcmutils>=5.115.0', 'kio>=5.115.0', 'qt5-svg>=5.15.12']"
 +++
-KDE module for configure and schedule tasks.{{< files text="show files" >}}* /usr/lib/kf5/kauth/kcron_helper
+KDE module for configure and schedule tasks."
+
+{{< files text="show files" >}}* /usr/lib/kf5/kauth/kcron_helper
 * /usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/kcm_cron.so
 * /usr/share/applications/kcm_cron.desktop
 * /usr/share/dbus-1/system-services/local.kcron.crontab.service

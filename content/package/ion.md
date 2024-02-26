@@ -13,7 +13,9 @@ usize = "2762944"
 sha1sum = "811f60aa5a638f9ffa6aee5fd84539a393dcc808"
 depends = "['glibc', 'libgcc']"
 +++
-Ion is a modern system shell that features a simple, yet powerful, syntax{{< files text="show files" >}}* /usr/bin/ion
+Ion is a modern system shell that features a simple, yet powerful, syntax"
+
+{{< files text="show files" >}}* /usr/bin/ion
 * /usr/share/doc/ion-1.0.0_alpha/LICENSE
 * /usr/share/doc/ion-1.0.0_alpha/README.md
 {{< /files >}}

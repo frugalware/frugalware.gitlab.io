@@ -13,7 +13,9 @@ usize = "8289756"
 sha1sum = "8568823b8c6afbc4fabd08e488bd7bf575d6ccc2"
 depends = "['glibc>=2.34', 'iproute2>=4.10.0-2']"
 +++
-The ISC DHCP server{{< files text="show files" >}}* /etc/dhclient.conf.example
+The ISC DHCP server"
+
+{{< files text="show files" >}}* /etc/dhclient.conf.example
 * /etc/dhcpd-dhcpv6.conf
 * /etc/dhcpd.conf
 * /etc/dhcpd.conf.example

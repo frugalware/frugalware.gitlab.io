@@ -14,7 +14,9 @@ sha1sum = "5291ea77d9103267464e6953fb652f389fa9a0fc"
 depends = "['libgomp', 'libxaw', 'readline>=8.0']"
 reverse_depends = "['kicad']"
 +++
-Ngspice is a mixed-level/mixed-signal circuit simulator.{{< files text="show files" >}}* /usr/include/ngspice/sharedspice.h
+Ngspice is a mixed-level/mixed-signal circuit simulator."
+
+{{< files text="show files" >}}* /usr/include/ngspice/sharedspice.h
 * /usr/lib/libngspice.so
 * /usr/lib/libngspice.so.0
 * /usr/lib/libngspice.so.0.0.6

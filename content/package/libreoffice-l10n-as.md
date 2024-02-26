@@ -13,7 +13,9 @@ usize = "2412122"
 sha1sum = "c85b9ac2f1a01fc383e2b71c97faf3b35324bd70"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Assamese support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/as/LC_MESSAGES/acc.mo
+Installs Assamese support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/as/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/as/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/as/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/as/LC_MESSAGES/chart.mo

@@ -13,7 +13,9 @@ usize = "3199160"
 sha1sum = "1547235a5f4536ae31297859d4ac3835bafa8dac"
 depends = "['bluez-qt>=5.115.0', 'plasma-workspace>=5.27.10']"
 +++
-KDE power management tools.{{< files text="show files" >}}* /etc/xdg/autostart/powerdevil.desktop
+KDE power management tools."
+
+{{< files text="show files" >}}* /etc/xdg/autostart/powerdevil.desktop
 * /usr/lib/kf5/kauth/backlighthelper
 * /usr/lib/kf5/kauth/chargethresholdhelper
 * /usr/lib/kf5/kauth/discretegpuhelper

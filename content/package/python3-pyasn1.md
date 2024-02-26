@@ -14,7 +14,9 @@ sha1sum = "7159a2bfde124b1f4cfa6a8e5fd281527aff4836"
 depends = "['python3>=3.12']"
 reverse_depends = "['paramiko']"
 +++
-ASN.1 library for Python{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pyasn1-0.5.1-py3.12.egg-info/dependency_links.txt
+ASN.1 library for Python"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pyasn1-0.5.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pyasn1-0.5.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/pyasn1-0.5.1-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/pyasn1-0.5.1-py3.12.egg-info/top_level.txt

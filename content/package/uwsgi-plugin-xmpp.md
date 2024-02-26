@@ -13,5 +13,7 @@ usize = "18720"
 sha1sum = "6ffbb19eabd9ece8114c0e98356f77d870064fe1"
 depends = "['gloox>=1.0.20', 'uwsgi']"
 +++
-UWSGI Alarm XMPP Plugin{{< files text="show files" >}}* /usr/lib/uwsgi/alarm_xmpp_plugin.so
+UWSGI Alarm XMPP Plugin"
+
+{{< files text="show files" >}}* /usr/lib/uwsgi/alarm_xmpp_plugin.so
 {{< /files >}}

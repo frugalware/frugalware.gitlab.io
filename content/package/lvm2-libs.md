@@ -14,7 +14,9 @@ sha1sum = "85b077dde8e6bf86ff40e8365e4bdbb4d5680eb1"
 depends = "['libblkid>=2.31.1-3', 'libgudev>=230-7']"
 reverse_depends = "['cryptsetup-luks', 'dmraid', 'lvm2', 'nfs-utils']"
 +++
-Libraries from lvm2{{< files text="show files" >}}* /usr/include/libdevmapper-event.h
+Libraries from lvm2"
+
+{{< files text="show files" >}}* /usr/include/libdevmapper-event.h
 * /usr/include/libdevmapper.h
 * /usr/include/lvm2cmd.h
 * /usr/lib/device-mapper/libdevmapper-event-lvm2mirror.so

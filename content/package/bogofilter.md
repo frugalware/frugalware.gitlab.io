@@ -14,7 +14,9 @@ sha1sum = "0a87be5e1247490037df8d6ca2c9bd5a38ca0ec5"
 depends = "['sqlite3']"
 license = "GPL2"
 +++
-A very fast Bayesian spam filtering tool.{{< files text="show files" >}}* /etc/bogofilter.cf
+A very fast Bayesian spam filtering tool."
+
+{{< files text="show files" >}}* /etc/bogofilter.cf
 * /usr/bin/bfproxy.pl
 * /usr/bin/bf_compact
 * /usr/bin/bf_copy

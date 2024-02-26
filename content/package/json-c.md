@@ -14,7 +14,9 @@ sha1sum = "5dadbf758f6055cf8c2c6825ede8e4e8ee3aec3c"
 depends = "['glibc>=2.34']"
 reverse_depends = "['cryptsetup-luks', 'efl', 'enlightenment', 'fontconfig', 'gdal', 'gdal', 'libmypaint', 'libnvme', 'libu2f-host', 'multipath-tools', 'ndctl', 'strongswan', 'terminology', 'tpm2-tss', 'v4l-utils']"
 +++
-JSON-C - A JSON implementation in C{{< files text="show files" >}}* /usr/include/json-c/arraylist.h
+JSON-C - A JSON implementation in C"
+
+{{< files text="show files" >}}* /usr/include/json-c/arraylist.h
 * /usr/include/json-c/debug.h
 * /usr/include/json-c/json.h
 * /usr/include/json-c/json_config.h

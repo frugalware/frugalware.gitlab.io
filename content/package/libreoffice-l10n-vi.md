@@ -13,7 +13,9 @@ usize = "34426848"
 sha1sum = "0f6af5b89d90b952cbd895c9213898a9e1e2fe22"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Vietnamese support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/vi/default.css
+Installs Vietnamese support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/help/vi/default.css
 * /usr/lib/libreoffice/help/vi/err.html
 * /usr/lib/libreoffice/help/vi/highcontrast1.css
 * /usr/lib/libreoffice/help/vi/highcontrast2.css

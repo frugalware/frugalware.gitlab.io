@@ -13,7 +13,9 @@ usize = "317310"
 sha1sum = "6479142c751282decad9035c56190644f7ea8a06"
 depends = "['perl>=5.34.0', 'perl-file-remove', 'perl-yaml-tiny']"
 +++
-Standalone, extensible Perl module installer{{< files text="show files" >}}* /usr/lib/perl5/site_perl/inc/Module/Install.pm
+Standalone, extensible Perl module installer"
+
+{{< files text="show files" >}}* /usr/lib/perl5/site_perl/inc/Module/Install.pm
 * /usr/lib/perl5/site_perl/Module/AutoInstall.pm
 * /usr/lib/perl5/site_perl/Module/Install.pm
 * /usr/lib/perl5/site_perl/Module/Install.pod

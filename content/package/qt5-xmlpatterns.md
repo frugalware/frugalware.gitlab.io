@@ -14,7 +14,9 @@ sha1sum = "e1cc334a0c5aa8980edc65ef88ebd6e3d3463e09"
 depends = "['qt5-base>=5.15.12', 'qt5-quickcontrols>=${pkgver}', 'qt5-quickcontrols2>=${pkgver}-2']"
 reverse_depends = "['artikulate', 'cantor', 'digikam', 'kdav', 'kdav2', 'kdepim-runtime', 'kig', 'ktouch', 'otter-browser', 'qownnotes', 'rocs', 'shiboken2', 'skrooge', 'syntax-highlighting']"
 +++
-The Qt5 toolkit, qtxmlpatterns{{< files text="show files" >}}* /usr/bin/xmlpatterns
+The Qt5 toolkit, qtxmlpatterns"
+
+{{< files text="show files" >}}* /usr/bin/xmlpatterns
 * /usr/bin/xmlpatterns-qt5
 * /usr/bin/xmlpatternsvalidator
 * /usr/bin/xmlpatternsvalidator-qt5

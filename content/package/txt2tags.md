@@ -14,7 +14,9 @@ sha1sum = "aa2dde520f355c20c8c065f69448b17c465a3419"
 depends = "['python3']"
 license = "GPL"
 +++
-Txt2tags is a document generator.{{< files text="show files" >}}* /usr/bin/txt2tags
+Txt2tags is a document generator."
+
+{{< files text="show files" >}}* /usr/bin/txt2tags
 * /usr/lib/python3.12/site-packages/txt2tags-3.7-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/txt2tags-3.7-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/txt2tags-3.7-py3.12.egg-info/PKG-INFO

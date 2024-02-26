@@ -13,4 +13,6 @@ usize = "0"
 sha1sum = ""
 depends = "['mbrola']"
 +++
-English MBROLA Voices{{< files text="show files" >}}{{< /files >}}
+English MBROLA Voices"
+
+{{< files text="show files" >}}{{< /files >}}

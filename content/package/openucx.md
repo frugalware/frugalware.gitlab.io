@@ -14,7 +14,9 @@ sha1sum = "8a7b85a563081a5bdcdc04c43424dc25ec2c13cc"
 depends = "['binutils>=2.42', 'libgomp', 'numactl', 'rdma-core']"
 reverse_depends = "['cuda-tools']"
 +++
-Unified Communication X{{< files text="show files" >}}* /usr/bin/io_demo
+Unified Communication X"
+
+{{< files text="show files" >}}* /usr/bin/io_demo
 * /usr/bin/ucx_info
 * /usr/bin/ucx_perftest
 * /usr/bin/ucx_read_profile

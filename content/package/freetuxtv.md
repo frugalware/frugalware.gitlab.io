@@ -13,7 +13,9 @@ usize = "1799249"
 sha1sum = "7f581eec3e04e741352f3b98c8842662fb25fb6b"
 depends = "['curl', 'dbus-glib', 'gtk+3', 'libnotify', 'libvlc']"
 +++
-Watch the TV with your box{{< files text="show files" >}}* /usr/bin/freetuxtv
+Watch the TV with your box"
+
+{{< files text="show files" >}}* /usr/bin/freetuxtv
 * /usr/include/libdbevolution/db-evolution-instance.h
 * /usr/include/libvlc-gtk/gtk-libvlc-include.h
 * /usr/include/libvlc-gtk/gtk-libvlc-instance.h

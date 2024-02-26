@@ -13,7 +13,9 @@ usize = "65890716"
 sha1sum = "8aca562ef4748bf39663a68dd9253db0d685772e"
 depends = "['glibc']"
 +++
-HashiCorp tool for building and updating infrastructure as code idempotently{{< files text="show files" >}}* /usr/bin/terraform
+HashiCorp tool for building and updating infrastructure as code idempotently"
+
+{{< files text="show files" >}}* /usr/bin/terraform
 * /usr/share/doc/terraform-1.5.7/LICENSE
 * /usr/share/doc/terraform-1.5.7/README.md
 {{< /files >}}

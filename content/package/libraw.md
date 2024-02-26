@@ -14,7 +14,9 @@ sha1sum = "f1b9b587c60df8bc4aa1a1abdd471d00144ceb31"
 depends = "['lcms2>=2.8-2', 'libjpeg-turbo']"
 reverse_depends = "['efl', 'freeimage', 'gegl', 'imagemagick', 'kimageformats', 'kstars', 'libkdcraw', 'luminance-hdr', 'nomacs', 'openimageio']"
 +++
-A library for reading RAW files obtained from digital photo cameras.{{< files text="show files" >}}* /usr/bin/4channels
+A library for reading RAW files obtained from digital photo cameras."
+
+{{< files text="show files" >}}* /usr/bin/4channels
 * /usr/bin/dcraw_emu
 * /usr/bin/dcraw_half
 * /usr/bin/half_mt

@@ -14,7 +14,9 @@ sha1sum = "0b7714663902ed94f108d54c5940c3455054da05"
 depends = "['python3>=3.10']"
 reverse_depends = "['face_recognition', 'howdy']"
 +++
-Trained models for the face_recognition python library{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/face_recognition_models-0.3.0-py3.12.egg-info/dependency_links.txt
+Trained models for the face_recognition python library"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/face_recognition_models-0.3.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/face_recognition_models-0.3.0-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/face_recognition_models-0.3.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/face_recognition_models-0.3.0-py3.12.egg-info/SOURCES.txt

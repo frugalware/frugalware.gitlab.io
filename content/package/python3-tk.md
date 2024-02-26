@@ -14,7 +14,9 @@ sha1sum = "24c4dbad17fd04c5e7854e9d58a928f4a9aa9332"
 depends = "['python3>=3.12.2', 'tk>=8.6.9-2']"
 reverse_depends = "['fetchmailconf']"
 +++
-Python3 support for tk/tcl{{< files text="show files" >}}* /usr/lib/python3.12/tkinter/colorchooser.py
+Python3 support for tk/tcl"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/tkinter/colorchooser.py
 * /usr/lib/python3.12/tkinter/commondialog.py
 * /usr/lib/python3.12/tkinter/constants.py
 * /usr/lib/python3.12/tkinter/dialog.py

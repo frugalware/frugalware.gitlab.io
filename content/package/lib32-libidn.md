@@ -13,7 +13,9 @@ usize = "266294"
 sha1sum = "cc18808322a978309e3f7242207d263b854032c7"
 depends = "[]"
 +++
-GNU Libidn is an implementation of the Stringprep,Punycode and IDNA specification. ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/idn
+GNU Libidn is an implementation of the Stringprep,Punycode and IDNA specification. ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/idn
 * /usr/i686-frugalware-linux/include/idn-free.h
 * /usr/i686-frugalware-linux/include/idn-int.h
 * /usr/i686-frugalware-linux/include/idna.h

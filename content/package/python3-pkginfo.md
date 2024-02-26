@@ -14,7 +14,9 @@ sha1sum = "da64bd2aaeeea4ad4fb2168278ec08a4fcfc7131"
 depends = "['python3']"
 reverse_depends = "['python3-poetry']"
 +++
-Query metadata from sdists / bdists / installed packages{{< files text="show files" >}}* /usr/bin/pkginfo
+Query metadata from sdists / bdists / installed packages"
+
+{{< files text="show files" >}}* /usr/bin/pkginfo
 * /usr/lib/python3.12/site-packages/pkginfo-1.9.6.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/pkginfo-1.9.6.dist-info/LICENSE.txt
 * /usr/lib/python3.12/site-packages/pkginfo-1.9.6.dist-info/METADATA

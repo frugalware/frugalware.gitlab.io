@@ -13,7 +13,9 @@ usize = "159159"
 sha1sum = "fb80fd8cc912505304725e10145a77727f9e1608"
 depends = "['libmp3splt>=0.9.2-2']"
 +++
-mp3splt is a utility for mp3/ogg splitting without decoding{{< files text="show files" >}}* /usr/bin/mp3splt
+mp3splt is a utility for mp3/ogg splitting without decoding"
+
+{{< files text="show files" >}}* /usr/bin/mp3splt
 * /usr/share/doc/mp3splt-2.6.2/AUTHORS
 * /usr/share/doc/mp3splt-2.6.2/ChangeLog
 * /usr/share/doc/mp3splt-2.6.2/COPYING

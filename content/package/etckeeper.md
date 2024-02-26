@@ -13,7 +13,9 @@ usize = "93191"
 sha1sum = "8068b3fb98660f4fd827d524a44c06587842ff67"
 depends = "['dcron>=3.2-4', 'git>=1.5.3.4', 'pacman-g2>=3.6.7']"
 +++
-Stores the /etc directory in a git repo.{{< files text="show files" >}}* /etc/etckeeper/commit.d/10vcs-test
+Stores the /etc directory in a git repo."
+
+{{< files text="show files" >}}* /etc/etckeeper/commit.d/10vcs-test
 * /etc/etckeeper/commit.d/20store-metadata
 * /etc/etckeeper/commit.d/30bzr-add
 * /etc/etckeeper/commit.d/30darcs-add

@@ -14,6 +14,8 @@ sha1sum = "f8db4f9e66cd69620f29fcf9f37e4e0c1ce98b8c"
 depends = "['openjre']"
 reverse_depends = "['avalon-logkit']"
 +++
-Servlet API from jakarta.apache.org{{< files text="show files" >}}* /usr/share/java/jsp-api.jar
+Servlet API from jakarta.apache.org"
+
+{{< files text="show files" >}}* /usr/share/java/jsp-api.jar
 * /usr/share/java/servlet-api.jar
 {{< /files >}}

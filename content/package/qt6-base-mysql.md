@@ -13,7 +13,9 @@ usize = "106835"
 sha1sum = "ae1ee7a4b90f98d1356aff6278ec3dfadd071994"
 depends = "['mariadb-libs>=10.3.14', 'qt6-base>=6.6.2', 'qt6-base-sql-common']"
 +++
-Mysql support for qt6{{< files text="show files" >}}* /usr/lib/cmake/Qt6/FindMySQL.cmake
+Mysql support for qt6"
+
+{{< files text="show files" >}}* /usr/lib/cmake/Qt6/FindMySQL.cmake
 * /usr/lib/cmake/Qt6Sql/Qt6QMYSQLDriverPluginAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6Sql/Qt6QMYSQLDriverPluginConfig.cmake
 * /usr/lib/cmake/Qt6Sql/Qt6QMYSQLDriverPluginConfigVersion.cmake

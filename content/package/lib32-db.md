@@ -14,7 +14,9 @@ sha1sum = "b09bada269a0d9c4d9759476a67fbbb1a81b28b7"
 depends = "['lib32-openssl>=3.1.0']"
 reverse_depends = "['lib32-pam']"
 +++
-The Berkeley DB embedded database system ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/db_archive
+The Berkeley DB embedded database system ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/db_archive
 * /usr/i686-frugalware-linux/bin/db_checkpoint
 * /usr/i686-frugalware-linux/bin/db_convert
 * /usr/i686-frugalware-linux/bin/db_deadlock

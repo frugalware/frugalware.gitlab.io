@@ -14,7 +14,9 @@ sha1sum = "eea73f7fa92f6d7888125962b0b8a123f723c1d7"
 depends = "['gmp>=6.1.2-11']"
 reverse_depends = "['cgal', 'gawk', 'kalk', 'libmpc', 'rasqal', 'texlive']"
 +++
-Library for multiple-precision floating-point computations.{{< files text="show files" >}}* /usr/include/mpf2mpfr.h
+Library for multiple-precision floating-point computations."
+
+{{< files text="show files" >}}* /usr/include/mpf2mpfr.h
 * /usr/include/mpfr.h
 * /usr/lib/libmpfr.so
 * /usr/lib/libmpfr.so.6

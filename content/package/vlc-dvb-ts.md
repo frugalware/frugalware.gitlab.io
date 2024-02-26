@@ -13,7 +13,9 @@ usize = "415048"
 sha1sum = "7fbd0b1b4f791bf2ef4f078cc972be2186e8db19"
 depends = "['libdvbpsi>=1.3.0', 'libvlc>=3.0.20']"
 +++
-vlc plugin for DVB/TS{{< files text="show files" >}}* /usr/lib/vlc/plugins/access/libdvb_plugin.so
+vlc plugin for DVB/TS"
+
+{{< files text="show files" >}}* /usr/lib/vlc/plugins/access/libdvb_plugin.so
 * /usr/lib/vlc/plugins/demux/libts_plugin.so
 * /usr/lib/vlc/plugins/mux/libmux_ts_plugin.so
 {{< /files >}}

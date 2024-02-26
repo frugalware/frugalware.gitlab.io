@@ -14,5 +14,7 @@ sha1sum = "9db68fcd8cb6a369aee59056a1640eb3067fef7f"
 depends = "[]"
 reverse_depends = "['bcmail']"
 +++
-Java cryptography APIs.{{< files text="show files" >}}* /usr/share/java/bcpkix.jar
+Java cryptography APIs."
+
+{{< files text="show files" >}}* /usr/share/java/bcpkix.jar
 {{< /files >}}

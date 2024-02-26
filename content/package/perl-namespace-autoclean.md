@@ -13,7 +13,9 @@ usize = "20086"
 sha1sum = "cff1aae24da5eb35d2e8976dd12324e2976908fb"
 depends = "['perl>=5.34.0']"
 +++
-Keep imports out of your namespace{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/namespace/autoclean.pm
+Keep imports out of your namespace"
+
+{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/namespace/autoclean.pm
 * /usr/share/doc/perl-namespace-autoclean-0.29/INSTALL
 * /usr/share/doc/perl-namespace-autoclean-0.29/MANIFEST
 * /usr/share/doc/perl-namespace-autoclean-0.29/README

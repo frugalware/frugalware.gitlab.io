@@ -14,7 +14,9 @@ sha1sum = "7486352ef8a925c04e16dca3b60f1789ab970def"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-sphinx']"
 +++
-Sphinx extension which outputs 'serialized' HTML files (json and pickle){{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/jsonimpl.py
+Sphinx extension which outputs 'serialized' HTML files (json and pickle)"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/jsonimpl.py
 * /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/.tx/config
 * /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ar/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
 * /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ar/LC_MESSAGES/sphinxcontrib.serializinghtml.po

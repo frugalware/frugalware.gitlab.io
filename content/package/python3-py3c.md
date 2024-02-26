@@ -13,7 +13,9 @@ usize = "35379"
 sha1sum = "3af7cbc02fc92229f998bb44b9b6136036cc7086"
 depends = "['python3>=3.11']"
 +++
-A Python 2/3 compatibility layer for C extensions{{< files text="show files" >}}* /usr/include/py3c.h
+A Python 2/3 compatibility layer for C extensions"
+
+{{< files text="show files" >}}* /usr/include/py3c.h
 * /usr/include/py3c/capsulethunk.h
 * /usr/include/py3c/comparison.h
 * /usr/include/py3c/compat.h

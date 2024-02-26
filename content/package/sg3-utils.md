@@ -14,7 +14,9 @@ sha1sum = "0fe7041812d04871479d5dccede7005d511751b9"
 depends = "['glibc>=2.34']"
 reverse_depends = "['udisks2']"
 +++
-SCSI utilities{{< files text="show files" >}}* /usr/bin/rescan-scsi-bus.sh
+SCSI utilities"
+
+{{< files text="show files" >}}* /usr/bin/rescan-scsi-bus.sh
 * /usr/bin/scsi_logging_level
 * /usr/bin/scsi_mandat
 * /usr/bin/scsi_readcap

@@ -13,7 +13,9 @@ usize = "100875"
 sha1sum = "4d3a1c9f87ec7b3e0954fca3fe03a087cc82497e"
 depends = "['glibc>=2.29-6']"
 +++
-Abstraction library for Reiser4 utilities{{< files text="show files" >}}* /usr/include/aal/bitops.h
+Abstraction library for Reiser4 utilities"
+
+{{< files text="show files" >}}* /usr/include/aal/bitops.h
 * /usr/include/aal/block.h
 * /usr/include/aal/debug.h
 * /usr/include/aal/device.h

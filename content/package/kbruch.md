@@ -13,7 +13,9 @@ usize = "7060841"
 sha1sum = "944627fc01a8ec34c43bb38a430b2033205eaa3e"
 depends = "['kxmlgui>=5.115.0', 'qt5-svg>=5.15.12', 'qt5-x11extras>=5.15.12']"
 +++
-Practice Fractions.{{< files text="show files" >}}* /usr/bin/kbruch
+Practice Fractions."
+
+{{< files text="show files" >}}* /usr/bin/kbruch
 * /usr/share/applications/org.kde.kbruch.desktop
 * /usr/share/config.kcfg/kbruch.kcfg
 * /usr/share/doc/HTML/ca/kbruch/index.cache.bz2

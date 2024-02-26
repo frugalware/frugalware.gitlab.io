@@ -14,7 +14,9 @@ sha1sum = "abe31339ac09bd94aea56d4c6569c018964921b1"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-babel', 'python3-pillow']"
 +++
-World Timezone Definitions for Python{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pytz-2023.3.post1-py3.12.egg-info/dependency_links.txt
+World Timezone Definitions for Python"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pytz-2023.3.post1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pytz-2023.3.post1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/pytz-2023.3.post1-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/pytz-2023.3.post1-py3.12.egg-info/top_level.txt

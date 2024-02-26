@@ -14,7 +14,9 @@ sha1sum = "db9f7ad34913600ba07ce2a11b7ffe040d8cdaf8"
 depends = "['lib32-ncurses>=6.1']"
 reverse_depends = "['lib32-ffmpeg']"
 +++
-An LGPL MP3 encoder. ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/lame
+An LGPL MP3 encoder. ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/lame
 * /usr/i686-frugalware-linux/include/lame/lame.h
 * /usr/lib32/libmp3lame.so
 * /usr/lib32/libmp3lame.so.0

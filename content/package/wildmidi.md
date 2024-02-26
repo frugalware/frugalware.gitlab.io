@@ -14,7 +14,9 @@ sha1sum = "64e9e115d44e259f7d6fff14b737f4c3f51bd90f"
 depends = "['alsa-lib>=1.1.2-2', 'openal']"
 reverse_depends = "['mpd']"
 +++
-A midi processing library and a midi player using the gus patch set.{{< files text="show files" >}}* /usr/bin/wildmidi
+A midi processing library and a midi player using the gus patch set."
+
+{{< files text="show files" >}}* /usr/bin/wildmidi
 * /usr/include/wildmidi_lib.h
 * /usr/lib/cmake/WildMidi/WildMidiConfig.cmake
 * /usr/lib/cmake/WildMidi/WildMidiConfigVersion.cmake

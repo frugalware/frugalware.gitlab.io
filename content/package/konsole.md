@@ -13,7 +13,9 @@ usize = "8449049"
 sha1sum = "4a821c4a3da8a5ec1447856ecef415db5c088ce9"
 depends = "['kinit>=5.115.0', 'knewstuff>=5.115.0', 'knotifyconfig>=5.115.0', 'kparts>=5.115.0', 'kpty>=5.115.0']"
 +++
-KDE Terminal emulator.{{< files text="show files" >}}* /etc/xdg/konsolerc
+KDE Terminal emulator."
+
+{{< files text="show files" >}}* /etc/xdg/konsolerc
 * /usr/bin/konsole
 * /usr/bin/konsoleprofile
 * /usr/lib/kconf_update_bin/konsole_globalaccel

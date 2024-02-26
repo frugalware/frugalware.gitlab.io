@@ -14,7 +14,9 @@ sha1sum = "fd7a31c48c9002015280d8e6a872828f5754819e"
 depends = "['qt5-base>=5.15.12', 'qt5-wayland>=5.15.12', 'qt5-x11extras>=5.15.12']"
 reverse_depends = "['kconfigwidgets', 'krita', 'kwayland-integration', 'qqc2-breeze-style']"
 +++
-Utilities for graphical user interfaces.{{< files text="show files" >}}* /usr/bin/kde-geo-uri-handler
+Utilities for graphical user interfaces."
+
+{{< files text="show files" >}}* /usr/bin/kde-geo-uri-handler
 * /usr/include/KF5/KGuiAddons/KColorCollection
 * /usr/include/KF5/KGuiAddons/kcolorcollection.h
 * /usr/include/KF5/KGuiAddons/KColorMimeData

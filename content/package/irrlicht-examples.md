@@ -13,7 +13,9 @@ usize = "720023769"
 sha1sum = "20ab8973a3c1976bfdfe91b583c8df9d7b5745d1"
 depends = "['irrlicht>=1.8.5']"
 +++
-Example files for irrlicht{{< files text="show files" >}}* /usr/share/irrlicht/examples/bin/01.HelloWorld
+Example files for irrlicht"
+
+{{< files text="show files" >}}* /usr/share/irrlicht/examples/bin/01.HelloWorld
 * /usr/share/irrlicht/examples/bin/02.Quake3Map
 * /usr/share/irrlicht/examples/bin/03.CustomSceneNode
 * /usr/share/irrlicht/examples/bin/04.Movement

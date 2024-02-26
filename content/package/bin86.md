@@ -14,7 +14,9 @@ sha1sum = "f53f85d89115fddc8fac3a09334d6afe0ae297fd"
 depends = "['glibc>=2.27-2']"
 reverse_depends = "['dev86']"
 +++
-A complete 8086 assembler and loader.{{< files text="show files" >}}* /usr/bin/as86
+A complete 8086 assembler and loader."
+
+{{< files text="show files" >}}* /usr/bin/as86
 * /usr/bin/ld86
 * /usr/bin/nm86
 * /usr/bin/objdump86

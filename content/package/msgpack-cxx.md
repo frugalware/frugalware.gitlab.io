@@ -13,7 +13,9 @@ usize = "5366340"
 sha1sum = "516a75dfd14ff4d44ed2029b4202676efa8ae146"
 depends = "['glibc>=2.35']"
 +++
-An efficient object serialization library (C++){{< files text="show files" >}}* /usr/include/msgpack.hpp
+An efficient object serialization library (C++)"
+
+{{< files text="show files" >}}* /usr/include/msgpack.hpp
 * /usr/include/msgpack/adaptor/adaptor_base.hpp
 * /usr/include/msgpack/adaptor/adaptor_base_decl.hpp
 * /usr/include/msgpack/adaptor/array_ref.hpp

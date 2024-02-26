@@ -13,7 +13,9 @@ usize = "7777390"
 sha1sum = "9f036bafdeedc31efa7a11158d5c09cd34b20e3f"
 depends = "['hicolor-icon-theme', 'krdc', 'libvirt>=3.8.0', 'libvncserver>=0.9.11', 'qt5-base>=5.15.10', 'qt5-multimedia>=5.15.10', 'qt5-svg>=5.15.10', 'qtermwidget>=1.2.0', 'spice-glib', 'spice-protocol']"
 +++
-A GUI application for managing virtual machines.{{< files text="show files" >}}* /usr/bin/qt5-remote-viewer
+A GUI application for managing virtual machines."
+
+{{< files text="show files" >}}* /usr/bin/qt5-remote-viewer
 * /usr/bin/qt5-virt-manager
 * /usr/share/applications/qt5-remote-viewer.desktop
 * /usr/share/applications/qt5-virt-manager.desktop

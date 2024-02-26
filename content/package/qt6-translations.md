@@ -14,7 +14,9 @@ sha1sum = "e7200cee9bbfdd1f4e781c4afd6ec60d401cacc5"
 depends = "['glibc']"
 reverse_depends = "['qt6-base']"
 +++
-The Qt6 toolkit, qttranslations{{< files text="show files" >}}* /usr/share/qt6/translations/assistant_ar.qm
+The Qt6 toolkit, qttranslations"
+
+{{< files text="show files" >}}* /usr/share/qt6/translations/assistant_ar.qm
 * /usr/share/qt6/translations/assistant_bg.qm
 * /usr/share/qt6/translations/assistant_cs.qm
 * /usr/share/qt6/translations/assistant_da.qm

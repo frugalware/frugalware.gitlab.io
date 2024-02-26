@@ -13,7 +13,9 @@ usize = "107474"
 sha1sum = "c230427ce60b2fdec87b5bcdb921eee01b543d5e"
 depends = "['readline>=8.0']"
 +++
-A conglomerate of a number of versions of the BSD TFTP code{{< files text="show files" >}}* /usr/bin/in.tftpd
+A conglomerate of a number of versions of the BSD TFTP code"
+
+{{< files text="show files" >}}* /usr/bin/in.tftpd
 * /usr/bin/tftp
 * /usr/share/doc/tftp-hpa-5.2/CHANGES
 * /usr/share/doc/tftp-hpa-5.2/INSTALL

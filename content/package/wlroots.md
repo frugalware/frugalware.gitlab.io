@@ -14,7 +14,9 @@ sha1sum = "f93ffbdef10fb63c161e91e583c6ebef996304fb"
 depends = "['libdrm', 'libgbm', 'libglvnd', 'libinput', 'libxcb', 'libxkbcommon', 'pixman', 'seatd', 'vulkan-icd-loader', 'wayland', 'xcb-util', 'xcb-util-renderutil', 'xcb-util-wm']"
 reverse_depends = "['greetd-qtgreet']"
 +++
-Modular Wayland compositor library{{< files text="show files" >}}* /usr/include/wlr/backend.h
+Modular Wayland compositor library"
+
+{{< files text="show files" >}}* /usr/include/wlr/backend.h
 * /usr/include/wlr/backend/headless.h
 * /usr/include/wlr/backend/interface.h
 * /usr/include/wlr/backend/libinput.h

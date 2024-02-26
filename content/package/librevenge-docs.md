@@ -13,7 +13,9 @@ usize = "9079029"
 sha1sum = "0432741be80d9c4828beb0660596a60f5803c754"
 depends = "[]"
 +++
-Librevenge Documentation{{< files text="show files" >}}* /usr/share/doc/librevenge-0.0.5/html/annotated.html
+Librevenge Documentation"
+
+{{< files text="show files" >}}* /usr/share/doc/librevenge-0.0.5/html/annotated.html
 * /usr/share/doc/librevenge-0.0.5/html/bc_s.png
 * /usr/share/doc/librevenge-0.0.5/html/bc_sd.png
 * /usr/share/doc/librevenge-0.0.5/html/bdwn.png

@@ -14,7 +14,9 @@ sha1sum = "34714bbf6cba6f40032dafbbd938e1cc494e852c"
 depends = "['python3-six']"
 reverse_depends = "['virt-manager']"
 +++
-urlgrabber is a pure python package that simplifies the fetching of files.{{< files text="show files" >}}* /usr/bin/urlgrabber
+urlgrabber is a pure python package that simplifies the fetching of files."
+
+{{< files text="show files" >}}* /usr/bin/urlgrabber
 * /usr/lib/python3.12/site-packages/urlgrabber-4.0.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/urlgrabber-4.0.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/urlgrabber-4.0.0-py3.12.egg-info/requires.txt

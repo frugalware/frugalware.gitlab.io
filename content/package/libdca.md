@@ -15,7 +15,9 @@ depends = "['glibc>=2.34']"
 reverse_depends = "['gst1-plugins-bad-dts', 'mpv', 'vlc-dts-ca', 'xine-lib']"
 license = "GPL"
 +++
-libdca is a free library for decoding DTS Coherent Acoustics streams.{{< files text="show files" >}}* /usr/bin/dcadec
+libdca is a free library for decoding DTS Coherent Acoustics streams."
+
+{{< files text="show files" >}}* /usr/bin/dcadec
 * /usr/bin/dtsdec
 * /usr/bin/extract_dca
 * /usr/bin/extract_dts

@@ -13,7 +13,9 @@ usize = "6229878"
 sha1sum = "cc4bf422520c18358375061558237a2e66ea9fb4"
 depends = "['texlive=2023.0']"
 +++
-Extra Latex packages for TeX Live{{< files text="show files" >}}* /usr/bin/arlatex
+Extra Latex packages for TeX Live"
+
+{{< files text="show files" >}}* /usr/bin/arlatex
 * /usr/bin/authorindex
 * /usr/bin/bundledoc
 * /usr/bin/diadia

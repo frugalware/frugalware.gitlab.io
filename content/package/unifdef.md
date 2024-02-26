@@ -13,7 +13,9 @@ usize = "270921"
 sha1sum = "7d0fde1c56740cf36b66dafe425e4afd72f7c5ec"
 depends = "['glibc>=2.34']"
 +++
-Unifdef is useful for removing #ifdef'ed lines from a file.{{< files text="show files" >}}* /usr/bin/unifdef
+Unifdef is useful for removing #ifdef'ed lines from a file."
+
+{{< files text="show files" >}}* /usr/bin/unifdef
 * /usr/bin/unifdefall
 * /usr/share/doc/unifdef-2.12/Changelog
 * /usr/share/doc/unifdef-2.12/COPYING

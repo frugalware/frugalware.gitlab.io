@@ -13,5 +13,7 @@ usize = "55408"
 sha1sum = "c80898e683acae556dc3e6c976685686d06b07c6"
 depends = "['gst1-plugins-base>=1.22.10', 'gst1-plugins-good>=1.22.10', 'libdv>=1.0.0-5', 'libffi>=3.2.1-2']"
 +++
-GStreamer dv plugin (Good).{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstdv.so
+GStreamer dv plugin (Good)."
+
+{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstdv.so
 {{< /files >}}

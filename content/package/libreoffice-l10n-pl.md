@@ -13,7 +13,9 @@ usize = "36110740"
 sha1sum = "0d0f2dcd93e27f188955d3cb140de843d5557820"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Polish support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/pl/default.css
+Installs Polish support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/help/pl/default.css
 * /usr/lib/libreoffice/help/pl/err.html
 * /usr/lib/libreoffice/help/pl/highcontrast1.css
 * /usr/lib/libreoffice/help/pl/highcontrast2.css

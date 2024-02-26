@@ -14,7 +14,9 @@ sha1sum = "dadb51760b9f360a7aae7377ccbe2b398dbade1e"
 depends = "['e2fsprogs>=1.43.3-2', 'libgssglue>=0.4-3']"
 reverse_depends = "['c-client', 'cifs-utils', 'cyrus-sasl', 'cyrus-sasl-gssapiv2', 'dante', 'dovecot', 'freerdp', 'freerdp', 'keyutils', 'kio', 'krb5', 'libreoffice-postgresql', 'libsoup', 'libtirpc', 'loudmouth', 'neon', 'openjre', 'qt6-webengine', 'rsyslog-gssapi', 's-nail', 'samba-client', 'saslauthd', 'wireshark']"
 +++
-krb5 libraries files.{{< files text="show files" >}}* /usr/include/gssapi.h
+krb5 libraries files."
+
+{{< files text="show files" >}}* /usr/include/gssapi.h
 * /usr/include/gssapi/gssapi.h
 * /usr/include/gssapi/gssapi_alloc.h
 * /usr/include/gssapi/gssapi_ext.h

@@ -14,7 +14,9 @@ sha1sum = "e2b218c264f898015905b6bec780aabdd501c3e2"
 depends = "['glib2>=2.50.0']"
 reverse_depends = "['firefox', 'mozilla', 'virtualbox']"
 +++
-A library for creating trees of CORBA IDL files{{< files text="show files" >}}* /usr/bin/libIDL-config-2
+A library for creating trees of CORBA IDL files"
+
+{{< files text="show files" >}}* /usr/bin/libIDL-config-2
 * /usr/include/libIDL-2.0/libIDL/IDL.h
 * /usr/lib/libIDL-2.so
 * /usr/lib/libIDL-2.so.0

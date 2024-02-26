@@ -13,7 +13,9 @@ usize = "750384"
 sha1sum = "b07df3246b4636796499a99d05a9f6fefd587768"
 depends = "['frei0r-plugins', 'gst1-plugins-base', 'gst1-plugins-base-ogg', 'gst1-plugins-good-jpeg', 'gst1-plugins-good-video4linux2', 'kconfig>=5.115.0', 'ki18n>=5.115.0', 'kio>=5.115.0', 'phonon-qt5', 'purpose>=5.115.0', 'solid']"
 +++
-Kamoso is an application to take pictures and videos out of your webcam.{{< files text="show files" >}}* /usr/bin/kamoso
+Kamoso is an application to take pictures and videos out of your webcam."
+
+{{< files text="show files" >}}* /usr/bin/kamoso
 * /usr/lib/gstreamer-1.0/gstkamosoqt5videosink.so
 * /usr/share/applications/org.kde.kamoso.desktop
 * /usr/share/doc/HTML/ca/kamoso/index.cache.bz2

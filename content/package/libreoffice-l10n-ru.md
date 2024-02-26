@@ -13,7 +13,9 @@ usize = "40011238"
 sha1sum = "ec23158ebf78348da663975970103e67259d3767"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Russian support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/ru/default.css
+Installs Russian support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/help/ru/default.css
 * /usr/lib/libreoffice/help/ru/err.html
 * /usr/lib/libreoffice/help/ru/highcontrast1.css
 * /usr/lib/libreoffice/help/ru/highcontrast2.css

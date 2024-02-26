@@ -13,7 +13,9 @@ usize = "357159052"
 sha1sum = "8f1dd7a0488a08114f48016aa5c5bc3822d4970d"
 depends = "['binutils>=2.41', 'glibc>=2.38', 'libisl', 'libmpc>=1.1.0-11', 'zlib>=1.2.11-11', 'zstd']"
 +++
-The GNU Compiler Collection{{< files text="show files" >}}* /usr/bin/c++-12
+The GNU Compiler Collection"
+
+{{< files text="show files" >}}* /usr/bin/c++-12
 * /usr/bin/c89-12
 * /usr/bin/c99-12
 * /usr/bin/cpp-12

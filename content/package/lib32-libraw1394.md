@@ -14,7 +14,9 @@ sha1sum = "36346750117af4de0a632fce773c8da832fb4ccd"
 depends = "[]"
 reverse_depends = "['lib32-libdc1394']"
 +++
-Provides an API to the Linux IEEE1394 (FireWire) driver ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/dumpiso
+Provides an API to the Linux IEEE1394 (FireWire) driver ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/dumpiso
 * /usr/i686-frugalware-linux/bin/sendiso
 * /usr/i686-frugalware-linux/bin/testlibraw
 * /usr/i686-frugalware-linux/include/libraw1394/csr.h

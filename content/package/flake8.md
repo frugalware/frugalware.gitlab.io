@@ -13,7 +13,9 @@ usize = "377393"
 sha1sum = "1ba07b06c4a014e8a11b5557c48a72f30493c732"
 depends = "['python3>=3.10']"
 +++
-The modular source code checker: pep8, pyflakes and co{{< files text="show files" >}}* /usr/bin/flake8
+The modular source code checker: pep8, pyflakes and co"
+
+{{< files text="show files" >}}* /usr/bin/flake8
 * /usr/lib/python3.12/site-packages/flake8-6.0.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/flake8-6.0.0-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/flake8-6.0.0-py3.12.egg-info/PKG-INFO

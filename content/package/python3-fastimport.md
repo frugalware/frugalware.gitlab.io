@@ -14,7 +14,9 @@ sha1sum = "68b605a162cd880a67d5ab93af3ff70a5b5c861d"
 depends = "['python3']"
 reverse_depends = "['python3-dulwich']"
 +++
-VCS fastimport/fastexport parser{{< files text="show files" >}}* /usr/bin/fast-import-filter
+VCS fastimport/fastexport parser"
+
+{{< files text="show files" >}}* /usr/bin/fast-import-filter
 * /usr/bin/fast-import-info
 * /usr/bin/fast-import-query
 * /usr/lib/python3.12/site-packages/fastimport-0.9.14-py3.12.egg-info/dependency_links.txt

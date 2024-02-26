@@ -14,7 +14,9 @@ sha1sum = "6072206388f7b1e35c4c73a4d3c063ca10a89cea"
 depends = "['perl>=5.28.2']"
 reverse_depends = "['perl-archive-zip']"
 +++
-File::Which is a portable implementation (in Perl) of 'which'{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/File/Which.pm
+File::Which is a portable implementation (in Perl) of 'which'"
+
+{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/File/Which.pm
 * /usr/share/doc/perl-file-which-1.27/INSTALL
 * /usr/share/doc/perl-file-which-1.27/LICENSE
 * /usr/share/doc/perl-file-which-1.27/MANIFEST

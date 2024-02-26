@@ -13,7 +13,9 @@ usize = "35870"
 sha1sum = "3387ada0b970b7fc73142a1494a318370caa0c1e"
 depends = "['desktop-file-utils', 'distcc=3.4', 'freetype2', 'gtk+3', 'libxau>=1.0.4', 'libxdamage', 'libxdmcp', 'libxext', 'libxml2>=2.7.8', 'popt']"
 +++
-GTK monitor for distcc{{< files text="show files" >}}* /usr/bin/distccmon-gnome
+GTK monitor for distcc"
+
+{{< files text="show files" >}}* /usr/bin/distccmon-gnome
 * /usr/share/applications/distccmon-gnome.desktop
 * /usr/share/pixmaps/distccmon-gnome.png
 {{< /files >}}

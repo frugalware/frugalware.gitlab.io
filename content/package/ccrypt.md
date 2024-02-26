@@ -13,7 +13,9 @@ usize = "205509"
 sha1sum = "9bcef860c1b31ccef0cae9c5a9463c753ad7851c"
 depends = "['glibc']"
 +++
-ccrypt is a utility for encrypting and decrypting files and streams{{< files text="show files" >}}* /usr/bin/ccat
+ccrypt is a utility for encrypting and decrypting files and streams"
+
+{{< files text="show files" >}}* /usr/bin/ccat
 * /usr/bin/ccdecrypt
 * /usr/bin/ccencrypt
 * /usr/bin/ccguess

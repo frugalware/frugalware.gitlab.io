@@ -14,7 +14,9 @@ sha1sum = "58ef60d882811ec5b6edf969772f131bdd4611bf"
 depends = "['gtk+2']"
 license = "GPL2"
 +++
-A frontend for XMame using the GTK library, the goal is to provide the same GUI than mame32.{{< files text="show files" >}}* usr/bin/gxmame
+A frontend for XMame using the GTK library, the goal is to provide the same GUI than mame32."
+
+{{< files text="show files" >}}* usr/bin/gxmame
 * usr/share/applications/gxmame.desktop
 * usr/share/doc/gxmame-0.34b/AUTHORS
 * usr/share/doc/gxmame-0.34b/BUGS

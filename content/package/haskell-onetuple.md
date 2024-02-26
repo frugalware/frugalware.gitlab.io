@@ -14,7 +14,9 @@ sha1sum = "c1449c1a76171b97388eb91b95e73b81e5a0f5a6"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-indexed-traversable-instances']"
 +++
-This package is a compatibility package for a singleton data type{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/OneTuple-0.4.1.1/Data/Tuple/OneTuple.dyn_hi
+This package is a compatibility package for a singleton data type"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/OneTuple-0.4.1.1/Data/Tuple/OneTuple.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/OneTuple-0.4.1.1/Data/Tuple/OneTuple.hi
 * /usr/lib/ghc-9.8.1/site-local/OneTuple-0.4.1.1/Data/Tuple/Solo.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/OneTuple-0.4.1.1/Data/Tuple/Solo.hi

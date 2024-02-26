@@ -13,7 +13,9 @@ usize = "4001151"
 sha1sum = "e1c2765293c5b10fb860b948dd0385bb3c4bd9d5"
 depends = "['grantlee>=5.1.0-2', 'kdeclarative>=5.115.0', 'ktexteditor>=5.115.0', 'libboost>=1.61.0', 'qt5-xmlpatterns>=5.15.12']"
 +++
-Graph Theory IDE.{{< files text="show files" >}}* /usr/bin/rocs
+Graph Theory IDE."
+
+{{< files text="show files" >}}* /usr/bin/rocs
 * /usr/include/rocs/edge.h
 * /usr/include/rocs/graphdocument.h
 * /usr/include/rocs/node.h

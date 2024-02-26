@@ -13,7 +13,9 @@ usize = "64790"
 sha1sum = "6b90af760485729e9ec19037747d4e4021935b64"
 depends = "['curl', 'elfutils']"
 +++
-Elfutils debuginfod{{< files text="show files" >}}* /usr/bin/debuginfod-find
+Elfutils debuginfod"
+
+{{< files text="show files" >}}* /usr/bin/debuginfod-find
 * /usr/include/elfutils/debuginfod.h
 * /usr/lib/libdebuginfod-0.190.so
 * /usr/lib/libdebuginfod.so

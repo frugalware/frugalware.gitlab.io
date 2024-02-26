@@ -13,7 +13,9 @@ usize = "7233087"
 sha1sum = "4e83184d37b422050bf34454105bf037fcf679a9"
 depends = "['kcoreaddons>=5.113.0', 'ki18n>=5.113.0', 'kiconthemes>=5.113.0', 'kparts>=5.113.0', 'kwidgetsaddons>=5.113.0', 'libboost']"
 +++
-Tool for comparison and merge of files and directories{{< files text="show files" >}}* /usr/bin/kdiff3
+Tool for comparison and merge of files and directories"
+
+{{< files text="show files" >}}* /usr/bin/kdiff3
 * /usr/lib/qt5/plugins/kf5/kfileitemaction/kdiff3fileitemaction.so
 * /usr/lib/qt5/plugins/kf5/parts/kdiff3part.so
 * /usr/share/applications/org.kde.kdiff3.desktop

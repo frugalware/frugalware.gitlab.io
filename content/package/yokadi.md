@@ -13,7 +13,9 @@ usize = "810486"
 sha1sum = "b5745f9d43ca44c2c2ab05283f5afcdb81d33a45"
 depends = "['python3-dateutil', 'python3-sqlobject']"
 +++
-Command line oriented, sqlite powered, todo list (in python){{< files text="show files" >}}* /usr/bin/yokadi
+Command line oriented, sqlite powered, todo list (in python)"
+
+{{< files text="show files" >}}* /usr/bin/yokadi
 * /usr/bin/yokadid
 * /usr/lib/python3.12/site-packages/yokadi-1.2.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/yokadi-1.2.0-py3.12.egg-info/PKG-INFO

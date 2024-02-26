@@ -14,7 +14,9 @@ sha1sum = "fe321d2953ff2989ed3d4a73dded7e4235ef74db"
 depends = "['haskell-lua']"
 reverse_depends = "['haskell-hslua-list', 'haskell-hslua-marshalling']"
 +++
-Bindings to Lua, an embeddable scripting language{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hslua-core-2.3.1/HsLua/Core.dyn_hi
+Bindings to Lua, an embeddable scripting language"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hslua-core-2.3.1/HsLua/Core.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-core-2.3.1/HsLua/Core.hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-core-2.3.1/HsLua/Core/Auxiliary.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-core-2.3.1/HsLua/Core/Auxiliary.hi

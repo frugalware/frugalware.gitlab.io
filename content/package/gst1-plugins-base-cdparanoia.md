@@ -13,5 +13,7 @@ usize = "26392"
 sha1sum = "fca6bc6d3177378e872178e261ac57ee2132253c"
 depends = "['cdparanoia>=10.2-5', 'gst1-plugins-base>=1.22.10', 'gstreamer1>=1.22.10', 'libffi>=3.2.1-2']"
 +++
-GStreamer cdparanoia plugin (Base).{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstcdparanoia.so
+GStreamer cdparanoia plugin (Base)."
+
+{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstcdparanoia.so
 {{< /files >}}

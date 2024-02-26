@@ -14,7 +14,9 @@ sha1sum = "a27c6855addd939aee65260184f0cda28eda359d"
 depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxext>=1.3.3-3']"
 reverse_depends = "['lib32-gtk+2-libs', 'wine', 'wine-devel']"
 +++
-X.Org Xinemara library ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/panoramiXext.h
+X.Org Xinemara library ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/panoramiXext.h
 * /usr/i686-frugalware-linux/include/X11/extensions/Xinerama.h
 * /usr/lib32/libXinerama.so
 * /usr/lib32/libXinerama.so.1

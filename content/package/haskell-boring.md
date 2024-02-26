@@ -14,7 +14,9 @@ sha1sum = "6a8fe1acf342d94a2f306899e1138ee46f935ba9"
 depends = "['haskell-tagged']"
 reverse_depends = "['haskell-constraints', 'haskell-dec']"
 +++
-Boring and Absurd types{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/boring-0.2.1/Data/Boring.dyn_hi
+Boring and Absurd types"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/boring-0.2.1/Data/Boring.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/boring-0.2.1/Data/Boring.hi
 * /usr/lib/ghc-9.8.1/site-local/boring-0.2.1/libHSboring-0.2.1-KmhQVn90QIM9OK0MGVtwuE.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSboring-0.2.1-KmhQVn90QIM9OK0MGVtwuE-ghc9.8.1.so

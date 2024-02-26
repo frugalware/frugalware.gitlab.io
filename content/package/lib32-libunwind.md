@@ -14,7 +14,9 @@ sha1sum = "953529b3f0634754e2b7ad330999c90dc254317a"
 depends = "['lib32-xz>=5.2.2-4']"
 reverse_depends = "['lib32-mesa-dri-drivers']"
 +++
-Portable and efficient C programming interface (API) to determine the call-chain of a program ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/libunwind-common.h
+Portable and efficient C programming interface (API) to determine the call-chain of a program ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/libunwind-common.h
 * /usr/i686-frugalware-linux/include/libunwind-coredump.h
 * /usr/i686-frugalware-linux/include/libunwind-dynamic.h
 * /usr/i686-frugalware-linux/include/libunwind-ptrace.h

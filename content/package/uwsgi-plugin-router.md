@@ -13,7 +13,9 @@ usize = "327152"
 sha1sum = "a110aaa2c11ee191f6053f2e77f5cf884d204dff"
 depends = "['libxcrypt', 'uwsgi']"
 +++
-UWSGI Router Plugin{{< files text="show files" >}}* /usr/lib/uwsgi/corerouter_plugin.so
+UWSGI Router Plugin"
+
+{{< files text="show files" >}}* /usr/lib/uwsgi/corerouter_plugin.so
 * /usr/lib/uwsgi/fastrouter_plugin.so
 * /usr/lib/uwsgi/forkptyrouter_plugin.so
 * /usr/lib/uwsgi/rawrouter_plugin.so

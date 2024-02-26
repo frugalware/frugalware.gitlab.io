@@ -13,7 +13,9 @@ usize = "7456984"
 sha1sum = "8899a9b1f9221701a04bc87cbc8fe07a87537a06"
 depends = "['cryptsetup-luks>=2.0.1', 'libpwquality>=1.3.0-4', 'libsecret>=0.18.5-2', 'qt5-base>=5.15.10', 'tcplay>=2.0-3']"
 +++
-A cli and GUI front end to cryptsetup{{< files text="show files" >}}* /usr/bin/zuluCrypt-cli
+A cli and GUI front end to cryptsetup"
+
+{{< files text="show files" >}}* /usr/bin/zuluCrypt-cli
 * /usr/bin/zuluCrypt-gui
 * /usr/bin/zuluMount-cli
 * /usr/bin/zuluMount-gui

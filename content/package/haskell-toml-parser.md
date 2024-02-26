@@ -14,7 +14,9 @@ sha1sum = "417c90e9dc8bc55cb4bef960391a5ccc744af911"
 depends = "['haskell-prettyprinter']"
 reverse_depends = "['haskell-typst']"
 +++
-TOML 1.0.0 parser{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/toml-parser-1.3.1.1/libHStoml-parser-1.3.1.1-5yGE10d4jYnBrs1BQSJsUW.a
+TOML 1.0.0 parser"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/toml-parser-1.3.1.1/libHStoml-parser-1.3.1.1-5yGE10d4jYnBrs1BQSJsUW.a
 * /usr/lib/ghc-9.8.1/site-local/toml-parser-1.3.1.1/Toml.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/toml-parser-1.3.1.1/Toml.hi
 * /usr/lib/ghc-9.8.1/site-local/toml-parser-1.3.1.1/Toml/FromValue.dyn_hi

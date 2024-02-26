@@ -13,7 +13,9 @@ usize = "28458"
 sha1sum = "9b3ce75bbb0ab14ccee12415461bd04cf6f0e423"
 depends = "['lib32-libx11>=1.6.3-4', 'lib32-libxext>=1.3.3-3']"
 +++
-X.Org dmx library ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/dmxext.h
+X.Org dmx library ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/dmxext.h
 * /usr/lib32/libdmx.so
 * /usr/lib32/libdmx.so.1
 * /usr/lib32/libdmx.so.1.0.0

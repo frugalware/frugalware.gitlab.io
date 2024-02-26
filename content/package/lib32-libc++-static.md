@@ -13,4 +13,6 @@ usize = "0"
 sha1sum = "496e9bbeef2f1be5a38289b5c657561659b8817d"
 depends = "[]"
 +++
-A new implementation of the C++ standard library (32-bit static){{< files text="show files" >}}{{< /files >}}
+A new implementation of the C++ standard library (32-bit static)"
+
+{{< files text="show files" >}}{{< /files >}}

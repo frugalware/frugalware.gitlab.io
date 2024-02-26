@@ -13,7 +13,9 @@ usize = "0"
 sha1sum = ""
 depends = "[]"
 +++
-Linspire Clear KDE style{{< files text="show files" >}}* usr/lib/kde3/kstyle_linspireclear_config.la
+Linspire Clear KDE style"
+
+{{< files text="show files" >}}* usr/lib/kde3/kstyle_linspireclear_config.la
 * usr/lib/kde3/kstyle_linspireclear_config.so
 * usr/lib/kde3/kwin3_linspireclear.la
 * usr/lib/kde3/kwin3_linspireclear.so

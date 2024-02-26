@@ -14,7 +14,9 @@ sha1sum = "5b11395c69806e5b9e61dd4aca6b8d87da28d448"
 depends = "['python3', 'python3-six', 'python3-webencodings']"
 reverse_depends = "['calibre', 'python3-poetry']"
 +++
-Library for working with HTML documents{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/html5lib-1.1-py3.12.egg-info/dependency_links.txt
+Library for working with HTML documents"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/html5lib-1.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/html5lib-1.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/html5lib-1.1-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/html5lib-1.1-py3.12.egg-info/SOURCES.txt

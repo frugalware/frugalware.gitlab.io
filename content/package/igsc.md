@@ -14,7 +14,9 @@ sha1sum = "27af5a3c8ca552f993c1dc0c08280a50b01678a2"
 depends = "['intel-metee>=3.2.3']"
 reverse_depends = "['intel-compute-runtime']"
 +++
-Intel graphics system controller firmware update library{{< files text="show files" >}}* /usr/bin/igsc
+Intel graphics system controller firmware update library"
+
+{{< files text="show files" >}}* /usr/bin/igsc
 * /usr/include/igsc_lib.h
 * /usr/lib/cmake/igsc/igscConfig.cmake
 * /usr/lib/cmake/igsc/igscConfigVersion.cmake

@@ -14,7 +14,9 @@ sha1sum = "177f0efe47fcd9cb9e02f7939db3903f9e6881d9"
 depends = "['libpng', 'libxtst']"
 reverse_depends = "['openrazer']"
 +++
-Controls X from the command line{{< files text="show files" >}}* /usr/bin/pat2ppm
+Controls X from the command line"
+
+{{< files text="show files" >}}* /usr/bin/pat2ppm
 * /usr/bin/patextract
 * /usr/bin/png2pat
 * /usr/bin/rgb2pat

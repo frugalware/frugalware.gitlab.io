@@ -14,7 +14,9 @@ sha1sum = "8e7841507f17a5dfce3a3ddbb3a8c4c98ce662d6"
 depends = "['libstdc++>=9.1.0-3', 'sgml-common>=0.6.3-5']"
 reverse_depends = "['libofx', 'openjade']"
 +++
-The OpenJade Group's SGML and XML parsing tools{{< files text="show files" >}}* /usr/bin/nsgmls
+The OpenJade Group's SGML and XML parsing tools"
+
+{{< files text="show files" >}}* /usr/bin/nsgmls
 * /usr/bin/onsgmls
 * /usr/bin/osgmlnorm
 * /usr/bin/ospam

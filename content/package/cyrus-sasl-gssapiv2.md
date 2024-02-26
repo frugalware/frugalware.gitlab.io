@@ -13,7 +13,9 @@ usize = "39080"
 sha1sum = "8275b51f09b14dd3229bee23aeb84ba053bb72f8"
 depends = "['cyrus-sasl>=2.1.28', 'libkrb5>=1.17-2']"
 +++
-cyrus-sasl gssapiv2 plugin.{{< files text="show files" >}}* /usr/lib/sasl2/libgssapiv2.so
+cyrus-sasl gssapiv2 plugin."
+
+{{< files text="show files" >}}* /usr/lib/sasl2/libgssapiv2.so
 * /usr/lib/sasl2/libgssapiv2.so.3
 * /usr/lib/sasl2/libgssapiv2.so.3.0.0
 {{< /files >}}

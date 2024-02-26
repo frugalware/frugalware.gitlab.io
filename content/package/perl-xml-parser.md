@@ -14,7 +14,9 @@ sha1sum = "306186329a94f86f3913b547371d10df818bc417"
 depends = "['expat>=2.1.0-4', 'perl>=5.34.0']"
 reverse_depends = "['hwinfo', 'intltool', 'perl-xml-sax-expat', 'xmltoman']"
 +++
-A perl module for parsing XML documents{{< files text="show files" >}}* /usr/lib/perl5/5.38/site_perl/auto/XML/Parser/Expat/Expat.so
+A perl module for parsing XML documents"
+
+{{< files text="show files" >}}* /usr/lib/perl5/5.38/site_perl/auto/XML/Parser/Expat/Expat.so
 * /usr/lib/perl5/5.38/site_perl/XML/Parser.pm
 * /usr/lib/perl5/5.38/site_perl/XML/Parser/Encodings/big5.enc
 * /usr/lib/perl5/5.38/site_perl/XML/Parser/Encodings/euc-kr.enc

@@ -14,7 +14,9 @@ sha1sum = "b3adda96b8d141ab915ef89cd288c38ffce959de"
 depends = "['docbook-xml', 'libxslt', 'sed']"
 reverse_depends = "['asciidoc', 'gtk-doc', 'kdoctools']"
 +++
-XML stylesheets for Docbook-xml transformations.{{< files text="show files" >}}* /usr/share/doc/docbook-xsl-1.79.2/AUTHORS
+XML stylesheets for Docbook-xml transformations."
+
+{{< files text="show files" >}}* /usr/share/doc/docbook-xsl-1.79.2/AUTHORS
 * /usr/share/doc/docbook-xsl-1.79.2/BUGS
 * /usr/share/doc/docbook-xsl-1.79.2/COPYING
 * /usr/share/doc/docbook-xsl-1.79.2/INSTALL

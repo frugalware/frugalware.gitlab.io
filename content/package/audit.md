@@ -14,7 +14,9 @@ sha1sum = "eaf4ea0694c01cd999bdf3571b3b967e69f448cf"
 depends = "['libaudit>=3.1.2', 'libcap-ng', 'libldap>=2.6.2']"
 reverse_depends = "['usbguard']"
 +++
-Linux Auditing Framework.{{< files text="show files" >}}* /etc/audit/audisp-remote.conf
+Linux Auditing Framework."
+
+{{< files text="show files" >}}* /etc/audit/audisp-remote.conf
 * /etc/audit/audit-stop.rules
 * /etc/audit/auditd.conf
 * /etc/audit/plugins.d/af_unix.conf

@@ -14,7 +14,9 @@ sha1sum = "af15012869e2e109522d3cce5a4cfd12c8817bb2"
 depends = "['qt5-multimedia>=5.15.10', 'qtkeychain']"
 reverse_depends = "['neochat']"
 +++
-A Qt library to write cross-platform clients for Matrix{{< files text="show files" >}}* /usr/bin/quotest
+A Qt library to write cross-platform clients for Matrix"
+
+{{< files text="show files" >}}* /usr/bin/quotest
 * /usr/include/Quotient/accountregistry.h
 * /usr/include/Quotient/application-service/definitions/location.h
 * /usr/include/Quotient/application-service/definitions/protocol.h

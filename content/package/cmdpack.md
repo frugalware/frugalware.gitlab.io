@@ -13,7 +13,9 @@ usize = "345839"
 sha1sum = "20cb15cfd858c78a7df3941cf7fa6f1c2d5ef8f0"
 depends = "['glibc']"
 +++
-Neill Corlett's command line programs package.{{< files text="show files" >}}* /usr/bin/bin2iso
+Neill Corlett's command line programs package."
+
+{{< files text="show files" >}}* /usr/bin/bin2iso
 * /usr/bin/bincomp
 * /usr/bin/brrrip
 * /usr/bin/byteshuf

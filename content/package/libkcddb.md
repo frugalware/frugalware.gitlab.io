@@ -14,7 +14,9 @@ sha1sum = "385fb6d91c3f9ba822dbf5ddd0d8d92bb870ed3f"
 depends = "['kcmutils>=5.115.0', 'kio>=5.115.0', 'libmusicbrainz>=5.1.0-3']"
 reverse_depends = "['audiocd-kio', 'k3b']"
 +++
-A library for retrieving and sending cddb information.{{< files text="show files" >}}* /usr/include/KCddb5/KCDDB/Categories
+A library for retrieving and sending cddb information."
+
+{{< files text="show files" >}}* /usr/include/KCddb5/KCDDB/Categories
 * /usr/include/KCddb5/kcddb/categories.h
 * /usr/include/KCddb5/KCDDB/CDInfo
 * /usr/include/KCddb5/kcddb/cdinfo.h

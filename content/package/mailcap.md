@@ -14,7 +14,9 @@ sha1sum = "27784d3d8b12f260f1dbb1c207fd55c72328a333"
 depends = "['glibc']"
 reverse_depends = "['mutt-devel', 'thunderbird']"
 +++
-Helper application and MIME type associations for file types{{< files text="show files" >}}* /etc/mailcap
+Helper application and MIME type associations for file types"
+
+{{< files text="show files" >}}* /etc/mailcap
 * /etc/mime.types
 * /etc/nginx/mime.types
 * /usr/share/doc/mailcap-2.1.54/COPYING

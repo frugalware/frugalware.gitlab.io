@@ -13,7 +13,9 @@ usize = "0"
 sha1sum = "821cda911131dec94b9c56a64e3ddfd1488de9cd"
 depends = "[]"
 +++
-Korean (hangul) input method for SKIM.{{< files text="show files" >}}* usr/lib/kde3/kcm_skimplugin_scim_hangul.la
+Korean (hangul) input method for SKIM."
+
+{{< files text="show files" >}}* usr/lib/kde3/kcm_skimplugin_scim_hangul.la
 * usr/lib/kde3/kcm_skimplugin_scim_hangul.so
 * usr/share/apps/skim/pics/scim-hangul.png
 * usr/share/config.kcfg/scim_hangul.kcfg

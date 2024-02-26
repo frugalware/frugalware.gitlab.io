@@ -14,5 +14,7 @@ sha1sum = "6aa5bf350bd906c8403943379d9b95c691ff5a05"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
-Chicahuaxtla Triqui language support for Firefox{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-trs@firefox.mozilla.org.xpi
+Chicahuaxtla Triqui language support for Firefox"
+
+{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-trs@firefox.mozilla.org.xpi
 {{< /files >}}

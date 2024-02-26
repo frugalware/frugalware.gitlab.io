@@ -15,7 +15,9 @@ depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3']"
 reverse_depends = "['argyllcms', 'box2d', 'conky', 'dmenu', 'dunst', 'efl', 'enlightenment', 'feh', 'fltk', 'freerdp', 'geogram', 'gtk+2-libs', 'gtk+4', 'ksubeditor', 'ksubtile', 'mpv', 'obs-studio', 'openbox', 'opendiablo2', 'openjre-x', 'spice-vdagent', 'ssr', 'terminology', 'virtualbox', 'vlc-skins', 'wine', 'wine-devel', 'xf86-input-wacom', 'xf86-video-intel', 'xine-lib', 'xinput', 'xterm']"
 license = "GPL2"
 +++
-X.Org Xinemara library{{< files text="show files" >}}* /usr/include/X11/extensions/panoramiXext.h
+X.Org Xinemara library"
+
+{{< files text="show files" >}}* /usr/include/X11/extensions/panoramiXext.h
 * /usr/include/X11/extensions/Xinerama.h
 * /usr/lib/libXinerama.so
 * /usr/lib/libXinerama.so.1

@@ -13,7 +13,9 @@ usize = "225173"
 sha1sum = "30bd8895553f483a7d61cd23cd96078362046ce6"
 depends = "['telepathy-logger>=0.8.2-5', 'telepathy-qt5>=0.9.8']"
 +++
-Qt5 bindings for telepathy logger.{{< files text="show files" >}}* /usr/include/TelepathyLoggerQt/call-event.h
+Qt5 bindings for telepathy logger."
+
+{{< files text="show files" >}}* /usr/include/TelepathyLoggerQt/call-event.h
 * /usr/include/TelepathyLoggerQt/CallEvent
 * /usr/include/TelepathyLoggerQt/Entity
 * /usr/include/TelepathyLoggerQt/entity.h

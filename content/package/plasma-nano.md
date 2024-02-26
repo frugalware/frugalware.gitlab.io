@@ -14,7 +14,9 @@ sha1sum = "4b9e0b60a042bf3f3ed731d7e6aae1aa846d11c7"
 depends = "['plasma-framework>=5.115.0']"
 reverse_depends = "['plasma-bigscreen']"
 +++
-A minimal Plasma shell package{{< files text="show files" >}}* /usr/share/doc/plasma-nano-5.27.10/README.md
+A minimal Plasma shell package"
+
+{{< files text="show files" >}}* /usr/share/doc/plasma-nano-5.27.10/README.md
 * /usr/share/kservices5/plasma-applet-org.kde.plasma.nano.desktop
 * /usr/share/kservices5/plasma-package-org.kde.plasma.nano.desktoptoolbox.desktop
 * /usr/share/locale/az/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo

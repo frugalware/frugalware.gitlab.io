@@ -14,7 +14,9 @@ sha1sum = "99dacb28b1353016aadbd7a32356627e132f52e1"
 depends = "['alsa-lib', 'fribidi', 'libva>=2.3', 'libva-mesa-driver', 'libvlc>=3.0.20', 'mesa-vdpau-drivers', 'pcre2', 'qt5-svg>=5.15.10', 'qt5-x11extras>=5.15.10']"
 reverse_depends = "['elisa', 'kaffeine', 'kasts', 'obs-studio']"
 +++
-The cross-platform media player and streaming server.{{< files text="show files" >}}* /usr/bin/cvlc
+The cross-platform media player and streaming server."
+
+{{< files text="show files" >}}* /usr/bin/cvlc
 * /usr/bin/nvlc
 * /usr/bin/qvlc
 * /usr/bin/rvlc

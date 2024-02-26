@@ -13,7 +13,9 @@ usize = "179976415"
 sha1sum = "6a8784272176838281b9d67606dc552e010d2055"
 depends = "['glew>=2.2.0', 'glm', 'libboost>=1.79.0', 'ngspice', 'opencascade', 'openssl>=1.1.1', 'python3>=3.12', 'wxwidgets>=3.2.2.1']"
 +++
-Electronic schematic and printed circuid board design tools.{{< files text="show files" >}}* /usr/bin/bitmap2component
+Electronic schematic and printed circuid board design tools."
+
+{{< files text="show files" >}}* /usr/bin/bitmap2component
 * /usr/bin/dxf2idf
 * /usr/bin/eeschema
 * /usr/bin/gerbview

@@ -14,7 +14,9 @@ sha1sum = "e0fa8e1a0a1d88c77ccd8f31685805efd4568788"
 depends = "['libstdc++>=9.1.0-3', 'zlib>=1.2.12']"
 reverse_depends = "['dovecot', 'libreoffice']"
 +++
-a C++ port of Lucene: the high-performance, full-featured text search engine{{< files text="show files" >}}* /usr/include/CLucene.h
+a C++ port of Lucene: the high-performance, full-featured text search engine"
+
+{{< files text="show files" >}}* /usr/include/CLucene.h
 * /usr/include/CLucene/analysis/AnalysisHeader.h
 * /usr/include/CLucene/analysis/Analyzers.h
 * /usr/include/CLucene/analysis/CachingTokenFilter.h

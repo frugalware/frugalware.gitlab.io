@@ -13,5 +13,7 @@ usize = "17061584"
 sha1sum = "a54414a4a5201839c93939bcf144793ae2d70b52"
 depends = "['libxml2', 'openssl>=1.1.1', 'pcre', 'php=8.3.3']"
 +++
-Embedded PHP SAPI library{{< files text="show files" >}}* /usr/lib/libphp.so
+Embedded PHP SAPI library"
+
+{{< files text="show files" >}}* /usr/lib/libphp.so
 {{< /files >}}

@@ -13,7 +13,9 @@ usize = "39433588"
 sha1sum = "d63ab5d9441c41e83c850e7a6bfb1e869b04981e"
 depends = "['libreoffice>=24.2.0.3']"
 +++
-Installs Ukrainian support in LibreOffice{{< files text="show files" >}}* /usr/lib/libreoffice/help/uk/default.css
+Installs Ukrainian support in LibreOffice"
+
+{{< files text="show files" >}}* /usr/lib/libreoffice/help/uk/default.css
 * /usr/lib/libreoffice/help/uk/err.html
 * /usr/lib/libreoffice/help/uk/highcontrast1.css
 * /usr/lib/libreoffice/help/uk/highcontrast2.css

@@ -14,7 +14,9 @@ sha1sum = "c3798c6fbfe7b76dd4d9868cfc35ec29dd97050b"
 depends = "['haskell-base-orphans', 'haskell-transformers-compat']"
 reverse_depends = "['haskell-monad-control']"
 +++
-Lift computations from the bottom of a transformer stack{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/transformers-base-0.4.6/Control/Monad/Base.dyn_hi
+Lift computations from the bottom of a transformer stack"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/transformers-base-0.4.6/Control/Monad/Base.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/transformers-base-0.4.6/Control/Monad/Base.hi
 * /usr/lib/ghc-9.8.1/site-local/transformers-base-0.4.6/libHStransformers-base-0.4.6-BpaAGwuQkznDCJ3E8oA4HO.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHStransformers-base-0.4.6-BpaAGwuQkznDCJ3E8oA4HO-ghc9.8.1.so

@@ -13,7 +13,9 @@ usize = "8033996"
 sha1sum = "317e2cd1e524b71d228931092b09b102c2f3a988"
 depends = "['exiv2>=0.28.1', 'libraw>=0.21.1', 'openblas', 'opencv>=4.9.0', 'qt5-svg>=5.15.10', 'quazip']"
 +++
-Small and fast image viewer.{{< files text="show files" >}}* /usr/bin/nomacs
+Small and fast image viewer."
+
+{{< files text="show files" >}}* /usr/bin/nomacs
 * /usr/lib/libnomacsCore.so
 * /usr/lib/libnomacsCore.so.3
 * /usr/lib/libnomacsCore.so.3.17.0

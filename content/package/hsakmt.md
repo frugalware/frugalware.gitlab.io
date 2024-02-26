@@ -14,7 +14,9 @@ sha1sum = "93f399d50b7f13fcfe81320a49a7099085c80f8c"
 depends = "['glibc']"
 license = "GPL2"
 +++
-Userspace lib for AMD's HSA Linux kernel driver{{< files text="show files" >}}* /usr/include/hsakmt-1/hsakmt.h
+Userspace lib for AMD's HSA Linux kernel driver"
+
+{{< files text="show files" >}}* /usr/include/hsakmt-1/hsakmt.h
 * /usr/include/hsakmt-1/hsakmttypes.h
 * /usr/lib/libhsakmt-1.so
 * /usr/lib/libhsakmt-1.so.0

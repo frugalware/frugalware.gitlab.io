@@ -14,7 +14,9 @@ sha1sum = "37c9950913b66c7f547ded1cd1d56aa944c6ef67"
 depends = "['abseil-cpp>==20240116.0', 'libstdc++>=11.3', 'zlib>=1.2.12']"
 reverse_depends = "['android-tools', 'grpc', 'libmarble', 'mixxx', 'mosh', 'mumble', 'murmur', 'opencv', 'pdns-recursor', 'protobuf-c', 'protobuf-python', 'qt5-webengine', 'telegram-desktop', 'usbguard', 'vlc-chromecast']"
 +++
-Protocol Buffers are a way of encoding structured data in an efficient yet extensible format{{< files text="show files" >}}* /usr/bin/protoc
+Protocol Buffers are a way of encoding structured data in an efficient yet extensible format"
+
+{{< files text="show files" >}}* /usr/bin/protoc
 * /usr/bin/protoc-25.3.0
 * /usr/include/google/protobuf/any.h
 * /usr/include/google/protobuf/any.pb.h

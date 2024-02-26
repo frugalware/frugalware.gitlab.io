@@ -14,7 +14,9 @@ sha1sum = "734fbe7b0f688200eda39983f7c7087fff9c7042"
 depends = "['libogg>=1.3.2-4']"
 reverse_depends = "['spice-glib']"
 +++
-An audio codec for use in low-delay speech and audio communication{{< files text="show files" >}}* /usr/bin/celtdec051
+An audio codec for use in low-delay speech and audio communication"
+
+{{< files text="show files" >}}* /usr/bin/celtdec051
 * /usr/bin/celtenc051
 * /usr/include/celt051/celt.h
 * /usr/include/celt051/celt_header.h

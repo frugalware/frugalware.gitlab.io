@@ -13,7 +13,9 @@ usize = "0"
 sha1sum = "425809fbd596893876df62ce02d2ff94d7528ef4"
 depends = "['pwmanager']"
 +++
-A secure password manager - i18n package{{< files text="show files" >}}* usr/share/locale/ca/LC_MESSAGES/pwmanager.mo
+A secure password manager - i18n package"
+
+{{< files text="show files" >}}* usr/share/locale/ca/LC_MESSAGES/pwmanager.mo
 * usr/share/locale/da/LC_MESSAGES/pwmanager.mo
 * usr/share/locale/de/LC_MESSAGES/pwmanager.mo
 * usr/share/locale/el/LC_MESSAGES/pwmanager.mo

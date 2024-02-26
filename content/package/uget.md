@@ -13,7 +13,9 @@ usize = "1395507"
 sha1sum = "d10fb5902291df3ffc9876bbcad68faa44efb3da"
 depends = "['curl', 'gstreamer1', 'gtk+3', 'libnotify', 'openssl>=3.1.0']"
 +++
-uget (urlgfe) is a graphical download manager written using Gtk3.{{< files text="show files" >}}* /usr/bin/uget-gtk
+uget (urlgfe) is a graphical download manager written using Gtk3."
+
+{{< files text="show files" >}}* /usr/bin/uget-gtk
 * /usr/bin/uget-gtk-1to2
 * /usr/share/applications/uget-gtk.desktop
 * /usr/share/doc/uget-2.2.3/AUTHORS

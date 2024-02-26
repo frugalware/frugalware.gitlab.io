@@ -14,7 +14,9 @@ sha1sum = "7ed15bd43de35aa2fbd747b2e3c8ce757b335244"
 depends = "['lib32-cairo', 'lib32-glib2', 'lib32-icu4c', 'lib32-libffi', 'lib32-util-linux']"
 reverse_depends = "['lib32-libass', 'lib32-pango']"
 +++
-Is an implementation of the OpenType Layout engine. ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/hb-info
+Is an implementation of the OpenType Layout engine. ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/hb-info
 * /usr/i686-frugalware-linux/bin/hb-ot-shape-closure
 * /usr/i686-frugalware-linux/bin/hb-shape
 * /usr/i686-frugalware-linux/bin/hb-subset

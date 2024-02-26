@@ -14,7 +14,9 @@ sha1sum = "6207ba105fbbe55c39d6bae0c0a5fffa92894c73"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-xml-conduit']"
 +++
-Basic types for representing XML{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/xml-types-0.3.8/Data/XML/Types.dyn_hi
+Basic types for representing XML"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/xml-types-0.3.8/Data/XML/Types.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/xml-types-0.3.8/Data/XML/Types.hi
 * /usr/lib/ghc-9.8.1/site-local/xml-types-0.3.8/libHSxml-types-0.3.8-B3TUBKoQBzqDjxsLBn68cO.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSxml-types-0.3.8-B3TUBKoQBzqDjxsLBn68cO-ghc9.8.1.so

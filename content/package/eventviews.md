@@ -14,7 +14,9 @@ sha1sum = "cf18251b4984ee75e6e56dab07f8e833dc7b183f"
 depends = "['calendarsupport>=23.08.5', 'kdiagram>=2.6.0-11']"
 reverse_depends = "['incidenceeditor', 'merkuro']"
 +++
-Library for creating events.{{< files text="show files" >}}* /usr/include/KPim5/EventViews/EventViews/AgendaView
+Library for creating events."
+
+{{< files text="show files" >}}* /usr/include/KPim5/EventViews/EventViews/AgendaView
 * /usr/include/KPim5/EventViews/eventviews/agendaview.h
 * /usr/include/KPim5/EventViews/EventViews/CalendarDecoration
 * /usr/include/KPim5/EventViews/eventviews/calendardecoration.h

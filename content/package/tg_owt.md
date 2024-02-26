@@ -13,7 +13,9 @@ usize = "173811970"
 sha1sum = "184e32c59f0e8d35e8e9d356d705e92bbe225594"
 depends = "['libdrm']"
 +++
-WebRTC build for Telegram{{< files text="show files" >}}* /usr/include/tg_owt/api/adaptation/resource.h
+WebRTC build for Telegram"
+
+{{< files text="show files" >}}* /usr/include/tg_owt/api/adaptation/resource.h
 * /usr/include/tg_owt/api/array_view.h
 * /usr/include/tg_owt/api/async_dns_resolver.h
 * /usr/include/tg_owt/api/async_resolver_factory.h

@@ -14,7 +14,9 @@ sha1sum = "7058a2529792aeacbc33ea4f27e4c68e36416c0f"
 depends = "['python3-dateutil', 'python3-six']"
 reverse_depends = "['yin-yang']"
 +++
-Simple sunset and sunrise time calculation python library{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/suntime-1.2.5-py3.12.egg-info/dependency_links.txt
+Simple sunset and sunrise time calculation python library"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/suntime-1.2.5-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/suntime-1.2.5-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/suntime-1.2.5-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/suntime-1.2.5-py3.12.egg-info/SOURCES.txt

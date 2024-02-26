@@ -13,7 +13,9 @@ usize = "2183357"
 sha1sum = "ba5b92525fcacc7a8ceebbda7904f3626b607211"
 depends = "['brotli', 'gpgme', 'libpsl', 'nghttp2', 'openssl', 'pcre2', 'zstd']"
 +++
-A network utility to retrieve files from the Web{{< files text="show files" >}}* /etc/wgetrc
+A network utility to retrieve files from the Web"
+
+{{< files text="show files" >}}* /etc/wgetrc
 * /usr/bin/wget2
 * /usr/bin/wget2_noinstall
 * /usr/include/wget.h

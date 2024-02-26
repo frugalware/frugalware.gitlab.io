@@ -14,7 +14,9 @@ sha1sum = "13dc2fe9ddfff5ca5490658fb7b9fc808c632180"
 depends = "['haskell-commonmark-extensions>=0.2.3.4', 'haskell-pandoc-types>=1.23.1']"
 reverse_depends = "['pandoc']"
 +++
-Bridge between commonmark and pandoc AST{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/commonmark-pandoc-0.2.2/Commonmark/Pandoc.dyn_hi
+Bridge between commonmark and pandoc AST"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/commonmark-pandoc-0.2.2/Commonmark/Pandoc.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/commonmark-pandoc-0.2.2/Commonmark/Pandoc.hi
 * /usr/lib/ghc-9.8.1/site-local/commonmark-pandoc-0.2.2/libHScommonmark-pandoc-0.2.2-JWpn4wrUkRk4PAl8VtI3Ps.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHScommonmark-pandoc-0.2.2-JWpn4wrUkRk4PAl8VtI3Ps-ghc9.8.1.so

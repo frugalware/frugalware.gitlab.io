@@ -13,7 +13,9 @@ usize = "0"
 sha1sum = "7597a8ddd363db615dfab9507adafbd95225bc30"
 depends = "[]"
 +++
-A replacement Menu for use with kicker.{{< files text="show files" >}}* usr/lib/kdesktop_menu_panelapplet.la
+A replacement Menu for use with kicker."
+
+{{< files text="show files" >}}* usr/lib/kdesktop_menu_panelapplet.la
 * usr/lib/kdesktop_menu_panelapplet.so
 * usr/share/apps/kicker/applets/kdesktop_menu.desktop
 * usr/share/config.kcfg/kdesktopmenu_settings.kcfg

@@ -13,7 +13,9 @@ usize = "625567"
 sha1sum = "6ef759fc4afb6f3dc4a94ad53a991f276243d957"
 depends = "['qt6-base']"
 +++
-Simsu is a basic Sudoku game.{{< files text="show files" >}}* /usr/bin/simsu
+Simsu is a basic Sudoku game."
+
+{{< files text="show files" >}}* /usr/bin/simsu
 * /usr/share/applications/simsu.desktop
 * /usr/share/doc/simsu-1.4.2/ChangeLog
 * /usr/share/doc/simsu-1.4.2/COPYING

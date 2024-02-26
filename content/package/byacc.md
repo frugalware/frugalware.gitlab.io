@@ -13,7 +13,9 @@ usize = "471322"
 sha1sum = "3ef99824b445a6b8dd7365e09e41529edf7e5ccb"
 depends = "['glibc>=2.34']"
 +++
-The Berkeley variant of the Yacc parser generator.{{< files text="show files" >}}* /usr/bin/byacc
+The Berkeley variant of the Yacc parser generator."
+
+{{< files text="show files" >}}* /usr/bin/byacc
 * /usr/share/doc/byacc-20230521/AUTHORS
 * /usr/share/doc/byacc-20230521/CHANGES
 * /usr/share/doc/byacc-20230521/LICENSE

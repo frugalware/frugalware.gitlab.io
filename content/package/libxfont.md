@@ -15,7 +15,9 @@ depends = "['freetype2>=2.9', 'libfontenc>=1.1.3-6']"
 reverse_depends = "['bdftopcf', 'xorg-server-fbdev', 'xorg-server-xephyr']"
 license = "GPL2"
 +++
-X font Library{{< files text="show files" >}}* /usr/include/X11/fonts/bdfint.h
+X font Library"
+
+{{< files text="show files" >}}* /usr/include/X11/fonts/bdfint.h
 * /usr/include/X11/fonts/bitmap.h
 * /usr/include/X11/fonts/bufio.h
 * /usr/include/X11/fonts/fntfil.h

@@ -14,7 +14,9 @@ sha1sum = "0e351f169641bfe96b72ec9e80d6cabdf38a7545"
 depends = "['ptyprocess', 'python3']"
 reverse_depends = "['python3-poetry', 'rr']"
 +++
-A pure python expect-like module{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pexpect-4.8.0-py3.12.egg-info/dependency_links.txt
+A pure python expect-like module"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pexpect-4.8.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pexpect-4.8.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/pexpect-4.8.0-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/pexpect-4.8.0-py3.12.egg-info/SOURCES.txt

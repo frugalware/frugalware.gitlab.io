@@ -14,7 +14,9 @@ sha1sum = "972df36b69a813cf411dadad970d68948cf7c220"
 depends = "['libjpeg-turbo', 'libtiff>=4.0.6-2', 'zlib>=1.2.12']"
 reverse_depends = "['bootsplash', 'firefox', 'graphicsmagick', 'xsane']"
 +++
-Lightweight color management development library/engine{{< files text="show files" >}}* /usr/bin/icc2ps
+Lightweight color management development library/engine"
+
+{{< files text="show files" >}}* /usr/bin/icc2ps
 * /usr/bin/icclink
 * /usr/bin/icctrans
 * /usr/bin/jpegicc

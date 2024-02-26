@@ -13,7 +13,9 @@ usize = "709217"
 sha1sum = "ee29b6ce3ede8b1f24268eaadd55b28cbd733655"
 depends = "['libcap>=2.19', 'mariadb-libs>=10.3.14', 'openssl>=3.1.0']"
 +++
-A free, secure, production-quality and standard-conformant FTP server{{< files text="show files" >}}* /etc/pure-ftpd.conf
+A free, secure, production-quality and standard-conformant FTP server"
+
+{{< files text="show files" >}}* /etc/pure-ftpd.conf
 * /usr/bin/pure-authd
 * /usr/bin/pure-certd
 * /usr/bin/pure-config.pl

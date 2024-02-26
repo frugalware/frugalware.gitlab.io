@@ -14,7 +14,9 @@ sha1sum = "812146b88c611e4fff24db2a8e7fe24cecf2a406"
 depends = "['bzip2', 'libjpeg', 'libpng', 'libstdc++', 'libtiff', 'libxcursor', 'libxft', 'libxrandr']"
 reverse_depends = "['fxruby-1.2']"
 +++
-FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and effectively.{{< files text="show files" >}}* usr/bin/adie-1.2
+FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and effectively."
+
+{{< files text="show files" >}}* usr/bin/adie-1.2
 * usr/bin/calculator-1.2
 * usr/bin/fox-config-1.2
 * usr/bin/PathFinder-1.2

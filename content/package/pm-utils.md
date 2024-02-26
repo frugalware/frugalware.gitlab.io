@@ -13,7 +13,9 @@ usize = "354474"
 sha1sum = "4c9ef50ff0a377e3d06e926c3f7894d581abc93a"
 depends = "['ethtool>=4.2-2', 'pm-quirks', 'radeontool>=1.6.3-3']"
 +++
-Power Management Utilities{{< files text="show files" >}}* /usr/bin/on_ac_power_pm
+Power Management Utilities"
+
+{{< files text="show files" >}}* /usr/bin/on_ac_power_pm
 * /usr/bin/pm-hibernate
 * /usr/bin/pm-is-supported
 * /usr/bin/pm-powersave

@@ -14,7 +14,9 @@ sha1sum = "1e5cf7b4d0cb173721e22ba7f7e5e0492020b580"
 depends = "[]"
 reverse_depends = "['adwaita-icon-theme', 'clight', 'get_steam', 'keepassxc', 'kitty', 'love', 'nitroshare', 'obsidian', 'plasma-workspace', 'polychromatic', 'qownnotes', 'qt-virt-manager', 'signal-desktop', 'stellarsolver', 'telegram-desktop', 'tootle', 'whalebird']"
 +++
-Freedesktop.org Hicolor icon theme{{< files text="show files" >}}* /usr/share/doc/hicolor-icon-theme-0.17/ChangeLog
+Freedesktop.org Hicolor icon theme"
+
+{{< files text="show files" >}}* /usr/share/doc/hicolor-icon-theme-0.17/ChangeLog
 * /usr/share/doc/hicolor-icon-theme-0.17/COPYING
 * /usr/share/doc/hicolor-icon-theme-0.17/NEWS
 * /usr/share/doc/hicolor-icon-theme-0.17/README

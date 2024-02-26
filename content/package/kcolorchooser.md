@@ -13,7 +13,9 @@ usize = "124000"
 sha1sum = "3c8e4cdd2005309966af19a54f4372a5e160de86"
 depends = "['ki18n>=5.115.0', 'kxmlgui>=5.115.0']"
 +++
-KDE Color Selector.{{< files text="show files" >}}* /usr/bin/kcolorchooser
+KDE Color Selector."
+
+{{< files text="show files" >}}* /usr/bin/kcolorchooser
 * /usr/share/applications/org.kde.kcolorchooser.desktop
 * /usr/share/doc/kcolorchooser-23.08.5/COPYING
 * /usr/share/icons/hicolor/16x16/apps/kcolorchooser.png

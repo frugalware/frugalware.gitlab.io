@@ -14,7 +14,9 @@ sha1sum = "4ef582861ed55109e80dd73616095024c3ac1a6c"
 depends = "['ninja>=1.8.2-2', 'python3>=3.12', 'python3-setuptools']"
 reverse_depends = "['meson-python']"
 +++
-High productivity build system{{< files text="show files" >}}* /usr/bin/meson
+High productivity build system"
+
+{{< files text="show files" >}}* /usr/bin/meson
 * /usr/lib/python3.12/site-packages/meson-1.3.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/meson-1.3.1-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/meson-1.3.1-py3.12.egg-info/PKG-INFO

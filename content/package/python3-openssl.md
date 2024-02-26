@@ -14,7 +14,9 @@ sha1sum = "0f9235b3b0afecdcb19832317788f9507a882314"
 depends = "['openssl', 'python3-cryptography']"
 reverse_depends = "['python3-dulwich', 'python3-eventlet']"
 +++
-Python interface to the OpenSSL library{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/OpenSSL/crypto.py
+Python interface to the OpenSSL library"
+
+{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/OpenSSL/crypto.py
 * /usr/lib/python3.12/site-packages/OpenSSL/debug.py
 * /usr/lib/python3.12/site-packages/OpenSSL/rand.py
 * /usr/lib/python3.12/site-packages/OpenSSL/SSL.py

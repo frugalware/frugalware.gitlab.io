@@ -13,7 +13,9 @@ usize = "3206323"
 sha1sum = "f1a437bdb0a774f21926c31f8375dd48e12e52c0"
 depends = "['kdelibs4support>=5.115.0', 'libcanberra', 'plasma-framework>=5.115.0']"
 +++
-KDE volume control program{{< files text="show files" >}}* /etc/xdg/autostart/kmix_autostart.desktop
+KDE volume control program"
+
+{{< files text="show files" >}}* /etc/xdg/autostart/kmix_autostart.desktop
 * /etc/xdg/autostart/restore_kmix_volumes.desktop
 * /usr/bin/kmix
 * /usr/bin/kmixctrl

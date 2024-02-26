@@ -14,7 +14,9 @@ sha1sum = "44d69c93791a32b12f7d46cd8d736e7f04ec651b"
 depends = "['lib32-libtiff', 'lib32-libwebp', 'lib32-sdl2']"
 reverse_depends = "['lib32-v4l-utils']"
 +++
-Image loading library for SDL2 ( 32bit ){{< files text="show files" >}}* /usr/i686-frugalware-linux/include/SDL2/SDL_image.h
+Image loading library for SDL2 ( 32bit )"
+
+{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/SDL2/SDL_image.h
 * /usr/lib32/cmake/SDL2_image/sdl2_image-config-version.cmake
 * /usr/lib32/cmake/SDL2_image/sdl2_image-config.cmake
 * /usr/lib32/libSDL2_image-2.0.so.0

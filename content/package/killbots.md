@@ -13,7 +13,9 @@ usize = "2505250"
 sha1sum = "21c2285737018ffbfb58b535e4186fa59f09d419"
 depends = "['libkdegames>=23.08.5', 'qt5-svg>=5.15.12']"
 +++
-A simple game of evading killer robots.{{< files text="show files" >}}* /usr/bin/killbots
+A simple game of evading killer robots."
+
+{{< files text="show files" >}}* /usr/bin/killbots
 * /usr/share/applications/org.kde.killbots.desktop
 * /usr/share/config.kcfg/killbots.kcfg
 * /usr/share/doc/HTML/ca/killbots/index.cache.bz2

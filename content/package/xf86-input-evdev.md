@@ -15,7 +15,9 @@ depends = "['libevdev>=1.4.6', 'libudev>=242', 'mtdev>=1.1.5-3', 'xorg-server>=1
 reverse_depends = "['xorg-server']"
 license = "GPL2"
 +++
-X.Org driver for evdev input devices{{< files text="show files" >}}* /usr/include/xorg/evdev-properties.h
+X.Org driver for evdev input devices"
+
+{{< files text="show files" >}}* /usr/include/xorg/evdev-properties.h
 * /usr/lib/pkgconfig/xorg-evdev.pc
 * /usr/lib/xorg/modules/input/evdev_drv.so
 * /usr/share/doc/xf86-input-evdev-2.10.6/ChangeLog

@@ -14,7 +14,9 @@ sha1sum = "7c1c611b4e80fd720f20012374cc62b90fe29806"
 depends = "['haskell-hashable>=1.4.2.0']"
 reverse_depends = "['haskell-cassava', 'haskell-http-api-data', 'haskell-indexed-traversable-instances', 'haskell-mono-traversable', 'haskell-semigroups', 'haskell-uniplate', 'haskell-vault']"
 +++
-Efficient hashing-based container types{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashMap/Internal.dyn_hi
+Efficient hashing-based container types"
+
+{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashMap/Internal.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashMap/Internal.hi
 * /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashMap/Internal/Array.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashMap/Internal/Array.hi

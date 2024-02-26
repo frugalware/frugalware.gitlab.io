@@ -14,7 +14,9 @@ sha1sum = "5fa5b40d0534d2442eedc5b1ca6749a311fb3c2a"
 depends = "[]"
 reverse_depends = "['solid']"
 +++
-Data files describing media player capabilities, for post-HAL systems{{< files text="show files" >}}* /usr/lib/udev/hwdb.d/20-usb-media-players.hwdb
+Data files describing media player capabilities, for post-HAL systems"
+
+{{< files text="show files" >}}* /usr/lib/udev/hwdb.d/20-usb-media-players.hwdb
 * /usr/lib/udev/rules.d/40-usb-media-players.rules
 * /usr/share/doc/media-player-info-24/AUTHORS
 * /usr/share/doc/media-player-info-24/ChangeLog

@@ -13,7 +13,9 @@ usize = "205182"
 sha1sum = "528cbf4a9645a4cc7a9df8a16fad033adf627bea"
 depends = "['glibc', 'sddm']"
 +++
-concerned joe theme for sddm{{< files text="show files" >}}* /usr/share/doc/joe-theme1-0.1.0.g44b2d67/README.md
+concerned joe theme for sddm"
+
+{{< files text="show files" >}}* /usr/share/doc/joe-theme1-0.1.0.g44b2d67/README.md
 * /usr/share/sddm/themes/joe-theme1/angle-down.png
 * /usr/share/sddm/themes/joe-theme1/GeosansLight.ttf
 * /usr/share/sddm/themes/joe-theme1/joe-background.png

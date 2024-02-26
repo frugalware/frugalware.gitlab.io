@@ -13,4 +13,6 @@ usize = "0"
 sha1sum = ""
 depends = "[]"
 +++
-SquirrelMail plugin for checking quotas{{< files text="show files" >}}{{< /files >}}
+SquirrelMail plugin for checking quotas"
+
+{{< files text="show files" >}}{{< /files >}}

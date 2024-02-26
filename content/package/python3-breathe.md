@@ -13,7 +13,9 @@ usize = "1262662"
 sha1sum = "809efc1723f0ecece5fc68e2ed2a27e838101310"
 depends = "['python3-sphinx']"
 +++
-An extension to reStructuredText and Sphinx to be able to read and render Doxygen xml output{{< files text="show files" >}}* /usr/bin/breathe-apidoc
+An extension to reStructuredText and Sphinx to be able to read and render Doxygen xml output"
+
+{{< files text="show files" >}}* /usr/bin/breathe-apidoc
 * /usr/lib/python3.12/site-packages/breathe-4.35.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/breathe-4.35.0-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/breathe-4.35.0-py3.12.egg-info/not-zip-safe
