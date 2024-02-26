@@ -15,7 +15,8 @@ depends = "[]"
 +++
 A MUA derived from Berkeley Mail 8.1 and contains builtin support for MIME messages and IPv6
 
-{{< files text="show files" >}}* etc/nail.rc
+## Files: 
+* etc/nail.rc
 * usr/bin/mail
 * usr/bin/nail
 * usr/man/man1/mail.1.gz
@@ -26,4 +27,3 @@ A MUA derived from Berkeley Mail 8.1 and contains builtin support for MIME messa
 * usr/share/doc/nail-11.25/INSTALL
 * usr/share/doc/nail-11.25/README
 * usr/share/doc/nail-11.25/TODO
-{{< /files >}}

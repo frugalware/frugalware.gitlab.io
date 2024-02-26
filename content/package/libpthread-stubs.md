@@ -16,7 +16,7 @@ reverse_depends = "['criu', 'x11-protos', 'xcb-proto']"
 +++
 X.org Stubs missing from libc for standard pthread functions
 
-{{< files text="show files" >}}* /usr/lib/pkgconfig/pthread-stubs.pc
+## Files: 
+* /usr/lib/pkgconfig/pthread-stubs.pc
 * /usr/share/doc/libpthread-stubs-0.5/COPYING
 * /usr/share/doc/libpthread-stubs-0.5/README
-{{< /files >}}

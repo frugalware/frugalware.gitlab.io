@@ -16,7 +16,8 @@ reverse_depends = "['haskell-connection', 'haskell-crypton-connection']"
 +++
 Handle per-operating-system X.509 accessors and storage
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/crypton-x509-system-1.6.7/libHScrypton-x509-system-1.6.7-KZPy43op6ESLGMfDcml5F4.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/crypton-x509-system-1.6.7/libHScrypton-x509-system-1.6.7-KZPy43op6ESLGMfDcml5F4.a
 * /usr/lib/ghc-9.8.1/site-local/crypton-x509-system-1.6.7/System/X509.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/crypton-x509-system-1.6.7/System/X509.hi
 * /usr/lib/ghc-9.8.1/site-local/crypton-x509-system-1.6.7/System/X509/MacOS.dyn_hi
@@ -41,4 +42,3 @@ Handle per-operating-system X.509 accessors and storage
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/crypton-x509-system-1.6.7/LICENSE
 * /usr/share/haskell/haskell-crypton-x509-system/register.sh
 * /usr/share/haskell/haskell-crypton-x509-system/unregister.sh
-{{< /files >}}

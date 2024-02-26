@@ -15,7 +15,8 @@ depends = "['libcap', 'libxcrypt', 'pam']"
 +++
 A collection of common network programs
 
-{{< files text="show files" >}}* /etc/host.conf
+## Files: 
+* /etc/host.conf
 * /etc/hostname
 * /etc/hosts.equiv
 * /etc/pam.d/rlogin
@@ -70,4 +71,3 @@ A collection of common network programs
 * /usr/share/man/man8/rshd.8.gz
 * /usr/share/man/man8/talkd.8.gz
 * /usr/share/man/man8/telnetd.8.gz
-{{< /files >}}

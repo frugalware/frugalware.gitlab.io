@@ -16,7 +16,8 @@ reverse_depends = "['geany-plugins', 'remmina-www', 'telegram-desktop', 'wxwidge
 +++
 Open source web browser engine gtk+3
 
-{{< files text="show files" >}}* /usr/bin/WebKitWebDriver
+## Files: 
+* /usr/bin/WebKitWebDriver
 * /usr/include/webkitgtk-4.1/JavaScriptCore/JavaScript.h
 * /usr/include/webkitgtk-4.1/JavaScriptCore/JSBase.h
 * /usr/include/webkitgtk-4.1/JavaScriptCore/JSContextRef.h
@@ -4153,4 +4154,3 @@ Open source web browser engine gtk+3
 * /usr/share/locale/uk/LC_MESSAGES/WebKitGTK-4.1.mo
 * /usr/share/locale/vi/LC_MESSAGES/WebKitGTK-4.1.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/WebKitGTK-4.1.mo
-{{< /files >}}

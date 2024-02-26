@@ -16,7 +16,8 @@ reverse_depends = "['skim-scim-ccinput']"
 +++
 SKIM is an SCIM input method platform for *NIX systems optimized for KDE.
 
-{{< files text="show files" >}}* usr/bin/scim-panel-kde
+## Files: 
+* usr/bin/scim-panel-kde
 * usr/bin/skim
 * usr/include/skim/extra_utils.h
 * usr/include/skim/skimglobalactions.h
@@ -164,4 +165,3 @@ SKIM is an SCIM input method platform for *NIX systems optimized for KDE.
 * usr/share/servicetypes/skimplugin.desktop
 * usr/share/servicetypes/skimsetupcategory.desktop
 * usr/share/servicetypes/skimui.desktop
-{{< /files >}}

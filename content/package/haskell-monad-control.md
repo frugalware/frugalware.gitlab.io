@@ -16,7 +16,8 @@ reverse_depends = "['haskell-servant-server']"
 +++
 Lift control operations, like exception catching, through monad transformers
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/monad-control-1.0.3.1/Control/Monad/Trans/Control.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/monad-control-1.0.3.1/Control/Monad/Trans/Control.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/monad-control-1.0.3.1/Control/Monad/Trans/Control.hi
 * /usr/lib/ghc-9.8.1/site-local/monad-control-1.0.3.1/libHSmonad-control-1.0.3.1-KX0F8iRw4dfCuGGCmssmbw.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSmonad-control-1.0.3.1-KX0F8iRw4dfCuGGCmssmbw-ghc9.8.1.so
@@ -35,4 +36,3 @@ Lift control operations, like exception catching, through monad transformers
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/monad-control-1.0.3.1/LICENSE
 * /usr/share/haskell/haskell-monad-control/register.sh
 * /usr/share/haskell/haskell-monad-control/unregister.sh
-{{< /files >}}

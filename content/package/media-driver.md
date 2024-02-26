@@ -15,7 +15,8 @@ depends = "['gmmlib>=22.3.1', 'libva>=2.7']"
 +++
 Intel Media Driver for VAAPI — Broadwell+ iGPUs
 
-{{< files text="show files" >}}* /usr/include/igfxcmrt/cm_hw_vebox_cmd_g10.h
+## Files: 
+* /usr/include/igfxcmrt/cm_hw_vebox_cmd_g10.h
 * /usr/include/igfxcmrt/cm_rt.h
 * /usr/include/igfxcmrt/cm_rt_api_os.h
 * /usr/include/igfxcmrt/cm_rt_def_os.h
@@ -32,4 +33,3 @@ Intel Media Driver for VAAPI — Broadwell+ iGPUs
 * /usr/lib/libigfxcmrt.so.7.2.0
 * /usr/lib/pkgconfig/igfxcmrt.pc
 * /usr/share/doc/media-driver-24.1.3/README.md
-{{< /files >}}

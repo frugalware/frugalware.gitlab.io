@@ -16,7 +16,8 @@ reverse_depends = "['i3status']"
 +++
 libConfuse is a configuration file parser library written in C
 
-{{< files text="show files" >}}* /usr/include/confuse.h
+## Files: 
+* /usr/include/confuse.h
 * /usr/lib/libconfuse.so
 * /usr/lib/libconfuse.so.2
 * /usr/lib/libconfuse.so.2.1.0
@@ -29,4 +30,3 @@ libConfuse is a configuration file parser library written in C
 * /usr/share/locale/de/LC_MESSAGES/confuse.mo
 * /usr/share/locale/fr/LC_MESSAGES/confuse.mo
 * /usr/share/locale/sv/LC_MESSAGES/confuse.mo
-{{< /files >}}

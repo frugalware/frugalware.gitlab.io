@@ -15,7 +15,7 @@ depends = "[]"
 +++
 Static files for sdl2
 
-{{< files text="show files" >}}* /usr/lib/libSDL2.a
+## Files: 
+* /usr/lib/libSDL2.a
 * /usr/lib/libSDL2main.a
 * /usr/lib/libSDL2_test.a
-{{< /files >}}

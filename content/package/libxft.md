@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X FreeType library
 
-{{< files text="show files" >}}* /usr/include/X11/Xft/Xft.h
+## Files: 
+* /usr/include/X11/Xft/Xft.h
 * /usr/include/X11/Xft/XftCompat.h
 * /usr/lib/libXft.so
 * /usr/lib/libXft.so.2
@@ -107,4 +108,3 @@ X FreeType library
 * /usr/share/man/man3/XftTextRenderUtf8.3.gz
 * /usr/share/man/man3/XftUnlockFace.3.gz
 * /usr/share/man/man3/XftXlfdParse.3.gz
-{{< /files >}}

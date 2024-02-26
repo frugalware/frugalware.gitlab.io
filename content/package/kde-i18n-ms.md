@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Malay Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/locale/ms/charset
+## Files: 
+* usr/share/locale/ms/charset
 * usr/share/locale/ms/entry.desktop
 * usr/share/locale/ms/LC_MESSAGES/akregator.mo
 * usr/share/locale/ms/LC_MESSAGES/akregator_konqplugin.mo
@@ -545,4 +546,3 @@ Malay Localization for KDE.
 * usr/share/locale/ms/LC_MESSAGES/wakeup.mo
 * usr/share/locale/ms/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/ms/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

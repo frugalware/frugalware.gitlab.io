@@ -15,7 +15,8 @@ depends = "['python3-six']"
 +++
 A fully functional X client library for Python programs
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/python_xlib-0.33-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/python_xlib-0.33-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/python_xlib-0.33-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/python_xlib-0.33-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/python_xlib-0.33-py3.12.egg-info/SOURCES.txt
@@ -153,4 +154,3 @@ A fully functional X client library for Python programs
 * /usr/share/doc/python3-xlib-0.33/LICENSE
 * /usr/share/doc/python3-xlib-0.33/README.rst
 * /usr/share/doc/python3-xlib-0.33/TODO
-{{< /files >}}

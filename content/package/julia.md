@@ -16,7 +16,8 @@ reverse_depends = "['cantor']"
 +++
 High-level, high-performance dynamic programming language for technical computing.
 
-{{< files text="show files" >}}* /etc/julia/startup.jl
+## Files: 
+* /etc/julia/startup.jl
 * /etc/ld.so.conf.d/julia.conf
 * /usr/bin/julia
 * /usr/include/julia/analyzer_annotations.h
@@ -1828,4 +1829,3 @@ High-level, high-performance dynamic programming language for technical computin
 * /usr/share/julia/test/version.jl
 * /usr/share/julia/test/worlds.jl
 * /usr/share/man/man1/julia.1.gz
-{{< /files >}}

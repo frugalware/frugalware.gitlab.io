@@ -15,7 +15,8 @@ depends = "['gtk+4', 'libportal']"
 +++
 libportal gtk+4 backend
 
-{{< files text="show files" >}}* /usr/include/libportal-gtk4/portal-gtk4.h
+## Files: 
+* /usr/include/libportal-gtk4/portal-gtk4.h
 * /usr/lib/girepository-1.0/XdpGtk4-1.0.typelib
 * /usr/lib/libportal-gtk4.so
 * /usr/lib/libportal-gtk4.so.1
@@ -24,4 +25,3 @@ libportal gtk+4 backend
 * /usr/share/gir-1.0/XdpGtk4-1.0.gir
 * /usr/share/vala/vapi/libportal-gtk4.deps
 * /usr/share/vala/vapi/libportal-gtk4.vapi
-{{< /files >}}

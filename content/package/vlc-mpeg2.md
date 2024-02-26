@@ -15,5 +15,5 @@ depends = "['libvlc>=3.0.20', 'mpeg2dec']"
 +++
 vlc MPEG-1 and MPEG2 support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/liblibmpeg2_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/codec/liblibmpeg2_plugin.so

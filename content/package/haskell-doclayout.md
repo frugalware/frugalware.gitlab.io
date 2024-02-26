@@ -16,7 +16,8 @@ reverse_depends = "['haskell-doctemplates', 'haskell-gridtables', 'haskell-hslua
 +++
 A prettyprinting library for laying out text documents
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/doclayout-0.4.0.1/libHSdoclayout-0.4.0.1-6a0qnaI12QI6UMu6QtQ0sN.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/doclayout-0.4.0.1/libHSdoclayout-0.4.0.1-6a0qnaI12QI6UMu6QtQ0sN.a
 * /usr/lib/ghc-9.8.1/site-local/doclayout-0.4.0.1/Text/DocLayout.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/doclayout-0.4.0.1/Text/DocLayout.hi
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSdoclayout-0.4.0.1-6a0qnaI12QI6UMu6QtQ0sN-ghc9.8.1.so
@@ -36,4 +37,3 @@ A prettyprinting library for laying out text documents
 * /usr/share/haskell/haskell-doclayout/unregister.sh
 * /usr/share/x86_64-linux-ghc-9.8.1/doclayout-0.4.0.1/changelog.md
 * /usr/share/x86_64-linux-ghc-9.8.1/doclayout-0.4.0.1/README.md
-{{< /files >}}

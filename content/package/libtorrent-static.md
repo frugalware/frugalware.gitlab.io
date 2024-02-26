@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Static files for libtorrent
 
-{{< files text="show files" >}}* /usr/lib/libtorrent.a
-{{< /files >}}
+## Files: 
+* /usr/lib/libtorrent.a

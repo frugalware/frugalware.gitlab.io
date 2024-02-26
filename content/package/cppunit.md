@@ -16,7 +16,8 @@ license = "LGPL"
 +++
 CppUnit is the C++ port of the famous JUnit framework for unit testing.
 
-{{< files text="show files" >}}* /usr/bin/DllPlugInTester
+## Files: 
+* /usr/bin/DllPlugInTester
 * /usr/include/cppunit/AdditionalMessage.h
 * /usr/include/cppunit/Asserter.h
 * /usr/include/cppunit/BriefTestProgressListener.h
@@ -874,4 +875,3 @@ CppUnit is the C++ port of the famous JUnit framework for unit testing.
 * /usr/share/doc/cppunit-1.15.1/README
 * /usr/share/doc/cppunit-1.15.1/THANKS
 * /usr/share/doc/cppunit-1.15.1/TODO
-{{< /files >}}

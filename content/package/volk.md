@@ -15,7 +15,8 @@ depends = "['glibc>=2.35']"
 +++
 Meta loader for Vulkan API
 
-{{< files text="show files" >}}* /usr/include/volk.c
+## Files: 
+* /usr/include/volk.c
 * /usr/include/volk.h
 * /usr/lib/cmake/volk/volkConfig.cmake
 * /usr/lib/cmake/volk/volkConfigVersion.cmake
@@ -23,4 +24,3 @@ Meta loader for Vulkan API
 * /usr/lib/cmake/volk/volkTargets.cmake
 * /usr/lib/libvolk.a
 * /usr/share/doc/volk-1.3.275.0/README.md
-{{< /files >}}

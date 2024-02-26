@@ -15,7 +15,8 @@ depends = "['dbus-python']"
 +++
 python-dbusmock: mock D-Bus objects for tests
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/dbusmock/mockobject.py
+## Files: 
+* /usr/lib/python3.12/site-packages/dbusmock/mockobject.py
 * /usr/lib/python3.12/site-packages/dbusmock/pytest_fixtures.py
 * /usr/lib/python3.12/site-packages/dbusmock/templates/bluez5-obex.py
 * /usr/lib/python3.12/site-packages/dbusmock/templates/bluez5.py
@@ -90,4 +91,3 @@ python-dbusmock: mock D-Bus objects for tests
 * /usr/share/doc/python3-dbusmock-0.30.0/COPYING
 * /usr/share/doc/python3-dbusmock-0.30.0/NEWS
 * /usr/share/doc/python3-dbusmock-0.30.0/README.md
-{{< /files >}}

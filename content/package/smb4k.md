@@ -15,7 +15,8 @@ depends = "['kauth>=5.112.0', 'kcompletion>=5.112.0', 'kconfig>=5.112.0', 'kdeli
 +++
 Smb4K is a SMB/CIFS share browser for KDE.
 
-{{< files text="show files" >}}* /usr/bin/smb4k
+## Files: 
+* /usr/bin/smb4k
 * /usr/lib/kf5/kauth/mounthelper
 * /usr/lib/libsmb4kcore.so
 * /usr/lib/qt5/plugins/smb4kconfigdialog.so
@@ -270,4 +271,3 @@ Smb4K is a SMB/CIFS share browser for KDE.
 * /usr/share/polkit-1/actions/org.kde.smb4k.mounthelper.policy
 * /usr/share/qt5/qml/org/kde/smb4k/smb4kqmlplugin/libsmb4kqmlplugin.so
 * /usr/share/qt5/qml/org/kde/smb4k/smb4kqmlplugin/qmldir
-{{< /files >}}

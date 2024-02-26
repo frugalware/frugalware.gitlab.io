@@ -16,11 +16,11 @@ license = "GPL2"
 +++
 X.Org driver for S3 Virge cards
 
-{{< files text="show files" >}}* /usr/lib/xorg/modules/drivers/s3virge_drv.so
+## Files: 
+* /usr/lib/xorg/modules/drivers/s3virge_drv.so
 * /usr/share/doc/xf86-video-s3virge-1.11.1/ChangeLog
 * /usr/share/doc/xf86-video-s3virge-1.11.1/COPYING
 * /usr/share/doc/xf86-video-s3virge-1.11.1/INSTALL
 * /usr/share/doc/xf86-video-s3virge-1.11.1/README
 * /usr/share/doc/xf86-video-s3virge-1.11.1/TODO
 * /usr/share/man/man4/s3virge.4.gz
-{{< /files >}}

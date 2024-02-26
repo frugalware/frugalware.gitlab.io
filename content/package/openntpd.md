@@ -15,7 +15,8 @@ depends = "['openssl>=1.0.0']"
 +++
 A free, easy to use implementation of the Network Time Protocol.
 
-{{< files text="show files" >}}* /etc/ntpd.conf
+## Files: 
+* /etc/ntpd.conf
 * /etc/sysconfig/openntpd
 * /usr/bin/ntpctl
 * /usr/bin/ntpd
@@ -29,4 +30,3 @@ A free, easy to use implementation of the Network Time Protocol.
 * /usr/share/man/man5/ntpd.conf.5.gz
 * /usr/share/man/man8/ntpctl.8.gz
 * /usr/share/man/man8/ntpd.8.gz
-{{< /files >}}

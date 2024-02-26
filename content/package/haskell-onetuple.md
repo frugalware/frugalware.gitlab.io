@@ -16,7 +16,8 @@ reverse_depends = "['haskell-indexed-traversable-instances']"
 +++
 This package is a compatibility package for a singleton data type
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/OneTuple-0.4.1.1/Data/Tuple/OneTuple.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/OneTuple-0.4.1.1/Data/Tuple/OneTuple.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/OneTuple-0.4.1.1/Data/Tuple/OneTuple.hi
 * /usr/lib/ghc-9.8.1/site-local/OneTuple-0.4.1.1/Data/Tuple/Solo.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/OneTuple-0.4.1.1/Data/Tuple/Solo.hi
@@ -39,4 +40,3 @@ This package is a compatibility package for a singleton data type
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/OneTuple-0.4.1.1/LICENSE
 * /usr/share/haskell/haskell-onetuple/register.sh
 * /usr/share/haskell/haskell-onetuple/unregister.sh
-{{< /files >}}

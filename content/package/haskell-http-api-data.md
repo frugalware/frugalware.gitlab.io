@@ -16,7 +16,8 @@ reverse_depends = "['haskell-servant']"
 +++
 Converting to/from HTTP API data like URL pieces, headers and query parameters
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/http-api-data-0.6/libHShttp-api-data-0.6-SL1uk4xsIw8K2WRhz3r0c.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/http-api-data-0.6/libHShttp-api-data-0.6-SL1uk4xsIw8K2WRhz3r0c.a
 * /usr/lib/ghc-9.8.1/site-local/http-api-data-0.6/Web/FormUrlEncoded.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/http-api-data-0.6/Web/FormUrlEncoded.hi
 * /usr/lib/ghc-9.8.1/site-local/http-api-data-0.6/Web/HttpApiData.dyn_hi
@@ -43,4 +44,3 @@ Converting to/from HTTP API data like URL pieces, headers and query parameters
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/http-api-data-0.6/LICENSE
 * /usr/share/haskell/haskell-http-api-data/register.sh
 * /usr/share/haskell/haskell-http-api-data/unregister.sh
-{{< /files >}}

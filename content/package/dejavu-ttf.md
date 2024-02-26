@@ -16,7 +16,8 @@ reverse_depends = "['crawl-tiles', 'gegl', 'i3', 'lumina-desktop', 'mpv']"
 +++
 DejaVu fonts
 
-{{< files text="show files" >}}* /usr/share/doc/dejavu-ttf-2.37/AUTHORS
+## Files: 
+* /usr/share/doc/dejavu-ttf-2.37/AUTHORS
 * /usr/share/doc/dejavu-ttf-2.37/BUGS
 * /usr/share/doc/dejavu-ttf-2.37/LICENSE
 * /usr/share/doc/dejavu-ttf-2.37/NEWS
@@ -66,4 +67,3 @@ DejaVu fonts
 * /usr/share/fop/DejaVuSerifCondensed-BoldItalic.xml
 * /usr/share/fop/DejaVuSerifCondensed-Italic.xml
 * /usr/share/fop/DejaVuSerifCondensed.xml
-{{< /files >}}

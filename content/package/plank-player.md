@@ -16,7 +16,8 @@ reverse_depends = "['plasma-bigscreen']"
 +++
 Multimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote control
 
-{{< files text="show files" >}}* /usr/bin/plank-player
+## Files: 
+* /usr/bin/plank-player
 * /usr/share/applications/org.plank.player.desktop
 * /usr/share/doc/plank-player-5.27.10/README.md
 * /usr/share/icons/hicolor/128x128/apps/plank-player.png
@@ -49,4 +50,3 @@ Multimedia Player for playing local files on Plasma Bigscreen allowing navigatio
 * /usr/share/locale/uk/LC_MESSAGES/plank-player.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/plank-player.mo
 * /usr/share/metainfo/org.kde.invent.plank_player.metainfo.xml
-{{< /files >}}

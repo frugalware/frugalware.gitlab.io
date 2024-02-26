@@ -16,7 +16,8 @@ reverse_depends = "['kwin5', 'meshroom', 'plasma-desktop', 'plasma-workspace', '
 +++
 The Qt5 toolkit, qtquickcontrols
 
-{{< files text="show files" >}}* /usr/share/qt5/qml/QtQuick/Controls/ApplicationWindow.qml
+## Files: 
+* /usr/share/qt5/qml/QtQuick/Controls/ApplicationWindow.qml
 * /usr/share/qt5/qml/QtQuick/Controls/ApplicationWindow.qmlc
 * /usr/share/qt5/qml/QtQuick/Controls/BusyIndicator.qml
 * /usr/share/qt5/qml/QtQuick/Controls/BusyIndicator.qmlc
@@ -425,4 +426,3 @@ The Qt5 toolkit, qtquickcontrols
 * /usr/share/qt5/qml/QtQuick/PrivateWidgets/libwidgetsplugin.so
 * /usr/share/qt5/qml/QtQuick/PrivateWidgets/plugins.qmltypes
 * /usr/share/qt5/qml/QtQuick/PrivateWidgets/qmldir
-{{< /files >}}

@@ -16,7 +16,8 @@ license = "GPL"
 +++
 A City Simulation Game. It is a polished and improved version of the classic LinCity game.
 
-{{< files text="show files" >}}* /usr/bin/lincity-ng
+## Files: 
+* /usr/bin/lincity-ng
 * /usr/share/applications/lincity-ng.desktop
 * /usr/share/doc/lincity-ng-2.9.0/COPYING
 * /usr/share/doc/lincity-ng-2.9.0/COPYING-data.txt
@@ -1878,4 +1879,3 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/sounds/WindowClose.wav
 * /usr/share/lincity-ng/sounds/WindowOpen.wav
 * /usr/share/pixmaps/lincity-ng.png
-{{< /files >}}

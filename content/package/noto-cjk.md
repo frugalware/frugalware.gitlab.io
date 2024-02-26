@@ -15,7 +15,8 @@ depends = "['fontconfig', 'mkfontscale']"
 +++
 Noto CJK fonts
 
-{{< files text="show files" >}}* /usr/share/doc/noto-cjk-20201206/LICENSE
+## Files: 
+* /usr/share/doc/noto-cjk-20201206/LICENSE
 * /usr/share/doc/noto-cjk-20201206/README-formats.md
 * /usr/share/doc/noto-cjk-20201206/README-third_party.md
 * /usr/share/fonts/X11/OTF/NotoSansCJKhk-Black.otf
@@ -154,4 +155,3 @@ Noto CJK fonts
 * /usr/share/fonts/X11/OTF/NotoSerifTC-Medium.otf
 * /usr/share/fonts/X11/OTF/NotoSerifTC-Regular.otf
 * /usr/share/fonts/X11/OTF/NotoSerifTC-SemiBold.otf
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "['sqlite3', 'uwsgi']"
 +++
 UWSGI SQLite3 Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/sqlite3_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/uwsgi/sqlite3_plugin.so

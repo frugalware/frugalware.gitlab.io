@@ -16,7 +16,8 @@ reverse_depends = "['haskell-fast-logger', 'haskell-network-control', 'haskell-t
 +++
 Unix time parser/formatter and utilities
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/unix-time-0.4.11/Data/UnixTime.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/unix-time-0.4.11/Data/UnixTime.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/unix-time-0.4.11/Data/UnixTime.hi
 * /usr/lib/ghc-9.8.1/site-local/unix-time-0.4.11/Data/UnixTime/Conv.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/unix-time-0.4.11/Data/UnixTime/Conv.hi
@@ -41,4 +42,3 @@ Unix time parser/formatter and utilities
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/unix-time-0.4.11/LICENSE
 * /usr/share/haskell/haskell-unix-time/register.sh
 * /usr/share/haskell/haskell-unix-time/unregister.sh
-{{< /files >}}

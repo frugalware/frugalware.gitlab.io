@@ -15,7 +15,7 @@ depends = "[]"
 +++
 A modified TaskBar for KDE
 
-{{< files text="show files" >}}* usr/lib/libmtaskbar.la
+## Files: 
+* usr/lib/libmtaskbar.la
 * usr/lib/libmtaskbar.so
 * usr/share/apps/kicker/applets/mtaskbar.desktop
-{{< /files >}}

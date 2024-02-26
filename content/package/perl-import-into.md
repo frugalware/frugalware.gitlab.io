@@ -16,8 +16,8 @@ reverse_depends = "['perl-moo']"
 +++
 Import packages into other packages
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/Import/Into.pm
+## Files: 
+* /usr/lib/perl5/site_perl/current/Import/Into.pm
 * /usr/share/doc/perl-import-into-1.002005/MANIFEST
 * /usr/share/doc/perl-import-into-1.002005/README
 * /usr/share/man/man3/Import::Into.3perl.gz
-{{< /files >}}

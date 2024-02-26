@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Estonian Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/kanagram/data/et/arvutid.kvtml
+## Files: 
+* usr/share/apps/kanagram/data/et/arvutid.kvtml
 * usr/share/apps/kanagram/data/et/elukutsed.kvtml
 * usr/share/apps/kanagram/data/et/esemed.kvtml
 * usr/share/apps/kanagram/data/et/inimesed.kvtml
@@ -1994,4 +1995,3 @@ Estonian Localization for KDE.
 * usr/share/locale/et/LC_MESSAGES/wakeup.mo
 * usr/share/locale/et/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/et/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

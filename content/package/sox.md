@@ -16,7 +16,8 @@ reverse_depends = "['mlt', 'realrekord']"
 +++
 A universal sound converter, player, and recorder
 
-{{< files text="show files" >}}* /usr/bin/play
+## Files: 
+* /usr/bin/play
 * /usr/bin/rec
 * /usr/bin/sox
 * /usr/bin/soxi
@@ -41,4 +42,3 @@ A universal sound converter, player, and recorder
 * /usr/share/man/man3/libsox.3.gz
 * /usr/share/man/man7/soxeffect.7
 * /usr/share/man/man7/soxformat.7.gz
-{{< /files >}}

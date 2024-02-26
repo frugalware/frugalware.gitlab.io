@@ -16,7 +16,8 @@ reverse_depends = "['solarus-zsdx', 'solarus-zsxd']"
 +++
 Solarus is an open-source Zelda-like game engine written in C++.
 
-{{< files text="show files" >}}* /usr/bin/solarus-launcher
+## Files: 
+* /usr/bin/solarus-launcher
 * /usr/bin/solarus-run
 * /usr/include/solarus/audio/ItDecoder.h
 * /usr/include/solarus/audio/Music.h
@@ -300,4 +301,3 @@ Solarus is an open-source Zelda-like game engine written in C++.
 * /usr/share/pixmaps/org.solarus_games.solarus.Runner.png
 * /usr/share/solarus-gui/translations/solarus_es.qm
 * /usr/share/solarus-gui/translations/solarus_fr.qm
-{{< /files >}}

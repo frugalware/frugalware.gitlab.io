@@ -16,7 +16,8 @@ reverse_depends = "['libofx', 'openjade']"
 +++
 The OpenJade Group's SGML and XML parsing tools
 
-{{< files text="show files" >}}* /usr/bin/nsgmls
+## Files: 
+* /usr/bin/nsgmls
 * /usr/bin/onsgmls
 * /usr/bin/osgmlnorm
 * /usr/bin/ospam
@@ -241,4 +242,3 @@ The OpenJade Group's SGML and XML parsing tools
 * /usr/share/sgml/OpenSP-1.5.2/unicode.syn
 * /usr/share/sgml/OpenSP-1.5.2/xml.dcl
 * /usr/share/sgml/OpenSP-1.5.2/xml.soc
-{{< /files >}}

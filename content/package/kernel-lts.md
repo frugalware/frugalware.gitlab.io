@@ -16,7 +16,8 @@ reverse_depends = "['kernel-lts-initrd']"
 +++
 The Linux Kernel and modules (lts version)
 
-{{< files text="show files" >}}* /boot/config-6.1.79-lts-fw1
+## Files: 
+* /boot/config-6.1.79-lts-fw1
 * /boot/System.map-6.1.79-lts-fw1
 * /boot/vmlinuz-6.1.79-lts-fw1
 * /usr/lib/modules/6.1.79-lts-fw1/build
@@ -6175,4 +6176,3 @@ The Linux Kernel and modules (lts version)
 * /usr/lib/modules/6.1.79-lts-fw1/modules.symbols
 * /usr/lib/modules/6.1.79-lts-fw1/modules.symbols.bin
 * /usr/lib/modules/6.1.79-lts-fw1/source
-{{< /files >}}

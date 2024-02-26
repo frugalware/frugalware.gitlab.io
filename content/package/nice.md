@@ -16,7 +16,8 @@ reverse_depends = "['farstream', 'telepathy-gabble']"
 +++
 Library for Interactive Connectivity Establishment.
 
-{{< files text="show files" >}}* /usr/bin/stunbdc
+## Files: 
+* /usr/bin/stunbdc
 * /usr/bin/stund
 * /usr/include/nice/address.h
 * /usr/include/nice/agent.h
@@ -98,4 +99,3 @@ Library for Interactive Connectivity Establishment.
 * /usr/share/gtk-doc/html/libnice/style.css
 * /usr/share/gtk-doc/html/libnice/up-insensitive.png
 * /usr/share/gtk-doc/html/libnice/up.png
-{{< /files >}}

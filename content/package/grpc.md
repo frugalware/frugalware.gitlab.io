@@ -16,7 +16,8 @@ reverse_depends = "['qt6-grpc', 'sysdig']"
 +++
 High performance, open source, general RPC framework that puts mobile and HTTP/2 first.
 
-{{< files text="show files" >}}* /usr/bin/grpc_cpp_plugin
+## Files: 
+* /usr/bin/grpc_cpp_plugin
 * /usr/bin/grpc_node_plugin
 * /usr/bin/grpc_php_plugin
 * /usr/bin/grpc_python_plugin
@@ -379,4 +380,3 @@ High performance, open source, general RPC framework that puts mobile and HTTP/2
 * /usr/share/doc/grpc-1.62.0/LICENSE
 * /usr/share/doc/grpc-1.62.0/README.md
 * /usr/share/grpc/roots.pem
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['python3>=3.12', 'qt5-declarative>=5.15.10', 'qt5-quickcontrols2>=5.
 +++
 Tiled is a general purpose tile map editor.
 
-{{< files text="show files" >}}* /usr/bin/terraingenerator
+## Files: 
+* /usr/bin/terraingenerator
 * /usr/bin/tiled
 * /usr/bin/tmxrasterizer
 * /usr/bin/tmxviewer
@@ -139,4 +140,3 @@ Tiled is a general purpose tile map editor.
 * /usr/share/tiled/translations/tiled_uk.qm
 * /usr/share/tiled/translations/tiled_zh_CN.qm
 * /usr/share/tiled/translations/tiled_zh_TW.qm
-{{< /files >}}

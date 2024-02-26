@@ -16,7 +16,8 @@ reverse_depends = "['hw-probe', 'inxi']"
 +++
 USB utilities - lsusb,usbmodules
 
-{{< files text="show files" >}}* /usr/bin/lsusb
+## Files: 
+* /usr/bin/lsusb
 * /usr/bin/lsusb.py
 * /usr/bin/usb-devices
 * /usr/bin/usbhid-dump
@@ -26,4 +27,3 @@ USB utilities - lsusb,usbmodules
 * /usr/share/man/man1/usb-devices.1.gz
 * /usr/share/man/man8/lsusb.8.gz
 * /usr/share/man/man8/usbhid-dump.8.gz
-{{< /files >}}

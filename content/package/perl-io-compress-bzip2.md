@@ -15,7 +15,8 @@ depends = "['perl>=5.10.0-2', 'perl']"
 +++
 Interface to bzip2 compression library
 
-{{< files text="show files" >}}* usr/lib/perl5/site_perl/current/IO/Compress/Adapter/Bzip2.pm
+## Files: 
+* usr/lib/perl5/site_perl/current/IO/Compress/Adapter/Bzip2.pm
 * usr/lib/perl5/site_perl/current/IO/Compress/Bzip2.pm
 * usr/lib/perl5/site_perl/current/IO/Uncompress/Adapter/Bunzip2.pm
 * usr/lib/perl5/site_perl/current/IO/Uncompress/Bunzip2.pm
@@ -23,4 +24,3 @@ Interface to bzip2 compression library
 * usr/share/doc/perl-io-compress-bzip2-2.015/README
 * usr/share/man/man3/IO::Compress::Bzip2.3.gz
 * usr/share/man/man3/IO::Uncompress::Bunzip2.3.gz
-{{< /files >}}

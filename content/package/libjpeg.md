@@ -16,7 +16,8 @@ reverse_depends = "['alienarena', 'fox-1.2', 'openslide', 'xonotic', 'xsane']"
 +++
 Library of JPEG support functions
 
-{{< files text="show files" >}}* /usr/bin/cjpeg
+## Files: 
+* /usr/bin/cjpeg
 * /usr/bin/djpeg
 * /usr/bin/jpegtran
 * /usr/bin/rdjpgcom
@@ -35,4 +36,3 @@ Library of JPEG support functions
 * /usr/share/man/man1/jpegtran.1.gz
 * /usr/share/man/man1/rdjpgcom.1.gz
 * /usr/share/man/man1/wrjpgcom.1.gz
-{{< /files >}}

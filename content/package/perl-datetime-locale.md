@@ -16,7 +16,8 @@ reverse_depends = "['perl-datetime']"
 +++
 Localization support for DateTime.pm
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/auto/share/dist/DateTime-Locale/aa-DJ.pl
+## Files: 
+* /usr/lib/perl5/site_perl/auto/share/dist/DateTime-Locale/aa-DJ.pl
 * /usr/lib/perl5/site_perl/auto/share/dist/DateTime-Locale/aa-ER.pl
 * /usr/lib/perl5/site_perl/auto/share/dist/DateTime-Locale/aa-ET.pl
 * /usr/lib/perl5/site_perl/auto/share/dist/DateTime-Locale/aa.pl
@@ -3092,4 +3093,3 @@ Localization support for DateTime.pm
 * /usr/share/man/man3/DateTime::Locale::zh_Hant_TW.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::zu.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::zu_ZA.3perl.gz
-{{< /files >}}

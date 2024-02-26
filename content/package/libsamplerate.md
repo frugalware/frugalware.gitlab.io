@@ -16,7 +16,8 @@ reverse_depends = "['alsa-plugin-samplerate', 'alsa-utils', 'blender', 'dssi', '
 +++
 Secret Rabbit Code
 
-{{< files text="show files" >}}* /usr/bin/sndfile-resample
+## Files: 
+* /usr/bin/sndfile-resample
 * /usr/include/samplerate.h
 * /usr/lib/libsamplerate.so
 * /usr/lib/libsamplerate.so.0
@@ -43,4 +44,3 @@ Secret Rabbit Code
 * /usr/share/doc/libsamplerate0-dev/html/SRC.css
 * /usr/share/doc/libsamplerate0-dev/html/SRC.png
 * /usr/share/doc/libsamplerate0-dev/html/win32.html
-{{< /files >}}

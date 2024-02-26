@@ -16,7 +16,8 @@ reverse_depends = "['apr-util', 'freetds', 'gdal', 'libreoffice', 'mdbtools', 'p
 +++
 ODBC is an open specification for providing application developers with a predictable API with which to access Data Sources
 
-{{< files text="show files" >}}* /etc/odbc.ini
+## Files: 
+* /etc/odbc.ini
 * /etc/odbcinst.ini
 * /usr/bin/dltest
 * /usr/bin/isql
@@ -69,4 +70,3 @@ ODBC is an open specification for providing application developers with a predic
 * /usr/share/man/man5/odbc.ini.5.gz
 * /usr/share/man/man5/odbcinst.ini.5.gz
 * /usr/share/man/man7/unixODBC.7.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Esperanto Localization for KOffice. 
 
-{{< files text="show files" >}}* usr/share/locale/eo/LC_MESSAGES/desktop_koffice.mo
+## Files: 
+* usr/share/locale/eo/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/eo/LC_MESSAGES/example.mo
 * usr/share/locale/eo/LC_MESSAGES/kchart.mo
 * usr/share/locale/eo/LC_MESSAGES/kformula.mo
@@ -30,4 +31,3 @@ Esperanto Localization for KOffice.
 * usr/share/locale/eo/LC_MESSAGES/kspreadcalc_calc.mo
 * usr/share/locale/eo/LC_MESSAGES/kugar.mo
 * usr/share/locale/eo/LC_MESSAGES/kword.mo
-{{< /files >}}

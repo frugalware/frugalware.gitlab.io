@@ -16,7 +16,8 @@ reverse_depends = "['kbackup', 'kcachegrind', 'kcompletion', 'kconfigwidgets', '
 +++
 Large set of desktop widgets.
 
-{{< files text="show files" >}}* /usr/include/KF5/KWidgetsAddons/KAcceleratorManager
+## Files: 
+* /usr/include/KF5/KWidgetsAddons/KAcceleratorManager
 * /usr/include/KF5/KWidgetsAddons/kacceleratormanager.h
 * /usr/include/KF5/KWidgetsAddons/KActionMenu
 * /usr/include/KF5/KWidgetsAddons/kactionmenu.h
@@ -287,4 +288,3 @@ Large set of desktop widgets.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kwidgetsaddons5_qt.qm
 * /usr/share/qlogging-categories5/kwidgetsaddons.categories
 * /usr/share/qt5/mkspecs/modules/qt_KWidgetsAddons.pri
-{{< /files >}}

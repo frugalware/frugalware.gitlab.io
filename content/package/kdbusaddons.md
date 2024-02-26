@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-mime', 'calamares-frugalware', 'dolphin', 'kaccount
 +++
 Convenience classes for QtDBus.
 
-{{< files text="show files" >}}* /usr/bin/kquitapp5
+## Files: 
+* /usr/bin/kquitapp5
 * /usr/include/KF5/KDBusAddons/kdbusaddons_export.h
 * /usr/include/KF5/KDBusAddons/kdbusaddons_version.h
 * /usr/include/KF5/KDBusAddons/KDBusConnectionPool
@@ -97,4 +98,3 @@ Convenience classes for QtDBus.
 * /usr/share/qlogging-categories5/kdbusaddons.categories
 * /usr/share/qlogging-categories5/kdbusaddons.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KDBusAddons.pri
-{{< /files >}}

@@ -17,8 +17,8 @@ license = "GPL2"
 +++
 X.Org driver for dummy cards
 
-{{< files text="show files" >}}* /usr/lib/xorg/modules/drivers/dummy_drv.so
+## Files: 
+* /usr/lib/xorg/modules/drivers/dummy_drv.so
 * /usr/share/doc/xf86-video-dummy-0.4.1/ChangeLog
 * /usr/share/doc/xf86-video-dummy-0.4.1/COPYING
 * /usr/share/doc/xf86-video-dummy-0.4.1/README.md
-{{< /files >}}

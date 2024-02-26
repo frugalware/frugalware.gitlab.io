@@ -16,7 +16,8 @@ license = "MIT"
 +++
 Evented I/O for V8 javascript (LTS release: Iron)
 
-{{< files text="show files" >}}* /usr/bin/corepack
+## Files: 
+* /usr/bin/corepack
 * /usr/bin/node
 * /usr/bin/npm
 * /usr/bin/npx
@@ -2252,4 +2253,3 @@ Evented I/O for V8 javascript (LTS release: Iron)
 * /usr/share/doc/nodejs20-20.11.1/LICENSE
 * /usr/share/doc/nodejs20-20.11.1/README.md
 * /usr/share/man/man1/node.1.gz
-{{< /files >}}

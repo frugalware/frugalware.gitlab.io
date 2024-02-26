@@ -16,7 +16,8 @@ reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'streamlink', 'yt-dlp']"
 +++
 A tool to download rtmp:// and rtmpe:// streams
 
-{{< files text="show files" >}}* /usr/bin/rtmpdump
+## Files: 
+* /usr/bin/rtmpdump
 * /usr/bin/rtmpgw
 * /usr/bin/rtmpsrv
 * /usr/bin/rtmpsuck
@@ -33,4 +34,3 @@ A tool to download rtmp:// and rtmpe:// streams
 * /usr/share/man/man1/rtmpdump.1.gz
 * /usr/share/man/man3/librtmp.3.gz
 * /usr/share/man/man8/rtmpgw.8.gz
-{{< /files >}}

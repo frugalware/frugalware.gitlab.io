@@ -15,10 +15,10 @@ depends = "['aspell']"
 +++
 GNU Aspell Czech Word List Package
 
-{{< files text="show files" >}}* usr/lib/aspell-0.60/cs.dat
+## Files: 
+* usr/lib/aspell-0.60/cs.dat
 * usr/lib/aspell-0.60/cs.multi
 * usr/lib/aspell-0.60/cs.rws
 * usr/lib/aspell-0.60/czech.alias
 * usr/share/doc/aspell-cs-0.51r0/COPYING
 * usr/share/doc/aspell-cs-0.51r0/README
-{{< /files >}}

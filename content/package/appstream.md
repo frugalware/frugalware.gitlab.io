@@ -16,7 +16,8 @@ reverse_depends = "['appstream-qt', 'flatpak', 'libadwaita']"
 +++
 Provides a standard for creating app stores across distributions
 
-{{< files text="show files" >}}* /usr/bin/appstreamcli
+## Files: 
+* /usr/bin/appstreamcli
 * /usr/include/appstream/appstream.h
 * /usr/include/appstream/as-agreement-section.h
 * /usr/include/appstream/as-agreement.h
@@ -1064,4 +1065,3 @@ Provides a standard for creating app stores across distributions
 * /usr/share/metainfo/org.freedesktop.appstream.cli.metainfo.xml
 * /usr/share/vala/vapi/appstream.deps
 * /usr/share/vala/vapi/appstream.vapi
-{{< /files >}}

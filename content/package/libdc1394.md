@@ -16,7 +16,8 @@ reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-bad-libdc1394', 'opencv
 +++
 libdc1394 provides a high level programming interface to control IEEE 1394 based cameras.
 
-{{< files text="show files" >}}* /usr/bin/dc1394_reset_bus
+## Files: 
+* /usr/bin/dc1394_reset_bus
 * /usr/include/dc1394/camera.h
 * /usr/include/dc1394/capture.h
 * /usr/include/dc1394/control.h
@@ -53,4 +54,3 @@ libdc1394 provides a high level programming interface to control IEEE 1394 based
 * /usr/share/man/man1/grab_color_image.1.gz
 * /usr/share/man/man1/grab_gray_image.1.gz
 * /usr/share/man/man1/grab_partial_image.1.gz
-{{< /files >}}

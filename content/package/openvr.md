@@ -16,11 +16,11 @@ reverse_depends = "['vtk']"
 +++
 API and runtime that allows access to VR hardware from multiple vendors
 
-{{< files text="show files" >}}* /usr/include/openvr/openvr.h
+## Files: 
+* /usr/include/openvr/openvr.h
 * /usr/include/openvr/openvr_capi.h
 * /usr/include/openvr/openvr_driver.h
 * /usr/lib/libopenvr_api.so
 * /usr/lib/pkgconfig/openvr.pc
 * /usr/share/doc/openvr-1.16.8/LICENSE
 * /usr/share/doc/openvr-1.16.8/README.md
-{{< /files >}}

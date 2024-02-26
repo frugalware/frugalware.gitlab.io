@@ -15,7 +15,8 @@ depends = "['openjade>=1.3.2-6', 'perl>=5.26.1']"
 +++
 A collection of scripts used to convert and analyze SGML and DocBook files.
 
-{{< files text="show files" >}}* /usr/bin/docbook2dvi
+## Files: 
+* /usr/bin/docbook2dvi
 * /usr/bin/docbook2html
 * /usr/bin/docbook2man
 * /usr/bin/docbook2pdf
@@ -60,4 +61,3 @@ A collection of scripts used to convert and analyze SGML and DocBook files.
 * /usr/share/sgml/docbook/utils-0.6.14/frontends/docbook
 * /usr/share/sgml/docbook/utils-0.6.14/helpers/docbook2man-spec.pl
 * /usr/share/sgml/docbook/utils-0.6.14/helpers/docbook2texi-spec.pl
-{{< /files >}}

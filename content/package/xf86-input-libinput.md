@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.Org driver for libinput input devices
 
-{{< files text="show files" >}}* /usr/include/xorg/libinput-properties.h
+## Files: 
+* /usr/include/xorg/libinput-properties.h
 * /usr/lib/pkgconfig/xorg-libinput.pc
 * /usr/lib/xorg/modules/input/libinput_drv.so
 * /usr/share/doc/xf86-input-libinput-1.4.0/ChangeLog
@@ -26,4 +27,3 @@ X.Org driver for libinput input devices
 * /usr/share/doc/xf86-input-libinput-1.4.0/README.md
 * /usr/share/man/man4/libinput.4.gz
 * /usr/share/X11/xorg.conf.d/40-libinput.conf
-{{< /files >}}

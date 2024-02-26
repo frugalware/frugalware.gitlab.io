@@ -15,10 +15,10 @@ depends = "['qscintilla2-qt5>=2.11.1', 'qt5-base>=5.15.10']"
 +++
 A light GUI editor for SQLite databases, built on top of Qt
 
-{{< files text="show files" >}}* /usr/bin/sqlitebrowser
+## Files: 
+* /usr/bin/sqlitebrowser
 * /usr/share/applications/sqlitebrowser.desktop
 * /usr/share/doc/database-browser-sqlite-3.12.2/LICENSE
 * /usr/share/doc/database-browser-sqlite-3.12.2/README.md
 * /usr/share/icons/hicolor/256x256/apps/sqlitebrowser.png
 * /usr/share/metainfo/sqlitebrowser.desktop.appdata.xml
-{{< /files >}}

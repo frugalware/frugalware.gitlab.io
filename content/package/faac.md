@@ -16,7 +16,8 @@ reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-bad-faac', 'mencoder', 
 +++
 FAAC is an AAC audio encoder.
 
-{{< files text="show files" >}}* /usr/bin/faac
+## Files: 
+* /usr/bin/faac
 * /usr/include/faac.h
 * /usr/include/faaccfg.h
 * /usr/lib/libfaac.so
@@ -30,4 +31,3 @@ FAAC is an AAC audio encoder.
 * /usr/share/doc/faac-1.30/README
 * /usr/share/doc/faac-1.30/TODO
 * /usr/share/man/man1/faac.1.gz
-{{< /files >}}

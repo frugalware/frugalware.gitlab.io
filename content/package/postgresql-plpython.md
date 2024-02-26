@@ -15,5 +15,5 @@ depends = "['postgresql>=16.1', 'python3>=3.12']"
 +++
 PostgreSQL python bindings
 
-{{< files text="show files" >}}* /usr/lib/postgresql/plpython3.so
-{{< /files >}}
+## Files: 
+* /usr/lib/postgresql/plpython3.so

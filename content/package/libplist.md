@@ -16,7 +16,8 @@ reverse_depends = "['kio-extras', 'libimobiledevice-glue', 'libusbmuxd']"
 +++
 Library for manipulating Apple Binary and XML Property Lists
 
-{{< files text="show files" >}}* /usr/bin/plistutil
+## Files: 
+* /usr/bin/plistutil
 * /usr/include/plist/Array.h
 * /usr/include/plist/Boolean.h
 * /usr/include/plist/Data.h
@@ -45,4 +46,3 @@ Library for manipulating Apple Binary and XML Property Lists
 * /usr/share/doc/libplist-2.3.0/NEWS
 * /usr/share/doc/libplist-2.3.0/README.md
 * /usr/share/man/man1/plistutil.1.gz
-{{< /files >}}

@@ -15,10 +15,10 @@ depends = "['alsa-plugins>=1.2.7.1', 'ffmpeg>=6.0']"
 +++
 ALSA plugin for ffmpeg.
 
-{{< files text="show files" >}}* /usr/lib/alsa-lib/libasound_module_pcm_a52.so
+## Files: 
+* /usr/lib/alsa-lib/libasound_module_pcm_a52.so
 * /usr/lib/alsa-lib/libasound_module_rate_lavrate.so
 * /usr/lib/alsa-lib/libasound_module_rate_lavrate_fast.so
 * /usr/lib/alsa-lib/libasound_module_rate_lavrate_faster.so
 * /usr/lib/alsa-lib/libasound_module_rate_lavrate_high.so
 * /usr/lib/alsa-lib/libasound_module_rate_lavrate_higher.so
-{{< /files >}}

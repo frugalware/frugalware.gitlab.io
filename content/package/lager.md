@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 C++ library for value-oriented design using the unidirectional data-flow architecture
 
-{{< files text="show files" >}}* /usr/include/lager/commit.hpp
+## Files: 
+* /usr/include/lager/commit.hpp
 * /usr/include/lager/config.hpp
 * /usr/include/lager/constant.hpp
 * /usr/include/lager/context.hpp
@@ -87,4 +88,3 @@ C++ library for value-oriented design using the unidirectional data-flow archite
 * /usr/lib/cmake/Lager/LagerConfig.cmake
 * /usr/share/doc/lager-0.1.0/LICENSE
 * /usr/share/doc/lager-0.1.0/README.rst
-{{< /files >}}

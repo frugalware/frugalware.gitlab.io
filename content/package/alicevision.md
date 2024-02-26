@@ -16,7 +16,8 @@ reverse_depends = "['meshroom']"
 +++
 Photogrammetric Computer Vision Framework
 
-{{< files text="show files" >}}* /usr/bin/aliceVision_cameraInit
+## Files: 
+* /usr/bin/aliceVision_cameraInit
 * /usr/bin/aliceVision_cameraInit-2.0
 * /usr/bin/aliceVision_cameraLocalization
 * /usr/bin/aliceVision_cameraLocalization-1.0
@@ -1033,4 +1034,3 @@ Photogrammetric Computer Vision Framework
 * /usr/share/doc/alicevision-3.1.0/INSTALL.md
 * /usr/share/doc/alicevision-3.1.0/README.md
 * /usr/share/lemon/cmake/LEMONConfig.cmake
-{{< /files >}}

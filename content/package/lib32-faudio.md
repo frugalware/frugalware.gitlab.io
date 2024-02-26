@@ -16,7 +16,8 @@ reverse_depends = "['wine', 'wine-devel']"
 +++
 XAudio2 reimplementation ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/F3DAudio.h
+## Files: 
+* /usr/i686-frugalware-linux/include/F3DAudio.h
 * /usr/i686-frugalware-linux/include/FACT.h
 * /usr/i686-frugalware-linux/include/FACT3D.h
 * /usr/i686-frugalware-linux/include/FAPO.h
@@ -31,4 +32,3 @@ XAudio2 reimplementation ( 32bit )
 * /usr/lib32/libFAudio.so.0
 * /usr/lib32/libFAudio.so.0.24.02
 * /usr/lib32/pkgconfig/FAudio.pc
-{{< /files >}}

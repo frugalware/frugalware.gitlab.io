@@ -16,7 +16,8 @@ reverse_depends = "['audit', 'audit-go', 'pam', 'usbguard']"
 +++
 Dynamic library for security auditing
 
-{{< files text="show files" >}}* /usr/include/auparse-defs.h
+## Files: 
+* /usr/include/auparse-defs.h
 * /usr/include/auparse.h
 * /usr/include/libaudit.h
 * /usr/lib/libaudit.a
@@ -29,4 +30,3 @@ Dynamic library for security auditing
 * /usr/lib/libauparse.so.0.0.0
 * /usr/lib/pkgconfig/audit.pc
 * /usr/lib/pkgconfig/auparse.pc
-{{< /files >}}

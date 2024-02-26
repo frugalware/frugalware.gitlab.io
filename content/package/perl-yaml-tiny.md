@@ -16,10 +16,10 @@ reverse_depends = "['perl-module-install']"
 +++
 Read/Write YAML files with as little code as possible
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/YAML/Tiny.pm
+## Files: 
+* /usr/lib/perl5/site_perl/YAML/Tiny.pm
 * /usr/share/doc/perl-yaml-tiny-1.74/INSTALL
 * /usr/share/doc/perl-yaml-tiny-1.74/LICENSE
 * /usr/share/doc/perl-yaml-tiny-1.74/MANIFEST
 * /usr/share/doc/perl-yaml-tiny-1.74/README
 * /usr/share/man/man3/YAML::Tiny.3perl.gz
-{{< /files >}}

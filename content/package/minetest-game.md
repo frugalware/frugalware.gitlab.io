@@ -15,7 +15,8 @@ depends = "['minetest>=5.8.0']"
 +++
 The main game for the Minetest game engine
 
-{{< files text="show files" >}}* /usr/share/doc/minetest-game-5.8.0/README.md
+## Files: 
+* /usr/share/doc/minetest-game-5.8.0/README.md
 * /usr/share/minetest/games/minetest/.github/workflows/build.yml
 * /usr/share/minetest/games/minetest/.gitignore
 * /usr/share/minetest/games/minetest/.luacheckrc
@@ -1299,4 +1300,3 @@ The main game for the Minetest game engine
 * /usr/share/minetest/games/minetest/screenshot.png
 * /usr/share/minetest/games/minetest/settingtypes.txt
 * /usr/share/minetest/games/minetest/utils/optimize_textures.sh
-{{< /files >}}

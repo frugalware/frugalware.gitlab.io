@@ -16,7 +16,8 @@ reverse_depends = "['ffmpeg']"
 +++
 Intel Video Processing Library
 
-{{< files text="show files" >}}* /etc/vpl/vars.sh
+## Files: 
+* /etc/vpl/vars.sh
 * /usr/bin/sample_decode
 * /usr/bin/sample_encode
 * /usr/bin/sample_multi_transcode
@@ -60,4 +61,3 @@ Intel Video Processing Library
 * /usr/share/doc/libvpl-2.10.2/README.md
 * /usr/share/vpl/licensing/license.txt
 * /usr/share/vpl/licensing/third-party-programs.txt
-{{< /files >}}

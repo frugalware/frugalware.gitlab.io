@@ -15,7 +15,8 @@ depends = "['libsecret', 'nm-connection-editor', 'nm-pptp-minimal']"
 +++
 network management framework (PPTP plugin)
 
-{{< files text="show files" >}}* /usr/lib/NetworkManager/libnm-vpn-plugin-pptp-editor.so
+## Files: 
+* /usr/lib/NetworkManager/libnm-vpn-plugin-pptp-editor.so
 * /usr/lib/NetworkManager/libnm-vpn-plugin-pptp.so
 * /usr/lib/NetworkManager/VPN/nm-pptp-service.name
 * /usr/lib/nm-pptp/nm-pptp-auth-dialog
@@ -84,4 +85,3 @@ network management framework (PPTP plugin)
 * /usr/share/locale/zh_CN/LC_MESSAGES/NetworkManager-pptp.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/NetworkManager-pptp.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/NetworkManager-pptp.mo
-{{< /files >}}

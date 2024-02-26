@@ -15,7 +15,8 @@ depends = "['fontconfig', 'mkfontscale']"
 +++
 A set of fonts known as artwiz.
 
-{{< files text="show files" >}}* /usr/share/doc/artwiz-fonts-1.3/AUTHORS
+## Files: 
+* /usr/share/doc/artwiz-fonts-1.3/AUTHORS
 * /usr/share/doc/artwiz-fonts-1.3/BUGS
 * /usr/share/doc/artwiz-fonts-1.3/ChangeLog
 * /usr/share/doc/artwiz-fonts-1.3/COPYING
@@ -73,4 +74,3 @@ A set of fonts known as artwiz.
 * /usr/share/fonts/X11/misc/snap.de.pcf.gz
 * /usr/share/fonts/X11/misc/snap.en.pcf.gz
 * /usr/share/fonts/X11/misc/snap.se.pcf.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['freeciv', 'qt5-base>=5.15.10']"
 +++
 Qt client for freeciv
 
-{{< files text="show files" >}}* /usr/bin/freeciv-qt
+## Files: 
+* /usr/bin/freeciv-qt
 * /usr/share/applications/org.freeciv.qt.desktop
 * /usr/share/freeciv/themes/gui-qt/Classic/arrow-down.png
 * /usr/share/freeciv/themes/gui-qt/Classic/arrow-left.png
@@ -147,4 +148,3 @@ Qt client for freeciv
 * /usr/share/freeciv/themes/gui-qt/System/resource.qss
 * /usr/share/man/man6/freeciv-mp-qt.6.gz
 * /usr/share/man/man6/freeciv-qt.6.gz
-{{< /files >}}

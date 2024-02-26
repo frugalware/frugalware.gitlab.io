@@ -16,7 +16,8 @@ reverse_depends = "['coin-or-osi']"
 +++
 COIN-OR collection of utility classes (AliceVision fork)
 
-{{< files text="show files" >}}* /usr/include/Coin/CoinAdjacencyVector.hpp
+## Files: 
+* /usr/include/Coin/CoinAdjacencyVector.hpp
 * /usr/include/Coin/CoinAlloc.hpp
 * /usr/include/Coin/CoinBronKerbosch.hpp
 * /usr/include/Coin/CoinBuild.hpp
@@ -99,4 +100,3 @@ COIN-OR collection of utility classes (AliceVision fork)
 * /usr/lib/libCoinUtils.a
 * /usr/share/doc/coin-or-coinutils-2.11.6/LICENSE
 * /usr/share/doc/coin-or-coinutils-2.11.6/README.md
-{{< /files >}}

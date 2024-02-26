@@ -15,7 +15,8 @@ depends = "['libstdc++>=13.2.0']"
 +++
 Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/amdgpu-arch
+## Files: 
+* /usr/i686-frugalware-linux/bin/amdgpu-arch
 * /usr/i686-frugalware-linux/bin/bugpoint
 * /usr/i686-frugalware-linux/bin/count
 * /usr/i686-frugalware-linux/bin/dsymutil
@@ -2044,4 +2045,3 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/lib32/llvm/ccc-analyzer
 * /usr/lib32/llvm/intercept-c++
 * /usr/lib32/llvm/intercept-cc
-{{< /files >}}

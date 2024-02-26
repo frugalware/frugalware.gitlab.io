@@ -16,6 +16,6 @@ reverse_depends = "['seahorse']"
 +++
 Libsecret Vala Bindings
 
-{{< files text="show files" >}}* /usr/share/vala/vapi/libsecret-1.deps
+## Files: 
+* /usr/share/vala/vapi/libsecret-1.deps
 * /usr/share/vala/vapi/libsecret-1.vapi
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['patchelf', 'python3>=3.11']"
 +++
 Patchelf utility, packaged for python/pip
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pypatchelf-0.9-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/pypatchelf-0.9-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pypatchelf-0.9-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/pypatchelf-0.9-py3.12.egg-info/pbr.json
 * /usr/lib/python3.12/site-packages/pypatchelf-0.9-py3.12.egg-info/PKG-INFO
@@ -23,4 +24,3 @@ Patchelf utility, packaged for python/pip
 * /usr/lib/python3.12/site-packages/pypatchelf-0.9-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/pypatchelf/__init__.py
 * /usr/lib/python3.12/site-packages/pypatchelf/__pycache__/__init__.cpython-312.pyc
-{{< /files >}}

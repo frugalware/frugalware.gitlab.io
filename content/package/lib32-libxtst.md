@@ -16,10 +16,10 @@ reverse_depends = "['lib32-at-spi2-core', 'steam-native']"
 +++
 X.Org Xtst library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/record.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/extensions/record.h
 * /usr/i686-frugalware-linux/include/X11/extensions/XTest.h
 * /usr/lib32/libXtst.so
 * /usr/lib32/libXtst.so.6
 * /usr/lib32/libXtst.so.6.1.0
 * /usr/lib32/pkgconfig/xtst.pc
-{{< /files >}}

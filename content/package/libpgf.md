@@ -16,7 +16,8 @@ reverse_depends = "['digikam']"
 +++
 An implementation of the Progressive Graphics File.
 
-{{< files text="show files" >}}* /usr/include/libpgf/PGFimage.h
+## Files: 
+* /usr/include/libpgf/PGFimage.h
 * /usr/include/libpgf/PGFplatform.h
 * /usr/include/libpgf/PGFstream.h
 * /usr/include/libpgf/PGFtypes.h
@@ -27,4 +28,3 @@ An implementation of the Progressive Graphics File.
 * /usr/share/doc/libpgf-7.21.7/COPYING
 * /usr/share/doc/libpgf-7.21.7/INSTALL
 * /usr/share/doc/libpgf-7.21.7/README
-{{< /files >}}

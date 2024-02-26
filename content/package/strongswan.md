@@ -15,7 +15,8 @@ depends = "['curl', 'gmp', 'iproute2', 'json-c>=0.13.1', 'libsoup', 'libsystemd'
 +++
 the OpenSource IPsec-based VPN Solution for Linux
 
-{{< files text="show files" >}}* /etc/ipsec.conf
+## Files: 
+* /etc/ipsec.conf
 * /etc/ipsec.secrets
 * /etc/strongswan.conf
 * /etc/strongswan.d/attest.conf
@@ -367,4 +368,3 @@ the OpenSource IPsec-based VPN Solution for Linux
 * /usr/share/strongswan/templates/database/imv/tables.sql
 * /usr/share/strongswan/templates/database/sql/mysql.sql
 * /usr/share/strongswan/templates/database/sql/sqlite.sql
-{{< /files >}}

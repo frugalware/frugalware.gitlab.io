@@ -16,5 +16,5 @@ reverse_depends = "['gv', 'texmaker']"
 +++
 A graphical interpreter for the PostScript language.
 
-{{< files text="show files" >}}* /usr/bin/gsx
-{{< /files >}}
+## Files: 
+* /usr/bin/gsx

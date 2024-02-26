@@ -16,7 +16,8 @@ reverse_depends = "['ocaml-ctypes']"
 +++
 Library for binding to C libraries using pure OCaml
 
-{{< files text="show files" >}}* /usr/lib/ocaml/integers/dune-package
+## Files: 
+* /usr/lib/ocaml/integers/dune-package
 * /usr/lib/ocaml/integers/integers.a
 * /usr/lib/ocaml/integers/integers.cma
 * /usr/lib/ocaml/integers/integers.cmxa
@@ -53,4 +54,3 @@ Library for binding to C libraries using pure OCaml
 * /usr/share/doc/ocaml-integers-0.7.0/integers/LICENSE.md
 * /usr/share/doc/ocaml-integers-0.7.0/integers/README.md
 * /usr/share/doc/ocaml-integers-0.7.0/README.md
-{{< /files >}}

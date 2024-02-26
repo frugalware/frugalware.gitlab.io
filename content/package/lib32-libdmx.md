@@ -15,9 +15,9 @@ depends = "['lib32-libx11>=1.6.3-4', 'lib32-libxext>=1.3.3-3']"
 +++
 X.Org dmx library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/dmxext.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/extensions/dmxext.h
 * /usr/lib32/libdmx.so
 * /usr/lib32/libdmx.so.1
 * /usr/lib32/libdmx.so.1.0.0
 * /usr/lib32/pkgconfig/dmx.pc
-{{< /files >}}

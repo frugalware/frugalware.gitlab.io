@@ -16,7 +16,8 @@ reverse_depends = "['blender', 'openimageio', 'vtk']"
 +++
 A large suite of tools for the efficient storage and manipulation 	of sparse volumetric data discretized on three-dimensional grids
 
-{{< files text="show files" >}}* /usr/bin/vdb_print
+## Files: 
+* /usr/bin/vdb_print
 * /usr/include/openvdb/Exceptions.h
 * /usr/include/openvdb/Grid.h
 * /usr/include/openvdb/io/Archive.h
@@ -192,4 +193,3 @@ A large suite of tools for the efficient storage and manipulation 	of sparse vol
 * /usr/share/doc/openvdb-10.1.0/CHANGES
 * /usr/share/doc/openvdb-10.1.0/LICENSE
 * /usr/share/doc/openvdb-10.1.0/README.md
-{{< /files >}}

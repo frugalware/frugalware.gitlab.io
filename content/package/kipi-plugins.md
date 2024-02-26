@@ -16,7 +16,8 @@ reverse_depends = "['gwenview', 'spectacle']"
 +++
 kipi-plugins is based in part on the work of the Independent JPEG Group.
 
-{{< files text="show files" >}}* /usr/lib/libKF5kipiplugins.so
+## Files: 
+* /usr/lib/libKF5kipiplugins.so
 * /usr/lib/libKF5kipiplugins.so.5.9.1
 * /usr/lib/qt5/plugins/kipiplugin_dropbox.so
 * /usr/lib/qt5/plugins/kipiplugin_facebook.so
@@ -961,4 +962,3 @@ kipi-plugins is based in part on the work of the Independent JPEG Group.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kipiplugin_smug.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kipiplugin_yandexfotki.mo
 * /usr/share/metainfo/org.kde.kipi_plugins.metainfo.xml
-{{< /files >}}

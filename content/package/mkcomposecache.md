@@ -16,11 +16,11 @@ license = "GPL2"
 +++
 X.Org mkcomposecache application
 
-{{< files text="show files" >}}* /usr/bin/mkcomposecache
+## Files: 
+* /usr/bin/mkcomposecache
 * /usr/share/doc/mkcomposecache-1.2.2/AUTHORS
 * /usr/share/doc/mkcomposecache-1.2.2/ChangeLog
 * /usr/share/doc/mkcomposecache-1.2.2/COPYING
 * /usr/share/doc/mkcomposecache-1.2.2/INSTALL
 * /usr/share/doc/mkcomposecache-1.2.2/README.md
 * /usr/share/man/man8/mkcomposecache.8.gz
-{{< /files >}}

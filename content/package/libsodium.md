@@ -16,7 +16,8 @@ reverse_depends = "['adios2', 'dovecot', 'gnunet', 'keysmith', 'ostree', 'pdns-r
 +++
 Sodium is a portable, cross-compilable, installable, packageable fork of NaCl
 
-{{< files text="show files" >}}* /usr/include/sodium.h
+## Files: 
+* /usr/include/sodium.h
 * /usr/include/sodium/core.h
 * /usr/include/sodium/crypto_aead_aegis128l.h
 * /usr/include/sodium/crypto_aead_aegis256.h
@@ -92,4 +93,3 @@ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl
 * /usr/share/doc/libsodium-1.0.19/LICENSE
 * /usr/share/doc/libsodium-1.0.19/README.markdown
 * /usr/share/doc/libsodium-1.0.19/THANKS
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "['glibc']"
 +++
 Language specific files for tesseract lang uzb_cyrl
 
-{{< files text="show files" >}}* /usr/share/tessdata/uzb_cyrl.traineddata
-{{< /files >}}
+## Files: 
+* /usr/share/tessdata/uzb_cyrl.traineddata

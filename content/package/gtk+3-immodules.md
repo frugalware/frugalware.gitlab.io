@@ -15,7 +15,8 @@ depends = "['glib2>=2.60.0', 'gtk+3>=3.24.41', 'libffi>=3.2.1-2', 'pango>=1.42.0
 +++
 Input methods for GTK3+.
 
-{{< files text="show files" >}}* /usr/lib/gtk-3.0/3.0.0/immodules/im-am-et.so
+## Files: 
+* /usr/lib/gtk-3.0/3.0.0/immodules/im-am-et.so
 * /usr/lib/gtk-3.0/3.0.0/immodules/im-broadway.so
 * /usr/lib/gtk-3.0/3.0.0/immodules/im-cedilla.so
 * /usr/lib/gtk-3.0/3.0.0/immodules/im-cyrillic-translit.so
@@ -27,4 +28,3 @@ Input methods for GTK3+.
 * /usr/lib/gtk-3.0/3.0.0/immodules/im-ti-et.so
 * /usr/lib/gtk-3.0/3.0.0/immodules/im-viqr.so
 * /usr/lib/gtk-3.0/3.0.0/immodules/im-wayland.so
-{{< /files >}}

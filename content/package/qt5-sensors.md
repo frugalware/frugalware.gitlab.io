@@ -16,7 +16,8 @@ reverse_depends = "['aseman-qt-tools', 'kscreen5', 'kwin5']"
 +++
 The Qt5 toolkit, qtsensors
 
-{{< files text="show files" >}}* /usr/include/qt5/QtSensors/5.15.12/QtSensors/private/qaccelerometer_p.h
+## Files: 
+* /usr/include/qt5/QtSensors/5.15.12/QtSensors/private/qaccelerometer_p.h
 * /usr/include/qt5/QtSensors/5.15.12/QtSensors/private/qaltimeter_p.h
 * /usr/include/qt5/QtSensors/5.15.12/QtSensors/private/qambientlightsensor_p.h
 * /usr/include/qt5/QtSensors/5.15.12/QtSensors/private/qambienttemperaturesensor_p.h
@@ -167,4 +168,3 @@ The Qt5 toolkit, qtsensors
 * /usr/share/qt5/qml/QtSensors/libdeclarative_sensors.so
 * /usr/share/qt5/qml/QtSensors/plugins.qmltypes
 * /usr/share/qt5/qml/QtSensors/qmldir
-{{< /files >}}

@@ -15,4 +15,4 @@ depends = "[]"
 +++
 SquirrelMail plugin for checking quotas
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

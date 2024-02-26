@@ -15,7 +15,7 @@ depends = "['lib32-libdrm', 'lib32-libxcb', 'lib32-wayland', 'vulkan-mesa-layers
 +++
 Mesa Vulkan layers
 
-{{< files text="show files" >}}* /usr/lib32/libVkLayer_INTEL_nullhw.so
+## Files: 
+* /usr/lib32/libVkLayer_INTEL_nullhw.so
 * /usr/lib32/libVkLayer_MESA_device_select.so
 * /usr/lib32/libVkLayer_MESA_overlay.so
-{{< /files >}}

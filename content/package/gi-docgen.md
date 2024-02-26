@@ -15,7 +15,8 @@ depends = "['python3-jinja', 'python3-markdown', 'python3-markupsafe', 'python3-
 +++
 Documentation generator for GObject-based libraries
 
-{{< files text="show files" >}}* /usr/bin/gi-docgen
+## Files: 
+* /usr/bin/gi-docgen
 * /usr/lib/pkgconfig/gi-docgen.pc
 * /usr/lib/python3.12/site-packages/gidocgen/config.py
 * /usr/lib/python3.12/site-packages/gidocgen/core.py
@@ -109,4 +110,3 @@ Documentation generator for GObject-based libraries
 * /usr/lib/python3.12/site-packages/gidocgen/__pycache__/utils.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gidocgen/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/gi-docgen-2023.3/README.md
-{{< /files >}}

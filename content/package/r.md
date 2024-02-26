@@ -16,7 +16,8 @@ reverse_depends = "['cantor', 'rkward']"
 +++
 R is a language and environment for statistical computing and graphics.
 
-{{< files text="show files" >}}* /etc/ld.so.conf.d/r.conf
+## Files: 
+* /etc/ld.so.conf.d/r.conf
 * /usr/bin/R
 * /usr/bin/Rscript
 * /usr/lib/pkgconfig/libR.pc
@@ -1710,4 +1711,3 @@ R is a language and environment for statistical computing and graphics.
 * /usr/share/doc/r-4.3.2/VERSION
 * /usr/share/man/man1/R.1.gz
 * /usr/share/man/man1/Rscript.1.gz
-{{< /files >}}

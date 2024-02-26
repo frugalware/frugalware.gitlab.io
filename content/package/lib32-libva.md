@@ -16,7 +16,8 @@ reverse_depends = "['lib32-ffmpeg', 'lib32-libva-intel-driver', 'steam-native']"
 +++
 Uniform library API for hardware acceleration of video decoding. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/va/va.h
+## Files: 
+* /usr/i686-frugalware-linux/include/va/va.h
 * /usr/i686-frugalware-linux/include/va/va_backend.h
 * /usr/i686-frugalware-linux/include/va/va_backend_glx.h
 * /usr/i686-frugalware-linux/include/va/va_backend_prot.h
@@ -71,4 +72,3 @@ Uniform library API for hardware acceleration of video decoding. ( 32bit )
 * /usr/lib32/pkgconfig/libva-wayland.pc
 * /usr/lib32/pkgconfig/libva-x11.pc
 * /usr/lib32/pkgconfig/libva.pc
-{{< /files >}}

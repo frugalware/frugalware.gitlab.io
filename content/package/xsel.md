@@ -15,11 +15,11 @@ depends = "['libxt']"
 +++
 Command-line program for getting and setting the contents of the X selection.
 
-{{< files text="show files" >}}* /usr/bin/xsel
+## Files: 
+* /usr/bin/xsel
 * /usr/share/doc/xsel-1.2.0/AUTHORS
 * /usr/share/doc/xsel-1.2.0/ChangeLog
 * /usr/share/doc/xsel-1.2.0/COPYING
 * /usr/share/doc/xsel-1.2.0/INSTALL
 * /usr/share/doc/xsel-1.2.0/README
 * /usr/share/man/man1/xsel.1x.gz
-{{< /files >}}

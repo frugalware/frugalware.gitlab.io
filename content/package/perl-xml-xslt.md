@@ -16,11 +16,11 @@ reverse_depends = "['docbook2x']"
 +++
 A perl module for processing XSLT
 
-{{< files text="show files" >}}* /usr/bin/xslt-parser
+## Files: 
+* /usr/bin/xslt-parser
 * /usr/lib/perl5/site_perl/current/XML/XSLT.pm
 * /usr/share/doc/perl-xml-xslt-0.48/ChangeLog
 * /usr/share/doc/perl-xml-xslt-0.48/MANIFEST
 * /usr/share/doc/perl-xml-xslt-0.48/README
 * /usr/share/man/man1/xslt-parser.1perl.gz
 * /usr/share/man/man3/XML::XSLT.3perl.gz
-{{< /files >}}

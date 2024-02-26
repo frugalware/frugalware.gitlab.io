@@ -15,7 +15,8 @@ depends = "['kdeclarative>=5.115.0', 'kparts>=5.115.0', 'qt5-quickcontrols2>=5.1
 +++
 View disk usage information.
 
-{{< files text="show files" >}}* /etc/xdg/filelightrc
+## Files: 
+* /etc/xdg/filelightrc
 * /usr/bin/filelight
 * /usr/share/applications/org.kde.filelight.desktop
 * /usr/share/doc/filelight-23.08.5/AUTHORS
@@ -126,4 +127,3 @@ View disk usage information.
 * /usr/share/locale/zh_TW/LC_MESSAGES/filelight.mo
 * /usr/share/metainfo/org.kde.filelight.appdata.xml
 * /usr/share/qlogging-categories5/filelight.categories
-{{< /files >}}

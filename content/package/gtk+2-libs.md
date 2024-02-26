@@ -16,7 +16,8 @@ reverse_depends = "['calf', 'gail', 'gtk+2', 'hexchat', 'libdbusmenu-gtk2', 'ope
 +++
 GTK+2 core libraries.
 
-{{< files text="show files" >}}* /usr/lib/libgdk-x11-2.0.so
+## Files: 
+* /usr/lib/libgdk-x11-2.0.so
 * /usr/lib/libgdk-x11-2.0.so.0
 * /usr/lib/libgdk-x11-2.0.so.0.2400.32
 * /usr/lib/libgtk-x11-2.0.so
@@ -24,4 +25,3 @@ GTK+2 core libraries.
 * /usr/lib/libgtk-x11-2.0.so.0.2400.32
 * /usr/lib/pkgconfig/gdk-x11-2.0.pc
 * /usr/lib/pkgconfig/gtk+-x11-2.0.pc
-{{< /files >}}

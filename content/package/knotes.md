@@ -15,7 +15,8 @@ depends = "['akonadi-notes>=23.08.5', 'grantleetheme>=23.08.5', 'kcalutils>=23.0
 +++
 KDE Popup Notes.
 
-{{< files text="show files" >}}* /usr/bin/akonadi_notes_agent
+## Files: 
+* /usr/bin/akonadi_notes_agent
 * /usr/bin/knotes
 * /usr/lib/libknotesprivate.so.5
 * /usr/lib/libknotesprivate.so.5.24.5
@@ -278,4 +279,3 @@ KDE Popup Notes.
 * /usr/share/metainfo/org.kde.knotes.appdata.xml
 * /usr/share/qlogging-categories5/knotes.categories
 * /usr/share/qlogging-categories5/knotes.renamecategories
-{{< /files >}}

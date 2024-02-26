@@ -16,7 +16,8 @@ reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-ugly-a52dec', 'mencoder
 +++
 liba52 is a free library for decoding ATSC A/52 streams.
 
-{{< files text="show files" >}}* /usr/bin/a52dec
+## Files: 
+* /usr/bin/a52dec
 * /usr/bin/extract_a52
 * /usr/include/a52dec/a52.h
 * /usr/include/a52dec/attributes.h
@@ -37,4 +38,3 @@ liba52 is a free library for decoding ATSC A/52 streams.
 * /usr/share/doc/a52dec-0.7.4/TODO
 * /usr/share/man/man1/a52dec.1.gz
 * /usr/share/man/man1/extract_a52.1.gz
-{{< /files >}}

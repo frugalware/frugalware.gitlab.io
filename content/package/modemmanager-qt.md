@@ -16,7 +16,8 @@ reverse_depends = "['kdeconnect-kde', 'plasma-nm', 'plasma-settings']"
 +++
 Qt-only wrapper for ModemManager DBus API.
 
-{{< files text="show files" >}}* /usr/include/KF5/ModemManagerQt/Bearer
+## Files: 
+* /usr/include/KF5/ModemManagerQt/Bearer
 * /usr/include/KF5/ModemManagerQt/bearer.h
 * /usr/include/KF5/ModemManagerQt/Call
 * /usr/include/KF5/ModemManagerQt/call.h
@@ -69,4 +70,3 @@ Qt-only wrapper for ModemManager DBus API.
 * /usr/share/doc/modemmanager-qt-5.115.0/README.md
 * /usr/share/qlogging-categories5/modemmanagerqt.categories
 * /usr/share/qlogging-categories5/modemmanagerqt.renamecategories
-{{< /files >}}

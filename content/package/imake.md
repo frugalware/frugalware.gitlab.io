@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org imake build system
 
-{{< files text="show files" >}}* /usr/bin/ccmakedep
+## Files: 
+* /usr/bin/ccmakedep
 * /usr/bin/cleanlinks
 * /usr/bin/imake
 * /usr/bin/makeg
@@ -38,4 +39,3 @@ X.Org imake build system
 * /usr/share/man/man1/mkhtmlindex.1.gz
 * /usr/share/man/man1/revpath.1.gz
 * /usr/share/man/man1/xmkmf.1.gz
-{{< /files >}}

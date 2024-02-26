@@ -15,7 +15,8 @@ depends = "['falkon', 'python3']"
 +++
 Python Plugins for Falkon
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/falkon/AutoScroll.so
+## Files: 
+* /usr/lib/qt5/plugins/falkon/AutoScroll.so
 * /usr/lib/qt5/plugins/falkon/FlashCookieManager.so
 * /usr/lib/qt5/plugins/falkon/GreaseMonkey.so
 * /usr/lib/qt5/plugins/falkon/MouseGestures.so
@@ -23,4 +24,3 @@ Python Plugins for Falkon
 * /usr/lib/qt5/plugins/falkon/StatusBarIcons.so
 * /usr/lib/qt5/plugins/falkon/TabManager.so
 * /usr/lib/qt5/plugins/falkon/VerticalTabs.so
-{{< /files >}}

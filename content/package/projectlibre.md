@@ -15,7 +15,8 @@ depends = "['openjre-x']"
 +++
 ProjectLibre is an open source project management software
 
-{{< files text="show files" >}}* /usr/bin/projectlibre
+## Files: 
+* /usr/bin/projectlibre
 * /usr/share/applications/projectlibre.desktop
 * /usr/share/mime/packages/projectlibre.xml
 * /usr/share/pixmaps/projectlibre.png
@@ -23,4 +24,3 @@ ProjectLibre is an open source project management software
 * /usr/share/projectlibre/lib/projectlibre-reports.jar
 * /usr/share/projectlibre/lib/projectlibre-script.jar
 * /usr/share/projectlibre/projectlibre.jar
-{{< /files >}}

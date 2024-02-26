@@ -16,7 +16,8 @@ license = "BSD"
 +++
 Chromium browser
 
-{{< files text="show files" >}}* /usr/bin/chromedriver
+## Files: 
+* /usr/bin/chromedriver
 * /usr/bin/chromium
 * /usr/lib/chromium/chrome-sandbox
 * /usr/lib/chromium/chromedriver
@@ -163,4 +164,3 @@ Chromium browser
 * /usr/share/icons/hicolor/32x32/apps/chromium.png
 * /usr/share/icons/hicolor/48x48/apps/chromium.png
 * /usr/share/icons/hicolor/64x64/apps/chromium.png
-{{< /files >}}

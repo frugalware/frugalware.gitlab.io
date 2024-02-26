@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 QuantStack tools library - Multi-dimensional arrays with broadcasting and lazy computing
 
-{{< files text="show files" >}}* /usr/include/xsimd/arch/generic/xsimd_generic_arithmetic.hpp
+## Files: 
+* /usr/include/xsimd/arch/generic/xsimd_generic_arithmetic.hpp
 * /usr/include/xsimd/arch/generic/xsimd_generic_complex.hpp
 * /usr/include/xsimd/arch/generic/xsimd_generic_details.hpp
 * /usr/include/xsimd/arch/generic/xsimd_generic_logical.hpp
@@ -87,4 +88,3 @@ QuantStack tools library - Multi-dimensional arrays with broadcasting and lazy c
 * /usr/lib/pkgconfig/xsimd.pc
 * /usr/share/doc/xsimd-11.2.0/LICENSE
 * /usr/share/doc/xsimd-11.2.0/README.md
-{{< /files >}}

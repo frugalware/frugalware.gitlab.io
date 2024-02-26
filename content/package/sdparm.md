@@ -15,7 +15,8 @@ depends = "['glibc>=2.29-6']"
 +++
 sdparm list or change SCSI/ATAPI disk parameters.
 
-{{< files text="show files" >}}* /usr/bin/sas_disk_blink
+## Files: 
+* /usr/bin/sas_disk_blink
 * /usr/bin/scsi_ch_swp
 * /usr/bin/sdparm
 * /usr/share/doc/sdparm-1.12/AUTHORS
@@ -27,4 +28,3 @@ sdparm list or change SCSI/ATAPI disk parameters.
 * /usr/share/man/man8/sas_disk_blink.8.gz
 * /usr/share/man/man8/scsi_ch_swp.8.gz
 * /usr/share/man/man8/sdparm.8.gz
-{{< /files >}}

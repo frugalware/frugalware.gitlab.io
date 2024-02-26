@@ -15,5 +15,5 @@ depends = "[]"
 +++
 This script can be used to implement persistent leases on openWRT, DD-WRT etc.
 
-{{< files text="show files" >}}* /usr/bin/lease_update.sh
-{{< /files >}}
+## Files: 
+* /usr/bin/lease_update.sh

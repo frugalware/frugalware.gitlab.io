@@ -15,7 +15,8 @@ depends = "['binutils>=2.41', 'glibc>=2.38', 'libisl', 'libmpc>=1.1.0-11', 'zlib
 +++
 The GNU Compiler Collection
 
-{{< files text="show files" >}}* /usr/bin/c++-12
+## Files: 
+* /usr/bin/c++-12
 * /usr/bin/c89-12
 * /usr/bin/c99-12
 * /usr/bin/cpp-12
@@ -1665,4 +1666,3 @@ The GNU Compiler Collection
 * /usr/share/doc/gcc-12-12.3.0/COPYING3.LIB
 * /usr/share/doc/gcc-12-12.3.0/NEWS
 * /usr/share/doc/gcc-12-12.3.0/README
-{{< /files >}}

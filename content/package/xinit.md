@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X Window System initializer
 
-{{< files text="show files" >}}* /etc/X11/xinit/xinitrc
+## Files: 
+* /etc/X11/xinit/xinitrc
 * /usr/bin/startx
 * /usr/bin/xinit
 * /usr/share/doc/xinit-1.4.2/ChangeLog
@@ -26,4 +27,3 @@ X Window System initializer
 * /usr/share/doc/xinit-1.4.2/README.md
 * /usr/share/man/man1/startx.1.gz
 * /usr/share/man/man1/xinit.1.gz
-{{< /files >}}

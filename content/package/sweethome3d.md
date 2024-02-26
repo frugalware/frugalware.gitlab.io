@@ -15,9 +15,9 @@ depends = "['openjre']"
 +++
 An interior design application
 
-{{< files text="show files" >}}* /usr/bin/sweethome3d
+## Files: 
+* /usr/bin/sweethome3d
 * /usr/share/applications/sweethome3d.desktop
 * /usr/share/pixmaps/sweethome3d.png
 * /usr/share/sweethome3d/SweetHome3D-7.2.jar
 * /usr/share/sweethome3d/sweethome3d.png
-{{< /files >}}

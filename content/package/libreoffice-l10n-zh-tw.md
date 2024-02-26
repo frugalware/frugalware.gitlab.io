@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Chinese (traditional) support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/zh-TW/default.css
+## Files: 
+* /usr/lib/libreoffice/help/zh-TW/default.css
 * /usr/lib/libreoffice/help/zh-TW/err.html
 * /usr/lib/libreoffice/help/zh-TW/highcontrast1.css
 * /usr/lib/libreoffice/help/zh-TW/highcontrast2.css
@@ -136,4 +137,3 @@ Installs Chinese (traditional) support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-zh-TW.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_zh-TW.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_zh-TW.xcd
-{{< /files >}}

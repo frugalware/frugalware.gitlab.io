@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Norwegian Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/locale/nb/charset
+## Files: 
+* usr/share/locale/nb/charset
 * usr/share/locale/nb/entry.desktop
 * usr/share/locale/nb/flag.png
 * usr/share/locale/nb/LC_MESSAGES/akregator.mo
@@ -565,4 +566,3 @@ Norwegian Localization for KDE.
 * usr/share/locale/nb/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/nb/LC_MESSAGES/webarchiver.mo
 * usr/share/locale/nb/README
-{{< /files >}}

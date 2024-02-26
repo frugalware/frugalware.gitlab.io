@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org font alias
 
-{{< files text="show files" >}}* /usr/share/doc/font-alias-1.0.5/ChangeLog
+## Files: 
+* /usr/share/doc/font-alias-1.0.5/ChangeLog
 * /usr/share/doc/font-alias-1.0.5/COPYING
 * /usr/share/doc/font-alias-1.0.5/INSTALL
 * /usr/share/doc/font-alias-1.0.5/README.md
@@ -24,4 +25,3 @@ X.Org font alias
 * /usr/share/fonts/X11/75dpi/fonts.alias
 * /usr/share/fonts/X11/cyrillic/fonts.alias
 * /usr/share/fonts/X11/misc/fonts.alias
-{{< /files >}}

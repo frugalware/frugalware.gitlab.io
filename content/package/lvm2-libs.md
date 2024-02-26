@@ -16,7 +16,8 @@ reverse_depends = "['cryptsetup-luks', 'dmraid', 'lvm2', 'nfs-utils']"
 +++
 Libraries from lvm2
 
-{{< files text="show files" >}}* /usr/include/libdevmapper-event.h
+## Files: 
+* /usr/include/libdevmapper-event.h
 * /usr/include/libdevmapper.h
 * /usr/include/lvm2cmd.h
 * /usr/lib/device-mapper/libdevmapper-event-lvm2mirror.so
@@ -37,4 +38,3 @@ Libraries from lvm2
 * /usr/lib/liblvm2cmd.so.2.03
 * /usr/lib/pkgconfig/devmapper-event.pc
 * /usr/lib/pkgconfig/devmapper.pc
-{{< /files >}}

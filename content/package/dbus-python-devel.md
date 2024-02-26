@@ -16,6 +16,6 @@ reverse_depends = "['dbus-python']"
 +++
 dbus-python devel
 
-{{< files text="show files" >}}* /usr/include/dbus-1.0/dbus/dbus-python.h
+## Files: 
+* /usr/include/dbus-1.0/dbus/dbus-python.h
 * /usr/lib/pkgconfig/dbus-python.pc
-{{< /files >}}

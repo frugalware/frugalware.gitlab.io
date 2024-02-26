@@ -15,7 +15,8 @@ depends = "['clight', 'qt5-charts>=5.15.10']"
 +++
 Qt GUI for Clight
 
-{{< files text="show files" >}}* /usr/bin/clight-gui
+## Files: 
+* /usr/bin/clight-gui
 * /usr/share/doc/clight-gui-4.8/LICENSE
 * /usr/share/doc/clight-gui-4.8/README.md
 * /usr/share/icons/hicolor/scalable/status/brightness-high-dark.svg
@@ -26,4 +27,3 @@ Qt GUI for Clight
 * /usr/share/icons/hicolor/scalable/status/brightness-minus-light.svg
 * /usr/share/icons/hicolor/scalable/status/brightness-plus-dark.svg
 * /usr/share/icons/hicolor/scalable/status/brightness-plus-light.svg
-{{< /files >}}

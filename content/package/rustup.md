@@ -15,7 +15,8 @@ depends = "['curl']"
 +++
 The Rust toolchain installer
 
-{{< files text="show files" >}}* /usr/bin/cargo
+## Files: 
+* /usr/bin/cargo
 * /usr/bin/cargo-clippy
 * /usr/bin/cargo-fmt
 * /usr/bin/clippy-driver
@@ -30,4 +31,3 @@ The Rust toolchain installer
 * /usr/share/doc/rustup-1.26.0/README.md
 * /usr/share/fish/completions/rustup.fish
 * /usr/share/zsh/site-functions/_rustup
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['lib32-libpulse']"
 +++
 A Trivial Database ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/tdbbackup
+## Files: 
+* /usr/i686-frugalware-linux/bin/tdbbackup
 * /usr/i686-frugalware-linux/bin/tdbdump
 * /usr/i686-frugalware-linux/bin/tdbrestore
 * /usr/i686-frugalware-linux/bin/tdbtool
@@ -25,4 +26,3 @@ A Trivial Database ( 32bit )
 * /usr/lib32/libtdb.so.1
 * /usr/lib32/libtdb.so.1.4.10
 * /usr/lib32/pkgconfig/tdb.pc
-{{< /files >}}

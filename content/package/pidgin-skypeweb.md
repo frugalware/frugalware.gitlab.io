@@ -15,7 +15,8 @@ depends = "['json-glib', 'libpurple']"
 +++
 This is a Skype chat plugin for Pidgin and libpurple messengers.
 
-{{< files text="show files" >}}* /usr/lib/purple-2/libskypeweb.so
+## Files: 
+* /usr/lib/purple-2/libskypeweb.so
 * /usr/share/doc/pidgin-skypeweb-1.7/README.md
 * /usr/share/pixmaps/pidgin/emotes/skype/theme
 * /usr/share/pixmaps/pidgin/protocols/16/skype.png
@@ -24,4 +25,3 @@ This is a Skype chat plugin for Pidgin and libpurple messengers.
 * /usr/share/pixmaps/pidgin/protocols/22/skypeout.png
 * /usr/share/pixmaps/pidgin/protocols/48/skype.png
 * /usr/share/pixmaps/pidgin/protocols/48/skypeout.png
-{{< /files >}}

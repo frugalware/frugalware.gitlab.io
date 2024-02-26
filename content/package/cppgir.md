@@ -15,7 +15,8 @@ depends = "['fmtlib>=10.0', 'libboost>=1.83.0']"
 +++
 GObject-Introspection C++ binding wrapper generator
 
-{{< files text="show files" >}}* /usr/bin/cppgir
+## Files: 
+* /usr/bin/cppgir
 * /usr/include/cppgir/gi/base.hpp
 * /usr/include/cppgir/gi/boxed.hpp
 * /usr/include/cppgir/gi/callback.hpp
@@ -70,4 +71,3 @@ GObject-Introspection C++ binding wrapper generator
 * /usr/share/doc/cppgir/examples/gtk-obj.cpp
 * /usr/share/doc/cppgir/examples/gtk.cpp
 * /usr/share/doc/cppgir/README.md
-{{< /files >}}

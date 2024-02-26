@@ -16,7 +16,8 @@ reverse_depends = "['haskell-wai-extra']"
 +++
 A logging system for WAI
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/wai-logger-2.4.0/libHSwai-logger-2.4.0-nKkI79JjCCLJ08212JLDd.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/wai-logger-2.4.0/libHSwai-logger-2.4.0-nKkI79JjCCLJ08212JLDd.a
 * /usr/lib/ghc-9.8.1/site-local/wai-logger-2.4.0/Network/Wai/Logger.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/wai-logger-2.4.0/Network/Wai/Logger.hi
 * /usr/lib/ghc-9.8.1/site-local/wai-logger-2.4.0/Network/Wai/Logger/Apache.dyn_hi
@@ -41,4 +42,3 @@ A logging system for WAI
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/wai-logger-2.4.0/LICENSE
 * /usr/share/haskell/haskell-wai-logger/register.sh
 * /usr/share/haskell/haskell-wai-logger/unregister.sh
-{{< /files >}}

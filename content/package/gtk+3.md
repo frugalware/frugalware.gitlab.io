@@ -16,7 +16,8 @@ reverse_depends = "['appstream-glib', 'castor', 'claws-mail', 'colord-gtk3', 'co
 +++
 The GTK+ Toolkit (3.x series)
 
-{{< files text="show files" >}}* /etc/gtk-3.0/im-multipress.conf
+## Files: 
+* /etc/gtk-3.0/im-multipress.conf
 * /usr/bin/broadwayd
 * /usr/bin/gtk-builder-tool
 * /usr/bin/gtk-encode-symbolic-svg
@@ -766,4 +767,3 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/locale/zh_TW/LC_MESSAGES/gtk30.mo
 * /usr/share/themes/Default/gtk-3.0/gtk-keys.css
 * /usr/share/themes/Emacs/gtk-3.0/gtk-keys.css
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['imlib2', 'libxcomposite', 'libxdamage']"
 +++
 A fullscreen task manager for KDE
 
-{{< files text="show files" >}}* usr/bin/kompose
+## Files: 
+* usr/bin/kompose
 * usr/share/applnk/Utilities/kompose.desktop
 * usr/share/apps/kompose/komposeui.rc
 * usr/share/doc/HTML/en/kompose/common
@@ -41,4 +42,3 @@ A fullscreen task manager for KDE
 * usr/share/locale/es/LC_MESSAGES/kompose.mo
 * usr/share/locale/fr/LC_MESSAGES/kompose.mo
 * usr/share/locale/it/LC_MESSAGES/kompose.mo
-{{< /files >}}

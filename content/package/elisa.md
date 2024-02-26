@@ -15,7 +15,8 @@ depends = "['baloo5', 'kirigami2', 'vlc']"
 +++
 A simple music player aiming to provide a nice experience for its users
 
-{{< files text="show files" >}}* /usr/bin/elisa
+## Files: 
+* /usr/bin/elisa
 * /usr/lib/elisa/libelisaLib.so.0
 * /usr/lib/elisa/libelisaLib.so.0.1
 * /usr/share/applications/org.kde.elisa.desktop
@@ -78,4 +79,3 @@ A simple music player aiming to provide a nice experience for its users
 * /usr/share/qt5/qml/org/kde/elisa/libelisaqmlplugin.so
 * /usr/share/qt5/qml/org/kde/elisa/plugins.qmltypes
 * /usr/share/qt5/qml/org/kde/elisa/qmldir
-{{< /files >}}

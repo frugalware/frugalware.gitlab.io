@@ -16,7 +16,8 @@ reverse_depends = "['vlc-live']"
 +++
 Source-code libraries for standards-based RTP/RTCP/RTSP multimedia streaming
 
-{{< files text="show files" >}}* /usr/bin/live555HLSProxy
+## Files: 
+* /usr/bin/live555HLSProxy
 * /usr/bin/live555MediaServer
 * /usr/bin/live555ProxyServer
 * /usr/bin/mikeyParse
@@ -251,4 +252,3 @@ Source-code libraries for standards-based RTP/RTCP/RTSP multimedia streaming
 * /usr/share/doc/live-2024.02.15/COPYING
 * /usr/share/doc/live-2024.02.15/COPYING.LESSER
 * /usr/share/doc/live-2024.02.15/README
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['sane-backends']"
 +++
 A library for applications communicates with pralallel port devices
 
-{{< files text="show files" >}}* /usr/bin/libieee1284_test
+## Files: 
+* /usr/bin/libieee1284_test
 * /usr/include/ieee1284.h
 * /usr/lib/libieee1284.so
 * /usr/lib/libieee1284.so.3
@@ -74,4 +75,3 @@ A library for applications communicates with pralallel port devices
 * /usr/share/man/man3/libieee1284.3.gz
 * /usr/share/man/man3/parport.3.gz
 * /usr/share/man/man3/parport_list.3.gz
-{{< /files >}}

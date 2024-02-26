@@ -16,7 +16,8 @@ reverse_depends = "['courier-authlib']"
 +++
 This library implements several algorithms related to the Unicode
 
-{{< files text="show files" >}}* /usr/include/courier-unicode-categories-tab.h
+## Files: 
+* /usr/include/courier-unicode-categories-tab.h
 * /usr/include/courier-unicode-script-tab.h
 * /usr/include/courier-unicode.h
 * /usr/lib/libcourier-unicode.so
@@ -155,4 +156,3 @@ This library implements several algorithms related to the Unicode
 * /usr/share/man/man3/unicode_wb_next_cnt.3.gz
 * /usr/share/man/man3/unicode_word_break.3.gz
 * /usr/share/man/man7/courier-unicode.7.gz
-{{< /files >}}

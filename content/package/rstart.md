@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org rstart application
 
-{{< files text="show files" >}}* /usr/bin/rstart
+## Files: 
+* /usr/bin/rstart
 * /usr/bin/rstartd
 * /usr/lib/X11/rstart/commands/@List
 * /usr/lib/X11/rstart/commands/ListContexts
@@ -39,4 +40,3 @@ X.Org rstart application
 * /usr/share/doc/rstart-1.0.6/README.md
 * /usr/share/man/man1/rstart.1.gz
 * /usr/share/man/man1/rstartd.1.gz
-{{< /files >}}

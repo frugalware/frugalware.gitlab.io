@@ -16,7 +16,8 @@ reverse_depends = "['gcc-g++', 'gcc-gfortran', 'gcc-objc', 'kernel-lts-source', 
 +++
 The GNU Compiler Collection
 
-{{< files text="show files" >}}* /usr/bin/c89
+## Files: 
+* /usr/bin/c89
 * /usr/bin/c99
 * /usr/bin/cc
 * /usr/bin/cpp
@@ -834,4 +835,3 @@ The GNU Compiler Collection
 * /usr/share/man/man7/fsf-funding.7.gz
 * /usr/share/man/man7/gfdl.7.gz
 * /usr/share/man/man7/gpl.7.gz
-{{< /files >}}

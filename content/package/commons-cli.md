@@ -15,7 +15,7 @@ depends = "['openjre']"
 +++
 Commons CLI library provides an API for processing command line interfaces.
 
-{{< files text="show files" >}}* /usr/share/doc/commons-cli-1.5.0/README.md
+## Files: 
+* /usr/share/doc/commons-cli-1.5.0/README.md
 * /usr/share/doc/commons-cli-1.5.0/RELEASE-NOTES.txt
 * /usr/share/java/commons-cli.jar
-{{< /files >}}

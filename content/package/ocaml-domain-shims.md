@@ -16,7 +16,8 @@ reverse_depends = "['saturn']"
 +++
 Self-contained implementation of the Domain module for OCaml 4
 
-{{< files text="show files" >}}* /usr/lib/ocaml/domain_shims/domain_shims.cma
+## Files: 
+* /usr/lib/ocaml/domain_shims/domain_shims.cma
 * /usr/lib/ocaml/domain_shims/domain_shims.cmxa
 * /usr/lib/ocaml/domain_shims/domain_shims.cmxs
 * /usr/lib/ocaml/domain_shims/dune-package
@@ -27,4 +28,3 @@ Self-contained implementation of the Domain module for OCaml 4
 * /usr/share/doc/ocaml-domain-shims-0.1.0/domain_shims/README.md
 * /usr/share/doc/ocaml-domain-shims-0.1.0/LICENSE
 * /usr/share/doc/ocaml-domain-shims-0.1.0/README.md
-{{< /files >}}

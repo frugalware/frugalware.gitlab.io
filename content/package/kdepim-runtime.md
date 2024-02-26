@@ -16,7 +16,8 @@ reverse_depends = "['kmail', 'korganizer', 'zanshin']"
 +++
 KDE PIM Runtime
 
-{{< files text="show files" >}}* /usr/bin/akonadi_akonotes_resource
+## Files: 
+* /usr/bin/akonadi_akonotes_resource
 * /usr/bin/akonadi_birthdays_resource
 * /usr/bin/akonadi_contacts_resource
 * /usr/bin/akonadi_davgroupware_resource
@@ -1877,4 +1878,3 @@ KDE PIM Runtime
 * /usr/share/mime/packages/kdepim-mime.xml
 * /usr/share/qlogging-categories5/kdepim-runtime.categories
 * /usr/share/qlogging-categories5/kdepim-runtime.renamecategories
-{{< /files >}}

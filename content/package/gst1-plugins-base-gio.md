@@ -15,5 +15,5 @@ depends = "['glib2>=2.56.0', 'gst1-plugins-base>=1.22.10', 'gstreamer1>=1.22.10'
 +++
 GStreamer GIO plugin (Base).
 
-{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstgio.so
-{{< /files >}}
+## Files: 
+* /usr/lib/gstreamer-1.0/libgstgio.so

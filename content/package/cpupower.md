@@ -15,7 +15,8 @@ depends = "['pciutils']"
 +++
 Kernel cpu powersaving tool
 
-{{< files text="show files" >}}* /etc/cpufreq-bench.conf
+## Files: 
+* /etc/cpufreq-bench.conf
 * /etc/sysconfig/cpupower
 * /usr/bin/cpufreq-bench
 * /usr/bin/cpufreq-bench_plot.sh
@@ -46,4 +47,3 @@ Kernel cpu powersaving tool
 * /usr/share/man/man1/cpupower-powercap-info.1.gz
 * /usr/share/man/man1/cpupower-set.1.gz
 * /usr/share/man/man1/cpupower.1.gz
-{{< /files >}}

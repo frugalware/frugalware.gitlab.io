@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 A very fast Bayesian spam filtering tool.
 
-{{< files text="show files" >}}* /etc/bogofilter.cf
+## Files: 
+* /etc/bogofilter.cf
 * /usr/bin/bfproxy.pl
 * /usr/bin/bf_compact
 * /usr/bin/bf_copy
@@ -75,4 +76,3 @@ A very fast Bayesian spam filtering tool.
 * /usr/share/man/man1/bogotune.1.gz
 * /usr/share/man/man1/bogoupgrade.1.gz
 * /usr/share/man/man1/bogoutil.1.gz
-{{< /files >}}

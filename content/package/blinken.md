@@ -15,7 +15,8 @@ depends = "['kdeclarative>=5.115.0', 'knewstuff>=5.115.0', 'qt5-gstreamer>=1.2.0
 +++
 Memory Enhancement Game.
 
-{{< files text="show files" >}}* /usr/bin/blinken
+## Files: 
+* /usr/bin/blinken
 * /usr/share/applications/org.kde.blinken.desktop
 * /usr/share/blinken/fonts/steve.ttf
 * /usr/share/blinken/images/blinken.svg
@@ -164,4 +165,3 @@ Memory Enhancement Game.
 * /usr/share/locale/zh_CN/LC_MESSAGES/blinken.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/blinken.mo
 * /usr/share/metainfo/org.kde.blinken.appdata.xml
-{{< /files >}}

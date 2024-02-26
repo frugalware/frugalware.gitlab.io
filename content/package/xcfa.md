@@ -15,7 +15,8 @@ depends = "['alsa-lib', 'curl', 'dvd+rw-tools', 'freetype2', 'gtk+3', 'libcddb',
 +++
 Frontend which use miscellaneous external programs to extract and convert music files
 
-{{< files text="show files" >}}* /usr/bin/xcfa
+## Files: 
+* /usr/bin/xcfa
 * /usr/bin/xcfa_cli
 * /usr/share/applications/xcfa.desktop
 * /usr/share/doc/xcfa-5.0.2/AUTHORS
@@ -73,4 +74,3 @@ Frontend which use miscellaneous external programs to extract and convert music 
 * /usr/share/xcfa/glade/xcfa_win_reader.glade
 * /usr/share/xcfa/glade/xcfa_win_scan.glade
 * /usr/share/xcfa/glade/xcfa_win_treeview.glade
-{{< /files >}}

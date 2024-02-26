@@ -16,7 +16,8 @@ reverse_depends = "['darktable', 'digikam', 'emacs', 'kitty', 'libvips', 'polych
 +++
 A robust collection of tools and libraries to read, write and manipulate image files.
 
-{{< files text="show files" >}}* /etc/ImageMagick-7/colors.xml
+## Files: 
+* /etc/ImageMagick-7/colors.xml
 * /etc/ImageMagick-7/delegates.xml
 * /etc/ImageMagick-7/log.xml
 * /etc/ImageMagick-7/mime.xml
@@ -831,4 +832,3 @@ A robust collection of tools and libraries to read, write and manipulate image f
 * /usr/share/man/man1/stream.1.gz
 * /usr/share/man/man3/Image::Magick.3perl.gz
 * /usr/share/man/man3/Image::Magick::Q16HDRI.3perl.gz
-{{< /files >}}

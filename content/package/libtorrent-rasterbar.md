@@ -16,7 +16,8 @@ reverse_depends = "['libtorrent-rasterbar-python', 'qbittorrent']"
 +++
 LibTorrent Rasterbar is a BitTorrent library written in C++
 
-{{< files text="show files" >}}* /usr/include/libtorrent/address.hpp
+## Files: 
+* /usr/include/libtorrent/address.hpp
 * /usr/include/libtorrent/add_torrent_params.hpp
 * /usr/include/libtorrent/alert.hpp
 * /usr/include/libtorrent/alert_types.hpp
@@ -305,4 +306,3 @@ LibTorrent Rasterbar is a BitTorrent library written in C++
 * /usr/share/doc/libtorrent-rasterbar-2.0.10/LICENSE
 * /usr/share/doc/libtorrent-rasterbar-2.0.10/NEWS
 * /usr/share/doc/libtorrent-rasterbar-2.0.10/README.rst
-{{< /files >}}

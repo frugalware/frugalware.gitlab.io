@@ -15,7 +15,8 @@ depends = "['bzip2', 'libblkid>=2.27.1-4', 'libsystemd', 'ncurses>=6.0-6', 'zlib
 +++
 Utilities for Global File System (GFS)
 
-{{< files text="show files" >}}* /usr/bin/fsck.gfs2
+## Files: 
+* /usr/bin/fsck.gfs2
 * /usr/bin/gfs2_convert
 * /usr/bin/gfs2_edit
 * /usr/bin/gfs2_grow
@@ -46,4 +47,3 @@ Utilities for Global File System (GFS)
 * /usr/share/man/man8/glocktop.8.gz
 * /usr/share/man/man8/mkfs.gfs2.8.gz
 * /usr/share/man/man8/tunegfs2.8.gz
-{{< /files >}}

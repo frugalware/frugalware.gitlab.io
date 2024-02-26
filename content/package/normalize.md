@@ -15,7 +15,8 @@ depends = "['libmad>=0.15.1b-9']"
 +++
 A tool for adjusting the volume of WAV files to a standard level
 
-{{< files text="show files" >}}* /usr/bin/normalize
+## Files: 
+* /usr/bin/normalize
 * /usr/bin/normalize-mp3
 * /usr/bin/normalize-ogg
 * /usr/share/doc/normalize-0.7.7/AUTHORS
@@ -33,4 +34,3 @@ A tool for adjusting the volume of WAV files to a standard level
 * /usr/share/locale/fr/LC_MESSAGES/normalize.mo
 * /usr/share/man/man1/normalize-mp3.1.gz
 * /usr/share/man/man1/normalize.1.gz
-{{< /files >}}

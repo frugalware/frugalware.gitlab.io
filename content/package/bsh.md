@@ -16,5 +16,5 @@ reverse_depends = "['libreoffice-scripting-beanshell']"
 +++
 Lightweight Scripting for Java
 
-{{< files text="show files" >}}* /usr/share/java/bsh.jar
-{{< /files >}}
+## Files: 
+* /usr/share/java/bsh.jar

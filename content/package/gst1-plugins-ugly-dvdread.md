@@ -15,5 +15,5 @@ depends = "['gst1-plugins-base>=1.22.10', 'gst1-plugins-ugly>=1.22.10', 'libdvdr
 +++
 GStreamer dvdread plugin (Ugly).
 
-{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstdvdread.so
-{{< /files >}}
+## Files: 
+* /usr/lib/gstreamer-1.0/libgstdvdread.so

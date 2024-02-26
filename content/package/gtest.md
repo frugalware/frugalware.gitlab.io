@@ -16,7 +16,8 @@ reverse_depends = "['insight-toolkit']"
 +++
 Google Test - C++ testing utility based on the xUnit framework (like JUnit)
 
-{{< files text="show files" >}}* /usr/include/gmock/gmock-actions.h
+## Files: 
+* /usr/include/gmock/gmock-actions.h
 * /usr/include/gmock/gmock-cardinalities.h
 * /usr/include/gmock/gmock-function-mocker.h
 * /usr/include/gmock/gmock-matchers.h
@@ -73,4 +74,3 @@ Google Test - C++ testing utility based on the xUnit framework (like JUnit)
 * /usr/share/doc/gtest-1.14.0/LICENSE
 * /usr/share/doc/gtest-1.14.0/README.md
 * /usr/share/doc/gtest-1.14.0/README.rst
-{{< /files >}}

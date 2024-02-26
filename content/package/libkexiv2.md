@@ -16,7 +16,8 @@ reverse_depends = "['kdegraphics-thumbnailers', 'kolourpaint', 'okular']"
 +++
 A C++ library to manipulate EXIF/IPTC/XMP metadata using Exiv2 library.
 
-{{< files text="show files" >}}* /usr/include/KF5/KExiv2/KExiv2/KExiv2
+## Files: 
+* /usr/include/KF5/KExiv2/KExiv2/KExiv2
 * /usr/include/KF5/KExiv2/kexiv2/kexiv2.h
 * /usr/include/KF5/KExiv2/KExiv2/KExiv2Data
 * /usr/include/KF5/KExiv2/kexiv2/kexiv2data.h
@@ -37,4 +38,3 @@ A C++ library to manipulate EXIF/IPTC/XMP metadata using Exiv2 library.
 * /usr/share/doc/libkexiv2-23.08.5/README
 * /usr/share/doc/libkexiv2-23.08.5/TODO
 * /usr/share/qlogging-categories5/libkexiv2.categories
-{{< /files >}}

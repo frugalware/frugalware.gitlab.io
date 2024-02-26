@@ -15,6 +15,6 @@ depends = "['glibc', 'xz']"
 +++
 Delta/differential compression tools and binary diff tool
 
-{{< files text="show files" >}}* /usr/bin/xdelta3
+## Files: 
+* /usr/bin/xdelta3
 * /usr/share/man/man1/xdelta3.1.gz
-{{< /files >}}

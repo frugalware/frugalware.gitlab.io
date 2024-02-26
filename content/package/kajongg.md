@@ -15,7 +15,8 @@ depends = "['libkmahjongg>=23.08.5', 'python3-twisted']"
 +++
 KDE Mahjongg game.
 
-{{< files text="show files" >}}* /usr/bin/kajongg
+## Files: 
+* /usr/bin/kajongg
 * /usr/bin/kajonggserver
 * /usr/share/applications/org.kde.kajongg.desktop
 * /usr/share/doc/HTML/ca/kajongg/config_background.png
@@ -619,4 +620,3 @@ KDE Mahjongg game.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kajongg.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kajongg.mo
 * /usr/share/metainfo/org.kde.kajongg.appdata.xml
-{{< /files >}}

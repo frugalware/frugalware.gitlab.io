@@ -16,11 +16,11 @@ reverse_depends = "['lib32-flac', 'lib32-libsndfile', 'lib32-libtheora', 'lib32-
 +++
 Ogg bitstream and framing library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/ogg/config_types.h
+## Files: 
+* /usr/i686-frugalware-linux/include/ogg/config_types.h
 * /usr/i686-frugalware-linux/include/ogg/ogg.h
 * /usr/i686-frugalware-linux/include/ogg/os_types.h
 * /usr/lib32/libogg.so
 * /usr/lib32/libogg.so.0
 * /usr/lib32/libogg.so.0.8.5
 * /usr/lib32/pkgconfig/ogg.pc
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['docker-compose']"
 +++
 Docker - the Linux container runtime
 
-{{< files text="show files" >}}* /etc/sysconfig/dockerd
+## Files: 
+* /etc/sysconfig/dockerd
 * /usr/bin/docker
 * /usr/bin/dockerd
 * /usr/lib/systemd/system/docker.service
@@ -216,4 +217,3 @@ Docker - the Linux container runtime
 * /usr/share/man/man5/Dockerfile.5.gz
 * /usr/share/man/man8/dockerd.8.gz
 * /usr/share/zsh/site-functions/_docker
-{{< /files >}}

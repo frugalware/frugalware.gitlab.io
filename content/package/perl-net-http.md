@@ -16,7 +16,8 @@ reverse_depends = "['perl-libwww']"
 +++
 Low-level HTTP connection (client)
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/Net/HTTP.pm
+## Files: 
+* /usr/lib/perl5/site_perl/Net/HTTP.pm
 * /usr/lib/perl5/site_perl/Net/HTTP/Methods.pm
 * /usr/lib/perl5/site_perl/Net/HTTP/NB.pm
 * /usr/lib/perl5/site_perl/Net/HTTPS.pm
@@ -29,4 +30,3 @@ Low-level HTTP connection (client)
 * /usr/share/man/man3/Net::HTTP::Methods.3perl.gz
 * /usr/share/man/man3/Net::HTTP::NB.3perl.gz
 * /usr/share/man/man3/Net::HTTPS.3perl.gz
-{{< /files >}}

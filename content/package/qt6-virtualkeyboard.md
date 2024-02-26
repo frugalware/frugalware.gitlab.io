@@ -15,7 +15,8 @@ depends = "['hunspell', 'qt6-declarative', 'qt6-svg']"
 +++
 The Qt6 toolkit, qtvirtualkeyboard
 
-{{< files text="show files" >}}* /usr/include/qt6/QtHunspellInputMethod/6.6.2/QtHunspellInputMethod/private/hunspellinputmethod_p.h
+## Files: 
+* /usr/include/qt6/QtHunspellInputMethod/6.6.2/QtHunspellInputMethod/private/hunspellinputmethod_p.h
 * /usr/include/qt6/QtHunspellInputMethod/6.6.2/QtHunspellInputMethod/private/hunspellinputmethod_p_p.h
 * /usr/include/qt6/QtHunspellInputMethod/6.6.2/QtHunspellInputMethod/private/hunspellwordlist_p.h
 * /usr/include/qt6/QtHunspellInputMethod/6.6.2/QtHunspellInputMethod/private/hunspellworker_p.h
@@ -286,4 +287,3 @@ The Qt6 toolkit, qtvirtualkeyboard
 * /usr/lib/qt6/qml/QtQuick/VirtualKeyboard/Styles/TraceCanvas.qml
 * /usr/lib/qt6/qml/QtQuick/VirtualKeyboard/Styles/TraceInputKeyPanel.qml
 * /usr/lib/qt6/qml/QtQuick/VirtualKeyboard/Styles/TraceUtils.js
-{{< /files >}}

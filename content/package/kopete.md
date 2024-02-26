@@ -15,7 +15,8 @@ depends = "['jsoncpp', 'kcmutils>=5.115.0', 'kconfig>=5.115.0', 'kcontacts>=5.11
 +++
 Kopete is a multi-protocol instant messenger for the KDE Desktop.
 
-{{< files text="show files" >}}* /etc/xdg/kopeterc
+## Files: 
+* /etc/xdg/kopeterc
 * /usr/bin/kopete
 * /usr/bin/winpopup-install
 * /usr/bin/winpopup-send
@@ -910,4 +911,3 @@ Kopete is a multi-protocol instant messenger for the KDE Desktop.
 * /usr/share/sounds/Kopete_Received.ogg
 * /usr/share/sounds/Kopete_Sent.ogg
 * /usr/share/sounds/Kopete_User_is_Online.ogg
-{{< /files >}}

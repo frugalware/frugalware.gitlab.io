@@ -15,6 +15,6 @@ depends = "['python3>=3.12']"
 +++
 Python3 snackmodule for newt
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/snack.py
+## Files: 
+* /usr/lib/python3.12/site-packages/snack.py
 * /usr/lib/python3.12/site-packages/_snack.so
-{{< /files >}}

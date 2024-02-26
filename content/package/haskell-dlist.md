@@ -16,7 +16,8 @@ reverse_depends = "['haskell-aeson', 'haskell-data-default-instances-dlist', 'ha
 +++
 Haskell differences lists.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/dlist-1.0/Data/DList.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/dlist-1.0/Data/DList.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/dlist-1.0/Data/DList.hi
 * /usr/lib/ghc-9.8.1/site-local/dlist-1.0/Data/DList/DNonEmpty.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/dlist-1.0/Data/DList/DNonEmpty.hi
@@ -41,4 +42,3 @@ Haskell differences lists.
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/dlist-1.0/license.md
 * /usr/share/haskell/haskell-dlist/register.sh
 * /usr/share/haskell/haskell-dlist/unregister.sh
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['openvkl']"
 +++
 Common C++ infrastructure for oneAPI Rendering Toolkit
 
-{{< files text="show files" >}}* /usr/bin/rkcommon_test_suite
+## Files: 
+* /usr/bin/rkcommon_test_suite
 * /usr/include/rkcommon/array3D/Array3D.h
 * /usr/include/rkcommon/array3D/for_each.h
 * /usr/include/rkcommon/common.h
@@ -99,4 +100,3 @@ Common C++ infrastructure for oneAPI Rendering Toolkit
 * /usr/lib/librkcommon.so.1
 * /usr/lib/librkcommon.so.1.9.0
 * /usr/share/doc/rkcommon-1.9.0/README.md
-{{< /files >}}

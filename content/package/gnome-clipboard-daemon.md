@@ -15,5 +15,5 @@ depends = "['gtk+2']"
 +++
 A daemon that keeps the content of your X clipboard in memory.
 
-{{< files text="show files" >}}* usr/bin/gnome-clipboard-daemon
-{{< /files >}}
+## Files: 
+* usr/bin/gnome-clipboard-daemon

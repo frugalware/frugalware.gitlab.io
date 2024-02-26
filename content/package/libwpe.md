@@ -16,7 +16,8 @@ reverse_depends = "['wpebackend-fdo']"
 +++
 General-purpose library for the WPE WebKit.
 
-{{< files text="show files" >}}* /usr/include/wpe-1.0/wpe/export.h
+## Files: 
+* /usr/include/wpe-1.0/wpe/export.h
 * /usr/include/wpe-1.0/wpe/gamepad.h
 * /usr/include/wpe-1.0/wpe/input-xkb.h
 * /usr/include/wpe-1.0/wpe/input.h
@@ -38,4 +39,3 @@ General-purpose library for the WPE WebKit.
 * /usr/lib/pkgconfig/wpe-1.0.pc
 * /usr/share/doc/libwpe-1.15.2/COPYING
 * /usr/share/doc/libwpe-1.15.2/NEWS
-{{< /files >}}

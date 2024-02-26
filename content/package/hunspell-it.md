@@ -15,8 +15,8 @@ depends = "['hunspell>=1.0.8']"
 +++
 Italian dictionary for Hunspell
 
-{{< files text="show files" >}}* /usr/share/doc/hunspell-it-20061130/README.txt
+## Files: 
+* /usr/share/doc/hunspell-it-20061130/README.txt
 * /usr/share/doc/hunspell-it-20061130/README_it_IT.txt
 * /usr/share/myspell/it_IT.aff
 * /usr/share/myspell/it_IT.dic
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libkdegames>=23.08.5']"
 +++
 KSnakeDuel is a simple snake duel game
 
-{{< files text="show files" >}}* /usr/bin/ksnakeduel
+## Files: 
+* /usr/bin/ksnakeduel
 * /usr/share/applications/org.kde.ksnakeduel.desktop
 * /usr/share/config.kcfg/ksnakeduel.kcfg
 * /usr/share/doc/HTML/ca/ksnakeduel/index.cache.bz2
@@ -112,4 +113,3 @@ KSnakeDuel is a simple snake duel game
 * /usr/share/locale/zh_TW/LC_MESSAGES/ksnakeduel.mo
 * /usr/share/metainfo/org.kde.ksnakeduel.appdata.xml
 * /usr/share/qlogging-categories5/ksnakeduel.categories
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['gwenview']"
 +++
 Tool for annotating images
 
-{{< files text="show files" >}}* /usr/include/kImageAnnotator/KImageAnnotator.h
+## Files: 
+* /usr/include/kImageAnnotator/KImageAnnotator.h
 * /usr/include/kImageAnnotator/KImageAnnotatorExport.h
 * /usr/lib/cmake/kImageAnnotator/kImageAnnotator-targets-release.cmake
 * /usr/lib/cmake/kImageAnnotator/kImageAnnotator-targets.cmake
@@ -58,4 +59,3 @@ Tool for annotating images
 * /usr/share/kImageAnnotator/translations/kImageAnnotator_tr.qm
 * /usr/share/kImageAnnotator/translations/kImageAnnotator_uk.qm
 * /usr/share/kImageAnnotator/translations/kImageAnnotator_zh_CN.qm
-{{< /files >}}

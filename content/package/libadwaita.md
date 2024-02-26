@@ -16,7 +16,8 @@ reverse_depends = "['celluloid', 'easyeffects', 'libpanel', 'sysprof']"
 +++
 Building blocks for modern adaptive GNOME applications
 
-{{< files text="show files" >}}* /usr/bin/adwaita-1-demo
+## Files: 
+* /usr/bin/adwaita-1-demo
 * /usr/include/libadwaita-1/adw-about-window.h
 * /usr/include/libadwaita-1/adw-action-row.h
 * /usr/include/libadwaita-1/adw-animation-target.h
@@ -145,4 +146,3 @@ Building blocks for modern adaptive GNOME applications
 * /usr/share/metainfo/org.gnome.Adwaita1.Demo.metainfo.xml
 * /usr/share/vala/vapi/libadwaita-1.deps
 * /usr/share/vala/vapi/libadwaita-1.vapi
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['audiotube', 'dolphin', 'kcrash', 'keysmith', 'krecorder', '
 +++
 KDE Access to window manager.
 
-{{< files text="show files" >}}* /usr/include/KF5/KWindowSystem/config-kwindowsystem.h
+## Files: 
+* /usr/include/KF5/KWindowSystem/config-kwindowsystem.h
 * /usr/include/KF5/KWindowSystem/fixx11h.h
 * /usr/include/KF5/KWindowSystem/KKeyServer
 * /usr/include/KF5/KWindowSystem/kkeyserver.h
@@ -165,4 +166,3 @@ KDE Access to window manager.
 * /usr/share/qlogging-categories5/kwindowsystem.categories
 * /usr/share/qlogging-categories5/kwindowsystem.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KWindowSystem.pri
-{{< /files >}}

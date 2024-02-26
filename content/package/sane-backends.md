@@ -16,7 +16,8 @@ reverse_depends = "['hplip', 'ksanecore', 'libreoffice', 'python3-pillow', 'pyth
 +++
 Scanner Access Now Easy
 
-{{< files text="show files" >}}* /etc/sane.d/abaton.conf
+## Files: 
+* /etc/sane.d/abaton.conf
 * /etc/sane.d/agfafocus.conf
 * /etc/sane.d/apple.conf
 * /etc/sane.d/artec.conf
@@ -614,4 +615,3 @@ Scanner Access Now Easy
 * /usr/share/man/man5/sane-xerox_mfp.5.gz
 * /usr/share/man/man7/sane.7.gz
 * /usr/share/man/man8/saned.8.gz
-{{< /files >}}

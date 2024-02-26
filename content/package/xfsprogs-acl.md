@@ -16,7 +16,8 @@ reverse_depends = "['aide', 'cdrtools', 'coreutils', 'libisofs', 'libsystemd', '
 +++
 Dynamic library for access control list support.
 
-{{< files text="show files" >}}* /usr/bin/chacl
+## Files: 
+* /usr/bin/chacl
 * /usr/bin/getfacl
 * /usr/bin/setfacl
 * /usr/include/acl/libacl.h
@@ -86,4 +87,3 @@ Dynamic library for access control list support.
 * /usr/share/man/man3/acl_to_text.3.gz
 * /usr/share/man/man3/acl_valid.3.gz
 * /usr/share/man/man5/acl.5.gz
-{{< /files >}}

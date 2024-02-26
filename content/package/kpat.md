@@ -15,7 +15,8 @@ depends = "['black-hole-solver', 'freecell-solver', 'kdelibs4support>=5.115.0', 
 +++
 Offers a selection of solitaire card games.
 
-{{< files text="show files" >}}* /usr/bin/kpat
+## Files: 
+* /usr/bin/kpat
 * /usr/lib/libkcardgame.so
 * /usr/share/applications/org.kde.kpat.desktop
 * /usr/share/config.kcfg/kpat.kcfg
@@ -189,4 +190,3 @@ Offers a selection of solitaire card games.
 * /usr/share/metainfo/org.kde.kpat.appdata.xml
 * /usr/share/mime/packages/kpatience.xml
 * /usr/share/qlogging-categories5/kpat.categories
-{{< /files >}}

@@ -15,10 +15,10 @@ depends = "[]"
 +++
 Static files for libunwind
 
-{{< files text="show files" >}}* /usr/lib/libunwind-coredump.a
+## Files: 
+* /usr/lib/libunwind-coredump.a
 * /usr/lib/libunwind-generic.a
 * /usr/lib/libunwind-ptrace.a
 * /usr/lib/libunwind-setjmp.a
 * /usr/lib/libunwind-x86_64.a
 * /usr/lib/libunwind.a
-{{< /files >}}

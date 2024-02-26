@@ -15,8 +15,8 @@ depends = "['openjre']"
 +++
 A stable XmlPull parsing engine.
 
-{{< files text="show files" >}}* /usr/share/doc/xpp3-1.1.4c/README.html
+## Files: 
+* /usr/share/doc/xpp3-1.1.4c/README.html
 * /usr/share/java/xpp3.jar
 * /usr/share/java/xpp3_min.jar
 * /usr/share/java/xpp3_xpath.jar
-{{< /files >}}

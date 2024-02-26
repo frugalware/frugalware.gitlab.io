@@ -15,5 +15,5 @@ depends = "['libbluray', 'libvlc>=3.0.20']"
 +++
 vlc Bluray support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/access/liblibbluray_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/access/liblibbluray_plugin.so

@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org xwd application
 
-{{< files text="show files" >}}* /usr/bin/xwd
+## Files: 
+* /usr/bin/xwd
 * /usr/share/doc/xwd-1.0.9/ChangeLog
 * /usr/share/doc/xwd-1.0.9/COPYING
 * /usr/share/doc/xwd-1.0.9/INSTALL
 * /usr/share/doc/xwd-1.0.9/README.md
 * /usr/share/man/man1/xwd.1.gz
-{{< /files >}}

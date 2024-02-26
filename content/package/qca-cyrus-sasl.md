@@ -15,5 +15,5 @@ depends = "['cyrus-sasl>=2.1.26-3', 'qca']"
 +++
 Plugins for qca providing SASL
 
-{{< files text="show files" >}}* /usr/lib/qca-qt5/crypto/libqca-cyrus-sasl.so
-{{< /files >}}
+## Files: 
+* /usr/lib/qca-qt5/crypto/libqca-cyrus-sasl.so

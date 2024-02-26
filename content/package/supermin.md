@@ -15,7 +15,8 @@ depends = "['cpio', 'ocaml-findlib>=1.4.1']"
 +++
 supermin, tool for creating supermin appliances
 
-{{< files text="show files" >}}* /usr/bin/supermin
+## Files: 
+* /usr/bin/supermin
 * /usr/share/doc/supermin-5.2.2/AUTHORS
 * /usr/share/doc/supermin-5.2.2/COPYING
 * /usr/share/doc/supermin-5.2.2/COPYING.LIB
@@ -23,4 +24,3 @@ supermin, tool for creating supermin appliances
 * /usr/share/doc/supermin-5.2.2/README
 * /usr/share/doc/supermin-5.2.2/RELEASES
 * /usr/share/doc/supermin-5.2.2/TODO
-{{< /files >}}

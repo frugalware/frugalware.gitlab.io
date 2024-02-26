@@ -16,7 +16,8 @@ reverse_depends = "['kamoso', 'knotifications', 'konversation', 'libkcompactdisc
 +++
 The multimedia API for KDE 5.
 
-{{< files text="show files" >}}* /usr/bin/phononsettings
+## Files: 
+* /usr/bin/phononsettings
 * /usr/include/phonon4qt5/KDE/Phonon/AbstractAudioOutput
 * /usr/include/phonon4qt5/KDE/Phonon/AbstractMediaStream
 * /usr/include/phonon4qt5/KDE/Phonon/AbstractVideoOutput
@@ -355,4 +356,3 @@ The multimedia API for KDE 5.
 * /usr/share/locale/zh_TW/LC_MESSAGES/libphonon_qt.qm
 * /usr/share/locale/zh_TW/LC_MESSAGES/phononsettings_qt.qm
 * /usr/share/qt5/mkspecs/modules/qt_phonon4qt5.pri
-{{< /files >}}

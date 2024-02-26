@@ -16,9 +16,9 @@ reverse_depends = "['mbrola-de', 'mbrola-en', 'mbrola-es', 'mbrola-fr']"
 +++
 Speech synthesizer based on the concatenation of diphones.
 
-{{< files text="show files" >}}* /usr/bin/mbrola
+## Files: 
+* /usr/bin/mbrola
 * /usr/share/doc/mbrola-3.3/LICENSE
 * /usr/share/doc/mbrola-3.3/README.md
 * /usr/share/doc/mbrola-3.3/README_Makefile.md
 * /usr/share/mbrola/mbrola
-{{< /files >}}

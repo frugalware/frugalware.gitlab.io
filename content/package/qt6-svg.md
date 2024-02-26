@@ -16,7 +16,8 @@ reverse_depends = "['cutemaze', 'ladybird', 'mkvtoolnix-gui', 'obs-studio', 'qt6
 +++
 The Qt6 toolkit, qtsvg
 
-{{< files text="show files" >}}* /usr/include/qt6/QtSvg/6.6.2/QtSvg/private/qsvgfont_p.h
+## Files: 
+* /usr/include/qt6/QtSvg/6.6.2/QtSvg/private/qsvgfont_p.h
 * /usr/include/qt6/QtSvg/6.6.2/QtSvg/private/qsvggraphics_p.h
 * /usr/include/qt6/QtSvg/6.6.2/QtSvg/private/qsvghandler_p.h
 * /usr/include/qt6/QtSvg/6.6.2/QtSvg/private/qsvgnode_p.h
@@ -94,4 +95,3 @@ The Qt6 toolkit, qtsvg
 * /usr/lib/qt6/modules/SvgWidgets.json
 * /usr/lib/qt6/plugins/iconengines/libqsvgicon.so
 * /usr/lib/qt6/plugins/imageformats/libqsvg.so
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['python3-dulwich']"
 +++
 SSH2 protocol for python.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/paramiko-2.12.0-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/paramiko-2.12.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/paramiko-2.12.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/paramiko-2.12.0-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/paramiko-2.12.0-py3.12.egg-info/SOURCES.txt
@@ -117,4 +118,3 @@ SSH2 protocol for python.
 * /usr/share/doc/paramiko-2.12.0/NEWS
 * /usr/share/doc/paramiko-2.12.0/README.rst
 * /usr/share/doc/paramiko-2.12.0/TODO
-{{< /files >}}

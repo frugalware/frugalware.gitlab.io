@@ -16,7 +16,8 @@ reverse_depends = "['lwt']"
 +++
 An OCaml module for functional reactive programming
 
-{{< files text="show files" >}}* /usr/lib/ocaml/react/META
+## Files: 
+* /usr/lib/ocaml/react/META
 * /usr/lib/ocaml/react/opam
 * /usr/lib/ocaml/react/react.cma
 * /usr/lib/ocaml/react/react.cmi
@@ -29,4 +30,3 @@ An OCaml module for functional reactive programming
 * /usr/share/doc/react/LICENSE.md
 * /usr/share/doc/react/odoc-pages/index.mld
 * /usr/share/doc/react/README.md
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['kdeclarative>=5.115.0', 'knewstuff>=5.115.0', 'qt5-gstreamer>=1.2.0
 +++
 Memory Enhancement Game.
 
-{{< files text="show files" >}}* /usr/bin/artikulate
+## Files: 
+* /usr/bin/artikulate
 * /usr/bin/artikulate_editor
 * /usr/lib/libartikulatecore.so.0
 * /usr/lib/libartikulatelearnerprofile.so.0
@@ -126,4 +127,3 @@ Memory Enhancement Game.
 * /usr/share/locale/zh_CN/LC_MESSAGES/artikulate.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/artikulate.mo
 * /usr/share/metainfo/org.kde.artikulate.appdata.xml
-{{< /files >}}

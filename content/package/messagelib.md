@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-calendar', 'akonadiconsole', 'akregator', 'grantlee
 +++
 KdePim message library.
 
-{{< files text="show files" >}}* /usr/include/KPim5/MessageComposer/config-messagecomposer.h
+## Files: 
+* /usr/include/KPim5/MessageComposer/config-messagecomposer.h
 * /usr/include/KPim5/MessageComposer/MessageComposer/AbstractEncryptJob
 * /usr/include/KPim5/MessageComposer/messagecomposer/abstractencryptjob.h
 * /usr/include/KPim5/MessageComposer/MessageComposer/AkonadiSender
@@ -1059,4 +1060,3 @@ KdePim message library.
 * /usr/share/qt5/mkspecs/modules/qt_MessageViewer.pri
 * /usr/share/qt5/mkspecs/modules/qt_TemplateParser.pri
 * /usr/share/qt5/mkspecs/modules/qt_WebEngineViewer.pri
-{{< /files >}}

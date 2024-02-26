@@ -16,7 +16,8 @@ license = "GPL"
 +++
 SuperTux is a classic 2D jump'n run sidescroller game in a style similar to the original SuperMario games.
 
-{{< files text="show files" >}}* /usr/bin/supertux2
+## Files: 
+* /usr/bin/supertux2
 * /usr/share/applications/supertux2.desktop
 * /usr/share/doc/supertux-0.6.3/INSTALL.md
 * /usr/share/doc/supertux-0.6.3/README.md
@@ -4083,4 +4084,3 @@ SuperTux is a classic 2D jump'n run sidescroller game in a style similar to the 
 * /usr/share/metainfo/supertux2.appdata.xml
 * /usr/share/pixmaps/supertux.png
 * /usr/share/pixmaps/supertux.xpm
-{{< /files >}}

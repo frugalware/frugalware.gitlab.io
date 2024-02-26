@@ -16,7 +16,8 @@ reverse_depends = "['alienarena', 'flightgear', 'graphviz', 'mesademos', 'mupdf-
 +++
 The free OpenGL utility toolkit, alternative to the GLUT library
 
-{{< files text="show files" >}}* /usr/include/GL/freeglut.h
+## Files: 
+* /usr/include/GL/freeglut.h
 * /usr/include/GL/freeglut_ext.h
 * /usr/include/GL/freeglut_std.h
 * /usr/include/GL/freeglut_ucall.h
@@ -40,4 +41,3 @@ The free OpenGL utility toolkit, alternative to the GLUT library
 * /usr/share/doc/freeglut-3.4.0/README.md
 * /usr/share/doc/freeglut-3.4.0/README.mingw_cross
 * /usr/share/doc/freeglut-3.4.0/README.win32
-{{< /files >}}

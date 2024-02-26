@@ -16,7 +16,8 @@ reverse_depends = "['aubio', 'opencascade', 'openjfx', 'qtav']"
 +++
 FFMpeg compatibility version
 
-{{< files text="show files" >}}* /usr/include/ffmpeg4.4/libavcodec/ac3_parser.h
+## Files: 
+* /usr/include/ffmpeg4.4/libavcodec/ac3_parser.h
 * /usr/include/ffmpeg4.4/libavcodec/adts_parser.h
 * /usr/include/ffmpeg4.4/libavcodec/avcodec.h
 * /usr/include/ffmpeg4.4/libavcodec/avdct.h
@@ -185,4 +186,3 @@ FFMpeg compatibility version
 * /usr/share/doc/ffmpeg4.4-4.4.4/RELEASE
 * /usr/share/doc/ffmpeg4.4-4.4.4/RELEASE_NOTES
 * /usr/share/doc/ffmpeg4.4-4.4.4/VERSION
-{{< /files >}}

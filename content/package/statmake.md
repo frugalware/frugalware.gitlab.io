@@ -15,7 +15,8 @@ depends = "['python3>=3.10']"
 +++
 Applies STAT information from a Stylespace to a variable font.
 
-{{< files text="show files" >}}* /usr/bin/statmake
+## Files: 
+* /usr/bin/statmake
 * /usr/lib/python3.12/site-packages/statmake-0.6.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/statmake-0.6.0-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/statmake-0.6.0-py3.12.egg-info/PKG-INFO
@@ -37,4 +38,3 @@ Applies STAT information from a Stylespace to a variable font.
 * /usr/lib/python3.12/site-packages/statmake/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/statmake-0.6.0/LICENSE
 * /usr/share/doc/statmake-0.6.0/README.md
-{{< /files >}}

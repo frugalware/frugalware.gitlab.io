@@ -15,9 +15,9 @@ depends = "['c-ares>=1.7.5', 'libtorrent>=0.13.8', 'ncurses>=6.0-3', 'openssl', 
 +++
 The ncurses client for libtorrent.
 
-{{< files text="show files" >}}* /usr/bin/rtorrent
+## Files: 
+* /usr/bin/rtorrent
 * /usr/share/doc/rtorrent-0.9.8/AUTHORS
 * /usr/share/doc/rtorrent-0.9.8/COPYING
 * /usr/share/doc/rtorrent-0.9.8/INSTALL
 * /usr/share/doc/rtorrent-0.9.8/README
-{{< /files >}}

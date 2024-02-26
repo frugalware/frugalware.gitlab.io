@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-mime', 'akonadi-notes', 'audiocd-kio', 'dolphin', '
 +++
 KDE4 Support.
 
-{{< files text="show files" >}}* /etc/xdg/colors/40.colors
+## Files: 
+* /etc/xdg/colors/40.colors
 * /etc/xdg/colors/Oxygen.colors
 * /etc/xdg/colors/Rainbow.colors
 * /etc/xdg/colors/Royal.colors
@@ -1949,4 +1950,3 @@ KDE4 Support.
 * /usr/share/man/pt_BR/man1/kf5-config.1.gz
 * /usr/share/man/sv/man1/kf5-config.1.gz
 * /usr/share/man/uk/man1/kf5-config.1.gz
-{{< /files >}}

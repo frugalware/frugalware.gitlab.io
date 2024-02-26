@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Static files for lua
 
-{{< files text="show files" >}}* /usr/lib/liblua.a
-{{< /files >}}
+## Files: 
+* /usr/lib/liblua.a

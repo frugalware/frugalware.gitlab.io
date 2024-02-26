@@ -15,7 +15,8 @@ depends = "['glib2', 'libsecret>=0.18.5', 'nm-connection-editor>=1.8.20', 'nm-op
 +++
 network management framework (OPENVPN plugin)
 
-{{< files text="show files" >}}* /usr/lib/NetworkManager/libnm-vpn-plugin-openvpn-editor.so
+## Files: 
+* /usr/lib/NetworkManager/libnm-vpn-plugin-openvpn-editor.so
 * /usr/lib/nm-openvpn/nm-openvpn-auth-dialog
 * /usr/share/dbus-1/system.d/nm-openvpn-service.conf
 * /usr/share/doc/nm-openvpn-1.10.2/AUTHORS
@@ -23,4 +24,3 @@ network management framework (OPENVPN plugin)
 * /usr/share/doc/nm-openvpn-1.10.2/NEWS
 * /usr/share/doc/nm-openvpn-1.10.2/README
 * /usr/share/metainfo/network-manager-openvpn.metainfo.xml
-{{< /files >}}

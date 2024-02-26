@@ -16,11 +16,11 @@ reverse_depends = "['lib32-xorg-server']"
 +++
 library providing a standalone version of the X server implementation of the VESA CVT standard timing modelines generator ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/cvt
+## Files: 
+* /usr/i686-frugalware-linux/bin/cvt
 * /usr/i686-frugalware-linux/include/libxcvt/libxcvt.h
 * /usr/i686-frugalware-linux/include/libxcvt/libxcvt_mode.h
 * /usr/lib32/libxcvt.so
 * /usr/lib32/libxcvt.so.0
 * /usr/lib32/libxcvt.so.0.1.2
 * /usr/lib32/pkgconfig/libxcvt.pc
-{{< /files >}}

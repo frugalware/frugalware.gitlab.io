@@ -16,7 +16,8 @@ reverse_depends = "['haskell-servant']"
 +++
 Processing HTTP Content-Type and Accept headers
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/http-media-0.8.1.1/libHShttp-media-0.8.1.1-IQGlnrzu1Xj4A5CMatETNo.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/http-media-0.8.1.1/libHShttp-media-0.8.1.1-IQGlnrzu1Xj4A5CMatETNo.a
 * /usr/lib/ghc-9.8.1/site-local/http-media-0.8.1.1/Network/HTTP/Media.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/http-media-0.8.1.1/Network/HTTP/Media.hi
 * /usr/lib/ghc-9.8.1/site-local/http-media-0.8.1.1/Network/HTTP/Media/Accept.dyn_hi
@@ -63,4 +64,3 @@ Processing HTTP Content-Type and Accept headers
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/http-media-0.8.1.1/LICENSE
 * /usr/share/haskell/haskell-http-media/register.sh
 * /usr/share/haskell/haskell-http-media/unregister.sh
-{{< /files >}}

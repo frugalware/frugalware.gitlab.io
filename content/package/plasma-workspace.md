@@ -16,7 +16,8 @@ reverse_depends = "['kde-cli-tools', 'kdeplasma-addons5', 'kget', 'khotkeys5', '
 +++
 KDE Plasma Workspace.
 
-{{< files text="show files" >}}* /etc/X11/sessions/plasma.desktop
+## Files: 
+* /etc/X11/sessions/plasma.desktop
 * /etc/xdg/autostart/gmenudbusmenuproxy.desktop
 * /etc/xdg/autostart/klipper.desktop
 * /etc/xdg/autostart/org.kde.plasmashell.desktop
@@ -6567,4 +6568,3 @@ KDE Plasma Workspace.
 * /usr/share/solid/actions/test-predicate-openinwindow.desktop
 * /usr/share/xsessions
 * /usr/share/zsh/site-functions/_plasmashell
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['claws-mail-plugin-pgpcore', 'claws-mail-plugin-pgpinline', 
 +++
 A high-level crypto API for encryption
 
-{{< files text="show files" >}}* /usr/bin/gpgme-json
+## Files: 
+* /usr/bin/gpgme-json
 * /usr/bin/gpgme-tool
 * /usr/include/gpgme++/configuration.h
 * /usr/include/gpgme++/context.h
@@ -191,4 +192,3 @@ A high-level crypto API for encryption
 * /usr/share/info/gpgme.info-1.gz
 * /usr/share/info/gpgme.info-2.gz
 * /usr/share/info/gpgme.info.gz
-{{< /files >}}

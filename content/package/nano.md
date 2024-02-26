@@ -15,7 +15,8 @@ depends = "['file>=5.28-3', 'ncurses>=6.1-2']"
 +++
 Free Pico clone with some new features.
 
-{{< files text="show files" >}}* /etc/nanorc
+## Files: 
+* /etc/nanorc
 * /usr/bin/nano
 * /usr/bin/rnano
 * /usr/share/doc/nano-7.2/AUTHORS
@@ -118,4 +119,3 @@ Free Pico clone with some new features.
 * /usr/share/nano/texinfo.nanorc
 * /usr/share/nano/xml.nanorc
 * /usr/share/nano/yaml.nanorc
-{{< /files >}}

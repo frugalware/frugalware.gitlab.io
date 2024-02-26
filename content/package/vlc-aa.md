@@ -15,5 +15,5 @@ depends = "['aalib', 'libvlc>=3.0.20']"
 +++
 vlc Ascii Art support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/video_output/libaa_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/video_output/libaa_plugin.so

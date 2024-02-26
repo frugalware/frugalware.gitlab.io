@@ -15,10 +15,10 @@ depends = "['libbs2b']"
 +++
 Bauer stereophonic-to-binaural DSP for LADSPA
 
-{{< files text="show files" >}}* /usr/lib/ladspa/bs2b.so
+## Files: 
+* /usr/lib/ladspa/bs2b.so
 * /usr/share/doc/ladspa-bs2b-0.9.1/AUTHORS
 * /usr/share/doc/ladspa-bs2b-0.9.1/COPYING
 * /usr/share/doc/ladspa-bs2b-0.9.1/README
 * /usr/share/doc/ladspa-bs2b-0.9.1/README.md
 * /usr/share/doc/ladspa-bs2b-0.9.1/THANKS
-{{< /files >}}

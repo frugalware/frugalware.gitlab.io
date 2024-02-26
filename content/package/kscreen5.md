@@ -16,7 +16,8 @@ reverse_depends = "['kscreenlocker', 'spectacle']"
 +++
 KDE's screen management utility.
 
-{{< files text="show files" >}}* /usr/bin/kscreen-console
+## Files: 
+* /usr/bin/kscreen-console
 * /usr/lib/kf5/kscreen_osd_service
 * /usr/lib/qt5/plugins/kf5/kded/kscreen.so
 * /usr/lib/qt5/plugins/plasma/applets/plasma_applet_kscreen.so
@@ -233,4 +234,3 @@ KDE's screen management utility.
 * /usr/share/plasma/plasmoids/org.kde.kscreen/metadata.desktop
 * /usr/share/plasma/plasmoids/org.kde.kscreen/metadata.json
 * /usr/share/qlogging-categories5/kscreen.categories
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['alsa-lib', 'gtk+3', 'libnotify>=0.5.0']"
 +++
 Lightweight volume control thats sits in the systray
 
-{{< files text="show files" >}}* /usr/bin/volumeicon
+## Files: 
+* /usr/bin/volumeicon
 * /usr/share/doc/volumeicon-0.5.1/AUTHORS
 * /usr/share/doc/volumeicon-0.5.1/ChangeLog
 * /usr/share/doc/volumeicon-0.5.1/COPYING
@@ -57,4 +58,3 @@ Lightweight volume control thats sits in the systray
 * /usr/share/volumeicon/icons/White Gnome/6.png
 * /usr/share/volumeicon/icons/White Gnome/7.png
 * /usr/share/volumeicon/icons/White Gnome/8.png
-{{< /files >}}

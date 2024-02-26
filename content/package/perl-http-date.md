@@ -16,11 +16,11 @@ reverse_depends = "['perl-file-listing', 'perl-http-cookies', 'perl-http-message
 +++
 HTTP::Date - date conversion routines.
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/HTTP/Date.pm
+## Files: 
+* /usr/lib/perl5/site_perl/HTTP/Date.pm
 * /usr/share/doc/perl-http-date-6.06/CONTRIBUTORS
 * /usr/share/doc/perl-http-date-6.06/INSTALL
 * /usr/share/doc/perl-http-date-6.06/LICENSE
 * /usr/share/doc/perl-http-date-6.06/MANIFEST
 * /usr/share/doc/perl-http-date-6.06/README.md
 * /usr/share/man/man3/HTTP::Date.3perl.gz
-{{< /files >}}

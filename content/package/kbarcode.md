@@ -16,7 +16,8 @@ license = "GPL"
 +++
 KBarcode is a barcode and label printing application for KDE.
 
-{{< files text="show files" >}}* usr/bin/kbarcode
+## Files: 
+* usr/bin/kbarcode
 * usr/lib/kde3/kfile_kbarcode.la
 * usr/lib/kde3/kfile_kbarcode.so
 * usr/share/applications/kde/kbarcode-batch.desktop
@@ -60,4 +61,3 @@ KBarcode is a barcode and label printing application for KDE.
 * usr/share/locale/sv/LC_MESSAGES/kbarcode.mo
 * usr/share/locale/tr/LC_MESSAGES/kbarcode.mo
 * usr/share/services/kfile_kbarcode.desktop
-{{< /files >}}

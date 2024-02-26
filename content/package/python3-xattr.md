@@ -15,7 +15,8 @@ depends = "['python3-cffi']"
 +++
 Python wrapper for extended filesystem attributes
 
-{{< files text="show files" >}}* /usr/bin/pathon3-xattr
+## Files: 
+* /usr/bin/pathon3-xattr
 * /usr/lib/python3.12/site-packages/xattr-1.0.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/xattr-1.0.0-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/xattr-1.0.0-py3.12.egg-info/not-zip-safe
@@ -38,4 +39,3 @@ Python wrapper for extended filesystem attributes
 * /usr/lib/python3.12/site-packages/xattr/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-xattr-1.0.0/INSTALLING.txt
 * /usr/share/doc/python3-xattr-1.0.0/README.rst
-{{< /files >}}

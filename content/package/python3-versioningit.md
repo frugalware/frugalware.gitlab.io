@@ -15,7 +15,8 @@ depends = "['python3-packaging', 'python3-tomli']"
 +++
 Pathlib-compatible object wrapper for zip files
 
-{{< files text="show files" >}}* /usr/bin/versioningit
+## Files: 
+* /usr/bin/versioningit
 * /usr/lib/python3.12/site-packages/versioningit-2.3.0.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/versioningit-2.3.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/versioningit-2.3.0.dist-info/METADATA
@@ -76,4 +77,3 @@ Pathlib-compatible object wrapper for zip files
 * /usr/lib/python3.12/site-packages/versioningit/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/python3-versioningit-2.3.0/LICENSE
 * /usr/share/doc/python3-versioningit-2.3.0/README.rst
-{{< /files >}}

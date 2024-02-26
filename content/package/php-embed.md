@@ -15,5 +15,5 @@ depends = "['libxml2', 'openssl>=1.1.1', 'pcre', 'php=8.3.3']"
 +++
 Embedded PHP SAPI library
 
-{{< files text="show files" >}}* /usr/lib/libphp.so
-{{< /files >}}
+## Files: 
+* /usr/lib/libphp.so

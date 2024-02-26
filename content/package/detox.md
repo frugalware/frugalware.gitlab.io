@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 a utility designed to clean up filenames
 
-{{< files text="show files" >}}* /etc/detoxrc
+## Files: 
+* /etc/detoxrc
 * /etc/detoxrc.sample
 * /usr/bin/detox
 * /usr/bin/inline-detox
@@ -33,4 +34,3 @@ a utility designed to clean up filenames
 * /usr/share/man/man1/inline-detox.1.gz
 * /usr/share/man/man5/detox.tbl.5.gz
 * /usr/share/man/man5/detoxrc.5.gz
-{{< /files >}}

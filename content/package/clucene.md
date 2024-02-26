@@ -16,7 +16,8 @@ reverse_depends = "['dovecot', 'libreoffice']"
 +++
 a C++ port of Lucene: the high-performance, full-featured text search engine
 
-{{< files text="show files" >}}* /usr/include/CLucene.h
+## Files: 
+* /usr/include/CLucene.h
 * /usr/include/CLucene/analysis/AnalysisHeader.h
 * /usr/include/CLucene/analysis/Analyzers.h
 * /usr/include/CLucene/analysis/CachingTokenFilter.h
@@ -384,4 +385,3 @@ a C++ port of Lucene: the high-performance, full-featured text search engine
 * /usr/share/doc/clucene-2.3.3.4/INSTALL
 * /usr/share/doc/clucene-2.3.3.4/README
 * /usr/share/doc/clucene-2.3.3.4/README.PACKAGE
-{{< /files >}}

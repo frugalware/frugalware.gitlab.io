@@ -16,7 +16,8 @@ reverse_depends = "['haskell-wai-app-static']"
 +++
 Provides some basic WAI handlers and middleware
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/wai-extra-3.1.13.0/libHSwai-extra-3.1.13.0-7XyqZX1D0P6Dqr0jyu4iK9.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/wai-extra-3.1.13.0/libHSwai-extra-3.1.13.0-7XyqZX1D0P6Dqr0jyu4iK9.a
 * /usr/lib/ghc-9.8.1/site-local/wai-extra-3.1.13.0/Network/Wai/EventSource.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/wai-extra-3.1.13.0/Network/Wai/EventSource.hi
 * /usr/lib/ghc-9.8.1/site-local/wai-extra-3.1.13.0/Network/Wai/EventSource/EventStream.dyn_hi
@@ -171,4 +172,3 @@ Provides some basic WAI handlers and middleware
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/wai-extra-3.1.13.0/LICENSE
 * /usr/share/haskell/haskell-wai-extra/register.sh
 * /usr/share/haskell/haskell-wai-extra/unregister.sh
-{{< /files >}}

@@ -16,9 +16,9 @@ reverse_depends = "['appstream', 'appstream-glib', 'libblockdev', 'libcamera', '
 +++
 LibYAML is a YAML 1.1 parser and emitter written in C.
 
-{{< files text="show files" >}}* /usr/include/yaml.h
+## Files: 
+* /usr/include/yaml.h
 * /usr/lib/libyaml-0.so.2
 * /usr/lib/libyaml-0.so.2.0.9
 * /usr/lib/libyaml.so
 * /usr/lib/pkgconfig/yaml-0.1.pc
-{{< /files >}}

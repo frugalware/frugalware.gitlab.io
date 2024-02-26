@@ -15,7 +15,7 @@ depends = "['lib32-elfutils>=0.167-3', 'lib32-expat>=2.1.0-6', 'lib32-libdrm>=2.
 +++
 VAAPI mesa driver (32-Bit)
 
-{{< files text="show files" >}}* /usr/lib32/dri/nouveau_drv_video.so
+## Files: 
+* /usr/lib32/dri/nouveau_drv_video.so
 * /usr/lib32/dri/r600_drv_video.so
 * /usr/lib32/dri/radeonsi_drv_video.so
-{{< /files >}}

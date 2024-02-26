@@ -15,5 +15,5 @@ depends = "['claws-mail=4.1.1']"
 +++
 Keeps all recipient addresses in a designated addressbook folder.
 
-{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/address_keeper.so
-{{< /files >}}
+## Files: 
+* /usr/lib/claws-mail/plugins/address_keeper.so

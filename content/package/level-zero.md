@@ -15,7 +15,8 @@ depends = "['libstdc++>=11.2']"
 +++
 API for accessing low level interfaces in oneAPI platform devices
 
-{{< files text="show files" >}}* /usr/lib/libze_loader.so
+## Files: 
+* /usr/lib/libze_loader.so
 * /usr/lib/libze_loader.so.1
 * /usr/lib/libze_loader.so.1.16.1
 * /usr/lib/libze_tracing_layer.so
@@ -26,4 +27,3 @@ API for accessing low level interfaces in oneAPI platform devices
 * /usr/lib/libze_validation_layer.so.1.16.1
 * /usr/share/doc/level-zero-1.16.1/LICENSE
 * /usr/share/doc/level-zero-1.16.1/README.md
-{{< /files >}}

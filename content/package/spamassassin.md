@@ -16,7 +16,8 @@ reverse_depends = "['amavisd-new']"
 +++
 A mail filter to identify spam.
 
-{{< files text="show files" >}}* /etc/mail/spamassassin/init.pre
+## Files: 
+* /etc/mail/spamassassin/init.pre
 * /etc/mail/spamassassin/local.cf
 * /etc/mail/spamassassin/v310.pre
 * /etc/mail/spamassassin/v312.pre
@@ -250,4 +251,3 @@ A mail filter to identify spam.
 * /usr/share/spamassassin/languages
 * /usr/share/spamassassin/sa-update-pubkey.txt
 * /usr/share/spamassassin/user_prefs.template
-{{< /files >}}

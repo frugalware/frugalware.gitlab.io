@@ -16,7 +16,8 @@ reverse_depends = "['python3-beautifulsoup4']"
 +++
 A CSS4 selector implementation for Beautiful Soup
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/soupsieve-2.5.dist-info/licenses/LICENSE.md
+## Files: 
+* /usr/lib/python3.12/site-packages/soupsieve-2.5.dist-info/licenses/LICENSE.md
 * /usr/lib/python3.12/site-packages/soupsieve-2.5.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/soupsieve-2.5.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/soupsieve-2.5.dist-info/WHEEL
@@ -43,4 +44,3 @@ A CSS4 selector implementation for Beautiful Soup
 * /usr/lib/python3.12/site-packages/soupsieve/__pycache__/__meta__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/soupsieve/__pycache__/__meta__.cpython-312.pyc
 * /usr/share/doc/python3-soupsieve-2.5/README.md
-{{< /files >}}

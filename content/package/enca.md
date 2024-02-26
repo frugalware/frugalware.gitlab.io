@@ -15,8 +15,8 @@ depends = "['libenca=1.19']"
 +++
 Enca is a character set analyzer
 
-{{< files text="show files" >}}* /usr/bin/enca
+## Files: 
+* /usr/bin/enca
 * /usr/bin/enconv
 * /usr/share/man/man1/enca.1.gz
 * /usr/share/man/man1/enconv.1.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['haskell-doctemplates']"
 +++
 Safe conversions between textual types
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/text-conversions-0.3.1.1/Data/Text/Conversions.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/text-conversions-0.3.1.1/Data/Text/Conversions.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/text-conversions-0.3.1.1/Data/Text/Conversions.hi
 * /usr/lib/ghc-9.8.1/site-local/text-conversions-0.3.1.1/libHStext-conversions-0.3.1.1-7zOOyPmWxkM2rUcRb6Ms6T.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHStext-conversions-0.3.1.1-7zOOyPmWxkM2rUcRb6Ms6T-ghc9.8.1.so
@@ -34,4 +35,3 @@ Safe conversions between textual types
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/text-conversions-0.3.1.1/LICENSE
 * /usr/share/haskell/haskell-text-conversions/register.sh
 * /usr/share/haskell/haskell-text-conversions/unregister.sh
-{{< /files >}}

@@ -15,10 +15,10 @@ depends = "['glibc']"
 +++
 WenQuanYi Bitmap Song CJK font (TTF)
 
-{{< files text="show files" >}}* /usr/share/doc/wqy-bitmapfont-ttf-0.7.0_4/ChangeLog
+## Files: 
+* /usr/share/doc/wqy-bitmapfont-ttf-0.7.0_4/ChangeLog
 * /usr/share/doc/wqy-bitmapfont-ttf-0.7.0_4/INSTALL
 * /usr/share/doc/wqy-bitmapfont-ttf-0.7.0_4/INSTALL.zh.gb2312
 * /usr/share/doc/wqy-bitmapfont-ttf-0.7.0_4/README
 * /usr/share/fonts/X11/TTF/wqy-bsong-bold.ttf
 * /usr/share/fonts/X11/TTF/wqy-bsong.ttf
-{{< /files >}}

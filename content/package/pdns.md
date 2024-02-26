@@ -15,7 +15,8 @@ depends = "['curl', 'libboost>=1.83.0', 'libpq>=11.2-2', 'libstdc++>=12.2', 'lua
 +++
 Power DNS Server and Recursor
 
-{{< files text="show files" >}}* /etc/powerdns/pdns.conf
+## Files: 
+* /etc/powerdns/pdns.conf
 * /etc/powerdns/pdns.conf-dist
 * /usr/bin/pdnsutil
 * /usr/bin/pdns_control
@@ -64,4 +65,3 @@ Power DNS Server and Recursor
 * /usr/share/man/man1/pdns_server.1.gz
 * /usr/share/man/man1/zone2json.1.gz
 * /usr/share/man/man1/zone2sql.1.gz
-{{< /files >}}

@@ -16,11 +16,11 @@ reverse_depends = "['lib32-xorg-server-xephyr']"
 +++
 image libraries for X C Binding ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/xcb/xcb_bitops.h
+## Files: 
+* /usr/i686-frugalware-linux/include/xcb/xcb_bitops.h
 * /usr/i686-frugalware-linux/include/xcb/xcb_image.h
 * /usr/i686-frugalware-linux/include/xcb/xcb_pixel.h
 * /usr/lib32/libxcb-image.so
 * /usr/lib32/libxcb-image.so.0
 * /usr/lib32/libxcb-image.so.0.0.0
 * /usr/lib32/pkgconfig/xcb-image.pc
-{{< /files >}}

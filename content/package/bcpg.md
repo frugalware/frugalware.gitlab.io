@@ -15,5 +15,5 @@ depends = "['bcprov>=170']"
 +++
 Java cryptography APIs.
 
-{{< files text="show files" >}}* /usr/share/java/bcpg.jar
-{{< /files >}}
+## Files: 
+* /usr/share/java/bcpg.jar

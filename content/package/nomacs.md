@@ -15,7 +15,8 @@ depends = "['exiv2>=0.28.1', 'libraw>=0.21.1', 'openblas', 'opencv>=4.9.0', 'qt5
 +++
 Small and fast image viewer.
 
-{{< files text="show files" >}}* /usr/bin/nomacs
+## Files: 
+* /usr/bin/nomacs
 * /usr/lib/libnomacsCore.so
 * /usr/lib/libnomacsCore.so.3
 * /usr/lib/libnomacsCore.so.3.17.0
@@ -57,4 +58,3 @@ Small and fast image viewer.
 * /usr/share/nomacs/Image Lounge/translations/nomacs_tw_zh.qm
 * /usr/share/nomacs/Image Lounge/translations/nomacs_uk.qm
 * /usr/share/nomacs/Image Lounge/translations/nomacs_zh_CN.qm
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['haskell-servant-server']"
 +++
 WAI application for static serving
 
-{{< files text="show files" >}}* /usr/bin/warp
+## Files: 
+* /usr/bin/warp
 * /usr/lib/ghc-9.8.1/site-local/wai-app-static-3.1.8/libHSwai-app-static-3.1.8-DbCfvuhACZRGm9YZHtcBuB.a
 * /usr/lib/ghc-9.8.1/site-local/wai-app-static-3.1.8/Network/Wai/Application/Static.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/wai-app-static-3.1.8/Network/Wai/Application/Static.hi
@@ -56,4 +57,3 @@ WAI application for static serving
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/wai-app-static-3.1.8/LICENSE
 * /usr/share/haskell/haskell-wai-app-static/register.sh
 * /usr/share/haskell/haskell-wai-app-static/unregister.sh
-{{< /files >}}

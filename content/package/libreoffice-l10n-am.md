@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Amharic support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/am/default.css
+## Files: 
+* /usr/lib/libreoffice/help/am/default.css
 * /usr/lib/libreoffice/help/am/err.html
 * /usr/lib/libreoffice/help/am/highcontrast1.css
 * /usr/lib/libreoffice/help/am/highcontrast2.css
@@ -133,4 +134,3 @@ Installs Amharic support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-am.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_am.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_am.xcd
-{{< /files >}}

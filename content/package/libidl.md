@@ -16,7 +16,8 @@ reverse_depends = "['firefox', 'mozilla', 'virtualbox']"
 +++
 A library for creating trees of CORBA IDL files
 
-{{< files text="show files" >}}* /usr/bin/libIDL-config-2
+## Files: 
+* /usr/bin/libIDL-config-2
 * /usr/include/libIDL-2.0/libIDL/IDL.h
 * /usr/lib/libIDL-2.so
 * /usr/lib/libIDL-2.so.0
@@ -32,4 +33,3 @@ A library for creating trees of CORBA IDL files
 * /usr/share/doc/libidl-0.8.14/README
 * /usr/share/doc/libidl-0.8.14/README.win32
 * /usr/share/info/libIDL2.info.gz
-{{< /files >}}

@@ -15,4 +15,4 @@ depends = "['curl', 'freeglut', 'freetype2', 'libgl', 'libjpeg', 'libvorbis', 'l
 +++
 Multiplayer retro sci-fi deathmatch game
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

@@ -16,7 +16,8 @@ reverse_depends = "['gst1-plugins-bad', 'gst1-plugins-bad-mpeg2enc']"
 +++
 The mjpeg programs are a set of tools that can do recording of videos and playback under Linux.
 
-{{< files text="show files" >}}* /usr/bin/anytovcd.sh
+## Files: 
+* /usr/bin/anytovcd.sh
 * /usr/bin/jpeg2yuv
 * /usr/bin/lav2avi.sh
 * /usr/bin/lav2mpeg
@@ -187,4 +188,3 @@ The mjpeg programs are a set of tools that can do recording of videos and playba
 * /usr/share/man/man1/yuvscaler.1.gz
 * /usr/share/man/man1/yuvycsnoise.1.gz
 * /usr/share/man/man5/yuv4mpeg.5.gz
-{{< /files >}}

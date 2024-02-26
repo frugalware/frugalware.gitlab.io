@@ -16,7 +16,8 @@ reverse_depends = "['konqkonv', 'kplayer', 'ksubtile', 'kvideoencoder', 'smplaye
 +++
 The Movie Player
 
-{{< files text="show files" >}}* /etc/mplayer/mplayer.conf
+## Files: 
+* /etc/mplayer/mplayer.conf
 * /usr/bin/mplayer
 * /usr/share/doc/mplayer-1.5/AUTHORS
 * /usr/share/doc/mplayer-1.5/Changelog
@@ -1129,4 +1130,3 @@ The Movie Player
 * /usr/share/mplayer/font-arial-28-iso-8859-7/osd-mplayer-a.raw
 * /usr/share/mplayer/font-arial-28-iso-8859-7/osd-mplayer-b.raw
 * /usr/share/mplayer/subfont.ttf
-{{< /files >}}

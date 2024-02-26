@@ -16,8 +16,8 @@ reverse_depends = "['lib32-ffmpeg']"
 +++
 XviD is an open source MPEG-4 video codec ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/xvid.h
+## Files: 
+* /usr/i686-frugalware-linux/include/xvid.h
 * /usr/lib32/libxvidcore.so
 * /usr/lib32/libxvidcore.so.4
 * /usr/lib32/libxvidcore.so.4.3
-{{< /files >}}

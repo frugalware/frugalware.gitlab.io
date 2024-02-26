@@ -15,7 +15,8 @@ depends = "['python3-isodate>=0.5.4', 'python3-six']"
 +++
 A Python library for working with RDF, a simple yet powerful language for representing information
 
-{{< files text="show files" >}}* /usr/bin/csv2rdf
+## Files: 
+* /usr/bin/csv2rdf
 * /usr/bin/rdf2dot
 * /usr/bin/rdfgraphisomorphism
 * /usr/bin/rdfpipe
@@ -386,4 +387,3 @@ A Python library for working with RDF, a simple yet powerful language for repres
 * /usr/share/doc/rdflib-7.0.0/CONTRIBUTORS
 * /usr/share/doc/rdflib-7.0.0/LICENSE
 * /usr/share/doc/rdflib-7.0.0/README.md
-{{< /files >}}

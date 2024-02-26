@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 Serial-over-lan (sol) client for Intel AMT
 
-{{< files text="show files" >}}* /usr/bin/amtterm
+## Files: 
+* /usr/bin/amtterm
 * /usr/bin/amttool
 * /usr/share/doc/amtterm-1.6/COPYING
 * /usr/share/doc/amtterm-1.6/INSTALL
@@ -23,4 +24,3 @@ Serial-over-lan (sol) client for Intel AMT
 * /usr/share/man/man1/amtterm.1.gz
 * /usr/share/man/man1/amttool.1.gz
 * /usr/share/man/man7/amt-howto.7.gz
-{{< /files >}}

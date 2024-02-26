@@ -16,7 +16,8 @@ reverse_depends = "['libreoffice']"
 +++
 An EPUB generator library
 
-{{< files text="show files" >}}* /usr/include/libepubgen-0.1/libepubgen/EPUBDrawingGenerator.h
+## Files: 
+* /usr/include/libepubgen-0.1/libepubgen/EPUBDrawingGenerator.h
 * /usr/include/libepubgen-0.1/libepubgen/EPUBPackage.h
 * /usr/include/libepubgen-0.1/libepubgen/EPUBPresentationGenerator.h
 * /usr/include/libepubgen-0.1/libepubgen/EPUBTextGenerator.h
@@ -252,4 +253,3 @@ An EPUB generator library
 * /usr/share/doc/libepubgen-0.1.1/NEWS
 * /usr/share/doc/libepubgen-0.1.1/README
 * /usr/share/doc/libepubgen-0.1.1/TODO
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['pulse-autoconf', 'steamtinkerlaunch']"
 +++
 An arbitrary precision calculator language
 
-{{< files text="show files" >}}* /usr/bin/bc
+## Files: 
+* /usr/bin/bc
 * /usr/bin/dc
 * /usr/share/doc/bc-1.07.1/AUTHORS
 * /usr/share/doc/bc-1.07.1/ChangeLog
@@ -30,4 +31,3 @@ An arbitrary precision calculator language
 * /usr/share/info/dc.info.gz
 * /usr/share/man/man1/bc.1.gz
 * /usr/share/man/man1/dc.1.gz
-{{< /files >}}

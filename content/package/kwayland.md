@@ -16,7 +16,8 @@ reverse_depends = "['breeze', 'kdeconnect-kde', 'kinfocenter5', 'kpipewire', 'kr
 +++
 KDE Wayland
 
-{{< files text="show files" >}}* /usr/include/KF5/KWayland/KWayland/Client/appmenu.h
+## Files: 
+* /usr/include/KF5/KWayland/KWayland/Client/appmenu.h
 * /usr/include/KF5/KWayland/KWayland/Client/blur.h
 * /usr/include/KF5/KWayland/KWayland/Client/buffer.h
 * /usr/include/KF5/KWayland/KWayland/Client/compositor.h
@@ -140,4 +141,3 @@ KDE Wayland
 * /usr/share/qlogging-categories5/kwayland.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KWaylandClient.pri
 * /usr/share/qt5/mkspecs/modules/qt_KWaylandServer.pri
-{{< /files >}}

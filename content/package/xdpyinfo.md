@@ -17,10 +17,10 @@ license = "GPL2"
 +++
 X.Org xdpyinfo application
 
-{{< files text="show files" >}}* /usr/bin/xdpyinfo
+## Files: 
+* /usr/bin/xdpyinfo
 * /usr/share/doc/xdpyinfo-1.3.4/ChangeLog
 * /usr/share/doc/xdpyinfo-1.3.4/COPYING
 * /usr/share/doc/xdpyinfo-1.3.4/INSTALL
 * /usr/share/doc/xdpyinfo-1.3.4/README.md
 * /usr/share/man/man1/xdpyinfo.1.gz
-{{< /files >}}

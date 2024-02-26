@@ -16,7 +16,8 @@ reverse_depends = "['hplip-driver', 'print-manager']"
 +++
 Backends, filters and other software from CUPS distribution.
 
-{{< files text="show files" >}}* /etc/cups/cups-browsed.conf
+## Files: 
+* /etc/cups/cups-browsed.conf
 * /usr/bin/cups-browsed
 * /usr/bin/driverless
 * /usr/bin/driverless-fax
@@ -156,4 +157,3 @@ Backends, filters and other software from CUPS distribution.
 * /usr/share/ppd/cupsfilters/pxlcolor.ppd
 * /usr/share/ppd/cupsfilters/pxlmono.ppd
 * /usr/share/ppd/cupsfilters/Ricoh-PDF_Printer-PDF.ppd
-{{< /files >}}

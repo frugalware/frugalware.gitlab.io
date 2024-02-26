@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Ogre Documentation
 
-{{< files text="show files" >}}* /usr/share/doc/ogre-14.0.0/html/1.10-Notes.md
+## Files: 
+* /usr/share/doc/ogre-14.0.0/html/1.10-Notes.md
 * /usr/share/doc/ogre-14.0.0/html/1.11-Notes.md
 * /usr/share/doc/ogre-14.0.0/html/1.12-Notes.md
 * /usr/share/doc/ogre-14.0.0/html/13-Notes.md
@@ -105,4 +106,3 @@ Ogre Documentation
 * /usr/share/doc/ogre-14.0.0/html/src/umldocs/TextureSource.puml
 * /usr/share/doc/ogre-14.0.0/html/src/umldocs/uml-overview.puml
 * /usr/share/doc/ogre-14.0.0/html/src/vbo-update.texi
-{{< /files >}}

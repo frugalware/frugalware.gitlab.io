@@ -16,4 +16,4 @@ reverse_depends = "['bitlbee-otr']"
 +++
 An IRC to other chat networks gateway.
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

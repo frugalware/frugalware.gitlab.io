@@ -16,7 +16,8 @@ reverse_depends = "['pypolicyd-spf']"
 +++
 SPF (Sender Policy Framework) implemented in Python
 
-{{< files text="show files" >}}* /usr/bin/spfquery.py
+## Files: 
+* /usr/bin/spfquery.py
 * /usr/bin/type99.py
 * /usr/lib/python3.12/site-packages/pyspf-2.0.14-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pyspf-2.0.14-py3.12.egg-info/PKG-INFO
@@ -26,4 +27,3 @@ SPF (Sender Policy Framework) implemented in Python
 * /usr/lib/python3.12/site-packages/__pycache__/spf.cpython-312.pyc
 * /usr/share/doc/pyspf-2.0.14/CHANGELOG
 * /usr/share/doc/pyspf-2.0.14/README.md
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['lib32-libpulse']"
 +++
 Libsndfile is a C library for reading and writing files containing sampled sound ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/sndfile-cmp
+## Files: 
+* /usr/i686-frugalware-linux/bin/sndfile-cmp
 * /usr/i686-frugalware-linux/bin/sndfile-concat
 * /usr/i686-frugalware-linux/bin/sndfile-convert
 * /usr/i686-frugalware-linux/bin/sndfile-deinterleave
@@ -33,4 +34,3 @@ Libsndfile is a C library for reading and writing files containing sampled sound
 * /usr/lib32/libsndfile.so.1
 * /usr/lib32/libsndfile.so.1.0.28
 * /usr/lib32/pkgconfig/sndfile.pc
-{{< /files >}}

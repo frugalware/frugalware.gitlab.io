@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Bosnian Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/locale/bs/charset
+## Files: 
+* usr/share/locale/bs/charset
 * usr/share/locale/bs/entry.desktop
 * usr/share/locale/bs/flag.png
 * usr/share/locale/bs/LC_MESSAGES/amor.mo
@@ -431,4 +432,3 @@ Bosnian Localization for KDE.
 * usr/share/locale/bs/LC_MESSAGES/wakeup.mo
 * usr/share/locale/bs/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/bs/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

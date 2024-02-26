@@ -15,7 +15,8 @@ depends = "['alsa-lib>=1.1.2-2', 'liblirc=0.10.2', 'libudev>=242-3', 'libusb>=0.
 +++
 LIRC is a package that allows you to decode and send infra-red signals of many commonly used remote controls.
 
-{{< files text="show files" >}}* /etc/lirc/irexec.lircrc
+## Files: 
+* /etc/lirc/irexec.lircrc
 * /etc/lirc/lircd.conf
 * /etc/lirc/lircd.conf.d/devinput.lircd.conf
 * /etc/lirc/lircd.conf.d/README.conf.d
@@ -332,4 +333,3 @@ LIRC is a package that allows you to decode and send infra-red signals of many c
 * /var/lib/lirc/images/marb18.jpg
 * /var/lib/lirc/plugins/index.html
 * /var/lib/lirc/plugins/lirc.css
-{{< /files >}}

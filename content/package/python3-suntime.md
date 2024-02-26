@@ -16,7 +16,8 @@ reverse_depends = "['yin-yang']"
 +++
 Simple sunset and sunrise time calculation python library
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/suntime-1.2.5-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/suntime-1.2.5-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/suntime-1.2.5-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/suntime-1.2.5-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/suntime-1.2.5-py3.12.egg-info/SOURCES.txt
@@ -26,4 +27,3 @@ Simple sunset and sunrise time calculation python library
 * /usr/lib/python3.12/site-packages/suntime/__pycache__/suntime.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/suntime/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-suntime-1.2.5/README.md
-{{< /files >}}

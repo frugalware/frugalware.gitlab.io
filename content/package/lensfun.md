@@ -16,7 +16,8 @@ reverse_depends = "['darktable', 'digikam', 'nufraw']"
 +++
 Database of photographic lenses and a library that allows advanced access to the database
 
-{{< files text="show files" >}}* /usr/bin/g-lensfun-update-data
+## Files: 
+* /usr/bin/g-lensfun-update-data
 * /usr/bin/lensfun-add-adapter
 * /usr/bin/lensfun-update-data
 * /usr/include/lensfun/lensfun.h
@@ -79,4 +80,3 @@ Database of photographic lenses and a library that allows advanced access to the
 * /usr/share/lensfun/version_1/slr-vivitar.xml
 * /usr/share/lensfun/version_1/slr-zeiss.xml
 * /usr/share/lensfun/version_1/timestamp.txt
-{{< /files >}}

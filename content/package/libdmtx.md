@@ -16,7 +16,8 @@ reverse_depends = "['prison']"
 +++
 Software for reading and writing Data Matrix 2D barcodes
 
-{{< files text="show files" >}}* /usr/include/dmtx.h
+## Files: 
+* /usr/include/dmtx.h
 * /usr/lib/libdmtx.so
 * /usr/lib/libdmtx.so.0
 * /usr/lib/libdmtx.so.0.0.0
@@ -34,4 +35,3 @@ Software for reading and writing Data Matrix 2D barcodes
 * /usr/share/doc/libdmtx-0.7.7/README.unix
 * /usr/share/doc/libdmtx-0.7.7/TODO
 * /usr/share/man/man3/libdmtx.3.gz
-{{< /files >}}

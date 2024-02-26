@@ -16,7 +16,8 @@ reverse_depends = "['lib32-imlib2', 'lib32-libwebp']"
 +++
 GIF loading and saving shared library
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/gif2rgb
+## Files: 
+* /usr/i686-frugalware-linux/bin/gif2rgb
 * /usr/i686-frugalware-linux/bin/gifbuild
 * /usr/i686-frugalware-linux/bin/gifclrmp
 * /usr/i686-frugalware-linux/bin/giffix
@@ -31,4 +32,3 @@ GIF loading and saving shared library
 * /usr/share/doc/lib32-libgif-5.2.2/NEWS
 * /usr/share/doc/lib32-libgif-5.2.2/README
 * /usr/share/doc/lib32-libgif-5.2.2/TODO
-{{< /files >}}

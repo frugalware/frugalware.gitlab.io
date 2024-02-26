@@ -16,7 +16,8 @@ reverse_depends = "['libmediainfo']"
 +++
 shared library for libmediainfo and mediainfo
 
-{{< files text="show files" >}}* /usr/include/ZenLib/BitStream.h
+## Files: 
+* /usr/include/ZenLib/BitStream.h
 * /usr/include/ZenLib/BitStream_Fast.h
 * /usr/include/ZenLib/BitStream_LE.h
 * /usr/include/ZenLib/Conf.h
@@ -57,4 +58,3 @@ shared library for libmediainfo and mediainfo
 * /usr/lib/libzen.so.0.0.0
 * /usr/lib/pkgconfig/libzen.pc
 * /usr/share/doc/libzen-0.4.41/README.md
-{{< /files >}}

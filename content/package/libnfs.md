@@ -16,7 +16,8 @@ reverse_depends = "['mpd', 'vlc-nfs']"
 +++
 A client library for accessing NFS shares
 
-{{< files text="show files" >}}* /usr/bin/nfs-cat
+## Files: 
+* /usr/bin/nfs-cat
 * /usr/bin/nfs-cp
 * /usr/bin/nfs-ls
 * /usr/bin/nfs-stat
@@ -42,4 +43,3 @@ A client library for accessing NFS shares
 * /usr/share/man/man1/nfs-cat.1.gz
 * /usr/share/man/man1/nfs-cp.1.gz
 * /usr/share/man/man1/nfs-ls.1.gz
-{{< /files >}}

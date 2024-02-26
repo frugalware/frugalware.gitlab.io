@@ -16,7 +16,8 @@ reverse_depends = "['alicevision']"
 +++
 An efficient C++ library for calibrated camera pose computation using geometric computer vision algorithms.
 
-{{< files text="show files" >}}* /usr/include/opengv/absolute_pose/AbsoluteAdapterBase.hpp
+## Files: 
+* /usr/include/opengv/absolute_pose/AbsoluteAdapterBase.hpp
 * /usr/include/opengv/absolute_pose/AbsoluteMultiAdapterBase.hpp
 * /usr/include/opengv/absolute_pose/CentralAbsoluteAdapter.hpp
 * /usr/include/opengv/absolute_pose/MACentralAbsolute.hpp
@@ -96,4 +97,3 @@ An efficient C++ library for calibrated camera pose computation using geometric 
 * /usr/lib/cmake/opengv-1.0/opengvTargets.cmake
 * /usr/lib/libopengv.a
 * /usr/share/doc/opengv-20230906/README.txt
-{{< /files >}}

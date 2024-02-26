@@ -15,5 +15,5 @@ depends = "['aspell>=0.60.6.1-4']"
 +++
 Aspell plugin for sonnet
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/sonnet/sonnet_aspell.so
-{{< /files >}}
+## Files: 
+* /usr/lib/qt5/plugins/kf5/sonnet/sonnet_aspell.so

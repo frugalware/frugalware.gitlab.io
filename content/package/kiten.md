@@ -15,7 +15,8 @@ depends = "['khtml>=5.115.0', 'qt5-svg>=5.15.12']"
 +++
 Japanese Reference/Study Tool.
 
-{{< files text="show files" >}}* /usr/bin/kiten
+## Files: 
+* /usr/bin/kiten
 * /usr/bin/kitengen
 * /usr/bin/kitenkanjibrowser
 * /usr/bin/kitenradselect
@@ -181,4 +182,3 @@ Japanese Reference/Study Tool.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kiten.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kiten.mo
 * /usr/share/metainfo/org.kde.kiten.appdata.xml
-{{< /files >}}

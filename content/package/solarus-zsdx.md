@@ -15,7 +15,8 @@ depends = "['solarus', 'zip']"
 +++
 Zelda: Mystery of Solarus DX (or ZSDX for short): the real game
 
-{{< files text="show files" >}}* /usr/bin/zsdx
+## Files: 
+* /usr/bin/zsdx
 * /usr/share/applications/zsdx.desktop
 * /usr/share/icons/hicolor/1024x1024/apps/zsdx.png
 * /usr/share/icons/hicolor/128x128/apps/zsdx.png
@@ -28,4 +29,3 @@ Zelda: Mystery of Solarus DX (or ZSDX for short): the real game
 * /usr/share/icons/hicolor/64x64/apps/zsdx.png
 * /usr/share/pixmaps/zsdx.png
 * /usr/share/solarus/zsdx/data.solarus
-{{< /files >}}

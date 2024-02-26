@@ -15,6 +15,6 @@ depends = "['kdelibs4support>=5.115.0', 'kross>=5.115.0', 'ruby>=3.2.0']"
 +++
 Language interpreters to enable in-process scripting with Kross.
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/krossruby.so
+## Files: 
+* /usr/lib/qt5/plugins/krossruby.so
 * /usr/share/doc/kross-interpreters-23.08.5/COPYING
-{{< /files >}}

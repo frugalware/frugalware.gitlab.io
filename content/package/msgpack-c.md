@@ -16,7 +16,8 @@ reverse_depends = "['neovim']"
 +++
 An efficient object serialization library
 
-{{< files text="show files" >}}* /usr/include/msgpack.h
+## Files: 
+* /usr/include/msgpack.h
 * /usr/include/msgpack/fbuffer.h
 * /usr/include/msgpack/gcc_atomic.h
 * /usr/include/msgpack/object.h
@@ -48,4 +49,3 @@ An efficient object serialization library
 * /usr/share/doc/msgpack-c-6.0.0/COPYING
 * /usr/share/doc/msgpack-c-6.0.0/README
 * /usr/share/doc/msgpack-c-6.0.0/README.md
-{{< /files >}}

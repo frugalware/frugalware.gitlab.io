@@ -16,7 +16,8 @@ reverse_depends = "['haskell-conduit', 'haskell-wai-extra']"
 +++
 Deterministic allocation and freeing of scarce resources
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/resourcet-1.3.0/Control/Monad/Trans/Resource.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/resourcet-1.3.0/Control/Monad/Trans/Resource.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/resourcet-1.3.0/Control/Monad/Trans/Resource.hi
 * /usr/lib/ghc-9.8.1/site-local/resourcet-1.3.0/Control/Monad/Trans/Resource/Internal.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/resourcet-1.3.0/Control/Monad/Trans/Resource/Internal.hi
@@ -46,4 +47,3 @@ Deterministic allocation and freeing of scarce resources
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/resourcet-1.3.0/LICENSE
 * /usr/share/haskell/haskell-resourcet/register.sh
 * /usr/share/haskell/haskell-resourcet/unregister.sh
-{{< /files >}}

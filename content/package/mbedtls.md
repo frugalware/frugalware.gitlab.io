@@ -16,7 +16,8 @@ reverse_depends = "['bctoolbox', 'julia', 'librist', 'neko', 'obs-studio', 'open
 +++
 Portable cryptographic and SSL/TLS library, aka polarssl
 
-{{< files text="show files" >}}* /usr/bin/mbedtls_benchmark
+## Files: 
+* /usr/bin/mbedtls_benchmark
 * /usr/bin/mbedtls_cert_app
 * /usr/bin/mbedtls_cert_req
 * /usr/bin/mbedtls_cert_write
@@ -188,4 +189,3 @@ Portable cryptographic and SSL/TLS library, aka polarssl
 * /usr/share/doc/mbedtls-2.28.4/ChangeLog
 * /usr/share/doc/mbedtls-2.28.4/LICENSE
 * /usr/share/doc/mbedtls-2.28.4/README.md
-{{< /files >}}

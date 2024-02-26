@@ -16,7 +16,8 @@ reverse_depends = "['geany-plugins']"
 +++
 Geany is a text editor using the GTK3 toolkit.
 
-{{< files text="show files" >}}* /usr/bin/geany
+## Files: 
+* /usr/bin/geany
 * /usr/include/geany/app.h
 * /usr/include/geany/build.h
 * /usr/include/geany/dialogs.h
@@ -293,4 +294,3 @@ Geany is a text editor using the GTK3 toolkit.
 * /usr/share/locale/zh_CN/LC_MESSAGES/geany.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/geany.mo
 * /usr/share/man/man1/geany.1.gz
-{{< /files >}}

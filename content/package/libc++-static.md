@@ -15,7 +15,7 @@ depends = "[]"
 +++
 A new implementation of the C++ standard library (static)
 
-{{< files text="show files" >}}* /usr/lib/x86_64-frugalware-linux/libc++.a
+## Files: 
+* /usr/lib/x86_64-frugalware-linux/libc++.a
 * /usr/lib/x86_64-frugalware-linux/libc++abi.a
 * /usr/lib/x86_64-frugalware-linux/libc++experimental.a
-{{< /files >}}

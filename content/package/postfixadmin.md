@@ -15,7 +15,8 @@ depends = "['apache>=1.3.27', 'mariadb', 'php>=5.0', 'postfix>=2.0']"
 +++
 web-based management tool for postfix
 
-{{< files text="show files" >}}* /usr/share/doc/postfixadmin-3.2/README.Frugalware
+## Files: 
+* /usr/share/doc/postfixadmin-3.2/README.Frugalware
 * /var/www/postfixadmin/.php_cs.dist
 * /var/www/postfixadmin/.travis.yml
 * /var/www/postfixadmin/ADDITIONS/change_password.tgz
@@ -496,4 +497,3 @@ web-based management tool for postfix
 * /var/www/postfixadmin/VIRTUAL_VACATION/tests/test-email.txt
 * /var/www/postfixadmin/VIRTUAL_VACATION/tests/test.sh
 * /var/www/postfixadmin/VIRTUAL_VACATION/vacation.pl
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['curl', 'gnutls', 'guile', 'libgcrypt', 'lua>=5.4', 'ncurses>=6.0-12
 +++
 Fast, light & extensible IRC client.
 
-{{< files text="show files" >}}* /usr/bin/weechat
+## Files: 
+* /usr/bin/weechat
 * /usr/bin/weechat-curses
 * /usr/bin/weechat-headless
 * /usr/include/weechat/weechat-plugin.h
@@ -62,4 +63,3 @@ Fast, light & extensible IRC client.
 * /usr/share/locale/ru/LC_MESSAGES/weechat.mo
 * /usr/share/locale/sr/LC_MESSAGES/weechat.mo
 * /usr/share/locale/tr/LC_MESSAGES/weechat.mo
-{{< /files >}}

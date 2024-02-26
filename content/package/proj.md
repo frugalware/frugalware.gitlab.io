@@ -16,7 +16,8 @@ reverse_depends = "['gdal', 'libgeotiff']"
 +++
 Cartographic projection software
 
-{{< files text="show files" >}}* /usr/bin/cct
+## Files: 
+* /usr/bin/cct
 * /usr/bin/cs2cs
 * /usr/bin/geod
 * /usr/bin/gie
@@ -74,4 +75,3 @@ Cartographic projection software
 * /usr/share/proj/projjson.schema.json
 * /usr/share/proj/triangulation.schema.json
 * /usr/share/proj/world
-{{< /files >}}

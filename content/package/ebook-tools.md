@@ -16,7 +16,8 @@ reverse_depends = "['kfilemetadata5', 'okular']"
 +++
 Tools for accessing and converting various ebook file formats
 
-{{< files text="show files" >}}* /usr/bin/einfo
+## Files: 
+* /usr/bin/einfo
 * /usr/bin/lit2epub
 * /usr/include/epub.h
 * /usr/include/epub_shared.h
@@ -28,4 +29,3 @@ Tools for accessing and converting various ebook file formats
 * /usr/share/doc/ebook-tools-0.2.2/LICENSE
 * /usr/share/doc/ebook-tools-0.2.2/README
 * /usr/share/doc/ebook-tools-0.2.2/TODO
-{{< /files >}}

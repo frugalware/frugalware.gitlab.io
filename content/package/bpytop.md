@@ -15,7 +15,8 @@ depends = "['python3-psutil']"
 +++
 Resource monitor that shows usage and stats for processor, memory, disks, network and processes
 
-{{< files text="show files" >}}* /usr/bin/bpytop
+## Files: 
+* /usr/bin/bpytop
 * /usr/share/bpytop/doc/README.md
 * /usr/share/bpytop/themes/adapta.theme
 * /usr/share/bpytop/themes/default_black.theme
@@ -34,4 +35,3 @@ Resource monitor that shows usage and stats for processor, memory, disks, networ
 * /usr/share/bpytop/themes/whiteout.theme
 * /usr/share/doc/bpytop-1.0.68/LICENSE
 * /usr/share/doc/bpytop-1.0.68/README.md
-{{< /files >}}

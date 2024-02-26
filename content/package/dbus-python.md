@@ -16,7 +16,8 @@ reverse_depends = "['python-efl', 'python3-dbusmock']"
 +++
 Python bindings for D-BUS
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/dbus/bus.py
+## Files: 
+* /usr/lib/python3.12/site-packages/dbus/bus.py
 * /usr/lib/python3.12/site-packages/dbus/connection.py
 * /usr/lib/python3.12/site-packages/dbus/decorators.py
 * /usr/lib/python3.12/site-packages/dbus/exceptions.py
@@ -76,4 +77,3 @@ Python bindings for D-BUS
 * /usr/share/doc/dbus-python-1.3.2/MANIFEST
 * /usr/share/doc/dbus-python-1.3.2/NEWS
 * /usr/share/doc/dbus-python-1.3.2/README
-{{< /files >}}

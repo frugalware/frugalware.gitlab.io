@@ -15,7 +15,8 @@ depends = "['libgudev', 'libpcap', 'systemd']"
 +++
 Record/mock hardware devices for bug reports and regression tests
 
-{{< files text="show files" >}}* /usr/bin/umockdev-record
+## Files: 
+* /usr/bin/umockdev-record
 * /usr/bin/umockdev-run
 * /usr/bin/umockdev-wrapper
 * /usr/include/umockdev-1.0/umockdev.h
@@ -32,4 +33,3 @@ Record/mock hardware devices for bug reports and regression tests
 * /usr/share/doc/umockdev-0.17.16/README.md
 * /usr/share/gir-1.0/UMockdev-1.0.gir
 * /usr/share/vala/vapi/umockdev-1.0.vapi
-{{< /files >}}

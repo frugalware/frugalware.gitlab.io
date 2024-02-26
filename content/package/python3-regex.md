@@ -16,7 +16,8 @@ reverse_depends = "['calibre']"
 +++
 Alternative python regular expression module.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/regex-2023.10.3-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/regex-2023.10.3-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/regex-2023.10.3-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/regex-2023.10.3-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/regex-2023.10.3-py3.12.egg-info/top_level.txt
@@ -30,4 +31,3 @@ Alternative python regular expression module.
 * /usr/lib/python3.12/site-packages/regex/__pycache__/_regex_core.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/regex/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-regex-2023.10.3/README.rst
-{{< /files >}}

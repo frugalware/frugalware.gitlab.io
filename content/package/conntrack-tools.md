@@ -15,7 +15,8 @@ depends = "['libnetfilter_conntrack>=1.0.7', 'libnetfilter_cthelper', 'libnetfil
 +++
 A command line tool to create/retrieve/delete accounting objects
 
-{{< files text="show files" >}}* /usr/bin/conntrack
+## Files: 
+* /usr/bin/conntrack
 * /usr/bin/conntrackd
 * /usr/bin/nfct
 * /usr/lib/conntrack-tools/ct_helper_amanda.so
@@ -36,4 +37,3 @@ A command line tool to create/retrieve/delete accounting objects
 * /usr/share/man/man8/conntrack.8.gz
 * /usr/share/man/man8/conntrackd.8.gz
 * /usr/share/man/man8/nfct.8.gz
-{{< /files >}}

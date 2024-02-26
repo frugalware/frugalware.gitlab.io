@@ -16,7 +16,8 @@ reverse_depends = "['amavisd-new', 'bitlbee-common', 'bolt', 'ccid', 'dracut', '
 +++
 A System and Service Manager
 
-{{< files text="show files" >}}* /etc/init.d/README
+## Files: 
+* /etc/init.d/README
 * /etc/locale.conf
 * /etc/machine-id
 * /etc/machine-info
@@ -1838,4 +1839,3 @@ A System and Service Manager
 * /usr/share/zsh/site-functions/_systemd-tmpfiles
 * /usr/share/zsh/site-functions/_timedatectl
 * /usr/share/zsh/site-functions/_udevadm
-{{< /files >}}

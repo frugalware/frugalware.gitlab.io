@@ -16,7 +16,8 @@ reverse_depends = "['notification-daemon', 'pavucontrol']"
 +++
 GTK+3 libcanberra
 
-{{< files text="show files" >}}* /usr/bin/canberra-gtk-play
+## Files: 
+* /usr/bin/canberra-gtk-play
 * /usr/include/canberra-gtk.h
 * /usr/lib/gtk-3.0/modules/libcanberra-gtk-module.so
 * /usr/lib/gtk-3.0/modules/libcanberra-gtk3-module.so
@@ -37,4 +38,3 @@ GTK+3 libcanberra
 * /usr/share/gtk-doc/html/libcanberra/right.png
 * /usr/share/gtk-doc/html/libcanberra/style.css
 * /usr/share/gtk-doc/html/libcanberra/up.png
-{{< /files >}}

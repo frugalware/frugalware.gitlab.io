@@ -16,7 +16,8 @@ reverse_depends = "['lib32-gdbm', 'lib32-networkmanager', 'lib32-pcre', 'lib32-p
 +++
 GNU readline library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/readline/chardefs.h
+## Files: 
+* /usr/i686-frugalware-linux/include/readline/chardefs.h
 * /usr/i686-frugalware-linux/include/readline/history.h
 * /usr/i686-frugalware-linux/include/readline/keymaps.h
 * /usr/i686-frugalware-linux/include/readline/readline.h
@@ -32,4 +33,3 @@ GNU readline library ( 32bit )
 * /usr/lib32/libreadline.so.8.2
 * /usr/lib32/pkgconfig/history.pc
 * /usr/lib32/pkgconfig/readline.pc
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['kcoreaddons>=5.115.0', 'kparts>=5.115.0', 'kxmlgui>=5.115.0']"
 +++
 KDE kpart for viewing SVGs.
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/parts/svgpart.so
+## Files: 
+* /usr/lib/qt5/plugins/kf5/parts/svgpart.so
 * /usr/share/kservices5/svgpart.desktop
 * /usr/share/locale/ar/LC_MESSAGES/svgpart.mo
 * /usr/share/locale/be/LC_MESSAGES/svgpart.mo
@@ -80,4 +81,3 @@ KDE kpart for viewing SVGs.
 * /usr/share/locale/zh_CN/LC_MESSAGES/svgpart.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/svgpart.mo
 * /usr/share/metainfo/org.kde.svgpart.metainfo.xml
-{{< /files >}}

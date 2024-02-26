@@ -15,10 +15,10 @@ depends = "['gcc', 'libgfortran']"
 +++
 Fortran 95 support for GCC
 
-{{< files text="show files" >}}* /usr/bin/f95
+## Files: 
+* /usr/bin/f95
 * /usr/bin/gfortran
 * /usr/bin/x86_64-frugalware-linux-gfortran
 * /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/f951
 * /usr/share/info/gfortran.info.gz
 * /usr/share/man/man1/gfortran.1.gz
-{{< /files >}}

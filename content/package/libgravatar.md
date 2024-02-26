@@ -16,7 +16,8 @@ reverse_depends = "['messagelib']"
 +++
 A library that provides an interface for the Gravatar API
 
-{{< files text="show files" >}}* /usr/include/KPim5/Gravatar/Gravatar/GravatarCache
+## Files: 
+* /usr/include/KPim5/Gravatar/Gravatar/GravatarCache
 * /usr/include/KPim5/Gravatar/gravatar/gravatarcache.h
 * /usr/include/KPim5/Gravatar/Gravatar/GravatarConfigureSettingsDialog
 * /usr/include/KPim5/Gravatar/gravatar/gravatarconfiguresettingsdialog.h
@@ -82,4 +83,3 @@ A library that provides an interface for the Gravatar API
 * /usr/share/qlogging-categories5/libgravatar.categories
 * /usr/share/qlogging-categories5/libgravatar.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_Gravatar.pri
-{{< /files >}}

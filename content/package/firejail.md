@@ -16,7 +16,8 @@ reverse_depends = "['firetools']"
 +++
 Linux namespaces sandbox program
 
-{{< files text="show files" >}}* /etc/firejail/0ad.profile
+## Files: 
+* /etc/firejail/0ad.profile
 * /etc/firejail/1password.profile
 * /etc/firejail/2048-qt.profile
 * /etc/firejail/7z.profile
@@ -1324,4 +1325,3 @@ Linux namespaces sandbox program
 * /usr/share/vim/vimfiles/ftdetect/firejail.vim
 * /usr/share/vim/vimfiles/syntax/firejail.vim
 * /usr/share/zsh/site-functions/_firejail
-{{< /files >}}

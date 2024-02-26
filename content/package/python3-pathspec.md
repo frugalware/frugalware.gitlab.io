@@ -16,7 +16,8 @@ reverse_depends = "['python3-hatchling']"
 +++
 Utility library for gitignore style pattern matching of file paths
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pathspec-0.11.2.dist-info/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/pathspec-0.11.2.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/pathspec-0.11.2.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/pathspec-0.11.2.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/pathspec-0.11.2.dist-info/WHEEL
@@ -49,4 +50,3 @@ Utility library for gitignore style pattern matching of file paths
 * /usr/share/doc/python3-pathspec-0.11.2/README-dist.rst
 * /usr/share/doc/python3-pathspec-0.11.2/README.md
 * /usr/share/doc/python3-pathspec-0.11.2/README.rst
-{{< /files >}}

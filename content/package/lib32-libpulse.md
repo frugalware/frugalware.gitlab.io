@@ -16,7 +16,8 @@ reverse_depends = "['lib32-ffmpeg', 'lib32-libmikmod', 'lib32-pipewire', 'steam-
 +++
 pulseaduio client library (32-bit)
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/pa-info
+## Files: 
+* /usr/i686-frugalware-linux/bin/pa-info
 * /usr/i686-frugalware-linux/bin/pacat
 * /usr/i686-frugalware-linux/bin/pacmd
 * /usr/i686-frugalware-linux/bin/pactl
@@ -153,4 +154,3 @@ pulseaduio client library (32-bit)
 * /usr/lib32/pulseaudio/modules/module-virtual-source.so
 * /usr/lib32/pulseaudio/modules/module-virtual-surround-sink.so
 * /usr/lib32/pulseaudio/modules/module-volume-restore.so
-{{< /files >}}

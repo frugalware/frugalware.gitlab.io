@@ -15,7 +15,8 @@ depends = "['lzo']"
 +++
 lzop is a file compressor which is very similar to gzip.
 
-{{< files text="show files" >}}* /usr/bin/lzop
+## Files: 
+* /usr/bin/lzop
 * /usr/share/doc/lzop-1.04/AUTHORS
 * /usr/share/doc/lzop-1.04/ChangeLog
 * /usr/share/doc/lzop-1.04/COPYING
@@ -30,4 +31,3 @@ lzop is a file compressor which is very similar to gzip.
 * /usr/share/doc/lzop-1.04/README
 * /usr/share/doc/lzop-1.04/THANKS
 * /usr/share/man/man1/lzop.1.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Northern Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/locale/se/ChangeLog
+## Files: 
+* usr/share/locale/se/ChangeLog
 * usr/share/locale/se/charset
 * usr/share/locale/se/entry.desktop
 * usr/share/locale/se/flag.png
@@ -310,4 +311,3 @@ Northern Localization for KDE.
 * usr/share/locale/se/LC_MESSAGES/timezones.mo
 * usr/share/locale/se/LC_MESSAGES/trashapplet.mo
 * usr/share/locale/se/LC_MESSAGES/useraccount.mo
-{{< /files >}}

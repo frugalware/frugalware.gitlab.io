@@ -16,7 +16,8 @@ reverse_depends = "['sysdig']"
 +++
 Command-line JSON processor.
 
-{{< files text="show files" >}}* /usr/bin/jq
+## Files: 
+* /usr/bin/jq
 * /usr/include/jq.h
 * /usr/include/jv.h
 * /usr/lib/libjq.so
@@ -29,4 +30,3 @@ Command-line JSON processor.
 * /usr/share/doc/jq-1.7/NEWS.md
 * /usr/share/doc/jq-1.7/README.md
 * /usr/share/man/man1/jq.1.gz
-{{< /files >}}

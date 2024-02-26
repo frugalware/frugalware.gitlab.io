@@ -15,5 +15,5 @@ depends = "['claws-mail=4.1.1']"
 +++
 This plugin scans all messages that are received from an IMAP, LOCAL or POP account using clamd (Clam AV).
 
-{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/clamd.so
-{{< /files >}}
+## Files: 
+* /usr/lib/claws-mail/plugins/clamd.so

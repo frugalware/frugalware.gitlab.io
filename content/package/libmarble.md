@@ -16,7 +16,8 @@ reverse_depends = "['digikam', 'marble']"
 +++
 Marble libs
 
-{{< files text="show files" >}}* /usr/lib/libastro.so
+## Files: 
+* /usr/lib/libastro.so
 * /usr/lib/libastro.so.1
 * /usr/lib/libastro.so.23.8.5
 * /usr/lib/libmarbledeclarative.so
@@ -85,4 +86,3 @@ Marble libs
 * /usr/lib/qt5/plugins/kf5/krunner/plasma_runner_marble.so
 * /usr/lib/qt5/plugins/libmarble_part.so
 * /usr/lib/qt5/plugins/marblethumbnail.so
-{{< /files >}}

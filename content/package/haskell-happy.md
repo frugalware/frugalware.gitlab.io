@@ -15,7 +15,8 @@ depends = "['ghc>=9.6.1']"
 +++
 The Parser Generator for Haskell
 
-{{< files text="show files" >}}* /usr/bin/happy
+## Files: 
+* /usr/bin/happy
 * /usr/share/doc/haskell-happy-1.20.1.1/LICENSE
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/happy-1.20.1.1/LICENSE
 * /usr/share/x86_64-linux-ghc-9.8.1/happy-1.20.1.1/GLR_Base
@@ -31,4 +32,3 @@ The Parser Generator for Haskell
 * /usr/share/x86_64-linux-ghc-9.8.1/happy-1.20.1.1/HappyTemplate-arrays-ghc-debug
 * /usr/share/x86_64-linux-ghc-9.8.1/happy-1.20.1.1/HappyTemplate-coerce
 * /usr/share/x86_64-linux-ghc-9.8.1/happy-1.20.1.1/HappyTemplate-ghc
-{{< /files >}}

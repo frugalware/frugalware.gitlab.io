@@ -15,9 +15,9 @@ depends = "['glibc>=2.35']"
 +++
 Expected objects in C++11 and later
 
-{{< files text="show files" >}}* /usr/include/nonstd/expected.hpp
+## Files: 
+* /usr/include/nonstd/expected.hpp
 * /usr/lib/cmake/expected-lite/expected-lite-config-version.cmake
 * /usr/lib/cmake/expected-lite/expected-lite-config.cmake
 * /usr/lib/cmake/expected-lite/expected-lite-targets.cmake
 * /usr/share/doc/expected-lite-0.6.3/README.md
-{{< /files >}}

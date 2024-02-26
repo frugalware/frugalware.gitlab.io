@@ -16,7 +16,8 @@ reverse_depends = "['cmake', 'kopete', 'opendht', 'openvr', 'openxr', 'qt5-weben
 +++
 JSON C++ library.
 
-{{< files text="show files" >}}* /usr/include/json/allocator.h
+## Files: 
+* /usr/include/json/allocator.h
 * /usr/include/json/assertions.h
 * /usr/include/json/config.h
 * /usr/include/json/forwards.h
@@ -32,4 +33,3 @@ JSON C++ library.
 * /usr/share/doc/jsoncpp-1.9.5/AUTHORS
 * /usr/share/doc/jsoncpp-1.9.5/LICENSE
 * /usr/share/doc/jsoncpp-1.9.5/README.md
-{{< /files >}}

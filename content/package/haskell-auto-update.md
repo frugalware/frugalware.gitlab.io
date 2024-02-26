@@ -16,7 +16,8 @@ reverse_depends = "['haskell-fast-logger', 'haskell-time-manager']"
 +++
 Efficiently run periodic, on-demand actions
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/auto-update-0.1.6/Control/AutoUpdate.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/auto-update-0.1.6/Control/AutoUpdate.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/auto-update-0.1.6/Control/AutoUpdate.hi
 * /usr/lib/ghc-9.8.1/site-local/auto-update-0.1.6/Control/AutoUpdate/Util.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/auto-update-0.1.6/Control/AutoUpdate/Util.hi
@@ -45,4 +46,3 @@ Efficiently run periodic, on-demand actions
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/auto-update-0.1.6/LICENSE
 * /usr/share/haskell/haskell-auto-update/register.sh
 * /usr/share/haskell/haskell-auto-update/unregister.sh
-{{< /files >}}

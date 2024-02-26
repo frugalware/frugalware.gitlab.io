@@ -16,7 +16,8 @@ reverse_depends = "['speech-dispatcher']"
 +++
 dot.conf - A ConfigurationFile Parser Library.
 
-{{< files text="show files" >}}* /usr/include/dotconf.h
+## Files: 
+* /usr/include/dotconf.h
 * /usr/lib/libdotconf.so
 * /usr/lib/libdotconf.so.0
 * /usr/lib/libdotconf.so.0.0.1
@@ -74,4 +75,3 @@ dot.conf - A ConfigurationFile Parser Library.
 * /usr/share/doc/dotconf-1.3/examples/simple/simple.conf
 * /usr/share/doc/dotconf-1.3/INSTALL
 * /usr/share/doc/dotconf-1.3/README
-{{< /files >}}

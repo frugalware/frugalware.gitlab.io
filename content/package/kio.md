@@ -16,7 +16,8 @@ reverse_depends = "['akonadi', 'akonadi-contacts', 'akonadi-mime', 'baloo5', 'bl
 +++
 Network transparent access to files and data.
 
-{{< files text="show files" >}}* /etc/xdg/accept-languages.codes
+## Files: 
+* /etc/xdg/accept-languages.codes
 * /etc/xdg/kshorturifilterrc
 * /usr/bin/kcookiejar5
 * /usr/bin/ktelnetservice5
@@ -1065,4 +1066,3 @@ Network transparent access to files and data.
 * /usr/share/qt5/mkspecs/modules/qt_KIOGui.pri
 * /usr/share/qt5/mkspecs/modules/qt_KIOWidgets.pri
 * /usr/share/qt5/mkspecs/modules/qt_KNTLM.pri
-{{< /files >}}

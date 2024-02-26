@@ -15,5 +15,5 @@ depends = "['libpq>=11.2-2', 'rsyslog>=8.2312.0']"
 +++
 PostgresSQL support for rsyslog
 
-{{< files text="show files" >}}* /usr/lib/rsyslog/ompgsql.so
-{{< /files >}}
+## Files: 
+* /usr/lib/rsyslog/ompgsql.so

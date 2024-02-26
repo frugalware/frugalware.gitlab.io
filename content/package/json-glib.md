@@ -16,7 +16,8 @@ reverse_depends = "['appstream-glib', 'chromium-browser', 'conky-manager', 'dark
 +++
 JSON library built on GLib
 
-{{< files text="show files" >}}* /usr/bin/json-glib-format
+## Files: 
+* /usr/bin/json-glib-format
 * /usr/bin/json-glib-validate
 * /usr/include/json-glib-1.0/json-glib/json-builder.h
 * /usr/include/json-glib-1.0/json-glib/json-enum-types.h
@@ -131,4 +132,3 @@ JSON library built on GLib
 * /usr/share/locale/zh_CN/LC_MESSAGES/json-glib-1.0.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/json-glib-1.0.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/json-glib-1.0.mo
-{{< /files >}}

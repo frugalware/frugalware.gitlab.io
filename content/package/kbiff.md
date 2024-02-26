@@ -15,7 +15,8 @@ depends = "[]"
 +++
 New mail notification utility for KDE
 
-{{< files text="show files" >}}* usr/bin/kbiff
+## Files: 
+* usr/bin/kbiff
 * usr/lib/kde3/kbiff.la
 * usr/lib/kde3/kbiff.so
 * usr/lib/libkdeinit_kbiff.la
@@ -88,4 +89,3 @@ New mail notification utility for KDE
 * usr/share/locale/uk/LC_MESSAGES/kbiff.mo
 * usr/share/locale/zh_TW.Big5/LC_MESSAGES/kbiff.mo
 * usr/share/man/man1/kbiff.1.gz
-{{< /files >}}

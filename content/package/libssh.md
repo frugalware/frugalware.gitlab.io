@@ -16,7 +16,8 @@ reverse_depends = "['cryptsetup-luks', 'exiv2', 'kio-extras', 'krdc', 'remmina',
 +++
 The SSH library
 
-{{< files text="show files" >}}* /usr/include/libssh/callbacks.h
+## Files: 
+* /usr/include/libssh/callbacks.h
 * /usr/include/libssh/legacy.h
 * /usr/include/libssh/libssh.h
 * /usr/include/libssh/libsshpp.hpp
@@ -38,4 +39,3 @@ The SSH library
 * /usr/share/doc/libssh-0.10.6/README
 * /usr/share/doc/libssh-0.10.6/README.mbedtls
 * /usr/share/doc/libssh-0.10.6/README.md
-{{< /files >}}

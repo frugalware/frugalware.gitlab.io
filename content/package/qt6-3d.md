@@ -15,7 +15,8 @@ depends = "['assimp', 'qt6-declarative', 'qt6-shadertools']"
 +++
 The Qt6 toolkit, qt3d
 
-{{< files text="show files" >}}* /usr/include/qt6/Qt3DAnimation/6.6.2/Qt3DAnimation/private/abstractevaluateclipanimatorjob_p.h
+## Files: 
+* /usr/include/qt6/Qt3DAnimation/6.6.2/Qt3DAnimation/private/abstractevaluateclipanimatorjob_p.h
 * /usr/include/qt6/Qt3DAnimation/6.6.2/Qt3DAnimation/private/additiveclipblend_p.h
 * /usr/include/qt6/Qt3DAnimation/6.6.2/Qt3DAnimation/private/animationclip_p.h
 * /usr/include/qt6/Qt3DAnimation/6.6.2/Qt3DAnimation/private/animationlogging_p.h
@@ -1436,4 +1437,3 @@ The Qt6 toolkit, qt3d
 * /usr/lib/qt6/qml/QtQuick/Scene3D/libqtquickscene3dplugin.so
 * /usr/lib/qt6/qml/QtQuick/Scene3D/plugins.qmltypes
 * /usr/lib/qt6/qml/QtQuick/Scene3D/qmldir
-{{< /files >}}

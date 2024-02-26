@@ -15,8 +15,8 @@ depends = "['colord-gtk', 'gtk+4']"
 +++
 GTK+4 integration for libcolord
 
-{{< files text="show files" >}}* /usr/lib/libcolord-gtk4.so
+## Files: 
+* /usr/lib/libcolord-gtk4.so
 * /usr/lib/libcolord-gtk4.so.1
 * /usr/lib/libcolord-gtk4.so.1.0.3
 * /usr/lib/pkgconfig/colord-gtk4.pc
-{{< /files >}}

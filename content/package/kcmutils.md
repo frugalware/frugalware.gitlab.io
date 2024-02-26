@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-search', 'audiocd-kio', 'bluedevil5', 'breeze', 'co
 +++
 Utilities for interacting with KCModules.
 
-{{< files text="show files" >}}* /usr/include/KF5/KCMUtils/KCModuleContainer
+## Files: 
+* /usr/include/KF5/KCMUtils/KCModuleContainer
 * /usr/include/KF5/KCMUtils/kcmodulecontainer.h
 * /usr/include/KF5/KCMUtils/KCModuleData
 * /usr/include/KF5/KCMUtils/kcmoduledata.h
@@ -169,4 +170,3 @@ Utilities for interacting with KCModules.
 * /usr/share/qt5/qml/org/kde/kcmutils/components/private/AboutPlugin.qml
 * /usr/share/qt5/qml/org/kde/kcmutils/libkcmutilsqmlplugin.so
 * /usr/share/qt5/qml/org/kde/kcmutils/qmldir
-{{< /files >}}

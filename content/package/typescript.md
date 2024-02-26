@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 TypeScript is a language for application scale JavaScript development
 
-{{< files text="show files" >}}* /usr/bin/tsc
+## Files: 
+* /usr/bin/tsc
 * /usr/bin/tsserver
 * /usr/lib/node_modules/root/.travis.yml
 * /usr/lib/node_modules/root/defaults.js
@@ -182,4 +183,3 @@ TypeScript is a language for application scale JavaScript development
 * /usr/lib/node_modules/typescript/SECURITY.md
 * /usr/lib/node_modules/typescript/ThirdPartyNoticeText.txt
 * /usr/share/doc/typescript-5.2.2/README.md
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['haskell-streaming-commons', 'haskell-temporary', 'haskell-t
 +++
 Haskell random number library.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/random-1.2.1.1/libHSrandom-1.2.1.1-8cX9UKNPxmNDIXFj6fQYS0.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/random-1.2.1.1/libHSrandom-1.2.1.1-8cX9UKNPxmNDIXFj6fQYS0.a
 * /usr/lib/ghc-9.8.1/site-local/random-1.2.1.1/System/Random.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/random-1.2.1.1/System/Random.hi
 * /usr/lib/ghc-9.8.1/site-local/random-1.2.1.1/System/Random/GFinite.dyn_hi
@@ -41,4 +42,3 @@ Haskell random number library.
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/random-1.2.1.1/LICENSE
 * /usr/share/haskell/haskell-random/register.sh
 * /usr/share/haskell/haskell-random/unregister.sh
-{{< /files >}}

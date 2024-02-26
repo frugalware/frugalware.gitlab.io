@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org smproxy application
 
-{{< files text="show files" >}}* /usr/bin/smproxy
+## Files: 
+* /usr/bin/smproxy
 * /usr/share/doc/smproxy-1.0.7/ChangeLog
 * /usr/share/doc/smproxy-1.0.7/COPYING
 * /usr/share/doc/smproxy-1.0.7/INSTALL
 * /usr/share/doc/smproxy-1.0.7/README.md
 * /usr/share/man/man1/smproxy.1.gz
-{{< /files >}}

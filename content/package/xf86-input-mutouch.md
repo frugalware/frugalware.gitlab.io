@@ -16,9 +16,9 @@ license = "GPL2"
 +++
 X.Org driver for mutouch input devices
 
-{{< files text="show files" >}}* /usr/lib/xorg/modules/input/mutouch_drv.so
+## Files: 
+* /usr/lib/xorg/modules/input/mutouch_drv.so
 * /usr/share/doc/xf86-input-mutouch-1.3.0/ChangeLog
 * /usr/share/doc/xf86-input-mutouch-1.3.0/COPYING
 * /usr/share/doc/xf86-input-mutouch-1.3.0/README
 * /usr/share/man/man4/mutouch.4.gz
-{{< /files >}}

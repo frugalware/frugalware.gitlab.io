@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Frugalware Versatile Bootable Environment (Full)
 
-{{< files text="show files" >}}* /usr/share/fvbe/fvbe-2.0rc2-full-x86_64.iso
-{{< /files >}}
+## Files: 
+* /usr/share/fvbe/fvbe-2.0rc2-full-x86_64.iso

@@ -15,7 +15,8 @@ depends = "['qt5-base>=']"
 +++
 KDevelop Parser Generator, a LL(1) parser generator used by KDevelop language plugins
 
-{{< files text="show files" >}}* /usr/bin/kdev-pg-qt
+## Files: 
+* /usr/bin/kdev-pg-qt
 * /usr/include/kdevelop-pg-qt/kdev-pg-allocator.h
 * /usr/include/kdevelop-pg-qt/kdev-pg-char-sets.h
 * /usr/include/kdevelop-pg-qt/kdev-pg-list.h
@@ -29,4 +30,3 @@ KDevelop Parser Generator, a LL(1) parser generator used by KDevelop language pl
 * /usr/share/doc/kdevelop-pg-qt-2.2.2/COPYING.LIB
 * /usr/share/doc/kdevelop-pg-qt-2.2.2/README
 * /usr/share/doc/kdevelop-pg-qt-2.2.2/TODO
-{{< /files >}}

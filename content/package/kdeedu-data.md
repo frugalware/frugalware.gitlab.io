@@ -16,7 +16,8 @@ reverse_depends = "['libkeduvocdocument']"
 +++
 Common libraries for KDE Edu release-service
 
-{{< files text="show files" >}}* /usr/share/apps/kvtml/bg/animals.kvtml
+## Files: 
+* /usr/share/apps/kvtml/bg/animals.kvtml
 * /usr/share/apps/kvtml/bg/easy.kvtml
 * /usr/share/apps/kvtml/bg/hard.kvtml
 * /usr/share/apps/kvtml/bg/medium.kvtml
@@ -444,4 +445,3 @@ Common libraries for KDE Edu release-service
 * /usr/share/icons/hicolor/scalable/actions/newparametric.svgz
 * /usr/share/icons/hicolor/scalable/actions/newpolar.svgz
 * /usr/share/icons/hicolor/scalable/actions/resetview.svgz
-{{< /files >}}

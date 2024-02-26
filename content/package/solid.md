@@ -16,7 +16,8 @@ reverse_depends = "['discover', 'dolphin', 'itinerary', 'kamoso', 'kinfocenter5'
 +++
 KDE Desktop hardware abstraction.
 
-{{< files text="show files" >}}* /usr/bin/solid-hardware5
+## Files: 
+* /usr/bin/solid-hardware5
 * /usr/include/KF5/Solid/Solid/Battery
 * /usr/include/KF5/Solid/solid/battery.h
 * /usr/include/KF5/Solid/Solid/Block
@@ -130,4 +131,3 @@ KDE Desktop hardware abstraction.
 * /usr/share/qt5/mkspecs/modules/qt_Solid.pri
 * /usr/share/qt5/qml/org/kde/solid/libsolidextensionplugin.so
 * /usr/share/qt5/qml/org/kde/solid/qmldir
-{{< /files >}}

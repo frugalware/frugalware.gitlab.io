@@ -15,7 +15,8 @@ depends = "['postgresql=8.4.3']"
 +++
 PostgreSQL Documentation
 
-{{< files text="show files" >}}* /usr/share/doc/postgresql-8.4.3/html/acronyms.html
+## Files: 
+* /usr/share/doc/postgresql-8.4.3/html/acronyms.html
 * /usr/share/doc/postgresql-8.4.3/html/admin.html
 * /usr/share/doc/postgresql-8.4.3/html/adminpack.html
 * /usr/share/doc/postgresql-8.4.3/html/anoncvs.html
@@ -1001,4 +1002,3 @@ PostgreSQL Documentation
 * /usr/share/doc/postgresql-8.4.3/html/xplang-install.html
 * /usr/share/doc/postgresql-8.4.3/html/xplang.html
 * /usr/share/doc/postgresql-8.4.3/html/xtypes.html
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['baloo5', 'libsmbclient']"
 +++
 Symas Lightning Memory-Mapped Database
 
-{{< files text="show files" >}}* /usr/bin/mdb_copy
+## Files: 
+* /usr/bin/mdb_copy
 * /usr/bin/mdb_dump
 * /usr/bin/mdb_load
 * /usr/bin/mdb_stat
@@ -26,4 +27,3 @@ Symas Lightning Memory-Mapped Database
 * /usr/share/man/man1/mdb_dump.1.gz
 * /usr/share/man/man1/mdb_load.1.gz
 * /usr/share/man/man1/mdb_stat.1.gz
-{{< /files >}}

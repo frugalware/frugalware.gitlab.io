@@ -16,7 +16,7 @@ reverse_depends = "['efl', 'libgbm', 'libgl', 'libgles', 'libosmesa', 'mesa-libg
 +++
 Mesa OpenGL API library.
 
-{{< files text="show files" >}}* /usr/lib/libglapi.so
+## Files: 
+* /usr/lib/libglapi.so
 * /usr/lib/libglapi.so.0
 * /usr/lib/libglapi.so.0.0.0
-{{< /files >}}

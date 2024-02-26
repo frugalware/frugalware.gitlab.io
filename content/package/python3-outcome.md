@@ -16,7 +16,8 @@ reverse_depends = "['python3-trio']"
 +++
 Capture the outcome of Python function calls
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/outcome-1.3.0.post0-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/outcome-1.3.0.post0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/outcome-1.3.0.post0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/outcome-1.3.0.post0-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/outcome-1.3.0.post0-py3.12.egg-info/SOURCES.txt
@@ -32,4 +33,3 @@ Capture the outcome of Python function calls
 * /usr/lib/python3.12/site-packages/outcome/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-outcome-1.3.0.post0/LICENSE
 * /usr/share/doc/python3-outcome-1.3.0.post0/README.rst
-{{< /files >}}

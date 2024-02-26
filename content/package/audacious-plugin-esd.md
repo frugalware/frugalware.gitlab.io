@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Audacious esd output plugin
 
-{{< files text="show files" >}}* /usr/lib/audacious/Output/ESD.so
-{{< /files >}}
+## Files: 
+* /usr/lib/audacious/Output/ESD.so

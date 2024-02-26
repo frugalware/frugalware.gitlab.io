@@ -15,7 +15,8 @@ depends = "[]"
 +++
 GUI versions of the BitTorrent file transfer tool 
 
-{{< files text="show files" >}}* usr/bin/bittorrent
+## Files: 
+* usr/bin/bittorrent
 * usr/bin/maketorrent
 * usr/share/applications/bittorrent.desktop
 * usr/share/pixmaps/BitTorrent-4.20.7/bittorrent.ico
@@ -124,4 +125,3 @@ GUI versions of the BitTorrent file transfer tool
 * usr/share/pixmaps/BitTorrent-4.20.7/themes/default/torrentstate/stopped.png
 * usr/share/pixmaps/BitTorrent-4.20.7/themes/default/torrentstate/unknown.png
 * usr/share/pixmaps/bittorrent.png
-{{< /files >}}

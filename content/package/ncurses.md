@@ -16,7 +16,8 @@ reverse_depends = "['aalib', 'alsa-utils', 'android-studio', 'aspell', 'bc', 'bi
 +++
 A System V curses emulation library
 
-{{< files text="show files" >}}* /usr/bin/captoinfo
+## Files: 
+* /usr/bin/captoinfo
 * /usr/bin/captoinfow
 * /usr/bin/clear
 * /usr/bin/clearw
@@ -3881,4 +3882,3 @@ A System V curses emulation library
 * /usr/share/terminfo/z/ztx
 * /usr/share/terminfo/z/ztx-1-a
 * /usr/share/terminfo/z/ztx11
-{{< /files >}}

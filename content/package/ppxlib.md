@@ -16,7 +16,8 @@ reverse_depends = "['lwt']"
 +++
 Standard infrastructure for ppx rewriters
 
-{{< files text="show files" >}}* /usr/lib/ocaml/ppxlib-bench/dune-package
+## Files: 
+* /usr/lib/ocaml/ppxlib-bench/dune-package
 * /usr/lib/ocaml/ppxlib-bench/META
 * /usr/lib/ocaml/ppxlib-bench/opam
 * /usr/lib/ocaml/ppxlib/ast/ast.ml
@@ -593,4 +594,3 @@ Standard infrastructure for ppx rewriters
 * /usr/share/doc/ppxlib-0.31.0/ppxlib/odoc-pages/writing-ppxs.mld
 * /usr/share/doc/ppxlib-0.31.0/ppxlib/README.md
 * /usr/share/doc/ppxlib-0.31.0/README.md
-{{< /files >}}

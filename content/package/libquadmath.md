@@ -16,7 +16,8 @@ reverse_depends = "['libgfortran']"
 +++
 Quadruple Precision Math library from GCC
 
-{{< files text="show files" >}}* /usr/lib/libquadmath.a
+## Files: 
+* /usr/lib/libquadmath.a
 * /usr/lib/libquadmath.so
 * /usr/lib/libquadmath.so.0
 * /usr/lib/libquadmath.so.0.0.0
@@ -25,4 +26,3 @@ Quadruple Precision Math library from GCC
 * /usr/lib32/libquadmath.so.0
 * /usr/lib32/libquadmath.so.0.0.0
 * /usr/share/info/libquadmath.info.gz
-{{< /files >}}

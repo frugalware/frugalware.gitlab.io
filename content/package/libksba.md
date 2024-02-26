@@ -17,7 +17,8 @@ license = "GPLv3"
 +++
 Libksba is a CMS and X.509 access library.
 
-{{< files text="show files" >}}* /usr/include/ksba.h
+## Files: 
+* /usr/include/ksba.h
 * /usr/lib/libksba.so
 * /usr/lib/libksba.so.8
 * /usr/lib/libksba.so.8.14.6
@@ -35,4 +36,3 @@ Libksba is a CMS and X.509 access library.
 * /usr/share/doc/libksba-1.6.6/THANKS
 * /usr/share/doc/libksba-1.6.6/TODO
 * /usr/share/info/ksba.info.gz
-{{< /files >}}

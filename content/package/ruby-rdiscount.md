@@ -16,7 +16,8 @@ reverse_depends = "['ruby-ronn']"
 +++
 Fast Implementation of Gruber's Markdown in C
 
-{{< files text="show files" >}}* /usr/bin/rdiscount
+## Files: 
+* /usr/bin/rdiscount
 * /usr/lib/ruby/gems/3.3.0/cache/rdiscount-2.2.7.3.gem
 * /usr/lib/ruby/gems/3.3.0/doc/rdiscount-2.2.7.3/ri/cache.ri
 * /usr/lib/ruby/gems/3.3.0/doc/rdiscount-2.2.7.3/ri/ext/page-blocktags.ri
@@ -109,4 +110,3 @@ Fast Implementation of Gruber's Markdown in C
 * /usr/lib/ruby/gems/3.3.0/gems/rdiscount-2.2.7.3/test/markdown_test.rb
 * /usr/lib/ruby/gems/3.3.0/gems/rdiscount-2.2.7.3/test/rdiscount_test.rb
 * /usr/lib/ruby/gems/3.3.0/specifications/rdiscount-2.2.7.3.gemspec
-{{< /files >}}

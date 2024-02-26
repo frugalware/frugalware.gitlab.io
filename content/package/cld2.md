@@ -15,7 +15,8 @@ depends = "['libstdc++']"
 +++
 Compact Language Detector 2
 
-{{< files text="show files" >}}* /usr/include/cld2/cld2tablesummary.h
+## Files: 
+* /usr/include/cld2/cld2tablesummary.h
 * /usr/include/cld2/cld2_dynamic_compat.h
 * /usr/include/cld2/cld2_dynamic_data.h
 * /usr/include/cld2/cld2_dynamic_data_extractor.h
@@ -50,4 +51,3 @@ Compact Language Detector 2
 * /usr/lib/libcld2_full.so
 * /usr/share/doc/cld2-2020.4.0/LICENSE
 * /usr/share/doc/cld2-2020.4.0/README.md
-{{< /files >}}

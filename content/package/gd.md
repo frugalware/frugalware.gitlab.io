@@ -16,7 +16,8 @@ reverse_depends = "['glibc-memusagestat', 'gnuplot', 'graphviz', 'libgphoto2', '
 +++
 an ansi C library to generate fancy images from programs
 
-{{< files text="show files" >}}* /usr/bin/annotate
+## Files: 
+* /usr/bin/annotate
 * /usr/bin/bdftogd
 * /usr/bin/gd2copypal
 * /usr/bin/gd2togif
@@ -47,4 +48,3 @@ an ansi C library to generate fancy images from programs
 * /usr/share/doc/gd-2.3.3/CONTRIBUTORS
 * /usr/share/doc/gd-2.3.3/COPYING
 * /usr/share/doc/gd-2.3.3/README.md
-{{< /files >}}

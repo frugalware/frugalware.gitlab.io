@@ -15,7 +15,7 @@ depends = "['kaccounts-integration', 'signon-plugin-oauth2']"
 +++
 OpenDesktop kaccount provider
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/attica_kde.so
+## Files: 
+* /usr/lib/qt5/plugins/attica_kde.so
 * /usr/share/accounts/providers/kde/opendesktop.provider
 * /usr/share/accounts/services/kde/opendesktop-rating.service
-{{< /files >}}

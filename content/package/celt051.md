@@ -16,7 +16,8 @@ reverse_depends = "['spice-glib']"
 +++
 An audio codec for use in low-delay speech and audio communication
 
-{{< files text="show files" >}}* /usr/bin/celtdec051
+## Files: 
+* /usr/bin/celtdec051
 * /usr/bin/celtenc051
 * /usr/include/celt051/celt.h
 * /usr/include/celt051/celt_header.h
@@ -29,4 +30,3 @@ An audio codec for use in low-delay speech and audio communication
 * /usr/share/doc/celt051-0.5.1.3/INSTALL
 * /usr/share/doc/celt051-0.5.1.3/README
 * /usr/share/doc/celt051-0.5.1.3/TODO
-{{< /files >}}

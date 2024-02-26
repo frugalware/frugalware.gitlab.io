@@ -15,7 +15,8 @@ depends = "['fontconfig', 'mkfontscale']"
 +++
 A font made by the Linux Mint team
 
-{{< files text="show files" >}}* /usr/share/fonts/X11/TTF/MintSpirit-Bold.otf
+## Files: 
+* /usr/share/fonts/X11/TTF/MintSpirit-Bold.otf
 * /usr/share/fonts/X11/TTF/MintSpirit-BoldItalic.otf
 * /usr/share/fonts/X11/TTF/MintSpirit-Italic.otf
 * /usr/share/fonts/X11/TTF/MintSpirit-Regular.otf
@@ -23,4 +24,3 @@ A font made by the Linux Mint team
 * /usr/share/fonts/X11/TTF/MintSpiritNo2-BoldItalic.otf
 * /usr/share/fonts/X11/TTF/MintSpiritNo2-Italic.otf
 * /usr/share/fonts/X11/TTF/MintSpiritNo2-Regular.otf
-{{< /files >}}

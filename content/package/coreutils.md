@@ -16,7 +16,8 @@ reverse_depends = "['e2fsprogs', 'expat', 'inxi', 'kernel-initrd', 'kernel-lts-i
 +++
 These are the GNU core utilities, the basic command line programs
 
-{{< files text="show files" >}}* /etc/DIR_COLORS
+## Files: 
+* /etc/DIR_COLORS
 * /etc/profile.d/dircolors.sh
 * /etc/profile.d/newbie-aliases.sh
 * /usr/bin/arch
@@ -329,4 +330,3 @@ These are the GNU core utilities, the basic command line programs
 * /usr/share/man/man1/who.1.gz
 * /usr/share/man/man1/whoami.1.gz
 * /usr/share/man/man1/yes.1.gz
-{{< /files >}}

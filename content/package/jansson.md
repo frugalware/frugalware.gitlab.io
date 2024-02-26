@@ -16,7 +16,8 @@ reverse_depends = "['apache', 'ddcutil', 'gnunet', 'handbrake', 'libguestfs', 'l
 +++
 C library for encoding, decoding and manipulating JSON data
 
-{{< files text="show files" >}}* /usr/include/jansson.h
+## Files: 
+* /usr/include/jansson.h
 * /usr/include/jansson_config.h
 * /usr/lib/libjansson.so
 * /usr/lib/libjansson.so.4
@@ -25,4 +26,3 @@ C library for encoding, decoding and manipulating JSON data
 * /usr/share/doc/jansson-2.14/CHANGES
 * /usr/share/doc/jansson-2.14/LICENSE
 * /usr/share/doc/jansson-2.14/README.rst
-{{< /files >}}

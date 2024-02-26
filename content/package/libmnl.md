@@ -16,11 +16,11 @@ reverse_depends = "['ethtool', 'ipset', 'iptables', 'libnetfilter_acct', 'libnet
 +++
 A minimalistic user-space Netlink library
 
-{{< files text="show files" >}}* /usr/include/libmnl/libmnl.h
+## Files: 
+* /usr/include/libmnl/libmnl.h
 * /usr/lib/libmnl.so
 * /usr/lib/libmnl.so.0
 * /usr/lib/libmnl.so.0.2.0
 * /usr/lib/pkgconfig/libmnl.pc
 * /usr/share/doc/libmnl-1.0.5/COPYING
 * /usr/share/doc/libmnl-1.0.5/README
-{{< /files >}}

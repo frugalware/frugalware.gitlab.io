@@ -16,7 +16,8 @@ reverse_depends = "['haskell-servant-server']"
 +++
 A family of combinators for defining webservices APIs
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/servant-0.20.1/libHSservant-0.20.1-BOlfa9PkkAl9AYEec7rsxw.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/servant-0.20.1/libHSservant-0.20.1-BOlfa9PkkAl9AYEec7rsxw.a
 * /usr/lib/ghc-9.8.1/site-local/servant-0.20.1/Servant/API.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/servant-0.20.1/Servant/API.hi
 * /usr/lib/ghc-9.8.1/site-local/servant-0.20.1/Servant/API/Alternative.dyn_hi
@@ -158,4 +159,3 @@ A family of combinators for defining webservices APIs
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/servant-0.20.1/LICENSE
 * /usr/share/haskell/haskell-servant/register.sh
 * /usr/share/haskell/haskell-servant/unregister.sh
-{{< /files >}}

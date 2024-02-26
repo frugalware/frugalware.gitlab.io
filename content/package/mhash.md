@@ -16,7 +16,8 @@ reverse_depends = "['aide']"
 +++
 A uniform interface to a large number of hash algorithms.
 
-{{< files text="show files" >}}* /usr/include/mhash.h
+## Files: 
+* /usr/include/mhash.h
 * /usr/include/mutils/mglobal.h
 * /usr/include/mutils/mhash.h
 * /usr/include/mutils/mhash_config.h
@@ -35,4 +36,3 @@ A uniform interface to a large number of hash algorithms.
 * /usr/share/doc/mhash-0.9.9.9/THANKS
 * /usr/share/doc/mhash-0.9.9.9/TODO
 * /usr/share/man/man3/mhash.3.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['nss-wins']"
 +++
 SMB file and print server.
 
-{{< files text="show files" >}}* /etc/logrotate.d/samba
+## Files: 
+* /etc/logrotate.d/samba
 * /etc/samba/smb.conf
 * /etc/tmpfiles.d/samba.conf
 * /usr/bin/cifsdd
@@ -860,4 +861,3 @@ SMB file and print server.
 * /usr/share/samba/setup/share.ldif
 * /usr/share/samba/setup/spn_update_list
 * /usr/share/samba/setup/ypServ30.ldif
-{{< /files >}}

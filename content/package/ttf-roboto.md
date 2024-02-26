@@ -15,7 +15,8 @@ depends = "['fontconfig', 'mkfontscale']"
 +++
 The new version font of Android 4, Codename 'Ice Cream Sandwich'.
 
-{{< files text="show files" >}}* /usr/share/fonts/X11/TTF/Roboto-Black.ttf
+## Files: 
+* /usr/share/fonts/X11/TTF/Roboto-Black.ttf
 * /usr/share/fonts/X11/TTF/Roboto-BlackItalic.ttf
 * /usr/share/fonts/X11/TTF/Roboto-Bold.ttf
 * /usr/share/fonts/X11/TTF/Roboto-BoldItalic.ttf
@@ -32,4 +33,3 @@ The new version font of Android 4, Codename 'Ice Cream Sandwich'.
 * /usr/share/fonts/X11/TTF/RobotoCondensed-Light.ttf
 * /usr/share/fonts/X11/TTF/RobotoCondensed-LightItalic.ttf
 * /usr/share/fonts/X11/TTF/RobotoCondensed-Regular.ttf
-{{< /files >}}

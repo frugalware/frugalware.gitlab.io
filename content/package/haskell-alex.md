@@ -15,10 +15,10 @@ depends = "['ghc>=9.6.2']"
 +++
 Alex is a tool for generating lexical analysers in Haskell
 
-{{< files text="show files" >}}* /usr/bin/alex
+## Files: 
+* /usr/bin/alex
 * /usr/share/doc/haskell-alex-3.4.0.1/LICENSE
 * /usr/share/doc/haskell-alex-3.4.0.1/README.md
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/alex-3.4.0.1/LICENSE
 * /usr/share/x86_64-linux-ghc-9.8.1/alex-3.4.0.1/AlexTemplate.hs
 * /usr/share/x86_64-linux-ghc-9.8.1/alex-3.4.0.1/AlexWrappers.hs
-{{< /files >}}

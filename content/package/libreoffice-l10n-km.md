@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Khmer support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/km/default.css
+## Files: 
+* /usr/lib/libreoffice/help/km/default.css
 * /usr/lib/libreoffice/help/km/err.html
 * /usr/lib/libreoffice/help/km/highcontrast1.css
 * /usr/lib/libreoffice/help/km/highcontrast2.css
@@ -137,4 +138,3 @@ Installs Khmer support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-km.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_km.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_km.xcd
-{{< /files >}}

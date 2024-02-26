@@ -16,10 +16,10 @@ reverse_depends = "['gvfs-apple']"
 +++
 A fuse filesystem for mounting iPhone and iPod touch devices
 
-{{< files text="show files" >}}* /usr/bin/ifuse
+## Files: 
+* /usr/bin/ifuse
 * /usr/share/doc/ifuse-1.1.4/AUTHORS
 * /usr/share/doc/ifuse-1.1.4/COPYING
 * /usr/share/doc/ifuse-1.1.4/NEWS
 * /usr/share/doc/ifuse-1.1.4/README.md
 * /usr/share/man/man1/ifuse.1.gz
-{{< /files >}}

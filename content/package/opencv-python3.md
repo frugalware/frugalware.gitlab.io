@@ -16,7 +16,8 @@ reverse_depends = "['howdy']"
 +++
 Opencv python3 bindings
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/cv2/alphamat/__init__.pyi
+## Files: 
+* /usr/lib/python3.12/site-packages/cv2/alphamat/__init__.pyi
 * /usr/lib/python3.12/site-packages/cv2/aruco/__init__.pyi
 * /usr/lib/python3.12/site-packages/cv2/barcode/__init__.pyi
 * /usr/lib/python3.12/site-packages/cv2/bgsegm/__init__.pyi
@@ -119,4 +120,3 @@ Opencv python3 bindings
 * /usr/lib/python3.12/site-packages/cv2/xphoto/__init__.pyi
 * /usr/lib/python3.12/site-packages/cv2/__init__.py
 * /usr/lib/python3.12/site-packages/cv2/__init__.pyi
-{{< /files >}}

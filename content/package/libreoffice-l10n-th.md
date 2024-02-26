@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Thai support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/th/LC_MESSAGES/acc.mo
+## Files: 
+* /usr/lib/libreoffice/program/resource/th/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/th/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/th/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/th/LC_MESSAGES/chart.mo
@@ -55,4 +56,3 @@ Installs Thai support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-th.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_th.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_th.xcd
-{{< /files >}}

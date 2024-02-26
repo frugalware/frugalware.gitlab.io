@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.Org FS library
 
-{{< files text="show files" >}}* /usr/include/X11/fonts/FSlib.h
+## Files: 
+* /usr/include/X11/fonts/FSlib.h
 * /usr/lib/libFS.so
 * /usr/lib/libFS.so.6
 * /usr/lib/libFS.so.6.0.0
@@ -27,4 +28,3 @@ X.Org FS library
 * /usr/share/doc/libfs-1.0.9/FSlib.txt
 * /usr/share/doc/libfs-1.0.9/INSTALL
 * /usr/share/doc/libfs-1.0.9/README.md
-{{< /files >}}

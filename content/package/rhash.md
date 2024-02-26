@@ -16,7 +16,8 @@ reverse_depends = "['cmake']"
 +++
 Utility for verifying hash sums (SFV, CRC, etc). Supports lots of algorithms.
 
-{{< files text="show files" >}}* /etc/rhashrc
+## Files: 
+* /etc/rhashrc
 * /usr/bin/ed2k-link
 * /usr/bin/edonr256-hash
 * /usr/bin/edonr512-hash
@@ -50,4 +51,3 @@ Utility for verifying hash sums (SFV, CRC, etc). Supports lots of algorithms.
 * /usr/share/man/man1/tiger-hash.1.gz
 * /usr/share/man/man1/tth-hash.1.gz
 * /usr/share/man/man1/whirlpool-hash.1.gz
-{{< /files >}}

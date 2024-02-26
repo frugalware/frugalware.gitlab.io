@@ -15,5 +15,5 @@ depends = "['claws-mail=4.1.1', 'pygobject3']"
 +++
 This plugin provides Python integration features.
 
-{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/python.so
-{{< /files >}}
+## Files: 
+* /usr/lib/claws-mail/plugins/python.so

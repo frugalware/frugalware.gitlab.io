@@ -16,7 +16,8 @@ reverse_depends = "['kio-extras']"
 +++
 Qt-based client-side and server-side SOAP component
 
-{{< files text="show files" >}}* /usr/bin/kdwsdl2cpp
+## Files: 
+* /usr/bin/kdwsdl2cpp
 * /usr/include/KDSoapClient/KDDateTime
 * /usr/include/KDSoapClient/KDDateTime.h
 * /usr/include/KDSoapClient/KDQName
@@ -98,4 +99,3 @@ Qt-based client-side and server-side SOAP component
 * /usr/share/mkspecs/features/kdsoap.prf
 * /usr/share/qt5/mkspecs/modules/qt_KDSoapClient.pri
 * /usr/share/qt5/mkspecs/modules/qt_KDSoapServer.pri
-{{< /files >}}

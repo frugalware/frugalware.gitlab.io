@@ -16,7 +16,8 @@ reverse_depends = "['cups-filters', 'enlightenment', 'exif', 'feh', 'libgdiplus'
 +++
 Exchangeable Image File Format tag library
 
-{{< files text="show files" >}}* /usr/include/libexif/exif-byte-order.h
+## Files: 
+* /usr/include/libexif/exif-byte-order.h
 * /usr/include/libexif/exif-content.h
 * /usr/include/libexif/exif-data-type.h
 * /usr/include/libexif/exif-data.h
@@ -65,4 +66,3 @@ Exchangeable Image File Format tag library
 * /usr/share/locale/uk/LC_MESSAGES/libexif-12.mo
 * /usr/share/locale/vi/LC_MESSAGES/libexif-12.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/libexif-12.mo
-{{< /files >}}

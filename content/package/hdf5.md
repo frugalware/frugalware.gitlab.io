@@ -16,7 +16,8 @@ reverse_depends = "['adios2', 'alembic', 'flann', 'hdf5-fortran', 'howdy', 'insi
 +++
 Library and file format for storing scientific data
 
-{{< files text="show files" >}}* /usr/bin/gif2h5
+## Files: 
+* /usr/bin/gif2h5
 * /usr/bin/h52gif
 * /usr/bin/h5c++
 * /usr/bin/h5cc
@@ -240,4 +241,3 @@ Library and file format for storing scientific data
 * /usr/share/hdf5-1.10.5/hdf5_examples/hl/run-hl-ex.sh
 * /usr/share/hdf5-1.10.5/hdf5_examples/README
 * /usr/share/hdf5-1.10.5/hdf5_examples/run-all-ex.sh
-{{< /files >}}

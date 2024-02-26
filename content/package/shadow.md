@@ -16,7 +16,8 @@ reverse_depends = "['avahi', 'clamav', 'distcc', 'libusbmuxd', 'pacman-g2', 'pac
 +++
 Shadow password file utilities
 
-{{< files text="show files" >}}* /etc/adduser.conf
+## Files: 
+* /etc/adduser.conf
 * /etc/group
 * /etc/limits
 * /etc/login.access
@@ -105,4 +106,3 @@ Shadow password file utilities
 * /usr/share/locale/vi/LC_MESSAGES/shadow.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/shadow.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/shadow.mo
-{{< /files >}}

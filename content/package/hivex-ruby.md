@@ -15,6 +15,6 @@ depends = "['hivex', 'ruby>=3.3.0']"
 +++
 Ruby bindings for hivex
 
-{{< files text="show files" >}}* /usr/lib/ruby/site_ruby/3.3.0/hivex.rb
+## Files: 
+* /usr/lib/ruby/site_ruby/3.3.0/hivex.rb
 * /usr/lib/ruby/site_ruby/3.3.0/x86_64-linux/_hivex.so
-{{< /files >}}

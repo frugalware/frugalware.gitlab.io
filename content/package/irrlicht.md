@@ -16,7 +16,8 @@ reverse_depends = "['irrlicht-examples']"
 +++
 An open source high performance realtime 3D graphics engine.
 
-{{< files text="show files" >}}* /usr/include/irrlicht/aabbox3d.h
+## Files: 
+* /usr/include/irrlicht/aabbox3d.h
 * /usr/include/irrlicht/CDynamicMeshBuffer.h
 * /usr/include/irrlicht/CIndexBuffer.h
 * /usr/include/irrlicht/CMeshBuffer.h
@@ -208,4 +209,3 @@ An open source high performance realtime 3D graphics engine.
 * /usr/share/doc/irrlicht-1.8.5/README
 * /usr/share/doc/irrlicht-1.8.5/readme.txt
 * /usr/share/doc/irrlicht-1.8.5/TODO
-{{< /files >}}

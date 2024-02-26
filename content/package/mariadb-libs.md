@@ -16,7 +16,8 @@ reverse_depends = "['courier-authlib', 'cyrus-sasl-sql', 'dovecot', 'gammu', 'gn
 +++
 Mariadb library.
 
-{{< files text="show files" >}}* /usr/bin/mysqltest_embedded
+## Files: 
+* /usr/bin/mysqltest_embedded
 * /usr/bin/mysql_client_test_embedded
 * /usr/bin/mysql_embedded
 * /usr/include/mysql/errmsg.h
@@ -494,4 +495,3 @@ Mariadb library.
 * /usr/lib/libmysqld.so
 * /usr/lib/pkgconfig/libmariadb.pc
 * /usr/lib/pkgconfig/mariadb.pc
-{{< /files >}}

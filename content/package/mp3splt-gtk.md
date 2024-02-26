@@ -15,7 +15,8 @@ depends = "['dbus', 'gtk+3', 'libmp3splt>=0.9.2', 'zlib>=1.2.12']"
 +++
 mp3splt-gtk is a interface for mp3splt, a utility for mp3/ogg splitting without decoding
 
-{{< files text="show files" >}}* /usr/bin/mp3splt-gtk
+## Files: 
+* /usr/bin/mp3splt-gtk
 * /usr/share/applications/mp3splt-gtk.desktop
 * /usr/share/doc/mp3splt-gtk-0.9.2/AUTHORS
 * /usr/share/doc/mp3splt-gtk-0.9.2/ChangeLog
@@ -43,4 +44,3 @@ mp3splt-gtk is a interface for mp3splt, a utility for mp3/ogg splitting without 
 * /usr/share/mp3splt-gtk/stop_inactive.svg
 * /usr/share/pixmaps/mp3splt-gtk.png
 * /usr/share/pixmaps/mp3splt-gtk_ico.svg
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['steam-native']"
 +++
 A configuration database system for GNOME ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/gconf-merge-tree
+## Files: 
+* /usr/i686-frugalware-linux/bin/gconf-merge-tree
 * /usr/i686-frugalware-linux/bin/gconftool-2
 * /usr/i686-frugalware-linux/bin/gsettings-data-convert
 * /usr/i686-frugalware-linux/bin/gsettings-schema-convert
@@ -36,4 +37,3 @@ A configuration database system for GNOME ( 32bit )
 * /usr/lib32/libgconf-2.so.4
 * /usr/lib32/libgconf-2.so.4.1.5
 * /usr/lib32/pkgconfig/gconf-2.0.pc
-{{< /files >}}

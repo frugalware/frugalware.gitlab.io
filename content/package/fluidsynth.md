@@ -16,7 +16,8 @@ reverse_depends = "['calf', 'minuet', 'mpd', 'scummvm', 'vlc-fluidsynth']"
 +++
 A real-time software synthesizer based on the SoundFont 2 specifications.
 
-{{< files text="show files" >}}* /usr/bin/fluidsynth
+## Files: 
+* /usr/bin/fluidsynth
 * /usr/include/fluidsynth.h
 * /usr/include/fluidsynth/audio.h
 * /usr/include/fluidsynth/event.h
@@ -51,4 +52,3 @@ A real-time software synthesizer based on the SoundFont 2 specifications.
 * /usr/share/doc/fluidsynth-2.3.1/THANKS
 * /usr/share/doc/fluidsynth-2.3.1/TODO
 * /usr/share/man/man1/fluidsynth.1.gz
-{{< /files >}}

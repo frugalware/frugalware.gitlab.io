@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 test program for the XFree86-DGA extension
 
-{{< files text="show files" >}}* /usr/bin/dga
+## Files: 
+* /usr/bin/dga
 * /usr/share/doc/xf86dga-1.0.3/ChangeLog
 * /usr/share/doc/xf86dga-1.0.3/COPYING
 * /usr/share/doc/xf86dga-1.0.3/INSTALL
 * /usr/share/doc/xf86dga-1.0.3/README
 * /usr/share/man/man1/dga.1.gz
-{{< /files >}}

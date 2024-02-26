@@ -15,7 +15,7 @@ depends = "['hunspell>=1.1.3']"
 +++
 Dutch dictionary for Hunspell
 
-{{< files text="show files" >}}* /usr/share/doc/hunspell-nl-2.10/README_nl_NL.txt
+## Files: 
+* /usr/share/doc/hunspell-nl-2.10/README_nl_NL.txt
 * /usr/share/myspell/nl_NL.aff
 * /usr/share/myspell/nl_NL.dic
-{{< /files >}}

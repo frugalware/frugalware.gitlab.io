@@ -15,7 +15,7 @@ depends = "['alsa-plugins>=1.2.7.1', 'libpulse>=9.0-2']"
 +++
 ALSA plugin for pulseaudio.
 
-{{< files text="show files" >}}* /usr/lib/alsa-lib/libasound_module_conf_pulse.so
+## Files: 
+* /usr/lib/alsa-lib/libasound_module_conf_pulse.so
 * /usr/lib/alsa-lib/libasound_module_ctl_pulse.so
 * /usr/lib/alsa-lib/libasound_module_pcm_pulse.so
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "[]"
 +++
 C/C++ language family frontend for LLVM (static)
 
-{{< files text="show files" >}}* /usr/lib/libclangAnalysis.a
+## Files: 
+* /usr/lib/libclangAnalysis.a
 * /usr/lib/libclangAnalysisFlowSensitive.a
 * /usr/lib/libclangAnalysisFlowSensitiveModels.a
 * /usr/lib/libclangAPINotes.a
@@ -104,4 +105,3 @@ C/C++ language family frontend for LLVM (static)
 * /usr/lib/libclangToolingSyntax.a
 * /usr/lib/libclangTransformer.a
 * /usr/lib/libfindAllSymbols.a
-{{< /files >}}

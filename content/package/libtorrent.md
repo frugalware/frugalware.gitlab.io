@@ -16,7 +16,8 @@ reverse_depends = "['rtorrent']"
 +++
 LibTorrent is a BitTorrent library written in C++ for *nix, with a focus on high performance and good code.
 
-{{< files text="show files" >}}* /usr/include/torrent/bitfield.h
+## Files: 
+* /usr/include/torrent/bitfield.h
 * /usr/include/torrent/chunk_manager.h
 * /usr/include/torrent/common.h
 * /usr/include/torrent/connection_manager.h
@@ -89,4 +90,3 @@ LibTorrent is a BitTorrent library written in C++ for *nix, with a focus on high
 * /usr/share/doc/libtorrent-0.13.8/INSTALL
 * /usr/share/doc/libtorrent-0.13.8/NEWS
 * /usr/share/doc/libtorrent-0.13.8/README
-{{< /files >}}

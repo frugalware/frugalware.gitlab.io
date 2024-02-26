@@ -15,5 +15,5 @@ depends = "['glibc']"
 +++
 Language specific files for tesseract lang chi_tra
 
-{{< files text="show files" >}}* /usr/share/tessdata/chi_tra.traineddata
-{{< /files >}}
+## Files: 
+* /usr/share/tessdata/chi_tra.traineddata

@@ -15,7 +15,8 @@ depends = "['plasma-framework>=5.97.0']"
 +++
 A dynamic tiling extension for KWin
 
-{{< files text="show files" >}}* /usr/share/doc/krohnkite-0.8.2/LICENSE
+## Files: 
+* /usr/share/doc/krohnkite-0.8.2/LICENSE
 * /usr/share/doc/krohnkite-0.8.2/README.md
 * /usr/share/kwin/scripts/krohnkite/contents/code/script.js
 * /usr/share/kwin/scripts/krohnkite/contents/config/main.xml
@@ -23,4 +24,3 @@ A dynamic tiling extension for KWin
 * /usr/share/kwin/scripts/krohnkite/contents/ui/main.qml
 * /usr/share/kwin/scripts/krohnkite/contents/ui/popup.qml
 * /usr/share/kwin/scripts/krohnkite/metadata.desktop
-{{< /files >}}

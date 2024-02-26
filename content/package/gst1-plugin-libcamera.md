@@ -15,5 +15,5 @@ depends = "['gst1-plugins-base', 'libcamera']"
 +++
 libcamera gstreamer plugin
 
-{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstlibcamera.so
-{{< /files >}}
+## Files: 
+* /usr/lib/gstreamer-1.0/libgstlibcamera.so

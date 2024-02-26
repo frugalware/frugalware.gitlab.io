@@ -15,9 +15,9 @@ depends = "[]"
 +++
 Util to manage IP ranges
 
-{{< files text="show files" >}}* /usr/bin/iprange
+## Files: 
+* /usr/bin/iprange
 * /usr/share/doc/iprange-1.0.4/ChangeLog
 * /usr/share/doc/iprange-1.0.4/COPYING
 * /usr/share/doc/iprange-1.0.4/README.md
 * /usr/share/man/man1/iprange.1.gz
-{{< /files >}}

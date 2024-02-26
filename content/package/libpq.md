@@ -16,10 +16,10 @@ reverse_depends = "['courier-authlib', 'cyrus-sasl-sql', 'dovecot', 'gdal', 'gno
 +++
 PostgreSQL Library.
 
-{{< files text="show files" >}}* /usr/include/libpq-fe.h
+## Files: 
+* /usr/include/libpq-fe.h
 * /usr/include/libpq/libpq-fs.h
 * /usr/include/postgres_ext.h
 * /usr/lib/libpq.so
 * /usr/lib/libpq.so.5
 * /usr/lib/libpq.so.5.16
-{{< /files >}}

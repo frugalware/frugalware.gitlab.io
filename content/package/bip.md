@@ -15,7 +15,8 @@ depends = "['flex', 'openssl>=3.1.0']"
 +++
 BIP is an IRC proxy.
 
-{{< files text="show files" >}}* /usr/bin/bip
+## Files: 
+* /usr/bin/bip
 * /usr/bin/bipgenconfig
 * /usr/bin/bipmkpw
 * /usr/share/bip/bip.conf.sample
@@ -33,4 +34,3 @@ BIP is an IRC proxy.
 * /usr/share/man/man1/bipmkpw.1.gz
 * /usr/share/man/man5/bip.conf.5.gz
 * /usr/share/vim/syntax/bip.vim
-{{< /files >}}

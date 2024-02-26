@@ -15,7 +15,8 @@ depends = "['rust']"
 +++
 Build and publish crates with pyo3, rust-cpython and cffi bindings
 
-{{< files text="show files" >}}* /usr/bin/maturin
+## Files: 
+* /usr/bin/maturin
 * /usr/lib/python3.12/site-packages/maturin-1.4.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/maturin-1.4.0.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/maturin-1.4.0.dist-info/top_level.txt
@@ -30,4 +31,3 @@ Build and publish crates with pyo3, rust-cpython and cffi bindings
 * /usr/lib/python3.12/site-packages/maturin/__pycache__/__main__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/maturin/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/python3-maturin-1.4.0/README.md
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['alizams', 'opencv', 'qtcreator', 'seafile-client', 'socnetv
 +++
 The Qt6 toolkit, qt5compat
 
-{{< files text="show files" >}}* /usr/include/qt6/QtCore5Compat/6.6.2/QtCore5Compat/private/qbinaryjsonarray_p.h
+## Files: 
+* /usr/include/qt6/QtCore5Compat/6.6.2/QtCore5Compat/private/qbinaryjsonarray_p.h
 * /usr/include/qt6/QtCore5Compat/6.6.2/QtCore5Compat/private/qbinaryjsonobject_p.h
 * /usr/include/qt6/QtCore5Compat/6.6.2/QtCore5Compat/private/qbinaryjsonvalue_p.h
 * /usr/include/qt6/QtCore5Compat/6.6.2/QtCore5Compat/private/qbinaryjson_p.h
@@ -87,4 +88,3 @@ The Qt6 toolkit, qt5compat
 * /usr/lib/qt6/mkspecs/modules/qt_lib_core5compat.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_core5compat_private.pri
 * /usr/lib/qt6/modules/Core5Compat.json
-{{< /files >}}

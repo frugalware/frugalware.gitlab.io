@@ -16,7 +16,8 @@ reverse_depends = "['lib32-harfbuzz', 'lib32-pango', 'steam-native']"
 +++
 A vector graphics library with cross-device output support ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/cairo-trace
+## Files: 
+* /usr/i686-frugalware-linux/bin/cairo-trace
 * /usr/i686-frugalware-linux/include/cairo/cairo-deprecated.h
 * /usr/i686-frugalware-linux/include/cairo/cairo-features.h
 * /usr/i686-frugalware-linux/include/cairo/cairo-ft.h
@@ -59,4 +60,3 @@ A vector graphics library with cross-device output support ( 32bit )
 * /usr/lib32/pkgconfig/cairo-xlib-xrender.pc
 * /usr/lib32/pkgconfig/cairo-xlib.pc
 * /usr/lib32/pkgconfig/cairo.pc
-{{< /files >}}

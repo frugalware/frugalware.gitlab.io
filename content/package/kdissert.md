@@ -15,7 +15,8 @@ depends = "[]"
 +++
 A mindmapping-like tool to help students to produce complicated documents very quickly and efficiently
 
-{{< files text="show files" >}}* usr/bin/kdissert
+## Files: 
+* usr/bin/kdissert
 * usr/lib/kde3/libkdissapplet.la
 * usr/lib/kde3/libkdissapplet.so
 * usr/lib/kde3/libkdissasciidoc.la
@@ -94,4 +95,3 @@ A mindmapping-like tool to help students to produce complicated documents very q
 * usr/share/locale/tr/LC_MESSAGES/kdissert.mo
 * usr/share/mimelnk/application/x-kdissert.desktop
 * usr/share/services/kdissertpart.desktop
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 Fonts which are useful for TV applications.
 
-{{< files text="show files" >}}* /usr/share/fonts/X11/misc/caption.pcf.gz
+## Files: 
+* /usr/share/fonts/X11/misc/caption.pcf.gz
 * /usr/share/fonts/X11/misc/captioni.pcf.gz
 * /usr/share/fonts/X11/misc/led-iso10646-1.pcf.gz
 * /usr/share/fonts/X11/misc/led-iso8859-1.pcf.gz
@@ -37,4 +38,3 @@ Fonts which are useful for TV applications.
 * /usr/share/fonts/X11/misc/teletext2i.pcf.gz
 * /usr/share/fonts/X11/misc/teletext4.pcf.gz
 * /usr/share/fonts/X11/misc/teletext4i.pcf.gz
-{{< /files >}}

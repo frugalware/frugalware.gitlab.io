@@ -15,7 +15,8 @@ depends = "['libcdio>=0.81-1']"
 +++
 To make creating, extracting and editing of ISO-Images as easy as possible.
 
-{{< files text="show files" >}}* usr/bin/kiso
+## Files: 
+* usr/bin/kiso
 * usr/share/applnk/Utilities/kiso.desktop
 * usr/share/apps/kiso/Icons/cd.mng
 * usr/share/apps/kiso/Icons/hdd.mng
@@ -72,4 +73,3 @@ To make creating, extracting and editing of ISO-Images as easy as possible.
 * usr/share/mimelnk/application/x-img.desktop
 * usr/share/mimelnk/application/x-mdf.desktop
 * usr/share/mimelnk/application/x-nrg.desktop
-{{< /files >}}

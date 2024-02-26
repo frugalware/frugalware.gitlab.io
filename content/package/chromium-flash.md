@@ -16,6 +16,6 @@ license = "chrome"
 +++
 Google Chrome's Pepper Flash plugin for Chromium
 
-{{< files text="show files" >}}* /usr/lib/chromium/PepperFlash/libpepflashplayer.so
+## Files: 
+* /usr/lib/chromium/PepperFlash/libpepflashplayer.so
 * /usr/lib/chromium/PepperFlash/manifest.json
-{{< /files >}}

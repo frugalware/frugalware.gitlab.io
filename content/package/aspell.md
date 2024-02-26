@@ -16,7 +16,8 @@ reverse_depends = "['aspell-bg', 'aspell-ca', 'aspell-cs', 'aspell-da', 'aspell-
 +++
 A spell checker designed to eventually replace Ispell
 
-{{< files text="show files" >}}* /etc/aspell/aspell.conf
+## Files: 
+* /etc/aspell/aspell.conf
 * /usr/bin/aspell
 * /usr/bin/aspell-import
 * /usr/bin/ispell
@@ -168,4 +169,3 @@ A spell checker designed to eventually replace Ispell
 * /usr/share/man/man1/pspell-config.1.gz
 * /usr/share/man/man1/run-with-aspell.1.gz
 * /usr/share/man/man1/word-list-compress.1.gz
-{{< /files >}}

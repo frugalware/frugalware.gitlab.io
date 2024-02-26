@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Manipuri support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/mni/LC_MESSAGES/acc.mo
+## Files: 
+* /usr/lib/libreoffice/program/resource/mni/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/mni/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/mni/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/mni/LC_MESSAGES/chart.mo
@@ -53,4 +54,3 @@ Installs Manipuri support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-mni.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_mni.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_mni.xcd
-{{< /files >}}

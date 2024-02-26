@@ -16,7 +16,8 @@ reverse_depends = "['spamassassin']"
 +++
 Razor2 is a distributed, collaborative, spam detection and filtering network tool
 
-{{< files text="show files" >}}* /usr/bin/razor-admin
+## Files: 
+* /usr/bin/razor-admin
 * /usr/bin/razor-check
 * /usr/bin/razor-client
 * /usr/bin/razor-report
@@ -57,4 +58,3 @@ Razor2 is a distributed, collaborative, spam detection and filtering network too
 * /usr/share/man/man5/razor-agent.conf.5.gz
 * /usr/share/man/man5/razor-agents.5.gz
 * /usr/share/man/man5/razor-whitelist.5.gz
-{{< /files >}}

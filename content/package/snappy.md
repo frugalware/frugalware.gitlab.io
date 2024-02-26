@@ -16,7 +16,8 @@ reverse_depends = "['blosc', 'chromium-browser', 'ospray', 'qemu', 'qt5-webengin
 +++
 Snappy is a compression/decompression library which aim for very high speeds and reasonable compression
 
-{{< files text="show files" >}}* /usr/include/snappy-c.h
+## Files: 
+* /usr/include/snappy-c.h
 * /usr/include/snappy-sinksource.h
 * /usr/include/snappy-stubs-public.h
 * /usr/include/snappy.h
@@ -32,4 +33,3 @@ Snappy is a compression/decompression library which aim for very high speeds and
 * /usr/share/doc/snappy-1.1.10/COPYING
 * /usr/share/doc/snappy-1.1.10/NEWS
 * /usr/share/doc/snappy-1.1.10/README.md
-{{< /files >}}

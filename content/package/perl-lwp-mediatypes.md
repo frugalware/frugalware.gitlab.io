@@ -16,11 +16,11 @@ reverse_depends = "['perl-http-message']"
 +++
 Guess media type for a file or a URL.
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/LWP/media.types
+## Files: 
+* /usr/lib/perl5/site_perl/current/LWP/media.types
 * /usr/lib/perl5/site_perl/current/LWP/MediaTypes.pm
 * /usr/share/doc/perl-lwp-mediatypes-6.04/INSTALL
 * /usr/share/doc/perl-lwp-mediatypes-6.04/LICENSE
 * /usr/share/doc/perl-lwp-mediatypes-6.04/MANIFEST
 * /usr/share/doc/perl-lwp-mediatypes-6.04/README
 * /usr/share/man/man3/LWP::MediaTypes.3perl.gz
-{{< /files >}}

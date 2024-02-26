@@ -16,7 +16,8 @@ reverse_depends = "['kanagram', 'khangman', 'kwordquiz', 'parley']"
 +++
 Common libraries for KDE Edu release-service
 
-{{< files text="show files" >}}* /usr/include/libkeduvocdocument/KEduVocArticle
+## Files: 
+* /usr/include/libkeduvocdocument/KEduVocArticle
 * /usr/include/libkeduvocdocument/keduvocarticle.h
 * /usr/include/libkeduvocdocument/KEduVocConjugation
 * /usr/include/libkeduvocdocument/keduvocconjugation.h
@@ -129,4 +130,3 @@ Common libraries for KDE Edu release-service
 * /usr/share/locale/vi/LC_MESSAGES/libkeduvocdocument.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/libkeduvocdocument.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libkeduvocdocument.mo
-{{< /files >}}

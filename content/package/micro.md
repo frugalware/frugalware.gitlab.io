@@ -16,7 +16,7 @@ license = "MIT"
 +++
 A modern and intuitive terminal-based text editor
 
-{{< files text="show files" >}}* /usr/bin/micro
+## Files: 
+* /usr/bin/micro
 * /usr/share/doc/micro-2.0.13/LICENSE
 * /usr/share/doc/micro-2.0.13/README.md
-{{< /files >}}

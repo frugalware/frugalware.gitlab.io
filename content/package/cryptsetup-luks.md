@@ -16,7 +16,8 @@ reverse_depends = "['dracut-ykfde', 'kernel-initrd', 'kernel-lts-initrd', 'syste
 +++
 cryptsetup-luks is intended as a complete replacement for the original cryptsetup.
 
-{{< files text="show files" >}}* /usr/bin/cryptsetup
+## Files: 
+* /usr/bin/cryptsetup
 * /usr/bin/cryptsetup-ssh
 * /usr/bin/integritysetup
 * /usr/bin/veritysetup
@@ -92,4 +93,3 @@ cryptsetup-luks is intended as a complete replacement for the original cryptsetu
 * /usr/share/man/man8/cryptsetup.8.gz
 * /usr/share/man/man8/integritysetup.8.gz
 * /usr/share/man/man8/veritysetup.8.gz
-{{< /files >}}

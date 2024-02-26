@@ -15,7 +15,8 @@ depends = "['python3>=3.12']"
 +++
 Sphinx extension for auto-generating API documentation for entire modules
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sphinx_automodapi-0.0.0-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/sphinx_automodapi-0.0.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/sphinx_automodapi-0.0.0-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/sphinx_automodapi-0.0.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/sphinx_automodapi-0.0.0-py3.12.egg-info/requires.txt
@@ -193,4 +194,3 @@ Sphinx extension for auto-generating API documentation for entire modules
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/__pycache__/version.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-sphinx-automodapi-0.16.0/README.rst
-{{< /files >}}

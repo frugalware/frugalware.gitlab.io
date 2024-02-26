@@ -15,7 +15,8 @@ depends = "['glibc', 'ncurses', 'openssl']"
 +++
 A console based irc client
 
-{{< files text="show files" >}}* usr/bin/bitchx
+## Files: 
+* usr/bin/bitchx
 * usr/bin/BitchX
 * usr/bin/BitchX-1.1-final
 * usr/bin/scr-bx
@@ -1006,4 +1007,3 @@ A console based irc client
 * usr/share/doc/bitchx-1.1/README
 * usr/share/doc/bitchx-1.1/README-1.1-FINAL
 * usr/share/man/man1/BitchX.1.gz
-{{< /files >}}

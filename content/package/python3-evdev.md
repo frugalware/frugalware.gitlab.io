@@ -16,7 +16,8 @@ reverse_depends = "['input-remapper', 'lutris', 'piper']"
 +++
 Python bindings for the linux input handling subsystem
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/evdev-1.6.1-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/evdev-1.6.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/evdev-1.6.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/evdev-1.6.1-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/evdev-1.6.1-py3.12.egg-info/top_level.txt
@@ -48,4 +49,3 @@ Python bindings for the linux input handling subsystem
 * /usr/lib/python3.12/site-packages/evdev/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-evdev-1.6.1/LICENSE
 * /usr/share/doc/python3-evdev-1.6.1/README.rst
-{{< /files >}}

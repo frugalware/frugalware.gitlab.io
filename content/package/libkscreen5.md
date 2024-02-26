@@ -16,7 +16,8 @@ reverse_depends = "['kscreen5', 'plasma-workspace']"
 +++
 KDE screen management software.
 
-{{< files text="show files" >}}* /usr/bin/kscreen-doctor
+## Files: 
+* /usr/bin/kscreen-doctor
 * /usr/include/KF5/KScreen/kscreen/backendmanager_p.h
 * /usr/include/KF5/KScreen/KScreen/Config
 * /usr/include/KF5/KScreen/kscreen/config.h
@@ -96,4 +97,3 @@ KDE screen management software.
 * /usr/share/qlogging-categories5/libkscreen.categories
 * /usr/share/qt5/mkspecs/modules/qt_KScreen.pri
 * /usr/share/zsh/site-functions/_kscreen-doctor
-{{< /files >}}

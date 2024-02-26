@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org driver for synaptics input devices
 
-{{< files text="show files" >}}* /etc/X11/xorg.conf.d/20-synaptics.conf
+## Files: 
+* /etc/X11/xorg.conf.d/20-synaptics.conf
 * /usr/bin/synclient
 * /usr/bin/syndaemon
 * /usr/include/xorg/synaptics-properties.h
@@ -29,4 +30,3 @@ X.Org driver for synaptics input devices
 * /usr/share/man/man1/synclient.1.gz
 * /usr/share/man/man1/syndaemon.1.gz
 * /usr/share/man/man4/synaptics.4.gz
-{{< /files >}}

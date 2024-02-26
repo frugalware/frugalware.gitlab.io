@@ -16,7 +16,8 @@ reverse_depends = "['binwalk', 'calamares-frugalware']"
 +++
 A compressed read-only filesystem.
 
-{{< files text="show files" >}}* /usr/bin/mksquashfs
+## Files: 
+* /usr/bin/mksquashfs
 * /usr/bin/sqfscat
 * /usr/bin/sqfstar
 * /usr/bin/unsquashfs
@@ -29,4 +30,3 @@ A compressed read-only filesystem.
 * /usr/share/man/man1/sqfscat.1.gz
 * /usr/share/man/man1/sqfstar.1.gz
 * /usr/share/man/man1/unsquashfs.1.gz
-{{< /files >}}

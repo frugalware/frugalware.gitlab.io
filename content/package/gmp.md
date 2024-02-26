@@ -16,7 +16,8 @@ reverse_depends = "['cln', 'coreutils', 'ecm', 'frobby', 'ghc', 'glpk', 'guile',
 +++
 GNU multiple precision arithmetic library
 
-{{< files text="show files" >}}* /usr/include/gmp.h
+## Files: 
+* /usr/include/gmp.h
 * /usr/include/gmpxx.h
 * /usr/lib/libgmp.so
 * /usr/lib/libgmp.so.10
@@ -39,4 +40,3 @@ GNU multiple precision arithmetic library
 * /usr/share/info/gmp.info-1.gz
 * /usr/share/info/gmp.info-2.gz
 * /usr/share/info/gmp.info.gz
-{{< /files >}}

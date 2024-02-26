@@ -16,7 +16,8 @@ reverse_depends = "['abstractdark-sddm-theme', 'hills', 'joe-theme1', 'lumina-de
 +++
 QML based X11 display manager
 
-{{< files text="show files" >}}* /etc/dbus-1/system.d/org.freedesktop.DisplayManager.conf
+## Files: 
+* /etc/dbus-1/system.d/org.freedesktop.DisplayManager.conf
 * /etc/pam.d/sddm
 * /etc/pam.d/sddm-autologin
 * /etc/pam.d/sddm-greeter
@@ -220,4 +221,3 @@ QML based X11 display manager
 * /usr/share/sddm/translations/uk.qm
 * /usr/share/sddm/translations/zh_CN.qm
 * /usr/share/sddm/translations/zh_TW.qm
-{{< /files >}}

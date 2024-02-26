@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Linux kernel include files
 
-{{< files text="show files" >}}* /usr/include/asm-generic/auxvec.h
+## Files: 
+* /usr/include/asm-generic/auxvec.h
 * /usr/include/asm-generic/bitsperlong.h
 * /usr/include/asm-generic/bpf_perf_event.h
 * /usr/include/asm-generic/errno-base.h
@@ -962,4 +963,3 @@ Linux kernel include files
 * /usr/include/xen/gntalloc.h
 * /usr/include/xen/gntdev.h
 * /usr/include/xen/privcmd.h
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['docbook-sgml-dtd', 'docbook-sgml-dtd-4.1', 'opensp']"
 +++
 Gathers very basic stuff necessary to work with SGML and XML.
 
-{{< files text="show files" >}}* /etc/sgml/sgml.conf
+## Files: 
+* /etc/sgml/sgml.conf
 * /usr/bin/install-catalog
 * /usr/bin/sgmlwhich
 * /usr/share/doc/sgml-common-0.6.3/AUTHORS
@@ -71,4 +72,3 @@ Gathers very basic stuff necessary to work with SGML and XML.
 * /usr/share/sgml/xml-iso-entities-8879.1986/ISOpub.ent
 * /usr/share/sgml/xml-iso-entities-8879.1986/ISOtech.ent
 * /usr/share/sgml/xml.dcl
-{{< /files >}}

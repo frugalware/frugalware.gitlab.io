@@ -16,7 +16,8 @@ reverse_depends = "['cairo', 'dracut', 'gcc', 'gcc-12', 'gcc-4.1', 'gdb', 'ocaml
 +++
 A set of programs to assemble and manipulate binary and object files
 
-{{< files text="show files" >}}* /etc/gprofng.rc
+## Files: 
+* /etc/gprofng.rc
 * /usr/bin/addr2line
 * /usr/bin/ar
 * /usr/bin/as
@@ -338,4 +339,3 @@ A set of programs to assemble and manipulate binary and object files
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xw
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xwe
 * /usr/x86_64-frugalware-linux/lib/ldscripts/stamp
-{{< /files >}}

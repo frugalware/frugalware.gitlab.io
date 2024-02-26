@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.Org Xtst library
 
-{{< files text="show files" >}}* /usr/include/X11/extensions/record.h
+## Files: 
+* /usr/include/X11/extensions/record.h
 * /usr/include/X11/extensions/XTest.h
 * /usr/lib/libXtst.so
 * /usr/lib/libXtst.so.6
@@ -40,4 +41,3 @@ X.Org Xtst library
 * /usr/share/man/man3/XTestQueryExtension.3.gz
 * /usr/share/man/man3/XTestSetGContextOfGC.3.gz
 * /usr/share/man/man3/XTestSetVisualIDOfVisual.3.gz
-{{< /files >}}

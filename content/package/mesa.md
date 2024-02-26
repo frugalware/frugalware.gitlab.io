@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Mesa is a 3D graphics library
 
-{{< files text="show files" >}}* /usr/share/doc/mesa-24.0.1/docs_html/.buildinfo
+## Files: 
+* /usr/share/doc/mesa-24.0.1/docs_html/.buildinfo
 * /usr/share/doc/mesa-24.0.1/docs_html/.doctrees/amber.doctree
 * /usr/share/doc/mesa-24.0.1/docs_html/.doctrees/android.doctree
 * /usr/share/doc/mesa-24.0.1/docs_html/.doctrees/application-issues.doctree
@@ -1066,4 +1067,3 @@ Mesa is a 3D graphics library
 * /usr/share/doc/mesa-24.0.1/docs_html/_static/_redirects
 * /usr/share/doc/mesa-24.0.1/README.rst
 * /usr/share/doc/mesa-24.0.1/VERSION
-{{< /files >}}

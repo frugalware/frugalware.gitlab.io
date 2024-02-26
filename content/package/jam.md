@@ -15,7 +15,7 @@ depends = "['glibc>=2.34']"
 +++
 Just Another Make - advanced make replacement
 
-{{< files text="show files" >}}* /usr/bin/jam
+## Files: 
+* /usr/bin/jam
 * /usr/share/doc/jam-2.6.1/README
 * /usr/share/doc/jam-2.6.1/RELNOTES
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Arabic Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/locale/ar/charset
+## Files: 
+* usr/share/locale/ar/charset
 * usr/share/locale/ar/entry.desktop
 * usr/share/locale/ar/LC_MESSAGES/akregator.mo
 * usr/share/locale/ar/LC_MESSAGES/akregator_konqplugin.mo
@@ -564,4 +565,3 @@ Arabic Localization for KDE.
 * usr/share/locale/ar/LC_MESSAGES/wakeup.mo
 * usr/share/locale/ar/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/ar/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

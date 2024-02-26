@@ -16,7 +16,8 @@ reverse_depends = "['kmouth', 'knotifications', 'konqueror', 'kpimtextedit', 'kt
 +++
 The Qt5 toolkit, qtspeech
 
-{{< files text="show files" >}}* /usr/include/qt5/QtTextToSpeech/5.15.12/QtTextToSpeech/private/qtexttospeech_p.h
+## Files: 
+* /usr/include/qt5/QtTextToSpeech/5.15.12/QtTextToSpeech/private/qtexttospeech_p.h
 * /usr/include/qt5/QtTextToSpeech/5.15.12/QtTextToSpeech/private/qttexttospeech-config_p.h
 * /usr/include/qt5/QtTextToSpeech/5.15.12/QtTextToSpeech/private/qvoice_p.h
 * /usr/include/qt5/QtTextToSpeech/QTextToSpeech
@@ -45,4 +46,3 @@ The Qt5 toolkit, qtspeech
 * /usr/lib/qt5/plugins/texttospeech/libqtexttospeech_speechd.so
 * /usr/share/qt5/mkspecs/modules/qt_lib_texttospeech.pri
 * /usr/share/qt5/mkspecs/modules/qt_lib_texttospeech_private.pri
-{{< /files >}}

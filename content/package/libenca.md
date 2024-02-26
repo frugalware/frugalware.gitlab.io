@@ -16,7 +16,8 @@ reverse_depends = "['enca', 'libass']"
 +++
 An extremely naive character set analyzer library
 
-{{< files text="show files" >}}* /usr/include/enca.h
+## Files: 
+* /usr/include/enca.h
 * /usr/lib/libenca.so
 * /usr/lib/libenca.so.0
 * /usr/lib/libenca.so.0.5.1
@@ -44,4 +45,3 @@ An extremely naive character set analyzer library
 * /usr/share/gtk-doc/html/libenca/libenca-Charsets-and-Surfaces.html
 * /usr/share/gtk-doc/html/libenca/libenca-Typedefs-and-Constants.html
 * /usr/share/gtk-doc/html/libenca/libenca.devhelp2
-{{< /files >}}

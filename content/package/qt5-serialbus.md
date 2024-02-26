@@ -15,7 +15,8 @@ depends = "['qt5-serialport>=5.15.12']"
 +++
 The Qt5 toolkit, qtserialbus
 
-{{< files text="show files" >}}* /usr/bin/canbusutil
+## Files: 
+* /usr/bin/canbusutil
 * /usr/bin/canbusutil-qt5
 * /usr/include/qt5/QtSerialBus/5.15.12/QtSerialBus/private/qcanbusdeviceinfo_p.h
 * /usr/include/qt5/QtSerialBus/5.15.12/QtSerialBus/private/qcanbusdevice_p.h
@@ -96,4 +97,3 @@ The Qt5 toolkit, qtserialbus
 * /usr/lib/qt5/plugins/canbus/libqtvirtualcanbus.so
 * /usr/share/qt5/mkspecs/modules/qt_lib_serialbus.pri
 * /usr/share/qt5/mkspecs/modules/qt_lib_serialbus_private.pri
-{{< /files >}}

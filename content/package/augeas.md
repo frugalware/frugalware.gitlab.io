@@ -16,7 +16,8 @@ reverse_depends = "['libguestfs', 'ocaml-augeas']"
 +++
 A configuration editing tool.
 
-{{< files text="show files" >}}* /usr/bin/augmatch
+## Files: 
+* /usr/bin/augmatch
 * /usr/bin/augparse
 * /usr/bin/augprint
 * /usr/bin/augtool
@@ -509,4 +510,3 @@ A configuration editing tool.
 * /usr/share/man/man1/augtool.1.gz
 * /usr/share/vim/vimfiles/ftdetect/augeas.vim
 * /usr/share/vim/vimfiles/syntax/augeas.vim
-{{< /files >}}

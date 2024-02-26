@@ -16,7 +16,8 @@ reverse_depends = "['python3-poetry']"
 +++
 Virtual Python Environment builder
 
-{{< files text="show files" >}}* /usr/bin/virtualenv
+## Files: 
+* /usr/bin/virtualenv
 * /usr/lib/python3.12/site-packages/virtualenv-20.25.0.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/virtualenv-20.25.0.dist-info/licenses/LICENSE
 * /usr/lib/python3.12/site-packages/virtualenv-20.25.0.dist-info/METADATA
@@ -309,4 +310,3 @@ Virtual Python Environment builder
 * /usr/lib/python3.12/site-packages/virtualenv/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/python3-virtualenv-20.25.0/LICENSE
 * /usr/share/doc/python3-virtualenv-20.25.0/README.md
-{{< /files >}}

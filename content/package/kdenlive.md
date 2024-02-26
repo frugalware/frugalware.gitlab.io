@@ -15,7 +15,8 @@ depends = "['kfilemetadata5>=5.115.0', 'knewstuff>=5.115.0', 'knotifyconfig>=5.1
 +++
 A non-linear video editor for Linux using the MLT video framework
 
-{{< files text="show files" >}}* /usr/bin/kdenlive
+## Files: 
+* /usr/bin/kdenlive
 * /usr/bin/kdenlive_render
 * /usr/lib/qt5/plugins/kf5/thumbcreator/mltpreview.so
 * /usr/share/applications/org.kde.kdenlive.desktop
@@ -681,4 +682,3 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/mime/packages/org.kde.kdenlive.xml
 * /usr/share/mime/packages/westley.xml
 * /usr/share/qlogging-categories5/kdenlive.categories
-{{< /files >}}

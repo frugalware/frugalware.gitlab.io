@@ -16,7 +16,8 @@ reverse_depends = "['haskell-bitvec', 'haskell-cassava', 'haskell-indexed-traver
 +++
 Efficient Arrays
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/vector-0.13.1.0/Data/Vector.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/vector-0.13.1.0/Data/Vector.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/vector-0.13.1.0/Data/Vector.hi
 * /usr/lib/ghc-9.8.1/site-local/vector-0.13.1.0/Data/Vector/Fusion/Bundle.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/vector-0.13.1.0/Data/Vector/Fusion/Bundle.hi
@@ -117,4 +118,3 @@ Efficient Arrays
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/vector-0.13.1.0/LICENSE
 * /usr/share/haskell/haskell-vector/register.sh
 * /usr/share/haskell/haskell-vector/unregister.sh
-{{< /files >}}

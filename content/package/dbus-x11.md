@@ -16,5 +16,5 @@ reverse_depends = "['pidgin', 'qt5-qdbus', 'virt-manager']"
 +++
 X based tools for D-BUS.
 
-{{< files text="show files" >}}* /usr/bin/dbus-launch
-{{< /files >}}
+## Files: 
+* /usr/bin/dbus-launch

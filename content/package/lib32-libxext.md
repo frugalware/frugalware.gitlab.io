@@ -16,7 +16,8 @@ reverse_depends = "['lib32-cairo', 'lib32-imlib2', 'lib32-libdmx', 'lib32-libepo
 +++
 Misc X Extension Library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/dpms.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/extensions/dpms.h
 * /usr/i686-frugalware-linux/include/X11/extensions/extutil.h
 * /usr/i686-frugalware-linux/include/X11/extensions/MITMisc.h
 * /usr/i686-frugalware-linux/include/X11/extensions/multibuf.h
@@ -36,4 +37,3 @@ Misc X Extension Library ( 32bit )
 * /usr/lib32/libXext.so.6
 * /usr/lib32/libXext.so.6.4.0
 * /usr/lib32/pkgconfig/xext.pc
-{{< /files >}}

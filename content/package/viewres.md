@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org viewres application
 
-{{< files text="show files" >}}* /usr/bin/viewres
+## Files: 
+* /usr/bin/viewres
 * /usr/share/doc/viewres-1.0.7/ChangeLog
 * /usr/share/doc/viewres-1.0.7/COPYING
 * /usr/share/doc/viewres-1.0.7/INSTALL
@@ -24,4 +25,3 @@ X.Org viewres application
 * /usr/share/man/man1/viewres.1.gz
 * /usr/share/X11/app-defaults/Viewres
 * /usr/share/X11/app-defaults/Viewres-color
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['samba']"
 +++
 Parse::YappGenerates OO LALR parser modules
 
-{{< files text="show files" >}}* /usr/bin/site_perl/yapp
+## Files: 
+* /usr/bin/site_perl/yapp
 * /usr/bin/yapp
 * /usr/lib/perl5/site_perl/Parse/Yapp.pm
 * /usr/lib/perl5/site_perl/Parse/Yapp/Driver.pm
@@ -30,4 +31,3 @@ Parse::YappGenerates OO LALR parser modules
 * /usr/share/doc/perl-parse-yapp-1.21/README.md
 * /usr/share/man/man1/yapp.1perl.gz
 * /usr/share/man/man3/Parse::Yapp.3.gz
-{{< /files >}}

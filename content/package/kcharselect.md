@@ -15,7 +15,8 @@ depends = "['kbookmarks>=5.115.0', 'kxmlgui>=5.115.0']"
 +++
 Character selector.
 
-{{< files text="show files" >}}* /usr/bin/kcharselect
+## Files: 
+* /usr/bin/kcharselect
 * /usr/share/applications/org.kde.kcharselect.desktop
 * /usr/share/doc/HTML/ca/kcharselect/index.cache.bz2
 * /usr/share/doc/HTML/ca/kcharselect/index.docbook
@@ -143,4 +144,3 @@ Character selector.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcharselect.mo
 * /usr/share/metainfo/org.kde.kcharselect.appdata.xml
 * /usr/share/pixmaps/accessories-character-map.png
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['bash', 'glib2>=2.16.4-2', 'libxml2>=2.6.32-2', 'openssl>=1.0.0', 'p
 +++
 Tools for developers for managing packages
 
-{{< files text="show files" >}}* /etc/repoman.conf
+## Files: 
+* /etc/repoman.conf
 * /etc/repoman.d/current
 * /etc/repoman.d/stable
 * /etc/sudoers.d/pacman-tools
@@ -127,4 +128,3 @@ Tools for developers for managing packages
 * /var/lib/syncpkgd.status
 * /var/log/syncpkgcd.log
 * /var/log/syncpkgd/daemon.log
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['libboost-mpi', 'ospray']"
 +++
 A high-performance message passing library
 
-{{< files text="show files" >}}* /etc/ld.so.conf.d/openmpi.conf
+## Files: 
+* /etc/ld.so.conf.d/openmpi.conf
 * /etc/openmpi/openmpi-mca-params.conf
 * /etc/openmpi/openmpi-totalview.tcl
 * /usr/bin/mpic++
@@ -2351,4 +2352,3 @@ A high-performance message passing library
 * /usr/share/openmpi/mpif90-wrapper-data.txt
 * /usr/share/openmpi/mpifort-wrapper-data.txt
 * /usr/share/openmpi/openmpi-valgrind.supp
-{{< /files >}}

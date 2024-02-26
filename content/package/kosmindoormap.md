@@ -16,7 +16,8 @@ reverse_depends = "['itinerary']"
 +++
 OSM multi-floor indoor map renderer
 
-{{< files text="show files" >}}* /usr/include/KOSM/Datatypes
+## Files: 
+* /usr/include/KOSM/Datatypes
 * /usr/include/kosm/datatypes.h
 * /usr/include/KOSM/Element
 * /usr/include/kosm/element.h
@@ -103,4 +104,3 @@ OSM multi-floor indoor map renderer
 * /usr/share/qt5/qml/org/kde/kosmindoormap/kpublictransport/qmldir
 * /usr/share/qt5/qml/org/kde/kosmindoormap/libkosmindoormapquickplugin.so
 * /usr/share/qt5/qml/org/kde/kosmindoormap/qmldir
-{{< /files >}}

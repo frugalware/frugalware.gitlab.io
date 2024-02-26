@@ -16,7 +16,8 @@ reverse_depends = "['kernel-initrd', 'kernel-lts-initrd']"
 +++
 Microcode for Intel processors.
 
-{{< files text="show files" >}}* /usr/lib/firmware/intel-ucode/06-03-02
+## Files: 
+* /usr/lib/firmware/intel-ucode/06-03-02
 * /usr/lib/firmware/intel-ucode/06-05-00
 * /usr/lib/firmware/intel-ucode/06-05-01
 * /usr/lib/firmware/intel-ucode/06-05-02
@@ -168,4 +169,3 @@ Microcode for Intel processors.
 * /usr/share/doc/intel-ucode-20231114/README
 * /usr/share/doc/intel-ucode-20231114/README.md
 * /usr/share/doc/intel-ucode-20231114/releasenote.md
-{{< /files >}}

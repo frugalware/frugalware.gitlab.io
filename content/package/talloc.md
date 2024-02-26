@@ -16,7 +16,8 @@ reverse_depends = "['cifs-utils', 'libsmbclient', 'mpd', 'nss-wins', 'samba', 's
 +++
 talloc is a hierarchical, reference counted memory pool system with destructors
 
-{{< files text="show files" >}}* /usr/include/pytalloc.h
+## Files: 
+* /usr/include/pytalloc.h
 * /usr/include/talloc.h
 * /usr/lib/libpytalloc-util.cpython-312-x86-64-linux-gnu.so
 * /usr/lib/libpytalloc-util.cpython-312-x86-64-linux-gnu.so.2
@@ -30,4 +31,3 @@ talloc is a hierarchical, reference counted memory pool system with destructors
 * /usr/lib/pkgconfig/talloc.pc
 * /usr/lib/python3.12/site-packages/talloc.cpython-312-x86_64-linux-gnu.so
 * /usr/share/doc/talloc-2.4.2/NEWS
-{{< /files >}}

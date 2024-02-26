@@ -15,7 +15,8 @@ depends = "['lib32-libx11>=1.6.4-3']"
 +++
 The xkbfile Library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/XKBbells.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/extensions/XKBbells.h
 * /usr/i686-frugalware-linux/include/X11/extensions/XKBconfig.h
 * /usr/i686-frugalware-linux/include/X11/extensions/XKBfile.h
 * /usr/i686-frugalware-linux/include/X11/extensions/XKBrules.h
@@ -25,4 +26,3 @@ The xkbfile Library ( 32bit )
 * /usr/lib32/libxkbfile.so.1
 * /usr/lib32/libxkbfile.so.1.0.2
 * /usr/lib32/pkgconfig/xkbfile.pc
-{{< /files >}}

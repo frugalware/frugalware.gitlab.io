@@ -15,7 +15,8 @@ depends = "['glib2', 'readline>=8.0', 'unixodbc']"
 +++
 MDB Tools is a suite of libraries and program for accessing data stored in Microsoft Access databases.
 
-{{< files text="show files" >}}* /usr/bin/mdb-array
+## Files: 
+* /usr/bin/mdb-array
 * /usr/bin/mdb-export
 * /usr/bin/mdb-header
 * /usr/bin/mdb-hexdump
@@ -66,4 +67,3 @@ MDB Tools is a suite of libraries and program for accessing data stored in Micro
 * /usr/share/man/man1/mdb-sql.1.gz
 * /usr/share/man/man1/mdb-tables.1.gz
 * /usr/share/man/man1/mdb-ver.1.gz
-{{< /files >}}

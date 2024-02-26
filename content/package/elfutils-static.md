@@ -15,7 +15,7 @@ depends = "[]"
 +++
 Static files for elfutils
 
-{{< files text="show files" >}}* /usr/lib/libasm.a
+## Files: 
+* /usr/lib/libasm.a
 * /usr/lib/libdw.a
 * /usr/lib/libelf.a
-{{< /files >}}

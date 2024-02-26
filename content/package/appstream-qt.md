@@ -16,7 +16,8 @@ reverse_depends = "['discover', 'frameworkintegration']"
 +++
 Qt Bindings for Appstream
 
-{{< files text="show files" >}}* /usr/include/AppStreamQt5/appstreamqt_export.h
+## Files: 
+* /usr/include/AppStreamQt5/appstreamqt_export.h
 * /usr/include/AppStreamQt5/bundle.h
 * /usr/include/AppStreamQt5/category.h
 * /usr/include/AppStreamQt5/component-box.h
@@ -46,4 +47,3 @@ Qt Bindings for Appstream
 * /usr/lib/libAppStreamQt5.so
 * /usr/lib/libAppStreamQt5.so.1.0.2
 * /usr/lib/libAppStreamQt5.so.3
-{{< /files >}}

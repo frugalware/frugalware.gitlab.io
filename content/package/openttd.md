@@ -15,7 +15,8 @@ depends = "['fontconfig>=2.11.94-3', 'icu4c>=74.1', 'libpng>=1.6.20', 'libtimidi
 +++
 An open source clone of the Microprose game Transport Tycoon Deluxe.
 
-{{< files text="show files" >}}* /usr/bin/openttd
+## Files: 
+* /usr/bin/openttd
 * /usr/share/applications/openttd.desktop
 * /usr/share/doc/openttd-13.4/COPYING.md
 * /usr/share/doc/openttd-13.4/README.md
@@ -148,4 +149,3 @@ An open source clone of the Microprose game Transport Tycoon Deluxe.
 * /usr/share/man/man6/openttd.6.gz
 * /usr/share/pixmaps/openttd.32.xpm
 * /usr/share/pixmaps/openttd.64.xpm
-{{< /files >}}

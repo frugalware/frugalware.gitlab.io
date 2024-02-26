@@ -16,9 +16,9 @@ reverse_depends = "['cifs-utils', 'libsmbclient', 'libwbclient', 'samba-client']
 +++
 WinBind Client library.
 
-{{< files text="show files" >}}* /usr/include/samba-4.0/wbclient.h
+## Files: 
+* /usr/include/samba-4.0/wbclient.h
 * /usr/lib/libwbclient.so
 * /usr/lib/libwbclient.so.0
 * /usr/lib/libwbclient.so.0.16
 * /usr/lib/pkgconfig/wbclient.pc
-{{< /files >}}

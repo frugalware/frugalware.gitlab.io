@@ -16,7 +16,8 @@ reverse_depends = "['claws-mail']"
 +++
 A mail library
 
-{{< files text="show files" >}}* /usr/include/libetpan.h
+## Files: 
+* /usr/include/libetpan.h
 * /usr/include/libetpan/acl.h
 * /usr/include/libetpan/acl_types.h
 * /usr/include/libetpan/annotatemore.h
@@ -189,4 +190,3 @@ A mail library
 * /usr/share/doc/libetpan-1.9.4/COPYRIGHT
 * /usr/share/doc/libetpan-1.9.4/NEWS
 * /usr/share/doc/libetpan-1.9.4/README.md
-{{< /files >}}

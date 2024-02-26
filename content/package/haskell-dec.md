@@ -16,7 +16,8 @@ reverse_depends = "['haskell-singleton-bool']"
 +++
 Decidable propositions
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/dec-0.0.5/Data/Type/Dec.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/dec-0.0.5/Data/Type/Dec.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/dec-0.0.5/Data/Type/Dec.hi
 * /usr/lib/ghc-9.8.1/site-local/dec-0.0.5/libHSdec-0.0.5-GE16vgSek1vI2tJocfBhG7.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSdec-0.0.5-GE16vgSek1vI2tJocfBhG7-ghc9.8.1.so
@@ -33,4 +34,3 @@ Decidable propositions
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/dec-0.0.5/LICENSE
 * /usr/share/haskell/haskell-dec/register.sh
 * /usr/share/haskell/haskell-dec/unregister.sh
-{{< /files >}}

@@ -15,8 +15,8 @@ depends = "['wasi-libc']"
 +++
 WASI LLVM compiler runtime
 
-{{< files text="show files" >}}* /usr/lib/clang/17/lib/wasi/libclang_rt.builtins-wasm32.a
+## Files: 
+* /usr/lib/clang/17/lib/wasi/libclang_rt.builtins-wasm32.a
 * /usr/share/doc/wasi-compiler-rt-17.0.6/README.md
 * /usr/share/doc/wasi-compiler-rt-17.0.6/README.rst
 * /usr/share/doc/wasi-compiler-rt-17.0.6/README.txt
-{{< /files >}}

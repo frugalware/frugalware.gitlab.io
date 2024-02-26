@@ -16,9 +16,9 @@ reverse_depends = "['amavisd-new']"
 +++
 Perl interface to the UNIX syslog(3) calls
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/Unix/Syslog/Syslog.so
+## Files: 
+* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/Unix/Syslog/Syslog.so
 * /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Unix/Syslog.pm
 * /usr/share/doc/perl-unix-syslog-1.1/MANIFEST
 * /usr/share/doc/perl-unix-syslog-1.1/README
 * /usr/share/man/man3/Unix::Syslog.3perl.gz
-{{< /files >}}

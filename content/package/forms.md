@@ -15,7 +15,7 @@ depends = "['jgoodies-common']"
 +++
 JGoodies Forms Library
 
-{{< files text="show files" >}}* /usr/share/doc/forms-1.5.1/README.html
+## Files: 
+* /usr/share/doc/forms-1.5.1/README.html
 * /usr/share/doc/forms-1.5.1/RELEASE-NOTES.txt
 * /usr/share/java/forms.jar
-{{< /files >}}

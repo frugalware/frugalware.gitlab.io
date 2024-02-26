@@ -15,7 +15,8 @@ depends = "['texlive=2023.0']"
 +++
 Cyrillic language support for TeX Live
 
-{{< files text="show files" >}}* /usr/share/texmf-dist/bibtex/bst/gost/gost2003.bst
+## Files: 
+* /usr/share/texmf-dist/bibtex/bst/gost/gost2003.bst
 * /usr/share/texmf-dist/bibtex/bst/gost/gost2003s.bst
 * /usr/share/texmf-dist/bibtex/bst/gost/gost2008.bst
 * /usr/share/texmf-dist/bibtex/bst/gost/gost2008l.bst
@@ -1762,4 +1763,3 @@ Cyrillic language support for TeX Live
 * /usr/share/texmf-dist/tex/plain/cyrplain/txxextra.tex
 * /usr/share/texmf-dist/tex/plain/lh/testfox.tex
 * /usr/share/texmf-dist/tex/plain/lh/testkern.tex
-{{< /files >}}

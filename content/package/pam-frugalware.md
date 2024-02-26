@@ -15,11 +15,11 @@ depends = "['pam']"
 +++
 PAM base configuration files
 
-{{< files text="show files" >}}* /etc/pam.d/login-manager
+## Files: 
+* /etc/pam.d/login-manager
 * /etc/pam.d/other
 * /etc/pam.d/system-auth
 * /etc/pam.d/system-local-login
 * /etc/pam.d/system-login
 * /etc/pam.d/system-remote-login
 * /etc/pam.d/system-services
-{{< /files >}}

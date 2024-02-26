@@ -16,7 +16,8 @@ reverse_depends = "['conky', 'feh', 'ffmpeg', 'ffmpeg4.4', 'fluxbox', 'kompose',
 +++
 Imlib 2 is the successor to Imlib.
 
-{{< files text="show files" >}}* /usr/bin/imlib2_bumpmap
+## Files: 
+* /usr/bin/imlib2_bumpmap
 * /usr/bin/imlib2_colorspace
 * /usr/bin/imlib2_conv
 * /usr/bin/imlib2_grab
@@ -84,4 +85,3 @@ Imlib 2 is the successor to Imlib.
 * /usr/share/imlib2/data/images/stop.png
 * /usr/share/imlib2/data/images/tnt.png
 * /usr/share/imlib2/rgb.txt
-{{< /files >}}

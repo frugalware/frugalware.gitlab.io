@@ -15,7 +15,8 @@ depends = "['libgpg-error']"
 +++
 Libassuan is the IPC library used by some GnuPG related software
 
-{{< files text="show files" >}}* /usr/bin/libassuan-config
+## Files: 
+* /usr/bin/libassuan-config
 * /usr/include/assuan.h
 * /usr/lib/libassuan-pth.a
 * /usr/lib/libassuan.a
@@ -32,4 +33,3 @@ Libassuan is the IPC library used by some GnuPG related software
 * /usr/share/doc/libassuan1-1.0.5/TODO
 * /usr/share/doc/libassuan1-1.0.5/VERSION
 * /usr/share/info/assuan.info.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['python3-eventlet']"
 +++
 An implementation of time.monotonic().
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/monotonic-1.6-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/monotonic-1.6-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/monotonic-1.6-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/monotonic-1.6-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/monotonic-1.6-py3.12.egg-info/top_level.txt
@@ -24,4 +25,3 @@ An implementation of time.monotonic().
 * /usr/lib/python3.12/site-packages/__pycache__/monotonic.cpython-312.pyc
 * /usr/share/doc/python3-monotonic-1.6/LICENSE
 * /usr/share/doc/python3-monotonic-1.6/README.md
-{{< /files >}}

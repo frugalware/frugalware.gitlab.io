@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Nepali support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/ne/default.css
+## Files: 
+* /usr/lib/libreoffice/help/ne/default.css
 * /usr/lib/libreoffice/help/ne/err.html
 * /usr/lib/libreoffice/help/ne/highcontrast1.css
 * /usr/lib/libreoffice/help/ne/highcontrast2.css
@@ -134,4 +135,3 @@ Installs Nepali support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-ne.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_ne.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_ne.xcd
-{{< /files >}}

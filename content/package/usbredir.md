@@ -16,7 +16,8 @@ reverse_depends = "['qemu', 'spice-glib']"
 +++
 USB network redirection protocol libraries
 
-{{< files text="show files" >}}* /usr/bin/usbredirect
+## Files: 
+* /usr/bin/usbredirect
 * /usr/include/usbredirfilter.h
 * /usr/include/usbredirhost.h
 * /usr/include/usbredirparser.h
@@ -34,4 +35,3 @@ USB network redirection protocol libraries
 * /usr/share/doc/usbredir-0.13.0/README.md
 * /usr/share/doc/usbredir-0.13.0/TODO
 * /usr/share/man/man1/usbredirect.1.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['glibc>=2.34', 'iproute2>=4.10.0-2']"
 +++
 The ISC DHCP server
 
-{{< files text="show files" >}}* /etc/dhclient.conf.example
+## Files: 
+* /etc/dhclient.conf.example
 * /etc/dhcpd-dhcpv6.conf
 * /etc/dhcpd.conf
 * /etc/dhcpd.conf.example
@@ -52,4 +53,3 @@ The ISC DHCP server
 * /usr/share/man/man8/dhcrelay.8.gz
 * /var/state/dhcp/dhcpd.leases
 * /var/state/dhcp/dhcpd6.leases
-{{< /files >}}

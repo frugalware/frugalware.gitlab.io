@@ -15,5 +15,5 @@ depends = "['glibc']"
 +++
 Language specific files for tesseract lang hat
 
-{{< files text="show files" >}}* /usr/share/tessdata/hat.traineddata
-{{< /files >}}
+## Files: 
+* /usr/share/tessdata/hat.traineddata

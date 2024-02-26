@@ -16,7 +16,8 @@ reverse_depends = "['kdeconnect-kde']"
 +++
 Qt bindings for libpulse
 
-{{< files text="show files" >}}* /usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/Card
+## Files: 
+* /usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/Card
 * /usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/card.h
 * /usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/CardPort
 * /usr/include/KF5/KF5PulseAudioQt/PulseAudioQt/cardport.h
@@ -64,4 +65,3 @@ Qt bindings for libpulse
 * /usr/lib/libKF5PulseAudioQt.so.1.3.0
 * /usr/lib/libKF5PulseAudioQt.so.3
 * /usr/share/doc/pulseaudio-qt-1.3/README.md
-{{< /files >}}

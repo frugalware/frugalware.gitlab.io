@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org driver for void input devices
 
-{{< files text="show files" >}}* /usr/lib/xorg/modules/input/void_drv.so
+## Files: 
+* /usr/lib/xorg/modules/input/void_drv.so
 * /usr/share/doc/xf86-input-void-1.4.2/ChangeLog
 * /usr/share/doc/xf86-input-void-1.4.2/COPYING
 * /usr/share/doc/xf86-input-void-1.4.2/INSTALL
 * /usr/share/doc/xf86-input-void-1.4.2/README.md
 * /usr/share/man/man4/void.4.gz
-{{< /files >}}

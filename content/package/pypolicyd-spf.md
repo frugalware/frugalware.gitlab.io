@@ -15,7 +15,8 @@ depends = "['py3dns', 'pyspf', 'python3>=3.8.3']"
 +++
 Python-based policy daemon for Postfix SPF verification.
 
-{{< files text="show files" >}}* /etc/python-policyd-spf/policyd-spf.conf
+## Files: 
+* /etc/python-policyd-spf/policyd-spf.conf
 * /usr/bin/policyd-spf
 * /usr/lib/python3.12/site-packages/policydspfsupp.py
 * /usr/lib/python3.12/site-packages/policydspfuser.py
@@ -34,4 +35,3 @@ Python-based policy daemon for Postfix SPF verification.
 * /usr/share/man/man1/policyd-spf.1.gz
 * /usr/share/man/man5/policyd-spf.conf.5.gz
 * /usr/share/man/man5/policyd-spf.peruser.5.gz
-{{< /files >}}

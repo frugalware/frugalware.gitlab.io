@@ -16,7 +16,8 @@ reverse_depends = "['wimlib']"
 +++
 Bootloaders for FAT, EXT2/3/4, and ISO file systems.
 
-{{< files text="show files" >}}* /usr/bin/extlinux
+## Files: 
+* /usr/bin/extlinux
 * /usr/bin/gethostip
 * /usr/bin/isohybrid
 * /usr/bin/isohybrid.pl
@@ -372,4 +373,3 @@ Bootloaders for FAT, EXT2/3/4, and ISO file systems.
 * /usr/share/man/man1/ppmtolss16.1.gz
 * /usr/share/man/man1/syslinux.1.gz
 * /usr/share/man/man1/syslinux2ansi.1.gz
-{{< /files >}}

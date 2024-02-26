@@ -15,7 +15,7 @@ depends = "['avahi', 'avahi-compat', 'openssl>=1.1.1', 'protobuf>=25.3', 'qt5-ba
 +++
 Mumble server component
 
-{{< files text="show files" >}}* /usr/bin/mumble-server
+## Files: 
+* /usr/bin/mumble-server
 * /usr/share/man/man1/mumble-server-user-wrapper.1.gz
 * /usr/share/man/man1/mumble-server.1.gz
-{{< /files >}}

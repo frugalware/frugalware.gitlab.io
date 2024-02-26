@@ -16,7 +16,8 @@ reverse_depends = "['plasma-desktop', 'plasma-workspace', 'sweeper', 'systemsett
 +++
 Library for accessing the usage statistics data collected by the KDE activity manager.
 
-{{< files text="show files" >}}* /usr/include/KF5/KActivitiesStats/KActivities/Stats/Cleaning
+## Files: 
+* /usr/include/KF5/KActivitiesStats/KActivities/Stats/Cleaning
 * /usr/include/KF5/KActivitiesStats/KActivities/Stats/Query
 * /usr/include/KF5/KActivitiesStats/KActivities/Stats/ResultModel
 * /usr/include/KF5/KActivitiesStats/KActivities/Stats/ResultSet
@@ -44,4 +45,3 @@ Library for accessing the usage statistics data collected by the KDE activity ma
 * /usr/share/qlogging-categories5/kactivities-stats.categories
 * /usr/share/qlogging-categories5/kactivities-stats.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KActivitiesStats.pri
-{{< /files >}}

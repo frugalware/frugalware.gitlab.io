@@ -16,7 +16,8 @@ reverse_depends = "['chromium-browser', 'ffmpeg', 'ffmpeg4.4', 'firefox', 'libav
 +++
 dav1d is an AV1 decoder
 
-{{< files text="show files" >}}* /usr/bin/dav1d
+## Files: 
+* /usr/bin/dav1d
 * /usr/include/dav1d/common.h
 * /usr/include/dav1d/data.h
 * /usr/include/dav1d/dav1d.h
@@ -30,4 +31,3 @@ dav1d is an AV1 decoder
 * /usr/share/doc/dav1d-1.4.0/COPYING
 * /usr/share/doc/dav1d-1.4.0/NEWS
 * /usr/share/doc/dav1d-1.4.0/README.md
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['exiv2>=0.25-7', 'kactivities5>=5.115.0', 'kdelibs4support>=5.115.0'
 +++
 Additional components to increase the functionality of KIO.
 
-{{< files text="show files" >}}* /usr/include/KioArchive/kioarchive_version.h
+## Files: 
+* /usr/include/KioArchive/kioarchive_version.h
 * /usr/include/KioArchive/kio_archivebase.h
 * /usr/include/KioArchive/libkioarchive_export.h
 * /usr/lib/cmake/KioArchive/KioArchiveConfig.cmake
@@ -1593,4 +1594,3 @@ Additional components to increase the functionality of KIO.
 * /usr/share/remoteview/smb-network.desktop
 * /usr/share/solid/actions/solid_afc.desktop
 * /usr/share/solid/actions/solid_mtp.desktop
-{{< /files >}}

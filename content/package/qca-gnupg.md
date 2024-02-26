@@ -15,5 +15,5 @@ depends = "['gnupg2>=2.1.15-2', 'qca']"
 +++
 Plugins for qca with gnupg
 
-{{< files text="show files" >}}* /usr/lib/qca-qt5/crypto/libqca-gnupg.so
-{{< /files >}}
+## Files: 
+* /usr/lib/qca-qt5/crypto/libqca-gnupg.so

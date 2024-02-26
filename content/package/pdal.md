@@ -16,7 +16,8 @@ reverse_depends = "['pdal-postgresql', 'vtk']"
 +++
 A C++ library for translating and manipulating point cloud data
 
-{{< files text="show files" >}}* /usr/bin/pdal
+## Files: 
+* /usr/bin/pdal
 * /usr/bin/pdal-config
 * /usr/include/pdal/Artifact.hpp
 * /usr/include/pdal/ArtifactManager.hpp
@@ -350,4 +351,3 @@ A C++ library for translating and manipulating point cloud data
 * /usr/share/doc/pdal-2.6.3/HOWTORELEASE.txt
 * /usr/share/doc/pdal-2.6.3/README.md
 * /usr/share/doc/pdal-2.6.3/RELEASENOTES.txt
-{{< /files >}}

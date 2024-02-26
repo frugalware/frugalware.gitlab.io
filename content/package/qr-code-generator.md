@@ -15,7 +15,8 @@ depends = "['libstdc++']"
 +++
 a program to extract Microsoft Cabinet files
 
-{{< files text="show files" >}}* /usr/include/qrcodegen/qrcodegen.h
+## Files: 
+* /usr/include/qrcodegen/qrcodegen.h
 * /usr/include/qrcodegencpp/QrCode.hpp
 * /usr/lib/libqrcodegen.so
 * /usr/lib/libqrcodegen.so.1
@@ -24,4 +25,3 @@ a program to extract Microsoft Cabinet files
 * /usr/lib/libqrcodegencpp.so.1
 * /usr/lib/libqrcodegencpp.so.1.6.0
 * /usr/share/doc/qr-code-generator-1.6.0/Readme.markdown
-{{< /files >}}

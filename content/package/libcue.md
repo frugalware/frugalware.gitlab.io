@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 A library for parsing CUE sheets.
 
-{{< files text="show files" >}}* /usr/include/libcue.h
+## Files: 
+* /usr/include/libcue.h
 * /usr/include/libcue/libcue.h
 * /usr/lib/libcue.so
 * /usr/lib/libcue.so.2
@@ -29,4 +30,3 @@ A library for parsing CUE sheets.
 * /usr/share/doc/libcue-2.3.0/README.pyside6_essentials.md
 * /usr/share/doc/libcue-2.3.0/README.shiboken6-generator.md
 * /usr/share/doc/libcue-2.3.0/README.shiboken6.md
-{{< /files >}}

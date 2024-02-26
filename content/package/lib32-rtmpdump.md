@@ -16,11 +16,11 @@ reverse_depends = "['lib32-ffmpeg']"
 +++
 A tool to download rtmp:// and rtmpe:// streams ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/sbin/rtmpdump
+## Files: 
+* /usr/i686-frugalware-linux/sbin/rtmpdump
 * /usr/i686-frugalware-linux/sbin/rtmpgw
 * /usr/i686-frugalware-linux/sbin/rtmpsrv
 * /usr/i686-frugalware-linux/sbin/rtmpsuck
 * /usr/lib32/librtmp.so
 * /usr/lib32/librtmp.so.1
 * /usr/lib32/pkgconfig/librtmp.pc
-{{< /files >}}

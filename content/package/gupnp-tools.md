@@ -15,7 +15,8 @@ depends = "['gtk+3', 'gupnp-av>=0.14.0']"
 +++
 Tools for testing UPnP devices and control points
 
-{{< files text="show files" >}}* /usr/bin/gssdp-discover
+## Files: 
+* /usr/bin/gssdp-discover
 * /usr/bin/gupnp-av-cp
 * /usr/bin/gupnp-event-dumper
 * /usr/bin/gupnp-network-light
@@ -69,4 +70,3 @@ Tools for testing UPnP devices and control points
 * /usr/share/locale/tr/LC_MESSAGES/gupnp-tools.mo
 * /usr/share/locale/uk/LC_MESSAGES/gupnp-tools.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/gupnp-tools.mo
-{{< /files >}}

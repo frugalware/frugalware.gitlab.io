@@ -16,7 +16,8 @@ reverse_depends = "['librecad']"
 +++
 A fast math parser library
 
-{{< files text="show files" >}}* /usr/include/muParser.h
+## Files: 
+* /usr/include/muParser.h
 * /usr/include/muParserBase.h
 * /usr/include/muParserBytecode.h
 * /usr/include/muParserCallback.h
@@ -40,4 +41,3 @@ A fast math parser library
 * /usr/share/doc/muparser-2.3.3/CHANGELOG
 * /usr/share/doc/muparser-2.3.3/LICENSE
 * /usr/share/doc/muparser-2.3.3/README.rst
-{{< /files >}}

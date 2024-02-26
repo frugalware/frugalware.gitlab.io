@@ -16,7 +16,8 @@ reverse_depends = "['darktable', 'gimp', 'gnome-desktop', 'gspell', 'hexchat', '
 +++
 Provides the list of country and language names
 
-{{< files text="show files" >}}* /usr/lib/pkgconfig/iso-codes.pc
+## Files: 
+* /usr/lib/pkgconfig/iso-codes.pc
 * /usr/share/doc/iso-codes-4.16.0/COPYING
 * /usr/share/doc/iso-codes-4.16.0/INSTALL
 * /usr/share/doc/iso-codes-4.16.0/README.md
@@ -1175,4 +1176,3 @@ Provides the list of country and language names
 * /usr/share/xml/iso-codes/iso_639.xml
 * /usr/share/xml/iso-codes/iso_639_3.xml
 * /usr/share/xml/iso-codes/iso_639_5.xml
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['python3-sphinx']"
 +++
 Sphinx extension which outputs Apple help books
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sphinxcontrib/applehelp/locales/.tx/config
+## Files: 
+* /usr/lib/python3.12/site-packages/sphinxcontrib/applehelp/locales/.tx/config
 * /usr/lib/python3.12/site-packages/sphinxcontrib/applehelp/locales/ar/LC_MESSAGES/sphinxcontrib.applehelp.mo
 * /usr/lib/python3.12/site-packages/sphinxcontrib/applehelp/locales/ar/LC_MESSAGES/sphinxcontrib.applehelp.po
 * /usr/lib/python3.12/site-packages/sphinxcontrib/applehelp/locales/bn/LC_MESSAGES/sphinxcontrib.applehelp.mo
@@ -129,4 +130,3 @@ Sphinx extension which outputs Apple help books
 * /usr/share/doc/python3-sphinx-applehelp-1.0.7/CHANGES
 * /usr/share/doc/python3-sphinx-applehelp-1.0.7/LICENSE
 * /usr/share/doc/python3-sphinx-applehelp-1.0.7/README.rst
-{{< /files >}}

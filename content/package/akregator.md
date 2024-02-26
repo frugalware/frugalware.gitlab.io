@@ -15,7 +15,8 @@ depends = "['knotifyconfig>=5.115.0', 'kontactinterface>=23.08.5', 'ktexteditor>
 +++
 Feed Reader
 
-{{< files text="show files" >}}* /usr/bin/akregator
+## Files: 
+* /usr/bin/akregator
 * /usr/bin/akregatorstorageexporter
 * /usr/lib/libakregatorinterfaces.so.5
 * /usr/lib/libakregatorinterfaces.so.5.24.5
@@ -198,4 +199,3 @@ Feed Reader
 * /usr/share/metainfo/org.kde.akregator.appdata.xml
 * /usr/share/qlogging-categories5/akregator.categories
 * /usr/share/qlogging-categories5/akregator.renamecategories
-{{< /files >}}

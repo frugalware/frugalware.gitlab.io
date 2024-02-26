@@ -15,4 +15,4 @@ depends = "[]"
 +++
 A set of free roms for sdlmame
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

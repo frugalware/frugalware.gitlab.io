@@ -16,7 +16,8 @@ license = "2"
 +++
 KSmoothDock is a cool desktop panel (like KDE's kicker) for KDE.
 
-{{< files text="show files" >}}* usr/bin/ksmoothdock
+## Files: 
+* usr/bin/ksmoothdock
 * usr/share/applnk/Utilities/ksmoothdock.desktop
 * usr/share/apps/ksmoothdock/ksmoothdockui.rc
 * usr/share/doc/HTML/en/ksmoothdock/common
@@ -31,4 +32,3 @@ KSmoothDock is a cool desktop panel (like KDE's kicker) for KDE.
 * usr/share/doc/ksmoothdock-4.5/TODO
 * usr/share/icons/hicolor/16x16/apps/ksmoothdock.png
 * usr/share/icons/hicolor/32x32/apps/ksmoothdock.png
-{{< /files >}}

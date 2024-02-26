@@ -17,7 +17,8 @@ license = "2"
 +++
 QScintilla2 is a port to Qt of Neil Hodgson's Scintilla C++ editor class. (Qt5)
 
-{{< files text="show files" >}}* /usr/include/qt5/Qsci/qsciabstractapis.h
+## Files: 
+* /usr/include/qt5/Qsci/qsciabstractapis.h
 * /usr/include/qt5/Qsci/qsciapis.h
 * /usr/include/qt5/Qsci/qscicommand.h
 * /usr/include/qt5/Qsci/qscicommandset.h
@@ -97,4 +98,3 @@ QScintilla2 is a port to Qt of Neil Hodgson's Scintilla C++ editor class. (Qt5)
 * /usr/share/qt5/translations/qscintilla_es.qm
 * /usr/share/qt5/translations/qscintilla_fr.qm
 * /usr/share/qt5/translations/qscintilla_pt_br.qm
-{{< /files >}}

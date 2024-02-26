@@ -16,11 +16,11 @@ reverse_depends = "['neatvnc']"
 +++
 Another Main Loop
 
-{{< files text="show files" >}}* /usr/include/aml.h
+## Files: 
+* /usr/include/aml.h
 * /usr/lib/libaml.so
 * /usr/lib/libaml.so.0
 * /usr/lib/libaml.so.0.0.0
 * /usr/lib/pkgconfig/aml.pc
 * /usr/share/doc/aml-0.3.0/COPYING
 * /usr/share/doc/aml-0.3.0/README.md
-{{< /files >}}

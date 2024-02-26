@@ -16,7 +16,8 @@ reverse_depends = "['dolphin-plugins', 'kio-gdrive']"
 +++
 File Manager
 
-{{< files text="show files" >}}* /usr/bin/dolphin
+## Files: 
+* /usr/bin/dolphin
 * /usr/bin/servicemenuinstaller
 * /usr/include/Dolphin/dolphinvcs_version.h
 * /usr/include/Dolphin/KVersionControlPlugin
@@ -373,4 +374,3 @@ File Manager
 * /usr/share/metainfo/org.kde.dolphin.appdata.xml
 * /usr/share/qlogging-categories5/dolphin.categories
 * /usr/share/zsh/site-functions/_dolphin
-{{< /files >}}

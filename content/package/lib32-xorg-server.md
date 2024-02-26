@@ -15,7 +15,8 @@ depends = "['lib32-libdbus', 'lib32-libepoxy>=1.5.2', 'lib32-libgbm>=19.0.0', 'l
 +++
 Modular X.Org X Server (32-bit)
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/gtf
+## Files: 
+* /usr/i686-frugalware-linux/bin/gtf
 * /usr/i686-frugalware-linux/bin/X
 * /usr/i686-frugalware-linux/bin/Xnest
 * /usr/i686-frugalware-linux/bin/Xorg
@@ -190,4 +191,3 @@ Modular X.Org X Server (32-bit)
 * /usr/lib32/xorg/modules/libvgahw.so
 * /usr/lib32/xorg/modules/libwfb.so
 * /usr/lib32/xorg/protocol.txt
-{{< /files >}}

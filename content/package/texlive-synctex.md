@@ -16,8 +16,8 @@ reverse_depends = "['texlive-utils']"
 +++
 libsynctex
 
-{{< files text="show files" >}}* /usr/lib/libsynctex.so
+## Files: 
+* /usr/lib/libsynctex.so
 * /usr/lib/libsynctex.so.2
 * /usr/lib/libsynctex.so.2.0.0
 * /usr/lib/pkgconfig/synctex.pc
-{{< /files >}}

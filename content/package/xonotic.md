@@ -15,4 +15,4 @@ depends = "['alsa-lib', 'curl', 'libjpeg', 'libmodplug', 'libpng>=1.4.0', 'libvo
 +++
 A free, fast-paced crossplatform first-person shooter
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

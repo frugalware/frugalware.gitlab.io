@@ -15,7 +15,8 @@ depends = "['python3-numpy', 'python3-scipy']"
 +++
 A set of python modules for machine learning and data mining
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/scikit_learn-1.3.2-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/scikit_learn-1.3.2-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/scikit_learn-1.3.2-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/scikit_learn-1.3.2-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/scikit_learn-1.3.2-py3.12.egg-info/requires.txt
@@ -1325,4 +1326,3 @@ A set of python modules for machine learning and data mining
 * /usr/lib/python3.12/site-packages/sklearn/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/scikit-learn-1.3.2/COPYING
 * /usr/share/doc/scikit-learn-1.3.2/README.rst
-{{< /files >}}

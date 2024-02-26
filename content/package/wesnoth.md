@@ -15,4 +15,4 @@ depends = "['curl', 'libboost>=1.72.0', 'pango', 'sdl2_image', 'sdl2_mixer', 'sd
 +++
 Wesnoth is a turn based strategy game played in the fantasy world
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

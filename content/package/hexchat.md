@@ -15,7 +15,8 @@ depends = "['dbus', 'dbus-glib', 'gtk+2-libs>=2.24.31-2', 'iso-codes', 'libcanbe
 +++
 HexChat is an IRC client based on XChat.
 
-{{< files text="show files" >}}* /usr/bin/hexchat
+## Files: 
+* /usr/bin/hexchat
 * /usr/include/hexchat-plugin.h
 * /usr/lib/hexchat/plugins/checksum.so
 * /usr/lib/hexchat/plugins/fishlim.so
@@ -87,4 +88,3 @@ HexChat is an IRC client based on XChat.
 * /usr/share/locale/zh_TW/LC_MESSAGES/hexchat.mo
 * /usr/share/man/man1/hexchat.1.gz
 * /usr/share/metainfo/io.github.Hexchat.appdata.xml
-{{< /files >}}

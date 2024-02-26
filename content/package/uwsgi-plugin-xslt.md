@@ -15,5 +15,5 @@ depends = "['libxml2', 'uwsgi']"
 +++
 UWSGI XSLT Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/xslt_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/uwsgi/xslt_plugin.so

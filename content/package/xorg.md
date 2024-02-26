@@ -15,7 +15,8 @@ depends = "['fontconfig', 'libpng', 'libstdc++', 'ncurses']"
 +++
 A fork of the XFree86 Project with a GPL-compatible license
 
-{{< files text="show files" >}}* etc/profile.d/xprint.csh
+## Files: 
+* etc/profile.d/xprint.csh
 * etc/profile.d/xprint.sh
 * etc/rc.d/rc.messages/xprint.en
 * etc/rc.d/rc.messages/xprint.hu
@@ -10790,4 +10791,3 @@ A fork of the XFree86 Project with a GPL-compatible license
 * usr/X11R6/man/man7/Xsecurity.7
 * usr/X11R6/man/man7/XStandards.7
 * var/lib/xkb/README
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['lame', 'sox']"
 +++
 RealPlayer(R) recorder and Live Radio Station database
 
-{{< files text="show files" >}}* usr/bin/realrekord
+## Files: 
+* usr/bin/realrekord
 * usr/lib/realrekord/libvsound.la
 * usr/lib/realrekord/libvsound.so
 * usr/share/applnk/Utilities/realrekord.desktop
@@ -44,4 +45,3 @@ RealPlayer(R) recorder and Live Radio Station database
 * usr/share/doc/realrekord-0.9_jr3/NEWS
 * usr/share/doc/realrekord-0.9_jr3/README
 * usr/share/doc/realrekord-0.9_jr3/VERSION
-{{< /files >}}

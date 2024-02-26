@@ -15,5 +15,5 @@ depends = "['faad2', 'libvlc>=3.0.20']"
 +++
 vlc fadd support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/libfaad_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/codec/libfaad_plugin.so

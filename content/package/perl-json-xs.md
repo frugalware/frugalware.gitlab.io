@@ -15,7 +15,8 @@ depends = "['perl>=5.34.0', 'perl-canary-stability', 'perl-common-sense']"
 +++
 JSON::XS - JSON serialising/deserialising, done correctly and fast
 
-{{< files text="show files" >}}* /usr/bin/json_xs
+## Files: 
+* /usr/bin/json_xs
 * /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/JSON/XS/XS.so
 * /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/JSON/XS.pm
 * /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/JSON/XS/Boolean.pm
@@ -25,4 +26,3 @@ JSON::XS - JSON serialising/deserialising, done correctly and fast
 * /usr/share/man/man1/json_xs.1perl.gz
 * /usr/share/man/man3/JSON::XS.3perl.gz
 * /usr/share/man/man3/JSON::XS::Boolean.3perl.gz
-{{< /files >}}

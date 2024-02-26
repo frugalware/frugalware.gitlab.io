@@ -16,7 +16,8 @@ reverse_depends = "['rng-tools']"
 +++
 Tools and libraries for smart cards
 
-{{< files text="show files" >}}* /etc/bash_completion.d/cardos-tool
+## Files: 
+* /etc/bash_completion.d/cardos-tool
 * /etc/bash_completion.d/cryptoflex-tool
 * /etc/bash_completion.d/dnie-tool
 * /etc/bash_completion.d/egk-tool
@@ -135,4 +136,3 @@ Tools and libraries for smart cards
 * /usr/share/opensc/setcos.profile
 * /usr/share/opensc/starcos.profile
 * /usr/share/opensc/westcos.profile
-{{< /files >}}

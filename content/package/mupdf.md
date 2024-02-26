@@ -16,7 +16,8 @@ reverse_depends = "['cups-filters']"
 +++
 Lightweight PDF and XPS viewer
 
-{{< files text="show files" >}}* /usr/bin/mupdf
+## Files: 
+* /usr/bin/mupdf
 * /usr/bin/mupdf-x11
 * /usr/bin/mupdf-x11-curl
 * /usr/bin/muraster
@@ -122,4 +123,3 @@ Lightweight PDF and XPS viewer
 * /usr/share/man/man1/mupdf.1.gz
 * /usr/share/man/man1/mutool.1.gz
 * /usr/share/pixmaps/mupdf.xpm
-{{< /files >}}

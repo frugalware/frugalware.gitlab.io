@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-contacts', 'calindori', 'digikam', 'kcalutils', 'ki
 +++
 The KDE calendar access library
 
-{{< files text="show files" >}}* /usr/include/KF5/kcalcore_version.h
+## Files: 
+* /usr/include/KF5/kcalcore_version.h
 * /usr/include/KF5/KCalendarCore/KCalCore/Alarm
 * /usr/include/KF5/KCalendarCore/kcalcore/alarm.h
 * /usr/include/KF5/KCalendarCore/KCalCore/Attachment
@@ -165,4 +166,3 @@ The KDE calendar access library
 * /usr/share/qlogging-categories5/kcalendarcore.categories
 * /usr/share/qlogging-categories5/kcalendarcore.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KCalendarCore.pri
-{{< /files >}}

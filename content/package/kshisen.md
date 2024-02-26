@@ -15,7 +15,8 @@ depends = "['libkdegames>=23.08.5', 'libkmahjongg>=23.08.5']"
 +++
 A solitaire-like game played using the standard set of Mahjong tiles.
 
-{{< files text="show files" >}}* /usr/bin/kshisen
+## Files: 
+* /usr/bin/kshisen
 * /usr/share/applications/org.kde.kshisen.desktop
 * /usr/share/config.kcfg/kshisen.kcfg
 * /usr/share/doc/HTML/ca/kshisen/gameboard.png
@@ -147,4 +148,3 @@ A solitaire-like game played using the standard set of Mahjong tiles.
 * /usr/share/qlogging-categories5/kshisen.categories
 * /usr/share/sounds/kshisen/tile-fall-tile.ogg
 * /usr/share/sounds/kshisen/tile-touch.ogg
-{{< /files >}}

@@ -15,10 +15,10 @@ depends = "['libpq', 'libxml2', 'pdal']"
 +++
 PDAL postgresql plugin
 
-{{< files text="show files" >}}* /usr/lib/libpdal_plugin_reader_pgpointcloud.so
+## Files: 
+* /usr/lib/libpdal_plugin_reader_pgpointcloud.so
 * /usr/lib/libpdal_plugin_reader_pgpointcloud.so.16
 * /usr/lib/libpdal_plugin_reader_pgpointcloud.so.16.3.0
 * /usr/lib/libpdal_plugin_writer_pgpointcloud.so
 * /usr/lib/libpdal_plugin_writer_pgpointcloud.so.16
 * /usr/lib/libpdal_plugin_writer_pgpointcloud.so.16.3.0
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "['go', 'libaudit>=3.1.2']"
 +++
 Go bindings for audit
 
-{{< files text="show files" >}}* /usr/lib/golang/src/pkg/redhat.com/audit/audit.go
-{{< /files >}}
+## Files: 
+* /usr/lib/golang/src/pkg/redhat.com/audit/audit.go

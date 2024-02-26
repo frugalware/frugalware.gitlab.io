@@ -16,7 +16,8 @@ reverse_depends = "['haskell-bifunctors']"
 +++
 Comonads
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/comonad-5.0.8/Control/Comonad.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/comonad-5.0.8/Control/Comonad.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/comonad-5.0.8/Control/Comonad.hi
 * /usr/lib/ghc-9.8.1/site-local/comonad-5.0.8/Control/Comonad/Env.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/comonad-5.0.8/Control/Comonad/Env.hi
@@ -76,4 +77,3 @@ Comonads
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/comonad-5.0.8/LICENSE
 * /usr/share/haskell/haskell-comonad/register.sh
 * /usr/share/haskell/haskell-comonad/unregister.sh
-{{< /files >}}

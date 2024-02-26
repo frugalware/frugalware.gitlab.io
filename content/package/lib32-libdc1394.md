@@ -16,7 +16,8 @@ reverse_depends = "['lib32-ffmpeg']"
 +++
 libdc1394 provides a high level programming interface to control IEEE 1394 based cameras. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/dc1394_reset_bus
+## Files: 
+* /usr/i686-frugalware-linux/bin/dc1394_reset_bus
 * /usr/i686-frugalware-linux/include/dc1394/camera.h
 * /usr/i686-frugalware-linux/include/dc1394/capture.h
 * /usr/i686-frugalware-linux/include/dc1394/control.h
@@ -39,4 +40,3 @@ libdc1394 provides a high level programming interface to control IEEE 1394 based
 * /usr/lib32/libdc1394.so.26
 * /usr/lib32/libdc1394.so.26.0.1
 * /usr/lib32/pkgconfig/libdc1394-2.pc
-{{< /files >}}

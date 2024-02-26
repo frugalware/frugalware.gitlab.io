@@ -16,7 +16,8 @@ reverse_depends = "['haskell-texmath']"
 +++
 A simple XML library
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/xml-1.3.14/libHSxml-1.3.14-DEY1vlTbzWbKcufXaFaRMm.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/xml-1.3.14/libHSxml-1.3.14-DEY1vlTbzWbKcufXaFaRMm.a
 * /usr/lib/ghc-9.8.1/site-local/xml-1.3.14/Text/XML/Light.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/xml-1.3.14/Text/XML/Light.hi
 * /usr/lib/ghc-9.8.1/site-local/xml-1.3.14/Text/XML/Light/Cursor.dyn_hi
@@ -72,4 +73,3 @@ A simple XML library
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/xml-1.3.14/LICENSE
 * /usr/share/haskell/haskell-xml/register.sh
 * /usr/share/haskell/haskell-xml/unregister.sh
-{{< /files >}}

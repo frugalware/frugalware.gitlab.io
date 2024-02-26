@@ -15,5 +15,5 @@ depends = "['glib2>=2.60.0', 'gtk+4>=4.13.8', 'libffi>=3.2.1-2', 'pango>=1.42.0'
 +++
 GTK+4 commandline tools.
 
-{{< files text="show files" >}}* /usr/bin/gtk4-query-settings
-{{< /files >}}
+## Files: 
+* /usr/bin/gtk4-query-settings

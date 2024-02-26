@@ -15,6 +15,6 @@ depends = "[]"
 +++
 Static files for c-client
 
-{{< files text="show files" >}}* /usr/lib/c-client.a
+## Files: 
+* /usr/lib/c-client.a
 * /usr/lib/libc-client.a
-{{< /files >}}

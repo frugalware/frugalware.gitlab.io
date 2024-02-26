@@ -15,7 +15,8 @@ depends = "['gmp']"
 +++
 Elliptic Curve Method for Integer Factorization
 
-{{< files text="show files" >}}* /usr/bin/ecm
+## Files: 
+* /usr/bin/ecm
 * /usr/include/ecm.h
 * /usr/lib/libecm.la
 * /usr/lib/libecm.so
@@ -33,4 +34,3 @@ Elliptic Curve Method for Integer Factorization
 * /usr/share/doc/ecm-7.0.4/README.lib
 * /usr/share/doc/ecm-7.0.4/TODO
 * /usr/share/man/man1/ecm.1.gz
-{{< /files >}}

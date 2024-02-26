@@ -15,7 +15,8 @@ depends = "['ghc>=8.6.1']"
 +++
 Assorted concrete container types
 
-{{< files text="show files" >}}* /usr/lib/ghc-8.6.1/site-local/containers-0.6.0.1/Data/Containers/ListUtils.dyn_hi
+## Files: 
+* /usr/lib/ghc-8.6.1/site-local/containers-0.6.0.1/Data/Containers/ListUtils.dyn_hi
 * /usr/lib/ghc-8.6.1/site-local/containers-0.6.0.1/Data/Containers/ListUtils.hi
 * /usr/lib/ghc-8.6.1/site-local/containers-0.6.0.1/Data/Graph.dyn_hi
 * /usr/lib/ghc-8.6.1/site-local/containers-0.6.0.1/Data/Graph.hi
@@ -163,4 +164,3 @@ Assorted concrete container types
 * /usr/share/doc/x86_64-linux-ghc-8.6.1/containers-0.6.0.1/LICENSE
 * /usr/share/haskell/haskell-containers/register.sh
 * /usr/share/haskell/haskell-containers/unregister.sh
-{{< /files >}}

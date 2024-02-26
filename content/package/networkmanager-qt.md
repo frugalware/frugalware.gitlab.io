@@ -16,7 +16,8 @@ reverse_depends = "['itinerary', 'kasts', 'kpublictransport', 'ksysguard5', 'ksy
 +++
 Qt wrapper for NetworkManager API.
 
-{{< files text="show files" >}}* /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/AccessPoint
+## Files: 
+* /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/AccessPoint
 * /usr/include/KF5/NetworkManagerQt/networkmanagerqt/accesspoint.h
 * /usr/include/KF5/NetworkManagerQt/NetworkManagerQt/ActiveConnection
 * /usr/include/KF5/NetworkManagerQt/networkmanagerqt/activeconnection.h
@@ -165,4 +166,3 @@ Qt wrapper for NetworkManager API.
 * /usr/share/doc/networkmanager-qt-5.115.0/TODO
 * /usr/share/qlogging-categories5/networkmanagerqt.categories
 * /usr/share/qlogging-categories5/networkmanagerqt.renamecategories
-{{< /files >}}

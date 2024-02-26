@@ -15,7 +15,8 @@ depends = "['openjdk']"
 +++
 A Java project management and project comprehension tool
 
-{{< files text="show files" >}}* /etc/profile.d/maven.sh
+## Files: 
+* /etc/profile.d/maven.sh
 * /usr/lib/maven/bin/m2.conf
 * /usr/lib/maven/bin/mvn
 * /usr/lib/maven/bin/mvn.cmd
@@ -106,4 +107,3 @@ A Java project management and project comprehension tool
 * /usr/share/doc/maven-3.9.0/LICENSE
 * /usr/share/doc/maven-3.9.0/README.md
 * /usr/share/doc/maven-3.9.0/README.txt
-{{< /files >}}

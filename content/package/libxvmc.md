@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.Org XvMC library
 
-{{< files text="show files" >}}* /usr/include/X11/extensions/vldXvMC.h
+## Files: 
+* /usr/include/X11/extensions/vldXvMC.h
 * /usr/include/X11/extensions/XvMClib.h
 * /usr/lib/libXvMC.so
 * /usr/lib/libXvMC.so.1
@@ -32,4 +33,3 @@ X.Org XvMC library
 * /usr/share/doc/libxvmc-1.0.14/INSTALL
 * /usr/share/doc/libxvmc-1.0.14/README.md
 * /usr/share/doc/libxvmc-1.0.14/XvMC_API.txt
-{{< /files >}}

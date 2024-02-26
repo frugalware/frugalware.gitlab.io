@@ -15,5 +15,5 @@ depends = "['libmatroska>=1.2.0', 'libvlc>=3.0.20']"
 +++
 vlc plugin for mkv
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/demux/libmkv_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/demux/libmkv_plugin.so

@@ -16,9 +16,9 @@ reverse_depends = "['alienarena', 'assaultcube', 'dosbox', 'efl', 'flightgear', 
 +++
 Mesa DRI OpenGL files.
 
-{{< files text="show files" >}}* /usr/lib/libGL.la
+## Files: 
+* /usr/lib/libGL.la
 * /usr/lib/libGL.so
 * /usr/lib/libGL.so.1
 * /usr/lib/libGL.so.1.2.0
 * /usr/lib/pkgconfig/gl.pc
-{{< /files >}}

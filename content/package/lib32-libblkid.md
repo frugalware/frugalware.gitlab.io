@@ -16,9 +16,9 @@ reverse_depends = "['lib32-glib2', 'lib32-libsystemd']"
 +++
 Block device id library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/blkid/blkid.h
+## Files: 
+* /usr/i686-frugalware-linux/include/blkid/blkid.h
 * /usr/lib32/libblkid.so
 * /usr/lib32/libblkid.so.1
 * /usr/lib32/libblkid.so.1.1.0
 * /usr/lib32/pkgconfig/blkid.pc
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['gtkmm']"
 +++
 Pangomm is a C++ wrapper for the pango library.
 
-{{< files text="show files" >}}* /usr/include/cairomm-1.16/cairomm/cairomm.h
+## Files: 
+* /usr/include/cairomm-1.16/cairomm/cairomm.h
 * /usr/include/cairomm-1.16/cairomm/context.h
 * /usr/include/cairomm-1.16/cairomm/device.h
 * /usr/include/cairomm-1.16/cairomm/enums.h
@@ -742,4 +743,3 @@ Pangomm is a C++ wrapper for the pango library.
 * /usr/share/doc/pangomm-2.50.1/README.md
 * /usr/share/doc/pangomm-2.50.1/README.SUN
 * /usr/share/doc/pangomm-2.50.1/README.win32
-{{< /files >}}

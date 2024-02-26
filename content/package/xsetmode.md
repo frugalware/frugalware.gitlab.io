@@ -16,8 +16,8 @@ license = "GPL2"
 +++
 X.Org xsetmode application
 
-{{< files text="show files" >}}* /usr/bin/xsetmode
+## Files: 
+* /usr/bin/xsetmode
 * /usr/share/doc/xsetmode-1.0.0/ChangeLog
 * /usr/share/doc/xsetmode-1.0.0/COPYING
 * /usr/share/man/man1/xsetmode.1x.gz
-{{< /files >}}

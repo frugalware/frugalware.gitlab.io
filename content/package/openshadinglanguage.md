@@ -16,7 +16,8 @@ reverse_depends = "['blender']"
 +++
 Advanced shading language for production GI renderers
 
-{{< files text="show files" >}}* /usr/bin/oslc
+## Files: 
+* /usr/bin/oslc
 * /usr/bin/oslinfo
 * /usr/bin/osltoy
 * /usr/bin/testrender
@@ -133,4 +134,3 @@ Advanced shading language for production GI renderers
 * /usr/share/OSL/shaders/ubersurface.oso
 * /usr/share/OSL/shaders/vector2.h
 * /usr/share/OSL/shaders/vector4.h
-{{< /files >}}

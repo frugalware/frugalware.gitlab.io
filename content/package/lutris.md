@@ -15,7 +15,8 @@ depends = "['gnome-desktop', 'gobject-introspection', 'python3-astroid', 'python
 +++
 Open Gaming Platform
 
-{{< files text="show files" >}}* /usr/bin/lutris
+## Files: 
+* /usr/bin/lutris
 * /usr/lib/python3.12/site-packages/lutris-0.5.16-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/lutris-0.5.16-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/lutris-0.5.16-py3.12.egg-info/PKG-INFO
@@ -590,4 +591,3 @@ Open Gaming Platform
 * /usr/share/lutris/ui/uninstall-dialog.ui
 * /usr/share/man/man1/lutris.1.gz
 * /usr/share/metainfo/net.lutris.Lutris.metainfo.xml
-{{< /files >}}

@@ -16,11 +16,11 @@ reverse_depends = "['lib32-mangohud', 'lib32-mesa-vulkan-amd', 'lib32-mesa-vulka
 +++
 Vulkan Installable Client Driver (ICD) Loader ( 32bit )
 
-{{< files text="show files" >}}* /usr/lib32/cmake/VulkanLoader/VulkanLoaderConfig-release.cmake
+## Files: 
+* /usr/lib32/cmake/VulkanLoader/VulkanLoaderConfig-release.cmake
 * /usr/lib32/cmake/VulkanLoader/VulkanLoaderConfig.cmake
 * /usr/lib32/cmake/VulkanLoader/VulkanLoaderConfigVersion.cmake
 * /usr/lib32/libvulkan.so
 * /usr/lib32/libvulkan.so.1
 * /usr/lib32/libvulkan.so.1.3.275
 * /usr/lib32/pkgconfig/vulkan.pc
-{{< /files >}}

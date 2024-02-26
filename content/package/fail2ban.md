@@ -15,7 +15,8 @@ depends = "['ipset', 'iptables', 'pyinotify', 'python3-py', 'python3-sqlite3', '
 +++
 Bans IP that make too many password failures
 
-{{< files text="show files" >}}* /etc/fail2ban/action.d/abuseipdb.conf
+## Files: 
+* /etc/fail2ban/action.d/abuseipdb.conf
 * /etc/fail2ban/action.d/apf.conf
 * /etc/fail2ban/action.d/apprise.conf
 * /etc/fail2ban/action.d/blocklist_de.conf
@@ -499,4 +500,3 @@ Bans IP that make too many password failures
 * /usr/share/doc/fail2ban/FILTERS
 * /usr/share/doc/fail2ban/README.md
 * /usr/share/doc/fail2ban/run-rootless.txt
-{{< /files >}}

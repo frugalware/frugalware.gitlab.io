@@ -15,5 +15,5 @@ depends = "['python3-greenlet', 'uwsgi']"
 +++
 UWSGI Python Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/python_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/uwsgi/python_plugin.so

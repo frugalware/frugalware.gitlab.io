@@ -15,9 +15,9 @@ depends = "['libvorbis']"
 +++
 A utility that uses a psychoacoustic method to correct the volume of an Ogg Vorbis file to a predefined standardized loudness.
 
-{{< files text="show files" >}}* /usr/bin/vorbisgain
+## Files: 
+* /usr/bin/vorbisgain
 * /usr/share/doc/vorbisgain-0.37/COPYING
 * /usr/share/doc/vorbisgain-0.37/NEWS
 * /usr/share/doc/vorbisgain-0.37/README
 * /usr/share/man/man1/vorbisgain.1.gz
-{{< /files >}}

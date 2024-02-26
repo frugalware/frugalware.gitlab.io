@@ -16,7 +16,8 @@ reverse_depends = "['haskell-pandoc-lua-marshal']"
 +++
 Opinionated, but extensible Lua list type
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hslua-list-1.1.1/HsLua/List.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/hslua-list-1.1.1/HsLua/List.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-list-1.1.1/HsLua/List.hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-list-1.1.1/libHShslua-list-1.1.1-1GCndAoQ5nBJJPmSrKbQe9.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHShslua-list-1.1.1-1GCndAoQ5nBJJPmSrKbQe9-ghc9.8.1.so
@@ -38,4 +39,3 @@ Opinionated, but extensible Lua list type
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/hslua-list-1.1.1/LICENSE
 * /usr/share/haskell/haskell-hslua-list/register.sh
 * /usr/share/haskell/haskell-hslua-list/unregister.sh
-{{< /files >}}

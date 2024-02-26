@@ -16,7 +16,8 @@ reverse_depends = "['libproxy-vala', 'libsecret-vala']"
 +++
 Vala is a prgramming language that aims to bring modern programming language features to GNOME developers
 
-{{< files text="show files" >}}* /usr/bin/vala
+## Files: 
+* /usr/bin/vala
 * /usr/bin/vala-0.56
 * /usr/bin/vala-gen-introspect
 * /usr/bin/vala-gen-introspect-0.56
@@ -437,4 +438,3 @@ Vala is a prgramming language that aims to bring modern programming language fea
 * /usr/share/valadoc-0.56/icons/virtualproperty.svg
 * /usr/share/valadoc-0.56/icons/warning.svg
 * /usr/share/valadoc-0.56/icons/wikistyle.css
-{{< /files >}}

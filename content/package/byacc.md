@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 The Berkeley variant of the Yacc parser generator.
 
-{{< files text="show files" >}}* /usr/bin/byacc
+## Files: 
+* /usr/bin/byacc
 * /usr/share/doc/byacc-20230521/AUTHORS
 * /usr/share/doc/byacc-20230521/CHANGES
 * /usr/share/doc/byacc-20230521/LICENSE
@@ -24,4 +25,3 @@ The Berkeley variant of the Yacc parser generator.
 * /usr/share/doc/byacc-20230521/README.BTYACC
 * /usr/share/doc/byacc-20230521/VERSION
 * /usr/share/man/man1/byacc.1.gz
-{{< /files >}}

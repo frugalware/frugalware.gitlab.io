@@ -16,7 +16,8 @@ reverse_depends = "['cdrtools', 'coreutils', 'kdebase-runtime-kstyles', 'ksubedi
 +++
 Dynamic library for extended attribute support.
 
-{{< files text="show files" >}}* /etc/xattr.conf
+## Files: 
+* /etc/xattr.conf
 * /usr/bin/attr
 * /usr/bin/getfattr
 * /usr/bin/setfattr
@@ -54,4 +55,3 @@ Dynamic library for extended attribute support.
 * /usr/share/man/man3/attr_removef.3.gz
 * /usr/share/man/man3/attr_set.3.gz
 * /usr/share/man/man3/attr_setf.3.gz
-{{< /files >}}

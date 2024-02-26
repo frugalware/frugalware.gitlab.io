@@ -15,7 +15,8 @@ depends = "['python3>=3.11']"
 +++
 Shiboken lib python only
 
-{{< files text="show files" >}}* /usr/lib/libshiboken2.cpython-312-x86_64-linux-gnu.so
+## Files: 
+* /usr/lib/libshiboken2.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/libshiboken2.cpython-312-x86_64-linux-gnu.so.5.15
 * /usr/lib/libshiboken2.cpython-312-x86_64-linux-gnu.so.5.15.11
 * /usr/lib/python3.12/site-packages/shiboken2/files.dir/shibokensupport/feature.py
@@ -39,4 +40,3 @@ Shiboken lib python only
 * /usr/lib/python3.12/site-packages/shiboken2_generator/_config.py
 * /usr/lib/python3.12/site-packages/shiboken2_generator/_git_shiboken_generator_version.py
 * /usr/lib/python3.12/site-packages/shiboken2_generator/__init__.py
-{{< /files >}}

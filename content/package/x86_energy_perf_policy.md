@@ -15,6 +15,6 @@ depends = "['pciutils']"
 +++
 Kernel tool for setting MSR energy policies
 
-{{< files text="show files" >}}* /usr/bin/x86_energy_perf_policy
+## Files: 
+* /usr/bin/x86_energy_perf_policy
 * /usr/share/man/man8/x86_energy_perf_policy.8.gz
-{{< /files >}}

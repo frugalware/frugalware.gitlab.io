@@ -16,9 +16,9 @@ license = "GPL2"
 +++
 X.Org driver for elographics input devices
 
-{{< files text="show files" >}}* /usr/lib/xorg/modules/input/elographics_drv.so
+## Files: 
+* /usr/lib/xorg/modules/input/elographics_drv.so
 * /usr/share/doc/xf86-input-elographics-1.4.3/ChangeLog
 * /usr/share/doc/xf86-input-elographics-1.4.3/COPYING
 * /usr/share/doc/xf86-input-elographics-1.4.3/README.md
 * /usr/share/man/man4/elographics.4.gz
-{{< /files >}}

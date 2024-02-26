@@ -16,7 +16,8 @@ reverse_depends = "['imagemagick', 'okular']"
 +++
 DjVu is a web-centric format for distributing documents and images.
 
-{{< files text="show files" >}}* /usr/bin/any2djvu
+## Files: 
+* /usr/bin/any2djvu
 * /usr/bin/bzz
 * /usr/bin/c44
 * /usr/bin/cjb2
@@ -102,4 +103,3 @@ DjVu is a web-centric format for distributing documents and images.
 * /usr/share/man/man1/djvutxt.1.gz
 * /usr/share/man/man1/djvuxml.1.gz
 * /usr/share/man/man1/djvuxmlparser.1.gz
-{{< /files >}}

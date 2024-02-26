@@ -15,7 +15,8 @@ depends = "['calendarsupport>=23.08.5']"
 +++
 Akonadi calendar tools
 
-{{< files text="show files" >}}* /usr/bin/calendarjanitor
+## Files: 
+* /usr/bin/calendarjanitor
 * /usr/bin/konsolekalendar
 * /usr/share/applications/konsolekalendar.desktop
 * /usr/share/doc/HTML/ca/konsolekalendar/index.cache.bz2
@@ -158,4 +159,3 @@ Akonadi calendar tools
 * /usr/share/locale/zh_TW/LC_MESSAGES/konsolekalendar.mo
 * /usr/share/qlogging-categories5/console.categories
 * /usr/share/qlogging-categories5/console.renamecategories
-{{< /files >}}

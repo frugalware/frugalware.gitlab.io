@@ -15,7 +15,8 @@ depends = "['glibc>=2.29-6']"
 +++
 Object Oriented Input System
 
-{{< files text="show files" >}}* /usr/include/OIS/OIS.h
+## Files: 
+* /usr/include/OIS/OIS.h
 * /usr/include/OIS/OISConfig.h
 * /usr/include/OIS/OISEffect.h
 * /usr/include/OIS/OISEvents.h
@@ -33,4 +34,3 @@ Object Oriented Input System
 * /usr/lib/libOIS-1.3.0.so
 * /usr/lib/libOIS.so
 * /usr/lib/pkgconfig/OIS.pc
-{{< /files >}}

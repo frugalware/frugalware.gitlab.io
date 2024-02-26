@@ -16,7 +16,8 @@ reverse_depends = "['darktable', 'element', 'gcr', 'gcr-1', 'gvfs', 'msmtp', 'nm
 +++
 Library for storing and retrieving passwords and other secrets
 
-{{< files text="show files" >}}* /usr/bin/secret-tool
+## Files: 
+* /usr/bin/secret-tool
 * /usr/include/libsecret-1/libsecret/secret-attributes.h
 * /usr/include/libsecret-1/libsecret/secret-backend.h
 * /usr/include/libsecret-1/libsecret/secret-collection.h
@@ -424,4 +425,3 @@ Library for storing and retrieving passwords and other secrets
 * /usr/share/locale/zh_HK/LC_MESSAGES/libsecret.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libsecret.mo
 * /usr/share/man/man1/secret-tool.1.gz
-{{< /files >}}

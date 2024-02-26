@@ -15,7 +15,8 @@ depends = "['perl']"
 +++
 Rootkit Hunter, security monitoring and analyzing tool for POSIX compliant systems.
 
-{{< files text="show files" >}}* /etc/rkhunter.conf
+## Files: 
+* /etc/rkhunter.conf
 * /usr/bin/rkhunter
 * /usr/lib/rkhunter/scripts/check_modules.pl
 * /usr/lib/rkhunter/scripts/filehashsha.pl
@@ -55,4 +56,3 @@ Rootkit Hunter, security monitoring and analyzing tool for POSIX compliant syste
 * /var/lib/rkhunter/db/signatures/RKH_turtle.ldb
 * /var/lib/rkhunter/db/signatures/RKH_xsyslog.ldb
 * /var/lib/rkhunter/db/suspscan.dat
-{{< /files >}}

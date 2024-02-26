@@ -15,11 +15,11 @@ depends = "['libffi>=3.4', 'libxml2']"
 +++
 C/C++ language family frontend for LLVM15 Libs
 
-{{< files text="show files" >}}* /usr/lib/libclang-cpp.so.15
+## Files: 
+* /usr/lib/libclang-cpp.so.15
 * /usr/lib/libclang.so.15
 * /usr/lib/llvm15/lib/libclang-cpp.so
 * /usr/lib/llvm15/lib/libclang-cpp.so.15
 * /usr/lib/llvm15/lib/libclang.so
 * /usr/lib/llvm15/lib/libclang.so.15
 * /usr/lib/llvm15/lib/libclang.so.15.0.7
-{{< /files >}}

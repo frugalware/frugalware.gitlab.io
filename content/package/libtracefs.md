@@ -16,10 +16,10 @@ reverse_depends = "['ndctl']"
 +++
 Linux kernel trace file system library
 
-{{< files text="show files" >}}* /usr/include/tracefs/tracefs.h
+## Files: 
+* /usr/include/tracefs/tracefs.h
 * /usr/lib/libtracefs.so
 * /usr/lib/libtracefs.so.1
 * /usr/lib/libtracefs.so.1.8.0
 * /usr/lib/pkgconfig/libtracefs.pc
 * /usr/share/doc/libtracefs-1.8.0/README
-{{< /files >}}

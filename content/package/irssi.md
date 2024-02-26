@@ -16,7 +16,8 @@ reverse_depends = "['irssi-otr']"
 +++
 Irssi is a modular IRC client for UNIX that currently has only text mode user interface
 
-{{< files text="show files" >}}* /etc/irssi.conf
+## Files: 
+* /etc/irssi.conf
 * /usr/bin/botti
 * /usr/bin/irssi
 * /usr/include/irssi/irssi-config.h
@@ -312,4 +313,3 @@ Irssi is a modular IRC client for UNIX that currently has only text mode user in
 * /usr/share/irssi/themes/colorless.theme
 * /usr/share/irssi/themes/default.theme
 * /usr/share/man/man1/irssi.1.gz
-{{< /files >}}

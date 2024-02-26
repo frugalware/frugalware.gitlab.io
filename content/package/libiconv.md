@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 GNU charset conversion library
 
-{{< files text="show files" >}}* /usr/bin/libiconv
+## Files: 
+* /usr/bin/libiconv
 * /usr/include/libcharset.h
 * /usr/include/libiconv.h
 * /usr/include/localcharset.h
@@ -85,4 +86,3 @@ GNU charset conversion library
 * /usr/share/man/man3/libiconv_iconv_close.3.gz
 * /usr/share/man/man3/libiconv_iconv_open.3.gz
 * /usr/share/man/man3/libiconv_iconv_open_into.3.gz
-{{< /files >}}

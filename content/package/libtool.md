@@ -16,7 +16,8 @@ reverse_depends = "['clamav', 'courier-authlib', 'guile', 'imagemagick', 'libcan
 +++
 A generic library support script
 
-{{< files text="show files" >}}* /usr/bin/libtool
+## Files: 
+* /usr/bin/libtool
 * /usr/bin/libtoolize
 * /usr/include/libltdl/lt_dlloader.h
 * /usr/include/libltdl/lt_error.h
@@ -87,4 +88,3 @@ A generic library support script
 * /usr/share/libtool/slist.c
 * /usr/share/man/man1/libtool.1.gz
 * /usr/share/man/man1/libtoolize.1.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['krita']"
 +++
 An embeddable expression evaluation engine (Krita fork)
 
-{{< files text="show files" >}}* /usr/include/KSeExpr/Context.h
+## Files: 
+* /usr/include/KSeExpr/Context.h
 * /usr/include/KSeExpr/Curve.h
 * /usr/include/KSeExpr/ErrorCode.h
 * /usr/include/KSeExpr/Evaluator.h
@@ -102,4 +103,3 @@ An embeddable expression evaluation engine (Krita fork)
 * /usr/share/locale/zh_CN/LC_MESSAGES/seexpr2_qt.qm
 * /usr/share/locale/zh_TW/LC_MESSAGES/seexpr2_qt.qm
 * /usr/share/pkgconfig/kseexpr.pc
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['kcoreaddons>=5.97.0']"
 +++
 A KDE C++ interface for MediaWiki based web service.
 
-{{< files text="show files" >}}* /usr/include/KF5/MediaWiki/Edit
+## Files: 
+* /usr/include/KF5/MediaWiki/Edit
 * /usr/include/KF5/MediaWiki/edit.h
 * /usr/include/KF5/MediaWiki/Generalinfo
 * /usr/include/KF5/MediaWiki/generalinfo.h
@@ -70,4 +71,3 @@ A KDE C++ interface for MediaWiki based web service.
 * /usr/share/doc/libmediawiki-5.38.0/COPYING.LIB
 * /usr/share/doc/libmediawiki-5.38.0/README.md
 * /usr/share/qt5/mkspecs/modules/qt_MediaWiki.pri
-{{< /files >}}

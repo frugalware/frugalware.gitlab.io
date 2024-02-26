@@ -15,7 +15,8 @@ depends = "['cyrus-sasl', 'icu4c>=74.1', 'libstdc++', 'openssl>=3.1.0', 'python3
 +++
 An IRC bouncer with modules and scripts support.
 
-{{< files text="show files" >}}* /usr/bin/znc
+## Files: 
+* /usr/bin/znc
 * /usr/bin/znc-buildmod
 * /usr/include/znc/Buffer.h
 * /usr/include/znc/Chan.h
@@ -201,4 +202,3 @@ An IRC bouncer with modules and scripts support.
 * /usr/share/znc/webskins/_default_/tmpl/MessageBar.tmpl
 * /usr/share/znc/webskins/_default_/tmpl/Options.tmpl
 * /usr/share/znc/webskins/_default_/tmpl/_csrf_check.tmpl
-{{< /files >}}

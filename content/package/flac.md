@@ -16,7 +16,8 @@ reverse_depends = "['audiocd-kio', 'chromium-browser', 'efl', 'enlightenment', '
 +++
 Free Lossless Audio Coder
 
-{{< files text="show files" >}}* /usr/bin/flac
+## Files: 
+* /usr/bin/flac
 * /usr/bin/metaflac
 * /usr/include/FLAC++/all.h
 * /usr/include/FLAC++/decoder.h
@@ -297,4 +298,3 @@ Free Lossless Audio Coder
 * /usr/share/doc/flac-1.4.3/README.md
 * /usr/share/man/man1/flac.1.gz
 * /usr/share/man/man1/metaflac.1.gz
-{{< /files >}}

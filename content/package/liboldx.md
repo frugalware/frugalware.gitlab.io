@@ -16,11 +16,11 @@ license = "GPL2"
 +++
 X.Org oldX library
 
-{{< files text="show files" >}}* /usr/include/X11/X10.h
+## Files: 
+* /usr/include/X11/X10.h
 * /usr/lib/liboldX.so
 * /usr/lib/liboldX.so.6
 * /usr/lib/liboldX.so.6.0.0
 * /usr/lib/pkgconfig/oldx.pc
 * /usr/share/doc/liboldx-1.0.1/ChangeLog
 * /usr/share/doc/liboldx-1.0.1/COPYING
-{{< /files >}}

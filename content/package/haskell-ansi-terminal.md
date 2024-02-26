@@ -16,7 +16,8 @@ reverse_depends = "['haskell-prettyprinter-ansi-terminal', 'haskell-skylighting-
 +++
 Simple ANSI terminal support, with Windows compatibility
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/ansi-terminal-1.0/libHSansi-terminal-1.0-8JbR9KkmKIsLouLsATdWUr.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/ansi-terminal-1.0/libHSansi-terminal-1.0-8JbR9KkmKIsLouLsATdWUr.a
 * /usr/lib/ghc-9.8.1/site-local/ansi-terminal-1.0/System/Console/ANSI.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/ansi-terminal-1.0/System/Console/ANSI.hi
 * /usr/lib/ghc-9.8.1/site-local/ansi-terminal-1.0/System/Console/ANSI/Codes.dyn_hi
@@ -41,4 +42,3 @@ Simple ANSI terminal support, with Windows compatibility
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/ansi-terminal-1.0/LICENSE
 * /usr/share/haskell/haskell-ansi-terminal/register.sh
 * /usr/share/haskell/haskell-ansi-terminal/unregister.sh
-{{< /files >}}

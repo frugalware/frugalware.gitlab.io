@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 Checkpoint/Restore in Userspace tool
 
-{{< files text="show files" >}}* /usr/bin/compel
+## Files: 
+* /usr/bin/compel
 * /usr/bin/crit
 * /usr/bin/criu
 * /usr/bin/criu-ns
@@ -91,4 +92,3 @@ Checkpoint/Restore in Userspace tool
 * /usr/share/man/man1/criu-amdgpu-plugin.1.gz
 * /usr/share/man/man1/criu-ns.1.gz
 * /usr/share/man/man8/criu.8.gz
-{{< /files >}}

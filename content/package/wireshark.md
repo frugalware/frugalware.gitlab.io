@@ -16,7 +16,8 @@ reverse_depends = "['wireshark-qt']"
 +++
 The world's most popular network protocol analyzer.
 
-{{< files text="show files" >}}* /usr/bin/capinfos
+## Files: 
+* /usr/bin/capinfos
 * /usr/bin/captype
 * /usr/bin/dumpcap
 * /usr/bin/editcap
@@ -999,4 +1000,3 @@ The world's most popular network protocol analyzer.
 * /usr/share/wireshark/wimaxasncp/dictionary.xml
 * /usr/share/wireshark/wka
 * /usr/share/wireshark/ws.css
-{{< /files >}}

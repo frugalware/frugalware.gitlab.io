@@ -16,7 +16,8 @@ reverse_depends = "['calibre', 'pyqt6webengine', 'yin-yang']"
 +++
 PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit.
 
-{{< files text="show files" >}}* /usr/bin/pylupdate6
+## Files: 
+* /usr/bin/pylupdate6
 * /usr/bin/pyuic6
 * /usr/lib/python3.12/site-packages/dbus/mainloop/pyqt6.abi3.so
 * /usr/lib/python3.12/site-packages/PyQt6-6.6.0.dist-info/INSTALLER
@@ -855,4 +856,3 @@ PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit.
 * /usr/share/doc/pyqt6-6.6.0/NEWS
 * /usr/share/doc/pyqt6-6.6.0/README
 * /usr/share/qt6/qsci/api/python/PyQt6.api
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['curl>=7.50.0-2', 'libjpeg-turbo', 'libpng>=1.6.25', 'libxscrnsaver>
 +++
 Xine multimedia playback engine user interface
 
-{{< files text="show files" >}}* /usr/bin/aaxine
+## Files: 
+* /usr/bin/aaxine
 * /usr/bin/cacaxine
 * /usr/bin/fbxine
 * /usr/bin/xine
@@ -150,4 +151,3 @@ Xine multimedia playback engine user interface
 * /usr/share/xine/skins/xine_64.png
 * /usr/share/xine/skins/xine_splash.png
 * /usr/share/xine/visuals/default.mpv
-{{< /files >}}

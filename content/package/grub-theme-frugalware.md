@@ -16,6 +16,6 @@ reverse_depends = "['grub2']"
 +++
 Frugalware theme for GNU GRand Unified Bootloader
 
-{{< files text="show files" >}}* /boot/grub/background.png
+## Files: 
+* /boot/grub/background.png
 * /etc/grub.d/05_theme
-{{< /files >}}

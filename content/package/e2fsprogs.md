@@ -16,7 +16,8 @@ reverse_depends = "['aide', 'btrfs-progs', 'cyrus-sasl', 'cyrus-sasl-sql', 'dove
 +++
 Utilities needed to create and maintain ext2 and ext3 filesystems
 
-{{< files text="show files" >}}* /etc/e2scrub.conf
+## Files: 
+* /etc/e2scrub.conf
 * /etc/mke2fs.conf
 * /usr/bin/badblocks
 * /usr/bin/chattr
@@ -146,4 +147,3 @@ Utilities needed to create and maintain ext2 and ext3 filesystems
 * /usr/share/man/man8/tune2fs.8.gz
 * /usr/share/ss/ct_c.awk
 * /usr/share/ss/ct_c.sed
-{{< /files >}}

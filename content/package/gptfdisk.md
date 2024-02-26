@@ -15,7 +15,8 @@ depends = "['libstdc++>=11.3', 'libuuid>=2.31.1-3', 'ncurses>=6.1', 'popt>=1.16-
 +++
 A clone of fdisk that works on GPT disks instead of MBR disks.
 
-{{< files text="show files" >}}* /usr/bin/cgdisk
+## Files: 
+* /usr/bin/cgdisk
 * /usr/bin/fixparts
 * /usr/bin/gdisk
 * /usr/bin/sgdisk
@@ -26,4 +27,3 @@ A clone of fdisk that works on GPT disks instead of MBR disks.
 * /usr/share/man/man8/fixparts.8.gz
 * /usr/share/man/man8/gdisk.8.gz
 * /usr/share/man/man8/sgdisk.8.gz
-{{< /files >}}

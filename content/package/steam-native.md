@@ -15,6 +15,6 @@ depends = "['get_steam', 'lib32-cairo', 'lib32-curl', 'lib32-dbus-glib', 'lib32-
 +++
 Native replacement for the Steam runtime
 
-{{< files text="show files" >}}* /usr/bin/steam-native
+## Files: 
+* /usr/bin/steam-native
 * /usr/share/applications/steam-native.desktop
-{{< /files >}}

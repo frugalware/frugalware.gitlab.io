@@ -16,7 +16,8 @@ reverse_depends = "['python3-poetry']"
 +++
 Poetry PEP 517 Build Backend & Core Utilities
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/poetry/core/constraints/generic/any_constraint.py
+## Files: 
+* /usr/lib/python3.12/site-packages/poetry/core/constraints/generic/any_constraint.py
 * /usr/lib/python3.12/site-packages/poetry/core/constraints/generic/base_constraint.py
 * /usr/lib/python3.12/site-packages/poetry/core/constraints/generic/constraint.py
 * /usr/lib/python3.12/site-packages/poetry/core/constraints/generic/empty_constraint.py
@@ -464,4 +465,3 @@ Poetry PEP 517 Build Backend & Core Utilities
 * /usr/lib/python3.12/site-packages/poetry_core-1.8.1.dist-info/WHEEL
 * /usr/share/doc/python3-poetry-core-1.8.1/LICENSE
 * /usr/share/doc/python3-poetry-core-1.8.1/README.md
-{{< /files >}}

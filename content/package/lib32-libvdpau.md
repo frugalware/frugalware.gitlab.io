@@ -16,7 +16,8 @@ reverse_depends = "['lib32-ffmpeg']"
 +++
 VDPAU wrapper library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/vdpau/vdpau.h
+## Files: 
+* /usr/i686-frugalware-linux/include/vdpau/vdpau.h
 * /usr/i686-frugalware-linux/include/vdpau/vdpau_x11.h
 * /usr/lib32/libvdpau.so
 * /usr/lib32/libvdpau.so.1
@@ -25,4 +26,3 @@ VDPAU wrapper library ( 32bit )
 * /usr/lib32/vdpau/libvdpau_trace.so
 * /usr/lib32/vdpau/libvdpau_trace.so.1
 * /usr/lib32/vdpau/libvdpau_trace.so.1.0.0
-{{< /files >}}

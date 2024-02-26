@@ -15,7 +15,8 @@ depends = "['curl', 'libevent', 'libseafile', 'libwebsockets', 'sqlite3']"
 +++
 File syncing and sharing software with file encryption and group sharing, emphasis on reliability and high performance.
 
-{{< files text="show files" >}}* /usr/bin/seaf-cli
+## Files: 
+* /usr/bin/seaf-cli
 * /usr/bin/seaf-daemon
 * /usr/lib/python3.12/site-packages/seafile/rpcclient.py
 * /usr/lib/python3.12/site-packages/seafile/__init__.py
@@ -26,4 +27,3 @@ File syncing and sharing software with file encryption and group sharing, emphas
 * /usr/share/doc/seafile-9.0.4/README.markdown
 * /usr/share/man/man1/seaf-cli.1.gz
 * /usr/share/man/man1/seaf-daemon.1.gz
-{{< /files >}}

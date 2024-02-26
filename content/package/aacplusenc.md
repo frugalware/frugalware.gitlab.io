@@ -15,7 +15,7 @@ depends = "['fftw']"
 +++
 An AAC+ encoder which outputs raw AAC
 
-{{< files text="show files" >}}* /usr/bin/aacplusenc
+## Files: 
+* /usr/bin/aacplusenc
 * /usr/share/doc/aacplusenc-0.17.5/CHANGELOG
 * /usr/share/doc/aacplusenc-0.17.5/COPYRIGHT
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "['pinentry>=1.2.1', 'qt5-base>=5.15.10']"
 +++
 Qt5 based Applications for entering PINs or Passphrases.
 
-{{< files text="show files" >}}* /usr/bin/pinentry-qt
-{{< /files >}}
+## Files: 
+* /usr/bin/pinentry-qt

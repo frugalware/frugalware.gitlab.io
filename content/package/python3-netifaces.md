@@ -16,7 +16,8 @@ reverse_depends = "['python3-zeroconf']"
 +++
 Portable module to access network interface information in Python3.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/netifaces-0.11.0-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/netifaces-0.11.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/netifaces-0.11.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/netifaces-0.11.0-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/netifaces-0.11.0-py3.12.egg-info/top_level.txt
@@ -24,4 +25,3 @@ Portable module to access network interface information in Python3.
 * /usr/lib/python3.12/site-packages/netifaces.cpython-312-x86_64-linux-gnu.so
 * /usr/share/doc/python3-netifaces-0.11.0/LICENSE
 * /usr/share/doc/python3-netifaces-0.11.0/README.rst
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['perl>=5.28.2']"
 +++
 Monitors the status of mirrors.
 
-{{< files text="show files" >}}* /usr/share/doc/mirmon-2.11/INSTALL
+## Files: 
+* /usr/share/doc/mirmon-2.11/INSTALL
 * /usr/share/doc/mirmon-2.11/LICENSE
 * /usr/share/doc/mirmon-2.11/RELEASE-NOTES
 * /usr/share/doc/mirmon-2.11/VERSION
@@ -139,4 +140,3 @@ Monitors the status of mirrors.
 * /var/www/mirmon/probe
 * /var/www/mirmon/RELEASE-NOTES
 * /var/www/mirmon/VERSION
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['kicad']"
 +++
 Ngspice is a mixed-level/mixed-signal circuit simulator.
 
-{{< files text="show files" >}}* /usr/include/ngspice/sharedspice.h
+## Files: 
+* /usr/include/ngspice/sharedspice.h
 * /usr/lib/libngspice.so
 * /usr/lib/libngspice.so.0
 * /usr/lib/libngspice.so.0.0.6
@@ -37,4 +38,3 @@ Ngspice is a mixed-level/mixed-signal circuit simulator.
 * /usr/share/ngspice/scripts/setplot
 * /usr/share/ngspice/scripts/spectrum
 * /usr/share/ngspice/scripts/spinit
-{{< /files >}}

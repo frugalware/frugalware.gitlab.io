@@ -15,7 +15,8 @@ depends = "['glibc>=2.24-4', 'libglapi']"
 +++
 Mesa OpenGL ES1/ES2 libraries.
 
-{{< files text="show files" >}}* /usr/include/GLES/egl.h
+## Files: 
+* /usr/include/GLES/egl.h
 * /usr/include/GLES/gl.h
 * /usr/include/GLES/glext.h
 * /usr/include/GLES/glplatform.h
@@ -37,4 +38,3 @@ Mesa OpenGL ES1/ES2 libraries.
 * /usr/lib/libGLESv2.so.2.0.0
 * /usr/lib/pkgconfig/glesv1_cm.pc
 * /usr/lib/pkgconfig/glesv2.pc
-{{< /files >}}

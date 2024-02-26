@@ -15,7 +15,8 @@ depends = "['bluez-qt>=5.115.0', 'plasma-workspace>=5.27.10']"
 +++
 KDE power management tools.
 
-{{< files text="show files" >}}* /etc/xdg/autostart/powerdevil.desktop
+## Files: 
+* /etc/xdg/autostart/powerdevil.desktop
 * /usr/lib/kf5/kauth/backlighthelper
 * /usr/lib/kf5/kauth/chargethresholdhelper
 * /usr/lib/kf5/kauth/discretegpuhelper
@@ -416,4 +417,3 @@ KDE power management tools.
 * /usr/share/polkit-1/actions/org.kde.powerdevil.chargethresholdhelper.policy
 * /usr/share/polkit-1/actions/org.kde.powerdevil.discretegpuhelper.policy
 * /usr/share/qlogging-categories5/powerdevil.categories
-{{< /files >}}

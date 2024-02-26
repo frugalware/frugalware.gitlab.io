@@ -16,7 +16,8 @@ reverse_depends = "['darktable', 'inkscape']"
 +++
 A collection of tools and libraries for many image formats
 
-{{< files text="show files" >}}* /usr/bin/gm
+## Files: 
+* /usr/bin/gm
 * /usr/bin/GraphicsMagick++-config
 * /usr/bin/GraphicsMagick-config
 * /usr/bin/GraphicsMagickWand-config
@@ -250,4 +251,3 @@ A collection of tools and libraries for many image formats
 * /usr/share/man/man1/GraphicsMagickWand-config.1.gz
 * /usr/share/man/man4/miff.4.gz
 * /usr/share/man/man5/quantize.5.gz
-{{< /files >}}

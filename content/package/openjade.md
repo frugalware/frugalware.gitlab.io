@@ -16,7 +16,8 @@ reverse_depends = "['docbook-utils', 'gtk-doc']"
 +++
 James' DSSSL Engine
 
-{{< files text="show files" >}}* /usr/bin/jade
+## Files: 
+* /usr/bin/jade
 * /usr/bin/openjade
 * /usr/lib/libgrove.so
 * /usr/lib/libogrove.so
@@ -44,4 +45,3 @@ James' DSSSL Engine
 * /usr/share/sgml/openjade-1.3.2/extensions.dsl
 * /usr/share/sgml/openjade-1.3.2/fot.dtd
 * /usr/share/sgml/openjade-1.3.2/style-sheet.dtd
-{{< /files >}}

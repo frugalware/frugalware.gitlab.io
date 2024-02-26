@@ -16,7 +16,8 @@ reverse_depends = "['lilv', 'qtractor', 'sratom']"
 +++
 LV2 is a plugin standard for audio system.
 
-{{< files text="show files" >}}* /usr/bin/lv2_validate
+## Files: 
+* /usr/bin/lv2_validate
 * /usr/include/lv2.h
 * /usr/include/lv2/atom/atom.h
 * /usr/include/lv2/atom/forge.h
@@ -183,4 +184,3 @@ LV2 is a plugin standard for audio system.
 * /usr/share/doc/lv2-1.18.10/INSTALL.md
 * /usr/share/doc/lv2-1.18.10/NEWS
 * /usr/share/doc/lv2-1.18.10/README.md
-{{< /files >}}

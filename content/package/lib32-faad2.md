@@ -16,7 +16,8 @@ reverse_depends = "['lib32-ffmpeg']"
 +++
 ISO AAC audio decoder ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/faad
+## Files: 
+* /usr/i686-frugalware-linux/bin/faad
 * /usr/i686-frugalware-linux/include/faad.h
 * /usr/i686-frugalware-linux/include/neaacdec.h
 * /usr/lib32/libfaad.so
@@ -25,4 +26,3 @@ ISO AAC audio decoder ( 32bit )
 * /usr/lib32/libfaad_drm.so
 * /usr/lib32/libfaad_drm.so.2
 * /usr/lib32/libfaad_drm.so.2.0.0
-{{< /files >}}

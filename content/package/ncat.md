@@ -16,9 +16,9 @@ reverse_depends = "['nmap']"
 +++
 Ncat is a feature-packed networking utility which reads and writes data across networks
 
-{{< files text="show files" >}}* /usr/bin/nc
+## Files: 
+* /usr/bin/nc
 * /usr/bin/ncat
 * /usr/bin/netcat
 * /usr/share/man/man1/ncat.1.gz
 * /usr/share/man/man1/netcat.1.gz
-{{< /files >}}

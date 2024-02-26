@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Arabic support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/ar/default.css
+## Files: 
+* /usr/lib/libreoffice/help/ar/default.css
 * /usr/lib/libreoffice/help/ar/err.html
 * /usr/lib/libreoffice/help/ar/highcontrast1.css
 * /usr/lib/libreoffice/help/ar/highcontrast2.css
@@ -134,4 +135,3 @@ Installs Arabic support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-ar.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_ar.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_ar.xcd
-{{< /files >}}

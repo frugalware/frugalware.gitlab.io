@@ -16,7 +16,8 @@ reverse_depends = "['libreoffice']"
 +++
 A library that parses the file format of QuarkXPress documents.
 
-{{< files text="show files" >}}* /usr/bin/qxp2raw
+## Files: 
+* /usr/bin/qxp2raw
 * /usr/bin/qxp2svg
 * /usr/bin/qxp2text
 * /usr/include/libqxp-0.0/libqxp/libqxp.h
@@ -33,4 +34,3 @@ A library that parses the file format of QuarkXPress documents.
 * /usr/share/doc/libqxp-0.0.2/NEWS
 * /usr/share/doc/libqxp-0.0.2/README
 * /usr/share/doc/libqxp-0.0.2/TODO
-{{< /files >}}

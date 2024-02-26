@@ -16,9 +16,9 @@ reverse_depends = "['spamassassin']"
 +++
 Perl extension for lookup the username on the remote end of a TCP/IP connection
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/Net/Ident.pm
+## Files: 
+* /usr/lib/perl5/site_perl/current/Net/Ident.pm
 * /usr/share/doc/perl-net-ident-1.25/INSTALL
 * /usr/share/doc/perl-net-ident-1.25/MANIFEST
 * /usr/share/doc/perl-net-ident-1.25/README.md
 * /usr/share/man/man3/Net::Ident.3perl.gz
-{{< /files >}}

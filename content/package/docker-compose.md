@@ -15,8 +15,8 @@ depends = "['docker', 'glibc>=2.35']"
 +++
 Fast, isolated development environments using Docker
 
-{{< files text="show files" >}}* /usr/bin/docker-compose
+## Files: 
+* /usr/bin/docker-compose
 * /usr/lib/docker/cli-plugins/docker-compose
 * /usr/share/doc/docker-compose-2.24.5/LICENSE
 * /usr/share/doc/docker-compose-2.24.5/README.md
-{{< /files >}}

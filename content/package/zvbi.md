@@ -17,7 +17,8 @@ license = "GPL"
 +++
 Raw VBI, Teletext and Closed Caption decoding library
 
-{{< files text="show files" >}}* /usr/bin/zvbi-atsc-cc
+## Files: 
+* /usr/bin/zvbi-atsc-cc
 * /usr/bin/zvbi-chains
 * /usr/bin/zvbi-ntsc-cc
 * /usr/bin/zvbid
@@ -50,4 +51,3 @@ Raw VBI, Teletext and Closed Caption decoding library
 * /usr/share/man/man1/zvbi-chains.1.gz
 * /usr/share/man/man1/zvbi-ntsc-cc.1.gz
 * /usr/share/man/man1/zvbid.1.gz
-{{< /files >}}

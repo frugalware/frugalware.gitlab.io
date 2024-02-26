@@ -16,10 +16,10 @@ reverse_depends = "['mutt-devel', 'thunderbird']"
 +++
 Helper application and MIME type associations for file types
 
-{{< files text="show files" >}}* /etc/mailcap
+## Files: 
+* /etc/mailcap
 * /etc/mime.types
 * /etc/nginx/mime.types
 * /usr/share/doc/mailcap-2.1.54/COPYING
 * /usr/share/doc/mailcap-2.1.54/NEWS
 * /usr/share/man/man5/mailcap.5.gz
-{{< /files >}}

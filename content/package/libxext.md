@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 Misc X Extension Library
 
-{{< files text="show files" >}}* /usr/include/X11/extensions/dpms.h
+## Files: 
+* /usr/include/X11/extensions/dpms.h
 * /usr/include/X11/extensions/extutil.h
 * /usr/include/X11/extensions/MITMisc.h
 * /usr/include/X11/extensions/multibuf.h
@@ -108,4 +109,3 @@ Misc X Extension Library
 * /usr/share/man/man3/XShmPutImage.3.gz
 * /usr/share/man/man3/XShmQueryExtension.3.gz
 * /usr/share/man/man3/XShmQueryVersion.3.gz
-{{< /files >}}

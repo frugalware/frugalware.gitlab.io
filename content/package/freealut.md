@@ -16,7 +16,8 @@ reverse_depends = "['flightgear']"
 +++
 OpenAL Utility Toolkit
 
-{{< files text="show files" >}}* /usr/bin/freealut-config
+## Files: 
+* /usr/bin/freealut-config
 * /usr/include/AL/alut.h
 * /usr/lib/libalut.so
 * /usr/lib/libalut.so.0
@@ -29,4 +30,3 @@ OpenAL Utility Toolkit
 * /usr/share/doc/freealut-1.1.0/NEWS
 * /usr/share/doc/freealut-1.1.0/README
 * /usr/share/doc/freealut-1.1.0/README.md
-{{< /files >}}

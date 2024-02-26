@@ -16,7 +16,8 @@ reverse_depends = "['html5lib-python']"
 +++
 A Python implementation of the WHATWG Encoding standard.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/webencodings-0.5.1-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/webencodings-0.5.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/webencodings-0.5.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/webencodings-0.5.1-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/webencodings-0.5.1-py3.12.egg-info/top_level.txt
@@ -31,4 +32,3 @@ A Python implementation of the WHATWG Encoding standard.
 * /usr/lib/python3.12/site-packages/webencodings/__pycache__/x_user_defined.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/webencodings/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-webencodings-0.5.1/README.rst
-{{< /files >}}

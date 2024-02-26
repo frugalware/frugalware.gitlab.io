@@ -16,7 +16,8 @@ reverse_depends = "['freecell-solver', 'libguestfs', 'webkit-gtk3']"
 +++
 A perfect hash function generator.
 
-{{< files text="show files" >}}* /usr/bin/gperf
+## Files: 
+* /usr/bin/gperf
 * /usr/share/doc/gperf-3.1/AUTHORS
 * /usr/share/doc/gperf-3.1/ChangeLog
 * /usr/share/doc/gperf-3.1/COPYING
@@ -28,4 +29,3 @@ A perfect hash function generator.
 * /usr/share/doc/gperf-3.1/README.windows
 * /usr/share/info/gperf.info.gz
 * /usr/share/man/man1/gperf.1.gz
-{{< /files >}}

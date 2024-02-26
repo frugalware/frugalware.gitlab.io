@@ -16,7 +16,8 @@ reverse_depends = "['perl-datetime-locale']"
 +++
 Provide the stuff missing in List::Util
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/List/MoreUtils.pm
+## Files: 
+* /usr/lib/perl5/site_perl/current/List/MoreUtils.pm
 * /usr/lib/perl5/site_perl/current/List/MoreUtils/Contributing.pod
 * /usr/lib/perl5/site_perl/current/List/MoreUtils/PP.pm
 * /usr/share/doc/perl-list-moreutils-0.430/LICENSE
@@ -25,4 +26,3 @@ Provide the stuff missing in List::Util
 * /usr/share/man/man3/List::MoreUtils.3perl.gz
 * /usr/share/man/man3/List::MoreUtils::Contributing.3perl.gz
 * /usr/share/man/man3/List::MoreUtils::PP.3perl.gz
-{{< /files >}}

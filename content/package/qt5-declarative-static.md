@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Qt5 declarative static libs.
 
-{{< files text="show files" >}}* /usr/lib/libQt5PacketProtocol.a
+## Files: 
+* /usr/lib/libQt5PacketProtocol.a
 * /usr/lib/libQt5PacketProtocol.la
 * /usr/lib/libQt5PacketProtocol.prl
 * /usr/lib/libQt5QmlDebug.a
@@ -24,4 +25,3 @@ Qt5 declarative static libs.
 * /usr/lib/libQt5QmlDevTools.a
 * /usr/lib/libQt5QmlDevTools.la
 * /usr/lib/libQt5QmlDevTools.prl
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['groff', 'libgc', 'libpaper', 'psutils', 'psutils', 'texinfo', 'urw-
 +++
 An Any to PostScript filter
 
-{{< files text="show files" >}}* /etc/a2ps-site.cfg
+## Files: 
+* /etc/a2ps-site.cfg
 * /etc/a2ps.cfg
 * /usr/bin/a2ps
 * /usr/bin/a2ps-lpr-wrapper
@@ -365,4 +366,3 @@ An Any to PostScript filter
 * /usr/share/ogonkify/ptmr-o.ps
 * /usr/share/ogonkify/ptmri-o.ps
 * /usr/share/ogonkify/README
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['chromium-browser', 'julia', 'libdex', 'mlt', 'ogre', 'webki
 +++
 Atomic libraries from GCC
 
-{{< files text="show files" >}}* /usr/lib/libatomic.a
+## Files: 
+* /usr/lib/libatomic.a
 * /usr/lib/libatomic.so
 * /usr/lib/libatomic.so.1
 * /usr/lib/libatomic.so.1.2.0
@@ -24,4 +25,3 @@ Atomic libraries from GCC
 * /usr/lib32/libatomic.so
 * /usr/lib32/libatomic.so.1
 * /usr/lib32/libatomic.so.1.2.0
-{{< /files >}}

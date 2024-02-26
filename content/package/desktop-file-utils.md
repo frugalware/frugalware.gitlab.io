@@ -16,7 +16,8 @@ reverse_depends = "['distcc-gui', 'firefox', 'get_steam', 'keepass', 'libreoffic
 +++
 Utilities for manipulating desktop files
 
-{{< files text="show files" >}}* /usr/bin/desktop-file-edit
+## Files: 
+* /usr/bin/desktop-file-edit
 * /usr/bin/desktop-file-install
 * /usr/bin/desktop-file-validate
 * /usr/bin/update-desktop-database
@@ -31,4 +32,3 @@ Utilities for manipulating desktop files
 * /usr/share/man/man1/desktop-file-install.1.gz
 * /usr/share/man/man1/desktop-file-validate.1.gz
 * /usr/share/man/man1/update-desktop-database.1.gz
-{{< /files >}}

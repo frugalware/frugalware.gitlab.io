@@ -16,7 +16,8 @@ reverse_depends = "['haskell-servant']"
 +++
 Type level booleans
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/singleton-bool-0.1.7/Data/Singletons/Bool.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/singleton-bool-0.1.7/Data/Singletons/Bool.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/singleton-bool-0.1.7/Data/Singletons/Bool.hi
 * /usr/lib/ghc-9.8.1/site-local/singleton-bool-0.1.7/libHSsingleton-bool-0.1.7-BfZrpLhDBCG7luCeK8md9g.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSsingleton-bool-0.1.7-BfZrpLhDBCG7luCeK8md9g-ghc9.8.1.so
@@ -35,4 +36,3 @@ Type level booleans
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/singleton-bool-0.1.7/LICENSE
 * /usr/share/haskell/haskell-singleton-bool/register.sh
 * /usr/share/haskell/haskell-singleton-bool/unregister.sh
-{{< /files >}}

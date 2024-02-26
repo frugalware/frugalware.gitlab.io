@@ -16,10 +16,10 @@ reverse_depends = "['fwupd']"
 +++
 EFI Application used by uefi-capsule plugin in fwupd
 
-{{< files text="show files" >}}* /usr/lib/fwupd/efi/fwupdx64.efi
+## Files: 
+* /usr/lib/fwupd/efi/fwupdx64.efi
 * /usr/lib/pkgconfig/fwupd-efi.pc
 * /usr/share/doc/fwupd-efi-1.4/AUTHORS
 * /usr/share/doc/fwupd-efi-1.4/COPYING
 * /usr/share/doc/fwupd-efi-1.4/README.md
 * /usr/share/doc/fwupd-efi-1.4/RELEASE
-{{< /files >}}

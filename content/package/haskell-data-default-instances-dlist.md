@@ -16,7 +16,8 @@ reverse_depends = "['haskell-data-default']"
 +++
 Default instances for types in dlist.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/data-default-instances-dlist-0.0.1/Data/Default/Instances/DList.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/data-default-instances-dlist-0.0.1/Data/Default/Instances/DList.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/data-default-instances-dlist-0.0.1/Data/Default/Instances/DList.hi
 * /usr/lib/ghc-9.8.1/site-local/data-default-instances-dlist-0.0.1/libHSdata-default-instances-dlist-0.0.1-27CUSGUFYirEC5wWIxVKJw.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSdata-default-instances-dlist-0.0.1-27CUSGUFYirEC5wWIxVKJw-ghc9.8.1.so
@@ -33,4 +34,3 @@ Default instances for types in dlist.
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/data-default-instances-dlist-0.0.1/LICENSE
 * /usr/share/haskell/haskell-data-default-instances-dlist/register.sh
 * /usr/share/haskell/haskell-data-default-instances-dlist/unregister.sh
-{{< /files >}}

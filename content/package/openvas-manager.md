@@ -16,7 +16,8 @@ reverse_depends = "['openvas-cli']"
 +++
 OpenVAS manager.
 
-{{< files text="show files" >}}* /etc/gvm/gvmd_log.conf
+## Files: 
+* /etc/gvm/gvmd_log.conf
 * /etc/gvm/pwpolicy.conf
 * /etc/logrotate.d/gvmd
 * /usr/bin/gvm-manage-certs
@@ -67,4 +68,3 @@ OpenVAS manager.
 * /usr/share/gvm/scap/cve_getbyname.xsl
 * /usr/share/man/man1/gvm-manage-certs.1.gz
 * /usr/share/man/man8/gvmd.8.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['protobuf', 're2', 'telegram-desktop', 'webrtc-audio-process
 +++
 Abseil Common Libraries (C++)
 
-{{< files text="show files" >}}* /usr/include/absl/algorithm/algorithm.h
+## Files: 
+* /usr/include/absl/algorithm/algorithm.h
 * /usr/include/absl/algorithm/container.h
 * /usr/include/absl/base/attributes.h
 * /usr/include/absl/base/call_once.h
@@ -755,4 +756,3 @@ Abseil Common Libraries (C++)
 * /usr/share/doc/abseil-cpp-20240116.1/FAQ.md
 * /usr/share/doc/abseil-cpp-20240116.1/LICENSE
 * /usr/share/doc/abseil-cpp-20240116.1/README.md
-{{< /files >}}

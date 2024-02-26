@@ -16,7 +16,8 @@ reverse_depends = "['gvim']"
 +++
 VIM - Vi IMproved console
 
-{{< files text="show files" >}}* /usr/bin/ex
+## Files: 
+* /usr/bin/ex
 * /usr/bin/rview
 * /usr/bin/rvim
 * /usr/bin/vi
@@ -2242,4 +2243,3 @@ VIM - Vi IMproved console
 * /usr/share/vim/tutor/tutor.zh_tw.utf-8
 * /usr/share/vim/vimrc
 * /usr/share/vim/vimrc_example.vim
-{{< /files >}}

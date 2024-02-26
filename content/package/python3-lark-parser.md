@@ -16,7 +16,8 @@ reverse_depends = "['python3-poetry-core']"
 +++
 A modern parsing library
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/lark-1.1.8.dist-info/entry_points.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/lark-1.1.8.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/lark-1.1.8.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/lark-1.1.8.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/lark-1.1.8.dist-info/RECORD
@@ -134,4 +135,3 @@ A modern parsing library
 * /usr/lib/python3.12/site-packages/lark/__pyinstaller/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-lark-parser-1.1.8/LICENSE
 * /usr/share/doc/python3-lark-parser-1.1.8/README.md
-{{< /files >}}

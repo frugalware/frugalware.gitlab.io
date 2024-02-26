@@ -16,7 +16,8 @@ reverse_depends = "['libopenraw-gnome']"
 +++
 Free software implementation for camera RAW files decoding
 
-{{< files text="show files" >}}* /usr/include/libopenraw-0.3/libopenraw/bitmapdata.h
+## Files: 
+* /usr/include/libopenraw-0.3/libopenraw/bitmapdata.h
 * /usr/include/libopenraw-0.3/libopenraw/cameraids.h
 * /usr/include/libopenraw-0.3/libopenraw/consts.h
 * /usr/include/libopenraw-0.3/libopenraw/debug.h
@@ -44,4 +45,3 @@ Free software implementation for camera RAW files decoding
 * /usr/share/doc/libopenraw-0.3.4/README
 * /usr/share/doc/libopenraw-0.3.4/RELEASE_NOTES
 * /usr/share/doc/libopenraw-0.3.4/TODO
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['openvas-manager', 'openvas-scanner']"
 +++
 OpenVAS libraries.
 
-{{< files text="show files" >}}* /usr/include/gvm/base/array.h
+## Files: 
+* /usr/include/gvm/base/array.h
 * /usr/include/gvm/base/credentials.h
 * /usr/include/gvm/base/cvss.h
 * /usr/include/gvm/base/drop_privileges.h
@@ -79,4 +80,3 @@ OpenVAS libraries.
 * /usr/share/doc/openvas-libraries-22.8.0/COPYING
 * /usr/share/doc/openvas-libraries-22.8.0/INSTALL.md
 * /usr/share/doc/openvas-libraries-22.8.0/README.md
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['aspell>=0.60']"
 +++
 GNU Aspell 0.60 English Dictionary Package
 
-{{< files text="show files" >}}* /usr/lib/aspell-0.60/american-variant_0.alias
+## Files: 
+* /usr/lib/aspell-0.60/american-variant_0.alias
 * /usr/lib/aspell-0.60/american-variant_1.alias
 * /usr/lib/aspell-0.60/american-wo_accents.alias
 * /usr/lib/aspell-0.60/american-w_accents.alias
@@ -106,4 +107,3 @@ GNU Aspell 0.60 English Dictionary Package
 * /usr/lib/aspell-0.60/en_US.multi
 * /usr/share/doc/aspell6-en-2020.12.07r0/README
 * /usr/share/doc/aspell6-en-2020.12.07r0/README.iso
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['gtk+3>=3.18.6-2', 'json-glib>=1.0.4-3', 'libffi>=3.2.1', 'libpng>=1
 +++
 Zeitgeist Framework
 
-{{< files text="show files" >}}* /etc/xdg/autostart/zeitgeist-datahub.desktop
+## Files: 
+* /etc/xdg/autostart/zeitgeist-datahub.desktop
 * /usr/bin/zeitgeist-daemon
 * /usr/bin/zeitgeist-datahub
 * /usr/include/zeitgeist-2.0/zeitgeist-datamodel.h
@@ -68,4 +69,3 @@ Zeitgeist Framework
 * /usr/share/zeitgeist/ontology/nmm.trig
 * /usr/share/zeitgeist/ontology/nmo.trig
 * /usr/share/zeitgeist/ontology/zg.trig
-{{< /files >}}

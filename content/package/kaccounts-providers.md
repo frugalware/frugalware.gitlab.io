@@ -15,7 +15,8 @@ depends = "['kaccounts-integration>=23.08.5', 'qt5-svg>=5.15.12', 'qt5-webengine
 +++
 Small system to administer web accounts for the sites and services across the KDE desktop, including: Google, Facebook, Owncloud, IMAP, Jabber and others
 
-{{< files text="show files" >}}* /etc/signon-ui/webkit-options.d/accounts.google.com.conf
+## Files: 
+* /etc/signon-ui/webkit-options.d/accounts.google.com.conf
 * /etc/signon-ui/webkit-options.d/api.twitter.com.conf
 * /etc/signon-ui/webkit-options.d/identi.ca.conf
 * /etc/signon-ui/webkit-options.d/www.facebook.com.conf
@@ -86,4 +87,3 @@ Small system to administer web accounts for the sites and services across the KD
 * /usr/share/locale/zh_TW/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/metainfo/org.kde.kaccounts.nextcloud.appdata.xml
 * /usr/share/metainfo/org.kde.kaccounts.owncloud.appdata.xml
-{{< /files >}}

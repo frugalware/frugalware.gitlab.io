@@ -16,7 +16,8 @@ reverse_depends = "['exiv2', 'gamemode', 'xfsprogs']"
 +++
 Simple .INI file parser in C, good for embedded systems
 
-{{< files text="show files" >}}* /usr/include/ini.h
+## Files: 
+* /usr/include/ini.h
 * /usr/include/INIReader.h
 * /usr/lib/libinih.so
 * /usr/lib/libinih.so.0
@@ -25,4 +26,3 @@ Simple .INI file parser in C, good for embedded systems
 * /usr/lib/pkgconfig/inih.pc
 * /usr/lib/pkgconfig/INIReader.pc
 * /usr/share/doc/inih-r58/README.md
-{{< /files >}}

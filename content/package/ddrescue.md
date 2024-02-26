@@ -15,7 +15,8 @@ depends = "['libstdc++']"
 +++
 GNU ddrescue is a data recovery tool
 
-{{< files text="show files" >}}* /usr/bin/ddrescue
+## Files: 
+* /usr/bin/ddrescue
 * /usr/bin/ddrescuelog
 * /usr/share/doc/ddrescue-1.24/AUTHORS
 * /usr/share/doc/ddrescue-1.24/ChangeLog
@@ -26,4 +27,3 @@ GNU ddrescue is a data recovery tool
 * /usr/share/info/ddrescue.info.gz
 * /usr/share/man/man1/ddrescue.1.gz
 * /usr/share/man/man1/ddrescuelog.1.gz
-{{< /files >}}

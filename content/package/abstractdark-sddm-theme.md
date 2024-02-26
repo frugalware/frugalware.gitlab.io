@@ -15,7 +15,8 @@ depends = "['glibc', 'sddm']"
 +++
 Abstract Dark theme for SDDM
 
-{{< files text="show files" >}}* /usr/share/doc/abstractdark-sddm-theme-0.1.0.ge817d4b/LICENSE
+## Files: 
+* /usr/share/doc/abstractdark-sddm-theme-0.1.0.ge817d4b/LICENSE
 * /usr/share/doc/abstractdark-sddm-theme-0.1.0.ge817d4b/README.md
 * /usr/share/sddm/themes/abstractdark-sddm-theme/abstractdark-sddm-theme.png
 * /usr/share/sddm/themes/abstractdark-sddm-theme/arrow.svg
@@ -28,4 +29,3 @@ Abstract Dark theme for SDDM
 * /usr/share/sddm/themes/abstractdark-sddm-theme/shutdown.svg
 * /usr/share/sddm/themes/abstractdark-sddm-theme/theme.conf
 * /usr/share/sddm/themes/abstractdark-sddm-theme/warning_red.png
-{{< /files >}}

@@ -16,7 +16,7 @@ reverse_depends = "['kdeconnect-kde']"
 +++
 Makes it possible to expose vcards to KPeople
 
-{{< files text="show files" >}}* /usr/lib/cmake/KF5PeopleVCard/KF5PeopleVCardConfig.cmake
+## Files: 
+* /usr/lib/cmake/KF5PeopleVCard/KF5PeopleVCardConfig.cmake
 * /usr/lib/qt5/plugins/kpeople/datasource/KPeopleVCard.so
 * /usr/share/doc/kpeoplevcard-0.1/COPYING
-{{< /files >}}

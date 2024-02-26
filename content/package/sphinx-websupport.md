@@ -15,7 +15,8 @@ depends = "['python3-sphinx']"
 +++
 Python API to easily integrate Sphinx documentation into your Web application.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sphinxcontrib/websupport/builder.py
+## Files: 
+* /usr/lib/python3.12/site-packages/sphinxcontrib/websupport/builder.py
 * /usr/lib/python3.12/site-packages/sphinxcontrib/websupport/core.py
 * /usr/lib/python3.12/site-packages/sphinxcontrib/websupport/errors.py
 * /usr/lib/python3.12/site-packages/sphinxcontrib/websupport/files/ajax-loader.gif
@@ -67,4 +68,3 @@ Python API to easily integrate Sphinx documentation into your Web application.
 * /usr/share/doc/sphinx-websupport-1.2.4/CHANGES
 * /usr/share/doc/sphinx-websupport-1.2.4/LICENSE
 * /usr/share/doc/sphinx-websupport-1.2.4/README.rst
-{{< /files >}}

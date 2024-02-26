@@ -16,7 +16,8 @@ reverse_depends = "['haskell-skylighting-format-ansi', 'haskell-skylighting-form
 +++
 Syntax highlighting library
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/skylighting-core-0.14.1/libHSskylighting-core-0.14.1-2Qzdunreawm7X7pC2z3WSG.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/skylighting-core-0.14.1/libHSskylighting-core-0.14.1-2Qzdunreawm7X7pC2z3WSG.a
 * /usr/lib/ghc-9.8.1/site-local/skylighting-core-0.14.1/Regex/KDE.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/skylighting-core-0.14.1/Regex/KDE.hi
 * /usr/lib/ghc-9.8.1/site-local/skylighting-core-0.14.1/Regex/KDE/Compile.dyn_hi
@@ -81,4 +82,3 @@ Syntax highlighting library
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/skylighting-core-0.14.1/LICENSE
 * /usr/share/haskell/haskell-skylighting-core/register.sh
 * /usr/share/haskell/haskell-skylighting-core/unregister.sh
-{{< /files >}}

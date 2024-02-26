@@ -16,7 +16,8 @@ license = "MIT"
 +++
 A free dance and rhythm game (was previously sm-ssc)
 
-{{< files text="show files" >}}* /usr/bin/stepmania
+## Files: 
+* /usr/bin/stepmania
 * /usr/share/doc/stepmania-5.0.12/README.md
 * /usr/share/stepmania-5.0/Announcers/instructions.txt
 * /usr/share/stepmania-5.0/BackgroundEffects/Centered.lua
@@ -2914,4 +2915,3 @@ A free dance and rhythm game (was previously sm-ssc)
 * /usr/share/stepmania-5.0/Themes/_Installer/Languages/it.ini
 * /usr/share/stepmania-5.0/Themes/_Installer/Languages/pl.ini
 * /usr/share/stepmania-5.0/Themes/_Installer/readme.txt
-{{< /files >}}

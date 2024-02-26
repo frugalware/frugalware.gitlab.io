@@ -16,7 +16,8 @@ reverse_depends = "['blender', 'btrfs-progs', 'cairo', 'dd-rescue', 'distcc', 'e
 +++
 A real-time data compression library
 
-{{< files text="show files" >}}* /usr/include/lzo/lzo1.h
+## Files: 
+* /usr/include/lzo/lzo1.h
 * /usr/include/lzo/lzo1a.h
 * /usr/include/lzo/lzo1b.h
 * /usr/include/lzo/lzo1c.h
@@ -44,4 +45,3 @@ A real-time data compression library
 * /usr/share/doc/lzo-2.10/NEWS
 * /usr/share/doc/lzo-2.10/README
 * /usr/share/doc/lzo-2.10/THANKS
-{{< /files >}}

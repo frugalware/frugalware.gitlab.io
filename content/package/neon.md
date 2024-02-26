@@ -16,7 +16,8 @@ reverse_depends = "['libmusicbrainz']"
 +++
 An HTTP and WebDAV client library, with a C interface.
 
-{{< files text="show files" >}}* /usr/bin/neon-config
+## Files: 
+* /usr/bin/neon-config
 * /usr/include/neon/ne_207.h
 * /usr/include/neon/ne_acl.h
 * /usr/include/neon/ne_acl3744.h
@@ -212,4 +213,3 @@ An HTTP and WebDAV client library, with a C interface.
 * /usr/share/man/man3/ne_vstrhash.3.gz
 * /usr/share/man/man3/ne_xml_create.3.gz
 * /usr/share/man/man3/ne_xml_destroy.3.gz
-{{< /files >}}

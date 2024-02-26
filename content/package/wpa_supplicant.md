@@ -16,7 +16,8 @@ reverse_depends = "['connman', 'networkmanager']"
 +++
 Linux WPA/WPA2/IEEE 802.1X Supplicant
 
-{{< files text="show files" >}}* /etc/dbus-1/system.d/dbus-wpa_supplicant.conf
+## Files: 
+* /etc/dbus-1/system.d/dbus-wpa_supplicant.conf
 * /etc/wpa_supplicant.conf
 * /usr/bin/wpa_cli
 * /usr/bin/wpa_passphrase
@@ -33,4 +34,3 @@ Linux WPA/WPA2/IEEE 802.1X Supplicant
 * /usr/share/man/man8/wpa_passphrase.8.gz
 * /usr/share/man/man8/wpa_priv.8.gz
 * /usr/share/man/man8/wpa_supplicant.8.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['plasma-workspace']"
 +++
 Qt Platform Theme integration plugins for the Plasma workspaces.
 
-{{< files text="show files" >}}* /usr/include/PlasmaKeyData/plasmakeydata.h
+## Files: 
+* /usr/include/PlasmaKeyData/plasmakeydata.h
 * /usr/lib/pkgconfig/plasma-key-data.pc
 * /usr/lib/qt5/plugins/platforminputcontexts/plasmaimplatforminputcontextplugin.so
 * /usr/lib/qt5/plugins/platformthemes/KDEPlasmaPlatformTheme.so
@@ -77,4 +78,3 @@ Qt Platform Theme integration plugins for the Plasma workspaces.
 * /usr/share/locale/vi/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasmaintegration5.mo
-{{< /files >}}

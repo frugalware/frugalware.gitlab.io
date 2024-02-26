@@ -16,7 +16,8 @@ reverse_depends = "['breeze', 'kde-gtk-config', 'kwin5']"
 +++
 KDE Decoration
 
-{{< files text="show files" >}}* /usr/include/KDecoration2/KDecoration2/DecoratedClient
+## Files: 
+* /usr/include/KDecoration2/KDecoration2/DecoratedClient
 * /usr/include/KDecoration2/kdecoration2/decoratedclient.h
 * /usr/include/KDecoration2/KDecoration2/Decoration
 * /usr/include/KDecoration2/kdecoration2/decoration.h
@@ -90,4 +91,3 @@ KDE Decoration
 * /usr/share/locale/uk/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kdecoration.mo
-{{< /files >}}

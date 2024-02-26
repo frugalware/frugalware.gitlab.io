@@ -15,7 +15,8 @@ depends = "['icu4c>=74.1', 'kconfig', 'kcoreaddons', 'kdbusaddons', 'kpmcore>=22
 +++
 Distribution-independent installer framework
 
-{{< files text="show files" >}}* /etc/polkit-1/rules.d/49-nopasswd_calamares.rules
+## Files: 
+* /etc/polkit-1/rules.d/49-nopasswd_calamares.rules
 * /etc/sudoers.d/calamares-frugalware-live
 * /usr/bin/calamares
 * /usr/include/libcalamares/Branding.h
@@ -322,4 +323,3 @@ Distribution-independent installer framework
 * /usr/share/locale/zh_TW/LC_MESSAGES/calamares-python.mo
 * /usr/share/man/man8/calamares.8.gz
 * /usr/share/polkit-1/actions/com.github.calamares.calamares.policy
-{{< /files >}}

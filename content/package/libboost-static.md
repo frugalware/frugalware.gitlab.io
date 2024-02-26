@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Boost libraries statically linked.
 
-{{< files text="show files" >}}* /usr/lib/libboost_atomic.a
+## Files: 
+* /usr/lib/libboost_atomic.a
 * /usr/lib/libboost_chrono.a
 * /usr/lib/libboost_container.a
 * /usr/lib/libboost_context.a
@@ -60,4 +61,3 @@ Boost libraries statically linked.
 * /usr/lib/libboost_url.a
 * /usr/lib/libboost_wave.a
 * /usr/lib/libboost_wserialization.a
-{{< /files >}}

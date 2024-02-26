@@ -16,7 +16,8 @@ reverse_depends = "['python3-poetry']"
 +++
 Detect what shell the current Python executable is running in
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/shellingham-1.5.4.dist-info/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/shellingham-1.5.4.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/shellingham-1.5.4.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/shellingham-1.5.4.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/shellingham-1.5.4.dist-info/top_level.txt
@@ -45,4 +46,3 @@ Detect what shell the current Python executable is running in
 * /usr/lib/python3.12/site-packages/shellingham/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-shellingham-1.5.4/LICENSE
 * /usr/share/doc/python3-shellingham-1.5.4/README.rst
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['anyremote', 'cups', 'efl', 'geoclue2', 'kdnssd', 'libcups',
 +++
 A multicast/unicast DNS-SD framework
 
-{{< files text="show files" >}}* /etc/avahi/avahi-autoipd.action
+## Files: 
+* /etc/avahi/avahi-autoipd.action
 * /etc/avahi/avahi-daemon.conf
 * /etc/avahi/hosts
 * /etc/avahi/services/sftp-ssh.service
@@ -148,4 +149,3 @@ A multicast/unicast DNS-SD framework
 * /usr/share/man/man8/avahi-autoipd.8.gz
 * /usr/share/man/man8/avahi-autoipd.action.8.gz
 * /usr/share/man/man8/avahi-daemon.8.gz
-{{< /files >}}

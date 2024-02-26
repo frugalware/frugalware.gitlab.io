@@ -15,7 +15,8 @@ depends = "['dbus-glib', 'gconf']"
 +++
 A simple, beautiful podcast app
 
-{{< files text="show files" >}}* /opt/CPod/blink_image_resources_200_percent.pak
+## Files: 
+* /opt/CPod/blink_image_resources_200_percent.pak
 * /opt/CPod/content_resources_200_percent.pak
 * /opt/CPod/content_shell.pak
 * /opt/CPod/cpod
@@ -98,4 +99,3 @@ A simple, beautiful podcast app
 * /usr/share/icons/hicolor/512x512/apps/cpod.png
 * /usr/share/icons/hicolor/64x64/apps/cpod.png
 * /usr/share/icons/hicolor/96x96/apps/cpod.png
-{{< /files >}}

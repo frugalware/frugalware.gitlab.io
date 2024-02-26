@@ -16,7 +16,8 @@ reverse_depends = "['aide', 'bcc', 'dracut', 'elfutils-debuginfod', 'glib2', 'li
 +++
 Collection of libraries and utilities for working with ELF object files and DWARF debugging information
 
-{{< files text="show files" >}}* /etc/profile.d/debuginfod.csh
+## Files: 
+* /etc/profile.d/debuginfod.csh
 * /etc/profile.d/debuginfod.sh
 * /usr/bin/eu-addr2line
 * /usr/bin/eu-ar
@@ -84,4 +85,3 @@ Collection of libraries and utilities for working with ELF object files and DWAR
 * /usr/share/man/man3/elf_getdata.3.gz
 * /usr/share/man/man3/elf_update.3.gz
 * /usr/share/man/man7/debuginfod-client-config.7.gz
-{{< /files >}}

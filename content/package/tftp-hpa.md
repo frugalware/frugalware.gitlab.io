@@ -15,7 +15,8 @@ depends = "['readline>=8.0']"
 +++
 A conglomerate of a number of versions of the BSD TFTP code
 
-{{< files text="show files" >}}* /usr/bin/in.tftpd
+## Files: 
+* /usr/bin/in.tftpd
 * /usr/bin/tftp
 * /usr/share/doc/tftp-hpa-5.2/CHANGES
 * /usr/share/doc/tftp-hpa-5.2/INSTALL
@@ -25,4 +26,3 @@ A conglomerate of a number of versions of the BSD TFTP code
 * /usr/share/man/man1/tftp.1.gz
 * /usr/share/man/man8/in.tftpd.8.gz
 * /usr/share/man/man8/tftpd.8.gz
-{{< /files >}}

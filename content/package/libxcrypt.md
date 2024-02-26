@@ -16,7 +16,8 @@ reverse_depends = "['inetutils', 'lib32-libxcrypt', 'libreswan', 'libsmbclient',
 +++
 Modern library for one-way hashing of passwords
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/crypt.h
+## Files: 
+* /usr/i686-frugalware-linux/include/crypt.h
 * /usr/include/crypt.h
 * /usr/include/xcrypt.h
 * /usr/lib/libcrypt.so
@@ -42,4 +43,3 @@ Modern library for one-way hashing of passwords
 * /usr/share/man/man3/crypt_ra.3.gz
 * /usr/share/man/man3/crypt_rn.3.gz
 * /usr/share/man/man5/crypt.5.gz
-{{< /files >}}

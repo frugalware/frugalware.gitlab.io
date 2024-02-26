@@ -16,7 +16,8 @@ reverse_depends = "['udisks2']"
 +++
 Lean and small library for ATA S.M.A.R.T. hard disks
 
-{{< files text="show files" >}}* /usr/bin/skdump
+## Files: 
+* /usr/bin/skdump
 * /usr/bin/sktest
 * /usr/include/atasmart.h
 * /usr/lib/libatasmart.so
@@ -25,4 +26,3 @@ Lean and small library for ATA S.M.A.R.T. hard disks
 * /usr/lib/pkgconfig/libatasmart.pc
 * /usr/share/doc/libatasmart-0.19/README
 * /usr/share/vala/vapi/atasmart.vapi
-{{< /files >}}

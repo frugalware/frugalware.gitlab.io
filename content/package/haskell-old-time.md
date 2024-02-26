@@ -16,7 +16,8 @@ reverse_depends = "['haskell-unix-time']"
 +++
 Time library
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/old-time-1.1.0.4/include/HsTime.h
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/old-time-1.1.0.4/include/HsTime.h
 * /usr/lib/ghc-9.8.1/site-local/old-time-1.1.0.4/libHSold-time-1.1.0.4-1sULzFTRnSkJNl9KTlNoeI.a
 * /usr/lib/ghc-9.8.1/site-local/old-time-1.1.0.4/System/Time.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/old-time-1.1.0.4/System/Time.hi
@@ -34,4 +35,3 @@ Time library
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/old-time-1.1.0.4/LICENSE
 * /usr/share/haskell/haskell-old-time/register.sh
 * /usr/share/haskell/haskell-old-time/unregister.sh
-{{< /files >}}

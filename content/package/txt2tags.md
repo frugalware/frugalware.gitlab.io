@@ -16,7 +16,8 @@ license = "GPL"
 +++
 Txt2tags is a document generator.
 
-{{< files text="show files" >}}* /usr/bin/txt2tags
+## Files: 
+* /usr/bin/txt2tags
 * /usr/lib/python3.12/site-packages/txt2tags-3.7-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/txt2tags-3.7-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/txt2tags-3.7-py3.12.egg-info/PKG-INFO
@@ -26,4 +27,3 @@ Txt2tags is a document generator.
 * /usr/lib/python3.12/site-packages/__pycache__/txt2tags.cpython-312.pyc
 * /usr/share/doc/txt2tags-3.7/COPYING
 * /usr/share/doc/txt2tags-3.7/README.md
-{{< /files >}}

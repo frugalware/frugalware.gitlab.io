@@ -16,7 +16,8 @@ reverse_depends = "['libkcddb']"
 +++
 MusicBrainz is the second generation incarnation of the CD Index
 
-{{< files text="show files" >}}* /usr/include/musicbrainz5/Alias.h
+## Files: 
+* /usr/include/musicbrainz5/Alias.h
 * /usr/include/musicbrainz5/AliasList.h
 * /usr/include/musicbrainz5/Annotation.h
 * /usr/include/musicbrainz5/AnnotationList.h
@@ -91,4 +92,3 @@ MusicBrainz is the second generation incarnation of the CD Index
 * /usr/share/doc/libmusicbrainz-5.1.0/COPYING.txt
 * /usr/share/doc/libmusicbrainz-5.1.0/INSTALL.txt
 * /usr/share/doc/libmusicbrainz-5.1.0/README.md
-{{< /files >}}

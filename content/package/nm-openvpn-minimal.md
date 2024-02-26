@@ -16,7 +16,8 @@ reverse_depends = "['nm-openvpn']"
 +++
 network management framework (OPENVPN plugin) without GNOME
 
-{{< files text="show files" >}}* /usr/lib/NetworkManager/libnm-vpn-plugin-openvpn.so
+## Files: 
+* /usr/lib/NetworkManager/libnm-vpn-plugin-openvpn.so
 * /usr/lib/NetworkManager/VPN/nm-openvpn-service.name
 * /usr/lib/nm-openvpn/nm-openvpn-service
 * /usr/lib/nm-openvpn/nm-openvpn-service-openvpn-helper
@@ -80,4 +81,3 @@ network management framework (OPENVPN plugin) without GNOME
 * /usr/share/locale/zh_CN/LC_MESSAGES/NetworkManager-openvpn.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/NetworkManager-openvpn.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/NetworkManager-openvpn.mo
-{{< /files >}}

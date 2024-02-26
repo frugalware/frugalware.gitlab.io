@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Modified taskbar applet for kicker to make it work with compiz.
 
-{{< files text="show files" >}}* usr/lib/kde3/compiztaskbar_panelapplet.la
+## Files: 
+* usr/lib/kde3/compiztaskbar_panelapplet.la
 * usr/lib/kde3/compiztaskbar_panelapplet.so
 * usr/lib/libcompiztaskbar.la
 * usr/lib/libcompiztaskbar.so
@@ -32,4 +33,3 @@ Modified taskbar applet for kicker to make it work with compiz.
 * usr/share/doc/taskbar-compiz-0.1/NEWS
 * usr/share/doc/taskbar-compiz-0.1/README
 * usr/share/doc/taskbar-compiz-0.1/TODO
-{{< /files >}}

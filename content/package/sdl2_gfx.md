@@ -16,7 +16,8 @@ reverse_depends = "['freeciv', 'lincity-ng']"
 +++
 SDL graphics drawing primitives and other support functions
 
-{{< files text="show files" >}}* /usr/include/SDL2/SDL2_framerate.h
+## Files: 
+* /usr/include/SDL2/SDL2_framerate.h
 * /usr/include/SDL2/SDL2_gfxPrimitives.h
 * /usr/include/SDL2/SDL2_imageFilter.h
 * /usr/include/SDL2/SDL2_rotozoom.h
@@ -30,4 +31,3 @@ SDL graphics drawing primitives and other support functions
 * /usr/share/doc/sdl2_gfx-1.0.4/INSTALL
 * /usr/share/doc/sdl2_gfx-1.0.4/NEWS
 * /usr/share/doc/sdl2_gfx-1.0.4/README
-{{< /files >}}

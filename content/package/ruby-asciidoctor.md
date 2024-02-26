@@ -15,7 +15,8 @@ depends = "['ruby>=3.3.0']"
 +++
 An implementation of AsciiDoc in Ruby
 
-{{< files text="show files" >}}* /usr/bin/asciidoctor
+## Files: 
+* /usr/bin/asciidoctor
 * /usr/lib/ruby/gems/3.3.0/cache/asciidoctor-2.0.20.gem
 * /usr/lib/ruby/gems/3.3.0/doc/asciidoctor-2.0.20/ri/Array/cdesc-Array.ri
 * /usr/lib/ruby/gems/3.3.0/doc/asciidoctor-2.0.20/ri/Asciidoctor/AbstractBlock/%3c%3c-i.ri
@@ -1163,4 +1164,3 @@ An implementation of AsciiDoc in Ruby
 * /usr/lib/ruby/gems/3.3.0/gems/asciidoctor-2.0.20/README-zh_CN.adoc
 * /usr/lib/ruby/gems/3.3.0/gems/asciidoctor-2.0.20/README.adoc
 * /usr/lib/ruby/gems/3.3.0/specifications/asciidoctor-2.0.20.gemspec
-{{< /files >}}

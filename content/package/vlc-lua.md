@@ -15,7 +15,8 @@ depends = "['libvlc>=3.0.20', 'lua>=5.4']"
 +++
 vlc Lua support
 
-{{< files text="show files" >}}* /usr/lib/vlc/lua/extensions/VLSub.luac
+## Files: 
+* /usr/lib/vlc/lua/extensions/VLSub.luac
 * /usr/lib/vlc/lua/intf/cli.luac
 * /usr/lib/vlc/lua/intf/dummy.luac
 * /usr/lib/vlc/lua/intf/dumpmeta.luac
@@ -52,4 +53,3 @@ vlc Lua support
 * /usr/lib/vlc/lua/sd/icecast.luac
 * /usr/lib/vlc/lua/sd/jamendo.luac
 * /usr/lib/vlc/plugins/lua/liblua_plugin.so
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "['claws-mail=4.1.1', 'curl>=7.47.0']"
 +++
 Displays libravatar/gravatar profiles images
 
-{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/libravatar.so
-{{< /files >}}
+## Files: 
+* /usr/lib/claws-mail/plugins/libravatar.so

@@ -16,7 +16,8 @@ license = "GPL-2"
 +++
 A QT frontend for libnjb and its supported players.
 
-{{< files text="show files" >}}* usr/bin/kzenexplorer
+## Files: 
+* usr/bin/kzenexplorer
 * usr/share/applnk/Multimedia/kzenexplorer.desktop
 * usr/share/apps/kzenexplorer/kzenexplorerui.rc
 * usr/share/apps/kzenexplorer/pics/advanced_search.png
@@ -69,4 +70,3 @@ A QT frontend for libnjb and its supported players.
 * usr/share/icons/hicolor/48x48/apps/kzenexplorer.png
 * usr/share/locale/de/LC_MESSAGES/kzenexplorer.mo
 * usr/share/locale/es/LC_MESSAGES/kzenexplorer.mo
-{{< /files >}}

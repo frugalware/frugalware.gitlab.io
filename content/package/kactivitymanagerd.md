@@ -16,7 +16,8 @@ reverse_depends = "['plasma-desktop']"
 +++
 System service to manage user's activities, track the usage patterns etc.
 
-{{< files text="show files" >}}* /usr/lib/kf5/kactivitymanagerd
+## Files: 
+* /usr/lib/kf5/kactivitymanagerd
 * /usr/lib/libkactivitymanagerd_plugin.so
 * /usr/lib/qt5/plugins/kactivitymanagerd/1/kactivitymanagerd_plugin_activityrunner.so
 * /usr/lib/qt5/plugins/kactivitymanagerd/1/kactivitymanagerd_plugin_activitytemplates.so
@@ -101,4 +102,3 @@ System service to manage user's activities, track the usage patterns etc.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kactivities5.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kactivities5.mo
 * /usr/share/qlogging-categories5/kactivitymanagerd.categories
-{{< /files >}}

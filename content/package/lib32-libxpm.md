@@ -16,11 +16,11 @@ reverse_depends = "['lib32-libxaw']"
 +++
 X Pixmap Library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/cxpm
+## Files: 
+* /usr/i686-frugalware-linux/bin/cxpm
 * /usr/i686-frugalware-linux/bin/sxpm
 * /usr/i686-frugalware-linux/include/X11/xpm.h
 * /usr/lib32/libXpm.so
 * /usr/lib32/libXpm.so.4
 * /usr/lib32/libXpm.so.4.11.0
 * /usr/lib32/pkgconfig/xpm.pc
-{{< /files >}}

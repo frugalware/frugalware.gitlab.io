@@ -16,7 +16,8 @@ reverse_depends = "['texlive']"
 +++
 TeX Live Lua
 
-{{< files text="show files" >}}* /usr/lib/libtexlua53.so
+## Files: 
+* /usr/lib/libtexlua53.so
 * /usr/lib/libtexlua53.so.5
 * /usr/lib/libtexlua53.so.5.3.6
 * /usr/lib/libtexluajit.so
@@ -24,4 +25,3 @@ TeX Live Lua
 * /usr/lib/libtexluajit.so.2.1.0
 * /usr/lib/pkgconfig/texlua53.pc
 * /usr/lib/pkgconfig/texluajit.pc
-{{< /files >}}

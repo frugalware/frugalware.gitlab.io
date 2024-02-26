@@ -16,7 +16,8 @@ reverse_depends = "['baloo5', 'discover', 'drkonqi', 'kalarm', 'konversation', '
 +++
 Reporting of idle time of user and system.
 
-{{< files text="show files" >}}* /usr/include/KF5/KIdleTime/KIdleTime
+## Files: 
+* /usr/include/KF5/KIdleTime/KIdleTime
 * /usr/include/KF5/KIdleTime/kidletime.h
 * /usr/include/KF5/KIdleTime/kidletime_export.h
 * /usr/include/KF5/KIdleTime/kidletime_version.h
@@ -35,4 +36,3 @@ Reporting of idle time of user and system.
 * /usr/share/qlogging-categories5/kidletime.categories
 * /usr/share/qlogging-categories5/kidletime.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KIdleTime.pri
-{{< /files >}}

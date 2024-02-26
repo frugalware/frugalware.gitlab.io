@@ -16,7 +16,8 @@ reverse_depends = "['enblend-enfuse']"
 +++
 The VIGRA Computer Vision Library
 
-{{< files text="show files" >}}* /usr/bin/vigra-config
+## Files: 
+* /usr/bin/vigra-config
 * /usr/include/vigra/accessor.hxx
 * /usr/include/vigra/accumulator-grammar.hxx
 * /usr/include/vigra/accumulator.hxx
@@ -3524,4 +3525,3 @@ The VIGRA Computer Vision Library
 * /usr/share/doc/vigra-1.11.1/vigranumpy/_static/up.png
 * /usr/share/doc/vigra-1.11.1/vigranumpy/_static/vigra-icon.ico
 * /usr/share/doc/vigra-1.11.1/vigranumpy/_static/websupport.js
-{{< /files >}}

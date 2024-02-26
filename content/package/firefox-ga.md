@@ -15,6 +15,6 @@ depends = "['firefox>=1.0.7']"
 +++
 Irish language support for Firefox
 
-{{< files text="show files" >}}* usr/lib/firefox/chrome/ga-IE.jar
+## Files: 
+* usr/lib/firefox/chrome/ga-IE.jar
 * usr/lib/firefox/chrome/rc.d/10_firefox-ga.txt
-{{< /files >}}

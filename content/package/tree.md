@@ -15,11 +15,11 @@ depends = "['glibc>=2.34']"
 +++
 List contents of directories in a tree-like format
 
-{{< files text="show files" >}}* /usr/bin/tree
+## Files: 
+* /usr/bin/tree
 * /usr/share/doc/tree-2.1.1/CHANGES
 * /usr/share/doc/tree-2.1.1/INSTALL
 * /usr/share/doc/tree-2.1.1/LICENSE
 * /usr/share/doc/tree-2.1.1/README
 * /usr/share/doc/tree-2.1.1/TODO
 * /usr/share/man/man1/tree.1.gz
-{{< /files >}}

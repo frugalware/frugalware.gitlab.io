@@ -15,5 +15,5 @@ depends = "['claws-mail=4.1.1', 'curl>=7.47.0', 'libical>=3.0.3']"
 +++
 This plugin enables vCalendar message, and handles webCal subscriptions.
 
-{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/vcalendar.so
-{{< /files >}}
+## Files: 
+* /usr/lib/claws-mail/plugins/vcalendar.so

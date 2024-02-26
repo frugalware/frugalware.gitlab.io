@@ -16,7 +16,8 @@ reverse_depends = "['qt6-base']"
 +++
 The Qt6 toolkit, qttranslations
 
-{{< files text="show files" >}}* /usr/share/qt6/translations/assistant_ar.qm
+## Files: 
+* /usr/share/qt6/translations/assistant_ar.qm
 * /usr/share/qt6/translations/assistant_bg.qm
 * /usr/share/qt6/translations/assistant_cs.qm
 * /usr/share/qt6/translations/assistant_da.qm
@@ -285,4 +286,3 @@ The Qt6 toolkit, qttranslations
 * /usr/share/qt6/translations/qt_uk.qm
 * /usr/share/qt6/translations/qt_zh_CN.qm
 * /usr/share/qt6/translations/qt_zh_TW.qm
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['hotdoc']"
 +++
 Python module which provides the variables defined by the XDG Base Directory Specification
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/xdg-6.0.0-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/xdg-6.0.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/xdg-6.0.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/xdg-6.0.0-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/xdg-6.0.0-py3.12.egg-info/top_level.txt
@@ -24,4 +25,3 @@ Python module which provides the variables defined by the XDG Base Directory Spe
 * /usr/lib/python3.12/site-packages/xdg/__init__.py
 * /usr/lib/python3.12/site-packages/xdg/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-xdg-6.0.0/README.md
-{{< /files >}}

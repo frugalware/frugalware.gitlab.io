@@ -15,7 +15,8 @@ depends = "['bluez>=4.61', 'libgudev', 'mariadb-libs>=10.3.14', 'openssl>=1.0.0'
 +++
 Mobile phones tools for Unix (Linux)
 
-{{< files text="show files" >}}* /etc/bash_completion.d/gammu
+## Files: 
+* /etc/bash_completion.d/gammu
 * /etc/gammu/gammurc
 * /usr/bin/gammu
 * /usr/bin/gammu-config
@@ -327,4 +328,3 @@ Mobile phones tools for Unix (Linux)
 * /usr/share/man/man7/gammu-smsd-run.7.gz
 * /usr/share/man/man7/gammu-smsd-sql.7.gz
 * /usr/share/man/man7/gammu-smsd-tables.7.gz
-{{< /files >}}

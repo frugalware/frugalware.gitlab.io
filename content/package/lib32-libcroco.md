@@ -16,8 +16,8 @@ reverse_depends = "['lib32-gettext']"
 +++
 A standalone CSS2 parsing and manipulation library ( 32bit )
 
-{{< files text="show files" >}}* /usr/lib32/libcroco-0.6.so
+## Files: 
+* /usr/lib32/libcroco-0.6.so
 * /usr/lib32/libcroco-0.6.so.3
 * /usr/lib32/libcroco-0.6.so.3.0.1
 * /usr/lib32/pkgconfig/libcroco-0.6.pc
-{{< /files >}}

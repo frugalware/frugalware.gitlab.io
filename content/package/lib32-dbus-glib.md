@@ -16,7 +16,8 @@ reverse_depends = "['lib32-gconf', 'lib32-networkmanager', 'steam-native']"
 +++
 Glib bindings for DBUS ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/dbus-binding-tool
+## Files: 
+* /usr/i686-frugalware-linux/bin/dbus-binding-tool
 * /usr/i686-frugalware-linux/dbus-glib/dbus-bash-completion-helper
 * /usr/i686-frugalware-linux/include/dbus-1.0/dbus/dbus-glib-bindings.h
 * /usr/i686-frugalware-linux/include/dbus-1.0/dbus/dbus-glib-lowlevel.h
@@ -27,4 +28,3 @@ Glib bindings for DBUS ( 32bit )
 * /usr/lib32/libdbus-glib-1.so.2
 * /usr/lib32/libdbus-glib-1.so.2.3.5
 * /usr/lib32/pkgconfig/dbus-glib-1.pc
-{{< /files >}}

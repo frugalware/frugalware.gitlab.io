@@ -16,7 +16,8 @@ reverse_depends = "['duplicati']"
 +++
 A C# language binding for the GTK+2 toolkit
 
-{{< files text="show files" >}}* /usr/bin/gapi2-codegen
+## Files: 
+* /usr/bin/gapi2-codegen
 * /usr/bin/gapi2-fixup
 * /usr/bin/gapi2-parser
 * /usr/lib/gtk-sharp-2.0/gapi-fixup.exe
@@ -138,4 +139,3 @@ A C# language binding for the GTK+2 toolkit
 * /usr/share/gapi-2.0/glib-api.xml
 * /usr/share/gapi-2.0/gtk-api.xml
 * /usr/share/gapi-2.0/pango-api.xml
-{{< /files >}}

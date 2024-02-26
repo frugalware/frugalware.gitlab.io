@@ -16,7 +16,8 @@ reverse_depends = "['qt6-webengine']"
 +++
 The Qt6 toolkit, qtwebchannel
 
-{{< files text="show files" >}}* /usr/include/qt6/QtWebChannel/6.6.2/QtWebChannel/private/qmetaobjectpublisher_p.h
+## Files: 
+* /usr/include/qt6/QtWebChannel/6.6.2/QtWebChannel/private/qmetaobjectpublisher_p.h
 * /usr/include/qt6/QtWebChannel/6.6.2/QtWebChannel/private/qwebchannel_p.h
 * /usr/include/qt6/QtWebChannel/6.6.2/QtWebChannel/private/signalhandler_p.h
 * /usr/include/qt6/QtWebChannel/QtWebChannel
@@ -82,4 +83,3 @@ The Qt6 toolkit, qtwebchannel
 * /usr/lib/qt6/qml/QtWebChannel/libwebchannelquickplugin.so
 * /usr/lib/qt6/qml/QtWebChannel/plugins.qmltypes
 * /usr/lib/qt6/qml/QtWebChannel/qmldir
-{{< /files >}}

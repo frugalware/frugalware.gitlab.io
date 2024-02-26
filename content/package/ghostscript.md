@@ -17,7 +17,8 @@ license = "GPLv2"
 +++
 An interpreter for the PostScript language.
 
-{{< files text="show files" >}}* /usr/bin/dvipdf
+## Files: 
+* /usr/bin/dvipdf
 * /usr/bin/eps2eps
 * /usr/bin/gs
 * /usr/bin/gsbj
@@ -540,4 +541,3 @@ An interpreter for the PostScript language.
 * /usr/share/man/man1/ps2pdf14.1.gz
 * /usr/share/man/man1/ps2pdfwr.1.gz
 * /usr/share/man/man1/ps2ps.1.gz
-{{< /files >}}

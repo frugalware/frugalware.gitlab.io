@@ -16,7 +16,8 @@ reverse_depends = "['cups-filters', 'geoclue2', 'gvfs', 'telepathy-salut']"
 +++
 Glib bindings for Avahi
 
-{{< files text="show files" >}}* /usr/include/avahi-glib/glib-malloc.h
+## Files: 
+* /usr/include/avahi-glib/glib-malloc.h
 * /usr/include/avahi-glib/glib-watch.h
 * /usr/include/avahi-gobject/ga-client.h
 * /usr/include/avahi-gobject/ga-entry-group.h
@@ -33,4 +34,3 @@ Glib bindings for Avahi
 * /usr/lib/libavahi-gobject.so.0.0.5
 * /usr/lib/pkgconfig/avahi-glib.pc
 * /usr/lib/pkgconfig/avahi-gobject.pc
-{{< /files >}}

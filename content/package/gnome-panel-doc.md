@@ -15,7 +15,8 @@ depends = "['gtk+3']"
 +++
 gnome-panel documention
 
-{{< files text="show files" >}}* /usr/share/gtk-doc/html/panel-applet-4.0/getting-started.concepts.html
+## Files: 
+* /usr/share/gtk-doc/html/panel-applet-4.0/getting-started.concepts.html
 * /usr/share/gtk-doc/html/panel-applet-4.0/getting-started.context-menu.html
 * /usr/share/gtk-doc/html/panel-applet-4.0/getting-started.example.html
 * /usr/share/gtk-doc/html/panel-applet-4.0/getting-started.html
@@ -144,4 +145,3 @@ gnome-panel documention
 * /usr/share/help/zh_TW/clock/index.docbook
 * /usr/share/help/zh_TW/clock/legal.xml
 * /usr/share/man/man1/gnome-panel.1.gz
-{{< /files >}}

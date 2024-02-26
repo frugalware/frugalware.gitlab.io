@@ -16,7 +16,8 @@ reverse_depends = "['easyrpg-player']"
 +++
 liblcf is a library to handle RPG Maker 2000 and 2003 game data.
 
-{{< files text="show files" >}}* /usr/bin/lcf2xml
+## Files: 
+* /usr/bin/lcf2xml
 * /usr/bin/lcfstrings
 * /usr/include/lcf/config.h
 * /usr/include/lcf/context.h
@@ -126,4 +127,3 @@ liblcf is a library to handle RPG Maker 2000 and 2003 game data.
 * /usr/share/doc/liblcf-0.8/COPYING
 * /usr/share/doc/liblcf-0.8/README.md
 * /usr/share/mime/packages/liblcf.xml
-{{< /files >}}

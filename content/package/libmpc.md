@@ -16,7 +16,8 @@ reverse_depends = "['gcc', 'gcc-12']"
 +++
 A library for the arithmetic of complex numbers.
 
-{{< files text="show files" >}}* /usr/include/mpc.h
+## Files: 
+* /usr/include/mpc.h
 * /usr/lib/libmpc.so
 * /usr/lib/libmpc.so.3
 * /usr/lib/libmpc.so.3.3.1
@@ -27,4 +28,3 @@ A library for the arithmetic of complex numbers.
 * /usr/share/doc/libmpc-1.3.1/README
 * /usr/share/doc/libmpc-1.3.1/TODO
 * /usr/share/info/mpc.info.gz
-{{< /files >}}

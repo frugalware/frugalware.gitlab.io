@@ -16,7 +16,8 @@ reverse_depends = "['glibmm', 'glibmm24']"
 +++
 Common build files of the C++ bindings
 
-{{< files text="show files" >}}* /usr/bin/mm-common-get
+## Files: 
+* /usr/bin/mm-common-get
 * /usr/bin/mm-common-prepare
 * /usr/lib/aclocal/mm-ax_cxx_compile_stdcxx.m4
 * /usr/lib/aclocal/mm-ax_cxx_compile_stdcxx_11.m4
@@ -55,4 +56,3 @@ Common build files of the C++ bindings
 * /usr/share/doc/mm-common-1.0.5/README.md
 * /usr/share/man/man1/mm-common-get.1.gz
 * /usr/share/man/man1/mm-common-prepare.1.gz
-{{< /files >}}

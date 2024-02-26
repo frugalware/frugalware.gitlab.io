@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Static files for irrlicht
 
-{{< files text="show files" >}}* /usr/lib/libIrrlicht.a
-{{< /files >}}
+## Files: 
+* /usr/lib/libIrrlicht.a

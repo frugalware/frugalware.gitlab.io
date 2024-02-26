@@ -16,7 +16,8 @@ reverse_depends = "['kdepim-addons']"
 +++
 Contact Manager
 
-{{< files text="show files" >}}* /usr/bin/kaddressbook
+## Files: 
+* /usr/bin/kaddressbook
 * /usr/include/KPim5/KAddressBookImportExport/KAddressBookImportExport/ContactFields
 * /usr/include/KPim5/KAddressBookImportExport/kaddressbookimportexport/contactfields.h
 * /usr/include/KPim5/KAddressBookImportExport/KAddressBookImportExport/ContactList
@@ -367,4 +368,3 @@ Contact Manager
 * /usr/share/qlogging-categories5/kaddressbook.categories
 * /usr/share/qlogging-categories5/kaddressbook.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KAddressbookImportExport.pri
-{{< /files >}}

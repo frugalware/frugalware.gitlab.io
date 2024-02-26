@@ -16,7 +16,8 @@ reverse_depends = "['nitroshare']"
 +++
 Simple multicast DNS library for Qt
 
-{{< files text="show files" >}}* /usr/include/qmdnsengine/abstractserver.h
+## Files: 
+* /usr/include/qmdnsengine/abstractserver.h
 * /usr/include/qmdnsengine/bitmap.h
 * /usr/include/qmdnsengine/browser.h
 * /usr/include/qmdnsengine/cache.h
@@ -39,4 +40,3 @@ Simple multicast DNS library for Qt
 * /usr/lib/libqmdnsengine.so.0
 * /usr/lib/libqmdnsengine.so.0.2.0
 * /usr/share/doc/qmdnsengine-0.2.0/README.md
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['autoconf', 'autoconf213', 'pacman-g2', 'quilt', 'rcs']"
 +++
 Utility programs used for creating patch files
 
-{{< files text="show files" >}}* /usr/bin/cmp
+## Files: 
+* /usr/bin/cmp
 * /usr/bin/diff
 * /usr/bin/diff3
 * /usr/bin/sdiff
@@ -69,4 +70,3 @@ Utility programs used for creating patch files
 * /usr/share/man/man1/diff.1.gz
 * /usr/share/man/man1/diff3.1.gz
 * /usr/share/man/man1/sdiff.1.gz
-{{< /files >}}

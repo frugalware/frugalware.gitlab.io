@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org xcalc application
 
-{{< files text="show files" >}}* /usr/bin/xcalc
+## Files: 
+* /usr/bin/xcalc
 * /usr/share/doc/xcalc-1.1.2/ChangeLog
 * /usr/share/doc/xcalc-1.1.2/COPYING
 * /usr/share/doc/xcalc-1.1.2/INSTALL
@@ -24,4 +25,3 @@ X.Org xcalc application
 * /usr/share/man/man1/xcalc.1.gz
 * /usr/share/X11/app-defaults/XCalc
 * /usr/share/X11/app-defaults/XCalc-color
-{{< /files >}}

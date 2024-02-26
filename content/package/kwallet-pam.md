@@ -15,9 +15,9 @@ depends = "['kwallet5>=5.115.0', 'libgcrypt>=1.7.3-2', 'pam>=1.1.8-4', 'socat>=1
 +++
 KWallet PAM integration
 
-{{< files text="show files" >}}* /etc/xdg/autostart/pam_kwallet_init.desktop
+## Files: 
+* /etc/xdg/autostart/pam_kwallet_init.desktop
 * /usr/lib/kf5/pam_kwallet_init
 * /usr/lib/security/pam_kwallet5.so
 * /usr/lib/systemd/user/plasma-kwallet-pam.service
 * /usr/share/doc/kwallet-pam-5.27.10/README.txt
-{{< /files >}}

@@ -16,9 +16,9 @@ license = "GPL2"
 +++
 X.Org Cursor Misc Fontset
 
-{{< files text="show files" >}}* /usr/share/doc/font-cursor-misc-1.0.4/ChangeLog
+## Files: 
+* /usr/share/doc/font-cursor-misc-1.0.4/ChangeLog
 * /usr/share/doc/font-cursor-misc-1.0.4/COPYING
 * /usr/share/doc/font-cursor-misc-1.0.4/INSTALL
 * /usr/share/doc/font-cursor-misc-1.0.4/README.md
 * /usr/share/fonts/X11/misc/cursor.pcf.gz
-{{< /files >}}

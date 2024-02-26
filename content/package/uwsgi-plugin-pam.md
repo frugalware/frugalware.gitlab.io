@@ -15,5 +15,5 @@ depends = "['uwsgi']"
 +++
 UWSGI PAM Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/pam_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/uwsgi/pam_plugin.so

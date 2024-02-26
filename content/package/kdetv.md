@@ -15,7 +15,8 @@ depends = "['libxv', 'libxxf86dga']"
 +++
 Allows you to watch television on your GNU/Linux box running KDE.
 
-{{< files text="show files" >}}* usr/bin/kdetv
+## Files: 
+* usr/bin/kdetv
 * usr/bin/kdetvv4lsetup
 * usr/lib/kde3/kdetv_alsa.la
 * usr/lib/kde3/kdetv_alsa.so
@@ -312,4 +313,3 @@ Allows you to watch television on your GNU/Linux box running KDE.
 * usr/share/servicetypes/kdetv/kdetvpostprocesspluginsvc.desktop
 * usr/share/servicetypes/kdetv/kdetvvbipluginsvc.desktop
 * usr/share/servicetypes/kdetv/kdetvvideopluginsvc.desktop
-{{< /files >}}

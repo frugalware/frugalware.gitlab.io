@@ -15,7 +15,8 @@ depends = "['kparts>=5.110.0', 'qt5-svg>=5.15.11']"
 +++
 Twin Panel File Manager For Your Desktop
 
-{{< files text="show files" >}}* /etc/xdg/kio_isorc
+## Files: 
+* /etc/xdg/kio_isorc
 * /usr/bin/krusader
 * /usr/lib/qt5/plugins/kf5/kio/kio_iso.so
 * /usr/lib/qt5/plugins/kf5/kio/kio_krarc.so
@@ -464,4 +465,3 @@ Twin Panel File Manager For Your Desktop
 * /usr/share/man/sv/man1/krusader.1.gz
 * /usr/share/man/uk/man1/krusader.1.gz
 * /usr/share/metainfo/org.kde.krusader.appdata.xml
-{{< /files >}}

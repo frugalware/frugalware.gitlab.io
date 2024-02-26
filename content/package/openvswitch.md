@@ -16,7 +16,8 @@ license = "Apache"
 +++
 A production quality, multilayer virtual switch
 
-{{< files text="show files" >}}* /etc/bash_completion.d/ovs-appctl-bashcomp.bash
+## Files: 
+* /etc/bash_completion.d/ovs-appctl-bashcomp.bash
 * /etc/bash_completion.d/ovs-vsctl-bashcomp.bash
 * /usr/bin/ovs-appctl
 * /usr/bin/ovs-bugtool
@@ -209,4 +210,3 @@ A production quality, multilayer virtual switch
 * /usr/share/openvswitch/scripts/usdt/upcall_monitor.py
 * /usr/share/openvswitch/vswitch.ovsschema
 * /usr/share/openvswitch/vtep.ovsschema
-{{< /files >}}

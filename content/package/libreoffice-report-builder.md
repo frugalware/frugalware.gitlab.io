@@ -15,7 +15,8 @@ depends = "['libreoffice>=4.0.3.3']"
 +++
 Installs report builder support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/share/extensions/report-builder/components.rdb
+## Files: 
+* /usr/lib/libreoffice/share/extensions/report-builder/components.rdb
 * /usr/lib/libreoffice/share/extensions/report-builder/description-af.txt
 * /usr/lib/libreoffice/share/extensions/report-builder/description-am.txt
 * /usr/lib/libreoffice/share/extensions/report-builder/description-ar.txt
@@ -151,4 +152,3 @@ Installs report builder support in LibreOffice
 * /usr/lib/libreoffice/share/extensions/report-builder/reportbuilderwizard.jar
 * /usr/lib/libreoffice/share/extensions/report-builder/sun-report-builder.jar
 * /usr/lib/libreoffice/share/extensions/report-builder/template/en-US/wizard/report/default.otr
-{{< /files >}}

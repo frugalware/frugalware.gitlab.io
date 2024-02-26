@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org Cursor Themes data
 
-{{< files text="show files" >}}* /usr/share/doc/xcursor-themes-1.0.7/ChangeLog
+## Files: 
+* /usr/share/doc/xcursor-themes-1.0.7/ChangeLog
 * /usr/share/doc/xcursor-themes-1.0.7/COPYING
 * /usr/share/doc/xcursor-themes-1.0.7/INSTALL
 * /usr/share/doc/xcursor-themes-1.0.7/README.md
@@ -176,4 +177,3 @@ X.Org Cursor Themes data
 * /usr/share/icons/whiteglass/cursors/watch
 * /usr/share/icons/whiteglass/cursors/xterm
 * /usr/share/icons/whiteglass/cursors/X_cursor
-{{< /files >}}

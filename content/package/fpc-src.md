@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Source code for Free Pascal Compiler
 
-{{< files text="show files" >}}* /usr/lib/fpc/src/.gitignore
+## Files: 
+* /usr/lib/fpc/src/.gitignore
 * /usr/lib/fpc/src/compiler/aarch64/a64att.inc
 * /usr/lib/fpc/src/compiler/aarch64/a64atts.inc
 * /usr/lib/fpc/src/compiler/aarch64/a64ins.dat
@@ -18971,4 +18972,3 @@ Source code for Free Pascal Compiler
 * /usr/lib/fpc/src/utils/unicode/unihelper.lpr
 * /usr/lib/fpc/src/utils/unicode/weight_derivation.inc
 * /usr/lib/fpc/src/utils/usubst.pp
-{{< /files >}}

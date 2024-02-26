@@ -15,7 +15,8 @@ depends = "['kcmutils>=5.115.0', 'kdeclarative>=5.115.0', 'kio>=5.115.0', 'knews
 +++
 Touch Typing Tutor.
 
-{{< files text="show files" >}}* /usr/bin/ktouch
+## Files: 
+* /usr/bin/ktouch
 * /usr/share/applications/org.kde.ktouch.desktop
 * /usr/share/config.kcfg/ktouch.kcfg
 * /usr/share/doc/HTML/ca/ktouch/index.cache.bz2
@@ -346,4 +347,3 @@ Touch Typing Tutor.
 * /usr/share/man/sv/man1/ktouch.1.gz
 * /usr/share/man/uk/man1/ktouch.1.gz
 * /usr/share/metainfo/org.kde.ktouch.appdata.xml
-{{< /files >}}

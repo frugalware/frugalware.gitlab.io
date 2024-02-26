@@ -15,11 +15,11 @@ depends = "[]"
 +++
 Kdebindings Documentation
 
-{{< files text="show files" >}}* usr/share/doc/HTML/en/javalib/index-1.html
+## Files: 
+* usr/share/doc/HTML/en/javalib/index-1.html
 * usr/share/doc/HTML/en/javalib/index-2.html
 * usr/share/doc/HTML/en/javalib/index-3.html
 * usr/share/doc/HTML/en/javalib/index-4.html
 * usr/share/doc/HTML/en/javalib/index-5.html
 * usr/share/doc/HTML/en/javalib/index-6.html
 * usr/share/doc/HTML/en/javalib/index.html
-{{< /files >}}

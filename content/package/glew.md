@@ -16,7 +16,8 @@ reverse_depends = "['blender', 'box2d', 'flightgear', 'freeorion', 'kicad', 'lib
 +++
 GLEW is a cross-platform C/C++ extension loading library.
 
-{{< files text="show files" >}}* /usr/bin/glewinfo
+## Files: 
+* /usr/bin/glewinfo
 * /usr/bin/visualinfo
 * /usr/include/GL/glew.h
 * /usr/include/GL/glxew.h
@@ -26,4 +27,3 @@ GLEW is a cross-platform C/C++ extension loading library.
 * /usr/lib/libGLEW.so.2.2.0
 * /usr/lib/pkgconfig/glew.pc
 * /usr/share/doc/glew-2.2.0/README.md
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 Process accounting utilities
 
-{{< files text="show files" >}}* /usr/bin/ac
+## Files: 
+* /usr/bin/ac
 * /usr/bin/accton
 * /usr/bin/dump-acct
 * /usr/bin/dump-utmp
@@ -37,4 +38,3 @@ Process accounting utilities
 * /usr/share/man/man8/dump-utmp.8.gz
 * /usr/share/man/man8/sa.8.gz
 * /var/log/account/pacct
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Chrome OS core fonts
 
-{{< files text="show files" >}}* /usr/share/fonts/X11/TTF/Arimo-Bold.ttf
+## Files: 
+* /usr/share/fonts/X11/TTF/Arimo-Bold.ttf
 * /usr/share/fonts/X11/TTF/Arimo-BoldItalic.ttf
 * /usr/share/fonts/X11/TTF/Arimo-Italic.ttf
 * /usr/share/fonts/X11/TTF/Arimo-Regular.ttf
@@ -27,4 +28,3 @@ Chrome OS core fonts
 * /usr/share/fonts/X11/TTF/Tinos-BoldItalic.ttf
 * /usr/share/fonts/X11/TTF/Tinos-Italic.ttf
 * /usr/share/fonts/X11/TTF/Tinos-Regular.ttf
-{{< /files >}}

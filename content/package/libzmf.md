@@ -16,7 +16,8 @@ reverse_depends = "['libreoffice']"
 +++
 libzmf import filter library
 
-{{< files text="show files" >}}* /usr/bin/zmf2raw
+## Files: 
+* /usr/bin/zmf2raw
 * /usr/bin/zmf2svg
 * /usr/include/libzmf-0.0/libzmf/libzmf.h
 * /usr/include/libzmf-0.0/libzmf/ZMFDocument.h
@@ -29,4 +30,3 @@ libzmf import filter library
 * /usr/share/doc/libzmf-0.0.2/COPYING
 * /usr/share/doc/libzmf-0.0.2/NEWS
 * /usr/share/doc/libzmf-0.0.2/README
-{{< /files >}}

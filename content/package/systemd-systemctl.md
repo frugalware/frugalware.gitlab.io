@@ -16,5 +16,5 @@ reverse_depends = "['lvm2', 'systemd']"
 +++
 The systemd system and service manager
 
-{{< files text="show files" >}}* /usr/bin/systemctl
-{{< /files >}}
+## Files: 
+* /usr/bin/systemctl

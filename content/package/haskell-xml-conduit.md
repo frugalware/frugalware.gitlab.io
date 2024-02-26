@@ -16,7 +16,8 @@ reverse_depends = "['haskell-citeproc', 'haskell-skylighting-core', 'haskell-typ
 +++
 Pure-Haskell utilities for dealing with XML with the conduit package
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/xml-conduit-1.9.1.3/libHSxml-conduit-1.9.1.3-9IHEePnYko5I9vmKvLBU67.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/xml-conduit-1.9.1.3/libHSxml-conduit-1.9.1.3-9IHEePnYko5I9vmKvLBU67.a
 * /usr/lib/ghc-9.8.1/site-local/xml-conduit-1.9.1.3/Text/XML.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/xml-conduit-1.9.1.3/Text/XML.hi
 * /usr/lib/ghc-9.8.1/site-local/xml-conduit-1.9.1.3/Text/XML/Cursor.dyn_hi
@@ -76,4 +77,3 @@ Pure-Haskell utilities for dealing with XML with the conduit package
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/xml-conduit-1.9.1.3/LICENSE
 * /usr/share/haskell/haskell-xml-conduit/register.sh
 * /usr/share/haskell/haskell-xml-conduit/unregister.sh
-{{< /files >}}

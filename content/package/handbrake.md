@@ -16,8 +16,8 @@ reverse_depends = "['gtk-handbrake']"
 +++
 HandBrake is an open-source, multiplatform, multithreaded video transcoder
 
-{{< files text="show files" >}}* /usr/bin/HandBrakeCLI
+## Files: 
+* /usr/bin/HandBrakeCLI
 * /usr/share/doc/handbrake-1.6.1/COPYING
 * /usr/share/doc/handbrake-1.6.1/LICENSE
 * /usr/share/doc/handbrake-1.6.1/README.markdown
-{{< /files >}}

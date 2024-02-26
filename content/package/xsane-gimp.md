@@ -15,6 +15,6 @@ depends = "['gimp', 'xsane']"
 +++
 XSane Gimp plugin
 
-{{< files text="show files" >}}* /usr/bin/xsane-gimp
+## Files: 
+* /usr/bin/xsane-gimp
 * /usr/lib/gimp/2.0/plug-ins/xsane
-{{< /files >}}

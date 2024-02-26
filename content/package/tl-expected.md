@@ -15,10 +15,10 @@ depends = "['glibc>=2.34']"
 +++
 C++11/14/17 std::expected with functional-style extensions
 
-{{< files text="show files" >}}* /usr/include/tl/expected.hpp
+## Files: 
+* /usr/include/tl/expected.hpp
 * /usr/share/cmake/tl-expected/tl-expected-config-version.cmake
 * /usr/share/cmake/tl-expected/tl-expected-config.cmake
 * /usr/share/cmake/tl-expected/tl-expected-targets.cmake
 * /usr/share/doc/tl-expected-1.0.0/COPYING
 * /usr/share/doc/tl-expected-1.0.0/README.md
-{{< /files >}}

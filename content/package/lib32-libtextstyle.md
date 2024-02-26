@@ -16,7 +16,7 @@ reverse_depends = "['lib32-gettext']"
 +++
 gettext lib32
 
-{{< files text="show files" >}}* /usr/lib32/libtextstyle.so
+## Files: 
+* /usr/lib32/libtextstyle.so
 * /usr/lib32/libtextstyle.so.0
 * /usr/lib32/libtextstyle.so.0.2.1
-{{< /files >}}

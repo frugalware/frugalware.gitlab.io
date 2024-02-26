@@ -16,7 +16,8 @@ reverse_depends = "['gtkmm3']"
 +++
 C++ interface for glib2
 
-{{< files text="show files" >}}* /usr/include/giomm-2.4/giomm.h
+## Files: 
+* /usr/include/giomm-2.4/giomm.h
 * /usr/include/giomm-2.4/giomm/action.h
 * /usr/include/giomm-2.4/giomm/actiongroup.h
 * /usr/include/giomm-2.4/giomm/actionmap.h
@@ -473,4 +474,3 @@ C++ interface for glib2
 * /usr/share/doc/glibmm24-2.66.2/README
 * /usr/share/doc/glibmm24-2.66.2/README.SUN
 * /usr/share/doc/glibmm24-2.66.2/README.win32
-{{< /files >}}

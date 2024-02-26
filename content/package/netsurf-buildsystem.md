@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 The Netsurf buildsystem
 
-{{< files text="show files" >}}* /usr/share/doc/netsurf-buildsystem-1.10/AUTHORS
+## Files: 
+* /usr/share/doc/netsurf-buildsystem-1.10/AUTHORS
 * /usr/share/doc/netsurf-buildsystem-1.10/BUGS
 * /usr/share/doc/netsurf-buildsystem-1.10/ChangeLog
 * /usr/share/doc/netsurf-buildsystem-1.10/COPYING
@@ -36,4 +37,3 @@ The Netsurf buildsystem
 * /usr/share/netsurf-buildsystem/makefiles/Makefile.tools
 * /usr/share/netsurf-buildsystem/makefiles/Makefile.top
 * /usr/share/netsurf-buildsystem/testtools/testrunner.pl
-{{< /files >}}

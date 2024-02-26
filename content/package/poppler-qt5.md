@@ -16,7 +16,8 @@ reverse_depends = "['cantor', 'kdepim-addons', 'kfilemetadata5', 'kile', 'krita'
 +++
 Poppler QT5 bindings
 
-{{< files text="show files" >}}* /usr/include/poppler/qt5/poppler-annotation.h
+## Files: 
+* /usr/include/poppler/qt5/poppler-annotation.h
 * /usr/include/poppler/qt5/poppler-export.h
 * /usr/include/poppler/qt5/poppler-form.h
 * /usr/include/poppler/qt5/poppler-link.h
@@ -29,4 +30,3 @@ Poppler QT5 bindings
 * /usr/lib/libpoppler-qt5.so.1
 * /usr/lib/libpoppler-qt5.so.1.33.0
 * /usr/lib/pkgconfig/poppler-qt5.pc
-{{< /files >}}

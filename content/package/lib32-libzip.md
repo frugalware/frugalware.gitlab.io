@@ -15,7 +15,8 @@ depends = "['lib32-bzip2', 'lib32-gnutls', 'lib32-openssl>=3.0.7', 'lib32-zlib>=
 +++
 libzip is a C library for reading, creating, and modifying zip archives. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/zip.h
+## Files: 
+* /usr/i686-frugalware-linux/include/zip.h
 * /usr/lib32/cmake/libzip/libzip-config-version.cmake
 * /usr/lib32/cmake/libzip/libzip-config.cmake
 * /usr/lib32/cmake/libzip/libzip-targets-release.cmake
@@ -27,4 +28,3 @@ libzip is a C library for reading, creating, and modifying zip archives. ( 32bit
 * /usr/lib32/libzip.so.5
 * /usr/lib32/libzip.so.5.5
 * /usr/lib32/pkgconfig/libzip.pc
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['libmediainfo', 'vala']"
 +++
 Open Source Graph Visualization Software
 
-{{< files text="show files" >}}* /usr/bin/acyclic
+## Files: 
+* /usr/bin/acyclic
 * /usr/bin/bcomps
 * /usr/bin/ccomps
 * /usr/bin/circo
@@ -421,4 +422,3 @@ Open Source Graph Visualization Software
 * /usr/share/man/man3/tcldot.3tcl.gz
 * /usr/share/man/man3/xdot.3.gz
 * /usr/share/man/man7/graphviz.7.gz
-{{< /files >}}

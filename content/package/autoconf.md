@@ -16,7 +16,8 @@ reverse_depends = "['autoconf-archive']"
 +++
 A GNU tool for automatically configuring source code
 
-{{< files text="show files" >}}* /usr/bin/autoconf
+## Files: 
+* /usr/bin/autoconf
 * /usr/bin/autoheader
 * /usr/bin/autom4te
 * /usr/bin/autoreconf
@@ -89,4 +90,3 @@ A GNU tool for automatically configuring source code
 * /usr/share/man/man1/autoscan.1.gz
 * /usr/share/man/man1/autoupdate.1.gz
 * /usr/share/man/man1/ifnames.1.gz
-{{< /files >}}

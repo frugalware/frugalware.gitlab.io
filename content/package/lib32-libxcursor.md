@@ -16,9 +16,9 @@ reverse_depends = "['lib32-gtk+2-libs', 'wine', 'wine-devel']"
 +++
 X Cursor Library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/Xcursor/Xcursor.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/Xcursor/Xcursor.h
 * /usr/lib32/libXcursor.so
 * /usr/lib32/libXcursor.so.1
 * /usr/lib32/libXcursor.so.1.0.2
 * /usr/lib32/pkgconfig/xcursor.pc
-{{< /files >}}

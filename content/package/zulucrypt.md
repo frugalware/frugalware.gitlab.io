@@ -15,7 +15,8 @@ depends = "['cryptsetup-luks>=2.0.1', 'libpwquality>=1.3.0-4', 'libsecret>=0.18.
 +++
 A cli and GUI front end to cryptsetup
 
-{{< files text="show files" >}}* /usr/bin/zuluCrypt-cli
+## Files: 
+* /usr/bin/zuluCrypt-cli
 * /usr/bin/zuluCrypt-gui
 * /usr/bin/zuluMount-cli
 * /usr/bin/zuluMount-gui
@@ -81,4 +82,3 @@ A cli and GUI front end to cryptsetup
 * /usr/share/zuluCrypt/translations/zuluMount-gui/de_DE.qm
 * /usr/share/zuluCrypt/translations/zuluMount-gui/en_US.qm
 * /usr/share/zuluCrypt/translations/zuluMount-gui/fr_FR.qm
-{{< /files >}}

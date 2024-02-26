@@ -16,7 +16,8 @@ reverse_depends = "['fprintd']"
 +++
 Fingerprint Reader Library
 
-{{< files text="show files" >}}* /usr/include/libfprint-2/fp-context.h
+## Files: 
+* /usr/include/libfprint-2/fp-context.h
 * /usr/include/libfprint-2/fp-device.h
 * /usr/include/libfprint-2/fp-enums.h
 * /usr/include/libfprint-2/fp-image-device.h
@@ -168,4 +169,3 @@ Fingerprint Reader Library
 * /usr/share/installed-tests/libfprint-2/vfs7552/capture.ioctl
 * /usr/share/installed-tests/libfprint-2/vfs7552/capture.png
 * /usr/share/installed-tests/libfprint-2/vfs7552/device
-{{< /files >}}

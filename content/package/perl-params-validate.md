@@ -16,7 +16,8 @@ reverse_depends = "['perl-datetime', 'perl-datetime-locale', 'perl-datetime-time
 +++
 Validate sub params against a spec
 
-{{< files text="show files" >}}* /usr/lib/perl5/5.36/site_perl/auto/Params/Validate/XS/XS.bs
+## Files: 
+* /usr/lib/perl5/5.36/site_perl/auto/Params/Validate/XS/XS.bs
 * /usr/lib/perl5/5.36/site_perl/auto/Params/Validate/XS/XS.so
 * /usr/lib/perl5/5.36/site_perl/Params/Validate.pm
 * /usr/lib/perl5/5.36/site_perl/Params/Validate/Constants.pm
@@ -30,4 +31,3 @@ Validate sub params against a spec
 * /usr/share/doc/perl-params-validate-1.31/README.md
 * /usr/share/doc/perl-params-validate-1.31/TODO
 * /usr/share/man/man3/Params::Validate.3perl.gz
-{{< /files >}}

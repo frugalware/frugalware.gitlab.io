@@ -15,7 +15,8 @@ depends = "['incidenceeditor>=23.08.5', 'kdepim-runtime>=23.08.5', 'kontactinter
 +++
 KDE Personal Organizer.
 
-{{< files text="show files" >}}* /usr/bin/korganizer
+## Files: 
+* /usr/bin/korganizer
 * /usr/lib/libkorganizerprivate.so.5
 * /usr/lib/libkorganizerprivate.so.5.24.5
 * /usr/lib/libkorganizer_core.so
@@ -220,4 +221,3 @@ KDE Personal Organizer.
 * /usr/share/metainfo/org.kde.korganizer.appdata.xml
 * /usr/share/qlogging-categories5/korganizer.categories
 * /usr/share/qlogging-categories5/korganizer.renamecategories
-{{< /files >}}

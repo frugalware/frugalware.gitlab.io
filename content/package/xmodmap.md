@@ -17,11 +17,11 @@ license = "GPL2"
 +++
 utility for modifying keymaps and pointer button mappings in X
 
-{{< files text="show files" >}}* /usr/bin/xmodmap
+## Files: 
+* /usr/bin/xmodmap
 * /usr/share/doc/xmodmap-1.0.11/AUTHORS
 * /usr/share/doc/xmodmap-1.0.11/ChangeLog
 * /usr/share/doc/xmodmap-1.0.11/COPYING
 * /usr/share/doc/xmodmap-1.0.11/INSTALL
 * /usr/share/doc/xmodmap-1.0.11/README.md
 * /usr/share/man/man1/xmodmap.1.gz
-{{< /files >}}

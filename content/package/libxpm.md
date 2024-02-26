@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X Pixmap Library
 
-{{< files text="show files" >}}* /usr/bin/cxpm
+## Files: 
+* /usr/bin/cxpm
 * /usr/bin/sxpm
 * /usr/include/X11/xpm.h
 * /usr/lib/libXpm.so
@@ -73,4 +74,3 @@ X Pixmap Library
 * /usr/share/man/man3/XpmWriteFileFromImage.3.gz
 * /usr/share/man/man3/XpmWriteFileFromPixmap.3.gz
 * /usr/share/man/man3/XpmWriteFileFromXpmImage.3.gz
-{{< /files >}}

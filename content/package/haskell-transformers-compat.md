@@ -16,7 +16,8 @@ reverse_depends = "['haskell-comonad', 'haskell-glob', 'haskell-mmorph', 'haskel
 +++
 A small compatibility shim exposing the new types from transformers 0.3 and 0.4 to older Haskell platforms.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/transformers-compat-0.7.2/Control/Monad/Trans/Instances.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/transformers-compat-0.7.2/Control/Monad/Trans/Instances.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/transformers-compat-0.7.2/Control/Monad/Trans/Instances.hi
 * /usr/lib/ghc-9.8.1/site-local/transformers-compat-0.7.2/Data/Functor/Classes/Generic.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/transformers-compat-0.7.2/Data/Functor/Classes/Generic.hi
@@ -42,4 +43,3 @@ A small compatibility shim exposing the new types from transformers 0.3 and 0.4 
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/transformers-compat-0.7.2/LICENSE
 * /usr/share/haskell/haskell-transformers-compat/register.sh
 * /usr/share/haskell/haskell-transformers-compat/unregister.sh
-{{< /files >}}

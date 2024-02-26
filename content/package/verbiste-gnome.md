@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Generates conjugations of french verbs - with gnome-panel applet
 
-{{< files text="show files" >}}* /usr/libexec/verbiste-applet
-{{< /files >}}
+## Files: 
+* /usr/libexec/verbiste-applet

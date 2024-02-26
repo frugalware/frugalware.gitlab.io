@@ -16,11 +16,11 @@ license = "GPL2"
 +++
 X.Org xcursorgen application
 
-{{< files text="show files" >}}* /usr/bin/xcursorgen
+## Files: 
+* /usr/bin/xcursorgen
 * /usr/share/doc/xcursorgen-1.0.8/AUTHORS
 * /usr/share/doc/xcursorgen-1.0.8/ChangeLog
 * /usr/share/doc/xcursorgen-1.0.8/COPYING
 * /usr/share/doc/xcursorgen-1.0.8/INSTALL
 * /usr/share/doc/xcursorgen-1.0.8/README.md
 * /usr/share/man/man1/xcursorgen.1.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['pcre2', 'qt5-svg>=5.15.10', 'vulkan-icd-loader']"
 +++
 Vulkan Header files and API registry
 
-{{< files text="show files" >}}* /usr/bin/vkconfig
+## Files: 
+* /usr/bin/vkconfig
 * /usr/lib/libVkLayer_api_dump.so
 * /usr/lib/libVkLayer_monitor.so
 * /usr/lib/libVkLayer_screenshot.so
@@ -23,4 +24,3 @@ Vulkan Header files and API registry
 * /usr/share/vulkan/explicit_layer.d/VkLayer_api_dump.json
 * /usr/share/vulkan/explicit_layer.d/VkLayer_monitor.json
 * /usr/share/vulkan/explicit_layer.d/VkLayer_screenshot.json
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['quilt']"
 +++
 A utility to apply patch files to original sources
 
-{{< files text="show files" >}}* /usr/bin/patch
+## Files: 
+* /usr/bin/patch
 * /usr/share/doc/patch-2.7.6/AUTHORS
 * /usr/share/doc/patch-2.7.6/ChangeLog
 * /usr/share/doc/patch-2.7.6/COPYING
@@ -25,4 +26,3 @@ A utility to apply patch files to original sources
 * /usr/share/doc/patch-2.7.6/README
 * /usr/share/doc/patch-2.7.6/TODO
 * /usr/share/man/man1/patch.1.gz
-{{< /files >}}

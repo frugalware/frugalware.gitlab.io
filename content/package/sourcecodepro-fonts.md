@@ -15,7 +15,8 @@ depends = "['fontconfig', 'mkfontscale']"
 +++
 A set of monospaced OpenType fonts designed for coding environments.
 
-{{< files text="show files" >}}* /usr/share/doc/sourcecodepro-fonts-1.030R/LICENSE.txt
+## Files: 
+* /usr/share/doc/sourcecodepro-fonts-1.030R/LICENSE.txt
 * /usr/share/doc/sourcecodepro-fonts-1.030R/README.md
 * /usr/share/fonts/X11/OTF/SourceCodePro-Black.otf
 * /usr/share/fonts/X11/OTF/SourceCodePro-BlackIt.otf
@@ -45,4 +46,3 @@ A set of monospaced OpenType fonts designed for coding environments.
 * /usr/share/fonts/X11/TTF/SourceCodePro-Regular.ttf
 * /usr/share/fonts/X11/TTF/SourceCodePro-Semibold.ttf
 * /usr/share/fonts/X11/TTF/SourceCodePro-SemiboldIt.ttf
-{{< /files >}}

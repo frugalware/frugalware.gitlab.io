@@ -16,7 +16,8 @@ reverse_depends = "['libselinux']"
 +++
 SELinux binary policy manipulation library
 
-{{< files text="show files" >}}* /usr/bin/chkcon
+## Files: 
+* /usr/bin/chkcon
 * /usr/bin/sepol_check_access
 * /usr/bin/sepol_compute_av
 * /usr/bin/sepol_compute_member
@@ -77,4 +78,3 @@ SELinux binary policy manipulation library
 * /usr/share/man/man8/chkcon.8.gz
 * /usr/share/man/man8/genpolbools.8.gz
 * /usr/share/man/man8/genpolusers.8.gz
-{{< /files >}}

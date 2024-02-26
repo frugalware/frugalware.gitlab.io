@@ -16,7 +16,8 @@ reverse_depends = "['c-client', 'cifs-utils', 'cyrus-sasl', 'cyrus-sasl-gssapiv2
 +++
 krb5 libraries files.
 
-{{< files text="show files" >}}* /usr/include/gssapi.h
+## Files: 
+* /usr/include/gssapi.h
 * /usr/include/gssapi/gssapi.h
 * /usr/include/gssapi/gssapi_alloc.h
 * /usr/include/gssapi/gssapi_ext.h
@@ -102,4 +103,3 @@ krb5 libraries files.
 * /usr/lib/pkgconfig/krb5.pc
 * /usr/lib/pkgconfig/mit-krb5-gssapi.pc
 * /usr/lib/pkgconfig/mit-krb5.pc
-{{< /files >}}

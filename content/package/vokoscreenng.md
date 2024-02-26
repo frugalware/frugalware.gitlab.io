@@ -15,9 +15,9 @@ depends = "['gstreamer1', 'qt5-multimedia>=5.15.10', 'qt5-x11extras>=5.15.10']"
 +++
 Screencasting tool for Linux
 
-{{< files text="show files" >}}* /usr/bin/vokoscreenNG
+## Files: 
+* /usr/bin/vokoscreenNG
 * /usr/share/doc/vokoscreenng-3.6.0/COPYING
 * /usr/share/doc/vokoscreenng-3.6.0/INSTALL
 * /usr/share/doc/vokoscreenng-3.6.0/README
 * /usr/share/doc/vokoscreenng-3.6.0/TODO
-{{< /files >}}

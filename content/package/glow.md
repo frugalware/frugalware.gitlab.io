@@ -15,7 +15,7 @@ depends = "['glibc']"
 +++
 Markdown renderer for the CLI
 
-{{< files text="show files" >}}* /usr/bin/glow
+## Files: 
+* /usr/bin/glow
 * /usr/share/doc/glow-1.5.1/LICENSE
 * /usr/share/doc/glow-1.5.1/README.md
-{{< /files >}}

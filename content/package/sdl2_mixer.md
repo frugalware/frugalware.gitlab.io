@@ -16,7 +16,8 @@ reverse_depends = "['augustus', 'easyrpg-player', 'enigma', 'freeciv', 'julius',
 +++
 SDL2 Mixer library
 
-{{< files text="show files" >}}* /usr/include/SDL2/SDL_mixer.h
+## Files: 
+* /usr/include/SDL2/SDL_mixer.h
 * /usr/lib/cmake/SDL2_mixer/sdl2_mixer-config-version.cmake
 * /usr/lib/cmake/SDL2_mixer/sdl2_mixer-config.cmake
 * /usr/lib/libSDL2_mixer-2.0.so.0
@@ -24,4 +25,3 @@ SDL2 Mixer library
 * /usr/lib/libSDL2_mixer.so
 * /usr/lib/pkgconfig/SDL2_mixer.pc
 * /usr/share/doc/sdl2_mixer-2.8.0/README.txt
-{{< /files >}}

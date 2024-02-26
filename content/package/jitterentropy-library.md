@@ -16,7 +16,8 @@ reverse_depends = "['rng-tools']"
 +++
 Hardware RNG based on CPU timing jitter
 
-{{< files text="show files" >}}* /usr/include/jitterentropy-base-user.h
+## Files: 
+* /usr/include/jitterentropy-base-user.h
 * /usr/include/jitterentropy.h
 * /usr/lib/libjitterentropy.so
 * /usr/lib/libjitterentropy.so.3
@@ -24,4 +25,3 @@ Hardware RNG based on CPU timing jitter
 * /usr/share/doc/jitterentropy-library-3.4.1/LICENSE
 * /usr/share/doc/jitterentropy-library-3.4.1/README.md
 * /usr/share/man/man3/jitterentropy.3.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['lib32-libegl', 'lib32-libgbm', 'lib32-libgl', 'lib32-libosm
 +++
 X.Org Userspace interface to kernel DRM services ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/amdgpu_stress
+## Files: 
+* /usr/i686-frugalware-linux/bin/amdgpu_stress
 * /usr/i686-frugalware-linux/bin/drmdevice
 * /usr/i686-frugalware-linux/bin/modeprint
 * /usr/i686-frugalware-linux/bin/modetest
@@ -85,4 +86,3 @@ X.Org Userspace interface to kernel DRM services ( 32bit )
 * /usr/lib32/pkgconfig/libdrm_intel.pc
 * /usr/lib32/pkgconfig/libdrm_nouveau.pc
 * /usr/lib32/pkgconfig/libdrm_radeon.pc
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['ogre', 'opencascade']"
 +++
 Image library
 
-{{< files text="show files" >}}* /usr/include/FreeImage.h
+## Files: 
+* /usr/include/FreeImage.h
 * /usr/include/FreeImagePlus.h
 * /usr/lib/libfreeimage-3.18.0.so
 * /usr/lib/libfreeimage.a
@@ -32,4 +33,3 @@ Image library
 * /usr/share/doc/freeimage-3.18.0/README.minGW
 * /usr/share/doc/freeimage-3.18.0/README.osx
 * /usr/share/doc/freeimage-3.18.0/README.solaris
-{{< /files >}}

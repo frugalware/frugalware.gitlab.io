@@ -15,7 +15,8 @@ depends = "['karchive>=5.115.0', 'ki18n>=5.115.0', 'kiconthemes>=5.115.0', 'kio>
 +++
 Backup program for KDE.
 
-{{< files text="show files" >}}* /usr/bin/kbackup
+## Files: 
+* /usr/bin/kbackup
 * /usr/share/applications/org.kde.kbackup.desktop
 * /usr/share/doc/HTML/ca/kbackup/index.cache.bz2
 * /usr/share/doc/HTML/ca/kbackup/index.docbook
@@ -93,4 +94,3 @@ Backup program for KDE.
 * /usr/share/man/uk/man1/kbackup.1.gz
 * /usr/share/metainfo/org.kde.kbackup.appdata.xml
 * /usr/share/mime/packages/kbackup.xml
-{{< /files >}}

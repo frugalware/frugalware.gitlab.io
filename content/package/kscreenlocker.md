@@ -16,7 +16,8 @@ reverse_depends = "['kwin5']"
 +++
 KDE Screenlocker
 
-{{< files text="show files" >}}* /usr/include/KScreenLocker/KScreenLocker/kscreenlocker_export.h
+## Files: 
+* /usr/include/KScreenLocker/KScreenLocker/kscreenlocker_export.h
 * /usr/include/KScreenLocker/KScreenLocker/KsldApp
 * /usr/include/KScreenLocker/KScreenLocker/ksldapp.h
 * /usr/lib/cmake/KScreenLocker/KScreenLockerConfig.cmake
@@ -203,4 +204,3 @@ KDE Screenlocker
 * /usr/share/locale/zh_TW/LC_MESSAGES/kscreenlocker.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kscreenlocker_greet.mo
 * /usr/share/qlogging-categories5/kscreenlocker.categories
-{{< /files >}}

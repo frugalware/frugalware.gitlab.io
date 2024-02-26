@@ -16,7 +16,8 @@ reverse_depends = "['howdy']"
 +++
 Fce_recognition python library
 
-{{< files text="show files" >}}* /usr/bin/face_detection
+## Files: 
+* /usr/bin/face_detection
 * /usr/bin/face_recognition
 * /usr/lib/python3.12/site-packages/face_recognition-1.3.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/face_recognition-1.3.0-py3.12.egg-info/entry_points.txt
@@ -38,4 +39,3 @@ Fce_recognition python library
 * /usr/share/doc/face_recognition-1.3.0/NEWS
 * /usr/share/doc/face_recognition-1.3.0/README
 * /usr/share/doc/face_recognition-1.3.0/README.rst
-{{< /files >}}

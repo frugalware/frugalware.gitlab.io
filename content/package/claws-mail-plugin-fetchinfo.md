@@ -15,5 +15,5 @@ depends = "['claws-mail=4.1.1']"
 +++
 This plugin inserts headers containing some download information.
 
-{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/fetchinfo.so
-{{< /files >}}
+## Files: 
+* /usr/lib/claws-mail/plugins/fetchinfo.so

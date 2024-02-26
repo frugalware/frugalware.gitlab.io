@@ -16,7 +16,8 @@ reverse_depends = "['haskell-x509']"
 +++
 Cryptography Primitives sink
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/cryptonite-0.30/Crypto/Cipher/AES.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/cryptonite-0.30/Crypto/Cipher/AES.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/cryptonite-0.30/Crypto/Cipher/AES.hi
 * /usr/lib/ghc-9.8.1/site-local/cryptonite-0.30/Crypto/Cipher/AES/Primitive.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/cryptonite-0.30/Crypto/Cipher/AES/Primitive.hi
@@ -413,4 +414,3 @@ Cryptography Primitives sink
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/cryptonite-0.30/LICENSE
 * /usr/share/haskell/haskell-cryptonite/register.sh
 * /usr/share/haskell/haskell-cryptonite/unregister.sh
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libxcrypt', 'uwsgi']"
 +++
 UWSGI Router Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/corerouter_plugin.so
+## Files: 
+* /usr/lib/uwsgi/corerouter_plugin.so
 * /usr/lib/uwsgi/fastrouter_plugin.so
 * /usr/lib/uwsgi/forkptyrouter_plugin.so
 * /usr/lib/uwsgi/rawrouter_plugin.so
@@ -33,4 +34,3 @@ UWSGI Router Plugin
 * /usr/lib/uwsgi/router_static_plugin.so
 * /usr/lib/uwsgi/router_uwsgi_plugin.so
 * /usr/lib/uwsgi/sslrouter_plugin.so
-{{< /files >}}

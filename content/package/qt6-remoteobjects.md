@@ -15,7 +15,8 @@ depends = "['qt6-declarative']"
 +++
 The Qt6 toolkit, qtremoteobjects
 
-{{< files text="show files" >}}* /usr/include/qt6/QtRemoteObjects/6.6.2/QtRemoteObjects/private/qconnectionfactories_p.h
+## Files: 
+* /usr/include/qt6/QtRemoteObjects/6.6.2/QtRemoteObjects/private/qconnectionfactories_p.h
 * /usr/include/qt6/QtRemoteObjects/6.6.2/QtRemoteObjects/private/qconnection_local_backend_p.h
 * /usr/include/qt6/QtRemoteObjects/6.6.2/QtRemoteObjects/private/qconnection_tcpip_backend_p.h
 * /usr/include/qt6/QtRemoteObjects/6.6.2/QtRemoteObjects/private/qremoteobjectabstractitemmodeladapter_p.h
@@ -147,4 +148,3 @@ The Qt6 toolkit, qtremoteobjects
 * /usr/lib/qt6/qml/QtRemoteObjects/plugins.qmltypes
 * /usr/lib/qt6/qml/QtRemoteObjects/qmldir
 * /usr/lib/qt6/repc
-{{< /files >}}

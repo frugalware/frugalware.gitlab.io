@@ -16,7 +16,8 @@ reverse_depends = "['grub2', 'hw-probe']"
 +++
 A program for modifying the EFI boot manager.
 
-{{< files text="show files" >}}* /usr/bin/efibootmgr
+## Files: 
+* /usr/bin/efibootmgr
 * /usr/share/doc/efibootmgr-18/AUTHORS
 * /usr/share/doc/efibootmgr-18/COPYING
 * /usr/share/doc/efibootmgr-18/INSTALL
@@ -24,4 +25,3 @@ A program for modifying the EFI boot manager.
 * /usr/share/doc/efibootmgr-18/README.md
 * /usr/share/doc/efibootmgr-18/TODO
 * /usr/share/man/man8/efibootmgr.8.gz
-{{< /files >}}

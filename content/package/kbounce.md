@@ -15,7 +15,8 @@ depends = "['libkdegames>=23.08.5', 'qt5-svg>=5.15.12']"
 +++
 A single player arcade game with the elements of puzzle.
 
-{{< files text="show files" >}}* /usr/bin/kbounce
+## Files: 
+* /usr/bin/kbounce
 * /usr/share/applications/org.kde.kbounce.desktop
 * /usr/share/doc/HTML/ca/kbounce/index.cache.bz2
 * /usr/share/doc/HTML/ca/kbounce/index.docbook
@@ -168,4 +169,3 @@ A single player arcade game with the elements of puzzle.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kbounce.mo
 * /usr/share/metainfo/org.kde.kbounce.appdata.xml
 * /usr/share/qlogging-categories5/kbounce.categories
-{{< /files >}}

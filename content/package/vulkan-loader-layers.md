@@ -15,7 +15,7 @@ depends = "['libstdc++>=11.3']"
 +++
 Vulkan Validation Layers
 
-{{< files text="show files" >}}* /usr/lib/libVkLayer_khronos_validation.so
+## Files: 
+* /usr/lib/libVkLayer_khronos_validation.so
 * /usr/share/doc/vulkan-loader-layers-1.3.275.0/README.md
 * /usr/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json
-{{< /files >}}

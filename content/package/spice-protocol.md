@@ -16,7 +16,8 @@ reverse_depends = "['qemu', 'qt-virt-manager', 'xf86-video-qxl']"
 +++
 Simple Protocol for Independent Computing Environments
 
-{{< files text="show files" >}}* /usr/include/spice-1/spice/barrier.h
+## Files: 
+* /usr/include/spice-1/spice/barrier.h
 * /usr/include/spice-1/spice/end-packed.h
 * /usr/include/spice-1/spice/enums.h
 * /usr/include/spice-1/spice/ipc_ring.h
@@ -32,4 +33,3 @@ Simple Protocol for Independent Computing Environments
 * /usr/lib/pkgconfig/spice-protocol.pc
 * /usr/share/doc/spice-protocol-0.14.4/COPYING
 * /usr/share/doc/spice-protocol-0.14.4/README.md
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "['freerdp']"
 +++
 rdp plugin for remmina
 
-{{< files text="show files" >}}* /usr/lib/remmina/plugins/remmina-plugin-rdp.so
-{{< /files >}}
+## Files: 
+* /usr/lib/remmina/plugins/remmina-plugin-rdp.so

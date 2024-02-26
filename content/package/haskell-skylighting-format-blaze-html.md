@@ -16,7 +16,8 @@ reverse_depends = "['haskell-skylighting']"
 +++
 HTML formatter for skylighting syntax highlighting library
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/skylighting-format-blaze-html-0.1.1.1/libHSskylighting-format-blaze-html-0.1.1.1-INX77vJFyhY2Qxrgiey57W.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/skylighting-format-blaze-html-0.1.1.1/libHSskylighting-format-blaze-html-0.1.1.1-INX77vJFyhY2Qxrgiey57W.a
 * /usr/lib/ghc-9.8.1/site-local/skylighting-format-blaze-html-0.1.1.1/Skylighting/Format/HTML.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/skylighting-format-blaze-html-0.1.1.1/Skylighting/Format/HTML.hi
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSskylighting-format-blaze-html-0.1.1.1-INX77vJFyhY2Qxrgiey57W-ghc9.8.1.so
@@ -34,4 +35,3 @@ HTML formatter for skylighting syntax highlighting library
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/skylighting-format-blaze-html-0.1.1.1/LICENSE
 * /usr/share/haskell/haskell-skylighting-format-blaze-html/register.sh
 * /usr/share/haskell/haskell-skylighting-format-blaze-html/unregister.sh
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['libreoffice']"
 +++
 Standalone file import filter library for spreadsheet documents
 
-{{< files text="show files" >}}* /usr/bin/orcus-css-dump
+## Files: 
+* /usr/bin/orcus-css-dump
 * /usr/bin/orcus-detect
 * /usr/bin/orcus-json
 * /usr/bin/orcus-mso-encryption
@@ -98,4 +99,3 @@ Standalone file import filter library for spreadsheet documents
 * /usr/share/doc/liborcus-0.19.2/CHANGELOG
 * /usr/share/doc/liborcus-0.19.2/LICENSE
 * /usr/share/doc/liborcus-0.19.2/README.md
-{{< /files >}}

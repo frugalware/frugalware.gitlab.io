@@ -16,11 +16,11 @@ reverse_depends = "['libcss', 'libdom']"
 +++
 A string internment library, written in C.
 
-{{< files text="show files" >}}* /usr/include/libwapcaplet/libwapcaplet.h
+## Files: 
+* /usr/include/libwapcaplet/libwapcaplet.h
 * /usr/lib/libwapcaplet.so
 * /usr/lib/libwapcaplet.so.0
 * /usr/lib/libwapcaplet.so.0.4.3
 * /usr/lib/pkgconfig/libwapcaplet.pc
 * /usr/share/doc/libwapcaplet-0.4.3/COPYING
 * /usr/share/doc/libwapcaplet-0.4.3/README
-{{< /files >}}

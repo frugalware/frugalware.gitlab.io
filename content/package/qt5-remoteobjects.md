@@ -15,7 +15,8 @@ depends = "['qt5-declarative>=5.15.12']"
 +++
 The Qt5 toolkit, qtremoteobjects
 
-{{< files text="show files" >}}* /usr/bin/repc
+## Files: 
+* /usr/bin/repc
 * /usr/bin/repc-qt5
 * /usr/include/qt5/QtRemoteObjects/5.15.12/QtRemoteObjects/private/qconnectionfactories_p.h
 * /usr/include/qt5/QtRemoteObjects/5.15.12/QtRemoteObjects/private/qconnection_local_backend_p.h
@@ -107,4 +108,3 @@ The Qt5 toolkit, qtremoteobjects
 * /usr/share/qt5/qml/QtRemoteObjects/libqtremoteobjects.so
 * /usr/share/qt5/qml/QtRemoteObjects/plugins.qmltypes
 * /usr/share/qt5/qml/QtRemoteObjects/qmldir
-{{< /files >}}

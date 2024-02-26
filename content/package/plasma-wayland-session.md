@@ -15,6 +15,6 @@ depends = "['kpipewire', 'kwayland-integration', 'plasma-workspace', 'qt5-waylan
 +++
 Plasma Wayland session
 
-{{< files text="show files" >}}* /usr/bin/startplasma-wayland
+## Files: 
+* /usr/bin/startplasma-wayland
 * /usr/share/wayland-sessions/plasmawayland.desktop
-{{< /files >}}

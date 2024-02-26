@@ -16,7 +16,8 @@ reverse_depends = "['lib32-libcaca', 'lib32-newt']"
 +++
 S-Lang is a powerful interpreted language ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/slsh
+## Files: 
+* /usr/i686-frugalware-linux/bin/slsh
 * /usr/i686-frugalware-linux/include/slang.h
 * /usr/i686-frugalware-linux/include/slcurses.h
 * /usr/lib32/libslang.so
@@ -41,4 +42,3 @@ S-Lang is a powerful interpreted language ( 32bit )
 * /usr/lib32/slang/v2/modules/termios-module.so
 * /usr/lib32/slang/v2/modules/varray-module.so
 * /usr/lib32/slang/v2/modules/zlib-module.so
-{{< /files >}}

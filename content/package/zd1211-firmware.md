@@ -15,7 +15,8 @@ depends = "[]"
 +++
 ZyDAS ZD1211 802.11b/g USB WLAN chipset Linux drivers Firmware
 
-{{< files text="show files" >}}* /usr/lib/firmware/zd1211/COPYING
+## Files: 
+* /usr/lib/firmware/zd1211/COPYING
 * /usr/lib/firmware/zd1211/WS11Ub.h
 * /usr/lib/firmware/zd1211/WS11UPh.h
 * /usr/lib/firmware/zd1211/WS11UPhm.h
@@ -34,4 +35,3 @@ ZyDAS ZD1211 802.11b/g USB WLAN chipset Linux drivers Firmware
 * /usr/lib/firmware/zd1211/zd1211_ur
 * /usr/share/doc/zd1211-firmware-1.5/COPYING
 * /usr/share/doc/zd1211-firmware-1.5/README
-{{< /files >}}

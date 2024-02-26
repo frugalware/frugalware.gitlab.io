@@ -16,7 +16,8 @@ reverse_depends = "['python3-gunicorn']"
 +++
 Highly concurrent networking library
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/eventlet-0.33.3-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/eventlet-0.33.3-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/eventlet-0.33.3-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/eventlet-0.33.3-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/eventlet-0.33.3-py3.12.egg-info/requires.txt
@@ -208,4 +209,3 @@ Highly concurrent networking library
 * /usr/share/doc/python3-eventlet-0.33.3/LICENSE
 * /usr/share/doc/python3-eventlet-0.33.3/NEWS
 * /usr/share/doc/python3-eventlet-0.33.3/README.rst
-{{< /files >}}

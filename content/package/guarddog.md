@@ -15,7 +15,8 @@ depends = "['expat', 'iptables', 'libdrm', 'libgl', 'libstdc++', 'libxi', 'libxm
 +++
 Guarddog is a firewall configuration utility for Linux systems.
 
-{{< files text="show files" >}}* usr/bin/guarddog
+## Files: 
+* usr/bin/guarddog
 * usr/share/applnk/System/guarddog.desktop
 * usr/share/apps/guarddog/networkprotocoldb.xml
 * usr/share/apps/guarddog/pics/advanced.png
@@ -76,4 +77,3 @@ Guarddog is a firewall configuration utility for Linux systems.
 * usr/share/locale/ru/LC_MESSAGES/guarddog.mo
 * usr/share/sgml/protocoldb/1.0/protocoldb.dtd
 * usr/share/sgml/protocoldb/xmlcatalog
-{{< /files >}}

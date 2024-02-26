@@ -16,7 +16,8 @@ reverse_depends = "['inxi', 'ksensors', 'ksysguard5', 'libksysguard5', 'mesa-dri
 +++
 Linux System Hardware Monitor
 
-{{< files text="show files" >}}* /etc/sensors3.conf
+## Files: 
+* /etc/sensors3.conf
 * /usr/bin/fancontrol
 * /usr/bin/isadump
 * /usr/bin/isaset
@@ -48,4 +49,3 @@ Linux System Hardware Monitor
 * /usr/share/man/man8/pwmconfig.8.gz
 * /usr/share/man/man8/sensors-conf-convert.8.gz
 * /usr/share/man/man8/sensors-detect.8.gz
-{{< /files >}}

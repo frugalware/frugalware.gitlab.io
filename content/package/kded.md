@@ -16,7 +16,8 @@ reverse_depends = "['bluedevil5', 'kdelibs4support', 'kio']"
 +++
 Central daemon of KDE workspaces.
 
-{{< files text="show files" >}}* /usr/bin/kded5
+## Files: 
+* /usr/bin/kded5
 * /usr/lib/cmake/KDED/KDEDConfig.cmake
 * /usr/lib/cmake/KDED/KDEDConfigVersion.cmake
 * /usr/lib/systemd/user/plasma-kded.service
@@ -40,4 +41,3 @@ Central daemon of KDE workspaces.
 * /usr/share/man/uk/man8/kded5.8.gz
 * /usr/share/qlogging-categories5/kded.categories
 * /usr/share/qlogging-categories5/kded.renamecategories
-{{< /files >}}

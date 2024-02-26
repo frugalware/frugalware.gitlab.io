@@ -15,7 +15,8 @@ depends = "['gtk+2']"
 +++
 A clone of the famous Siedler of Catan game
 
-{{< files text="show files" >}}* /usr/bin/pioneers-metaserver
+## Files: 
+* /usr/bin/pioneers-metaserver
 * /usr/bin/pioneers-server-console
 * /usr/bin/pioneersai
 * /usr/share/doc/pioneers-15.6/AUTHORS
@@ -117,4 +118,3 @@ A clone of the famous Siedler of Catan game
 * /usr/share/man/man6/pioneers-server-gtk.6.gz
 * /usr/share/man/man6/pioneers.6.gz
 * /usr/share/man/man6/pioneersai.6.gz
-{{< /files >}}

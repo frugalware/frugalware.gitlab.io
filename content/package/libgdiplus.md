@@ -16,7 +16,8 @@ reverse_depends = "['keepass']"
 +++
 libgdiplus is an implementation of the GDI+ library on Windows
 
-{{< files text="show files" >}}* /usr/lib/libgdiplus.so
+## Files: 
+* /usr/lib/libgdiplus.so
 * /usr/lib/libgdiplus.so.0
 * /usr/lib/libgdiplus.so.0.0.0
 * /usr/lib/pkgconfig/libgdiplus.pc
@@ -28,4 +29,3 @@ libgdiplus is an implementation of the GDI+ library on Windows
 * /usr/share/doc/libgdiplus-6.1/NEWS
 * /usr/share/doc/libgdiplus-6.1/README.md
 * /usr/share/doc/libgdiplus-6.1/TODO
-{{< /files >}}

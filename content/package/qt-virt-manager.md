@@ -15,7 +15,8 @@ depends = "['hicolor-icon-theme', 'krdc', 'libvirt>=3.8.0', 'libvncserver>=0.9.1
 +++
 A GUI application for managing virtual machines.
 
-{{< files text="show files" >}}* /usr/bin/qt5-remote-viewer
+## Files: 
+* /usr/bin/qt5-remote-viewer
 * /usr/bin/qt5-virt-manager
 * /usr/share/applications/qt5-remote-viewer.desktop
 * /usr/share/applications/qt5-virt-manager.desktop
@@ -38,4 +39,3 @@ A GUI application for managing virtual machines.
 * /usr/share/qt5-virt-manager/misc/network/host-bridge.xml
 * /usr/share/qt5-virt-manager/misc/network/local.xml
 * /usr/share/qt5-virt-manager/misc/network/private.xml
-{{< /files >}}

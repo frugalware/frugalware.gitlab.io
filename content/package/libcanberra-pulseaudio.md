@@ -16,5 +16,5 @@ reverse_depends = "['plasma-pa']"
 +++
 pulseaudio libcanberra
 
-{{< files text="show files" >}}* /usr/lib/libcanberra-0.30/libcanberra-pulse.so
-{{< /files >}}
+## Files: 
+* /usr/lib/libcanberra-0.30/libcanberra-pulse.so

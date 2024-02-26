@@ -16,7 +16,8 @@ reverse_depends = "['lib32-gtk+2-libs']"
 +++
 Gnome Accessibility Toolkit ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/at-spi-2.0/atspi/atspi-accessible.h
+## Files: 
+* /usr/i686-frugalware-linux/include/at-spi-2.0/atspi/atspi-accessible.h
 * /usr/i686-frugalware-linux/include/at-spi-2.0/atspi/atspi-action.h
 * /usr/i686-frugalware-linux/include/at-spi-2.0/atspi/atspi-application.h
 * /usr/i686-frugalware-linux/include/at-spi-2.0/atspi/atspi-collection.h
@@ -100,4 +101,3 @@ Gnome Accessibility Toolkit ( 32bit )
 * /usr/lib32/pkgconfig/atk-bridge-2.0.pc
 * /usr/lib32/pkgconfig/atk.pc
 * /usr/lib32/pkgconfig/atspi-2.pc
-{{< /files >}}

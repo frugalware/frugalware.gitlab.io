@@ -15,7 +15,8 @@ depends = "['php']"
 +++
 Set of PHP-scripts to administrate PostgreSQL over the WWW.
 
-{{< files text="show files" >}}* /usr/share/doc/phppgadmin-5.1/CREDITS
+## Files: 
+* /usr/share/doc/phppgadmin-5.1/CREDITS
 * /usr/share/doc/phppgadmin-5.1/FAQ
 * /usr/share/doc/phppgadmin-5.1/HISTORY
 * /usr/share/doc/phppgadmin-5.1/INSTALL
@@ -382,4 +383,3 @@ Set of PHP-scripts to administrate PostgreSQL over the WWW.
 * /var/www/html/phppgadmin-5.1/views.php
 * /var/www/html/phppgadmin-5.1/xloadtree/xloadtree2.js
 * /var/www/html/phppgadmin-5.1/xloadtree/xtree2.js
-{{< /files >}}

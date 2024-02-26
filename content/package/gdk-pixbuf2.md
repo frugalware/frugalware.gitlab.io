@@ -16,7 +16,8 @@ reverse_depends = "['castor', 'flatpak', 'gail', 'gdk-pixbuf-xlib', 'get_steam',
 +++
 An image loading library
 
-{{< files text="show files" >}}* /usr/bin/gdk-pixbuf-csource
+## Files: 
+* /usr/bin/gdk-pixbuf-csource
 * /usr/bin/gdk-pixbuf-pixdata
 * /usr/bin/gdk-pixbuf-query-loaders
 * /usr/bin/gdk-pixbuf-thumbnailer
@@ -154,4 +155,3 @@ An image loading library
 * /usr/share/locale/zh_HK/LC_MESSAGES/gdk-pixbuf.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/gdk-pixbuf.mo
 * /usr/share/thumbnailers/gdk-pixbuf-thumbnailer.thumbnailer
-{{< /files >}}

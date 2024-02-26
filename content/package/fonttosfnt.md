@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 Wrap a bitmap font in a sfnt (TrueType) wrapper
 
-{{< files text="show files" >}}* /usr/bin/fonttosfnt
+## Files: 
+* /usr/bin/fonttosfnt
 * /usr/share/doc/fonttosfnt-1.2.3/ChangeLog
 * /usr/share/doc/fonttosfnt-1.2.3/COPYING
 * /usr/share/doc/fonttosfnt-1.2.3/INSTALL
 * /usr/share/doc/fonttosfnt-1.2.3/README.md
 * /usr/share/man/man1/fonttosfnt.1.gz
-{{< /files >}}

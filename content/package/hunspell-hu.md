@@ -15,7 +15,7 @@ depends = "['hunspell>=1.1.3']"
 +++
 Hungarian dictionary for Hunspell
 
-{{< files text="show files" >}}* /usr/share/doc/hunspell-hu-1.6.1/README_hu_HU.txt
+## Files: 
+* /usr/share/doc/hunspell-hu-1.6.1/README_hu_HU.txt
 * /usr/share/myspell/hu_HU.aff
 * /usr/share/myspell/hu_HU.dic
-{{< /files >}}

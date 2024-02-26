@@ -16,7 +16,8 @@ reverse_depends = "['artikulate', 'aseman-qt-tools', 'aura-browser', 'babe', 'ca
 +++
 The Qt5 toolkit, qtmultimedia
 
-{{< files text="show files" >}}* /usr/include/qt5/QtMultimedia/5.15.12/QtMultimedia/private/qabstractvideobuffer_p.h
+## Files: 
+* /usr/include/qt5/QtMultimedia/5.15.12/QtMultimedia/private/qabstractvideobuffer_p.h
 * /usr/include/qt5/QtMultimedia/5.15.12/QtMultimedia/private/qaudiobuffer_p.h
 * /usr/include/qt5/QtMultimedia/5.15.12/QtMultimedia/private/qaudiodevicefactory_p.h
 * /usr/include/qt5/QtMultimedia/5.15.12/QtMultimedia/private/qaudiohelpers_p.h
@@ -352,4 +353,3 @@ The Qt5 toolkit, qtmultimedia
 * /usr/share/qt5/qml/QtMultimedia/plugins.qmltypes
 * /usr/share/qt5/qml/QtMultimedia/qmldir
 * /usr/share/qt5/qml/QtMultimedia/Video.qml
-{{< /files >}}

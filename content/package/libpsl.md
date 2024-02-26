@@ -16,7 +16,8 @@ reverse_depends = "['curl', 'libsoup', 'libsoup3', 'wget', 'wget2']"
 +++
 Public Suffix List library
 
-{{< files text="show files" >}}* /usr/bin/psl
+## Files: 
+* /usr/bin/psl
 * /usr/bin/psl-make-dafsa
 * /usr/include/libpsl.h
 * /usr/lib/libpsl.so
@@ -51,4 +52,3 @@ Public Suffix List library
 * /usr/share/man/man1/psl-make-dafsa.1.gz
 * /usr/share/man/man1/psl.1.gz
 * /usr/share/man/man3/libpsl.3.gz
-{{< /files >}}

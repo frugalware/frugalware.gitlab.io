@@ -15,6 +15,6 @@ depends = "['glib2>=2.50.0', 'gnokii=0.6.31', 'libpq>=9.5.4']"
 +++
 PostgreSQL support for gnokii.
 
-{{< files text="show files" >}}* /usr/lib/smsd/libsmsd_pq.la
+## Files: 
+* /usr/lib/smsd/libsmsd_pq.la
 * /usr/lib/smsd/libsmsd_pq.so
-{{< /files >}}

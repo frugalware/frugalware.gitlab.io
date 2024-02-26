@@ -15,4 +15,4 @@ depends = "['gtksourceview4>=4.8.4']"
 +++
 gtksourceview4 documention
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

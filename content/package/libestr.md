@@ -17,7 +17,8 @@ license = "LGPL2.1"
 +++
 Essentials for string handling.
 
-{{< files text="show files" >}}* /usr/include/libestr.h
+## Files: 
+* /usr/include/libestr.h
 * /usr/lib/libestr.so
 * /usr/lib/libestr.so.0
 * /usr/lib/libestr.so.0.0.0
@@ -28,4 +29,3 @@ Essentials for string handling.
 * /usr/share/doc/libestr-0.1.11/INSTALL
 * /usr/share/doc/libestr-0.1.11/NEWS
 * /usr/share/doc/libestr-0.1.11/README
-{{< /files >}}

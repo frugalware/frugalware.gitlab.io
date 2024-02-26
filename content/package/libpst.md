@@ -16,7 +16,8 @@ reverse_depends = "['libpst-python']"
 +++
 Utilities to convert Outlook .pst files to other formats
 
-{{< files text="show files" >}}* /usr/bin/lspst
+## Files: 
+* /usr/bin/lspst
 * /usr/bin/nick2ldif
 * /usr/bin/pst2ldif
 * /usr/bin/readpst
@@ -258,4 +259,3 @@ Utilities to convert Outlook .pst files to other formats
 * /usr/share/man/man1/pst2ldif.1.gz
 * /usr/share/man/man1/readpst.1.gz
 * /usr/share/man/man5/outlook.pst.5.gz
-{{< /files >}}

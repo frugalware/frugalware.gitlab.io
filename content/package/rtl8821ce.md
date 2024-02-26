@@ -15,7 +15,7 @@ depends = "['kernel=6.7.6-1']"
 +++
 rtl8821CE driver with firmware
 
-{{< files text="show files" >}}* /usr/lib/modules/6.7.6-fw1/updates/drivers/net/wireless/8821ce.ko
+## Files: 
+* /usr/lib/modules/6.7.6-fw1/updates/drivers/net/wireless/8821ce.ko
 * /usr/share/doc/rtl8821ce-1.0.4.r76.g7c4f827/COPYING
 * /usr/share/doc/rtl8821ce-1.0.4.r76.g7c4f827/README.md
-{{< /files >}}

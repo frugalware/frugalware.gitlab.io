@@ -15,7 +15,8 @@ depends = "['bash', 'grub2-mount']"
 +++
 Utility to detect other OSes on a set of drives.
 
-{{< files text="show files" >}}* /usr/bin/linux-boot-prober
+## Files: 
+* /usr/bin/linux-boot-prober
 * /usr/bin/os-prober
 * /usr/lib/linux-boot-probes/50mounted-tests
 * /usr/lib/linux-boot-probes/mounted/40grub
@@ -42,4 +43,3 @@ Utility to detect other OSes on a set of drives.
 * /usr/share/doc/os-prober-1.81/README
 * /usr/share/doc/os-prober-1.81/TODO
 * /usr/share/os-prober/common.sh
-{{< /files >}}

@@ -16,9 +16,9 @@ reverse_depends = "['lib32-libepoxy', 'lib32-libgl', 'lib32-mesa-libglx']"
 +++
 X.Org Xdamage library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/Xdamage.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/extensions/Xdamage.h
 * /usr/lib32/libXdamage.so
 * /usr/lib32/libXdamage.so.1
 * /usr/lib32/libXdamage.so.1.1.0
 * /usr/lib32/pkgconfig/xdamage.pc
-{{< /files >}}

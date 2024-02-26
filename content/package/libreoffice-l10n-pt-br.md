@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Portuguese (Brazil) support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/pt-BR/default.css
+## Files: 
+* /usr/lib/libreoffice/help/pt-BR/default.css
 * /usr/lib/libreoffice/help/pt-BR/err.html
 * /usr/lib/libreoffice/help/pt-BR/highcontrast1.css
 * /usr/lib/libreoffice/help/pt-BR/highcontrast2.css
@@ -135,4 +136,3 @@ Installs Portuguese (Brazil) support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-pt-BR.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_pt-BR.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_pt-BR.xcd
-{{< /files >}}

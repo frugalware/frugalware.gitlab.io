@@ -16,7 +16,8 @@ reverse_depends = "['drkonqi', 'plasma-welcome']"
 +++
 Framework for collecting user feedback for applications via telemetry and surveys
 
-{{< files text="show files" >}}* /usr/bin/UserFeedbackConsole
+## Files: 
+* /usr/bin/UserFeedbackConsole
 * /usr/bin/userfeedbackctl
 * /usr/include/KUserFeedback/AbstractDataSource
 * /usr/include/KUserFeedback/abstractdatasource.h
@@ -149,4 +150,3 @@ Framework for collecting user feedback for applications via telemetry and survey
 * /usr/share/qt5/mkspecs/modules/qt_KUserFeedbackWidgets.pri
 * /usr/share/qt5/qml/org/kde/userfeedback/libKUserFeedbackQml.so
 * /usr/share/qt5/qml/org/kde/userfeedback/qmldir
-{{< /files >}}

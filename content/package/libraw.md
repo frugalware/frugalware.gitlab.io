@@ -16,7 +16,8 @@ reverse_depends = "['efl', 'freeimage', 'gegl', 'imagemagick', 'kimageformats', 
 +++
 A library for reading RAW files obtained from digital photo cameras.
 
-{{< files text="show files" >}}* /usr/bin/4channels
+## Files: 
+* /usr/bin/4channels
 * /usr/bin/dcraw_emu
 * /usr/bin/dcraw_half
 * /usr/bin/half_mt
@@ -53,4 +54,3 @@ A library for reading RAW files obtained from digital photo cameras.
 * /usr/share/doc/libraw-0.21.2/README.GoPro.txt
 * /usr/share/doc/libraw-0.21.2/README.md
 * /usr/share/doc/libraw-0.21.2/README.RawSpeed.txt
-{{< /files >}}

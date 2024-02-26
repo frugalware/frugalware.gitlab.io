@@ -15,7 +15,8 @@ depends = "['cabextract', 'cdrtools', 'fuse', 'innoextract', 'libxml2', 'mtools'
 +++
 The open source Windows Imaging (WIM) library
 
-{{< files text="show files" >}}* /usr/bin/mkwinpeimg
+## Files: 
+* /usr/bin/mkwinpeimg
 * /usr/bin/wimappend
 * /usr/bin/wimapply
 * /usr/bin/wimcapture
@@ -79,4 +80,3 @@ The open source Windows Imaging (WIM) library
 * /usr/share/man/man1/wimunmount.1.gz
 * /usr/share/man/man1/wimupdate.1.gz
 * /usr/share/man/man1/wimverify.1.gz
-{{< /files >}}

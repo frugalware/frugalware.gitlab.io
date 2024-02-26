@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org xrefresh application
 
-{{< files text="show files" >}}* /usr/bin/xrefresh
+## Files: 
+* /usr/bin/xrefresh
 * /usr/share/doc/xrefresh-1.0.7/ChangeLog
 * /usr/share/doc/xrefresh-1.0.7/COPYING
 * /usr/share/doc/xrefresh-1.0.7/INSTALL
 * /usr/share/doc/xrefresh-1.0.7/README.md
 * /usr/share/man/man1/xrefresh.1.gz
-{{< /files >}}

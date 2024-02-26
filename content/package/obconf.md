@@ -15,7 +15,8 @@ depends = "['gtk+2', 'libxml2>=2.7.8', 'openbox>=3.6.1']"
 +++
 OpenBox's Configuration utility.
 
-{{< files text="show files" >}}* /usr/bin/obconf
+## Files: 
+* /usr/bin/obconf
 * /usr/share/applications/obconf.desktop
 * /usr/share/doc/obconf-2.0.4/AUTHORS
 * /usr/share/doc/obconf-2.0.4/CHANGELOG
@@ -57,4 +58,3 @@ OpenBox's Configuration utility.
 * /usr/share/obconf/obconf.ui
 * /usr/share/obconf/video-display.png
 * /usr/share/pixmaps/obconf.png
-{{< /files >}}

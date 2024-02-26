@@ -16,7 +16,8 @@ license = "GPLv2"
 +++
 mlocate (merging locate) is a locate/updatedb implementation.
 
-{{< files text="show files" >}}* /etc/cron.daily/updatedb
+## Files: 
+* /etc/cron.daily/updatedb
 * /etc/updatedb.conf
 * /usr/bin/locate
 * /usr/bin/mlocate
@@ -70,4 +71,3 @@ mlocate (merging locate) is a locate/updatedb implementation.
 * /usr/share/man/man5/mlocate.db.5.gz
 * /usr/share/man/man5/updatedb.conf.5.gz
 * /usr/share/man/man8/updatedb.8.gz
-{{< /files >}}

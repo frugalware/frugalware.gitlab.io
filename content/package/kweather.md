@@ -15,7 +15,8 @@ depends = "['kirigami-addons', 'kweathercore', 'plasma-framework', 'qt5-charts']
 +++
 'Weather application for Plasma Mobile
 
-{{< files text="show files" >}}* /usr/bin/kweather
+## Files: 
+* /usr/bin/kweather
 * /usr/lib/qt5/plugins/plasma/applets/plasma_applet_kweather_1x4.so
 * /usr/share/applications/org.kde.kweather.desktop
 * /usr/share/dbus-1/services/org.kde.kweather.service
@@ -62,4 +63,3 @@ depends = "['kirigami-addons', 'kweathercore', 'plasma-framework', 'qt5-charts']
 * /usr/share/plasma/plasmoids/org.kde.plasma.kweather_1x4/contents/ui/WeatherContainer.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.kweather_1x4/metadata.json
 * /usr/share/plasma/plasmoids/org.kde.plasma.kweather_1x4/metadata.json.license
-{{< /files >}}

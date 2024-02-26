@@ -15,7 +15,8 @@ depends = "['colord', 'kcmutils', 'kdeclarative', 'kirigami-addons', 'kitemmodel
 +++
 Interfaces and session daemon to colord for KDE
 
-{{< files text="show files" >}}* /usr/bin/colord-kde-icc-importer
+## Files: 
+* /usr/bin/colord-kde-icc-importer
 * /usr/lib/qt5/plugins/kf5/kded/colord.so
 * /usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_colord.so
 * /usr/share/applications/colordkdeiccimporter.desktop
@@ -68,4 +69,3 @@ Interfaces and session daemon to colord for KDE
 * /usr/share/locale/uk/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/colord-kde.mo
-{{< /files >}}

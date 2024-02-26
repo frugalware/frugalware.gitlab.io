@@ -15,9 +15,9 @@ depends = "['libgl-mesa-soft>=7.7-3']"
 +++
 Mesa Offscreen OpenGL files.
 
-{{< files text="show files" >}}* usr/include/GL/osmesa.h
+## Files: 
+* usr/include/GL/osmesa.h
 * usr/lib/libOSMesa.so
 * usr/lib/libOSMesa.so.7
 * usr/lib/libOSMesa.so.7.7.0
 * usr/lib/pkgconfig/osmesa.pc
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['libimobiledevice']"
 +++
 Lib for communicating with Apple's iPod Touch and iPhone
 
-{{< files text="show files" >}}* /usr/bin/inetcat
+## Files: 
+* /usr/bin/inetcat
 * /usr/bin/iproxy
 * /usr/include/usbmuxd-proto.h
 * /usr/include/usbmuxd.h
@@ -30,4 +31,3 @@ Lib for communicating with Apple's iPod Touch and iPhone
 * /usr/share/doc/libusbmuxd-2.0.2/README.md
 * /usr/share/man/man1/inetcat.1.gz
 * /usr/share/man/man1/iproxy.1.gz
-{{< /files >}}

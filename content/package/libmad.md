@@ -16,7 +16,8 @@ reverse_depends = "['cdrdao', 'k3b', 'kwave', 'libmp3splt', 'mencoder', 'mixxx',
 +++
 A high-quality MPEG audio decoder
 
-{{< files text="show files" >}}* /usr/include/mad.h
+## Files: 
+* /usr/include/mad.h
 * /usr/lib/libmad.so
 * /usr/lib/libmad.so.0
 * /usr/lib/libmad.so.0.2.1
@@ -29,4 +30,3 @@ A high-quality MPEG audio decoder
 * /usr/share/doc/libmad-0.15.1b/README
 * /usr/share/doc/libmad-0.15.1b/TODO
 * /usr/share/doc/libmad-0.15.1b/VERSION
-{{< /files >}}

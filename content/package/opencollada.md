@@ -16,7 +16,8 @@ reverse_depends = "['blender']"
 +++
 Collada 3D import and export libraries
 
-{{< files text="show files" >}}* /usr/include/opencollada/COLLADABaseUtils/COLLADABU.h
+## Files: 
+* /usr/include/opencollada/COLLADABaseUtils/COLLADABU.h
 * /usr/include/opencollada/COLLADABaseUtils/COLLADABUException.h
 * /usr/include/opencollada/COLLADABaseUtils/COLLADABUHashFunctions.h
 * /usr/include/opencollada/COLLADABaseUtils/COLLADABUhash_map.h
@@ -371,4 +372,3 @@ Collada 3D import and export libraries
 * /usr/share/doc/opencollada-1.6.68/README
 * /usr/share/doc/opencollada-1.6.68/README.md
 * /usr/share/doc/opencollada-1.6.68/README_OSX.rtf
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "['lib32-libsystemd>=231-17', 'lib32-libxau>=1.0.8-2', 'lib32-libxdmcp
 +++
 KDrive fbdev X server (32-bit)
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/Xfbdev
-{{< /files >}}
+## Files: 
+* /usr/i686-frugalware-linux/bin/Xfbdev

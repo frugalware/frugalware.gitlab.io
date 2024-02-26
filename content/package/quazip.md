@@ -16,7 +16,8 @@ reverse_depends = "['krita', 'nomacs']"
 +++
 Wrapper for ZIP/UNZIP package
 
-{{< files text="show files" >}}* /usr/include/quazip5/crypt.h
+## Files: 
+* /usr/include/quazip5/crypt.h
 * /usr/include/quazip5/ioapi.h
 * /usr/include/quazip5/JlCompress.h
 * /usr/include/quazip5/quaadler32.h
@@ -38,4 +39,3 @@ Wrapper for ZIP/UNZIP package
 * /usr/share/cmake/Modules/FindQuaZip5.cmake
 * /usr/share/doc/quazip-0.7.3/COPYING
 * /usr/share/doc/quazip-0.7.3/README.txt
-{{< /files >}}

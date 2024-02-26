@@ -15,7 +15,8 @@ depends = "['pyqt6', 'pyside6', 'python3-psutil', 'python3-suntime', 'python3-sy
 +++
 Light/dark theme switcher for Linux. Supports popular Desktops, text editors and more!
 
-{{< files text="show files" >}}* /opt/yin-yang/designer/main_window.ui
+## Files: 
+* /opt/yin-yang/designer/main_window.ui
 * /opt/yin-yang/LICENSE
 * /opt/yin-yang/README.md
 * /opt/yin-yang/README_zh.md
@@ -84,4 +85,3 @@ Light/dark theme switcher for Linux. Supports popular Desktops, text editors and
 * /usr/share/doc/yin-yang-3.3/README.md
 * /usr/share/doc/yin-yang-3.3/README_zh.md
 * /usr/share/icons/hicolor/scalable/apps/yin_yang.svg
-{{< /files >}}

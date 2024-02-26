@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-mime', 'ghostwriter', 'kbackup', 'kbookmarks', 'kbr
 +++
 Framework for managing menu and toolbar actions.
 
-{{< files text="show files" >}}* /etc/xdg/ui/ui_standards.rc
+## Files: 
+* /etc/xdg/ui/ui_standards.rc
 * /usr/include/KF5/KXmlGui/KAboutApplicationDialog
 * /usr/include/KF5/KXmlGui/kaboutapplicationdialog.h
 * /usr/include/KF5/KXmlGui/KAboutPluginDialog
@@ -176,4 +177,3 @@ Framework for managing menu and toolbar actions.
 * /usr/share/qlogging-categories5/kxmlgui.categories
 * /usr/share/qlogging-categories5/kxmlgui.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KXmlGui.pri
-{{< /files >}}

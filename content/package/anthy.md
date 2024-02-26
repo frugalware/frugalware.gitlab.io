@@ -16,7 +16,8 @@ reverse_depends = "['m17n-lib']"
 +++
 Free and secure Japanese conversion engine.
 
-{{< files text="show files" >}}* /etc/anthy-conf
+## Files: 
+* /etc/anthy-conf
 * /usr/bin/anthy-agent
 * /usr/bin/anthy-dic-tool
 * /usr/bin/anthy-morphological-analyzer
@@ -44,4 +45,3 @@ Free and secure Japanese conversion engine.
 * /usr/share/doc/anthy-9100h/NEWS
 * /usr/share/doc/anthy-9100h/README
 * /usr/share/doc/anthy-9100h/README.en
-{{< /files >}}

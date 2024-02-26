@@ -16,7 +16,8 @@ reverse_depends = "['haskell-citeproc']"
 +++
 A class for types with a default value.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/data-default-0.7.1.1/Data/Default.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/data-default-0.7.1.1/Data/Default.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/data-default-0.7.1.1/Data/Default.hi
 * /usr/lib/ghc-9.8.1/site-local/data-default-0.7.1.1/libHSdata-default-0.7.1.1-3ePyKcjgKfa7pSpdDMvPTH.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSdata-default-0.7.1.1-3ePyKcjgKfa7pSpdDMvPTH-ghc9.8.1.so
@@ -33,4 +34,3 @@ A class for types with a default value.
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/data-default-0.7.1.1/LICENSE
 * /usr/share/haskell/haskell-data-default/register.sh
 * /usr/share/haskell/haskell-data-default/unregister.sh
-{{< /files >}}

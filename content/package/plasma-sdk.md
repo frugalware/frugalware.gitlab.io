@@ -15,7 +15,8 @@ depends = "['git', 'karchive>=5.115.0', 'kcompletion>=5.115.0', 'kconfig>=5.115.
 +++
 Plasma SDK
 
-{{< files text="show files" >}}* /usr/bin/cuttlefish
+## Files: 
+* /usr/bin/cuttlefish
 * /usr/bin/lookandfeelexplorer
 * /usr/bin/plasmaengineexplorer
 * /usr/bin/plasmathemeexplorer
@@ -505,4 +506,3 @@ Plasma SDK
 * /usr/share/plasma/shells/org.kde.plasma.plasmoidviewershell/metadata.desktop
 * /usr/share/plasma/shells/org.kde.plasma.plasmoidviewershell/metadata.json
 * /usr/share/zsh/site-functions/_plasmoidviewer
-{{< /files >}}

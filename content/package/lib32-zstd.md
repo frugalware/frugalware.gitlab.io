@@ -16,7 +16,8 @@ reverse_depends = "['lib32-binutils', 'lib32-curl', 'lib32-elfutils', 'lib32-fil
 +++
 Zstandard - Fast real-time compression algorithm ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/unzstd
+## Files: 
+* /usr/i686-frugalware-linux/bin/unzstd
 * /usr/i686-frugalware-linux/bin/zstd
 * /usr/i686-frugalware-linux/bin/zstdcat
 * /usr/i686-frugalware-linux/bin/zstdgrep
@@ -33,4 +34,3 @@ Zstandard - Fast real-time compression algorithm ( 32bit )
 * /usr/lib32/libzstd.so.1
 * /usr/lib32/libzstd.so.1.5.5
 * /usr/lib32/pkgconfig/libzstd.pc
-{{< /files >}}

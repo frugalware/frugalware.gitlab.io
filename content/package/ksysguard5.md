@@ -16,7 +16,8 @@ reverse_depends = "['knemo']"
 +++
 KDE System Monitor.
 
-{{< files text="show files" >}}* /etc/ksysguarddrc
+## Files: 
+* /etc/ksysguarddrc
 * /usr/bin/ksysguard
 * /usr/bin/ksysguardd
 * /usr/share/applications/org.kde.ksysguard.desktop
@@ -154,4 +155,3 @@ KDE System Monitor.
 * /usr/share/locale/zh_CN/LC_MESSAGES/ksysguard.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/ksysguard.mo
 * /usr/share/metainfo/org.kde.ksysguard.appdata.xml
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['pocketsphinx']"
 +++
 Common library for sphinx speech recongnition
 
-{{< files text="show files" >}}* /usr/bin/sphinx_cepview
+## Files: 
+* /usr/bin/sphinx_cepview
 * /usr/bin/sphinx_cont_seg
 * /usr/bin/sphinx_fe
 * /usr/bin/sphinx_jsgf2fsg
@@ -97,4 +98,3 @@ Common library for sphinx speech recongnition
 * /usr/share/sphinxbase/swig/ngram_model.i
 * /usr/share/sphinxbase/swig/sphinxbase.i
 * /usr/share/sphinxbase/swig/typemaps.i
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['telegram-desktop']"
 +++
 The Qt6 toolkit, qtimageformats
 
-{{< files text="show files" >}}* /usr/lib/cmake/Qt6/FindLibmng.cmake
+## Files: 
+* /usr/lib/cmake/Qt6/FindLibmng.cmake
 * /usr/lib/cmake/Qt6/FindWrapJasper.cmake
 * /usr/lib/cmake/Qt6/FindWrapWebP.cmake
 * /usr/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake
@@ -68,4 +69,3 @@ The Qt6 toolkit, qtimageformats
 * /usr/lib/qt6/plugins/imageformats/libqtiff.so
 * /usr/lib/qt6/plugins/imageformats/libqwbmp.so
 * /usr/lib/qt6/plugins/imageformats/libqwebp.so
-{{< /files >}}

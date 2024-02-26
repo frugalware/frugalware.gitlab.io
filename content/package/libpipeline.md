@@ -16,7 +16,8 @@ reverse_depends = "['man-db']"
 +++
 a C library for manipulating pipelines of subprocesses in a flexible and convenient way
 
-{{< files text="show files" >}}* /usr/include/pipeline.h
+## Files: 
+* /usr/include/pipeline.h
 * /usr/lib/libpipeline.so
 * /usr/lib/libpipeline.so.1
 * /usr/lib/libpipeline.so.1.5.7
@@ -93,4 +94,3 @@ a C library for manipulating pipelines of subprocesses in a flexible and conveni
 * /usr/share/man/man3/pipeline_want_infile.3.gz
 * /usr/share/man/man3/pipeline_want_out.3.gz
 * /usr/share/man/man3/pipeline_want_outfile.3.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['akregator', 'alligator', 'kasts', 'kdepim-runtime', 'knewst
 +++
 KParts Kontact interface.
 
-{{< files text="show files" >}}* /usr/include/KF5/Syndication/Syndication/AbstractParser
+## Files: 
+* /usr/include/KF5/Syndication/Syndication/AbstractParser
 * /usr/include/KF5/Syndication/syndication/abstractparser.h
 * /usr/include/KF5/Syndication/Syndication/Atom/Atom
 * /usr/include/KF5/Syndication/syndication/atom/atom.h
@@ -159,4 +160,3 @@ KParts Kontact interface.
 * /usr/share/qlogging-categories5/syndication.categories
 * /usr/share/qlogging-categories5/syndication.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_Syndication.pri
-{{< /files >}}

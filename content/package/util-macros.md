@@ -17,11 +17,11 @@ license = "GPL2"
 +++
 X.Org autotools utility macros
 
-{{< files text="show files" >}}* /usr/lib/pkgconfig/xorg-macros.pc
+## Files: 
+* /usr/lib/pkgconfig/xorg-macros.pc
 * /usr/share/aclocal/xorg-macros.m4
 * /usr/share/doc/util-macros-1.20.0/ChangeLog
 * /usr/share/doc/util-macros-1.20.0/COPYING
 * /usr/share/doc/util-macros-1.20.0/INSTALL
 * /usr/share/doc/util-macros-1.20.0/README.md
 * /usr/share/util-macros/INSTALL
-{{< /files >}}

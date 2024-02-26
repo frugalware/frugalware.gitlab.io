@@ -15,5 +15,5 @@ depends = "['chrony', 'networkmanager']"
 +++
 Dispatcher Script for chrony
 
-{{< files text="show files" >}}* /etc/NetworkManager/dispatcher.d/10-chrony
-{{< /files >}}
+## Files: 
+* /etc/NetworkManager/dispatcher.d/10-chrony

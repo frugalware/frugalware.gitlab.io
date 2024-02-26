@@ -16,9 +16,9 @@ reverse_depends = "['perl-sub-exporter']"
 +++
 Parse and validate simple name/value option pairs
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/Data/OptList.pm
+## Files: 
+* /usr/lib/perl5/site_perl/Data/OptList.pm
 * /usr/share/doc/perl-data-optlist-0.114/LICENSE
 * /usr/share/doc/perl-data-optlist-0.114/MANIFEST
 * /usr/share/doc/perl-data-optlist-0.114/README
 * /usr/share/man/man3/Data::OptList.3perl.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libstdc++']"
 +++
 S2TC - a subset of a wellknown texture compression scheme
 
-{{< files text="show files" >}}* /usr/bin/s2tc_compress
+## Files: 
+* /usr/bin/s2tc_compress
 * /usr/bin/s2tc_decompress
 * /usr/bin/s2tc_from_s3tc
 * /usr/include/txc_dxtn.h
@@ -26,4 +27,3 @@ S2TC - a subset of a wellknown texture compression scheme
 * /usr/lib/pkgconfig/txc_dxtn.pc
 * /usr/share/doc/s2tc-1.0/COPYING
 * /usr/share/doc/s2tc-1.0/README.txt
-{{< /files >}}

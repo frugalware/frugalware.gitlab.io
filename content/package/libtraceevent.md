@@ -16,7 +16,8 @@ reverse_depends = "['libtracefs', 'perf']"
 +++
 Linux kernel trace event library
 
-{{< files text="show files" >}}* /usr/include/traceevent/event-parse.h
+## Files: 
+* /usr/include/traceevent/event-parse.h
 * /usr/include/traceevent/event-utils.h
 * /usr/include/traceevent/kbuffer.h
 * /usr/include/traceevent/trace-seq.h
@@ -37,4 +38,3 @@ Linux kernel trace event library
 * /usr/lib/traceevent/plugins/plugin_tlb.so
 * /usr/lib/traceevent/plugins/plugin_xen.so
 * /usr/share/doc/libtraceevent-1.8.2/README
-{{< /files >}}

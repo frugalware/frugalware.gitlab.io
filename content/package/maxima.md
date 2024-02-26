@@ -17,7 +17,8 @@ license = "GPL"
 +++
 A sophisticated computer algebra system.
 
-{{< files text="show files" >}}* /usr/bin/maxima
+## Files: 
+* /usr/bin/maxima
 * /usr/bin/rmaxima
 * /usr/bin/xmaxima
 * /usr/lib/maxima/5.47.0/binary-clisp/lisp.run
@@ -2948,4 +2949,3 @@ A sophisticated computer algebra system.
 * /usr/share/pixmaps/net.sourceforge.maxima.svg
 * /usr/share/pixmaps/text-x-maxima-out.svg
 * /usr/share/pixmaps/text-x-maximasession.svg
-{{< /files >}}

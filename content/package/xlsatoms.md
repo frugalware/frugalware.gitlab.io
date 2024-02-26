@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org xlsatoms application
 
-{{< files text="show files" >}}* /usr/bin/xlsatoms
+## Files: 
+* /usr/bin/xlsatoms
 * /usr/share/doc/xlsatoms-1.1.4/ChangeLog
 * /usr/share/doc/xlsatoms-1.1.4/COPYING
 * /usr/share/doc/xlsatoms-1.1.4/INSTALL
 * /usr/share/doc/xlsatoms-1.1.4/README.md
 * /usr/share/man/man1/xlsatoms.1.gz
-{{< /files >}}

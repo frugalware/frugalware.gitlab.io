@@ -15,7 +15,8 @@ depends = "['7zip', 'bzip2', 'cabextract', 'cpio', 'gzip', 'mtd-utils', 'python3
 +++
 Tool for searching a given binary image for embedded files
 
-{{< files text="show files" >}}* /usr/bin/binwalk
+## Files: 
+* /usr/bin/binwalk
 * /usr/lib/python3.12/site-packages/binwalk-2.3.3-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/binwalk-2.3.3-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/binwalk-2.3.3-py3.12.egg-info/SOURCES.txt
@@ -124,4 +125,3 @@ Tool for searching a given binary image for embedded files
 * /usr/share/doc/binwalk-2.3.4/INSTALL.md
 * /usr/share/doc/binwalk-2.3.4/LICENSE
 * /usr/share/doc/binwalk-2.3.4/README.md
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['crawl-tiles', 'enigma', 'freeciv', 'lincity-ng', 'redeclips
 +++
 Image loading library for SDL2
 
-{{< files text="show files" >}}* /usr/include/SDL2/SDL_image.h
+## Files: 
+* /usr/include/SDL2/SDL_image.h
 * /usr/lib/cmake/SDL2_image/sdl2_image-config-version.cmake
 * /usr/lib/cmake/SDL2_image/sdl2_image-config.cmake
 * /usr/lib/libSDL2_image-2.0.so.0
@@ -24,4 +25,3 @@ Image loading library for SDL2
 * /usr/lib/libSDL2_image.so
 * /usr/lib/pkgconfig/SDL2_image.pc
 * /usr/share/doc/sdl2_image-2.8.2/README.txt
-{{< /files >}}

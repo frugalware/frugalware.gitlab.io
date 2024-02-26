@@ -16,7 +16,8 @@ reverse_depends = "['pandoc']"
 +++
 Tools for working with derived 'Show' instances and generic inspection of values
 
-{{< files text="show files" >}}* /usr/bin/ppsh
+## Files: 
+* /usr/bin/ppsh
 * /usr/lib/ghc-9.8.1/site-local/pretty-show-1.10/libHSpretty-show-1.10-IzWVWvc7T3FbSvrrAq35S.a
 * /usr/lib/ghc-9.8.1/site-local/pretty-show-1.10/Paths_pretty_show.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/pretty-show-1.10/Paths_pretty_show.hi
@@ -48,4 +49,3 @@ Tools for working with derived 'Show' instances and generic inspection of values
 * /usr/share/x86_64-linux-ghc-9.8.1/pretty-show-1.10/style/jquery.js
 * /usr/share/x86_64-linux-ghc-9.8.1/pretty-show-1.10/style/pretty-show.css
 * /usr/share/x86_64-linux-ghc-9.8.1/pretty-show-1.10/style/pretty-show.js
-{{< /files >}}

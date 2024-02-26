@@ -15,7 +15,8 @@ depends = "['kdesu>=5.115.0', 'kinit>=5.115.0', 'kparts>=5.115.0']"
 +++
 CVS Frontend
 
-{{< files text="show files" >}}* /usr/bin/cervisia
+## Files: 
+* /usr/bin/cervisia
 * /usr/bin/cvsaskpass
 * /usr/bin/cvsservice5
 * /usr/lib/libkdeinit5_cervisia.so
@@ -282,4 +283,3 @@ CVS Frontend
 * /usr/share/man/sv/man1/cervisia.1.gz
 * /usr/share/man/uk/man1/cervisia.1.gz
 * /usr/share/metainfo/org.kde.cervisia.appdata.xml
-{{< /files >}}

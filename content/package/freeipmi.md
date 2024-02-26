@@ -15,7 +15,8 @@ depends = "['glibc', 'libgcrypt', 'libgpg-error']"
 +++
 GNU Intelligent Platform Management Interface implementation.
 
-{{< files text="show files" >}}* /etc/freeipmi/freeipmi.conf
+## Files: 
+* /etc/freeipmi/freeipmi.conf
 * /etc/freeipmi/freeipmi_interpret_sel.conf
 * /etc/freeipmi/freeipmi_interpret_sensor.conf
 * /etc/freeipmi/ipmidetect.conf
@@ -431,4 +432,3 @@ GNU Intelligent Platform Management Interface implementation.
 * /usr/share/man/man8/rmcp-ping.8.gz
 * /usr/share/man/man8/rmcpping.8.gz
 * /var/lib/freeipmi/ipckey
-{{< /files >}}

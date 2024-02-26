@@ -15,5 +15,5 @@ depends = "['libboost>=1.83.0', 'libpst', 'python3>=3.12']"
 +++
 libpst python binding
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/_libpst.so
-{{< /files >}}
+## Files: 
+* /usr/lib/python3.12/site-packages/_libpst.so

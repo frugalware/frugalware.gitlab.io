@@ -16,7 +16,8 @@ reverse_depends = "['blender', 'firefox', 'inkscape', 'mariadb', 'openvdb', 'qem
 +++
 General-purpose scalable concurrent malloc(3) implementation
 
-{{< files text="show files" >}}* /usr/bin/jemalloc-config
+## Files: 
+* /usr/bin/jemalloc-config
 * /usr/bin/jemalloc.sh
 * /usr/bin/jeprof
 * /usr/include/jemalloc/jemalloc.h
@@ -30,4 +31,3 @@ General-purpose scalable concurrent malloc(3) implementation
 * /usr/share/doc/jemalloc-5.3.0/VERSION
 * /usr/share/doc/jemalloc/jemalloc.html
 * /usr/share/man/man3/jemalloc.3.gz
-{{< /files >}}

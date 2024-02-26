@@ -16,7 +16,8 @@ reverse_depends = "['qt6-quick3d']"
 +++
 The Qt6 toolkit, qtquicktimeline
 
-{{< files text="show files" >}}* /usr/include/qt6/QtQuickTimeline/6.6.2/QtQuickTimeline/private/qquickkeyframedatautils_p.h
+## Files: 
+* /usr/include/qt6/QtQuickTimeline/6.6.2/QtQuickTimeline/private/qquickkeyframedatautils_p.h
 * /usr/include/qt6/QtQuickTimeline/6.6.2/QtQuickTimeline/private/qquickkeyframe_p.h
 * /usr/include/qt6/QtQuickTimeline/6.6.2/QtQuickTimeline/private/qquicktimelineanimation_p.h
 * /usr/include/qt6/QtQuickTimeline/6.6.2/QtQuickTimeline/private/qquicktimeline_p.h
@@ -55,4 +56,3 @@ The Qt6 toolkit, qtquicktimeline
 * /usr/lib/qt6/qml/QtQuick/Timeline/libqtquicktimelineplugin.so
 * /usr/lib/qt6/qml/QtQuick/Timeline/plugins.qmltypes
 * /usr/lib/qt6/qml/QtQuick/Timeline/qmldir
-{{< /files >}}

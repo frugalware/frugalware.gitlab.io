@@ -15,7 +15,8 @@ depends = "['libkdegames>=23.08.5']"
 +++
 A clone of the classic Bomberman game.
 
-{{< files text="show files" >}}* /usr/bin/granatier
+## Files: 
+* /usr/bin/granatier
 * /usr/share/applications/org.kde.granatier.desktop
 * /usr/share/config.kcfg/granatier.kcfg
 * /usr/share/doc/HTML/ca/granatier/config_arena.png
@@ -258,4 +259,3 @@ A clone of the classic Bomberman game.
 * /usr/share/locale/zh_TW/LC_MESSAGES/granatier.mo
 * /usr/share/metainfo/org.kde.granatier.appdata.xml
 * /usr/share/qlogging-categories5/granatier.categories
-{{< /files >}}

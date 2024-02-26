@@ -15,7 +15,8 @@ depends = "['qt6-declarative', 'qt6-positioning']"
 +++
 The Qt6 toolkit, qtlocation
 
-{{< files text="show files" >}}* /usr/include/qt6/QtLocation/6.6.2/QtLocation/private/error_messages_p.h
+## Files: 
+* /usr/include/qt6/QtLocation/6.6.2/QtLocation/private/error_messages_p.h
 * /usr/include/qt6/QtLocation/6.6.2/QtLocation/private/qabstractgeotilecache_p.h
 * /usr/include/qt6/QtLocation/6.6.2/QtLocation/private/qcache3q_p.h
 * /usr/include/qt6/QtLocation/6.6.2/QtLocation/private/qdeclarativecategory_p.h
@@ -232,4 +233,3 @@ The Qt6 toolkit, qtlocation
 * /usr/lib/qt6/qml/QtLocation/MapView.qml
 * /usr/lib/qt6/qml/QtLocation/plugins.qmltypes
 * /usr/lib/qt6/qml/QtLocation/qmldir
-{{< /files >}}

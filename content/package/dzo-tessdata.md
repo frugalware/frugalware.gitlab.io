@@ -15,5 +15,5 @@ depends = "['glibc']"
 +++
 Language specific files for tesseract lang dzo
 
-{{< files text="show files" >}}* /usr/share/tessdata/dzo.traineddata
-{{< /files >}}
+## Files: 
+* /usr/share/tessdata/dzo.traineddata

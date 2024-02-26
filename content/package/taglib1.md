@@ -16,7 +16,8 @@ reverse_depends = "['mixxx']"
 +++
 A library for reading and editing the meta-data of several popular audio formats. Version 1
 
-{{< files text="show files" >}}* /usr/bin/taglib1-config
+## Files: 
+* /usr/bin/taglib1-config
 * /usr/include/taglib1/taglib/aifffile.h
 * /usr/include/taglib1/taglib/aiffproperties.h
 * /usr/include/taglib1/taglib/apefile.h
@@ -139,4 +140,3 @@ A library for reading and editing the meta-data of several popular audio formats
 * /usr/share/doc/taglib1-1.13.1/INSTALL.md
 * /usr/share/doc/taglib1-1.13.1/NEWS
 * /usr/share/doc/taglib1-1.13.1/README.md
-{{< /files >}}

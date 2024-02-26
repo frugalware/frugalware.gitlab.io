@@ -16,7 +16,8 @@ reverse_depends = "['haskell-x509-store']"
 +++
 X509 reader and writer
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/x509-1.7.7/Data/X509.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/x509-1.7.7/Data/X509.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/x509-1.7.7/Data/X509.hi
 * /usr/lib/ghc-9.8.1/site-local/x509-1.7.7/Data/X509/AlgorithmIdentifier.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/x509-1.7.7/Data/X509/AlgorithmIdentifier.hi
@@ -77,4 +78,3 @@ X509 reader and writer
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/x509-1.7.7/LICENSE
 * /usr/share/haskell/haskell-x509/register.sh
 * /usr/share/haskell/haskell-x509/unregister.sh
-{{< /files >}}

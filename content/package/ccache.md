@@ -15,7 +15,8 @@ depends = "['hiredis', 'zstd']"
 +++
 A fast compiler cache
 
-{{< files text="show files" >}}* /usr/bin/ccache
+## Files: 
+* /usr/bin/ccache
 * /usr/lib/ccache/bin/c++
 * /usr/lib/ccache/bin/cc
 * /usr/lib/ccache/bin/clang
@@ -29,4 +30,3 @@ A fast compiler cache
 * /usr/share/doc/ccache-4.9.1/README.Frugalware
 * /usr/share/doc/ccache-4.9.1/README.md
 * /usr/share/man/man1/ccache.1.gz
-{{< /files >}}

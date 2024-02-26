@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Glibmm Documentation
 
-{{< files text="show files" >}}* /usr/share/doc/glibmm-2.68/images/gtkmm_logo.gif
+## Files: 
+* /usr/share/doc/glibmm-2.68/images/gtkmm_logo.gif
 * /usr/share/doc/glibmm-2.68/images/top.gif
 * /usr/share/doc/glibmm-2.68/reference/glibmm-2.68.tag
 * /usr/share/doc/glibmm-2.68/reference/html/annotated.html
@@ -1833,4 +1834,3 @@ Glibmm Documentation
 * /usr/share/doc/glibmm-2.68/reference/html/tab_sd.png
 * /usr/share/doc/glibmm-2.68/reference/html/thread_2dispatcher_8cc-example.html
 * /usr/share/doc/glibmm-2.68/reference/html/ustringhash.html
-{{< /files >}}

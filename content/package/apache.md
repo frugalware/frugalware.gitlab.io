@@ -16,7 +16,8 @@ reverse_depends = "['mod_evasive', 'mod_security', 'mod_svn', 'mod_wsgi', 'phpbb
 +++
 A high performance Unix-based HTTP server (with SSL)
 
-{{< files text="show files" >}}* /etc/httpd/conf/extra/httpd-autoindex.conf
+## Files: 
+* /etc/httpd/conf/extra/httpd-autoindex.conf
 * /etc/httpd/conf/extra/httpd-dav.conf
 * /etc/httpd/conf/extra/httpd-default.conf
 * /etc/httpd/conf/extra/httpd-info.conf
@@ -1701,4 +1702,3 @@ A high performance Unix-based HTTP server (with SSL)
 * /var/www/manual/vhosts/name-based.html.ja.utf8
 * /var/www/manual/vhosts/name-based.html.ko.euc-kr
 * /var/www/manual/vhosts/name-based.html.tr.utf8
-{{< /files >}}

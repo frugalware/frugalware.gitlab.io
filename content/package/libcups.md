@@ -16,8 +16,8 @@ reverse_depends = "['chromium-browser', 'cups', 'cups-filters', 'freerdp', 'ghos
 +++
 Main library of the CUPS printing system.
 
-{{< files text="show files" >}}* /usr/lib/libcups.so
+## Files: 
+* /usr/lib/libcups.so
 * /usr/lib/libcups.so.2
 * /usr/lib/libcupsimage.so
 * /usr/lib/libcupsimage.so.2
-{{< /files >}}

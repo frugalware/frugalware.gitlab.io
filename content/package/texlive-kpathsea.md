@@ -16,8 +16,8 @@ reverse_depends = "['texlive', 'texlive-utils']"
 +++
 Libkpathsea
 
-{{< files text="show files" >}}* /usr/lib/libkpathsea.so
+## Files: 
+* /usr/lib/libkpathsea.so
 * /usr/lib/libkpathsea.so.6
 * /usr/lib/libkpathsea.so.6.3.5
 * /usr/lib/pkgconfig/kpathsea.pc
-{{< /files >}}

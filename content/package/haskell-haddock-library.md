@@ -16,7 +16,8 @@ reverse_depends = "['pandoc']"
 +++
 A documentation-generation tool for Haskell libraries.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/haddock-library-1.11.0/CompatPrelude.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/haddock-library-1.11.0/CompatPrelude.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/haddock-library-1.11.0/CompatPrelude.hi
 * /usr/lib/ghc-9.8.1/site-local/haddock-library-1.11.0/Documentation/Haddock/Doc.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/haddock-library-1.11.0/Documentation/Haddock/Doc.hi
@@ -52,4 +53,3 @@ A documentation-generation tool for Haskell libraries.
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/haddock-library-1.11.0/LICENSE
 * /usr/share/haskell/haskell-haddock-library/register.sh
 * /usr/share/haskell/haskell-haddock-library/unregister.sh
-{{< /files >}}

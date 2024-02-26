@@ -16,7 +16,8 @@ reverse_depends = "['domainslib']"
 +++
 A scheduler independent blocking mechanism
 
-{{< files text="show files" >}}* /usr/lib/ocaml/domain-local-await/Domain_local_await.a
+## Files: 
+* /usr/lib/ocaml/domain-local-await/Domain_local_await.a
 * /usr/lib/ocaml/domain-local-await/Domain_local_await.cma
 * /usr/lib/ocaml/domain-local-await/domain_local_await.cmi
 * /usr/lib/ocaml/domain-local-await/domain_local_await.cmt
@@ -41,4 +42,3 @@ A scheduler independent blocking mechanism
 * /usr/share/doc/domain-local-await-1.0.0/domain-local-await/LICENSE.md
 * /usr/share/doc/domain-local-await-1.0.0/domain-local-await/README.md
 * /usr/share/doc/domain-local-await-1.0.0/README.md
-{{< /files >}}

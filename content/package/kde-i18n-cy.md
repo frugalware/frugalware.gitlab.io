@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Welsh Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/locale/cy/charset
+## Files: 
+* usr/share/locale/cy/charset
 * usr/share/locale/cy/entry.desktop
 * usr/share/locale/cy/flag.png
 * usr/share/locale/cy/LC_MESSAGES/akregator.mo
@@ -576,4 +577,3 @@ Welsh Localization for KDE.
 * usr/share/locale/cy/LC_MESSAGES/wakeup.mo
 * usr/share/locale/cy/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/cy/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

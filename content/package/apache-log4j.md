@@ -15,8 +15,8 @@ depends = "[]"
 +++
 A low-overhead robust logging package for Java.
 
-{{< files text="show files" >}}* /usr/share/doc/apache-log4j-2.8.2/README.md
+## Files: 
+* /usr/share/doc/apache-log4j-2.8.2/README.md
 * /usr/share/doc/apache-log4j-2.8.2/RELEASE-NOTES.md
 * /usr/share/java/log4j-api-2.8.2.jar
 * /usr/share/java/log4j-core-2.8.2.jar
-{{< /files >}}

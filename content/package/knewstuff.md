@@ -16,7 +16,8 @@ reverse_depends = "['artikulate', 'blinken', 'cantor', 'discover', 'dolphin', 'f
 +++
 Framework for downloading and sharing additional application data.
 
-{{< files text="show files" >}}* /usr/bin/knewstuff-dialog
+## Files: 
+* /usr/bin/knewstuff-dialog
 * /usr/include/KF5/KMoreTools/KMoreTools
 * /usr/include/KF5/KMoreTools/kmoretools.h
 * /usr/include/KF5/KMoreTools/KMoreToolsMenuFactory
@@ -324,4 +325,3 @@ Framework for downloading and sharing additional application data.
 * /usr/share/qt5/qml/org/kde/newstuff/qmldir
 * /usr/share/qt5/qml/org/kde/newstuff/QuestionAsker.qml
 * /usr/share/qt5/qml/org/kde/newstuff/UploadPage.qml
-{{< /files >}}

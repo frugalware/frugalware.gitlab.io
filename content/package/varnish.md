@@ -15,7 +15,8 @@ depends = "['pcre']"
 +++
 Varnish is an high-performance HTTP accelerator.
 
-{{< files text="show files" >}}* /etc/varnish.conf
+## Files: 
+* /etc/varnish.conf
 * /usr/bin/varnishadm
 * /usr/bin/varnishd
 * /usr/bin/varnishhist
@@ -174,4 +175,3 @@ Varnish is an high-performance HTTP accelerator.
 * /usr/share/varnish/vcl/devicedetect.vcl
 * /usr/share/varnish/vmodtool.py
 * /usr/share/varnish/vsctool.py
-{{< /files >}}

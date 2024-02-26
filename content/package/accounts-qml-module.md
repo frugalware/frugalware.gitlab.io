@@ -16,10 +16,10 @@ reverse_depends = "['purpose']"
 +++
 Qt-based client library for accessing the online accounts database.
 
-{{< files text="show files" >}}* /usr/bin/tst_plugin
+## Files: 
+* /usr/bin/tst_plugin
 * /usr/share/doc/accounts-qml-module-0.7/COPYING
 * /usr/share/doc/accounts-qml-module-0.7/README.md
 * /usr/share/qt5/qml/Ubuntu/OnlineAccounts/libAccounts.so
 * /usr/share/qt5/qml/Ubuntu/OnlineAccounts/plugin.qmltypes
 * /usr/share/qt5/qml/Ubuntu/OnlineAccounts/qmldir
-{{< /files >}}

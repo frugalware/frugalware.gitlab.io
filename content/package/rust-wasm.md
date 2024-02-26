@@ -15,7 +15,8 @@ depends = "['lld', 'rust']"
 +++
 WebAssembly targets for Rust
 
-{{< files text="show files" >}}* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libaddr2line-492c6c92fb69d2eb.rlib
+## Files: 
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libaddr2line-492c6c92fb69d2eb.rlib
 * /usr/lib/rustlib/wasm32-unknown-unknown/lib/libadler-2a4a69efc560d342.rlib
 * /usr/lib/rustlib/wasm32-unknown-unknown/lib/liballoc-47a39b14a44cad20.rlib
 * /usr/lib/rustlib/wasm32-unknown-unknown/lib/libcfg_if-a89b116ac80356b7.rlib
@@ -72,4 +73,3 @@ WebAssembly targets for Rust
 * /usr/lib/rustlib/wasm32-wasi/lib/self-contained/crt1-command.o
 * /usr/lib/rustlib/wasm32-wasi/lib/self-contained/crt1-reactor.o
 * /usr/lib/rustlib/wasm32-wasi/lib/self-contained/libc.a
-{{< /files >}}

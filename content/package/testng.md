@@ -15,6 +15,6 @@ depends = "['openjdk']"
 +++
 A testing framework inspired by JUnit and NUnit
 
-{{< files text="show files" >}}* /usr/share/doc/testng-7.7.1/README.md
+## Files: 
+* /usr/share/doc/testng-7.7.1/README.md
 * /usr/share/java/testng-7.7.1-SNAPSHOT.jar
-{{< /files >}}

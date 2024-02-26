@@ -15,7 +15,8 @@ depends = "[]"
 +++
 seed documention
 
-{{< files text="show files" >}}* /usr/share/doc/seed-3.8.1/AUTHORS
+## Files: 
+* /usr/share/doc/seed-3.8.1/AUTHORS
 * /usr/share/doc/seed-3.8.1/ChangeLog
 * /usr/share/doc/seed-3.8.1/conventions.html
 * /usr/share/doc/seed-3.8.1/COPYING
@@ -80,4 +81,3 @@ seed documention
 * /usr/share/gtk-doc/html/seed/types.html
 * /usr/share/gtk-doc/html/seed/up.png
 * /usr/share/man/man1/seed.1.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['qt6-serialport']"
 +++
 The Qt6 toolkit, qtserialbus
 
-{{< files text="show files" >}}* /usr/include/qt6/QtSerialBus/6.6.2/QtSerialBus/private/qcanbusdeviceinfo_p.h
+## Files: 
+* /usr/include/qt6/QtSerialBus/6.6.2/QtSerialBus/private/qcanbusdeviceinfo_p.h
 * /usr/include/qt6/QtSerialBus/6.6.2/QtSerialBus/private/qcanbusdevice_p.h
 * /usr/include/qt6/QtSerialBus/6.6.2/QtSerialBus/private/qcandbcfileparser_p.h
 * /usr/include/qt6/QtSerialBus/6.6.2/QtSerialBus/private/qcanframeprocessor_p.h
@@ -146,4 +147,3 @@ The Qt6 toolkit, qtserialbus
 * /usr/lib/qt6/plugins/canbus/libqtsocketcanbus.so
 * /usr/lib/qt6/plugins/canbus/libqttinycanbus.so
 * /usr/lib/qt6/plugins/canbus/libqtvirtualcanbus.so
-{{< /files >}}

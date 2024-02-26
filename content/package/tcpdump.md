@@ -16,7 +16,8 @@ reverse_depends = "['tcpreplay']"
 +++
 Tcpdump is for dumping traffic on a network
 
-{{< files text="show files" >}}* /usr/bin/tcpdump
+## Files: 
+* /usr/bin/tcpdump
 * /usr/bin/tcpdump.4.99.4
 * /usr/share/doc/tcpdump-4.99.4/CHANGES
 * /usr/share/doc/tcpdump-4.99.4/CREDITS
@@ -25,4 +26,3 @@ Tcpdump is for dumping traffic on a network
 * /usr/share/doc/tcpdump-4.99.4/README.md
 * /usr/share/doc/tcpdump-4.99.4/VERSION
 * /usr/share/man/man1/tcpdump.1.gz
-{{< /files >}}

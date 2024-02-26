@@ -15,7 +15,8 @@ depends = "['qt5-base>=5.15.0']"
 +++
 C++ library for controlling asynchronous tasks.
 
-{{< files text="show files" >}}* /usr/include/KAsync/Async
+## Files: 
+* /usr/include/KAsync/Async
 * /usr/include/KAsync/async.h
 * /usr/include/KAsync/async_impl.h
 * /usr/include/KAsync/debug.h
@@ -35,4 +36,3 @@ C++ library for controlling asynchronous tasks.
 * /usr/share/doc/kasync-0.3.0/COPYING.LIB
 * /usr/share/doc/kasync-0.3.0/README.md
 * /usr/share/qt5/mkspecs/modules/qt_KAsync.pri
-{{< /files >}}

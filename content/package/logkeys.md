@@ -15,7 +15,8 @@ depends = "['kbd']"
 +++
 Logkeys is a linux keylogger.
 
-{{< files text="show files" >}}* /etc/sysconfig/logkeysd
+## Files: 
+* /etc/sysconfig/logkeysd
 * /usr/bin/llk
 * /usr/bin/llkk
 * /usr/bin/logkeys
@@ -51,4 +52,3 @@ Logkeys is a linux keylogger.
 * /usr/share/logkeys/keymaps/sv.map
 * /usr/share/logkeys/keymaps/tr.map
 * /usr/share/man/man8/logkeys.8.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['libseafile']"
 +++
 A simple C language RPC framework (including both server side & client side).
 
-{{< files text="show files" >}}* /usr/bin/searpc-codegen.py
+## Files: 
+* /usr/bin/searpc-codegen.py
 * /usr/include/searpc-client.h
 * /usr/include/searpc-named-pipe-transport.h
 * /usr/include/searpc-server.h
@@ -53,4 +54,3 @@ A simple C language RPC framework (including both server side & client side).
 * /usr/share/doc/libsearpc-3.3/AUTHORS
 * /usr/share/doc/libsearpc-3.3/INSTALL
 * /usr/share/doc/libsearpc-3.3/README.markdown
-{{< /files >}}

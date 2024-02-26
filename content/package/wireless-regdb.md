@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 Central Regulatory Domain Database
 
-{{< files text="show files" >}}* /usr/lib/crda/pubkeys/root.key.pub.pem
+## Files: 
+* /usr/lib/crda/pubkeys/root.key.pub.pem
 * /usr/lib/crda/pubkeys/wens.key.pub.pem
 * /usr/lib/crda/regulatory.bin
 * /usr/lib/firmware/regulatory.db
@@ -24,4 +25,3 @@ Central Regulatory Domain Database
 * /usr/share/doc/wireless-regdb-2024.01.23/README
 * /usr/share/man/man5/regulatory.bin.5.gz
 * /usr/share/man/man5/regulatory.db.5.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['ibus']"
 +++
 Ibus library
 
-{{< files text="show files" >}}* /usr/include/ibus-1.0/ibus.h
+## Files: 
+* /usr/include/ibus-1.0/ibus.h
 * /usr/include/ibus-1.0/ibusaccelgroup.h
 * /usr/include/ibus-1.0/ibusattribute.h
 * /usr/include/ibus-1.0/ibusattrlist.h
@@ -217,4 +218,3 @@ Ibus library
 * /usr/share/ibus/dicts/unicode-names.dict
 * /usr/share/vala/vapi/ibus-1.0.deps
 * /usr/share/vala/vapi/ibus-1.0.vapi
-{{< /files >}}

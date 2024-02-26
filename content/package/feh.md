@@ -15,7 +15,8 @@ depends = "['curl', 'imlib2', 'libexif', 'libpng>=1.6.20', 'libxinerama']"
 +++
 A useful simple image viewer.
 
-{{< files text="show files" >}}* /usr/bin/feh
+## Files: 
+* /usr/bin/feh
 * /usr/share/applications/feh.desktop
 * /usr/share/doc/feh-3.9.1/AUTHORS
 * /usr/share/doc/feh-3.9.1/ChangeLog
@@ -31,4 +32,3 @@ A useful simple image viewer.
 * /usr/share/icons/hicolor/48x48/apps/feh.png
 * /usr/share/icons/hicolor/scalable/apps/feh.svg
 * /usr/share/man/man1/feh.1.gz
-{{< /files >}}

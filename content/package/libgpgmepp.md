@@ -16,7 +16,7 @@ reverse_depends = "['kwallet5', 'libkleo', 'libreoffice', 'poppler']"
 +++
 C++ bindings for gpgme
 
-{{< files text="show files" >}}* /usr/lib/libgpgmepp.so
+## Files: 
+* /usr/lib/libgpgmepp.so
 * /usr/lib/libgpgmepp.so.6
 * /usr/lib/libgpgmepp.so.6.20.1
-{{< /files >}}

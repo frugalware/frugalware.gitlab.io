@@ -16,9 +16,9 @@ reverse_depends = "['lib32-clang']"
 +++
 C/C++ language family frontend for LLVM Libs (32-bit)
 
-{{< files text="show files" >}}* /usr/lib32/libclang-cpp.so
+## Files: 
+* /usr/lib32/libclang-cpp.so
 * /usr/lib32/libclang-cpp.so.17
 * /usr/lib32/libclang.so
 * /usr/lib32/libclang.so.17
 * /usr/lib32/libclang.so.17.0.6
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['calendarsupport', 'kdepim-runtime', 'knotes', 'messagelib']
 +++
 Libraries and daemons to implement searching in Akonad
 
-{{< files text="show files" >}}* /usr/include/KPim5/AkonadiNotes/akonadi-notes_version.h
+## Files: 
+* /usr/include/KPim5/AkonadiNotes/akonadi-notes_version.h
 * /usr/include/KPim5/AkonadiNotes/akonadi/akonadi-notes_export.h
 * /usr/include/KPim5/AkonadiNotes/akonadi/NoteUtils
 * /usr/include/KPim5/AkonadiNotes/Akonadi/NoteUtils
@@ -92,4 +93,3 @@ Libraries and daemons to implement searching in Akonad
 * /usr/share/locale/zh_CN/LC_MESSAGES/akonadinotes5.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/akonadinotes5.mo
 * /usr/share/qt5/mkspecs/modules/qt_AkonadiNotes.pri
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 A composable build system for OCaml (formerly jbuilder)
 
-{{< files text="show files" >}}* /usr/bin/dune
+## Files: 
+* /usr/bin/dune
 * /usr/lib/ocaml/dune-action-plugin/dune-package
 * /usr/lib/ocaml/dune-action-plugin/dune_action_plugin.a
 * /usr/lib/ocaml/dune-action-plugin/dune_action_plugin.cma
@@ -1122,4 +1123,3 @@ A composable build system for OCaml (formerly jbuilder)
 * /usr/share/man/man1/dune-utop.1.gz
 * /usr/share/man/man1/dune.1.gz
 * /usr/share/man/man5/dune-config.5.gz
-{{< /files >}}

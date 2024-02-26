@@ -16,7 +16,8 @@ reverse_depends = "['glfw', 'gtk+4', 'libplacebo', 'mangohud', 'mesa-vulkan-amd'
 +++
 Vulkan Installable Client Driver (ICD) Loader
 
-{{< files text="show files" >}}* /usr/lib/cmake/VulkanLoader/VulkanLoaderConfig-release.cmake
+## Files: 
+* /usr/lib/cmake/VulkanLoader/VulkanLoaderConfig-release.cmake
 * /usr/lib/cmake/VulkanLoader/VulkanLoaderConfig.cmake
 * /usr/lib/cmake/VulkanLoader/VulkanLoaderConfigVersion.cmake
 * /usr/lib/libvulkan.so
@@ -24,4 +25,3 @@ Vulkan Installable Client Driver (ICD) Loader
 * /usr/lib/libvulkan.so.1.3.275
 * /usr/lib/pkgconfig/vulkan.pc
 * /usr/share/doc/vulkan-icd-loader-1.3.275.0/README.md
-{{< /files >}}

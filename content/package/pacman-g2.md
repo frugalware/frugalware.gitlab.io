@@ -16,7 +16,8 @@ reverse_depends = "['etckeeper', 'pacman-tools']"
 +++
 A .tar.xz based package manager library (libpacman) and client (pacman-g2) with dependency support.
 
-{{< files text="show files" >}}* /etc/bash_completion.d/pacman-g2
+## Files: 
+* /etc/bash_completion.d/pacman-g2
 * /etc/makepkg.d/current-makepkg.conf
 * /etc/pacman-g2.conf
 * /etc/pacman-g2/hooks/foreign
@@ -117,4 +118,3 @@ A .tar.xz based package manager library (libpacman) and client (pacman-g2) with 
 * /usr/share/man/man8/makepkg.8.gz
 * /usr/share/man/man8/pacman-g2.8.gz
 * /usr/share/vala/vapi/pacman.vapi
-{{< /files >}}

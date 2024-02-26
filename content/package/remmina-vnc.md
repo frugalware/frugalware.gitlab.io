@@ -15,5 +15,5 @@ depends = "['libvncserver>=0.9.11']"
 +++
 vnc plugin for remmina
 
-{{< files text="show files" >}}* /usr/lib/remmina/plugins/remmina-plugin-vnc.so
-{{< /files >}}
+## Files: 
+* /usr/lib/remmina/plugins/remmina-plugin-vnc.so

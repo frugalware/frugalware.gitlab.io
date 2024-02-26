@@ -16,7 +16,8 @@ reverse_depends = "['libcec']"
 +++
 Platform support library used by libCEC and binary add-ons for Kodi
 
-{{< files text="show files" >}}* /usr/include/p8-platform/os.h
+## Files: 
+* /usr/include/p8-platform/os.h
 * /usr/include/p8-platform/posix/os-socket.h
 * /usr/include/p8-platform/posix/os-threads.h
 * /usr/include/p8-platform/posix/os-types.h
@@ -38,4 +39,3 @@ Platform support library used by libCEC and binary add-ons for Kodi
 * /usr/lib/p8-platform/p8-platform-config.cmake
 * /usr/lib/pkgconfig/p8-platform.pc
 * /usr/share/doc/p8-platform-2.1.0.1/README.md
-{{< /files >}}

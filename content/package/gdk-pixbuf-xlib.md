@@ -16,7 +16,8 @@ reverse_depends = "['xscreensaver']"
 +++
 Deprecated Xlib integration for GdkPixbuf
 
-{{< files text="show files" >}}* /usr/include/gdk-pixbuf-2.0/gdk-pixbuf-xlib/gdk-pixbuf-xlib.h
+## Files: 
+* /usr/include/gdk-pixbuf-2.0/gdk-pixbuf-xlib/gdk-pixbuf-xlib.h
 * /usr/include/gdk-pixbuf-2.0/gdk-pixbuf-xlib/gdk-pixbuf-xlibrgb.h
 * /usr/lib/libgdk_pixbuf_xlib-2.0.so
 * /usr/lib/libgdk_pixbuf_xlib-2.0.so.0
@@ -24,4 +25,3 @@ Deprecated Xlib integration for GdkPixbuf
 * /usr/lib/pkgconfig/gdk-pixbuf-xlib-2.0.pc
 * /usr/share/doc/gdk-pixbuf-xlib-2.40.2/COPYING
 * /usr/share/doc/gdk-pixbuf-xlib-2.40.2/README.md
-{{< /files >}}

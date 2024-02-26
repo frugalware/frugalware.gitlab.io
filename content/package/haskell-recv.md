@@ -16,7 +16,8 @@ reverse_depends = "['haskell-warp']"
 +++
 Efficient netowrk recv
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/recv-0.1.0/libHSrecv-0.1.0-5sAp7mR9JrmKrq2yWnT4GZ.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/recv-0.1.0/libHSrecv-0.1.0-5sAp7mR9JrmKrq2yWnT4GZ.a
 * /usr/lib/ghc-9.8.1/site-local/recv-0.1.0/Network/Socket/BufferPool.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/recv-0.1.0/Network/Socket/BufferPool.hi
 * /usr/lib/ghc-9.8.1/site-local/recv-0.1.0/Network/Socket/BufferPool/Buffer.dyn_hi
@@ -43,4 +44,3 @@ Efficient netowrk recv
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/recv-0.1.0/LICENSE
 * /usr/share/haskell/haskell-recv/register.sh
 * /usr/share/haskell/haskell-recv/unregister.sh
-{{< /files >}}

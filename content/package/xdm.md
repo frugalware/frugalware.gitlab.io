@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org xdm application
 
-{{< files text="show files" >}}* /etc/X11/xdm/Xaccess
+## Files: 
+* /etc/X11/xdm/Xaccess
 * /etc/X11/xdm/xdm-config
 * /etc/X11/xdm/Xresources
 * /etc/X11/xdm/Xservers
@@ -41,4 +42,3 @@ X.Org xdm application
 * /usr/share/doc/xdm-1.1.14/README.md
 * /usr/share/man/man8/xdm.8.gz
 * /usr/share/X11/app-defaults/Chooser
-{{< /files >}}

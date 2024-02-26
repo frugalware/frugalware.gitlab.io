@@ -15,5 +15,5 @@ depends = "['gst1-plugins-base', 'wireplumber']"
 +++
 GStreamer Pipewire Plugin
 
-{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstpipewire.so
-{{< /files >}}
+## Files: 
+* /usr/lib/gstreamer-1.0/libgstpipewire.so

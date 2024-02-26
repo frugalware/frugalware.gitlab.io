@@ -16,7 +16,8 @@ reverse_depends = "['python3-setuptools-rust']"
 +++
 A library implementing the 'SemVer' scheme.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/semantic_version-2.10.0-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/semantic_version-2.10.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/semantic_version-2.10.0-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/semantic_version-2.10.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/semantic_version-2.10.0-py3.12.egg-info/requires.txt
@@ -32,4 +33,3 @@ A library implementing the 'SemVer' scheme.
 * /usr/share/doc/python3-semantic-version-2.10.0/CREDITS
 * /usr/share/doc/python3-semantic-version-2.10.0/LICENSE
 * /usr/share/doc/python3-semantic-version-2.10.0/README.rst
-{{< /files >}}

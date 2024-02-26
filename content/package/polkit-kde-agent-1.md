@@ -15,7 +15,8 @@ depends = "['kcrash>=5.115.0', 'kdbusaddons>=5.115.0', 'kiconthemes>=5.115.0']"
 +++
 Daemon providing a polkit authentication UI for KDE
 
-{{< files text="show files" >}}* /etc/xdg/autostart/polkit-kde-authentication-agent-1.desktop
+## Files: 
+* /etc/xdg/autostart/polkit-kde-authentication-agent-1.desktop
 * /usr/lib/kf5/polkit-kde-authentication-agent-1
 * /usr/lib/systemd/user/plasma-polkit-agent.service
 * /usr/share/applications/org.kde.polkit-kde-authentication-agent-1.desktop
@@ -83,4 +84,3 @@ Daemon providing a polkit authentication UI for KDE
 * /usr/share/locale/vi/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
-{{< /files >}}

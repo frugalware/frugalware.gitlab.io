@@ -16,7 +16,8 @@ reverse_depends = "['graphviz', 'spring']"
 +++
 Library for reading several different image formats
 
-{{< files text="show files" >}}* /usr/include/IL/il.h
+## Files: 
+* /usr/include/IL/il.h
 * /usr/include/IL/ilu.h
 * /usr/include/IL/ilut.h
 * /usr/lib/libIL.so
@@ -27,4 +28,3 @@ Library for reading several different image formats
 * /usr/lib/pkgconfig/ILUT.pc
 * /usr/share/doc/devil-1.8.0/LICENSE
 * /usr/share/doc/devil-1.8.0/README.md
-{{< /files >}}

@@ -16,7 +16,8 @@ license = "GPL"
 +++
 An anonymous Internet communication system
 
-{{< files text="show files" >}}* /etc/tmpfiles.d/tor.conf
+## Files: 
+* /etc/tmpfiles.d/tor.conf
 * /etc/tor/torrc
 * /usr/bin/tor
 * /usr/bin/tor-gencert
@@ -40,4 +41,3 @@ An anonymous Internet communication system
 * /usr/share/man/man1/torify.1.gz
 * /usr/share/tor/geoip
 * /usr/share/tor/geoip6
-{{< /files >}}

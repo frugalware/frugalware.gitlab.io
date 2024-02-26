@@ -16,7 +16,8 @@ reverse_depends = "['flutter', 'maven', 'openjdk-source', 'testng']"
 +++
 Open-source Java Development Kit implementation.
 
-{{< files text="show files" >}}* /usr/lib/jvm/java-21-openjdk/bin/jar
+## Files: 
+* /usr/lib/jvm/java-21-openjdk/bin/jar
 * /usr/lib/jvm/java-21-openjdk/bin/jar.debuginfo
 * /usr/lib/jvm/java-21-openjdk/bin/jarsigner
 * /usr/lib/jvm/java-21-openjdk/bin/jarsigner.debuginfo
@@ -249,4 +250,3 @@ Open-source Java Development Kit implementation.
 * /usr/share/man/man1/keytool.1.gz
 * /usr/share/man/man1/rmiregistry.1.gz
 * /usr/share/man/man1/serialver.1.gz
-{{< /files >}}

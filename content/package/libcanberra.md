@@ -16,7 +16,8 @@ reverse_depends = "['hexchat', 'kitty', 'kmix', 'knotifications', 'libcanberra-a
 +++
 libcanberra is an implementation of the XDG Sound Theme and Name Specifications.
 
-{{< files text="show files" >}}* /usr/bin/canberra-boot
+## Files: 
+* /usr/bin/canberra-boot
 * /usr/include/canberra.h
 * /usr/lib/gnome-settings-daemon-3.0/gtk-modules/canberra-gtk-module.desktop
 * /usr/lib/libcanberra-0.30/libcanberra-multi.so
@@ -32,4 +33,3 @@ libcanberra is an implementation of the XDG Sound Theme and Name Specifications.
 * /usr/share/gdm/autostart/LoginWindow/libcanberra-ready-sound.desktop
 * /usr/share/vala/vapi/libcanberra-gtk.vapi
 * /usr/share/vala/vapi/libcanberra.vapi
-{{< /files >}}

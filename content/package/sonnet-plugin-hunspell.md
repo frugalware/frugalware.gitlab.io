@@ -15,5 +15,5 @@ depends = "['hunspell>=1.7.0']"
 +++
 Hunspell plugin for sonnet
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/sonnet/sonnet_hunspell.so
-{{< /files >}}
+## Files: 
+* /usr/lib/qt5/plugins/kf5/sonnet/sonnet_hunspell.so

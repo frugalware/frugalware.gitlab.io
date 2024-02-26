@@ -16,7 +16,8 @@ license = "GPL"
 +++
 A tool for generating static binaries of dynamic ELF executables
 
-{{< files text="show files" >}}* /usr/bin/statifier
+## Files: 
+* /usr/bin/statifier
 * /usr/lib/statifier/64/dl-var
 * /usr/lib/statifier/64/elf_data
 * /usr/lib/statifier/64/elf_find_pattern
@@ -76,4 +77,3 @@ A tool for generating static binaries of dynamic ELF executables
 * /usr/share/doc/statifier-1.7.4/TODO
 * /usr/share/doc/statifier-1.7.4/VERSION
 * /usr/share/man/man1/statifier.1.gz
-{{< /files >}}

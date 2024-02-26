@@ -15,7 +15,8 @@ depends = "['libxrandr', 'plasma-framework', 'qt5-x11extras', 'wrapland']"
 +++
 Qt/C++ display management library
 
-{{< files text="show files" >}}* /usr/bin/dismanctl
+## Files: 
+* /usr/bin/dismanctl
 * /usr/include/disman/backendmanager_p.h
 * /usr/include/disman/config.h
 * /usr/include/disman/configmonitor.h
@@ -62,4 +63,3 @@ Qt/C++ display management library
 * /usr/share/doc/disman-0.527.0/COPYING.LIB
 * /usr/share/doc/disman-0.527.0/README.md
 * /usr/share/qlogging-categories5/disman.categories
-{{< /files >}}

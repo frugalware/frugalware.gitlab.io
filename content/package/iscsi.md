@@ -16,7 +16,8 @@ reverse_depends = "['dracut-network', 'libvirt']"
 +++
 Open-iSCSI project is a high performance, transport independent
 
-{{< files text="show files" >}}* /etc/iscsi/initiatorname.iscsi
+## Files: 
+* /etc/iscsi/initiatorname.iscsi
 * /etc/iscsi/iscsid.conf
 * /etc/logrotate.d/iscsiuiolog
 * /etc/sysconfig/iscsid
@@ -118,4 +119,3 @@ Open-iSCSI project is a high performance, transport independent
 * /usr/share/man/man8/iscsi_discovery.8.gz
 * /usr/share/man/man8/iscsi_fw_login.8.gz
 * /var/lib/iscsi/ifaces/iface.example
-{{< /files >}}

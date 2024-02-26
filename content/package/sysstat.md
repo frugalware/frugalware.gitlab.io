@@ -16,7 +16,8 @@ reverse_depends = "['lumina-desktop']"
 +++
 A collection of performance monitoring tools for Linux
 
-{{< files text="show files" >}}* /etc/sysconfig/sysstat
+## Files: 
+* /etc/sysconfig/sysstat
 * /etc/sysconfig/sysstat.ioconf
 * /usr/bin/cifsiostat
 * /usr/bin/iostat
@@ -91,4 +92,3 @@ A collection of performance monitoring tools for Linux
 * /usr/share/man/man8/sa1.8.xz.gz
 * /usr/share/man/man8/sa2.8.xz.gz
 * /usr/share/man/man8/sadc.8.xz.gz
-{{< /files >}}

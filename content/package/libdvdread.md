@@ -16,7 +16,8 @@ reverse_depends = "['gst1-plugins-bad-resindvd', 'gst1-plugins-ugly-dvdread', 'k
 +++
 libdvdread provides a simple foundation for reading DVD video disks
 
-{{< files text="show files" >}}* /usr/include/dvdread/bitreader.h
+## Files: 
+* /usr/include/dvdread/bitreader.h
 * /usr/include/dvdread/dvd_reader.h
 * /usr/include/dvdread/dvd_udf.h
 * /usr/include/dvdread/ifo_print.h
@@ -36,4 +37,3 @@ libdvdread provides a simple foundation for reading DVD video disks
 * /usr/share/doc/libdvdread-6.1.3/NEWS
 * /usr/share/doc/libdvdread-6.1.3/README.md
 * /usr/share/doc/libdvdread-6.1.3/TODO
-{{< /files >}}

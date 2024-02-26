@@ -16,7 +16,8 @@ reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-good-vpx', 'mencoder', 
 +++
 WebM VP8 VP9 Codec SDK
 
-{{< files text="show files" >}}* /usr/bin/vpxdec
+## Files: 
+* /usr/bin/vpxdec
 * /usr/bin/vpxenc
 * /usr/include/vpx/vp8.h
 * /usr/include/vpx/vp8cx.h
@@ -40,4 +41,3 @@ WebM VP8 VP9 Codec SDK
 * /usr/share/doc/libvpx-1.14.0/LICENSE
 * /usr/share/doc/libvpx-1.14.0/README
 * /usr/share/doc/libvpx-1.14.0/README.md
-{{< /files >}}

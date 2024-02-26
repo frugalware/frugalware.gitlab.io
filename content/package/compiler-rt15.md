@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Compiler runtime libraries for clang15
 
-{{< files text="show files" >}}* /usr/lib/llvm15/lib/clang/15.0.7/include/sanitizer/allocator_interface.h
+## Files: 
+* /usr/lib/llvm15/lib/clang/15.0.7/include/sanitizer/allocator_interface.h
 * /usr/lib/llvm15/lib/clang/15.0.7/include/sanitizer/asan_interface.h
 * /usr/lib/llvm15/lib/clang/15.0.7/include/sanitizer/common_interface_defs.h
 * /usr/lib/llvm15/lib/clang/15.0.7/include/sanitizer/coverage_interface.h
@@ -99,4 +100,3 @@ Compiler runtime libraries for clang15
 * /usr/lib/llvm15/lib/clang/15.0.7/share/dfsan_abilist.txt
 * /usr/lib/llvm15/lib/clang/15.0.7/share/hwasan_ignorelist.txt
 * /usr/lib/llvm15/lib/clang/15.0.7/share/msan_ignorelist.txt
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['spamassassin']"
 +++
 Database independent interface for Perl
 
-{{< files text="show files" >}}* /usr/bin/site_perl/dbilogstrip
+## Files: 
+* /usr/bin/site_perl/dbilogstrip
 * /usr/bin/site_perl/dbiprof
 * /usr/bin/site_perl/dbiproxy
 * /usr/lib/perl5/5.38/site_perl/auto/DBI/dbd_xsh.h
@@ -138,4 +139,3 @@ Database independent interface for Perl
 * /usr/share/man/man3/DBI::Util::CacheMemory.3perl.gz
 * /usr/share/man/man3/DBI::W32ODBC.3perl.gz
 * /usr/share/man/man3/Win32::DBIODBC.3perl.gz
-{{< /files >}}

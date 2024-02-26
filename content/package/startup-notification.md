@@ -16,7 +16,8 @@ reverse_depends = "['claws-mail', 'firefox', 'i3', 'libreoffice', 'libwnck', 'li
 +++
 Application startup notification and feedback library
 
-{{< files text="show files" >}}* /usr/include/startup-notification-1.0/libsn/sn-common.h
+## Files: 
+* /usr/include/startup-notification-1.0/libsn/sn-common.h
 * /usr/include/startup-notification-1.0/libsn/sn-launchee.h
 * /usr/include/startup-notification-1.0/libsn/sn-launcher.h
 * /usr/include/startup-notification-1.0/libsn/sn-monitor.h
@@ -30,4 +31,3 @@ Application startup notification and feedback library
 * /usr/share/doc/startup-notification-0.12/ChangeLog
 * /usr/share/doc/startup-notification-0.12/COPYING
 * /usr/share/doc/startup-notification-0.12/NEWS
-{{< /files >}}

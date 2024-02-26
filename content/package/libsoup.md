@@ -16,7 +16,8 @@ reverse_depends = "['gst1-plugins-good-libsoup', 'inkscape', 'strongswan', 'tele
 +++
 An HTTP library implementation in C
 
-{{< files text="show files" >}}* /usr/include/libsoup-2.4/libsoup/soup-address.h
+## Files: 
+* /usr/include/libsoup-2.4/libsoup/soup-address.h
 * /usr/include/libsoup-2.4/libsoup/soup-auth-domain-basic.h
 * /usr/include/libsoup-2.4/libsoup/soup-auth-domain-digest.h
 * /usr/include/libsoup-2.4/libsoup/soup-auth-domain.h
@@ -164,4 +165,3 @@ An HTTP library implementation in C
 * /usr/share/locale/zh_TW/LC_MESSAGES/libsoup.mo
 * /usr/share/vala/vapi/libsoup-2.4.deps
 * /usr/share/vala/vapi/libsoup-2.4.vapi
-{{< /files >}}

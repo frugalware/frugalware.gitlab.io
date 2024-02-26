@@ -16,7 +16,8 @@ reverse_depends = "['aura-browser', 'calindori', 'discover', 'elisa', 'kalk', 'k
 +++
 UI framework for mobile and convergent applications written in Qt.
 
-{{< files text="show files" >}}* /usr/include/KF5/Kirigami2/kirigami/kirigami2_export.h
+## Files: 
+* /usr/include/KF5/Kirigami2/kirigami/kirigami2_export.h
 * /usr/include/KF5/Kirigami2/Kirigami/KirigamiPluginFactory
 * /usr/include/KF5/Kirigami2/kirigami/kirigamipluginfactory.h
 * /usr/include/KF5/Kirigami2/Kirigami/PlatformTheme
@@ -217,4 +218,3 @@ UI framework for mobile and convergent applications written in Qt.
 * /usr/share/qt5/qml/org/kde/kirigami.2/templates/SwipeListItem.qml
 * /usr/share/qt5/qml/org/kde/kirigami.2/ToolBarApplicationHeader.qml
 * /usr/share/qt5/qml/org/kde/kirigami.2/UrlButton.qml
-{{< /files >}}

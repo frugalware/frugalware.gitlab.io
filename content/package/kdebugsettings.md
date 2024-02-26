@@ -15,7 +15,8 @@ depends = "['kcompletion>=5.115.0', 'kcoreaddons>=5.115.0', 'kdbusaddons>=5.115.
 +++
 An application to enable/disable qCDebug
 
-{{< files text="show files" >}}* /usr/bin/kdebugsettings
+## Files: 
+* /usr/bin/kdebugsettings
 * /usr/lib/libkdebugsettings.so.23.08.5
 * /usr/lib/libkdebugsettings.so.5
 * /usr/lib/libkdebugsettingscore.so.23.08.5
@@ -65,4 +66,3 @@ An application to enable/disable qCDebug
 * /usr/share/metainfo/org.kde.kdebugsettings.appdata.xml
 * /usr/share/qlogging-categories5/kde.renamecategories
 * /usr/share/qlogging-categories5/kdebugsettings.categories
-{{< /files >}}

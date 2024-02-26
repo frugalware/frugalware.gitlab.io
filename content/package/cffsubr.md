@@ -15,7 +15,8 @@ depends = "['python3>=3.10']"
 +++
 Standalone CFF subroutinizer based on AFDKO tx
 
-{{< files text="show files" >}}* /usr/bin/cffsubr
+## Files: 
+* /usr/bin/cffsubr
 * /usr/lib/python3.12/site-packages/cffsubr-0.2.9-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/cffsubr-0.2.9-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/cffsubr-0.2.9-py3.12.egg-info/not-zip-safe
@@ -32,4 +33,3 @@ Standalone CFF subroutinizer based on AFDKO tx
 * /usr/lib/python3.12/site-packages/cffsubr/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/cffsubr-0.2.9/LICENSE
 * /usr/share/doc/cffsubr-0.2.9/README.md
-{{< /files >}}

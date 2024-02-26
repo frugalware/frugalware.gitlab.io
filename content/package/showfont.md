@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org showfont application
 
-{{< files text="show files" >}}* /usr/bin/showfont
+## Files: 
+* /usr/bin/showfont
 * /usr/share/doc/showfont-1.0.6/ChangeLog
 * /usr/share/doc/showfont-1.0.6/COPYING
 * /usr/share/doc/showfont-1.0.6/INSTALL
 * /usr/share/doc/showfont-1.0.6/README.md
 * /usr/share/man/man1/showfont.1.gz
-{{< /files >}}

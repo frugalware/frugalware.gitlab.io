@@ -16,7 +16,8 @@ reverse_depends = "['python3-jsonschema', 'python3-outcome', 'python3-trio', 'py
 +++
 Attributes without boilerplate.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/attr/converters.py
+## Files: 
+* /usr/lib/python3.12/site-packages/attr/converters.py
 * /usr/lib/python3.12/site-packages/attr/converters.pyi
 * /usr/lib/python3.12/site-packages/attr/exceptions.py
 * /usr/lib/python3.12/site-packages/attr/exceptions.pyi
@@ -91,4 +92,3 @@ Attributes without boilerplate.
 * /usr/lib/python3.12/site-packages/attrs/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-attrs-23.1.0/LICENSE
 * /usr/share/doc/python3-attrs-23.1.0/README.md
-{{< /files >}}

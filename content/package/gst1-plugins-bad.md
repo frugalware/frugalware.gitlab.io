@@ -16,7 +16,8 @@ reverse_depends = "['castersoundboard', 'gst1-plugins-bad-bzip2', 'gst1-plugins-
 +++
 Plugins for GStreamer (Bad)
 
-{{< files text="show files" >}}* /usr/bin/gst-transcoder-1.0
+## Files: 
+* /usr/bin/gst-transcoder-1.0
 * /usr/bin/playout
 * /usr/include/gstreamer-1.0/gst/audio/audio-bad-prelude.h
 * /usr/include/gstreamer-1.0/gst/audio/gstnonstreamaudiodecoder.h
@@ -317,4 +318,3 @@ Plugins for GStreamer (Bad)
 * /usr/share/locale/vi/LC_MESSAGES/gst-plugins-bad-1.0.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/gst-plugins-bad-1.0.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/gst-plugins-bad-1.0.mo
-{{< /files >}}

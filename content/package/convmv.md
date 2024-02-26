@@ -15,9 +15,9 @@ depends = "['perl']"
 +++
 A version of 'mv' which is capable of converting the charset of file names.
 
-{{< files text="show files" >}}* /usr/bin/convmv
+## Files: 
+* /usr/bin/convmv
 * /usr/share/doc/convmv-2.05/CREDITS
 * /usr/share/doc/convmv-2.05/TODO
 * /usr/share/doc/convmv-2.05/VERSION
 * /usr/share/man/man1/convmv.1.gz
-{{< /files >}}

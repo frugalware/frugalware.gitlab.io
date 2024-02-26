@@ -15,7 +15,8 @@ depends = "['eventviews', 'kirigami-addons', 'mailcommon', 'qqc2-desktop-style']
 +++
 A calendar application using Akonadi to sync with external services
 
-{{< files text="show files" >}}* /usr/bin/merkuro-calendar
+## Files: 
+* /usr/bin/merkuro-calendar
 * /usr/bin/merkuro-contact
 * /usr/bin/merkuro-mail
 * /usr/share/applications/org.kde.merkuro.calendar.desktop
@@ -188,4 +189,3 @@ A calendar application using Akonadi to sync with external services
 * /usr/share/qt5/qml/org/kde/merkuro/mail/private/AttachmentDelegate.qml
 * /usr/share/qt5/qml/org/kde/merkuro/mail/private/MailDelegate.qml
 * /usr/share/qt5/qml/org/kde/merkuro/mail/qmldir
-{{< /files >}}

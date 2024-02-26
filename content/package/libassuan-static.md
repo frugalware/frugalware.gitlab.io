@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Static files for libassuan
 
-{{< files text="show files" >}}* /usr/lib/libassuan.a
-{{< /files >}}
+## Files: 
+* /usr/lib/libassuan.a

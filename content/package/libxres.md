@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X Resource Information Extension Library
 
-{{< files text="show files" >}}* /usr/include/X11/extensions/XRes.h
+## Files: 
+* /usr/include/X11/extensions/XRes.h
 * /usr/lib/libXRes.so
 * /usr/lib/libXRes.so.1
 * /usr/lib/libXRes.so.1.0.0
@@ -33,4 +34,3 @@ X Resource Information Extension Library
 * /usr/share/man/man3/XResQueryClients.3.gz
 * /usr/share/man/man3/XResQueryExtension.3.gz
 * /usr/share/man/man3/XResQueryVersion.3.gz
-{{< /files >}}

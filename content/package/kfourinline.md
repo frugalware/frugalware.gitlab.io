@@ -15,7 +15,8 @@ depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=
 +++
 A four-in-a-row game.
 
-{{< files text="show files" >}}* /usr/bin/kfourinline
+## Files: 
+* /usr/bin/kfourinline
 * /usr/bin/kfourinlineproc
 * /usr/share/applications/org.kde.kfourinline.desktop
 * /usr/share/config.kcfg/kwin4.kcfg
@@ -141,4 +142,3 @@ A four-in-a-row game.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kfourinline.mo
 * /usr/share/metainfo/org.kde.kfourinline.appdata.xml
 * /usr/share/qlogging-categories5/kfourinline.categories
-{{< /files >}}

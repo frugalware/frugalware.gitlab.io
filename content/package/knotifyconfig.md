@@ -16,7 +16,8 @@ reverse_depends = "['akregator', 'digikam', 'k3b', 'kalarm', 'kdenlive', 'kdepim
 +++
 Configuration dialog for desktop notifications.
 
-{{< files text="show files" >}}* /usr/include/KF5/KNotifyConfig/KNotifyConfigWidget
+## Files: 
+* /usr/include/KF5/KNotifyConfig/KNotifyConfigWidget
 * /usr/include/KF5/KNotifyConfig/knotifyconfigwidget.h
 * /usr/include/KF5/KNotifyConfig/knotifyconfig_export.h
 * /usr/include/KF5/KNotifyConfig/knotifyconfig_version.h
@@ -130,4 +131,3 @@ Configuration dialog for desktop notifications.
 * /usr/share/locale/zh_TW/LC_MESSAGES/knotifyconfig5.mo
 * /usr/share/qlogging-categories5/knotifyconfig.categories
 * /usr/share/qt5/mkspecs/modules/qt_KNotifyConfig.pri
-{{< /files >}}

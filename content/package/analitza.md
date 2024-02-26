@@ -16,7 +16,8 @@ reverse_depends = "['cantor', 'kalgebra']"
 +++
 Shared Math libraries from Kalgebra.
 
-{{< files text="show files" >}}* /usr/include/Analitza5/analitza/abstractexpressionvisitor.h
+## Files: 
+* /usr/include/Analitza5/analitza/abstractexpressionvisitor.h
 * /usr/include/Analitza5/analitza/abstractlexer.h
 * /usr/include/Analitza5/analitza/analitzaexport.h
 * /usr/include/Analitza5/analitza/analitzautils.h
@@ -131,4 +132,3 @@ Shared Math libraries from Kalgebra.
 * /usr/share/qt5/qml/org/kde/analitza/Graph3D.qml
 * /usr/share/qt5/qml/org/kde/analitza/libanalitzadeclarativeplugin.so
 * /usr/share/qt5/qml/org/kde/analitza/qmldir
-{{< /files >}}

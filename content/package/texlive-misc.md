@@ -15,7 +15,8 @@ depends = "['texlive=2023.0']"
 +++
 Miscellaneous packages for TeX Live
 
-{{< files text="show files" >}}* /usr/bin/lily-glyph-commands
+## Files: 
+* /usr/bin/lily-glyph-commands
 * /usr/bin/lily-image-commands
 * /usr/bin/lily-rebuild-pdfs
 * /usr/bin/musixflx
@@ -495,4 +496,3 @@ Miscellaneous packages for TeX Live
 * /usr/share/texmf-dist/tex/latex/xskak/xskak-keys.sty
 * /usr/share/texmf-dist/tex/latex/xskak/xskak-nagdef.sty
 * /usr/share/texmf-dist/tex/latex/xskak/xskak.sty
-{{< /files >}}

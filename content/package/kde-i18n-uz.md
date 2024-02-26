@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Uzbek Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/locale/uz/charset
+## Files: 
+* usr/share/locale/uz/charset
 * usr/share/locale/uz/entry.desktop
 * usr/share/locale/uz/flag.png
 * usr/share/locale/uz/LC_MESSAGES/akregator.mo
@@ -367,4 +368,3 @@ Uzbek Localization for KDE.
 * usr/share/locale/uz/LC_MESSAGES/wakeup.mo
 * usr/share/locale/uz/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/uz/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

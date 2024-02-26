@@ -15,7 +15,8 @@ depends = "['icu4c>=74.1', 'kactivities5>=5.115.0', 'kcmutils>=5.115.0', 'kconfi
 +++
 Plasma AddOns
 
-{{< files text="show files" >}}* /usr/include/plasma/potdprovider/plasma_potd_export.h
+## Files: 
+* /usr/include/plasma/potdprovider/plasma_potd_export.h
 * /usr/include/plasma/potdprovider/potdprovider.h
 * /usr/lib/cmake/PlasmaPotdProvider/PlasmaPotdProviderConfig.cmake
 * /usr/lib/cmake/PlasmaPotdProvider/PlasmaPotdProviderConfigVersion.cmake
@@ -2080,4 +2081,3 @@ Plasma AddOns
 * /usr/share/qt5/qml/org/kde/plasmacalendar/alternatecalendarconfig/qmldir
 * /usr/share/qt5/qml/org/kde/plasmacalendar/astronomicaleventsconfig/libplasmacalendarastronomicaleventsconfig.so
 * /usr/share/qt5/qml/org/kde/plasmacalendar/astronomicaleventsconfig/qmldir
-{{< /files >}}

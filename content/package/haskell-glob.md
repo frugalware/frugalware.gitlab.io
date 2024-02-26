@@ -16,7 +16,8 @@ reverse_depends = "['pandoc']"
 +++
 Globbing library
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/Glob-0.10.2/libHSGlob-0.10.2-GdwChcAsgFw7Si8wXHRSgw.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/Glob-0.10.2/libHSGlob-0.10.2-GdwChcAsgFw7Si8wXHRSgw.a
 * /usr/lib/ghc-9.8.1/site-local/Glob-0.10.2/System/FilePath/Glob.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/Glob-0.10.2/System/FilePath/Glob.hi
 * /usr/lib/ghc-9.8.1/site-local/Glob-0.10.2/System/FilePath/Glob/Base.dyn_hi
@@ -46,4 +47,3 @@ Globbing library
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/Glob-0.10.2/LICENSE.txt
 * /usr/share/haskell/haskell-glob/register.sh
 * /usr/share/haskell/haskell-glob/unregister.sh
-{{< /files >}}

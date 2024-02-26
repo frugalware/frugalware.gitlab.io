@@ -16,5 +16,5 @@ reverse_depends = "['docker']"
 +++
 Docker Networking
 
-{{< files text="show files" >}}* /usr/bin/docker-proxy
-{{< /files >}}
+## Files: 
+* /usr/bin/docker-proxy

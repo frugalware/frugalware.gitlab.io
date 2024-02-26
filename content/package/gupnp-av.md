@@ -16,7 +16,8 @@ reverse_depends = "['gupnp-tools']"
 +++
 GUPnP-AV is a collection of helpers for building audio/video applications using GUPnP
 
-{{< files text="show files" >}}* /usr/include/gupnp-av-1.0/libgupnp-av/gupnp-av-enums.h
+## Files: 
+* /usr/include/gupnp-av-1.0/libgupnp-av/gupnp-av-enums.h
 * /usr/include/gupnp-av-1.0/libgupnp-av/gupnp-av-error.h
 * /usr/include/gupnp-av-1.0/libgupnp-av/gupnp-av.h
 * /usr/include/gupnp-av-1.0/libgupnp-av/gupnp-cds-last-change-parser.h
@@ -53,4 +54,3 @@ GUPnP-AV is a collection of helpers for building audio/video applications using 
 * /usr/share/gupnp-av/xml.xsd
 * /usr/share/vala/vapi/gupnp-av-1.0.deps
 * /usr/share/vala/vapi/gupnp-av-1.0.vapi
-{{< /files >}}

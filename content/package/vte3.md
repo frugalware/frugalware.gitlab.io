@@ -16,7 +16,8 @@ reverse_depends = "['gamt', 'geany', 'remmina', 'sakura', 'sunflower', 'virt-man
 +++
 Virtual Terminal Emulator (gtk+4)
 
-{{< files text="show files" >}}* /etc/profile.d/vte.csh
+## Files: 
+* /etc/profile.d/vte.csh
 * /etc/profile.d/vte.sh
 * /usr/bin/vte-2.91
 * /usr/bin/vte-2.91-gtk4
@@ -167,4 +168,3 @@ Virtual Terminal Emulator (gtk+4)
 * /usr/share/vala/vapi/vte-2.91-gtk4.vapi
 * /usr/share/vala/vapi/vte-2.91.deps
 * /usr/share/vala/vapi/vte-2.91.vapi
-{{< /files >}}

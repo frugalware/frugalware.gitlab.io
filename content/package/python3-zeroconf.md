@@ -15,7 +15,8 @@ depends = "['python3-ifaddr', 'python3-netifaces', 'python3-six']"
 +++
 A pure python implementation of multicast DNS service discovery
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/zeroconf-0.131.0.dist-info/COPYING
+## Files: 
+* /usr/lib/python3.12/site-packages/zeroconf-0.131.0.dist-info/COPYING
 * /usr/lib/python3.12/site-packages/zeroconf-0.131.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/zeroconf-0.131.0.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/zeroconf-0.131.0.dist-info/WHEEL
@@ -157,4 +158,3 @@ A pure python implementation of multicast DNS service discovery
 * /usr/lib/python3.12/site-packages/zeroconf/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-zeroconf-0.131.0/COPYING
 * /usr/share/doc/python3-zeroconf-0.131.0/README.rst
-{{< /files >}}

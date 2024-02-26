@@ -16,7 +16,8 @@ reverse_depends = "['ktouch']"
 +++
 A QtQuick plugin to render beautiful and interactive charts.
 
-{{< files text="show files" >}}* /usr/include/KF5/kqtquickcharts_version.h
+## Files: 
+* /usr/include/KF5/kqtquickcharts_version.h
 * /usr/lib/cmake/KQtQuickCharts/KQtQuickChartsConfig.cmake
 * /usr/lib/cmake/KQtQuickCharts/KQtQuickChartsVersion.cmake
 * /usr/share/doc/kqtquickcharts-23.08.5/AUTHORS
@@ -30,4 +31,3 @@ A QtQuick plugin to render beautiful and interactive charts.
 * /usr/share/qt5/qml/org/kde/charts/LineLabel.qml
 * /usr/share/qt5/qml/org/kde/charts/qmldir
 * /usr/share/qt5/qml/org/kde/charts/XYChart.qml
-{{< /files >}}

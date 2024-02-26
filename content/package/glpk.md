@@ -16,7 +16,8 @@ reverse_depends = "['4ti2', 'coin-or-coinutils', 'octave']"
 +++
 GNU Linear Programming Kit
 
-{{< files text="show files" >}}* /usr/bin/glpsol
+## Files: 
+* /usr/bin/glpsol
 * /usr/include/glpk.h
 * /usr/lib/libglpk.so
 * /usr/lib/libglpk.so.40
@@ -28,4 +29,3 @@ GNU Linear Programming Kit
 * /usr/share/doc/glpk-5.0/NEWS
 * /usr/share/doc/glpk-5.0/README
 * /usr/share/doc/glpk-5.0/THANKS
-{{< /files >}}

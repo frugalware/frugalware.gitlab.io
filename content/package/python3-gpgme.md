@@ -16,7 +16,8 @@ reverse_depends = "['python3-dulwich']"
 +++
 Python3 bindings for gpgme
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/EGG-INFO/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/EGG-INFO/dependency_links.txt
 * /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/EGG-INFO/native_libs.txt
 * /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/EGG-INFO/not-zip-safe
 * /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/EGG-INFO/PKG-INFO
@@ -81,4 +82,3 @@ Python3 bindings for gpgme
 * /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/gpg/__pycache__/version.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/gpg/__pycache__/_gpgme.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/gpg/__pycache__/__init__.cpython-312.pyc
-{{< /files >}}

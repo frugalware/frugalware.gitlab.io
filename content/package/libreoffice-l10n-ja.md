@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Japanese support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/ja/default.css
+## Files: 
+* /usr/lib/libreoffice/help/ja/default.css
 * /usr/lib/libreoffice/help/ja/err.html
 * /usr/lib/libreoffice/help/ja/highcontrast1.css
 * /usr/lib/libreoffice/help/ja/highcontrast2.css
@@ -136,4 +137,3 @@ Installs Japanese support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-ja.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_ja.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_ja.xcd
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['freetype2>=2.6.2-3', 'glew>=2.2.0', 'libboost>=1.83.0', 'libjpeg-tu
 +++
 Free Clone of Master of Orion
 
-{{< files text="show files" >}}* /etc/ld.so.conf.d/freeorion.conf
+## Files: 
+* /etc/ld.so.conf.d/freeorion.conf
 * /usr/bin/freeorion
 * /usr/bin/freeorionca
 * /usr/bin/freeoriond
@@ -3426,4 +3427,3 @@ Free Clone of Master of Orion
 * /usr/share/icons/hicolor/32x32/apps/freeorion.png
 * /usr/share/icons/hicolor/64x64/apps/freeorion.png
 * /usr/share/metainfo/org.freeorion.FreeOrion.metainfo.xml
-{{< /files >}}

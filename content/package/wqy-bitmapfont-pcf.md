@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 WenQuanYi Bitmap Song CJK font
 
-{{< files text="show files" >}}* /usr/share/doc/wqy-bitmapfont-pcf-0.9.9_0/AUTHORS
+## Files: 
+* /usr/share/doc/wqy-bitmapfont-pcf-0.9.9_0/AUTHORS
 * /usr/share/doc/wqy-bitmapfont-pcf-0.9.9_0/ChangeLog
 * /usr/share/doc/wqy-bitmapfont-pcf-0.9.9_0/COPYING
 * /usr/share/doc/wqy-bitmapfont-pcf-0.9.9_0/INSTALL
@@ -29,4 +30,3 @@ WenQuanYi Bitmap Song CJK font
 * /usr/share/fonts/X11/75dpi/wenquanyi_12ptb.pcf
 * /usr/share/fonts/X11/75dpi/wenquanyi_9pt.pcf
 * /usr/share/fonts/X11/75dpi/wenquanyi_9ptb.pcf
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['mono']"
 +++
 Microsoft .NET Portable Library Reference Assemblies
 
-{{< files text="show files" >}}* /usr/lib/mono/xbuild-frameworks/.NETPortable/v4.0/Microsoft.CSharp.dll
+## Files: 
+* /usr/lib/mono/xbuild-frameworks/.NETPortable/v4.0/Microsoft.CSharp.dll
 * /usr/lib/mono/xbuild-frameworks/.NETPortable/v4.0/mscorlib.dll
 * /usr/lib/mono/xbuild-frameworks/.NETPortable/v4.0/Profile/Profile102/mscorlib.dll
 * /usr/lib/mono/xbuild-frameworks/.NETPortable/v4.0/Profile/Profile102/RedistList/FrameworkList.xml
@@ -886,4 +887,3 @@ Microsoft .NET Portable Library Reference Assemblies
 * /usr/share/doc/referenceassemblies-pcl-2014.04.14/INSTALL.md
 * /usr/share/doc/referenceassemblies-pcl-2014.04.14/README.md
 * /usr/share/licenses/referenceassemblies-pcl/EULA.rtf
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['qt6-sensors']"
 +++
 The Qt6 toolkit, qtconnectivity
 
-{{< files text="show files" >}}* /usr/include/qt6/QtBluetooth/6.6.2/QtBluetooth/private/adapter1_bluez5_p.h
+## Files: 
+* /usr/include/qt6/QtBluetooth/6.6.2/QtBluetooth/private/adapter1_bluez5_p.h
 * /usr/include/qt6/QtBluetooth/6.6.2/QtBluetooth/private/battery1_p.h
 * /usr/include/qt6/QtBluetooth/6.6.2/QtBluetooth/private/bluetoothmanagement_p.h
 * /usr/include/qt6/QtBluetooth/6.6.2/QtBluetooth/private/bluez5_helper_p.h
@@ -191,4 +192,3 @@ The Qt6 toolkit, qtconnectivity
 * /usr/lib/qt6/modules/Bluetooth.json
 * /usr/lib/qt6/modules/Nfc.json
 * /usr/lib/qt6/sdpscanner
-{{< /files >}}

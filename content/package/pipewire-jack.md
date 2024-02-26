@@ -15,7 +15,8 @@ depends = "['jack2', 'wireplumber']"
 +++
 Pipewire Jack config
 
-{{< files text="show files" >}}* /usr/bin/pw-jack
+## Files: 
+* /usr/bin/pw-jack
 * /usr/lib/pipewire-0.3/jack/libjack.so
 * /usr/lib/pipewire-0.3/jack/libjack.so.0
 * /usr/lib/pipewire-0.3/jack/libjack.so.0.3.1003
@@ -32,4 +33,3 @@ Pipewire Jack config
 * /usr/lib/spa-0.2/jack/libspa-jack.so
 * /usr/share/man/man1/pw-jack.1.gz
 * /usr/share/pipewire/jack.conf
-{{< /files >}}

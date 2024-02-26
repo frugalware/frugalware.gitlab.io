@@ -16,11 +16,11 @@ reverse_depends = "['flatpak', 'opam', 'webkit-gtk3']"
 +++
 Unprivileged sandboxing tool
 
-{{< files text="show files" >}}* /usr/bin/bwrap
+## Files: 
+* /usr/bin/bwrap
 * /usr/share/bash-completion/completions/bwrap
 * /usr/share/doc/bubblewrap-0.8.0/COPYING
 * /usr/share/doc/bubblewrap-0.8.0/LICENSE
 * /usr/share/doc/bubblewrap-0.8.0/README.md
 * /usr/share/man/man1/bwrap.1.gz
 * /usr/share/zsh/site-functions/_bwrap
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 Elegant unit testing framework for C with support for mock objects
 
-{{< files text="show files" >}}* /usr/include/cmocka.h
+## Files: 
+* /usr/include/cmocka.h
 * /usr/include/cmocka_pbc.h
 * /usr/lib/cmake/cmocka/cmocka-config-release.cmake
 * /usr/lib/cmake/cmocka/cmocka-config-version.cmake
@@ -29,4 +30,3 @@ Elegant unit testing framework for C with support for mock objects
 * /usr/share/doc/cmocka-1.1.7/COPYING
 * /usr/share/doc/cmocka-1.1.7/INSTALL.md
 * /usr/share/doc/cmocka-1.1.7/README.md
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "['libvlc>=3.0.20', 'twolame']"
 +++
 vlc plugin for twolame
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/libtwolame_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/codec/libtwolame_plugin.so

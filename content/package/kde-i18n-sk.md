@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Slovak Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/katepart/syntax/logohighlightstyle.sk.xml
+## Files: 
+* usr/share/apps/katepart/syntax/logohighlightstyle.sk.xml
 * usr/share/apps/klettres/sk/alpha/a-0.ogg
 * usr/share/apps/klettres/sk/alpha/a-1.ogg
 * usr/share/apps/klettres/sk/alpha/a-10.ogg
@@ -1427,4 +1428,3 @@ Slovak Localization for KDE.
 * usr/share/locale/sk/LC_MESSAGES/wakeup.mo
 * usr/share/locale/sk/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/sk/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

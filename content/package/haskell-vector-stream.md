@@ -16,7 +16,8 @@ reverse_depends = "['haskell-vector']"
 +++
 Efficient Streams
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/vector-stream-0.1.0.0/Data/Stream/Monadic.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/vector-stream-0.1.0.0/Data/Stream/Monadic.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/vector-stream-0.1.0.0/Data/Stream/Monadic.hi
 * /usr/lib/ghc-9.8.1/site-local/vector-stream-0.1.0.0/libHSvector-stream-0.1.0.0-LR5Se0SBuwcJgriGKwRIbs.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSvector-stream-0.1.0.0-LR5Se0SBuwcJgriGKwRIbs-ghc9.8.1.so
@@ -34,4 +35,3 @@ Efficient Streams
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/vector-stream-0.1.0.0/LICENSE
 * /usr/share/haskell/haskell-vector-stream/register.sh
 * /usr/share/haskell/haskell-vector-stream/unregister.sh
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['fwupd']"
 +++
 Library for AppStream metadata
 
-{{< files text="show files" >}}* /usr/bin/appstream-builder
+## Files: 
+* /usr/bin/appstream-builder
 * /usr/bin/appstream-compose
 * /usr/bin/appstream-util
 * /usr/include/libappstream-glib/appstream-glib.h
@@ -107,4 +108,3 @@ Library for AppStream metadata
 * /usr/share/locale/uk/LC_MESSAGES/appstream-glib.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/appstream-glib.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/appstream-glib.mo
-{{< /files >}}

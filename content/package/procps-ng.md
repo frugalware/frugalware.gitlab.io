@@ -16,7 +16,8 @@ reverse_depends = "['intel-gpu-tools', 'opentrack', 'parallel', 'profile-sync-da
 +++
 utilities for displaying process information
 
-{{< files text="show files" >}}* /etc/sysctl.conf
+## Files: 
+* /etc/sysctl.conf
 * /etc/sysctl.d/20-printk-be-quiet.conf
 * /etc/sysctl.d/99-sysctl.conf
 * /usr/bin/free
@@ -204,4 +205,3 @@ utilities for displaying process information
 * /usr/share/man/uk/man5/sysctl.conf.5.gz
 * /usr/share/man/uk/man8/sysctl.8.gz
 * /usr/share/man/uk/man8/vmstat.8.gz
-{{< /files >}}

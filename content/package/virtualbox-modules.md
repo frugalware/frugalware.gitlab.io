@@ -16,7 +16,7 @@ reverse_depends = "['virtualbox']"
 +++
 Kernel modules for VirtualBox
 
-{{< files text="show files" >}}* /usr/lib/modules/6.7.6-fw1/kernel/misc/vboxdrv.ko.zst
+## Files: 
+* /usr/lib/modules/6.7.6-fw1/kernel/misc/vboxdrv.ko.zst
 * /usr/lib/modules/6.7.6-fw1/kernel/misc/vboxnetadp.ko.zst
 * /usr/lib/modules/6.7.6-fw1/kernel/misc/vboxnetflt.ko.zst
-{{< /files >}}

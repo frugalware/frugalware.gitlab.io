@@ -16,7 +16,8 @@ reverse_depends = "['kernel-initrd', 'kernel-lts-initrd', 'lesspipe', 'man-db']"
 +++
 A paginator similar to more
 
-{{< files text="show files" >}}* /usr/bin/less
+## Files: 
+* /usr/bin/less
 * /usr/bin/lessecho
 * /usr/bin/lesskey
 * /usr/share/doc/less-643/COPYING
@@ -27,4 +28,3 @@ A paginator similar to more
 * /usr/share/man/man1/less.1.gz
 * /usr/share/man/man1/lessecho.1.gz
 * /usr/share/man/man1/lesskey.1.gz
-{{< /files >}}

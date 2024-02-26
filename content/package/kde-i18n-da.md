@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Danish Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/khangman/da.txt
+## Files: 
+* usr/share/apps/khangman/da.txt
 * usr/share/apps/khangman/data/da/animals.kvtml
 * usr/share/apps/khangman/data/da/easy.kvtml
 * usr/share/apps/khangman/data/da/hard.kvtml
@@ -2128,4 +2129,3 @@ Danish Localization for KDE.
 * usr/share/locale/da/LC_MESSAGES/wakeup.mo
 * usr/share/locale/da/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/da/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

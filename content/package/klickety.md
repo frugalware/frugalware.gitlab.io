@@ -15,7 +15,8 @@ depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=
 +++
 An adaptation of the Clickomania game.
 
-{{< files text="show files" >}}* /usr/bin/klickety
+## Files: 
+* /usr/bin/klickety
 * /usr/share/applications/org.kde.klickety.desktop
 * /usr/share/applications/org.kde.ksame.desktop
 * /usr/share/doc/HTML/ca/klickety/config-background.png
@@ -153,4 +154,3 @@ An adaptation of the Clickomania game.
 * /usr/share/metainfo/org.kde.ksame.appdata.xml
 * /usr/share/sounds/klickety/game-finished.ogg
 * /usr/share/sounds/klickety/remove.ogg
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "['kwallet5']"
 +++
 kwallet plugin for remmina
 
-{{< files text="show files" >}}* /usr/lib/remmina/plugins/remmina-plugin-kwallet.so
-{{< /files >}}
+## Files: 
+* /usr/lib/remmina/plugins/remmina-plugin-kwallet.so

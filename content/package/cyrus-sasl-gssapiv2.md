@@ -15,7 +15,7 @@ depends = "['cyrus-sasl>=2.1.28', 'libkrb5>=1.17-2']"
 +++
 cyrus-sasl gssapiv2 plugin.
 
-{{< files text="show files" >}}* /usr/lib/sasl2/libgssapiv2.so
+## Files: 
+* /usr/lib/sasl2/libgssapiv2.so
 * /usr/lib/sasl2/libgssapiv2.so.3
 * /usr/lib/sasl2/libgssapiv2.so.3.0.0
-{{< /files >}}

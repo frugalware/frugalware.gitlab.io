@@ -15,7 +15,8 @@ depends = "['fontconfig', 'fontconfig', 'mkfontscale']"
 +++
 Ubuntu font family
 
-{{< files text="show files" >}}* /usr/share/doc/ttf-ubuntu-font-family-0.83/LICENCE-FAQ.txt
+## Files: 
+* /usr/share/doc/ttf-ubuntu-font-family-0.83/LICENCE-FAQ.txt
 * /usr/share/doc/ttf-ubuntu-font-family-0.83/README.txt
 * /usr/share/fonts/X11/ubuntu-font-family/._Ubuntu-B.ttf
 * /usr/share/fonts/X11/ubuntu-font-family/._Ubuntu-BI.ttf
@@ -45,4 +46,3 @@ Ubuntu font family
 * /usr/share/fonts/X11/ubuntu-font-family/UbuntuMono-BI.ttf
 * /usr/share/fonts/X11/ubuntu-font-family/UbuntuMono-R.ttf
 * /usr/share/fonts/X11/ubuntu-font-family/UbuntuMono-RI.ttf
-{{< /files >}}

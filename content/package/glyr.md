@@ -15,7 +15,8 @@ depends = "['curl', 'glib2', 'sqlite3']"
 +++
 A music related metadata searchengine, both with commandline interface and C API
 
-{{< files text="show files" >}}* /usr/bin/glyrc
+## Files: 
+* /usr/bin/glyrc
 * /usr/include/glyr/cache.h
 * /usr/include/glyr/config.h
 * /usr/include/glyr/glyr.h
@@ -30,4 +31,3 @@ A music related metadata searchengine, both with commandline interface and C API
 * /usr/share/doc/glyr-1.0.10/CHANGELOG
 * /usr/share/doc/glyr-1.0.10/COPYING
 * /usr/share/doc/glyr-1.0.10/README.textile
-{{< /files >}}

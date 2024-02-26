@@ -16,11 +16,11 @@ license = "GPL2"
 +++
 X font server
 
-{{< files text="show files" >}}* /etc/X11/fs/config
+## Files: 
+* /etc/X11/fs/config
 * /usr/bin/xfs
 * /usr/share/doc/xfs-1.2.1/ChangeLog
 * /usr/share/doc/xfs-1.2.1/COPYING
 * /usr/share/doc/xfs-1.2.1/INSTALL
 * /usr/share/doc/xfs-1.2.1/README.md
 * /usr/share/man/man1/xfs.1.gz
-{{< /files >}}

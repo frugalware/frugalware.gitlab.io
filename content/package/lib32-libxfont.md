@@ -16,7 +16,8 @@ reverse_depends = "['lib32-xorg-server-fbdev', 'lib32-xorg-server-xephyr']"
 +++
 X font Library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/fonts/bdfint.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/fonts/bdfint.h
 * /usr/i686-frugalware-linux/include/X11/fonts/bitmap.h
 * /usr/i686-frugalware-linux/include/X11/fonts/bufio.h
 * /usr/i686-frugalware-linux/include/X11/fonts/fntfil.h
@@ -35,4 +36,3 @@ X font Library ( 32bit )
 * /usr/lib32/libXfont.so.1
 * /usr/lib32/libXfont.so.1.4.1
 * /usr/lib32/pkgconfig/xfont.pc
-{{< /files >}}

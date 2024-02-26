@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org xwud application
 
-{{< files text="show files" >}}* /usr/bin/xwud
+## Files: 
+* /usr/bin/xwud
 * /usr/share/doc/xwud-1.0.6/ChangeLog
 * /usr/share/doc/xwud-1.0.6/COPYING
 * /usr/share/doc/xwud-1.0.6/INSTALL
 * /usr/share/doc/xwud-1.0.6/README.md
 * /usr/share/man/man1/xwud.1.gz
-{{< /files >}}

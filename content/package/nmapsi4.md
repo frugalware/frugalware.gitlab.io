@@ -15,7 +15,8 @@ depends = "['gst1-plugins-base', 'nmap', 'qt5-webengine>=5.15.10']"
 +++
 NmapSi4 is a complete Qt5-based Gui with nmap.
 
-{{< files text="show files" >}}* /usr/bin/nmapsi4
+## Files: 
+* /usr/bin/nmapsi4
 * /usr/share/applications/kde4/nmapsi4-admin.desktop
 * /usr/share/applications/kde4/nmapsi4.desktop
 * /usr/share/dbus-1/interfaces/org.nmapsi4.Nmapsi4.xml
@@ -35,4 +36,3 @@ NmapSi4 is a complete Qt5-based Gui with nmap.
 * /usr/share/nmapsi4/locale/nmapsi4_fr.qm
 * /usr/share/nmapsi4/locale/nmapsi4_it.qm
 * /usr/share/nmapsi4/locale/nmapsi4_ru.qm
-{{< /files >}}

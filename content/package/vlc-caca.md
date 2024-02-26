@@ -15,5 +15,5 @@ depends = "['libcaca', 'libvlc>=3.0.20']"
 +++
 vlc plugin for libcaca
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/video_output/libcaca_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/video_output/libcaca_plugin.so

@@ -16,9 +16,9 @@ reverse_depends = "['lib32-ffmpeg', 'lib32-libxvmc']"
 +++
 X.Org Xv library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/Xvlib.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/extensions/Xvlib.h
 * /usr/lib32/libXv.so
 * /usr/lib32/libXv.so.1
 * /usr/lib32/libXv.so.1.0.0
 * /usr/lib32/pkgconfig/xv.pc
-{{< /files >}}

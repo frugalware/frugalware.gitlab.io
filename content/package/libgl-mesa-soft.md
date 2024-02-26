@@ -16,8 +16,8 @@ reverse_depends = "['libosmesa-x11']"
 +++
 Mesa Software OpenGL files.
 
-{{< files text="show files" >}}* usr/lib/libGL.so
+## Files: 
+* usr/lib/libGL.so
 * usr/lib/libGL.so.1
 * usr/lib/libGL.so.1.5.070700
 * usr/lib/pkgconfig/gl.pc
-{{< /files >}}

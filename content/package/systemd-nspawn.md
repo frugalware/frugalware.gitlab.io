@@ -15,11 +15,11 @@ depends = "['cryptsetup-luks', 'kmod', 'libidn2', 'libseccomp', 'libsystemd>=255
 +++
 Spawn a command or OS in a light-weight container.
 
-{{< files text="show files" >}}* /usr/bin/systemd-nspawn
+## Files: 
+* /usr/bin/systemd-nspawn
 * /usr/lib/systemd/system/systemd-nspawn@.service
 * /usr/lib/tmpfiles.d/systemd-nspawn.conf
 * /usr/share/bash-completion/completions/systemd-nspawn
 * /usr/share/man/man1/systemd-nspawn.1.gz
 * /usr/share/man/man5/systemd.nspawn.5.gz
 * /usr/share/zsh/site-functions/_systemd-nspawn
-{{< /files >}}

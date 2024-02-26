@@ -16,10 +16,10 @@ reverse_depends = "['lib32-libdc1394', 'lib32-libgudev', 'lib32-libpulse', 'lib3
 +++
 Udev library (32bit)
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/libudev.h
+## Files: 
+* /usr/i686-frugalware-linux/include/libudev.h
 * /usr/lib32/libudev.so
 * /usr/lib32/libudev.so.1
 * /usr/lib32/libudev.so.1.7.8
 * /usr/lib32/pkgconfig/libudev.pc
 * /usr/lib32/pkgconfig/udev.pc
-{{< /files >}}

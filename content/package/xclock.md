@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org xclock application
 
-{{< files text="show files" >}}* /usr/bin/xclock
+## Files: 
+* /usr/bin/xclock
 * /usr/share/doc/xclock-1.1.1/ChangeLog
 * /usr/share/doc/xclock-1.1.1/COPYING
 * /usr/share/doc/xclock-1.1.1/INSTALL
@@ -24,4 +25,3 @@ X.Org xclock application
 * /usr/share/man/man1/xclock.1.gz
 * /usr/share/X11/app-defaults/XClock
 * /usr/share/X11/app-defaults/XClock-color
-{{< /files >}}

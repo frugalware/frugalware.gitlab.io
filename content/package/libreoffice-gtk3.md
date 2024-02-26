@@ -16,9 +16,9 @@ reverse_depends = "['libreoffice-gtk3-kde5']"
 +++
 libreoffice GTK3 integration
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/program/liblibreofficekitgtk.so
+## Files: 
+* /usr/lib/libreoffice/program/liblibreofficekitgtk.so
 * /usr/lib/libreoffice/program/liblosessioninstalllo.so
 * /usr/lib/libreoffice/program/libucpgio1lo.so
 * /usr/lib/libreoffice/program/libvclplug_gtk3lo.so
 * /usr/lib/libreoffice/share/registry/gnome.xcd
-{{< /files >}}

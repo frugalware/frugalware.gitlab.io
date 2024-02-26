@@ -16,7 +16,8 @@ reverse_depends = "['automake', 'bonnie++', 'ckbcomp', 'claws-mail-plugin-perl',
 +++
 Practical Extraction and Report Language.
 
-{{< files text="show files" >}}* /etc/ld.so.conf.d/perl.conf
+## Files: 
+* /etc/ld.so.conf.d/perl.conf
 * /usr/bin/core_perl/corelist
 * /usr/bin/core_perl/cpan
 * /usr/bin/core_perl/enc2xs
@@ -2560,4 +2561,3 @@ Practical Extraction and Report Language.
 * /usr/share/man/man3/warnings.3perl.gz
 * /usr/share/man/man3/warnings::register.3perl.gz
 * /usr/share/man/man3/XSLoader.3perl.gz
-{{< /files >}}

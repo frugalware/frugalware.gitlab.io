@@ -16,7 +16,8 @@ reverse_depends = "['opencolorio']"
 +++
 Fork of the popular zip manipulation library found in the zlib distribution
 
-{{< files text="show files" >}}* /usr/include/minizip-ng/ioapi.h
+## Files: 
+* /usr/include/minizip-ng/ioapi.h
 * /usr/include/minizip-ng/mz.h
 * /usr/include/minizip-ng/mz_compat.h
 * /usr/include/minizip-ng/mz_crypt.h
@@ -47,4 +48,3 @@ Fork of the popular zip manipulation library found in the zlib distribution
 * /usr/share/doc/minizip-ng-4.0.4/INSTALL.md
 * /usr/share/doc/minizip-ng-4.0.4/LICENSE
 * /usr/share/doc/minizip-ng-4.0.4/README.md
-{{< /files >}}

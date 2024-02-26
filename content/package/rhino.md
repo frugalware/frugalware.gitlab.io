@@ -15,5 +15,5 @@ depends = "['openjre']"
 +++
 An open-source implementation of JavaScript written in Java.
 
-{{< files text="show files" >}}* /usr/share/java/js.jar
-{{< /files >}}
+## Files: 
+* /usr/share/java/js.jar

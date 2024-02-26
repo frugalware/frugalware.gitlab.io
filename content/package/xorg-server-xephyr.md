@@ -15,5 +15,5 @@ depends = "['libepoxy>=1.5.2', 'libglapi>=19.0.0', 'libglvnd', 'libsystemd>=231-
 +++
 KDrive xephyr X server
 
-{{< files text="show files" >}}* /usr/bin/Xephyr
-{{< /files >}}
+## Files: 
+* /usr/bin/Xephyr

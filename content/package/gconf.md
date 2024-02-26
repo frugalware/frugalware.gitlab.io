@@ -16,7 +16,8 @@ reverse_depends = "['cpod']"
 +++
 A configuration database system for GNOME
 
-{{< files text="show files" >}}* /etc/dbus-1/system.d/org.gnome.GConf.Defaults.conf
+## Files: 
+* /etc/dbus-1/system.d/org.gnome.GConf.Defaults.conf
 * /etc/gconf/2/evoldap.conf
 * /etc/gconf/2/path
 * /etc/xdg/autostart/gsettings-data-convert.desktop
@@ -168,4 +169,3 @@ A configuration database system for GNOME
 * /usr/share/man/man1/gsettings-schema-convert.1.gz
 * /usr/share/polkit-1/actions/org.gnome.gconf.defaults.policy
 * /usr/share/sgml/gconf/gconf-1.0.dtd
-{{< /files >}}

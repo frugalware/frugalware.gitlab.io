@@ -16,7 +16,8 @@ reverse_depends = "['python3-sphinx']"
 +++
 Documentation Utilities
 
-{{< files text="show files" >}}* /usr/bin/docutils
+## Files: 
+* /usr/bin/docutils
 * /usr/bin/rst2html
 * /usr/bin/rst2html.py
 * /usr/bin/rst2html4
@@ -371,4 +372,3 @@ Documentation Utilities
 * /usr/share/doc/docutils-0.20.1/FAQ.txt
 * /usr/share/doc/docutils-0.20.1/README.txt
 * /usr/share/doc/docutils-0.20.1/RELEASE-NOTES.txt
-{{< /files >}}

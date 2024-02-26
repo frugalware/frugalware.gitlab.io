@@ -16,9 +16,9 @@ reverse_depends = "['lib32-libepoxy', 'lib32-libwayland-egl', 'lib32-xorg-server
 +++
 Mesa OpenEGL library. (32-bit)
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/EGL/eglext_angle.h
+## Files: 
+* /usr/i686-frugalware-linux/include/EGL/eglext_angle.h
 * /usr/i686-frugalware-linux/include/EGL/eglmesaext.h
 * /usr/lib32/libEGL_mesa.so
 * /usr/lib32/libEGL_mesa.so.0
 * /usr/lib32/libEGL_mesa.so.0.0.0
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Macedonian Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/katepart/syntax/logohighlightstyle.mk.xml
+## Files: 
+* usr/share/apps/katepart/syntax/logohighlightstyle.mk.xml
 * usr/share/apps/kturtle/data/logokeywords.mk.xml
 * usr/share/apps/kturtle/examples/mk/boiplatno.logo
 * usr/share/apps/kturtle/examples/mk/cvekje.logo
@@ -570,4 +571,3 @@ Macedonian Localization for KDE.
 * usr/share/locale/mk/LC_MESSAGES/wakeup.mo
 * usr/share/locale/mk/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/mk/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['lutris', 'python3-astroid']"
 +++
 A Python module for decorators, wrappers and monkey patching
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/wrapt-1.16.0-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/wrapt-1.16.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/wrapt-1.16.0-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/wrapt-1.16.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/wrapt-1.16.0-py3.12.egg-info/SOURCES.txt
@@ -40,4 +41,3 @@ A Python module for decorators, wrappers and monkey patching
 * /usr/lib/python3.12/site-packages/wrapt/__wrapt__.py
 * /usr/share/doc/python3-wrapt-1.16.0/LICENSE
 * /usr/share/doc/python3-wrapt-1.16.0/README.rst
-{{< /files >}}

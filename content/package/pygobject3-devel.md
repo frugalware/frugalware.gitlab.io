@@ -16,6 +16,6 @@ reverse_depends = "['pygobject3']"
 +++
 pygobject devel
 
-{{< files text="show files" >}}* /usr/include/pygobject-3.0/pygobject.h
+## Files: 
+* /usr/include/pygobject-3.0/pygobject.h
 * /usr/lib/pkgconfig/pygobject-3.0.pc
-{{< /files >}}

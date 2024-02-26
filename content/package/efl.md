@@ -17,7 +17,8 @@ license = "LGPL2.1"
 +++
 Enlightenment Foundation Libraries
 
-{{< files text="show files" >}}* /usr/bin/diffeet
+## Files: 
+* /usr/bin/diffeet
 * /usr/bin/ecore_evas_convert
 * /usr/bin/edje_cc
 * /usr/bin/edje_codegen
@@ -3409,4 +3410,3 @@ Enlightenment Foundation Libraries
 * /usr/share/locale/zh_CN/LC_MESSAGES/efl.mo
 * /usr/share/mime/packages/edje.xml
 * /usr/share/mime/packages/evas.xml
-{{< /files >}}

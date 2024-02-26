@@ -16,7 +16,8 @@ reverse_depends = "['haskell-http2']"
 +++
 Library to control network protocols
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/network-control-0.0.2/libHSnetwork-control-0.0.2-AfQxKAphlceBOSpJztC1TJ.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/network-control-0.0.2/libHSnetwork-control-0.0.2-AfQxKAphlceBOSpJztC1TJ.a
 * /usr/lib/ghc-9.8.1/site-local/network-control-0.0.2/Network/Control.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/network-control-0.0.2/Network/Control.hi
 * /usr/lib/ghc-9.8.1/site-local/network-control-0.0.2/Network/Control/Flow.dyn_hi
@@ -40,4 +41,3 @@ Library to control network protocols
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/network-control-0.0.2/LICENSE
 * /usr/share/haskell/haskell-network-control/register.sh
 * /usr/share/haskell/haskell-network-control/unregister.sh
-{{< /files >}}

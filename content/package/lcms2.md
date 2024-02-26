@@ -16,7 +16,8 @@ reverse_depends = "['babl', 'colord', 'dcraw', 'enblend-enfuse', 'firefox', 'gho
 +++
 Lightweight color management development library/engine
 
-{{< files text="show files" >}}* /usr/bin/jpgicc
+## Files: 
+* /usr/bin/jpgicc
 * /usr/bin/linkicc
 * /usr/bin/psicc
 * /usr/bin/tificc
@@ -37,4 +38,3 @@ Lightweight color management development library/engine
 * /usr/share/man/man1/psicc.1.gz
 * /usr/share/man/man1/tificc.1.gz
 * /usr/share/man/man1/transicc.1.gz
-{{< /files >}}

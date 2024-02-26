@@ -15,7 +15,8 @@ depends = "['qt5-multimedia>=5.15.10', 'qt5-qdbus>=5.15.10', 'qt5-websockets>=5.
 +++
 Snorenotify is a multi platform Qt notification framework.
 
-{{< files text="show files" >}}* /usr/bin/snorenotify
+## Files: 
+* /usr/bin/snorenotify
 * /usr/bin/snoresend
 * /usr/bin/snoresettings
 * /usr/bin/snoresettings-cli
@@ -79,4 +80,3 @@ Snorenotify is a multi platform Qt notification framework.
 * /usr/share/icons/hicolor/128x128/apps/snore.png
 * /usr/share/qt5/mkspecs/modules/qt_LibsnoreQt5.pri
 * /usr/share/qt5/mkspecs/modules/qt_LibsnoreSettingsQt5.pri
-{{< /files >}}

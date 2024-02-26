@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 KoverArtist is a program for the creation of covers for cd/dvd
 
-{{< files text="show files" >}}* usr/bin/koverartist
+## Files: 
+* usr/bin/koverartist
 * usr/share/applnk/Multimedia/koverartist.desktop
 * usr/share/apps/koverartist/cases/cd-multiple.koac
 * usr/share/apps/koverartist/cases/cd-slim-contents.koac
@@ -52,4 +53,3 @@ KoverArtist is a program for the creation of covers for cd/dvd
 * usr/share/locale/pt/LC_MESSAGES/koverartist.mo
 * usr/share/locale/ru/LC_MESSAGES/koverartist.mo
 * usr/share/mimelnk/application/x-koverartist.desktop
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['python3-poetry']"
 +++
 Store and access your passwords safely
 
-{{< files text="show files" >}}* /usr/bin/keyring
+## Files: 
+* /usr/bin/keyring
 * /usr/lib/python3.12/site-packages/keyring-24.3.0.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/keyring-24.3.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/keyring-24.3.0.dist-info/METADATA
@@ -112,4 +113,3 @@ Store and access your passwords safely
 * /usr/lib/python3.12/site-packages/keyring/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/python3-keyring-24.3.0/LICENSE
 * /usr/share/doc/python3-keyring-24.3.0/README.rst
-{{< /files >}}

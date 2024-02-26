@@ -15,7 +15,8 @@ depends = "['qt5-base>=5.15.10', 'qt5-script>=5.15.10']"
 +++
 A tool that helps simplify the build process for developing projects across multiple platforms
 
-{{< files text="show files" >}}* /usr/bin/qbs
+## Files: 
+* /usr/bin/qbs
 * /usr/bin/qbs-config
 * /usr/bin/qbs-config-ui
 * /usr/bin/qbs-create-project
@@ -549,4 +550,3 @@ A tool that helps simplify the build process for developing projects across mult
 * /usr/share/qbs/python/mac_alias/__init__.py
 * /usr/share/qbs/qml-type-descriptions/qbs-bundle.json
 * /usr/share/qbs/qml-type-descriptions/qbs.qmltypes
-{{< /files >}}

@@ -15,9 +15,9 @@ depends = "['e2fsprogs']"
 +++
 creates ext2 filesystem images like initrd for non root users.
 
-{{< files text="show files" >}}* /usr/bin/e2fsimage
+## Files: 
+* /usr/bin/e2fsimage
 * /usr/share/doc/e2fsimage-0.2.3/AUTHORS
 * /usr/share/doc/e2fsimage-0.2.3/CHANGELOG
 * /usr/share/doc/e2fsimage-0.2.3/COPYRIGHT
 * /usr/share/doc/e2fsimage-0.2.3/INSTALL
-{{< /files >}}

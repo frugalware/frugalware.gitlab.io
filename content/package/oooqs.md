@@ -15,7 +15,8 @@ depends = "[]"
 +++
 OpenOffice.org Quickstarter, runs in the KDE SystemTray
 
-{{< files text="show files" >}}* usr/bin/oooqs
+## Files: 
+* usr/bin/oooqs
 * usr/share/applnk/Utilities/oooqs.desktop
 * usr/share/autostart/oooqs.desktop
 * usr/share/config/oooqsrc
@@ -39,4 +40,3 @@ OpenOffice.org Quickstarter, runs in the KDE SystemTray
 * usr/share/locale/nl/LC_MESSAGES/oooqs.mo
 * usr/share/locale/ru/LC_MESSAGES/oooqs.mo
 * usr/share/locale/sk/LC_MESSAGES/oooqs.mo
-{{< /files >}}

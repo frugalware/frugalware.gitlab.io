@@ -16,7 +16,8 @@ reverse_depends = "['haskell-asn1-types']"
 +++
 simple performant time related library
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hourglass-0.2.12/Data/Hourglass.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/hourglass-0.2.12/Data/Hourglass.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hourglass-0.2.12/Data/Hourglass.hi
 * /usr/lib/ghc-9.8.1/site-local/hourglass-0.2.12/Data/Hourglass/Calendar.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hourglass-0.2.12/Data/Hourglass/Calendar.hi
@@ -73,4 +74,3 @@ simple performant time related library
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/hourglass-0.2.12/LICENSE
 * /usr/share/haskell/haskell-hourglass/register.sh
 * /usr/share/haskell/haskell-hourglass/unregister.sh
-{{< /files >}}

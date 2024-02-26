@@ -16,8 +16,8 @@ reverse_depends = "['perl-moo']"
 +++
 Expose the flag which marks global
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/Devel/GlobalDestruction.pm
+## Files: 
+* /usr/lib/perl5/site_perl/current/Devel/GlobalDestruction.pm
 * /usr/share/doc/perl-devel-globaldestruction-0.14/MANIFEST
 * /usr/share/doc/perl-devel-globaldestruction-0.14/README
 * /usr/share/man/man3/Devel::GlobalDestruction.3perl.gz
-{{< /files >}}

@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 The fontenc Library
 
-{{< files text="show files" >}}* /usr/include/X11/fonts/fontenc.h
+## Files: 
+* /usr/include/X11/fonts/fontenc.h
 * /usr/lib/libfontenc.so
 * /usr/lib/libfontenc.so.1
 * /usr/lib/libfontenc.so.1.0.0
@@ -26,4 +27,3 @@ The fontenc Library
 * /usr/share/doc/libfontenc-1.1.7/COPYING
 * /usr/share/doc/libfontenc-1.1.7/INSTALL
 * /usr/share/doc/libfontenc-1.1.7/README.md
-{{< /files >}}

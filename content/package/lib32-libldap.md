@@ -16,7 +16,8 @@ reverse_depends = "['wine', 'wine-devel']"
 +++
 OpenLDAP library ( 32bit )
 
-{{< files text="show files" >}}* /usr/lib32/liblber.la
+## Files: 
+* /usr/lib32/liblber.la
 * /usr/lib32/liblber.so
 * /usr/lib32/liblber.so.2
 * /usr/lib32/liblber.so.2.0.200
@@ -26,4 +27,3 @@ OpenLDAP library ( 32bit )
 * /usr/lib32/libldap.so.2.0.200
 * /usr/lib32/pkgconfig/lber.pc
 * /usr/lib32/pkgconfig/ldap.pc
-{{< /files >}}

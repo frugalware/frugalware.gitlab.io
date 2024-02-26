@@ -15,5 +15,5 @@ depends = "['libnfs>=4.0', 'libvlc>=3.0.20']"
 +++
 vlc NFS support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/access/libnfs_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/access/libnfs_plugin.so

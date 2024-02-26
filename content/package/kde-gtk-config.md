@@ -15,7 +15,8 @@ depends = "['gsettings-desktop-schemas', 'harfbuzz', 'kcmutils>=5.115.0', 'kdeco
 +++
 Config for GTK within KDE
 
-{{< files text="show files" >}}* /usr/lib/gtk-3.0/modules/libcolorreload-gtk-module.so
+## Files: 
+* /usr/lib/gtk-3.0/modules/libcolorreload-gtk-module.so
 * /usr/lib/gtk-3.0/modules/libwindow-decorations-gtk-module.so
 * /usr/lib/kconf_update_bin/gtk_theme
 * /usr/lib/kconf_update_bin/remove_deprecated_gtk4_option
@@ -26,4 +27,3 @@ Config for GTK within KDE
 * /usr/share/kconf_update/gtkconfig.upd
 * /usr/share/kconf_update/remove_window_decorations_from_gtk_css.sh
 * /usr/share/themes/Breeze/window_decorations.css
-{{< /files >}}

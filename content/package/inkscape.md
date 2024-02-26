@@ -15,7 +15,8 @@ depends = "['dbus', 'double-conversion', 'gdl', 'graphicsmagick', 'gsl', 'gspell
 +++
 A vector illustrator program
 
-{{< files text="show files" >}}* /etc/ld.so.conf.d/inkscape.conf
+## Files: 
+* /etc/ld.so.conf.d/inkscape.conf
 * /usr/bin/inkscape
 * /usr/bin/inkview
 * /usr/include/2geom-1.3.0/2geom/2geom.h
@@ -3977,4 +3978,3 @@ A vector illustrator program
 * /usr/share/man/zh_TW/man1/inkscape.1.gz
 * /usr/share/man/zh_TW/man1/inkview.1.gz
 * /usr/share/metainfo/org.inkscape.Inkscape.appdata.xml
-{{< /files >}}

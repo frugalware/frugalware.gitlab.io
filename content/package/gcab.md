@@ -16,7 +16,8 @@ reverse_depends = "['appstream-glib']"
 +++
 A GObject library to create cabinet files
 
-{{< files text="show files" >}}* /usr/bin/gcab
+## Files: 
+* /usr/bin/gcab
 * /usr/include/libgcab-1.0/libgcab.h
 * /usr/include/libgcab-1.0/libgcab/gcab-cabinet.h
 * /usr/include/libgcab-1.0/libgcab/gcab-enums.h
@@ -90,4 +91,3 @@ A GObject library to create cabinet files
 * /usr/share/man/man1/gcab.1.gz
 * /usr/share/vala/vapi/libgcab-1.0.deps
 * /usr/share/vala/vapi/libgcab-1.0.vapi
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['eglexternalplatform']"
 +++
 Mesa OpenEGL library.
 
-{{< files text="show files" >}}* /usr/include/EGL/egl.h
+## Files: 
+* /usr/include/EGL/egl.h
 * /usr/include/EGL/eglext.h
 * /usr/include/EGL/eglextchromium.h
 * /usr/include/EGL/eglmesaext.h
@@ -26,4 +27,3 @@ Mesa OpenEGL library.
 * /usr/lib/libEGL.so.1
 * /usr/lib/libEGL.so.1.0.0
 * /usr/lib/pkgconfig/egl.pc
-{{< /files >}}

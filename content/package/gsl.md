@@ -16,7 +16,8 @@ reverse_depends = "['clight', 'easyeffects', 'enblend-enfuse', 'guvcview', 'inks
 +++
 The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers.
 
-{{< files text="show files" >}}* /usr/bin/gsl-config
+## Files: 
+* /usr/bin/gsl-config
 * /usr/bin/gsl-histogram
 * /usr/bin/gsl-randist
 * /usr/include/gsl/gsl_blas.h
@@ -306,4 +307,3 @@ The GNU Scientific Library (GSL) is a numerical library for C and C++ programmer
 * /usr/share/man/man1/gsl-histogram.1.gz
 * /usr/share/man/man1/gsl-randist.1.gz
 * /usr/share/man/man3/gsl.3.gz
-{{< /files >}}

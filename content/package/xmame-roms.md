@@ -16,7 +16,7 @@ license = "Freeware"
 +++
 Freely available ROMs to use with xmame
 
-{{< files text="show files" >}}* usr/share/xmame/roms/gridlee.zip
+## Files: 
+* usr/share/xmame/roms/gridlee.zip
 * usr/share/xmame/roms/polyplay.zip
 * usr/share/xmame/roms/robby.zip
-{{< /files >}}

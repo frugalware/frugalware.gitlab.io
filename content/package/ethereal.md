@@ -15,7 +15,8 @@ depends = "['gnutls', 'gtk+2', 'libpcap', 'pcre']"
 +++
 The world's most popular network protocol analyzer
 
-{{< files text="show files" >}}* usr/bin/capinfos
+## Files: 
+* usr/bin/capinfos
 * usr/bin/dftest
 * usr/bin/dumpcap
 * usr/bin/editcap
@@ -208,4 +209,3 @@ The world's most popular network protocol analyzer
 * usr/share/ethereal/radius/dictionary.xedia
 * usr/share/ethereal/tethereal.html
 * usr/share/ethereal/text2pcap.html
-{{< /files >}}

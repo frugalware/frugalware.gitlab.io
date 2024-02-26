@@ -16,7 +16,8 @@ reverse_depends = "['qt6-base']"
 +++
 Vulkan Header files and API registry
 
-{{< files text="show files" >}}* /usr/include/vk_video/vulkan_video_codecs_common.h
+## Files: 
+* /usr/include/vk_video/vulkan_video_codecs_common.h
 * /usr/include/vk_video/vulkan_video_codec_h264std.h
 * /usr/include/vk_video/vulkan_video_codec_h264std_decode.h
 * /usr/include/vk_video/vulkan_video_codec_h264std_encode.h
@@ -74,4 +75,3 @@ Vulkan Header files and API registry
 * /usr/share/vulkan/registry/video.xml
 * /usr/share/vulkan/registry/vk.xml
 * /usr/share/vulkan/registry/vkconventions.py
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['qtcreator', 'rr']"
 +++
 Gnu Project Debugger
 
-{{< files text="show files" >}}* /usr/bin/gcore
+## Files: 
+* /usr/bin/gcore
 * /usr/bin/gdb
 * /usr/bin/gdb-add-index
 * /usr/bin/gdbserver
@@ -111,4 +112,3 @@ Gnu Project Debugger
 * /usr/share/man/man1/gdb.1.gz
 * /usr/share/man/man1/gdbserver.1.gz
 * /usr/share/man/man5/gdbinit.5.gz
-{{< /files >}}

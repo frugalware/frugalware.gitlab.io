@@ -16,7 +16,8 @@ reverse_depends = "['pandoc']"
 +++
 Conversion between math formats
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/texmath-0.12.8.6/libHStexmath-0.12.8.6-HZBPGqJ07wfdgjDEoS1ZO.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/texmath-0.12.8.6/libHStexmath-0.12.8.6-HZBPGqJ07wfdgjDEoS1ZO.a
 * /usr/lib/ghc-9.8.1/site-local/texmath-0.12.8.6/Paths_texmath.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/texmath-0.12.8.6/Paths_texmath.hi
 * /usr/lib/ghc-9.8.1/site-local/texmath-0.12.8.6/Text/TeXMath.dyn_hi
@@ -92,4 +93,3 @@ Conversion between math formats
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/texmath-0.12.8.6/LICENSE
 * /usr/share/haskell/haskell-texmath/register.sh
 * /usr/share/haskell/haskell-texmath/unregister.sh
-{{< /files >}}

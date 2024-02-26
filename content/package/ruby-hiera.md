@@ -16,7 +16,8 @@ reverse_depends = "['puppet']"
 +++
 A pluggable data store for hierarchical data.
 
-{{< files text="show files" >}}* /etc/hiera.yaml
+## Files: 
+* /etc/hiera.yaml
 * /usr/bin/hiera
 * /usr/lib/ruby/gems/3.3.0/cache/hiera-3.12.0.gem
 * /usr/lib/ruby/gems/3.3.0/doc/hiera-3.12.0/ri/cache.ri
@@ -161,4 +162,3 @@ A pluggable data store for hierarchical data.
 * /usr/lib/ruby/gems/3.3.0/gems/hiera-3.12.0/spec/unit/util_spec.rb
 * /usr/lib/ruby/gems/3.3.0/gems/hiera-3.12.0/spec/unit/version_spec.rb
 * /usr/lib/ruby/gems/3.3.0/specifications/hiera-3.12.0.gemspec
-{{< /files >}}

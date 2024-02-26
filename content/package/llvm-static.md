@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Low Level Virtual Machine (Compiler, Tools and Libs) (static)
 
-{{< files text="show files" >}}* /usr/lib/libLLVMAArch64AsmParser.a
+## Files: 
+* /usr/lib/libLLVMAArch64AsmParser.a
 * /usr/lib/libLLVMAArch64CodeGen.a
 * /usr/lib/libLLVMAArch64Desc.a
 * /usr/lib/libLLVMAArch64Disassembler.a
@@ -203,4 +204,3 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (static)
 * /usr/lib/libLLVMXCoreDisassembler.a
 * /usr/lib/libLLVMXCoreInfo.a
 * /usr/lib/libLLVMXRay.a
-{{< /files >}}

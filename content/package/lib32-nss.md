@@ -16,7 +16,8 @@ reverse_depends = "['lib32-networkmanager', 'steam-native']"
 +++
 NSS library from mozilla.org ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/nss
+## Files: 
+* /usr/i686-frugalware-linux/bin/nss
 * /usr/i686-frugalware-linux/bin/nss-certutil
 * /usr/i686-frugalware-linux/bin/nss-cmsutil
 * /usr/i686-frugalware-linux/bin/nss-config
@@ -147,4 +148,3 @@ NSS library from mozilla.org ( 32bit )
 * /usr/lib32/libsoftokn3.so
 * /usr/lib32/libssl3.so
 * /usr/lib32/pkgconfig/nss.pc
-{{< /files >}}

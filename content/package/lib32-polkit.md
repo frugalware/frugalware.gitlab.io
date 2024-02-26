@@ -16,7 +16,8 @@ reverse_depends = "['lib32-gconf', 'lib32-networkmanager']"
 +++
 Policy framework for controlling privileges for system-wide services ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/pkaction
+## Files: 
+* /usr/i686-frugalware-linux/bin/pkaction
 * /usr/i686-frugalware-linux/bin/pkcheck
 * /usr/i686-frugalware-linux/bin/pkexec
 * /usr/i686-frugalware-linux/bin/pkttyagent
@@ -56,4 +57,3 @@ Policy framework for controlling privileges for system-wide services ( 32bit )
 * /usr/lib32/libpolkit-gobject-1.so.0.0.0
 * /usr/lib32/pkgconfig/polkit-agent-1.pc
 * /usr/lib32/pkgconfig/polkit-gobject-1.pc
-{{< /files >}}

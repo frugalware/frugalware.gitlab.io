@@ -15,7 +15,8 @@ depends = "['python3-importlib-metadata', 'python3-patchelf']"
 +++
 cx_Freeze is a set of scripts and modules for freezing Python scripts into executables in much the same way that py2exe and py2app do
 
-{{< files text="show files" >}}* /usr/bin/cxfreeze
+## Files: 
+* /usr/bin/cxfreeze
 * /usr/bin/cxfreeze-quickstart
 * /usr/lib/python3.12/site-packages/cx_Freeze-6.15.11-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/cx_Freeze-6.15.11-py3.12.egg-info/entry_points.txt
@@ -259,4 +260,3 @@ cx_Freeze is a set of scripts and modules for freezing Python scripts into execu
 * /usr/lib/python3.12/site-packages/cx_Freeze/__pycache__/__main__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/python3-cx-freeze-6.15.11/README.md
-{{< /files >}}

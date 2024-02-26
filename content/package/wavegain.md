@@ -15,6 +15,6 @@ depends = "['glibc>=2.29-6']"
 +++
 an audio file normalizer using ReplayGain algorithms
 
-{{< files text="show files" >}}* /usr/bin/wavegain
+## Files: 
+* /usr/bin/wavegain
 * /usr/share/doc/wavegain-1.3.1/COPYING
-{{< /files >}}

@@ -15,9 +15,9 @@ depends = "[]"
 +++
 Thirdparty libraries for xml-commons
 
-{{< files text="show files" >}}* /usr/share/doc/xml-commons-external-1.4.01/LICENSE
+## Files: 
+* /usr/share/doc/xml-commons-external-1.4.01/LICENSE
 * /usr/share/doc/xml-commons-external-1.4.01/README.dom.txt
 * /usr/share/doc/xml-commons-external-1.4.01/README.sax.txt
 * /usr/share/java/xml-apis-ext.jar
 * /usr/share/java/xml-apis.jar
-{{< /files >}}

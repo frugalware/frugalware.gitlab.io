@@ -16,7 +16,8 @@ reverse_depends = "['claws-mail-plugin-pdf_viewer', 'gimp', 'inkscape', 'libreof
 +++
 Poppler glib bindings
 
-{{< files text="show files" >}}* /usr/include/poppler/glib/poppler-action.h
+## Files: 
+* /usr/include/poppler/glib/poppler-action.h
 * /usr/include/poppler/glib/poppler-annot.h
 * /usr/include/poppler/glib/poppler-attachment.h
 * /usr/include/poppler/glib/poppler-date.h
@@ -35,4 +36,3 @@ Poppler glib bindings
 * /usr/lib/libpoppler-glib.so.8
 * /usr/lib/libpoppler-glib.so.8.26.0
 * /usr/lib/pkgconfig/poppler-glib.pc
-{{< /files >}}

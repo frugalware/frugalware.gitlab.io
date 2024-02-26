@@ -16,7 +16,8 @@ reverse_depends = "['pylint']"
 +++
 A Python3 utility / library to sort Python3 imports
 
-{{< files text="show files" >}}* /usr/bin/isort-identify-imports
+## Files: 
+* /usr/bin/isort-identify-imports
 * /usr/bin/isort3
 * /usr/lib/python3.12/site-packages/isort-5.12.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/isort-5.12.0-py3.12.egg-info/entry_points.txt
@@ -158,4 +159,3 @@ A Python3 utility / library to sort Python3 imports
 * /usr/lib/python3.12/site-packages/isort/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/python3-isort-5.12.0/LICENSE
 * /usr/share/doc/python3-isort-5.12.0/README.md
-{{< /files >}}

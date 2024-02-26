@@ -16,7 +16,8 @@ reverse_depends = "['bip', 'gsoap', 'hotdoc', 'libreoffice']"
 +++
 A tool for generating text-scanning programs
 
-{{< files text="show files" >}}* /usr/bin/flex
+## Files: 
+* /usr/bin/flex
 * /usr/bin/flex++
 * /usr/bin/lex
 * /usr/include/FlexLexer.h
@@ -56,4 +57,3 @@ A tool for generating text-scanning programs
 * /usr/share/locale/zh_CN/LC_MESSAGES/flex.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/flex.mo
 * /usr/share/man/man1/flex.1.gz
-{{< /files >}}

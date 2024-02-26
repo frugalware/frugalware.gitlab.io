@@ -16,7 +16,8 @@ reverse_depends = "['haskell-aeson', 'haskell-commonmark-extensions', 'haskell-h
 +++
 Networking-related facilities
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/network-uri-2.6.4.2/libHSnetwork-uri-2.6.4.2-7O0h5d1bdes50Ignqmmb4X.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/network-uri-2.6.4.2/libHSnetwork-uri-2.6.4.2-7O0h5d1bdes50Ignqmmb4X.a
 * /usr/lib/ghc-9.8.1/site-local/network-uri-2.6.4.2/Network/URI.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/network-uri-2.6.4.2/Network/URI.hi
 * /usr/lib/ghc-9.8.1/site-local/network-uri-2.6.4.2/Network/URI/Lens.dyn_hi
@@ -42,4 +43,3 @@ Networking-related facilities
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/network-uri-2.6.4.2/LICENSE
 * /usr/share/haskell/haskell-network-uri/register.sh
 * /usr/share/haskell/haskell-network-uri/unregister.sh
-{{< /files >}}

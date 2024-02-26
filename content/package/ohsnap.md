@@ -15,7 +15,8 @@ depends = "['fontconfig', 'mkfontscale']"
 +++
 Monospaced font 7x14 based on artwiz-snap and a version with status icons.
 
-{{< files text="show files" >}}* /usr/share/doc/ohsnap-1.8.0/README.ohsnap
+## Files: 
+* /usr/share/doc/ohsnap-1.8.0/README.ohsnap
 * /usr/share/fonts/X11/misc/ohsnap6x11b.icons.pcf.gz
 * /usr/share/fonts/X11/misc/ohsnap6x11b.pcf.gz
 * /usr/share/fonts/X11/misc/ohsnap6x11r.icons.pcf.gz
@@ -40,4 +41,3 @@ Monospaced font 7x14 based on artwiz-snap and a version with status icons.
 * /usr/share/fonts/X11/misc/ohsnapu7x12r.pcf.gz
 * /usr/share/fonts/X11/misc/ohsnapu7x14b.pcf.gz
 * /usr/share/fonts/X11/misc/ohsnapu7x14r.pcf.gz
-{{< /files >}}

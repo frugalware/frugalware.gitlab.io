@@ -16,7 +16,8 @@ reverse_depends = "['obs-studio', 'opendht', 'sdlmame']"
 +++
 A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 
-{{< files text="show files" >}}* /usr/include/asio.hpp
+## Files: 
+* /usr/include/asio.hpp
 * /usr/include/asio/any_completion_executor.hpp
 * /usr/include/asio/any_completion_handler.hpp
 * /usr/include/asio/any_io_executor.hpp
@@ -693,4 +694,3 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/share/doc/asio-1.28.1/COPYING
 * /usr/share/doc/asio-1.28.1/INSTALL
 * /usr/share/doc/asio-1.28.1/README
-{{< /files >}}

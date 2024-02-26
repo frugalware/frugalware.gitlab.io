@@ -15,7 +15,8 @@ depends = "['glibc>=2.35']"
 +++
 SPIRV-Headers
 
-{{< files text="show files" >}}* /usr/include/spirv/1.0/extinst.glsl.std.450.grammar.json
+## Files: 
+* /usr/include/spirv/1.0/extinst.glsl.std.450.grammar.json
 * /usr/include/spirv/1.0/extinst.opencl.std.100.grammar.json
 * /usr/include/spirv/1.0/GLSL.std.450.h
 * /usr/include/spirv/1.0/OpenCL.std.h
@@ -91,4 +92,3 @@ SPIRV-Headers
 * /usr/share/doc/spirv-headers-1.3.275.0/LICENSE
 * /usr/share/doc/spirv-headers-1.3.275.0/README.md
 * /usr/share/pkgconfig/SPIRV-Headers.pc
-{{< /files >}}

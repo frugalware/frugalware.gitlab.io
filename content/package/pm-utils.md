@@ -15,7 +15,8 @@ depends = "['ethtool>=4.2-2', 'pm-quirks', 'radeontool>=1.6.3-3']"
 +++
 Power Management Utilities
 
-{{< files text="show files" >}}* /usr/bin/on_ac_power_pm
+## Files: 
+* /usr/bin/on_ac_power_pm
 * /usr/bin/pm-hibernate
 * /usr/bin/pm-is-supported
 * /usr/bin/pm-powersave
@@ -71,4 +72,3 @@ Power Management Utilities
 * /usr/share/man/man8/pm-action.8.gz
 * /usr/share/man/man8/pm-pmu.8.gz
 * /usr/share/man/man8/pm-powersave.8.gz
-{{< /files >}}

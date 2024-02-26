@@ -16,8 +16,8 @@ reverse_depends = "['perl-xml-simple']"
 +++
 SAX2 Driver for Expat (XML::Parser)
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/XML/SAX/Expat.pm
+## Files: 
+* /usr/lib/perl5/site_perl/current/XML/SAX/Expat.pm
 * /usr/share/doc/perl-xml-sax-expat-0.51/MANIFEST
 * /usr/share/doc/perl-xml-sax-expat-0.51/README
 * /usr/share/man/man3/XML::SAX::Expat.3perl.gz
-{{< /files >}}

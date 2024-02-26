@@ -16,7 +16,8 @@ reverse_depends = "['python3-build', 'python3-poetry']"
 +++
 A low-level library for calling build-backends in pyproject.toml-based project
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pyproject_hooks-1.0.0.dist-info/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/pyproject_hooks-1.0.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/pyproject_hooks-1.0.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/pyproject_hooks-1.0.0.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/pyproject_hooks-1.0.0.dist-info/WHEEL
@@ -37,4 +38,3 @@ A low-level library for calling build-backends in pyproject.toml-based project
 * /usr/lib/python3.12/site-packages/pyproject_hooks/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-pyproject-hooks-1.0.0/LICENSE
 * /usr/share/doc/python3-pyproject-hooks-1.0.0/README.rst
-{{< /files >}}

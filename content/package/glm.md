@@ -16,7 +16,8 @@ reverse_depends = "['kicad', 'performous', 'solarus', 'supertux']"
 +++
 OpenGL Mathematics
 
-{{< files text="show files" >}}* /usr/include/glm/common.hpp
+## Files: 
+* /usr/include/glm/common.hpp
 * /usr/include/glm/detail/compute_common.hpp
 * /usr/include/glm/detail/compute_vector_relational.hpp
 * /usr/include/glm/detail/func_common.inl
@@ -437,4 +438,3 @@ OpenGL Mathematics
 * /usr/include/glm/vector_relational.hpp
 * /usr/lib/cmake/glm/glmConfig.cmake
 * /usr/lib/cmake/glm/glmConfigVersion.cmake
-{{< /files >}}

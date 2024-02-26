@@ -15,7 +15,8 @@ depends = "['python3>=3.12']"
 +++
 Sphinx extension for rendering tables written in markdown
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sphinx_markdown_tables-0.0.17-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/sphinx_markdown_tables-0.0.17-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/sphinx_markdown_tables-0.0.17-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/sphinx_markdown_tables-0.0.17-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/sphinx_markdown_tables-0.0.17-py3.12.egg-info/SOURCES.txt
@@ -26,4 +27,3 @@ Sphinx extension for rendering tables written in markdown
 * /usr/lib/python3.12/site-packages/sphinx_markdown_tables/__version__.py
 * /usr/share/doc/python3-sphinx-markdown-tables-0.0.17/LICENSE
 * /usr/share/doc/python3-sphinx-markdown-tables-0.0.17/README.md
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['aspell', 'glib2', 'gpgme', 'libotr', 'loudmouth>=1.5.3-3', 'ncurses
 +++
 Small Jabber console client, includes features: SSL, PGP, MUC, UTF8
 
-{{< files text="show files" >}}* /usr/bin/mcabber
+## Files: 
+* /usr/bin/mcabber
 * /usr/include/mcabber/api.h
 * /usr/include/mcabber/caps.h
 * /usr/include/mcabber/commands.h
@@ -416,4 +417,3 @@ Small Jabber console client, includes features: SSL, PGP, MUC, UTF8
 * /usr/share/mcabber/help/uk/hlp_status.txt
 * /usr/share/mcabber/help/uk/hlp_status_to.txt
 * /usr/share/mcabber/help/uk/hlp_version.txt
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['wine', 'wine-devel']"
 +++
 XAudio2 reimplementation
 
-{{< files text="show files" >}}* /usr/include/F3DAudio.h
+## Files: 
+* /usr/include/F3DAudio.h
 * /usr/include/FACT.h
 * /usr/include/FACT3D.h
 * /usr/include/FAPO.h
@@ -33,4 +34,3 @@ XAudio2 reimplementation
 * /usr/lib/pkgconfig/FAudio.pc
 * /usr/share/doc/faudio-24.02/LICENSE
 * /usr/share/doc/faudio-24.02/README
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['qt5-base>=5.15.12']"
 +++
 The Qt5 toolkit, qtmqtt
 
-{{< files text="show files" >}}* /usr/include/qt5/QtMqtt/5.15.12/QtMqtt/private/qmqttclient_p.h
+## Files: 
+* /usr/include/qt5/QtMqtt/5.15.12/QtMqtt/private/qmqttclient_p.h
 * /usr/include/qt5/QtMqtt/5.15.12/QtMqtt/private/qmqttconnectionproperties_p.h
 * /usr/include/qt5/QtMqtt/5.15.12/QtMqtt/private/qmqttconnection_p.h
 * /usr/include/qt5/QtMqtt/5.15.12/QtMqtt/private/qmqttcontrolpacket_p.h
@@ -62,4 +63,3 @@ The Qt5 toolkit, qtmqtt
 * /usr/lib/pkgconfig/Qt5Mqtt.pc
 * /usr/share/qt5/mkspecs/modules/qt_lib_mqtt.pri
 * /usr/share/qt5/mkspecs/modules/qt_lib_mqtt_private.pri
-{{< /files >}}

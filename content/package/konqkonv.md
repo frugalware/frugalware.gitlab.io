@@ -15,5 +15,5 @@ depends = "['mplayer']"
 +++
 A KDE service menu which allows quick and easy conversion of video files into DVD or VCD compliant mpg files.
 
-{{< files text="show files" >}}* usr/share/apps/konqueror/servicemenus/konqkonv.desktop
-{{< /files >}}
+## Files: 
+* usr/share/apps/konqueror/servicemenus/konqkonv.desktop

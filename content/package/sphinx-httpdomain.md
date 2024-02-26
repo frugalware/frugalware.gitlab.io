@@ -15,7 +15,8 @@ depends = "['python3-sphinx']"
 +++
 Sphinx domain for describing RESTful HTTP APIs
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sphinxcontrib/autohttp/bottle.py
+## Files: 
+* /usr/lib/python3.12/site-packages/sphinxcontrib/autohttp/bottle.py
 * /usr/lib/python3.12/site-packages/sphinxcontrib/autohttp/common.py
 * /usr/lib/python3.12/site-packages/sphinxcontrib/autohttp/flask.py
 * /usr/lib/python3.12/site-packages/sphinxcontrib/autohttp/flaskqref.py
@@ -46,4 +47,3 @@ Sphinx domain for describing RESTful HTTP APIs
 * /usr/lib/python3.12/site-packages/sphinxcontrib_httpdomain-1.8.1-py3.12.egg-info/top_level.txt
 * /usr/share/doc/sphinx-httpdomain-1.8.1/LICENSE
 * /usr/share/doc/sphinx-httpdomain-1.8.1/README.rst
-{{< /files >}}

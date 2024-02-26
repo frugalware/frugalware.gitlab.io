@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Basque Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/doc/HTML/eu/common/1.png
+## Files: 
+* usr/share/doc/HTML/eu/common/1.png
 * usr/share/doc/HTML/eu/common/10.png
 * usr/share/doc/HTML/eu/common/2.png
 * usr/share/doc/HTML/eu/common/3.png
@@ -644,4 +645,3 @@ Basque Localization for KDE.
 * usr/share/locale/eu/LC_MESSAGES/wakeup.mo
 * usr/share/locale/eu/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/eu/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

@@ -15,10 +15,10 @@ depends = "[]"
 +++
 An advanced memory diagnostic tool
 
-{{< files text="show files" >}}* /boot/memtest.bin
+## Files: 
+* /boot/memtest.bin
 * /boot/memtest.efi
 * /etc/grub.d/35_memtest86+
 * /etc/grub.d/60_memtest86+-efi
 * /usr/share/doc/memtest86+-7.00/LICENSE
 * /usr/share/doc/memtest86+-7.00/README.md
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 Tool to measure bandwidth and response times between two hosts using Internet Control Message Protocol (ICMP)
 
-{{< files text="show files" >}}* /usr/bin/bwping
+## Files: 
+* /usr/bin/bwping
 * /usr/bin/bwping6
 * /usr/share/doc/bwping-2.5/AUTHORS
 * /usr/share/doc/bwping-2.5/COPYING
@@ -23,4 +24,3 @@ Tool to measure bandwidth and response times between two hosts using Internet Co
 * /usr/share/doc/bwping-2.5/README
 * /usr/share/man/man8/bwping.8.gz
 * /usr/share/man/man8/bwping6.8.gz
-{{< /files >}}

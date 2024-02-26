@@ -15,9 +15,9 @@ depends = "['libstdc++>=11.3']"
 +++
 Qt6 base static libs.
 
-{{< files text="show files" >}}* /usr/lib/libQt6DeviceDiscoverySupport.a
+## Files: 
+* /usr/lib/libQt6DeviceDiscoverySupport.a
 * /usr/lib/libQt6ExampleIcons.a
 * /usr/lib/libQt6FbSupport.a
 * /usr/lib/libQt6InputSupport.a
 * /usr/lib/libQt6KmsSupport.a
-{{< /files >}}

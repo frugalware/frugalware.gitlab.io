@@ -15,10 +15,10 @@ depends = "['libgcc']"
 +++
 A modern replacement for ps written in Rust
 
-{{< files text="show files" >}}* /usr/bin/procs
+## Files: 
+* /usr/bin/procs
 * /usr/share/bash-completion/completions/procs
 * /usr/share/doc/procs-0.14.4/LICENSE
 * /usr/share/doc/procs-0.14.4/README.md
 * /usr/share/fish/vendor_completions.d/procs.fish
 * /usr/share/zsh/site-functions/_procs
-{{< /files >}}

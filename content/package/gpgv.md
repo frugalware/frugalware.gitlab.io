@@ -15,6 +15,6 @@ depends = "['zlib>=1.2.12']"
 +++
 gpgv from gnupg2.
 
-{{< files text="show files" >}}* /usr/bin/gpgv
+## Files: 
+* /usr/bin/gpgv
 * /usr/bin/gpgv2
-{{< /files >}}

@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.Org pixman library
 
-{{< files text="show files" >}}* /usr/include/pixman-1/pixman-version.h
+## Files: 
+* /usr/include/pixman-1/pixman-version.h
 * /usr/include/pixman-1/pixman.h
 * /usr/lib/libpixman-1.so
 * /usr/lib/libpixman-1.so.0
@@ -26,4 +27,3 @@ X.Org pixman library
 * /usr/share/doc/pixman-0.43.2/COPYING
 * /usr/share/doc/pixman-0.43.2/INSTALL
 * /usr/share/doc/pixman-0.43.2/README
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['libinput-gestures', 'steamtinkerlaunch']"
 +++
 CLI X11 automation tool
 
-{{< files text="show files" >}}* /usr/bin/xdotool
+## Files: 
+* /usr/bin/xdotool
 * /usr/include/xdo.h
 * /usr/lib/libxdo.so
 * /usr/lib/libxdo.so.3
@@ -27,4 +28,3 @@ CLI X11 automation tool
 * /usr/share/doc/xdotool-3.20211022.1/TODO
 * /usr/share/doc/xdotool-3.20211022.1/VERSION
 * /usr/share/man/man1/xdotool.1.gz
-{{< /files >}}

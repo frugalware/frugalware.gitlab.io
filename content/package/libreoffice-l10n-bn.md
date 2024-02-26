@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Bengali (Bangladesh) support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/bn/default.css
+## Files: 
+* /usr/lib/libreoffice/help/bn/default.css
 * /usr/lib/libreoffice/help/bn/err.html
 * /usr/lib/libreoffice/help/bn/highcontrast1.css
 * /usr/lib/libreoffice/help/bn/highcontrast2.css
@@ -133,4 +134,3 @@ Installs Bengali (Bangladesh) support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-bn.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_bn.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_bn.xcd
-{{< /files >}}

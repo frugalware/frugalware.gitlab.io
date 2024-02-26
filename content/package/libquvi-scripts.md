@@ -15,7 +15,8 @@ depends = "['lua']"
 +++
 Scripts used by libquvi
 
-{{< files text="show files" >}}* /usr/lib/pkgconfig/libquvi-scripts-0.9.pc
+## Files: 
+* /usr/lib/pkgconfig/libquvi-scripts-0.9.pc
 * /usr/share/doc/libquvi-scripts-0.9.20131130/AUTHORS
 * /usr/share/doc/libquvi-scripts-0.9.20131130/ChangeLog
 * /usr/share/doc/libquvi-scripts-0.9.20131130/COPYING
@@ -87,4 +88,3 @@ Scripts used by libquvi
 * /usr/share/man/man7/libquvi-scripts.7.gz
 * /usr/share/man/man7/quvi-modules-3rdparty.7.gz
 * /usr/share/man/man7/quvi-modules.7.gz
-{{< /files >}}

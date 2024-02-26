@@ -15,7 +15,8 @@ depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=
 +++
 A nonogram logic game for KDE.
 
-{{< files text="show files" >}}* /usr/bin/picmi
+## Files: 
+* /usr/bin/picmi
 * /usr/share/applications/org.kde.picmi.desktop
 * /usr/share/doc/HTML/ca/picmi/gameboard.png
 * /usr/share/doc/HTML/ca/picmi/index.cache.bz2
@@ -138,4 +139,3 @@ A nonogram logic game for KDE.
 * /usr/share/picmi/themes/picmi.png
 * /usr/share/picmi/themes/picmi.svg
 * /usr/share/qlogging-categories5/picmi.categories
-{{< /files >}}

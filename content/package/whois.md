@@ -16,7 +16,8 @@ reverse_depends = "['fail2ban']"
 +++
 The GNU whois client
 
-{{< files text="show files" >}}* /etc/bash_completion.d/mkpasswd
+## Files: 
+* /etc/bash_completion.d/mkpasswd
 * /etc/bash_completion.d/whois
 * /etc/whois.conf
 * /usr/bin/whois
@@ -40,4 +41,3 @@ The GNU whois client
 * /usr/share/locale/zh_CN/LC_MESSAGES/whois.mo
 * /usr/share/man/man1/whois.1.gz
 * /usr/share/man/man5/whois.conf.5.gz
-{{< /files >}}

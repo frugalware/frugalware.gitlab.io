@@ -16,7 +16,8 @@ reverse_depends = "['handbrake', 'libvirt', 'openucx', 'qemu']"
 +++
 The numactl program allows you to run your application program on specific cpu's and memory nodes.
 
-{{< files text="show files" >}}* /usr/bin/memhog
+## Files: 
+* /usr/bin/memhog
 * /usr/bin/migratepages
 * /usr/bin/migspeed
 * /usr/bin/numactl
@@ -39,4 +40,3 @@ The numactl program allows you to run your application program on specific cpu's
 * /usr/share/man/man8/migspeed.8.gz
 * /usr/share/man/man8/numactl.8.gz
 * /usr/share/man/man8/numastat.8.gz
-{{< /files >}}

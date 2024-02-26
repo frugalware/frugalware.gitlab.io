@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org rendercheck application
 
-{{< files text="show files" >}}* /usr/bin/rendercheck
+## Files: 
+* /usr/bin/rendercheck
 * /usr/share/doc/rendercheck-1.5/AUTHORS
 * /usr/share/doc/rendercheck-1.5/ChangeLog
 * /usr/share/doc/rendercheck-1.5/COPYING
@@ -24,4 +25,3 @@ X.Org rendercheck application
 * /usr/share/doc/rendercheck-1.5/NEWS
 * /usr/share/doc/rendercheck-1.5/README
 * /usr/share/man/man1/rendercheck.1.gz
-{{< /files >}}

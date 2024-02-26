@@ -16,7 +16,8 @@ reverse_depends = "['disman']"
 +++
 Qt/C++ library wrapping libwayland
 
-{{< files text="show files" >}}* /usr/include/Wrapland/Client/appmenu.h
+## Files: 
+* /usr/include/Wrapland/Client/appmenu.h
 * /usr/include/Wrapland/Client/blur.h
 * /usr/include/Wrapland/Client/buffer.h
 * /usr/include/Wrapland/Client/compositor.h
@@ -167,4 +168,3 @@ Qt/C++ library wrapping libwayland
 * /usr/share/doc/wrapland-0.527.0/COPYING.LIB
 * /usr/share/doc/wrapland-0.527.0/README.md
 * /usr/share/qlogging-categories5/org_kde_wrapland.categories
-{{< /files >}}

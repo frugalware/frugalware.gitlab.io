@@ -16,7 +16,8 @@ reverse_depends = "['fail2ban']"
 +++
 A python development support library.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/py-1.11.0-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/py-1.11.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/py-1.11.0-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/py-1.11.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/py-1.11.0-py3.12.egg-info/SOURCES.txt
@@ -119,4 +120,3 @@ A python development support library.
 * /usr/share/doc/python3-py-1.11.0/AUTHORS
 * /usr/share/doc/python3-py-1.11.0/LICENSE
 * /usr/share/doc/python3-py-1.11.0/README.rst
-{{< /files >}}

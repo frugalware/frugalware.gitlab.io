@@ -16,6 +16,6 @@ reverse_depends = "['lib32-gdk-pixbuf2']"
 +++
 Freedesktop.org Shared MIME Info ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/update-mime-database
+## Files: 
+* /usr/i686-frugalware-linux/bin/update-mime-database
 * /usr/lib32/pkgconfig/shared-mime-info.pc
-{{< /files >}}

@@ -15,7 +15,7 @@ depends = "[]"
 +++
 Clearlooks Metacity theme
 
-{{< files text="show files" >}}* usr/share/themes/Clearlooks-Balloon/metacity-1/metacity-theme-1.xml
+## Files: 
+* usr/share/themes/Clearlooks-Balloon/metacity-1/metacity-theme-1.xml
 * usr/share/themes/Clearlooks-Sharp/metacity-1/metacity-theme-1.xml
 * usr/share/themes/Clearlooks/metacity-1/metacity-theme-1.xml
-{{< /files >}}

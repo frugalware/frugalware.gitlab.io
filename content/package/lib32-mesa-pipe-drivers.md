@@ -15,7 +15,8 @@ depends = "['lib32-elfutils>=0.167-2', 'lib32-libdrm>=2.4.70', 'lib32-libffi>=3.
 +++
 Mesa gallium pipe drivers. (32-bit)
 
-{{< files text="show files" >}}* /usr/lib32/gallium-pipe/pipe_crocus.so
+## Files: 
+* /usr/lib32/gallium-pipe/pipe_crocus.so
 * /usr/lib32/gallium-pipe/pipe_iris.so
 * /usr/lib32/gallium-pipe/pipe_nouveau.so
 * /usr/lib32/gallium-pipe/pipe_r300.so
@@ -23,4 +24,3 @@ Mesa gallium pipe drivers. (32-bit)
 * /usr/lib32/gallium-pipe/pipe_radeonsi.so
 * /usr/lib32/gallium-pipe/pipe_swrast.so
 * /usr/lib32/gallium-pipe/pipe_vmwgfx.so
-{{< /files >}}

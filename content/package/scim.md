@@ -16,7 +16,8 @@ reverse_depends = "['efl', 'skim']"
 +++
 Input methods covering more than 30 languages.
 
-{{< files text="show files" >}}* /etc/profile.d/scim.sh
+## Files: 
+* /etc/profile.d/scim.sh
 * /etc/scim/config
 * /etc/scim/global
 * /usr/bin/scim
@@ -152,4 +153,3 @@ Input methods covering more than 30 languages.
 * /usr/share/scim/icons/setup.png
 * /usr/share/scim/icons/trademark.png
 * /usr/share/scim/icons/up.png
-{{< /files >}}

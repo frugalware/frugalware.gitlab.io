@@ -15,7 +15,8 @@ depends = "['vtk>=9.3.0', 'vtk-java>=9.3.0']"
 +++
 Java Openmpi interface and bindings for vtk
 
-{{< files text="show files" >}}* /usr/lib/java/vtk-Linux-x86_64/libvtkFiltersParallelDIY2Java.so
+## Files: 
+* /usr/lib/java/vtk-Linux-x86_64/libvtkFiltersParallelDIY2Java.so
 * /usr/lib/java/vtk-Linux-x86_64/libvtkFiltersParallelImagingJava.so
 * /usr/lib/java/vtk-Linux-x86_64/libvtkFiltersParallelJava.so
 * /usr/lib/java/vtk-Linux-x86_64/libvtkFiltersParallelStatisticsJava.so
@@ -25,4 +26,3 @@ Java Openmpi interface and bindings for vtk
 * /usr/lib/java/vtk-Linux-x86_64/libvtkIOParallelXMLJava.so
 * /usr/lib/java/vtk-Linux-x86_64/libvtkParallelCoreJava.so
 * /usr/lib/java/vtk-Linux-x86_64/libvtkRenderingParallelJava.so
-{{< /files >}}

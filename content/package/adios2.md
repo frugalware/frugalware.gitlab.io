@@ -16,7 +16,8 @@ reverse_depends = "['vtk']"
 +++
 Next generation of ADIOS developed in the Exascale Computing Program
 
-{{< files text="show files" >}}* /usr/bin/adios2_deactivate_bp
+## Files: 
+* /usr/bin/adios2_deactivate_bp
 * /usr/bin/adios2_json_pp
 * /usr/bin/adios2_reorganize
 * /usr/bin/bp2h5
@@ -351,4 +352,3 @@ Next generation of ADIOS developed in the Exascale Computing Program
 * /usr/lib/python3.12/site-packages/adios2/bp5dbg/__init__.py
 * /usr/lib/python3.12/site-packages/adios2/__init__.py
 * /usr/share/doc/adios2-2.9.2/LICENSE
-{{< /files >}}

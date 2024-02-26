@@ -15,7 +15,8 @@ depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=
 +++
 A simple constructor game suitable for children and adults alike.
 
-{{< files text="show files" >}}* /usr/bin/ktuberling
+## Files: 
+* /usr/bin/ktuberling
 * /usr/share/applications/org.kde.ktuberling.desktop
 * /usr/share/doc/HTML/ca/ktuberling/index.cache.bz2
 * /usr/share/doc/HTML/ca/ktuberling/index.docbook
@@ -2138,4 +2139,3 @@ A simple constructor game suitable for children and adults alike.
 * /usr/share/locale/zh_TW/LC_MESSAGES/ktuberling.mo
 * /usr/share/metainfo/org.kde.ktuberling.appdata.xml
 * /usr/share/qlogging-categories5/ktuberling.categories
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['espeak', 'guvcview', 'mixxx', 'performous']"
 +++
 PortAudio is a free, cross platform, open-source, audio I/O library
 
-{{< files text="show files" >}}* /usr/include/pa_linux_alsa.h
+## Files: 
+* /usr/include/pa_linux_alsa.h
 * /usr/include/portaudio.h
 * /usr/lib/libportaudio.so
 * /usr/lib/libportaudio.so.2
@@ -24,4 +25,3 @@ PortAudio is a free, cross platform, open-source, audio I/O library
 * /usr/lib/pkgconfig/portaudio-2.0.pc
 * /usr/share/doc/portaudio-190600_20161030/README.configure.txt
 * /usr/share/doc/portaudio-190600_20161030/README.txt
-{{< /files >}}

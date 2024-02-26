@@ -16,10 +16,10 @@ reverse_depends = "['perl-archive-zip']"
 +++
 File::Which is a portable implementation (in Perl) of 'which'
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/File/Which.pm
+## Files: 
+* /usr/lib/perl5/site_perl/current/File/Which.pm
 * /usr/share/doc/perl-file-which-1.27/INSTALL
 * /usr/share/doc/perl-file-which-1.27/LICENSE
 * /usr/share/doc/perl-file-which-1.27/MANIFEST
 * /usr/share/doc/perl-file-which-1.27/README
 * /usr/share/man/man3/File::Which.3perl.gz
-{{< /files >}}

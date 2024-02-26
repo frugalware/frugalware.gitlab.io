@@ -16,7 +16,8 @@ reverse_depends = "['spamassassin']"
 +++
 A perl implementation of DomainKeys
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/Mail/DomainKeys.pm
+## Files: 
+* /usr/lib/perl5/site_perl/current/Mail/DomainKeys.pm
 * /usr/lib/perl5/site_perl/current/Mail/DomainKeys/Header.pm
 * /usr/lib/perl5/site_perl/current/Mail/DomainKeys/Key.pm
 * /usr/lib/perl5/site_perl/current/Mail/DomainKeys/Key/Private.pm
@@ -28,4 +29,3 @@ A perl implementation of DomainKeys
 * /usr/share/doc/perl-mail-domainkeys-1.0/README
 * /usr/share/doc/perl-mail-domainkeys-1.0/THANKS
 * /usr/share/man/man3/Mail::DomainKeys.3perl.gz
-{{< /files >}}

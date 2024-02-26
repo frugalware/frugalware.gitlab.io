@@ -15,7 +15,8 @@ depends = "['ocaml>=5.1.1']"
 +++
 An equivalent of the C preprocessor for OCaml programs
 
-{{< files text="show files" >}}* /usr/bin/cppo
+## Files: 
+* /usr/bin/cppo
 * /usr/lib/ocaml/cppo/dune-package
 * /usr/lib/ocaml/cppo/META
 * /usr/lib/ocaml/cppo/opam
@@ -39,4 +40,3 @@ An equivalent of the C preprocessor for OCaml programs
 * /usr/share/doc/cppo-1.6.9/INSTALL.md
 * /usr/share/doc/cppo-1.6.9/README.md
 * /usr/share/doc/cppo-1.6.9/VERSION
-{{< /files >}}

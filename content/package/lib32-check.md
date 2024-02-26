@@ -15,11 +15,11 @@ depends = "[]"
 +++
 Check is a unit test framework for C. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/checkmk
+## Files: 
+* /usr/i686-frugalware-linux/bin/checkmk
 * /usr/i686-frugalware-linux/include/check.h
 * /usr/i686-frugalware-linux/include/check_stdint.h
 * /usr/lib32/libcheck.so
 * /usr/lib32/libcheck.so.0
 * /usr/lib32/libcheck.so.0.0.0
 * /usr/lib32/pkgconfig/check.pc
-{{< /files >}}

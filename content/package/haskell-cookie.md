@@ -16,7 +16,8 @@ reverse_depends = "['haskell-http-api-data', 'haskell-http-client', 'haskell-wai
 +++
 HTTP cookie parsing and rendering
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/cookie-0.4.6/libHScookie-0.4.6-3AsvfrjTUqCJ9zpB5TdXlV.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/cookie-0.4.6/libHScookie-0.4.6-3AsvfrjTUqCJ9zpB5TdXlV.a
 * /usr/lib/ghc-9.8.1/site-local/cookie-0.4.6/Web/Cookie.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/cookie-0.4.6/Web/Cookie.hi
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHScookie-0.4.6-3AsvfrjTUqCJ9zpB5TdXlV-ghc9.8.1.so
@@ -34,4 +35,3 @@ HTTP cookie parsing and rendering
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/cookie-0.4.6/LICENSE
 * /usr/share/haskell/haskell-cookie/register.sh
 * /usr/share/haskell/haskell-cookie/unregister.sh
-{{< /files >}}

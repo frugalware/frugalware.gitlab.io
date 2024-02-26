@@ -15,7 +15,8 @@ depends = "['hunspell>=1.7.0', 'libgcrypt>=1.7.5-1', 'qt5-imageformats>=5.15.10'
 +++
 Otter Browser, project aiming to recreate classic Opera (12.x) UI using Qt5.
 
-{{< files text="show files" >}}* /usr/bin/otter-browser
+## Files: 
+* /usr/bin/otter-browser
 * /usr/share/applications/otter-browser.desktop
 * /usr/share/doc/otter-browser-1.0.03/CHANGELOG
 * /usr/share/doc/otter-browser-1.0.03/COPYING
@@ -75,4 +76,3 @@ Otter Browser, project aiming to recreate classic Opera (12.x) UI using Qt5.
 * /usr/share/otter-browser/locale/otter-browser_yue.qm
 * /usr/share/otter-browser/locale/otter-browser_zh_CN.qm
 * /usr/share/otter-browser/locale/otter-browser_zh_TW.qm
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-contacts', 'knotes']"
 +++
 This lib provides grantlee theme support
 
-{{< files text="show files" >}}* /usr/include/KPim5/GrantleeTheme/grantleetheme/GenericFormatter
+## Files: 
+* /usr/include/KPim5/GrantleeTheme/grantleetheme/GenericFormatter
 * /usr/include/KPim5/GrantleeTheme/GrantleeTheme/GenericFormatter
 * /usr/include/KPim5/GrantleeTheme/grantleetheme/genericformatter.h
 * /usr/include/KPim5/GrantleeTheme/grantleetheme/GrantleeKi18nLocalizer
@@ -96,4 +97,3 @@ This lib provides grantlee theme support
 * /usr/share/qlogging-categories5/grantleetheme.categories
 * /usr/share/qlogging-categories5/grantleetheme.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_GrantleeTheme.pri
-{{< /files >}}

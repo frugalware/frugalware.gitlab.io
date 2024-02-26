@@ -16,7 +16,8 @@ reverse_depends = "['efl', 'enlightenment', 'freeipmi', 'gpg-agent', 'gpgme', 'l
 +++
 Support library for libgcrypt
 
-{{< files text="show files" >}}* /usr/bin/gpg-error
+## Files: 
+* /usr/bin/gpg-error
 * /usr/bin/gpgrt-config
 * /usr/bin/yat2m
 * /usr/include/gpg-error.h
@@ -64,4 +65,3 @@ Support library for libgcrypt
 * /usr/share/locale/zh_CN/LC_MESSAGES/libgpg-error.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libgpg-error.mo
 * /usr/share/man/man1/gpgrt-config.1.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['kaccounts-integration>=23.08.4', 'kirigami2>=5.115.0', 'knewstuff>=
 +++
 A friendly onboarding wizard for Plasma
 
-{{< files text="show files" >}}* /etc/xdg/autostart/org.kde.plasma-welcome.desktop
+## Files: 
+* /etc/xdg/autostart/org.kde.plasma-welcome.desktop
 * /usr/bin/plasma-welcome
 * /usr/share/applications/org.kde.plasma-welcome.desktop
 * /usr/share/doc/plasma-welcome-5.27.10/README.md
@@ -56,4 +57,3 @@ A friendly onboarding wizard for Plasma
 * /usr/share/qt5/qml/org/kde/plasma/welcome/GenericPage.qml
 * /usr/share/qt5/qml/org/kde/plasma/welcome/KCM.qml
 * /usr/share/qt5/qml/org/kde/plasma/welcome/qmldir
-{{< /files >}}

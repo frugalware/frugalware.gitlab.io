@@ -15,7 +15,8 @@ depends = "['perl']"
 +++
 Database Interface to the MySQL database
 
-{{< files text="show files" >}}* usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/DBD/mysql/mysql.bs
+## Files: 
+* usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/DBD/mysql/mysql.bs
 * usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/DBD/mysql/mysql.so
 * usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Bundle/DBD/mysql.pm
 * usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/DBD/mysql.pm
@@ -32,4 +33,3 @@ Database Interface to the MySQL database
 * usr/share/doc/perl-mysql-2.9008/MANIFEST
 * usr/share/doc/perl-mysql-2.9008/README
 * usr/share/doc/perl-mysql-2.9008/TODO
-{{< /files >}}

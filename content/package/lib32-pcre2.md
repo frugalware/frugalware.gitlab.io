@@ -16,7 +16,8 @@ reverse_depends = "['lib32-util-linux']"
 +++
 Perl-compatible regular expression library (version 2). ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/pcre2-config
+## Files: 
+* /usr/i686-frugalware-linux/bin/pcre2-config
 * /usr/i686-frugalware-linux/bin/pcre2grep
 * /usr/i686-frugalware-linux/bin/pcre2test
 * /usr/i686-frugalware-linux/include/pcre2.h
@@ -37,4 +38,3 @@ Perl-compatible regular expression library (version 2). ( 32bit )
 * /usr/lib32/pkgconfig/libpcre2-32.pc
 * /usr/lib32/pkgconfig/libpcre2-8.pc
 * /usr/lib32/pkgconfig/libpcre2-posix.pc
-{{< /files >}}

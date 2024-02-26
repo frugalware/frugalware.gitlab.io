@@ -16,7 +16,8 @@ reverse_depends = "['haskell-assoc', 'haskell-boring', 'haskell-distributive', '
 +++
 Haskell 98 phantom types to avoid unsafely passing dummy arguments
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/tagged-0.8.8/Data/Proxy/TH.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/tagged-0.8.8/Data/Proxy/TH.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/tagged-0.8.8/Data/Proxy/TH.hi
 * /usr/lib/ghc-9.8.1/site-local/tagged-0.8.8/Data/Tagged.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/tagged-0.8.8/Data/Tagged.hi
@@ -37,4 +38,3 @@ Haskell 98 phantom types to avoid unsafely passing dummy arguments
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/tagged-0.8.8/LICENSE
 * /usr/share/haskell/haskell-tagged/register.sh
 * /usr/share/haskell/haskell-tagged/unregister.sh
-{{< /files >}}

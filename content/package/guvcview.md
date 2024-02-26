@@ -15,7 +15,8 @@ depends = "['ffmpeg>=6.0', 'gsl>=2.7.1', 'libogg', 'libpulse>=6.0', 'libraw1394'
 +++
 A video viewer and capturer for the linux uvc driver
 
-{{< files text="show files" >}}* /usr/bin/guvcview
+## Files: 
+* /usr/bin/guvcview
 * /usr/include/guvcview-2/libgviewaudio/gviewaudio.h
 * /usr/include/guvcview-2/libgviewencoder/gviewencoder.h
 * /usr/include/guvcview-2/libgviewrender/gviewrender.h
@@ -110,4 +111,3 @@ A video viewer and capturer for the linux uvc driver
 * /usr/share/pixmaps/guvcview/image_controls.png
 * /usr/share/pixmaps/guvcview/movie.png
 * /usr/share/pixmaps/guvcview/video_controls.png
-{{< /files >}}

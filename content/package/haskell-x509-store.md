@@ -16,7 +16,8 @@ reverse_depends = "['haskell-x509-system', 'haskell-x509-validation']"
 +++
 X.509 collection accessing and storing methods
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/x509-store-1.6.9/Data/X509/CertificateStore.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/x509-store-1.6.9/Data/X509/CertificateStore.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/x509-store-1.6.9/Data/X509/CertificateStore.hi
 * /usr/lib/ghc-9.8.1/site-local/x509-store-1.6.9/Data/X509/File.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/x509-store-1.6.9/Data/X509/File.hi
@@ -41,4 +42,3 @@ X.509 collection accessing and storing methods
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/x509-store-1.6.9/LICENSE
 * /usr/share/haskell/haskell-x509-store/register.sh
 * /usr/share/haskell/haskell-x509-store/unregister.sh
-{{< /files >}}

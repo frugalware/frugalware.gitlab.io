@@ -16,7 +16,8 @@ reverse_depends = "['minetest-game']"
 +++
 Minetest is an infinite-world block sandbox game and a game engine, inspired by InfiniMiner and Minecraft.
 
-{{< files text="show files" >}}* /usr/bin/minetest
+## Files: 
+* /usr/bin/minetest
 * /usr/share/applications/net.minetest.minetest.desktop
 * /usr/share/doc/minetest-5.8.0/COPYING.LESSER
 * /usr/share/doc/minetest-5.8.0/README.md
@@ -316,4 +317,3 @@ Minetest is an infinite-world block sandbox game and a game engine, inspired by 
 * /usr/share/minetest/textures/base/pack/unknown_object.png
 * /usr/share/minetest/textures/base/pack/wieldhand.png
 * /usr/share/minetest/textures/base/pack/zoom.png
-{{< /files >}}

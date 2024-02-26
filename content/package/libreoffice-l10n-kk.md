@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Kazakh support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/acc.mo
+## Files: 
+* /usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/kk/LC_MESSAGES/chart.mo
@@ -53,4 +54,3 @@ Installs Kazakh support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-kk.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_kk.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_kk.xcd
-{{< /files >}}

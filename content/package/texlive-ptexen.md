@@ -16,8 +16,8 @@ reverse_depends = "['texlive', 'texlive-utils']"
 +++
 Libptexen
 
-{{< files text="show files" >}}* /usr/lib/libptexenc.so
+## Files: 
+* /usr/lib/libptexenc.so
 * /usr/lib/libptexenc.so.1
 * /usr/lib/libptexenc.so.1.4.3
 * /usr/lib/pkgconfig/ptexenc.pc
-{{< /files >}}

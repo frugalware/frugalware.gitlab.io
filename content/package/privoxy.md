@@ -15,7 +15,8 @@ depends = "['pcre']"
 +++
 Privoxy is a web proxy with advanced filtering capabilities.
 
-{{< files text="show files" >}}* /etc/privoxy/config
+## Files: 
+* /etc/privoxy/config
 * /etc/privoxy/default.action
 * /etc/privoxy/default.filter
 * /etc/privoxy/match-all.action
@@ -111,4 +112,3 @@ Privoxy is a web proxy with advanced filtering capabilities.
 * /usr/share/doc/privoxy-3.0.34/user-manual/whatsnew.html
 * /usr/share/man/man1/privoxy.8.gz
 * /var/log/privoxy/logfile
-{{< /files >}}

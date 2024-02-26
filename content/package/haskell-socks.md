@@ -16,7 +16,8 @@ reverse_depends = "['haskell-connection', 'haskell-crypton-connection']"
 +++
 Socks proxy (ver 5)
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/socks-0.6.1/libHSsocks-0.6.1-DeD1txQEx2Y3gWhExFMYLl.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/socks-0.6.1/libHSsocks-0.6.1-DeD1txQEx2Y3gWhExFMYLl.a
 * /usr/lib/ghc-9.8.1/site-local/socks-0.6.1/Network/Socks5.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/socks-0.6.1/Network/Socks5.hi
 * /usr/lib/ghc-9.8.1/site-local/socks-0.6.1/Network/Socks5/Command.dyn_hi
@@ -50,4 +51,3 @@ Socks proxy (ver 5)
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/socks-0.6.1/LICENSE
 * /usr/share/haskell/haskell-socks/register.sh
 * /usr/share/haskell/haskell-socks/unregister.sh
-{{< /files >}}

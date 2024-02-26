@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org xcmsdb application
 
-{{< files text="show files" >}}* /usr/bin/xcmsdb
+## Files: 
+* /usr/bin/xcmsdb
 * /usr/share/doc/xcmsdb-1.0.6/ChangeLog
 * /usr/share/doc/xcmsdb-1.0.6/COPYING
 * /usr/share/doc/xcmsdb-1.0.6/INSTALL
 * /usr/share/doc/xcmsdb-1.0.6/README.md
 * /usr/share/man/man1/xcmsdb.1.gz
-{{< /files >}}

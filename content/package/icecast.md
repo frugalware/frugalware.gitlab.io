@@ -15,7 +15,8 @@ depends = "['curl', 'libtheora', 'libvorbis', 'libxslt', 'openssl>=3.1.0', 'spee
 +++
 Icecast is a streaming media server.
 
-{{< files text="show files" >}}* /etc/icecast/icecast.xml
+## Files: 
+* /etc/icecast/icecast.xml
 * /usr/bin/icecast
 * /usr/lib/systemd/system/icecast.service
 * /usr/share/doc/icecast-2.4.4/assets/css/style.css
@@ -85,4 +86,3 @@ Icecast is a streaming media server.
 * /usr/share/icecast/web/style.css
 * /usr/share/icecast/web/tunein.png
 * /usr/share/icecast/web/xml2json.xslt
-{{< /files >}}

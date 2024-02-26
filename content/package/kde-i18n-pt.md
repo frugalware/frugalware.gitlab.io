@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Portuguese Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/khangman/data/pt/animals.kvtml
+## Files: 
+* usr/share/apps/khangman/data/pt/animals.kvtml
 * usr/share/apps/khangman/data/pt/easy.kvtml
 * usr/share/apps/khangman/data/pt/hard.kvtml
 * usr/share/apps/khangman/data/pt/medium.kvtml
@@ -2118,4 +2119,3 @@ Portuguese Localization for KDE.
 * usr/share/locale/pt/LC_MESSAGES/wakeup.mo
 * usr/share/locale/pt/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/pt/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

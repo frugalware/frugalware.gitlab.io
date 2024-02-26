@@ -16,7 +16,8 @@ reverse_depends = "['connman', 'dracut-network']"
 +++
 The ISC DHCP client
 
-{{< files text="show files" >}}* /etc/dhclient-dhcpv6.conf
+## Files: 
+* /etc/dhclient-dhcpv6.conf
 * /etc/dhclient.conf
 * /usr/bin/dhclient
 * /usr/bin/dhclient-script
@@ -28,4 +29,3 @@ The ISC DHCP client
 * /usr/share/man/man8/dhclient.8.gz
 * /var/state/dhclient/dhclient.leases
 * /var/state/dhclient/dhclient6.leases
-{{< /files >}}

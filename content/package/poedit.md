@@ -16,7 +16,8 @@ license = "MIT"
 +++
 cross-platform gettext catalogs (.po files) editor
 
-{{< files text="show files" >}}* /usr/bin/poedit
+## Files: 
+* /usr/bin/poedit
 * /usr/share/applications/net.poedit.Poedit.desktop
 * /usr/share/applications/net.poedit.PoeditURI.desktop
 * /usr/share/doc/poedit-3.4.1/AUTHORS
@@ -122,4 +123,3 @@ cross-platform gettext catalogs (.po files) editor
 * /usr/share/poedit/icons/SuggestionPerfectMatch.png
 * /usr/share/poedit/icons/SuggestionTMTemplate.png
 * /usr/share/poedit/icons/window-close.png
-{{< /files >}}

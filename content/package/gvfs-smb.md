@@ -15,8 +15,8 @@ depends = "['gvfs>=1.52.0', 'libsmbclient>=4.3.3-1', 'samba-client>=4.3.4-1']"
 +++
 gvfs with samba support
 
-{{< files text="show files" >}}* /usr/lib/gvfs/gvfsd-smb
+## Files: 
+* /usr/lib/gvfs/gvfsd-smb
 * /usr/lib/gvfs/gvfsd-smb-browse
 * /usr/share/gvfs/mounts/smb-browse.mount
 * /usr/share/gvfs/mounts/smb.mount
-{{< /files >}}

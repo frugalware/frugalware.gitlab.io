@@ -16,7 +16,8 @@ reverse_depends = "['yubikey-personalization']"
 +++
 Yubico YubiKey C client
 
-{{< files text="show files" >}}* /usr/bin/ykclient
+## Files: 
+* /usr/bin/ykclient
 * /usr/include/ykclient.h
 * /usr/include/ykclient_errors.h
 * /usr/include/ykclient_server_response.h
@@ -31,4 +32,3 @@ Yubico YubiKey C client
 * /usr/share/doc/ykclient-2.15/README
 * /usr/share/doc/ykclient-2.15/README.adoc
 * /usr/share/man/man1/ykclient.1.gz
-{{< /files >}}

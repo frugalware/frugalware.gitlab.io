@@ -15,7 +15,7 @@ depends = "['cairo', 'gdk-pixbuf2', 'glibc', 'gtk+3', 'openssl>=3.1.0', 'pango']
 +++
 A Gemini, Gopher and Finger protocol client
 
-{{< files text="show files" >}}* /usr/bin/castor
+## Files: 
+* /usr/bin/castor
 * /usr/share/doc/castor-0.9.0/LICENSE
 * /usr/share/doc/castor-0.9.0/README.md
-{{< /files >}}

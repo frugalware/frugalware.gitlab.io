@@ -16,9 +16,9 @@ reverse_depends = "['glfw', 'gtk+3', 'gtk+4', 'vlc-wayland-egl']"
 +++
 Mesa Wayland EGL library.
 
-{{< files text="show files" >}}* /usr/lib/libwayland-egl.la
+## Files: 
+* /usr/lib/libwayland-egl.la
 * /usr/lib/libwayland-egl.so
 * /usr/lib/libwayland-egl.so.1
 * /usr/lib/libwayland-egl.so.1.0.0
 * /usr/lib/pkgconfig/wayland-egl.pc
-{{< /files >}}

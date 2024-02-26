@@ -15,7 +15,8 @@ depends = "['libkdegames>=23.08.5']"
 +++
 Lieutenant Skat (from German Offiziersskat) is a fun and engaging card game for two players
 
-{{< files text="show files" >}}* /usr/bin/lskat
+## Files: 
+* /usr/bin/lskat
 * /usr/share/applications/org.kde.lskat.desktop
 * /usr/share/doc/HTML/ca/lskat/index.cache.bz2
 * /usr/share/doc/HTML/ca/lskat/index.docbook
@@ -140,4 +141,3 @@ Lieutenant Skat (from German Offiziersskat) is a fun and engaging card game for 
 * /usr/share/lskat/grafix/oxygen.svg
 * /usr/share/metainfo/org.kde.lskat.appdata.xml
 * /usr/share/qlogging-categories5/lskat.categories
-{{< /files >}}

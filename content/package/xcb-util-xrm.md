@@ -16,7 +16,8 @@ reverse_depends = "['i3', 'i3lock']"
 +++
 XCB utility functions for the X resource manager
 
-{{< files text="show files" >}}* /usr/include/xcb/xcb_xrm.h
+## Files: 
+* /usr/include/xcb/xcb_xrm.h
 * /usr/lib/libxcb-xrm.la
 * /usr/lib/libxcb-xrm.so
 * /usr/lib/libxcb-xrm.so.0
@@ -26,4 +27,3 @@ XCB utility functions for the X resource manager
 * /usr/share/doc/xcb-util-xrm-1.3/COPYING
 * /usr/share/doc/xcb-util-xrm-1.3/INSTALL
 * /usr/share/doc/xcb-util-xrm-1.3/README
-{{< /files >}}

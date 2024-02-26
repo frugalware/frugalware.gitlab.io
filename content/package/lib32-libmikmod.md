@@ -16,10 +16,10 @@ reverse_depends = "['lib32-sdl2_mixer']"
 +++
 A module sound player and library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/libmikmod-config
+## Files: 
+* /usr/i686-frugalware-linux/bin/libmikmod-config
 * /usr/i686-frugalware-linux/include/mikmod.h
 * /usr/lib32/libmikmod.so
 * /usr/lib32/libmikmod.so.3
 * /usr/lib32/libmikmod.so.3.3.0
 * /usr/lib32/pkgconfig/libmikmod.pc
-{{< /files >}}

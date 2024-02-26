@@ -15,7 +15,8 @@ depends = "['ghostscript', 'hunspell>=1.7.0', 'hunspell>=1.6.1', 'lua>=5.4', 'po
 +++
 A simple interface for working with TeX documents
 
-{{< files text="show files" >}}* /usr/bin/texworks
+## Files: 
+* /usr/bin/texworks
 * /usr/lib/texworks/libTWLuaPlugin.so
 * /usr/share/applications/texworks.desktop
 * /usr/share/doc/texworks-0.6.8/COPYING
@@ -30,4 +31,3 @@ A simple interface for working with TeX documents
 * /usr/share/icons/hicolor/64x64/apps/TeXworks.png
 * /usr/share/man/man1/texworks.1.gz
 * /usr/share/metainfo/texworks.appdata.xml
-{{< /files >}}

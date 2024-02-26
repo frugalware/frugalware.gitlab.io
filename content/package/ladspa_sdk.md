@@ -16,7 +16,8 @@ reverse_depends = "['dssi', 'easyeffects', 'fluidsynth', 'mpv']"
 +++
 Linux Audio Developer's Simple Plugin API.
 
-{{< files text="show files" >}}* /etc/profile.d/ladspa.sh
+## Files: 
+* /etc/profile.d/ladspa.sh
 * /usr/bin/analyseplugin
 * /usr/bin/applyplugin
 * /usr/bin/listplugins
@@ -38,4 +39,3 @@ Linux Audio Developer's Simple Plugin API.
 * /usr/share/doc/ladspa_sdk-1.13/README
 * /usr/share/doc/ladspa_sdk-1.13/shared_plugins.html
 * /usr/share/doc/ladspa_sdk-1.13/unique_ids.html
-{{< /files >}}

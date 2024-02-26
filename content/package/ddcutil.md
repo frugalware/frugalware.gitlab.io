@@ -16,7 +16,8 @@ reverse_depends = "['clightd', 'hw-probe']"
 +++
 Query and change Linux monitor settings using DDC/CI and USB.
 
-{{< files text="show files" >}}* /usr/bin/ddcutil
+## Files: 
+* /usr/bin/ddcutil
 * /usr/include/ddcutil_c_api.h
 * /usr/include/ddcutil_macros.h
 * /usr/include/ddcutil_status_codes.h
@@ -38,4 +39,3 @@ Query and change Linux monitor settings using DDC/CI and USB.
 * /usr/share/doc/ddcutil-2.1.4/README.gitignore
 * /usr/share/doc/ddcutil-2.1.4/README.md
 * /usr/share/man/man1/ddcutil.1.gz
-{{< /files >}}

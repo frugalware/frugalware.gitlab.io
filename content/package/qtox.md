@@ -15,7 +15,8 @@ depends = "['ffmpeg>=6.0', 'filter_audio', 'gdk-pixbuf2', 'gtk+2', 'libexif', 'l
 +++
 Powerful Tox client that follows the Tox design guidelines.
 
-{{< files text="show files" >}}* /usr/bin/qtox
+## Files: 
+* /usr/bin/qtox
 * /usr/share/applications/io.github.qtox.qTox.desktop
 * /usr/share/doc/qtox-1.17.6/INSTALL.fa.md
 * /usr/share/doc/qtox-1.17.6/INSTALL.md
@@ -37,4 +38,3 @@ Powerful Tox client that follows the Tox design guidelines.
 * /usr/share/icons/hicolor/96x96/apps/qtox.png
 * /usr/share/icons/hicolor/scalable/apps/qtox.svgz
 * /usr/share/metainfo/io.github.qtox.qTox.appdata.xml
-{{< /files >}}

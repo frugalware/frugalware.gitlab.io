@@ -15,7 +15,8 @@ depends = "['a52dec>=0.7.4-5', 'aalib>=1.4rc5-8', 'cdparanoia>=10.2-4', 'faac>=1
 +++
 The Movie Encoder
 
-{{< files text="show files" >}}* /usr/bin/mencoder
+## Files: 
+* /usr/bin/mencoder
 * /usr/share/man/cs/man1/mencoder.1.gz
 * /usr/share/man/de/man1/mencoder.1.gz
 * /usr/share/man/es/man1/mencoder.1.gz
@@ -26,4 +27,3 @@ The Movie Encoder
 * /usr/share/man/pl/man1/mencoder.1.gz
 * /usr/share/man/ru/man1/mencoder.1.gz
 * /usr/share/man/zh_CN/man1/mencoder.1.gz
-{{< /files >}}

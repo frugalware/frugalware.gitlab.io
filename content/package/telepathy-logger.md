@@ -16,7 +16,8 @@ reverse_depends = "['telepathy-logger-qt']"
 +++
 telepathy logger service
 
-{{< files text="show files" >}}* /usr/include/telepathy-logger-0.2/telepathy-logger/call-event.h
+## Files: 
+* /usr/include/telepathy-logger-0.2/telepathy-logger/call-event.h
 * /usr/include/telepathy-logger-0.2/telepathy-logger/entity.h
 * /usr/include/telepathy-logger-0.2/telepathy-logger/event.h
 * /usr/include/telepathy-logger-0.2/telepathy-logger/log-manager.h
@@ -68,4 +69,3 @@ telepathy logger service
 * /usr/share/gtk-doc/html/telepathy-logger/up-insensitive.png
 * /usr/share/gtk-doc/html/telepathy-logger/up.png
 * /usr/share/telepathy/clients/Logger.client
-{{< /files >}}

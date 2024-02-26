@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org xkbevd application
 
-{{< files text="show files" >}}* /usr/bin/xkbevd
+## Files: 
+* /usr/bin/xkbevd
 * /usr/share/doc/xkbevd-1.1.5/ChangeLog
 * /usr/share/doc/xkbevd-1.1.5/COPYING
 * /usr/share/doc/xkbevd-1.1.5/INSTALL
 * /usr/share/doc/xkbevd-1.1.5/README.md
 * /usr/share/man/man1/xkbevd.1.gz
-{{< /files >}}

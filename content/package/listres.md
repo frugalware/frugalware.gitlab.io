@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org listres application
 
-{{< files text="show files" >}}* /usr/bin/listres
+## Files: 
+* /usr/bin/listres
 * /usr/share/doc/listres-1.0.5/ChangeLog
 * /usr/share/doc/listres-1.0.5/COPYING
 * /usr/share/doc/listres-1.0.5/INSTALL
 * /usr/share/doc/listres-1.0.5/README.md
 * /usr/share/man/man1/listres.1.gz
-{{< /files >}}

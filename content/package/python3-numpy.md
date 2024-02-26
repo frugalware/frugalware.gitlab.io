@@ -16,7 +16,8 @@ reverse_depends = "['adios2', 'aubio', 'blender', 'face_recognition', 'howdy', '
 +++
 Numerical Python adds a fast array facility to the Python3 language.
 
-{{< files text="show files" >}}* /usr/bin/f2py
+## Files: 
+* /usr/bin/f2py
 * /usr/lib/python3.12/site-packages/numpy-1.26.4.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/numpy-1.26.4.dist-info/LICENSE.txt
 * /usr/lib/python3.12/site-packages/numpy-1.26.4.dist-info/METADATA
@@ -1622,4 +1623,3 @@ Numerical Python adds a fast array facility to the Python3 language.
 * /usr/lib/python3.12/site-packages/numpy/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-numpy-1.26.4/INSTALL.rst
 * /usr/share/doc/python3-numpy-1.26.4/README.md
-{{< /files >}}

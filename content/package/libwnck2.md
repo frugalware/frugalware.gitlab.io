@@ -15,7 +15,8 @@ depends = "['gtk+2>=2.24.29-2', 'libffi>=3.2.1', 'libxres>=1.0.7-3', 'startup-no
 +++
 Window Navigator Construction Kit (Gtk+2)
 
-{{< files text="show files" >}}* /usr/include/libwnck-1.0/libwnck/application.h
+## Files: 
+* /usr/include/libwnck-1.0/libwnck/application.h
 * /usr/include/libwnck-1.0/libwnck/class-group.h
 * /usr/include/libwnck-1.0/libwnck/libwnck.h
 * /usr/include/libwnck-1.0/libwnck/pager.h
@@ -169,4 +170,3 @@ Window Navigator Construction Kit (Gtk+2)
 * /usr/share/locale/zh_CN/LC_MESSAGES/libwnck.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/libwnck.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libwnck.mo
-{{< /files >}}

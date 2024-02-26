@@ -16,7 +16,8 @@ reverse_depends = "['darktable']"
 +++
 A command line based converter for raw digital photos.
 
-{{< files text="show files" >}}* /usr/bin/dcraw
+## Files: 
+* /usr/bin/dcraw
 * /usr/share/locale/ca/LC_MESSAGES/dcraw.mo
 * /usr/share/locale/cs/LC_MESSAGES/dcraw.mo
 * /usr/share/locale/da/LC_MESSAGES/dcraw.mo
@@ -66,4 +67,3 @@ A command line based converter for raw digital photos.
 * /usr/share/man/zh_CN/man1/dcraw.1.gz
 * /usr/share/man/zh_TW.UTF-8/man1/dcraw.1.gz
 * /usr/share/man/zh_TW/man1/dcraw.1.gz
-{{< /files >}}

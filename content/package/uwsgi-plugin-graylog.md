@@ -15,5 +15,5 @@ depends = "['uwsgi', 'zlib>=1.2.12']"
 +++
 UWSGI Graylog Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/graylog2_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/uwsgi/graylog2_plugin.so

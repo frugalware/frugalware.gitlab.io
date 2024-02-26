@@ -15,5 +15,5 @@ depends = "['claws-mail=4.1.1']"
 +++
 Warns when the user composes a message mentioning an attachment and no file is attached
 
-{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/attachwarner.so
-{{< /files >}}
+## Files: 
+* /usr/lib/claws-mail/plugins/attachwarner.so

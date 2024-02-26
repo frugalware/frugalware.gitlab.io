@@ -15,7 +15,8 @@ depends = "['hicolor-icon-theme', 'python3', 'qhttpengine', 'qmdnsengine', 'qt5-
 +++
 LAN file sender application, designed to make transferring files from one device to another extremely simple
 
-{{< files text="show files" >}}* /usr/bin/nitroshare
+## Files: 
+* /usr/bin/nitroshare
 * /usr/bin/nitroshare-send
 * /usr/share/applications/nitroshare.desktop
 * /usr/share/caja-python/extensions/nitroshare.py
@@ -34,4 +35,3 @@ LAN file sender application, designed to make transferring files from one device
 * /usr/share/metainfo/nitroshare.appdata.xml
 * /usr/share/nautilus-python/extensions/nitroshare.py
 * /usr/share/nemo-python/extensions/nitroshare.py
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "['libsecret', 'libvlc>=3.0.20']"
 +++
 vlc secret support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/keystore/libsecret_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/keystore/libsecret_plugin.so

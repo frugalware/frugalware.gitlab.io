@@ -16,7 +16,8 @@ reverse_depends = "['lib32-gdk-pixbuf2', 'lib32-imlib2', 'lib32-lcms2', 'lib32-l
 +++
 Library for manipulation of TIFF images ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/fax2ps
+## Files: 
+* /usr/i686-frugalware-linux/bin/fax2ps
 * /usr/i686-frugalware-linux/bin/fax2tiff
 * /usr/i686-frugalware-linux/bin/pal2rgb
 * /usr/i686-frugalware-linux/bin/ppm2tiff
@@ -46,4 +47,3 @@ Library for manipulation of TIFF images ( 32bit )
 * /usr/lib32/libtiffxx.so.5
 * /usr/lib32/libtiffxx.so.5.8.0
 * /usr/lib32/pkgconfig/libtiff-4.pc
-{{< /files >}}

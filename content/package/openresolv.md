@@ -16,7 +16,8 @@ reverse_depends = "['networkmanager', 'strongswan']"
 +++
 The DNS management framework
 
-{{< files text="show files" >}}* /etc/resolvconf.conf
+## Files: 
+* /etc/resolvconf.conf
 * /usr/bin/resolvconf
 * /usr/lib/openresolv/dnsmasq
 * /usr/lib/openresolv/libc
@@ -30,4 +31,3 @@ The DNS management framework
 * /usr/share/doc/openresolv-3.13.2/README.md
 * /usr/share/man/man5/resolvconf.conf.5.gz
 * /usr/share/man/man8/resolvconf.8.gz
-{{< /files >}}

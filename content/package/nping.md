@@ -15,6 +15,6 @@ depends = "['openssl>=3.1.0']"
 +++
 Nping is an open-source tool for network packet generation
 
-{{< files text="show files" >}}* /usr/bin/nping
+## Files: 
+* /usr/bin/nping
 * /usr/share/man/man1/nping.1.gz
-{{< /files >}}

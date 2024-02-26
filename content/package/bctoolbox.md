@@ -16,7 +16,8 @@ reverse_depends = "['ortp']"
 +++
 A library written in C that allows you to create and run audio and video streams
 
-{{< files text="show files" >}}* /usr/include/bctoolbox/crypto.h
+## Files: 
+* /usr/include/bctoolbox/crypto.h
 * /usr/include/bctoolbox/list.h
 * /usr/include/bctoolbox/logging.h
 * /usr/include/bctoolbox/map.h
@@ -36,4 +37,3 @@ A library written in C that allows you to create and run audio and video streams
 * /usr/share/doc/bctoolbox-0.2.0/INSTALL
 * /usr/share/doc/bctoolbox-0.2.0/NEWS
 * /usr/share/doc/bctoolbox-0.2.0/README
-{{< /files >}}

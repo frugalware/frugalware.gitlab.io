@@ -16,11 +16,11 @@ reverse_depends = "['lib32-networkmanager']"
 +++
 A programming library for color text mode, widget based user interfaces. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/whiptail
+## Files: 
+* /usr/i686-frugalware-linux/bin/whiptail
 * /usr/i686-frugalware-linux/include/newt.h
 * /usr/lib32/libnewt.so
 * /usr/lib32/libnewt.so.0.52
 * /usr/lib32/libnewt.so.0.52.24
 * /usr/lib32/pkgconfig/libnewt.pc
 * /usr/lib32/python3.12/site-packages/snack.py
-{{< /files >}}

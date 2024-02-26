@@ -16,7 +16,8 @@ reverse_depends = "['nitroshare']"
 +++
 Simple and secure HTTP server for Qt
 
-{{< files text="show files" >}}* /usr/include/qhttpengine/basicauthmiddleware.h
+## Files: 
+* /usr/include/qhttpengine/basicauthmiddleware.h
 * /usr/include/qhttpengine/filesystemhandler.h
 * /usr/include/qhttpengine/handler.h
 * /usr/include/qhttpengine/ibytearray.h
@@ -39,4 +40,3 @@ Simple and secure HTTP server for Qt
 * /usr/lib/libqhttpengine.so.1.0.1
 * /usr/lib/pkgconfig/qhttpengine.pc
 * /usr/share/doc/qhttpengine-1.0.1/README.md
-{{< /files >}}

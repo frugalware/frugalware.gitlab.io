@@ -16,7 +16,8 @@ reverse_depends = "['python3-eventlet']"
 +++
 Python3 bindings for zeromq, written in Cython
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pyzmq-25.1.1-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/pyzmq-25.1.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pyzmq-25.1.1-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/pyzmq-25.1.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/pyzmq-25.1.1-py3.12.egg-info/requires.txt
@@ -260,4 +261,3 @@ Python3 bindings for zeromq, written in Cython
 * /usr/lib/python3.12/site-packages/zmq/__pycache__/_typing.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/zmq/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-pyzmq-25.1.1/README.md
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['get_steam', 'lib32-at-spi2-core', 'lib32-clang', 'lib32-cla
 +++
 XML parsing library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/xml2-config
+## Files: 
+* /usr/i686-frugalware-linux/bin/xml2-config
 * /usr/i686-frugalware-linux/bin/xmlcatalog
 * /usr/i686-frugalware-linux/bin/xmllint
 * /usr/i686-frugalware-linux/include/libxml2/libxml/c14n.h
@@ -70,4 +71,3 @@ XML parsing library ( 32bit )
 * /usr/lib32/libxml2.so.2
 * /usr/lib32/libxml2.so.2.12.5
 * /usr/lib32/pkgconfig/libxml-2.0.pc
-{{< /files >}}

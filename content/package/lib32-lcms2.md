@@ -16,7 +16,8 @@ reverse_depends = "['get_steam', 'lib32-openjpeg', 'wine', 'wine-devel']"
 +++
 Lightweight color management development library/engine ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/jpgicc
+## Files: 
+* /usr/i686-frugalware-linux/bin/jpgicc
 * /usr/i686-frugalware-linux/bin/linkicc
 * /usr/i686-frugalware-linux/bin/psicc
 * /usr/i686-frugalware-linux/bin/tificc
@@ -27,4 +28,3 @@ Lightweight color management development library/engine ( 32bit )
 * /usr/lib32/liblcms2.so.2
 * /usr/lib32/liblcms2.so.2.0.16
 * /usr/lib32/pkgconfig/lcms2.pc
-{{< /files >}}

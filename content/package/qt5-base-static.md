@@ -15,7 +15,8 @@ depends = "['libstdc++>=11.3']"
 +++
 Qt5 base static libs.
 
-{{< files text="show files" >}}* /usr/lib/libQt5AccessibilitySupport.a
+## Files: 
+* /usr/lib/libQt5AccessibilitySupport.a
 * /usr/lib/libQt5AccessibilitySupport.la
 * /usr/lib/libQt5AccessibilitySupport.prl
 * /usr/lib/libQt5Bootstrap.a
@@ -66,4 +67,3 @@ Qt5 base static libs.
 * /usr/lib/libQt5XkbCommonSupport.a
 * /usr/lib/libQt5XkbCommonSupport.la
 * /usr/lib/libQt5XkbCommonSupport.prl
-{{< /files >}}

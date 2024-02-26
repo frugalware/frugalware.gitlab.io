@@ -16,7 +16,8 @@ reverse_depends = "['bison', 'clisp', 'kdesdk-thumbnailers', 'ki18n', 'lib32-lib
 +++
 GNU internationalization library
 
-{{< files text="show files" >}}* /usr/bin/autopoint
+## Files: 
+* /usr/bin/autopoint
 * /usr/bin/envsubst
 * /usr/bin/gettext
 * /usr/bin/gettext.sh
@@ -315,4 +316,3 @@ GNU internationalization library
 * /usr/share/man/man3/gettext.3.gz
 * /usr/share/man/man3/ngettext.3.gz
 * /usr/share/man/man3/textdomain.3.gz
-{{< /files >}}

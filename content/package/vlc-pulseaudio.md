@@ -15,10 +15,10 @@ depends = "['libpulse>=7.1', 'libvlc>=3.0.20']"
 +++
 vlc plugin for pulseaudio
 
-{{< files text="show files" >}}* /usr/lib/vlc/libvlc_pulse.so
+## Files: 
+* /usr/lib/vlc/libvlc_pulse.so
 * /usr/lib/vlc/libvlc_pulse.so.0
 * /usr/lib/vlc/libvlc_pulse.so.0.0.0
 * /usr/lib/vlc/plugins/access/libpulsesrc_plugin.so
 * /usr/lib/vlc/plugins/audio_output/libpulse_plugin.so
 * /usr/lib/vlc/plugins/services_discovery/libpulselist_plugin.so
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['android-udev', 'calibre', 'gvfs-mtp', 'kio-extras', 'vlc-mt
 +++
 libmtp is an implementation of Microsoft's Media Transfer Protocol (MTP).
 
-{{< files text="show files" >}}* /usr/bin/mtp-albumart
+## Files: 
+* /usr/bin/mtp-albumart
 * /usr/bin/mtp-albums
 * /usr/bin/mtp-connect
 * /usr/bin/mtp-delfile
@@ -54,4 +55,3 @@ libmtp is an implementation of Microsoft's Media Transfer Protocol (MTP).
 * /usr/share/doc/libmtp-1.1.21/README.windows.txt
 * /usr/share/doc/libmtp-1.1.21/RELEASE-CHECKLIST.md
 * /usr/share/doc/libmtp-1.1.21/TODO
-{{< /files >}}

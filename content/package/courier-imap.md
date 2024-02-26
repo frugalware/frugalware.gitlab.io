@@ -15,7 +15,8 @@ depends = "['courier-authlib>=0.69.0', 'libidn>=1.35', 'openssl>=3.1.0']"
 +++
 The Courier IMAP and POP3 server
 
-{{< files text="show files" >}}* /etc/courier/imapd
+## Files: 
+* /etc/courier/imapd
 * /etc/courier/imapd-ssl
 * /etc/courier/pop3d
 * /etc/courier/pop3d-ssl
@@ -72,4 +73,3 @@ The Courier IMAP and POP3 server
 * /usr/share/man/man8/mkdhparams.8.gz
 * /usr/share/man/man8/mkimapdcert.8.gz
 * /usr/share/man/man8/mkpop3dcert.8.gz
-{{< /files >}}

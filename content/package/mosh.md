@@ -15,7 +15,8 @@ depends = "['libstdc++', 'ncurses>=6.0-3', 'openssl>=3.1.0', 'perl>=5.22.0', 'pr
 +++
 SSH replacement with roaming, supports intermittent connectivity
 
-{{< files text="show files" >}}* /usr/bin/mosh
+## Files: 
+* /usr/bin/mosh
 * /usr/bin/mosh-client
 * /usr/bin/mosh-server
 * /usr/share/doc/mosh-1.4.0/AUTHORS
@@ -29,4 +30,3 @@ SSH replacement with roaming, supports intermittent connectivity
 * /usr/share/man/man1/mosh-client.1.gz
 * /usr/share/man/man1/mosh-server.1.gz
 * /usr/share/man/man1/mosh.1.gz
-{{< /files >}}

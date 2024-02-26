@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Glibmm Documentation
 
-{{< files text="show files" >}}* /usr/share/doc/glibmm-2.4/images/gtkmm_logo.gif
+## Files: 
+* /usr/share/doc/glibmm-2.4/images/gtkmm_logo.gif
 * /usr/share/doc/glibmm-2.4/images/top.gif
 * /usr/share/doc/glibmm-2.4/reference/glibmm-2.4.tag
 * /usr/share/doc/glibmm-2.4/reference/html/annotated.html
@@ -1995,4 +1996,3 @@ Glibmm Documentation
 * /usr/share/doc/glibmm-2.4/reference/html/tab_s.png
 * /usr/share/doc/glibmm-2.4/reference/html/thread_2dispatcher_8cc-example.html
 * /usr/share/doc/glibmm-2.4/reference/html/thread_2thread_8cc-example.html
-{{< /files >}}

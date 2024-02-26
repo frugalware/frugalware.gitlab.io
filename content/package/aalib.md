@@ -16,7 +16,8 @@ reverse_depends = "['gimp', 'gst1-plugins-good-aalib', 'mencoder', 'mplayer', 'm
 +++
 A portable ascii art graphics library.
 
-{{< files text="show files" >}}* /usr/bin/aafire
+## Files: 
+* /usr/bin/aafire
 * /usr/bin/aainfo
 * /usr/bin/aalib-config
 * /usr/bin/aasavefont
@@ -102,4 +103,3 @@ A portable ascii art graphics library.
 * /usr/share/man/man3/aa_uninitmouse.3.gz
 * /usr/share/man/man3/mem_d.3.gz
 * /usr/share/man/man3/save_d.3.gz
-{{< /files >}}

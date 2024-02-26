@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-contacts', 'itinerary', 'plasma-workspace']"
 +++
 Qt library to access Open Collaboration Services
 
-{{< files text="show files" >}}* /usr/include/KF5/Prison/prison/AbstractBarcode
+## Files: 
+* /usr/include/KF5/Prison/prison/AbstractBarcode
 * /usr/include/KF5/Prison/Prison/AbstractBarcode
 * /usr/include/KF5/Prison/prison/abstractbarcode.h
 * /usr/include/KF5/Prison/Prison/abstractbarcode.h
@@ -53,4 +54,3 @@ Qt library to access Open Collaboration Services
 * /usr/share/qt5/qml/org/kde/prison/qmldir
 * /usr/share/qt5/qml/org/kde/prison/scanner/libprisonscannerquickplugin.so
 * /usr/share/qt5/qml/org/kde/prison/scanner/qmldir
-{{< /files >}}

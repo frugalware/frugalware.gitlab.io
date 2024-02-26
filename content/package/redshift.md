@@ -16,7 +16,8 @@ reverse_depends = "['plasma-applet-redshift-control']"
 +++
 Redshift color temperature adjustment.
 
-{{< files text="show files" >}}* /usr/bin/redshift
+## Files: 
+* /usr/bin/redshift
 * /usr/lib/systemd/user/redshift-gtk.service
 * /usr/lib/systemd/user/redshift.service
 * /usr/share/applications/redshift.desktop
@@ -64,4 +65,3 @@ Redshift color temperature adjustment.
 * /usr/share/locale/zh_CN/LC_MESSAGES/redshift.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/redshift.mo
 * /usr/share/man/man1/redshift.1.gz
-{{< /files >}}

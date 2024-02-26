@@ -16,7 +16,8 @@ reverse_depends = "['qtcreator']"
 +++
 The Qt6 toolkit, qttools
 
-{{< files text="show files" >}}* /usr/include/qt6/QtDesigner/6.6.2/QtDesigner/private/abstractdialoggui_p.h
+## Files: 
+* /usr/include/qt6/QtDesigner/6.6.2/QtDesigner/private/abstractdialoggui_p.h
 * /usr/include/qt6/QtDesigner/6.6.2/QtDesigner/private/abstractintrospection_p.h
 * /usr/include/qt6/QtDesigner/6.6.2/QtDesigner/private/actioneditor_p.h
 * /usr/include/qt6/QtDesigner/6.6.2/QtDesigner/private/actionprovider_p.h
@@ -461,4 +462,3 @@ The Qt6 toolkit, qttools
 * /usr/share/qt6/phrasebooks/russian.qph
 * /usr/share/qt6/phrasebooks/spanish.qph
 * /usr/share/qt6/phrasebooks/swedish.qph
-{{< /files >}}

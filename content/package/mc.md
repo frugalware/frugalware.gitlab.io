@@ -15,7 +15,8 @@ depends = "['glib2>=2.70', 'libssh2>=1.8.0-4', 'slang>=2.3.1a-5']"
 +++
 The GNU Midnight Commander is a CLI-based file manager
 
-{{< files text="show files" >}}* /etc/mc/edit.indent.rc
+## Files: 
+* /etc/mc/edit.indent.rc
 * /etc/mc/filehighlight.ini
 * /etc/mc/mc.default.keymap
 * /etc/mc/mc.emacs.keymap
@@ -353,4 +354,3 @@ The GNU Midnight Commander is a CLI-based file manager
 * /usr/share/mc/syntax/yaml.syntax
 * /usr/share/mc/syntax/yum-repo.syntax
 * /usr/share/mc/syntax/yxx.syntax
-{{< /files >}}

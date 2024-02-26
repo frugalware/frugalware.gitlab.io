@@ -16,5 +16,5 @@ reverse_depends = "['ca-certificates', 'cracklib', 'dbus', 'grub-theme-frugalwar
 +++
 Dummy package. Pulls in everything required for the basic scriptlets to function.
 
-{{< files text="show files" >}}* /usr/share/doc/scriptlet-core-1/README
-{{< /files >}}
+## Files: 
+* /usr/share/doc/scriptlet-core-1/README

@@ -15,7 +15,8 @@ depends = "['dbus-glib>=0.108-3', 'libffi>=3.2.1-2', 'openssl>=1.1.1-2', 'telepa
 +++
 Full-featured IRC connection manager for Telepathy
 
-{{< files text="show files" >}}* /usr/lib/telepathy-idle/telepathy-idle
+## Files: 
+* /usr/lib/telepathy-idle/telepathy-idle
 * /usr/share/dbus-1/services/org.freedesktop.Telepathy.ConnectionManager.idle.service
 * /usr/share/doc/telepathy-idle-0.2.2/AUTHORS
 * /usr/share/doc/telepathy-idle-0.2.2/ChangeLog
@@ -24,4 +25,3 @@ Full-featured IRC connection manager for Telepathy
 * /usr/share/doc/telepathy-idle-0.2.2/NEWS
 * /usr/share/man/man8/telepathy-idle.8.gz
 * /usr/share/telepathy/managers/idle.manager
-{{< /files >}}

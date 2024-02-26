@@ -15,7 +15,8 @@ depends = "['apache', 'php']"
 +++
 A fully-featured online forum solution for your website
 
-{{< files text="show files" >}}* usr/bin/phpbbsetup
+## Files: 
+* usr/bin/phpbbsetup
 * usr/share/doc/phpbb-php5mod-2.0.17.5/AUTHORS
 * usr/share/doc/phpbb-php5mod-2.0.17.5/COPYING
 * usr/share/doc/phpbb-php5mod-2.0.17.5/FAQ.html
@@ -325,4 +326,3 @@ A fully-featured online forum solution for your website
 * var/www/phpBB2/viewforum.php
 * var/www/phpBB2/viewonline.php
 * var/www/phpBB2/viewtopic.php
-{{< /files >}}

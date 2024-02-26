@@ -15,7 +15,8 @@ depends = "['glibc>=2.38']"
 +++
 DirectX headers for using D3D12
 
-{{< files text="show files" >}}* /usr/include/directx/d3d12.h
+## Files: 
+* /usr/include/directx/d3d12.h
 * /usr/include/directx/d3d12.idl
 * /usr/include/directx/d3d12compatibility.h
 * /usr/include/directx/d3d12compatibility.idl
@@ -62,4 +63,3 @@ DirectX headers for using D3D12
 * /usr/lib/pkgconfig/DirectX-Headers.pc
 * /usr/share/doc/directx-headers-1.611.0/LICENSE
 * /usr/share/doc/directx-headers-1.611.0/README.md
-{{< /files >}}

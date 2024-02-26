@@ -16,9 +16,9 @@ reverse_depends = "['meson-python', 'python3-pypatchelf']"
 +++
 Small utility to modify the dynamic linker and RPATH of ELF executables
 
-{{< files text="show files" >}}* /usr/bin/patchelf
+## Files: 
+* /usr/bin/patchelf
 * /usr/share/doc/patchelf-0.18.0/COPYING
 * /usr/share/doc/patchelf-0.18.0/README.md
 * /usr/share/man/man1/patchelf.1.gz
 * /usr/share/zsh/site-functions/_patchelf
-{{< /files >}}

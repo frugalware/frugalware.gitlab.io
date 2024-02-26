@@ -16,7 +16,8 @@ reverse_depends = "['duplicity', 'psautohint', 'python3-flit_scm', 'python3-hatc
 +++
 Handles managing your python package versions in scm metadata.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/setuptools_scm-8.0.4.dist-info/entry_points.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/setuptools_scm-8.0.4.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/setuptools_scm-8.0.4.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/setuptools_scm-8.0.4.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/setuptools_scm-8.0.4.dist-info/RECORD
@@ -109,4 +110,3 @@ Handles managing your python package versions in scm metadata.
 * /usr/lib/python3.12/site-packages/setuptools_scm/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/python3-setuptools_scm-8.0.4/LICENSE
 * /usr/share/doc/python3-setuptools_scm-8.0.4/README.md
-{{< /files >}}

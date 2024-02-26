@@ -16,7 +16,8 @@ reverse_depends = "['haskell-crypton-x509', 'haskell-wai-app-static']"
 +++
 Cryptography Primitives sink
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/crypton-0.34/Crypto/Cipher/AES.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/crypton-0.34/Crypto/Cipher/AES.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/crypton-0.34/Crypto/Cipher/AES.hi
 * /usr/lib/ghc-9.8.1/site-local/crypton-0.34/Crypto/Cipher/AES/Primitive.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/crypton-0.34/Crypto/Cipher/AES/Primitive.hi
@@ -414,4 +415,3 @@ Cryptography Primitives sink
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/crypton-0.34/LICENSE
 * /usr/share/haskell/haskell-crypton/register.sh
 * /usr/share/haskell/haskell-crypton/unregister.sh
-{{< /files >}}

@@ -15,6 +15,6 @@ depends = "['openjre']"
 +++
 CUP Parser Generator for Java
 
-{{< files text="show files" >}}* /usr/share/java/javacup-runtime.jar
+## Files: 
+* /usr/share/java/javacup-runtime.jar
 * /usr/share/java/javacup.jar
-{{< /files >}}

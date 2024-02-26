@@ -16,7 +16,8 @@ reverse_depends = "['openvas-manager', 'postgresql-docs', 'postgresql-plperl', '
 +++
 An advanced Object-Relational database management system (DBMS)
 
-{{< files text="show files" >}}* /usr/bin/clusterdb
+## Files: 
+* /usr/bin/clusterdb
 * /usr/bin/createdb
 * /usr/bin/createuser
 * /usr/bin/dropdb
@@ -1940,4 +1941,3 @@ An advanced Object-Relational database management system (DBMS)
 * /usr/share/pgsql/tsearch_data/synonym_sample.syn
 * /usr/share/pgsql/tsearch_data/thesaurus_sample.ths
 * /usr/share/pgsql/tsearch_data/turkish.stop
-{{< /files >}}

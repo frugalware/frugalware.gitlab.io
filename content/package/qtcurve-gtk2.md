@@ -15,7 +15,8 @@ depends = "['gtk+2-libs', 'qtcurve>=1.9']"
 +++
 QtCurve-Gtk2
 
-{{< files text="show files" >}}* /usr/lib/gtk-2.0/2.10.0/engines/libqtcurve.so
+## Files: 
+* /usr/lib/gtk-2.0/2.10.0/engines/libqtcurve.so
 * /usr/lib/libqtcurve-cairo.so
 * /usr/lib/libqtcurve-cairo.so.1
 * /usr/lib/libqtcurve-cairo.so.1.0
@@ -27,4 +28,3 @@ QtCurve-Gtk2
 * /usr/share/themes/QtCurve/mozilla/preferences-rev.xml
 * /usr/share/themes/QtCurve/mozilla/QtCurve-KDEButtonOrder.css
 * /usr/share/themes/QtCurve/mozilla/QtCurve.css
-{{< /files >}}

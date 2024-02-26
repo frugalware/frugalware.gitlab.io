@@ -15,7 +15,7 @@ depends = "['glibc']"
 +++
 Tool for smooth git handover.
 
-{{< files text="show files" >}}* /usr/bin/mob
+## Files: 
+* /usr/bin/mob
 * /usr/share/doc/mob-4.4.6/LICENSE
 * /usr/share/doc/mob-4.4.6/README.md
-{{< /files >}}

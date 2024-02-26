@@ -16,7 +16,8 @@ reverse_depends = "['perl-http-message', 'perl-io-socket-ssl', 'perl-mail-spf', 
 +++
 Uniform Resource Identifiers (absolute and relative)
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/URI.pm
+## Files: 
+* /usr/lib/perl5/site_perl/URI.pm
 * /usr/lib/perl5/site_perl/URI/data.pm
 * /usr/lib/perl5/site_perl/URI/Escape.pm
 * /usr/lib/perl5/site_perl/URI/file.pm
@@ -90,4 +91,3 @@ Uniform Resource Identifiers (absolute and relative)
 * /usr/share/man/man3/URI::URL.3perl.gz
 * /usr/share/man/man3/URI::WithBase.3perl.gz
 * /usr/share/man/man3/URI::_punycode.3perl.gz
-{{< /files >}}

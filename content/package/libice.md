@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X Inter Client Exchange Library
 
-{{< files text="show files" >}}* /usr/include/X11/ICE/ICE.h
+## Files: 
+* /usr/include/X11/ICE/ICE.h
 * /usr/include/X11/ICE/ICEconn.h
 * /usr/include/X11/ICE/ICElib.h
 * /usr/include/X11/ICE/ICEmsg.h
@@ -34,4 +35,3 @@ X Inter Client Exchange Library
 * /usr/share/doc/libice-1.1.1/ICElib.xml
 * /usr/share/doc/libice-1.1.1/INSTALL
 * /usr/share/doc/libice-1.1.1/README.md
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['geany>=1.38', 'gtkspell', 'libxslt', 'lua', 'webkit-gtk3>=2.42.1']"
 +++
 The combined plugins release for Geany.
 
-{{< files text="show files" >}}* /usr/lib/geany/addons.so
+## Files: 
+* /usr/lib/geany/addons.so
 * /usr/lib/geany/autoclose.so
 * /usr/lib/geany/automark.so
 * /usr/lib/geany/codenav.so
@@ -290,4 +291,3 @@ The combined plugins release for Geany.
 * /usr/share/locale/tr/LC_MESSAGES/geany-plugins.mo
 * /usr/share/locale/uk/LC_MESSAGES/geany-plugins.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/geany-plugins.mo
-{{< /files >}}

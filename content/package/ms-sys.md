@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 Linux program for writing Microsoft compatible boot records.
 
-{{< files text="show files" >}}* /usr/bin/ms-sys
+## Files: 
+* /usr/bin/ms-sys
 * /usr/share/doc/ms-sys-2.6.0/CHANGELOG
 * /usr/share/doc/ms-sys-2.6.0/CONTRIBUTORS
 * /usr/share/doc/ms-sys-2.6.0/COPYING
@@ -29,4 +30,3 @@ Linux program for writing Microsoft compatible boot records.
 * /usr/share/man/fr/man1/ms-sys.1.gz
 * /usr/share/man/man1/ms-sys.1.gz
 * /usr/share/man/sv/man1/ms-sys.1.gz
-{{< /files >}}

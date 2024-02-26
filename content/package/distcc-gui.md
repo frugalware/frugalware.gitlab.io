@@ -15,7 +15,7 @@ depends = "['desktop-file-utils', 'distcc=3.4', 'freetype2', 'gtk+3', 'libxau>=1
 +++
 GTK monitor for distcc
 
-{{< files text="show files" >}}* /usr/bin/distccmon-gnome
+## Files: 
+* /usr/bin/distccmon-gnome
 * /usr/share/applications/distccmon-gnome.desktop
 * /usr/share/pixmaps/distccmon-gnome.png
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['php']"
 +++
 The most comprehensive testing and benchmarking platform available for Linux.
 
-{{< files text="show files" >}}* /usr/bin/phoronix-test-suite
+## Files: 
+* /usr/bin/phoronix-test-suite
 * /usr/share/doc/phoronix-test-suite-10.8.4/AUTHORS
 * /usr/share/doc/phoronix-test-suite-10.8.4/ChangeLog
 * /usr/share/doc/phoronix-test-suite-10.8.4/COPYING
@@ -537,4 +538,3 @@ The most comprehensive testing and benchmarking platform available for Linux.
 * /usr/share/phoronix-test-suite/pts-core/web-interface/web-interfaces/pts_webui_system.php
 * /usr/share/phoronix-test-suite/pts-core/web-interface/web-interfaces/pts_webui_test.php
 * /usr/share/phoronix-test-suite/pts-core/web-interface/web-interfaces/pts_webui_tests.php
-{{< /files >}}

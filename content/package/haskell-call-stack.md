@@ -16,7 +16,8 @@ reverse_depends = "['haskell-hunit']"
 +++
 Use GHC call-stacks in a backward compatible way
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/call-stack-0.4.0/Data/CallStack.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/call-stack-0.4.0/Data/CallStack.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/call-stack-0.4.0/Data/CallStack.hi
 * /usr/lib/ghc-9.8.1/site-local/call-stack-0.4.0/Data/SrcLoc.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/call-stack-0.4.0/Data/SrcLoc.hi
@@ -37,4 +38,3 @@ Use GHC call-stacks in a backward compatible way
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/call-stack-0.4.0/LICENSE
 * /usr/share/haskell/haskell-call-stack/register.sh
 * /usr/share/haskell/haskell-call-stack/unregister.sh
-{{< /files >}}

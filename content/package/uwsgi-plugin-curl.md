@@ -15,6 +15,6 @@ depends = "['curl', 'uwsgi']"
 +++
 UWSGI Curl Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/alarm_curl_plugin.so
+## Files: 
+* /usr/lib/uwsgi/alarm_curl_plugin.so
 * /usr/lib/uwsgi/curl_cron_plugin.so
-{{< /files >}}

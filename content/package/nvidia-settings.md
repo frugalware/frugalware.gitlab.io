@@ -16,7 +16,8 @@ reverse_depends = "['nvidia']"
 +++
 nVidia settings configuration tool.
 
-{{< files text="show files" >}}* /usr/bin/nvidia-settings
+## Files: 
+* /usr/bin/nvidia-settings
 * /usr/include/NVCtrl/NVCtrl.h
 * /usr/include/NVCtrl/NVCtrlLib.h
 * /usr/lib/libnvidia-wayland-client.so.550.40.07
@@ -27,4 +28,3 @@ nVidia settings configuration tool.
 * /usr/share/doc/nvidia-settings-550.40.07/NV-CONTROL-API.txt
 * /usr/share/man/man1/nvidia-settings.1.gz
 * /usr/share/pixmaps/nvidia-settings.png
-{{< /files >}}

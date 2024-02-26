@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 Utilities for DVB cards
 
-{{< files text="show files" >}}* /usr/bin/atsc_epg
+## Files: 
+* /usr/bin/atsc_epg
 * /usr/bin/av7110_loadkeys
 * /usr/bin/azap
 * /usr/bin/czap
@@ -254,4 +255,3 @@ Utilities for DVB cards
 * /usr/share/dvb/av7110_loadkeys/philips.rc5
 * /usr/share/dvb/av7110_loadkeys/philips1358.rc5
 * /usr/share/dvb/av7110_loadkeys/technotrend.rc5
-{{< /files >}}

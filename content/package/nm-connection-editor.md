@@ -16,7 +16,8 @@ reverse_depends = "['nm-applet', 'nm-libreswan', 'nm-openconnect', 'nm-openvpn',
 +++
 A network connection configuration editor for NetworkManager
 
-{{< files text="show files" >}}* /usr/bin/nm-connection-editor
+## Files: 
+* /usr/bin/nm-connection-editor
 * /usr/include/libnma/nma-bar-code-widget.h
 * /usr/include/libnma/nma-bar-code.h
 * /usr/include/libnma/nma-cert-chooser.h
@@ -128,4 +129,3 @@ A network connection configuration editor for NetworkManager
 * /usr/share/locale/zh_HK/LC_MESSAGES/nm-applet.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/nm-applet.mo
 * /usr/share/man/man1/nm-connection-editor.1.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['ki18n>=5.115.0', 'kxmlgui>=5.115.0']"
 +++
 KDE Color Selector.
 
-{{< files text="show files" >}}* /usr/bin/kcolorchooser
+## Files: 
+* /usr/bin/kcolorchooser
 * /usr/share/applications/org.kde.kcolorchooser.desktop
 * /usr/share/doc/kcolorchooser-23.08.5/COPYING
 * /usr/share/icons/hicolor/16x16/apps/kcolorchooser.png
@@ -88,4 +89,3 @@ KDE Color Selector.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcolorchooser.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcolorchooser.mo
 * /usr/share/metainfo/org.kde.kcolorchooser.appdata.xml
-{{< /files >}}

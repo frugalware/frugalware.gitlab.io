@@ -15,9 +15,9 @@ depends = "['glibc>=2.35', 'lib32-zlib>=1.2.12']"
 +++
 Next generation version of libCrack password checking library. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/crack.h
+## Files: 
+* /usr/i686-frugalware-linux/include/crack.h
 * /usr/i686-frugalware-linux/include/packer.h
 * /usr/lib32/libcrack.so
 * /usr/lib32/libcrack.so.2
 * /usr/lib32/libcrack.so.2.9.0
-{{< /files >}}

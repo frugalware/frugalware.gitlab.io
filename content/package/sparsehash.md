@@ -15,7 +15,8 @@ depends = "[]"
 +++
 An extremely memory-efficient hash_map implementation.
 
-{{< files text="show files" >}}* /usr/include/google/dense_hash_map
+## Files: 
+* /usr/include/google/dense_hash_map
 * /usr/include/google/dense_hash_set
 * /usr/include/google/sparsehash/densehashtable.h
 * /usr/include/google/sparsehash/hashtable-common.h
@@ -64,4 +65,3 @@ An extremely memory-efficient hash_map implementation.
 * /usr/share/doc/sparsehash-2.0.4/README
 * /usr/share/doc/sparsehash-2.0.4/README_windows.txt
 * /usr/share/doc/sparsehash-2.0.4/TODO
-{{< /files >}}

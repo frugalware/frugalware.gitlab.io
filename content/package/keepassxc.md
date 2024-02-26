@@ -15,7 +15,8 @@ depends = "['argon2', 'botan>=3.3.0', 'curl', 'hicolor-icon-theme', 'libusb', 'l
 +++
 Cross-platform community-driven port of Keepass password manager
 
-{{< files text="show files" >}}* /usr/bin/keepassxc
+## Files: 
+* /usr/bin/keepassxc
 * /usr/bin/keepassxc-cli
 * /usr/bin/keepassxc-proxy
 * /usr/lib/keepassxc/libkeepassxc-autotype-xcb.so
@@ -85,4 +86,3 @@ Cross-platform community-driven port of Keepass password manager
 * /usr/share/man/man1/keepassxc.1.gz
 * /usr/share/metainfo/org.keepassxc.KeePassXC.appdata.xml
 * /usr/share/mime/packages/keepassxc.xml
-{{< /files >}}

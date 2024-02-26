@@ -16,7 +16,8 @@ reverse_depends = "['efl', 'gst1-plugins-bad-bzip2', 'gst1-plugins-base', 'gst1-
 +++
 Open Source Multimedia Framework
 
-{{< files text="show files" >}}* /etc/profile.d/gstreamer1.sh
+## Files: 
+* /etc/profile.d/gstreamer1.sh
 * /usr/bin/gst-inspect-1.0
 * /usr/bin/gst-launch-1.0
 * /usr/bin/gst-stats-1.0
@@ -238,4 +239,3 @@ Open Source Multimedia Framework
 * /usr/share/man/man1/gst-launch-1.0.1.gz
 * /usr/share/man/man1/gst-stats-1.0.1.gz
 * /usr/share/man/man1/gst-typefind-1.0.1.gz
-{{< /files >}}

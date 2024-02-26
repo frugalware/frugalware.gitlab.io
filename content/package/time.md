@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 Time a simple command or give resource usage
 
-{{< files text="show files" >}}* /usr/bin/time
+## Files: 
+* /usr/bin/time
 * /usr/share/doc/time-1.9/AUTHORS
 * /usr/share/doc/time-1.9/ChangeLog
 * /usr/share/doc/time-1.9/COPYING
@@ -23,4 +24,3 @@ Time a simple command or give resource usage
 * /usr/share/doc/time-1.9/NEWS
 * /usr/share/doc/time-1.9/README
 * /usr/share/info/time.info.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-search', 'analitza', 'calamares-frugalware', 'disco
 +++
 The Qt5 toolkit, qtsvg
 
-{{< files text="show files" >}}* /usr/include/qt5/QtSvg/5.15.12/QtSvg/private/qsvgfont_p.h
+## Files: 
+* /usr/include/qt5/QtSvg/5.15.12/QtSvg/private/qsvgfont_p.h
 * /usr/include/qt5/QtSvg/5.15.12/QtSvg/private/qsvggraphics_p.h
 * /usr/include/qt5/QtSvg/5.15.12/QtSvg/private/qsvghandler_p.h
 * /usr/include/qt5/QtSvg/5.15.12/QtSvg/private/qsvgnode_p.h
@@ -51,4 +52,3 @@ The Qt5 toolkit, qtsvg
 * /usr/lib/qt5/plugins/imageformats/libqsvg.so
 * /usr/share/qt5/mkspecs/modules/qt_lib_svg.pri
 * /usr/share/qt5/mkspecs/modules/qt_lib_svg_private.pri
-{{< /files >}}

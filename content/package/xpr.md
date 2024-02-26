@@ -16,11 +16,11 @@ license = "GPL2"
 +++
 X.Org xpr application
 
-{{< files text="show files" >}}* /usr/bin/xdpr
+## Files: 
+* /usr/bin/xdpr
 * /usr/bin/xpr
 * /usr/share/doc/xpr-1.1.0/ChangeLog
 * /usr/share/doc/xpr-1.1.0/COPYING
 * /usr/share/doc/xpr-1.1.0/README.md
 * /usr/share/man/man1/xdpr.1.gz
 * /usr/share/man/man1/xpr.1.gz
-{{< /files >}}

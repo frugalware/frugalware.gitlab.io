@@ -16,7 +16,8 @@ reverse_depends = "['lib32-gettext', 'lib32-harfbuzz', 'lib32-libxml2']"
 +++
 International Components for Unicode library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/derb
+## Files: 
+* /usr/i686-frugalware-linux/bin/derb
 * /usr/i686-frugalware-linux/bin/genbrk
 * /usr/i686-frugalware-linux/bin/gencfu
 * /usr/i686-frugalware-linux/bin/gencnval
@@ -256,4 +257,3 @@ International Components for Unicode library ( 32bit )
 * /usr/lib32/pkgconfig/icu-i18n.pc
 * /usr/lib32/pkgconfig/icu-io.pc
 * /usr/lib32/pkgconfig/icu-uc.pc
-{{< /files >}}

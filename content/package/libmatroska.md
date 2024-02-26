@@ -16,7 +16,8 @@ reverse_depends = "['mkvtoolnix', 'vlc-mkv']"
 +++
 libmatroska is a C++ libary to parse Matroska files (.mkv and .mka).
 
-{{< files text="show files" >}}* /usr/include/matroska/c/libmatroska.h
+## Files: 
+* /usr/include/matroska/c/libmatroska.h
 * /usr/include/matroska/c/libmatroska_t.h
 * /usr/include/matroska/FileKax.h
 * /usr/include/matroska/KaxAttached.h
@@ -56,4 +57,3 @@ libmatroska is a C++ libary to parse Matroska files (.mkv and .mka).
 * /usr/lib/pkgconfig/libmatroska.pc
 * /usr/share/doc/libmatroska-1.6.3/ChangeLog
 * /usr/share/doc/libmatroska-1.6.3/README.md
-{{< /files >}}

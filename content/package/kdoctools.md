@@ -16,7 +16,8 @@ reverse_depends = "['kcachegrind', 'plasma-sdk', 'rkward', 'sweeper']"
 +++
 Create documentation from DocBook.
 
-{{< files text="show files" >}}* /usr/bin/checkXML5
+## Files: 
+* /usr/bin/checkXML5
 * /usr/bin/meinproc5
 * /usr/include/KF5/KDocTools/docbookxslt.h
 * /usr/include/KF5/KDocTools/kdoctools_export.h
@@ -1183,4 +1184,3 @@ Create documentation from DocBook.
 * /usr/share/man/uk/man1/meinproc5.1.gz
 * /usr/share/man/uk/man7/kf5options.7.gz
 * /usr/share/man/uk/man7/qt5options.7.gz
-{{< /files >}}

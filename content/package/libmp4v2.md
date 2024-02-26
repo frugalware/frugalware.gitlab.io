@@ -16,7 +16,8 @@ reverse_depends = "['faac']"
 +++
 A library for working with files using the mp4 container format. (extracted from mpeg4ip).
 
-{{< files text="show files" >}}* /usr/bin/mp4art
+## Files: 
+* /usr/bin/mp4art
 * /usr/bin/mp4chaps
 * /usr/bin/mp4extract
 * /usr/bin/mp4file
@@ -49,4 +50,3 @@ A library for working with files using the mp4 container format. (extracted from
 * /usr/share/man/man1/mp4file.1.gz
 * /usr/share/man/man1/mp4subtitle.1.gz
 * /usr/share/man/man1/mp4track.1.gz
-{{< /files >}}

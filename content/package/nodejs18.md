@@ -16,7 +16,8 @@ license = "MIT"
 +++
 Evented I/O for V8 javascript (LTS release: Hydrogen)
 
-{{< files text="show files" >}}* /usr/bin/corepack
+## Files: 
+* /usr/bin/corepack
 * /usr/bin/node
 * /usr/bin/npm
 * /usr/bin/npx
@@ -2182,4 +2183,3 @@ Evented I/O for V8 javascript (LTS release: Hydrogen)
 * /usr/share/doc/nodejs18-18.19.0/README.md
 * /usr/share/man/man1/node.1.gz
 * /usr/share/systemtap/tapset/node.stp
-{{< /files >}}

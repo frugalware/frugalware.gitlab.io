@@ -17,7 +17,8 @@ license = "GPL"
 +++
 Gadu-Gadu protocol libraries
 
-{{< files text="show files" >}}* /usr/include/libgadu.h
+## Files: 
+* /usr/include/libgadu.h
 * /usr/lib/libgadu.so
 * /usr/lib/libgadu.so.3
 * /usr/lib/libgadu.so.3.13.0
@@ -27,4 +28,3 @@ Gadu-Gadu protocol libraries
 * /usr/share/doc/libgadu-1.12.2/COPYING
 * /usr/share/doc/libgadu-1.12.2/NEWS
 * /usr/share/doc/libgadu-1.12.2/README
-{{< /files >}}

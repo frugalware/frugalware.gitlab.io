@@ -15,6 +15,6 @@ depends = "['gtk+3', 'qt5-base>=5.15.12']"
 +++
 Qt5 GTK3 Theme support
 
-{{< files text="show files" >}}* /usr/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake
+## Files: 
+* /usr/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake
 * /usr/lib/qt5/plugins/platformthemes/libqgtk3.so
-{{< /files >}}

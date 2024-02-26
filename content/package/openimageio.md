@@ -16,7 +16,8 @@ reverse_depends = "['alicevision', 'blender', 'embree', 'openshadinglanguage', '
 +++
 A library for reading and writing images, including classes, utilities, and applications.
 
-{{< files text="show files" >}}* /usr/bin/iconvert
+## Files: 
+* /usr/bin/iconvert
 * /usr/bin/idiff
 * /usr/bin/igrep
 * /usr/bin/iinfo
@@ -114,4 +115,3 @@ A library for reading and writing images, including classes, utilities, and appl
 * /usr/share/fonts/OpenImageIO/DroidSerif-BoldItalic.ttf
 * /usr/share/fonts/OpenImageIO/DroidSerif-Italic.ttf
 * /usr/share/fonts/OpenImageIO/DroidSerif.ttf
-{{< /files >}}

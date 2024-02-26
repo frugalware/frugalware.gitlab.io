@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 Plasma Specific Protocols for Wayland
 
-{{< files text="show files" >}}* /usr/lib/cmake/PlasmaWaylandProtocols/PlasmaWaylandProtocolsConfig.cmake
+## Files: 
+* /usr/lib/cmake/PlasmaWaylandProtocols/PlasmaWaylandProtocolsConfig.cmake
 * /usr/lib/cmake/PlasmaWaylandProtocols/PlasmaWaylandProtocolsConfigVersion.cmake
 * /usr/share/doc/plasma-wayland-protocols-1.12.0/COPYING.LIB
 * /usr/share/doc/plasma-wayland-protocols-1.12.0/README.md
@@ -50,4 +51,3 @@ Plasma Specific Protocols for Wayland
 * /usr/share/plasma-wayland-protocols/text-input.xml
 * /usr/share/plasma-wayland-protocols/wayland-eglstream-controller.xml
 * /usr/share/plasma-wayland-protocols/zkde-screencast-unstable-v1.xml
-{{< /files >}}

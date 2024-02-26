@@ -15,7 +15,8 @@ depends = "['json-glib>=1.4.2-4']"
 +++
 JSON-RPC library for GLib
 
-{{< files text="show files" >}}* /usr/include/jsonrpc-glib-1.0/jsonrpc-client.h
+## Files: 
+* /usr/include/jsonrpc-glib-1.0/jsonrpc-client.h
 * /usr/include/jsonrpc-glib-1.0/jsonrpc-glib.h
 * /usr/include/jsonrpc-glib-1.0/jsonrpc-input-stream-private.h
 * /usr/include/jsonrpc-glib-1.0/jsonrpc-input-stream.h
@@ -36,4 +37,3 @@ JSON-RPC library for GLib
 * /usr/share/gir-1.0/Jsonrpc-1.0.gir
 * /usr/share/vala/vapi/jsonrpc-glib-1.0.deps
 * /usr/share/vala/vapi/jsonrpc-glib-1.0.vapi
-{{< /files >}}

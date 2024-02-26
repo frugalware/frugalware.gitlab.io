@@ -15,7 +15,8 @@ depends = "['python3-setuptools_scm']"
 +++
 setuptools_scm plugin for git archives
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/setuptools_scm_git_archive-1.4-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/setuptools_scm_git_archive-1.4-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/setuptools_scm_git_archive-1.4-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/setuptools_scm_git_archive-1.4-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/setuptools_scm_git_archive-1.4-py3.12.egg-info/SOURCES.txt
@@ -24,4 +25,3 @@ setuptools_scm plugin for git archives
 * /usr/lib/python3.12/site-packages/setuptools_scm_git_archive/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-setuptools_scm-git-archive-1.4/LICENSE
 * /usr/share/doc/python3-setuptools_scm-git-archive-1.4/README.rst
-{{< /files >}}

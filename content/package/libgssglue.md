@@ -16,7 +16,8 @@ reverse_depends = "['libkrb5', 'libtirpc']"
 +++
 Generic Security Services GLUE.
 
-{{< files text="show files" >}}* /etc/gssapi_mech.conf
+## Files: 
+* /etc/gssapi_mech.conf
 * /usr/include/gssglue/gssapi/gssapi.h
 * /usr/lib/libgssglue.so
 * /usr/lib/libgssglue.so.1
@@ -28,4 +29,3 @@ Generic Security Services GLUE.
 * /usr/share/doc/libgssglue-0.9/NEWS
 * /usr/share/doc/libgssglue-0.9/README
 * /usr/share/doc/libgssglue-0.9/README.md
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libmpdclient']"
 +++
 A command line tool to interface MPD.
 
-{{< files text="show files" >}}* /usr/bin/mpc
+## Files: 
+* /usr/bin/mpc
 * /usr/share/doc/mpc-0.34/AUTHORS
 * /usr/share/doc/mpc-0.34/COPYING
 * /usr/share/doc/mpc-0.34/NEWS
@@ -27,4 +28,3 @@ A command line tool to interface MPD.
 * /usr/share/doc/mpc/COPYING
 * /usr/share/doc/mpc/NEWS
 * /usr/share/doc/mpc/README.rst
-{{< /files >}}

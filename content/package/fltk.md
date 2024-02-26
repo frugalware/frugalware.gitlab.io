@@ -16,7 +16,8 @@ reverse_depends = "['htmldoc', 'octave']"
 +++
 FLTK is a cross-platform C++ GUI toolkit for X
 
-{{< files text="show files" >}}* /usr/bin/fltk-config
+## Files: 
+* /usr/bin/fltk-config
 * /usr/bin/fluid
 * /usr/include/FL/abi-version.h
 * /usr/include/FL/dirent.h
@@ -350,4 +351,3 @@ FLTK is a cross-platform C++ GUI toolkit for X
 * /usr/share/man/man1/fltk-config.1.gz
 * /usr/share/man/man1/fluid.1.gz
 * /usr/share/man/man3/fltk.3.gz
-{{< /files >}}

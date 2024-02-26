@@ -15,7 +15,8 @@ depends = "['ppp>=2.5.0']"
 +++
 Poptop is the PPTP server solution for Linux.
 
-{{< files text="show files" >}}* /etc/ppp/options.pptpd
+## Files: 
+* /etc/ppp/options.pptpd
 * /etc/pptpd.conf
 * /usr/bin/bcrelay
 * /usr/bin/pptpctrl
@@ -39,4 +40,3 @@ Poptop is the PPTP server solution for Linux.
 * /usr/share/man/man8/bcrelay.8.gz
 * /usr/share/man/man8/pptpctrl.8.gz
 * /usr/share/man/man8/pptpd.8.gz
-{{< /files >}}

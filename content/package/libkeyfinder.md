@@ -16,7 +16,8 @@ reverse_depends = "['mixxx']"
 +++
 Musical key detection for digital audio
 
-{{< files text="show files" >}}* /usr/include/keyfinder/audiodata.h
+## Files: 
+* /usr/include/keyfinder/audiodata.h
 * /usr/include/keyfinder/binode.h
 * /usr/include/keyfinder/chromagram.h
 * /usr/include/keyfinder/chromatransform.h
@@ -44,4 +45,3 @@ Musical key detection for digital audio
 * /usr/lib/pkgconfig/libkeyfinder.pc
 * /usr/share/doc/libkeyfinder-2.2.8/LICENSE
 * /usr/share/doc/libkeyfinder-2.2.8/README.md
-{{< /files >}}

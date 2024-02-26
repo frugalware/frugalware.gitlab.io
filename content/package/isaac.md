@@ -15,8 +15,8 @@ depends = "['ruby>=2.5.0']"
 +++
 A smallish DSL for writing IRC bots.
 
-{{< files text="show files" >}}* /usr/lib/ruby/2.5.0/isaac.rb
+## Files: 
+* /usr/lib/ruby/2.5.0/isaac.rb
 * /usr/lib/ruby/2.5.0/isaac/bot.rb
 * /usr/share/doc/isaac-0.2.6/CHANGES
 * /usr/share/doc/isaac-0.2.6/README.rdoc
-{{< /files >}}

@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org driver for wacom input devices
 
-{{< files text="show files" >}}* /usr/bin/isdv4-serial-debugger
+## Files: 
+* /usr/bin/isdv4-serial-debugger
 * /usr/bin/isdv4-serial-inputattach
 * /usr/bin/xsetwacom
 * /usr/include/xorg/isdv4.h
@@ -34,4 +35,3 @@ X.Org driver for wacom input devices
 * /usr/share/man/man1/xsetwacom.1.gz
 * /usr/share/man/man4/wacom.4.gz
 * /usr/share/X11/xorg.conf.d/70-wacom.conf
-{{< /files >}}

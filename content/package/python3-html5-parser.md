@@ -16,7 +16,8 @@ reverse_depends = "['python3-mechanize']"
 +++
 Fast C based HTML 5 parsing for python
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/html5_parser-0.4.12-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/html5_parser-0.4.12-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/html5_parser-0.4.12-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/html5_parser-0.4.12-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/html5_parser-0.4.12-py3.12.egg-info/SOURCES.txt
@@ -36,4 +37,3 @@ Fast C based HTML 5 parsing for python
 * /usr/lib/python3.12/site-packages/html5_parser/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-html5-parser-0.4.12/LICENSE
 * /usr/share/doc/python3-html5-parser-0.4.12/README.rst
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['conky', 'crawl', 'crawl-tiles', 'darktable', 'eiskaltdc', '
 +++
 A powerful light-weight programming language designed for extending applications.
 
-{{< files text="show files" >}}* /usr/bin/lua
+## Files: 
+* /usr/bin/lua
 * /usr/bin/luac
 * /usr/include/lauxlib.h
 * /usr/include/lua.h
@@ -33,4 +34,3 @@ A powerful light-weight programming language designed for extending applications
 * /usr/share/doc/lua-5.4.6/README
 * /usr/share/man/man1/lua.1.gz
 * /usr/share/man/man1/luac.1.gz
-{{< /files >}}

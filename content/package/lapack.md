@@ -16,7 +16,8 @@ reverse_depends = "['coin-or-coinutils', 'dlib', 'julia', 'liblapacke', 'liblapa
 +++
 Linear Algebra PACKage.
 
-{{< files text="show files" >}}* /usr/include/cblas.h
+## Files: 
+* /usr/include/cblas.h
 * /usr/include/cblas_64.h
 * /usr/include/cblas_f77.h
 * /usr/include/cblas_mangling.h
@@ -38,4 +39,3 @@ Linear Algebra PACKage.
 * /usr/lib/pkgconfig/lapack.pc
 * /usr/share/doc/lapack-3.12.0/LICENSE
 * /usr/share/doc/lapack-3.12.0/README.md
-{{< /files >}}

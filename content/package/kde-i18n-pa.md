@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Punjabi Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/locale/pa/charset
+## Files: 
+* usr/share/locale/pa/charset
 * usr/share/locale/pa/entry.desktop
 * usr/share/locale/pa/LC_MESSAGES/akregator_konqplugin.mo
 * usr/share/locale/pa/LC_MESSAGES/alsaplayerui.mo
@@ -539,4 +540,3 @@ Punjabi Localization for KDE.
 * usr/share/locale/pa/LC_MESSAGES/wakeup.mo
 * usr/share/locale/pa/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/pa/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 The streaming build system
 
-{{< files text="show files" >}}* /usr/bin/gulp
+## Files: 
+* /usr/bin/gulp
 * /usr/lib/node_modules/gulp/.ci/.azure-pipelines-steps.yml
 * /usr/lib/node_modules/gulp/.ci/.azure-pipelines.yml
 * /usr/lib/node_modules/gulp/.editorconfig
@@ -2945,4 +2946,3 @@ The streaming build system
 * /usr/lib/node_modules/root/tests/test-urls.js
 * /usr/share/doc/gulp-4.0.2/LICENSE
 * /usr/share/doc/gulp-4.0.2/README.md
-{{< /files >}}

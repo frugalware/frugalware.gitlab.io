@@ -16,7 +16,8 @@ reverse_depends = "['rsyslog-gssapi', 'rsyslog-mysql', 'rsyslog-pgsql', 'rsyslog
 +++
 Enhanced system logging and kernel message trapping daemon
 
-{{< files text="show files" >}}* /etc/logrotate.d/rsyslog
+## Files: 
+* /etc/logrotate.d/rsyslog
 * /etc/rsyslog.conf
 * /usr/bin/rsyslogd
 * /usr/lib/rsyslog/fmhash.so
@@ -53,4 +54,3 @@ Enhanced system logging and kernel message trapping daemon
 * /usr/share/doc/rsyslog-8.2312.0/README.md
 * /usr/share/man/man5/rsyslog.conf.5.gz
 * /usr/share/man/man8/rsyslogd.8.gz
-{{< /files >}}

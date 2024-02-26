@@ -15,9 +15,9 @@ depends = "['libgcc']"
 +++
 Cat clone with syntax highlighting and git integration
 
-{{< files text="show files" >}}* /usr/bin/bat
+## Files: 
+* /usr/bin/bat
 * /usr/share/doc/bat-0.24.0/README.md
 * /usr/share/fish/vendor_completions.d/bat.fish
 * /usr/share/man/man1/bat.1.gz
 * /usr/share/zsh/site-functions/_bat
-{{< /files >}}

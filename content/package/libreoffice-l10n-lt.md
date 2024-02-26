@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Lithuanian support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/lt/default.css
+## Files: 
+* /usr/lib/libreoffice/help/lt/default.css
 * /usr/lib/libreoffice/help/lt/err.html
 * /usr/lib/libreoffice/help/lt/highcontrast1.css
 * /usr/lib/libreoffice/help/lt/highcontrast2.css
@@ -133,4 +134,3 @@ Installs Lithuanian support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-lt.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_lt.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_lt.xcd
-{{< /files >}}

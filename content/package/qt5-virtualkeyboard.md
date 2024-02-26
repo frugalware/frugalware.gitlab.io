@@ -16,7 +16,8 @@ reverse_depends = "['aura-browser', 'kwin5', 'plasma-bigscreen']"
 +++
 The Qt5 toolkit, qtvirtualkeyboard
 
-{{< files text="show files" >}}* /usr/include/qt5/QtHunspellInputMethod/5.15.12/QtHunspellInputMethod/private/hunspellinputmethod_p.h
+## Files: 
+* /usr/include/qt5/QtHunspellInputMethod/5.15.12/QtHunspellInputMethod/private/hunspellinputmethod_p.h
 * /usr/include/qt5/QtHunspellInputMethod/5.15.12/QtHunspellInputMethod/private/hunspellinputmethod_p_p.h
 * /usr/include/qt5/QtHunspellInputMethod/5.15.12/QtHunspellInputMethod/private/hunspellworker_p.h
 * /usr/include/qt5/QtHunspellInputMethod/qhunspellinputmethod_global.h
@@ -105,4 +106,3 @@ The Qt5 toolkit, qtvirtualkeyboard
 * /usr/share/qt5/qml/QtQuick/VirtualKeyboard/Styles/libqtquickvirtualkeyboardstylesplugin.so
 * /usr/share/qt5/qml/QtQuick/VirtualKeyboard/Styles/plugins.qmltypes
 * /usr/share/qt5/qml/QtQuick/VirtualKeyboard/Styles/qmldir
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['glibc>=2.35']"
 +++
 Gives a fake root environment
 
-{{< files text="show files" >}}* /usr/bin/faked
+## Files: 
+* /usr/bin/faked
 * /usr/bin/fakeroot
 * /usr/i686-frugalware-linux/bin/faked
 * /usr/i686-frugalware-linux/bin/fakeroot
@@ -45,4 +46,3 @@ Gives a fake root environment
 * /usr/share/man/ro/man1/fakeroot.1.gz
 * /usr/share/man/sv/man1/faked.1.gz
 * /usr/share/man/sv/man1/fakeroot.1.gz
-{{< /files >}}

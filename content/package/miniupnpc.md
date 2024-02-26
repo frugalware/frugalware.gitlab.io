@@ -16,7 +16,8 @@ reverse_depends = "['dante', 'eiskaltdc', 'transmission-cli', 'warzone2100']"
 +++
 A small UPnP client library/tool to access Internet Gateway Devices
 
-{{< files text="show files" >}}* /usr/bin/external-ip
+## Files: 
+* /usr/bin/external-ip
 * /usr/bin/upnpc
 * /usr/include/miniupnpc/igd_desc_parse.h
 * /usr/include/miniupnpc/miniupnpc.h
@@ -37,4 +38,3 @@ A small UPnP client library/tool to access Internet Gateway Devices
 * /usr/share/doc/miniupnpc-2.1/VERSION
 * /usr/share/man/man3/miniupnpc.3
 * /usr/share/man/man3/miniupnpc.3.gz
-{{< /files >}}

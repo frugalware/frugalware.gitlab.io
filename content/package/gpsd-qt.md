@@ -15,9 +15,9 @@ depends = "['gpsd', 'qt5-base']"
 +++
 GPSD Qt5 bindings
 
-{{< files text="show files" >}}* /usr/lib/libQgpsmm.prl
+## Files: 
+* /usr/lib/libQgpsmm.prl
 * /usr/lib/libQgpsmm.so
 * /usr/lib/libQgpsmm.so.30
 * /usr/lib/libQgpsmm.so.30.0.0
 * /usr/lib/pkgconfig/Qgpsmm.pc
-{{< /files >}}

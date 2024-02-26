@@ -16,7 +16,8 @@ reverse_depends = "['castersoundboard', 'gst1-plugins-good-aalib', 'gst1-plugins
 +++
 Plugins for GStreamer (Good)
 
-{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstadaptivedemux2.so
+## Files: 
+* /usr/lib/gstreamer-1.0/libgstadaptivedemux2.so
 * /usr/lib/gstreamer-1.0/libgstalaw.so
 * /usr/lib/gstreamer-1.0/libgstalpha.so
 * /usr/lib/gstreamer-1.0/libgstalphacolor.so
@@ -121,4 +122,3 @@ Plugins for GStreamer (Good)
 * /usr/share/locale/zh_CN/LC_MESSAGES/gst-plugins-good-1.0.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/gst-plugins-good-1.0.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/gst-plugins-good-1.0.mo
-{{< /files >}}

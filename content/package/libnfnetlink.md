@@ -16,7 +16,8 @@ reverse_depends = "['libnetfilter_conntrack', 'libnetfilter_cthelper', 'libnetfi
 +++
 A low-level library for netfilter related kernel/userspace communication
 
-{{< files text="show files" >}}* /usr/include/libnfnetlink/libnfnetlink.h
+## Files: 
+* /usr/include/libnfnetlink/libnfnetlink.h
 * /usr/include/libnfnetlink/linux_nfnetlink.h
 * /usr/include/libnfnetlink/linux_nfnetlink_compat.h
 * /usr/lib/libnfnetlink.so
@@ -25,4 +26,3 @@ A low-level library for netfilter related kernel/userspace communication
 * /usr/lib/pkgconfig/libnfnetlink.pc
 * /usr/share/doc/libnfnetlink-1.0.2/COPYING
 * /usr/share/doc/libnfnetlink-1.0.2/README
-{{< /files >}}

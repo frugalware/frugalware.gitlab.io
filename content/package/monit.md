@@ -15,11 +15,11 @@ depends = "['openssl>=3.1.0', 'pam']"
 +++
 monit is a utility for managing and monitoring, processes, files, directories and devices on a UNIX system
 
-{{< files text="show files" >}}* /usr/bin/monit
+## Files: 
+* /usr/bin/monit
 * /usr/lib/systemd/system/monit.service
 * /usr/share/doc/monit-5.33.0/CHANGES
 * /usr/share/doc/monit-5.33.0/CONTRIBUTORS
 * /usr/share/doc/monit-5.33.0/COPYING
 * /usr/share/doc/monit-5.33.0/README.Frugalware
 * /usr/share/man/man1/monit.1.gz
-{{< /files >}}

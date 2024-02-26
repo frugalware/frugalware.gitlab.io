@@ -15,7 +15,8 @@ depends = "['lua>=5.4', 'openssl>=3.1.0', 'pcre>=8.30']"
 +++
 A non-graphical lua-based remote imap filter
 
-{{< files text="show files" >}}* /usr/bin/imapfilter
+## Files: 
+* /usr/bin/imapfilter
 * /usr/share/doc/imapfilter-2.7.5/AUTHORS
 * /usr/share/doc/imapfilter-2.7.5/LICENSE
 * /usr/share/doc/imapfilter-2.7.5/NEWS
@@ -30,4 +31,3 @@ A non-graphical lua-based remote imap filter
 * /usr/share/imapfilter/set.lua
 * /usr/share/man/man1/imapfilter.1.gz
 * /usr/share/man/man5/imapfilter_config.5.gz
-{{< /files >}}

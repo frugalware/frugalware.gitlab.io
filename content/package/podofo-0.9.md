@@ -16,7 +16,8 @@ reverse_depends = "['scribus']"
 +++
 PoDoFo is a library to work with the PDF file format.
 
-{{< files text="show files" >}}* /usr/include/podofo-0.9/podofo/base/Pdf3rdPtyForwardDecl.h
+## Files: 
+* /usr/include/podofo-0.9/podofo/base/Pdf3rdPtyForwardDecl.h
 * /usr/include/podofo-0.9/podofo/base/PdfArray.h
 * /usr/include/podofo-0.9/podofo/base/PdfCanvas.h
 * /usr/include/podofo-0.9/podofo/base/PdfColor.h
@@ -136,4 +137,3 @@ PoDoFo is a library to work with the PDF file format.
 * /usr/share/doc/podofo-0.9-0.9.8/INSTALL
 * /usr/share/doc/podofo-0.9-0.9.8/README.html
 * /usr/share/doc/podofo-0.9-0.9.8/TODO
-{{< /files >}}

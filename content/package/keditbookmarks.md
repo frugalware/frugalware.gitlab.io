@@ -15,7 +15,8 @@ depends = "['kparts>=5.115.0']"
 +++
 KDE's bookmarks editor
 
-{{< files text="show files" >}}* /usr/bin/kbookmarkmerger
+## Files: 
+* /usr/bin/kbookmarkmerger
 * /usr/bin/keditbookmarks
 * /usr/lib/libkbookmarkmodel_private.so
 * /usr/lib/libkbookmarkmodel_private.so.5.97.0
@@ -158,4 +159,3 @@ KDE's bookmarks editor
 * /usr/share/man/uk/man1/kbookmarkmerger.1.gz
 * /usr/share/man/zh_CN/man1/kbookmarkmerger.1.gz
 * /usr/share/qlogging-categories5/keditbookmarks.categories
-{{< /files >}}

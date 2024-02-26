@@ -15,6 +15,6 @@ depends = "['libproxy>=0.5.4', 'vala>=0.30.0-3']"
 +++
 libproxy vala support
 
-{{< files text="show files" >}}* /usr/share/vala/vapi/libproxy-1.0.deps
+## Files: 
+* /usr/share/vala/vapi/libproxy-1.0.deps
 * /usr/share/vala/vapi/libproxy-1.0.vapi
-{{< /files >}}

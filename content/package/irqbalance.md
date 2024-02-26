@@ -15,7 +15,8 @@ depends = "['glib2>=2.60.3', 'libsystemd>=231-7']"
 +++
 Distributes interrupts over the processors and cores you have.
 
-{{< files text="show files" >}}* /etc/sysconfig/irqbalance
+## Files: 
+* /etc/sysconfig/irqbalance
 * /usr/bin/irqbalance
 * /usr/bin/irqbalance-ui
 * /usr/lib/systemd/system/irqbalance.service
@@ -24,4 +25,3 @@ Distributes interrupts over the processors and cores you have.
 * /usr/share/doc/irqbalance-1.9.3/README.md
 * /usr/share/man/man1/irqbalance-ui.1.gz
 * /usr/share/man/man1/irqbalance.1.gz
-{{< /files >}}

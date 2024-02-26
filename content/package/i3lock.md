@@ -16,10 +16,10 @@ reverse_depends = "['i3']"
 +++
 An improved screenlocker for i3wm
 
-{{< files text="show files" >}}* /etc/pam.d/i3lock
+## Files: 
+* /etc/pam.d/i3lock
 * /usr/bin/i3lock
 * /usr/share/doc/i3lock-2.14.1/CHANGELOG
 * /usr/share/doc/i3lock-2.14.1/LICENSE
 * /usr/share/doc/i3lock-2.14.1/README.md
 * /usr/share/man/man1/i3lock.1.gz
-{{< /files >}}

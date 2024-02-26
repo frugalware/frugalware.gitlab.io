@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Gujarati support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/gu/default.css
+## Files: 
+* /usr/lib/libreoffice/help/gu/default.css
 * /usr/lib/libreoffice/help/gu/err.html
 * /usr/lib/libreoffice/help/gu/highcontrast1.css
 * /usr/lib/libreoffice/help/gu/highcontrast2.css
@@ -134,4 +135,3 @@ Installs Gujarati support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-gu.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_gu.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_gu.xcd
-{{< /files >}}

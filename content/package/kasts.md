@@ -15,7 +15,8 @@ depends = "['kirigami-addons', 'libvlc', 'networkmanager-qt', 'qt5-quickcontrols
 +++
 Kirigami-based podcast player
 
-{{< files text="show files" >}}* /usr/bin/kasts
+## Files: 
+* /usr/bin/kasts
 * /usr/lib/libKastsSolidExtras.so
 * /usr/lib/libKMediaSession.so
 * /usr/share/applications/org.kde.kasts.desktop
@@ -57,4 +58,3 @@ Kirigami-based podcast player
 * /usr/share/qt5/qml/org/kde/kasts/solidextras/qmldir
 * /usr/share/qt5/qml/org/kde/kmediasession/libkmediasession-qmlplugin.so
 * /usr/share/qt5/qml/org/kde/kmediasession/qmldir
-{{< /files >}}

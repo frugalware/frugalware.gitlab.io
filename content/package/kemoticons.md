@@ -16,7 +16,8 @@ reverse_depends = "['kdelibs4support', 'konversation', 'kopete', 'kpimtextedit',
 +++
 Convert text emoticons to graphical emoticons.
 
-{{< files text="show files" >}}* /usr/include/KF5/KEmoticons/KEmoticons
+## Files: 
+* /usr/include/KF5/KEmoticons/KEmoticons
 * /usr/include/KF5/KEmoticons/kemoticons.h
 * /usr/include/KF5/KEmoticons/KEmoticonsProvider
 * /usr/include/KF5/KEmoticons/kemoticonsprovider.h
@@ -1736,4 +1737,3 @@ Convert text emoticons to graphical emoticons.
 * /usr/share/qlogging-categories5/kemoticons.categories
 * /usr/share/qlogging-categories5/kemoticons.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KEmoticons.pri
-{{< /files >}}

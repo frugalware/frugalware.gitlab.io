@@ -16,7 +16,8 @@ reverse_depends = "['augeas', 'bash', 'bc', 'bind', 'bluez', 'chrony', 'clisp', 
 +++
 GNU readline library
 
-{{< files text="show files" >}}* /etc/inputrc
+## Files: 
+* /etc/inputrc
 * /etc/profile.d/readline.sh
 * /usr/include/readline/chardefs.h
 * /usr/include/readline/history.h
@@ -46,4 +47,3 @@ GNU readline library
 * /usr/share/info/rluserman.info.gz
 * /usr/share/man/man3/history.3.gz
 * /usr/share/man/man3/readline.3.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Armenian support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/hy/LC_MESSAGES/acc.mo
+## Files: 
+* /usr/lib/libreoffice/program/resource/hy/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/hy/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/hy/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/hy/LC_MESSAGES/chart.mo
@@ -52,4 +53,3 @@ Installs Armenian support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-hy.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_hy.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_hy.xcd
-{{< /files >}}

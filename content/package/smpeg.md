@@ -16,7 +16,8 @@ reverse_depends = "['sdl_mixer']"
 +++
 SDL MPEG Player Library is a general purpose MPEG video/audio player
 
-{{< files text="show files" >}}* /usr/bin/plaympeg
+## Files: 
+* /usr/bin/plaympeg
 * /usr/bin/smpeg-config
 * /usr/include/smpeg/MPEG.h
 * /usr/include/smpeg/MPEGaction.h
@@ -40,4 +41,3 @@ SDL MPEG Player Library is a general purpose MPEG video/audio player
 * /usr/share/doc/smpeg-0.4.5/README.SDL_mixer
 * /usr/share/doc/smpeg-0.4.5/TODO
 * /usr/share/man/man1/plaympeg.1.gz
-{{< /files >}}

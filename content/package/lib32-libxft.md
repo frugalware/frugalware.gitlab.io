@@ -16,10 +16,10 @@ reverse_depends = "['lib32-pango']"
 +++
 X FreeType library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/Xft/Xft.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/Xft/Xft.h
 * /usr/i686-frugalware-linux/include/X11/Xft/XftCompat.h
 * /usr/lib32/libXft.so
 * /usr/lib32/libXft.so.2
 * /usr/lib32/libXft.so.2.3.8
 * /usr/lib32/pkgconfig/xft.pc
-{{< /files >}}

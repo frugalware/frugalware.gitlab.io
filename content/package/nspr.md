@@ -17,7 +17,8 @@ license = "GPL"
 +++
 NSPR library from mozilla.org
 
-{{< files text="show files" >}}* /usr/bin/nspr-config
+## Files: 
+* /usr/bin/nspr-config
 * /usr/bin/prerr.properties
 * /usr/include/nspr
 * /usr/include/nspr4/nspr.h
@@ -79,4 +80,3 @@ NSPR library from mozilla.org
 * /usr/lib/libplc4.so
 * /usr/lib/libplds4.so
 * /usr/lib/pkgconfig/nspr.pc
-{{< /files >}}

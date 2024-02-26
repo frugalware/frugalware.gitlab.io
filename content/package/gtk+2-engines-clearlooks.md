@@ -15,7 +15,8 @@ depends = "['gtk+2']"
 +++
 Clearlooks GTK+2 engine
 
-{{< files text="show files" >}}* usr/lib/gtk-2.0/2.4.0/engines/libclearlooks.la
+## Files: 
+* usr/lib/gtk-2.0/2.4.0/engines/libclearlooks.la
 * usr/lib/gtk-2.0/2.4.0/engines/libclearlooks.so
 * usr/share/doc/gtk+2-engines-clearlooks-0.6.2/AUTHORS
 * usr/share/doc/gtk+2-engines-clearlooks-0.6.2/ChangeLog
@@ -62,4 +63,3 @@ Clearlooks GTK+2 engine
 * usr/share/themes/Clearlooks-Quicksilver/gtk-2.0/gtkrc
 * usr/share/themes/Clearlooks/gtk-2.0/gtkrc
 * usr/share/themes/Clearlooks/index.theme
-{{< /files >}}

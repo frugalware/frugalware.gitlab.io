@@ -16,9 +16,9 @@ reverse_depends = "['nm-vpnc']"
 +++
 network management framework (VPNC plugin) without GNOME
 
-{{< files text="show files" >}}* /usr/lib/NetworkManager/VPN/nm-vpnc-service.name
+## Files: 
+* /usr/lib/NetworkManager/VPN/nm-vpnc-service.name
 * /usr/lib/nm-vpnc/nm-vpnc-service
 * /usr/lib/nm-vpnc/nm-vpnc-service-vpnc-helper
 * /usr/share/dbus-1/system.d/nm-vpnc-service.conf
 * /usr/share/metainfo/network-manager-vpnc.metainfo.xml
-{{< /files >}}

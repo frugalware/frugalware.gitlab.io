@@ -16,7 +16,8 @@ reverse_depends = "['lib32-nss']"
 +++
 NSPR library from mozilla.org ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/nspr-config
+## Files: 
+* /usr/i686-frugalware-linux/bin/nspr-config
 * /usr/i686-frugalware-linux/bin/prerr.properties
 * /usr/i686-frugalware-linux/include/nspr
 * /usr/i686-frugalware-linux/include/nspr4/md/_aix32.cfg
@@ -98,4 +99,3 @@ NSPR library from mozilla.org ( 32bit )
 * /usr/lib32/libplc4.so
 * /usr/lib32/libplds4.so
 * /usr/lib32/pkgconfig/nspr.pc
-{{< /files >}}

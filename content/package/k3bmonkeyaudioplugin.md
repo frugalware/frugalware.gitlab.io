@@ -15,7 +15,8 @@ depends = "[]"
 +++
 K3b Monkey's Audio plugin
 
-{{< files text="show files" >}}* usr/lib/kde3/libk3bmonkeydecoder.la
+## Files: 
+* usr/lib/kde3/libk3bmonkeydecoder.la
 * usr/lib/kde3/libk3bmonkeydecoder.so
 * usr/lib/kde3/libk3bmonkeydecoder.so.0
 * usr/lib/kde3/libk3bmonkeydecoder.so.0.0.0
@@ -33,4 +34,3 @@ K3b Monkey's Audio plugin
 * usr/share/doc/k3bmonkeyaudioplugin-3.1/README
 * usr/share/doc/k3bmonkeyaudioplugin-3.1/TODO
 * usr/share/locale/de/LC_MESSAGES/k3bmonkeyplugin.mo
-{{< /files >}}

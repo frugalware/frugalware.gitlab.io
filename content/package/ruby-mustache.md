@@ -16,7 +16,8 @@ reverse_depends = "['ruby-ronn']"
 +++
 Mustache is a framework-agnostic way to render logic-free views.
 
-{{< files text="show files" >}}* /usr/bin/mustache
+## Files: 
+* /usr/bin/mustache
 * /usr/lib/ruby/gems/3.3.0/cache/mustache-1.1.1.gem
 * /usr/lib/ruby/gems/3.3.0/doc/mustache-1.1.1/ri/cache.ri
 * /usr/lib/ruby/gems/3.3.0/doc/mustache-1.1.1/ri/Mustache/%5b%5d%3d-i.ri
@@ -229,4 +230,3 @@ Mustache is a framework-agnostic way to render logic-free views.
 * /usr/lib/ruby/gems/3.3.0/gems/mustache-1.1.1/test/spec_test.rb
 * /usr/lib/ruby/gems/3.3.0/gems/mustache-1.1.1/test/template_test.rb
 * /usr/lib/ruby/gems/3.3.0/specifications/mustache-1.1.1.gemspec
-{{< /files >}}

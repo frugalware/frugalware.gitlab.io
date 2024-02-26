@@ -16,7 +16,8 @@ reverse_depends = "['kpty']"
 +++
 Interface for terminal emulators such as screen and xterm to record user sessions to utmp and wtmp files
 
-{{< files text="show files" >}}* /usr/include/utempter.h
+## Files: 
+* /usr/include/utempter.h
 * /usr/lib/libutempter.so
 * /usr/lib/libutempter.so.0
 * /usr/lib/libutempter.so.1.2.1
@@ -29,4 +30,3 @@ Interface for terminal emulators such as screen and xterm to record user session
 * /usr/share/man/man3/utempter_remove_added_record.3.gz
 * /usr/share/man/man3/utempter_remove_record.3.gz
 * /usr/share/man/man3/utempter_set_helper.3.gz
-{{< /files >}}

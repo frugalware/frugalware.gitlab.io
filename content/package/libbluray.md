@@ -16,7 +16,8 @@ reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gvfs', 'mencoder', 'mplayer', 'mpv',
 +++
 Blu-Ray access library
 
-{{< files text="show files" >}}* /usr/bin/bd_info
+## Files: 
+* /usr/bin/bd_info
 * /usr/bin/bd_list_titles
 * /usr/bin/bd_splice
 * /usr/include/libbluray/bluray-version.h
@@ -35,4 +36,3 @@ Blu-Ray access library
 * /usr/share/doc/libbluray-1.3.4/ChangeLog
 * /usr/share/doc/libbluray-1.3.4/COPYING
 * /usr/share/doc/libbluray-1.3.4/README.md
-{{< /files >}}

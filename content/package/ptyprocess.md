@@ -16,7 +16,8 @@ reverse_depends = "['pexpect']"
 +++
 Launch a subprocess in a pseudo terminal (pty), and interact with both the process and its pty.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/ptyprocess-0.7.0-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/ptyprocess-0.7.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/ptyprocess-0.7.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/ptyprocess-0.7.0-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/ptyprocess-0.7.0-py3.12.egg-info/top_level.txt
@@ -30,4 +31,3 @@ Launch a subprocess in a pseudo terminal (pty), and interact with both the proce
 * /usr/lib/python3.12/site-packages/ptyprocess/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/ptyprocess-0.7.0/LICENSE
 * /usr/share/doc/ptyprocess-0.7.0/README.rst
-{{< /files >}}

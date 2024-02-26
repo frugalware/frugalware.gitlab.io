@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 A small collection of programs that operate on patch files.
 
-{{< files text="show files" >}}* /usr/bin/combinediff
+## Files: 
+* /usr/bin/combinediff
 * /usr/bin/dehtmldiff
 * /usr/bin/editdiff
 * /usr/bin/espdiff
@@ -44,4 +45,3 @@ A small collection of programs that operate on patch files.
 * /usr/share/doc/patchutils-0.4.2/README
 * /usr/share/doc/patchutils-0.4.2/README.md
 * /usr/share/doc/patchutils-0.4.2/TODO
-{{< /files >}}

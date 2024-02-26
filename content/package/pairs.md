@@ -15,7 +15,8 @@ depends = "['kdelibs4support>=5.71.0', 'knewstuff>=5.71.0']"
 +++
 A memory and pairs game.
 
-{{< files text="show files" >}}* /etc/xdg/pairs.knsrc
+## Files: 
+* /etc/xdg/pairs.knsrc
 * /usr/bin/pairs
 * /usr/bin/pairseditor
 * /usr/share/appdata/pairs.appdata.xml
@@ -88,4 +89,3 @@ A memory and pairs game.
 * /usr/share/pairs/themes/right.ogg
 * /usr/share/pairs/themes/wrong.ogg
 * /usr/share/pairseditor/pairseditorui.rc
-{{< /files >}}

@@ -15,9 +15,9 @@ depends = "['glibc']"
 +++
 userspace device driver that allows joystick events to be remapped.
 
-{{< files text="show files" >}}* /usr/bin/loadmap
+## Files: 
+* /usr/bin/loadmap
 * /usr/bin/reserve_js
 * /usr/share/doc/linuxjoymap-0.4.2/COPYING
 * /usr/share/doc/linuxjoymap-0.4.2/README
 * /usr/share/man/man1/loadmap.1.gz
-{{< /files >}}

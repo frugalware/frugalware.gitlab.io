@@ -16,7 +16,8 @@ reverse_depends = "['dunst']"
 +++
 Library that assists with XDG specification.
 
-{{< files text="show files" >}}* /usr/include/basedir.h
+## Files: 
+* /usr/include/basedir.h
 * /usr/include/basedir_fs.h
 * /usr/lib/libxdg-basedir.so
 * /usr/lib/libxdg-basedir.so.1
@@ -24,4 +25,3 @@ Library that assists with XDG specification.
 * /usr/lib/pkgconfig/libxdg-basedir.pc
 * /usr/share/doc/libxdg-basedir-1.2.3/COPYING
 * /usr/share/doc/libxdg-basedir-1.2.3/README.md
-{{< /files >}}

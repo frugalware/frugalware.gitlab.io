@@ -16,7 +16,8 @@ reverse_depends = "['lib32-libdc1394']"
 +++
 Provides an API to the Linux IEEE1394 (FireWire) driver ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/dumpiso
+## Files: 
+* /usr/i686-frugalware-linux/bin/dumpiso
 * /usr/i686-frugalware-linux/bin/sendiso
 * /usr/i686-frugalware-linux/bin/testlibraw
 * /usr/i686-frugalware-linux/include/libraw1394/csr.h
@@ -26,4 +27,3 @@ Provides an API to the Linux IEEE1394 (FireWire) driver ( 32bit )
 * /usr/lib32/libraw1394.so.11
 * /usr/lib32/libraw1394.so.11.1.0
 * /usr/lib32/pkgconfig/libraw1394.pc
-{{< /files >}}

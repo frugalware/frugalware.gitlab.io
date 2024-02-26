@@ -16,4 +16,4 @@ reverse_depends = "['steam-native']"
 +++
 Steam is an internet-based digital distribution, digital rights management, multiplayer, and social networking platform developed by Valve Corporation.
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

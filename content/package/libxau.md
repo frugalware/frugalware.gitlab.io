@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.Org Xau library
 
-{{< files text="show files" >}}* /usr/include/X11/Xauth.h
+## Files: 
+* /usr/include/X11/Xauth.h
 * /usr/lib/libXau.so
 * /usr/lib/libXau.so.6
 * /usr/lib/libXau.so.6.0.0
@@ -36,4 +37,3 @@ X.Org Xau library
 * /usr/share/man/man3/XauReadAuth.3.gz
 * /usr/share/man/man3/XauUnlockAuth.3.gz
 * /usr/share/man/man3/XauWriteAuth.3.gz
-{{< /files >}}

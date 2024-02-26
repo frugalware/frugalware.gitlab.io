@@ -16,9 +16,9 @@ reverse_depends = "['mesademos', 'wine', 'wine-devel']"
 +++
 Mesa Off-screen Rendering
 
-{{< files text="show files" >}}* /usr/include/GL/osmesa.h
+## Files: 
+* /usr/include/GL/osmesa.h
 * /usr/lib/libOSMesa.so
 * /usr/lib/libOSMesa.so.8
 * /usr/lib/libOSMesa.so.8.0.0
 * /usr/lib/pkgconfig/osmesa.pc
-{{< /files >}}

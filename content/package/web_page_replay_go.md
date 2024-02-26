@@ -15,8 +15,8 @@ depends = "['glibc']"
 +++
 Performance testing tool written in Golang for recording and replaying web pages
 
-{{< files text="show files" >}}* /usr/bin/httparchive
+## Files: 
+* /usr/bin/httparchive
 * /usr/bin/wpr
 * /usr/share/doc/web_page_replay_go-20221028/LICENSE
 * /usr/share/doc/web_page_replay_go-20221028/README.md
-{{< /files >}}

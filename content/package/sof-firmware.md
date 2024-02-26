@@ -15,7 +15,8 @@ depends = "['glibc>=2.35']"
 +++
 Sound Open Firmware
 
-{{< files text="show files" >}}* /usr/bin/mtrace-reader.py
+## Files: 
+* /usr/bin/mtrace-reader.py
 * /usr/bin/sof-ctl
 * /usr/bin/sof-logger
 * /usr/bin/sof-probes
@@ -395,4 +396,3 @@ Sound Open Firmware
 * /usr/lib/firmware/intel/sof/sof-tgl.ri
 * /usr/share/doc/sof-firmware-2023.12/README.Intel
 * /usr/share/doc/sof-firmware-2023.12/README.md
-{{< /files >}}

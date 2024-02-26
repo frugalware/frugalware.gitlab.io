@@ -15,7 +15,8 @@ depends = "['avahi', 'bluez', 'dbus-glib', 'libxtst']"
 +++
 Allows controlling your computer with your phone
 
-{{< files text="show files" >}}* /usr/bin/anyremote
+## Files: 
+* /usr/bin/anyremote
 * /usr/share/anyremote/cfg-data/AT-mode/all-in-one.cfg
 * /usr/share/anyremote/cfg-data/AT-mode/amarok.cfg
 * /usr/share/anyremote/cfg-data/AT-mode/amixer.cfg
@@ -604,4 +605,3 @@ Allows controlling your computer with your phone
 * /usr/share/doc/anyremote-6.7.3/README
 * /usr/share/doc/anyremote-6.7.3/TODO
 * /usr/share/man/man1/anyremote.1.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['fetchmailconf']"
 +++
 A remote-mail retrieval and forwarding utility.
 
-{{< files text="show files" >}}* /usr/bin/fetchmail
+## Files: 
+* /usr/bin/fetchmail
 * /usr/share/doc/fetchmail-6.4.38/AUTHORS
 * /usr/share/doc/fetchmail-6.4.38/COPYING
 * /usr/share/doc/fetchmail-6.4.38/COPYING.DOC
@@ -49,4 +50,3 @@ A remote-mail retrieval and forwarding utility.
 * /usr/share/locale/sv/LC_MESSAGES/fetchmail.mo
 * /usr/share/locale/vi/LC_MESSAGES/fetchmail.mo
 * /usr/share/man/man1/fetchmail.1.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Firmwares for ALSA.
 
-{{< files text="show files" >}}* /usr/lib/firmware/aica_firmware.bin
+## Files: 
+* /usr/lib/firmware/aica_firmware.bin
 * /usr/lib/firmware/asihpi/dsp5000.bin
 * /usr/lib/firmware/asihpi/dsp6200.bin
 * /usr/lib/firmware/asihpi/dsp6205.bin
@@ -183,4 +184,3 @@ Firmwares for ALSA.
 * /usr/share/alsa/firmware/vxloader/x1_2_v22.rbt
 * /usr/share/doc/alsa-firmware-1.2.4/COPYING
 * /usr/share/doc/alsa-firmware-1.2.4/README
-{{< /files >}}

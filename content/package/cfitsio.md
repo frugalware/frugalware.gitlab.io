@@ -16,7 +16,8 @@ reverse_depends = "['gwenview', 'kst', 'kstars', 'labplot', 'libvips', 'nufraw',
 +++
 C and Fortran library for manipulating FITS files
 
-{{< files text="show files" >}}* /usr/include/drvrsmem.h
+## Files: 
+* /usr/include/drvrsmem.h
 * /usr/include/fitsio.h
 * /usr/include/fitsio2.h
 * /usr/include/longnam.h
@@ -28,4 +29,3 @@ C and Fortran library for manipulating FITS files
 * /usr/share/doc/cfitsio-4.3.1/README.MacOS
 * /usr/share/doc/cfitsio-4.3.1/README.win
 * /usr/share/doc/cfitsio-4.3.1/README_OLD.win
-{{< /files >}}

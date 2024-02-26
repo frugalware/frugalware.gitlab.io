@@ -16,7 +16,8 @@ reverse_depends = "['ceres-solver']"
 +++
 Logging library for C++
 
-{{< files text="show files" >}}* /usr/include/glog/export.h
+## Files: 
+* /usr/include/glog/export.h
 * /usr/include/glog/flags.h
 * /usr/include/glog/logging.h
 * /usr/include/glog/log_severity.h
@@ -38,4 +39,3 @@ Logging library for C++
 * /usr/share/doc/google-glog-0.7.0/CONTRIBUTORS
 * /usr/share/doc/google-glog-0.7.0/COPYING
 * /usr/share/doc/google-glog-0.7.0/README.rst
-{{< /files >}}

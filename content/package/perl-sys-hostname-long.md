@@ -15,9 +15,9 @@ depends = "['perl>=5.34.0']"
 +++
 Try every conceivable way to get hostname
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/Sys/Hostname/Long.pm
+## Files: 
+* /usr/lib/perl5/site_perl/current/Sys/Hostname/Long.pm
 * /usr/lib/perl5/site_perl/current/Sys/Hostname/testall.pl
 * /usr/share/doc/perl-sys-hostname-long-1.5/MANIFEST
 * /usr/share/doc/perl-sys-hostname-long-1.5/README
 * /usr/share/man/man3/Sys::Hostname::Long.3perl.gz
-{{< /files >}}

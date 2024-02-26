@@ -16,7 +16,8 @@ reverse_depends = "['virtualbox']"
 +++
 Xalan C++ Parser
 
-{{< files text="show files" >}}* /usr/bin/Xalan
+## Files: 
+* /usr/bin/Xalan
 * /usr/include/xalanc/DOMSupport/DOMServices.hpp
 * /usr/include/xalanc/DOMSupport/DOMSupport.hpp
 * /usr/include/xalanc/DOMSupport/DOMSupportDefault.hpp
@@ -474,4 +475,3 @@ Xalan C++ Parser
 * /usr/share/doc/xalan-c-1.12/CREDITS
 * /usr/share/doc/xalan-c-1.12/LICENSE
 * /usr/share/doc/xalan-c-1.12/README.md
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "['claws-mail=4.1.1', 'libytnef']"
 +++
 This plugin enables reading application/ms-tnef attachments.
 
-{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/tnef_parse.so
-{{< /files >}}
+## Files: 
+* /usr/lib/claws-mail/plugins/tnef_parse.so

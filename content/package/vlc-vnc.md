@@ -15,5 +15,5 @@ depends = "['libvlc>=3.0.20', 'libvncserver>=0.9.11']"
 +++
 vlc plugin for vnc
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/access/libvnc_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/access/libvnc_plugin.so

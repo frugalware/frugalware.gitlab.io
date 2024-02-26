@@ -15,7 +15,8 @@ depends = "['cups', 'readline']"
 +++
 IJS printer driver for Ghostscript and CUPS
 
-{{< files text="show files" >}}* etc/cups/command.types
+## Files: 
+* etc/cups/command.types
 * usr/bin/cups-calibrate
 * usr/bin/escputil
 * usr/bin/gimpprint-config
@@ -408,4 +409,3 @@ IJS printer driver for Ghostscript and CUPS
 * usr/share/locale/sk/LC_MESSAGES/gimp-print.mo
 * usr/share/locale/sv/LC_MESSAGES/gimp-print.mo
 * usr/share/locale/uk/LC_MESSAGES/gimp-print.mo
-{{< /files >}}

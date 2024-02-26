@@ -16,7 +16,8 @@ reverse_depends = "['neovim']"
 +++
 A terminal emulator library for VT100 and rxvt.
 
-{{< files text="show files" >}}* /usr/bin/unterm
+## Files: 
+* /usr/bin/unterm
 * /usr/bin/vterm-ctrl
 * /usr/bin/vterm-dump
 * /usr/include/vterm.h
@@ -26,4 +27,3 @@ A terminal emulator library for VT100 and rxvt.
 * /usr/lib/libvterm.so.0.0.0
 * /usr/lib/pkgconfig/vterm.pc
 * /usr/share/doc/libvterm-0.3.2/LICENSE
-{{< /files >}}

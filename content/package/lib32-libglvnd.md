@@ -16,7 +16,8 @@ reverse_depends = "['lib32-libepoxy', 'lib32-libglu', 'lib32-libva', 'lib32-nvid
 +++
 The GL Vendor-Neutral Dispatch library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/glvnd/GLdispatchABI.h
+## Files: 
+* /usr/i686-frugalware-linux/include/glvnd/GLdispatchABI.h
 * /usr/i686-frugalware-linux/include/glvnd/libeglabi.h
 * /usr/i686-frugalware-linux/include/glvnd/libglxabi.h
 * /usr/lib32/libEGL.so
@@ -47,4 +48,3 @@ The GL Vendor-Neutral Dispatch library ( 32bit )
 * /usr/lib32/pkgconfig/glx.pc
 * /usr/lib32/pkgconfig/libglvnd.pc
 * /usr/lib32/pkgconfig/opengl.pc
-{{< /files >}}

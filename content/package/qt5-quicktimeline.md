@@ -15,7 +15,7 @@ depends = "['qt5-declarative>=5.15.12']"
 +++
 The Qt5 toolkit, qtquicktimeline
 
-{{< files text="show files" >}}* /usr/share/qt5/qml/QtQuick/Timeline/libqtquicktimelineplugin.so
+## Files: 
+* /usr/share/qt5/qml/QtQuick/Timeline/libqtquicktimelineplugin.so
 * /usr/share/qt5/qml/QtQuick/Timeline/plugins.qmltypes
 * /usr/share/qt5/qml/QtQuick/Timeline/qmldir
-{{< /files >}}

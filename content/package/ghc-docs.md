@@ -15,7 +15,8 @@ depends = "['ghc']"
 +++
 GHC HTML documentation..
 
-{{< files text="show files" >}}* /usr/share/doc/ghc-9.8.1/archives/Haddock.html.tar.xz
+## Files: 
+* /usr/share/doc/ghc-9.8.1/archives/Haddock.html.tar.xz
 * /usr/share/doc/ghc-9.8.1/archives/libraries.html.tar.xz
 * /usr/share/doc/ghc-9.8.1/archives/users_guide.html.tar.xz
 * /usr/share/doc/ghc-9.8.1/html/Haddock/.buildinfo
@@ -5076,4 +5077,3 @@ GHC HTML documentation..
 * /usr/share/doc/ghc-9.8.1/html/users_guide/_static/Recip.png
 * /usr/share/doc/ghc-9.8.1/html/users_guide/_static/searchtools.js
 * /usr/share/doc/ghc-9.8.1/html/users_guide/_static/sphinx_highlight.js
-{{< /files >}}

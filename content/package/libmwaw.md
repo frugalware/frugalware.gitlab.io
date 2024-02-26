@@ -16,7 +16,8 @@ reverse_depends = "['libreoffice']"
 +++
 Import library for some old mac text documents
 
-{{< files text="show files" >}}* /usr/bin/mwaw2csv
+## Files: 
+* /usr/bin/mwaw2csv
 * /usr/bin/mwaw2html
 * /usr/bin/mwaw2raw
 * /usr/bin/mwaw2svg
@@ -37,4 +38,3 @@ Import library for some old mac text documents
 * /usr/share/doc/libmwaw-0.3.22/INSTALL
 * /usr/share/doc/libmwaw-0.3.22/README
 * /usr/share/doc/libmwaw-0.3.22/TODO
-{{< /files >}}

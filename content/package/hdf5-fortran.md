@@ -16,7 +16,8 @@ reverse_depends = "['octave']"
 +++
 Fortran interface for hdf5 library
 
-{{< files text="show files" >}}* /usr/include/h5a.mod
+## Files: 
+* /usr/include/h5a.mod
 * /usr/include/h5d.mod
 * /usr/include/h5ds.mod
 * /usr/include/h5e.mod
@@ -48,4 +49,3 @@ Fortran interface for hdf5 library
 * /usr/lib/libhdf5_fortran.so.102
 * /usr/lib/libhdf5_fortran.so.102.0.0
 * /usr/lib/libhdf5_hl_fortran.so
-{{< /files >}}

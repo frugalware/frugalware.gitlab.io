@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org driver for newer ATI cards
 
-{{< files text="show files" >}}* /etc/profile.d/amdgpu-mesa.sh
+## Files: 
+* /etc/profile.d/amdgpu-mesa.sh
 * /usr/lib/xorg/modules/drivers/amdgpu_drv.so
 * /usr/share/doc/xf86-video-amdgpu-23.0.0/ChangeLog
 * /usr/share/doc/xf86-video-amdgpu-23.0.0/COPYING
@@ -24,4 +25,3 @@ X.Org driver for newer ATI cards
 * /usr/share/doc/xf86-video-amdgpu-23.0.0/README.md
 * /usr/share/man/man4/amdgpu.4.gz
 * /usr/share/X11/xorg.conf.d/10-amdgpu.conf
-{{< /files >}}

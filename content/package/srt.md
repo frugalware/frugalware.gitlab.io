@@ -16,7 +16,8 @@ reverse_depends = "['ffmpeg']"
 +++
 Secure Reliable Transport library
 
-{{< files text="show files" >}}* /usr/bin/srt-ffplay
+## Files: 
+* /usr/bin/srt-ffplay
 * /usr/bin/srt-file-transmit
 * /usr/bin/srt-live-transmit
 * /usr/bin/srt-tunnel
@@ -33,4 +34,3 @@ Secure Reliable Transport library
 * /usr/lib/pkgconfig/srt.pc
 * /usr/share/doc/srt-1.5.3/LICENSE
 * /usr/share/doc/srt-1.5.3/README.md
-{{< /files >}}

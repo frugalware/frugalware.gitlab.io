@@ -15,6 +15,6 @@ depends = "['libstdc++', 'zlib>=1.2.12']"
 +++
 Alternative rust compiler
 
-{{< files text="show files" >}}* /usr/bin/mrustc
+## Files: 
+* /usr/bin/mrustc
 * /usr/share/doc/mrustc-0.9/README.md
-{{< /files >}}

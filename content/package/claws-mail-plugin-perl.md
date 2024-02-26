@@ -15,5 +15,5 @@ depends = "['claws-mail=4.1.1', 'perl>=5.14.1-7']"
 +++
 This plugin is intended to extend the filtering possibilities of Claws Mail.
 
-{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/perl.so
-{{< /files >}}
+## Files: 
+* /usr/lib/claws-mail/plugins/perl.so

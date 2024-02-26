@@ -16,7 +16,8 @@ reverse_depends = "['sysprof']"
 +++
 Dock/panel library for GTK 4
 
-{{< files text="show files" >}}* /usr/include/libpanel-1/libpanel.h
+## Files: 
+* /usr/include/libpanel-1/libpanel.h
 * /usr/include/libpanel-1/panel-action-group.h
 * /usr/include/libpanel-1/panel-action-muxer.h
 * /usr/include/libpanel-1/panel-application.h
@@ -636,4 +637,3 @@ Dock/panel library for GTK 4
 * /usr/share/locale/zh_CN/LC_MESSAGES/libpanel.mo
 * /usr/share/vala/vapi/libpanel-1.deps
 * /usr/share/vala/vapi/libpanel-1.vapi
-{{< /files >}}

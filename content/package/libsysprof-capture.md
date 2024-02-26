@@ -16,7 +16,8 @@ reverse_depends = "['libsoup3', 'sysprof']"
 +++
 sysprof capture library
 
-{{< files text="show files" >}}* /usr/include/sysprof-6/sysprof-address.h
+## Files: 
+* /usr/include/sysprof-6/sysprof-address.h
 * /usr/include/sysprof-6/sysprof-capture-condition.h
 * /usr/include/sysprof-6/sysprof-capture-cursor.h
 * /usr/include/sysprof-6/sysprof-capture-reader.h
@@ -31,4 +32,3 @@ sysprof capture library
 * /usr/include/sysprof-6/sysprof-version.h
 * /usr/lib/libsysprof-capture-4.a
 * /usr/lib/pkgconfig/sysprof-capture-4.pc
-{{< /files >}}

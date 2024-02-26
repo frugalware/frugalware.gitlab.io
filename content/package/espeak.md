@@ -15,4 +15,4 @@ depends = "['portaudio']"
 +++
 Text to Speech engine for good quality English, with support for other languages
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

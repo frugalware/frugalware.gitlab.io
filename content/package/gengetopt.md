@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 A tool to write command line option parsing code for C programs.
 
-{{< files text="show files" >}}* /usr/bin/gengetopt
+## Files: 
+* /usr/bin/gengetopt
 * /usr/share/doc/gengetopt-2.23/AUTHORS
 * /usr/share/doc/gengetopt-2.23/ChangeLog
 * /usr/share/doc/gengetopt-2.23/COPYING
@@ -46,4 +47,3 @@ A tool to write command line option parsing code for C programs.
 * /usr/share/info/gengetopt.info.gz
 * /usr/share/info/index.info.gz
 * /usr/share/man/man1/gengetopt.1.gz
-{{< /files >}}

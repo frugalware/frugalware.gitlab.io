@@ -16,7 +16,8 @@ reverse_depends = "['mcabber']"
 +++
 A lightweight and easy-to-use C library for programming with the Jabber protocol.
 
-{{< files text="show files" >}}* /usr/include/loudmouth-1.0/loudmouth/lm-connection.h
+## Files: 
+* /usr/include/loudmouth-1.0/loudmouth/lm-connection.h
 * /usr/include/loudmouth-1.0/loudmouth/lm-error.h
 * /usr/include/loudmouth-1.0/loudmouth/lm-message-handler.h
 * /usr/include/loudmouth-1.0/loudmouth/lm-message-node.h
@@ -35,4 +36,3 @@ A lightweight and easy-to-use C library for programming with the Jabber protocol
 * /usr/share/doc/loudmouth-1.5.4/NEWS
 * /usr/share/doc/loudmouth-1.5.4/README
 * /usr/share/doc/loudmouth-1.5.4/README.WIN32
-{{< /files >}}

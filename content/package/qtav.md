@@ -16,7 +16,8 @@ reverse_depends = "['digikam']"
 +++
 A cross-platform multimedia playback framework based on Qt and FFmpeg
 
-{{< files text="show files" >}}* /usr/include/qt5/QtAV/5.15.11/QtAV/private/AudioOutputBackend.h
+## Files: 
+* /usr/include/qt5/QtAV/5.15.11/QtAV/private/AudioOutputBackend.h
 * /usr/include/qt5/QtAV/5.15.11/QtAV/private/AudioResampler_p.h
 * /usr/include/qt5/QtAV/5.15.11/QtAV/private/AVCompat.h
 * /usr/include/qt5/QtAV/5.15.11/QtAV/private/AVDecoder_p.h
@@ -133,4 +134,3 @@ A cross-platform multimedia playback framework based on Qt and FFmpeg
 * /usr/share/qt5/qml/QtAV/plugins.qmltypes
 * /usr/share/qt5/qml/QtAV/qmldir
 * /usr/share/qt5/qml/QtAV/Video.qml
-{{< /files >}}

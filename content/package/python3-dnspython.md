@@ -16,7 +16,8 @@ reverse_depends = "['python3-eventlet']"
 +++
 A DNS toolkit for Python
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/dns/asyncbackend.py
+## Files: 
+* /usr/lib/python3.12/site-packages/dns/asyncbackend.py
 * /usr/lib/python3.12/site-packages/dns/asyncquery.py
 * /usr/lib/python3.12/site-packages/dns/asyncresolver.py
 * /usr/lib/python3.12/site-packages/dns/dnssec.py
@@ -446,4 +447,3 @@ A DNS toolkit for Python
 * /usr/lib/python3.12/site-packages/dnspython-2.4.2.dist-info/WHEEL
 * /usr/share/doc/python3-dnspython-2.4.2/LICENSE
 * /usr/share/doc/python3-dnspython-2.4.2/README.md
-{{< /files >}}

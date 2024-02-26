@@ -15,5 +15,5 @@ depends = "['mariadb-libs>=10.3.14', 'rsyslog>=8.2312.0']"
 +++
 MySQL support for rsyslog
 
-{{< files text="show files" >}}* /usr/lib/rsyslog/ommysql.so
-{{< /files >}}
+## Files: 
+* /usr/lib/rsyslog/ommysql.so

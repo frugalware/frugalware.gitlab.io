@@ -15,7 +15,8 @@ depends = "['glib2', 'hyperscan', 'icu4c>=74.1', 'libsodium>=1.0.19', 'luajit2']
 +++
 Rapid spam filtering system.
 
-{{< files text="show files" >}}* /etc/ld.so.conf.d/rspmad.conf
+## Files: 
+* /etc/ld.so.conf.d/rspmad.conf
 * /etc/logrotate.d/rspamd
 * /etc/rspamd/actions.conf
 * /etc/rspamd/cgp.inc
@@ -390,4 +391,3 @@ Rapid spam filtering system.
 * /usr/share/rspamd/www/mstile-150x150.png
 * /usr/share/rspamd/www/README.md
 * /usr/share/rspamd/www/safari-pinned-tab.svg
-{{< /files >}}

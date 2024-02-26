@@ -15,7 +15,8 @@ depends = "[]"
 +++
 A grafical client for PostgreSQL database system for KDE.
 
-{{< files text="show files" >}}* usr/bin/kpogre
+## Files: 
+* usr/bin/kpogre
 * usr/share/applnk/Applications/kpogre.desktop
 * usr/share/apps/kpogre/icons/crystalsvg/16x16/actions/data.png
 * usr/share/apps/kpogre/icons/crystalsvg/16x16/actions/deletecell.png
@@ -361,4 +362,3 @@ A grafical client for PostgreSQL database system for KDE.
 * usr/share/icons/crystalsvg/scalable/apps/kpogre.svgz
 * usr/share/icons/hicolor/16x16/apps/kpogre.png
 * usr/share/icons/hicolor/32x32/apps/kpogre.png
-{{< /files >}}

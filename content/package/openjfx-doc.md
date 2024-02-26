@@ -15,7 +15,8 @@ depends = "[]"
 +++
 OpenJFX Documentation
 
-{{< files text="show files" >}}* /usr/share/doc/java-openjfx/allclasses-index.html
+## Files: 
+* /usr/share/doc/java-openjfx/allclasses-index.html
 * /usr/share/doc/java-openjfx/allpackages-index.html
 * /usr/share/doc/java-openjfx/constant-values.html
 * /usr/share/doc/java-openjfx/copy.svg
@@ -1892,4 +1893,3 @@ OpenJFX Documentation
 * /usr/share/doc/java-openjfx/stylesheet.css
 * /usr/share/doc/java-openjfx/tag-search-index.js
 * /usr/share/doc/java-openjfx/type-search-index.js
-{{< /files >}}

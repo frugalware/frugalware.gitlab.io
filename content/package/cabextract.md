@@ -16,7 +16,8 @@ reverse_depends = "['binwalk', 'wimlib', 'winetricks']"
 +++
 a program to extract Microsoft Cabinet files
 
-{{< files text="show files" >}}* /usr/bin/cabextract
+## Files: 
+* /usr/bin/cabextract
 * /usr/share/doc/cabextract-1.9.1/AUTHORS
 * /usr/share/doc/cabextract-1.9.1/ChangeLog
 * /usr/share/doc/cabextract-1.9.1/COPYING
@@ -25,4 +26,3 @@ a program to extract Microsoft Cabinet files
 * /usr/share/doc/cabextract-1.9.1/README
 * /usr/share/doc/cabextract-1.9.1/TODO
 * /usr/share/man/man1/cabextract.1.gz
-{{< /files >}}

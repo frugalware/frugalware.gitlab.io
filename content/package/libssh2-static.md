@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Static files for libssh2
 
-{{< files text="show files" >}}* /usr/lib/libssh2.a
-{{< /files >}}
+## Files: 
+* /usr/lib/libssh2.a

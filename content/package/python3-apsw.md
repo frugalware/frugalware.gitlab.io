@@ -16,7 +16,8 @@ reverse_depends = "['calibre']"
 +++
 Python3 wrapper for SQLite.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/apsw-3.44.2.0-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/apsw-3.44.2.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/apsw-3.44.2.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/apsw-3.44.2.0-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/apsw-3.44.2.0-py3.12.egg-info/top_level.txt
@@ -39,4 +40,3 @@ Python3 wrapper for SQLite.
 * /usr/lib/python3.12/site-packages/apsw/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/python3-apsw-3.44.2.0/LICENSE
 * /usr/share/doc/python3-apsw-3.44.2.0/README.rst
-{{< /files >}}

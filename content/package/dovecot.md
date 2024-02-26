@@ -16,7 +16,8 @@ reverse_depends = "['dovecot-sieve']"
 +++
 An open source IMAP and POP3 server, written with security primarily in mind.
 
-{{< files text="show files" >}}* /etc/dovecot/README
+## Files: 
+* /etc/dovecot/README
 * /usr/bin/doveadm
 * /usr/bin/doveconf
 * /usr/bin/dovecot
@@ -1118,4 +1119,3 @@ An open source IMAP and POP3 server, written with security primarily in mind.
 * /usr/share/man/man1/dovecot.1.gz
 * /usr/share/man/man1/dsync.1.gz
 * /usr/share/man/man7/doveadm-search-query.7.gz
-{{< /files >}}

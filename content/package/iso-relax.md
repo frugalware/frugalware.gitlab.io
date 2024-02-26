@@ -15,5 +15,5 @@ depends = "['openjre']"
 +++
 Interface definitions which are necessary for RELAX-related programs.
 
-{{< files text="show files" >}}* /usr/share/java/isorelax.jar
-{{< /files >}}
+## Files: 
+* /usr/share/java/isorelax.jar

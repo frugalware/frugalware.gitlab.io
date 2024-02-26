@@ -15,6 +15,6 @@ depends = "['libstdc++>=12.2']"
 +++
 Static files for nettle
 
-{{< files text="show files" >}}* /usr/lib/libhogweed.a
+## Files: 
+* /usr/lib/libhogweed.a
 * /usr/lib/libnettle.a
-{{< /files >}}

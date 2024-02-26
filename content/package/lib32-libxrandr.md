@@ -16,9 +16,9 @@ reverse_depends = "['lib32-gtk+2-libs', 'wine', 'wine-devel']"
 +++
 X RandR Library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/Xrandr.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/extensions/Xrandr.h
 * /usr/lib32/libXrandr.so
 * /usr/lib32/libXrandr.so.2
 * /usr/lib32/libXrandr.so.2.2.0
 * /usr/lib32/pkgconfig/xrandr.pc
-{{< /files >}}

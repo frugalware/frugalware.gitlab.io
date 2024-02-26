@@ -16,9 +16,9 @@ license = "GPL2"
 +++
 X.Org driver for hyperpen input devices
 
-{{< files text="show files" >}}* /usr/lib/xorg/modules/input/hyperpen_drv.so
+## Files: 
+* /usr/lib/xorg/modules/input/hyperpen_drv.so
 * /usr/share/doc/xf86-input-hyperpen-1.4.1/AUTHORS
 * /usr/share/doc/xf86-input-hyperpen-1.4.1/ChangeLog
 * /usr/share/doc/xf86-input-hyperpen-1.4.1/COPYING
 * /usr/share/doc/xf86-input-hyperpen-1.4.1/README
-{{< /files >}}

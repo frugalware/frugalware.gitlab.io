@@ -15,7 +15,8 @@ depends = "['perl>=5.28.2']"
 +++
 Tools for debugging and profiling Linux programs.
 
-{{< files text="show files" >}}* /usr/bin/callgrind_annotate
+## Files: 
+* /usr/bin/callgrind_annotate
 * /usr/bin/callgrind_control
 * /usr/bin/cg_annotate
 * /usr/bin/cg_diff
@@ -360,4 +361,3 @@ Tools for debugging and profiling Linux programs.
 * /usr/share/man/man1/valgrind-listener.1.gz
 * /usr/share/man/man1/valgrind.1.gz
 * /usr/share/man/man1/vgdb.1.gz
-{{< /files >}}

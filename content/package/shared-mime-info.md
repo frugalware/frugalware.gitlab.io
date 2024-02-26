@@ -16,7 +16,8 @@ reverse_depends = "['akonadi', 'akonadi-mime', 'frugalpkg', 'gdk-pixbuf2', 'gtk+
 +++
 Freedesktop.org Shared MIME Info
 
-{{< files text="show files" >}}* /usr/bin/update-mime-database
+## Files: 
+* /usr/bin/update-mime-database
 * /usr/lib/pkgconfig/shared-mime-info.pc
 * /usr/share/doc/shared-mime-info-2.4/COPYING
 * /usr/share/doc/shared-mime-info-2.4/NEWS
@@ -102,4 +103,3 @@ Freedesktop.org Shared MIME Info
 * /usr/share/locale/zh_TW/LC_MESSAGES/shared-mime-info.mo
 * /usr/share/man/man1/update-mime-database.1.gz
 * /usr/share/mime/packages/freedesktop.org.xml
-{{< /files >}}

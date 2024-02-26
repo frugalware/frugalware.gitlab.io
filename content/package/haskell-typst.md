@@ -16,7 +16,8 @@ reverse_depends = "['pandoc']"
 +++
 Parsing and evaluating typst syntax
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/typst-0.5/libHStypst-0.5-JBJUvK1AD9E1fnlEjlnBtT.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/typst-0.5/libHStypst-0.5-JBJUvK1AD9E1fnlEjlnBtT.a
 * /usr/lib/ghc-9.8.1/site-local/typst-0.5/Typst.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/typst-0.5/Typst.hi
 * /usr/lib/ghc-9.8.1/site-local/typst-0.5/Typst/Bind.dyn_hi
@@ -99,4 +100,3 @@ Parsing and evaluating typst syntax
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/typst-0.5/LICENSE
 * /usr/share/haskell/haskell-typst/register.sh
 * /usr/share/haskell/haskell-typst/unregister.sh
-{{< /files >}}

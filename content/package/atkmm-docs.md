@@ -15,7 +15,8 @@ depends = "[]"
 +++
 atkmm Documentation
 
-{{< files text="show files" >}}* /usr/share/doc/atkmm-2.36/reference/atkmm-2.36.tag
+## Files: 
+* /usr/share/doc/atkmm-2.36/reference/atkmm-2.36.tag
 * /usr/share/doc/atkmm-2.36/reference/html/annotated.html
 * /usr/share/doc/atkmm-2.36/reference/html/bc_s.png
 * /usr/share/doc/atkmm-2.36/reference/html/bc_sd.png
@@ -238,4 +239,3 @@ atkmm Documentation
 * /usr/share/doc/atkmm-2.36/reference/html/tab_hd.png
 * /usr/share/doc/atkmm-2.36/reference/html/tab_s.png
 * /usr/share/doc/atkmm-2.36/reference/html/tab_sd.png
-{{< /files >}}

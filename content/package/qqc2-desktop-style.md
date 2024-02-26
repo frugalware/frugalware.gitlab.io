@@ -16,7 +16,8 @@ reverse_depends = "['angelfish', 'arianna', 'itinerary', 'kdeconnect-kde', 'ktri
 +++
 QtQuickControls2 style that uses QWidget's QStyle for painting.
 
-{{< files text="show files" >}}* /usr/lib/cmake/KF5QQC2DeskopStyle/KF5QQC2DeskopStyleConfig.cmake
+## Files: 
+* /usr/lib/cmake/KF5QQC2DeskopStyle/KF5QQC2DeskopStyleConfig.cmake
 * /usr/lib/cmake/KF5QQC2DeskopStyle/KF5QQC2DeskopStyleConfigVersion.cmake
 * /usr/lib/cmake/KF5QQC2DesktopStyle/KF5QQC2DesktopStyleConfig.cmake
 * /usr/lib/cmake/KF5QQC2DesktopStyle/KF5QQC2DesktopStyleConfigVersion.cmake
@@ -76,4 +77,3 @@ QtQuickControls2 style that uses QWidget's QStyle for painting.
 * /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolButton.qml
 * /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolSeparator.qml
 * /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml
-{{< /files >}}

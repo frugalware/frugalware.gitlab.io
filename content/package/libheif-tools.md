@@ -15,8 +15,8 @@ depends = "['libheif']"
 +++
 libheif tools
 
-{{< files text="show files" >}}* /usr/bin/heif-convert
+## Files: 
+* /usr/bin/heif-convert
 * /usr/bin/heif-enc
 * /usr/bin/heif-info
 * /usr/bin/heif-thumbnailer
-{{< /files >}}

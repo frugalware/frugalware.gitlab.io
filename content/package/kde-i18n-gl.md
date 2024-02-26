@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Galician Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/locale/gl/charset
+## Files: 
+* usr/share/locale/gl/charset
 * usr/share/locale/gl/entry.desktop
 * usr/share/locale/gl/flag.png
 * usr/share/locale/gl/LC_MESSAGES/akregator.mo
@@ -562,4 +563,3 @@ Galician Localization for KDE.
 * usr/share/locale/gl/LC_MESSAGES/wakeup.mo
 * usr/share/locale/gl/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/gl/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

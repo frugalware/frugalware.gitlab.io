@@ -15,7 +15,8 @@ depends = "['libstdc++', 'ncurses']"
 +++
 Speech tools for Festival Text to Speech engine
 
-{{< files text="show files" >}}* /usr/bin/align
+## Files: 
+* /usr/bin/align
 * /usr/bin/bcat
 * /usr/bin/build_docbook_index
 * /usr/bin/ch_lab
@@ -408,4 +409,3 @@ Speech tools for Festival Text to Speech engine
 * /usr/share/speech-tools/lib/siod/siod_client.scm
 * /usr/share/speech-tools/lib/siod/siod_server.scm
 * /usr/share/speech-tools/lib/siod/web.scm
-{{< /files >}}

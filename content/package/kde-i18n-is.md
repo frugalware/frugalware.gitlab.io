@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Icelandic Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/locale/is/charset
+## Files: 
+* usr/share/locale/is/charset
 * usr/share/locale/is/entry.desktop
 * usr/share/locale/is/flag.png
 * usr/share/locale/is/LC_MESSAGES/akregator.mo
@@ -577,4 +578,3 @@ Icelandic Localization for KDE.
 * usr/share/locale/is/LC_MESSAGES/wakeup.mo
 * usr/share/locale/is/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/is/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['fontconfig', 'mkfontscale']"
 +++
 A fixed width sans font designed especially for programmers.
 
-{{< files text="show files" >}}* /usr/share/doc/anonymous-pro-ttf-1.002/FONTLOG.txt
+## Files: 
+* /usr/share/doc/anonymous-pro-ttf-1.002/FONTLOG.txt
 * /usr/share/doc/anonymous-pro-ttf-1.002/OFL-FAQ.txt
 * /usr/share/doc/anonymous-pro-ttf-1.002/OFL.txt
 * /usr/share/doc/anonymous-pro-ttf-1.002/README.txt
@@ -23,4 +24,3 @@ A fixed width sans font designed especially for programmers.
 * /usr/share/fonts/X11/TTF/AnonymousProB.ttf
 * /usr/share/fonts/X11/TTF/AnonymousProBI.ttf
 * /usr/share/fonts/X11/TTF/AnonymousProI.ttf
-{{< /files >}}

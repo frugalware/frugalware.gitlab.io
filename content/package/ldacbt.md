@@ -16,7 +16,8 @@ reverse_depends = "['gst1-plugins-bad', 'pipewire']"
 +++
 AOSP libldac dispatcher
 
-{{< files text="show files" >}}* /usr/include/ldac/ldacBT.h
+## Files: 
+* /usr/include/ldac/ldacBT.h
 * /usr/include/ldac/ldacBT_abr.h
 * /usr/lib/libldacBT_abr.so
 * /usr/lib/libldacBT_abr.so.2
@@ -28,4 +29,3 @@ AOSP libldac dispatcher
 * /usr/lib/pkgconfig/ldacBT-enc.pc
 * /usr/share/doc/ldacbt-1.1/LICENSE
 * /usr/share/doc/ldacbt-1.1/README.md
-{{< /files >}}

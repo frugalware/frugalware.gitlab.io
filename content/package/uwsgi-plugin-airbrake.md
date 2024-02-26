@@ -15,5 +15,5 @@ depends = "['libssh2', 'libxml2', 'uwsgi']"
 +++
 UWSGI Airbrake Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/airbrake_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/uwsgi/airbrake_plugin.so

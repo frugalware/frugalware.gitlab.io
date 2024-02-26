@@ -16,5 +16,5 @@ reverse_depends = "['ldns']"
 +++
 DNSSEC trust anchors for the root zone
 
-{{< files text="show files" >}}* /etc/trusted-key.key
-{{< /files >}}
+## Files: 
+* /etc/trusted-key.key

@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Splash Screen Engine for KDE
 
-{{< files text="show files" >}}* usr/lib/kde3/ksplashmoodin.la
+## Files: 
+* usr/lib/kde3/ksplashmoodin.la
 * usr/lib/kde3/ksplashmoodin.so
 * usr/share/apps/ksplash/Themes/FingerPrint/1.png
 * usr/share/apps/ksplash/Themes/FingerPrint/2.png
@@ -39,4 +40,3 @@ Splash Screen Engine for KDE
 * usr/share/doc/ksplash-engine-moodin-0.4.2/README
 * usr/share/doc/ksplash-engine-moodin-0.4.2/TODO
 * usr/share/services/ksplashmoodin.desktop
-{{< /files >}}

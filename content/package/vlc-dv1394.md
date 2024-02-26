@@ -15,5 +15,5 @@ depends = "['libavc1394', 'libvlc>=3.0.20']"
 +++
 vlc plugin for dv1394
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/access/libdv1394_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/access/libdv1394_plugin.so

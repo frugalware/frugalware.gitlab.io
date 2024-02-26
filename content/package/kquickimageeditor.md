@@ -16,7 +16,8 @@ reverse_depends = "['koko', 'neochat', 'skanpage']"
 +++
 QML image editing components
 
-{{< files text="show files" >}}* /usr/lib/cmake/KQuickImageEditor/KQuickImageEditorConfig.cmake
+## Files: 
+* /usr/lib/cmake/KQuickImageEditor/KQuickImageEditorConfig.cmake
 * /usr/lib/cmake/KQuickImageEditor/KQuickImageEditorConfigVersion.cmake
 * /usr/share/doc/kquickimageeditor-0.3.0/README.md
 * /usr/share/qt5/mkspecs/modules/qt_KQuickImageEditor.pri
@@ -28,4 +29,3 @@ QML image editing components
 * /usr/share/qt5/qml/org/kde/kquickimageeditor/SelectionBackground.qml
 * /usr/share/qt5/qml/org/kde/kquickimageeditor/SelectionHandle.qml
 * /usr/share/qt5/qml/org/kde/kquickimageeditor/SelectionTool.qml
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['courier-imap', 'courier-maildrop', 'dirmngr', 'dirmngr-ldap
 +++
 GNU Libidn is an implementation of the Stringprep,Punycode and IDNA specification.
 
-{{< files text="show files" >}}* /usr/bin/idn
+## Files: 
+* /usr/bin/idn
 * /usr/include/idn-free.h
 * /usr/include/idn-int.h
 * /usr/include/idna.h
@@ -115,4 +116,3 @@ GNU Libidn is an implementation of the Stringprep,Punycode and IDNA specificatio
 * /usr/share/man/man3/tld_get_table.3.gz
 * /usr/share/man/man3/tld_get_z.3.gz
 * /usr/share/man/man3/tld_strerror.3.gz
-{{< /files >}}

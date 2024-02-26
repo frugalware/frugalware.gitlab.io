@@ -15,7 +15,8 @@ depends = "['iso-codes>=3.70-2', 'libnotify>=0.7.7-4', 'libsecret>=0.18.5-5', 'n
 +++
 Network Management applet
 
-{{< files text="show files" >}}* /etc/xdg/autostart/nm-applet.desktop
+## Files: 
+* /etc/xdg/autostart/nm-applet.desktop
 * /usr/bin/nm-applet
 * /usr/share/applications/nm-applet.desktop
 * /usr/share/doc/nm-applet-1.8.24/ChangeLog
@@ -117,4 +118,3 @@ Network Management applet
 * /usr/share/icons/hicolor/22x22/apps/nm-wwan-tower.png
 * /usr/share/man/man1/nm-applet.1.gz
 * /usr/share/metainfo/nm-connection-editor.appdata.xml
-{{< /files >}}

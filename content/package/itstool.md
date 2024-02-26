@@ -15,7 +15,8 @@ depends = "['libxml2-python>=2.9.3-3']"
 +++
 ITS-based XML translation tool.
 
-{{< files text="show files" >}}* /usr/bin/itstool
+## Files: 
+* /usr/bin/itstool
 * /usr/share/doc/itstool-2.0.7/ChangeLog
 * /usr/share/doc/itstool-2.0.7/COPYING
 * /usr/share/doc/itstool-2.0.7/COPYING.GPL3
@@ -28,4 +29,3 @@ ITS-based XML translation tool.
 * /usr/share/itstool/its/ttml.its
 * /usr/share/itstool/its/xhtml.its
 * /usr/share/man/man1/itstool.1.gz
-{{< /files >}}

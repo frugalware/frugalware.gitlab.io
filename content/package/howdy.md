@@ -15,7 +15,8 @@ depends = "['dlib', 'face_recognition', 'face_recognition_models', 'hdf5', 'open
 +++
 Windows Hello for Linux
 
-{{< files text="show files" >}}* /usr/bin/howdy
+## Files: 
+* /usr/bin/howdy
 * /usr/lib/security/howdy/cli.py
 * /usr/lib/security/howdy/cli/add.py
 * /usr/lib/security/howdy/cli/clear.py
@@ -46,4 +47,3 @@ Windows Hello for Linux
 * /usr/share/bash-completion/completions/howdy
 * /usr/share/doc/howdy-2.6.1/LICENSE
 * /usr/share/doc/howdy-2.6.1/README.md
-{{< /files >}}

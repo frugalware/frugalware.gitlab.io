@@ -16,7 +16,8 @@ reverse_depends = "['ceres-solver', 'gegl', 'julia']"
 +++
 A collection of sparse matrix libraries
 
-{{< files text="show files" >}}* /usr/bin/suitesparse_mongoose
+## Files: 
+* /usr/bin/suitesparse_mongoose
 * /usr/include/suitesparse/amd.h
 * /usr/include/suitesparse/btf.h
 * /usr/include/suitesparse/camd.h
@@ -226,4 +227,3 @@ A collection of sparse matrix libraries
 * /usr/lib/pkgconfig/UMFPACK.pc
 * /usr/share/doc/suitesparse-7.6.0/ChangeLog
 * /usr/share/doc/suitesparse-7.6.0/README.md
-{{< /files >}}

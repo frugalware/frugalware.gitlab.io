@@ -16,7 +16,8 @@ reverse_depends = "['blender', 'krita']"
 +++
 Color management framework for visual effects and animation
 
-{{< files text="show files" >}}* /usr/bin/ocioarchive
+## Files: 
+* /usr/bin/ocioarchive
 * /usr/bin/ociobakelut
 * /usr/bin/ociocheck
 * /usr/bin/ociochecklut
@@ -44,4 +45,3 @@ Color management framework for visual effects and animation
 * /usr/share/doc/opencolorio-2.3.2/LICENSE
 * /usr/share/doc/opencolorio-2.3.2/README.md
 * /usr/share/ocio/setup_ocio.sh
-{{< /files >}}

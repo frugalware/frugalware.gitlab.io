@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 fish is a user friendly command line shell for UNIX-like operating systems.
 
-{{< files text="show files" >}}* /etc/fish/config.fish
+## Files: 
+* /etc/fish/config.fish
 * /usr/bin/fish
 * /usr/bin/fish_indent
 * /usr/bin/fish_key_reader
@@ -1555,4 +1556,3 @@ fish is a user friendly command line shell for UNIX-like operating systems.
 * /usr/share/man/man1/fish_indent.1.gz
 * /usr/share/man/man1/fish_key_reader.1.gz
 * /usr/share/pixmaps/fish.png
-{{< /files >}}

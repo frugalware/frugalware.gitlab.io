@@ -16,7 +16,8 @@ reverse_depends = "['bomber', 'bovo', 'granatier', 'kapman', 'katomic', 'kblackb
 +++
 Library for KDE games.
 
-{{< files text="show files" >}}* /usr/include/KF5/KDEGames/highscore/khighscore.h
+## Files: 
+* /usr/include/KF5/KDEGames/highscore/khighscore.h
 * /usr/include/KF5/KDEGames/highscore/kscoredialog.h
 * /usr/include/KF5/KDEGames/kdegames_version.h
 * /usr/include/KF5/KDEGames/KGameClock
@@ -223,4 +224,3 @@ Library for KDE games.
 * /usr/share/qt5/qml/org/kde/games/core/KgItem.qml
 * /usr/share/qt5/qml/org/kde/games/core/libcorebindingsplugin.so
 * /usr/share/qt5/qml/org/kde/games/core/qmldir
-{{< /files >}}

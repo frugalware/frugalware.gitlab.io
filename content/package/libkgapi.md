@@ -16,7 +16,8 @@ reverse_depends = "['kdepim-runtime', 'kio-gdrive', 'kmailtransport']"
 +++
 A KDE-based library for accessing various Google services via their public API.
 
-{{< files text="show files" >}}* /usr/include/KPim5/KGAPI/KGAPI/Account
+## Files: 
+* /usr/include/KPim5/KGAPI/KGAPI/Account
 * /usr/include/KPim5/KGAPI/kgapi/account.h
 * /usr/include/KPim5/KGAPI/KGAPI/AccountInfo
 * /usr/include/KPim5/KGAPI/kgapi/accountinfo.h
@@ -471,4 +472,3 @@ A KDE-based library for accessing various Google services via their public API.
 * /usr/share/qt5/mkspecs/modules/qt_KGAPIMaps.pri
 * /usr/share/qt5/mkspecs/modules/qt_KGAPIPeople.pri
 * /usr/share/qt5/mkspecs/modules/qt_KGAPITasks.pri
-{{< /files >}}

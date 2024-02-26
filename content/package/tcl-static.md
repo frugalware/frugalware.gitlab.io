@@ -16,8 +16,8 @@ reverse_depends = "['tk-static']"
 +++
 Static files for tcl
 
-{{< files text="show files" >}}* /usr/lib/itcl4.2.3/libitclstub4.2.3.a
+## Files: 
+* /usr/lib/itcl4.2.3/libitclstub4.2.3.a
 * /usr/lib/libtclstub.a
 * /usr/lib/libtclstub8.6.a
 * /usr/lib/tdbc1.1.5/libtdbcstub1.1.5.a
-{{< /files >}}

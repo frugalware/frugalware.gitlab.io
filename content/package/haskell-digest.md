@@ -16,7 +16,8 @@ reverse_depends = "['haskell-zip-archive']"
 +++
 Various cryptographic hashes for bytestrings; CRC32 and Adler32 for now
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/digest-0.0.2.0/Data/Digest/Adler32.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/digest-0.0.2.0/Data/Digest/Adler32.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/digest-0.0.2.0/Data/Digest/Adler32.hi
 * /usr/lib/ghc-9.8.1/site-local/digest-0.0.2.0/Data/Digest/CRC32.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/digest-0.0.2.0/Data/Digest/CRC32.hi
@@ -39,4 +40,3 @@ Various cryptographic hashes for bytestrings; CRC32 and Adler32 for now
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/digest-0.0.2.0/LICENSE
 * /usr/share/haskell/haskell-digest/register.sh
 * /usr/share/haskell/haskell-digest/unregister.sh
-{{< /files >}}

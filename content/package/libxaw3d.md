@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 Athena widgets (libXaw) drop-in replacement
 
-{{< files text="show files" >}}* /usr/include/X11/Xaw3d/AllWidgets.h
+## Files: 
+* /usr/include/X11/Xaw3d/AllWidgets.h
 * /usr/include/X11/Xaw3d/AsciiSink.h
 * /usr/include/X11/Xaw3d/AsciiSinkP.h
 * /usr/include/X11/Xaw3d/AsciiSrc.h
@@ -100,4 +101,3 @@ Athena widgets (libXaw) drop-in replacement
 * /usr/share/doc/libxaw3d-1.6.5/INSTALL
 * /usr/share/doc/libxaw3d-1.6.5/README.md
 * /usr/share/doc/libxaw3d-1.6.5/README.XAW3D
-{{< /files >}}

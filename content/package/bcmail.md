@@ -16,5 +16,5 @@ reverse_depends = "['itext7']"
 +++
 Java cryptography APIs.
 
-{{< files text="show files" >}}* /usr/share/java/bcmail.jar
-{{< /files >}}
+## Files: 
+* /usr/share/java/bcmail.jar

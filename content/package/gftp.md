@@ -15,7 +15,8 @@ depends = "['gtk+2>=2.24.29-2', 'libffi>=3.2.1', 'libpng>=1.6.20', 'ncurses>=6.0
 +++
 A multithreaded ftp client for X
 
-{{< files text="show files" >}}* /usr/bin/gftp
+## Files: 
+* /usr/bin/gftp
 * /usr/bin/gftp-gtk
 * /usr/bin/gftp-text
 * /usr/share/applications/gftp.desktop
@@ -115,4 +116,3 @@ A multithreaded ftp client for X
 * /usr/share/locale/zh_HK/LC_MESSAGES/gftp.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/gftp.mo
 * /usr/share/man/man1/gftp.1.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Apollon is a Peer-to-Peer File-Sharing Program written for Linux.
 
-{{< files text="show files" >}}* usr/bin/apollon
+## Files: 
+* usr/bin/apollon
 * usr/lib/libapollon.la
 * usr/lib/libapollon.so
 * usr/lib/libapollon.so.0
@@ -83,4 +84,3 @@ Apollon is a Peer-to-Peer File-Sharing Program written for Linux.
 * usr/share/locale/ru/LC_MESSAGES/apollon.mo
 * usr/share/locale/sr/LC_MESSAGES/apollon.mo
 * usr/share/locale/tr/LC_MESSAGES/apollon.mo
-{{< /files >}}

@@ -16,11 +16,11 @@ reverse_depends = "['openttd']"
 +++
 Sound data files for openttd.
 
-{{< files text="show files" >}}* /usr/share/doc/opensfx-1.0.3/changelog.txt
+## Files: 
+* /usr/share/doc/opensfx-1.0.3/changelog.txt
 * /usr/share/doc/opensfx-1.0.3/digifish_music_grant.txt
 * /usr/share/doc/opensfx-1.0.3/license.txt
 * /usr/share/doc/opensfx-1.0.3/readme.ptxt
 * /usr/share/doc/opensfx-1.0.3/readme.txt
 * /usr/share/openttd/data/opensfx.cat
 * /usr/share/openttd/data/opensfx.obs
-{{< /files >}}

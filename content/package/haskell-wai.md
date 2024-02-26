@@ -16,7 +16,8 @@ reverse_depends = "['haskell-wai-cors', 'haskell-wai-logger', 'haskell-warp']"
 +++
 Web Application Interface
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/wai-3.2.4/libHSwai-3.2.4-7FAHeLzaFx6Dymi4swA2pp.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/wai-3.2.4/libHSwai-3.2.4-7FAHeLzaFx6Dymi4swA2pp.a
 * /usr/lib/ghc-9.8.1/site-local/wai-3.2.4/Network/Wai.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/wai-3.2.4/Network/Wai.hi
 * /usr/lib/ghc-9.8.1/site-local/wai-3.2.4/Network/Wai/Internal.dyn_hi
@@ -37,4 +38,3 @@ Web Application Interface
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/wai-3.2.4/LICENSE
 * /usr/share/haskell/haskell-wai/register.sh
 * /usr/share/haskell/haskell-wai/unregister.sh
-{{< /files >}}

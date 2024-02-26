@@ -16,7 +16,8 @@ reverse_depends = "['libcdr', 'libfreehand', 'libmspub', 'libmwaw', 'libvisio']"
 +++
 A C++ library to read and parse graphics in WPG
 
-{{< files text="show files" >}}* /usr/bin/wpg2raw
+## Files: 
+* /usr/bin/wpg2raw
 * /usr/bin/wpg2svg
 * /usr/bin/wpg2svgbatch.pl
 * /usr/include/libwpg-0.3/libwpg/libwpg.h
@@ -31,4 +32,3 @@ A C++ library to read and parse graphics in WPG
 * /usr/share/doc/libwpg-0.3.4/COPYING.MPL
 * /usr/share/doc/libwpg-0.3.4/NEWS
 * /usr/share/doc/libwpg-0.3.4/README
-{{< /files >}}

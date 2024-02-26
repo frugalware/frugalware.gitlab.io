@@ -16,7 +16,8 @@ reverse_depends = "['alsa-plugin-pulseaudio', 'chromium-browser', 'conky', 'efl'
 +++
 pulseaduio client library
 
-{{< files text="show files" >}}* /etc/pulse/client.conf
+## Files: 
+* /etc/pulse/client.conf
 * /usr/include/pulse/cdecl.h
 * /usr/include/pulse/channelmap.h
 * /usr/include/pulse/context.h
@@ -158,4 +159,3 @@ pulseaduio client library
 * /usr/share/man/man5/pulse-cli-syntax.5.gz
 * /usr/share/man/man5/pulse-client.conf.5.gz
 * /usr/share/man/man5/pulse-daemon.conf.5.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['angelfish', 'audiotube', 'kaccounts-integration', 'kdenetwo
 +++
 C++ Coroutines for Qt
 
-{{< files text="show files" >}}* /usr/include/qcoro5/qcoro/concepts_p.h
+## Files: 
+* /usr/include/qcoro5/qcoro/concepts_p.h
 * /usr/include/qcoro5/qcoro/config.h
 * /usr/include/qcoro5/qcoro/coroutine.h
 * /usr/include/qcoro5/qcoro/impl/connect.h
@@ -140,4 +141,3 @@ C++ Coroutines for Qt
 * /usr/share/qt5/mkspecs/modules/qt_QCoroQuick.pri
 * /usr/share/qt5/mkspecs/modules/qt_QCoroTest.pri
 * /usr/share/qt5/mkspecs/modules/qt_QCoroWebSockets.pri
-{{< /files >}}

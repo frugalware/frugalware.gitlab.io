@@ -16,7 +16,8 @@ reverse_depends = "['fwupd']"
 +++
 EFI Development Environment for x86_64.
 
-{{< files text="show files" >}}* /usr/include/efi/efi.h
+## Files: 
+* /usr/include/efi/efi.h
 * /usr/include/efi/efiapi.h
 * /usr/include/efi/eficompiler.h
 * /usr/include/efi/eficon.h
@@ -122,4 +123,3 @@ EFI Development Environment for x86_64.
 * /usr/share/gnu-efi/apps/x86_64/t8.efi
 * /usr/share/gnu-efi/apps/x86_64/tcc.efi
 * /usr/share/gnu-efi/apps/x86_64/unsetdbg.efi
-{{< /files >}}

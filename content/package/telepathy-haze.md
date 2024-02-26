@@ -15,7 +15,8 @@ depends = "['libpurple>=2.11.0-5', 'pygobject3', 'telepathy-glib>=0.24.1-8']"
 +++
 A telepathy connection manager that use libpurple
 
-{{< files text="show files" >}}* /usr/lib/telepathy-haze/telepathy-haze
+## Files: 
+* /usr/lib/telepathy-haze/telepathy-haze
 * /usr/share/dbus-1/services/org.freedesktop.Telepathy.ConnectionManager.haze.service
 * /usr/share/doc/telepathy-haze-0.8.1/AUTHORS
 * /usr/share/doc/telepathy-haze-0.8.1/ChangeLog
@@ -23,4 +24,3 @@ A telepathy connection manager that use libpurple
 * /usr/share/doc/telepathy-haze-0.8.1/INSTALL
 * /usr/share/doc/telepathy-haze-0.8.1/NEWS
 * /usr/share/man/man8/telepathy-haze.8.gz
-{{< /files >}}

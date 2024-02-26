@@ -16,7 +16,8 @@ reverse_depends = "['ppxlib']"
 +++
 Library containing the definition of S-expressions and some base converters
 
-{{< files text="show files" >}}* /usr/lib/ocaml/sexplib0/dune-package
+## Files: 
+* /usr/lib/ocaml/sexplib0/dune-package
 * /usr/lib/ocaml/sexplib0/META
 * /usr/lib/ocaml/sexplib0/opam
 * /usr/lib/ocaml/sexplib0/sexp.ml
@@ -71,4 +72,3 @@ Library containing the definition of S-expressions and some base converters
 * /usr/share/doc/sexplib0-0.16.0/sexplib0/CHANGES.md
 * /usr/share/doc/sexplib0-0.16.0/sexplib0/LICENSE.md
 * /usr/share/doc/sexplib0-0.16.0/sexplib0/README.md
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 Statically linked binaries of Qemu with user emulation
 
-{{< files text="show files" >}}* /usr/bin/qemu-aarch64
+## Files: 
+* /usr/bin/qemu-aarch64
 * /usr/bin/qemu-aarch64_be
 * /usr/bin/qemu-alpha
 * /usr/bin/qemu-arm
@@ -49,4 +50,3 @@ Statically linked binaries of Qemu with user emulation
 * /usr/bin/qemu-xtensa
 * /usr/bin/qemu-xtensaeb
 * /usr/lib/binfmt.d/qemu-static.conf
-{{< /files >}}

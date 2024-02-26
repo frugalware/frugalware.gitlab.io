@@ -16,7 +16,8 @@ reverse_depends = "['haskell-text-conversions']"
 +++
 RFC 4648-compliant Base16 encodings for ByteStrings
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/base16-bytestring-1.0.2.0/Data/ByteString/Base16.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/base16-bytestring-1.0.2.0/Data/ByteString/Base16.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/base16-bytestring-1.0.2.0/Data/ByteString/Base16.hi
 * /usr/lib/ghc-9.8.1/site-local/base16-bytestring-1.0.2.0/Data/ByteString/Base16/Internal.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/base16-bytestring-1.0.2.0/Data/ByteString/Base16/Internal.hi
@@ -39,4 +40,3 @@ RFC 4648-compliant Base16 encodings for ByteStrings
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/base16-bytestring-1.0.2.0/LICENSE
 * /usr/share/haskell/haskell-base16-bytestring/register.sh
 * /usr/share/haskell/haskell-base16-bytestring/unregister.sh
-{{< /files >}}

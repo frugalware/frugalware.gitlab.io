@@ -16,7 +16,8 @@ reverse_depends = "['bluedevil5', 'powerdevil5']"
 +++
 A Qt wrapper for bluez
 
-{{< files text="show files" >}}* /usr/include/KF5/BluezQt/BluezQt/Adapter
+## Files: 
+* /usr/include/KF5/BluezQt/BluezQt/Adapter
 * /usr/include/KF5/BluezQt/bluezqt/adapter.h
 * /usr/include/KF5/BluezQt/BluezQt/Agent
 * /usr/include/KF5/BluezQt/bluezqt/agent.h
@@ -110,4 +111,3 @@ A Qt wrapper for bluez
 * /usr/share/qt5/qml/org/kde/bluezqt/DevicesModel.qml
 * /usr/share/qt5/qml/org/kde/bluezqt/libbluezqtextensionplugin.so
 * /usr/share/qt5/qml/org/kde/bluezqt/qmldir
-{{< /files >}}

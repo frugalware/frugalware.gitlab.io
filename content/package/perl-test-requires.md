@@ -15,9 +15,9 @@ depends = "['perl>=5.34.0']"
 +++
 Checks to see if the module can be loaded
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/Test/Requires.pm
+## Files: 
+* /usr/lib/perl5/site_perl/current/Test/Requires.pm
 * /usr/share/doc/perl-test-requires-0.11/LICENSE
 * /usr/share/doc/perl-test-requires-0.11/MANIFEST
 * /usr/share/doc/perl-test-requires-0.11/README.md
 * /usr/share/man/man3/Test::Requires.3perl.gz
-{{< /files >}}

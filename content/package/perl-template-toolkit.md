@@ -16,7 +16,8 @@ reverse_depends = "['freecell-solver']"
 +++
 Perl template processing system
 
-{{< files text="show files" >}}* /usr/bin/site_perl/tpage
+## Files: 
+* /usr/bin/site_perl/tpage
 * /usr/bin/site_perl/ttree
 * /usr/lib/perl5/5.36/site_perl/auto/Template/Stash/XS/XS.so
 * /usr/lib/perl5/5.36/site_perl/Template.pm
@@ -152,4 +153,3 @@ Perl template processing system
 * /usr/share/man/man3/Template::Tutorial::Web.3perl.gz
 * /usr/share/man/man3/Template::View.3perl.gz
 * /usr/share/man/man3/Template::VMethods.3perl.gz
-{{< /files >}}

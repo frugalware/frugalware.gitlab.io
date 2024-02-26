@@ -16,7 +16,8 @@ reverse_depends = "['chromium-browser', 'efl', 'freeimage', 'gegl', 'graphicsmag
 +++
 A library for a new image format comparable to JPEG.
 
-{{< files text="show files" >}}* /usr/bin/cwebp
+## Files: 
+* /usr/bin/cwebp
 * /usr/bin/dwebp
 * /usr/bin/gif2webp
 * /usr/bin/img2webp
@@ -61,4 +62,3 @@ A library for a new image format comparable to JPEG.
 * /usr/share/man/man1/img2webp.1.gz
 * /usr/share/man/man1/webpinfo.1.gz
 * /usr/share/man/man1/webpmux.1.gz
-{{< /files >}}

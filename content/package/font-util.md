@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.Org font utils
 
-{{< files text="show files" >}}* /usr/bin/bdftruncate
+## Files: 
+* /usr/bin/bdftruncate
 * /usr/bin/ucs2any
 * /usr/lib/pkgconfig/fontutil.pc
 * /usr/share/aclocal/fontutil.m4
@@ -44,4 +45,3 @@ X.Org font utils
 * /usr/share/fonts/X11/util/map-KOI8-R
 * /usr/share/man/man1/bdftruncate.1.gz
 * /usr/share/man/man1/ucs2any.1.gz
-{{< /files >}}

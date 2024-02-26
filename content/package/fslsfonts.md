@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org fslsfonts application
 
-{{< files text="show files" >}}* /usr/bin/fslsfonts
+## Files: 
+* /usr/bin/fslsfonts
 * /usr/share/doc/fslsfonts-1.0.6/ChangeLog
 * /usr/share/doc/fslsfonts-1.0.6/COPYING
 * /usr/share/doc/fslsfonts-1.0.6/INSTALL
 * /usr/share/doc/fslsfonts-1.0.6/README.md
 * /usr/share/man/man1/fslsfonts.1.gz
-{{< /files >}}

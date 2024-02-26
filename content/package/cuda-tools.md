@@ -16,7 +16,8 @@ reverse_depends = "['opencv-cuda']"
 +++
 NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 
-{{< files text="show files" >}}* /opt/cuda/bin/nvvp
+## Files: 
+* /opt/cuda/bin/nvvp
 * /opt/cuda/libnvvp/.eclipseproduct
 * /opt/cuda/libnvvp/artifacts.xml
 * /opt/cuda/libnvvp/configuration/config.ini
@@ -2972,4 +2973,3 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/nsight_systems/target-linux-x64/rules/README.txt
 * /opt/cuda/nsight_systems/target-linux-x64/sqlite3
 * /opt/cuda/nsight_systems/target-linux-x64/vulkan-layers/VkLayer_nsight-sys_linux.json
-{{< /files >}}

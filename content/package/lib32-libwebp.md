@@ -16,7 +16,8 @@ reverse_depends = "['lib32-sdl2_image']"
 +++
 A library for a new image format comparable to JPEG. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/cwebp
+## Files: 
+* /usr/i686-frugalware-linux/bin/cwebp
 * /usr/i686-frugalware-linux/bin/dwebp
 * /usr/i686-frugalware-linux/bin/gif2webp
 * /usr/i686-frugalware-linux/bin/img2webp
@@ -50,4 +51,3 @@ A library for a new image format comparable to JPEG. ( 32bit )
 * /usr/lib32/pkgconfig/libwebpdecoder.pc
 * /usr/lib32/pkgconfig/libwebpdemux.pc
 * /usr/lib32/pkgconfig/libwebpmux.pc
-{{< /files >}}

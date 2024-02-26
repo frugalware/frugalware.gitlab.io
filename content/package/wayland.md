@@ -16,7 +16,8 @@ reverse_depends = "['clightd', 'efl', 'efl', 'egl-wayland', 'enlightenment', 'gt
 +++
 Wayland is intended as a simpler replacement for Xorg.
 
-{{< files text="show files" >}}* /usr/bin/wayland-scanner
+## Files: 
+* /usr/bin/wayland-scanner
 * /usr/include/wayland-client-core.h
 * /usr/include/wayland-client-protocol.h
 * /usr/include/wayland-client.h
@@ -53,4 +54,3 @@ Wayland is intended as a simpler replacement for Xorg.
 * /usr/share/wayland/wayland-scanner.mk
 * /usr/share/wayland/wayland.dtd
 * /usr/share/wayland/wayland.xml
-{{< /files >}}

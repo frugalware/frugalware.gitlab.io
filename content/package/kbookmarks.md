@@ -16,7 +16,8 @@ reverse_depends = "['dolphin', 'kcharselect', 'kio', 'krdc']"
 +++
 Framework that let you access and manipulate bookmarks stored using XBEL format.
 
-{{< files text="show files" >}}* /usr/include/KF5/KBookmarks/KBookmark
+## Files: 
+* /usr/include/KF5/KBookmarks/KBookmark
 * /usr/include/KF5/KBookmarks/kbookmark.h
 * /usr/include/KF5/KBookmarks/KBookmarkAction
 * /usr/include/KF5/KBookmarks/kbookmarkaction.h
@@ -142,4 +143,3 @@ Framework that let you access and manipulate bookmarks stored using XBEL format.
 * /usr/share/qlogging-categories5/kbookmarks.categories
 * /usr/share/qlogging-categories5/kbookmarks.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KBookmarks.pri
-{{< /files >}}

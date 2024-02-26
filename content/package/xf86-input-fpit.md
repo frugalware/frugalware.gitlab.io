@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org driver for fpit input devices
 
-{{< files text="show files" >}}* /usr/lib/xorg/modules/input/fpit_drv.so
+## Files: 
+* /usr/lib/xorg/modules/input/fpit_drv.so
 * /usr/share/doc/xf86-input-fpit-1.4.0/ChangeLog
 * /usr/share/doc/xf86-input-fpit-1.4.0/COPYING
 * /usr/share/doc/xf86-input-fpit-1.4.0/README
 * /usr/share/man/man4/fpit.4.gz
 * /usr/share/X11/xorg.conf.d/50-fpit.conf
-{{< /files >}}

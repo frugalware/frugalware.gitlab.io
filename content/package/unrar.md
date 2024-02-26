@@ -16,7 +16,7 @@ reverse_depends = "['binwalk']"
 +++
 Uncompress rar files
 
-{{< files text="show files" >}}* /usr/bin/unrar
+## Files: 
+* /usr/bin/unrar
 * /usr/include/unrar/dll.hpp
 * /usr/lib/libunrar.so
-{{< /files >}}

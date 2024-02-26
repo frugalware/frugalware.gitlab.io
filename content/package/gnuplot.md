@@ -16,7 +16,8 @@ reverse_depends = "['darktable', 'octave']"
 +++
 Gnuplot is a portable command-line driven interactive data and function plotting utility.
 
-{{< files text="show files" >}}* /usr/bin/gnuplot
+## Files: 
+* /usr/bin/gnuplot
 * /usr/lib/gnuplot/gnuplot/5.4/gnuplot_qt
 * /usr/lib/gnuplot/gnuplot/5.4/gnuplot_x11
 * /usr/share/doc/gnuplot-5.4.8/BUGS
@@ -66,4 +67,3 @@ Gnuplot is a portable command-line driven interactive data and function plotting
 * /usr/share/gnuplot/5.4/qt/qtgnuplot_fr.qm
 * /usr/share/gnuplot/5.4/qt/qtgnuplot_ja.qm
 * /usr/share/man/man1/gnuplot.1.gz
-{{< /files >}}

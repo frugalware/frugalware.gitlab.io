@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Swati Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/locale/ss/charset
+## Files: 
+* usr/share/locale/ss/charset
 * usr/share/locale/ss/entry.desktop
 * usr/share/locale/ss/LC_MESSAGES/appletproxy.mo
 * usr/share/locale/ss/LC_MESSAGES/clockapplet.mo
@@ -154,4 +155,3 @@ Swati Localization for KDE.
 * usr/share/locale/ss/LC_MESSAGES/ppdtranslations.mo
 * usr/share/locale/ss/LC_MESSAGES/quicklauncher.mo
 * usr/share/locale/ss/LC_MESSAGES/timezones.mo
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['kdelibs4support>=5.115.0', 'khotkeys5>=5.27.10']"
 +++
 KDE menu editor.
 
-{{< files text="show files" >}}* /usr/bin/kmenuedit
+## Files: 
+* /usr/bin/kmenuedit
 * /usr/lib/kconf_update_bin/kmenuedit_globalaccel
 * /usr/share/applications/org.kde.kmenuedit.desktop
 * /usr/share/doc/HTML/ca/kmenuedit/done.png
@@ -180,4 +181,3 @@ KDE menu editor.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kmenuedit.mo
 * /usr/share/metainfo/org.kde.kmenuedit.appdata.xml
 * /usr/share/qlogging-categories5/kmenuedit.categories
-{{< /files >}}

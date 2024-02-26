@@ -16,7 +16,8 @@ reverse_depends = "['unzsplit']"
 +++
 Creates Images of blockdevices.
 
-{{< files text="show files" >}}* /usr/bin/zsplit
+## Files: 
+* /usr/bin/zsplit
 * /usr/share/doc/zsplit-1.2.0/AUTHORS
 * /usr/share/doc/zsplit-1.2.0/ChangeLog
 * /usr/share/doc/zsplit-1.2.0/COPYING
@@ -26,4 +27,3 @@ Creates Images of blockdevices.
 * /usr/share/doc/zsplit-1.2.0/README
 * /usr/share/doc/zsplit-1.2.0/TODO
 * /usr/share/man/man8/zsplit.8.gz
-{{< /files >}}

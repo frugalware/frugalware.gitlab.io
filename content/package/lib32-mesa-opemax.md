@@ -15,5 +15,5 @@ depends = "['lib32-elfutils>=0.167-3', 'lib32-expat>=2.1.0-6', 'lib32-libdrm>=2.
 +++
 Mesa Support for OpenMAX (32-bit)
 
-{{< files text="show files" >}}* /usr/lib32/bellagio/libomx_mesa.so
-{{< /files >}}
+## Files: 
+* /usr/lib32/bellagio/libomx_mesa.so

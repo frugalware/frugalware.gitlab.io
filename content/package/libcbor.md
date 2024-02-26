@@ -16,7 +16,8 @@ reverse_depends = "['libfido2']"
 +++
 C library for parsing and generating CBOR, the general-purpose schema-less binary data format
 
-{{< files text="show files" >}}* /usr/include/cbor.h
+## Files: 
+* /usr/include/cbor.h
 * /usr/include/cbor/arrays.h
 * /usr/include/cbor/bytestrings.h
 * /usr/include/cbor/callbacks.h
@@ -45,4 +46,3 @@ C library for parsing and generating CBOR, the general-purpose schema-less binar
 * /usr/lib/libcbor.so.0.11.0
 * /usr/lib/pkgconfig/libcbor.pc
 * /usr/share/doc/libcbor-0.11.0/README.md
-{{< /files >}}

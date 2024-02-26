@@ -15,8 +15,8 @@ depends = "[]"
 +++
 GNOME frontend for Tracker
 
-{{< files text="show files" >}}* usr/bin/tracker-search-tool
+## Files: 
+* usr/bin/tracker-search-tool
 * usr/share/applications/tracker-search-tool.desktop
 * usr/share/pixmaps/tracker/thumbnail_frame.png
 * usr/share/pixmaps/tracker/tracker.png
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['kscreen5', 'kscreenlocker']"
 +++
 Qt component to allow applications to make use of the Wayland wl-layer-shell protocol
 
-{{< files text="show files" >}}* /usr/include/LayerShellQt/layershellqt_export.h
+## Files: 
+* /usr/include/LayerShellQt/layershellqt_export.h
 * /usr/include/LayerShellQt/Shell
 * /usr/include/LayerShellQt/shell.h
 * /usr/include/LayerShellQt/Window
@@ -31,4 +32,3 @@ Qt component to allow applications to make use of the Wayland wl-layer-shell pro
 * /usr/lib/qt5/plugins/wayland-shell-integration/liblayer-shell.so
 * /usr/share/doc/layer-shell-qt-5.27.10/README.md
 * /usr/share/doc/layer-shell-qt-5.27.10/README.md.license
-{{< /files >}}

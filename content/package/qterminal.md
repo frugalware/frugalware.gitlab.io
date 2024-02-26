@@ -16,7 +16,8 @@ reverse_depends = "['lumina-desktop']"
 +++
 The lightweight Qt5 terminal emulator
 
-{{< files text="show files" >}}* /usr/bin/qterminal
+## Files: 
+* /usr/bin/qterminal
 * /usr/share/applications/qterminal-drop.desktop
 * /usr/share/applications/qterminal.desktop
 * /usr/share/doc/qterminal-1.3.0/AUTHORS
@@ -66,4 +67,3 @@ The lightweight Qt5 terminal emulator
 * /usr/share/qterminal/translations/qterminal_uk.qm
 * /usr/share/qterminal/translations/qterminal_zh_CN.qm
 * /usr/share/qterminal/translations/qterminal_zh_TW.qm
-{{< /files >}}

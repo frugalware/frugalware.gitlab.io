@@ -16,7 +16,8 @@ reverse_depends = "['xscreensaver']"
 +++
 Screensavers for Xscreensaver
 
-{{< files text="show files" >}}* /usr/lib/xscreensaver/abstractile
+## Files: 
+* /usr/lib/xscreensaver/abstractile
 * /usr/lib/xscreensaver/anemone
 * /usr/lib/xscreensaver/anemotaxis
 * /usr/lib/xscreensaver/antinspect
@@ -783,4 +784,3 @@ Screensavers for Xscreensaver
 * /usr/share/xscreensaver/config/xrayswarm.xml
 * /usr/share/xscreensaver/config/xspirograph.xml
 * /usr/share/xscreensaver/config/zoom.xml
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['kosmindoormap', 'ktrip']"
 +++
 Library to assist with accessing public transport timetables and other data
 
-{{< files text="show files" >}}* /usr/include/KPublicTransport/KPublicTransport/AbstractQueryModel
+## Files: 
+* /usr/include/KPublicTransport/KPublicTransport/AbstractQueryModel
 * /usr/include/KPublicTransport/kpublictransport/abstractquerymodel.h
 * /usr/include/KPublicTransport/KPublicTransport/Attribution
 * /usr/include/KPublicTransport/kpublictransport/attribution.h
@@ -112,4 +113,3 @@ Library to assist with accessing public transport timetables and other data
 * /usr/share/qt5/qml/org/kde/kpublictransport/ui/libkpublictransportquickplugin.so
 * /usr/share/qt5/qml/org/kde/kpublictransport/ui/qmldir
 * /usr/share/qt5/qml/org/kde/kpublictransport/ui/VehicleSectionItem.qml
-{{< /files >}}

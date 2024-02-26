@@ -15,7 +15,8 @@ depends = "['clang-libs>=17.0.6', 'libxslt', 'qt5-xmlpatterns>=5.15.10']"
 +++
 Support library for Python bindings.
 
-{{< files text="show files" >}}* /usr/bin/shiboken2
+## Files: 
+* /usr/bin/shiboken2
 * /usr/bin/shiboken_tool.py
 * /usr/include/shiboken2/autodecref.h
 * /usr/include/shiboken2/basewrapper.h
@@ -54,4 +55,3 @@ Support library for Python bindings.
 * /usr/share/doc/shiboken2-5.15.11/README.pyside2.md
 * /usr/share/doc/shiboken2-5.15.11/README.shiboken2-generator.md
 * /usr/share/doc/shiboken2-5.15.11/README.shiboken2.md
-{{< /files >}}

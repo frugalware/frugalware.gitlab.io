@@ -16,7 +16,8 @@ reverse_depends = "['anyremote', 'enlightenment', 'gammu', 'gnokii', 'gpsd', 'kv
 +++
 Library to use the BlueZ Linux Bluetooth stack
 
-{{< files text="show files" >}}* /etc/bluetooth/main.conf
+## Files: 
+* /etc/bluetooth/main.conf
 * /usr/bin/bluemoon
 * /usr/bin/bluetoothctl
 * /usr/bin/bluez-simple-agent
@@ -181,4 +182,3 @@ Library to use the BlueZ Linux Bluetooth stack
 * /usr/share/man/man8/bluetooth-meshd.8.gz
 * /usr/share/man/man8/bluetoothd.8.gz
 * /usr/share/zsh/site-functions/_bluetoothctl
-{{< /files >}}

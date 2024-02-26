@@ -16,11 +16,11 @@ license = "GPL2"
 +++
 X.Org xmag application
 
-{{< files text="show files" >}}* /usr/bin/xmag
+## Files: 
+* /usr/bin/xmag
 * /usr/share/doc/xmag-1.0.7/ChangeLog
 * /usr/share/doc/xmag-1.0.7/COPYING
 * /usr/share/doc/xmag-1.0.7/INSTALL
 * /usr/share/doc/xmag-1.0.7/README.md
 * /usr/share/man/man1/xmag.1.gz
 * /usr/share/X11/app-defaults/Xmag
-{{< /files >}}

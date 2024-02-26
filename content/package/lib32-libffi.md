@@ -16,10 +16,10 @@ reverse_depends = "['lib32-avahi-glib', 'lib32-cairo', 'lib32-clang', 'lib32-cla
 +++
 A Portable Foreign Function Interface Library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/ffi.h
+## Files: 
+* /usr/i686-frugalware-linux/include/ffi.h
 * /usr/i686-frugalware-linux/include/ffitarget.h
 * /usr/lib32/libffi.so
 * /usr/lib32/libffi.so.8
 * /usr/lib32/libffi.so.8.1.3
 * /usr/lib32/pkgconfig/libffi.pc
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['darktable']"
 +++
 Image procession framework
 
-{{< files text="show files" >}}* /usr/bin/gmic
+## Files: 
+* /usr/bin/gmic
 * /usr/bin/gmic_qt
 * /usr/bin/zart
 * /usr/include/gmic.h
@@ -44,4 +45,3 @@ Image procession framework
 * /usr/share/icons/hicolor/scalable/apps/zart.svg
 * /usr/share/man/fr/man1/gmic.1.gz
 * /usr/share/man/man1/gmic.1.gz
-{{< /files >}}

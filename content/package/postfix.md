@@ -16,7 +16,8 @@ reverse_depends = "['arpwatch', 'postfixadmin', 'postgrey']"
 +++
 A fast, easy to administer, and secure MTA
 
-{{< files text="show files" >}}* /etc/postfix/access
+## Files: 
+* /etc/postfix/access
 * /etc/postfix/aliases
 * /etc/postfix/bounce.cf.default
 * /etc/postfix/canonical
@@ -190,4 +191,3 @@ A fast, easy to administer, and secure MTA
 * /usr/share/man/man8/trivial-rewrite.8.gz
 * /usr/share/man/man8/verify.8.gz
 * /usr/share/man/man8/virtual.8.gz
-{{< /files >}}

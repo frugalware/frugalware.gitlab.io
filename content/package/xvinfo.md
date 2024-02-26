@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org xvinfo application
 
-{{< files text="show files" >}}* /usr/bin/xvinfo
+## Files: 
+* /usr/bin/xvinfo
 * /usr/share/doc/xvinfo-1.1.5/ChangeLog
 * /usr/share/doc/xvinfo-1.1.5/COPYING
 * /usr/share/doc/xvinfo-1.1.5/INSTALL
 * /usr/share/doc/xvinfo-1.1.5/README.md
 * /usr/share/man/man1/xvinfo.1.gz
-{{< /files >}}

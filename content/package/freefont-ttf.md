@@ -15,7 +15,8 @@ depends = "['fontconfig', 'mkfontscale']"
 +++
 GNU FreeFont is a free family of scalable outline fonts.
 
-{{< files text="show files" >}}* /usr/share/doc/freefont-ttf-20120503/AUTHORS
+## Files: 
+* /usr/share/doc/freefont-ttf-20120503/AUTHORS
 * /usr/share/doc/freefont-ttf-20120503/ChangeLog
 * /usr/share/doc/freefont-ttf-20120503/COPYING
 * /usr/share/doc/freefont-ttf-20120503/CREDITS
@@ -33,4 +34,3 @@ GNU FreeFont is a free family of scalable outline fonts.
 * /usr/share/fonts/X11/TTF/FreeSerifBold.ttf
 * /usr/share/fonts/X11/TTF/FreeSerifBoldItalic.ttf
 * /usr/share/fonts/X11/TTF/FreeSerifItalic.ttf
-{{< /files >}}

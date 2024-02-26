@@ -16,7 +16,8 @@ reverse_depends = "['darktable', 'gwenview', 'kfilemetadata5', 'kio-extras', 'ko
 +++
 Exiv2 is a C++ library and a command line utility to access image metadata.
 
-{{< files text="show files" >}}* /usr/bin/exiv2
+## Files: 
+* /usr/bin/exiv2
 * /usr/include/exiv2/asfvideo.hpp
 * /usr/include/exiv2/basicio.hpp
 * /usr/include/exiv2/bmffimage.hpp
@@ -97,4 +98,3 @@ Exiv2 is a C++ library and a command line utility to access image metadata.
 * /usr/share/locale/uk/LC_MESSAGES/exiv2.mo
 * /usr/share/locale/vi/LC_MESSAGES/exiv2.mo
 * /usr/share/man/man1/exiv2.1.gz
-{{< /files >}}

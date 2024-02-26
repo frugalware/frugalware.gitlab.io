@@ -15,7 +15,8 @@ depends = "['glib2']"
 +++
 A Kexi plugin to allow the import of MS Access (.mdb) files.
 
-{{< files text="show files" >}}* usr/lib/kde3/keximigrate_mdb.la
+## Files: 
+* usr/lib/kde3/keximigrate_mdb.la
 * usr/lib/kde3/keximigrate_mdb.so
 * usr/share/doc/keximdb-1.1.0/AUTHORS
 * usr/share/doc/keximdb-1.1.0/ChangeLog
@@ -24,4 +25,3 @@ A Kexi plugin to allow the import of MS Access (.mdb) files.
 * usr/share/doc/keximdb-1.1.0/README
 * usr/share/doc/keximdb-1.1.0/VERSION
 * usr/share/services/keximigrate_mdb.desktop
-{{< /files >}}

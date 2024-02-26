@@ -16,7 +16,7 @@ reverse_depends = "['vtk-java-ffmpeg', 'vtk-python3-ffmpeg']"
 +++
 Openmpi interface and bindings for vtk
 
-{{< files text="show files" >}}* /usr/lib/libvtkIOFFMPEG.so
+## Files: 
+* /usr/lib/libvtkIOFFMPEG.so
 * /usr/lib/libvtkIOFFMPEG.so.1
 * /usr/lib/libvtkIOFFMPEG.so.9.3
-{{< /files >}}

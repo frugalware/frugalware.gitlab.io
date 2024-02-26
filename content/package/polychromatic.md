@@ -15,7 +15,8 @@ depends = "['hicolor-icon-theme', 'imagemagick>=7.1.1', 'libappindicator', 'open
 +++
 A graphical front end for managing Razer peripherals under GNU/Linux.
 
-{{< files text="show files" >}}* /etc/xdg/autostart/polychromatic-autostart.desktop
+## Files: 
+* /etc/xdg/autostart/polychromatic-autostart.desktop
 * /usr/bin/polychromatic-cli
 * /usr/bin/polychromatic-controller
 * /usr/bin/polychromatic-helper
@@ -364,4 +365,3 @@ A graphical front end for managing Razer peripherals under GNU/Linux.
 * /usr/share/polychromatic/qt/style.qss
 * /usr/share/polychromatic/qt/troubleshooter.ui
 * /usr/share/polychromatic/qt/widget-summary.ui
-{{< /files >}}

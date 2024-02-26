@@ -16,7 +16,8 @@ reverse_depends = "['alligator', 'angelfish', 'arianna', 'audiotube', 'colord-kd
 +++
 Add-ons for the Kirigami framework
 
-{{< files text="show files" >}}* /usr/lib/cmake/KF5KirigamiAddons/KF5KirigamiAddonsConfig.cmake
+## Files: 
+* /usr/lib/cmake/KF5KirigamiAddons/KF5KirigamiAddonsConfig.cmake
 * /usr/lib/cmake/KF5KirigamiAddons/KF5KirigamiAddonsConfigVersion.cmake
 * /usr/share/doc/kirigami-addons-0.11.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kirigami-addons.mo
@@ -154,4 +155,3 @@ Add-ons for the Kirigami framework
 * /usr/share/qt5/qml/org/kde/kirigamiaddons/treeview/TreeListView.qml
 * /usr/share/qt5/qml/org/kde/kirigamiaddons/treeview/TreeTableView.qml
 * /usr/share/qt5/qml/org/kde/kirigamiaddons/treeview/TreeViewDecoration.qml
-{{< /files >}}

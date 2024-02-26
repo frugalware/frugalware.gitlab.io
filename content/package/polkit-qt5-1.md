@@ -16,7 +16,8 @@ reverse_depends = "['calamares-frugalware', 'kauth']"
 +++
 A library that allows developers to access Polikit API with a nice Qt-style API
 
-{{< files text="show files" >}}* /usr/include/polkit-qt5-1/polkitqt1-actiondescription.h
+## Files: 
+* /usr/include/polkit-qt5-1/polkitqt1-actiondescription.h
 * /usr/include/polkit-qt5-1/polkitqt1-agent-export.h
 * /usr/include/polkit-qt5-1/polkitqt1-agent-listener.h
 * /usr/include/polkit-qt5-1/polkitqt1-agent-session.h
@@ -64,4 +65,3 @@ A library that allows developers to access Polikit API with a nice Qt-style API
 * /usr/share/doc/polkit-qt5-1-0.200.0/README
 * /usr/share/doc/polkit-qt5-1-0.200.0/README.porting
 * /usr/share/doc/polkit-qt5-1-0.200.0/TODO
-{{< /files >}}

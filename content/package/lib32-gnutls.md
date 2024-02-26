@@ -16,7 +16,8 @@ reverse_depends = "['lib32-ffmpeg', 'lib32-libcups', 'lib32-libcurl-gnutls', 'li
 +++
 A library which provides a secure layer over a reliable transport layer ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/certtool
+## Files: 
+* /usr/i686-frugalware-linux/bin/certtool
 * /usr/i686-frugalware-linux/bin/gnutls-cli
 * /usr/i686-frugalware-linux/bin/gnutls-cli-debug
 * /usr/i686-frugalware-linux/bin/gnutls-serv
@@ -52,4 +53,3 @@ A library which provides a secure layer over a reliable transport layer ( 32bit 
 * /usr/lib32/libgnutlsxx.so.30
 * /usr/lib32/libgnutlsxx.so.30.0.0
 * /usr/lib32/pkgconfig/gnutls.pc
-{{< /files >}}

@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X RandR Library
 
-{{< files text="show files" >}}* /usr/include/X11/extensions/Xrandr.h
+## Files: 
+* /usr/include/X11/extensions/Xrandr.h
 * /usr/lib/libXrandr.so
 * /usr/lib/libXrandr.so.2
 * /usr/lib/libXrandr.so.2.2.0
@@ -42,4 +43,3 @@ X RandR Library
 * /usr/share/man/man3/XRRSelectInput.3.gz
 * /usr/share/man/man3/XRRSetScreenConfig.3.gz
 * /usr/share/man/man3/XRRSetScreenConfigAndRate.3.gz
-{{< /files >}}

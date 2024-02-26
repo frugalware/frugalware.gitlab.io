@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Bulgarian support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/bg/default.css
+## Files: 
+* /usr/lib/libreoffice/help/bg/default.css
 * /usr/lib/libreoffice/help/bg/err.html
 * /usr/lib/libreoffice/help/bg/highcontrast1.css
 * /usr/lib/libreoffice/help/bg/highcontrast2.css
@@ -135,4 +136,3 @@ Installs Bulgarian support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-bg.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_bg.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_bg.xcd
-{{< /files >}}

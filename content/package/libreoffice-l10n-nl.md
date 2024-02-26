@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Dutch support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/nl/default.css
+## Files: 
+* /usr/lib/libreoffice/help/nl/default.css
 * /usr/lib/libreoffice/help/nl/err.html
 * /usr/lib/libreoffice/help/nl/highcontrast1.css
 * /usr/lib/libreoffice/help/nl/highcontrast2.css
@@ -135,4 +136,3 @@ Installs Dutch support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-nl.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_nl.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_nl.xcd
-{{< /files >}}

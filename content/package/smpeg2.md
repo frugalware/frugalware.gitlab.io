@@ -15,7 +15,8 @@ depends = "['sdl2>=2.0.4-2']"
 +++
 SDL2 MPEG Player Library is a general purpose MPEG video/audio player
 
-{{< files text="show files" >}}* /usr/bin/plaympeg2
+## Files: 
+* /usr/bin/plaympeg2
 * /usr/bin/smpeg2-config
 * /usr/include/smpeg2/MPEG.h
 * /usr/include/smpeg2/MPEGaction.h
@@ -38,4 +39,3 @@ SDL2 MPEG Player Library is a general purpose MPEG video/audio player
 * /usr/share/doc/smpeg2-2.0.0/README.SDL_mixer
 * /usr/share/doc/smpeg2-2.0.0/TODO
 * /usr/share/man/man1/plaympeg2.1.gz
-{{< /files >}}

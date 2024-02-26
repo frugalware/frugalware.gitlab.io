@@ -15,7 +15,8 @@ depends = "['python3']"
 +++
 A toolkit to convert between various different translation formats.
 
-{{< files text="show files" >}}* /usr/bin/buildxpi.py
+## Files: 
+* /usr/bin/buildxpi.py
 * /usr/bin/build_firefox.sh
 * /usr/bin/build_tmdb
 * /usr/bin/csv2po
@@ -1325,4 +1326,3 @@ A toolkit to convert between various different translation formats.
 * /usr/share/doc/translate-toolkit-3.8.0/COPYING
 * /usr/share/doc/translate-toolkit-3.8.0/CREDITS
 * /usr/share/doc/translate-toolkit-3.8.0/README.rst
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "['bcprov']"
 +++
 Java cryptography APIs.
 
-{{< files text="show files" >}}* /usr/share/java/bcutil.jar
-{{< /files >}}
+## Files: 
+* /usr/share/java/bcutil.jar

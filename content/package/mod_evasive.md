@@ -15,8 +15,8 @@ depends = "['apache>=2.4.35']"
 +++
 Module for Apache to provide evasive action in the event of an HTTP DoS or DDoS attack or brute force attack.
 
-{{< files text="show files" >}}* /usr/lib/apache/mod_evasive24.so
+## Files: 
+* /usr/lib/apache/mod_evasive24.so
 * /usr/share/doc/mod_evasive-1.10.1.gad6e89f/CHANGELOG
 * /usr/share/doc/mod_evasive-1.10.1.gad6e89f/LICENSE
 * /usr/share/doc/mod_evasive-1.10.1.gad6e89f/README
-{{< /files >}}

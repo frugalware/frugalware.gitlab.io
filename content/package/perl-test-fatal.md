@@ -15,9 +15,9 @@ depends = "['perl>=5.34.0']"
 +++
 Incredibly simple helpers for testing code with exceptions
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/Test/Fatal.pm
+## Files: 
+* /usr/lib/perl5/site_perl/Test/Fatal.pm
 * /usr/share/doc/perl-test-fatal-0.017/LICENSE
 * /usr/share/doc/perl-test-fatal-0.017/MANIFEST
 * /usr/share/doc/perl-test-fatal-0.017/README
 * /usr/share/man/man3/Test::Fatal.3perl.gz
-{{< /files >}}

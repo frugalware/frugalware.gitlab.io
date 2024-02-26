@@ -16,7 +16,8 @@ reverse_depends = "['python3-hatch-fancy-pypi-readme', 'python3-hatch-vcs']"
 +++
 A modern project, package, and virtual env manager (backend)
 
-{{< files text="show files" >}}* /usr/bin/hatchling
+## Files: 
+* /usr/bin/hatchling
 * /usr/lib/python3.12/site-packages/hatchling-1.18.0.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/hatchling-1.18.0.dist-info/licenses/LICENSE.txt
 * /usr/lib/python3.12/site-packages/hatchling-1.18.0.dist-info/METADATA
@@ -219,4 +220,3 @@ A modern project, package, and virtual env manager (backend)
 * /usr/lib/python3.12/site-packages/hatchling/__pycache__/__main__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/hatchling/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/python3-hatchling-1.18.0/README.md
-{{< /files >}}

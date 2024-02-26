@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Clone of plan9 shell.
 
-{{< files text="show files" >}}* /usr/bin/rc
+## Files: 
+* /usr/bin/rc
 * /usr/share/doc/rc-1.7.4/AUTHORS
 * /usr/share/doc/rc-1.7.4/ChangeLog
 * /usr/share/doc/rc-1.7.4/COPYING
@@ -23,4 +24,3 @@ Clone of plan9 shell.
 * /usr/share/doc/rc-1.7.4/NEWS
 * /usr/share/doc/rc-1.7.4/README
 * /usr/share/man/man1/rc.1.gz
-{{< /files >}}

@@ -15,6 +15,6 @@ depends = "[]"
 +++
 Static files for libatomic_ops
 
-{{< files text="show files" >}}* /usr/lib/libatomic_ops.a
+## Files: 
+* /usr/lib/libatomic_ops.a
 * /usr/lib/libatomic_ops_gpl.a
-{{< /files >}}

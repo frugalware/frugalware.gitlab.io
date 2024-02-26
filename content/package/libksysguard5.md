@@ -16,7 +16,8 @@ reverse_depends = "['kdevelop', 'ksysguard5', 'ksystemstats', 'plasma-vault', 'p
 +++
 Task management and system monitoring library.
 
-{{< files text="show files" >}}* /usr/include/ksysguard/faces/FaceLoader.h
+## Files: 
+* /usr/include/ksysguard/faces/FaceLoader.h
 * /usr/include/ksysguard/faces/SensorFaceController.h
 * /usr/include/ksysguard/faces/sensorfaces_export.h
 * /usr/include/ksysguard/faces/SensorFace_p.h
@@ -760,4 +761,3 @@ Task management and system monitoring library.
 * /usr/share/qt5/qml/org/kde/ksysguard/process/qmldir
 * /usr/share/qt5/qml/org/kde/ksysguard/sensors/libSensorsPlugin.so
 * /usr/share/qt5/qml/org/kde/ksysguard/sensors/qmldir
-{{< /files >}}

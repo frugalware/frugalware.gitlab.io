@@ -15,7 +15,8 @@ depends = "['python3>=3.11']"
 +++
 Providing low level functionalities needed for logilab python programs.
 
-{{< files text="show files" >}}* /usr/bin/logilab-pytest
+## Files: 
+* /usr/bin/logilab-pytest
 * /usr/lib/python3.12/site-packages/logilab/common/cache.py
 * /usr/lib/python3.12/site-packages/logilab/common/changelog.py
 * /usr/lib/python3.12/site-packages/logilab/common/clcommands.py
@@ -108,4 +109,3 @@ Providing low level functionalities needed for logilab python programs.
 * /usr/share/doc/python3-logilab-common-1.11.0/COPYING
 * /usr/share/doc/python3-logilab-common-1.11.0/COPYING.LESSER
 * /usr/share/doc/python3-logilab-common-1.11.0/README.rst
-{{< /files >}}

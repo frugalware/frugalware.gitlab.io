@@ -15,10 +15,10 @@ depends = "['glibc']"
 +++
 A file transfer tool that can send data simultaneously to many destinations on a LAN
 
-{{< files text="show files" >}}* /usr/bin/udp-receiver
+## Files: 
+* /usr/bin/udp-receiver
 * /usr/bin/udp-sender
 * /usr/include/udpcast/rateGovernor.h
 * /usr/share/doc/udpcast-20230924/COPYING
 * /usr/share/man/man1/udp-receiver.1.gz
 * /usr/share/man/man1/udp-sender.1.gz
-{{< /files >}}

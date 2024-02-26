@@ -16,7 +16,8 @@ reverse_depends = "['steamtinkerlaunch']"
 +++
 Display graphical dialogs from shell scripts or command line
 
-{{< files text="show files" >}}* /usr/bin/yad
+## Files: 
+* /usr/bin/yad
 * /usr/bin/yad-icon-browser
 * /usr/bin/yad-settings
 * /usr/bin/yad-tools
@@ -46,4 +47,3 @@ Display graphical dialogs from shell scripts or command line
 * /usr/share/locale/zh_TW/LC_MESSAGES/yad.mo
 * /usr/share/man/man1/yad-tools.1.gz
 * /usr/share/man/man1/yad.1.gz
-{{< /files >}}

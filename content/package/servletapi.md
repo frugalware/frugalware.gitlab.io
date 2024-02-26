@@ -16,6 +16,6 @@ reverse_depends = "['avalon-logkit']"
 +++
 Servlet API from jakarta.apache.org
 
-{{< files text="show files" >}}* /usr/share/java/jsp-api.jar
+## Files: 
+* /usr/share/java/jsp-api.jar
 * /usr/share/java/servlet-api.jar
-{{< /files >}}

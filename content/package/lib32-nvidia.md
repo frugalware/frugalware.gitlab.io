@@ -15,7 +15,8 @@ depends = "['lib32-libglvnd', 'nvidia=550.40.07-6']"
 +++
 3D accelerated display driver for Nvidia cards ( 32bit)
 
-{{< files text="show files" >}}* /usr/lib32/libcuda.so.550.40.07
+## Files: 
+* /usr/lib32/libcuda.so.550.40.07
 * /usr/lib32/libEGL_nvidia.so.550.40.07
 * /usr/lib32/libGLESv1_CM_nvidia.so.1
 * /usr/lib32/libGLESv1_CM_nvidia.so.550.40.07
@@ -35,4 +36,3 @@ depends = "['lib32-libglvnd', 'nvidia=550.40.07-6']"
 * /usr/lib32/libnvidia-ml.so.550.40.07
 * /usr/lib32/libnvidia-opencl.so.550.40.07
 * /usr/lib32/libnvidia-tls.so.550.40.07
-{{< /files >}}

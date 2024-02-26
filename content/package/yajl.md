@@ -16,7 +16,8 @@ reverse_depends = "['i3', 'i3status', 'libguestfs', 'libvirt', 'mod_security', '
 +++
 Is a small event-driven (SAX-style) JSON parser written in ANSI C, and a small validating JSON generator
 
-{{< files text="show files" >}}* /usr/bin/json_reformat
+## Files: 
+* /usr/bin/json_reformat
 * /usr/bin/json_verify
 * /usr/include/yajl/yajl_common.h
 * /usr/include/yajl/yajl_gen.h
@@ -31,4 +32,3 @@ Is a small event-driven (SAX-style) JSON parser written in ANSI C, and a small v
 * /usr/share/doc/yajl-2.1.0/COPYING
 * /usr/share/doc/yajl-2.1.0/README
 * /usr/share/doc/yajl-2.1.0/TODO
-{{< /files >}}

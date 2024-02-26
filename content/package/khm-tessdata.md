@@ -15,5 +15,5 @@ depends = "['glibc']"
 +++
 Language specific files for tesseract lang khm
 
-{{< files text="show files" >}}* /usr/share/tessdata/khm.traineddata
-{{< /files >}}
+## Files: 
+* /usr/share/tessdata/khm.traineddata

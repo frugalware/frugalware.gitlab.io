@@ -15,7 +15,8 @@ depends = "['python3>=3.10']"
 +++
 Frameworks API Documentation Tools.
 
-{{< files text="show files" >}}* /usr/bin/depdiagram_generate_all
+## Files: 
+* /usr/bin/depdiagram_generate_all
 * /usr/bin/kapidox-depdiagram-generate
 * /usr/bin/kapidox-depdiagram-prepare
 * /usr/bin/kapidox-generate
@@ -60,4 +61,3 @@ Frameworks API Documentation Tools.
 * /usr/lib/python3.12/site-packages/kapidox/__pycache__/utils.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/kapidox/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/kapidox-5.115.0/README.md
-{{< /files >}}

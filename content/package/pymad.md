@@ -15,7 +15,8 @@ depends = "['libmad', 'python3']"
 +++
 Python bindings for MAD
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/mad.cpython-312-x86_64-linux-gnu.so
+## Files: 
+* /usr/lib/python3.12/site-packages/mad.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/pymad-0.10-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pymad-0.10-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/pymad-0.10-py3.12.egg-info/SOURCES.txt
@@ -25,4 +26,3 @@ Python bindings for MAD
 * /usr/share/doc/pymad-0.10/NEWS
 * /usr/share/doc/pymad-0.10/README.md
 * /usr/share/doc/pymad-0.10/THANKS
-{{< /files >}}

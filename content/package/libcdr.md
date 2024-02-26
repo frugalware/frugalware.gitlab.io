@@ -16,7 +16,8 @@ reverse_depends = "['inkscape', 'libreoffice', 'scribus']"
 +++
 A library providing ability to interpret and import Corel Draw drawings into various applications.
 
-{{< files text="show files" >}}* /usr/bin/cdr2raw
+## Files: 
+* /usr/bin/cdr2raw
 * /usr/bin/cdr2text
 * /usr/bin/cdr2xhtml
 * /usr/bin/cmx2raw
@@ -35,4 +36,3 @@ A library providing ability to interpret and import Corel Draw drawings into var
 * /usr/share/doc/libcdr-0.1.7/COPYING.MPL
 * /usr/share/doc/libcdr-0.1.7/NEWS
 * /usr/share/doc/libcdr-0.1.7/README
-{{< /files >}}

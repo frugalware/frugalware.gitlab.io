@@ -15,5 +15,5 @@ depends = "['libmodplug', 'libvlc>=3.0.20']"
 +++
 vlc plugin for libmodplug
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/demux/libmod_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/demux/libmod_plugin.so

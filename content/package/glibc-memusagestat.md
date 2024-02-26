@@ -15,5 +15,5 @@ depends = "['gd>=2.1.1']"
 +++
 glibc memusagestat utility
 
-{{< files text="show files" >}}* /usr/bin/memusagestat
-{{< /files >}}
+## Files: 
+* /usr/bin/memusagestat

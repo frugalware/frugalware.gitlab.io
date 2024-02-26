@@ -16,7 +16,8 @@ reverse_depends = "['qt6-declarative']"
 +++
 The Qt6 toolkit, qtlanguageserver
 
-{{< files text="show files" >}}* /usr/include/qt6/QtJsonRpc/6.6.2/QtJsonRpc/private/qhttpmessagestreamparser_p.h
+## Files: 
+* /usr/include/qt6/QtJsonRpc/6.6.2/QtJsonRpc/private/qhttpmessagestreamparser_p.h
 * /usr/include/qt6/QtJsonRpc/6.6.2/QtJsonRpc/private/qjsonrpcprotocol_p.h
 * /usr/include/qt6/QtJsonRpc/6.6.2/QtJsonRpc/private/qjsonrpcprotocol_p_p.h
 * /usr/include/qt6/QtJsonRpc/6.6.2/QtJsonRpc/private/qjsonrpctransport_p.h
@@ -73,4 +74,3 @@ The Qt6 toolkit, qtlanguageserver
 * /usr/lib/qt6/mkspecs/modules/qt_lib_languageserver_private.pri
 * /usr/lib/qt6/modules/JsonRpcPrivate.json
 * /usr/lib/qt6/modules/LanguageServerPrivate.json
-{{< /files >}}

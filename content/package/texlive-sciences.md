@@ -15,7 +15,8 @@ depends = "['texlive=2023.0']"
 +++
 Extra science packages for TeX Live
 
-{{< files text="show files" >}}* /usr/bin/pygmentex
+## Files: 
+* /usr/bin/pygmentex
 * /usr/bin/ulqda
 * /usr/share/texmf-dist/bibtex/bst/computational-complexity/cc.bst
 * /usr/share/texmf-dist/bibtex/bst/computational-complexity/cc2.bst
@@ -917,4 +918,3 @@ Extra science packages for TeX Live
 * /usr/share/texmf-dist/tex/latex/yhmath/yhmath.sty
 * /usr/share/texmf-dist/tex/latex/ytableau/ytableau.sty
 * /usr/share/texmf-dist/tex/plain/enigma/enigma.tex
-{{< /files >}}

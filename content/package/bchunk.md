@@ -15,9 +15,9 @@ depends = "['glibc']"
 +++
 CD image format conversion from bin/cue to iso/cdr
 
-{{< files text="show files" >}}* /usr/bin/bchunk
+## Files: 
+* /usr/bin/bchunk
 * /usr/share/doc/bchunk-1.2.0/ChangeLog
 * /usr/share/doc/bchunk-1.2.0/COPYING
 * /usr/share/doc/bchunk-1.2.0/README
 * /usr/share/man/man1/bchunk.1.gz
-{{< /files >}}

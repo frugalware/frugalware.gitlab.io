@@ -16,7 +16,8 @@ reverse_depends = "['at-spi2-core', 'avahi-glib', 'bitlbee-common', 'bluez', 'ca
 +++
 Common C routines used by GTK+ and other libraries
 
-{{< files text="show files" >}}* /etc/profile.d/glib2.csh
+## Files: 
+* /etc/profile.d/glib2.csh
 * /etc/profile.d/glib2.sh
 * /usr/bin/gapplication
 * /usr/bin/gdbus
@@ -471,4 +472,3 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/locale/zh_CN/LC_MESSAGES/glib20.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/glib20.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/glib20.mo
-{{< /files >}}

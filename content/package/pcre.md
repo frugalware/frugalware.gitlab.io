@@ -16,7 +16,8 @@ reverse_depends = "['aide', 'apache', 'editorconfig-core-c', 'efl', 'enlightenme
 +++
 Perl-compatible regular expression library
 
-{{< files text="show files" >}}* /usr/bin/pcre-config
+## Files: 
+* /usr/bin/pcre-config
 * /usr/bin/pcregrep
 * /usr/bin/pcretest
 * /usr/include/pcre.h
@@ -212,4 +213,3 @@ Perl-compatible regular expression library
 * /usr/share/man/man3/pcre_utf16_to_host_byte_order.3.gz
 * /usr/share/man/man3/pcre_utf32_to_host_byte_order.3.gz
 * /usr/share/man/man3/pcre_version.3.gz
-{{< /files >}}

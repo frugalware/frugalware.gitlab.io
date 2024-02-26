@@ -16,7 +16,8 @@ reverse_depends = "['hplip-driver']"
 +++
 Foomatic's database engine generates PPD files from the data in Foomatic's XML database.
 
-{{< files text="show files" >}}* /usr/bin/foomatic-addpjloptions
+## Files: 
+* /usr/bin/foomatic-addpjloptions
 * /usr/bin/foomatic-cleanupdrivers
 * /usr/bin/foomatic-combo-xml
 * /usr/bin/foomatic-compiledb
@@ -58,4 +59,3 @@ Foomatic's database engine generates PPD files from the data in Foomatic's XML d
 * /usr/share/man/man8/foomatic-getpjloptions.8.gz
 * /usr/share/man/man8/foomatic-kitload.8.gz
 * /usr/share/man/man8/foomatic-preferred-driver.8.gz
-{{< /files >}}

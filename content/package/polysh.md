@@ -15,7 +15,8 @@ depends = "['python3>=3.9.6']"
 +++
 Polysh is a tool to aggregate several remote shells into one.
 
-{{< files text="show files" >}}* /usr/bin/polysh
+## Files: 
+* /usr/bin/polysh
 * /usr/lib/python3.12/site-packages/polysh-0.14-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/polysh-0.14-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/polysh-0.14-py3.12.egg-info/PKG-INFO
@@ -51,4 +52,3 @@ Polysh is a tool to aggregate several remote shells into one.
 * /usr/lib/python3.12/site-packages/polysh/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/polysh-0.14/LICENSE
 * /usr/share/doc/polysh-0.14/README.rst
-{{< /files >}}

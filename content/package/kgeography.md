@@ -15,7 +15,8 @@ depends = "['kxmlgui>=5.115.0', 'qt5-svg>=5.15.12', 'qt5-x11extras>=5.15.12']"
 +++
 Geography Trainer.
 
-{{< files text="show files" >}}* /usr/bin/kgeography
+## Files: 
+* /usr/bin/kgeography
 * /usr/share/applications/org.kde.kgeography.desktop
 * /usr/share/config.kcfg/kgeography.kcfg
 * /usr/share/doc/HTML/ca/kgeography/index.cache.bz2
@@ -1250,4 +1251,3 @@ Geography Trainer.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kgeography.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kgeography.mo
 * /usr/share/metainfo/org.kde.kgeography.appdata.xml
-{{< /files >}}

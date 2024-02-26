@@ -15,7 +15,8 @@ depends = "['texlive=2023.0']"
 +++
 Extra Latex packages for TeX Live
 
-{{< files text="show files" >}}* /usr/bin/arlatex
+## Files: 
+* /usr/bin/arlatex
 * /usr/bin/authorindex
 * /usr/bin/bundledoc
 * /usr/bin/diadia
@@ -92,4 +93,3 @@ Extra Latex packages for TeX Live
 * /usr/share/texmf-dist/scripts/sympytexpackage/sympytex.py
 * /usr/share/texmf-dist/scripts/vpe/vpe.pl
 * /usr/share/texmf-dist/scripts/yplan/yplan
-{{< /files >}}

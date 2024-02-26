@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Kdenetwork Documentation
 
-{{< files text="show files" >}}* usr/share/doc/HTML/en/kcontrol/kcmtalkd/common
+## Files: 
+* usr/share/doc/HTML/en/kcontrol/kcmtalkd/common
 * usr/share/doc/HTML/en/kcontrol/kcmtalkd/index.cache.bz2
 * usr/share/doc/HTML/en/kcontrol/kcmtalkd/index.docbook
 * usr/share/doc/HTML/en/kcontrol/lanbrowser/common
@@ -154,4 +155,3 @@ Kdenetwork Documentation
 * usr/share/doc/HTML/en/lisa/common
 * usr/share/doc/HTML/en/lisa/index.cache.bz2
 * usr/share/doc/HTML/en/lisa/index.docbook
-{{< /files >}}

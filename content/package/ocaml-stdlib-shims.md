@@ -16,7 +16,8 @@ reverse_depends = "['ocaml-integers', 'ppxlib']"
 +++
 Shim to substitute \"Pervasives\" with \"Stdlib\" before 4.08
 
-{{< files text="show files" >}}* /usr/lib/ocaml/stdlib-shims/dune-package
+## Files: 
+* /usr/lib/ocaml/stdlib-shims/dune-package
 * /usr/lib/ocaml/stdlib-shims/META
 * /usr/lib/ocaml/stdlib-shims/opam
 * /usr/lib/ocaml/stdlib-shims/stdlib_shims.cma
@@ -27,4 +28,3 @@ Shim to substitute \"Pervasives\" with \"Stdlib\" before 4.08
 * /usr/share/doc/ocaml-stdlib-shims-0.3.0/stdlib-shims/CHANGES.md
 * /usr/share/doc/ocaml-stdlib-shims-0.3.0/stdlib-shims/LICENSE
 * /usr/share/doc/ocaml-stdlib-shims-0.3.0/stdlib-shims/README.md
-{{< /files >}}

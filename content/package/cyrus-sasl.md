@@ -16,7 +16,8 @@ reverse_depends = "['apr-util', 'cyrus-sasl-gssapiv2', 'cyrus-sasl-sql', 'gtk-vn
 +++
 SASL Authentication mechanism
 
-{{< files text="show files" >}}* /usr/bin/pluginviewer
+## Files: 
+* /usr/bin/pluginviewer
 * /usr/bin/sasldblistusers2
 * /usr/bin/saslpasswd2
 * /usr/include/sasl/hmac-md5.h
@@ -107,4 +108,3 @@ SASL Authentication mechanism
 * /usr/share/man/man8/sasldblistusers2.8.gz
 * /usr/share/man/man8/saslpasswd2.8.gz
 * /usr/share/man/man8/testsaslauthd.8.gz
-{{< /files >}}

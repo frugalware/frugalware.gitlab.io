@@ -16,7 +16,8 @@ reverse_depends = "['libguestfs']"
 +++
 QEMU is a FAST! processor emulator
 
-{{< files text="show files" >}}* /etc/binfmt.d/qemu.conf
+## Files: 
+* /etc/binfmt.d/qemu.conf
 * /usr/bin/elf2dmp
 * /usr/bin/qemu
 * /usr/bin/qemu-edid
@@ -545,4 +546,3 @@ QEMU is a FAST! processor emulator
 * /usr/share/qemu/vgabios.bin
 * /usr/share/qemu/vof-nvram.bin
 * /usr/share/qemu/vof.bin
-{{< /files >}}

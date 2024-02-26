@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Turkish support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/tr/default.css
+## Files: 
+* /usr/lib/libreoffice/help/tr/default.css
 * /usr/lib/libreoffice/help/tr/err.html
 * /usr/lib/libreoffice/help/tr/highcontrast1.css
 * /usr/lib/libreoffice/help/tr/highcontrast2.css
@@ -135,4 +136,3 @@ Installs Turkish support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-tr.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_tr.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_tr.xcd
-{{< /files >}}

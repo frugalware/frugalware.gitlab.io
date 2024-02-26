@@ -15,10 +15,10 @@ depends = "['commons-codec', 'commons-logging', 'junit']"
 +++
 Jakarta Commons HTTPClient Package
 
-{{< files text="show files" >}}* /usr/share/doc/commons-httpclient-3.1/LICENSE
+## Files: 
+* /usr/share/doc/commons-httpclient-3.1/LICENSE
 * /usr/share/doc/commons-httpclient-3.1/README
 * /usr/share/doc/commons-httpclient-3.1/README.txt
 * /usr/share/doc/commons-httpclient-3.1/RELEASE_NOTES
 * /usr/share/doc/commons-httpclient-3.1/RELEASE_NOTES.txt
 * /usr/share/java/commons-httpclient.jar
-{{< /files >}}

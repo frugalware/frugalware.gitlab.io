@@ -15,5 +15,5 @@ depends = "['libpq>=11.2-2', 'uwsgi']"
 +++
 USWGI Emperor PostgreSQL Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/emperor_pg_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/uwsgi/emperor_pg_plugin.so

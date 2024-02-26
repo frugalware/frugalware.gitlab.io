@@ -16,7 +16,8 @@ reverse_depends = "['lib32-networkmanager']"
 +++
 Mobile broadband modem management service ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/mmcli
+## Files: 
+* /usr/i686-frugalware-linux/bin/mmcli
 * /usr/i686-frugalware-linux/include/libmm-glib/libmm-glib.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-3gpp-profile.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-bearer-ip-config.h
@@ -125,4 +126,3 @@ Mobile broadband modem management service ( 32bit )
 * /usr/lib32/ModemManager/libmm-shared-xmm.so
 * /usr/lib32/pkgconfig/mm-glib.pc
 * /usr/lib32/pkgconfig/ModemManager.pc
-{{< /files >}}

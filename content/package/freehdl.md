@@ -15,7 +15,8 @@ depends = "['libstdc++']"
 +++
 An open-source (C++ generating) VHDL simulator.
 
-{{< files text="show files" >}}* /usr/bin/freehdl-config
+## Files: 
+* /usr/bin/freehdl-config
 * /usr/bin/freehdl-gennodes
 * /usr/bin/freehdl-v2cc
 * /usr/bin/gvhdl
@@ -138,4 +139,3 @@ An open-source (C++ generating) VHDL simulator.
 * /usr/share/man/man1/freehdl-v2cc.1.gz
 * /usr/share/man/man1/gvhdl.1.gz
 * /usr/share/man/man5/v2cc.libs.5.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['rsyslog']"
 +++
 A small library with essential json handling functions.
 
-{{< files text="show files" >}}* /usr/include/libfastjson/atomic.h
+## Files: 
+* /usr/include/libfastjson/atomic.h
 * /usr/include/libfastjson/json.h
 * /usr/include/libfastjson/json_object.h
 * /usr/include/libfastjson/json_object_iterator.h
@@ -34,4 +35,3 @@ A small library with essential json handling functions.
 * /usr/share/doc/libfastjson-0.99.9/README.html
 * /usr/share/doc/libfastjson-0.99.9/README.md
 * /usr/share/doc/libfastjson-0.99.9/RELEASE_CHECKLIST.txt
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['geoclue2', 'gssdp', 'gvfs', 'libosinfo', 'librest', 'remmin
 +++
 An HTTP library implementation in C
 
-{{< files text="show files" >}}* /usr/include/libsoup-3.0/libsoup/soup-auth-domain-basic.h
+## Files: 
+* /usr/include/libsoup-3.0/libsoup/soup-auth-domain-basic.h
 * /usr/include/libsoup-3.0/libsoup/soup-auth-domain-digest.h
 * /usr/include/libsoup-3.0/libsoup/soup-auth-domain.h
 * /usr/include/libsoup-3.0/libsoup/soup-auth-manager.h
@@ -136,4 +137,3 @@ An HTTP library implementation in C
 * /usr/share/locale/zh_CN/LC_MESSAGES/libsoup-3.0.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/libsoup-3.0.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libsoup-3.0.mo
-{{< /files >}}

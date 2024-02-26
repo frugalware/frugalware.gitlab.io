@@ -16,7 +16,8 @@ reverse_depends = "['python3-breathe', 'python3-hawkmoth', 'sphinx-httpdomain', 
 +++
 Python documentation generator
 
-{{< files text="show files" >}}* /usr/bin/sphinx-apidoc
+## Files: 
+* /usr/bin/sphinx-apidoc
 * /usr/bin/sphinx-autogen
 * /usr/bin/sphinx-build
 * /usr/bin/sphinx-quickstart
@@ -938,4 +939,3 @@ Python documentation generator
 * /usr/share/doc/python3-sphinx-7.2.6/LICENSE
 * /usr/share/doc/python3-sphinx-7.2.6/README.rst
 * /usr/share/doc/python3-sphinx-7.2.6/README.txt
-{{< /files >}}

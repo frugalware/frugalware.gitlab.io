@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Music for the Super Mario Brothers Clone
 
-{{< files text="show files" >}}* /usr/share/doc/smc-music-5.0/Addon - Music Readme.txt
+## Files: 
+* /usr/share/doc/smc-music-5.0/Addon - Music Readme.txt
 * /usr/share/smc/music/game/bossbattle_1.ogg
 * /usr/share/smc/music/game/bossbattle_1.txt
 * /usr/share/smc/music/game/bossbattle_3.ogg
@@ -62,4 +63,3 @@ Music for the Super Mario Brothers Clone
 * /usr/share/smc/music/overworld/land_2.txt
 * /usr/share/smc/music/story/default_story_1.ogg
 * /usr/share/smc/music/story/default_story_1.txt
-{{< /files >}}

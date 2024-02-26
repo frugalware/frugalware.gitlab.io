@@ -15,7 +15,8 @@ depends = "['bzip2', 'curl', 'glade', 'jansson', 'libextractor>=1.11', 'libgcryp
 +++
 A framework for secure peer-to-peer networking
 
-{{< files text="show files" >}}* /usr/bin/gnunet-arm
+## Files: 
+* /usr/bin/gnunet-arm
 * /usr/bin/gnunet-ats
 * /usr/bin/gnunet-auto-share
 * /usr/bin/gnunet-base32
@@ -939,4 +940,3 @@ A framework for secure peer-to-peer networking
 * /usr/share/man/man1/gnunet-vpn.1.gz
 * /usr/share/man/man1/gnunet-zoneimport.1.gz
 * /usr/share/man/man5/gnunet.conf.5.gz
-{{< /files >}}

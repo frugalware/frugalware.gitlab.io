@@ -16,7 +16,8 @@ reverse_depends = "['libreoffice']"
 +++
 A 2D Physics Engine for Games
 
-{{< files text="show files" >}}* /usr/include/box2d/b2_api.h
+## Files: 
+* /usr/include/box2d/b2_api.h
 * /usr/include/box2d/b2_block_allocator.h
 * /usr/include/box2d/b2_body.h
 * /usr/include/box2d/b2_broad_phase.h
@@ -64,4 +65,3 @@ A 2D Physics Engine for Games
 * /usr/lib/libbox2d.so.2.4.1
 * /usr/share/doc/box2d-2.4.1/LICENSE
 * /usr/share/doc/box2d-2.4.1/README.md
-{{< /files >}}

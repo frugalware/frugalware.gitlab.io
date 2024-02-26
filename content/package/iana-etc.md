@@ -15,8 +15,8 @@ depends = "[]"
 +++
 Protocols and services provided by IANA
 
-{{< files text="show files" >}}* /etc/protocols
+## Files: 
+* /etc/protocols
 * /etc/services
 * /usr/share/iana-etc/port-numbers.iana
 * /usr/share/iana-etc/protocol-numbers.iana
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['fxruby-1.2']"
 +++
 FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and effectively.
 
-{{< files text="show files" >}}* usr/bin/adie-1.2
+## Files: 
+* usr/bin/adie-1.2
 * usr/bin/calculator-1.2
 * usr/bin/fox-config-1.2
 * usr/bin/PathFinder-1.2
@@ -386,4 +387,3 @@ FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and e
 * usr/share/doc/fox-1.2/html/win32.html
 * usr/share/doc/fox-1.2/html/window.html
 * usr/share/doc/fox-1.2/html/xml.html
-{{< /files >}}

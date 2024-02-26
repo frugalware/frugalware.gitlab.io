@@ -16,7 +16,8 @@ reverse_depends = "['gupnp-av']"
 +++
 GUPnP implements the UPnP specification of GUPnP framework.
 
-{{< files text="show files" >}}* /usr/bin/gupnp-binding-tool-1.6
+## Files: 
+* /usr/bin/gupnp-binding-tool-1.6
 * /usr/include/gupnp-1.6/libgupnp/gupnp-acl.h
 * /usr/include/gupnp-1.6/libgupnp/gupnp-context-filter.h
 * /usr/include/gupnp-1.6/libgupnp/gupnp-context-manager.h
@@ -49,4 +50,3 @@ GUPnP implements the UPnP specification of GUPnP framework.
 * /usr/share/gir-1.0/GUPnP-1.6.gir
 * /usr/share/vala/vapi/gupnp-1.6.deps
 * /usr/share/vala/vapi/gupnp-1.6.vapi
-{{< /files >}}

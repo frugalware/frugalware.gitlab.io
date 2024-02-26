@@ -15,7 +15,8 @@ depends = "['dosfstools', 'e2fsprogs>=1.42.4', 'ncurses>=6.0-3', 'nilfs-utils', 
 +++
 File System Clone Utilities for ext2/3/4, reiserfs, hfs+, fat, ntfs File System.
 
-{{< files text="show files" >}}* /usr/bin/partclone.chkimg
+## Files: 
+* /usr/bin/partclone.chkimg
 * /usr/bin/partclone.dd
 * /usr/bin/partclone.exfat
 * /usr/bin/partclone.ext2
@@ -79,4 +80,3 @@ File System Clone Utilities for ext2/3/4, reiserfs, hfs+, fat, ntfs File System.
 * /usr/share/man/man8/partclone.restore.8.gz
 * /usr/share/man/man8/partclone.vfat.8.gz
 * /usr/share/partclone/fail-mbr.bin
-{{< /files >}}

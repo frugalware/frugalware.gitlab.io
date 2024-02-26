@@ -16,7 +16,8 @@ reverse_depends = "['dracut-network']"
 +++
 Support programs for Network File Systems
 
-{{< files text="show files" >}}* /etc/exports
+## Files: 
+* /etc/exports
 * /etc/request-key.d/id_resolver.conf
 * /etc/sysconfig/nfs
 * /usr/bin/blkmapd
@@ -119,4 +120,3 @@ Support programs for Network File Systems
 * /var/lib/nfs/etab
 * /var/lib/nfs/rmtab
 * /var/lib/nfs/statd/state
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "['libldap>=2.5.4', 'uwsgi']"
 +++
 UWSGI LDAP Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/ldap_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/uwsgi/ldap_plugin.so

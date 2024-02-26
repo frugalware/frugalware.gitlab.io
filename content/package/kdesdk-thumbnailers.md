@@ -16,7 +16,8 @@ reverse_depends = "['dolphin']"
 +++
 Thumnailers Creators for KDE SDK.
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/thumbcreator/pothumbnail.so
+## Files: 
+* /usr/lib/qt5/plugins/kf5/thumbcreator/pothumbnail.so
 * /usr/share/config.kcfg/pocreatorsettings.kcfg
 * /usr/share/locale/ar/LC_MESSAGES/pothumbnail.mo
 * /usr/share/locale/bg/LC_MESSAGES/pothumbnail.mo
@@ -66,4 +67,3 @@ Thumnailers Creators for KDE SDK.
 * /usr/share/locale/vi/LC_MESSAGES/pothumbnail.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/pothumbnail.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/pothumbnail.mo
-{{< /files >}}

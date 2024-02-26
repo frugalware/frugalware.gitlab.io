@@ -16,7 +16,8 @@ reverse_depends = "['calendarsupport', 'kalarm', 'kdepim-runtime', 'knotes', 'li
 +++
 KdePim common files
 
-{{< files text="show files" >}}* /usr/include/KPim5/PimCommon/config-pimcommon.h
+## Files: 
+* /usr/include/KPim5/PimCommon/config-pimcommon.h
 * /usr/include/KPim5/PimCommon/PimCommon/AbstractGenericPlugin
 * /usr/include/KPim5/PimCommon/pimcommon/abstractgenericplugin.h
 * /usr/include/KPim5/PimCommon/PimCommon/AbstractGenericPluginInterface
@@ -190,4 +191,3 @@ KdePim common files
 * /usr/share/qlogging-categories5/pimcommon.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_PimCommon.pri
 * /usr/share/qt5/mkspecs/modules/qt_PimCommonAkonadi.pri
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 A tool that stress tests your system (CPU, memory, I/O, disks) (NG)
 
-{{< files text="show files" >}}* /usr/bin/stress-ng
+## Files: 
+* /usr/bin/stress-ng
 * /usr/share/bash-completion/completions/stress-ng
 * /usr/share/doc/stress-ng-0.17.03/COPYING
 * /usr/share/doc/stress-ng-0.17.03/README.Android
@@ -37,4 +38,3 @@ A tool that stress tests your system (CPU, memory, I/O, disks) (NG)
 * /usr/share/stress-ng/example-jobs/scheduler.job
 * /usr/share/stress-ng/example-jobs/security.job
 * /usr/share/stress-ng/example-jobs/vm.job
-{{< /files >}}

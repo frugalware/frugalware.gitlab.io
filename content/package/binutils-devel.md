@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Develompent files for binutils
 
-{{< files text="show files" >}}* /usr/include/ansidecl.h
+## Files: 
+* /usr/include/ansidecl.h
 * /usr/include/bfd.h
 * /usr/include/bfdlink.h
 * /usr/include/collectorAPI.h
@@ -46,4 +47,3 @@ Develompent files for binutils
 * /usr/lib/libbfd.so
 * /usr/lib/libopcodes.a
 * /usr/lib/libopcodes.so
-{{< /files >}}

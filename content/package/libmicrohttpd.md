@@ -16,7 +16,8 @@ reverse_depends = "['gnunet', 'systemd-remote']"
 +++
 C library that make easy to run an HTTP server as part of an application
 
-{{< files text="show files" >}}* /usr/include/microhttpd.h
+## Files: 
+* /usr/include/microhttpd.h
 * /usr/lib/libmicrohttpd.so
 * /usr/lib/libmicrohttpd.so.12
 * /usr/lib/libmicrohttpd.so.12.61.0
@@ -31,4 +32,3 @@ C library that make easy to run an HTTP server as part of an application
 * /usr/share/info/libmicrohttpd.info.gz
 * /usr/share/info/libmicrohttpd_performance_data.png.gz
 * /usr/share/man/man3/libmicrohttpd.3.gz
-{{< /files >}}

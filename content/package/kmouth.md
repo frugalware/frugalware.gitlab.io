@@ -15,7 +15,8 @@ depends = "['kio>=5.115.0', 'pcre2', 'qt5-speech>=5.15.12']"
 +++
 Speech Synthesizer Frontend
 
-{{< files text="show files" >}}* /etc/xdg/kmouthrc
+## Files: 
+* /etc/xdg/kmouthrc
 * /usr/bin/kmouth
 * /usr/share/applications/org.kde.kmouth.desktop
 * /usr/share/doc/HTML/ca/kmouth/index.cache.bz2
@@ -220,4 +221,3 @@ Speech Synthesizer Frontend
 * /usr/share/man/sv/man1/kmouth.1.gz
 * /usr/share/man/uk/man1/kmouth.1.gz
 * /usr/share/metainfo/org.kde.kmouth.appdata.xml
-{{< /files >}}

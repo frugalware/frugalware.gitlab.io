@@ -16,7 +16,8 @@ reverse_depends = "['calibre', 'discover-overlay', 'face_recognition', 'howdy', 
 +++
 Python Imaging Library (PIL) fork
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/PIL/BdfFontFile.py
+## Files: 
+* /usr/lib/python3.12/site-packages/PIL/BdfFontFile.py
 * /usr/lib/python3.12/site-packages/PIL/BlpImagePlugin.py
 * /usr/lib/python3.12/site-packages/PIL/BmpImagePlugin.py
 * /usr/lib/python3.12/site-packages/PIL/BufrStubImagePlugin.py
@@ -219,4 +220,3 @@ Python Imaging Library (PIL) fork
 * /usr/lib/python3.12/site-packages/Pillow-10.1.0-py3.12.egg-info/zip-safe
 * /usr/share/doc/python3-pillow-10.1.0/LICENSE
 * /usr/share/doc/python3-pillow-10.1.0/README.md
-{{< /files >}}

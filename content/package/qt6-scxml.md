@@ -15,7 +15,8 @@ depends = "['qt6-declarative']"
 +++
 The Qt6 toolkit, qtscxml
 
-{{< files text="show files" >}}* /usr/include/qt6/QtScxml/6.6.2/QtScxml/private/qscxmlcompiler_p.h
+## Files: 
+* /usr/include/qt6/QtScxml/6.6.2/QtScxml/private/qscxmlcompiler_p.h
 * /usr/include/qt6/QtScxml/6.6.2/QtScxml/private/qscxmlcppdatamodel_p.h
 * /usr/include/qt6/QtScxml/6.6.2/QtScxml/private/qscxmldatamodelplugin_p.h
 * /usr/include/qt6/QtScxml/6.6.2/QtScxml/private/qscxmldatamodel_p.h
@@ -227,4 +228,3 @@ The Qt6 toolkit, qtscxml
 * /usr/lib/qt6/qml/QtScxml/plugins.qmltypes
 * /usr/lib/qt6/qml/QtScxml/qmldir
 * /usr/lib/qt6/qscxmlc
-{{< /files >}}

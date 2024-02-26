@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 Matsui's CPP implementation precisely conformed to standards
 
-{{< files text="show files" >}}* /usr/bin/mcpp
+## Files: 
+* /usr/bin/mcpp
 * /usr/include/mcpp_lib.h
 * /usr/include/mcpp_out.h
 * /usr/lib/libmcpp.so
@@ -33,4 +34,3 @@ Matsui's CPP implementation precisely conformed to standards
 * /usr/share/doc/mcpp/NEWS
 * /usr/share/doc/mcpp/README
 * /usr/share/man/man1/mcpp.1.gz
-{{< /files >}}

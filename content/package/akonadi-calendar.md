@@ -16,7 +16,8 @@ reverse_depends = "['calendarsupport', 'kdepim-runtime']"
 +++
 Akonadi calendar integration
 
-{{< files text="show files" >}}* /etc/xdg/autostart/org.kde.kalendarac.desktop
+## Files: 
+* /etc/xdg/autostart/org.kde.kalendarac.desktop
 * /usr/bin/kalendarac
 * /usr/include/KPim5/AkonadiCalendar/akonadi-calendar_version.h
 * /usr/include/KPim5/AkonadiCalendar/akonadi/akonadi-calendar_export.h
@@ -218,4 +219,3 @@ Akonadi calendar integration
 * /usr/share/qlogging-categories5/akonadi-calendar.renamecategories
 * /usr/share/qlogging-categories5/org_kde_kalendarac.categories
 * /usr/share/qt5/mkspecs/modules/qt_AkonadiCalendar.pri
-{{< /files >}}

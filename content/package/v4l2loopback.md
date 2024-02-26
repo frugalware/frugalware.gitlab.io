@@ -16,11 +16,11 @@ reverse_depends = "['obs-v4l2sink']"
 +++
 v4l2-loopback device
 
-{{< files text="show files" >}}* /usr/lib/modules/6.7.6-fw1/kernel/extra/v4l2loopback.ko.zst
+## Files: 
+* /usr/lib/modules/6.7.6-fw1/kernel/extra/v4l2loopback.ko.zst
 * /usr/share/doc/v4l2loopback-0.12.7/AUTHORS
 * /usr/share/doc/v4l2loopback-0.12.7/ChangeLog
 * /usr/share/doc/v4l2loopback-0.12.7/COPYING
 * /usr/share/doc/v4l2loopback-0.12.7/NEWS
 * /usr/share/doc/v4l2loopback-0.12.7/README.md
 * /usr/share/doc/v4l2loopback-0.12.7/TODO
-{{< /files >}}

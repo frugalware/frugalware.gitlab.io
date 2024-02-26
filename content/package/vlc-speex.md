@@ -15,6 +15,6 @@ depends = "['libvlc>=3.0.20', 'speex']"
 +++
 vlc speex support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/audio_filter/libspeex_resampler_plugin.so
+## Files: 
+* /usr/lib/vlc/plugins/audio_filter/libspeex_resampler_plugin.so
 * /usr/lib/vlc/plugins/codec/libspeex_plugin.so
-{{< /files >}}

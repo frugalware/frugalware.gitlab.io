@@ -15,7 +15,8 @@ depends = "['kcalendarcore', 'kirigami2', 'knotifications', 'kpeople5', 'qt5-qui
 +++
 Calendar for Plasma Mobil
 
-{{< files text="show files" >}}* /etc/xdg/autostart/org.kde.calindac.desktop
+## Files: 
+* /etc/xdg/autostart/org.kde.calindac.desktop
 * /usr/bin/calindac
 * /usr/bin/calindori
 * /usr/share/applications/org.kde.calindori.desktop
@@ -92,4 +93,3 @@ Calendar for Plasma Mobil
 * /usr/share/locale/zh_TW/LC_MESSAGES/calindac.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/calindori.mo
 * /usr/share/metainfo/org.kde.calindori.appdata.xml
-{{< /files >}}

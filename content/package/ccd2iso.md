@@ -15,11 +15,11 @@ depends = "['glibc']"
 +++
 Converts CCD/IMG CloneCD Images to ISO format.
 
-{{< files text="show files" >}}* /usr/bin/ccd2iso
+## Files: 
+* /usr/bin/ccd2iso
 * /usr/share/doc/ccd2iso-0.3/AUTHORS
 * /usr/share/doc/ccd2iso-0.3/ChangeLog
 * /usr/share/doc/ccd2iso-0.3/COPYING
 * /usr/share/doc/ccd2iso-0.3/INSTALL
 * /usr/share/doc/ccd2iso-0.3/README
 * /usr/share/doc/ccd2iso-0.3/TODO
-{{< /files >}}

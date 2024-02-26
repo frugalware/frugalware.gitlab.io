@@ -16,7 +16,8 @@ reverse_depends = "['artikulate', 'blinken', 'colord-kde', 'discover', 'drkonqi'
 +++
 Integration of QML and KDE workspaces.
 
-{{< files text="show files" >}}* /usr/bin/kpackagelauncherqml
+## Files: 
+* /usr/bin/kpackagelauncherqml
 * /usr/include/KF5/KDeclarative/CalendarEvents/CalendarEventsPlugin
 * /usr/include/KF5/KDeclarative/calendarevents/calendareventsplugin.h
 * /usr/include/KF5/KDeclarative/calendarevents/calendarevents_export.h
@@ -201,4 +202,3 @@ Integration of QML and KDE workspaces.
 * /usr/share/qt5/qml/org/kde/kwindowsystem/qmldir
 * /usr/share/qt5/qml/org/kde/private/kquickcontrols/libkquickcontrolsprivateplugin.so
 * /usr/share/qt5/qml/org/kde/private/kquickcontrols/qmldir
-{{< /files >}}

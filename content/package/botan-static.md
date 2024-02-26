@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Static files for botan
 
-{{< files text="show files" >}}* /usr/lib/libbotan-3.a
-{{< /files >}}
+## Files: 
+* /usr/lib/libbotan-3.a

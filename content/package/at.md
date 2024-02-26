@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 Allows you to run jobs at specified times
 
-{{< files text="show files" >}}* /etc/at.deny
+## Files: 
+* /etc/at.deny
 * /etc/sysconfig/atd
 * /usr/bin/at
 * /usr/bin/atd
@@ -42,4 +43,3 @@ Allows you to run jobs at specified times
 * /usr/share/man/man8/atd.8.gz
 * /usr/share/man/man8/atrun.8.gz
 * /var/spool/atjobs/.SEQ
-{{< /files >}}

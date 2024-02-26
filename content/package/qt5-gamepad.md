@@ -15,7 +15,8 @@ depends = "['qt5-declarative>=5.15.12', 'sdl2']"
 +++
 The Qt5 toolkit, qtgamepad
 
-{{< files text="show files" >}}* /usr/include/qt5/QtGamepad/5.15.12/QtGamepad/private/qgamepadbackendfactory_p.h
+## Files: 
+* /usr/include/qt5/QtGamepad/5.15.12/QtGamepad/private/qgamepadbackendfactory_p.h
 * /usr/include/qt5/QtGamepad/5.15.12/QtGamepad/private/qgamepadbackendplugin_p.h
 * /usr/include/qt5/QtGamepad/5.15.12/QtGamepad/private/qgamepadbackend_p.h
 * /usr/include/qt5/QtGamepad/5.15.12/QtGamepad/private/qtgamepad-config_p.h
@@ -48,4 +49,3 @@ The Qt5 toolkit, qtgamepad
 * /usr/share/qt5/qml/QtGamepad/libdeclarative_gamepad.so
 * /usr/share/qt5/qml/QtGamepad/plugins.qmltypes
 * /usr/share/qt5/qml/QtGamepad/qmldir
-{{< /files >}}

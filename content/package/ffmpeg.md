@@ -16,7 +16,8 @@ reverse_depends = "['alsa-plugin-ffmpeg', 'chromaprint', 'faudio', 'ffmpegthumbn
 +++
 FFMpeg is a complete and free Internet live audio and video broadcasting solution for Linux/Unix.
 
-{{< files text="show files" >}}* /usr/bin/ffmpeg
+## Files: 
+* /usr/bin/ffmpeg
 * /usr/bin/ffplay
 * /usr/bin/ffprobe
 * /usr/include/libavcodec/ac3_parser.h
@@ -290,4 +291,3 @@ FFMpeg is a complete and free Internet live audio and video broadcasting solutio
 * /usr/share/man/man3/libavutil.3.gz
 * /usr/share/man/man3/libswresample.3.gz
 * /usr/share/man/man3/libswscale.3.gz
-{{< /files >}}

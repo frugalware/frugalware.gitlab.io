@@ -15,7 +15,8 @@ depends = "['qt5-script>=5.15.10', 'qt5-svg>=5.15.10']"
 +++
 A sqlite database manager
 
-{{< files text="show files" >}}* /usr/bin/sqlitestudio
+## Files: 
+* /usr/bin/sqlitestudio
 * /usr/bin/sqlitestudiocli
 * /usr/lib/libcoreSQLiteStudio.so
 * /usr/lib/libcoreSQLiteStudio.so.1
@@ -29,4 +30,3 @@ A sqlite database manager
 * /usr/share/doc/sqlitestudio-3.4.4/LICENSE
 * /usr/share/doc/sqlitestudio-3.4.4/README.md
 * /usr/share/icons/hicolor/scalable/apps/sqlitestudio.svg
-{{< /files >}}

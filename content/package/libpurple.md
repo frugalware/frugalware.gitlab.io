@@ -16,7 +16,8 @@ reverse_depends = "['bitlbee-libpurple', 'finch', 'pidgin', 'pidgin-facebookchat
 +++
 Library intended to be used by programmers seeking to write an IM client that connects to many IM networks.
 
-{{< files text="show files" >}}* /usr/include/libpurple/account.h
+## Files: 
+* /usr/include/libpurple/account.h
 * /usr/include/libpurple/accountopt.h
 * /usr/include/libpurple/blist.h
 * /usr/include/libpurple/buddyicon.h
@@ -126,4 +127,3 @@ Library intended to be used by programmers seeking to write an IM client that co
 * /usr/lib/purple-2/statenotify.so
 * /usr/lib/purple-2/tcl.so
 * /usr/share/aclocal/purple.m4
-{{< /files >}}

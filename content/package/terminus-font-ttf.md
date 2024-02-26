@@ -15,8 +15,8 @@ depends = "['fontconfig', 'freetype2', 'mkfontscale']"
 +++
 Terminus font in TTF
 
-{{< files text="show files" >}}* /usr/share/doc/terminus-font-ttf-4.49.3/COPYING
+## Files: 
+* /usr/share/doc/terminus-font-ttf-4.49.3/COPYING
 * /usr/share/fonts/X11/TTF/TerminusTTF-4.49.3.ttf
 * /usr/share/fonts/X11/TTF/TerminusTTF-Bold-4.49.3.ttf
 * /usr/share/fonts/X11/TTF/TerminusTTF-Italic-4.49.3.ttf
-{{< /files >}}

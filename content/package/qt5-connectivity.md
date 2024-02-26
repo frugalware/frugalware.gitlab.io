@@ -15,7 +15,8 @@ depends = "['bluez>=5.41-2', 'qt5-declarative>=5.15.12']"
 +++
 The Qt5 toolkit, qtconnectivity
 
-{{< files text="show files" >}}* /usr/bin/sdpscanner
+## Files: 
+* /usr/bin/sdpscanner
 * /usr/bin/sdpscanner-qt5
 * /usr/include/qt5/QtBluetooth/5.15.12/QtBluetooth/private/adapter1_bluez5_p.h
 * /usr/include/qt5/QtBluetooth/5.15.12/QtBluetooth/private/adapter_p.h
@@ -261,4 +262,3 @@ The Qt5 toolkit, qtconnectivity
 * /usr/share/qt5/qml/QtNfc/libdeclarative_nfc.so
 * /usr/share/qt5/qml/QtNfc/plugins.qmltypes
 * /usr/share/qt5/qml/QtNfc/qmldir
-{{< /files >}}

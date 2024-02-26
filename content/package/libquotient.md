@@ -16,7 +16,8 @@ reverse_depends = "['neochat']"
 +++
 A Qt library to write cross-platform clients for Matrix
 
-{{< files text="show files" >}}* /usr/bin/quotest
+## Files: 
+* /usr/bin/quotest
 * /usr/include/Quotient/accountregistry.h
 * /usr/include/Quotient/application-service/definitions/location.h
 * /usr/include/Quotient/application-service/definitions/protocol.h
@@ -185,4 +186,3 @@ A Qt library to write cross-platform clients for Matrix
 * /usr/share/doc/libquotient-0.8.1.2/COPYING
 * /usr/share/doc/libquotient-0.8.1.2/README.md
 * /usr/share/ndk-modules/Android.mk
-{{< /files >}}

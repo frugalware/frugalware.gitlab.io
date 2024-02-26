@@ -15,7 +15,8 @@ depends = "['python3-pillow', 'python3-ply']"
 +++
 OpenTTD NewGRF Meta Language Tools
 
-{{< files text="show files" >}}* /usr/bin/nmlc
+## Files: 
+* /usr/bin/nmlc
 * /usr/lib/python3.12/site-packages/nml-0.0.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/nml-0.0.0-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/nml-0.0.0-py3.12.egg-info/PKG-INFO
@@ -241,4 +242,3 @@ OpenTTD NewGRF Meta Language Tools
 * /usr/lib/python3.12/site-packages/nml_lz77.cpython-312-x86_64-linux-gnu.so
 * /usr/share/doc/python3-nml-0.7.4/LICENSE
 * /usr/share/doc/python3-nml-0.7.4/README.md
-{{< /files >}}

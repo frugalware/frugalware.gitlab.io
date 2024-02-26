@@ -15,7 +15,8 @@ depends = "['akonadi-import-wizard>=23.08.5', 'discount', 'incidenceeditor>=23.0
 +++
 Addons for PIM release-service.
 
-{{< files text="show files" >}}* /etc/xdg/kmail.antispamrc
+## Files: 
+* /etc/xdg/kmail.antispamrc
 * /etc/xdg/kmail.antivirusrc
 * /usr/bin/kmail_antivir.sh
 * /usr/bin/kmail_clamav.sh
@@ -1270,4 +1271,3 @@ Addons for PIM release-service.
 * /usr/share/qtcreator/templates/kmaileditorplugins/plugineditorinterface.cpp
 * /usr/share/qtcreator/templates/kmaileditorplugins/plugineditorinterface.h
 * /usr/share/qtcreator/templates/kmaileditorplugins/wizard.json
-{{< /files >}}

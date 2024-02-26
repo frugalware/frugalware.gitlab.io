@@ -16,7 +16,8 @@ reverse_depends = "['lutris', 'python3-cffi']"
 +++
 A complete C99 parsing library for python.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pycparser-2.21-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/pycparser-2.21-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pycparser-2.21-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/pycparser-2.21-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/pycparser-2.21-py3.12.egg-info/top_level.txt
@@ -57,4 +58,3 @@ A complete C99 parsing library for python.
 * /usr/share/doc/python3-pycparser-2.21/CONTRIBUTORS
 * /usr/share/doc/python3-pycparser-2.21/LICENSE
 * /usr/share/doc/python3-pycparser-2.21/README.rst
-{{< /files >}}

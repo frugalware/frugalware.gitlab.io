@@ -16,7 +16,8 @@ reverse_depends = "['plasma-bigscreen']"
 +++
 A minimal Plasma shell package
 
-{{< files text="show files" >}}* /usr/share/doc/plasma-nano-5.27.10/README.md
+## Files: 
+* /usr/share/doc/plasma-nano-5.27.10/README.md
 * /usr/share/kservices5/plasma-applet-org.kde.plasma.nano.desktop
 * /usr/share/kservices5/plasma-package-org.kde.plasma.nano.desktoptoolbox.desktop
 * /usr/share/locale/az/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
@@ -121,4 +122,3 @@ A minimal Plasma shell package
 * /usr/share/qt5/qml/org/kde/plasma/private/nanoshell/libplasmananoshellprivateplugin.so
 * /usr/share/qt5/qml/org/kde/plasma/private/nanoshell/qml/StartupFeedback.qml
 * /usr/share/qt5/qml/org/kde/plasma/private/nanoshell/qmldir
-{{< /files >}}

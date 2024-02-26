@@ -16,7 +16,8 @@ reverse_depends = "['conntrack-tools']"
 +++
 A userspace library providing a programming interface to the in-kernel connection tracking state table
 
-{{< files text="show files" >}}* /usr/include/libnetfilter_conntrack/libnetfilter_conntrack.h
+## Files: 
+* /usr/include/libnetfilter_conntrack/libnetfilter_conntrack.h
 * /usr/include/libnetfilter_conntrack/libnetfilter_conntrack_dccp.h
 * /usr/include/libnetfilter_conntrack/libnetfilter_conntrack_icmp.h
 * /usr/include/libnetfilter_conntrack/libnetfilter_conntrack_ipv4.h
@@ -32,4 +33,3 @@ A userspace library providing a programming interface to the in-kernel connectio
 * /usr/lib/pkgconfig/libnetfilter_conntrack.pc
 * /usr/share/doc/libnetfilter_conntrack-1.0.9/COPYING
 * /usr/share/doc/libnetfilter_conntrack-1.0.9/README
-{{< /files >}}

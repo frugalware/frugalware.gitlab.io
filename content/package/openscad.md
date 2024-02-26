@@ -16,7 +16,8 @@ license = "GPLv2"
 +++
 Software for creating solid 3D CAD objects.
 
-{{< files text="show files" >}}* /usr/bin/openscad
+## Files: 
+* /usr/bin/openscad
 * /usr/share/applications/openscad.desktop
 * /usr/share/doc/openscad-2021.01/COPYING
 * /usr/share/doc/openscad-2021.01/README.md
@@ -144,4 +145,3 @@ Software for creating solid 3D CAD objects.
 * /usr/share/openscad/templates/module.json
 * /usr/share/openscad/templates/rotate.json
 * /usr/share/openscad/templates/translate.json
-{{< /files >}}

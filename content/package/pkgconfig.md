@@ -16,7 +16,8 @@ reverse_depends = "['dracut']"
 +++
 A system for managing library compile/link flags
 
-{{< files text="show files" >}}* /etc/profile.d/pkgconfig.sh
+## Files: 
+* /etc/profile.d/pkgconfig.sh
 * /usr/bin/pkg-config
 * /usr/bin/x86_64-frugalware-linux-gnu-pkg-config
 * /usr/share/aclocal/pkg.m4
@@ -29,4 +30,3 @@ A system for managing library compile/link flags
 * /usr/share/doc/pkgconfig-0.29.2/README
 * /usr/share/doc/pkgconfig-0.29.2/README.win32
 * /usr/share/man/man1/pkg-config.1.gz
-{{< /files >}}

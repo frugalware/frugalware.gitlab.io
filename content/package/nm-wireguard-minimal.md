@@ -15,7 +15,8 @@ depends = "['networkmanager']"
 +++
 NetworkManager VPN Plugin: Wireguard without GNOME
 
-{{< files text="show files" >}}* /etc/dbus-1/system.d/nm-wireguard-service.conf
+## Files: 
+* /etc/dbus-1/system.d/nm-wireguard-service.conf
 * /usr/lib/NetworkManager/libnm-vpn-plugin-wireguard.la
 * /usr/lib/NetworkManager/libnm-vpn-plugin-wireguard.so
 * /usr/lib/NetworkManager/VPN/nm-wireguard-service.name
@@ -23,4 +24,3 @@ NetworkManager VPN Plugin: Wireguard without GNOME
 * /usr/lib/nm-wireguard/nm-wireguard-service
 * /usr/share/locale/de/LC_MESSAGES/NetworkManager-wireguard.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/NetworkManager-wireguard.mo
-{{< /files >}}

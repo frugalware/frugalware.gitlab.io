@@ -16,7 +16,8 @@ reverse_depends = "['q4wine']"
 +++
 A set of command-line programs for extracting and converting images
 
-{{< files text="show files" >}}* /usr/bin/extresso
+## Files: 
+* /usr/bin/extresso
 * /usr/bin/genresscript
 * /usr/bin/icotool
 * /usr/bin/wrestool
@@ -33,4 +34,3 @@ A set of command-line programs for extracting and converting images
 * /usr/share/man/man1/genresscript.1.gz
 * /usr/share/man/man1/icotool.1.gz
 * /usr/share/man/man1/wrestool.1.gz
-{{< /files >}}

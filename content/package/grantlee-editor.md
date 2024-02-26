@@ -15,7 +15,8 @@ depends = "['ktexteditor>=5.115.0', 'messagelib>=23.08.5']"
 +++
 gantt editor for PIM application.
 
-{{< files text="show files" >}}* /usr/bin/contactprintthemeeditor
+## Files: 
+* /usr/bin/contactprintthemeeditor
 * /usr/bin/contactthemeeditor
 * /usr/bin/headerthemeeditor
 * /usr/lib/libgrantleethemeeditor.so.5
@@ -233,4 +234,3 @@ gantt editor for PIM application.
 * /usr/share/locale/zh_TW/LC_MESSAGES/libgrantleethemeeditor.mo
 * /usr/share/qlogging-categories5/grantleeditor.categories
 * /usr/share/qlogging-categories5/grantleeditor.renamecategories
-{{< /files >}}

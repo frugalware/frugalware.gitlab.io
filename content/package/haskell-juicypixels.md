@@ -16,7 +16,8 @@ reverse_depends = "['pandoc']"
 +++
 Picture loading/serialization (in png, jpeg, bitmap, gif, tga, tiff and radiance)
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/JuicyPixels-3.3.8/Codec/Picture.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/JuicyPixels-3.3.8/Codec/Picture.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/JuicyPixels-3.3.8/Codec/Picture.hi
 * /usr/lib/ghc-9.8.1/site-local/JuicyPixels-3.3.8/Codec/Picture/Bitmap.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/JuicyPixels-3.3.8/Codec/Picture/Bitmap.hi
@@ -147,4 +148,3 @@ Picture loading/serialization (in png, jpeg, bitmap, gif, tga, tiff and radiance
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/JuicyPixels-3.3.8/LICENSE
 * /usr/share/haskell/haskell-juicypixels/register.sh
 * /usr/share/haskell/haskell-juicypixels/unregister.sh
-{{< /files >}}

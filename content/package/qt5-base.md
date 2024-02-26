@@ -16,7 +16,8 @@ reverse_depends = "['accounts-qml-module', 'akonadi', 'appstream-qt', 'attica', 
 +++
 The Qt5 GUI toolkit.
 
-{{< files text="show files" >}}* /usr/bin/fixqt4headers.pl
+## Files: 
+* /usr/bin/fixqt4headers.pl
 * /usr/bin/fixqt4headers.pl-qt5
 * /usr/bin/moc
 * /usr/bin/moc-qt5
@@ -3478,4 +3479,3 @@ The Qt5 GUI toolkit.
 * /usr/share/qt5/mkspecs/winrt-x86-msvc2017/qplatformdefs.h
 * /usr/share/qt5/mkspecs/winrt-x86-msvc2019/qmake.conf
 * /usr/share/qt5/mkspecs/winrt-x86-msvc2019/qplatformdefs.h
-{{< /files >}}

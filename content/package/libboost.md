@@ -16,7 +16,8 @@ reverse_depends = "['alembic', 'alicevision', 'blender', 'calamares-frugalware',
 +++
 Boost libraries.
 
-{{< files text="show files" >}}* /usr/lib/libboost_atomic.so
+## Files: 
+* /usr/lib/libboost_atomic.so
 * /usr/lib/libboost_atomic.so.1.83.0
 * /usr/lib/libboost_chrono.so
 * /usr/lib/libboost_chrono.so.1.83.0
@@ -96,4 +97,3 @@ Boost libraries.
 * /usr/lib/libboost_wave.so.1.83.0
 * /usr/lib/libboost_wserialization.so
 * /usr/lib/libboost_wserialization.so.1.83.0
-{{< /files >}}

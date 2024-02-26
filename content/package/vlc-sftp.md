@@ -15,5 +15,5 @@ depends = "['libssh2', 'libvlc>=3.0.20']"
 +++
 vlc plugin for libssh2
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/access/libsftp_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/access/libsftp_plugin.so

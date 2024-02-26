@@ -16,7 +16,8 @@ reverse_depends = "['darktable']"
 +++
 LLVM OpenMP Runtime Library
 
-{{< files text="show files" >}}* /usr/bin/llvm-omp-device-info
+## Files: 
+* /usr/bin/llvm-omp-device-info
 * /usr/lib/cmake/openmp/FindOpenMPTarget.cmake
 * /usr/lib/libarcher.so
 * /usr/lib/libarcher_static.a
@@ -121,4 +122,3 @@ LLVM OpenMP Runtime Library
 * /usr/share/doc/LLVM/openmp/html/_static/searchtools.js
 * /usr/share/doc/LLVM/openmp/html/_static/sphinx_highlight.js
 * /usr/share/man/man1/llvmopenmp.1.gz
-{{< /files >}}

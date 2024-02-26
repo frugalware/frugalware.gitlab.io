@@ -16,5 +16,5 @@ reverse_depends = "['bcmail']"
 +++
 Java cryptography APIs.
 
-{{< files text="show files" >}}* /usr/share/java/bcpkix.jar
-{{< /files >}}
+## Files: 
+* /usr/share/java/bcpkix.jar

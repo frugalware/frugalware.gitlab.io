@@ -16,9 +16,9 @@ reverse_depends = "['apr', 'cryptsetup-luks', 'dssi', 'e2fsprogs', 'efl', 'enlig
 +++
 Universally unique id library
 
-{{< files text="show files" >}}* /usr/include/uuid/uuid.h
+## Files: 
+* /usr/include/uuid/uuid.h
 * /usr/lib/libuuid.so
 * /usr/lib/libuuid.so.1
 * /usr/lib/libuuid.so.1.3.0
 * /usr/lib/pkgconfig/uuid.pc
-{{< /files >}}

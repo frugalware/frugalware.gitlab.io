@@ -16,7 +16,8 @@ reverse_depends = "['man2html']"
 +++
 A utility for reading man pages
 
-{{< files text="show files" >}}* /etc/cron.daily/man-db
+## Files: 
+* /etc/cron.daily/man-db
 * /etc/man_db.conf
 * /etc/profile.d/man-colors.sh
 * /etc/profile.d/man.sh
@@ -134,4 +135,3 @@ A utility for reading man pages
 * /usr/share/man/man8/accessdb.8.gz
 * /usr/share/man/man8/catman.8.gz
 * /usr/share/man/man8/mandb.8.gz
-{{< /files >}}

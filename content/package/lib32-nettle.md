@@ -16,7 +16,8 @@ reverse_depends = "['lib32-gnutls', 'lib32-libcurl-gnutls']"
 +++
 A low-level cryptographic library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/nettle-hash
+## Files: 
+* /usr/i686-frugalware-linux/bin/nettle-hash
 * /usr/i686-frugalware-linux/bin/nettle-lfib-stream
 * /usr/i686-frugalware-linux/bin/nettle-pbkdf2
 * /usr/i686-frugalware-linux/bin/pkcs1-conv
@@ -101,4 +102,3 @@ A low-level cryptographic library ( 32bit )
 * /usr/lib32/libnettle.so.8.8
 * /usr/lib32/pkgconfig/hogweed.pc
 * /usr/lib32/pkgconfig/nettle.pc
-{{< /files >}}

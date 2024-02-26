@@ -16,7 +16,8 @@ reverse_depends = "['kconfigwidgets', 'krita', 'kwayland-integration', 'qqc2-bre
 +++
 Utilities for graphical user interfaces.
 
-{{< files text="show files" >}}* /usr/bin/kde-geo-uri-handler
+## Files: 
+* /usr/bin/kde-geo-uri-handler
 * /usr/include/KF5/KGuiAddons/KColorCollection
 * /usr/include/KF5/KGuiAddons/kcolorcollection.h
 * /usr/include/KF5/KGuiAddons/KColorMimeData
@@ -62,4 +63,3 @@ Utilities for graphical user interfaces.
 * /usr/share/doc/kguiaddons-5.115.0/README.md.license
 * /usr/share/qlogging-categories5/kguiaddons.categories
 * /usr/share/qt5/mkspecs/modules/qt_KGuiAddons.pri
-{{< /files >}}

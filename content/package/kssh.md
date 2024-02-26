@@ -15,7 +15,8 @@ depends = "['openssh']"
 +++
 KSSH is a ssh/openssh frontend for KDE.
 
-{{< files text="show files" >}}* usr/bin/kssh
+## Files: 
+* usr/bin/kssh
 * usr/share/applnk/Internet/kssh.desktop
 * usr/share/apps/konsole/kssh.desktop
 * usr/share/doc/HTML/en/kssh/common
@@ -32,4 +33,3 @@ KSSH is a ssh/openssh frontend for KDE.
 * usr/share/icons/hicolor/48x48/apps/kssh.png
 * usr/share/icons/locolor/16x16/apps/kssh.png
 * usr/share/icons/locolor/32x32/apps/kssh.png
-{{< /files >}}

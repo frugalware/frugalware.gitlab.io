@@ -16,7 +16,8 @@ reverse_depends = "['docker']"
 +++
 open and reliable container runtime
 
-{{< files text="show files" >}}* /usr/bin/containerd
+## Files: 
+* /usr/bin/containerd
 * /usr/bin/containerd-ctr
 * /usr/bin/containerd-shim
 * /usr/bin/containerd-shim-runc-v1
@@ -30,4 +31,3 @@ open and reliable container runtime
 * /usr/share/man/man8/containerd-config.8.gz
 * /usr/share/man/man8/containerd.8.gz
 * /usr/share/man/man8/ctr.8.gz
-{{< /files >}}

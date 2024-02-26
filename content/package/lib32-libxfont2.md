@@ -16,9 +16,9 @@ reverse_depends = "['lib32-xorg-server']"
 +++
 X font Library V2 ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/fonts/libxfont2.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/fonts/libxfont2.h
 * /usr/lib32/libXfont2.so
 * /usr/lib32/libXfont2.so.2
 * /usr/lib32/libXfont2.so.2.0.0
 * /usr/lib32/pkgconfig/xfont2.pc
-{{< /files >}}

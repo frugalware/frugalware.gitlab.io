@@ -16,7 +16,8 @@ reverse_depends = "['perl-devel-globaldestruction']"
 +++
 A sophisticated exporter for custom-built routines
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/Sub/Exporter.pm
+## Files: 
+* /usr/lib/perl5/site_perl/Sub/Exporter.pm
 * /usr/lib/perl5/site_perl/Sub/Exporter/Cookbook.pod
 * /usr/lib/perl5/site_perl/Sub/Exporter/Tutorial.pod
 * /usr/lib/perl5/site_perl/Sub/Exporter/Util.pm
@@ -27,4 +28,3 @@ A sophisticated exporter for custom-built routines
 * /usr/share/man/man3/Sub::Exporter::Cookbook.3perl.gz
 * /usr/share/man/man3/Sub::Exporter::Tutorial.3perl.gz
 * /usr/share/man/man3/Sub::Exporter::Util.3perl.gz
-{{< /files >}}

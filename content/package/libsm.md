@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X Session Management Library
 
-{{< files text="show files" >}}* /usr/include/X11/SM/SM.h
+## Files: 
+* /usr/include/X11/SM/SM.h
 * /usr/include/X11/SM/SMlib.h
 * /usr/include/X11/SM/SMproto.h
 * /usr/lib/libSM.so
@@ -31,4 +32,3 @@ X Session Management Library
 * /usr/share/doc/libsm-1.2.4/README.md
 * /usr/share/doc/libsm-1.2.4/SMlib.xml
 * /usr/share/doc/libsm-1.2.4/xsmp.xml
-{{< /files >}}

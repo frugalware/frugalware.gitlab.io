@@ -16,7 +16,8 @@ reverse_depends = "['audiocd-kio', 'k3b']"
 +++
 A library for retrieving and sending cddb information.
 
-{{< files text="show files" >}}* /usr/include/KCddb5/KCDDB/Categories
+## Files: 
+* /usr/include/KCddb5/KCDDB/Categories
 * /usr/include/KCddb5/kcddb/categories.h
 * /usr/include/KCddb5/KCDDB/CDInfo
 * /usr/include/KCddb5/kcddb/cdinfo.h
@@ -231,4 +232,3 @@ A library for retrieving and sending cddb information.
 * /usr/share/locale/zh_TW/LC_MESSAGES/libkcddb.mo
 * /usr/share/qlogging-categories5/libkcddb.categories
 * /usr/share/qt5/mkspecs/modules/qt_KCddb.pri
-{{< /files >}}

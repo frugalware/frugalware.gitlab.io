@@ -15,7 +15,8 @@ depends = "['glib2', 'granite', 'gtk+3', 'hicolor-icon-theme', 'json-glib', 'lib
 +++
 GTK3 client for Mastodon
 
-{{< files text="show files" >}}* /usr/bin/com.github.bleakgrey.tootle
+## Files: 
+* /usr/bin/com.github.bleakgrey.tootle
 * /usr/bin/tootle
 * /usr/include/libhandy-1/handy.h
 * /usr/include/libhandy-1/hdy-action-row.h
@@ -84,4 +85,3 @@ GTK3 client for Mastodon
 * /usr/share/metainfo/com.github.bleakgrey.tootle.appdata.xml
 * /usr/share/vala/vapi/libhandy-1.deps
 * /usr/share/vala/vapi/libhandy-1.vapi
-{{< /files >}}

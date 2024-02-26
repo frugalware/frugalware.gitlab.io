@@ -16,7 +16,8 @@ reverse_depends = "['adodb', 'kdev-php', 'phoronix-test-suite', 'php-cgi', 'php-
 +++
 A widely-used general-purpose scripting language
 
-{{< files text="show files" >}}* /etc/httpd/conf/modules.d/php.conf
+## Files: 
+* /etc/httpd/conf/modules.d/php.conf
 * /etc/pear.conf
 * /etc/php.ini
 * /usr/bin/pear
@@ -554,4 +555,3 @@ A widely-used general-purpose scripting language
 * /usr/share/pear/test/XML_Util/tests/ReverseEntitiesTests.php
 * /usr/share/pear/test/XML_Util/tests/SplitQualifiedNameTests.php
 * /usr/share/pear/XML/Util.php
-{{< /files >}}

@@ -15,7 +15,7 @@ depends = "[]"
 +++
 Qt5 tools static libs.
 
-{{< files text="show files" >}}* /usr/lib/libQt5UiTools.a
+## Files: 
+* /usr/lib/libQt5UiTools.a
 * /usr/lib/libQt5UiTools.la
 * /usr/lib/libQt5UiTools.prl
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Georgian support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/ka/default.css
+## Files: 
+* /usr/lib/libreoffice/help/ka/default.css
 * /usr/lib/libreoffice/help/ka/err.html
 * /usr/lib/libreoffice/help/ka/highcontrast1.css
 * /usr/lib/libreoffice/help/ka/highcontrast2.css
@@ -133,4 +134,3 @@ Installs Georgian support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-ka.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_ka.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_ka.xcd
-{{< /files >}}

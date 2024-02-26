@@ -15,7 +15,8 @@ depends = "['audiofile', 'flac>=1.4.0', 'id3lib', 'kio>=5.115.0', 'libmad', 'lib
 +++
 Kwave is a sound editor for KDE
 
-{{< files text="show files" >}}* /usr/bin/kwave
+## Files: 
+* /usr/bin/kwave
 * /usr/lib/libkwave.so.23
 * /usr/lib/libkwave.so.23.08.5
 * /usr/lib/libkwavegui.so.23
@@ -304,4 +305,3 @@ Kwave is a sound editor for KDE
 * /usr/share/locale/zh_CN/LC_MESSAGES/kwave.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kwave.mo
 * /usr/share/metainfo/org.kde.kwave.appdata.xml
-{{< /files >}}

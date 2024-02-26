@@ -15,7 +15,8 @@ depends = "['python3>=3.11']"
 +++
 A Python-centric SQL toolset, database resource manager and object-relational mapper.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/SQLAlchemy-2.0.23-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/SQLAlchemy-2.0.23-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/SQLAlchemy-2.0.23-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/SQLAlchemy-2.0.23-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/SQLAlchemy-2.0.23-py3.12.egg-info/SOURCES.txt
@@ -544,4 +545,3 @@ A Python-centric SQL toolset, database resource manager and object-relational ma
 * /usr/share/doc/python3-sqlalchemy-2.0.23/README.dialects.rst
 * /usr/share/doc/python3-sqlalchemy-2.0.23/README.rst
 * /usr/share/doc/python3-sqlalchemy-2.0.23/README.unittests.rst
-{{< /files >}}

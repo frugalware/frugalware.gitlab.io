@@ -16,7 +16,8 @@ reverse_depends = "['haskell-crypton-x509', 'haskell-x509']"
 +++
 Privacy Enhanced Mail (PEM) format reader and writer
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/pem-0.2.4/Data/PEM.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/pem-0.2.4/Data/PEM.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/pem-0.2.4/Data/PEM.hi
 * /usr/lib/ghc-9.8.1/site-local/pem-0.2.4/Data/PEM/Parser.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/pem-0.2.4/Data/PEM/Parser.hi
@@ -41,4 +42,3 @@ Privacy Enhanced Mail (PEM) format reader and writer
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/pem-0.2.4/LICENSE
 * /usr/share/haskell/haskell-pem/register.sh
 * /usr/share/haskell/haskell-pem/unregister.sh
-{{< /files >}}

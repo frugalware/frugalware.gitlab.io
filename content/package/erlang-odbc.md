@@ -15,7 +15,8 @@ depends = "['erlang=26.2.1']"
 +++
 The Erlang ODBC application.
 
-{{< files text="show files" >}}* /usr/lib/erlang/lib/odbc-2.14.1/c_src/odbcserver.c
+## Files: 
+* /usr/lib/erlang/lib/odbc-2.14.1/c_src/odbcserver.c
 * /usr/lib/erlang/lib/odbc-2.14.1/c_src/odbcserver.h
 * /usr/lib/erlang/lib/odbc-2.14.1/ebin/odbc.app
 * /usr/lib/erlang/lib/odbc-2.14.1/ebin/odbc.appup
@@ -28,4 +29,3 @@ The Erlang ODBC application.
 * /usr/lib/erlang/lib/odbc-2.14.1/src/odbc_app.erl
 * /usr/lib/erlang/lib/odbc-2.14.1/src/odbc_internal.hrl
 * /usr/lib/erlang/lib/odbc-2.14.1/src/odbc_sup.erl
-{{< /files >}}

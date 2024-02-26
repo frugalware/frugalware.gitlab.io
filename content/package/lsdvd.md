@@ -17,11 +17,11 @@ license = "GPL2"
 +++
 Lsdvd is a c application for reading the contents of a DVD and printing the contents to your terminal.
 
-{{< files text="show files" >}}* /usr/bin/lsdvd
+## Files: 
+* /usr/bin/lsdvd
 * /usr/share/doc/lsdvd-0.17/AUTHORS
 * /usr/share/doc/lsdvd-0.17/ChangeLog
 * /usr/share/doc/lsdvd-0.17/COPYING
 * /usr/share/doc/lsdvd-0.17/INSTALL
 * /usr/share/doc/lsdvd-0.17/README
 * /usr/share/man/man1/lsdvd.1.gz
-{{< /files >}}

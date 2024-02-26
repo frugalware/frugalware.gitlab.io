@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Azerbaijani Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/locale/az/charset
+## Files: 
+* usr/share/locale/az/charset
 * usr/share/locale/az/entry.desktop
 * usr/share/locale/az/flag.png
 * usr/share/locale/az/LC_MESSAGES/alsaplayerui.mo
@@ -448,4 +449,3 @@ Azerbaijani Localization for KDE.
 * usr/share/locale/az/LC_MESSAGES/wakeup.mo
 * usr/share/locale/az/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/az/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

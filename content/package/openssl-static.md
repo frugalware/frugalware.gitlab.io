@@ -15,6 +15,6 @@ depends = "[]"
 +++
 Static files for openssl
 
-{{< files text="show files" >}}* /usr/lib/libcrypto.a
+## Files: 
+* /usr/lib/libcrypto.a
 * /usr/lib/libssl.a
-{{< /files >}}

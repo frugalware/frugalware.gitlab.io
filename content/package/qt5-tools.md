@@ -16,7 +16,8 @@ reverse_depends = "['kde-dev-utils', 'kdevelop', 'librecad', 'marble', 'plasma-w
 +++
 The Qt5 toolkit, qttools
 
-{{< files text="show files" >}}* /usr/bin/assistant
+## Files: 
+* /usr/bin/assistant
 * /usr/bin/assistant-qt5
 * /usr/bin/designer
 * /usr/bin/designer-qt5
@@ -363,4 +364,3 @@ The Qt5 toolkit, qttools
 * /usr/share/qt5/phrasebooks/russian.qph
 * /usr/share/qt5/phrasebooks/spanish.qph
 * /usr/share/qt5/phrasebooks/swedish.qph
-{{< /files >}}

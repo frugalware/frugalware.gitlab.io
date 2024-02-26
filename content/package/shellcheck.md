@@ -15,7 +15,8 @@ depends = "['haskell-aeson>=1.5.5.1-3', 'haskell-diff', 'haskell-fgl', 'haskell-
 +++
 Shell script analysis tool
 
-{{< files text="show files" >}}* /usr/bin/shellcheck
+## Files: 
+* /usr/bin/shellcheck
 * /usr/lib/ghc-9.8.1/site-local/ShellCheck-0.9.0/Paths_ShellCheck.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/ShellCheck-0.9.0/ShellCheck/Analytics.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/ShellCheck-0.9.0/ShellCheck/Analyzer.dyn_hi
@@ -111,4 +112,3 @@ Shell script analysis tool
 * /usr/share/doc/shellcheck/LICENSE
 * /usr/share/haskell/shellcheck/register.sh
 * /usr/share/haskell/shellcheck/unregister.sh
-{{< /files >}}

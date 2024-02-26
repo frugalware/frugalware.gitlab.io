@@ -16,7 +16,8 @@ reverse_depends = "['intel-compute-runtime']"
 +++
 Intel graphics system controller firmware update library
 
-{{< files text="show files" >}}* /usr/bin/igsc
+## Files: 
+* /usr/bin/igsc
 * /usr/include/igsc_lib.h
 * /usr/lib/cmake/igsc/igscConfig.cmake
 * /usr/lib/cmake/igsc/igscConfigVersion.cmake
@@ -27,4 +28,3 @@ Intel graphics system controller firmware update library
 * /usr/lib/libigsc.so.0.8.16
 * /usr/share/doc/igsc-0.8.16/README.md
 * /usr/share/doc/igsc-0.8.16/VERSION
-{{< /files >}}

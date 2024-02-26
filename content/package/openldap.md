@@ -16,7 +16,8 @@ reverse_depends = "['nfsidmap']"
 +++
 A suite of the Lightweight Directory Access Protocol servers
 
-{{< files text="show files" >}}* /etc/openldap/schema/collective.ldif
+## Files: 
+* /etc/openldap/schema/collective.ldif
 * /etc/openldap/schema/collective.schema
 * /etc/openldap/schema/corba.ldif
 * /etc/openldap/schema/corba.schema
@@ -343,4 +344,3 @@ A suite of the Lightweight Directory Access Protocol servers
 * /usr/share/openldap/DB_CONFIG
 * /usr/share/openldap/slapd.init.conf
 * /usr/share/openldap/slapd.init.ldif
-{{< /files >}}

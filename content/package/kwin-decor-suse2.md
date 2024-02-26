@@ -15,7 +15,8 @@ depends = "[]"
 +++
 SuSe kwin decoration for KDE.
 
-{{< files text="show files" >}}* usr/lib/kde3/kwin3_SUSE2.la
+## Files: 
+* usr/lib/kde3/kwin3_SUSE2.la
 * usr/lib/kde3/kwin3_SUSE2.so
 * usr/lib/kde3/kwin_SUSE2_config.la
 * usr/lib/kde3/kwin_SUSE2_config.so
@@ -70,4 +71,3 @@ SuSe kwin decoration for KDE.
 * usr/share/locale/uk/LC_MESSAGES/kwin_SUSE2.mo
 * usr/share/locale/zh_CN/LC_MESSAGES/kwin_SUSE2.mo
 * usr/share/locale/zh_TW/LC_MESSAGES/kwin_SUSE2.mo
-{{< /files >}}

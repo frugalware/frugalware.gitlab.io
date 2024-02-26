@@ -16,7 +16,8 @@ reverse_depends = "['gtk+3', 'gtk+4']"
 +++
 GTK+3 commandline tools.
 
-{{< files text="show files" >}}* /usr/bin/gtk-query-immodules-3.0
+## Files: 
+* /usr/bin/gtk-query-immodules-3.0
 * /usr/share/man/man1/broadwayd.1.gz
 * /usr/share/man/man1/gtk-builder-tool.1.gz
 * /usr/share/man/man1/gtk-encode-symbolic-svg.1.gz
@@ -27,4 +28,3 @@ GTK+3 commandline tools.
 * /usr/share/man/man1/gtk3-demo.1.gz
 * /usr/share/man/man1/gtk3-icon-browser.1.gz
 * /usr/share/man/man1/gtk3-widget-factory.1.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['qt6-svg']"
 +++
 CuteMaze is a simple, top-down game in which mazes are randomly generated.
 
-{{< files text="show files" >}}* /usr/bin/cutemaze
+## Files: 
+* /usr/bin/cutemaze
 * /usr/share/applications/cutemaze.desktop
 * /usr/share/cutemaze/translations/cutemaze_cs.qm
 * /usr/share/cutemaze/translations/cutemaze_de.qm
@@ -53,4 +54,3 @@ CuteMaze is a simple, top-down game in which mazes are randomly generated.
 * /usr/share/icons/hicolor/scalable/apps/cutemaze.svg
 * /usr/share/man/man6/cutemaze.6.gz
 * /usr/share/metainfo/cutemaze.appdata.xml
-{{< /files >}}

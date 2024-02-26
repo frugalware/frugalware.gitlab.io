@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 Scripts and setting files useful during development of KDE software
 
-{{< files text="show files" >}}* /usr/bin/adddebug
+## Files: 
+* /usr/bin/adddebug
 * /usr/bin/build-progress.sh
 * /usr/bin/c++-copy-class-and-file
 * /usr/bin/c++-rename-class-and-file
@@ -312,4 +313,3 @@ Scripts and setting files useful during development of KDE software
 * /usr/share/man/uk/man1/zonetab2pot.py.1.gz
 * /usr/share/uncrustify/uncrustify-kf5.cfg
 * /usr/share/uncrustify/uncrustify-qt.cfg
-{{< /files >}}

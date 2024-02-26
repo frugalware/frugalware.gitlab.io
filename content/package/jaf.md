@@ -16,9 +16,9 @@ reverse_depends = "['bcmail', 'gnumail']"
 +++
 GNU implementation of the JavaBeans Activation Framework
 
-{{< files text="show files" >}}* /usr/share/doc/jaf-1.1.2/AUTHORS
+## Files: 
+* /usr/share/doc/jaf-1.1.2/AUTHORS
 * /usr/share/doc/jaf-1.1.2/ChangeLog
 * /usr/share/doc/jaf-1.1.2/COPYING
 * /usr/share/doc/jaf-1.1.2/INSTALL
 * /usr/share/java/activation.jar
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['clight', 'libguestfs']"
 +++
 Configuration file library for C and C++.
 
-{{< files text="show files" >}}* /usr/include/libconfig.h
+## Files: 
+* /usr/include/libconfig.h
 * /usr/include/libconfig.h++
 * /usr/lib/cmake/libconfig++/libconfig++Config.cmake
 * /usr/lib/cmake/libconfig/libconfigConfig.cmake
@@ -38,4 +39,3 @@ Configuration file library for C and C++.
 * /usr/share/doc/libconfig-1.7.3/README.md
 * /usr/share/doc/libconfig-1.7.3/TODO
 * /usr/share/info/libconfig.info.gz
-{{< /files >}}

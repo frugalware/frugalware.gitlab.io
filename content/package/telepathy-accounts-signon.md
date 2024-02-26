@@ -15,7 +15,7 @@ depends = "['libaccounts-glib>=1.25', 'libsignon-glib>=2.1', 'telepathy-mission-
 +++
 A mission control plugin for Telepathy, integrating with libaccounts and libsignon
 
-{{< files text="show files" >}}* /usr/lib/mission-control-plugins.0/mcp-account-manager-accounts-sso.so
+## Files: 
+* /usr/lib/mission-control-plugins.0/mcp-account-manager-accounts-sso.so
 * /usr/share/doc/telepathy-accounts-signon-2.1/COPYING.LGPL
 * /usr/share/doc/telepathy-accounts-signon-2.1/README.md
-{{< /files >}}

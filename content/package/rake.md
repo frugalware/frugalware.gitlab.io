@@ -15,7 +15,8 @@ depends = "['ruby>=3.0.0']"
 +++
 Make-like scripting in Ruby
 
-{{< files text="show files" >}}* /usr/lib/ruby/3.1.0/rake.rb
+## Files: 
+* /usr/lib/ruby/3.1.0/rake.rb
 * /usr/lib/ruby/3.1.0/rake/application.rb
 * /usr/lib/ruby/3.1.0/rake/backtrace.rb
 * /usr/lib/ruby/3.1.0/rake/clean.rb
@@ -71,4 +72,3 @@ Make-like scripting in Ruby
 * /usr/share/doc/rake-13.0.6/rakefile.rdoc
 * /usr/share/doc/rake-13.0.6/rational.rdoc
 * /usr/share/doc/rake-13.0.6/README.rdoc
-{{< /files >}}

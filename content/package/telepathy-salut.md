@@ -15,7 +15,8 @@ depends = "['avahi>=0.6.31-9', 'avahi-glib>=0.6.31-9', 'cyrus-sasl>=2.1.26-3', '
 +++
 Provide Link-local Jabber functionality for Telepathy
 
-{{< files text="show files" >}}* /usr/lib/telepathy-salut/telepathy-salut
+## Files: 
+* /usr/lib/telepathy-salut/telepathy-salut
 * /usr/lib/telepathy/salut-0/lib/libsalut-plugins-0.8.1.so
 * /usr/lib/telepathy/salut-0/lib/libsalut-plugins.so
 * /usr/lib/telepathy/salut-0/lib/libwocky-telepathy-salut-0.8.1.so
@@ -30,4 +31,3 @@ Provide Link-local Jabber functionality for Telepathy
 * /usr/share/doc/telepathy-salut-0.8.1/README
 * /usr/share/man/man8/telepathy-salut.8.gz
 * /usr/share/telepathy/managers/salut.manager
-{{< /files >}}

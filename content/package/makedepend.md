@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org makedepend utility
 
-{{< files text="show files" >}}* /usr/bin/makedepend
+## Files: 
+* /usr/bin/makedepend
 * /usr/share/doc/makedepend-1.0.9/AUTHORS
 * /usr/share/doc/makedepend-1.0.9/ChangeLog
 * /usr/share/doc/makedepend-1.0.9/COPYING
 * /usr/share/doc/makedepend-1.0.9/README.md
 * /usr/share/man/man1/makedepend.1.gz
-{{< /files >}}

@@ -15,6 +15,6 @@ depends = "['fontconfig', 'mkfontscale']"
 +++
 Font for unicode symbols (part of Unicode Fonts for Ancient Scripts).
 
-{{< files text="show files" >}}* /usr/share/fonts/X11/TTF/Symbola.ttf
+## Files: 
+* /usr/share/fonts/X11/TTF/Symbola.ttf
 * /usr/share/fonts/X11/TTF/Symbola_hint.ttf
-{{< /files >}}

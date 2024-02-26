@@ -16,7 +16,8 @@ reverse_depends = "['kalzium', 'khelpcenter5', 'kile', 'kimagemapeditor', 'kio-e
 +++
 HTML rendering engine.
 
-{{< files text="show files" >}}* /etc/xdg/khtmlrc
+## Files: 
+* /etc/xdg/khtmlrc
 * /usr/include/KF5/KHtml/dom/css_rule.h
 * /usr/include/KF5/KHtml/dom/css_stylesheet.h
 * /usr/include/KF5/KHtml/dom/css_value.h
@@ -187,4 +188,3 @@ HTML rendering engine.
 * /usr/share/qlogging-categories5/khtml.categories
 * /usr/share/qlogging-categories5/khtml.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KHtml.pri
-{{< /files >}}

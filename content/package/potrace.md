@@ -16,7 +16,8 @@ reverse_depends = "['blender', 'inkscape', 'mftrace', 'potracegui', 'texlive']"
 +++
 Transforming bitmaps into vector graphics
 
-{{< files text="show files" >}}* /usr/bin/mkbitmap
+## Files: 
+* /usr/bin/mkbitmap
 * /usr/bin/potrace
 * /usr/include/potracelib.h
 * /usr/lib/libpotrace.so
@@ -32,4 +33,3 @@ Transforming bitmaps into vector graphics
 * /usr/share/doc/potrace-1.16/README-WIN
 * /usr/share/man/man1/mkbitmap.1.gz
 * /usr/share/man/man1/potrace.1.gz
-{{< /files >}}

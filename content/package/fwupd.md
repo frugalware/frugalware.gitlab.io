@@ -15,7 +15,8 @@ depends = "['appstream-glib', 'colord', 'efivar', 'fwupd-efi', 'gnu-efi', 'gpgme
 +++
 A simple daemon to allow session software to update firmware
 
-{{< files text="show files" >}}* /etc/fwupd/bios-settings.d/README.md
+## Files: 
+* /etc/fwupd/bios-settings.d/README.md
 * /etc/fwupd/fwupd.conf
 * /etc/fwupd/remotes.d/fwupd-tests.conf
 * /etc/fwupd/remotes.d/lvfs-testing.conf
@@ -4045,4 +4046,3 @@ A simple daemon to allow session software to update firmware
 * /usr/share/polkit-1/rules.d/org.freedesktop.fwupd.rules
 * /usr/share/vala/vapi/fwupd.deps
 * /usr/share/vala/vapi/fwupd.vapi
-{{< /files >}}

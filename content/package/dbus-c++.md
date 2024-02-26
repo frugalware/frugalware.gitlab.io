@@ -15,7 +15,8 @@ depends = "['dbus', 'glib2>=2.60.3']"
 +++
 A C++ API for D-BUS
 
-{{< files text="show files" >}}* /usr/bin/dbusxx-introspect
+## Files: 
+* /usr/bin/dbusxx-introspect
 * /usr/bin/dbusxx-xml2cpp
 * /usr/include/dbus-c++-1/dbus-c++/api.h
 * /usr/include/dbus-c++-1/dbus-c++/connection.h
@@ -50,4 +51,3 @@ A C++ API for D-BUS
 * /usr/share/doc/dbus-c++-0.9.0/INSTALL
 * /usr/share/doc/dbus-c++-0.9.0/README
 * /usr/share/doc/dbus-c++-0.9.0/TODO
-{{< /files >}}

@@ -15,8 +15,8 @@ depends = "['ncurses']"
 +++
 TCG OPAL 2.00 SED Management Program
 
-{{< files text="show files" >}}* /usr/bin/linuxpba
+## Files: 
+* /usr/bin/linuxpba
 * /usr/bin/sedutil-cli
 * /usr/share/doc/sedutil-1.20.0/README.md
 * /usr/share/doc/sedutil-1.20.0/README_build_win32.txt
-{{< /files >}}

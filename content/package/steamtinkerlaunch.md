@@ -15,7 +15,8 @@ depends = "['bash', 'bc', 'git', 'procps-ng', 'unzip', 'which', 'xdotool', 'xpro
 +++
 Wrapper script for Steam custom launch options
 
-{{< files text="show files" >}}* /usr/bin/steamtinkerlaunch
+## Files: 
+* /usr/bin/steamtinkerlaunch
 * /usr/share/applications
 * /usr/share/doc/steamtinkerlaunch-12.12/LICENSE
 * /usr/share/doc/steamtinkerlaunch-12.12/README.md
@@ -195,4 +196,3 @@ Wrapper script for Steam custom launch options
 * /usr/share/steamtinkerlaunch/misc/vortexgames.txt
 * /usr/share/steamtinkerlaunch/misc/winedebugchannels.txt
 * /usr/share/steamtinkerlaunch/misc/x64dbg.reg
-{{< /files >}}

@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org create a shadow directory of symbolic links to another directory tree
 
-{{< files text="show files" >}}* /usr/bin/lndir
+## Files: 
+* /usr/bin/lndir
 * /usr/share/doc/lndir-1.0.4/ChangeLog
 * /usr/share/doc/lndir-1.0.4/COPYING
 * /usr/share/doc/lndir-1.0.4/INSTALL
 * /usr/share/doc/lndir-1.0.4/README.md
 * /usr/share/man/man1/lndir.1.gz
-{{< /files >}}

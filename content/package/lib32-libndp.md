@@ -16,8 +16,8 @@ reverse_depends = "['lib32-networkmanager']"
 +++
 This package contains a library which provides a wrapper for IPv6 Neighbor Discovery Protocol. ( 32bit )
 
-{{< files text="show files" >}}* /usr/lib32/libndp.so
+## Files: 
+* /usr/lib32/libndp.so
 * /usr/lib32/libndp.so.0
 * /usr/lib32/libndp.so.0.2.0
 * /usr/lib32/pkgconfig/libndp.pc
-{{< /files >}}

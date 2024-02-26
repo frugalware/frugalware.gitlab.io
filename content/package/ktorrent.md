@@ -15,7 +15,8 @@ depends = "['kross>=5.115.0', 'libktorrent>=23.08.5', 'plasma-workspace>=5.27.10
 +++
 A BitTorrent application for KDE.
 
-{{< files text="show files" >}}* /usr/bin/ktmagnetdownloader
+## Files: 
+* /usr/bin/ktmagnetdownloader
 * /usr/bin/ktorrent
 * /usr/bin/ktupnptest
 * /usr/lib/libktcore.so.16
@@ -229,4 +230,3 @@ A BitTorrent application for KDE.
 * /usr/share/locale/zh_CN/LC_MESSAGES/ktorrent.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/ktorrent.mo
 * /usr/share/metainfo/org.kde.ktorrent.appdata.xml
-{{< /files >}}

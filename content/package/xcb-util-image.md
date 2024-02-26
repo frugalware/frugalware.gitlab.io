@@ -16,7 +16,8 @@ reverse_depends = "['i3lock', 'qt5-base', 'sfml', 'xcb-util-cursor', 'xorg-serve
 +++
 image libraries for X C Binding
 
-{{< files text="show files" >}}* /usr/include/xcb/xcb_bitops.h
+## Files: 
+* /usr/include/xcb/xcb_bitops.h
 * /usr/include/xcb/xcb_image.h
 * /usr/include/xcb/xcb_pixel.h
 * /usr/lib/libxcb-image.so
@@ -28,4 +29,3 @@ image libraries for X C Binding
 * /usr/share/doc/xcb-util-image-0.4.1/INSTALL
 * /usr/share/doc/xcb-util-image-0.4.1/NEWS
 * /usr/share/doc/xcb-util-image-0.4.1/README.md
-{{< /files >}}

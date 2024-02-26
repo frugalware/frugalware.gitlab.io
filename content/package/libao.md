@@ -16,7 +16,8 @@ reverse_depends = "['cdrdao', 'libao-pulse', 'mpd', 'pidgin', 'speech-dispatcher
 +++
 A cross-platform audio library
 
-{{< files text="show files" >}}* /usr/include/ao/ao.h
+## Files: 
+* /usr/include/ao/ao.h
 * /usr/include/ao/os_types.h
 * /usr/include/ao/plugin.h
 * /usr/lib/ao/plugins-4/libalsa.so
@@ -69,4 +70,3 @@ A cross-platform audio library
 * /usr/share/doc/libao-1.2.0/style.css
 * /usr/share/doc/libao-1.2.0/TODO
 * /usr/share/man/man5/libao.conf.5.gz
-{{< /files >}}

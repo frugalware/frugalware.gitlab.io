@@ -16,11 +16,11 @@ license = "GPL"
 +++
 A utility to monitor the usage of resources within the X Server, and display them in a manner similar to top.
 
-{{< files text="show files" >}}* /usr/bin/xrestop
+## Files: 
+* /usr/bin/xrestop
 * /usr/share/doc/xrestop-0.4/AUTHORS
 * /usr/share/doc/xrestop-0.4/ChangeLog
 * /usr/share/doc/xrestop-0.4/COPYING
 * /usr/share/doc/xrestop-0.4/INSTALL
 * /usr/share/doc/xrestop-0.4/README
 * /usr/share/man/man1/xrestop.1.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['libmpack-lua', 'lua51-lpeg', 'wireshark', 'wireshark-qt']"
 +++
 A powerful light-weight programming language designed for extending applications.
 
-{{< files text="show files" >}}* /usr/bin/lua5.1
+## Files: 
+* /usr/bin/lua5.1
 * /usr/bin/luac5.1
 * /usr/include/lua5.1/lauxlib.h
 * /usr/include/lua5.1/lua.h
@@ -34,4 +35,3 @@ A powerful light-weight programming language designed for extending applications
 * /usr/share/doc/lua51-5.1.5/README
 * /usr/share/man/man1/lua5.1.5.gz
 * /usr/share/man/man1/luac5.1.5.gz
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "['alsa-lib>=1.1.2-2', 'gst1-plugins-base>=1.22.10', 'gstreamer1>=1.22
 +++
 GStreamer alsa plugin (Base).
 
-{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstalsa.so
-{{< /files >}}
+## Files: 
+* /usr/lib/gstreamer-1.0/libgstalsa.so

@@ -16,7 +16,8 @@ reverse_depends = "['libreoffice']"
 +++
 A Mixed Integer Linear Programming (MILP) solver.
 
-{{< files text="show files" >}}* /usr/bin/lp_solve
+## Files: 
+* /usr/bin/lp_solve
 * /usr/include/lpsolve/lpkit.h
 * /usr/include/lpsolve/lpsolve.h
 * /usr/include/lpsolve/lp_bit.h
@@ -43,4 +44,3 @@ A Mixed Integer Linear Programming (MILP) solver.
 * /usr/include/lpsolve/lp_wlp.h
 * /usr/lib/liblpsolve55.so
 * /usr/share/doc/lp_solve-5.5.2.5/README.txt
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['dbus', 'glib2']"
 +++
 Threema Desktop (Threema Web in Electron).
 
-{{< files text="show files" >}}* /usr/bin/threema
+## Files: 
+* /usr/bin/threema
 * /usr/lib/threema-desktop/chrome-sandbox
 * /usr/lib/threema-desktop/chrome_100_percent.pak
 * /usr/lib/threema-desktop/chrome_200_percent.pak
@@ -100,4 +101,3 @@ Threema Desktop (Threema Web in Electron).
 * /usr/share/icons/hicolor/512x512/apps/threema-desktop.png
 * /usr/share/icons/hicolor/64x64/apps/threema-desktop.png
 * /usr/share/icons/hicolor/scalable/apps/threema-desktop.svg
-{{< /files >}}

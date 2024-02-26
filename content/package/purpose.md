@@ -16,7 +16,8 @@ reverse_depends = "['angelfish', 'discover', 'falkon-kde', 'kamoso', 'kdenlive',
 +++
 Offers the possibility to create integrate services and actions on any application.
 
-{{< files text="show files" >}}* /usr/include/KF5/purpose/Purpose/AlternativesModel
+## Files: 
+* /usr/include/KF5/purpose/Purpose/AlternativesModel
 * /usr/include/KF5/purpose/purpose/alternativesmodel.h
 * /usr/include/KF5/purpose/Purpose/Configuration
 * /usr/include/KF5/purpose/purpose/configuration.h
@@ -696,4 +697,3 @@ Offers the possibility to create integrate services and actions on any applicati
 * /usr/share/qt5/qml/org/kde/purpose/qmldir
 * /usr/share/qt5/qml/org/kde/purpose/reviewboard/librbpurposequickplugin.so
 * /usr/share/qt5/qml/org/kde/purpose/reviewboard/qmldir
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libxslt', 'perl-sgmlspm', 'perl-xml-sax>=0.99-5', 'perl-xml-writer>
 +++
 Converts DocBook documents to man and Texinfo format.
 
-{{< files text="show files" >}}* /usr/bin/db2x_manxml
+## Files: 
+* /usr/bin/db2x_manxml
 * /usr/bin/db2x_texixml
 * /usr/bin/db2x_xsltproc
 * /usr/bin/docbook-to-man
@@ -194,4 +195,3 @@ Converts DocBook documents to man and Texinfo format.
 * /usr/share/man/man1/docbook2texi.1.gz
 * /usr/share/man/man1/sgml2xml-isoent.1.gz
 * /usr/share/man/man1/utf8trans.1.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['qt5-base', 'qt6-base']"
 +++
 Touchscreen Access Library
 
-{{< files text="show files" >}}* /etc/ts.conf
+## Files: 
+* /etc/ts.conf
 * /usr/bin/ts_calibrate
 * /usr/bin/ts_conf
 * /usr/bin/ts_finddev
@@ -85,4 +86,3 @@ Touchscreen Access Library
 * /usr/share/man/man3/ts_read_raw_mt.3.gz
 * /usr/share/man/man3/ts_setup.3.gz
 * /usr/share/man/man5/ts.conf.5.gz
-{{< /files >}}

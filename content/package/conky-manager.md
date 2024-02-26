@@ -15,7 +15,8 @@ depends = "['gtk+3', 'json-glib', 'libgee8']"
 +++
 Graphical front-end for managing Conky config files.
 
-{{< files text="show files" >}}* /usr/bin/conky-manager2
+## Files: 
+* /usr/bin/conky-manager2
 * /usr/share/appdata/conky-manager2.appdata.xml
 * /usr/share/applications/conky-manager2.desktop
 * /usr/share/conky-manager2/images/conky-manager.xcf
@@ -43,4 +44,3 @@ Graphical front-end for managing Conky config files.
 * /usr/share/locale/nl/LC_MESSAGES/conky-manager2.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/conky-manager2.mo
 * /usr/share/pixmaps/conky-manager2.png
-{{< /files >}}

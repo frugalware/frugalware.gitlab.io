@@ -16,7 +16,8 @@ reverse_depends = "['gtkmm', 'gtkmm3']"
 +++
 C++ interface for atk
 
-{{< files text="show files" >}}* /usr/include/atkmm-2.36/atkmm.h
+## Files: 
+* /usr/include/atkmm-2.36/atkmm.h
 * /usr/include/atkmm-2.36/atkmm/action.h
 * /usr/include/atkmm-2.36/atkmm/component.h
 * /usr/include/atkmm-2.36/atkmm/document.h
@@ -73,4 +74,3 @@ C++ interface for atk
 * /usr/share/doc/atkmm-2.36.2/COPYING.tools
 * /usr/share/doc/atkmm-2.36.2/NEWS
 * /usr/share/doc/atkmm-2.36.2/README.md
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['gvfs-smb', 'libwbclient', 'mpd', 'samba-client', 'smb4k', '
 +++
 SMB client library.
 
-{{< files text="show files" >}}* /etc/ld.so.conf.d/libsmbclient.conf
+## Files: 
+* /etc/ld.so.conf.d/libsmbclient.conf
 * /usr/include/samba-4.0/libsmbclient.h
 * /usr/lib/libdcerpc-binding.so
 * /usr/lib/libdcerpc-binding.so.0
@@ -371,4 +372,3 @@ SMB client library.
 * /usr/lib/samba/vfs/worm.so
 * /usr/lib/samba/vfs/xattr_tdb.so
 * /usr/share/man/man7/libsmbclient.7.gz
-{{< /files >}}

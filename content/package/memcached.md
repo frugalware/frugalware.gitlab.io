@@ -15,7 +15,8 @@ depends = "['libevent>=2.1.11']"
 +++
 A high-performance, distributed memory object caching system.
 
-{{< files text="show files" >}}* /etc/sysconfig/memcached
+## Files: 
+* /etc/sysconfig/memcached
 * /usr/bin/memcached
 * /usr/include/memcached/protocol_binary.h
 * /usr/include/memcached/xxhash.h
@@ -26,4 +27,3 @@ A high-performance, distributed memory object caching system.
 * /usr/share/doc/memcached-1.6.23/NEWS
 * /usr/share/doc/memcached-1.6.23/README.md
 * /usr/share/man/man1/memcached.1.gz
-{{< /files >}}

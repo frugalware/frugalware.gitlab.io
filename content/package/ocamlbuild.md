@@ -15,7 +15,8 @@ depends = "['ocaml>=5.1.1']"
 +++
 Build tool, that has built-in rules for building OCaml library and programs
 
-{{< files text="show files" >}}* /usr/bin/ocamlbuild
+## Files: 
+* /usr/bin/ocamlbuild
 * /usr/bin/ocamlbuild.byte
 * /usr/bin/ocamlbuild.native
 * /usr/lib/ocaml/ocamlbuild/META
@@ -43,4 +44,3 @@ Build tool, that has built-in rules for building OCaml library and programs
 * /usr/share/doc/ocamlbuild-0.14.2/Readme.md
 * /usr/share/doc/ocamlbuild-0.14.2/VERSION
 * /usr/share/man/man1/ocamlbuild.1.gz
-{{< /files >}}

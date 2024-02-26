@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Hindi support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/hi/default.css
+## Files: 
+* /usr/lib/libreoffice/help/hi/default.css
 * /usr/lib/libreoffice/help/hi/err.html
 * /usr/lib/libreoffice/help/hi/highcontrast1.css
 * /usr/lib/libreoffice/help/hi/highcontrast2.css
@@ -134,4 +135,3 @@ Installs Hindi support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-hi.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_hi.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_hi.xcd
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['criu', 'hfsprogs', 'openvas-manager', 'openvas-scanner']"
 +++
 This library provides useful functions commonly found on BSD systems
 
-{{< files text="show files" >}}* /usr/include/bsd/bitstring.h
+## Files: 
+* /usr/include/bsd/bitstring.h
 * /usr/include/bsd/bsd.h
 * /usr/include/bsd/err.h
 * /usr/include/bsd/getopt.h
@@ -291,4 +292,3 @@ This library provides useful functions commonly found on BSD systems
 * /usr/share/man/man3/wcslcat.3bsd.gz
 * /usr/share/man/man3/wcslcpy.3bsd.gz
 * /usr/share/man/man7/libbsd.7.gz
-{{< /files >}}

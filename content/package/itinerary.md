@@ -15,7 +15,8 @@ depends = "['kcontacts>=5.115.0', 'kcoreaddons>=5.115.0', 'kholidays>=5.115.0', 
 +++
 Itinerary and boarding pass management application
 
-{{< files text="show files" >}}* /usr/bin/itinerary
+## Files: 
+* /usr/bin/itinerary
 * /usr/lib/libSolidExtras.so
 * /usr/lib/qt5/plugins/kf5/thumbcreator/itinerarythumbnail.so
 * /usr/share/applications/org.kde.itinerary.desktop
@@ -57,4 +58,3 @@ Itinerary and boarding pass management application
 * /usr/share/qlogging-categories5/org_kde_itinerary.categories
 * /usr/share/qt5/qml/org/kde/solidextras/libsolidextrasqmlplugin.so
 * /usr/share/qt5/qml/org/kde/solidextras/qmldir
-{{< /files >}}

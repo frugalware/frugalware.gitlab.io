@@ -16,7 +16,8 @@ reverse_depends = "['dosbox', 'manaplus', 'opencity']"
 +++
 A small sample cross-platform networking library
 
-{{< files text="show files" >}}* /usr/include/SDL/SDL_net.h
+## Files: 
+* /usr/include/SDL/SDL_net.h
 * /usr/lib/libSDL_net-1.2.so.0
 * /usr/lib/libSDL_net-1.2.so.0.8.0
 * /usr/lib/libSDL_net.so
@@ -24,4 +25,3 @@ A small sample cross-platform networking library
 * /usr/share/doc/sdl_net-1.2.8/CHANGES
 * /usr/share/doc/sdl_net-1.2.8/COPYING
 * /usr/share/doc/sdl_net-1.2.8/README
-{{< /files >}}

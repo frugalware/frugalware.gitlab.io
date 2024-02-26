@@ -15,7 +15,8 @@ depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=
 +++
 A game modeled after the well known pen and paper based game of Dots and Boxes.
 
-{{< files text="show files" >}}* /usr/bin/ksquares
+## Files: 
+* /usr/bin/ksquares
 * /usr/share/applications/org.kde.ksquares.desktop
 * /usr/share/config.kcfg/ksquares.kcfg
 * /usr/share/doc/HTML/ca/ksquares/configure-display.png
@@ -121,4 +122,3 @@ A game modeled after the well known pen and paper based game of Dots and Boxes.
 * /usr/share/locale/zh_CN/LC_MESSAGES/ksquares.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/ksquares.mo
 * /usr/share/metainfo/org.kde.ksquares.appdata.xml
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['box2d', 'embree', 'geogram', 'mupdf-gl', 'ospray']"
 +++
 A free, open source, portable framework for OpenGL application development.
 
-{{< files text="show files" >}}* /usr/include/GLFW/glfw3.h
+## Files: 
+* /usr/include/GLFW/glfw3.h
 * /usr/include/GLFW/glfw3native.h
 * /usr/lib/cmake/glfw3/glfw3Config.cmake
 * /usr/lib/cmake/glfw3/glfw3ConfigVersion.cmake
@@ -27,4 +28,3 @@ A free, open source, portable framework for OpenGL application development.
 * /usr/lib/libglfw.so.3.4
 * /usr/lib/pkgconfig/glfw3.pc
 * /usr/share/doc/glfw-3.4/README.md
-{{< /files >}}

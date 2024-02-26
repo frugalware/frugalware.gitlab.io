@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.Org Xdamage library
 
-{{< files text="show files" >}}* /usr/include/X11/extensions/Xdamage.h
+## Files: 
+* /usr/include/X11/extensions/Xdamage.h
 * /usr/lib/libXdamage.so
 * /usr/lib/libXdamage.so.1
 * /usr/lib/libXdamage.so.1.1.0
@@ -28,4 +29,3 @@ X.Org Xdamage library
 * /usr/share/doc/libxdamage-1.1.6/INSTALL
 * /usr/share/doc/libxdamage-1.1.6/NEWS
 * /usr/share/doc/libxdamage-1.1.6/README.md
-{{< /files >}}

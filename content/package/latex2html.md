@@ -15,7 +15,8 @@ depends = "['ghostscript', 'libpng>=1.4.3', 'netpbm', 'perl', 'texlive']"
 +++
 A converter written in Perl that converts LaTeX documents to HTML.
 
-{{< files text="show files" >}}* /usr/bin/latex2html
+## Files: 
+* /usr/bin/latex2html
 * /usr/bin/pstoimg
 * /usr/bin/texexpand
 * /usr/lib/latex2html/cfgcache.pm
@@ -356,4 +357,3 @@ A converter written in Perl that converts LaTeX documents to HTML.
 * /usr/share/texmf-dist/tex/latex/html/ldump.sty
 * /usr/share/texmf-dist/tex/latex/html/techexplHTML.tex
 * /usr/share/texmf-dist/tex/latex/html/verbatimfiles.sty
-{{< /files >}}

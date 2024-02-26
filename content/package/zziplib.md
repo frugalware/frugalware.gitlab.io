@@ -16,7 +16,8 @@ reverse_depends = "['mpd', 'ogre', 'texlive']"
 +++
 easily extract data from files archived in a single zip file
 
-{{< files text="show files" >}}* /usr/bin/unzip-mem
+## Files: 
+* /usr/bin/unzip-mem
 * /usr/bin/unzzip
 * /usr/bin/unzzipcat
 * /usr/bin/unzzipcat-mem
@@ -170,4 +171,3 @@ easily extract data from files archived in a single zip file
 * /usr/share/man/man3/__zzip_fetch_disk_trailer.3.gz
 * /usr/share/man/man3/__zzip_parse_root_directory.3.gz
 * /usr/share/man/man3/__zzip_try_open.3.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Norwegian (Nynorsk) support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/nn/default.css
+## Files: 
+* /usr/lib/libreoffice/help/nn/default.css
 * /usr/lib/libreoffice/help/nn/err.html
 * /usr/lib/libreoffice/help/nn/highcontrast1.css
 * /usr/lib/libreoffice/help/nn/highcontrast2.css
@@ -133,4 +134,3 @@ Installs Norwegian (Nynorsk) support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-nn.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_nn.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_nn.xcd
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['python3-poetry']"
 +++
 Pure-Python implementation of the Git file formats and protocols
 
-{{< files text="show files" >}}* /usr/bin/dul-receive-pack
+## Files: 
+* /usr/bin/dul-receive-pack
 * /usr/bin/dul-upload-pack
 * /usr/bin/dulwich
 * /usr/lib/python3.12/site-packages/docs/tutorial/conclusion.txt
@@ -341,4 +342,3 @@ Pure-Python implementation of the Git file formats and protocols
 * /usr/share/doc/python3-dulwich-0.21.6/NEWS
 * /usr/share/doc/python3-dulwich-0.21.6/README.rst
 * /usr/share/doc/python3-dulwich-0.21.6/TODO
-{{< /files >}}

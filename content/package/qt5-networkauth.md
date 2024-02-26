@@ -16,7 +16,8 @@ reverse_depends = "['digikam', 'kdenlive', 'kdepim-runtime']"
 +++
 The Qt5 toolkit, qtnetworkauth
 
-{{< files text="show files" >}}* /usr/include/qt5/QtNetworkAuth/5.15.12/QtNetworkAuth/private/qabstractoauth2_p.h
+## Files: 
+* /usr/include/qt5/QtNetworkAuth/5.15.12/QtNetworkAuth/private/qabstractoauth2_p.h
 * /usr/include/qt5/QtNetworkAuth/5.15.12/QtNetworkAuth/private/qabstractoauthreplyhandler_p.h
 * /usr/include/qt5/QtNetworkAuth/5.15.12/QtNetworkAuth/private/qabstractoauth_p.h
 * /usr/include/qt5/QtNetworkAuth/5.15.12/QtNetworkAuth/private/qoauth1signature_p.h
@@ -54,4 +55,3 @@ The Qt5 toolkit, qtnetworkauth
 * /usr/lib/pkgconfig/Qt5NetworkAuth.pc
 * /usr/share/qt5/mkspecs/modules/qt_lib_networkauth.pri
 * /usr/share/qt5/mkspecs/modules/qt_lib_networkauth_private.pri
-{{< /files >}}

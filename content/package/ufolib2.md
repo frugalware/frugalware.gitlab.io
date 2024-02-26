@@ -15,7 +15,8 @@ depends = "['python3>=3.10']"
 +++
 ufoLib2 is a UFO font library.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/ufoLib2-0.0.0-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/ufoLib2-0.0.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/ufoLib2-0.0.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/ufoLib2-0.0.0-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/ufoLib2-0.0.0-py3.12.egg-info/SOURCES.txt
@@ -116,4 +117,3 @@ ufoLib2 is a UFO font library.
 * /usr/lib/python3.12/site-packages/ufoLib2/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/ufolib2-0.14.0/LICENSE
 * /usr/share/doc/ufolib2-0.14.0/README.md
-{{< /files >}}

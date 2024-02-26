@@ -16,7 +16,8 @@ reverse_depends = "['pandoc']"
 +++
 syntax highlighting library
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/skylighting-0.14.1/libHSskylighting-0.14.1-AOHsFPzcofdD2r0qbJ3f6u.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/skylighting-0.14.1/libHSskylighting-0.14.1-AOHsFPzcofdD2r0qbJ3f6u.a
 * /usr/lib/ghc-9.8.1/site-local/skylighting-0.14.1/Skylighting.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/skylighting-0.14.1/Skylighting.hi
 * /usr/lib/ghc-9.8.1/site-local/skylighting-0.14.1/Skylighting/Syntax.dyn_hi
@@ -368,4 +369,3 @@ syntax highlighting library
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/skylighting-0.14.1/LICENSE
 * /usr/share/haskell/haskell-skylighting/register.sh
 * /usr/share/haskell/haskell-skylighting/unregister.sh
-{{< /files >}}

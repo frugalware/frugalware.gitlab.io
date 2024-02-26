@@ -16,7 +16,8 @@ reverse_depends = "['haskell-aeson', 'haskell-http-api-data']"
 +++
 Converting time to and from ISO 8601 text
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/text-iso8601-0.1/Data/Time/FromText.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/text-iso8601-0.1/Data/Time/FromText.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/text-iso8601-0.1/Data/Time/FromText.hi
 * /usr/lib/ghc-9.8.1/site-local/text-iso8601-0.1/Data/Time/ToText.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/text-iso8601-0.1/Data/Time/ToText.hi
@@ -36,4 +37,3 @@ Converting time to and from ISO 8601 text
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/text-iso8601-0.1/LICENSE
 * /usr/share/haskell/haskell-text-iso8601/register.sh
 * /usr/share/haskell/haskell-text-iso8601/unregister.sh
-{{< /files >}}

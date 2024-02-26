@@ -16,7 +16,8 @@ reverse_depends = "['haskell-typst']"
 +++
 Support for parsing and rendering YAML documents
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/yaml-0.11.11.2/Data/Yaml.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/yaml-0.11.11.2/Data/Yaml.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/yaml-0.11.11.2/Data/Yaml.hi
 * /usr/lib/ghc-9.8.1/site-local/yaml-0.11.11.2/Data/Yaml/Aeson.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/yaml-0.11.11.2/Data/Yaml/Aeson.hi
@@ -85,4 +86,3 @@ Support for parsing and rendering YAML documents
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/yaml-0.11.11.2/LICENSE
 * /usr/share/haskell/haskell-yaml/register.sh
 * /usr/share/haskell/haskell-yaml/unregister.sh
-{{< /files >}}

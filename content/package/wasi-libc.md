@@ -16,7 +16,8 @@ reverse_depends = "['wasi-compiler-rt']"
 +++
 WASI libc implementation for WebAssembly
 
-{{< files text="show files" >}}* /usr/share/doc/wasi-libc-21/LICENSE
+## Files: 
+* /usr/share/doc/wasi-libc-21/LICENSE
 * /usr/share/doc/wasi-libc-21/README.md
 * /usr/share/wasi-sysroot/include/alloca.h
 * /usr/share/wasi-sysroot/include/ar.h
@@ -237,4 +238,3 @@ WASI libc implementation for WebAssembly
 * /usr/share/wasi-sysroot/share/wasm32-wasi/include-all.c
 * /usr/share/wasi-sysroot/share/wasm32-wasi/predefined-macros.txt
 * /usr/share/wasi-sysroot/share/wasm32-wasi/undefined-symbols.txt
-{{< /files >}}

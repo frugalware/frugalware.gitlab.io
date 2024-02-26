@@ -16,11 +16,11 @@ license = "GPL2"
 +++
 X.Org xload application
 
-{{< files text="show files" >}}* /usr/bin/xload
+## Files: 
+* /usr/bin/xload
 * /usr/share/doc/xload-1.1.4/ChangeLog
 * /usr/share/doc/xload-1.1.4/COPYING
 * /usr/share/doc/xload-1.1.4/INSTALL
 * /usr/share/doc/xload-1.1.4/README.md
 * /usr/share/man/man1/xload.1.gz
 * /usr/share/X11/app-defaults/XLoad
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libsm', 'libstdc++', 'libx11', 'libxft', 'libxt']"
 +++
 Window Manager Improved is a lightweight window manager, which attempts to combine the best features of LarsWM, Ion, evilwm, and ratpoison.
 
-{{< files text="show files" >}}* etc/X11/sessions/wmi.desktop
+## Files: 
+* etc/X11/sessions/wmi.desktop
 * etc/X11/xinit/xinitrc.wmi
 * usr/bin/wmi
 * usr/bin/wmiremote
@@ -34,4 +35,3 @@ Window Manager Improved is a lightweight window manager, which attempts to combi
 * usr/share/doc/wmi-10/NEWS
 * usr/share/doc/wmi-10/README
 * usr/share/doc/wmi-10/TODO
-{{< /files >}}

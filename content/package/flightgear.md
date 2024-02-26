@@ -15,4 +15,4 @@ depends = "['flightgear-data', 'freealut>=1.1.0-6', 'freeglut', 'glew', 'libgl',
 +++
 An open-source, multi-platform flight simulator.
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

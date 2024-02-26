@@ -16,7 +16,7 @@ reverse_depends = "['gtk+4']"
 +++
 Wrapper around libsass to compile CSS stylesheet
 
-{{< files text="show files" >}}* /usr/bin/sassc
+## Files: 
+* /usr/bin/sassc
 * /usr/share/doc/sassc-3.6.2/LICENSE
 * /usr/share/doc/sassc-3.6.2/Readme.md
-{{< /files >}}

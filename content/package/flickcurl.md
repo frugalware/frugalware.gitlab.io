@@ -16,7 +16,8 @@ reverse_depends = "['darktable']"
 +++
 C library for the Flickr API
 
-{{< files text="show files" >}}* /usr/bin/flickcurl
+## Files: 
+* /usr/bin/flickcurl
 * /usr/bin/flickcurl-config
 * /usr/bin/flickrdf
 * /usr/include/flickcurl.h
@@ -108,4 +109,3 @@ C library for the Flickr API
 * /usr/share/man/man1/flickcurl-config.1.gz
 * /usr/share/man/man1/flickcurl.1.gz
 * /usr/share/man/man1/flickrdf.1.gz
-{{< /files >}}

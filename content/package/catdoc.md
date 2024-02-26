@@ -16,7 +16,8 @@ reverse_depends = "['kfilemetadata5']"
 +++
 reads one or more Microsoft word files and outputs text
 
-{{< files text="show files" >}}* /usr/bin/catdoc
+## Files: 
+* /usr/bin/catdoc
 * /usr/bin/catppt
 * /usr/bin/wordview
 * /usr/bin/xls2csv
@@ -76,4 +77,3 @@ reads one or more Microsoft word files and outputs text
 * /usr/share/doc/catdoc-0.95/NEWS
 * /usr/share/doc/catdoc-0.95/README
 * /usr/share/doc/catdoc-0.95/TODO
-{{< /files >}}

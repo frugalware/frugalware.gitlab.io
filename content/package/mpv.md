@@ -16,7 +16,8 @@ reverse_depends = "['celluloid', 'plasmatube', 'tokodon']"
 +++
 A movie player based on mplayer and mplayer2. It supports a wide variety of video file formats, audio and video codecs, and subtitle types.
 
-{{< files text="show files" >}}* /etc/mpv/encoding-profiles.conf
+## Files: 
+* /etc/mpv/encoding-profiles.conf
 * /usr/bin/mpv
 * /usr/include/mpv/client.h
 * /usr/include/mpv/render.h
@@ -44,4 +45,3 @@ A movie player based on mplayer and mplayer2. It supports a wide variety of vide
 * /usr/share/man/man1/mpv.1.gz
 * /usr/share/metainfo/mpv.metainfo.xml
 * /usr/share/zsh/site-functions/_mpv
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['easyeffects']"
 +++
 Collection of open-source plugins
 
-{{< files text="show files" >}}* /etc/xdg/menus/applications-merged/lsp-plugins.menu
+## Files: 
+* /etc/xdg/menus/applications-merged/lsp-plugins.menu
 * /usr/bin/lsp-plugins-ab-tester-x2-mono
 * /usr/bin/lsp-plugins-ab-tester-x2-stereo
 * /usr/bin/lsp-plugins-ab-tester-x4-mono
@@ -1241,4 +1242,3 @@ Collection of open-source plugins
 * /usr/share/icons/hicolor/48x48/apps/lsp-plugins.png
 * /usr/share/icons/hicolor/64x64/apps/lsp-plugins.png
 * /usr/share/icons/hicolor/scalable/apps/lsp-plugins.svg
-{{< /files >}}

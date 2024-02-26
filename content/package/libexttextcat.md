@@ -16,7 +16,8 @@ reverse_depends = "['libreoffice']"
 +++
 Library implementing N-gram-based text categorization
 
-{{< files text="show files" >}}* /usr/include/libexttextcat/common.h
+## Files: 
+* /usr/include/libexttextcat/common.h
 * /usr/include/libexttextcat/constants.h
 * /usr/include/libexttextcat/exttextcat-version.h
 * /usr/include/libexttextcat/fingerprint.h
@@ -212,4 +213,3 @@ Library implementing N-gram-based text categorization
 * /usr/share/libexttextcat/zh-Hant.lm
 * /usr/share/libexttextcat/zu.lm
 * /usr/share/vala/vapi/libexttextcat.vapi
-{{< /files >}}

@@ -15,6 +15,6 @@ depends = "['mono', 'uwsgi']"
 +++
 UWSGI Mono/.NET Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/clock_monotonic_plugin.so
+## Files: 
+* /usr/lib/uwsgi/clock_monotonic_plugin.so
 * /usr/lib/uwsgi/mono_plugin.so
-{{< /files >}}

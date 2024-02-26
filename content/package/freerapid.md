@@ -15,7 +15,8 @@ depends = "['openjre']"
 +++
 FreeRapid Dowbloader is a simple Java downloader that supports downloading from Rapidshare and other file-sharing services.
 
-{{< files text="show files" >}}* /usr/bin/freerapid
+## Files: 
+* /usr/bin/freerapid
 * /usr/share/applications/freerapid.desktop
 * /usr/share/doc/freerapid-0.86u1/changes.txt
 * /usr/share/doc/freerapid-0.86u1/copyright
@@ -355,4 +356,3 @@ FreeRapid Dowbloader is a simple Java downloader that supports downloading from 
 * /usr/share/freerapid/startup.properties
 * /usr/share/freerapid/syscmd.properties
 * /usr/share/pixmaps/freerapid.png
-{{< /files >}}

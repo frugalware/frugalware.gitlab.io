@@ -15,7 +15,8 @@ depends = "['kcmutils>=5.115.0', 'kio>=5.115.0']"
 +++
 KDiskFree displays the available file devices
 
-{{< files text="show files" >}}* /usr/bin/kdf
+## Files: 
+* /usr/bin/kdf
 * /usr/bin/kwikdisk
 * /usr/lib/libkdfprivate.so.23
 * /usr/lib/libkdfprivate.so.23.08.5
@@ -195,4 +196,3 @@ KDiskFree displays the available file devices
 * /usr/share/locale/zh_TW/LC_MESSAGES/kdf.mo
 * /usr/share/metainfo/org.kde.kdf.appdata.xml
 * /usr/share/qlogging-categories5/kdf.categories
-{{< /files >}}

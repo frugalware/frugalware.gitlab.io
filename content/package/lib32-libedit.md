@@ -16,10 +16,10 @@ reverse_depends = "['lib32-llvm-libs']"
 +++
 Editline Library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/editline/readline.h
+## Files: 
+* /usr/i686-frugalware-linux/include/editline/readline.h
 * /usr/i686-frugalware-linux/include/histedit.h
 * /usr/lib32/libedit.so
 * /usr/lib32/libedit.so.0
 * /usr/lib32/libedit.so.0.0.72
 * /usr/lib32/pkgconfig/libedit.pc
-{{< /files >}}

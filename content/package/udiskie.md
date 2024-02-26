@@ -15,7 +15,8 @@ depends = "['pygobject3', 'udisks2']"
 +++
 An automatic disk mounting service using udisks.
 
-{{< files text="show files" >}}* /usr/bin/udiskie
+## Files: 
+* /usr/bin/udiskie
 * /usr/bin/udiskie-info
 * /usr/bin/udiskie-mount
 * /usr/bin/udiskie-umount
@@ -87,4 +88,3 @@ An automatic disk mounting service using udisks.
 * /usr/share/share/zsh/site-functions/_udiskie-canonical_paths
 * /usr/share/share/zsh/site-functions/_udiskie-mount
 * /usr/share/share/zsh/site-functions/_udiskie-umount
-{{< /files >}}

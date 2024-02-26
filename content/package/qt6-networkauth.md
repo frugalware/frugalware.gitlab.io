@@ -15,7 +15,8 @@ depends = "['qt6-base']"
 +++
 The Qt6 toolkit, qtnetworkauth
 
-{{< files text="show files" >}}* /usr/include/qt6/QtNetworkAuth/6.6.2/QtNetworkAuth/private/qabstractoauth2_p.h
+## Files: 
+* /usr/include/qt6/QtNetworkAuth/6.6.2/QtNetworkAuth/private/qabstractoauth2_p.h
 * /usr/include/qt6/QtNetworkAuth/6.6.2/QtNetworkAuth/private/qabstractoauthreplyhandler_p.h
 * /usr/include/qt6/QtNetworkAuth/6.6.2/QtNetworkAuth/private/qabstractoauth_p.h
 * /usr/include/qt6/QtNetworkAuth/6.6.2/QtNetworkAuth/private/qoauth1signature_p.h
@@ -61,4 +62,3 @@ The Qt6 toolkit, qtnetworkauth
 * /usr/lib/qt6/mkspecs/modules/qt_lib_networkauth.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_networkauth_private.pri
 * /usr/lib/qt6/modules/NetworkAuth.json
-{{< /files >}}

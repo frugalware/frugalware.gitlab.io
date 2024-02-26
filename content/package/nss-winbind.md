@@ -15,6 +15,6 @@ depends = "['glibc>=2.24-4']"
 +++
 Winbind Lookup Support for NSS.
 
-{{< files text="show files" >}}* /usr/lib/libnss_winbind.so.2
+## Files: 
+* /usr/lib/libnss_winbind.so.2
 * /usr/lib/security/pam_winbind.so
-{{< /files >}}

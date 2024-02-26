@@ -16,7 +16,8 @@ reverse_depends = "['avalon-logkit', 'bcmail', 'bouncycastle-mail']"
 +++
 GNU implementation of the Javamail API
 
-{{< files text="show files" >}}* /usr/share/doc/gnumail-1.1.2/AUTHORS
+## Files: 
+* /usr/share/doc/gnumail-1.1.2/AUTHORS
 * /usr/share/doc/gnumail-1.1.2/ChangeLog
 * /usr/share/doc/gnumail-1.1.2/COPYING
 * /usr/share/doc/gnumail-1.1.2/INSTALL
@@ -31,4 +32,3 @@ GNU implementation of the Javamail API
 * /usr/share/doc/gnumail-1.1.2/TODO
 * /usr/share/java/gnumail-providers.jar
 * /usr/share/java/gnumail.jar
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['gtk+3', 'gtksourceview4', 'pygobject3', 'pygobject3-cairo', 'python
 +++
 A tool to change and program the mapping of your input device buttons.
 
-{{< files text="show files" >}}* /etc/dbus-1/system.d/inputremapper.Control.conf
+## Files: 
+* /etc/dbus-1/system.d/inputremapper.Control.conf
 * /etc/xdg/autostart/input-remapper-autoload.desktop
 * /usr/bin/input-remapper-control
 * /usr/bin/input-remapper-gtk
@@ -192,4 +193,3 @@ A tool to change and program the mapping of your input device buttons.
 * /usr/share/input-remapper/style.css
 * /usr/share/metainfo/io.github.sezanzeb.input_remapper.metainfo.xml
 * /usr/share/polkit-1/actions/input-remapper.policy
-{{< /files >}}

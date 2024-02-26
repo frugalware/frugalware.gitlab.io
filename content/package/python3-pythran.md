@@ -15,7 +15,8 @@ depends = "['boost', 'python3-beniget', 'python3-networkx', 'python3-numpy', 'py
 +++
 Ahead of Time compiler for numeric kernels
 
-{{< files text="show files" >}}* /usr/bin/pythran
+## Files: 
+* /usr/bin/pythran
 * /usr/bin/pythran-config
 * /usr/lib/python3.12/site-packages/omp/__init__.py
 * /usr/lib/python3.12/site-packages/omp/__pycache__/__init__.cpython-312.pyc
@@ -2083,4 +2084,3 @@ Ahead of Time compiler for numeric kernels
 * /usr/share/doc/python3-pythran-0.14.0/Changelog
 * /usr/share/doc/python3-pythran-0.14.0/LICENSE
 * /usr/share/doc/python3-pythran-0.14.0/README.rst
-{{< /files >}}

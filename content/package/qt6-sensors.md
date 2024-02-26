@@ -15,7 +15,8 @@ depends = "['iio-sensor-proxy', 'qt6-connectivity', 'qt6-declarative']"
 +++
 The Qt6 toolkit, qtsensors
 
-{{< files text="show files" >}}* /usr/include/qt6/QtSensors/6.6.2/QtSensors/private/qaccelerometer_p.h
+## Files: 
+* /usr/include/qt6/QtSensors/6.6.2/QtSensors/private/qaccelerometer_p.h
 * /usr/include/qt6/QtSensors/6.6.2/QtSensors/private/qambientlightsensor_p.h
 * /usr/include/qt6/QtSensors/6.6.2/QtSensors/private/qambienttemperaturesensor_p.h
 * /usr/include/qt6/QtSensors/6.6.2/QtSensors/private/qcompass_p.h
@@ -203,4 +204,3 @@ The Qt6 toolkit, qtsensors
 * /usr/lib/qt6/qml/QtSensors/libsensorsquickplugin.so
 * /usr/lib/qt6/qml/QtSensors/plugins.qmltypes
 * /usr/lib/qt6/qml/QtSensors/qmldir
-{{< /files >}}

@@ -15,7 +15,7 @@ depends = "['unicode-character-database']"
 +++
 Unicode Emoji Data Files
 
-{{< files text="show files" >}}* /usr/share/unicode/emoji/emoji-sequences.txt
+## Files: 
+* /usr/share/unicode/emoji/emoji-sequences.txt
 * /usr/share/unicode/emoji/emoji-test.txt
 * /usr/share/unicode/emoji/emoji-zwj-sequences.txt
-{{< /files >}}

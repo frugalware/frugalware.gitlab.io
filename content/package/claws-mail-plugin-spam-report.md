@@ -15,5 +15,5 @@ depends = "['claws-mail=4.1.1', 'curl>=7.47.0']"
 +++
 This plugin reports spam to various places.
 
-{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/spamreport.so
-{{< /files >}}
+## Files: 
+* /usr/lib/claws-mail/plugins/spamreport.so

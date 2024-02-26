@@ -16,7 +16,8 @@ reverse_depends = "['criu']"
 +++
 Replacement for the popular {ip,ip6,arp,eb} tables.
 
-{{< files text="show files" >}}* /etc/nftables.conf
+## Files: 
+* /etc/nftables.conf
 * /usr/bin/nft
 * /usr/include/nftables/libnftables.h
 * /usr/lib/libnftables.so
@@ -48,4 +49,3 @@ Replacement for the popular {ip,ip6,arp,eb} tables.
 * /usr/share/nftables/ipv6-raw.nft
 * /usr/share/nftables/netdev-ingress.nft
 * /usr/share/nftables/osf/pf.os
-{{< /files >}}

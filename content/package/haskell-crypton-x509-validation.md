@@ -16,7 +16,8 @@ reverse_depends = "['haskell-connection', 'haskell-tls']"
 +++
 X.509 Certificate and CRL validation
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/crypton-x509-validation-1.6.12/Data/X509/Validation.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/crypton-x509-validation-1.6.12/Data/X509/Validation.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/crypton-x509-validation-1.6.12/Data/X509/Validation.hi
 * /usr/lib/ghc-9.8.1/site-local/crypton-x509-validation-1.6.12/Data/X509/Validation/Cache.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/crypton-x509-validation-1.6.12/Data/X509/Validation/Cache.hi
@@ -43,4 +44,3 @@ X.509 Certificate and CRL validation
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/crypton-x509-validation-1.6.12/LICENSE
 * /usr/share/haskell/haskell-crypton-x509-validation/register.sh
 * /usr/share/haskell/haskell-crypton-x509-validation/unregister.sh
-{{< /files >}}

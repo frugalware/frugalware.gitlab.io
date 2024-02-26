@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 Portable CD-ROM I/O library
 
-{{< files text="show files" >}}* /usr/bin/cd-drive
+## Files: 
+* /usr/bin/cd-drive
 * /usr/bin/cd-info
 * /usr/bin/cd-read
 * /usr/bin/cdda-player
@@ -101,4 +102,3 @@ Portable CD-ROM I/O library
 * /usr/share/man/man1/cd-read.1.gz
 * /usr/share/man/man1/iso-info.1.gz
 * /usr/share/man/man1/iso-read.1.gz
-{{< /files >}}

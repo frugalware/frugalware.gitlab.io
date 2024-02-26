@@ -16,7 +16,8 @@ reverse_depends = "['face_recognition', 'howdy']"
 +++
 Dlib is a general purpose cross-platform C++ library designed using contract programming and modern C++ techniques.
 
-{{< files text="show files" >}}* /usr/include/dlib/algs.h
+## Files: 
+* /usr/include/dlib/algs.h
 * /usr/include/dlib/any.h
 * /usr/include/dlib/any/any.h
 * /usr/include/dlib/any/any_abstract.h
@@ -1063,4 +1064,3 @@ Dlib is a general purpose cross-platform C++ library designed using contract pro
 * /usr/lib/cmake/dlib/dlibConfigVersion.cmake
 * /usr/lib/pkgconfig/dlib-1.pc
 * /usr/share/doc/dlib-19.24/README.md
-{{< /files >}}

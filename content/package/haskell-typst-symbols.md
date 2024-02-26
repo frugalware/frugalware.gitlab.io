@@ -16,7 +16,8 @@ reverse_depends = "['haskell-texmath', 'haskell-typst']"
 +++
 Symbol and emoji lookup for typst language
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/typst-symbols-0.1.5/libHStypst-symbols-0.1.5-CubrA7qysq974frutcgFfb.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/typst-symbols-0.1.5/libHStypst-symbols-0.1.5-CubrA7qysq974frutcgFfb.a
 * /usr/lib/ghc-9.8.1/site-local/typst-symbols-0.1.5/Typst/Emoji.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/typst-symbols-0.1.5/Typst/Emoji.hi
 * /usr/lib/ghc-9.8.1/site-local/typst-symbols-0.1.5/Typst/Shorthands.dyn_hi
@@ -40,4 +41,3 @@ Symbol and emoji lookup for typst language
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/typst-symbols-0.1.5/LICENSE
 * /usr/share/haskell/haskell-typst-symbols/register.sh
 * /usr/share/haskell/haskell-typst-symbols/unregister.sh
-{{< /files >}}

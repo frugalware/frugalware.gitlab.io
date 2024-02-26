@@ -16,7 +16,8 @@ reverse_depends = "['lib32-ffmpeg']"
 +++
 Blu-Ray access library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/bd_info
+## Files: 
+* /usr/i686-frugalware-linux/bin/bd_info
 * /usr/i686-frugalware-linux/bin/bd_list_titles
 * /usr/i686-frugalware-linux/bin/bd_splice
 * /usr/i686-frugalware-linux/include/libbluray/bluray-version.h
@@ -32,4 +33,3 @@ Blu-Ray access library ( 32bit )
 * /usr/lib32/libbluray.so.2
 * /usr/lib32/libbluray.so.2.4.3
 * /usr/lib32/pkgconfig/libbluray.pc
-{{< /files >}}

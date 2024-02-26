@@ -16,7 +16,8 @@ reverse_depends = "['spamassassin']"
 +++
 Perl extension for fast lookup of country codes from IP addresses
 
-{{< files text="show files" >}}* /usr/bin/ip2cc
+## Files: 
+* /usr/bin/ip2cc
 * /usr/lib/perl5/site_perl/current/IP/Authority.pm
 * /usr/lib/perl5/site_perl/current/IP/Authority/auth.gif
 * /usr/lib/perl5/site_perl/current/IP/Authority/ipauth.gif
@@ -38,4 +39,3 @@ Perl extension for fast lookup of country codes from IP addresses
 * /usr/share/man/man3/IP::Country::MaxMind.3perl.gz
 * /usr/share/man/man3/IP::Country::Medium.3perl.gz
 * /usr/share/man/man3/IP::Country::Slow.3perl.gz
-{{< /files >}}

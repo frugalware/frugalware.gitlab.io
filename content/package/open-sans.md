@@ -15,7 +15,8 @@ depends = "['fontconfig', 'mkfontscale']"
 +++
 Open Sans is a humanist sans serif typeface designed by Steve Matteson, Type Director of Ascender Corp.
 
-{{< files text="show files" >}}* /usr/share/fonts/X11/TTF/OpenSans-Bold.ttf
+## Files: 
+* /usr/share/fonts/X11/TTF/OpenSans-Bold.ttf
 * /usr/share/fonts/X11/TTF/OpenSans-BoldItalic.ttf
 * /usr/share/fonts/X11/TTF/OpenSans-ExtraBold.ttf
 * /usr/share/fonts/X11/TTF/OpenSans-ExtraBoldItalic.ttf
@@ -25,4 +26,3 @@ Open Sans is a humanist sans serif typeface designed by Steve Matteson, Type Dir
 * /usr/share/fonts/X11/TTF/OpenSans-Regular.ttf
 * /usr/share/fonts/X11/TTF/OpenSans-SemiBold.ttf
 * /usr/share/fonts/X11/TTF/OpenSans-SemiBoldItalic.ttf
-{{< /files >}}

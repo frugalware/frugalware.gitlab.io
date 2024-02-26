@@ -15,7 +15,8 @@ depends = "['libstdc++']"
 +++
 AcpiTool is a Linux ACPI client.
 
-{{< files text="show files" >}}* /usr/bin/acpitool
+## Files: 
+* /usr/bin/acpitool
 * /usr/share/doc/acpitool-0.5.1/AUTHORS
 * /usr/share/doc/acpitool-0.5.1/ChangeLog
 * /usr/share/doc/acpitool-0.5.1/COPYING
@@ -24,4 +25,3 @@ AcpiTool is a Linux ACPI client.
 * /usr/share/doc/acpitool-0.5.1/README
 * /usr/share/doc/acpitool-0.5.1/TODO
 * /usr/share/man/man1/acpitool.1.gz
-{{< /files >}}

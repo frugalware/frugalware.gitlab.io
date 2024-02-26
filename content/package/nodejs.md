@@ -16,7 +16,8 @@ license = "MIT"
 +++
 Evented I/O for V8 javascript
 
-{{< files text="show files" >}}* /usr/bin/corepack
+## Files: 
+* /usr/bin/corepack
 * /usr/bin/node
 * /usr/bin/npm
 * /usr/bin/npx
@@ -2268,4 +2269,3 @@ Evented I/O for V8 javascript
 * /usr/share/doc/nodejs-21.6.2/LICENSE
 * /usr/share/doc/nodejs-21.6.2/README.md
 * /usr/share/man/man1/node.1.gz
-{{< /files >}}

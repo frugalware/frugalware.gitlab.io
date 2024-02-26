@@ -16,7 +16,8 @@ reverse_depends = "['frameworkintegration', 'kdeclarative', 'kinfocenter5', 'kne
 +++
 Framework that lets applications manage user installable packages of non-binary assets.
 
-{{< files text="show files" >}}* /usr/bin/kpackagetool5
+## Files: 
+* /usr/bin/kpackagetool5
 * /usr/include/KF5/KPackage/KPackage/Package
 * /usr/include/KF5/KPackage/kpackage/package.h
 * /usr/include/KF5/KPackage/KPackage/PackageLoader
@@ -107,4 +108,3 @@ Framework that lets applications manage user installable packages of non-binary 
 * /usr/share/man/uk/man1/kpackagetool5.1.gz
 * /usr/share/qlogging-categories5/kpackage.categories
 * /usr/share/qlogging-categories5/kpackage.renamecategories
-{{< /files >}}

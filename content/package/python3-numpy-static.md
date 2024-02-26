@@ -15,5 +15,5 @@ depends = "['python3>=3.11']"
 +++
 Numerical Python3 static files.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/numpy/core/lib/libnpymath.a
-{{< /files >}}
+## Files: 
+* /usr/lib/python3.12/site-packages/numpy/core/lib/libnpymath.a

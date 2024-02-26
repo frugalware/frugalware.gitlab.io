@@ -17,10 +17,10 @@ license = "GPL2"
 +++
 X.Org setxkbmap application
 
-{{< files text="show files" >}}* /usr/bin/setxkbmap
+## Files: 
+* /usr/bin/setxkbmap
 * /usr/share/doc/setxkbmap-1.3.4/ChangeLog
 * /usr/share/doc/setxkbmap-1.3.4/COPYING
 * /usr/share/doc/setxkbmap-1.3.4/INSTALL
 * /usr/share/doc/setxkbmap-1.3.4/README.md
 * /usr/share/man/man1/setxkbmap.1.gz
-{{< /files >}}

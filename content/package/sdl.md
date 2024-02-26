@@ -16,7 +16,8 @@ reverse_depends = "['alienarena', 'blender', 'devil', 'kdeaddons', 'kvm', 'mpeg2
 +++
 Simple DirectMedia Layer library
 
-{{< files text="show files" >}}* /usr/bin/sdl-config
+## Files: 
+* /usr/bin/sdl-config
 * /usr/include/SDL/begin_code.h
 * /usr/include/SDL/close_code.h
 * /usr/include/SDL/SDL.h
@@ -255,4 +256,3 @@ Simple DirectMedia Layer library
 * /usr/share/man/man3/SDL_WM_SetCaption.3.gz
 * /usr/share/man/man3/SDL_WM_SetIcon.3.gz
 * /usr/share/man/man3/SDL_WM_ToggleFullScreen.3.gz
-{{< /files >}}

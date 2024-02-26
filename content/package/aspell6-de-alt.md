@@ -15,7 +15,8 @@ depends = "['aspell>=0.60']"
 +++
 GNU Aspell 0.60 German - Old Spelling dictionary
 
-{{< files text="show files" >}}* usr/lib/aspell-0.60/de-alt.dat
+## Files: 
+* usr/lib/aspell-0.60/de-alt.dat
 * usr/lib/aspell-0.60/de-alt.multi
 * usr/lib/aspell-0.60/de-alt.rws
 * usr/lib/aspell-0.60/de-alt_affix.dat
@@ -24,4 +25,3 @@ GNU Aspell 0.60 German - Old Spelling dictionary
 * usr/lib/aspell-0.60/german-old.alias
 * usr/share/doc/aspell6-de-alt-2.1r1/COPYING
 * usr/share/doc/aspell6-de-alt-2.1r1/README
-{{< /files >}}

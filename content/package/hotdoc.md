@@ -15,7 +15,8 @@ depends = "['clang', 'flex', 'json-glib', 'llvm', 'python3-cchardet', 'python3-d
 +++
 HotDoc: the tastiest API documentation system
 
-{{< files text="show files" >}}* /usr/bin/hotdoc
+## Files: 
+* /usr/bin/hotdoc
 * /usr/bin/hotdoc_dep_printer
 * /usr/lib/python3.12/site-packages/hotdoc-0.15-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/hotdoc-0.15-py3.12.egg-info/entry_points.txt
@@ -561,4 +562,3 @@ HotDoc: the tastiest API documentation system
 * /usr/lib/python3.12/site-packages/hotdoc/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/hotdoc-0.15/COPYING
 * /usr/share/doc/hotdoc-0.15/README.md
-{{< /files >}}

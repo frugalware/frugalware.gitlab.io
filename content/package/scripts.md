@@ -16,11 +16,11 @@ license = "GPL2"
 +++
 X.Org scripts application
 
-{{< files text="show files" >}}* /usr/bin/fontname.sh
+## Files: 
+* /usr/bin/fontname.sh
 * /usr/bin/fontprop.sh
 * /usr/bin/xauth_switch_to_sun-des-1
 * /usr/bin/xon
 * /usr/share/doc/scripts-1.0.1/ChangeLog
 * /usr/share/doc/scripts-1.0.1/COPYING
 * /usr/share/man/man1/xon.1x.gz
-{{< /files >}}

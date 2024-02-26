@@ -16,7 +16,8 @@ reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-bad-faad2', 'mencoder',
 +++
 ISO AAC audio decoder
 
-{{< files text="show files" >}}* /usr/bin/faad
+## Files: 
+* /usr/bin/faad
 * /usr/include/faad.h
 * /usr/include/neaacdec.h
 * /usr/lib/libfaad.so
@@ -33,4 +34,3 @@ ISO AAC audio decoder
 * /usr/share/doc/faad2-2.8.8/README
 * /usr/share/doc/faad2-2.8.8/TODO
 * /usr/share/man/man1/faad.1.gz
-{{< /files >}}

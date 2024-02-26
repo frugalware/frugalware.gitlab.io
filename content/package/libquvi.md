@@ -15,7 +15,8 @@ depends = "['curl>=7.50.3-2', 'libgcrypt>=1.6.4-3', 'libproxy>=0.4.13-2', 'libst
 +++
 Small C library used to parse flash media stream URLs
 
-{{< files text="show files" >}}* /usr/include/quvi-0.9/quvi.h
+## Files: 
+* /usr/include/quvi-0.9/quvi.h
 * /usr/include/quvi-0.9/quvi/qbool.h
 * /usr/include/quvi-0.9/quvi/qcallback.h
 * /usr/include/quvi-0.9/quvi/qdef.h
@@ -42,4 +43,3 @@ Small C library used to parse flash media stream URLs
 * /usr/share/doc/libquvi-0.9.4/VERSION
 * /usr/share/man/man3/libquvi.3.gz
 * /usr/share/man/man7/quvi-object.7.gz
-{{< /files >}}

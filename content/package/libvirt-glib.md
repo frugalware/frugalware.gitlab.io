@@ -16,7 +16,8 @@ reverse_depends = "['virt-manager']"
 +++
 GLib and GObject mapping
 
-{{< files text="show files" >}}* /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-capabilities-cpu-feature.h
+## Files: 
+* /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-capabilities-cpu-feature.h
 * /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-capabilities-cpu-model.h
 * /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-capabilities-cpu-topology.h
 * /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-capabilities-cpu.h
@@ -170,4 +171,3 @@ GLib and GObject mapping
 * /usr/share/vala/vapi/libvirt-glib-1.0.vapi
 * /usr/share/vala/vapi/libvirt-gobject-1.0.deps
 * /usr/share/vala/vapi/libvirt-gobject-1.0.vapi
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['haskell-aeson-pretty', 'haskell-attoparsec-aeson', 'haskell
 +++
 Fast JSON parsing and encoding
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/aeson-2.2.1.0/Data/Aeson.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/aeson-2.2.1.0/Data/Aeson.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/aeson-2.2.1.0/Data/Aeson.hi
 * /usr/lib/ghc-9.8.1/site-local/aeson-2.2.1.0/Data/Aeson/Decoding.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/aeson-2.2.1.0/Data/Aeson/Decoding.hi
@@ -142,4 +143,3 @@ Fast JSON parsing and encoding
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/aeson-2.2.1.0/LICENSE
 * /usr/share/haskell/haskell-aeson/register.sh
 * /usr/share/haskell/haskell-aeson/unregister.sh
-{{< /files >}}

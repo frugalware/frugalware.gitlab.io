@@ -15,7 +15,8 @@ depends = "['libxml2>=2.7.8', 'maxima>=5.42.2', 'wxwidgets>=3.2.2.1']"
 +++
 wxMaxima is a wxWidgets GUI for the computer algebra system Maxima.
 
-{{< files text="show files" >}}* /usr/bin/wxmaxima
+## Files: 
+* /usr/bin/wxmaxima
 * /usr/share/applications/io.github.wxmaxima_developers.wxMaxima.desktop
 * /usr/share/bash-completion/completions/wxmaxima
 * /usr/share/doc/wxmaxima-23.08.0/ChangeLog
@@ -86,4 +87,3 @@ wxMaxima is a wxWidgets GUI for the computer algebra system Maxima.
 * /usr/share/pixmaps/wxmaxima-32.xpm
 * /usr/share/wxMaxima/io.github.wxmaxima_developers.wxMaxima.png
 * /usr/share/wxMaxima/io.github.wxmaxima_developers.wxMaxima.svg
-{{< /files >}}

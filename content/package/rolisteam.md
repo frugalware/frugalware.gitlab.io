@@ -15,7 +15,8 @@ depends = "['qt5-multimedia>=5.15.10', 'qt5-svg>=5.15.10', 'qt5-webengine>=5.15.
 +++
 An online role game helper.
 
-{{< files text="show files" >}}* /usr/bin/roliserver
+## Files: 
+* /usr/bin/roliserver
 * /usr/bin/rolisteam
 * /usr/share/applications/rolisteam.desktop
 * /usr/share/doc/rolisteam-1.9.3/AUTHORS
@@ -23,4 +24,3 @@ An online role game helper.
 * /usr/share/doc/rolisteam-1.9.3/COPYRIGHT
 * /usr/share/doc/rolisteam-1.9.3/README.md
 * /usr/share/pixmaps/rolisteam.png
-{{< /files >}}

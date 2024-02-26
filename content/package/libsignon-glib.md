@@ -16,7 +16,8 @@ reverse_depends = "['telepathy-accounts-signon']"
 +++
 GLib-based client library for applications handling account authentication through the Online Accounts Single Sign-On service.
 
-{{< files text="show files" >}}* /usr/include/libsignon-glib/signon-auth-service.h
+## Files: 
+* /usr/include/libsignon-glib/signon-auth-service.h
 * /usr/include/libsignon-glib/signon-auth-session.h
 * /usr/include/libsignon-glib/signon-enum-types.h
 * /usr/include/libsignon-glib/signon-errors.h
@@ -71,4 +72,3 @@ GLib-based client library for applications handling account authentication throu
 * /usr/share/gtk-doc/html/libsignon-glib/up.png
 * /usr/share/vala/vapi/libsignon-glib.deps
 * /usr/share/vala/vapi/libsignon-glib.vapi
-{{< /files >}}

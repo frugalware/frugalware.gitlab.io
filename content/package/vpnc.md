@@ -17,7 +17,8 @@ license = "GPL"
 +++
 VPN client for cisco3000 VPN Concentrators
 
-{{< files text="show files" >}}* /etc/vpnc/default.conf
+## Files: 
+* /etc/vpnc/default.conf
 * /etc/vpnc/vpnc-script
 * /usr/bin/cisco-decrypt
 * /usr/bin/pcf2vpnc
@@ -39,4 +40,3 @@ VPN client for cisco3000 VPN Concentrators
 * /usr/share/man/man1/cisco-decrypt.1.gz
 * /usr/share/man/man1/pcf2vpnc.1.gz
 * /usr/share/man/man8/vpnc.8.gz
-{{< /files >}}

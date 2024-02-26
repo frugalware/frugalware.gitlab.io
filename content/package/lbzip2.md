@@ -15,7 +15,8 @@ depends = "['bzip2']"
 +++
 Lbzip2 is a parallel, SMP-based, bzip2-compatible compression utility.
 
-{{< files text="show files" >}}* /usr/bin/lbunzip2
+## Files: 
+* /usr/bin/lbunzip2
 * /usr/bin/lbzcat
 * /usr/bin/lbzip2
 * /usr/share/doc/lbzip2-2.5/AUTHORS
@@ -28,4 +29,3 @@ Lbzip2 is a parallel, SMP-based, bzip2-compatible compression utility.
 * /usr/share/man/man1/lbunzip2.1.gz
 * /usr/share/man/man1/lbzcat.1.gz
 * /usr/share/man/man1/lbzip2.1.gz
-{{< /files >}}

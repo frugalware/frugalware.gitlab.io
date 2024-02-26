@@ -16,11 +16,11 @@ reverse_depends = "['lib32-curl', 'lib32-libcurl-gnutls', 'lib32-networkmanager'
 +++
 Public Suffix List library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/psl
+## Files: 
+* /usr/i686-frugalware-linux/bin/psl
 * /usr/i686-frugalware-linux/bin/psl-make-dafsa
 * /usr/i686-frugalware-linux/include/libpsl.h
 * /usr/lib32/libpsl.so
 * /usr/lib32/libpsl.so.5
 * /usr/lib32/libpsl.so.5.3.5
 * /usr/lib32/pkgconfig/libpsl.pc
-{{< /files >}}

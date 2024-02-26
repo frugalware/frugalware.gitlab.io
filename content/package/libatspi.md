@@ -16,7 +16,8 @@ reverse_depends = "['at-spi2-core', 'gtk+3', 'gtk+4']"
 +++
 Accessibility Technology software library
 
-{{< files text="show files" >}}* /usr/include/at-spi-2.0/atspi/atspi-accessible.h
+## Files: 
+* /usr/include/at-spi-2.0/atspi/atspi-accessible.h
 * /usr/include/at-spi-2.0/atspi/atspi-action.h
 * /usr/include/at-spi-2.0/atspi/atspi-application.h
 * /usr/include/at-spi-2.0/atspi/atspi-collection.h
@@ -56,4 +57,3 @@ Accessibility Technology software library
 * /usr/lib/pkgconfig/atspi-2.pc
 * /usr/share/gir-1.0/Atk-1.0.gir
 * /usr/share/gir-1.0/Atspi-2.0.gir
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['python3-xxhash', 'rsync', 'telegram-desktop']"
 +++
 Extremely fast non-cryptographic hash algorithm
 
-{{< files text="show files" >}}* /usr/bin/xxh128sum
+## Files: 
+* /usr/bin/xxh128sum
 * /usr/bin/xxh32sum
 * /usr/bin/xxh64sum
 * /usr/bin/xxhsum
@@ -33,4 +34,3 @@ Extremely fast non-cryptographic hash algorithm
 * /usr/share/man/man1/xxh32sum.1.gz
 * /usr/share/man/man1/xxh64sum.1.gz
 * /usr/share/man/man1/xxhsum.1.gz
-{{< /files >}}

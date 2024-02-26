@@ -15,7 +15,8 @@ depends = "['lib32-libx11', 'libstdc++']"
 +++
 Vulkan Validation Layers ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/smoketest
+## Files: 
+* /usr/i686-frugalware-linux/bin/smoketest
 * /usr/i686-frugalware-linux/bin/vulkaninfo
 * /usr/i686-frugalware-linux/include/vulkan/vk_icd.h
 * /usr/i686-frugalware-linux/include/vulkan/vk_layer.h
@@ -42,4 +43,3 @@ Vulkan Validation Layers ( 32bit )
 * /usr/lib32/libVkLayer_unique_objects.so
 * /usr/lib32/libVkLayer_utils.so
 * /usr/lib32/pkgconfig/vulkan.pc
-{{< /files >}}

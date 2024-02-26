@@ -15,7 +15,8 @@ depends = "['curl', 'enet', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'xerces-c']"
 +++
 Enigma is a puzzle game inspired by Oxyd on the Atari ST and Rock n Roll on the Amiga.
 
-{{< files text="show files" >}}* /usr/bin/enigma
+## Files: 
+* /usr/bin/enigma
 * /usr/share/appdata/enigma.appdata.xml
 * /usr/share/applications/enigma.desktop
 * /usr/share/doc/enigma-1.30/AUTHORS
@@ -5139,4 +5140,3 @@ Enigma is a puzzle game inspired by Oxyd on the Atari ST and Rock n Roll on the 
 * /usr/share/icons/hicolor/48x48/apps/enigma.png
 * /usr/share/man/man6/enigma.6.gz
 * /usr/share/pixmaps/enigma.png
-{{< /files >}}

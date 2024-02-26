@@ -15,5 +15,5 @@ depends = "['libnet>=1.1.6', 'rsyslog=8.2312.0']"
 +++
 Provides the omudpspoof module for rsyslog
 
-{{< files text="show files" >}}* /usr/lib/rsyslog/omudpspoof.so
-{{< /files >}}
+## Files: 
+* /usr/lib/rsyslog/omudpspoof.so

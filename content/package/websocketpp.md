@@ -16,7 +16,8 @@ reverse_depends = "['obs-studio']"
 +++
 C++/Boost Asio based websocket client/server library
 
-{{< files text="show files" >}}* /usr/include/websocketpp/base64/base64.hpp
+## Files: 
+* /usr/include/websocketpp/base64/base64.hpp
 * /usr/include/websocketpp/client.hpp
 * /usr/include/websocketpp/close.hpp
 * /usr/include/websocketpp/common/asio.hpp
@@ -112,4 +113,3 @@ C++/Boost Asio based websocket client/server library
 * /usr/lib/cmake/websocketpp/websocketpp-config.cmake
 * /usr/lib/cmake/websocketpp/websocketpp-configVersion.cmake
 * /usr/share/doc/websocketpp-0.8.2/COPYING
-{{< /files >}}

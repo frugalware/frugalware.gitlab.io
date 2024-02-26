@@ -15,7 +15,8 @@ depends = "['glib2>=2.60.3']"
 +++
 A templating library for GLib
 
-{{< files text="show files" >}}* /usr/include/template-glib-1.0/tmpl-debug.h
+## Files: 
+* /usr/include/template-glib-1.0/tmpl-debug.h
 * /usr/include/template-glib-1.0/tmpl-enums.h
 * /usr/include/template-glib-1.0/tmpl-error.h
 * /usr/include/template-glib-1.0/tmpl-expr-types.h
@@ -58,4 +59,3 @@ A templating library for GLib
 * /usr/share/locale/tr/LC_MESSAGES/template-glib.mo
 * /usr/share/vala/vapi/template-glib-1.0.deps
 * /usr/share/vala/vapi/template-glib-1.0.vapi
-{{< /files >}}

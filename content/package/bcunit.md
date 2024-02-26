@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 Lightweight system for writing, administering, and running unit tests in C
 
-{{< files text="show files" >}}* /usr/include/BCUnit/Automated.h
+## Files: 
+* /usr/include/BCUnit/Automated.h
 * /usr/include/BCUnit/Basic.h
 * /usr/include/BCUnit/BCUnit.h
 * /usr/include/BCUnit/BCUnit_intl.h
@@ -46,4 +47,3 @@ Lightweight system for writing, administering, and running unit tests in C
 * /usr/share/doc/bcunit-5.2.0/README.md
 * /usr/share/doc/bcunit-5.2.0/TODO
 * /usr/share/doc/bcunit-5.2.0/VERSION
-{{< /files >}}

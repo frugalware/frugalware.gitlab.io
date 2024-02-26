@@ -16,7 +16,8 @@ reverse_depends = "['libreoffice']"
 +++
 A library to import of AbiWord files
 
-{{< files text="show files" >}}* /usr/bin/abw2html
+## Files: 
+* /usr/bin/abw2html
 * /usr/bin/abw2raw
 * /usr/bin/abw2text
 * /usr/include/libabw-0.1/libabw/AbiDocument.h
@@ -32,4 +33,3 @@ A library to import of AbiWord files
 * /usr/share/doc/libabw-0.1.3/INSTALL
 * /usr/share/doc/libabw-0.1.3/NEWS
 * /usr/share/doc/libabw-0.1.3/README
-{{< /files >}}

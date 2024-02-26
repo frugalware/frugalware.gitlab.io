@@ -16,7 +16,8 @@ reverse_depends = "['haskell-http2']"
 +++
 Scalable timer
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/time-manager-0.0.1/libHStime-manager-0.0.1-Ersi1kkJ22tE8kjnRxVEv2.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/time-manager-0.0.1/libHStime-manager-0.0.1-Ersi1kkJ22tE8kjnRxVEv2.a
 * /usr/lib/ghc-9.8.1/site-local/time-manager-0.0.1/System/TimeManager.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/time-manager-0.0.1/System/TimeManager.hi
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHStime-manager-0.0.1-Ersi1kkJ22tE8kjnRxVEv2-ghc9.8.1.so
@@ -33,4 +34,3 @@ Scalable timer
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/time-manager-0.0.1/LICENSE
 * /usr/share/haskell/haskell-time-manager/register.sh
 * /usr/share/haskell/haskell-time-manager/unregister.sh
-{{< /files >}}

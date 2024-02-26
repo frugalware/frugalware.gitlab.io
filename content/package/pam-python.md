@@ -16,7 +16,8 @@ reverse_depends = "['howdy']"
 +++
 Python for PAM
 
-{{< files text="show files" >}}* /usr/lib/security/pam_python3.so
+## Files: 
+* /usr/lib/security/pam_python3.so
 * /usr/share/doc/pam-python-1.0.8/README.txt
 * /usr/share/doc/pam_python/examples/pam_deny.py
 * /usr/share/doc/pam_python/examples/pam_nologin.py
@@ -40,4 +41,3 @@ Python for PAM
 * /usr/share/doc/pam_python/html/_static/pygments.css
 * /usr/share/doc/pam_python/html/_static/searchtools.js
 * /usr/share/doc/pam_python/html/_static/sphinx_highlight.js
-{{< /files >}}

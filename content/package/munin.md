@@ -15,7 +15,8 @@ depends = "['perl-html-template', 'rrdtool>=1.7.1']"
 +++
 Munin is a tool for graphing all sorts of information about one or more servers and displaying it in a web interface.
 
-{{< files text="show files" >}}* /etc/logrotate.d/munin
+## Files: 
+* /etc/logrotate.d/munin
 * /etc/munin/munin-node.conf
 * /etc/munin/munin.conf
 * /etc/munin/static/definitions.html
@@ -400,4 +401,3 @@ Munin is a tool for graphing all sorts of information about one or more servers 
 * /usr/share/munin/cgi/munin-cgi-html
 * /usr/share/munin/www/.htaccess
 * /var/spool/cron/crontabs/munin
-{{< /files >}}

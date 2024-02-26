@@ -15,7 +15,8 @@ depends = "['libglu', 'libpng', 'sdlimage>=1.2.10-2', 'sdl_mixer', 'sdl_net']"
 +++
 A full 3D city simulator game project
 
-{{< files text="show files" >}}* /etc/opencity/config/graphism.conf
+## Files: 
+* /etc/opencity/config/graphism.conf
 * /etc/opencity/config/graphism.xml
 * /etc/opencity/config/opencity.xml
 * /usr/bin/opencity
@@ -492,4 +493,3 @@ A full 3D city simulator game project
 * /usr/share/opencity/sound/terrain.wav
 * /usr/share/opencity/sound/wroum.wav
 * /usr/share/pixmaps/opencity.png
-{{< /files >}}

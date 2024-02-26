@@ -16,7 +16,8 @@ reverse_depends = "['partitionmanager']"
 +++
 Tools for Flash-Friendly File System (F2FS).
 
-{{< files text="show files" >}}* /usr/bin/defrag.f2fs
+## Files: 
+* /usr/bin/defrag.f2fs
 * /usr/bin/dump.f2fs
 * /usr/bin/f2fscrypt
 * /usr/bin/f2fslabel
@@ -49,4 +50,3 @@ Tools for Flash-Friendly File System (F2FS).
 * /usr/share/man/man8/mkfs.f2fs.8.gz
 * /usr/share/man/man8/resize.f2fs.8.gz
 * /usr/share/man/man8/sload.f2fs.8.gz
-{{< /files >}}

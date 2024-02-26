@@ -16,7 +16,8 @@ reverse_depends = "['rtorrent']"
 +++
 This library provides a modular implementation of XML-RPC for C and C++.
 
-{{< files text="show files" >}}* /usr/bin/xml-rpc-api2cpp
+## Files: 
+* /usr/bin/xml-rpc-api2cpp
 * /usr/bin/xml-rpc-api2txt
 * /usr/bin/xmlrpc
 * /usr/bin/xmlrpc-c-config
@@ -142,4 +143,3 @@ This library provides a modular implementation of XML-RPC for C and C++.
 * /usr/share/doc/xmlrpc-c-1.54.06/README
 * /usr/share/man/man1/xml-rpc-api2cpp.1.gz
 * /usr/share/man/man1/xml-rpc-api2txt.1.gz
-{{< /files >}}

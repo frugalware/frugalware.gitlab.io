@@ -16,7 +16,8 @@ reverse_depends = "['gi-docgen']"
 +++
 Filters to enhance web typography
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/typogrify-2.0.7-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/typogrify-2.0.7-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/typogrify-2.0.7-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/typogrify-2.0.7-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/typogrify-2.0.7-py3.12.egg-info/SOURCES.txt
@@ -38,4 +39,3 @@ Filters to enhance web typography
 * /usr/lib/python3.12/site-packages/typogrify/__pycache__/filters.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/typogrify/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-typogrify-2.0.7/README.rst
-{{< /files >}}

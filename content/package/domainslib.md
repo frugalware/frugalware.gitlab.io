@@ -16,7 +16,8 @@ reverse_depends = "['lwt']"
 +++
 Nested-parallel programming library for OCaml
 
-{{< files text="show files" >}}* /usr/lib/ocaml/domainslib/chan.ml
+## Files: 
+* /usr/lib/ocaml/domainslib/chan.ml
 * /usr/lib/ocaml/domainslib/chan.mli
 * /usr/lib/ocaml/domainslib/domainslib.a
 * /usr/lib/ocaml/domainslib/domainslib.cma
@@ -57,4 +58,3 @@ Nested-parallel programming library for OCaml
 * /usr/share/doc/domainslib-0.5.1/domainslib/LICENSE.md
 * /usr/share/doc/domainslib-0.5.1/domainslib/README.md
 * /usr/share/doc/domainslib-0.5.1/README.md
-{{< /files >}}

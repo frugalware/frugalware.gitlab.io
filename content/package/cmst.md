@@ -15,7 +15,8 @@ depends = "['connman', 'pcre2', 'qt5-base>=5.15.10']"
 +++
 QT5 GUI for Connman
 
-{{< files text="show files" >}}* /etc/dbus-1/system.d/org.cmst.roothelper.conf
+## Files: 
+* /etc/dbus-1/system.d/org.cmst.roothelper.conf
 * /usr/bin/cmst
 * /usr/lib/cmst/cmstroothelper
 * /usr/share/applications/cmst.desktop
@@ -42,4 +43,3 @@ QT5 GUI for Connman
 * /usr/share/licenses/cmst/LICENSE
 * /usr/share/man/man1/cmst.1.gz
 * /usr/share/metainfo/org.cmst.cmst.appdata.xml
-{{< /files >}}

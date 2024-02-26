@@ -16,7 +16,8 @@ reverse_depends = "['akonadi', 'akonadi-mime', 'ark', 'colord-kde', 'discover', 
 +++
 Set of item models extending the Qt model-view framework.
 
-{{< files text="show files" >}}* /usr/include/KF5/KItemModels/KBreadcrumbSelectionModel
+## Files: 
+* /usr/include/KF5/KItemModels/KBreadcrumbSelectionModel
 * /usr/include/KF5/KItemModels/kbreadcrumbselectionmodel.h
 * /usr/include/KF5/KItemModels/KCheckableProxyModel
 * /usr/include/KF5/KItemModels/kcheckableproxymodel.h
@@ -55,4 +56,3 @@ Set of item models extending the Qt model-view framework.
 * /usr/share/qt5/mkspecs/modules/qt_KItemModels.pri
 * /usr/share/qt5/qml/org/kde/kitemmodels/libitemmodelsplugin.so
 * /usr/share/qt5/qml/org/kde/kitemmodels/qmldir
-{{< /files >}}

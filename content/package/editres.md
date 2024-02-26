@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org editres application
 
-{{< files text="show files" >}}* /usr/bin/editres
+## Files: 
+* /usr/bin/editres
 * /usr/share/doc/editres-1.0.8/AUTHORS
 * /usr/share/doc/editres-1.0.8/ChangeLog
 * /usr/share/doc/editres-1.0.8/COPYING
@@ -25,4 +26,3 @@ X.Org editres application
 * /usr/share/man/man1/editres.1.gz
 * /usr/share/X11/app-defaults/Editres
 * /usr/share/X11/app-defaults/Editres-color
-{{< /files >}}

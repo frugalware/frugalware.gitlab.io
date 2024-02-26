@@ -15,9 +15,9 @@ depends = "['perl>=5.34.0']"
 +++
 Perl extension for rounding numbers
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/auto/Math/Round/autosplit.ix
+## Files: 
+* /usr/lib/perl5/site_perl/current/auto/Math/Round/autosplit.ix
 * /usr/lib/perl5/site_perl/current/Math/Round.pm
 * /usr/share/doc/perl-math-round-0.07/MANIFEST
 * /usr/share/doc/perl-math-round-0.07/README
 * /usr/share/man/man3/Math::Round.3perl.gz
-{{< /files >}}

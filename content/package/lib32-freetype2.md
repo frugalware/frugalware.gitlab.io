@@ -16,7 +16,8 @@ reverse_depends = "['lib32-cairo', 'lib32-fontconfig', 'lib32-imlib2', 'lib32-li
 +++
 TrueType font rendering library - 2.0 series (with bytecode interpreter) ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/freetype2/freetype/config/ftconfig.h
+## Files: 
+* /usr/i686-frugalware-linux/include/freetype2/freetype/config/ftconfig.h
 * /usr/i686-frugalware-linux/include/freetype2/freetype/config/ftheader.h
 * /usr/i686-frugalware-linux/include/freetype2/freetype/config/ftmodule.h
 * /usr/i686-frugalware-linux/include/freetype2/freetype/config/ftoption.h
@@ -74,4 +75,3 @@ TrueType font rendering library - 2.0 series (with bytecode interpreter) ( 32bit
 * /usr/lib32/libfreetype.so.6
 * /usr/lib32/libfreetype.so.6.20.1
 * /usr/lib32/pkgconfig/freetype2.pc
-{{< /files >}}

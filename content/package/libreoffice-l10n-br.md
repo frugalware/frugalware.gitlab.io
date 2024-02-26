@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Breton support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/br/LC_MESSAGES/acc.mo
+## Files: 
+* /usr/lib/libreoffice/program/resource/br/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/br/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/br/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/br/LC_MESSAGES/chart.mo
@@ -53,4 +54,3 @@ Installs Breton support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-br.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_br.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_br.xcd
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['lib32-vulkan-mesa-layers']"
 +++
 Mesa Vulkan layers
 
-{{< files text="show files" >}}* /usr/bin/mesa-overlay-control.py
+## Files: 
+* /usr/bin/mesa-overlay-control.py
 * /usr/lib/libVkLayer_INTEL_nullhw.so
 * /usr/lib/libVkLayer_MESA_device_select.so
 * /usr/lib/libVkLayer_MESA_overlay.so
@@ -25,4 +26,3 @@ Mesa Vulkan layers
 * /usr/share/vulkan/icd.d/virtio_icd.i686.json
 * /usr/share/vulkan/icd.d/virtio_icd.x86_64.json
 * /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
-{{< /files >}}

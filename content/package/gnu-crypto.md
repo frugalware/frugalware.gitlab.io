@@ -15,7 +15,8 @@ depends = "['openjre']"
 +++
 GNU Crypto cryptographic primitives for Java.
 
-{{< files text="show files" >}}* /usr/share/doc/gnu-crypto-2.0.1/AUTHORS
+## Files: 
+* /usr/share/doc/gnu-crypto-2.0.1/AUTHORS
 * /usr/share/doc/gnu-crypto-2.0.1/ChangeLog
 * /usr/share/doc/gnu-crypto-2.0.1/COPYING
 * /usr/share/doc/gnu-crypto-2.0.1/INSTALL
@@ -24,4 +25,3 @@ GNU Crypto cryptographic primitives for Java.
 * /usr/share/java/gnu-crypto.jar
 * /usr/share/java/javax-crypto.jar
 * /usr/share/java/javax-security.jar
-{{< /files >}}

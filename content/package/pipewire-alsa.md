@@ -15,6 +15,6 @@ depends = "['wireplumber']"
 +++
 Pipewire alsa config
 
-{{< files text="show files" >}}* /usr/share/alsa/alsa.conf.d/99-pipewire-default.conf
+## Files: 
+* /usr/share/alsa/alsa.conf.d/99-pipewire-default.conf
 * /usr/share/pipewire/media-session.d/with-alsa
-{{< /files >}}

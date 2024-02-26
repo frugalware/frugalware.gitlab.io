@@ -16,7 +16,8 @@ reverse_depends = "['inkscape', 'wxwidgets']"
 +++
 Spell-checking library for GTK+
 
-{{< files text="show files" >}}* /usr/bin/gspell-app1
+## Files: 
+* /usr/bin/gspell-app1
 * /usr/include/gspell-1/gspell/gspell-checker-dialog.h
 * /usr/include/gspell-1/gspell/gspell-checker.h
 * /usr/include/gspell-1/gspell/gspell-entry-buffer.h
@@ -140,4 +141,3 @@ Spell-checking library for GTK+
 * /usr/share/locale/zh_TW/LC_MESSAGES/gspell-1.mo
 * /usr/share/vala/vapi/gspell-1.deps
 * /usr/share/vala/vapi/gspell-1.vapi
-{{< /files >}}

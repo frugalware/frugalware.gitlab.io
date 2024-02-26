@@ -15,7 +15,8 @@ depends = "['bolt', 'kcmutils>=5.115.0']"
 +++
 Plasma integration for controlling Thunderbolt devices
 
-{{< files text="show files" >}}* /usr/lib/libkbolt.so
+## Files: 
+* /usr/lib/libkbolt.so
 * /usr/lib/qt5/plugins/kf5/kded/kded_bolt.so
 * /usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_bolt.so
 * /usr/share/applications/kcm_bolt.desktop
@@ -104,4 +105,3 @@ Plasma integration for controlling Thunderbolt devices
 * /usr/share/locale/zh_CN/LC_MESSAGES/kded_bolt.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_bolt.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kded_bolt.mo
-{{< /files >}}

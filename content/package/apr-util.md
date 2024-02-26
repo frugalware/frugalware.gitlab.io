@@ -16,7 +16,8 @@ reverse_depends = "['apache', 'mod_security', 'mod_svn', 'serf', 'subversion-svn
 +++
 Apache Portable Runtime
 
-{{< files text="show files" >}}* /usr/bin/apu-1-config
+## Files: 
+* /usr/bin/apu-1-config
 * /usr/include/apr-1/apr_anylock.h
 * /usr/include/apr-1/apr_base64.h
 * /usr/include/apr-1/apr_buckets.h
@@ -76,4 +77,3 @@ Apache Portable Runtime
 * /usr/share/doc/apr-util-1.6.3/README
 * /usr/share/doc/apr-util-1.6.3/README.cmake
 * /usr/share/doc/apr-util-1.6.3/README.FREETDS
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['gegl']"
 +++
 Babl is a dynamic, any to any, pixel format conversion library.
 
-{{< files text="show files" >}}* /usr/bin/babl
+## Files: 
+* /usr/bin/babl
 * /usr/include/babl-0.1/babl/babl-introspect.h
 * /usr/include/babl-0.1/babl/babl-macros.h
 * /usr/include/babl-0.1/babl/babl-types.h
@@ -89,4 +90,3 @@ Babl is a dynamic, any to any, pixel format conversion library.
 * /usr/share/gir-1.0/Babl-0.1.gir
 * /usr/share/vala/vapi/babl-0.1.deps
 * /usr/share/vala/vapi/babl-0.1.vapi
-{{< /files >}}

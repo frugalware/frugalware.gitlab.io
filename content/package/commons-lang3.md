@@ -15,7 +15,7 @@ depends = "[]"
 +++
 The Lang Component provides a host of helper utilities for the java.lang API
 
-{{< files text="show files" >}}* /usr/share/doc/commons-lang3-3.12.0/README.md
+## Files: 
+* /usr/share/doc/commons-lang3-3.12.0/README.md
 * /usr/share/doc/commons-lang3-3.12.0/RELEASE-NOTES.txt
 * /usr/share/java/commons-lang3-3.12.0.jar
-{{< /files >}}

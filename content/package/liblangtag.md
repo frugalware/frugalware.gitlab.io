@@ -16,7 +16,8 @@ reverse_depends = "['libe-book', 'libreoffice']"
 +++
 An interface library to access tags for identifying languages
 
-{{< files text="show files" >}}* /usr/include/liblangtag/langtag.h
+## Files: 
+* /usr/include/liblangtag/langtag.h
 * /usr/include/liblangtag/lt-config.h
 * /usr/include/liblangtag/lt-database.h
 * /usr/include/liblangtag/lt-error.h
@@ -120,4 +121,3 @@ An interface library to access tags for identifying languages
 * /usr/share/liblangtag/common/supplemental/supplementalData.xml
 * /usr/share/liblangtag/common/supplemental/supplementalMetadata.xml
 * /usr/share/liblangtag/language-subtag-registry.xml
-{{< /files >}}

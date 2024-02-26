@@ -16,7 +16,8 @@ reverse_depends = "['binwalk', 'cracklib', 'parted']"
 +++
 A file compression utility
 
-{{< files text="show files" >}}* /usr/bin/gunzip
+## Files: 
+* /usr/bin/gunzip
 * /usr/bin/gzexe
 * /usr/bin/gzip
 * /usr/bin/uncompress
@@ -50,4 +51,3 @@ A file compression utility
 * /usr/share/man/man1/zless.1.gz
 * /usr/share/man/man1/zmore.1.gz
 * /usr/share/man/man1/znew.1.gz
-{{< /files >}}

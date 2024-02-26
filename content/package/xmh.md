@@ -16,11 +16,11 @@ license = "GPL2"
 +++
 X.Org xmh application
 
-{{< files text="show files" >}}* /usr/bin/xmh
+## Files: 
+* /usr/bin/xmh
 * /usr/share/doc/xmh-1.0.4/ChangeLog
 * /usr/share/doc/xmh-1.0.4/COPYING
 * /usr/share/doc/xmh-1.0.4/INSTALL
 * /usr/share/doc/xmh-1.0.4/README.md
 * /usr/share/man/man1/xmh.1.gz
 * /usr/share/X11/app-defaults/Xmh
-{{< /files >}}

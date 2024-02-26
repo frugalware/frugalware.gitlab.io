@@ -15,7 +15,8 @@ depends = "['libkdegames>=23.08.5']"
 +++
 Kigo is an open-source implementation of the popular Go game
 
-{{< files text="show files" >}}* /usr/bin/kigo
+## Files: 
+* /usr/bin/kigo
 * /usr/share/applications/org.kde.kigo.desktop
 * /usr/share/config.kcfg/kigo.kcfg
 * /usr/share/doc/HTML/ca/kigo/index.cache.bz2
@@ -157,4 +158,3 @@ Kigo is an open-source implementation of the popular Go game
 * /usr/share/locale/zh_TW/LC_MESSAGES/kigo.mo
 * /usr/share/metainfo/org.kde.kigo.appdata.xml
 * /usr/share/qlogging-categories5/kigo.categories
-{{< /files >}}

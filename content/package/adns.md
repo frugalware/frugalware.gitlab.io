@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 Advanced, easy to use, asynchronous-capable DNS client library and utilities
 
-{{< files text="show files" >}}* /usr/bin/adnsheloex
+## Files: 
+* /usr/bin/adnsheloex
 * /usr/bin/adnshost
 * /usr/bin/adnslogres
 * /usr/bin/adnsresfilter
@@ -30,4 +31,3 @@ Advanced, easy to use, asynchronous-capable DNS client library and utilities
 * /usr/share/doc/adns-1.6.0/README.html
 * /usr/share/doc/adns-1.6.0/RELEASE-CHECKLIST
 * /usr/share/doc/adns-1.6.0/TODO
-{{< /files >}}

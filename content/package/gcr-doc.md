@@ -15,4 +15,4 @@ depends = "['gcr>=4.1.0']"
 +++
 gcr documention
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

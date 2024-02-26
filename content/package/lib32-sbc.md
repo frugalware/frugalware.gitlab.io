@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Library for Low Complexity Subband Coding with BlueZ ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/sbcdec
+## Files: 
+* /usr/i686-frugalware-linux/bin/sbcdec
 * /usr/i686-frugalware-linux/bin/sbcenc
 * /usr/i686-frugalware-linux/bin/sbcinfo
 * /usr/i686-frugalware-linux/include/sbc/sbc.h
@@ -23,4 +24,3 @@ Library for Low Complexity Subband Coding with BlueZ ( 32bit )
 * /usr/lib32/libsbc.so.1
 * /usr/lib32/libsbc.so.1.3.1
 * /usr/lib32/pkgconfig/sbc.pc
-{{< /files >}}

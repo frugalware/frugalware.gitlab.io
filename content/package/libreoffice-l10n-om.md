@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Oromo support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/om/default.css
+## Files: 
+* /usr/lib/libreoffice/help/om/default.css
 * /usr/lib/libreoffice/help/om/err.html
 * /usr/lib/libreoffice/help/om/highcontrast1.css
 * /usr/lib/libreoffice/help/om/highcontrast2.css
@@ -133,4 +134,3 @@ Installs Oromo support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-om.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_om.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_om.xcd
-{{< /files >}}

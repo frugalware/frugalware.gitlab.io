@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 mobile manager
 
-{{< files text="show files" >}}* /etc/dbus-1/system.d/ofono.conf
+## Files: 
+* /etc/dbus-1/system.d/ofono.conf
 * /etc/ofono/phonesim.conf
 * /usr/bin/ofonod
 * /usr/include/ofono/audio-settings.h
@@ -68,4 +69,3 @@ mobile manager
 * /usr/share/doc/ofono-2.3/README
 * /usr/share/doc/ofono-2.3/TODO
 * /usr/share/man/man8/ofonod.8.gz
-{{< /files >}}

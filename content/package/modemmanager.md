@@ -16,7 +16,8 @@ reverse_depends = "['geoclue2', 'modemmanager-qt', 'networkmanager', 'ofono']"
 +++
 Mobile broadband modem management service
 
-{{< files text="show files" >}}* /etc/dbus-1/system.d/org.freedesktop.ModemManager1.conf
+## Files: 
+* /etc/dbus-1/system.d/org.freedesktop.ModemManager1.conf
 * /usr/bin/mmcli
 * /usr/bin/ModemManager
 * /usr/include/libmm-glib/libmm-glib.h
@@ -212,4 +213,3 @@ Mobile broadband modem management service
 * /usr/share/ModemManager/fcc-unlock.available.d/413c:81a3
 * /usr/share/ModemManager/fcc-unlock.available.d/413c:81a8
 * /usr/share/ModemManager/mm-foxconn-t77w968-carrier-mapping.conf
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Romanian support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/ro/default.css
+## Files: 
+* /usr/lib/libreoffice/help/ro/default.css
 * /usr/lib/libreoffice/help/ro/err.html
 * /usr/lib/libreoffice/help/ro/highcontrast1.css
 * /usr/lib/libreoffice/help/ro/highcontrast2.css
@@ -133,4 +134,3 @@ Installs Romanian support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-ro.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_ro.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_ro.xcd
-{{< /files >}}

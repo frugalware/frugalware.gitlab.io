@@ -15,7 +15,7 @@ depends = "['openssh', 'rsync']"
 +++
 A CLI to automatically install and run code-server over SSH.
 
-{{< files text="show files" >}}* /usr/bin/sshcode
+## Files: 
+* /usr/bin/sshcode
 * /usr/share/doc/sshcode-0.10.0/LICENSE
 * /usr/share/doc/sshcode-0.10.0/README.md
-{{< /files >}}

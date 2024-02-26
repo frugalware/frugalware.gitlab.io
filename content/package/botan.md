@@ -16,7 +16,8 @@ reverse_depends = "['keepassxc', 'qca-botan']"
 +++
 Crypto library written in C++
 
-{{< files text="show files" >}}* /usr/bin/botan
+## Files: 
+* /usr/bin/botan
 * /usr/include/botan-3/botan/aead.h
 * /usr/include/botan-3/botan/allocator.h
 * /usr/include/botan-3/botan/argon2.h
@@ -267,4 +268,3 @@ Crypto library written in C++
 * /usr/share/doc/botan-3.3.0/license.txt
 * /usr/share/doc/botan-3.3.0/news.txt
 * /usr/share/doc/botan-3.3.0/pgpkey.txt
-{{< /files >}}

@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X Cursor Library
 
-{{< files text="show files" >}}* /usr/include/X11/Xcursor/Xcursor.h
+## Files: 
+* /usr/include/X11/Xcursor/Xcursor.h
 * /usr/lib/libXcursor.so
 * /usr/lib/libXcursor.so.1
 * /usr/lib/libXcursor.so.1.0.2
@@ -87,4 +88,3 @@ X Cursor Library
 * /usr/share/man/man3/XcursorXcFileLoadImage.3.gz
 * /usr/share/man/man3/XcursorXcFileLoadImages.3.gz
 * /usr/share/man/man3/XcursorXcFileSave.3.gz
-{{< /files >}}

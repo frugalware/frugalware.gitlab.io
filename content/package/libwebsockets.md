@@ -16,7 +16,8 @@ reverse_depends = "['seafile']"
 +++
 C library for websocket clients and servers
 
-{{< files text="show files" >}}* /usr/include/libwebsockets.h
+## Files: 
+* /usr/include/libwebsockets.h
 * /usr/include/libwebsockets/abstract/abstract.h
 * /usr/include/libwebsockets/abstract/protocols.h
 * /usr/include/libwebsockets/abstract/protocols/smtp.h
@@ -115,4 +116,3 @@ C library for websocket clients and servers
 * /usr/lib/pkgconfig/libwebsockets_static.pc
 * /usr/share/doc/libwebsockets-4.3.3/LICENSE
 * /usr/share/doc/libwebsockets-4.3.3/README.md
-{{< /files >}}

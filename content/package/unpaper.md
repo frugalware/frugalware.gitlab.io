@@ -15,9 +15,9 @@ depends = "['ffmpeg>=6.0']"
 +++
 post-processing scanned and photocopied book pages
 
-{{< files text="show files" >}}* /usr/bin/unpaper
+## Files: 
+* /usr/bin/unpaper
 * /usr/share/doc/unpaper-7.0.0/AUTHORS
 * /usr/share/doc/unpaper-7.0.0/NEWS
 * /usr/share/doc/unpaper-7.0.0/README.md
 * /usr/share/man/man1/unpaper.1.gz
-{{< /files >}}

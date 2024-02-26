@@ -16,7 +16,8 @@ reverse_depends = "['haskell-wai-extra']"
 +++
 A unit testing framework for Haskell
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/HUnit-1.6.2.0/libHSHUnit-1.6.2.0-HzzmrbBraolKq5IRwboZyL.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/HUnit-1.6.2.0/libHSHUnit-1.6.2.0-HzzmrbBraolKq5IRwboZyL.a
 * /usr/lib/ghc-9.8.1/site-local/HUnit-1.6.2.0/Paths_HUnit.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/HUnit-1.6.2.0/Paths_HUnit.hi
 * /usr/lib/ghc-9.8.1/site-local/HUnit-1.6.2.0/Test/HUnit.dyn_hi
@@ -48,4 +49,3 @@ A unit testing framework for Haskell
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/HUnit-1.6.2.0/LICENSE
 * /usr/share/haskell/haskell-hunit/register.sh
 * /usr/share/haskell/haskell-hunit/unregister.sh
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['clight-gui']"
 +++
 A C daemon that turns your webcam into a light sensor. It can also change
 
-{{< files text="show files" >}}* /etc/clight/clight.conf
+## Files: 
+* /etc/clight/clight.conf
 * /etc/clight/modules.conf.d/backlight.conf
 * /etc/clight/modules.conf.d/daytime.conf
 * /etc/clight/modules.conf.d/dimmer.conf
@@ -40,4 +41,3 @@ A C daemon that turns your webcam into a light sensor. It can also change
 * /usr/share/icons/hicolor/scalable/apps/clight.svg
 * /usr/share/man/man1/clight.1.gz
 * /usr/share/zsh/site-functions/_clight
-{{< /files >}}

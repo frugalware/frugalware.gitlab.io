@@ -16,7 +16,8 @@ reverse_depends = "['plasma-systemmonitor']"
 +++
 A plugin based system monitoring daemon
 
-{{< files text="show files" >}}* /usr/bin/kstatsviewer
+## Files: 
+* /usr/bin/kstatsviewer
 * /usr/bin/ksystemstats
 * /usr/lib/qt5/plugins/ksystemstats/ksystemstats_plugin_cpu.so
 * /usr/lib/qt5/plugins/ksystemstats/ksystemstats_plugin_disk.so
@@ -65,4 +66,3 @@ A plugin based system monitoring daemon
 * /usr/share/locale/vi/LC_MESSAGES/ksystemstats_plugins.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/ksystemstats_plugins.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/ksystemstats_plugins.mo
-{{< /files >}}

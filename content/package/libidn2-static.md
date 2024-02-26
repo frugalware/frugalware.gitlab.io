@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Static files for libidn2
 
-{{< files text="show files" >}}* /usr/lib/libidn2.a
-{{< /files >}}
+## Files: 
+* /usr/lib/libidn2.a

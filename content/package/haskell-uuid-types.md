@@ -16,7 +16,8 @@ reverse_depends = "['haskell-aeson', 'haskell-http-api-data']"
 +++
 Type definitions for Universally Unique Identifiers
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/uuid-types-1.0.5.1/Data/UUID/Types.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/uuid-types-1.0.5.1/Data/UUID/Types.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/uuid-types-1.0.5.1/Data/UUID/Types.hi
 * /usr/lib/ghc-9.8.1/site-local/uuid-types-1.0.5.1/Data/UUID/Types/Internal.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/uuid-types-1.0.5.1/Data/UUID/Types/Internal.hi
@@ -37,4 +38,3 @@ Type definitions for Universally Unique Identifiers
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/uuid-types-1.0.5.1/LICENSE
 * /usr/share/haskell/haskell-uuid-types/register.sh
 * /usr/share/haskell/haskell-uuid-types/unregister.sh
-{{< /files >}}

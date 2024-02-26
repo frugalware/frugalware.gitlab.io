@@ -16,7 +16,8 @@ reverse_depends = "['igsc']"
 +++
 Access library for Intel CSME HECI interface
 
-{{< files text="show files" >}}* /usr/include/metee.h
+## Files: 
+* /usr/include/metee.h
 * /usr/lib/libmetee.so
 * /usr/lib/libmetee.so.3.2.4
 * /usr/share/doc/intel-metee-3.2.4/COPYING
@@ -107,4 +108,3 @@ Access library for Intel CSME HECI interface
 * /usr/share/man/man3/metee.h.3.gz
 * /usr/share/man/man3/teeDriverVersion_t.3.gz
 * /usr/share/man/man3/_TEEHANDLE.3.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['apache>=2.4.35', 'apr-util', 'curl', 'geoip', 'libxml2', 'lua>=5.4'
 +++
 A security filter DSO for the popular Apache httpd server
 
-{{< files text="show files" >}}* /usr/bin/modsec-rules-check
+## Files: 
+* /usr/bin/modsec-rules-check
 * /usr/include/modsecurity/actions/action.h
 * /usr/include/modsecurity/anchored_set_variable.h
 * /usr/include/modsecurity/anchored_variable.h
@@ -43,4 +44,3 @@ A security filter DSO for the popular Apache httpd server
 * /usr/share/doc/mod_security-3.0.4/CHANGES
 * /usr/share/doc/mod_security-3.0.4/LICENSE
 * /usr/share/doc/mod_security-3.0.4/README.md
-{{< /files >}}

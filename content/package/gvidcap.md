@@ -15,6 +15,6 @@ depends = "['gtk+2']"
 +++
 GTK frontend to Xvidcap
 
-{{< files text="show files" >}}* usr/bin/gvidcap
+## Files: 
+* usr/bin/gvidcap
 * usr/man/man1/gvidcap.1.gz
-{{< /files >}}

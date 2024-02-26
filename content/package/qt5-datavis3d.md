@@ -15,7 +15,8 @@ depends = "['qt5-declarative>=5.15.12']"
 +++
 The Qt5 toolkit, qtdatavis3d
 
-{{< files text="show files" >}}* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/abstract3dcontroller_p.h
+## Files: 
+* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/abstract3dcontroller_p.h
 * /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/abstract3drenderer_p.h
 * /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/abstractitemmodelhandler_p.h
 * /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/abstractobjecthelper_p.h
@@ -194,4 +195,3 @@ The Qt5 toolkit, qtdatavis3d
 * /usr/share/qt5/qml/QtDataVisualization/libdatavisualizationqml2.so
 * /usr/share/qt5/qml/QtDataVisualization/plugins.qmltypes
 * /usr/share/qt5/qml/QtDataVisualization/qmldir
-{{< /files >}}

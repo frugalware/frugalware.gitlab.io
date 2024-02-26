@@ -16,7 +16,8 @@ reverse_depends = "['polychromatic']"
 +++
 Python bindings for QtWebEngine
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/PyQt5/bindings/QtWebEngine/qquickwebengineprofile.sip
+## Files: 
+* /usr/lib/python3.12/site-packages/PyQt5/bindings/QtWebEngine/qquickwebengineprofile.sip
 * /usr/lib/python3.12/site-packages/PyQt5/bindings/QtWebEngine/qquickwebenginescript.sip
 * /usr/lib/python3.12/site-packages/PyQt5/bindings/QtWebEngine/QtWebEngine.toml
 * /usr/lib/python3.12/site-packages/PyQt5/bindings/QtWebEngine/qtwebengineglobal.sip
@@ -60,4 +61,3 @@ Python bindings for QtWebEngine
 * /usr/share/doc/pyqtwebengine-5.15.6/NEWS
 * /usr/share/doc/pyqtwebengine-5.15.6/README
 * /usr/share/qt/qsci/api/python/PyQtWebEngine.api
-{{< /files >}}

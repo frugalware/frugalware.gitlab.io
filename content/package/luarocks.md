@@ -15,7 +15,8 @@ depends = "['lua>=5.4.4']"
 +++
 Deployment and management system for Lua modules
 
-{{< files text="show files" >}}* /etc/luarocks/config-5.4.lua
+## Files: 
+* /etc/luarocks/config-5.4.lua
 * /usr/bin/luarocks
 * /usr/bin/luarocks-admin
 * /usr/share/doc/luarocks-3.9.1/COPYING
@@ -115,4 +116,3 @@ Deployment and management system for Lua modules
 * /usr/share/lua/5.4/luarocks/upload/api.lua
 * /usr/share/lua/5.4/luarocks/upload/multipart.lua
 * /usr/share/lua/5.4/luarocks/util.lua
-{{< /files >}}

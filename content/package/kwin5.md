@@ -16,7 +16,8 @@ reverse_depends = "['oxygen', 'plasma-workspace']"
 +++
 KDE Window Manager.
 
-{{< files text="show files" >}}* /usr/bin/kwin_wayland
+## Files: 
+* /usr/bin/kwin_wayland
 * /usr/bin/kwin_wayland_wrapper
 * /usr/bin/kwin_x11
 * /usr/include/kwinanimationeffect.h
@@ -1768,4 +1769,3 @@ KDE Window Manager.
 * /usr/share/qt5/qml/org/kde/kwin/private/effects/WindowHeapDelegate.qml
 * /usr/share/qt5/qml/org/kde/kwin/private/kdecoration/libkdecorationprivatedeclarative.so
 * /usr/share/qt5/qml/org/kde/kwin/private/kdecoration/qmldir
-{{< /files >}}

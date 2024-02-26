@@ -16,7 +16,8 @@ reverse_depends = "['lib32-libxaw']"
 +++
 X.Org Xmu library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/Xmu/Atoms.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/Xmu/Atoms.h
 * /usr/i686-frugalware-linux/include/X11/Xmu/CharSet.h
 * /usr/i686-frugalware-linux/include/X11/Xmu/CloseHook.h
 * /usr/i686-frugalware-linux/include/X11/Xmu/Converters.h
@@ -47,4 +48,3 @@ X.Org Xmu library ( 32bit )
 * /usr/lib32/libXmuu.so.1.0.0
 * /usr/lib32/pkgconfig/xmu.pc
 * /usr/lib32/pkgconfig/xmuu.pc
-{{< /files >}}

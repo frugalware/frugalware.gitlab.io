@@ -16,7 +16,8 @@ reverse_depends = "['gtk-doc']"
 +++
 Given a source file, produces a document with syntax highlighting.
 
-{{< files text="show files" >}}* /etc/bash_completion.d/source-highlight
+## Files: 
+* /etc/bash_completion.d/source-highlight
 * /usr/bin/check-regexp
 * /usr/bin/cpp2html
 * /usr/bin/java2html
@@ -435,4 +436,3 @@ Given a source file, produces a document with syntax highlighting.
 * /usr/share/source-highlight/xml.lang
 * /usr/share/source-highlight/xorg.lang
 * /usr/share/source-highlight/zsh.lang
-{{< /files >}}

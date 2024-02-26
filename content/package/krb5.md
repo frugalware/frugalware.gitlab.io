@@ -17,7 +17,8 @@ license = "licence"
 +++
 Kerberos: The Network Authentication Protocol
 
-{{< files text="show files" >}}* /usr/bin/gss-client
+## Files: 
+* /usr/bin/gss-client
 * /usr/bin/gss-server
 * /usr/bin/k5srvutil
 * /usr/bin/kadmin
@@ -86,4 +87,3 @@ Kerberos: The Network Authentication Protocol
 * /usr/share/man/man8/kproplog.8.gz
 * /usr/share/man/man8/krb5kdc.8.gz
 * /usr/share/man/man8/sserver.8.gz
-{{< /files >}}

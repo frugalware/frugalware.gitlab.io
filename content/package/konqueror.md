@@ -15,7 +15,8 @@ depends = "['kactivities5', 'kcmutils', 'kdelibs4support', 'kdesu', 'khtml', 'qt
 +++
 Web browser and file manager
 
-{{< files text="show files" >}}* /etc/xdg/autostart/konqy_preload.desktop
+## Files: 
+* /etc/xdg/autostart/konqy_preload.desktop
 * /etc/xdg/konqsidebartngrc
 * /etc/xdg/translaterc
 * /etc/xdg/useragenttemplatesrc
@@ -2473,4 +2474,3 @@ Web browser and file manager
 * /usr/share/qlogging-categories5/fsview.categories
 * /usr/share/qlogging-categories5/konqueror.categories
 * /usr/share/webenginepart/error.html
-{{< /files >}}

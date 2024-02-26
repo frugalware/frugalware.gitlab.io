@@ -15,6 +15,6 @@ depends = "['libpng>=1.6.20']"
 +++
 Pngcrush is an optimizer for PNG (Portable Network Graphics) files.
 
-{{< files text="show files" >}}* /usr/bin/pngcrush
+## Files: 
+* /usr/bin/pngcrush
 * /usr/share/doc/pngcrush-1.8.13/LICENSE
-{{< /files >}}

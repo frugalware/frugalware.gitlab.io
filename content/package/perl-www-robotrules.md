@@ -16,10 +16,10 @@ reverse_depends = "['perl-libwww']"
 +++
 Database of robots.txt-derived permissions.
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/WWW/RobotRules.pm
+## Files: 
+* /usr/lib/perl5/site_perl/current/WWW/RobotRules.pm
 * /usr/lib/perl5/site_perl/current/WWW/RobotRules/AnyDBM_File.pm
 * /usr/share/doc/perl-www-robotrules-6.02/MANIFEST
 * /usr/share/doc/perl-www-robotrules-6.02/README
 * /usr/share/man/man3/WWW::RobotRules.3perl.gz
 * /usr/share/man/man3/WWW::RobotRules::AnyDBM_File.3perl.gz
-{{< /files >}}

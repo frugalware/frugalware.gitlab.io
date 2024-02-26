@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org driver for vmmouse input devices
 
-{{< files text="show files" >}}* /usr/bin/vmmouse_detect
+## Files: 
+* /usr/bin/vmmouse_detect
 * /usr/lib/hal/hal-probe-vmmouse
 * /usr/lib/udev/rules.d/69-xorg-vmmouse.rules
 * /usr/lib/xorg/modules/input/vmmouse_drv.so
@@ -28,4 +29,3 @@ X.Org driver for vmmouse input devices
 * /usr/share/man/man1/vmmouse_detect.1.gz
 * /usr/share/man/man4/vmmouse.4.gz
 * /usr/share/X11/xorg.conf.d/50-vmmouse.conf
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libpng', 'sdl2_mixer']"
 +++
 An open source re-implementation of Caesar III
 
-{{< files text="show files" >}}* /usr/bin/julius
+## Files: 
+* /usr/bin/julius
 * /usr/share/applications/com.github.bvschaik.julius.desktop
 * /usr/share/doc/julius-1.7.0/README.md
 * /usr/share/icons/hicolor/256x256/apps/com.github.bvschaik.julius.png
@@ -23,4 +24,3 @@ An open source re-implementation of Caesar III
 * /usr/share/icons/hicolor/48x48/apps/com.github.bvschaik.julius.png
 * /usr/share/icons/hicolor/512x512/apps/com.github.bvschaik.julius.png
 * /usr/share/metainfo/com.github.bvschaik.julius.metainfo.xml
-{{< /files >}}

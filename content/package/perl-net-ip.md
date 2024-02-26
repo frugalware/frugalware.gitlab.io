@@ -16,11 +16,11 @@ reverse_depends = "['perl-net-dns']"
 +++
 Perl extension for manipulating IPv4/IPv6 addresses
 
-{{< files text="show files" >}}* /usr/bin/ipcount
+## Files: 
+* /usr/bin/ipcount
 * /usr/bin/iptab
 * /usr/lib/perl5/site_perl/current/Net/IP.pm
 * /usr/share/doc/perl-net-ip-1.26/COPYING
 * /usr/share/doc/perl-net-ip-1.26/MANIFEST
 * /usr/share/doc/perl-net-ip-1.26/README
 * /usr/share/man/man3/Net::IP.3perl.gz
-{{< /files >}}

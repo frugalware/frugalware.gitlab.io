@@ -16,7 +16,8 @@ reverse_depends = "['cifs-utils', 'dracut', 'dracut-ykfde', 'kernel-initrd', 'ke
 +++
 Keyutils is a set of utilities for managing the key retention facility in the kernel
 
-{{< files text="show files" >}}* /etc/request-key.conf
+## Files: 
+* /etc/request-key.conf
 * /usr/bin/key.dns_resolver
 * /usr/bin/keyctl
 * /usr/bin/request-key
@@ -74,4 +75,3 @@ Keyutils is a set of utilities for managing the key retention facility in the ke
 * /usr/share/man/man7/keyutils.7.gz
 * /usr/share/man/man8/key.dns_resolver.8.gz
 * /usr/share/man/man8/request-key.8.gz
-{{< /files >}}

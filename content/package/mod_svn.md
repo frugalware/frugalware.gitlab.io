@@ -15,7 +15,7 @@ depends = "['apache>=2.4.35', 'apr-util>=1.5.4-3', 'subversion=1.14.3']"
 +++
 SVN module for apache 2.X webservers to use SVN server via apache
 
-{{< files text="show files" >}}* /etc/httpd/conf/modules.d/mod_dav_svn.conf
+## Files: 
+* /etc/httpd/conf/modules.d/mod_dav_svn.conf
 * /usr/lib/apache/mod_authz_svn.so
 * /usr/lib/apache/mod_dav_svn.so
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['gtk+2', 'libidl']"
 +++
 The Mozilla Web Browser
 
-{{< files text="show files" >}}* usr/bin/mozilla
+## Files: 
+* usr/bin/mozilla
 * usr/bin/mozilla-config
 * usr/include/mozilla
 * usr/include/mozilla-1.7.12/accessibility/nsAccessibleEventData.h
@@ -3934,4 +3935,3 @@ The Mozilla Web Browser
 * usr/share/idl/mozilla-1.7.12/xpctest_inout.idl
 * usr/share/idl/mozilla-1.7.12/xpctest_multiple.idl
 * usr/share/idl/mozilla-1.7.12/xpctest_out.idl
-{{< /files >}}

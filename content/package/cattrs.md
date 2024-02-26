@@ -15,7 +15,8 @@ depends = "['python3>=3.10']"
 +++
 Composable complex class support for attrs.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/cattr/converters.py
+## Files: 
+* /usr/lib/python3.12/site-packages/cattr/converters.py
 * /usr/lib/python3.12/site-packages/cattr/disambiguators.py
 * /usr/lib/python3.12/site-packages/cattr/dispatch.py
 * /usr/lib/python3.12/site-packages/cattr/errors.py
@@ -84,4 +85,3 @@ Composable complex class support for attrs.
 * /usr/lib/python3.12/site-packages/cattrs/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/cattrs-22.2.0/LICENSE
 * /usr/share/doc/cattrs-22.2.0/README.rst
-{{< /files >}}

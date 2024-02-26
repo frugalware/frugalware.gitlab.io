@@ -16,10 +16,10 @@ reverse_depends = "['lib32-libmicrohttpd', 'lib32-util-linux']"
 +++
 File type identification utility ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/file
+## Files: 
+* /usr/i686-frugalware-linux/bin/file
 * /usr/i686-frugalware-linux/include/magic.h
 * /usr/lib32/libmagic.so
 * /usr/lib32/libmagic.so.1
 * /usr/lib32/libmagic.so.1.0.0
 * /usr/lib32/pkgconfig/libmagic.pc
-{{< /files >}}

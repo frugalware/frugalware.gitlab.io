@@ -15,5 +15,5 @@ depends = "['libpthread-stubs', 'util-macros', 'xcb-proto', 'xorgproto>=2018.3-2
 +++
 X.Org dummy -devel package
 
-{{< files text="show files" >}}* /usr/share/doc/x11-protos-0.1/README
-{{< /files >}}
+## Files: 
+* /usr/share/doc/x11-protos-0.1/README

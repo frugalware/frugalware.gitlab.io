@@ -16,7 +16,8 @@ reverse_depends = "['qt6-httpserver']"
 +++
 The Qt6 toolkit, qtwebsockets
 
-{{< files text="show files" >}}* /usr/include/qt6/QtWebSockets/6.6.2/QtWebSockets/private/qdefaultmaskgenerator_p.h
+## Files: 
+* /usr/include/qt6/QtWebSockets/6.6.2/QtWebSockets/private/qdefaultmaskgenerator_p.h
 * /usr/include/qt6/QtWebSockets/6.6.2/QtWebSockets/private/qwebsocketcorsauthenticator_p.h
 * /usr/include/qt6/QtWebSockets/6.6.2/QtWebSockets/private/qwebsocketdataprocessor_p.h
 * /usr/include/qt6/QtWebSockets/6.6.2/QtWebSockets/private/qwebsocketframe_p.h
@@ -71,4 +72,3 @@ The Qt6 toolkit, qtwebsockets
 * /usr/lib/qt6/qml/QtWebSockets/libqmlwebsocketsplugin.so
 * /usr/lib/qt6/qml/QtWebSockets/plugins.qmltypes
 * /usr/lib/qt6/qml/QtWebSockets/qmldir
-{{< /files >}}

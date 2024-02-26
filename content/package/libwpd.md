@@ -16,7 +16,8 @@ reverse_depends = "['libabw', 'libcdr', 'libe-book', 'libetonyek', 'libfreehand'
 +++
 libwpd is a C++ library designed to help process WordPerfect documents.
 
-{{< files text="show files" >}}* /usr/bin/wpd2html
+## Files: 
+* /usr/bin/wpd2html
 * /usr/bin/wpd2raw
 * /usr/bin/wpd2text
 * /usr/include/libwpd-0.10/libwpd/libwpd.h
@@ -34,4 +35,3 @@ libwpd is a C++ library designed to help process WordPerfect documents.
 * /usr/share/doc/libwpd-0.10.3/NEWS
 * /usr/share/doc/libwpd-0.10.3/README
 * /usr/share/doc/libwpd-0.10.3/TODO
-{{< /files >}}

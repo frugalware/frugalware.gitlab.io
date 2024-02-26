@@ -15,10 +15,10 @@ depends = "['openjre']"
 +++
 Set text-processing Java classes that provide Perl5 compatible regular expressions.
 
-{{< files text="show files" >}}* /usr/share/doc/jakarta-oro-2.0.8/CHANGES
+## Files: 
+* /usr/share/doc/jakarta-oro-2.0.8/CHANGES
 * /usr/share/doc/jakarta-oro-2.0.8/CONTRIBUTORS
 * /usr/share/doc/jakarta-oro-2.0.8/LICENSE
 * /usr/share/doc/jakarta-oro-2.0.8/README
 * /usr/share/doc/jakarta-oro-2.0.8/TODO
 * /usr/share/java/jakarta-oro.jar
-{{< /files >}}

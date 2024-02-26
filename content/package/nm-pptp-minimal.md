@@ -16,8 +16,8 @@ reverse_depends = "['nm-pptp']"
 +++
 network management framework (PPTP plugin) without GNOME
 
-{{< files text="show files" >}}* /usr/lib/nm-pptp/nm-pptp-service
+## Files: 
+* /usr/lib/nm-pptp/nm-pptp-service
 * /usr/lib/pppd/2.4.9/nm-pptp-pppd-plugin.so
 * /usr/share/dbus-1/system.d/nm-pptp-service.conf
 * /usr/share/metainfo/network-manager-pptp.metainfo.xml
-{{< /files >}}

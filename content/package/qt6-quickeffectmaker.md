@@ -15,7 +15,8 @@ depends = "['qt6-quick3d', 'qt6-shadertools']"
 +++
 The Qt6 toolkit, qtquickeffectmaker
 
-{{< files text="show files" >}}* /usr/lib/qt6/bin/qqem
+## Files: 
+* /usr/lib/qt6/bin/qqem
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/basic/brightness_contrast.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/basic/colorize.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/basic/coloroverlay.qen
@@ -116,4 +117,3 @@ The Qt6 toolkit, qtquickeffectmaker
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/nature/snowing.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/nature/thunder.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/nature/water.qen
-{{< /files >}}

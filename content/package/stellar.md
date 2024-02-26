@@ -15,11 +15,11 @@ depends = "['glibc', 'sddm']"
 +++
 sddm greeter theme that features a milky way background
 
-{{< files text="show files" >}}* /usr/share/doc/stellar-0.1.0/LICENSE
+## Files: 
+* /usr/share/doc/stellar-0.1.0/LICENSE
 * /usr/share/sddm/themes/stellar/LICENSE
 * /usr/share/sddm/themes/stellar/Main.qml
 * /usr/share/sddm/themes/stellar/metadata.desktop
 * /usr/share/sddm/themes/stellar/milky-way.jpeg
 * /usr/share/sddm/themes/stellar/screenshot.jpeg
 * /usr/share/sddm/themes/stellar/theme.conf
-{{< /files >}}

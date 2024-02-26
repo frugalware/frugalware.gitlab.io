@@ -16,7 +16,8 @@ reverse_depends = "['lib32-elfutils', 'lib32-file', 'lib32-libsystemd', 'lib32-l
 +++
 XZ Utils is free general-purpose data compression software with high compression ratio. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/lzcat
+## Files: 
+* /usr/i686-frugalware-linux/bin/lzcat
 * /usr/i686-frugalware-linux/bin/lzcmp
 * /usr/i686-frugalware-linux/bin/lzdiff
 * /usr/i686-frugalware-linux/bin/lzegrep
@@ -58,4 +59,3 @@ XZ Utils is free general-purpose data compression software with high compression
 * /usr/lib32/liblzma.so.5
 * /usr/lib32/liblzma.so.5.6.0
 * /usr/lib32/pkgconfig/liblzma.pc
-{{< /files >}}

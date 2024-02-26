@@ -16,7 +16,8 @@ reverse_depends = "['glib-networking', 'hexchat', 'libproxy-python3', 'libproxy-
 +++
 libproxy is a library that provides automatic proxy configuration management.
 
-{{< files text="show files" >}}* /usr/bin/proxy
+## Files: 
+* /usr/bin/proxy
 * /usr/include/libproxy/proxy.h
 * /usr/lib/girepository-1.0/Libproxy-1.0.typelib
 * /usr/lib/libproxy.so
@@ -86,4 +87,3 @@ libproxy is a library that provides automatic proxy configuration management.
 * /usr/share/doc/libproxy-1.0/vala.html
 * /usr/share/gir-1.0/Libproxy-1.0.gir
 * /usr/share/man/man8/proxy.8.gz
-{{< /files >}}

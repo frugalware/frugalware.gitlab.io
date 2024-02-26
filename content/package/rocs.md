@@ -15,7 +15,8 @@ depends = "['grantlee>=5.1.0-2', 'kdeclarative>=5.115.0', 'ktexteditor>=5.115.0'
 +++
 Graph Theory IDE.
 
-{{< files text="show files" >}}* /usr/bin/rocs
+## Files: 
+* /usr/bin/rocs
 * /usr/include/rocs/edge.h
 * /usr/include/rocs/graphdocument.h
 * /usr/include/rocs/node.h
@@ -224,4 +225,3 @@ Graph Theory IDE.
 * /usr/share/rocs/plugin/apidoc/objectApi.html
 * /usr/share/rocs/plugin/apidoc/overview.html
 * /usr/share/rocs/schemes/kernelapi.xsd
-{{< /files >}}

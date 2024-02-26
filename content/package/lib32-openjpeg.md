@@ -16,7 +16,8 @@ reverse_depends = "['lib32-ffmpeg']"
 +++
 An open-source JPEG 2000 codec written in C ( 32bit )
 
-{{< files text="show files" >}}* /usr/lib32/libopenjp2.a
+## Files: 
+* /usr/lib32/libopenjp2.a
 * /usr/lib32/libopenjp2.so
 * /usr/lib32/libopenjp2.so.2.5.0
 * /usr/lib32/libopenjp2.so.7
@@ -24,4 +25,3 @@ An open-source JPEG 2000 codec written in C ( 32bit )
 * /usr/lib32/openjpeg-2.5/OpenJPEGTargets-release.cmake
 * /usr/lib32/openjpeg-2.5/OpenJPEGTargets.cmake
 * /usr/lib32/pkgconfig/libopenjp2.pc
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['docbook2x', 'po4a']"
 +++
 class for postprocessing the output from the sgmls and nsgmls parsers.
 
-{{< files text="show files" >}}* /usr/bin/sgmlspl
+## Files: 
+* /usr/bin/sgmlspl
 * /usr/bin/site_perl/sgmlspl.pl
 * /usr/lib/perl5/site_perl/SGMLS.pm
 * /usr/lib/perl5/site_perl/SGMLS/Output.pm
@@ -31,4 +32,3 @@ class for postprocessing the output from the sgmls and nsgmls parsers.
 * /usr/share/man/man3/SGMLS.3perl.gz
 * /usr/share/man/man3/SGMLS::Output.3perl.gz
 * /usr/share/man/man3/SGMLS::Refs.3perl.gz
-{{< /files >}}

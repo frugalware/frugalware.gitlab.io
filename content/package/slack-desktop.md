@@ -15,7 +15,8 @@ depends = "['gtk+3', 'libappindicator', 'libsecret', 'libxscrnsaver', 'nss', 'xd
 +++
 Slack Desktop (Beta) for Linux
 
-{{< files text="show files" >}}* /usr/bin/slack
+## Files: 
+* /usr/bin/slack
 * /usr/lib/slack/chrome-sandbox
 * /usr/lib/slack/chrome_100_percent.pak
 * /usr/lib/slack/chrome_200_percent.pak
@@ -226,4 +227,3 @@ Slack Desktop (Beta) for Linux
 * /usr/lib/slack/vk_swiftshader_icd.json
 * /usr/share/applications/slack.desktop
 * /usr/share/pixmaps/slack.png
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['fontconfig', 'mkfontscale', 'terminus-font-console']"
 +++
 Terminus is a clean fixed width font for long (8 and more hours per day) work.
 
-{{< files text="show files" >}}* /usr/share/doc/terminus-font-4.49.1/AUTHORS
+## Files: 
+* /usr/share/doc/terminus-font-4.49.1/AUTHORS
 * /usr/share/doc/terminus-font-4.49.1/CHANGES
 * /usr/share/doc/terminus-font-4.49.1/COPYING
 * /usr/share/doc/terminus-font-4.49.1/INSTALL
@@ -40,4 +41,3 @@ Terminus is a clean fixed width font for long (8 and more hours per day) work.
 * /usr/share/fonts/X11/misc/ter-x28n.pcf.gz
 * /usr/share/fonts/X11/misc/ter-x32b.pcf.gz
 * /usr/share/fonts/X11/misc/ter-x32n.pcf.gz
-{{< /files >}}

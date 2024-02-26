@@ -16,7 +16,8 @@ reverse_depends = "['facter', 'flvtool2', 'fxruby-1.2', 'hivex-ruby', 'insight-t
 +++
 An object-oriented programming language.
 
-{{< files text="show files" >}}* /usr/bin/bundle
+## Files: 
+* /usr/bin/bundle
 * /usr/bin/bundler
 * /usr/bin/erb
 * /usr/bin/gem
@@ -17638,4 +17639,3 @@ An object-oriented programming language.
 * /usr/share/ri/3.3.0/system/Zlib/ZStream/stream_end%3f-i.ri
 * /usr/share/ri/3.3.0/system/Zlib/ZStream/total_in-i.ri
 * /usr/share/ri/3.3.0/system/Zlib/ZStream/total_out-i.ri
-{{< /files >}}

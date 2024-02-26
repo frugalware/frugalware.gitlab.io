@@ -16,7 +16,8 @@ reverse_depends = "['postfixadmin']"
 +++
 A fast SQL database server
 
-{{< files text="show files" >}}* /etc/mysql/logrotate.d/mariadb
+## Files: 
+* /etc/mysql/logrotate.d/mariadb
 * /etc/mysql/my.cnf
 * /etc/mysql/my.cnf.d/client.cnf
 * /etc/mysql/my.cnf.d/enable_encryption.preset
@@ -20270,4 +20271,3 @@ A fast SQL database server
 * /usr/share/mysql/wsrep_notify
 * /usr/share/pam_user_map.so
 * /usr/share/user_map.conf
-{{< /files >}}

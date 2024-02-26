@@ -16,7 +16,8 @@ reverse_depends = "['cantor', 'opencv-python3']"
 +++
 An optimized BLAS library based on GotoBLAS2 1.13 BSD 64-bit
 
-{{< files text="show files" >}}* /usr/include/openblas64/cblas.h
+## Files: 
+* /usr/include/openblas64/cblas.h
 * /usr/include/openblas64/f77blas.h
 * /usr/include/openblas64/lapack.h
 * /usr/include/openblas64/lapacke.h
@@ -45,4 +46,3 @@ An optimized BLAS library based on GotoBLAS2 1.13 BSD 64-bit
 * /usr/lib/pkgconfig/lapack64.pc
 * /usr/lib/pkgconfig/lapacke64.pc
 * /usr/lib/pkgconfig/openblas64.pc
-{{< /files >}}

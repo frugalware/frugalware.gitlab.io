@@ -15,7 +15,8 @@ depends = "['gtk+3', 'pygobject3', 'python3-pidfile', 'python3-pillow', 'python3
 +++
 Yet another Discord overlay for Linux written in Python using GTK3
 
-{{< files text="show files" >}}* /usr/bin/discover-overlay
+## Files: 
+* /usr/bin/discover-overlay
 * /usr/lib/python3.12/site-packages/build/lib/discover_overlay/autostart.py
 * /usr/lib/python3.12/site-packages/build/lib/discover_overlay/discord_connector.py
 * /usr/lib/python3.12/site-packages/build/lib/discover_overlay/discover_overlay.py
@@ -90,4 +91,3 @@ Yet another Discord overlay for Linux written in Python using GTK3
 * /usr/share/icons/hicolor/scalable/apps/discover-overlay-default.svg
 * /usr/share/icons/hicolor/scalable/apps/discover-overlay-tray.svg
 * /usr/share/icons/hicolor/scalable/apps/discover-overlay.svg
-{{< /files >}}

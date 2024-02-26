@@ -16,7 +16,8 @@ reverse_depends = "['claws-mail-plugin-python', 'discover-overlay', 'input-remap
 +++
 Python bindings for GObject
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/PyGObject-3.47.0.dev0.egg-info
+## Files: 
+* /usr/lib/python3.12/site-packages/PyGObject-3.47.0.dev0.egg-info
 * /usr/lib/python3.12/site-packages/pygtkcompat/generictreemodel.py
 * /usr/lib/python3.12/site-packages/pygtkcompat/pygtkcompat.py
 * /usr/lib/python3.12/site-packages/pygtkcompat/__init__.py
@@ -26,4 +27,3 @@ Python bindings for GObject
 * /usr/share/doc/pygobject3-3.47.0/COPYING
 * /usr/share/doc/pygobject3-3.47.0/NEWS
 * /usr/share/doc/pygobject3-3.47.0/README.rst
-{{< /files >}}

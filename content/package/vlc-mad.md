@@ -15,5 +15,5 @@ depends = "['libmad', 'libvlc>=3.0.20']"
 +++
 vlc mad filter support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/audio_filter/libmad_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/audio_filter/libmad_plugin.so

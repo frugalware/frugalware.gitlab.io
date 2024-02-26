@@ -15,5 +15,5 @@ depends = "['fontconfig', 'mkfontscale']"
 +++
 Unicode font from GNU in PCF format.
 
-{{< files text="show files" >}}* /usr/share/fonts/X11/misc/unifont.pcf.gz
-{{< /files >}}
+## Files: 
+* /usr/share/fonts/X11/misc/unifont.pcf.gz

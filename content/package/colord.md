@@ -16,7 +16,8 @@ reverse_depends = "['colord-gtk', 'colord-kde', 'fwupd', 'gtk+4']"
 +++
 color daemon
 
-{{< files text="show files" >}}* /usr/bin/cd-create-profile
+## Files: 
+* /usr/bin/cd-create-profile
 * /usr/bin/cd-fix-profile
 * /usr/bin/cd-iccdump
 * /usr/bin/cd-it8
@@ -248,4 +249,3 @@ color daemon
 * /usr/share/polkit-1/actions/org.freedesktop.color.policy
 * /usr/share/vala/vapi/colord.deps
 * /usr/share/vala/vapi/colord.vapi
-{{< /files >}}

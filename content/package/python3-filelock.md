@@ -16,7 +16,8 @@ reverse_depends = "['python3-cachecontrol', 'python3-poetry', 'python3-virtualen
 +++
 A platform independent file lock
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/filelock-3.13.1.dist-info/licenses/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/filelock-3.13.1.dist-info/licenses/LICENSE
 * /usr/lib/python3.12/site-packages/filelock-3.13.1.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/filelock-3.13.1.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/filelock-3.13.1.dist-info/WHEEL
@@ -47,4 +48,3 @@ A platform independent file lock
 * /usr/lib/python3.12/site-packages/filelock/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-filelock-3.13.1/LICENSE
 * /usr/share/doc/python3-filelock-3.13.1/README.md
-{{< /files >}}

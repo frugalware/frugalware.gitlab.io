@@ -16,7 +16,8 @@ reverse_depends = "['autossh', 'gnome-keyring', 'keychain', 'kssh', 'seahorse', 
 +++
 Secure Shell daemon and clients
 
-{{< files text="show files" >}}* /etc/pam.d/sshd
+## Files: 
+* /etc/pam.d/sshd
 * /etc/ssh/moduli
 * /etc/ssh/sshd_config
 * /etc/ssh/ssh_config
@@ -67,4 +68,3 @@ Secure Shell daemon and clients
 * /usr/share/man/man8/ssh-sk-helper.8.gz
 * /usr/share/man/man8/sshd.8.gz
 * /var/empty/.openssh
-{{< /files >}}

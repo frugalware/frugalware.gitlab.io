@@ -15,7 +15,8 @@ depends = "['cyrus-sasl', 'kcoreaddons>=5.105.0', 'kmime>=23.04.0', 'pcre2']"
 +++
 Job-based API for interacting with an IMAP4rev1 server.
 
-{{< files text="show files" >}}* /usr/include/kimap2/Acl
+## Files: 
+* /usr/include/kimap2/Acl
 * /usr/include/KIMAP2/Acl
 * /usr/include/kimap2/acl.h
 * /usr/include/kimap2/AclJobBase
@@ -149,4 +150,3 @@ Job-based API for interacting with an IMAP4rev1 server.
 * /usr/share/doc/kimap2-0.4.0/COPYING.LIB
 * /usr/share/doc/kimap2-0.4.0/README.md
 * /usr/share/qt5/mkspecs/modules/qt_KIMAP2.pri
-{{< /files >}}

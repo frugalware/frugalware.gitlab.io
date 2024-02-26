@@ -15,7 +15,8 @@ depends = "['sdl2_mixer', 'sdl2_net']"
 +++
 OpenSource reimplementation for M.A.X.
 
-{{< files text="show files" >}}* /usr/bin/maxr
+## Files: 
+* /usr/bin/maxr
 * /usr/share/applications/maxr.desktop
 * /usr/share/doc/maxr-0.2.14/README.md
 * /usr/share/maxr/ABOUT
@@ -1308,4 +1309,3 @@ OpenSource reimplementation for M.A.X.
 * /usr/share/maxr/vehicles/trans_oil/video.flc
 * /usr/share/maxr/vehicles/vehicles.json
 * /usr/share/maxr/voices/.empty
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['flatpak', 'gnome-desktop', 'kscreenlocker', 'qemu', 'runc',
 +++
 Enhanced seccomp library
 
-{{< files text="show files" >}}* /usr/bin/scmp_sys_resolver
+## Files: 
+* /usr/bin/scmp_sys_resolver
 * /usr/include/seccomp-syscalls.h
 * /usr/include/seccomp.h
 * /usr/lib/libseccomp.so
@@ -60,4 +61,3 @@ Enhanced seccomp library
 * /usr/share/man/man3/seccomp_syscall_resolve_name_rewrite.3.gz
 * /usr/share/man/man3/seccomp_syscall_resolve_num_arch.3.gz
 * /usr/share/man/man3/seccomp_version.3.gz
-{{< /files >}}

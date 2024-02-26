@@ -16,7 +16,8 @@ reverse_depends = "['apr-util', 'audit', 'claws-mail', 'courier-authlib', 'dirmn
 +++
 OpenLDAP library.
 
-{{< files text="show files" >}}* /etc/openldap/ldap.conf
+## Files: 
+* /etc/openldap/ldap.conf
 * /etc/openldap/ldap.conf.default
 * /usr/include/lber.h
 * /usr/include/lber_types.h
@@ -35,4 +36,3 @@ OpenLDAP library.
 * /usr/lib/libldap.so
 * /usr/lib/libldap.so.2
 * /usr/lib/libldap.so.2.0.200
-{{< /files >}}

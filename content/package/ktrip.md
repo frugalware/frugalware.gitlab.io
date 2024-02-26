@@ -15,7 +15,8 @@ depends = "['kconfig', 'kcoreaddons', 'kitemmodels', 'kpublictransport', 'qqc2-d
 +++
 Public Transport Assistance for Mobile Devices
 
-{{< files text="show files" >}}* /usr/bin/ktrip
+## Files: 
+* /usr/bin/ktrip
 * /usr/share/applications/org.kde.ktrip.desktop
 * /usr/share/doc/ktrip-23.08.5/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.ktrip.svg
@@ -50,4 +51,3 @@ Public Transport Assistance for Mobile Devices
 * /usr/share/locale/zh_CN/LC_MESSAGES/ktrip.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/ktrip.mo
 * /usr/share/metainfo/org.kde.ktrip.appdata.xml
-{{< /files >}}

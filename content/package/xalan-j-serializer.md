@@ -15,5 +15,5 @@ depends = "['openjre']"
 +++
 Java XSLT processor for transforming XML documents
 
-{{< files text="show files" >}}* /usr/share/java/serializer.jar
-{{< /files >}}
+## Files: 
+* /usr/share/java/serializer.jar

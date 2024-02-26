@@ -16,5 +16,5 @@ license = "GPL2"
 +++
 Frech language files for Eric
 
-{{< files text="show files" >}}* usr/lib/python2.6/site-packages/eric3/i18n/eric3_fr.qm
-{{< /files >}}
+## Files: 
+* usr/lib/python2.6/site-packages/eric3/i18n/eric3_fr.qm

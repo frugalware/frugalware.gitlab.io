@@ -15,4 +15,4 @@ depends = "['lib32-spirv-llvm-translator']"
 +++
 Mesa OpenCL rusticl
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

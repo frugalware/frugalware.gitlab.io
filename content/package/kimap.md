@@ -16,7 +16,8 @@ reverse_depends = "['kdepim-runtime', 'pimcommon']"
 +++
 C++ API for IMAP support.
 
-{{< files text="show files" >}}* /usr/include/KPim5/KIMAP/kimap/Acl
+## Files: 
+* /usr/include/KPim5/KIMAP/kimap/Acl
 * /usr/include/KPim5/KIMAP/KIMAP/Acl
 * /usr/include/KPim5/KIMAP/kimap/acl.h
 * /usr/include/KPim5/KIMAP/kimap/AclJobBase
@@ -211,4 +212,3 @@ C++ API for IMAP support.
 * /usr/share/qlogging-categories5/kimap.categories
 * /usr/share/qlogging-categories5/kimap.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KIMAP.pri
-{{< /files >}}

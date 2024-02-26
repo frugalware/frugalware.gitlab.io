@@ -15,7 +15,8 @@ depends = "['curl', 'libusb', 'libzip', 'pcsc-lite']"
 +++
 Yubico YubiKey NEO Manager C Library
 
-{{< files text="show files" >}}* /usr/bin/ykneomgr
+## Files: 
+* /usr/bin/ykneomgr
 * /usr/include/ykneomgr/ykneomgr-types.h
 * /usr/include/ykneomgr/ykneomgr-version.h
 * /usr/include/ykneomgr/ykneomgr.h
@@ -31,4 +32,3 @@ Yubico YubiKey NEO Manager C Library
 * /usr/share/doc/libykneomgr-0.1.8/README
 * /usr/share/doc/libykneomgr-0.1.8/README.adoc
 * /usr/share/man/man1/ykneomgr.1.gz
-{{< /files >}}

@@ -16,10 +16,10 @@ reverse_depends = "['perl-json-xs']"
 +++
 save a tree AND a kitten, use common::sense!
 
-{{< files text="show files" >}}* /usr/lib/perl5/5.38/site_perl/common/sense.pm
+## Files: 
+* /usr/lib/perl5/5.38/site_perl/common/sense.pm
 * /usr/lib/perl5/5.38/site_perl/common/sense.pod
 * /usr/share/doc/perl-common-sense-3.75/LICENSE
 * /usr/share/doc/perl-common-sense-3.75/MANIFEST
 * /usr/share/doc/perl-common-sense-3.75/README
 * /usr/share/man/man3/common::sense.3perl.gz
-{{< /files >}}

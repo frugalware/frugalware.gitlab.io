@@ -15,7 +15,8 @@ depends = "['icu4c>=74.1', 'kauth>=5.111.0', 'kcmutils>=5.111.0', 'kconfigwidget
 +++
 KCM module for User Management
 
-{{< files text="show files" >}}* /usr/lib/kf5/kauth/kcm_locale_authhelper
+## Files: 
+* /usr/lib/kf5/kauth/kcm_locale_authhelper
 * /usr/lib/kf5/kauth/kcm_users_authhelper
 * /usr/lib/qt5/plugins/kcm_locale.so
 * /usr/lib/qt5/plugins/kcm_users.so
@@ -29,4 +30,3 @@ KCM module for User Management
 * /usr/share/kservices5/kcm_users.desktop
 * /usr/share/polkit-1/actions/org.kaosx.kcm.users.policy
 * /usr/share/polkit-1/actions/org.kaosx.kcmm.locale.policy
-{{< /files >}}

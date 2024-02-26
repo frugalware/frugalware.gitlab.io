@@ -16,7 +16,7 @@ license = "GPL"
 +++
 Linux kernel crashdump analysis tool
 
-{{< files text="show files" >}}* /usr/bin/crash
+## Files: 
+* /usr/bin/crash
 * /usr/share/doc/crash-8.0.4/COPYING3
 * /usr/share/doc/crash-8.0.4/README
-{{< /files >}}

@@ -15,6 +15,6 @@ depends = "[]"
 +++
 A simple Linux bootloader for UEFI.
 
-{{< files text="show files" >}}* /usr/lib/efilinux/efilinux.efi
+## Files: 
+* /usr/lib/efilinux/efilinux.efi
 * /usr/share/doc/efilinux-1.1/README
-{{< /files >}}

@@ -17,7 +17,8 @@ license = "GPL"
 +++
 libdca is a free library for decoding DTS Coherent Acoustics streams.
 
-{{< files text="show files" >}}* /usr/bin/dcadec
+## Files: 
+* /usr/bin/dcadec
 * /usr/bin/dtsdec
 * /usr/bin/extract_dca
 * /usr/bin/extract_dts
@@ -38,4 +39,3 @@ libdca is a free library for decoding DTS Coherent Acoustics streams.
 * /usr/share/doc/libdca-0.0.7/TODO
 * /usr/share/man/man1/dcadec.1.gz
 * /usr/share/man/man1/extract_dca.1.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['lib32-xorg-server-xephyr']"
 +++
 wm libraries for X C Binding ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/xcb/xcb_ewmh.h
+## Files: 
+* /usr/i686-frugalware-linux/include/xcb/xcb_ewmh.h
 * /usr/i686-frugalware-linux/include/xcb/xcb_icccm.h
 * /usr/lib32/libxcb-ewmh.so
 * /usr/lib32/libxcb-ewmh.so.2
@@ -26,4 +27,3 @@ wm libraries for X C Binding ( 32bit )
 * /usr/lib32/libxcb-icccm.so.4.0.0
 * /usr/lib32/pkgconfig/xcb-ewmh.pc
 * /usr/lib32/pkgconfig/xcb-icccm.pc
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "['alsa-plugins>=1.2.7.1']"
 +++
 ALSA plugin for jack.
 
-{{< files text="show files" >}}* /usr/lib/alsa-lib/libasound_module_pcm_jack.so
-{{< /files >}}
+## Files: 
+* /usr/lib/alsa-lib/libasound_module_pcm_jack.so

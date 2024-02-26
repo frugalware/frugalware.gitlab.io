@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Gtkmm gtk+2 Documentation
 
-{{< files text="show files" >}}* /usr/share/doc/gtkmm-2.4/images/gtkmm_logo.gif
+## Files: 
+* /usr/share/doc/gtkmm-2.4/images/gtkmm_logo.gif
 * /usr/share/doc/gtkmm-2.4/images/top.gif
 * /usr/share/doc/gtkmm-2.4/reference/gtkmm-2.4.tag
 * /usr/share/doc/gtkmm-2.4/reference/html/aboutdialog1.png
@@ -1414,4 +1415,3 @@ Gtkmm gtk+2 Documentation
 * /usr/share/doc/gtkmm-2.4/reference/html/vscale1.png
 * /usr/share/doc/gtkmm-2.4/reference/html/vscrollbar1.png
 * /usr/share/doc/gtkmm-2.4/reference/html/vseparator1.png
-{{< /files >}}

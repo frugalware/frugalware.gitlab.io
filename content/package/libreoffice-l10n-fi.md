@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Finnish support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/fi/default.css
+## Files: 
+* /usr/lib/libreoffice/help/fi/default.css
 * /usr/lib/libreoffice/help/fi/err.html
 * /usr/lib/libreoffice/help/fi/highcontrast1.css
 * /usr/lib/libreoffice/help/fi/highcontrast2.css
@@ -133,4 +134,3 @@ Installs Finnish support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-fi.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_fi.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_fi.xcd
-{{< /files >}}

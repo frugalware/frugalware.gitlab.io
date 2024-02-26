@@ -16,7 +16,7 @@ reverse_depends = "['hw-probe']"
 +++
 inxi is a command line system information tool.
 
-{{< files text="show files" >}}* /usr/bin/inxi
+## Files: 
+* /usr/bin/inxi
 * /usr/share/doc/inxi-3.3.01/README.txt
 * /usr/share/man/man1/inxi.1.gz
-{{< /files >}}

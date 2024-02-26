@@ -15,7 +15,8 @@ depends = "['openjre']"
 +++
 ANother Tool for Language Recognition
 
-{{< files text="show files" >}}* /usr/bin/antlr
+## Files: 
+* /usr/bin/antlr
 * /usr/bin/antlr-config
 * /usr/bin/pyantlr.sh
 * /usr/lib/antlr.jar
@@ -58,4 +59,3 @@ ANother Tool for Language Recognition
 * /usr/share/doc/antlr-openjava-2.7.7/INSTALL.txt
 * /usr/share/doc/antlr-openjava-2.7.7/README.txt
 * /usr/share/java/antlr-openjava.jar
-{{< /files >}}

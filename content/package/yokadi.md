@@ -15,7 +15,8 @@ depends = "['python3-dateutil', 'python3-sqlobject']"
 +++
 Command line oriented, sqlite powered, todo list (in python)
 
-{{< files text="show files" >}}* /usr/bin/yokadi
+## Files: 
+* /usr/bin/yokadi
 * /usr/bin/yokadid
 * /usr/lib/python3.12/site-packages/yokadi-1.2.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/yokadi-1.2.0-py3.12.egg-info/PKG-INFO
@@ -186,4 +187,3 @@ Command line oriented, sqlite powered, todo list (in python)
 * /usr/share/share/yokadi/LICENSE
 * /usr/share/share/yokadi/NEWS
 * /usr/share/share/yokadi/README.md
-{{< /files >}}

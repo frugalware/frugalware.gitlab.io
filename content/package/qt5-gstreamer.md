@@ -16,7 +16,8 @@ reverse_depends = "['artikulate', 'blinken']"
 +++
 Qt5 bindings for GStreamer.
 
-{{< files text="show files" >}}* /usr/include/Qt5GStreamer/QGlib/Connect
+## Files: 
+* /usr/include/Qt5GStreamer/QGlib/Connect
 * /usr/include/Qt5GStreamer/QGlib/connect.h
 * /usr/include/Qt5GStreamer/QGlib/connectimpl.h
 * /usr/include/Qt5GStreamer/QGlib/emitimpl.h
@@ -166,4 +167,3 @@ Qt5 bindings for GStreamer.
 * /usr/share/doc/qt5-gstreamer-1.2.0/README
 * /usr/share/qt5/qml/QtGStreamer/libQtGStreamerQuick2.so
 * /usr/share/qt5/qml/QtGStreamer/qmldir
-{{< /files >}}

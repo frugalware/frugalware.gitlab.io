@@ -15,9 +15,9 @@ depends = "['fontconfig', 'mkfontscale']"
 +++
 Equivalent font to Microsoft's Calibri
 
-{{< files text="show files" >}}* /usr/share/doc/crosextrafonts-carlito-20230623.g3a810ca/README.md
+## Files: 
+* /usr/share/doc/crosextrafonts-carlito-20230623.g3a810ca/README.md
 * /usr/share/fonts/X11/TTF/Carlito-Bold.ttf
 * /usr/share/fonts/X11/TTF/Carlito-BoldItalic.ttf
 * /usr/share/fonts/X11/TTF/Carlito-Italic.ttf
 * /usr/share/fonts/X11/TTF/Carlito-Regular.ttf
-{{< /files >}}

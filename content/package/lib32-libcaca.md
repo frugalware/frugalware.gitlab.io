@@ -16,7 +16,8 @@ reverse_depends = "['lib32-ffmpeg']"
 +++
 A graphics library that outputs text instead of pixels. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/caca-config
+## Files: 
+* /usr/i686-frugalware-linux/bin/caca-config
 * /usr/i686-frugalware-linux/bin/cacaclock
 * /usr/i686-frugalware-linux/bin/cacademo
 * /usr/i686-frugalware-linux/bin/cacafire
@@ -37,4 +38,3 @@ A graphics library that outputs text instead of pixels. ( 32bit )
 * /usr/lib32/libcaca.so.0.99.20
 * /usr/lib32/pkgconfig/caca++.pc
 * /usr/lib32/pkgconfig/caca.pc
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['openmpi']"
 +++
 PMIx Reference RunTime Environment
 
-{{< files text="show files" >}}* /etc/prte-default-hostfile
+## Files: 
+* /etc/prte-default-hostfile
 * /etc/prte-mca-params.conf
 * /etc/prte.conf
 * /usr/bin/pcc
@@ -306,4 +307,3 @@ PMIx Reference RunTime Environment
 * /usr/share/prte/rst/prrte-rst-content/detail-placement-rankfiles.rst
 * /usr/share/prte/rst/prrte-rst-content/detail-placement.rst
 * /usr/share/prte/rst/schizo-ompi-rst-content/schizo-ompi-cli.rstxt
-{{< /files >}}

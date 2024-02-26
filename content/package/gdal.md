@@ -17,7 +17,8 @@ license = "Warmerdam"
 +++
 GDAL - a translator library for raster geospatial data formats
 
-{{< files text="show files" >}}* /usr/bin/gdal-config
+## Files: 
+* /usr/bin/gdal-config
 * /usr/bin/gdaladdo
 * /usr/bin/gdalbuildvrt
 * /usr/bin/gdaldem
@@ -359,4 +360,3 @@ GDAL - a translator library for raster geospatial data formats
 * /usr/share/man/man1/pct2rgb.1.gz
 * /usr/share/man/man1/rgb2pct.1.gz
 * /usr/share/man/man1/sozip.1.gz
-{{< /files >}}

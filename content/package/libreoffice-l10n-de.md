@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs German support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/de/default.css
+## Files: 
+* /usr/lib/libreoffice/help/de/default.css
 * /usr/lib/libreoffice/help/de/err.html
 * /usr/lib/libreoffice/help/de/highcontrast1.css
 * /usr/lib/libreoffice/help/de/highcontrast2.css
@@ -135,4 +136,3 @@ Installs German support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-de.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_de.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_de.xcd
-{{< /files >}}

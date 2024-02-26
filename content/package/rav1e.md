@@ -16,7 +16,8 @@ reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'libavif', 'libheif']"
 +++
 An AV1 encoder focused on speed and safety
 
-{{< files text="show files" >}}* /usr/bin/rav1e
+## Files: 
+* /usr/bin/rav1e
 * /usr/include/rav1e/rav1e.h
 * /usr/lib/librav1e.a
 * /usr/lib/librav1e.so
@@ -36,4 +37,3 @@ An AV1 encoder focused on speed and safety
 * /usr/share/doc/rav1e-0.6.6/RELEASE
 * /usr/share/doc/rav1e-0.6.6/RELEASE_NOTES
 * /usr/share/doc/rav1e-0.6.6/VERSION
-{{< /files >}}

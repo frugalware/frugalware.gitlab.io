@@ -15,6 +15,6 @@ depends = "['lib32-libudev', 'lib32-vulkan-icd-loader', 'lib32-xcb-util-keysyms'
 +++
 AMD Mesa Support for Vulkan (32-bit)
 
-{{< files text="show files" >}}* /usr/lib32/libvulkan_radeon.so
+## Files: 
+* /usr/lib32/libvulkan_radeon.so
 * /usr/share/vulkan/icd.d/radeon_icd.i686.json
-{{< /files >}}

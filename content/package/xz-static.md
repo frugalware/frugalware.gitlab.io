@@ -15,5 +15,5 @@ depends = "['libstdc++>=12.2']"
 +++
 Static files for xz
 
-{{< files text="show files" >}}* /usr/lib/liblzma.a
-{{< /files >}}
+## Files: 
+* /usr/lib/liblzma.a

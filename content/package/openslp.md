@@ -16,7 +16,8 @@ reverse_depends = "['kio-extras', 'open-isns']"
 +++
 Service Location Protocol.
 
-{{< files text="show files" >}}* /etc/slp.conf
+## Files: 
+* /etc/slp.conf
 * /etc/slp.reg
 * /etc/slp.spi
 * /usr/bin/slpd
@@ -92,4 +93,3 @@ Service Location Protocol.
 * /usr/share/doc/openslp-2.0.0/security/srvreg-integrity.html
 * /usr/share/doc/openslp-2.0.0/security/threat_analysis_min_security.html
 * /usr/share/doc/openslp-2.0.0/THANKS
-{{< /files >}}

@@ -16,11 +16,11 @@ reverse_depends = "['q4wine']"
 +++
 Mount ISO filesystem images as a non-root user
 
-{{< files text="show files" >}}* /usr/bin/fuseiso
+## Files: 
+* /usr/bin/fuseiso
 * /usr/share/doc/fuseiso-20070708/AUTHORS
 * /usr/share/doc/fuseiso-20070708/ChangeLog
 * /usr/share/doc/fuseiso-20070708/COPYING
 * /usr/share/doc/fuseiso-20070708/INSTALL
 * /usr/share/doc/fuseiso-20070708/NEWS
 * /usr/share/doc/fuseiso-20070708/README
-{{< /files >}}

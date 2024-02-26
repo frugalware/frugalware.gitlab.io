@@ -16,7 +16,8 @@ reverse_depends = "['bluez', 'claws-mail-plugin-vcalendar', 'kcalendarcore', 'op
 +++
 An open source reference implementation of the icalendar data type and serialization format
 
-{{< files text="show files" >}}* /usr/include/libical-glib/i-cal-array.h
+## Files: 
+* /usr/include/libical-glib/i-cal-array.h
 * /usr/include/libical-glib/i-cal-attach.h
 * /usr/include/libical-glib/i-cal-comp-iter.h
 * /usr/include/libical-glib/i-cal-component.h
@@ -135,4 +136,3 @@ An open source reference implementation of the icalendar data type and serializa
 * /usr/share/doc/libical-3.0.17/README.md
 * /usr/share/doc/libical-3.0.17/THANKS
 * /usr/share/doc/libical-3.0.17/TODO
-{{< /files >}}

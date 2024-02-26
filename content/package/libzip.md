@@ -16,7 +16,8 @@ reverse_depends = "['ark', 'ebook-tools', 'libykneomgr', 'naev', 'okular', 'open
 +++
 libzip is a C library for reading, creating, and modifying zip archives.
 
-{{< files text="show files" >}}* /usr/bin/zipcmp
+## Files: 
+* /usr/bin/zipcmp
 * /usr/bin/zipmerge
 * /usr/bin/ziptool
 * /usr/include/zip.h
@@ -168,4 +169,3 @@ libzip is a C library for reading, creating, and modifying zip archives.
 * /usr/share/doc/libzip/libzip/zip_unchange.html
 * /usr/share/doc/libzip/libzip/zip_unchange_all.html
 * /usr/share/doc/libzip/libzip/zip_unchange_archive.html
-{{< /files >}}

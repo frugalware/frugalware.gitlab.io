@@ -15,5 +15,5 @@ depends = "['vtk>=9.3.0', 'vtk-ffmpeg>=9.3.0', 'vtk-python3>=9.3.0']"
 +++
 Python2 Ffmpeg interface and bindings for vtk
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/vtkmodules/vtkIOFFMPEG.cpython-312-x86_64-linux-gnu.so
-{{< /files >}}
+## Files: 
+* /usr/lib/python3.12/site-packages/vtkmodules/vtkIOFFMPEG.cpython-312-x86_64-linux-gnu.so

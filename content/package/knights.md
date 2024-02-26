@@ -15,7 +15,8 @@ depends = "['kplotting>=5.115.0', 'libkdegames>=23.08.5', 'plasma-framework>=5.1
 +++
 Chess board program.
 
-{{< files text="show files" >}}* /usr/bin/knights
+## Files: 
+* /usr/bin/knights
 * /usr/share/applications/org.kde.knights.desktop
 * /usr/share/config.kcfg/knights.kcfg
 * /usr/share/dbus-1/interfaces/org.kde.Knights.xml
@@ -170,4 +171,3 @@ Chess board program.
 * /usr/share/locale/zh_TW/LC_MESSAGES/knights.mo
 * /usr/share/metainfo/org.kde.knights.appdata.xml
 * /usr/share/qlogging-categories5/knights.categories
-{{< /files >}}

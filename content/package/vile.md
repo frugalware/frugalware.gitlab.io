@@ -15,7 +15,8 @@ depends = "['ncurses>=6.0-4']"
 +++
 VI Like Emacs
 
-{{< files text="show files" >}}* /etc/profile.d/vile.sh
+## Files: 
+* /etc/profile.d/vile.sh
 * /usr/bin/vile
 * /usr/bin/vile-libdir-path
 * /usr/bin/vile-pager
@@ -159,4 +160,3 @@ VI Like Emacs
 * /usr/share/vile/yacc.keywords
 * /usr/share/vile/yaml.keywords
 * /usr/share/vile/zsh.keywords
-{{< /files >}}

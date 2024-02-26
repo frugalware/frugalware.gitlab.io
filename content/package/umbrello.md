@@ -15,7 +15,8 @@ depends = "['kdelibs4support', 'kdev-php']"
 +++
 UML Modeller.
 
-{{< files text="show files" >}}* /usr/bin/po2xmi5
+## Files: 
+* /usr/bin/po2xmi5
 * /usr/bin/umbrello5
 * /usr/bin/xmi2pot5
 * /usr/share/applications/org.kde.umbrello.desktop
@@ -422,4 +423,3 @@ UML Modeller.
 * /usr/share/umbrello5/xmi.css
 * /usr/share/umbrello5/xmi1docbook.xsl
 * /usr/share/umbrello5/xmi2docbook.xsl
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "[]"
 +++
 A utilitty to configure the X server.
 
-{{< files text="show files" >}}* usr/bin/kxgenerator
+## Files: 
+* usr/bin/kxgenerator
 * usr/share/applnk/Utilities/kxgenerator-layout.desktop
 * usr/share/applnk/Utilities/kxgenerator.desktop
 * usr/share/doc/HTML/en/kxgenerator/common
@@ -29,4 +30,3 @@ A utilitty to configure the X server.
 * usr/share/icons/hicolor/16x16/apps/kxgenerator.png
 * usr/share/icons/hicolor/32x32/apps/kxgenerator.png
 * usr/share/icons/hicolor/64x64/apps/kxgenerator.png
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "[]"
 +++
 French Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/kanagram/data/fr/animals.kvtml
+## Files: 
+* usr/share/apps/kanagram/data/fr/animals.kvtml
 * usr/share/apps/kanagram/data/fr/clothing.kvtml
 * usr/share/apps/katepart/syntax/logohighlightstyle.fr_FR.xml
 * usr/share/apps/khangman/data/fr/animals.kvtml
@@ -2339,4 +2340,3 @@ French Localization for KDE.
 * usr/share/locale/fr/nbsp_gui_fr.txt
 * usr/share/locale/fr/relecture_docs
 * usr/share/locale/fr/relecture_gui
-{{< /files >}}

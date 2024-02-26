@@ -15,5 +15,5 @@ depends = "['glibc']"
 +++
 Language specific files for tesseract lang ori
 
-{{< files text="show files" >}}* /usr/share/tessdata/ori.traineddata
-{{< /files >}}
+## Files: 
+* /usr/share/tessdata/ori.traineddata

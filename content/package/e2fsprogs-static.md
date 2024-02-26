@@ -15,8 +15,8 @@ depends = "[]"
 +++
 Static files for e2fsprogs
 
-{{< files text="show files" >}}* /usr/lib/libcom_err.a
+## Files: 
+* /usr/lib/libcom_err.a
 * /usr/lib/libe2p.a
 * /usr/lib/libext2fs.a
 * /usr/lib/libss.a
-{{< /files >}}

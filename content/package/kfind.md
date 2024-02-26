@@ -15,7 +15,8 @@ depends = "['kdelibs4support>=5.115.0', 'kfilemetadata5>==5.115.0']"
 +++
 A standalone search too.
 
-{{< files text="show files" >}}* /usr/bin/kfind
+## Files: 
+* /usr/bin/kfind
 * /usr/share/applications/org.kde.kfind.desktop
 * /usr/share/doc/HTML/ca/kfind/index.cache.bz2
 * /usr/share/doc/HTML/ca/kfind/index.docbook
@@ -172,4 +173,3 @@ A standalone search too.
 * /usr/share/man/uk/man1/kfind.1.gz
 * /usr/share/metainfo/org.kde.kfind.appdata.xml
 * /usr/share/qlogging-categories5/kfind.categories
-{{< /files >}}

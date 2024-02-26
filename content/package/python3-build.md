@@ -16,7 +16,8 @@ reverse_depends = "['python3-poetry']"
 +++
 A simple, correct PEP 517 build frontend
 
-{{< files text="show files" >}}* /usr/bin/pyproject-build
+## Files: 
+* /usr/bin/pyproject-build
 * /usr/lib/python3.12/site-packages/build-1.0.3.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/build-1.0.3.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/build-1.0.3.dist-info/METADATA
@@ -46,4 +47,3 @@ A simple, correct PEP 517 build frontend
 * /usr/lib/python3.12/site-packages/build/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/python3-build-1.0.3/LICENSE
 * /usr/share/doc/python3-build-1.0.3/README.md
-{{< /files >}}

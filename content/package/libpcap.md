@@ -16,7 +16,8 @@ reverse_depends = "['arpwatch', 'ethereal', 'faifa', 'hyperscan', 'knock', 'ksys
 +++
 Library for tcpdump
 
-{{< files text="show files" >}}* /usr/bin/pcap-config
+## Files: 
+* /usr/bin/pcap-config
 * /usr/include/pcap-bpf.h
 * /usr/include/pcap-namedb.h
 * /usr/include/pcap.h
@@ -126,4 +127,3 @@ Library for tcpdump
 * /usr/share/man/man7/pcap-filter.7.gz
 * /usr/share/man/man7/pcap-linktype.7.gz
 * /usr/share/man/man7/pcap-tstamp.7.gz
-{{< /files >}}

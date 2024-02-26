@@ -16,7 +16,8 @@ reverse_depends = "['kasts', 'kate', 'krunner5', 'okular']"
 +++
 KDE Helper for multithreaded programming.
 
-{{< files text="show files" >}}* /usr/include/KF5/ThreadWeaver/ThreadWeaver/Collection
+## Files: 
+* /usr/include/KF5/ThreadWeaver/ThreadWeaver/Collection
 * /usr/include/KF5/ThreadWeaver/threadweaver/collection.h
 * /usr/include/KF5/ThreadWeaver/ThreadWeaver/DebuggingAids
 * /usr/include/KF5/ThreadWeaver/threadweaver/debuggingaids.h
@@ -94,4 +95,3 @@ KDE Helper for multithreaded programming.
 * /usr/share/doc/threadweaver-5.115.0/COPYING.LIB
 * /usr/share/doc/threadweaver-5.115.0/README.md
 * /usr/share/qt5/mkspecs/modules/qt_ThreadWeaver.pri
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['lib32-util-linux']"
 +++
 A library making programming with POSIX capabilities easier than traditional libcap ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/captest
+## Files: 
+* /usr/i686-frugalware-linux/bin/captest
 * /usr/i686-frugalware-linux/bin/filecap
 * /usr/i686-frugalware-linux/bin/netcap
 * /usr/i686-frugalware-linux/bin/pscap
@@ -28,4 +29,3 @@ A library making programming with POSIX capabilities easier than traditional lib
 * /usr/lib32/libdrop_ambient.so.0
 * /usr/lib32/libdrop_ambient.so.0.0.0
 * /usr/lib32/pkgconfig/libcap-ng.pc
-{{< /files >}}

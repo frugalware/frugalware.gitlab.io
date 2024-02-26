@@ -15,7 +15,8 @@ depends = "['jasper>=1.900.1-10', 'karchive>=5.115.0', 'libavif', 'libheif', 'li
 +++
 Image format plugins.
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/imageformats/kimg_ani.so
+## Files: 
+* /usr/lib/qt5/plugins/imageformats/kimg_ani.so
 * /usr/lib/qt5/plugins/imageformats/kimg_avif.so
 * /usr/lib/qt5/plugins/imageformats/kimg_eps.so
 * /usr/lib/qt5/plugins/imageformats/kimg_exr.so
@@ -52,4 +53,3 @@ Image format plugins.
 * /usr/share/kservices5/qimageioplugins/rgb.desktop
 * /usr/share/kservices5/qimageioplugins/tga.desktop
 * /usr/share/kservices5/qimageioplugins/xcf.desktop
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['haskell-servant']"
 +++
 Constraint manipulation
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/constraints-0.14/Data/Constraint.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/constraints-0.14/Data/Constraint.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/constraints-0.14/Data/Constraint.hi
 * /usr/lib/ghc-9.8.1/site-local/constraints-0.14/Data/Constraint/Char.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/constraints-0.14/Data/Constraint/Char.hi
@@ -81,4 +82,3 @@ Constraint manipulation
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/constraints-0.14/LICENSE
 * /usr/share/haskell/haskell-constraints/register.sh
 * /usr/share/haskell/haskell-constraints/unregister.sh
-{{< /files >}}

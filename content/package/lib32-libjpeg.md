@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Library of JPEG support functions ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/cjpeg
+## Files: 
+* /usr/i686-frugalware-linux/bin/cjpeg
 * /usr/i686-frugalware-linux/bin/djpeg
 * /usr/i686-frugalware-linux/bin/jpegtran
 * /usr/i686-frugalware-linux/bin/rdjpgcom
@@ -28,4 +29,3 @@ Library of JPEG support functions ( 32bit )
 * /usr/lib32/libjpeg.so
 * /usr/lib32/libjpeg.so.9
 * /usr/lib32/libjpeg.so.9.2.0
-{{< /files >}}

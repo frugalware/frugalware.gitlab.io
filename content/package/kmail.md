@@ -15,7 +15,8 @@ depends = "['akonadi-import-wizard>=23.08.5', 'kcalutils>=23.08.5', 'kdepim-runt
 +++
 Email client, supporting POP3 and IMAP mailboxes
 
-{{< files text="show files" >}}* /usr/bin/akonadi_archivemail_agent
+## Files: 
+* /usr/bin/akonadi_archivemail_agent
 * /usr/bin/akonadi_followupreminder_agent
 * /usr/bin/akonadi_mailfilter_agent
 * /usr/bin/akonadi_mailmerge_agent
@@ -872,4 +873,3 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/share/metainfo/org.kde.kmail2.appdata.xml
 * /usr/share/qlogging-categories5/kmail.categories
 * /usr/share/qlogging-categories5/kmail.renamecategories
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['anonymous-pro-ttf', 'artwiz-fonts', 'cairo', 'chromium-brow
 +++
 A library for configuring and customizing font access
 
-{{< files text="show files" >}}* /etc/fonts/conf.d/10-hinting-slight.conf
+## Files: 
+* /etc/fonts/conf.d/10-hinting-slight.conf
 * /etc/fonts/conf.d/10-scale-bitmap-fonts.conf
 * /etc/fonts/conf.d/10-sub-pixel-none.conf
 * /etc/fonts/conf.d/10-yes-antialias.conf
@@ -568,4 +569,3 @@ A library for configuring and customizing font access
 * /usr/share/man/man3/FcWeightToOpenTypeDouble.3.gz
 * /usr/share/man/man5/fonts-conf.5.gz
 * /usr/share/xml/fontconfig/fonts.dtd
-{{< /files >}}

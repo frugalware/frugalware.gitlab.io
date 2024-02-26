@@ -15,7 +15,8 @@ depends = "['gsl>=2.6', 'kdelibs4support>=5.115.0', 'khtml>=5.115.0', 'knewstuff
 +++
 Interactive Physics Simulator.
 
-{{< files text="show files" >}}* /usr/bin/step
+## Files: 
+* /usr/bin/step
 * /usr/share/applications/org.kde.step.desktop
 * /usr/share/config.kcfg/step.kcfg
 * /usr/share/doc/HTML/ca/step/examples.docbook
@@ -1666,4 +1667,3 @@ Interactive Physics Simulator.
 * /usr/share/step/tutorials/zh_TW/tutorial3.step
 * /usr/share/step/tutorials/zh_TW/tutorial4.step
 * /usr/share/step/tutorials/zh_TW/tutorial5.step
-{{< /files >}}

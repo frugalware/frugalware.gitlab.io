@@ -15,7 +15,8 @@ depends = "['libpng', 'libstdc++>=11.2']"
 +++
 GNU Ocrad is an OCR (Optical Character Recognition) program.
 
-{{< files text="show files" >}}* /usr/bin/ocrad
+## Files: 
+* /usr/bin/ocrad
 * /usr/include/ocradlib.h
 * /usr/share/doc/ocrad-0.29/AUTHORS
 * /usr/share/doc/ocrad-0.29/ChangeLog
@@ -25,4 +26,3 @@ GNU Ocrad is an OCR (Optical Character Recognition) program.
 * /usr/share/doc/ocrad-0.29/README
 * /usr/share/info/ocrad.info.gz
 * /usr/share/man/man1/ocrad.1.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['python3-poetry']"
 +++
 Fast JSON schema validator for Python
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/fastjsonschema-2.19.0.dist-info/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/fastjsonschema-2.19.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/fastjsonschema-2.19.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/fastjsonschema-2.19.0.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/fastjsonschema-2.19.0.dist-info/top_level.txt
@@ -53,4 +54,3 @@ Fast JSON schema validator for Python
 * /usr/lib/python3.12/site-packages/fastjsonschema/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/python3-fastjsonschema-2.19.0/LICENSE
 * /usr/share/doc/python3-fastjsonschema-2.19.0/README.rst
-{{< /files >}}

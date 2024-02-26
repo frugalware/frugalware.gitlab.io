@@ -16,5 +16,5 @@ reverse_depends = "['gcc-objc++']"
 +++
 Objective-C support for GCC
 
-{{< files text="show files" >}}* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/cc1obj
-{{< /files >}}
+## Files: 
+* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/cc1obj

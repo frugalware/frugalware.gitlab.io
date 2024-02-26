@@ -15,7 +15,8 @@ depends = "[]"
 +++
 YAML parser and emitter in C++, written around the YAML 1.2 spec ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/yaml-cpp/anchor.h
+## Files: 
+* /usr/i686-frugalware-linux/include/yaml-cpp/anchor.h
 * /usr/i686-frugalware-linux/include/yaml-cpp/binary.h
 * /usr/i686-frugalware-linux/include/yaml-cpp/contrib/anchordict.h
 * /usr/i686-frugalware-linux/include/yaml-cpp/contrib/graphbuilder.h
@@ -60,4 +61,3 @@ YAML parser and emitter in C++, written around the YAML 1.2 spec ( 32bit )
 * /usr/lib32/libyaml-cpp.so.0.8
 * /usr/lib32/libyaml-cpp.so.0.8.0
 * /usr/lib32/pkgconfig/yaml-cpp.pc
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['vte3']"
 +++
 Sakura is a terminal emulator based on GTK and VTE.
 
-{{< files text="show files" >}}* /usr/bin/sakura
+## Files: 
+* /usr/bin/sakura
 * /usr/share/applications/sakura.desktop
 * /usr/share/doc/sakura-3.8.6/AUTHORS
 * /usr/share/doc/sakura-3.8.6/LICENSE
@@ -43,4 +44,3 @@ Sakura is a terminal emulator based on GTK and VTE.
 * /usr/share/locale/zh_CN/LC_MESSAGES/sakura.mo
 * /usr/share/man/man1/sakura.1.gz
 * /usr/share/pixmaps/terminal-tango.svg
-{{< /files >}}

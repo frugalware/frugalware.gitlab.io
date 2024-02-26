@@ -16,7 +16,8 @@ reverse_depends = "['haskell-servant']"
 +++
 Monad morphisms
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/mmorph-1.2.0/Control/Monad/Morph.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/mmorph-1.2.0/Control/Monad/Morph.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/mmorph-1.2.0/Control/Monad/Morph.hi
 * /usr/lib/ghc-9.8.1/site-local/mmorph-1.2.0/Control/Monad/Trans/Compose.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/mmorph-1.2.0/Control/Monad/Trans/Compose.hi
@@ -36,4 +37,3 @@ Monad morphisms
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/mmorph-1.2.0/LICENSE
 * /usr/share/haskell/haskell-mmorph/register.sh
 * /usr/share/haskell/haskell-mmorph/unregister.sh
-{{< /files >}}

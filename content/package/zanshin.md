@@ -15,7 +15,8 @@ depends = "['kdepim-runtime', 'kontactinterface']"
 +++
 To-do management application based on Akonadi
 
-{{< files text="show files" >}}* /usr/bin/zanshin
+## Files: 
+* /usr/bin/zanshin
 * /usr/bin/zanshin-migrator
 * /usr/lib/qt5/plugins/kf5/krunner/org.kde.zanshin.so
 * /usr/lib/qt5/plugins/pim5/kontact/kontact_zanshinplugin.so
@@ -72,4 +73,3 @@ To-do management application based on Akonadi
 * /usr/share/locale/zh_CN/LC_MESSAGES/zanshin.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/zanshin.mo
 * /usr/share/metainfo/org.kde.zanshin.metainfo.xml
-{{< /files >}}

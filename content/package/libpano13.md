@@ -16,7 +16,8 @@ reverse_depends = "['autopano-sift-c']"
 +++
 Basic library to calculate panoramical pictures - core functions of the panotools.
 
-{{< files text="show files" >}}* /usr/bin/panoinfo
+## Files: 
+* /usr/bin/panoinfo
 * /usr/bin/PTblender
 * /usr/bin/PTcrop
 * /usr/bin/PTinfo
@@ -66,4 +67,3 @@ Basic library to calculate panoramical pictures - core functions of the panotool
 * /usr/share/pano13/doc/PTmender.readme
 * /usr/share/pano13/doc/README
 * /usr/share/pano13/doc/stitch.txt
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['libreoffice']"
 +++
 Number to number name and money text conversion library
 
-{{< files text="show files" >}}* /usr/bin/spellout
+## Files: 
+* /usr/bin/spellout
 * /usr/include/libnumbertext/numbertext-version.h
 * /usr/include/libnumbertext/Numbertext.hxx
 * /usr/include/libnumbertext/Soros.hxx
@@ -81,4 +82,3 @@ Number to number name and money text conversion library
 * /usr/share/libnumbertext/uk.sor
 * /usr/share/libnumbertext/vi.sor
 * /usr/share/libnumbertext/zh.sor
-{{< /files >}}

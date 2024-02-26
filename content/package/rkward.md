@@ -15,7 +15,8 @@ depends = "['kconfig>=5.110.0', 'kcoreaddons>=5.110.0', 'kdoctools>=5.110.0', 'k
 +++
 Easily extensible, easy to use IDE/GUI for R.
 
-{{< files text="show files" >}}* /usr/bin/rkward
+## Files: 
+* /usr/bin/rkward
 * /usr/lib/kf5/rkward.rbackend
 * /usr/share/applications/org.kde.rkward.desktop
 * /usr/share/doc/HTML/en/rkward/index.cache.bz2
@@ -870,4 +871,3 @@ Easily extensible, easy to use IDE/GUI for R.
 * /usr/share/rkward/x11device/grid.js
 * /usr/share/rkward/x11device/grid.rkh
 * /usr/share/rkward/x11device/grid.xml
-{{< /files >}}

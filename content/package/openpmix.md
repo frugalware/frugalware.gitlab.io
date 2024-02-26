@@ -16,7 +16,8 @@ reverse_depends = "['prrte']"
 +++
 Extended version of the PMI standard
 
-{{< files text="show files" >}}* /etc/pmix-mca-params.conf
+## Files: 
+* /etc/pmix-mca-params.conf
 * /usr/bin/pattrs
 * /usr/bin/pctrl
 * /usr/bin/pevent
@@ -367,4 +368,3 @@ Extended version of the PMI standard
 * /usr/share/pmix/help-ptl-base.txt
 * /usr/share/pmix/pmix-valgrind.supp
 * /usr/share/pmix/pmixcc-wrapper-data.txt
-{{< /files >}}

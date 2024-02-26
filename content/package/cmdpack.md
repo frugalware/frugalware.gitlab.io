@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 Neill Corlett's command line programs package.
 
-{{< files text="show files" >}}* /usr/bin/bin2iso
+## Files: 
+* /usr/bin/bin2iso
 * /usr/bin/bincomp
 * /usr/bin/brrrip
 * /usr/bin/byteshuf
@@ -37,4 +38,3 @@ Neill Corlett's command line programs package.
 * /usr/bin/zerofill
 * /usr/share/doc/cmdpack-1.03/cmdpack.txt
 * /usr/share/doc/cmdpack-1.03/gpl.txt
-{{< /files >}}

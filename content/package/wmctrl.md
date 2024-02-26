@@ -16,11 +16,11 @@ reverse_depends = "['libinput-gestures']"
 +++
 Command line control of your window manager
 
-{{< files text="show files" >}}* /usr/bin/wmctrl
+## Files: 
+* /usr/bin/wmctrl
 * /usr/share/doc/wmctrl-1.07/AUTHORS
 * /usr/share/doc/wmctrl-1.07/ChangeLog
 * /usr/share/doc/wmctrl-1.07/COPYING
 * /usr/share/doc/wmctrl-1.07/INSTALL
 * /usr/share/doc/wmctrl-1.07/README
 * /usr/share/man/man1/wmctrl.1.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['glibc', 'sddm']"
 +++
 Deepin style SDDM theme.
 
-{{< files text="show files" >}}* /usr/share/doc/sddm-deepin-0.1.0.g7f5e4d0/README.MD
+## Files: 
+* /usr/share/doc/sddm-deepin-0.1.0.g7f5e4d0/README.MD
 * /usr/share/sddm/themes/deepin/AUTHORS
 * /usr/share/sddm/themes/deepin/background.jpg
 * /usr/share/sddm/themes/deepin/COPYING
@@ -121,4 +122,3 @@ Deepin style SDDM theme.
 * /usr/share/sddm/themes/deepin/theme.conf
 * /usr/share/sddm/themes/deepin/UserAvatar.qml
 * /usr/share/sddm/themes/deepin/UserFrame.qml
-{{< /files >}}

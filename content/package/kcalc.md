@@ -15,7 +15,8 @@ depends = "['kinit>=5.115.0']"
 +++
 A scientific calculator.
 
-{{< files text="show files" >}}* /usr/bin/kcalc
+## Files: 
+* /usr/bin/kcalc
 * /usr/share/applications/org.kde.kcalc.desktop
 * /usr/share/config.kcfg/kcalc.kcfg
 * /usr/share/doc/HTML/ca/kcalc/commands.docbook
@@ -151,4 +152,3 @@ A scientific calculator.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcalc.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcalc.mo
 * /usr/share/metainfo/org.kde.kcalc.appdata.xml
-{{< /files >}}

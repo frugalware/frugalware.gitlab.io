@@ -16,7 +16,8 @@ reverse_depends = "['digikam', 'kolourpaint', 'skanlite']"
 +++
 KDE SANE interface library.
 
-{{< files text="show files" >}}* /usr/include/KF5/KSane/KSaneWidget
+## Files: 
+* /usr/include/KF5/KSane/KSaneWidget
 * /usr/include/KF5/KSane/ksanewidget.h
 * /usr/include/KF5/KSane/ksane_export.h
 * /usr/include/KF5/KSane/ksane_version.h
@@ -93,4 +94,3 @@ KDE SANE interface library.
 * /usr/share/locale/wa/LC_MESSAGES/libksane.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/libksane.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libksane.mo
-{{< /files >}}

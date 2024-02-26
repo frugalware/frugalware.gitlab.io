@@ -15,7 +15,8 @@ depends = "['kxmlgui>=5.115.0', 'qt5-svg>=5.15.12', 'qt5-x11extras>=5.15.12']"
 +++
 Practice Fractions.
 
-{{< files text="show files" >}}* /usr/bin/kbruch
+## Files: 
+* /usr/bin/kbruch
 * /usr/share/applications/org.kde.kbruch.desktop
 * /usr/share/config.kcfg/kbruch.kcfg
 * /usr/share/doc/HTML/ca/kbruch/index.cache.bz2
@@ -254,4 +255,3 @@ Practice Fractions.
 * /usr/share/man/sv/man1/kbruch.1.gz
 * /usr/share/man/uk/man1/kbruch.1.gz
 * /usr/share/metainfo/org.kde.kbruch.appdata.xml
-{{< /files >}}

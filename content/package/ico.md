@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org ico application
 
-{{< files text="show files" >}}* /usr/bin/ico
+## Files: 
+* /usr/bin/ico
 * /usr/share/doc/ico-1.0.6/ChangeLog
 * /usr/share/doc/ico-1.0.6/COPYING
 * /usr/share/doc/ico-1.0.6/INSTALL
 * /usr/share/doc/ico-1.0.6/README.md
 * /usr/share/man/man1/ico.1.gz
-{{< /files >}}

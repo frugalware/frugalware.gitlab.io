@@ -15,7 +15,8 @@ depends = "[]"
 +++
 kio-locate is a KDE I/O Slave for the locate command.
 
-{{< files text="show files" >}}* usr/lib/kde3/kio_locate.la
+## Files: 
+* usr/lib/kde3/kio_locate.la
 * usr/lib/kde3/kio_locate.so
 * usr/share/doc/HTML/en/kio-locate/common
 * usr/share/doc/HTML/en/kio-locate/index.cache.bz2
@@ -31,4 +32,3 @@ kio-locate is a KDE I/O Slave for the locate command.
 * usr/share/services/locater.protocol
 * usr/share/services/rlocate.protocol
 * usr/share/services/searchproviders/locate.desktop
-{{< /files >}}

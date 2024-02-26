@@ -15,7 +15,8 @@ depends = "['futuresql', 'kirigami-addons', 'purpose', 'qcoro', 'qqc2-desktop-st
 +++
 Web browser for Plasma Mobile
 
-{{< files text="show files" >}}* /usr/bin/angelfish
+## Files: 
+* /usr/bin/angelfish
 * /usr/bin/angelfish-webapp
 * /usr/share/applications/org.kde.angelfish.desktop
 * /usr/share/config.kcfg/angelfishsettings.kcfg
@@ -60,4 +61,3 @@ Web browser for Plasma Mobile
 * /usr/share/locale/zh_CN/LC_MESSAGES/angelfish.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/angelfish.mo
 * /usr/share/metainfo/org.kde.angelfish.metainfo.xml
-{{< /files >}}

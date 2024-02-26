@@ -16,7 +16,8 @@ reverse_depends = "['firacode', 'ttf-twemoji-color']"
 +++
 Bitstream Vera fonts
 
-{{< files text="show files" >}}* /usr/share/doc/ttf-bitstream-vera-1.10/COPYRIGHT.TXT
+## Files: 
+* /usr/share/doc/ttf-bitstream-vera-1.10/COPYRIGHT.TXT
 * /usr/share/doc/ttf-bitstream-vera-1.10/README.TXT
 * /usr/share/doc/ttf-bitstream-vera-1.10/RELEASENOTES.TXT
 * /usr/share/fonts/X11/TTF/Vera.ttf
@@ -29,4 +30,3 @@ Bitstream Vera fonts
 * /usr/share/fonts/X11/TTF/VeraMono.ttf
 * /usr/share/fonts/X11/TTF/VeraSe.ttf
 * /usr/share/fonts/X11/TTF/VeraSeBd.ttf
-{{< /files >}}

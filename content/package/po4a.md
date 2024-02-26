@@ -15,7 +15,8 @@ depends = "['perl-gettext', 'perl-sgmlspm', 'perl-text-wrapi18n']"
 +++
 Eases translation work, and in particular the maintenance of translations.
 
-{{< files text="show files" >}}* /usr/bin/msguntypot
+## Files: 
+* /usr/bin/msguntypot
 * /usr/bin/po4a
 * /usr/bin/po4a-display-man
 * /usr/bin/po4a-display-pod
@@ -566,4 +567,3 @@ Eases translation work, and in particular the maintenance of translations.
 * /usr/share/man/zh_Hant/man3/Locale::Po4a::Xml.3pm.gz
 * /usr/share/man/zh_Hant/man3/Locale::Po4a::Yaml.3pm.gz
 * /usr/share/man/zh_Hant/man7/po4a.7.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['aria2', 'chrony', 'claws-mail', 'gnutls', 'gst1-plugins-bad
 +++
 A low-level cryptographic library
 
-{{< files text="show files" >}}* /usr/bin/nettle-hash
+## Files: 
+* /usr/bin/nettle-hash
 * /usr/bin/nettle-lfib-stream
 * /usr/bin/nettle-pbkdf2
 * /usr/bin/pkcs1-conv
@@ -111,4 +112,3 @@ A low-level cryptographic library
 * /usr/share/doc/nettle-3.9.1/NEWS
 * /usr/share/doc/nettle-3.9.1/README
 * /usr/share/info/nettle.info.gz
-{{< /files >}}

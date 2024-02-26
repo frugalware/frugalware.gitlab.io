@@ -16,7 +16,8 @@ reverse_depends = "['ccid', 'keepassxc', 'libykneomgr', 'openjre', 'opensc', 'qt
 +++
 PC/SC Architecture smartcard middleware library
 
-{{< files text="show files" >}}* /usr/bin/pcsc-spy
+## Files: 
+* /usr/bin/pcsc-spy
 * /usr/bin/pcscd
 * /usr/include/PCSC/debuglog.h
 * /usr/include/PCSC/ifdhandler.h
@@ -47,4 +48,3 @@ PC/SC Architecture smartcard middleware library
 * /usr/share/man/man5/reader.conf.5.gz
 * /usr/share/man/man8/pcscd.8.gz
 * /usr/share/polkit-1/actions/org.debian.pcsc-lite.policy
-{{< /files >}}

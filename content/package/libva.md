@@ -16,7 +16,8 @@ reverse_depends = "['chromium-browser', 'ffmpeg', 'ffmpeg4.4', 'intel-compute-ru
 +++
 Uniform library API for hardware acceleration of video decoding.
 
-{{< files text="show files" >}}* /usr/include/va/va.h
+## Files: 
+* /usr/include/va/va.h
 * /usr/include/va/va_backend.h
 * /usr/include/va/va_backend_glx.h
 * /usr/include/va/va_backend_prot.h
@@ -74,4 +75,3 @@ Uniform library API for hardware acceleration of video decoding.
 * /usr/share/doc/libva-2.20.0/COPYING
 * /usr/share/doc/libva-2.20.0/NEWS
 * /usr/share/doc/libva-2.20.0/README.md
-{{< /files >}}

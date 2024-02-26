@@ -16,7 +16,8 @@ reverse_depends = "['plasma-workspace']"
 +++
 A dedicated search application built on top of Baloo.
 
-{{< files text="show files" >}}* /usr/lib/libmilou.so.5
+## Files: 
+* /usr/lib/libmilou.so.5
 * /usr/lib/libmilou.so.5.27.10
 * /usr/share/kservices5/plasma-applet-org.kde.milou.desktop
 * /usr/share/locale/ar/LC_MESSAGES/milou.mo
@@ -129,4 +130,3 @@ A dedicated search application built on top of Baloo.
 * /usr/share/qt5/qml/org/kde/milou/ResultsListView.qml
 * /usr/share/qt5/qml/org/kde/milou/ResultsListViewDelegate.qml
 * /usr/share/qt5/qml/org/kde/milou/ResultsView.qml
-{{< /files >}}

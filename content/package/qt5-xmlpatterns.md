@@ -16,7 +16,8 @@ reverse_depends = "['artikulate', 'cantor', 'digikam', 'kdav', 'kdav2', 'kdepim-
 +++
 The Qt5 toolkit, qtxmlpatterns
 
-{{< files text="show files" >}}* /usr/bin/xmlpatterns
+## Files: 
+* /usr/bin/xmlpatterns
 * /usr/bin/xmlpatterns-qt5
 * /usr/bin/xmlpatternsvalidator
 * /usr/bin/xmlpatternsvalidator-qt5
@@ -440,4 +441,3 @@ The Qt5 toolkit, qtxmlpatterns
 * /usr/share/qt5/qml/QtQuick/XmlListModel/libqmlxmllistmodelplugin.so
 * /usr/share/qt5/qml/QtQuick/XmlListModel/plugins.qmltypes
 * /usr/share/qt5/qml/QtQuick/XmlListModel/qmldir
-{{< /files >}}

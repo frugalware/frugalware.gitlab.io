@@ -15,5 +15,5 @@ depends = "['ffmpeg>=6.0', 'libde265', 'qt5-base>=5.15.10', 'sdl2']"
 +++
 Qt-based video player
 
-{{< files text="show files" >}}* /usr/bin/sherlock265
-{{< /files >}}
+## Files: 
+* /usr/bin/sherlock265

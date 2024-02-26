@@ -16,9 +16,9 @@ reverse_depends = "['lib32-mesa-vulkan-amd', 'lib32-mesa-vulkan-intel', 'lib32-m
 +++
 keysyms libraries for X C Binding ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/xcb/xcb_keysyms.h
+## Files: 
+* /usr/i686-frugalware-linux/include/xcb/xcb_keysyms.h
 * /usr/lib32/libxcb-keysyms.so
 * /usr/lib32/libxcb-keysyms.so.1
 * /usr/lib32/libxcb-keysyms.so.1.0.0
 * /usr/lib32/pkgconfig/xcb-keysyms.pc
-{{< /files >}}

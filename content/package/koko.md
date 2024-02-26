@@ -15,7 +15,8 @@ depends = "['exiv2>=0.28.1', 'kdeclarative', 'kfilemetadata5', 'kio', 'kquickima
 +++
 Image gallery application
 
-{{< files text="show files" >}}* /usr/bin/koko
+## Files: 
+* /usr/bin/koko
 * /usr/lib/libkokocommon.so
 * /usr/lib/libkokocommon.so.0.0.1
 * /usr/share/applications/org.kde.koko.desktop
@@ -62,4 +63,3 @@ Image gallery application
 * /usr/share/metainfo/org.kde.koko.appdata.xml
 * /usr/share/qt5/qml/org/kde/koko/libkokoqmlplugin.so
 * /usr/share/qt5/qml/org/kde/koko/qmldir
-{{< /files >}}

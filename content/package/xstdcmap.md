@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org xstdcmap application
 
-{{< files text="show files" >}}* /usr/bin/xstdcmap
+## Files: 
+* /usr/bin/xstdcmap
 * /usr/share/doc/xstdcmap-1.0.5/ChangeLog
 * /usr/share/doc/xstdcmap-1.0.5/COPYING
 * /usr/share/doc/xstdcmap-1.0.5/INSTALL
 * /usr/share/doc/xstdcmap-1.0.5/README.md
 * /usr/share/man/man1/xstdcmap.1.gz
-{{< /files >}}

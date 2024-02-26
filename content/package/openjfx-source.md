@@ -15,5 +15,5 @@ depends = "[]"
 +++
 OpenJFX Sourcecode
 
-{{< files text="show files" >}}* /usr/lib/jvm/java-19-openjdk/lib/javafx-src.zip
-{{< /files >}}
+## Files: 
+* /usr/lib/jvm/java-19-openjdk/lib/javafx-src.zip

@@ -16,7 +16,8 @@ reverse_depends = "['plasma-wayland-session']"
 +++
 Desktop integration portals for sandboxed apps
 
-{{< files text="show files" >}}* /usr/lib/systemd/user/xdg-desktop-portal-rewrite-launchers.service
+## Files: 
+* /usr/lib/systemd/user/xdg-desktop-portal-rewrite-launchers.service
 * /usr/lib/systemd/user/xdg-desktop-portal.service
 * /usr/lib/systemd/user/xdg-document-portal.service
 * /usr/lib/systemd/user/xdg-permission-store.service
@@ -122,4 +123,3 @@ Desktop integration portals for sandboxed apps
 * /usr/share/locale/zh_CN/LC_MESSAGES/xdg-desktop-portal.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/xdg-desktop-portal.mo
 * /usr/share/pkgconfig/xdg-desktop-portal.pc
-{{< /files >}}

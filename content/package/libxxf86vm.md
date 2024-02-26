@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.Org Xxf86vm library
 
-{{< files text="show files" >}}* /usr/include/X11/extensions/xf86vmode.h
+## Files: 
+* /usr/include/X11/extensions/xf86vmode.h
 * /usr/lib/libXxf86vm.so
 * /usr/lib/libXxf86vm.so.1
 * /usr/lib/libXxf86vm.so.1.0.0
@@ -49,4 +50,3 @@ X.Org Xxf86vm library
 * /usr/share/man/man3/XF86VidModeSwitchToMode.3.gz
 * /usr/share/man/man3/XF86VidModeValidateModeLine.3.gz
 * /usr/share/man/man3/XF86VM.3.gz
-{{< /files >}}

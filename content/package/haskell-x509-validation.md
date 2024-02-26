@@ -15,7 +15,8 @@ depends = "['haskell-data-default-class', 'haskell-x509-store']"
 +++
 X.509 Certificate and CRL validation
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/x509-validation-1.6.12/Data/X509/Validation.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/x509-validation-1.6.12/Data/X509/Validation.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/x509-validation-1.6.12/Data/X509/Validation.hi
 * /usr/lib/ghc-9.8.1/site-local/x509-validation-1.6.12/Data/X509/Validation/Cache.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/x509-validation-1.6.12/Data/X509/Validation/Cache.hi
@@ -42,4 +43,3 @@ X.509 Certificate and CRL validation
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/x509-validation-1.6.12/LICENSE
 * /usr/share/haskell/haskell-x509-validation/register.sh
 * /usr/share/haskell/haskell-x509-validation/unregister.sh
-{{< /files >}}

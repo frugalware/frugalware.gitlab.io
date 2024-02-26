@@ -15,7 +15,8 @@ depends = "['intel-tbb', 'libstdc++', 'openssl>=3.1.0', 'zstd']"
 +++
 A Modern Linker
 
-{{< files text="show files" >}}* /usr/bin/ld.mold
+## Files: 
+* /usr/bin/ld.mold
 * /usr/bin/mold
 * /usr/lib/mold/ld
 * /usr/lib/mold/mold-wrapper.so
@@ -25,4 +26,3 @@ A Modern Linker
 * /usr/share/doc/mold/LICENSE.third-party
 * /usr/share/man/man1/ld.mold.1.gz
 * /usr/share/man/man1/mold.1.gz
-{{< /files >}}

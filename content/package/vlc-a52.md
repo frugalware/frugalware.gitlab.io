@@ -15,5 +15,5 @@ depends = "['a52dec', 'libvlc>=3.0.20']"
 +++
 vlc a52 support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/liba52_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/codec/liba52_plugin.so

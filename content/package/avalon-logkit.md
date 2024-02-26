@@ -16,5 +16,5 @@ reverse_depends = "['avalon-framework']"
 +++
 Easy-to-use Java logging toolkit
 
-{{< files text="show files" >}}* /usr/share/java/avalon-logkit.jar
-{{< /files >}}
+## Files: 
+* /usr/share/java/avalon-logkit.jar

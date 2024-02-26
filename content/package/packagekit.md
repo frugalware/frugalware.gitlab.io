@@ -15,7 +15,8 @@ depends = "['bash-completion', 'gst1-plugins-base', 'networkmanager>=1.4.0-2', '
 +++
 A system designed to make installation and updates of packages easier
 
-{{< files text="show files" >}}* /etc/cron.daily/packagekit-background.cron
+## Files: 
+* /etc/cron.daily/packagekit-background.cron
 * /etc/PackageKit/CommandNotFound.conf
 * /etc/PackageKit/PackageKit.conf
 * /etc/PackageKit/Vendor.conf
@@ -146,4 +147,3 @@ A system designed to make installation and updates of packages easier
 * /usr/share/vala/vapi/packagekit-glib2.deps
 * /usr/share/vala/vapi/packagekit-glib2.vapi
 * /var/lib/PackageKit/transactions.db
-{{< /files >}}

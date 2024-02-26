@@ -15,7 +15,7 @@ depends = "['glibc']"
 +++
 A markdown to manpage generator
 
-{{< files text="show files" >}}* /usr/bin/go-md2man
+## Files: 
+* /usr/bin/go-md2man
 * /usr/share/doc/go-md2man-2.0.3/README.md
 * /usr/share/man/man1/go-md2man.1.gz
-{{< /files >}}

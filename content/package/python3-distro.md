@@ -16,7 +16,8 @@ reverse_depends = "['hplip', 'scikit-build']"
 +++
 Linux OS platform information API
 
-{{< files text="show files" >}}* /usr/bin/distro
+## Files: 
+* /usr/bin/distro
 * /usr/lib/python3.12/site-packages/distro-1.8.0.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/distro-1.8.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/distro-1.8.0.dist-info/METADATA
@@ -35,4 +36,3 @@ Linux OS platform information API
 * /usr/lib/python3.12/site-packages/distro/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/python3-distro-1.8.0/LICENSE
 * /usr/share/doc/python3-distro-1.8.0/README.md
-{{< /files >}}

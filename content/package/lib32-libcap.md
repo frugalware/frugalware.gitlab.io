@@ -16,7 +16,8 @@ reverse_depends = "['lib32-libsystemd', 'lib32-pipewire']"
 +++
 POSIX 1003.1e capabilities ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/sys/capability.h
+## Files: 
+* /usr/i686-frugalware-linux/include/sys/capability.h
 * /usr/i686-frugalware-linux/include/sys/psx_syscall.h
 * /usr/i686-frugalware-linux/sbin/capsh
 * /usr/i686-frugalware-linux/sbin/getcap
@@ -31,4 +32,3 @@ POSIX 1003.1e capabilities ( 32bit )
 * /usr/lib32/pkgconfig/libcap.pc
 * /usr/lib32/pkgconfig/libpsx.pc
 * /usr/lib32/security/pam_cap.so
-{{< /files >}}

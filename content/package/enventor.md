@@ -16,7 +16,8 @@ license = "BSD"
 +++
 Enlightenment Foundation dynamic EDC editor
 
-{{< files text="show files" >}}* /usr/bin/enventor
+## Files: 
+* /usr/bin/enventor
 * /usr/include/enventor-1/Enventor.h
 * /usr/include/enventor-1/Enventor_Eo.h
 * /usr/include/enventor-1/Enventor_Legacy.h
@@ -154,4 +155,3 @@ Enlightenment Foundation dynamic EDC editor
 * /usr/share/icons/enventor.png
 * /usr/share/locale/en/LC_MESSAGES/enventor.mo
 * /usr/share/locale/ru/LC_MESSAGES/enventor.mo
-{{< /files >}}

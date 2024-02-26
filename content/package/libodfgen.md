@@ -16,7 +16,8 @@ reverse_depends = "['libreoffice']"
 +++
 An ODF generator library
 
-{{< files text="show files" >}}* /usr/include/libodfgen-0.1/libodfgen/libodfgen-api.hxx
+## Files: 
+* /usr/include/libodfgen-0.1/libodfgen/libodfgen-api.hxx
 * /usr/include/libodfgen-0.1/libodfgen/libodfgen.hxx
 * /usr/include/libodfgen-0.1/libodfgen/OdfDocumentHandler.hxx
 * /usr/include/libodfgen-0.1/libodfgen/OdgGenerator.hxx
@@ -115,4 +116,3 @@ An ODF generator library
 * /usr/share/doc/libodfgen-0.1.8/html/tab_s.png
 * /usr/share/doc/libodfgen-0.1.8/NEWS
 * /usr/share/doc/libodfgen-0.1.8/README
-{{< /files >}}

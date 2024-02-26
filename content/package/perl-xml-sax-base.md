@@ -16,7 +16,8 @@ reverse_depends = "['perl-xml-sax']"
 +++
 Base class SAX Drivers and Filters
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/XML/SAX/Base.pm
+## Files: 
+* /usr/lib/perl5/site_perl/XML/SAX/Base.pm
 * /usr/lib/perl5/site_perl/XML/SAX/BuildSAXBase.pl
 * /usr/lib/perl5/site_perl/XML/SAX/Exception.pm
 * /usr/share/doc/perl-xml-sax-base-1.09/MANIFEST
@@ -24,4 +25,3 @@ Base class SAX Drivers and Filters
 * /usr/share/man/man3/XML::SAX::Base.3perl.gz
 * /usr/share/man/man3/XML::SAX::BuildSAXBase.3perl.gz
 * /usr/share/man/man3/XML::SAX::Exception.3perl.gz
-{{< /files >}}

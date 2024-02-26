@@ -15,7 +15,8 @@ depends = "['nettle>=3.1.1']"
 +++
 Rdfind is a program that find duplicate files
 
-{{< files text="show files" >}}* /usr/bin/rdfind
+## Files: 
+* /usr/bin/rdfind
 * /usr/share/doc/rdfind-1.6.0/AUTHORS
 * /usr/share/doc/rdfind-1.6.0/ChangeLog
 * /usr/share/doc/rdfind-1.6.0/COPYING
@@ -26,4 +27,3 @@ Rdfind is a program that find duplicate files
 * /usr/share/doc/rdfind-1.6.0/README.md
 * /usr/share/doc/rdfind-1.6.0/TODO
 * /usr/share/man/man1/rdfind.1.gz
-{{< /files >}}

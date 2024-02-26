@@ -16,7 +16,8 @@ reverse_depends = "['haskell-hslua']"
 +++
 Allow aeson data types to be used with Lua.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hslua-aeson-2.3.0.1/HsLua/Aeson.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/hslua-aeson-2.3.0.1/HsLua/Aeson.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-aeson-2.3.0.1/HsLua/Aeson.hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-aeson-2.3.0.1/libHShslua-aeson-2.3.0.1-IeYSppZEY9J14Mt4CPR3O7.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHShslua-aeson-2.3.0.1-IeYSppZEY9J14Mt4CPR3O7-ghc9.8.1.so
@@ -34,4 +35,3 @@ Allow aeson data types to be used with Lua.
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/hslua-aeson-2.3.0.1/LICENSE
 * /usr/share/haskell/haskell-hslua-aeson/register.sh
 * /usr/share/haskell/haskell-hslua-aeson/unregister.sh
-{{< /files >}}

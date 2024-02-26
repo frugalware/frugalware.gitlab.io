@@ -16,7 +16,8 @@ reverse_depends = "['clightd']"
 +++
 C linux library to build simple and modular projects
 
-{{< files text="show files" >}}* /usr/include/module/map.h
+## Files: 
+* /usr/include/module/map.h
 * /usr/include/module/module.h
 * /usr/include/module/modules.h
 * /usr/include/module/modules_easy.h
@@ -31,4 +32,3 @@ C linux library to build simple and modular projects
 * /usr/lib/pkgconfig/libmodule.pc
 * /usr/share/doc/libmodule-5.0.1/LICENSE
 * /usr/share/doc/libmodule-5.0.1/README.md
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['bitlbee', 'bitlbee-libpurple']"
 +++
 Common files required by bitlbee/bitlbee-libpurple.
 
-{{< files text="show files" >}}* /etc/bitlbee/bitlbee.conf
+## Files: 
+* /etc/bitlbee/bitlbee.conf
 * /etc/bitlbee/motd.txt
 * /usr/bin/bitlbee
 * /usr/include/bitlbee/account.h
@@ -79,4 +80,3 @@ Common files required by bitlbee/bitlbee-libpurple.
 * /usr/share/doc/bitlbee-3.6/user-guide/user-guide.xml
 * /usr/share/man/man5/bitlbee.conf.5.gz
 * /usr/share/man/man8/bitlbee.8.gz
-{{< /files >}}

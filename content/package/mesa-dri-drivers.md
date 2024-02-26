@@ -16,7 +16,8 @@ reverse_depends = "['libgl', 'virtualbox-guest-additions', 'xorg-server']"
 +++
 Mesa OpenGL DRI drivers.
 
-{{< files text="show files" >}}* /usr/include/GL/internal/dri_interface.h
+## Files: 
+* /usr/include/GL/internal/dri_interface.h
 * /usr/lib/dri/crocus_dri.so
 * /usr/lib/dri/d3d12_dri.so
 * /usr/lib/dri/d3d12_drv_video.so
@@ -35,4 +36,3 @@ Mesa OpenGL DRI drivers.
 * /usr/lib/pkgconfig/dri.pc
 * /usr/share/drirc.d/00-mesa-defaults.conf
 * /usr/share/drirc.d/00-radv-defaults.conf
-{{< /files >}}

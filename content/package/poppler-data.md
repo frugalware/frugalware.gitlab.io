@@ -16,7 +16,8 @@ reverse_depends = "['poppler', 'poppler']"
 +++
 Encoding files for poppler
 
-{{< files text="show files" >}}* /usr/lib/pkgconfig/poppler-data.pc
+## Files: 
+* /usr/lib/pkgconfig/poppler-data.pc
 * /usr/share/doc/poppler-data-0.4.12/COPYING
 * /usr/share/doc/poppler-data-0.4.12/COPYING.adobe
 * /usr/share/doc/poppler-data-0.4.12/COPYING.gpl2
@@ -284,4 +285,3 @@ Encoding files for poppler
 * /usr/share/poppler/unicodeMap/Shift-JIS
 * /usr/share/poppler/unicodeMap/TIS-620
 * /usr/share/poppler/unicodeMap/Windows-1255
-{{< /files >}}

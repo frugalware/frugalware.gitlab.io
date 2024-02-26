@@ -16,7 +16,8 @@ reverse_depends = "['libblockdev', 'nvme-cli']"
 +++
 C Library for NVM Express on Linux
 
-{{< files text="show files" >}}* /usr/include/libnvme-mi.h
+## Files: 
+* /usr/include/libnvme-mi.h
 * /usr/include/libnvme.h
 * /usr/include/nvme/api-types.h
 * /usr/include/nvme/fabrics.h
@@ -44,4 +45,3 @@ C Library for NVM Express on Linux
 * /usr/lib/python3.12/site-packages/libnvme/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/libnvme-1.8/COPYING
 * /usr/share/doc/libnvme-1.8/README.md
-{{< /files >}}

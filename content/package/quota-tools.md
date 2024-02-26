@@ -15,7 +15,8 @@ depends = "['e2fsprogs>=1.42.13-4', 'libnl', 'libtirpc']"
 +++
 Linux disk quota utilities
 
-{{< files text="show files" >}}* /etc/quotagrpadmins
+## Files: 
+* /etc/quotagrpadmins
 * /etc/quotatab
 * /etc/warnquota.conf
 * /usr/bin/convertquota
@@ -61,4 +62,3 @@ Linux disk quota utilities
 * /usr/share/man/man8/setquota.8.gz
 * /usr/share/man/man8/warnquota.8.gz
 * /usr/share/man/man8/xqmstats.8.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['gst1-plugins-bad', 'pipewire']"
 +++
 Open Source implementation of Audio Processing Technology codec (aptX)
 
-{{< files text="show files" >}}* /usr/bin/freeaptxdec
+## Files: 
+* /usr/bin/freeaptxdec
 * /usr/bin/freeaptxenc
 * /usr/include/freeaptx.h
 * /usr/lib/libfreeaptx.so
@@ -25,4 +26,3 @@ Open Source implementation of Audio Processing Technology codec (aptX)
 * /usr/lib/pkgconfig/libfreeaptx.pc
 * /usr/share/doc/libfreeaptx-0.1.1/COPYING
 * /usr/share/doc/libfreeaptx-0.1.1/README
-{{< /files >}}

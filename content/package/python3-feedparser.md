@@ -15,7 +15,8 @@ depends = "['python3>=3.11']"
 +++
 Python RSS and Atom feeds parser.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/feedparser-6.0.10-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/feedparser-6.0.10-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/feedparser-6.0.10-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/feedparser-6.0.10-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/feedparser-6.0.10-py3.12.egg-info/SOURCES.txt
@@ -87,4 +88,3 @@ Python RSS and Atom feeds parser.
 * /usr/share/doc/python3-feedparser-6.0.10/LICENSE
 * /usr/share/doc/python3-feedparser-6.0.10/NEWS
 * /usr/share/doc/python3-feedparser-6.0.10/README.rst
-{{< /files >}}

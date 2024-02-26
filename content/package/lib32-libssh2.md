@@ -15,11 +15,11 @@ depends = "['lib32-openssl>=3.1.0', 'lib32-zlib>=1.2.12']"
 +++
 libssh2 is a library implementing the SSH2 protocol as defined by Internet Drafts. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/libssh2.h
+## Files: 
+* /usr/i686-frugalware-linux/include/libssh2.h
 * /usr/i686-frugalware-linux/include/libssh2_publickey.h
 * /usr/i686-frugalware-linux/include/libssh2_sftp.h
 * /usr/lib32/libssh2.so
 * /usr/lib32/libssh2.so.1
 * /usr/lib32/libssh2.so.1.0.1
 * /usr/lib32/pkgconfig/libssh2.pc
-{{< /files >}}

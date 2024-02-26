@@ -15,7 +15,8 @@ depends = "['qt6-declarative', 'qt6-websockets']"
 +++
 The Qt6 toolkit, qthttpserver
 
-{{< files text="show files" >}}* /usr/include/qt6/QtHttpServer/6.6.2/QtHttpServer/private/qabstracthttpserver_p.h
+## Files: 
+* /usr/include/qt6/QtHttpServer/6.6.2/QtHttpServer/private/qabstracthttpserver_p.h
 * /usr/include/qt6/QtHttpServer/6.6.2/QtHttpServer/private/qhttpserverliterals_p.h
 * /usr/include/qt6/QtHttpServer/6.6.2/QtHttpServer/private/qhttpserverrequest_p.h
 * /usr/include/qt6/QtHttpServer/6.6.2/QtHttpServer/private/qhttpserverresponder_p.h
@@ -67,4 +68,3 @@ The Qt6 toolkit, qthttpserver
 * /usr/lib/qt6/mkspecs/modules/qt_lib_httpserver.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_httpserver_private.pri
 * /usr/lib/qt6/modules/HttpServer.json
-{{< /files >}}

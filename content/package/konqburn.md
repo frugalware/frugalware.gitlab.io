@@ -15,7 +15,8 @@ depends = "[]"
 +++
 A KDE ioslave and sidebar that lets you create and burn CDs or DVDs from Konqueror.
 
-{{< files text="show files" >}}* usr/lib/kde3/kded_burndirnotify.la
+## Files: 
+* usr/lib/kde3/kded_burndirnotify.la
 * usr/lib/kde3/kded_burndirnotify.so
 * usr/lib/kde3/kio_burn.la
 * usr/lib/kde3/kio_burn.so
@@ -34,4 +35,3 @@ A KDE ioslave and sidebar that lets you create and burn CDs or DVDs from Konquer
 * usr/share/locale/pl/LC_MESSAGES/konqsidebar_burn.mo
 * usr/share/services/burn.protocol
 * usr/share/services/kded/burndirnotify.desktop
-{{< /files >}}

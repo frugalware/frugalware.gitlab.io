@@ -16,7 +16,8 @@ reverse_depends = "['gettext']"
 +++
 gettext lib
 
-{{< files text="show files" >}}* /usr/include/textstyle.h
+## Files: 
+* /usr/include/textstyle.h
 * /usr/include/textstyle/stdbool.h
 * /usr/include/textstyle/version.h
 * /usr/include/textstyle/woe32dll.h
@@ -33,4 +34,3 @@ gettext lib
 * /usr/share/doc/gettext-0.22.5/libtextstyle_abt.html
 * /usr/share/doc/gettext-0.22.5/libtextstyle_toc.html
 * /usr/share/info/libtextstyle.info.gz
-{{< /files >}}

@@ -16,11 +16,11 @@ reverse_depends = "['gyp', 'meson']"
 +++
 Small build system with a focus on speed
 
-{{< files text="show files" >}}* /usr/bin/ninja
+## Files: 
+* /usr/bin/ninja
 * /usr/share/bash-completion/completions/ninja
 * /usr/share/doc/ninja-1.11.1/COPYING
 * /usr/share/doc/ninja-1.11.1/manual.asciidoc
 * /usr/share/doc/ninja-1.11.1/manual.html
 * /usr/share/doc/ninja-1.11.1/README.md
 * /usr/share/zsh/site-functions/_ninja
-{{< /files >}}

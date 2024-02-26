@@ -16,7 +16,8 @@ reverse_depends = "['ocaml-ctypes']"
 +++
 Compatibility library to use Stdlib.Bigarray when possible
 
-{{< files text="show files" >}}* /usr/lib/ocaml/bigarray-compat/bigarray_compat.a
+## Files: 
+* /usr/lib/ocaml/bigarray-compat/bigarray_compat.a
 * /usr/lib/ocaml/bigarray-compat/bigarray_compat.cma
 * /usr/lib/ocaml/bigarray-compat/bigarray_compat.cmi
 * /usr/lib/ocaml/bigarray-compat/bigarray_compat.cmt
@@ -31,4 +32,3 @@ Compatibility library to use Stdlib.Bigarray when possible
 * /usr/share/doc/ocaml-bigarray-compat-1.1.0/bigarray-compat/LICENSE.md
 * /usr/share/doc/ocaml-bigarray-compat-1.1.0/bigarray-compat/README.md
 * /usr/share/doc/ocaml-bigarray-compat-1.1.0/README.md
-{{< /files >}}

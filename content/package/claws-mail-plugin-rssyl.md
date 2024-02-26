@@ -15,5 +15,5 @@ depends = "['claws-mail=4.1.1', 'curl>=7.47.0']"
 +++
 This plugin allows you to read your favourite newsfeeds in Claws.
 
-{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/rssyl.so
-{{< /files >}}
+## Files: 
+* /usr/lib/claws-mail/plugins/rssyl.so

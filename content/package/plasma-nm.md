@@ -16,7 +16,8 @@ reverse_depends = "['plasma-bigscreen']"
 +++
 Plasma applet written in QML for managing network connections.
 
-{{< files text="show files" >}}* /usr/lib/libplasmanm_editor.so
+## Files: 
+* /usr/lib/libplasmanm_editor.so
 * /usr/lib/libplasmanm_internal.so
 * /usr/lib/qt5/plugins/kf5/kded/networkmanagement.so
 * /usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/kcm_networkmanagement.so
@@ -798,4 +799,3 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/qlogging-categories5/plasma-nm.categories
 * /usr/share/qt5/qml/org/kde/plasma/networkmanagement/libplasmanm_qmlplugins.so
 * /usr/share/qt5/qml/org/kde/plasma/networkmanagement/qmldir
-{{< /files >}}

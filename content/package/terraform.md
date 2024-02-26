@@ -15,7 +15,7 @@ depends = "['glibc']"
 +++
 HashiCorp tool for building and updating infrastructure as code idempotently
 
-{{< files text="show files" >}}* /usr/bin/terraform
+## Files: 
+* /usr/bin/terraform
 * /usr/share/doc/terraform-1.5.7/LICENSE
 * /usr/share/doc/terraform-1.5.7/README.md
-{{< /files >}}

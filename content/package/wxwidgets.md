@@ -16,7 +16,8 @@ reverse_depends = "['kicad', 'scummvm-tools', 'wxmaxima']"
 +++
 GTK+ implementation of wxWidgets API for GUI (Development Release)
 
-{{< files text="show files" >}}* /usr/bin/wx-config
+## Files: 
+* /usr/bin/wx-config
 * /usr/bin/wxrc
 * /usr/bin/wxrc-3.2
 * /usr/include/wx-3.2/wx/aboutdlg.h
@@ -1581,4 +1582,3 @@ GTK+ implementation of wxWidgets API for GUI (Development Release)
 * /usr/lib/wx/include/gtk3-unicode-3.2/wx/setup.h
 * /usr/share/doc/wxwidgets-3.2.2.1/README-GIT.md
 * /usr/share/doc/wxwidgets-3.2.2.1/README.md
-{{< /files >}}

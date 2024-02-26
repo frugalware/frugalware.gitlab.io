@@ -15,7 +15,8 @@ depends = "['texlive=2023.0']"
 +++
 A 16-bit extended TeX
 
-{{< files text="show files" >}}* /usr/share/texmf-dist/dvips/omega/config.omega
+## Files: 
+* /usr/share/texmf-dist/dvips/omega/config.omega
 * /usr/share/texmf-dist/dvips/omega/omega.cfg
 * /usr/share/texmf-dist/fonts/afm/public/mxedruli/mxed10.afm
 * /usr/share/texmf-dist/fonts/afm/public/mxedruli/mxedbf10.afm
@@ -508,4 +509,3 @@ A 16-bit extended TeX
 * /usr/share/texmf-dist/tex/latex/mxedruli/xucuri.sty
 * /usr/share/texmf-dist/tex/plain/omega/grlccode.tex
 * /usr/share/texmf-dist/tex/plain/omega/omega.tex
-{{< /files >}}

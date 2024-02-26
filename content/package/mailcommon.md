@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-import-wizard', 'kaddressbook', 'kalarm', 'kdepim-a
 +++
 KdePim mail-common files
 
-{{< files text="show files" >}}* /usr/include/KPim5/MailCommon/MailCommon/AccountConfigOrderDialog
+## Files: 
+* /usr/include/KPim5/MailCommon/MailCommon/AccountConfigOrderDialog
 * /usr/include/KPim5/MailCommon/mailcommon/accountconfigorderdialog.h
 * /usr/include/KPim5/MailCommon/MailCommon/AddTagDialog
 * /usr/include/KPim5/MailCommon/mailcommon/addtagdialog.h
@@ -187,4 +188,3 @@ KdePim mail-common files
 * /usr/share/qlogging-categories5/mailcommon.categories
 * /usr/share/qlogging-categories5/mailcommon.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_MailCommon.pri
-{{< /files >}}

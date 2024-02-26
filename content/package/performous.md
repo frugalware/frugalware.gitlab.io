@@ -15,7 +15,8 @@ depends = "['aubio', 'fmtlib', 'glm', 'libboost>=1.83.0', 'libepoxy', 'libxml++2
 +++
 PerformousThe free Linux karaoke game
 
-{{< files text="show files" >}}* /usr/bin/performous
+## Files: 
+* /usr/bin/performous
 * /usr/share/applications/performous.desktop
 * /usr/share/doc/performous-1.2.0/README.md
 * /usr/share/games/performous/backgrounds/blue_band.svg
@@ -220,4 +221,3 @@ PerformousThe free Linux karaoke game
 * /usr/share/locale/sv/LC_MESSAGES/Performous.mo
 * /usr/share/locale/zh/LC_MESSAGES/Performous.mo
 * /usr/share/pixmaps/performous.svg
-{{< /files >}}

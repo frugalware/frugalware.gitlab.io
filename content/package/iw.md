@@ -16,8 +16,8 @@ reverse_depends = "['aircrack-ng']"
 +++
 iw is a tool for nl80211.
 
-{{< files text="show files" >}}* /usr/bin/iw
+## Files: 
+* /usr/bin/iw
 * /usr/share/doc/iw-6.7/COPYING
 * /usr/share/doc/iw-6.7/README
 * /usr/share/man/man8/iw.8.gz
-{{< /files >}}

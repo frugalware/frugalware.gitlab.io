@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org driver for the QXL virtual GPU.
 
-{{< files text="show files" >}}* /usr/lib/xorg/modules/drivers/qxl_drv.so
+## Files: 
+* /usr/lib/xorg/modules/drivers/qxl_drv.so
 * /usr/share/doc/xf86-video-qxl-0.1.6/ChangeLog
 * /usr/share/doc/xf86-video-qxl-0.1.6/COPYING
 * /usr/share/doc/xf86-video-qxl-0.1.6/INSTALL
@@ -24,4 +25,3 @@ X.Org driver for the QXL virtual GPU.
 * /usr/share/doc/xf86-video-qxl-0.1.6/README.md
 * /usr/share/doc/xf86-video-qxl-0.1.6/README.xspice
 * /usr/share/doc/xf86-video-qxl-0.1.6/TODO
-{{< /files >}}

@@ -16,10 +16,10 @@ reverse_depends = "['perl-datetime-locale']"
 +++
 Install shared files
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/File/ShareDir/Install.pm
+## Files: 
+* /usr/lib/perl5/site_perl/File/ShareDir/Install.pm
 * /usr/share/doc/perl-file-sharedir-install-0.14/INSTALL
 * /usr/share/doc/perl-file-sharedir-install-0.14/LICENSE
 * /usr/share/doc/perl-file-sharedir-install-0.14/MANIFEST
 * /usr/share/doc/perl-file-sharedir-install-0.14/README
 * /usr/share/man/man3/File::ShareDir::Install.3perl.gz
-{{< /files >}}

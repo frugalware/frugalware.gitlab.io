@@ -16,7 +16,8 @@ reverse_depends = "['ark', 'cantor', 'kdesu', 'kio-extras', 'konsole', 'kwrited5
 +++
 Interfacing with pseudo terminal devices.
 
-{{< files text="show files" >}}* /usr/include/KF5/KPty/KPty
+## Files: 
+* /usr/include/KF5/KPty/KPty
 * /usr/include/KF5/KPty/kpty.h
 * /usr/include/KF5/KPty/KPtyDevice
 * /usr/include/KF5/KPty/kptydevice.h
@@ -134,4 +135,3 @@ Interfacing with pseudo terminal devices.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kpty5.mo
 * /usr/share/qlogging-categories5/kpty.categories
 * /usr/share/qt5/mkspecs/modules/qt_KPty.pri
-{{< /files >}}

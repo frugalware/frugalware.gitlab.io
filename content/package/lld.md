@@ -16,7 +16,8 @@ reverse_depends = "['julia', 'rust-wasm']"
 +++
 LLVM Linker
 
-{{< files text="show files" >}}* /usr/bin/ld.lld
+## Files: 
+* /usr/bin/ld.lld
 * /usr/bin/ld64.lld
 * /usr/bin/lld
 * /usr/bin/lld-link
@@ -92,4 +93,3 @@ LLVM Linker
 * /usr/share/doc/LLVM/lld/html/_static/pygments.css
 * /usr/share/doc/LLVM/lld/html/_static/searchtools.js
 * /usr/share/doc/LLVM/lld/html/_static/sphinx_highlight.js
-{{< /files >}}

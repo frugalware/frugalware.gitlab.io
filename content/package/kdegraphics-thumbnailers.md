@@ -16,11 +16,11 @@ reverse_depends = "['dolphin']"
 +++
 Thumnailers Creators for Kdegraphics.
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/thumbcreator/blenderthumbnail.so
+## Files: 
+* /usr/lib/qt5/plugins/kf5/thumbcreator/blenderthumbnail.so
 * /usr/lib/qt5/plugins/kf5/thumbcreator/gsthumbnail.so
 * /usr/lib/qt5/plugins/kf5/thumbcreator/mobithumbnail.so
 * /usr/lib/qt5/plugins/kf5/thumbcreator/rawthumbnail.so
 * /usr/share/doc/kdegraphics-thumbnailers-23.08.5/COPYING
 * /usr/share/doc/kdegraphics-thumbnailers-23.08.5/COPYING.LIB
 * /usr/share/metainfo/org.kde.kdegraphics-thumbnailers.metainfo.xml
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['face_recognition', 'howdy']"
 +++
 Trained models for the face_recognition python library
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/face_recognition_models-0.3.0-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/face_recognition_models-0.3.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/face_recognition_models-0.3.0-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/face_recognition_models-0.3.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/face_recognition_models-0.3.0-py3.12.egg-info/SOURCES.txt
@@ -29,4 +30,3 @@ Trained models for the face_recognition python library
 * /usr/lib/python3.12/site-packages/face_recognition_models/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/face_recognition_models-0.3.0/LICENSE
 * /usr/share/doc/face_recognition_models-0.3.0/README.rst
-{{< /files >}}

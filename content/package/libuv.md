@@ -16,7 +16,8 @@ reverse_depends = "['bind', 'cmake', 'libluv', 'libwebsockets', 'nodejs18', 'nod
 +++
 Multi-platform support library with a focus on asynchronous I/O
 
-{{< files text="show files" >}}* /usr/include/uv.h
+## Files: 
+* /usr/include/uv.h
 * /usr/include/uv/errno.h
 * /usr/include/uv/linux.h
 * /usr/include/uv/threadpool.h
@@ -30,4 +31,3 @@ Multi-platform support library with a focus on asynchronous I/O
 * /usr/share/doc/libuv-1.48.0/ChangeLog
 * /usr/share/doc/libuv-1.48.0/LICENSE
 * /usr/share/doc/libuv-1.48.0/README.md
-{{< /files >}}

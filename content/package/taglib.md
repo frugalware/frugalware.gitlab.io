@@ -16,7 +16,8 @@ reverse_depends = "['babe', 'ffmpegthumbs', 'gst1-plugins-good-taglib', 'juk', '
 +++
 A library for reading and editing the meta-data of several popular audio formats.
 
-{{< files text="show files" >}}* /usr/bin/taglib-config
+## Files: 
+* /usr/bin/taglib-config
 * /usr/include/taglib/aifffile.h
 * /usr/include/taglib/aiffproperties.h
 * /usr/include/taglib/apefile.h
@@ -147,4 +148,3 @@ A library for reading and editing the meta-data of several popular audio formats
 * /usr/share/doc/taglib-2.0/COPYING.MPL
 * /usr/share/doc/taglib-2.0/INSTALL.md
 * /usr/share/doc/taglib-2.0/README.md
-{{< /files >}}

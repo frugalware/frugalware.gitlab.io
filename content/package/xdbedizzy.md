@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 demo of DBE creating a double buffered spinning scene
 
-{{< files text="show files" >}}* /usr/bin/xdbedizzy
+## Files: 
+* /usr/bin/xdbedizzy
 * /usr/share/doc/xdbedizzy-1.1.0/ChangeLog
 * /usr/share/doc/xdbedizzy-1.1.0/COPYING
 * /usr/share/doc/xdbedizzy-1.1.0/INSTALL
 * /usr/share/doc/xdbedizzy-1.1.0/README
 * /usr/share/man/man1/xdbedizzy.1.gz
-{{< /files >}}

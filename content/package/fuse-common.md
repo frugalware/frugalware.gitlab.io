@@ -16,6 +16,6 @@ reverse_depends = "['fuse', 'fuse3']"
 +++
 Common files for fuse2 and fuse3 package
 
-{{< files text="show files" >}}* /etc/fuse.conf
+## Files: 
+* /etc/fuse.conf
 * /usr/lib/udev/rules.d/99-fuse3.rules
-{{< /files >}}

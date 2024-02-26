@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 A package manager for the web
 
-{{< files text="show files" >}}* /usr/bin/bower
+## Files: 
+* /usr/bin/bower
 * /usr/lib/node_modules/bower/.editorconfig
 * /usr/lib/node_modules/bower/.eslintignore
 * /usr/lib/node_modules/bower/.eslintrc
@@ -5494,4 +5495,3 @@ A package manager for the web
 * /usr/lib/node_modules/root/tests/test-urls.js
 * /usr/share/doc/bower-1.8.14/LICENSE
 * /usr/share/doc/bower-1.8.14/README.md
-{{< /files >}}

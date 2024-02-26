@@ -15,7 +15,8 @@ depends = "['qt6-webengine']"
 +++
 The Qt6 toolkit, qtwebview
 
-{{< files text="show files" >}}* /usr/include/qt6/QtWebView/6.6.2/QtWebView/private/qabstractwebview_p.h
+## Files: 
+* /usr/include/qt6/QtWebView/6.6.2/QtWebView/private/qabstractwebview_p.h
 * /usr/include/qt6/QtWebView/6.6.2/QtWebView/private/qnativeviewcontroller_p.h
 * /usr/include/qt6/QtWebView/6.6.2/QtWebView/private/qwebviewfactory_p.h
 * /usr/include/qt6/QtWebView/6.6.2/QtWebView/private/qwebviewinterface_p.h
@@ -89,4 +90,3 @@ The Qt6 toolkit, qtwebview
 * /usr/lib/qt6/qml/QtWebView/libqtwebviewquickplugin.so
 * /usr/lib/qt6/qml/QtWebView/plugins.qmltypes
 * /usr/lib/qt6/qml/QtWebView/qmldir
-{{< /files >}}

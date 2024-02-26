@@ -16,7 +16,8 @@ reverse_depends = "['claws-mail-plugin-tnef-parse']"
 +++
 Yerase's TNEF Stream Reader
 
-{{< files text="show files" >}}* /usr/include/mapi.h
+## Files: 
+* /usr/include/mapi.h
 * /usr/include/mapidefs.h
 * /usr/include/mapitags.h
 * /usr/include/tnef-errors.h
@@ -28,4 +29,3 @@ Yerase's TNEF Stream Reader
 * /usr/share/doc/libytnef-1.5/ChangeLog
 * /usr/share/doc/libytnef-1.5/COPYING
 * /usr/share/doc/libytnef-1.5/INSTALL
-{{< /files >}}

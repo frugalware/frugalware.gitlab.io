@@ -15,7 +15,8 @@ depends = "['fontconfig', 'mkfontscale']"
 +++
 Free equivalent font to Microsoft's Cambria
 
-{{< files text="show files" >}}* /usr/share/doc/crosextrafonts-caladea-20230622.g336a529/README.md
+## Files: 
+* /usr/share/doc/crosextrafonts-caladea-20230622.g336a529/README.md
 * /usr/share/fonts/X11/OTF/Caladea-Bold.otf
 * /usr/share/fonts/X11/OTF/Caladea-BoldItalic.otf
 * /usr/share/fonts/X11/OTF/Caladea-Italic.otf
@@ -24,4 +25,3 @@ Free equivalent font to Microsoft's Cambria
 * /usr/share/fonts/X11/TTF/Caladea-BoldItalic.ttf
 * /usr/share/fonts/X11/TTF/Caladea-Italic.ttf
 * /usr/share/fonts/X11/TTF/Caladea-Regular.ttf
-{{< /files >}}

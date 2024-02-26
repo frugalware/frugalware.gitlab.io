@@ -15,7 +15,8 @@ depends = "['python3>=3.10']"
 +++
 The modular source code checker: pep8, pyflakes and co
 
-{{< files text="show files" >}}* /usr/bin/flake8
+## Files: 
+* /usr/bin/flake8
 * /usr/lib/python3.12/site-packages/flake8-6.0.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/flake8-6.0.0-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/flake8-6.0.0-py3.12.egg-info/PKG-INFO
@@ -88,4 +89,3 @@ The modular source code checker: pep8, pyflakes and co
 * /usr/lib/python3.12/site-packages/flake8/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/flake8-6.0.0/LICENSE
 * /usr/share/doc/flake8-6.0.0/README.rst
-{{< /files >}}

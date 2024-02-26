@@ -15,6 +15,6 @@ depends = "['libvlc>=3.0.20', 'x264>=20230712.ga8b68eb']"
 +++
 vlc x264 support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/libx26410b_plugin.so
+## Files: 
+* /usr/lib/vlc/plugins/codec/libx26410b_plugin.so
 * /usr/lib/vlc/plugins/codec/libx264_plugin.so
-{{< /files >}}

@@ -15,8 +15,8 @@ depends = "['libstdc++']"
 +++
 A utility for encoding and decoding the catalog files used by openttd.
 
-{{< files text="show files" >}}* /usr/bin/catcodec
+## Files: 
+* /usr/bin/catcodec
 * /usr/share/doc/catcodec-1.0.5/COPYING
 * /usr/share/doc/catcodec-1.0.5/readme.txt
 * /usr/share/man/man1/catcodec.1.gz
-{{< /files >}}

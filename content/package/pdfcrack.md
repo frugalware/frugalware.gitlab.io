@@ -15,8 +15,8 @@ depends = "['glibc']"
 +++
 Password recovery tool for PDF-files
 
-{{< files text="show files" >}}* /usr/bin/pdfcrack
+## Files: 
+* /usr/bin/pdfcrack
 * /usr/share/doc/pdfcrack-0.19/COPYING
 * /usr/share/doc/pdfcrack-0.19/README
 * /usr/share/doc/pdfcrack-0.19/TODO
-{{< /files >}}

@@ -15,7 +15,7 @@ depends = "['libvlc>=3.0.20', 'libvorbis']"
 +++
 vlc vorbis support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/libvorbis_plugin.so
+## Files: 
+* /usr/lib/vlc/plugins/codec/libvorbis_plugin.so
 * /usr/lib/vlc/plugins/demux/libogg_plugin.so
 * /usr/lib/vlc/plugins/mux/libmux_ogg_plugin.so
-{{< /files >}}

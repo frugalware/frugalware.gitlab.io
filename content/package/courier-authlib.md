@@ -16,7 +16,8 @@ reverse_depends = "['courier-imap', 'courier-maildrop']"
 +++
 The Courier authentication library & daemon
 
-{{< files text="show files" >}}* /etc/courier/authdaemonrc
+## Files: 
+* /etc/courier/authdaemonrc
 * /etc/courier/authlib/userdb
 * /etc/ld.so.conf.d/courier-authlib.conf
 * /etc/tmpfiles.d/courier-authlib.conf
@@ -120,4 +121,3 @@ The Courier authentication library & daemon
 * /usr/share/man/man8/pw2userdb.8.gz
 * /usr/share/man/man8/userdb.8.gz
 * /usr/share/man/man8/userdbpw.8.gz
-{{< /files >}}

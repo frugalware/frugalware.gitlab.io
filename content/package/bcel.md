@@ -15,7 +15,8 @@ depends = "['openjre']"
 +++
 The Byte Code Engineering Library: analyze, create, manipulate Java class files
 
-{{< files text="show files" >}}* /usr/share/doc/bcel-5.2/ChangeLog
+## Files: 
+* /usr/share/doc/bcel-5.2/ChangeLog
 * /usr/share/doc/bcel-5.2/COPYING
 * /usr/share/doc/bcel-5.2/INSTALL
 * /usr/share/doc/bcel-5.2/NEWS
@@ -23,4 +24,3 @@ The Byte Code Engineering Library: analyze, create, manipulate Java class files
 * /usr/share/doc/bcel-5.2/README.txt
 * /usr/share/doc/bcel-5.2/TODO
 * /usr/share/java/bcel.jar
-{{< /files >}}

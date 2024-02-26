@@ -15,8 +15,8 @@ depends = "['alsa-plugins>=1.2.7.1', 'speex>=1.2rc2-4']"
 +++
 ALSA plugin for speex.
 
-{{< files text="show files" >}}* /usr/lib/alsa-lib/libasound_module_pcm_speex.so
+## Files: 
+* /usr/lib/alsa-lib/libasound_module_pcm_speex.so
 * /usr/lib/alsa-lib/libasound_module_rate_speexrate.so
 * /usr/lib/alsa-lib/libasound_module_rate_speexrate_best.so
 * /usr/lib/alsa-lib/libasound_module_rate_speexrate_medium.so
-{{< /files >}}

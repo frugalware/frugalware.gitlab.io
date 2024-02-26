@@ -15,7 +15,8 @@ depends = "['fuseiso>=20070708-4', 'icoutils>=0.31.0-3', 'qt5-svg>=5.15.10']"
 +++
 Q4Wine is a Qt5 GUI for W.I.N.E.
 
-{{< files text="show files" >}}* /usr/bin/q4wine
+## Files: 
+* /usr/bin/q4wine
 * /usr/bin/q4wine-cli
 * /usr/bin/q4wine-helper
 * /usr/lib/libq4wine-core.so
@@ -80,4 +81,3 @@ Q4Wine is a Qt5 GUI for W.I.N.E.
 * /usr/share/q4wine/theme/nuvola/data/up.png
 * /usr/share/q4wine/theme/nuvola/data/wine.png
 * /usr/share/q4wine/theme/nuvola/data/wizard.png
-{{< /files >}}

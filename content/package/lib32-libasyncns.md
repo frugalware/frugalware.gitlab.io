@@ -16,8 +16,8 @@ reverse_depends = "['lib32-libpulse']"
 +++
 libasyncns is a C library for Linux/Unix for executing name service queries asynchronously ( 32bit )
 
-{{< files text="show files" >}}* /usr/lib32/libasyncns.so
+## Files: 
+* /usr/lib32/libasyncns.so
 * /usr/lib32/libasyncns.so.0
 * /usr/lib32/libasyncns.so.0.3.1
 * /usr/lib32/pkgconfig/libasyncns.pc
-{{< /files >}}

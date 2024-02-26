@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Icelandic support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/is/default.css
+## Files: 
+* /usr/lib/libreoffice/help/is/default.css
 * /usr/lib/libreoffice/help/is/err.html
 * /usr/lib/libreoffice/help/is/highcontrast1.css
 * /usr/lib/libreoffice/help/is/highcontrast2.css
@@ -133,4 +134,3 @@ Installs Icelandic support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-is.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_is.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_is.xcd
-{{< /files >}}

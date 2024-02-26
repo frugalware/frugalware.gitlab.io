@@ -16,7 +16,8 @@ reverse_depends = "['m17n-lib']"
 +++
 A multilingual processing database.
 
-{{< files text="show files" >}}* /usr/bin/m17n-db
+## Files: 
+* /usr/bin/m17n-db
 * /usr/lib/pkgconfig/m17n-db.pc
 * /usr/share/doc/m17n-db-1.8.0/AUTHORS
 * /usr/share/doc/m17n-db-1.8.0/ChangeLog
@@ -611,4 +612,3 @@ A multilingual processing database.
 * /usr/share/m17n/zh.lnm
 * /usr/share/m17n/zh_Hans.lnm
 * /usr/share/m17n/zh_Hant.lnm
-{{< /files >}}

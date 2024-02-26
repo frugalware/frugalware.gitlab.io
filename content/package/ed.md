@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 A POSIX-compliant line editor
 
-{{< files text="show files" >}}* /usr/bin/ed
+## Files: 
+* /usr/bin/ed
 * /usr/bin/red
 * /usr/share/doc/ed-1.20.1/AUTHORS
 * /usr/share/doc/ed-1.20.1/ChangeLog
@@ -26,4 +27,3 @@ A POSIX-compliant line editor
 * /usr/share/info/ed.info.gz
 * /usr/share/man/man1/ed.1.gz
 * /usr/share/man/man1/red.1.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['blender', 'digikam', 'gmic', 'julia', 'nomacs', 'opencv-pyt
 +++
 An optimized BLAS library based on GotoBLAS2 1.13 BSD
 
-{{< files text="show files" >}}* /usr/include/openblas/cblas.h
+## Files: 
+* /usr/include/openblas/cblas.h
 * /usr/include/openblas/f77blas.h
 * /usr/include/openblas/lapack.h
 * /usr/include/openblas/lapacke.h
@@ -50,4 +51,3 @@ An optimized BLAS library based on GotoBLAS2 1.13 BSD
 * /usr/share/doc/openblas-0.3.26/GotoBLAS_04FAQ.txt
 * /usr/share/doc/openblas-0.3.26/LICENSE
 * /usr/share/doc/openblas-0.3.26/README.md
-{{< /files >}}

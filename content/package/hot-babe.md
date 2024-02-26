@@ -15,7 +15,8 @@ depends = "['gtk+2>=2.20.1', 'libxdamage']"
 +++
 A system load monitor that displays the system activity in a very special way
 
-{{< files text="show files" >}}* /usr/bin/hot-babe
+## Files: 
+* /usr/bin/hot-babe
 * /usr/share/applications/hot-babe.desktop
 * /usr/share/doc/hot-babe-0.2.2/ChangeLog
 * /usr/share/doc/hot-babe-0.2.2/CONTRIBUTORS
@@ -37,4 +38,3 @@ A system load monitor that displays the system activity in a very special way
 * /usr/share/hot-babe/hb01/hb01_4.png
 * /usr/share/man/man1/hot-babe.1.gz
 * /usr/share/pixmaps/hot-babe.xpm
-{{< /files >}}

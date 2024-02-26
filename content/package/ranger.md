@@ -15,7 +15,8 @@ depends = "['python3>=3.8.3']"
 +++
 Ranger is a free console file manager
 
-{{< files text="show files" >}}* /usr/bin/ranger
+## Files: 
+* /usr/bin/ranger
 * /usr/bin/rifle
 * /usr/lib/python3.12/site-packages/ranger/api/commands.py
 * /usr/lib/python3.12/site-packages/ranger/api/__init__.py
@@ -301,4 +302,3 @@ Ranger is a free console file manager
 * /usr/share/doc/ranger/tools/print_keys.py
 * /usr/share/man/man1/ranger.1.gz
 * /usr/share/man/man1/rifle.1.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libgl', 'libpng', 'libsm', 'libstdc++', 'libxcursor', 'libxdamage',
 +++
 KSubtile is a KDE program (C++) which provides an easy to use interface to edit subtitles in the SRT format
 
-{{< files text="show files" >}}* usr/bin/ksubtile
+## Files: 
+* usr/bin/ksubtile
 * usr/share/applnk/Editors/ksubtile.desktop
 * usr/share/apps/ksubtile/ksubtileui.rc
 * usr/share/doc/HTML/en/ksubtile/common
@@ -30,4 +31,3 @@ KSubtile is a KDE program (C++) which provides an easy to use interface to edit 
 * usr/share/icons/hicolor/16x16/apps/ksubtile.png
 * usr/share/icons/hicolor/32x32/apps/ksubtile.png
 * usr/share/mimelnk/application/srt.desktop
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['apache']"
 +++
 A powerful light-weight programming language designed for extending applications.
 
-{{< files text="show files" >}}* /usr/bin/lua5.3
+## Files: 
+* /usr/bin/lua5.3
 * /usr/bin/luac5.3
 * /usr/include/lua5.3/lauxlib.h
 * /usr/include/lua5.3/lua.h
@@ -31,4 +32,3 @@ A powerful light-weight programming language designed for extending applications
 * /usr/share/doc/lua53-5.3.6/README
 * /usr/share/man/man1/lua5.3.6.gz
 * /usr/share/man/man1/luac5.3.6.gz
-{{< /files >}}

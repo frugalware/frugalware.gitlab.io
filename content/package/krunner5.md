@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-search', 'kdeplasma-addons5', 'kdevelop', 'kwin5', 
 +++
 Framework for providing different actions given a string query.
 
-{{< files text="show files" >}}* /usr/include/KF5/KRunner/KRunner/AbstractRunner
+## Files: 
+* /usr/include/KF5/KRunner/KRunner/AbstractRunner
 * /usr/include/KF5/KRunner/krunner/abstractrunner.h
 * /usr/include/KF5/KRunner/KRunner/AbstractRunnerTest
 * /usr/include/KF5/KRunner/krunner/abstractrunnertest.h
@@ -49,4 +50,3 @@ Framework for providing different actions given a string query.
 * /usr/share/qt5/mkspecs/modules/qt_KRunner.pri
 * /usr/share/qt5/qml/org/kde/runnermodel/librunnermodelplugin.so
 * /usr/share/qt5/qml/org/kde/runnermodel/qmldir
-{{< /files >}}

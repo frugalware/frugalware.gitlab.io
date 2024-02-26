@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Compiler runtime libraries for clang (static)
 
-{{< files text="show files" >}}* /usr/lib/clang/17/lib/x86_64-frugalware-linux/libclang_rt.asan-preinit.a
+## Files: 
+* /usr/lib/clang/17/lib/x86_64-frugalware-linux/libclang_rt.asan-preinit.a
 * /usr/lib/clang/17/lib/x86_64-frugalware-linux/libclang_rt.asan.a
 * /usr/lib/clang/17/lib/x86_64-frugalware-linux/libclang_rt.asan_cxx.a
 * /usr/lib/clang/17/lib/x86_64-frugalware-linux/libclang_rt.asan_static.a
@@ -54,4 +55,3 @@ Compiler runtime libraries for clang (static)
 * /usr/lib/clang/17/lib/x86_64-frugalware-linux/libclang_rt.xray-fdr.a
 * /usr/lib/clang/17/lib/x86_64-frugalware-linux/libclang_rt.xray-profiling.a
 * /usr/lib/clang/17/lib/x86_64-frugalware-linux/libclang_rt.xray.a
-{{< /files >}}

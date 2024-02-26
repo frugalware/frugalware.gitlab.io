@@ -16,7 +16,8 @@ reverse_depends = "['adios2']"
 +++
 Compressed numerical arrays that support high-speed random access
 
-{{< files text="show files" >}}* /usr/bin/zfp
+## Files: 
+* /usr/bin/zfp
 * /usr/include/zfp.h
 * /usr/include/zfp.hpp
 * /usr/include/zfp/array.h
@@ -85,4 +86,3 @@ Compressed numerical arrays that support high-speed random access
 * /usr/lib/libzfp.so.1.0.1
 * /usr/share/doc/zfp-1.0.1/LICENSE
 * /usr/share/doc/zfp-1.0.1/README.md
-{{< /files >}}

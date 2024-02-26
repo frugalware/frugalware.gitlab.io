@@ -15,7 +15,8 @@ depends = "['qt6-quick3d']"
 +++
 The Qt6 toolkit, qtgraphs
 
-{{< files text="show files" >}}* /usr/include/qt6/QtGraphs/6.6.2/QtGraphs/private/abstract3dcontroller_p.h
+## Files: 
+* /usr/include/qt6/QtGraphs/6.6.2/QtGraphs/private/abstract3dcontroller_p.h
 * /usr/include/qt6/QtGraphs/6.6.2/QtGraphs/private/abstractitemmodelhandler_p.h
 * /usr/include/qt6/QtGraphs/6.6.2/QtGraphs/private/axishelper_p.h
 * /usr/include/qt6/QtGraphs/6.6.2/QtGraphs/private/barinstancing_p.h
@@ -186,4 +187,3 @@ The Qt6 toolkit, qtgraphs
 * /usr/lib/qt6/qml/QtGraphs/qml/designer/Scatter3DSpecifics.qml
 * /usr/lib/qt6/qml/QtGraphs/qml/designer/Surface3DSpecifics.qml
 * /usr/lib/qt6/qml/QtGraphs/qmldir
-{{< /files >}}

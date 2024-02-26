@@ -16,7 +16,8 @@ reverse_depends = "['libguestfs-ocaml']"
 +++
 OCaml bindings for Augeas
 
-{{< files text="show files" >}}* /usr/lib/ocaml/augeas/augeas.cmi
+## Files: 
+* /usr/lib/ocaml/augeas/augeas.cmi
 * /usr/lib/ocaml/augeas/augeas.cmx
 * /usr/lib/ocaml/augeas/augeas.mli
 * /usr/lib/ocaml/augeas/libmlaugeas.a
@@ -28,4 +29,3 @@ OCaml bindings for Augeas
 * /usr/lib/ocaml/stublibs/dllmlaugeas.so.owner
 * /usr/share/doc/ocaml-augeas-0.6/COPYING.LIB
 * /usr/share/doc/ocaml-augeas-0.6/MANIFEST
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['git>=2.44.0']"
 +++
 Web interface for Git.
 
-{{< files text="show files" >}}* /etc/gitweb.conf
+## Files: 
+* /etc/gitweb.conf
 * /etc/httpd/conf/modules.d/gitweb.conf
 * /var/www/gitweb/git-favicon.png
 * /var/www/gitweb/git-logo.png
@@ -29,4 +30,3 @@ Web interface for Git.
 * /var/www/gitweb/js/lib/cookies.js
 * /var/www/gitweb/js/lib/datetime.js
 * /var/www/gitweb/js/README
-{{< /files >}}

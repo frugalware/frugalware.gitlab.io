@@ -16,9 +16,9 @@ reverse_depends = "['lib32-libsystemd', 'lib32-libxcrypt-compat', 'lib32-pam', '
 +++
 Modern library for one-way hashing of passwords - lib32
 
-{{< files text="show files" >}}* /usr/lib32/libcrypt.so
+## Files: 
+* /usr/lib32/libcrypt.so
 * /usr/lib32/libcrypt.so.2
 * /usr/lib32/libcrypt.so.2.0.0
 * /usr/lib32/pkgconfig/libcrypt.pc
 * /usr/lib32/pkgconfig/libxcrypt.pc
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Estonian support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/et/default.css
+## Files: 
+* /usr/lib/libreoffice/help/et/default.css
 * /usr/lib/libreoffice/help/et/err.html
 * /usr/lib/libreoffice/help/et/highcontrast1.css
 * /usr/lib/libreoffice/help/et/highcontrast2.css
@@ -133,4 +134,3 @@ Installs Estonian support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-et.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_et.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_et.xcd
-{{< /files >}}

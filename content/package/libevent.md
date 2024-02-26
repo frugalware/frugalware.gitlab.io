@@ -16,7 +16,8 @@ reverse_depends = "['avahi', 'faifa', 'firefox', 'libreswan', 'memcached', 'nfs-
 +++
 Provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached
 
-{{< files text="show files" >}}* /usr/bin/event_rpcgen.py
+## Files: 
+* /usr/bin/event_rpcgen.py
 * /usr/include/evdns.h
 * /usr/include/event.h
 * /usr/include/event2/buffer.h
@@ -71,4 +72,3 @@ Provides a mechanism to execute a callback function when a specific event occurs
 * /usr/share/doc/libevent-2.1.12/ChangeLog
 * /usr/share/doc/libevent-2.1.12/LICENSE
 * /usr/share/doc/libevent-2.1.12/README.md
-{{< /files >}}

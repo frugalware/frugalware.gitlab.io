@@ -16,7 +16,8 @@ reverse_depends = "['haskell-ansi-terminal']"
 +++
 Types and functions used to represent SGR aspects
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/ansi-terminal-types-0.11.5/libHSansi-terminal-types-0.11.5-2a2fmPlNFqF1DlTktOKqnN.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/ansi-terminal-types-0.11.5/libHSansi-terminal-types-0.11.5-2a2fmPlNFqF1DlTktOKqnN.a
 * /usr/lib/ghc-9.8.1/site-local/ansi-terminal-types-0.11.5/System/Console/ANSI/Types.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/ansi-terminal-types-0.11.5/System/Console/ANSI/Types.hi
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSansi-terminal-types-0.11.5-2a2fmPlNFqF1DlTktOKqnN-ghc9.8.1.so
@@ -34,4 +35,3 @@ Types and functions used to represent SGR aspects
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/ansi-terminal-types-0.11.5/LICENSE
 * /usr/share/haskell/haskell-ansi-terminal-types/register.sh
 * /usr/share/haskell/haskell-ansi-terminal-types/unregister.sh
-{{< /files >}}

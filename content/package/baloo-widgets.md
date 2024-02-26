@@ -16,7 +16,8 @@ reverse_depends = "['dolphin']"
 +++
 Widgets for Baloo
 
-{{< files text="show files" >}}* /usr/bin/baloo_filemetadata_temp_extractor
+## Files: 
+* /usr/bin/baloo_filemetadata_temp_extractor
 * /usr/include/KF5/BalooWidgets/Baloo/FileMetaDataConfigWidget
 * /usr/include/KF5/BalooWidgets/baloo/filemetadataconfigwidget.h
 * /usr/include/KF5/BalooWidgets/Baloo/FileMetaDataWidget
@@ -87,4 +88,3 @@ Widgets for Baloo
 * /usr/share/locale/zh_CN/LC_MESSAGES/baloowidgets5.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/baloowidgets5.mo
 * /usr/share/qlogging-categories5/baloo-widgets.categories
-{{< /files >}}

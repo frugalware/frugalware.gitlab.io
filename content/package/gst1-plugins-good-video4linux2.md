@@ -16,5 +16,5 @@ reverse_depends = "['kamoso']"
 +++
 GStreamer video4linux2 plugin (Good).
 
-{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstvideo4linux2.so
-{{< /files >}}
+## Files: 
+* /usr/lib/gstreamer-1.0/libgstvideo4linux2.so

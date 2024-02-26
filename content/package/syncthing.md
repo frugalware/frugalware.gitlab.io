@@ -17,11 +17,11 @@ license = "MIT"
 +++
 Open Source Continuous Replication / Cluster Synchronization Thing
 
-{{< files text="show files" >}}* /usr/bin/syncthing
+## Files: 
+* /usr/bin/syncthing
 * /usr/lib/systemd/system/syncthing-resume.service
 * /usr/lib/systemd/system/syncthing@.service
 * /usr/share/doc/syncthing-1.27.2/AUTHORS
 * /usr/share/doc/syncthing-1.27.2/LICENSE
 * /usr/share/doc/syncthing-1.27.2/README-Docker.md
 * /usr/share/doc/syncthing-1.27.2/README.md
-{{< /files >}}

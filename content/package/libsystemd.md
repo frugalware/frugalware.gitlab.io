@@ -16,7 +16,8 @@ reverse_depends = "['avahi', 'bluez', 'clamav', 'clightd', 'connman', 'dbus', 'd
 +++
 systemd libs
 
-{{< files text="show files" >}}* /etc/ld.so.conf.d/libsystemd.conf
+## Files: 
+* /etc/ld.so.conf.d/libsystemd.conf
 * /usr/lib/libnss_myhostname.so.2
 * /usr/lib/libnss_mymachines.so.2
 * /usr/lib/libnss_systemd.so.2
@@ -29,4 +30,3 @@ systemd libs
 * /usr/lib/security/pam_systemd_loadkey.so
 * /usr/lib/systemd/libsystemd-core-255.so
 * /usr/lib/systemd/libsystemd-shared-255.so
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['udisks2', 'wimlib']"
 +++
 A is a collection of utilities to access MS-DOS disks from Unix without mounting them
 
-{{< files text="show files" >}}* /usr/bin/amuFormat.sh
+## Files: 
+* /usr/bin/amuFormat.sh
 * /usr/bin/floppyd
 * /usr/bin/floppyd_installtest
 * /usr/bin/lz
@@ -84,4 +85,3 @@ A is a collection of utilities to access MS-DOS disks from Unix without mounting
 * /usr/share/man/man1/mtype.1.gz
 * /usr/share/man/man1/mzip.1.gz
 * /usr/share/man/man5/mtools.5.gz
-{{< /files >}}

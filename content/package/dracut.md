@@ -16,7 +16,8 @@ reverse_depends = "['dracut-network', 'kernel-initrd', 'kernel-lts-initrd']"
 +++
 Generic initramfs generationtool
 
-{{< files text="show files" >}}* /etc/dracut.conf
+## Files: 
+* /etc/dracut.conf
 * /etc/dracut.conf.d/00-frugalware.conf
 * /etc/dracut.conf.d/10-frugalware-omitted-modules.conf
 * /usr/bin/dracut
@@ -392,4 +393,3 @@ Generic initramfs generationtool
 * /usr/share/man/man8/dracut-pre-udev.service.8.gz
 * /usr/share/man/man8/dracut-shutdown.service.8.gz
 * /usr/share/man/man8/dracut.8.gz
-{{< /files >}}

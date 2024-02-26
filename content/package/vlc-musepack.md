@@ -15,5 +15,5 @@ depends = "['libmpcdec', 'libvlc>=3.0.20']"
 +++
 vlc musepack support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/demux/libmpc_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/demux/libmpc_plugin.so

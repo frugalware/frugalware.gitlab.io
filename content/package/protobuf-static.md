@@ -15,6 +15,6 @@ depends = "[]"
 +++
 Static files for protobuf
 
-{{< files text="show files" >}}* /usr/lib/libutf8_range.a
+## Files: 
+* /usr/lib/libutf8_range.a
 * /usr/lib/libutf8_validity.a
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['haskell-http-client', 'haskell-ipynb', 'haskell-skylighting
 +++
 Fast base64 encoding and decoding for ByteStrings
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/base64-bytestring-1.2.1.0/Data/ByteString/Base64.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/base64-bytestring-1.2.1.0/Data/ByteString/Base64.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/base64-bytestring-1.2.1.0/Data/ByteString/Base64.hi
 * /usr/lib/ghc-9.8.1/site-local/base64-bytestring-1.2.1.0/Data/ByteString/Base64/Internal.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/base64-bytestring-1.2.1.0/Data/ByteString/Base64/Internal.hi
@@ -45,4 +46,3 @@ Fast base64 encoding and decoding for ByteStrings
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/base64-bytestring-1.2.1.0/LICENSE
 * /usr/share/haskell/haskell-base64-bytestring/register.sh
 * /usr/share/haskell/haskell-base64-bytestring/unregister.sh
-{{< /files >}}

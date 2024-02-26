@@ -16,7 +16,8 @@ reverse_depends = "['grantlee', 'ki18n', 'mixxx', 'otter-browser', 'qbs', 'smpla
 +++
 The Qt5 toolkit, qtscript
 
-{{< files text="show files" >}}* /usr/include/qt5/QtScript/5.15.12/QtScript/private/qscriptable_p.h
+## Files: 
+* /usr/include/qt5/QtScript/5.15.12/QtScript/private/qscriptable_p.h
 * /usr/include/qt5/QtScript/5.15.12/QtScript/private/qscriptactivationobject_p.h
 * /usr/include/qt5/QtScript/5.15.12/QtScript/private/qscriptastfwd_p.h
 * /usr/include/qt5/QtScript/5.15.12/QtScript/private/qscriptastvisitor_p.h
@@ -186,4 +187,3 @@ The Qt5 toolkit, qtscript
 * /usr/share/qt5/mkspecs/modules/qt_lib_scripttools.pri
 * /usr/share/qt5/mkspecs/modules/qt_lib_scripttools_private.pri
 * /usr/share/qt5/mkspecs/modules/qt_lib_script_private.pri
-{{< /files >}}

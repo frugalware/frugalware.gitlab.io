@@ -15,7 +15,8 @@ depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kirigami-addons', 'mpv', 'qt5-sv
 +++
 Kirigami YouTube video player based on QtMultimedia and youtube-dl
 
-{{< files text="show files" >}}* /usr/bin/plasmatube
+## Files: 
+* /usr/bin/plasmatube
 * /usr/share/applications/org.kde.plasmatube.desktop
 * /usr/share/doc/plasmatube-23.08.5/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.plasmatube.svg
@@ -57,4 +58,3 @@ Kirigami YouTube video player based on QtMultimedia and youtube-dl
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasmatube.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasmatube.mo
 * /usr/share/metainfo/org.kde.plasmatube.appdata.xml
-{{< /files >}}

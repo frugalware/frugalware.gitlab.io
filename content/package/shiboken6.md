@@ -15,7 +15,8 @@ depends = "['clang-libs>=17.0.6', 'libxslt', 'qt6-base>=6.6.2']"
 +++
 Support library for Python bindings.
 
-{{< files text="show files" >}}* /usr/bin/shiboken6
+## Files: 
+* /usr/bin/shiboken6
 * /usr/bin/shiboken_tool.py
 * /usr/include/shiboken6/autodecref.h
 * /usr/include/shiboken6/basewrapper.h
@@ -68,4 +69,3 @@ Support library for Python bindings.
 * /usr/share/doc/shiboken6-6.6.2/README.pyside6_examples.md
 * /usr/share/doc/shiboken6-6.6.2/README.shiboken6-generator.md
 * /usr/share/doc/shiboken6-6.6.2/README.shiboken6.md
-{{< /files >}}

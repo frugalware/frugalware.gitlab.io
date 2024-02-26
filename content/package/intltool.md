@@ -15,7 +15,8 @@ depends = "['expat>=2.1.0-4', 'perl>=5.28.2', 'perl-xml-parser>=2.44-5', 'popt>=
 +++
 Contains scripts and autoconf magic for internationalizing various kinds of data files.
 
-{{< files text="show files" >}}* /usr/bin/intltool-extract
+## Files: 
+* /usr/bin/intltool-extract
 * /usr/bin/intltool-merge
 * /usr/bin/intltool-prepare
 * /usr/bin/intltool-update
@@ -33,4 +34,3 @@ Contains scripts and autoconf magic for internationalizing various kinds of data
 * /usr/share/man/man8/intltool-prepare.8.gz
 * /usr/share/man/man8/intltool-update.8.gz
 * /usr/share/man/man8/intltoolize.8.gz
-{{< /files >}}

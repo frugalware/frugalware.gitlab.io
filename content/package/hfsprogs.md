@@ -15,8 +15,8 @@ depends = "['libbsd', 'openssl>=3.1.0']"
 +++
 HFS/HFS+ user space utils
 
-{{< files text="show files" >}}* /usr/bin/fsck.hfsplus
+## Files: 
+* /usr/bin/fsck.hfsplus
 * /usr/bin/mkfs.hfsplus
 * /usr/share/man/man8/fsck.hfsplus.8.gz
 * /usr/share/man/man8/mkfs.hfsplus.8.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['cdrdao>=1.2.3-6', 'cdrtools>=3.01-3', 'dvd+rw-tools>=7.1-4', 'ffmpe
 +++
 The CD Kreator
 
-{{< files text="show files" >}}* /usr/bin/k3b
+## Files: 
+* /usr/bin/k3b
 * /usr/include/k3bactivepipe.h
 * /usr/include/k3baudiocdtrackdrag.h
 * /usr/include/k3baudiocdtrackreader.h
@@ -669,4 +670,3 @@ The CD Kreator
 * /usr/share/solid/actions/k3b_create_audio_cd_from_blank_medium.desktop
 * /usr/share/solid/actions/k3b_create_data_project_from_blank_medium.desktop
 * /usr/share/solid/actions/k3b_videodvd_rip.desktop
-{{< /files >}}

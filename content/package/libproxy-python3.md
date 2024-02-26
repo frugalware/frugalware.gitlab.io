@@ -15,4 +15,4 @@ depends = "['libproxy>=0.5.4', 'python3>=3.11']"
 +++
 libproxy python3 binding
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

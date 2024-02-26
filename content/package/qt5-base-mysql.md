@@ -15,6 +15,6 @@ depends = "['mariadb-libs>=10.3.14', 'qt5-base>=5.15.12', 'qt5-base-sql-common']
 +++
 Mysql support for qt5
 
-{{< files text="show files" >}}* /usr/lib/cmake/Qt5Sql/Qt5Sql_QMYSQLDriverPlugin.cmake
+## Files: 
+* /usr/lib/cmake/Qt5Sql/Qt5Sql_QMYSQLDriverPlugin.cmake
 * /usr/lib/qt5/plugins/sqldrivers/libqsqlmysql.so
-{{< /files >}}

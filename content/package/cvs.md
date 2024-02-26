@@ -15,7 +15,8 @@ depends = "['zlib>=1.2.12']"
 +++
 Concurrent Version System - a version control system
 
-{{< files text="show files" >}}* /usr/bin/cvs
+## Files: 
+* /usr/bin/cvs
 * /usr/bin/cvsbug
 * /usr/bin/rcs2log
 * /usr/share/cvs/contrib/check_cvs
@@ -56,4 +57,3 @@ Concurrent Version System - a version control system
 * /usr/share/man/man1/cvs.1.gz
 * /usr/share/man/man5/cvs.5.gz
 * /usr/share/man/man8/cvsbug.8.gz
-{{< /files >}}

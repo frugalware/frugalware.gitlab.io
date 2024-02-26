@@ -16,7 +16,8 @@ reverse_depends = "['labplot']"
 +++
 KDE Frontend to Mathematical Software.
 
-{{< files text="show files" >}}* /usr/bin/cantor
+## Files: 
+* /usr/bin/cantor
 * /usr/bin/cantor_juliaserver
 * /usr/bin/cantor_pythonserver
 * /usr/bin/cantor_rserver
@@ -271,4 +272,3 @@ KDE Frontend to Mathematical Software.
 * /usr/share/locale/zh_TW/LC_MESSAGES/cantor.mo
 * /usr/share/metainfo/org.kde.cantor.appdata.xml
 * /usr/share/mime/packages/cantor.xml
-{{< /files >}}

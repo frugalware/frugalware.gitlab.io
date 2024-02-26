@@ -16,7 +16,8 @@ reverse_depends = "['calibre', 'krename']"
 +++
 PoDoFo is a library to work with the PDF file format.
 
-{{< files text="show files" >}}* /usr/include/podofo/auxiliary/basecompat.h
+## Files: 
+* /usr/include/podofo/auxiliary/basecompat.h
 * /usr/include/podofo/auxiliary/basedefs.h
 * /usr/include/podofo/auxiliary/baseincludes.h
 * /usr/include/podofo/auxiliary/basetypes.h
@@ -168,4 +169,3 @@ PoDoFo is a library to work with the PDF file format.
 * /usr/share/doc/podofo-0.10.1/README.md
 * /usr/share/podofo/podofo-config-release.cmake
 * /usr/share/podofo/podofo-config.cmake
-{{< /files >}}

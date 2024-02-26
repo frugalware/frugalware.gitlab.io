@@ -16,7 +16,8 @@ reverse_depends = "['discover', 'falkon-kde', 'kio', 'kopete', 'krdc', 'krfb', '
 +++
 Safe desktop-wide storage for passwords.
 
-{{< files text="show files" >}}* /usr/bin/kwallet-query
+## Files: 
+* /usr/bin/kwallet-query
 * /usr/bin/kwalletd5
 * /usr/include/KF5/KWallet/KWallet
 * /usr/include/KF5/KWallet/kwallet.h
@@ -168,4 +169,3 @@ Safe desktop-wide storage for passwords.
 * /usr/share/qlogging-categories5/kwallet.categories
 * /usr/share/qlogging-categories5/kwallet.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KWallet.pri
-{{< /files >}}

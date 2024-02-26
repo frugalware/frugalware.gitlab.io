@@ -15,7 +15,8 @@ depends = "['python3>=3.11']"
 +++
 A Python-powered template engine and code generator
 
-{{< files text="show files" >}}* /usr/bin/cheetah
+## Files: 
+* /usr/bin/cheetah
 * /usr/bin/cheetah-analyze
 * /usr/bin/cheetah-compile
 * /usr/lib/python3.12/site-packages/Cheetah/CacheRegion.py
@@ -156,4 +157,3 @@ A Python-powered template engine and code generator
 * /usr/share/doc/python3-cheetah3-3.3.3/LICENSE
 * /usr/share/doc/python3-cheetah3-3.3.3/README.rst
 * /usr/share/doc/python3-cheetah3-3.3.3/TODO
-{{< /files >}}

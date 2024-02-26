@@ -15,7 +15,8 @@ depends = "['aspell']"
 +++
 GNU Aspell Irish Word List Package
 
-{{< files text="show files" >}}* usr/lib/aspell-0.60/ga.dat
+## Files: 
+* usr/lib/aspell-0.60/ga.dat
 * usr/lib/aspell-0.60/ga.multi
 * usr/lib/aspell-0.60/ga.rws
 * usr/lib/aspell-0.60/gaeilge.alias
@@ -23,4 +24,3 @@ GNU Aspell Irish Word List Package
 * usr/lib/aspell-0.60/irish.alias
 * usr/share/doc/aspell-ga-0.50.1r0/COPYING
 * usr/share/doc/aspell-ga-0.50.1r0/README
-{{< /files >}}

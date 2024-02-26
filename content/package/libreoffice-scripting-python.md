@@ -15,8 +15,8 @@ depends = "['libreoffice>=3.4.5.2']"
 +++
 Installs scripting python support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/share/extensions/script-provider-for-python/description.xml
+## Files: 
+* /usr/lib/libreoffice/share/extensions/script-provider-for-python/description.xml
 * /usr/lib/libreoffice/share/extensions/script-provider-for-python/META-INF/manifest.xml
 * /usr/lib/libreoffice/share/extensions/script-provider-for-python/pythonscript.py
 * /usr/lib/libreoffice/share/extensions/script-provider-for-python/registration/LICENSE
-{{< /files >}}

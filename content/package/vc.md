@@ -15,7 +15,8 @@ depends = "[]"
 +++
 C++ types for explicitly data-parallel programming
 
-{{< files text="show files" >}}* /usr/include/Vc/algorithm
+## Files: 
+* /usr/include/Vc/algorithm
 * /usr/include/Vc/Allocator
 * /usr/include/Vc/array
 * /usr/include/Vc/avx/casts.h
@@ -182,4 +183,3 @@ C++ types for explicitly data-parallel programming
 * /usr/share/doc/vc-1.4.3/INSTALL
 * /usr/share/doc/vc-1.4.3/LICENSE
 * /usr/share/doc/vc-1.4.3/README.md
-{{< /files >}}

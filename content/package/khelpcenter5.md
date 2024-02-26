@@ -15,7 +15,8 @@ depends = "['grantlee>=5.1.0-2', 'kcmutils>=5.115.0', 'kdelibs4support>=5.115.0'
 +++
 Application to show KDE Applications documentation.
 
-{{< files text="show files" >}}* /usr/bin/khelpcenter
+## Files: 
+* /usr/bin/khelpcenter
 * /usr/lib/kf5/khc_mansearch.pl
 * /usr/lib/kf5/khc_xapianindexer
 * /usr/lib/kf5/khc_xapiansearch
@@ -508,4 +509,3 @@ Application to show KDE Applications documentation.
 * /usr/share/locale/zh_TW/LC_MESSAGES/khelpcenter5.mo
 * /usr/share/metainfo/org.kde.khelpcenter.metainfo.xml
 * /usr/share/qlogging-categories5/khelpcenter.categories
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['lib32-libgl', 'lib32-libmicrohttpd', 'lib32-libsystemd', 'l
 +++
 Libgcrypt is a general purpose cryptographic library based on the code from GnuPG. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/dumpsexp
+## Files: 
+* /usr/i686-frugalware-linux/bin/dumpsexp
 * /usr/i686-frugalware-linux/bin/hmac256
 * /usr/i686-frugalware-linux/bin/libgcrypt-config
 * /usr/i686-frugalware-linux/bin/mpicalc
@@ -25,4 +26,3 @@ Libgcrypt is a general purpose cryptographic library based on the code from GnuP
 * /usr/lib32/libgcrypt.so.20
 * /usr/lib32/libgcrypt.so.20.4.3
 * /usr/lib32/pkgconfig/libgcrypt.pc
-{{< /files >}}

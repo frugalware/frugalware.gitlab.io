@@ -16,7 +16,8 @@ reverse_depends = "['alienarena', 'blender', 'bootsplash', 'cairo', 'chromium-br
 +++
 TrueType font rendering library - 2.0 series (with bytecode interpreter)
 
-{{< files text="show files" >}}* /usr/include/freetype2/freetype/config/ftconfig.h
+## Files: 
+* /usr/include/freetype2/freetype/config/ftconfig.h
 * /usr/include/freetype2/freetype/config/ftheader.h
 * /usr/include/freetype2/freetype/config/ftmodule.h
 * /usr/include/freetype2/freetype/config/ftoption.h
@@ -77,4 +78,3 @@ TrueType font rendering library - 2.0 series (with bytecode interpreter)
 * /usr/share/doc/freetype2-2.13.2/ChangeLog
 * /usr/share/doc/freetype2-2.13.2/README
 * /usr/share/doc/freetype2-2.13.2/README.git
-{{< /files >}}

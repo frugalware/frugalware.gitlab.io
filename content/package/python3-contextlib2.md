@@ -16,7 +16,8 @@ reverse_depends = "['python3-schema']"
 +++
 Backport of the standard library's contextlib module to earlier Python versions
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/contextlib2-21.6.0-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/contextlib2-21.6.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/contextlib2-21.6.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/contextlib2-21.6.0-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/contextlib2-21.6.0-py3.12.egg-info/top_level.txt
@@ -25,4 +26,3 @@ Backport of the standard library's contextlib module to earlier Python versions
 * /usr/lib/python3.12/site-packages/contextlib2/__init__.pyi
 * /usr/lib/python3.12/site-packages/contextlib2/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-contextlib2-21.6.0/README.rst
-{{< /files >}}

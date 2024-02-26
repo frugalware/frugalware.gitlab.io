@@ -15,7 +15,8 @@ depends = "['curl', 'json-c>=0.14', 'libhidapi', 'libusb']"
 +++
 Yubico Universal 2nd Factor (U2F) Host C Library
 
-{{< files text="show files" >}}* /usr/bin/u2f-host
+## Files: 
+* /usr/bin/u2f-host
 * /usr/include/u2f-host/u2f-host-types.h
 * /usr/include/u2f-host/u2f-host-version.h
 * /usr/include/u2f-host/u2f-host.h
@@ -33,4 +34,3 @@ Yubico Universal 2nd Factor (U2F) Host C Library
 * /usr/share/doc/libu2f-host-1.1.10/README.adoc
 * /usr/share/doc/libu2f-host-1.1.10/THANKS
 * /usr/share/man/man1/u2f-host.1.gz
-{{< /files >}}

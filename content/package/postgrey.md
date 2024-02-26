@@ -15,7 +15,8 @@ depends = "['db>=4.7.25', 'perl>=5.28.2', 'perl-berkeleydb', 'perl-io-multiplex'
 +++
 a Postfix policy server implementing greylisting
 
-{{< files text="show files" >}}* /etc/postfix/postgrey_whitelist_clients
+## Files: 
+* /etc/postfix/postgrey_whitelist_clients
 * /etc/postfix/postgrey_whitelist_recipients
 * /etc/sysconfig/postgrey
 * /usr/bin/postgrey
@@ -27,4 +28,3 @@ a Postfix policy server implementing greylisting
 * /usr/share/doc/postgrey-1.37/README.exim
 * /usr/share/doc/postgrey-1.37/README.Frugalware
 * /usr/share/doc/postgrey-1.37/README.md
-{{< /files >}}

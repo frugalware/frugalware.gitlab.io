@@ -15,8 +15,8 @@ depends = "['fontconfig', 'mkfontscale', 'ttf-bitstream-vera']"
 +++
 A color and B&W emoji SVG-in-OpenType font with support for ZWJ, skin tone modifiers and country flags.
 
-{{< files text="show files" >}}* /etc/fonts/conf.avail/46-twemoji-color.conf
+## Files: 
+* /etc/fonts/conf.avail/46-twemoji-color.conf
 * /etc/fonts/conf.d/46-twemoji-color.conf
 * /usr/share/doc/ttf-twemoji-color-14.0.2/README.md
 * /usr/share/fonts/X11/TTF/TwitterColorEmoji-SVGinOT.ttf
-{{< /files >}}

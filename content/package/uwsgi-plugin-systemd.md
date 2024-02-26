@@ -15,5 +15,5 @@ depends = "['systemd', 'uwsgi']"
 +++
 UWSGI Sysemd Logging Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/systemd_logger_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/uwsgi/systemd_logger_plugin.so

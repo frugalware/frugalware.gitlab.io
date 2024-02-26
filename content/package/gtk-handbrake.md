@@ -15,7 +15,8 @@ depends = "['gst1-plugins-base', 'gtk+3', 'handbrake', 'lame', 'libass', 'libnot
 +++
 gtk gui for handbrake
 
-{{< files text="show files" >}}* /usr/bin/ghb
+## Files: 
+* /usr/bin/ghb
 * /usr/share/applications/fr.handbrake.ghb.desktop
 * /usr/share/icons/hicolor/scalable/apps/fr.handbrake.ghb.svg
 * /usr/share/icons/hicolor/scalable/apps/hb-icon.svg
@@ -53,4 +54,3 @@ gtk gui for handbrake
 * /usr/share/locale/zh_CN/LC_MESSAGES/ghb.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/ghb.mo
 * /usr/share/metainfo/fr.handbrake.ghb.metainfo.xml
-{{< /files >}}

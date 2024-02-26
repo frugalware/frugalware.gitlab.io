@@ -15,7 +15,8 @@ depends = "['kcmutils>=5.115.0', 'kitemmodels>=5.115.0', 'kmime>=5.115.0', 'libk
 +++
 Certificate manager and GUI for OpenPGP and CMS cryptography.
 
-{{< files text="show files" >}}* /usr/bin/kleopatra
+## Files: 
+* /usr/bin/kleopatra
 * /usr/bin/kwatchgnupg
 * /usr/lib/libkleopatraclientcore.so
 * /usr/lib/libkleopatraclientcore.so.1
@@ -233,4 +234,3 @@ Certificate manager and GUI for OpenPGP and CMS cryptography.
 * /usr/share/mime/packages/application-vnd-kde-kleopatra.xml
 * /usr/share/qlogging-categories5/kleopatra.categories
 * /usr/share/qlogging-categories5/kleopatra.renamecategories
-{{< /files >}}

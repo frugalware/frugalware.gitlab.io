@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 ncmpc is a ncurses based music manager for mpd
 
-{{< files text="show files" >}}* /usr/bin/ncmpc
+## Files: 
+* /usr/bin/ncmpc
 * /usr/share/doc/ncmpc-0.49/AUTHORS
 * /usr/share/doc/ncmpc-0.49/COPYING
 * /usr/share/doc/ncmpc-0.49/NEWS
@@ -55,4 +56,3 @@ ncmpc is a ncurses based music manager for mpd
 * /usr/share/locale/sv/LC_MESSAGES/ncmpc.mo
 * /usr/share/locale/uk/LC_MESSAGES/ncmpc.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/ncmpc.mo
-{{< /files >}}

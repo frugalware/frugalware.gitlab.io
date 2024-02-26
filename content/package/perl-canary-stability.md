@@ -16,9 +16,9 @@ reverse_depends = "['perl-convert-uulib', 'perl-json-xs']"
 +++
 canary to check perl compatibility for schmorp's modules
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/Canary/Stability.pm
+## Files: 
+* /usr/lib/perl5/site_perl/Canary/Stability.pm
 * /usr/share/doc/perl-canary-stability-2013/COPYING
 * /usr/share/doc/perl-canary-stability-2013/MANIFEST
 * /usr/share/doc/perl-canary-stability-2013/README
 * /usr/share/man/man3/Canary::Stability.3perl.gz
-{{< /files >}}

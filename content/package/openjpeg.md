@@ -16,7 +16,8 @@ reverse_depends = "['blender', 'efl', 'ffmpeg', 'ffmpeg4.4', 'freeimage', 'gdcm'
 +++
 An open-source JPEG 2000 codec written in C
 
-{{< files text="show files" >}}* /usr/bin/opj_compress
+## Files: 
+* /usr/bin/opj_compress
 * /usr/bin/opj_decompress
 * /usr/bin/opj_dump
 * /usr/include/openjpeg-2.5/openjpeg.h
@@ -34,4 +35,3 @@ An open-source JPEG 2000 codec written in C
 * /usr/share/doc/openjpeg-2.5.0/INSTALL.md
 * /usr/share/doc/openjpeg-2.5.0/LICENSE
 * /usr/share/doc/openjpeg-2.5.0/README.md
-{{< /files >}}

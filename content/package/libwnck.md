@@ -16,7 +16,8 @@ reverse_depends = "['notification-daemon']"
 +++
 Window Navigator Construction Kit
 
-{{< files text="show files" >}}* /usr/bin/wnck-urgency-monitor
+## Files: 
+* /usr/bin/wnck-urgency-monitor
 * /usr/bin/wnckprop
 * /usr/include/libwnck-3.0/libwnck/application.h
 * /usr/include/libwnck-3.0/libwnck/class-group.h
@@ -138,4 +139,3 @@ Window Navigator Construction Kit
 * /usr/share/locale/zh_CN/LC_MESSAGES/libwnck-3.0.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/libwnck-3.0.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libwnck-3.0.mo
-{{< /files >}}

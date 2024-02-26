@@ -15,10 +15,10 @@ depends = "['fontconfig', 'mkfontscale']"
 +++
 A modified version of terminus font, 12 and 14. Added bold to 12, the 14 is smaller. Also have versions with status icons
 
-{{< files text="show files" >}}* /usr/share/doc/terminusmod-1.9.9/README.terminusmod
+## Files: 
+* /usr/share/doc/terminusmod-1.9.9/README.terminusmod
 * /usr/share/fonts/X11/misc/terminusmod12b.pcf.gz
 * /usr/share/fonts/X11/misc/terminusmod12r.icons.pcf.gz
 * /usr/share/fonts/X11/misc/terminusmodx12b.pcf.gz
 * /usr/share/fonts/X11/misc/terminusmodx12r.icons.pcf.gz
 * /usr/share/fonts/X11/misc/terminusmodx12r.pcf.gz
-{{< /files >}}

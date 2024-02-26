@@ -16,7 +16,8 @@ reverse_depends = "['hotdoc']"
 +++
 Implements a topological sort algorithm
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/toposort-1.10.dist-info/LICENSE.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/toposort-1.10.dist-info/LICENSE.txt
 * /usr/lib/python3.12/site-packages/toposort-1.10.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/toposort-1.10.dist-info/NOTICE
 * /usr/lib/python3.12/site-packages/toposort-1.10.dist-info/RECORD
@@ -26,4 +27,3 @@ Implements a topological sort algorithm
 * /usr/lib/python3.12/site-packages/__pycache__/toposort.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/__pycache__/toposort.cpython-312.pyc
 * /usr/share/doc/python3-toposort-1.10/README.md
-{{< /files >}}

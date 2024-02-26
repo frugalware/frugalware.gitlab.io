@@ -15,7 +15,8 @@ depends = "[]"
 +++
 aRts plugin for XMMS
 
-{{< files text="show files" >}}* usr/bin/xmms-arts-helper
+## Files: 
+* usr/bin/xmms-arts-helper
 * usr/lib/xmms/Output/libarts.la
 * usr/lib/xmms/Output/libarts.so
 * usr/share/doc/xmms-arts_output-0.7.1/AUTHORS
@@ -24,4 +25,3 @@ aRts plugin for XMMS
 * usr/share/doc/xmms-arts_output-0.7.1/INSTALL
 * usr/share/doc/xmms-arts_output-0.7.1/NEWS
 * usr/share/doc/xmms-arts_output-0.7.1/README
-{{< /files >}}

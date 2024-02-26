@@ -16,7 +16,8 @@ reverse_depends = "['mediainfo']"
 +++
 shared library for mediainfo
 
-{{< files text="show files" >}}* /usr/include/MediaInfo/File_Dummy.h
+## Files: 
+* /usr/include/MediaInfo/File_Dummy.h
 * /usr/include/MediaInfo/File_Other.h
 * /usr/include/MediaInfo/File_Unknown.h
 * /usr/include/MediaInfo/File__Analyse_Automatic.h
@@ -52,4 +53,3 @@ shared library for mediainfo
 * /usr/lib/pkgconfig/libmediainfo.pc
 * /usr/share/doc/libmediainfo-23.09/LICENSE
 * /usr/share/doc/libmediainfo-23.09/README.md
-{{< /files >}}

@@ -17,7 +17,8 @@ license = "GPL"
 +++
 Easy to use, portable, open source library for system logging
 
-{{< files text="show files" >}}* /usr/bin/stdlogctl
+## Files: 
+* /usr/bin/stdlogctl
 * /usr/include/liblogging/stdlog.h
 * /usr/lib/liblogging-stdlog.so
 * /usr/lib/liblogging-stdlog.so.0
@@ -29,4 +30,3 @@ Easy to use, portable, open source library for system logging
 * /usr/share/doc/liblogging-1.0.6/README
 * /usr/share/man/man1/stdlogctl.1.gz
 * /usr/share/man/man3/stdlog.3.gz
-{{< /files >}}

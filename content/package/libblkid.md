@@ -16,9 +16,9 @@ reverse_depends = "['cryptsetup-luks', 'e2fsprogs', 'efl', 'enlightenment', 'gfs
 +++
 Block device id library
 
-{{< files text="show files" >}}* /usr/include/blkid/blkid.h
+## Files: 
+* /usr/include/blkid/blkid.h
 * /usr/lib/libblkid.so
 * /usr/lib/libblkid.so.1
 * /usr/lib/libblkid.so.1.1.0
 * /usr/lib/pkgconfig/blkid.pc
-{{< /files >}}

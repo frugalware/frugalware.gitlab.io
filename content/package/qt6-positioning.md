@@ -16,7 +16,8 @@ reverse_depends = "['qt6-location', 'qt6-webengine', 'yin-yang']"
 +++
 The Qt6 toolkit, qtpositioning
 
-{{< files text="show files" >}}* /usr/include/qt6/QtPositioning/6.6.2/QtPositioning/private/qclipperutils_p.h
+## Files: 
+* /usr/include/qt6/QtPositioning/6.6.2/QtPositioning/private/qclipperutils_p.h
 * /usr/include/qt6/QtPositioning/6.6.2/QtPositioning/private/qdoublematrix4x4_p.h
 * /usr/include/qt6/QtPositioning/6.6.2/QtPositioning/private/qdoublevector2d_p.h
 * /usr/include/qt6/QtPositioning/6.6.2/QtPositioning/private/qdoublevector3d_p.h
@@ -168,4 +169,3 @@ The Qt6 toolkit, qtpositioning
 * /usr/lib/qt6/qml/QtPositioning/libpositioningquickplugin.so
 * /usr/lib/qt6/qml/QtPositioning/plugins.qmltypes
 * /usr/lib/qt6/qml/QtPositioning/qmldir
-{{< /files >}}

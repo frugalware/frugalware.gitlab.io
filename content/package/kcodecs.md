@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-contacts', 'kconfigwidgets', 'kcontacts', 'kmime']"
 +++
 Plugins allowing Qt applications to access further types of images.
 
-{{< files text="show files" >}}* /usr/include/KF5/KCodecs/KCharsets
+## Files: 
+* /usr/include/KF5/KCodecs/KCharsets
 * /usr/include/KF5/KCodecs/kcharsets.h
 * /usr/include/KF5/KCodecs/KCodecs
 * /usr/include/KF5/KCodecs/kcodecs.h
@@ -137,4 +138,3 @@ Plugins allowing Qt applications to access further types of images.
 * /usr/share/qlogging-categories5/kcodecs.categories
 * /usr/share/qlogging-categories5/kcodecs.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KCodecs.pri
-{{< /files >}}

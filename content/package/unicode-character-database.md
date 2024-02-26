@@ -16,7 +16,8 @@ reverse_depends = "['unicode-emoji']"
 +++
 Unicode Character Database
 
-{{< files text="show files" >}}* /usr/share/unicode/ArabicShaping.txt
+## Files: 
+* /usr/share/unicode/ArabicShaping.txt
 * /usr/share/unicode/auxiliary/GraphemeBreakProperty.txt
 * /usr/share/unicode/auxiliary/GraphemeBreakTest.html
 * /usr/share/unicode/auxiliary/GraphemeBreakTest.txt
@@ -93,4 +94,3 @@ Unicode Character Database
 * /usr/share/unicode/USourceGlyphs.pdf
 * /usr/share/unicode/USourceRSChart.pdf
 * /usr/share/unicode/VerticalOrientation.txt
-{{< /files >}}

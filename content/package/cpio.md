@@ -16,7 +16,8 @@ reverse_depends = "['binwalk', 'dracut', 'libguestfs', 'supermin']"
 +++
 A program to manage archives of files
 
-{{< files text="show files" >}}* /usr/bin/cpio
+## Files: 
+* /usr/bin/cpio
 * /usr/lib/cpio/rmt
 * /usr/share/doc/cpio-2.15/AUTHORS
 * /usr/share/doc/cpio-2.15/ChangeLog
@@ -56,4 +57,3 @@ A program to manage archives of files
 * /usr/share/locale/zh_CN/LC_MESSAGES/cpio.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/cpio.mo
 * /usr/share/man/man1/cpio.1.gz
-{{< /files >}}

@@ -15,6 +15,6 @@ depends = "['libburn=1.5.6']"
 +++
 burns preformatted data to CD, DVD, and BD via libburn.
 
-{{< files text="show files" >}}* /usr/bin/cdrskin
+## Files: 
+* /usr/bin/cdrskin
 * /usr/share/man/man1/cdrskin.1.gz
-{{< /files >}}

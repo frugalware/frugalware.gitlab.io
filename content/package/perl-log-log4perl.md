@@ -15,7 +15,8 @@ depends = "['perl>=5.34.0']"
 +++
 Log4j implementation for Perl
 
-{{< files text="show files" >}}* /usr/bin/site_perl/l4p-tmpl
+## Files: 
+* /usr/bin/site_perl/l4p-tmpl
 * /usr/lib/perl5/site_perl/Log/Log4perl.pm
 * /usr/lib/perl5/site_perl/Log/Log4perl/Appender.pm
 * /usr/lib/perl5/site_perl/Log/Log4perl/Appender/Buffer.pm
@@ -122,4 +123,3 @@ Log4j implementation for Perl
 * /usr/share/man/man3/Log::Log4perl::Util.3perl.gz
 * /usr/share/man/man3/Log::Log4perl::Util::Semaphore.3perl.gz
 * /usr/share/man/man3/Log::Log4perl::Util::TimeTracker.3perl.gz
-{{< /files >}}

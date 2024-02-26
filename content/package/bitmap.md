@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org bitmap application
 
-{{< files text="show files" >}}* /usr/bin/atobm
+## Files: 
+* /usr/bin/atobm
 * /usr/bin/bitmap
 * /usr/bin/bmtoa
 * /usr/include/X11/bitmaps/Dashes
@@ -43,4 +44,3 @@ X.Org bitmap application
 * /usr/share/X11/app-defaults/Bitmap
 * /usr/share/X11/app-defaults/Bitmap-color
 * /usr/share/X11/app-defaults/Bitmap-nocase
-{{< /files >}}

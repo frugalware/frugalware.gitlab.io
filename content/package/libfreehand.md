@@ -16,7 +16,8 @@ reverse_depends = "['libreoffice', 'scribus']"
 +++
 Libfreehand is library providing ability to interpret and import Adobe/Macromedia drawings into various applications.
 
-{{< files text="show files" >}}* /usr/bin/fh2raw
+## Files: 
+* /usr/bin/fh2raw
 * /usr/bin/fh2svg
 * /usr/bin/fh2text
 * /usr/include/libfreehand-0.1/libfreehand/FreeHandDocument.h
@@ -29,4 +30,3 @@ Libfreehand is library providing ability to interpret and import Adobe/Macromedi
 * /usr/share/doc/libfreehand-0.1.2/ChangeLog
 * /usr/share/doc/libfreehand-0.1.2/COPYING
 * /usr/share/doc/libfreehand-0.1.2/NEWS
-{{< /files >}}

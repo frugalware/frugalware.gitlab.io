@@ -15,7 +15,8 @@ depends = "['fox-1.2', 'ruby']"
 +++
 An extension module for Ruby that provides an interface to the FOX GUI toolkit.
 
-{{< files text="show files" >}}* usr/lib/ruby/site_ruby/1.8/fox12/aliases.rb
+## Files: 
+* usr/lib/ruby/site_ruby/1.8/fox12/aliases.rb
 * usr/lib/ruby/site_ruby/1.8/fox12/bitmapview.rb
 * usr/lib/ruby/site_ruby/1.8/fox12/calendar.rb
 * usr/lib/ruby/site_ruby/1.8/fox12/chore.rb
@@ -47,4 +48,3 @@ An extension module for Ruby that provides an interface to the FOX GUI toolkit.
 * usr/share/doc/fxruby-1.2-1.2.6/LICENSE
 * usr/share/doc/fxruby-1.2-1.2.6/README
 * usr/share/doc/fxruby-1.2-1.2.6/README.win32.txt
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "['bitlbee-common=3.6-2', 'libpurple>=2.10.9']"
 +++
 An IRC to other chat networks gateway (libpurple version).
 
-{{< files text="show files" >}}* /usr/bin/bitlbee-libpurple
-{{< /files >}}
+## Files: 
+* /usr/bin/bitlbee-libpurple

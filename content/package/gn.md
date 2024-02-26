@@ -15,8 +15,8 @@ depends = "['libgcc']"
 +++
 Meta-build system that generates build files for Ninja
 
-{{< files text="show files" >}}* /usr/bin/gn
+## Files: 
+* /usr/bin/gn
 * /usr/share/doc/gn-20230918.g991530c/AUTHORS
 * /usr/share/doc/gn-20230918.g991530c/LICENSE
 * /usr/share/doc/gn-20230918.g991530c/README.md
-{{< /files >}}

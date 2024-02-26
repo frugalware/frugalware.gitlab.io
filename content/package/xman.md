@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org xman application
 
-{{< files text="show files" >}}* /usr/bin/xman
+## Files: 
+* /usr/bin/xman
 * /usr/share/doc/xman-1.1.6/ChangeLog
 * /usr/share/doc/xman-1.1.6/COPYING
 * /usr/share/doc/xman-1.1.6/INSTALL
@@ -24,4 +25,3 @@ X.Org xman application
 * /usr/share/man/man1/xman.1.gz
 * /usr/share/X11/app-defaults/Xman
 * /usr/share/X11/xman.help
-{{< /files >}}

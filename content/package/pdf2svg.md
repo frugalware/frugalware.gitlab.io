@@ -15,11 +15,11 @@ depends = "['cairo', 'poppler-glib>=0.60.1-2']"
 +++
 A pdf to svg convertor
 
-{{< files text="show files" >}}* /usr/bin/pdf2svg
+## Files: 
+* /usr/bin/pdf2svg
 * /usr/share/doc/pdf2svg-0.2.3/AUTHORS
 * /usr/share/doc/pdf2svg-0.2.3/ChangeLog
 * /usr/share/doc/pdf2svg-0.2.3/COPYING
 * /usr/share/doc/pdf2svg-0.2.3/INSTALL
 * /usr/share/doc/pdf2svg-0.2.3/LICENSE
 * /usr/share/doc/pdf2svg-0.2.3/README
-{{< /files >}}

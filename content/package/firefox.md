@@ -16,7 +16,8 @@ reverse_depends = "['firefox-ach', 'firefox-af', 'firefox-an', 'firefox-ar', 'fi
 +++
 Mozilla Firefox web browser
 
-{{< files text="show files" >}}* /etc/ld.so.conf.d/firefox.conf
+## Files: 
+* /etc/ld.so.conf.d/firefox.conf
 * /usr/bin/ffremote
 * /usr/bin/firefox
 * /usr/lib/firefox/application.ini
@@ -66,4 +67,3 @@ Mozilla Firefox web browser
 * /usr/share/icons/hicolor/256x256/apps/firefox.png
 * /usr/share/icons/hicolor/32x32/apps/firefox.png
 * /usr/share/icons/hicolor/48x48/apps/firefox.png
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['dlib', 'python3-scipy']"
 +++
 C Standard Interface to BLAS Basic Linear Algebra Subprograms.
 
-{{< files text="show files" >}}* /usr/lib/cmake/cblas-3.12.0/cblas-config-version.cmake
+## Files: 
+* /usr/lib/cmake/cblas-3.12.0/cblas-config-version.cmake
 * /usr/lib/cmake/cblas-3.12.0/cblas-config.cmake
 * /usr/lib/cmake/cblas-3.12.0/cblas-targets-release.cmake
 * /usr/lib/cmake/cblas-3.12.0/cblas-targets.cmake
@@ -24,4 +25,3 @@ C Standard Interface to BLAS Basic Linear Algebra Subprograms.
 * /usr/lib/libcblas.so.3
 * /usr/lib/libcblas.so.3.12.0
 * /usr/lib/pkgconfig/cblas.pc
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['bash-completion', 'git', 'python3']"
 +++
 Incremental merge and rebase for git
 
-{{< files text="show files" >}}* /usr/bin/git-imerge
+## Files: 
+* /usr/bin/git-imerge
 * /usr/lib/python3.12/site-packages/gitimerge.py
 * /usr/lib/python3.12/site-packages/git_imerge-1.2.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/git_imerge-1.2.0-py3.12.egg-info/entry_points.txt
@@ -26,4 +27,3 @@ Incremental merge and rebase for git
 * /usr/share/bash-completion/completions/git-imerge
 * /usr/share/doc/git-imerge-1.2.0/COPYING
 * /usr/share/doc/git-imerge-1.2.0/README.md
-{{< /files >}}

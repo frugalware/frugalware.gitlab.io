@@ -16,7 +16,8 @@ reverse_depends = "['criu', 'fwupd']"
 +++
 C bindings for Google's Protocol Buffers
 
-{{< files text="show files" >}}* /usr/bin/protoc-c
+## Files: 
+* /usr/bin/protoc-c
 * /usr/bin/protoc-gen-c
 * /usr/include/google/protobuf-c/protobuf-c.h
 * /usr/include/protobuf-c/protobuf-c.h
@@ -28,4 +29,3 @@ C bindings for Google's Protocol Buffers
 * /usr/share/doc/protobuf-c-1.5.0/LICENSE
 * /usr/share/doc/protobuf-c-1.5.0/README.md
 * /usr/share/doc/protobuf-c-1.5.0/TODO
-{{< /files >}}

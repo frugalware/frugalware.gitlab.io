@@ -16,7 +16,8 @@ reverse_depends = "['rubberband']"
 +++
 An audio processing plugin system for plugins that extract descriptive information from audio data
 
-{{< files text="show files" >}}* /usr/bin/vamp-rdf-template-generator
+## Files: 
+* /usr/bin/vamp-rdf-template-generator
 * /usr/bin/vamp-simple-host
 * /usr/include/vamp-hostsdk/hostguard.h
 * /usr/include/vamp-hostsdk/Plugin.h
@@ -54,4 +55,3 @@ An audio processing plugin system for plugins that extract descriptive informati
 * /usr/share/doc/vamp-plugin-sdk-2.2.1/INSTALL
 * /usr/share/doc/vamp-plugin-sdk-2.2.1/README
 * /usr/share/doc/vamp-plugin-sdk-2.2.1/README.compat
-{{< /files >}}

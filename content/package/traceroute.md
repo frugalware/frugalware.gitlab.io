@@ -15,7 +15,8 @@ depends = "['glibc>=2.27-2']"
 +++
 Traces the route taken by packets over a TCP
 
-{{< files text="show files" >}}* /usr/bin/traceroute
+## Files: 
+* /usr/bin/traceroute
 * /usr/share/doc/traceroute-2.1.5/ChangeLog
 * /usr/share/doc/traceroute-2.1.5/COPYING
 * /usr/share/doc/traceroute-2.1.5/COPYING.LIB
@@ -24,4 +25,3 @@ Traces the route taken by packets over a TCP
 * /usr/share/doc/traceroute-2.1.5/TODO
 * /usr/share/doc/traceroute-2.1.5/VERSION
 * /usr/share/man/man8/traceroute.8.gz
-{{< /files >}}

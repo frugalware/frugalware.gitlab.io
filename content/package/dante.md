@@ -15,7 +15,8 @@ depends = "['libkrb5', 'miniupnpc>=2.1']"
 +++
 A free socks4,5 and msproxy implementation.
 
-{{< files text="show files" >}}* /etc/sockd.conf
+## Files: 
+* /etc/sockd.conf
 * /etc/socks.conf
 * /usr/bin/sockd
 * /usr/bin/socksify
@@ -37,4 +38,3 @@ A free socks4,5 and msproxy implementation.
 * /usr/share/man/man5/sockd.conf.5.gz
 * /usr/share/man/man5/socks.conf.5.gz
 * /usr/share/man/man8/sockd.8.gz
-{{< /files >}}

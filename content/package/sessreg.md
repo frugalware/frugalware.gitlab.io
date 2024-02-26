@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org sessreg application
 
-{{< files text="show files" >}}* /usr/bin/sessreg
+## Files: 
+* /usr/bin/sessreg
 * /usr/share/doc/sessreg-1.1.3/AUTHORS
 * /usr/share/doc/sessreg-1.1.3/ChangeLog
 * /usr/share/doc/sessreg-1.1.3/COPYING
 * /usr/share/doc/sessreg-1.1.3/INSTALL
 * /usr/share/doc/sessreg-1.1.3/README.md
-{{< /files >}}

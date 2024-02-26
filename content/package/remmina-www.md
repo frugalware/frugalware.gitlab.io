@@ -15,5 +15,5 @@ depends = "['webkit-gtk3>=2.42.1']"
 +++
 ww plugin for remmina
 
-{{< files text="show files" >}}* /usr/lib/remmina/plugins/remmina-plugin-www.so
-{{< /files >}}
+## Files: 
+* /usr/lib/remmina/plugins/remmina-plugin-www.so

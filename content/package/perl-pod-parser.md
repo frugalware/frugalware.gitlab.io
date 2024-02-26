@@ -15,7 +15,8 @@ depends = "['perl>=5.34.0']"
 +++
 Modules for parsing/translating POD format documents
 
-{{< files text="show files" >}}* /usr/bin/core_perl/podselect
+## Files: 
+* /usr/bin/core_perl/podselect
 * /usr/lib/perl5/core_perl/Pod/Find.pm
 * /usr/lib/perl5/core_perl/Pod/InputObjects.pm
 * /usr/lib/perl5/core_perl/Pod/Parser.pm
@@ -34,4 +35,3 @@ Modules for parsing/translating POD format documents
 * /usr/share/man/man3/Pod::ParseUtils.3perl.gz
 * /usr/share/man/man3/Pod::PlainText.3perl.gz
 * /usr/share/man/man3/Pod::Select.3perl.gz
-{{< /files >}}

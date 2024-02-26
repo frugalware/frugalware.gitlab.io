@@ -16,7 +16,8 @@ reverse_depends = "['kweather']"
 +++
 Audio recorder for Plasma Mobile and other platforms
 
-{{< files text="show files" >}}* /usr/include/KF5/KWeatherCore/KWeatherCore/AlertFeedEntry
+## Files: 
+* /usr/include/KF5/KWeatherCore/KWeatherCore/AlertFeedEntry
 * /usr/include/KF5/KWeatherCore/kweathercore/alertfeedentry.h
 * /usr/include/KF5/KWeatherCore/KWeatherCore/AlertManager
 * /usr/include/KF5/KWeatherCore/kweathercore/alertmanager.h
@@ -67,4 +68,3 @@ Audio recorder for Plasma Mobile and other platforms
 * /usr/lib/libKF5KWeatherCore.so.5
 * /usr/share/doc/kweathercore-0.7/README.md
 * /usr/share/qt5/mkspecs/modules/qt_KWeatherCore.pri
-{{< /files >}}

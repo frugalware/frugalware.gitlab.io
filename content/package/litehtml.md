@@ -16,7 +16,8 @@ reverse_depends = "['qtcreator']"
 +++
 Fast and lightweight HTML/CSS rendering engine
 
-{{< files text="show files" >}}* /usr/include/litehtml/background.h
+## Files: 
+* /usr/include/litehtml/background.h
 * /usr/include/litehtml/borders.h
 * /usr/include/litehtml/codepoint.h
 * /usr/include/litehtml/css_length.h
@@ -86,4 +87,3 @@ Fast and lightweight HTML/CSS rendering engine
 * /usr/lib/liblitehtml.so.0.0.0
 * /usr/share/doc/litehtml-0.9/LICENSE
 * /usr/share/doc/litehtml-0.9/README.md
-{{< /files >}}

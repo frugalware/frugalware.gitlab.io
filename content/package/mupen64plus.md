@@ -15,7 +15,8 @@ depends = "['freetype2', 'gtk+2>=2.20.1', 'libboost>=1.83.0', 'libglu', 'libxau'
 +++
 Nintendo64 Emulator
 
-{{< files text="show files" >}}* /usr/bin/mupen64plus
+## Files: 
+* /usr/bin/mupen64plus
 * /usr/include/mupen64plus/m64p_common.h
 * /usr/include/mupen64plus/m64p_config.h
 * /usr/include/mupen64plus/m64p_debugger.h
@@ -40,4 +41,3 @@ Nintendo64 Emulator
 * /usr/share/mupen64plus/mupen64plus.ini
 * /usr/share/mupen64plus/mupencheat.txt
 * /usr/share/mupen64plus/RiceVideoLinux.ini
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['lumina-desktop']"
 +++
 An alternative implementation of Linux sound support
 
-{{< files text="show files" >}}* /usr/bin/aconnect
+## Files: 
+* /usr/bin/aconnect
 * /usr/bin/alsabat
 * /usr/bin/alsabat-test.sh
 * /usr/bin/alsaconf
@@ -97,4 +98,3 @@ An alternative implementation of Linux sound support
 * /usr/share/sounds/alsa/Rear_Right.wav
 * /usr/share/sounds/alsa/Side_Left.wav
 * /usr/share/sounds/alsa/Side_Right.wav
-{{< /files >}}

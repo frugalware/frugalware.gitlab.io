@@ -16,7 +16,8 @@ reverse_depends = "['audiocd-kio']"
 +++
 A library for interfacing with CDs.
 
-{{< files text="show files" >}}* /usr/include/KF5/KCompactDisc/KCompactDisc
+## Files: 
+* /usr/include/KF5/KCompactDisc/KCompactDisc
 * /usr/include/KF5/KCompactDisc/kcompactdisc.h
 * /usr/include/KF5/KCompactDisc/kcompactdisc_export.h
 * /usr/include/KF5/KCompactDisc/kcompactdisc_version.h
@@ -95,4 +96,3 @@ A library for interfacing with CDs.
 * /usr/share/locale/zh_CN/LC_MESSAGES/libkcompactdisc.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libkcompactdisc.mo
 * /usr/share/qt5/mkspecs/modules/qt_KCompactDisc.pri
-{{< /files >}}

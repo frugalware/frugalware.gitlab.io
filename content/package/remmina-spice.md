@@ -15,5 +15,5 @@ depends = "['spice-gtk']"
 +++
 spice plugin for remmina
 
-{{< files text="show files" >}}* /usr/lib/remmina/plugins/remmina-plugin-spice.so
-{{< /files >}}
+## Files: 
+* /usr/lib/remmina/plugins/remmina-plugin-spice.so

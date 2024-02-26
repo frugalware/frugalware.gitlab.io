@@ -16,7 +16,8 @@ reverse_depends = "['cppo', 'hivex-ocaml', 'llvm-ocaml', 'ocaml-bigarray-compat'
 +++
 Caml is a general-purpose programming language, designed with program safety and reliability in mind.
 
-{{< files text="show files" >}}* /usr/bin/ocaml
+## Files: 
+* /usr/bin/ocaml
 * /usr/bin/ocamlc
 * /usr/bin/ocamlc.byte
 * /usr/bin/ocamlc.opt
@@ -1141,4 +1142,3 @@ Caml is a general-purpose programming language, designed with program safety and
 * /usr/share/man/man3/Weak.3o.gz
 * /usr/share/man/man3/Weak.Make.3o.gz
 * /usr/share/man/man3/Weak.S.3o.gz
-{{< /files >}}

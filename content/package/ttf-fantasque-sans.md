@@ -15,7 +15,8 @@ depends = "['fontconfig', 'mkfontscale']"
 +++
 A font family with a great monospaced variant for programmers.
 
-{{< files text="show files" >}}* /usr/share/doc/ttf-fantasque-sans-1.8.0/README.md
+## Files: 
+* /usr/share/doc/ttf-fantasque-sans-1.8.0/README.md
 * /usr/share/fonts/X11/TTF/FantasqueSansMono-Bold.otf
 * /usr/share/fonts/X11/TTF/FantasqueSansMono-Bold.ttf
 * /usr/share/fonts/X11/TTF/FantasqueSansMono-BoldItalic.otf
@@ -24,4 +25,3 @@ A font family with a great monospaced variant for programmers.
 * /usr/share/fonts/X11/TTF/FantasqueSansMono-Italic.ttf
 * /usr/share/fonts/X11/TTF/FantasqueSansMono-Regular.otf
 * /usr/share/fonts/X11/TTF/FantasqueSansMono-Regular.ttf
-{{< /files >}}

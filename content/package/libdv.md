@@ -16,7 +16,8 @@ reverse_depends = "['gst1-plugins-good-dv', 'mencoder', 'mjpegtools', 'mlt', 'ml
 +++
 The Quasar DV codec (libdv) is a software codec for DV video
 
-{{< files text="show files" >}}* /usr/bin/dubdv
+## Files: 
+* /usr/bin/dubdv
 * /usr/bin/dvconnect
 * /usr/bin/encodedv
 * /usr/include/libdv/dv.h
@@ -38,4 +39,3 @@ The Quasar DV codec (libdv) is a software codec for DV video
 * /usr/share/man/man1/dubdv.1.gz
 * /usr/share/man/man1/dvconnect.1.gz
 * /usr/share/man/man1/encodedv.1.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['clightd', 'ddcutil', 'gnokii', 'gnupg2', 'hplip', 'keepassx
 +++
 A library which allows userspace application access to USB devices
 
-{{< files text="show files" >}}* /usr/bin/libusb-config
+## Files: 
+* /usr/bin/libusb-config
 * /usr/include/usb.h
 * /usr/lib/libusb-0.1.so.4
 * /usr/lib/libusb-0.1.so.4.4.4
@@ -29,4 +30,3 @@ A library which allows userspace application access to USB devices
 * /usr/share/doc/libusb-0.1.8/LICENSE
 * /usr/share/doc/libusb-0.1.8/NEWS
 * /usr/share/doc/libusb-0.1.8/README
-{{< /files >}}

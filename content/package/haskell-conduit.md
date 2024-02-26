@@ -16,7 +16,8 @@ reverse_depends = "['haskell-conduit-extra', 'haskell-libyaml']"
 +++
 Streaming data processing library
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/conduit-1.3.5/Conduit.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/conduit-1.3.5/Conduit.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/conduit-1.3.5/Conduit.hi
 * /usr/lib/ghc-9.8.1/site-local/conduit-1.3.5/Data/Conduit.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/conduit-1.3.5/Data/Conduit.hi
@@ -96,4 +97,3 @@ Streaming data processing library
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/conduit-1.3.5/LICENSE
 * /usr/share/haskell/haskell-conduit/register.sh
 * /usr/share/haskell/haskell-conduit/unregister.sh
-{{< /files >}}

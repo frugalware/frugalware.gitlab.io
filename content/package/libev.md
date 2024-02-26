@@ -16,7 +16,8 @@ reverse_depends = "['i3', 'i3lock', 'libwebsockets']"
 +++
 A full-featured and high-performance event loop library.
 
-{{< files text="show files" >}}* /usr/include/e-vent.h
+## Files: 
+* /usr/include/e-vent.h
 * /usr/include/ev++.h
 * /usr/include/ev.h
 * /usr/lib/libev.so
@@ -26,4 +27,3 @@ A full-featured and high-performance event loop library.
 * /usr/share/doc/libev-4.33/README
 * /usr/share/doc/libev-4.33/TODO
 * /usr/share/man/man3/ev.3.gz
-{{< /files >}}

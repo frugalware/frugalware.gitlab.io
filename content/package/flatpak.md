@@ -16,7 +16,8 @@ reverse_depends = "['flatpak-kcm']"
 +++
 Linux application sandboxing and distribution framework (formerly xdg-app)
 
-{{< files text="show files" >}}* /etc/profile.d/flatpak.sh
+## Files: 
+* /etc/profile.d/flatpak.sh
 * /usr/bin/flatpak
 * /usr/bin/flatpak-bisect
 * /usr/bin/flatpak-coredumpctl
@@ -188,4 +189,3 @@ Linux application sandboxing and distribution framework (formerly xdg-app)
 * /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy
 * /usr/share/polkit-1/rules.d/org.freedesktop.Flatpak.rules
 * /usr/share/zsh/site-functions/_flatpak
-{{< /files >}}

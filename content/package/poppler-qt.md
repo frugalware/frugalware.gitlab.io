@@ -15,7 +15,8 @@ depends = "['poppler']"
 +++
 Poppler QT bindings
 
-{{< files text="show files" >}}* /usr/include/poppler/qt3/poppler-link-qt3.h
+## Files: 
+* /usr/include/poppler/qt3/poppler-link-qt3.h
 * /usr/include/poppler/qt3/poppler-page-transition.h
 * /usr/include/poppler/qt3/poppler-qt.h
 * /usr/lib/libpoppler-qt.a
@@ -24,4 +25,3 @@ Poppler QT bindings
 * /usr/lib/libpoppler-qt.so.3
 * /usr/lib/libpoppler-qt.so.3.0.0
 * /usr/lib/pkgconfig/poppler-qt.pc
-{{< /files >}}

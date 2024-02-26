@@ -15,6 +15,6 @@ depends = "['libgl>=12.0.3-2']"
 +++
 Glx library for XOrg.
 
-{{< files text="show files" >}}* /usr/lib/xorg/modules/extensions/libglx.la
+## Files: 
+* /usr/lib/xorg/modules/extensions/libglx.la
 * /usr/lib/xorg/modules/extensions/libglx.so
-{{< /files >}}

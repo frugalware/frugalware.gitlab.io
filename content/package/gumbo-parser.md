@@ -16,7 +16,8 @@ reverse_depends = "['litehtml']"
 +++
 HTML5 parsing library in pure C99
 
-{{< files text="show files" >}}* /usr/include/gumbo.h
+## Files: 
+* /usr/include/gumbo.h
 * /usr/include/tag_enum.h
 * /usr/lib/libgumbo.so
 * /usr/lib/libgumbo.so.1
@@ -25,4 +26,3 @@ HTML5 parsing library in pure C99
 * /usr/share/doc/gumbo-parser-0.10.1/COPYING
 * /usr/share/doc/gumbo-parser-0.10.1/README.md
 * /usr/share/doc/gumbo-parser-0.10.1/THANKS
-{{< /files >}}

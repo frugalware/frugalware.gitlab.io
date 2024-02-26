@@ -16,7 +16,8 @@ reverse_depends = "['gwenview', 'kdegraphics-thumbnailers', 'krita']"
 +++
 KDE Paint Program.
 
-{{< files text="show files" >}}* /usr/include/KF5/KDCRAW/KDCRAW/DcrawInfoContainer
+## Files: 
+* /usr/include/KF5/KDCRAW/KDCRAW/DcrawInfoContainer
 * /usr/include/KF5/KDCRAW/kdcraw/dcrawinfocontainer.h
 * /usr/include/KF5/KDCRAW/KDCRAW/KDcraw
 * /usr/include/KF5/KDCRAW/kdcraw/kdcraw.h
@@ -37,4 +38,3 @@ KDE Paint Program.
 * /usr/share/doc/libkdcraw-23.08.5/README
 * /usr/share/doc/libkdcraw-23.08.5/TODO
 * /usr/share/qlogging-categories5/libkdcraw.categories
-{{< /files >}}

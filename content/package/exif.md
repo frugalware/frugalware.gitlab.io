@@ -15,7 +15,8 @@ depends = "['libexif>=0.6.20', 'popt']"
 +++
 A small command-line utility to show EXIF information hidden in JPEG files.
 
-{{< files text="show files" >}}* /usr/bin/exif
+## Files: 
+* /usr/bin/exif
 * /usr/share/doc/exif-0.6.21/AUTHORS
 * /usr/share/doc/exif-0.6.21/ChangeLog
 * /usr/share/doc/exif-0.6.21/COPYING
@@ -43,4 +44,3 @@ A small command-line utility to show EXIF information hidden in JPEG files.
 * /usr/share/locale/vi/LC_MESSAGES/exif.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/exif.mo
 * /usr/share/man/man1/exif.1.gz
-{{< /files >}}

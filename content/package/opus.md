@@ -16,7 +16,8 @@ reverse_depends = "['chromium-browser', 'gst1-plugins-base-opus', 'handbrake', '
 +++
 codec designed for interactive speech and audio transmission over the Internet
 
-{{< files text="show files" >}}* /usr/include/opus/opus.h
+## Files: 
+* /usr/include/opus/opus.h
 * /usr/include/opus/opus_custom.h
 * /usr/include/opus/opus_defines.h
 * /usr/include/opus/opus_multistream.h
@@ -31,4 +32,3 @@ codec designed for interactive speech and audio transmission over the Internet
 * /usr/share/doc/opus-1.4/COPYING
 * /usr/share/doc/opus-1.4/INSTALL
 * /usr/share/doc/opus-1.4/README
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['libkdepim']"
 +++
 Desc: C++ API for LDAP access.
 
-{{< files text="show files" >}}* /usr/include/KPim5/KLDAP/KLDAP/AddHostDialog
+## Files: 
+* /usr/include/KPim5/KLDAP/KLDAP/AddHostDialog
 * /usr/include/KPim5/KLDAP/kldap/addhostdialog.h
 * /usr/include/KPim5/KLDAP/KLDAP/Ber
 * /usr/include/KPim5/KLDAP/kldap/ber.h
@@ -237,4 +238,3 @@ Desc: C++ API for LDAP access.
 * /usr/share/qlogging-categories5/kldap.categories
 * /usr/share/qlogging-categories5/kldap.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_Ldap.pri
-{{< /files >}}

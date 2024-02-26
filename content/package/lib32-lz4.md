@@ -16,8 +16,8 @@ reverse_depends = "['lib32-zstd']"
 +++
 Extremely Fast Compression algorithm ( 32bit )
 
-{{< files text="show files" >}}* /usr/lib32/liblz4.so
+## Files: 
+* /usr/lib32/liblz4.so
 * /usr/lib32/liblz4.so.1
 * /usr/lib32/liblz4.so.1.9.4
 * /usr/lib32/pkgconfig/liblz4.pc
-{{< /files >}}

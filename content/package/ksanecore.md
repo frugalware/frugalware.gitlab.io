@@ -16,7 +16,8 @@ reverse_depends = "['libksane', 'skanpage']"
 +++
 Library providing logic to interface scanners
 
-{{< files text="show files" >}}* /usr/include/KSaneCore/DeviceInformation
+## Files: 
+* /usr/include/KSaneCore/DeviceInformation
 * /usr/include/KSaneCore/deviceinformation.h
 * /usr/include/KSaneCore/Interface
 * /usr/include/KSaneCore/interface.h
@@ -66,4 +67,3 @@ Library providing logic to interface scanners
 * /usr/share/locale/uk/LC_MESSAGES/ksanecore.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/ksanecore.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/ksanecore.mo
-{{< /files >}}

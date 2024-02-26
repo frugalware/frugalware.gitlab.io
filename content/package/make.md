@@ -16,7 +16,8 @@ reverse_depends = "['get_steam', 'kernel-lts-source']"
 +++
 GNU make utility to maintain groups of programs
 
-{{< files text="show files" >}}* /usr/bin/make
+## Files: 
+* /usr/bin/make
 * /usr/include/gnumake.h
 * /usr/share/doc/make-4.4.1/AUTHORS
 * /usr/share/doc/make-4.4.1/ChangeLog
@@ -66,4 +67,3 @@ GNU make utility to maintain groups of programs
 * /usr/share/locale/zh_CN/LC_MESSAGES/make.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/make.mo
 * /usr/share/man/man1/make.1.gz
-{{< /files >}}

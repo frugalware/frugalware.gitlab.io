@@ -15,7 +15,7 @@ depends = "['bash']"
 +++
 A bash script for automating pasting to pastebins.
 
-{{< files text="show files" >}}* /etc/wgetpaste.conf.example
+## Files: 
+* /etc/wgetpaste.conf.example
 * /usr/bin/wgetpaste
 * /usr/share/doc/wgetpaste-2.30/LICENSE
-{{< /files >}}

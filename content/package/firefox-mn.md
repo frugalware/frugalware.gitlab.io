@@ -15,6 +15,6 @@ depends = "['firefox>=3.5.6']"
 +++
 mn language support for Firefox
 
-{{< files text="show files" >}}* usr/lib/firefox/chrome/mn.jar
+## Files: 
+* usr/lib/firefox/chrome/mn.jar
 * usr/lib/firefox/chrome/mn.manifest
-{{< /files >}}

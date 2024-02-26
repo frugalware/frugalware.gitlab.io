@@ -15,7 +15,8 @@ depends = "['desktop-file-utils', 'fontconfig', 'freetype2', 'libx11>=1.6.3-3', 
 +++
 X terminal emulator
 
-{{< files text="show files" >}}* /usr/bin/koi8rxterm
+## Files: 
+* /usr/bin/koi8rxterm
 * /usr/bin/resize
 * /usr/bin/uxterm
 * /usr/bin/xterm
@@ -53,4 +54,3 @@ X terminal emulator
 * /usr/share/pixmaps/xterm_16x16.xpm
 * /usr/share/pixmaps/xterm_32x32.xpm
 * /usr/share/pixmaps/xterm_48x48.xpm
-{{< /files >}}

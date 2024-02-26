@@ -16,7 +16,8 @@ reverse_depends = "['chromium-browser', 'efl', 'enlightenment', 'kde-gtk-config'
 +++
 Is an implementation of the OpenType Layout engine.
 
-{{< files text="show files" >}}* /usr/bin/hb-info
+## Files: 
+* /usr/bin/hb-info
 * /usr/bin/hb-ot-shape-closure
 * /usr/bin/hb-shape
 * /usr/bin/hb-subset
@@ -270,4 +271,3 @@ Is an implementation of the OpenType Layout engine.
 * /usr/share/gtk-doc/html/harfbuzz/why-do-i-need-a-shaping-engine.html
 * /usr/share/gtk-doc/html/harfbuzz/why-is-it-called-harfbuzz.html
 * /usr/share/gtk-doc/html/harfbuzz/working-with-harfbuzz-clusters.html
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['lib32-cairo', 'lib32-freetype2', 'lib32-gdk-pixbuf2', 'lib3
 +++
 A collection of routines used to create PNG format graphics files ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/libpng-config
+## Files: 
+* /usr/i686-frugalware-linux/bin/libpng-config
 * /usr/i686-frugalware-linux/bin/libpng16-config
 * /usr/i686-frugalware-linux/bin/png-fix-itxt
 * /usr/i686-frugalware-linux/bin/pngfix
@@ -33,4 +34,3 @@ A collection of routines used to create PNG format graphics files ( 32bit )
 * /usr/lib32/libpng16.so.16.41.0
 * /usr/lib32/pkgconfig/libpng.pc
 * /usr/lib32/pkgconfig/libpng16.pc
-{{< /files >}}

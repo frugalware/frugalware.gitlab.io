@@ -16,7 +16,8 @@ reverse_depends = "['python3-cx-freeze', 'python3-keyring', 'python3-markdown']"
 +++
 Read metadata from Python packages
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/importlib_metadata-7.0.0.dist-info/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/importlib_metadata-7.0.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/importlib_metadata-7.0.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/importlib_metadata-7.0.0.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/importlib_metadata-7.0.0.dist-info/top_level.txt
@@ -54,4 +55,3 @@ Read metadata from Python packages
 * /usr/lib/python3.12/site-packages/importlib_metadata/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-importlib-metadata-7.0.0/LICENSE
 * /usr/share/doc/python3-importlib-metadata-7.0.0/README.rst
-{{< /files >}}

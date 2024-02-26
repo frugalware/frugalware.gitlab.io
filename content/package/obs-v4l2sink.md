@@ -15,7 +15,8 @@ depends = "['obs-studio', 'v4l2loopback']"
 +++
 v4l2 output for obs-studio
 
-{{< files text="show files" >}}* /usr/lib/obs-plugins/v4l2sink.so
+## Files: 
+* /usr/lib/obs-plugins/v4l2sink.so
 * /usr/share/doc/obs-v4l2sink-0.1.0/AUTHORS
 * /usr/share/doc/obs-v4l2sink-0.1.0/COPYING
 * /usr/share/doc/obs-v4l2sink-0.1.0/INSTALL
@@ -24,4 +25,3 @@ v4l2 output for obs-studio
 * /usr/share/doc/obs-v4l2sink-0.1.0/README.rst
 * /usr/share/obs/obs-plugins/v4l2sink/locale/en-US.ini
 * /usr/share/obs/obs-plugins/v4l2sink/locale/zh-TW.ini
-{{< /files >}}

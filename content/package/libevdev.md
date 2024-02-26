@@ -16,7 +16,8 @@ reverse_depends = "['efl', 'enlightenment', 'libinput', 'libinput-debug-events',
 +++
 Wrapper library for evdev devices
 
-{{< files text="show files" >}}* /usr/bin/libevdev-tweak-device
+## Files: 
+* /usr/bin/libevdev-tweak-device
 * /usr/bin/mouse-dpi-tool
 * /usr/bin/touchpad-edge-detector
 * /usr/include/libevdev-1.0/libevdev/libevdev-uinput.h
@@ -31,4 +32,3 @@ Wrapper library for evdev devices
 * /usr/share/man/man1/mouse-dpi-tool.1.gz
 * /usr/share/man/man1/touchpad-edge-detector.1.gz
 * /usr/share/man/man3/libevdev.3.gz
-{{< /files >}}

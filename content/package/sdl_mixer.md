@@ -16,7 +16,8 @@ reverse_depends = "['manaplus', 'netpanzer', 'opencity', 'ufoai']"
 +++
 SDL Mixer library
 
-{{< files text="show files" >}}* /usr/include/SDL/SDL_mixer.h
+## Files: 
+* /usr/include/SDL/SDL_mixer.h
 * /usr/lib/libSDL_mixer-1.2.so.0
 * /usr/lib/libSDL_mixer-1.2.so.0.12.0
 * /usr/lib/libSDL_mixer.so
@@ -24,4 +25,3 @@ SDL Mixer library
 * /usr/share/doc/sdl_mixer-1.2.12/CHANGES
 * /usr/share/doc/sdl_mixer-1.2.12/COPYING
 * /usr/share/doc/sdl_mixer-1.2.12/README
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['ncurses>=6.1-2']"
 +++
 Enhanced version of the Berkeley C shell
 
-{{< files text="show files" >}}* /etc/csh.login
+## Files: 
+* /etc/csh.login
 * /usr/bin/csh
 * /usr/bin/tcsh
 * /usr/share/doc/tcsh-6.24.10/BUGS
@@ -34,4 +35,3 @@ Enhanced version of the Berkeley C shell
 * /usr/share/locale/ru/LC_MESSAGES/tcsh.cat
 * /usr/share/locale/ru_UA/LC_MESSAGES/tcsh.cat
 * /usr/share/man/man1/tcsh.1.gz
-{{< /files >}}

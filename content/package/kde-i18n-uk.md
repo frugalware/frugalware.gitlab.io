@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Ukrainian Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/doc/HTML/uk/common/1.png
+## Files: 
+* usr/share/doc/HTML/uk/common/1.png
 * usr/share/doc/HTML/uk/common/10.png
 * usr/share/doc/HTML/uk/common/2.png
 * usr/share/doc/HTML/uk/common/3.png
@@ -643,4 +644,3 @@ Ukrainian Localization for KDE.
 * usr/share/locale/uk/LC_MESSAGES/wakeup.mo
 * usr/share/locale/uk/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/uk/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

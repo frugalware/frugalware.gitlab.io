@@ -15,7 +15,8 @@ depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=
 +++
 A simple but highly addictive, one player game.
 
-{{< files text="show files" >}}* /usr/bin/klines
+## Files: 
+* /usr/bin/klines
 * /usr/share/applications/org.kde.klines.desktop
 * /usr/share/config.kcfg/klines.kcfg
 * /usr/share/doc/HTML/ca/klines/gamescreen.png
@@ -146,4 +147,3 @@ A simple but highly addictive, one player game.
 * /usr/share/locale/zh_TW/LC_MESSAGES/klines.mo
 * /usr/share/metainfo/org.kde.klines.appdata.xml
 * /usr/share/qlogging-categories5/klines.categories
-{{< /files >}}

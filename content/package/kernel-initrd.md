@@ -15,4 +15,4 @@ depends = "['btrfs-progs>=6.5', 'coreutils>=9.1', 'cryptsetup-luks>=2.6.0', 'dra
 +++
 The initrd for the Frugalware Linux Kernel.
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

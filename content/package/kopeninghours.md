@@ -15,7 +15,8 @@ depends = "['kholidays', 'ki18n', 'qt5-declarative']"
 +++
 Library for parsing and evaluating OSM opening hours expressions
 
-{{< files text="show files" >}}* /usr/include/KOpeningHours/Display
+## Files: 
+* /usr/include/KOpeningHours/Display
 * /usr/include/kopeninghours/display.h
 * /usr/include/KOpeningHours/Interval
 * /usr/include/kopeninghours/interval.h
@@ -68,4 +69,3 @@ Library for parsing and evaluating OSM opening hours expressions
 * /usr/share/qlogging-categories5/org_kde_kopeninghours.categories
 * /usr/share/qt5/qml/org/kde/kopeninghours/libkopeninghoursqmlplugin.so
 * /usr/share/qt5/qml/org/kde/kopeninghours/qmldir
-{{< /files >}}

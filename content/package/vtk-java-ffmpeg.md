@@ -15,5 +15,5 @@ depends = "['vtk>=9.3.0', 'vtk-ffmpeg>=9.3.0', 'vtk-java>=9.3.0']"
 +++
 Java Ffmpeg interface and bindings for vtk
 
-{{< files text="show files" >}}* /usr/lib/java/vtk-Linux-x86_64/libvtkIOFFMPEGJava.so
-{{< /files >}}
+## Files: 
+* /usr/lib/java/vtk-Linux-x86_64/libvtkIOFFMPEGJava.so

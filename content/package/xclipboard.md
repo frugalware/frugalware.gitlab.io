@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org xclipboard application
 
-{{< files text="show files" >}}* /usr/bin/xclipboard
+## Files: 
+* /usr/bin/xclipboard
 * /usr/bin/xcutsel
 * /usr/share/doc/xclipboard-1.1.4/ChangeLog
 * /usr/share/doc/xclipboard-1.1.4/COPYING
@@ -25,4 +26,3 @@ X.Org xclipboard application
 * /usr/share/man/man1/xclipboard.1.gz
 * /usr/share/man/man1/xcutsel.1.gz
 * /usr/share/X11/app-defaults/XClipboard
-{{< /files >}}

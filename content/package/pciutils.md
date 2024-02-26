@@ -16,7 +16,8 @@ reverse_depends = "['chromium-browser', 'cpupower', 'efibootmgr', 'hexchat', 'hw
 +++
 PCI utilities
 
-{{< files text="show files" >}}* /usr/bin/lspci
+## Files: 
+* /usr/bin/lspci
 * /usr/bin/pcilmr
 * /usr/bin/setpci
 * /usr/include/pci/config.h
@@ -36,4 +37,3 @@ PCI utilities
 * /usr/share/man/man8/lspci.8.gz
 * /usr/share/man/man8/pcilmr.8.gz
 * /usr/share/man/man8/setpci.8.gz
-{{< /files >}}

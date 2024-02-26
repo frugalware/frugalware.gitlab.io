@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 Libraries to be used as building blocks for quickly assembling 3d simulations
 
-{{< files text="show files" >}}* /usr/include/simgear/bucket/newbucket.hxx
+## Files: 
+* /usr/include/simgear/bucket/newbucket.hxx
 * /usr/include/simgear/bvh/BVHBoundingBoxVisitor.hxx
 * /usr/include/simgear/bvh/BVHGroup.hxx
 * /usr/include/simgear/bvh/BVHLineGeometry.hxx
@@ -387,4 +388,3 @@ Libraries to be used as building blocks for quickly assembling 3d simulations
 * /usr/share/doc/simgear-2020.3.19/README.OSG
 * /usr/share/doc/simgear-2020.3.19/README.sound
 * /usr/share/doc/simgear-2020.3.19/README.zlib
-{{< /files >}}

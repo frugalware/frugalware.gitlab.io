@@ -15,4 +15,4 @@ depends = "['gdk-pixbuf2', 'gtk+2']"
 +++
 X11 passphrase dialog for OpenSSH
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

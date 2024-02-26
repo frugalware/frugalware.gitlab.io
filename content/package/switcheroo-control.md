@@ -16,7 +16,8 @@ reverse_depends = "['kio']"
 +++
 D-Bus service to check the availability of dual-GPU
 
-{{< files text="show files" >}}* /usr/bin/switcherooctl
+## Files: 
+* /usr/bin/switcherooctl
 * /usr/lib/switcheroo-control/switcheroo-control
 * /usr/lib/systemd/system/switcheroo-control.service
 * /usr/lib/udev/hwdb.d/30-pci-intel-gpu.hwdb
@@ -24,4 +25,3 @@ D-Bus service to check the availability of dual-GPU
 * /usr/share/doc/switcheroo-control-2.6/COPYING
 * /usr/share/doc/switcheroo-control-2.6/NEWS
 * /usr/share/doc/switcheroo-control-2.6/README.md
-{{< /files >}}

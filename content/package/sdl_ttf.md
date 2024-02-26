@@ -16,7 +16,8 @@ reverse_depends = "['manaplus', 'netpanzer', 'ufoai']"
 +++
 SDL_ttf is a TrueType font rendering library.
 
-{{< files text="show files" >}}* /usr/include/SDL/SDL_ttf.h
+## Files: 
+* /usr/include/SDL/SDL_ttf.h
 * /usr/lib/libSDL_ttf-2.0.so.0
 * /usr/lib/libSDL_ttf-2.0.so.0.10.1
 * /usr/lib/libSDL_ttf.so
@@ -25,4 +26,3 @@ SDL_ttf is a TrueType font rendering library.
 * /usr/share/doc/sdl_ttf-2.0.11/COPYING
 * /usr/share/doc/sdl_ttf-2.0.11/INSTALL
 * /usr/share/doc/sdl_ttf-2.0.11/README
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['kajongg', 'kmahjongg', 'kshisen']"
 +++
 Library for KDE mahjongg games.
 
-{{< files text="show files" >}}* /usr/include/KF5/KMahjongg/KMahjonggBackground
+## Files: 
+* /usr/include/KF5/KMahjongg/KMahjonggBackground
 * /usr/include/KF5/KMahjongg/kmahjonggbackground.h
 * /usr/include/KF5/KMahjongg/KMahjonggConfigDialog
 * /usr/include/KF5/KMahjongg/kmahjonggconfigdialog.h
@@ -131,4 +132,3 @@ Library for KDE mahjongg games.
 * /usr/share/locale/zh_CN/LC_MESSAGES/libkmahjongg5.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libkmahjongg5.mo
 * /usr/share/qlogging-categories5/libkmahjongg.categories
-{{< /files >}}

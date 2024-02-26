@@ -16,7 +16,8 @@ reverse_depends = "['performous']"
 +++
 A tool for extracting annotations from audio signals
 
-{{< files text="show files" >}}* /usr/bin/aubio
+## Files: 
+* /usr/bin/aubio
 * /usr/bin/aubiocut
 * /usr/bin/aubiomfcc
 * /usr/bin/aubionotes
@@ -333,4 +334,3 @@ A tool for extracting annotations from audio signals
 * /usr/share/doc/libaubio-doc/api/vecutils_8h_source.html
 * /usr/share/doc/libaubio-doc/api/wavetable_8h.html
 * /usr/share/doc/libaubio-doc/api/wavetable_8h_source.html
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['kidentitymanagement', 'libkleo', 'pimcommon']"
 +++
 Desc: A library for textedit with PIM-specific features.
 
-{{< files text="show files" >}}* /usr/include/KPim5/KPIMTextEdit/KPIMTextEdit/AbstractMarkupBuilder
+## Files: 
+* /usr/include/KPim5/KPIMTextEdit/KPIMTextEdit/AbstractMarkupBuilder
 * /usr/include/KPim5/KPIMTextEdit/kpimtextedit/abstractmarkupbuilder.h
 * /usr/include/KPim5/KPIMTextEdit/KPIMTextEdit/EditorUtil
 * /usr/include/KPim5/KPIMTextEdit/kpimtextedit/editorutil.h
@@ -134,4 +135,3 @@ Desc: A library for textedit with PIM-specific features.
 * /usr/share/locale/zh_TW/LC_MESSAGES/libkpimtextedit.mo
 * /usr/share/qlogging-categories5/kpimtextedit.categories
 * /usr/share/qt5/mkspecs/modules/qt_KPIMTextEdit.pri
-{{< /files >}}

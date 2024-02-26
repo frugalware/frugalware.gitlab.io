@@ -16,7 +16,8 @@ reverse_depends = "['fail2ban', 'git-cola', 'python3-dulwich']"
 +++
 Pyinotify is a Python package used for monitoring filesystems events on Linux platforms with inotify.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pyinotify-0.9.6-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/pyinotify-0.9.6-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pyinotify-0.9.6-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/pyinotify-0.9.6-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/pyinotify-0.9.6-py3.12.egg-info/top_level.txt
@@ -24,4 +25,3 @@ Pyinotify is a Python package used for monitoring filesystems events on Linux pl
 * /usr/lib/python3.12/site-packages/__pycache__/pyinotify.cpython-312.pyc
 * /usr/share/doc/pyinotify-0.9.6/COPYING
 * /usr/share/doc/pyinotify-0.9.6/README.md
-{{< /files >}}

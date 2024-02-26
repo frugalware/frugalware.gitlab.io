@@ -16,7 +16,8 @@ reverse_depends = "['haskell-constraints', 'haskell-dec']"
 +++
 Boring and Absurd types
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/boring-0.2.1/Data/Boring.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/boring-0.2.1/Data/Boring.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/boring-0.2.1/Data/Boring.hi
 * /usr/lib/ghc-9.8.1/site-local/boring-0.2.1/libHSboring-0.2.1-KmhQVn90QIM9OK0MGVtwuE.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSboring-0.2.1-KmhQVn90QIM9OK0MGVtwuE-ghc9.8.1.so
@@ -33,4 +34,3 @@ Boring and Absurd types
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/boring-0.2.1/LICENSE
 * /usr/share/haskell/haskell-boring/register.sh
 * /usr/share/haskell/haskell-boring/unregister.sh
-{{< /files >}}

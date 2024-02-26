@@ -16,7 +16,8 @@ reverse_depends = "['tesseract-ocr']"
 +++
 Software that is broadly useful for image processing and image analysis applications
 
-{{< files text="show files" >}}* /usr/bin/convertfilestopdf
+## Files: 
+* /usr/bin/convertfilestopdf
 * /usr/bin/convertfilestops
 * /usr/bin/convertformat
 * /usr/bin/convertsegfilestopdf
@@ -70,4 +71,3 @@ Software that is broadly useful for image processing and image analysis applicat
 * /usr/lib/pkgconfig/lept.pc
 * /usr/share/doc/leptonica-1.83.0/README.html
 * /usr/share/doc/leptonica-1.83.0/README.md
-{{< /files >}}

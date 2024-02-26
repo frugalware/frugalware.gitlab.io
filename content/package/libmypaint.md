@@ -16,7 +16,8 @@ reverse_depends = "['gimp', 'krita']"
 +++
 A fast and easy painting application for digital painters, with brush dynamics
 
-{{< files text="show files" >}}* /usr/include/libmypaint/fastapprox/cast.h
+## Files: 
+* /usr/include/libmypaint/fastapprox/cast.h
 * /usr/include/libmypaint/fastapprox/fastexp.h
 * /usr/include/libmypaint/fastapprox/fastlog.h
 * /usr/include/libmypaint/fastapprox/fastpow.h
@@ -124,4 +125,3 @@ A fast and easy painting application for digital painters, with brush dynamics
 * /usr/share/locale/zh_CN/LC_MESSAGES/libmypaint.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/libmypaint.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libmypaint.mo
-{{< /files >}}

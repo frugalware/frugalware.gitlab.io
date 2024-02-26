@@ -15,7 +15,8 @@ depends = "['bullet', 'bzip2', 'dbus', 'efl>=1.21.0', 'expat', 'flac', 'fontconf
 +++
 Enlightenment Foundation Terminal
 
-{{< files text="show files" >}}* /usr/bin/terminology
+## Files: 
+* /usr/bin/terminology
 * /usr/bin/tyalpha
 * /usr/bin/tybg
 * /usr/bin/tycat
@@ -94,4 +95,3 @@ Enlightenment Foundation Terminal
 * /usr/share/terminology/themes/smyck.edj
 * /usr/share/terminology/themes/solarized.edj
 * /usr/share/terminology/themes/solarized_light.edj
-{{< /files >}}

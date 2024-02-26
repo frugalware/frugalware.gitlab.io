@@ -16,7 +16,8 @@ reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'mencoder', 'mplayer']"
 +++
 Library of OpenCORE Framework implementation of Adaptive Multi Rate Narrowband and Wideband speech codec
 
-{{< files text="show files" >}}* /usr/include/opencore-amrnb/interf_dec.h
+## Files: 
+* /usr/include/opencore-amrnb/interf_dec.h
 * /usr/include/opencore-amrnb/interf_enc.h
 * /usr/include/opencore-amrwb/dec_if.h
 * /usr/include/opencore-amrwb/if_rom.h
@@ -31,4 +32,3 @@ Library of OpenCORE Framework implementation of Adaptive Multi Rate Narrowband a
 * /usr/share/doc/opencore-amr-0.1.6/ChangeLog
 * /usr/share/doc/opencore-amr-0.1.6/LICENSE
 * /usr/share/doc/opencore-amr-0.1.6/README
-{{< /files >}}

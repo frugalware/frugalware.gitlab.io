@@ -15,7 +15,8 @@ depends = "['bzip2', 'libstdc++']"
 +++
 PBZIP2 is a parallel implementation of the bzip2 block-sorting file compressor that uses pthreads and achieves near-linear speedup on SMP machines.
 
-{{< files text="show files" >}}* /usr/bin/pbunzip2
+## Files: 
+* /usr/bin/pbunzip2
 * /usr/bin/pbzcat
 * /usr/bin/pbzip2
 * /usr/share/doc/pbzip2-1.1.13/AUTHORS
@@ -23,4 +24,3 @@ PBZIP2 is a parallel implementation of the bzip2 block-sorting file compressor t
 * /usr/share/doc/pbzip2-1.1.13/COPYING
 * /usr/share/doc/pbzip2-1.1.13/README
 * /usr/share/man/man1/pbzip2.1.gz
-{{< /files >}}

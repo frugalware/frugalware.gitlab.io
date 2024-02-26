@@ -15,7 +15,8 @@ depends = "['eigen', 'kdelibs4support>=5.115.0', 'khtml>=5.115.0', 'knewstuff>=5
 +++
 Periodic Table of Elements.
 
-{{< files text="show files" >}}* /usr/bin/kalzium
+## Files: 
+* /usr/bin/kalzium
 * /usr/include/libkdeedu/chemicaldataobject.h
 * /usr/include/libkdeedu/element.h
 * /usr/include/libkdeedu/elementparser.h
@@ -792,4 +793,3 @@ Periodic Table of Elements.
 * /usr/share/man/uk/man1/kalzium.1.gz
 * /usr/share/metainfo/org.kde.kalzium.appdata.xml
 * /usr/share/qlogging-categories5/kalzium.categories
-{{< /files >}}

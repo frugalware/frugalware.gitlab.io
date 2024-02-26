@@ -16,7 +16,8 @@ reverse_depends = "['pdal']"
 +++
 ASPRS LAS lossless compression library
 
-{{< files text="show files" >}}* /usr/include/laszip/laszip_api.h
+## Files: 
+* /usr/include/laszip/laszip_api.h
 * /usr/include/laszip/laszip_api_version.h
 * /usr/lib/liblaszip.so
 * /usr/lib/liblaszip.so.8
@@ -30,4 +31,3 @@ ASPRS LAS lossless compression library
 * /usr/share/doc/laszip-3.4.3/HOWTORELEASE.txt
 * /usr/share/doc/laszip-3.4.3/NEWS
 * /usr/share/doc/laszip-3.4.3/README.rst
-{{< /files >}}

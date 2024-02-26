@@ -15,7 +15,8 @@ depends = "['ffmpeg>=3.3.2', 'libdiscid', 'libgcc', 'libtheora', 'libx11', 'muta
 +++
 The next generation MusicBrainz tagger
 
-{{< files text="show files" >}}* /usr/bin/picard
+## Files: 
+* /usr/bin/picard
 * /usr/lib/python3.12/site-packages/picard-2.9.2-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/picard-2.9.2-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/picard-2.9.2-py3.12.egg-info/requires.txt
@@ -616,4 +617,3 @@ The next generation MusicBrainz tagger
 * /usr/share/share/locale/zh_TW/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/zh_TW/LC_MESSAGES/picard.mo
 * /usr/share/share/metainfo/org.musicbrainz.Picard.appdata.xml
-{{< /files >}}

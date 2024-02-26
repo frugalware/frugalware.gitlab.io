@@ -16,7 +16,8 @@ reverse_depends = "['kwallet-pam', 'plasma-workspace']"
 +++
 Relay for bidirectional data transfer between two independent data channels
 
-{{< files text="show files" >}}* /usr/bin/filan
+## Files: 
+* /usr/bin/filan
 * /usr/bin/procan
 * /usr/bin/socat
 * /usr/bin/socat-broker.sh
@@ -33,4 +34,3 @@ Relay for bidirectional data transfer between two independent data channels
 * /usr/share/doc/socat-1.8.0.0/VERSION
 * /usr/share/man/man1/socat.1.gz
 * /usr/share/man/man1/socat1.1.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['conky-manager', 'granite']"
 +++
 Library providing GObject-based interfaces and classes for commonly used data structures.
 
-{{< files text="show files" >}}* /usr/include/gee-0.8/gee.h
+## Files: 
+* /usr/include/gee-0.8/gee.h
 * /usr/lib/girepository-1.0/Gee-0.8.typelib
 * /usr/lib/libgee-0.8.so
 * /usr/lib/libgee-0.8.so.2
@@ -29,4 +30,3 @@ Library providing GObject-based interfaces and classes for commonly used data st
 * /usr/share/doc/libgee8-0.20.6/README
 * /usr/share/gir-1.0/Gee-0.8.gir
 * /usr/share/vala/vapi/gee-0.8.vapi
-{{< /files >}}

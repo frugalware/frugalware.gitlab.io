@@ -15,7 +15,8 @@ depends = "['hunspell>=1.7.0', 'kross>=5.115.0']"
 +++
 Computer-Aided Translation System.
 
-{{< files text="show files" >}}* /usr/bin/lokalize
+## Files: 
+* /usr/bin/lokalize
 * /usr/share/applications/org.kde.lokalize.desktop
 * /usr/share/config.kcfg/lokalize.kcfg
 * /usr/share/doc/HTML/ca/lokalize/index.cache.bz2
@@ -286,4 +287,3 @@ Computer-Aided Translation System.
 * /usr/share/lokalize/scripts/odf/xliffmerge.py
 * /usr/share/metainfo/org.kde.lokalize.appdata.xml
 * /usr/share/qlogging-categories5/lokalize.categories
-{{< /files >}}

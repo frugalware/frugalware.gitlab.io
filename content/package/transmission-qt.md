@@ -15,7 +15,7 @@ depends = "['openssl>=1.1.1', 'qt5-base>=5.15.10', 'qt5-qdbus>=5.15.10', 'qt5-sv
 +++
 Qt5 based gui for transmission.
 
-{{< files text="show files" >}}* /usr/bin/transmission-qt
+## Files: 
+* /usr/bin/transmission-qt
 * /usr/share/applications/transmission-qt.desktop
 * /usr/share/man/man1/transmission-qt.1.gz
-{{< /files >}}

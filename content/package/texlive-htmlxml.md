@@ -15,7 +15,8 @@ depends = "['texlive=2023.0']"
 +++
 XML/HTML packages for TeX Live
 
-{{< files text="show files" >}}* /usr/bin/ht
+## Files: 
+* /usr/bin/ht
 * /usr/bin/htcontext
 * /usr/bin/htlatex
 * /usr/bin/htmex
@@ -8592,4 +8593,3 @@ XML/HTML packages for TeX Live
 * /usr/share/texmf-dist/tex4ht/xtpipes/xtpipes-default.4xt
 * /usr/share/texmf-dist/tex4ht/xtpipes/xtpipes-map.dtd
 * /usr/share/texmf-dist/tex4ht/xtpipes/xtpipes.dtd
-{{< /files >}}

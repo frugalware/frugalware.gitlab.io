@@ -16,7 +16,8 @@ reverse_depends = "['argyllcms', 'blender', 'djvulibre', 'efl', 'emacs', 'fontfo
 +++
 Library for manipulation of TIFF images
 
-{{< files text="show files" >}}* /usr/bin/fax2ps
+## Files: 
+* /usr/bin/fax2ps
 * /usr/bin/fax2tiff
 * /usr/bin/pal2rgb
 * /usr/bin/ppm2tiff
@@ -266,4 +267,3 @@ Library for manipulation of TIFF images
 * /usr/share/man/man3/TIFFWriteRawTile.3tiff.gz
 * /usr/share/man/man3/TIFFWriteScanline.3tiff.gz
 * /usr/share/man/man3/TIFFWriteTile.3tiff.gz
-{{< /files >}}

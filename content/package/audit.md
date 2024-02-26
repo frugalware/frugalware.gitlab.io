@@ -16,7 +16,8 @@ reverse_depends = "['usbguard']"
 +++
 Linux Auditing Framework.
 
-{{< files text="show files" >}}* /etc/audit/audisp-remote.conf
+## Files: 
+* /etc/audit/audisp-remote.conf
 * /etc/audit/audit-stop.rules
 * /etc/audit/auditd.conf
 * /etc/audit/plugins.d/af_unix.conf
@@ -241,4 +242,3 @@ Linux Auditing Framework.
 * /usr/share/man/man8/ausyscall.8.gz
 * /usr/share/man/man8/autrace.8.gz
 * /usr/share/man/man8/auvirt.8.gz
-{{< /files >}}

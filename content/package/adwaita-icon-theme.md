@@ -16,7 +16,8 @@ reverse_depends = "['gtk+2', 'gtk+3', 'gtk+4']"
 +++
 Default icon theme for GNOME
 
-{{< files text="show files" >}}* /usr/share/doc/adwaita-icon-theme-45.0/AUTHORS
+## Files: 
+* /usr/share/doc/adwaita-icon-theme-45.0/AUTHORS
 * /usr/share/doc/adwaita-icon-theme-45.0/COPYING
 * /usr/share/doc/adwaita-icon-theme-45.0/COPYING_CCBYSA3
 * /usr/share/doc/adwaita-icon-theme-45.0/COPYING_LGPL
@@ -922,4 +923,3 @@ Default icon theme for GNOME
 * /usr/share/licenses/adwaita-icon-theme/COPYING_CCBYSA3
 * /usr/share/licenses/adwaita-icon-theme/COPYING_LGPL
 * /usr/share/pkgconfig/adwaita-icon-theme.pc
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['cups>=1.1.15', 'foomatic-filters>=2.0', 'libxml2>=2.7.8', 'openssl>
 +++
 IJS printer driver for Ghostscript and CUPS
 
-{{< files text="show files" >}}* /etc/cups/command.types
+## Files: 
+* /etc/cups/command.types
 * /usr/bin/cups-calibrate
 * /usr/bin/cups-genppd.5.3
 * /usr/bin/cups-genppdupdate
@@ -459,4 +460,3 @@ IJS printer driver for Ghostscript and CUPS
 * /usr/share/man/man8/cups-calibrate.8.gz
 * /usr/share/man/man8/cups-genppd.8.gz
 * /usr/share/man/man8/cups-genppdupdate.8.gz
-{{< /files >}}

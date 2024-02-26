@@ -16,7 +16,8 @@ reverse_depends = "['kwave']"
 +++
 A library for reading, writing, and manipulating ID3v1 and ID3v2 tags.
 
-{{< files text="show files" >}}* /usr/bin/id3convert
+## Files: 
+* /usr/bin/id3convert
 * /usr/bin/id3cp
 * /usr/bin/id3info
 * /usr/bin/id3tag
@@ -46,4 +47,3 @@ A library for reading, writing, and manipulating ID3v1 and ID3v2 tags.
 * /usr/share/doc/id3lib-3.8.3/README
 * /usr/share/doc/id3lib-3.8.3/THANKS
 * /usr/share/doc/id3lib-3.8.3/TODO
-{{< /files >}}

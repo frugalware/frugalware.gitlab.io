@@ -16,7 +16,8 @@ reverse_depends = "['haskell-aeson', 'haskell-base64', 'haskell-cassava']"
 +++
 Memory-efficient representation of Unicode text strings
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/text-short-0.1.5.1/Data/Text/Short.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/text-short-0.1.5.1/Data/Text/Short.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/text-short-0.1.5.1/Data/Text/Short.hi
 * /usr/lib/ghc-9.8.1/site-local/text-short-0.1.5.1/Data/Text/Short/Internal.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/text-short-0.1.5.1/Data/Text/Short/Internal.hi
@@ -43,4 +44,3 @@ Memory-efficient representation of Unicode text strings
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/text-short-0.1.5.1/LICENSE
 * /usr/share/haskell/haskell-text-short/register.sh
 * /usr/share/haskell/haskell-text-short/unregister.sh
-{{< /files >}}

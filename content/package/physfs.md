@@ -16,11 +16,11 @@ reverse_depends = "['lincity-ng', 'manaplus', 'netpanzer', 'solarus', 'supertux'
 +++
 PhysicsFS is a library to provide abstract access to various archive
 
-{{< files text="show files" >}}* /usr/bin/test_physfs
+## Files: 
+* /usr/bin/test_physfs
 * /usr/include/physfs.h
 * /usr/lib/libphysfs.so
 * /usr/lib/libphysfs.so.1
 * /usr/lib/libphysfs.so.3.0.2
 * /usr/lib/pkgconfig/physfs.pc
 * /usr/share/doc/physfs-3.0.2/README.txt
-{{< /files >}}

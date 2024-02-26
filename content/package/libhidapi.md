@@ -16,7 +16,8 @@ reverse_depends = "['libfido2', 'libu2f-host', 'mixxx', 'openrgb']"
 +++
 A Simple library for communicating with USB and Bluetooth HID devices on Linux, Mac, and Windows.
 
-{{< files text="show files" >}}* /usr/include/hidapi/hidapi.h
+## Files: 
+* /usr/include/hidapi/hidapi.h
 * /usr/include/hidapi/hidapi_libusb.h
 * /usr/lib/libhidapi-hidraw.so
 * /usr/lib/libhidapi-hidraw.so.0
@@ -33,4 +34,3 @@ A Simple library for communicating with USB and Bluetooth HID devices on Linux, 
 * /usr/share/doc/libhidapi-0.14.0/LICENSE.txt
 * /usr/share/doc/libhidapi-0.14.0/README.md
 * /usr/share/doc/libhidapi-0.14.0/VERSION
-{{< /files >}}

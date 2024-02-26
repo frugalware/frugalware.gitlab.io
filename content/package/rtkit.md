@@ -16,7 +16,8 @@ reverse_depends = "['xdg-desktop-portal']"
 +++
 Realtime Policy and Watchdog Daemon
 
-{{< files text="show files" >}}* /usr/bin/rtkitctl
+## Files: 
+* /usr/bin/rtkitctl
 * /usr/lib/rtkit/rtkit-daemon
 * /usr/lib/systemd/system/rtkit-daemon.service
 * /usr/share/dbus-1/interfaces/org.freedesktop.RealtimeKit1.xml
@@ -26,4 +27,3 @@ Realtime Policy and Watchdog Daemon
 * /usr/share/doc/rtkit-0.13/README
 * /usr/share/man/man8/rtkitctl.8.gz
 * /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy
-{{< /files >}}

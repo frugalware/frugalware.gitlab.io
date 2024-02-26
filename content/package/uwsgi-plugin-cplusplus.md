@@ -15,5 +15,5 @@ depends = "['libstdc++>=6.2.1-5', 'uwsgi']"
 +++
 UWSGI C++ Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/cplusplus_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/uwsgi/cplusplus_plugin.so

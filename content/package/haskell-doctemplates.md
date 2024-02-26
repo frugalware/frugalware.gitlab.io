@@ -16,7 +16,8 @@ reverse_depends = "['pandoc']"
 +++
 Pandoc-style document templates
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/doctemplates-0.11/libHSdoctemplates-0.11-7nZTvm1ylOPG6Z2aCCLZ1x.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/doctemplates-0.11/libHSdoctemplates-0.11-7nZTvm1ylOPG6Z2aCCLZ1x.a
 * /usr/lib/ghc-9.8.1/site-local/doctemplates-0.11/Text/DocTemplates.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/doctemplates-0.11/Text/DocTemplates.hi
 * /usr/lib/ghc-9.8.1/site-local/doctemplates-0.11/Text/DocTemplates/Internal.dyn_hi
@@ -44,4 +45,3 @@ Pandoc-style document templates
 * /usr/share/haskell/haskell-doctemplates/unregister.sh
 * /usr/share/x86_64-linux-ghc-9.8.1/doctemplates-0.11/changelog.md
 * /usr/share/x86_64-linux-ghc-9.8.1/doctemplates-0.11/README.md
-{{< /files >}}

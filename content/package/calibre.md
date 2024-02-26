@@ -15,7 +15,8 @@ depends = "['html5lib-python', 'hunspell', 'hyphen', 'libmtp', 'libstemmer', 'ma
 +++
 Ebook management application
 
-{{< files text="show files" >}}* /usr/bin/calibre
+## Files: 
+* /usr/bin/calibre
 * /usr/bin/calibre-complete
 * /usr/bin/calibre-customize
 * /usr/bin/calibre-debug
@@ -2035,4 +2036,3 @@ Ebook management application
 * /usr/share/metainfo/calibre-ebook-viewer.metainfo.xml
 * /usr/share/metainfo/calibre-gui.metainfo.xml
 * /usr/share/mime/packages/calibre-mimetypes.xml
-{{< /files >}}

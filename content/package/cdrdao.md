@@ -16,7 +16,8 @@ reverse_depends = "['k3b', 'kavi2svcd']"
 +++
 Records audio/data CD-Rs in disk-at-once (DAO) mode
 
-{{< files text="show files" >}}* /usr/bin/cdrdao
+## Files: 
+* /usr/bin/cdrdao
 * /usr/bin/cue2toc
 * /usr/bin/toc2cddb
 * /usr/bin/toc2cue
@@ -34,4 +35,3 @@ Records audio/data CD-Rs in disk-at-once (DAO) mode
 * /usr/share/man/man1/cue2toc.1.gz
 * /usr/share/man/man1/toc2cddb.1.gz
 * /usr/share/man/man1/toc2cue.1.gz
-{{< /files >}}

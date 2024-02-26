@@ -16,7 +16,8 @@ reverse_depends = "['jack2']"
 +++
 Ultra-low delay audio codec
 
-{{< files text="show files" >}}* /usr/bin/celtdec
+## Files: 
+* /usr/bin/celtdec
 * /usr/bin/celtenc
 * /usr/include/celt/celt.h
 * /usr/include/celt/celt_header.h
@@ -29,4 +30,3 @@ Ultra-low delay audio codec
 * /usr/share/doc/celt-0.11.3/INSTALL
 * /usr/share/doc/celt-0.11.3/README
 * /usr/share/doc/celt-0.11.3/TODO
-{{< /files >}}

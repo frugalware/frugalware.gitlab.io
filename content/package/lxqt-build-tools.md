@@ -15,7 +15,8 @@ depends = "['cmake']"
 +++
 Various packaging tools and scripts for LXQt applications.
 
-{{< files text="show files" >}}* /usr/bin/lxqt-transupdate
+## Files: 
+* /usr/bin/lxqt-transupdate
 * /usr/share/cmake/lxqt-build-tools/find-modules/FindClazy.cmake
 * /usr/share/cmake/lxqt-build-tools/find-modules/FindExif.cmake
 * /usr/share/cmake/lxqt-build-tools/find-modules/FindFontconfig.cmake
@@ -53,4 +54,3 @@ Various packaging tools and scripts for LXQt applications.
 * /usr/share/doc/lxqt-build-tools-0.13.0/CHANGELOG
 * /usr/share/doc/lxqt-build-tools-0.13.0/LICENSE
 * /usr/share/doc/lxqt-build-tools-0.13.0/README.md
-{{< /files >}}

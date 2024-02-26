@@ -15,5 +15,5 @@ depends = "['gst1-plugins-bad>=1.22.10', 'gst1-plugins-base>=1.22.10', 'libffi>=
 +++
 GStreamer soundtouch plugin (Bad).
 
-{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstsoundtouch.so
-{{< /files >}}
+## Files: 
+* /usr/lib/gstreamer-1.0/libgstsoundtouch.so

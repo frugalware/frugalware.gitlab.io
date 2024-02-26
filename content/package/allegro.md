@@ -15,7 +15,8 @@ depends = "['alsa-lib', 'libglu', 'libpng', 'libsm', 'libvorbis', 'libxcursor', 
 +++
 Allegro graphics library
 
-{{< files text="show files" >}}* /usr/include/allegro5/alcompat.h
+## Files: 
+* /usr/include/allegro5/alcompat.h
 * /usr/include/allegro5/allegro.h
 * /usr/include/allegro5/allegro5.h
 * /usr/include/allegro5/allegro_acodec.h
@@ -151,4 +152,3 @@ Allegro graphics library
 * /usr/share/doc/allegro-5.2.7.0/README_releasing.txt
 * /usr/share/doc/allegro-5.2.7.0/README_sdl.txt
 * /usr/share/doc/allegro-5.2.7.0/README_windows.txt
-{{< /files >}}

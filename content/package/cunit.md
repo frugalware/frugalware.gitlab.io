@@ -16,7 +16,8 @@ reverse_depends = "['bctoolbox']"
 +++
 CUnit is a lightweight system for writing, administering and running unit tests in C
 
-{{< files text="show files" >}}* /usr/include/CUnit/Automated.h
+## Files: 
+* /usr/include/CUnit/Automated.h
 * /usr/include/CUnit/Basic.h
 * /usr/include/CUnit/Console.h
 * /usr/include/CUnit/CUError.h
@@ -65,4 +66,3 @@ CUnit is a lightweight system for writing, administering and running unit tests 
 * /usr/share/doc/cunit-2.1_2/README
 * /usr/share/doc/cunit-2.1_2/TODO
 * /usr/share/man/man3/CUnit.3.gz
-{{< /files >}}

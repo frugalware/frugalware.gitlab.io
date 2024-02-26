@@ -16,7 +16,8 @@ reverse_depends = "['libguestfs-ocaml']"
 +++
 Ocaml bindings for hivex
 
-{{< files text="show files" >}}* /usr/lib/ocaml/hivex/hivex.cmi
+## Files: 
+* /usr/lib/ocaml/hivex/hivex.cmi
 * /usr/lib/ocaml/hivex/hivex.cmx
 * /usr/lib/ocaml/hivex/hivex.mli
 * /usr/lib/ocaml/hivex/libmlhivex.a
@@ -26,4 +27,3 @@ Ocaml bindings for hivex
 * /usr/lib/ocaml/hivex/mlhivex.cmxa
 * /usr/lib/ocaml/stublibs/dllmlhivex.so
 * /usr/lib/ocaml/stublibs/dllmlhivex.so.owner
-{{< /files >}}

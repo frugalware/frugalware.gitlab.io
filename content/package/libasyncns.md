@@ -16,7 +16,8 @@ reverse_depends = "['efl', 'enlightenment', 'libpulse', 'telepathy-salut', 'term
 +++
 libasyncns is a C library for Linux/Unix for executing name service queries asynchronously
 
-{{< files text="show files" >}}* /usr/include/asyncns.h
+## Files: 
+* /usr/include/asyncns.h
 * /usr/lib/libasyncns.so
 * /usr/lib/libasyncns.so.0
 * /usr/lib/libasyncns.so.0.3.1
@@ -25,4 +26,3 @@ libasyncns is a C library for Linux/Unix for executing name service queries asyn
 * /usr/share/doc/libasyncns-0.8/README
 * /usr/share/doc/libasyncns-0.8/README.html
 * /usr/share/doc/libasyncns-0.8/style.css
-{{< /files >}}

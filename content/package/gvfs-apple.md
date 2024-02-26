@@ -15,9 +15,9 @@ depends = "['gvfs>=1.52.0', 'ifuse>=1.1.4-2']"
 +++
 gvfs with iPhone and iPod touch support
 
-{{< files text="show files" >}}* /usr/lib/gvfs/gvfs-afc-volume-monitor
+## Files: 
+* /usr/lib/gvfs/gvfs-afc-volume-monitor
 * /usr/lib/gvfs/gvfsd-afc
 * /usr/share/dbus-1/services/org.gtk.vfs.AfcVolumeMonitor.service
 * /usr/share/gvfs/mounts/afc.mount
 * /usr/share/gvfs/remote-volume-monitors/afc.monitor
-{{< /files >}}

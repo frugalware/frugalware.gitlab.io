@@ -15,7 +15,8 @@ depends = "['texlive=2023.0']"
 +++
 Extra Bibtex Styles for TeX Live
 
-{{< files text="show files" >}}* /usr/bin/bbl2bib
+## Files: 
+* /usr/bin/bbl2bib
 * /usr/bin/bibdoiadd
 * /usr/bin/bibexport
 * /usr/bin/bibmradd
@@ -807,4 +808,3 @@ Extra Bibtex Styles for TeX Live
 * /usr/share/texmf-dist/tex/latex/uni-wtal-lin/uni-wtal-lin.cbx
 * /usr/share/texmf-dist/tex/latex/usebib/usebib.sty
 * /usr/share/texmf-dist/tex/plain/harvmac/harvmac.tex
-{{< /files >}}

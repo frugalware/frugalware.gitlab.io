@@ -16,7 +16,8 @@ reverse_depends = "['get_steam', 'hplip', 'pacman-tools']"
 +++
 A network utility to retrieve files from the Web
 
-{{< files text="show files" >}}* /etc/wgetrc
+## Files: 
+* /etc/wgetrc
 * /usr/bin/wget
 * /usr/share/doc/wget-1.21.4/AUTHORS
 * /usr/share/doc/wget-1.21.4/ChangeLog
@@ -106,4 +107,3 @@ A network utility to retrieve files from the Web
 * /usr/share/locale/zh_TW/LC_MESSAGES/wget-gnulib.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/wget.mo
 * /usr/share/man/man1/wget.1.gz
-{{< /files >}}

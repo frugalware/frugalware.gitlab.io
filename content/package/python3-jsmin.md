@@ -15,7 +15,8 @@ depends = "['python3>=3.11']"
 +++
 JavaScript minifier.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/jsmin-3.0.1-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/jsmin-3.0.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/jsmin-3.0.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/jsmin-3.0.1-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/jsmin-3.0.1-py3.12.egg-info/top_level.txt
@@ -26,4 +27,3 @@ JavaScript minifier.
 * /usr/lib/python3.12/site-packages/jsmin/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/jsmin/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/python3-jsmin-3.0.1/README.rst
-{{< /files >}}

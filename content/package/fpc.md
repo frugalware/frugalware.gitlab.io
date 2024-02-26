@@ -15,7 +15,8 @@ depends = "['gpm>=1.20.6']"
 +++
 Free Pascal Compiler
 
-{{< files text="show files" >}}* /etc/fpc.cfg
+## Files: 
+* /etc/fpc.cfg
 * /etc/fppkg.cfg
 * /etc/fppkg/default
 * /usr/bin/bin2obj
@@ -3299,4 +3300,3 @@ Free Pascal Compiler
 * /usr/share/man/man5/fpc.cfg.5.gz
 * /usr/share/man/man5/fpcmake.5.gz
 * /usr/share/man/man5/ptop.cfg.5.gz
-{{< /files >}}

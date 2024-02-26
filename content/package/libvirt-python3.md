@@ -16,7 +16,8 @@ reverse_depends = "['virt-manager']"
 +++
 The libvirt python binding.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/libvirt.py
+## Files: 
+* /usr/lib/python3.12/site-packages/libvirt.py
 * /usr/lib/python3.12/site-packages/libvirtaio.py
 * /usr/lib/python3.12/site-packages/libvirtmod.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/libvirtmod_lxc.cpython-312-x86_64-linux-gnu.so
@@ -37,4 +38,3 @@ The libvirt python binding.
 * /usr/share/doc/libvirt-python3-9.10.0/HACKING
 * /usr/share/doc/libvirt-python3-9.10.0/README
 * /usr/share/doc/libvirt-python3-9.10.0/VERSION
-{{< /files >}}

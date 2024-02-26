@@ -16,7 +16,8 @@ reverse_depends = "['openucx']"
 +++
 RDMA core userspace libraries and daemons
 
-{{< files text="show files" >}}* /etc/infiniband-diags/error_thresholds
+## Files: 
+* /etc/infiniband-diags/error_thresholds
 * /etc/infiniband-diags/ibdiag.conf
 * /etc/init.d/ibacm
 * /etc/init.d/iwpmd
@@ -686,4 +687,3 @@ RDMA core userspace libraries and daemons
 * /usr/share/man/man8/smpquery.8.gz
 * /usr/share/man/man8/srp_daemon.8.gz
 * /usr/share/man/man8/vendstat.8.gz
-{{< /files >}}

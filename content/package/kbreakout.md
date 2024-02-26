@@ -15,7 +15,8 @@ depends = "['libkdegames>=23.08.5', 'qt5-svg>=5.15.12']"
 +++
 A Breakout-like game.
 
-{{< files text="show files" >}}* /usr/bin/kbreakout
+## Files: 
+* /usr/bin/kbreakout
 * /usr/share/applications/org.kde.kbreakout.desktop
 * /usr/share/doc/HTML/ca/kbreakout/gameboard.png
 * /usr/share/doc/HTML/ca/kbreakout/index.cache.bz2
@@ -165,4 +166,3 @@ A Breakout-like game.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kbreakout.mo
 * /usr/share/metainfo/org.kde.kbreakout.appdata.xml
 * /usr/share/qlogging-categories5/kbreakout.categories
-{{< /files >}}

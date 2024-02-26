@@ -16,9 +16,9 @@ reverse_depends = "['allegro', 'crawl-tiles', 'dosbox', 'flightgear', 'flutter',
 +++
 Mesa OpenGL Utility Library.
 
-{{< files text="show files" >}}* /usr/include/GL/glu.h
+## Files: 
+* /usr/include/GL/glu.h
 * /usr/lib/libGLU.so
 * /usr/lib/libGLU.so.1
 * /usr/lib/libGLU.so.1.3.1
 * /usr/lib/pkgconfig/glu.pc
-{{< /files >}}

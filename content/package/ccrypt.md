@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 ccrypt is a utility for encrypting and decrypting files and streams
 
-{{< files text="show files" >}}* /usr/bin/ccat
+## Files: 
+* /usr/bin/ccat
 * /usr/bin/ccdecrypt
 * /usr/bin/ccencrypt
 * /usr/bin/ccguess
@@ -35,4 +36,3 @@ ccrypt is a utility for encrypting and decrypting files and streams
 * /usr/share/man/man1/ccencrypt.1.gz
 * /usr/share/man/man1/ccguess.1.gz
 * /usr/share/man/man1/ccrypt.1.gz
-{{< /files >}}

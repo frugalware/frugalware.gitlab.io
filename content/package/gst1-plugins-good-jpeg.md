@@ -16,5 +16,5 @@ reverse_depends = "['kamoso']"
 +++
 GStreamer jpeg plugin (Good).
 
-{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstjpeg.so
-{{< /files >}}
+## Files: 
+* /usr/lib/gstreamer-1.0/libgstjpeg.so

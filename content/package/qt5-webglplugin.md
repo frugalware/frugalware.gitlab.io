@@ -15,6 +15,6 @@ depends = "['qt5-declarative>=5.15.12', 'qt5-websockets>=5.15.12']"
 +++
 The Qt5 toolkit, qtwebglplugin
 
-{{< files text="show files" >}}* /usr/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake
+## Files: 
+* /usr/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake
 * /usr/lib/qt5/plugins/platforms/libqwebgl.so
-{{< /files >}}

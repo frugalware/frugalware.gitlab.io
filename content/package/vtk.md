@@ -17,7 +17,8 @@ license = "GPL-2"
 +++
 Software system for 3D computer graphics, modeling, image processing, volume rendering, scientific visualization, and information visualization.
 
-{{< files text="show files" >}}* /usr/bin/vtkProbeOpenGLVersion
+## Files: 
+* /usr/bin/vtkProbeOpenGLVersion
 * /usr/bin/vtkWrapHierarchy
 * /usr/lib/libvtkAcceleratorsVTKmCore.so
 * /usr/lib/libvtkAcceleratorsVTKmCore.so.1
@@ -994,4 +995,3 @@ Software system for 3D computer graphics, modeling, image processing, volume ren
 * /usr/share/vtk/proj/projjson.schema.json
 * /usr/share/vtk/proj/triangulation.schema.json
 * /usr/share/vtk/proj/world
-{{< /files >}}

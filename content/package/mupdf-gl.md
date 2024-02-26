@@ -15,5 +15,5 @@ depends = "['freeglut', 'glfw', 'harfbuzz', 'libjpeg-turbo', 'openssl']"
 +++
 Lightweight PDF and XPS viewer (OpenGL)
 
-{{< files text="show files" >}}* /usr/bin/mupdf-gl
-{{< /files >}}
+## Files: 
+* /usr/bin/mupdf-gl

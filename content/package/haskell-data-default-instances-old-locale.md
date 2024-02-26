@@ -16,7 +16,8 @@ reverse_depends = "['haskell-data-default']"
 +++
 Default instances for types in old-locale.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/data-default-instances-old-locale-0.0.1/Data/Default/Instances/OldLocale.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/data-default-instances-old-locale-0.0.1/Data/Default/Instances/OldLocale.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/data-default-instances-old-locale-0.0.1/Data/Default/Instances/OldLocale.hi
 * /usr/lib/ghc-9.8.1/site-local/data-default-instances-old-locale-0.0.1/libHSdata-default-instances-old-locale-0.0.1-KNI6bxVPTJDRNsJwG6oQC.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSdata-default-instances-old-locale-0.0.1-KNI6bxVPTJDRNsJwG6oQC-ghc9.8.1.so
@@ -33,4 +34,3 @@ Default instances for types in old-locale.
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/data-default-instances-old-locale-0.0.1/LICENSE
 * /usr/share/haskell/haskell-data-default-instances-old-locale/register.sh
 * /usr/share/haskell/haskell-data-default-instances-old-locale/unregister.sh
-{{< /files >}}

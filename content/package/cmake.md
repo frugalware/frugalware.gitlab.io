@@ -16,7 +16,8 @@ reverse_depends = "['corrosion', 'lxqt-build-tools', 'qtcreator', 'scikit-build'
 +++
 Cross platform make
 
-{{< files text="show files" >}}* /usr/bin/ccmake
+## Files: 
+* /usr/bin/ccmake
 * /usr/bin/cmake
 * /usr/bin/cpack
 * /usr/bin/ctest
@@ -7381,4 +7382,3 @@ Cross platform make
 * /usr/share/man/man7/cpack-generators.7.gz
 * /usr/share/vim/vimfiles/indent/cmake.vim
 * /usr/share/vim/vimfiles/syntax/cmake.vim
-{{< /files >}}

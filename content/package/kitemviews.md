@@ -16,7 +16,8 @@ reverse_depends = "['akonadi', 'discover', 'kdebugsettings', 'kiconthemes', 'kpe
 +++
 Set of item views extending the Qt model-view framework.
 
-{{< files text="show files" >}}* /usr/include/KF5/KItemViews/KCategorizedSortFilterProxyModel
+## Files: 
+* /usr/include/KF5/KItemViews/KCategorizedSortFilterProxyModel
 * /usr/include/KF5/KItemViews/kcategorizedsortfilterproxymodel.h
 * /usr/include/KF5/KItemViews/KCategorizedView
 * /usr/include/KF5/KItemViews/kcategorizedview.h
@@ -147,4 +148,3 @@ Set of item views extending the Qt model-view framework.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kitemviews5_qt.qm
 * /usr/share/qlogging-categories5/kitemviews.categories
 * /usr/share/qt5/mkspecs/modules/qt_KItemViews.pri
-{{< /files >}}

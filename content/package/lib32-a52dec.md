@@ -16,7 +16,8 @@ reverse_depends = "['lib32-ffmpeg']"
 +++
 liba52 is a free library for decoding ATSC A/52 streams. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/a52dec
+## Files: 
+* /usr/i686-frugalware-linux/bin/a52dec
 * /usr/i686-frugalware-linux/bin/extract_a52
 * /usr/i686-frugalware-linux/include/a52dec/a52.h
 * /usr/i686-frugalware-linux/include/a52dec/attributes.h
@@ -25,4 +26,3 @@ liba52 is a free library for decoding ATSC A/52 streams. ( 32bit )
 * /usr/lib32/liba52.so
 * /usr/lib32/liba52.so.0
 * /usr/lib32/liba52.so.0.0.0
-{{< /files >}}

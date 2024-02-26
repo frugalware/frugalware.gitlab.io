@@ -15,10 +15,10 @@ depends = "['openssh']"
 +++
 autossh is a program to start a copy of ssh and monitor it, restarting it as necessary should it die or stop passing traffic
 
-{{< files text="show files" >}}* /usr/bin/autossh
+## Files: 
+* /usr/bin/autossh
 * /usr/share/autossh/examples/autossh.host
 * /usr/share/autossh/examples/rscreen
 * /usr/share/doc/autossh-1.4g/CHANGES
 * /usr/share/doc/autossh-1.4g/README
 * /usr/share/man/man1/autossh.1.gz
-{{< /files >}}

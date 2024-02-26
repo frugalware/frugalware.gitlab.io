@@ -16,7 +16,8 @@ reverse_depends = "['skrooge']"
 +++
 libofx API for the OFX banking standard.
 
-{{< files text="show files" >}}* /usr/bin/ofx2qif
+## Files: 
+* /usr/bin/ofx2qif
 * /usr/bin/ofxdump
 * /usr/include/libofx/libofx.h
 * /usr/lib/libofx.so
@@ -511,4 +512,3 @@ libofx API for the OFX banking standard.
 * /usr/share/libofx/dtd/ofx201.dtd
 * /usr/share/libofx/dtd/opensp.dcl
 * /usr/share/man/man1/ofxdump.1.gz
-{{< /files >}}

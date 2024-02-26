@@ -15,5 +15,5 @@ depends = "['claws-mail=4.1.1', 'poppler-glib>=0.60.1-2']"
 +++
 This plugin enables the viewing of PDF and PostScript attachments.
 
-{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/pdf_viewer.so
-{{< /files >}}
+## Files: 
+* /usr/lib/claws-mail/plugins/pdf_viewer.so

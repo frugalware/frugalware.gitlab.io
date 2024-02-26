@@ -16,7 +16,8 @@ reverse_depends = "['hplip', 'input-remapper', 'piper', 'sunflower', 'syncthing-
 +++
 pygobject3 with cairo support
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/gi/docstring.py
+## Files: 
+* /usr/lib/python3.12/site-packages/gi/docstring.py
 * /usr/lib/python3.12/site-packages/gi/importer.py
 * /usr/lib/python3.12/site-packages/gi/module.py
 * /usr/lib/python3.12/site-packages/gi/overrides/Gdk.py
@@ -66,4 +67,3 @@ pygobject3 with cairo support
 * /usr/lib/python3.12/site-packages/gi/__pycache__/_propertyhelper.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gi/__pycache__/_signalhelper.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gi/__pycache__/__init__.cpython-312.pyc
-{{< /files >}}

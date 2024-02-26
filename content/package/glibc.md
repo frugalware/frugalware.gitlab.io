@@ -16,7 +16,8 @@ reverse_depends = "['a52dec', 'aalib', 'abstractdark-sddm-theme', 'acct', 'acpi'
 +++
 GNU C Library
 
-{{< files text="show files" >}}* /etc/ld.so.conf.d/glibc32.conf
+## Files: 
+* /etc/ld.so.conf.d/glibc32.conf
 * /etc/nscd.conf
 * /etc/rpc
 * /usr/bin/gencat
@@ -1279,4 +1280,3 @@ GNU C Library
 * /usr/share/locale/zh_CN/LC_MESSAGES/libc.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libc.mo
 * /var/db/Makefile
-{{< /files >}}

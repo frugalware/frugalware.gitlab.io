@@ -16,7 +16,8 @@ reverse_depends = "['antlr-openjava', 'apache-ant', 'apache-log4j1', 'bcel', 'bc
 +++
 Open-source Java Runtime Environment.
 
-{{< files text="show files" >}}* /etc/java/jaxp.properties
+## Files: 
+* /etc/java/jaxp.properties
 * /etc/java/logging.properties
 * /etc/java/management/jmxremote.access
 * /etc/java/management/jmxremote.password.template
@@ -137,4 +138,3 @@ Open-source Java Runtime Environment.
 * /usr/lib/jvm/java-21-openjdk/lib/server/libjvm.so
 * /usr/lib/jvm/java-21-openjdk/lib/tzdb.dat
 * /usr/lib/jvm/java-21-openjdk/release
-{{< /files >}}

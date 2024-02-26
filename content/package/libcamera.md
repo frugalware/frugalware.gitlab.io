@@ -16,7 +16,8 @@ reverse_depends = "['gst1-plugin-libcamera', 'libcamera-tools', 'pipewire']"
 +++
 A complex camera support library for Linux, Android, and ChromeOS
 
-{{< files text="show files" >}}* /usr/bin/libcamerify
+## Files: 
+* /usr/bin/libcamerify
 * /usr/include/libcamera/libcamera/base/bound_method.h
 * /usr/include/libcamera/libcamera/base/class.h
 * /usr/include/libcamera/libcamera/base/compiler.h
@@ -1395,4 +1396,3 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.2.0/html/_static/sphinx_highlight.js
 * /usr/share/doc/libcamera-0.2.0/README.rst
 * /usr/share/libcamera/ipa/ipu3/uncalibrated.yaml
-{{< /files >}}

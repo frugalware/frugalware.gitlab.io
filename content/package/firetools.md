@@ -15,7 +15,8 @@ depends = "['firejail>=0.9.62', 'qt5-base>=5.15.10', 'qt5-svg>=5.15.10']"
 +++
 Firejail Qt5 GUI.
 
-{{< files text="show files" >}}* /usr/bin/firejail-ui
+## Files: 
+* /usr/bin/firejail-ui
 * /usr/bin/firetools
 * /usr/lib/firetools/fmgr
 * /usr/lib/firetools/fstats
@@ -33,4 +34,3 @@ Firejail Qt5 GUI.
 * /usr/share/pixmaps/firejail-ui.png
 * /usr/share/pixmaps/firetools-minimal.png
 * /usr/share/pixmaps/firetools.png
-{{< /files >}}

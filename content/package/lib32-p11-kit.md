@@ -16,7 +16,8 @@ reverse_depends = "['lib32-gnutls', 'lib32-libsystemd']"
 +++
 Provides a way to load and enumerate PKCS#11 modules. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/p11-kit
+## Files: 
+* /usr/i686-frugalware-linux/bin/p11-kit
 * /usr/i686-frugalware-linux/bin/trust
 * /usr/i686-frugalware-linux/include/p11-kit-1/p11-kit/deprecated.h
 * /usr/i686-frugalware-linux/include/p11-kit-1/p11-kit/iter.h
@@ -38,4 +39,3 @@ Provides a way to load and enumerate PKCS#11 modules. ( 32bit )
 * /usr/lib32/pkcs11/p11-kit-client.so
 * /usr/lib32/pkcs11/p11-kit-trust.so
 * /usr/lib32/pkgconfig/p11-kit-1.pc
-{{< /files >}}

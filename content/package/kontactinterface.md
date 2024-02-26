@@ -16,7 +16,8 @@ reverse_depends = "['akregator', 'kaddressbook', 'kdepim-addons', 'kmail', 'knot
 +++
 KParts Kontact interface.
 
-{{< files text="show files" >}}* /usr/include/KPim5/KontactInterface/KontactInterface/Core
+## Files: 
+* /usr/include/KPim5/KontactInterface/KontactInterface/Core
 * /usr/include/KPim5/KontactInterface/kontactinterface/core.h
 * /usr/include/KPim5/KontactInterface/kontactinterface/kontactinterface_export.h
 * /usr/include/KPim5/KontactInterface/KontactInterface/PimUniqueApplication
@@ -98,4 +99,3 @@ KParts Kontact interface.
 * /usr/share/qlogging-categories5/kontactinterface.categories
 * /usr/share/qlogging-categories5/kontactinterface.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KontactInterface.pri
-{{< /files >}}

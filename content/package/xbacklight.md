@@ -17,10 +17,10 @@ license = "GPL2"
 +++
 X.Org adjust backlight brightness using RandR extension
 
-{{< files text="show files" >}}* /usr/bin/xbacklight
+## Files: 
+* /usr/bin/xbacklight
 * /usr/share/doc/xbacklight-1.2.3/ChangeLog
 * /usr/share/doc/xbacklight-1.2.3/COPYING
 * /usr/share/doc/xbacklight-1.2.3/INSTALL
 * /usr/share/doc/xbacklight-1.2.3/README.md
 * /usr/share/man/man1/xbacklight.1.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['obs-studio', 'obs-studio', 'pipewire']"
 +++
 A standalone library of the Fraunhofer FDK AAC code from Android.
 
-{{< files text="show files" >}}* /usr/include/fdk-aac/aacdecoder_lib.h
+## Files: 
+* /usr/include/fdk-aac/aacdecoder_lib.h
 * /usr/include/fdk-aac/aacenc_lib.h
 * /usr/include/fdk-aac/FDK_audio.h
 * /usr/include/fdk-aac/genericStds.h
@@ -27,4 +28,3 @@ A standalone library of the Fraunhofer FDK AAC code from Android.
 * /usr/lib/libfdk-aac.so.2.0.3
 * /usr/lib/pkgconfig/fdk-aac.pc
 * /usr/share/doc/fdk-aac-2.0.3/ChangeLog
-{{< /files >}}

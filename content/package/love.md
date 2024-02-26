@@ -16,7 +16,8 @@ reverse_depends = "['vrrtest']"
 +++
 LÃ–VE is a free game engine wich use the LUA programming language
 
-{{< files text="show files" >}}* /usr/bin/love
+## Files: 
+* /usr/bin/love
 * /usr/lib/liblove-11.4.so
 * /usr/lib/liblove.so
 * /usr/share/applications/love.desktop
@@ -24,4 +25,3 @@ LÃ–VE is a free game engine wich use the LUA programming language
 * /usr/share/man/man1/love.1.gz
 * /usr/share/mime/packages/love.xml
 * /usr/share/pixmaps/love.svg
-{{< /files >}}

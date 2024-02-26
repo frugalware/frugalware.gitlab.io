@@ -16,10 +16,10 @@ reverse_depends = "['murmur', 'plasma-workspace', 'qt5-tools', 'signon', 'snoren
 +++
 D-Bus tools for qt5
 
-{{< files text="show files" >}}* /usr/bin/qdbus
+## Files: 
+* /usr/bin/qdbus
 * /usr/bin/qdbus-qt5
 * /usr/bin/qdbusviewer
 * /usr/bin/qdbusviewer-qt5
 * /usr/lib/qt5/bin/qdbus
 * /usr/lib/qt5/bin/qdbusviewer
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['python3-sphinx']"
 +++
 Sphinx extension which outputs QtHelp document
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sphinxcontrib/devhelp/locales/.tx/config
+## Files: 
+* /usr/lib/python3.12/site-packages/sphinxcontrib/devhelp/locales/.tx/config
 * /usr/lib/python3.12/site-packages/sphinxcontrib/devhelp/locales/ar/LC_MESSAGES/sphinxcontrib.devhelp.mo
 * /usr/lib/python3.12/site-packages/sphinxcontrib/devhelp/locales/ar/LC_MESSAGES/sphinxcontrib.devhelp.po
 * /usr/lib/python3.12/site-packages/sphinxcontrib/devhelp/locales/bn/LC_MESSAGES/sphinxcontrib.devhelp.mo
@@ -124,4 +125,3 @@ Sphinx extension which outputs QtHelp document
 * /usr/share/doc/python3-sphinx-devhelp-1.0.5/CHANGES
 * /usr/share/doc/python3-sphinx-devhelp-1.0.5/LICENSE
 * /usr/share/doc/python3-sphinx-devhelp-1.0.5/README.rst
-{{< /files >}}

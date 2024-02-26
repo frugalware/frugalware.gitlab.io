@@ -15,5 +15,5 @@ depends = "['faac>=1.28-5', 'gst1-plugins-bad>=1.22.10', 'gst1-plugins-base>=1.2
 +++
 GStreamer faac plugin (Bad).
 
-{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstfaac.so
-{{< /files >}}
+## Files: 
+* /usr/lib/gstreamer-1.0/libgstfaac.so

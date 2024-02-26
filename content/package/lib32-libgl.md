@@ -16,9 +16,9 @@ reverse_depends = "['lib32-libglx']"
 +++
 Mesa DRI OpenGL files (32-Bit).
 
-{{< files text="show files" >}}* /usr/lib32/libGL.la
+## Files: 
+* /usr/lib32/libGL.la
 * /usr/lib32/libGL.so
 * /usr/lib32/libGL.so.1
 * /usr/lib32/libGL.so.1.2.0
 * /usr/lib32/pkgconfig/gl.pc
-{{< /files >}}

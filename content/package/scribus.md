@@ -15,7 +15,8 @@ depends = "['cairo', 'fontconfig', 'freetype2', 'ghostscript', 'glib2', 'hunspel
 +++
 A professional desktop publishing application.
 
-{{< files text="show files" >}}* /usr/bin/scribus
+## Files: 
+* /usr/bin/scribus
 * /usr/lib/scribus/plugins/gettext/libcsvim.so
 * /usr/lib/scribus/plugins/gettext/libdocim.so
 * /usr/lib/scribus/plugins/gettext/libdocximplugin.so
@@ -3582,4 +3583,3 @@ A professional desktop publishing application.
 * /usr/share/scribus/translations/scribus.zh_CN.qm
 * /usr/share/scribus/translations/scribus.zh_TW.qm
 * /usr/share/scribus/unicodenameslist.txt
-{{< /files >}}

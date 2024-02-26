@@ -16,7 +16,8 @@ reverse_depends = "['chromium-browser', 'clightd', 'criu', 'ddcutil', 'dosbox', 
 +++
 X.Org Userspace interface to kernel DRM services
 
-{{< files text="show files" >}}* /usr/bin/amdgpu_stress
+## Files: 
+* /usr/bin/amdgpu_stress
 * /usr/bin/drmdevice
 * /usr/bin/modeprint
 * /usr/bin/modetest
@@ -87,4 +88,3 @@ X.Org Userspace interface to kernel DRM services
 * /usr/lib/pkgconfig/libdrm_radeon.pc
 * /usr/share/doc/libdrm-2.4.120/README.rst
 * /usr/share/libdrm/amdgpu.ids
-{{< /files >}}

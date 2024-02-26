@@ -16,7 +16,8 @@ reverse_depends = "['lib32-ffmpeg']"
 +++
 v4l-utils (32-bit)
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/cec-compliance
+## Files: 
+* /usr/i686-frugalware-linux/bin/cec-compliance
 * /usr/i686-frugalware-linux/bin/cec-ctl
 * /usr/i686-frugalware-linux/bin/cec-follower
 * /usr/i686-frugalware-linux/bin/cx18-ctl
@@ -113,4 +114,3 @@ v4l-utils (32-bit)
 * /usr/lib32/pkgconfig/libv4l2.pc
 * /usr/lib32/pkgconfig/libv4l2rds.pc
 * /usr/lib32/pkgconfig/libv4lconvert.pc
-{{< /files >}}

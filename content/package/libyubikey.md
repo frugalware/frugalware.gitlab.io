@@ -16,7 +16,8 @@ reverse_depends = "['dracut-ykfde', 'ykclient']"
 +++
 Yubico YubiKey C library
 
-{{< files text="show files" >}}* /usr/bin/modhex
+## Files: 
+* /usr/bin/modhex
 * /usr/bin/ykgenerate
 * /usr/bin/ykparse
 * /usr/include/yubikey.h
@@ -33,4 +34,3 @@ Yubico YubiKey C library
 * /usr/share/man/man1/modhex.1.gz
 * /usr/share/man/man1/ykgenerate.1.gz
 * /usr/share/man/man1/ykparse.1.gz
-{{< /files >}}

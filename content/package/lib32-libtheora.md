@@ -16,7 +16,8 @@ reverse_depends = "['lib32-ffmpeg']"
 +++
 An open video codec developed by the Xiph.org. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/theora/codec.h
+## Files: 
+* /usr/i686-frugalware-linux/include/theora/codec.h
 * /usr/i686-frugalware-linux/include/theora/theora.h
 * /usr/i686-frugalware-linux/include/theora/theoradec.h
 * /usr/i686-frugalware-linux/include/theora/theoraenc.h
@@ -32,4 +33,3 @@ An open video codec developed by the Xiph.org. ( 32bit )
 * /usr/lib32/pkgconfig/theora.pc
 * /usr/lib32/pkgconfig/theoradec.pc
 * /usr/lib32/pkgconfig/theoraenc.pc
-{{< /files >}}

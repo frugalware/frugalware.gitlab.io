@@ -15,6 +15,6 @@ depends = "['lua51']"
 +++
 A new pattern-matching library for Lua, based on Parsing Expression Grammars.
 
-{{< files text="show files" >}}* /usr/lib/lua/5.1/lpeg.so
+## Files: 
+* /usr/lib/lua/5.1/lpeg.so
 * /usr/share/doc/lua51-lpeg-1.0.2/HISTORY
-{{< /files >}}

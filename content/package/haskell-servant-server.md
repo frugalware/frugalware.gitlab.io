@@ -16,7 +16,8 @@ reverse_depends = "['pandoc-server']"
 +++
 A family of combinators for defining webservices APIs and serving them
 
-{{< files text="show files" >}}* /usr/bin/greet
+## Files: 
+* /usr/bin/greet
 * /usr/lib/ghc-9.8.1/site-local/servant-server-0.20/libHSservant-server-0.20-4SXaIYafssjFUh1EaSjwmj.a
 * /usr/lib/ghc-9.8.1/site-local/servant-server-0.20/Servant.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/servant-server-0.20/Servant.hi
@@ -111,4 +112,3 @@ A family of combinators for defining webservices APIs and serving them
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/servant-server-0.20/LICENSE
 * /usr/share/haskell/haskell-servant-server/register.sh
 * /usr/share/haskell/haskell-servant-server/unregister.sh
-{{< /files >}}

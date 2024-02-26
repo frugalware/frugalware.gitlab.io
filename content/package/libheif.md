@@ -16,7 +16,8 @@ reverse_depends = "['digikam', 'gdal', 'gimp', 'graphicsmagick', 'imagemagick', 
 +++
 HEIF file format decoder and encoder
 
-{{< files text="show files" >}}* /usr/include/libheif/heif.h
+## Files: 
+* /usr/include/libheif/heif.h
 * /usr/include/libheif/heif_cxx.h
 * /usr/include/libheif/heif_plugin.h
 * /usr/include/libheif/heif_properties.h
@@ -36,4 +37,3 @@ HEIF file format decoder and encoder
 * /usr/share/man/man1/heif-info.1.gz
 * /usr/share/man/man1/heif-thumbnailer.1.gz
 * /usr/share/thumbnailers/heif.thumbnailer
-{{< /files >}}

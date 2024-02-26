@@ -16,7 +16,8 @@ reverse_depends = "['flightgear']"
 +++
 A Suite of Portable Game Libraries.
 
-{{< files text="show files" >}}* /usr/include/plib/fnt.h
+## Files: 
+* /usr/include/plib/fnt.h
 * /usr/include/plib/js.h
 * /usr/include/plib/net.h
 * /usr/include/plib/netBuffer.h
@@ -79,4 +80,3 @@ A Suite of Portable Game Libraries.
 * /usr/share/doc/plib-1.8.5/README.GLUT
 * /usr/share/doc/plib-1.8.5/README.mac
 * /usr/share/doc/plib-1.8.5/README.win32
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['pypolicyd-spf']"
 +++
 Python 3 DNS library
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/DNS/Base.py
+## Files: 
+* /usr/lib/python3.12/site-packages/DNS/Base.py
 * /usr/lib/python3.12/site-packages/DNS/Class.py
 * /usr/lib/python3.12/site-packages/DNS/lazy.py
 * /usr/lib/python3.12/site-packages/DNS/Lib.py
@@ -60,4 +61,3 @@ Python 3 DNS library
 * /usr/share/doc/py3dns-4.0.0/LICENSE
 * /usr/share/doc/py3dns-4.0.0/README-guido.txt
 * /usr/share/doc/py3dns-4.0.0/README.txt
-{{< /files >}}

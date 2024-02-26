@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X inputextension library
 
-{{< files text="show files" >}}* /usr/include/X11/extensions/XInput.h
+## Files: 
+* /usr/include/X11/extensions/XInput.h
 * /usr/include/X11/extensions/XInput2.h
 * /usr/lib/libXi.so
 * /usr/lib/libXi.so.6
@@ -104,4 +105,3 @@ X inputextension library
 * /usr/share/man/man3/XUngrabDevice.3.gz
 * /usr/share/man/man3/XUngrabDeviceButton.3.gz
 * /usr/share/man/man3/XUngrabDeviceKey.3.gz
-{{< /files >}}

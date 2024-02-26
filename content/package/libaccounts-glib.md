@@ -16,7 +16,8 @@ reverse_depends = "['libaccounts-qt', 'telepathy-accounts-signon', 'telepathy-mi
 +++
 Glib-based client library for accessing the online accounts database.
 
-{{< files text="show files" >}}* /usr/bin/ag-backup
+## Files: 
+* /usr/bin/ag-backup
 * /usr/bin/ag-tool
 * /usr/include/libaccounts-glib/accounts-glib.h
 * /usr/include/libaccounts-glib/ag-account-service.h
@@ -56,4 +57,3 @@ Glib-based client library for accessing the online accounts database.
 * /usr/share/xml/accounts/schema/dtd/accounts-provider.dtd
 * /usr/share/xml/accounts/schema/dtd/accounts-service-type.dtd
 * /usr/share/xml/accounts/schema/dtd/accounts-service.dtd
-{{< /files >}}

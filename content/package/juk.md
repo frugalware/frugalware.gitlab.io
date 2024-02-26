@@ -15,7 +15,8 @@ depends = "['kio>=5.115.0', 'pcre2', 'taglib>=2.0']"
 +++
 JuK is an audio jukebox application.
 
-{{< files text="show files" >}}* /usr/bin/juk
+## Files: 
+* /usr/bin/juk
 * /usr/share/applications/org.kde.juk.desktop
 * /usr/share/dbus-1/interfaces/org.kde.juk.collection.xml
 * /usr/share/dbus-1/interfaces/org.kde.juk.player.xml
@@ -202,4 +203,3 @@ JuK is an audio jukebox application.
 * /usr/share/locale/zh_CN/LC_MESSAGES/juk.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/juk.mo
 * /usr/share/metainfo/org.kde.juk.appdata.xml
-{{< /files >}}

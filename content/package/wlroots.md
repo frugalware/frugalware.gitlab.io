@@ -16,7 +16,8 @@ reverse_depends = "['greetd-qtgreet']"
 +++
 Modular Wayland compositor library
 
-{{< files text="show files" >}}* /usr/include/wlr/backend.h
+## Files: 
+* /usr/include/wlr/backend.h
 * /usr/include/wlr/backend/headless.h
 * /usr/include/wlr/backend/interface.h
 * /usr/include/wlr/backend/libinput.h
@@ -125,4 +126,3 @@ Modular Wayland compositor library
 * /usr/lib/pkgconfig/wlroots.pc
 * /usr/share/doc/wlroots-0.17.1/LICENSE
 * /usr/share/doc/wlroots-0.17.1/README.md
-{{< /files >}}

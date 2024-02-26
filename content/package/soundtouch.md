@@ -16,7 +16,8 @@ reverse_depends = "['easyeffects', 'gst1-plugins-bad-soundtouch', 'mixxx']"
 +++
 An open-source audio processing library for changing the Tempo, Pitch and Playback Rates of audio streams or files.
 
-{{< files text="show files" >}}* /usr/bin/soundstretch
+## Files: 
+* /usr/bin/soundstretch
 * /usr/include/soundtouch/BPMDetect.h
 * /usr/include/soundtouch/FIFOSampleBuffer.h
 * /usr/include/soundtouch/FIFOSamplePipe.h
@@ -30,4 +31,3 @@ An open-source audio processing library for changing the Tempo, Pitch and Playba
 * /usr/share/aclocal/soundtouch.m4
 * /usr/share/doc/soundtouch-2.3.1/COPYING.TXT
 * /usr/share/doc/soundtouch-2.3.1/README.html
-{{< /files >}}

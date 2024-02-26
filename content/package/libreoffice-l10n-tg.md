@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Tajik support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/tg/default.css
+## Files: 
+* /usr/lib/libreoffice/help/tg/default.css
 * /usr/lib/libreoffice/help/tg/err.html
 * /usr/lib/libreoffice/help/tg/highcontrast1.css
 * /usr/lib/libreoffice/help/tg/highcontrast2.css
@@ -133,4 +134,3 @@ Installs Tajik support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-tg.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_tg.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_tg.xcd
-{{< /files >}}

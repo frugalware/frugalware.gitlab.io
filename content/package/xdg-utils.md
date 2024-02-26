@@ -16,7 +16,8 @@ reverse_depends = "['djvulibre', 'gimp', 'keepass', 'lumina-desktop', 'plasma-wo
 +++
 A set of command line tools that assist applications with a variety of desktop integration tasks.
 
-{{< files text="show files" >}}* /usr/bin/xdg-desktop-icon
+## Files: 
+* /usr/bin/xdg-desktop-icon
 * /usr/bin/xdg-desktop-menu
 * /usr/bin/xdg-email
 * /usr/bin/xdg-icon-resource
@@ -37,4 +38,3 @@ A set of command line tools that assist applications with a variety of desktop i
 * /usr/share/man/man1/xdg-open.1.gz
 * /usr/share/man/man1/xdg-screensaver.1.gz
 * /usr/share/man/man1/xdg-settings.1.gz
-{{< /files >}}

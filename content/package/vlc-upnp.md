@@ -15,5 +15,5 @@ depends = "['libupnp>=1.14.10', 'libvlc>=3.0.20']"
 +++
 vlc plugin for upnp
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/services_discovery/libupnp_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/services_discovery/libupnp_plugin.so

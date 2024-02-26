@@ -15,7 +15,8 @@ depends = "['python3>=3.8.3']"
 +++
 A bridge from UFOs to FontTools objects (and therefore, OTFs and TTFs).
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/ufo2ft-2.24.0-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/ufo2ft-2.24.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/ufo2ft-2.24.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/ufo2ft-2.24.0-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/ufo2ft-2.24.0-py3.12.egg-info/SOURCES.txt
@@ -82,4 +83,3 @@ A bridge from UFOs to FontTools objects (and therefore, OTFs and TTFs).
 * /usr/lib/python3.12/site-packages/ufo2ft/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/ufo2ft-2.24.0/LICENSE
 * /usr/share/doc/ufo2ft-2.24.0/README.rst
-{{< /files >}}

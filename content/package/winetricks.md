@@ -15,7 +15,8 @@ depends = "['cabextract', 'unzip', 'wine']"
 +++
 Winetricks is an easy way to work around problems in Wine.
 
-{{< files text="show files" >}}* /usr/bin/winetricks
+## Files: 
+* /usr/bin/winetricks
 * /usr/share/applications/winetricks.desktop
 * /usr/share/bash-completion/completions/winetricks
 * /usr/share/doc/winetricks-20240105/COPYING
@@ -23,4 +24,3 @@ Winetricks is an easy way to work around problems in Wine.
 * /usr/share/icons/hicolor/scalable/apps/winetricks.svg
 * /usr/share/man/man1/winetricks.1.gz
 * /usr/share/metainfo/winetricks.appdata.xml
-{{< /files >}}

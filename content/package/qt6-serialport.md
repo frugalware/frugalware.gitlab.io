@@ -16,7 +16,8 @@ reverse_depends = "['qt6-positioning', 'qt6-serialbus']"
 +++
 The Qt6 toolkit, qtserialport
 
-{{< files text="show files" >}}* /usr/include/qt6/QtSerialPort/6.6.2/QtSerialPort/private/qserialportinfo_p.h
+## Files: 
+* /usr/include/qt6/QtSerialPort/6.6.2/QtSerialPort/private/qserialportinfo_p.h
 * /usr/include/qt6/QtSerialPort/6.6.2/QtSerialPort/private/qserialport_p.h
 * /usr/include/qt6/QtSerialPort/6.6.2/QtSerialPort/private/qtserialport-config_p.h
 * /usr/include/qt6/QtSerialPort/QSerialPort
@@ -48,4 +49,3 @@ The Qt6 toolkit, qtserialport
 * /usr/lib/qt6/mkspecs/modules/qt_lib_serialport.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_serialport_private.pri
 * /usr/lib/qt6/modules/SerialPort.json
-{{< /files >}}

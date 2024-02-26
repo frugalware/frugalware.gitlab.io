@@ -15,7 +15,8 @@ depends = "['glibc>=2.29-6']"
 +++
 Abstraction library for Reiser4 utilities
 
-{{< files text="show files" >}}* /usr/include/aal/bitops.h
+## Files: 
+* /usr/include/aal/bitops.h
 * /usr/include/aal/block.h
 * /usr/include/aal/debug.h
 * /usr/include/aal/device.h
@@ -50,4 +51,3 @@ Abstraction library for Reiser4 utilities
 * /usr/share/doc/libaal-1.0.7/README
 * /usr/share/doc/libaal-1.0.7/THANKS
 * /usr/share/doc/libaal-1.0.7/TODO
-{{< /files >}}

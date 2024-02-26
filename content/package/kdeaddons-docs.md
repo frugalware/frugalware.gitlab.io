@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Kdeaddons Documentation
 
-{{< files text="show files" >}}* usr/share/doc/HTML/en/kate-plugins/common
+## Files: 
+* usr/share/doc/HTML/en/kate-plugins/common
 * usr/share/doc/HTML/en/kate-plugins/configure_insertcommand.png
 * usr/share/doc/HTML/en/kate-plugins/filetemplates.docbook
 * usr/share/doc/HTML/en/kate-plugins/htmltools.docbook
@@ -78,4 +79,3 @@ Kdeaddons Documentation
 * usr/share/doc/HTML/en/ksig/index.cache.bz2
 * usr/share/doc/HTML/en/ksig/index.docbook
 * usr/share/doc/HTML/en/ksig/screenshot.png
-{{< /files >}}

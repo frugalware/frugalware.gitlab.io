@@ -17,7 +17,8 @@ license = "GPL-2"
 +++
 C subroutine library for computing the Discrete Fourier Transform (DFT)
 
-{{< files text="show files" >}}* /usr/bin/fftw-wisdom
+## Files: 
+* /usr/bin/fftw-wisdom
 * /usr/bin/fftw-wisdom-to-conf
 * /usr/bin/fftwf-wisdom
 * /usr/bin/fftwl-wisdom
@@ -72,4 +73,3 @@ C subroutine library for computing the Discrete Fourier Transform (DFT)
 * /usr/share/man/man1/fftw-wisdom.1.gz
 * /usr/share/man/man1/fftwf-wisdom.1.gz
 * /usr/share/man/man1/fftwl-wisdom.1.gz
-{{< /files >}}

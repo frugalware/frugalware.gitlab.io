@@ -16,5 +16,5 @@ reverse_depends = "['firefox-i18n']"
 +++
 Songhai languages language support for Firefox
 
-{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-son@firefox.mozilla.org.xpi
-{{< /files >}}
+## Files: 
+* /usr/lib/firefox/browser/extensions/langpack-son@firefox.mozilla.org.xpi

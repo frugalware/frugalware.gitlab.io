@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Esperanto Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/locale/eo/charset
+## Files: 
+* usr/share/locale/eo/charset
 * usr/share/locale/eo/entry.desktop
 * usr/share/locale/eo/flag.png
 * usr/share/locale/eo/LC_MESSAGES/akregator.mo
@@ -403,4 +404,3 @@ Esperanto Localization for KDE.
 * usr/share/locale/eo/LC_MESSAGES/wakeup.mo
 * usr/share/locale/eo/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/eo/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

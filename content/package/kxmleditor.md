@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 KXML Editor is application for KDE, that display and edit
 
-{{< files text="show files" >}}* usr/bin/kxmleditor
+## Files: 
+* usr/bin/kxmleditor
 * usr/lib/libkxmleditorpart.la
 * usr/lib/libkxmleditorpart.so
 * usr/lib/libkxmleditorpart.so.1
@@ -127,4 +128,3 @@ KXML Editor is application for KDE, that display and edit
 * usr/share/locale/fr/LC_MESSAGES/kxmleditor.mo
 * usr/share/locale/pl/LC_MESSAGES/kxmleditor.mo
 * usr/share/services/kxmleditorpart.desktop
-{{< /files >}}

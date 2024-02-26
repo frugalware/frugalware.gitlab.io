@@ -16,7 +16,8 @@ reverse_depends = "['haskell-regex-posix', 'haskell-regex-tdfa']"
 +++
 Haskell regex base library.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/regex-base-0.94.0.2/libHSregex-base-0.94.0.2-CuXFT0mT5X78vCtRv7Sh9t.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/regex-base-0.94.0.2/libHSregex-base-0.94.0.2-CuXFT0mT5X78vCtRv7Sh9t.a
 * /usr/lib/ghc-9.8.1/site-local/regex-base-0.94.0.2/Paths_regex_base.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/regex-base-0.94.0.2/Paths_regex_base.hi
 * /usr/lib/ghc-9.8.1/site-local/regex-base-0.94.0.2/Text/Regex/Base.dyn_hi
@@ -45,4 +46,3 @@ Haskell regex base library.
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/regex-base-0.94.0.2/LICENSE
 * /usr/share/haskell/haskell-regex-base/register.sh
 * /usr/share/haskell/haskell-regex-base/unregister.sh
-{{< /files >}}

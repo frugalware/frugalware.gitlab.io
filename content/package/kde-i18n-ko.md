@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Korean Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/doc/HTML/ko/common/1.png
+## Files: 
+* usr/share/doc/HTML/ko/common/1.png
 * usr/share/doc/HTML/ko/common/10.png
 * usr/share/doc/HTML/ko/common/2.png
 * usr/share/doc/HTML/ko/common/3.png
@@ -517,4 +518,3 @@ Korean Localization for KDE.
 * usr/share/locale/ko/LC_MESSAGES/timezones.mo
 * usr/share/locale/ko/LC_MESSAGES/trashapplet.mo
 * usr/share/locale/ko/LC_MESSAGES/useraccount.mo
-{{< /files >}}

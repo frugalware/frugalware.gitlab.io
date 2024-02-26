@@ -15,7 +15,8 @@ depends = "['imlib2', 'libpulse', 'libxdamage', 'libxft', 'libxinerama', 'libxml
 +++
 Light-weight system monitor.
 
-{{< files text="show files" >}}* /usr/bin/conky
+## Files: 
+* /usr/bin/conky
 * /usr/share/applications/conky.desktop
 * /usr/share/doc/conky-1.19.4/AUTHORS
 * /usr/share/doc/conky-1.19.4/COPYING
@@ -25,4 +26,3 @@ Light-weight system monitor.
 * /usr/share/doc/conky-1.19.4_pre/conky_no_x11.conf
 * /usr/share/doc/conky-1.19.4_pre/convert.lua
 * /usr/share/icons/hicolor/scalable/apps/conky-logomark-violet.svg
-{{< /files >}}

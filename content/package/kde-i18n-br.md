@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Breton Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/locale/br/charset
+## Files: 
+* usr/share/locale/br/charset
 * usr/share/locale/br/entry.desktop
 * usr/share/locale/br/flag.png
 * usr/share/locale/br/LC_MESSAGES/akregator.mo
@@ -577,4 +578,3 @@ Breton Localization for KDE.
 * usr/share/locale/br/LC_MESSAGES/wakeup.mo
 * usr/share/locale/br/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/br/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

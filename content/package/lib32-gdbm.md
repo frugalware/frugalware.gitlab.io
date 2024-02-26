@@ -16,11 +16,11 @@ reverse_depends = "['lib32-avahi']"
 +++
 GNU database library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/gdbmtool
+## Files: 
+* /usr/i686-frugalware-linux/bin/gdbmtool
 * /usr/i686-frugalware-linux/bin/gdbm_dump
 * /usr/i686-frugalware-linux/bin/gdbm_load
 * /usr/i686-frugalware-linux/include/gdbm.h
 * /usr/lib32/libgdbm.so
 * /usr/lib32/libgdbm.so.6
 * /usr/lib32/libgdbm.so.6.0.0
-{{< /files >}}

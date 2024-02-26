@@ -16,7 +16,8 @@ reverse_depends = "['haskell-hslua-module-system', 'pandoc']"
 +++
 Portable temporary file and directory support
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/temporary-1.3/libHStemporary-1.3-8T4z3OTw6Zr5WKUsWyH66B.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/temporary-1.3/libHStemporary-1.3-8T4z3OTw6Zr5WKUsWyH66B.a
 * /usr/lib/ghc-9.8.1/site-local/temporary-1.3/System/IO/Temp.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/temporary-1.3/System/IO/Temp.hi
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHStemporary-1.3-8T4z3OTw6Zr5WKUsWyH66B-ghc9.8.1.so
@@ -33,4 +34,3 @@ Portable temporary file and directory support
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/temporary-1.3/LICENSE
 * /usr/share/haskell/haskell-temporary/register.sh
 * /usr/share/haskell/haskell-temporary/unregister.sh
-{{< /files >}}

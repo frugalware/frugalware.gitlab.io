@@ -16,7 +16,8 @@ reverse_depends = "['input-remapper']"
 +++
 Data validation using Python type hints
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pydantic-2.5.2.dist-info/licenses/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/pydantic-2.5.2.dist-info/licenses/LICENSE
 * /usr/lib/python3.12/site-packages/pydantic-2.5.2.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/pydantic-2.5.2.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/pydantic-2.5.2.dist-info/WHEEL
@@ -306,4 +307,3 @@ Data validation using Python type hints
 * /usr/lib/python3.12/site-packages/pydantic/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-pydantic-2.5.2/LICENSE
 * /usr/share/doc/python3-pydantic-2.5.2/README.md
-{{< /files >}}

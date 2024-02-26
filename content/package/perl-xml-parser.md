@@ -16,7 +16,8 @@ reverse_depends = "['hwinfo', 'intltool', 'perl-xml-sax-expat', 'xmltoman']"
 +++
 A perl module for parsing XML documents
 
-{{< files text="show files" >}}* /usr/lib/perl5/5.38/site_perl/auto/XML/Parser/Expat/Expat.so
+## Files: 
+* /usr/lib/perl5/5.38/site_perl/auto/XML/Parser/Expat/Expat.so
 * /usr/lib/perl5/5.38/site_perl/XML/Parser.pm
 * /usr/lib/perl5/5.38/site_perl/XML/Parser/Encodings/big5.enc
 * /usr/lib/perl5/5.38/site_perl/XML/Parser/Encodings/euc-kr.enc
@@ -60,4 +61,3 @@ A perl module for parsing XML documents
 * /usr/share/man/man3/XML::Parser::Style::Stream.3perl.gz
 * /usr/share/man/man3/XML::Parser::Style::Subs.3perl.gz
 * /usr/share/man/man3/XML::Parser::Style::Tree.3perl.gz
-{{< /files >}}

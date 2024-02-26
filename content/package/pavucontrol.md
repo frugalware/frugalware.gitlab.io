@@ -15,7 +15,8 @@ depends = "['gtkmm3', 'json-glib', 'libcanberra-gtk', 'pulseaudio>=8.0']"
 +++
 PulseAudio Volume Control
 
-{{< files text="show files" >}}* /usr/bin/pavucontrol
+## Files: 
+* /usr/bin/pavucontrol
 * /usr/share/applications/pavucontrol.desktop
 * /usr/share/doc/pavucontrol-5.0/LICENSE
 * /usr/share/doc/pavucontrol-5.0/README
@@ -72,4 +73,3 @@ PulseAudio Volume Control
 * /usr/share/locale/zh_CN/LC_MESSAGES/pavucontrol.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/pavucontrol.mo
 * /usr/share/pavucontrol/pavucontrol.glade
-{{< /files >}}

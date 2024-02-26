@@ -15,7 +15,8 @@ depends = "['libkdegames>=23.08.5', 'qt5-svg>=5.15.12']"
 +++
 A fun and educational game built around molecular geometry.
 
-{{< files text="show files" >}}* /usr/bin/katomic
+## Files: 
+* /usr/bin/katomic
 * /usr/share/applications/org.kde.katomic.desktop
 * /usr/share/doc/HTML/ca/katomic/index.cache.bz2
 * /usr/share/doc/HTML/ca/katomic/index.docbook
@@ -136,4 +137,3 @@ A fun and educational game built around molecular geometry.
 * /usr/share/locale/zh_TW/LC_MESSAGES/katomic.mo
 * /usr/share/metainfo/org.kde.katomic.appdata.xml
 * /usr/share/qlogging-categories5/katomic.categories
-{{< /files >}}

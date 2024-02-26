@@ -15,5 +15,5 @@ depends = "['fuse3', 'gvfs>=1.52.0']"
 +++
 gvfs with fuse support
 
-{{< files text="show files" >}}* /usr/lib/gvfs/gvfsd-fuse
-{{< /files >}}
+## Files: 
+* /usr/lib/gvfs/gvfsd-fuse

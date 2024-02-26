@@ -15,7 +15,8 @@ depends = "['dbus-glib>=0.104-3', 'libgcrypt>=1.6.4-3']"
 +++
 Compatibility library for accessing secrets.
 
-{{< files text="show files" >}}* /usr/include/gnome-keyring-1/gnome-keyring-memory.h
+## Files: 
+* /usr/include/gnome-keyring-1/gnome-keyring-memory.h
 * /usr/include/gnome-keyring-1/gnome-keyring-result.h
 * /usr/include/gnome-keyring-1/gnome-keyring.h
 * /usr/lib/girepository-1.0/GnomeKeyring-1.0.typelib
@@ -126,4 +127,3 @@ Compatibility library for accessing secrets.
 * /usr/share/locale/zh_CN/LC_MESSAGES/libgnome-keyring.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/libgnome-keyring.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libgnome-keyring.mo
-{{< /files >}}

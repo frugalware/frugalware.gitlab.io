@@ -15,7 +15,8 @@ depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxext>=1.3.3-3', 'lib32-libxv>=1.0
 +++
 X.Org XvMC library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/vldXvMC.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/extensions/vldXvMC.h
 * /usr/i686-frugalware-linux/include/X11/extensions/XvMClib.h
 * /usr/lib32/libXvMC.so
 * /usr/lib32/libXvMC.so.1
@@ -25,4 +26,3 @@ X.Org XvMC library ( 32bit )
 * /usr/lib32/libXvMCW.so.1.0.0
 * /usr/lib32/pkgconfig/xvmc-wrapper.pc
 * /usr/lib32/pkgconfig/xvmc.pc
-{{< /files >}}

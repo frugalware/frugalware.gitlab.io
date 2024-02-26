@@ -16,7 +16,8 @@ reverse_depends = "['rr']"
 +++
 Fast data interchange format and capability-based RPC system
 
-{{< files text="show files" >}}* /usr/bin/capnp
+## Files: 
+* /usr/bin/capnp
 * /usr/bin/capnpc
 * /usr/bin/capnpc-c++
 * /usr/bin/capnpc-capnp
@@ -142,4 +143,3 @@ Fast data interchange format and capability-based RPC system
 * /usr/share/doc/capnproto-0.10.3/LICENSE
 * /usr/share/doc/capnproto-0.10.3/README.md
 * /usr/share/doc/capnproto-0.10.3/RELEASE-PROCESS.md
-{{< /files >}}

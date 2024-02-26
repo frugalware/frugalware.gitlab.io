@@ -16,7 +16,8 @@ reverse_depends = "['lib32-gettext', 'lib32-gnutls', 'lib32-libidn2']"
 +++
 Library for manipulating Unicode strings and C strings. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/unicase.h
+## Files: 
+* /usr/i686-frugalware-linux/include/unicase.h
 * /usr/i686-frugalware-linux/include/uniconv.h
 * /usr/i686-frugalware-linux/include/unictype.h
 * /usr/i686-frugalware-linux/include/unigbrk.h
@@ -41,4 +42,3 @@ Library for manipulating Unicode strings and C strings. ( 32bit )
 * /usr/lib32/libunistring.so
 * /usr/lib32/libunistring.so.5
 * /usr/lib32/libunistring.so.5.1.0
-{{< /files >}}

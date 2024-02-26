@@ -15,7 +15,8 @@ depends = "['curl', 'jansson', 'jitterentropy-library>=3.0.0', 'libgcrypt', 'lib
 +++
 Random number generator related utilities
 
-{{< files text="show files" >}}* /etc/sysconfig/rngd
+## Files: 
+* /etc/sysconfig/rngd
 * /usr/bin/randstat
 * /usr/bin/rngd
 * /usr/bin/rngtest
@@ -28,4 +29,3 @@ Random number generator related utilities
 * /usr/share/doc/rng-tools-6.16/README.md
 * /usr/share/man/man1/rngtest.1.gz
 * /usr/share/man/man8/rngd.8.gz
-{{< /files >}}

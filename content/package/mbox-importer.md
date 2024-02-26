@@ -16,7 +16,8 @@ reverse_depends = "['kmail']"
 +++
 Wizard to assist with importing MBox email archives into Akonadi
 
-{{< files text="show files" >}}* /usr/bin/mboximporter
+## Files: 
+* /usr/bin/mboximporter
 * /usr/share/applications/org.kde.mboximporter.desktop
 * /usr/share/locale/ar/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/bg/LC_MESSAGES/mboximporter.mo
@@ -64,4 +65,3 @@ Wizard to assist with importing MBox email archives into Akonadi
 * /usr/share/locale/uk/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/mboximporter.mo
-{{< /files >}}

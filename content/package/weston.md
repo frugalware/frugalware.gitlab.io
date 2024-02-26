@@ -15,7 +15,8 @@ depends = "['gst1-plugins-base', 'lcms2', 'libdisplay-info', 'libgbm', 'libglvnd
 +++
 Wayland Default Display Compositor
 
-{{< files text="show files" >}}* /etc/pam.d/weston-remote-access
+## Files: 
+* /etc/pam.d/weston-remote-access
 * /usr/bin/wcap-decode
 * /usr/bin/weston
 * /usr/bin/weston-calibrator
@@ -138,4 +139,3 @@ Wayland Default Display Compositor
 * /usr/share/weston/tiling.png
 * /usr/share/weston/wayland.png
 * /usr/share/weston/wayland.svg
-{{< /files >}}

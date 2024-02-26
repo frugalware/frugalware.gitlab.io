@@ -16,10 +16,10 @@ reverse_depends = "['libepoxy', 'libwayland-egl', 'qt5-base', 'virtualbox', 'xor
 +++
 Mesa OpenEGL library.
 
-{{< files text="show files" >}}* /usr/include/EGL/eglext_angle.h
+## Files: 
+* /usr/include/EGL/eglext_angle.h
 * /usr/include/EGL/eglmesaext.h
 * /usr/lib/libEGL_mesa.so
 * /usr/lib/libEGL_mesa.so.0
 * /usr/lib/libEGL_mesa.so.0.0.0
 * /usr/share/glvnd/egl_vendor.d/50_mesa.json
-{{< /files >}}

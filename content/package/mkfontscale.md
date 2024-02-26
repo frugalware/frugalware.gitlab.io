@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 Create an index of scalable font files for X
 
-{{< files text="show files" >}}* /usr/bin/mkfontdir
+## Files: 
+* /usr/bin/mkfontdir
 * /usr/bin/mkfontscale
 * /usr/share/doc/mkfontscale-1.2.2/ChangeLog
 * /usr/share/doc/mkfontscale-1.2.2/COPYING
@@ -25,4 +26,3 @@ Create an index of scalable font files for X
 * /usr/share/doc/mkfontscale-1.2.2/README.md
 * /usr/share/man/man1/mkfontdir.1.gz
 * /usr/share/man/man1/mkfontscale.1.gz
-{{< /files >}}

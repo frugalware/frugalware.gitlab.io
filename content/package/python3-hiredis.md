@@ -15,7 +15,8 @@ depends = "['python3']"
 +++
 Non-blocking redis client for python
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/hiredis-2.2.3-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/hiredis-2.2.3-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/hiredis-2.2.3-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/hiredis-2.2.3-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/hiredis-2.2.3-py3.12.egg-info/top_level.txt
@@ -28,4 +29,3 @@ Non-blocking redis client for python
 * /usr/lib/python3.12/site-packages/hiredis/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-hiredis-2.2.3/LICENSE
 * /usr/share/doc/python3-hiredis-2.2.3/README.md
-{{< /files >}}

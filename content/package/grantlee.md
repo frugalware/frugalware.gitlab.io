@@ -16,7 +16,8 @@ reverse_depends = "['grantleetheme', 'kdevelop', 'khelpcenter5', 'kpimtextedit',
 +++
 Grantlee Templates and Grantlee TextDocument.
 
-{{< files text="show files" >}}* /usr/include/grantlee/abstractlocalizer.h
+## Files: 
+* /usr/include/grantlee/abstractlocalizer.h
 * /usr/include/grantlee/abstractmarkupbuilder.h
 * /usr/include/grantlee/bbcodebuilder.h
 * /usr/include/grantlee/cachingloaderdecorator.h
@@ -67,4 +68,3 @@ Grantlee Templates and Grantlee TextDocument.
 * /usr/share/doc/grantlee-5.3.1/CHANGELOG
 * /usr/share/doc/grantlee-5.3.1/COPYING.LIB
 * /usr/share/doc/grantlee-5.3.1/README.md
-{{< /files >}}

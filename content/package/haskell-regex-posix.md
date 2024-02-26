@@ -16,7 +16,8 @@ reverse_depends = "['haskell-regex-compat']"
 +++
 Haskell posix regex backend library
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/regex-posix-0.96.0.1/libHSregex-posix-0.96.0.1-3FADnIv8yQx9ywEZDMfDxq.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/regex-posix-0.96.0.1/libHSregex-posix-0.96.0.1-3FADnIv8yQx9ywEZDMfDxq.a
 * /usr/lib/ghc-9.8.1/site-local/regex-posix-0.96.0.1/Paths_regex_posix.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/regex-posix-0.96.0.1/Paths_regex_posix.hi
 * /usr/lib/ghc-9.8.1/site-local/regex-posix-0.96.0.1/Text/Regex/Posix.dyn_hi
@@ -50,4 +51,3 @@ Haskell posix regex backend library
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/regex-posix-0.96.0.1/LICENSE
 * /usr/share/haskell/haskell-regex-posix/register.sh
 * /usr/share/haskell/haskell-regex-posix/unregister.sh
-{{< /files >}}

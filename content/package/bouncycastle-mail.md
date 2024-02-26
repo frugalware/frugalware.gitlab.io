@@ -15,5 +15,5 @@ depends = "['gnumail', 'openjre']"
 +++
 S/MIME and CMS libraries for Bouncy Castle
 
-{{< files text="show files" >}}* /usr/share/java/bcmail.jar
-{{< /files >}}
+## Files: 
+* /usr/share/java/bcmail.jar

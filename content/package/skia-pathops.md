@@ -15,7 +15,8 @@ depends = "['python3>=3.10']"
 +++
 Boolean operations on paths using the Skia library
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pathops/operations.py
+## Files: 
+* /usr/lib/python3.12/site-packages/pathops/operations.py
 * /usr/lib/python3.12/site-packages/pathops/_pathops.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/pathops/_version.py
 * /usr/lib/python3.12/site-packages/pathops/__init__.py
@@ -30,4 +31,3 @@ Boolean operations on paths using the Skia library
 * /usr/lib/python3.12/site-packages/skia_pathops-0.8.0.post1-py3.12.egg-info/top_level.txt
 * /usr/share/doc/skia-pathops-0.8.0.post1/LICENSE
 * /usr/share/doc/skia-pathops-0.8.0.post1/README.md
-{{< /files >}}

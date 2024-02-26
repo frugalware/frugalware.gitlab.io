@@ -15,7 +15,8 @@ depends = "['ncurses>=6.1-2']"
 +++
 An interactive process viewer for Linux.
 
-{{< files text="show files" >}}* /usr/bin/htop
+## Files: 
+* /usr/bin/htop
 * /usr/share/applications/htop.desktop
 * /usr/share/doc/htop-3.2.2/AUTHORS
 * /usr/share/doc/htop-3.2.2/ChangeLog
@@ -27,4 +28,3 @@ An interactive process viewer for Linux.
 * /usr/share/icons/hicolor/scalable/apps/htop.svg
 * /usr/share/man/man1/htop.1.gz
 * /usr/share/pixmaps/htop.png
-{{< /files >}}

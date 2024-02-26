@@ -16,7 +16,8 @@ reverse_depends = "['ark', 'claws-mail-plugin-archive', 'cmake', 'dracut-ykfde',
 +++
 Library to create and read several different archive formats
 
-{{< files text="show files" >}}* /usr/bin/bsdcat
+## Files: 
+* /usr/bin/bsdcat
 * /usr/bin/bsdcpio
 * /usr/bin/bsdtar
 * /usr/bin/bsdunzip
@@ -76,4 +77,3 @@ Library to create and read several different archive formats
 * /usr/share/man/man5/libarchive-formats.5.gz
 * /usr/share/man/man5/mtree.5.gz
 * /usr/share/man/man5/tar.5.gz
-{{< /files >}}

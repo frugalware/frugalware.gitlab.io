@@ -16,7 +16,8 @@ reverse_depends = "['libkdepim']"
 +++
 Libraries and daemons to implement searching in Akonad
 
-{{< files text="show files" >}}* /usr/bin/akonadi_html_to_text
+## Files: 
+* /usr/bin/akonadi_html_to_text
 * /usr/bin/akonadi_indexing_agent
 * /usr/include/KPim5/AkonadiSearch/akonadi_search_version.h
 * /usr/include/KPim5/AkonadiSearch/Core/Query
@@ -119,4 +120,3 @@ Libraries and daemons to implement searching in Akonad
 * /usr/share/locale/zh_TW/LC_MESSAGES/akonadi_search.mo
 * /usr/share/qlogging-categories5/akonadi-search.categories
 * /usr/share/qlogging-categories5/akonadi-search.renamecategories
-{{< /files >}}

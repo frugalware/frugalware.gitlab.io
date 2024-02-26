@@ -15,4 +15,4 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs nlpsolver support in LibreOffice
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

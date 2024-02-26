@@ -15,7 +15,8 @@ depends = "['freetype2', 'gtk+2>=2.20.0-2', 'libstdc++', 'libxau>=1.0.4', 'libxd
 +++
 Printoxx is a free open source Linux program for printing one or more image files with a user-defined page layout.
 
-{{< files text="show files" >}}* /usr/bin/printoxx
+## Files: 
+* /usr/bin/printoxx
 * /usr/share/applications/printoxx.desktop
 * /usr/share/doc/printoxx/CHANGES
 * /usr/share/doc/printoxx/COPYING
@@ -66,4 +67,3 @@ Printoxx is a free open source Linux program for printing one or more image file
 * /usr/share/printoxx/locales/ru/zfuncs.po
 * /usr/share/printoxx/locales/zh_CN/printoxx.po
 * /usr/share/printoxx/locales/zh_CN/zfuncs.po
-{{< /files >}}

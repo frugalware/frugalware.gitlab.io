@@ -17,11 +17,11 @@ license = "custom:CC0"
 +++
 A password-hashing function (reference C implementation)
 
-{{< files text="show files" >}}* /usr/bin/argon2
+## Files: 
+* /usr/bin/argon2
 * /usr/include/argon2.h
 * /usr/lib/libargon2.so
 * /usr/lib/libargon2.so.1
 * /usr/lib/pkgconfig/libargon2.pc
 * /usr/share/doc/argon2-20190702/LICENSE
 * /usr/share/doc/argon2-20190702/README.md
-{{< /files >}}

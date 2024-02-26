@@ -16,7 +16,8 @@ reverse_depends = "['haskell-hslua-module-doclayout', 'haskell-hslua-module-syst
 +++
 A Lua language interpreter embedding in Haskell
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hslua-2.3.0/HsLua.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/hslua-2.3.0/HsLua.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-2.3.0/HsLua.hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-2.3.0/HsLua/Util.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-2.3.0/HsLua/Util.hi
@@ -63,4 +64,3 @@ A Lua language interpreter embedding in Haskell
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/hslua-2.3.0/LICENSE
 * /usr/share/haskell/haskell-hslua/register.sh
 * /usr/share/haskell/haskell-hslua/unregister.sh
-{{< /files >}}

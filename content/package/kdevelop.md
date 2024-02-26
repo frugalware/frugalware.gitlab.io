@@ -16,7 +16,8 @@ reverse_depends = "['kdev-php', 'kdev-python']"
 +++
 The KDevelop integrated C/C++ application development environment
 
-{{< files text="show files" >}}* /usr/bin/kdevelop
+## Files: 
+* /usr/bin/kdevelop
 * /usr/bin/kdevelop!
 * /usr/bin/kdevplatform_shell_environment.sh
 * /usr/bin/kdev_dbus_socket_transformer
@@ -3311,4 +3312,3 @@ The KDevelop integrated C/C++ application development environment
 * /usr/share/qt5/qml/org/kde/kdevplatform/qmldir
 * /usr/share/qt5/qml/org/kde/plasma/private/kdevelopsessions/libkdevelopsessionsplugin.so
 * /usr/share/qt5/qml/org/kde/plasma/private/kdevelopsessions/qmldir
-{{< /files >}}

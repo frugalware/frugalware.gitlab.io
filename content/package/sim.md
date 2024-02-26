@@ -15,7 +15,8 @@ depends = "['libxml2', 'libxscrnsaver', 'libxslt', 'openssl', 'perl', 'zip']"
 +++
 Plugins-based instant messenger with support various protocols.
 
-{{< files text="show files" >}}* usr/bin/sim
+## Files: 
+* usr/bin/sim
 * usr/bin/simctrl
 * usr/lib/libsim.la
 * usr/lib/libsim.so
@@ -171,4 +172,3 @@ Plugins-based instant messenger with support various protocols.
 * usr/share/locale/zh_TW/LC_MESSAGES/sim.mo
 * usr/share/mimelnk/application/x-sim-icq.desktop
 * usr/share/services/simctrl.desktop
-{{< /files >}}

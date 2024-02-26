@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Italian support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/it/default.css
+## Files: 
+* /usr/lib/libreoffice/help/it/default.css
 * /usr/lib/libreoffice/help/it/err.html
 * /usr/lib/libreoffice/help/it/highcontrast1.css
 * /usr/lib/libreoffice/help/it/highcontrast2.css
@@ -135,4 +136,3 @@ Installs Italian support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-it.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_it.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_it.xcd
-{{< /files >}}

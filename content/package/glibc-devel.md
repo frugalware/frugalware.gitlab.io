@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Development files for glibc.
 
-{{< files text="show files" >}}* /usr/include/a.out.h
+## Files: 
+* /usr/include/a.out.h
 * /usr/include/aio.h
 * /usr/include/aliases.h
 * /usr/include/alloca.h
@@ -549,4 +550,3 @@ Development files for glibc.
 * /usr/lib32/Mcrt1.o
 * /usr/lib32/rcrt1.o
 * /usr/lib32/Scrt1.o
-{{< /files >}}

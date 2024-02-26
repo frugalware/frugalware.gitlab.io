@@ -17,7 +17,8 @@ license = "LGPL2.1"
 +++
 Open client for Cisco AnyConnect VPN
 
-{{< files text="show files" >}}* /usr/bin/openconnect
+## Files: 
+* /usr/bin/openconnect
 * /usr/include/openconnect.h
 * /usr/lib/libopenconnect.so
 * /usr/lib/libopenconnect.so.5
@@ -72,4 +73,3 @@ Open client for Cisco AnyConnect VPN
 * /usr/share/locale/zh_CN/LC_MESSAGES/openconnect.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/openconnect.mo
 * /usr/share/man/man8/openconnect.8.gz
-{{< /files >}}

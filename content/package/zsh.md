@@ -15,7 +15,8 @@ depends = "['gdbm>=1.15', 'libcap', 'ncurses>=6.1']"
 +++
 Zsh is a shell designed for interactive use
 
-{{< files text="show files" >}}* /etc/zsh/zprofile
+## Files: 
+* /etc/zsh/zprofile
 * /usr/bin/zsh
 * /usr/bin/zsh-5.9
 * /usr/lib/zsh/5.9/zsh/attr.so
@@ -1389,4 +1390,3 @@ Zsh is a shell designed for interactive use
 * /usr/share/zsh/functions/Zle/zcalc-auto-insert
 * /usr/share/zsh/functions/Zle/zed-set-file-name
 * /usr/share/zsh/scripts/newuser
-{{< /files >}}

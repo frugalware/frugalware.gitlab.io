@@ -16,7 +16,8 @@ reverse_depends = "['libiio']"
 +++
 A minimal library that provides OS abstraction when interfacing serial ports
 
-{{< files text="show files" >}}* /usr/include/libserialport.h
+## Files: 
+* /usr/include/libserialport.h
 * /usr/lib/libserialport.so
 * /usr/lib/libserialport.so.0
 * /usr/lib/libserialport.so.0.1.0
@@ -27,4 +28,3 @@ A minimal library that provides OS abstraction when interfacing serial ports
 * /usr/share/doc/libserialport-0.1.1/INSTALL
 * /usr/share/doc/libserialport-0.1.1/NEWS
 * /usr/share/doc/libserialport-0.1.1/README
-{{< /files >}}

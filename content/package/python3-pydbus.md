@@ -16,7 +16,8 @@ reverse_depends = "['input-remapper']"
 +++
 Pythonic D-Bus library
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pydbus-0.6.0-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/pydbus-0.6.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pydbus-0.6.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/pydbus-0.6.0-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/pydbus-0.6.0-py3.12.egg-info/top_level.txt
@@ -59,4 +60,3 @@ Pythonic D-Bus library
 * /usr/lib/python3.12/site-packages/pydbus/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-pydbus-0.6.0/LICENSE
 * /usr/share/doc/python3-pydbus-0.6.0/README.rst
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['pidgin-otr']"
 +++
 A multi-protocol instant messaging (IM) client
 
-{{< files text="show files" >}}* /usr/bin/pidgin
+## Files: 
+* /usr/bin/pidgin
 * /usr/bin/purple-client-example
 * /usr/bin/purple-remote
 * /usr/bin/purple-send
@@ -776,4 +777,3 @@ A multi-protocol instant messaging (IM) client
 * /usr/share/sounds/purple/logout.wav
 * /usr/share/sounds/purple/receive.wav
 * /usr/share/sounds/purple/send.wav
-{{< /files >}}

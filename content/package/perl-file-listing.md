@@ -16,11 +16,11 @@ reverse_depends = "['perl-libwww']"
 +++
 File::Listing - parse directory listing.
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/File/Listing.pm
+## Files: 
+* /usr/lib/perl5/site_perl/File/Listing.pm
 * /usr/share/doc/perl-file-listing-6.16/INSTALL
 * /usr/share/doc/perl-file-listing-6.16/LICENSE
 * /usr/share/doc/perl-file-listing-6.16/MANIFEST
 * /usr/share/doc/perl-file-listing-6.16/README
 * /usr/share/doc/perl-file-listing-6.16/README.md
 * /usr/share/man/man3/File::Listing.3perl.gz
-{{< /files >}}

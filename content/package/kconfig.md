@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-mime', 'alligator', 'calamares-frugalware', 'discov
 +++
 Provides an advanced configuration system.
 
-{{< files text="show files" >}}* /usr/bin/kreadconfig5
+## Files: 
+* /usr/bin/kreadconfig5
 * /usr/bin/kwriteconfig5
 * /usr/include/KF5/KConfig/kconfig_version.h
 * /usr/include/KF5/KConfigCore/ConversionCheck
@@ -176,4 +177,3 @@ Provides an advanced configuration system.
 * /usr/share/qlogging-categories5/kconfig.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KConfigCore.pri
 * /usr/share/qt5/mkspecs/modules/qt_KConfigGui.pri
-{{< /files >}}

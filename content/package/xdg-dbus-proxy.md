@@ -16,8 +16,8 @@ reverse_depends = "['flatpak', 'webkit-gtk3']"
 +++
 A D-Bus proxy.
 
-{{< files text="show files" >}}* /usr/bin/xdg-dbus-proxy
+## Files: 
+* /usr/bin/xdg-dbus-proxy
 * /usr/share/doc/xdg-dbus-proxy-0.1.5/COPYING
 * /usr/share/doc/xdg-dbus-proxy-0.1.5/NEWS
 * /usr/share/doc/xdg-dbus-proxy-0.1.5/README.md
-{{< /files >}}

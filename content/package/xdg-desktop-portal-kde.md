@@ -16,7 +16,8 @@ reverse_depends = "['plasma-wayland-session']"
 +++
 A backend implementation for xdg-desktop-portal using Qt/KF5
 
-{{< files text="show files" >}}* /usr/lib/kf5/xdg-desktop-portal-kde
+## Files: 
+* /usr/lib/kf5/xdg-desktop-portal-kde
 * /usr/lib/systemd/user/plasma-xdg-desktop-portal-kde.service
 * /usr/share/applications/org.freedesktop.impl.portal.desktop.kde.desktop
 * /usr/share/dbus-1/services/org.freedesktop.impl.portal.desktop.kde.service
@@ -72,4 +73,3 @@ A backend implementation for xdg-desktop-portal using Qt/KF5
 * /usr/share/qlogging-categories5/xdp-kde.categories
 * /usr/share/xdg-desktop-portal/kde-portals.conf
 * /usr/share/xdg-desktop-portal/portals/kde.portal
-{{< /files >}}

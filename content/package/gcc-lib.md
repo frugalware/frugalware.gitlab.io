@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 The GNU GCC library (libgcc_s.so)
 
-{{< files text="show files" >}}* usr/lib/libgcc_s.so
+## Files: 
+* usr/lib/libgcc_s.so
 * usr/lib/libgcc_s.so.1
 * usr/share/doc/gcc-lib-4.0.3/BUGS
 * usr/share/doc/gcc-lib-4.0.3/ChangeLog
@@ -37,4 +38,3 @@ The GNU GCC library (libgcc_s.so)
 * usr/share/doc/gcc-lib-4.0.3/NEWS
 * usr/share/doc/gcc-lib-4.0.3/README
 * usr/share/doc/gcc-lib-4.0.3/README.SCO
-{{< /files >}}

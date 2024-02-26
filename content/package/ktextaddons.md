@@ -16,7 +16,8 @@ reverse_depends = "['messagelib', 'pimcommon']"
 +++
 Various text handling addons
 
-{{< files text="show files" >}}* /usr/include/KF5/TextAddonsWidgets/TextAddonsWidgets/LineEditCatchReturnKey
+## Files: 
+* /usr/include/KF5/TextAddonsWidgets/TextAddonsWidgets/LineEditCatchReturnKey
 * /usr/include/KF5/TextAddonsWidgets/textaddonswidgets/lineeditcatchreturnkey.h
 * /usr/include/KF5/TextAddonsWidgets/TextAddonsWidgets/SelectSpecialCharDialog
 * /usr/include/KF5/TextAddonsWidgets/textaddonswidgets/selectspecialchardialog.h
@@ -467,4 +468,3 @@ Various text handling addons
 * /usr/share/qt5/mkspecs/modules/qt_TextGrammarCheck.pri
 * /usr/share/qt5/mkspecs/modules/qt_TextTranslator.pri
 * /usr/share/qt5/mkspecs/modules/qt_textutils.pri
-{{< /files >}}

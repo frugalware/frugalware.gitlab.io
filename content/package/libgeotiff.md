@@ -16,7 +16,8 @@ reverse_depends = "['liblas', 'pdal']"
 +++
 A TIFF based interchange format for georeferenced raster imagery
 
-{{< files text="show files" >}}* /usr/bin/applygeo
+## Files: 
+* /usr/bin/applygeo
 * /usr/bin/geotifcp
 * /usr/bin/listgeo
 * /usr/include/cpl_serv.h
@@ -49,4 +50,3 @@ A TIFF based interchange format for georeferenced raster imagery
 * /usr/share/man/man1/applygeo.1.gz
 * /usr/share/man/man1/geotifcp.1.gz
 * /usr/share/man/man1/listgeo.1.gz
-{{< /files >}}

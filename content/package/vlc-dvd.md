@@ -15,5 +15,5 @@ depends = "['libdvdread>=6.1.1', 'libvlc>=3.0.20']"
 +++
 vlc DVD support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/access/libdvdread_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/access/libdvdread_plugin.so

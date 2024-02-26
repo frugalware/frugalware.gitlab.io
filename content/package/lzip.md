@@ -15,7 +15,8 @@ depends = "['libstdc++>=11.2']"
 +++
 A lossless file compressor based on the LZMA algorithm
 
-{{< files text="show files" >}}* /usr/bin/lzip
+## Files: 
+* /usr/bin/lzip
 * /usr/share/doc/lzip-1.24/AUTHORS
 * /usr/share/doc/lzip-1.24/ChangeLog
 * /usr/share/doc/lzip-1.24/COPYING
@@ -24,4 +25,3 @@ A lossless file compressor based on the LZMA algorithm
 * /usr/share/doc/lzip-1.24/README
 * /usr/share/info/lzip.info.gz
 * /usr/share/man/man1/lzip.1.gz
-{{< /files >}}

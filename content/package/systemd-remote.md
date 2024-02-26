@@ -15,7 +15,8 @@ depends = "['libmicrohttpd>=0.9.58-2', 'lz4>=1.8.1.2-2', 'openssl>=3.0.7', 'syst
 +++
 systemd remote journald
 
-{{< files text="show files" >}}* /etc/systemd/journal-remote.conf
+## Files: 
+* /etc/systemd/journal-remote.conf
 * /etc/systemd/journal-upload.conf
 * /usr/lib/systemd/system/systemd-journal-gatewayd.service
 * /usr/lib/systemd/system/systemd-journal-gatewayd.socket
@@ -39,4 +40,3 @@ systemd remote journald
 * /usr/share/man/man8/systemd-journal-upload.8.gz
 * /usr/share/man/man8/systemd-journal-upload.service.8.gz
 * /usr/share/systemd/gatewayd/browse.html
-{{< /files >}}

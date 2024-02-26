@@ -15,5 +15,5 @@ depends = "['gst1-plugins-base>=1.22.10', 'gstreamer1>=1.22.10', 'opus>=1.1.3-2'
 +++
 GStreamer opus plugin (Base).
 
-{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstopus.so
-{{< /files >}}
+## Files: 
+* /usr/lib/gstreamer-1.0/libgstopus.so

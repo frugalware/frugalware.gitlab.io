@@ -16,7 +16,8 @@ reverse_depends = "['flute']"
 +++
 Java standard interface for CSS parser
 
-{{< files text="show files" >}}* /usr/share/doc/sac-1.3/AUTHORS
+## Files: 
+* /usr/share/doc/sac-1.3/AUTHORS
 * /usr/share/doc/sac-1.3/ChangeLog
 * /usr/share/doc/sac-1.3/COPYING
 * /usr/share/doc/sac-1.3/COPYRIGHT.html
@@ -26,4 +27,3 @@ Java standard interface for CSS parser
 * /usr/share/doc/sac-1.3/README.md
 * /usr/share/doc/sac-1.3/THANKS
 * /usr/share/java/sac.jar
-{{< /files >}}

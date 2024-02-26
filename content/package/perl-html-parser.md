@@ -16,7 +16,8 @@ reverse_depends = "['perl-libwww', 'spamassassin']"
 +++
 Perl Module: HTML parser class
 
-{{< files text="show files" >}}* /usr/lib/perl5/5.38/site_perl/auto/HTML/Parser/Parser.so
+## Files: 
+* /usr/lib/perl5/5.38/site_perl/auto/HTML/Parser/Parser.so
 * /usr/lib/perl5/5.38/site_perl/HTML/Entities.pm
 * /usr/lib/perl5/5.38/site_perl/HTML/Filter.pm
 * /usr/lib/perl5/5.38/site_perl/HTML/HeadParser.pm
@@ -38,4 +39,3 @@ Perl Module: HTML parser class
 * /usr/share/man/man3/HTML::Parser.3perl.gz
 * /usr/share/man/man3/HTML::PullParser.3perl.gz
 * /usr/share/man/man3/HTML::TokeParser.3perl.gz
-{{< /files >}}

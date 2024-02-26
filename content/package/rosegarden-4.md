@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Rosegarden is a professional audio MIDI sequencer,score editor,music composition and editing environment.
 
-{{< files text="show files" >}}* usr/bin/rosegarden
+## Files: 
+* usr/bin/rosegarden
 * usr/bin/rosegarden-lilypondview
 * usr/bin/rosegarden-project-package
 * usr/bin/rosegardensequencer
@@ -1388,4 +1389,3 @@ Rosegarden is a professional audio MIDI sequencer,score editor,music composition
 * usr/share/mimelnk/audio/x-rosegarden.desktop
 * usr/share/mimelnk/audio/x-rosegarden21.desktop
 * usr/share/mimelnk/audio/x-soundfont.desktop
-{{< /files >}}

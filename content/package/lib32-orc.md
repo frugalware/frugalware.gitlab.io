@@ -16,7 +16,8 @@ reverse_depends = "['lib32-libpulse']"
 +++
 The Oil Runtime Compiler ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/orc-bugreport
+## Files: 
+* /usr/i686-frugalware-linux/bin/orc-bugreport
 * /usr/i686-frugalware-linux/bin/orcc
 * /usr/i686-frugalware-linux/include/orc-0.4/orc-test/orcarray.h
 * /usr/i686-frugalware-linux/include/orc-0.4/orc-test/orcprofile.h
@@ -63,4 +64,3 @@ The Oil Runtime Compiler ( 32bit )
 * /usr/lib32/liborc-test-0.4.so.0.37.0
 * /usr/lib32/pkgconfig/orc-0.4.pc
 * /usr/lib32/pkgconfig/orc-test-0.4.pc
-{{< /files >}}

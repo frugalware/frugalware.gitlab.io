@@ -15,6 +15,6 @@ depends = "['python3']"
 +++
 libguestfs python3 bindings
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/guestfs.py
+## Files: 
+* /usr/lib/python3.12/site-packages/guestfs.py
 * /usr/lib/python3.12/site-packages/libguestfsmod.cpython-312-x86_64-linux-gnu.so
-{{< /files >}}

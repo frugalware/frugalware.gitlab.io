@@ -15,5 +15,5 @@ depends = "['libarchive', 'libvlc>=3.0.20']"
 +++
 vlc archive support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/stream_extractor/libarchive_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/stream_extractor/libarchive_plugin.so

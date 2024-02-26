@@ -16,7 +16,8 @@ reverse_depends = "['krfb-pipewire', 'plasma-wayland-session', 'spectacle']"
 +++
 Components relating to pipewire use in Plasma
 
-{{< files text="show files" >}}* /usr/include/KPipeWire/DmaBufHandler
+## Files: 
+* /usr/include/KPipeWire/DmaBufHandler
 * /usr/include/KPipeWire/dmabufhandler.h
 * /usr/include/KPipeWire/kpipewiredmabuf_export.h
 * /usr/include/KPipeWire/kpipewire_export.h
@@ -78,4 +79,3 @@ Components relating to pipewire use in Plasma
 * /usr/share/qt5/qml/org/kde/pipewire/qmldir
 * /usr/share/qt5/qml/org/kde/pipewire/record/libKPipeWireRecordDeclarative.so
 * /usr/share/qt5/qml/org/kde/pipewire/record/qmldir
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['flann']"
 +++
 Octave is a high-level language, primarily intended for numerical computations.
 
-{{< files text="show files" >}}* /etc/ld.so.conf.d/octave.conf
+## Files: 
+* /etc/ld.so.conf.d/octave.conf
 * /usr/bin/mkoctfile
 * /usr/bin/mkoctfile-8.4.0
 * /usr/bin/octave
@@ -2518,4 +2519,3 @@ Octave is a high-level language, primarily intended for numerical computations.
 * /usr/share/octave/8.4.0/m/web/webwrite.m
 * /usr/share/octave/packages/.frugalware
 * /usr/share/octave/site/m/startup/octaverc
-{{< /files >}}

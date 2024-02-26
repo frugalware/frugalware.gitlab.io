@@ -17,7 +17,8 @@ license = "License"
 +++
 International Components for Unicode library
 
-{{< files text="show files" >}}* /usr/bin/derb
+## Files: 
+* /usr/bin/derb
 * /usr/bin/escapesrc
 * /usr/bin/genbrk
 * /usr/bin/genccode
@@ -278,4 +279,3 @@ International Components for Unicode library
 * /usr/share/man/man8/gencmn.8.gz
 * /usr/share/man/man8/gensprep.8.gz
 * /usr/share/man/man8/icupkg.8.gz
-{{< /files >}}

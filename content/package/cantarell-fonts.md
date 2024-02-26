@@ -15,9 +15,9 @@ depends = "['glibc']"
 +++
 Contemporary humanist sans-serif font
 
-{{< files text="show files" >}}* /usr/share/doc/cantarell-fonts-0.303/COPYING
+## Files: 
+* /usr/share/doc/cantarell-fonts-0.303/COPYING
 * /usr/share/doc/cantarell-fonts-0.303/NEWS
 * /usr/share/doc/cantarell-fonts-0.303/README.md
 * /usr/share/fonts/cantarell/Cantarell-VF.otf
 * /usr/share/metainfo/org.gnome.cantarell.metainfo.xml
-{{< /files >}}

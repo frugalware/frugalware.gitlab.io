@@ -16,7 +16,8 @@ reverse_depends = "['mkvtoolnix-gui']"
 +++
 MKVToolnix is a set of tools to create, alter and inspect Matroska files under Linux.
 
-{{< files text="show files" >}}* /usr/bin/mkvextract
+## Files: 
+* /usr/bin/mkvextract
 * /usr/bin/mkvinfo
 * /usr/bin/mkvmerge
 * /usr/bin/mkvpropedit
@@ -58,4 +59,3 @@ MKVToolnix is a set of tools to create, alter and inspect Matroska files under L
 * /usr/share/mkvtoolnix/sounds/finished-1.webm
 * /usr/share/mkvtoolnix/sounds/finished-2.webm
 * /usr/share/mkvtoolnix/sounds/finished-3.webm
-{{< /files >}}

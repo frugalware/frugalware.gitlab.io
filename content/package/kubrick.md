@@ -15,7 +15,8 @@ depends = "['libglu', 'libkdegames>=23.08.5']"
 +++
 Kubrick is based on the famous Rubik's Cube
 
-{{< files text="show files" >}}* /usr/bin/kubrick
+## Files: 
+* /usr/bin/kubrick
 * /usr/share/applications/org.kde.kubrick.desktop
 * /usr/share/doc/HTML/ca/kubrick/index.cache.bz2
 * /usr/share/doc/HTML/ca/kubrick/index.docbook
@@ -132,4 +133,3 @@ Kubrick is based on the famous Rubik's Cube
 * /usr/share/locale/zh_TW/LC_MESSAGES/kubrick.mo
 * /usr/share/metainfo/org.kde.kubrick.appdata.xml
 * /usr/share/qlogging-categories5/kubrick.categories
-{{< /files >}}

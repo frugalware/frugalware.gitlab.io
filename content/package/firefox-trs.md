@@ -16,5 +16,5 @@ reverse_depends = "['firefox-i18n']"
 +++
 Chicahuaxtla Triqui language support for Firefox
 
-{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-trs@firefox.mozilla.org.xpi
-{{< /files >}}
+## Files: 
+* /usr/lib/firefox/browser/extensions/langpack-trs@firefox.mozilla.org.xpi

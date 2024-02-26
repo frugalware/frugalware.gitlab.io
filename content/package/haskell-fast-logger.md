@@ -16,7 +16,8 @@ reverse_depends = "['haskell-wai-logger']"
 +++
 A fast logging system
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/fast-logger-3.2.2/libHSfast-logger-3.2.2-CJKeGRjCjd49K4jrVv9ixr.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/fast-logger-3.2.2/libHSfast-logger-3.2.2-CJKeGRjCjd49K4jrVv9ixr.a
 * /usr/lib/ghc-9.8.1/site-local/fast-logger-3.2.2/System/Log/FastLogger.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/fast-logger-3.2.2/System/Log/FastLogger.hi
 * /usr/lib/ghc-9.8.1/site-local/fast-logger-3.2.2/System/Log/FastLogger/Date.dyn_hi
@@ -63,4 +64,3 @@ A fast logging system
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/fast-logger-3.2.2/LICENSE
 * /usr/share/haskell/haskell-fast-logger/register.sh
 * /usr/share/haskell/haskell-fast-logger/unregister.sh
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['freeciv-gtk2', 'freeciv-gtk3', 'freeciv-qt']"
 +++
 A multiuser clone of the famous Microprose game of Civilization.
 
-{{< files text="show files" >}}* /etc/freeciv/database.lua
+## Files: 
+* /etc/freeciv/database.lua
 * /usr/bin/freeciv-manual
 * /usr/bin/freeciv-ruledit
 * /usr/bin/freeciv-ruleup
@@ -3535,4 +3536,3 @@ A multiuser clone of the famous Microprose game of Civilization.
 * /usr/share/pixmaps/freeciv-client.png
 * /usr/share/pixmaps/freeciv-modpack.png
 * /usr/share/pixmaps/freeciv-ruledit.png
-{{< /files >}}

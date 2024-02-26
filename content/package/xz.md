@@ -16,7 +16,8 @@ reverse_depends = "['aria2', 'binwalk', 'botan', 'efl', 'elfutils', 'enlightenme
 +++
 XZ Utils is free general-purpose data compression software with high compression ratio.
 
-{{< files text="show files" >}}* /usr/bin/lzcat
+## Files: 
+* /usr/bin/lzcat
 * /usr/bin/lzcmp
 * /usr/bin/lzdiff
 * /usr/bin/lzegrep
@@ -313,4 +314,3 @@ XZ Utils is free general-purpose data compression software with high compression
 * /usr/share/man/uk/man1/xzgrep.1.gz
 * /usr/share/man/uk/man1/xzless.1.gz
 * /usr/share/man/uk/man1/xzmore.1.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['pyqt6webengine', 'qt6-webview', 'qtcreator', 'seafile-clien
 +++
 The Qt6 toolkit, qtwebengine
 
-{{< files text="show files" >}}* /usr/include/qt6/QtPdf/6.6.2/QtPdf/private/qpdfdocument_p.h
+## Files: 
+* /usr/include/qt6/QtPdf/6.6.2/QtPdf/private/qpdfdocument_p.h
 * /usr/include/qt6/QtPdf/6.6.2/QtPdf/private/qpdffile_p.h
 * /usr/include/qt6/QtPdf/6.6.2/QtPdf/private/qpdflinkmodel_p.h
 * /usr/include/qt6/QtPdf/6.6.2/QtPdf/private/qpdflink_p.h
@@ -455,4 +456,3 @@ The Qt6 toolkit, qtwebengine
 * /usr/share/qt6/translations/qtwebengine_locales/vi.pak
 * /usr/share/qt6/translations/qtwebengine_locales/zh-CN.pak
 * /usr/share/qt6/translations/qtwebengine_locales/zh-TW.pak
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['intel-compute-runtime']"
 +++
 Intel Graphics Compiler for OpenCL
 
-{{< files text="show files" >}}* /usr/bin/GenX_IR
+## Files: 
+* /usr/bin/GenX_IR
 * /usr/bin/iga64
 * /usr/bin/lld
 * /usr/include/iga/iga.h
@@ -132,4 +133,3 @@ Intel Graphics Compiler for OpenCL
 * /usr/lib/pkgconfig/igc-opencl.pc
 * /usr/share/doc/intel-graphics-compiler-1.0.16238.1/Readme.md
 * /usr/share/doc/intel-graphics-compiler-1.0.16238.1/README.md
-{{< /files >}}

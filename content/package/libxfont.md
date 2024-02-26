@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X font Library
 
-{{< files text="show files" >}}* /usr/include/X11/fonts/bdfint.h
+## Files: 
+* /usr/include/X11/fonts/bdfint.h
 * /usr/include/X11/fonts/bitmap.h
 * /usr/include/X11/fonts/bufio.h
 * /usr/include/X11/fonts/fntfil.h
@@ -41,4 +42,3 @@ X font Library
 * /usr/share/doc/libxfont-1.5.4/COPYING
 * /usr/share/doc/libxfont-1.5.4/INSTALL
 * /usr/share/doc/libxfont-1.5.4/README
-{{< /files >}}

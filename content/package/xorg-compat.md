@@ -15,4 +15,4 @@ depends = "['xf86-input-mouse', 'xf86-video-ati', 'xf86-video-dummy', 'xf86-vide
 +++
 Dummy X.Org compatibility package
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

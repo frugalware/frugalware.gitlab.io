@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Latvian Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/locale/lv/charset
+## Files: 
+* usr/share/locale/lv/charset
 * usr/share/locale/lv/entry.desktop
 * usr/share/locale/lv/flag.png
 * usr/share/locale/lv/LC_MESSAGES/appletproxy.mo
@@ -302,4 +303,3 @@ Latvian Localization for KDE.
 * usr/share/locale/lv/LC_MESSAGES/uachangerplugin.mo
 * usr/share/locale/lv/LC_MESSAGES/validatorsplugin.mo
 * usr/share/locale/lv/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

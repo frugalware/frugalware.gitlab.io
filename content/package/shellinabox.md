@@ -15,7 +15,8 @@ depends = "['zlib>=1.2.12']"
 +++
 Implements a web server that can export arbitrary command line tools to a web based terminal emulator.
 
-{{< files text="show files" >}}* /usr/bin/shellinaboxd
+## Files: 
+* /usr/bin/shellinaboxd
 * /usr/share/doc/shellinabox-2.20/AUTHORS
 * /usr/share/doc/shellinabox-2.20/ChangeLog
 * /usr/share/doc/shellinabox-2.20/COPYING
@@ -31,4 +32,3 @@ Implements a web server that can export arbitrary command line tools to a web ba
 * /usr/share/doc/shellinabox/GPL-2
 * /usr/share/doc/shellinabox/NEWS
 * /usr/share/man/man1/shellinaboxd.1.gz
-{{< /files >}}

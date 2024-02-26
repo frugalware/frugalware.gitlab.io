@@ -15,7 +15,8 @@ depends = "['gst-python']"
 +++
 Transmageddon is a video transcoder for Linux and Unix systems built using GStreamer.
 
-{{< files text="show files" >}}* /usr/bin/transmageddon
+## Files: 
+* /usr/bin/transmageddon
 * /usr/share/appdata/transmageddon.appdata.xml
 * /usr/share/applications/transmageddon.desktop
 * /usr/share/doc/transmageddon-1.5/AUTHORS
@@ -122,4 +123,3 @@ Transmageddon is a video transcoder for Linux and Unix systems built using GStre
 * /usr/share/transmageddon/__pycache__/utils.cpython-311.pyc
 * /usr/share/transmageddon/__pycache__/which.cpython-311.opt-1.pyc
 * /usr/share/transmageddon/__pycache__/which.cpython-311.pyc
-{{< /files >}}

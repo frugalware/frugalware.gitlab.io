@@ -16,7 +16,8 @@ reverse_depends = "['alizams', 'qt6-base-mysql', 'qt6-base-postgresql', 'qtcreat
 +++
 Development files for SQL plugins
 
-{{< files text="show files" >}}* /usr/include/qt6/QtSql/6.6.2/QtSql/private/qsqlcachedresult_p.h
+## Files: 
+* /usr/include/qt6/QtSql/6.6.2/QtSql/private/qsqlcachedresult_p.h
 * /usr/include/qt6/QtSql/6.6.2/QtSql/private/qsqldriver_p.h
 * /usr/include/qt6/QtSql/6.6.2/QtSql/private/qsqlnulldriver_p.h
 * /usr/include/qt6/QtSql/6.6.2/QtSql/private/qsqlquerymodel_p.h
@@ -62,4 +63,3 @@ Development files for SQL plugins
 * /usr/include/qt6/QtSql/qtsqlglobal.h
 * /usr/include/qt6/QtSql/QtSqlVersion
 * /usr/include/qt6/QtSql/qtsqlversion.h
-{{< /files >}}

@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org dmx library
 
-{{< files text="show files" >}}* /usr/include/X11/extensions/dmxext.h
+## Files: 
+* /usr/include/X11/extensions/dmxext.h
 * /usr/lib/libdmx.so
 * /usr/lib/libdmx.so.1
 * /usr/lib/libdmx.so.1.0.0
@@ -42,4 +43,3 @@ X.Org dmx library
 * /usr/share/man/man3/DMXRemoveInput.3.gz
 * /usr/share/man/man3/DMXRemoveScreen.3.gz
 * /usr/share/man/man3/DMXSync.3.gz
-{{< /files >}}

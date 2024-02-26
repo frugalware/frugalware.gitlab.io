@@ -16,7 +16,8 @@ reverse_depends = "['itinerary', 'kitinerary']"
 +++
 Apple Wallet Pass reader
 
-{{< files text="show files" >}}* /usr/include/KPim5/KPkPass/Barcode
+## Files: 
+* /usr/include/KPim5/KPkPass/Barcode
 * /usr/include/KPim5/KPkPass/barcode.h
 * /usr/include/KPim5/KPkPass/BoardingPass
 * /usr/include/KPim5/KPkPass/boardingpass.h
@@ -42,4 +43,3 @@ Apple Wallet Pass reader
 * /usr/share/doc/kpkpass-23.08.5/README.md
 * /usr/share/doc/kpkpass-23.08.5/README.md.license
 * /usr/share/qlogging-categories5/org_kde_kpkpass.categories
-{{< /files >}}

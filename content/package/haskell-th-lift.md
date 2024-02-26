@@ -16,7 +16,8 @@ reverse_depends = "['haskell-th-lift-instances']"
 +++
 Derive Template Haskell's Lift class for datatypes
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/th-lift-0.8.4/Language/Haskell/TH/Lift.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/th-lift-0.8.4/Language/Haskell/TH/Lift.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/th-lift-0.8.4/Language/Haskell/TH/Lift.hi
 * /usr/lib/ghc-9.8.1/site-local/th-lift-0.8.4/Language/Haskell/TH/Lift/Internal.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/th-lift-0.8.4/Language/Haskell/TH/Lift/Internal.hi
@@ -38,4 +39,3 @@ Derive Template Haskell's Lift class for datatypes
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/th-lift-0.8.4/html/th-lift.haddock
 * /usr/share/haskell/haskell-th-lift/register.sh
 * /usr/share/haskell/haskell-th-lift/unregister.sh
-{{< /files >}}

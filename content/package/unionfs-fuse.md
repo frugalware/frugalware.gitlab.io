@@ -15,7 +15,8 @@ depends = "['fuse3']"
 +++
 A user space unionfs implementation.
 
-{{< files text="show files" >}}* /usr/bin/mount.unionfs
+## Files: 
+* /usr/bin/mount.unionfs
 * /usr/bin/unionfs
 * /usr/bin/unionfsctl
 * /usr/share/doc/unionfs-fuse-3.4/CREDITS
@@ -23,4 +24,3 @@ A user space unionfs implementation.
 * /usr/share/doc/unionfs-fuse-3.4/NEWS
 * /usr/share/doc/unionfs-fuse-3.4/README.md
 * /usr/share/man/man8/unionfs.8.gz
-{{< /files >}}

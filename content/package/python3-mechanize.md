@@ -16,7 +16,8 @@ reverse_depends = "['calibre']"
 +++
 Stateful programmatic web browsing in Python.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/mechanize-0.4.9-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/mechanize-0.4.9-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/mechanize-0.4.9-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/mechanize-0.4.9-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/mechanize-0.4.9-py3.12.egg-info/SOURCES.txt
@@ -76,4 +77,3 @@ Stateful programmatic web browsing in Python.
 * /usr/share/doc/python3-mechanize-0.4.9/COPYRIGHT
 * /usr/share/doc/python3-mechanize-0.4.9/LICENSE
 * /usr/share/doc/python3-mechanize-0.4.9/README.rst
-{{< /files >}}

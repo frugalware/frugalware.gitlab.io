@@ -15,7 +15,8 @@ depends = "['audiofile>=0.3.6-3', 'audiofile', 'enchant', 'icu4c>=68.1', 'kio>=5
 +++
 Graphical Irc client for K Desktop
 
-{{< files text="show files" >}}* /usr/bin/kvirc
+## Files: 
+* /usr/bin/kvirc
 * /usr/bin/kvirc-config
 * /usr/lib/kvirc/5.0/modules/libkviabout.so
 * /usr/lib/kvirc/5.0/modules/libkviaction.so
@@ -2335,4 +2336,3 @@ Graphical Irc client for K Desktop
 * /usr/share/man/pt/man1/kvirc.1.gz
 * /usr/share/man/uk/man1/kvirc.1.gz
 * /usr/share/pixmaps/kvirc.png
-{{< /files >}}

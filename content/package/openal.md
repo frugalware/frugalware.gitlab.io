@@ -16,7 +16,8 @@ reverse_depends = "['alienarena', 'assaultcube', 'blender', 'filter_audio', 'fre
 +++
 A cross-platform 3D audio API appropriate for use with gaming applications.
 
-{{< files text="show files" >}}* /usr/bin/openal-info
+## Files: 
+* /usr/bin/openal-info
 * /usr/include/AL/al.h
 * /usr/include/AL/alc.h
 * /usr/include/AL/alext.h
@@ -43,4 +44,3 @@ A cross-platform 3D audio API appropriate for use with gaming applications.
 * /usr/share/openal/presets/presets.txt
 * /usr/share/openal/presets/rectangle.ambdec
 * /usr/share/openal/presets/square.ambdec
-{{< /files >}}

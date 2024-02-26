@@ -15,7 +15,8 @@ depends = "['cups>=2.2.0-2', 'cups-filters', 'kio>=5.115.0', 'qt5-declarative>=5
 +++
 System tray utility, to autoconfig printers.
 
-{{< files text="show files" >}}* /usr/bin/configure-printer
+## Files: 
+* /usr/bin/configure-printer
 * /usr/bin/kde-add-printer
 * /usr/bin/kde-print-queue
 * /usr/lib/libkcupslib.so
@@ -147,4 +148,3 @@ System tray utility, to autoconfig printers.
 * /usr/share/plasma/plasmoids/org.kde.plasma.printmanager/metadata.json
 * /usr/share/qt5/qml/org/kde/plasma/printmanager/libprintmanager.so
 * /usr/share/qt5/qml/org/kde/plasma/printmanager/qmldir
-{{< /files >}}

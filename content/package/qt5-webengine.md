@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-contacts', 'angelfish', 'arianna', 'aura-browser', 
 +++
 The Qt5 toolkit, qtwebengine
 
-{{< files text="show files" >}}* /usr/include/qt5/QtPdf/5.15.16/QtPdf/private/qpdfdestination_p.h
+## Files: 
+* /usr/include/qt5/QtPdf/5.15.16/QtPdf/private/qpdfdestination_p.h
 * /usr/include/qt5/QtPdf/5.15.16/QtPdf/private/qpdfdocument_p.h
 * /usr/include/qt5/QtPdf/5.15.16/QtPdf/private/qpdflinkmodel_p.h
 * /usr/include/qt5/QtPdf/5.15.16/QtPdf/private/qpdflinkmodel_p_p.h
@@ -317,4 +318,3 @@ The Qt5 toolkit, qtwebengine
 * /usr/share/qt5/translations/qtwebengine_locales/vi.pak
 * /usr/share/qt5/translations/qtwebengine_locales/zh-CN.pak
 * /usr/share/qt5/translations/qtwebengine_locales/zh-TW.pak
-{{< /files >}}

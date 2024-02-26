@@ -15,7 +15,7 @@ depends = "['qt5-base>=5.15.10']"
 +++
 Qt5 based gui for mediainfo.
 
-{{< files text="show files" >}}* /usr/bin/mediainfo-gui
+## Files: 
+* /usr/bin/mediainfo-gui
 * /usr/share/applications/mediainfo-gui.desktop
 * /usr/share/icons/hicolor/scalable/apps/mediainfo.svg
-{{< /files >}}

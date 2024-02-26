@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Additional wallpapers for the Plasma Workspace.
 
-{{< files text="show files" >}}* /usr/share/doc/plasma-workspace-wallpapers-5.27.10/AUTHORS
+## Files: 
+* /usr/share/doc/plasma-workspace-wallpapers-5.27.10/AUTHORS
 * /usr/share/doc/plasma-workspace-wallpapers-5.27.10/COPYING
 * /usr/share/doc/plasma-workspace-wallpapers-5.27.10/COPYING.LGPL3
 * /usr/share/wallpapers/Altai/contents/images/1080x1920.png
@@ -263,4 +264,3 @@ Additional wallpapers for the Plasma Workspace.
 * /usr/share/wallpapers/Volna/contents/images/5120x2880.jpg
 * /usr/share/wallpapers/Volna/contents/screenshot.png
 * /usr/share/wallpapers/Volna/metadata.json
-{{< /files >}}

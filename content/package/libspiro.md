@@ -16,7 +16,8 @@ reverse_depends = "['fontforge']"
 +++
 Simplifies the drawing of beautiful curves
 
-{{< files text="show files" >}}* /usr/include/bezctx.h
+## Files: 
+* /usr/include/bezctx.h
 * /usr/include/spiro.h
 * /usr/include/spiroentrypoints.h
 * /usr/lib/libspiro.so
@@ -32,4 +33,3 @@ Simplifies the drawing of beautiful curves
 * /usr/share/doc/libspiro-20221101/README-RaphLevien
 * /usr/share/doc/libspiro-20221101/README.md
 * /usr/share/man/man3/libspiro.3.gz
-{{< /files >}}

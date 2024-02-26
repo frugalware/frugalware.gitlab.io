@@ -15,7 +15,8 @@ depends = "['perl>=5.34.0']"
 +++
 JSON (JavaScript Object Notation) encoder/decoder
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/JSON.pm
+## Files: 
+* /usr/lib/perl5/site_perl/JSON.pm
 * /usr/lib/perl5/site_perl/JSON/backportPP.pm
 * /usr/lib/perl5/site_perl/JSON/backportPP/Boolean.pm
 * /usr/lib/perl5/site_perl/JSON/backportPP/Compat5005.pm
@@ -33,4 +34,3 @@ JSON (JavaScript Object Notation) encoder/decoder
 * /usr/share/man/man3/JSON::backportPP::Boolean.3perl.gz
 * /usr/share/man/man3/JSON::backportPP::Compat5005.3perl.gz
 * /usr/share/man/man3/JSON::backportPP::Compat5006.3perl.gz
-{{< /files >}}

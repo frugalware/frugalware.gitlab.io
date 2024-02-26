@@ -16,7 +16,8 @@ reverse_depends = "['scriptlet-core', 'steamtinkerlaunch']"
 +++
 A utility to show the full path of commands
 
-{{< files text="show files" >}}* /usr/bin/which
+## Files: 
+* /usr/bin/which
 * /usr/share/doc/which-2.21/AUTHORS
 * /usr/share/doc/which-2.21/COPYING
 * /usr/share/doc/which-2.21/INSTALL
@@ -25,4 +26,3 @@ A utility to show the full path of commands
 * /usr/share/doc/which-2.21/README.alias
 * /usr/share/info/which.info.gz
 * /usr/share/man/man1/which.1.gz
-{{< /files >}}

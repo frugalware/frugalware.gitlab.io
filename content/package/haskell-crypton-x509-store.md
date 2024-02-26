@@ -16,7 +16,8 @@ reverse_depends = "['haskell-crypton-x509-system', 'haskell-crypton-x509-validat
 +++
 X.509 collection accessing and storing methods
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/crypton-x509-store-1.6.9/Data/X509/CertificateStore.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/crypton-x509-store-1.6.9/Data/X509/CertificateStore.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/crypton-x509-store-1.6.9/Data/X509/CertificateStore.hi
 * /usr/lib/ghc-9.8.1/site-local/crypton-x509-store-1.6.9/Data/X509/File.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/crypton-x509-store-1.6.9/Data/X509/File.hi
@@ -41,4 +42,3 @@ X.509 collection accessing and storing methods
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/crypton-x509-store-1.6.9/LICENSE
 * /usr/share/haskell/haskell-crypton-x509-store/register.sh
 * /usr/share/haskell/haskell-crypton-x509-store/unregister.sh
-{{< /files >}}

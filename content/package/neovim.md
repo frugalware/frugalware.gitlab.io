@@ -15,7 +15,8 @@ depends = "['libluv', 'libtermkey', 'libvterm', 'msgpack-c', 'tree-sitter', 'uni
 +++
 Fork of Vim aiming to improve user experience, plugins, and GUIs
 
-{{< files text="show files" >}}* /usr/bin/nvim
+## Files: 
+* /usr/bin/nvim
 * /usr/share/applications/nvim.desktop
 * /usr/share/doc/neovim-0.9.4/README.md
 * /usr/share/icons/hicolor/128x128/apps/nvim.png
@@ -1745,4 +1746,3 @@ Fork of Vim aiming to improve user experience, plugins, and GUIs
 * /usr/share/nvim/runtime/tutor/en/vim-01-beginner.tutor.json
 * /usr/share/nvim/runtime/tutor/tutor.tutor
 * /usr/share/nvim/runtime/tutor/tutor.tutor.json
-{{< /files >}}

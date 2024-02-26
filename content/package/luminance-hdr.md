@@ -15,7 +15,8 @@ depends = "['eigen', 'exiv2>=0.28.1', 'fftw', 'gsl>=2.7.1', 'lcms2>=2.8-2', 'lib
 +++
 An open source graphical user interface application that aims to provide a workflow for HDR imaging
 
-{{< files text="show files" >}}* /usr/bin/luminance-hdr
+## Files: 
+* /usr/bin/luminance-hdr
 * /usr/bin/luminance-hdr-cli
 * /usr/share/appdata/net.sourceforge.qtpfsgui.LuminanceHDR.appdata.xml
 * /usr/share/applications/net.sourceforge.qtpfsgui.LuminanceHDR.desktop
@@ -155,4 +156,3 @@ An open source graphical user interface application that aims to provide a workf
 * /usr/share/luminance-hdr/i18n/lang_ru.qm
 * /usr/share/luminance-hdr/i18n/lang_tr.qm
 * /usr/share/luminance-hdr/i18n/lang_zh.qm
-{{< /files >}}

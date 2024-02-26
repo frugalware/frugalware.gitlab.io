@@ -16,10 +16,10 @@ reverse_depends = "['xdg-desktop-portal-kde']"
 +++
 FUSE interface for KIO
 
-{{< files text="show files" >}}* /usr/lib/kf5/kio-fuse
+## Files: 
+* /usr/lib/kf5/kio-fuse
 * /usr/lib/systemd/user/kio-fuse.service
 * /usr/lib/tmpfiles.d/kio-fuse-tmpfiles.conf
 * /usr/share/dbus-1/services/org.kde.KIOFuse.service
 * /usr/share/doc/kio-fuse-5.1.0/README.md
 * /usr/share/doc/kio-fuse-5.1.0/TODO
-{{< /files >}}

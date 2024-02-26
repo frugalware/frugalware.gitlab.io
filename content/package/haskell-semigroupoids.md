@@ -16,7 +16,8 @@ reverse_depends = "['haskell-semialign']"
 +++
 Category sans id
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/semigroupoids-6.0.0.1/Data/Bifunctor/Apply.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/semigroupoids-6.0.0.1/Data/Bifunctor/Apply.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/semigroupoids-6.0.0.1/Data/Bifunctor/Apply.hi
 * /usr/lib/ghc-9.8.1/site-local/semigroupoids-6.0.0.1/Data/Functor/Alt.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/semigroupoids-6.0.0.1/Data/Functor/Alt.hi
@@ -112,4 +113,3 @@ Category sans id
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/semigroupoids-6.0.0.1/LICENSE
 * /usr/share/haskell/haskell-semigroupoids/register.sh
 * /usr/share/haskell/haskell-semigroupoids/unregister.sh
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['glibc>=2.35']"
 +++
 Bootstrap a basic Debian system
 
-{{< files text="show files" >}}* /usr/bin/debootstrap
+## Files: 
+* /usr/bin/debootstrap
 * /usr/share/debootstrap/functions
 * /usr/share/debootstrap/scripts/aequorea
 * /usr/share/debootstrap/scripts/amber
@@ -119,4 +120,3 @@ Bootstrap a basic Debian system
 * /usr/share/debootstrap/scripts/zesty
 * /usr/share/doc/debootstrap-1.0.134/README
 * /usr/share/doc/debootstrap-1.0.134/TODO
-{{< /files >}}

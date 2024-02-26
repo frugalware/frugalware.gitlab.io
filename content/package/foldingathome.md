@@ -15,9 +15,9 @@ depends = "['libstdc++', 'zlib>=1.2.12']"
 +++
 Folding@Home is a distributed computing project which studies protein folding, misfolding, aggregation, and related diseases.
 
-{{< files text="show files" >}}* /opt/fah/FAHClient
+## Files: 
+* /opt/fah/FAHClient
 * /opt/fah/FAHCoreWrapper
 * /opt/fah/sample-config.xml
 * /usr/lib/systemd/system/foldingathome.service
 * /usr/share/doc/foldingathome-7.6.21/README.md
-{{< /files >}}

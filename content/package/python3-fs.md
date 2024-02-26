@@ -15,7 +15,8 @@ depends = "['python3>=3.11']"
 +++
 Filesystem abstraction layer
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/fs-2.4.16-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/fs-2.4.16-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/fs-2.4.16-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/fs-2.4.16-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/fs-2.4.16-py3.12.egg-info/requires.txt
@@ -138,4 +139,3 @@ Filesystem abstraction layer
 * /usr/lib/python3.12/site-packages/fs/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-fs-2.4.16/LICENSE
 * /usr/share/doc/python3-fs-2.4.16/README.md
-{{< /files >}}

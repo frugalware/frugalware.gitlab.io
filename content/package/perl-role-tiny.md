@@ -16,11 +16,11 @@ reverse_depends = "['perl-moo']"
 +++
 Roles. Like a nouvelle cuisine portion size slice of Moose.
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/Role/Tiny.pm
+## Files: 
+* /usr/lib/perl5/site_perl/current/Role/Tiny.pm
 * /usr/lib/perl5/site_perl/current/Role/Tiny/With.pm
 * /usr/share/doc/perl-role-tiny-2.002004/LICENSE
 * /usr/share/doc/perl-role-tiny-2.002004/MANIFEST
 * /usr/share/doc/perl-role-tiny-2.002004/README
 * /usr/share/man/man3/Role::Tiny.3perl.gz
 * /usr/share/man/man3/Role::Tiny::With.3perl.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['haskell-prettyprinter-ansi-terminal', 'haskell-toml-parser'
 +++
 A modern, easy to use, well-documented, extensible pretty-printer.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/prettyprinter-1.7.1/Data/Text/Prettyprint/Doc.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/prettyprinter-1.7.1/Data/Text/Prettyprint/Doc.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/prettyprinter-1.7.1/Data/Text/Prettyprint/Doc.hi
 * /usr/lib/ghc-9.8.1/site-local/prettyprinter-1.7.1/Data/Text/Prettyprint/Doc/Internal.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/prettyprinter-1.7.1/Data/Text/Prettyprint/Doc/Internal.hi
@@ -137,4 +138,3 @@ A modern, easy to use, well-documented, extensible pretty-printer.
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/prettyprinter-1.7.1/LICENSE.md
 * /usr/share/haskell/haskell-prettyprinter/register.sh
 * /usr/share/haskell/haskell-prettyprinter/unregister.sh
-{{< /files >}}

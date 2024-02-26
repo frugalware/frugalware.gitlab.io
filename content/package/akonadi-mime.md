@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-contacts']"
 +++
 Libraries and daemons to implement searching in Akonad
 
-{{< files text="show files" >}}* /usr/include/KPim5/AkonadiMime/akonadi-mime_version.h
+## Files: 
+* /usr/include/KPim5/AkonadiMime/akonadi-mime_version.h
 * /usr/include/KPim5/AkonadiMime/Akonadi/AddressAttribute
 * /usr/include/KPim5/AkonadiMime/akonadi/addressattribute.h
 * /usr/include/KPim5/AkonadiMime/akonadi/akonadi-mime_export.h
@@ -136,4 +137,3 @@ Libraries and daemons to implement searching in Akonad
 * /usr/share/mime/packages/x-vnd.kde.contactgroup.xml
 * /usr/share/qlogging-categories5/akonadi-mime.categories
 * /usr/share/qt5/mkspecs/modules/qt_AkonadiMime.pri
-{{< /files >}}

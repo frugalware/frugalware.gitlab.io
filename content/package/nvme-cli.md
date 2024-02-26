@@ -15,7 +15,8 @@ depends = "['libnvme', 'libsystemd', 'libuuid']"
 +++
 NVMe management command line interface.
 
-{{< files text="show files" >}}* /etc/nvme/discovery.conf
+## Files: 
+* /etc/nvme/discovery.conf
 * /usr/bin/nvme
 * /usr/lib/dracut/dracut.conf.d/70-nvmf-autoconnect.conf
 * /usr/lib/systemd/system/nvmefc-boot-connections.service
@@ -30,4 +31,3 @@ NVMe management command line interface.
 * /usr/share/doc/nvme-cli-2.7.1/LICENSE
 * /usr/share/doc/nvme-cli-2.7.1/README.md
 * /usr/share/zsh/site-functions/_nvme
-{{< /files >}}

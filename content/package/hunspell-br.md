@@ -15,6 +15,6 @@ depends = "['hunspell>=1.1.3']"
 +++
 Breton dictionary for Hunspell
 
-{{< files text="show files" >}}* /usr/share/myspell/br_FR.aff
+## Files: 
+* /usr/share/myspell/br_FR.aff
 * /usr/share/myspell/br_FR.dic
-{{< /files >}}

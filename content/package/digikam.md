@@ -15,7 +15,8 @@ depends = "['akonadi-contacts', 'imagemagick>=7.1.1', 'jasper>=2.0.10', 'kcalend
 +++
 Digital photo management application for kde
 
-{{< files text="show files" >}}* /usr/bin/cleanup_digikamdb
+## Files: 
+* /usr/bin/cleanup_digikamdb
 * /usr/bin/digikam
 * /usr/bin/digitaglinktree
 * /usr/bin/showfoto
@@ -865,4 +866,3 @@ Digital photo management application for kde
 * /usr/share/showfoto/data/logo-showfoto.png
 * /usr/share/showfoto/data/splash-showfoto.png
 * /usr/share/solid/actions/digikam-opencamera.desktop
-{{< /files >}}

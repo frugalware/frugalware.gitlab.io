@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 A very secure ftp server
 
-{{< files text="show files" >}}* /etc/vsftpd.conf
+## Files: 
+* /etc/vsftpd.conf
 * /usr/bin/vsftpd
 * /usr/lib/systemd/system/vsftpd.service
 * /usr/share/doc/vsftpd-3.0.5/BENCHMARKS
@@ -55,4 +56,3 @@ A very secure ftp server
 * /usr/share/doc/vsftpd-3.0.5/TUNING
 * /usr/share/man/man5/vsftpd.conf.5.gz
 * /usr/share/man/man8/vsftpd.8.gz
-{{< /files >}}

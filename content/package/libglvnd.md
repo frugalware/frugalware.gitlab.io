@@ -16,7 +16,8 @@ reverse_depends = "['cef', 'fltk', 'flutter', 'freeglut', 'glew', 'gst1-plugins-
 +++
 The GL Vendor-Neutral Dispatch library
 
-{{< files text="show files" >}}* /usr/include/EGL/egl.h
+## Files: 
+* /usr/include/EGL/egl.h
 * /usr/include/EGL/eglext.h
 * /usr/include/EGL/eglplatform.h
 * /usr/include/GL/gl.h
@@ -69,4 +70,3 @@ The GL Vendor-Neutral Dispatch library
 * /usr/lib/pkgconfig/libglvnd.pc
 * /usr/lib/pkgconfig/opengl.pc
 * /usr/share/doc/libglvnd-1.7.0/README.md
-{{< /files >}}

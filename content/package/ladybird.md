@@ -15,7 +15,8 @@ depends = "['brotli', 'libgl', 'python3', 'qt6-base', 'qt6-multimedia', 'qt6-svg
 +++
 Web browser built from scratch using the SerenityOS LibWeb engine
 
-{{< files text="show files" >}}* /usr/bin/headless-browser
+## Files: 
+* /usr/bin/headless-browser
 * /usr/bin/ImageDecoder
 * /usr/bin/Ladybird
 * /usr/bin/RequestServer
@@ -759,4 +760,3 @@ Web browser built from scratch using the SerenityOS LibWeb engine
 * /usr/share/res/themes/Scarlett.ini
 * /usr/share/res/themes/Silver.ini
 * /usr/share/res/themes/Sunshine.ini
-{{< /files >}}

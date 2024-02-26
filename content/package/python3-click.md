@@ -16,7 +16,8 @@ reverse_depends = "['face_recognition', 'howdy']"
 +++
 Simple wrapper around optparse for powerful command line utilities
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/click-8.1.7-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/click-8.1.7-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/click-8.1.7-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/click-8.1.7-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/click-8.1.7-py3.12.egg-info/SOURCES.txt
@@ -55,4 +56,3 @@ Simple wrapper around optparse for powerful command line utilities
 * /usr/lib/python3.12/site-packages/click/__pycache__/_winconsole.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/click/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-click-8.1.7/README.rst
-{{< /files >}}

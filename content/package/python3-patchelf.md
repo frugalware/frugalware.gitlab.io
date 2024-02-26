@@ -16,7 +16,8 @@ reverse_depends = "['python3-cx-freeze']"
 +++
 patchelf Python wheel for PyP
 
-{{< files text="show files" >}}* /usr/bin/patchelf
+## Files: 
+* /usr/bin/patchelf
 * /usr/lib/python3.12/site-packages/patchelf-0.17.2.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/patchelf-0.17.2.1-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/patchelf-0.17.2.1-py3.12.egg-info/PKG-INFO
@@ -26,4 +27,3 @@ patchelf Python wheel for PyP
 * /usr/share/doc/python3-patchelf-0.17.2.1/COPYING
 * /usr/share/doc/python3-patchelf-0.17.2.1/LICENSE
 * /usr/share/doc/python3-patchelf-0.17.2.1/README.rst
-{{< /files >}}

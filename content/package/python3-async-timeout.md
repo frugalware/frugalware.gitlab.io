@@ -16,7 +16,8 @@ reverse_depends = "['python3-redis']"
 +++
 Asyncio-compatible timeout class
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/async_timeout-4.0.3-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/async_timeout-4.0.3-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/async_timeout-4.0.3-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/async_timeout-4.0.3-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/async_timeout-4.0.3-py3.12.egg-info/SOURCES.txt
@@ -27,4 +28,3 @@ Asyncio-compatible timeout class
 * /usr/lib/python3.12/site-packages/async_timeout/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-async-timeout-4.0.3/LICENSE
 * /usr/share/doc/python3-async-timeout-4.0.3/README.rst
-{{< /files >}}

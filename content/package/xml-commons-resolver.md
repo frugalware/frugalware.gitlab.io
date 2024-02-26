@@ -15,5 +15,5 @@ depends = "['openjre']"
 +++
 Thirdparty libraries for xml-commons
 
-{{< files text="show files" >}}* /usr/share/java/xml-commons-resolver.jar
-{{< /files >}}
+## Files: 
+* /usr/share/java/xml-commons-resolver.jar

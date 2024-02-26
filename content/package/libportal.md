@@ -16,7 +16,8 @@ reverse_depends = "['libportal-gtk3', 'libportal-gtk4', 'libportal-qt5', 'xdg-de
 +++
 GIO-style async APIs for most Flatpak portals
 
-{{< files text="show files" >}}* /usr/include/libportal/account.h
+## Files: 
+* /usr/include/libportal/account.h
 * /usr/include/libportal/background.h
 * /usr/include/libportal/camera.h
 * /usr/include/libportal/dynamic-launcher.h
@@ -233,4 +234,3 @@ GIO-style async APIs for most Flatpak portals
 * /usr/share/gir-1.0/Xdp-1.0.gir
 * /usr/share/vala/vapi/libportal.deps
 * /usr/share/vala/vapi/libportal.vapi
-{{< /files >}}

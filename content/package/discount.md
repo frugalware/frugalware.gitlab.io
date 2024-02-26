@@ -16,7 +16,8 @@ reverse_depends = "['kdepim-addons', 'labplot', 'okular']"
 +++
 A Markdown implementation written in C
 
-{{< files text="show files" >}}* /usr/bin/makepage
+## Files: 
+* /usr/bin/makepage
 * /usr/bin/markdown
 * /usr/bin/mkd2html
 * /usr/bin/theme
@@ -52,4 +53,3 @@ A Markdown implementation written in C
 * /usr/share/man/man3/mkd_string.3.gz
 * /usr/share/man/man7/markdown.7.gz
 * /usr/share/man/man7/mkd-extensions.7.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['akonadi', 'akonadi-mime', 'asciidoc', 'chromium-browser', '
 +++
 XML stylesheet transformation library
 
-{{< files text="show files" >}}* /usr/bin/xslt-config
+## Files: 
+* /usr/bin/xslt-config
 * /usr/bin/xsltproc
 * /usr/include/libexslt/exslt.h
 * /usr/include/libexslt/exsltconfig.h
@@ -130,4 +131,3 @@ XML stylesheet transformation library
 * /usr/share/man/man1/xsltproc.1.gz
 * /usr/share/man/man3/libexslt.3.gz
 * /usr/share/man/man3/libxslt.3.gz
-{{< /files >}}

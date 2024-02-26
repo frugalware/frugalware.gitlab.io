@@ -16,7 +16,8 @@ reverse_depends = "['adios2']"
 +++
 User-space API for OpenFabrics Interfaces (OFI)
 
-{{< files text="show files" >}}* /usr/bin/fi_info
+## Files: 
+* /usr/bin/fi_info
 * /usr/bin/fi_pingpong
 * /usr/bin/fi_strerror
 * /usr/include/rdma/fabric.h
@@ -210,4 +211,3 @@ User-space API for OpenFabrics Interfaces (OFI)
 * /usr/share/man/man7/fi_sockets.7.gz
 * /usr/share/man/man7/fi_tcp.7.gz
 * /usr/share/man/man7/fi_udp.7.gz
-{{< /files >}}

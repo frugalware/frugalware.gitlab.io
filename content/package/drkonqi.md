@@ -15,7 +15,8 @@ depends = "['kdeclarative>=5.115.0', 'kidletime>=5.115.0', 'kuserfeedback', 'kxm
 +++
 The KDE Crash Handler.
 
-{{< files text="show files" >}}* /usr/bin/drkonqi-coredump-gui
+## Files: 
+* /usr/bin/drkonqi-coredump-gui
 * /usr/lib/kf5/drkonqi
 * /usr/lib/kf5/drkonqi-coredump-cleanup
 * /usr/lib/kf5/drkonqi-coredump-launcher
@@ -132,4 +133,3 @@ The KDE Crash Handler.
 * /usr/share/locale/zh_CN/LC_MESSAGES/drkonqi5.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/drkonqi5.mo
 * /usr/share/qlogging-categories5/drkonqi.categories
-{{< /files >}}

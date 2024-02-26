@@ -16,7 +16,8 @@ license = "BSD"
 +++
 [engine x] is a HTTP server and mail proxy server.
 
-{{< files text="show files" >}}* /etc/logrotate.d/nginx
+## Files: 
+* /etc/logrotate.d/nginx
 * /etc/nginx/conf/fastcgi.conf
 * /etc/nginx/conf/fastcgi.conf.default
 * /etc/nginx/conf/fastcgi_params
@@ -50,4 +51,3 @@ license = "BSD"
 * /usr/share/man/man3/nginx.3perl.gz
 * /var/www/nginx/50x.html
 * /var/www/nginx/index.html
-{{< /files >}}

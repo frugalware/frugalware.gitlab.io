@@ -15,9 +15,9 @@ depends = "['libportal', 'qt5-x11extras>=5.15.10']"
 +++
 libportal qt5 backend
 
-{{< files text="show files" >}}* /usr/include/libportal-qt5/portal-qt5.h
+## Files: 
+* /usr/include/libportal-qt5/portal-qt5.h
 * /usr/lib/libportal-qt5.so
 * /usr/lib/libportal-qt5.so.1
 * /usr/lib/libportal-qt5.so.1.0.0
 * /usr/lib/pkgconfig/libportal-qt5.pc
-{{< /files >}}

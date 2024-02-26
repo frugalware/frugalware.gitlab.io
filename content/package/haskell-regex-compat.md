@@ -15,7 +15,8 @@ depends = "['haskell-regex-posix']"
 +++
 Replaces/enhances \"Text.Regex\"
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/regex-compat-0.95.2.1/libHSregex-compat-0.95.2.1-8QZKHwuGO5nGs18tefpb9A.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/regex-compat-0.95.2.1/libHSregex-compat-0.95.2.1-8QZKHwuGO5nGs18tefpb9A.a
 * /usr/lib/ghc-9.8.1/site-local/regex-compat-0.95.2.1/Text/Regex.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/regex-compat-0.95.2.1/Text/Regex.hi
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSregex-compat-0.95.2.1-8QZKHwuGO5nGs18tefpb9A-ghc9.8.1.so
@@ -32,4 +33,3 @@ Replaces/enhances \"Text.Regex\"
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/regex-compat-0.95.2.1/LICENSE
 * /usr/share/haskell/haskell-regex-compat/register.sh
 * /usr/share/haskell/haskell-regex-compat/unregister.sh
-{{< /files >}}

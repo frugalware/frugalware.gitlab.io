@@ -15,7 +15,8 @@ depends = "['texlive=2023.0', 'texlive-kpathsea', 'texlive-ptexen', 'texlive-syn
 +++
 Utilities for TeX Live
 
-{{< files text="show files" >}}* /usr/bin/a2ping
+## Files: 
+* /usr/bin/a2ping
 * /usr/bin/a5toa4
 * /usr/bin/afm2afm
 * /usr/bin/afm2pl
@@ -267,4 +268,3 @@ Utilities for TeX Live
 * /usr/share/texmf-dist/tex/plain/cweb/cwebbin/Xcwebmac.tex
 * /usr/share/texmf-dist/tex/plain/cweb/cwebmac.tex
 * /usr/share/texmf-dist/tex/plain/cweb/twinx-startup.tex
-{{< /files >}}

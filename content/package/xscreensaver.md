@@ -16,7 +16,8 @@ reverse_depends = "['lumina-desktop']"
 +++
 A screen saver and locker for the X Window System.
 
-{{< files text="show files" >}}* /etc/pam.d/xscreensaver
+## Files: 
+* /etc/pam.d/xscreensaver
 * /usr/bin/xscreensaver
 * /usr/bin/xscreensaver-command
 * /usr/bin/xscreensaver-demo
@@ -40,4 +41,3 @@ A screen saver and locker for the X Window System.
 * /usr/share/man/man1/xscreensaver.1.gz
 * /usr/share/pixmaps/xscreensaver.png
 * /usr/share/xscreensaver/xscreensaver.service
-{{< /files >}}

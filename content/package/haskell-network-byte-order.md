@@ -16,7 +16,8 @@ reverse_depends = "['haskell-http2']"
 +++
 Network byte order utilities
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/network-byte-order-0.1.7/libHSnetwork-byte-order-0.1.7-2vD0TP2v27h7tI3InnYO8F.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/network-byte-order-0.1.7/libHSnetwork-byte-order-0.1.7-2vD0TP2v27h7tI3InnYO8F.a
 * /usr/lib/ghc-9.8.1/site-local/network-byte-order-0.1.7/Network/ByteOrder.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/network-byte-order-0.1.7/Network/ByteOrder.hi
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSnetwork-byte-order-0.1.7-2vD0TP2v27h7tI3InnYO8F-ghc9.8.1.so
@@ -33,4 +34,3 @@ Network byte order utilities
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/network-byte-order-0.1.7/LICENSE
 * /usr/share/haskell/haskell-network-byte-order/register.sh
 * /usr/share/haskell/haskell-network-byte-order/unregister.sh
-{{< /files >}}

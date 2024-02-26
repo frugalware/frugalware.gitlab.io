@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 Modular X.Org X Server
 
-{{< files text="show files" >}}* /usr/bin/gtf
+## Files: 
+* /usr/bin/gtf
 * /usr/bin/X
 * /usr/bin/Xnest
 * /usr/bin/Xorg
@@ -213,4 +214,3 @@ Modular X.Org X Server
 * /usr/share/man/man5/xorg.conf.d.5.gz
 * /usr/share/X11/xorg.conf.d/10-quirks.conf
 * /var/lib/xkb/README.compiled
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Libmwaw Documentation
 
-{{< files text="show files" >}}* /usr/share/doc/libmwaw-0.3.22/html/ActaParser_8cxx.html
+## Files: 
+* /usr/share/doc/libmwaw-0.3.22/html/ActaParser_8cxx.html
 * /usr/share/doc/libmwaw-0.3.22/html/ActaParser_8hxx.html
 * /usr/share/doc/libmwaw-0.3.22/html/ActaParser_8hxx_source.html
 * /usr/share/doc/libmwaw-0.3.22/html/ActaText_8cxx.html
@@ -3300,4 +3301,3 @@ Libmwaw Documentation
 * /usr/share/doc/libmwaw-0.3.22/html/ZWrtText_8cxx.html
 * /usr/share/doc/libmwaw-0.3.22/html/ZWrtText_8hxx.html
 * /usr/share/doc/libmwaw-0.3.22/html/ZWrtText_8hxx_source.html
-{{< /files >}}

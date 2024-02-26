@@ -16,5 +16,5 @@ reverse_depends = "['thunderbird-i18n']"
 +++
 Slovak language support for Thunderbird
 
-{{< files text="show files" >}}* /usr/lib/thunderbird/extensions/langpack-sk@thunderbird.mozilla.org.xpi
-{{< /files >}}
+## Files: 
+* /usr/lib/thunderbird/extensions/langpack-sk@thunderbird.mozilla.org.xpi

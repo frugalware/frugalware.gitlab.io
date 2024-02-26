@@ -16,7 +16,8 @@ reverse_depends = "['ccache', 'openvas-libraries']"
 +++
 Minimalistic C client library for Redis
 
-{{< files text="show files" >}}* /usr/include/hiredis/adapters/ae.h
+## Files: 
+* /usr/include/hiredis/adapters/ae.h
 * /usr/include/hiredis/adapters/glib.h
 * /usr/include/hiredis/adapters/ivykis.h
 * /usr/include/hiredis/adapters/libev.h
@@ -40,4 +41,3 @@ Minimalistic C client library for Redis
 * /usr/lib/pkgconfig/hiredis.pc
 * /usr/share/doc/hiredis-1.2.0/COPYING
 * /usr/share/doc/hiredis-1.2.0/README.md
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['texlive=2023.0']"
 +++
 Extra PsTricks packages for TeX Live
 
-{{< files text="show files" >}}* /usr/bin/pst2pdf
+## Files: 
+* /usr/bin/pst2pdf
 * /usr/share/texmf-dist/dvips/pst-3d/pst-3d.pro
 * /usr/share/texmf-dist/dvips/pst-3dplot/pst-3dplot.pro
 * /usr/share/texmf-dist/dvips/pst-bar/pst-bar.pro
@@ -477,4 +478,3 @@ Extra PsTricks packages for TeX Live
 * /usr/share/texmf-dist/tex/latex/pstricks/pstricks-pdf.sty
 * /usr/share/texmf-dist/tex/latex/pstricks/pstricks.sty
 * /usr/share/texmf-dist/tex/latex/uml/uml.sty
-{{< /files >}}

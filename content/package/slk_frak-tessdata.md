@@ -15,5 +15,5 @@ depends = "['glibc']"
 +++
 Language specific files for tesseract lang slk_frak
 
-{{< files text="show files" >}}* /usr/share/tessdata/slk_frak.traineddata
-{{< /files >}}
+## Files: 
+* /usr/share/tessdata/slk_frak.traineddata

@@ -16,7 +16,8 @@ reverse_depends = "['libblockdev']"
 +++
 A tiny library providing a C class for working with arbitrary big sizes in bytes
 
-{{< files text="show files" >}}* /usr/bin/bscalc
+## Files: 
+* /usr/bin/bscalc
 * /usr/include/bytesize/bs_size.h
 * /usr/lib/libbytesize.so
 * /usr/lib/libbytesize.so.1
@@ -60,4 +61,3 @@ A tiny library providing a C class for working with arbitrary big sizes in bytes
 * /usr/share/locale/zh_CN/LC_MESSAGES/libbytesize.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libbytesize.mo
 * /usr/share/man/man1/bscalc.1.gz
-{{< /files >}}

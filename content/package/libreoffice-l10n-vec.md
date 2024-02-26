@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Venetian support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/vec/LC_MESSAGES/acc.mo
+## Files: 
+* /usr/lib/libreoffice/program/resource/vec/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/vec/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/vec/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/vec/LC_MESSAGES/chart.mo
@@ -53,4 +54,3 @@ Installs Venetian support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-vec.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_vec.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_vec.xcd
-{{< /files >}}

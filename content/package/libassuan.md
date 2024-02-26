@@ -17,7 +17,8 @@ license = "LGPLv2.1"
 +++
 Libassuan is the IPC library used by some GnuPG related software.
 
-{{< files text="show files" >}}* /usr/bin/libassuan-config
+## Files: 
+* /usr/bin/libassuan-config
 * /usr/include/assuan.h
 * /usr/lib/libassuan.so
 * /usr/lib/libassuan.so.0
@@ -36,4 +37,3 @@ Libassuan is the IPC library used by some GnuPG related software.
 * /usr/share/doc/libassuan-2.5.6/TODO
 * /usr/share/doc/libassuan-2.5.6/VERSION
 * /usr/share/info/assuan.info.gz
-{{< /files >}}

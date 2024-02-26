@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 C++ Core Guidelines Support Library
 
-{{< files text="show files" >}}* /usr/include/gsl/algorithm
+## Files: 
+* /usr/include/gsl/algorithm
 * /usr/include/gsl/assert
 * /usr/include/gsl/byte
 * /usr/include/gsl/gsl
@@ -34,4 +35,3 @@ C++ Core Guidelines Support Library
 * /usr/share/cmake/Microsoft.GSL/Microsoft.GSLConfigVersion.cmake
 * /usr/share/doc/microsoft-gsl-4.0.0/LICENSE
 * /usr/share/doc/microsoft-gsl-4.0.0/README.md
-{{< /files >}}

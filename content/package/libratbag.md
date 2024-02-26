@@ -16,7 +16,8 @@ reverse_depends = "['piper']"
 +++
 A library to configure gaming mice
 
-{{< files text="show files" >}}* /usr/bin/lur-command
+## Files: 
+* /usr/bin/lur-command
 * /usr/bin/ratbagctl
 * /usr/bin/ratbagd
 * /usr/include/liblur.h
@@ -131,4 +132,3 @@ A library to configure gaming mice
 * /usr/share/man/man1/lur-command.1.gz
 * /usr/share/man/man1/ratbagctl.1.gz
 * /usr/share/man/man8/ratbagd.8.gz
-{{< /files >}}

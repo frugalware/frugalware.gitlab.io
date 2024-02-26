@@ -16,7 +16,8 @@ reverse_depends = "['pipewire', 'pulseaudio-bluetooth', 'wireshark-qt']"
 +++
 Library for Low Complexity Subband Coding with BlueZ
 
-{{< files text="show files" >}}* /usr/bin/sbcdec
+## Files: 
+* /usr/bin/sbcdec
 * /usr/bin/sbcenc
 * /usr/bin/sbcinfo
 * /usr/include/sbc/sbc.h
@@ -31,4 +32,3 @@ Library for Low Complexity Subband Coding with BlueZ
 * /usr/share/doc/sbc-2.0/INSTALL
 * /usr/share/doc/sbc-2.0/README
 * /usr/share/doc/sbc-2.0/TODO
-{{< /files >}}

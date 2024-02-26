@@ -16,7 +16,8 @@ reverse_depends = "['uwsgi-plugin-xmpp']"
 +++
 A stable, extensible C++ library for the development of XMPP clients and components.
 
-{{< files text="show files" >}}* /usr/bin/gloox-config
+## Files: 
+* /usr/bin/gloox-config
 * /usr/include/gloox/adhoc.h
 * /usr/include/gloox/adhoccommandprovider.h
 * /usr/include/gloox/adhochandler.h
@@ -180,4 +181,3 @@ A stable, extensible C++ library for the development of XMPP clients and compone
 * /usr/share/doc/gloox-1.0.28/README.win32
 * /usr/share/doc/gloox-1.0.28/README.wince
 * /usr/share/doc/gloox-1.0.28/TODO
-{{< /files >}}

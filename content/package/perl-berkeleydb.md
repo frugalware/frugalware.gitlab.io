@@ -16,7 +16,8 @@ reverse_depends = "['amavisd-new', 'postgrey']"
 +++
 Perl extension for Berkeley DB version 2, 3 or 4
 
-{{< files text="show files" >}}* /usr/lib/perl5/5.38/site_perl/auto/BerkeleyDB/BerkeleyDB.so
+## Files: 
+* /usr/lib/perl5/5.38/site_perl/auto/BerkeleyDB/BerkeleyDB.so
 * /usr/lib/perl5/5.38/site_perl/BerkeleyDB.pm
 * /usr/lib/perl5/5.38/site_perl/BerkeleyDB.pod
 * /usr/lib/perl5/5.38/site_perl/BerkeleyDB/Btree.pm
@@ -26,4 +27,3 @@ Perl extension for Berkeley DB version 2, 3 or 4
 * /usr/share/doc/perl-berkeleydb-0.65/MANIFEST
 * /usr/share/doc/perl-berkeleydb-0.65/README
 * /usr/share/man/man3/BerkeleyDB.3perl.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['lzo', 'openssl>=3.1.0']"
 +++
 Like dd, dd_rescue does copy data from one file or block device to another.
 
-{{< files text="show files" >}}* /usr/bin/dd_rescue
+## Files: 
+* /usr/bin/dd_rescue
 * /usr/lib/libddr_crypt.so
 * /usr/lib/libddr_hash.so
 * /usr/lib/libddr_lzo.so
@@ -27,4 +28,3 @@ Like dd, dd_rescue does copy data from one file or block device to another.
 * /usr/share/man/man1/ddr_crypt.1.gz
 * /usr/share/man/man1/ddr_lzo.1.gz
 * /usr/share/man/man1/dd_rescue.1.gz
-{{< /files >}}

@@ -17,10 +17,10 @@ license = "GPL2"
 +++
 X.Org xauth application
 
-{{< files text="show files" >}}* /usr/bin/xauth
+## Files: 
+* /usr/bin/xauth
 * /usr/share/doc/xauth-1.1.2/ChangeLog
 * /usr/share/doc/xauth-1.1.2/COPYING
 * /usr/share/doc/xauth-1.1.2/INSTALL
 * /usr/share/doc/xauth-1.1.2/README.md
 * /usr/share/man/man1/xauth.1.gz
-{{< /files >}}

@@ -15,9 +15,9 @@ depends = "['qt5-base>=5.15.10']"
 +++
 Qt frontend for youtube-dl
 
-{{< files text="show files" >}}* /usr/bin/youtube-dl-qt
+## Files: 
+* /usr/bin/youtube-dl-qt
 * /usr/share/applications/youtube-dl-qt.desktop
 * /usr/share/doc/youtube-dl-qt-0.5/LICENSE
 * /usr/share/doc/youtube-dl-qt-0.5/README.md
 * /usr/share/icons/hicolor/scalable/apps/youtube-dl-qt-icon.svg
-{{< /files >}}

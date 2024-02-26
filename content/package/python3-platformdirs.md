@@ -16,7 +16,8 @@ reverse_depends = "['python3-poetry', 'python3-virtualenv']"
 +++
 A library to determine platform-specific system directories
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/platformdirs-4.0.0.dist-info/licenses/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/platformdirs-4.0.0.dist-info/licenses/LICENSE
 * /usr/lib/python3.12/site-packages/platformdirs-4.0.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/platformdirs-4.0.0.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/platformdirs-4.0.0.dist-info/WHEEL
@@ -47,4 +48,3 @@ A library to determine platform-specific system directories
 * /usr/lib/python3.12/site-packages/platformdirs/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/python3-platformdirs-4.0.0/LICENSE
 * /usr/share/doc/python3-platformdirs-4.0.0/README.rst
-{{< /files >}}

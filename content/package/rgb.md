@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org rgb application
 
-{{< files text="show files" >}}* /usr/bin/showrgb
+## Files: 
+* /usr/bin/showrgb
 * /usr/share/doc/rgb-1.1.0/AUTHORS
 * /usr/share/doc/rgb-1.1.0/ChangeLog
 * /usr/share/doc/rgb-1.1.0/COPYING
@@ -24,4 +25,3 @@ X.Org rgb application
 * /usr/share/doc/rgb-1.1.0/README.md
 * /usr/share/man/man1/showrgb.1.gz
 * /usr/share/X11/rgb.txt
-{{< /files >}}

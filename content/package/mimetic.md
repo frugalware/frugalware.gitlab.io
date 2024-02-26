@@ -16,7 +16,8 @@ license = "MIT"
 +++
 a free, MIT licensed, Email library (MIME) written in C++
 
-{{< files text="show files" >}}* /usr/include/mimetic/body.h
+## Files: 
+* /usr/include/mimetic/body.h
 * /usr/include/mimetic/circular_buffer.h
 * /usr/include/mimetic/codec/base64.h
 * /usr/include/mimetic/codec/code.h
@@ -76,4 +77,3 @@ a free, MIT licensed, Email library (MIME) written in C++
 * /usr/share/doc/mimetic-0.9.8/INSTALL
 * /usr/share/doc/mimetic-0.9.8/LICENSE
 * /usr/share/doc/mimetic-0.9.8/README
-{{< /files >}}

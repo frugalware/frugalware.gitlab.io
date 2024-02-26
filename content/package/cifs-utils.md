@@ -15,7 +15,8 @@ depends = "['keyutils', 'libkrb5', 'libwbclient', 'talloc']"
 +++
 A set of user-space tools for the in-kernel CIFS filesystem
 
-{{< files text="show files" >}}* /usr/bin/cifs.idmap
+## Files: 
+* /usr/bin/cifs.idmap
 * /usr/bin/cifs.upcall
 * /usr/bin/cifscreds
 * /usr/bin/getcifsacl
@@ -44,4 +45,3 @@ A set of user-space tools for the in-kernel CIFS filesystem
 * /usr/share/man/man8/mount.cifs.8.gz
 * /usr/share/man/man8/mount.smb3.8.gz
 * /usr/share/man/man8/pam_cifscreds.8.gz
-{{< /files >}}

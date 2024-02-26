@@ -15,9 +15,9 @@ depends = "['libgl', 'libpng', 'libsm', 'libstdc++', 'libxcursor', 'libxdamage',
 +++
 A subtitle editor for KDE
 
-{{< files text="show files" >}}* usr/bin/ksubeditor
+## Files: 
+* usr/bin/ksubeditor
 * usr/share/applnk/Applications/ksubeditor.desktop
 * usr/share/apps/ksubeditor/ksubeditorui.rc
 * usr/share/icons/locolor/16x16/apps/ksubeditor.png
 * usr/share/icons/locolor/32x32/apps/ksubeditor.png
-{{< /files >}}

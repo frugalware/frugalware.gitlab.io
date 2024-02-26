@@ -16,7 +16,8 @@ reverse_depends = "['openrazer']"
 +++
 Allows a python process to change its process title
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/setproctitle-1.3.3-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/setproctitle-1.3.3-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/setproctitle-1.3.3-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/setproctitle-1.3.3-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/setproctitle-1.3.3-py3.12.egg-info/requires.txt
@@ -28,4 +29,3 @@ Allows a python process to change its process title
 * /usr/lib/python3.12/site-packages/setproctitle/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-setproctitle-1.3.3/COPYRIGHT
 * /usr/share/doc/python3-setproctitle-1.3.3/README.rst
-{{< /files >}}

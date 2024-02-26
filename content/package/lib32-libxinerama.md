@@ -16,10 +16,10 @@ reverse_depends = "['lib32-gtk+2-libs', 'wine', 'wine-devel']"
 +++
 X.Org Xinemara library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/panoramiXext.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/extensions/panoramiXext.h
 * /usr/i686-frugalware-linux/include/X11/extensions/Xinerama.h
 * /usr/lib32/libXinerama.so
 * /usr/lib32/libXinerama.so.1
 * /usr/lib32/libXinerama.so.1.0.0
 * /usr/lib32/pkgconfig/xinerama.pc
-{{< /files >}}

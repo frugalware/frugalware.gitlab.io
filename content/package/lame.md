@@ -16,7 +16,8 @@ reverse_depends = "['cdrdao', 'ffmpeg', 'ffmpeg4.4', 'gtk-handbrake', 'mencoder'
 +++
 An LGPL MP3 encoder.
 
-{{< files text="show files" >}}* /usr/bin/lame
+## Files: 
+* /usr/bin/lame
 * /usr/include/lame/lame.h
 * /usr/lib/libmp3lame.so
 * /usr/lib/libmp3lame.so.0
@@ -45,4 +46,3 @@ An LGPL MP3 encoder.
 * /usr/share/doc/lame/html/usage.html
 * /usr/share/doc/lame/html/vbr.html
 * /usr/share/man/man1/lame.1.gz
-{{< /files >}}

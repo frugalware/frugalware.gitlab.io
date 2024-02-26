@@ -16,11 +16,11 @@ reverse_depends = "['lib32-libxt', 'steam-native']"
 +++
 X Session Management Library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/SM/SM.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/SM/SM.h
 * /usr/i686-frugalware-linux/include/X11/SM/SMlib.h
 * /usr/i686-frugalware-linux/include/X11/SM/SMproto.h
 * /usr/lib32/libSM.so
 * /usr/lib32/libSM.so.6
 * /usr/lib32/libSM.so.6.0.1
 * /usr/lib32/pkgconfig/sm.pc
-{{< /files >}}

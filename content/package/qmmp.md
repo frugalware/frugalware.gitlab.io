@@ -15,7 +15,8 @@ depends = "['curl', 'libarchive', 'libbs2b', 'libcdio-paranoia', 'libmad', 'libm
 +++
 A music player written in Qt that supports Winamp skins.
 
-{{< files text="show files" >}}* /usr/bin/qmmp
+## Files: 
+* /usr/bin/qmmp
 * /usr/include/qmmp/abstractengine.h
 * /usr/include/qmmp/audioconverter.h
 * /usr/include/qmmp/audioparameters.h
@@ -161,4 +162,3 @@ A music player written in Qt that supports Winamp skins.
 * /usr/share/qmmp/images/empty_cover.png
 * /usr/share/qmmp/scripts/kwin.sh
 * /usr/share/solid/actions/qmmp-opencda.desktop
-{{< /files >}}

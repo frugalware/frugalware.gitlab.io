@@ -16,7 +16,8 @@ reverse_depends = "['libreoffice', 'scribus']"
 +++
 A library for import of Adobe PageMaker documents
 
-{{< files text="show files" >}}* /usr/bin/pmd2raw
+## Files: 
+* /usr/bin/pmd2raw
 * /usr/bin/pmd2svg
 * /usr/bin/pmd2text
 * /usr/include/libpagemaker-0.0/libpagemaker/libpagemaker.h
@@ -217,4 +218,3 @@ A library for import of Adobe PageMaker documents
 * /usr/share/doc/libpagemaker-0.0.4/html/Units_8h_source.html
 * /usr/share/doc/libpagemaker-0.0.4/NEWS
 * /usr/share/doc/libpagemaker-0.0.4/README
-{{< /files >}}

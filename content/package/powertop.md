@@ -15,7 +15,8 @@ depends = "['libnl', 'ncurses>=6.0-3']"
 +++
 A tool that helps you find what software is using the most power.
 
-{{< files text="show files" >}}* /usr/bin/powertop
+## Files: 
+* /usr/bin/powertop
 * /usr/share/bash-completion/completions/powertop
 * /usr/share/doc/powertop-2.15/COPYING
 * /usr/share/doc/powertop-2.15/README.md
@@ -32,4 +33,3 @@ A tool that helps you find what software is using the most power.
 * /usr/share/locale/nl_NL/LC_MESSAGES/powertop.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/powertop.mo
 * /usr/share/man/man8/powertop.8.gz
-{{< /files >}}

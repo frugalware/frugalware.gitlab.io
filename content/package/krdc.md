@@ -16,7 +16,8 @@ reverse_depends = "['qt-virt-manager']"
 +++
 KRDC is a Remote Desktop Client for KDE.
 
-{{< files text="show files" >}}* /usr/bin/krdc
+## Files: 
+* /usr/bin/krdc
 * /usr/include/krdc/hostpreferences.h
 * /usr/include/krdc/remoteview.h
 * /usr/include/krdc/remoteviewfactory.h
@@ -180,4 +181,3 @@ KRDC is a Remote Desktop Client for KDE.
 * /usr/share/locale/zh_TW/LC_MESSAGES/krdc.mo
 * /usr/share/metainfo/org.kde.krdc.appdata.xml
 * /usr/share/qlogging-categories5/krdc.categories
-{{< /files >}}

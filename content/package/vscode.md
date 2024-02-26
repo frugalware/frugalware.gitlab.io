@@ -15,7 +15,8 @@ depends = "['ffmpeg', 'libsecret', 'libxkbfile', 'ripgrep', 'sqlite3']"
 +++
 The Open Source build of Visual Studio Code (vscode) editor
 
-{{< files text="show files" >}}* /usr/bin/code-oss
+## Files: 
+* /usr/bin/code-oss
 * /usr/share/applications/code-oss-url-handler.desktop
 * /usr/share/applications/code-oss.desktop
 * /usr/share/doc/vscode-1.86.2/README.md
@@ -996,4 +997,3 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/snapshot_blob.bin
 * /usr/share/vscode/v8_context_snapshot.bin
 * /usr/share/vscode/vk_swiftshader_icd.json
-{{< /files >}}

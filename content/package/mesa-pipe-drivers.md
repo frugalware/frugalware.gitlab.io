@@ -15,7 +15,8 @@ depends = "['elfutils>=0.167-2', 'libdrm>=2.4.70', 'libffi>=3.2.1-2', 'llvm-libs
 +++
 Mesa gallium pipe drivers.
 
-{{< files text="show files" >}}* /usr/lib/gallium-pipe/pipe_crocus.so
+## Files: 
+* /usr/lib/gallium-pipe/pipe_crocus.so
 * /usr/lib/gallium-pipe/pipe_i915.so
 * /usr/lib/gallium-pipe/pipe_iris.so
 * /usr/lib/gallium-pipe/pipe_nouveau.so
@@ -24,4 +25,3 @@ Mesa gallium pipe drivers.
 * /usr/lib/gallium-pipe/pipe_radeonsi.so
 * /usr/lib/gallium-pipe/pipe_swrast.so
 * /usr/lib/gallium-pipe/pipe_vmwgfx.so
-{{< /files >}}

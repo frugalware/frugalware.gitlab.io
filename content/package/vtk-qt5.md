@@ -16,7 +16,8 @@ reverse_depends = "['vtk-java-qt5', 'vtk-python3-qt5']"
 +++
 Qt5 interface and bindings for vtk
 
-{{< files text="show files" >}}* /usr/lib/libvtkGUISupportQt.so
+## Files: 
+* /usr/lib/libvtkGUISupportQt.so
 * /usr/lib/libvtkGUISupportQt.so.1
 * /usr/lib/libvtkGUISupportQt.so.9.3
 * /usr/lib/libvtkGUISupportQtQuick.so
@@ -31,4 +32,3 @@ Qt5 interface and bindings for vtk
 * /usr/lib/libvtkViewsQt.so
 * /usr/lib/libvtkViewsQt.so.1
 * /usr/lib/libvtkViewsQt.so.9.3
-{{< /files >}}

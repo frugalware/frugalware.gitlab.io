@@ -15,7 +15,8 @@ depends = "['ncurses>=6.1-2', 'pam']"
 +++
 A full-screen window manager that multiplexes a physical terminal
 
-{{< files text="show files" >}}* /etc/pam.d/screen
+## Files: 
+* /etc/pam.d/screen
 * /etc/screen/screenrc
 * /etc/screen/screenrc.user.example
 * /etc/tmpfiles.d/screen.conf
@@ -48,4 +49,3 @@ A full-screen window manager that multiplexes a physical terminal
 * /usr/share/screen/utf8encodings/cc
 * /usr/share/screen/utf8encodings/cd
 * /usr/share/screen/utf8encodings/d6
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['kcoreaddons>=5.110.0', 'pcre2', 'qt5-xmlpatterns>=5.15.11']"
 +++
 DAV protocol implementation with KJobs, 2 version
 
-{{< files text="show files" >}}* /etc/xdg/kdav2.categories
+## Files: 
+* /etc/xdg/kdav2.categories
 * /usr/include/KPim/KDAV2/DavCollection
 * /usr/include/KPim/kdav2/davcollection.h
 * /usr/include/KPim/KDAV2/DavCollectionCreateJob
@@ -78,4 +79,3 @@ DAV protocol implementation with KJobs, 2 version
 * /usr/share/doc/kdav2-0.4.0/COPYING
 * /usr/share/doc/kdav2-0.4.0/README
 * /usr/share/qt5/mkspecs/modules/qt_kdav2.pri
-{{< /files >}}

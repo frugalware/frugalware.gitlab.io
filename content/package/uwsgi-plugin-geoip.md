@@ -15,5 +15,5 @@ depends = "['geoip', 'uwsgi']"
 +++
 UWSGI GeoIP Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/geoip_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/uwsgi/geoip_plugin.so

@@ -15,5 +15,5 @@ depends = "['gloox>=1.0.20', 'uwsgi']"
 +++
 UWSGI Alarm XMPP Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/alarm_xmpp_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/uwsgi/alarm_xmpp_plugin.so

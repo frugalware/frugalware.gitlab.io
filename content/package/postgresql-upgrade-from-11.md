@@ -15,7 +15,8 @@ depends = "['libpq>=11.22', 'libxml2>=2.9.4-3', 'ncurses>=6.0-16', 'openssl>=3.1
 +++
 Seperate latest 11 PGSQL for pg_upgrade
 
-{{< files text="show files" >}}* /opt/pgsql-11/bin/oid2name
+## Files: 
+* /opt/pgsql-11/bin/oid2name
 * /opt/pgsql-11/bin/pg_standby
 * /opt/pgsql-11/bin/vacuumlo
 * /opt/pgsql-11/include/server/extension/cube/cubedata.h
@@ -309,4 +310,3 @@ Seperate latest 11 PGSQL for pg_upgrade
 * /usr/share/doc/postgresql-upgrade-from-11-11.22/HISTORY
 * /usr/share/doc/postgresql-upgrade-from-11-11.22/INSTALL
 * /usr/share/doc/postgresql-upgrade-from-11-11.22/README
-{{< /files >}}

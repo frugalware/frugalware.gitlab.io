@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Documentation for the Python 3 scripting language
 
-{{< files text="show files" >}}* /etc/profile.d/python3-docs.sh
+## Files: 
+* /etc/profile.d/python3-docs.sh
 * /usr/share/doc/python-3.6.7/.buildinfo
 * /usr/share/doc/python-3.6.7/about.html
 * /usr/share/doc/python-3.6.7/bugs.html
@@ -1021,4 +1022,3 @@ Documentation for the Python 3 scripting language
 * /usr/share/doc/python-3.6.7/_static/up-pressed.png
 * /usr/share/doc/python-3.6.7/_static/up.png
 * /usr/share/doc/python-3.6.7/_static/websupport.js
-{{< /files >}}

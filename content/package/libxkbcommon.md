@@ -16,7 +16,8 @@ reverse_depends = "['chromium-browser', 'efl', 'enlightenment', 'freerdp', 'glfw
 +++
 Keymap compiler and support library for the XKB specification.
 
-{{< files text="show files" >}}* /usr/bin/xkbcli
+## Files: 
+* /usr/bin/xkbcli
 * /usr/include/xkbcommon/xkbcommon-compat.h
 * /usr/include/xkbcommon/xkbcommon-compose.h
 * /usr/include/xkbcommon/xkbcommon-keysyms.h
@@ -53,4 +54,3 @@ Keymap compiler and support library for the XKB specification.
 * /usr/share/man/man1/xkbcli-interactive-x11.1.gz
 * /usr/share/man/man1/xkbcli-list.1.gz
 * /usr/share/man/man1/xkbcli.1.gz
-{{< /files >}}

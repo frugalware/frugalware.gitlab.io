@@ -16,7 +16,8 @@ reverse_depends = "['cairomm', 'castor', 'firefox', 'granite', 'gst1-plugins-goo
 +++
 A vector graphics library with cross-device output support
 
-{{< files text="show files" >}}* /usr/bin/cairo-trace
+## Files: 
+* /usr/bin/cairo-trace
 * /usr/include/cairo/cairo-deprecated.h
 * /usr/include/cairo/cairo-features.h
 * /usr/include/cairo/cairo-ft.h
@@ -68,4 +69,3 @@ A vector graphics library with cross-device output support
 * /usr/share/doc/cairo-1.18.0/NEWS
 * /usr/share/doc/cairo-1.18.0/README.md
 * /usr/share/doc/cairo-1.18.0/README.win32
-{{< /files >}}

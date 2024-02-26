@@ -16,11 +16,11 @@ reverse_depends = "['plasma-integration', 'tootle']"
 +++
 Noto Emoji fonts
 
-{{< files text="show files" >}}* /usr/share/doc/noto-emoji-20170821/AUTHORS
+## Files: 
+* /usr/share/doc/noto-emoji-20170821/AUTHORS
 * /usr/share/doc/noto-emoji-20170821/CONTRIBUTORS
 * /usr/share/doc/noto-emoji-20170821/LICENSE
 * /usr/share/doc/noto-emoji-20170821/README.md
 * /usr/share/fonts/X11/TTF/NotoColorEmoji.ttf
 * /usr/share/fonts/X11/TTF/NotoColorEmoji_WindowsCompatible.ttf
 * /usr/share/fonts/X11/TTF/NotoEmoji-Regular.ttf
-{{< /files >}}

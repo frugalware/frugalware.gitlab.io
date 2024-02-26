@@ -15,7 +15,8 @@ depends = "['curl', 'libgl', 'libvorbis', 'openal', 'sdlimage']"
 +++
 A realistic team oriented multiplayer FPS based on the Cube engine
 
-{{< files text="show files" >}}* /usr/bin/ac_client
+## Files: 
+* /usr/bin/ac_client
 * /usr/bin/ac_server
 * /usr/bin/assaultcube
 * /usr/bin/assaultcube-server
@@ -1844,4 +1845,3 @@ A realistic team oriented multiplayer FPS based on the Cube engine
 * /usr/share/doc/assaultcube-1.3.0.2/README.html
 * /usr/share/doc/assaultcube-1.3.0.2/README.md
 * /usr/share/pixmaps/assaultcube.png
-{{< /files >}}

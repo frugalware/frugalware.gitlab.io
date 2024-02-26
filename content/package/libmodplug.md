@@ -16,7 +16,8 @@ reverse_depends = "['love', 'mixxx', 'mpd', 'solarus', 'vlc-modplug', 'xine-lib'
 +++
 The ModPlug mod file playing library
 
-{{< files text="show files" >}}* /usr/include/libmodplug/it_defs.h
+## Files: 
+* /usr/include/libmodplug/it_defs.h
 * /usr/include/libmodplug/modplug.h
 * /usr/include/libmodplug/sndfile.h
 * /usr/include/libmodplug/stdafx.h
@@ -31,4 +32,3 @@ The ModPlug mod file playing library
 * /usr/share/doc/libmodplug-0.8.9.0/NEWS
 * /usr/share/doc/libmodplug-0.8.9.0/README
 * /usr/share/doc/libmodplug-0.8.9.0/TODO
-{{< /files >}}

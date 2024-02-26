@@ -15,7 +15,8 @@ depends = "[]"
 +++
 inotify-tools is a set of command-line programs for Linux providing a simple interface to inotify
 
-{{< files text="show files" >}}* /usr/bin/inotifywait
+## Files: 
+* /usr/bin/inotifywait
 * /usr/bin/inotifywatch
 * /usr/include/inotifytools/inotify-nosys.h
 * /usr/include/inotifytools/inotify.h
@@ -32,4 +33,3 @@ inotify-tools is a set of command-line programs for Linux providing a simple int
 * /usr/share/doc/inotify-tools-3.13/README
 * /usr/share/man/man1/inotifywait.1.gz
 * /usr/share/man/man1/inotifywatch.1.gz
-{{< /files >}}

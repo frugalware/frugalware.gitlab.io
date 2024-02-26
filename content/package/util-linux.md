@@ -16,7 +16,8 @@ reverse_depends = "['dracut', 'e2fsprogs', 'efl', 'enlightenment', 'f2fs-tools',
 +++
 Miscellaneous system utilities for Linux
 
-{{< files text="show files" >}}* /etc/mtab
+## Files: 
+* /etc/mtab
 * /etc/pam.d/chsh
 * /etc/pam.d/su
 * /etc/pam.d/su-l
@@ -531,4 +532,3 @@ Miscellaneous system utilities for Linux
 * /usr/share/man/man8/wipefs.8.gz
 * /usr/share/man/man8/x86_64.8.gz
 * /usr/share/man/man8/zramctl.8.gz
-{{< /files >}}

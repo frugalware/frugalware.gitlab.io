@@ -16,7 +16,8 @@ reverse_depends = "['clinfo', 'warzone2100', 'wine', 'wine-devel', 'xine-lib']"
 +++
 OpenCL ICD Bindings
 
-{{< files text="show files" >}}* /usr/bin/cllayerinfo
+## Files: 
+* /usr/bin/cllayerinfo
 * /usr/include/ocl_icd.h
 * /usr/lib/libOpenCL.so
 * /usr/lib/libOpenCL.so.1
@@ -31,4 +32,3 @@ OpenCL ICD Bindings
 * /usr/share/doc/ocl-icd-2.3.2/README
 * /usr/share/man/man7/libOpenCL.7.gz
 * /usr/share/man/man7/libOpenCL.so.7.gz
-{{< /files >}}

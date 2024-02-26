@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 Xlib-compatible API for the Present extension
 
-{{< files text="show files" >}}* /usr/include/X11/extensions/Xpresent.h
+## Files: 
+* /usr/include/X11/extensions/Xpresent.h
 * /usr/lib/libXpresent.so
 * /usr/lib/libXpresent.so.1
 * /usr/lib/libXpresent.so.1.0.0
@@ -35,4 +36,3 @@ Xlib-compatible API for the Present extension
 * /usr/share/man/man3/XPresentQueryVersion.3.gz
 * /usr/share/man/man3/XPresentSelectInput.3.gz
 * /usr/share/man/man3/XPresentVersion.3.gz
-{{< /files >}}

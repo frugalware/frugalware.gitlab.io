@@ -16,6 +16,6 @@ reverse_depends = "['containerd', 'docker']"
 +++
 CLI tool for spawning and running containers according to the OCI specification.
 
-{{< files text="show files" >}}* /usr/bin/docker-runc
+## Files: 
+* /usr/bin/docker-runc
 * /usr/bin/runc
-{{< /files >}}

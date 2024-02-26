@@ -15,6 +15,6 @@ depends = "['libudev']"
 +++
 libudev.so.0 compatibility library for systems with newer udev versions
 
-{{< files text="show files" >}}* /usr/lib/libudev.so.0
+## Files: 
+* /usr/lib/libudev.so.0
 * /usr/lib/libudev.so.0.0.9999
-{{< /files >}}

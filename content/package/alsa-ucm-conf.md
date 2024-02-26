@@ -16,7 +16,8 @@ reverse_depends = "['alsa-lib']"
 +++
 ALSA Use Case Manager configuration (and topologies)
 
-{{< files text="show files" >}}* /usr/share/alsa/ucm2/Allwinner/A64/PinePhone/HiFi.conf
+## Files: 
+* /usr/share/alsa/ucm2/Allwinner/A64/PinePhone/HiFi.conf
 * /usr/share/alsa/ucm2/Allwinner/A64/PinePhone/PinePhone.conf
 * /usr/share/alsa/ucm2/Allwinner/A64/PinePhone/VoiceCall.conf
 * /usr/share/alsa/ucm2/AMD/acp3x-es83xx/acp3x-es83xx.conf
@@ -528,4 +529,3 @@ ALSA Use Case Manager configuration (and topologies)
 * /usr/share/alsa/ucm2/USB-Audio/USB-Audio.conf
 * /usr/share/doc/alsa-ucm-conf-1.2.11/LICENSE
 * /usr/share/doc/alsa-ucm-conf-1.2.11/README.md
-{{< /files >}}

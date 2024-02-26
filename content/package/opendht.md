@@ -15,7 +15,8 @@ depends = "['argon2', 'asio', 'fmtlib>=10.0.0', 'gnutls', 'jsoncpp>=1.9.5', 'net
 +++
 A C++11 implementation of the Kademlia DHT (Distributed Hash Table)
 
-{{< files text="show files" >}}* /etc/dhtcluster.conf
+## Files: 
+* /etc/dhtcluster.conf
 * /etc/dhtnode.conf
 * /usr/bin/dhtchat
 * /usr/bin/dhtcluster
@@ -70,4 +71,3 @@ A C++11 implementation of the Kademlia DHT (Distributed Hash Table)
 * /usr/share/doc/opendht-3.1.7/COPYING
 * /usr/share/doc/opendht-3.1.7/README.md
 * /usr/share/man/man1/dhtnode.1.gz
-{{< /files >}}

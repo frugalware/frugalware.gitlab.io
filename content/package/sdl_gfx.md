@@ -17,7 +17,8 @@ license = "LGPL"
 +++
 SDL library for graphics drawing primitives and other support functions.
 
-{{< files text="show files" >}}* /usr/include/SDL/SDL_framerate.h
+## Files: 
+* /usr/include/SDL/SDL_framerate.h
 * /usr/include/SDL/SDL_gfxBlitFunc.h
 * /usr/include/SDL/SDL_gfxPrimitives.h
 * /usr/include/SDL/SDL_gfxPrimitives_font.h
@@ -35,4 +36,3 @@ SDL library for graphics drawing primitives and other support functions.
 * /usr/share/doc/sdl_gfx-2.0.27/NEWS
 * /usr/share/doc/sdl_gfx-2.0.27/README
 * /usr/share/doc/sdl_gfx-2.0.27/README-rpm
-{{< /files >}}

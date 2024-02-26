@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 Utility to set XInput device parameters
 
-{{< files text="show files" >}}* /usr/bin/xinput
+## Files: 
+* /usr/bin/xinput
 * /usr/share/doc/xinput-1.6.4/AUTHORS
 * /usr/share/doc/xinput-1.6.4/ChangeLog
 * /usr/share/doc/xinput-1.6.4/COPYING
@@ -25,4 +26,3 @@ Utility to set XInput device parameters
 * /usr/share/doc/xinput-1.6.4/NEWS
 * /usr/share/doc/xinput-1.6.4/README
 * /usr/share/man/man1/xinput.1.gz
-{{< /files >}}

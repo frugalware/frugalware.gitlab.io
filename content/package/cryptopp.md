@@ -16,7 +16,8 @@ reverse_depends = "['cryfs']"
 +++
 C++ library for cryptography
 
-{{< files text="show files" >}}* /usr/bin/cryptest.exe
+## Files: 
+* /usr/bin/cryptest.exe
 * /usr/include/cryptopp/3way.h
 * /usr/include/cryptopp/adler32.h
 * /usr/include/cryptopp/adv_simd.h
@@ -367,4 +368,3 @@ C++ library for cryptography
 * /usr/share/cryptopp/TestVectors/xchacha.txt
 * /usr/share/cryptopp/TestVectors/xts.txt
 * /usr/share/doc/cryptopp-8.9.0/Readme.txt
-{{< /files >}}

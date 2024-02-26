@@ -16,7 +16,8 @@ reverse_depends = "['gst1-plugins-pipewire', 'pipewire-alsa', 'pipewire-jack', '
 +++
 Session / policy manager implementation for PipeWire
 
-{{< files text="show files" >}}* /usr/bin/wireplumber
+## Files: 
+* /usr/bin/wireplumber
 * /usr/bin/wpctl
 * /usr/bin/wpexec
 * /usr/include/wireplumber-0.5/wp/client.h
@@ -209,4 +210,3 @@ Session / policy manager implementation for PipeWire
 * /usr/share/wireplumber/scripts/policy-dsp.lua
 * /usr/share/wireplumber/scripts/sm-objects.lua
 * /usr/share/zsh/site-functions/_wpctl
-{{< /files >}}

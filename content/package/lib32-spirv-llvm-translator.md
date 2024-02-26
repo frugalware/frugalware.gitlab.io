@@ -16,7 +16,7 @@ reverse_depends = "['lib32-opencl-clover', 'lib32-opencl-rusticl']"
 +++
 Tool and a library for bi-directional translation between SPIR-V and LLVM IR ( 32bit )
 
-{{< files text="show files" >}}* /usr/lib32/libLLVMSPIRVLib.so
+## Files: 
+* /usr/lib32/libLLVMSPIRVLib.so
 * /usr/lib32/libLLVMSPIRVLib.so.17
 * /usr/lib32/pkgconfig/LLVMSPIRVLib.pc
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['spamassassin']"
 +++
 A set of Perl modules which provides a simple and consistent API to the WWW.
 
-{{< files text="show files" >}}* /usr/bin/site_perl/lwp-download
+## Files: 
+* /usr/bin/site_perl/lwp-download
 * /usr/bin/site_perl/lwp-dump
 * /usr/bin/site_perl/lwp-mirror
 * /usr/bin/site_perl/lwp-request
@@ -64,4 +65,3 @@ A set of Perl modules which provides a simple and consistent API to the WWW.
 * /usr/share/man/man3/LWP::UserAgent.3perl.gz
 * /usr/share/man/man3/lwpcook.3perl.gz
 * /usr/share/man/man3/lwptut.3perl.gz
-{{< /files >}}

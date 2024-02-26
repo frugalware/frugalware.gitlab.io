@@ -16,7 +16,8 @@ reverse_depends = "['cppgir', 'easyeffects', 'easyrpg-player', 'mkvtoolnix', 'mp
 +++
 Open-source formatting library for C++
 
-{{< files text="show files" >}}* /usr/include/fmt/args.h
+## Files: 
+* /usr/include/fmt/args.h
 * /usr/include/fmt/chrono.h
 * /usr/include/fmt/color.h
 * /usr/include/fmt/compile.h
@@ -39,4 +40,3 @@ Open-source formatting library for C++
 * /usr/lib/pkgconfig/fmt.pc
 * /usr/share/doc/fmtlib-10.2.1/LICENSE
 * /usr/share/doc/fmtlib-10.2.1/README.md
-{{< /files >}}

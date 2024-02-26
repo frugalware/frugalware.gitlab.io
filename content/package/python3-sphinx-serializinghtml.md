@@ -16,7 +16,8 @@ reverse_depends = "['python3-sphinx']"
 +++
 Sphinx extension which outputs 'serialized' HTML files (json and pickle)
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/jsonimpl.py
+## Files: 
+* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/jsonimpl.py
 * /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/.tx/config
 * /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ar/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
 * /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ar/LC_MESSAGES/sphinxcontrib.serializinghtml.po
@@ -139,4 +140,3 @@ Sphinx extension which outputs 'serialized' HTML files (json and pickle)
 * /usr/share/doc/python3-sphinx-serializinghtml-1.1.9/CHANGES
 * /usr/share/doc/python3-sphinx-serializinghtml-1.1.9/LICENSE
 * /usr/share/doc/python3-sphinx-serializinghtml-1.1.9/README.rst
-{{< /files >}}

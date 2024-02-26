@@ -15,7 +15,8 @@ depends = "['json-c>=0.14', 'keyutils', 'kmod', 'libdaxctl>=78', 'libndctl>=78',
 +++
 Utility for managing the libnvdimm sub-system in the Linux kernel
 
-{{< files text="show files" >}}* /etc/daxctl.conf.d/daxctl.example.conf
+## Files: 
+* /etc/daxctl.conf.d/daxctl.example.conf
 * /etc/modprobe.d/nvdimm-security.conf
 * /etc/ndctl.conf.d/monitor.conf
 * /etc/ndctl.conf.d/ndctl.conf
@@ -102,4 +103,3 @@ Utility for managing the libnvdimm sub-system in the Linux kernel
 * /usr/share/man/man1/ndctl.1.gz
 * /usr/share/man/man3/cxl_new.3.gz
 * /usr/share/man/man3/libcxl.3.gz
-{{< /files >}}

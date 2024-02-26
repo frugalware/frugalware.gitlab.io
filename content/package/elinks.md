@@ -15,7 +15,8 @@ depends = "['expat', 'libidn', 'openssl', 'zlib']"
 +++
 An advanced and well-established feature-rich text mode web browser
 
-{{< files text="show files" >}}* /usr/bin/elinks
+## Files: 
+* /usr/bin/elinks
 * /usr/share/doc/elinks-0.17.0/AUTHORS
 * /usr/share/doc/elinks-0.17.0/BUGS
 * /usr/share/doc/elinks-0.17.0/ChangeLog
@@ -66,4 +67,3 @@ An advanced and well-established feature-rich text mode web browser
 * /usr/share/locale/sv/LC_MESSAGES/elinks.mo
 * /usr/share/locale/tr/LC_MESSAGES/elinks.mo
 * /usr/share/locale/uk/LC_MESSAGES/elinks.mo
-{{< /files >}}

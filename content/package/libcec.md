@@ -16,7 +16,8 @@ reverse_depends = "['plasma-remotecontrollers']"
 +++
 Pulse-Eight's libcec for the Pulse-Eight USB-CEC adapter
 
-{{< files text="show files" >}}* /usr/bin/cec-client
+## Files: 
+* /usr/bin/cec-client
 * /usr/bin/cec-client-6.0.2
 * /usr/bin/cecc-client
 * /usr/bin/cecc-client-6.0.2
@@ -35,4 +36,3 @@ Pulse-Eight's libcec for the Pulse-Eight USB-CEC adapter
 * /usr/share/doc/libcec-6.0.2/ChangeLog
 * /usr/share/doc/libcec-6.0.2/COPYING
 * /usr/share/doc/libcec-6.0.2/README.md
-{{< /files >}}

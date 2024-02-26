@@ -15,7 +15,8 @@ depends = "['glibc>=2.38']"
 +++
 Very fast, header-only/compiled, C++ logging library
 
-{{< files text="show files" >}}* /usr/include/spdlog/async.h
+## Files: 
+* /usr/include/spdlog/async.h
 * /usr/include/spdlog/async_logger-inl.h
 * /usr/include/spdlog/async_logger.h
 * /usr/include/spdlog/cfg/argv.h
@@ -128,4 +129,3 @@ Very fast, header-only/compiled, C++ logging library
 * /usr/share/doc/spdlog-1.12.0/INSTALL
 * /usr/share/doc/spdlog-1.12.0/LICENSE
 * /usr/share/doc/spdlog-1.12.0/README.md
-{{< /files >}}

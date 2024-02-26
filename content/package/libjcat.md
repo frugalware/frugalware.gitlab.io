@@ -16,7 +16,8 @@ reverse_depends = "['fwupd']"
 +++
 Library for reading and writing Jcat files
 
-{{< files text="show files" >}}* /usr/bin/jcat-tool
+## Files: 
+* /usr/bin/jcat-tool
 * /usr/include/libjcat-1/jcat.h
 * /usr/include/libjcat-1/libjcat/jcat-blob.h
 * /usr/include/libjcat-1/libjcat/jcat-bt-checkpoint.h
@@ -57,4 +58,3 @@ Library for reading and writing Jcat files
 * /usr/share/man/man1/jcat-tool.1.gz
 * /usr/share/vala/vapi/jcat.deps
 * /usr/share/vala/vapi/jcat.vapi
-{{< /files >}}

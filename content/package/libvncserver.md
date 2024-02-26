@@ -16,7 +16,8 @@ reverse_depends = "['krdc', 'krfb', 'qt-virt-manager', 'remmina-vnc', 'virtualbo
 +++
 Library to create custom VNC servers
 
-{{< files text="show files" >}}* /usr/include/rfb/keysym.h
+## Files: 
+* /usr/include/rfb/keysym.h
 * /usr/include/rfb/rfb.h
 * /usr/include/rfb/rfbclient.h
 * /usr/include/rfb/rfbconfig.h
@@ -39,4 +40,3 @@ Library to create custom VNC servers
 * /usr/share/doc/libvncserver-0.9.14/ChangeLog
 * /usr/share/doc/libvncserver-0.9.14/COPYING
 * /usr/share/doc/libvncserver-0.9.14/README.md
-{{< /files >}}

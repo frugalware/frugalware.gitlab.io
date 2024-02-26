@@ -15,7 +15,8 @@ depends = "['lmsensors']"
 +++
 lm-sensors frontend for KDE
 
-{{< files text="show files" >}}* usr/bin/ksensors
+## Files: 
+* usr/bin/ksensors
 * usr/share/applnk/Utilities/ksensors.desktop
 * usr/share/apps/ksensors/ksensorsui.rc
 * usr/share/apps/ksensors/pics/battery.png
@@ -52,4 +53,3 @@ lm-sensors frontend for KDE
 * usr/share/locale/es/LC_MESSAGES/ksensors.mo
 * usr/share/locale/fr/LC_MESSAGES/ksensors.mo
 * usr/share/locale/nl/LC_MESSAGES/ksensors.mo
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['amavisd-new']"
 +++
 Perl modules for parsing (and creating!) MIME entities
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/MIME/Body.pm
+## Files: 
+* /usr/lib/perl5/site_perl/MIME/Body.pm
 * /usr/lib/perl5/site_perl/MIME/Decoder.pm
 * /usr/lib/perl5/site_perl/MIME/Decoder/Base64.pm
 * /usr/lib/perl5/site_perl/MIME/Decoder/Binary.pm
@@ -65,4 +66,3 @@ Perl modules for parsing (and creating!) MIME entities
 * /usr/share/man/man3/MIME::Tools.3perl.gz
 * /usr/share/man/man3/MIME::WordDecoder.3perl.gz
 * /usr/share/man/man3/MIME::Words.3perl.gz
-{{< /files >}}

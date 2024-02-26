@@ -16,7 +16,8 @@ reverse_depends = "['haskell-crypton-x509', 'haskell-x509']"
 +++
 Simple monadic parser for ASN1 stream types
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/asn1-parse-0.9.5/Data/ASN1/Parse.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/asn1-parse-0.9.5/Data/ASN1/Parse.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/asn1-parse-0.9.5/Data/ASN1/Parse.hi
 * /usr/lib/ghc-9.8.1/site-local/asn1-parse-0.9.5/libHSasn1-parse-0.9.5-FmjgGuk5x0v3z9tifRzbLi.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSasn1-parse-0.9.5-FmjgGuk5x0v3z9tifRzbLi-ghc9.8.1.so
@@ -35,4 +36,3 @@ Simple monadic parser for ASN1 stream types
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/asn1-parse-0.9.5/LICENSE
 * /usr/share/haskell/haskell-asn1-parse/register.sh
 * /usr/share/haskell/haskell-asn1-parse/unregister.sh
-{{< /files >}}

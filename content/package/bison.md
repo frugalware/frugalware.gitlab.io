@@ -15,7 +15,8 @@ depends = "['gettext']"
 +++
 A general-purpose parser generator.
 
-{{< files text="show files" >}}* /usr/bin/bison
+## Files: 
+* /usr/bin/bison
 * /usr/bin/yacc
 * /usr/share/aclocal/bison-i18n.m4
 * /usr/share/bison/bison-default.css
@@ -218,4 +219,3 @@ A general-purpose parser generator.
 * /usr/share/locale/zh_TW/LC_MESSAGES/bison.mo
 * /usr/share/man/man1/bison.1.gz
 * /usr/share/man/man1/yacc.1.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Mac OS theme for KDE
 
-{{< files text="show files" >}}* usr/bin/bab
+## Files: 
+* usr/bin/bab
 * usr/include/baghirasidebar.h
 * usr/include/baghirasidebariface.h
 * usr/include/dndlistbox.h
@@ -91,4 +92,3 @@ Mac OS theme for KDE
 * usr/share/icons/crystalsvg/64x64/apps/baghira_grey.png
 * usr/share/icons/crystalsvg/64x64/apps/baghira_white.png
 * usr/share/icons/crystalsvg/64x64/apps/baghira_yellow.png
-{{< /files >}}

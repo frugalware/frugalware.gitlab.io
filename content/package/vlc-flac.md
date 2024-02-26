@@ -15,5 +15,5 @@ depends = "['flac>=1.4.0', 'libvlc>=3.0.20']"
 +++
 vlc flac support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/libflac_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/codec/libflac_plugin.so

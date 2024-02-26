@@ -15,7 +15,8 @@ depends = "['futuresql', 'kcoreaddons>=5.115.0', 'kdeclarative>=5.115.0', 'ki18n
 +++
 Tool to check contrast for colors that allows verifying that your colors are correctly accessible
 
-{{< files text="show files" >}}* /usr/bin/kontrast
+## Files: 
+* /usr/bin/kontrast
 * /usr/share/applications/org.kde.kontrast.desktop
 * /usr/share/doc/HTML/ca/kontrast/index.cache.bz2
 * /usr/share/doc/HTML/ca/kontrast/index.docbook
@@ -67,4 +68,3 @@ Tool to check contrast for colors that allows verifying that your colors are cor
 * /usr/share/locale/zh_CN/LC_MESSAGES/kontrast.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kontrast.mo
 * /usr/share/metainfo/org.kde.kontrast.appdata.xml
-{{< /files >}}

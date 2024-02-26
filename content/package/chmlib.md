@@ -16,7 +16,8 @@ reverse_depends = "['okular']"
 +++
 A library for dealing with Microsoft ITSS/CHM format files.
 
-{{< files text="show files" >}}* /usr/bin/chm_http
+## Files: 
+* /usr/bin/chm_http
 * /usr/bin/enumdir_chmLib
 * /usr/bin/enum_chmLib
 * /usr/bin/extract_chmLib
@@ -31,4 +32,3 @@ A library for dealing with Microsoft ITSS/CHM format files.
 * /usr/share/doc/chmlib-0.40/INSTALL
 * /usr/share/doc/chmlib-0.40/NEWS
 * /usr/share/doc/chmlib-0.40/README
-{{< /files >}}

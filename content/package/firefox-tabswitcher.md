@@ -15,7 +15,7 @@ depends = "['firefox>=1.5']"
 +++
 allows you to switch between tabs with customized shortcuts. Default are Ctrl+Left/Right
 
-{{< files text="show files" >}}* usr/lib/firefox/extensions/{7AFBDE9F-DFC7-4528-913A-CE8BCAA6EA0E}/chrome.manifest
+## Files: 
+* usr/lib/firefox/extensions/{7AFBDE9F-DFC7-4528-913A-CE8BCAA6EA0E}/chrome.manifest
 * usr/lib/firefox/extensions/{7AFBDE9F-DFC7-4528-913A-CE8BCAA6EA0E}/chrome/tabswitcher.jar
 * usr/lib/firefox/extensions/{7AFBDE9F-DFC7-4528-913A-CE8BCAA6EA0E}/install.rdf
-{{< /files >}}

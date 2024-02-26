@@ -15,7 +15,8 @@ depends = "['kcoreaddons>=5.70.0', 'ki18n>=5.70.0', 'kio>=5.70.0', 'kxmlgui>=5.7
 +++
 Image Scanning Application for KDE
 
-{{< files text="show files" >}}* /usr/bin/skanlite
+## Files: 
+* /usr/bin/skanlite
 * /usr/share/applications/org.kde.skanlite.desktop
 * /usr/share/doc/HTML/de/skanlite/buttons-main.png
 * /usr/share/doc/HTML/de/skanlite/final-button.png
@@ -128,4 +129,3 @@ Image Scanning Application for KDE
 * /usr/share/locale/zh_CN/LC_MESSAGES/skanlite.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/skanlite.mo
 * /usr/share/metainfo/org.kde.skanlite.appdata.xml
-{{< /files >}}

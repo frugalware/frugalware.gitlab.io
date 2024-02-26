@@ -16,7 +16,8 @@ reverse_depends = "['python3-poetry']"
 +++
 Query metadata from sdists / bdists / installed packages
 
-{{< files text="show files" >}}* /usr/bin/pkginfo
+## Files: 
+* /usr/bin/pkginfo
 * /usr/lib/python3.12/site-packages/pkginfo-1.9.6.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/pkginfo-1.9.6.dist-info/LICENSE.txt
 * /usr/lib/python3.12/site-packages/pkginfo-1.9.6.dist-info/METADATA
@@ -95,4 +96,3 @@ Query metadata from sdists / bdists / installed packages
 * /usr/lib/python3.12/site-packages/pkginfo/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pkginfo/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-pkginfo-1.9.6/README.txt
-{{< /files >}}

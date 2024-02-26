@@ -16,7 +16,8 @@ reverse_depends = "['discover', 'kbackup', 'kcachegrind', 'kdoctools', 'kemotico
 +++
 Qt 5 addon providing access to numerous types of archives.
 
-{{< files text="show files" >}}* /usr/include/KF5/KArchive/K7Zip
+## Files: 
+* /usr/include/KF5/KArchive/K7Zip
 * /usr/include/KF5/KArchive/k7zip.h
 * /usr/include/KF5/KArchive/KAr
 * /usr/include/KF5/KArchive/kar.h
@@ -88,4 +89,3 @@ Qt 5 addon providing access to numerous types of archives.
 * /usr/share/qlogging-categories5/karchive.categories
 * /usr/share/qlogging-categories5/karchive.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KArchive.pri
-{{< /files >}}

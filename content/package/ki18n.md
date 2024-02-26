@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-mime', 'akonadi-notes', 'alligator', 'audiotube', '
 +++
 KDE Gettext-based UI text.
 
-{{< files text="show files" >}}* /usr/include/KF5/KI18n/ki18n_export.h
+## Files: 
+* /usr/include/KF5/KI18n/ki18n_export.h
 * /usr/include/KF5/KI18n/ki18n_version.h
 * /usr/include/KF5/KI18n/KLazyLocalizedString
 * /usr/include/KF5/KI18n/klazylocalizedstring.h
@@ -186,4 +187,3 @@ KDE Gettext-based UI text.
 * /usr/share/qt5/mkspecs/modules/qt_KI18n.pri
 * /usr/share/qt5/qml/org/kde/i18n/localeData/libki18nlocaledataqmlplugin.so
 * /usr/share/qt5/qml/org/kde/i18n/localeData/qmldir
-{{< /files >}}

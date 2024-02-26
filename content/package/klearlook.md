@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Widget style for KDE.
 
-{{< files text="show files" >}}* usr/lib/kde3/kstyle_klearlook_config.la
+## Files: 
+* usr/lib/kde3/kstyle_klearlook_config.la
 * usr/lib/kde3/kstyle_klearlook_config.so
 * usr/lib/kde3/plugins/styles/klearlook.la
 * usr/lib/kde3/plugins/styles/klearlook.so
@@ -26,4 +27,3 @@ Widget style for KDE.
 * usr/share/doc/klearlook-0.9.9.2/README
 * usr/share/doc/klearlook-0.9.9.2/TODO
 * usr/share/doc/klearlook-0.9.9.2/VERSION
-{{< /files >}}

@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org xditview application
 
-{{< files text="show files" >}}* /usr/bin/xditview
+## Files: 
+* /usr/bin/xditview
 * /usr/include/X11/bitmaps/ldblarrow
 * /usr/include/X11/bitmaps/rdblarrow
 * /usr/share/doc/xditview-1.0.7/ChangeLog
@@ -26,4 +27,3 @@ X.Org xditview application
 * /usr/share/man/man1/xditview.1.gz
 * /usr/share/X11/app-defaults/Xditview
 * /usr/share/X11/app-defaults/Xditview-chrtr
-{{< /files >}}

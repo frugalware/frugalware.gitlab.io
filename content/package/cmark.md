@@ -16,7 +16,8 @@ reverse_depends = "['ghostwriter', 'mkvtoolnix-gui', 'neochat']"
 +++
 CommonMark parsing and rendering library and program in C
 
-{{< files text="show files" >}}* /usr/bin/cmark
+## Files: 
+* /usr/bin/cmark
 * /usr/include/cmark.h
 * /usr/include/cmark_export.h
 * /usr/include/cmark_version.h
@@ -31,4 +32,3 @@ CommonMark parsing and rendering library and program in C
 * /usr/share/doc/cmark-0.31.0/README.md
 * /usr/share/man/man1/cmark.1.gz
 * /usr/share/man/man3/cmark.3.gz
-{{< /files >}}

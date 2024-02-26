@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Turkish Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/khangman/data/tr/animals.kvtml
+## Files: 
+* usr/share/apps/khangman/data/tr/animals.kvtml
 * usr/share/apps/khangman/data/tr/easy.kvtml
 * usr/share/apps/khangman/data/tr/hard.kvtml
 * usr/share/apps/khangman/data/tr/medium.kvtml
@@ -691,4 +692,3 @@ Turkish Localization for KDE.
 * usr/share/locale/tr/LC_MESSAGES/wakeup.mo
 * usr/share/locale/tr/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/tr/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

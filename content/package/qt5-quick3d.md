@@ -15,7 +15,8 @@ depends = "['qt5-declarative>=5.15.12']"
 +++
 The Qt5 toolkit, qtquick3d
 
-{{< files text="show files" >}}* /usr/bin/balsam
+## Files: 
+* /usr/bin/balsam
 * /usr/bin/balsam-qt5
 * /usr/bin/meshdebug
 * /usr/bin/meshdebug-qt5
@@ -537,4 +538,3 @@ The Qt5 toolkit, qtquick3d
 * /usr/share/qt5/qml/QtQuick3D/Materials/SteelMilledConcentricMaterial.qml
 * /usr/share/qt5/qml/QtQuick3D/plugins.qmltypes
 * /usr/share/qt5/qml/QtQuick3D/qmldir
-{{< /files >}}

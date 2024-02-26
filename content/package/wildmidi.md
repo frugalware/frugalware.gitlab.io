@@ -16,7 +16,8 @@ reverse_depends = "['mpd']"
 +++
 A midi processing library and a midi player using the gus patch set.
 
-{{< files text="show files" >}}* /usr/bin/wildmidi
+## Files: 
+* /usr/bin/wildmidi
 * /usr/include/wildmidi_lib.h
 * /usr/lib/cmake/WildMidi/WildMidiConfig.cmake
 * /usr/lib/cmake/WildMidi/WildMidiConfigVersion.cmake
@@ -51,4 +52,3 @@ A midi processing library and a midi player using the gus patch set.
 * /usr/share/man/man3/WildMidi_Shutdown.3.gz
 * /usr/share/man/man3/WildMidi_SongSeek.3.gz
 * /usr/share/man/man5/wildmidi.cfg.5.gz
-{{< /files >}}

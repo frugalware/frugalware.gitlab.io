@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Static files for popt
 
-{{< files text="show files" >}}* /usr/lib/libpopt.a
-{{< /files >}}
+## Files: 
+* /usr/lib/libpopt.a

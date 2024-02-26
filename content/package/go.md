@@ -16,7 +16,8 @@ reverse_depends = "['audit-go']"
 +++
 Compiler and tools for the Go programming language from Google
 
-{{< files text="show files" >}}* /etc/profile.d/go.sh
+## Files: 
+* /etc/profile.d/go.sh
 * /usr/bin/go
 * /usr/bin/gofmt
 * /usr/lib/go/bin
@@ -9578,4 +9579,3 @@ Compiler and tools for the Go programming language from Google
 * /usr/share/go/misc/wasm/wasm_exec.html
 * /usr/share/go/misc/wasm/wasm_exec.js
 * /usr/share/go/misc/wasm/wasm_exec_node.js
-{{< /files >}}

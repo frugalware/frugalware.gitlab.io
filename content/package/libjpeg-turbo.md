@@ -16,7 +16,8 @@ reverse_depends = "['argyllcms', 'blender', 'chromium-browser', 'clightd', 'dark
 +++
 JPEG image codec that uses SIMD instructions
 
-{{< files text="show files" >}}* /usr/bin/cjpeg
+## Files: 
+* /usr/bin/cjpeg
 * /usr/bin/djpeg
 * /usr/bin/jpegtran
 * /usr/bin/rdjpgcom
@@ -57,4 +58,3 @@ JPEG image codec that uses SIMD instructions
 * /usr/share/man/man1/jpegtran.1.gz
 * /usr/share/man/man1/rdjpgcom.1.gz
 * /usr/share/man/man1/wrjpgcom.1.gz
-{{< /files >}}

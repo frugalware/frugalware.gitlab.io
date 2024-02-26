@@ -16,7 +16,8 @@ reverse_depends = "['picard']"
 +++
 A Library for creating MusicBrainz DiscIDs
 
-{{< files text="show files" >}}* /usr/include/discid/discid.h
+## Files: 
+* /usr/include/discid/discid.h
 * /usr/lib/libdiscid.so
 * /usr/lib/libdiscid.so.0
 * /usr/lib/libdiscid.so.0.6.4
@@ -26,4 +27,3 @@ A Library for creating MusicBrainz DiscIDs
 * /usr/share/doc/libdiscid-0.6.4/COPYING
 * /usr/share/doc/libdiscid-0.6.4/INSTALL
 * /usr/share/doc/libdiscid-0.6.4/README
-{{< /files >}}

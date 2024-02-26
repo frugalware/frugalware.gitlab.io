@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 CoffeeScript is a little language that compiles into JavaScript
 
-{{< files text="show files" >}}* /usr/bin/cake
+## Files: 
+* /usr/bin/cake
 * /usr/bin/coffee
 * /usr/lib/node_modules/coffeescript/.babelrc
 * /usr/lib/node_modules/coffeescript/.github/workflows/continuous-integration.yml
@@ -524,4 +525,3 @@ CoffeeScript is a little language that compiles into JavaScript
 * /usr/lib/node_modules/root/tests/test-urls.js
 * /usr/share/doc/coffee-script-2.7.0/LICENSE
 * /usr/share/doc/coffee-script-2.7.0/README.md
-{{< /files >}}

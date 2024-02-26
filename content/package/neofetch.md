@@ -15,7 +15,7 @@ depends = "['bash']"
 +++
 A command-line system information tool.
 
-{{< files text="show files" >}}* /usr/bin/neofetch
+## Files: 
+* /usr/bin/neofetch
 * /usr/share/doc/neofetch-7.0.0/README.md
 * /usr/share/man/man1/neofetch.1.gz
-{{< /files >}}

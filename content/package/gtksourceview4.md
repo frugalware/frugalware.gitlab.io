@@ -16,7 +16,8 @@ reverse_depends = "['gtksourceview4-doc', 'inkscape', 'input-remapper', 'xpad']"
 +++
 A text widget adding syntax highlighting and more to GNOME
 
-{{< files text="show files" >}}* /usr/include/gtksourceview-4/gtksourceview/completion-providers/words/gtksourcecompletionwords.h
+## Files: 
+* /usr/include/gtksourceview-4/gtksourceview/completion-providers/words/gtksourcecompletionwords.h
 * /usr/include/gtksourceview-4/gtksourceview/gtksource-enumtypes.h
 * /usr/include/gtksourceview-4/gtksourceview/gtksource.h
 * /usr/include/gtksourceview-4/gtksourceview/gtksourceautocleanups.h
@@ -338,4 +339,3 @@ A text widget adding syntax highlighting and more to GNOME
 * /usr/share/locale/zh_TW/LC_MESSAGES/gtksourceview-4.mo
 * /usr/share/vala/vapi/gtksourceview-4.deps
 * /usr/share/vala/vapi/gtksourceview-4.vapi
-{{< /files >}}

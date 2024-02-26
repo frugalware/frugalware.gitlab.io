@@ -16,7 +16,8 @@ reverse_depends = "['haskell-skylighting']"
 +++
 LaTeX formatter for skylighting syntax highlighting library
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/skylighting-format-latex-0.1/libHSskylighting-format-latex-0.1-EEKvs0L1dG37wYTZH3s4jr.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/skylighting-format-latex-0.1/libHSskylighting-format-latex-0.1-EEKvs0L1dG37wYTZH3s4jr.a
 * /usr/lib/ghc-9.8.1/site-local/skylighting-format-latex-0.1/Skylighting/Format/LaTeX.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/skylighting-format-latex-0.1/Skylighting/Format/LaTeX.hi
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSskylighting-format-latex-0.1-EEKvs0L1dG37wYTZH3s4jr-ghc9.8.1.so
@@ -34,4 +35,3 @@ LaTeX formatter for skylighting syntax highlighting library
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/skylighting-format-latex-0.1/LICENSE
 * /usr/share/haskell/haskell-skylighting-format-latex/register.sh
 * /usr/share/haskell/haskell-skylighting-format-latex/unregister.sh
-{{< /files >}}

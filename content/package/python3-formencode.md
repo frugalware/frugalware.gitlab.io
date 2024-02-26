@@ -16,7 +16,8 @@ reverse_depends = "['python3-sqlobject']"
 +++
 FormEncode is a validation and form generation package.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/FormEncode-2.1.0-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/FormEncode-2.1.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/FormEncode-2.1.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/FormEncode-2.1.0-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/FormEncode-2.1.0-py3.12.egg-info/SOURCES.txt
@@ -88,4 +89,3 @@ FormEncode is a validation and form generation package.
 * /usr/lib/python3.12/site-packages/formencode/__pycache__/variabledecode.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/formencode/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-formencode-2.1.0/README.rst
-{{< /files >}}

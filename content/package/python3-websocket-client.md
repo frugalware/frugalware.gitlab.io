@@ -15,7 +15,8 @@ depends = "['python3>=3.11']"
 +++
 WebSocket client for Python. hybi13 is supported.
 
-{{< files text="show files" >}}* /usr/bin/wsdump
+## Files: 
+* /usr/bin/wsdump
 * /usr/lib/python3.12/site-packages/websocket/py.typed
 * /usr/lib/python3.12/site-packages/websocket/tests/data/header01.txt
 * /usr/lib/python3.12/site-packages/websocket/tests/data/header02.txt
@@ -73,4 +74,3 @@ WebSocket client for Python. hybi13 is supported.
 * /usr/share/doc/python3-websocket-client-1.7.0/ChangeLog
 * /usr/share/doc/python3-websocket-client-1.7.0/LICENSE
 * /usr/share/doc/python3-websocket-client-1.7.0/README.md
-{{< /files >}}

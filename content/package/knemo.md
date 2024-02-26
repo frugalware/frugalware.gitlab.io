@@ -15,7 +15,8 @@ depends = "['kcmutils>=5.101.0', 'kdelibs4support>=5.101.0', 'knotifyconfig>=5.1
 +++
 KNemo is a KDE Network Monitor.
 
-{{< files text="show files" >}}* /usr/bin/knemo
+## Files: 
+* /usr/bin/knemo
 * /usr/lib/qt5/plugins/kcm_knemo.so
 * /usr/share/applications/knemo.desktop
 * /usr/share/doc/knemo-19.12.2/AUTHORS
@@ -86,4 +87,3 @@ KNemo is a KDE Network Monitor.
 * /usr/share/plasma/desktoptheme/air/icons/knemo.svgz
 * /usr/share/plasma/desktoptheme/default/icons/knemo.svgz
 * /usr/share/plasma/desktoptheme/oxygen/icons/knemo.svgz
-{{< /files >}}

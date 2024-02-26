@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org xbiff application
 
-{{< files text="show files" >}}* /usr/bin/xbiff
+## Files: 
+* /usr/bin/xbiff
 * /usr/share/doc/xbiff-1.0.5/ChangeLog
 * /usr/share/doc/xbiff-1.0.5/COPYING
 * /usr/share/doc/xbiff-1.0.5/INSTALL
 * /usr/share/doc/xbiff-1.0.5/README.md
 * /usr/share/man/man1/xbiff.1.gz
-{{< /files >}}

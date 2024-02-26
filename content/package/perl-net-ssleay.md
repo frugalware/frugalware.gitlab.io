@@ -16,7 +16,8 @@ reverse_depends = "['perl-io-socket-ssl', 'spamassassin']"
 +++
 Perl extension for using OpenSSL
 
-{{< files text="show files" >}}* /usr/lib/perl5/5.38/site_perl/auto/Net/SSLeay/autosplit.ix
+## Files: 
+* /usr/lib/perl5/5.38/site_perl/auto/Net/SSLeay/autosplit.ix
 * /usr/lib/perl5/5.38/site_perl/auto/Net/SSLeay/debug_read.al
 * /usr/lib/perl5/5.38/site_perl/auto/Net/SSLeay/do_https.al
 * /usr/lib/perl5/5.38/site_perl/auto/Net/SSLeay/do_https2.al
@@ -104,4 +105,3 @@ Perl extension for using OpenSSL
 * /usr/share/doc/perl-net-ssleay-1.94/README.Win32
 * /usr/share/man/man3/Net::SSLeay.3perl.gz
 * /usr/share/man/man3/Net::SSLeay::Handle.3perl.gz
-{{< /files >}}

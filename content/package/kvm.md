@@ -15,7 +15,8 @@ depends = "['bluez>=4.61', 'curl', 'cyrus-sasl', 'gnutls', 'libgcrypt', 'libx11'
 +++
 KVM is a kernel based virtual machine
 
-{{< files text="show files" >}}* etc/udev/rules.d/49-kvm.rules
+## Files: 
+* etc/udev/rules.d/49-kvm.rules
 * usr/bin/qemu-img-kvm
 * usr/bin/qemu-io-kvm
 * usr/bin/qemu-kvm
@@ -78,4 +79,3 @@ KVM is a kernel based virtual machine
 * usr/share/qemu-kvm/vgabios-cirrus.bin
 * usr/share/qemu-kvm/vgabios.bin
 * usr/share/qemu-kvm/video.x
-{{< /files >}}

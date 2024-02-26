@@ -15,5 +15,5 @@ depends = "['a52dec>=0.7.4-6', 'gst1-plugins-base>=1.22.10', 'gst1-plugins-ugly>
 +++
 GStreamer a52dec plugin (Ugly).
 
-{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgsta52dec.so
-{{< /files >}}
+## Files: 
+* /usr/lib/gstreamer-1.0/libgsta52dec.so

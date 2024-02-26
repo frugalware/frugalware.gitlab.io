@@ -16,7 +16,8 @@ reverse_depends = "['haskell-comonad']"
 +++
 Distributive functors -- Dual to Traversable
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/distributive-0.6.2.1/Data/Distributive.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/distributive-0.6.2.1/Data/Distributive.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/distributive-0.6.2.1/Data/Distributive.hi
 * /usr/lib/ghc-9.8.1/site-local/distributive-0.6.2.1/Data/Distributive/Generic.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/distributive-0.6.2.1/Data/Distributive/Generic.hi
@@ -37,4 +38,3 @@ Distributive functors -- Dual to Traversable
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/distributive-0.6.2.1/LICENSE
 * /usr/share/haskell/haskell-distributive/register.sh
 * /usr/share/haskell/haskell-distributive/unregister.sh
-{{< /files >}}

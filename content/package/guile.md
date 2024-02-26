@@ -16,7 +16,8 @@ reverse_depends = "['autogen', 'graphviz', 'weechat']"
 +++
 Guile is a portable, embeddable Scheme implementation written in C
 
-{{< files text="show files" >}}* /usr/bin/guild
+## Files: 
+* /usr/bin/guild
 * /usr/bin/guile
 * /usr/bin/guile-config
 * /usr/bin/guile-snarf
@@ -863,4 +864,3 @@ Guile is a portable, embeddable Scheme implementation written in C
 * /usr/share/info/guile.info.gz
 * /usr/share/info/r5rs.info.gz
 * /usr/share/man/man1/guile.1.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['python3']"
 +++
 A cd command that learns
 
-{{< files text="show files" >}}* /etc/profile.d/autojump.bash
+## Files: 
+* /etc/profile.d/autojump.bash
 * /etc/profile.d/autojump.fish
 * /etc/profile.d/autojump.sh
 * /etc/profile.d/autojump.zsh
@@ -30,4 +31,3 @@ A cd command that learns
 * /usr/share/doc/autojump-22.5.3/README.md
 * /usr/share/man/man1/autojump.1.gz
 * /usr/share/zsh/site-functions/_j
-{{< /files >}}

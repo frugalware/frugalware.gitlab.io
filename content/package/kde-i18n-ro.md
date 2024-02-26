@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Romanian Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/ktuberling/sounds/ro/ceas.wav
+## Files: 
+* usr/share/apps/ktuberling/sounds/ro/ceas.wav
 * usr/share/apps/ktuberling/sounds/ro/cercel.wav
 * usr/share/apps/ktuberling/sounds/ro/colier.wav
 * usr/share/apps/ktuberling/sounds/ro/corn.wav
@@ -714,4 +715,3 @@ Romanian Localization for KDE.
 * usr/share/locale/ro/LC_MESSAGES/wakeup.mo
 * usr/share/locale/ro/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/ro/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

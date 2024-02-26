@@ -15,7 +15,8 @@ depends = "['zlib']"
 +++
 A suite of tools compiling mdoc from the OpenBSD project
 
-{{< files text="show files" >}}* /usr/bin/apropos
+## Files: 
+* /usr/bin/apropos
 * /usr/bin/catman
 * /usr/bin/demandoc
 * /usr/bin/makewhatis
@@ -48,4 +49,3 @@ A suite of tools compiling mdoc from the OpenBSD project
 * /usr/share/man/man8/catman.8.gz
 * /usr/share/man/man8/makewhatis.8.gz
 * /usr/share/man/man8/mandocd.8.gz
-{{< /files >}}

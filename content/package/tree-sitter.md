@@ -16,11 +16,11 @@ reverse_depends = "['neovim']"
 +++
 Rust bindings to the Tree-sitter parsing library
 
-{{< files text="show files" >}}* /usr/include/tree_sitter/api.h
+## Files: 
+* /usr/include/tree_sitter/api.h
 * /usr/lib/libtree-sitter.so
 * /usr/lib/libtree-sitter.so.0
 * /usr/lib/libtree-sitter.so.0.0
 * /usr/lib/pkgconfig/tree-sitter.pc
 * /usr/share/doc/tree-sitter-0.21.0/LICENSE
 * /usr/share/doc/tree-sitter-0.21.0/README.md
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libpq>=16.1', 'libxml2>=2.9.4-3', 'openssl>=3.0.7']"
 +++
 PostgreSQL extra tools
 
-{{< files text="show files" >}}* /usr/bin/oid2name
+## Files: 
+* /usr/bin/oid2name
 * /usr/bin/vacuumlo
 * /usr/include/postgresql/server/extension/cube/cubedata.h
 * /usr/include/postgresql/server/extension/hstore/hstore.h
@@ -300,4 +301,3 @@ PostgreSQL extra tools
 * /usr/share/pgsql/extension/xml2.control
 * /usr/share/pgsql/tsearch_data/unaccent.rules
 * /usr/share/pgsql/tsearch_data/xsyn_sample.rules
-{{< /files >}}

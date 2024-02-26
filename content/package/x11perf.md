@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org x11perf application
 
-{{< files text="show files" >}}* /usr/bin/x11perf
+## Files: 
+* /usr/bin/x11perf
 * /usr/bin/x11perfcomp
 * /usr/lib/X11/x11perfcomp/fillblnk
 * /usr/lib/X11/x11perfcomp/perfboth
@@ -29,4 +30,3 @@ X.Org x11perf application
 * /usr/share/man/man1/x11perf.1.gz
 * /usr/share/man/man1/x11perfcomp.1.gz
 * /usr/share/man/man1/Xmark.1.gz
-{{< /files >}}

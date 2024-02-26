@@ -15,7 +15,8 @@ depends = "['libx11', 'nlohmann-json', 'vulkan-icd-loader', 'wayland']"
 +++
 Vulkan overlay layer for monitoring FPS, temperatures, CPU/GPU load and more
 
-{{< files text="show files" >}}* /usr/bin/mangohud
+## Files: 
+* /usr/bin/mangohud
 * /usr/bin/mangoplot
 * /usr/lib/mangohud/libMangoHud.so
 * /usr/lib/mangohud/libMangoHud_dlsym.so
@@ -28,4 +29,3 @@ Vulkan overlay layer for monitoring FPS, temperatures, CPU/GPU load and more
 * /usr/share/man/man1/mangohud.1.gz
 * /usr/share/metainfo/io.github.flightlessmango.mangohud.metainfo.xml
 * /usr/share/vulkan/implicit_layer.d/MangoHud.x86_64.json
-{{< /files >}}

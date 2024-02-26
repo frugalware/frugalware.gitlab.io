@@ -15,7 +15,8 @@ depends = "['mplayer', 'qt5-base>=5.15.10', 'qt5-script>=5.15.10']"
 +++
 SMPlayer intends to be a complete front-end for MPlayer.
 
-{{< files text="show files" >}}* /usr/bin/simple_web_server
+## Files: 
+* /usr/bin/simple_web_server
 * /usr/bin/smplayer
 * /usr/share/applications/smplayer.desktop
 * /usr/share/applications/smplayer_enqueue.desktop
@@ -108,4 +109,3 @@ SMPlayer intends to be a complete front-end for MPlayer.
 * /usr/share/smplayer/translations/smplayer_vi_VN.qm
 * /usr/share/smplayer/translations/smplayer_zh_CN.qm
 * /usr/share/smplayer/translations/smplayer_zh_TW.qm
-{{< /files >}}

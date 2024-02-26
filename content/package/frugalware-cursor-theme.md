@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 Frugalware X11 cursor theme
 
-{{< files text="show files" >}}* /usr/share/icons/FwX11MouseThemeFading/cursors/00008160000006810000408080010102
+## Files: 
+* /usr/share/icons/FwX11MouseThemeFading/cursors/00008160000006810000408080010102
 * /usr/share/icons/FwX11MouseThemeFading/cursors/028006030e0e7ebffc7f7070c0600140
 * /usr/share/icons/FwX11MouseThemeFading/cursors/03b6e0fcb3499374a867c041f52298f0
 * /usr/share/icons/FwX11MouseThemeFading/cursors/0876e1c15ff2fc01f906f1c363074c0f
@@ -561,4 +562,3 @@ Frugalware X11 cursor theme
 * /usr/share/icons/FwX11MouseThemeSpinningFading24px/cursors/zoomIn
 * /usr/share/icons/FwX11MouseThemeSpinningFading24px/cursors/zoomOut
 * /usr/share/icons/FwX11MouseThemeSpinningFading24px/index.theme
-{{< /files >}}

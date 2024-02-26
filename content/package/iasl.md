@@ -17,7 +17,8 @@ license = "iASL"
 +++
 Intel ACPI Source Language (ASL) compiler
 
-{{< files text="show files" >}}* /usr/bin/acpibin
+## Files: 
+* /usr/bin/acpibin
 * /usr/bin/acpidump
 * /usr/bin/acpiexamples
 * /usr/bin/acpiexec
@@ -25,4 +26,3 @@ Intel ACPI Source Language (ASL) compiler
 * /usr/bin/acpisrc
 * /usr/bin/acpixtract
 * /usr/bin/iasl
-{{< /files >}}

@@ -16,11 +16,11 @@ reverse_depends = "['spice', 'spice-glib', 'webkit-gtk3']"
 +++
 GStreamer plugin for the libav* library (former FFmpeg)
 
-{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstlibav.so
+## Files: 
+* /usr/lib/gstreamer-1.0/libgstlibav.so
 * /usr/share/doc/gst-libav-1.22.10/AUTHORS
 * /usr/share/doc/gst-libav-1.22.10/ChangeLog
 * /usr/share/doc/gst-libav-1.22.10/COPYING
 * /usr/share/doc/gst-libav-1.22.10/NEWS
 * /usr/share/doc/gst-libav-1.22.10/README.md
 * /usr/share/doc/gst-libav-1.22.10/RELEASE
-{{< /files >}}

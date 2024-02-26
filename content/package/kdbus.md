@@ -15,7 +15,8 @@ depends = "['dbus>=0.93']"
 +++
 kdbus is a D-BUS service browser for KDE.
 
-{{< files text="show files" >}}* usr/bin/kdbus
+## Files: 
+* usr/bin/kdbus
 * usr/share/applications/kde/kdbus.desktop
 * usr/share/apps/kdbus/kdbusui.rc
 * usr/share/doc/HTML/en/kdbus/common
@@ -34,4 +35,3 @@ kdbus is a D-BUS service browser for KDE.
 * usr/share/icons/hicolor/32x32/apps/kdbus.png
 * usr/share/icons/hicolor/48x48/apps/kdbus.png
 * usr/share/icons/hicolor/64x64/apps/kdbus.png
-{{< /files >}}

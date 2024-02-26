@@ -16,10 +16,10 @@ reverse_depends = "['libblockdev', 'ndctl']"
 +++
 Library for managing the libnvdimm subsystem devices.
 
-{{< files text="show files" >}}* /usr/include/ndctl/libndctl.h
+## Files: 
+* /usr/include/ndctl/libndctl.h
 * /usr/include/ndctl/ndctl.h
 * /usr/lib/libndctl.so
 * /usr/lib/libndctl.so.6
 * /usr/lib/libndctl.so.6.2.21
 * /usr/lib/pkgconfig/libndctl.pc
-{{< /files >}}

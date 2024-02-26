@@ -16,7 +16,8 @@ reverse_depends = "['perl-mail-dkim']"
 +++
 RSA encoding and decoding, using the openSSL libraries
 
-{{< files text="show files" >}}* /usr/lib/perl5/5.38/site_perl/auto/Crypt/OpenSSL/RSA/autosplit.ix
+## Files: 
+* /usr/lib/perl5/5.38/site_perl/auto/Crypt/OpenSSL/RSA/autosplit.ix
 * /usr/lib/perl5/5.38/site_perl/auto/Crypt/OpenSSL/RSA/get_key_parameters.al
 * /usr/lib/perl5/5.38/site_perl/auto/Crypt/OpenSSL/RSA/import_random_seed.al
 * /usr/lib/perl5/5.38/site_perl/auto/Crypt/OpenSSL/RSA/new_key_from_parameters.al
@@ -28,4 +29,3 @@ RSA encoding and decoding, using the openSSL libraries
 * /usr/share/doc/perl-crypt-openssl-rsa-0.33/README
 * /usr/share/doc/perl-crypt-openssl-rsa-0.33/README.md
 * /usr/share/man/man3/Crypt::OpenSSL::RSA.3perl.gz
-{{< /files >}}

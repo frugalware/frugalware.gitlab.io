@@ -16,7 +16,8 @@ reverse_depends = "['dlib', 'efl', 'efl', 'emacs', 'fontforge', 'imlib2', 'khtml
 +++
 GIF loading and saving shared library
 
-{{< files text="show files" >}}* /usr/bin/gif2rgb
+## Files: 
+* /usr/bin/gif2rgb
 * /usr/bin/gifbuild
 * /usr/bin/gifclrmp
 * /usr/bin/giffix
@@ -38,4 +39,3 @@ GIF loading and saving shared library
 * /usr/share/man/man1/giflib.xml.gz
 * /usr/share/man/man1/giftext.xml.gz
 * /usr/share/man/man1/giftool.xml.gz
-{{< /files >}}

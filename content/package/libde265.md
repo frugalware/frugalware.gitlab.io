@@ -16,7 +16,8 @@ reverse_depends = "['libheif', 'sherlock265']"
 +++
 Open h.265 video codec implementation
 
-{{< files text="show files" >}}* /usr/bin/acceleration_speed
+## Files: 
+* /usr/bin/acceleration_speed
 * /usr/bin/bjoentegaard
 * /usr/bin/block-rate-estim
 * /usr/bin/dec265
@@ -37,4 +38,3 @@ Open h.265 video codec implementation
 * /usr/share/doc/libde265-1.0.15/NEWS
 * /usr/share/doc/libde265-1.0.15/README
 * /usr/share/doc/libde265-1.0.15/README.md
-{{< /files >}}

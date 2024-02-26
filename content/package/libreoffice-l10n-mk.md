@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Macedonian support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/mk/default.css
+## Files: 
+* /usr/lib/libreoffice/help/mk/default.css
 * /usr/lib/libreoffice/help/mk/err.html
 * /usr/lib/libreoffice/help/mk/highcontrast1.css
 * /usr/lib/libreoffice/help/mk/highcontrast2.css
@@ -133,4 +134,3 @@ Installs Macedonian support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-mk.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_mk.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_mk.xcd
-{{< /files >}}

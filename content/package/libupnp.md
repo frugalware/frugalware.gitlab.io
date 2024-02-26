@@ -16,7 +16,8 @@ reverse_depends = "['mpd', 'openclonk', 'vlc-upnp']"
 +++
 An Portable Open Source UPnP Development Kit
 
-{{< files text="show files" >}}* /usr/include/upnp/Callback.h
+## Files: 
+* /usr/include/upnp/Callback.h
 * /usr/include/upnp/ithread.h
 * /usr/include/upnp/ixml.h
 * /usr/include/upnp/ixmldebug.h
@@ -53,4 +54,3 @@ An Portable Open Source UPnP Development Kit
 * /usr/share/doc/libupnp-1.14.18/COPYING
 * /usr/share/doc/libupnp-1.14.18/README.md
 * /usr/share/doc/libupnp-1.14.18/THANKS
-{{< /files >}}

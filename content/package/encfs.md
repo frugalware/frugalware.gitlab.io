@@ -16,7 +16,8 @@ reverse_depends = "['plasma-vault']"
 +++
 EncFS provides an encrypted filesystem in user-space.
 
-{{< files text="show files" >}}* /usr/bin/encfs
+## Files: 
+* /usr/bin/encfs
 * /usr/bin/encfsctl
 * /usr/bin/encfssh
 * /usr/share/doc/encfs-1.9.5/AUTHORS
@@ -80,4 +81,3 @@ EncFS provides an encrypted filesystem in user-space.
 * /usr/share/man/man1/encfs.1.gz
 * /usr/share/man/man1/encfsctl.1.gz
 * /usr/share/man/man1/encfssh.1.gz
-{{< /files >}}

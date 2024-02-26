@@ -16,7 +16,8 @@ reverse_depends = "['geany-plugins', 'sylpheed']"
 +++
 GtkSpell provides word-processor-style highlighting and replacement of misspelled words in a GtkTextView widget.
 
-{{< files text="show files" >}}* /usr/include/gtkspell-2.0/gtkspell/gtkspell.h
+## Files: 
+* /usr/include/gtkspell-2.0/gtkspell/gtkspell.h
 * /usr/lib/libgtkspell.so
 * /usr/lib/libgtkspell.so.0
 * /usr/lib/libgtkspell.so.0.0.0
@@ -85,4 +86,3 @@ GtkSpell provides word-processor-style highlighting and replacement of misspelle
 * /usr/share/locale/zh_CN/LC_MESSAGES/gtkspell.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/gtkspell.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/gtkspell.mo
-{{< /files >}}

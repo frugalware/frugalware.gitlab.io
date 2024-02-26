@@ -16,7 +16,8 @@ license = "GPL"
 +++
 FreeTDS is a set of libraries for Unix and Linux that allows your programs to natively talk to Microsoft SQL Server and Sybase databases.
 
-{{< files text="show files" >}}* /etc/freetds.conf
+## Files: 
+* /etc/freetds.conf
 * /etc/locales.conf
 * /etc/pool.conf
 * /usr/bin/bsqldb
@@ -1276,4 +1277,3 @@ FreeTDS is a set of libraries for Unix and Linux that allows your programs to na
 * /usr/share/man/man1/osql.1.gz
 * /usr/share/man/man1/tsql.1.gz
 * /usr/share/man/man5/freetds.conf.5.gz
-{{< /files >}}

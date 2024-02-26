@@ -15,10 +15,10 @@ depends = "[]"
 +++
 Two panels file manager with FTP support.
 
-{{< files text="show files" >}}* usr/bin/bsc
+## Files: 
+* usr/bin/bsc
 * usr/share/applications/bscommander.desktop
 * usr/share/bsc/BeesoftCommander.png
 * usr/share/bsc/lang/bsc_de.qm
 * usr/share/bsc/lang/bsc_pl.qm
 * usr/share/bsc/lang/bsc_ru.qm
-{{< /files >}}

@@ -15,4 +15,4 @@ depends = "['libxml2', 'perl', 'xz']"
 +++
 Foomatic - database extension consisting of manufacturer-supplied PPD files released under non-free licenses.
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

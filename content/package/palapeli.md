@@ -15,7 +15,8 @@ depends = "['kdelibs4support>=5.115.0', 'libkdegames>=23.08.5']"
 +++
 Palapeli is a single-player jigsaw puzzle game.
 
-{{< files text="show files" >}}* /etc/xdg/palapeli-collectionrc
+## Files: 
+* /etc/xdg/palapeli-collectionrc
 * /usr/bin/palapeli
 * /usr/include/Pala/pala/libpala_export.h
 * /usr/include/Pala/Pala/Slicer
@@ -164,4 +165,3 @@ Palapeli is a single-player jigsaw puzzle game.
 * /usr/share/palapeli/collection/panther-chameleon-female.jpg
 * /usr/share/palapeli/palapeli.kcfg
 * /usr/share/qlogging-categories5/palapeli.categories
-{{< /files >}}

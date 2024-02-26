@@ -15,7 +15,8 @@ depends = "['shared-mime-info']"
 +++
 Graphical frontend to pacman
 
-{{< files text="show files" >}}* usr/bin/frugalpkg
+## Files: 
+* usr/bin/frugalpkg
 * usr/share/applications/frugalpkg.desktop
 * usr/share/applications/kde/frugalpkg.desktop
 * usr/share/doc/frugalpkg-1.1/ChangeLog
@@ -45,4 +46,3 @@ Graphical frontend to pacman
 * usr/share/locale/hu_HU/LC_MESSAGES/frugalpkg.mo
 * usr/share/mime/packages/frugalpkg.xml
 * usr/share/mimelnk/applications/x-fpm.desktop
-{{< /files >}}

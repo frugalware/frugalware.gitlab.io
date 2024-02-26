@@ -16,9 +16,9 @@ reverse_depends = "['perl-http-message']"
 +++
 Open an HTML file with automatic charset detection.
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/IO/HTML.pm
+## Files: 
+* /usr/lib/perl5/site_perl/current/IO/HTML.pm
 * /usr/share/doc/perl-io-html-1.004/LICENSE
 * /usr/share/doc/perl-io-html-1.004/MANIFEST
 * /usr/share/doc/perl-io-html-1.004/README
 * /usr/share/man/man3/IO::HTML.3perl.gz
-{{< /files >}}

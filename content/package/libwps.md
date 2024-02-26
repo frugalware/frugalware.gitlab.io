@@ -16,7 +16,8 @@ reverse_depends = "['libreoffice']"
 +++
 A Microsoft Works file format import filter.
 
-{{< files text="show files" >}}* /usr/bin/wks2csv
+## Files: 
+* /usr/bin/wks2csv
 * /usr/bin/wks2raw
 * /usr/bin/wks2text
 * /usr/bin/wps2html
@@ -36,4 +37,3 @@ A Microsoft Works file format import filter.
 * /usr/share/doc/libwps-0.4.14/INSTALL
 * /usr/share/doc/libwps-0.4.14/NEWS
 * /usr/share/doc/libwps-0.4.14/README
-{{< /files >}}

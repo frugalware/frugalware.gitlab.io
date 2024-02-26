@@ -15,7 +15,8 @@ depends = "['libglu', 'libjpeg-turbo', 'libpng', 'libtiff', 'libxcursor', 'libxf
 +++
 FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and effectively.
 
-{{< files text="show files" >}}* /usr/bin/adie
+## Files: 
+* /usr/bin/adie
 * /usr/bin/Adie.stx
 * /usr/bin/calculator
 * /usr/bin/ControlPanel
@@ -552,4 +553,3 @@ FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and e
 * /usr/share/man/man1/PathFinder.1.gz
 * /usr/share/man/man1/reswrap.1.gz
 * /usr/share/man/man1/shutterbug.1.gz
-{{< /files >}}

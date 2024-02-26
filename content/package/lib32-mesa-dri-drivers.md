@@ -16,7 +16,8 @@ reverse_depends = "['lib32-libgl', 'lib32-xorg-server']"
 +++
 Mesa OpenGL DRI drivers. (32-Bit)
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/GL/internal/dri_interface.h
+## Files: 
+* /usr/i686-frugalware-linux/include/GL/internal/dri_interface.h
 * /usr/lib32/dri/crocus_dri.so
 * /usr/lib32/dri/iris_dri.so
 * /usr/lib32/dri/kms_swrast_dri.so
@@ -30,4 +31,3 @@ Mesa OpenGL DRI drivers. (32-Bit)
 * /usr/lib32/dri/vmwgfx_dri.so
 * /usr/lib32/dri/zink_dri.so
 * /usr/lib32/pkgconfig/dri.pc
-{{< /files >}}

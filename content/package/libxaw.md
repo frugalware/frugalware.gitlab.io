@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.Org Xaw library
 
-{{< files text="show files" >}}* /usr/include/X11/Xaw/AllWidgets.h
+## Files: 
+* /usr/include/X11/Xaw/AllWidgets.h
 * /usr/include/X11/Xaw/AsciiSink.h
 * /usr/include/X11/Xaw/AsciiSinkP.h
 * /usr/include/X11/Xaw/AsciiSrc.h
@@ -150,4 +151,3 @@ X.Org Xaw library
 * /usr/share/doc/libxaw-1.0.15/Tree.xml
 * /usr/share/doc/libxaw-1.0.15/Viewport.xml
 * /usr/share/man/man3/Xaw.3.gz
-{{< /files >}}

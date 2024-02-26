@@ -15,7 +15,8 @@ depends = "['kdeclarative>=5.115.0', 'kirigami2>=5.115.0', 'kitemmodels>=5.115.0
 +++
 An interface for monitoring system sensors, process information and other system resources
 
-{{< files text="show files" >}}* /usr/bin/plasma-systemmonitor
+## Files: 
+* /usr/bin/plasma-systemmonitor
 * /usr/share/applications/org.kde.plasma-systemmonitor.desktop
 * /usr/share/config.kcfg/systemmonitor.kcfg
 * /usr/share/doc/plasma-systemmonitor-5.27.10/README.md
@@ -192,4 +193,3 @@ An interface for monitoring system sensors, process information and other system
 * /usr/share/qt5/qml/org/kde/ksysguard/table/TextCellDelegate.qml
 * /usr/share/qt5/qml/org/kde/ksysguard/table/TreeDecoration.qml
 * /usr/share/qt5/qml/org/kde/ksysguard/table/UserCellDelegate.qml
-{{< /files >}}

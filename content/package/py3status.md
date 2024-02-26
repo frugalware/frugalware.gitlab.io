@@ -15,7 +15,8 @@ depends = "['glibc', 'i3', 'python3-setuptools']"
 +++
 py3status is an extensible i3status wrapper written in python
 
-{{< files text="show files" >}}* /usr/bin/py3-cmd
+## Files: 
+* /usr/bin/py3-cmd
 * /usr/bin/py3status
 * /usr/lib/python3.12/site-packages/py3status-3.53.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/py3status-3.53.dist-info/licenses/LICENSE
@@ -449,4 +450,3 @@ py3status is an extensible i3status wrapper written in python
 * /usr/share/doc/py3status-3.53/CHANGELOG
 * /usr/share/doc/py3status-3.53/LICENSE
 * /usr/share/doc/py3status-3.53/README.md
-{{< /files >}}

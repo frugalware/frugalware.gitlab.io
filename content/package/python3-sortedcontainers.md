@@ -16,7 +16,8 @@ reverse_depends = "['python3-trio']"
 +++
 Python Sorted Container Types: SortedList, SortedDict, and SortedSet
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sortedcontainers-2.4.0-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/sortedcontainers-2.4.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/sortedcontainers-2.4.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/sortedcontainers-2.4.0-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/sortedcontainers-2.4.0-py3.12.egg-info/top_level.txt
@@ -30,4 +31,3 @@ Python Sorted Container Types: SortedList, SortedDict, and SortedSet
 * /usr/lib/python3.12/site-packages/sortedcontainers/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-sortedcontainers-2.4.0/LICENSE
 * /usr/share/doc/python3-sortedcontainers-2.4.0/README.rst
-{{< /files >}}

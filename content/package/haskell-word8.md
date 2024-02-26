@@ -16,7 +16,8 @@ reverse_depends = "['haskell-warp']"
 +++
 Word8 library
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/word8-0.1.3/Data/Char8.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/word8-0.1.3/Data/Char8.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/word8-0.1.3/Data/Char8.hi
 * /usr/lib/ghc-9.8.1/site-local/word8-0.1.3/Data/Word8.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/word8-0.1.3/Data/Word8.hi
@@ -36,4 +37,3 @@ Word8 library
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/word8-0.1.3/LICENSE
 * /usr/share/haskell/haskell-word8/register.sh
 * /usr/share/haskell/haskell-word8/unregister.sh
-{{< /files >}}

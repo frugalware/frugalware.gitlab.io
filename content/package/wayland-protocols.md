@@ -16,7 +16,8 @@ reverse_depends = "['efl', 'gtk+4', 'kwayland-integration']"
 +++
 Wayland protocols that adds functionality not available in the core protocol.
 
-{{< files text="show files" >}}* /usr/lib/pkgconfig/wayland-protocols.pc
+## Files: 
+* /usr/lib/pkgconfig/wayland-protocols.pc
 * /usr/share/doc/wayland-protocols-1.32/COPYING
 * /usr/share/doc/wayland-protocols-1.32/README.md
 * /usr/share/wayland-protocols/stable/presentation-time/presentation-time.xml
@@ -56,4 +57,3 @@ Wayland protocols that adds functionality not available in the core protocol.
 * /usr/share/wayland-protocols/unstable/xdg-shell/xdg-shell-unstable-v5.xml
 * /usr/share/wayland-protocols/unstable/xdg-shell/xdg-shell-unstable-v6.xml
 * /usr/share/wayland-protocols/unstable/xwayland-keyboard-grab/xwayland-keyboard-grab-unstable-v1.xml
-{{< /files >}}

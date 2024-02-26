@@ -15,5 +15,5 @@ depends = "['gdk-pixbuf2>=2.36.11-3', 'gst1-plugins-base>=1.22.10', 'gst1-plugin
 +++
 GStreamer gdk-pixbuf2 plugin (Good).
 
-{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstgdkpixbuf.so
-{{< /files >}}
+## Files: 
+* /usr/lib/gstreamer-1.0/libgstgdkpixbuf.so

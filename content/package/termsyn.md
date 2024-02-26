@@ -15,7 +15,8 @@ depends = "['fontconfig', 'mkfontscale']"
 +++
 Monospaced font based on terminus and tamsyn with bold and versions with status icons
 
-{{< files text="show files" >}}* /usr/share/doc/termsyn-1.8.7/README.termsyn
+## Files: 
+* /usr/share/doc/termsyn-1.8.7/README.termsyn
 * /usr/share/fonts/X11/misc/termsyn6x11b.icons.pcf.gz
 * /usr/share/fonts/X11/misc/termsyn6x11b.pcf.gz
 * /usr/share/fonts/X11/misc/termsyn6x11b2.pcf.gz
@@ -48,4 +49,3 @@ Monospaced font based on terminus and tamsyn with bold and versions with status 
 * /usr/share/fonts/X11/misc/termsynu7x12r.pcf.gz
 * /usr/share/fonts/X11/misc/termsynu7x14b.pcf.gz
 * /usr/share/fonts/X11/misc/termsynu7x14r.pcf.gz
-{{< /files >}}

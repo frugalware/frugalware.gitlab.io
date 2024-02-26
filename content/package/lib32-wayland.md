@@ -16,7 +16,8 @@ reverse_depends = "['lib32-libegl', 'lib32-libgbm', 'lib32-libva', 'lib32-libva1
 +++
 Wayland is intended as a simpler replacement for Xorg. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/wayland-scanner
+## Files: 
+* /usr/i686-frugalware-linux/bin/wayland-scanner
 * /usr/i686-frugalware-linux/include/wayland-client-core.h
 * /usr/i686-frugalware-linux/include/wayland-client-protocol.h
 * /usr/i686-frugalware-linux/include/wayland-client.h
@@ -47,4 +48,3 @@ Wayland is intended as a simpler replacement for Xorg. ( 32bit )
 * /usr/lib32/pkgconfig/wayland-egl.pc
 * /usr/lib32/pkgconfig/wayland-scanner.pc
 * /usr/lib32/pkgconfig/wayland-server.pc
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "[]"
 +++
 GTK+2 Documentation.
 
-{{< files text="show files" >}}* /usr/share/gtk-doc/html/gdk2/annotation-glossary.html
+## Files: 
+* /usr/share/gtk-doc/html/gdk2/annotation-glossary.html
 * /usr/share/gtk-doc/html/gdk2/api-index-2-10.html
 * /usr/share/gtk-doc/html/gdk2/api-index-2-12.html
 * /usr/share/gtk-doc/html/gdk2/api-index-2-14.html
@@ -626,4 +627,3 @@ GTK+2 Documentation.
 * /usr/share/gtk-doc/html/gtk2/zoom-in.png
 * /usr/share/gtk-doc/html/gtk2/zoom-original.png
 * /usr/share/gtk-doc/html/gtk2/zoom-out.png
-{{< /files >}}

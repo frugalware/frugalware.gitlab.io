@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Static files for libarchive
 
-{{< files text="show files" >}}* /usr/lib/libarchive.a
-{{< /files >}}
+## Files: 
+* /usr/lib/libarchive.a

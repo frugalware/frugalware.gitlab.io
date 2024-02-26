@@ -15,5 +15,5 @@ depends = "['ruby>=3.3.0', 'uwsgi']"
 +++
 UWSGI Ruby Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/ruby19_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/uwsgi/ruby19_plugin.so

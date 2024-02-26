@@ -16,7 +16,8 @@ reverse_depends = "['gnunet', 'gtk2-sharp', 'xscreensaver']"
 +++
 Allows you to load glade interface files in a program at runtime
 
-{{< files text="show files" >}}* /usr/bin/glade
+## Files: 
+* /usr/bin/glade
 * /usr/bin/glade-previewer
 * /usr/include/libgladeui-2.0/gladeui/glade-adaptor-chooser.h
 * /usr/include/libgladeui-2.0/gladeui/glade-app.h
@@ -543,4 +544,3 @@ Allows you to load glade interface files in a program at runtime
 * /usr/share/man/man1/glade-previewer.1.gz
 * /usr/share/man/man1/glade.1.gz
 * /usr/share/metainfo/org.gnome.Glade.appdata.xml
-{{< /files >}}

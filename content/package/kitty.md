@@ -15,7 +15,8 @@ depends = "['dbus', 'fontconfig', 'freetype2', 'harfbuzz', 'hicolor-icon-theme',
 +++
 A modern, hackable, featureful, OpenGL-based terminal emulator
 
-{{< files text="show files" >}}* /usr/bin/kitten
+## Files: 
+* /usr/bin/kitten
 * /usr/bin/kitty
 * /usr/lib/kitty/kittens/ask/main.py
 * /usr/lib/kitty/kittens/ask/__init__.py
@@ -974,4 +975,3 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/share/pixmaps/kitty.png
 * /usr/share/terminfo/x/xterm-kitty
 * /usr/share/zsh/site-functions/_kitty
-{{< /files >}}

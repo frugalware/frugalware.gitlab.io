@@ -15,5 +15,5 @@ depends = "['freetype2>=2.9']"
 +++
 grub2 mkfont utility
 
-{{< files text="show files" >}}* /usr/bin/grub-mkfont
-{{< /files >}}
+## Files: 
+* /usr/bin/grub-mkfont

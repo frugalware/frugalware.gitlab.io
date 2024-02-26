@@ -16,7 +16,8 @@ reverse_depends = "['qt-virt-manager', 'spice-gtk']"
 +++
 glib objects for spice protocol decoding and surface rendering
 
-{{< files text="show files" >}}* /usr/include/spice-client-glib-2.0/channel-cursor.h
+## Files: 
+* /usr/include/spice-client-glib-2.0/channel-cursor.h
 * /usr/include/spice-client-glib-2.0/channel-display.h
 * /usr/include/spice-client-glib-2.0/channel-inputs.h
 * /usr/include/spice-client-glib-2.0/channel-main.h
@@ -46,4 +47,3 @@ glib objects for spice protocol decoding and surface rendering
 * /usr/lib/pkgconfig/spice-client-glib-2.0.pc
 * /usr/share/vala/vapi/spice-client-glib-2.0.deps
 * /usr/share/vala/vapi/spice-client-glib-2.0.vapi
-{{< /files >}}

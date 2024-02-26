@@ -16,7 +16,8 @@ reverse_depends = "['perl-http-daemon', 'perl-http-negotiate']"
 +++
 HTTP style message (base class).
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/HTTP/Config.pm
+## Files: 
+* /usr/lib/perl5/site_perl/HTTP/Config.pm
 * /usr/lib/perl5/site_perl/HTTP/Headers.pm
 * /usr/lib/perl5/site_perl/HTTP/Headers/Auth.pm
 * /usr/lib/perl5/site_perl/HTTP/Headers/ETag.pm
@@ -41,4 +42,3 @@ HTTP style message (base class).
 * /usr/share/man/man3/HTTP::Request::Common.3perl.gz
 * /usr/share/man/man3/HTTP::Response.3perl.gz
 * /usr/share/man/man3/HTTP::Status.3perl.gz
-{{< /files >}}

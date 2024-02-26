@@ -16,7 +16,8 @@ reverse_depends = "['fail2ban']"
 +++
 An administration tool for IP sets.
 
-{{< files text="show files" >}}* /etc/bash_completion.d/ipset
+## Files: 
+* /etc/bash_completion.d/ipset
 * /usr/bin/ipset
 * /usr/bin/ipset-translate
 * /usr/include/libipset/args.h
@@ -65,4 +66,3 @@ An administration tool for IP sets.
 * /usr/share/man/man3/libipset.3.gz
 * /usr/share/man/man8/ipset-translate.8.gz
 * /usr/share/man/man8/ipset.8.gz
-{{< /files >}}

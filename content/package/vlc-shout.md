@@ -15,5 +15,5 @@ depends = "['libshout', 'libvlc>=3.0.20', 'openssl>=1.1.1']"
 +++
 vlc plugin for Shout/Icecast
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/access_output/libaccess_output_shout_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/access_output/libaccess_output_shout_plugin.so

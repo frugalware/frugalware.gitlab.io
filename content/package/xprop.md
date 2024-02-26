@@ -17,10 +17,10 @@ license = "GPL2"
 +++
 X.Org xprop application
 
-{{< files text="show files" >}}* /usr/bin/xprop
+## Files: 
+* /usr/bin/xprop
 * /usr/share/doc/xprop-1.2.7/ChangeLog
 * /usr/share/doc/xprop-1.2.7/COPYING
 * /usr/share/doc/xprop-1.2.7/INSTALL
 * /usr/share/doc/xprop-1.2.7/README.md
 * /usr/share/man/man1/xprop.1.gz
-{{< /files >}}

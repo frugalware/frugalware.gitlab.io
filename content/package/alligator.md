@@ -15,7 +15,8 @@ depends = "['kconfig>=', 'kcoreaddons>=', 'ki18n>=', 'kirigami-addons', 'syndica
 +++
 Kirigami-based RSS reader
 
-{{< files text="show files" >}}* /usr/bin/alligator
+## Files: 
+* /usr/bin/alligator
 * /usr/share/applications/org.kde.alligator.desktop
 * /usr/share/doc/alligator-23.08.5/README.md
 * /usr/share/icons/hicolor/scalable/apps/alligator.svg
@@ -52,4 +53,3 @@ Kirigami-based RSS reader
 * /usr/share/locale/zh_CN/LC_MESSAGES/alligator.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/alligator.mo
 * /usr/share/metainfo/org.kde.alligator.appdata.xml
-{{< /files >}}

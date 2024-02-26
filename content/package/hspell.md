@@ -16,7 +16,8 @@ reverse_depends = "['enchant', 'sonnet-plugin-hspell']"
 +++
 Hebrew spell-checker.
 
-{{< files text="show files" >}}* /usr/bin/hspell
+## Files: 
+* /usr/bin/hspell
 * /usr/bin/hspell-i
 * /usr/bin/multispell
 * /usr/include/hspell.h
@@ -35,4 +36,3 @@ Hebrew spell-checker.
 * /usr/share/hspell/hebrew.wgz.stems
 * /usr/share/man/man1/hspell.1.gz
 * /usr/share/man/man3/hspell.3.gz
-{{< /files >}}

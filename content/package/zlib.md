@@ -16,7 +16,8 @@ reverse_depends = "['alicevision', 'assimp', 'botan', 'clucene', 'coin-or-coinut
 +++
 A compression/decompression library
 
-{{< files text="show files" >}}* /usr/include/minizip/crypt.h
+## Files: 
+* /usr/include/minizip/crypt.h
 * /usr/include/minizip/ioapi.h
 * /usr/include/minizip/mztools.h
 * /usr/include/minizip/unzip.h
@@ -36,4 +37,3 @@ A compression/decompression library
 * /usr/share/doc/zlib-1.3.1/LICENSE
 * /usr/share/doc/zlib-1.3.1/README
 * /usr/share/man/man3/zlib.3.gz
-{{< /files >}}

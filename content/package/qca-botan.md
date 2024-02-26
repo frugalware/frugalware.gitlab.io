@@ -15,5 +15,5 @@ depends = "['botan>=3.3.0', 'qca']"
 +++
 Plugins for qca with botan
 
-{{< files text="show files" >}}* /usr/lib/qca-qt5/crypto/libqca-botan.so
-{{< /files >}}
+## Files: 
+* /usr/lib/qca-qt5/crypto/libqca-botan.so

@@ -15,7 +15,8 @@ depends = "[]"
 +++
 GNU Libidn is an implementation of the Stringprep,Punycode and IDNA specification. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/idn
+## Files: 
+* /usr/i686-frugalware-linux/bin/idn
 * /usr/i686-frugalware-linux/include/idn-free.h
 * /usr/i686-frugalware-linux/include/idn-int.h
 * /usr/i686-frugalware-linux/include/idna.h
@@ -27,4 +28,3 @@ GNU Libidn is an implementation of the Stringprep,Punycode and IDNA specificatio
 * /usr/lib32/libidn.so.12
 * /usr/lib32/libidn.so.12.6.5
 * /usr/lib32/pkgconfig/libidn.pc
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['haskell-cassava', 'haskell-http-api-data', 'haskell-indexed
 +++
 Efficient hashing-based container types
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashMap/Internal.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashMap/Internal.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashMap/Internal.hi
 * /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashMap/Internal/Array.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashMap/Internal/Array.hi
@@ -54,4 +55,3 @@ Efficient hashing-based container types
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/unordered-containers-0.2.19.1/LICENSE
 * /usr/share/haskell/haskell-unordered-containers/register.sh
 * /usr/share/haskell/haskell-unordered-containers/unregister.sh
-{{< /files >}}

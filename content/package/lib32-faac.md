@@ -16,7 +16,7 @@ reverse_depends = "['lib32-ffmpeg']"
 +++
 FAAC is an AAC audio encoder. ( 32bit )
 
-{{< files text="show files" >}}* /usr/lib32/libfaac.so
+## Files: 
+* /usr/lib32/libfaac.so
 * /usr/lib32/libfaac.so.0
 * /usr/lib32/libfaac.so.0.0.0
-{{< /files >}}

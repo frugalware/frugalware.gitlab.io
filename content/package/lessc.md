@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 A standalone compiler for the LESS CSS language.
 
-{{< files text="show files" >}}* /usr/bin/lessc
+## Files: 
+* /usr/bin/lessc
 * /usr/lib/node_modules/less/.eslintignore
 * /usr/lib/node_modules/less/.eslintrc.js
 * /usr/lib/node_modules/less/bin/lessc
@@ -587,4 +588,3 @@ A standalone compiler for the LESS CSS language.
 * /usr/lib/node_modules/less/tsconfig.json
 * /usr/share/doc/lessc-4.2.0/LICENSE
 * /usr/share/doc/lessc-4.2.0/README.md
-{{< /files >}}

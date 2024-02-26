@@ -16,6 +16,6 @@ reverse_depends = "['commons-httpclient']"
 +++
 A regression testing framework.
 
-{{< files text="show files" >}}* /usr/share/doc/junit-4.13.2/README.md
+## Files: 
+* /usr/share/doc/junit-4.13.2/README.md
 * /usr/share/java/junit-4.13.2.jar
-{{< /files >}}

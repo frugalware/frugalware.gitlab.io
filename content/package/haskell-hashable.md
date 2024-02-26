@@ -16,7 +16,8 @@ reverse_depends = "['haskell-async', 'haskell-case-insensitive', 'haskell-constr
 +++
 A class for types that can be converted to a hash value
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hashable-1.4.3.0/Data/Hashable.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/hashable-1.4.3.0/Data/Hashable.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hashable-1.4.3.0/Data/Hashable.hi
 * /usr/lib/ghc-9.8.1/site-local/hashable-1.4.3.0/Data/Hashable/Class.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hashable-1.4.3.0/Data/Hashable/Class.hi
@@ -50,4 +51,3 @@ A class for types that can be converted to a hash value
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/hashable-1.4.3.0/LICENSE
 * /usr/share/haskell/haskell-hashable/register.sh
 * /usr/share/haskell/haskell-hashable/unregister.sh
-{{< /files >}}

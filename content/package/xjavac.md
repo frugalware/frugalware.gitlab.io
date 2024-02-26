@@ -15,5 +15,5 @@ depends = "['openjre']"
 +++
 The implementation of the javac compiler for JDK 1.4 and above.
 
-{{< files text="show files" >}}* /usr/share/java/xjavac.jar
-{{< /files >}}
+## Files: 
+* /usr/share/java/xjavac.jar

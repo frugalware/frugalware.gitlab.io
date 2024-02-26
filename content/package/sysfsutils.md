@@ -16,7 +16,8 @@ reverse_depends = "['rng-tools']"
 +++
 System utilities based on sysfs
 
-{{< files text="show files" >}}* /usr/bin/dlist_test
+## Files: 
+* /usr/bin/dlist_test
 * /usr/bin/get_device
 * /usr/bin/get_driver
 * /usr/bin/get_module
@@ -35,4 +36,3 @@ System utilities based on sysfs
 * /usr/share/doc/sysfsutils-2.1.0/README
 * /usr/share/doc/sysfsutils-2.1.0/TODO
 * /usr/share/man/man1/systool.1.gz
-{{< /files >}}

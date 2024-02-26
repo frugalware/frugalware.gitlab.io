@@ -16,7 +16,8 @@ reverse_depends = "['laptop-mode-tools']"
 +++
 Utilities for using ACPI power management
 
-{{< files text="show files" >}}* /etc/acpi/acpi_handler.sh
+## Files: 
+* /etc/acpi/acpi_handler.sh
 * /etc/acpi/events/default
 * /etc/sysconfig/acpid
 * /usr/bin/acpid
@@ -31,4 +32,3 @@ Utilities for using ACPI power management
 * /usr/share/man/man8/acpid.8.gz
 * /usr/share/man/man8/acpi_listen.8.gz
 * /usr/share/man/man8/kacpimon.8.gz
-{{< /files >}}

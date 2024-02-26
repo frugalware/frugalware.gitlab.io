@@ -15,10 +15,10 @@ depends = "['irssi', 'libotr>=4.0.0']"
 +++
 Off-The-Record messaging (OTR) for Irssi.
 
-{{< files text="show files" >}}* /usr/lib/irssi/modules/libotr.so
+## Files: 
+* /usr/lib/irssi/modules/libotr.so
 * /usr/share/doc/irssi-otr-1.0.2/ChangeLog
 * /usr/share/doc/irssi-otr-1.0.2/INSTALL
 * /usr/share/doc/irssi-otr-1.0.2/LICENSE
 * /usr/share/doc/irssi-otr-1.0.2/README.md
 * /usr/share/irssi/help/otr
-{{< /files >}}

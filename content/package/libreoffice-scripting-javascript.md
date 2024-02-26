@@ -15,4 +15,4 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs scripting javascript support in LibreOffice
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

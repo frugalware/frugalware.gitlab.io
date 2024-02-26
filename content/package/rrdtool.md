@@ -16,7 +16,8 @@ reverse_depends = "['munin']"
 +++
 a program to generate fancy graphs from network usage or from any thing is able to meter
 
-{{< files text="show files" >}}* /usr/bin/rrdcached
+## Files: 
+* /usr/bin/rrdcached
 * /usr/bin/rrdcgi
 * /usr/bin/rrdcreate
 * /usr/bin/rrdinfo
@@ -198,4 +199,3 @@ a program to generate fancy graphs from network usage or from any thing is able 
 * /usr/share/rrdtool/examples/shared-demo.pl
 * /usr/share/rrdtool/examples/stripes.pl
 * /usr/share/rrdtool/examples/stripes.py
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['virt-manager']"
 +++
 libosinfo is a GObject based library API for managing information about operating systems
 
-{{< files text="show files" >}}* /usr/bin/osinfo-detect
+## Files: 
+* /usr/bin/osinfo-detect
 * /usr/bin/osinfo-install-script
 * /usr/bin/osinfo-query
 * /usr/include/libosinfo-1.0/osinfo/osinfo.h
@@ -159,4 +160,3 @@ libosinfo is a GObject based library API for managing information about operatin
 * /usr/share/man/man1/osinfo-query.1.gz
 * /usr/share/vala/vapi/libosinfo-1.0.deps
 * /usr/share/vala/vapi/libosinfo-1.0.vapi
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['texlive>=2019.3']"
 +++
 Several command-line programs for manipulating PostScript Type 1 and PostScript-flavored OpenType fonts
 
-{{< files text="show files" >}}* /usr/bin/cfftot1
+## Files: 
+* /usr/bin/cfftot1
 * /usr/bin/mmafm
 * /usr/bin/mmpfb
 * /usr/bin/otfinfo
@@ -43,4 +44,3 @@ Several command-line programs for manipulating PostScript Type 1 and PostScript-
 * /usr/share/man/man1/t1reencode.1.gz
 * /usr/share/man/man1/t1testpage.1.gz
 * /usr/share/man/man1/ttftotype42.1.gz
-{{< /files >}}

@@ -15,9 +15,9 @@ depends = "['bash', 'bc', 'coreutils', 'findutils', 'grep', 'libpulse', 'sed', '
 +++
 PulseAudio server dynamic configuration daemon
 
-{{< files text="show files" >}}* /usr/bin/pulse-autoconf
+## Files: 
+* /usr/bin/pulse-autoconf
 * /usr/lib/systemd/user/pulse-autoconf.service
 * /usr/share/applications/pulse-autoconf.desktop
 * /usr/share/doc/pulse-autoconf-1.10.2/COPYING
 * /usr/share/doc/pulse-autoconf-1.10.2/README
-{{< /files >}}

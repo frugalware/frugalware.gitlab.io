@@ -15,7 +15,8 @@ depends = "['dejavu-ttf', 'freetype2', 'libglu', 'libpng', 'lua', 'pyyaml3', 'sd
 +++
 Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-player, role-playing roguelike game
 
-{{< files text="show files" >}}* /usr/bin/crawl-tiles
+## Files: 
+* /usr/bin/crawl-tiles
 * /usr/share/doc/crawl-tiles-0.27.1/INSTALL.md
 * /usr/share/doc/crawl-tiles-0.27.1/LICENSE
 * /usr/share/games/crawl-tiles/data/dat/clua/autofight.lua
@@ -672,4 +673,3 @@ Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-pla
 * /usr/share/games/crawl-tiles/data/settings/no_vi_command_keys.txt
 * /usr/share/games/crawl-tiles/data/settings/old_unicode_glyphs.txt
 * /usr/share/games/crawl-tiles/data/settings/safe_move_shift.txt
-{{< /files >}}

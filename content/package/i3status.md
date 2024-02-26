@@ -16,9 +16,9 @@ reverse_depends = "['i3']"
 +++
 Generates status bar to use with dzen2 or xmobar
 
-{{< files text="show files" >}}* /etc/i3status.conf
+## Files: 
+* /etc/i3status.conf
 * /usr/bin/i3status
 * /usr/share/doc/i3status-2.14/CHANGELOG
 * /usr/share/doc/i3status-2.14/LICENSE
 * /usr/share/doc/i3status-2.14/README.md
-{{< /files >}}

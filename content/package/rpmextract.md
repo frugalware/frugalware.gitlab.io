@@ -15,8 +15,8 @@ depends = "[]"
 +++
 Script to convert or extract RPM archives (contains rpm2cpio)
 
-{{< files text="show files" >}}* /usr/bin/rpm2cpio
+## Files: 
+* /usr/bin/rpm2cpio
 * /usr/bin/rpmextract
 * /usr/bin/rpmextract.sh
 * /usr/bin/rpmunpack
-{{< /files >}}

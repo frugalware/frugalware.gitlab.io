@@ -15,7 +15,7 @@ depends = "['bash', 'gawk', 'iputils']"
 +++
 A ping wrapper making the output prettier, more colorful, more compact, and easier to read.
 
-{{< files text="show files" >}}* /usr/bin/prettyping
+## Files: 
+* /usr/bin/prettyping
 * /usr/share/doc/prettyping-1.0.1/LICENSE
 * /usr/share/doc/prettyping-1.0.1/README.md
-{{< /files >}}

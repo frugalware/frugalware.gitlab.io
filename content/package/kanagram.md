@@ -15,7 +15,8 @@ depends = "['kdeclarative>=5.115.0', 'knewstuff>=5.115.0', 'libkeduvocdocument>=
 +++
 Letter Order Game.
 
-{{< files text="show files" >}}* /usr/bin/kanagram
+## Files: 
+* /usr/bin/kanagram
 * /usr/share/applications/org.kde.kanagram.desktop
 * /usr/share/config.kcfg/kanagram.kcfg
 * /usr/share/doc/HTML/ca/kanagram/general-settings.png
@@ -212,4 +213,3 @@ Letter Order Game.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kanagram.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kanagram.mo
 * /usr/share/metainfo/org.kde.kanagram.appdata.xml
-{{< /files >}}

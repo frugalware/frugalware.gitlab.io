@@ -15,7 +15,8 @@ depends = "['xfsprogs-acl>=2.2.52-5', 'zlib>=1.2.12']"
 +++
 A library for creating ISO filesystem, among other things.
 
-{{< files text="show files" >}}* /usr/include/libisofs/libisofs.h
+## Files: 
+* /usr/include/libisofs/libisofs.h
 * /usr/lib/libisofs.so
 * /usr/lib/libisofs.so.6
 * /usr/lib/libisofs.so.6.92.0
@@ -35,4 +36,3 @@ A library for creating ISO filesystem, among other things.
 * /usr/share/doc/libisofs-1.5.6/Tutorial
 * /usr/share/doc/libisofs-1.5.6/zisofs2_format.txt
 * /usr/share/doc/libisofs-1.5.6/zisofs_format.txt
-{{< /files >}}

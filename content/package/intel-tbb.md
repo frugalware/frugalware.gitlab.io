@@ -16,7 +16,8 @@ reverse_depends = "['easyeffects', 'embree', 'ispc', 'mold', 'opencascade', 'ope
 +++
 An award-winning C++ runtime library that abstracts the low-level threading details necessary for optimal multi-core performance.
 
-{{< files text="show files" >}}* /usr/include/oneapi/tbb.h
+## Files: 
+* /usr/include/oneapi/tbb.h
 * /usr/include/oneapi/tbb/blocked_range.h
 * /usr/include/oneapi/tbb/blocked_range2d.h
 * /usr/include/oneapi/tbb/blocked_range3d.h
@@ -199,4 +200,3 @@ An award-winning C++ runtime library that abstracts the low-level threading deta
 * /usr/share/doc/intel-tbb-2021.11.0/README.md
 * /usr/share/doc/intel-tbb-2021.11.0/RELEASE_NOTES.md
 * /usr/share/doc/TBB/README.md
-{{< /files >}}

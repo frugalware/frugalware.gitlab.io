@@ -15,5 +15,5 @@ depends = "['claws-mail=4.1.1']"
 +++
 This plugin enables the use of ACPI LEDs for Mail notifications.
 
-{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/acpi_notifier.so
-{{< /files >}}
+## Files: 
+* /usr/lib/claws-mail/plugins/acpi_notifier.so

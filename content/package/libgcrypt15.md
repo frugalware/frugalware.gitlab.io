@@ -15,7 +15,8 @@ depends = "['libgpg-error>=1.24-3']"
 +++
 Libgcrypt is a general purpose cryptographic library based on the code from GnuPG. (old version)
 
-{{< files text="show files" >}}* /usr/lib/libgcrypt.so.11
+## Files: 
+* /usr/lib/libgcrypt.so.11
 * /usr/lib/libgcrypt.so.11.8.5
 * /usr/share/doc/libgcrypt15-1.5.6/AUTHORS
 * /usr/share/doc/libgcrypt15-1.5.6/ChangeLog
@@ -28,4 +29,3 @@ Libgcrypt is a general purpose cryptographic library based on the code from GnuP
 * /usr/share/doc/libgcrypt15-1.5.6/THANKS
 * /usr/share/doc/libgcrypt15-1.5.6/TODO
 * /usr/share/doc/libgcrypt15-1.5.6/VERSION
-{{< /files >}}

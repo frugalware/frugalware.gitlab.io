@@ -16,11 +16,11 @@ reverse_depends = "['perl-module-build']"
 +++
 use modules bundled in inc/ if they are newer than installed ones
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/inc/latest.pm
+## Files: 
+* /usr/lib/perl5/site_perl/inc/latest.pm
 * /usr/lib/perl5/site_perl/inc/latest/private.pm
 * /usr/share/doc/perl-inc-latest-0.500/LICENSE
 * /usr/share/doc/perl-inc-latest-0.500/MANIFEST
 * /usr/share/doc/perl-inc-latest-0.500/README
 * /usr/share/man/man3/inc::latest.3perl.gz
 * /usr/share/man/man3/inc::latest::private.3perl.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['dracut-ykfde']"
 +++
 A free stand-alone ini file parsing library written in portable ANSI C
 
-{{< files text="show files" >}}* /usr/include/dictionary.h
+## Files: 
+* /usr/include/dictionary.h
 * /usr/include/iniparser.h
 * /usr/lib/libiniparser.a
 * /usr/lib/libiniparser.so.1
@@ -26,4 +27,3 @@ A free stand-alone ini file parsing library written in portable ANSI C
 * /usr/share/doc/iniparser-4.1/INSTALL
 * /usr/share/doc/iniparser-4.1/LICENSE
 * /usr/share/doc/iniparser-4.1/README.md
-{{< /files >}}

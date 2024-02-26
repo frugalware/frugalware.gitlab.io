@@ -15,7 +15,8 @@ depends = "['glib2>=2.60.3', 'gpgme>=1.6.0-3', 'zlib>=1.2.12']"
 +++
 Provides a core library and set of utilities for the creation and parsing of messages using MIME
 
-{{< files text="show files" >}}* /usr/include/gmime-2.6/gmime/gmime-certificate.h
+## Files: 
+* /usr/include/gmime-2.6/gmime/gmime-certificate.h
 * /usr/include/gmime-2.6/gmime/gmime-charset.h
 * /usr/include/gmime-2.6/gmime/gmime-content-type.h
 * /usr/include/gmime-2.6/gmime/gmime-crypto-context.h
@@ -164,4 +165,3 @@ Provides a core library and set of utilities for the creation and parsing of mes
 * /usr/share/gtk-doc/html/gmime-2.6/style.css
 * /usr/share/gtk-doc/html/gmime-2.6/up-insensitive.png
 * /usr/share/gtk-doc/html/gmime-2.6/up.png
-{{< /files >}}

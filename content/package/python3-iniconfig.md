@@ -16,7 +16,8 @@ reverse_depends = "['python3-pytest']"
 +++
 brain-dead simple config-ini parsing
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/iniconfig-2.0.0.dist-info/licenses/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/iniconfig-2.0.0.dist-info/licenses/LICENSE
 * /usr/lib/python3.12/site-packages/iniconfig-2.0.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/iniconfig-2.0.0.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/iniconfig-2.0.0.dist-info/WHEEL
@@ -35,4 +36,3 @@ brain-dead simple config-ini parsing
 * /usr/lib/python3.12/site-packages/iniconfig/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-iniconfig-2.0.0/LICENSE
 * /usr/share/doc/python3-iniconfig-2.0.0/README.rst
-{{< /files >}}

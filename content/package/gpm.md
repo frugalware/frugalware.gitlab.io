@@ -16,7 +16,8 @@ reverse_depends = "['aalib', 'fpc', 'gvim', 'joe']"
 +++
 General purpose mouse server
 
-{{< files text="show files" >}}* /etc/sysconfig/gpm
+## Files: 
+* /etc/sysconfig/gpm
 * /usr/bin/disable-paste
 * /usr/bin/display-buttons
 * /usr/bin/display-coords
@@ -42,4 +43,3 @@ General purpose mouse server
 * /usr/share/man/man1/mouse-test.1.gz
 * /usr/share/man/man7/gpm-types.7.gz
 * /usr/share/man/man8/gpm.8.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['karchive>=5.115.0', 'kconfig>=5.115.0', 'kcoreaddons>=5.115.0', 'kd
 +++
 Visualization of Performance Profiling Data.
 
-{{< files text="show files" >}}* /usr/bin/dprof2calltree
+## Files: 
+* /usr/bin/dprof2calltree
 * /usr/bin/hotshot2calltree
 * /usr/bin/kcachegrind
 * /usr/bin/memprof2calltree
@@ -173,4 +174,3 @@ Visualization of Performance Profiling Data.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcachegrind.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcachegrind_qt.qm
 * /usr/share/metainfo/org.kde.kcachegrind.appdata.xml
-{{< /files >}}

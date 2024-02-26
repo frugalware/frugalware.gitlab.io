@@ -15,7 +15,7 @@ depends = "[]"
 +++
 Frugalware Versatile Bootable Environment
 
-{{< files text="show files" >}}* /usr/share/doc/fvbe-0.7/LICENSE
+## Files: 
+* /usr/share/doc/fvbe-0.7/LICENSE
 * /usr/share/doc/fvbe-0.7/README
 * /usr/share/doc/fvbe-0.7/TODO
-{{< /files >}}

@@ -17,7 +17,8 @@ license = "LGPL"
 +++
 GEOS (Geometry Engine, Open Source) topology library
 
-{{< files text="show files" >}}* /usr/bin/geos-config
+## Files: 
+* /usr/bin/geos-config
 * /usr/bin/geosop
 * /usr/include/geos/algorithm/Angle.h
 * /usr/include/geos/algorithm/Area.h
@@ -497,4 +498,3 @@ GEOS (Geometry Engine, Open Source) topology library
 * /usr/share/doc/geos-3.10.2/INSTALL.md
 * /usr/share/doc/geos-3.10.2/NEWS
 * /usr/share/doc/geos-3.10.2/README.md
-{{< /files >}}

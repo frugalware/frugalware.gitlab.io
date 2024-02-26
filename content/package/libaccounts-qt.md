@@ -16,7 +16,8 @@ reverse_depends = "['accounts-qml-module', 'kaccounts-integration']"
 +++
 Qt-based client library for accessing the online accounts database.
 
-{{< files text="show files" >}}* /usr/bin/accountstest
+## Files: 
+* /usr/bin/accountstest
 * /usr/include/accounts-qt5/Accounts/Account
 * /usr/include/accounts-qt5/Accounts/account-service.h
 * /usr/include/accounts-qt5/Accounts/account.h
@@ -164,4 +165,3 @@ Qt-based client library for accessing the online accounts database.
 * /usr/share/doc/libaccounts-qt-1.16/INSTALL
 * /usr/share/doc/libaccounts-qt-1.16/README.md
 * /usr/share/doc/libaccounts-qt-1.16/TODO
-{{< /files >}}

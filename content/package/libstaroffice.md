@@ -16,7 +16,8 @@ reverse_depends = "['libreoffice']"
 +++
 A library for import of binary StarOffice documents
 
-{{< files text="show files" >}}* /usr/bin/sd2raw
+## Files: 
+* /usr/bin/sd2raw
 * /usr/bin/sd2svg
 * /usr/bin/sd2text
 * /usr/bin/sdc2csv
@@ -35,4 +36,3 @@ A library for import of binary StarOffice documents
 * /usr/share/doc/libstaroffice-0.0.7/INSTALL
 * /usr/share/doc/libstaroffice-0.0.7/NEWS
 * /usr/share/doc/libstaroffice-0.0.7/README
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['haskell-commonmark-extensions']"
 +++
 Pure Haskell commonmark parser
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/commonmark-0.2.4.1/Commonmark.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/commonmark-0.2.4.1/Commonmark.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/commonmark-0.2.4.1/Commonmark.hi
 * /usr/lib/ghc-9.8.1/site-local/commonmark-0.2.4.1/Commonmark/Blocks.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/commonmark-0.2.4.1/Commonmark/Blocks.hi
@@ -90,4 +91,3 @@ Pure Haskell commonmark parser
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/commonmark-0.2.4.1/LICENSE
 * /usr/share/haskell/haskell-commonmark/register.sh
 * /usr/share/haskell/haskell-commonmark/unregister.sh
-{{< /files >}}

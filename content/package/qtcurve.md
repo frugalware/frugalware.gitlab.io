@@ -16,7 +16,8 @@ reverse_depends = "['kde-theme-qtcurve', 'qtcurve-gtk2', 'qtcurve-qt5']"
 +++
 QtCurve Theme libs
 
-{{< files text="show files" >}}* /usr/lib/libqtcurve-utils.so
+## Files: 
+* /usr/lib/libqtcurve-utils.so
 * /usr/lib/libqtcurve-utils.so.2
 * /usr/lib/libqtcurve-utils.so.2.0
 * /usr/share/doc/qtcurve-1.9/AUTHORS
@@ -50,4 +51,3 @@ QtCurve Theme libs
 * /usr/share/locale/zh_CN/LC_MESSAGES/qtcurve.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/qtcurve.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/qtcurve.mo
-{{< /files >}}

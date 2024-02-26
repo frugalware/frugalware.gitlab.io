@@ -17,7 +17,8 @@ license = "custom"
 +++
 Library for binding to C libraries using pure OCaml
 
-{{< files text="show files" >}}* /usr/lib/ocaml/ctypes-foreign/.private/ctypes_foreign_threaded_stubs.cmi
+## Files: 
+* /usr/lib/ocaml/ctypes-foreign/.private/ctypes_foreign_threaded_stubs.cmi
 * /usr/lib/ocaml/ctypes-foreign/.private/ctypes_foreign_threaded_stubs.cmt
 * /usr/lib/ocaml/ctypes-foreign/ctypes_closure_properties.cmi
 * /usr/lib/ocaml/ctypes-foreign/ctypes_closure_properties.cmt
@@ -300,4 +301,3 @@ Library for binding to C libraries using pure OCaml
 * /usr/share/doc/ocaml-ctypes-0.21.1/ctypes/README.md
 * /usr/share/doc/ocaml-ctypes-0.21.1/LICENSE
 * /usr/share/doc/ocaml-ctypes-0.21.1/README.md
-{{< /files >}}

@@ -16,9 +16,9 @@ reverse_depends = "['perl-libwww']"
 +++
 A simple http server class.
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/HTTP/Daemon.pm
+## Files: 
+* /usr/lib/perl5/site_perl/HTTP/Daemon.pm
 * /usr/share/doc/perl-http-daemon-6.16/INSTALL
 * /usr/share/doc/perl-http-daemon-6.16/MANIFEST
 * /usr/share/doc/perl-http-daemon-6.16/README
 * /usr/share/man/man3/HTTP::Daemon.3perl.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 Library of Optimized Inner Loops
 
-{{< files text="show files" >}}* /usr/bin/oil-bugreport
+## Files: 
+* /usr/bin/oil-bugreport
 * /usr/include/liboil-0.3/liboil/liboil-stdint.h
 * /usr/include/liboil-0.3/liboil/liboil.h
 * /usr/include/liboil-0.3/liboil/liboilclasses.h
@@ -74,4 +75,3 @@ Library of Optimized Inner Loops
 * /usr/share/gtk-doc/html/liboil/right.png
 * /usr/share/gtk-doc/html/liboil/style.css
 * /usr/share/gtk-doc/html/liboil/up.png
-{{< /files >}}

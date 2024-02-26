@@ -15,7 +15,8 @@ depends = "['texlive=2023.0']"
 +++
 Graphics packages for TeX Live
 
-{{< files text="show files" >}}* /usr/bin/cachepic
+## Files: 
+* /usr/bin/cachepic
 * /usr/bin/epspdf
 * /usr/bin/epspdftk
 * /usr/bin/fig4latex
@@ -1368,4 +1369,3 @@ Graphics packages for TeX Live
 * /usr/share/texmf-dist/tex/plain/pgf/utilities/pgfrcs.tex
 * /usr/share/texmf-dist/tex/plain/pgfplots/pgfplots.tex
 * /usr/share/texmf-dist/tex/plain/pgfplots/pgfplotstable.tex
-{{< /files >}}

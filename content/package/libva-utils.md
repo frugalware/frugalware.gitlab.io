@@ -15,7 +15,8 @@ depends = "['libva>=2.18.0']"
 +++
 Intel VA-API Media Applications and Scripts for libva
 
-{{< files text="show files" >}}* /usr/bin/av1encode
+## Files: 
+* /usr/bin/av1encode
 * /usr/bin/avcenc
 * /usr/bin/avcstreamoutdemo
 * /usr/bin/h264encode
@@ -44,4 +45,3 @@ Intel VA-API Media Applications and Scripts for libva
 * /usr/share/doc/libva-utils-2.20.1/INSTALL
 * /usr/share/doc/libva-utils-2.20.1/NEWS
 * /usr/share/doc/libva-utils-2.20.1/README.md
-{{< /files >}}

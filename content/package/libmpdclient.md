@@ -16,7 +16,8 @@ reverse_depends = "['mpc', 'mpd', 'ncmpc', 'ncmpcpp']"
 +++
 An asynchronous API library for interfacing MPD in the C, C++ & Objective C languages
 
-{{< files text="show files" >}}* /usr/include/mpd/albumart.h
+## Files: 
+* /usr/include/mpd/albumart.h
 * /usr/include/mpd/async.h
 * /usr/include/mpd/audio_format.h
 * /usr/include/mpd/binary.h
@@ -72,4 +73,3 @@ An asynchronous API library for interfacing MPD in the C, C++ & Objective C lang
 * /usr/share/doc/libmpdclient/NEWS
 * /usr/share/doc/libmpdclient/README.rst
 * /usr/share/vala/vapi/libmpdclient.vapi
-{{< /files >}}

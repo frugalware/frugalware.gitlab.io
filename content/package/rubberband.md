@@ -16,7 +16,8 @@ reverse_depends = "['easyeffects', 'mixxx', 'qtractor']"
 +++
 An audio time-stretching and pitch-shifting library and utility program
 
-{{< files text="show files" >}}* /usr/bin/rubberband
+## Files: 
+* /usr/bin/rubberband
 * /usr/include/rubberband/rubberband-c.h
 * /usr/include/rubberband/RubberBandStretcher.h
 * /usr/lib/ladspa/ladspa-rubberband.cat
@@ -31,4 +32,3 @@ An audio time-stretching and pitch-shifting library and utility program
 * /usr/share/doc/rubberband-1.9.0/COPYING
 * /usr/share/doc/rubberband-1.9.0/README.md
 * /usr/share/ladspa/rdf/ladspa-rubberband.rdf
-{{< /files >}}

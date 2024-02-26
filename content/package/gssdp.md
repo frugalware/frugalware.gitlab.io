@@ -16,7 +16,8 @@ reverse_depends = "['gupnp']"
 +++
 GSSDP implements resource discovery and announcement over SSDP of GUPnP framework.
 
-{{< files text="show files" >}}* /usr/bin/gssdp-device-sniffer
+## Files: 
+* /usr/bin/gssdp-device-sniffer
 * /usr/include/gssdp-1.6/libgssdp/gssdp-client.h
 * /usr/include/gssdp-1.6/libgssdp/gssdp-enums.h
 * /usr/include/gssdp-1.6/libgssdp/gssdp-error.h
@@ -36,4 +37,3 @@ GSSDP implements resource discovery and announcement over SSDP of GUPnP framewor
 * /usr/share/man/man1/gssdp-device-sniffer.1.gz
 * /usr/share/vala/vapi/gssdp-1.6.deps
 * /usr/share/vala/vapi/gssdp-1.6.vapi
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['cups-pk-helper', 'gimp-print', 'gutenprint', 'libreoffice',
 +++
 The CUPS Printing System
 
-{{< files text="show files" >}}* /etc/cups/cups-files.conf
+## Files: 
+* /etc/cups/cups-files.conf
 * /etc/cups/cups-files.conf.default
 * /etc/cups/cupsd.conf
 * /etc/cups/cupsd.conf.default
@@ -885,4 +886,3 @@ The CUPS Printing System
 * /usr/share/man/man8/lpinfo.8.gz
 * /usr/share/man/man8/lpmove.8.gz
 * /usr/share/pixmaps/cups-128.png
-{{< /files >}}

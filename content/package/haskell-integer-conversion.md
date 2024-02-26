@@ -16,7 +16,8 @@ reverse_depends = "['haskell-attoparsec-iso8601', 'haskell-text-iso8601']"
 +++
 Conversion from strings to Integer
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/integer-conversion-0.1.0.1/Data/Integer/Conversion.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/integer-conversion-0.1.0.1/Data/Integer/Conversion.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/integer-conversion-0.1.0.1/Data/Integer/Conversion.hi
 * /usr/lib/ghc-9.8.1/site-local/integer-conversion-0.1.0.1/libHSinteger-conversion-0.1.0.1-BdeHXQABNoJHR7rP10an8X.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSinteger-conversion-0.1.0.1-BdeHXQABNoJHR7rP10an8X-ghc9.8.1.so
@@ -33,4 +34,3 @@ Conversion from strings to Integer
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/integer-conversion-0.1.0.1/LICENSE
 * /usr/share/haskell/haskell-integer-conversion/register.sh
 * /usr/share/haskell/haskell-integer-conversion/unregister.sh
-{{< /files >}}

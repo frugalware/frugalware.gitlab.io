@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 Secure rm is a command-line compatible rm which destroys file contents before unlinking
 
-{{< files text="show files" >}}* /usr/bin/fill_test
+## Files: 
+* /usr/bin/fill_test
 * /usr/bin/srm
 * /usr/share/doc/srm-1.2.15/AUTHORS
 * /usr/share/doc/srm-1.2.15/ChangeLog
@@ -25,4 +26,3 @@ Secure rm is a command-line compatible rm which destroys file contents before un
 * /usr/share/doc/srm-1.2.15/README
 * /usr/share/doc/srm-1.2.15/TODO
 * /usr/share/man/man1/srm.1.gz
-{{< /files >}}

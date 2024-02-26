@@ -15,7 +15,8 @@ depends = "['bash', 'diffutils>=2.8.1-4', 'gawk>=3.1.6-3', 'm4>=1.4.17-3']"
 +++
 A GNU tool for automatically configuring source code
 
-{{< files text="show files" >}}* /usr/bin/autoconf-2.13
+## Files: 
+* /usr/bin/autoconf-2.13
 * /usr/bin/autoheader-2.13
 * /usr/bin/autoreconf-2.13
 * /usr/bin/autoscan-2.13
@@ -41,4 +42,3 @@ A GNU tool for automatically configuring source code
 * /usr/share/doc/autoconf213-2.13/NEWS
 * /usr/share/doc/autoconf213-2.13/README
 * /usr/share/doc/autoconf213-2.13/TODO
-{{< /files >}}

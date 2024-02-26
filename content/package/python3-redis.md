@@ -15,7 +15,8 @@ depends = "['python3-async-timeout']"
 +++
 The Python interface to the Redis key-value store
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/redis-5.0.1.dist-info/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/redis-5.0.1.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/redis-5.0.1.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/redis-5.0.1.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/redis-5.0.1.dist-info/top_level.txt
@@ -233,4 +234,3 @@ The Python interface to the Redis key-value store
 * /usr/share/doc/python3-redis-5.0.1/INSTALL
 * /usr/share/doc/python3-redis-5.0.1/LICENSE
 * /usr/share/doc/python3-redis-5.0.1/README.md
-{{< /files >}}

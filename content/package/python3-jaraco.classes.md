@@ -16,7 +16,8 @@ reverse_depends = "['python3-keyring']"
 +++
 Module for classes manipulation
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/jaraco.classes-3.3.0.dist-info/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/jaraco.classes-3.3.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/jaraco.classes-3.3.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/jaraco.classes-3.3.0.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/jaraco.classes-3.3.0.dist-info/top_level.txt
@@ -35,4 +36,3 @@ Module for classes manipulation
 * /usr/lib/python3.12/site-packages/jaraco/classes/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-jaraco.classes-3.3.0/LICENSE
 * /usr/share/doc/python3-jaraco.classes-3.3.0/README.rst
-{{< /files >}}

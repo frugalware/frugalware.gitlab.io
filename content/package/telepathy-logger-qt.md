@@ -15,7 +15,8 @@ depends = "['telepathy-logger>=0.8.2-5', 'telepathy-qt5>=0.9.8']"
 +++
 Qt5 bindings for telepathy logger.
 
-{{< files text="show files" >}}* /usr/include/TelepathyLoggerQt/call-event.h
+## Files: 
+* /usr/include/TelepathyLoggerQt/call-event.h
 * /usr/include/TelepathyLoggerQt/CallEvent
 * /usr/include/TelepathyLoggerQt/Entity
 * /usr/include/TelepathyLoggerQt/entity.h
@@ -62,4 +63,3 @@ Qt5 bindings for telepathy logger.
 * /usr/share/doc/telepathy-logger-qt-17.09.0/COPYING
 * /usr/share/doc/telepathy-logger-qt-17.09.0/HACKING
 * /usr/share/doc/telepathy-logger-qt-17.09.0/TODO
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['glibc', 'sddm']"
 +++
 theme is inspired by Numix sddm theme
 
-{{< files text="show files" >}}* /usr/share/doc/solarized_sddm_theme-0.1.8/LICENSE
+## Files: 
+* /usr/share/doc/solarized_sddm_theme-0.1.8/LICENSE
 * /usr/share/doc/solarized_sddm_theme-0.1.8/README.md
 * /usr/share/sddm/themes/solarized_sddm_theme/angle-down.svg
 * /usr/share/sddm/themes/solarized_sddm_theme/background.png
@@ -32,4 +33,3 @@ theme is inspired by Numix sddm theme
 * /usr/share/sddm/themes/solarized_sddm_theme/theme.conf
 * /usr/share/sddm/themes/solarized_sddm_theme/traces_background.png
 * /usr/share/sddm/themes/solarized_sddm_theme/warning_red.png
-{{< /files >}}

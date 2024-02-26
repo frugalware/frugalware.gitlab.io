@@ -16,9 +16,9 @@ reverse_depends = "['darktable']"
 +++
 GTK+3 integration for libcolord
 
-{{< files text="show files" >}}* /usr/bin/cd-convert
+## Files: 
+* /usr/bin/cd-convert
 * /usr/lib/libcolord-gtk.so
 * /usr/lib/libcolord-gtk.so.1
 * /usr/lib/libcolord-gtk.so.1.0.3
 * /usr/lib/pkgconfig/colord-gtk.pc
-{{< /files >}}

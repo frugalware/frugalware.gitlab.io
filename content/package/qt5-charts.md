@@ -16,7 +16,8 @@ reverse_depends = "['clight-gui', 'kuserfeedback', 'kweather', 'radeon-profile',
 +++
 The Qt5 toolkit, qtcharts
 
-{{< files text="show files" >}}* /usr/include/qt5/QtCharts/5.15.12/QtCharts/private/abstractbarchartitem_p.h
+## Files: 
+* /usr/include/qt5/QtCharts/5.15.12/QtCharts/private/abstractbarchartitem_p.h
 * /usr/include/qt5/QtCharts/5.15.12/QtCharts/private/abstractchartlayout_p.h
 * /usr/include/qt5/QtCharts/5.15.12/QtCharts/private/abstractdomain_p.h
 * /usr/include/qt5/QtCharts/5.15.12/QtCharts/private/areachartitem_p.h
@@ -352,4 +353,3 @@ The Qt5 toolkit, qtcharts
 * /usr/share/qt5/qml/QtCharts/libqtchartsqml2.so
 * /usr/share/qt5/qml/QtCharts/plugins.qmltypes
 * /usr/share/qt5/qml/QtCharts/qmldir
-{{< /files >}}

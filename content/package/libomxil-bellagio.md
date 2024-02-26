@@ -17,7 +17,8 @@ license = "LGPL"
 +++
 An opensource implementation of the OpenMAX Integration Layer API
 
-{{< files text="show files" >}}* /usr/bin/omxregister-bellagio
+## Files: 
+* /usr/bin/omxregister-bellagio
 * /usr/include/bellagio/common.h
 * /usr/include/bellagio/component_loader.h
 * /usr/include/bellagio/extension_struct.h
@@ -75,4 +76,3 @@ An opensource implementation of the OpenMAX Integration Layer API
 * /usr/share/doc/libomxil-bellagio-0.9.3/README
 * /usr/share/doc/libomxil-bellagio-0.9.3/TODO
 * /usr/share/man/man1/omxregister-bellagio.1.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 SGML converters for the LinuxDoc DTD only.
 
-{{< files text="show files" >}}* /usr/bin/linuxdoc
+## Files: 
+* /usr/bin/linuxdoc
 * /usr/bin/rtf2rtf
 * /usr/bin/sgml2html
 * /usr/bin/sgml2info
@@ -199,4 +200,3 @@ SGML converters for the LinuxDoc DTD only.
 * /usr/share/texmf-dist/tex/latex/misc/linuxdoctr-sgml.sty
 * /usr/share/texmf-dist/tex/latex/misc/null.sty
 * /usr/share/texmf-dist/tex/latex/misc/qwertz.sty
-{{< /files >}}

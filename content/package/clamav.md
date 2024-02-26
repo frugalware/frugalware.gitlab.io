@@ -16,7 +16,8 @@ reverse_depends = "['klamav']"
 +++
 Clam AntiVirus is a GPL anti-virus toolkit for UNIX
 
-{{< files text="show files" >}}* /etc/clamav/clamd.conf
+## Files: 
+* /etc/clamav/clamd.conf
 * /etc/clamav/freshclam.conf
 * /etc/tmpfiles.d/clamav.conf
 * /usr/bin/clamav-config
@@ -201,4 +202,3 @@ Clam AntiVirus is a GPL anti-virus toolkit for UNIX
 * /usr/share/man/man8/clamav-milter.8.gz
 * /usr/share/man/man8/clamd.8.gz
 * /usr/share/man/man8/clamonacc.8.gz
-{{< /files >}}

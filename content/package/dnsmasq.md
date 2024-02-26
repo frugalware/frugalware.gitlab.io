@@ -16,7 +16,8 @@ reverse_depends = "['libvirt']"
 +++
 Dnsmasq is a lightweight, easy to configure DNS forwarder and DHCP server.
 
-{{< files text="show files" >}}* /etc/dbus-1/system.d/dnsmasq.conf
+## Files: 
+* /etc/dbus-1/system.d/dnsmasq.conf
 * /etc/dnsmasq.conf
 * /usr/bin/dnsmasq
 * /usr/lib/systemd/system/dnsmasq.service
@@ -40,4 +41,3 @@ Dnsmasq is a lightweight, easy to configure DNS forwarder and DHCP server.
 * /usr/share/man/es/man8/dnsmasq.8.gz
 * /usr/share/man/fr/man8/dnsmasq.8.gz
 * /usr/share/man/man8/dnsmasq.8.gz
-{{< /files >}}

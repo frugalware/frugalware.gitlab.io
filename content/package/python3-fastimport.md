@@ -16,7 +16,8 @@ reverse_depends = "['python3-dulwich']"
 +++
 VCS fastimport/fastexport parser
 
-{{< files text="show files" >}}* /usr/bin/fast-import-filter
+## Files: 
+* /usr/bin/fast-import-filter
 * /usr/bin/fast-import-info
 * /usr/bin/fast-import-query
 * /usr/lib/python3.12/site-packages/fastimport-0.9.14-py3.12.egg-info/dependency_links.txt
@@ -67,4 +68,3 @@ VCS fastimport/fastexport parser
 * /usr/share/doc/python3-fastimport-0.9.14/COPYING
 * /usr/share/doc/python3-fastimport-0.9.14/NEWS
 * /usr/share/doc/python3-fastimport-0.9.14/README.md
-{{< /files >}}

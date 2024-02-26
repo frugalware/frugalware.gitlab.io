@@ -15,7 +15,7 @@ depends = "['kpipewire>=5.27.10', 'krfb', 'libepoxy']"
 +++
 KRfb pipewire plugin
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/krfb/framebuffer/pw.so
+## Files: 
+* /usr/lib/qt5/plugins/krfb/framebuffer/pw.so
 * /usr/lib/qt5/plugins/krfb/framebuffer/qt.so
 * /usr/lib/qt5/plugins/krfb/framebuffer/xcb.so
-{{< /files >}}

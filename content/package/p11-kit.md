@@ -16,7 +16,8 @@ reverse_depends = "['gcr-1', 'gnutls', 'libsystemd']"
 +++
 Provides a way to load and enumerate PKCS#11 modules.
 
-{{< files text="show files" >}}* /etc/pkcs11/pkcs11.conf.example
+## Files: 
+* /etc/pkcs11/pkcs11.conf.example
 * /usr/bin/p11-kit
 * /usr/bin/trust
 * /usr/include/p11-kit-1/p11-kit/deprecated.h
@@ -82,4 +83,3 @@ Provides a way to load and enumerate PKCS#11 modules.
 * /usr/share/gtk-doc/html/p11-kit/up-insensitive.png
 * /usr/share/gtk-doc/html/p11-kit/up.png
 * /usr/share/p11-kit/modules/p11-kit-trust.module
-{{< /files >}}

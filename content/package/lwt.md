@@ -16,7 +16,8 @@ reverse_depends = "['ounit']"
 +++
 A library for cooperative threads in OCaml
 
-{{< files text="show files" >}}* /usr/lib/ocaml/lwt/dune-package
+## Files: 
+* /usr/lib/ocaml/lwt/dune-package
 * /usr/lib/ocaml/lwt/lwt.a
 * /usr/lib/ocaml/lwt/lwt.cma
 * /usr/lib/ocaml/lwt/lwt.cmi
@@ -229,4 +230,3 @@ A library for cooperative threads in OCaml
 * /usr/share/doc/lwt-5.7.0/lwt_react/LICENSE.md
 * /usr/share/doc/lwt-5.7.0/lwt_react/README.md
 * /usr/share/doc/lwt-5.7.0/README.md
-{{< /files >}}

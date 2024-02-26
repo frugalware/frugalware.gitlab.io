@@ -16,7 +16,8 @@ reverse_depends = "['ckbcomp', 'gnome-desktop', 'libxkbcommon']"
 +++
 X.org XML-based XKB configuration registry
 
-{{< files text="show files" >}}* /usr/lib/pkgconfig/xkeyboard-config.pc
+## Files: 
+* /usr/lib/pkgconfig/xkeyboard-config.pc
 * /usr/lib/X11/xkb
 * /usr/share/doc/xkeyboard-config-2.41/AUTHORS
 * /usr/share/doc/xkeyboard-config-2.41/ChangeLog
@@ -361,4 +362,3 @@ X.org XML-based XKB configuration registry
 * /usr/share/X11/xkb/types/numpad
 * /usr/share/X11/xkb/types/pc
 * /usr/share/X11/xkb/types/README
-{{< /files >}}

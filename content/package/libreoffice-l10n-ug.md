@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Uyghur support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/ug/default.css
+## Files: 
+* /usr/lib/libreoffice/help/ug/default.css
 * /usr/lib/libreoffice/help/ug/err.html
 * /usr/lib/libreoffice/help/ug/highcontrast1.css
 * /usr/lib/libreoffice/help/ug/highcontrast2.css
@@ -133,4 +134,3 @@ Installs Uyghur support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-ug.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_ug.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_ug.xcd
-{{< /files >}}

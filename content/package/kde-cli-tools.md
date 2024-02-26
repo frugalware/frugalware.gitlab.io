@@ -15,7 +15,8 @@ depends = "['kactivities5>=5.115.0', 'kcmutils>=5.115.0', 'kdesu>=5.115.0', 'pla
 +++
 Tools based on KDE Frameworks 5 to better interact with the system.
 
-{{< files text="show files" >}}* /usr/bin/kbroadcastnotification
+## Files: 
+* /usr/bin/kbroadcastnotification
 * /usr/bin/kcmshell5
 * /usr/bin/kde-inhibit
 * /usr/bin/kde-open
@@ -818,4 +819,3 @@ Tools based on KDE Frameworks 5 to better interact with the system.
 * /usr/share/man/sv/man1/kdesu.1.gz
 * /usr/share/man/tr/man1/kdesu.1.gz
 * /usr/share/man/uk/man1/kdesu.1.gz
-{{< /files >}}

@@ -15,4 +15,4 @@ depends = "['zenity>=3.44.0']"
 +++
 zenity documention
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

@@ -15,7 +15,8 @@ depends = "['curl>=7.44.0-2', 'nss']"
 +++
 An open protocol to allow secure API authorization in a simple and standard method from desktop and web applications.
 
-{{< files text="show files" >}}* /usr/include/oauth.h
+## Files: 
+* /usr/include/oauth.h
 * /usr/lib/liboauth.la
 * /usr/lib/liboauth.so
 * /usr/lib/liboauth.so.0
@@ -29,4 +30,3 @@ An open protocol to allow secure API authorization in a simple and standard meth
 * /usr/share/doc/liboauth-1.0.3/INSTALL
 * /usr/share/doc/liboauth-1.0.3/README
 * /usr/share/man/man3/oauth.3.gz
-{{< /files >}}

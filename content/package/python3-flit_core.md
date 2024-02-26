@@ -16,7 +16,8 @@ reverse_depends = "['python3-flit_scm']"
 +++
 Simplified packaging of Python modules (Core)
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/flit_core-3.9.0.dist-info/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/flit_core-3.9.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/flit_core-3.9.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/flit_core-3.9.0.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/flit_core-3.9.0.dist-info/WHEEL
@@ -109,4 +110,3 @@ Simplified packaging of Python modules (Core)
 * /usr/lib/python3.12/site-packages/flit_core/__init__.py
 * /usr/share/doc/python3-flit_core-3.9.0/LICENSE
 * /usr/share/doc/python3-flit_core-3.9.0/README.rst
-{{< /files >}}

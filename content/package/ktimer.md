@@ -15,7 +15,8 @@ depends = "['kio>=5.115.0']"
 +++
 Countdown timer.
 
-{{< files text="show files" >}}* /usr/bin/ktimer
+## Files: 
+* /usr/bin/ktimer
 * /usr/share/applications/org.kde.ktimer.desktop
 * /usr/share/doc/HTML/ca/ktimer/index.cache.bz2
 * /usr/share/doc/HTML/ca/ktimer/index.docbook
@@ -150,4 +151,3 @@ Countdown timer.
 * /usr/share/locale/zh_CN/LC_MESSAGES/ktimer.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/ktimer.mo
 * /usr/share/metainfo/org.kde.ktimer.appdata.xml
-{{< /files >}}

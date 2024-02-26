@@ -16,7 +16,8 @@ reverse_depends = "['darktable', 'gphoto2', 'opencv', 'sane-backends', 'wine', '
 +++
 A portable library to gives access to many digital cameras
 
-{{< files text="show files" >}}* /usr/bin/gphoto2-config
+## Files: 
+* /usr/bin/gphoto2-config
 * /usr/bin/gphoto2-port-config
 * /usr/include/gphoto2/gphoto2-abilities-list.h
 * /usr/include/gphoto2/gphoto2-camera.h
@@ -171,4 +172,3 @@ A portable library to gives access to many digital cameras
 * /usr/share/locale/zh_TW/LC_MESSAGES/libgphoto2_port-12.mo
 * /usr/share/man/man3/libgphoto2.3.gz
 * /usr/share/man/man3/libgphoto2_port.3.gz
-{{< /files >}}

@@ -15,10 +15,10 @@ depends = "['glibc']"
 +++
 This package provides small utilities which are used by the scripts of Debian packages.
 
-{{< files text="show files" >}}* usr/bin/mktemp
+## Files: 
+* usr/bin/mktemp
 * usr/bin/savelog
 * usr/bin/tempfile
 * usr/man/man1/mktemp.1.gz
 * usr/man/man1/tempfile.1.gz
 * usr/man/man8/savelog.8.gz
-{{< /files >}}

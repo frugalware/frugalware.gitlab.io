@@ -15,6 +15,6 @@ depends = "[]"
 +++
 X.Org autotools utility macros ( 32bit )
 
-{{< files text="show files" >}}* /usr/lib/pkgconfig/xorg-macros.pc
+## Files: 
+* /usr/lib/pkgconfig/xorg-macros.pc
 * /usr/share/util-macros/INSTALL
-{{< /files >}}

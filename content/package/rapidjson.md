@@ -15,7 +15,8 @@ depends = "[]"
 +++
 A fast JSON parser/generator for C++
 
-{{< files text="show files" >}}* /usr/include/rapidjson/allocators.h
+## Files: 
+* /usr/include/rapidjson/allocators.h
 * /usr/include/rapidjson/document.h
 * /usr/include/rapidjson/encodedstream.h
 * /usr/include/rapidjson/encodings.h
@@ -54,4 +55,3 @@ A fast JSON parser/generator for C++
 * /usr/lib/cmake/RapidJSON/RapidJSONConfigVersion.cmake
 * /usr/lib/pkgconfig/RapidJSON.pc
 * /usr/share/doc/RapidJSON/readme.md
-{{< /files >}}

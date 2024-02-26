@@ -16,7 +16,8 @@ reverse_depends = "['gcr-doc', 'gnome-keyring']"
 +++
 A library for bits of crypto UI
 
-{{< files text="show files" >}}* /usr/bin/gcr-viewer-gtk4
+## Files: 
+* /usr/bin/gcr-viewer-gtk4
 * /usr/include/gck-2/gck/gck-enum-types.h
 * /usr/include/gck-2/gck/gck-version.h
 * /usr/include/gck-2/gck/gck.h
@@ -879,4 +880,3 @@ A library for bits of crypto UI
 * /usr/share/vala/vapi/gck-2.vapi
 * /usr/share/vala/vapi/gcr-4.deps
 * /usr/share/vala/vapi/gcr-4.vapi
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['haskell-microlens', 'haskell-th-abstraction>=0.5']"
 +++
 Automatic generation of record lenses for microlens
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/microlens-th-0.4.3.14/Lens/Micro/TH.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/microlens-th-0.4.3.14/Lens/Micro/TH.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/microlens-th-0.4.3.14/Lens/Micro/TH.hi
 * /usr/lib/ghc-9.8.1/site-local/microlens-th-0.4.3.14/Lens/Micro/TH/Internal.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/microlens-th-0.4.3.14/Lens/Micro/TH/Internal.hi
@@ -35,4 +36,3 @@ Automatic generation of record lenses for microlens
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/microlens-th-0.4.3.14/LICENSE
 * /usr/share/haskell/haskell-microlens-th/register.sh
 * /usr/share/haskell/haskell-microlens-th/unregister.sh
-{{< /files >}}

@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org xkill application
 
-{{< files text="show files" >}}* /usr/bin/xkill
+## Files: 
+* /usr/bin/xkill
 * /usr/share/doc/xkill-1.0.6/ChangeLog
 * /usr/share/doc/xkill-1.0.6/COPYING
 * /usr/share/doc/xkill-1.0.6/INSTALL
 * /usr/share/doc/xkill-1.0.6/README.md
 * /usr/share/man/man1/xkill.1.gz
-{{< /files >}}

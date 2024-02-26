@@ -16,11 +16,11 @@ reverse_depends = "['qt6-base']"
 +++
 C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp hash functions
 
-{{< files text="show files" >}}* /usr/include/blake2.h
+## Files: 
+* /usr/include/blake2.h
 * /usr/lib/libb2.so
 * /usr/lib/libb2.so.1
 * /usr/lib/libb2.so.1.0.4
 * /usr/lib/pkgconfig/libb2.pc
 * /usr/share/doc/libb2-0.98.1/COPYING
 * /usr/share/doc/libb2-0.98.1/README.md
-{{< /files >}}

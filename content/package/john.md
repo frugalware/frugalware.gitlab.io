@@ -15,7 +15,8 @@ depends = "['bzip2', 'openssl>=3.1.0', 'zlib>=1.2.12']"
 +++
 John the Ripper is a fast password cracker.
 
-{{< files text="show files" >}}* /etc/john/john.conf
+## Files: 
+* /etc/john/john.conf
 * /usr/bin/john
 * /usr/bin/unafs
 * /usr/bin/unique
@@ -321,4 +322,3 @@ John the Ripper is a fast password cracker.
 * /usr/share/doc/john-1.9.0_jumbo_1/SHOW_FORMATS.md
 * /usr/share/doc/john-1.9.0_jumbo_1/SIPcrack-LICENSE
 * /usr/share/doc/john-1.9.0_jumbo_1/SUBSETS
-{{< /files >}}

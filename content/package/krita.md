@@ -15,7 +15,8 @@ depends = "['exiv2>=0.28.1', 'gsl', 'kcompletion', 'kcrash', 'kguiaddons', 'ki18
 +++
 Krita is a FREE sketching and painting program
 
-{{< files text="show files" >}}* /etc/xdg/kritarc
+## Files: 
+* /etc/xdg/kritarc
 * /usr/bin/krita
 * /usr/bin/kritarunner
 * /usr/bin/krita_version
@@ -1354,4 +1355,3 @@ Krita is a FREE sketching and painting program
 * /usr/share/qt5/qml/org/krita/sketch/components/VirtualKeyboard.qml
 * /usr/share/qt5/qml/org/krita/sketch/libkritasketchplugin.so
 * /usr/share/qt5/qml/org/krita/sketch/qmldir
-{{< /files >}}

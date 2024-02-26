@@ -16,7 +16,8 @@ reverse_depends = "['haskell-typst']"
 +++
 Set- and Map-like types that remember the order elements were inserted
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/ordered-containers-0.2.3/Data/Map/Ordered.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/ordered-containers-0.2.3/Data/Map/Ordered.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/ordered-containers-0.2.3/Data/Map/Ordered.hi
 * /usr/lib/ghc-9.8.1/site-local/ordered-containers-0.2.3/Data/Map/Ordered/Internal.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/ordered-containers-0.2.3/Data/Map/Ordered/Internal.hi
@@ -43,4 +44,3 @@ Set- and Map-like types that remember the order elements were inserted
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/ordered-containers-0.2.3/LICENSE
 * /usr/share/haskell/haskell-ordered-containers/register.sh
 * /usr/share/haskell/haskell-ordered-containers/unregister.sh
-{{< /files >}}

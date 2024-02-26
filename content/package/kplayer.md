@@ -16,7 +16,8 @@ license = "GPL"
 +++
 KPlayer is a KDE media player based on MPlayer.
 
-{{< files text="show files" >}}* usr/bin/kplayer
+## Files: 
+* usr/bin/kplayer
 * usr/lib/kde3/libkplayerpart.la
 * usr/lib/kde3/libkplayerpart.so
 * usr/share/applications/kde/kplayer.desktop
@@ -362,4 +363,3 @@ KPlayer is a KDE media player based on MPlayer.
 * usr/share/locale/tr/LC_MESSAGES/kplayer.mo
 * usr/share/locale/zh_CN/LC_MESSAGES/kplayer.mo
 * usr/share/services/kplayerpart.desktop
-{{< /files >}}

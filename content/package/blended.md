@@ -15,9 +15,9 @@ depends = "[]"
 +++
 KDE Kwin-Deco Blended
 
-{{< files text="show files" >}}* usr/lib/kde3/kwin3_Blended.la
+## Files: 
+* usr/lib/kde3/kwin3_Blended.la
 * usr/lib/kde3/kwin3_Blended.so
 * usr/lib/kde3/kwin_Blended_config.la
 * usr/lib/kde3/kwin_Blended_config.so
 * usr/share/apps/kwin/Blended.desktop
-{{< /files >}}

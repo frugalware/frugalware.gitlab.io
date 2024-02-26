@@ -16,7 +16,8 @@ reverse_depends = "['haskell-servant']"
 +++
 Simplifies dealing with different types for strings
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/string-conversions-0.4.0.1/Data/String/Conversions.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/string-conversions-0.4.0.1/Data/String/Conversions.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/string-conversions-0.4.0.1/Data/String/Conversions.hi
 * /usr/lib/ghc-9.8.1/site-local/string-conversions-0.4.0.1/Data/String/Conversions/Monomorphic.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/string-conversions-0.4.0.1/Data/String/Conversions/Monomorphic.hi
@@ -36,4 +37,3 @@ Simplifies dealing with different types for strings
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/string-conversions-0.4.0.1/LICENSE
 * /usr/share/haskell/haskell-string-conversions/register.sh
 * /usr/share/haskell/haskell-string-conversions/unregister.sh
-{{< /files >}}

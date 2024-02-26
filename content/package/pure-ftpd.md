@@ -15,7 +15,8 @@ depends = "['libcap>=2.19', 'mariadb-libs>=10.3.14', 'openssl>=3.1.0']"
 +++
 A free, secure, production-quality and standard-conformant FTP server
 
-{{< files text="show files" >}}* /etc/pure-ftpd.conf
+## Files: 
+* /etc/pure-ftpd.conf
 * /usr/bin/pure-authd
 * /usr/bin/pure-certd
 * /usr/bin/pure-config.pl
@@ -62,4 +63,3 @@ A free, secure, production-quality and standard-conformant FTP server
 * /usr/share/man/man8/pure-quotacheck.8.gz
 * /usr/share/man/man8/pure-statsdecode.8.gz
 * /usr/share/man/man8/pure-uploadscript.8.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['binutils>=2.40', 'elfutils', 'libtraceevent', 'python3>=3.11', 'sla
 +++
 Kernel performance profiling tool
 
-{{< files text="show files" >}}* /etc/bash_completion.d/perf
+## Files: 
+* /etc/bash_completion.d/perf
 * /usr/bin/perf
 * /usr/bin/perf-read-vdso32
 * /usr/bin/trace
@@ -252,4 +253,3 @@ Kernel performance profiling tool
 * /usr/share/man/man1/perf.1.gz
 * /usr/share/perf-core/strace/groups/file
 * /usr/share/perf-core/strace/groups/string
-{{< /files >}}

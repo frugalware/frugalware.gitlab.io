@@ -15,5 +15,5 @@ depends = "['curl>=7.58.0-2', 'libcap>=2.25-4', 'libgcrypt>=1.8.0-2', 'openssl>=
 +++
 systemd container retrieval
 
-{{< files text="show files" >}}* /usr/lib/systemd/systemd-pull
-{{< /files >}}
+## Files: 
+* /usr/lib/systemd/systemd-pull

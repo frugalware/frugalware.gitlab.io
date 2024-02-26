@@ -15,7 +15,8 @@ depends = "['aspell>=0.60.6.1-4', 'enchant', 'hunspell>=1.7.0', 'libboost>=1.72.
 +++
 An advanced open-source document processor based on TeX
 
-{{< files text="show files" >}}* /usr/bin/lyx
+## Files: 
+* /usr/bin/lyx
 * /usr/bin/lyxclient
 * /usr/bin/tex2lyx
 * /usr/share/applications/lyx.desktop
@@ -2614,4 +2615,3 @@ An advanced open-source document processor based on TeX
 * /usr/share/man/man1/lyx.1.gz
 * /usr/share/man/man1/lyxclient.1.gz
 * /usr/share/man/man1/tex2lyx.1.gz
-{{< /files >}}

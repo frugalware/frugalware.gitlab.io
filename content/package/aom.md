@@ -16,7 +16,8 @@ reverse_depends = "['ffmpeg', 'firefox', 'libavif', 'libheif', 'thunderbird']"
 +++
 Alliance for Open Media video codec
 
-{{< files text="show files" >}}* /usr/bin/aomdec
+## Files: 
+* /usr/bin/aomdec
 * /usr/bin/aomenc
 * /usr/include/aom/aom.h
 * /usr/include/aom/aomcx.h
@@ -36,4 +37,3 @@ Alliance for Open Media video codec
 * /usr/share/doc/aom-3.4.0/CHANGELOG
 * /usr/share/doc/aom-3.4.0/LICENSE
 * /usr/share/doc/aom-3.4.0/README.md
-{{< /files >}}

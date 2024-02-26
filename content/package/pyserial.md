@@ -15,7 +15,8 @@ depends = "['python3']"
 +++
 This module encapsulates the access for the serial port.
 
-{{< files text="show files" >}}* /usr/bin/pyserial-miniterm
+## Files: 
+* /usr/bin/pyserial-miniterm
 * /usr/bin/pyserial-ports
 * /usr/lib/python3.12/site-packages/pyserial-3.5-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pyserial-3.5-py3.12.egg-info/entry_points.txt
@@ -80,4 +81,3 @@ This module encapsulates the access for the serial port.
 * /usr/lib/python3.12/site-packages/serial/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/serial/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/pyserial-3.5/README.rst
-{{< /files >}}

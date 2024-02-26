@@ -15,5 +15,5 @@ depends = "['doxygen>=1.9.7', 'qt5-base>=5.15.10']"
 +++
 QT5 GUI for doxygen
 
-{{< files text="show files" >}}* /usr/bin/doxywizard
-{{< /files >}}
+## Files: 
+* /usr/bin/doxywizard

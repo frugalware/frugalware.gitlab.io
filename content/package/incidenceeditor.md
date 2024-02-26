@@ -16,7 +16,8 @@ reverse_depends = "['kdepim-addons', 'korganizer']"
 +++
 This lib provides incidence editor
 
-{{< files text="show files" >}}* /usr/include/KPim5/IncidenceEditor/IncidenceEditor/EditorItemManager
+## Files: 
+* /usr/include/KPim5/IncidenceEditor/IncidenceEditor/EditorItemManager
 * /usr/include/KPim5/IncidenceEditor/incidenceeditor/editoritemmanager.h
 * /usr/include/KPim5/IncidenceEditor/incidenceeditor/globalsettings_incidenceeditor.h
 * /usr/include/KPim5/IncidenceEditor/IncidenceEditor/GroupwareUiDelegate
@@ -91,4 +92,3 @@ This lib provides incidence editor
 * /usr/share/qlogging-categories5/incidenceeditor.categories
 * /usr/share/qlogging-categories5/incidenceeditor.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_IncidenceEditor.pri
-{{< /files >}}

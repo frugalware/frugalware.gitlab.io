@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org xeyes application
 
-{{< files text="show files" >}}* /usr/bin/xeyes
+## Files: 
+* /usr/bin/xeyes
 * /usr/share/doc/xeyes-1.3.0/ChangeLog
 * /usr/share/doc/xeyes-1.3.0/COPYING
 * /usr/share/doc/xeyes-1.3.0/INSTALL
 * /usr/share/doc/xeyes-1.3.0/README.md
 * /usr/share/man/man1/xeyes.1.gz
-{{< /files >}}

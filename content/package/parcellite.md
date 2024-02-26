@@ -15,7 +15,8 @@ depends = "['gtk+2']"
 +++
 Parcellite is a lightweight GTK+ clipboard manager.
 
-{{< files text="show files" >}}* /etc/xdg/autostart/parcellite-startup.desktop
+## Files: 
+* /etc/xdg/autostart/parcellite-startup.desktop
 * /usr/bin/parcellite
 * /usr/share/applications/parcellite.desktop
 * /usr/share/doc/parcellite-1.2.1/AUTHORS
@@ -47,4 +48,3 @@ Parcellite is a lightweight GTK+ clipboard manager.
 * /usr/share/pixmaps/parcellite.png
 * /usr/share/pixmaps/parcellite.svg
 * /usr/share/pixmaps/parcellite.xpm
-{{< /files >}}

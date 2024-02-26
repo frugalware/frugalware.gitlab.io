@@ -16,7 +16,8 @@ reverse_depends = "['openpmix']"
 +++
 Portable Hardware Locality is a portable abstraction of hierarchical architectures
 
-{{< files text="show files" >}}* /usr/bin/hwloc-annotate
+## Files: 
+* /usr/bin/hwloc-annotate
 * /usr/bin/hwloc-bind
 * /usr/bin/hwloc-calc
 * /usr/bin/hwloc-compress-dir
@@ -565,4 +566,3 @@ Portable Hardware Locality is a portable abstraction of hierarchical architectur
 * /usr/share/man/man3/hwloc_windows_get_nr_processor_groups.3.gz
 * /usr/share/man/man3/hwloc_windows_get_processor_group_cpuset.3.gz
 * /usr/share/man/man7/hwloc.7.gz
-{{< /files >}}

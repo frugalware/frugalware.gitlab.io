@@ -15,7 +15,8 @@ depends = "['libstdc++']"
 +++
 A source code beautifier
 
-{{< files text="show files" >}}* /usr/bin/uncrustify
+## Files: 
+* /usr/bin/uncrustify
 * /usr/share/doc/uncrustify-0.74.0/AUTHORS
 * /usr/share/doc/uncrustify-0.74.0/BUGS
 * /usr/share/doc/uncrustify-0.74.0/ChangeLog
@@ -46,4 +47,3 @@ A source code beautifier
 * /usr/share/doc/uncrustify/HELP
 * /usr/share/doc/uncrustify/README.md
 * /usr/share/man/man1/uncrustify.1.gz
-{{< /files >}}

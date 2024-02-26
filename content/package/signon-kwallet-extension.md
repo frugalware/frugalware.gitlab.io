@@ -16,6 +16,6 @@ reverse_depends = "['kaccounts-integration']"
 +++
 KWallet signon extension
 
-{{< files text="show files" >}}* /usr/lib/signon/extensions/libkeyring-kwallet.so
+## Files: 
+* /usr/lib/signon/extensions/libkeyring-kwallet.so
 * /usr/share/doc/signon-kwallet-extension-23.08.5/COPYING
-{{< /files >}}

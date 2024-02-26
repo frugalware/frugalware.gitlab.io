@@ -16,10 +16,10 @@ reverse_depends = "['seatd']"
 +++
 Tool for generating roff manual pages
 
-{{< files text="show files" >}}* /usr/bin/scdoc
+## Files: 
+* /usr/bin/scdoc
 * /usr/lib/pkgconfig/scdoc.pc
 * /usr/share/doc/scdoc-1.11.2/COPYING
 * /usr/share/doc/scdoc-1.11.2/README.md
 * /usr/share/man/man1/scdoc.1.gz
 * /usr/share/man/man5/scdoc.5.gz
-{{< /files >}}

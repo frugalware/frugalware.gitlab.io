@@ -15,7 +15,8 @@ depends = "['clang-libs>=17.0.6', 'elfutils', 'python3>=3.11']"
 +++
 BPF Compiler Collection
 
-{{< files text="show files" >}}* /usr/include/bcc/bcc_common.h
+## Files: 
+* /usr/include/bcc/bcc_common.h
 * /usr/include/bcc/bcc_elf.h
 * /usr/include/bcc/bcc_exception.h
 * /usr/include/bcc/bcc_proc.h
@@ -610,4 +611,3 @@ BPF Compiler Collection
 * /usr/share/doc/bcc-0.29.1/FAQ.txt
 * /usr/share/doc/bcc-0.29.1/INSTALL.md
 * /usr/share/doc/bcc-0.29.1/README.md
-{{< /files >}}

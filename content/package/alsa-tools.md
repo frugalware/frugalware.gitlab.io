@@ -15,7 +15,8 @@ depends = "['alsa-lib>=1.1.4', 'libstdc++>=7.3.0-7', 'pyalsa']"
 +++
 Tools for ALSA.
 
-{{< files text="show files" >}}* /etc/hotplug/usb/tascam_fpga
+## Files: 
+* /etc/hotplug/usb/tascam_fpga
 * /etc/hotplug/usb/tascam_fw
 * /etc/hotplug/usb/tascam_fw.usermap
 * /usr/bin/as10k1
@@ -40,4 +41,3 @@ Tools for ALSA.
 * /usr/share/sounds/opl3/drums.sb
 * /usr/share/sounds/opl3/std.o3
 * /usr/share/sounds/opl3/std.sb
-{{< /files >}}

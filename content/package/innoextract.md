@@ -16,10 +16,10 @@ reverse_depends = "['wimlib']"
 +++
 A tool to unpack installers created by Inno Setup
 
-{{< files text="show files" >}}* /usr/bin/innoextract
+## Files: 
+* /usr/bin/innoextract
 * /usr/share/doc/innoextract-1.9/CHANGELOG
 * /usr/share/doc/innoextract-1.9/LICENSE
 * /usr/share/doc/innoextract-1.9/README.md
 * /usr/share/doc/innoextract-1.9/VERSION
 * /usr/share/man/man1/innoextract.1.gz
-{{< /files >}}

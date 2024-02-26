@@ -16,7 +16,8 @@ reverse_depends = "['ghc']"
 +++
 Low Level Virtual Machine (Compiler , Tools and Libs) Version 15
 
-{{< files text="show files" >}}* /usr/lib/llvm15/analyze-c++
+## Files: 
+* /usr/lib/llvm15/analyze-c++
 * /usr/lib/llvm15/analyze-cc
 * /usr/lib/llvm15/bin/bugpoint
 * /usr/lib/llvm15/bin/count
@@ -1953,4 +1954,3 @@ Low Level Virtual Machine (Compiler , Tools and Libs) Version 15
 * /usr/lib/llvm15/lib/libscanbuild/shell.py
 * /usr/lib/llvm15/lib/libscanbuild/__init__.py
 * /usr/share/doc/llvm15-15.0.7/README.md
-{{< /files >}}

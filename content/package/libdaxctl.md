@@ -16,9 +16,9 @@ reverse_depends = "['libndctl', 'ndctl']"
 +++
 Library for managing DAX devices.
 
-{{< files text="show files" >}}* /usr/include/daxctl/libdaxctl.h
+## Files: 
+* /usr/include/daxctl/libdaxctl.h
 * /usr/lib/libdaxctl.so
 * /usr/lib/libdaxctl.so.1
 * /usr/lib/libdaxctl.so.1.2.5
 * /usr/lib/pkgconfig/libdaxctl.pc
-{{< /files >}}

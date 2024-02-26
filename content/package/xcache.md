@@ -15,7 +15,8 @@ depends = "['php>=5.5.14']"
 +++
 XCache is a fast, stable PHP opcode cacher.
 
-{{< files text="show files" >}}* /usr/lib/php/xcache.so
+## Files: 
+* /usr/lib/php/xcache.so
 * /usr/share/doc/xcache-3.2.0/AUTHORS
 * /usr/share/doc/xcache-3.2.0/ChangeLog
 * /usr/share/doc/xcache-3.2.0/COPYING
@@ -82,4 +83,3 @@ XCache is a fast, stable PHP opcode cacher.
 * /usr/share/xcache/admin/diagnosis/lang/zh-traditional.po
 * /usr/share/xcache/admin/diagnosis/lang/zh-tranditional.php
 * /usr/share/xcache/admin/index.php
-{{< /files >}}

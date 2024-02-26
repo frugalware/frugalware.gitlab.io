@@ -16,7 +16,8 @@ reverse_depends = "['plasma-pa']"
 +++
 The default freedesktop.org sound theme following the XDG theming.
 
-{{< files text="show files" >}}* /usr/share/doc/sound-theme-freedesktop-0.8/CREDITS
+## Files: 
+* /usr/share/doc/sound-theme-freedesktop-0.8/CREDITS
 * /usr/share/doc/sound-theme-freedesktop-0.8/INSTALL
 * /usr/share/doc/sound-theme-freedesktop-0.8/NEWS
 * /usr/share/doc/sound-theme-freedesktop-0.8/README
@@ -56,4 +57,3 @@ The default freedesktop.org sound theme following the XDG theming.
 * /usr/share/sounds/freedesktop/stereo/trash-empty.oga
 * /usr/share/sounds/freedesktop/stereo/window-attention.oga
 * /usr/share/sounds/freedesktop/stereo/window-question.oga
-{{< /files >}}

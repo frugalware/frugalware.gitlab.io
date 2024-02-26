@@ -16,7 +16,8 @@ reverse_depends = "['gail', 'gtk+2-libs', 'gtk+3', 'qt6-base']"
 +++
 Gnome Accessibility Toolkit
 
-{{< files text="show files" >}}* /etc/xdg/autostart/at-spi-dbus-bus.desktop
+## Files: 
+* /etc/xdg/autostart/at-spi-dbus-bus.desktop
 * /etc/xdg/Xwayland-session.d/00-at-spi
 * /usr/include/at-spi2-atk/2.0/atk-bridge.h
 * /usr/include/atk-1.0/atk/atk-autocleanups.h
@@ -177,4 +178,3 @@ Gnome Accessibility Toolkit
 * /usr/share/locale/zh_HK/LC_MESSAGES/at-spi2-core.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/at-spi2-core.mo
 * /usr/share/locale/zu/LC_MESSAGES/at-spi2-core.mo
-{{< /files >}}

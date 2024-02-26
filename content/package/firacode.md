@@ -15,7 +15,8 @@ depends = "['fontconfig', 'mkfontscale', 'ttf-bitstream-vera']"
 +++
 Monospaced font with programming ligatures
 
-{{< files text="show files" >}}* /usr/share/doc/firacode-6.2/README.txt
+## Files: 
+* /usr/share/doc/firacode-6.2/README.txt
 * /usr/share/fonts/X11/TTF/FiraCode-Bold.ttf
 * /usr/share/fonts/X11/TTF/FiraCode-Light.ttf
 * /usr/share/fonts/X11/TTF/FiraCode-Medium.ttf
@@ -23,4 +24,3 @@ Monospaced font with programming ligatures
 * /usr/share/fonts/X11/TTF/FiraCode-Retina.ttf
 * /usr/share/fonts/X11/TTF/FiraCode-SemiBold.ttf
 * /usr/share/fonts/X11/TTF/FiraCode-VF.ttf
-{{< /files >}}

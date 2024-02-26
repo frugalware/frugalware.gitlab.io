@@ -15,7 +15,8 @@ depends = "['curl', 'ldns>=1.7.1', 'libcap-ng', 'libevent>=2.1.11', 'libsystemd'
 +++
 IPsec implementation with IKEv1 and IKEv2 keying protocols
 
-{{< files text="show files" >}}* /etc/ipsec.conf
+## Files: 
+* /etc/ipsec.conf
 * /etc/ipsec.d/policies/block
 * /etc/ipsec.d/policies/clear
 * /etc/ipsec.d/policies/clear-or-private
@@ -72,4 +73,3 @@ IPsec implementation with IKEv1 and IKEv2 keying protocols
 * /usr/share/doc/libreswan-4.12/README.x509
 * /usr/share/doc/libreswan/ipsec.conf-sample
 * /usr/share/doc/libreswan/ipsec.secrets-sample
-{{< /files >}}

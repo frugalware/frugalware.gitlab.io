@@ -15,5 +15,5 @@ depends = "['flac>=1.4.0', 'gst1-plugins-base>=1.22.10', 'gst1-plugins-good>=1.2
 +++
 GStreamer flac plugin (Good).
 
-{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstflac.so
-{{< /files >}}
+## Files: 
+* /usr/lib/gstreamer-1.0/libgstflac.so

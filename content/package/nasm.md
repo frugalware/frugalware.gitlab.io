@@ -15,7 +15,8 @@ depends = "['glibc>=2.3.4']"
 +++
 NASM is the Netwide Assembler
 
-{{< files text="show files" >}}* /usr/bin/nasm
+## Files: 
+* /usr/bin/nasm
 * /usr/bin/ndisasm
 * /usr/share/doc/nasm-2.16.01/AUTHORS
 * /usr/share/doc/nasm-2.16.01/ChangeLog
@@ -25,4 +26,3 @@ NASM is the Netwide Assembler
 * /usr/share/doc/nasm-2.16.01/README.md
 * /usr/share/man/man1/nasm.1.gz
 * /usr/share/man/man1/ndisasm.1.gz
-{{< /files >}}

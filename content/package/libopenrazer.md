@@ -16,7 +16,8 @@ reverse_depends = "['razergenie']"
 +++
 Qt wrapper around the D-Bus API from OpenRazer
 
-{{< files text="show files" >}}* /usr/include/libopenrazer.h
+## Files: 
+* /usr/include/libopenrazer.h
 * /usr/include/libopenrazer/dbusexception.h
 * /usr/include/libopenrazer/device.h
 * /usr/include/libopenrazer/led.h
@@ -29,4 +30,3 @@ Qt wrapper around the D-Bus API from OpenRazer
 * /usr/lib/libopenrazer.so.0.2.0
 * /usr/lib/pkgconfig/libopenrazer.pc
 * /usr/share/doc/libopenrazer-0.2.0/README.md
-{{< /files >}}

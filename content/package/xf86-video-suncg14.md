@@ -16,4 +16,4 @@ license = "GPL2"
 +++
 X.Org video driver for suncg14 cards
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

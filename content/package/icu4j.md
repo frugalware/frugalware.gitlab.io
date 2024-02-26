@@ -15,6 +15,6 @@ depends = "[]"
 +++
 ICU4J is a set of Java libraries providing Unicode and Globalization support.
 
-{{< files text="show files" >}}* /usr/share/doc/icu4j-73.2/README.txt
+## Files: 
+* /usr/share/doc/icu4j-73.2/README.txt
 * /usr/share/java/icu4j.jar
-{{< /files >}}

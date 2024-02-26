@@ -16,7 +16,8 @@ reverse_depends = "['obconf']"
 +++
 A standards compliant, fast, light-weight, extensible window manager.
 
-{{< files text="show files" >}}* /etc/X11/sessions/openbox-kde.desktop
+## Files: 
+* /etc/X11/sessions/openbox-kde.desktop
 * /etc/X11/sessions/openbox.desktop
 * /etc/xdg/openbox/autostart
 * /etc/xdg/openbox/environment
@@ -167,4 +168,3 @@ A standards compliant, fast, light-weight, extensible window manager.
 * /usr/share/themes/Syscrash/openbox-3/themerc
 * /usr/share/xsessions/openbox-kde.desktop
 * /usr/share/xsessions/openbox.desktop
-{{< /files >}}

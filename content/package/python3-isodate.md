@@ -16,7 +16,8 @@ reverse_depends = "['rdflib', 'streamlink']"
 +++
 An ISO 8601 date/time/duration parser and formater
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/isodate-0.6.1-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/isodate-0.6.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/isodate-0.6.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/isodate-0.6.1-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/isodate-0.6.1-py3.12.egg-info/SOURCES.txt
@@ -56,4 +57,3 @@ An ISO 8601 date/time/duration parser and formater
 * /usr/lib/python3.12/site-packages/isodate/__pycache__/tzinfo.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/isodate/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-isodate-0.6.1/README.rst
-{{< /files >}}

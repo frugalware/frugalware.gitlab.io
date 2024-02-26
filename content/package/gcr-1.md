@@ -16,7 +16,8 @@ reverse_depends = "['gcr-1-doc', 'gnome-keyring', 'gvfs', 'nm-openconnect', 'sea
 +++
 A library for bits of crypto UI
 
-{{< files text="show files" >}}* /usr/bin/gcr-viewer
+## Files: 
+* /usr/bin/gcr-viewer
 * /usr/include/gck-1/gck/gck-deprecated.h
 * /usr/include/gck-1/gck/gck-enum-types.h
 * /usr/include/gck-1/gck/gck-version.h
@@ -1180,4 +1181,3 @@ A library for bits of crypto UI
 * /usr/share/vala/vapi/gcr-ui-3.deps
 * /usr/share/vala/vapi/gcr-ui-3.vapi
 * /usr/share/vala/vapi/pkcs11.vapi
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['perl-module-runtime']"
 +++
 Build and install Perl modules
 
-{{< files text="show files" >}}* /usr/bin/site_perl/config_data
+## Files: 
+* /usr/bin/site_perl/config_data
 * /usr/lib/perl5/site_perl/Module/Build.pm
 * /usr/lib/perl5/site_perl/Module/Build/API.pod
 * /usr/lib/perl5/site_perl/Module/Build/Authoring.pod
@@ -65,4 +66,3 @@ Build and install Perl modules
 * /usr/share/man/man3/Module::Build::Platform::VOS.3perl.gz
 * /usr/share/man/man3/Module::Build::Platform::Windows.3perl.gz
 * /usr/share/man/man3/Module::Build::PPMMaker.3perl.gz
-{{< /files >}}

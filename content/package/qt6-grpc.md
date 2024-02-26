@@ -15,7 +15,8 @@ depends = "['grpc>=1.62', 'qt6-quick3d']"
 +++
 The Qt6 toolkit, qtgrpc
 
-{{< files text="show files" >}}* /usr/include/qt6/QtGrpc/6.6.2/QtGrpc/private/qabstractgrpcchannel_p.h
+## Files: 
+* /usr/include/qt6/QtGrpc/6.6.2/QtGrpc/private/qabstractgrpcchannel_p.h
 * /usr/include/qt6/QtGrpc/6.6.2/QtGrpc/private/qgrpcchannel_p.h
 * /usr/include/qt6/QtGrpc/6.6.2/QtGrpc/private/qtgrpc-config_p.h
 * /usr/include/qt6/QtGrpc/6.6.2/QtGrpc/private/qtgrpcglobal_p.h
@@ -216,4 +217,3 @@ The Qt6 toolkit, qtgrpc
 * /usr/lib/qt6/modules/ProtobufWellKnownTypes.json
 * /usr/lib/qt6/qtgrpcgen
 * /usr/lib/qt6/qtprotobufgen
-{{< /files >}}

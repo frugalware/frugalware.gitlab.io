@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Kinyarwanda Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/locale/rw/charset
+## Files: 
+* usr/share/locale/rw/charset
 * usr/share/locale/rw/entry.desktop
 * usr/share/locale/rw/LC_MESSAGES/akregator.mo
 * usr/share/locale/rw/LC_MESSAGES/akregator_konqplugin.mo
@@ -575,4 +576,3 @@ Kinyarwanda Localization for KDE.
 * usr/share/locale/rw/LC_MESSAGES/wakeup.mo
 * usr/share/locale/rw/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/rw/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

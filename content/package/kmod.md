@@ -16,7 +16,8 @@ reverse_depends = "['dracut', 'hwdata', 'intel-gpu-tools', 'inxi', 'iscsi', 'ker
 +++
 Utilities for inserting and removing modules from the Linux kernel
 
-{{< files text="show files" >}}* /etc/modules-load.d/sysconfig.conf
+## Files: 
+* /etc/modules-load.d/sysconfig.conf
 * /etc/sysconfig/modules
 * /usr/bin/depmod
 * /usr/bin/insmod
@@ -48,4 +49,3 @@ Utilities for inserting and removing modules from the Linux kernel
 * /usr/share/man/man8/modinfo.8.gz
 * /usr/share/man/man8/modprobe.8.gz
 * /usr/share/man/man8/rmmod.8.gz
-{{< /files >}}

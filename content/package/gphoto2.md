@@ -16,7 +16,8 @@ reverse_depends = "['gvfs-gphoto2', 'kamera']"
 +++
 A set of digital camera applications for Unix-like systems.
 
-{{< files text="show files" >}}* /usr/bin/gphoto2
+## Files: 
+* /usr/bin/gphoto2
 * /usr/share/doc/gphoto2-2.5.28/AUTHORS
 * /usr/share/doc/gphoto2-2.5.28/ChangeLog
 * /usr/share/doc/gphoto2-2.5.28/COPYING
@@ -55,4 +56,3 @@ A set of digital camera applications for Unix-like systems.
 * /usr/share/locale/zh_CN/LC_MESSAGES/gphoto2.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/gphoto2.mo
 * /usr/share/man/man1/gphoto2.1.gz
-{{< /files >}}

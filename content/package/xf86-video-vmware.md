@@ -17,10 +17,10 @@ license = "GPL2"
 +++
 X.Org video driver for vmware cards
 
-{{< files text="show files" >}}* /usr/lib/xorg/modules/drivers/vmware_drv.so
+## Files: 
+* /usr/lib/xorg/modules/drivers/vmware_drv.so
 * /usr/share/doc/xf86-video-vmware-13.4.0/ChangeLog
 * /usr/share/doc/xf86-video-vmware-13.4.0/COPYING
 * /usr/share/doc/xf86-video-vmware-13.4.0/INSTALL
 * /usr/share/doc/xf86-video-vmware-13.4.0/README
 * /usr/share/man/man4/vmware.4.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libnl>=3.2.9', 'openssl>=3.1.0']"
 +++
 A daemon for managing software wireless access points.
 
-{{< files text="show files" >}}* /etc/hostapd/hostapd.accept
+## Files: 
+* /etc/hostapd/hostapd.accept
 * /etc/hostapd/hostapd.conf
 * /etc/hostapd/hostapd.deny
 * /etc/hostapd/hostapd.eap_user
@@ -37,4 +38,3 @@ A daemon for managing software wireless access points.
 * /usr/share/doc/hostapd-2.10/THANKS
 * /usr/share/man/man1/hostapd_cli.1.gz
 * /usr/share/man/man8/hostapd.8.gz
-{{< /files >}}

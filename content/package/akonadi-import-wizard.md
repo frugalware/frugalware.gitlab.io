@@ -16,7 +16,8 @@ reverse_depends = "['kdepim-addons', 'kmail']"
 +++
 KMail import wizard application.
 
-{{< files text="show files" >}}* /usr/bin/akonadiimportwizard
+## Files: 
+* /usr/bin/akonadiimportwizard
 * /usr/include/KPim5/ImportWizard/ImportWizard/AbstractAddressBook
 * /usr/include/KPim5/ImportWizard/importwizard/abstractaddressbook.h
 * /usr/include/KPim5/ImportWizard/ImportWizard/AbstractBase
@@ -134,4 +135,3 @@ KMail import wizard application.
 * /usr/share/locale/zh_TW/LC_MESSAGES/akonadiimportwizard.mo
 * /usr/share/qlogging-categories5/importwizard.categories
 * /usr/share/qlogging-categories5/importwizard.renamecategories
-{{< /files >}}

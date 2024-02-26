@@ -16,7 +16,8 @@ reverse_depends = "['kxmlgui']"
 +++
 Global desktop keyboard shortcuts.
 
-{{< files text="show files" >}}* /usr/bin/kglobalaccel5
+## Files: 
+* /usr/bin/kglobalaccel5
 * /usr/include/KF5/KGlobalAccel/KGlobalAccel
 * /usr/include/KF5/KGlobalAccel/kglobalaccel.h
 * /usr/include/KF5/KGlobalAccel/kglobalaccel_export.h
@@ -145,4 +146,3 @@ Global desktop keyboard shortcuts.
 * /usr/share/qlogging-categories5/kglobalaccel.categories
 * /usr/share/qlogging-categories5/kglobalaccel.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KGlobalAccel.pri
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['glibc>=2.35']"
 +++
 An efficient object serialization library (C++)
 
-{{< files text="show files" >}}* /usr/include/msgpack.hpp
+## Files: 
+* /usr/include/msgpack.hpp
 * /usr/include/msgpack/adaptor/adaptor_base.hpp
 * /usr/include/msgpack/adaptor/adaptor_base_decl.hpp
 * /usr/include/msgpack/adaptor/array_ref.hpp
@@ -754,4 +755,3 @@ An efficient object serialization library (C++)
 * /usr/share/doc/msgpack-cxx-6.1.0/COPYING
 * /usr/share/doc/msgpack-cxx-6.1.0/README
 * /usr/share/doc/msgpack-cxx-6.1.0/README.md
-{{< /files >}}

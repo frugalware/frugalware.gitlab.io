@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Tajik Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/khangman/data/tg/animals.kvtml
+## Files: 
+* usr/share/apps/khangman/data/tg/animals.kvtml
 * usr/share/apps/khangman/data/tg/easy.kvtml
 * usr/share/apps/khangman/data/tg/hard.kvtml
 * usr/share/apps/khangman/data/tg/medium.kvtml
@@ -522,4 +523,3 @@ Tajik Localization for KDE.
 * usr/share/locale/tg/LC_MESSAGES/wakeup.mo
 * usr/share/locale/tg/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/tg/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

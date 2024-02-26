@@ -16,7 +16,8 @@ reverse_depends = "['haskell-http-client', 'haskell-warp']"
 +++
 IP Routing Table
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/iproute-1.7.12/Data/IP.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/iproute-1.7.12/Data/IP.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/iproute-1.7.12/Data/IP.hi
 * /usr/lib/ghc-9.8.1/site-local/iproute-1.7.12/Data/IP/Addr.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/iproute-1.7.12/Data/IP/Addr.hi
@@ -53,4 +54,3 @@ IP Routing Table
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/iproute-1.7.12/LICENSE
 * /usr/share/haskell/haskell-iproute/register.sh
 * /usr/share/haskell/haskell-iproute/unregister.sh
-{{< /files >}}

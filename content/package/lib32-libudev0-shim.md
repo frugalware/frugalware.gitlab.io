@@ -16,6 +16,6 @@ reverse_depends = "['steam-native']"
 +++
 libudev.so.0 compatibility library for systems with newer udev versions ( 32bit )
 
-{{< files text="show files" >}}* /usr/lib32/libudev.so.0
+## Files: 
+* /usr/lib32/libudev.so.0
 * /usr/lib32/libudev.so.0.0.9999
-{{< /files >}}

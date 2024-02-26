@@ -15,8 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 allows you to look at and change various attributes of a serial device
 
-{{< files text="show files" >}}* /etc/serial.conf
+## Files: 
+* /etc/serial.conf
 * /usr/bin/setserial
 * /usr/share/doc/setserial-2.17/README
 * /usr/share/man/man8/setserial.8.gz
-{{< /files >}}

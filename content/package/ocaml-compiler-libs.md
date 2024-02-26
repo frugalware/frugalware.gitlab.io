@@ -16,7 +16,8 @@ reverse_depends = "['ocaml-compiler-libs-repackaged', 'opam']"
 +++
 Several modules used internally by the OCaml compiler
 
-{{< files text="show files" >}}* /usr/lib/ocaml/compiler-libs/afl_instrument.cmi
+## Files: 
+* /usr/lib/ocaml/compiler-libs/afl_instrument.cmi
 * /usr/lib/ocaml/compiler-libs/afl_instrument.cmt
 * /usr/lib/ocaml/compiler-libs/afl_instrument.cmti
 * /usr/lib/ocaml/compiler-libs/afl_instrument.cmx
@@ -1391,4 +1392,3 @@ Several modules used internally by the OCaml compiler
 * /usr/lib/ocaml/compiler-libs/x86_proc.cmti
 * /usr/lib/ocaml/compiler-libs/x86_proc.cmx
 * /usr/lib/ocaml/compiler-libs/x86_proc.mli
-{{< /files >}}

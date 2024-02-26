@@ -15,7 +15,8 @@ depends = "['findutils', 'procps-ng', 'rsync', 'systemd']"
 +++
 Syncs browser profiles to tmpfs reducing SSD/HDD calls and speeding-up browsers.
 
-{{< files text="show files" >}}* /usr/bin/profile-sync-daemon
+## Files: 
+* /usr/bin/profile-sync-daemon
 * /usr/bin/psd
 * /usr/bin/psd-overlay-helper
 * /usr/bin/psd-suspend-sync
@@ -63,4 +64,3 @@ Syncs browser profiles to tmpfs reducing SSD/HDD calls and speeding-up browsers.
 * /usr/share/psd/contrib/vscode
 * /usr/share/psd/psd.conf
 * /usr/share/zsh/site-functions/_psd
-{{< /files >}}

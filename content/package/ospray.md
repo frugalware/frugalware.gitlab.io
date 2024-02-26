@@ -15,7 +15,8 @@ depends = "['benchmark', 'glfw', 'libglu', 'openmpi', 'openvkl>=1.0.0', 'snappy'
 +++
 A Ray Tracing Based Rendering Engine for High-Fidelity Visualization
 
-{{< files text="show files" >}}* /usr/bin/ospBenchmark
+## Files: 
+* /usr/bin/ospBenchmark
 * /usr/bin/ospConvertRawToAMR
 * /usr/bin/ospExamples
 * /usr/bin/ospMPIDistribTestSuite
@@ -99,4 +100,3 @@ A Ray Tracing Based Rendering Engine for High-Fidelity Visualization
 * /usr/share/doc/OSPRay/third-party-programs-oneTBB.txt
 * /usr/share/doc/OSPRay/third-party-programs-OpenVKL.txt
 * /usr/share/doc/OSPRay/third-party-programs.txt
-{{< /files >}}

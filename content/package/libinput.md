@@ -16,7 +16,8 @@ reverse_depends = "['efl', 'enlightenment', 'libinput-debug-events', 'libinput-g
 +++
 A library to handle input devices in Wayland compositors and to provide a generic X.Org input driver
 
-{{< files text="show files" >}}* /usr/bin/libinput
+## Files: 
+* /usr/bin/libinput
 * /usr/bin/libinput-list-devices
 * /usr/include/libinput.h
 * /usr/lib/libinput.so
@@ -113,4 +114,3 @@ A library to handle input devices in Wayland compositors and to provide a generi
 * /usr/share/man/man1/libinput-test.1.gz
 * /usr/share/man/man1/libinput.1.gz
 * /usr/share/zsh/site-functions/_libinput
-{{< /files >}}

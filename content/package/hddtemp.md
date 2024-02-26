@@ -16,7 +16,8 @@ reverse_depends = "['inxi']"
 +++
 hddtemp will show you the hard drive's temperature if the hard drive supports it
 
-{{< files text="show files" >}}* /etc/sysconfig/hddtemp
+## Files: 
+* /etc/sysconfig/hddtemp
 * /usr/bin/hddtemp
 * /usr/lib/systemd/system/hddtemp.service
 * /usr/share/doc/hddtemp-0.3_beta15/ChangeLog
@@ -32,4 +33,3 @@ hddtemp will show you the hard drive's temperature if the hard drive supports it
 * /usr/share/locale/ru/LC_MESSAGES/hddtemp.mo
 * /usr/share/locale/sv/LC_MESSAGES/hddtemp.mo
 * /usr/share/man/man8/hddtemp.8.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['haskell-xml-conduit']"
 +++
 Batteries included conduit: adapters for common libraries
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/conduit-extra-1.3.6/Data/Conduit/Attoparsec.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/conduit-extra-1.3.6/Data/Conduit/Attoparsec.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/conduit-extra-1.3.6/Data/Conduit/Attoparsec.hi
 * /usr/lib/ghc-9.8.1/site-local/conduit-extra-1.3.6/Data/Conduit/Binary.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/conduit-extra-1.3.6/Data/Conduit/Binary.hi
@@ -92,4 +93,3 @@ Batteries included conduit: adapters for common libraries
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/conduit-extra-1.3.6/LICENSE
 * /usr/share/haskell/haskell-conduit-extra/register.sh
 * /usr/share/haskell/haskell-conduit-extra/unregister.sh
-{{< /files >}}

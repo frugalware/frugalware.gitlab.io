@@ -16,7 +16,7 @@ reverse_depends = "['vlc']"
 +++
 VAAPI mesa driver
 
-{{< files text="show files" >}}* /usr/lib/dri/nouveau_drv_video.so
+## Files: 
+* /usr/lib/dri/nouveau_drv_video.so
 * /usr/lib/dri/r600_drv_video.so
 * /usr/lib/dri/radeonsi_drv_video.so
-{{< /files >}}

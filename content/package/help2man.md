@@ -15,7 +15,8 @@ depends = "['perl-gettext>=1.07-4']"
 +++
 A script to create simple man pages from the --help and --version output of programs.
 
-{{< files text="show files" >}}* /usr/bin/help2man
+## Files: 
+* /usr/bin/help2man
 * /usr/lib/help2man/bindtextdomain.so
 * /usr/share/doc/help2man-1.48.5/ChangeLog
 * /usr/share/doc/help2man-1.48.5/COPYING
@@ -77,4 +78,3 @@ A script to create simple man pages from the --help and --version output of prog
 * /usr/share/man/uk/man1/help2man.1.gz
 * /usr/share/man/vi/man1/help2man.1.gz
 * /usr/share/man/zh_CN/man1/help2man.1.gz
-{{< /files >}}

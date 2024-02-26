@@ -16,7 +16,8 @@ reverse_depends = "['dcron', 'scriptlet-core']"
 +++
 Miscellaneous procfs tools
 
-{{< files text="show files" >}}* /usr/bin/fuser
+## Files: 
+* /usr/bin/fuser
 * /usr/bin/killall
 * /usr/bin/peekfd
 * /usr/bin/prtstat
@@ -126,4 +127,3 @@ Miscellaneous procfs tools
 * /usr/share/man/uk/man1/prtstat.1.gz
 * /usr/share/man/uk/man1/pslog.1.gz
 * /usr/share/man/uk/man1/pstree.1.gz
-{{< /files >}}

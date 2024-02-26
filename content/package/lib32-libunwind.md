@@ -16,7 +16,8 @@ reverse_depends = "['lib32-mesa-dri-drivers']"
 +++
 Portable and efficient C programming interface (API) to determine the call-chain of a program ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/libunwind-common.h
+## Files: 
+* /usr/i686-frugalware-linux/include/libunwind-common.h
 * /usr/i686-frugalware-linux/include/libunwind-coredump.h
 * /usr/i686-frugalware-linux/include/libunwind-dynamic.h
 * /usr/i686-frugalware-linux/include/libunwind-ptrace.h
@@ -90,4 +91,3 @@ Portable and efficient C programming interface (API) to determine the call-chain
 * /usr/lib32/pkgconfig/libunwind-ptrace.pc
 * /usr/lib32/pkgconfig/libunwind-setjmp.pc
 * /usr/lib32/pkgconfig/libunwind.pc
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['python3']"
 +++
 A password hashing library for Python
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/passlib-1.7.4-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/passlib-1.7.4-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/passlib-1.7.4-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/passlib-1.7.4-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/passlib-1.7.4-py3.12.egg-info/SOURCES.txt
@@ -221,4 +222,3 @@ A password hashing library for Python
 * /usr/lib/python3.12/site-packages/passlib/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-passlib-1.7.4/LICENSE
 * /usr/share/doc/python3-passlib-1.7.4/README
-{{< /files >}}

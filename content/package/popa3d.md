@@ -15,9 +15,9 @@ depends = "['openssl>=3.1.0']"
 +++
 A Post Office Protocol version 3 (POP3) server
 
-{{< files text="show files" >}}* /usr/bin/popa3d
+## Files: 
+* /usr/bin/popa3d
 * /usr/share/doc/popa3d-1.0.3/CHANGES
 * /usr/share/doc/popa3d-1.0.3/INSTALL
 * /usr/share/doc/popa3d-1.0.3/LICENSE
 * /usr/share/man/man8/popa3d.8.gz
-{{< /files >}}

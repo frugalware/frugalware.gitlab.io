@@ -16,7 +16,8 @@ reverse_depends = "['autoconf', 'autoconf213', 'automake', 'backupninja', 'bash-
 +++
 The GNU Bourne Again shell
 
-{{< files text="show files" >}}* /etc/bashrc
+## Files: 
+* /etc/bashrc
 * /etc/profile
 * /etc/shells
 * /etc/skel/.bashrc
@@ -179,4 +180,3 @@ The GNU Bourne Again shell
 * /usr/share/locale/zh_TW/LC_MESSAGES/bash.mo
 * /usr/share/man/man1/bash.1.gz
 * /usr/share/man/man1/bashbug.1.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['kio-extras', 'kio-zeroconf', 'knotes', 'kopete', 'krdc', 'k
 +++
 Zeroconf Support for KDE.
 
-{{< files text="show files" >}}* /usr/include/KF5/KDNSSD/DNSSD/DomainBrowser
+## Files: 
+* /usr/include/KF5/KDNSSD/DNSSD/DomainBrowser
 * /usr/include/KF5/KDNSSD/dnssd/domainbrowser.h
 * /usr/include/KF5/KDNSSD/DNSSD/DomainModel
 * /usr/include/KF5/KDNSSD/dnssd/domainmodel.h
@@ -159,4 +160,3 @@ Zeroconf Support for KDE.
 * /usr/share/locale/zh_HK/LC_MESSAGES/kdnssd5_qt.qm
 * /usr/share/locale/zh_TW/LC_MESSAGES/kdnssd5_qt.qm
 * /usr/share/qt5/mkspecs/modules/qt_KDNSSD.pri
-{{< /files >}}

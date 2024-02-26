@@ -15,7 +15,7 @@ depends = "['vte3']"
 +++
 A graphical (gtk) version of amtterm
 
-{{< files text="show files" >}}* /usr/bin/gamt
+## Files: 
+* /usr/bin/gamt
 * /usr/share/applications/gamt.desktop
 * /usr/share/man/man1/gamt.1.gz
-{{< /files >}}

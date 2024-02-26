@@ -16,7 +16,8 @@ reverse_depends = "['docker', 'dracut', 'kernel-initrd', 'kernel-lts-initrd', 'l
 +++
 Logical Volume Manager 2 utilities
 
-{{< files text="show files" >}}* /etc/dracut.conf.d/11-lvm2.conf
+## Files: 
+* /etc/dracut.conf.d/11-lvm2.conf
 * /etc/lvm/cache/.cache
 * /etc/lvm/lvm.conf
 * /etc/lvm/lvmlocal.conf
@@ -172,4 +173,3 @@ Logical Volume Manager 2 utilities
 * /usr/share/man/man8/vgs.8.gz
 * /usr/share/man/man8/vgscan.8.gz
 * /usr/share/man/man8/vgsplit.8.gz
-{{< /files >}}

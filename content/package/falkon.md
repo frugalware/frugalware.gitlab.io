@@ -16,7 +16,8 @@ reverse_depends = "['falkon-kde', 'falkon-python-plugins']"
 +++
 Web browser written in Qt.
 
-{{< files text="show files" >}}* /usr/bin/falkon
+## Files: 
+* /usr/bin/falkon
 * /usr/lib/libFalkonPrivate.so.23.08.5
 * /usr/lib/libFalkonPrivate.so.3
 * /usr/share/applications/org.kde.falkon.desktop
@@ -844,4 +845,3 @@ Web browser written in Qt.
 * /usr/share/locale/zh_TW/LC_MESSAGES/falkon_testplugin_qt.qm
 * /usr/share/locale/zh_TW/LC_MESSAGES/falkon_verticaltabs_qt.qm
 * /usr/share/metainfo/org.kde.falkon.appdata.xml
-{{< /files >}}

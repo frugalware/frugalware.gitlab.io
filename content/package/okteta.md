@@ -16,7 +16,8 @@ reverse_depends = "['kdevelop']"
 +++
 Okteta is a simple hexadecimal editor or binary editor.
 
-{{< files text="show files" >}}* /usr/bin/okteta
+## Files: 
+* /usr/bin/okteta
 * /usr/bin/struct2osd
 * /usr/include/KastenControllers/Kasten/ClipboardControllerFactory
 * /usr/include/KastenControllers/kasten/clipboardcontrollerfactory.hpp
@@ -914,4 +915,3 @@ Okteta is a simple hexadecimal editor or binary editor.
 * /usr/share/okteta/structures/uuid.js
 * /usr/share/qt5/mkspecs/modules/qt_OktetaCore.pri
 * /usr/share/qt5/mkspecs/modules/qt_OktetaGui.pri
-{{< /files >}}

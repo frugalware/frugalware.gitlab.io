@@ -16,7 +16,8 @@ reverse_depends = "['sysprof']"
 +++
 A library supporting 'Deferred Execution'
 
-{{< files text="show files" >}}* /usr/include/libdex-1/dex-aio.h
+## Files: 
+* /usr/include/libdex-1/dex-aio.h
 * /usr/include/libdex-1/dex-async-pair.h
 * /usr/include/libdex-1/dex-async-result.h
 * /usr/include/libdex-1/dex-block.h
@@ -53,4 +54,3 @@ A library supporting 'Deferred Execution'
 * /usr/share/gir-1.0/Dex-1.gir
 * /usr/share/vala/vapi/libdex-1.deps
 * /usr/share/vala/vapi/libdex-1.vapi
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['ffmpeg>=6.0', 'freetype2', 'lua', 'sdl2', 'sdl2_image']"
 +++
 Free and open source karaoke game. (GIT)
 
-{{< files text="show files" >}}* /usr/bin/ultrastardx
+## Files: 
+* /usr/bin/ultrastardx
 * /usr/share/applications/ultrastardx.desktop
 * /usr/share/doc/ultrastardx-2020.4.0/COPYRIGHT.txt
 * /usr/share/doc/ultrastardx-2020.4.0/LICENSE
@@ -748,4 +749,3 @@ Free and open source karaoke game. (GIT)
 * /usr/share/ultrastardx/themes/Modern/[stat]mainBG3.png
 * /usr/share/ultrastardx/themes/Modern/[tournament]trophy.png
 * /usr/share/ultrastardx/themes/Modern/[tournament]winner.png
-{{< /files >}}

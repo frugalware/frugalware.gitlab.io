@@ -15,7 +15,8 @@ depends = "['python3-setuptools_scm']"
 +++
 A standalone version of AFDKO’s autohinter
 
-{{< files text="show files" >}}* /usr/bin/psautohint
+## Files: 
+* /usr/bin/psautohint
 * /usr/bin/psstemhist
 * /usr/lib/python3.12/site-packages/psautohint-2.3.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/psautohint-2.3.1-py3.12.egg-info/entry_points.txt
@@ -40,4 +41,3 @@ A standalone version of AFDKO’s autohinter
 * /usr/share/doc/psautohint-2.3.1/COPYING
 * /usr/share/doc/psautohint-2.3.1/LICENSE
 * /usr/share/doc/psautohint-2.3.1/README.md
-{{< /files >}}

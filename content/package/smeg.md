@@ -15,7 +15,8 @@ depends = "['pyxdg']"
 +++
 Menu editor for GNOME that lets you get things done, simply and quickly.
 
-{{< files text="show files" >}}* usr/bin/smeg
+## Files: 
+* usr/bin/smeg
 * usr/lib/smeg/config.py
 * usr/lib/smeg/DialogHandler.py
 * usr/lib/smeg/MenuHandler.py
@@ -26,4 +27,3 @@ Menu editor for GNOME that lets you get things done, simply and quickly.
 * usr/share/doc/smeg-0.7.5/COPYING
 * usr/share/doc/smeg-0.7.5/INSTALL
 * usr/share/doc/smeg-0.7.5/README
-{{< /files >}}

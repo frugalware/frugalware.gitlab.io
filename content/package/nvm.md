@@ -15,10 +15,10 @@ depends = "['bash']"
 +++
 Node Version Manager - Simple bash script to manage multiple active node.js versions
 
-{{< files text="show files" >}}* /usr/share/doc/nvm-0.39.7/README.md
+## Files: 
+* /usr/share/doc/nvm-0.39.7/README.md
 * /usr/share/nvm/bash_completion
 * /usr/share/nvm/init-nvm.sh
 * /usr/share/nvm/install-nvm-exec
 * /usr/share/nvm/nvm-exec
 * /usr/share/nvm/nvm.sh
-{{< /files >}}

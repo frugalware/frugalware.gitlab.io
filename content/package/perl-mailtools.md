@@ -16,7 +16,8 @@ reverse_depends = "['amavisd-new', 'perl-mail-dkim', 'perl-mime-tools']"
 +++
 Manipulate email in perl programs
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/Mail/Address.pm
+## Files: 
+* /usr/lib/perl5/site_perl/current/Mail/Address.pm
 * /usr/lib/perl5/site_perl/current/Mail/Address.pod
 * /usr/lib/perl5/site_perl/current/Mail/Cap.pm
 * /usr/lib/perl5/site_perl/current/Mail/Cap.pod
@@ -66,4 +67,3 @@ Manipulate email in perl programs
 * /usr/share/man/man3/Mail::Send.3perl.gz
 * /usr/share/man/man3/Mail::Util.3perl.gz
 * /usr/share/man/man3/MailTools.3perl.gz
-{{< /files >}}

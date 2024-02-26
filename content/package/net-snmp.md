@@ -16,7 +16,8 @@ reverse_depends = "['hplip-driver', 'rsyslog-snmp']"
 +++
 A suite of applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both IPv4 and IPv6
 
-{{< files text="show files" >}}* /usr/bin/agentxtrap
+## Files: 
+* /usr/bin/agentxtrap
 * /usr/bin/checkbandwidth
 * /usr/bin/encode_keychange
 * /usr/bin/fixproc
@@ -617,4 +618,3 @@ A suite of applications used to implement SNMP v1, SNMP v2c and SNMP v3 using bo
 * /usr/share/snmp/snmpconf-data/snmptrapd-data/traphandle
 * /usr/share/snmp/snmp_perl.pl
 * /usr/share/snmp/snmp_perl_trapd.pl
-{{< /files >}}

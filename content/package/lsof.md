@@ -15,10 +15,10 @@ depends = "['glibc>=2.29-6']"
 +++
 Displays information about files open to Unix processes.
 
-{{< files text="show files" >}}* /usr/bin/lsof
+## Files: 
+* /usr/bin/lsof
 * /usr/share/doc/lsof-4.91A/00.README.FIRST
 * /usr/share/doc/lsof-4.91A/00FAQ
 * /usr/share/doc/lsof-4.91A/00README
 * /usr/share/doc/lsof-4.91A/ChangeLog
 * /usr/share/man/man8/lsof.8.gz
-{{< /files >}}

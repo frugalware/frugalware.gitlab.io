@@ -16,7 +16,8 @@ reverse_depends = "['hotdoc', 'insight-toolkit', 'lldb', 'qtcreator']"
 +++
 C/C++ language family frontend for LLVM
 
-{{< files text="show files" >}}* /usr/bin/analyze-build
+## Files: 
+* /usr/bin/analyze-build
 * /usr/bin/c-index-test
 * /usr/bin/clang
 * /usr/bin/clang++
@@ -2733,4 +2734,3 @@ C/C++ language family frontend for LLVM
 * /usr/share/scan-view/__pycache__/ScanView.cpython-312.pyc
 * /usr/share/scan-view/__pycache__/startfile.cpython-312.opt-1.pyc
 * /usr/share/scan-view/__pycache__/startfile.cpython-312.pyc
-{{< /files >}}

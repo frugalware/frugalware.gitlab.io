@@ -16,7 +16,8 @@ reverse_depends = "['ounit']"
 +++
 compatibility package for the standard OCaml iterator type
 
-{{< files text="show files" >}}* /usr/lib/ocaml/seq/dune-package
+## Files: 
+* /usr/lib/ocaml/seq/dune-package
 * /usr/lib/ocaml/seq/META
 * /usr/lib/ocaml/seq/opam
 * /usr/lib/ocaml/seq/seq.a
@@ -34,4 +35,3 @@ compatibility package for the standard OCaml iterator type
 * /usr/share/doc/ocaml-seq-0.3.1/seq/CHANGES.md
 * /usr/share/doc/ocaml-seq-0.3.1/seq/LICENSE
 * /usr/share/doc/ocaml-seq-0.3.1/seq/README.md
-{{< /files >}}

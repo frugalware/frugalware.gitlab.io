@@ -15,7 +15,8 @@ depends = "['efl>=1.21.0']"
 +++
 Enlightenment Foundation Video Player
 
-{{< files text="show files" >}}* /usr/bin/rage
+## Files: 
+* /usr/bin/rage
 * /usr/lib/rage/utils/rage_thumb
 * /usr/share/applications/rage.desktop
 * /usr/share/doc/rage-0.3.0/AUTHORS
@@ -25,4 +26,3 @@ Enlightenment Foundation Video Player
 * /usr/share/doc/rage-0.3.0/TODO
 * /usr/share/icons/rage.png
 * /usr/share/rage/themes/default.edj
-{{< /files >}}

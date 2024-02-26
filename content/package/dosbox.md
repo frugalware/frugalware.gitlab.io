@@ -15,7 +15,8 @@ depends = "['libdrm', 'libgl', 'libglu', 'libpng>=1.6.23', 'libxxf86vm', 'sdl_ne
 +++
 PC emulator with builtin DOS for running DOS games
 
-{{< files text="show files" >}}* /usr/bin/dosbox
+## Files: 
+* /usr/bin/dosbox
 * /usr/share/doc/dosbox-0.74/AUTHORS
 * /usr/share/doc/dosbox-0.74/ChangeLog
 * /usr/share/doc/dosbox-0.74/COPYING
@@ -24,4 +25,3 @@ PC emulator with builtin DOS for running DOS games
 * /usr/share/doc/dosbox-0.74/README
 * /usr/share/doc/dosbox-0.74/THANKS
 * /usr/share/man/man1/dosbox.1.gz
-{{< /files >}}

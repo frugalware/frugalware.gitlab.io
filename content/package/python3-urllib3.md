@@ -16,7 +16,8 @@ reverse_depends = "['lutris', 'python3-cachecontrol', 'python3-dulwich', 'python
 +++
 HTTP library with thread-safe connection pooling and file post support
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/urllib3-2.2.1.dist-info/licenses/LICENSE.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/urllib3-2.2.1.dist-info/licenses/LICENSE.txt
 * /usr/lib/python3.12/site-packages/urllib3-2.2.1.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/urllib3-2.2.1.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/urllib3-2.2.1.dist-info/WHEEL
@@ -125,4 +126,3 @@ HTTP library with thread-safe connection pooling and file post support
 * /usr/lib/python3.12/site-packages/urllib3/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/urllib3/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-urllib3-2.2.1/README.md
-{{< /files >}}

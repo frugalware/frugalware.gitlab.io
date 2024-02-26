@@ -15,10 +15,10 @@ depends = "[]"
 +++
 Sesame2 storage backend (java-based)
 
-{{< files text="show files" >}}* usr/lib/soprano/libsoprano_sesame2backend.so
+## Files: 
+* usr/lib/soprano/libsoprano_sesame2backend.so
 * usr/share/soprano/plugins/sesame2backend.desktop
 * usr/share/soprano/sesame2/openrdf-sesame-2.2.4-onejar.jar
 * usr/share/soprano/sesame2/slf4j-api-1.5.5.jar
 * usr/share/soprano/sesame2/slf4j-simple-1.5.5.jar
 * usr/share/soprano/sesame2/SopranoSesame2Wrapper.class
-{{< /files >}}

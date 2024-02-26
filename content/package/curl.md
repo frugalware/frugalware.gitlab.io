@@ -16,7 +16,8 @@ reverse_depends = "['alienarena', 'apache', 'appstream', 'appstream-glib', 'assa
 +++
 A command line tool for transferring data specified with URL syntax.
 
-{{< files text="show files" >}}* /usr/bin/curl
+## Files: 
+* /usr/bin/curl
 * /usr/bin/curl-config
 * /usr/include/curl/curl.h
 * /usr/include/curl/curlver.h
@@ -537,4 +538,3 @@ A command line tool for transferring data specified with URL syntax.
 * /usr/share/man/man3/libcurl-url.3.gz
 * /usr/share/man/man3/libcurl-ws.3.gz
 * /usr/share/man/man3/libcurl.3.gz
-{{< /files >}}

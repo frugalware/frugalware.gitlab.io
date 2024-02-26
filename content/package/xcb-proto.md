@@ -16,7 +16,8 @@ reverse_depends = "['x11-protos']"
 +++
 X.org X protocol descriptions for XCB
 
-{{< files text="show files" >}}* /usr/lib/pkgconfig/xcb-proto.pc
+## Files: 
+* /usr/lib/pkgconfig/xcb-proto.pc
 * /usr/lib/python3.12/site-packages/xcbgen/align.py
 * /usr/lib/python3.12/site-packages/xcbgen/error.py
 * /usr/lib/python3.12/site-packages/xcbgen/expr.py
@@ -83,4 +84,3 @@ X.org X protocol descriptions for XCB
 * /usr/share/xcb/xtest.xml
 * /usr/share/xcb/xv.xml
 * /usr/share/xcb/xvmc.xml
-{{< /files >}}

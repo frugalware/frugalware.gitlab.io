@@ -16,7 +16,8 @@ reverse_depends = "['gst1-plugins-bad', 'libpulse']"
 +++
 AudioProcessing library based on Google's implementation of WebRTC
 
-{{< files text="show files" >}}* /usr/include/webrtc_audio_processing/webrtc/base/arraysize.h
+## Files: 
+* /usr/include/webrtc_audio_processing/webrtc/base/arraysize.h
 * /usr/include/webrtc_audio_processing/webrtc/base/basictypes.h
 * /usr/include/webrtc_audio_processing/webrtc/base/checks.h
 * /usr/include/webrtc_audio_processing/webrtc/base/constructormagic.h
@@ -39,4 +40,3 @@ AudioProcessing library based on Google's implementation of WebRTC
 * /usr/share/doc/webrtc-audio-processing-0.3.1/NEWS
 * /usr/share/doc/webrtc-audio-processing-0.3.1/README
 * /usr/share/doc/webrtc-audio-processing-0.3.1/README.md
-{{< /files >}}

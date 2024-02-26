@@ -16,7 +16,8 @@ reverse_depends = "['haskell-servant', 'haskell-wai']"
 +++
 a persistent store for values of arbitrary types
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/vault-0.3.1.5/Data/Unique/Really.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/vault-0.3.1.5/Data/Unique/Really.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/vault-0.3.1.5/Data/Unique/Really.hi
 * /usr/lib/ghc-9.8.1/site-local/vault-0.3.1.5/Data/Vault/Lazy.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/vault-0.3.1.5/Data/Vault/Lazy.hi
@@ -46,4 +47,3 @@ a persistent store for values of arbitrary types
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/vault-0.3.1.5/LICENSE
 * /usr/share/haskell/haskell-vault/register.sh
 * /usr/share/haskell/haskell-vault/unregister.sh
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['haskell-semigroupoids']"
 +++
 bifunctors
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/bifunctors-5.6.1/Data/Biapplicative.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/bifunctors-5.6.1/Data/Biapplicative.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/bifunctors-5.6.1/Data/Biapplicative.hi
 * /usr/lib/ghc-9.8.1/site-local/bifunctors-5.6.1/Data/Bifunctor/Biap.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/bifunctors-5.6.1/Data/Bifunctor/Biap.hi
@@ -75,4 +76,3 @@ bifunctors
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/bifunctors-5.6.1/LICENSE
 * /usr/share/haskell/haskell-bifunctors/register.sh
 * /usr/share/haskell/haskell-bifunctors/unregister.sh
-{{< /files >}}

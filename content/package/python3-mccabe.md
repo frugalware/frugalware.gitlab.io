@@ -16,7 +16,8 @@ reverse_depends = "['lutris', 'pylint']"
 +++
 McCabe complexity checker for Python
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/mccabe-0.7.0-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/mccabe-0.7.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/mccabe-0.7.0-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/mccabe-0.7.0-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/mccabe-0.7.0-py3.12.egg-info/PKG-INFO
@@ -26,4 +27,3 @@ McCabe complexity checker for Python
 * /usr/lib/python3.12/site-packages/__pycache__/mccabe.cpython-312.pyc
 * /usr/share/doc/python3-mccabe-0.7.0/LICENSE
 * /usr/share/doc/python3-mccabe-0.7.0/README.rst
-{{< /files >}}

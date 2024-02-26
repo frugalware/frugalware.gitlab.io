@@ -15,5 +15,5 @@ depends = "['perl>=5.28.2', 'uwsgi']"
 +++
 UWSGI Perl psgi Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/psgi_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/uwsgi/psgi_plugin.so

@@ -16,7 +16,8 @@ reverse_depends = "['calibre', 'enchant', 'firefox', 'ghostwriter', 'hunspell-be
 +++
 An interactive Hungarian spell checker
 
-{{< files text="show files" >}}* /usr/bin/affixcompress
+## Files: 
+* /usr/bin/affixcompress
 * /usr/bin/analyze-hunspell
 * /usr/bin/chmorph
 * /usr/bin/hunspell
@@ -53,4 +54,3 @@ An interactive Hungarian spell checker
 * /usr/share/man/man1/hzip.1.gz
 * /usr/share/man/man3/hunspell.3.gz
 * /usr/share/man/man5/hunspell.5.gz
-{{< /files >}}

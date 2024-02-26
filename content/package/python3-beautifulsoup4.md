@@ -16,7 +16,8 @@ reverse_depends = "['calibre']"
 +++
 Beautiful Soup sits atop an HTML or XML parser, providing Pythonic idioms for iterating, searching, and modifying the parse tree.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/beautifulsoup4-4.12.2.dist-info/licenses/AUTHORS
+## Files: 
+* /usr/lib/python3.12/site-packages/beautifulsoup4-4.12.2.dist-info/licenses/AUTHORS
 * /usr/lib/python3.12/site-packages/beautifulsoup4-4.12.2.dist-info/licenses/LICENSE
 * /usr/lib/python3.12/site-packages/beautifulsoup4-4.12.2.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/beautifulsoup4-4.12.2.dist-info/RECORD
@@ -117,4 +118,3 @@ Beautiful Soup sits atop an HTML or XML parser, providing Pythonic idioms for it
 * /usr/share/doc/python3-beautifulsoup4-4.12.2/CHANGELOG
 * /usr/share/doc/python3-beautifulsoup4-4.12.2/LICENSE
 * /usr/share/doc/python3-beautifulsoup4-4.12.2/README.md
-{{< /files >}}

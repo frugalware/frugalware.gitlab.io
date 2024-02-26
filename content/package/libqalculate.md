@@ -16,7 +16,8 @@ reverse_depends = "['cantor', 'plasma-workspace', 'step']"
 +++
 A multi-purpose desktop calculator library
 
-{{< files text="show files" >}}* /usr/bin/qalc
+## Files: 
+* /usr/bin/qalc
 * /usr/include/libqalculate/BuiltinFunctions.h
 * /usr/include/libqalculate/Calculator.h
 * /usr/include/libqalculate/DataSet.h
@@ -317,4 +318,3 @@ A multi-purpose desktop calculator library
 * /usr/share/qalculate/rates.json
 * /usr/share/qalculate/units.xml
 * /usr/share/qalculate/variables.xml
-{{< /files >}}

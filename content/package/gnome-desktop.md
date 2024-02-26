@@ -16,7 +16,8 @@ reverse_depends = "['gnome-desktop-doc', 'lutris']"
 +++
 The GNOME Desktop
 
-{{< files text="show files" >}}* /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-bg-crossfade.h
+## Files: 
+* /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-bg-crossfade.h
 * /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-bg-slide-show.h
 * /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-bg.h
 * /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-desktop-thumbnail.h
@@ -228,4 +229,3 @@ The GNOME Desktop
 * /usr/share/locale/zh_HK/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/zu/LC_MESSAGES/gnome-desktop-3.0.mo
-{{< /files >}}

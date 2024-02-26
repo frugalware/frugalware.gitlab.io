@@ -15,5 +15,5 @@ depends = "['lua>=5.4', 'uwsgi']"
 +++
 UWSGI Lua Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/lua_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/uwsgi/lua_plugin.so

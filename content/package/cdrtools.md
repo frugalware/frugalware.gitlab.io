@@ -16,7 +16,8 @@ reverse_depends = "['k3b', 'libguestfs', 'wimlib']"
 +++
 Tools for recording CDs
 
-{{< files text="show files" >}}* /etc/default/cdrecord
+## Files: 
+* /etc/default/cdrecord
 * /etc/default/rscsi
 * /etc/modules-load.d/cdrtools.conf
 * /usr/bin/btcflash
@@ -145,4 +146,3 @@ Tools for recording CDs
 * /usr/share/man/man8/isovfy.8.gz
 * /usr/share/man/man8/mkhybrid.8.gz
 * /usr/share/man/man8/mkisofs.8.gz
-{{< /files >}}

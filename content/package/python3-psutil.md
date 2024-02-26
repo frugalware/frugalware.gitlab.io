@@ -16,7 +16,8 @@ reverse_depends = "['bpytop', 'meshroom', 'python3-pidfile', 'yin-yang']"
 +++
 A cross-platform process ans system utilities module for Python
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/psutil-5.9.6-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/psutil-5.9.6-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/psutil-5.9.6-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/psutil-5.9.6-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/psutil-5.9.6-py3.12.egg-info/requires.txt
@@ -112,4 +113,3 @@ A cross-platform process ans system utilities module for Python
 * /usr/share/doc/python3-psutil-5.9.6/INSTALL.rst
 * /usr/share/doc/python3-psutil-5.9.6/LICENSE
 * /usr/share/doc/python3-psutil-5.9.6/README.rst
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['avahi', 'json-glib', 'libappindicator', 'libcups', 'libgcrypt', 'li
 +++
 A GTK+ RDP, VNC, XDMCP and SSH client
 
-{{< files text="show files" >}}* /usr/bin/remmina
+## Files: 
+* /usr/bin/remmina
 * /usr/bin/remmina-file-wrapper
 * /usr/include/remmina/plugin.h
 * /usr/include/remmina/remmina_trace_calls.h
@@ -456,4 +457,3 @@ A GTK+ RDP, VNC, XDMCP and SSH client
 * /usr/share/remmina/theme/zenburned.colors
 * /usr/share/remmina/theme/zenwritten_dark.colors
 * /usr/share/remmina/theme/zenwritten_light.colors
-{{< /files >}}

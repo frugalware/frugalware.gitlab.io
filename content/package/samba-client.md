@@ -16,7 +16,8 @@ reverse_depends = "['gvfs-smb', 'kio-extras', 'mpv', 'samba', 'smb4k']"
 +++
 SMB client tools.
 
-{{< files text="show files" >}}* /usr/bin/net
+## Files: 
+* /usr/bin/net
 * /usr/bin/nmblookup
 * /usr/bin/smbclient
 * /usr/bin/smbspool
@@ -25,4 +26,3 @@ SMB client tools.
 * /usr/share/man/man1/smbclient.1.gz
 * /usr/share/man/man8/net.8.gz
 * /usr/share/man/man8/smbspool.8.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['connman', 'nm-openvpn']"
 +++
 A secure tunneling daemon
 
-{{< files text="show files" >}}* /etc/tmpfiles.d/openvpn.conf
+## Files: 
+* /etc/tmpfiles.d/openvpn.conf
 * /usr/bin/openvpn
 * /usr/include/openvpn-msg.h
 * /usr/include/openvpn-plugin.h
@@ -79,4 +80,3 @@ A secure tunneling daemon
 * /usr/share/doc/openvpn-2.6.8/sample-scripts/verify-cn
 * /usr/share/man/man5/openvpn-examples.5.gz
 * /usr/share/man/man8/openvpn.8.gz
-{{< /files >}}

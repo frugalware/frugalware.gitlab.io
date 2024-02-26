@@ -15,7 +15,8 @@ depends = "['kdelibs4support>=5.115.0', 'libkexiv2>=23.08.5', 'libksane>=23.08.5
 +++
 KDE Paint Program.
 
-{{< files text="show files" >}}* /usr/bin/kolourpaint
+## Files: 
+* /usr/bin/kolourpaint
 * /usr/lib/libkolourpaint_lgpl.so
 * /usr/lib/libkolourpaint_lgpl.so.5
 * /usr/share/applications/org.kde.kolourpaint.desktop
@@ -440,4 +441,3 @@ KDE Paint Program.
 * /usr/share/locale/zh_HK/LC_MESSAGES/kolourpaint.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kolourpaint.mo
 * /usr/share/metainfo/org.kde.kolourpaint.appdata.xml
-{{< /files >}}

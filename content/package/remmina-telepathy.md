@@ -15,5 +15,5 @@ depends = "['telepathy-glib']"
 +++
 telepathy plugin for remmina
 
-{{< files text="show files" >}}* /usr/lib/remmina/plugins/remmina-plugin-telepathy.so
-{{< /files >}}
+## Files: 
+* /usr/lib/remmina/plugins/remmina-plugin-telepathy.so

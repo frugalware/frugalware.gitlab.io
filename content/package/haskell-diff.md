@@ -16,7 +16,8 @@ reverse_depends = "['shellcheck']"
 +++
 O(ND) diff algorithm in haskell
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/Diff-0.5/Data/Algorithm/Diff.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/Diff-0.5/Data/Algorithm/Diff.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/Diff-0.5/Data/Algorithm/Diff.hi
 * /usr/lib/ghc-9.8.1/site-local/Diff-0.5/Data/Algorithm/DiffContext.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/Diff-0.5/Data/Algorithm/DiffContext.hi
@@ -39,4 +40,3 @@ O(ND) diff algorithm in haskell
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/Diff-0.5/LICENSE
 * /usr/share/haskell/haskell-diff/register.sh
 * /usr/share/haskell/haskell-diff/unregister.sh
-{{< /files >}}

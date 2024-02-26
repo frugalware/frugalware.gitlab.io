@@ -16,7 +16,8 @@ reverse_depends = "['telegram-desktop']"
 +++
 Comprehensive support for concurrent code execution on multicore hardware
 
-{{< files text="show files" >}}* /usr/include/Block.h
+## Files: 
+* /usr/include/Block.h
 * /usr/include/dispatch/base.h
 * /usr/include/dispatch/block.h
 * /usr/include/dispatch/data.h
@@ -55,4 +56,3 @@ Comprehensive support for concurrent code execution on multicore hardware
 * /usr/share/man/man3/dispatch_semaphore_create.3.gz
 * /usr/share/man/man3/dispatch_source_create.3.gz
 * /usr/share/man/man3/dispatch_time.3.gz
-{{< /files >}}

@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.Org Xprint library
 
-{{< files text="show files" >}}* /usr/include/X11/extensions/Print.h
+## Files: 
+* /usr/include/X11/extensions/Print.h
 * /usr/include/X11/extensions/Printstr.h
 * /usr/lib/libXp.so
 * /usr/lib/libXp.so.6
@@ -61,4 +62,3 @@ X.Org Xprint library
 * /usr/share/man/man3/XpStartDoc.3.gz
 * /usr/share/man/man3/XpStartJob.3.gz
 * /usr/share/man/man3/XpStartPage.3.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['fwupd', 'gnome-desktop', 'gvfs', 'kde-gtk-config']"
 +++
 Shared GSettings schemas for the desktop
 
-{{< files text="show files" >}}* /usr/include/gsettings-desktop-schemas/gdesktop-enums.h
+## Files: 
+* /usr/include/gsettings-desktop-schemas/gdesktop-enums.h
 * /usr/lib/girepository-1.0/GDesktopEnums-3.0.typelib
 * /usr/lib/pkgconfig/gsettings-desktop-schemas.pc
 * /usr/share/doc/gsettings-desktop-schemas-3.38.0/AUTHORS
@@ -112,4 +113,3 @@ Shared GSettings schemas for the desktop
 * /usr/share/locale/zh_CN/LC_MESSAGES/gsettings-desktop-schemas.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/gsettings-desktop-schemas.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/gsettings-desktop-schemas.mo
-{{< /files >}}

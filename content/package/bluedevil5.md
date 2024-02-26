@@ -15,7 +15,8 @@ depends = "['bluez-qt>=5.115.0', 'kcmutils>=5.115.0', 'kded>=5.115.0', 'kio>=5.1
 +++
 KDE Bluetooth Framework
 
-{{< files text="show files" >}}* /usr/bin/bluedevil-sendfile
+## Files: 
+* /usr/bin/bluedevil-sendfile
 * /usr/bin/bluedevil-wizard
 * /usr/lib/qt5/plugins/kf5/kded/bluedevil.so
 * /usr/lib/qt5/plugins/kf5/kio/kio_bluetooth.so
@@ -217,4 +218,3 @@ KDE Bluetooth Framework
 * /usr/share/qt5/qml/org/kde/plasma/private/bluetooth/libbluetoothplugin.so
 * /usr/share/qt5/qml/org/kde/plasma/private/bluetooth/qmldir
 * /usr/share/remoteview/bluetooth-network.desktop
-{{< /files >}}

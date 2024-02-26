@@ -16,7 +16,8 @@ reverse_depends = "['apache', 'bind', 'curl', 'libsoup3', 'nginx', 'nodejs', 'no
 +++
 nghttp2 is an implementation of HTTP/2 in C
 
-{{< files text="show files" >}}* /usr/include/nghttp2/nghttp2.h
+## Files: 
+* /usr/include/nghttp2/nghttp2.h
 * /usr/include/nghttp2/nghttp2ver.h
 * /usr/lib/libnghttp2.so
 * /usr/lib/libnghttp2.so.14
@@ -33,4 +34,3 @@ nghttp2 is an implementation of HTTP/2 in C
 * /usr/share/man/man1/nghttpd.1.gz
 * /usr/share/man/man1/nghttpx.1.gz
 * /usr/share/nghttp2/fetch-ocsp-response
-{{< /files >}}

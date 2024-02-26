@@ -15,7 +15,8 @@ depends = "['gtk+3>=3.24.41']"
 +++
 gtk+3 documention
 
-{{< files text="show files" >}}* /usr/share/gtk-doc/html/gail-libgail-util3/gail-libgail-util3-GailMisc.html
+## Files: 
+* /usr/share/gtk-doc/html/gail-libgail-util3/gail-libgail-util3-GailMisc.html
 * /usr/share/gtk-doc/html/gail-libgail-util3/gail-libgail-util3-GailTextUtil.html
 * /usr/share/gtk-doc/html/gail-libgail-util3/home.png
 * /usr/share/gtk-doc/html/gail-libgail-util3/index.html
@@ -707,4 +708,3 @@ gtk+3 documention
 * /usr/share/gtk-doc/html/gtk3/window-default.png
 * /usr/share/gtk-doc/html/gtk3/window.png
 * /usr/share/gtk-doc/html/gtk3/WindowWidgets.html
-{{< /files >}}

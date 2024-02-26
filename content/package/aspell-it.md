@@ -15,11 +15,11 @@ depends = "['aspell']"
 +++
 GNU Aspell Italian Word List Package
 
-{{< files text="show files" >}}* usr/lib/aspell-0.60/it.dat
+## Files: 
+* usr/lib/aspell-0.60/it.dat
 * usr/lib/aspell-0.60/it.multi
 * usr/lib/aspell-0.60/it.rws
 * usr/lib/aspell-0.60/italian.alias
 * usr/lib/aspell-0.60/italiano.alias
 * usr/share/doc/aspell-it-0.53r0/COPYING
 * usr/share/doc/aspell-it-0.53r0/README
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libstdc++>=7.3.0-7']"
 +++
 Iperf is a tool to measure maximum TCP bandwidth
 
-{{< files text="show files" >}}* /usr/bin/iperf
+## Files: 
+* /usr/bin/iperf
 * /usr/lib/systemd/system/iperf.service
 * /usr/share/doc/iperf-2.1.9/AUTHORS
 * /usr/share/doc/iperf-2.1.9/ChangeLog
@@ -26,4 +27,3 @@ Iperf is a tool to measure maximum TCP bandwidth
 * /usr/share/doc/iperf-2.1.9/README
 * /usr/share/doc/iperf-2.1.9/ui_license.html
 * /usr/share/man/man1/iperf.1.gz
-{{< /files >}}

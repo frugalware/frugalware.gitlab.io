@@ -15,5 +15,5 @@ depends = "['samba>=4.19.5', 'talloc>=2.3.0']"
 +++
 WINS Lookup Support for NSS.
 
-{{< files text="show files" >}}* /usr/lib/libnss_wins.so.2
-{{< /files >}}
+## Files: 
+* /usr/lib/libnss_wins.so.2

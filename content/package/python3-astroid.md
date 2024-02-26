@@ -16,7 +16,8 @@ reverse_depends = "['lutris', 'pylint']"
 +++
 Python Abstract Syntax Tree New Generation.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/astroid-3.0.1.dist-info/CONTRIBUTORS.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/astroid-3.0.1.dist-info/CONTRIBUTORS.txt
 * /usr/lib/python3.12/site-packages/astroid-3.0.1.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/astroid-3.0.1.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/astroid-3.0.1.dist-info/RECORD
@@ -315,4 +316,3 @@ Python Abstract Syntax Tree New Generation.
 * /usr/lib/python3.12/site-packages/astroid/__pycache__/__pkginfo__.cpython-312.pyc
 * /usr/share/doc/python3-astroid-3.0.1/LICENSE
 * /usr/share/doc/python3-astroid-3.0.1/README.rst
-{{< /files >}}

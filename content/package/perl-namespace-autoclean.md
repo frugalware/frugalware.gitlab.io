@@ -15,9 +15,9 @@ depends = "['perl>=5.34.0']"
 +++
 Keep imports out of your namespace
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/namespace/autoclean.pm
+## Files: 
+* /usr/lib/perl5/site_perl/current/namespace/autoclean.pm
 * /usr/share/doc/perl-namespace-autoclean-0.29/INSTALL
 * /usr/share/doc/perl-namespace-autoclean-0.29/MANIFEST
 * /usr/share/doc/perl-namespace-autoclean-0.29/README
 * /usr/share/man/man3/namespace::autoclean.3perl.gz
-{{< /files >}}

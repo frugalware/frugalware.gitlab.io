@@ -15,9 +15,9 @@ depends = "['alsa-plugins>=1.2.7.1', 'libsamplerate>=0.1.8-2']"
 +++
 ALSA plugin for samplerate.
 
-{{< files text="show files" >}}* /usr/lib/alsa-lib/libasound_module_rate_samplerate.so
+## Files: 
+* /usr/lib/alsa-lib/libasound_module_rate_samplerate.so
 * /usr/lib/alsa-lib/libasound_module_rate_samplerate_best.so
 * /usr/lib/alsa-lib/libasound_module_rate_samplerate_linear.so
 * /usr/lib/alsa-lib/libasound_module_rate_samplerate_medium.so
 * /usr/lib/alsa-lib/libasound_module_rate_samplerate_order.so
-{{< /files >}}

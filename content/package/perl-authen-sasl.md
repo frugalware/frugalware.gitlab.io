@@ -16,7 +16,8 @@ reverse_depends = "['git']"
 +++
 SASL Authentication framework
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/Authen/SASL.pm
+## Files: 
+* /usr/lib/perl5/site_perl/Authen/SASL.pm
 * /usr/lib/perl5/site_perl/Authen/SASL.pod
 * /usr/lib/perl5/site_perl/Authen/SASL/CRAM_MD5.pm
 * /usr/lib/perl5/site_perl/Authen/SASL/EXTERNAL.pm
@@ -41,4 +42,3 @@ SASL Authentication framework
 * /usr/share/man/man3/Authen::SASL::Perl::GSSAPI.3perl.gz
 * /usr/share/man/man3/Authen::SASL::Perl::LOGIN.3perl.gz
 * /usr/share/man/man3/Authen::SASL::Perl::PLAIN.3perl.gz
-{{< /files >}}

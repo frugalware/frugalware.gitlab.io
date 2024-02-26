@@ -15,7 +15,8 @@ depends = "['db>=4.7.25', 'sdl']"
 +++
 Additional plugins and scripts for some KDE applications.
 
-{{< files text="show files" >}}* usr/bin/atlantikdesigner
+## Files: 
+* usr/bin/atlantikdesigner
 * usr/bin/fsview
 * usr/bin/jpegorient
 * usr/bin/kio_media_realfolder
@@ -402,4 +403,3 @@ Additional plugins and scripts for some KDE applications.
 * usr/share/services/renaudiodlg.desktop
 * usr/share/services/renimagedlg.desktop
 * usr/share/services/webarchivethumbnail.desktop
-{{< /files >}}

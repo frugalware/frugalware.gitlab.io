@@ -16,7 +16,8 @@ reverse_depends = "['claws-mail-plugin-acpi_notifier', 'claws-mail-plugin-addres
 +++
 The extended version of Sylpheed, a GTK+ based, lightweight, and fast e-mail client
 
-{{< files text="show files" >}}* /usr/bin/claws-mail
+## Files: 
+* /usr/bin/claws-mail
 * /usr/include/claws-mail/account.h
 * /usr/include/claws-mail/action.h
 * /usr/include/claws-mail/adbookbase.h
@@ -318,4 +319,3 @@ The extended version of Sylpheed, a GTK+ based, lightweight, and fast e-mail cli
 * /usr/share/locale/zh_TW/LC_MESSAGES/claws-mail.mo
 * /usr/share/man/man1/claws-mail.1.gz
 * /usr/share/pixmaps/claws-mail.png
-{{< /files >}}

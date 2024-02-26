@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Lipstik theme for KDE
 
-{{< files text="show files" >}}* usr/lib/kde3/kstyle_lipstik_config.la
+## Files: 
+* usr/lib/kde3/kstyle_lipstik_config.la
 * usr/lib/kde3/kstyle_lipstik_config.so
 * usr/lib/kde3/plugins/styles/lipstik.la
 * usr/lib/kde3/plugins/styles/lipstik.so
@@ -31,4 +32,3 @@ Lipstik theme for KDE
 * usr/share/doc/lipstik-2.2.3/NEWS
 * usr/share/doc/lipstik-2.2.3/README
 * usr/share/doc/lipstik-2.2.3/TODO
-{{< /files >}}

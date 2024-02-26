@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-contacts', 'akonadi-mime', 'akonadi-notes', 'calend
 +++
 PIM layer, which provides an asynchronous API to access all kind of PIM data
 
-{{< files text="show files" >}}* /etc/apparmor.d/mariadbd_akonadi
+## Files: 
+* /etc/apparmor.d/mariadbd_akonadi
 * /etc/apparmor.d/mysqld_akonadi
 * /etc/apparmor.d/postgresql_akonadi
 * /etc/apparmor.d/usr.bin.akonadiserver
@@ -524,4 +525,3 @@ PIM layer, which provides an asynchronous API to access all kind of PIM data
 * /usr/share/qt5/mkspecs/modules/qt_AkonadiCore.pri
 * /usr/share/qt5/mkspecs/modules/qt_AkonadiWidgets.pri
 * /usr/share/qt5/mkspecs/modules/qt_AkonadiXml.pri
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['apr-util']"
 +++
 Apache Portable Runtime
 
-{{< files text="show files" >}}* /usr/bin/apr-1-config
+## Files: 
+* /usr/bin/apr-1-config
 * /usr/include/apr-1/apr.h
 * /usr/include/apr-1/apr_allocator.h
 * /usr/include/apr-1/apr_atomic.h
@@ -72,4 +73,3 @@ Apache Portable Runtime
 * /var/www/build/make_exports.awk
 * /var/www/build/make_var_export.awk
 * /var/www/build/mkdir.sh
-{{< /files >}}

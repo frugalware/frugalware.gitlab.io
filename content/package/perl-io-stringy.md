@@ -16,7 +16,8 @@ reverse_depends = "['amavisd-new', 'perl-mime-tools']"
 +++
 Perl5 modules for IO from scalars and arrays
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/IO/AtomicFile.pm
+## Files: 
+* /usr/lib/perl5/site_perl/IO/AtomicFile.pm
 * /usr/lib/perl5/site_perl/IO/InnerFile.pm
 * /usr/lib/perl5/site_perl/IO/Lines.pm
 * /usr/lib/perl5/site_perl/IO/Scalar.pm
@@ -36,4 +37,3 @@ Perl5 modules for IO from scalars and arrays
 * /usr/share/man/man3/IO::Stringy.3perl.gz
 * /usr/share/man/man3/IO::Wrap.3perl.gz
 * /usr/share/man/man3/IO::WrapTie.3perl.gz
-{{< /files >}}

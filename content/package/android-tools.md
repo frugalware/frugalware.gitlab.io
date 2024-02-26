@@ -16,7 +16,8 @@ reverse_depends = "['scrcpy']"
 +++
 Android platform tools
 
-{{< files text="show files" >}}* /usr/bin/adb
+## Files: 
+* /usr/bin/adb
 * /usr/bin/append2simg
 * /usr/bin/avbtool
 * /usr/bin/e2fsdroid
@@ -42,4 +43,3 @@ Android platform tools
 * /usr/share/bash-completion/completions/fastboot
 * /usr/share/doc/android-tools-34.0.4/LICENSE
 * /usr/share/doc/android-tools-34.0.4/README.md
-{{< /files >}}

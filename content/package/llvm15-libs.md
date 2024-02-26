@@ -16,7 +16,8 @@ reverse_depends = "['julia']"
 +++
 LLVM15 shared libs
 
-{{< files text="show files" >}}* /usr/lib/libLLVM-15.0.7.so
+## Files: 
+* /usr/lib/libLLVM-15.0.7.so
 * /usr/lib/libLLVM-15.so
 * /usr/lib/llvm15/lib/libLLVM-15.0.7.so
 * /usr/lib/llvm15/lib/libLLVM-15.so
@@ -26,4 +27,3 @@ LLVM15 shared libs
 * /usr/lib/llvm15/lib/libRemarks.so
 * /usr/lib/llvm15/lib/libRemarks.so.15
 * /usr/lib/llvm15/lib/LLVMgold.so
-{{< /files >}}

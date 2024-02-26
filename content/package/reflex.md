@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 This is a variant of the flex fast lexical scanner.
 
-{{< files text="show files" >}}* /usr/bin/reflex
+## Files: 
+* /usr/bin/reflex
 * /usr/bin/reflex++
 * /usr/include/reFlexLexer.h
 * /usr/lib/librefl.a
@@ -26,4 +27,3 @@ This is a variant of the flex fast lexical scanner.
 * /usr/share/doc/reflex-20230523/VERSION
 * /usr/share/man/man1/reflex++.1.gz
 * /usr/share/man/man1/reflex.1.gz
-{{< /files >}}

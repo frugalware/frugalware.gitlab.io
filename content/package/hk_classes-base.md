@@ -16,7 +16,8 @@ reverse_depends = "['hk_classes-xbase']"
 +++
 Set of GUI C++ libraries which allow the development of database applications.
 
-{{< files text="show files" >}}* usr/bin/hk_actionquery
+## Files: 
+* usr/bin/hk_actionquery
 * usr/bin/hk_dbcopy
 * usr/bin/hk_exportcsv
 * usr/bin/hk_exporthtml
@@ -92,4 +93,3 @@ Set of GUI C++ libraries which allow the development of database applications.
 * usr/share/doc/hk_classes-base-0.8/INSTALL
 * usr/share/doc/hk_classes-base-0.8/NEWS
 * usr/share/doc/hk_classes-base-0.8/README
-{{< /files >}}

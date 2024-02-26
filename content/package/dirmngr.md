@@ -15,5 +15,5 @@ depends = "['gnutls>=3.4.8', 'libassuan>=2.4.45-3', 'libffi>=3.2.1', 'libgcrypt>
 +++
 GnuPG dirmngr
 
-{{< files text="show files" >}}* /usr/bin/dirmngr
-{{< /files >}}
+## Files: 
+* /usr/bin/dirmngr

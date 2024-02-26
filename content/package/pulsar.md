@@ -15,7 +15,8 @@ depends = "['libsecret', 'libxkbfile', 'ripgrep']"
 +++
 A community-led hyper-hackable text editor, built on electron
 
-{{< files text="show files" >}}* /opt/Pulsar/chrome-sandbox
+## Files: 
+* /opt/Pulsar/chrome-sandbox
 * /opt/Pulsar/chrome_100_percent.pak
 * /opt/Pulsar/chrome_200_percent.pak
 * /opt/Pulsar/icudtl.dat
@@ -17077,4 +17078,3 @@ A community-led hyper-hackable text editor, built on electron
 * /opt/Pulsar/vk_swiftshader_icd.json
 * /usr/bin/pulsar
 * /usr/share/icons/hicolor/scalable/apps/pulsar.svg
-{{< /files >}}

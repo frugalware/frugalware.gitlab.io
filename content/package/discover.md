@@ -15,4 +15,4 @@ depends = "['appstream-qt>=0.10.3', 'git', 'karchive>=5.110.0', 'kcmutils>=5.110
 +++
 A collection of package management tools for KDE
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

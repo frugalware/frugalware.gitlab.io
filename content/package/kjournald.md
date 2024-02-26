@@ -15,7 +15,8 @@ depends = "['kcoreaddons', 'ki18n', 'kirigami2']"
 +++
 Framework for interacting with systemd-journald
 
-{{< files text="show files" >}}* /usr/bin/kjournaldbrowser
+## Files: 
+* /usr/bin/kjournaldbrowser
 * /usr/lib/libkjournald.so
 * /usr/lib/libkjournald.so.0
 * /usr/lib/libkjournald.so.23.08.5
@@ -51,4 +52,3 @@ Framework for interacting with systemd-journald
 * /usr/share/locale/zh_TW/LC_MESSAGES/kjournald.mo
 * /usr/share/metainfo/org.kde.kjournaldbrowser.appdata.xml
 * /usr/share/qlogging-categories5/kjournald.categories
-{{< /files >}}

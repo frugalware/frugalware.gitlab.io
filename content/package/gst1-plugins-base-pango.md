@@ -15,5 +15,5 @@ depends = "['gst1-plugins-base>=1.22.10', 'gstreamer1>=1.22.10', 'libffi>=3.2.1-
 +++
 GStreamer pango plugin (Base).
 
-{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstpango.so
-{{< /files >}}
+## Files: 
+* /usr/lib/gstreamer-1.0/libgstpango.so

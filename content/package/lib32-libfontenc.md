@@ -16,9 +16,9 @@ reverse_depends = "['lib32-libxfont', 'lib32-libxfont2']"
 +++
 The fontenc Library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/fonts/fontenc.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/fonts/fontenc.h
 * /usr/lib32/libfontenc.so
 * /usr/lib32/libfontenc.so.1
 * /usr/lib32/libfontenc.so.1.0.0
 * /usr/lib32/pkgconfig/fontenc.pc
-{{< /files >}}

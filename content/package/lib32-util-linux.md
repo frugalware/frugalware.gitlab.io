@@ -16,7 +16,8 @@ reverse_depends = "['lib32-glib2', 'lib32-harfbuzz', 'lib32-libsystemd', 'lib32-
 +++
 Miscellaneous system utilities for Linux ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/libfdisk/libfdisk.h
+## Files: 
+* /usr/i686-frugalware-linux/include/libfdisk/libfdisk.h
 * /usr/i686-frugalware-linux/include/libmount/libmount.h
 * /usr/i686-frugalware-linux/include/libsmartcols/libsmartcols.h
 * /usr/lib32/libfdisk.so
@@ -31,4 +32,3 @@ Miscellaneous system utilities for Linux ( 32bit )
 * /usr/lib32/pkgconfig/fdisk.pc
 * /usr/lib32/pkgconfig/mount.pc
 * /usr/lib32/pkgconfig/smartcols.pc
-{{< /files >}}

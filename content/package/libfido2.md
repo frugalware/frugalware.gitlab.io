@@ -16,7 +16,8 @@ reverse_depends = "['openssh']"
 +++
 Library functionality for FIDO 2.0, including communication with a device over USB
 
-{{< files text="show files" >}}* /usr/bin/fido2-assert
+## Files: 
+* /usr/bin/fido2-assert
 * /usr/bin/fido2-cred
 * /usr/bin/fido2-token
 * /usr/include/fido.h
@@ -301,4 +302,3 @@ Library functionality for FIDO 2.0, including communication with a device over U
 * /usr/share/man/man3/rs256_pk_from_RSA.3.gz
 * /usr/share/man/man3/rs256_pk_new.3.gz
 * /usr/share/man/man3/rs256_pk_to_EVP_PKEY.3.gz
-{{< /files >}}

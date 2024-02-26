@@ -16,7 +16,8 @@ reverse_depends = "['pm-utils']"
 +++
 Power management quirks database for certain hardware.
 
-{{< files text="show files" >}}* /usr/lib/pm-utils/video-quirks/20-video-quirk-pm-acer.quirkdb
+## Files: 
+* /usr/lib/pm-utils/video-quirks/20-video-quirk-pm-acer.quirkdb
 * /usr/lib/pm-utils/video-quirks/20-video-quirk-pm-apple.quirkdb
 * /usr/lib/pm-utils/video-quirks/20-video-quirk-pm-asus.quirkdb
 * /usr/lib/pm-utils/video-quirks/20-video-quirk-pm-dell.quirkdb
@@ -28,4 +29,3 @@ Power management quirks database for certain hardware.
 * /usr/lib/pm-utils/video-quirks/20-video-quirk-pm-samsung.quirkdb
 * /usr/lib/pm-utils/video-quirks/20-video-quirk-pm-sony.quirkdb
 * /usr/lib/pm-utils/video-quirks/20-video-quirk-pm-toshiba.quirkdb
-{{< /files >}}

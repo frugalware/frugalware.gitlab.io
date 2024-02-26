@@ -15,6 +15,6 @@ depends = "['claws-mail=4.1.1', 'gpgme>=1.6.0-3']"
 +++
 Handles PGP/Inline signed and/or encrypted mails.
 
-{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/pgpinline.deps
+## Files: 
+* /usr/lib/claws-mail/plugins/pgpinline.deps
 * /usr/lib/claws-mail/plugins/pgpinline.so
-{{< /files >}}

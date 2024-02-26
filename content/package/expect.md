@@ -16,7 +16,8 @@ reverse_depends = "['courier-authlib']"
 +++
 Expect interpreter
 
-{{< files text="show files" >}}* /usr/bin/autoexpect
+## Files: 
+* /usr/bin/autoexpect
 * /usr/bin/autopasswd
 * /usr/bin/cryptdir
 * /usr/bin/decryptdir
@@ -63,4 +64,3 @@ Expect interpreter
 * /usr/share/man/man1/unbuffer.1.gz
 * /usr/share/man/man1/xkibitz.1.gz
 * /usr/share/man/man3/libexpect.3.gz
-{{< /files >}}

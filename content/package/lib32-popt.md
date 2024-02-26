@@ -16,9 +16,9 @@ reverse_depends = "['lib32-newt']"
 +++
 A commandline option parser ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/popt.h
+## Files: 
+* /usr/i686-frugalware-linux/include/popt.h
 * /usr/lib32/libpopt.so
 * /usr/lib32/libpopt.so.0
 * /usr/lib32/libpopt.so.0.0.0
 * /usr/lib32/pkgconfig/popt.pc
-{{< /files >}}

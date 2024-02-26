@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Marathi support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/mr/LC_MESSAGES/acc.mo
+## Files: 
+* /usr/lib/libreoffice/program/resource/mr/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/mr/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/mr/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/mr/LC_MESSAGES/chart.mo
@@ -53,4 +54,3 @@ Installs Marathi support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-mr.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_mr.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_mr.xcd
-{{< /files >}}

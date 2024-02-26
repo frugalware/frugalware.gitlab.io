@@ -16,7 +16,7 @@ reverse_depends = "['avalon-logkit']"
 +++
 A low-overhead robust logging package for Java.
 
-{{< files text="show files" >}}* /usr/share/doc/apache-log4j1-1.2.17/INSTALL
+## Files: 
+* /usr/share/doc/apache-log4j1-1.2.17/INSTALL
 * /usr/share/doc/apache-log4j1-1.2.17/LICENSE
 * /usr/share/java/log4j.jar
-{{< /files >}}

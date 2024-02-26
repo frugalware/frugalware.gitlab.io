@@ -15,7 +15,8 @@ depends = "['libstdc++']"
 +++
 AJA NTV2 SDK
 
-{{< files text="show files" >}}* /usr/bin/logjammer
+## Files: 
+* /usr/bin/logjammer
 * /usr/bin/logreader
 * /usr/bin/ntv2burn
 * /usr/bin/ntv2burn4kquadrant
@@ -236,4 +237,3 @@ AJA NTV2 SDK
 * /usr/lib/libajantv2.a
 * /usr/share/doc/ntv2-16.2/LICENSE
 * /usr/share/doc/ntv2-16.2/README.md
-{{< /files >}}

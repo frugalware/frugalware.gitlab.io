@@ -15,7 +15,8 @@ depends = "['gtk+2', 'libxdg-basedir>=1.2.0-2', 'libxinerama>=1.1.3-2', 'libxscr
 +++
 Dunst is a lightweight replacement for the notification-daemons provided by most desktop environments.
 
-{{< files text="show files" >}}* /usr/bin/dunst
+## Files: 
+* /usr/bin/dunst
 * /usr/lib/systemd/user/dunst.service
 * /usr/share/dbus-1/services/org.knopwob.dunst.service
 * /usr/share/doc/dunst-1.3.2/AUTHORS
@@ -24,4 +25,3 @@ Dunst is a lightweight replacement for the notification-daemons provided by most
 * /usr/share/doc/dunst-1.3.2/RELEASE_NOTES
 * /usr/share/dunst/dunstrc
 * /usr/share/man/man1/dunst.1.gz
-{{< /files >}}

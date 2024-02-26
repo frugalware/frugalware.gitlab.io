@@ -16,9 +16,9 @@ reverse_depends = "['perl-xml-sax', 'perl-xml-sax-expat']"
 +++
 a simple generic namespace support class
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/XML/NamespaceSupport.pm
+## Files: 
+* /usr/lib/perl5/site_perl/XML/NamespaceSupport.pm
 * /usr/share/doc/perl-xml-namespacesupport-1.12/LICENSE
 * /usr/share/doc/perl-xml-namespacesupport-1.12/MANIFEST
 * /usr/share/doc/perl-xml-namespacesupport-1.12/README
 * /usr/share/man/man3/XML::NamespaceSupport.3perl.gz
-{{< /files >}}

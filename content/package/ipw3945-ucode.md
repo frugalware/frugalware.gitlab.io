@@ -16,6 +16,6 @@ reverse_depends = "['ipw3945']"
 +++
 Intel PRO/Wireless 3945ABG Network Connection Adapter Microcode
 
-{{< files text="show files" >}}* lib/firmware/ipw3945.ucode
+## Files: 
+* lib/firmware/ipw3945.ucode
 * usr/share/doc/ipw3945-ucode-1.14.2/README.ipw3945-ucode
-{{< /files >}}

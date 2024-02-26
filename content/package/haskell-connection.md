@@ -15,7 +15,8 @@ depends = "['haskell-crypton-x509-system', 'haskell-crypton-x509-validation', 'h
 +++
 Simple and easy network connections API
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/connection-0.3.1/libHSconnection-0.3.1-7cW3adDaWeVHtzc2kKLdtO.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/connection-0.3.1/libHSconnection-0.3.1-7cW3adDaWeVHtzc2kKLdtO.a
 * /usr/lib/ghc-9.8.1/site-local/connection-0.3.1/Network/Connection.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/connection-0.3.1/Network/Connection.hi
 * /usr/lib/ghc-9.8.1/site-local/connection-0.3.1/Network/Connection/Types.dyn_hi
@@ -35,4 +36,3 @@ Simple and easy network connections API
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/connection-0.3.1/LICENSE
 * /usr/share/haskell/haskell-connection/register.sh
 * /usr/share/haskell/haskell-connection/unregister.sh
-{{< /files >}}

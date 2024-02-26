@@ -16,8 +16,8 @@ reverse_depends = "['lib32-bison']"
 +++
 GNU internationalization library ( 32bit )
 
-{{< files text="show files" >}}* /usr/lib32/libasprintf.so
+## Files: 
+* /usr/lib32/libasprintf.so
 * /usr/lib32/libasprintf.so.0
 * /usr/lib32/libasprintf.so.0.0.0
 * /usr/lib32/preloadable_libintl.so
-{{< /files >}}

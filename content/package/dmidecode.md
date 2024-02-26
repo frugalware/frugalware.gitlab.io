@@ -16,7 +16,8 @@ reverse_depends = "['hw-probe', 'inxi', 'libvirt']"
 +++
 Desktop Management Interface (DMI) table related utilities.
 
-{{< files text="show files" >}}* /usr/bin/biosdecode
+## Files: 
+* /usr/bin/biosdecode
 * /usr/bin/dmidecode
 * /usr/bin/ownership
 * /usr/bin/vpddecode
@@ -31,4 +32,3 @@ Desktop Management Interface (DMI) table related utilities.
 * /usr/share/man/man8/dmidecode.8.gz
 * /usr/share/man/man8/ownership.8.gz
 * /usr/share/man/man8/vpddecode.8.gz
-{{< /files >}}

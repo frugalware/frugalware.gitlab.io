@@ -15,7 +15,8 @@ depends = "['lib32-glib2>=2.60.0', 'lib32-libffi>=3.2.1']"
 +++
 Glib bindings for Avahi (32-Bit)
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/avahi-glib/glib-malloc.h
+## Files: 
+* /usr/i686-frugalware-linux/include/avahi-glib/glib-malloc.h
 * /usr/i686-frugalware-linux/include/avahi-glib/glib-watch.h
 * /usr/i686-frugalware-linux/include/avahi-gobject/ga-client.h
 * /usr/i686-frugalware-linux/include/avahi-gobject/ga-entry-group.h
@@ -32,4 +33,3 @@ Glib bindings for Avahi (32-Bit)
 * /usr/lib32/libavahi-gobject.so.0.0.5
 * /usr/lib32/pkgconfig/avahi-glib.pc
 * /usr/lib32/pkgconfig/avahi-gobject.pc
-{{< /files >}}

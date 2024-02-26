@@ -15,6 +15,6 @@ depends = "['tcl-static']"
 +++
 Static files for tk
 
-{{< files text="show files" >}}* /usr/lib/libtkstub.a
+## Files: 
+* /usr/lib/libtkstub.a
 * /usr/lib/libtkstub8.6.a
-{{< /files >}}

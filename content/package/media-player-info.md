@@ -16,7 +16,8 @@ reverse_depends = "['solid']"
 +++
 Data files describing media player capabilities, for post-HAL systems
 
-{{< files text="show files" >}}* /usr/lib/udev/hwdb.d/20-usb-media-players.hwdb
+## Files: 
+* /usr/lib/udev/hwdb.d/20-usb-media-players.hwdb
 * /usr/lib/udev/rules.d/40-usb-media-players.rules
 * /usr/share/doc/media-player-info-24/AUTHORS
 * /usr/share/doc/media-player-info-24/ChangeLog
@@ -276,4 +277,3 @@ Data files describing media player capabilities, for post-HAL systems
 * /usr/share/media-player-info/trekstor_i.beat-jess.mpi
 * /usr/share/media-player-info/trekstor_i.beat-rock.mpi
 * /usr/share/media-player-info/trekstor_vibez.mpi
-{{< /files >}}

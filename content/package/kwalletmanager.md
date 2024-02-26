@@ -15,7 +15,8 @@ depends = "['kdelibs4support>=5.115.0']"
 +++
 Passwords managing tool.
 
-{{< files text="show files" >}}* /usr/bin/kwalletmanager5
+## Files: 
+* /usr/bin/kwalletmanager5
 * /usr/lib/kf5/kauth/kcm_kwallet_helper5
 * /usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/kcm_kwallet5.so
 * /usr/share/applications/kwalletmanager5-kwalletd.desktop
@@ -250,4 +251,3 @@ Passwords managing tool.
 * /usr/share/metainfo/org.kde.kwalletmanager5.appdata.xml
 * /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy
 * /usr/share/qlogging-categories5/kwalletmanager.categories
-{{< /files >}}

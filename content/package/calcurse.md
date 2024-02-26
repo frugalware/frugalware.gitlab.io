@@ -15,7 +15,8 @@ depends = "['ncurses>=6.0-12']"
 +++
 a text-based calendar and scheduling application
 
-{{< files text="show files" >}}* /usr/bin/calcurse
+## Files: 
+* /usr/bin/calcurse
 * /usr/bin/calcurse-caldav
 * /usr/bin/calcurse-upgrade
 * /usr/bin/calcurse-vdir
@@ -188,4 +189,3 @@ a text-based calendar and scheduling application
 * /usr/share/locale/pt_BR/LC_MESSAGES/calcurse.mo
 * /usr/share/locale/ru/LC_MESSAGES/calcurse.mo
 * /usr/share/man/man1/calcurse.1.gz
-{{< /files >}}

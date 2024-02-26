@@ -16,7 +16,8 @@ reverse_depends = "['adios2', 'allegro', 'argyllcms', 'augustus', 'blender', 'ca
 +++
 A collection of routines used to create PNG format graphics files
 
-{{< files text="show files" >}}* /usr/bin/libpng-config
+## Files: 
+* /usr/bin/libpng-config
 * /usr/bin/libpng16-config
 * /usr/bin/png-fix-itxt
 * /usr/bin/pngfix
@@ -42,4 +43,3 @@ A collection of routines used to create PNG format graphics files
 * /usr/share/man/man3/libpng.3.gz
 * /usr/share/man/man3/libpngpf.3.gz
 * /usr/share/man/man5/png.5.gz
-{{< /files >}}

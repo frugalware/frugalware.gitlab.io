@@ -15,8 +15,8 @@ depends = "['openjre']"
 +++
 Menu editor for LXDE
 
-{{< files text="show files" >}}* /usr/bin/lxmed
+## Files: 
+* /usr/bin/lxmed
 * /usr/share/applications/lxmed.desktop
 * /usr/share/java/LXMenuEditor.jar
 * /usr/share/pixmaps/lxmed.png
-{{< /files >}}

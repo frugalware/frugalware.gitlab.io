@@ -16,7 +16,8 @@ reverse_depends = "['lib32-avahi', 'lib32-dbus-glib', 'lib32-glib2', 'lib32-libp
 +++
 A message bus system ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/dbus-1.0/dbus/dbus-address.h
+## Files: 
+* /usr/i686-frugalware-linux/include/dbus-1.0/dbus/dbus-address.h
 * /usr/i686-frugalware-linux/include/dbus-1.0/dbus/dbus-arch-deps.h
 * /usr/i686-frugalware-linux/include/dbus-1.0/dbus/dbus-bus.h
 * /usr/i686-frugalware-linux/include/dbus-1.0/dbus/dbus-connection.h
@@ -41,4 +42,3 @@ A message bus system ( 32bit )
 * /usr/lib32/libdbus-1.so.3
 * /usr/lib32/libdbus-1.so.3.32.4
 * /usr/lib32/pkgconfig/dbus-1.pc
-{{< /files >}}

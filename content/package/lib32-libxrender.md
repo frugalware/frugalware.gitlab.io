@@ -16,9 +16,9 @@ reverse_depends = "['lib32-cairo', 'lib32-libxcursor', 'lib32-libxft', 'lib32-li
 +++
 X Render Library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/Xrender.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/extensions/Xrender.h
 * /usr/lib32/libXrender.so
 * /usr/lib32/libXrender.so.1
 * /usr/lib32/libXrender.so.1.3.0
 * /usr/lib32/pkgconfig/xrender.pc
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Static files for zstd
 
-{{< files text="show files" >}}* /usr/lib/libzstd.a
-{{< /files >}}
+## Files: 
+* /usr/lib/libzstd.a

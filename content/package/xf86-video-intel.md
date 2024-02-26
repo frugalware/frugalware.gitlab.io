@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org driver for Intel cards (opensource)
 
-{{< files text="show files" >}}* /usr/bin/intel-virtual-output
+## Files: 
+* /usr/bin/intel-virtual-output
 * /usr/lib/libI810XvMC.so
 * /usr/lib/libI810XvMC.so.1
 * /usr/lib/libI810XvMC.so.1.0.0
@@ -32,4 +33,3 @@ X.Org driver for Intel cards (opensource)
 * /usr/share/man/man4/intel-virtual-output.4.gz
 * /usr/share/man/man4/intel.4.gz
 * /usr/share/polkit-1/actions/org.x.xf86-video-intel.backlight-helper.policy
-{{< /files >}}

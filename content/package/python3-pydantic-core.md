@@ -16,7 +16,8 @@ reverse_depends = "['python3-pydantic']"
 +++
 Core validation logic for pydantic written in rust
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pydantic_core-2.14.5.dist-info/license_files/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/pydantic_core-2.14.5.dist-info/license_files/LICENSE
 * /usr/lib/python3.12/site-packages/pydantic_core-2.14.5.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/pydantic_core-2.14.5.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/pydantic_core-2.14.5.dist-info/WHEEL
@@ -31,4 +32,3 @@ Core validation logic for pydantic written in rust
 * /usr/lib/python3.12/site-packages/pydantic_core/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-pydantic-core-2.14.5/LICENSE
 * /usr/share/doc/python3-pydantic-core-2.14.5/README.md
-{{< /files >}}

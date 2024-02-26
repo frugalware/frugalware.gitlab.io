@@ -16,7 +16,8 @@ reverse_depends = "['lib32-elfutils-debuginfod', 'lib32-glib2', 'lib32-libosmesa
 +++
 Collection of libraries and utilities for working with ELF object files and DWARF debugging information ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/eu-addr2line
+## Files: 
+* /usr/i686-frugalware-linux/bin/eu-addr2line
 * /usr/i686-frugalware-linux/bin/eu-ar
 * /usr/i686-frugalware-linux/bin/eu-elfclassify
 * /usr/i686-frugalware-linux/bin/eu-elfcmp
@@ -57,4 +58,3 @@ Collection of libraries and utilities for working with ELF object files and DWAR
 * /usr/lib32/pkgconfig/libdebuginfod.pc
 * /usr/lib32/pkgconfig/libdw.pc
 * /usr/lib32/pkgconfig/libelf.pc
-{{< /files >}}

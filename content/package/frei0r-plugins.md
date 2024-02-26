@@ -16,7 +16,8 @@ reverse_depends = "['kamoso', 'mlt']"
 +++
 frei0r is a minimalistic plugin API for video sources and filters.
 
-{{< files text="show files" >}}* /usr/include/frei0r.h
+## Files: 
+* /usr/include/frei0r.h
 * /usr/lib/frei0r-1/3dflippo.so
 * /usr/lib/frei0r-1/addition.so
 * /usr/lib/frei0r-1/addition_alpha.so
@@ -151,4 +152,3 @@ frei0r is a minimalistic plugin API for video sources and filters.
 * /usr/share/doc/frei0r-plugins-1.8.0/COPYING.txt
 * /usr/share/doc/frei0r-plugins-1.8.0/INSTALL.txt
 * /usr/share/doc/frei0r-plugins-1.8.0/README.txt
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['baloo5', 'digikam', 'digikam', 'dolphin', 'k3b', 'kdenlive'
 +++
 A library for extracting file metadata.
 
-{{< files text="show files" >}}* /usr/include/KF5/KFileMetaData/KFileMetaData/EmbeddedImageData
+## Files: 
+* /usr/include/KF5/KFileMetaData/KFileMetaData/EmbeddedImageData
 * /usr/include/KF5/KFileMetaData/kfilemetadata/embeddedimagedata.h
 * /usr/include/KF5/KFileMetaData/KFileMetaData/ExtractionResult
 * /usr/include/KF5/KFileMetaData/kfilemetadata/extractionresult.h
@@ -128,4 +129,3 @@ A library for extracting file metadata.
 * /usr/share/qlogging-categories5/kfilemetadata.categories
 * /usr/share/qlogging-categories5/kfilemetadata.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KFileMetaData.pri
-{{< /files >}}

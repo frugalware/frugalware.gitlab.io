@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-contacts', 'akonadi-mime', 'akonadi-notes', 'kimap'
 +++
 Desc: C++ API for MIME handling.
 
-{{< files text="show files" >}}* /usr/include/KPim5/KMime/KMime/Content
+## Files: 
+* /usr/include/KPim5/KMime/KMime/Content
 * /usr/include/KPim5/KMime/KMime/ContentIndex
 * /usr/include/KPim5/KMime/KMime/DateFormatter
 * /usr/include/KPim5/KMime/KMime/HeaderParsing
@@ -124,4 +125,3 @@ Desc: C++ API for MIME handling.
 * /usr/share/locale/zh_TW/LC_MESSAGES/libkmime5.mo
 * /usr/share/qlogging-categories5/kmime.categories
 * /usr/share/qt5/mkspecs/modules/qt_KMime.pri
-{{< /files >}}

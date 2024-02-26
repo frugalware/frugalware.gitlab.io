@@ -16,7 +16,8 @@ reverse_depends = "['kicad']"
 +++
 SDK intended for development of applications dealing with 3D CAD data
 
-{{< files text="show files" >}}* /usr/bin/custom.sh
+## Files: 
+* /usr/bin/custom.sh
 * /usr/bin/custom_gcc_64.sh
 * /usr/bin/draw.sh
 * /usr/bin/DRAWEXE
@@ -8897,4 +8898,3 @@ SDK intended for development of applications dealing with 3D CAD data
 * /usr/share/opencascade/samples/tcl/VisualizationDemo.tcl
 * /usr/share/opencascade/samples/tcl/vis_pbr_spheres.tcl
 * /usr/share/opencascade/samples/tcl/xde.tcl
-{{< /files >}}

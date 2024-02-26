@@ -16,7 +16,8 @@ reverse_depends = "['partitionmanager', 'qtparted']"
 +++
 JFS filesystem utilities
 
-{{< files text="show files" >}}* /usr/bin/fsck.jfs
+## Files: 
+* /usr/bin/fsck.jfs
 * /usr/bin/jfs_debugfs
 * /usr/bin/jfs_fsck
 * /usr/bin/jfs_fscklog
@@ -38,4 +39,3 @@ JFS filesystem utilities
 * /usr/share/man/man8/jfs_mkfs.8.gz
 * /usr/share/man/man8/jfs_tune.8.gz
 * /usr/share/man/man8/mkfs.jfs.8.gz
-{{< /files >}}

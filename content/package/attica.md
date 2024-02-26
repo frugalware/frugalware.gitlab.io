@@ -16,7 +16,8 @@ reverse_depends = "['kxmlgui', 'okular']"
 +++
 Qt library to access Open Collaboration Services
 
-{{< files text="show files" >}}* /usr/include/KF5/Attica/Attica/AccountBalance
+## Files: 
+* /usr/include/KF5/Attica/Attica/AccountBalance
 * /usr/include/KF5/Attica/attica/accountbalance.h
 * /usr/include/KF5/Attica/Attica/Achievement
 * /usr/include/KF5/Attica/attica/achievement.h
@@ -113,4 +114,3 @@ Qt library to access Open Collaboration Services
 * /usr/share/qlogging-categories5/attica.categories
 * /usr/share/qlogging-categories5/attica.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_Attica.pri
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['alsa-plugin-speex', 'ffmpeg', 'ffmpeg4.4', 'gst1-plugins-go
 +++
 Speex is an audio codec tuned for speech
 
-{{< files text="show files" >}}* /usr/bin/speexdec
+## Files: 
+* /usr/bin/speexdec
 * /usr/bin/speexenc
 * /usr/include/speex/speex.h
 * /usr/include/speex/speex_bits.h
@@ -43,4 +44,3 @@ Speex is an audio codec tuned for speech
 * /usr/share/doc/speex-1.2.1/TODO
 * /usr/share/man/man1/speexdec.1.gz
 * /usr/share/man/man1/speexenc.1.gz
-{{< /files >}}

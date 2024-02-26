@@ -16,7 +16,8 @@ reverse_depends = "['haskell-pretty-show']"
 +++
 A fully compliant Haskell 98 lexer
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/haskell-lexer-1.1.1/Language/Haskell/Lexer.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/haskell-lexer-1.1.1/Language/Haskell/Lexer.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/haskell-lexer-1.1.1/Language/Haskell/Lexer.hi
 * /usr/lib/ghc-9.8.1/site-local/haskell-lexer-1.1.1/Language/Haskell/Lexer/Layout.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/haskell-lexer-1.1.1/Language/Haskell/Lexer/Layout.hi
@@ -43,4 +44,3 @@ A fully compliant Haskell 98 lexer
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/haskell-lexer-1.1.1/LICENSE
 * /usr/share/haskell/haskell-lexer/register.sh
 * /usr/share/haskell/haskell-lexer/unregister.sh
-{{< /files >}}

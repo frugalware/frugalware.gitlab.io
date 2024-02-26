@@ -16,7 +16,8 @@ reverse_depends = "['android-tools', 'argyllcms', 'chromium-browser', 'cups', 'g
 +++
 A library which allows userspace access to USB devices
 
-{{< files text="show files" >}}* /usr/include/libusb-1.0/libusb.h
+## Files: 
+* /usr/include/libusb-1.0/libusb.h
 * /usr/lib/libusb-1.0.so
 * /usr/lib/libusb-1.0.so.0
 * /usr/lib/libusb-1.0.so.0.4.0
@@ -29,4 +30,3 @@ A library which allows userspace access to USB devices
 * /usr/share/doc/libusb1-1.0.27/NEWS
 * /usr/share/doc/libusb1-1.0.27/README
 * /usr/share/doc/libusb1-1.0.27/TODO
-{{< /files >}}

@@ -16,4 +16,4 @@ license = "GPL2"
 +++
 X.Org video driver for sunffb cards
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

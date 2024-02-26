@@ -16,7 +16,8 @@ reverse_depends = "['haskell-blaze-html']"
 +++
 A blazingly fast markup combinator library for Haskell
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/blaze-markup-0.8.3.0/libHSblaze-markup-0.8.3.0-FevMNeaUMKRAsG1RQeBFnh.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/blaze-markup-0.8.3.0/libHSblaze-markup-0.8.3.0-FevMNeaUMKRAsG1RQeBFnh.a
 * /usr/lib/ghc-9.8.1/site-local/blaze-markup-0.8.3.0/Text/Blaze.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/blaze-markup-0.8.3.0/Text/Blaze.hi
 * /usr/lib/ghc-9.8.1/site-local/blaze-markup-0.8.3.0/Text/Blaze/Internal.dyn_hi
@@ -49,4 +50,3 @@ A blazingly fast markup combinator library for Haskell
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/blaze-markup-0.8.3.0/LICENSE
 * /usr/share/haskell/haskell-blaze-markup/register.sh
 * /usr/share/haskell/haskell-blaze-markup/unregister.sh
-{{< /files >}}

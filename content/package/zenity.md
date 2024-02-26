@@ -16,7 +16,8 @@ reverse_depends = "['get_steam', 'zenity-doc']"
 +++
 A rewrite of gdialog
 
-{{< files text="show files" >}}* /usr/bin/gdialog
+## Files: 
+* /usr/bin/gdialog
 * /usr/bin/zenity
 * /usr/share/doc/zenity-3.44.0/AUTHORS
 * /usr/share/doc/zenity-3.44.0/ChangeLog
@@ -955,4 +956,3 @@ A rewrite of gdialog
 * /usr/share/zenity/zenity-text.png
 * /usr/share/zenity/zenity.png
 * /usr/share/zenity/zenity.ui
-{{< /files >}}

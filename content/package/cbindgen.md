@@ -15,8 +15,8 @@ depends = "['libgcc>=13.2']"
 +++
 A project for generating C bindings from Rust code.
 
-{{< files text="show files" >}}* /usr/bin/cbindgen
+## Files: 
+* /usr/bin/cbindgen
 * /usr/share/doc/cbindgen-0.26.0/CHANGES
 * /usr/share/doc/cbindgen-0.26.0/LICENSE
 * /usr/share/doc/cbindgen-0.26.0/README.md
-{{< /files >}}

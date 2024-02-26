@@ -15,7 +15,8 @@ depends = "['python3>=3.10']"
 +++
 A Python package to parse and build CSS Cascading Style Sheets.
 
-{{< files text="show files" >}}* /usr/bin/csscapture
+## Files: 
+* /usr/bin/csscapture
 * /usr/bin/csscombine
 * /usr/bin/cssparse
 * /usr/lib/python3.12/site-packages/cssutils-0.0.0-py3.12.egg-info/dependency_links.txt
@@ -371,4 +372,3 @@ A Python package to parse and build CSS Cascading Style Sheets.
 * /usr/share/doc/cssutils-2.6.0/COPYING.LESSER
 * /usr/share/doc/cssutils-2.6.0/LICENSE
 * /usr/share/doc/cssutils-2.6.0/README.rst
-{{< /files >}}

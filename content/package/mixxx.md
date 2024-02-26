@@ -15,7 +15,8 @@ depends = "['chromaprint', 'libebur128', 'libhidapi', 'libkeyfinder', 'libmad', 
 +++
 An open source DJ tool.
 
-{{< files text="show files" >}}* /usr/bin/mixxx
+## Files: 
+* /usr/bin/mixxx
 * /usr/lib/udev/rules.d/69-mixxx-usb-uaccess.rules
 * /usr/share/applications/org.mixxx.Mixxx.desktop
 * /usr/share/doc/mixxx-2.4.0/COPYING
@@ -2657,4 +2658,3 @@ An open source DJ tool.
 * /usr/share/mixxx/translations/mixxx_zh_CN.qm
 * /usr/share/mixxx/translations/mixxx_zh_HK.qm
 * /usr/share/mixxx/translations/mixxx_zh_TW.qm
-{{< /files >}}

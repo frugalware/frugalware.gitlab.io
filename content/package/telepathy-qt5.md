@@ -16,7 +16,8 @@ reverse_depends = "['telepathy-logger-qt', 'telepathy-morse']"
 +++
 Telepathy Qt5 bindings
 
-{{< files text="show files" >}}* /usr/include/telepathy-qt5/TelepathyQt/abstract-adaptor.h
+## Files: 
+* /usr/include/telepathy-qt5/TelepathyQt/abstract-adaptor.h
 * /usr/include/telepathy-qt5/TelepathyQt/abstract-client.h
 * /usr/include/telepathy-qt5/TelepathyQt/abstract-interface.h
 * /usr/include/telepathy-qt5/TelepathyQt/AbstractAdaptor
@@ -457,4 +458,3 @@ Telepathy Qt5 bindings
 * /usr/share/doc/telepathy-qt5-0.9.8/HACKING
 * /usr/share/doc/telepathy-qt5-0.9.8/NEWS
 * /usr/share/doc/telepathy-qt5-0.9.8/README
-{{< /files >}}

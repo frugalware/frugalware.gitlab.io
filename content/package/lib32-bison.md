@@ -15,6 +15,6 @@ depends = "['lib32-gettext']"
 +++
 A general-purpose parser generator. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/bison
+## Files: 
+* /usr/i686-frugalware-linux/bin/bison
 * /usr/i686-frugalware-linux/bin/yacc
-{{< /files >}}

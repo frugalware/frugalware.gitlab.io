@@ -15,5 +15,5 @@ depends = "['libvlc>=3.0.20', 'taglib>=2.0']"
 +++
 vlc taglib support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/meta_engine/libtaglib_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/meta_engine/libtaglib_plugin.so

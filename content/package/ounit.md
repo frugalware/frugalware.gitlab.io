@@ -15,7 +15,8 @@ depends = "['lwt', 'ocaml-seq']"
 +++
 Unit testing framework for OCaml
 
-{{< files text="show files" >}}* /usr/lib/ocaml/ounit-lwt/dune-package
+## Files: 
+* /usr/lib/ocaml/ounit-lwt/dune-package
 * /usr/lib/ocaml/ounit-lwt/META
 * /usr/lib/ocaml/ounit-lwt/opam
 * /usr/lib/ocaml/ounit/dune-package
@@ -185,4 +186,3 @@ Unit testing framework for OCaml
 * /usr/share/doc/ounit-2.2.7/ounit2/odoc-pages/index.mld
 * /usr/share/doc/ounit-2.2.7/ounit2/README.md
 * /usr/share/doc/ounit-2.2.7/README.md
-{{< /files >}}

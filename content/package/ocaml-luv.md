@@ -16,7 +16,8 @@ reverse_depends = "['lwt']"
 +++
 Cross-platform asynchronous I/O and system calls
 
-{{< files text="show files" >}}* /usr/lib/ocaml/luv/async.ml
+## Files: 
+* /usr/lib/ocaml/luv/async.ml
 * /usr/lib/ocaml/luv/async.mli
 * /usr/lib/ocaml/luv/barrier.ml
 * /usr/lib/ocaml/luv/barrier.mli
@@ -380,4 +381,3 @@ Cross-platform asynchronous I/O and system calls
 * /usr/share/doc/ocaml-luv-0.5.12/luv_unix/LICENSE.md
 * /usr/share/doc/ocaml-luv-0.5.12/luv_unix/README.md
 * /usr/share/doc/ocaml-luv-0.5.12/README.md
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['duplicity', 'kitty']"
 +++
 A free software library that implements the rsync remote-delta algorithm.
 
-{{< files text="show files" >}}* /usr/bin/rdiff
+## Files: 
+* /usr/bin/rdiff
 * /usr/include/librsync.h
 * /usr/include/librsync_export.h
 * /usr/lib/librsync.so
@@ -29,4 +30,3 @@ A free software library that implements the rsync remote-delta algorithm.
 * /usr/share/doc/librsync-2.3.4/THANKS
 * /usr/share/man/man1/rdiff.1.gz
 * /usr/share/man/man3/librsync.3.gz
-{{< /files >}}

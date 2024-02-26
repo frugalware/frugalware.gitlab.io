@@ -15,7 +15,8 @@ depends = "['libstdc++', 'readline>=8.0']"
 +++
 GNU Circuit Analysis Package
 
-{{< files text="show files" >}}* /usr/bin/gnucap
+## Files: 
+* /usr/bin/gnucap
 * /usr/bin/gnucap-modelgen
 * /usr/share/doc/gnucap-0.35/AUTHORS
 * /usr/share/doc/gnucap-0.35/ChangeLog
@@ -76,4 +77,3 @@ GNU Circuit Analysis Package
 * /usr/share/gnucap/examples/sc18.ckt
 * /usr/share/gnucap/manual/gnucap-man.pdf
 * /usr/share/man/man1/gnucap.1.gz
-{{< /files >}}

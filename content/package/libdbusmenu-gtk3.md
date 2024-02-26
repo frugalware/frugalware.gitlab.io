@@ -16,7 +16,8 @@ reverse_depends = "['ibus', 'libappindicator']"
 +++
 GTK3 bindings for libdbusmenu
 
-{{< files text="show files" >}}* /usr/include/libdbusmenu-gtk3-0.4/libdbusmenu-gtk/client.h
+## Files: 
+* /usr/include/libdbusmenu-gtk3-0.4/libdbusmenu-gtk/client.h
 * /usr/include/libdbusmenu-gtk3-0.4/libdbusmenu-gtk/dbusmenu-gtk.h
 * /usr/include/libdbusmenu-gtk3-0.4/libdbusmenu-gtk/menu.h
 * /usr/include/libdbusmenu-gtk3-0.4/libdbusmenu-gtk/menuitem.h
@@ -27,4 +28,3 @@ GTK3 bindings for libdbusmenu
 * /usr/lib/pkgconfig/dbusmenu-gtk3-0.4.pc
 * /usr/share/gir-1.0/DbusmenuGtk3-0.4.gir
 * /usr/share/vala/vapi/DbusmenuGtk3-0.4.vapi
-{{< /files >}}

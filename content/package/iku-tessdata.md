@@ -15,5 +15,5 @@ depends = "['glibc']"
 +++
 Language specific files for tesseract lang iku
 
-{{< files text="show files" >}}* /usr/share/tessdata/iku.traineddata
-{{< /files >}}
+## Files: 
+* /usr/share/tessdata/iku.traineddata

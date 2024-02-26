@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X Render Library
 
-{{< files text="show files" >}}* /usr/include/X11/extensions/Xrender.h
+## Files: 
+* /usr/include/X11/extensions/Xrender.h
 * /usr/lib/libXrender.so
 * /usr/lib/libXrender.so.1
 * /usr/lib/libXrender.so.1.3.0
@@ -28,4 +29,3 @@ X Render Library
 * /usr/share/doc/libxrender-0.9.11/INSTALL
 * /usr/share/doc/libxrender-0.9.11/libXrender.txt
 * /usr/share/doc/libxrender-0.9.11/README.md
-{{< /files >}}

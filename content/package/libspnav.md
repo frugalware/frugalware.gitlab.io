@@ -16,7 +16,8 @@ reverse_depends = "['blender']"
 +++
 Alternative to the proprietary 3Dconnexion device driver and SDK for their 3D input devices
 
-{{< files text="show files" >}}* /usr/include/spnav.h
+## Files: 
+* /usr/include/spnav.h
 * /usr/include/spnav_config.h
 * /usr/include/spnav_magellan.h
 * /usr/lib/libspnav.so
@@ -25,4 +26,3 @@ Alternative to the proprietary 3Dconnexion device driver and SDK for their 3D in
 * /usr/lib/pkgconfig/spnav.pc
 * /usr/share/doc/libspnav-1.0/LICENSE
 * /usr/share/doc/libspnav-1.0/README.md
-{{< /files >}}

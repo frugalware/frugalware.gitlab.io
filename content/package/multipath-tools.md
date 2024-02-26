@@ -16,7 +16,8 @@ reverse_depends = "['dracut']"
 +++
 Device mapper target autoconfig
 
-{{< files text="show files" >}}* /usr/bin/kpartx
+## Files: 
+* /usr/bin/kpartx
 * /usr/bin/mpathpersist
 * /usr/bin/multipath
 * /usr/bin/multipathc
@@ -110,4 +111,3 @@ Device mapper target autoconfig
 * /usr/share/man/man8/multipath.8.gz
 * /usr/share/man/man8/multipathc.8.gz
 * /usr/share/man/man8/multipathd.8.gz
-{{< /files >}}

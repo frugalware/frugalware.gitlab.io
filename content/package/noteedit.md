@@ -15,7 +15,8 @@ depends = "[]"
 +++
 a free music score editor for Linux
 
-{{< files text="show files" >}}* usr/bin/noteedit
+## Files: 
+* usr/bin/noteedit
 * usr/lib/libnoteedit.la
 * usr/lib/libnoteedit.so
 * usr/lib/libnoteedit.so.0
@@ -760,4 +761,3 @@ a free music score editor for Linux
 * usr/share/locale/sk/LC_MESSAGES/noteedit.mo
 * usr/share/locale/sl/LC_MESSAGES/noteedit.mo
 * usr/share/locale/sv/LC_MESSAGES/noteedit.mo
-{{< /files >}}

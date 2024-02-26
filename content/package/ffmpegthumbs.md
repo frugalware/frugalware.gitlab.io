@@ -16,8 +16,8 @@ reverse_depends = "['dolphin']"
 +++
 FFmpeg based thumbnail generator.
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/thumbcreator/ffmpegthumbs.so
+## Files: 
+* /usr/lib/qt5/plugins/kf5/thumbcreator/ffmpegthumbs.so
 * /usr/share/config.kcfg/ffmpegthumbnailersettings5.kcfg
 * /usr/share/metainfo/org.kde.ffmpegthumbs.metainfo.xml
 * /usr/share/qlogging-categories5/ffmpegthumbs.categories
-{{< /files >}}

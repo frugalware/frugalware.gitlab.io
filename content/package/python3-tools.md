@@ -15,7 +15,8 @@ depends = "['python3>=3.12.2']"
 +++
 Optional development tools to extending Python3
 
-{{< files text="show files" >}}* /usr/bin/modulator3.12.py
+## Files: 
+* /usr/bin/modulator3.12.py
 * /usr/bin/msgfmt3.12.py
 * /usr/bin/pygettext3.12.py
 * /usr/bin/pynche3.12
@@ -367,4 +368,3 @@ Optional development tools to extending Python3
 * /usr/lib/python3.12/site-packages/wasm/wasm_assets.py
 * /usr/lib/python3.12/site-packages/wasm/wasm_build.py
 * /usr/lib/python3.12/site-packages/wasm/wasm_webserver.py
-{{< /files >}}

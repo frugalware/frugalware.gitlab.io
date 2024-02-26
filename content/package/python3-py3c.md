@@ -15,7 +15,8 @@ depends = "['python3>=3.11']"
 +++
 A Python 2/3 compatibility layer for C extensions
 
-{{< files text="show files" >}}* /usr/include/py3c.h
+## Files: 
+* /usr/include/py3c.h
 * /usr/include/py3c/capsulethunk.h
 * /usr/include/py3c/comparison.h
 * /usr/include/py3c/compat.h
@@ -35,4 +36,3 @@ A Python 2/3 compatibility layer for C extensions
 * /usr/lib/python3.12/site-packages/py3c-1.4-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/py3c-1.4-py3.12.egg-info/top_level.txt
 * /usr/share/doc/python3-py3c-1.4/README.rst
-{{< /files >}}

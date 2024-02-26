@@ -16,7 +16,8 @@ reverse_depends = "['calindori', 'filelight', 'itinerary', 'kalk', 'kasts', 'key
 +++
 The Qt5 toolkit, qtquickcontrols2
 
-{{< files text="show files" >}}* /usr/include/qt5/QtQuickControls2/5.15.12/QtQuickControls2/private/qquickanimatednode_p.h
+## Files: 
+* /usr/include/qt5/QtQuickControls2/5.15.12/QtQuickControls2/private/qquickanimatednode_p.h
 * /usr/include/qt5/QtQuickControls2/5.15.12/QtQuickControls2/private/qquickattachedobject_p.h
 * /usr/include/qt5/QtQuickControls2/5.15.12/QtQuickControls2/private/qquickchecklabel_p.h
 * /usr/include/qt5/QtQuickControls2/5.15.12/QtQuickControls2/private/qquickclippedtext_p.h
@@ -607,4 +608,3 @@ The Qt5 toolkit, qtquickcontrols2
 * /usr/share/qt5/qml/QtQuick/Templates.2/libqtquicktemplates2plugin.so
 * /usr/share/qt5/qml/QtQuick/Templates.2/plugins.qmltypes
 * /usr/share/qt5/qml/QtQuick/Templates.2/qmldir
-{{< /files >}}

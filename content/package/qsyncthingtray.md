@@ -15,9 +15,9 @@ depends = "['qt5-location>=5.15.10', 'qt5-webengine>=5.15.10', 'syncthing']"
 +++
 tray app for syncthing
 
-{{< files text="show files" >}}* /usr/bin/QSyncthingTray
+## Files: 
+* /usr/bin/QSyncthingTray
 * /usr/share/applications/qsyncthingtray.desktop
 * /usr/share/doc/qsyncthingtray-0.5.8/COPYING.GPLv3+.txt
 * /usr/share/doc/qsyncthingtray-0.5.8/README.md
 * /usr/share/pixmaps/qsyncthingtray.png
-{{< /files >}}

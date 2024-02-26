@@ -16,7 +16,8 @@ reverse_depends = "['kmag', 'kwin5']"
 +++
 Helper library to make writing accessibility tools easier
 
-{{< files text="show files" >}}* /usr/include/QAccessibilityClient/qaccessibilityclient/accessibleobject.h
+## Files: 
+* /usr/include/QAccessibilityClient/qaccessibilityclient/accessibleobject.h
 * /usr/include/QAccessibilityClient/qaccessibilityclient/libqaccessibilityclient-version.h
 * /usr/include/QAccessibilityClient/qaccessibilityclient/qaccessibilityclient_export.h
 * /usr/include/QAccessibilityClient/qaccessibilityclient/registry.h
@@ -31,4 +32,3 @@ Helper library to make writing accessibility tools easier
 * /usr/share/doc/libqaccessibilityclient-0.6.0/AUTHORS
 * /usr/share/doc/libqaccessibilityclient-0.6.0/README.md
 * /usr/share/qlogging-categories5/libqaccessibilityclient.categories
-{{< /files >}}

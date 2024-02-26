@@ -16,7 +16,8 @@ reverse_depends = "['c-client', 'cups', 'dovecot', 'dropbear', 'enlightenment', 
 +++
 Linux-PAM (Pluggable Authentication Modules)
 
-{{< files text="show files" >}}* /etc/environment
+## Files: 
+* /etc/environment
 * /etc/security/access.conf
 * /etc/security/faillock.conf
 * /etc/security/group.conf
@@ -296,4 +297,3 @@ Linux-PAM (Pluggable Authentication Modules)
 * /usr/share/man/man8/pwhistory_helper.8.gz
 * /usr/share/man/man8/unix_chkpwd.8.gz
 * /usr/share/man/man8/unix_update.8.gz
-{{< /files >}}

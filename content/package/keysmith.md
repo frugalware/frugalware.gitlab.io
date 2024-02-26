@@ -15,7 +15,8 @@ depends = "['kdbusaddons', 'ki18n', 'kirigami2', 'kwindowsystem', 'libsodium>=1.
 +++
 OTP client for Plasma Mobile and Desktop
 
-{{< files text="show files" >}}* /usr/bin/keysmith
+## Files: 
+* /usr/bin/keysmith
 * /usr/share/applications/org.kde.keysmith.desktop
 * /usr/share/doc/keysmith-23.08.5/COPYING
 * /usr/share/doc/keysmith-23.08.5/README.md
@@ -54,4 +55,3 @@ OTP client for Plasma Mobile and Desktop
 * /usr/share/locale/zh_CN/LC_MESSAGES/keysmith.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/keysmith.mo
 * /usr/share/metainfo/org.kde.keysmith.appdata.xml
-{{< /files >}}

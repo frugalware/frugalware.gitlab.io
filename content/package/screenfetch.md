@@ -15,10 +15,10 @@ depends = "['bash', 'xdpyinfo', 'xprop']"
 +++
 CLI Bash script to show system/theme info in screenshots
 
-{{< files text="show files" >}}* /usr/bin/screenfetch
+## Files: 
+* /usr/bin/screenfetch
 * /usr/share/doc/screenfetch-3.9.1/CHANGELOG
 * /usr/share/doc/screenfetch-3.9.1/COPYING
 * /usr/share/doc/screenfetch-3.9.1/README.mkdn
 * /usr/share/doc/screenfetch-3.9.1/TODO
 * /usr/share/man/man1/screenfetch.1.gz
-{{< /files >}}

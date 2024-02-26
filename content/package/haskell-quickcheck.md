@@ -16,7 +16,8 @@ reverse_depends = "['haskell-aeson', 'haskell-digits', 'haskell-pandoc-types', '
 +++
 Automatic testing of Haskell programs
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/QuickCheck-2.14.3/libHSQuickCheck-2.14.3-1NfLsBY1h76jIEZnQ1fV6.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/QuickCheck-2.14.3/libHSQuickCheck-2.14.3-1NfLsBY1h76jIEZnQ1fV6.a
 * /usr/lib/ghc-9.8.1/site-local/QuickCheck-2.14.3/Test/QuickCheck.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/QuickCheck-2.14.3/Test/QuickCheck.hi
 * /usr/lib/ghc-9.8.1/site-local/QuickCheck-2.14.3/Test/QuickCheck/All.dyn_hi
@@ -97,4 +98,3 @@ Automatic testing of Haskell programs
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/QuickCheck-2.14.3/LICENSE
 * /usr/share/haskell/haskell-quickcheck/register.sh
 * /usr/share/haskell/haskell-quickcheck/unregister.sh
-{{< /files >}}

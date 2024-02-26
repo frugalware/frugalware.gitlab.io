@@ -15,7 +15,7 @@ depends = "['libgcc>=12.2']"
 +++
 Automatically generates Rust FFI bindings to C (and some C++) libraries
 
-{{< files text="show files" >}}* /usr/bin/bindgen
+## Files: 
+* /usr/bin/bindgen
 * /usr/share/doc/rust-bindgen-0.69.1/LICENSE
 * /usr/share/doc/rust-bindgen-0.69.1/README.md
-{{< /files >}}

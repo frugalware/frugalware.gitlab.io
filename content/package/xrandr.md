@@ -17,11 +17,11 @@ license = "GPL2"
 +++
 X.Org xrandr application
 
-{{< files text="show files" >}}* /usr/bin/xkeystone
+## Files: 
+* /usr/bin/xkeystone
 * /usr/bin/xrandr
 * /usr/share/doc/xrandr-1.5.2/ChangeLog
 * /usr/share/doc/xrandr-1.5.2/COPYING
 * /usr/share/doc/xrandr-1.5.2/INSTALL
 * /usr/share/doc/xrandr-1.5.2/README.md
 * /usr/share/man/man1/xrandr.1.gz
-{{< /files >}}

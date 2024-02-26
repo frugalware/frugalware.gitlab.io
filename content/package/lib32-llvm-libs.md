@@ -16,7 +16,8 @@ reverse_depends = "['lib32-clang-libs', 'lib32-libosmesa', 'lib32-libva-mesa-dri
 +++
 LLVM shared libs (32-bit)
 
-{{< files text="show files" >}}* /usr/lib32/libLLVM-17.0.6.so
+## Files: 
+* /usr/lib32/libLLVM-17.0.6.so
 * /usr/lib32/libLLVM-17.so
 * /usr/lib32/libLLVM.so
 * /usr/lib32/libLTO.so
@@ -24,4 +25,3 @@ LLVM shared libs (32-bit)
 * /usr/lib32/libRemarks.so
 * /usr/lib32/libRemarks.so.17
 * /usr/lib32/LLVMgold.so
-{{< /files >}}

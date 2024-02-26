@@ -16,7 +16,8 @@ reverse_depends = "['radeon-profile']"
 +++
 OpenGL demonstration and test programs.
 
-{{< files text="show files" >}}* /usr/bin/arbfplight
+## Files: 
+* /usr/bin/arbfplight
 * /usr/bin/arbfslight
 * /usr/bin/arbocclude
 * /usr/bin/arbocclude2
@@ -350,4 +351,3 @@ OpenGL demonstration and test programs.
 * /usr/share/mesa-demos/tree2.rgba
 * /usr/share/mesa-demos/tree3.rgb
 * /usr/share/mesa-demos/wrs_logo.rgb
-{{< /files >}}

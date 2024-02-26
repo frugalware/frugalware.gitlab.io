@@ -16,7 +16,8 @@ reverse_depends = "['haskell-connection', 'haskell-crypton-connection', 'haskell
 +++
 TLS/SSL protocol native implementation (Server and Client)
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/tls-1.9.0/libHStls-1.9.0-96pjRdYTtVWLxCNpAhjg5X.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/tls-1.9.0/libHStls-1.9.0-96pjRdYTtVWLxCNpAhjg5X.a
 * /usr/lib/ghc-9.8.1/site-local/tls-1.9.0/Network/TLS.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/tls-1.9.0/Network/TLS.hi
 * /usr/lib/ghc-9.8.1/site-local/tls-1.9.0/Network/TLS/Backend.dyn_hi
@@ -186,4 +187,3 @@ TLS/SSL protocol native implementation (Server and Client)
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/tls-1.9.0/LICENSE
 * /usr/share/haskell/haskell-tls/register.sh
 * /usr/share/haskell/haskell-tls/unregister.sh
-{{< /files >}}

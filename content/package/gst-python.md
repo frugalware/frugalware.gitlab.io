@@ -16,7 +16,8 @@ reverse_depends = "['transmageddon']"
 +++
 GStreamer python bindings
 
-{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstpython.so
+## Files: 
+* /usr/lib/gstreamer-1.0/libgstpython.so
 * /usr/lib/python3.12/site-packages/gi/overrides/Gst.py
 * /usr/lib/python3.12/site-packages/gi/overrides/GstAudio.py
 * /usr/lib/python3.12/site-packages/gi/overrides/GstPbutils.py
@@ -33,4 +34,3 @@ GStreamer python bindings
 * /usr/share/doc/gst-python-1.22.10/README
 * /usr/share/doc/gst-python-1.22.10/RELEASE
 * /usr/share/doc/gst-python-1.22.10/TODO
-{{< /files >}}

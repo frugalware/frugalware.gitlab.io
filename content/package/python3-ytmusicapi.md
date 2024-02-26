@@ -16,7 +16,8 @@ reverse_depends = "['audiotube']"
 +++
 Unofficial API for YouTube Music
 
-{{< files text="show files" >}}* /usr/bin/ytmusicapi
+## Files: 
+* /usr/bin/ytmusicapi
 * /usr/lib/python3.12/site-packages/ytmusicapi-1.3.2.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/ytmusicapi-1.3.2.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/ytmusicapi-1.3.2.dist-info/METADATA
@@ -138,4 +139,3 @@ Unofficial API for YouTube Music
 * /usr/lib/python3.12/site-packages/ytmusicapi/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-ytmusicapi-1.3.2/LICENSE
 * /usr/share/doc/python3-ytmusicapi-1.3.2/README.rst
-{{< /files >}}

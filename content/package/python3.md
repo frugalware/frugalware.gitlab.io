@@ -16,7 +16,8 @@ reverse_depends = "['apipkg', 'asciidoc', 'autojump', 'bcc', 'beautifulsoup4', '
 +++
 A high-level scripting language
 
-{{< files text="show files" >}}* /usr/bin/2to3
+## Files: 
+* /usr/bin/2to3
 * /usr/bin/2to3-3.12
 * /usr/bin/idle
 * /usr/bin/idle3
@@ -7723,4 +7724,3 @@ A high-level scripting language
 * /usr/share/man/man1/python.1.gz
 * /usr/share/man/man1/python3.1.gz
 * /usr/share/man/man1/python3.12.1.gz
-{{< /files >}}

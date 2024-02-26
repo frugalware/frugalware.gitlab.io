@@ -15,7 +15,8 @@ depends = "['ocaml-extlib']"
 +++
 Library to parse, pretty print, and evaluate CUDF documents
 
-{{< files text="show files" >}}* /usr/bin/cudf-check
+## Files: 
+* /usr/bin/cudf-check
 * /usr/bin/cudf-parse-822
 * /usr/lib/ocaml/cudf/cudf.a
 * /usr/lib/ocaml/cudf/cudf.cma
@@ -92,4 +93,3 @@ Library to parse, pretty print, and evaluate CUDF documents
 * /usr/share/doc/cudf-0.10/cudf/README
 * /usr/share/doc/cudf-0.10/INSTALL
 * /usr/share/doc/cudf-0.10/README
-{{< /files >}}

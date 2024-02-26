@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-contacts', 'kleopatra', 'kmail-account-wizard', 'ko
 +++
 This lib provides crypto for mails.
 
-{{< files text="show files" >}}* /etc/xdg/libkleopatrarc
+## Files: 
+* /etc/xdg/libkleopatrarc
 * /usr/include/KPim5/Libkleo/Libkleo/Algorithm
 * /usr/include/KPim5/Libkleo/libkleo/algorithm.h
 * /usr/include/KPim5/Libkleo/Libkleo/Assuan
@@ -249,4 +250,3 @@ This lib provides crypto for mails.
 * /usr/share/qlogging-categories5/libkleo.categories
 * /usr/share/qlogging-categories5/libkleo.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_Libkleo.pri
-{{< /files >}}

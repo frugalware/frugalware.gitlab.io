@@ -15,10 +15,10 @@ depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxext>=1.3.3-3']"
 +++
 X.Org Xxf86dga library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/xf86dga1.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/extensions/xf86dga1.h
 * /usr/i686-frugalware-linux/include/X11/extensions/Xxf86dga.h
 * /usr/lib32/libXxf86dga.so
 * /usr/lib32/libXxf86dga.so.1
 * /usr/lib32/libXxf86dga.so.1.0.0
 * /usr/lib32/pkgconfig/xxf86dga.pc
-{{< /files >}}

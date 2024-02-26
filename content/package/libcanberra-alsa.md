@@ -16,5 +16,5 @@ reverse_depends = "['knotifications']"
 +++
 Alsa libcanberra
 
-{{< files text="show files" >}}* /usr/lib/libcanberra-0.30/libcanberra-alsa.so
-{{< /files >}}
+## Files: 
+* /usr/lib/libcanberra-0.30/libcanberra-alsa.so

@@ -15,7 +15,8 @@ depends = "['libgfortran>=11.2']"
 +++
 Linear Algebra PACKage. (64-bit)
 
-{{< files text="show files" >}}* /usr/lib/cmake/lapack64-3.12.0/lapack64-config-version.cmake
+## Files: 
+* /usr/lib/cmake/lapack64-3.12.0/lapack64-config-version.cmake
 * /usr/lib/cmake/lapack64-3.12.0/lapack64-config.cmake
 * /usr/lib/cmake/lapack64-3.12.0/lapack64-targets-release.cmake
 * /usr/lib/cmake/lapack64-3.12.0/lapack64-targets.cmake
@@ -26,4 +27,3 @@ Linear Algebra PACKage. (64-bit)
 * /usr/lib/libtmglib64.so.3
 * /usr/lib/libtmglib64.so.3.12.0
 * /usr/lib/pkgconfig/lapack64.pc
-{{< /files >}}

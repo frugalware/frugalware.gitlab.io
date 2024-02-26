@@ -15,7 +15,8 @@ depends = "['libice', 'libxext', 'libxrender']"
 +++
 Qt4 DesignerComponents Library
 
-{{< files text="show files" >}}* usr/include/QtDesigner/QDesignerComponents
+## Files: 
+* usr/include/QtDesigner/QDesignerComponents
 * usr/include/QtDesigner/qdesigner_components.h
 * usr/include/QtDesigner/qdesigner_components_global.h
 * usr/lib/libQtDesignerComponents.prl
@@ -24,4 +25,3 @@ Qt4 DesignerComponents Library
 * usr/lib/libQtDesignerComponents.so.4.5
 * usr/lib/libQtDesignerComponents.so.4.5.2
 * usr/lib/pkgconfig/QtDesignerComponents.pc
-{{< /files >}}

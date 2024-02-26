@@ -15,7 +15,8 @@ depends = "['popt>=1.16-6']"
 +++
 Hany's DOS <-> Unix convertor
 
-{{< files text="show files" >}}* /usr/bin/dos2unix
+## Files: 
+* /usr/bin/dos2unix
 * /usr/bin/unix2dos
 * /usr/share/doc/hd2u-1.0.4/AUTHORS
 * /usr/share/doc/hd2u-1.0.4/ChangeLog
@@ -25,4 +26,3 @@ Hany's DOS <-> Unix convertor
 * /usr/share/doc/hd2u-1.0.4/NEWS
 * /usr/share/doc/hd2u-1.0.4/README
 * /usr/share/doc/hd2u-1.0.4/TODO
-{{< /files >}}

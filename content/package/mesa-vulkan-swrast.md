@@ -15,6 +15,6 @@ depends = "['vulkan-icd-loader', 'xcb-util-keysyms', 'zstd']"
 +++
 SWRast Support for Vulkan
 
-{{< files text="show files" >}}* /usr/lib/libvulkan_lvp.so
+## Files: 
+* /usr/lib/libvulkan_lvp.so
 * /usr/share/vulkan/icd.d/lvp_icd.x86_64.json
-{{< /files >}}

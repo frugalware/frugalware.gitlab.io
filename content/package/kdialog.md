@@ -15,7 +15,8 @@ depends = "['kdelibs4support>=5.115.0']"
 +++
 Can be used to show nice dialog boxes from shell scripts.
 
-{{< files text="show files" >}}* /usr/bin/kdialog
+## Files: 
+* /usr/bin/kdialog
 * /usr/bin/kdialog_progress_helper
 * /usr/share/applications/org.kde.kdialog.desktop
 * /usr/share/dbus-1/interfaces/org.kde.kdialog.ProgressDialog.xml
@@ -112,4 +113,3 @@ Can be used to show nice dialog boxes from shell scripts.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kdialog.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kdialog.mo
 * /usr/share/metainfo/org.kde.kdialog.metainfo.xml
-{{< /files >}}

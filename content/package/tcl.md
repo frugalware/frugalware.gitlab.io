@@ -16,7 +16,8 @@ reverse_depends = "['expect', 'insight-toolkit', 'postgresql-pltcl', 'sqlite3-tc
 +++
 The Tcl scripting language
 
-{{< files text="show files" >}}* /usr/bin/sqlite3_analyzer
+## Files: 
+* /usr/bin/sqlite3_analyzer
 * /usr/bin/tclsh
 * /usr/bin/tclsh8.6
 * /usr/include/fakemysql.h
@@ -1203,4 +1204,3 @@ The Tcl scripting language
 * /usr/share/man/mann/yield.n.gz
 * /usr/share/man/mann/yieldto.n.gz
 * /usr/share/man/mann/zlib.n.gz
-{{< /files >}}

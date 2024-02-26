@@ -15,8 +15,8 @@ depends = "['libclc', 'spirv-llvm-translator']"
 +++
 Mesa OpenCL rusticl
 
-{{< files text="show files" >}}* /etc/OpenCL/vendors/rusticl.icd
+## Files: 
+* /etc/OpenCL/vendors/rusticl.icd
 * /usr/lib/libRusticlOpenCL.so
 * /usr/lib/libRusticlOpenCL.so.1
 * /usr/lib/libRusticlOpenCL.so.1.0.0
-{{< /files >}}

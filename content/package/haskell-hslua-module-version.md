@@ -15,7 +15,8 @@ depends = "['haskell-hslua-packaging']"
 +++
 Lua module to work with version specifiers
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hslua-module-version-1.1.0/HsLua/Module/Version.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/hslua-module-version-1.1.0/HsLua/Module/Version.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-module-version-1.1.0/HsLua/Module/Version.hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-module-version-1.1.0/libHShslua-module-version-1.1.0-D6HftYeTlZoKEAcnTT1il0.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHShslua-module-version-1.1.0-D6HftYeTlZoKEAcnTT1il0-ghc9.8.1.so
@@ -35,4 +36,3 @@ Lua module to work with version specifiers
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/hslua-module-version-1.1.0/LICENSE
 * /usr/share/haskell/haskell-hslua-module-version/register.sh
 * /usr/share/haskell/haskell-hslua-module-version/unregister.sh
-{{< /files >}}

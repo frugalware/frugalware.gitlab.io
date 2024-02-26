@@ -15,11 +15,11 @@ depends = "['kbd', 'perl', 'xkeyboard-config']"
 +++
 Compile an XKB keymap for loadkeys
 
-{{< files text="show files" >}}* /usr/bin/ckbcomp
+## Files: 
+* /usr/bin/ckbcomp
 * /usr/share/doc/ckbcomp-1.217/CHANGES
 * /usr/share/doc/ckbcomp-1.217/COPYRIGHT
 * /usr/share/doc/ckbcomp-1.217/FAQ
 * /usr/share/doc/ckbcomp-1.217/README
 * /usr/share/doc/ckbcomp-1.217/README.legacyfonts
 * /usr/share/man/man1/ckbcomp.1.gz
-{{< /files >}}

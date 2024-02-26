@@ -15,7 +15,8 @@ depends = "['cln', 'readline>=8.0']"
 +++
 A free CAS (computer algebra system)
 
-{{< files text="show files" >}}* /usr/bin/ginsh
+## Files: 
+* /usr/bin/ginsh
 * /usr/bin/viewgar
 * /usr/include/ginac/add.h
 * /usr/include/ginac/archive.h
@@ -81,4 +82,3 @@ A free CAS (computer algebra system)
 * /usr/share/info/ginac.info.gz
 * /usr/share/man/man1/ginsh.1.gz
 * /usr/share/man/man1/viewgar.1.gz
-{{< /files >}}

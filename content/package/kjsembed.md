@@ -16,7 +16,8 @@ reverse_depends = "['plasma-workspace']"
 +++
 Binding Javascript object to QObjects.
 
-{{< files text="show files" >}}* /usr/bin/kjscmd5
+## Files: 
+* /usr/bin/kjscmd5
 * /usr/bin/kjsconsole
 * /usr/include/KF5/KJsEmbed/kjsembed/binding_support.h
 * /usr/include/KF5/KJsEmbed/kjsembed/kjseglobal.h
@@ -151,4 +152,3 @@ Binding Javascript object to QObjects.
 * /usr/share/man/tr/man1/kjscmd5.1.gz
 * /usr/share/man/uk/man1/kjscmd5.1.gz
 * /usr/share/qt5/mkspecs/modules/qt_KJsEmbed.pri
-{{< /files >}}

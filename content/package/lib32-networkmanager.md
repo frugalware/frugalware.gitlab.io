@@ -16,7 +16,8 @@ reverse_depends = "['steam-native']"
 +++
 Network Management daemon ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/nm-online
+## Files: 
+* /usr/i686-frugalware-linux/bin/nm-online
 * /usr/i686-frugalware-linux/bin/nmcli
 * /usr/i686-frugalware-linux/bin/nmtui
 * /usr/i686-frugalware-linux/bin/nmtui-connect
@@ -156,4 +157,3 @@ Network Management daemon ( 32bit )
 * /usr/lib32/NetworkManager/1.46.0/libnm-ppp-plugin.so
 * /usr/lib32/NetworkManager/1.46.0/libnm-wwan.so
 * /usr/lib32/pkgconfig/libnm.pc
-{{< /files >}}

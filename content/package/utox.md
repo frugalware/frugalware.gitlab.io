@@ -15,7 +15,8 @@ depends = "['filter_audio', 'fontconfig', 'libxrender', 'tox-core>=0.2.18']"
 +++
 Lightweight Tox client.
 
-{{< files text="show files" >}}* /usr/bin/utox
+## Files: 
+* /usr/bin/utox
 * /usr/share/applications/utox.desktop
 * /usr/share/doc/utox-0.16.1/LICENSE
 * /usr/share/doc/utox-0.16.1/README.md
@@ -34,4 +35,3 @@ Lightweight Tox client.
 * /usr/share/icons/hicolor/96x96/apps/utox-96x96.png
 * /usr/share/icons/hicolor/scalable/apps/utox.svg
 * /usr/share/man/man1/utox.1.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-search', 'analitza', 'bluez-qt', 'calamares-frugalw
 +++
 The Qt5 toolkit, qtdeclarative
 
-{{< files text="show files" >}}* /usr/bin/qml
+## Files: 
+* /usr/bin/qml
 * /usr/bin/qml-qt5
 * /usr/bin/qmlcachegen
 * /usr/bin/qmlcachegen-qt5
@@ -986,4 +987,3 @@ The Qt5 toolkit, qtdeclarative
 * /usr/share/qt5/qml/QtTest/SignalSpy.qml
 * /usr/share/qt5/qml/QtTest/TestCase.qml
 * /usr/share/qt5/qml/QtTest/testlogger.js
-{{< /files >}}

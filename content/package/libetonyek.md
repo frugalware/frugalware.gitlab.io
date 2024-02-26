@@ -16,7 +16,8 @@ reverse_depends = "['libreoffice']"
 +++
 Libetonyek is library providing ability to interpret and import Apple Keynote presentations into various applications.
 
-{{< files text="show files" >}}* /usr/bin/key2raw
+## Files: 
+* /usr/bin/key2raw
 * /usr/bin/key2text
 * /usr/bin/key2xhtml
 * /usr/bin/numbers2csv
@@ -38,4 +39,3 @@ Libetonyek is library providing ability to interpret and import Apple Keynote pr
 * /usr/share/doc/libetonyek-0.1.10/NEWS
 * /usr/share/doc/libetonyek-0.1.10/README
 * /usr/share/doc/libetonyek-0.1.10/TODO
-{{< /files >}}

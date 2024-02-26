@@ -15,7 +15,8 @@ depends = "['kernel=6.7.6-1', 'libxcomposite', 'libxdamage', 'libxmu', 'libxrand
 +++
 VirtualBox guest Additions
 
-{{< files text="show files" >}}* /etc/xdg/autostart/vboxclient.desktop
+## Files: 
+* /etc/xdg/autostart/vboxclient.desktop
 * /usr/bin/mount.vboxsf
 * /usr/bin/VBoxClient
 * /usr/bin/VBoxClient-all
@@ -33,4 +34,3 @@ VirtualBox guest Additions
 * /usr/lib/systemd/system/vboxservice.service
 * /usr/lib/sysusers.d/virtualbox-guest-utils.conf
 * /usr/lib/udev/rules.d/60-vboxguest.rules
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['gpm>=1.20.5-2', 'ncurses>=6.0']"
 +++
 An easy to use text editor, similar to WordStar[tm]
 
-{{< files text="show files" >}}* /etc/joe/ftyperc
+## Files: 
+* /etc/joe/ftyperc
 * /etc/joe/jicerc.ru
 * /etc/joe/jmacsrc
 * /etc/joe/joerc
@@ -141,4 +142,3 @@ An easy to use text editor, similar to WordStar[tm]
 * /usr/share/joe/syntax/yaml.jsf
 * /usr/share/man/man1/joe.1.gz
 * /usr/share/man/ru/man1/joe.1.gz
-{{< /files >}}

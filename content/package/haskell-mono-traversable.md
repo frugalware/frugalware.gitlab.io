@@ -16,7 +16,8 @@ reverse_depends = "['haskell-conduit']"
 +++
 Type classes for mapping, folding, and traversing monomorphic containers
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/mono-traversable-1.0.15.3/Data/Containers.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/mono-traversable-1.0.15.3/Data/Containers.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/mono-traversable-1.0.15.3/Data/Containers.hi
 * /usr/lib/ghc-9.8.1/site-local/mono-traversable-1.0.15.3/Data/MonoTraversable.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/mono-traversable-1.0.15.3/Data/MonoTraversable.hi
@@ -71,4 +72,3 @@ Type classes for mapping, folding, and traversing monomorphic containers
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/mono-traversable-1.0.15.3/LICENSE
 * /usr/share/haskell/haskell-mono-traversable/register.sh
 * /usr/share/haskell/haskell-mono-traversable/unregister.sh
-{{< /files >}}

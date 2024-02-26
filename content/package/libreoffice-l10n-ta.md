@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Tamil support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/ta/default.css
+## Files: 
+* /usr/lib/libreoffice/help/ta/default.css
 * /usr/lib/libreoffice/help/ta/err.html
 * /usr/lib/libreoffice/help/ta/highcontrast1.css
 * /usr/lib/libreoffice/help/ta/highcontrast2.css
@@ -134,4 +135,3 @@ Installs Tamil support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-ta.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_ta.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_ta.xcd
-{{< /files >}}

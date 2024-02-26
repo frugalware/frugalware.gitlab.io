@@ -16,7 +16,8 @@ reverse_depends = "['appstream', 'appstream-glib', 'calibre']"
 +++
 String processing language for creating stemming algorithms
 
-{{< files text="show files" >}}* /usr/include/libstemmer.h
+## Files: 
+* /usr/include/libstemmer.h
 * /usr/lib/libstemmer.so
 * /usr/lib/libstemmer.so.0
 * /usr/lib/libstemmer.so.0.0.0
@@ -24,4 +25,3 @@ String processing language for creating stemming algorithms
 * /usr/share/doc/libstemmer-2.2.0/COPYING
 * /usr/share/doc/libstemmer-2.2.0/NEWS
 * /usr/share/doc/libstemmer-2.2.0/README.rst
-{{< /files >}}

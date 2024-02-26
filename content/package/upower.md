@@ -16,7 +16,8 @@ reverse_depends = "['clight', 'mixxx', 'solid']"
 +++
 upower provides a daemon, API and command line tools for managing power devices attached to the system.
 
-{{< files text="show files" >}}* /etc/UPower/UPower.conf
+## Files: 
+* /etc/UPower/UPower.conf
 * /usr/bin/upower
 * /usr/include/libupower-glib/up-autocleanups.h
 * /usr/include/libupower-glib/up-client.h
@@ -92,4 +93,3 @@ upower provides a daemon, API and command line tools for managing power devices 
 * /usr/share/man/man1/upower.1.gz
 * /usr/share/man/man7/UPower.7.gz
 * /usr/share/man/man8/upowerd.8.gz
-{{< /files >}}

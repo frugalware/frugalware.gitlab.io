@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Gnome menu support for icewm.
 
-{{< files text="show files" >}}* /usr/bin/icewm-menu-gnome2
-{{< /files >}}
+## Files: 
+* /usr/bin/icewm-menu-gnome2

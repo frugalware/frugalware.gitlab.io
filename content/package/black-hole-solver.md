@@ -16,7 +16,8 @@ reverse_depends = "['kpat']"
 +++
 Solvers and statistics for 'Golf' solitaire, 'Black Hole' solitaire, 'All in a Row' solitaire and related card patience games.
 
-{{< files text="show files" >}}* /usr/bin/black-hole-solve
+## Files: 
+* /usr/bin/black-hole-solve
 * /usr/include/black-hole-solver/black_hole_solver.h
 * /usr/include/black-hole-solver/bool.h
 * /usr/include/black-hole-solver/fcs_dllexport.h
@@ -28,4 +29,3 @@ Solvers and statistics for 'Golf' solitaire, 'Black Hole' solitaire, 'All in a R
 * /usr/share/doc/black-hole-solver-1.10.1/INSTALL
 * /usr/share/doc/black-hole-solver-1.10.1/README.md
 * /usr/share/man/man6/black-hole-solve.6.gz
-{{< /files >}}

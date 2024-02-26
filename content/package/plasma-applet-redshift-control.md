@@ -15,7 +15,8 @@ depends = "['plasma-framework>=5.53.0', 'redshift']"
 +++
 Plasma5 Plasmoid for Redshift
 
-{{< files text="show files" >}}* /usr/share/doc/plasma-applet-redshift-control-1.0.18/LICENSE
+## Files: 
+* /usr/share/doc/plasma-applet-redshift-control-1.0.18/LICENSE
 * /usr/share/doc/plasma-applet-redshift-control-1.0.18/README.md
 * /usr/share/kservices5/plasma-applet-org.kde.redshiftControl.desktop
 * /usr/share/locale/cs/LC_MESSAGES/plasma_applet_org.kde.redshiftControl.mo
@@ -39,4 +40,3 @@ Plasma5 Plasmoid for Redshift
 * /usr/share/plasma/plasmoids/org.kde.redshiftControl/contents/ui/main.qml
 * /usr/share/plasma/plasmoids/org.kde.redshiftControl/metadata.desktop
 * /usr/share/plasma/plasmoids/org.kde.redshiftControl/metadata.json
-{{< /files >}}

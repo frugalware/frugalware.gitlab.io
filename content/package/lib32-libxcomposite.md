@@ -16,9 +16,9 @@ reverse_depends = "['lib32-gtk+2-libs', 'wine', 'wine-devel']"
 +++
 X.Org XComposite library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/Xcomposite.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/extensions/Xcomposite.h
 * /usr/lib32/libXcomposite.so
 * /usr/lib32/libXcomposite.so.1
 * /usr/lib32/libXcomposite.so.1.0.0
 * /usr/lib32/pkgconfig/xcomposite.pc
-{{< /files >}}

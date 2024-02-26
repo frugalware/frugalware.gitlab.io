@@ -16,7 +16,8 @@ reverse_depends = "['lib32-cairo', 'lib32-gdk-pixbuf2', 'lib32-libdmx', 'lib32-l
 +++
 X.Org X11 library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/cursorfont.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/cursorfont.h
 * /usr/i686-frugalware-linux/include/X11/extensions/XKBgeom.h
 * /usr/i686-frugalware-linux/include/X11/ImUtil.h
 * /usr/i686-frugalware-linux/include/X11/Xcms.h
@@ -37,4 +38,3 @@ X.Org X11 library ( 32bit )
 * /usr/lib32/libX11.so.6.4.0
 * /usr/lib32/pkgconfig/x11-xcb.pc
 * /usr/lib32/pkgconfig/x11.pc
-{{< /files >}}

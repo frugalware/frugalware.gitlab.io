@@ -16,7 +16,8 @@ reverse_depends = "['calibre', 'python3-poetry']"
 +++
 Library for working with HTML documents
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/html5lib-1.1-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/html5lib-1.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/html5lib-1.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/html5lib-1.1-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/html5lib-1.1-py3.12.egg-info/SOURCES.txt
@@ -92,4 +93,3 @@ Library for working with HTML documents
 * /usr/share/doc/html5lib-python-1.1/LICENSE
 * /usr/share/doc/html5lib-python-1.1/README.md
 * /usr/share/doc/html5lib-python-1.1/README.rst
-{{< /files >}}

@@ -16,7 +16,8 @@ license = "GPL"
 +++
 An XSL processor fully implemented in C++
 
-{{< files text="show files" >}}* /usr/bin/sabcmd
+## Files: 
+* /usr/bin/sabcmd
 * /usr/bin/sablot-config
 * /usr/include/sabcfg.h
 * /usr/include/sabdbg.h
@@ -240,4 +241,3 @@ An XSL processor fully implemented in C++
 * /usr/share/doc/sablotron-1.0.3/README_JS
 * /usr/share/doc/sablotron-1.0.3/RELEASE
 * /usr/share/man/man1/sabcmd.1.gz
-{{< /files >}}

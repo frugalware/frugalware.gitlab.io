@@ -16,7 +16,8 @@ reverse_depends = "['perl-template-toolkit']"
 +++
 Perl/CPAN AppConfig module - Read configuration files and parse command line arguments
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/AppConfig.pm
+## Files: 
+* /usr/lib/perl5/site_perl/AppConfig.pm
 * /usr/lib/perl5/site_perl/AppConfig/Args.pm
 * /usr/lib/perl5/site_perl/AppConfig/CGI.pm
 * /usr/lib/perl5/site_perl/AppConfig/File.pm
@@ -34,4 +35,3 @@ Perl/CPAN AppConfig module - Read configuration files and parse command line arg
 * /usr/share/man/man3/AppConfig::Getopt.3perl.gz
 * /usr/share/man/man3/AppConfig::State.3perl.gz
 * /usr/share/man/man3/AppConfig::Sys.3perl.gz
-{{< /files >}}

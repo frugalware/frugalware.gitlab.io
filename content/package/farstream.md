@@ -16,7 +16,8 @@ reverse_depends = "['libpurple', 'telepathy-farstream', 'telepathy-qt5']"
 +++
 Farstream - Audio/Video Communications Framework
 
-{{< files text="show files" >}}* /usr/include/farstream-0.2/farstream/fs-candidate.h
+## Files: 
+* /usr/include/farstream-0.2/farstream/fs-candidate.h
 * /usr/include/farstream-0.2/farstream/fs-codec.h
 * /usr/include/farstream-0.2/farstream/fs-conference.h
 * /usr/include/farstream-0.2/farstream/fs-element-added-notifier.h
@@ -111,4 +112,3 @@ Farstream - Audio/Video Communications Framework
 * /usr/share/gtk-doc/html/farstream-plugins-0.2/style.css
 * /usr/share/gtk-doc/html/farstream-plugins-0.2/up-insensitive.png
 * /usr/share/gtk-doc/html/farstream-plugins-0.2/up.png
-{{< /files >}}

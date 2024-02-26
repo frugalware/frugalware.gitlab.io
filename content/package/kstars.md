@@ -15,7 +15,8 @@ depends = "['cfitsio>=4.2.0', 'eigen', 'kio>=5.110.0', 'knewstuff>=5.110.0', 'kn
 +++
 Desktop Planetarium.
 
-{{< files text="show files" >}}* /usr/bin/kstars
+## Files: 
+* /usr/bin/kstars
 * /usr/lib/libhtmesh.a
 * /usr/share/applications/org.kde.kstars.desktop
 * /usr/share/config.kcfg/kstars.kcfg
@@ -1939,4 +1940,3 @@ Desktop Planetarium.
 * /usr/share/sounds/KDE-KStars-Sys-App-Error-Serious.ogg
 * /usr/share/sounds/KDE-KStars-Sys-App-Message.ogg
 * /usr/share/sounds/KDE-KStars-Warning.ogg
-{{< /files >}}

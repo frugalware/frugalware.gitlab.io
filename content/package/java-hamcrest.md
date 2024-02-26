@@ -16,8 +16,8 @@ reverse_depends = "['junit', 'junit3']"
 +++
 Library of matchers for building test expressions.
 
-{{< files text="show files" >}}* /usr/share/java/hamcrest/hamcrest-all-1.3.jar
+## Files: 
+* /usr/share/java/hamcrest/hamcrest-all-1.3.jar
 * /usr/share/java/hamcrest/hamcrest-core.jar
 * /usr/share/java/hamcrest/hamcrest-generator.jar
 * /usr/share/java/hamcrest/hamcrest-integration.jar
-{{< /files >}}

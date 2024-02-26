@@ -15,6 +15,6 @@ depends = "[]"
 +++
 Static files for flex
 
-{{< files text="show files" >}}* /usr/lib/libfl.a
+## Files: 
+* /usr/lib/libfl.a
 * /usr/lib/libl.a
-{{< /files >}}

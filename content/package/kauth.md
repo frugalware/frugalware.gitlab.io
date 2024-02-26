@@ -16,7 +16,8 @@ reverse_depends = "['kconfigwidgets', 'kpmcore', 'plasma-desktop', 'smb4k', 'use
 +++
 Framework which lets applications perform actions as a privileged user.
 
-{{< files text="show files" >}}* /usr/include/KF5/KAuth/KAuth
+## Files: 
+* /usr/include/KF5/KAuth/KAuth
 * /usr/include/KF5/KAuth/kauth.h
 * /usr/include/KF5/KAuth/KAuthAction
 * /usr/include/KF5/KAuth/kauthaction.h
@@ -165,4 +166,3 @@ Framework which lets applications perform actions as a privileged user.
 * /usr/share/qlogging-categories5/kauth.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KAuth.pri
 * /usr/share/qt5/mkspecs/modules/qt_KAuthCore.pri
-{{< /files >}}

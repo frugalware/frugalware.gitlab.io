@@ -15,7 +15,8 @@ depends = "['lib32-brotli', 'lib32-curl', 'lib32-gnutls>=3.6.9', 'lib32-libpsl>=
 +++
 A command line tool for transferring data specified with URL syntax. (32-bit gnutls version)
 
-{{< files text="show files" >}}* /usr/lib32/libcurl-gnutls.so.3
+## Files: 
+* /usr/lib32/libcurl-gnutls.so.3
 * /usr/lib32/libcurl-gnutls.so.4
 * /usr/lib32/libcurl-gnutls.so.4.0.0
 * /usr/lib32/libcurl-gnutls.so.4.1.0
@@ -30,4 +31,3 @@ A command line tool for transferring data specified with URL syntax. (32-bit gnu
 * /usr/share/doc/lib32-libcurl-gnutls-8.6.0/COPYING
 * /usr/share/doc/lib32-libcurl-gnutls-8.6.0/README
 * /usr/share/doc/lib32-libcurl-gnutls-8.6.0/RELEASE-NOTES
-{{< /files >}}

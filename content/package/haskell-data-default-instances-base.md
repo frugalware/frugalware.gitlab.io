@@ -16,7 +16,8 @@ reverse_depends = "['haskell-data-default']"
 +++
 Default instances for types in base.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/data-default-instances-base-0.1.0.1/Data/Default/Instances/Base.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/data-default-instances-base-0.1.0.1/Data/Default/Instances/Base.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/data-default-instances-base-0.1.0.1/Data/Default/Instances/Base.hi
 * /usr/lib/ghc-9.8.1/site-local/data-default-instances-base-0.1.0.1/libHSdata-default-instances-base-0.1.0.1-KcyKSnSkslF5nCFZpJDUdK.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSdata-default-instances-base-0.1.0.1-KcyKSnSkslF5nCFZpJDUdK-ghc9.8.1.so
@@ -33,4 +34,3 @@ Default instances for types in base.
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/data-default-instances-base-0.1.0.1/LICENSE
 * /usr/share/haskell/haskell-data-default-instances-base/register.sh
 * /usr/share/haskell/haskell-data-default-instances-base/unregister.sh
-{{< /files >}}

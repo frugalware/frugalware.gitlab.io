@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Documentation for the KDevelop package.
 
-{{< files text="show files" >}}* usr/share/apps/kdevdocumentation/tocs/kdev3api.toc
+## Files: 
+* usr/share/apps/kdevdocumentation/tocs/kdev3api.toc
 * usr/share/apps/kdevdocumentation/tocs/opengl.toc
 * usr/share/apps/kdevdocumentation/tocs/sdl.toc
 * usr/share/apps/kdevdocumentation/tocs/w3c-dom-level2-html.toc
@@ -123,4 +124,3 @@ Documentation for the KDevelop package.
 * usr/share/doc/kdevelop-docs-3.3.1/NEWS
 * usr/share/doc/kdevelop-docs-3.3.1/README
 * usr/share/doc/kdevelop-docs-3.3.1/TODO
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['babe', 'calindori', 'dolphin', 'itinerary', 'kbackup', 'kde
 +++
 KDE Desktop notifications.
 
-{{< files text="show files" >}}* /usr/include/KF5/KNotifications/KNotification
+## Files: 
+* /usr/include/KF5/KNotifications/KNotification
 * /usr/include/KF5/KNotifications/knotification.h
 * /usr/include/KF5/KNotifications/KNotificationJobUiDelegate
 * /usr/include/KF5/KNotifications/knotificationjobuidelegate.h
@@ -149,4 +150,3 @@ KDE Desktop notifications.
 * /usr/share/qt5/mkspecs/modules/qt_KNotifications.pri
 * /usr/share/qt5/qml/org/kde/notification/libknotificationqmlplugin.so
 * /usr/share/qt5/qml/org/kde/notification/qmldir
-{{< /files >}}

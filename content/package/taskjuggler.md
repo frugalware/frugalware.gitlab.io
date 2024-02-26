@@ -16,7 +16,8 @@ license = "GPL"
 +++
 TaskJuggler is a modern and powerful project management tool.
 
-{{< files text="show files" >}}* usr/bin/taskjuggler
+## Files: 
+* usr/bin/taskjuggler
 * usr/bin/TaskJugglerUI
 * usr/lib/libtaskjuggler.la
 * usr/lib/libtaskjuggler.so
@@ -109,4 +110,3 @@ TaskJuggler is a modern and powerful project management tool.
 * usr/share/mimelnk/application/x-tji.desktop
 * usr/share/mimelnk/application/x-tjp.desktop
 * usr/share/mimelnk/application/x-tjx.desktop
-{{< /files >}}

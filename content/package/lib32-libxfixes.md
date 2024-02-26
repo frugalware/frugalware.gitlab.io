@@ -16,9 +16,9 @@ reverse_depends = "['lib32-ffmpeg', 'lib32-libva', 'lib32-libva1', 'lib32-libxco
 +++
 X.Org Xfixes library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/Xfixes.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/extensions/Xfixes.h
 * /usr/lib32/libXfixes.so
 * /usr/lib32/libXfixes.so.3
 * /usr/lib32/libXfixes.so.3.1.0
 * /usr/lib32/pkgconfig/xfixes.pc
-{{< /files >}}

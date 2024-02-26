@@ -16,5 +16,5 @@ reverse_depends = "['firefox-i18n']"
 +++
 Hindi language support for Firefox
 
-{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-hi-IN@firefox.mozilla.org.xpi
-{{< /files >}}
+## Files: 
+* /usr/lib/firefox/browser/extensions/langpack-hi-IN@firefox.mozilla.org.xpi

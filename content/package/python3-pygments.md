@@ -16,7 +16,8 @@ reverse_depends = "['gi-docgen', 'kitty', 'python3-mako', 'python3-sphinx']"
 +++
 Pygments is a fast syntax highlighter written in Python with a special focus on details. (Python3)
 
-{{< files text="show files" >}}* /usr/bin/pygmentize
+## Files: 
+* /usr/bin/pygmentize
 * /usr/lib/python3.12/site-packages/Pygments-2.16.1.dist-info/AUTHORS
 * /usr/lib/python3.12/site-packages/Pygments-2.16.1.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/Pygments-2.16.1.dist-info/LICENSE
@@ -967,4 +968,3 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/share/doc/python3-pygments-2.16.1/CHANGES
 * /usr/share/doc/python3-pygments-2.16.1/LICENSE
 * /usr/share/doc/python3-pygments-2.16.1/README.rst
-{{< /files >}}

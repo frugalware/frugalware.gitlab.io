@@ -16,7 +16,8 @@ reverse_depends = "['transmission-gtk']"
 +++
 C++ interface for GTK+4
 
-{{< files text="show files" >}}* /usr/include/gtkmm-4.0/gdkmm.h
+## Files: 
+* /usr/include/gtkmm-4.0/gdkmm.h
 * /usr/include/gtkmm-4.0/gdkmm/applaunchcontext.h
 * /usr/include/gtkmm-4.0/gdkmm/cairocontext.h
 * /usr/include/gtkmm-4.0/gdkmm/cairoutils.h
@@ -672,4 +673,3 @@ C++ interface for GTK+4
 * /usr/share/doc/gtkmm-4.10.0/README.md
 * /usr/share/doc/gtkmm-4.10.0/README.SUN
 * /usr/share/doc/gtkmm-4.10.0/README.win32
-{{< /files >}}

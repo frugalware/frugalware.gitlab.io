@@ -16,7 +16,8 @@ reverse_depends = "['inkscape', 'poedit']"
 +++
 On-the-fly spell checking for GtkTextView widgets
 
-{{< files text="show files" >}}* /usr/include/gtkspell-3.0/gtkspell/gtkspell.h
+## Files: 
+* /usr/include/gtkspell-3.0/gtkspell/gtkspell.h
 * /usr/lib/girepository-1.0/GtkSpell-3.0.typelib
 * /usr/lib/libgtkspell3-3.so
 * /usr/lib/libgtkspell3-3.so.0
@@ -108,4 +109,3 @@ On-the-fly spell checking for GtkTextView widgets
 * /usr/share/locale/zu/LC_MESSAGES/gtkspell3.mo
 * /usr/share/vala/vapi/gtkspell3-3.0.deps
 * /usr/share/vala/vapi/gtkspell3-3.0.vapi
-{{< /files >}}

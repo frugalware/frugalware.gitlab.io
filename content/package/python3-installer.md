@@ -16,7 +16,8 @@ reverse_depends = "['python3-poetry']"
 +++
 A library for installing Python wheels
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/installer-0.7.0.dist-info/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/installer-0.7.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/installer-0.7.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/installer-0.7.0.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/installer-0.7.0.dist-info/WHEEL
@@ -61,4 +62,3 @@ A library for installing Python wheels
 * /usr/lib/python3.12/site-packages/installer/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/python3-installer-0.7.0/LICENSE
 * /usr/share/doc/python3-installer-0.7.0/README.md
-{{< /files >}}

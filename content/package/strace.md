@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 A system call trace, which prints out a trace of all the system calls made by a another process/program.
 
-{{< files text="show files" >}}* /usr/bin/strace
+## Files: 
+* /usr/bin/strace
 * /usr/bin/strace-graph
 * /usr/bin/strace-log-merge
 * /usr/share/doc/strace-4.21/AUTHORS
@@ -28,4 +29,3 @@ A system call trace, which prints out a trace of all the system calls made by a 
 * /usr/share/doc/strace-4.21/README-linux-ptrace
 * /usr/share/man/man1/strace-log-merge.1.gz
 * /usr/share/man/man1/strace.1.gz
-{{< /files >}}

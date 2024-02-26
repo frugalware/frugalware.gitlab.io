@@ -15,7 +15,8 @@ depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=
 +++
 Learn The Alphabet.
 
-{{< files text="show files" >}}* /usr/bin/klettres
+## Files: 
+* /usr/bin/klettres
 * /usr/share/applications/org.kde.klettres.desktop
 * /usr/share/config.kcfg/klettres.kcfg
 * /usr/share/doc/HTML/ca/klettres/index.cache.bz2
@@ -2075,4 +2076,3 @@ Learn The Alphabet.
 * /usr/share/locale/zh_TW/LC_MESSAGES/klettres.mo
 * /usr/share/metainfo/org.kde.klettres.appdata.xml
 * /usr/share/qlogging-categories5/klettres.categories
-{{< /files >}}

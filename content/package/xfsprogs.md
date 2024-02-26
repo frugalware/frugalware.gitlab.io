@@ -16,7 +16,8 @@ reverse_depends = "['kernel-initrd', 'kernel-lts-initrd', 'partitionmanager', 'q
 +++
 XFS filesystem-specific static libraries and headers.
 
-{{< files text="show files" >}}* /usr/bin/fsck.xfs
+## Files: 
+* /usr/bin/fsck.xfs
 * /usr/bin/mkfs.xfs
 * /usr/bin/xfs_admin
 * /usr/bin/xfs_bmap
@@ -132,4 +133,3 @@ XFS filesystem-specific static libraries and headers.
 * /usr/share/xfsprogs/mkfs/lts_6.1.conf
 * /usr/share/xfsprogs/mkfs/lts_6.6.conf
 * /usr/share/xfsprogs/xfs_scrub_all.cron
-{{< /files >}}

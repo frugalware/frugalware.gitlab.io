@@ -15,7 +15,8 @@ depends = "['lib32-glib2', 'lib32-libcap', 'lib32-libdrm', 'lib32-libgcrypt', 'l
 +++
 A project that aims to greatly improve handling of audio and video under Linux ( 32bit )
 
-{{< files text="show files" >}}* /usr/lib32/alsa-lib/libasound_module_ctl_pipewire.so
+## Files: 
+* /usr/lib32/alsa-lib/libasound_module_ctl_pipewire.so
 * /usr/lib32/alsa-lib/libasound_module_pcm_pipewire.so
 * /usr/lib32/libpipewire-0.3.so
 * /usr/lib32/libpipewire-0.3.so.0
@@ -79,4 +80,3 @@ A project that aims to greatly improve handling of audio and video under Linux (
 * /usr/lib32/spa-0.2/v4l2/libspa-v4l2.so
 * /usr/lib32/spa-0.2/videoconvert/libspa-videoconvert.so
 * /usr/lib32/spa-0.2/videotestsrc/libspa-videotestsrc.so
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['latex2html']"
 +++
 A toolkit for manipulation of graphic images
 
-{{< files text="show files" >}}* /usr/bin/411toppm
+## Files: 
+* /usr/bin/411toppm
 * /usr/bin/anytopnm
 * /usr/bin/asciitopgm
 * /usr/bin/atktopbm
@@ -430,4 +431,3 @@ A toolkit for manipulation of graphic images
 * /usr/share/netpbm/rgb.txt
 * /usr/sharedlink/libnetpbm.so
 * /usr/staticlink/libnetpbm.a
-{{< /files >}}

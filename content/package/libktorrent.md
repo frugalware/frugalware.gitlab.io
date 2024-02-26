@@ -16,7 +16,8 @@ reverse_depends = "['kget', 'ktorrent']"
 +++
 A BitTorrent library for KDE applications.
 
-{{< files text="show files" >}}* /usr/include/KF5/libktorrent/bcodec/bdecoder.h
+## Files: 
+* /usr/include/KF5/libktorrent/bcodec/bdecoder.h
 * /usr/include/KF5/libktorrent/bcodec/bencoder.h
 * /usr/include/KF5/libktorrent/bcodec/bnode.h
 * /usr/include/KF5/libktorrent/bcodec/value.h
@@ -268,4 +269,3 @@ A BitTorrent library for KDE applications.
 * /usr/share/locale/uk/LC_MESSAGES/libktorrent5.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/libktorrent5.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libktorrent5.mo
-{{< /files >}}

@@ -16,10 +16,10 @@ reverse_depends = "['qtox', 'utox']"
 +++
 An easy to use audio filtering library made from webrtc code.
 
-{{< files text="show files" >}}* /usr/include/filter_audio.h
+## Files: 
+* /usr/include/filter_audio.h
 * /usr/lib/libfilteraudio.so
 * /usr/lib/libfilteraudio.so.0
 * /usr/lib/libfilteraudio.so.0.0.0
 * /usr/lib/pkgconfig/filteraudio.pc
 * /usr/share/doc/filter_audio-0.0.1/README
-{{< /files >}}

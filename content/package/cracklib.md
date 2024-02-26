@@ -16,7 +16,8 @@ reverse_depends = "['libpwquality']"
 +++
 Next generation version of libCrack password checking library.
 
-{{< files text="show files" >}}* /usr/bin/cracklib-check
+## Files: 
+* /usr/bin/cracklib-check
 * /usr/bin/cracklib-format
 * /usr/bin/cracklib-packer
 * /usr/bin/cracklib-unpacker
@@ -72,4 +73,3 @@ Next generation version of libCrack password checking library.
 * /usr/share/locale/uk/LC_MESSAGES/cracklib.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/cracklib.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/cracklib.mo
-{{< /files >}}

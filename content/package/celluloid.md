@@ -15,7 +15,8 @@ depends = "['gtk+4', 'libadwaita', 'mpv>=0.35']"
 +++
 A simple GTK+ frontend for mpv
 
-{{< files text="show files" >}}* /usr/bin/celluloid
+## Files: 
+* /usr/bin/celluloid
 * /usr/share/applications/io.github.celluloid_player.Celluloid.desktop
 * /usr/share/dbus-1/services/io.github.celluloid_player.Celluloid.service
 * /usr/share/doc/celluloid-0.24/AUTHORS
@@ -67,4 +68,3 @@ A simple GTK+ frontend for mpv
 * /usr/share/locale/zh_TW/LC_MESSAGES/celluloid.mo
 * /usr/share/man/man1/celluloid.1.gz
 * /usr/share/metainfo/io.github.celluloid_player.Celluloid.appdata.xml
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['kmail-account-wizard', 'mailimporter', 'pimcommon']"
 +++
 KDEPim library.
 
-{{< files text="show files" >}}* /usr/include/KPim5/Libkdepim/Libkdepim/KCheckComboBox
+## Files: 
+* /usr/include/KPim5/Libkdepim/Libkdepim/KCheckComboBox
 * /usr/include/KPim5/Libkdepim/libkdepim/kcheckcombobox.h
 * /usr/include/KPim5/Libkdepim/libkdepim/kdepim_export.h
 * /usr/include/KPim5/Libkdepim/Libkdepim/KWidgetLister
@@ -133,4 +134,3 @@ KDEPim library.
 * /usr/share/qlogging-categories5/libkdepim.categories
 * /usr/share/qlogging-categories5/libkdepim.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_Libkdepim.pri
-{{< /files >}}

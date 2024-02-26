@@ -15,6 +15,6 @@ depends = "[]"
 +++
 Static files for zlib
 
-{{< files text="show files" >}}* /usr/lib/libminizip.a
+## Files: 
+* /usr/lib/libminizip.a
 * /usr/lib/libz.a
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['i3']"
 +++
 Dynamic menu for wmii.
 
-{{< files text="show files" >}}* /usr/bin/dmenu
+## Files: 
+* /usr/bin/dmenu
 * /usr/bin/dmenu_path
 * /usr/bin/dmenu_run
 * /usr/bin/stest
@@ -24,4 +25,3 @@ Dynamic menu for wmii.
 * /usr/share/doc/dmenu-5.2/README
 * /usr/share/man/man1/dmenu.1.gz
 * /usr/share/man/man1/stest.1.gz
-{{< /files >}}

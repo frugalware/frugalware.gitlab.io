@@ -15,7 +15,8 @@ depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=
 +++
 Connect all the terminals to the server, in as few turns as possible.
 
-{{< files text="show files" >}}* /usr/bin/knetwalk
+## Files: 
+* /usr/bin/knetwalk
 * /usr/share/applications/org.kde.knetwalk.desktop
 * /usr/share/doc/HTML/ca/knetwalk/index.cache.bz2
 * /usr/share/doc/HTML/ca/knetwalk/index.docbook
@@ -150,4 +151,3 @@ Connect all the terminals to the server, in as few turns as possible.
 * /usr/share/locale/zh_CN/LC_MESSAGES/knetwalk.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/knetwalk.mo
 * /usr/share/metainfo/org.kde.knetwalk.appdata.xml
-{{< /files >}}

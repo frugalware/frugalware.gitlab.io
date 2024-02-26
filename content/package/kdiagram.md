@@ -16,7 +16,8 @@ reverse_depends = "['eventviews']"
 +++
 Libraries for creating business diagrams
 
-{{< files text="show files" >}}* /usr/include/KChart/KChart
+## Files: 
+* /usr/include/KChart/KChart
 * /usr/include/KChart/KChartAbstractArea
 * /usr/include/KChart/KChartAbstractArea.h
 * /usr/include/KChart/KChartAbstractAreaBase
@@ -275,4 +276,3 @@ Libraries for creating business diagrams
 * /usr/share/locale/zh_TW/LC_MESSAGES/kgantt_qt.qm
 * /usr/share/qt5/mkspecs/modules/qt_KChart.pri
 * /usr/share/qt5/mkspecs/modules/qt_KGantt.pri
-{{< /files >}}

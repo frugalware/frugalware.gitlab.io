@@ -16,7 +16,8 @@ reverse_depends = "['telepathy-morse']"
 +++
 Telegram Qt5 bindings
 
-{{< files text="show files" >}}* /usr/include/telegram-qt5/TelegramQt/CAppInformation
+## Files: 
+* /usr/include/telegram-qt5/TelegramQt/CAppInformation
 * /usr/include/telegram-qt5/TelegramQt/CAppInformation.hpp
 * /usr/include/telegram-qt5/TelegramQt/CTelegramCore
 * /usr/include/telegram-qt5/TelegramQt/CTelegramCore.hpp
@@ -29,4 +30,3 @@ Telegram Qt5 bindings
 * /usr/lib/libtelegram-qt5.so.0.1
 * /usr/lib/libtelegram-qt5.so.0.1.0
 * /usr/share/doc/telegram-qt5-0.1.0/README.md
-{{< /files >}}

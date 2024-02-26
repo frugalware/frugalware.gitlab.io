@@ -15,7 +15,8 @@ depends = "['haskell-lua']"
 +++
 LPeg – Parsing Expression Grammars For Lua
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/lpeg-1.1.0/libHSlpeg-1.1.0-LJcslgLdR4X44Yk6lGTW0f.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/lpeg-1.1.0/libHSlpeg-1.1.0-LJcslgLdR4X44Yk6lGTW0f.a
 * /usr/lib/ghc-9.8.1/site-local/lpeg-1.1.0/Lua/LPeg.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/lpeg-1.1.0/Lua/LPeg.hi
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSlpeg-1.1.0-LJcslgLdR4X44Yk6lGTW0f-ghc9.8.1.so
@@ -33,4 +34,3 @@ LPeg – Parsing Expression Grammars For Lua
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/lpeg-1.1.0/LICENSE
 * /usr/share/haskell/haskell-lpeg/register.sh
 * /usr/share/haskell/haskell-lpeg/unregister.sh
-{{< /files >}}

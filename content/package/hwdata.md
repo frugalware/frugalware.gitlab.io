@@ -16,7 +16,8 @@ reverse_depends = "['kwin5', 'libgusb', 'pciutils', 'systemd', 'usbutils']"
 +++
 Hardware identification and configuration data
 
-{{< files text="show files" >}}* /usr/lib/modprobe.d/dist-blacklist.conf
+## Files: 
+* /usr/lib/modprobe.d/dist-blacklist.conf
 * /usr/lib/pkgconfig/hwdata.pc
 * /usr/share/doc/hwdata-0.379/COPYING
 * /usr/share/doc/hwdata-0.379/LICENSE
@@ -26,4 +27,3 @@ Hardware identification and configuration data
 * /usr/share/hwdata/pci.ids
 * /usr/share/hwdata/pnp.ids
 * /usr/share/hwdata/usb.ids
-{{< /files >}}

@@ -15,11 +15,11 @@ depends = "['bash', 'grep', 'openssh']"
 +++
 Keychain is a script that provides some automation around the task of sharing a long-running ssh-agent between processes.
 
-{{< files text="show files" >}}* /usr/bin/keychain
+## Files: 
+* /usr/bin/keychain
 * /usr/share/doc/keychain-2.8.5/ChangeLog
 * /usr/share/doc/keychain-2.8.5/COPYING.txt
 * /usr/share/doc/keychain-2.8.5/README.Frugalware
 * /usr/share/doc/keychain-2.8.5/README.md
 * /usr/share/doc/keychain-2.8.5/VERSION
 * /usr/share/man/man1/keychain.1.gz
-{{< /files >}}

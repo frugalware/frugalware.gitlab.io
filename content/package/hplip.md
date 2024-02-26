@@ -15,7 +15,8 @@ depends = "['hplip-driver>=3.23.12', 'libcups>=2.2', 'libusb>=0.1.5-4', 'pygobje
 +++
 HPLIP is an HP developed solution for printing, scanning, and faxing with HP inkjet and laser based printers in Linux.
 
-{{< files text="show files" >}}* /etc/xdg/autostart/hplip-systray.desktop
+## Files: 
+* /etc/xdg/autostart/hplip-systray.desktop
 * /usr/bin/hp-align
 * /usr/bin/hp-check
 * /usr/bin/hp-clean
@@ -638,4 +639,3 @@ HPLIP is an HP developed solution for printing, scanning, and faxing with HP ink
 * /usr/share/hplip/upgrade.py
 * /usr/share/hplip/wificonfig.py
 * /usr/share/hplip/__init__.py
-{{< /files >}}

@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org xsm application
 
-{{< files text="show files" >}}* /etc/X11/xsm/system.xsm
+## Files: 
+* /etc/X11/xsm/system.xsm
 * /usr/bin/xsm
 * /usr/share/doc/xsm-1.0.5/ChangeLog
 * /usr/share/doc/xsm-1.0.5/COPYING
@@ -24,4 +25,3 @@ X.Org xsm application
 * /usr/share/doc/xsm-1.0.5/README
 * /usr/share/man/man1/xsm.1.gz
 * /usr/share/X11/app-defaults/XSm
-{{< /files >}}

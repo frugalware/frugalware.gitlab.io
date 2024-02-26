@@ -16,7 +16,8 @@ reverse_depends = "['ghc-docs', 'haskell-alex', 'haskell-auto-update', 'haskell-
 +++
 The Glasgow Haskell Compiler
 
-{{< files text="show files" >}}* /etc/ld.so.conf.d/ghc.conf
+## Files: 
+* /etc/ld.so.conf.d/ghc.conf
 * /usr/bin/ghc
 * /usr/bin/ghc-9.8.1
 * /usr/bin/ghc-pkg
@@ -5741,4 +5742,3 @@ The Glasgow Haskell Compiler
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/unix-2.8.3.0/LICENSE
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/xhtml-3000.2.2.1/LICENSE
 * /usr/share/man/man1/ghc.1.gz
-{{< /files >}}

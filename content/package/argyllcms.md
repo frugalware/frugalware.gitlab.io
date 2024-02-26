@@ -16,7 +16,8 @@ reverse_depends = "['colord']"
 +++
 ICC compatible color management system
 
-{{< files text="show files" >}}* /usr/bin/applycal
+## Files: 
+* /usr/bin/applycal
 * /usr/bin/average
 * /usr/bin/cb2ti3
 * /usr/bin/cctiff
@@ -294,4 +295,3 @@ ICC compatible color management system
 * /usr/share/doc/argyllcms-1.9.2/INSTALL
 * /usr/share/doc/argyllcms-1.9.2/README
 * /usr/share/doc/argyllcms-1.9.2/Readme.txt
-{{< /files >}}

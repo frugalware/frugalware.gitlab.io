@@ -16,7 +16,8 @@ reverse_depends = "['aria2', 'curl', 'ffmpeg', 'ffmpeg4.4', 'gnutls', 'iputils',
 +++
 GNU Libidn2 is an implementation of the Stringprep,Punycode and IDNA specification.
 
-{{< files text="show files" >}}* /usr/bin/idn2
+## Files: 
+* /usr/bin/idn2
 * /usr/include/idn2.h
 * /usr/lib/libidn2.la
 * /usr/lib/libidn2.so
@@ -97,4 +98,3 @@ GNU Libidn2 is an implementation of the Stringprep,Punycode and IDNA specificati
 * /usr/share/man/man3/idn2_to_unicode_8z8z.3.gz
 * /usr/share/man/man3/idn2_to_unicode_8zlz.3.gz
 * /usr/share/man/man3/idn2_to_unicode_lzlz.3.gz
-{{< /files >}}

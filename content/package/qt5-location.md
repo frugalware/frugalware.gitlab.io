@@ -16,7 +16,8 @@ reverse_depends = "['aseman-qt-tools', 'koko', 'kweathercore', 'marble', 'meshro
 +++
 The Qt5 toolkit, qtlocation
 
-{{< files text="show files" >}}* /usr/include/qt5/QtLocation/5.15.12/QtLocation/private/error_messages_p.h
+## Files: 
+* /usr/include/qt5/QtLocation/5.15.12/QtLocation/private/error_messages_p.h
 * /usr/include/qt5/QtLocation/5.15.12/QtLocation/private/locationvaluetypehelper_p.h
 * /usr/include/qt5/QtLocation/5.15.12/QtLocation/private/qabstractgeotilecache_p.h
 * /usr/include/qt5/QtLocation/5.15.12/QtLocation/private/qcache3q_p.h
@@ -374,4 +375,3 @@ The Qt5 toolkit, qtlocation
 * /usr/share/qt5/qml/QtPositioning/libdeclarative_positioning.so
 * /usr/share/qt5/qml/QtPositioning/plugins.qmltypes
 * /usr/share/qt5/qml/QtPositioning/qmldir
-{{< /files >}}

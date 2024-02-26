@@ -16,7 +16,8 @@ reverse_depends = "['get_steam', 'pavucontrol', 'pavucontrol-qt', 'plasma-pa', '
 +++
 PulseAudio is a sound server with an advanced plugin system
 
-{{< files text="show files" >}}* /etc/pulse/daemon.conf
+## Files: 
+* /etc/pulse/daemon.conf
 * /etc/pulse/default.pa
 * /etc/pulse/system.pa
 * /usr/bin/pa-info
@@ -187,4 +188,3 @@ PulseAudio is a sound server with an advanced plugin system
 * /usr/share/vala/vapi/libpulse.deps
 * /usr/share/vala/vapi/libpulse.vapi
 * /usr/share/zsh/site-functions/_pulseaudio
-{{< /files >}}

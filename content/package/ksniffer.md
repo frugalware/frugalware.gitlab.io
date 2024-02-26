@@ -16,7 +16,8 @@ license = "GPL"
 +++
 Network sniffing application for KDE
 
-{{< files text="show files" >}}* usr/bin/ksniff
+## Files: 
+* usr/bin/ksniff
 * usr/bin/ksniffer
 * usr/bin/ksniffer_client
 * usr/share/applications/kde/ksniffer.desktop
@@ -63,4 +64,3 @@ Network sniffing application for KDE
 * usr/share/locale/ta/LC_MESSAGES/ksniffer.mo
 * usr/share/locale/tr/LC_MESSAGES/ksniffer.mo
 * usr/share/locale/vi/LC_MESSAGES/ksniffer.mo
-{{< /files >}}

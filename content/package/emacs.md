@@ -15,7 +15,8 @@ depends = "['gnutls>=3.4.2', 'gtk+2', 'imagemagick>=7.1.1', 'libgif>=5.1.1', 'li
 +++
 An extensible, customizable, self-documenting real-time display editor
 
-{{< files text="show files" >}}* /usr/bin/ctags
+## Files: 
+* /usr/bin/ctags
 * /usr/bin/ebrowse
 * /usr/bin/emacs
 * /usr/bin/emacs-28.2
@@ -4112,4 +4113,3 @@ An extensible, customizable, self-documenting real-time display editor
 * /usr/share/man/man1/emacsclient.1.gz
 * /usr/share/man/man1/etags.1.gz
 * /usr/share/metainfo/emacs.metainfo.xml
-{{< /files >}}

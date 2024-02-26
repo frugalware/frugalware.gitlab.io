@@ -15,7 +15,7 @@ depends = "['libcamera', 'libtiff', 'libyaml', 'qt5-base>=5.15.10', 'sdl2']"
 +++
 libcamera tools
 
-{{< files text="show files" >}}* /usr/bin/cam
+## Files: 
+* /usr/bin/cam
 * /usr/bin/lc-compliance
 * /usr/bin/qcam
-{{< /files >}}

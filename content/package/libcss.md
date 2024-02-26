@@ -15,7 +15,8 @@ depends = "['libparserutils', 'libwapcaplet']"
 +++
 A CSS parser and selection engine library, written in C.
 
-{{< files text="show files" >}}* /usr/include/libcss/computed.h
+## Files: 
+* /usr/include/libcss/computed.h
 * /usr/include/libcss/errors.h
 * /usr/include/libcss/font_face.h
 * /usr/include/libcss/fpmath.h
@@ -33,4 +34,3 @@ A CSS parser and selection engine library, written in C.
 * /usr/lib/pkgconfig/libcss.pc
 * /usr/share/doc/libcss-0.9.2/COPYING
 * /usr/share/doc/libcss-0.9.2/README
-{{< /files >}}

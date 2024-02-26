@@ -15,7 +15,8 @@ depends = "['frei0r-plugins', 'gst1-plugins-base', 'gst1-plugins-base-ogg', 'gst
 +++
 Kamoso is an application to take pictures and videos out of your webcam.
 
-{{< files text="show files" >}}* /usr/bin/kamoso
+## Files: 
+* /usr/bin/kamoso
 * /usr/lib/gstreamer-1.0/gstkamosoqt5videosink.so
 * /usr/share/applications/org.kde.kamoso.desktop
 * /usr/share/doc/HTML/ca/kamoso/index.cache.bz2
@@ -128,4 +129,3 @@ Kamoso is an application to take pictures and videos out of your webcam.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kamoso.mo
 * /usr/share/metainfo/org.kde.kamoso.appdata.xml
 * /usr/share/sounds/kamoso-shutter.wav
-{{< /files >}}

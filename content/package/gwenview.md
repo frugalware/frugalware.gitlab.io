@@ -15,7 +15,8 @@ depends = "['baloo5>=5.115.0', 'cfitsio>=4.2.0', 'exiv2>=0.28.1', 'kactivities5>
 +++
 KDE Image Viewer.
 
-{{< files text="show files" >}}* /usr/bin/gwenview
+## Files: 
+* /usr/bin/gwenview
 * /usr/bin/gwenview_importer
 * /usr/lib/libgwenviewlib.so.4.97.0
 * /usr/lib/libgwenviewlib.so.5
@@ -176,4 +177,3 @@ KDE Image Viewer.
 * /usr/share/qlogging-categories5/gwenview.categories
 * /usr/share/solid/actions/gwenview_importer.desktop
 * /usr/share/solid/actions/gwenview_importer_camera.desktop
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['python3']"
 +++
 Scapy is a powerful interactive packet manipulation program
 
-{{< files text="show files" >}}* /usr/bin/scapy
+## Files: 
+* /usr/bin/scapy
 * /usr/lib/python3.12/site-packages/scapy-2.5.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/scapy-2.5.0-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/scapy-2.5.0-py3.12.egg-info/not-zip-safe
@@ -701,4 +702,3 @@ Scapy is a powerful interactive packet manipulation program
 * /usr/share/doc/scapy-2.5.0/README
 * /usr/share/doc/scapy-2.5.0/README.md
 * /usr/share/share/man/man1/scapy.1
-{{< /files >}}

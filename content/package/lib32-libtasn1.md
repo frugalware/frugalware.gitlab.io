@@ -16,7 +16,8 @@ reverse_depends = "['lib32-p11-kit']"
 +++
 The ASN.1 library used in GNUTLS ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/asn1Coding
+## Files: 
+* /usr/i686-frugalware-linux/bin/asn1Coding
 * /usr/i686-frugalware-linux/bin/asn1Decoding
 * /usr/i686-frugalware-linux/bin/asn1Parser
 * /usr/i686-frugalware-linux/include/libtasn1.h
@@ -24,4 +25,3 @@ The ASN.1 library used in GNUTLS ( 32bit )
 * /usr/lib32/libtasn1.so.6
 * /usr/lib32/libtasn1.so.6.6.3
 * /usr/lib32/pkgconfig/libtasn1.pc
-{{< /files >}}

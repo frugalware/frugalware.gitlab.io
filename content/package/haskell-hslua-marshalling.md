@@ -16,7 +16,8 @@ reverse_depends = "['haskell-hslua-aeson', 'haskell-hslua-classes', 'haskell-hsl
 +++
 Marshalling of values between Haskell and Lua.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hslua-marshalling-2.3.0/HsLua/Marshalling.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/hslua-marshalling-2.3.0/HsLua/Marshalling.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-marshalling-2.3.0/HsLua/Marshalling.hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-marshalling-2.3.0/HsLua/Marshalling/Peek.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-marshalling-2.3.0/HsLua/Marshalling/Peek.hi
@@ -46,4 +47,3 @@ Marshalling of values between Haskell and Lua.
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/hslua-marshalling-2.3.0/LICENSE
 * /usr/share/haskell/haskell-hslua-marshalling/register.sh
 * /usr/share/haskell/haskell-hslua-marshalling/unregister.sh
-{{< /files >}}

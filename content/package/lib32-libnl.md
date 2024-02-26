@@ -16,7 +16,8 @@ reverse_depends = "['lib32-networkmanager']"
 +++
 A library to ease the use of netlink sockets ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/genl-ctrl-list
+## Files: 
+* /usr/i686-frugalware-linux/bin/genl-ctrl-list
 * /usr/i686-frugalware-linux/bin/idiag-socket-details
 * /usr/i686-frugalware-linux/bin/nf-ct-add
 * /usr/i686-frugalware-linux/bin/nf-ct-events
@@ -237,4 +238,3 @@ A library to ease the use of netlink sockets ( 32bit )
 * /usr/lib32/pkgconfig/libnl-nf-3.0.pc
 * /usr/lib32/pkgconfig/libnl-route-3.0.pc
 * /usr/lib32/pkgconfig/libnl-xfrm-3.0.pc
-{{< /files >}}

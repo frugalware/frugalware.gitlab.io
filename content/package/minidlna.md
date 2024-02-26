@@ -15,7 +15,8 @@ depends = "['ffmpeg>=6.0', 'flac>=1.4.0', 'libexif', 'libid3tag', 'libjpeg-turbo
 +++
 MiniDLNA is a UPnP (TM) A/V & DLNA Media Server.
 
-{{< files text="show files" >}}* /etc/minidlna.conf
+## Files: 
+* /etc/minidlna.conf
 * /usr/bin/minidlnad
 * /usr/lib/systemd/system/minidlna.service
 * /usr/share/doc/minidlna-1.3.3/AUTHORS
@@ -37,4 +38,3 @@ MiniDLNA is a UPnP (TM) A/V & DLNA Media Server.
 * /usr/share/locale/ru/LC_MESSAGES/minidlna.mo
 * /usr/share/locale/sl/LC_MESSAGES/minidlna.mo
 * /usr/share/locale/sv/LC_MESSAGES/minidlna.mo
-{{< /files >}}

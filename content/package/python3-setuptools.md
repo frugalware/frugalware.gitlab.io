@@ -16,7 +16,8 @@ reverse_depends = "['glad', 'meson', 'nodejs', 'nodejs18', 'nodejs20', 'py3statu
 +++
 Tool to build and install python packages
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/build/lib/pkg_resources/extern/__init__.py
+## Files: 
+* /usr/lib/python3.12/site-packages/build/lib/pkg_resources/extern/__init__.py
 * /usr/lib/python3.12/site-packages/build/lib/pkg_resources/extern/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/build/lib/pkg_resources/_vendor/importlib_resources/abc.py
 * /usr/lib/python3.12/site-packages/build/lib/pkg_resources/_vendor/importlib_resources/py.typed
@@ -949,4 +950,3 @@ Tool to build and install python packages
 * /usr/lib/python3.12/site-packages/_distutils_hack/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-setuptools-69.1.0/LICENSE
 * /usr/share/doc/python3-setuptools-69.1.0/README.rst
-{{< /files >}}

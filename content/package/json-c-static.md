@@ -15,5 +15,5 @@ depends = "[]"
 +++
 JSON-C static
 
-{{< files text="show files" >}}* /usr/lib/libjson-c.a
-{{< /files >}}
+## Files: 
+* /usr/lib/libjson-c.a

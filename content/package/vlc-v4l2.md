@@ -15,5 +15,5 @@ depends = "['libvlc>=3.0.20', 'zvbi']"
 +++
 vlc plugin for Video4Linux 2
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/access/libv4l2_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/access/libv4l2_plugin.so

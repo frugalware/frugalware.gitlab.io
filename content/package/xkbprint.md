@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org xkbprint application
 
-{{< files text="show files" >}}* /usr/bin/xkbprint
+## Files: 
+* /usr/bin/xkbprint
 * /usr/share/doc/xkbprint-1.0.6/ChangeLog
 * /usr/share/doc/xkbprint-1.0.6/COPYING
 * /usr/share/doc/xkbprint-1.0.6/INSTALL
 * /usr/share/doc/xkbprint-1.0.6/README.md
 * /usr/share/man/man1/xkbprint.1.gz
-{{< /files >}}

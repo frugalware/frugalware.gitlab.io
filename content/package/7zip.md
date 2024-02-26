@@ -16,7 +16,8 @@ reverse_depends = "['binwalk', 'element', 'julia']"
 +++
 7-Zip is a file archiver with high compression ratio.
 
-{{< files text="show files" >}}* /usr/bin/7z
+## Files: 
+* /usr/bin/7z
 * /usr/bin/7za
 * /usr/bin/7zCon.sfx
 * /usr/bin/7zr
@@ -118,4 +119,3 @@ reverse_depends = "['binwalk', 'element', 'julia']"
 * /usr/share/man/man1/7z.1.gz
 * /usr/share/man/man1/7za.1.gz
 * /usr/share/man/man1/7zr.1.gz
-{{< /files >}}

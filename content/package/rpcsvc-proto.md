@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 rpcsvc protocol definitions from glibc
 
-{{< files text="show files" >}}* /usr/bin/rpcgen
+## Files: 
+* /usr/bin/rpcgen
 * /usr/include/rpcsvc/bootparam_prot.h
 * /usr/include/rpcsvc/bootparam_prot.x
 * /usr/include/rpcsvc/key_prot.h
@@ -46,4 +47,3 @@ rpcsvc protocol definitions from glibc
 * /usr/share/doc/rpcsvc-proto-1.4.3/NEWS
 * /usr/share/doc/rpcsvc-proto-1.4.3/README
 * /usr/share/man/man1/rpcgen.1.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['binwalk', 'kernel-initrd', 'kernel-lts-initrd']"
 +++
 Utility used to store, backup, and transport files
 
-{{< files text="show files" >}}* /usr/bin/tar
+## Files: 
+* /usr/bin/tar
 * /usr/lib/tar/rmt
 * /usr/share/doc/tar-1.35/AUTHORS
 * /usr/share/doc/tar-1.35/ChangeLog
@@ -71,4 +72,3 @@ Utility used to store, backup, and transport files
 * /usr/share/locale/zh_TW/LC_MESSAGES/tar.mo
 * /usr/share/man/man1/tar.1.gz
 * /usr/share/man/man8/rmt.8.gz
-{{< /files >}}

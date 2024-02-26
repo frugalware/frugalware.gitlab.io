@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org SGML Doctools
 
-{{< files text="show files" >}}* /usr/lib/pkgconfig/xorg-sgml-doctools.pc
+## Files: 
+* /usr/lib/pkgconfig/xorg-sgml-doctools.pc
 * /usr/share/doc/xorg-sgml-doctools-1.12/ChangeLog
 * /usr/share/doc/xorg-sgml-doctools-1.12/COPYING
 * /usr/share/doc/xorg-sgml-doctools-1.12/INSTALL
@@ -29,4 +30,3 @@ X.Org SGML Doctools
 * /usr/share/sgml/X11/xorg-xhtml.xsl
 * /usr/share/sgml/X11/xorg.css
 * /usr/share/sgml/X11/xorg.xsl
-{{< /files >}}

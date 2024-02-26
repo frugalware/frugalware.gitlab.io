@@ -15,7 +15,8 @@ depends = "['xorg-server']"
 +++
 Helps desktop users to configure their synaptics touch pad that's commonly used in laptops.
 
-{{< files text="show files" >}}* usr/bin/syndock
+## Files: 
+* usr/bin/syndock
 * usr/lib/kde3/kcm_ksynaptics.la
 * usr/lib/kde3/kcm_ksynaptics.so
 * usr/lib/kde3/syndock.la
@@ -73,4 +74,3 @@ Helps desktop users to configure their synaptics touch pad that's commonly used 
 * usr/share/locale/ta/LC_MESSAGES/kcmksynaptics.mo
 * usr/share/locale/th/LC_MESSAGES/kcmksynaptics.mo
 * usr/share/locale/tr/LC_MESSAGES/kcmksynaptics.mo
-{{< /files >}}

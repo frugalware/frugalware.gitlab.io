@@ -15,7 +15,8 @@ depends = "['texlive=2023.0']"
 +++
 Plain Tex packages for TeX Live
 
-{{< files text="show files" >}}* /usr/share/texmf-dist/tex/plain/figflow/figflow.tex
+## Files: 
+* /usr/share/texmf-dist/tex/plain/figflow/figflow.tex
 * /usr/share/texmf-dist/tex/plain/fixpdfmag/fixpdfmag.tex
 * /usr/share/texmf-dist/tex/plain/font-change/default-amssymbols.tex
 * /usr/share/texmf-dist/tex/plain/font-change/font_antp_euler.tex
@@ -136,4 +137,3 @@ Plain Tex packages for TeX Live
 * /usr/share/texmf-dist/tex/plain/varisize/7point.tex
 * /usr/share/texmf-dist/tex/plain/varisize/8point.tex
 * /usr/share/texmf-dist/tex/plain/varisize/9point.tex
-{{< /files >}}

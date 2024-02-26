@@ -15,7 +15,8 @@ depends = "['dcron', 'gnutls', 'libtool', 'libxcrypt', 'nettle>=3.6']"
 +++
 Squid Web Proxy Cache
 
-{{< files text="show files" >}}* /etc/cron.weekly/squid
+## Files: 
+* /etc/cron.weekly/squid
 * /etc/squid/cachemgr.conf
 * /etc/squid/cachemgr.conf.default
 * /etc/squid/errorpage.css
@@ -188,4 +189,3 @@ Squid Web Proxy Cache
 * /usr/share/squid/icons/silk/script_palette.png
 * /usr/share/squid/icons/SN.png
 * /usr/share/squid/mib.txt
-{{< /files >}}

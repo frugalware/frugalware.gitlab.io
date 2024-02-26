@@ -15,5 +15,5 @@ depends = "['libdca', 'librsvg>=2.26.3', 'libvlc>=3.0.20']"
 +++
 vlc DTS Coharent Audio
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/libdca_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/codec/libdca_plugin.so

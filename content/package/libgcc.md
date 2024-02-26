@@ -16,8 +16,8 @@ reverse_depends = "['bandwhich', 'bat', 'botan', 'cbindgen', 'efl', 'enlightenme
 +++
 GCC shared support library
 
-{{< files text="show files" >}}* /usr/lib/libgcc_s.so
+## Files: 
+* /usr/lib/libgcc_s.so
 * /usr/lib/libgcc_s.so.1
 * /usr/lib32/libgcc_s.so
 * /usr/lib32/libgcc_s.so.1
-{{< /files >}}

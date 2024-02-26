@@ -15,5 +15,5 @@ depends = "['libcddb', 'libvlc>=3.0.20']"
 +++
 vlc CDDA support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/access/libcdda_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/access/libcdda_plugin.so

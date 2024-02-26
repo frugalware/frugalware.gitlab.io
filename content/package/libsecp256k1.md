@@ -15,7 +15,8 @@ depends = "['gmp']"
 +++
 Optimized C library for EC operations on curve secp256k1
 
-{{< files text="show files" >}}* /usr/include/secp256k1.h
+## Files: 
+* /usr/include/secp256k1.h
 * /usr/include/secp256k1_preallocated.h
 * /usr/include/secp256k1_recovery.h
 * /usr/lib/libsecp256k1.so
@@ -24,4 +25,3 @@ Optimized C library for EC operations on curve secp256k1
 * /usr/lib/pkgconfig/libsecp256k1.pc
 * /usr/share/doc/libsecp256k1-20180427/COPYING
 * /usr/share/doc/libsecp256k1-20180427/README.md
-{{< /files >}}

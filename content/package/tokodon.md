@@ -15,7 +15,8 @@ depends = "['kdbusaddons', 'kio', 'kirigami-addons', 'kitemmodels', 'knotificati
 +++
 A Mastodon client for Plasma
 
-{{< files text="show files" >}}* /usr/bin/tokodon
+## Files: 
+* /usr/bin/tokodon
 * /usr/share/applications/org.kde.tokodon.desktop
 * /usr/share/doc/tokodon-23.08.5/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.tokodon.svg
@@ -54,4 +55,3 @@ A Mastodon client for Plasma
 * /usr/share/locale/zh_TW/LC_MESSAGES/tokodon.mo
 * /usr/share/metainfo/org.kde.tokodon.appdata.xml
 * /usr/share/qlogging-categories5/tokodon.categories
-{{< /files >}}

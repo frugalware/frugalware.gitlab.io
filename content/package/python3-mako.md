@@ -15,7 +15,8 @@ depends = "['python3-markupsafe', 'python3-pygments']"
 +++
 Mako is a template library written in Python.
 
-{{< files text="show files" >}}* /usr/bin/mako-render
+## Files: 
+* /usr/bin/mako-render
 * /usr/lib/python3.12/site-packages/Mako-1.3.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/Mako-1.3.0-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/Mako-1.3.0-py3.12.egg-info/not-zip-safe
@@ -93,4 +94,3 @@ Mako is a template library written in Python.
 * /usr/share/doc/python3-mako-1.3.0/CHANGES
 * /usr/share/doc/python3-mako-1.3.0/LICENSE
 * /usr/share/doc/python3-mako-1.3.0/README.rst
-{{< /files >}}

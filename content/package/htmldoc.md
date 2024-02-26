@@ -15,7 +15,8 @@ depends = "['fltk>=1.1.10-1']"
 +++
 Converts HTML input files into indexed HTML, PostScript, or PDF files.
 
-{{< files text="show files" >}}* /usr/bin/htmldoc
+## Files: 
+* /usr/bin/htmldoc
 * /usr/share/applications/htmldoc.desktop
 * /usr/share/doc/htmldoc-1.9.5/COPYING
 * /usr/share/doc/htmldoc-1.9.5/INSTALL.md
@@ -101,4 +102,3 @@ Converts HTML input files into indexed HTML, PostScript, or PDF files.
 * /usr/share/man/man1/htmldoc.1.gz
 * /usr/share/mime/packages/htmldoc.xml
 * /usr/share/pixmaps/htmldoc.xpm
-{{< /files >}}

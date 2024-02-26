@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 The GNU Portable Threads.
 
-{{< files text="show files" >}}* /usr/bin/pth-config
+## Files: 
+* /usr/bin/pth-config
 * /usr/include/pth.h
 * /usr/lib/libpth.so
 * /usr/lib/libpth.so.20
@@ -33,4 +34,3 @@ The GNU Portable Threads.
 * /usr/share/doc/pth-2.0.7/THANKS
 * /usr/share/man/man1/pth-config.1.gz
 * /usr/share/man/man3/pth.3.gz
-{{< /files >}}

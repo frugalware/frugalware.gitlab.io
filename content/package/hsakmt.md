@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 Userspace lib for AMD's HSA Linux kernel driver
 
-{{< files text="show files" >}}* /usr/include/hsakmt-1/hsakmt.h
+## Files: 
+* /usr/include/hsakmt-1/hsakmt.h
 * /usr/include/hsakmt-1/hsakmttypes.h
 * /usr/lib/libhsakmt-1.so
 * /usr/lib/libhsakmt-1.so.0
@@ -25,4 +26,3 @@ Userspace lib for AMD's HSA Linux kernel driver
 * /usr/share/doc/hsakmt-1.0.0/COPYING
 * /usr/share/doc/hsakmt-1.0.0/INSTALL
 * /usr/share/doc/hsakmt-1.0.0/README
-{{< /files >}}

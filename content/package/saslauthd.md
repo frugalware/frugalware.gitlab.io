@@ -15,9 +15,9 @@ depends = "['cyrus-sasl>=2.1.28', 'libkrb5>=1.17-2', 'libxcrypt', 'pam>=1.1.8-4'
 +++
 sasl authentication server
 
-{{< files text="show files" >}}* /etc/sysconfig/saslauthd
+## Files: 
+* /etc/sysconfig/saslauthd
 * /usr/bin/saslauthd
 * /usr/bin/testsaslauthd
 * /usr/lib/systemd/system/saslauthd.service
 * /usr/share/man/man8/saslauthd.8.gz
-{{< /files >}}

@@ -16,5 +16,5 @@ reverse_depends = "['os-prober']"
 +++
 grub2 mount utility
 
-{{< files text="show files" >}}* /usr/bin/grub-mount
-{{< /files >}}
+## Files: 
+* /usr/bin/grub-mount

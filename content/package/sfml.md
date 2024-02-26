@@ -16,7 +16,8 @@ reverse_depends = "['extreme-tuxracer']"
 +++
 SFML is a free multimedia C++ API.
 
-{{< files text="show files" >}}* /usr/include/SFML/Audio.hpp
+## Files: 
+* /usr/include/SFML/Audio.hpp
 * /usr/include/SFML/Audio/AlResource.hpp
 * /usr/include/SFML/Audio/Export.hpp
 * /usr/include/SFML/Audio/InputSoundFile.hpp
@@ -151,4 +152,3 @@ SFML is a free multimedia C++ API.
 * /usr/lib/pkgconfig/sfml-window.pc
 * /usr/share/SFML/license.md
 * /usr/share/SFML/readme.md
-{{< /files >}}

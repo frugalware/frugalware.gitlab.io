@@ -16,7 +16,8 @@ reverse_depends = "['virt-manager']"
 +++
 urlgrabber is a pure python package that simplifies the fetching of files.
 
-{{< files text="show files" >}}* /usr/bin/urlgrabber
+## Files: 
+* /usr/bin/urlgrabber
 * /usr/lib/python3.12/site-packages/urlgrabber-4.0.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/urlgrabber-4.0.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/urlgrabber-4.0.0-py3.12.egg-info/requires.txt
@@ -41,4 +42,3 @@ urlgrabber is a pure python package that simplifies the fetching of files.
 * /usr/share/share/doc/urlgrabber-4.0.0/LICENSE
 * /usr/share/share/doc/urlgrabber-4.0.0/README
 * /usr/share/share/doc/urlgrabber-4.0.0/TODO
-{{< /files >}}

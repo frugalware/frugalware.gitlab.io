@@ -16,7 +16,8 @@ reverse_depends = "['dssi', 'qtractor', 'zam-plugins']"
 +++
 Lightweight OSC implementation.
 
-{{< files text="show files" >}}* /usr/bin/oscdump
+## Files: 
+* /usr/bin/oscdump
 * /usr/bin/oscsend
 * /usr/bin/oscsendfile
 * /usr/include/lo/lo.h
@@ -40,4 +41,3 @@ Lightweight OSC implementation.
 * /usr/share/doc/liblo-0.31/NEWS
 * /usr/share/doc/liblo-0.31/README
 * /usr/share/doc/liblo-0.31/TODO
-{{< /files >}}

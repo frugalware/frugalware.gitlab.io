@@ -15,7 +15,8 @@ depends = "['diffstat', 'diffutils', 'gawk', 'gettext', 'patch', 'perl>=5.28.2']
 +++
 Allows to manage a series of patches.
 
-{{< files text="show files" >}}* /etc/bash_completion.d/quilt
+## Files: 
+* /etc/bash_completion.d/quilt
 * /etc/quilt.quiltrc
 * /usr/bin/guards
 * /usr/bin/quilt
@@ -72,4 +73,3 @@ Allows to manage a series of patches.
 * /usr/share/quilt/top
 * /usr/share/quilt/unapplied
 * /usr/share/quilt/upgrade
-{{< /files >}}

@@ -16,7 +16,8 @@ license = "GPL-2"
 +++
 A tool to get the date and time via the network
 
-{{< files text="show files" >}}* /usr/bin/rdate
+## Files: 
+* /usr/bin/rdate
 * /usr/share/doc/rdate-1.5/AUTHORS
 * /usr/share/doc/rdate-1.5/ChangeLog
 * /usr/share/doc/rdate-1.5/COPYING
@@ -24,4 +25,3 @@ A tool to get the date and time via the network
 * /usr/share/doc/rdate-1.5/NEWS
 * /usr/share/doc/rdate-1.5/README
 * /usr/share/man/man1/rdate.1.gz
-{{< /files >}}

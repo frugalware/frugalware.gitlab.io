@@ -16,7 +16,8 @@ reverse_depends = "['cups-filters', 'ghostscript', 'libgs']"
 +++
 Backends, filters and other software from CUPS distribution.
 
-{{< files text="show files" >}}* /usr/bin/ijs-config
+## Files: 
+* /usr/bin/ijs-config
 * /usr/bin/ijs_client_example
 * /usr/bin/ijs_server_example
 * /usr/include/ijs/ijs.h
@@ -27,4 +28,3 @@ Backends, filters and other software from CUPS distribution.
 * /usr/lib/pkgconfig/ijs.pc
 * /usr/share/doc/ijs-0.35/README
 * /usr/share/man/man1/ijs-config.1.gz
-{{< /files >}}

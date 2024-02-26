@@ -16,9 +16,9 @@ license = "GPL2"
 +++
 X.Org driver for Nvidia cards (opensource)
 
-{{< files text="show files" >}}* /usr/lib/xorg/modules/drivers/nouveau_drv.so
+## Files: 
+* /usr/lib/xorg/modules/drivers/nouveau_drv.so
 * /usr/share/doc/xf86-video-nouveau-1.0.17/ChangeLog
 * /usr/share/doc/xf86-video-nouveau-1.0.17/COPYING
 * /usr/share/doc/xf86-video-nouveau-1.0.17/INSTALL
 * /usr/share/man/man4/nouveau.4.gz
-{{< /files >}}

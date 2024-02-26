@@ -16,7 +16,8 @@ reverse_depends = "['haskell-yaml']"
 +++
 Low-level, streaming YAML interface
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/libyaml-0.1.2/libHSlibyaml-0.1.2-Ka7ayfmlWsz1R3vGz1R9T9.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/libyaml-0.1.2/libHSlibyaml-0.1.2-Ka7ayfmlWsz1R3vGz1R9T9.a
 * /usr/lib/ghc-9.8.1/site-local/libyaml-0.1.2/Paths_libyaml.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/libyaml-0.1.2/Paths_libyaml.hi
 * /usr/lib/ghc-9.8.1/site-local/libyaml-0.1.2/Text/Libyaml.dyn_hi
@@ -36,4 +37,3 @@ Low-level, streaming YAML interface
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/libyaml-0.1.2/LICENSE
 * /usr/share/haskell/haskell-libyaml/register.sh
 * /usr/share/haskell/haskell-libyaml/unregister.sh
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['atkmm', 'gtkmm', 'libxml++2', 'pangomm', 'telegram-desktop'
 +++
 C++ interface for glib2
 
-{{< files text="show files" >}}* /usr/include/giomm-2.68/giomm.h
+## Files: 
+* /usr/include/giomm-2.68/giomm.h
 * /usr/include/giomm-2.68/giomm/action.h
 * /usr/include/giomm-2.68/giomm/actiongroup.h
 * /usr/include/giomm-2.68/giomm/actionmap.h
@@ -469,4 +470,3 @@ C++ interface for glib2
 * /usr/share/doc/glibmm-2.78.0/NEWS
 * /usr/share/doc/glibmm-2.78.0/README.md
 * /usr/share/doc/glibmm-2.78.0/README.win32.md
-{{< /files >}}

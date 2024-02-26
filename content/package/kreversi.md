@@ -15,7 +15,8 @@ depends = "['libkdegames>=23.08.5']"
 +++
 KReversi is is a simple one player strategy game played against the computer
 
-{{< files text="show files" >}}* /usr/bin/kreversi
+## Files: 
+* /usr/bin/kreversi
 * /usr/share/applications/org.kde.kreversi.desktop
 * /usr/share/doc/HTML/ca/kreversi/index.cache.bz2
 * /usr/share/doc/HTML/ca/kreversi/index.docbook
@@ -167,4 +168,3 @@ KReversi is is a simple one player strategy game played against the computer
 * /usr/share/locale/zh_CN/LC_MESSAGES/kreversi.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kreversi.mo
 * /usr/share/metainfo/org.kde.kreversi.appdata.xml
-{{< /files >}}

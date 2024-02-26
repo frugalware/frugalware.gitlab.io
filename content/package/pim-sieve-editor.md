@@ -15,7 +15,8 @@ depends = "['libksieve>=23.08.5', 'messagelib>=23.08.5']"
 +++
 Assistant for editing IMAP Sieve filters
 
-{{< files text="show files" >}}* /usr/bin/sieveeditor
+## Files: 
+* /usr/bin/sieveeditor
 * /usr/lib/libsieveeditor.so.5
 * /usr/lib/libsieveeditor.so.5.24.5
 * /usr/share/applications/org.kde.sieveeditor.desktop
@@ -95,4 +96,3 @@ Assistant for editing IMAP Sieve filters
 * /usr/share/metainfo/org.kde.sieveeditor.appdata.xml
 * /usr/share/qlogging-categories5/sieveeditor.categories
 * /usr/share/qlogging-categories5/sieveeditor.renamecategories
-{{< /files >}}

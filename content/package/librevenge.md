@@ -16,7 +16,8 @@ reverse_depends = "['libepubgen', 'libodfgen', 'libpagemaker', 'libqxp', 'libsta
 +++
 A helper library for REVerses ENGineered formats filters
 
-{{< files text="show files" >}}* /usr/include/librevenge-0.0/librevenge-generators/librevenge-generators-api.h
+## Files: 
+* /usr/include/librevenge-0.0/librevenge-generators/librevenge-generators-api.h
 * /usr/include/librevenge-0.0/librevenge-generators/librevenge-generators.h
 * /usr/include/librevenge-0.0/librevenge-generators/RVNGCSVSpreadsheetGenerator.h
 * /usr/include/librevenge-0.0/librevenge-generators/RVNGHTMLTextGenerator.h
@@ -67,4 +68,3 @@ A helper library for REVerses ENGineered formats filters
 * /usr/share/doc/librevenge-0.0.5/INSTALL
 * /usr/share/doc/librevenge-0.0.5/NEWS
 * /usr/share/doc/librevenge-0.0.5/README
-{{< /files >}}

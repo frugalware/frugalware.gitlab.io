@@ -16,7 +16,8 @@ reverse_depends = "['kernel-initrd', 'kernel-lts-initrd', 'qca-gnupg']"
 +++
 GnuPG2 is the new modularized version of GnuPG supporting OpenPGP and S/MIME
 
-{{< files text="show files" >}}* /usr/bin/addgnupghome
+## Files: 
+* /usr/bin/addgnupghome
 * /usr/bin/applygnupgdefaults
 * /usr/bin/dirmngr-client
 * /usr/bin/gpg
@@ -150,4 +151,3 @@ GnuPG2 is the new modularized version of GnuPG supporting OpenPGP and S/MIME
 * /usr/share/man/man8/addgnupghome.8.gz
 * /usr/share/man/man8/applygnupgdefaults.8.gz
 * /usr/share/man/man8/dirmngr.8.gz
-{{< /files >}}

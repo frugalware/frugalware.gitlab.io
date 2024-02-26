@@ -16,7 +16,8 @@ reverse_depends = "['openvkl']"
 +++
 A compiler for high-performance SIMD programming on the CPU
 
-{{< files text="show files" >}}* /usr/bin/check_isa
+## Files: 
+* /usr/bin/check_isa
 * /usr/bin/ispc
 * /usr/include/ispcrt/ispcrt.h
 * /usr/include/ispcrt/ispcrt.hpp
@@ -37,4 +38,3 @@ A compiler for high-performance SIMD programming on the CPU
 * /usr/lib/libispcrt_device_cpu.so.1.22.0
 * /usr/share/doc/ispc-1.22.0/LICENSE
 * /usr/share/doc/ispc-1.22.0/README.md
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 ATM-related demons and utilities.
 
-{{< files text="show files" >}}* /etc/atmsigd.conf
+## Files: 
+* /etc/atmsigd.conf
 * /etc/hosts.atm
 * /usr/bin/aread
 * /usr/bin/atmaddr
@@ -85,4 +86,3 @@ ATM-related demons and utilities.
 * /usr/share/man/man8/les.8.gz
 * /usr/share/man/man8/mpcd.8.gz
 * /usr/share/man/man8/zeppelin.8.gz
-{{< /files >}}

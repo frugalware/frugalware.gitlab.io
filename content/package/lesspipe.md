@@ -15,7 +15,8 @@ depends = "['bash>=4.3_042-5', 'less>=458-3', 'perl>=5.26.1']"
 +++
 A powerful input filer that makes 'less' more usable.
 
-{{< files text="show files" >}}* /etc/profile.d/lesspipe.sh
+## Files: 
+* /etc/profile.d/lesspipe.sh
 * /usr/bin/archive_color
 * /usr/bin/code2color
 * /usr/bin/lesscomplete
@@ -29,4 +30,3 @@ A powerful input filer that makes 'less' more usable.
 * /usr/share/doc/lesspipe-2.11/README.md
 * /usr/share/man/man1/lesspipe.1.gz
 * /usr/share/zsh/site-functions/_less
-{{< /files >}}

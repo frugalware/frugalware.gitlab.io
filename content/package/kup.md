@@ -15,7 +15,8 @@ depends = "['kidletime>=5.104.0', 'kinit>=5.104.0', 'openssl>=3.1.0', 'pcre2', '
 +++
 Kup is a KDE-based frontend for the bup backup software
 
-{{< files text="show files" >}}* /etc/xdg/autostart/kup-daemon.desktop
+## Files: 
+* /etc/xdg/autostart/kup-daemon.desktop
 * /usr/bin/kup-daemon
 * /usr/bin/kup-filedigger
 * /usr/lib/libgit24kup.so
@@ -57,4 +58,3 @@ Kup is a KDE-based frontend for the bup backup software
 * /usr/share/plasma/plasmoids/org.kde.kupapplet/metadata.desktop.template
 * /usr/share/plasma/plasmoids/org.kde.kupapplet/metadata.json
 * /usr/share/plasma/services/kupservice.operations
-{{< /files >}}

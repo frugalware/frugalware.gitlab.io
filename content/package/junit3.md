@@ -15,7 +15,7 @@ depends = "['java-hamcrest']"
 +++
 A regression testing framework.
 
-{{< files text="show files" >}}* /usr/share/doc/junit3-3.8.2/README.html
+## Files: 
+* /usr/share/doc/junit3-3.8.2/README.html
 * /usr/share/doc/junit3-3.8.2/RELEASE-NOTES.txt
 * /usr/share/java/junit3.jar
-{{< /files >}}

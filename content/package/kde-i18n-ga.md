@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Irish Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/khangman/data/ga/animals.kvtml
+## Files: 
+* usr/share/apps/khangman/data/ga/animals.kvtml
 * usr/share/apps/khangman/data/ga/easy.kvtml
 * usr/share/apps/khangman/data/ga/hard.kvtml
 * usr/share/apps/khangman/data/ga/medium.kvtml
@@ -576,4 +577,3 @@ Irish Localization for KDE.
 * usr/share/locale/ga/LC_MESSAGES/wakeup.mo
 * usr/share/locale/ga/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/ga/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

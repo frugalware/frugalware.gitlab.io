@@ -17,7 +17,8 @@ license = "APACHE"
 +++
 Collect and display system facts
 
-{{< files text="show files" >}}* /usr/bin/facter
+## Files: 
+* /usr/bin/facter
 * /usr/include/facter/cwrapper.hpp
 * /usr/include/facter/export.h
 * /usr/include/facter/facts/array_value.hpp
@@ -46,4 +47,3 @@ Collect and display system facts
 * /usr/share/doc/facter-3.14.24/LICENSE
 * /usr/share/doc/facter-3.14.24/README.md
 * /usr/share/man/man8/facter.8.gz
-{{< /files >}}

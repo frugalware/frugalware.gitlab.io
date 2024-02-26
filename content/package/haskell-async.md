@@ -16,7 +16,8 @@ reverse_depends = "['haskell-streaming-commons', 'haskell-tls', 'haskell-typed-p
 +++
 Run IO operations asynchronously and wait for their results
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/async-2.2.5/Control/Concurrent/Async.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/async-2.2.5/Control/Concurrent/Async.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/async-2.2.5/Control/Concurrent/Async.hi
 * /usr/lib/ghc-9.8.1/site-local/async-2.2.5/Control/Concurrent/Async/Internal.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/async-2.2.5/Control/Concurrent/Async/Internal.hi
@@ -36,4 +37,3 @@ Run IO operations asynchronously and wait for their results
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/async-2.2.5/LICENSE
 * /usr/share/haskell/haskell-async/register.sh
 * /usr/share/haskell/haskell-async/unregister.sh
-{{< /files >}}

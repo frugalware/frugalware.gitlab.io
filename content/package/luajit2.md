@@ -16,7 +16,8 @@ reverse_depends = "['cantor', 'cgit', 'efl', 'enlightenment', 'libluv', 'love', 
 +++
 A Just-In-Time Compiler for Lua
 
-{{< files text="show files" >}}* /usr/bin/luajit
+## Files: 
+* /usr/bin/luajit
 * /usr/bin/luajit-2.1.1703358377
 * /usr/include/luajit-2.1/lauxlib.h
 * /usr/include/luajit-2.1/lua.h
@@ -50,4 +51,3 @@ A Just-In-Time Compiler for Lua
 * /usr/share/luajit-2.1/jit/vmdef.lua
 * /usr/share/luajit-2.1/jit/zone.lua
 * /usr/share/man/man1/luajit.1.gz
-{{< /files >}}

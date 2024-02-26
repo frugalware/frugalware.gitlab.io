@@ -15,7 +15,8 @@ depends = "['zlib>=1.2.12']"
 +++
 Fastjar is an implementation of Sun's jar utility
 
-{{< files text="show files" >}}* /usr/bin/fastjar
+## Files: 
+* /usr/bin/fastjar
 * /usr/bin/grepjar
 * /usr/share/doc/fastjar-0.98/AUTHORS
 * /usr/share/doc/fastjar-0.98/ChangeLog
@@ -28,4 +29,3 @@ Fastjar is an implementation of Sun's jar utility
 * /usr/share/info/fastjar.info.gz
 * /usr/share/man/man1/fastjar.1.gz
 * /usr/share/man/man1/grepjar.1.gz
-{{< /files >}}

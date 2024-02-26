@@ -16,7 +16,8 @@ reverse_depends = "['cryptsetup-luks', 'efl', 'enlightenment', 'fontconfig', 'gd
 +++
 JSON-C - A JSON implementation in C
 
-{{< files text="show files" >}}* /usr/include/json-c/arraylist.h
+## Files: 
+* /usr/include/json-c/arraylist.h
 * /usr/include/json-c/debug.h
 * /usr/include/json-c/json.h
 * /usr/include/json-c/json_config.h
@@ -48,4 +49,3 @@ JSON-C - A JSON implementation in C
 * /usr/share/doc/json-c-0.17/README.html
 * /usr/share/doc/json-c-0.17/README.md
 * /usr/share/doc/json-c-0.17/RELEASE_CHECKLIST.txt
-{{< /files >}}

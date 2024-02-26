@@ -16,7 +16,8 @@ reverse_depends = "['conky', 'connman', 'firefox', 'ipw2200', 'ipw3945', 'knemo'
 +++
 Wireless tools, including iwconfig
 
-{{< files text="show files" >}}* /usr/bin/ifrename
+## Files: 
+* /usr/bin/ifrename
 * /usr/bin/iwconfig
 * /usr/bin/iwevent
 * /usr/bin/iwgetid
@@ -40,4 +41,3 @@ Wireless tools, including iwconfig
 * /usr/share/man/man8/iwlist.8.gz
 * /usr/share/man/man8/iwpriv.8.gz
 * /usr/share/man/man8/iwspy.8.gz
-{{< /files >}}

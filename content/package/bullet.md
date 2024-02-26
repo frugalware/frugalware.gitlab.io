@@ -16,7 +16,8 @@ reverse_depends = "['efl', 'enlightenment', 'terminology']"
 +++
 Bullet is a professional free 3D Game Multiphysics Library
 
-{{< files text="show files" >}}* /usr/include/ActiveSocket.h
+## Files: 
+* /usr/include/ActiveSocket.h
 * /usr/include/bullet/BasicDemo/BasicExample.h
 * /usr/include/bullet/Benchmarks/BenchmarkDemo.h
 * /usr/include/bullet/Benchmarks/HaltonData.h
@@ -1397,4 +1398,3 @@ Bullet is a professional free 3D Game Multiphysics Library
 * /usr/lib/pkgconfig/bullet_robotics_gui.pc
 * /usr/share/doc/bullet-3.25/README.md
 * /usr/share/doc/bullet-3.25/VERSION
-{{< /files >}}

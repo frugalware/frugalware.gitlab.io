@@ -15,7 +15,8 @@ depends = "['kdeclarative>=5.115.0', 'knewstuff>=5.115.0', 'libkeduvocdocument>=
 +++
 KDE hangman game.
 
-{{< files text="show files" >}}* /etc/xdg/khangman.knsrc
+## Files: 
+* /etc/xdg/khangman.knsrc
 * /usr/bin/khangman
 * /usr/share/applications/org.kde.khangman.desktop
 * /usr/share/config.kcfg/khangman.kcfg
@@ -271,4 +272,3 @@ KDE hangman game.
 * /usr/share/man/sv/man6/khangman.6.gz
 * /usr/share/man/uk/man6/khangman.6.gz
 * /usr/share/metainfo/org.kde.khangman.appdata.xml
-{{< /files >}}

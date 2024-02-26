@@ -16,7 +16,8 @@ reverse_depends = "['partclone']"
 +++
 The ntfsprogs will eventually include utilities for doing all required tasks to NTFS partitions.
 
-{{< files text="show files" >}}* /usr/bin/mkfs.ntfs
+## Files: 
+* /usr/bin/mkfs.ntfs
 * /usr/bin/mkntfs
 * /usr/bin/ntfs-3g
 * /usr/bin/ntfs-3g.probe
@@ -36,4 +37,3 @@ The ntfsprogs will eventually include utilities for doing all required tasks to 
 * /usr/bin/ntfsundelete
 * /usr/bin/ntfsusermap
 * /usr/bin/ntfswipe
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['python3-dulwich', 'python3-eventlet']"
 +++
 Python interface to the OpenSSL library
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/OpenSSL/crypto.py
+## Files: 
+* /usr/lib/python3.12/site-packages/OpenSSL/crypto.py
 * /usr/lib/python3.12/site-packages/OpenSSL/debug.py
 * /usr/lib/python3.12/site-packages/OpenSSL/rand.py
 * /usr/lib/python3.12/site-packages/OpenSSL/SSL.py
@@ -38,4 +39,3 @@ Python interface to the OpenSSL library
 * /usr/share/doc/python3-openssl-23.3.0/INSTALL.rst
 * /usr/share/doc/python3-openssl-23.3.0/LICENSE
 * /usr/share/doc/python3-openssl-23.3.0/README.rst
-{{< /files >}}

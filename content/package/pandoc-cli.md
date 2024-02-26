@@ -15,7 +15,7 @@ depends = "['pandoc>=3.1.8']"
 +++
 Conversion between documentation formats
 
-{{< files text="show files" >}}* /usr/bin/pandoc
+## Files: 
+* /usr/bin/pandoc
 * /usr/share/doc/pandoc-cli-3.1.11/COPYING.md
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/pandoc-cli-3.1.11/COPYING.md
-{{< /files >}}

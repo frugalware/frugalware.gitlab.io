@@ -15,7 +15,8 @@ depends = "['poppler', 'qt6-base>=6.6.2']"
 +++
 Poppler QT6 bindings
 
-{{< files text="show files" >}}* /usr/include/poppler/qt6/poppler-annotation.h
+## Files: 
+* /usr/include/poppler/qt6/poppler-annotation.h
 * /usr/include/poppler/qt6/poppler-export.h
 * /usr/include/poppler/qt6/poppler-form.h
 * /usr/include/poppler/qt6/poppler-link.h
@@ -28,4 +29,3 @@ Poppler QT6 bindings
 * /usr/lib/libpoppler-qt6.so.3
 * /usr/lib/libpoppler-qt6.so.3.4.0
 * /usr/lib/pkgconfig/poppler-qt6.pc
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['python3-sphinx']"
 +++
 A collection of tools for internationalizing Python applications
 
-{{< files text="show files" >}}* /usr/bin/pybabel
+## Files: 
+* /usr/bin/pybabel
 * /usr/lib/python3.12/site-packages/Babel-2.13.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/Babel-2.13.1-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/Babel-2.13.1-py3.12.egg-info/not-zip-safe
@@ -906,4 +907,3 @@ A collection of tools for internationalizing Python applications
 * /usr/share/doc/python3-babel-2.13.1/LICENSE
 * /usr/share/doc/python3-babel-2.13.1/README-common.md
 * /usr/share/doc/python3-babel-2.13.1/README.rst
-{{< /files >}}

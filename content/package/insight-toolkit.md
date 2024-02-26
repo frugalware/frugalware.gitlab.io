@@ -16,7 +16,8 @@ reverse_depends = "['alizams']"
 +++
 Cross-platform system that provides developers with an extensive suite of software tools for image analysis
 
-{{< files text="show files" >}}* /usr/bin/itkTestDriver
+## Files: 
+* /usr/bin/itkTestDriver
 * /usr/include/ITK-5.3/arpack/dgetv0.h
 * /usr/include/ITK-5.3/arpack/dsaitr.h
 * /usr/include/ITK-5.3/arpack/dsapps.h
@@ -4295,4 +4296,3 @@ Cross-platform system that provides developers with an extensive suite of softwa
 * /usr/share/doc/ITK-5.3/LICENSE
 * /usr/share/doc/ITK-5.3/NOTICE
 * /usr/share/doc/ITK-5.3/README.md
-{{< /files >}}

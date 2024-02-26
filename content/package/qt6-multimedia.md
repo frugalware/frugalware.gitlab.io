@@ -16,7 +16,8 @@ reverse_depends = "['ladybird', 'mkvtoolnix-gui', 'qmmp', 'qt6-speech']"
 +++
 The Qt6 toolkit, qtmultimedia
 
-{{< files text="show files" >}}* /usr/include/qt6/QtMultimedia/6.6.2/QtMultimedia/private/qabstractvideobuffer_p.h
+## Files: 
+* /usr/include/qt6/QtMultimedia/6.6.2/QtMultimedia/private/qabstractvideobuffer_p.h
 * /usr/include/qt6/QtMultimedia/6.6.2/QtMultimedia/private/qaudiodevice_p.h
 * /usr/include/qt6/QtMultimedia/6.6.2/QtMultimedia/private/qaudioengine_pulse_p.h
 * /usr/include/qt6/QtMultimedia/6.6.2/QtMultimedia/private/qaudiohelpers_p.h
@@ -322,4 +323,3 @@ The Qt6 toolkit, qtmultimedia
 * /usr/lib/qt6/qml/QtQuick3D/SpatialAudio/libquick3dspatialaudioplugin.so
 * /usr/lib/qt6/qml/QtQuick3D/SpatialAudio/plugins.qmltypes
 * /usr/lib/qt6/qml/QtQuick3D/SpatialAudio/qmldir
-{{< /files >}}

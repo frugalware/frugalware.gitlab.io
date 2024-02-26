@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-search', 'digikam', 'kgpg', 'kmailtransport', 'libk
 +++
 Libraries and daemons to implement Contact Management in Akonadi.
 
-{{< files text="show files" >}}* /usr/include/KPim5/AkonadiContact/akonadi-contact_version.h
+## Files: 
+* /usr/include/KPim5/AkonadiContact/akonadi-contact_version.h
 * /usr/include/KPim5/AkonadiContact/Akonadi/AbstractContactFormatter
 * /usr/include/KPim5/AkonadiContact/akonadi/abstractcontactformatter.h
 * /usr/include/KPim5/AkonadiContact/Akonadi/AbstractContactGroupFormatter
@@ -228,4 +229,3 @@ Libraries and daemons to implement Contact Management in Akonadi.
 * /usr/share/qlogging-categories5/akonadi-contacts.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_AkonadiContact.pri
 * /usr/share/qt5/mkspecs/modules/qt_ContactEditor.pri
-{{< /files >}}

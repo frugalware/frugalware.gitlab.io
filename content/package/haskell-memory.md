@@ -16,7 +16,8 @@ reverse_depends = "['haskell-asn1-types', 'haskell-crypton', 'haskell-cryptonite
 +++
 memory and related abstraction stuff
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/memory-0.18.0/Data/ByteArray.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/memory-0.18.0/Data/ByteArray.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/memory-0.18.0/Data/ByteArray.hi
 * /usr/lib/ghc-9.8.1/site-local/memory-0.18.0/Data/ByteArray/Bytes.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/memory-0.18.0/Data/ByteArray/Bytes.hi
@@ -104,4 +105,3 @@ memory and related abstraction stuff
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/memory-0.18.0/LICENSE
 * /usr/share/haskell/haskell-memory/register.sh
 * /usr/share/haskell/haskell-memory/unregister.sh
-{{< /files >}}

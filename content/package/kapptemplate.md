@@ -15,7 +15,8 @@ depends = "['kio>=5.115.0', 'plasma-framework', 'qt5-svg>=5.15.12']"
 +++
 KDE Template Generator.
 
-{{< files text="show files" >}}* /usr/bin/kapptemplate
+## Files: 
+* /usr/bin/kapptemplate
 * /usr/share/applications/org.kde.kapptemplate.desktop
 * /usr/share/config.kcfg/kapptemplate.kcfg
 * /usr/share/doc/HTML/ca/kapptemplate/index.cache.bz2
@@ -109,4 +110,3 @@ KDE Template Generator.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kapptemplate.mo
 * /usr/share/metainfo/org.kde.kapptemplate.appdata.xml
 * /usr/share/qlogging-categories5/kapptemplate.categories
-{{< /files >}}

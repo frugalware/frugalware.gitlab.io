@@ -16,7 +16,8 @@ reverse_depends = "['qmlkonsole']"
 +++
 QML port of qtermwidget
 
-{{< files text="show files" >}}* /usr/share/doc/qmltermwidget-0.2.0/AUTHORS
+## Files: 
+* /usr/share/doc/qmltermwidget-0.2.0/AUTHORS
 * /usr/share/doc/qmltermwidget-0.2.0/COPYING-CMAKE-SCRIPTS
 * /usr/share/doc/qmltermwidget-0.2.0/LICENSE
 * /usr/share/doc/qmltermwidget-0.2.0/README.md
@@ -61,4 +62,3 @@ QML port of qtermwidget
 * /usr/share/qt5/qml/QMLTermWidget/libqmltermwidget.so
 * /usr/share/qt5/qml/QMLTermWidget/qmldir
 * /usr/share/qt5/qml/QMLTermWidget/QMLTermScrollbar.qml
-{{< /files >}}

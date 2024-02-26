@@ -16,7 +16,8 @@ reverse_depends = "['python3-sphinx']"
 +++
 Sphinx extension which renders HTML help files
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sphinxcontrib/htmlhelp/locales/.tx/config
+## Files: 
+* /usr/lib/python3.12/site-packages/sphinxcontrib/htmlhelp/locales/.tx/config
 * /usr/lib/python3.12/site-packages/sphinxcontrib/htmlhelp/locales/ar/LC_MESSAGES/sphinxcontrib.htmlhelp.mo
 * /usr/lib/python3.12/site-packages/sphinxcontrib/htmlhelp/locales/ar/LC_MESSAGES/sphinxcontrib.htmlhelp.po
 * /usr/lib/python3.12/site-packages/sphinxcontrib/htmlhelp/locales/bg/LC_MESSAGES/sphinxcontrib.htmlhelp.mo
@@ -139,4 +140,3 @@ Sphinx extension which renders HTML help files
 * /usr/share/doc/python3-sphinx-htmlhelp-2.0.4/CHANGES
 * /usr/share/doc/python3-sphinx-htmlhelp-2.0.4/LICENSE
 * /usr/share/doc/python3-sphinx-htmlhelp-2.0.4/README.rst
-{{< /files >}}

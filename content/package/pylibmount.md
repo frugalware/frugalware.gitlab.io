@@ -15,7 +15,7 @@ depends = "['python3>=3.12']"
 +++
 Python bindings for libmount
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/libmount/pylibmount.cpython-312-x86_64-linux-gnu.so
+## Files: 
+* /usr/lib/python3.12/site-packages/libmount/pylibmount.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/libmount/__init__.py
 * /usr/lib/python3.12/site-packages/libmount/__pycache__/__init__.cpython-312.pyc
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Static files for lzo
 
-{{< files text="show files" >}}* /usr/lib/liblzo2.a
-{{< /files >}}
+## Files: 
+* /usr/lib/liblzo2.a

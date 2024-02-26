@@ -15,11 +15,11 @@ depends = "[]"
 +++
 Static files for mariadb
 
-{{< files text="show files" >}}* /usr/lib/libmariadb.a
+## Files: 
+* /usr/lib/libmariadb.a
 * /usr/lib/libmariadbclient.a
 * /usr/lib/libmariadbd.a
 * /usr/lib/libmysqlclient.a
 * /usr/lib/libmysqlclient_r.a
 * /usr/lib/libmysqld.a
 * /usr/lib/libmysqlservices.a
-{{< /files >}}

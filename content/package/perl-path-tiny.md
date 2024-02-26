@@ -16,9 +16,9 @@ reverse_depends = "['freecell-solver']"
 +++
 File path utility
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/Path/Tiny.pm
+## Files: 
+* /usr/lib/perl5/site_perl/Path/Tiny.pm
 * /usr/share/doc/perl-path-tiny-0.144/LICENSE
 * /usr/share/doc/perl-path-tiny-0.144/MANIFEST
 * /usr/share/doc/perl-path-tiny-0.144/README
 * /usr/share/man/man3/Path::Tiny.3perl.gz
-{{< /files >}}

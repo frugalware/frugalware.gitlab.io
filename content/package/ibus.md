@@ -15,7 +15,8 @@ depends = "['gtk+3>=3.22.29', 'gtk+4', 'libdbusmenu-gtk3', 'libffi>=3.2.1-2', 'l
 +++
 Intelligent Input Bus.
 
-{{< files text="show files" >}}* /etc/xdg/Xwayland-session.d/10-ibus-x11
+## Files: 
+* /etc/xdg/Xwayland-session.d/10-ibus-x11
 * /usr/bin/ibus
 * /usr/bin/ibus-daemon
 * /usr/bin/ibus-setup
@@ -201,4 +202,3 @@ Intelligent Input Bus.
 * /usr/share/man/man1/ibus-setup.1.gz
 * /usr/share/man/man1/ibus.1.gz
 * /usr/share/man/man7/ibus-emoji.7.gz
-{{< /files >}}

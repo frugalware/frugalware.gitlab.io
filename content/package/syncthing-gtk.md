@@ -16,7 +16,8 @@ license = "MIT"
 +++
 GTK Frontend for Syncthing
 
-{{< files text="show files" >}}* /usr/bin/syncthing-gtk
+## Files: 
+* /usr/bin/syncthing-gtk
 * /usr/lib/python3.12/site-packages/syncthing_gtk-0.9.4.4-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/syncthing_gtk-0.9.4.4-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/syncthing_gtk-0.9.4.4-py3.12.egg-info/requires.txt
@@ -283,4 +284,3 @@ GTK Frontend for Syncthing
 * /usr/share/share/syncthing-gtk/syncthing-plugin-nautilus.py
 * /usr/share/share/syncthing-gtk/syncthing-plugin-nemo.py
 * /usr/share/share/syncthing-gtk/ui-settings.glade
-{{< /files >}}

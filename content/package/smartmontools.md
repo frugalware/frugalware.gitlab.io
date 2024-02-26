@@ -16,7 +16,8 @@ reverse_depends = "['hw-probe', 'plasma-disks']"
 +++
 For monitoring S.M.A.R.T. disks and devices
 
-{{< files text="show files" >}}* /etc/smartd.conf
+## Files: 
+* /etc/smartd.conf
 * /etc/sysconfig/smartmontools
 * /usr/bin/smartctl
 * /usr/bin/smartd
@@ -46,4 +47,3 @@ For monitoring S.M.A.R.T. disks and devices
 * /usr/share/man/man8/smartd.8.gz
 * /usr/share/man/man8/update-smart-drivedb.8.gz
 * /usr/share/smartmontools/drivedb.h
-{{< /files >}}

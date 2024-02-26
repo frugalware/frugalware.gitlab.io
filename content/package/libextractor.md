@@ -16,7 +16,8 @@ reverse_depends = "['gnunet']"
 +++
 libextractor is a library used to extract meta-data from files of arbitrary type
 
-{{< files text="show files" >}}* /usr/bin/extract
+## Files: 
+* /usr/bin/extract
 * /usr/include/extractor.h
 * /usr/lib/libextractor.so
 * /usr/lib/libextractor.so.3
@@ -74,4 +75,3 @@ libextractor is a library used to extract meta-data from files of arbitrary type
 * /usr/share/locale/vi/LC_MESSAGES/libextractor.mo
 * /usr/share/man/man1/extract.1.gz
 * /usr/share/man/man3/libextractor.3.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['python3>=3.10', 'python3-astroid', 'python3-isort', 'python3-mccabe
 +++
 Python code checker.
 
-{{< files text="show files" >}}* /usr/bin/epylint
+## Files: 
+* /usr/bin/epylint
 * /usr/bin/pylint
 * /usr/bin/pylint-config
 * /usr/bin/pyreverse
@@ -579,4 +580,3 @@ Python code checker.
 * /usr/lib/python3.12/site-packages/pylint/__pycache__/__pkginfo__.cpython-312.pyc
 * /usr/share/doc/pylint-2.16.2/LICENSE
 * /usr/share/doc/pylint-2.16.2/README.rst
-{{< /files >}}

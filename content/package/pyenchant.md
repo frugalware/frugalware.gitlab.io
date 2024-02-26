@@ -15,7 +15,8 @@ depends = "['enchant', 'python3']"
 +++
 PyEnchant is a spellchecking library for Python.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/enchant/checker/CmdLineChecker.py
+## Files: 
+* /usr/lib/python3.12/site-packages/enchant/checker/CmdLineChecker.py
 * /usr/lib/python3.12/site-packages/enchant/checker/GtkSpellCheckerDialog.py
 * /usr/lib/python3.12/site-packages/enchant/checker/wxSpellCheckerDialog.py
 * /usr/lib/python3.12/site-packages/enchant/checker/__init__.py
@@ -43,4 +44,3 @@ PyEnchant is a spellchecking library for Python.
 * /usr/lib/python3.12/site-packages/pyenchant-3.2.2-py3.12.egg-info/top_level.txt
 * /usr/share/doc/pyenchant-3.2.2/Changelog
 * /usr/share/doc/pyenchant-3.2.2/README.rst
-{{< /files >}}

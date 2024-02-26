@@ -16,7 +16,8 @@ reverse_depends = "['celt', 'celt051', 'efl', 'enlightenment', 'flac', 'gst1-plu
 +++
 Ogg bitstream and framing library
 
-{{< files text="show files" >}}* /usr/include/ogg/config_types.h
+## Files: 
+* /usr/include/ogg/config_types.h
 * /usr/include/ogg/ogg.h
 * /usr/include/ogg/os_types.h
 * /usr/lib/libogg.so
@@ -111,4 +112,3 @@ Ogg bitstream and framing library
 * /usr/share/doc/libogg-1.3.5/vorbisword2.png
 * /usr/share/doc/libogg-1.3.5/white-ogg.png
 * /usr/share/doc/libogg-1.3.5/white-xifish.png
-{{< /files >}}

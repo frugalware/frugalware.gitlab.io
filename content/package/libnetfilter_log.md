@@ -15,7 +15,8 @@ depends = "['libmnl', 'libnfnetlink']"
 +++
 A userspace library providing interface to packets that have been logged by the kernel packet filter.
 
-{{< files text="show files" >}}* /usr/include/libnetfilter_log/libipulog.h
+## Files: 
+* /usr/include/libnetfilter_log/libipulog.h
 * /usr/include/libnetfilter_log/libnetfilter_log.h
 * /usr/include/libnetfilter_log/linux_nfnetlink_log.h
 * /usr/lib/libnetfilter_log.so
@@ -27,4 +28,3 @@ A userspace library providing interface to packets that have been logged by the 
 * /usr/lib/pkgconfig/libnetfilter_log.pc
 * /usr/lib/pkgconfig/libnetfilter_log_libipulog.pc
 * /usr/share/doc/libnetfilter_log-1.0.2/COPYING
-{{< /files >}}

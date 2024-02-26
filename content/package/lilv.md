@@ -16,7 +16,8 @@ reverse_depends = "['mixxx', 'pipewire', 'qtractor']"
 +++
 Lilv is a C library to make the use of LV2 plugins as simple as possible for applications.
 
-{{< files text="show files" >}}* /etc/bash_completion.d/lilv
+## Files: 
+* /etc/bash_completion.d/lilv
 * /usr/bin/lv2apply
 * /usr/bin/lv2bench
 * /usr/bin/lv2info
@@ -38,4 +39,3 @@ Lilv is a C library to make the use of LV2 plugins as simple as possible for app
 * /usr/share/man/man1/lv2bench.1.gz
 * /usr/share/man/man1/lv2info.1.gz
 * /usr/share/man/man1/lv2ls.1.gz
-{{< /files >}}

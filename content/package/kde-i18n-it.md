@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Italian Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/kanagram/data/it/animali.kvtml
+## Files: 
+* usr/share/apps/kanagram/data/it/animali.kvtml
 * usr/share/apps/kanagram/data/it/capitalidelmondo.kvtml
 * usr/share/apps/kanagram/data/it/computer.kvtml
 * usr/share/apps/kanagram/data/it/invenzioni.kvtml
@@ -2294,4 +2295,3 @@ Italian Localization for KDE.
 * usr/share/locale/it/LC_MESSAGES/wakeup.mo
 * usr/share/locale/it/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/it/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

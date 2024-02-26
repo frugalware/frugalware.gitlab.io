@@ -15,6 +15,6 @@ depends = "['tcl']"
 +++
 sqlite Tcl Extension Architecture (TEA)
 
-{{< files text="show files" >}}* /usr/lib/sqlite3-3.45.1/libtclsqlite3.so
+## Files: 
+* /usr/lib/sqlite3-3.45.1/libtclsqlite3.so
 * /usr/lib/sqlite3-3.45.1/pkgIndex.tcl
-{{< /files >}}

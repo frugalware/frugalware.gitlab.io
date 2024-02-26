@@ -16,7 +16,8 @@ reverse_depends = "['clight', 'xdg-desktop-portal']"
 +++
 A D-Bus service that provides location information
 
-{{< files text="show files" >}}* /etc/geoclue/geoclue.conf
+## Files: 
+* /etc/geoclue/geoclue.conf
 * /etc/xdg/autostart/geoclue-demo-agent.desktop
 * /usr/include/libgeoclue-2.0/gclue-client.h
 * /usr/include/libgeoclue-2.0/gclue-enum-types.h
@@ -100,4 +101,3 @@ A D-Bus service that provides location information
 * /usr/share/polkit-1/rules.d/org.freedesktop.GeoClue2.rules
 * /usr/share/vala/vapi/libgeoclue-2.0.deps
 * /usr/share/vala/vapi/libgeoclue-2.0.vapi
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['popt>=1.16-5', 'xfsprogs-acl>=2.2.52-4']"
 +++
 Rotates, compresses, removes and mails system log files.
 
-{{< files text="show files" >}}* /etc/cron.daily/logrotate
+## Files: 
+* /etc/cron.daily/logrotate
 * /etc/logrotate.conf
 * /usr/bin/logrotate
 * /usr/share/doc/logrotate-3.21.0/COPYING
@@ -23,4 +24,3 @@ Rotates, compresses, removes and mails system log files.
 * /usr/share/doc/logrotate-3.21.0/README.md
 * /usr/share/man/man5/logrotate.conf.5.gz
 * /usr/share/man/man8/logrotate.8.gz
-{{< /files >}}

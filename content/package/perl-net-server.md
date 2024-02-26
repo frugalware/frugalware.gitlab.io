@@ -16,7 +16,8 @@ reverse_depends = "['amavisd-new', 'munin-node', 'postgrey']"
 +++
 Extensible, general Perl server engine
 
-{{< files text="show files" >}}* /usr/bin/site_perl/net-server
+## Files: 
+* /usr/bin/site_perl/net-server
 * /usr/lib/perl5/site_perl/Net/Server.pm
 * /usr/lib/perl5/site_perl/Net/Server.pod
 * /usr/lib/perl5/site_perl/Net/Server/Daemonize.pm
@@ -67,4 +68,3 @@ Extensible, general Perl server engine
 * /usr/share/man/man3/Net::Server::SIG.3perl.gz
 * /usr/share/man/man3/Net::Server::Single.3perl.gz
 * /usr/share/man/man3/Net::Server::Thread.3perl.gz
-{{< /files >}}

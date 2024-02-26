@@ -16,11 +16,11 @@ license = "GPL2"
 +++
 X.Org beforelight application
 
-{{< files text="show files" >}}* /usr/bin/beforelight
+## Files: 
+* /usr/bin/beforelight
 * /usr/share/doc/beforelight-1.0.6/ChangeLog
 * /usr/share/doc/beforelight-1.0.6/COPYING
 * /usr/share/doc/beforelight-1.0.6/INSTALL
 * /usr/share/doc/beforelight-1.0.6/README.md
 * /usr/share/man/man1/beforelight.1.gz
 * /usr/share/X11/app-defaults/Beforelight
-{{< /files >}}

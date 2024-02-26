@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Serbian Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/katepart/syntax/logohighlightstyle.sr@Latn.xml
+## Files: 
+* usr/share/apps/katepart/syntax/logohighlightstyle.sr@Latn.xml
 * usr/share/apps/khangman/data/sr@Latn/animals.kvtml
 * usr/share/apps/khangman/data/sr@Latn/easy.kvtml
 * usr/share/apps/khangman/data/sr@Latn/hard.kvtml
@@ -597,4 +598,3 @@ Serbian Localization for KDE.
 * usr/share/locale/sr@Latn/LC_MESSAGES/wakeup.mo
 * usr/share/locale/sr@Latn/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/sr@Latn/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

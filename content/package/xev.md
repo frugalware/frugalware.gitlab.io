@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org xev application
 
-{{< files text="show files" >}}* /usr/bin/xev
+## Files: 
+* /usr/bin/xev
 * /usr/share/doc/xev-1.2.5/ChangeLog
 * /usr/share/doc/xev-1.2.5/COPYING
 * /usr/share/doc/xev-1.2.5/INSTALL
 * /usr/share/doc/xev-1.2.5/README.md
 * /usr/share/man/man1/xev.1.gz
-{{< /files >}}

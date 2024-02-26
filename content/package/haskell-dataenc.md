@@ -15,7 +15,8 @@ depends = "['ghc>=9.8.1']"
 +++
 haskell-dataenc
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/dataenc-0.14.0.7/Codec/Binary/Base16.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/dataenc-0.14.0.7/Codec/Binary/Base16.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/dataenc-0.14.0.7/Codec/Binary/Base16.hi
 * /usr/lib/ghc-9.8.1/site-local/dataenc-0.14.0.7/Codec/Binary/Base32.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/dataenc-0.14.0.7/Codec/Binary/Base32.hi
@@ -70,4 +71,3 @@ haskell-dataenc
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/dataenc-0.14.0.7/LICENSE
 * /usr/share/haskell/haskell-dataenc/register.sh
 * /usr/share/haskell/haskell-dataenc/unregister.sh
-{{< /files >}}

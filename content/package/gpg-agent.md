@@ -16,8 +16,8 @@ reverse_depends = "['kgpg']"
 +++
 gpg-agent is made for handling gpg-keys
 
-{{< files text="show files" >}}* /usr/bin/gpg-agent
+## Files: 
+* /usr/bin/gpg-agent
 * /usr/bin/gpg-connect-agent
 * /usr/lib/gnupg2/gpg-preset-passphrase
 * /usr/lib/gnupg2/gpg-protect-tool
-{{< /files >}}

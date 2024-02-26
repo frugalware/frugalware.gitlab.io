@@ -15,5 +15,5 @@ depends = "['claws-mail=4.1.1']"
 +++
 This plugin writes a msg header summary to a log file,on arrival of new mail.
 
-{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/newmail.so
-{{< /files >}}
+## Files: 
+* /usr/lib/claws-mail/plugins/newmail.so

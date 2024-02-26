@@ -16,7 +16,8 @@ reverse_depends = "['gparted', 'inkscape', 'pavucontrol']"
 +++
 C++ interface for GTK+3
 
-{{< files text="show files" >}}* /usr/include/atkmm-1.6/atkmm.h
+## Files: 
+* /usr/include/atkmm-1.6/atkmm.h
 * /usr/include/atkmm-1.6/atkmm/action.h
 * /usr/include/atkmm-1.6/atkmm/component.h
 * /usr/include/atkmm-1.6/atkmm/document.h
@@ -699,4 +700,3 @@ C++ interface for GTK+3
 * /usr/share/doc/gtkmm3-3.24.5/README
 * /usr/share/doc/gtkmm3-3.24.5/README.SUN
 * /usr/share/doc/gtkmm3-3.24.5/README.win32
-{{< /files >}}

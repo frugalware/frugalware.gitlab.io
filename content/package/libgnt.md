@@ -16,7 +16,8 @@ reverse_depends = "['finch']"
 +++
 GLib Ncurses Toolkit
 
-{{< files text="show files" >}}* /usr/include/gnt/gnt.h
+## Files: 
+* /usr/include/gnt/gnt.h
 * /usr/include/gnt/gntbindable.h
 * /usr/include/gnt/gntbox.h
 * /usr/include/gnt/gntbutton.h
@@ -109,4 +110,3 @@ GLib Ncurses Toolkit
 * /usr/share/gtk-doc/html/libgnt/up-insensitive.png
 * /usr/share/gtk-doc/html/libgnt/up.png
 * /usr/share/gtk-doc/html/libgnt/widgets.html
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['librdf']"
 +++
 RDF query parsing and execution library
 
-{{< files text="show files" >}}* /usr/bin/rasqal-config
+## Files: 
+* /usr/bin/rasqal-config
 * /usr/bin/roqet
 * /usr/include/rasqal/rasqal.h
 * /usr/lib/librasqal.so
@@ -78,4 +79,3 @@ RDF query parsing and execution library
 * /usr/share/man/man1/rasqal-config.1.gz
 * /usr/share/man/man1/roqet.1.gz
 * /usr/share/man/man3/librasqal.3.gz
-{{< /files >}}

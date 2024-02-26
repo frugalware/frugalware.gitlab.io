@@ -15,7 +15,8 @@ depends = "[]"
 +++
 koctave is a KDE GUI for octave
 
-{{< files text="show files" >}}* usr/bin/koctave
+## Files: 
+* usr/bin/koctave
 * usr/share/applnk/Applications/koctave.desktop
 * usr/share/applnk/share/apps/koctave/editorui.rc
 * usr/share/applnk/share/apps/koctave/koctaveui.rc
@@ -31,4 +32,3 @@ koctave is a KDE GUI for octave
 * usr/share/icons/hicolor/32x32/apps/koctave.png
 * usr/share/icons/locolor/16x16/apps/koctave.png
 * usr/share/icons/locolor/32x32/apps/koctave.png
-{{< /files >}}

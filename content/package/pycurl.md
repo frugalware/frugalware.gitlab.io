@@ -16,7 +16,8 @@ reverse_depends = "['system-config-printer']"
 +++
 Python module interface to the cURL library
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pycurl-7.45.3-py3.12-linux-x86_64.egg/curl/__init__.py
+## Files: 
+* /usr/lib/python3.12/site-packages/pycurl-7.45.3-py3.12-linux-x86_64.egg/curl/__init__.py
 * /usr/lib/python3.12/site-packages/pycurl-7.45.3-py3.12-linux-x86_64.egg/curl/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pycurl-7.45.3-py3.12-linux-x86_64.egg/EGG-INFO/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pycurl-7.45.3-py3.12-linux-x86_64.egg/EGG-INFO/native_libs.txt
@@ -93,4 +94,3 @@ Python module interface to the cURL library
 * /usr/share/doc/pycurl-7.45.3/INSTALL.rst
 * /usr/share/doc/pycurl-7.45.3/README.rst
 * /usr/share/doc/pycurl-7.45.3/RELEASE-NOTES.rst
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['bash', 'perl>=5.34']"
 +++
 A tool for automatically generating Makefiles
 
-{{< files text="show files" >}}* /usr/bin/aclocal
+## Files: 
+* /usr/bin/aclocal
 * /usr/bin/aclocal-1.16
 * /usr/bin/automake
 * /usr/bin/automake-1.16
@@ -147,4 +148,3 @@ A tool for automatically generating Makefiles
 * /usr/share/man/man1/aclocal.1.gz
 * /usr/share/man/man1/automake-1.16.1.gz
 * /usr/share/man/man1/automake.1.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['haskell-http-api-data', 'haskell-http-client', 'haskell-htt
 +++
 Generic HTTP types for Haskell (for both client and server code).
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/http-types-0.12.4/libHShttp-types-0.12.4-7bj1JQvKNRj3AnMjzjUPgh.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/http-types-0.12.4/libHShttp-types-0.12.4-7bj1JQvKNRj3AnMjzjUPgh.a
 * /usr/lib/ghc-9.8.1/site-local/http-types-0.12.4/Network/HTTP/Types.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/http-types-0.12.4/Network/HTTP/Types.hi
 * /usr/lib/ghc-9.8.1/site-local/http-types-0.12.4/Network/HTTP/Types/Header.dyn_hi
@@ -73,4 +74,3 @@ Generic HTTP types for Haskell (for both client and server code).
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/http-types-0.12.4/LICENSE
 * /usr/share/haskell/haskell-http-types/register.sh
 * /usr/share/haskell/haskell-http-types/unregister.sh
-{{< /files >}}

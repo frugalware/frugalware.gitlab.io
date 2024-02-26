@@ -16,7 +16,8 @@ reverse_depends = "['ocaml-topkg']"
 +++
 Compatibility Result module
 
-{{< files text="show files" >}}* /usr/lib/ocaml/result/dune-package
+## Files: 
+* /usr/lib/ocaml/result/dune-package
 * /usr/lib/ocaml/result/META
 * /usr/lib/ocaml/result/opam
 * /usr/lib/ocaml/result/result.a
@@ -31,4 +32,3 @@ Compatibility Result module
 * /usr/share/doc/ocaml-result-1.5/result/CHANGES.md
 * /usr/share/doc/ocaml-result-1.5/result/LICENSE.md
 * /usr/share/doc/ocaml-result-1.5/result/README.md
-{{< /files >}}

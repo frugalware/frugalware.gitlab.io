@@ -15,11 +15,11 @@ depends = "['lib32-expat>=2.1.0-6', 'lib32-libdrm>=2.4.71', 'lib32-libffi>=3.2.1
 +++
 Mesa xatracker library (32-bit)
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/xa_composite.h
+## Files: 
+* /usr/i686-frugalware-linux/include/xa_composite.h
 * /usr/i686-frugalware-linux/include/xa_context.h
 * /usr/i686-frugalware-linux/include/xa_tracker.h
 * /usr/lib32/libxatracker.so
 * /usr/lib32/libxatracker.so.2
 * /usr/lib32/libxatracker.so.2.5.0
 * /usr/lib32/pkgconfig/xatracker.pc
-{{< /files >}}

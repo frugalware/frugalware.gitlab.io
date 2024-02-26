@@ -16,11 +16,11 @@ license = "GPL2"
 +++
 X.Org xmore application
 
-{{< files text="show files" >}}* /usr/bin/xmore
+## Files: 
+* /usr/bin/xmore
 * /usr/share/doc/xmore-1.0.4/ChangeLog
 * /usr/share/doc/xmore-1.0.4/COPYING
 * /usr/share/doc/xmore-1.0.4/INSTALL
 * /usr/share/doc/xmore-1.0.4/README.md
 * /usr/share/man/man1/xmore.1.gz
 * /usr/share/X11/app-defaults/XMore
-{{< /files >}}

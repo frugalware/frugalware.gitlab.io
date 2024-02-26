@@ -16,7 +16,8 @@ reverse_depends = "['kaccounts-integration', 'kdeplasma-addons5', 'kgamma5', 'ki
 +++
 Widgets for KConfig.
 
-{{< files text="show files" >}}* /usr/bin/preparetips5
+## Files: 
+* /usr/bin/preparetips5
 * /usr/include/KF5/KConfigWidgets/KCModule
 * /usr/include/KF5/KConfigWidgets/kcmodule.h
 * /usr/include/KF5/KConfigWidgets/KCodecAction
@@ -276,4 +277,3 @@ Widgets for KConfig.
 * /usr/share/qlogging-categories5/kconfigwidgets.categories
 * /usr/share/qlogging-categories5/kconfigwidgets.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KConfigWidgets.pri
-{{< /files >}}

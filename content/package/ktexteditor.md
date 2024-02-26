@@ -16,7 +16,8 @@ reverse_depends = "['akregator', 'cantor', 'dolphin-plugins', 'grantlee-editor',
 +++
 Provides a powerful text editor component.
 
-{{< files text="show files" >}}* /usr/include/KF5/KTextEditor/KTextEditor/AbstractAnnotationItemDelegate
+## Files: 
+* /usr/include/KF5/KTextEditor/KTextEditor/AbstractAnnotationItemDelegate
 * /usr/include/KF5/KTextEditor/ktexteditor/abstractannotationitemdelegate.h
 * /usr/include/KF5/KTextEditor/KTextEditor/AnnotationInterface
 * /usr/include/KF5/KTextEditor/ktexteditor/annotationinterface.h
@@ -186,4 +187,3 @@ Provides a powerful text editor component.
 * /usr/share/qlogging-categories5/ktexteditor.categories
 * /usr/share/qlogging-categories5/ktexteditor.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KTextEditor.pri
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['castor', 'cef', 'chromium-browser', 'dunst', 'fontforge', '
 +++
 A library for layout and rendering of text
 
-{{< files text="show files" >}}* /usr/bin/pango-list
+## Files: 
+* /usr/bin/pango-list
 * /usr/bin/pango-segmentation
 * /usr/bin/pango-view
 * /usr/include/pango-1.0/pango/pango-attributes.h
@@ -92,4 +93,3 @@ A library for layout and rendering of text
 * /usr/share/gir-1.0/PangoFT2-1.0.gir
 * /usr/share/gir-1.0/PangoOT-1.0.gir
 * /usr/share/gir-1.0/PangoXft-1.0.gir
-{{< /files >}}

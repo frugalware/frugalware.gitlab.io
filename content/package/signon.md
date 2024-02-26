@@ -16,7 +16,8 @@ reverse_depends = "['accounts-qml-module', 'libsignon-glib', 'signon-kwallet-ext
 +++
 Framework to provide credential storage and authentication service.
 
-{{< files text="show files" >}}* /etc/signond.conf
+## Files: 
+* /etc/signond.conf
 * /usr/bin/signond
 * /usr/bin/signonpluginprocess
 * /usr/include/signon-extension/SignOn/abstract-access-control-manager.h
@@ -396,4 +397,3 @@ Framework to provide credential storage and authentication service.
 * /usr/share/doc/signon/html/tab_s.png
 * /usr/share/doc/signon/html/tab_sd.png
 * /usr/share/doc/signon/qch/signon.qch
-{{< /files >}}

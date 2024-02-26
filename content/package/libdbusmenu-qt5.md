@@ -16,7 +16,8 @@ reverse_depends = "['knotifications']"
 +++
 Provides a QT5 implementation of DbusMenu.
 
-{{< files text="show files" >}}* /usr/include/dbusmenu-qt5/dbusmenuexporter.h
+## Files: 
+* /usr/include/dbusmenu-qt5/dbusmenuexporter.h
 * /usr/include/dbusmenu-qt5/dbusmenuimporter.h
 * /usr/include/dbusmenu-qt5/dbusmenu_export.h
 * /usr/include/dbusmenu-qt5/dbusmenu_version.h
@@ -109,4 +110,3 @@ Provides a QT5 implementation of DbusMenu.
 * /usr/share/doc/libdbusmenu-qt5-doc/tab_hd.png
 * /usr/share/doc/libdbusmenu-qt5-doc/tab_s.png
 * /usr/share/doc/libdbusmenu-qt5-doc/tab_sd.png
-{{< /files >}}

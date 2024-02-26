@@ -16,7 +16,8 @@ reverse_depends = "['haskell-aeson']"
 +++
 Generically newtype to use with DerivingVia
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/generically-0.1.1/GHC/Generics/Generically.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/generically-0.1.1/GHC/Generics/Generically.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/generically-0.1.1/GHC/Generics/Generically.hi
 * /usr/lib/ghc-9.8.1/site-local/generically-0.1.1/libHSgenerically-0.1.1-HgATq6D4yUpDESMN0QuBBH.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSgenerically-0.1.1-HgATq6D4yUpDESMN0QuBBH-ghc9.8.1.so
@@ -33,4 +34,3 @@ Generically newtype to use with DerivingVia
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/generically-0.1.1/LICENSE
 * /usr/share/haskell/haskell-generically/register.sh
 * /usr/share/haskell/haskell-generically/unregister.sh
-{{< /files >}}

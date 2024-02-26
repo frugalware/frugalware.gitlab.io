@@ -15,5 +15,5 @@ depends = "['libshout']"
 +++
 Audacious icecast output plugin
 
-{{< files text="show files" >}}* /usr/lib/audacious/Output/icecast.so
-{{< /files >}}
+## Files: 
+* /usr/lib/audacious/Output/icecast.so

@@ -16,9 +16,9 @@ reverse_depends = "['lib32-ffmpeg']"
 +++
 WebM VP8 VP9 Codec SDK ( 32bit )
 
-{{< files text="show files" >}}* /usr/lib32/libvpx.so
+## Files: 
+* /usr/lib32/libvpx.so
 * /usr/lib32/libvpx.so.9
 * /usr/lib32/libvpx.so.9.0
 * /usr/lib32/libvpx.so.9.0.0
 * /usr/lib32/pkgconfig/vpx.pc
-{{< /files >}}

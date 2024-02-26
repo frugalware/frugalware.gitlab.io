@@ -16,7 +16,8 @@ reverse_depends = "['lib32-faudio', 'lib32-openal']"
 +++
 FFMpeg is a complete and free Internet live audio and video broadcasting solution for Linux/Unix. ( 32bit )
 
-{{< files text="show files" >}}* /usr/lib32/libavcodec.so
+## Files: 
+* /usr/lib32/libavcodec.so
 * /usr/lib32/libavcodec.so.60
 * /usr/lib32/libavcodec.so.60.31.102
 * /usr/lib32/libavdevice.so
@@ -48,4 +49,3 @@ FFMpeg is a complete and free Internet live audio and video broadcasting solutio
 * /usr/lib32/pkgconfig/libpostproc.pc
 * /usr/lib32/pkgconfig/libswresample.pc
 * /usr/lib32/pkgconfig/libswscale.pc
-{{< /files >}}

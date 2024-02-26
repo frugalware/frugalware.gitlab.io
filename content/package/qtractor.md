@@ -15,7 +15,8 @@ depends = "['dssi', 'liblo', 'libmad', 'libsndfile', 'lilv', 'lv2', 'qt5-base>=5
 +++
 Audio/MIDI multi-track sequencer written in C++ with the Qt5 framework
 
-{{< files text="show files" >}}* /usr/bin/qtractor
+## Files: 
+* /usr/bin/qtractor
 * /usr/lib/qtractor/qtractor_plugin_scan
 * /usr/share/applications/org.rncbc.qtractor.desktop
 * /usr/share/doc/qtractor-0.9.34/ChangeLog
@@ -44,4 +45,3 @@ Audio/MIDI multi-track sequencer written in C++ with the Qt5 framework
 * /usr/share/qtractor/translations/qtractor_pt.qm
 * /usr/share/qtractor/translations/qtractor_ru.qm
 * /usr/share/qtractor/translations/qtractor_uk.qm
-{{< /files >}}

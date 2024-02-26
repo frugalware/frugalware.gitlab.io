@@ -15,7 +15,8 @@ depends = "['librsync>=0.9.7', 'ncftp', 'python3-boto>=2.5.2', 'python3-fastener
 +++
 Encrypted bandwidth-efficient backup using the rsync algorithm.
 
-{{< files text="show files" >}}* /usr/bin/duplicity
+## Files: 
+* /usr/bin/duplicity
 * /usr/bin/rdiffdir
 * /usr/lib/python3.12/site-packages/duplicity-1.0.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/duplicity-1.0.0-py3.12.egg-info/PKG-INFO
@@ -301,4 +302,3 @@ Encrypted bandwidth-efficient backup using the rsync algorithm.
 * /usr/share/locale/zh_TW/LC_MESSAGES/duplicity.mo
 * /usr/share/man/man1/duplicity.1.gz
 * /usr/share/man/man1/rdiffdir.1.gz
-{{< /files >}}

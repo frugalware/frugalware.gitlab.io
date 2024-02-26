@@ -15,7 +15,8 @@ depends = "['git>=2.44.0', 'tk']"
 +++
 Git GUI tool.
 
-{{< files text="show files" >}}* /usr/lib/git/git-core/git-citool
+## Files: 
+* /usr/lib/git/git-core/git-citool
 * /usr/lib/git/git-core/git-gui
 * /usr/lib/git/git-core/git-gui--askpass
 * /usr/share/doc/git-2.44.0/git-citool.html
@@ -79,4 +80,3 @@ Git GUI tool.
 * /usr/share/git-gui/lib/win32_shortcut.js
 * /usr/share/man/man1/git-citool.1.gz
 * /usr/share/man/man1/git-gui.1.gz
-{{< /files >}}

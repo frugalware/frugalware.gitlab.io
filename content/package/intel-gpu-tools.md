@@ -15,7 +15,8 @@ depends = "['cairo>=1.14.6-2', 'kmod', 'libdrm>=2.4.71', 'libudev', 'libunwind>=
 +++
 X.Org intel-gpu-tools application
 
-{{< files text="show files" >}}* /usr/bin/amd_hdmi_compliance
+## Files: 
+* /usr/bin/amd_hdmi_compliance
 * /usr/bin/code_cov_capture
 * /usr/bin/code_cov_gather_on_build
 * /usr/bin/code_cov_gather_on_test
@@ -492,4 +493,3 @@ X.Org intel-gpu-tools application
 * /usr/share/igt-gpu-tools/xe-fast-feedback-chamelium-only.testlist
 * /usr/share/igt-gpu-tools/xe-fast-feedback.testlist
 * /usr/share/igt-gpu-tools/xe.blocklist.txt
-{{< /files >}}

@@ -16,8 +16,8 @@ reverse_depends = "['po4a']"
 +++
 Line wrapping module with support for multibyte.
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/Text/WrapI18N.pm
+## Files: 
+* /usr/lib/perl5/site_perl/Text/WrapI18N.pm
 * /usr/share/doc/perl-text-wrapi18n-0.06/MANIFEST
 * /usr/share/doc/perl-text-wrapi18n-0.06/README
 * /usr/share/man/man3/Text::WrapI18N.3perl.gz
-{{< /files >}}

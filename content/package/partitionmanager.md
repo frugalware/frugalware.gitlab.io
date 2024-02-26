@@ -15,7 +15,8 @@ depends = "['dosfstools', 'e2fsprogs', 'f2fs-tools', 'jfsutils', 'kiconthemes>=5
 +++
 A Kf5 utility that allows you to manage disks, partitions, and file systems.
 
-{{< files text="show files" >}}* /usr/bin/partitionmanager
+## Files: 
+* /usr/bin/partitionmanager
 * /usr/share/applications/org.kde.partitionmanager.desktop
 * /usr/share/config.kcfg/partitionmanager.kcfg
 * /usr/share/doc/HTML/ca/partitionmanager/copyhowto.docbook
@@ -257,4 +258,3 @@ A Kf5 utility that allows you to manage disks, partitions, and file systems.
 * /usr/share/locale/zh_TW/LC_MESSAGES/partitionmanager.mo
 * /usr/share/metainfo/org.kde.partitionmanager.appdata.xml
 * /usr/share/solid/actions/open_in_partitionmanager.desktop
-{{< /files >}}

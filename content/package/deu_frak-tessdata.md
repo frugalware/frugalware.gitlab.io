@@ -15,5 +15,5 @@ depends = "['glibc']"
 +++
 Language specific files for tesseract lang deu_frak
 
-{{< files text="show files" >}}* /usr/share/tessdata/deu_frak.traineddata
-{{< /files >}}
+## Files: 
+* /usr/share/tessdata/deu_frak.traineddata

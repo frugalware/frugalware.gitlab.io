@@ -16,10 +16,10 @@ reverse_depends = "['easyeffects', 'zam-plugins']"
 +++
 Convolution library for aeolus and jconvolver
 
-{{< files text="show files" >}}* /usr/include/zita-convolver.h
+## Files: 
+* /usr/include/zita-convolver.h
 * /usr/lib/libzita-convolver.so
 * /usr/lib/libzita-convolver.so.4.0.3
 * /usr/share/doc/zita-convolver-4.0.3/AUTHORS
 * /usr/share/doc/zita-convolver-4.0.3/COPYING
 * /usr/share/doc/zita-convolver-4.0.3/README
-{{< /files >}}

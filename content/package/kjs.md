@@ -16,7 +16,8 @@ reverse_depends = "['khtml', 'kjsembed', 'krename', 'okular']"
 +++
 KDE Javascript engine.
 
-{{< files text="show files" >}}* /usr/bin/kjs5
+## Files: 
+* /usr/bin/kjs5
 * /usr/include/KF5/kjs/array_instance.h
 * /usr/include/KF5/kjs/array_object.h
 * /usr/include/KF5/kjs/bool_object.h
@@ -137,4 +138,3 @@ KDE Javascript engine.
 * /usr/share/man/uk/man1/kjs5.1.gz
 * /usr/share/qt5/mkspecs/modules/qt_KJS.pri
 * /usr/share/qt5/mkspecs/modules/qt_KJSApi.pri
-{{< /files >}}

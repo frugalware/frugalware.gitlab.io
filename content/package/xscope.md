@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org xsope application
 
-{{< files text="show files" >}}* /usr/bin/xscope
+## Files: 
+* /usr/bin/xscope
 * /usr/share/doc/xscope-1.4.4/AUTHORS
 * /usr/share/doc/xscope-1.4.4/ChangeLog
 * /usr/share/doc/xscope-1.4.4/COPYING
@@ -24,4 +25,3 @@ X.Org xsope application
 * /usr/share/doc/xscope-1.4.4/NEWS
 * /usr/share/doc/xscope-1.4.4/README.md
 * /usr/share/man/man1/xscope.1.gz
-{{< /files >}}

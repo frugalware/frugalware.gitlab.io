@@ -16,7 +16,8 @@ reverse_depends = "['gimp']"
 +++
 Default MyPaint brushes
 
-{{< files text="show files" >}}* /usr/lib/pkgconfig/mypaint-brushes-1.0.pc
+## Files: 
+* /usr/lib/pkgconfig/mypaint-brushes-1.0.pc
 * /usr/share/doc/mypaint-brushes-1.3.0/AUTHORS
 * /usr/share/doc/mypaint-brushes-1.3.0/ChangeLog
 * /usr/share/doc/mypaint-brushes-1.3.0/COPYING
@@ -382,4 +383,3 @@ Default MyPaint brushes
 * /usr/share/mypaint-data/1.0/brushes/tanda/watercolor-02-paint_prev.png
 * /usr/share/mypaint-data/1.0/brushes/tanda/watercolor-02-water.myb
 * /usr/share/mypaint-data/1.0/brushes/tanda/watercolor-02-water_prev.png
-{{< /files >}}

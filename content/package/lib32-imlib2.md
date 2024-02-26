@@ -16,7 +16,8 @@ reverse_depends = "['lib32-ffmpeg', 'lib32-libcaca']"
 +++
 Imlib 2 is the successor to Imlib. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/imlib2_bumpmap
+## Files: 
+* /usr/i686-frugalware-linux/bin/imlib2_bumpmap
 * /usr/i686-frugalware-linux/bin/imlib2_colorspace
 * /usr/i686-frugalware-linux/bin/imlib2_conv
 * /usr/i686-frugalware-linux/bin/imlib2_grab
@@ -53,4 +54,3 @@ Imlib 2 is the successor to Imlib. ( 32bit )
 * /usr/lib32/libImlib2.so.1
 * /usr/lib32/libImlib2.so.1.12.2
 * /usr/lib32/pkgconfig/imlib2.pc
-{{< /files >}}

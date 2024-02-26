@@ -16,7 +16,8 @@ license = "GPL"
 +++
 KDE media player
 
-{{< files text="show files" >}}* /usr/bin/kaffeine
+## Files: 
+* /usr/bin/kaffeine
 * /usr/share/applications/org.kde.kaffeine.desktop
 * /usr/share/doc/HTML/ca/kaffeine/application-x-subrip.png
 * /usr/share/doc/HTML/ca/kaffeine/audio-volume-high.png
@@ -275,4 +276,3 @@ KDE media player
 * /usr/share/solid/actions/kaffeine_play_audiocd.desktop
 * /usr/share/solid/actions/kaffeine_play_dvd.desktop
 * /usr/share/solid/actions/kaffeine_play_videocd.desktop
-{{< /files >}}

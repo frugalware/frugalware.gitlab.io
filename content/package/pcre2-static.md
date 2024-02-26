@@ -15,8 +15,8 @@ depends = "[]"
 +++
 Static files for pcre2
 
-{{< files text="show files" >}}* /usr/lib/libpcre2-16.a
+## Files: 
+* /usr/lib/libpcre2-16.a
 * /usr/lib/libpcre2-32.a
 * /usr/lib/libpcre2-8.a
 * /usr/lib/libpcre2-posix.a
-{{< /files >}}

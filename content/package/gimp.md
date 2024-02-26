@@ -16,7 +16,8 @@ reverse_depends = "['gmic', 'xsane-gimp']"
 +++
 The GNU Image Manipulation Program
 
-{{< files text="show files" >}}* /etc/gimp/2.0/controllerrc
+## Files: 
+* /etc/gimp/2.0/controllerrc
 * /etc/gimp/2.0/gimprc
 * /etc/gimp/2.0/gtkrc
 * /etc/gimp/2.0/menurc
@@ -5435,4 +5436,3 @@ The GNU Image Manipulation Program
 * /usr/share/man/man5/gimprc.5.gz
 * /usr/share/metainfo/gimp-data-extras.metainfo.xml
 * /usr/share/metainfo/org.gimp.GIMP.appdata.xml
-{{< /files >}}

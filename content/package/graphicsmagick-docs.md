@@ -15,7 +15,8 @@ depends = "[]"
 +++
 GraphicsMagick Documentation
 
-{{< files text="show files" >}}* /usr/share/doc/graphicsmagick-1.3.40/www/animate.html
+## Files: 
+* /usr/share/doc/graphicsmagick-1.3.40/www/animate.html
 * /usr/share/doc/graphicsmagick-1.3.40/www/api/animate.html
 * /usr/share/doc/graphicsmagick-1.3.40/www/api/annotate.html
 * /usr/share/doc/graphicsmagick-1.3.40/www/api/api.html
@@ -182,4 +183,3 @@ GraphicsMagick Documentation
 * /usr/share/doc/graphicsmagick-1.3.40/www/wand/magick_wand.html
 * /usr/share/doc/graphicsmagick-1.3.40/www/wand/pixel_wand.html
 * /usr/share/doc/graphicsmagick-1.3.40/www/wand/wand.html
-{{< /files >}}

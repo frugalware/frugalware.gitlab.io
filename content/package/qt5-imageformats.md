@@ -16,7 +16,8 @@ reverse_depends = "['meshroom', 'otter-browser']"
 +++
 The Qt5 toolkit, qtimageformats
 
-{{< files text="show files" >}}* /usr/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake
+## Files: 
+* /usr/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake
 * /usr/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake
 * /usr/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake
 * /usr/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake
@@ -30,4 +31,3 @@ The Qt5 toolkit, qtimageformats
 * /usr/lib/qt5/plugins/imageformats/libqtiff.so
 * /usr/lib/qt5/plugins/imageformats/libqwbmp.so
 * /usr/lib/qt5/plugins/imageformats/libqwebp.so
-{{< /files >}}

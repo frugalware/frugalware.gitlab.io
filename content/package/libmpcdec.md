@@ -16,7 +16,8 @@ reverse_depends = "['k3b', 'vlc-musepack', 'xine-lib']"
 +++
 Musepack decoding library.
 
-{{< files text="show files" >}}* /usr/include/mpcdec/config_types.h
+## Files: 
+* /usr/include/mpcdec/config_types.h
 * /usr/include/mpcdec/decoder.h
 * /usr/include/mpcdec/huffman.h
 * /usr/include/mpcdec/math.h
@@ -32,4 +33,3 @@ Musepack decoding library.
 * /usr/share/doc/libmpcdec-1.2.6/COPYING
 * /usr/share/doc/libmpcdec-1.2.6/INSTALL
 * /usr/share/doc/libmpcdec-1.2.6/README
-{{< /files >}}

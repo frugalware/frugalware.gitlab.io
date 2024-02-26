@@ -16,7 +16,8 @@ reverse_depends = "['libimobiledevice']"
 +++
 Common library for connecting to mobile devices
 
-{{< files text="show files" >}}* /usr/include/libimobiledevice-glue/cbuf.h
+## Files: 
+* /usr/include/libimobiledevice-glue/cbuf.h
 * /usr/include/libimobiledevice-glue/collection.h
 * /usr/include/libimobiledevice-glue/opack.h
 * /usr/include/libimobiledevice-glue/socket.h
@@ -31,4 +32,3 @@ Common library for connecting to mobile devices
 * /usr/share/doc/libimobiledevice-glue-1.0.0/COPYING
 * /usr/share/doc/libimobiledevice-glue-1.0.0/NEWS
 * /usr/share/doc/libimobiledevice-glue-1.0.0/README.md
-{{< /files >}}

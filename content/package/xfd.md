@@ -16,11 +16,11 @@ license = "GPL2"
 +++
 X.Org xfd application
 
-{{< files text="show files" >}}* /usr/bin/xfd
+## Files: 
+* /usr/bin/xfd
 * /usr/share/doc/xfd-1.1.4/ChangeLog
 * /usr/share/doc/xfd-1.1.4/COPYING
 * /usr/share/doc/xfd-1.1.4/INSTALL
 * /usr/share/doc/xfd-1.1.4/README.md
 * /usr/share/man/man1/xfd.1.gz
 * /usr/share/X11/app-defaults/Xfd
-{{< /files >}}

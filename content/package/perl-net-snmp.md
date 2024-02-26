@@ -15,7 +15,8 @@ depends = "['perl>=5.34.0']"
 +++
 Object oriented interface to SNMP
 
-{{< files text="show files" >}}* /usr/bin/snmpkey
+## Files: 
+* /usr/bin/snmpkey
 * /usr/lib/perl5/site_perl/current/Net/SNMP.pm
 * /usr/lib/perl5/site_perl/current/Net/SNMP/Dispatcher.pm
 * /usr/lib/perl5/site_perl/current/Net/SNMP/Message.pm
@@ -36,4 +37,3 @@ Object oriented interface to SNMP
 * /usr/share/doc/perl-net-snmp-v6.0.1/README
 * /usr/share/man/man1/snmpkey.1perl.gz
 * /usr/share/man/man3/Net::SNMP.3perl.gz
-{{< /files >}}

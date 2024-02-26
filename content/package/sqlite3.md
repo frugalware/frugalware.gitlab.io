@@ -16,7 +16,8 @@ reverse_depends = "['aircrack-ng', 'apr-util', 'aria2', 'bogofilter', 'botan', '
 +++
 A C library that implements an SQL database engine
 
-{{< files text="show files" >}}* /usr/bin/showdb
+## Files: 
+* /usr/bin/showdb
 * /usr/bin/showjournal
 * /usr/bin/showstat4
 * /usr/bin/showwal
@@ -31,4 +32,3 @@ A C library that implements an SQL database engine
 * /usr/share/doc/sqlite3-3.45.1/README.md
 * /usr/share/doc/sqlite3-3.45.1/VERSION
 * /usr/share/man/man1/sqlite3.1.gz
-{{< /files >}}

@@ -16,11 +16,11 @@ reverse_depends = "['hwinfo']"
 +++
 x86 emulation library
 
-{{< files text="show files" >}}* /usr/include/x86emu.h
+## Files: 
+* /usr/include/x86emu.h
 * /usr/lib/libx86emu.so
 * /usr/lib/libx86emu.so.3
 * /usr/lib/libx86emu.so.3.5
 * /usr/share/doc/libx86emu-3.5/LICENSE
 * /usr/share/doc/libx86emu-3.5/README.md
 * /usr/share/doc/libx86emu-3.5/VERSION
-{{< /files >}}

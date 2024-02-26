@@ -15,7 +15,8 @@ depends = "['ffmpeg>=6.0']"
 +++
 Creates thumbnails for your video files
 
-{{< files text="show files" >}}* /usr/bin/ffmpegthumbnailer
+## Files: 
+* /usr/bin/ffmpegthumbnailer
 * /usr/include/libffmpegthumbnailer/ffmpegthumbnailertypes.h
 * /usr/include/libffmpegthumbnailer/filmstripfilter.h
 * /usr/include/libffmpegthumbnailer/ifilter.h
@@ -36,4 +37,3 @@ Creates thumbnails for your video files
 * /usr/share/doc/ffmpegthumbnailer-2.2.2/TODO
 * /usr/share/man/man1/ffmpegthumbnailer.1.gz
 * /usr/share/thumbnailers/ffmpegthumbnailer.thumbnailer
-{{< /files >}}

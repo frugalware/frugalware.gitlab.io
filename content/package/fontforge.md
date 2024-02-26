@@ -16,7 +16,8 @@ reverse_depends = "['mftrace']"
 +++
 Font editor and converter
 
-{{< files text="show files" >}}* /usr/bin/acorn2sfd
+## Files: 
+* /usr/bin/acorn2sfd
 * /usr/bin/dewoff
 * /usr/bin/findtable
 * /usr/bin/fontforge
@@ -1360,4 +1361,3 @@ Font editor and converter
 * /usr/share/man/man1/ttf2eps.1.gz
 * /usr/share/metainfo/org.fontforge.FontForge.appdata.xml
 * /usr/share/mime/packages/fontforge.xml
-{{< /files >}}

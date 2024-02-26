@@ -15,7 +15,8 @@ depends = "['anthy', 'fontconfig', 'gd>=2.1.1-4', 'libotf>=0.9.16', 'libxaw>=1.0
 +++
 A multilingual text processing library.
 
-{{< files text="show files" >}}* /usr/bin/m17n-conv
+## Files: 
+* /usr/bin/m17n-conv
 * /usr/bin/m17n-date
 * /usr/bin/m17n-dump
 * /usr/bin/m17n-edit
@@ -53,4 +54,3 @@ A multilingual text processing library.
 * /usr/share/doc/m17n-lib-1.8.0/NEWS
 * /usr/share/doc/m17n-lib-1.8.0/README
 * /usr/share/doc/m17n-lib-1.8.0/TODO
-{{< /files >}}

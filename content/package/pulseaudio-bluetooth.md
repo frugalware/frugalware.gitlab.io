@@ -15,4 +15,4 @@ depends = "['bluez', 'dbus>=1.10.10-4', 'gst1-plugins-bad', 'pulseaudio>=17.0', 
 +++
 bluetooth module for PulseAudio sound server
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

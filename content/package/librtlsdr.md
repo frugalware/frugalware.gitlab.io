@@ -16,7 +16,8 @@ reverse_depends = "['rng-tools']"
 +++
 Software to turn the RTL2832U into an SDR
 
-{{< files text="show files" >}}* /usr/bin/rtl_adsb
+## Files: 
+* /usr/bin/rtl_adsb
 * /usr/bin/rtl_biast
 * /usr/bin/rtl_eeprom
 * /usr/bin/rtl_fm
@@ -37,4 +38,3 @@ Software to turn the RTL2832U into an SDR
 * /usr/share/doc/librtlsdr-2.0.1/AUTHORS
 * /usr/share/doc/librtlsdr-2.0.1/COPYING
 * /usr/share/doc/librtlsdr-2.0.1/README
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['clang-libs>=15.0.7', 'libffi>=3.4', 'libxml2']"
 +++
 C/C++ language family frontend for LLVM15
 
-{{< files text="show files" >}}* /usr/lib/llvm15/bin/analyze-build
+## Files: 
+* /usr/lib/llvm15/bin/analyze-build
 * /usr/lib/llvm15/bin/c-index-test
 * /usr/lib/llvm15/bin/clang
 * /usr/lib/llvm15/bin/clang++
@@ -1312,4 +1313,3 @@ C/C++ language family frontend for LLVM15
 * /usr/lib/llvm15/share/scan-view/Reporter.py
 * /usr/lib/llvm15/share/scan-view/ScanView.py
 * /usr/lib/llvm15/share/scan-view/startfile.py
-{{< /files >}}

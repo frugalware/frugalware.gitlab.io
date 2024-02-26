@@ -16,5 +16,5 @@ reverse_depends = "['plasma-pa']"
 +++
 GStreamer pulseaudio plugin (Good).
 
-{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstpulseaudio.so
-{{< /files >}}
+## Files: 
+* /usr/lib/gstreamer-1.0/libgstpulseaudio.so

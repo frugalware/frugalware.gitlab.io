@@ -15,6 +15,6 @@ depends = "['libmpack', 'lua51']"
 +++
 libmpack lua binding
 
-{{< files text="show files" >}}* /usr/lib/lua/5.1/mpack.so
+## Files: 
+* /usr/lib/lua/5.1/mpack.so
 * /usr/share/doc/libmpack-lua-1.0.11/README.md
-{{< /files >}}

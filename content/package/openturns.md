@@ -16,7 +16,8 @@ reverse_depends = "['vtk']"
 +++
 Uncertainty treatment library
 
-{{< files text="show files" >}}* /etc/openturns/openturns.conf
+## Files: 
+* /etc/openturns/openturns.conf
 * /usr/include/openturns/AbdoRackwitz.hxx
 * /usr/include/openturns/AbsoluteExponential.hxx
 * /usr/include/openturns/AdaptiveDirectionalStratification.hxx
@@ -926,4 +927,3 @@ Uncertainty treatment library
 * /usr/share/doc/openturns/COPYING.poissinv
 * /usr/share/doc/openturns/COPYING.tnc
 * /usr/share/gdb/auto-load/usr/lib/libOT.so.0.23.0-gdb.py
-{{< /files >}}

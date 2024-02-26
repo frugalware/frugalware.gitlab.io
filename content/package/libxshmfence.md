@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X Shared memory fences using futexes
 
-{{< files text="show files" >}}* /usr/include/X11/xshmfence.h
+## Files: 
+* /usr/include/X11/xshmfence.h
 * /usr/lib/libxshmfence.so
 * /usr/lib/libxshmfence.so.1
 * /usr/lib/libxshmfence.so.1.0.0
@@ -25,4 +26,3 @@ X Shared memory fences using futexes
 * /usr/share/doc/libxshmfence-1.3.2/ChangeLog
 * /usr/share/doc/libxshmfence-1.3.2/COPYING
 * /usr/share/doc/libxshmfence-1.3.2/README.md
-{{< /files >}}

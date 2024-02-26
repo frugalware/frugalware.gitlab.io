@@ -15,5 +15,5 @@ depends = "['gst1-plugins-base>=1.22.10', 'gst1-plugins-good>=1.22.10', 'libffi>
 +++
 GStreamer vpx plugin (Good).
 
-{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstvpx.so
-{{< /files >}}
+## Files: 
+* /usr/lib/gstreamer-1.0/libgstvpx.so

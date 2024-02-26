@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 Provides functionality for small OpenGL programs
 
-{{< files text="show files" >}}* usr/share/doc/glut-3.7/AUTHORS
+## Files: 
+* usr/share/doc/glut-3.7/AUTHORS
 * usr/share/doc/glut-3.7/CHANGES
 * usr/share/doc/glut-3.7/COPYING
 * usr/share/doc/glut-3.7/COPYING.BSD
@@ -55,4 +56,3 @@ Provides functionality for small OpenGL programs
 * usr/X11R6/lib/libglut.so
 * usr/X11R6/lib/libglut.so.3
 * usr/X11R6/lib/libglut.so.3.7
-{{< /files >}}

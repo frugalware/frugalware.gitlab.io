@@ -15,7 +15,8 @@ depends = "[]"
 +++
 The GNU Standard C++ Library for emulation of i686 on x86_64
 
-{{< files text="show files" >}}* usr/lib/chroot32/usr/lib/libgcc_s.so
+## Files: 
+* usr/lib/chroot32/usr/lib/libgcc_s.so
 * usr/lib/chroot32/usr/lib/libgcc_s.so.1
 * usr/lib/chroot32/usr/share/doc/gcc-lib-4.0.2/BUGS
 * usr/lib/chroot32/usr/share/doc/gcc-lib-4.0.2/ChangeLog
@@ -37,4 +38,3 @@ The GNU Standard C++ Library for emulation of i686 on x86_64
 * usr/lib/chroot32/usr/share/doc/gcc-lib-4.0.2/NEWS
 * usr/lib/chroot32/usr/share/doc/gcc-lib-4.0.2/README
 * usr/lib/chroot32/usr/share/doc/gcc-lib-4.0.2/README.SCO
-{{< /files >}}

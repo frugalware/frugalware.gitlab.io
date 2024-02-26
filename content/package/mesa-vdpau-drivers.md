@@ -16,7 +16,8 @@ reverse_depends = "['vlc']"
 +++
 Mesa VDPAU drivers.
 
-{{< files text="show files" >}}* /usr/lib/vdpau/libvdpau_d3d12.so
+## Files: 
+* /usr/lib/vdpau/libvdpau_d3d12.so
 * /usr/lib/vdpau/libvdpau_d3d12.so.1
 * /usr/lib/vdpau/libvdpau_d3d12.so.1.0
 * /usr/lib/vdpau/libvdpau_d3d12.so.1.0.0
@@ -36,4 +37,3 @@ Mesa VDPAU drivers.
 * /usr/lib/vdpau/libvdpau_virtio_gpu.so.1
 * /usr/lib/vdpau/libvdpau_virtio_gpu.so.1.0
 * /usr/lib/vdpau/libvdpau_virtio_gpu.so.1.0.0
-{{< /files >}}

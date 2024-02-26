@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.Org Xv library
 
-{{< files text="show files" >}}* /usr/include/X11/extensions/Xvlib.h
+## Files: 
+* /usr/include/X11/extensions/Xvlib.h
 * /usr/lib/libXv.so
 * /usr/lib/libXv.so.1
 * /usr/lib/libXv.so.1.0.0
@@ -53,4 +54,3 @@ X.Org Xv library
 * /usr/share/man/man3/XvStopVideo.3.gz
 * /usr/share/man/man3/XvUngrabPort.3.gz
 * /usr/share/man/man3/XvVideoNotify.3.gz
-{{< /files >}}

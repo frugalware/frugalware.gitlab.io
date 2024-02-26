@@ -16,7 +16,8 @@ reverse_depends = "['econnman']"
 +++
 Enlightenment Python bindings Libraries
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/efl/dbus_mainloop.cpython-312-x86_64-linux-gnu.so
+## Files: 
+* /usr/lib/python3.12/site-packages/efl/dbus_mainloop.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/efl/ecore.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/efl/ecore_con.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/efl/ecore_input.cpython-312-x86_64-linux-gnu.so
@@ -255,4 +256,3 @@ Enlightenment Python bindings Libraries
 * /usr/share/doc/python-efl-1.26.1/COPYING.LESSER
 * /usr/share/doc/python-efl-1.26.1/INSTALL
 * /usr/share/doc/python-efl-1.26.1/README.md
-{{< /files >}}

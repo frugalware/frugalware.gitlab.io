@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org xkbui library
 
-{{< files text="show files" >}}* /usr/include/X11/extensions/XKBui.h
+## Files: 
+* /usr/include/X11/extensions/XKBui.h
 * /usr/lib/libxkbui.so
 * /usr/lib/libxkbui.so.1
 * /usr/lib/libxkbui.so.1.0.0
@@ -25,4 +26,3 @@ X.Org xkbui library
 * /usr/share/doc/libxkbui-1.0.2/COPYING
 * /usr/share/doc/libxkbui-1.0.2/INSTALL
 * /usr/share/doc/libxkbui-1.0.2/README
-{{< /files >}}

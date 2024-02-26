@@ -15,5 +15,5 @@ depends = "['claws-mail=4.1.1']"
 +++
 This plugin handles mailboxes in mbox format.
 
-{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/mailmbox.so
-{{< /files >}}
+## Files: 
+* /usr/lib/claws-mail/plugins/mailmbox.so

@@ -16,7 +16,8 @@ reverse_depends = "['forms']"
 +++
 JGoodies Common Library
 
-{{< files text="show files" >}}* /usr/share/doc/jgoodies-common-1.8.1/AUTHORS
+## Files: 
+* /usr/share/doc/jgoodies-common-1.8.1/AUTHORS
 * /usr/share/doc/jgoodies-common-1.8.1/ChangeLog
 * /usr/share/doc/jgoodies-common-1.8.1/COPYING
 * /usr/share/doc/jgoodies-common-1.8.1/INSTALL
@@ -32,4 +33,3 @@ JGoodies Common Library
 * /usr/share/doc/jgoodies-common-1.8.1/THANKS
 * /usr/share/doc/jgoodies-common-1.8.1/TODO
 * /usr/share/java/jgoodies-common.jar
-{{< /files >}}

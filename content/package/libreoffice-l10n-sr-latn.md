@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Serbian (Latin) support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/sr@latin/LC_MESSAGES/acc.mo
+## Files: 
+* /usr/lib/libreoffice/program/resource/sr@latin/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/sr@latin/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/sr@latin/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/sr@latin/LC_MESSAGES/chart.mo
@@ -53,4 +54,3 @@ Installs Serbian (Latin) support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-sr-Latn.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_sr-Latn.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_sr-Latn.xcd
-{{< /files >}}

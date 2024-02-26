@@ -15,7 +15,8 @@ depends = "['kdelibs4support', 'kio', 'knewstuff', 'knotifyconfig', 'libkdegames
 +++
 A game of action and puzzle solving.
 
-{{< files text="show files" >}}* /usr/bin/kgoldrunner
+## Files: 
+* /usr/bin/kgoldrunner
 * /usr/share/applications/org.kde.kgoldrunner.desktop
 * /usr/share/doc/HTML/ca/kgoldrunner/index.cache.bz2
 * /usr/share/doc/HTML/ca/kgoldrunner/index.docbook
@@ -211,4 +212,3 @@ A game of action and puzzle solving.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kgoldrunner.mo
 * /usr/share/metainfo/org.kde.kgoldrunner.appdata.xml
 * /usr/share/qlogging-categories5/kgoldrunner.categories
-{{< /files >}}

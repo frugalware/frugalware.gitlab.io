@@ -15,7 +15,8 @@ depends = "['cdparanoia', 'flac>=1.4.0', 'kcmutils>=5.115.0', 'kdelibs4support>=
 +++
 Kioslave for accessing audio CDs
 
-{{< files text="show files" >}}* /usr/include/audiocdplugins/audiocdencoder.h
+## Files: 
+* /usr/include/audiocdplugins/audiocdencoder.h
 * /usr/include/audiocdplugins/audiocdplugins_export.h
 * /usr/include/audiocdplugins/audiocdplugins_version.h
 * /usr/lib/libaudiocdplugins.so
@@ -480,4 +481,3 @@ Kioslave for accessing audio CDs
 * /usr/share/qlogging-categories5/kio_audiocd.categories
 * /usr/share/qlogging-categories5/kio_audiocd.renamecategories
 * /usr/share/solid/actions/solid_audiocd.desktop
-{{< /files >}}

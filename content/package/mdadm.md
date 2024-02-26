@@ -16,7 +16,8 @@ reverse_depends = "['kernel-initrd', 'kernel-lts-initrd']"
 +++
 A tool for managing software RAID under Linux
 
-{{< files text="show files" >}}* /etc/dracut.conf.d/11-raid.conf
+## Files: 
+* /etc/dracut.conf.d/11-raid.conf
 * /etc/tmpfiles.d/mdadm.conf
 * /usr/bin/mdadm
 * /usr/bin/mdmon
@@ -34,4 +35,3 @@ A tool for managing software RAID under Linux
 * /usr/share/man/man5/mdadm.conf.5.gz
 * /usr/share/man/man8/mdadm.8.gz
 * /usr/share/man/man8/mdmon.8.gz
-{{< /files >}}

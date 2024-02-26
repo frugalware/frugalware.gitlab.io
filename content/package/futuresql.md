@@ -16,7 +16,8 @@ reverse_depends = "['angelfish', 'audiotube', 'kontrast']"
 +++
 Non-blocking Qt database framework
 
-{{< files text="show files" >}}* /usr/include/FutureSQL5/futuresql_export.h
+## Files: 
+* /usr/include/FutureSQL5/futuresql_export.h
 * /usr/include/FutureSQL5/ThreadedDatabase
 * /usr/include/FutureSQL5/threadeddatabase.h
 * /usr/include/FutureSQL5/threadeddatabase_p.h
@@ -27,4 +28,3 @@ Non-blocking Qt database framework
 * /usr/lib/libfuturesql5.so
 * /usr/lib/libfuturesql5.so.0
 * /usr/share/doc/futuresql-0.1.1/README.md
-{{< /files >}}

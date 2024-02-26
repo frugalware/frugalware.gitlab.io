@@ -15,7 +15,8 @@ depends = "['cdrdao', 'vcdimager']"
 +++
 A grahphical user interface for transcode, vcdimager and cdrdao.
 
-{{< files text="show files" >}}* usr/bin/kavi2svcd
+## Files: 
+* usr/bin/kavi2svcd
 * usr/bin/kavi2svcd-script
 * usr/local/bin/restlosKillTranscode
 * usr/share/doc/HTML/de/kavi2svcd/common
@@ -34,4 +35,3 @@ A grahphical user interface for transcode, vcdimager and cdrdao.
 * usr/share/locale/de/LC_MESSAGES/kavi2svcd.mo
 * usr/share/locale/es/LC_MESSAGES/kavi2svcd.mo
 * usr/share/locale/fr/LC_MESSAGES/kavi2svcd.mo
-{{< /files >}}

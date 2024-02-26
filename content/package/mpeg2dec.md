@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 libmpeg2 is a free library for decoding mpeg-2 and mpeg-1 video streams.
 
-{{< files text="show files" >}}* /usr/bin/corrupt_mpeg2
+## Files: 
+* /usr/bin/corrupt_mpeg2
 * /usr/bin/extract_mpeg2
 * /usr/bin/mpeg2dec
 * /usr/include/mpeg2dec/mpeg2.h
@@ -39,4 +40,3 @@ libmpeg2 is a free library for decoding mpeg-2 and mpeg-1 video streams.
 * /usr/share/doc/mpeg2dec-0.5.1/TODO
 * /usr/share/man/man1/extract_mpeg2.1.gz
 * /usr/share/man/man1/mpeg2dec.1.gz
-{{< /files >}}

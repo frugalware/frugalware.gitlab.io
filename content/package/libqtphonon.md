@@ -16,7 +16,8 @@ reverse_depends = "['qt4-plugin-phonon-backend']"
 +++
 Qt4 Phonon Library
 
-{{< files text="show files" >}}* usr/include/phonon/abstractaudiooutput.h
+## Files: 
+* usr/include/phonon/abstractaudiooutput.h
 * usr/include/phonon/abstractmediastream.h
 * usr/include/phonon/abstractvideooutput.h
 * usr/include/phonon/addoninterface.h
@@ -101,4 +102,3 @@ Qt4 Phonon Library
 * usr/lib/libphonon.so.4.3.1
 * usr/lib/pkgconfig/phonon.pc
 * usr/lib/qt4/plugins/designer/libphononwidgets.so
-{{< /files >}}

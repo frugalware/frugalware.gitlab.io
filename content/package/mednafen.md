@@ -15,7 +15,8 @@ depends = "['libsndfile>=1.0.28-6', 'sdl2']"
 +++
 Mednafen is a command-line multi-system emulator
 
-{{< files text="show files" >}}* /usr/bin/mednafen
+## Files: 
+* /usr/bin/mednafen
 * /usr/share/doc/mednafen-1.29.0/ChangeLog
 * /usr/share/doc/mednafen-1.29.0/COPYING
 * /usr/share/doc/mednafen-1.29.0/INSTALL
@@ -27,4 +28,3 @@ Mednafen is a command-line multi-system emulator
 * /usr/share/locale/de/LC_MESSAGES/mednafen.mo
 * /usr/share/locale/es/LC_MESSAGES/mednafen.mo
 * /usr/share/locale/ru/LC_MESSAGES/mednafen.mo
-{{< /files >}}

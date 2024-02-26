@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 Fast, reliable, and secure dependency management
 
-{{< files text="show files" >}}* /usr/bin/yarn
+## Files: 
+* /usr/bin/yarn
 * /usr/bin/yarnpkg
 * /usr/lib/node_modules/yarn/bin/yarn
 * /usr/lib/node_modules/yarn/bin/yarn.cmd
@@ -30,4 +31,3 @@ Fast, reliable, and secure dependency management
 * /usr/lib/node_modules/yarn/README.md
 * /usr/share/doc/yarn-1.22.21/LICENSE
 * /usr/share/doc/yarn-1.22.21/README.md
-{{< /files >}}

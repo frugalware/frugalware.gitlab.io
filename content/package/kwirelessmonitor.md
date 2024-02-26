@@ -15,7 +15,8 @@ depends = "['wireless_tools']"
 +++
 Docks into the system tray and monitors the wireless network interface
 
-{{< files text="show files" >}}* usr/bin/kwirelessmonitor
+## Files: 
+* usr/bin/kwirelessmonitor
 * usr/bin/kwirelessmonitor-helper
 * usr/share/apps/kwirelessmonitor/pics/kwirelessmonitor_0.png
 * usr/share/apps/kwirelessmonitor/pics/kwirelessmonitor_1.png
@@ -39,4 +40,3 @@ Docks into the system tray and monitors the wireless network interface
 * usr/share/doc/kwirelessmonitor-0.5.4/NEWS
 * usr/share/doc/kwirelessmonitor-0.5.4/README
 * usr/share/doc/kwirelessmonitor-0.5.4/TODO
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Modified pager applet for kicker to make it work with compiz.
 
-{{< files text="show files" >}}* usr/lib/kde3/compizpager_panelapplet.la
+## Files: 
+* usr/lib/kde3/compizpager_panelapplet.la
 * usr/lib/kde3/compizpager_panelapplet.so
 * usr/share/apps/kicker/applets/compizpagerapplet.desktop
 * usr/share/doc/kicker-compiz-0.2/ChangeLog
@@ -24,4 +25,3 @@ Modified pager applet for kicker to make it work with compiz.
 * usr/share/doc/kicker-compiz-0.2/NEWS
 * usr/share/doc/kicker-compiz-0.2/README
 * usr/share/doc/kicker-compiz-0.2/TODO
-{{< /files >}}

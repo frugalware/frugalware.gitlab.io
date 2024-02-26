@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Static files for postgresql
 
-{{< files text="show files" >}}* /usr/lib/libecpg.a
+## Files: 
+* /usr/lib/libecpg.a
 * /usr/lib/libecpg_compat.a
 * /usr/lib/libpgcommon.a
 * /usr/lib/libpgcommon_shlib.a
@@ -24,4 +25,3 @@ Static files for postgresql
 * /usr/lib/libpgport_shlib.a
 * /usr/lib/libpgtypes.a
 * /usr/lib/libpq.a
-{{< /files >}}

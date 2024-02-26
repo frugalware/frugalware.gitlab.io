@@ -15,7 +15,8 @@ depends = "['lib32-elfutils>=0.167-3', 'lib32-expat>=2.1.0-6', 'lib32-libdrm>=2.
 +++
 Mesa VDPAU drivers. (32-bit)
 
-{{< files text="show files" >}}* /usr/lib32/vdpau/libvdpau_nouveau.so
+## Files: 
+* /usr/lib32/vdpau/libvdpau_nouveau.so
 * /usr/lib32/vdpau/libvdpau_nouveau.so.1
 * /usr/lib32/vdpau/libvdpau_nouveau.so.1.0
 * /usr/lib32/vdpau/libvdpau_nouveau.so.1.0.0
@@ -31,4 +32,3 @@ Mesa VDPAU drivers. (32-bit)
 * /usr/lib32/vdpau/libvdpau_virtio_gpu.so.1
 * /usr/lib32/vdpau/libvdpau_virtio_gpu.so.1.0
 * /usr/lib32/vdpau/libvdpau_virtio_gpu.so.1.0.0
-{{< /files >}}

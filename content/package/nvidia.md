@@ -16,7 +16,8 @@ reverse_depends = "['cuda', 'lib32-nvidia']"
 +++
 3D accelerated display driver for Nvidia cards
 
-{{< files text="show files" >}}* /etc/modprobe.d/nvidia.conf
+## Files: 
+* /etc/modprobe.d/nvidia.conf
 * /etc/OpenCL/vendors/nvidia.icd
 * /etc/X11/xorg.conf.d/15-nvidia.conf
 * /usr/bin/nvidia-bug-report.sh
@@ -150,4 +151,3 @@ reverse_depends = "['cuda', 'lib32-nvidia']"
 * /usr/share/nvidia/nvidia-application-profiles-550.40.07-key-documentation
 * /usr/share/nvidia/nvidia-application-profiles-550.40.07-rc
 * /usr/share/vulkan/icd.d/nvidia_icd.json
-{{< /files >}}

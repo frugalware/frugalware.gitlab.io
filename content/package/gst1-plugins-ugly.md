@@ -16,7 +16,8 @@ reverse_depends = "['castersoundboard', 'gst1-plugins-ugly-a52dec', 'gst1-plugin
 +++
 Plugins for GStreamer (Ugly)
 
-{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstasf.so
+## Files: 
+* /usr/lib/gstreamer-1.0/libgstasf.so
 * /usr/lib/gstreamer-1.0/libgstdvdlpcmdec.so
 * /usr/lib/gstreamer-1.0/libgstdvdsub.so
 * /usr/lib/gstreamer-1.0/libgstrealmedia.so
@@ -73,4 +74,3 @@ Plugins for GStreamer (Ugly)
 * /usr/share/locale/vi/LC_MESSAGES/gst-plugins-ugly-1.0.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/gst-plugins-ugly-1.0.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/gst-plugins-ugly-1.0.mo
-{{< /files >}}

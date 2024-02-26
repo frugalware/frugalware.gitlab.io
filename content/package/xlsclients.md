@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org xlsclients application
 
-{{< files text="show files" >}}* /usr/bin/xlsclients
+## Files: 
+* /usr/bin/xlsclients
 * /usr/share/doc/xlsclients-1.1.5/ChangeLog
 * /usr/share/doc/xlsclients-1.1.5/COPYING
 * /usr/share/doc/xlsclients-1.1.5/INSTALL
 * /usr/share/doc/xlsclients-1.1.5/README.md
 * /usr/share/man/man1/xlsclients.1.gz
-{{< /files >}}

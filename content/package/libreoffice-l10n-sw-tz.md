@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Swahili support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/sw_TZ/LC_MESSAGES/acc.mo
+## Files: 
+* /usr/lib/libreoffice/program/resource/sw_TZ/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/sw_TZ/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/sw_TZ/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/sw_TZ/LC_MESSAGES/chart.mo
@@ -53,4 +54,3 @@ Installs Swahili support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-sw-TZ.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_sw-TZ.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_sw-TZ.xcd
-{{< /files >}}

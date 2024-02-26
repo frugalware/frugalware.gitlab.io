@@ -15,7 +15,8 @@ depends = "['libpano13>=2.9.19', 'libxml2']"
 +++
 Identify key feature points within arbitrary images.
 
-{{< files text="show files" >}}* /usr/bin/autopano
+## Files: 
+* /usr/bin/autopano
 * /usr/bin/autopano-c-complete.sh
 * /usr/bin/autopano-sift-c
 * /usr/bin/generatekeys
@@ -27,4 +28,3 @@ Identify key feature points within arbitrary images.
 * /usr/share/man/man1/autopano.1.gz
 * /usr/share/man/man1/generatekeys.1.gz
 * /usr/share/man/man7/autopano-sift-c.7.gz
-{{< /files >}}

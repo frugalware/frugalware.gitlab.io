@@ -16,7 +16,8 @@ reverse_depends = "['haskell-http', 'haskell-http2', 'haskell-iproute', 'haskell
 +++
 Networking-related facilities
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/network-3.1.5.0/include/alignment.h
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/network-3.1.5.0/include/alignment.h
 * /usr/lib/ghc-9.8.1/site-local/network-3.1.5.0/include/HsNet.h
 * /usr/lib/ghc-9.8.1/site-local/network-3.1.5.0/include/HsNetDef.h
 * /usr/lib/ghc-9.8.1/site-local/network-3.1.5.0/include/HsNetworkConfig.h
@@ -121,4 +122,3 @@ Networking-related facilities
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/network-3.1.5.0/LICENSE
 * /usr/share/haskell/haskell-network/register.sh
 * /usr/share/haskell/haskell-network/unregister.sh
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['elisa', 'kaffeine', 'kasts', 'obs-studio']"
 +++
 The cross-platform media player and streaming server.
 
-{{< files text="show files" >}}* /usr/bin/cvlc
+## Files: 
+* /usr/bin/cvlc
 * /usr/bin/nvlc
 * /usr/bin/qvlc
 * /usr/bin/rvlc
@@ -656,4 +657,3 @@ The cross-platform media player and streaming server.
 * /usr/share/vlc/utils/audio-vlc-default.sh
 * /usr/share/vlc/utils/gnome-vlc-default.sh
 * /usr/share/vlc/utils/video-vlc-default.sh
-{{< /files >}}

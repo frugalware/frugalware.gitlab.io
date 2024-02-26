@@ -16,7 +16,8 @@ reverse_depends = "['hivex-ocaml', 'hivex-perl', 'hivex-python', 'hivex-ruby']"
 +++
 windows registry hive extraction library
 
-{{< files text="show files" >}}* /usr/bin/hivexget
+## Files: 
+* /usr/bin/hivexget
 * /usr/bin/hivexml
 * /usr/bin/hivexregedit
 * /usr/bin/hivexsh
@@ -60,4 +61,3 @@ windows registry hive extraction library
 * /usr/share/man/man3/hivex.3.gz
 * /usr/share/man/man3/Win::Hivex.3perl.gz
 * /usr/share/man/man3/Win::Hivex::Regedit.3perl.gz
-{{< /files >}}

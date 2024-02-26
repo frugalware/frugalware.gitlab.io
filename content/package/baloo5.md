@@ -16,7 +16,8 @@ reverse_depends = "['arianna', 'baloo-widgets', 'elisa', 'gwenview', 'plasma-wor
 +++
 A framework for searching and managing metadata.
 
-{{< files text="show files" >}}* /usr/bin/balooctl
+## Files: 
+* /usr/bin/balooctl
 * /usr/bin/baloosearch
 * /usr/bin/balooshow
 * /usr/bin/baloo_file
@@ -527,4 +528,3 @@ A framework for searching and managing metadata.
 * /usr/share/qt5/qml/org/kde/baloo/experimental/qmldir
 * /usr/share/qt5/qml/org/kde/baloo/libbalooplugin.so
 * /usr/share/qt5/qml/org/kde/baloo/qmldir
-{{< /files >}}

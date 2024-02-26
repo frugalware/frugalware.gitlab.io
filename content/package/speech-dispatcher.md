@@ -16,7 +16,8 @@ reverse_depends = "['chromium-browser', 'mumble', 'qt5-speech', 'qt6-speech']"
 +++
 speech-dispatcher speech synthesis interface
 
-{{< files text="show files" >}}* /etc/speech-dispatcher/clients/emacs.conf
+## Files: 
+* /etc/speech-dispatcher/clients/emacs.conf
 * /etc/speech-dispatcher/modules/cicero.conf
 * /etc/speech-dispatcher/modules/dtk-generic.conf
 * /etc/speech-dispatcher/modules/epos-generic.conf
@@ -457,4 +458,3 @@ speech-dispatcher speech synthesis interface
 * /usr/share/speech-dispatcher/locale/zh_TW/orca.dic
 * /usr/share/speech-dispatcher/locale/zh_TW/symbols.dic
 * /usr/share/speech-dispatcher/locale/zu/emojis.dic
-{{< /files >}}

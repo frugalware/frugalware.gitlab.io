@@ -16,7 +16,8 @@ reverse_depends = "['frameworkintegration', 'i3', 'lumina-desktop', 'plasma-inte
 +++
 Noto fonts
 
-{{< files text="show files" >}}* /usr/share/doc/noto-fonts-20170821/FAQ-KR.md
+## Files: 
+* /usr/share/doc/noto-fonts-20170821/FAQ-KR.md
 * /usr/share/doc/noto-fonts-20170821/FAQ.md
 * /usr/share/doc/noto-fonts-20170821/LICENSE
 * /usr/share/doc/noto-fonts-20170821/README.md
@@ -2479,4 +2480,3 @@ Noto fonts
 * /usr/share/fonts/X11/TTF/NotoTraditionalNushu-Bold.ttf
 * /usr/share/fonts/X11/TTF/NotoTraditionalNushu-Light.ttf
 * /usr/share/fonts/X11/TTF/NotoTraditionalNushu-Regular.ttf
-{{< /files >}}

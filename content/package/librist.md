@@ -16,7 +16,8 @@ reverse_depends = "['ffmpeg']"
 +++
 A library that can be used to add the RIST protocol to applications
 
-{{< files text="show files" >}}* /usr/bin/rist2rist
+## Files: 
+* /usr/bin/rist2rist
 * /usr/bin/ristreceiver
 * /usr/bin/ristsender
 * /usr/bin/ristsrppasswd
@@ -42,4 +43,3 @@ A library that can be used to add the RIST protocol to applications
 * /usr/share/doc/librist-0.2.10/COPYING
 * /usr/share/doc/librist-0.2.10/NEWS
 * /usr/share/doc/librist-0.2.10/README.md
-{{< /files >}}

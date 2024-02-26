@@ -15,7 +15,8 @@ depends = "['iproute2', 'perl>=5.28.2', 'ppp>=2.4.7']"
 +++
 Linux client for PPTP
 
-{{< files text="show files" >}}* /etc/ppp/options.pptp
+## Files: 
+* /etc/ppp/options.pptp
 * /usr/bin/pptp
 * /usr/bin/pptp-command
 * /usr/bin/pptp_fe.pl
@@ -29,4 +30,3 @@ Linux client for PPTP
 * /usr/share/doc/pptp-1.10.0/PORTING
 * /usr/share/doc/pptp-1.10.0/README
 * /usr/share/doc/pptp-1.10.0/TODO
-{{< /files >}}

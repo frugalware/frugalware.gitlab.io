@@ -15,7 +15,8 @@ depends = "['sgml-common>=0.6.3-6']"
 +++
 Docbook SGML DTD 3.1
 
-{{< files text="show files" >}}* /usr/share/doc/docbook-sgml-dtd-3.1/ChangeLog
+## Files: 
+* /usr/share/doc/docbook-sgml-dtd-3.1/ChangeLog
 * /usr/share/sgml/docbook/sgml-dtd-3.1/cals-tbl.dtd
 * /usr/share/sgml/docbook/sgml-dtd-3.1/catalog
 * /usr/share/sgml/docbook/sgml-dtd-3.1/dbcent.mod
@@ -25,4 +26,3 @@ Docbook SGML DTD 3.1
 * /usr/share/sgml/docbook/sgml-dtd-3.1/dbpool.mod
 * /usr/share/sgml/docbook/sgml-dtd-3.1/docbook.dcl
 * /usr/share/sgml/docbook/sgml-dtd-3.1/docbook.dtd
-{{< /files >}}

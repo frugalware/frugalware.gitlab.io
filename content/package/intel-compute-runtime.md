@@ -15,7 +15,8 @@ depends = "['gmmlib', 'igsc', 'intel-graphics-compiler>=1.0.5064', 'libdrm', 'li
 +++
 Intel(R) Graphics Compute Runtime for OpenCL(TM). Replaces Beignet for Gen8 (Broadwell) and beyond.
 
-{{< files text="show files" >}}* /etc/OpenCL/vendors/intel.icd
+## Files: 
+* /etc/OpenCL/vendors/intel.icd
 * /usr/bin/ocloc
 * /usr/include/ocloc_api.h
 * /usr/lib/intel-opencl/libigdrcl.so
@@ -24,4 +25,3 @@ Intel(R) Graphics Compute Runtime for OpenCL(TM). Replaces Beignet for Gen8 (Bro
 * /usr/lib/libze_intel_gpu.so.1.3.11
 * /usr/share/doc/intel-compute-runtime-23.05.25593.11/FAQ.md
 * /usr/share/doc/intel-compute-runtime-23.05.25593.11/README.md
-{{< /files >}}

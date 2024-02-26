@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Afrikaans Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/locale/af/charset
+## Files: 
+* usr/share/locale/af/charset
 * usr/share/locale/af/entry.desktop
 * usr/share/locale/af/flag.png
 * usr/share/locale/af/LC_MESSAGES/alsaplayerui.mo
@@ -406,4 +407,3 @@ Afrikaans Localization for KDE.
 * usr/share/locale/af/LC_MESSAGES/wakeup.mo
 * usr/share/locale/af/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/af/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

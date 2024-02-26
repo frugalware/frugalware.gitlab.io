@@ -16,6 +16,6 @@ reverse_depends = "['plasma-wayland-session']"
 +++
 KDE Plasma Wayland Integration
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/kwindowsystem/KF5WindowSystemKWaylandPlugin.so
+## Files: 
+* /usr/lib/qt5/plugins/kf5/kwindowsystem/KF5WindowSystemKWaylandPlugin.so
 * /usr/share/qlogging-categories5/kwindowsystem.kwayland.categories
-{{< /files >}}

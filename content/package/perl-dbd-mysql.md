@@ -15,7 +15,8 @@ depends = "['mariadb-libs', 'openssl>=1.1.1']"
 +++
 Database Interface to the MySQL database
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/DBD/mysql/mysql.so
+## Files: 
+* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/DBD/mysql/mysql.so
 * /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Bundle/DBD/mysql.pm
 * /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/DBD/mysql.pm
 * /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/DBD/mysql/GetInfo.pm
@@ -26,4 +27,3 @@ Database Interface to the MySQL database
 * /usr/share/man/man3/Bundle::DBD::mysql.3perl.gz
 * /usr/share/man/man3/DBD::mysql.3perl.gz
 * /usr/share/man/man3/DBD::mysql::INSTALL.3perl.gz
-{{< /files >}}

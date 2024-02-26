@@ -15,8 +15,8 @@ depends = "['libpng>=1.6.25', 'libstdc++>=6.2.1-5']"
 +++
 A utility for encoding and decoding the graphic files used by openttd.
 
-{{< files text="show files" >}}* /usr/bin/grfcodec
+## Files: 
+* /usr/bin/grfcodec
 * /usr/bin/grfid
 * /usr/bin/nforenum
 * /usr/share/doc/grfcodec-6.0.6/COPYING
-{{< /files >}}

@@ -16,7 +16,8 @@ license = "GPL"
 +++
 A small but very powerful text-based mail client development release.
 
-{{< files text="show files" >}}* /etc/mutt-devel/mime.types
+## Files: 
+* /etc/mutt-devel/mime.types
 * /etc/mutt-devel/mime.types.dist
 * /etc/mutt-devel/Muttrc
 * /etc/mutt-devel/Muttrc.dist
@@ -142,4 +143,3 @@ A small but very powerful text-based mail client development release.
 * /usr/share/man/man5/mbox.5.gz
 * /usr/share/man/man5/mmdf.5.gz
 * /usr/share/man/man5/muttrc.5.gz
-{{< /files >}}

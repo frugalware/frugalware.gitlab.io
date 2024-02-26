@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-calendar', 'kalarm', 'kmail-account-wizard', 'libks
 +++
 Mail Transport Service
 
-{{< files text="show files" >}}* /usr/include/KPim5/MailTransport/mailtransport/mailtransport_export.h
+## Files: 
+* /usr/include/KPim5/MailTransport/mailtransport/mailtransport_export.h
 * /usr/include/KPim5/MailTransport/MailTransport/PrecommandJob
 * /usr/include/KPim5/MailTransport/mailtransport/precommandjob.h
 * /usr/include/KPim5/MailTransport/mailtransport/private/transportconfigwidget_p.h
@@ -114,4 +115,3 @@ Mail Transport Service
 * /usr/share/qlogging-categories5/kmailtransport.categories
 * /usr/share/qlogging-categories5/kmailtransport.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KMailTransport.pri
-{{< /files >}}

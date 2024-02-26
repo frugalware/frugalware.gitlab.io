@@ -15,7 +15,8 @@ depends = "['haskell-servant-server', 'haskell-wai-cors', 'pandoc']"
 +++
 Pandoc document conversion as an HTTP servant-server
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/pandoc-server-0.1.0.4/libHSpandoc-server-0.1.0.4-5ix2UxB2GynA1bwlucY1zQ.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/pandoc-server-0.1.0.4/libHSpandoc-server-0.1.0.4-5ix2UxB2GynA1bwlucY1zQ.a
 * /usr/lib/ghc-9.8.1/site-local/pandoc-server-0.1.0.4/Text/Pandoc/Server.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/pandoc-server-0.1.0.4/Text/Pandoc/Server.hi
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSpandoc-server-0.1.0.4-5ix2UxB2GynA1bwlucY1zQ-ghc9.8.1.so
@@ -23,4 +24,3 @@ Pandoc document conversion as an HTTP servant-server
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/pandoc-server-0.1.0.4/COPYING.md
 * /usr/share/haskell/pandoc-server/register.sh
 * /usr/share/haskell/pandoc-server/unregister.sh
-{{< /files >}}

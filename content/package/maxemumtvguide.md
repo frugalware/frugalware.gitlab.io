@@ -15,7 +15,8 @@ depends = "['libgl', 'libstdc++', 'libxdamage', 'libxi', 'libxmu']"
 +++
 Maxemum TV-Guide is a KDE TV-guide.
 
-{{< files text="show files" >}}* usr/bin/maxemumtvguide
+## Files: 
+* usr/bin/maxemumtvguide
 * usr/share/applnk/Utilities/maxemumtvguide.desktop
 * usr/share/apps/maxemumtvguide/maxemumtvguideui.rc
 * usr/share/doc/HTML/en/maxemumtvguide/common
@@ -31,4 +32,3 @@ Maxemum TV-Guide is a KDE TV-guide.
 * usr/share/locale/nb/LC_MESSAGES/maxemumtvguide.mo
 * usr/share/locale/sk/LC_MESSAGES/maxemumtvguide.mo
 * usr/share/locale/sv/LC_MESSAGES/maxemumtvguide.mo
-{{< /files >}}

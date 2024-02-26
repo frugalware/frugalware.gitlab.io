@@ -15,9 +15,9 @@ depends = "['lib32-mesa-libegl']"
 +++
 Mesa Wayland EGL library. (32-bit)
 
-{{< files text="show files" >}}* /usr/lib32/libwayland-egl.la
+## Files: 
+* /usr/lib32/libwayland-egl.la
 * /usr/lib32/libwayland-egl.so
 * /usr/lib32/libwayland-egl.so.1
 * /usr/lib32/libwayland-egl.so.1.0.0
 * /usr/lib32/pkgconfig/wayland-egl.pc
-{{< /files >}}

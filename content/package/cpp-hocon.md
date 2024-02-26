@@ -15,7 +15,8 @@ depends = "['libboost']"
 +++
 C++ port of the Typesafe Config library
 
-{{< files text="show files" >}}* /usr/include/hocon/config.hpp
+## Files: 
+* /usr/include/hocon/config.hpp
 * /usr/include/hocon/config_exception.hpp
 * /usr/include/hocon/config_includer.hpp
 * /usr/include/hocon/config_includer_file.hpp
@@ -43,4 +44,3 @@ C++ port of the Typesafe Config library
 * /usr/lib/libcpp-hocon.a
 * /usr/share/doc/cpp-hocon-0.3.0/LICENSE
 * /usr/share/doc/cpp-hocon-0.3.0/README.md
-{{< /files >}}

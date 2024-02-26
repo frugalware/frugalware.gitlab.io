@@ -16,7 +16,8 @@ reverse_depends = "['haskell-http-client-tls']"
 +++
 Simple and easy network connections API
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/crypton-connection-0.3.1/libHScrypton-connection-0.3.1-GTuRqX20Nlz3yEkAVTcFSO.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/crypton-connection-0.3.1/libHScrypton-connection-0.3.1-GTuRqX20Nlz3yEkAVTcFSO.a
 * /usr/lib/ghc-9.8.1/site-local/crypton-connection-0.3.1/Network/Connection.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/crypton-connection-0.3.1/Network/Connection.hi
 * /usr/lib/ghc-9.8.1/site-local/crypton-connection-0.3.1/Network/Connection/Types.dyn_hi
@@ -38,4 +39,3 @@ Simple and easy network connections API
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/crypton-connection-0.3.1/LICENSE
 * /usr/share/haskell/haskell-crypton-connection/register.sh
 * /usr/share/haskell/haskell-crypton-connection/unregister.sh
-{{< /files >}}

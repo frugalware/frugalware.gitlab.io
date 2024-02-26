@@ -15,6 +15,6 @@ depends = "['glibc', 'libxcrypt']"
 +++
 Modern library for one-way hashing of passwords - glibc compat
 
-{{< files text="show files" >}}* /usr/lib/libcrypt.so.1
+## Files: 
+* /usr/lib/libcrypt.so.1
 * /usr/lib/libcrypt.so.1.1.0
-{{< /files >}}

@@ -15,11 +15,11 @@ depends = "['mbrola']"
 +++
 French MBROLA Voices
 
-{{< files text="show files" >}}* /usr/share/mbrola/voices/fr1
+## Files: 
+* /usr/share/mbrola/voices/fr1
 * /usr/share/mbrola/voices/fr2
 * /usr/share/mbrola/voices/fr3
 * /usr/share/mbrola/voices/fr4
 * /usr/share/mbrola/voices/fr5
 * /usr/share/mbrola/voices/fr6
 * /usr/share/mbrola/voices/fr7
-{{< /files >}}

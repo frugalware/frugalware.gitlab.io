@@ -17,7 +17,8 @@ license = "MIT"
 +++
 Objective Caml (OCaml) package manager
 
-{{< files text="show files" >}}* /etc/findlib.conf
+## Files: 
+* /etc/findlib.conf
 * /usr/bin/ocamlfind
 * /usr/lib/ocaml/bytes/META
 * /usr/lib/ocaml/findlib/findlib.a
@@ -58,4 +59,3 @@ Objective Caml (OCaml) package manager
 * /usr/share/man/man5/findlib.conf.5.gz
 * /usr/share/man/man5/META.5.gz
 * /usr/share/man/man5/site-lib.5.gz
-{{< /files >}}

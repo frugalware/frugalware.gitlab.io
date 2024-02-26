@@ -16,7 +16,8 @@ reverse_depends = "['haskell-typst', 'shellcheck']"
 +++
 A new all Haskell tagged DFA regex engine, inspired by libtre
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/regex-tdfa-1.3.2.2/Data/IntMap/CharMap2.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/regex-tdfa-1.3.2.2/Data/IntMap/CharMap2.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/regex-tdfa-1.3.2.2/Data/IntMap/CharMap2.hi
 * /usr/lib/ghc-9.8.1/site-local/regex-tdfa-1.3.2.2/Data/IntMap/EnumMap2.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/regex-tdfa-1.3.2.2/Data/IntMap/EnumMap2.hi
@@ -130,4 +131,3 @@ A new all Haskell tagged DFA regex engine, inspired by libtre
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/regex-tdfa-1.3.2.2/LICENSE
 * /usr/share/haskell/haskell-regex-tdfa/register.sh
 * /usr/share/haskell/haskell-regex-tdfa/unregister.sh
-{{< /files >}}

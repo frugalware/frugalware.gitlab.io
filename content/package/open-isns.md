@@ -16,7 +16,8 @@ reverse_depends = "['iscsi']"
 +++
 iSNS server and client for Linux
 
-{{< files text="show files" >}}* /etc/isns/isnsadm.conf
+## Files: 
+* /etc/isns/isnsadm.conf
 * /etc/isns/isnsd.conf
 * /etc/isns/isnsdd.conf
 * /usr/bin/isnsadm
@@ -46,4 +47,3 @@ iSNS server and client for Linux
 * /usr/share/man/man8/isnsd.8.gz
 * /usr/share/man/man8/isnsdd.8.gz
 * /usr/share/man/man8/isnssetup.8.gz
-{{< /files >}}

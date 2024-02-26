@@ -15,7 +15,7 @@ depends = "['libnetfilter_acct']"
 +++
 A command line tool to create/retrieve/delete accounting objects
 
-{{< files text="show files" >}}* /usr/bin/nfacct
+## Files: 
+* /usr/bin/nfacct
 * /usr/share/doc/nfacct-1.0.2/COPYING
 * /usr/share/man/man8/nfacct.8.gz
-{{< /files >}}

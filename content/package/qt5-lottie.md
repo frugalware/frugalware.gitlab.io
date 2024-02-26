@@ -15,7 +15,8 @@ depends = "['qt5-declarative>=5.15.12']"
 +++
 The Qt5 toolkit, qtlottie
 
-{{< files text="show files" >}}* /usr/include/qt5/QtBodymovin/5.15.12/QtBodymovin/private/beziereasing_p.h
+## Files: 
+* /usr/include/qt5/QtBodymovin/5.15.12/QtBodymovin/private/beziereasing_p.h
 * /usr/include/qt5/QtBodymovin/5.15.12/QtBodymovin/private/bmbase_p.h
 * /usr/include/qt5/QtBodymovin/5.15.12/QtBodymovin/private/bmbasictransform_p.h
 * /usr/include/qt5/QtBodymovin/5.15.12/QtBodymovin/private/bmconstants_p.h
@@ -56,4 +57,3 @@ The Qt5 toolkit, qtlottie
 * /usr/share/qt5/qml/Qt/labs/lottieqt/liblottieqtplugin.so
 * /usr/share/qt5/qml/Qt/labs/lottieqt/plugins.qmltypes
 * /usr/share/qt5/qml/Qt/labs/lottieqt/qmldir
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Gtkmm Documentation
 
-{{< files text="show files" >}}* /usr/share/doc/atkmm-1.6/reference/atkmm-1.6.tag
+## Files: 
+* /usr/share/doc/atkmm-1.6/reference/atkmm-1.6.tag
 * /usr/share/doc/atkmm-1.6/reference/html/annotated.html
 * /usr/share/doc/atkmm-1.6/reference/html/bc_s.png
 * /usr/share/doc/atkmm-1.6/reference/html/bdwn.png
@@ -1677,4 +1678,3 @@ Gtkmm Documentation
 * /usr/share/doc/pangomm-1.4/reference/html/tab_h.png
 * /usr/share/doc/pangomm-1.4/reference/html/tab_s.png
 * /usr/share/doc/pangomm-1.4/reference/pangomm-1.4.tag
-{{< /files >}}

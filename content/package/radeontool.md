@@ -16,7 +16,7 @@ reverse_depends = "['pm-utils']"
 +++
 Radeontool can turn off and on the backlight and external video output.
 
-{{< files text="show files" >}}* /usr/bin/avivotool
+## Files: 
+* /usr/bin/avivotool
 * /usr/bin/radeonreg
 * /usr/bin/radeontool
-{{< /files >}}

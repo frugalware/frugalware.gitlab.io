@@ -16,7 +16,8 @@ reverse_depends = "['apache', 'apr-util', 'avahi', 'courier-authlib', 'cyrus-sas
 +++
 GNU database library
 
-{{< files text="show files" >}}* /usr/bin/gdbmtool
+## Files: 
+* /usr/bin/gdbmtool
 * /usr/bin/gdbm_dump
 * /usr/bin/gdbm_load
 * /usr/include/gdbm.h
@@ -49,4 +50,3 @@ GNU database library
 * /usr/share/man/man1/gdbm_dump.1.gz
 * /usr/share/man/man1/gdbm_load.1.gz
 * /usr/share/man/man3/gdbm.3.gz
-{{< /files >}}

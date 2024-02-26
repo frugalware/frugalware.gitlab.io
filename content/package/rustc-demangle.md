@@ -16,8 +16,8 @@ reverse_depends = "['qtcreator']"
 +++
 Demangling for Rust symbols, C API
 
-{{< files text="show files" >}}* /usr/include/rustc_demangle.h
+## Files: 
+* /usr/include/rustc_demangle.h
 * /usr/lib/librustc_demangle.a
 * /usr/lib/librustc_demangle.so
 * /usr/share/doc/rustc-demangle-0.1.23/README.md
-{{< /files >}}

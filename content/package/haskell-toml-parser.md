@@ -16,7 +16,8 @@ reverse_depends = "['haskell-typst']"
 +++
 TOML 1.0.0 parser
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/toml-parser-1.3.1.1/libHStoml-parser-1.3.1.1-5yGE10d4jYnBrs1BQSJsUW.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/toml-parser-1.3.1.1/libHStoml-parser-1.3.1.1-5yGE10d4jYnBrs1BQSJsUW.a
 * /usr/lib/ghc-9.8.1/site-local/toml-parser-1.3.1.1/Toml.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/toml-parser-1.3.1.1/Toml.hi
 * /usr/lib/ghc-9.8.1/site-local/toml-parser-1.3.1.1/Toml/FromValue.dyn_hi
@@ -111,4 +112,3 @@ TOML 1.0.0 parser
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/toml-parser-1.3.1.1/LICENSE
 * /usr/share/haskell/haskell-toml-parser/register.sh
 * /usr/share/haskell/haskell-toml-parser/unregister.sh
-{{< /files >}}

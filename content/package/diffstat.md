@@ -16,10 +16,10 @@ reverse_depends = "['quilt']"
 +++
 Displays a histogram of changes to a file
 
-{{< files text="show files" >}}* /usr/bin/diffstat
+## Files: 
+* /usr/bin/diffstat
 * /usr/share/doc/diffstat-1.65/CHANGES
 * /usr/share/doc/diffstat-1.65/COPYING
 * /usr/share/doc/diffstat-1.65/COPYING.asc
 * /usr/share/doc/diffstat-1.65/README
 * /usr/share/man/man1/diffstat.1.gz
-{{< /files >}}

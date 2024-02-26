@@ -16,7 +16,8 @@ reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-good-video4linux2', 'ka
 +++
 Userspace tools and conversion library for Video 4 Linux
 
-{{< files text="show files" >}}* /etc/rc_maps.cfg
+## Files: 
+* /etc/rc_maps.cfg
 * /usr/bin/cec-compliance
 * /usr/bin/cec-ctl
 * /usr/bin/cec-follower
@@ -311,4 +312,3 @@ Userspace tools and conversion library for Video 4 Linux
 * /usr/share/man/man1/v4l2-ctl.1.gz
 * /usr/share/man/man1/v4l2-tracer.1.gz
 * /usr/share/man/man5/rc_keymap.5.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['python3>=3.12']"
 +++
 C-Extensions for Python
 
-{{< files text="show files" >}}* /usr/bin/cygdb
+## Files: 
+* /usr/bin/cygdb
 * /usr/bin/cython
 * /usr/bin/cythonize
 * /usr/lib/python3.12/site-packages/Cython-3.0.8-py3.12.egg-info/dependency_links.txt
@@ -463,4 +464,3 @@ C-Extensions for Python
 * /usr/share/doc/python3-cython-3.0.8/COPYING.txt
 * /usr/share/doc/python3-cython-3.0.8/INSTALL.txt
 * /usr/share/doc/python3-cython-3.0.8/README.rst
-{{< /files >}}

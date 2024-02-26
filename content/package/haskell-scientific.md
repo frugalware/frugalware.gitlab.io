@@ -16,7 +16,8 @@ reverse_depends = "['haskell-aeson', 'haskell-attoparsec']"
 +++
 Numbers represented using scientific notation
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/scientific-0.3.7.0/Data/ByteString/Builder/Scientific.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/scientific-0.3.7.0/Data/ByteString/Builder/Scientific.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/scientific-0.3.7.0/Data/ByteString/Builder/Scientific.hi
 * /usr/lib/ghc-9.8.1/site-local/scientific-0.3.7.0/Data/Scientific.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/scientific-0.3.7.0/Data/Scientific.hi
@@ -43,4 +44,3 @@ Numbers represented using scientific notation
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/scientific-0.3.7.0/LICENSE
 * /usr/share/haskell/haskell-scientific/register.sh
 * /usr/share/haskell/haskell-scientific/unregister.sh
-{{< /files >}}

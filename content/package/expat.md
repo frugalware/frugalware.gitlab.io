@@ -16,7 +16,8 @@ reverse_depends = "['apache', 'apr-util', 'avahi', 'dbus', 'efl', 'elinks', 'enl
 +++
 An XML Parser library written in C
 
-{{< files text="show files" >}}* /usr/bin/xmlwf
+## Files: 
+* /usr/bin/xmlwf
 * /usr/include/expat.h
 * /usr/include/expat_config.h
 * /usr/include/expat_external.h
@@ -34,4 +35,3 @@ An XML Parser library written in C
 * /usr/share/doc/expat-2.6.0/COPYING
 * /usr/share/doc/expat-2.6.0/README.md
 * /usr/share/man/man1/xmlwf.1.gz
-{{< /files >}}

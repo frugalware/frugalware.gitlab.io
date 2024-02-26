@@ -15,7 +15,8 @@ depends = "['aspell>=0.60']"
 +++
 GNU Aspell 0.60 German Word List Package
 
-{{< files text="show files" >}}* /usr/lib/aspell-0.60/de-common.rws
+## Files: 
+* /usr/lib/aspell-0.60/de-common.rws
 * /usr/lib/aspell-0.60/de.dat
 * /usr/lib/aspell-0.60/de.multi
 * /usr/lib/aspell-0.60/deutsch.alias
@@ -29,4 +30,3 @@ GNU Aspell 0.60 German Word List Package
 * /usr/lib/aspell-0.60/de_phonet.dat
 * /usr/lib/aspell-0.60/german.alias
 * /usr/share/doc/aspell6-de-20161207r7/README
-{{< /files >}}

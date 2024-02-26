@@ -15,8 +15,8 @@ depends = "['libmtp']"
 +++
 Udev rules to connect Android devices to your linux box
 
-{{< files text="show files" >}}* /usr/lib/sysusers.d/android-udev.conf
+## Files: 
+* /usr/lib/sysusers.d/android-udev.conf
 * /usr/lib/udev/rules.d/51-android.rules
 * /usr/share/doc/android-udev-20240114/LICENSE
 * /usr/share/doc/android-udev-20240114/README.md
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['haskell-data-default']"
 +++
 Default instances for types in containers.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/data-default-instances-containers-0.0.1/Data/Default/Instances/Containers.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/data-default-instances-containers-0.0.1/Data/Default/Instances/Containers.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/data-default-instances-containers-0.0.1/Data/Default/Instances/Containers.hi
 * /usr/lib/ghc-9.8.1/site-local/data-default-instances-containers-0.0.1/libHSdata-default-instances-containers-0.0.1-3kwj4Q5YxmO2m9egth6F6m.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSdata-default-instances-containers-0.0.1-3kwj4Q5YxmO2m9egth6F6m-ghc9.8.1.so
@@ -33,4 +34,3 @@ Default instances for types in containers.
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/data-default-instances-containers-0.0.1/LICENSE
 * /usr/share/haskell/haskell-data-default-instances-containers/register.sh
 * /usr/share/haskell/haskell-data-default-instances-containers/unregister.sh
-{{< /files >}}

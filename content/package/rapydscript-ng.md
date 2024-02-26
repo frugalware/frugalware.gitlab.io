@@ -16,7 +16,8 @@ license = "BSD"
 +++
 Pythonic JavaScript that doesn't suck
 
-{{< files text="show files" >}}* /usr/bin/rapydscript
+## Files: 
+* /usr/bin/rapydscript
 * /usr/lib/node_modules/rapydscript-ng/=template.pyj
 * /usr/lib/node_modules/rapydscript-ng/add-toc-to-readme
 * /usr/lib/node_modules/rapydscript-ng/bin/export
@@ -2631,4 +2632,3 @@ Pythonic JavaScript that doesn't suck
 * /usr/share/doc/rapydscript-ng-0.7.22/CONTRIBUTORS
 * /usr/share/doc/rapydscript-ng-0.7.22/LICENSE
 * /usr/share/doc/rapydscript-ng-0.7.22/README.md
-{{< /files >}}

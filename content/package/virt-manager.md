@@ -15,7 +15,8 @@ depends = "['dbus-x11', 'gtk-vnc', 'libosinfo>=1.0.0', 'libvirt-glib>=2.0.0', 'l
 +++
 Tool for managing virtual machines
 
-{{< files text="show files" >}}* /usr/bin/virt-clone
+## Files: 
+* /usr/bin/virt-clone
 * /usr/bin/virt-install
 * /usr/bin/virt-manager
 * /usr/bin/virt-xml
@@ -284,4 +285,3 @@ Tool for managing virtual machines
 * /usr/share/virt-manager/virtManager/vmwindow.py
 * /usr/share/virt-manager/virtManager/xmleditor.py
 * /usr/share/virt-manager/virtManager/__init__.py
-{{< /files >}}

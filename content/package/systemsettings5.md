@@ -16,7 +16,8 @@ reverse_depends = "['bismuth', 'flatpak-kcm', 'plasma-firewall']"
 +++
 KDE system settings.
 
-{{< files text="show files" >}}* /usr/bin/systemsettings
+## Files: 
+* /usr/bin/systemsettings
 * /usr/bin/systemsettings5
 * /usr/lib/libsystemsettingsview.so.3
 * /usr/lib/qt5/plugins/kf5/krunner/krunner_systemsettings.so
@@ -176,4 +177,3 @@ KDE system settings.
 * /usr/share/systemsettings/categories/settings-workspace.desktop
 * /usr/share/systemsettings/systemsettings.kcfg
 * /usr/share/zsh/site-functions/_systemsettings
-{{< /files >}}

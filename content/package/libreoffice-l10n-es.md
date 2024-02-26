@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Spanish support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/es/default.css
+## Files: 
+* /usr/lib/libreoffice/help/es/default.css
 * /usr/lib/libreoffice/help/es/err.html
 * /usr/lib/libreoffice/help/es/highcontrast1.css
 * /usr/lib/libreoffice/help/es/highcontrast2.css
@@ -135,4 +136,3 @@ Installs Spanish support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-es.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_es.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_es.xcd
-{{< /files >}}

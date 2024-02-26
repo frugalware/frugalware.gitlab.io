@@ -16,9 +16,9 @@ reverse_depends = "['lib32-xorg-server-xephyr']"
 +++
 renderutil libraries for X C Binding ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/xcb/xcb_renderutil.h
+## Files: 
+* /usr/i686-frugalware-linux/include/xcb/xcb_renderutil.h
 * /usr/lib32/libxcb-render-util.so
 * /usr/lib32/libxcb-render-util.so.0
 * /usr/lib32/libxcb-render-util.so.0.0.0
 * /usr/lib32/pkgconfig/xcb-renderutil.pc
-{{< /files >}}

@@ -15,10 +15,10 @@ depends = "['libglvnd', 'libxcursor', 'libxi', 'libxinerama', 'libxrandr', 'libx
 +++
 An open source re-implementation of Diablo 2
 
-{{< files text="show files" >}}* /usr/bin/opendiablo2
+## Files: 
+* /usr/bin/opendiablo2
 * /usr/share/applications/opendiablo2.desktop
 * /usr/share/doc/opendiablo2-20210419.g2f4663c/CONTRIBUTORS
 * /usr/share/doc/opendiablo2-20210419.g2f4663c/LICENSE
 * /usr/share/doc/opendiablo2-20210419.g2f4663c/README.md
 * /usr/share/pixmaps/opendiablo2.png
-{{< /files >}}

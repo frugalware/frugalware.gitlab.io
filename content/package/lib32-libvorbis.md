@@ -16,7 +16,8 @@ reverse_depends = "['lib32-ffmpeg', 'lib32-libsndfile', 'lib32-sdl2_mixer']"
 +++
 Vorbis codec library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/vorbis/codec.h
+## Files: 
+* /usr/i686-frugalware-linux/include/vorbis/codec.h
 * /usr/i686-frugalware-linux/include/vorbis/vorbisenc.h
 * /usr/i686-frugalware-linux/include/vorbis/vorbisfile.h
 * /usr/lib32/libvorbis.so
@@ -31,4 +32,3 @@ Vorbis codec library ( 32bit )
 * /usr/lib32/pkgconfig/vorbis.pc
 * /usr/lib32/pkgconfig/vorbisenc.pc
 * /usr/lib32/pkgconfig/vorbisfile.pc
-{{< /files >}}

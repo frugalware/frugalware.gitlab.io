@@ -15,5 +15,5 @@ depends = "['libsmbclient', 'libvlc>=3.0.20']"
 +++
 vlc plugin for Samba
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/access/libsmb_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/access/libsmb_plugin.so

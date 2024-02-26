@@ -15,10 +15,10 @@ depends = "['gtk+2>=2.24.32-3', 'libcanberra>=0.30']"
 +++
 GTK+2 libcanberra
 
-{{< files text="show files" >}}* /usr/include/canberra-gtk2.h
+## Files: 
+* /usr/include/canberra-gtk2.h
 * /usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so
 * /usr/lib/libcanberra-gtk.so
 * /usr/lib/libcanberra-gtk.so.0
 * /usr/lib/libcanberra-gtk.so.0.1.9
 * /usr/lib/pkgconfig/libcanberra-gtk.pc
-{{< /files >}}

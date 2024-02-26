@@ -16,7 +16,8 @@ reverse_depends = "['lib32-avahi', 'lib32-libcups', 'lib32-modemmanager', 'lib32
 +++
 systemd libs ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/systemd/sd-bus-protocol.h
+## Files: 
+* /usr/i686-frugalware-linux/include/systemd/sd-bus-protocol.h
 * /usr/i686-frugalware-linux/include/systemd/sd-bus-vtable.h
 * /usr/i686-frugalware-linux/include/systemd/sd-bus.h
 * /usr/i686-frugalware-linux/include/systemd/sd-daemon.h
@@ -41,4 +42,3 @@ systemd libs ( 32bit )
 * /usr/lib32/pkgconfig/systemd.pc
 * /usr/lib32/systemd/libsystemd-core-255.so
 * /usr/lib32/systemd/libsystemd-shared-255.so
-{{< /files >}}

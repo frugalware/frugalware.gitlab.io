@@ -15,7 +15,8 @@ depends = "['llvm-libs>=17.0.6']"
 +++
 LLVM Parallel STL
 
-{{< files text="show files" >}}* /usr/include/pstl/internal/algorithm_fwd.h
+## Files: 
+* /usr/include/pstl/internal/algorithm_fwd.h
 * /usr/include/pstl/internal/algorithm_impl.h
 * /usr/include/pstl/internal/execution_defs.h
 * /usr/include/pstl/internal/execution_impl.h
@@ -57,4 +58,3 @@ LLVM Parallel STL
 * /usr/lib/cmake/ParallelSTL/ParallelSTLConfig.cmake
 * /usr/lib/cmake/ParallelSTL/ParallelSTLConfigVersion.cmake
 * /usr/lib/cmake/ParallelSTL/ParallelSTLTargets.cmake
-{{< /files >}}

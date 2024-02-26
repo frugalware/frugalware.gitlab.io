@@ -16,7 +16,8 @@ reverse_depends = "['adios2', 'openvdb']"
 +++
 A blocking, shuffling and loss-less compression library.
 
-{{< files text="show files" >}}* /usr/include/blosc-export.h
+## Files: 
+* /usr/include/blosc-export.h
 * /usr/include/blosc.h
 * /usr/lib/libblosc.a
 * /usr/lib/libblosc.so
@@ -36,4 +37,3 @@ A blocking, shuffling and loss-less compression library.
 * /usr/share/doc/blosc-1.21.1/RELEASE_NOTES.rst
 * /usr/share/doc/blosc-1.21.1/TODO
 * /usr/share/doc/blosc-1.21.1/VERSION
-{{< /files >}}

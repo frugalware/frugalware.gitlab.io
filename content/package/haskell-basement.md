@@ -16,7 +16,8 @@ reverse_depends = "['haskell-memory', 'haskell-socks']"
 +++
 Foundation scrap box of array & string
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/basement-0.0.16/Basement/Alg/Class.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/basement-0.0.16/Basement/Alg/Class.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/basement-0.0.16/Basement/Alg/Class.hi
 * /usr/lib/ghc-9.8.1/site-local/basement-0.0.16/Basement/Alg/Mutable.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/basement-0.0.16/Basement/Alg/Mutable.hi
@@ -297,4 +298,3 @@ Foundation scrap box of array & string
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/basement-0.0.16/LICENSE
 * /usr/share/haskell/haskell-basement/register.sh
 * /usr/share/haskell/haskell-basement/unregister.sh
-{{< /files >}}

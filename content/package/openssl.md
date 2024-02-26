@@ -16,7 +16,8 @@ reverse_depends = "['aircrack-ng', 'apache', 'apr-util', 'bind', 'bip', 'bitchx'
 +++
 The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 
-{{< files text="show files" >}}* /etc/ssl/certs/00673b5b.0
+## Files: 
+* /etc/ssl/certs/00673b5b.0
 * /etc/ssl/certs/02b73561.0
 * /etc/ssl/certs/03f2b8cf.0
 * /etc/ssl/certs/04f60c28.0
@@ -6211,4 +6212,3 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man7/X25519.7openssl.gz
 * /usr/share/man/man7/X448.7openssl.gz
 * /usr/share/man/man7/x509.7openssl.gz
-{{< /files >}}

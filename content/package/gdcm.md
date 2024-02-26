@@ -16,7 +16,8 @@ reverse_depends = "['insight-toolkit']"
 +++
 C++ library for DICOM medical files
 
-{{< files text="show files" >}}* /usr/bin/gdcmanon
+## Files: 
+* /usr/bin/gdcmanon
 * /usr/bin/gdcmclean
 * /usr/bin/gdcmconv
 * /usr/bin/gdcmdiff
@@ -481,4 +482,3 @@ C++ library for DICOM medical files
 * /usr/share/gdcm-3.0/XML/Part7a.xml
 * /usr/share/gdcm-3.0/XML/Part7b.xml
 * /usr/share/gdcm-3.0/XML/UIDs.xml
-{{< /files >}}

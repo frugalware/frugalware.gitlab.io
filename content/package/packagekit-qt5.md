@@ -16,7 +16,8 @@ reverse_depends = "['discover', 'frameworkintegration', 'kdenetwork-filesharing'
 +++
 A system designed to make installation and updates of packages easier
 
-{{< files text="show files" >}}* /usr/include/packagekitqt5/PackageKit/bitfield.h
+## Files: 
+* /usr/include/packagekitqt5/PackageKit/bitfield.h
 * /usr/include/packagekitqt5/PackageKit/common.h
 * /usr/include/packagekitqt5/PackageKit/Daemon
 * /usr/include/packagekitqt5/PackageKit/daemon.h
@@ -41,4 +42,3 @@ A system designed to make installation and updates of packages easier
 * /usr/share/doc/packagekit-qt5-1.1.1/README.md
 * /usr/share/doc/packagekit-qt5-1.1.1/RELEASE
 * /usr/share/doc/packagekit-qt5-1.1.1/TODO
-{{< /files >}}

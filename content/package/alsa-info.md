@@ -15,5 +15,5 @@ depends = "['dialog>=1.3_20160828']"
 +++
 Provide information about alsa
 
-{{< files text="show files" >}}* /usr/bin/alsa-info.sh
-{{< /files >}}
+## Files: 
+* /usr/bin/alsa-info.sh

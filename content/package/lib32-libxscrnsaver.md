@@ -16,9 +16,9 @@ reverse_depends = "['steam-native']"
 +++
 The XScrnSaver Library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/scrnsaver.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/extensions/scrnsaver.h
 * /usr/lib32/libXss.so
 * /usr/lib32/libXss.so.1
 * /usr/lib32/libXss.so.1.0.0
 * /usr/lib32/pkgconfig/xscrnsaver.pc
-{{< /files >}}

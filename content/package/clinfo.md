@@ -15,8 +15,8 @@ depends = "['ocl-icd']"
 +++
 Simple OpenCL application that enumerates all available platform and device properties
 
-{{< files text="show files" >}}* /usr/bin/clinfo
+## Files: 
+* /usr/bin/clinfo
 * /usr/share/doc/clinfo-3.0.23.01.25/LICENSE
 * /usr/share/doc/clinfo-3.0.23.01.25/README.md
 * /usr/share/man/man1/clinfo.1.gz
-{{< /files >}}

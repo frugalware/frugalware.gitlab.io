@@ -16,7 +16,8 @@ reverse_depends = "['haskell-http-client-tls']"
 +++
 An HTTP client engine
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/http-client-0.7.15/Data/KeyedPool.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/http-client-0.7.15/Data/KeyedPool.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/http-client-0.7.15/Data/KeyedPool.hi
 * /usr/lib/ghc-9.8.1/site-local/http-client-0.7.15/libHShttp-client-0.7.15-Blx4d515TQZ7r6cZLtzX.a
 * /usr/lib/ghc-9.8.1/site-local/http-client-0.7.15/Network/HTTP/Client.dyn_hi
@@ -94,4 +95,3 @@ An HTTP client engine
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/http-client-0.7.15/LICENSE
 * /usr/share/haskell/haskell-http-client/register.sh
 * /usr/share/haskell/haskell-http-client/unregister.sh
-{{< /files >}}

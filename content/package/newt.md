@@ -16,7 +16,8 @@ reverse_depends = "['networkmanager', 'partimage']"
 +++
 A programming library for color text mode, widget based user interfaces.
 
-{{< files text="show files" >}}* /etc/newt.theme
+## Files: 
+* /etc/newt.theme
 * /usr/bin/whiptail
 * /usr/include/newt.h
 * /usr/lib/libnewt.so
@@ -102,4 +103,3 @@ A programming library for color text mode, widget based user interfaces.
 * /usr/share/locale/zh_CN/LC_MESSAGES/newt.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/newt.mo
 * /usr/share/man/man1/whiptail.1.gz
-{{< /files >}}

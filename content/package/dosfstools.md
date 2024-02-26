@@ -16,7 +16,8 @@ reverse_depends = "['partclone', 'partitionmanager', 'udisks2']"
 +++
 FAT/FAT32/VFAT filesystem checker
 
-{{< files text="show files" >}}* /usr/bin/fatlabel
+## Files: 
+* /usr/bin/fatlabel
 * /usr/bin/fsck.fat
 * /usr/bin/mkfs.fat
 * /usr/share/doc/dosfstools-4.2/ANNOUNCE.mkdosfs
@@ -35,4 +36,3 @@ FAT/FAT32/VFAT filesystem checker
 * /usr/share/man/man8/fatlabel.8.gz
 * /usr/share/man/man8/fsck.fat.8.gz
 * /usr/share/man/man8/mkfs.fat.8.gz
-{{< /files >}}

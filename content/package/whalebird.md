@@ -15,7 +15,8 @@ depends = "['alsa-lib', 'cairo', 'dbus', 'gdk-pixbuf2', 'glib2', 'gtk+3', 'hicol
 +++
 An Electron based Mastodon, Pleroma and Misskey client
 
-{{< files text="show files" >}}* /usr/bin/whalebird
+## Files: 
+* /usr/bin/whalebird
 * /usr/lib/whalebird-desktop/chrome-sandbox
 * /usr/lib/whalebird-desktop/chrome_100_percent.pak
 * /usr/lib/whalebird-desktop/chrome_200_percent.pak
@@ -97,4 +98,3 @@ An Electron based Mastodon, Pleroma and Misskey client
 * /usr/share/icons/hicolor/256x256/apps/whalebird.png
 * /usr/share/icons/hicolor/32x32/apps/whalebird.png
 * /usr/share/icons/hicolor/512x512/apps/whalebird.png
-{{< /files >}}

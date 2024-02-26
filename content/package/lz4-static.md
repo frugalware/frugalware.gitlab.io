@@ -15,5 +15,5 @@ depends = "['libstdc++>=12.2']"
 +++
 Static files for lz4
 
-{{< files text="show files" >}}* /usr/lib/liblz4.a
-{{< /files >}}
+## Files: 
+* /usr/lib/liblz4.a

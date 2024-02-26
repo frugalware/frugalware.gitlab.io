@@ -15,7 +15,8 @@ depends = "['python3>=3.12']"
 +++
 Encoding and language detection alternative to chardet
 
-{{< files text="show files" >}}* /usr/bin/normalizer
+## Files: 
+* /usr/bin/normalizer
 * /usr/lib/python3.12/site-packages/charset_normalizer-3.3.2-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/charset_normalizer-3.3.2-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/charset_normalizer-3.3.2-py3.12.egg-info/PKG-INFO
@@ -61,4 +62,3 @@ Encoding and language detection alternative to chardet
 * /usr/lib/python3.12/site-packages/charset_normalizer/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/python3-charset-normalizer-3.3.2/LICENSE
 * /usr/share/doc/python3-charset-normalizer-3.3.2/README.md
-{{< /files >}}

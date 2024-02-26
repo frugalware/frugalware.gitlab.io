@@ -15,5 +15,5 @@ depends = "['gst1-plugins-base>=1.22.10', 'gst1-plugins-good>=1.22.10', 'libffi>
 +++
 GStreamer shout plugin (Good).
 
-{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstshout2.so
-{{< /files >}}
+## Files: 
+* /usr/lib/gstreamer-1.0/libgstshout2.so

@@ -15,7 +15,8 @@ depends = "['gtk+2', 'librsvg', 'libxslt', 'mono']"
 +++
 A C# language binding for the GTK+2 toolkit and GNOME libraries
 
-{{< files text="show files" >}}* usr/bin/gapi2-codegen
+## Files: 
+* usr/bin/gapi2-codegen
 * usr/bin/gapi2-fixup
 * usr/bin/gapi2-parser
 * usr/bin/gconfsharp2-schemagen
@@ -211,4 +212,3 @@ A C# language binding for the GTK+2 toolkit and GNOME libraries
 * usr/share/gapi-2.0/pango-api.xml
 * usr/share/gapi-2.0/rsvg-api.xml
 * usr/share/gapi-2.0/vte-api.xml
-{{< /files >}}

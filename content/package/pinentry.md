@@ -16,7 +16,8 @@ reverse_depends = "['pinentry-gtk+2', 'pinentry-qt5']"
 +++
 Applications for entering PINs or Passphrases.
 
-{{< files text="show files" >}}* /usr/bin/pinentry
+## Files: 
+* /usr/bin/pinentry
 * /usr/bin/pinentry-curses
 * /usr/share/doc/pinentry-1.2.1/AUTHORS
 * /usr/share/doc/pinentry-1.2.1/ChangeLog
@@ -29,4 +30,3 @@ Applications for entering PINs or Passphrases.
 * /usr/share/doc/pinentry-1.2.1/TODO
 * /usr/share/doc/pinentry-1.2.1/VERSION
 * /usr/share/info/pinentry.info.gz
-{{< /files >}}

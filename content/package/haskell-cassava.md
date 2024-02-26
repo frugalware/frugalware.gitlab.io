@@ -16,7 +16,8 @@ reverse_depends = "['haskell-typst']"
 +++
 A CSV parsing and encoding library
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/cassava-0.5.3.0/Data/Csv.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/cassava-0.5.3.0/Data/Csv.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/cassava-0.5.3.0/Data/Csv.hi
 * /usr/lib/ghc-9.8.1/site-local/cassava-0.5.3.0/Data/Csv/Builder.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/cassava-0.5.3.0/Data/Csv/Builder.hi
@@ -56,4 +57,3 @@ A CSV parsing and encoding library
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/cassava-0.5.3.0/LICENSE
 * /usr/share/haskell/haskell-cassava/register.sh
 * /usr/share/haskell/haskell-cassava/unregister.sh
-{{< /files >}}

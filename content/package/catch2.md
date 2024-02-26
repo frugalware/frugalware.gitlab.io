@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later
 
-{{< files text="show files" >}}* /usr/include/catch2/benchmark/catch_benchmark.hpp
+## Files: 
+* /usr/include/catch2/benchmark/catch_benchmark.hpp
 * /usr/include/catch2/benchmark/catch_benchmark_all.hpp
 * /usr/include/catch2/benchmark/catch_chronometer.hpp
 * /usr/include/catch2/benchmark/catch_clock.hpp
@@ -241,4 +242,3 @@ A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - 
 * /usr/share/doc/Catch2/tutorial.md
 * /usr/share/doc/Catch2/usage-tips.md
 * /usr/share/doc/Catch2/why-catch.md
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['openjre-x']"
 +++
 A free mind mapping software
 
-{{< files text="show files" >}}* /usr/bin/freeplane
+## Files: 
+* /usr/bin/freeplane
 * /usr/lib/freeplane/doc/api/allclasses-index.html
 * /usr/lib/freeplane/doc/api/allpackages-index.html
 * /usr/lib/freeplane/doc/api/constant-values.html
@@ -465,4 +466,3 @@ A free mind mapping software
 * /usr/share/doc/freeplane-1.11.8/INSTALL.md
 * /usr/share/doc/freeplane-1.11.8/README.md
 * /usr/share/pixmaps/freeplane.png
-{{< /files >}}

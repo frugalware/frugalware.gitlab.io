@@ -15,5 +15,5 @@ depends = "['libsystemd>=231-17', 'libxau>=1.0.8-2', 'libxdmcp>=1.1.2-3', 'libxf
 +++
 KDrive fbdev X server
 
-{{< files text="show files" >}}* /usr/bin/Xfbdev
-{{< /files >}}
+## Files: 
+* /usr/bin/Xfbdev

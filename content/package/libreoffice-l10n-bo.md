@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Tibetan support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/bo/default.css
+## Files: 
+* /usr/lib/libreoffice/help/bo/default.css
 * /usr/lib/libreoffice/help/bo/err.html
 * /usr/lib/libreoffice/help/bo/highcontrast1.css
 * /usr/lib/libreoffice/help/bo/highcontrast2.css
@@ -134,4 +135,3 @@ Installs Tibetan support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-bo.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_bo.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_bo.xcd
-{{< /files >}}

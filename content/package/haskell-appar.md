@@ -16,7 +16,8 @@ reverse_depends = "['haskell-iproute']"
 +++
 A simple applicative parser
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/appar-0.1.8/libHSappar-0.1.8-AXmmK3Cixy7E6o5t6sKrJo.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/appar-0.1.8/libHSappar-0.1.8-AXmmK3Cixy7E6o5t6sKrJo.a
 * /usr/lib/ghc-9.8.1/site-local/appar-0.1.8/Text/Appar/ByteString.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/appar-0.1.8/Text/Appar/ByteString.hi
 * /usr/lib/ghc-9.8.1/site-local/appar-0.1.8/Text/Appar/Input.dyn_hi
@@ -44,4 +45,3 @@ A simple applicative parser
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/appar-0.1.8/LICENSE
 * /usr/share/haskell/haskell-appar/register.sh
 * /usr/share/haskell/haskell-appar/unregister.sh
-{{< /files >}}

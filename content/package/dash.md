@@ -16,9 +16,9 @@ reverse_depends = "['dracut']"
 +++
 A POSIX compliant shell implementation of /bin/sh.
 
-{{< files text="show files" >}}* /usr/bin/dash
+## Files: 
+* /usr/bin/dash
 * /usr/share/doc/dash-0.5.12/ChangeLog
 * /usr/share/doc/dash-0.5.12/COPYING
 * /usr/share/doc/dash-0.5.12/INSTALL
 * /usr/share/man/man1/dash.1.gz
-{{< /files >}}

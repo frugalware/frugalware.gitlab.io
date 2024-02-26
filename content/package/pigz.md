@@ -15,9 +15,9 @@ depends = "['zlib>=1.2.12']"
 +++
 A gzip implementation that can use parallel threads.
 
-{{< files text="show files" >}}* /usr/bin/pigz
+## Files: 
+* /usr/bin/pigz
 * /usr/bin/unpigz
 * /usr/share/doc/pigz-2.7/pigz.pdf
 * /usr/share/doc/pigz-2.7/pigz.spec
 * /usr/share/doc/pigz-2.7/README
-{{< /files >}}

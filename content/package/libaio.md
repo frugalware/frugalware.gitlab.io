@@ -16,7 +16,8 @@ reverse_depends = "['libiio', 'lvm2', 'mariadb', 'mariadb-libs', 'multipath-tool
 +++
 Asynchronous input/output library that uses the kernels native interface
 
-{{< files text="show files" >}}* /usr/include/libaio.h
+## Files: 
+* /usr/include/libaio.h
 * /usr/lib/libaio.so
 * /usr/lib/libaio.so.1
 * /usr/lib/libaio.so.1.0.2
@@ -25,4 +26,3 @@ Asynchronous input/output library that uses the kernels native interface
 * /usr/share/doc/libaio-0.3.113/INSTALL
 * /usr/share/doc/libaio-0.3.113/README.md
 * /usr/share/doc/libaio-0.3.113/TODO
-{{< /files >}}

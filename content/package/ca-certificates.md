@@ -16,7 +16,8 @@ reverse_depends = "['aria2', 'glib-networking', 'networkmanager', 'p11-kit']"
 +++
 Common CA certificates
 
-{{< files text="show files" >}}* /etc/ca-certificates.conf
+## Files: 
+* /etc/ca-certificates.conf
 * /usr/bin/openssl-c_rehash.sh
 * /usr/bin/update-ca-certificates
 * /usr/share/ca-certificates/mozilla/ACCVRAIZ1.crt
@@ -310,4 +311,3 @@ Common CA certificates
 * /usr/share/ca-certificates/mozilla/vTrus_Root_CA_2.crt
 * /usr/share/ca-certificates/mozilla/XRamp_Global_CA_Root.crt
 * /usr/share/ca-certificates/mozilla/XRamp_Global_CA_Root_2.crt
-{{< /files >}}

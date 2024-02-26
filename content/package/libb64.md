@@ -16,7 +16,8 @@ reverse_depends = "['sysdig', 'transmission-cli']"
 +++
 Base64 Encoding/Decoding Routines
 
-{{< files text="show files" >}}* /usr/include/b64/cdecode.h
+## Files: 
+* /usr/include/b64/cdecode.h
 * /usr/include/b64/cencode.h
 * /usr/include/b64/decode.h
 * /usr/include/b64/encode.h
@@ -28,4 +29,3 @@ Base64 Encoding/Decoding Routines
 * /usr/share/doc/libb64-1.2.1/LICENSE
 * /usr/share/doc/libb64-1.2.1/README
 * /usr/share/doc/libb64-1.2.1/README.md
-{{< /files >}}

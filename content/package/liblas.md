@@ -16,7 +16,8 @@ reverse_depends = "['vtk']"
 +++
 C/C++ library for reading and writing the very common LAS LiDAR format
 
-{{< files text="show files" >}}* /usr/bin/las2col
+## Files: 
+* /usr/bin/las2col
 * /usr/bin/las2las
 * /usr/bin/las2pg
 * /usr/bin/las2txt
@@ -124,4 +125,3 @@ C/C++ library for reading and writing the very common LAS LiDAR format
 * /usr/share/liblas/doc/INSTALL
 * /usr/share/liblas/doc/LICENSE.txt
 * /usr/share/liblas/doc/README.txt
-{{< /files >}}

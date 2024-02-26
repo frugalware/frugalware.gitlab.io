@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Utility libraries for Vulkan developers ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/vulkan/layer/vk_layer_settings.h
+## Files: 
+* /usr/i686-frugalware-linux/include/vulkan/layer/vk_layer_settings.h
 * /usr/i686-frugalware-linux/include/vulkan/layer/vk_layer_settings.hpp
 * /usr/i686-frugalware-linux/include/vulkan/utility/vk_dispatch_table.h
 * /usr/i686-frugalware-linux/include/vulkan/utility/vk_format_utils.h
@@ -24,4 +25,3 @@ Utility libraries for Vulkan developers ( 32bit )
 * /usr/lib32/cmake/VulkanUtilityLibraries/VulkanUtilityLibraries-targets-release.cmake
 * /usr/lib32/cmake/VulkanUtilityLibraries/VulkanUtilityLibraries-targets.cmake
 * /usr/lib32/cmake/VulkanUtilityLibraries/VulkanUtilityLibrariesConfig.cmake
-{{< /files >}}

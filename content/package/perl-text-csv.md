@@ -15,10 +15,10 @@ depends = "['perl>=5.34.0']"
 +++
 Text::CSV provides facilities for the composition and decomposition of comma-separated values
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/Text/CSV.pm
+## Files: 
+* /usr/lib/perl5/site_perl/Text/CSV.pm
 * /usr/lib/perl5/site_perl/Text/CSV_PP.pm
 * /usr/share/doc/perl-text-csv-2.04/MANIFEST
 * /usr/share/doc/perl-text-csv-2.04/README.md
 * /usr/share/man/man3/Text::CSV.3perl.gz
 * /usr/share/man/man3/Text::CSV_PP.3perl.gz
-{{< /files >}}

@@ -16,9 +16,9 @@ reverse_depends = "['firebird', 'libreoffice']"
 +++
 Multi-process, local client libraries for Firebird SQL RDBMS
 
-{{< files text="show files" >}}* /usr/lib/libfbclient.so
+## Files: 
+* /usr/lib/libfbclient.so
 * /usr/lib/libfbclient.so.2
 * /usr/lib/libfbclient.so.4.0.4
 * /usr/lib/libgds.so
 * /usr/lib/libgds.so.0
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['fmtlib>=10.0.0', 'freetype2>=2.7', 'liblcf>=0.8', 'pixman>=0.34.0-2
 +++
 EasyRPG Player is a game interpreter to play RPG Maker 2000, 2003 and EasyRPG games.
 
-{{< files text="show files" >}}* /usr/bin/easyrpg-player
+## Files: 
+* /usr/bin/easyrpg-player
 * /usr/share/applications/easyrpg-player.desktop
 * /usr/share/bash-completion/completions/easyrpg-player
 * /usr/share/doc/easyrpg-player-0.8/COPYING
@@ -24,4 +25,3 @@ EasyRPG Player is a game interpreter to play RPG Maker 2000, 2003 and EasyRPG ga
 * /usr/share/icons/hicolor/scalable/apps/easyrpg-player.svg
 * /usr/share/metainfo/easyrpg-player.metainfo.xml
 * /usr/share/pixmaps/easyrpg-player.png
-{{< /files >}}

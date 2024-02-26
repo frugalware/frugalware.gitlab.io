@@ -16,7 +16,8 @@ reverse_depends = "['android-tools', 'babe', 'clamav', 'cmst', 'drkonqi', 'fish'
 +++
 Perl-compatible regular expression library (version 2).
 
-{{< files text="show files" >}}* /usr/bin/pcre2-config
+## Files: 
+* /usr/bin/pcre2-config
 * /usr/bin/pcre2grep
 * /usr/bin/pcre2test
 * /usr/include/pcre2.h
@@ -240,4 +241,3 @@ Perl-compatible regular expression library (version 2).
 * /usr/share/man/man3/pcre2_substring_list_get.3.gz
 * /usr/share/man/man3/pcre2_substring_nametable_scan.3.gz
 * /usr/share/man/man3/pcre2_substring_number_from_name.3.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['hw-probe']"
 +++
 Hardware detection tool from openSUSE
 
-{{< files text="show files" >}}* /usr/bin/check_hd
+## Files: 
+* /usr/bin/check_hd
 * /usr/bin/convert_hd
 * /usr/bin/getsysinfo
 * /usr/bin/hwinfo
@@ -33,4 +34,3 @@ Hardware detection tool from openSUSE
 * /usr/share/doc/hwinfo-23.2/VERSION
 * /usr/share/hwinfo/ISDN.CDB.hwdb
 * /usr/share/hwinfo/ISDN.CDB.txt
-{{< /files >}}

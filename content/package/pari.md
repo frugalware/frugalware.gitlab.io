@@ -15,7 +15,8 @@ depends = "['gmp>=5.0.5-2', 'libx11', 'readline>=8.0']"
 +++
 PARI/GP is a computer algebra system designed for fast computations in number theory.
 
-{{< files text="show files" >}}* /usr/bin/gp
+## Files: 
+* /usr/bin/gp
 * /usr/bin/gp-2.15
 * /usr/bin/gphelp
 * /usr/bin/tex2mail
@@ -92,4 +93,3 @@ PARI/GP is a computer algebra system designed for fast computations in number th
 * /usr/share/pari/misc/xgp
 * /usr/share/pari/pari.desc
 * /usr/share/pari/PARI/822.pm
-{{< /files >}}

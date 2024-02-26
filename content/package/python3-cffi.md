@@ -16,7 +16,8 @@ reverse_depends = "['lutris', 'python3-bcrypt', 'python3-cryptography', 'python3
 +++
 cryptography expose cryptographic recipes and primitives in a python module
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/cffi-1.16.0-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/cffi-1.16.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/cffi-1.16.0-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/cffi-1.16.0-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/cffi-1.16.0-py3.12.egg-info/PKG-INFO
@@ -68,4 +69,3 @@ cryptography expose cryptographic recipes and primitives in a python module
 * /usr/share/doc/python3-cffi-1.16.0/COPYING
 * /usr/share/doc/python3-cffi-1.16.0/LICENSE
 * /usr/share/doc/python3-cffi-1.16.0/README.md
-{{< /files >}}

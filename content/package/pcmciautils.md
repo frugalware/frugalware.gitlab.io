@@ -15,7 +15,8 @@ depends = "['kmod>=25-2']"
 +++
 Contains the initialization tools necessary to allow the PCMCIA subsystem to behave as every other hotpluggable bus system.
 
-{{< files text="show files" >}}* /etc/pcmcia/config.opts
+## Files: 
+* /etc/pcmcia/config.opts
 * /usr/bin/lspcmcia
 * /usr/bin/pccardctl
 * /usr/lib/firmware/3CCFEM556.cis
@@ -38,4 +39,3 @@ Contains the initialization tools necessary to allow the PCMCIA subsystem to beh
 * /usr/share/doc/pcmciautils-018/COPYING
 * /usr/share/man/man8/lspcmcia.8.gz
 * /usr/share/man/man8/pccardctl.8.gz
-{{< /files >}}

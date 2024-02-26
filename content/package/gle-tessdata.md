@@ -15,5 +15,5 @@ depends = "['glibc']"
 +++
 Language specific files for tesseract lang gle
 
-{{< files text="show files" >}}* /usr/share/tessdata/gle.traineddata
-{{< /files >}}
+## Files: 
+* /usr/share/tessdata/gle.traineddata

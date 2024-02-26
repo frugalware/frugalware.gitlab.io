@@ -16,7 +16,8 @@ reverse_depends = "['python3-typogrify']"
 +++
 Python with the SmartyPants
 
-{{< files text="show files" >}}* /usr/bin/smartypants
+## Files: 
+* /usr/bin/smartypants
 * /usr/lib/python3.12/site-packages/smartypants-2.0.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/smartypants-2.0.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/smartypants-2.0.1-py3.12.egg-info/SOURCES.txt
@@ -25,4 +26,3 @@ Python with the SmartyPants
 * /usr/lib/python3.12/site-packages/__pycache__/smartypants.cpython-312.pyc
 * /usr/share/doc/python3-smartypants-2.0.1/COPYING
 * /usr/share/doc/python3-smartypants-2.0.1/README.rst
-{{< /files >}}

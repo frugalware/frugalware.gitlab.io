@@ -15,5 +15,5 @@ depends = "['libass', 'libvlc>=3.0.20']"
 +++
 vlc SSA/ASS support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/liblibass_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/codec/liblibass_plugin.so

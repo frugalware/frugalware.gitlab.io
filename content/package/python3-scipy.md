@@ -16,7 +16,8 @@ reverse_depends = "['face_recognition', 'scikit-learn']"
 +++
 SciPy is open-source software for mathematics, science, and engineering.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/scipy-1.11.4.dist-info/LICENSE.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/scipy-1.11.4.dist-info/LICENSE.txt
 * /usr/lib/python3.12/site-packages/scipy-1.11.4.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/scipy-1.11.4.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/scipy-1.11.4.dist-info/WHEEL
@@ -2876,4 +2877,3 @@ SciPy is open-source software for mathematics, science, and engineering.
 * /usr/lib/python3.12/site-packages/scipy/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/scipy/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-scipy-1.11.4/README.rst
-{{< /files >}}

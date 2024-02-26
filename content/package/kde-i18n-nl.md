@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Dutch Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/katepart/syntax/logohighlightstyle.nl.xml
+## Files: 
+* usr/share/apps/katepart/syntax/logohighlightstyle.nl.xml
 * usr/share/apps/khangman/data/nl/animals.kvtml
 * usr/share/apps/khangman/data/nl/easy.kvtml
 * usr/share/apps/khangman/data/nl/hard.kvtml
@@ -1969,4 +1970,3 @@ Dutch Localization for KDE.
 * usr/share/locale/nl/LC_MESSAGES/wakeup.mo
 * usr/share/locale/nl/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/nl/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

@@ -15,8 +15,8 @@ depends = "['libclc', 'spirv-llvm-translator']"
 +++
 Mesa OpenCL Clover
 
-{{< files text="show files" >}}* /etc/OpenCL/vendors/mesa.icd
+## Files: 
+* /etc/OpenCL/vendors/mesa.icd
 * /usr/lib/libMesaOpenCL.so
 * /usr/lib/libMesaOpenCL.so.1
 * /usr/lib/libMesaOpenCL.so.1.0.0
-{{< /files >}}

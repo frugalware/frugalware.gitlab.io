@@ -16,7 +16,8 @@ reverse_depends = "['inkscape', 'libreoffice', 'scribus']"
 +++
 libvisio import filter library
 
-{{< files text="show files" >}}* /usr/bin/vsd2raw
+## Files: 
+* /usr/bin/vsd2raw
 * /usr/bin/vsd2text
 * /usr/bin/vsd2xhtml
 * /usr/bin/vss2raw
@@ -33,4 +34,3 @@ libvisio import filter library
 * /usr/share/doc/libvisio-0.1.7/COPYING.MPL
 * /usr/share/doc/libvisio-0.1.7/NEWS
 * /usr/share/doc/libvisio-0.1.7/README
-{{< /files >}}

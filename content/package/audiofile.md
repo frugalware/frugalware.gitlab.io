@@ -16,7 +16,8 @@ reverse_depends = "['kvirc', 'kvirc', 'kwave', 'mpd', 'pidgin']"
 +++
 Silicon Graphics Audio File Library
 
-{{< files text="show files" >}}* /usr/bin/sfconvert
+## Files: 
+* /usr/bin/sfconvert
 * /usr/bin/sfinfo
 * /usr/include/af_vfs.h
 * /usr/include/audiofile.h
@@ -66,4 +67,3 @@ Silicon Graphics Audio File Library
 * /usr/share/man/man3/afTellFrame.3.gz
 * /usr/share/man/man3/afWriteFrames.3.gz
 * /usr/share/man/man3/afWriteMisc.3.gz
-{{< /files >}}

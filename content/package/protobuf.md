@@ -16,7 +16,8 @@ reverse_depends = "['android-tools', 'grpc', 'libmarble', 'mixxx', 'mosh', 'mumb
 +++
 Protocol Buffers are a way of encoding structured data in an efficient yet extensible format
 
-{{< files text="show files" >}}* /usr/bin/protoc
+## Files: 
+* /usr/bin/protoc
 * /usr/bin/protoc-25.3.0
 * /usr/include/google/protobuf/any.h
 * /usr/include/google/protobuf/any.pb.h
@@ -275,4 +276,3 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/lib/pkgconfig/utf8_range.pc
 * /usr/share/doc/protobuf-25.3/LICENSE
 * /usr/share/doc/protobuf-25.3/README.md
-{{< /files >}}

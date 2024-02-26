@@ -16,7 +16,8 @@ reverse_depends = "['corrosion', 'lib32-rust', 'python3-maturin', 'python3-setup
 +++
 Programming language focused on safety, speed and concurrency
 
-{{< files text="show files" >}}* /etc/bash_completion.d/cargo
+## Files: 
+* /etc/bash_completion.d/cargo
 * /usr/bin/cargo
 * /usr/bin/cargo-clippy
 * /usr/bin/cargo-clippy.old
@@ -1725,4 +1726,3 @@ Programming language focused on safety, speed and concurrency
 * /usr/share/man/man1/rustc.1.gz
 * /usr/share/man/man1/rustdoc.1.gz
 * /usr/share/zsh/site-functions/_cargo
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['cyrus-sasl', 'gdk-pixbuf2', 'gst-libav', 'gst1-plugins-base', 'gst1
 +++
 Implements the SPICE protocol
 
-{{< files text="show files" >}}* /usr/include/spice-server/spice-audio.h
+## Files: 
+* /usr/include/spice-server/spice-audio.h
 * /usr/include/spice-server/spice-char.h
 * /usr/include/spice-server/spice-core.h
 * /usr/include/spice-server/spice-input.h
@@ -33,4 +34,3 @@ Implements the SPICE protocol
 * /usr/share/doc/spice-0.15.1/AUTHORS
 * /usr/share/doc/spice-0.15.1/COPYING
 * /usr/share/doc/spice-0.15.1/README
-{{< /files >}}

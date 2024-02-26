@@ -16,7 +16,8 @@ reverse_depends = "['haskell-unicode-transforms']"
 +++
 Unicode data
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/unicode-data-0.4.0.1/libHSunicode-data-0.4.0.1-KOM962DJlWYA3uLGs2ixR9.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/unicode-data-0.4.0.1/libHSunicode-data-0.4.0.1-KOM962DJlWYA3uLGs2ixR9.a
 * /usr/lib/ghc-9.8.1/site-local/unicode-data-0.4.0.1/Unicode/Char.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/unicode-data-0.4.0.1/Unicode/Char.hi
 * /usr/lib/ghc-9.8.1/site-local/unicode-data-0.4.0.1/Unicode/Char/Case.dyn_hi
@@ -134,4 +135,3 @@ Unicode data
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/unicode-data-0.4.0.1/LICENSE
 * /usr/share/haskell/haskell-unicode-data/register.sh
 * /usr/share/haskell/haskell-unicode-data/unregister.sh
-{{< /files >}}

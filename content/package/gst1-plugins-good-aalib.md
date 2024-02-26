@@ -15,5 +15,5 @@ depends = "['aalib>=1.4rc5-9', 'gst1-plugins-base>=1.22.10', 'gst1-plugins-good>
 +++
 GStreamer aalib plugin (Good).
 
-{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstaasink.so
-{{< /files >}}
+## Files: 
+* /usr/lib/gstreamer-1.0/libgstaasink.so

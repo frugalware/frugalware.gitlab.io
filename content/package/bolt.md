@@ -16,7 +16,8 @@ reverse_depends = "['plasma-thunderbolt']"
 +++
 Thunderbolt 3 security system daemon
 
-{{< files text="show files" >}}* /usr/bin/boltctl
+## Files: 
+* /usr/bin/boltctl
 * /usr/lib/bolt/boltd
 * /usr/lib/systemd/system/bolt.service
 * /usr/lib/udev/rules.d/90-bolt.rules
@@ -31,4 +32,3 @@ Thunderbolt 3 security system daemon
 * /usr/share/man/man8/boltd.8.gz
 * /usr/share/polkit-1/actions/org.freedesktop.bolt.policy
 * /usr/share/polkit-1/rules.d/org.freedesktop.bolt.rules
-{{< /files >}}

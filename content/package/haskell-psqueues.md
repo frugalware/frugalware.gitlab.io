@@ -16,7 +16,8 @@ reverse_depends = "['haskell-network-control']"
 +++
 Pure priority search queues
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/psqueues-0.2.8.0/Data/BitUtil.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/psqueues-0.2.8.0/Data/BitUtil.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/psqueues-0.2.8.0/Data/BitUtil.hi
 * /usr/lib/ghc-9.8.1/site-local/psqueues-0.2.8.0/Data/HashPSQ.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/psqueues-0.2.8.0/Data/HashPSQ.hi
@@ -48,4 +49,3 @@ Pure priority search queues
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/psqueues-0.2.8.0/LICENSE
 * /usr/share/haskell/haskell-psqueues/register.sh
 * /usr/share/haskell/haskell-psqueues/unregister.sh
-{{< /files >}}

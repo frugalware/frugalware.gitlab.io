@@ -16,7 +16,8 @@ reverse_depends = "['a2ps', 'man-db', 'ruby-ronn']"
 +++
 GNU troff text-formatting system
 
-{{< files text="show files" >}}* /usr/bin/addftinfo
+## Files: 
+* /usr/bin/addftinfo
 * /usr/bin/afmtodit
 * /usr/bin/chem
 * /usr/bin/eqn
@@ -628,4 +629,3 @@ GNU troff text-formatting system
 * /usr/share/man/man7/groff_trace.7.gz
 * /usr/share/man/man7/groff_www.7.gz
 * /usr/share/man/man7/roff.7.gz
-{{< /files >}}

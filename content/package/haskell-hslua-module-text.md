@@ -15,7 +15,8 @@ depends = "['haskell-hslua']"
 +++
 Lua module for text
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hslua-module-text-1.1.0.1/HsLua/Module/Text.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/hslua-module-text-1.1.0.1/HsLua/Module/Text.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-module-text-1.1.0.1/HsLua/Module/Text.hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-module-text-1.1.0.1/libHShslua-module-text-1.1.0.1-LCblXqNBJ99JP4wOvLZruQ.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHShslua-module-text-1.1.0.1-LCblXqNBJ99JP4wOvLZruQ-ghc9.8.1.so
@@ -32,4 +33,3 @@ Lua module for text
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/hslua-module-text-1.1.0.1/LICENSE
 * /usr/share/haskell/haskell-hslua-module-text/register.sh
 * /usr/share/haskell/haskell-hslua-module-text/unregister.sh
-{{< /files >}}

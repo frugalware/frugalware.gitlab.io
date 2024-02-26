@@ -16,9 +16,9 @@ reverse_depends = "['perl-data-optlist', 'perl-sub-exporter']"
 +++
 Install subroutines into packages easily
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/Sub/Install.pm
+## Files: 
+* /usr/lib/perl5/site_perl/Sub/Install.pm
 * /usr/share/doc/perl-sub-install-0.929/LICENSE
 * /usr/share/doc/perl-sub-install-0.929/MANIFEST
 * /usr/share/doc/perl-sub-install-0.929/README
 * /usr/share/man/man3/Sub::Install.3perl.gz
-{{< /files >}}

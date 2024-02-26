@@ -15,7 +15,8 @@ depends = "['clang>=17.0.6', 'cmake', 'gdb', 'litehtml', 'qt6-5compat', 'qt6-bas
 +++
 The Qt6 toolkit, qtcreator
 
-{{< files text="show files" >}}* /usr/bin/qtcreator
+## Files: 
+* /usr/bin/qtcreator
 * /usr/bin/qtcreator.sh
 * /usr/lib/qtcreator/libAdvancedDockingSystem.so.12
 * /usr/lib/qtcreator/libAdvancedDockingSystem.so.12.0.2
@@ -1417,4 +1418,3 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/translations/qtcreator_uk.qm
 * /usr/share/qtcreator/translations/qtcreator_zh_CN.qm
 * /usr/share/qtcreator/translations/qtcreator_zh_TW.qm
-{{< /files >}}

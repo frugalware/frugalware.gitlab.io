@@ -16,7 +16,8 @@ reverse_depends = "['inkscape']"
 +++
 Gnome Docking library.
 
-{{< files text="show files" >}}* /usr/include/libgdl-3.0/gdl/gdl-dock-bar.h
+## Files: 
+* /usr/include/libgdl-3.0/gdl/gdl-dock-bar.h
 * /usr/include/libgdl-3.0/gdl/gdl-dock-item-grip.h
 * /usr/include/libgdl-3.0/gdl/gdl-dock-item.h
 * /usr/include/libgdl-3.0/gdl/gdl-dock-layout.h
@@ -145,4 +146,3 @@ Gnome Docking library.
 * /usr/share/locale/zh_CN/LC_MESSAGES/gdl-3.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/gdl-3.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/gdl-3.mo
-{{< /files >}}

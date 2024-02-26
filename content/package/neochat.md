@@ -15,7 +15,8 @@ depends = "['cmark>=0.31.0', 'kio', 'kirigami-addons', 'kitemmodels', 'kquickima
 +++
 A client for matrix, the decentralized communication protocol
 
-{{< files text="show files" >}}* /usr/bin/neochat
+## Files: 
+* /usr/bin/neochat
 * /usr/share/applications/org.kde.neochat.desktop
 * /usr/share/doc/neochat-23.08.5/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.neochat.svg
@@ -70,4 +71,3 @@ A client for matrix, the decentralized communication protocol
 * /usr/share/man/uk/man1/neochat.1.gz
 * /usr/share/metainfo/org.kde.neochat.appdata.xml
 * /usr/share/qlogging-categories5/neochat.categories
-{{< /files >}}

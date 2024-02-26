@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Galician support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/gl/default.css
+## Files: 
+* /usr/lib/libreoffice/help/gl/default.css
 * /usr/lib/libreoffice/help/gl/err.html
 * /usr/lib/libreoffice/help/gl/highcontrast1.css
 * /usr/lib/libreoffice/help/gl/highcontrast2.css
@@ -133,4 +134,3 @@ Installs Galician support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-gl.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_gl.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_gl.xcd
-{{< /files >}}

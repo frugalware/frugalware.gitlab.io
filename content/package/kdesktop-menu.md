@@ -15,7 +15,8 @@ depends = "[]"
 +++
 A replacement Menu for use with kicker.
 
-{{< files text="show files" >}}* usr/lib/kdesktop_menu_panelapplet.la
+## Files: 
+* usr/lib/kdesktop_menu_panelapplet.la
 * usr/lib/kdesktop_menu_panelapplet.so
 * usr/share/apps/kicker/applets/kdesktop_menu.desktop
 * usr/share/config.kcfg/kdesktopmenu_settings.kcfg
@@ -29,4 +30,3 @@ A replacement Menu for use with kicker.
 * usr/share/doc/kdesktop-menu-0.3/NEWS
 * usr/share/doc/kdesktop-menu-0.3/README
 * usr/share/doc/kdesktop-menu-0.3/TODO
-{{< /files >}}

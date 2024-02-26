@@ -16,7 +16,8 @@ reverse_depends = "['ogre-media']"
 +++
 A scene-oriented flexible 3D engine written in C++
 
-{{< files text="show files" >}}* /etc/ld.so.conf.d/ogre.conf
+## Files: 
+* /etc/ld.so.conf.d/ogre.conf
 * /usr/bin/OgreMeshUpgrader
 * /usr/bin/OgreXMLConverter
 * /usr/bin/VRMLConverter
@@ -636,4 +637,3 @@ A scene-oriented flexible 3D engine written in C++
 * /usr/share/OGRE-14.0/GLX_backdrop.png
 * /usr/share/OGRE-14.0/plugins.cfg
 * /usr/share/OGRE-14.0/resources.cfg
-{{< /files >}}

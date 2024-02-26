@@ -16,7 +16,8 @@ reverse_depends = "['kernel-initrd', 'kernel-lts-initrd']"
 +++
 The linux kernel firmware.
 
-{{< files text="show files" >}}* /usr/lib/firmware/3com/typhoon.bin.zst
+## Files: 
+* /usr/lib/firmware/3com/typhoon.bin.zst
 * /usr/lib/firmware/a300_pfp.fw.zst
 * /usr/lib/firmware/a300_pm4.fw.zst
 * /usr/lib/firmware/acenic/tg1.bin.zst
@@ -4445,4 +4446,3 @@ The linux kernel firmware.
 * /usr/share/doc/linux-firmware-20240220/LICENSE.sdma_firmware
 * /usr/share/doc/linux-firmware-20240220/LICENSE.xe
 * /usr/share/doc/linux-firmware-20240220/WHENCE
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "['bitlbee=3.6', 'libotr>=4.0.0']"
 +++
 OTR support for BitlBee.
 
-{{< files text="show files" >}}* /usr/lib/bitlbee/otr.so
-{{< /files >}}
+## Files: 
+* /usr/lib/bitlbee/otr.so

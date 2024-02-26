@@ -16,7 +16,8 @@ reverse_depends = "['input-remapper', 'python3-build', 'python3-hatchling', 'pyt
 +++
 Core utilities for Python packages
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/packaging-23.2.dist-info/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/packaging-23.2.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/packaging-23.2.dist-info/LICENSE.APACHE
 * /usr/lib/python3.12/site-packages/packaging-23.2.dist-info/LICENSE.BSD
 * /usr/lib/python3.12/site-packages/packaging-23.2.dist-info/METADATA
@@ -67,4 +68,3 @@ Core utilities for Python packages
 * /usr/lib/python3.12/site-packages/packaging/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-packaging-23.2/LICENSE
 * /usr/share/doc/python3-packaging-23.2/README.rst
-{{< /files >}}

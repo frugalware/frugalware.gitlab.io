@@ -16,7 +16,8 @@ reverse_depends = "['sdl2_mixer', 'sdl_mixer']"
 +++
 A module sound player and library
 
-{{< files text="show files" >}}* /usr/bin/libmikmod-config
+## Files: 
+* /usr/bin/libmikmod-config
 * /usr/include/mikmod.h
 * /usr/lib/libmikmod.so
 * /usr/lib/libmikmod.so.3
@@ -32,4 +33,3 @@ A module sound player and library
 * /usr/share/doc/libmikmod-3.3.11.1/TODO
 * /usr/share/info/mikmod.info.gz
 * /usr/share/man/man1/libmikmod-config.1.gz
-{{< /files >}}

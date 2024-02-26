@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Hangul hanja input support.
 
-{{< files text="show files" >}}* /usr/bin/hangul
+## Files: 
+* /usr/bin/hangul
 * /usr/include/hangul-1.0/hangul.h
 * /usr/lib/libhangul.so
 * /usr/lib/libhangul.so.1
@@ -28,4 +29,3 @@ Hangul hanja input support.
 * /usr/share/doc/libhangul-0.1.0/README
 * /usr/share/libhangul/hanja/hanja.txt
 * /usr/share/locale/ko/LC_MESSAGES/libhangul.mo
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Static files for sqlite3
 
-{{< files text="show files" >}}* /usr/lib/libsqlite3.a
-{{< /files >}}
+## Files: 
+* /usr/lib/libsqlite3.a

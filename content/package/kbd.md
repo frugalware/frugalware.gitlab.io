@@ -16,7 +16,8 @@ reverse_depends = "['ckbcomp', 'dracut', 'logkeys', 'terminus-font-console']"
 +++
 Keyboard maps and console fonts
 
-{{< files text="show files" >}}* /etc/pam.d/vlock
+## Files: 
+* /etc/pam.d/vlock
 * /usr/bin/chvt
 * /usr/bin/clrunimap
 * /usr/bin/deallocvt
@@ -776,4 +777,3 @@ Keyboard maps and console fonts
 * /usr/share/unimaps/ruscii.uni
 * /usr/share/unimaps/tcvn.uni
 * /usr/share/unimaps/viscii.uni
-{{< /files >}}

@@ -16,9 +16,9 @@ reverse_depends = "['lib32-libdc1394', 'steam-native']"
 +++
 A library which allows userspace access to USB devices ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/libusb-1.0/libusb.h
+## Files: 
+* /usr/i686-frugalware-linux/include/libusb-1.0/libusb.h
 * /usr/lib32/libusb-1.0.so
 * /usr/lib32/libusb-1.0.so.0
 * /usr/lib32/libusb-1.0.so.0.4.0
 * /usr/lib32/pkgconfig/libusb-1.0.pc
-{{< /files >}}

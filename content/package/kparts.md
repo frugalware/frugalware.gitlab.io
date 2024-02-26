@@ -16,7 +16,8 @@ reverse_depends = "['ark', 'cervisia', 'dolphin', 'dragon', 'filelight', 'kalziu
 +++
 Plugin framework for user interface components.
 
-{{< files text="show files" >}}* /usr/include/KF5/KParts/kde_terminal_interface.h
+## Files: 
+* /usr/include/KF5/KParts/kde_terminal_interface.h
 * /usr/include/KF5/KParts/KParts/BrowserArguments
 * /usr/include/KF5/KParts/kparts/browserarguments.h
 * /usr/include/KF5/KParts/KParts/BrowserExtension
@@ -200,4 +201,3 @@ Plugin framework for user interface components.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kparts5.mo
 * /usr/share/qlogging-categories5/kparts.categories
 * /usr/share/qt5/mkspecs/modules/qt_KParts.pri
-{{< /files >}}

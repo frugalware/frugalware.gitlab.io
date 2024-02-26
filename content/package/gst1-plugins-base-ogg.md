@@ -16,5 +16,5 @@ reverse_depends = "['kamoso']"
 +++
 GStreamer ogg plugin (Base).
 
-{{< files text="show files" >}}* /usr/lib/gstreamer-1.0/libgstogg.so
-{{< /files >}}
+## Files: 
+* /usr/lib/gstreamer-1.0/libgstogg.so

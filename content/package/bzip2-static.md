@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Static files for bzip2
 
-{{< files text="show files" >}}* /usr/lib/libbz2.a
-{{< /files >}}
+## Files: 
+* /usr/lib/libbz2.a

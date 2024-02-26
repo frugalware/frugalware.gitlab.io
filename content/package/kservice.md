@@ -16,7 +16,8 @@ reverse_depends = "['kdeplasma-addons5', 'kdesu', 'kemoticons', 'kglobalaccel', 
 +++
 Plugin framework for desktop services.
 
-{{< files text="show files" >}}* /etc/xdg/menus/applications.menu
+## Files: 
+* /etc/xdg/menus/applications.menu
 * /usr/bin/kbuildsycoca5
 * /usr/include/KF5/KService/KApplicationTrader
 * /usr/include/KF5/KService/kapplicationtrader.h
@@ -190,4 +191,3 @@ Plugin framework for desktop services.
 * /usr/share/qlogging-categories5/kservice.categories
 * /usr/share/qlogging-categories5/kservice.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KService.pri
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['haskell-wai-extra']"
 +++
 A fast, light-weight web server for WAI applications
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/warp-3.3.31/libHSwarp-3.3.31-D722qC70NKg6WEjEWreknu.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/warp-3.3.31/libHSwarp-3.3.31-D722qC70NKg6WEjEWreknu.a
 * /usr/lib/ghc-9.8.1/site-local/warp-3.3.31/Network/Wai/Handler/Warp.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/warp-3.3.31/Network/Wai/Handler/Warp.hi
 * /usr/lib/ghc-9.8.1/site-local/warp-3.3.31/Network/Wai/Handler/Warp/Buffer.dyn_hi
@@ -121,4 +122,3 @@ A fast, light-weight web server for WAI applications
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/warp-3.3.31/LICENSE
 * /usr/share/haskell/haskell-warp/register.sh
 * /usr/share/haskell/haskell-warp/unregister.sh
-{{< /files >}}

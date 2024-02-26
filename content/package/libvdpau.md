@@ -16,7 +16,8 @@ reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'libva-vdpau-driver', 'libvdpau-va-gl
 +++
 VDPAU wrapper library
 
-{{< files text="show files" >}}* /etc/vdpau_wrapper.cfg
+## Files: 
+* /etc/vdpau_wrapper.cfg
 * /usr/include/vdpau/vdpau.h
 * /usr/include/vdpau/vdpau_x11.h
 * /usr/lib/libvdpau.so
@@ -29,4 +30,3 @@ VDPAU wrapper library
 * /usr/share/doc/libvdpau-1.2/AUTHORS
 * /usr/share/doc/libvdpau-1.2/ChangeLog
 * /usr/share/doc/libvdpau-1.2/COPYING
-{{< /files >}}

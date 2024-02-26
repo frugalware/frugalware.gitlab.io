@@ -17,7 +17,8 @@ license = "LGPL2.1"
 +++
 GObject bindings for libudev
 
-{{< files text="show files" >}}* /usr/include/gudev-1.0/gudev/gudev.h
+## Files: 
+* /usr/include/gudev-1.0/gudev/gudev.h
 * /usr/include/gudev-1.0/gudev/gudevclient.h
 * /usr/include/gudev-1.0/gudev/gudevdevice.h
 * /usr/include/gudev-1.0/gudev/gudevenumerator.h
@@ -33,4 +34,3 @@ GObject bindings for libudev
 * /usr/share/doc/libgudev-238/NEWS
 * /usr/share/doc/libgudev-238/README.md
 * /usr/share/gir-1.0/GUdev-1.0.gir
-{{< /files >}}

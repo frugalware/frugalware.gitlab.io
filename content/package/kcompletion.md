@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-contacts', 'dolphin', 'kdebugsettings', 'kldap', 'k
 +++
 Provides widgets with advanced completion support.
 
-{{< files text="show files" >}}* /usr/include/KF5/KCompletion/KComboBox
+## Files: 
+* /usr/include/KF5/KCompletion/KComboBox
 * /usr/include/KF5/KCompletion/kcombobox.h
 * /usr/include/KF5/KCompletion/KCompletion
 * /usr/include/KF5/KCompletion/kcompletion.h
@@ -147,4 +148,3 @@ Provides widgets with advanced completion support.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcompletion5_qt.qm
 * /usr/share/qlogging-categories5/kcompletion.categories
 * /usr/share/qt5/mkspecs/modules/qt_KCompletion.pri
-{{< /files >}}

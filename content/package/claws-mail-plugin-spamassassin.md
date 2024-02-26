@@ -15,5 +15,5 @@ depends = "['claws-mail=4.1.1']"
 +++
 Enables the scanning of incoming mail received from a POP, IMAP, or LOCAL account using SpamAssassin.
 
-{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/spamassassin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/claws-mail/plugins/spamassassin.so

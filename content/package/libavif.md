@@ -16,7 +16,8 @@ reverse_depends = "['darktable', 'kimageformats', 'sdl2_image', 'webkit-gtk3']"
 +++
 Library for encoding and decoding .avif files
 
-{{< files text="show files" >}}* /usr/bin/avifdec
+## Files: 
+* /usr/bin/avifdec
 * /usr/bin/avifenc
 * /usr/include/avif/avif.h
 * /usr/lib/cmake/libavif/libavif-config-release.cmake
@@ -28,4 +29,3 @@ Library for encoding and decoding .avif files
 * /usr/lib/pkgconfig/libavif.pc
 * /usr/share/doc/libavif-1.0.4/LICENSE
 * /usr/share/doc/libavif-1.0.4/README.md
-{{< /files >}}

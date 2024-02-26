@@ -16,10 +16,10 @@ reverse_depends = "['lib32-libsystemd']"
 +++
 Dynamic library for access control list support. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/acl/libacl.h
+## Files: 
+* /usr/i686-frugalware-linux/include/acl/libacl.h
 * /usr/i686-frugalware-linux/include/sys/acl.h
 * /usr/lib32/libacl.so
 * /usr/lib32/libacl.so.1
 * /usr/lib32/libacl.so.1.1.2302
 * /usr/lib32/pkgconfig/libacl.pc
-{{< /files >}}

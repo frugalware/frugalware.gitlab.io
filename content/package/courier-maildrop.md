@@ -15,7 +15,8 @@ depends = "['courier-authlib>=0.69.0', 'glibc>=2.24-4', 'libidn>=1.35']"
 +++
 The Courier maildrop MDA
 
-{{< files text="show files" >}}* /usr/bin/deliverquota.maildrop
+## Files: 
+* /usr/bin/deliverquota.maildrop
 * /usr/bin/lockmail
 * /usr/bin/mailbot
 * /usr/bin/maildirkw
@@ -76,4 +77,3 @@ The Courier maildrop MDA
 * /usr/share/man/man7/maildropfilter.7.gz
 * /usr/share/man/man7/maildropgdbm.7.gz
 * /usr/share/man/man8/deliverquota.8.gz
-{{< /files >}}

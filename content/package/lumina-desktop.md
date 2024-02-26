@@ -15,7 +15,8 @@ depends = "['acpi', 'alsa-utils', 'dbus', 'dejavu-ttf', 'fluxbox', 'noto-fonts',
 +++
 Lumina Desktop Environment.
 
-{{< files text="show files" >}}* /etc/lumina/luminaDesktop.conf
+## Files: 
+* /etc/lumina/luminaDesktop.conf
 * /etc/luminaDesktop.conf.dist
 * /usr/bin/lte
 * /usr/bin/lthemeengine
@@ -1807,4 +1808,3 @@ Lumina Desktop Environment.
 * /usr/share/man/man1/lumina-xconfig.1.gz
 * /usr/share/man/man8/start-lumina-desktop.8.gz
 * /usr/share/xsessions/Lumina-DE.desktop
-{{< /files >}}

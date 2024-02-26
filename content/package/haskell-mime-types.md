@@ -16,7 +16,8 @@ reverse_depends = "['haskell-http-client', 'haskell-wai-app-static']"
 +++
 Basic mime-type handling types and functions
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/mime-types-0.1.2.0/libHSmime-types-0.1.2.0-HTZmk6soDFW41c0Nz1vqM2.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/mime-types-0.1.2.0/libHSmime-types-0.1.2.0-HTZmk6soDFW41c0Nz1vqM2.a
 * /usr/lib/ghc-9.8.1/site-local/mime-types-0.1.2.0/Network/Mime.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/mime-types-0.1.2.0/Network/Mime.hi
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSmime-types-0.1.2.0-HTZmk6soDFW41c0Nz1vqM2-ghc9.8.1.so
@@ -34,4 +35,3 @@ Basic mime-type handling types and functions
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/mime-types-0.1.2.0/LICENSE
 * /usr/share/haskell/haskell-mime-types/register.sh
 * /usr/share/haskell/haskell-mime-types/unregister.sh
-{{< /files >}}

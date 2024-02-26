@@ -15,7 +15,8 @@ depends = "['hunspell>=1.7.0', 'poppler-qt5>=0.60.1-2', 'qt5-base>=5.15.10', 'qt
 +++
 Fork of the LaTeX IDE TexMaker. Gives you an environment where you can easily create and manage LaTeX documents
 
-{{< files text="show files" >}}* /usr/bin/texstudio
+## Files: 
+* /usr/bin/texstudio
 * /usr/share/applications/texstudio.desktop
 * /usr/share/doc/texstudio-4.5.2/COPYING
 * /usr/share/doc/texstudio-4.5.2/INSTALL
@@ -480,4 +481,3 @@ Fork of the LaTeX IDE TexMaker. Gives you an environment where you can easily cr
 * /usr/share/texstudio/_static/underscore-1.13.1.js
 * /usr/share/texstudio/_static/underscore.js
 * /usr/share/texstudio/_static/_sphinx_javascript_frameworks_compat.js
-{{< /files >}}

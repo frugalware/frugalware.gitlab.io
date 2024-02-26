@@ -15,7 +15,8 @@ depends = "['libgcc']"
 +++
 A new implementation of the C++ standard library
 
-{{< files text="show files" >}}* /usr/include/c++/v1/algorithm
+## Files: 
+* /usr/include/c++/v1/algorithm
 * /usr/include/c++/v1/any
 * /usr/include/c++/v1/array
 * /usr/include/c++/v1/atomic
@@ -1034,4 +1035,3 @@ A new implementation of the C++ standard library
 * /usr/lib/x86_64-frugalware-linux/libc++abi.so
 * /usr/lib/x86_64-frugalware-linux/libc++abi.so.1
 * /usr/lib/x86_64-frugalware-linux/libc++abi.so.1.0
-{{< /files >}}

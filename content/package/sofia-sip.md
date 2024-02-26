@@ -16,7 +16,8 @@ reverse_depends = "['telepathy-sofiasip']"
 +++
 Sofia-SIP is an open-source SIP User-Agent library
 
-{{< files text="show files" >}}* /usr/bin/addrinfo
+## Files: 
+* /usr/bin/addrinfo
 * /usr/bin/localinfo
 * /usr/bin/sip-date
 * /usr/bin/sip-dig
@@ -159,4 +160,3 @@ Sofia-SIP is an open-source SIP User-Agent library
 * /usr/share/man/man1/stunc.1.gz
 * /usr/share/sofia-sip/msg_parser.awk
 * /usr/share/sofia-sip/tag_dll.awk
-{{< /files >}}

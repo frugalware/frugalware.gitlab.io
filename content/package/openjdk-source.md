@@ -15,5 +15,5 @@ depends = "['openjdk=21.0.3']"
 +++
 Java Development Kit source-code.
 
-{{< files text="show files" >}}* /usr/lib/jvm/java-21-openjdk/lib/src.zip
-{{< /files >}}
+## Files: 
+* /usr/lib/jvm/java-21-openjdk/lib/src.zip

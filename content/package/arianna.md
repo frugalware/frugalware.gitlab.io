@@ -15,7 +15,8 @@ depends = "['baloo5>=', 'kirigami-addons', 'kquickcharts>=', 'qqc2-desktop-style
 +++
 EPub Reader for mobile devices
 
-{{< files text="show files" >}}* /usr/bin/arianna
+## Files: 
+* /usr/bin/arianna
 * /usr/share/applications/org.kde.arianna.desktop
 * /usr/share/doc/arianna-23.08.5/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.arianna.svg
@@ -50,4 +51,3 @@ EPub Reader for mobile devices
 * /usr/share/locale/zh_CN/LC_MESSAGES/arianna.mo
 * /usr/share/metainfo/org.kde.arianna.appdata.xml
 * /usr/share/qlogging-categories5/arianna.categories
-{{< /files >}}

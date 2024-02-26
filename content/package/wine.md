@@ -16,7 +16,8 @@ reverse_depends = "['winetricks']"
 +++
 An Open Source implementation of the Windows API on top of X and Unix. (Stable)
 
-{{< files text="show files" >}}* /etc/binfmt.d/wine.conf
+## Files: 
+* /etc/binfmt.d/wine.conf
 * /usr/bin/function_grep.pl
 * /usr/bin/msidb
 * /usr/bin/msiexec
@@ -4992,4 +4993,3 @@ An Open Source implementation of the Windows API on top of X and Unix. (Stable)
 * /usr/share/wine/nls/normnfkd.nls
 * /usr/share/wine/nls/sortdefault.nls
 * /usr/share/wine/wine.inf
-{{< /files >}}

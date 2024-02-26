@@ -16,7 +16,8 @@ reverse_depends = "['arpack-ng', 'gcc-gfortran', 'hdf5-fortran', 'julia', 'lapac
 +++
 Fortran 95 runtime
 
-{{< files text="show files" >}}* /usr/lib/libgfortran.a
+## Files: 
+* /usr/lib/libgfortran.a
 * /usr/lib/libgfortran.so
 * /usr/lib/libgfortran.so.5
 * /usr/lib/libgfortran.so.5.0.0
@@ -26,4 +27,3 @@ Fortran 95 runtime
 * /usr/lib32/libgfortran.so.5
 * /usr/lib32/libgfortran.so.5.0.0
 * /usr/lib32/libgfortran.spec
-{{< /files >}}

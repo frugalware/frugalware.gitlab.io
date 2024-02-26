@@ -15,7 +15,7 @@ depends = "['libmediainfo>=23.09']"
 +++
 MediaInfo supplies technical and tag information about a video or audio file.
 
-{{< files text="show files" >}}* /usr/bin/mediainfo
+## Files: 
+* /usr/bin/mediainfo
 * /usr/share/doc/mediainfo-23.09/LICENSE
 * /usr/share/doc/mediainfo-23.09/README.md
-{{< /files >}}

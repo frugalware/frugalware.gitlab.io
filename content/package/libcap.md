@@ -16,7 +16,8 @@ reverse_depends = "['android-tools', 'cdrtools', 'chrony', 'coreutils', 'gstream
 +++
 POSIX 1003.1e capabilities
 
-{{< files text="show files" >}}* /usr/bin/capsh
+## Files: 
+* /usr/bin/capsh
 * /usr/bin/getcap
 * /usr/bin/getpcaps
 * /usr/bin/setcap
@@ -112,4 +113,3 @@ POSIX 1003.1e capabilities
 * /usr/share/man/man8/getcap.8.gz
 * /usr/share/man/man8/getpcaps.8.gz
 * /usr/share/man/man8/setcap.8.gz
-{{< /files >}}

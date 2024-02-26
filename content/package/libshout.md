@@ -16,7 +16,8 @@ reverse_depends = "['audacious-plugin-icecast', 'gst1-plugins-good-shout', 'ices
 +++
 Library which can be used to write a source client like ices.
 
-{{< files text="show files" >}}* /usr/include/shout/shout.h
+## Files: 
+* /usr/include/shout/shout.h
 * /usr/lib/ckport/db/libshout.ckport
 * /usr/lib/libshout.so
 * /usr/lib/libshout.so.3
@@ -30,4 +31,3 @@ Library which can be used to write a source client like ices.
 * /usr/share/doc/libshout-2.4.6/nonblocking.c
 * /usr/share/doc/libshout-2.4.6/README
 * /usr/share/man/man1/shout.1.gz
-{{< /files >}}

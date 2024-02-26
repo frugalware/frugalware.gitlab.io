@@ -15,7 +15,8 @@ depends = "['libblas>=3.12.0', 'libgfortran>=11.2']"
 +++
 C Standard Interface to BLAS Basic Linear Algebra Subprograms.
 
-{{< files text="show files" >}}* /usr/include/cblas_64.h
+## Files: 
+* /usr/include/cblas_64.h
 * /usr/lib/cmake/cblas64-3.12.0/cblas64-config-version.cmake
 * /usr/lib/cmake/cblas64-3.12.0/cblas64-config.cmake
 * /usr/lib/cmake/cblas64-3.12.0/cblas64-targets-release.cmake
@@ -24,4 +25,3 @@ C Standard Interface to BLAS Basic Linear Algebra Subprograms.
 * /usr/lib/libcblas64.so.3
 * /usr/lib/libcblas64.so.3.12.0
 * /usr/lib/pkgconfig/cblas64.pc
-{{< /files >}}

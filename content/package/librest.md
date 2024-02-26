@@ -16,7 +16,8 @@ reverse_depends = "['libgovirt']"
 +++
 This library was designed to make it easier to access web services
 
-{{< files text="show files" >}}* /usr/include/rest-1.0/rest-extras/flickr-proxy-call.h
+## Files: 
+* /usr/include/rest-1.0/rest-extras/flickr-proxy-call.h
 * /usr/include/rest-1.0/rest-extras/flickr-proxy.h
 * /usr/include/rest-1.0/rest-extras/lastfm-proxy-call.h
 * /usr/include/rest-1.0/rest-extras/lastfm-proxy.h
@@ -277,4 +278,3 @@ This library was designed to make it easier to access web services
 * /usr/share/doc/librest-1.0/vfunc.ProxyCall.serialize_params.html
 * /usr/share/gir-1.0/Rest-1.0.gir
 * /usr/share/gir-1.0/RestExtras-1.0.gir
-{{< /files >}}

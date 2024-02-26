@@ -15,7 +15,8 @@ depends = "['python3-hatchling', 'python3-setuptools_scm']"
 +++
 Hatch plugin for versioning with your preferred VCS
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/hatch_vcs-0.4.0.dist-info/entry_points.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/hatch_vcs-0.4.0.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/hatch_vcs-0.4.0.dist-info/licenses/LICENSE.txt
 * /usr/lib/python3.12/site-packages/hatch_vcs-0.4.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/hatch_vcs-0.4.0.dist-info/RECORD
@@ -42,4 +43,3 @@ Hatch plugin for versioning with your preferred VCS
 * /usr/lib/python3.12/site-packages/hatch_vcs/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/hatch_vcs/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-hatch-vcs-0.4.0/README.md
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libkdegames>=23.08.5', 'libkmahjongg>=23.08.5']"
 +++
 KMahjongg is a tile matching game for one or two players
 
-{{< files text="show files" >}}* /usr/bin/kmahjongg
+## Files: 
+* /usr/bin/kmahjongg
 * /usr/share/applications/org.kde.kmahjongg.desktop
 * /usr/share/config.kcfg/kmahjongg.kcfg
 * /usr/share/doc/HTML/ca/kmahjongg/config.png
@@ -341,4 +342,3 @@ KMahjongg is a tile matching game for one or two players
 * /usr/share/locale/zh_TW/LC_MESSAGES/kmahjongg.mo
 * /usr/share/metainfo/org.kde.kmahjongg.appdata.xml
 * /usr/share/qlogging-categories5/kmahjongg.categories
-{{< /files >}}

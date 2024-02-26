@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Headers and cmake files for vtk
 
-{{< files text="show files" >}}* /usr/include/fides/predefined/DataModelFactory.h
+## Files: 
+* /usr/include/fides/predefined/DataModelFactory.h
 * /usr/include/fides/predefined/DataModelHelperFunctions.h
 * /usr/include/fides/predefined/InternalMetadataSource.h
 * /usr/include/fides/predefined/PredefinedDataModel.h
@@ -5565,4 +5566,3 @@ Headers and cmake files for vtk
 * /usr/lib/cmake/vtk-9.3/vtkTestingDriver.cmake
 * /usr/lib/cmake/vtk-9.3/vtkTestingRenderingDriver.cmake
 * /usr/lib/cmake/vtk-9.3/vtkTopologicalSort.cmake
-{{< /files >}}

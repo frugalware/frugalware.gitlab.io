@@ -16,7 +16,8 @@ reverse_depends = "['freecell-solver', 'gtk-doc', 'html5lib-python', 'lutris', '
 +++
 Python 3 compatibility utilities
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/six-1.16.0-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/six-1.16.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/six-1.16.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/six-1.16.0-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/six-1.16.0-py3.12.egg-info/top_level.txt
@@ -25,4 +26,3 @@ Python 3 compatibility utilities
 * /usr/share/doc/python3-six-1.16.0/CHANGES
 * /usr/share/doc/python3-six-1.16.0/LICENSE
 * /usr/share/doc/python3-six-1.16.0/README.rst
-{{< /files >}}

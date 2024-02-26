@@ -15,7 +15,8 @@ depends = "[]"
 +++
 KShowmail is a POP3 mail checker for the KDE.
 
-{{< files text="show files" >}}* usr/bin/kshowmail
+## Files: 
+* usr/bin/kshowmail
 * usr/lib/kde3/kcm_kshowmailconfigaccounts.la
 * usr/lib/kde3/kcm_kshowmailconfigaccounts.so
 * usr/lib/kde3/kcm_kshowmailconfigactions.la
@@ -80,4 +81,3 @@ KShowmail is a POP3 mail checker for the KDE.
 * usr/share/services/kshowmailconfiggeneral.desktop
 * usr/share/services/kshowmailconfiglog.desktop
 * usr/share/services/kshowmailconfigspamcheck.desktop
-{{< /files >}}

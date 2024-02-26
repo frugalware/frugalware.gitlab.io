@@ -15,7 +15,8 @@ depends = "['glibc>=2.25']"
 +++
 Embeddable, quick, light and fully compliant ISO C99 preprocessor.
 
-{{< files text="show files" >}}* /usr/bin/ucpp
+## Files: 
+* /usr/bin/ucpp
 * /usr/include/libucpp/cpp.h
 * /usr/include/libucpp/hash.h
 * /usr/include/libucpp/mem.h
@@ -35,4 +36,3 @@ Embeddable, quick, light and fully compliant ISO C99 preprocessor.
 * /usr/share/doc/ucpp-1.3.5/TODO
 * /usr/share/doc/ucpp-1.3.5/VERSION
 * /usr/share/man/man1/ucpp.1.gz
-{{< /files >}}

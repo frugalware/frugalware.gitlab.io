@@ -16,7 +16,8 @@ reverse_depends = "['calf', 'qtractor']"
 +++
 DSSI is an API for audio processing plugins.
 
-{{< files text="show files" >}}* /usr/bin/dssi_analyse_plugin
+## Files: 
+* /usr/bin/dssi_analyse_plugin
 * /usr/bin/dssi_list_plugins
 * /usr/bin/dssi_osc_send
 * /usr/bin/dssi_osc_update
@@ -40,4 +41,3 @@ DSSI is an API for audio processing plugins.
 * /usr/share/man/man1/dssi_osc_send.1.gz
 * /usr/share/man/man1/dssi_osc_update.1.gz
 * /usr/share/man/man1/jack-dssi-host.1.gz
-{{< /files >}}

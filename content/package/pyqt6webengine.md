@@ -16,7 +16,8 @@ reverse_depends = "['calibre']"
 +++
 Python bindings for Qt6WebEngine
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtWebEngineCore/QtWebEngineCore.toml
+## Files: 
+* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtWebEngineCore/QtWebEngineCore.toml
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtWebEngineCore/qtwebenginecoreglobal.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtWebEngineCore/QtWebEngineCoremod.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtWebEngineCore/qwebenginecertificateerror.sip
@@ -64,4 +65,3 @@ Python bindings for Qt6WebEngine
 * /usr/share/doc/pyqt6webengine-6.6.0/LICENSE
 * /usr/share/doc/pyqt6webengine-6.6.0/NEWS
 * /usr/share/doc/pyqt6webengine-6.6.0/README
-{{< /files >}}

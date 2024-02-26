@@ -16,5 +16,5 @@ reverse_depends = "['bcpg', 'bcutil']"
 +++
 Java cryptography APIs.
 
-{{< files text="show files" >}}* /usr/share/java/bcprov.jar
-{{< /files >}}
+## Files: 
+* /usr/share/java/bcprov.jar

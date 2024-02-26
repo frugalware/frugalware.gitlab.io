@@ -16,7 +16,8 @@ reverse_depends = "['lirc', 'mencoder', 'mplayer', 'mpv', 'pulseaudio-lirc']"
 +++
 Client library for lirc.
 
-{{< files text="show files" >}}* /usr/include/lirc/ciniparser.h
+## Files: 
+* /usr/include/lirc/ciniparser.h
 * /usr/include/lirc/config.h
 * /usr/include/lirc/config_file.h
 * /usr/include/lirc/config_flags.h
@@ -143,4 +144,3 @@ Client library for lirc.
 * /usr/lib/systemd/system/lircd.service
 * /usr/lib/systemd/system/lircd.socket
 * /usr/lib/systemd/system/lircmd.service
-{{< /files >}}

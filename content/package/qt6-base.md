@@ -16,7 +16,8 @@ reverse_depends = "['alizams', 'gottet', 'ladybird', 'poppler-qt6', 'pyqt6', 'qt
 +++
 The Qt6 toolkit, qtbase
 
-{{< files text="show files" >}}* /usr/bin/androiddeployqt6
+## Files: 
+* /usr/bin/androiddeployqt6
 * /usr/bin/qmake6
 * /usr/include/qt6/QtConcurrent/qtaskbuilder.h
 * /usr/include/qt6/QtConcurrent/QtConcurrent
@@ -3857,4 +3858,3 @@ The Qt6 toolkit, qtbase
 * /usr/share/doc/qt6/global/template/style/online.css
 * /usr/share/doc/qt6/global/template/style/tech_preview.svg
 * /usr/share/doc/qt6/global/template/style/theqtcompany.png
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['greetd', 'qt5-base>=5.15.10', 'qt5-wayland>=5.15.10', 'wlroots']"
 +++
 Qt based greeter for greetd
 
-{{< files text="show files" >}}* /etc/qtgreet/config.ini
+## Files: 
+* /etc/qtgreet/config.ini
 * /etc/qtgreet/wayfire.ini
 * /usr/bin/qtgreet
 * /usr/share/doc/greetd-qtgreet-1.0.0/Changelog
@@ -30,4 +31,3 @@ Qt based greeter for greetd
 * /usr/share/qtgreet/Changelog
 * /usr/share/qtgreet/README.md
 * /usr/share/qtgreet/ReleaseNotes
-{{< /files >}}

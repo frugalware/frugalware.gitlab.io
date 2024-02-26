@@ -16,7 +16,8 @@ reverse_depends = "['duplicity']"
 +++
 Python interface to Amazon Web Services
 
-{{< files text="show files" >}}* /usr/bin/asadmin
+## Files: 
+* /usr/bin/asadmin
 * /usr/bin/bundle_image
 * /usr/bin/cfadmin
 * /usr/bin/cq
@@ -798,4 +799,3 @@ Python interface to Amazon Web Services
 * /usr/lib/python3.12/site-packages/boto/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-boto-2.49.0/LICENSE
 * /usr/share/doc/python3-boto-2.49.0/README.rst
-{{< /files >}}

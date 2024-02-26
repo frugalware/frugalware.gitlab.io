@@ -15,7 +15,8 @@ depends = "['libuv', 'libxml2>=2.9.3-3', 'ncurses>=6.1-2', 'nghttp2', 'openssl>=
 +++
 DNS server and utilities
 
-{{< files text="show files" >}}* /etc/bind.keys
+## Files: 
+* /etc/bind.keys
 * /etc/logrotate.d/bind
 * /etc/named.conf
 * /usr/bin/arpaname
@@ -330,4 +331,3 @@ DNS server and utilities
 * /var/named/caching-example/localhost.zone
 * /var/named/caching-example/named.local
 * /var/named/caching-example/named.root
-{{< /files >}}

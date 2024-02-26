@@ -16,7 +16,8 @@ reverse_depends = "['kirigami2', 'meshroom', 'plank-player', 'plasma-desktop']"
 +++
 The Qt5 toolkit, qtgraphicaleffects
 
-{{< files text="show files" >}}* /usr/share/qt5/qml/QtGraphicalEffects/Blend.qml
+## Files: 
+* /usr/share/qt5/qml/QtGraphicalEffects/Blend.qml
 * /usr/share/qt5/qml/QtGraphicalEffects/BrightnessContrast.qml
 * /usr/share/qt5/qml/QtGraphicalEffects/Colorize.qml
 * /usr/share/qt5/qml/QtGraphicalEffects/ColorOverlay.qml
@@ -62,4 +63,3 @@ The Qt5 toolkit, qtgraphicaleffects
 * /usr/share/qt5/qml/QtGraphicalEffects/RecursiveBlur.qml
 * /usr/share/qt5/qml/QtGraphicalEffects/ThresholdMask.qml
 * /usr/share/qt5/qml/QtGraphicalEffects/ZoomBlur.qml
-{{< /files >}}

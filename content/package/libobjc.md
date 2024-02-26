@@ -16,7 +16,8 @@ reverse_depends = "['gcc-objc']"
 +++
 Objective-C runtime
 
-{{< files text="show files" >}}* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/objc/message.h
+## Files: 
+* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/objc/message.h
 * /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/objc/NXConstStr.h
 * /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/objc/objc-decls.h
 * /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/objc/objc-exception.h
@@ -34,4 +35,3 @@ Objective-C runtime
 * /usr/lib32/libobjc.so
 * /usr/lib32/libobjc.so.4
 * /usr/lib32/libobjc.so.4.0.0
-{{< /files >}}

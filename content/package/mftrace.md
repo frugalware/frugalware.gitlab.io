@@ -15,7 +15,8 @@ depends = "['fontforge>=20190317', 'potrace', 'python3', 't1utils', 'texlive']"
 +++
 Trace a TeX bitmap font into a PFA or PFB font
 
-{{< files text="show files" >}}* /usr/bin/gf2pbm
+## Files: 
+* /usr/bin/gf2pbm
 * /usr/bin/mftrace
 * /usr/share/doc/mftrace-1.2.20/ChangeLog
 * /usr/share/doc/mftrace-1.2.20/COPYING
@@ -26,4 +27,3 @@ Trace a TeX bitmap font into a PFA or PFB font
 * /usr/share/mftrace/tfm.py
 * /usr/share/mftrace/__pycache__/afm.cpython-311.pyc
 * /usr/share/mftrace/__pycache__/tfm.cpython-311.pyc
-{{< /files >}}

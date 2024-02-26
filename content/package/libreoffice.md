@@ -16,7 +16,8 @@ reverse_depends = "['libreoffice-gtk3', 'libreoffice-gtk3-kde5', 'libreoffice-kd
 +++
 Free Software Productivity Suite
 
-{{< files text="show files" >}}* /usr/bin/libreoffice
+## Files: 
+* /usr/bin/libreoffice
 * /usr/bin/lobase
 * /usr/bin/localc
 * /usr/bin/lodraw
@@ -3480,4 +3481,3 @@ Free Software Productivity Suite
 * /usr/share/man/man1/libreoffice.1.gz
 * /usr/share/man/man1/unopkg.1.gz
 * /usr/share/mime/packages/libreoffice.xml
-{{< /files >}}

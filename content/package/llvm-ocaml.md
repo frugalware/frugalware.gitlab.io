@@ -15,7 +15,8 @@ depends = "['llvm>=17.0.6', 'ocaml>=4.10.0']"
 +++
 OCaml bindings for LLVM
 
-{{< files text="show files" >}}* /usr/lib/cmake/llvm/AddOCaml.cmake
+## Files: 
+* /usr/lib/cmake/llvm/AddOCaml.cmake
 * /usr/lib/cmake/llvm/FindOCaml.cmake
 * /usr/lib/ocaml/llvm/llvm.cma
 * /usr/lib/ocaml/llvm/llvm.cmi
@@ -247,4 +248,3 @@ OCaml bindings for LLVM
 * /usr/lib/ocaml/META.llvm_WebAssembly
 * /usr/lib/ocaml/META.llvm_X86
 * /usr/lib/ocaml/META.llvm_XCore
-{{< /files >}}

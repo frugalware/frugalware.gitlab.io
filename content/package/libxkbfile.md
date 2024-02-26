@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 The xkbfile Library
 
-{{< files text="show files" >}}* /usr/include/X11/extensions/XKBbells.h
+## Files: 
+* /usr/include/X11/extensions/XKBbells.h
 * /usr/include/X11/extensions/XKBconfig.h
 * /usr/include/X11/extensions/XKBfile.h
 * /usr/include/X11/extensions/XKBrules.h
@@ -31,4 +32,3 @@ The xkbfile Library
 * /usr/share/doc/libxkbfile-1.1.3/COPYING
 * /usr/share/doc/libxkbfile-1.1.3/INSTALL
 * /usr/share/doc/libxkbfile-1.1.3/README.md
-{{< /files >}}

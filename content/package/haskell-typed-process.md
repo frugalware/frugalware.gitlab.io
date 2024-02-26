@@ -16,7 +16,8 @@ reverse_depends = "['haskell-conduit-extra']"
 +++
 Run external processes, with strong typing of streams
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/typed-process-0.2.11.1/libHStyped-process-0.2.11.1-C3IUulLJ51IASq1jeqc02y.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/typed-process-0.2.11.1/libHStyped-process-0.2.11.1-C3IUulLJ51IASq1jeqc02y.a
 * /usr/lib/ghc-9.8.1/site-local/typed-process-0.2.11.1/Paths_typed_process.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/typed-process-0.2.11.1/Paths_typed_process.hi
 * /usr/lib/ghc-9.8.1/site-local/typed-process-0.2.11.1/System/Process/Typed.dyn_hi
@@ -39,4 +40,3 @@ Run external processes, with strong typing of streams
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/typed-process-0.2.11.1/LICENSE
 * /usr/share/haskell/haskell-typed-process/register.sh
 * /usr/share/haskell/haskell-typed-process/unregister.sh
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['greetd-qtgreet']"
 +++
 Generic greeter daemon
 
-{{< files text="show files" >}}* /etc/greetd/config.toml
+## Files: 
+* /etc/greetd/config.toml
 * /etc/pam.d/greetd
 * /usr/bin/agreety
 * /usr/bin/greetd
@@ -24,4 +25,3 @@ Generic greeter daemon
 * /usr/lib/sysusers.d/greetd.conf
 * /usr/share/doc/greetd-0.9.0/LICENSE
 * /usr/share/doc/greetd-0.9.0/README.md
-{{< /files >}}

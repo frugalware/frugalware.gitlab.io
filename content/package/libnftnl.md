@@ -16,7 +16,8 @@ reverse_depends = "['iptables', 'nftables']"
 +++
 A low-level netlink programming interface.
 
-{{< files text="show files" >}}* /usr/include/libnftnl/batch.h
+## Files: 
+* /usr/include/libnftnl/batch.h
 * /usr/include/libnftnl/chain.h
 * /usr/include/libnftnl/common.h
 * /usr/include/libnftnl/expr.h
@@ -34,4 +35,3 @@ A low-level netlink programming interface.
 * /usr/lib/libnftnl.so.11.6.0
 * /usr/lib/pkgconfig/libnftnl.pc
 * /usr/share/doc/libnftnl-1.2.6/COPYING
-{{< /files >}}

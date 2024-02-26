@@ -15,7 +15,8 @@ depends = "['gtk+3', 'xdg-user-dirs']"
 +++
 Gnome integration of special directories
 
-{{< files text="show files" >}}* /etc/xdg/autostart/user-dirs-update-gtk.desktop
+## Files: 
+* /etc/xdg/autostart/user-dirs-update-gtk.desktop
 * /usr/bin/xdg-user-dirs-gtk-update
 * /usr/share/doc/xdg-user-dirs-gtk-0.11/AUTHORS
 * /usr/share/doc/xdg-user-dirs-gtk-0.11/ChangeLog
@@ -100,4 +101,3 @@ Gnome integration of special directories
 * /usr/share/locale/zh_CN/LC_MESSAGES/xdg-user-dirs-gtk.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/xdg-user-dirs-gtk.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/xdg-user-dirs-gtk.mo
-{{< /files >}}

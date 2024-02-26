@@ -15,5 +15,5 @@ depends = "['libqtphonon']"
 +++
 Qt4 Phonon Backend(s) Plugin
 
-{{< files text="show files" >}}* usr/lib/qt4/plugins/phonon_backend/libphonon_gstreamer.so
-{{< /files >}}
+## Files: 
+* usr/lib/qt4/plugins/phonon_backend/libphonon_gstreamer.so

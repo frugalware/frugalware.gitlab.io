@@ -16,7 +16,8 @@ reverse_depends = "['perl-mailtools']"
 +++
 Parse date strings into time values
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/Date/Format.pm
+## Files: 
+* /usr/lib/perl5/site_perl/Date/Format.pm
 * /usr/lib/perl5/site_perl/Date/Language.pm
 * /usr/lib/perl5/site_perl/Date/Language/Afar.pm
 * /usr/lib/perl5/site_perl/Date/Language/Amharic.pm
@@ -65,4 +66,3 @@ Parse date strings into time values
 * /usr/share/man/man3/Date::Parse.3perl.gz
 * /usr/share/man/man3/Time::Zone.3perl.gz
 * /usr/share/man/man3/TimeDate.3perl.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['haskell-servant']"
 +++
 Parsing of aeson's Value with attoparsec
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/attoparsec-aeson-2.2.0.1/Data/Aeson/Internal/ByteString.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/attoparsec-aeson-2.2.0.1/Data/Aeson/Internal/ByteString.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/attoparsec-aeson-2.2.0.1/Data/Aeson/Internal/ByteString.hi
 * /usr/lib/ghc-9.8.1/site-local/attoparsec-aeson-2.2.0.1/Data/Aeson/Internal/Text.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/attoparsec-aeson-2.2.0.1/Data/Aeson/Internal/Text.hi
@@ -42,4 +43,3 @@ Parsing of aeson's Value with attoparsec
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/attoparsec-aeson-2.2.0.1/LICENSE
 * /usr/share/haskell/haskell-attoparsec-aeson/register.sh
 * /usr/share/haskell/haskell-attoparsec-aeson/unregister.sh
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['pandoc']"
 +++
 Generates citations and bibliography from CSL styles.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/citeproc-0.8.1/Citeproc.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/citeproc-0.8.1/Citeproc.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/citeproc-0.8.1/Citeproc.hi
 * /usr/lib/ghc-9.8.1/site-local/citeproc-0.8.1/Citeproc/CaseTransform.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/citeproc-0.8.1/Citeproc/CaseTransform.hi
@@ -85,4 +86,3 @@ Generates citations and bibliography from CSL styles.
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/citeproc-0.8.1/LICENSE
 * /usr/share/haskell/haskell-citeproc/register.sh
 * /usr/share/haskell/haskell-citeproc/unregister.sh
-{{< /files >}}

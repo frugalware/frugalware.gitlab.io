@@ -15,7 +15,8 @@ depends = "['aspell']"
 +++
 GNU Aspell English Word List Package
 
-{{< files text="show files" >}}* usr/lib/aspell-0.60/american-w-accents.alias
+## Files: 
+* usr/lib/aspell-0.60/american-w-accents.alias
 * usr/lib/aspell-0.60/american.alias
 * usr/lib/aspell-0.60/british-w-accents.alias
 * usr/lib/aspell-0.60/british.alias
@@ -36,4 +37,3 @@ GNU Aspell English Word List Package
 * usr/lib/aspell-0.60/en_US-w-accents.multi
 * usr/lib/aspell-0.60/en_US.multi
 * usr/share/doc/aspell-en-0.51r1/README
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['haskell-syb']"
 +++
 This library provides a parser and pretty printer for converting between Haskell values and JSON.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/json-0.11/libHSjson-0.11-22QoS7vWhQiUsaRECvh1I.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/json-0.11/libHSjson-0.11-22QoS7vWhQiUsaRECvh1I.a
 * /usr/lib/ghc-9.8.1/site-local/json-0.11/Text/JSON.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/json-0.11/Text/JSON.hi
 * /usr/lib/ghc-9.8.1/site-local/json-0.11/Text/JSON/Generic.dyn_hi
@@ -73,4 +74,3 @@ This library provides a parser and pretty printer for converting between Haskell
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/json-0.11/LICENSE
 * /usr/share/haskell/haskell-json/register.sh
 * /usr/share/haskell/haskell-json/unregister.sh
-{{< /files >}}

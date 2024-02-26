@@ -16,11 +16,11 @@ reverse_depends = "['openttd']"
 +++
 Graphic data files for openttd.
 
-{{< files text="show files" >}}* /usr/share/openttd/data/ogfx1_base.grf
+## Files: 
+* /usr/share/openttd/data/ogfx1_base.grf
 * /usr/share/openttd/data/ogfxc_arctic.grf
 * /usr/share/openttd/data/ogfxe_extra.grf
 * /usr/share/openttd/data/ogfxh_tropical.grf
 * /usr/share/openttd/data/ogfxi_logos.grf
 * /usr/share/openttd/data/ogfxt_toyland.grf
 * /usr/share/openttd/data/opengfx.obg
-{{< /files >}}

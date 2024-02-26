@@ -16,7 +16,8 @@ reverse_depends = "['yin-yang']"
 +++
 The PySide project provides LGPL-licensed Python bindings for the Qt cross-platform application and UI framework.
 
-{{< files text="show files" >}}* /usr/include/PySide6/class_property.h
+## Files: 
+* /usr/include/PySide6/class_property.h
 * /usr/include/PySide6/dynamicqmetaobject.h
 * /usr/include/PySide6/feature_select.h
 * /usr/include/PySide6/globalreceiverv2.h
@@ -388,4 +389,3 @@ The PySide project provides LGPL-licensed Python bindings for the Qt cross-platf
 * /usr/share/PySide6/typesystems/typesystem_widgets_common.xml
 * /usr/share/PySide6/typesystems/typesystem_xml.xml
 * /usr/share/PySide6/typesystems/widgets_common.xml
-{{< /files >}}

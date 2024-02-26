@@ -16,7 +16,8 @@ reverse_depends = "['libreoffice', 'lyx']"
 +++
 A thesaurus library
 
-{{< files text="show files" >}}* /usr/bin/th_gen_idx.pl
+## Files: 
+* /usr/bin/th_gen_idx.pl
 * /usr/include/mythes.hxx
 * /usr/lib/libmythes-1.2.la
 * /usr/lib/libmythes-1.2.so
@@ -28,4 +29,3 @@ A thesaurus library
 * /usr/share/doc/mythes-1.2.4/COPYING
 * /usr/share/doc/mythes-1.2.4/INSTALL
 * /usr/share/doc/mythes-1.2.4/README
-{{< /files >}}

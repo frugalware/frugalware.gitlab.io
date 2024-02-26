@@ -15,7 +15,8 @@ depends = "['bash']"
 +++
 Open source security auditing tool.
 
-{{< files text="show files" >}}* /etc/lynis/default.prf
+## Files: 
+* /etc/lynis/default.prf
 * /etc/lynis/plugins/custom_plugin.template
 * /etc/lynis/README
 * /usr/bin/lynis
@@ -124,4 +125,3 @@ Open source security auditing tool.
 * /usr/share/lynis/include/tests_virtualization
 * /usr/share/lynis/include/tests_webservers
 * /usr/share/lynis/include/tool_tips
-{{< /files >}}

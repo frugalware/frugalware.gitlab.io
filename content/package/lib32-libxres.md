@@ -15,9 +15,9 @@ depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxau>=1.0.8-3', 'lib32-libxext>=1.
 +++
 X Resource Information Extension Library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/XRes.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/extensions/XRes.h
 * /usr/lib32/libXRes.so
 * /usr/lib32/libXRes.so.1
 * /usr/lib32/libXRes.so.1.0.0
 * /usr/lib32/pkgconfig/xres.pc
-{{< /files >}}

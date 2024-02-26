@@ -16,7 +16,8 @@ reverse_depends = "['fontconfig', 'glibc', 'kernel-initrd', 'kernel-lts-initrd',
 +++
 Basic Frugalware Linux filesystem package
 
-{{< files text="show files" >}}* /bin
+## Files: 
+* /bin
 * /etc/frugalware-release
 * /etc/issue
 * /etc/issue.net
@@ -56,4 +57,3 @@ Basic Frugalware Linux filesystem package
 * /var/adm
 * /var/mail
 * /var/run
-{{< /files >}}

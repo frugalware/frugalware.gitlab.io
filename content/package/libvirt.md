@@ -16,7 +16,8 @@ reverse_depends = "['libguestfs', 'libvirt-glib', 'libvirt-python3', 'qt-virt-ma
 +++
 libvirt is a library providing access to information from various virtualization tools
 
-{{< files text="show files" >}}* /etc/libvirt/libvirt-admin.conf
+## Files: 
+* /etc/libvirt/libvirt-admin.conf
 * /etc/libvirt/libvirt.conf
 * /etc/libvirt/libvirtd.conf
 * /etc/libvirt/lxc.conf
@@ -748,4 +749,3 @@ libvirt is a library providing access to information from various virtualization
 * /usr/share/polkit-1/actions/org.libvirt.api.policy
 * /usr/share/polkit-1/actions/org.libvirt.unix.policy
 * /usr/share/polkit-1/rules.d/50-libvirt.rules
-{{< /files >}}

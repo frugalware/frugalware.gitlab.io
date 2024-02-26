@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 Transducers for C++
 
-{{< files text="show files" >}}* /usr/include/zug/any_state.hpp
+## Files: 
+* /usr/include/zug/any_state.hpp
 * /usr/include/zug/compat/apply.hpp
 * /usr/include/zug/compat/invoke.hpp
 * /usr/include/zug/compose.hpp
@@ -101,4 +102,3 @@ Transducers for C++
 * /usr/lib/cmake/Zug/ZugConfig.cmake
 * /usr/share/doc/zug-0.1.0/LICENSE
 * /usr/share/doc/zug-0.1.0/README.rst
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['wine', 'wine-devel']"
 +++
 Direct3D 12 to Vulkan translation library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/vkd3d-compiler
+## Files: 
+* /usr/i686-frugalware-linux/bin/vkd3d-compiler
 * /usr/i686-frugalware-linux/bin/vkd3d-dxbc
 * /usr/i686-frugalware-linux/include/vkd3d/vkd3d.h
 * /usr/i686-frugalware-linux/include/vkd3d/vkd3d_d3d12.h
@@ -44,4 +45,3 @@ Direct3D 12 to Vulkan translation library ( 32bit )
 * /usr/lib32/pkgconfig/libvkd3d-shader.pc
 * /usr/lib32/pkgconfig/libvkd3d-utils.pc
 * /usr/lib32/pkgconfig/libvkd3d.pc
-{{< /files >}}

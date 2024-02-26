@@ -16,7 +16,8 @@ reverse_depends = "['sord']"
 +++
 Serd is a lightweight C library for RDF syntax which supports reading and writing Turtle and NTriples.
 
-{{< files text="show files" >}}* /usr/bin/serdi
+## Files: 
+* /usr/bin/serdi
 * /usr/include/serd-0/serd/serd.h
 * /usr/lib/libserd-0.so
 * /usr/lib/libserd-0.so.0
@@ -28,4 +29,3 @@ Serd is a lightweight C library for RDF syntax which supports reading and writin
 * /usr/share/doc/serd-0.32.2/NEWS
 * /usr/share/doc/serd-0.32.2/README.md
 * /usr/share/man/man1/serdi.1.gz
-{{< /files >}}

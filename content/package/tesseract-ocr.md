@@ -16,7 +16,8 @@ reverse_depends = "['opencv', 'skanpage']"
 +++
 An OCR program
 
-{{< files text="show files" >}}* /usr/bin/tesseract
+## Files: 
+* /usr/bin/tesseract
 * /usr/include/tesseract/baseapi.h
 * /usr/include/tesseract/capi.h
 * /usr/include/tesseract/export.h
@@ -72,4 +73,3 @@ An OCR program
 * /usr/share/tessdata/tessconfigs/msdemo
 * /usr/share/tessdata/tessconfigs/nobatch
 * /usr/share/tessdata/tessconfigs/segdemo
-{{< /files >}}

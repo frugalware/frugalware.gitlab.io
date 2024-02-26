@@ -16,7 +16,8 @@ reverse_depends = "['clightd']"
 +++
 Interface to the Linux Industrial Input/Output (IIO) Subsystem
 
-{{< files text="show files" >}}* /usr/bin/iiod
+## Files: 
+* /usr/bin/iiod
 * /usr/bin/iio_attr
 * /usr/bin/iio_genxml
 * /usr/bin/iio_info
@@ -50,4 +51,3 @@ Interface to the Linux Industrial Input/Output (IIO) Subsystem
 * /usr/share/man/man1/man/iio_stresstest.1.gz
 * /usr/share/man/man1/man/iio_writedev.1.gz
 * /usr/share/man/man3/man/libiio.3.gz
-{{< /files >}}

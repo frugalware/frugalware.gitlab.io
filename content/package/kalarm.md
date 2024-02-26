@@ -16,7 +16,8 @@ reverse_depends = "['kdepim-runtime', 'pim-data-exporter']"
 +++
 Personal Alarm Scheduler
 
-{{< files text="show files" >}}* /etc/xdg/autostart/kalarm.autostart.desktop
+## Files: 
+* /etc/xdg/autostart/kalarm.autostart.desktop
 * /usr/bin/kalarm
 * /usr/bin/kalarmautostart
 * /usr/lib/kf5/kauth/kalarm_helper
@@ -171,4 +172,3 @@ Personal Alarm Scheduler
 * /usr/share/polkit-1/actions/org.kde.kalarm.rtcwake.policy
 * /usr/share/qlogging-categories5/kalarm.categories
 * /usr/share/qlogging-categories5/kalarm.renamecategories
-{{< /files >}}

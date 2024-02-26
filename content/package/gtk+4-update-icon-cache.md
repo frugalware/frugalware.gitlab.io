@@ -16,5 +16,5 @@ reverse_depends = "['adwaita-icon-theme']"
 +++
 The GTK+ update icon cache tool.
 
-{{< files text="show files" >}}* /usr/bin/gtk4-update-icon-cache
-{{< /files >}}
+## Files: 
+* /usr/bin/gtk4-update-icon-cache

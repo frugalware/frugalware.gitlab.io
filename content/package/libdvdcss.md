@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 libdvdcss is a cross-platform library for transparent DVD device access with on-the-fly CSS decryption.
 
-{{< files text="show files" >}}* /usr/include/dvdcss/dvdcss.h
+## Files: 
+* /usr/include/dvdcss/dvdcss.h
 * /usr/include/dvdcss/version.h
 * /usr/lib/libdvdcss.so
 * /usr/lib/libdvdcss.so.2
@@ -27,4 +28,3 @@ libdvdcss is a cross-platform library for transparent DVD device access with on-
 * /usr/share/doc/libdvdcss-1.4.3/INSTALL
 * /usr/share/doc/libdvdcss-1.4.3/NEWS
 * /usr/share/doc/libdvdcss-1.4.3/README
-{{< /files >}}

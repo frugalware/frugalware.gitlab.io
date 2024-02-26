@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org xmessage application
 
-{{< files text="show files" >}}* /usr/bin/xmessage
+## Files: 
+* /usr/bin/xmessage
 * /usr/share/doc/xmessage-1.0.6/ChangeLog
 * /usr/share/doc/xmessage-1.0.6/COPYING
 * /usr/share/doc/xmessage-1.0.6/INSTALL
@@ -24,4 +25,3 @@ X.Org xmessage application
 * /usr/share/man/man1/xmessage.1.gz
 * /usr/share/X11/app-defaults/Xmessage
 * /usr/share/X11/app-defaults/Xmessage-color
-{{< /files >}}

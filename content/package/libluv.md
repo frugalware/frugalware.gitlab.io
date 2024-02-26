@@ -16,7 +16,8 @@ reverse_depends = "['neovim']"
 +++
 Bare libuv bindings for lua
 
-{{< files text="show files" >}}* /usr/include/luv/lhandle.h
+## Files: 
+* /usr/include/luv/lhandle.h
 * /usr/include/luv/lreq.h
 * /usr/include/luv/luv.h
 * /usr/include/luv/util.h
@@ -25,4 +26,3 @@ Bare libuv bindings for lua
 * /usr/lib/libluv.so.1.48.0
 * /usr/lib/pkgconfig/libluv.pc
 * /usr/share/doc/libluv-1.48.0/README.md
-{{< /files >}}

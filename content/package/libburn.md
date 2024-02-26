@@ -16,7 +16,8 @@ reverse_depends = "['cdrskin']"
 +++
 Disc reading/writing library.
 
-{{< files text="show files" >}}* /usr/include/libburn/libburn.h
+## Files: 
+* /usr/include/libburn/libburn.h
 * /usr/lib/libburn.so
 * /usr/lib/libburn.so.4
 * /usr/lib/libburn.so.4.109.0
@@ -32,4 +33,3 @@ Disc reading/writing library.
 * /usr/share/doc/libburn-1.5.6/NEWS
 * /usr/share/doc/libburn-1.5.6/README
 * /usr/share/doc/libburn-1.5.6/README.md
-{{< /files >}}

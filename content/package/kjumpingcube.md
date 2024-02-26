@@ -15,7 +15,8 @@ depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=
 +++
 A simple tactical game.
 
-{{< files text="show files" >}}* /usr/bin/kjumpingcube
+## Files: 
+* /usr/bin/kjumpingcube
 * /usr/share/applications/org.kde.kjumpingcube.desktop
 * /usr/share/config.kcfg/kjumpingcube.kcfg
 * /usr/share/doc/HTML/ca/kjumpingcube/index.cache.bz2
@@ -137,4 +138,3 @@ A simple tactical game.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kjumpingcube.mo
 * /usr/share/metainfo/org.kde.kjumpingcube.appdata.xml
 * /usr/share/qlogging-categories5/kjumpingcube.categories
-{{< /files >}}

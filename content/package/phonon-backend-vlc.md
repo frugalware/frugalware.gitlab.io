@@ -15,7 +15,8 @@ depends = "['libvlc>=3.0.0', 'phonon-qt5>=4.9.0']"
 +++
 Phonon VLC(Video Lan Client) backend.
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/phonon4qt5_backend/phonon_vlc_qt5.so
+## Files: 
+* /usr/lib/qt5/plugins/phonon4qt5_backend/phonon_vlc_qt5.so
 * /usr/share/doc/phonon-backend-vlc-0.12.0/AUTHORS
 * /usr/share/doc/phonon-backend-vlc-0.12.0/COPYING.LIB
 * /usr/share/locale/az/LC_MESSAGES/phonon_vlc_qt.qm
@@ -72,4 +73,3 @@ Phonon VLC(Video Lan Client) backend.
 * /usr/share/locale/vi/LC_MESSAGES/phonon_vlc_qt.qm
 * /usr/share/locale/zh_CN/LC_MESSAGES/phonon_vlc_qt.qm
 * /usr/share/locale/zh_TW/LC_MESSAGES/phonon_vlc_qt.qm
-{{< /files >}}

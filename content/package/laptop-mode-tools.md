@@ -15,7 +15,8 @@ depends = "['acpid', 'hdparm']"
 +++
 A kernel mode that allows you to extend the battery life of your laptop
 
-{{< files text="show files" >}}* /etc/acpi/actions/lm_ac_adapter.sh
+## Files: 
+* /etc/acpi/actions/lm_ac_adapter.sh
 * /etc/acpi/actions/lm_battery.sh
 * /etc/acpi/actions/lm_lid.sh
 * /etc/acpi/events/lm_ac_adapter
@@ -117,4 +118,3 @@ A kernel mode that allows you to extend the battery life of your laptop
 * /usr/share/man/man8/lm-syslog-setup.8.gz
 * /usr/share/pixmaps/laptop-mode-tools.svg
 * /usr/share/polkit-1/actions/org.linux.lmt.gui.policy
-{{< /files >}}

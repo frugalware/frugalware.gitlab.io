@@ -15,7 +15,8 @@ depends = "['python3-jinja', 'python3-lxml', 'python3-setuptools']"
 +++
 Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs
 
-{{< files text="show files" >}}* /usr/bin/glad
+## Files: 
+* /usr/bin/glad
 * /usr/lib/python3.12/site-packages/glad/config.py
 * /usr/lib/python3.12/site-packages/glad/files/egl.xml
 * /usr/lib/python3.12/site-packages/glad/files/eglplatform.h
@@ -127,4 +128,3 @@ Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official
 * /usr/share/doc/glad-2.0.4/LICENSE
 * /usr/share/doc/glad-2.0.4/README.md
 * /usr/share/doc/glad-2.0.4/VERSION
-{{< /files >}}

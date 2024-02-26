@@ -16,7 +16,8 @@ reverse_depends = "['adios2', 'python3-pyzmq', 'uwsgi', 'uwsgi-plugin-mongrel']"
 +++
 A messaging/socket library.
 
-{{< files text="show files" >}}* /usr/bin/curve_keygen
+## Files: 
+* /usr/bin/curve_keygen
 * /usr/include/zmq.h
 * /usr/include/zmq_utils.h
 * /usr/lib/libzmq.so
@@ -36,4 +37,3 @@ A messaging/socket library.
 * /usr/share/doc/zeromq-4.3.4/README.md
 * /usr/share/doc/zeromq-4.3.4/TODO
 * /usr/share/doc/zeromq-4.3.4/VERSION
-{{< /files >}}

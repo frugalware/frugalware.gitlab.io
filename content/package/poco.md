@@ -16,7 +16,8 @@ reverse_depends = "['mumble']"
 +++
 C++ class libraries for network-centric, portable applications, complete edition with debug libraries
 
-{{< files text="show files" >}}* /usr/bin/cpspc
+## Files: 
+* /usr/bin/cpspc
 * /usr/bin/f2cpsp
 * /usr/bin/poco-arc
 * /usr/include/Poco/AbstractCache.h
@@ -973,4 +974,3 @@ C++ class libraries for network-centric, portable applications, complete edition
 * /usr/share/doc/poco-1.13.2/MANIFEST
 * /usr/share/doc/poco-1.13.2/README
 * /usr/share/doc/poco-1.13.2/VERSION
-{{< /files >}}

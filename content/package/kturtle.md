@@ -15,7 +15,8 @@ depends = "['kio>=5.115.0', 'knewstuff>=5.115.0']"
 +++
 Educational Programming Environment.
 
-{{< files text="show files" >}}* /etc/xdg/kturtle.knsrc
+## Files: 
+* /etc/xdg/kturtle.knsrc
 * /usr/bin/kturtle
 * /usr/share/applications/org.kde.kturtle.desktop
 * /usr/share/doc/HTML/ar/kturtle/getting-started.docbook
@@ -238,4 +239,3 @@ Educational Programming Environment.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kturtle.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kturtle.mo
 * /usr/share/metainfo/org.kde.kturtle.appdata.xml
-{{< /files >}}

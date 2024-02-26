@@ -15,7 +15,8 @@ depends = "['php>=5.6.38-6']"
 +++
 A PHP database class library to hide the differences between the different databases.
 
-{{< files text="show files" >}}* /usr/share/php/adodb/.editorconfig
+## Files: 
+* /usr/share/php/adodb/.editorconfig
 * /usr/share/php/adodb/adodb-active-record.inc.php
 * /usr/share/php/adodb/adodb-active-recordx.inc.php
 * /usr/share/php/adodb/adodb-csvlib.inc.php
@@ -191,4 +192,3 @@ A PHP database class library to hide the differences between the different datab
 * /usr/share/php/adodb/xsl/convert-0.2-0.3.xsl
 * /usr/share/php/adodb/xsl/remove-0.2.xsl
 * /usr/share/php/adodb/xsl/remove-0.3.xsl
-{{< /files >}}

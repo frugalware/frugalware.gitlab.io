@@ -16,7 +16,8 @@ reverse_depends = "['haskell-hslua']"
 +++
 Type classes for HsLua
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hslua-classes-2.3.0/HsLua/Class/Exposable.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/hslua-classes-2.3.0/HsLua/Class/Exposable.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-classes-2.3.0/HsLua/Class/Exposable.hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-classes-2.3.0/HsLua/Class/Invokable.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-classes-2.3.0/HsLua/Class/Invokable.hi
@@ -49,4 +50,3 @@ Type classes for HsLua
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/hslua-classes-2.3.0/LICENSE
 * /usr/share/haskell/haskell-hslua-classes/register.sh
 * /usr/share/haskell/haskell-hslua-classes/unregister.sh
-{{< /files >}}

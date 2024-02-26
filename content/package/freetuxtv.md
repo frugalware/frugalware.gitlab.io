@@ -15,7 +15,8 @@ depends = "['curl', 'dbus-glib', 'gtk+3', 'libnotify', 'libvlc']"
 +++
 Watch the TV with your box
 
-{{< files text="show files" >}}* /usr/bin/freetuxtv
+## Files: 
+* /usr/bin/freetuxtv
 * /usr/include/libdbevolution/db-evolution-instance.h
 * /usr/include/libvlc-gtk/gtk-libvlc-include.h
 * /usr/include/libvlc-gtk/gtk-libvlc-instance.h
@@ -464,4 +465,3 @@ Watch the TV with your box
 * /usr/share/locale/tr/LC_MESSAGES/freetuxtv.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/freetuxtv.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/freetuxtv.mo
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['haskell-hslua-list', 'haskell-hslua-marshalling']"
 +++
 Bindings to Lua, an embeddable scripting language
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hslua-core-2.3.1/HsLua/Core.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/hslua-core-2.3.1/HsLua/Core.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-core-2.3.1/HsLua/Core.hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-core-2.3.1/HsLua/Core/Auxiliary.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-core-2.3.1/HsLua/Core/Auxiliary.hi
@@ -90,4 +91,3 @@ Bindings to Lua, an embeddable scripting language
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/hslua-core-2.3.1/LICENSE
 * /usr/share/haskell/haskell-hslua-core/register.sh
 * /usr/share/haskell/haskell-hslua-core/unregister.sh
-{{< /files >}}

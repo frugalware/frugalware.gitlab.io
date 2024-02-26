@@ -16,7 +16,8 @@ reverse_depends = "['kpat']"
 +++
 A program that automatically solves layouts of Freecell and similar variants of Card Solitaire
 
-{{< files text="show files" >}}* /usr/bin/dbm-fc-solver
+## Files: 
+* /usr/bin/dbm-fc-solver
 * /usr/bin/depth-dbm-fc-solver
 * /usr/bin/fc-solve
 * /usr/bin/fc_solve_find_index_s2ints.py
@@ -99,4 +100,3 @@ A program that automatically solves layouts of Freecell and similar variants of 
 * /usr/share/man/man6/make_pysol_freecell_board.py.6.gz
 * /usr/share/man/man6/pi-make-microsoft-freecell-board.6.gz
 * /usr/share/man/man6/transpose-freecell-board.py.6.gz
-{{< /files >}}

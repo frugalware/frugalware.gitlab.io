@@ -16,7 +16,8 @@ reverse_depends = "['steam-native']"
 +++
 GTK+2 core libraries. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/gtk-builder-convert
+## Files: 
+* /usr/i686-frugalware-linux/bin/gtk-builder-convert
 * /usr/i686-frugalware-linux/bin/gtk-demo
 * /usr/i686-frugalware-linux/bin/gtk-query-immodules-2.0
 * /usr/i686-frugalware-linux/bin/gtk-update-icon-cache
@@ -314,4 +315,3 @@ GTK+2 core libraries. ( 32bit )
 * /usr/lib32/pkgconfig/gtk+-2.0.pc
 * /usr/lib32/pkgconfig/gtk+-unix-print-2.0.pc
 * /usr/lib32/pkgconfig/gtk+-x11-2.0.pc
-{{< /files >}}

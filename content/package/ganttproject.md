@@ -15,7 +15,8 @@ depends = "['openjre-x']"
 +++
 Project scheduling application written in Java and featuring gantt chart, resource management, calendaring, import/export
 
-{{< files text="show files" >}}* /usr/bin/ganttproject
+## Files: 
+* /usr/bin/ganttproject
 * /usr/share/doc/ganttproject-2.8.10/LICENSE
 * /usr/share/ganttproject/eclipsito.jar
 * /usr/share/ganttproject/ganttproject
@@ -437,4 +438,3 @@ Project scheduling application written in Java and featuring gantt chart, resour
 * /usr/share/ganttproject/plugins-2.8.10/org.ganttproject.impex.htmlpdf/resource/pdf-export-themes/samara/samara-generic.xml
 * /usr/share/ganttproject/plugins-2.8.10/org.ganttproject.impex.htmlpdf/resource/pdf-export-themes/samara/samara-landscape.xsl
 * /usr/share/ganttproject/plugins-2.8.10/org.ganttproject.impex.htmlpdf/resource/pdf-export-themes/samara/samara-portrait.xsl
-{{< /files >}}

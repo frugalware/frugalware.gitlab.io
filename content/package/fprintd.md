@@ -15,7 +15,8 @@ depends = "['libfprint>=0.6.0', 'libgudev', 'polkit>=0.113-5']"
 +++
 D-Bus daemon that offers libfprint functionality over the D-Bus interprocess communication bus.
 
-{{< files text="show files" >}}* /etc/fprintd.conf
+## Files: 
+* /etc/fprintd.conf
 * /usr/bin/fprintd-delete
 * /usr/bin/fprintd-enroll
 * /usr/bin/fprintd-list
@@ -108,4 +109,3 @@ D-Bus daemon that offers libfprint functionality over the D-Bus interprocess com
 * /usr/share/man/man1/fprintd.1.gz
 * /usr/share/man/man8/pam_fprintd.8.gz
 * /usr/share/polkit-1/actions/net.reactivated.fprint.device.policy
-{{< /files >}}

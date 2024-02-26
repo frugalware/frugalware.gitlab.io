@@ -16,7 +16,7 @@ reverse_depends = "['ghostscript', 'graphviz', 'libspectre', 'texlive']"
 +++
 PostScript libs from ghostscript
 
-{{< files text="show files" >}}* /usr/lib/libgs.so
+## Files: 
+* /usr/lib/libgs.so
 * /usr/lib/libgs.so.10
 * /usr/lib/libgs.so.10.02
-{{< /files >}}

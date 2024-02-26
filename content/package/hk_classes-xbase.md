@@ -15,7 +15,8 @@ depends = "['hk_classes-base']"
 +++
 XBase driver for hk_classes
 
-{{< files text="show files" >}}* usr/lib/hk_classes/drivers/libhk_xbasedriver.la
+## Files: 
+* usr/lib/hk_classes/drivers/libhk_xbasedriver.la
 * usr/lib/hk_classes/drivers/libhk_xbasedriver.so
 * usr/lib/hk_classes/drivers/libhk_xbasedriver.so.0
 * usr/lib/hk_classes/drivers/libhk_xbasedriver.so.0.0.0
@@ -25,4 +26,3 @@ XBase driver for hk_classes
 * usr/share/doc/hk_classes-xbase-0.8/INSTALL
 * usr/share/doc/hk_classes-xbase-0.8/NEWS
 * usr/share/doc/hk_classes-xbase-0.8/README
-{{< /files >}}

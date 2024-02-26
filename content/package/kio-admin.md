@@ -15,7 +15,8 @@ depends = "['kio']"
 +++
 Manage files as administrator using the admin:// KIO protocol
 
-{{< files text="show files" >}}* /usr/lib/kf5/kf5/kio-admin-helper
+## Files: 
+* /usr/lib/kf5/kf5/kio-admin-helper
 * /usr/lib/qt5/plugins/kf5/kfileitemaction/kio-admin.so
 * /usr/lib/qt5/plugins/kf5/kio/admin.so
 * /usr/share/dbus-1/system-services/org.kde.kio.admin.service
@@ -55,4 +56,3 @@ Manage files as administrator using the admin:// KIO protocol
 * /usr/share/locale/zh_TW/LC_MESSAGES/kio5_admin.mo
 * /usr/share/metainfo/org.kde.kio.admin.metainfo.xml
 * /usr/share/polkit-1/actions/org.kde.kio.admin.policy
-{{< /files >}}

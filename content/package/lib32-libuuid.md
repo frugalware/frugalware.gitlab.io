@@ -16,9 +16,9 @@ reverse_depends = "['lib32-fontconfig', 'lib32-libblkid', 'lib32-libsm', 'lib32-
 +++
 Universally unique id library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/uuid/uuid.h
+## Files: 
+* /usr/i686-frugalware-linux/include/uuid/uuid.h
 * /usr/lib32/libuuid.so
 * /usr/lib32/libuuid.so.1
 * /usr/lib32/libuuid.so.1.3.0
 * /usr/lib32/pkgconfig/uuid.pc
-{{< /files >}}

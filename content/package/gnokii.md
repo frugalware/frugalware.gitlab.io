@@ -16,7 +16,8 @@ reverse_depends = "['gnokii-gui', 'gnokii-mysql', 'gnokii-pq']"
 +++
 Tools and user space driver for use with mobile phones
 
-{{< files text="show files" >}}* /etc/gnokiirc
+## Files: 
+* /etc/gnokiirc
 * /usr/bin/gnokii
 * /usr/bin/gnokiid
 * /usr/bin/mgnokiidev
@@ -124,4 +125,3 @@ Tools and user space driver for use with mobile phones
 * /usr/share/man/man8/gnokiid.8.gz
 * /usr/share/man/man8/mgnokiidev.8.gz
 * /usr/share/man/man8/smsd.8.gz
-{{< /files >}}

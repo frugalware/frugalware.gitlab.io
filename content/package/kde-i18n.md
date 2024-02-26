@@ -15,4 +15,4 @@ depends = "[]"
 +++
 Dummy package.
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

@@ -16,7 +16,8 @@ reverse_depends = "['duplicity']"
 +++
 Console based FTP client
 
-{{< files text="show files" >}}* /usr/bin/ncftp
+## Files: 
+* /usr/bin/ncftp
 * /usr/bin/ncftpbatch
 * /usr/bin/ncftpbookmarks
 * /usr/bin/ncftpget
@@ -30,4 +31,3 @@ Console based FTP client
 * /usr/share/man/man1/ncftpls.1.gz
 * /usr/share/man/man1/ncftpput.1.gz
 * /usr/share/man/man1/ncftpspooler.1.gz
-{{< /files >}}

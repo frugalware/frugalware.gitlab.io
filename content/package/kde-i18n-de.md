@@ -15,7 +15,8 @@ depends = "[]"
 +++
 German Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/kanagram/data/de/hauptstaedte.kvtml
+## Files: 
+* usr/share/apps/kanagram/data/de/hauptstaedte.kvtml
 * usr/share/apps/kanagram/data/de/personen.kvtml
 * usr/share/apps/kanagram/data/de/tiere.kvtml
 * usr/share/apps/katepart/syntax/logohighlightstyle.de_DE.xml
@@ -2465,4 +2466,3 @@ German Localization for KDE.
 * usr/share/locale/de/LC_MESSAGES/wakeup.mo
 * usr/share/locale/de/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/de/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

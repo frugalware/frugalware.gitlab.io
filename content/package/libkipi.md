@@ -16,7 +16,8 @@ reverse_depends = "['digikam', 'gwenview', 'kipi-plugins', 'spectacle']"
 +++
 KDE Image Plugin Interface, a C++ library to share plugins among graphic release-service.
 
-{{< files text="show files" >}}* /usr/include/KF5/KIPI/KIPI/ConfigWidget
+## Files: 
+* /usr/include/KF5/KIPI/KIPI/ConfigWidget
 * /usr/include/KF5/KIPI/kipi/configwidget.h
 * /usr/include/KF5/KIPI/KIPI/ImageCollection
 * /usr/include/KF5/KIPI/kipi/imagecollection.h
@@ -55,4 +56,3 @@ KDE Image Plugin Interface, a C++ library to share plugins among graphic release
 * /usr/share/icons/hicolor/48x48/apps/kipi.png
 * /usr/share/kservicetypes5/kipiplugin.desktop
 * /usr/share/qlogging-categories5/kipi.categories
-{{< /files >}}

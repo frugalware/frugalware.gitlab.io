@@ -16,7 +16,8 @@ reverse_depends = "['qt5-base-mysql', 'qt5-base-postgresql']"
 +++
 Development files for SQL plugins
 
-{{< files text="show files" >}}* /usr/include/qt5/QtSql/5.15.12/QtSql/private/qsqlcachedresult_p.h
+## Files: 
+* /usr/include/qt5/QtSql/5.15.12/QtSql/private/qsqlcachedresult_p.h
 * /usr/include/qt5/QtSql/5.15.12/QtSql/private/qsqldriver_p.h
 * /usr/include/qt5/QtSql/5.15.12/QtSql/private/qsqlnulldriver_p.h
 * /usr/include/qt5/QtSql/5.15.12/QtSql/private/qsqlquerymodel_p.h
@@ -24,4 +25,3 @@ Development files for SQL plugins
 * /usr/include/qt5/QtSql/5.15.12/QtSql/private/qsqltablemodel_p.h
 * /usr/include/qt5/QtSql/5.15.12/QtSql/private/qtsql-config_p.h
 * /usr/include/qt5/QtSql/5.15.12/QtSql/private/qtsqlglobal_p.h
-{{< /files >}}

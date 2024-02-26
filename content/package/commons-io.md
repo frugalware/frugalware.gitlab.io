@@ -16,7 +16,7 @@ reverse_depends = "['xmlgraphics-commons']"
 +++
 Contains utility classes, stream implementations, file filters, and endian classes.
 
-{{< files text="show files" >}}* /usr/share/doc/commons-io-2.11.0/README.md
+## Files: 
+* /usr/share/doc/commons-io-2.11.0/README.md
 * /usr/share/doc/commons-io-2.11.0/RELEASE-NOTES.txt
 * /usr/share/java/commons-io-2.11.0.jar
-{{< /files >}}

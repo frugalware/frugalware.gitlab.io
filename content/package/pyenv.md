@@ -15,7 +15,8 @@ depends = "['bash']"
 +++
 Easily switch between multiple versions of Python
 
-{{< files text="show files" >}}* /usr/bin/pyenv
+## Files: 
+* /usr/bin/pyenv
 * /usr/bin/pyenv-install
 * /usr/bin/pyenv-uninstall
 * /usr/bin/python-build
@@ -1098,4 +1099,3 @@ Easily switch between multiple versions of Python
 * /usr/share/pyenv/pyenv.d/rehash/source.bash
 * /usr/share/pyenv/pyenv.d/rehash/source.d/default.list
 * /usr/share/zsh/site-functions/_pyenv
-{{< /files >}}

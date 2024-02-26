@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Frisian Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/locale/fy/charset
+## Files: 
+* usr/share/locale/fy/charset
 * usr/share/locale/fy/entry.desktop
 * usr/share/locale/fy/LC_MESSAGES/akregator.mo
 * usr/share/locale/fy/LC_MESSAGES/akregator_konqplugin.mo
@@ -338,4 +339,3 @@ Frisian Localization for KDE.
 * usr/share/locale/fy/LC_MESSAGES/wakeup.mo
 * usr/share/locale/fy/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/fy/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

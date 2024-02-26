@@ -15,7 +15,8 @@ depends = "['perl']"
 +++
 unp is a small perl script which makes extraction of any archive files easier.
 
-{{< files text="show files" >}}* /etc/bash_completion.d/unp.sh
+## Files: 
+* /etc/bash_completion.d/unp.sh
 * /usr/bin/ucat
 * /usr/bin/unp
 * /usr/share/doc/unp-2.0_pre7+nmu1/CHANGELOG
@@ -28,4 +29,3 @@ unp is a small perl script which makes extraction of any archive files easier.
 * /usr/share/locale/pt/LC_MESSAGES/unp.mo
 * /usr/share/man/man1/ucat.1.gz
 * /usr/share/man/man1/unp.1.gz
-{{< /files >}}

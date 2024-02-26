@@ -15,4 +15,4 @@ depends = "['ncurses>=6.2']"
 +++
 Software development kit for Android
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

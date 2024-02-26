@@ -15,7 +15,8 @@ depends = "['ktexteditor>=5.115.0', 'libkomparediff2>=23.08.5']"
 +++
 Diff/Patch Frontend.
 
-{{< files text="show files" >}}* /usr/bin/kompare
+## Files: 
+* /usr/bin/kompare
 * /usr/include/kompare/kompareinterface.h
 * /usr/lib/libkomparedialogpages.so.5
 * /usr/lib/libkompareinterface.so
@@ -155,4 +156,3 @@ Diff/Patch Frontend.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kompare.mo
 * /usr/share/metainfo/org.kde.kompare.appdata.xml
 * /usr/share/qlogging-categories5/kompare.categories
-{{< /files >}}

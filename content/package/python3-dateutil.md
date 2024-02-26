@@ -16,7 +16,8 @@ reverse_depends = "['python3-suntime', 'syncthing-gtk', 'yokadi']"
 +++
 Provides powerful extensions to the standard datetime module.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/dateutil/easter.py
+## Files: 
+* /usr/lib/python3.12/site-packages/dateutil/easter.py
 * /usr/lib/python3.12/site-packages/dateutil/parser/isoparser.py
 * /usr/lib/python3.12/site-packages/dateutil/parser/_parser.py
 * /usr/lib/python3.12/site-packages/dateutil/parser/__init__.py
@@ -62,4 +63,3 @@ Provides powerful extensions to the standard datetime module.
 * /usr/share/doc/python3-dateutil-2.8.2/LICENSE
 * /usr/share/doc/python3-dateutil-2.8.2/NEWS
 * /usr/share/doc/python3-dateutil-2.8.2/README.rst
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['ogre']"
 +++
 OGRE media files and packs.
 
-{{< files text="show files" >}}* /usr/share/OGRE-14.0/Media/Main/DefaultShaders.metal
+## Files: 
+* /usr/share/OGRE-14.0/Media/Main/DefaultShaders.metal
 * /usr/share/OGRE-14.0/Media/Main/GLSL_GL3Support.glsl
 * /usr/share/OGRE-14.0/Media/Main/HLSL_SM4Support.hlsl
 * /usr/share/OGRE-14.0/Media/Main/OgreUnifiedShader.h
@@ -47,4 +48,3 @@ OGRE media files and packs.
 * /usr/share/OGRE-14.0/Media/RTShaderLib/SGXLib_WBOIT.glsl
 * /usr/share/OGRE-14.0/Media/Terrain/TerrainSurface.glsl
 * /usr/share/OGRE-14.0/Media/Terrain/TerrainTransforms.glsl
-{{< /files >}}

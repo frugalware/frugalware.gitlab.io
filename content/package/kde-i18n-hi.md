@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Hindi Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/locale/hi/charset
+## Files: 
+* usr/share/locale/hi/charset
 * usr/share/locale/hi/entry.desktop
 * usr/share/locale/hi/LC_MESSAGES/akregator_konqplugin.mo
 * usr/share/locale/hi/LC_MESSAGES/alsaplayerui.mo
@@ -488,4 +489,3 @@ Hindi Localization for KDE.
 * usr/share/locale/hi/LC_MESSAGES/wakeup.mo
 * usr/share/locale/hi/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/hi/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

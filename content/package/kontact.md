@@ -15,7 +15,8 @@ depends = "['kontactinterface>=23.08.5', 'mailcommon>=23.08.5']"
 +++
 Personal Information Manager
 
-{{< files text="show files" >}}* /usr/bin/kontact
+## Files: 
+* /usr/bin/kontact
 * /usr/lib/libkontactprivate.so.5
 * /usr/lib/libkontactprivate.so.5.24.5
 * /usr/lib/qt5/plugins/pim5/kcms/kontact/kcm_kontact.so
@@ -150,4 +151,3 @@ Personal Information Manager
 * /usr/share/metainfo/org.kde.kontact.appdata.xml
 * /usr/share/qlogging-categories5/kontact.categories
 * /usr/share/qlogging-categories5/kontact.renamecategories
-{{< /files >}}

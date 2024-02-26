@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Polish Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/katepart/syntax/logohighlightstyle.pl.xml
+## Files: 
+* usr/share/apps/katepart/syntax/logohighlightstyle.pl.xml
 * usr/share/apps/khangman/data/pl/animals.kvtml
 * usr/share/apps/khangman/data/pl/easy.kvtml
 * usr/share/apps/khangman/data/pl/hard.kvtml
@@ -1735,4 +1736,3 @@ Polish Localization for KDE.
 * usr/share/locale/pl/LC_MESSAGES/wakeup.mo
 * usr/share/locale/pl/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/pl/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

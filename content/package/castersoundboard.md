@@ -15,10 +15,10 @@ depends = "['gst1-plugins-bad', 'gst1-plugins-good', 'gst1-plugins-ugly', 'qt5-b
 +++
 A soundboard for hot-keying and playing back sounds.
 
-{{< files text="show files" >}}* /usr/bin/CasterSoundboard
+## Files: 
+* /usr/bin/CasterSoundboard
 * /usr/share/appdata/CasterSoundboard.appdata.xml
 * /usr/share/applications/CasterSoundboard.desktop
 * /usr/share/doc/castersoundboard-20191203/LICENSE
 * /usr/share/doc/castersoundboard-20191203/README.md
 * /usr/share/pixmaps/CasterSoundboard.png
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-good-caca', 'vlc-caca']
 +++
 A graphics library that outputs text instead of pixels.
 
-{{< files text="show files" >}}* /usr/bin/caca-config
+## Files: 
+* /usr/bin/caca-config
 * /usr/bin/cacaclock
 * /usr/bin/cacademo
 * /usr/bin/cacafire
@@ -71,4 +72,3 @@ A graphics library that outputs text instead of pixels.
 * /usr/share/man/man1/cacaserver.1.gz
 * /usr/share/man/man1/cacaview.1.gz
 * /usr/share/man/man1/img2txt.1.gz
-{{< /files >}}

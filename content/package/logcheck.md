@@ -15,7 +15,8 @@ depends = "[]"
 +++
 allow a system administrator to view the logfiles under their control
 
-{{< files text="show files" >}}* /etc/logcheck/cracking.d/kernel
+## Files: 
+* /etc/logcheck/cracking.d/kernel
 * /etc/logcheck/cracking.d/rlogind
 * /etc/logcheck/cracking.d/rsh
 * /etc/logcheck/cracking.d/smartd
@@ -221,4 +222,3 @@ allow a system administrator to view the logfiles under their control
 * /usr/share/logtail/detectrotate/10-savelog.dtr
 * /usr/share/logtail/detectrotate/20-logrotate.dtr
 * /usr/share/logtail/detectrotate/30-logrotate-dateext.dtr
-{{< /files >}}

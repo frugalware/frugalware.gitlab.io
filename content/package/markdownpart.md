@@ -15,7 +15,8 @@ depends = "['kparts>=5.115.0']"
 +++
 KPart for rendering Markdown content
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/parts/markdownpart.so
+## Files: 
+* /usr/lib/qt5/plugins/kf5/parts/markdownpart.so
 * /usr/share/doc/markdownpart-23.08.5/README.md
 * /usr/share/locale/ar/LC_MESSAGES/markdownpart.mo
 * /usr/share/locale/ca/LC_MESSAGES/markdownpart.mo
@@ -52,4 +53,3 @@ KPart for rendering Markdown content
 * /usr/share/locale/zh_CN/LC_MESSAGES/markdownpart.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/markdownpart.mo
 * /usr/share/metainfo/org.kde.markdownpart.metainfo.xml
-{{< /files >}}

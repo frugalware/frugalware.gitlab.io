@@ -15,8 +15,8 @@ depends = "['lib32-libudev', 'lib32-vulkan-icd-loader', 'lib32-xcb-util-keysyms'
 +++
 Intel Mesa Support for Vulkan (32-bit)
 
-{{< files text="show files" >}}* /usr/lib32/libvulkan_intel.so
+## Files: 
+* /usr/lib32/libvulkan_intel.so
 * /usr/lib32/libvulkan_intel_hasvk.so
 * /usr/lib32/libvulkan_virtio.so
 * /usr/share/vulkan/icd.d/intel_icd.i686.json
-{{< /files >}}

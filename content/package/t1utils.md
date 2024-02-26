@@ -16,7 +16,8 @@ reverse_depends = "['mftrace']"
 +++
 Type 1 utilities
 
-{{< files text="show files" >}}* /usr/bin/t1ascii
+## Files: 
+* /usr/bin/t1ascii
 * /usr/bin/t1asm
 * /usr/bin/t1binary
 * /usr/bin/t1disasm
@@ -31,4 +32,3 @@ Type 1 utilities
 * /usr/share/man/man1/t1disasm.1.gz
 * /usr/share/man/man1/t1mac.1.gz
 * /usr/share/man/man1/t1unmac.1.gz
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Kernel tool for appending cmd line options to a initrd.
 
-{{< files text="show files" >}}* /usr/bin/bootconfig
-{{< /files >}}
+## Files: 
+* /usr/bin/bootconfig

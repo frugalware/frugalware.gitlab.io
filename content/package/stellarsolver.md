@@ -15,7 +15,8 @@ depends = "['gsl', 'hicolor-icon-theme', 'qt5-base', 'wcslib']"
 +++
 The cross platform Sextractor and Astrometry.net-Based internal astrometric solver
 
-{{< files text="show files" >}}* /usr/include/libstellarsolver/astrometry/an-bool.h
+## Files: 
+* /usr/include/libstellarsolver/astrometry/an-bool.h
 * /usr/include/libstellarsolver/astrometry/anqfits.h
 * /usr/include/libstellarsolver/astrometry/bl-nl.h
 * /usr/include/libstellarsolver/astrometry/bl-nl.inc
@@ -92,4 +93,3 @@ The cross platform Sextractor and Astrometry.net-Based internal astrometric solv
 * /usr/lib/pkgconfig/stellarsolver.pc
 * /usr/share/doc/stellarsolver-2.5/LICENSE
 * /usr/share/doc/stellarsolver-2.5/README.md
-{{< /files >}}

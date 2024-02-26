@@ -16,10 +16,10 @@ reverse_depends = "['perl-net-dns', 'spamassassin']"
 +++
 Perl extension Nearly transparent SSL encapsulation for IO::Socket::INET
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/IO/Socket/INET6.pm
+## Files: 
+* /usr/lib/perl5/site_perl/current/IO/Socket/INET6.pm
 * /usr/share/doc/perl-io-socket-inet6-2.73/ChangeLog
 * /usr/share/doc/perl-io-socket-inet6-2.73/LICENSE
 * /usr/share/doc/perl-io-socket-inet6-2.73/MANIFEST
 * /usr/share/doc/perl-io-socket-inet6-2.73/README
 * /usr/share/man/man3/IO::Socket::INET6.3perl.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['pandoc']"
 +++
 Handle Jira wiki markup
 
-{{< files text="show files" >}}* /usr/bin/jira-wiki-markup
+## Files: 
+* /usr/bin/jira-wiki-markup
 * /usr/lib/ghc-9.8.1/site-local/jira-wiki-markup-1.5.1/libHSjira-wiki-markup-1.5.1-DmyDf84v5GEClBCSqzHB1E.a
 * /usr/lib/ghc-9.8.1/site-local/jira-wiki-markup-1.5.1/Text/Jira/Markup.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/jira-wiki-markup-1.5.1/Text/Jira/Markup.hi
@@ -77,4 +78,3 @@ Handle Jira wiki markup
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/jira-wiki-markup-1.5.1/LICENSE
 * /usr/share/haskell/haskell-jira-wiki-markup/register.sh
 * /usr/share/haskell/haskell-jira-wiki-markup/unregister.sh
-{{< /files >}}

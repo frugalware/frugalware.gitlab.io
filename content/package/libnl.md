@@ -16,7 +16,8 @@ reverse_depends = "['aircrack-ng', 'criu', 'hostapd', 'i3status', 'iw', 'ksysgua
 +++
 A library to ease the use of netlink sockets
 
-{{< files text="show files" >}}* /etc/libnl/classid
+## Files: 
+* /etc/libnl/classid
 * /etc/libnl/pktloc
 * /usr/bin/genl-ctrl-list
 * /usr/bin/idiag-socket-details
@@ -247,4 +248,3 @@ A library to ease the use of netlink sockets
 * /usr/share/man/man8/nl-qdisc-add.8.gz
 * /usr/share/man/man8/nl-qdisc-delete.8.gz
 * /usr/share/man/man8/nl-qdisc-list.8.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['mod_svn', 'subversion-bindings', 'subversion-svnserve']"
 +++
 A version control system that is a compelling replacement for CVS.
 
-{{< files text="show files" >}}* /etc/bash_completion.d/subversion
+## Files: 
+* /etc/bash_completion.d/subversion
 * /usr/bin/svn
 * /usr/bin/svnadmin
 * /usr/bin/svnbench
@@ -307,4 +308,3 @@ A version control system that is a compelling replacement for CVS.
 * /usr/share/subversion/hook-scripts/validate-files.conf.example
 * /usr/share/subversion/hook-scripts/validate-files.py
 * /usr/share/subversion/hook-scripts/verify-po.py
-{{< /files >}}

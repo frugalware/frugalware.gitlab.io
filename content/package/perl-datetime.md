@@ -15,7 +15,8 @@ depends = "['perl>=5.34.0', 'perl-datetime-locale>=1.22', 'perl-datetime-timezon
 +++
 A complete, easy to use date and time object
 
-{{< files text="show files" >}}* /usr/lib/perl5/5.38/site_perl/auto/DateTime/DateTime.so
+## Files: 
+* /usr/lib/perl5/5.38/site_perl/auto/DateTime/DateTime.so
 * /usr/lib/perl5/5.38/site_perl/DateTime.pm
 * /usr/lib/perl5/5.38/site_perl/DateTime/Conflicts.pm
 * /usr/lib/perl5/5.38/site_perl/DateTime/Duration.pm
@@ -37,4 +38,3 @@ A complete, easy to use date and time object
 * /usr/share/man/man3/DateTime::Infinite.3perl.gz
 * /usr/share/man/man3/DateTime::LeapSecond.3perl.gz
 * /usr/share/man/man3/DateTime::Types.3perl.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libxml2=2.12.5']"
 +++
 Documentation for libxml2
 
-{{< files text="show files" >}}* /usr/share/doc/libxml2-2.12.5/examples/index.html
+## Files: 
+* /usr/share/doc/libxml2-2.12.5/examples/index.html
 * /usr/share/doc/libxml2-2.12.5/examples/io1.c
 * /usr/share/doc/libxml2-2.12.5/examples/io2.c
 * /usr/share/doc/libxml2-2.12.5/examples/parse1.c
@@ -189,4 +190,3 @@ Documentation for libxml2
 * /usr/share/gtk-doc/html/libxml2/right.png
 * /usr/share/gtk-doc/html/libxml2/style.css
 * /usr/share/gtk-doc/html/libxml2/up.png
-{{< /files >}}

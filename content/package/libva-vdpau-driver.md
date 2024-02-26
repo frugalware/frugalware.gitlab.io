@@ -16,11 +16,11 @@ license = "GPL"
 +++
 VDPAU backend for VA API
 
-{{< files text="show files" >}}* /usr/lib/dri/nvidia_drv_video.so
+## Files: 
+* /usr/lib/dri/nvidia_drv_video.so
 * /usr/lib/dri/s3g_drv_video.so
 * /usr/lib/dri/vdpau_drv_video.so
 * /usr/share/doc/libva-vdpau-driver-0.7.4/AUTHORS
 * /usr/share/doc/libva-vdpau-driver-0.7.4/COPYING
 * /usr/share/doc/libva-vdpau-driver-0.7.4/NEWS
 * /usr/share/doc/libva-vdpau-driver-0.7.4/README
-{{< /files >}}

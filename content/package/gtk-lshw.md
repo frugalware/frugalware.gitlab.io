@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 Gtk+2 frontend for lshw
 
-{{< files text="show files" >}}* /usr/bin/gtk-lshw
+## Files: 
+* /usr/bin/gtk-lshw
 * /usr/share/doc/gtk-lshw-B.02.18/Changelog
 * /usr/share/doc/gtk-lshw-B.02.18/COPYING
 * /usr/share/doc/gtk-lshw-B.02.18/IODC.txt
@@ -61,4 +62,3 @@ Gtk+2 frontend for lshw
 * /usr/share/lshw/artwork/towercomputer.svg
 * /usr/share/lshw/artwork/usb.svg
 * /usr/share/lshw/artwork/wifi.svg
-{{< /files >}}

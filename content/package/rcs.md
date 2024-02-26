@@ -15,7 +15,8 @@ depends = "['diffutils']"
 +++
 Revision Control System
 
-{{< files text="show files" >}}* /usr/bin/ci
+## Files: 
+* /usr/bin/ci
 * /usr/bin/co
 * /usr/bin/ident
 * /usr/bin/merge
@@ -42,4 +43,3 @@ Revision Control System
 * /usr/share/man/man1/rcsmerge.1.gz
 * /usr/share/man/man1/rlog.1.gz
 * /usr/share/man/man5/rcsfile.5.gz
-{{< /files >}}

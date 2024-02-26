@@ -15,7 +15,8 @@ depends = "['qt5-base>=5.15.10', 'yubikey-personalization']"
 +++
 Yubico YubiKey Personalization GUI
 
-{{< files text="show files" >}}* /usr/bin/yubikey-personalization-gui
+## Files: 
+* /usr/bin/yubikey-personalization-gui
 * /usr/share/applications/yubikey-personalization-gui.desktop
 * /usr/share/doc/yubikey-personalization-gui-3.1.25/COPYING
 * /usr/share/doc/yubikey-personalization-gui-3.1.25/NEWS
@@ -24,4 +25,3 @@ Yubico YubiKey Personalization GUI
 * /usr/share/doc/yubikey-personalization-gui-3.1.25/README.binary_dists
 * /usr/share/icons/hicolor/128x128/yubikey-personalization-gui.png
 * /usr/share/man/man1/yubikey-personalization-gui.1.gz
-{{< /files >}}

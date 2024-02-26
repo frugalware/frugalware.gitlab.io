@@ -16,7 +16,8 @@ reverse_depends = "['haskell-fast-logger']"
 +++
 Cross-platform File handling
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/easy-file-0.2.5/libHSeasy-file-0.2.5-EAV3KM5oAXoDsK5ykouJhD.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/easy-file-0.2.5/libHSeasy-file-0.2.5-EAV3KM5oAXoDsK5ykouJhD.a
 * /usr/lib/ghc-9.8.1/site-local/easy-file-0.2.5/System/EasyFile.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/easy-file-0.2.5/System/EasyFile.hi
 * /usr/lib/ghc-9.8.1/site-local/easy-file-0.2.5/System/EasyFile/Directory.dyn_hi
@@ -39,4 +40,3 @@ Cross-platform File handling
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/easy-file-0.2.5/LICENSE
 * /usr/share/haskell/haskell-easy-file/register.sh
 * /usr/share/haskell/haskell-easy-file/unregister.sh
-{{< /files >}}

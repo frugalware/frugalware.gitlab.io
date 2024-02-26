@@ -16,8 +16,8 @@ reverse_depends = "['opencv', 'qt5-base', 'virtualbox', 'xorg-server', 'xorg-ser
 +++
 Mesa OpenGL GLX
 
-{{< files text="show files" >}}* /usr/lib/libGLX_indirect.so.0
+## Files: 
+* /usr/lib/libGLX_indirect.so.0
 * /usr/lib/libGLX_mesa.so
 * /usr/lib/libGLX_mesa.so.0
 * /usr/lib/libGLX_mesa.so.0.0.0
-{{< /files >}}

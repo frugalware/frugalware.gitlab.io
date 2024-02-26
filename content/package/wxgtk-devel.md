@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Include files for wxWidgets development
 
-{{< files text="show files" >}}* usr/include/wx-2.6/wx/accel.h
+## Files: 
+* usr/include/wx-2.6/wx/accel.h
 * usr/include/wx-2.6/wx/access.h
 * usr/include/wx-2.6/wx/afterstd.h
 * usr/include/wx-2.6/wx/animate/animate.h
@@ -557,4 +558,3 @@ Include files for wxWidgets development
 * usr/share/bakefile/presets/wx.bkl
 * usr/share/bakefile/presets/wx_unix.bkl
 * usr/share/bakefile/presets/wx_win32.bkl
-{{< /files >}}

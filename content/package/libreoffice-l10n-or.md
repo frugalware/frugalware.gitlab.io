@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Odia support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/or/LC_MESSAGES/acc.mo
+## Files: 
+* /usr/lib/libreoffice/program/resource/or/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/or/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/or/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/or/LC_MESSAGES/chart.mo
@@ -54,4 +55,3 @@ Installs Odia support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-or.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_or.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_or.xcd
-{{< /files >}}

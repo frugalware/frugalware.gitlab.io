@@ -15,7 +15,8 @@ depends = "['kdelibs4support>=5.115.0', 'khtml>=5.115.0', 'pcre2', 'qt5-webengin
 +++
 KImageMapEditor is an HTML imagemap editor.
 
-{{< files text="show files" >}}* /usr/bin/kimagemapeditor
+## Files: 
+* /usr/bin/kimagemapeditor
 * /usr/lib/qt5/plugins/kf5/parts/kimagemapeditorpart.so
 * /usr/share/applications/org.kde.kimagemapeditor.desktop
 * /usr/share/doc/HTML/ca/kimagemapeditor/configure.png
@@ -147,4 +148,3 @@ KImageMapEditor is an HTML imagemap editor.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kimagemapeditor.mo
 * /usr/share/metainfo/org.kde.kimagemapeditor.appdata.xml
 * /usr/share/qlogging-categories5/kimagemapeditor.categories
-{{< /files >}}

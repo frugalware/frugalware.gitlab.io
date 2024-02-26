@@ -16,7 +16,8 @@ reverse_depends = "['libreswan', 'openssh']"
 +++
 Fast DNS library supporting recent RFCs
 
-{{< files text="show files" >}}* /usr/bin/drill
+## Files: 
+* /usr/bin/drill
 * /usr/bin/ldns-chaos
 * /usr/bin/ldns-compare-zones
 * /usr/bin/ldns-config
@@ -583,4 +584,3 @@ Fast DNS library supporting recent RFCs
 * /usr/share/man/man3/ldns_zone_sign_nsec3.3.gz
 * /usr/share/man/man3/ldns_zone_soa.3.gz
 * /usr/share/man/man3/ldns_zone_sort.3.gz
-{{< /files >}}

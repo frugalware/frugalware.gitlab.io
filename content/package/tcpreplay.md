@@ -15,7 +15,8 @@ depends = "['libpcap', 'tcpdump']"
 +++
 Gives the ability to replay previously captured traffic in a libpcap format
 
-{{< files text="show files" >}}* /usr/bin/tcpbridge
+## Files: 
+* /usr/bin/tcpbridge
 * /usr/bin/tcpcapinfo
 * /usr/bin/tcpliveplay
 * /usr/bin/tcpprep
@@ -30,4 +31,3 @@ Gives the ability to replay previously captured traffic in a libpcap format
 * /usr/share/man/man1/tcpreplay-edit.1.gz
 * /usr/share/man/man1/tcpreplay.1.gz
 * /usr/share/man/man1/tcprewrite.1.gz
-{{< /files >}}

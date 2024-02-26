@@ -16,7 +16,8 @@ reverse_depends = "['espeak-ng']"
 +++
 Portable C Audio Library
 
-{{< files text="show files" >}}* /usr/include/pcaudiolib/audio.h
+## Files: 
+* /usr/include/pcaudiolib/audio.h
 * /usr/lib/libpcaudio.so
 * /usr/lib/libpcaudio.so.0
 * /usr/lib/libpcaudio.so.0.0.1
@@ -26,4 +27,3 @@ Portable C Audio Library
 * /usr/share/doc/pcaudiolib-1.2/NEWS
 * /usr/share/doc/pcaudiolib-1.2/README
 * /usr/share/doc/pcaudiolib-1.2/README.md
-{{< /files >}}

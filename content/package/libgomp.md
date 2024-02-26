@@ -16,7 +16,8 @@ reverse_depends = "['alicevision', 'ceres-solver', 'cryfs', 'flann', 'imagemagic
 +++
 GNU OpenMP runtime library
 
-{{< files text="show files" >}}* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/omp.h
+## Files: 
+* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/omp.h
 * /usr/lib/libgomp.a
 * /usr/lib/libgomp.so
 * /usr/lib/libgomp.so.1
@@ -28,4 +29,3 @@ GNU OpenMP runtime library
 * /usr/lib32/libgomp.so.1.0.0
 * /usr/lib32/libgomp.spec
 * /usr/share/info/libgomp.info.gz
-{{< /files >}}

@@ -15,9 +15,9 @@ depends = "['lib32-curl', 'lib32-elfutils']"
 +++
 Elfutils debuginfod (32-bit)
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/debuginfod-find
+## Files: 
+* /usr/i686-frugalware-linux/bin/debuginfod-find
 * /usr/i686-frugalware-linux/include/elfutils/debuginfod.h
 * /usr/lib32/libdebuginfod-0.190.so
 * /usr/lib32/libdebuginfod.so
 * /usr/lib32/libdebuginfod.so.1
-{{< /files >}}

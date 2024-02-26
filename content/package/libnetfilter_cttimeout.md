@@ -16,11 +16,11 @@ reverse_depends = "['conntrack-tools']"
 +++
 A userspace library that provides the programming interface to connection tracking timeout infrastructure
 
-{{< files text="show files" >}}* /usr/include/libnetfilter_cttimeout/libnetfilter_cttimeout.h
+## Files: 
+* /usr/include/libnetfilter_cttimeout/libnetfilter_cttimeout.h
 * /usr/lib/libnetfilter_cttimeout.so
 * /usr/lib/libnetfilter_cttimeout.so.1
 * /usr/lib/libnetfilter_cttimeout.so.1.0.0
 * /usr/lib/pkgconfig/libnetfilter_cttimeout.pc
 * /usr/share/doc/libnetfilter_cttimeout-1.0.1/COPYING
 * /usr/share/doc/libnetfilter_cttimeout-1.0.1/README
-{{< /files >}}

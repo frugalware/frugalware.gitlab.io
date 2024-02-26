@@ -16,7 +16,8 @@ reverse_depends = "['alicevision', 'blender', 'darktable', 'devil', 'freeimage',
 +++
 OpenEXR is a high dynamic-range (HDR) image file format.
 
-{{< files text="show files" >}}* /usr/bin/exr2aces
+## Files: 
+* /usr/bin/exr2aces
 * /usr/bin/exrenvmap
 * /usr/bin/exrheader
 * /usr/bin/exrinfo
@@ -216,4 +217,3 @@ OpenEXR is a high dynamic-range (HDR) image file format.
 * /usr/share/doc/OpenEXR/examples/rgbaInterfaceExamples.h
 * /usr/share/doc/OpenEXR/examples/rgbaInterfaceTiledExamples.cpp
 * /usr/share/doc/OpenEXR/examples/rgbaInterfaceTiledExamples.h
-{{< /files >}}

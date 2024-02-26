@@ -16,7 +16,8 @@ reverse_depends = "['dracut', 'inxi', 'keychain', 'pacman-g2', 'pulse-autoconf',
 +++
 Print lines matching a pattern
 
-{{< files text="show files" >}}* /usr/bin/egrep
+## Files: 
+* /usr/bin/egrep
 * /usr/bin/fgrep
 * /usr/bin/grep
 * /usr/share/doc/grep-3.11/AUTHORS
@@ -75,4 +76,3 @@ Print lines matching a pattern
 * /usr/share/locale/zh_CN/LC_MESSAGES/grep.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/grep.mo
 * /usr/share/man/man1/grep.1.gz
-{{< /files >}}

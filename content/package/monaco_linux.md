@@ -15,5 +15,5 @@ depends = "['fontconfig', 'mkfontscale']"
 +++
 Mono-spaced Macintosh system font
 
-{{< files text="show files" >}}* /usr/share/fonts/X11/TTF/Monaco_Linux.ttf
-{{< /files >}}
+## Files: 
+* /usr/share/fonts/X11/TTF/Monaco_Linux.ttf

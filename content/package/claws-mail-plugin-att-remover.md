@@ -15,5 +15,5 @@ depends = "['claws-mail=4.1.1']"
 +++
 This plugin lets you remove attachments from emails.
 
-{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/att_remover.so
-{{< /files >}}
+## Files: 
+* /usr/lib/claws-mail/plugins/att_remover.so

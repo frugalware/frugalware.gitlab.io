@@ -15,7 +15,8 @@ depends = "['faudio', 'gettext', 'gst1-plugins-base', 'gst1-plugins-base', 'lcms
 +++
 An Open Source implementation of the Windows API on top of X and Unix. (Development)
 
-{{< files text="show files" >}}* /etc/binfmt.d/wine.conf
+## Files: 
+* /etc/binfmt.d/wine.conf
 * /usr/bin/function_grep.pl
 * /usr/bin/msidb
 * /usr/bin/msiexec
@@ -4996,4 +4997,3 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/share/wine/nls/normnfkd.nls
 * /usr/share/wine/nls/sortdefault.nls
 * /usr/share/wine/wine.inf
-{{< /files >}}

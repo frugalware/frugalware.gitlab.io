@@ -15,8 +15,8 @@ depends = "['openssl', 'zlib', 'zstd']"
 +++
 Shared compilation cache
 
-{{< files text="show files" >}}* /usr/bin/sccache
+## Files: 
+* /usr/bin/sccache
 * /usr/bin/sccache-dist
 * /usr/share/doc/sccache-0.7.7/LICENSE
 * /usr/share/doc/sccache-0.7.7/README.md
-{{< /files >}}

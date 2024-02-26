@@ -15,6 +15,6 @@ depends = "['libmtp', 'libvlc>=3.0.20']"
 +++
 vlc plugin for mpt
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/access/libaccess_mtp_plugin.so
+## Files: 
+* /usr/lib/vlc/plugins/access/libaccess_mtp_plugin.so
 * /usr/lib/vlc/plugins/services_discovery/libmtp_plugin.so
-{{< /files >}}

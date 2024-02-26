@@ -17,10 +17,10 @@ license = "GPL2"
 +++
 X.Org xset application
 
-{{< files text="show files" >}}* /usr/bin/xset
+## Files: 
+* /usr/bin/xset
 * /usr/share/doc/xset-1.2.5/ChangeLog
 * /usr/share/doc/xset-1.2.5/COPYING
 * /usr/share/doc/xset-1.2.5/INSTALL
 * /usr/share/doc/xset-1.2.5/README.md
 * /usr/share/man/man1/xset.1.gz
-{{< /files >}}

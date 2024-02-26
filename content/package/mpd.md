@@ -15,7 +15,8 @@ depends = "['audiofile', 'avahi', 'curl', 'ffmpeg>=6.0', 'flac>=1.4.0', 'fluidsy
 +++
 the Music Player Daemon
 
-{{< files text="show files" >}}* /etc/mpd.conf
+## Files: 
+* /etc/mpd.conf
 * /usr/bin/mpd
 * /usr/lib/systemd/system/mpd.service
 * /usr/lib/systemd/system/mpd.socket
@@ -65,4 +66,3 @@ the Music Player Daemon
 * /usr/share/icons/hicolor/scalable/apps/mpd.svg
 * /usr/share/man/man1/mpd.1.gz
 * /usr/share/man/man5/mpd.conf.5.gz
-{{< /files >}}

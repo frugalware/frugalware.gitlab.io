@@ -15,7 +15,8 @@ depends = "['glibc', 'libotr>=4.0.0', 'pidgin>=2.10.9']"
 +++
 Off-the-Record Messaging plugin for Pidgin
 
-{{< files text="show files" >}}* /usr/lib/pidgin/pidgin-otr.so
+## Files: 
+* /usr/lib/pidgin/pidgin-otr.so
 * /usr/share/doc/pidgin-otr-4.0.2/AUTHORS
 * /usr/share/doc/pidgin-otr-4.0.2/ChangeLog
 * /usr/share/doc/pidgin-otr-4.0.2/COPYING
@@ -45,4 +46,3 @@ Off-the-Record Messaging plugin for Pidgin
 * /usr/share/locale/sv/LC_MESSAGES/pidgin-otr.mo
 * /usr/share/locale/vi/LC_MESSAGES/pidgin-otr.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/pidgin-otr.mo
-{{< /files >}}

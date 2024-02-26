@@ -15,7 +15,8 @@ depends = "['haskell-network>=3.1.2.2', 'haskell-network-uri']"
 +++
 A library for client-side HTTP
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/HTTP-4000.4.1/libHSHTTP-4000.4.1-6MaBiVZFmHoAepoYFM3pPy.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/HTTP-4000.4.1/libHSHTTP-4000.4.1-6MaBiVZFmHoAepoYFM3pPy.a
 * /usr/lib/ghc-9.8.1/site-local/HTTP-4000.4.1/Network/Browser.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/HTTP-4000.4.1/Network/Browser.hi
 * /usr/lib/ghc-9.8.1/site-local/HTTP-4000.4.1/Network/BufferType.dyn_hi
@@ -103,4 +104,3 @@ A library for client-side HTTP
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/HTTP-4000.4.1/LICENSE
 * /usr/share/haskell/haskell-http/register.sh
 * /usr/share/haskell/haskell-http/unregister.sh
-{{< /files >}}

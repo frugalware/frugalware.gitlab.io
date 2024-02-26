@@ -15,7 +15,8 @@ depends = "['libpng']"
 +++
 A PNG optimizer that tries to reduce the file size even further.
 
-{{< files text="show files" >}}* /usr/bin/optipng
+## Files: 
+* /usr/bin/optipng
 * /usr/share/doc/optipng-0.7.8/history.txt
 * /usr/share/doc/optipng-0.7.8/LICENSE.txt
 * /usr/share/doc/optipng-0.7.8/optipng.man.html
@@ -25,4 +26,3 @@ A PNG optimizer that tries to reduce the file size even further.
 * /usr/share/doc/optipng-0.7.8/README.txt
 * /usr/share/doc/optipng-0.7.8/todo.txt
 * /usr/share/man/man1/optipng.1.gz
-{{< /files >}}

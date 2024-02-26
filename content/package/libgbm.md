@@ -16,9 +16,9 @@ reverse_depends = "['efl', 'enlightenment', 'libegl', 'mesa-libegl', 'qemu', 'qt
 +++
 Mesa gbm library.
 
-{{< files text="show files" >}}* /usr/include/gbm.h
+## Files: 
+* /usr/include/gbm.h
 * /usr/lib/libgbm.so
 * /usr/lib/libgbm.so.1
 * /usr/lib/libgbm.so.1.0.0
 * /usr/lib/pkgconfig/gbm.pc
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['krfb-pipewire']"
 +++
 KRfb is a RFB protocol server (VNC).
 
-{{< files text="show files" >}}* /usr/bin/krfb
+## Files: 
+* /usr/bin/krfb
 * /usr/bin/krfb-virtualmonitor
 * /usr/lib/libkrfbprivate.so.5
 * /usr/lib/libkrfbprivate.so.5.0
@@ -167,4 +168,3 @@ KRfb is a RFB protocol server (VNC).
 * /usr/share/locale/zh_TW/LC_MESSAGES/krfb.mo
 * /usr/share/metainfo/org.kde.krfb.appdata.xml
 * /usr/share/qlogging-categories5/krfb.categories
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['lwt']"
 +++
 Optimised functions to read and write int16/32/64 from strings, bytes and bigarrays
 
-{{< files text="show files" >}}* /usr/lib/ocaml/ocplib-endian/bigstring/endianBigstring.cmi
+## Files: 
+* /usr/lib/ocaml/ocplib-endian/bigstring/endianBigstring.cmi
 * /usr/lib/ocaml/ocplib-endian/bigstring/endianBigstring.cmt
 * /usr/lib/ocaml/ocplib-endian/bigstring/endianBigstring.cmti
 * /usr/lib/ocaml/ocplib-endian/bigstring/endianBigstring.cmx
@@ -49,4 +50,3 @@ Optimised functions to read and write int16/32/64 from strings, bytes and bigarr
 * /usr/share/doc/ocplib-endian-1.2/ocplib-endian/CHANGES.md
 * /usr/share/doc/ocplib-endian-1.2/ocplib-endian/README.md
 * /usr/share/doc/ocplib-endian-1.2/README.md
-{{< /files >}}

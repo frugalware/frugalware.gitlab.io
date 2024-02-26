@@ -15,6 +15,6 @@ depends = "['claws-mail=4.1.1', 'gpgme>=1.6.0-3']"
 +++
 This plugin handles S/MIME signed and/or encrypted mails.
 
-{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/smime.deps
+## Files: 
+* /usr/lib/claws-mail/plugins/smime.deps
 * /usr/lib/claws-mail/plugins/smime.so
-{{< /files >}}

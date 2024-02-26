@@ -15,7 +15,8 @@ depends = "['glibc>=2.29-6']"
 +++
 Set of utilities for working with cue files and toc files
 
-{{< files text="show files" >}}* /usr/bin/cuebreakpoints
+## Files: 
+* /usr/bin/cuebreakpoints
 * /usr/bin/cueconvert
 * /usr/bin/cueprint
 * /usr/bin/cuetag.sh
@@ -27,4 +28,3 @@ Set of utilities for working with cue files and toc files
 * /usr/share/man/man1/cuebreakpoints.1.gz
 * /usr/share/man/man1/cueconvert.1.gz
 * /usr/share/man/man1/cueprint.1.gz
-{{< /files >}}

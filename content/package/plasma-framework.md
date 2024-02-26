@@ -16,7 +16,8 @@ reverse_depends = "['bluedevil5', 'breeze', 'discover', 'disman', 'kapptemplate'
 +++
 Plasma library and runtime components based upon KF5 and Qt5.
 
-{{< files text="show files" >}}* /usr/bin/plasmapkg2
+## Files: 
+* /usr/bin/plasmapkg2
 * /usr/include/KF5/Plasma/Applet
 * /usr/include/KF5/plasma/applet.h
 * /usr/include/KF5/Plasma/Containment
@@ -719,4 +720,3 @@ Plasma library and runtime components based upon KF5 and Qt5.
 * /usr/share/qt5/qml/QtQuick/Controls/Styles/Plasma/TextFieldStyle.qml
 * /usr/share/qt5/qml/QtQuick/Controls/Styles/Plasma/ToolBarStyle.qml
 * /usr/share/qt5/qml/QtQuick/Controls/Styles/Plasma/ToolButtonStyle.qml
-{{< /files >}}

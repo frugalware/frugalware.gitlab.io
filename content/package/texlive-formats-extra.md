@@ -15,7 +15,8 @@ depends = "['texlive=2023.0']"
 +++
 Extra Tex formats for Tex Live
 
-{{< files text="show files" >}}* /usr/share/texmf-dist/makeindex/startex/stxglo.ist
+## Files: 
+* /usr/share/texmf-dist/makeindex/startex/stxglo.ist
 * /usr/share/texmf-dist/makeindex/startex/stxind.ist
 * /usr/share/texmf-dist/source/eplain/eplain-source-3.13.zip
 * /usr/share/texmf-dist/source/eplain/xeplain.tex
@@ -91,4 +92,3 @@ Extra Tex formats for Tex Live
 * /usr/share/texmf-dist/tex/texsis/base/TXStitle.tex
 * /usr/share/texmf-dist/tex/texsis/base/WorldSci.txs
 * /usr/share/texmf-dist/tex/texsis/config/texsis.ini
-{{< /files >}}

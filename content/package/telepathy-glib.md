@@ -16,7 +16,8 @@ reverse_depends = "['remmina-telepathy', 'ssh-contact', 'telepathy-farstream', '
 +++
 A glib library to ease writing telepathy clients in glib.
 
-{{< files text="show files" >}}* /usr/include/telepathy-1.0/telepathy-glib/account-channel-request.h
+## Files: 
+* /usr/include/telepathy-1.0/telepathy-glib/account-channel-request.h
 * /usr/include/telepathy-1.0/telepathy-glib/account-manager.h
 * /usr/include/telepathy-1.0/telepathy-glib/account-request.h
 * /usr/include/telepathy-1.0/telepathy-glib/account.h
@@ -379,4 +380,3 @@ A glib library to ease writing telepathy clients in glib.
 * /usr/share/gtk-doc/html/telepathy-glib/up.png
 * /usr/share/vala/vapi/telepathy-glib.deps
 * /usr/share/vala/vapi/telepathy-glib.vapi
-{{< /files >}}

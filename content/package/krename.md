@@ -16,7 +16,8 @@ license = "GPL-2"
 +++
 KRename is a powerful batch renamer for KDE.
 
-{{< files text="show files" >}}* /usr/bin/krename
+## Files: 
+* /usr/bin/krename
 * /usr/share/applications/org.kde.krename.desktop
 * /usr/share/doc/krename-5.0.2/AUTHORS
 * /usr/share/doc/krename-5.0.2/COPYING
@@ -67,4 +68,3 @@ KRename is a powerful batch renamer for KDE.
 * /usr/share/locale/zh_CN/LC_MESSAGES/krename.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/krename.mo
 * /usr/share/metainfo/org.kde.krename.appdata.xml
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kirigami-addons', 'kwindowsystem
 +++
 Terminal app for Plasma Mobile
 
-{{< files text="show files" >}}* /usr/bin/qmlkonsole
+## Files: 
+* /usr/bin/qmlkonsole
 * /usr/share/applications/org.kde.qmlkonsole.desktop
 * /usr/share/config.kcfg/terminalsettings.kcfg
 * /usr/share/doc/qmlkonsole-23.08.5/README.md
@@ -54,4 +55,3 @@ Terminal app for Plasma Mobile
 * /usr/share/locale/zh_CN/LC_MESSAGES/qmlkonsole.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/qmlkonsole.mo
 * /usr/share/metainfo/org.kde.qmlkonsole.appdata.xml
-{{< /files >}}

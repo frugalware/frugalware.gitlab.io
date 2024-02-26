@@ -16,7 +16,8 @@ reverse_depends = "['python3-jaraco.classes']"
 +++
 More routines for operating on iterables, beyond itertools
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/more_itertools-10.1.0.dist-info/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/more_itertools-10.1.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/more_itertools-10.1.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/more_itertools-10.1.0.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/more_itertools-10.1.0.dist-info/WHEEL
@@ -35,4 +36,3 @@ More routines for operating on iterables, beyond itertools
 * /usr/lib/python3.12/site-packages/more_itertools/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-more-itertools-10.1.0/LICENSE
 * /usr/share/doc/python3-more-itertools-10.1.0/README.rst
-{{< /files >}}

@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org driver for penmount input devices
 
-{{< files text="show files" >}}* /usr/lib/xorg/modules/input/penmount_drv.so
+## Files: 
+* /usr/lib/xorg/modules/input/penmount_drv.so
 * /usr/share/doc/xf86-input-penmount-1.5.0/ChangeLog
 * /usr/share/doc/xf86-input-penmount-1.5.0/COPYING
 * /usr/share/doc/xf86-input-penmount-1.5.0/INSTALL
 * /usr/share/doc/xf86-input-penmount-1.5.0/README
 * /usr/share/man/man4/penmount.4.gz
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "['readline>=8.0']"
 +++
 Git Repository Viewer
 
-{{< files text="show files" >}}* /usr/bin/grv
-{{< /files >}}
+## Files: 
+* /usr/bin/grv

@@ -16,7 +16,7 @@ reverse_depends = "['vtk-java-mysql']"
 +++
 MySql interface and bindings for vtk
 
-{{< files text="show files" >}}* /usr/lib/libvtkIOMySQL.so
+## Files: 
+* /usr/lib/libvtkIOMySQL.so
 * /usr/lib/libvtkIOMySQL.so.1
 * /usr/lib/libvtkIOMySQL.so.9.3
-{{< /files >}}

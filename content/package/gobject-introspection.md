@@ -16,7 +16,8 @@ reverse_depends = "['appstream', 'libfprint', 'libmypaint', 'lutris', 'piper', '
 +++
 Generate interface introspection data for GObject libraries.
 
-{{< files text="show files" >}}* /usr/bin/g-ir-annotation-tool
+## Files: 
+* /usr/bin/g-ir-annotation-tool
 * /usr/bin/g-ir-compiler
 * /usr/bin/g-ir-generate
 * /usr/bin/g-ir-inspect
@@ -210,4 +211,3 @@ Generate interface introspection data for GObject libraries.
 * /usr/share/man/man1/g-ir-doc-tool.1.gz
 * /usr/share/man/man1/g-ir-generate.1.gz
 * /usr/share/man/man1/g-ir-scanner.1.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['kmailtransport']"
 +++
 Job-based library to send email through an SMTP server.
 
-{{< files text="show files" >}}* /usr/include/KPim5/KSMTP/KSMTP/Job
+## Files: 
+* /usr/include/KPim5/KSMTP/KSMTP/Job
 * /usr/include/KPim5/KSMTP/ksmtp/job.h
 * /usr/include/KPim5/KSMTP/ksmtp/ksmtp_export.h
 * /usr/include/KPim5/KSMTP/KSMTP/LoginJob
@@ -82,4 +83,3 @@ Job-based library to send email through an SMTP server.
 * /usr/share/locale/zh_TW/LC_MESSAGES/libksmtp5.mo
 * /usr/share/qlogging-categories5/ksmtp.categories
 * /usr/share/qt5/mkspecs/modules/qt_KSMTP.pri
-{{< /files >}}

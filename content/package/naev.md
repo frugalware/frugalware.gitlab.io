@@ -15,4 +15,4 @@ depends = "['freetype2>=2.6.2-3', 'libpng>=1.6.20', 'libvorbis>=1.3.5-4', 'libxm
 +++
 2D Action/rpg game
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

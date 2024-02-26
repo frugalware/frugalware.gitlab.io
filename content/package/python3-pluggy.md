@@ -16,7 +16,8 @@ reverse_depends = "['python3-hatchling', 'python3-pytest']"
 +++
 Plugin and hook calling mechanisms for python
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pluggy-1.3.0-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/pluggy-1.3.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pluggy-1.3.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/pluggy-1.3.0-py3.12.egg-info/requires.txt
 * /usr/lib/python3.12/site-packages/pluggy-1.3.0-py3.12.egg-info/SOURCES.txt
@@ -39,4 +40,3 @@ Plugin and hook calling mechanisms for python
 * /usr/share/doc/python3-pluggy-1.3.0/LICENSE
 * /usr/share/doc/python3-pluggy-1.3.0/README.md
 * /usr/share/doc/python3-pluggy-1.3.0/README.rst
-{{< /files >}}

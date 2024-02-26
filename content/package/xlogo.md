@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org xlogo application
 
-{{< files text="show files" >}}* /usr/bin/xlogo
+## Files: 
+* /usr/bin/xlogo
 * /usr/share/doc/xlogo-1.0.6/ChangeLog
 * /usr/share/doc/xlogo-1.0.6/COPYING
 * /usr/share/doc/xlogo-1.0.6/INSTALL
@@ -24,4 +25,3 @@ X.Org xlogo application
 * /usr/share/man/man1/xlogo.1.gz
 * /usr/share/X11/app-defaults/XLogo
 * /usr/share/X11/app-defaults/XLogo-color
-{{< /files >}}

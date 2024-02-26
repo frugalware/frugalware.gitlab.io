@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Low Saxon Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/khangman/data/nds/animals.kvtml
+## Files: 
+* usr/share/apps/khangman/data/nds/animals.kvtml
 * usr/share/apps/khangman/data/nds/easy.kvtml
 * usr/share/apps/khangman/data/nds/hard.kvtml
 * usr/share/apps/khangman/data/nds/medium.kvtml
@@ -685,4 +686,3 @@ Low Saxon Localization for KDE.
 * usr/share/locale/nds/LC_MESSAGES/wakeup.mo
 * usr/share/locale/nds/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/nds/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

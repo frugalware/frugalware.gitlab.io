@@ -16,8 +16,8 @@ license = "GPL2"
 +++
 set an X Input device as the main pointer
 
-{{< files text="show files" >}}* /usr/bin/xsetpointer
+## Files: 
+* /usr/bin/xsetpointer
 * /usr/share/doc/xsetpointer-1.0.1/ChangeLog
 * /usr/share/doc/xsetpointer-1.0.1/COPYING
 * /usr/share/man/man1/xsetpointer.1x.gz
-{{< /files >}}

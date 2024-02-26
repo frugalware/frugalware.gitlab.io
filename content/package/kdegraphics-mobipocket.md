@@ -16,7 +16,8 @@ reverse_depends = "['kdegraphics-thumbnailers', 'okular']"
 +++
 A collection of plugins to handle mobipocket files
 
-{{< files text="show files" >}}* /usr/include/QMobipocket/qmobipocket/mobipocket.h
+## Files: 
+* /usr/include/QMobipocket/qmobipocket/mobipocket.h
 * /usr/include/QMobipocket/qmobipocket/qfilestream.h
 * /usr/include/QMobipocket/qmobipocket/qmobipocket_export.h
 * /usr/include/QMobipocket/qmobipocket_version.h
@@ -28,4 +29,3 @@ A collection of plugins to handle mobipocket files
 * /usr/lib/libqmobipocket.so.2
 * /usr/lib/libqmobipocket.so.2.1.0
 * /usr/share/doc/kdegraphics-mobipocket-23.08.5/COPYING
-{{< /files >}}

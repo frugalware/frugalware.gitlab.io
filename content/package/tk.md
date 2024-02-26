@@ -16,7 +16,8 @@ reverse_depends = "['fetchmailconf', 'git-gui', 'gitk', 'maxima', 'mercurial-hgk
 +++
 A windowing toolkit for use with tcl
 
-{{< files text="show files" >}}* /usr/bin/wish
+## Files: 
+* /usr/bin/wish
 * /usr/include/tk.h
 * /usr/include/tk/generic/default.h
 * /usr/include/tk/generic/ks_names.h
@@ -614,4 +615,3 @@ A windowing toolkit for use with tcl
 * /usr/share/man/mann/ttk_widget.n.gz
 * /usr/share/man/mann/winfo.n.gz
 * /usr/share/man/mann/wm.n.gz
-{{< /files >}}

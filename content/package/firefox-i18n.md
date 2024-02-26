@@ -15,4 +15,4 @@ depends = "['firefox>=123.0', 'firefox-ach', 'firefox-af', 'firefox-an', 'firefo
 +++
 Language support for Firefox
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

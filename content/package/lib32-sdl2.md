@@ -16,7 +16,8 @@ reverse_depends = "['lib32-faudio', 'lib32-ffmpeg', 'lib32-openal', 'lib32-sdl2_
 +++
 Simple DirectMedia Layer library v2 ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/sdl2-config
+## Files: 
+* /usr/i686-frugalware-linux/bin/sdl2-config
 * /usr/i686-frugalware-linux/include/SDL2/begin_code.h
 * /usr/i686-frugalware-linux/include/SDL2/close_code.h
 * /usr/i686-frugalware-linux/include/SDL2/SDL.h
@@ -101,4 +102,3 @@ Simple DirectMedia Layer library v2 ( 32bit )
 * /usr/lib32/libSDL2-2.0.so.0.3000.0
 * /usr/lib32/libSDL2.so
 * /usr/lib32/pkgconfig/sdl2.pc
-{{< /files >}}

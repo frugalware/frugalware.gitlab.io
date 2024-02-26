@@ -15,7 +15,8 @@ depends = "['openjre', 'perl>=5.22.0', 'python3', 'subversion=1.14.3']"
 +++
 Python,Perl and Java bindings for subversion
 
-{{< files text="show files" >}}* /usr/lib/libsvn_swig_perl-1.la
+## Files: 
+* /usr/lib/libsvn_swig_perl-1.la
 * /usr/lib/libsvn_swig_perl-1.so
 * /usr/lib/libsvn_swig_perl-1.so.0
 * /usr/lib/libsvn_swig_perl-1.so.0.0.0
@@ -98,4 +99,3 @@ Python,Perl and Java bindings for subversion
 * /usr/share/man/man3/SVN::Ra.3perl.gz
 * /usr/share/man/man3/SVN::Repos.3perl.gz
 * /usr/share/man/man3/SVN::Wc.3perl.gz
-{{< /files >}}

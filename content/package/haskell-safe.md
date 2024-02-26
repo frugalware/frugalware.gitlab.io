@@ -16,7 +16,8 @@ reverse_depends = "['haskell-citeproc', 'haskell-doclayout', 'haskell-pandoc-lua
 +++
 Library of safe (exception free) functions
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/safe-0.3.19/libHSsafe-0.3.19-10Q9N1LJWQ5J9PAwsFEMc2.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/safe-0.3.19/libHSsafe-0.3.19-10Q9N1LJWQ5J9PAwsFEMc2.a
 * /usr/lib/ghc-9.8.1/site-local/safe-0.3.19/Safe.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/safe-0.3.19/Safe.hi
 * /usr/lib/ghc-9.8.1/site-local/safe-0.3.19/Safe/Exact.dyn_hi
@@ -47,4 +48,3 @@ Library of safe (exception free) functions
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/safe-0.3.19/LICENSE
 * /usr/share/haskell/haskell-safe/register.sh
 * /usr/share/haskell/haskell-safe/unregister.sh
-{{< /files >}}

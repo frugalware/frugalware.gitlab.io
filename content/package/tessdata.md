@@ -16,7 +16,8 @@ reverse_depends = "['tesseract-ocr']"
 +++
 Language specific files for tesseract
 
-{{< files text="show files" >}}* /usr/share/doc/tessdata-4.1.0/LICENSE
+## Files: 
+* /usr/share/doc/tessdata-4.1.0/LICENSE
 * /usr/share/doc/tessdata-4.1.0/README.md
 * /usr/share/tessdata/bre.traineddata
 * /usr/share/tessdata/chi_sim_vert.traineddata
@@ -78,4 +79,3 @@ Language specific files for tesseract
 * /usr/share/tessdata/tat.traineddata
 * /usr/share/tessdata/ton.traineddata
 * /usr/share/tessdata/yor.traineddata
-{{< /files >}}

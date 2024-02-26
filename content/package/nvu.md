@@ -15,8 +15,8 @@ depends = "['nss']"
 +++
 A WYSIWG web editor for linux similiar to Dreamweaver
 
-{{< files text="show files" >}}* /usr/lib/nvu
+## Files: 
+* /usr/lib/nvu
 * /usr/share/applications/nvu.desktop
 * /usr/share/doc/nvu-1.0/LICENSE
 * /usr/share/doc/nvu-1.0/README.txt
-{{< /files >}}

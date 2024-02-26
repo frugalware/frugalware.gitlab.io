@@ -16,10 +16,10 @@ reverse_depends = "['perl-io-socket-inet6']"
 +++
 Perl extension IPv6 related part of the C socket.h defines and structure manipulators
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/Socket6/Socket6.so
+## Files: 
+* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/Socket6/Socket6.so
 * /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Socket6.pm
 * /usr/share/doc/perl-socket6-0.29/ChangeLog
 * /usr/share/doc/perl-socket6-0.29/MANIFEST
 * /usr/share/doc/perl-socket6-0.29/README
 * /usr/share/man/man3/Socket6.3perl.gz
-{{< /files >}}

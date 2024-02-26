@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.Org Unified Protocol
 
-{{< files text="show files" >}}* /usr/include/GL/glxint.h
+## Files: 
+* /usr/include/GL/glxint.h
 * /usr/include/GL/glxmd.h
 * /usr/include/GL/glxproto.h
 * /usr/include/GL/glxtokens.h
@@ -226,4 +227,3 @@ X.Org Unified Protocol
 * /usr/share/doc/xorgproto/resproto.txt
 * /usr/share/doc/xorgproto/xv-protocol-v2.txt
 * /usr/share/doc/xorgproto/xwaylandproto.txt
-{{< /files >}}

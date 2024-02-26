@@ -16,7 +16,8 @@ reverse_depends = "['pandoc']"
 +++
 A modern RFC 4648-compliant Base64 library
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/base64-0.4.2.4/Data/ByteString/Base64.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/base64-0.4.2.4/Data/ByteString/Base64.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/base64-0.4.2.4/Data/ByteString/Base64.hi
 * /usr/lib/ghc-9.8.1/site-local/base64-0.4.2.4/Data/ByteString/Base64/Internal.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/base64-0.4.2.4/Data/ByteString/Base64/Internal.hi
@@ -88,4 +89,3 @@ A modern RFC 4648-compliant Base64 library
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/base64-0.4.2.4/LICENSE
 * /usr/share/haskell/haskell-base64/register.sh
 * /usr/share/haskell/haskell-base64/unregister.sh
-{{< /files >}}

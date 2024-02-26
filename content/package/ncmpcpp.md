@@ -15,7 +15,8 @@ depends = "['curl>=7.20.0-2', 'fftw', 'icu4c>=74.1', 'libboost>=1.83.0', 'libmpd
 +++
 An almost exact clone of ncmpc with some new features.
 
-{{< files text="show files" >}}* /usr/bin/ncmpcpp
+## Files: 
+* /usr/bin/ncmpcpp
 * /usr/share/doc/ncmpcpp-0.9.2/AUTHORS
 * /usr/share/doc/ncmpcpp-0.9.2/COPYING
 * /usr/share/doc/ncmpcpp-0.9.2/INSTALL
@@ -26,4 +27,3 @@ An almost exact clone of ncmpc with some new features.
 * /usr/share/doc/ncmpcpp/config
 * /usr/share/doc/ncmpcpp/COPYING
 * /usr/share/man/man1/ncmpcpp.1.gz
-{{< /files >}}

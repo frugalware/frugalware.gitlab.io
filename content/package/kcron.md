@@ -15,7 +15,8 @@ depends = "['kcmutils>=5.115.0', 'kio>=5.115.0', 'qt5-svg>=5.15.12']"
 +++
 KDE module for configure and schedule tasks.
 
-{{< files text="show files" >}}* /usr/lib/kf5/kauth/kcron_helper
+## Files: 
+* /usr/lib/kf5/kauth/kcron_helper
 * /usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/kcm_cron.so
 * /usr/share/applications/kcm_cron.desktop
 * /usr/share/dbus-1/system-services/local.kcron.crontab.service
@@ -161,4 +162,3 @@ KDE module for configure and schedule tasks.
 * /usr/share/metainfo/org.kde.kcron.metainfo.xml
 * /usr/share/polkit-1/actions/local.kcron.crontab.policy
 * /usr/share/qlogging-categories5/kcron.categories
-{{< /files >}}

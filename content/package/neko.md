@@ -15,7 +15,8 @@ depends = "['gtk+3', 'libgc', 'mariadb-libs', 'mbedtls', 'sqlite3']"
 +++
 High-level and dynamically typed programming language
 
-{{< files text="show files" >}}* /usr/bin/neko
+## Files: 
+* /usr/bin/neko
 * /usr/bin/nekoc
 * /usr/bin/nekoml
 * /usr/bin/nekotools
@@ -42,4 +43,3 @@ High-level and dynamically typed programming language
 * /usr/share/doc/neko-2.3.0/CHANGES
 * /usr/share/doc/neko-2.3.0/LICENSE
 * /usr/share/doc/neko-2.3.0/README.md
-{{< /files >}}

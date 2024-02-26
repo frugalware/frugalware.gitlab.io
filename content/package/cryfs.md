@@ -16,8 +16,8 @@ reverse_depends = "['plasma-vault']"
 +++
 Cryptographic filesystem for the cloud
 
-{{< files text="show files" >}}* /usr/bin/cryfs
+## Files: 
+* /usr/bin/cryfs
 * /usr/bin/cryfs-unmount
 * /usr/share/doc/cryfs-0.11.4/README.md
 * /usr/share/man/man1/cryfs.1.gz
-{{< /files >}}

@@ -16,11 +16,11 @@ reverse_depends = "['k3b', 'xcfa']"
 +++
 A collection of tools to master DVD+RW/+R/-R/-RW media
 
-{{< files text="show files" >}}* /usr/bin/dvd+rw-booktype
+## Files: 
+* /usr/bin/dvd+rw-booktype
 * /usr/bin/dvd+rw-format
 * /usr/bin/dvd+rw-mediainfo
 * /usr/bin/dvd-ram-control
 * /usr/bin/growisofs
 * /usr/share/doc/dvd+rw-tools-7.1/LICENSE
 * /usr/share/man/man1/growisofs.1.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['perl-mail-spf', 'spamassassin']"
 +++
 Manages IPv4 and IPv6 addresses and subnets
 
-{{< files text="show files" >}}* /usr/lib/perl5/5.38/site_perl/auto/NetAddr/IP/autosplit.ix
+## Files: 
+* /usr/lib/perl5/5.38/site_perl/auto/NetAddr/IP/autosplit.ix
 * /usr/lib/perl5/5.38/site_perl/auto/NetAddr/IP/canon.al
 * /usr/lib/perl5/5.38/site_perl/auto/NetAddr/IP/coalesce.al
 * /usr/lib/perl5/5.38/site_perl/auto/NetAddr/IP/compactref.al
@@ -85,4 +86,3 @@ Manages IPv4 and IPv6 addresses and subnets
 * /usr/share/man/man3/NetAddr::IP::Lite.3perl.gz
 * /usr/share/man/man3/NetAddr::IP::Util.3perl.gz
 * /usr/share/man/man3/NetAddr::IP::UtilPP.3perl.gz
-{{< /files >}}

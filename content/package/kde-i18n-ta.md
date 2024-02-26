@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Tamil Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/locale/ta/charset
+## Files: 
+* usr/share/locale/ta/charset
 * usr/share/locale/ta/entry.desktop
 * usr/share/locale/ta/flag.png
 * usr/share/locale/ta/LC_MESSAGES/akregator.mo
@@ -554,4 +555,3 @@ Tamil Localization for KDE.
 * usr/share/locale/ta/LC_MESSAGES/wakeup.mo
 * usr/share/locale/ta/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/ta/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

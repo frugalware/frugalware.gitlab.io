@@ -16,6 +16,6 @@ reverse_depends = "['steam-native']"
 +++
 Libgcrypt is a general purpose cryptographic library based on the code from GnuPG. (old version) ( 32bit )
 
-{{< files text="show files" >}}* /usr/lib32/libgcrypt.so.11
+## Files: 
+* /usr/lib32/libgcrypt.so.11
 * /usr/lib32/libgcrypt.so.11.8.5
-{{< /files >}}

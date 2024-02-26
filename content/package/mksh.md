@@ -15,9 +15,9 @@ depends = "[]"
 +++
 The MirOS KornShell
 
-{{< files text="show files" >}}* /bin/mksh
+## Files: 
+* /bin/mksh
 * /etc/mkshrc
 * /usr/share/doc/mksh-R59c/FAQ.htm
 * /usr/share/doc/mksh-R59c/FAQ2HTML.sh
 * /usr/share/man/man1/mksh.1.gz
-{{< /files >}}

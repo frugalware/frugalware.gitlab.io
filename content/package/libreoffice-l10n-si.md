@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Sinhala support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/si/default.css
+## Files: 
+* /usr/lib/libreoffice/help/si/default.css
 * /usr/lib/libreoffice/help/si/err.html
 * /usr/lib/libreoffice/help/si/highcontrast1.css
 * /usr/lib/libreoffice/help/si/highcontrast2.css
@@ -133,4 +134,3 @@ Installs Sinhala support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-si.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_si.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_si.xcd
-{{< /files >}}

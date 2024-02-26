@@ -15,7 +15,8 @@ depends = "['db>=4.7.25']"
 +++
 KLibido is a KDE usenet news grabber for Linux.
 
-{{< files text="show files" >}}* usr/bin/klibido
+## Files: 
+* usr/bin/klibido
 * usr/share/applnk/Utilities/klibido.desktop
 * usr/share/apps/klibido/icons/hicolor/16x16/actions/icon_article_new.png
 * usr/share/apps/klibido/icons/hicolor/16x16/actions/icon_article_read.png
@@ -45,4 +46,3 @@ KLibido is a KDE usenet news grabber for Linux.
 * usr/share/icons/hicolor/16x16/apps/klibido.png
 * usr/share/icons/hicolor/32x32/apps/klibido.png
 * usr/share/locale/fr/LC_MESSAGES/klibido.mo
-{{< /files >}}

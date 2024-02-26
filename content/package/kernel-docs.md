@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Linux kernel documentation
 
-{{< files text="show files" >}}* /usr/src/linux-6.7.6-fw1/COPYING
+## Files: 
+* /usr/src/linux-6.7.6-fw1/COPYING
 * /usr/src/linux-6.7.6-fw1/CREDITS
 * /usr/src/linux-6.7.6-fw1/Documentation/.gitignore
 * /usr/src/linux-6.7.6-fw1/Documentation/ABI/obsolete/o2cb
@@ -9588,4 +9589,3 @@ Linux kernel documentation
 * /usr/src/linux-6.7.6-fw1/Documentation/wmi/index.rst
 * /usr/src/linux-6.7.6-fw1/MAINTAINERS
 * /usr/src/linux-6.7.6-fw1/README
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['p11-kit']"
 +++
 The ASN.1 library used in GNUTLS
 
-{{< files text="show files" >}}* /usr/bin/asn1Coding
+## Files: 
+* /usr/bin/asn1Coding
 * /usr/bin/asn1Decoding
 * /usr/bin/asn1Parser
 * /usr/include/libtasn1.h
@@ -77,4 +78,3 @@ The ASN.1 library used in GNUTLS
 * /usr/share/man/man3/asn1_read_value_type.3.gz
 * /usr/share/man/man3/asn1_strerror.3.gz
 * /usr/share/man/man3/asn1_write_value.3.gz
-{{< /files >}}

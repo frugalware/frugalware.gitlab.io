@@ -16,7 +16,8 @@ reverse_depends = "['python3-networkx']"
 +++
 Simplify the usage of python decorators for the average programmer
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/decorator-5.1.1-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/decorator-5.1.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/decorator-5.1.1-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/decorator-5.1.1-py3.12.egg-info/pbr.json
 * /usr/lib/python3.12/site-packages/decorator-5.1.1-py3.12.egg-info/PKG-INFO
@@ -25,4 +26,3 @@ Simplify the usage of python decorators for the average programmer
 * /usr/lib/python3.12/site-packages/decorator.py
 * /usr/lib/python3.12/site-packages/__pycache__/decorator.cpython-312.pyc
 * /usr/share/doc/python3-decorator-5.1.1/README.rst
-{{< /files >}}

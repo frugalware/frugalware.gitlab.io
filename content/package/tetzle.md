@@ -15,7 +15,8 @@ depends = "['qt6-base']"
 +++
 A jigsaw puzzle with tetrominoes for pieces.
 
-{{< files text="show files" >}}* /usr/bin/tetzle
+## Files: 
+* /usr/bin/tetzle
 * /usr/share/applications/tetzle.desktop
 * /usr/share/doc/tetzle-2.2.2/ChangeLog
 * /usr/share/doc/tetzle-2.2.2/COPYING
@@ -58,4 +59,3 @@ A jigsaw puzzle with tetrominoes for pieces.
 * /usr/share/tetzle/translations/tetzle_uk.qm
 * /usr/share/tetzle/translations/tetzle_uk_UA.qm
 * /usr/share/tetzle/translations/tetzle_zh.qm
-{{< /files >}}

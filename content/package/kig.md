@@ -15,7 +15,8 @@ depends = "['kparts>=5.115.0', 'libboost>=1.83.0', 'python3>=3.12', 'qt5-svg>=5.
 +++
 Interactive Geometry.
 
-{{< files text="show files" >}}* /usr/bin/kig
+## Files: 
+* /usr/bin/kig
 * /usr/bin/pykig.py
 * /usr/lib/qt5/plugins/kf5/parts/kigpart.so
 * /usr/share/applications/org.kde.kig.desktop
@@ -477,4 +478,3 @@ Interactive Geometry.
 * /usr/share/man/sv/man1/kig.1.gz
 * /usr/share/man/uk/man1/kig.1.gz
 * /usr/share/metainfo/org.kde.kig.appdata.xml
-{{< /files >}}

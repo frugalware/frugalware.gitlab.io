@@ -16,7 +16,8 @@ reverse_depends = "['haskell-skylighting']"
 +++
 ANSI formatter for skylighting syntax highlighting library
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/skylighting-format-ansi-0.1/libHSskylighting-format-ansi-0.1-CATtEqwxjInLGNcxdfDEko.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/skylighting-format-ansi-0.1/libHSskylighting-format-ansi-0.1-CATtEqwxjInLGNcxdfDEko.a
 * /usr/lib/ghc-9.8.1/site-local/skylighting-format-ansi-0.1/Skylighting/Format/ANSI.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/skylighting-format-ansi-0.1/Skylighting/Format/ANSI.hi
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSskylighting-format-ansi-0.1-CATtEqwxjInLGNcxdfDEko-ghc9.8.1.so
@@ -34,4 +35,3 @@ ANSI formatter for skylighting syntax highlighting library
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/skylighting-format-ansi-0.1/LICENSE
 * /usr/share/haskell/haskell-skylighting-format-ansi/register.sh
 * /usr/share/haskell/haskell-skylighting-format-ansi/unregister.sh
-{{< /files >}}

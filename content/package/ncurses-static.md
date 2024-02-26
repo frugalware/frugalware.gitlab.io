@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Static files for ncurses
 
-{{< files text="show files" >}}* /usr/lib/libcurses.a
+## Files: 
+* /usr/lib/libcurses.a
 * /usr/lib/libform.a
 * /usr/lib/libformw.a
 * /usr/lib/libmenu.a
@@ -26,4 +27,3 @@ Static files for ncurses
 * /usr/lib/libncursesw.a
 * /usr/lib/libpanel.a
 * /usr/lib/libpanelw.a
-{{< /files >}}

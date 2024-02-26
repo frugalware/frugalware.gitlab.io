@@ -16,11 +16,11 @@ reverse_depends = "['lib32-ffmpeg', 'lib32-gnutls', 'lib32-libpsl', 'lib32-libsy
 +++
 GNU Libidn2 is an implementation of the Stringprep,Punycode and IDNA specification. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/idn2
+## Files: 
+* /usr/i686-frugalware-linux/bin/idn2
 * /usr/i686-frugalware-linux/include/idn2.h
 * /usr/lib32/libidn2.la
 * /usr/lib32/libidn2.so
 * /usr/lib32/libidn2.so.0
 * /usr/lib32/libidn2.so.0.4.0
 * /usr/lib32/pkgconfig/libidn2.pc
-{{< /files >}}

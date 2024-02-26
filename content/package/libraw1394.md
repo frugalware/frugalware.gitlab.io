@@ -16,7 +16,8 @@ reverse_depends = "['guvcview', 'kinfocenter5', 'libavc1394', 'libdc1394', 'libi
 +++
 Provides an API to the Linux IEEE1394 (FireWire) driver
 
-{{< files text="show files" >}}* /usr/bin/dumpiso
+## Files: 
+* /usr/bin/dumpiso
 * /usr/bin/sendiso
 * /usr/bin/testlibraw
 * /usr/include/libraw1394/csr.h
@@ -36,4 +37,3 @@ Provides an API to the Linux IEEE1394 (FireWire) driver
 * /usr/share/man/man1/sendiso.1.gz
 * /usr/share/man/man1/testlibraw.1.gz
 * /usr/share/man/man5/isodump.5.gz
-{{< /files >}}

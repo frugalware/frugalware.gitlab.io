@@ -16,7 +16,8 @@ reverse_depends = "['kile']"
 +++
 KDE universal document viewer.
 
-{{< files text="show files" >}}* /usr/bin/okular
+## Files: 
+* /usr/bin/okular
 * /usr/include/okular/core/action.h
 * /usr/include/okular/core/annotations.h
 * /usr/include/okular/core/area.h
@@ -1542,4 +1543,3 @@ KDE universal document viewer.
 * /usr/share/okular/tools.xml
 * /usr/share/okular/toolsQuick.xml
 * /usr/share/qlogging-categories5/okular.categories
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['efl', 'enlightenment', 'libinput', 'qt5-base', 'terminology
 +++
 Kernel multi-touch transformation library
 
-{{< files text="show files" >}}* /usr/bin/mtdev-test
+## Files: 
+* /usr/bin/mtdev-test
 * /usr/include/mtdev-mapping.h
 * /usr/include/mtdev-plumbing.h
 * /usr/include/mtdev.h
@@ -28,4 +29,3 @@ Kernel multi-touch transformation library
 * /usr/share/doc/mtdev-1.1.6/COPYING
 * /usr/share/doc/mtdev-1.1.6/INSTALL
 * /usr/share/doc/mtdev-1.1.6/README
-{{< /files >}}

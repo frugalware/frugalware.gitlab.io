@@ -16,7 +16,8 @@ reverse_depends = "['vtk']"
 +++
 C library for reading virtual slide images
 
-{{< files text="show files" >}}* /usr/bin/dcm-dump
+## Files: 
+* /usr/bin/dcm-dump
 * /usr/bin/dcm-getframe
 * /usr/bin/openslide-quickhash1sum
 * /usr/bin/openslide-show-properties
@@ -42,4 +43,3 @@ C library for reading virtual slide images
 * /usr/share/man/man1/openslide-show-properties.1.gz
 * /usr/share/man/man1/openslide-write-png.1.gz
 * /usr/share/man/man1/slidetool.1.gz
-{{< /files >}}

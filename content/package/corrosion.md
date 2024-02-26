@@ -15,7 +15,8 @@ depends = "['cmake', 'rust']"
 +++
 Tool for integrating Rust into an existing CMake project
 
-{{< files text="show files" >}}* /usr/lib/cmake/Corrosion/CorrosionConfig.cmake
+## Files: 
+* /usr/lib/cmake/Corrosion/CorrosionConfig.cmake
 * /usr/lib/cmake/Corrosion/CorrosionConfigVersion.cmake
 * /usr/lib/corrosion/corrosion-generator
 * /usr/share/cmake/Corrosion.cmake
@@ -24,4 +25,3 @@ Tool for integrating Rust into an existing CMake project
 * /usr/share/doc/corrosion-0.3.5/LICENSE
 * /usr/share/doc/corrosion-0.3.5/README.md
 * /usr/share/doc/corrosion-0.3.5/RELEASES.md
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Static files for nghttp2
 
-{{< files text="show files" >}}* /usr/lib/libnghttp2.a
-{{< /files >}}
+## Files: 
+* /usr/lib/libnghttp2.a

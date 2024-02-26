@@ -15,7 +15,8 @@ depends = "['libstdc++>=7.3.0-7']"
 +++
 Binary codecs, for Linux x86
 
-{{< files text="show files" >}}* /usr/lib/win32/14_43260.dll
+## Files: 
+* /usr/lib/win32/14_43260.dll
 * /usr/lib/win32/28_83260.dll
 * /usr/lib/win32/3ivx Delta 3.5.qtx
 * /usr/lib/win32/3ivx.dll
@@ -241,4 +242,3 @@ Binary codecs, for Linux x86
 * /usr/lib/win32/ZyGoAudioS.qtx
 * /usr/lib/win32/ZyGoVideo.qtx
 * /usr/share/doc/codecs-20110131/README
-{{< /files >}}

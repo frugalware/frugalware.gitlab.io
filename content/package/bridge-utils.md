@@ -16,11 +16,11 @@ reverse_depends = "['docker', 'dracut-network', 'libvirt']"
 +++
 Linux Ethernet bridging
 
-{{< files text="show files" >}}* /usr/bin/brctl
+## Files: 
+* /usr/bin/brctl
 * /usr/share/doc/bridge-utils-1.7.1/AUTHORS
 * /usr/share/doc/bridge-utils-1.7.1/ChangeLog
 * /usr/share/doc/bridge-utils-1.7.1/COPYING
 * /usr/share/doc/bridge-utils-1.7.1/README
 * /usr/share/doc/bridge-utils-1.7.1/THANKS
 * /usr/share/man/man8/brctl.8.gz
-{{< /files >}}

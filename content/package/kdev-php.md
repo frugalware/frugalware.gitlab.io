@@ -16,7 +16,8 @@ reverse_depends = "['umbrello']"
 +++
 PHP Language Plugin for KDevelop
 
-{{< files text="show files" >}}* /usr/include/kdev-php/kdevphpversion.h
+## Files: 
+* /usr/include/kdev-php/kdevphpversion.h
 * /usr/include/kdev-php/parser/parsesession.h
 * /usr/include/kdev-php/parser/phplexer.h
 * /usr/include/kdev-php/parser/tokenstream.h
@@ -92,4 +93,3 @@ PHP Language Plugin for KDevelop
 * /usr/share/locale/zh_TW/LC_MESSAGES/kdevphp.mo
 * /usr/share/metainfo/org.kde.kdev-php.metainfo.xml
 * /usr/share/qlogging-categories5/kdevphpsupport.categories
-{{< /files >}}

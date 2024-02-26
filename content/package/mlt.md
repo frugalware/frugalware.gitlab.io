@@ -16,7 +16,8 @@ reverse_depends = "['kdenlive', 'krita', 'mlt-jack', 'mlt-qt', 'mlt-sdl']"
 +++
 MLT is an open source multimedia framework, designed and developed for television broadcasting.
 
-{{< files text="show files" >}}* /usr/bin/melt
+## Files: 
+* /usr/bin/melt
 * /usr/bin/melt-7
 * /usr/include/mlt-7/framework/mlt.h
 * /usr/include/mlt-7/framework/mlt_animation.h
@@ -449,4 +450,3 @@ MLT is an open source multimedia framework, designed and developed for televisio
 * /usr/share/mlt-7/xml/producer_xml-nogl.yml
 * /usr/share/mlt-7/xml/producer_xml-string.yml
 * /usr/share/mlt-7/xml/producer_xml.yml
-{{< /files >}}

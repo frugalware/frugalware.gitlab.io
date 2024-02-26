@@ -15,7 +15,7 @@ depends = "['freeciv', 'gtk+3']"
 +++
 GTK+3 client for freeciv
 
-{{< files text="show files" >}}* /usr/bin/freeciv-gtk3.22
+## Files: 
+* /usr/bin/freeciv-gtk3.22
 * /usr/bin/freeciv-mp-gtk3
 * /usr/share/applications/org.freeciv.gtk322.desktop
-{{< /files >}}

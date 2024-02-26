@@ -16,8 +16,8 @@ reverse_depends = "['perl-mailtools']"
 +++
 check for POD errors in files
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/Test/Pod.pm
+## Files: 
+* /usr/lib/perl5/site_perl/current/Test/Pod.pm
 * /usr/share/doc/perl-test-pod-1.52/MANIFEST
 * /usr/share/doc/perl-test-pod-1.52/README
 * /usr/share/man/man3/Test::Pod.3perl.gz
-{{< /files >}}

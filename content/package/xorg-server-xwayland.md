@@ -16,10 +16,10 @@ reverse_depends = "['plasma-wayland-session']"
 +++
 run X clients under wayland
 
-{{< files text="show files" >}}* /usr/bin/Xwayland
+## Files: 
+* /usr/bin/Xwayland
 * /usr/lib/pkgconfig/xwayland.pc
 * /usr/share/applications/org.freedesktop.Xwayland.desktop
 * /usr/share/doc/xorg-server-xwayland-23.2.4/COPYING
 * /usr/share/doc/xorg-server-xwayland-23.2.4/README.md
 * /usr/share/man/man1/Xwayland.1.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['acpi_call', 'ddcci-driver-linux', 'evdi', 'ieee80211', 'int
 +++
 The Linux Kernel and modules
 
-{{< files text="show files" >}}* /boot/config-6.7.6-fw1
+## Files: 
+* /boot/config-6.7.6-fw1
 * /boot/System.map-6.7.6-fw1
 * /boot/vmlinuz
 * /boot/vmlinuz-6.7.6-fw1
@@ -6331,4 +6332,3 @@ The Linux Kernel and modules
 * /usr/lib/modules/6.7.6-fw1/modules.symbols
 * /usr/lib/modules/6.7.6-fw1/modules.symbols.bin
 * /usr/lib/modules/6.7.6-fw1/source
-{{< /files >}}

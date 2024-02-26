@@ -16,7 +16,8 @@ reverse_depends = "['haskell-aeson']"
 +++
 Strict data types and String IO.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/strict-0.5/Data/Strict.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/strict-0.5/Data/Strict.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/strict-0.5/Data/Strict.hi
 * /usr/lib/ghc-9.8.1/site-local/strict-0.5/Data/Strict/Classes.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/strict-0.5/Data/Strict/Classes.hi
@@ -53,4 +54,3 @@ Strict data types and String IO.
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/strict-0.5/LICENSE
 * /usr/share/haskell/haskell-strict/register.sh
 * /usr/share/haskell/haskell-strict/unregister.sh
-{{< /files >}}

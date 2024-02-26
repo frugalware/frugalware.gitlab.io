@@ -16,7 +16,8 @@ reverse_depends = "['discover', 'dolphin', 'kbackup', 'kdesignerplugin', 'kdiff3
 +++
 Icon GUI utilities.
 
-{{< files text="show files" >}}* /usr/bin/kiconfinder5
+## Files: 
+* /usr/bin/kiconfinder5
 * /usr/include/KF5/KIconThemes/KIconButton
 * /usr/include/KF5/KIconThemes/kiconbutton.h
 * /usr/include/KF5/KIconThemes/KIconColors
@@ -134,4 +135,3 @@ Icon GUI utilities.
 * /usr/share/qlogging-categories5/kiconthemes.categories
 * /usr/share/qlogging-categories5/kiconthemes.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KIconThemes.pri
-{{< /files >}}

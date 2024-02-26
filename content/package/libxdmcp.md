@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.Org Xdmcp library
 
-{{< files text="show files" >}}* /usr/include/X11/Xdmcp.h
+## Files: 
+* /usr/include/X11/Xdmcp.h
 * /usr/lib/libXdmcp.so
 * /usr/lib/libXdmcp.so.6
 * /usr/lib/libXdmcp.so.6.0.0
@@ -29,4 +30,3 @@ X.Org Xdmcp library
 * /usr/share/doc/libxdmcp-1.1.4/README.md
 * /usr/share/doc/libxdmcp-1.1.4/Wraphelp.README.crypto
 * /usr/share/doc/libxdmcp-1.1.4/xdmcp.xml
-{{< /files >}}

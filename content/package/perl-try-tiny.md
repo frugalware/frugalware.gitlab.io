@@ -16,9 +16,9 @@ reverse_depends = "['perl-datetime', 'perl-http-daemon', 'perl-module-implementa
 +++
 Minimal try/catch with proper preservation
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/Try/Tiny.pm
+## Files: 
+* /usr/lib/perl5/site_perl/current/Try/Tiny.pm
 * /usr/share/doc/perl-try-tiny-0.31/INSTALL
 * /usr/share/doc/perl-try-tiny-0.31/MANIFEST
 * /usr/share/doc/perl-try-tiny-0.31/README
 * /usr/share/man/man3/Try::Tiny.3perl.gz
-{{< /files >}}

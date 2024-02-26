@@ -16,7 +16,8 @@ reverse_depends = "['lumina-desktop']"
 +++
 A Pulseaudio mixer in Qt5.
 
-{{< files text="show files" >}}* /usr/bin/pavucontrol-qt
+## Files: 
+* /usr/bin/pavucontrol-qt
 * /usr/share/applications/pavucontrol-qt.desktop
 * /usr/share/doc/pavucontrol-qt-1.3.0/AUTHORS
 * /usr/share/doc/pavucontrol-qt-1.3.0/CHANGELOG
@@ -74,4 +75,3 @@ A Pulseaudio mixer in Qt5.
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_uk.qm
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_zh_CN.qm
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_zh_TW.qm
-{{< /files >}}

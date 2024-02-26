@@ -16,7 +16,8 @@ reverse_depends = "['python3-sphinx']"
 +++
 Sphinx extension which renders display math in HTML via JavaScript
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/sphinxcontrib/jsmath/version.py
+## Files: 
+* /usr/lib/python3.12/site-packages/sphinxcontrib/jsmath/version.py
 * /usr/lib/python3.12/site-packages/sphinxcontrib/jsmath/__init__.py
 * /usr/lib/python3.12/site-packages/sphinxcontrib/jsmath/__pycache__/version.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinxcontrib/jsmath/__pycache__/__init__.cpython-312.pyc
@@ -31,4 +32,3 @@ Sphinx extension which renders display math in HTML via JavaScript
 * /usr/share/doc/python3-sphinx-jsmath-1.0.1/CHANGES
 * /usr/share/doc/python3-sphinx-jsmath-1.0.1/LICENSE
 * /usr/share/doc/python3-sphinx-jsmath-1.0.1/README.rst
-{{< /files >}}

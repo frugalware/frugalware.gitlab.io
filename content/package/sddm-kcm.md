@@ -15,7 +15,8 @@ depends = "['kcmutils>=5.115.0', 'kdeclarative>=5.115.0', 'knewstuff>=5.115.0', 
 +++
 KCM module for SDDM
 
-{{< files text="show files" >}}* /usr/bin/sddmthemeinstaller
+## Files: 
+* /usr/bin/sddmthemeinstaller
 * /usr/lib/kf5/kauth/kcmsddm_authhelper
 * /usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_sddm.so
 * /usr/share/applications/kcm_sddm.desktop
@@ -77,4 +78,3 @@ KCM module for SDDM
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy
-{{< /files >}}

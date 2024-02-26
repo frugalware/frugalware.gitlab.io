@@ -16,7 +16,8 @@ reverse_depends = "['connman', 'fail2ban', 'guarddog', 'iproute2', 'ipset', 'net
 +++
 IP packet filter administration
 
-{{< files text="show files" >}}* /etc/ethertypes
+## Files: 
+* /etc/ethertypes
 * /etc/sysconfig/firewall
 * /etc/sysconfig/iptables
 * /usr/bin/arptables
@@ -245,4 +246,3 @@ IP packet filter administration
 * /usr/share/man/man8/xtables-nft.8.gz
 * /usr/share/man/man8/xtables-translate.8.gz
 * /usr/share/xtables/iptables.xslt
-{{< /files >}}

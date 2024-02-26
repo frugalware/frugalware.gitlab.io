@@ -15,7 +15,8 @@ depends = "['python3>=3.12']"
 +++
 Character encoding auto-detection in Python 2
 
-{{< files text="show files" >}}* /usr/bin/chardetect
+## Files: 
+* /usr/bin/chardetect
 * /usr/lib/python3.12/site-packages/chardet-5.2.0.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/chardet-5.2.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/chardet-5.2.0.dist-info/METADATA
@@ -172,4 +173,3 @@ Character encoding auto-detection in Python 2
 * /usr/lib/python3.12/site-packages/chardet/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/chardet3-5.2.0/LICENSE
 * /usr/share/doc/chardet3-5.2.0/README.rst
-{{< /files >}}

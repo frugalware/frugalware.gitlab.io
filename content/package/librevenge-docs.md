@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Librevenge Documentation
 
-{{< files text="show files" >}}* /usr/share/doc/librevenge-0.0.5/html/annotated.html
+## Files: 
+* /usr/share/doc/librevenge-0.0.5/html/annotated.html
 * /usr/share/doc/librevenge-0.0.5/html/bc_s.png
 * /usr/share/doc/librevenge-0.0.5/html/bc_sd.png
 * /usr/share/doc/librevenge-0.0.5/html/bdwn.png
@@ -460,4 +461,3 @@ Librevenge Documentation
 * /usr/share/doc/librevenge-0.0.5/html/tab_hd.png
 * /usr/share/doc/librevenge-0.0.5/html/tab_s.png
 * /usr/share/doc/librevenge-0.0.5/html/tab_sd.png
-{{< /files >}}

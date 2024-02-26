@@ -16,7 +16,8 @@ reverse_depends = "['libextractor', 'libpst', 'libvips']"
 +++
 A library for reading and writing structured files (eg MS OLE and Zip)
 
-{{< files text="show files" >}}* /usr/bin/gsf
+## Files: 
+* /usr/bin/gsf
 * /usr/bin/gsf-office-thumbnailer
 * /usr/bin/gsf-vba-dump
 * /usr/include/libgsf-1/gsf/gsf-blob.h
@@ -175,4 +176,3 @@ A library for reading and writing structured files (eg MS OLE and Zip)
 * /usr/share/man/man1/gsf-vba-dump.1.gz
 * /usr/share/man/man1/gsf.1.gz
 * /usr/share/thumbnailers/gsf-office.thumbnailer
-{{< /files >}}

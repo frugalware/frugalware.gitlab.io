@@ -16,7 +16,8 @@ reverse_depends = "['bitlbee-otr', 'irssi-otr', 'kopete', 'mcabber', 'pidgin-otr
 +++
 Off-the-Record (OTR) Messaging Library.
 
-{{< files text="show files" >}}* /usr/bin/otr_mackey
+## Files: 
+* /usr/bin/otr_mackey
 * /usr/bin/otr_modify
 * /usr/bin/otr_parse
 * /usr/bin/otr_readforge
@@ -57,4 +58,3 @@ Off-the-Record (OTR) Messaging Library.
 * /usr/share/man/man1/otr_remac.1.gz
 * /usr/share/man/man1/otr_sesskeys.1.gz
 * /usr/share/man/man1/otr_toolkit.1.gz
-{{< /files >}}

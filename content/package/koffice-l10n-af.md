@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Afrikaans Localization for KOffice. 
 
-{{< files text="show files" >}}* usr/share/locale/af/LC_MESSAGES/desktop_koffice.mo
+## Files: 
+* usr/share/locale/af/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/af/LC_MESSAGES/example.mo
 * usr/share/locale/af/LC_MESSAGES/karbon.mo
 * usr/share/locale/af/LC_MESSAGES/kchart.mo
@@ -36,4 +37,3 @@ Afrikaans Localization for KOffice.
 * usr/share/locale/af/LC_MESSAGES/kugar.mo
 * usr/share/locale/af/LC_MESSAGES/kword.mo
 * usr/share/locale/af/LC_MESSAGES/thesaurus_tool.mo
-{{< /files >}}

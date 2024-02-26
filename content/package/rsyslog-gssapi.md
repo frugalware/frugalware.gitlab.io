@@ -15,7 +15,7 @@ depends = "['libkrb5>=1.17-2', 'rsyslog>=8.2312.0']"
 +++
 GSSAPI authentication and encryption support for rsyslog
 
-{{< files text="show files" >}}* /usr/lib/rsyslog/imgssapi.so
+## Files: 
+* /usr/lib/rsyslog/imgssapi.so
 * /usr/lib/rsyslog/lmgssutil.so
 * /usr/lib/rsyslog/omgssapi.so
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['systemsettings5>=5.27.10']"
 +++
 Control Panel for your system firewall
 
-{{< files text="show files" >}}* /usr/lib/kf5/kauth/kde_ufw_plugin_helper
+## Files: 
+* /usr/lib/kf5/kauth/kde_ufw_plugin_helper
 * /usr/lib/kf5/kde_ufw_plugin_helper.py
 * /usr/lib/libkcm_firewall_core.so
 * /usr/lib/qt5/plugins/kf5/plasma_firewall/firewalldbackend.so
@@ -79,4 +80,3 @@ Control Panel for your system firewall
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/metainfo/org.kde.plasma.firewall.metainfo.xml
 * /usr/share/polkit-1/actions/org.kde.ufw.policy
-{{< /files >}}

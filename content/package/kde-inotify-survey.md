@@ -15,7 +15,8 @@ depends = "['knotifications']"
 +++
 Tooling for monitoring inotify limits and informing the user when they have been or about to be reached
 
-{{< files text="show files" >}}* /usr/bin/kde-inotify-survey
+## Files: 
+* /usr/bin/kde-inotify-survey
 * /usr/lib/kf5/kauth/kded-inotify-helper
 * /usr/lib/qt5/plugins/kf5/kded/inotify.so
 * /usr/share/dbus-1/system-services/org.kde.kded.inotify.service
@@ -51,4 +52,3 @@ Tooling for monitoring inotify limits and informing the user when they have been
 * /usr/share/locale/zh_TW/LC_MESSAGES/kde-inotify-survey.mo
 * /usr/share/metainfo/org.kde.inotify-survey.metainfo.xml
 * /usr/share/polkit-1/actions/org.kde.kded.inotify.policy
-{{< /files >}}

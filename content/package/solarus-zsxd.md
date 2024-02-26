@@ -15,7 +15,8 @@ depends = "['solarus', 'zip']"
 +++
 Zelda: Mystery of Solarus XD (or ZSXD for short): a humorous game.
 
-{{< files text="show files" >}}* /usr/bin/zsxd
+## Files: 
+* /usr/bin/zsxd
 * /usr/share/applications/zsxd.desktop
 * /usr/share/icons/hicolor/1024x1024/apps/zsxd.png
 * /usr/share/icons/hicolor/128x128/apps/zsxd.png
@@ -28,4 +29,3 @@ Zelda: Mystery of Solarus XD (or ZSXD for short): a humorous game.
 * /usr/share/icons/hicolor/64x64/apps/zsxd.png
 * /usr/share/pixmaps/zsxd.png
 * /usr/share/solarus/zsxd/data.solarus
-{{< /files >}}

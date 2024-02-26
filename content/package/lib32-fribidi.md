@@ -16,7 +16,8 @@ reverse_depends = "['lib32-libass', 'lib32-pango']"
 +++
 A Free Implementation of the Unicode BiDirectional algorithm ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/fribidi
+## Files: 
+* /usr/i686-frugalware-linux/bin/fribidi
 * /usr/i686-frugalware-linux/include/fribidi/fribidi-arabic.h
 * /usr/i686-frugalware-linux/include/fribidi/fribidi-begindecls.h
 * /usr/i686-frugalware-linux/include/fribidi/fribidi-bidi-types-list.h
@@ -43,4 +44,3 @@ A Free Implementation of the Unicode BiDirectional algorithm ( 32bit )
 * /usr/lib32/libfribidi.so.0
 * /usr/lib32/libfribidi.so.0.4.0
 * /usr/lib32/pkgconfig/fribidi.pc
-{{< /files >}}

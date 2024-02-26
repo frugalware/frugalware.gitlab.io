@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 Check is a unit test framework for C.
 
-{{< files text="show files" >}}* /usr/bin/checkmk
+## Files: 
+* /usr/bin/checkmk
 * /usr/include/check.h
 * /usr/include/check_stdint.h
 * /usr/lib/libcheck.so
@@ -60,4 +61,3 @@ Check is a unit test framework for C.
 * /usr/share/doc/check/SVNChangeLog
 * /usr/share/info/check.info.gz
 * /usr/share/man/man1/checkmk.1.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['gi-docgen', 'glad', 'python3-sphinx']"
 +++
 A simple pythonic template language written in Python
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/Jinja2-3.1.2-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/Jinja2-3.1.2-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/Jinja2-3.1.2-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/Jinja2-3.1.2-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/Jinja2-3.1.2-py3.12.egg-info/requires.txt
@@ -99,4 +100,3 @@ A simple pythonic template language written in Python
 * /usr/lib/python3.12/site-packages/jinja2/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/jinja2/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-jinja-3.1.2/README.rst
-{{< /files >}}

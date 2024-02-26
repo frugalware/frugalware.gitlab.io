@@ -16,7 +16,8 @@ reverse_depends = "['systemd']"
 +++
 systemd System V init tools
 
-{{< files text="show files" >}}* /usr/bin/halt
+## Files: 
+* /usr/bin/halt
 * /usr/bin/init
 * /usr/bin/poweroff
 * /usr/bin/reboot
@@ -29,4 +30,3 @@ systemd System V init tools
 * /usr/share/man/man8/runlevel.8.gz
 * /usr/share/man/man8/shutdown.8.gz
 * /usr/share/man/man8/telinit.8.gz
-{{< /files >}}

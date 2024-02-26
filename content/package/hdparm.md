@@ -16,9 +16,9 @@ reverse_depends = "['hw-probe', 'laptop-mode-tools']"
 +++
 Read/set hard drive parameters
 
-{{< files text="show files" >}}* /usr/bin/hdparm
+## Files: 
+* /usr/bin/hdparm
 * /usr/share/doc/hdparm-9.65/Changelog
 * /usr/share/doc/hdparm-9.65/README.acoustic
 * /usr/share/doc/hdparm-9.65/TODO
 * /usr/share/man/man8/hdparm.8.gz
-{{< /files >}}

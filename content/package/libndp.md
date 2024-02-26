@@ -16,7 +16,8 @@ reverse_depends = "['networkmanager']"
 +++
 This package contains a library which provides a wrapper for IPv6 Neighbor Discovery Protocol.
 
-{{< files text="show files" >}}* /usr/bin/ndptool
+## Files: 
+* /usr/bin/ndptool
 * /usr/include/ndp.h
 * /usr/lib/libndp.so
 * /usr/lib/libndp.so.0
@@ -25,4 +26,3 @@ This package contains a library which provides a wrapper for IPv6 Neighbor Disco
 * /usr/share/doc/libndp-1.8/COPYING
 * /usr/share/doc/libndp-1.8/README
 * /usr/share/man/man8/ndptool.8.gz
-{{< /files >}}

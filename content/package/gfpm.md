@@ -15,7 +15,8 @@ depends = "['gtk+2>=2.24.29-2', 'openssl>=1.0.2-4']"
 +++
 Graphical Frugalware Package Manager
 
-{{< files text="show files" >}}* /usr/bin/gfpm
+## Files: 
+* /usr/bin/gfpm
 * /usr/share/applications/gfpm.desktop
 * /usr/share/applications/kde/gfpm-kde.desktop
 * /usr/share/doc/gfpm-1.3.3/AUTHORS
@@ -56,4 +57,3 @@ Graphical Frugalware Package Manager
 * /usr/share/icons/hicolor/32x32/apps/gfpm-sync.png
 * /usr/share/icons/hicolor/32x32/apps/gfpm.png
 * /usr/share/icons/hicolor/48x48/apps/gfpm.png
-{{< /files >}}

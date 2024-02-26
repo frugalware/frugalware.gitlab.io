@@ -15,7 +15,8 @@ depends = "['perl>=5.34.0', 'perl-net-dns']"
 +++
 programmable DNS resolver class for offline emulation of DNS
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/Net/DNS/Resolver/Programmable.pm
+## Files: 
+* /usr/lib/perl5/site_perl/Net/DNS/Resolver/Programmable.pm
 * /usr/share/doc/perl-net-dns-resolver-programmable-0.009/CHANGES
 * /usr/share/doc/perl-net-dns-resolver-programmable-0.009/INSTALL
 * /usr/share/doc/perl-net-dns-resolver-programmable-0.009/LICENSE
@@ -23,4 +24,3 @@ programmable DNS resolver class for offline emulation of DNS
 * /usr/share/doc/perl-net-dns-resolver-programmable-0.009/README
 * /usr/share/doc/perl-net-dns-resolver-programmable-0.009/TODO
 * /usr/share/man/man3/Net::DNS::Resolver::Programmable.3perl.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['cantor', 'efl', 'okular']"
 +++
 libspectre is a small library for rendering Postscript documents
 
-{{< files text="show files" >}}* /usr/include/libspectre/spectre-document.h
+## Files: 
+* /usr/include/libspectre/spectre-document.h
 * /usr/include/libspectre/spectre-exporter.h
 * /usr/include/libspectre/spectre-macros.h
 * /usr/include/libspectre/spectre-page.h
@@ -35,4 +36,3 @@ libspectre is a small library for rendering Postscript documents
 * /usr/share/doc/libspectre-0.2.12/NEWS
 * /usr/share/doc/libspectre-0.2.12/README
 * /usr/share/doc/libspectre-0.2.12/TODO
-{{< /files >}}

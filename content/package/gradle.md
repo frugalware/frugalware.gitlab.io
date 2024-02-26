@@ -15,7 +15,8 @@ depends = "['bash', 'openjre']"
 +++
 Powerful build system for the JVM
 
-{{< files text="show files" >}}* /etc/profile.d/gradle.sh
+## Files: 
+* /etc/profile.d/gradle.sh
 * /usr/bin/gradle
 * /usr/lib/gradle/bin/gradle
 * /usr/lib/gradle/init.d/readme.txt
@@ -280,4 +281,3 @@ Powerful build system for the JVM
 * /usr/lib/gradle/NOTICE
 * /usr/share/doc/gradle-8.6/LICENSE
 * /usr/share/doc/gradle-8.6/README
-{{< /files >}}

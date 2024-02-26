@@ -16,7 +16,8 @@ reverse_depends = "['python3-async-timeout', 'python3-cleo', 'python3-jsonschema
 +++
 Backported and Experimental Type Hints for Python 3.5+
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/typing_extensions-4.8.0.dist-info/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/typing_extensions-4.8.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/typing_extensions-4.8.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/typing_extensions-4.8.0.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/typing_extensions-4.8.0.dist-info/WHEEL
@@ -26,4 +27,3 @@ Backported and Experimental Type Hints for Python 3.5+
 * /usr/share/doc/python3-typing_extensions-4.8.0/LICENSE
 * /usr/share/doc/python3-typing_extensions-4.8.0/README.md
 * /usr/share/doc/python3-typing_extensions-4.8.0/README.rst
-{{< /files >}}

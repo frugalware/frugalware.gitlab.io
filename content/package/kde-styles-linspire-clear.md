@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Linspire Clear KDE style
 
-{{< files text="show files" >}}* usr/lib/kde3/kstyle_linspireclear_config.la
+## Files: 
+* usr/lib/kde3/kstyle_linspireclear_config.la
 * usr/lib/kde3/kstyle_linspireclear_config.so
 * usr/lib/kde3/kwin3_linspireclear.la
 * usr/lib/kde3/kwin3_linspireclear.so
@@ -35,4 +36,3 @@ Linspire Clear KDE style
 * usr/share/doc/kde-styles-linspire-clear-0.1/NEWS
 * usr/share/doc/kde-styles-linspire-clear-0.1/README
 * usr/share/doc/kde-styles-linspire-clear-0.1/TODO
-{{< /files >}}

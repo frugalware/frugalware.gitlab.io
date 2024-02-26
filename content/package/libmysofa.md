@@ -16,7 +16,8 @@ reverse_depends = "['pipewire']"
 +++
 C library to read HRTFs if they are stored in the AES69-2015 SOFA format
 
-{{< files text="show files" >}}* /usr/bin/mysofa2json
+## Files: 
+* /usr/bin/mysofa2json
 * /usr/include/mysofa.h
 * /usr/lib/cmake/mysofa/mysofaConfig.cmake
 * /usr/lib/cmake/mysofa/mysofaConfigVersion.cmake
@@ -30,4 +31,3 @@ C library to read HRTFs if they are stored in the AES69-2015 SOFA format
 * /usr/share/doc/libmysofa-1.3.2/README.md
 * /usr/share/libmysofa/default.sofa
 * /usr/share/libmysofa/MIT_KEMAR_normal_pinna.sofa
-{{< /files >}}

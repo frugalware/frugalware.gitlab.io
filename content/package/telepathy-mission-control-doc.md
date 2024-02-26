@@ -15,4 +15,4 @@ depends = "['telepathy-mission-control>=5.16.6']"
 +++
 telepathy-mission-control documention
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

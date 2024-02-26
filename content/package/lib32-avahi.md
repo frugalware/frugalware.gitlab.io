@@ -16,7 +16,8 @@ reverse_depends = "['lib32-libcups']"
 +++
 A multicast/unicast DNS-SD framework (32-Bit)
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/avahi-browse
+## Files: 
+* /usr/i686-frugalware-linux/bin/avahi-browse
 * /usr/i686-frugalware-linux/bin/avahi-browse-domains
 * /usr/i686-frugalware-linux/bin/avahi-publish
 * /usr/i686-frugalware-linux/bin/avahi-publish-address
@@ -64,4 +65,3 @@ A multicast/unicast DNS-SD framework (32-Bit)
 * /usr/lib32/pkgconfig/avahi-client.pc
 * /usr/lib32/pkgconfig/avahi-core.pc
 * /usr/lib32/pkgconfig/avahi-libevent.pc
-{{< /files >}}

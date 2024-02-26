@@ -16,7 +16,8 @@ reverse_depends = "['socnetv']"
 +++
 The Qt6 toolkit, qtcharts
 
-{{< files text="show files" >}}* /usr/include/qt6/QtCharts/6.6.2/QtCharts/private/abstractbarchartitem_p.h
+## Files: 
+* /usr/include/qt6/QtCharts/6.6.2/QtCharts/private/abstractbarchartitem_p.h
 * /usr/include/qt6/QtCharts/6.6.2/QtCharts/private/abstractchartlayout_p.h
 * /usr/include/qt6/QtCharts/6.6.2/QtCharts/private/abstractdomain_p.h
 * /usr/include/qt6/QtCharts/6.6.2/QtCharts/private/areachartitem_p.h
@@ -399,4 +400,3 @@ The Qt6 toolkit, qtcharts
 * /usr/lib/qt6/qml/QtCharts/libqtchartsqml2plugin.so
 * /usr/lib/qt6/qml/QtCharts/plugins.qmltypes
 * /usr/lib/qt6/qml/QtCharts/qmldir
-{{< /files >}}

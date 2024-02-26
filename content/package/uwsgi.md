@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 A fast, self-healing and developer/sysadmin-friendly application container server coded in pure C
 
-{{< files text="show files" >}}* /etc/tmpfiles.d/uwsgi.conf
+## Files: 
+* /etc/tmpfiles.d/uwsgi.conf
 * /usr/bin/uwsgi
 * /usr/lib/systemd/system/uwsgi@.service
 * /usr/lib/systemd/system/uwsgi@.socket
@@ -73,4 +74,3 @@ A fast, self-healing and developer/sysadmin-friendly application container serve
 * /usr/share/doc/uwsgi-2.0.23/CONTRIBUTORS
 * /usr/share/doc/uwsgi-2.0.23/LICENSE
 * /usr/share/doc/uwsgi-2.0.23/README
-{{< /files >}}

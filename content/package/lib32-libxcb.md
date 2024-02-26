@@ -16,7 +16,8 @@ reverse_depends = "['lib32-cairo', 'lib32-ffmpeg', 'lib32-libx11', 'lib32-vulkan
 +++
 X.org X-protocol C Binding ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/xcb/bigreq.h
+## Files: 
+* /usr/i686-frugalware-linux/include/xcb/bigreq.h
 * /usr/i686-frugalware-linux/include/xcb/composite.h
 * /usr/i686-frugalware-linux/include/xcb/damage.h
 * /usr/i686-frugalware-linux/include/xcb/dbe.h
@@ -149,4 +150,3 @@ X.org X-protocol C Binding ( 32bit )
 * /usr/lib32/pkgconfig/xcb-xv.pc
 * /usr/lib32/pkgconfig/xcb-xvmc.pc
 * /usr/lib32/pkgconfig/xcb.pc
-{{< /files >}}

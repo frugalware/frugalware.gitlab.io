@@ -15,7 +15,8 @@ depends = "['sac']"
 +++
 Java CSS parser using SAC
 
-{{< files text="show files" >}}* /usr/share/doc/flute-1.3.0_OOo31/AUTHORS
+## Files: 
+* /usr/share/doc/flute-1.3.0_OOo31/AUTHORS
 * /usr/share/doc/flute-1.3.0_OOo31/ChangeLog
 * /usr/share/doc/flute-1.3.0_OOo31/COPYING
 * /usr/share/doc/flute-1.3.0_OOo31/COPYRIGHT.html
@@ -27,4 +28,3 @@ Java CSS parser using SAC
 * /usr/share/doc/flute-1.3.0_OOo31/README.txt
 * /usr/share/doc/flute-1.3.0_OOo31/TODO
 * /usr/share/java/flute.jar
-{{< /files >}}

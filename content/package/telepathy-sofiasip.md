@@ -15,7 +15,8 @@ depends = "['libxslt', 'sofia-sip', 'telepathy-glib>=0.24.1-3']"
 +++
 A SIP connection manager for Telepathy based around the Sofia-SIP library.
 
-{{< files text="show files" >}}* /usr/include/telepathy-sofiasip-0.6/tpsip/codec-param-formats.h
+## Files: 
+* /usr/include/telepathy-sofiasip-0.6/tpsip/codec-param-formats.h
 * /usr/include/telepathy-sofiasip-0.6/tpsip/event-target.h
 * /usr/include/telepathy-sofiasip-0.6/tpsip/sofia-decls.h
 * /usr/include/telepathy-sofiasip-0.6/tpsip/util.h
@@ -30,4 +31,3 @@ A SIP connection manager for Telepathy based around the Sofia-SIP library.
 * /usr/share/doc/telepathy-sofiasip-0.7.1/TODO
 * /usr/share/man/man8/telepathy-sofiasip.8.gz
 * /usr/share/telepathy/managers/sofiasip.manager
-{{< /files >}}

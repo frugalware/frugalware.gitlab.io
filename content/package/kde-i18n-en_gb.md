@@ -15,7 +15,8 @@ depends = "[]"
 +++
 British Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/katepart/syntax/logohighlightstyle.en_GB.xml
+## Files: 
+* usr/share/apps/katepart/syntax/logohighlightstyle.en_GB.xml
 * usr/share/apps/klettres/en_GB/alpha/a.ogg
 * usr/share/apps/klettres/en_GB/alpha/b.ogg
 * usr/share/apps/klettres/en_GB/alpha/c.ogg
@@ -1263,4 +1264,3 @@ British Localization for KDE.
 * usr/share/locale/en_GB/LC_MESSAGES/wakeup.mo
 * usr/share/locale/en_GB/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/en_GB/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

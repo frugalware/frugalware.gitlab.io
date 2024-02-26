@@ -16,7 +16,8 @@ reverse_depends = "['inkscape', 'openscad', 'qt6-base']"
 +++
 Binary-decimal and decimal-binary routines for IEEE doubles
 
-{{< files text="show files" >}}* /usr/include/double-conversion/bignum.h
+## Files: 
+* /usr/include/double-conversion/bignum.h
 * /usr/include/double-conversion/cached-powers.h
 * /usr/include/double-conversion/diy-fp.h
 * /usr/include/double-conversion/double-conversion.h
@@ -39,4 +40,3 @@ Binary-decimal and decimal-binary routines for IEEE doubles
 * /usr/share/doc/double-conversion-3.3.0/COPYING
 * /usr/share/doc/double-conversion-3.3.0/LICENSE
 * /usr/share/doc/double-conversion-3.3.0/README.md
-{{< /files >}}

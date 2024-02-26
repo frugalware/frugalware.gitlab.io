@@ -16,7 +16,8 @@ reverse_depends = "['lib32-libxmu', 'lib32-libxpm']"
 +++
 X Toolkit Library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/CallbackI.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/CallbackI.h
 * /usr/i686-frugalware-linux/include/X11/Composite.h
 * /usr/i686-frugalware-linux/include/X11/CompositeP.h
 * /usr/i686-frugalware-linux/include/X11/ConstrainP.h
@@ -53,4 +54,3 @@ X Toolkit Library ( 32bit )
 * /usr/lib32/libXt.so.6
 * /usr/lib32/libXt.so.6.0.0
 * /usr/lib32/pkgconfig/xt.pc
-{{< /files >}}

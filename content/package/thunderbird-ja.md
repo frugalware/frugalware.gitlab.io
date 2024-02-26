@@ -16,5 +16,5 @@ reverse_depends = "['thunderbird-i18n']"
 +++
 Japanese language support for Thunderbird
 
-{{< files text="show files" >}}* /usr/lib/thunderbird/extensions/langpack-ja@thunderbird.mozilla.org.xpi
-{{< /files >}}
+## Files: 
+* /usr/lib/thunderbird/extensions/langpack-ja@thunderbird.mozilla.org.xpi

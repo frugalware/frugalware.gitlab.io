@@ -16,7 +16,8 @@ reverse_depends = "['digikam', 'gmic', 'howdy', 'nomacs', 'opencv-cuda', 'opencv
 +++
 Intel(R) Open Source Computer Vision Library
 
-{{< files text="show files" >}}* /usr/bin/opencv_annotation
+## Files: 
+* /usr/bin/opencv_annotation
 * /usr/bin/opencv_interactive-calibration
 * /usr/bin/opencv_model_diagnostics
 * /usr/bin/opencv_version
@@ -824,4 +825,3 @@ Intel(R) Open Source Computer Vision Library
 * /usr/share/opencv4/quality/brisque_range_live.yml
 * /usr/share/opencv4/valgrind.supp
 * /usr/share/opencv4/valgrind_3rdparty.supp
-{{< /files >}}

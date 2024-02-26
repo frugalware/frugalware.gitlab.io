@@ -15,7 +15,8 @@ depends = "['qt5-declarative>=5.15.12']"
 +++
 The Qt5 toolkit, qtpurchasing
 
-{{< files text="show files" >}}* /usr/include/qt5/QtPurchasing/5.15.12/QtPurchasing/private/qandroidinappproduct_p.h
+## Files: 
+* /usr/include/qt5/QtPurchasing/5.15.12/QtPurchasing/private/qandroidinappproduct_p.h
 * /usr/include/qt5/QtPurchasing/5.15.12/QtPurchasing/private/qandroidinapppurchasebackend_p.h
 * /usr/include/qt5/QtPurchasing/5.15.12/QtPurchasing/private/qandroidinapptransaction_p.h
 * /usr/include/qt5/QtPurchasing/5.15.12/QtPurchasing/private/qinapppurchasebackendfactory_p.h
@@ -51,4 +52,3 @@ The Qt5 toolkit, qtpurchasing
 * /usr/share/qt5/qml/QtPurchasing/libdeclarative_purchasing.so
 * /usr/share/qt5/qml/QtPurchasing/plugins.qmltypes
 * /usr/share/qt5/qml/QtPurchasing/qmldir
-{{< /files >}}

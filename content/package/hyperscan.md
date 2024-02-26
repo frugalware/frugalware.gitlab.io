@@ -16,7 +16,8 @@ reverse_depends = "['redis', 'rspamd']"
 +++
 High-performance regular expression matching library
 
-{{< files text="show files" >}}* /usr/bin/hsbench
+## Files: 
+* /usr/bin/hsbench
 * /usr/bin/hscheck
 * /usr/bin/hscollider
 * /usr/bin/patbench
@@ -43,4 +44,3 @@ High-performance regular expression matching library
 * /usr/share/doc/hyperscan/examples/pcapscan.cc
 * /usr/share/doc/hyperscan/examples/README.md
 * /usr/share/doc/hyperscan/examples/simplegrep.c
-{{< /files >}}

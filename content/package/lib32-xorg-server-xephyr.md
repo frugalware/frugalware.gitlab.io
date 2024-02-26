@@ -15,5 +15,5 @@ depends = "['lib32-libepoxy>=1.5.2', 'lib32-libglapi>=19.0.0', 'lib32-libglvnd',
 +++
 KDrive xephyr X server (32-bit)
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/Xephyr
-{{< /files >}}
+## Files: 
+* /usr/i686-frugalware-linux/bin/Xephyr

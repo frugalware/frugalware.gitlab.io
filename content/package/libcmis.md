@@ -16,7 +16,8 @@ reverse_depends = "['libreoffice']"
 +++
 A C++ client library for the CMIS interface.
 
-{{< files text="show files" >}}* /usr/bin/cmis-client
+## Files: 
+* /usr/bin/cmis-client
 * /usr/include/libcmis-0.6/libcmis/allowable-actions.hxx
 * /usr/include/libcmis-0.6/libcmis/document.hxx
 * /usr/include/libcmis-0.6/libcmis/exception.hxx
@@ -65,4 +66,3 @@ A C++ client library for the CMIS interface.
 * /usr/share/doc/libcmis-0.6.2/COPYING.MPL
 * /usr/share/doc/libcmis-0.6.2/NEWS
 * /usr/share/doc/libcmis-0.6.2/README.md
-{{< /files >}}

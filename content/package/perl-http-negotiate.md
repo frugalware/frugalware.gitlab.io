@@ -16,8 +16,8 @@ reverse_depends = "['perl-libwww']"
 +++
 Choose a variant to serve.
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/HTTP/Negotiate.pm
+## Files: 
+* /usr/lib/perl5/site_perl/current/HTTP/Negotiate.pm
 * /usr/share/doc/perl-http-negotiate-6.01/MANIFEST
 * /usr/share/doc/perl-http-negotiate-6.01/README
 * /usr/share/man/man3/HTTP::Negotiate.3perl.gz
-{{< /files >}}

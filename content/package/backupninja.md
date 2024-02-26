@@ -15,7 +15,8 @@ depends = "['bash', 'gawk']"
 +++
 A centralized way to configure and schedule many different backup utilities
 
-{{< files text="show files" >}}* /etc/backupninja.conf
+## Files: 
+* /etc/backupninja.conf
 * /etc/cron.d/backupninja
 * /etc/logrotate.d/backupninja
 * /usr/bin/backupninja
@@ -70,4 +71,3 @@ A centralized way to configure and schedule many different backup utilities
 * /usr/share/man/man1/ninjahelper.1.gz
 * /usr/share/man/man5/backup.d.5.gz
 * /usr/share/man/man5/backupninja.conf.5.gz
-{{< /files >}}

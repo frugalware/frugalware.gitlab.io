@@ -16,7 +16,8 @@ reverse_depends = "['haskell-warp']"
 +++
 HTTP Date parser/formatter
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/http-date-0.0.11/libHShttp-date-0.0.11-2teN056nUjvdEHN8XO08g.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/http-date-0.0.11/libHShttp-date-0.0.11-2teN056nUjvdEHN8XO08g.a
 * /usr/lib/ghc-9.8.1/site-local/http-date-0.0.11/Network/HTTP/Date.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/http-date-0.0.11/Network/HTTP/Date.hi
 * /usr/lib/ghc-9.8.1/site-local/http-date-0.0.11/Network/HTTP/Date/Converter.dyn_hi
@@ -41,4 +42,3 @@ HTTP Date parser/formatter
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/http-date-0.0.11/LICENSE
 * /usr/share/haskell/haskell-http-date/register.sh
 * /usr/share/haskell/haskell-http-date/unregister.sh
-{{< /files >}}

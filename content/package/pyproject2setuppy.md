@@ -15,7 +15,8 @@ depends = "['python3-toml']"
 +++
 build for pyproject.toml-based systems
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pyproject2setuppy-22-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/pyproject2setuppy-22-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pyproject2setuppy-22-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/pyproject2setuppy-22-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/pyproject2setuppy-22-py3.12.egg-info/top_level.txt
@@ -37,4 +38,3 @@ build for pyproject.toml-based systems
 * /usr/lib/python3.12/site-packages/pyproject2setuppy/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/pyproject2setuppy-22/COPYING
 * /usr/share/doc/pyproject2setuppy-22/README.rst
-{{< /files >}}

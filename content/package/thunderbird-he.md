@@ -16,5 +16,5 @@ reverse_depends = "['thunderbird-i18n']"
 +++
 Hebrew language support for Thunderbird
 
-{{< files text="show files" >}}* /usr/lib/thunderbird/extensions/langpack-he@thunderbird.mozilla.org.xpi
-{{< /files >}}
+## Files: 
+* /usr/lib/thunderbird/extensions/langpack-he@thunderbird.mozilla.org.xpi

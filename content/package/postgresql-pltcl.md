@@ -15,5 +15,5 @@ depends = "['postgresql>=16.1', 'tcl>=8.6.8']"
 +++
 PostgreSQL tcl bindings
 
-{{< files text="show files" >}}* /usr/lib/postgresql/pltcl.so
-{{< /files >}}
+## Files: 
+* /usr/lib/postgresql/pltcl.so

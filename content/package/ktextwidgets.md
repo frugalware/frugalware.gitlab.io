@@ -16,7 +16,8 @@ reverse_depends = "['dolphin', 'kpimtextedit', 'kxmlgui', 'libksane']"
 +++
 KDE Text editing widgets.
 
-{{< files text="show files" >}}* /usr/include/KF5/KTextWidgets/KFind
+## Files: 
+* /usr/include/KF5/KTextWidgets/KFind
 * /usr/include/KF5/KTextWidgets/kfind.h
 * /usr/include/KF5/KTextWidgets/KFindDialog
 * /usr/include/KF5/KTextWidgets/kfinddialog.h
@@ -146,4 +147,3 @@ KDE Text editing widgets.
 * /usr/share/locale/zh_HK/LC_MESSAGES/ktextwidgets5.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/ktextwidgets5.mo
 * /usr/share/qt5/mkspecs/modules/qt_KTextWidgets.pri
-{{< /files >}}

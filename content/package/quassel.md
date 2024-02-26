@@ -15,7 +15,8 @@ depends = "['knotifyconfig>=5.110.0', 'libboost', 'qca>=2.1.1-6', 'qt5-multimedi
 +++
 A modern, cross-platform, distributed IRC client.
 
-{{< files text="show files" >}}* /usr/bin/quassel
+## Files: 
+* /usr/bin/quassel
 * /usr/bin/quasselclient
 * /usr/bin/quasselcore
 * /usr/lib/libquassel-client.so
@@ -1144,4 +1145,3 @@ A modern, cross-platform, distributed IRC client.
 * /usr/share/quassel/translations/tr.qm
 * /usr/share/quassel/translations/uk.qm
 * /usr/share/quassel/translations/zh_CN.qm
-{{< /files >}}

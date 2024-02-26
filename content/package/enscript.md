@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 Converts text files to PostScript
 
-{{< files text="show files" >}}* /etc/enscript/enscript.cfg
+## Files: 
+* /etc/enscript/enscript.cfg
 * /usr/bin/diffpp
 * /usr/bin/enscript
 * /usr/bin/mkafmmap
@@ -190,4 +191,3 @@ Converts text files to PostScript
 * /usr/share/man/man1/enscript.1.gz
 * /usr/share/man/man1/sliceprint.1.gz
 * /usr/share/man/man1/states.1.gz
-{{< /files >}}

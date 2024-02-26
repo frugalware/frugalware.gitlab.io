@@ -16,8 +16,8 @@ reverse_depends = "['perl-import-into', 'perl-moo', 'perl-moo']"
 +++
 runtime module handling
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/Module/Runtime.pm
+## Files: 
+* /usr/lib/perl5/site_perl/current/Module/Runtime.pm
 * /usr/share/doc/perl-module-runtime-0.016/MANIFEST
 * /usr/share/doc/perl-module-runtime-0.016/README
 * /usr/share/man/man3/Module::Runtime.3perl.gz
-{{< /files >}}

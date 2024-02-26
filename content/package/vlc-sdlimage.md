@@ -15,5 +15,5 @@ depends = "['libvlc>=3.0.20', 'sdlimage']"
 +++
 vlc plugin for sdlimage
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/libsdl_image_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/codec/libsdl_image_plugin.so

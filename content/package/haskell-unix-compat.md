@@ -16,7 +16,8 @@ reverse_depends = "['haskell-fast-logger', 'haskell-warp']"
 +++
 Portable POSIX-compatibility layer
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/unix-compat-0.7.1/include/HsUnixCompat.h
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/unix-compat-0.7.1/include/HsUnixCompat.h
 * /usr/lib/ghc-9.8.1/site-local/unix-compat-0.7.1/libHSunix-compat-0.7.1-ZSDu2t4JbH6lNlP0GYvNc.a
 * /usr/lib/ghc-9.8.1/site-local/unix-compat-0.7.1/System/PosixCompat.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/unix-compat-0.7.1/System/PosixCompat.hi
@@ -55,4 +56,3 @@ Portable POSIX-compatibility layer
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/unix-compat-0.7.1/LICENSE
 * /usr/share/haskell/haskell-unix-compat/register.sh
 * /usr/share/haskell/haskell-unix-compat/unregister.sh
-{{< /files >}}

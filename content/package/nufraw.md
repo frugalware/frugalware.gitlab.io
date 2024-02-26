@@ -15,7 +15,8 @@ depends = "['cfitsio>=4.2.0', 'exiv2>=0.28.1', 'jasper>=2.0.10', 'lcms2>=2.7-3',
 +++
 Converter for raw files
 
-{{< files text="show files" >}}* /usr/bin/nikon-curve
+## Files: 
+* /usr/bin/nikon-curve
 * /usr/bin/nufraw-batch
 * /usr/share/appdata/nufraw.appdata.xml
 * /usr/share/applications/nufraw.desktop
@@ -41,4 +42,3 @@ Converter for raw files
 * /usr/share/locale/zh_TW/LC_MESSAGES/nufraw.mo
 * /usr/share/man/man1/nufraw.1.gz
 * /usr/share/pixmaps/nufraw.png
-{{< /files >}}

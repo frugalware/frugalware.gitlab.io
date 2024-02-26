@@ -16,7 +16,8 @@ reverse_depends = "['spamassassin']"
 +++
 Signs/verifies Internet mail with DKIM/DomainKey signatures
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/Mail/DKIM.pm
+## Files: 
+* /usr/lib/perl5/site_perl/Mail/DKIM.pm
 * /usr/lib/perl5/site_perl/Mail/DKIM/Algorithm/Base.pm
 * /usr/lib/perl5/site_perl/Mail/DKIM/Algorithm/dk_rsa_sha1.pm
 * /usr/lib/perl5/site_perl/Mail/DKIM/Algorithm/ed25519_sha256.pm
@@ -93,4 +94,3 @@ Signs/verifies Internet mail with DKIM/DomainKey signatures
 * /usr/share/man/man3/Mail::DKIM::SignerPolicy.3perl.gz
 * /usr/share/man/man3/Mail::DKIM::TextWrap.3perl.gz
 * /usr/share/man/man3/Mail::DKIM::Verifier.3perl.gz
-{{< /files >}}

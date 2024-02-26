@@ -16,7 +16,8 @@ reverse_depends = "['python3-urllib3']"
 +++
 SOCKS4, SOCKS5 or HTTP proxy
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/PySocks-1.7.1-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/PySocks-1.7.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/PySocks-1.7.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/PySocks-1.7.1-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/PySocks-1.7.1-py3.12.egg-info/top_level.txt
@@ -26,4 +27,3 @@ SOCKS4, SOCKS5 or HTTP proxy
 * /usr/lib/python3.12/site-packages/__pycache__/sockshandler.cpython-312.pyc
 * /usr/share/doc/python3-pysocks-1.7.1/LICENSE
 * /usr/share/doc/python3-pysocks-1.7.1/README.md
-{{< /files >}}

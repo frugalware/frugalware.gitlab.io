@@ -15,7 +15,8 @@ depends = "['bridge-utils', 'dhclient', 'dracut=059', 'iproute2', 'iputils', 'is
 +++
 Dracut modules to build a dracut initramfs with network support
 
-{{< files text="show files" >}}* /usr/lib/dracut/modules.d/40network/dhcp-root.sh
+## Files: 
+* /usr/lib/dracut/modules.d/40network/dhcp-root.sh
 * /usr/lib/dracut/modules.d/40network/ifname-genrules.sh
 * /usr/lib/dracut/modules.d/40network/module-setup.sh
 * /usr/lib/dracut/modules.d/40network/net-lib.sh
@@ -53,4 +54,3 @@ Dracut modules to build a dracut initramfs with network support
 * /usr/lib/dracut/modules.d/95nfs/nfsroot.sh
 * /usr/lib/dracut/modules.d/95nfs/parse-nfsroot.sh
 * /usr/lib/dracut/modules.d/95ssh-client/module-setup.sh
-{{< /files >}}

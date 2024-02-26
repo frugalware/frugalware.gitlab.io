@@ -16,7 +16,8 @@ reverse_depends = "['shaderc', 'vkbasalt']"
 +++
 An OpenGL and OpenGL ES shader front end and validator
 
-{{< files text="show files" >}}* /usr/bin/glslang
+## Files: 
+* /usr/bin/glslang
 * /usr/bin/glslangValidator
 * /usr/bin/spirv-remap
 * /usr/include/glslang/build_info.h
@@ -64,4 +65,3 @@ An OpenGL and OpenGL ES shader front end and validator
 * /usr/lib/libSPVRemapper.so.14.0.0
 * /usr/share/doc/glslang-14.0.0/README-spirv-remap.txt
 * /usr/share/doc/glslang-14.0.0/README.md
-{{< /files >}}

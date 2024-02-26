@@ -15,4 +15,4 @@ depends = "['lib32-libpthread-stubs']"
 +++
 X.org X protocol descriptions for XCB ( 32bit )
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

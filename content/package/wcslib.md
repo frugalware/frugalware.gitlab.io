@@ -16,7 +16,8 @@ reverse_depends = "['stellarsolver']"
 +++
 A C library that implements the 'World Coordinate System' (WCS) standard in FITS
 
-{{< files text="show files" >}}* /usr/bin/fitshdr
+## Files: 
+* /usr/bin/fitshdr
 * /usr/bin/HPXcvt
 * /usr/bin/sundazel
 * /usr/bin/tofits
@@ -603,4 +604,3 @@ A C library that implements the 'World Coordinate System' (WCS) standard in FITS
 * /usr/share/man/man1/sundazel.1.gz
 * /usr/share/man/man1/tofits.1.gz
 * /usr/share/man/man1/wcsware.1.gz
-{{< /files >}}

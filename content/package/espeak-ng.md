@@ -15,7 +15,8 @@ depends = "['pcaudiolib']"
 +++
 Multi-lingual software speech synthesizer
 
-{{< files text="show files" >}}* /usr/bin/espeak
+## Files: 
+* /usr/bin/espeak
 * /usr/bin/espeak-ng
 * /usr/bin/speak
 * /usr/bin/speak-ng
@@ -530,4 +531,3 @@ Multi-lingual software speech synthesizer
 * /usr/share/vim/addons/syntax/espeaklist.vim
 * /usr/share/vim/addons/syntax/espeakrules.vim
 * /usr/share/vim/registry/espeak.yaml
-{{< /files >}}

@@ -15,9 +15,9 @@ depends = "['lib32-curl>=7.58.0-2', 'lib32-file>=5.25-4', 'lib32-gnutls>=3.5.17-
 +++
 C library that make easy to run an HTTP server as part of an application ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/microhttpd.h
+## Files: 
+* /usr/i686-frugalware-linux/include/microhttpd.h
 * /usr/lib32/libmicrohttpd.so
 * /usr/lib32/libmicrohttpd.so.12
 * /usr/lib32/libmicrohttpd.so.12.61.0
 * /usr/lib32/pkgconfig/libmicrohttpd.pc
-{{< /files >}}

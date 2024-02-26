@@ -16,7 +16,8 @@ reverse_depends = "['lib32-mangohud']"
 +++
 JSON for Modern C++ ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/nlohmann/adl_serializer.hpp
+## Files: 
+* /usr/i686-frugalware-linux/include/nlohmann/adl_serializer.hpp
 * /usr/i686-frugalware-linux/include/nlohmann/byte_container_with_subtype.hpp
 * /usr/i686-frugalware-linux/include/nlohmann/detail/abi_macros.hpp
 * /usr/i686-frugalware-linux/include/nlohmann/detail/conversions/from_json.hpp
@@ -65,4 +66,3 @@ JSON for Modern C++ ( 32bit )
 * /usr/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake
 * /usr/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake
 * /usr/share/pkgconfig/nlohmann_json.pc
-{{< /files >}}

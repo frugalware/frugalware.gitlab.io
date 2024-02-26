@@ -16,11 +16,11 @@ reverse_depends = "['gnumail']"
 +++
 Network extensions library for GNU classpath and classpathx
 
-{{< files text="show files" >}}* /usr/share/doc/gnuinetlib-1.1.2/AUTHORS
+## Files: 
+* /usr/share/doc/gnuinetlib-1.1.2/AUTHORS
 * /usr/share/doc/gnuinetlib-1.1.2/ChangeLog
 * /usr/share/doc/gnuinetlib-1.1.2/COPYING
 * /usr/share/doc/gnuinetlib-1.1.2/INSTALL
 * /usr/share/doc/gnuinetlib-1.1.2/README
 * /usr/share/doc/gnuinetlib-1.1.2/THANKS
 * /usr/share/java/inetlib.jar
-{{< /files >}}

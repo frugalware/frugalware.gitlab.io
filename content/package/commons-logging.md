@@ -16,7 +16,7 @@ reverse_depends = "['commons-httpclient', 'xmlgraphics-commons']"
 +++
 An ultra-thin bridge between different logging libraries.
 
-{{< files text="show files" >}}* /usr/share/doc/commons-logging-1.0.4/RELEASE-NOTES.txt
+## Files: 
+* /usr/share/doc/commons-logging-1.0.4/RELEASE-NOTES.txt
 * /usr/share/java/commons-logging-api.jar
 * /usr/share/java/commons-logging.jar
-{{< /files >}}

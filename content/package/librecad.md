@@ -15,7 +15,8 @@ depends = "['muparser>=2.2.5-2', 'qt5-svg>=5.15.10', 'qt5-tools>=5.15.10']"
 +++
 Free Open Source personal CAD application.
 
-{{< files text="show files" >}}* /usr/bin/librecad
+## Files: 
+* /usr/bin/librecad
 * /usr/bin/ttf2lff
 * /usr/share/applications/librecad.desktop
 * /usr/share/doc/librecad-2.2.0.1/LICENSE
@@ -1527,4 +1528,3 @@ Free Open Source personal CAD application.
 * /usr/share/librecad/qm/plugins_zh_cn.qm
 * /usr/share/librecad/qm/plugins_zh_tw.qm
 * /usr/share/pixmaps/librecad.png
-{{< /files >}}

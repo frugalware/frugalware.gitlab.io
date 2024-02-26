@@ -17,7 +17,8 @@ license = "GPL"
 +++
 NSS library from mozilla.org
 
-{{< files text="show files" >}}* /usr/bin/nss-certutil
+## Files: 
+* /usr/bin/nss-certutil
 * /usr/bin/nss-cmsutil
 * /usr/bin/nss-config
 * /usr/bin/nss-crlutil
@@ -162,4 +163,3 @@ NSS library from mozilla.org
 * /usr/share/man/man1/ssltap.1.gz
 * /usr/share/man/man1/vfychain.1.gz
 * /usr/share/man/man1/vfyserv.1.gz
-{{< /files >}}

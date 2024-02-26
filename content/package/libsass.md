@@ -16,7 +16,8 @@ reverse_depends = "['sassc']"
 +++
 C/C++ port of the Sass CSS precompiler
 
-{{< files text="show files" >}}* /usr/include/sass.h
+## Files: 
+* /usr/include/sass.h
 * /usr/include/sass/base.h
 * /usr/include/sass/context.h
 * /usr/include/sass/functions.h
@@ -31,4 +32,3 @@ C/C++ port of the Sass CSS precompiler
 * /usr/share/doc/libsass-3.6.6/INSTALL
 * /usr/share/doc/libsass-3.6.6/LICENSE
 * /usr/share/doc/libsass-3.6.6/Readme.md
-{{< /files >}}

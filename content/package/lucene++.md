@@ -16,7 +16,8 @@ reverse_depends = "['poedit']"
 +++
 An up to date C++ port of the popular Java Lucene library, a high-performance, full-featured text search engine
 
-{{< files text="show files" >}}* /usr/include/lucene++/AbstractAllTermDocs.h
+## Files: 
+* /usr/include/lucene++/AbstractAllTermDocs.h
 * /usr/include/lucene++/AbstractField.h
 * /usr/include/lucene++/AllTermDocs.h
 * /usr/include/lucene++/Analyzer.h
@@ -420,4 +421,3 @@ An up to date C++ port of the popular Java Lucene library, a high-performance, f
 * /usr/share/doc/lucene++-3.0.8/COPYING
 * /usr/share/doc/lucene++-3.0.8/README.md
 * /usr/share/doc/lucene++-3.0.8/README.PACKAGE
-{{< /files >}}

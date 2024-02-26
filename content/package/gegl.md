@@ -16,7 +16,8 @@ reverse_depends = "['gimp', 'libmypaint']"
 +++
 GEGL is a graph based image processing framework.
 
-{{< files text="show files" >}}* /usr/bin/gegl
+## Files: 
+* /usr/bin/gegl
 * /usr/bin/gegl-imgcmp
 * /usr/include/gegl-0.4/gegl-apply.h
 * /usr/include/gegl-0.4/gegl-audio-fragment.h
@@ -204,4 +205,3 @@ GEGL is a graph based image processing framework.
 * /usr/share/locale/tr/LC_MESSAGES/gegl-0.4.mo
 * /usr/share/locale/uk/LC_MESSAGES/gegl-0.4.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/gegl-0.4.mo
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['meson', 'patchelf', 'python3-pyproject-metadata', 'python3-wheel']"
 +++
 Meson PEP 517 Python build backend
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/mesonpy/_compat.py
+## Files: 
+* /usr/lib/python3.12/site-packages/mesonpy/_compat.py
 * /usr/lib/python3.12/site-packages/mesonpy/_editable.py
 * /usr/lib/python3.12/site-packages/mesonpy/_rpath.py
 * /usr/lib/python3.12/site-packages/mesonpy/_tags.py
@@ -42,4 +43,3 @@ Meson PEP 517 Python build backend
 * /usr/lib/python3.12/site-packages/meson_python-0.15.0.dist-info/WHEEL
 * /usr/share/doc/meson-python-0.15.0/LICENSE
 * /usr/share/doc/meson-python-0.15.0/README.rst
-{{< /files >}}

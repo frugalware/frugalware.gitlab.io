@@ -16,7 +16,8 @@ reverse_depends = "['plasma-bigscreen']"
 +++
 Plasma applet written in QML for PulseAudio
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_pulseaudio.so
+## Files: 
+* /usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_pulseaudio.so
 * /usr/share/applications/kcm_pulseaudio.desktop
 * /usr/share/doc/HTML/ca/kcontrol/plasma-pa/index.cache.bz2
 * /usr/share/doc/HTML/ca/kcontrol/plasma-pa/index.docbook
@@ -166,4 +167,3 @@ Plasma applet written in QML for PulseAudio
 * /usr/share/qt5/qml/org/kde/plasma/private/volume/libplasma-volume-declarative.so
 * /usr/share/qt5/qml/org/kde/plasma/private/volume/PulseObjectFilterModel.qml
 * /usr/share/qt5/qml/org/kde/plasma/private/volume/qmldir
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['php']"
 +++
 A library that provides uniform interface to access several encryption algorithms.
 
-{{< files text="show files" >}}* /usr/bin/libmcrypt-config
+## Files: 
+* /usr/bin/libmcrypt-config
 * /usr/include/mcrypt.h
 * /usr/include/mutils/mcrypt.h
 * /usr/lib/libmcrypt.so
@@ -33,4 +34,3 @@ A library that provides uniform interface to access several encryption algorithm
 * /usr/share/doc/libmcrypt-2.5.8/THANKS
 * /usr/share/doc/libmcrypt-2.5.8/TODO
 * /usr/share/man/man3/mcrypt.3.gz
-{{< /files >}}

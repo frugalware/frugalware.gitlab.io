@@ -16,5 +16,5 @@ reverse_depends = "['thunderbird-i18n']"
 +++
 Swedish language support for Thunderbird
 
-{{< files text="show files" >}}* /usr/lib/thunderbird/extensions/langpack-sv-SE@thunderbird.mozilla.org.xpi
-{{< /files >}}
+## Files: 
+* /usr/lib/thunderbird/extensions/langpack-sv-SE@thunderbird.mozilla.org.xpi

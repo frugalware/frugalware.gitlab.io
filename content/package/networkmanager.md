@@ -16,7 +16,8 @@ reverse_depends = "['claws-mail', 'kdelibs4support', 'networkmanager-dispatcher-
 +++
 Network Management daemon
 
-{{< files text="show files" >}}* /etc/dbus-1/system.d/nm-dispatcher.conf
+## Files: 
+* /etc/dbus-1/system.d/nm-dispatcher.conf
 * /etc/dbus-1/system.d/nm-priv-helper.conf
 * /etc/dbus-1/system.d/org.freedesktop.NetworkManager.conf
 * /etc/NetworkManager/NetworkManager.conf
@@ -630,4 +631,3 @@ Network Management daemon
 * /usr/share/man/man8/nm-cloud-setup.8.gz
 * /usr/share/man/man8/nm-initrd-generator.8.gz
 * /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy
-{{< /files >}}

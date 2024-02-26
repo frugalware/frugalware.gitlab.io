@@ -16,7 +16,8 @@ reverse_depends = "['amavisd-new']"
 +++
 Perl interface to the uulib library (a.k.a. uudeview/uuenview).
 
-{{< files text="show files" >}}* /usr/lib/perl5/5.38/site_perl/auto/Convert/UUlib/UUlib.so
+## Files: 
+* /usr/lib/perl5/5.38/site_perl/auto/Convert/UUlib/UUlib.so
 * /usr/lib/perl5/5.38/site_perl/Convert/UUlib.pm
 * /usr/share/doc/perl-convert-uulib-1.8/COPYING
 * /usr/share/doc/perl-convert-uulib-1.8/COPYING.Artistic
@@ -24,4 +25,3 @@ Perl interface to the uulib library (a.k.a. uudeview/uuenview).
 * /usr/share/doc/perl-convert-uulib-1.8/MANIFEST
 * /usr/share/doc/perl-convert-uulib-1.8/README
 * /usr/share/man/man3/Convert::UUlib.3perl.gz
-{{< /files >}}

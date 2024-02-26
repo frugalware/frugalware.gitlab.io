@@ -16,7 +16,8 @@ reverse_depends = "['etckeeper', 'squid']"
 +++
 Dillon's Cron daemon
 
-{{< files text="show files" >}}* /usr/bin/crond
+## Files: 
+* /usr/bin/crond
 * /usr/bin/crontab
 * /usr/bin/run-parts
 * /usr/lib/systemd/system/crond.service
@@ -26,4 +27,3 @@ Dillon's Cron daemon
 * /usr/share/man/man8/crond.8.gz
 * /usr/share/man/man8/run-parts.8.gz
 * /var/spool/cron/crontabs/root
-{{< /files >}}

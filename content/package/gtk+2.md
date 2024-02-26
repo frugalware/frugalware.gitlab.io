@@ -16,7 +16,8 @@ reverse_depends = "['dunst', 'emacs', 'ethereal', 'firefox', 'freeciv-gtk2', 'gf
 +++
 The GTK+ Toolkit (2.x series)
 
-{{< files text="show files" >}}* /etc/gtk-2.0/im-multipress.conf
+## Files: 
+* /etc/gtk-2.0/im-multipress.conf
 * /usr/bin/gtk-builder-convert
 * /usr/bin/gtk-query-immodules-2.0
 * /usr/include/gtk-2.0/gdk/gdk.h
@@ -524,4 +525,3 @@ The GTK+ Toolkit (2.x series)
 * /usr/share/themes/Default/gtk-2.0-key/gtkrc
 * /usr/share/themes/Emacs/gtk-2.0-key/gtkrc
 * /usr/share/themes/Raleigh/gtk-2.0/gtkrc
-{{< /files >}}

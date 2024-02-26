@@ -16,7 +16,8 @@ reverse_depends = "['calamares-frugalware', 'gparted', 'libblockdev', 'libvirt',
 +++
 A program for creating, destroying, resizing, checking and copying partitions
 
-{{< files text="show files" >}}* /usr/bin/parted
+## Files: 
+* /usr/bin/parted
 * /usr/bin/partprobe
 * /usr/include/parted/constraint.h
 * /usr/include/parted/debug.h
@@ -80,4 +81,3 @@ A program for creating, destroying, resizing, checking and copying partitions
 * /usr/share/locale/zh_TW/LC_MESSAGES/parted.mo
 * /usr/share/man/man8/parted.8.gz
 * /usr/share/man/man8/partprobe.8.gz
-{{< /files >}}

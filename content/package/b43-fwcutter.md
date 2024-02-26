@@ -15,9 +15,9 @@ depends = "['glibc']"
 +++
 A tool which can extract firmware from various source files.
 
-{{< files text="show files" >}}* /usr/bin/b43-fwcutter
+## Files: 
+* /usr/bin/b43-fwcutter
 * /usr/share/doc/b43-fwcutter-019/COPYING
 * /usr/share/doc/b43-fwcutter-019/README
 * /usr/share/doc/b43-fwcutter-019/README.Frugalware
 * /usr/share/man/man1/b43-fwcutter.1.gz
-{{< /files >}}

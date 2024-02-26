@@ -16,7 +16,8 @@ reverse_depends = "['inxi']"
 +++
 Give limited root privileges to certain users
 
-{{< files text="show files" >}}* /etc/sudo.conf
+## Files: 
+* /etc/sudo.conf
 * /etc/sudoers
 * /etc/sudoers.d/.sudo
 * /etc/sudoers.dist
@@ -145,4 +146,3 @@ Give limited root privileges to certain users
 * /usr/share/man/man8/sudo_logsrvd.8.gz
 * /usr/share/man/man8/sudo_sendlog.8.gz
 * /usr/share/man/man8/visudo.8.gz
-{{< /files >}}

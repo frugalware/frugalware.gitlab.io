@@ -16,7 +16,8 @@ reverse_depends = "['lib32-xfsprogs-acl']"
 +++
 Dynamic library for extended attribute support. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/attr
+## Files: 
+* /usr/i686-frugalware-linux/bin/attr
 * /usr/i686-frugalware-linux/bin/getfattr
 * /usr/i686-frugalware-linux/bin/setfattr
 * /usr/i686-frugalware-linux/include/attr/attributes.h
@@ -26,4 +27,3 @@ Dynamic library for extended attribute support. ( 32bit )
 * /usr/lib32/libattr.so.1
 * /usr/lib32/libattr.so.1.1.2502
 * /usr/lib32/pkgconfig/libattr.pc
-{{< /files >}}

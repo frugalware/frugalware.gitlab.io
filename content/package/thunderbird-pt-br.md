@@ -16,5 +16,5 @@ reverse_depends = "['thunderbird-i18n']"
 +++
 Brazilian Portuguese language support for Thunderbird
 
-{{< files text="show files" >}}* /usr/lib/thunderbird/extensions/langpack-pt-BR@thunderbird.mozilla.org.xpi
-{{< /files >}}
+## Files: 
+* /usr/lib/thunderbird/extensions/langpack-pt-BR@thunderbird.mozilla.org.xpi

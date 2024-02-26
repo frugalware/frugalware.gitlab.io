@@ -16,7 +16,7 @@ reverse_depends = "['kget', 'libkleo']"
 +++
 Qt5 bindings for gpgme
 
-{{< files text="show files" >}}* /usr/lib/libqgpgme.so
+## Files: 
+* /usr/lib/libqgpgme.so
 * /usr/lib/libqgpgme.so.15
 * /usr/lib/libqgpgme.so.15.5.1
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['startup-notification', 'wlroots', 'xbacklight', 'xcb-util-i
 +++
 Utility libraries for X C Binding
 
-{{< files text="show files" >}}* /usr/include/xcb/xcb_atom.h
+## Files: 
+* /usr/include/xcb/xcb_atom.h
 * /usr/include/xcb/xcb_aux.h
 * /usr/include/xcb/xcb_event.h
 * /usr/include/xcb/xcb_util.h
@@ -32,4 +33,3 @@ Utility libraries for X C Binding
 * /usr/share/doc/xcb-util-0.4.1/INSTALL
 * /usr/share/doc/xcb-util-0.4.1/NEWS
 * /usr/share/doc/xcb-util-0.4.1/README.md
-{{< /files >}}

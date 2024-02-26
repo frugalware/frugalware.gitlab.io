@@ -15,9 +15,9 @@ depends = "['libdaemon>=0.14-5', 'libssp>=7.3.0-5']"
 +++
 Discovers DNS servers broadcast with Avahi on a local network
 
-{{< files text="show files" >}}* /etc/avahi/avahi-dnsconfd.action
+## Files: 
+* /etc/avahi/avahi-dnsconfd.action
 * /usr/bin/avahi-dnsconfd
 * /usr/lib/systemd/system/avahi-dnsconfd.service
 * /usr/share/man/man8/avahi-dnsconfd.8.gz
 * /usr/share/man/man8/avahi-dnsconfd.action.8.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libkdegames>=23.08.5']"
 +++
 A Gomoku like game for two players.
 
-{{< files text="show files" >}}* /usr/bin/bovo
+## Files: 
+* /usr/bin/bovo
 * /usr/share/applications/org.kde.bovo.desktop
 * /usr/share/bovo/themes/gomoku/theme.svg
 * /usr/share/bovo/themes/gomoku/themerc
@@ -132,4 +133,3 @@ A Gomoku like game for two players.
 * /usr/share/locale/zh_CN/LC_MESSAGES/bovo.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/bovo.mo
 * /usr/share/metainfo/org.kde.bovo.appdata.xml
-{{< /files >}}

@@ -15,6 +15,6 @@ depends = "['lib32-libgl']"
 +++
 Glx library for XOrg. (32-bit)
 
-{{< files text="show files" >}}* /usr/lib32/xorg/modules/extensions/libglx.la
+## Files: 
+* /usr/lib32/xorg/modules/extensions/libglx.la
 * /usr/lib32/xorg/modules/extensions/libglx.so
-{{< /files >}}

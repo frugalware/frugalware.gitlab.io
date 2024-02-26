@@ -16,7 +16,8 @@ reverse_depends = "['xorg-server-xwayland']"
 +++
 EGLStream-based Wayland external platform
 
-{{< files text="show files" >}}* /usr/lib/libnvidia-egl-wayland.so
+## Files: 
+* /usr/lib/libnvidia-egl-wayland.so
 * /usr/lib/libnvidia-egl-wayland.so.1
 * /usr/lib/libnvidia-egl-wayland.so.1.1.13
 * /usr/lib/pkgconfig/wayland-eglstream-protocols.pc
@@ -27,4 +28,3 @@ EGLStream-based Wayland external platform
 * /usr/share/wayland-eglstream/wayland-drm.xml
 * /usr/share/wayland-eglstream/wayland-eglstream-controller.xml
 * /usr/share/wayland-eglstream/wayland-eglstream.xml
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libstdc++']"
 +++
 C++ library for the Debug Adapter Protocol
 
-{{< files text="show files" >}}* /usr/include/dap/any.h
+## Files: 
+* /usr/include/dap/any.h
 * /usr/include/dap/dap.h
 * /usr/include/dap/future.h
 * /usr/include/dap/io.h
@@ -36,4 +37,3 @@ C++ library for the Debug Adapter Protocol
 * /usr/lib/libcppdap.so
 * /usr/share/doc/cppdap-1.58.0/LICENSE
 * /usr/share/doc/cppdap-1.58.0/README.md
-{{< /files >}}

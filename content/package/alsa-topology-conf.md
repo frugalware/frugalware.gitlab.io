@@ -16,10 +16,10 @@ reverse_depends = "['alsa-lib']"
 +++
 ALSA topology configuration files
 
-{{< files text="show files" >}}* /usr/share/alsa/topology/broadwell/broadwell.conf
+## Files: 
+* /usr/share/alsa/topology/broadwell/broadwell.conf
 * /usr/share/alsa/topology/bxtrt298/bxt_i2s.conf
 * /usr/share/alsa/topology/hda-dsp/skl_hda_dsp_generic-tplg.conf
 * /usr/share/alsa/topology/sklrt286/skl_i2s.conf
 * /usr/share/doc/alsa-topology-conf-1.2.5.1/LICENSE
 * /usr/share/doc/alsa-topology-conf-1.2.5.1/README.md
-{{< /files >}}

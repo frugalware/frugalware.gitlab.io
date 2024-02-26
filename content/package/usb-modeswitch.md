@@ -15,7 +15,8 @@ depends = "['libusb1', 'tcl', 'usb-modeswitch-data']"
 +++
 A mode switching tool for controlling 'flip flop' (multiple device) USB gear
 
-{{< files text="show files" >}}* /etc/usb_modeswitch.conf
+## Files: 
+* /etc/usb_modeswitch.conf
 * /usr/bin/usb_modeswitch
 * /usr/bin/usb_modeswitch_dispatcher
 * /usr/lib/udev/usb_modeswitch
@@ -24,4 +25,3 @@ A mode switching tool for controlling 'flip flop' (multiple device) USB gear
 * /usr/share/doc/usb-modeswitch-2.6.0/README
 * /usr/share/man/man1/usb_modeswitch.1.gz
 * /usr/share/man/man1/usb_modeswitch_dispatcher.1.gz
-{{< /files >}}

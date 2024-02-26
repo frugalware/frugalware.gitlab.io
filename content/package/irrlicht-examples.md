@@ -15,7 +15,8 @@ depends = "['irrlicht>=1.8.5']"
 +++
 Example files for irrlicht
 
-{{< files text="show files" >}}* /usr/share/irrlicht/examples/bin/01.HelloWorld
+## Files: 
+* /usr/share/irrlicht/examples/bin/01.HelloWorld
 * /usr/share/irrlicht/examples/bin/02.Quake3Map
 * /usr/share/irrlicht/examples/bin/03.CustomSceneNode
 * /usr/share/irrlicht/examples/bin/04.Movement
@@ -176,4 +177,3 @@ Example files for irrlicht
 * /usr/share/irrlicht/media/yodan mdl - readme.txt
 * /usr/share/irrlicht/media/yodan.mdl
 * /usr/share/irrlicht/media/zip.png
-{{< /files >}}

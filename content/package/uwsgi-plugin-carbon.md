@@ -15,5 +15,5 @@ depends = "['uwsgi']"
 +++
 UWSGI Carbon Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/carbon_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/uwsgi/carbon_plugin.so

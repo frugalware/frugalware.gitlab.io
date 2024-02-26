@@ -15,7 +15,8 @@ depends = "['fontconfig', 'mkfontscale']"
 +++
 DejaVu fonts (LGC)
 
-{{< files text="show files" >}}* /usr/share/doc/dejavu-lgc-ttf-2.37/AUTHORS
+## Files: 
+* /usr/share/doc/dejavu-lgc-ttf-2.37/AUTHORS
 * /usr/share/doc/dejavu-lgc-ttf-2.37/BUGS
 * /usr/share/doc/dejavu-lgc-ttf-2.37/LICENSE
 * /usr/share/doc/dejavu-lgc-ttf-2.37/NEWS
@@ -41,4 +42,3 @@ DejaVu fonts (LGC)
 * /usr/share/fonts/X11/TTF/DejaVuLGCSerifCondensed-BoldItalic.ttf
 * /usr/share/fonts/X11/TTF/DejaVuLGCSerifCondensed-Italic.ttf
 * /usr/share/fonts/X11/TTF/DejaVuLGCSerifCondensed.ttf
-{{< /files >}}

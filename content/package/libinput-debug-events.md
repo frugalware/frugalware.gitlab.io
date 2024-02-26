@@ -15,7 +15,7 @@ depends = "['gtk+3', 'libevdev', 'libinput']"
 +++
 Event debug tool for libinput
 
-{{< files text="show files" >}}* /usr/bin/libinput-debug-events
+## Files: 
+* /usr/bin/libinput-debug-events
 * /usr/lib/libinput/libinput/libinput-debug-events
 * /usr/lib/libinput/libinput/libinput-debug-gui
-{{< /files >}}

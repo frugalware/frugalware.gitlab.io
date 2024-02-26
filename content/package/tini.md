@@ -16,9 +16,9 @@ reverse_depends = "['docker']"
 +++
 A tiny but valid 'init' for containers
 
-{{< files text="show files" >}}* /usr/bin/docker-init
+## Files: 
+* /usr/bin/docker-init
 * /usr/bin/tini
 * /usr/bin/tini-static
 * /usr/share/doc/tini-0.19.0/LICENSE
 * /usr/share/doc/tini-0.19.0/README.md
-{{< /files >}}

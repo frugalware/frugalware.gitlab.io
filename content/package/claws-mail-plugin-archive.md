@@ -15,5 +15,5 @@ depends = "['claws-mail=4.1.1', 'libarchive>=3.1.2-8']"
 +++
 This plugin adds archiving features to Claws Mail.
 
-{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/archive.so
-{{< /files >}}
+## Files: 
+* /usr/lib/claws-mail/plugins/archive.so

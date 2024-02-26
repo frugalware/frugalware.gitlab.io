@@ -16,7 +16,8 @@ license = "GPL"
 +++
 KIO Slave to access Google Drive
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/kfileitemaction/gdrivecontextmenuaction.so
+## Files: 
+* /usr/lib/qt5/plugins/kf5/kfileitemaction/gdrivecontextmenuaction.so
 * /usr/lib/qt5/plugins/kf5/kio/gdrive.so
 * /usr/lib/qt5/plugins/kf5/propertiesdialog/gdrivepropertiesplugin.so
 * /usr/share/doc/HTML/ca/kioslave5/gdrive/index.cache.bz2
@@ -96,4 +97,3 @@ KIO Slave to access Google Drive
 * /usr/share/locale/zh_TW/LC_MESSAGES/kio5_gdrive.mo
 * /usr/share/metainfo/org.kde.kio_gdrive.metainfo.xml
 * /usr/share/remoteview/gdrive-network.desktop
-{{< /files >}}

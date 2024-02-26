@@ -15,7 +15,8 @@ depends = "['kirigami2', 'kquickimageeditor', 'ksanecore', 'libgomp', 'purpose',
 +++
 Utility to scan images and multi-page documents
 
-{{< files text="show files" >}}* /usr/bin/skanpage
+## Files: 
+* /usr/bin/skanpage
 * /usr/share/applications/org.kde.skanpage.desktop
 * /usr/share/doc/skanpage-23.08.5/README.md
 * /usr/share/icons/hicolor/48x48/apps/skanpage.png
@@ -57,4 +58,3 @@ Utility to scan images and multi-page documents
 * /usr/share/locale/zh_TW/LC_MESSAGES/skanpage.mo
 * /usr/share/metainfo/org.kde.skanpage.appdata.xml
 * /usr/share/qlogging-categories5/skanpage.categories
-{{< /files >}}

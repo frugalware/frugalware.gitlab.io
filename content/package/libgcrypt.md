@@ -16,7 +16,8 @@ reverse_depends = "['dirmngr', 'dirmngr-ldap', 'efl', 'enlightenment', 'freeipmi
 +++
 Libgcrypt is a general purpose cryptographic library based on the code from GnuPG.
 
-{{< files text="show files" >}}* /usr/bin/dumpsexp
+## Files: 
+* /usr/bin/dumpsexp
 * /usr/bin/hmac256
 * /usr/bin/libgcrypt-config
 * /usr/bin/mpicalc
@@ -41,4 +42,3 @@ Libgcrypt is a general purpose cryptographic library based on the code from GnuP
 * /usr/share/info/gcrypt.info-2.gz
 * /usr/share/info/gcrypt.info.gz
 * /usr/share/man/man1/hmac256.1.gz
-{{< /files >}}

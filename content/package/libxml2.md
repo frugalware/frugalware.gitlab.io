@@ -16,7 +16,8 @@ reverse_depends = "['apache', 'aria2', 'augeas', 'autogen', 'autopano-sift-c', '
 +++
 XML parsing library
 
-{{< files text="show files" >}}* /usr/bin/xml2-config
+## Files: 
+* /usr/bin/xml2-config
 * /usr/bin/xmlcatalog
 * /usr/bin/xmllint
 * /usr/include/libxml2/libxml/c14n.h
@@ -78,4 +79,3 @@ XML parsing library
 * /usr/share/man/man1/xml2-config.1.gz
 * /usr/share/man/man1/xmlcatalog.1.gz
 * /usr/share/man/man1/xmllint.1.gz
-{{< /files >}}

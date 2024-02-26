@@ -16,7 +16,8 @@ reverse_depends = "['asciidoc', 'gtk-doc', 'kdoctools']"
 +++
 XML stylesheets for Docbook-xml transformations.
 
-{{< files text="show files" >}}* /usr/share/doc/docbook-xsl-1.79.2/AUTHORS
+## Files: 
+* /usr/share/doc/docbook-xsl-1.79.2/AUTHORS
 * /usr/share/doc/docbook-xsl-1.79.2/BUGS
 * /usr/share/doc/docbook-xsl-1.79.2/COPYING
 * /usr/share/doc/docbook-xsl-1.79.2/INSTALL
@@ -1279,4 +1280,3 @@ XML stylesheets for Docbook-xml transformations.
 * /usr/share/xml/docbook/xsl-stylesheets-1.79.2/xhtml5/xhtml-docbook.xsl
 * /usr/share/xml/docbook/xsl-stylesheets-1.79.2/xhtml5/xhtml-profile-docbook.xsl
 * /usr/share/xml/docbook/xsl-stylesheets-1.79.2/xhtml5/xhtml2xhtml5.xsl
-{{< /files >}}

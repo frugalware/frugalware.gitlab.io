@@ -16,11 +16,11 @@ reverse_depends = "['openloco']"
 +++
 SDL2 Mixer library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/SDL2/SDL_mixer.h
+## Files: 
+* /usr/i686-frugalware-linux/include/SDL2/SDL_mixer.h
 * /usr/lib32/cmake/SDL2_mixer/sdl2_mixer-config-version.cmake
 * /usr/lib32/cmake/SDL2_mixer/sdl2_mixer-config.cmake
 * /usr/lib32/libSDL2_mixer-2.0.so.0
 * /usr/lib32/libSDL2_mixer-2.0.so.0.800.0
 * /usr/lib32/libSDL2_mixer.so
 * /usr/lib32/pkgconfig/SDL2_mixer.pc
-{{< /files >}}

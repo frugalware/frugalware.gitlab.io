@@ -16,7 +16,8 @@ reverse_depends = "['guvcview', 'mpd', 'vlc-twolame']"
 +++
 An optimised MPEG Audio Layer 2 (MP2) encoder based on tooLAME and LAME.
 
-{{< files text="show files" >}}* /usr/bin/twolame
+## Files: 
+* /usr/bin/twolame
 * /usr/include/twolame.h
 * /usr/lib/libtwolame.so
 * /usr/lib/libtwolame.so.0
@@ -32,4 +33,3 @@ An optimised MPEG Audio Layer 2 (MP2) encoder based on tooLAME and LAME.
 * /usr/share/doc/twolame-0.4.0/README
 * /usr/share/doc/twolame-0.4.0/vbr.txt
 * /usr/share/man/man1/twolame.1.gz
-{{< /files >}}

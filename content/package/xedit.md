@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org xedit application
 
-{{< files text="show files" >}}* /usr/bin/xedit
+## Files: 
+* /usr/bin/xedit
 * /usr/lib/X11/xedit/lisp/indent.lsp
 * /usr/lib/X11/xedit/lisp/lisp.lsp
 * /usr/lib/X11/xedit/lisp/progmodes/auto.lsp
@@ -45,4 +46,3 @@ X.Org xedit application
 * /usr/share/man/man1/xedit.1.gz
 * /usr/share/X11/app-defaults/Xedit
 * /usr/share/X11/app-defaults/Xedit-color
-{{< /files >}}

@@ -15,7 +15,7 @@ depends = "[]"
 +++
 Static files for mbedtls
 
-{{< files text="show files" >}}* /usr/lib/libmbedcrypto.a
+## Files: 
+* /usr/lib/libmbedcrypto.a
 * /usr/lib/libmbedtls.a
 * /usr/lib/libmbedx509.a
-{{< /files >}}

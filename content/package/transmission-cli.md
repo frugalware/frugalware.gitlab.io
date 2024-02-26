@@ -16,7 +16,8 @@ reverse_depends = "['transmission-gtk', 'transmission-qt']"
 +++
 A free, lightweight BitTorrent Client. (CLI based)
 
-{{< files text="show files" >}}* /usr/bin/transmission-cli
+## Files: 
+* /usr/bin/transmission-cli
 * /usr/bin/transmission-create
 * /usr/bin/transmission-daemon
 * /usr/bin/transmission-edit
@@ -108,4 +109,3 @@ A free, lightweight BitTorrent Client. (CLI based)
 * /usr/share/transmission/translations/transmission_tr.qm
 * /usr/share/transmission/translations/transmission_uk.qm
 * /usr/share/transmission/translations/transmission_zh_CN.qm
-{{< /files >}}

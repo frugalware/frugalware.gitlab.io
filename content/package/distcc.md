@@ -16,7 +16,8 @@ reverse_depends = "['distcc-gui']"
 +++
 A distributed C, C++, Obj C compiler
 
-{{< files text="show files" >}}* /etc/default/distcc
+## Files: 
+* /etc/default/distcc
 * /etc/distcc/clients.allow
 * /etc/distcc/commands.allow.sh
 * /etc/distcc/hosts
@@ -124,4 +125,3 @@ A distributed C, C++, Obj C compiler
 * /usr/share/man/man1/include_server.1.gz
 * /usr/share/man/man1/lsdistcc.1.gz
 * /usr/share/man/man1/pump.1.gz
-{{< /files >}}

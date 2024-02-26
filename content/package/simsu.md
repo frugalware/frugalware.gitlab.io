@@ -15,7 +15,8 @@ depends = "['qt6-base']"
 +++
 Simsu is a basic Sudoku game.
 
-{{< files text="show files" >}}* /usr/bin/simsu
+## Files: 
+* /usr/bin/simsu
 * /usr/share/applications/simsu.desktop
 * /usr/share/doc/simsu-1.4.2/ChangeLog
 * /usr/share/doc/simsu-1.4.2/COPYING
@@ -59,4 +60,3 @@ Simsu is a basic Sudoku game.
 * /usr/share/simsu/translations/simsu_uk.qm
 * /usr/share/simsu/translations/simsu_zh.qm
 * /usr/share/simsu/translations/simsu_zh_TW.qm
-{{< /files >}}

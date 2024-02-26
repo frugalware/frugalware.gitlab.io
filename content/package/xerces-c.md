@@ -16,7 +16,8 @@ reverse_depends = "['enigma', 'virtualbox', 'xalan-c', 'xqilla']"
 +++
 Xerces2 C++ Parser
 
-{{< files text="show files" >}}* /usr/bin/CreateDOMDocument
+## Files: 
+* /usr/bin/CreateDOMDocument
 * /usr/bin/DOMCount
 * /usr/bin/DOMPrint
 * /usr/bin/EnumVal
@@ -508,4 +509,3 @@ Xerces2 C++ Parser
 * /usr/share/doc/xerces-c-3.2.4/INSTALL
 * /usr/share/doc/xerces-c-3.2.4/LICENSE
 * /usr/share/doc/xerces-c-3.2.4/README
-{{< /files >}}

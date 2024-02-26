@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 Libcddb is a library that implements the different protocols (CDDBP, HTTP, SMTP) to access data on a CDDB server (http://freedb.org).
 
-{{< files text="show files" >}}* /usr/bin/cddb_query
+## Files: 
+* /usr/bin/cddb_query
 * /usr/include/cddb/cddb.h
 * /usr/include/cddb/cddb_cmd.h
 * /usr/include/cddb/cddb_config.h
@@ -40,4 +41,3 @@ Libcddb is a library that implements the different protocols (CDDBP, HTTP, SMTP)
 * /usr/share/doc/libcddb-1.3.2/README
 * /usr/share/doc/libcddb-1.3.2/THANKS
 * /usr/share/doc/libcddb-1.3.2/TODO
-{{< /files >}}

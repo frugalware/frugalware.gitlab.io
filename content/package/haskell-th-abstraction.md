@@ -16,7 +16,8 @@ reverse_depends = "['haskell-bifunctors', 'haskell-microlens-th', 'haskell-th-li
 +++
 Nicer interface for reified information about data types
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/th-abstraction-0.6.0.0/Language/Haskell/TH/Datatype.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/th-abstraction-0.6.0.0/Language/Haskell/TH/Datatype.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/th-abstraction-0.6.0.0/Language/Haskell/TH/Datatype.hi
 * /usr/lib/ghc-9.8.1/site-local/th-abstraction-0.6.0.0/Language/Haskell/TH/Datatype/Internal.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/th-abstraction-0.6.0.0/Language/Haskell/TH/Datatype/Internal.hi
@@ -39,4 +40,3 @@ Nicer interface for reified information about data types
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/th-abstraction-0.6.0.0/LICENSE
 * /usr/share/haskell/haskell-th-abstraction/register.sh
 * /usr/share/haskell/haskell-th-abstraction/unregister.sh
-{{< /files >}}

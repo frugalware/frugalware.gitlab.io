@@ -16,7 +16,8 @@ reverse_depends = "['lib32-pam']"
 +++
 The Berkeley DB embedded database system ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/db_archive
+## Files: 
+* /usr/i686-frugalware-linux/bin/db_archive
 * /usr/i686-frugalware-linux/bin/db_checkpoint
 * /usr/i686-frugalware-linux/bin/db_convert
 * /usr/i686-frugalware-linux/bin/db_deadlock
@@ -56,4 +57,3 @@ The Berkeley DB embedded database system ( 32bit )
 * /usr/lib32/libdb_stl-18.1.so
 * /usr/lib32/libdb_stl-18.so
 * /usr/lib32/libdb_stl.so
-{{< /files >}}

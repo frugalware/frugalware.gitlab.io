@@ -15,7 +15,7 @@ depends = "[]"
 +++
 Graphical application that displays the contents of the LCD on the device
 
-{{< files text="show files" >}}* usr/bin/xojpanel
+## Files: 
+* usr/bin/xojpanel
 * usr/share/doc/hpoj-0.91/xojpanel.html
 * usr/share/doc/xojpanel-0.91
-{{< /files >}}

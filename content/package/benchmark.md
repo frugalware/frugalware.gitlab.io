@@ -16,7 +16,8 @@ reverse_depends = "['ospray']"
 +++
 A microbenchmark support library
 
-{{< files text="show files" >}}* /usr/include/benchmark/benchmark.h
+## Files: 
+* /usr/include/benchmark/benchmark.h
 * /usr/include/benchmark/export.h
 * /usr/lib/cmake/benchmark/benchmarkConfig.cmake
 * /usr/lib/cmake/benchmark/benchmarkConfigVersion.cmake
@@ -49,4 +50,3 @@ A microbenchmark support library
 * /usr/share/doc/benchmark/tools.md
 * /usr/share/doc/benchmark/user_guide.md
 * /usr/share/doc/benchmark/_config.yml
-{{< /files >}}

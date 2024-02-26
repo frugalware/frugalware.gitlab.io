@@ -15,7 +15,8 @@ depends = "['kcmutils>=5.115.0', 'kpackage>=5.115.0', 'kwayland>=5.115.0', 'libg
 +++
 Utility that provides information about a computer system.
 
-{{< files text="show files" >}}* /etc/xdg/menus/kinfocenter.menu
+## Files: 
+* /etc/xdg/menus/kinfocenter.menu
 * /usr/bin/kinfocenter
 * /usr/lib/kf5/kauth/kinfocenter-dmidecode-helper
 * /usr/lib/libKInfoCenterInternal.so
@@ -946,4 +947,3 @@ Utility that provides information about a computer system.
 * /usr/share/polkit-1/actions/org.kde.kinfocenter.dmidecode.policy
 * /usr/share/qt5/qml/org/kde/kinfocenter/private/CommandOutputKCM.qml
 * /usr/share/qt5/qml/org/kde/kinfocenter/private/qmldir
-{{< /files >}}

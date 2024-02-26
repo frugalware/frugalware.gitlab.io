@@ -15,5 +15,5 @@ depends = "['liblirc>=0.9.1-2', 'pulseaudio>=17.0']"
 +++
 lirc module for PulseAudio sound server
 
-{{< files text="show files" >}}* /usr/lib/pulseaudio/modules/module-lirc.so
-{{< /files >}}
+## Files: 
+* /usr/lib/pulseaudio/modules/module-lirc.so

@@ -15,4 +15,4 @@ depends = "['mbrola']"
 +++
 German MBROLA Voices
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

@@ -15,11 +15,11 @@ depends = "['aspell']"
 +++
 GNU Aspell Scottish Gaelic Word List Package
 
-{{< files text="show files" >}}* usr/lib/aspell-0.60/gaidhlig.alias
+## Files: 
+* usr/lib/aspell-0.60/gaidhlig.alias
 * usr/lib/aspell-0.60/gd.dat
 * usr/lib/aspell-0.60/gd.multi
 * usr/lib/aspell-0.60/gd.rws
 * usr/lib/aspell-0.60/gd_phonet.dat
 * usr/share/doc/aspell-gd-0.50r0/COPYING
 * usr/share/doc/aspell-gd-0.50r0/README
-{{< /files >}}

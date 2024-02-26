@@ -16,7 +16,8 @@ reverse_depends = "['qtox', 'utox']"
 +++
 Project Tox, also known as Tox, is a FOSS instant messaging application aimed to replace Skype.
 
-{{< files text="show files" >}}* /usr/bin/DHT_bootstrap
+## Files: 
+* /usr/bin/DHT_bootstrap
 * /usr/include/tox/tox.h
 * /usr/include/tox/toxav.h
 * /usr/include/tox/toxencryptsave.h
@@ -29,4 +30,3 @@ Project Tox, also known as Tox, is a FOSS instant messaging application aimed to
 * /usr/share/doc/tox-core-0.2.18/INSTALL.md
 * /usr/share/doc/tox-core-0.2.18/LICENSE
 * /usr/share/doc/tox-core-0.2.18/README.md
-{{< /files >}}

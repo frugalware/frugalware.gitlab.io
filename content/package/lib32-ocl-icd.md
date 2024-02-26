@@ -16,9 +16,9 @@ reverse_depends = "['wine', 'wine-devel']"
 +++
 OpenCL ICD Bindings ( 32bit )
 
-{{< files text="show files" >}}* /usr/lib32/libOpenCL.so
+## Files: 
+* /usr/lib32/libOpenCL.so
 * /usr/lib32/libOpenCL.so.1
 * /usr/lib32/libOpenCL.so.1.0.0
 * /usr/lib32/pkgconfig/ocl-icd.pc
 * /usr/lib32/pkgconfig/OpenCL.pc
-{{< /files >}}

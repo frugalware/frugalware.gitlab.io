@@ -16,7 +16,8 @@ reverse_depends = "['android-tools', 'binutils', 'blosc', 'btrfs-progs', 'ccache
 +++
 Zstandard - Fast real-time compression algorithm
 
-{{< files text="show files" >}}* /usr/bin/unzstd
+## Files: 
+* /usr/bin/unzstd
 * /usr/bin/zstd
 * /usr/bin/zstdcat
 * /usr/bin/zstdgrep
@@ -42,4 +43,3 @@ Zstandard - Fast real-time compression algorithm
 * /usr/share/man/man1/zstdcat.1.gz
 * /usr/share/man/man1/zstdgrep.1.gz
 * /usr/share/man/man1/zstdless.1.gz
-{{< /files >}}

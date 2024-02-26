@@ -16,7 +16,8 @@ reverse_depends = "['alienarena']"
 +++
 ODE is an open source, high performance library for simulating rigid body dynamics.
 
-{{< files text="show files" >}}* /usr/bin/ode-config
+## Files: 
+* /usr/bin/ode-config
 * /usr/include/ode/collision.h
 * /usr/include/ode/collision_space.h
 * /usr/include/ode/collision_trimesh.h
@@ -47,4 +48,3 @@ ODE is an open source, high performance library for simulating rigid body dynami
 * /usr/share/doc/ode-0.13/COPYING
 * /usr/share/doc/ode-0.13/INSTALL.txt
 * /usr/share/doc/ode-0.13/README.txt
-{{< /files >}}

@@ -16,8 +16,8 @@ reverse_depends = "['radeon-profile']"
 +++
 Daemon for radeon-profile GUI
 
-{{< files text="show files" >}}* /usr/bin/radeon-profile-daemon
+## Files: 
+* /usr/bin/radeon-profile-daemon
 * /usr/lib/systemd/system/radeon-profile-daemon.service
 * /usr/share/doc/radeon-profile-daemon-20190603/LICENSE
 * /usr/share/doc/radeon-profile-daemon-20190603/README.md
-{{< /files >}}

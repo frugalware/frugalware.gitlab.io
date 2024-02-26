@@ -16,7 +16,8 @@ reverse_depends = "['cuda-tools']"
 +++
 NVIDIA's GPU programming toolkit
 
-{{< files text="show files" >}}* /etc/ld.so.conf.d/cuda.conf
+## Files: 
+* /etc/ld.so.conf.d/cuda.conf
 * /etc/profile.d/cuda.sh
 * /opt/cuda/bin/bin2c
 * /opt/cuda/bin/computeprof
@@ -2726,4 +2727,3 @@ NVIDIA's GPU programming toolkit
 * /usr/lib/pkgconfig/nvjpeg.pc
 * /usr/lib/pkgconfig/nvrtc.pc
 * /usr/lib/pkgconfig/nvToolsExt.pc
-{{< /files >}}

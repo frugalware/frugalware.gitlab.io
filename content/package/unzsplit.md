@@ -15,7 +15,8 @@ depends = "['zsplit']"
 +++
 Restores Images of blockdevices made with zsplit.
 
-{{< files text="show files" >}}* /usr/bin/unzsplit
+## Files: 
+* /usr/bin/unzsplit
 * /usr/share/doc/unzsplit-1.2.0/AUTHORS
 * /usr/share/doc/unzsplit-1.2.0/ChangeLog
 * /usr/share/doc/unzsplit-1.2.0/COPYING
@@ -25,4 +26,3 @@ Restores Images of blockdevices made with zsplit.
 * /usr/share/doc/unzsplit-1.2.0/README
 * /usr/share/doc/unzsplit-1.2.0/TODO
 * /usr/share/man/man8/unzsplit.8.gz
-{{< /files >}}

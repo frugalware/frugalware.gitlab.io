@@ -15,5 +15,5 @@ depends = "['claws-mail=4.1.1', 'libnotify>=0.7.6-2']"
 +++
 This plugin provides various ways to notify the user of new and unread email.
 
-{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/notification.so
-{{< /files >}}
+## Files: 
+* /usr/lib/claws-mail/plugins/notification.so

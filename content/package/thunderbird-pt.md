@@ -15,6 +15,6 @@ depends = "['thunderbird>=1.5.0.7']"
 +++
 Portuguese language support for Thunderbird
 
-{{< files text="show files" >}}* usr/lib/thunderbird/chrome/pt-BR.jar
+## Files: 
+* usr/lib/thunderbird/chrome/pt-BR.jar
 * usr/lib/thunderbird/chrome/pt-BR.manifest
-{{< /files >}}

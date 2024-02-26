@@ -15,7 +15,8 @@ depends = "['libsamplerate', 'qt5-base>=5.15.10']"
 +++
 A collection of libraries to help you integrate Last.fm services into your rich desktop software.
 
-{{< files text="show files" >}}* /usr/include/lastfm5/AbstractType.h
+## Files: 
+* /usr/include/lastfm5/AbstractType.h
 * /usr/include/lastfm5/Album.h
 * /usr/include/lastfm5/Artist.h
 * /usr/include/lastfm5/Audioscrobbler.h
@@ -53,4 +54,3 @@ A collection of libraries to help you integrate Last.fm services into your rich 
 * /usr/lib/liblastfm_fingerprint5.so.1.1.0
 * /usr/share/doc/liblastfm-1.1.0/COPYING
 * /usr/share/doc/liblastfm-1.1.0/README.md
-{{< /files >}}

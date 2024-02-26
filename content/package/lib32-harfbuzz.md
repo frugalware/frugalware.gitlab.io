@@ -16,7 +16,8 @@ reverse_depends = "['lib32-libass', 'lib32-pango']"
 +++
 Is an implementation of the OpenType Layout engine. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/hb-info
+## Files: 
+* /usr/i686-frugalware-linux/bin/hb-info
 * /usr/i686-frugalware-linux/bin/hb-ot-shape-closure
 * /usr/i686-frugalware-linux/bin/hb-shape
 * /usr/i686-frugalware-linux/bin/hb-subset
@@ -75,4 +76,3 @@ Is an implementation of the OpenType Layout engine. ( 32bit )
 * /usr/lib32/pkgconfig/harfbuzz-icu.pc
 * /usr/lib32/pkgconfig/harfbuzz-subset.pc
 * /usr/lib32/pkgconfig/harfbuzz.pc
-{{< /files >}}

@@ -16,9 +16,9 @@ reverse_depends = "['lib32-libdrm']"
 +++
 X.Org PCI access library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/pciaccess.h
+## Files: 
+* /usr/i686-frugalware-linux/include/pciaccess.h
 * /usr/lib32/libpciaccess.so
 * /usr/lib32/libpciaccess.so.0
 * /usr/lib32/libpciaccess.so.0.11.1
 * /usr/lib32/pkgconfig/pciaccess.pc
-{{< /files >}}

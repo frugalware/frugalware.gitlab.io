@@ -16,7 +16,8 @@ reverse_depends = "['krdc', 'remmina-rdp']"
 +++
 Remote Desktop Protocol cliente
 
-{{< files text="show files" >}}* /usr/bin/freerdp-proxy
+## Files: 
+* /usr/bin/freerdp-proxy
 * /usr/bin/freerdp-shadow-cli
 * /usr/bin/sdl-freerdp
 * /usr/bin/sfreerdp
@@ -378,4 +379,3 @@ Remote Desktop Protocol cliente
 * /usr/share/man/man1/wlfreerdp.1.gz
 * /usr/share/man/man1/xfreerdp.1.gz
 * /usr/share/man/man7/wlog.7.gz
-{{< /files >}}

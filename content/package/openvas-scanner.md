@@ -16,7 +16,8 @@ reverse_depends = "['openvas-cli']"
 +++
 OpenVAS scanner.
 
-{{< files text="show files" >}}* /etc/openvas/openvas_log.conf
+## Files: 
+* /etc/openvas/openvas_log.conf
 * /usr/bin/greenbone-nvt-sync
 * /usr/bin/openvas
 * /usr/bin/openvas-nasl
@@ -34,4 +35,3 @@ OpenVAS scanner.
 * /usr/share/man/man1/openvas-nasl.1.gz
 * /usr/share/man/man8/greenbone-nvt-sync.8.gz
 * /usr/share/man/man8/openvas.8.gz
-{{< /files >}}

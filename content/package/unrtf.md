@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 A command-line program which converts documents in Rich Text format to HTML, LaTeX, PostScript, and other formats.
 
-{{< files text="show files" >}}* /usr/bin/unrtf
+## Files: 
+* /usr/bin/unrtf
 * /usr/share/doc/unrtf-0.21.10/AUTHORS
 * /usr/share/doc/unrtf-0.21.10/ChangeLog
 * /usr/share/doc/unrtf-0.21.10/COPYING
@@ -30,4 +31,3 @@ A command-line program which converts documents in Rich Text format to HTML, LaT
 * /usr/share/unrtf/text.conf
 * /usr/share/unrtf/troff_mm.conf
 * /usr/share/unrtf/vt.conf
-{{< /files >}}

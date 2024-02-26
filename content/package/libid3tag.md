@@ -16,7 +16,8 @@ reverse_depends = "['imlib2', 'libmp3splt', 'minidlna']"
 +++
 ID3 tag manipulation library
 
-{{< files text="show files" >}}* /usr/include/id3tag.h
+## Files: 
+* /usr/include/id3tag.h
 * /usr/lib/libid3tag.so
 * /usr/lib/libid3tag.so.0
 * /usr/lib/libid3tag.so.0.3.0
@@ -29,4 +30,3 @@ ID3 tag manipulation library
 * /usr/share/doc/libid3tag-0.15.1b/README
 * /usr/share/doc/libid3tag-0.15.1b/TODO
 * /usr/share/doc/libid3tag-0.15.1b/VERSION
-{{< /files >}}

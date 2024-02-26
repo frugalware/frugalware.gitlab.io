@@ -15,7 +15,8 @@ depends = "['cryptsetup-luks>=2.0.1', 'iniparser>=4.0-2', 'keyutils', 'libarchiv
 +++
 Full disk encryption with Yubikey (Yubico key) for dracut
 
-{{< files text="show files" >}}* /etc/ykfde.conf
+## Files: 
+* /etc/ykfde.conf
 * /etc/ykfde.d/.gitignore
 * /usr/bin/ykfde
 * /usr/bin/ykfde-cpio
@@ -40,4 +41,3 @@ Full disk encryption with Yubikey (Yubico key) for dracut
 * /usr/share/doc/ykfde/README-mkinitcpio.md
 * /usr/share/doc/ykfde/README.html
 * /usr/share/doc/ykfde/README.md
-{{< /files >}}

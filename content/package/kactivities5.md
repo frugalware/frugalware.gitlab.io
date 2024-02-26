@@ -16,7 +16,8 @@ reverse_depends = "['dolphin', 'gwenview', 'kactivities-stats', 'kde-cli-tools',
 +++
 The KActivity Manager Daemon.
 
-{{< files text="show files" >}}* /usr/bin/kactivities-cli
+## Files: 
+* /usr/bin/kactivities-cli
 * /usr/include/KF5/KActivities/KActivities/ActivitiesModel
 * /usr/include/KF5/KActivities/kactivities/activitiesmodel.h
 * /usr/include/KF5/KActivities/KActivities/Consumer
@@ -49,4 +50,3 @@ The KActivity Manager Daemon.
 * /usr/share/qt5/mkspecs/modules/qt_KActivities.pri
 * /usr/share/qt5/qml/org/kde/activities/libkactivitiesextensionplugin.so
 * /usr/share/qt5/qml/org/kde/activities/qmldir
-{{< /files >}}

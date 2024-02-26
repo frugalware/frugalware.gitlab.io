@@ -15,7 +15,8 @@ depends = "['kcmutils>=5.115.0', 'kdelibs4support>=5.115.0', 'knotifyconfig>=5.1
 +++
 A free download manager for KDE.
 
-{{< files text="show files" >}}* /usr/bin/kget
+## Files: 
+* /usr/bin/kget
 * /usr/lib/libkgetcore.so
 * /usr/lib/libkgetcore.so.5
 * /usr/lib/libkgetcore.so.5.0.0
@@ -296,4 +297,3 @@ A free download manager for KDE.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kget.mo
 * /usr/share/metainfo/org.kde.kget.appdata.xml
 * /usr/share/qlogging-categories5/kget.categories
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "['libvlc>=3.0.20', 'libwayland-egl']"
 +++
 vlc Wayland EGL support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/video_output/libegl_wl_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/video_output/libegl_wl_plugin.so

@@ -15,7 +15,8 @@ depends = "['libmp3splt>=0.9.2-2']"
 +++
 mp3splt is a utility for mp3/ogg splitting without decoding
 
-{{< files text="show files" >}}* /usr/bin/mp3splt
+## Files: 
+* /usr/bin/mp3splt
 * /usr/share/doc/mp3splt-2.6.2/AUTHORS
 * /usr/share/doc/mp3splt-2.6.2/ChangeLog
 * /usr/share/doc/mp3splt-2.6.2/COPYING
@@ -27,4 +28,3 @@ mp3splt is a utility for mp3/ogg splitting without decoding
 * /usr/share/locale/es/LC_MESSAGES/mp3splt.mo
 * /usr/share/locale/fr_FR/LC_MESSAGES/mp3splt.mo
 * /usr/share/man/man1/mp3splt.1.gz
-{{< /files >}}

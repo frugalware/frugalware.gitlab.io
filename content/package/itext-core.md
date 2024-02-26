@@ -15,5 +15,5 @@ depends = "['openjre']"
 +++
 A Free Java-PDF library
 
-{{< files text="show files" >}}* /usr/share/java/itext.jar
-{{< /files >}}
+## Files: 
+* /usr/share/java/itext.jar

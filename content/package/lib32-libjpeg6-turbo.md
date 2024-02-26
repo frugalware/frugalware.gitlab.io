@@ -15,6 +15,6 @@ depends = "[]"
 +++
 JPEG image codec that uses SIMD instructions ( 32bit )
 
-{{< files text="show files" >}}* /usr/lib32/libjpeg.so.62
+## Files: 
+* /usr/lib32/libjpeg.so.62
 * /usr/lib32/libjpeg.so.62.2.0
-{{< /files >}}

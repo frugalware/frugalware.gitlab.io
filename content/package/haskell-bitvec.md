@@ -16,7 +16,8 @@ reverse_depends = "['haskell-vector-algorithms']"
 +++
 Space-efficient bit vectors
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/bitvec-1.1.5.0/Data/Bit.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/bitvec-1.1.5.0/Data/Bit.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/bitvec-1.1.5.0/Data/Bit.hi
 * /usr/lib/ghc-9.8.1/site-local/bitvec-1.1.5.0/Data/Bit/F2Poly.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/bitvec-1.1.5.0/Data/Bit/F2Poly.hi
@@ -61,4 +62,3 @@ Space-efficient bit vectors
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/bitvec-1.1.5.0/LICENSE
 * /usr/share/haskell/haskell-bitvec/register.sh
 * /usr/share/haskell/haskell-bitvec/unregister.sh
-{{< /files >}}

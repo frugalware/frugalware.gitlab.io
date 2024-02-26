@@ -15,10 +15,10 @@ depends = "[]"
 +++
 Static files for gsoap
 
-{{< files text="show files" >}}* /usr/lib/libgsoap++.a
+## Files: 
+* /usr/lib/libgsoap++.a
 * /usr/lib/libgsoap.a
 * /usr/lib/libgsoapck++.a
 * /usr/lib/libgsoapck.a
 * /usr/lib/libgsoapssl++.a
 * /usr/lib/libgsoapssl.a
-{{< /files >}}

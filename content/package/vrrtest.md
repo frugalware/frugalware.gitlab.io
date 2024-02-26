@@ -15,7 +15,8 @@ depends = "['love']"
 +++
 A very small utility to test variable refresh rate.
 
-{{< files text="show files" >}}* /opt/vrrtest/.gitignore
+## Files: 
+* /opt/vrrtest/.gitignore
 * /opt/vrrtest/colorFade.lua
 * /opt/vrrtest/conf.lua
 * /opt/vrrtest/LICENSE
@@ -28,4 +29,3 @@ A very small utility to test variable refresh rate.
 * /usr/share/applications/vrrtest.desktop
 * /usr/share/doc/vrrtest-2.1.0/LICENSE
 * /usr/share/doc/vrrtest-2.1.0/README.md
-{{< /files >}}

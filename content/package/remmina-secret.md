@@ -15,5 +15,5 @@ depends = "['libsecret']"
 +++
 secret plugin for remmina
 
-{{< files text="show files" >}}* /usr/lib/remmina/plugins/remmina-plugin-secret.so
-{{< /files >}}
+## Files: 
+* /usr/lib/remmina/plugins/remmina-plugin-secret.so

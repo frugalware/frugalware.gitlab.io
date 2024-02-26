@@ -16,7 +16,8 @@ reverse_depends = "['calamares-frugalware', 'partitionmanager']"
 +++
 Library for managing partitions
 
-{{< files text="show files" >}}* /usr/include/kpmcore/backend/corebackend.h
+## Files: 
+* /usr/include/kpmcore/backend/corebackend.h
 * /usr/include/kpmcore/backend/corebackendmanager.h
 * /usr/include/kpmcore/core/device.h
 * /usr/include/kpmcore/core/devicescanner.h
@@ -198,4 +199,3 @@ Library for managing partitions
 * /usr/share/locale/zh_TW/LC_MESSAGES/kpmcore.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kpmcore._policy_.mo
 * /usr/share/polkit-1/actions/org.kde.kpmcore.externalcommand.policy
-{{< /files >}}

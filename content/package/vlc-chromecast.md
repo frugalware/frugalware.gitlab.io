@@ -15,5 +15,5 @@ depends = "['libvlc>=3.0.20', 'protobuf>=25.3']"
 +++
 vlc chromecast support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/stream_out/libstream_out_chromecast_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/stream_out/libstream_out_chromecast_plugin.so

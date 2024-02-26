@@ -16,7 +16,8 @@ reverse_depends = "['alligator', 'audiotube', 'calamares-frugalware', 'discover'
 +++
 Utilities for core application functionality and accessing the OS.
 
-{{< files text="show files" >}}* /usr/bin/desktoptojson
+## Files: 
+* /usr/bin/desktoptojson
 * /usr/include/KF5/KCoreAddons/KAboutData
 * /usr/include/KF5/KCoreAddons/kaboutdata.h
 * /usr/include/KF5/KCoreAddons/KAutoSaveFile
@@ -233,4 +234,3 @@ Utilities for core application functionality and accessing the OS.
 * /usr/share/qlogging-categories5/kcoreaddons.categories
 * /usr/share/qlogging-categories5/kcoreaddons.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KCoreAddons.pri
-{{< /files >}}

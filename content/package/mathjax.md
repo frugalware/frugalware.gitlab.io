@@ -16,7 +16,8 @@ reverse_depends = "['calibre', 'ghostwriter']"
 +++
 An open source JavaScript display engine for mathematics that works in all modern browsers
 
-{{< files text="show files" >}}* /usr/share/doc/mathjax-3.2.2/LICENSE
+## Files: 
+* /usr/share/doc/mathjax-3.2.2/LICENSE
 * /usr/share/doc/mathjax-3.2.2/README.md
 * /usr/share/mathjax/a11y/assistive-mml.js
 * /usr/share/mathjax/a11y/complexity.js
@@ -124,4 +125,3 @@ An open source JavaScript display engine for mathematics that works in all moder
 * /usr/share/mathjax/ui/lazy.js
 * /usr/share/mathjax/ui/menu.js
 * /usr/share/mathjax/ui/safe.js
-{{< /files >}}

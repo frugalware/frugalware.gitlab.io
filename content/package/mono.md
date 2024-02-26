@@ -16,7 +16,8 @@ reverse_depends = "['gtk-sharp', 'gtk2-sharp', 'gtk2-sharp', 'keepass', 'referen
 +++
 Mono runtime and class libraries, a C# compiler/interpreter
 
-{{< files text="show files" >}}* /etc/mono/2.0/Browsers/Compat.browser
+## Files: 
+* /etc/mono/2.0/Browsers/Compat.browser
 * /etc/mono/2.0/DefaultWsdlHelpGenerator.aspx
 * /etc/mono/2.0/machine.config
 * /etc/mono/2.0/settings.map
@@ -3422,4 +3423,3 @@ Mono runtime and class libraries, a C# compiler/interpreter
 * /usr/share/mono-2.0/mono/cil/cil-opcodes.xml
 * /usr/share/mono-2.0/mono/eglib/eglib-config.h
 * /usr/share/mono-2.0/mono/profiler/mono-profiler-coverage.suppression
-{{< /files >}}

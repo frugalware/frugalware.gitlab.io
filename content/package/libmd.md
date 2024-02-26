@@ -16,7 +16,8 @@ reverse_depends = "['libbsd']"
 +++
 Message Digest functions from BSD systems
 
-{{< files text="show files" >}}* /usr/include/md2.h
+## Files: 
+* /usr/include/md2.h
 * /usr/include/md4.h
 * /usr/include/md5.h
 * /usr/include/ripemd.h
@@ -111,4 +112,3 @@ Message Digest functions from BSD systems
 * /usr/share/man/man3/SHA512Transform.3.gz
 * /usr/share/man/man3/SHA512Update.3.gz
 * /usr/share/man/man7/libmd.7.gz
-{{< /files >}}

@@ -16,10 +16,10 @@ reverse_depends = "['bluez', 'colord', 'dhcpcd', 'hwloc', 'intel-gpu-tools', 'li
 +++
 Udev library.
 
-{{< files text="show files" >}}* /usr/include/libudev.h
+## Files: 
+* /usr/include/libudev.h
 * /usr/lib/libudev.so
 * /usr/lib/libudev.so.1
 * /usr/lib/libudev.so.1.7.8
 * /usr/lib/pkgconfig/libudev.pc
 * /usr/lib/pkgconfig/udev.pc
-{{< /files >}}

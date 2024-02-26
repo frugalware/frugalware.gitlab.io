@@ -15,7 +15,8 @@ depends = "['alembic', 'embree', 'fftw', 'freetype2>=2.7', 'glew>=2.2.0', 'icu4c
 +++
 A 3D modeling/rendering/animation/gaming application
 
-{{< files text="show files" >}}* /usr/bin/blender
+## Files: 
+* /usr/bin/blender
 * /usr/bin/blender-thumbnailer
 * /usr/share/applications/blender.desktop
 * /usr/share/blender/4.0/datafiles/assets/blender_assets.cats.txt
@@ -3740,4 +3741,3 @@ A 3D modeling/rendering/animation/gaming application
 * /usr/share/icons/hicolor/scalable/apps/blender.svg
 * /usr/share/icons/hicolor/symbolic/apps/blender-symbolic.svg
 * /usr/share/metainfo/org.blender.Blender.metainfo.xml
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['lib32-cracklib', 'lib32-curl', 'lib32-elfutils', 'lib32-fil
 +++
 A compression/decompression library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/minizip/crypt.h
+## Files: 
+* /usr/i686-frugalware-linux/include/minizip/crypt.h
 * /usr/i686-frugalware-linux/include/minizip/ioapi.h
 * /usr/i686-frugalware-linux/include/minizip/mztools.h
 * /usr/i686-frugalware-linux/include/minizip/unzip.h
@@ -33,4 +34,3 @@ A compression/decompression library ( 32bit )
 * /usr/lib32/libz.so.1.3.1
 * /usr/lib32/pkgconfig/minizip.pc
 * /usr/lib32/pkgconfig/zlib.pc
-{{< /files >}}

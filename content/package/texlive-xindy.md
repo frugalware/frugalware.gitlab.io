@@ -15,7 +15,8 @@ depends = "['ffcall', 'libsigsegv', 'readline>=8.0', 'texlive=2023.0']"
 +++
 Xindy package for TeX Live
 
-{{< files text="show files" >}}* /usr/bin/tex2xindy
+## Files: 
+* /usr/bin/tex2xindy
 * /usr/bin/texindy
 * /usr/bin/xindy
 * /usr/bin/xindy.mem
@@ -446,4 +447,3 @@ Xindy package for TeX Live
 * /usr/share/xindy/modules/tex/inputenc/latin3.xdy
 * /usr/share/xindy/modules/tex/inputenc/utf8.xdy
 * /usr/share/xindy/VERSION
-{{< /files >}}

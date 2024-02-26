@@ -16,7 +16,8 @@ reverse_depends = "['haskell-iproute', 'haskell-wai-logger']"
 +++
 Exposes the native endianness or byte ordering of the system.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/byteorder-1.0.4/libHSbyteorder-1.0.4-AhK6kw4GYA0AezjVzS8o7A.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/byteorder-1.0.4/libHSbyteorder-1.0.4-AhK6kw4GYA0AezjVzS8o7A.a
 * /usr/lib/ghc-9.8.1/site-local/byteorder-1.0.4/System/ByteOrder.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/byteorder-1.0.4/System/ByteOrder.hi
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSbyteorder-1.0.4-AhK6kw4GYA0AezjVzS8o7A-ghc9.8.1.so
@@ -33,4 +34,3 @@ Exposes the native endianness or byte ordering of the system.
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/byteorder-1.0.4/LICENSE
 * /usr/share/haskell/haskell-byteorder/register.sh
 * /usr/share/haskell/haskell-byteorder/unregister.sh
-{{< /files >}}

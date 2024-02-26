@@ -16,7 +16,8 @@ reverse_depends = "['gst1-plugins-good-avc1394']"
 +++
 libiec61883 provides higher level API for streaming over IEEE 1394.
 
-{{< files text="show files" >}}* /usr/bin/plugctl
+## Files: 
+* /usr/bin/plugctl
 * /usr/bin/plugreport
 * /usr/include/libiec61883/iec61883.h
 * /usr/lib/libiec61883.so
@@ -31,4 +32,3 @@ libiec61883 provides higher level API for streaming over IEEE 1394.
 * /usr/share/doc/libiec61883-1.2.0/README
 * /usr/share/man/man1/plugctl.1.gz
 * /usr/share/man/man1/plugreport.1.gz
-{{< /files >}}

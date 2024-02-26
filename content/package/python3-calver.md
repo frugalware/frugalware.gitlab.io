@@ -15,7 +15,8 @@ depends = "['python3']"
 +++
 Setuptools extension for CalVer package versions
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/calver-2022.6.26-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/calver-2022.6.26-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/calver-2022.6.26-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/calver-2022.6.26-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/calver-2022.6.26-py3.12.egg-info/SOURCES.txt
@@ -26,4 +27,3 @@ Setuptools extension for CalVer package versions
 * /usr/lib/python3.12/site-packages/calver/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-calver-2022.6.26/LICENSE
 * /usr/share/doc/python3-calver-2022.6.26/README.md
-{{< /files >}}

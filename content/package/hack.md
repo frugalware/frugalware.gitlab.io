@@ -16,10 +16,10 @@ reverse_depends = "['plasma-desktop', 'plasma-integration', 'sddm']"
 +++
 A hand groomed and optically balanced typeface based on Bitstream Vera Mono
 
-{{< files text="show files" >}}* /usr/share/doc/hack-3.003/FAQ.md
+## Files: 
+* /usr/share/doc/hack-3.003/FAQ.md
 * /usr/share/doc/hack-3.003/README.md
 * /usr/share/fonts/X11/TTF/Hack-Bold.ttf
 * /usr/share/fonts/X11/TTF/Hack-BoldItalic.ttf
 * /usr/share/fonts/X11/TTF/Hack-Italic.ttf
 * /usr/share/fonts/X11/TTF/Hack-Regular.ttf
-{{< /files >}}

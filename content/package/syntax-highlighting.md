@@ -16,7 +16,8 @@ reverse_depends = "['drkonqi', 'kio-extras', 'kpimtextedit', 'ktextaddons', 'kte
 +++
 Syntax highlighting Engine for Structured Text and Code
 
-{{< files text="show files" >}}* /usr/bin/kate-syntax-highlighter
+## Files: 
+* /usr/bin/kate-syntax-highlighter
 * /usr/include/KF5/KSyntaxHighlighting/KSyntaxHighlighting/AbstractHighlighter
 * /usr/include/KF5/KSyntaxHighlighting/KSyntaxHighlighting/abstracthighlighter.h
 * /usr/include/KF5/KSyntaxHighlighting/KSyntaxHighlighting/Definition
@@ -137,4 +138,3 @@ Syntax highlighting Engine for Structured Text and Code
 * /usr/share/qt5/mkspecs/modules/qt_KSyntaxHighlighting.pri
 * /usr/share/qt5/qml/org/kde/syntaxhighlighting/libkquicksyntaxhighlightingplugin.so
 * /usr/share/qt5/qml/org/kde/syntaxhighlighting/qmldir
-{{< /files >}}

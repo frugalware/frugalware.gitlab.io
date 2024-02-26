@@ -16,7 +16,8 @@ license = "Apache"
 +++
 Server automation framework and application
 
-{{< files text="show files" >}}* /etc/puppetlabs/puppet/hiera.yaml
+## Files: 
+* /etc/puppetlabs/puppet/hiera.yaml
 * /etc/puppetlabs/puppet/puppet.conf
 * /opt/puppetlabs/puppet/share/locale/config.yaml
 * /opt/puppetlabs/puppet/share/locale/en/puppet.po
@@ -1072,4 +1073,3 @@ Server automation framework and application
 * /usr/share/man/man8/puppet-script.8.gz
 * /usr/share/man/man8/puppet-ssl.8.gz
 * /usr/share/man/man8/puppet.8.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ license = "GPL"
 +++
 Based on the Bonnie hard drive benchmark by Tim Bray
 
-{{< files text="show files" >}}* /usr/bin/bonnie++
+## Files: 
+* /usr/bin/bonnie++
 * /usr/bin/bon_csv2html
 * /usr/bin/bon_csv2txt
 * /usr/bin/generate_randfile
@@ -31,4 +32,3 @@ Based on the Bonnie hard drive benchmark by Tim Bray
 * /usr/share/man/man8/bonnie++.8.gz
 * /usr/share/man/man8/getc_putc.8.gz
 * /usr/share/man/man8/zcav.8.gz
-{{< /files >}}

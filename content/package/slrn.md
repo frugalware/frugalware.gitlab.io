@@ -15,7 +15,8 @@ depends = "['slang']"
 +++
 slrn (S-Lang read news) is a newsreader
 
-{{< files text="show files" >}}* /usr/bin/slrn
+## Files: 
+* /usr/bin/slrn
 * /usr/bin/slrnpull
 * /usr/share/doc/slrn/changes.txt
 * /usr/share/doc/slrn/COPYING
@@ -75,4 +76,3 @@ slrn (S-Lang read news) is a newsreader
 * /usr/share/slrn/slang/util.sl
 * /usr/share/slrn/slang/varset.sl
 * /usr/share/slrn/slang/xcomment.sl
-{{< /files >}}

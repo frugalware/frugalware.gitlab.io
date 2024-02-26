@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 Open DataBase Connectivity library.
 
-{{< files text="show files" >}}* /usr/bin/iodbc-config
+## Files: 
+* /usr/bin/iodbc-config
 * /usr/bin/iodbctest
 * /usr/bin/iodbctestw
 * /usr/include/iodbc/iodbcext.h
@@ -53,4 +54,3 @@ Open DataBase Connectivity library.
 * /usr/share/man/man1/iodbc-config.1.gz
 * /usr/share/man/man1/iodbctest.1.gz
 * /usr/share/man/man1/iodbctestw.1.gz
-{{< /files >}}

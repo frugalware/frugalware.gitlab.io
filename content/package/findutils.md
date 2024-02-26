@@ -16,7 +16,8 @@ reverse_depends = "['profile-sync-daemon', 'pulse-autoconf', 'scriptlet-core']"
 +++
 Basic directory searching utilities
 
-{{< files text="show files" >}}* /usr/bin/find
+## Files: 
+* /usr/bin/find
 * /usr/bin/xargs
 * /usr/lib/findutils/frcode
 * /usr/share/doc/findutils-4.9.0/AUTHORS
@@ -74,4 +75,3 @@ Basic directory searching utilities
 * /usr/share/man/man1/find.1.gz
 * /usr/share/man/man1/xargs.1.gz
 * /usr/share/man/man5/locatedb.5.gz
-{{< /files >}}

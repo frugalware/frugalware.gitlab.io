@@ -16,7 +16,8 @@ reverse_depends = "['dirmngr', 'dirmngr-ldap', 'gnupg2', 'gpg-agent']"
 +++
 nPth - The New Pth library
 
-{{< files text="show files" >}}* /usr/bin/npth-config
+## Files: 
+* /usr/bin/npth-config
 * /usr/include/npth.h
 * /usr/lib/libnpth.so
 * /usr/lib/libnpth.so.0
@@ -30,4 +31,3 @@ nPth - The New Pth library
 * /usr/share/doc/npth-1.6/NEWS
 * /usr/share/doc/npth-1.6/README
 * /usr/share/doc/npth-1.6/VERSION
-{{< /files >}}

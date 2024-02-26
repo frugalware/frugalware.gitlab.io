@@ -16,7 +16,8 @@ reverse_depends = "['colord-gtk3', 'colord-gtk4']"
 +++
 GTK integration for libcolord
 
-{{< files text="show files" >}}* /usr/include/colord-1/colord-gtk.h
+## Files: 
+* /usr/include/colord-1/colord-gtk.h
 * /usr/include/colord-1/colord-gtk/cd-sample-widget.h
 * /usr/include/colord-1/colord-gtk/cd-sample-window.h
 * /usr/include/colord-1/colord-gtk/cd-version.h
@@ -31,4 +32,3 @@ GTK integration for libcolord
 * /usr/share/doc/colord-gtk-0.3.0/TODO
 * /usr/share/gir-1.0/ColordGtk-1.0.gir
 * /usr/share/locale/en_GB/LC_MESSAGES/colord-gtk.mo
-{{< /files >}}

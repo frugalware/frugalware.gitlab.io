@@ -15,10 +15,10 @@ depends = "['vtk>=9.3.0', 'vtk-python3>=9.3.0']"
 +++
 Python2 Tcl/Tk interface and bindings for vtk
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/vtkmodules/tk/vtkLoadPythonTkWidgets.py
+## Files: 
+* /usr/lib/python3.12/site-packages/vtkmodules/tk/vtkLoadPythonTkWidgets.py
 * /usr/lib/python3.12/site-packages/vtkmodules/tk/vtkTkImageViewerWidget.py
 * /usr/lib/python3.12/site-packages/vtkmodules/tk/vtkTkPhotoImage.py
 * /usr/lib/python3.12/site-packages/vtkmodules/tk/vtkTkRenderWidget.py
 * /usr/lib/python3.12/site-packages/vtkmodules/tk/vtkTkRenderWindowInteractor.py
 * /usr/lib/python3.12/site-packages/vtkmodules/tk/__init__.py
-{{< /files >}}

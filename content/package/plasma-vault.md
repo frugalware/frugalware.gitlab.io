@@ -15,7 +15,8 @@ depends = "['cryfs', 'encfs', 'libksysguard5>=5.27.10', 'networkmanager-qt>=5.11
 +++
 Plasma applet and services for creating encrypted vaults
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/kded/plasmavault.so
+## Files: 
+* /usr/lib/qt5/plugins/kf5/kded/plasmavault.so
 * /usr/lib/qt5/plugins/kf5/kfileitemaction/plasmavaultfileitemaction.so
 * /usr/lib/qt5/plugins/plasma/applets/plasma_applet_vault.so
 * /usr/share/kservices5/plasma-applet-org.kde.plasma.vault.desktop
@@ -69,4 +70,3 @@ Plasma applet and services for creating encrypted vaults
 * /usr/share/plasma/plasmoids/org.kde.plasma.vault/contents/ui/VaultItem.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.vault/metadata.desktop
 * /usr/share/plasma/plasmoids/org.kde.plasma.vault/metadata.json
-{{< /files >}}

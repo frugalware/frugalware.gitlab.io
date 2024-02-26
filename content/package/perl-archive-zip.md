@@ -16,7 +16,8 @@ reverse_depends = "['amavisd-new', 'libreoffice']"
 +++
 Module allows a Perl program to create, manipulate, read, and write Zip archive files.
 
-{{< files text="show files" >}}* /usr/bin/crc32
+## Files: 
+* /usr/bin/crc32
 * /usr/lib/perl5/site_perl/current/Archive/Zip.pm
 * /usr/lib/perl5/site_perl/current/Archive/Zip/Archive.pm
 * /usr/lib/perl5/site_perl/current/Archive/Zip/BufferedFileHandle.pm
@@ -36,4 +37,3 @@ Module allows a Perl program to create, manipulate, read, and write Zip archive 
 * /usr/share/man/man3/Archive::Zip::FAQ.3perl.gz
 * /usr/share/man/man3/Archive::Zip::MemberRead.3perl.gz
 * /usr/share/man/man3/Archive::Zip::Tree.3perl.gz
-{{< /files >}}

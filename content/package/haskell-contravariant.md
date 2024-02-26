@@ -16,7 +16,8 @@ reverse_depends = "['haskell-semigroupoids']"
 +++
 Contravariant functors
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/contravariant-1.5.5/Data/Functor/Contravariant/Compose.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/contravariant-1.5.5/Data/Functor/Contravariant/Compose.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/contravariant-1.5.5/Data/Functor/Contravariant/Compose.hi
 * /usr/lib/ghc-9.8.1/site-local/contravariant-1.5.5/Data/Functor/Contravariant/Divisible.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/contravariant-1.5.5/Data/Functor/Contravariant/Divisible.hi
@@ -40,4 +41,3 @@ Contravariant functors
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/contravariant-1.5.5/LICENSE
 * /usr/share/haskell/haskell-contravariant/register.sh
 * /usr/share/haskell/haskell-contravariant/unregister.sh
-{{< /files >}}

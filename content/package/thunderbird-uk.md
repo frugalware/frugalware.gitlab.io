@@ -16,5 +16,5 @@ reverse_depends = "['thunderbird-i18n']"
 +++
 Ukrainian language support for Thunderbird
 
-{{< files text="show files" >}}* /usr/lib/thunderbird/extensions/langpack-uk@thunderbird.mozilla.org.xpi
-{{< /files >}}
+## Files: 
+* /usr/lib/thunderbird/extensions/langpack-uk@thunderbird.mozilla.org.xpi

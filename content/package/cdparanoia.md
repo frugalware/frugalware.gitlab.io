@@ -16,7 +16,8 @@ reverse_depends = "['audiocd-kio', 'gst1-plugins-base-cdparanoia', 'mencoder', '
 +++
 A CD ripping application
 
-{{< files text="show files" >}}* /usr/bin/cdparanoia
+## Files: 
+* /usr/bin/cdparanoia
 * /usr/include/cdda_interface.h
 * /usr/include/cdda_paranoia.h
 * /usr/include/utils.h
@@ -30,4 +31,3 @@ A CD ripping application
 * /usr/share/doc/cdparanoia-10.2/COPYING-LGPL
 * /usr/share/doc/cdparanoia-10.2/README
 * /usr/share/man/man1/cdparanoia.1.gz
-{{< /files >}}

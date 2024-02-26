@@ -15,7 +15,7 @@ depends = "['liburing']"
 +++
 Files for use in QEMU guests.
 
-{{< files text="show files" >}}* /usr/bin/qemu-ga
+## Files: 
+* /usr/bin/qemu-ga
 * /usr/lib/systemd/system/qemu-guest-agent.service
 * /usr/lib/udev/rules.d/99-qemu-guest-agent.rules
-{{< /files >}}

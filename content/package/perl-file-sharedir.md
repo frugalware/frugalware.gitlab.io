@@ -16,7 +16,8 @@ reverse_depends = "['perl-datetime-locale']"
 +++
 Locate per-dist and per-module shared files
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/auto/share/dist/File-ShareDir/sample.txt
+## Files: 
+* /usr/lib/perl5/site_perl/auto/share/dist/File-ShareDir/sample.txt
 * /usr/lib/perl5/site_perl/auto/share/dist/File-ShareDir/subdir/sample.txt
 * /usr/lib/perl5/site_perl/auto/share/module/File-ShareDir/test_file.txt
 * /usr/lib/perl5/site_perl/File/ShareDir.pm
@@ -24,4 +25,3 @@ Locate per-dist and per-module shared files
 * /usr/share/doc/perl-file-sharedir-1.118/MANIFEST
 * /usr/share/doc/perl-file-sharedir-1.118/README.md
 * /usr/share/man/man3/File::ShareDir.3perl.gz
-{{< /files >}}

@@ -16,9 +16,9 @@ reverse_depends = "['perl-datetime-timezone']"
 +++
 Implementation of a Singleton class
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/Class/Singleton.pm
+## Files: 
+* /usr/lib/perl5/site_perl/Class/Singleton.pm
 * /usr/share/doc/perl-class-singleton-1.6/INSTALL
 * /usr/share/doc/perl-class-singleton-1.6/MANIFEST
 * /usr/share/doc/perl-class-singleton-1.6/README
 * /usr/share/man/man3/Class::Singleton.3perl.gz
-{{< /files >}}

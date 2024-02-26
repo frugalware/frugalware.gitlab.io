@@ -15,7 +15,8 @@ depends = "['xerces-c>=3.2.0']"
 +++
 XQilla is an XQuery and XPath 2 library and command line utility written in C++
 
-{{< files text="show files" >}}* /usr/bin/xqilla
+## Files: 
+* /usr/bin/xqilla
 * /usr/include/xqc.h
 * /usr/include/xqilla/ast/ASTNode.hpp
 * /usr/include/xqilla/ast/ASTNodeImpl.hpp
@@ -417,4 +418,3 @@ XQilla is an XQuery and XPath 2 library and command line utility written in C++
 * /usr/share/doc/xqilla-2.3.4/LICENSE
 * /usr/share/doc/xqilla-2.3.4/README
 * /usr/share/doc/xqilla-2.3.4/TODO
-{{< /files >}}

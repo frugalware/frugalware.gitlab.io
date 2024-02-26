@@ -15,11 +15,11 @@ depends = "['glibc>=2.34']"
 +++
 OpenCL API C++ bindings
 
-{{< files text="show files" >}}* /usr/include/CL/cl2.hpp
+## Files: 
+* /usr/include/CL/cl2.hpp
 * /usr/include/CL/opencl.hpp
 * /usr/share/cmake/OpenCLHeadersCpp/OpenCLHeadersCppConfig.cmake
 * /usr/share/cmake/OpenCLHeadersCpp/OpenCLHeadersCppConfigVersion.cmake
 * /usr/share/cmake/OpenCLHeadersCpp/OpenCLHeadersCppTargets.cmake
 * /usr/share/doc/opencl-clhpp-2023.12.14/README.md
 * /usr/share/pkgconfig/OpenCL-CLHPP.pc
-{{< /files >}}

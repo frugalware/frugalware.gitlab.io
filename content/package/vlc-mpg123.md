@@ -15,5 +15,5 @@ depends = "['libmpg123', 'libvlc>=3.0.20']"
 +++
 vlc mpg123 support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/libmpg123_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/codec/libmpg123_plugin.so

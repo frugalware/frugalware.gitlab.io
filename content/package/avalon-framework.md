@@ -15,5 +15,5 @@ depends = "['avalon-logkit']"
 +++
 Avalon Framework
 
-{{< files text="show files" >}}* /usr/share/java/avalon-framework.jar
-{{< /files >}}
+## Files: 
+* /usr/share/java/avalon-framework.jar

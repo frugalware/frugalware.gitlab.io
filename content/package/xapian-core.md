@@ -17,7 +17,8 @@ license = "GPL"
 +++
 Xapian is an Open Source Search Engine Library.
 
-{{< files text="show files" >}}* /usr/bin/copydatabase
+## Files: 
+* /usr/bin/copydatabase
 * /usr/bin/quest
 * /usr/bin/simpleexpand
 * /usr/bin/simpleindex
@@ -565,4 +566,3 @@ Xapian is an Open Source Search Engine Library.
 * /usr/share/xapian-core/stopwords/russian.list
 * /usr/share/xapian-core/stopwords/spanish.list
 * /usr/share/xapian-core/stopwords/swedish.list
-{{< /files >}}

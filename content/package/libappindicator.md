@@ -16,7 +16,8 @@ reverse_depends = "['polychromatic', 'remmina', 'slack-desktop', 'syncthing-gtk'
 +++
 Library to allow applications to export a menu into the Unity Menu bar (GTK+ 2 library)
 
-{{< files text="show files" >}}* /usr/include/libappindicator3-0.1/libappindicator/app-indicator-enum-types.h
+## Files: 
+* /usr/include/libappindicator3-0.1/libappindicator/app-indicator-enum-types.h
 * /usr/include/libappindicator3-0.1/libappindicator/app-indicator.h
 * /usr/lib/libappindicator3.so
 * /usr/lib/libappindicator3.so.1
@@ -43,4 +44,3 @@ Library to allow applications to export a menu into the Unity Menu bar (GTK+ 2 l
 * /usr/share/gtk-doc/html/libappindicator/right.png
 * /usr/share/gtk-doc/html/libappindicator/style.css
 * /usr/share/gtk-doc/html/libappindicator/up.png
-{{< /files >}}

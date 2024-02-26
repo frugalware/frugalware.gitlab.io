@@ -15,7 +15,8 @@ depends = "['libice', 'libstdc++', 'libxi', 'libxrender']"
 +++
 QScintilla2 is a port to Qt of Neil Hodgson's Scintilla C++ editor class.
 
-{{< files text="show files" >}}* usr/include/Qsci/qsciapis.h
+## Files: 
+* usr/include/Qsci/qsciapis.h
 * usr/include/Qsci/qscicommand.h
 * usr/include/Qsci/qscicommandset.h
 * usr/include/Qsci/qscidocument.h
@@ -62,4 +63,3 @@ QScintilla2 is a port to Qt of Neil Hodgson's Scintilla C++ editor class.
 * usr/share/qt4/translations/qscintilla_fr.qm
 * usr/share/qt4/translations/qscintilla_pt_br.qm
 * usr/share/qt4/translations/qscintilla_ru.qm
-{{< /files >}}

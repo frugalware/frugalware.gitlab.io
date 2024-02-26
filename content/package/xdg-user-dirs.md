@@ -16,7 +16,8 @@ reverse_depends = "['lumina-desktop', 'plasma-workspace', 'xdg-user-dirs-gtk']"
 +++
 xdg-user-dirs is a tool to help manage user directories like the desktop folder and the music folder.
 
-{{< files text="show files" >}}* /etc/X11/xinit/xinitrc.d/xdg-user-dirs.sh
+## Files: 
+* /etc/X11/xinit/xinitrc.d/xdg-user-dirs.sh
 * /etc/xdg/autostart/xdg-user-dirs.desktop
 * /etc/xdg/user-dirs.conf
 * /etc/xdg/user-dirs.defaults
@@ -106,4 +107,3 @@ xdg-user-dirs is a tool to help manage user directories like the desktop folder 
 * /usr/share/man/man5/user-dirs.conf.5.gz
 * /usr/share/man/man5/user-dirs.defaults.5.gz
 * /usr/share/man/man5/user-dirs.dirs.5.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['alsa-lib>=1.1.4.1', 'curl', 'dev86', 'iasl', 'iproute2', 'kernel=6.
 +++
 Oracle VirtualBox is a family of powerful x86 virtualization products for enterprise as well as home use.
 
-{{< files text="show files" >}}* /etc/ld.so.conf.d/virtualbox.conf
+## Files: 
+* /etc/ld.so.conf.d/virtualbox.conf
 * /etc/vbox/vbox.cfg
 * /usr/bin/VBox
 * /usr/bin/vbox-img
@@ -276,4 +277,3 @@ Oracle VirtualBox is a family of powerful x86 virtualization products for enterp
 * /usr/share/virtualbox/nls/VirtualBox_zh_TW.qm
 * /usr/share/virtualbox/VBoxCreateUSBNode.sh
 * /usr/share/virtualbox/VBoxSysInfo.sh
-{{< /files >}}

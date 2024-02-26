@@ -16,7 +16,8 @@ reverse_depends = "['obs-v4l2sink']"
 +++
 Free, open source software for live streaming and recording
 
-{{< files text="show files" >}}* /usr/bin/obs
+## Files: 
+* /usr/bin/obs
 * /usr/bin/obs-ffmpeg-mux
 * /usr/include/obs/audio-monitoring/pulse/pulseaudio-wrapper.h
 * /usr/include/obs/callback/calldata.h
@@ -1617,4 +1618,3 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-studio/themes/Yami/checkbox_unchecked.svg
 * /usr/share/obs/obs-studio/themes/Yami/checkbox_unchecked_disabled.svg
 * /usr/share/obs/obs-studio/themes/Yami/checkbox_unchecked_focus.svg
-{{< /files >}}

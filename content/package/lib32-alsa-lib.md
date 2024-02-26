@@ -16,7 +16,8 @@ reverse_depends = "['get_steam', 'lib32-ffmpeg', 'lib32-libsndfile']"
 +++
 An alternative implementation of Linux sound support ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/aserver
+## Files: 
+* /usr/i686-frugalware-linux/bin/aserver
 * /usr/i686-frugalware-linux/include/alsa/asoundef.h
 * /usr/i686-frugalware-linux/include/alsa/asoundlib.h
 * /usr/i686-frugalware-linux/include/alsa/conf.h
@@ -75,4 +76,3 @@ An alternative implementation of Linux sound support ( 32bit )
 * /usr/lib32/libatopology.so.2.0.0
 * /usr/lib32/pkgconfig/alsa-topology.pc
 * /usr/lib32/pkgconfig/alsa.pc
-{{< /files >}}

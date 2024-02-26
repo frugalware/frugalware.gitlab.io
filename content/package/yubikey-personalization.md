@@ -16,7 +16,8 @@ reverse_depends = "['dracut-ykfde', 'yubikey-personalization-gui']"
 +++
 Yubico YubiKey C client
 
-{{< files text="show files" >}}* /usr/bin/ykchalresp
+## Files: 
+* /usr/bin/ykchalresp
 * /usr/bin/ykinfo
 * /usr/bin/ykpersonalize
 * /usr/include/ykpers-1/ykcore.h
@@ -39,4 +40,3 @@ Yubico YubiKey C client
 * /usr/share/man/man1/ykchalresp.1.gz
 * /usr/share/man/man1/ykinfo.1.gz
 * /usr/share/man/man1/ykpersonalize.1.gz
-{{< /files >}}

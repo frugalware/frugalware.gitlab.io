@@ -16,7 +16,8 @@ reverse_depends = "['aseman-qt-tools', 'kasts', 'kio-gdrive', 'kldap', 'kmailtra
 +++
 Provides support for secure credentials storage.
 
-{{< files text="show files" >}}* /usr/include/qt5keychain/keychain.h
+## Files: 
+* /usr/include/qt5keychain/keychain.h
 * /usr/include/qt5keychain/qkeychain_export.h
 * /usr/lib/cmake/Qt5Keychain/Qt5KeychainConfig.cmake
 * /usr/lib/cmake/Qt5Keychain/Qt5KeychainConfigVersion.cmake
@@ -33,4 +34,3 @@ Provides support for secure credentials storage.
 * /usr/share/qt5keychain/translations/qtkeychain_ro.qm
 * /usr/share/qt5keychain/translations/qtkeychain_ru.qm
 * /usr/share/qt5keychain/translations/qtkeychain_zh.qm
-{{< /files >}}

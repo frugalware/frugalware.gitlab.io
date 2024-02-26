@@ -16,7 +16,8 @@ reverse_depends = "['darktable', 'manaplus', 'mkvtoolnix', 'ogre', 'openshadingl
 +++
 Light-weight, simple and fast XML parser for C++ with XPath support
 
-{{< files text="show files" >}}* /etc/ld.so.conf.d/pugixml.conf
+## Files: 
+* /etc/ld.so.conf.d/pugixml.conf
 * /usr/include/pugiconfig.hpp
 * /usr/include/pugixml.hpp
 * /usr/lib/cmake/pugixml/pugixml-config-version.cmake
@@ -28,4 +29,3 @@ Light-weight, simple and fast XML parser for C++ with XPath support
 * /usr/lib/libpugixml.so.1.14
 * /usr/lib/pkgconfig/pugixml.pc
 * /usr/share/doc/pugixml-1.14/README.md
-{{< /files >}}

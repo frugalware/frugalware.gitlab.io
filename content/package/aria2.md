@@ -16,7 +16,8 @@ license = "GPL"
 +++
 aria2 is an utility for downloading files.
 
-{{< files text="show files" >}}* /usr/bin/aria2c
+## Files: 
+* /usr/bin/aria2c
 * /usr/share/doc/aria2-1.36.0/AUTHORS
 * /usr/share/doc/aria2-1.36.0/bash_completion/aria2c
 * /usr/share/doc/aria2-1.36.0/bash_completion/README.txt
@@ -75,4 +76,3 @@ aria2 is an utility for downloading files.
 * /usr/share/man/man1/aria2c.1.gz
 * /usr/share/man/pt/man1/aria2c.1.gz
 * /usr/share/man/ru/man1/aria2c.1.gz
-{{< /files >}}

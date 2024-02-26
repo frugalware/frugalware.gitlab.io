@@ -15,7 +15,8 @@ depends = "['gtk+3', 'pygobject3']"
 +++
 Gtk Client for redshift
 
-{{< files text="show files" >}}* /usr/bin/redshift-gtk
+## Files: 
+* /usr/bin/redshift-gtk
 * /usr/lib/python3.12/site-packages/redshift_gtk/controller.py
 * /usr/lib/python3.12/site-packages/redshift_gtk/defs.py
 * /usr/lib/python3.12/site-packages/redshift_gtk/statusicon.py
@@ -36,4 +37,3 @@ Gtk Client for redshift
 * /usr/share/icons/hicolor/scalable/apps/redshift-status-off.svg
 * /usr/share/icons/hicolor/scalable/apps/redshift-status-on.svg
 * /usr/share/icons/hicolor/scalable/apps/redshift.svg
-{{< /files >}}

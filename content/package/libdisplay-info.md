@@ -16,7 +16,8 @@ reverse_depends = "['weston']"
 +++
 EDID and DisplayID library
 
-{{< files text="show files" >}}* /usr/bin/di-edid-decode
+## Files: 
+* /usr/bin/di-edid-decode
 * /usr/include/libdisplay-info/cta.h
 * /usr/include/libdisplay-info/cvt.h
 * /usr/include/libdisplay-info/displayid.h
@@ -30,4 +31,3 @@ EDID and DisplayID library
 * /usr/lib/pkgconfig/libdisplay-info.pc
 * /usr/share/doc/libdisplay-info-0.1.1/LICENSE
 * /usr/share/doc/libdisplay-info-0.1.1/README.md
-{{< /files >}}

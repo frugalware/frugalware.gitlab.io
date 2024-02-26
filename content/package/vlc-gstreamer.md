@@ -15,5 +15,5 @@ depends = "['gst1-plugins-base', 'libvlc>=3.0.20']"
 +++
 vlc Gstreamer support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/libgstdecode_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/codec/libgstdecode_plugin.so

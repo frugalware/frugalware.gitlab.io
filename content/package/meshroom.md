@@ -15,7 +15,8 @@ depends = "['alicevision', 'libffi>=3.4', 'python3>=3.11', 'python3-markdown', '
 +++
 3D Reconstruction Software
 
-{{< files text="show files" >}}* /usr/bin/Meshroom
+## Files: 
+* /usr/bin/Meshroom
 * /usr/bin/meshroom_batch
 * /usr/bin/meshroom_compute
 * /usr/bin/meshroom_newNodeType
@@ -1499,4 +1500,3 @@ depends = "['alicevision', 'libffi>=3.4', 'python3>=3.11', 'python3-markdown', '
 * /usr/share/doc/meshroom-2023.3.0/COPYING.md
 * /usr/share/doc/meshroom-2023.3.0/INSTALL.md
 * /usr/share/doc/meshroom-2023.3.0/README.md
-{{< /files >}}

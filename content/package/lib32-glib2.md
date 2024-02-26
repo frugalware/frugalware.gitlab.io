@@ -16,7 +16,8 @@ reverse_depends = "['lib32-at-spi2-core', 'lib32-avahi-glib', 'lib32-cairo', 'li
 +++
 Common C routines used by GTK+ and other libraries (32-bit)
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/gapplication
+## Files: 
+* /usr/i686-frugalware-linux/bin/gapplication
 * /usr/i686-frugalware-linux/bin/gdbus
 * /usr/i686-frugalware-linux/bin/gdbus-codegen
 * /usr/i686-frugalware-linux/bin/gio
@@ -336,4 +337,3 @@ Common C routines used by GTK+ and other libraries (32-bit)
 * /usr/lib32/pkgconfig/gmodule-no-export-2.0.pc
 * /usr/lib32/pkgconfig/gobject-2.0.pc
 * /usr/lib32/pkgconfig/gthread-2.0.pc
-{{< /files >}}

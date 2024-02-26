@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Libwpd Documentation
 
-{{< files text="show files" >}}* /usr/share/doc/libwpd-0.10.3/html/annotated.html
+## Files: 
+* /usr/share/doc/libwpd-0.10.3/html/annotated.html
 * /usr/share/doc/libwpd-0.10.3/html/bc_s.png
 * /usr/share/doc/libwpd-0.10.3/html/bdwn.png
 * /usr/share/doc/libwpd-0.10.3/html/classes.html
@@ -1351,4 +1352,3 @@ Libwpd Documentation
 * /usr/share/doc/libwpd-0.10.3/html/WPXTable_8h_source.html
 * /usr/share/doc/libwpd-0.10.3/libwpd.dia
 * /usr/share/doc/libwpd-0.10.3/libwpd.png
-{{< /files >}}

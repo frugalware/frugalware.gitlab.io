@@ -16,7 +16,8 @@ reverse_depends = "['jq']"
 +++
 A regular expressions library
 
-{{< files text="show files" >}}* /usr/bin/onig-config
+## Files: 
+* /usr/bin/onig-config
 * /usr/include/oniggnu.h
 * /usr/include/oniguruma.h
 * /usr/lib/libonig.so
@@ -30,4 +31,3 @@ A regular expressions library
 * /usr/share/doc/oniguruma-6.9.8/README
 * /usr/share/doc/oniguruma-6.9.8/README.md
 * /usr/share/doc/oniguruma-6.9.8/README_japanese
-{{< /files >}}

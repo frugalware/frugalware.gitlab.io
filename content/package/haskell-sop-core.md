@@ -16,7 +16,8 @@ reverse_depends = "['haskell-servant']"
 +++
 True Sums of Products
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/sop-core-0.5.0.2/Data/SOP.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/sop-core-0.5.0.2/Data/SOP.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/sop-core-0.5.0.2/Data/SOP.hi
 * /usr/lib/ghc-9.8.1/site-local/sop-core-0.5.0.2/Data/SOP/BasicFunctors.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/sop-core-0.5.0.2/Data/SOP/BasicFunctors.hi
@@ -74,4 +75,3 @@ True Sums of Products
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/sop-core-0.5.0.2/LICENSE
 * /usr/share/haskell/haskell-sop-core/register.sh
 * /usr/share/haskell/haskell-sop-core/unregister.sh
-{{< /files >}}

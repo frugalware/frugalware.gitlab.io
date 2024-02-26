@@ -16,6 +16,6 @@ reverse_depends = "['openjre']"
 +++
 Java Keystore of common CA certificates
 
-{{< files text="show files" >}}* /etc/cron.daily/updatekeystore
+## Files: 
+* /etc/cron.daily/updatekeystore
 * /usr/lib/jvm/java-21-openjdk/jre/lib/security/cacerts
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 Header-only C++ library for JSON Schema validation
 
-{{< files text="show files" >}}* /usr/include/compat/optional.hpp
+## Files: 
+* /usr/include/compat/optional.hpp
 * /usr/include/valijson/adapters/boost_json_adapter.hpp
 * /usr/include/valijson/adapters/json11_adapter.hpp
 * /usr/include/valijson/adapters/jsoncpp_adapter.hpp
@@ -64,4 +65,3 @@ Header-only C++ library for JSON Schema validation
 * /usr/lib/cmake/valijson/valijsonConfig.cmake
 * /usr/share/doc/valijson-1.0.1/LICENSE
 * /usr/share/doc/valijson-1.0.1/README.md
-{{< /files >}}

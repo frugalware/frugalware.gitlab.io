@@ -16,7 +16,8 @@ license = "GPL"
 +++
 A small application that docks in the systray and monitors the activity of the selected network interface.
 
-{{< files text="show files" >}}* usr/bin/knetdockapp
+## Files: 
+* usr/bin/knetdockapp
 * usr/share/applnk/Utilities/knetdockapp.desktop
 * usr/share/apps/knetdockapp/pics/base.png
 * usr/share/apps/knetdockapp/pics/if_ether.png
@@ -44,4 +45,3 @@ A small application that docks in the systray and monitors the activity of the s
 * usr/share/icons/hicolor/32x32/apps/knetdockapp.png
 * usr/share/icons/hicolor/48x48/apps/knetdockapp.png
 * usr/share/icons/hicolor/64x64/apps/knetdockapp.png
-{{< /files >}}

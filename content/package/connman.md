@@ -16,7 +16,8 @@ reverse_depends = "['cmst', 'econnman']"
 +++
 open source connection manager
 
-{{< files text="show files" >}}* /usr/bin/connman-vpnd
+## Files: 
+* /usr/bin/connman-vpnd
 * /usr/bin/connmanctl
 * /usr/bin/connmand
 * /usr/bin/connmand-wait-online
@@ -74,4 +75,3 @@ open source connection manager
 * /usr/share/man/man8/connman.8.gz
 * /usr/share/polkit-1/actions/net.connman.policy
 * /usr/share/polkit-1/actions/net.connman.vpn.policy
-{{< /files >}}

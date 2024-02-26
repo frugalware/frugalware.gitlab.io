@@ -15,7 +15,8 @@ depends = "['alsa-lib', 'ffmpeg>=6.0', 'libxinerama', 'pcre2', 'pulseaudio', 'qt
 +++
 Screen recorder for Linux
 
-{{< files text="show files" >}}* /usr/bin/simplescreenrecorder
+## Files: 
+* /usr/bin/simplescreenrecorder
 * /usr/bin/ssr-glinject
 * /usr/lib/libssr-glinject.so
 * /usr/share/applications/simplescreenrecorder.desktop
@@ -107,4 +108,3 @@ Screen recorder for Linux
 * /usr/share/simplescreenrecorder/translations/simplescreenrecorder_uk.qm
 * /usr/share/simplescreenrecorder/translations/simplescreenrecorder_zh_CN.qm
 * /usr/share/simplescreenrecorder/translations/simplescreenrecorder_zh_TW.qm
-{{< /files >}}

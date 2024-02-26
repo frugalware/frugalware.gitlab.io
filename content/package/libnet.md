@@ -16,7 +16,8 @@ reverse_depends = "['criu', 'openvas-libraries', 'rsyslog-udpspoof']"
 +++
 A high-level API allowing the application programmer to construct and inject network packets.
 
-{{< files text="show files" >}}* /usr/bin/libnet-config
+## Files: 
+* /usr/bin/libnet-config
 * /usr/include/libnet.h
 * /usr/include/libnet/libnet-asn1.h
 * /usr/include/libnet/libnet-functions.h
@@ -31,4 +32,3 @@ A high-level API allowing the application programmer to construct and inject net
 * /usr/share/man/man3/libnet-functions.h.3.gz
 * /usr/share/man/man3/libnet-macros.h.3.gz
 * /usr/share/man/man3/libnet.h.3.gz
-{{< /files >}}

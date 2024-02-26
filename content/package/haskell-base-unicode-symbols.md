@@ -16,7 +16,8 @@ reverse_depends = "['haskell-wai-cors']"
 +++
 Unicode alternatives for common functions and operators
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/base-unicode-symbols-0.2.4.2/Control/Applicative/Unicode.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/base-unicode-symbols-0.2.4.2/Control/Applicative/Unicode.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/base-unicode-symbols-0.2.4.2/Control/Applicative/Unicode.hi
 * /usr/lib/ghc-9.8.1/site-local/base-unicode-symbols-0.2.4.2/Control/Arrow/Unicode.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/base-unicode-symbols-0.2.4.2/Control/Arrow/Unicode.hi
@@ -73,4 +74,3 @@ Unicode alternatives for common functions and operators
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/base-unicode-symbols-0.2.4.2/LICENSE
 * /usr/share/haskell/haskell-base-unicode-symbols/register.sh
 * /usr/share/haskell/haskell-base-unicode-symbols/unregister.sh
-{{< /files >}}

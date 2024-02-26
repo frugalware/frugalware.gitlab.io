@@ -15,7 +15,8 @@ depends = "['glibc', 'grep', 'hyperscan', 'jemalloc', 'shadow']"
 +++
 Redis is an open source in-memory data structure store
 
-{{< files text="show files" >}}* /etc/logrotate.d/redis
+## Files: 
+* /etc/logrotate.d/redis
 * /etc/redis/redis.conf
 * /etc/redis/sentinel.conf
 * /usr/bin/redis-benchmark
@@ -32,4 +33,3 @@ Redis is an open source in-memory data structure store
 * /usr/share/doc/redis-7.2.4/COPYING
 * /usr/share/doc/redis-7.2.4/INSTALL
 * /usr/share/doc/redis-7.2.4/README.md
-{{< /files >}}

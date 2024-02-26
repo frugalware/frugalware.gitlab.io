@@ -15,7 +15,8 @@ depends = "['bzip2', 'gdk-pixbuf2', 'gtk+2', 'libuuid']"
 +++
 The Tangram chinese puzzle game
 
-{{< files text="show files" >}}* /etc/gtansrc
+## Files: 
+* /etc/gtansrc
 * /usr/bin/gtans
 * /usr/share/applications/gtans.desktop
 * /usr/share/doc/gtans-1.99.0/AUTHORS
@@ -59,4 +60,3 @@ The Tangram chinese puzzle game
 * /usr/share/locale/tr/LC_MESSAGES/gtans.mo
 * /usr/share/locale/uk/LC_MESSAGES/gtans.mo
 * /usr/share/man/man6/gtans.6.gz
-{{< /files >}}

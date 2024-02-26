@@ -15,7 +15,8 @@ depends = "['kcmutils>=5.115.0', 'knewstuff>=5.115.0', 'kross>=5.115.0', 'libked
 +++
 Vocabulary Trainer.
 
-{{< files text="show files" >}}* /usr/bin/parley
+## Files: 
+* /usr/bin/parley
 * /usr/share/applications/org.kde.parley.desktop
 * /usr/share/config.kcfg/documentsettings.kcfg
 * /usr/share/config.kcfg/languagesettings.kcfg
@@ -358,4 +359,3 @@ Vocabulary Trainer.
 * /usr/share/parley/themes/theme_reference_preview.jpg
 * /usr/share/parley/xslt/flashcards.xsl
 * /usr/share/parley/xslt/table.xsl
-{{< /files >}}

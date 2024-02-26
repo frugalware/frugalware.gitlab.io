@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org fstobdf application
 
-{{< files text="show files" >}}* /usr/bin/fstobdf
+## Files: 
+* /usr/bin/fstobdf
 * /usr/share/doc/fstobdf-1.0.7/ChangeLog
 * /usr/share/doc/fstobdf-1.0.7/COPYING
 * /usr/share/doc/fstobdf-1.0.7/INSTALL
 * /usr/share/doc/fstobdf-1.0.7/README.md
 * /usr/share/man/man1/fstobdf.1.gz
-{{< /files >}}

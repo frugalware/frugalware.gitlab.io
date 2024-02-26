@@ -16,7 +16,8 @@ reverse_depends = "['cgal', 'gawk', 'kalk', 'libmpc', 'rasqal', 'texlive']"
 +++
 Library for multiple-precision floating-point computations.
 
-{{< files text="show files" >}}* /usr/include/mpf2mpfr.h
+## Files: 
+* /usr/include/mpf2mpfr.h
 * /usr/include/mpfr.h
 * /usr/lib/libmpfr.so
 * /usr/lib/libmpfr.so.6
@@ -41,4 +42,3 @@ Library for multiple-precision floating-point computations.
 * /usr/share/doc/mpfr-4.2.1/TODO
 * /usr/share/doc/mpfr-4.2.1/VERSION
 * /usr/share/info/mpfr.info.gz
-{{< /files >}}

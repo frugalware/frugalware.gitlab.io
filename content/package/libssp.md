@@ -16,7 +16,8 @@ reverse_depends = "['avahi', 'avahi-compat', 'avahi-dnsconfd', 'efl']"
 +++
 SSP libraries from GCC
 
-{{< files text="show files" >}}* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/ssp/ssp.h
+## Files: 
+* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/ssp/ssp.h
 * /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/ssp/stdio.h
 * /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/ssp/string.h
 * /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/ssp/unistd.h
@@ -30,4 +31,3 @@ SSP libraries from GCC
 * /usr/lib32/libssp.so.0
 * /usr/lib32/libssp.so.0.0.0
 * /usr/lib32/libssp_nonshared.a
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libidn>=1.35', 'ncurses>=6.0-18', 'openssl>=3.1.0', 'zlib>=1.2.12']
 +++
 A fully-featured text mode World Wide Web (WWW) client.
 
-{{< files text="show files" >}}* /etc/lynx.cfg
+## Files: 
+* /etc/lynx.cfg
 * /etc/lynx.lss
 * /usr/bin/lynx
 * /usr/share/doc/lynx-2.9.0/AUTHORS
@@ -25,4 +26,3 @@ A fully-featured text mode World Wide Web (WWW) client.
 * /usr/share/doc/lynx-2.9.0/INSTALLATION
 * /usr/share/doc/lynx-2.9.0/README
 * /usr/share/man/man1/lynx.1.gz
-{{< /files >}}

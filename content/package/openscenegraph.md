@@ -16,7 +16,8 @@ reverse_depends = "['flightgear', 'pdal']"
 +++
 A high performance 3D graphics toolkit.
 
-{{< files text="show files" >}}* /usr/bin/osgarchive
+## Files: 
+* /usr/bin/osgarchive
 * /usr/bin/osgconv
 * /usr/bin/osgfilecache
 * /usr/bin/osgversion
@@ -787,4 +788,3 @@ A high performance 3D graphics toolkit.
 * /usr/lib/pkgconfig/openthreads.pc
 * /usr/share/doc/openscenegraph-3.4.1/ChangeLog
 * /usr/share/doc/openscenegraph-3.4.1/README.txt
-{{< /files >}}

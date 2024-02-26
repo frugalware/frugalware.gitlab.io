@@ -16,7 +16,8 @@ reverse_depends = "['cups-filters']"
 +++
 QPDF do structural, content-preserving transformations on PDF files.
 
-{{< files text="show files" >}}* /usr/bin/fix-qdf
+## Files: 
+* /usr/bin/fix-qdf
 * /usr/bin/qpdf
 * /usr/bin/zlib-flate
 * /usr/include/qpdf/auto_job_c_att.hh
@@ -133,4 +134,3 @@ QPDF do structural, content-preserving transformations on PDF files.
 * /usr/share/man/man1/fix-qdf.1.gz
 * /usr/share/man/man1/qpdf.1.gz
 * /usr/share/man/man1/zlib-flate.1.gz
-{{< /files >}}

@@ -15,7 +15,7 @@ depends = "['openjre']"
 +++
 100% Pure Java Regular Expression package
 
-{{< files text="show files" >}}* /usr/share/doc/jakarta-regexp-1.5/LICENSE
+## Files: 
+* /usr/share/doc/jakarta-regexp-1.5/LICENSE
 * /usr/share/doc/jakarta-regexp-1.5/README
 * /usr/share/java/jakarta-regexp.jar
-{{< /files >}}

@@ -16,11 +16,11 @@ license = "GPL2"
 +++
 X.Org appres application
 
-{{< files text="show files" >}}* /usr/bin/appres
+## Files: 
+* /usr/bin/appres
 * /usr/share/doc/appres-1.0.6/AUTHORS
 * /usr/share/doc/appres-1.0.6/ChangeLog
 * /usr/share/doc/appres-1.0.6/COPYING
 * /usr/share/doc/appres-1.0.6/INSTALL
 * /usr/share/doc/appres-1.0.6/README.md
 * /usr/share/man/man1/appres.1.gz
-{{< /files >}}

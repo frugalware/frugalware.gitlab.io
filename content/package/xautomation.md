@@ -16,7 +16,8 @@ reverse_depends = "['openrazer']"
 +++
 Controls X from the command line
 
-{{< files text="show files" >}}* /usr/bin/pat2ppm
+## Files: 
+* /usr/bin/pat2ppm
 * /usr/bin/patextract
 * /usr/bin/png2pat
 * /usr/bin/rgb2pat
@@ -36,4 +37,3 @@ Controls X from the command line
 * /usr/share/man/man1/xmousepos.1.gz
 * /usr/share/man/man1/xte.1.gz
 * /usr/share/man/man7/xautomation.7.gz
-{{< /files >}}

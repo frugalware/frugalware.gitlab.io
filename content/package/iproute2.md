@@ -16,7 +16,8 @@ reverse_depends = "['dhclient', 'dhcp', 'docker', 'dracut-network', 'inxi', 'ipu
 +++
 kernel routing and traffic control utilities.
 
-{{< files text="show files" >}}* /usr/bin/arpd
+## Files: 
+* /usr/bin/arpd
 * /usr/bin/bridge
 * /usr/bin/ctstat
 * /usr/bin/dcb
@@ -192,4 +193,3 @@ kernel routing and traffic control utilities.
 * /usr/share/man/man8/vdpa-dev.8.gz
 * /usr/share/man/man8/vdpa-mgmtdev.8.gz
 * /usr/share/man/man8/vdpa.8.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "[]"
 +++
 EL Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/locale/el/charset
+## Files: 
+* usr/share/locale/el/charset
 * usr/share/locale/el/entry.desktop
 * usr/share/locale/el/flag.png
 * usr/share/locale/el/LC_MESSAGES/akregator.mo
@@ -574,4 +575,3 @@ EL Localization for KDE.
 * usr/share/locale/el/LC_MESSAGES/wakeup.mo
 * usr/share/locale/el/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/el/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

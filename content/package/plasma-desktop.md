@@ -15,7 +15,8 @@ depends = "['hack', 'kactivities-stats>=5.115.0', 'kactivitymanagerd>=5.27.10', 
 +++
 KDE Plasma Desktop.
 
-{{< files text="show files" >}}* /etc/xdg/autostart/kaccess.desktop
+## Files: 
+* /etc/xdg/autostart/kaccess.desktop
 * /usr/bin/kaccess
 * /usr/bin/kapplymousetheme
 * /usr/bin/kcm-touchpad-list-devices
@@ -4108,4 +4109,3 @@ KDE Plasma Desktop.
 * /usr/share/solid/devices/solid-device-StorageAccess.desktop
 * /usr/share/solid/devices/solid-device-StorageDrive.desktop
 * /usr/share/solid/devices/solid-device-StorageVolume.desktop
-{{< /files >}}

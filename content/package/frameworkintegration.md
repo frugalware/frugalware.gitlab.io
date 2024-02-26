@@ -16,7 +16,8 @@ reverse_depends = "['breeze', 'oxygen', 'plasma-workspace']"
 +++
 Framework providing components to allow applications to integrate with a KDE Workspace.
 
-{{< files text="show files" >}}* /usr/include/KF5/FrameworkIntegration/frameworkintegration_version.h
+## Files: 
+* /usr/include/KF5/FrameworkIntegration/frameworkintegration_version.h
 * /usr/include/KF5/KStyle/KStyle
 * /usr/include/KF5/KStyle/kstyle.h
 * /usr/include/KF5/KStyle/kstyle_export.h
@@ -52,4 +53,3 @@ Framework providing components to allow applications to integrate with a KDE Wor
 * /usr/share/kf5/infopage/kde_infopage_rtl.css
 * /usr/share/kf5/infopage/top-middle.png
 * /usr/share/knotifications5/plasma_workspace.notifyrc
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 GNU shar makes so-called shell archives out of many files
 
-{{< files text="show files" >}}* /usr/bin/shar
+## Files: 
+* /usr/bin/shar
 * /usr/bin/unshar
 * /usr/bin/uudecode
 * /usr/bin/uuencode
@@ -62,4 +63,3 @@ GNU shar makes so-called shell archives out of many files
 * /usr/share/man/man1/uudecode.1.gz
 * /usr/share/man/man1/uuencode.1.gz
 * /usr/share/man/man5/uuencode.5.gz
-{{< /files >}}

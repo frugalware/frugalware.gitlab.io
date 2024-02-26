@@ -16,7 +16,8 @@ reverse_depends = "['lib32-ffmpeg']"
 +++
 Speex is an audio codec tuned for speech ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/speexdec
+## Files: 
+* /usr/i686-frugalware-linux/bin/speexdec
 * /usr/i686-frugalware-linux/bin/speexenc
 * /usr/i686-frugalware-linux/include/speex/speex.h
 * /usr/i686-frugalware-linux/include/speex/speex_bits.h
@@ -29,4 +30,3 @@ Speex is an audio codec tuned for speech ( 32bit )
 * /usr/lib32/libspeex.so.1
 * /usr/lib32/libspeex.so.1.5.2
 * /usr/lib32/pkgconfig/speex.pc
-{{< /files >}}

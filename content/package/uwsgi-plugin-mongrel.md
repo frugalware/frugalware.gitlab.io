@@ -15,5 +15,5 @@ depends = "['uwsgi', 'zeromq']"
 +++
 UWSGI Mongrel Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/mongrel2_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/uwsgi/mongrel2_plugin.so

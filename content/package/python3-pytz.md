@@ -16,7 +16,8 @@ reverse_depends = "['python3-babel', 'python3-pillow']"
 +++
 World Timezone Definitions for Python
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pytz-2023.3.post1-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/pytz-2023.3.post1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pytz-2023.3.post1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/pytz-2023.3.post1-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/pytz-2023.3.post1-py3.12.egg-info/top_level.txt
@@ -636,4 +637,3 @@ World Timezone Definitions for Python
 * /usr/lib/python3.12/site-packages/pytz/__pycache__/tzinfo.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pytz/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-pytz-2023.3.post1/README.rst
-{{< /files >}}

@@ -15,7 +15,7 @@ depends = "['perl']"
 +++
 Convert subtitles from .sub to subviewer .srt format.
 
-{{< files text="show files" >}}* /usr/bin/sub2srt
+## Files: 
+* /usr/bin/sub2srt
 * /usr/share/doc/sub2srt-0.5.5/COPYING
 * /usr/share/doc/sub2srt-0.5.5/README
-{{< /files >}}

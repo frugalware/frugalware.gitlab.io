@@ -15,7 +15,8 @@ depends = "['libkdegames>=23.08.5']"
 +++
 A single player arcade game.
 
-{{< files text="show files" >}}* /usr/bin/bomber
+## Files: 
+* /usr/bin/bomber
 * /usr/share/applications/org.kde.bomber.desktop
 * /usr/share/bomber/sounds/bomb.ogg
 * /usr/share/bomber/sounds/crash.ogg
@@ -128,4 +129,3 @@ A single player arcade game.
 * /usr/share/locale/zh_CN/LC_MESSAGES/bomber.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/bomber.mo
 * /usr/share/metainfo/org.kde.bomber.appdata.xml
-{{< /files >}}

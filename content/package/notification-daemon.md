@@ -15,7 +15,8 @@ depends = "['dbus-glib>=0.78', 'libcanberra-gtk', 'libnotify>=0.7', 'libwnck', '
 +++
 Notifications daemon
 
-{{< files text="show files" >}}* /usr/lib/notification-daemon/notification-daemon
+## Files: 
+* /usr/lib/notification-daemon/notification-daemon
 * /usr/share/applications/notification-daemon.desktop
 * /usr/share/doc/notification-daemon-3.20.0/AUTHORS
 * /usr/share/doc/notification-daemon-3.20.0/ChangeLog
@@ -92,4 +93,3 @@ Notifications daemon
 * /usr/share/locale/zh_HK/LC_MESSAGES/notification-daemon.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/notification-daemon.mo
 * /usr/share/locale/zu/LC_MESSAGES/notification-daemon.mo
-{{< /files >}}

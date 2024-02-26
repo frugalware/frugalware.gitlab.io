@@ -16,7 +16,8 @@ reverse_depends = "['aria2', 'bitlbee-common', 'claws-mail', 'connman', 'dirmngr
 +++
 A library which provides a secure layer over a reliable transport layer
 
-{{< files text="show files" >}}* /usr/bin/certtool
+## Files: 
+* /usr/bin/certtool
 * /usr/bin/gnutls-cli
 * /usr/bin/gnutls-cli-debug
 * /usr/bin/gnutls-serv
@@ -1307,4 +1308,3 @@ A library which provides a secure layer over a reliable transport layer
 * /usr/share/man/man3/gnutls_x509_trust_list_verify_crt.3.gz
 * /usr/share/man/man3/gnutls_x509_trust_list_verify_crt2.3.gz
 * /usr/share/man/man3/gnutls_x509_trust_list_verify_named_crt.3.gz
-{{< /files >}}

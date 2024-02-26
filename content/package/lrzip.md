@@ -15,7 +15,8 @@ depends = "['bzip2', 'libstdc++', 'lzo', 'zlib>=1.2.12']"
 +++
 A compression program optimized for large files.
 
-{{< files text="show files" >}}* /usr/bin/lrunzip
+## Files: 
+* /usr/bin/lrunzip
 * /usr/bin/lrz
 * /usr/bin/lrzcat
 * /usr/bin/lrzip
@@ -54,4 +55,3 @@ A compression program optimized for large files.
 * /usr/share/man/man1/lrztar.1.gz
 * /usr/share/man/man1/lrzuntar.1.gz
 * /usr/share/man/man5/lrzip.conf.5.gz
-{{< /files >}}

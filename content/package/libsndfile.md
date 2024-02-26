@@ -16,7 +16,8 @@ reverse_depends = "['efl', 'enlightenment', 'fluidsynth', 'libbs2b', 'libpulse',
 +++
 Libsndfile is a C library for reading and writing files containing sampled sound
 
-{{< files text="show files" >}}* /usr/bin/sndfile-cmp
+## Files: 
+* /usr/bin/sndfile-cmp
 * /usr/bin/sndfile-concat
 * /usr/bin/sndfile-convert
 * /usr/bin/sndfile-deinterleave
@@ -63,4 +64,3 @@ Libsndfile is a C library for reading and writing files containing sampled sound
 * /usr/share/man/man1/sndfile-metadata-set.1.gz
 * /usr/share/man/man1/sndfile-play.1.gz
 * /usr/share/man/man1/sndfile-salvage.1.gz
-{{< /files >}}

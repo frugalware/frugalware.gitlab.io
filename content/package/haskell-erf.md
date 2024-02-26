@@ -15,7 +15,8 @@ depends = "['ghc>=9.6.1']"
 +++
 The error function, erf, and related functions.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/erf-2.0.0.0/Data/Number/Erf.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/erf-2.0.0.0/Data/Number/Erf.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/erf-2.0.0.0/Data/Number/Erf.hi
 * /usr/lib/ghc-9.8.1/site-local/erf-2.0.0.0/libHSerf-2.0.0.0-92efuiuTK54A2F9IwoRdny.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSerf-2.0.0.0-92efuiuTK54A2F9IwoRdny-ghc9.8.1.so
@@ -30,4 +31,3 @@ The error function, erf, and related functions.
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/erf-2.0.0.0/html/synopsis.png
 * /usr/share/haskell/haskell-erf/register.sh
 * /usr/share/haskell/haskell-erf/unregister.sh
-{{< /files >}}

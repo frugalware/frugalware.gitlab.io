@@ -16,7 +16,8 @@ reverse_depends = "['lib32-libpulse']"
 +++
 C subroutine library for computing the Discrete Fourier Transform (DFT) ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/fftw-wisdom
+## Files: 
+* /usr/i686-frugalware-linux/bin/fftw-wisdom
 * /usr/i686-frugalware-linux/bin/fftw-wisdom-to-conf
 * /usr/i686-frugalware-linux/bin/fftwf-wisdom
 * /usr/i686-frugalware-linux/bin/fftwl-wisdom
@@ -52,4 +53,3 @@ C subroutine library for computing the Discrete Fourier Transform (DFT) ( 32bit 
 * /usr/lib32/pkgconfig/fftw3.pc
 * /usr/lib32/pkgconfig/fftw3f.pc
 * /usr/lib32/pkgconfig/fftw3l.pc
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Bosnian support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/bs/default.css
+## Files: 
+* /usr/lib/libreoffice/help/bs/default.css
 * /usr/lib/libreoffice/help/bs/err.html
 * /usr/lib/libreoffice/help/bs/highcontrast1.css
 * /usr/lib/libreoffice/help/bs/highcontrast2.css
@@ -133,4 +134,3 @@ Installs Bosnian support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-bs.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_bs.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_bs.xcd
-{{< /files >}}

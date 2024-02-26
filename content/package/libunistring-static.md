@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Static files for libunistring
 
-{{< files text="show files" >}}* /usr/lib/libunistring.a
-{{< /files >}}
+## Files: 
+* /usr/lib/libunistring.a

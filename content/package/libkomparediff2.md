@@ -16,7 +16,8 @@ reverse_depends = "['kdevelop', 'kompare']"
 +++
 Library to compare files and strings.
 
-{{< files text="show files" >}}* /usr/include/KompareDiff2/KompareDiff2/Difference
+## Files: 
+* /usr/include/KompareDiff2/KompareDiff2/Difference
 * /usr/include/KompareDiff2/komparediff2/difference.h
 * /usr/include/KompareDiff2/KompareDiff2/DifferenceString
 * /usr/include/KompareDiff2/KompareDiff2/DiffHunk
@@ -127,4 +128,3 @@ Library to compare files and strings.
 * /usr/share/locale/zh_CN/LC_MESSAGES/libkomparediff2.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libkomparediff2.mo
 * /usr/share/qlogging-categories5/libkomparediff2.categories
-{{< /files >}}

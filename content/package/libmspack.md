@@ -16,7 +16,8 @@ reverse_depends = "['clamav', 'wxwidgets']"
 +++
 A library for Microsoft compression formats
 
-{{< files text="show files" >}}* /usr/include/mspack.h
+## Files: 
+* /usr/include/mspack.h
 * /usr/lib/libmspack.so
 * /usr/lib/libmspack.so.0
 * /usr/lib/libmspack.so.0.1.0
@@ -27,4 +28,3 @@ A library for Microsoft compression formats
 * /usr/share/doc/libmspack-0.11alpha/INSTALL
 * /usr/share/doc/libmspack-0.11alpha/README
 * /usr/share/doc/libmspack-0.11alpha/TODO
-{{< /files >}}

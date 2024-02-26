@@ -15,7 +15,8 @@ depends = "['python3>=3.12']"
 +++
 A copy of the imp module that was removed in Python 3.12
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/imp.py
+## Files: 
+* /usr/lib/python3.12/site-packages/imp.py
 * /usr/lib/python3.12/site-packages/zombie_imp-0.0.2.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/zombie_imp-0.0.2.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/zombie_imp-0.0.2.dist-info/RECORD
@@ -34,4 +35,3 @@ A copy of the imp module that was removed in Python 3.12
 * /usr/lib/python3.12/site-packages/__pycache__/imp.cpython-312.pyc
 * /usr/share/doc/python3-zombie-imp-0.0.2/LICENSE
 * /usr/share/doc/python3-zombie-imp-0.0.2/README.md
-{{< /files >}}

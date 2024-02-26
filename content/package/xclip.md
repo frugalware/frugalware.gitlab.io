@@ -15,7 +15,8 @@ depends = "['libxmu']"
 +++
 Command line interface to the clipboard
 
-{{< files text="show files" >}}* /usr/bin/xclip
+## Files: 
+* /usr/bin/xclip
 * /usr/bin/xclip-copyfile
 * /usr/bin/xclip-cutfile
 * /usr/bin/xclip-pastefile
@@ -25,4 +26,3 @@ Command line interface to the clipboard
 * /usr/share/doc/xclip-0.13/README
 * /usr/share/man/man1/xclip-copyfile.1.gz
 * /usr/share/man/man1/xclip.1.gz
-{{< /files >}}

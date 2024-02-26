@@ -16,7 +16,8 @@ reverse_depends = "['paramiko']"
 +++
 ASN.1 library for Python
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pyasn1-0.5.1-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/pyasn1-0.5.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pyasn1-0.5.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/pyasn1-0.5.1-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/pyasn1-0.5.1-py3.12.egg-info/top_level.txt
@@ -88,4 +89,3 @@ ASN.1 library for Python
 * /usr/lib/python3.12/site-packages/pyasn1/__pycache__/error.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pyasn1/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-pyasn1-0.5.1/README.md
-{{< /files >}}

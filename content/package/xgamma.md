@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org xgamma application
 
-{{< files text="show files" >}}* /usr/bin/xgamma
+## Files: 
+* /usr/bin/xgamma
 * /usr/share/doc/xgamma-1.0.7/ChangeLog
 * /usr/share/doc/xgamma-1.0.7/COPYING
 * /usr/share/doc/xgamma-1.0.7/INSTALL
 * /usr/share/doc/xgamma-1.0.7/README.md
 * /usr/share/man/man1/xgamma.1.gz
-{{< /files >}}

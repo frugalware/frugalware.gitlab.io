@@ -15,7 +15,8 @@ depends = "['glib2>=2.60.3']"
 +++
 Library providing GObject-based interfaces and classes for commonly used data structures.
 
-{{< files text="show files" >}}* /usr/include/gee-1.0/gee.h
+## Files: 
+* /usr/include/gee-1.0/gee.h
 * /usr/lib/girepository-1.0/Gee-1.0.typelib
 * /usr/lib/libgee.so
 * /usr/lib/libgee.so.2
@@ -29,4 +30,3 @@ Library providing GObject-based interfaces and classes for commonly used data st
 * /usr/share/doc/libgee-0.6.8/README
 * /usr/share/gir-1.0/Gee-1.0.gir
 * /usr/share/vala/vapi/gee-1.0.vapi
-{{< /files >}}

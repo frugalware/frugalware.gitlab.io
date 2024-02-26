@@ -16,7 +16,8 @@ reverse_depends = "['performous']"
 +++
 Songs for performous.
 
-{{< files text="show files" >}}* /usr/share/performous/songs/libre/Joshua Morin - On the run/Joshua Morin - On the run [BG].jpg
+## Files: 
+* /usr/share/performous/songs/libre/Joshua Morin - On the run/Joshua Morin - On the run [BG].jpg
 * /usr/share/performous/songs/libre/Joshua Morin - On the run/Joshua Morin - On the run [CO].jpg
 * /usr/share/performous/songs/libre/Joshua Morin - On the run/Joshua Morin - On the run.ogg
 * /usr/share/performous/songs/libre/Joshua Morin - On the run/Joshua Morin - On the run.txt
@@ -86,4 +87,3 @@ Songs for performous.
 * /usr/share/performous/songs/Shearer/Shearer - Stay with me/Shearer - Stay with me [CO].jpg
 * /usr/share/performous/songs/Shearer/Shearer - Stay with me/Shearer - Stay with me.ogg
 * /usr/share/performous/songs/Shearer/Shearer - Stay with me/Shearer - Stay with me.txt
-{{< /files >}}

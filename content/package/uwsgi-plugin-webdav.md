@@ -15,5 +15,5 @@ depends = "['libxslt', 'uwsgi']"
 +++
 UWSGI WebDAV Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/webdav_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/uwsgi/webdav_plugin.so

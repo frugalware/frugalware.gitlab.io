@@ -16,7 +16,8 @@ reverse_depends = "['openvas-cli']"
 +++
 OpenVAS Python3 bindings
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/gvm/connections.py
+## Files: 
+* /usr/lib/python3.12/site-packages/gvm/connections.py
 * /usr/lib/python3.12/site-packages/gvm/errors.py
 * /usr/lib/python3.12/site-packages/gvm/protocols/base.py
 * /usr/lib/python3.12/site-packages/gvm/protocols/gmp.py
@@ -230,4 +231,3 @@ OpenVAS Python3 bindings
 * /usr/lib/python3.12/site-packages/python_gvm-23.11.0.dist-info/WHEEL
 * /usr/share/doc/python3-gvm-23.11.0/LICENSE
 * /usr/share/doc/python3-gvm-23.11.0/README.md
-{{< /files >}}

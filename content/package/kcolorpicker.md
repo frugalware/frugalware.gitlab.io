@@ -16,7 +16,8 @@ reverse_depends = "['kimageannotator']"
 +++
 Qt based Color Picker with popup menu
 
-{{< files text="show files" >}}* /usr/include/kColorPicker/KColorPicker.h
+## Files: 
+* /usr/include/kColorPicker/KColorPicker.h
 * /usr/include/kColorPicker/KColorPickerExport.h
 * /usr/lib/cmake/kColorPicker/kColorPicker-targets-release.cmake
 * /usr/lib/cmake/kColorPicker/kColorPicker-targets.cmake
@@ -27,4 +28,3 @@ Qt based Color Picker with popup menu
 * /usr/lib/libkColorPicker.so.0.2.0
 * /usr/share/doc/kcolorpicker-0.2.0/LICENSE
 * /usr/share/doc/kcolorpicker-0.2.0/README.md
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['kajongg']"
 +++
 An event-driven networking framework written in Python.
 
-{{< files text="show files" >}}* /usr/bin/cftp3
+## Files: 
+* /usr/bin/cftp3
 * /usr/bin/ckeygen3
 * /usr/bin/conch3
 * /usr/bin/mailmail3
@@ -1744,4 +1745,3 @@ An event-driven networking framework written in Python.
 * /usr/share/doc/python3-twisted-22.10.0/INSTALL.rst
 * /usr/share/doc/python3-twisted-22.10.0/LICENSE
 * /usr/share/doc/python3-twisted-22.10.0/README.rst
-{{< /files >}}

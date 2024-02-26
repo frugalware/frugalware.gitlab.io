@@ -16,7 +16,8 @@ reverse_depends = "['gst1-plugins-good-caca', 'libcaca', 'mc', 'newt', 'perf', '
 +++
 S-Lang is a powerful interpreted language
 
-{{< files text="show files" >}}* /etc/slsh.rc
+## Files: 
+* /etc/slsh.rc
 * /usr/bin/slsh
 * /usr/include/slang.h
 * /usr/include/slcurses.h
@@ -179,4 +180,3 @@ S-Lang is a powerful interpreted language
 * /usr/share/slsh/timestamp.sl
 * /usr/share/slsh/varray.sl
 * /usr/share/slsh/zlib.sl
-{{< /files >}}

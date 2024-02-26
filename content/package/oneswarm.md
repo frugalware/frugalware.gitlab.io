@@ -15,7 +15,8 @@ depends = "['openjre', 'swt']"
 +++
 OneSwarm is a new peer-to-peer tool.
 
-{{< files text="show files" >}}* /usr/bin/oneswarm
+## Files: 
+* /usr/bin/oneswarm
 * /usr/share/applications/oneswarm.desktop
 * /usr/share/OneSwarm/.install4j/firstrun
 * /usr/share/OneSwarm/.install4j/i4jparams.conf
@@ -42,4 +43,3 @@ OneSwarm is a new peer-to-peer tool.
 * /usr/share/OneSwarm/plugins/azupdater/plugin.properties
 * /usr/share/OneSwarm/plugins/azupdater/Updater.jar
 * /usr/share/pixmaps/oneswarm.png
-{{< /files >}}

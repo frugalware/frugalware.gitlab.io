@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Icelandic Localization for KOffice. 
 
-{{< files text="show files" >}}* usr/share/locale/is/LC_MESSAGES/desktop_koffice.mo
+## Files: 
+* usr/share/locale/is/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/is/LC_MESSAGES/example.mo
 * usr/share/locale/is/LC_MESSAGES/kchart.mo
 * usr/share/locale/is/LC_MESSAGES/kfile_abiword.mo
@@ -39,4 +40,3 @@ Icelandic Localization for KOffice.
 * usr/share/locale/is/LC_MESSAGES/kugar.mo
 * usr/share/locale/is/LC_MESSAGES/kword.mo
 * usr/share/locale/is/LC_MESSAGES/thesaurus_tool.mo
-{{< /files >}}

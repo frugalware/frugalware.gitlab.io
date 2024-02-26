@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.Org driver for ATI cards
 
-{{< files text="show files" >}}* /usr/lib/xorg/modules/drivers/ati_drv.so
+## Files: 
+* /usr/lib/xorg/modules/drivers/ati_drv.so
 * /usr/lib/xorg/modules/drivers/radeon_drv.so
 * /usr/share/doc/xf86-video-ati-22.0.0/ChangeLog
 * /usr/share/doc/xf86-video-ati-22.0.0/COPYING
@@ -26,4 +27,3 @@ X.Org driver for ATI cards
 * /usr/share/man/man4/ati.4.gz
 * /usr/share/man/man4/radeon.4.gz
 * /usr/share/X11/xorg.conf.d/10-radeon.conf
-{{< /files >}}

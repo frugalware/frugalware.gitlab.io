@@ -15,7 +15,8 @@ depends = "['alsa-lib', 'bluez', 'bullet', 'bzip2', 'dbus', 'efl>=1.21.0', 'expa
 +++
 Enlightenment Foundation Window Manager
 
-{{< files text="show files" >}}* /etc/enlightenment/sysactions.conf
+## Files: 
+* /etc/enlightenment/sysactions.conf
 * /etc/enlightenment/system.conf
 * /etc/X11/sessions/enlightenment.desktop
 * /etc/xdg/menus/e-applications.menu
@@ -655,4 +656,3 @@ Enlightenment Foundation Window Manager
 * /usr/share/locale/zh_CN/LC_MESSAGES/enlightenment.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/enlightenment.mo
 * /usr/share/pixmaps/enlightenment-askpass.png
-{{< /files >}}

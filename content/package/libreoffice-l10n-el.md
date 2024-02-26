@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Greek support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/el/default.css
+## Files: 
+* /usr/lib/libreoffice/help/el/default.css
 * /usr/lib/libreoffice/help/el/err.html
 * /usr/lib/libreoffice/help/el/highcontrast1.css
 * /usr/lib/libreoffice/help/el/highcontrast2.css
@@ -133,4 +134,3 @@ Installs Greek support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-el.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_el.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_el.xcd
-{{< /files >}}

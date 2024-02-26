@@ -15,7 +15,8 @@ depends = "['libkdegames>=23.08.5', 'qt5-svg>=5.15.12']"
 +++
 The classic falling blocks game.
 
-{{< files text="show files" >}}* /usr/bin/kblocks
+## Files: 
+* /usr/bin/kblocks
 * /usr/share/applications/org.kde.kblocks.desktop
 * /usr/share/config.kcfg/kblocks.kcfg
 * /usr/share/doc/HTML/ca/kblocks/gameboard.png
@@ -130,4 +131,3 @@ The classic falling blocks game.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kblocks.mo
 * /usr/share/metainfo/org.kde.kblocks.appdata.xml
 * /usr/share/qlogging-categories5/kblocks.categories
-{{< /files >}}

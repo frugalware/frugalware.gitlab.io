@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Static files for python3
 
-{{< files text="show files" >}}* /usr/lib/python3.12/config-3.12-x86_64-linux-gnu/libpython3.12.a
-{{< /files >}}
+## Files: 
+* /usr/lib/python3.12/config-3.12-x86_64-linux-gnu/libpython3.12.a

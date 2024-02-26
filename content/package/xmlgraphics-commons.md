@@ -15,7 +15,7 @@ depends = "['commons-io', 'commons-logging']"
 +++
 A library of several reusable components used by Apache Batik and Apache FOP.
 
-{{< files text="show files" >}}* /usr/share/doc/xmlgraphics-commons-2.7/LICENSE
+## Files: 
+* /usr/share/doc/xmlgraphics-commons-2.7/LICENSE
 * /usr/share/doc/xmlgraphics-commons-2.7/README
 * /usr/share/java/xmlgraphics-commons-2.7.jar
-{{< /files >}}

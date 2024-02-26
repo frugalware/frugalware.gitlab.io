@@ -16,8 +16,8 @@ reverse_depends = "['cuda-tools']"
 +++
 JPEG image codec that uses SIMD instructions
 
-{{< files text="show files" >}}* /usr/lib/libjpeg.so.62
+## Files: 
+* /usr/lib/libjpeg.so.62
 * /usr/lib/libjpeg.so.62.2.0
 * /usr/share/doc/libjpeg6-turbo-1.5.3/README.ijg
 * /usr/share/doc/libjpeg6-turbo-1.5.3/README.md
-{{< /files >}}

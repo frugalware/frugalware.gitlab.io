@@ -15,7 +15,8 @@ depends = "['bzip2', 'libxext', 'xfsprogs-attr']"
 +++
 Runtime Files for Kstyles.
 
-{{< files text="show files" >}}* /usr/lib/kde4/kstyle_oxygen_config.so
+## Files: 
+* /usr/lib/kde4/kstyle_oxygen_config.so
 * /usr/lib/kde4/plugins/styles/oxygen.so
 * /usr/share/apps/kstyle/themes/oxygen.themerc
 * /usr/share/apps/kstyle/themes/qtcde.themerc
@@ -24,4 +25,3 @@ Runtime Files for Kstyles.
 * /usr/share/apps/kstyle/themes/qtmotif.themerc
 * /usr/share/apps/kstyle/themes/qtplastique.themerc
 * /usr/share/apps/kstyle/themes/qtwindows.themerc
-{{< /files >}}

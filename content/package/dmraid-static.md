@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Static files for dmraid
 
-{{< files text="show files" >}}* /usr/lib/libdmraid.a
-{{< /files >}}
+## Files: 
+* /usr/lib/libdmraid.a

@@ -16,7 +16,8 @@ reverse_depends = "['qt6-graphs', 'qt6-grpc', 'qt6-multimedia', 'qt6-quick3dphys
 +++
 The Qt6 toolkit, qtquick3d
 
-{{< files text="show files" >}}* /usr/include/qt6/QtQuick3D/6.6.2/QtQuick3D/private/qquick3dabstractlight_p.h
+## Files: 
+* /usr/include/qt6/QtQuick3D/6.6.2/QtQuick3D/private/qquick3dabstractlight_p.h
 * /usr/include/qt6/QtQuick3D/6.6.2/QtQuick3D/private/qquick3dbakedlightmap_p.h
 * /usr/include/qt6/QtQuick3D/6.6.2/QtQuick3D/private/qquick3dcamera_p.h
 * /usr/include/qt6/QtQuick3D/6.6.2/QtQuick3D/private/qquick3dcubemaptexture_p.h
@@ -1097,4 +1098,3 @@ The Qt6 toolkit, qtquick3d
 * /usr/lib/qt6/qml/QtQuick3D/Particles3D/qmldir
 * /usr/lib/qt6/qml/QtQuick3D/plugins.qmltypes
 * /usr/lib/qt6/qml/QtQuick3D/qmldir
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Swedish support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/sv/default.css
+## Files: 
+* /usr/lib/libreoffice/help/sv/default.css
 * /usr/lib/libreoffice/help/sv/err.html
 * /usr/lib/libreoffice/help/sv/highcontrast1.css
 * /usr/lib/libreoffice/help/sv/highcontrast2.css
@@ -135,4 +136,3 @@ Installs Swedish support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-sv.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_sv.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_sv.xcd
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['anyremote', 'claws-mail', 'cpod', 'dbus-python', 'firefox',
 +++
 Glib bindings for DBUS
 
-{{< files text="show files" >}}* /etc/bash_completion.d/dbus-bash-completion.sh
+## Files: 
+* /etc/bash_completion.d/dbus-bash-completion.sh
 * /usr/bin/dbus-binding-tool
 * /usr/include/dbus-1.0/dbus/dbus-glib-bindings.h
 * /usr/include/dbus-1.0/dbus/dbus-glib-lowlevel.h
@@ -57,4 +58,3 @@ Glib bindings for DBUS
 * /usr/share/gtk-doc/html/dbus-glib/up-insensitive.png
 * /usr/share/gtk-doc/html/dbus-glib/up.png
 * /usr/share/man/man1/dbus-binding-tool.1.gz
-{{< /files >}}

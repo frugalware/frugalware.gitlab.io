@@ -16,7 +16,8 @@ reverse_depends = "['gimp']"
 +++
 A virtual lighttable and darkroom for photographers (manage RAW images)
 
-{{< files text="show files" >}}* /etc/ld.so.conf.d/darktable.conf
+## Files: 
+* /etc/ld.so.conf.d/darktable.conf
 * /usr/bin/darktable
 * /usr/bin/darktable-chart
 * /usr/bin/darktable-cli
@@ -441,4 +442,3 @@ A virtual lighttable and darkroom for photographers (manage RAW images)
 * /usr/share/man/man1/darktable-generate-cache.1.gz
 * /usr/share/man/man1/darktable.1.gz
 * /usr/share/metainfo/org.darktable.darktable.appdata.xml
-{{< /files >}}

@@ -16,7 +16,8 @@ license = "GPL"
 +++
 KlamAV brings ClamAV functionality to the KDE desktop user.
 
-{{< files text="show files" >}}* usr/bin/klamarkollon
+## Files: 
+* usr/bin/klamarkollon
 * usr/bin/klamav
 * usr/bin/klammail
 * usr/bin/ScanWithKlamAV
@@ -60,4 +61,3 @@ KlamAV brings ClamAV functionality to the KDE desktop user.
 * usr/share/locale/tr/LC_MESSAGES/klamav.mo
 * usr/share/locale/uk/LC_MESSAGES/klamav.mo
 * usr/share/locale/zh_CN/LC_MESSAGES/klamav.mo
-{{< /files >}}

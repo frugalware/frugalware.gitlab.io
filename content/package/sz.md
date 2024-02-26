@@ -16,7 +16,8 @@ reverse_depends = "['adios2']"
 +++
 Modular parametrizable lossy compressor framework for scientific data
 
-{{< files text="show files" >}}* /usr/include/sz/ArithmeticCoding.h
+## Files: 
+* /usr/include/sz/ArithmeticCoding.h
 * /usr/include/sz/ByteToolkit.h
 * /usr/include/sz/CacheTable.h
 * /usr/include/sz/callZlib.h
@@ -84,4 +85,3 @@ Modular parametrizable lossy compressor framework for scientific data
 * /usr/share/doc/sz-2.1.12.5/README.md
 * /usr/share/SZ/cmake/SZConfig-release.cmake
 * /usr/share/SZ/cmake/SZConfig.cmake
-{{< /files >}}

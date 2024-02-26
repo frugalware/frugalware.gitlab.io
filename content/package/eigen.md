@@ -16,7 +16,8 @@ reverse_depends = "['alicevision', 'analitza', 'ceres-solver', 'insight-toolkit'
 +++
 A lightweight C++ template library for vector and matrix math.
 
-{{< files text="show files" >}}* /usr/include/eigen3/Eigen/Cholesky
+## Files: 
+* /usr/include/eigen3/Eigen/Cholesky
 * /usr/include/eigen3/Eigen/CholmodSupport
 * /usr/include/eigen3/Eigen/Core
 * /usr/include/eigen3/Eigen/Dense
@@ -560,4 +561,3 @@ A lightweight C++ template library for vector and matrix math.
 * /usr/share/doc/eigen-3.4.0/COPYING.README
 * /usr/share/doc/eigen-3.4.0/INSTALL
 * /usr/share/doc/eigen-3.4.0/README.md
-{{< /files >}}

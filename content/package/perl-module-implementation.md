@@ -16,7 +16,8 @@ reverse_depends = "['perl-params-validate']"
 +++
 Loads one of several alternate underlying implementations for a module
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/Module/Implementation.pm
+## Files: 
+* /usr/lib/perl5/site_perl/current/Module/Implementation.pm
 * /usr/share/doc/perl-module-implementation-0.09/AUTHORS
 * /usr/share/doc/perl-module-implementation-0.09/ChangeLog
 * /usr/share/doc/perl-module-implementation-0.09/COPYING
@@ -28,4 +29,3 @@ Loads one of several alternate underlying implementations for a module
 * /usr/share/doc/perl-module-implementation-0.09/RELEASE-NOTES.md
 * /usr/share/doc/perl-module-implementation-0.09/THANKS
 * /usr/share/man/man3/Module::Implementation.3perl.gz
-{{< /files >}}

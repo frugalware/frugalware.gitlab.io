@@ -15,7 +15,8 @@ depends = "['alsa-lib', 'libdrm', 'libpciaccess', 'libsystemd>=228', 'libxfixes'
 +++
 Agent for Spice guests
 
-{{< files text="show files" >}}* /etc/xdg/autostart/spice-vdagent.desktop
+## Files: 
+* /etc/xdg/autostart/spice-vdagent.desktop
 * /usr/bin/spice-vdagent
 * /usr/bin/spice-vdagentd
 * /usr/lib/systemd/system/spice-vdagentd.service
@@ -29,4 +30,3 @@ Agent for Spice guests
 * /usr/share/gdm/greeter/autostart/spice-vdagent.desktop
 * /usr/share/man/man1/spice-vdagent.1.gz
 * /usr/share/man/man1/spice-vdagentd.1.gz
-{{< /files >}}

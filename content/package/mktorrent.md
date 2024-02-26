@@ -15,7 +15,7 @@ depends = "['openssl>=3.1.0']"
 +++
 Simple command line utility to create BitTorrent metainfo files
 
-{{< files text="show files" >}}* /usr/bin/mktorrent
+## Files: 
+* /usr/bin/mktorrent
 * /usr/share/doc/mktorrent-1.1/COPYING
 * /usr/share/doc/mktorrent-1.1/README
-{{< /files >}}

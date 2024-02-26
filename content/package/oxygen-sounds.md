@@ -16,7 +16,8 @@ reverse_depends = "['kwrited5']"
 +++
 The Oxygen Sound Theme
 
-{{< files text="show files" >}}* /usr/share/sounds/Oxygen-Im-Cant-Connect.ogg
+## Files: 
+* /usr/share/sounds/Oxygen-Im-Cant-Connect.ogg
 * /usr/share/sounds/Oxygen-Im-Connection-Lost.ogg
 * /usr/share/sounds/Oxygen-Im-Contact-In.ogg
 * /usr/share/sounds/Oxygen-Im-Contact-Out.ogg
@@ -66,4 +67,3 @@ The Oxygen Sound Theme
 * /usr/share/sounds/Oxygen-Window-Move.ogg
 * /usr/share/sounds/Oxygen-Window-Shade-Down.ogg
 * /usr/share/sounds/Oxygen-Window-Shade-Up.ogg
-{{< /files >}}

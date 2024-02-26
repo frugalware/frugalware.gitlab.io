@@ -15,7 +15,8 @@ depends = "['libkdegames>=23.08.5']"
 +++
 Konquest is the KDE version of Gnu-Lactic
 
-{{< files text="show files" >}}* /usr/bin/konquest
+## Files: 
+* /usr/bin/konquest
 * /usr/share/applications/org.kde.konquest.desktop
 * /usr/share/doc/HTML/ca/konquest/index.cache.bz2
 * /usr/share/doc/HTML/ca/konquest/index.docbook
@@ -139,4 +140,3 @@ Konquest is the KDE version of Gnu-Lactic
 * /usr/share/locale/zh_CN/LC_MESSAGES/konquest.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/konquest.mo
 * /usr/share/metainfo/org.kde.konquest.appdata.xml
-{{< /files >}}

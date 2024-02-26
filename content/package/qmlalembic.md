@@ -16,11 +16,11 @@ reverse_depends = "['meshroom']"
 +++
 Qml Alembic plugin to visualize Alembic Point Clouds
 
-{{< files text="show files" >}}* /usr/qml/AlembicEntity/libalembicEntityQmlPlugin.so
+## Files: 
+* /usr/qml/AlembicEntity/libalembicEntityQmlPlugin.so
 * /usr/qml/AlembicEntity/libalembicEntityQmlPlugin.so.0
 * /usr/qml/AlembicEntity/libalembicEntityQmlPlugin.so.0.1
 * /usr/qml/AlembicEntity/qmldir
 * /usr/share/doc/qmlalembic-2023.1.0/COPYING.md
 * /usr/share/doc/qmlalembic-2023.1.0/INSTALL.md
 * /usr/share/doc/qmlalembic-2023.1.0/README.md
-{{< /files >}}

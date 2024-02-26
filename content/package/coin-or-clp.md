@@ -16,7 +16,8 @@ reverse_depends = "['alicevision']"
 +++
 COIN-OR linear programming solver (AliceVision fork)
 
-{{< files text="show files" >}}* /usr/include/Coin/CbcOrClpParam.hpp
+## Files: 
+* /usr/include/Coin/CbcOrClpParam.hpp
 * /usr/include/Coin/ClpCholeskyBase.hpp
 * /usr/include/Coin/ClpCholeskyDense.hpp
 * /usr/include/Coin/ClpCholeskyPardiso.hpp
@@ -88,4 +89,3 @@ COIN-OR linear programming solver (AliceVision fork)
 * /usr/lib/libClp.a
 * /usr/share/doc/coin-or-clp-1.17.7/LICENSE
 * /usr/share/doc/coin-or-clp-1.17.7/README.md
-{{< /files >}}

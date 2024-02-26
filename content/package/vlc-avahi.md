@@ -15,5 +15,5 @@ depends = "['avahi', 'libvlc>=3.0.20']"
 +++
 vlc avahi plugin
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/services_discovery/libavahi_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/services_discovery/libavahi_plugin.so

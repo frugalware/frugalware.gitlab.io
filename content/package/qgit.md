@@ -15,7 +15,8 @@ depends = "['git', 'qt5-base>=5.15.10']"
 +++
 QGit is a git GUI viewer built on Qt/C++.
 
-{{< files text="show files" >}}* /usr/bin/qgit
+## Files: 
+* /usr/bin/qgit
 * /usr/share/applications/qgit.desktop
 * /usr/share/doc/qgit-2.10/COPYING.rtf
 * /usr/share/doc/qgit-2.10/README.adoc
@@ -23,4 +24,3 @@ QGit is a git GUI viewer built on Qt/C++.
 * /usr/share/icons/hicolor/48x48/apps/qgit.png
 * /usr/share/icons/hicolor/scalable/apps/qgit.svg
 * /usr/share/metainfo/qgit.appdata.xml
-{{< /files >}}

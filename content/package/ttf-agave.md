@@ -15,5 +15,5 @@ depends = "['fontconfig', 'mkfontscale']"
 +++
 A monospaced truetype font for coding and the commandline
 
-{{< files text="show files" >}}* /usr/share/doc/ttf-agave-008a/README.md
-{{< /files >}}
+## Files: 
+* /usr/share/doc/ttf-agave-008a/README.md

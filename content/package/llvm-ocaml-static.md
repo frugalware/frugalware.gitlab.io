@@ -15,7 +15,8 @@ depends = "[]"
 +++
 OCaml bindings for LLVM (static)
 
-{{< files text="show files" >}}* /usr/lib/ocaml/llvm/libllvm.a
+## Files: 
+* /usr/lib/ocaml/llvm/libllvm.a
 * /usr/lib/ocaml/llvm/libllvm_AArch64.a
 * /usr/lib/ocaml/llvm/libllvm_all_backends.a
 * /usr/lib/ocaml/llvm/libllvm_AMDGPU.a
@@ -75,4 +76,3 @@ OCaml bindings for LLVM (static)
 * /usr/lib/ocaml/llvm/llvm_WebAssembly.a
 * /usr/lib/ocaml/llvm/llvm_X86.a
 * /usr/lib/ocaml/llvm/llvm_XCore.a
-{{< /files >}}

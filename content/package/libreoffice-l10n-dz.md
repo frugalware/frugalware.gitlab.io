@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Dzongkha support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/dz/default.css
+## Files: 
+* /usr/lib/libreoffice/help/dz/default.css
 * /usr/lib/libreoffice/help/dz/err.html
 * /usr/lib/libreoffice/help/dz/highcontrast1.css
 * /usr/lib/libreoffice/help/dz/highcontrast2.css
@@ -134,4 +135,3 @@ Installs Dzongkha support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-dz.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_dz.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_dz.xcd
-{{< /files >}}

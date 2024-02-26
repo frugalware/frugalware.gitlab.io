@@ -16,7 +16,8 @@ reverse_depends = "['efl', 'gst1-plugins-base', 'gst1-plugins-good', 'gst1-plugi
 +++
 The Oil Runtime Compiler
 
-{{< files text="show files" >}}* /usr/bin/orc-bugreport
+## Files: 
+* /usr/bin/orc-bugreport
 * /usr/bin/orcc
 * /usr/include/orc-0.4/orc-test/orcarray.h
 * /usr/include/orc-0.4/orc-test/orcprofile.h
@@ -68,4 +69,3 @@ The Oil Runtime Compiler
 * /usr/share/doc/orc-0.4.37/README
 * /usr/share/doc/orc-0.4.37/RELEASE
 * /usr/share/doc/orc-0.4.37/TODO
-{{< /files >}}

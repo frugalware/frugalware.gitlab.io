@@ -16,7 +16,8 @@ reverse_depends = "['seahorse']"
 +++
 Library full of GTK+ widgets for mobile phones
 
-{{< files text="show files" >}}* /usr/bin/handy-1-demo
+## Files: 
+* /usr/bin/handy-1-demo
 * /usr/include/libhandy-1/handy.h
 * /usr/include/libhandy-1/hdy-action-row.h
 * /usr/include/libhandy-1/hdy-animation.h
@@ -102,4 +103,3 @@ Library full of GTK+ widgets for mobile phones
 * /usr/share/locale/zh_CN/LC_MESSAGES/libhandy.mo
 * /usr/share/vala/vapi/libhandy-1.deps
 * /usr/share/vala/vapi/libhandy-1.vapi
-{{< /files >}}

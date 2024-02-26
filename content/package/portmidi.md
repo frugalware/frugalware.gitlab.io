@@ -16,7 +16,8 @@ reverse_depends = "['darktable', 'mixxx', 'performous']"
 +++
 Platform independent library for real-time MIDI input/output.
 
-{{< files text="show files" >}}* /usr/bin/pmdefaults
+## Files: 
+* /usr/bin/pmdefaults
 * /usr/include/portmidi.h
 * /usr/include/porttime.h
 * /usr/lib/libpmjni.so
@@ -24,4 +25,3 @@ Platform independent library for real-time MIDI input/output.
 * /usr/lib/libporttime.so
 * /usr/share/doc/portmidi-217/README.txt
 * /usr/share/java/pmdefaults.jar
-{{< /files >}}

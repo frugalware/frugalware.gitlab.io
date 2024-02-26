@@ -16,7 +16,8 @@ reverse_depends = "['bootsplash', 'devil', 'gimp', 'mpv', 'qt5-imageformats', 'q
 +++
 A collection of routines used to create and manipulate MNG format graphics files
 
-{{< files text="show files" >}}* /usr/include/libmng.h
+## Files: 
+* /usr/include/libmng.h
 * /usr/include/libmng_conf.h
 * /usr/include/libmng_types.h
 * /usr/lib/libmng.so
@@ -37,4 +38,3 @@ A collection of routines used to create and manipulate MNG format graphics files
 * /usr/share/man/man3/libmng.3.gz
 * /usr/share/man/man5/jng.5.gz
 * /usr/share/man/man5/mng.5.gz
-{{< /files >}}

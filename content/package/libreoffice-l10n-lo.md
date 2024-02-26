@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Lao support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/lo/default.css
+## Files: 
+* /usr/lib/libreoffice/help/lo/default.css
 * /usr/lib/libreoffice/help/lo/err.html
 * /usr/lib/libreoffice/help/lo/highcontrast1.css
 * /usr/lib/libreoffice/help/lo/highcontrast2.css
@@ -135,4 +136,3 @@ Installs Lao support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-lo.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_lo.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_lo.xcd
-{{< /files >}}

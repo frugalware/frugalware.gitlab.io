@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.org X-protocol C Binding
 
-{{< files text="show files" >}}* /usr/include/xcb/bigreq.h
+## Files: 
+* /usr/include/xcb/bigreq.h
 * /usr/include/xcb/composite.h
 * /usr/include/xcb/damage.h
 * /usr/include/xcb/dbe.h
@@ -2462,4 +2463,3 @@ X.org X-protocol C Binding
 * /usr/share/man/man3/xcb_x_print_print_start_job_checked.3.gz
 * /usr/share/man/man3/xcb_x_print_print_start_page.3.gz
 * /usr/share/man/man3/xcb_x_print_print_start_page_checked.3.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 A tool to provide information on the hardware configuration of the machine.
 
-{{< files text="show files" >}}* /usr/bin/lshw
+## Files: 
+* /usr/bin/lshw
 * /usr/share/doc/lshw-B.02.18/Changelog
 * /usr/share/doc/lshw-B.02.18/COPYING
 * /usr/share/doc/lshw-B.02.18/INSTALL.rst.txt
@@ -36,4 +37,3 @@ A tool to provide information on the hardware configuration of the machine.
 * /usr/share/lshw/ui/gtk-lshw.ui
 * /usr/share/lshw/usb.ids
 * /usr/share/man/man1/lshw.1.gz
-{{< /files >}}

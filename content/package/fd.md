@@ -15,7 +15,7 @@ depends = "['libgcc']"
 +++
 Simple, fast and user-friendly alternative to find
 
-{{< files text="show files" >}}* /usr/bin/fd
+## Files: 
+* /usr/bin/fd
 * /usr/share/doc/fd-8.7.1/README.md
 * /usr/share/man/man1/fd.1.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['gtk+3', 'hicolor-icon-theme', 'libvips', 'libxscrnsaver']"
 +++
 Signal Private Messenger for Linux
 
-{{< files text="show files" >}}* /usr/bin/signal-desktop
+## Files: 
+* /usr/bin/signal-desktop
 * /usr/lib/signal-desktop/chrome-sandbox
 * /usr/lib/signal-desktop/chrome_100_percent.pak
 * /usr/lib/signal-desktop/chrome_200_percent.pak
@@ -147,4 +148,3 @@ Signal Private Messenger for Linux
 * /usr/share/icons/hicolor/48x48/apps/signal-desktop.png
 * /usr/share/icons/hicolor/512x512/apps/signal-desktop.png
 * /usr/share/icons/hicolor/64x64/apps/signal-desktop.png
-{{< /files >}}

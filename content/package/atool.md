@@ -15,7 +15,8 @@ depends = "[]"
 +++
 A script for managing file archives of various types.
 
-{{< files text="show files" >}}* /usr/bin/acat
+## Files: 
+* /usr/bin/acat
 * /usr/bin/adiff
 * /usr/bin/als
 * /usr/bin/apack
@@ -36,4 +37,3 @@ A script for managing file archives of various types.
 * /usr/share/man/man1/arepack.1.gz
 * /usr/share/man/man1/atool.1.gz
 * /usr/share/man/man1/aunpack.1.gz
-{{< /files >}}

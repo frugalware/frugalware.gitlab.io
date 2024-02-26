@@ -15,6 +15,6 @@ depends = "[]"
 +++
 Static files for jemalloc
 
-{{< files text="show files" >}}* /usr/lib/libjemalloc.a
+## Files: 
+* /usr/lib/libjemalloc.a
 * /usr/lib/libjemalloc_pic.a
-{{< /files >}}

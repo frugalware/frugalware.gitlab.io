@@ -16,7 +16,8 @@ reverse_depends = "['libcanberra', 'libpulse', 'notification-daemon', 'samba', '
 +++
 A Trivial Database
 
-{{< files text="show files" >}}* /usr/bin/tdbbackup
+## Files: 
+* /usr/bin/tdbbackup
 * /usr/bin/tdbdump
 * /usr/bin/tdbrestore
 * /usr/bin/tdbtool
@@ -27,4 +28,3 @@ A Trivial Database
 * /usr/lib/pkgconfig/tdb.pc
 * /usr/lib/python3.12/site-packages/tdb.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/_tdb_text.py
-{{< /files >}}

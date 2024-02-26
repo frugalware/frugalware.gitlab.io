@@ -15,7 +15,8 @@ depends = "['kitemmodels>=5.115.0', 'kparts>=5.115.0', 'kpty>=5.115.0', 'libarch
 +++
 KDE Archiving Tool.
 
-{{< files text="show files" >}}* /etc/xdg/arkrc
+## Files: 
+* /etc/xdg/arkrc
 * /usr/bin/ark
 * /usr/lib/libkerfuffle.so.23
 * /usr/lib/libkerfuffle.so.23.08.5
@@ -194,4 +195,3 @@ KDE Archiving Tool.
 * /usr/share/man/uk/man1/ark.1.gz
 * /usr/share/metainfo/org.kde.ark.appdata.xml
 * /usr/share/qlogging-categories5/ark.categories
-{{< /files >}}

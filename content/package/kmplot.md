@@ -15,7 +15,8 @@ depends = "['kdelibs4support>=5.115.0']"
 +++
 Mathematical Function Plotter.
 
-{{< files text="show files" >}}* /usr/bin/kmplot
+## Files: 
+* /usr/bin/kmplot
 * /usr/lib/qt5/plugins/kf5/parts/kmplotpart.so
 * /usr/share/applications/org.kde.kmplot.desktop
 * /usr/share/config.kcfg/kmplot.kcfg
@@ -327,4 +328,3 @@ Mathematical Function Plotter.
 * /usr/share/man/sv/man1/kmplot.1.gz
 * /usr/share/man/uk/man1/kmplot.1.gz
 * /usr/share/metainfo/org.kde.kmplot.appdata.xml
-{{< /files >}}

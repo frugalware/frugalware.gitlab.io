@@ -16,7 +16,8 @@ license = "GPL"
 +++
 KVideoEncoder is a GUI for the mencoder.
 
-{{< files text="show files" >}}* etc/kvideoencoder
+## Files: 
+* etc/kvideoencoder
 * usr/bin/kvideoencoder
 * usr/share/applications/kde/kvideoencoder.desktop
 * usr/share/applications/kvideoencoder.desktop
@@ -30,4 +31,3 @@ KVideoEncoder is a GUI for the mencoder.
 * usr/share/doc/kvideoencoder-0.08/INSTALL
 * usr/share/doc/kvideoencoder-0.08/LICENSE
 * usr/share/icons/hicolor/32x32/apps/kvideoencoder.png
-{{< /files >}}

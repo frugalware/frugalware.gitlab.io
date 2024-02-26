@@ -16,7 +16,8 @@ reverse_depends = "['alicevision']"
 +++
 Solver for nonlinear least squares problems
 
-{{< files text="show files" >}}* /usr/include/ceres/autodiff_cost_function.h
+## Files: 
+* /usr/include/ceres/autodiff_cost_function.h
 * /usr/include/ceres/autodiff_first_order_function.h
 * /usr/include/ceres/autodiff_manifold.h
 * /usr/include/ceres/ceres.h
@@ -92,4 +93,3 @@ Solver for nonlinear least squares problems
 * /usr/share/doc/ceres-solver-2.2.0/LICENSE
 * /usr/share/doc/ceres-solver-2.2.0/README.md
 * /usr/share/doc/ceres-solver-2.2.0/VERSION
-{{< /files >}}

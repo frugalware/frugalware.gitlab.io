@@ -16,7 +16,8 @@ license = "GPL"
 +++
 Yakuake is a Quake-style terminal emulator based on KDE Konsole technology.
 
-{{< files text="show files" >}}* /usr/bin/yakuake
+## Files: 
+* /usr/bin/yakuake
 * /usr/share/applications/org.kde.yakuake.desktop
 * /usr/share/dbus-1/services/org.kde.yakuake.service
 * /usr/share/doc/yakuake-23.08.5/AUTHORS
@@ -215,4 +216,3 @@ Yakuake is a Quake-style terminal emulator based on KDE Konsole technology.
 * /usr/share/yakuake/skins/plastik_light/title/quit_up.png
 * /usr/share/yakuake/skins/plastik_light/title/right.png
 * /usr/share/yakuake/skins/README
-{{< /files >}}

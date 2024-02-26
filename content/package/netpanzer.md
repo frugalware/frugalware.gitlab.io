@@ -15,10 +15,10 @@ depends = "['libstdc++', 'physfs>=2.0.2', 'sdl', 'sdlimage', 'sdl_mixer', 'sdl_t
 +++
 Fast-action multiplayer strategic network game
 
-{{< files text="show files" >}}* /usr/share/doc/netpanzer-0.8.7/0.8.7-RELEASE
+## Files: 
+* /usr/share/doc/netpanzer-0.8.7/0.8.7-RELEASE
 * /usr/share/doc/netpanzer-0.8.7/COPYING
 * /usr/share/doc/netpanzer-0.8.7/README
 * /usr/share/doc/netpanzer-0.8.7/README-SDL.txt
 * /usr/share/doc/netpanzer-0.8.7/README-SDL_mixer.txt
 * /usr/share/doc/netpanzer-0.8.7/README-zlib123.txt
-{{< /files >}}

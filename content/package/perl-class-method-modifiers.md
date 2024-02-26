@@ -16,10 +16,10 @@ reverse_depends = "['perl-moo']"
 +++
 provides Moose-like method modifiers
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/Class/Method/Modifiers.pm
+## Files: 
+* /usr/lib/perl5/site_perl/Class/Method/Modifiers.pm
 * /usr/share/doc/perl-class-method-modifiers-2.15/INSTALL
 * /usr/share/doc/perl-class-method-modifiers-2.15/LICENSE
 * /usr/share/doc/perl-class-method-modifiers-2.15/MANIFEST
 * /usr/share/doc/perl-class-method-modifiers-2.15/README
 * /usr/share/man/man3/Class::Method::Modifiers.3perl.gz
-{{< /files >}}

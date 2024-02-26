@@ -15,6 +15,6 @@ depends = "['vulkan-icd-loader', 'xcb-util-keysyms', 'zstd']"
 +++
 AMD Mesa Support for Vulkan
 
-{{< files text="show files" >}}* /usr/lib/libvulkan_radeon.so
+## Files: 
+* /usr/lib/libvulkan_radeon.so
 * /usr/share/vulkan/icd.d/radeon_icd.x86_64.json
-{{< /files >}}

@@ -16,7 +16,8 @@ license = "GPL"
 +++
 A network monitor that show the network transfer rate in a system tray icon.
 
-{{< files text="show files" >}}* usr/bin/knetstats
+## Files: 
+* usr/bin/knetstats
 * usr/share/applications/kde/knetstats.desktop
 * usr/share/apps/knetstats/pics/icon_pci.png
 * usr/share/apps/knetstats/pics/theme0_both.png
@@ -78,4 +79,3 @@ A network monitor that show the network transfer rate in a system tray icon.
 * usr/share/locale/sr@Latn/LC_MESSAGES/knetstats.mo
 * usr/share/locale/sv/LC_MESSAGES/knetstats.mo
 * usr/share/locale/tr/LC_MESSAGES/knetstats.mo
-{{< /files >}}

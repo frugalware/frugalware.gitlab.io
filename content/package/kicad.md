@@ -15,7 +15,8 @@ depends = "['glew>=2.2.0', 'glm', 'libboost>=1.79.0', 'ngspice', 'opencascade', 
 +++
 Electronic schematic and printed circuid board design tools.
 
-{{< files text="show files" >}}* /usr/bin/bitmap2component
+## Files: 
+* /usr/bin/bitmap2component
 * /usr/bin/dxf2idf
 * /usr/bin/eeschema
 * /usr/bin/gerbview
@@ -376,4 +377,3 @@ Electronic schematic and printed circuid board design tools.
 * /usr/share/metainfo/org.kicad.kicad.metainfo.xml
 * /usr/share/mime/packages/kicad-gerbers.xml
 * /usr/share/mime/packages/kicad-kicad.xml
-{{< /files >}}

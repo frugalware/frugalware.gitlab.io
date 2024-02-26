@@ -16,7 +16,8 @@ reverse_depends = "['maxr', 'opendiablo2', 'scummvm']"
 +++
 A small sample cross-platform networking library
 
-{{< files text="show files" >}}* /usr/include/SDL2/SDL_net.h
+## Files: 
+* /usr/include/SDL2/SDL_net.h
 * /usr/lib/cmake/SDL2_net/sdl2_net-config-version.cmake
 * /usr/lib/cmake/SDL2_net/sdl2_net-config.cmake
 * /usr/lib/libSDL2_net-2.0.so.0
@@ -24,4 +25,3 @@ A small sample cross-platform networking library
 * /usr/lib/libSDL2_net.so
 * /usr/lib/pkgconfig/SDL2_net.pc
 * /usr/share/doc/sdl2_net-2.2.0/README.txt
-{{< /files >}}

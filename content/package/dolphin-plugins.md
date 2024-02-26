@@ -15,7 +15,8 @@ depends = "['dolphin>=23.08.5', 'ktexteditor>=5.115.0']"
 +++
 Extra Dolphin plugins.
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/dolphin/vcs/fileviewbazaarplugin.so
+## Files: 
+* /usr/lib/qt5/plugins/dolphin/vcs/fileviewbazaarplugin.so
 * /usr/lib/qt5/plugins/dolphin/vcs/fileviewdropboxplugin.so
 * /usr/lib/qt5/plugins/dolphin/vcs/fileviewgitplugin.so
 * /usr/lib/qt5/plugins/dolphin/vcs/fileviewhgplugin.so
@@ -250,4 +251,3 @@ Extra Dolphin plugins.
 * /usr/share/locale/zh_TW/LC_MESSAGES/fileviewsvnplugin.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/mountisoaction.mo
 * /usr/share/metainfo/org.kde.dolphin-plugins.metainfo.xml
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['falkon', 'ghostwriter', 'qt5-webengine']"
 +++
 The Qt5 toolkit, qtwebchannel
 
-{{< files text="show files" >}}* /usr/include/qt5/QtWebChannel/5.15.12/QtWebChannel/private/qmetaobjectpublisher_p.h
+## Files: 
+* /usr/include/qt5/QtWebChannel/5.15.12/QtWebChannel/private/qmetaobjectpublisher_p.h
 * /usr/include/qt5/QtWebChannel/5.15.12/QtWebChannel/private/qqmlwebchannelattached_p.h
 * /usr/include/qt5/QtWebChannel/5.15.12/QtWebChannel/private/qwebchannel_p.h
 * /usr/include/qt5/QtWebChannel/5.15.12/QtWebChannel/private/signalhandler_p.h
@@ -45,4 +46,3 @@ The Qt5 toolkit, qtwebchannel
 * /usr/share/qt5/qml/QtWebChannel/libdeclarative_webchannel.so
 * /usr/share/qt5/qml/QtWebChannel/plugins.qmltypes
 * /usr/share/qt5/qml/QtWebChannel/qmldir
-{{< /files >}}

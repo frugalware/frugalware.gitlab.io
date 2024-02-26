@@ -15,7 +15,8 @@ depends = "['kdelibs4support>=5.115.0', 'libkdegames>=23.08.5']"
 +++
 Kolf is a miniature golf game.
 
-{{< files text="show files" >}}* /usr/bin/kolf
+## Files: 
+* /usr/bin/kolf
 * /usr/share/applications/org.kde.kolf.desktop
 * /usr/share/doc/HTML/ca/kolf/index.cache.bz2
 * /usr/share/doc/HTML/ca/kolf/index.docbook
@@ -154,4 +155,3 @@ Kolf is a miniature golf game.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kolf.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kolf.mo
 * /usr/share/metainfo/org.kde.kolf.appdata.xml
-{{< /files >}}

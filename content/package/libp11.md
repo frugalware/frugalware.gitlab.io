@@ -16,7 +16,8 @@ reverse_depends = "['rng-tools']"
 +++
 A library implementing a small layer on top of the PKCS11 API
 
-{{< files text="show files" >}}* /usr/include/libp11.h
+## Files: 
+* /usr/include/libp11.h
 * /usr/include/p11_err.h
 * /usr/lib/engines-3/libpkcs11.so
 * /usr/lib/engines-3/pkcs11.so
@@ -28,4 +29,3 @@ A library implementing a small layer on top of the PKCS11 API
 * /usr/share/doc/libp11-0.4.12/INSTALL.md
 * /usr/share/doc/libp11-0.4.12/NEWS
 * /usr/share/doc/libp11-0.4.12/README.md
-{{< /files >}}

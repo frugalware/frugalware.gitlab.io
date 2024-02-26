@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 knoda is a database frontend for KDE.
 
-{{< files text="show files" >}}* usr/bin/knoda
+## Files: 
+* usr/bin/knoda
 * usr/bin/knoda-rt
 * usr/include/hk_kdeboolean.h
 * usr/include/hk_kdebutton.h
@@ -265,4 +266,3 @@ knoda is a database frontend for KDE.
 * usr/share/services/hk_kdequerypart.desktop
 * usr/share/services/hk_kdereportpart.desktop
 * usr/share/services/hk_kdetablepart.desktop
-{{< /files >}}

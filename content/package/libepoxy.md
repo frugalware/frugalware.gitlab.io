@@ -16,7 +16,8 @@ reverse_depends = "['blender', 'gtk+3', 'gtk+3-demos', 'gtk+4', 'gtk+4-demos', '
 +++
 Epoxy is a library for handling OpenGL function pointer management for you
 
-{{< files text="show files" >}}* /usr/include/epoxy/common.h
+## Files: 
+* /usr/include/epoxy/common.h
 * /usr/include/epoxy/egl.h
 * /usr/include/epoxy/egl_generated.h
 * /usr/include/epoxy/gl.h
@@ -29,4 +30,3 @@ Epoxy is a library for handling OpenGL function pointer management for you
 * /usr/lib/pkgconfig/epoxy.pc
 * /usr/share/doc/libepoxy-1.5.10/COPYING
 * /usr/share/doc/libepoxy-1.5.10/README.md
-{{< /files >}}

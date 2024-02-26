@@ -15,7 +15,8 @@ depends = "['curl>=7.46.0-3', 'libglu>=9.0.0-2', 'libpng>=1.6.20', 'physfs>=2.0.
 +++
 ManaPlus is a free OpenSource 2D MMORPG client for Evol Online, The mana world and similar servers.
 
-{{< files text="show files" >}}* /usr/bin/dyecmd
+## Files: 
+* /usr/bin/dyecmd
 * /usr/bin/manaplus
 * /usr/share/applications/manaplus.desktop
 * /usr/share/applications/manaplustest.desktop
@@ -842,4 +843,3 @@ ManaPlus is a free OpenSource 2D MMORPG client for Evol Online, The mana world a
 * /usr/share/manaplus/data/translations/help/zh_CN.po
 * /usr/share/manaplus/data/translations/test/test1.po
 * /usr/share/metainfo/manaplus.metainfo.xml
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['haskell-attoparsec-aeson', 'haskell-attoparsec-iso8601', 'h
 +++
 Fast combinator parsing for bytestrings and text
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/attoparsec-0.14.4/Data/Attoparsec.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/attoparsec-0.14.4/Data/Attoparsec.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/attoparsec-0.14.4/Data/Attoparsec.hi
 * /usr/lib/ghc-9.8.1/site-local/attoparsec-0.14.4/Data/Attoparsec/ByteString.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/attoparsec-0.14.4/Data/Attoparsec/ByteString.hi
@@ -95,4 +96,3 @@ Fast combinator parsing for bytestrings and text
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/attoparsec-0.14.4/LICENSE
 * /usr/share/haskell/haskell-attoparsec/register.sh
 * /usr/share/haskell/haskell-attoparsec/unregister.sh
-{{< /files >}}

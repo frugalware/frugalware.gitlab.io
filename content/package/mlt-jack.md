@@ -15,5 +15,5 @@ depends = "['libxml2>=2.9.4-3', 'mlt']"
 +++
 Jack modules for mlt
 
-{{< files text="show files" >}}* /usr/lib/mlt-7/libmltjackrack.so
-{{< /files >}}
+## Files: 
+* /usr/lib/mlt-7/libmltjackrack.so

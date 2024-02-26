@@ -16,7 +16,8 @@ reverse_depends = "['celluloid', 'chromium-browser', 'colord-gtk4', 'gcr', 'gran
 +++
 The GTK+ Toolkit (3.x series)
 
-{{< files text="show files" >}}* /usr/bin/gtk4-broadwayd
+## Files: 
+* /usr/bin/gtk4-broadwayd
 * /usr/bin/gtk4-builder-tool
 * /usr/bin/gtk4-encode-symbolic-svg
 * /usr/bin/gtk4-icon-browser
@@ -10882,4 +10883,3 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/metainfo/org.gtk.IconBrowser4.appdata.xml
 * /usr/share/metainfo/org.gtk.PrintEditor4.appdata.xml
 * /usr/share/metainfo/org.gtk.WidgetFactory4.appdata.xml
-{{< /files >}}

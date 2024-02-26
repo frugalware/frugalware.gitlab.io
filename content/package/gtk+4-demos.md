@@ -15,6 +15,6 @@ depends = "['gdk-pixbuf2>=2.38.1-2', 'gtk+4>=4.13.8', 'libepoxy>=1.3.1-3', 'libf
 +++
 GTK+4 Demos.
 
-{{< files text="show files" >}}* /usr/bin/gtk4-demo
+## Files: 
+* /usr/bin/gtk4-demo
 * /usr/bin/gtk4-demo-application
-{{< /files >}}

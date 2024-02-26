@@ -16,7 +16,8 @@ reverse_depends = "['freeplane', 'ganttproject', 'jitsi', 'libreoffice', 'openjf
 +++
 Java graphic bindings
 
-{{< files text="show files" >}}* /usr/lib/jvm/java-21-openjdk/lib/libawt_xawt.debuginfo
+## Files: 
+* /usr/lib/jvm/java-21-openjdk/lib/libawt_xawt.debuginfo
 * /usr/lib/jvm/java-21-openjdk/lib/libawt_xawt.so
 * /usr/lib/jvm/java-21-openjdk/lib/libjawt.debuginfo
 * /usr/lib/jvm/java-21-openjdk/lib/libjawt.so
@@ -24,4 +25,3 @@ Java graphic bindings
 * /usr/lib/jvm/java-21-openjdk/lib/libjsound.so
 * /usr/lib/jvm/java-21-openjdk/lib/libsplashscreen.debuginfo
 * /usr/lib/jvm/java-21-openjdk/lib/libsplashscreen.so
-{{< /files >}}

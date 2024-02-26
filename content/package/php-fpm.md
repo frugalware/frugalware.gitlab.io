@@ -15,11 +15,11 @@ depends = "['php=8.3.3', 'systemd']"
 +++
 FastCGI Process Manager for PHP.
 
-{{< files text="show files" >}}* /etc/php-fpm.d/www.conf.default
+## Files: 
+* /etc/php-fpm.d/www.conf.default
 * /etc/php/php-fpm.conf
 * /etc/php/php-fpm.d/www.conf
 * /usr/bin/php-fpm
 * /usr/lib/systemd/system/php-fpm.service
 * /usr/share/man/man8/php-fpm.8.gz
 * /usr/share/php/fpm/status.html
-{{< /files >}}

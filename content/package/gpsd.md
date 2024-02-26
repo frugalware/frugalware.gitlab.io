@@ -16,7 +16,8 @@ reverse_depends = "['gpsd-qt', 'libmarble', 'plasma-workspace']"
 +++
 GPS daemon and library to support USB/serial GPS devices
 
-{{< files text="show files" >}}* /etc/hotplug/usb/gpsd
+## Files: 
+* /etc/hotplug/usb/gpsd
 * /etc/hotplug/usb/gpsd.usermap
 * /etc/sysconfig/gpsd
 * /etc/tmpfiles.d/gpsd.conf
@@ -108,4 +109,3 @@ GPS daemon and library to support USB/serial GPS devices
 * /usr/share/man/man8/gpsinit.8.gz
 * /usr/share/man/man8/ppscheck.8.gz
 * /usr/share/snmp/mibs/gpsd/GPSD-MIB
-{{< /files >}}

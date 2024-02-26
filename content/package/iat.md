@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 Iso9660 Analyzer Tool is a tool for detecting the structure of many types of CD/DVD image.
 
-{{< files text="show files" >}}* /usr/bin/iat
+## Files: 
+* /usr/bin/iat
 * /usr/include/calculate_pregap.h
 * /usr/include/cmdline.h
 * /usr/include/convert_2_iso.h
@@ -35,4 +36,3 @@ Iso9660 Analyzer Tool is a tool for detecting the structure of many types of CD/
 * /usr/share/doc/iat-0.1.7/NEWS
 * /usr/share/doc/iat-0.1.7/README
 * /usr/share/man/man1/iat.1.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['ocaml>=5.1.1', 'ocaml-result']"
 +++
 A packager for distributing OCaml software
 
-{{< files text="show files" >}}* /usr/lib/ocaml/topkg/META
+## Files: 
+* /usr/lib/ocaml/topkg/META
 * /usr/lib/ocaml/topkg/opam
 * /usr/lib/ocaml/topkg/topkg.cma
 * /usr/lib/ocaml/topkg/topkg.cmi
@@ -25,4 +26,3 @@ A packager for distributing OCaml software
 * /usr/share/doc/topkg/CHANGES.md
 * /usr/share/doc/topkg/LICENSE.md
 * /usr/share/doc/topkg/README.md
-{{< /files >}}

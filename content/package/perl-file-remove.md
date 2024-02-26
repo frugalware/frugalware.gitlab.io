@@ -16,9 +16,9 @@ reverse_depends = "['perl-module-install']"
 +++
 Remove files and directories
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/File/Remove.pm
+## Files: 
+* /usr/lib/perl5/site_perl/File/Remove.pm
 * /usr/share/doc/perl-file-remove-1.61/LICENSE
 * /usr/share/doc/perl-file-remove-1.61/MANIFEST
 * /usr/share/doc/perl-file-remove-1.61/README
 * /usr/share/man/man3/File::Remove.3perl.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 WASI LLVM C++ standard library
 
-{{< files text="show files" >}}* /usr/share/doc/wasi-libc++-17.0.6/README.md
+## Files: 
+* /usr/share/doc/wasi-libc++-17.0.6/README.md
 * /usr/share/wasi-sysroot/include/c++/v1/algorithm
 * /usr/share/wasi-sysroot/include/c++/v1/any
 * /usr/share/wasi-sysroot/include/c++/v1/array
@@ -1033,4 +1034,3 @@ WASI LLVM C++ standard library
 * /usr/share/wasi-sysroot/lib/wasm32-wasi/libc++.a
 * /usr/share/wasi-sysroot/lib/wasm32-wasi/libc++abi.a
 * /usr/share/wasi-sysroot/lib/wasm32-wasi/libc++experimental.a
-{{< /files >}}

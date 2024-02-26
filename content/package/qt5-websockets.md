@@ -16,7 +16,8 @@ reverse_depends = "['arianna', 'babe', 'kstars', 'qcoro', 'qownnotes', 'qt5-webg
 +++
 The Qt5 toolkit, qtwebsockets
 
-{{< files text="show files" >}}* /usr/include/qt5/QtWebSockets/5.15.12/QtWebSockets/private/qdefaultmaskgenerator_p.h
+## Files: 
+* /usr/include/qt5/QtWebSockets/5.15.12/QtWebSockets/private/qdefaultmaskgenerator_p.h
 * /usr/include/qt5/QtWebSockets/5.15.12/QtWebSockets/private/qsslserver_p.h
 * /usr/include/qt5/QtWebSockets/5.15.12/QtWebSockets/private/qwebsocketcorsauthenticator_p.h
 * /usr/include/qt5/QtWebSockets/5.15.12/QtWebSockets/private/qwebsocketdataprocessor_p.h
@@ -55,4 +56,3 @@ The Qt5 toolkit, qtwebsockets
 * /usr/share/qt5/qml/QtWebSockets/libdeclarative_qmlwebsockets.so
 * /usr/share/qt5/qml/QtWebSockets/plugins.qmltypes
 * /usr/share/qt5/qml/QtWebSockets/qmldir
-{{< /files >}}

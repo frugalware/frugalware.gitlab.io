@@ -16,7 +16,8 @@ reverse_depends = "['amavisd-new']"
 +++
 extract data from Macintosh BinHex files
 
-{{< files text="show files" >}}* /usr/bin/site_perl/binhex.pl
+## Files: 
+* /usr/bin/site_perl/binhex.pl
 * /usr/bin/site_perl/debinhex.pl
 * /usr/lib/perl5/site_perl/Convert/BinHex.pm
 * /usr/share/doc/perl-convert-binhex-1.125/COPYING
@@ -27,4 +28,3 @@ extract data from Macintosh BinHex files
 * /usr/share/man/man1/binhex.pl.1perl.gz
 * /usr/share/man/man1/debinhex.pl.1perl.gz
 * /usr/share/man/man3/Convert::BinHex.3perl.gz
-{{< /files >}}

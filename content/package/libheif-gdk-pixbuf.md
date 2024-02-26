@@ -15,5 +15,5 @@ depends = "['gdk-pixbuf2', 'libheif']"
 +++
 libheif gdk-pixbuf-loader
 
-{{< files text="show files" >}}* /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-heif.so
-{{< /files >}}
+## Files: 
+* /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-heif.so

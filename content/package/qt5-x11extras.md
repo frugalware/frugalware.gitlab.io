@@ -16,7 +16,8 @@ reverse_depends = "['disman', 'falkon', 'kaccounts-integration', 'kbruch', 'kcon
 +++
 The Qt5 toolkit, qtx11extras
 
-{{< files text="show files" >}}* /usr/include/qt5/QtX11Extras/QtX11Extras
+## Files: 
+* /usr/include/qt5/QtX11Extras/QtX11Extras
 * /usr/include/qt5/QtX11Extras/QtX11ExtrasDepends
 * /usr/include/qt5/QtX11Extras/qtx11extrasglobal.h
 * /usr/include/qt5/QtX11Extras/QtX11ExtrasVersion
@@ -33,4 +34,3 @@ The Qt5 toolkit, qtx11extras
 * /usr/lib/pkgconfig/Qt5X11Extras.pc
 * /usr/share/qt5/mkspecs/modules/qt_lib_x11extras.pri
 * /usr/share/qt5/mkspecs/modules/qt_lib_x11extras_private.pri
-{{< /files >}}

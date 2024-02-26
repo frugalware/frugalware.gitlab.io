@@ -15,7 +15,8 @@ depends = "['ffmpeg', 'python3-isodate', 'python3-pycountry', 'python3-pycryptod
 +++
 CLI program that launches streams from various streaming services in a custom video player
 
-{{< files text="show files" >}}* /usr/bin/streamlink
+## Files: 
+* /usr/bin/streamlink
 * /usr/lib/python3.12/site-packages/streamlink-0.0.0+unknown-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/streamlink-0.0.0+unknown-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/streamlink-0.0.0+unknown-py3.12.egg-info/PKG-INFO
@@ -532,4 +533,3 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/share/doc/streamlink-6.5.0/AUTHORS
 * /usr/share/doc/streamlink-6.5.0/LICENSE
 * /usr/share/doc/streamlink-6.5.0/README.md
-{{< /files >}}

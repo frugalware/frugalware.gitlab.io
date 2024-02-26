@@ -15,6 +15,6 @@ depends = "['libvlc>=3.0.20']"
 +++
 vlc plugin for jack
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/access/libaccess_jack_plugin.so
+## Files: 
+* /usr/lib/vlc/plugins/access/libaccess_jack_plugin.so
 * /usr/lib/vlc/plugins/audio_output/libjack_plugin.so
-{{< /files >}}

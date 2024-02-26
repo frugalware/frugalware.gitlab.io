@@ -16,9 +16,9 @@ reverse_depends = "['lib32-gtk+2-libs', 'steam-native']"
 +++
 Main library of the CUPS printing system. ( 32bit )
 
-{{< files text="show files" >}}* /usr/lib32/cups/backend/smb
+## Files: 
+* /usr/lib32/cups/backend/smb
 * /usr/lib32/libcups.so
 * /usr/lib32/libcups.so.2
 * /usr/lib32/libcupsimage.so
 * /usr/lib32/libcupsimage.so.2
-{{< /files >}}

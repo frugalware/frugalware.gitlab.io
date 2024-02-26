@@ -16,7 +16,8 @@ reverse_depends = "['gimp', 'libsoup', 'libsoup3']"
 +++
 Network extensions for GLib
 
-{{< files text="show files" >}}* /usr/lib/gio/modules/libgiognomeproxy.so
+## Files: 
+* /usr/lib/gio/modules/libgiognomeproxy.so
 * /usr/lib/gio/modules/libgiognutls.so
 * /usr/lib/gio/modules/libgiolibproxy.so
 * /usr/lib/glib-networking/glib-pacrunner
@@ -96,4 +97,3 @@ Network extensions for GLib
 * /usr/share/locale/zh_CN/LC_MESSAGES/glib-networking.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/glib-networking.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/glib-networking.mo
-{{< /files >}}

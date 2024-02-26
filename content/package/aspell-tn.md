@@ -15,11 +15,11 @@ depends = "['aspell']"
 +++
 GNU Aspell Setswana Word List Package
 
-{{< files text="show files" >}}* usr/lib/aspell-0.60/setswana.alias
+## Files: 
+* usr/lib/aspell-0.60/setswana.alias
 * usr/lib/aspell-0.60/tn.dat
 * usr/lib/aspell-0.60/tn.multi
 * usr/lib/aspell-0.60/tn.rws
 * usr/lib/aspell-0.60/tswana.alias
 * usr/share/doc/aspell-tn-0.50r0/COPYING
 * usr/share/doc/aspell-tn-0.50r0/README
-{{< /files >}}

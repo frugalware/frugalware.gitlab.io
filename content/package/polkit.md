@@ -16,7 +16,8 @@ reverse_depends = "['accountsservice', 'bolt', 'clightd', 'colord', 'connman', '
 +++
 Policy framework for controlling privileges for system-wide services
 
-{{< files text="show files" >}}* /etc/pam.d/polkit-1
+## Files: 
+* /etc/pam.d/polkit-1
 * /etc/polkit-1/rules.d/50-default.rules
 * /usr/bin/pk-example-frobnicate
 * /usr/bin/pkaction
@@ -158,4 +159,3 @@ Policy framework for controlling privileges for system-wide services
 * /usr/share/polkit-1/actions/org.freedesktop.policykit.examples.pkexec.policy
 * /usr/share/polkit-1/actions/org.freedesktop.policykit.policy
 * /usr/share/polkit-1/policyconfig-1.dtd
-{{< /files >}}

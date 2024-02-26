@@ -15,5 +15,5 @@ depends = "['libvlc>=3.0.20', 'opus>=1.1.2']"
 +++
 vlc plugin for opus
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/libopus_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/codec/libopus_plugin.so

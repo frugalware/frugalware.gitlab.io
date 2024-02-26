@@ -16,7 +16,8 @@ reverse_depends = "['alicevision', 'blender', 'qmlalembic']"
 +++
 A open framework for storing and sharing scene data
 
-{{< files text="show files" >}}* /usr/bin/abcconvert
+## Files: 
+* /usr/bin/abcconvert
 * /usr/bin/abcdiff
 * /usr/bin/abcecho
 * /usr/bin/abcechobounds
@@ -154,4 +155,3 @@ A open framework for storing and sharing scene data
 * /usr/lib/libAlembic.so.1.8
 * /usr/lib/libAlembic.so.1.8.6
 * /usr/share/doc/alembic-1.8.6/README.txt
-{{< /files >}}

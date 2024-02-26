@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 A free XMODEM/YMODEM/ZMODEM implementation.
 
-{{< files text="show files" >}}* /usr/bin/lrb
+## Files: 
+* /usr/bin/lrb
 * /usr/bin/lrx
 * /usr/bin/lrz
 * /usr/bin/lsb
@@ -35,4 +36,3 @@ A free XMODEM/YMODEM/ZMODEM implementation.
 * /usr/share/doc/lrzsz-0.12.20/TODO
 * /usr/share/man/man1/lrz.1.gz
 * /usr/share/man/man1/lsz.1.gz
-{{< /files >}}

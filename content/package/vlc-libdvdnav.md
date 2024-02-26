@@ -15,5 +15,5 @@ depends = "['libdvdnav>=6.1.0', 'libvlc>=3.0.20']"
 +++
 vlc plugin for libdvdnav
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/access/libdvdnav_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/access/libdvdnav_plugin.so

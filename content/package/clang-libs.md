@@ -16,9 +16,9 @@ reverse_depends = "['bcc', 'clang', 'clang-python', 'clang15', 'ispc', 'kdevelop
 +++
 C/C++ language family frontend for LLVM Libs
 
-{{< files text="show files" >}}* /usr/lib/libclang-cpp.so
+## Files: 
+* /usr/lib/libclang-cpp.so
 * /usr/lib/libclang-cpp.so.17
 * /usr/lib/libclang.so
 * /usr/lib/libclang.so.17
 * /usr/lib/libclang.so.17.0.6
-{{< /files >}}

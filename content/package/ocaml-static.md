@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Caml libraries statically linked.
 
-{{< files text="show files" >}}* /usr/lib/ocaml/libasmrun.a
+## Files: 
+* /usr/lib/ocaml/libasmrun.a
 * /usr/lib/ocaml/libasmrund.a
 * /usr/lib/ocaml/libasmruni.a
 * /usr/lib/ocaml/libasmrun_pic.a
@@ -32,4 +33,3 @@ Caml libraries statically linked.
 * /usr/lib/ocaml/libunixbyt.a
 * /usr/lib/ocaml/libunixnat.a
 * /usr/lib/ocaml/stdlib.a
-{{< /files >}}

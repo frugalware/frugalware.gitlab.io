@@ -16,7 +16,8 @@ reverse_depends = "['i3', 'qt5-base', 'qt6-base', 'wlroots', 'xorg-server-xephyr
 +++
 wm libraries for X C Binding
 
-{{< files text="show files" >}}* /usr/include/xcb/xcb_ewmh.h
+## Files: 
+* /usr/include/xcb/xcb_ewmh.h
 * /usr/include/xcb/xcb_icccm.h
 * /usr/lib/libxcb-ewmh.so
 * /usr/lib/libxcb-ewmh.so.2
@@ -31,4 +32,3 @@ wm libraries for X C Binding
 * /usr/share/doc/xcb-util-wm-0.4.2/INSTALL
 * /usr/share/doc/xcb-util-wm-0.4.2/NEWS
 * /usr/share/doc/xcb-util-wm-0.4.2/README.md
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['vtk-python3-ffmpeg', 'vtk-python3-java', 'vtk-python3-qt5',
 +++
 Python interface and bindings for vtk
 
-{{< files text="show files" >}}* /usr/bin/vtkpython
+## Files: 
+* /usr/bin/vtkpython
 * /usr/bin/vtkWrapPython
 * /usr/bin/vtkWrapPythonInit
 * /usr/lib/libvtkCommonPython.so
@@ -243,4 +244,3 @@ Python interface and bindings for vtk
 * /usr/lib/python3.12/site-packages/vtkmodules/wx/wxVTKRenderWindowInteractor.py
 * /usr/lib/python3.12/site-packages/vtkmodules/wx/__init__.py
 * /usr/lib/python3.12/site-packages/vtkmodules/__init__.py
-{{< /files >}}

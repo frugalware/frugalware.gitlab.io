@@ -16,10 +16,10 @@ reverse_depends = "['libmpack-lua']"
 +++
 Simple implementation of msgpack in C
 
-{{< files text="show files" >}}* /usr/include/mpack.h
+## Files: 
+* /usr/include/mpack.h
 * /usr/lib/libmpack.so
 * /usr/lib/libmpack.so.0
 * /usr/lib/libmpack.so.0.0.0
 * /usr/lib/pkgconfig/mpack.pc
 * /usr/share/doc/libmpack-1.0.5/README.md
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['plasma-bigscreen']"
 +++
 Translate various input device events into keyboard and pointer events
 
-{{< files text="show files" >}}* /etc/xdg/autostart/org.kde.plasma-remotecontrollers.desktop
+## Files: 
+* /etc/xdg/autostart/org.kde.plasma-remotecontrollers.desktop
 * /etc/xdg/plasma-remotecontrollersrc
 * /usr/bin/plasma-remotecontrollers
 * /usr/lib/qt5/plugins/kcms/kcm_mediacenter_remotecontrollers.so
@@ -98,4 +99,3 @@ Translate various input device events into keyboard and pointer events
 * /usr/share/metainfo/org.kde.plasma.remotecontrollers.metainfo.xml
 * /usr/share/qlogging-categories5/plasma-remotecontrollers.categories
 * /usr/share/qt5/qml/org/kde/plasma/remotecontrollers/qmldir
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['ffmpeg4.4', 'gtk+2-libs', 'gtk+3', 'openjre-x']"
 +++
 Java OpenJFX client application platform (open-source implementation of JavaFX)
 
-{{< files text="show files" >}}* /usr/lib/jvm/java-19-openjdk/jmods/javafx.base.jmod
+## Files: 
+* /usr/lib/jvm/java-19-openjdk/jmods/javafx.base.jmod
 * /usr/lib/jvm/java-19-openjdk/jmods/javafx.controls.jmod
 * /usr/lib/jvm/java-19-openjdk/jmods/javafx.fxml.jmod
 * /usr/lib/jvm/java-19-openjdk/jmods/javafx.graphics.jmod
@@ -49,4 +50,3 @@ Java OpenJFX client application platform (open-source implementation of JavaFX)
 * /usr/lib/jvm/java-19-openjdk/lib/libprism_sw.so
 * /usr/share/doc/openjfx-19.0.2+1/LICENSE
 * /usr/share/doc/openjfx-19.0.2+1/README.md
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['nmapsi4']"
 +++
 A network exploration tool and security scanner
 
-{{< files text="show files" >}}* /usr/bin/ndiff
+## Files: 
+* /usr/bin/ndiff
 * /usr/bin/nmap
 * /usr/bin/uninstall_ndiff
 * /usr/lib/python3.12/site-packages/ndiff.py
@@ -845,4 +846,3 @@ A network exploration tool and security scanner
 * /usr/share/nmap/scripts/xmlrpc-methods.nse
 * /usr/share/nmap/scripts/xmpp-brute.nse
 * /usr/share/nmap/scripts/xmpp-info.nse
-{{< /files >}}

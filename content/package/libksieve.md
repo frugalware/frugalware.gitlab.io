@@ -16,7 +16,8 @@ reverse_depends = "['kdepim-addons', 'kmail', 'pim-sieve-editor']"
 +++
 This lib manages sieve support
 
-{{< files text="show files" >}}* /usr/include/KF5/KSieve/libksieve_version.h
+## Files: 
+* /usr/include/KF5/KSieve/libksieve_version.h
 * /usr/include/KPim5/KManageSieve/kmanagesieve/kmanagesieve_export.h
 * /usr/include/KPim5/KManageSieve/KManageSieve/SieveJob
 * /usr/include/KPim5/KManageSieve/kmanagesieve/sievejob.h
@@ -153,4 +154,3 @@ This lib manages sieve support
 * /usr/share/qt5/mkspecs/modules/qt_KSieveUi.pri
 * /usr/share/sieve/scripts/copy/template.desktop
 * /usr/share/sieve/scripts/copy/template.txt
-{{< /files >}}

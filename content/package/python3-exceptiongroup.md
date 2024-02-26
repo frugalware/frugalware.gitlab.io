@@ -16,7 +16,8 @@ reverse_depends = "['python3-trio']"
 +++
 Backport of PEP 654 (exception groups)
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/exceptiongroup-1.2.0.dist-info/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/exceptiongroup-1.2.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/exceptiongroup-1.2.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/exceptiongroup-1.2.0.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/exceptiongroup-1.2.0.dist-info/WHEEL
@@ -41,4 +42,3 @@ Backport of PEP 654 (exception groups)
 * /usr/lib/python3.12/site-packages/exceptiongroup/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-exceptiongroup-1.2.0/LICENSE
 * /usr/share/doc/python3-exceptiongroup-1.2.0/README.rst
-{{< /files >}}

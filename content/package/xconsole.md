@@ -16,11 +16,11 @@ license = "GPL2"
 +++
 X.Org xconsole application
 
-{{< files text="show files" >}}* /usr/bin/xconsole
+## Files: 
+* /usr/bin/xconsole
 * /usr/share/doc/xconsole-1.0.8/ChangeLog
 * /usr/share/doc/xconsole-1.0.8/COPYING
 * /usr/share/doc/xconsole-1.0.8/INSTALL
 * /usr/share/doc/xconsole-1.0.8/README.md
 * /usr/share/man/man1/xconsole.1.gz
 * /usr/share/X11/app-defaults/XConsole
-{{< /files >}}

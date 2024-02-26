@@ -16,7 +16,8 @@ reverse_depends = "['libenca']"
 +++
 Converts files between various character sets and usages
 
-{{< files text="show files" >}}* /usr/bin/recode
+## Files: 
+* /usr/bin/recode
 * /usr/include/recode.h
 * /usr/include/recodext.h
 * /usr/lib/librecode.so
@@ -45,4 +46,3 @@ Converts files between various character sets and usages
 * /usr/share/locale/sl/LC_MESSAGES/recode.mo
 * /usr/share/locale/sv/LC_MESSAGES/recode.mo
 * /usr/share/man/man1/recode.1.gz
-{{< /files >}}

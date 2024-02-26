@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 C++ <-> Lua API wrapper with advanced features and top notch performance
 
-{{< files text="show files" >}}* /usr/include/sol/assert.hpp
+## Files: 
+* /usr/include/sol/assert.hpp
 * /usr/include/sol/as_args.hpp
 * /usr/include/sol/as_returns.hpp
 * /usr/include/sol/base_traits.hpp
@@ -132,4 +133,3 @@ C++ <-> Lua API wrapper with advanced features and top notch performance
 * /usr/lib/cmake/sol2/sol2-targets.cmake
 * /usr/lib/pkgconfig/sol2.pc
 * /usr/share/doc/sol2-3.3.0/README.md
-{{< /files >}}

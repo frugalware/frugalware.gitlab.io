@@ -15,7 +15,8 @@ depends = "['kwallet5>=5.115.0']"
 +++
 Kf5 implementation of ssh-askpass with Kwallet integration
 
-{{< files text="show files" >}}* /etc/profile.d/ksshaskpass5.sh
+## Files: 
+* /etc/profile.d/ksshaskpass5.sh
 * /usr/bin/ksshaskpass
 * /usr/share/doc/ksshaskpass5-5.27.10/ChangeLog
 * /usr/share/doc/ksshaskpass5-5.27.10/INSTALL
@@ -69,4 +70,3 @@ Kf5 implementation of ssh-askpass with Kwallet integration
 * /usr/share/locale/zh_CN/LC_MESSAGES/ksshaskpass.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/ksshaskpass.mo
 * /usr/share/man/man1/ksshaskpass.1.gz
-{{< /files >}}

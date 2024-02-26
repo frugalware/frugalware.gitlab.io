@@ -15,7 +15,8 @@ depends = "['bzip2', 'curl', 'libx11', 'libxcb', 'openssl>=3.1.0']"
 +++
 A new type of shell
 
-{{< files text="show files" >}}* /usr/bin/nu
+## Files: 
+* /usr/bin/nu
 * /usr/bin/nu_plugin_custom_values
 * /usr/bin/nu_plugin_example
 * /usr/bin/nu_plugin_formats
@@ -24,4 +25,3 @@ A new type of shell
 * /usr/bin/nu_plugin_query
 * /usr/share/doc/nushell-0.88.1/LICENSE
 * /usr/share/doc/nushell-0.88.1/README.md
-{{< /files >}}

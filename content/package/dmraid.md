@@ -17,7 +17,8 @@ license = "GPL"
 +++
 Device mapper RAID interface
 
-{{< files text="show files" >}}* /usr/bin/dmevent_tool
+## Files: 
+* /usr/bin/dmevent_tool
 * /usr/bin/dmraid
 * /usr/include/dmraid/display.h
 * /usr/include/dmraid/dmraid.h
@@ -38,4 +39,3 @@ Device mapper RAID interface
 * /usr/lib/tmpfiles.d/dmraid.conf
 * /usr/share/man/man8/dmevent_tool.8.gz
 * /usr/share/man/man8/dmraid.8.gz
-{{< /files >}}

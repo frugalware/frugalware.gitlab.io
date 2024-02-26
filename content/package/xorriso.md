@@ -15,7 +15,8 @@ depends = "['bzip2', 'readline>=8.0', 'xfsprogs-acl', 'zlib>=1.2.12']"
 +++
 ISO9660 Rock Ridge Filesystem Manipulator
 
-{{< files text="show files" >}}* /usr/bin/osirrox
+## Files: 
+* /usr/bin/osirrox
 * /usr/bin/xorrecord
 * /usr/bin/xorriso
 * /usr/bin/xorriso-dd-target
@@ -38,4 +39,3 @@ ISO9660 Rock Ridge Filesystem Manipulator
 * /usr/share/man/man1/xorriso-tcltk.1.gz
 * /usr/share/man/man1/xorriso.1.gz
 * /usr/share/man/man1/xorrisofs.1.gz
-{{< /files >}}

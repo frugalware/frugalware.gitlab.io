@@ -15,11 +15,11 @@ depends = "['glibc']"
 +++
 Minimalist argument handler
 
-{{< files text="show files" >}}* /usr/include/argh.h
+## Files: 
+* /usr/include/argh.h
 * /usr/lib/cmake/argh/argh-config.cmake
 * /usr/lib/cmake/argh/arghTargets.cmake
 * /usr/share/doc/argh-1.3.2/LICENSE
 * /usr/share/doc/argh-1.3.2/README.md
 * /usr/share/doc/argh/LICENSE
 * /usr/share/doc/argh/README.md
-{{< /files >}}

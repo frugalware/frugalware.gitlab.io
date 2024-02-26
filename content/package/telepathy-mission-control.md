@@ -16,7 +16,8 @@ reverse_depends = "['telepathy-accounts-signon', 'telepathy-mission-control-doc'
 +++
 Mission Control, or MC, is a telepathy (chat and voip framework) component
 
-{{< files text="show files" >}}* /usr/bin/mc-tool
+## Files: 
+* /usr/bin/mc-tool
 * /usr/bin/mc-wait-for-name
 * /usr/include/mission-control-5.5/mission-control-plugins/account-storage.h
 * /usr/include/mission-control-5.5/mission-control-plugins/account.h
@@ -70,4 +71,3 @@ Mission Control, or MC, is a telepathy (chat and voip framework) component
 * /usr/share/man/man1/mc-tool.1.gz
 * /usr/share/man/man1/mc-wait-for-name.1.gz
 * /usr/share/man/man8/mission-control-5.8.gz
-{{< /files >}}

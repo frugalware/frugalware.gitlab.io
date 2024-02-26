@@ -15,4 +15,4 @@ depends = "[]"
 +++
 A new implementation of the C++ standard library (32-bit static)
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

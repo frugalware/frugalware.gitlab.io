@@ -16,11 +16,11 @@ reverse_depends = "['lib32-libsndfile', 'lib32-nss']"
 +++
 A C library that implements an SQL database engine ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/sqlite3
+## Files: 
+* /usr/i686-frugalware-linux/bin/sqlite3
 * /usr/i686-frugalware-linux/include/sqlite3.h
 * /usr/i686-frugalware-linux/include/sqlite3ext.h
 * /usr/lib32/libsqlite3.so
 * /usr/lib32/libsqlite3.so.0
 * /usr/lib32/libsqlite3.so.0.8.6
 * /usr/lib32/pkgconfig/sqlite3.pc
-{{< /files >}}

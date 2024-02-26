@@ -16,7 +16,8 @@ reverse_depends = "['lib32-libcups', 'lib32-polkit', 'lib32-util-linux', 'lib32-
 +++
 Linux-PAM (Pluggable Authentication Modules) ( 32bit )
 
-{{< files text="show files" >}}* /usr/lib32/libpam.so
+## Files: 
+* /usr/lib32/libpam.so
 * /usr/lib32/libpam.so.0
 * /usr/lib32/libpam.so.0.85.1
 * /usr/lib32/libpamc.so
@@ -71,4 +72,3 @@ Linux-PAM (Pluggable Authentication Modules) ( 32bit )
 * /usr/lib32/security/pam_warn.so
 * /usr/lib32/security/pam_wheel.so
 * /usr/lib32/security/pam_xauth.so
-{{< /files >}}

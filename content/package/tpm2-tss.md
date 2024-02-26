@@ -16,7 +16,8 @@ reverse_depends = "['fwupd']"
 +++
 Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2)
 
-{{< files text="show files" >}}* /etc/sysusers.d/tpm2-tss.conf
+## Files: 
+* /etc/sysusers.d/tpm2-tss.conf
 * /etc/tmpfiles.d/tpm2-tss-fapi.conf
 * /etc/tpm2-tss/fapi-config.json
 * /etc/tpm2-tss/fapi-profiles/P_ECCP256SHA256.json
@@ -254,4 +255,3 @@ Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2)
 * /usr/share/man/man7/tss2-tcti-mssim.7.gz
 * /usr/share/man/man7/tss2-tcti-swtpm.7.gz
 * /usr/share/man/man7/tss2-tctildr.7.gz
-{{< /files >}}

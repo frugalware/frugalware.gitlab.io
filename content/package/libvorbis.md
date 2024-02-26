@@ -16,7 +16,8 @@ reverse_depends = "['alienarena', 'allegro', 'assaultcube', 'cdrdao', 'efl', 'en
 +++
 Vorbis codec library
 
-{{< files text="show files" >}}* /usr/include/vorbis/codec.h
+## Files: 
+* /usr/include/vorbis/codec.h
 * /usr/include/vorbis/vorbisenc.h
 * /usr/include/vorbis/vorbisfile.h
 * /usr/lib/libvorbis.so
@@ -171,4 +172,3 @@ Vorbis codec library
 * /usr/share/doc/libvorbis-1.3.7/vorbisfile/style.css
 * /usr/share/doc/libvorbis-1.3.7/vorbisfile/threads.html
 * /usr/share/doc/libvorbis-1.3.7/vorbisfile/vorbisfile_example_c.html
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['docbook2x', 'perl-xml-sax-expat']"
 +++
 Simple API for XML
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/XML/SAX.pm
+## Files: 
+* /usr/lib/perl5/site_perl/XML/SAX.pm
 * /usr/lib/perl5/site_perl/XML/SAX/DocumentLocator.pm
 * /usr/lib/perl5/site_perl/XML/SAX/Intro.pod
 * /usr/lib/perl5/site_perl/XML/SAX/ParserFactory.pm
@@ -49,4 +50,3 @@ Simple API for XML
 * /usr/share/man/man3/XML::SAX::ParserFactory.3perl.gz
 * /usr/share/man/man3/XML::SAX::PurePerl.3perl.gz
 * /usr/share/man/man3/XML::SAX::PurePerl::Reader.3perl.gz
-{{< /files >}}

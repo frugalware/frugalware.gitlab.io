@@ -16,7 +16,8 @@ reverse_depends = "['lumina-desktop']"
 +++
 KDE Oxygen style.
 
-{{< files text="show files" >}}* /usr/bin/oxygen-demo5
+## Files: 
+* /usr/bin/oxygen-demo5
 * /usr/bin/oxygen-settings5
 * /usr/lib/liboxygenstyle5.so.5
 * /usr/lib/liboxygenstyle5.so.5.27.10
@@ -795,4 +796,3 @@ KDE Oxygen style.
 * /usr/share/plasma/look-and-feel/org.kde.oxygen/contents/splash/images/rectangle.png
 * /usr/share/plasma/look-and-feel/org.kde.oxygen/contents/splash/Splash.qml
 * /usr/share/plasma/look-and-feel/org.kde.oxygen/metadata.desktop
-{{< /files >}}

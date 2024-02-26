@@ -16,7 +16,8 @@ reverse_depends = "['haskell-integer-conversion', 'haskell-resourcet', 'haskell-
 +++
 Wrappers for primitive operations.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/primitive-0.9.0.0/Control/Monad/Primitive.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/primitive-0.9.0.0/Control/Monad/Primitive.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/primitive-0.9.0.0/Control/Monad/Primitive.hi
 * /usr/lib/ghc-9.8.1/site-local/primitive-0.9.0.0/Data/Primitive.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/primitive-0.9.0.0/Data/Primitive.hi
@@ -90,4 +91,3 @@ Wrappers for primitive operations.
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/primitive-0.9.0.0/LICENSE
 * /usr/share/haskell/haskell-primitive/register.sh
 * /usr/share/haskell/haskell-primitive/unregister.sh
-{{< /files >}}

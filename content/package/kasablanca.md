@@ -15,7 +15,8 @@ depends = "['expat', 'libstdc++', 'libxi', 'libxmu']"
 +++
 Kasablanca is a KDE ftp client.
 
-{{< files text="show files" >}}* usr/bin/kasablanca
+## Files: 
+* usr/bin/kasablanca
 * usr/share/applnk/Utilities/kasablanca.desktop
 * usr/share/apps/kasablanca/about.png
 * usr/share/apps/kasablanca/kasablancaui.rc
@@ -38,4 +39,3 @@ Kasablanca is a KDE ftp client.
 * usr/share/icons/hicolor/64x64/apps/kasablanca.png
 * usr/share/locale/de/LC_MESSAGES/kasablanca.mo
 * usr/share/locale/pl/LC_MESSAGES/kasablanca.mo
-{{< /files >}}

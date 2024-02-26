@@ -15,8 +15,8 @@ depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kio', 'kwindowsystem', 'libreoff
 +++
 libreoffice KF5/Qt5 integration
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/program/libkf5be1lo.so
+## Files: 
+* /usr/lib/libreoffice/program/libkf5be1lo.so
 * /usr/lib/libreoffice/program/libvclplug_kf5lo.so
 * /usr/lib/libreoffice/program/libvclplug_qt5lo.so
 * /usr/lib/libreoffice/program/lo_kde5filepicker
-{{< /files >}}

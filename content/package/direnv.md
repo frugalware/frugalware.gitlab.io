@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 a shell extension that manages your environment
 
-{{< files text="show files" >}}* /usr/bin/direnv
+## Files: 
+* /usr/bin/direnv
 * /usr/share/doc/direnv-2.33.0/LICENSE
 * /usr/share/doc/direnv-2.33.0/README.md
 * /usr/share/fish/vendor_conf.d/direnv.fish
@@ -23,4 +24,3 @@ a shell extension that manages your environment
 * /usr/share/man/man1/direnv-stdlib.1.gz
 * /usr/share/man/man1/direnv.1.gz
 * /usr/share/man/man1/direnv.toml.1.gz
-{{< /files >}}

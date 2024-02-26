@@ -15,7 +15,8 @@ depends = "['grantlee>=5.0.0', 'kdelibs4support>=5.112.0', 'knewstuff>=5.112.0',
 +++
 Personal finances manager for KDE5, allowing you to keep track of your incomes and expenses
 
-{{< files text="show files" >}}* /usr/bin/skrooge
+## Files: 
+* /usr/bin/skrooge
 * /usr/bin/skroogeconvert
 * /usr/lib/libskgbankgui.so.2
 * /usr/lib/libskgbankgui.so.2.31.0
@@ -908,4 +909,3 @@ Personal finances manager for KDE5, allowing you to keep track of your incomes a
 * /usr/share/skrooge/skrooge-ratesapi.py
 * /usr/share/skrooge/skrooge-sabb.py
 * /usr/share/skrooge/skrooge-yahoodl.py
-{{< /files >}}

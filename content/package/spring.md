@@ -15,7 +15,8 @@ depends = "['curl>=7.47.0', 'devil>=1.8.0', 'freetype2>=2.6.2-3', 'glew>=2.2.0',
 +++
 A free 3D game engine for the real-time-strategy (RTS) game Total Annihilation
 
-{{< files text="show files" >}}* /usr/bin/mapcompile
+## Files: 
+* /usr/bin/mapcompile
 * /usr/bin/mapdecompile
 * /usr/bin/pr-downloader
 * /usr/bin/spring
@@ -330,4 +331,3 @@ A free 3D game engine for the real-time-strategy (RTS) game Total Annihilation
 * /usr/share/spring/LuaUI/utils.lua
 * /usr/share/spring/LuaUI/widgets.lua
 * /usr/share/spring/socket.lua
-{{< /files >}}

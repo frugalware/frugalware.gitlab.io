@@ -16,7 +16,8 @@ reverse_depends = "['lib32-xcb-util-image']"
 +++
 Utility libraries for X C Binding ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/xcb/xcb_atom.h
+## Files: 
+* /usr/i686-frugalware-linux/include/xcb/xcb_atom.h
 * /usr/i686-frugalware-linux/include/xcb/xcb_aux.h
 * /usr/i686-frugalware-linux/include/xcb/xcb_event.h
 * /usr/i686-frugalware-linux/include/xcb/xcb_util.h
@@ -27,4 +28,3 @@ Utility libraries for X C Binding ( 32bit )
 * /usr/lib32/pkgconfig/xcb-aux.pc
 * /usr/lib32/pkgconfig/xcb-event.pc
 * /usr/lib32/pkgconfig/xcb-util.pc
-{{< /files >}}

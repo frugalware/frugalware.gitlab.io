@@ -16,7 +16,8 @@ reverse_depends = "['plasma-bigscreen']"
 +++
 Settings application for Plasma Mobile
 
-{{< files text="show files" >}}* /usr/bin/plasma-settings
+## Files: 
+* /usr/bin/plasma-settings
 * /usr/lib/qt5/plugins/kcms/kcm_cellular_network.so
 * /usr/lib/qt5/plugins/kcms/kcm_mobile_info.so
 * /usr/lib/qt5/plugins/kcms/kcm_mobile_onscreenkeyboard.so
@@ -251,4 +252,3 @@ Settings application for Plasma Mobile
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_mobile_time.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_mobile_virtualkeyboard.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/mobile.plasmasettings.mo
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Documentation for the Python scripting language
 
-{{< files text="show files" >}}* /etc/profile.d/python-docs.sh
+## Files: 
+* /etc/profile.d/python-docs.sh
 * /usr/share/doc/python-2.7.18/.buildinfo
 * /usr/share/doc/python-2.7.18/about.html
 * /usr/share/doc/python-2.7.18/bugs.html
@@ -1032,4 +1033,3 @@ Documentation for the Python scripting language
 * /usr/share/doc/python-2.7.18/_static/switchers.js
 * /usr/share/doc/python-2.7.18/_static/underscore-1.3.1.js
 * /usr/share/doc/python-2.7.18/_static/underscore.js
-{{< /files >}}

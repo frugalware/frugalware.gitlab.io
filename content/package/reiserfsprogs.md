@@ -16,7 +16,8 @@ reverse_depends = "['partitionmanager']"
 +++
 Reiserfs utilities
 
-{{< files text="show files" >}}* /usr/bin/debugfs.reiserfs
+## Files: 
+* /usr/bin/debugfs.reiserfs
 * /usr/bin/debugreiserfs
 * /usr/bin/fsck.reiserfs
 * /usr/bin/mkfs.reiserfs
@@ -49,4 +50,3 @@ Reiserfs utilities
 * /usr/share/man/man8/reiserfstune.8.gz
 * /usr/share/man/man8/resize_reiserfs.8.gz
 * /usr/share/man/man8/tunefs.reiserfs.8.gz
-{{< /files >}}

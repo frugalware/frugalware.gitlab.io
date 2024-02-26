@@ -16,7 +16,8 @@ reverse_depends = "['element', 'qtox', 'skrooge']"
 +++
 SQLite extension that provides 256 bit AES encryption of database files.
 
-{{< files text="show files" >}}* /usr/bin/sqlcipher
+## Files: 
+* /usr/bin/sqlcipher
 * /usr/include/sqlcipher/sqlite3.h
 * /usr/include/sqlcipher/sqlite3ext.h
 * /usr/lib/libsqlcipher.so
@@ -28,4 +29,3 @@ SQLite extension that provides 256 bit AES encryption of database files.
 * /usr/share/doc/sqlcipher-4.5.2/LICENSE
 * /usr/share/doc/sqlcipher-4.5.2/README.md
 * /usr/share/doc/sqlcipher-4.5.2/VERSION
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['perl-mail-dkim', 'perl-mail-spf', 'perl-net-dns-resolver-pr
 +++
 Perl interface to the DNS resolver
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/Net/DNS.pm
+## Files: 
+* /usr/lib/perl5/site_perl/Net/DNS.pm
 * /usr/lib/perl5/site_perl/Net/DNS/Domain.pm
 * /usr/lib/perl5/site_perl/Net/DNS/DomainName.pm
 * /usr/lib/perl5/site_perl/Net/DNS/FAQ.pod
@@ -189,4 +190,3 @@ Perl interface to the DNS resolver
 * /usr/share/man/man3/Net::DNS::Text.3perl.gz
 * /usr/share/man/man3/Net::DNS::Update.3perl.gz
 * /usr/share/man/man3/Net::DNS::ZoneFile.3perl.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['lapack>=3.12.0', 'libblas>=3.12.0', 'libgfortran>=11.2']"
 +++
 C Standard Interface to LAPACK Linear Algebra Package.
 
-{{< files text="show files" >}}* /usr/lib/cmake/lapacke64-3.12.0/lapacke64-config-version.cmake
+## Files: 
+* /usr/lib/cmake/lapacke64-3.12.0/lapacke64-config-version.cmake
 * /usr/lib/cmake/lapacke64-3.12.0/lapacke64-config.cmake
 * /usr/lib/cmake/lapacke64-3.12.0/lapacke64-targets-release.cmake
 * /usr/lib/cmake/lapacke64-3.12.0/lapacke64-targets.cmake
@@ -23,4 +24,3 @@ C Standard Interface to LAPACK Linear Algebra Package.
 * /usr/lib/liblapacke64.so.3
 * /usr/lib/liblapacke64.so.3.12.0
 * /usr/lib/pkgconfig/lapacke64.pc
-{{< /files >}}

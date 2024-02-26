@@ -15,7 +15,8 @@ depends = "['lib32-libuuid>=2.29.2-2', 'lib32-libxmu>=1.1.2-3', 'lib32-libxpm>=3
 +++
 X.Org Xaw library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/Xaw/AllWidgets.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/Xaw/AllWidgets.h
 * /usr/i686-frugalware-linux/include/X11/Xaw/AsciiSink.h
 * /usr/i686-frugalware-linux/include/X11/Xaw/AsciiSinkP.h
 * /usr/i686-frugalware-linux/include/X11/Xaw/AsciiSrc.h
@@ -97,4 +98,3 @@ X.Org Xaw library ( 32bit )
 * /usr/lib32/libXaw7.so.7.0.0
 * /usr/lib32/pkgconfig/xaw6.pc
 * /usr/lib32/pkgconfig/xaw7.pc
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Slovenian Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/katepart/syntax/logohighlightstyle.sl.xml
+## Files: 
+* usr/share/apps/katepart/syntax/logohighlightstyle.sl.xml
 * usr/share/apps/khangman/data/sl/animals.kvtml
 * usr/share/apps/khangman/data/sl/easy.kvtml
 * usr/share/apps/khangman/data/sl/hard.kvtml
@@ -933,4 +934,3 @@ Slovenian Localization for KDE.
 * usr/share/locale/sl/LC_MESSAGES/wakeup.mo
 * usr/share/locale/sl/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/sl/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

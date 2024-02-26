@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Norwegian Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/khangman/data/nn/animals.kvtml
+## Files: 
+* usr/share/apps/khangman/data/nn/animals.kvtml
 * usr/share/apps/khangman/data/nn/easy.kvtml
 * usr/share/apps/khangman/data/nn/hard.kvtml
 * usr/share/apps/khangman/data/nn/medium.kvtml
@@ -481,4 +482,3 @@ Norwegian Localization for KDE.
 * usr/share/locale/nn/LC_MESSAGES/wakeup.mo
 * usr/share/locale/nn/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/nn/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

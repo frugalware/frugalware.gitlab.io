@@ -16,7 +16,8 @@ reverse_depends = "['calindori', 'kpeoplevcard', 'plasma-desktop', 'plasma-works
 +++
 A library that provides access to all contacts and the people who hold them.
 
-{{< files text="show files" >}}* /usr/include/KF5/KPeople/KPeople/Global
+## Files: 
+* /usr/include/KF5/KPeople/KPeople/Global
 * /usr/include/KF5/KPeople/kpeople/global.h
 * /usr/include/KF5/KPeople/kpeople/kpeople_export.h
 * /usr/include/KF5/KPeople/KPeople/PersonData
@@ -124,4 +125,3 @@ A library that provides access to all contacts and the people who hold them.
 * /usr/share/qt5/mkspecs/modules/qt_KPeopleWidgets.pri
 * /usr/share/qt5/qml/org/kde/people/libKF5PeopleDeclarative.so
 * /usr/share/qt5/qml/org/kde/people/qmldir
-{{< /files >}}

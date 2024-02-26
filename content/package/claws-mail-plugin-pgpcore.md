@@ -15,5 +15,5 @@ depends = "['claws-mail=4.1.1', 'gpgme>=1.6.0-3']"
 +++
 Handles core PGP functions and is a dependency of both the PGP/Inline and PGP/MIME plugins.
 
-{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/pgpcore.so
-{{< /files >}}
+## Files: 
+* /usr/lib/claws-mail/plugins/pgpcore.so

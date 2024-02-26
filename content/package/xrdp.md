@@ -15,7 +15,8 @@ depends = "['fuse', 'glibc', 'libjpeg-turbo', 'libx11', 'libxau', 'libxcb', 'lib
 +++
 RDP Server - An open source RDP server and X server capable of accepting connections from rdesktop and ms terminal server clients.
 
-{{< files text="show files" >}}* /etc/default/xrdp
+## Files: 
+* /etc/default/xrdp
 * /etc/init.d/xrdp
 * /etc/pam.d/xrdp-sesman
 * /etc/xrdp/cert.pem
@@ -138,4 +139,3 @@ RDP Server - An open source RDP server and X server capable of accepting connect
 * /usr/share/xrdp/xrdp24b.bmp
 * /usr/share/xrdp/xrdp256.bmp
 * /usr/share/xrdp/xrdp_logo.bmp
-{{< /files >}}

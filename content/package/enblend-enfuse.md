@@ -15,7 +15,8 @@ depends = "['gsl>=2.7.1', 'lcms2>=2.7-3', 'libboost>=1.72.0', 'vigra>=1.11.0']"
 +++
 Enblend blends away the seams in a panoramic image mosaic using a multiresolution spline
 
-{{< files text="show files" >}}* /usr/bin/enblend
+## Files: 
+* /usr/bin/enblend
 * /usr/bin/enfuse
 * /usr/share/doc/enblend-enfuse-4.2/AUTHORS
 * /usr/share/doc/enblend-enfuse-4.2/ChangeLog
@@ -26,4 +27,3 @@ Enblend blends away the seams in a panoramic image mosaic using a multiresolutio
 * /usr/share/doc/enblend-enfuse-4.2/VERSION
 * /usr/share/man/man1/enblend.1.gz
 * /usr/share/man/man1/enfuse.1.gz
-{{< /files >}}

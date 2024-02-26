@@ -16,9 +16,9 @@ reverse_depends = "['lib32-libegl', 'lib32-libepoxy', 'lib32-libgl', 'lib32-mesa
 +++
 X Shared memory fences using futexes ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/xshmfence.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/xshmfence.h
 * /usr/lib32/libxshmfence.so
 * /usr/lib32/libxshmfence.so.1
 * /usr/lib32/libxshmfence.so.1.0.0
 * /usr/lib32/pkgconfig/xshmfence.pc
-{{< /files >}}

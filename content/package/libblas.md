@@ -16,8 +16,8 @@ reverse_depends = "['lapack', 'libcblas', 'libcblas64', 'liblapacke', 'liblapack
 +++
 Basic Linear Algebra Subprograms.
 
-{{< files text="show files" >}}* /usr/lib/libblas.so
+## Files: 
+* /usr/lib/libblas.so
 * /usr/lib/libblas.so.3
 * /usr/lib/libblas.so.3.12.0
 * /usr/lib/pkgconfig/blas.pc
-{{< /files >}}

@@ -15,6 +15,6 @@ depends = "['gnutls>=3.4.8', 'libassuan>=2.5.1-2', 'libffi>=3.2.1', 'libgcrypt>=
 +++
 GnuPG dirmngr with LDAP support
 
-{{< files text="show files" >}}* /usr/bin/ldap_dirmngr
+## Files: 
+* /usr/bin/ldap_dirmngr
 * /usr/lib/gnupg2/ldap_dirmngr_ldap
-{{< /files >}}

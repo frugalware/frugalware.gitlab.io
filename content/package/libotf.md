@@ -16,7 +16,8 @@ reverse_depends = "['m17n-lib']"
 +++
 Library for handling OpenType fonts (OTF).
 
-{{< files text="show files" >}}* /usr/bin/libotf-config
+## Files: 
+* /usr/bin/libotf-config
 * /usr/bin/otfdump
 * /usr/bin/otflist
 * /usr/bin/otftobdf
@@ -31,4 +32,3 @@ Library for handling OpenType fonts (OTF).
 * /usr/share/doc/libotf-0.9.16/INSTALL
 * /usr/share/doc/libotf-0.9.16/NEWS
 * /usr/share/doc/libotf-0.9.16/README
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['kalzium', 'kdenlive', 'kdesignerplugin', 'knights', 'kstars
 +++
 Framework providing easy data-plotting functions.
 
-{{< files text="show files" >}}* /usr/include/KF5/KPlotting/KPlotAxis
+## Files: 
+* /usr/include/KF5/KPlotting/KPlotAxis
 * /usr/include/KF5/KPlotting/kplotaxis.h
 * /usr/include/KF5/KPlotting/KPlotObject
 * /usr/include/KF5/KPlotting/kplotobject.h
@@ -36,4 +37,3 @@ Framework providing easy data-plotting functions.
 * /usr/lib/qt5/plugins/designer/kplotting5widgets.so
 * /usr/share/doc/kplotting-5.115.0/README.md
 * /usr/share/qt5/mkspecs/modules/qt_KPlotting.pri
-{{< /files >}}

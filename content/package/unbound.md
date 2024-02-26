@@ -16,7 +16,8 @@ reverse_depends = "['libreswan']"
 +++
 Validating, recursive, and caching DNS resolver
 
-{{< files text="show files" >}}* /etc/unbound/unbound.conf
+## Files: 
+* /etc/unbound/unbound.conf
 * /usr/bin/unbound
 * /usr/bin/unbound-anchor
 * /usr/bin/unbound-checkconf
@@ -71,4 +72,3 @@ Validating, recursive, and caching DNS resolver
 * /usr/share/man/man8/unbound-control-setup.8.gz
 * /usr/share/man/man8/unbound-control.8.gz
 * /usr/share/man/man8/unbound.8.gz
-{{< /files >}}

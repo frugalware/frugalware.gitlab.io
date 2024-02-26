@@ -16,11 +16,11 @@ reverse_depends = "['mixxx', 'vlc-chromaprint']"
 +++
 Library that implements a custom algorithm for extracting fingerprints from any audio source.
 
-{{< files text="show files" >}}* /usr/bin/fpcalc
+## Files: 
+* /usr/bin/fpcalc
 * /usr/include/chromaprint.h
 * /usr/lib/libchromaprint.so
 * /usr/lib/libchromaprint.so.1
 * /usr/lib/libchromaprint.so.1.5.1
 * /usr/lib/pkgconfig/libchromaprint.pc
 * /usr/share/doc/chromaprint-1.5.1/README.md
-{{< /files >}}

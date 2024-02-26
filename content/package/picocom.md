@@ -15,9 +15,9 @@ depends = "['glibc']"
 +++
 A minimal dumb terminal emulation program.
 
-{{< files text="show files" >}}* /usr/bin/picocom
+## Files: 
+* /usr/bin/picocom
 * /usr/share/doc/picocom-3.1/CONTRIBUTORS
 * /usr/share/doc/picocom-3.1/README.md
 * /usr/share/doc/picocom-3.1/TODO
 * /usr/share/man/man1/picocom.1.gz
-{{< /files >}}

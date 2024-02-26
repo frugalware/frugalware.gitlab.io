@@ -16,7 +16,8 @@ reverse_depends = "['seafile', 'seafile-client']"
 +++
 Seafile shared lib
 
-{{< files text="show files" >}}* /usr/include/seafile/seafile-error.h
+## Files: 
+* /usr/include/seafile/seafile-error.h
 * /usr/include/seafile/seafile-object.h
 * /usr/include/seafile/seafile-rpc.h
 * /usr/include/seafile/seafile.h
@@ -24,4 +25,3 @@ Seafile shared lib
 * /usr/lib/libseafile.so.0
 * /usr/lib/libseafile.so.0.0.0
 * /usr/lib/pkgconfig/libseafile.pc
-{{< /files >}}

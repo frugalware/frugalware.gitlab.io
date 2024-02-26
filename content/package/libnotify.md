@@ -16,7 +16,8 @@ reverse_depends = "['claws-mail-plugin-notification', 'discord', 'firefox', 'fre
 +++
 libnotify is a library for sending desktop notifications
 
-{{< files text="show files" >}}* /usr/bin/notify-send
+## Files: 
+* /usr/bin/notify-send
 * /usr/include/libnotify/notification.h
 * /usr/include/libnotify/notify-enum-types.h
 * /usr/include/libnotify/notify-features.h
@@ -125,4 +126,3 @@ libnotify is a library for sending desktop notifications
 * /usr/share/doc/libnotify-0/vfunc.Notification.closed.html
 * /usr/share/gir-1.0/Notify-0.7.gir
 * /usr/share/man/man1/notify-send.1.gz
-{{< /files >}}

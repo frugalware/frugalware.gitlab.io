@@ -15,7 +15,7 @@ depends = "[]"
 +++
 Commons Net implements the client side of many basic Internet protocols.
 
-{{< files text="show files" >}}* /usr/share/doc/commons-net-3.9.0/README.md
+## Files: 
+* /usr/share/doc/commons-net-3.9.0/README.md
 * /usr/share/doc/commons-net-3.9.0/RELEASE-NOTES.txt
 * /usr/share/java/commons-net.jar
-{{< /files >}}

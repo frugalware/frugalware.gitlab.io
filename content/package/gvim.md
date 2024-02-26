@@ -15,7 +15,8 @@ depends = "['gpm>=1.20.5-2', 'gtk+3>=3.22.6', 'libice', 'libsm', 'libxpm', 'libx
 +++
 VIM - GTK+2 GUI
 
-{{< files text="show files" >}}* /usr/bin/eview
+## Files: 
+* /usr/bin/eview
 * /usr/bin/evim
 * /usr/bin/gview
 * /usr/bin/gvim
@@ -29,4 +30,3 @@ VIM - GTK+2 GUI
 * /usr/share/doc/gvim-9.0.2130/README.txt
 * /usr/share/doc/gvim-9.0.2130/README_VIM9.md
 * /usr/share/vim/gvimrc
-{{< /files >}}

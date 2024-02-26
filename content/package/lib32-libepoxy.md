@@ -16,7 +16,8 @@ reverse_depends = "['lib32-xorg-server', 'lib32-xorg-server-xephyr']"
 +++
 Epoxy is a library for handling OpenGL function pointer management for you ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/epoxy/common.h
+## Files: 
+* /usr/i686-frugalware-linux/include/epoxy/common.h
 * /usr/i686-frugalware-linux/include/epoxy/egl.h
 * /usr/i686-frugalware-linux/include/epoxy/egl_generated.h
 * /usr/i686-frugalware-linux/include/epoxy/gl.h
@@ -27,4 +28,3 @@ Epoxy is a library for handling OpenGL function pointer management for you ( 32b
 * /usr/lib32/libepoxy.so.0
 * /usr/lib32/libepoxy.so.0.0.0
 * /usr/lib32/pkgconfig/epoxy.pc
-{{< /files >}}

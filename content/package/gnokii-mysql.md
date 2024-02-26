@@ -15,6 +15,6 @@ depends = "['glib2', 'gnokii=0.6.31', 'mariadb-libs>=10.3.14']"
 +++
 MySQL support for gnokii.
 
-{{< files text="show files" >}}* /usr/lib/smsd/libsmsd_mysql.la
+## Files: 
+* /usr/lib/smsd/libsmsd_mysql.la
 * /usr/lib/smsd/libsmsd_mysql.so
-{{< /files >}}

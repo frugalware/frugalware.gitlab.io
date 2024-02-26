@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.Org Xfixes library
 
-{{< files text="show files" >}}* /usr/include/X11/extensions/Xfixes.h
+## Files: 
+* /usr/include/X11/extensions/Xfixes.h
 * /usr/lib/libXfixes.so
 * /usr/lib/libXfixes.so.3
 * /usr/lib/libXfixes.so.3.1.0
@@ -28,4 +29,3 @@ X.Org Xfixes library
 * /usr/share/doc/libxfixes-6.0.1/INSTALL
 * /usr/share/doc/libxfixes-6.0.1/README.md
 * /usr/share/man/man3/Xfixes.3.gz
-{{< /files >}}

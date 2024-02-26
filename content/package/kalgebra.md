@@ -15,7 +15,8 @@ depends = "['analitza>=23.08.5', 'kio>=5.115.0', 'libglu>=9.0.0-3', 'qt5-webengi
 +++
 2D and 3D Graph Calculator.
 
-{{< files text="show files" >}}* /usr/bin/calgebra
+## Files: 
+* /usr/bin/calgebra
 * /usr/share/doc/HTML/ca/kalgebra/commands.docbook
 * /usr/share/doc/HTML/ca/kalgebra/index.cache.bz2
 * /usr/share/doc/HTML/ca/kalgebra/index.docbook
@@ -171,4 +172,3 @@ depends = "['analitza>=23.08.5', 'kio>=5.115.0', 'libglu>=9.0.0-3', 'qt5-webengi
 * /usr/share/locale/zh_CN/LC_MESSAGES/kalgebramobile.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kalgebra.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kalgebramobile.mo
-{{< /files >}}

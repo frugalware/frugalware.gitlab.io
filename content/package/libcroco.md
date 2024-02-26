@@ -16,7 +16,8 @@ reverse_depends = "['gettext', 'librsvg']"
 +++
 A standalone CSS2 parsing and manipulation library
 
-{{< files text="show files" >}}* /usr/bin/croco-0.6-config
+## Files: 
+* /usr/bin/croco-0.6-config
 * /usr/bin/csslint-0.6
 * /usr/include/libcroco-0.6/libcroco/cr-additional-sel.h
 * /usr/include/libcroco-0.6/libcroco/cr-attr-sel.h
@@ -59,4 +60,3 @@ A standalone CSS2 parsing and manipulation library
 * /usr/share/doc/libcroco-0.6.13/NEWS
 * /usr/share/doc/libcroco-0.6.13/README
 * /usr/share/doc/libcroco-0.6.13/TODO
-{{< /files >}}

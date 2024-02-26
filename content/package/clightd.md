@@ -16,7 +16,8 @@ reverse_depends = "['clight']"
 +++
 Bus interface to change screen brightness and capture frames from webcam.
 
-{{< files text="show files" >}}* /etc/dbus-1/system.d/org.clightd.clightd.conf
+## Files: 
+* /etc/dbus-1/system.d/org.clightd.clightd.conf
 * /usr/lib/clightd/clightd
 * /usr/lib/modules-load.d/i2c_clightd.conf
 * /usr/lib/systemd/system/clightd.service
@@ -24,4 +25,3 @@ Bus interface to change screen brightness and capture frames from webcam.
 * /usr/share/doc/clightd-5.8/COPYING
 * /usr/share/doc/clightd-5.8/README.md
 * /usr/share/polkit-1/actions/org.clightd.clightd.policy
-{{< /files >}}

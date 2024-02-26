@@ -16,7 +16,8 @@ reverse_depends = "['docker', 'kernel-initrd', 'kernel-lts-initrd', 'udisks2']"
 +++
 Utilities for managing btrfs filesystems.
 
-{{< files text="show files" >}}* /usr/bin/btrfs
+## Files: 
+* /usr/bin/btrfs
 * /usr/bin/btrfs-convert
 * /usr/bin/btrfs-find-root
 * /usr/bin/btrfs-image
@@ -77,4 +78,3 @@ Utilities for managing btrfs filesystems.
 * /usr/share/man/man8/btrfstune.8.gz
 * /usr/share/man/man8/fsck.btrfs.8.gz
 * /usr/share/man/man8/mkfs.btrfs.8.gz
-{{< /files >}}

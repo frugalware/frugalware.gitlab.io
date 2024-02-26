@@ -16,7 +16,8 @@ reverse_depends = "['pulsar', 'vscode']"
 +++
 A search tool that combines the usability of ag with the raw speed of grep
 
-{{< files text="show files" >}}* /usr/bin/rg
+## Files: 
+* /usr/bin/rg
 * /usr/share/bash-completion/completions/rg
 * /usr/share/doc/ripgrep-14.0.3/COPYING
 * /usr/share/doc/ripgrep-14.0.3/FAQ.md
@@ -25,4 +26,3 @@ A search tool that combines the usability of ag with the raw speed of grep
 * /usr/share/fish/vendor_completions.d/rg.fish
 * /usr/share/man/man1/rg.1.gz
 * /usr/share/zsh/site-functions/_rg
-{{< /files >}}

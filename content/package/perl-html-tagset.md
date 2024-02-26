@@ -16,8 +16,8 @@ reverse_depends = "['perl-html-parser']"
 +++
 data tables useful in parsing HTML
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/HTML/Tagset.pm
+## Files: 
+* /usr/lib/perl5/site_perl/current/HTML/Tagset.pm
 * /usr/share/doc/perl-html-tagset-3.20/MANIFEST
 * /usr/share/doc/perl-html-tagset-3.20/README
 * /usr/share/man/man3/HTML::Tagset.3perl.gz
-{{< /files >}}

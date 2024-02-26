@@ -16,7 +16,8 @@ reverse_depends = "['neovim']"
 +++
 A terminfo parsing library
 
-{{< files text="show files" >}}* /usr/include/unibilium.h
+## Files: 
+* /usr/include/unibilium.h
 * /usr/lib/libunibilium.so
 * /usr/lib/libunibilium.so.4
 * /usr/lib/libunibilium.so.4.0.0
@@ -76,4 +77,3 @@ A terminfo parsing library
 * /usr/share/man/man3/unibi_terminfo_dirs.3.gz
 * /usr/share/man/man3/unibi_var_from_num.3.gz
 * /usr/share/man/man3/unibi_var_from_str.3.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['ghc>=9.6.1']"
 +++
 A Setup.hs helper for running doctests
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/cabal-doctest-1.0.9/Distribution/Extra/Doctest.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/cabal-doctest-1.0.9/Distribution/Extra/Doctest.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/cabal-doctest-1.0.9/Distribution/Extra/Doctest.hi
 * /usr/lib/ghc-9.8.1/site-local/cabal-doctest-1.0.9/libHScabal-doctest-1.0.9-DecU5hXOEl5KWbjaUtKY8w.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHScabal-doctest-1.0.9-DecU5hXOEl5KWbjaUtKY8w-ghc9.8.1.so
@@ -33,4 +34,3 @@ A Setup.hs helper for running doctests
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/cabal-doctest-1.0.9/LICENSE
 * /usr/share/haskell/haskell-cabal-doctest/register.sh
 * /usr/share/haskell/haskell-cabal-doctest/unregister.sh
-{{< /files >}}

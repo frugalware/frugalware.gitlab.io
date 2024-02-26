@@ -16,7 +16,8 @@ reverse_depends = "['kwin5', 'plasma-integration', 'plasma-workspace']"
 +++
 Artwork, styles and assets for the Breeze visual style for the Plasma Desktop.
 
-{{< files text="show files" >}}* /usr/bin/breeze-settings5
+## Files: 
+* /usr/bin/breeze-settings5
 * /usr/lib/cmake/Breeze/BreezeConfig.cmake
 * /usr/lib/cmake/Breeze/BreezeConfigVersion.cmake
 * /usr/lib/kconf_update_bin/breezehighcontrasttobreezedark
@@ -416,4 +417,3 @@ Artwork, styles and assets for the Breeze visual style for the Plasma Desktop.
 * /usr/share/wallpapers/Next/contents/images_dark/720x1440.png
 * /usr/share/wallpapers/Next/contents/screenshot.png
 * /usr/share/wallpapers/Next/metadata.json
-{{< /files >}}

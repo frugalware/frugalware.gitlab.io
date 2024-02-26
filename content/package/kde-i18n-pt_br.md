@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Brazilian Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/katepart/syntax/logohighlightstyle.pt_BR.xml
+## Files: 
+* usr/share/apps/katepart/syntax/logohighlightstyle.pt_BR.xml
 * usr/share/apps/khangman/data/pt_BR/animals.kvtml
 * usr/share/apps/khangman/data/pt_BR/easy.kvtml
 * usr/share/apps/khangman/data/pt_BR/hard.kvtml
@@ -2084,4 +2085,3 @@ Brazilian Localization for KDE.
 * usr/share/locale/pt_BR/LC_MESSAGES/wakeup.mo
 * usr/share/locale/pt_BR/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/pt_BR/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

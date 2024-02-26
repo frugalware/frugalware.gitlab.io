@@ -15,9 +15,9 @@ depends = "['apache>=2.4.35', 'python3>=3.12']"
 +++
 Python WSGI adapter module for Apache.
 
-{{< files text="show files" >}}* /etc/httpd/conf/modules.d/mod_wsgi.conf
+## Files: 
+* /etc/httpd/conf/modules.d/mod_wsgi.conf
 * /usr/lib/apache/mod_wsgi.so
 * /usr/share/doc/mod_wsgi-4.9.4/LICENSE
 * /usr/share/doc/mod_wsgi-4.9.4/README-standalone.rst
 * /usr/share/doc/mod_wsgi-4.9.4/README.rst
-{{< /files >}}

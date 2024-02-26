@@ -15,7 +15,8 @@ depends = "['at-spi2-core', 'gdk-pixbuf2>=2.36.11-3', 'gtk+2-libs>=2.24.32', 'li
 +++
 Accessibility support for GTK+2 and libgnomecanvas
 
-{{< files text="show files" >}}* /usr/include/gail-1.0/gail/gailwidget.h
+## Files: 
+* /usr/include/gail-1.0/gail/gailwidget.h
 * /usr/include/gail-1.0/libgail-util/gail-util.h
 * /usr/include/gail-1.0/libgail-util/gailmisc.h
 * /usr/include/gail-1.0/libgail-util/gailtextutil.h
@@ -37,4 +38,3 @@ Accessibility support for GTK+2 and libgnomecanvas
 * /usr/share/gtk-doc/html/gail-libgail-util/style.css
 * /usr/share/gtk-doc/html/gail-libgail-util/up-insensitive.png
 * /usr/share/gtk-doc/html/gail-libgail-util/up.png
-{{< /files >}}

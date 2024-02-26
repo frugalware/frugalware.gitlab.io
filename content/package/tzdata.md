@@ -16,7 +16,8 @@ reverse_depends = "['glibc']"
 +++
 Sources for time zone and daylight saving time data
 
-{{< files text="show files" >}}* /usr/bin/tzselect
+## Files: 
+* /usr/bin/tzselect
 * /usr/bin/zdump
 * /usr/bin/zic
 * /usr/lib/libtz.a
@@ -2422,4 +2423,3 @@ Sources for time zone and daylight saving time data
 * /usr/share/zoneinfo/zone1970.tab
 * /usr/share/zoneinfo/zonenow.tab
 * /usr/share/zoneinfo/Zulu
-{{< /files >}}

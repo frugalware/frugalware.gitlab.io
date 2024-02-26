@@ -15,5 +15,5 @@ depends = "['libx11', 'libxfixes', 'wireplumber']"
 +++
 Pipewire X11 bell
 
-{{< files text="show files" >}}* /usr/lib/pipewire-0.3/libpipewire-module-x11-bell.so
-{{< /files >}}
+## Files: 
+* /usr/lib/pipewire-0.3/libpipewire-module-x11-bell.so

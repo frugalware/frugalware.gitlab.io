@@ -16,8 +16,8 @@ reverse_depends = "['perl-http-message']"
 +++
 Determine the locale encoding.
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/Encode/Locale.pm
+## Files: 
+* /usr/lib/perl5/site_perl/current/Encode/Locale.pm
 * /usr/share/doc/perl-encode-locale-1.05/MANIFEST
 * /usr/share/doc/perl-encode-locale-1.05/README
 * /usr/share/man/man3/Encode::Locale.3perl.gz
-{{< /files >}}

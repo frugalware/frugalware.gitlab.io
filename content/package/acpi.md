@@ -16,11 +16,11 @@ reverse_depends = "['lumina-desktop']"
 +++
 Linux ACPI Client
 
-{{< files text="show files" >}}* /usr/bin/acpi
+## Files: 
+* /usr/bin/acpi
 * /usr/share/doc/acpi-1.7/AUTHORS
 * /usr/share/doc/acpi-1.7/ChangeLog
 * /usr/share/doc/acpi-1.7/COPYING
 * /usr/share/doc/acpi-1.7/INSTALL
 * /usr/share/doc/acpi-1.7/README
 * /usr/share/man/man1/acpi.1.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['kmenuedit5']"
 +++
 KDE's hotkey daemon.
 
-{{< files text="show files" >}}* /usr/lib/cmake/KHotKeysDBusInterface/KHotKeysDBusInterfaceConfig.cmake
+## Files: 
+* /usr/lib/cmake/KHotKeysDBusInterface/KHotKeysDBusInterfaceConfig.cmake
 * /usr/lib/libkhotkeysprivate.so.5
 * /usr/lib/libkhotkeysprivate.so.5.27.10
 * /usr/lib/qt5/plugins/kcm_hotkeys.so
@@ -175,4 +176,3 @@ KDE's hotkey daemon.
 * /usr/share/locale/xh/LC_MESSAGES/khotkeys.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/khotkeys.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/khotkeys.mo
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "['dav1d>=1.3.0', 'libvlc>=3.0.20']"
 +++
 vlc dav1d support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/libdav1d_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/codec/libdav1d_plugin.so

@@ -16,5 +16,5 @@ reverse_depends = "['lib32-xcb-proto']"
 +++
 X.org Stubs missing from libc for standard pthread functions ( 32bit )
 
-{{< files text="show files" >}}* /usr/lib32/pkgconfig/pthread-stubs.pc
-{{< /files >}}
+## Files: 
+* /usr/lib32/pkgconfig/pthread-stubs.pc

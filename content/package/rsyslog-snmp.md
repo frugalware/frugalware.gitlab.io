@@ -15,5 +15,5 @@ depends = "['net-snmp>=5.9', 'rsyslog>=8.2312.0']"
 +++
 SNMP protocol support for rsyslog
 
-{{< files text="show files" >}}* /usr/lib/rsyslog/omsnmp.so
-{{< /files >}}
+## Files: 
+* /usr/lib/rsyslog/omsnmp.so

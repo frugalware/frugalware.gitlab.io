@@ -15,8 +15,8 @@ depends = "['gnokii=0.6.31', 'gtk+2>=2.24.29-2']"
 +++
 Gtk+2 GUi for gnokii
 
-{{< files text="show files" >}}* /usr/bin/xgnokii
+## Files: 
+* /usr/bin/xgnokii
 * /usr/lib/pkgconfig/xgnokii.pc
 * /usr/share/applications/xgnokii.desktop
 * /usr/share/pixmaps/xgnokii.xpm
-{{< /files >}}

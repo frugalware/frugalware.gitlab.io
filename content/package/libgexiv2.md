@@ -16,7 +16,8 @@ reverse_depends = "['gimp']"
 +++
 GObject-based wrapper around the Exiv2 library.
 
-{{< files text="show files" >}}* /usr/include/gexiv2/gexiv2-enums.h
+## Files: 
+* /usr/include/gexiv2/gexiv2-enums.h
 * /usr/include/gexiv2/gexiv2-log.h
 * /usr/include/gexiv2/gexiv2-managed-stream.h
 * /usr/include/gexiv2/gexiv2-metadata.h
@@ -41,4 +42,3 @@ GObject-based wrapper around the Exiv2 library.
 * /usr/share/gir-1.0/GExiv2-0.10.gir
 * /usr/share/vala/vapi/gexiv2.deps
 * /usr/share/vala/vapi/gexiv2.vapi
-{{< /files >}}

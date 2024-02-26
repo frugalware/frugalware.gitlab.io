@@ -16,7 +16,8 @@ reverse_depends = "['cups-filters', 'efl', 'kitinerary', 'poppler-glib', 'popple
 +++
 A PDF rendering library
 
-{{< files text="show files" >}}* /etc/fonts/conf.avail/01-poppler.conf
+## Files: 
+* /etc/fonts/conf.avail/01-poppler.conf
 * /etc/fonts/conf.d/01-poppler.conf
 * /usr/include/poppler/Annot.h
 * /usr/include/poppler/AnnotStampImageHelper.h
@@ -172,4 +173,3 @@ A PDF rendering library
 * /usr/share/doc/poppler-24.02.0/README.contributors
 * /usr/share/doc/poppler-24.02.0/README.md
 * /usr/share/gir-1.0/Poppler-0.18.gir
-{{< /files >}}

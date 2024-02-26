@@ -15,7 +15,8 @@ depends = "['libxslt>=1.1.28', 'xz']"
 +++
 A collection of command-line utilities for manipulating XML files.
 
-{{< files text="show files" >}}* /usr/bin/xml
+## Files: 
+* /usr/bin/xml
 * /usr/share/doc/xmlstarlet-1.6.1/AUTHORS
 * /usr/share/doc/xmlstarlet-1.6.1/ChangeLog
 * /usr/share/doc/xmlstarlet-1.6.1/COPYING
@@ -28,4 +29,3 @@ A collection of command-line utilities for manipulating XML files.
 * /usr/share/doc/xmlstarlet-1.6.1/xmlstarlet-ug.html
 * /usr/share/doc/xmlstarlet-1.6.1/xmlstarlet.txt
 * /usr/share/man/man1/xmlstarlet.1.gz
-{{< /files >}}

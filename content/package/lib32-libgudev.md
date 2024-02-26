@@ -16,7 +16,8 @@ reverse_depends = "['lib32-modemmanager', 'lib32-networkmanager']"
 +++
 GObject bindings for libudev ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/gudev-1.0/gudev/gudev.h
+## Files: 
+* /usr/i686-frugalware-linux/include/gudev-1.0/gudev/gudev.h
 * /usr/i686-frugalware-linux/include/gudev-1.0/gudev/gudevclient.h
 * /usr/i686-frugalware-linux/include/gudev-1.0/gudev/gudevdevice.h
 * /usr/i686-frugalware-linux/include/gudev-1.0/gudev/gudevenumerator.h
@@ -27,4 +28,3 @@ GObject bindings for libudev ( 32bit )
 * /usr/lib32/libgudev-1.0.so.0
 * /usr/lib32/libgudev-1.0.so.0.3.0
 * /usr/lib32/pkgconfig/gudev-1.0.pc
-{{< /files >}}

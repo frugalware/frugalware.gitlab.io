@@ -16,5 +16,5 @@ reverse_depends = "['kdenlive']"
 +++
 SDL module for mlt
 
-{{< files text="show files" >}}* /usr/lib/mlt-7/libmltsdl.so
-{{< /files >}}
+## Files: 
+* /usr/lib/mlt-7/libmltsdl.so

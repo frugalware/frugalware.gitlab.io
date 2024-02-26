@@ -16,7 +16,8 @@ reverse_depends = "['cuda-tools']"
 +++
 Unified Communication X
 
-{{< files text="show files" >}}* /usr/bin/io_demo
+## Files: 
+* /usr/bin/io_demo
 * /usr/bin/ucx_info
 * /usr/bin/ucx_perftest
 * /usr/bin/ucx_read_profile
@@ -143,4 +144,3 @@ Unified Communication X
 * /usr/share/ucx/perftest/test_types_ucp_rma
 * /usr/share/ucx/perftest/test_types_uct
 * /usr/share/ucx/perftest/transports
-{{< /files >}}

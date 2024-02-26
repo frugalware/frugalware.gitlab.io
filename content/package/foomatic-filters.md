@@ -16,7 +16,8 @@ reverse_depends = "['ghostscript', 'gutenprint']"
 +++
 Foomatic is a system for using free software printer drivers with common spoolers on Unix
 
-{{< files text="show files" >}}* /etc/foomatic/filter.conf
+## Files: 
+* /etc/foomatic/filter.conf
 * /etc/foomatic/filter.conf.sample
 * /usr/bin/foomatic-rip
 * /usr/lib/cups/backend/beh
@@ -30,4 +31,3 @@ Foomatic is a system for using free software printer drivers with common spooler
 * /usr/share/doc/foomatic-filters-4.0.17/TODO
 * /usr/share/doc/foomatic-filters-4.0.17/VERSION
 * /usr/share/man/man1/foomatic-rip.1.gz
-{{< /files >}}

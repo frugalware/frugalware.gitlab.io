@@ -16,10 +16,10 @@ license = "GPL2"
 +++
 X.Org xlsfonts application
 
-{{< files text="show files" >}}* /usr/bin/xlsfonts
+## Files: 
+* /usr/bin/xlsfonts
 * /usr/share/doc/xlsfonts-1.0.7/ChangeLog
 * /usr/share/doc/xlsfonts-1.0.7/COPYING
 * /usr/share/doc/xlsfonts-1.0.7/INSTALL
 * /usr/share/doc/xlsfonts-1.0.7/README.md
 * /usr/share/man/man1/xlsfonts.1.gz
-{{< /files >}}

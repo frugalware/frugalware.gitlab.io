@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-calendar-tools', 'akonadiconsole', 'eventviews', 'p
 +++
 This lib provides calendar support
 
-{{< files text="show files" >}}* /usr/include/KPim5/CalendarSupport/CalendarSupport/ArchiveDialog
+## Files: 
+* /usr/include/KPim5/CalendarSupport/CalendarSupport/ArchiveDialog
 * /usr/include/KPim5/CalendarSupport/calendarsupport/archivedialog.h
 * /usr/include/KPim5/CalendarSupport/CalendarSupport/CalendarSingleton
 * /usr/include/KPim5/CalendarSupport/calendarsupport/calendarsingleton.h
@@ -161,4 +162,3 @@ This lib provides calendar support
 * /usr/share/qlogging-categories5/calendarsupport.categories
 * /usr/share/qlogging-categories5/calendarsupport.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_CalendarSupport.pri
-{{< /files >}}

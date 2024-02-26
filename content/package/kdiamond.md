@@ -15,7 +15,8 @@ depends = "['knotifyconfig>=5.115.0', 'libkdegames>=23.08.5', 'qt5-svg>=5.15.12'
 +++
 A single player puzzle game.
 
-{{< files text="show files" >}}* /usr/bin/kdiamond
+## Files: 
+* /usr/bin/kdiamond
 * /usr/share/applications/org.kde.kdiamond.desktop
 * /usr/share/doc/HTML/ca/kdiamond/index.cache.bz2
 * /usr/share/doc/HTML/ca/kdiamond/index.docbook
@@ -128,4 +129,3 @@ A single player puzzle game.
 * /usr/share/sounds/KDiamond-Stone-Drop.ogg
 * /usr/share/sounds/KDiamond-Stone-Swap.ogg
 * /usr/share/sounds/KDiamond-Stone-Touch.ogg
-{{< /files >}}

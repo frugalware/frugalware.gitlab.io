@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Static files for curl
 
-{{< files text="show files" >}}* /usr/lib/libcurl.a
-{{< /files >}}
+## Files: 
+* /usr/lib/libcurl.a

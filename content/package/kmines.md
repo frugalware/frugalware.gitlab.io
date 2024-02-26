@@ -15,7 +15,8 @@ depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=
 +++
 The classic Minesweeper game.
 
-{{< files text="show files" >}}* /usr/bin/kmines
+## Files: 
+* /usr/bin/kmines
 * /usr/share/applications/org.kde.kmines.desktop
 * /usr/share/doc/HTML/ca/kmines/gameboard.png
 * /usr/share/doc/HTML/ca/kmines/index.cache.bz2
@@ -153,4 +154,3 @@ The classic Minesweeper game.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kmines.mo
 * /usr/share/metainfo/org.kde.kmines.appdata.xml
 * /usr/share/qlogging-categories5/kmines.categories
-{{< /files >}}

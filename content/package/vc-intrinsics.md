@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 Set of new intrinsics on top of core LLVM IR instructions that represent SIMD semantics of a program targeting GPU
 
-{{< files text="show files" >}}* /usr/include/llvm/GenXIntrinsics/GenXIntrinsicDescription.gen
+## Files: 
+* /usr/include/llvm/GenXIntrinsics/GenXIntrinsicDescription.gen
 * /usr/include/llvm/GenXIntrinsics/GenXIntrinsicInst.h
 * /usr/include/llvm/GenXIntrinsics/GenXIntrinsics.h
 * /usr/include/llvm/GenXIntrinsics/GenXIntrOpts.h
@@ -30,4 +31,3 @@ Set of new intrinsics on top of core LLVM IR instructions that represent SIMD se
 * /usr/lib/cmake/VCIntrinsics17/VCIntrinsics17Config.cmake
 * /usr/lib/libLLVMGenXIntrinsics.a
 * /usr/share/doc/vc-intrinsics-0.17.0/Readme.md
-{{< /files >}}

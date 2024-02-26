@@ -16,7 +16,8 @@ reverse_depends = "['gst1-plugins-good-wavpack', 'mixxx', 'mpd', 'qmmp', 'sox', 
 +++
 A completely open audio compression format providing lossless, high-quality lossy, and a unique hybrid compression mode.
 
-{{< files text="show files" >}}* /usr/bin/wavpack
+## Files: 
+* /usr/bin/wavpack
 * /usr/bin/wvgain
 * /usr/bin/wvtag
 * /usr/bin/wvunpack
@@ -39,4 +40,3 @@ A completely open audio compression format providing lossless, high-quality loss
 * /usr/share/man/man1/wvgain.1.gz
 * /usr/share/man/man1/wvtag.1.gz
 * /usr/share/man/man1/wvunpack.1.gz
-{{< /files >}}

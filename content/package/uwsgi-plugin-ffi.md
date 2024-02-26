@@ -15,5 +15,5 @@ depends = "['libffi>=3.4', 'uwsgi']"
 +++
 UWSGI FFI Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/libffi_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/uwsgi/libffi_plugin.so

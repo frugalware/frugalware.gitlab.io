@@ -16,7 +16,8 @@ reverse_depends = "['insight-toolkit']"
 +++
 SWIG interface compiler
 
-{{< files text="show files" >}}* /usr/bin/ccache-swig
+## Files: 
+* /usr/bin/ccache-swig
 * /usr/bin/swig
 * /usr/share/doc/swig-4.1.1/ANNOUNCE
 * /usr/share/doc/swig-4.1.1/CHANGES
@@ -790,4 +791,3 @@ SWIG interface compiler
 * /usr/share/swig/4.1.1/windows.i
 * /usr/share/swig/4.1.1/xml/typemaps.i
 * /usr/share/swig/4.1.1/xml/xml.swg
-{{< /files >}}

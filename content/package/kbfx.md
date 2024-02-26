@@ -15,7 +15,8 @@ depends = "[]"
 +++
 KBFX is an alternative to the classical K-Menu button and it's menu.
 
-{{< files text="show files" >}}* usr/bin/kbfxconfigapp
+## Files: 
+* usr/bin/kbfxconfigapp
 * usr/include/kbfx/effect.h
 * usr/include/kbfx/kbfxconfig.h
 * usr/include/kbfx/kbfxdatagroup.h
@@ -112,4 +113,3 @@ KBFX is an alternative to the classical K-Menu button and it's menu.
 * usr/share/locale/it/LC_MESSAGES/kbfxconfigapp.mo
 * usr/share/locale/nl/LC_MESSAGES/kbfxconfigapp.mo
 * usr/share/mimelnk/application/x-kbfxtheme.desktop
-{{< /files >}}

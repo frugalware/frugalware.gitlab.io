@@ -15,7 +15,8 @@ depends = "['kitemmodels>=5.115.0', 'knewstuff>=5.115.0', 'ktexteditor>=5.115.0'
 +++
 KDE Advanced Text Editor.
 
-{{< files text="show files" >}}* /usr/bin/kate
+## Files: 
+* /usr/bin/kate
 * /usr/bin/kwrite
 * /usr/lib/libkateprivate.so.23.08.5
 * /usr/lib/qt5/plugins/ktexteditor/cmaketoolsplugin.so
@@ -1841,4 +1842,3 @@ KDE Advanced Text Editor.
 * /usr/share/man/uk/man1/kate.1.gz
 * /usr/share/metainfo/org.kde.kate.appdata.xml
 * /usr/share/metainfo/org.kde.kwrite.appdata.xml
-{{< /files >}}

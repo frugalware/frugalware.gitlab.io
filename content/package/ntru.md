@@ -15,5 +15,5 @@ depends = "['openjre']"
 +++
 A Java implementation of the NTRU public-key cryptosystem.
 
-{{< files text="show files" >}}* /usr/share/java/ntru.jar
-{{< /files >}}
+## Files: 
+* /usr/share/java/ntru.jar

@@ -15,7 +15,8 @@ depends = "['kinit>=5.115.0', 'knewstuff>=5.115.0', 'knotifyconfig>=5.115.0', 'k
 +++
 KDE Terminal emulator.
 
-{{< files text="show files" >}}* /etc/xdg/konsolerc
+## Files: 
+* /etc/xdg/konsolerc
 * /usr/bin/konsole
 * /usr/bin/konsoleprofile
 * /usr/lib/kconf_update_bin/konsole_globalaccel
@@ -185,4 +186,3 @@ KDE Terminal emulator.
 * /usr/share/metainfo/org.kde.konsole.appdata.xml
 * /usr/share/qlogging-categories5/konsole.categories
 * /usr/share/zsh/site-functions/_konsole
-{{< /files >}}

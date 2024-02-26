@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org xkbutils application
 
-{{< files text="show files" >}}* /usr/bin/xkbbell
+## Files: 
+* /usr/bin/xkbbell
 * /usr/bin/xkbvleds
 * /usr/bin/xkbwatch
 * /usr/share/doc/xkbutils-1.0.6/ChangeLog
@@ -26,4 +27,3 @@ X.Org xkbutils application
 * /usr/share/man/man1/xkbbell.1.gz
 * /usr/share/man/man1/xkbvleds.1.gz
 * /usr/share/man/man1/xkbwatch.1.gz
-{{< /files >}}

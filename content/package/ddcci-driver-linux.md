@@ -15,9 +15,9 @@ depends = "['kernel=6.7.6-1']"
 +++
 A pair of Linux kernel drivers for DDC/CI monitors
 
-{{< files text="show files" >}}* /usr/include/linux/ddcci.h
+## Files: 
+* /usr/include/linux/ddcci.h
 * /usr/lib/modules/6.7.6-fw1/extra/ddcci-backlight.ko
 * /usr/lib/modules/6.7.6-fw1/extra/ddcci.ko
 * /usr/share/doc/ddcci-driver-linux-0.4.4/LICENSE
 * /usr/share/doc/ddcci-driver-linux-0.4.4/README.md
-{{< /files >}}

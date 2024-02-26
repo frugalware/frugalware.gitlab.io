@@ -16,7 +16,8 @@ reverse_depends = "['akonadi', 'kdelibs4support', 'kpimtextedit']"
 +++
 Integrating KDE frameworks widgets with Qt Designer.
 
-{{< files text="show files" >}}* /usr/bin/kgendesignerplugin
+## Files: 
+* /usr/bin/kgendesignerplugin
 * /usr/lib/cmake/KF5DesignerPlugin/KF5DesignerPluginConfig.cmake
 * /usr/lib/cmake/KF5DesignerPlugin/KF5DesignerPluginConfigVersion.cmake
 * /usr/lib/cmake/KF5DesignerPlugin/KF5DesignerPluginMacros.cmake
@@ -135,4 +136,3 @@ Integrating KDE frameworks widgets with Qt Designer.
 * /usr/share/man/pt_BR/man1/kgendesignerplugin.1.gz
 * /usr/share/man/sv/man1/kgendesignerplugin.1.gz
 * /usr/share/man/uk/man1/kgendesignerplugin.1.gz
-{{< /files >}}

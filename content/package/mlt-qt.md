@@ -16,5 +16,5 @@ reverse_depends = "['kdenlive']"
 +++
 Qimage module for mlt
 
-{{< files text="show files" >}}* /usr/lib/mlt-7/libmltqt.so
-{{< /files >}}
+## Files: 
+* /usr/lib/mlt-7/libmltqt.so

@@ -15,7 +15,8 @@ depends = "['curl', 'libboost>=1.83.0', 'libsodium>=1.0.19', 'libstdc++>=12.2', 
 +++
 Power DNS recursor
 
-{{< files text="show files" >}}* /etc/powerdns/recursor.conf
+## Files: 
+* /etc/powerdns/recursor.conf
 * /etc/powerdns/recursor.conf-dist
 * /usr/bin/pdns_recursor
 * /usr/bin/rec_control
@@ -25,4 +26,3 @@ Power DNS recursor
 * /usr/share/doc/pdns-recursor-4.9.2/README
 * /usr/share/man/man1/pdns_recursor.1.gz
 * /usr/share/man/man1/rec_control.1.gz
-{{< /files >}}

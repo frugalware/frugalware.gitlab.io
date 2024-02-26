@@ -16,9 +16,9 @@ reverse_depends = "['lib32-libx11', 'lib32-libxcb', 'lib32-xcb-util', 'lib32-xcb
 +++
 X.Org Xdmcp library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/Xdmcp.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/Xdmcp.h
 * /usr/lib32/libXdmcp.so
 * /usr/lib32/libXdmcp.so.6
 * /usr/lib32/libXdmcp.so.6.0.0
 * /usr/lib32/pkgconfig/xdmcp.pc
-{{< /files >}}

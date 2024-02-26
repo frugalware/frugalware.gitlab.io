@@ -16,7 +16,8 @@ reverse_depends = "['cups-filters']"
 +++
 Poppler xpdf tools
 
-{{< files text="show files" >}}* /usr/bin/pdfattach
+## Files: 
+* /usr/bin/pdfattach
 * /usr/bin/pdfdetach
 * /usr/bin/pdffonts
 * /usr/bin/pdfimages
@@ -42,4 +43,3 @@ Poppler xpdf tools
 * /usr/share/man/man1/pdftops.1.gz
 * /usr/share/man/man1/pdftotext.1.gz
 * /usr/share/man/man1/pdfunite.1.gz
-{{< /files >}}

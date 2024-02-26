@@ -15,5 +15,5 @@ depends = "['hspell>=1.3-3']"
 +++
 Hspell plugin for sonnet
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/sonnet/sonnet_hspell.so
-{{< /files >}}
+## Files: 
+* /usr/lib/qt5/plugins/kf5/sonnet/sonnet_hspell.so

@@ -15,4 +15,4 @@ depends = "['libgl', 'libxext']"
 +++
 KOffice Chart Generator
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

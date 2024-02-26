@@ -15,7 +15,7 @@ depends = "['hunspell>=1.0.8']"
 +++
 Spanish (Spain-etal) dictionary for Hunspell
 
-{{< files text="show files" >}}* /usr/share/doc/hunspell-es-20050510/README_es_ES.txt
+## Files: 
+* /usr/share/doc/hunspell-es-20050510/README_es_ES.txt
 * /usr/share/myspell/es_ES.aff
 * /usr/share/myspell/es_ES.dic
-{{< /files >}}

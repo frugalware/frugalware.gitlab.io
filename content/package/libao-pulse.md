@@ -15,5 +15,5 @@ depends = "['libao=1.2.0', 'libpulse>=12.2-9']"
 +++
 Pulseaudio support for libao
 
-{{< files text="show files" >}}* /usr/lib/ao/plugins-4/libpulse.so
-{{< /files >}}
+## Files: 
+* /usr/lib/ao/plugins-4/libpulse.so

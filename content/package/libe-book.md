@@ -16,7 +16,8 @@ reverse_depends = "['libreoffice']"
 +++
 A library for import of non-HTML reflowable e-book formats
 
-{{< files text="show files" >}}* /usr/bin/ebook2html
+## Files: 
+* /usr/bin/ebook2html
 * /usr/bin/ebook2raw
 * /usr/bin/ebook2text
 * /usr/include/libe-book-0.1/libe-book/EBOOKDocument.h
@@ -31,4 +32,3 @@ A library for import of non-HTML reflowable e-book formats
 * /usr/share/doc/libe-book-0.1.3/NEWS
 * /usr/share/doc/libe-book-0.1.3/README
 * /usr/share/doc/libe-book-0.1.3/TODO
-{{< /files >}}

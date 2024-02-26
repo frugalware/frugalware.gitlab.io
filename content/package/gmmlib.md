@@ -16,7 +16,8 @@ reverse_depends = "['intel-compute-runtime', 'media-driver']"
 +++
 Intel Graphics Memory Management Library
 
-{{< files text="show files" >}}* /usr/include/igdgmm/GmmLib/CachePolicy/GmmCachePolicyConditionals.h
+## Files: 
+* /usr/include/igdgmm/GmmLib/CachePolicy/GmmCachePolicyConditionals.h
 * /usr/include/igdgmm/GmmLib/CachePolicy/GmmCachePolicyResourceUsageDefinitions.h
 * /usr/include/igdgmm/GmmLib/CachePolicy/GmmCachePolicyUndefineConditionals.h
 * /usr/include/igdgmm/GmmLib/CachePolicy/GmmGen10CachePolicy.h
@@ -84,4 +85,3 @@ Intel Graphics Memory Management Library
 * /usr/lib/libigdgmm.so.12.3.0
 * /usr/lib/pkgconfig/igdgmm.pc
 * /usr/share/doc/gmmlib-22.3.17/README.rst
-{{< /files >}}

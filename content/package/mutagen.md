@@ -16,7 +16,8 @@ reverse_depends = "['picard', 'yt-dlp']"
 +++
 Mutagen is an audio metadata tag reader and writer.
 
-{{< files text="show files" >}}* /usr/bin/mid3cp
+## Files: 
+* /usr/bin/mid3cp
 * /usr/bin/mid3iconv
 * /usr/bin/mid3v2
 * /usr/bin/moggsplit
@@ -151,4 +152,3 @@ Mutagen is an audio metadata tag reader and writer.
 * /usr/share/share/man/man1/moggsplit.1
 * /usr/share/share/man/man1/mutagen-inspect.1
 * /usr/share/share/man/man1/mutagen-pony.1
-{{< /files >}}

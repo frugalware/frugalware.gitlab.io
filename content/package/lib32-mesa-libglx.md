@@ -16,8 +16,8 @@ reverse_depends = "['lib32-xorg-server', 'lib32-xorg-server-xephyr']"
 +++
 Mesa OpenGL GLX. (32-bit)
 
-{{< files text="show files" >}}* /usr/lib32/libGLX_indirect.so.0
+## Files: 
+* /usr/lib32/libGLX_indirect.so.0
 * /usr/lib32/libGLX_mesa.so
 * /usr/lib32/libGLX_mesa.so.0
 * /usr/lib32/libGLX_mesa.so.0.0.0
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['cervisia', 'dolphin', 'kcalc', 'kded', 'kile', 'konsole', '
 +++
 KInit.
 
-{{< files text="show files" >}}* /usr/bin/kdeinit5
+## Files: 
+* /usr/bin/kdeinit5
 * /usr/bin/kdeinit5_shutdown
 * /usr/bin/kdeinit5_wrapper
 * /usr/bin/kshell5
@@ -145,4 +146,3 @@ KInit.
 * /usr/share/man/uk/man8/kdeinit5.8.gz
 * /usr/share/qlogging-categories5/kinit.categories
 * /usr/share/qlogging-categories5/kinit.renamecategories
-{{< /files >}}

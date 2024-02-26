@@ -16,7 +16,8 @@ reverse_depends = "['perl-data-optlist', 'perl-sub-exporter']"
 +++
 Simple, compact and correct param-checking functions
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/Params/Util/Util.so
+## Files: 
+* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/Params/Util/Util.so
 * /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Params/Util.pm
 * /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Params/Util/PP.pm
 * /usr/share/doc/perl-params-util-1.102/LICENSE
@@ -24,4 +25,3 @@ Simple, compact and correct param-checking functions
 * /usr/share/doc/perl-params-util-1.102/README.md
 * /usr/share/man/man3/Params::Util.3perl.gz
 * /usr/share/man/man3/Params::Util::PP.3perl.gz
-{{< /files >}}

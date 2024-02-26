@@ -16,7 +16,8 @@ reverse_depends = "['plasma-bigscreen']"
 +++
 Browser for a fully immersed Big Screen experience allowing you to navigate the world wide web using just your remote contro
 
-{{< files text="show files" >}}* /usr/bin/aura-browser
+## Files: 
+* /usr/bin/aura-browser
 * /usr/share/applications/org.kde.aura-browser.desktop
 * /usr/share/doc/aura-browser-5.27.10/README.md
 * /usr/share/icons/hicolor/128x128/apps/aura-browser.png
@@ -50,4 +51,3 @@ Browser for a fully immersed Big Screen experience allowing you to navigate the 
 * /usr/share/locale/uk/LC_MESSAGES/aura-browser.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/aura-browser.mo
 * /usr/share/metainfo/org.kde.invent.aura_browser.metainfo.xml
-{{< /files >}}

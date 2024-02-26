@@ -15,7 +15,8 @@ depends = "['libgc>=7.6.2', 'ncurses>=6.0-3', 'openssl>=3.1.0', 'zlib>=1.2.12']"
 +++
 A pager with WWW capability
 
-{{< files text="show files" >}}* /usr/bin/w3m
+## Files: 
+* /usr/bin/w3m
 * /usr/bin/w3mman
 * /usr/lib/w3m/w3m/cgi-bin/dirlist.cgi
 * /usr/lib/w3m/w3m/cgi-bin/multipart.cgi
@@ -47,4 +48,3 @@ A pager with WWW capability
 * /usr/share/w3m/w3mhelp-funcdesc.ja.pl
 * /usr/share/w3m/w3mhelp-funcname.pl
 * /usr/share/w3m/w3mhelp.html
-{{< /files >}}

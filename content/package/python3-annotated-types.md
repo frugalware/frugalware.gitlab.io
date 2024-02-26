@@ -16,7 +16,8 @@ reverse_depends = "['python3-pydantic']"
 +++
 Reusable constraint types to use with typing.Annotated
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/annotated_types-0.6.0.dist-info/licenses/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/annotated_types-0.6.0.dist-info/licenses/LICENSE
 * /usr/lib/python3.12/site-packages/annotated_types-0.6.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/annotated_types-0.6.0.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/annotated_types-0.6.0.dist-info/WHEEL
@@ -29,4 +30,3 @@ Reusable constraint types to use with typing.Annotated
 * /usr/lib/python3.12/site-packages/annotated_types/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-annotated-types-0.6.0/LICENSE
 * /usr/share/doc/python3-annotated-types-0.6.0/README.md
-{{< /files >}}

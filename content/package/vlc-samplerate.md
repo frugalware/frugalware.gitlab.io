@@ -15,5 +15,5 @@ depends = "['libsamplerate', 'libvlc>=3.0.20']"
 +++
 vlc plugin for samplerate
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/audio_filter/libsamplerate_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/audio_filter/libsamplerate_plugin.so

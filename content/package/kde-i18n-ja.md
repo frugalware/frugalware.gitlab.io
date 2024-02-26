@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Japanese Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/doc/HTML/ja/common/1.png
+## Files: 
+* usr/share/doc/HTML/ja/common/1.png
 * usr/share/doc/HTML/ja/common/10.png
 * usr/share/doc/HTML/ja/common/2.png
 * usr/share/doc/HTML/ja/common/3.png
@@ -816,4 +817,3 @@ Japanese Localization for KDE.
 * usr/share/locale/ja/LC_MESSAGES/wakeup.mo
 * usr/share/locale/ja/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/ja/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['a2ps', 'libtasn1']"
 +++
 The GNU info program and utilities
 
-{{< files text="show files" >}}* /etc/cron.daily/texinfo
+## Files: 
+* /etc/cron.daily/texinfo
 * /usr/bin/info
 * /usr/bin/install-info
 * /usr/bin/makeinfo
@@ -571,4 +572,3 @@ The GNU info program and utilities
 * /usr/share/texinfo/Texinfo/Translations.pm
 * /usr/share/texinfo/Texinfo/XS/parsetexi/Parsetexi.pm
 * /usr/share/texinfo/Texinfo/XSLoader.pm
-{{< /files >}}

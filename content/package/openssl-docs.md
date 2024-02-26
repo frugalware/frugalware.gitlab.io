@@ -15,7 +15,8 @@ depends = "[]"
 +++
 HTML documentation for openssl
 
-{{< files text="show files" >}}* /usr/share/doc/openssl/html/man1/CA.pl.html
+## Files: 
+* /usr/share/doc/openssl/html/man1/CA.pl.html
 * /usr/share/doc/openssl/html/man1/openssl-asn1parse.html
 * /usr/share/doc/openssl/html/man1/openssl-ca.html
 * /usr/share/doc/openssl/html/man1/openssl-ciphers.html
@@ -869,4 +870,3 @@ HTML documentation for openssl
 * /usr/share/doc/openssl/html/man7/RSA-PSS.html
 * /usr/share/doc/openssl/html/man7/X25519.html
 * /usr/share/doc/openssl/html/man7/x509.html
-{{< /files >}}

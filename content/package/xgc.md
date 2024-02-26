@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org xgc application
 
-{{< files text="show files" >}}* /usr/bin/xgc
+## Files: 
+* /usr/bin/xgc
 * /usr/share/doc/xgc-1.0.6/ChangeLog
 * /usr/share/doc/xgc-1.0.6/COPYING
 * /usr/share/doc/xgc-1.0.6/INSTALL
@@ -24,4 +25,3 @@ X.Org xgc application
 * /usr/share/man/man1/xgc.1.gz
 * /usr/share/X11/app-defaults/Xgc
 * /usr/share/X11/app-defaults/Xgc-color
-{{< /files >}}

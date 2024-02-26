@@ -16,7 +16,8 @@ reverse_depends = "['enlightenment', 'kwindowsystem', 'mesa-vulkan-amd', 'mesa-v
 +++
 keysyms libraries for X C Binding
 
-{{< files text="show files" >}}* /usr/include/xcb/xcb_keysyms.h
+## Files: 
+* /usr/include/xcb/xcb_keysyms.h
 * /usr/lib/libxcb-keysyms.so
 * /usr/lib/libxcb-keysyms.so.1
 * /usr/lib/libxcb-keysyms.so.1.0.0
@@ -26,4 +27,3 @@ keysyms libraries for X C Binding
 * /usr/share/doc/xcb-util-keysyms-0.4.1/INSTALL
 * /usr/share/doc/xcb-util-keysyms-0.4.1/NEWS
 * /usr/share/doc/xcb-util-keysyms-0.4.1/README.md
-{{< /files >}}

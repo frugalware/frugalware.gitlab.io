@@ -15,5 +15,5 @@ depends = "['uwsgi']"
 +++
 UWSGI Gevent Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/gevent_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/uwsgi/gevent_plugin.so

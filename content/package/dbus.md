@@ -16,7 +16,8 @@ reverse_depends = "['at-spi2-core', 'avahi', 'bluez', 'cef', 'cups', 'dbus-c++',
 +++
 A message bus system
 
-{{< files text="show files" >}}* /etc/dbus-1/session.conf
+## Files: 
+* /etc/dbus-1/session.conf
 * /etc/dbus-1/system.conf
 * /etc/tmpfiles.d/dbus.conf
 * /usr/bin/dbus-cleanup-sockets
@@ -107,4 +108,3 @@ A message bus system
 * /usr/share/xml/dbus-1/busconfig.dtd
 * /usr/share/xml/dbus-1/catalog.xml
 * /usr/share/xml/dbus-1/introspect.dtd
-{{< /files >}}

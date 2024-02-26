@@ -15,7 +15,8 @@ depends = "['curl', 'gstreamer1', 'gtk+3', 'libnotify', 'openssl>=3.1.0']"
 +++
 uget (urlgfe) is a graphical download manager written using Gtk3.
 
-{{< files text="show files" >}}* /usr/bin/uget-gtk
+## Files: 
+* /usr/bin/uget-gtk
 * /usr/bin/uget-gtk-1to2
 * /usr/share/applications/uget-gtk.desktop
 * /usr/share/doc/uget-2.2.3/AUTHORS
@@ -85,4 +86,3 @@ uget (urlgfe) is a graphical download manager written using Gtk3.
 * /usr/share/locale/zh_TW/LC_MESSAGES/uget.mo
 * /usr/share/pixmaps/uget/logo.png
 * /usr/share/sounds/uget/notification.wav
-{{< /files >}}

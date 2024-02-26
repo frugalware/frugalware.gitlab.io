@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Modern GUI Designer for GTK+
 
-{{< files text="show files" >}}* usr/bin/gideon
+## Files: 
+* usr/bin/gideon
 * usr/include/gideon/gideon.h
 * usr/lib/libgideon.la
 * usr/lib/libgideon.so
@@ -29,4 +30,3 @@ Modern GUI Designer for GTK+
 * usr/share/doc/gideon-2.8.0/README
 * usr/share/doc/gideon-2.8.0/README.msvc
 * usr/share/pixmaps/gideon.png
-{{< /files >}}

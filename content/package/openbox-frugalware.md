@@ -16,7 +16,8 @@ reverse_depends = "['openbox']"
 +++
 Default openbox artwork for Frugalware.
 
-{{< files text="show files" >}}* /usr/share/doc/openbox-frugalware-1.6/AUTHORS
+## Files: 
+* /usr/share/doc/openbox-frugalware-1.6/AUTHORS
 * /usr/share/doc/openbox-frugalware-1.6/LICENSE
 * /usr/share/doc/openbox-frugalware-1.6/README.md
 * /usr/share/themes/Frugalware/openbox-3/bullet.xbm
@@ -35,4 +36,3 @@ Default openbox artwork for Frugalware.
 * /usr/share/themes/Frugalware/openbox-3/max_hover.xbm
 * /usr/share/themes/Frugalware/openbox-3/max_toggled.xbm
 * /usr/share/themes/Frugalware/openbox-3/themerc
-{{< /files >}}

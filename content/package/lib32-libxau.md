@@ -16,9 +16,9 @@ reverse_depends = "['lib32-libx11', 'lib32-libxcb', 'lib32-libxres', 'lib32-libx
 +++
 X.Org Xau library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/Xauth.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/Xauth.h
 * /usr/lib32/libXau.so
 * /usr/lib32/libXau.so.6
 * /usr/lib32/libXau.so.6.0.0
 * /usr/lib32/pkgconfig/xau.pc
-{{< /files >}}

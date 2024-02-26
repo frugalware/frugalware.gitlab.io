@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Hebrew support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/he/default.css
+## Files: 
+* /usr/lib/libreoffice/help/he/default.css
 * /usr/lib/libreoffice/help/he/err.html
 * /usr/lib/libreoffice/help/he/highcontrast1.css
 * /usr/lib/libreoffice/help/he/highcontrast2.css
@@ -134,4 +135,3 @@ Installs Hebrew support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-he.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_he.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_he.xcd
-{{< /files >}}

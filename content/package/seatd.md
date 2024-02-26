@@ -16,7 +16,8 @@ reverse_depends = "['weston', 'wlroots']"
 +++
 A minimal seat management daemon, and a universal seat management library
 
-{{< files text="show files" >}}* /usr/bin/seatd
+## Files: 
+* /usr/bin/seatd
 * /usr/bin/seatd-launch
 * /usr/include/libseat.h
 * /usr/lib/libseat.so
@@ -26,4 +27,3 @@ A minimal seat management daemon, and a universal seat management library
 * /usr/share/doc/seatd-0.8.0/README.md
 * /usr/share/man/man1/seatd-launch.1.gz
 * /usr/share/man/man1/seatd.1.gz
-{{< /files >}}

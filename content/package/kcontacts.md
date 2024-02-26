@@ -16,7 +16,8 @@ reverse_depends = "['akonadi-contacts', 'itinerary', 'kitinerary', 'kopete', 'kp
 +++
 Address book API for KDE
 
-{{< files text="show files" >}}* /usr/include/KF5/KContacts/KContacts/Address
+## Files: 
+* /usr/include/KF5/KContacts/KContacts/Address
 * /usr/include/KF5/KContacts/kcontacts/address.h
 * /usr/include/KF5/KContacts/KContacts/Addressee
 * /usr/include/KF5/KContacts/kcontacts/addressee.h
@@ -155,4 +156,3 @@ Address book API for KDE
 * /usr/share/qlogging-categories5/kcontacts.categories
 * /usr/share/qlogging-categories5/kcontacts.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KContacts.pri
-{{< /files >}}

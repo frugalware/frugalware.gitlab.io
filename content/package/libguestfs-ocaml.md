@@ -15,7 +15,8 @@ depends = "['hivex-ocaml', 'ocaml-augeas', 'ocaml-findlib']"
 +++
 libguestfs ocaml bindings
 
-{{< files text="show files" >}}* /usr/lib/ocaml/guestfs/guestfs.cmi
+## Files: 
+* /usr/lib/ocaml/guestfs/guestfs.cmi
 * /usr/lib/ocaml/guestfs/guestfs.cmx
 * /usr/lib/ocaml/guestfs/guestfs.mli
 * /usr/lib/ocaml/guestfs/libmlguestfs.a
@@ -25,4 +26,3 @@ libguestfs ocaml bindings
 * /usr/lib/ocaml/guestfs/mlguestfs.cmxa
 * /usr/lib/ocaml/stublibs/dllmlguestfs.so
 * /usr/lib/ocaml/stublibs/dllmlguestfs.so.owner
-{{< /files >}}

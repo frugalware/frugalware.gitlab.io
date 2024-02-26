@@ -16,11 +16,11 @@ reverse_depends = "['python3-setuptools']"
 +++
 A small Python module for determining appropriate platform-specific dirs, e.g. a 'usr data dir'
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/appdirs-1.4.4-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/appdirs-1.4.4-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/appdirs-1.4.4-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/appdirs-1.4.4-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/appdirs-1.4.4-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/appdirs.py
 * /usr/lib/python3.12/site-packages/__pycache__/appdirs.cpython-312.pyc
 * /usr/share/doc/python3-appdirs-1.4.4/README.rst
-{{< /files >}}

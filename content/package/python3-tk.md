@@ -16,7 +16,8 @@ reverse_depends = "['fetchmailconf']"
 +++
 Python3 support for tk/tcl
 
-{{< files text="show files" >}}* /usr/lib/python3.12/tkinter/colorchooser.py
+## Files: 
+* /usr/lib/python3.12/tkinter/colorchooser.py
 * /usr/lib/python3.12/tkinter/commondialog.py
 * /usr/lib/python3.12/tkinter/constants.py
 * /usr/lib/python3.12/tkinter/dialog.py
@@ -72,4 +73,3 @@ Python3 support for tk/tcl
 * /usr/lib/python3.12/tkinter/__pycache__/__main__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/tkinter/__pycache__/__main__.cpython-312.opt-2.pyc
 * /usr/lib/python3.12/tkinter/__pycache__/__main__.cpython-312.pyc
-{{< /files >}}

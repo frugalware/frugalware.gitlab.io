@@ -16,7 +16,8 @@ reverse_depends = "['7zip', 'abseil-cpp', 'acpitool', 'akonadi', 'alsa-tools', '
 +++
 GNU Standard C++ Library
 
-{{< files text="show files" >}}* /usr/include/c++/13.2.0/algorithm
+## Files: 
+* /usr/include/c++/13.2.0/algorithm
 * /usr/include/c++/13.2.0/any
 * /usr/include/c++/13.2.0/array
 * /usr/include/c++/13.2.0/atomic
@@ -865,4 +866,3 @@ GNU Standard C++ Library
 * /usr/lib32/libstdc++fs.a
 * /usr/share/locale/de/LC_MESSAGES/libstdc++.mo
 * /usr/share/locale/fr/LC_MESSAGES/libstdc++.mo
-{{< /files >}}

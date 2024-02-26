@@ -16,9 +16,9 @@ reverse_depends = "['doxywizard']"
 +++
 Doxygen is the documentation system for C/C++
 
-{{< files text="show files" >}}* /usr/bin/doxygen
+## Files: 
+* /usr/bin/doxygen
 * /usr/share/doc/doxygen-1.9.7/INSTALL
 * /usr/share/doc/doxygen-1.9.7/LICENSE
 * /usr/share/doc/doxygen-1.9.7/README.md
 * /usr/share/doc/doxygen-1.9.7/VERSION
-{{< /files >}}

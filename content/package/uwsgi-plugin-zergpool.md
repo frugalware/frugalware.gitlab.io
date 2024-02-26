@@ -15,5 +15,5 @@ depends = "['uwsgi']"
 +++
 UWSGI Zergpool Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/zergpool_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/uwsgi/zergpool_plugin.so

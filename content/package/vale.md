@@ -15,7 +15,7 @@ depends = "['glibc']"
 +++
 A customizable, syntax-aware linter for prose
 
-{{< files text="show files" >}}* /usr/bin/vale
+## Files: 
+* /usr/bin/vale
 * /usr/share/doc/vale-2.30.0/LICENSE
 * /usr/share/doc/vale-2.30.0/README.md
-{{< /files >}}

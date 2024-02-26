@@ -16,7 +16,8 @@ reverse_depends = "['pandoc']"
 +++
 Bridge between commonmark and pandoc AST
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/commonmark-pandoc-0.2.2/Commonmark/Pandoc.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/commonmark-pandoc-0.2.2/Commonmark/Pandoc.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/commonmark-pandoc-0.2.2/Commonmark/Pandoc.hi
 * /usr/lib/ghc-9.8.1/site-local/commonmark-pandoc-0.2.2/libHScommonmark-pandoc-0.2.2-JWpn4wrUkRk4PAl8VtI3Ps.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHScommonmark-pandoc-0.2.2-JWpn4wrUkRk4PAl8VtI3Ps-ghc9.8.1.so
@@ -34,4 +35,3 @@ Bridge between commonmark and pandoc AST
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/commonmark-pandoc-0.2.2/LICENSE
 * /usr/share/haskell/haskell-commonmark-pandoc/register.sh
 * /usr/share/haskell/haskell-commonmark-pandoc/unregister.sh
-{{< /files >}}

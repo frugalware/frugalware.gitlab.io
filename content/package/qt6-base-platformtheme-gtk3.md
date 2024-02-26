@@ -15,7 +15,8 @@ depends = "['gtk+3', 'qt6-base>=6.6.2']"
 +++
 Qt6 GTK3 Theme support
 
-{{< files text="show files" >}}* /usr/lib/cmake/Qt6/FindGTK3.cmake
+## Files: 
+* /usr/lib/cmake/Qt6/FindGTK3.cmake
 * /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginConfig.cmake
 * /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginConfigVersion.cmake
@@ -23,4 +24,3 @@ Qt6 GTK3 Theme support
 * /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-release.cmake
 * /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake
 * /usr/lib/qt6/plugins/platformthemes/libqgtk3.so
-{{< /files >}}

@@ -16,10 +16,10 @@ reverse_depends = "['lib32-mesa-dri-drivers', 'lib32-mesa-nine']"
 +++
 Linux System Hardware Monitor ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/sensors/error.h
+## Files: 
+* /usr/i686-frugalware-linux/include/sensors/error.h
 * /usr/i686-frugalware-linux/include/sensors/sensors.h
 * /usr/lib32/libsensors.a
 * /usr/lib32/libsensors.so
 * /usr/lib32/libsensors.so.5
 * /usr/lib32/libsensors.so.5.0.0
-{{< /files >}}

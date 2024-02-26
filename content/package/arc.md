@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 ARC is used to create and maintain file archives.
 
-{{< files text="show files" >}}* /usr/bin/arc
+## Files: 
+* /usr/bin/arc
 * /usr/bin/marc
 * /usr/share/doc/arc-5.21p/Changelog
 * /usr/share/doc/arc-5.21p/COPYING
@@ -23,4 +24,3 @@ ARC is used to create and maintain file archives.
 * /usr/share/doc/arc-5.21p/Readme
 * /usr/share/man/man1/arc.1.gz
 * /usr/share/man/man1/marc.1.gz
-{{< /files >}}

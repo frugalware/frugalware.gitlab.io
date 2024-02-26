@@ -16,7 +16,8 @@ reverse_depends = "['usbguard-applet-qt', 'usbguard-notifier']"
 +++
 USBGuard is a software framework for implementing USB device authorization policies
 
-{{< files text="show files" >}}* /etc/usbguard/rules.conf
+## Files: 
+* /etc/usbguard/rules.conf
 * /etc/usbguard/usbguard-daemon.conf
 * /usr/bin/usbguard
 * /usr/bin/usbguard-daemon
@@ -60,4 +61,3 @@ USBGuard is a software framework for implementing USB device authorization polic
 * /usr/share/man/man8/usbguard-daemon.8.gz
 * /usr/share/man/man8/usbguard-dbus.8.gz
 * /usr/share/polkit-1/actions/org.usbguard1.policy
-{{< /files >}}

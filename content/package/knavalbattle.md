@@ -15,7 +15,8 @@ depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=
 +++
 A ship sinking game.
 
-{{< files text="show files" >}}* /usr/bin/knavalbattle
+## Files: 
+* /usr/bin/knavalbattle
 * /usr/share/applications/org.kde.knavalbattle.desktop
 * /usr/share/doc/HTML/ca/knavalbattle/gameboard.png
 * /usr/share/doc/HTML/ca/knavalbattle/index.cache.bz2
@@ -143,4 +144,3 @@ A ship sinking game.
 * /usr/share/locale/zh_TW/LC_MESSAGES/knavalbattle.mo
 * /usr/share/metainfo/org.kde.knavalbattle.appdata.xml
 * /usr/share/qlogging-categories5/knavalbattle.categories
-{{< /files >}}

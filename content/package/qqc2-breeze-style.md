@@ -15,7 +15,8 @@ depends = "['kconfig>=5.115.0', 'kguiaddons>=5.115.0', 'kiconthemes>=5.115.0', '
 +++
 Breeze inspired QQC2 Style
 
-{{< files text="show files" >}}* /usr/lib/cmake/KF5QQC2BreezeStyle/KF5QQC2BreezeStyleConfig.cmake
+## Files: 
+* /usr/lib/cmake/KF5QQC2BreezeStyle/KF5QQC2BreezeStyleConfig.cmake
 * /usr/lib/cmake/KF5QQC2BreezeStyle/KF5QQC2BreezeStyleConfigVersion.cmake
 * /usr/lib/qt5/plugins/kf5/kirigami/org.kde.breeze.so
 * /usr/share/doc/qqc2-breeze-style-5.27.10/README.md
@@ -160,4 +161,3 @@ Breeze inspired QQC2 Style
 * /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.breeze/ToolTip.qml
 * /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.breeze/Tumbler.qml
 * /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.breeze/VerticalHeaderView.qml
-{{< /files >}}

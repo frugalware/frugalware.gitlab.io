@@ -16,7 +16,8 @@ reverse_depends = "['vtk-java-ffmpeg', 'vtk-java-mpi', 'vtk-java-mysql', 'vtk-ja
 +++
 Java interface and bindings for vtk
 
-{{< files text="show files" >}}* /usr/bin/vtkParseJava
+## Files: 
+* /usr/bin/vtkParseJava
 * /usr/bin/vtkWrapJava
 * /usr/lib/java/vtk-Linux-x86_64/libvtkAcceleratorsVTKmCoreJava.so
 * /usr/lib/java/vtk-Linux-x86_64/libvtkAcceleratorsVTKmDataModelJava.so
@@ -171,4 +172,3 @@ Java interface and bindings for vtk
 * /usr/lib/libvtkJava.so
 * /usr/lib/libvtkJava.so.1
 * /usr/lib/libvtkJava.so.9.3
-{{< /files >}}

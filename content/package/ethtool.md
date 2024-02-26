@@ -16,7 +16,8 @@ reverse_depends = "['aircrack-ng', 'networkmanager', 'pm-utils', 'rdma-core']"
 +++
 A tool for setting ethernet parameters
 
-{{< files text="show files" >}}* /usr/bin/ethtool
+## Files: 
+* /usr/bin/ethtool
 * /usr/lib/systemd/system/ethtool@.service
 * /usr/share/bash-completion/completions/ethtool
 * /usr/share/doc/ethtool-6.7/AUTHORS
@@ -31,4 +32,3 @@ A tool for setting ethernet parameters
 * /usr/share/doc/ethtool-6.7/README
 * /usr/share/doc/ethtool-6.7/VERSION
 * /usr/share/man/man8/ethtool.8.gz
-{{< /files >}}

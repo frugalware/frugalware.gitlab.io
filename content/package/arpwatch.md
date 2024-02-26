@@ -15,7 +15,8 @@ depends = "['libpcap', 'postfix']"
 +++
 Ethernet/FDDI station activity monitor
 
-{{< files text="show files" >}}* /usr/bin/arpsnmp
+## Files: 
+* /usr/bin/arpsnmp
 * /usr/bin/arpwatch
 * /usr/lib/systemd/system/arpwatch@.service
 * /usr/share/doc/arpwatch-3.5/CHANGES
@@ -25,4 +26,3 @@ Ethernet/FDDI station activity monitor
 * /usr/share/doc/arpwatch-3.5/VERSION
 * /usr/share/man/man8/arpsnmp.8.gz
 * /usr/share/man/man8/arpwatch.8.gz
-{{< /files >}}

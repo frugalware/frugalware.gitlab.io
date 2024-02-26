@@ -16,7 +16,8 @@ reverse_depends = "['python3-cleo', 'python3-poetry']"
 +++
 supposedly makes exceptions handling and inspection easier
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/crashtest-0.4.1.dist-info/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/crashtest-0.4.1.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/crashtest-0.4.1.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/crashtest-0.4.1.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/crashtest-0.4.1.dist-info/WHEEL
@@ -59,4 +60,3 @@ supposedly makes exceptions handling and inspection easier
 * /usr/lib/python3.12/site-packages/crashtest/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-crashtest-0.4.1/LICENSE
 * /usr/share/doc/python3-crashtest-0.4.1/README.md
-{{< /files >}}

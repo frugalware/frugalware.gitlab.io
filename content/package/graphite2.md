@@ -16,7 +16,8 @@ reverse_depends = "['efl', 'enlightenment', 'harfbuzz', 'libreoffice', 'terminol
 +++
 Font rendering capabilities for complex non-Roman writing systems
 
-{{< files text="show files" >}}* /usr/bin/gr2fonttest
+## Files: 
+* /usr/bin/gr2fonttest
 * /usr/include/graphite2/Font.h
 * /usr/include/graphite2/Log.h
 * /usr/include/graphite2/Segment.h
@@ -31,4 +32,3 @@ Font rendering capabilities for complex non-Roman writing systems
 * /usr/share/doc/graphite2-1.3.14/README.md
 * /usr/share/graphite2/graphite2-release.cmake
 * /usr/share/graphite2/graphite2.cmake
-{{< /files >}}

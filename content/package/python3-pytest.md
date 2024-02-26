@@ -15,7 +15,8 @@ depends = "['python3-iniconfig', 'python3-packaging', 'python3-pluggy']"
 +++
 Simple powerful testing with Python
 
-{{< files text="show files" >}}* /usr/bin/py.test
+## Files: 
+* /usr/bin/py.test
 * /usr/bin/pytest
 * /usr/lib/python3.12/site-packages/py.py
 * /usr/lib/python3.12/site-packages/pytest-7.4.3.dist-info/entry_points.txt
@@ -241,4 +242,3 @@ Simple powerful testing with Python
 * /usr/share/doc/python3-pytest-7.4.3/AUTHORS
 * /usr/share/doc/python3-pytest-7.4.3/LICENSE
 * /usr/share/doc/python3-pytest-7.4.3/README.rst
-{{< /files >}}

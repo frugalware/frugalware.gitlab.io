@@ -15,7 +15,8 @@ depends = "['dovecot>=2.3.21']"
 +++
 Sieve Support for Dovecot
 
-{{< files text="show files" >}}* /usr/bin/sieve-dump
+## Files: 
+* /usr/bin/sieve-dump
 * /usr/bin/sieve-filter
 * /usr/bin/sieve-test
 * /usr/bin/sievec
@@ -120,4 +121,3 @@ Sieve Support for Dovecot
 * /usr/share/man/man1/sievec.1.gz
 * /usr/share/man/man1/sieved.1.gz
 * /usr/share/man/man7/pigeonhole.7.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['apr-util', 'gst1-plugins-good-jack', 'iproute2', 'kdeaddons
 +++
 The Berkeley DB embedded database system
 
-{{< files text="show files" >}}* /usr/bin/db_archive
+## Files: 
+* /usr/bin/db_archive
 * /usr/bin/db_checkpoint
 * /usr/bin/db_convert
 * /usr/bin/db_deadlock
@@ -59,4 +60,3 @@ The Berkeley DB embedded database system
 * /usr/lib/libdb_stl.so
 * /usr/share/doc/db-18.1.40/LICENSE
 * /usr/share/doc/db-18.1.40/README
-{{< /files >}}

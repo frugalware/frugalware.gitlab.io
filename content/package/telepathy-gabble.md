@@ -15,7 +15,8 @@ depends = "['libsoup>=2.56.0', 'nice>=0.1.13-3', 'telepathy-glib>=0.24.1-8']"
 +++
 Telepathy is a D-Bus framework for unifying real time communication.
 
-{{< files text="show files" >}}* /usr/bin/telepathy-gabble-xmpp-console
+## Files: 
+* /usr/bin/telepathy-gabble-xmpp-console
 * /usr/include/telepathy-gabble-0/gabble/capabilities-set.h
 * /usr/include/telepathy-gabble-0/gabble/capabilities.h
 * /usr/include/telepathy-gabble-0/gabble/caps-channel-manager.h
@@ -115,4 +116,3 @@ Telepathy is a D-Bus framework for unifying real time communication.
 * /usr/share/doc/telepathy-gabble-0.18.4/tubes.html
 * /usr/share/man/man8/telepathy-gabble.8.gz
 * /usr/share/telepathy/managers/gabble.manager
-{{< /files >}}

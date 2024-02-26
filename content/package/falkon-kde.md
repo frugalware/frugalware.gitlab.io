@@ -15,5 +15,5 @@ depends = "['falkon', 'kio>=5.115.0', 'kwallet5>=5.115.0', 'purpose>=5.115.0']"
 +++
 Plugin for Falkon integration with KWallet.
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/falkon/KDEFrameworksIntegration.so
-{{< /files >}}
+## Files: 
+* /usr/lib/qt5/plugins/falkon/KDEFrameworksIntegration.so

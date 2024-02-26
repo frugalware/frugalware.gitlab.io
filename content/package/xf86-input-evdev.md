@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.Org driver for evdev input devices
 
-{{< files text="show files" >}}* /usr/include/xorg/evdev-properties.h
+## Files: 
+* /usr/include/xorg/evdev-properties.h
 * /usr/lib/pkgconfig/xorg-evdev.pc
 * /usr/lib/xorg/modules/input/evdev_drv.so
 * /usr/share/doc/xf86-input-evdev-2.10.6/ChangeLog
@@ -26,4 +27,3 @@ X.Org driver for evdev input devices
 * /usr/share/doc/xf86-input-evdev-2.10.6/README
 * /usr/share/man/man4/evdev.4.gz
 * /usr/share/X11/xorg.conf.d/10-evdev.conf
-{{< /files >}}

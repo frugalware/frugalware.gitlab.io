@@ -16,7 +16,8 @@ reverse_depends = "['efl', 'freetuxtv', 'kaffeine', 'kasts', 'phonon-backend-vlc
 +++
 VLC media player external control library
 
-{{< files text="show files" >}}* /usr/include/vlc/deprecated.h
+## Files: 
+* /usr/include/vlc/deprecated.h
 * /usr/include/vlc/libvlc.h
 * /usr/include/vlc/libvlc_dialog.h
 * /usr/include/vlc/libvlc_events.h
@@ -37,4 +38,3 @@ VLC media player external control library
 * /usr/lib/libvlccore.so.9
 * /usr/lib/libvlccore.so.9.0.1
 * /usr/lib/pkgconfig/libvlc.pc
-{{< /files >}}

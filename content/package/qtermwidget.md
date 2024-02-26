@@ -16,7 +16,8 @@ reverse_depends = "['qt-virt-manager', 'qterminal']"
 +++
 A terminal emulator widget for Qt5
 
-{{< files text="show files" >}}* /usr/include/qtermwidget5/Emulation.h
+## Files: 
+* /usr/include/qtermwidget5/Emulation.h
 * /usr/include/qtermwidget5/Filter.h
 * /usr/include/qtermwidget5/KeyboardTranslator.h
 * /usr/include/qtermwidget5/qtermwidget.h
@@ -104,4 +105,3 @@ A terminal emulator widget for Qt5
 * /usr/share/qtermwidget5/translations/qtermwidget_uk.qm
 * /usr/share/qtermwidget5/translations/qtermwidget_zh_CN.qm
 * /usr/share/qtermwidget5/translations/qtermwidget_zh_TW.qm
-{{< /files >}}

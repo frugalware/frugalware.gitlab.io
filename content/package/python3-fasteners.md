@@ -16,7 +16,8 @@ reverse_depends = "['duplicity']"
 +++
 A python package that provides useful locks.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/fasteners-0.19.dist-info/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/fasteners-0.19.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/fasteners-0.19.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/fasteners-0.19.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/fasteners-0.19.dist-info/top_level.txt
@@ -53,4 +54,3 @@ A python package that provides useful locks.
 * /usr/lib/python3.12/site-packages/fasteners/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-fasteners-0.19/LICENSE
 * /usr/share/doc/python3-fasteners-0.19/README.md
-{{< /files >}}

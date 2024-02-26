@@ -16,7 +16,8 @@ license = "GPL"
 +++
 Set of utilities for joysticks and serial devices
 
-{{< files text="show files" >}}* /etc/sysconfig/inputattach
+## Files: 
+* /etc/sysconfig/inputattach
 * /usr/bin/evdev-joystick
 * /usr/bin/ffcfstress
 * /usr/bin/ffmvforce
@@ -47,4 +48,3 @@ Set of utilities for joysticks and serial devices
 * /usr/share/man/man1/jscal-store.1.gz
 * /usr/share/man/man1/jscal.1.gz
 * /usr/share/man/man1/jstest.1.gz
-{{< /files >}}

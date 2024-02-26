@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Persian support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/program/resource/fa/LC_MESSAGES/acc.mo
+## Files: 
+* /usr/lib/libreoffice/program/resource/fa/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/fa/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/fa/LC_MESSAGES/basctl.mo
 * /usr/lib/libreoffice/program/resource/fa/LC_MESSAGES/chart.mo
@@ -54,4 +55,3 @@ Installs Persian support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-fa.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_fa.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_fa.xcd
-{{< /files >}}

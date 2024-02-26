@@ -15,7 +15,8 @@ depends = "['flex', 'libgcc', 'libstdc++', 'openssl>=3.1.0', 'zlib>=1.2.12']"
 +++
 A cross-platform development environment for C and C++ SOAP/XML Web services.
 
-{{< files text="show files" >}}* /usr/bin/soapcpp2
+## Files: 
+* /usr/bin/soapcpp2
 * /usr/bin/wsdl2h
 * /usr/include/stdsoap2.h
 * /usr/lib/pkgconfig/gsoap++.pc
@@ -216,4 +217,3 @@ A cross-platform development environment for C and C++ SOAP/XML Web services.
 * /usr/share/gsoap/WS/wsse.xsd
 * /usr/share/gsoap/WS/wsu.xsd
 * /usr/share/gsoap/WS/xenc.xsd
-{{< /files >}}

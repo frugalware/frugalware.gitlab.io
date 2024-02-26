@@ -15,7 +15,8 @@ depends = "['freetype2', 'gtk+3', 'gtkmm3', 'pango>=1.40.3-2', 'parted>=3.3']"
 +++
 Parted GUI written in C++ using gtkmm as Graphical Toolkit
 
-{{< files text="show files" >}}* /usr/bin/gparted
+## Files: 
+* /usr/bin/gparted
 * /usr/lib/gparted/gpartedbin
 * /usr/share/appdata/gparted.appdata.xml
 * /usr/share/applications/gparted.desktop
@@ -98,4 +99,3 @@ Parted GUI written in C++ using gtkmm as Graphical Toolkit
 * /usr/share/locale/zh_HK/LC_MESSAGES/gparted.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/gparted.mo
 * /usr/share/man/man8/gparted.8.gz
-{{< /files >}}

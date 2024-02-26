@@ -15,7 +15,7 @@ depends = "['libgcc']"
 +++
 Terminal bandwidth utilization tool
 
-{{< files text="show files" >}}* /usr/bin/bandwhich
+## Files: 
+* /usr/bin/bandwhich
 * /usr/share/doc/bandwhich-0.21.1/README.md
 * /usr/share/man/man1/bandwhich.1.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['dbus-glib', 'enchant', 'freetype2', 'glib2>=2.32.4', 'gpgme', 'gtks
 +++
 A GTK+ based, lightweight, and fast email client
 
-{{< files text="show files" >}}* /usr/bin/sylpheed
+## Files: 
+* /usr/bin/sylpheed
 * /usr/include/sylpheed/plugin-types.h
 * /usr/include/sylpheed/plugin.h
 * /usr/include/sylpheed/sylph/account.h
@@ -183,4 +184,3 @@ A GTK+ based, lightweight, and fast email client
 * /usr/share/sylpheed/manual/ja/sylpheed-8.html
 * /usr/share/sylpheed/manual/ja/sylpheed-9.html
 * /usr/share/sylpheed/manual/ja/sylpheed.html
-{{< /files >}}

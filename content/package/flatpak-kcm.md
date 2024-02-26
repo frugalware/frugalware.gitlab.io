@@ -15,7 +15,8 @@ depends = "['flatpak', 'systemsettings5>=5.27.10']"
 +++
 Flatpak Permissions Management KCM
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_flatpak.so
+## Files: 
+* /usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_flatpak.so
 * /usr/share/applications/kcm_flatpak.desktop
 * /usr/share/doc/flatpak-kcm-5.27.10/README.md
 * /usr/share/kpackage/kcms/kcm_flatpak/contents/ui/AddEnvironmentVariableDialog.qml
@@ -52,4 +53,3 @@ Flatpak Permissions Management KCM
 * /usr/share/locale/uk/LC_MESSAGES/kcm_flatpak.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcm_flatpak.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_flatpak.mo
-{{< /files >}}

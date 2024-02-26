@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.Org Xmu library
 
-{{< files text="show files" >}}* /usr/include/X11/Xmu/Atoms.h
+## Files: 
+* /usr/include/X11/Xmu/Atoms.h
 * /usr/include/X11/Xmu/CharSet.h
 * /usr/include/X11/Xmu/CloseHook.h
 * /usr/include/X11/Xmu/Converters.h
@@ -54,4 +55,3 @@ X.Org Xmu library
 * /usr/share/doc/libxmu-1.1.4/README.md
 * /usr/share/doc/libxmu-1.1.4/xlogo.svg
 * /usr/share/doc/libxmu-1.1.4/Xmu.xml
-{{< /files >}}

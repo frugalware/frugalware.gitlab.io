@@ -16,7 +16,8 @@ reverse_depends = "['crawl-tiles', 'enigma', 'freeciv', 'freerdp', 'lincity-ng',
 +++
 SDL_ttf is a TrueType font rendering library.
 
-{{< files text="show files" >}}* /usr/include/SDL2/SDL_ttf.h
+## Files: 
+* /usr/include/SDL2/SDL_ttf.h
 * /usr/lib/cmake/SDL2_ttf/sdl2_ttf-config-version.cmake
 * /usr/lib/cmake/SDL2_ttf/sdl2_ttf-config.cmake
 * /usr/lib/libSDL2_ttf-2.0.so.0
@@ -24,4 +25,3 @@ SDL_ttf is a TrueType font rendering library.
 * /usr/lib/libSDL2_ttf.so
 * /usr/lib/pkgconfig/SDL2_ttf.pc
 * /usr/share/doc/sdl2_ttf-2.22.0/README.txt
-{{< /files >}}

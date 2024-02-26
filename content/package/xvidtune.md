@@ -16,11 +16,11 @@ license = "GPL2"
 +++
 X.Org xvidtune application
 
-{{< files text="show files" >}}* /usr/bin/xvidtune
+## Files: 
+* /usr/bin/xvidtune
 * /usr/share/doc/xvidtune-1.0.4/ChangeLog
 * /usr/share/doc/xvidtune-1.0.4/COPYING
 * /usr/share/doc/xvidtune-1.0.4/INSTALL
 * /usr/share/doc/xvidtune-1.0.4/README.md
 * /usr/share/man/man1/xvidtune.1.gz
 * /usr/share/X11/app-defaults/Xvidtune
-{{< /files >}}

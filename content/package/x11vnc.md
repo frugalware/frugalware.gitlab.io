@@ -16,7 +16,8 @@ license = "GPL"
 +++
 A VNC server for real X displays
 
-{{< files text="show files" >}}* /usr/bin/x11vnc
+## Files: 
+* /usr/bin/x11vnc
 * /usr/bin/Xdummy
 * /usr/share/applications/x11vnc.desktop
 * /usr/share/doc/x11vnc-0.9.16/ChangeLog
@@ -27,4 +28,3 @@ A VNC server for real X displays
 * /usr/share/doc/x11vnc-0.9.16/README.Frugalware
 * /usr/share/doc/x11vnc-0.9.16/README.md
 * /usr/share/man/man1/x11vnc.1.gz
-{{< /files >}}

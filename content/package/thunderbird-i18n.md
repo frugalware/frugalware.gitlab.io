@@ -15,4 +15,4 @@ depends = "['thunderbird>=115.7.0', 'thunderbird-af', 'thunderbird-ar', 'thunder
 +++
 Language support for Thunderbird
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

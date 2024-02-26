@@ -16,7 +16,8 @@ reverse_depends = "['steam-native']"
 +++
 SELinux library and simple utilities
 
-{{< files text="show files" >}}* /usr/bin/avcstat
+## Files: 
+* /usr/bin/avcstat
 * /usr/bin/compute_av
 * /usr/bin/compute_create
 * /usr/bin/compute_member
@@ -317,4 +318,3 @@ SELinux library and simple utilities
 * /usr/share/man/man8/selinuxexeccon.8.gz
 * /usr/share/man/man8/setenforce.8.gz
 * /usr/share/man/man8/togglesebool.8.gz
-{{< /files >}}

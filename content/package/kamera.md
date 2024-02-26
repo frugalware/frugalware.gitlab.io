@@ -15,7 +15,8 @@ depends = "['gphoto2>=2.5.11-2', 'kcmutils>=5.115.0', 'kio>=5.115.0']"
 +++
 KDE Webcam Configurator Tool.
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/kf5/kio/kio_kamera.so
+## Files: 
+* /usr/lib/qt5/plugins/kf5/kio/kio_kamera.so
 * /usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/kcm_kamera.so
 * /usr/share/applications/kcm_kamera.desktop
 * /usr/share/doc/HTML/ca/kcontrol/kamera/index.cache.bz2
@@ -173,4 +174,3 @@ KDE Webcam Configurator Tool.
 * /usr/share/metainfo/org.kde.kamera.metainfo.xml
 * /usr/share/qlogging-categories5/kamera.categories
 * /usr/share/solid/actions/solid_camera.desktop
-{{< /files >}}

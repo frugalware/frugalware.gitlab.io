@@ -16,7 +16,8 @@ reverse_depends = "['cudf']"
 +++
 OCaml standard library extensions
 
-{{< files text="show files" >}}* /usr/lib/ocaml/extlib/base64.cmi
+## Files: 
+* /usr/lib/ocaml/extlib/base64.cmi
 * /usr/lib/ocaml/extlib/base64.cmt
 * /usr/lib/ocaml/extlib/base64.cmti
 * /usr/lib/ocaml/extlib/base64.cmx
@@ -132,4 +133,3 @@ OCaml standard library extensions
 * /usr/share/doc/ocaml-extlib-1.7.9/CHANGES
 * /usr/share/doc/ocaml-extlib-1.7.9/LICENSE
 * /usr/share/doc/ocaml-extlib-1.7.9/README.md
-{{< /files >}}

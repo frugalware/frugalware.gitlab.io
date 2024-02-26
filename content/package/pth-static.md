@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Static files for pth
 
-{{< files text="show files" >}}* /usr/lib/libpth.a
-{{< /files >}}
+## Files: 
+* /usr/lib/libpth.a

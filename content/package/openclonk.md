@@ -15,7 +15,8 @@ depends = "['glew>=2.2.0', 'gtk+3>=3.18.7', 'libjpeg-turbo', 'libupnp>=1.8.3', '
 +++
 Free multiplayer action game where you control clonks, small but witty and nimble humanoid beings.
 
-{{< files text="show files" >}}* /usr/bin/c4group
+## Files: 
+* /usr/bin/c4group
 * /usr/bin/openclonk
 * /usr/share/appdata/openclonk.appdata.xml
 * /usr/share/applications/openclonk.desktop
@@ -48,4 +49,3 @@ Free multiplayer action game where you control clonks, small but witty and nimbl
 * /usr/share/openclonk/System.ocg
 * /usr/share/openclonk/Tutorials.ocf
 * /usr/share/openclonk/Worlds.ocf
-{{< /files >}}

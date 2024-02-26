@@ -16,7 +16,8 @@ reverse_depends = "['libfbclient', 'libtomcrypt']"
 +++
 Highly optimized and portable routines for integer based number theoretic applications
 
-{{< files text="show files" >}}* /usr/include/tommath.h
+## Files: 
+* /usr/include/tommath.h
 * /usr/lib/libtommath.la
 * /usr/lib/libtommath.so
 * /usr/lib/libtommath.so.1
@@ -24,4 +25,3 @@ Highly optimized and portable routines for integer based number theoretic applic
 * /usr/lib/pkgconfig/libtommath.pc
 * /usr/share/doc/libtommath-1.2.1/LICENSE
 * /usr/share/doc/libtommath-1.2.1/README.md
-{{< /files >}}

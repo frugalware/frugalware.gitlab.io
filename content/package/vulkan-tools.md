@@ -15,9 +15,9 @@ depends = "['libstdc++', 'libxcb', 'vulkan-icd-loader']"
 +++
 Vulkan Utilities and Tools
 
-{{< files text="show files" >}}* /usr/bin/vkcube
+## Files: 
+* /usr/bin/vkcube
 * /usr/bin/vkcube-wayland
 * /usr/bin/vkcubepp
 * /usr/bin/vulkaninfo
 * /usr/share/doc/vulkan-tools-1.3.275.0/README.md
-{{< /files >}}

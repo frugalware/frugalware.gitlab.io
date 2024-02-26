@@ -15,7 +15,8 @@ depends = "['bctoolbox']"
 +++
 A Real-time Transport Protocol stack.
 
-{{< files text="show files" >}}* /usr/include/ortp/b64.h
+## Files: 
+* /usr/include/ortp/b64.h
 * /usr/include/ortp/event.h
 * /usr/include/ortp/logging.h
 * /usr/include/ortp/ortp.h
@@ -41,4 +42,3 @@ A Real-time Transport Protocol stack.
 * /usr/share/doc/ortp-0.27.0/NEWS
 * /usr/share/doc/ortp-0.27.0/README
 * /usr/share/doc/ortp-0.27.0/TODO
-{{< /files >}}

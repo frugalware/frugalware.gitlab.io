@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.Org Xxf86dga library
 
-{{< files text="show files" >}}* /usr/include/X11/extensions/xf86dga1.h
+## Files: 
+* /usr/include/X11/extensions/xf86dga1.h
 * /usr/include/X11/extensions/Xxf86dga.h
 * /usr/lib/libXxf86dga.so
 * /usr/lib/libXxf86dga.so.1
@@ -48,4 +49,3 @@ X.Org Xxf86dga library
 * /usr/share/man/man3/XDGASync.3.gz
 * /usr/share/man/man3/XF86DGA.3.gz
 * /usr/share/man/man3/XFree86-DGA.3.gz
-{{< /files >}}

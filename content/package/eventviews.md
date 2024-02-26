@@ -16,7 +16,8 @@ reverse_depends = "['incidenceeditor', 'merkuro']"
 +++
 Library for creating events.
 
-{{< files text="show files" >}}* /usr/include/KPim5/EventViews/EventViews/AgendaView
+## Files: 
+* /usr/include/KPim5/EventViews/EventViews/AgendaView
 * /usr/include/KPim5/EventViews/eventviews/agendaview.h
 * /usr/include/KPim5/EventViews/EventViews/CalendarDecoration
 * /usr/include/KPim5/EventViews/eventviews/calendardecoration.h
@@ -108,4 +109,3 @@ Library for creating events.
 * /usr/share/qlogging-categories5/eventviews.categories
 * /usr/share/qlogging-categories5/eventviews.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_EventViews.pri
-{{< /files >}}

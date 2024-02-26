@@ -16,7 +16,8 @@ reverse_depends = "['ghostwriter', 'kpimtextedit', 'ktextwidgets']"
 +++
 Spelling framework for Qt, plugin-based.
 
-{{< files text="show files" >}}* /usr/bin/gentrigrams
+## Files: 
+* /usr/bin/gentrigrams
 * /usr/bin/parsetrigrams
 * /usr/include/KF5/Sonnet/sonnet_version.h
 * /usr/include/KF5/SonnetCore/Sonnet/BackgroundChecker
@@ -162,4 +163,3 @@ Spelling framework for Qt, plugin-based.
 * /usr/share/qt5/qml/org/kde/sonnet/libsonnetquickplugin.so
 * /usr/share/qt5/qml/org/kde/sonnet/plugins.qmltypes
 * /usr/share/qt5/qml/org/kde/sonnet/qmldir
-{{< /files >}}

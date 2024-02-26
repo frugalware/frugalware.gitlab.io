@@ -16,7 +16,8 @@ reverse_depends = "['docbook-xml', 'docbook-xsl', 'inxi', 'kbd', 'kernel', 'kern
 +++
 GNU version of sed, a stream editor
 
-{{< files text="show files" >}}* /usr/bin/sed
+## Files: 
+* /usr/bin/sed
 * /usr/share/doc/sed-4.9/AUTHORS
 * /usr/share/doc/sed-4.9/BUGS
 * /usr/share/doc/sed-4.9/ChangeLog
@@ -67,4 +68,3 @@ GNU version of sed, a stream editor
 * /usr/share/locale/zh_CN/LC_MESSAGES/sed.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/sed.mo
 * /usr/share/man/man1/sed.1.gz
-{{< /files >}}

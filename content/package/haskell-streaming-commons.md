@@ -16,7 +16,8 @@ reverse_depends = "['haskell-conduit-extra', 'haskell-http-client', 'haskell-war
 +++
 Common lower-level functions needed by various streaming data libraries
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/streaming-commons-0.2.2.6/Data/Streaming/ByteString/Builder.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/streaming-commons-0.2.2.6/Data/Streaming/ByteString/Builder.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/streaming-commons-0.2.2.6/Data/Streaming/ByteString/Builder.hi
 * /usr/lib/ghc-9.8.1/site-local/streaming-commons-0.2.2.6/Data/Streaming/ByteString/Builder/Buffer.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/streaming-commons-0.2.2.6/Data/Streaming/ByteString/Builder/Buffer.hi
@@ -84,4 +85,3 @@ Common lower-level functions needed by various streaming data libraries
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/streaming-commons-0.2.2.6/LICENSE
 * /usr/share/haskell/haskell-streaming-commons/register.sh
 * /usr/share/haskell/haskell-streaming-commons/unregister.sh
-{{< /files >}}

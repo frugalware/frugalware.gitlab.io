@@ -15,5 +15,5 @@ depends = "['libgcrypt>=1.7.3-2', 'qca']"
 +++
 Plugins for qca with gcrypt
 
-{{< files text="show files" >}}* /usr/lib/qca-qt5/crypto/libqca-gcrypt.so
-{{< /files >}}
+## Files: 
+* /usr/lib/qca-qt5/crypto/libqca-gcrypt.so

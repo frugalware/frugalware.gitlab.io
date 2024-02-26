@@ -15,5 +15,5 @@ depends = "['libvlc>=3.0.20', 'live>=2024.02.15']"
 +++
 vlc plugin for Live555
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/access/liblive555_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/access/liblive555_plugin.so

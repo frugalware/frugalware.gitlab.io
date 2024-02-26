@@ -16,7 +16,8 @@ reverse_depends = "['freeimage', 'sdl2_image']"
 +++
 Open source implementation of jpegxr
 
-{{< files text="show files" >}}* /usr/bin/JxrDecApp
+## Files: 
+* /usr/bin/JxrDecApp
 * /usr/bin/JxrEncApp
 * /usr/include/libjxr/common/guiddef.h
 * /usr/include/libjxr/common/wmsal.h
@@ -43,4 +44,3 @@ Open source implementation of jpegxr
 * /usr/share/doc/jxr-1.1/JPEGXR_DPK_Spec_1.0.doc
 * /usr/share/doc/jxr-1.1/readme.txt
 * /usr/share/doc/jxrlib-0.2.4/README.md
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['scummvm-tools']"
 +++
 ScummVM is a program which allows you to run certain classic graphical point-and-click adventure games.
 
-{{< files text="show files" >}}* /usr/bin/scummvm
+## Files: 
+* /usr/bin/scummvm
 * /usr/share/applications/scummvm.desktop
 * /usr/share/doc/scummvm-2.7.1/AUTHORS
 * /usr/share/doc/scummvm-2.7.1/CONTRIBUTING.md
@@ -140,4 +141,3 @@ ScummVM is a program which allows you to run certain classic graphical point-and
 * /usr/share/scummvm/wintermute.zip
 * /usr/share/scummvm/wwwroot.zip
 * /usr/share/scummvm/xeen.ccs
-{{< /files >}}

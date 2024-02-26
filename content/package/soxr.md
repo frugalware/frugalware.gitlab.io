@@ -16,7 +16,8 @@ reverse_depends = "['libpulse']"
 +++
 The SoX Resampler library that aims to give fast and high quality results for any constant resampling ratio
 
-{{< files text="show files" >}}* /usr/include/soxr-lsr.h
+## Files: 
+* /usr/include/soxr-lsr.h
 * /usr/include/soxr.h
 * /usr/lib/libsoxr-lsr.so
 * /usr/lib/libsoxr-lsr.so.0
@@ -43,4 +44,3 @@ The SoX Resampler library that aims to give fast and high quality results for an
 * /usr/share/doc/soxr-0.1.3/NEWS
 * /usr/share/doc/soxr-0.1.3/README
 * /usr/share/doc/soxr-0.1.3/TODO
-{{< /files >}}

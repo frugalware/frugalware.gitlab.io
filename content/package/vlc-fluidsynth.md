@@ -15,5 +15,5 @@ depends = "['fluidsynth', 'libvlc>=3.0.20']"
 +++
 vlc plugin for fluidsynth
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/libfluidsynth_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/codec/libfluidsynth_plugin.so

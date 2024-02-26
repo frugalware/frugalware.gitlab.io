@@ -16,7 +16,8 @@ reverse_depends = "['discover', 'etckeeper', 'flutter', 'git-crypt', 'git-gui', 
 +++
 A fast, scalable, distributed revision control system.
 
-{{< files text="show files" >}}* /etc/bash_completion.d/git
+## Files: 
+* /etc/bash_completion.d/git
 * /etc/sysconfig/git
 * /usr/bin/git
 * /usr/bin/git-cvsserver
@@ -1425,4 +1426,3 @@ A fast, scalable, distributed revision control system.
 * /usr/share/man/man7/gittutorial-2.7.gz
 * /usr/share/man/man7/gittutorial.7.gz
 * /usr/share/man/man7/gitworkflows.7.gz
-{{< /files >}}

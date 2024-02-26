@@ -16,7 +16,8 @@ reverse_depends = "['telepathy-qt5']"
 +++
 Telepathy client library that uses Farsight2 to handle Call channels
 
-{{< files text="show files" >}}* /usr/include/telepathy-1.0/telepathy-farstream/channel.h
+## Files: 
+* /usr/include/telepathy-1.0/telepathy-farstream/channel.h
 * /usr/include/telepathy-1.0/telepathy-farstream/content.h
 * /usr/include/telepathy-1.0/telepathy-farstream/telepathy-farstream.h
 * /usr/lib/girepository-1.0/TelepathyFarstream-0.6.typelib
@@ -41,4 +42,3 @@ Telepathy client library that uses Farsight2 to handle Call channels
 * /usr/share/gtk-doc/html/telepathy-farstream/TfChannel.html
 * /usr/share/gtk-doc/html/telepathy-farstream/TfContent.html
 * /usr/share/gtk-doc/html/telepathy-farstream/up.png
-{{< /files >}}

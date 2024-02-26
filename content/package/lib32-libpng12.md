@@ -16,10 +16,10 @@ reverse_depends = "['steam-native']"
 +++
 A collection of routines used to create PNG format graphics files. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/libpng12-config
+## Files: 
+* /usr/i686-frugalware-linux/bin/libpng12-config
 * /usr/lib32/libpng.so.3
 * /usr/lib32/libpng.so.3.57.0
 * /usr/lib32/libpng12.so
 * /usr/lib32/libpng12.so.0
 * /usr/lib32/libpng12.so.0.57.0
-{{< /files >}}

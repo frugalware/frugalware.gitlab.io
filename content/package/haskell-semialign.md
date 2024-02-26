@@ -16,7 +16,8 @@ reverse_depends = "['haskell-aeson']"
 +++
 Align and Zip type-classes from the common Semialign ancestor.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/semialign-1.3/Data/Align.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/semialign-1.3/Data/Align.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/semialign-1.3/Data/Align.hi
 * /usr/lib/ghc-9.8.1/site-local/semialign-1.3/Data/Crosswalk.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/semialign-1.3/Data/Crosswalk.hi
@@ -47,4 +48,3 @@ Align and Zip type-classes from the common Semialign ancestor.
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/semialign-1.3/LICENSE
 * /usr/share/haskell/haskell-semialign/register.sh
 * /usr/share/haskell/haskell-semialign/unregister.sh
-{{< /files >}}

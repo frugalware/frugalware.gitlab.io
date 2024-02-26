@@ -16,7 +16,8 @@ reverse_depends = "['efl', 'gegl', 'graphviz', 'gtk-sharp', 'imagemagick', 'libv
 +++
 A high performance SVG rendering library for GNOME
 
-{{< files text="show files" >}}* /usr/bin/rsvg-convert
+## Files: 
+* /usr/bin/rsvg-convert
 * /usr/include/librsvg-2.0/librsvg/rsvg-cairo.h
 * /usr/include/librsvg-2.0/librsvg/rsvg-features.h
 * /usr/include/librsvg-2.0/librsvg/rsvg-version.h
@@ -36,4 +37,3 @@ A high performance SVG rendering library for GNOME
 * /usr/share/gir-1.0/Rsvg-2.0.gir
 * /usr/share/thumbnailers/librsvg.thumbnailer
 * /usr/share/vala/vapi/librsvg-2.0.vapi
-{{< /files >}}

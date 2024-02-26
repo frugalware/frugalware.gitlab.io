@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Hungarian Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/khangman/data/hu/animals.kvtml
+## Files: 
+* usr/share/apps/khangman/data/hu/animals.kvtml
 * usr/share/apps/khangman/data/hu/easy.kvtml
 * usr/share/apps/khangman/data/hu/hard.kvtml
 * usr/share/apps/khangman/data/hu/medium.kvtml
@@ -1004,4 +1005,3 @@ Hungarian Localization for KDE.
 * usr/share/locale/hu/LC_MESSAGES/wakeup.mo
 * usr/share/locale/hu/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/hu/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

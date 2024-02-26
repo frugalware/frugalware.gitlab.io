@@ -16,7 +16,8 @@ reverse_depends = "['hotdoc', 'llvm-ocaml']"
 +++
 Low Level Virtual Machine (Compiler , Tools and Libs)
 
-{{< files text="show files" >}}* /usr/bin/amdgpu-arch
+## Files: 
+* /usr/bin/amdgpu-arch
 * /usr/bin/bugpoint
 * /usr/bin/count
 * /usr/bin/dsymutil
@@ -4996,4 +4997,3 @@ Low Level Virtual Machine (Compiler , Tools and Libs)
 * /usr/share/man/man1/mlir-tblgen.1.gz
 * /usr/share/man/man1/opt.1.gz
 * /usr/share/man/man1/tblgen.1.gz
-{{< /files >}}

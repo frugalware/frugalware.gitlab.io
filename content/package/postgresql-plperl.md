@@ -15,5 +15,5 @@ depends = "['perl>=2.26.1', 'postgresql>=16.1']"
 +++
 PostgreSQL perl bindings
 
-{{< files text="show files" >}}* /usr/lib/postgresql/plperl.so
-{{< /files >}}
+## Files: 
+* /usr/lib/postgresql/plperl.so

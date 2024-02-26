@@ -16,11 +16,11 @@ reverse_depends = "['easyeffects', 'mixxx']"
 +++
 A library that implements the EBU R 128 standard for loudness normalisation.
 
-{{< files text="show files" >}}* /usr/include/ebur128.h
+## Files: 
+* /usr/include/ebur128.h
 * /usr/lib/libebur128.so
 * /usr/lib/libebur128.so.1
 * /usr/lib/libebur128.so.1.2.6
 * /usr/lib/pkgconfig/libebur128.pc
 * /usr/share/doc/libebur128-1.2.6/COPYING
 * /usr/share/doc/libebur128-1.2.6/README.md
-{{< /files >}}

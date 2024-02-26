@@ -15,7 +15,8 @@ depends = "['kactivities5>=5.115.0', 'kconfig>=5.115.0', 'kdbusaddons>=5.115.0',
 +++
 Qt Platform Theme integration plugins for the Plasma workspaces.
 
-{{< files text="show files" >}}* /etc/chromium/native-messaging-hosts/org.kde.plasma.browser_integration.json
+## Files: 
+* /etc/chromium/native-messaging-hosts/org.kde.plasma.browser_integration.json
 * /etc/opt/chrome/native-messaging-hosts/org.kde.plasma.browser_integration.json
 * /etc/opt/edge/native-messaging-hosts/org.kde.plasma.browser_integration.json
 * /usr/bin/plasma-browser-integration-host
@@ -109,4 +110,3 @@ Qt Platform Theme integration plugins for the Plasma workspaces.
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasma-browser-integration-reminder.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma-browser-integration-host.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma-browser-integration-reminder.mo
-{{< /files >}}

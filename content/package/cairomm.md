@@ -16,7 +16,8 @@ reverse_depends = "['gtkmm', 'gtkmm3', 'pangomm']"
 +++
 C++ bindings for cairo
 
-{{< files text="show files" >}}* /usr/include/cairomm-1.0/cairomm/cairomm.h
+## Files: 
+* /usr/include/cairomm-1.0/cairomm/cairomm.h
 * /usr/include/cairomm-1.0/cairomm/context.h
 * /usr/include/cairomm-1.0/cairomm/device.h
 * /usr/include/cairomm-1.0/cairomm/enums.h
@@ -55,4 +56,3 @@ C++ bindings for cairo
 * /usr/share/doc/cairomm-1.14.3/COPYING
 * /usr/share/doc/cairomm-1.14.3/NEWS
 * /usr/share/doc/cairomm-1.14.3/README
-{{< /files >}}

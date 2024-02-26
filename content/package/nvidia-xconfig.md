@@ -16,7 +16,7 @@ reverse_depends = "['nvidia']"
 +++
 nVidia settings configuration tool.
 
-{{< files text="show files" >}}* /usr/bin/nvidia-xconfig
+## Files: 
+* /usr/bin/nvidia-xconfig
 * /usr/share/doc/nvidia-xconfig-550.40.07/COPYING
 * /usr/share/man/man1/nvidia-xconfig.1.gz
-{{< /files >}}

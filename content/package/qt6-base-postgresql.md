@@ -15,11 +15,11 @@ depends = "['libpq>=11.2-2', 'qt6-base>=6.6.2', 'qt6-base-sql-common']"
 +++
 Postgresql support for qt6
 
-{{< files text="show files" >}}* /usr/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginAdditionalTargetInfo.cmake
+## Files: 
+* /usr/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginConfig.cmake
 * /usr/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginConfigVersion.cmake
 * /usr/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginConfigVersionImpl.cmake
 * /usr/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginTargets-release.cmake
 * /usr/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginTargets.cmake
 * /usr/lib/qt6/plugins/sqldrivers/libqsqlpsql.so
-{{< /files >}}

@@ -15,6 +15,6 @@ depends = "['mercurial', 'tk']"
 +++
 Graphical repository and history browser based on gitk.
 
-{{< files text="show files" >}}* /usr/bin/hgk
+## Files: 
+* /usr/bin/hgk
 * /usr/lib/python3.12/site-packages/hgext/hgk.py
-{{< /files >}}

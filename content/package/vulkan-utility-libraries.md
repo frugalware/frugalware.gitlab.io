@@ -15,7 +15,8 @@ depends = "['glibc>=2.35']"
 +++
 Utility libraries for Vulkan developers
 
-{{< files text="show files" >}}* /usr/include/vulkan/layer/vk_layer_settings.h
+## Files: 
+* /usr/include/vulkan/layer/vk_layer_settings.h
 * /usr/include/vulkan/layer/vk_layer_settings.hpp
 * /usr/include/vulkan/utility/vk_dispatch_table.h
 * /usr/include/vulkan/utility/vk_format_utils.h
@@ -26,4 +27,3 @@ Utility libraries for Vulkan developers
 * /usr/lib/cmake/VulkanUtilityLibraries/VulkanUtilityLibrariesConfig.cmake
 * /usr/lib/libVulkanLayerSettings.a
 * /usr/share/doc/vulkan-utility-libraries-1.3.275.0/README.md
-{{< /files >}}

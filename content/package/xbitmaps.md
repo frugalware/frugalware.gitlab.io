@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.Org bitmaps data
 
-{{< files text="show files" >}}* /usr/include/X11/bitmaps/1x1
+## Files: 
+* /usr/include/X11/bitmaps/1x1
 * /usr/include/X11/bitmaps/2x2
 * /usr/include/X11/bitmaps/black
 * /usr/include/X11/bitmaps/boxes
@@ -91,4 +92,3 @@ X.Org bitmaps data
 * /usr/share/doc/xbitmaps-1.1.3/COPYING
 * /usr/share/doc/xbitmaps-1.1.3/INSTALL
 * /usr/share/doc/xbitmaps-1.1.3/README.md
-{{< /files >}}

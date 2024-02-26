@@ -16,7 +16,8 @@ reverse_depends = "['alicevision']"
 +++
 Library for performing fast approximate nearest neighbor searches in high dimensional spaces
 
-{{< files text="show files" >}}* /usr/include/flann/algorithms/all_indices.h
+## Files: 
+* /usr/include/flann/algorithms/all_indices.h
 * /usr/include/flann/algorithms/autotuned_index.h
 * /usr/include/flann/algorithms/center_chooser.h
 * /usr/include/flann/algorithms/composite_index.h
@@ -81,4 +82,3 @@ Library for performing fast approximate nearest neighbor searches in high dimens
 * /usr/share/flann/python/pyflann/index.py
 * /usr/share/flann/python/pyflann/__init__.py
 * /usr/share/flann/python/setup.py
-{{< /files >}}

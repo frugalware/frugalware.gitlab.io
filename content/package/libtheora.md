@@ -16,7 +16,8 @@ reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-base-theora', 'gtk-hand
 +++
 An open video codec developed by the Xiph.org.
 
-{{< files text="show files" >}}* /usr/include/theora/codec.h
+## Files: 
+* /usr/include/theora/codec.h
 * /usr/include/theora/theora.h
 * /usr/include/theora/theoradec.h
 * /usr/include/theora/theoraenc.h
@@ -111,4 +112,3 @@ An open video codec developed by the Xiph.org.
 * /usr/share/doc/libtheora-1.1.1/LICENSE
 * /usr/share/doc/libtheora-1.1.1/README
 * /usr/share/doc/libtheora-1.1.1/vp3-format.txt
-{{< /files >}}

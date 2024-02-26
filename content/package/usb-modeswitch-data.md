@@ -16,7 +16,8 @@ reverse_depends = "['usb-modeswitch']"
 +++
 A mode switching tool for controlling 'flip flop' (multiple device) USB gear - data
 
-{{< files text="show files" >}}* /usr/lib/udev/rules.d/40-usb_modeswitch.rules
+## Files: 
+* /usr/lib/udev/rules.d/40-usb_modeswitch.rules
 * /usr/share/doc/usb-modeswitch-data-20191128/ChangeLog
 * /usr/share/doc/usb-modeswitch-data-20191128/COPYING
 * /usr/share/doc/usb-modeswitch-data-20191128/README
@@ -533,4 +534,3 @@ A mode switching tool for controlling 'flip flop' (multiple device) USB gear - d
 * /usr/share/usb_modeswitch/8888:6500
 * /usr/share/usb_modeswitch/ed09:1021
 * /usr/share/usb_modeswitch/new.lst
-{{< /files >}}

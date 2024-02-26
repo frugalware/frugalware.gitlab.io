@@ -16,7 +16,8 @@ reverse_depends = "['codeine', 'opencv', 'xine-ui']"
 +++
 Xine multimedia playback engine libraries
 
-{{< files text="show files" >}}* /usr/bin/xine-config
+## Files: 
+* /usr/bin/xine-config
 * /usr/bin/xine-list-1.2
 * /usr/include/xine.h
 * /usr/include/xine/alphablend.h
@@ -244,4 +245,3 @@ Xine multimedia playback engine libraries
 * /usr/share/xine-lib/fonts/serif-32.xinefont.gz
 * /usr/share/xine-lib/fonts/serif-48.xinefont.gz
 * /usr/share/xine-lib/fonts/serif-64.xinefont.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['udisks2']"
 +++
 A library for manipulating block devices
 
-{{< files text="show files" >}}* /etc/libblockdev/3/conf.d/00-default.cfg
+## Files: 
+* /etc/libblockdev/3/conf.d/00-default.cfg
 * /etc/libblockdev/3/conf.d/10-lvm-dbus.cfg
 * /usr/bin/lvm-cache-stats
 * /usr/bin/vfat-resize
@@ -105,4 +106,3 @@ A library for manipulating block devices
 * /usr/share/doc/libblockdev-3.1.0/LICENSE
 * /usr/share/doc/libblockdev-3.1.0/README.md
 * /usr/share/gir-1.0/BlockDev-3.0.gir
-{{< /files >}}

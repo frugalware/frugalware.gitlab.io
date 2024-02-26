@@ -15,7 +15,8 @@ depends = "['khtml>=5.110.0', 'kinit>=5.110.0', 'ktexteditor>=5.110.0', 'okular>
 +++
 A qt latex environment.
 
-{{< files text="show files" >}}* /etc/xdg/kile.categories
+## Files: 
+* /etc/xdg/kile.categories
 * /usr/bin/kile
 * /usr/lib/libkdeinit5_kile.so
 * /usr/share/applications/org.kde.kile.desktop
@@ -1610,4 +1611,3 @@ A qt latex environment.
 * /usr/share/kile/usermenu/example.xml
 * /usr/share/metainfo/org.kde.kile.appdata.xml
 * /usr/share/mime/packages/kile.xml
-{{< /files >}}

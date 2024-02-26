@@ -15,4 +15,4 @@ depends = "['elfutils>=0.167-2', 'expat>=2.1.0-6', 'libdrm>=2.4.70-2', 'libffi>=
 +++
 Mesa SWR driver
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

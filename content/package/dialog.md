@@ -16,7 +16,8 @@ reverse_depends = "['alsa-info', 'fetchmailconf']"
 +++
 A tool to display dialog boxes from shell scripts
 
-{{< files text="show files" >}}* /usr/bin/dialog
+## Files: 
+* /usr/bin/dialog
 * /usr/lib/libdialog.so
 * /usr/lib/libdialog.so.1.3
 * /usr/lib/libdialog.so.15.0.0
@@ -84,4 +85,3 @@ A tool to display dialog boxes from shell scripts
 * /usr/share/locale/zh_CN/LC_MESSAGES/dialog.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/dialog.mo
 * /usr/share/man/man1/dialog.1.gz
-{{< /files >}}

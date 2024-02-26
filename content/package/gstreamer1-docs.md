@@ -15,7 +15,8 @@ depends = "[]"
 +++
 GStreamer $pkgver Documentation.
 
-{{< files text="show files" >}}* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/1394/dv1394src.html
+## Files: 
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/1394/dv1394src.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/1394/hdv1394src.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/1394/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/a52dec/index.html
@@ -3189,4 +3190,3 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/y4mdec/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/y4menc/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/zbar/index.html
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['kdeconnect-kde']"
 +++
 Library for simulating key press events under X11
 
-{{< files text="show files" >}}* /usr/include/fakekey/fakekey.h
+## Files: 
+* /usr/include/fakekey/fakekey.h
 * /usr/lib/libfakekey.so
 * /usr/lib/libfakekey.so.0
 * /usr/lib/libfakekey.so.0.0.1
@@ -24,4 +25,3 @@ Library for simulating key press events under X11
 * /usr/share/doc/libfakekey-0.3/ChangeLog
 * /usr/share/doc/libfakekey-0.3/COPYING
 * /usr/share/doc/libfakekey-0.3/INSTALL
-{{< /files >}}

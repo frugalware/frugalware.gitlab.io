@@ -16,6 +16,6 @@ reverse_depends = "['get_steam', 'steam-native']"
 +++
 Modern library for one-way hashing of passwords - lib32 glibc compat
 
-{{< files text="show files" >}}* /usr/lib32/libcrypt.so.1
+## Files: 
+* /usr/lib32/libcrypt.so.1
 * /usr/lib32/libcrypt.so.1.1.0
-{{< /files >}}

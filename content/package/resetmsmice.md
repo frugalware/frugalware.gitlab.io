@@ -15,7 +15,8 @@ depends = "['gtk+3', 'libusb']"
 +++
 Application to reset many MS wireless mice models to stop excessive wheel scrolling
 
-{{< files text="show files" >}}* /usr/bin/resetmsmice
+## Files: 
+* /usr/bin/resetmsmice
 * /usr/bin/resetmsmice-enable-boot
 * /usr/bin/resetmsmice-gui
 * /usr/lib/udev/rules.d/60-resetmsmice.rules
@@ -29,4 +30,3 @@ Application to reset many MS wireless mice models to stop excessive wheel scroll
 * /usr/share/doc/resetmsmice-1.2.1/README
 * /usr/share/doc/resetmsmice-1.2.1/TODO
 * /usr/share/icons/hicolor/scalable/apps/resetmsmice.svg
-{{< /files >}}

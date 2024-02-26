@@ -16,7 +16,8 @@ reverse_depends = "['python3-poetry']"
 +++
 create beautiful and testable command-line interfaces
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/cleo-2.1.0.dist-info/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/cleo-2.1.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/cleo-2.1.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/cleo-2.1.0.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/cleo-2.1.0.dist-info/WHEEL
@@ -239,4 +240,3 @@ create beautiful and testable command-line interfaces
 * /usr/lib/python3.12/site-packages/cleo/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-cleo-2.1.0/LICENSE
 * /usr/share/doc/python3-cleo-2.1.0/README.md
-{{< /files >}}

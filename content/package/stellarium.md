@@ -15,7 +15,8 @@ depends = "['qt5-charts>=5.15.10', 'qt5-multimedia>=5.15.10', 'qt5-script>=5.15.
 +++
 A free open source planetarium for your computer.
 
-{{< files text="show files" >}}* /usr/bin/stellarium
+## Files: 
+* /usr/bin/stellarium
 * /usr/lib/libShowMySky-Qt5.so
 * /usr/lib/libShowMySky-Qt5.so.15
 * /usr/lib/libShowMySky-Qt5.so.15.0.0
@@ -4185,4 +4186,3 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/webroot/style_tablet7in.css
 * /usr/share/stellarium/webroot/tablet7in.html
 * /usr/share/stellarium/webroot/translate_files
-{{< /files >}}

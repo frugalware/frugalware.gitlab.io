@@ -15,7 +15,8 @@ depends = "['gtkmm', 'transmission-cli>=4.0.5']"
 +++
 Gtk based gui for transmission.
 
-{{< files text="show files" >}}* /usr/bin/transmission-gtk
+## Files: 
+* /usr/bin/transmission-gtk
 * /usr/share/applications/transmission-gtk.desktop
 * /usr/share/icons/hicolor/scalable/apps/transmission-devel.svg
 * /usr/share/icons/hicolor/scalable/apps/transmission.svg
@@ -107,4 +108,3 @@ Gtk based gui for transmission.
 * /usr/share/locale/zh_HK/LC_MESSAGES/transmission-gtk.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/transmission-gtk.mo
 * /usr/share/man/man1/transmission-gtk.1.gz
-{{< /files >}}

@@ -15,11 +15,11 @@ depends = "['glibc>=2.7-3']"
 +++
 display or set the kernel time variables
 
-{{< files text="show files" >}}* /usr/bin/adjtimex
+## Files: 
+* /usr/bin/adjtimex
 * /usr/share/doc/adjtimex-1.29/ChangeLog
 * /usr/share/doc/adjtimex-1.29/COPYING
 * /usr/share/doc/adjtimex-1.29/COPYRIGHT
 * /usr/share/doc/adjtimex-1.29/README
 * /usr/share/doc/adjtimex-1.29/README.ru
 * /usr/share/man/man8/adjtimex.8.gz
-{{< /files >}}

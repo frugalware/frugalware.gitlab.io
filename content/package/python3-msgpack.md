@@ -16,7 +16,8 @@ reverse_depends = "['python3-cachecontrol']"
 +++
 Python module for MessagePack serialization/deserialization library
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/msgpack-1.0.6-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/msgpack-1.0.6-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/msgpack-1.0.6-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/msgpack-1.0.6-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/msgpack-1.0.6-py3.12.egg-info/top_level.txt
@@ -42,4 +43,3 @@ Python module for MessagePack serialization/deserialization library
 * /usr/lib/python3.12/site-packages/msgpack/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-msgpack-1.0.7/COPYING
 * /usr/share/doc/python3-msgpack-1.0.7/README.md
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['kaccounts-provider-opendesktop']"
 +++
 Oauth2 plugin for signon
 
-{{< files text="show files" >}}* /usr/bin/signon-oauth2plugin-tests
+## Files: 
+* /usr/bin/signon-oauth2plugin-tests
 * /usr/include/signon-plugins/oauth1data.h
 * /usr/include/signon-plugins/oauth2data.h
 * /usr/lib/pkgconfig/signon-oauth2plugin.pc
@@ -24,4 +25,3 @@ Oauth2 plugin for signon
 * /usr/share/doc/signon-plugin-oauth2-0.25/COPYING
 * /usr/share/doc/signon-plugin-oauth2-0.25/README.md
 * /usr/share/signon-oauth2plugin-tests/tests.xml
-{{< /files >}}

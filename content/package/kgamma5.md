@@ -15,7 +15,8 @@ depends = "['kconfigwidgets>=5.115.0', 'libxxf86vm']"
 +++
 Adjust your monitor's gamma settings
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/plasma/kcminit/kcm_kgamma_init.so
+## Files: 
+* /usr/lib/qt5/plugins/plasma/kcminit/kcm_kgamma_init.so
 * /usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_kgamma.so
 * /usr/share/doc/HTML/ca/kcontrol/kgamma5/index.cache.bz2
 * /usr/share/doc/HTML/ca/kcontrol/kgamma5/index.docbook
@@ -133,4 +134,3 @@ Adjust your monitor's gamma settings
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcmkgamma.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/kcmkgamma.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcmkgamma.mo
-{{< /files >}}

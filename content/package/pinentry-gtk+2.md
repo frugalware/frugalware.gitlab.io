@@ -15,6 +15,6 @@ depends = "['gtk+2', 'pinentry>=1.2.1']"
 +++
 GTK+2 based Applications for entering PINs or Passphrases.
 
-{{< files text="show files" >}}* /usr/bin/pinentry-gtk
+## Files: 
+* /usr/bin/pinentry-gtk
 * /usr/bin/pinentry-gtk-2
-{{< /files >}}

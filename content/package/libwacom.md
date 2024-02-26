@@ -16,7 +16,8 @@ reverse_depends = "['libinput']"
 +++
 Tablet Information Client Library
 
-{{< files text="show files" >}}* /usr/bin/libwacom-list-devices
+## Files: 
+* /usr/bin/libwacom-list-devices
 * /usr/bin/libwacom-list-local-devices
 * /usr/bin/libwacom-show-stylus
 * /usr/bin/libwacom-update-db
@@ -513,4 +514,3 @@ Tablet Information Client Library
 * /usr/share/libwacom/xp-pen-star03.tablet
 * /usr/share/man/man1/libwacom-list-devices.1.gz
 * /usr/share/man/man1/libwacom-list-local-devices.1.gz
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['pandoc']"
 +++
 Implementations of the SHA suite of message digest functions
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/SHA-1.6.4.4/Data/Digest/Pure/SHA.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/SHA-1.6.4.4/Data/Digest/Pure/SHA.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/SHA-1.6.4.4/Data/Digest/Pure/SHA.hi
 * /usr/lib/ghc-9.8.1/site-local/SHA-1.6.4.4/libHSSHA-1.6.4.4-3MbMAFYw7BD1KsE0vMz1jR.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSSHA-1.6.4.4-3MbMAFYw7BD1KsE0vMz1jR-ghc9.8.1.so
@@ -33,4 +34,3 @@ Implementations of the SHA suite of message digest functions
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/SHA-1.6.4.4/LICENSE
 * /usr/share/haskell/haskell-sha/register.sh
 * /usr/share/haskell/haskell-sha/unregister.sh
-{{< /files >}}

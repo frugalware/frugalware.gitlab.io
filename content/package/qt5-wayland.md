@@ -16,7 +16,8 @@ reverse_depends = "['greetd-qtgreet', 'kguiaddons', 'kwayland', 'layer-shell-qt'
 +++
 The Qt5 toolkit, qtwayland
 
-{{< files text="show files" >}}* /usr/bin/qtwaylandscanner
+## Files: 
+* /usr/bin/qtwaylandscanner
 * /usr/bin/qtwaylandscanner-qt5
 * /usr/include/qt5/QtWaylandClient/5.15.12/QtWaylandClient/private/qtwaylandclient-config_p.h
 * /usr/include/qt5/QtWaylandClient/5.15.12/QtWaylandClient/private/qtwaylandclientglobal_p.h
@@ -372,4 +373,3 @@ The Qt5 toolkit, qtwayland
 * /usr/share/qt5/qml/QtWayland/Compositor/qmldir
 * /usr/share/qt5/qml/QtWayland/Compositor/TextureSharingExtension/libqwaylandtexturesharingextension.so
 * /usr/share/qt5/qml/QtWayland/Compositor/TextureSharingExtension/qmldir
-{{< /files >}}

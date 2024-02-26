@@ -16,7 +16,8 @@ reverse_depends = "['efl', 'farstream', 'gst-libav', 'gst-python', 'gst1-plugin-
 +++
 Plugins for GStreamer 1.0
 
-{{< files text="show files" >}}* /usr/bin/gst-device-monitor-1.0
+## Files: 
+* /usr/bin/gst-device-monitor-1.0
 * /usr/bin/gst-discoverer-1.0
 * /usr/bin/gst-play-1.0
 * /usr/include/gstreamer-1.0/gst/allocators/allocators-prelude.h
@@ -361,4 +362,3 @@ Plugins for GStreamer 1.0
 * /usr/share/man/man1/gst-device-monitor-1.0.1.gz
 * /usr/share/man/man1/gst-discoverer-1.0.1.gz
 * /usr/share/man/man1/gst-play-1.0.1.gz
-{{< /files >}}

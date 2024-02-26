@@ -16,7 +16,8 @@ reverse_depends = "['audiotube', 'dolphin', 'kopete', 'krita', 'kservice', 'polk
 +++
 Gracefull handling of application crashes.
 
-{{< files text="show files" >}}* /usr/include/KF5/KCrash/KCrash
+## Files: 
+* /usr/include/KF5/KCrash/KCrash
 * /usr/include/KF5/KCrash/kcrash.h
 * /usr/include/KF5/KCrash/kcrash_export.h
 * /usr/include/KF5/KCrash/kcrash_version.h
@@ -31,4 +32,3 @@ Gracefull handling of application crashes.
 * /usr/share/qlogging-categories5/kcrash.categories
 * /usr/share/qlogging-categories5/kcrash.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KCrash.pri
-{{< /files >}}

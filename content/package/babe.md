@@ -15,10 +15,10 @@ depends = "['knotifications>=5.114.0', 'pcre2', 'qt5-multimedia>=5.15.12', 'qt5-
 +++
 Tiny Qt Music Player to keep your favorite songs at hand
 
-{{< files text="show files" >}}* /usr/bin/babe
+## Files: 
+* /usr/bin/babe
 * /usr/share/applications/org.kde.babe.desktop
 * /usr/share/doc/babe-20200620.g116b7cd/COPYING
 * /usr/share/doc/babe-20200620.g116b7cd/README.md
 * /usr/share/icons/hicolor/scalable/apps/babe.svg
 * /usr/share/metainfo/org.kde.babe.appdata.xml
-{{< /files >}}

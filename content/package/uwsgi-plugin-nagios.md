@@ -15,5 +15,5 @@ depends = "['uwsgi']"
 +++
 UWSGI Nagios Plugin
 
-{{< files text="show files" >}}* /usr/lib/uwsgi/nagios_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/uwsgi/nagios_plugin.so

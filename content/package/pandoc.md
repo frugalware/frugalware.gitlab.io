@@ -16,7 +16,8 @@ reverse_depends = "['pandoc-cli', 'pandoc-server']"
 +++
 Conversion between markup formats
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/pandoc-3.1.11/libHSpandoc-3.1.11-4l0wod7gzIP31NTlTAeaa2-xml-light.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/pandoc-3.1.11/libHSpandoc-3.1.11-4l0wod7gzIP31NTlTAeaa2-xml-light.a
 * /usr/lib/ghc-9.8.1/site-local/pandoc-3.1.11/libHSpandoc-3.1.11-Lu4dj79zPh9G6SHLLifFIU.a
 * /usr/lib/ghc-9.8.1/site-local/pandoc-3.1.11/Paths_pandoc.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/pandoc-3.1.11/Paths_pandoc.hi
@@ -684,4 +685,3 @@ Conversion between markup formats
 * /usr/share/x86_64-linux-ghc-9.8.1/pandoc-3.1.11/data/translations/zh-Hans.yaml
 * /usr/share/x86_64-linux-ghc-9.8.1/pandoc-3.1.11/data/translations/zh-Hant.yaml
 * /usr/share/x86_64-linux-ghc-9.8.1/pandoc-3.1.11/MANUAL.txt
-{{< /files >}}

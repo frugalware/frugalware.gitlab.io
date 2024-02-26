@@ -16,7 +16,8 @@ reverse_depends = "['haskell-quickcheck']"
 +++
 High-quality splittable pseudorandom number generator.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/tf-random-0.5/libHStf-random-0.5-EaH212NoU866yFMXChcsis.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/tf-random-0.5/libHStf-random-0.5-EaH212NoU866yFMXChcsis.a
 * /usr/lib/ghc-9.8.1/site-local/tf-random-0.5/System/Random/TF.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/tf-random-0.5/System/Random/TF.hi
 * /usr/lib/ghc-9.8.1/site-local/tf-random-0.5/System/Random/TF/Gen.dyn_hi
@@ -43,4 +44,3 @@ High-quality splittable pseudorandom number generator.
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/tf-random-0.5/LICENSE
 * /usr/share/haskell/haskell-tf-random/register.sh
 * /usr/share/haskell/haskell-tf-random/unregister.sh
-{{< /files >}}

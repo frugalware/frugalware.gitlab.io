@@ -16,7 +16,8 @@ reverse_depends = "['libavif']"
 +++
 Library for YUV scaling
 
-{{< files text="show files" >}}* /usr/bin/yuvconvert
+## Files: 
+* /usr/bin/yuvconvert
 * /usr/include/libyuv.h
 * /usr/include/libyuv/basic_types.h
 * /usr/include/libyuv/compare.h
@@ -46,4 +47,3 @@ Library for YUV scaling
 * /usr/share/doc/libyuv-20221201.gc19943b/LICENSE
 * /usr/share/doc/libyuv-20221201.gc19943b/README.chromium
 * /usr/share/doc/libyuv-20221201.gc19943b/README.md
-{{< /files >}}

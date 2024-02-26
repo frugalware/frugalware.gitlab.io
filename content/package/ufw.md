@@ -15,7 +15,8 @@ depends = "['iptables>=1.8.2-3', 'python3', 'sed>=4.2.1']"
 +++
 Uncomplicated Firewall is program for managing a netfilter firewall
 
-{{< files text="show files" >}}* /etc/default/ufw
+## Files: 
+* /etc/default/ufw
 * /etc/ufw/after.init
 * /etc/ufw/after.rules
 * /etc/ufw/after6.rules
@@ -116,4 +117,3 @@ Uncomplicated Firewall is program for managing a netfilter firewall
 * /usr/share/ufw/messages/ur.mo
 * /usr/share/ufw/messages/zh_CN.mo
 * /usr/share/ufw/messages/zh_TW.mo
-{{< /files >}}

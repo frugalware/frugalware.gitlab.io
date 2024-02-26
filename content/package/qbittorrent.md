@@ -15,7 +15,8 @@ depends = "['geoip', 'libboost>=1.70.0', 'libtorrent-rasterbar>=2.0', 'python3',
 +++
 A Bittorrent client.
 
-{{< files text="show files" >}}* /usr/bin/qbittorrent
+## Files: 
+* /usr/bin/qbittorrent
 * /usr/share/applications/org.qbittorrent.qBittorrent.desktop
 * /usr/share/doc/qbittorrent-4.6.2/AUTHORS
 * /usr/share/doc/qbittorrent-4.6.2/Changelog
@@ -53,4 +54,3 @@ A Bittorrent client.
 * /usr/share/icons/hicolor/scalable/status/qbittorrent-tray.svg
 * /usr/share/man/man1/qbittorrent.1.gz
 * /usr/share/metainfo/org.qbittorrent.qBittorrent.appdata.xml
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['avahi', 'avahi-dnsconfd']"
 +++
 libdaemon is a lightweight C library that eases the writing of UNIX daemons.
 
-{{< files text="show files" >}}* /usr/include/libdaemon/daemon.h
+## Files: 
+* /usr/include/libdaemon/daemon.h
 * /usr/include/libdaemon/dexec.h
 * /usr/include/libdaemon/dfork.h
 * /usr/include/libdaemon/dlog.h
@@ -31,4 +32,3 @@ libdaemon is a lightweight C library that eases the writing of UNIX daemons.
 * /usr/share/doc/libdaemon-0.14/README
 * /usr/share/doc/libdaemon-0.14/README.html
 * /usr/share/doc/libdaemon-0.14/style.css
-{{< /files >}}

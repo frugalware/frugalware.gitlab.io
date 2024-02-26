@@ -15,7 +15,8 @@ depends = "['libstdc++>=7.3.0-7']"
 +++
 A finite state machine compiler for regular languages.
 
-{{< files text="show files" >}}* /usr/bin/ragel
+## Files: 
+* /usr/bin/ragel
 * /usr/share/doc/ragel-6.10/AUTHORS
 * /usr/share/doc/ragel-6.10/ChangeLog
 * /usr/share/doc/ragel-6.10/COPYING
@@ -25,4 +26,3 @@ A finite state machine compiler for regular languages.
 * /usr/share/doc/ragel-6.10/TODO
 * /usr/share/man/man1/ragel.1.gz
 * /usr/share/vim/syntax/ragel.vim
-{{< /files >}}

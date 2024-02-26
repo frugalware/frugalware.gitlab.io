@@ -16,7 +16,8 @@ reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-bad', 'gtk-handbrake', 
 +++
 A portable library for SSA/ASS subtitles rendering
 
-{{< files text="show files" >}}* /usr/include/ass/ass.h
+## Files: 
+* /usr/include/ass/ass.h
 * /usr/include/ass/ass_types.h
 * /usr/lib/libass.so
 * /usr/lib/libass.so.9
@@ -25,4 +26,3 @@ A portable library for SSA/ASS subtitles rendering
 * /usr/share/doc/libass-0.17.1/Changelog
 * /usr/share/doc/libass-0.17.1/COPYING
 * /usr/share/doc/libass-0.17.1/README.md
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Static files for re2
 
-{{< files text="show files" >}}* /usr/lib/libre2.a
-{{< /files >}}
+## Files: 
+* /usr/lib/libre2.a

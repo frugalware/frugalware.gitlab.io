@@ -15,7 +15,8 @@ depends = "['fluidsynth>=2.0.0', 'libkdegames>=23.08.5', 'qt5-quickcontrols2>=5.
 +++
 A KDE Software for Music Education
 
-{{< files text="show files" >}}* /usr/bin/minuet
+## Files: 
+* /usr/bin/minuet
 * /usr/include/minuet/interfaces/icore.h
 * /usr/include/minuet/interfaces/iexercisecontroller.h
 * /usr/include/minuet/interfaces/iplugin.h
@@ -135,4 +136,3 @@ A KDE Software for Music Education
 * /usr/share/minuet/exercises/scales-pentatonic-major-and-its-modes-exercises.json
 * /usr/share/minuet/exercises/scales-simmetric-exercises.json
 * /usr/share/minuet/soundfonts/GeneralUser-v1.47.sf2
-{{< /files >}}

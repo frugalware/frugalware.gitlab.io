@@ -16,7 +16,8 @@ reverse_depends = "['haskell-aeson']"
 +++
 filterable traversable
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/witherable-0.4.2/Data/Witherable.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/witherable-0.4.2/Data/Witherable.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/witherable-0.4.2/Data/Witherable.hi
 * /usr/lib/ghc-9.8.1/site-local/witherable-0.4.2/libHSwitherable-0.4.2-F5cKnUXLmBC3iTt3Wk4OWU.a
 * /usr/lib/ghc-9.8.1/site-local/witherable-0.4.2/Witherable.dyn_hi
@@ -36,4 +37,3 @@ filterable traversable
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/witherable-0.4.2/LICENSE
 * /usr/share/haskell/haskell-witherable/register.sh
 * /usr/share/haskell/haskell-witherable/unregister.sh
-{{< /files >}}

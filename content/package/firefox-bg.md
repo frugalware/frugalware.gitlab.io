@@ -16,5 +16,5 @@ reverse_depends = "['firefox-i18n']"
 +++
 Bulgarian language support for Firefox
 
-{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-bg@firefox.mozilla.org.xpi
-{{< /files >}}
+## Files: 
+* /usr/lib/firefox/browser/extensions/langpack-bg@firefox.mozilla.org.xpi

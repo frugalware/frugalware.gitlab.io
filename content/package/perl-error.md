@@ -16,7 +16,8 @@ reverse_depends = "['git', 'perl-mail-spf']"
 +++
 Error/exception handling in an OO-ish way
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/Error.pm
+## Files: 
+* /usr/lib/perl5/site_perl/Error.pm
 * /usr/lib/perl5/site_perl/Error/Simple.pm
 * /usr/share/doc/perl-error-0.17029/ChangeLog
 * /usr/share/doc/perl-error-0.17029/LICENSE
@@ -24,4 +25,3 @@ Error/exception handling in an OO-ish way
 * /usr/share/doc/perl-error-0.17029/README
 * /usr/share/man/man3/Error.3perl.gz
 * /usr/share/man/man3/Error::Simple.3perl.gz
-{{< /files >}}

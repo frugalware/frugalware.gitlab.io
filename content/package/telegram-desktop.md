@@ -15,7 +15,8 @@ depends = "['abseil-cpp>=20230125', 'ffmpeg>=6.0', 'fmtlib', 'glib2', 'glibmm', 
 +++
 Official Telegram Desktop client
 
-{{< files text="show files" >}}* /usr/bin/telegram-desktop
+## Files: 
+* /usr/bin/telegram-desktop
 * /usr/share/applications/org.telegram.desktop.desktop
 * /usr/share/dbus-1/services/org.telegram.desktop.service
 * /usr/share/doc/telegram-desktop-4.15.0/LICENSE
@@ -29,4 +30,3 @@ Official Telegram Desktop client
 * /usr/share/icons/hicolor/64x64/apps/telegram.png
 * /usr/share/icons/hicolor/symbolic/apps/telegram-symbolic.svg
 * /usr/share/metainfo/org.telegram.desktop.metainfo.xml
-{{< /files >}}

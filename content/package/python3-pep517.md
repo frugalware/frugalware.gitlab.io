@@ -15,7 +15,8 @@ depends = "['python3-tomli']"
 +++
 Wrappers to build Python packages using PEP 517 hooks
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pep517-0.13.1.dist-info/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/pep517-0.13.1.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/pep517-0.13.1.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/pep517-0.13.1.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/pep517-0.13.1.dist-info/WHEEL
@@ -55,4 +56,3 @@ Wrappers to build Python packages using PEP 517 hooks
 * /usr/share/doc/python3-pep517-0.13.1/LICENSE
 * /usr/share/doc/python3-pep517-0.13.1/README.rst
 * /usr/share/doc/python3-pep517-0.13.1/RELEASE.rst
-{{< /files >}}

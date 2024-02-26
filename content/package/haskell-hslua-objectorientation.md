@@ -16,7 +16,8 @@ reverse_depends = "['haskell-hslua', 'haskell-hslua-packaging']"
 +++
 Object orientation tools for HsLua
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hslua-objectorientation-2.3.0/HsLua/ObjectOrientation.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/hslua-objectorientation-2.3.0/HsLua/ObjectOrientation.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-objectorientation-2.3.0/HsLua/ObjectOrientation.hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-objectorientation-2.3.0/HsLua/ObjectOrientation/Operation.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-objectorientation-2.3.0/HsLua/ObjectOrientation/Operation.hi
@@ -37,4 +38,3 @@ Object orientation tools for HsLua
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/hslua-objectorientation-2.3.0/LICENSE
 * /usr/share/haskell/haskell-hslua-objectorientation/register.sh
 * /usr/share/haskell/haskell-hslua-objectorientation/unregister.sh
-{{< /files >}}

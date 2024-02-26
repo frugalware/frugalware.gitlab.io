@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Static files for libgpg-error
 
-{{< files text="show files" >}}* /usr/lib/libgpg-error.a
-{{< /files >}}
+## Files: 
+* /usr/lib/libgpg-error.a

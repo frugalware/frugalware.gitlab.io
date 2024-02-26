@@ -15,7 +15,8 @@ depends = "['glibc', 'libpcap', 'openssl>=3.1.0', 'python3']"
 +++
 Emulates ethernet switches over existing connections.
 
-{{< files text="show files" >}}* /etc/vde2/libvdemgmt/asyncrecv.rc
+## Files: 
+* /etc/vde2/libvdemgmt/asyncrecv.rc
 * /etc/vde2/libvdemgmt/closemachine.rc
 * /etc/vde2/libvdemgmt/openmachine.rc
 * /etc/vde2/libvdemgmt/sendcmd.rc
@@ -97,4 +98,3 @@ Emulates ethernet switches over existing connections.
 * /usr/share/man/man1/vde_vxlan.1.gz
 * /usr/share/man/man1/wirefilter.1.gz
 * /usr/share/man/man8/vde_tunctl.8.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['bzip2', 'libstdc++', 'newt', 'openssl>=3.1.0', 'zlib>=1.2.12']"
 +++
 a Linux/UNIX utility which saves partitions in many formats to an image file.
 
-{{< files text="show files" >}}* /etc/partimaged/partimagedusers
+## Files: 
+* /etc/partimaged/partimagedusers
 * /etc/partimaged/servercert.cnf
 * /etc/sysconfig/partimaged
 * /usr/bin/partimage
@@ -44,4 +45,3 @@ a Linux/UNIX utility which saves partitions in many formats to an image file.
 * /usr/share/locale/pt/LC_MESSAGES/partimage.mo
 * /usr/share/locale/ru/LC_MESSAGES/partimage.mo
 * /usr/share/locale/sk/LC_MESSAGES/partimage.mo
-{{< /files >}}

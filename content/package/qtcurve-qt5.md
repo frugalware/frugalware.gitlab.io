@@ -15,6 +15,6 @@ depends = "['kdelibs4support', 'qt5-svg', 'qtcurve>=1.9']"
 +++
 QtCurve Qt5 Theme
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/kstyle_qtcurve5_config.so
+## Files: 
+* /usr/lib/qt5/plugins/kstyle_qtcurve5_config.so
 * /usr/lib/qt5/plugins/styles/qtcurve.so
-{{< /files >}}

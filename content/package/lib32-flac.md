@@ -16,7 +16,8 @@ reverse_depends = "['lib32-libsndfile']"
 +++
 Free Lossless Audio Coder ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/flac
+## Files: 
+* /usr/i686-frugalware-linux/bin/flac
 * /usr/i686-frugalware-linux/bin/metaflac
 * /usr/i686-frugalware-linux/include/FLAC++/all.h
 * /usr/i686-frugalware-linux/include/FLAC++/decoder.h
@@ -40,4 +41,3 @@ Free Lossless Audio Coder ( 32bit )
 * /usr/lib32/libFLAC.so.12.1.0
 * /usr/lib32/pkgconfig/flac++.pc
 * /usr/lib32/pkgconfig/flac.pc
-{{< /files >}}

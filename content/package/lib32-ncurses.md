@@ -16,7 +16,8 @@ reverse_depends = "['lib32-gettext', 'lib32-lame', 'lib32-libcaca', 'lib32-libed
 +++
 A System V curses emulation library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/captoinfo
+## Files: 
+* /usr/i686-frugalware-linux/bin/captoinfo
 * /usr/i686-frugalware-linux/bin/captoinfow
 * /usr/i686-frugalware-linux/bin/clear
 * /usr/i686-frugalware-linux/bin/clearw
@@ -127,4 +128,3 @@ A System V curses emulation library ( 32bit )
 * /usr/lib32/pkgconfig/ncursesw.pc
 * /usr/lib32/pkgconfig/panel.pc
 * /usr/lib32/pkgconfig/panelw.pc
-{{< /files >}}

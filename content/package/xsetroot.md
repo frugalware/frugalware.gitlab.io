@@ -17,10 +17,10 @@ license = "GPL2"
 +++
 X.Org xsetroot application
 
-{{< files text="show files" >}}* /usr/bin/xsetroot
+## Files: 
+* /usr/bin/xsetroot
 * /usr/share/doc/xsetroot-1.1.3/ChangeLog
 * /usr/share/doc/xsetroot-1.1.3/COPYING
 * /usr/share/doc/xsetroot-1.1.3/INSTALL
 * /usr/share/doc/xsetroot-1.1.3/README.md
 * /usr/share/man/man1/xsetroot.1.gz
-{{< /files >}}

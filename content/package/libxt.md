@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X Toolkit Library
 
-{{< files text="show files" >}}* /usr/include/X11/CallbackI.h
+## Files: 
+* /usr/include/X11/CallbackI.h
 * /usr/include/X11/Composite.h
 * /usr/include/X11/CompositeP.h
 * /usr/include/X11/ConstrainP.h
@@ -348,4 +349,3 @@ X Toolkit Library
 * /usr/share/man/man3/XtWindow.3.gz
 * /usr/share/man/man3/XtWindowOfObject.3.gz
 * /usr/share/man/man3/XtWindowToWidget.3.gz
-{{< /files >}}

@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.Org X11 library
 
-{{< files text="show files" >}}* /usr/include/X11/cursorfont.h
+## Files: 
+* /usr/include/X11/cursorfont.h
 * /usr/include/X11/extensions/XKBgeom.h
 * /usr/include/X11/ImUtil.h
 * /usr/include/X11/Xcms.h
@@ -1187,4 +1188,3 @@ X.Org X11 library
 * /usr/share/X11/locale/zh_TW/XLC_LOCALE
 * /usr/share/X11/Xcms.txt
 * /usr/share/X11/XErrorDB
-{{< /files >}}

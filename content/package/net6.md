@@ -15,7 +15,8 @@ depends = "['gnutls>=3.4.2', 'libsigc++2']"
 +++
 net6 is a library which eases the development of network-based applications
 
-{{< files text="show files" >}}* /usr/include/net6/address.hpp
+## Files: 
+* /usr/include/net6/address.hpp
 * /usr/include/net6/client.hpp
 * /usr/include/net6/common.hpp
 * /usr/include/net6/connection.hpp
@@ -63,4 +64,3 @@ net6 is a library which eases the development of network-based applications
 * /usr/share/locale/sv/LC_MESSAGES/net6.mo
 * /usr/share/locale/uk/LC_MESSAGES/net6.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/net6.mo
-{{< /files >}}

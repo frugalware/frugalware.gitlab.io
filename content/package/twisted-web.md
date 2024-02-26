@@ -15,7 +15,8 @@ depends = "[]"
 +++
 An HTTP protocol implementation together with clients and servers.
 
-{{< files text="show files" >}}* usr/bin/websetroot
+## Files: 
+* usr/bin/websetroot
 * usr/lib/python2.4/site-packages/twisted/plugins/twisted_web.py
 * usr/lib/python2.4/site-packages/twisted/plugins/twisted_web.pyc
 * usr/lib/python2.4/site-packages/twisted/web/client.py
@@ -141,4 +142,3 @@ An HTTP protocol implementation together with clients and servers.
 * usr/share/doc/twisted-web-0.5.0/LICENSE
 * usr/share/doc/twisted-web-0.5.0/NEWS
 * usr/share/doc/twisted-web-0.5.0/README
-{{< /files >}}

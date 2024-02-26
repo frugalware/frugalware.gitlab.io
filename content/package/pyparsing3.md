@@ -15,7 +15,8 @@ depends = "['python3>=3.11']"
 +++
 Alternative approach to creating and executing simple grammars, vs.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/pyparsing-3.0.9.dist-info/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/pyparsing-3.0.9.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/pyparsing-3.0.9.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/pyparsing-3.0.9.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/pyparsing-3.0.9.dist-info/WHEEL
@@ -56,4 +57,3 @@ Alternative approach to creating and executing simple grammars, vs.
 * /usr/share/doc/pyparsing3-3.0.9/CHANGES
 * /usr/share/doc/pyparsing3-3.0.9/LICENSE
 * /usr/share/doc/pyparsing3-3.0.9/README.rst
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['android-tools', 'curl', 'freetype2', 'gnutls', 'ladybird', 
 +++
 Brotli compression library
 
-{{< files text="show files" >}}* /usr/bin/brotli
+## Files: 
+* /usr/bin/brotli
 * /usr/include/brotli/decode.h
 * /usr/include/brotli/encode.h
 * /usr/include/brotli/port.h
@@ -37,4 +38,3 @@ Brotli compression library
 * /usr/share/doc/brotli-1.1.0/LICENSE
 * /usr/share/doc/brotli-1.1.0/README
 * /usr/share/doc/brotli-1.1.0/README.md
-{{< /files >}}

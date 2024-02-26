@@ -16,7 +16,8 @@ reverse_depends = "['plasma-bigscreen']"
 +++
 Adds communication between KDE and your smartphone
 
-{{< files text="show files" >}}* /etc/xdg/autostart/org.kde.kdeconnect.daemon.desktop
+## Files: 
+* /etc/xdg/autostart/org.kde.kdeconnect.daemon.desktop
 * /usr/bin/kdeconnect-app
 * /usr/bin/kdeconnect-cli
 * /usr/bin/kdeconnect-handler
@@ -858,4 +859,3 @@ Adds communication between KDE and your smartphone
 * /usr/share/qt5/qml/org/kde/kdeconnect/RemoteKeyboard.qml
 * /usr/share/Thunar/sendto/kdeconnect-thunar.desktop
 * /usr/share/zsh/site-functions/_kdeconnect
-{{< /files >}}

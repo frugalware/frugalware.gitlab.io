@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 The GNU Pretty-printer
 
-{{< files text="show files" >}}* /usr/bin/indent
+## Files: 
+* /usr/bin/indent
 * /usr/share/doc/indent-2.2.13/AUTHORS
 * /usr/share/doc/indent-2.2.13/ChangeLog
 * /usr/share/doc/indent-2.2.13/COPYING
@@ -59,4 +60,3 @@ The GNU Pretty-printer
 * /usr/share/locale/zh_TW.Big5/LC_MESSAGES/indent.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/indent.mo
 * /usr/share/man/man1/indent.1.gz
-{{< /files >}}

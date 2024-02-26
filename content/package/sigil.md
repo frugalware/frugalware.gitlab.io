@@ -15,7 +15,8 @@ depends = "['hunspell', 'python3>=3.12', 'python3-lxml', 'qt5-svg>=5.15.10', 'qt
 +++
 A WYSISYG ebook editor.
 
-{{< files text="show files" >}}* /usr/bin/sigil
+## Files: 
+* /usr/bin/sigil
 * /usr/lib/sigil/libhunspell.so
 * /usr/lib/sigil/libsigilgumbo.so
 * /usr/lib/sigil/sigil
@@ -135,4 +136,3 @@ A WYSISYG ebook editor.
 * /usr/share/sigil/translations/sigil_uk.qm
 * /usr/share/sigil/translations/sigil_zh_CN.qm
 * /usr/share/sigil/translations/sigil_zh_TW.qm
-{{< /files >}}

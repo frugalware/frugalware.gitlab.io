@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.Org Xinemara library
 
-{{< files text="show files" >}}* /usr/include/X11/extensions/panoramiXext.h
+## Files: 
+* /usr/include/X11/extensions/panoramiXext.h
 * /usr/include/X11/extensions/Xinerama.h
 * /usr/lib/libXinerama.so
 * /usr/lib/libXinerama.so.1
@@ -32,4 +33,3 @@ X.Org Xinemara library
 * /usr/share/man/man3/XineramaQueryExtension.3.gz
 * /usr/share/man/man3/XineramaQueryScreens.3.gz
 * /usr/share/man/man3/XineramaQueryVersion.3.gz
-{{< /files >}}

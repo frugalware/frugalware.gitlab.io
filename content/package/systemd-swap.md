@@ -16,9 +16,9 @@ license = "GPL3"
 +++
 Script for creating hybrid swap space from zram swaps, swap files and swap partitions.
 
-{{< files text="show files" >}}* /etc/systemd/swap.conf
+## Files: 
+* /etc/systemd/swap.conf
 * /usr/bin/systemd-swap
 * /usr/lib/systemd/system/systemd-swap.service
 * /usr/share/doc/systemd-swap-4.4.0/LICENSE
 * /usr/share/doc/systemd-swap-4.4.0/README.md
-{{< /files >}}

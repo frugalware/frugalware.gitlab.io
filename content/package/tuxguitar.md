@@ -15,7 +15,8 @@ depends = "['alsa-lib', 'swt']"
 +++
 TuxGuitar is a multitrack guitar tablature editor and player written in Java-SWT.
 
-{{< files text="show files" >}}* /usr/bin/tuxguitar
+## Files: 
+* /usr/bin/tuxguitar
 * /usr/share/applications/tuxguitar.desktop
 * /usr/share/doc/tuxguitar-1.5.6/AUTHORS
 * /usr/share/doc/tuxguitar-1.5.6/CHANGES
@@ -944,4 +945,3 @@ TuxGuitar is a multitrack guitar tablature editor and player written in Java-SWT
 * /usr/share/tuxguitar/share/templates/template-default.tg
 * /usr/share/tuxguitar/share/templates/templates.xml
 * /usr/share/tuxguitar/tuxguitar.sh
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['texlive=2023.0']"
 +++
 Extra packages (generic, ..) for TeX Live
 
-{{< files text="show files" >}}* /usr/share/texmf-dist/bibtex/bst/dinat/dinat.bst
+## Files: 
+* /usr/share/texmf-dist/bibtex/bst/dinat/dinat.bst
 * /usr/share/texmf-dist/bibtex/bst/jurarsp/jurarsp.bst
 * /usr/share/texmf-dist/dvips/colorsep/colorsep.pro
 * /usr/share/texmf-dist/dvips/tree-dvips/tree-dvips91.pro
@@ -270,4 +271,3 @@ Extra packages (generic, ..) for TeX Live
 * /usr/share/texmf-dist/tex/latex/verse/verse.sty
 * /usr/share/texmf-dist/tex/plain/encxvlna/encxvlna.tex
 * /usr/share/texmf-dist/tex/plain/metatex/metatex.tex
-{{< /files >}}

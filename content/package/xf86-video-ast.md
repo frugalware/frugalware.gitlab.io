@@ -16,9 +16,9 @@ license = "GPL2"
 +++
 X.Org video driver for ast cards
 
-{{< files text="show files" >}}* /usr/lib/xorg/modules/drivers/ast_drv.so
+## Files: 
+* /usr/lib/xorg/modules/drivers/ast_drv.so
 * /usr/share/doc/xf86-video-ast-1.1.6/ChangeLog
 * /usr/share/doc/xf86-video-ast-1.1.6/COPYING
 * /usr/share/doc/xf86-video-ast-1.1.6/INSTALL
 * /usr/share/doc/xf86-video-ast-1.1.6/README.md
-{{< /files >}}

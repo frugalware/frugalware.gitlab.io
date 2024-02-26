@@ -16,7 +16,8 @@ reverse_depends = "['binwalk']"
 +++
 Utilities for dealing with MTD (flash) devices
 
-{{< files text="show files" >}}* /usr/bin/docfdisk
+## Files: 
+* /usr/bin/docfdisk
 * /usr/bin/doc_loadbios
 * /usr/bin/fectest
 * /usr/bin/flashcp
@@ -116,4 +117,3 @@ Utilities for dealing with MTD (flash) devices
 * /usr/share/man/man1/mkfs.jffs2.1.gz
 * /usr/share/man/man8/lsmtd.8.gz
 * /usr/share/man/man8/ubinize.8.gz
-{{< /files >}}

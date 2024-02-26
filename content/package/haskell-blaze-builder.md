@@ -16,7 +16,8 @@ reverse_depends = "['haskell-blaze-markup', 'haskell-http-client']"
 +++
 Efficient buffered output
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/blaze-builder-0.4.2.3/Blaze/ByteString/Builder.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/blaze-builder-0.4.2.3/Blaze/ByteString/Builder.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/blaze-builder-0.4.2.3/Blaze/ByteString/Builder.hi
 * /usr/lib/ghc-9.8.1/site-local/blaze-builder-0.4.2.3/Blaze/ByteString/Builder/ByteString.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/blaze-builder-0.4.2.3/Blaze/ByteString/Builder/ByteString.hi
@@ -66,4 +67,3 @@ Efficient buffered output
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/blaze-builder-0.4.2.3/LICENSE
 * /usr/share/haskell/haskell-blaze-builder/register.sh
 * /usr/share/haskell/haskell-blaze-builder/unregister.sh
-{{< /files >}}

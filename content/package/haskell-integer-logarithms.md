@@ -16,7 +16,8 @@ reverse_depends = "['haskell-scientific']"
 +++
 Integer logarithms.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/integer-logarithms-1.0.3.1/GHC/Integer/Logarithms/Compat.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/integer-logarithms-1.0.3.1/GHC/Integer/Logarithms/Compat.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/integer-logarithms-1.0.3.1/GHC/Integer/Logarithms/Compat.hi
 * /usr/lib/ghc-9.8.1/site-local/integer-logarithms-1.0.3.1/libHSinteger-logarithms-1.0.3.1-Hg8OWiAFWKk2NYD80aFCeW.a
 * /usr/lib/ghc-9.8.1/site-local/integer-logarithms-1.0.3.1/Math/NumberTheory/Logarithms.dyn_hi
@@ -42,4 +43,3 @@ Integer logarithms.
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/integer-logarithms-1.0.3.1/LICENSE
 * /usr/share/haskell/haskell-integer-logarithms/register.sh
 * /usr/share/haskell/haskell-integer-logarithms/unregister.sh
-{{< /files >}}

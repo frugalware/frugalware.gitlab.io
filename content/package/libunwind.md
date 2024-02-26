@@ -16,7 +16,8 @@ reverse_depends = "['efl', 'enlightenment', 'intel-gpu-tools', 'julia', 'mesa-dr
 +++
 Portable and efficient C programming interface (API) to determine the call-chain of a program
 
-{{< files text="show files" >}}* /usr/include/libunwind-common.h
+## Files: 
+* /usr/include/libunwind-common.h
 * /usr/include/libunwind-coredump.h
 * /usr/include/libunwind-dynamic.h
 * /usr/include/libunwind-ptrace.h
@@ -99,4 +100,3 @@ Portable and efficient C programming interface (API) to determine the call-chain
 * /usr/share/doc/libunwind-1.8.1/NEWS
 * /usr/share/doc/libunwind-1.8.1/README
 * /usr/share/doc/libunwind-1.8.1/TODO
-{{< /files >}}

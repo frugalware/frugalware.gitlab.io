@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org Old Imake-related build files
 
-{{< files text="show files" >}}* /usr/lib/X11/config/Amoeba.cf
+## Files: 
+* /usr/lib/X11/config/Amoeba.cf
 * /usr/lib/X11/config/apollo.cf
 * /usr/lib/X11/config/bsd.cf
 * /usr/lib/X11/config/bsdi.cf
@@ -141,4 +142,3 @@ X.Org Old Imake-related build files
 * /usr/share/doc/xorg-cf-files-1.0.8/COPYING
 * /usr/share/doc/xorg-cf-files-1.0.8/INSTALL
 * /usr/share/doc/xorg-cf-files-1.0.8/README
-{{< /files >}}

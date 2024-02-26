@@ -15,7 +15,8 @@ depends = "['haskell-x509-store']"
 +++
 Handle per-operating-system X.509 accessors and storage
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/x509-system-1.6.7/libHSx509-system-1.6.7-IW69rWL3IIE7LaFBYt6HcE.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/x509-system-1.6.7/libHSx509-system-1.6.7-IW69rWL3IIE7LaFBYt6HcE.a
 * /usr/lib/ghc-9.8.1/site-local/x509-system-1.6.7/System/X509.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/x509-system-1.6.7/System/X509.hi
 * /usr/lib/ghc-9.8.1/site-local/x509-system-1.6.7/System/X509/MacOS.dyn_hi
@@ -40,4 +41,3 @@ Handle per-operating-system X.509 accessors and storage
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/x509-system-1.6.7/LICENSE
 * /usr/share/haskell/haskell-x509-system/register.sh
 * /usr/share/haskell/haskell-x509-system/unregister.sh
-{{< /files >}}

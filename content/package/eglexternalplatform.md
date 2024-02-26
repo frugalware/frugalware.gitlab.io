@@ -16,9 +16,9 @@ reverse_depends = "['egl-wayland']"
 +++
 EGL External Platform interface
 
-{{< files text="show files" >}}* /usr/include/EGL/eglexternalplatform.h
+## Files: 
+* /usr/include/EGL/eglexternalplatform.h
 * /usr/include/EGL/eglexternalplatformversion.h
 * /usr/lib/pkgconfig/eglexternalplatform.pc
 * /usr/share/doc/eglexternalplatform-1.1/COPYING
 * /usr/share/doc/eglexternalplatform-1.1/README.md
-{{< /files >}}

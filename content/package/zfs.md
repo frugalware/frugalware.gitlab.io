@@ -15,7 +15,8 @@ depends = "['kernel=6.7.6-1', 'libtirpc']"
 +++
 ZFS
 
-{{< files text="show files" >}}* /etc/bash_completion.d/zfs
+## Files: 
+* /etc/bash_completion.d/zfs
 * /etc/default/zfs
 * /etc/sudoers.d/zfs
 * /etc/zfs/vdev_id.conf
@@ -3005,4 +3006,3 @@ ZFS
 * /usr/src/zfs-2.2.3/include/zfs_prop.h
 * /usr/src/zfs-2.2.3/zfs.release.in
 * /usr/src/zfs-2.2.3/zfs_config.h.in
-{{< /files >}}

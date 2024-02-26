@@ -15,7 +15,8 @@ depends = "['glibc', 'zlib']"
 +++
 TrueType font rendering library - 2.0 series (with bytecode interpreter)
 
-{{< files text="show files" >}}* usr/bin/freetype-config
+## Files: 
+* usr/bin/freetype-config
 * usr/include/freetype2/freetype/config/ftconfig.h
 * usr/include/freetype2/freetype/config/ftheader.h
 * usr/include/freetype2/freetype/config/ftmodule.h
@@ -69,4 +70,3 @@ TrueType font rendering library - 2.0 series (with bytecode interpreter)
 * usr/share/doc/freetype2-bi-2.2.1/ChangeLog
 * usr/share/doc/freetype2-bi-2.2.1/README
 * usr/share/doc/freetype2-bi-2.2.1/README.CVS
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['clight', 'cryptsetup-luks', 'desktop-file-utils', 'distcc',
 +++
 A commandline option parser
 
-{{< files text="show files" >}}* /usr/include/popt.h
+## Files: 
+* /usr/include/popt.h
 * /usr/lib/libpopt.so
 * /usr/lib/libpopt.so.0
 * /usr/lib/libpopt.so.0.0.0
@@ -57,4 +58,3 @@ A commandline option parser
 * /usr/share/locale/zh_CN/LC_MESSAGES/popt.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/popt.mo
 * /usr/share/man/man3/popt.3.gz
-{{< /files >}}

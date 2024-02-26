@@ -16,7 +16,8 @@ reverse_depends = "['lumina-desktop']"
 +++
 A lightweight wm, based on the code of blackbox
 
-{{< files text="show files" >}}* /etc/X11/sessions/fluxbox.desktop
+## Files: 
+* /etc/X11/sessions/fluxbox.desktop
 * /usr/bin/fbrun
 * /usr/bin/fbsetbg
 * /usr/bin/fbsetroot
@@ -247,4 +248,3 @@ A lightweight wm, based on the code of blackbox
 * /usr/share/man/man5/fluxbox-keys.5.gz
 * /usr/share/man/man5/fluxbox-menu.5.gz
 * /usr/share/man/man5/fluxbox-style.5.gz
-{{< /files >}}

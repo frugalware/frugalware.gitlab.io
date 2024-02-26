@@ -16,7 +16,8 @@ reverse_depends = "['python3-secretstorage']"
 +++
 Low-level, pure Python DBus protocol wrapper
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/jeepney-0.8.0.dist-info/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/jeepney-0.8.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/jeepney-0.8.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/jeepney-0.8.0.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/jeepney-0.8.0.dist-info/WHEEL
@@ -113,4 +114,3 @@ Low-level, pure Python DBus protocol wrapper
 * /usr/lib/python3.12/site-packages/jeepney/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-jeepney-0.8.0/LICENSE
 * /usr/share/doc/python3-jeepney-0.8.0/README.rst
-{{< /files >}}

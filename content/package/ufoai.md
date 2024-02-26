@@ -15,4 +15,4 @@ depends = "['curl>=7.46.0-3', 'libglu>=9.0.0-2', 'libjpeg-turbo', 'libpng>=1.6.2
 +++
 UFO: ALIEN INVASION is a squad-based tactical strategy game in the tradition of the old X-COM PC games, but with a twist.
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

@@ -15,7 +15,8 @@ depends = "['libpcap']"
 +++
 A simple port-knocking daemon
 
-{{< files text="show files" >}}* /etc/knockd.conf
+## Files: 
+* /etc/knockd.conf
 * /etc/logrotate.d/knockd
 * /usr/bin/knock
 * /usr/bin/knockd
@@ -27,4 +28,3 @@ A simple port-knocking daemon
 * /usr/share/doc/knock-0.8/TODO
 * /usr/share/man/man1/knock.1.gz
 * /usr/share/man/man1/knockd.1.gz
-{{< /files >}}

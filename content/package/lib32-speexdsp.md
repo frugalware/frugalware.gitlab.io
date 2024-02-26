@@ -16,7 +16,8 @@ reverse_depends = "['lib32-libpulse', 'lib32-speex']"
 +++
 Speex DSP lib ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/speex/speexdsp_config_types.h
+## Files: 
+* /usr/i686-frugalware-linux/include/speex/speexdsp_config_types.h
 * /usr/i686-frugalware-linux/include/speex/speexdsp_types.h
 * /usr/i686-frugalware-linux/include/speex/speex_echo.h
 * /usr/i686-frugalware-linux/include/speex/speex_jitter.h
@@ -26,4 +27,3 @@ Speex DSP lib ( 32bit )
 * /usr/lib32/libspeexdsp.so.1
 * /usr/lib32/libspeexdsp.so.1.5.2
 * /usr/lib32/pkgconfig/speexdsp.pc
-{{< /files >}}

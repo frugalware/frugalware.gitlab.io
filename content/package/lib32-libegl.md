@@ -15,7 +15,8 @@ depends = "['lib32-libdrm>=2.4.70-2', 'lib32-libgbm', 'lib32-libx11>=1.6.4', 'li
 +++
 Mesa OpenEGL library. (32-bit)
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/EGL/egl.h
+## Files: 
+* /usr/i686-frugalware-linux/include/EGL/egl.h
 * /usr/i686-frugalware-linux/include/EGL/eglext.h
 * /usr/i686-frugalware-linux/include/EGL/eglextchromium.h
 * /usr/i686-frugalware-linux/include/EGL/eglmesaext.h
@@ -25,4 +26,3 @@ Mesa OpenEGL library. (32-bit)
 * /usr/lib32/libEGL.so.1
 * /usr/lib32/libEGL.so.1.0.0
 * /usr/lib32/pkgconfig/egl.pc
-{{< /files >}}

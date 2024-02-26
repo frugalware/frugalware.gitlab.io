@@ -15,7 +15,8 @@ depends = "['python3>=3.11']"
 +++
 Invoke py.test as distutils command with dependency resolution
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/ptr/__init__.py
+## Files: 
+* /usr/lib/python3.12/site-packages/ptr/__init__.py
 * /usr/lib/python3.12/site-packages/ptr/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/ptr/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pytest_runner-6.0.1.dist-info/entry_points.txt
@@ -26,4 +27,3 @@ Invoke py.test as distutils command with dependency resolution
 * /usr/lib/python3.12/site-packages/pytest_runner-6.0.1.dist-info/WHEEL
 * /usr/share/doc/python3-pytest-runner-6.0.1/LICENSE
 * /usr/share/doc/python3-pytest-runner-6.0.1/README.rst
-{{< /files >}}

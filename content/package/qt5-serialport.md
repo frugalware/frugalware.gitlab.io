@@ -16,7 +16,8 @@ reverse_depends = "['labplot', 'libmarble', 'qt5-serialbus', 'stellarium']"
 +++
 The Qt5 toolkit, qtserialport
 
-{{< files text="show files" >}}* /usr/include/qt5/QtSerialPort/5.15.12/QtSerialPort/private/qserialportinfo_p.h
+## Files: 
+* /usr/include/qt5/QtSerialPort/5.15.12/QtSerialPort/private/qserialportinfo_p.h
 * /usr/include/qt5/QtSerialPort/5.15.12/QtSerialPort/private/qserialport_p.h
 * /usr/include/qt5/QtSerialPort/5.15.12/QtSerialPort/private/qtserialport-config_p.h
 * /usr/include/qt5/QtSerialPort/5.15.12/QtSerialPort/private/qtudev_p.h
@@ -41,4 +42,3 @@ The Qt5 toolkit, qtserialport
 * /usr/lib/pkgconfig/Qt5SerialPort.pc
 * /usr/share/qt5/mkspecs/modules/qt_lib_serialport.pri
 * /usr/share/qt5/mkspecs/modules/qt_lib_serialport_private.pri
-{{< /files >}}

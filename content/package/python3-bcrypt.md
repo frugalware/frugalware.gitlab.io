@@ -16,7 +16,8 @@ reverse_depends = "['syncthing-gtk']"
 +++
 Modern password hashing for your software and your servers
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/bcrypt-4.1.1-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/bcrypt-4.1.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/bcrypt-4.1.1-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/bcrypt-4.1.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/bcrypt-4.1.1-py3.12.egg-info/requires.txt
@@ -29,4 +30,3 @@ Modern password hashing for your software and your servers
 * /usr/lib/python3.12/site-packages/bcrypt/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-bcrypt-4.1.1/LICENSE
 * /usr/share/doc/python3-bcrypt-4.1.1/README.rst
-{{< /files >}}

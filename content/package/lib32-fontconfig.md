@@ -16,7 +16,8 @@ reverse_depends = "['get_steam', 'lib32-cairo', 'lib32-libbluray', 'lib32-libxft
 +++
 A library for configuring and customizing font access ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/fc-cache
+## Files: 
+* /usr/i686-frugalware-linux/bin/fc-cache
 * /usr/i686-frugalware-linux/bin/fc-cat
 * /usr/i686-frugalware-linux/bin/fc-conflist
 * /usr/i686-frugalware-linux/bin/fc-list
@@ -32,4 +33,3 @@ A library for configuring and customizing font access ( 32bit )
 * /usr/lib32/libfontconfig.so.1
 * /usr/lib32/libfontconfig.so.1.12.1
 * /usr/lib32/pkgconfig/fontconfig.pc
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Systemd development files.
 
-{{< files text="show files" >}}* /usr/include/systemd/sd-bus-protocol.h
+## Files: 
+* /usr/include/systemd/sd-bus-protocol.h
 * /usr/include/systemd/sd-bus-vtable.h
 * /usr/include/systemd/sd-bus.h
 * /usr/include/systemd/sd-daemon.h
@@ -30,4 +31,3 @@ Systemd development files.
 * /usr/include/systemd/sd-path.h
 * /usr/include/systemd/_sd-common.h
 * /usr/lib/pkgconfig/systemd.pc
-{{< /files >}}

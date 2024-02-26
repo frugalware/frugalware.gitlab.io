@@ -16,7 +16,8 @@ reverse_depends = "['akonadi', 'kaccounts-provider-opendesktop', 'kaccounts-prov
 +++
 Small system to administer web accounts like: Google, Facebook, Owncloud, IMAP, Jabber and others
 
-{{< files text="show files" >}}* /usr/include/KAccounts/AccountServiceToggleJob
+## Files: 
+* /usr/include/KAccounts/AccountServiceToggleJob
 * /usr/include/KAccounts/accountservicetogglejob.h
 * /usr/include/KAccounts/AccountsModel
 * /usr/include/KAccounts/accountsmodel.h
@@ -106,4 +107,3 @@ Small system to administer web accounts like: Google, Facebook, Owncloud, IMAP, 
 * /usr/share/locale/zh_TW/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/qt5/qml/org/kde/kaccounts/libkaccountsdeclarativeplugin.so
 * /usr/share/qt5/qml/org/kde/kaccounts/qmldir
-{{< /files >}}

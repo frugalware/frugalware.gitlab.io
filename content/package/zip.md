@@ -16,7 +16,8 @@ reverse_depends = "['libreoffice', 'poedit', 'sim', 'solarus-zsdx', 'solarus-zsx
 +++
 Info-ZIP's zip utility
 
-{{< files text="show files" >}}* /usr/bin/zip
+## Files: 
+* /usr/bin/zip
 * /usr/bin/zipcloak
 * /usr/bin/zipnote
 * /usr/bin/zipsplit
@@ -32,4 +33,3 @@ Info-ZIP's zip utility
 * /usr/share/man/man1/zipcloak.1.gz
 * /usr/share/man/man1/zipnote.1.gz
 * /usr/share/man/man1/zipsplit.1.gz
-{{< /files >}}

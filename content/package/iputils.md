@@ -16,7 +16,8 @@ reverse_depends = "['dracut-network', 'prettyping']"
 +++
 The ping program for checking to see if network hosts are alive.
 
-{{< files text="show files" >}}* /usr/bin/arping
+## Files: 
+* /usr/bin/arping
 * /usr/bin/clockdiff
 * /usr/bin/ping
 * /usr/bin/tracepath
@@ -39,4 +40,3 @@ The ping program for checking to see if network hosts are alive.
 * /usr/share/man/man8/clockdiff.8.gz
 * /usr/share/man/man8/ping.8.gz
 * /usr/share/man/man8/tracepath.8.gz
-{{< /files >}}

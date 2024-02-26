@@ -16,7 +16,8 @@ reverse_depends = "['itinerary', 'kdepim-addons']"
 +++
 Data model and extraction system for travel reservation information
 
-{{< files text="show files" >}}* /usr/include/KPim5/KItinerary/AbstractExtractor
+## Files: 
+* /usr/include/KPim5/KItinerary/AbstractExtractor
 * /usr/include/KPim5/kitinerary/abstractextractor.h
 * /usr/include/KPim5/KItinerary/Action
 * /usr/include/KPim5/kitinerary/action.h
@@ -203,4 +204,3 @@ Data model and extraction system for travel reservation information
 * /usr/share/locale/zh_TW/LC_MESSAGES/kitinerary.mo
 * /usr/share/mime/packages/application-vnd-kde-itinerary.xml
 * /usr/share/qlogging-categories5/org_kde_kitinerary.categories
-{{< /files >}}

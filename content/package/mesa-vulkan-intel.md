@@ -15,10 +15,10 @@ depends = "['vulkan-icd-loader', 'xcb-util-keysyms', 'zstd']"
 +++
 Intel Mesa Support for Vulkan
 
-{{< files text="show files" >}}* /usr/lib/libvulkan_intel.so
+## Files: 
+* /usr/lib/libvulkan_intel.so
 * /usr/lib/libvulkan_intel_hasvk.so
 * /usr/lib/libvulkan_virtio.so
 * /usr/share/vulkan/icd.d/intel_hasvk_icd.i686.json
 * /usr/share/vulkan/icd.d/intel_hasvk_icd.x86_64.json
 * /usr/share/vulkan/icd.d/intel_icd.x86_64.json
-{{< /files >}}

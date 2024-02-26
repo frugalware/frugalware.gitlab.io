@@ -16,7 +16,8 @@ reverse_depends = "['gvfs-apple', 'gvfs-fuse', 'gvfs-gphoto2', 'gvfs-mtp', 'gvfs
 +++
 gvfs is a userspace virtual filesystem designed to work with the i/o abstractions of gio.
 
-{{< files text="show files" >}}* /etc/ld.so.conf.d/gvfs.conf
+## Files: 
+* /etc/ld.so.conf.d/gvfs.conf
 * /usr/include/gvfs-client/gvfs/gvfsurimapper.h
 * /usr/include/gvfs-client/gvfs/gvfsuriutils.h
 * /usr/lib/gio/modules/libgioremote-volume-monitor.so
@@ -161,4 +162,3 @@ gvfs is a userspace virtual filesystem designed to work with the i/o abstraction
 * /usr/share/locale/zh_TW/LC_MESSAGES/gvfs.mo
 * /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy
 * /usr/share/polkit-1/rules.d/org.gtk.vfs.file-operations.rules
-{{< /files >}}

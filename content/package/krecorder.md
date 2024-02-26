@@ -15,7 +15,8 @@ depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kirigami-addons', 'kwindowsystem
 +++
 Audio recorder for Plasma Mobile and other platforms
 
-{{< files text="show files" >}}* /usr/bin/krecorder
+## Files: 
+* /usr/bin/krecorder
 * /usr/share/applications/org.kde.krecorder.desktop
 * /usr/share/doc/krecorder-23.08.5/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.krecorder.svg
@@ -52,4 +53,3 @@ Audio recorder for Plasma Mobile and other platforms
 * /usr/share/locale/zh_CN/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/krecorder.mo
 * /usr/share/metainfo/org.kde.krecorder.appdata.xml
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libgnt', 'libpurple']"
 +++
 A ncurses-based messaging client
 
-{{< files text="show files" >}}* /usr/bin/finch
+## Files: 
+* /usr/bin/finch
 * /usr/include/finch/finch.h
 * /usr/include/finch/gntaccount.h
 * /usr/include/finch/gntblist.h
@@ -43,4 +44,3 @@ A ncurses-based messaging client
 * /usr/lib/finch/gnttinyurl.so
 * /usr/lib/finch/grouping.so
 * /usr/lib/pkgconfig/finch.pc
-{{< /files >}}

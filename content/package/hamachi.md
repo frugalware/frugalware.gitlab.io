@@ -15,7 +15,8 @@ depends = "['glibc']"
 +++
 Hamachi is a UDP-based virtual private networking system.
 
-{{< files text="show files" >}}* /opt/hamachi/bin/dnsdown
+## Files: 
+* /opt/hamachi/bin/dnsdown
 * /opt/hamachi/bin/dnsup
 * /opt/hamachi/bin/hamachid
 * /opt/hamachi/uninstall.sh
@@ -24,4 +25,3 @@ Hamachi is a UDP-based virtual private networking system.
 * /usr/share/doc/hamachi-2.1.0.203/CHANGES
 * /usr/share/doc/hamachi-2.1.0.203/LICENSE
 * /usr/share/doc/hamachi-2.1.0.203/README
-{{< /files >}}

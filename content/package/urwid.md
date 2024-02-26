@@ -15,7 +15,8 @@ depends = "['python3']"
 +++
 Urwid is a curses-based user interface library for Python.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/urwid-2.1.2-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/urwid-2.1.2-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/urwid-2.1.2-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/urwid-2.1.2-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/urwid-2.1.2-py3.12.egg-info/SOURCES.txt
@@ -118,4 +119,3 @@ Urwid is a curses-based user interface library for Python.
 * /usr/share/doc/urwid-2.1.2/LICENSE
 * /usr/share/doc/urwid-2.1.2/README.Frugalware
 * /usr/share/doc/urwid-2.1.2/README.rst
-{{< /files >}}

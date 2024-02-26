@@ -15,7 +15,8 @@ depends = "['libkdegames>=23.08.5', 'qt5-svg>=5.15.12']"
 +++
 A game of hide and seek played on a grid of boxes.
 
-{{< files text="show files" >}}* /usr/bin/kblackbox
+## Files: 
+* /usr/bin/kblackbox
 * /usr/share/applications/org.kde.kblackbox.desktop
 * /usr/share/doc/HTML/ca/kblackbox/gameboard.png
 * /usr/share/doc/HTML/ca/kblackbox/index.cache.bz2
@@ -130,4 +131,3 @@ A game of hide and seek played on a grid of boxes.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kblackbox.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kblackbox.mo
 * /usr/share/metainfo/org.kde.kblackbox.appdata.xml
-{{< /files >}}

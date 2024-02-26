@@ -16,7 +16,8 @@ reverse_depends = "['libproxy', 'polkit']"
 +++
 Embeddable Javascript engine
 
-{{< files text="show files" >}}* /usr/include/duktape.h
+## Files: 
+* /usr/include/duktape.h
 * /usr/include/duk_config.h
 * /usr/lib/libduktape.so
 * /usr/lib/libduktape.so.207
@@ -26,4 +27,3 @@ Embeddable Javascript engine
 * /usr/lib/libduktaped.so.207.20700
 * /usr/lib/pkgconfig/duktape.pc
 * /usr/share/doc/duktape-2.7.0/README.rst
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libsm', 'libuuid', 'libx11', 'libxt']"
 +++
 A command-line tool for creating, editing, and getting information about GIF images and animations
 
-{{< files text="show files" >}}* /usr/bin/gifdiff
+## Files: 
+* /usr/bin/gifdiff
 * /usr/bin/gifsicle
 * /usr/bin/gifview
 * /usr/share/doc/gifsicle-1.94/COPYING
@@ -24,4 +25,3 @@ A command-line tool for creating, editing, and getting information about GIF ima
 * /usr/share/man/man1/gifdiff.1.gz
 * /usr/share/man/man1/gifsicle.1.gz
 * /usr/share/man/man1/gifview.1.gz
-{{< /files >}}

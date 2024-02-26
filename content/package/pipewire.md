@@ -16,7 +16,8 @@ reverse_depends = "['clightd', 'easyeffects', 'kpipewire', 'kwin5', 'obs-studio'
 +++
 A project that aims to greatly improve handling of audio and video under Linux
 
-{{< files text="show files" >}}* /usr/bin/pipewire
+## Files: 
+* /usr/bin/pipewire
 * /usr/bin/pipewire-aes67
 * /usr/bin/pipewire-avb
 * /usr/bin/pipewire-vulkan
@@ -2211,4 +2212,3 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/pipewire/pipewire.conf.avail/10-rates.conf
 * /usr/share/pipewire/pipewire.conf.avail/20-upmix.conf
 * /usr/share/spa-0.2/bluez5/bluez-hardware.conf
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libgsasl>=1.8.0-2', 'qt5-base>=5.15.10']"
 +++
 Qt XMPP library
 
-{{< files text="show files" >}}* /usr/include/jreen-qt5/jreen/abstractroster.h
+## Files: 
+* /usr/include/jreen-qt5/jreen/abstractroster.h
 * /usr/include/jreen-qt5/jreen/activity.h
 * /usr/include/jreen-qt5/jreen/attention.h
 * /usr/include/jreen-qt5/jreen/bitsofbinary.h
@@ -88,4 +89,3 @@ Qt XMPP library
 * /usr/share/doc/jreen-1.3.0/COPYING
 * /usr/share/doc/jreen-1.3.0/COPYING.LESSER
 * /usr/share/doc/jreen-1.3.0/README.md
-{{< /files >}}

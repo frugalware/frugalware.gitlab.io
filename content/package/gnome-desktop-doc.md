@@ -15,4 +15,4 @@ depends = "['gnome-desktop>=3.38.9']"
 +++
 gnome-desktop documention
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

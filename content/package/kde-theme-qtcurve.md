@@ -15,5 +15,5 @@ depends = "['qtcurve>=1.9']"
 +++
 KDE QtCurve Theme
 
-{{< files text="show files" >}}* /usr/share/kstyle/themes/qtcurve.themerc
-{{< /files >}}
+## Files: 
+* /usr/share/kstyle/themes/qtcurve.themerc

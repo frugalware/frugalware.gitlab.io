@@ -16,7 +16,8 @@ reverse_depends = "['haskell-hslua', 'haskell-hslua-module-path', 'haskell-hslua
 +++
 Utilities to build Lua modules.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/hslua-packaging-2.3.0/HsLua/Packaging.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/hslua-packaging-2.3.0/HsLua/Packaging.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-packaging-2.3.0/HsLua/Packaging.hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-packaging-2.3.0/HsLua/Packaging/Convenience.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-packaging-2.3.0/HsLua/Packaging/Convenience.hi
@@ -55,4 +56,3 @@ Utilities to build Lua modules.
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/hslua-packaging-2.3.0/LICENSE
 * /usr/share/haskell/haskell-hslua-packaging/register.sh
 * /usr/share/haskell/haskell-hslua-packaging/unregister.sh
-{{< /files >}}

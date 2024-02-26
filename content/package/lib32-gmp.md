@@ -16,7 +16,8 @@ reverse_depends = "['lib32-ncurses', 'lib32-nettle']"
 +++
 GNU multiple precision arithmetic library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/gmp.h
+## Files: 
+* /usr/i686-frugalware-linux/include/gmp.h
 * /usr/i686-frugalware-linux/include/gmpxx.h
 * /usr/lib32/libgmp.so
 * /usr/lib32/libgmp.so.10
@@ -26,4 +27,3 @@ GNU multiple precision arithmetic library ( 32bit )
 * /usr/lib32/libgmpxx.so.4.7.0
 * /usr/lib32/pkgconfig/gmp.pc
 * /usr/lib32/pkgconfig/gmpxx.pc
-{{< /files >}}

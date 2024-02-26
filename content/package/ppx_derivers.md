@@ -16,7 +16,8 @@ reverse_depends = "['ppxlib']"
 +++
 Shared deriving plugin registry
 
-{{< files text="show files" >}}* /usr/lib/ocaml/ppx_derivers/dune-package
+## Files: 
+* /usr/lib/ocaml/ppx_derivers/dune-package
 * /usr/lib/ocaml/ppx_derivers/META
 * /usr/lib/ocaml/ppx_derivers/opam
 * /usr/lib/ocaml/ppx_derivers/ppx_derivers.a
@@ -33,4 +34,3 @@ Shared deriving plugin registry
 * /usr/share/doc/ppx_derivers-1.2.1/ppx_derivers/LICENSE.md
 * /usr/share/doc/ppx_derivers-1.2.1/ppx_derivers/README.md
 * /usr/share/doc/ppx_derivers-1.2.1/README.md
-{{< /files >}}

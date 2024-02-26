@@ -16,7 +16,8 @@ reverse_depends = "['neovim']"
 +++
 Library for easy processing of keyboard entry from terminal-based programs
 
-{{< files text="show files" >}}* /usr/include/termkey.h
+## Files: 
+* /usr/include/termkey.h
 * /usr/lib/libtermkey.so
 * /usr/lib/libtermkey.so.1
 * /usr/lib/libtermkey.so.1.14.2
@@ -47,4 +48,3 @@ Library for easy processing of keyboard entry from terminal-based programs
 * /usr/share/man/man3/termkey_strpkey.3.gz
 * /usr/share/man/man3/termkey_waitkey.3.gz
 * /usr/share/man/man7/termkey.7.gz
-{{< /files >}}

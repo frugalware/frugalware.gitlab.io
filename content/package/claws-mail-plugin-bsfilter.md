@@ -15,5 +15,5 @@ depends = "['claws-mail=4.1.1']"
 +++
 Check all messages that are received from an IMAP, LOCAL or POP account for spam using Bsfilter.
 
-{{< files text="show files" >}}* /usr/lib/claws-mail/plugins/bsfilter.so
-{{< /files >}}
+## Files: 
+* /usr/lib/claws-mail/plugins/bsfilter.so

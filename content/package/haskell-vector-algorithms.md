@@ -16,7 +16,8 @@ reverse_depends = "['haskell-mono-traversable']"
 +++
 Efficient algorithms for vector arrays
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/vector-algorithms-0.9.0.1/Data/Vector/Algorithms.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/vector-algorithms-0.9.0.1/Data/Vector/Algorithms.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/vector-algorithms-0.9.0.1/Data/Vector/Algorithms.hi
 * /usr/lib/ghc-9.8.1/site-local/vector-algorithms-0.9.0.1/Data/Vector/Algorithms/AmericanFlag.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/vector-algorithms-0.9.0.1/Data/Vector/Algorithms/AmericanFlag.hi
@@ -63,4 +64,3 @@ Efficient algorithms for vector arrays
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/vector-algorithms-0.9.0.1/LICENSE
 * /usr/share/haskell/haskell-vector-algorithms/register.sh
 * /usr/share/haskell/haskell-vector-algorithms/unregister.sh
-{{< /files >}}

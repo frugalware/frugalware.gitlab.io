@@ -15,6 +15,6 @@ depends = "['librsvg>=2.26.3', 'libvlc>=3.0.20']"
 +++
 vlc plugin for SVG
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/libsvgdec_plugin.so
+## Files: 
+* /usr/lib/vlc/plugins/codec/libsvgdec_plugin.so
 * /usr/lib/vlc/plugins/text_renderer/libsvg_plugin.so
-{{< /files >}}

@@ -15,5 +15,5 @@ depends = "['lib32-libva>=2.3']"
 +++
 Intel backend for VA API ( 32bit )
 
-{{< files text="show files" >}}* /usr/lib32/dri/i965_drv_video.so
-{{< /files >}}
+## Files: 
+* /usr/lib32/dri/i965_drv_video.so

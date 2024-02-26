@@ -16,7 +16,8 @@ reverse_depends = "['lib32-gtk+2-libs']"
 +++
 An image loading library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/gdk-pixbuf-csource
+## Files: 
+* /usr/i686-frugalware-linux/bin/gdk-pixbuf-csource
 * /usr/i686-frugalware-linux/bin/gdk-pixbuf-pixdata
 * /usr/i686-frugalware-linux/bin/gdk-pixbuf-query-loaders
 * /usr/i686-frugalware-linux/bin/gdk-pixbuf-thumbnailer
@@ -37,4 +38,3 @@ An image loading library ( 32bit )
 * /usr/lib32/libgdk_pixbuf-2.0.so.0
 * /usr/lib32/libgdk_pixbuf-2.0.so.0.4200.10
 * /usr/lib32/pkgconfig/gdk-pixbuf-2.0.pc
-{{< /files >}}

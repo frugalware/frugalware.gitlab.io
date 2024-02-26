@@ -15,7 +15,8 @@ depends = "['akonadi-contacts>=23.08.5', 'gpg-agent', 'gpgme']"
 +++
 KGpg is a simple interface for GnuPG
 
-{{< files text="show files" >}}* /etc/xdg/autostart/org.kde.kgpg.desktop
+## Files: 
+* /etc/xdg/autostart/org.kde.kgpg.desktop
 * /usr/bin/kgpg
 * /usr/share/applications/org.kde.kgpg.desktop
 * /usr/share/config.kcfg/kgpg.kcfg
@@ -223,4 +224,3 @@ KGpg is a simple interface for GnuPG
 * /usr/share/locale/zh_TW/LC_MESSAGES/kgpg.mo
 * /usr/share/metainfo/org.kde.kgpg.appdata.xml
 * /usr/share/qlogging-categories5/kgpg.categories
-{{< /files >}}

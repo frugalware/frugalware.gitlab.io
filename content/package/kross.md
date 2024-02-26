@@ -16,7 +16,8 @@ reverse_depends = "['kdepim-runtime', 'kdeplasma-addons5', 'kmail-account-wizard
 +++
 Embedding of scripting into applications.
 
-{{< files text="show files" >}}* /usr/bin/kf5kross
+## Files: 
+* /usr/bin/kf5kross
 * /usr/include/KF5/KrossCore/Kross/Core/Action
 * /usr/include/KF5/KrossCore/kross/core/action.h
 * /usr/include/KF5/KrossCore/Kross/Core/ActionCollection
@@ -182,4 +183,3 @@ Embedding of scripting into applications.
 * /usr/share/man/uk/man1/kf5kross.1.gz
 * /usr/share/qt5/mkspecs/modules/qt_KrossCore.pri
 * /usr/share/qt5/mkspecs/modules/qt_KrossUi.pri
-{{< /files >}}

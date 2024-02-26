@@ -15,7 +15,8 @@ depends = "['libpq>=15.5', 'libxml2>=2.9.4-3', 'ncurses>=6.0-16', 'openssl>=3.1.
 +++
 Seperate latest 15 PGSQL for pg_upgrade
 
-{{< files text="show files" >}}* /opt/pgsql-15/bin/oid2name
+## Files: 
+* /opt/pgsql-15/bin/oid2name
 * /opt/pgsql-15/bin/vacuumlo
 * /opt/pgsql-15/include/server/extension/cube/cubedata.h
 * /opt/pgsql-15/include/server/extension/hstore/hstore.h
@@ -300,4 +301,3 @@ Seperate latest 15 PGSQL for pg_upgrade
 * /usr/share/doc/postgresql-upgrade-from-15-15.5/HISTORY
 * /usr/share/doc/postgresql-upgrade-from-15-15.5/INSTALL
 * /usr/share/doc/postgresql-upgrade-from-15-15.5/README
-{{< /files >}}

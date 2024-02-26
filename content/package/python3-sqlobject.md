@@ -16,7 +16,8 @@ reverse_depends = "['yokadi']"
 +++
 SQLObject is a popular Object Relational Manager for providing an object interface to your database.
 
-{{< files text="show files" >}}* /usr/bin/sqlobject-admin
+## Files: 
+* /usr/bin/sqlobject-admin
 * /usr/bin/sqlobject-convertOldURI
 * /usr/lib/python3.12/site-packages/SQLObject-3.11.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/SQLObject-3.11.0-py3.12.egg-info/entry_points.txt
@@ -307,4 +308,3 @@ SQLObject is a popular Object Relational Manager for providing an object interfa
 * /usr/lib/python3.12/site-packages/sqlobject/__version__.py
 * /usr/share/doc/python3-sqlobject-3.11.0/LICENSE
 * /usr/share/doc/python3-sqlobject-3.11.0/README.rst
-{{< /files >}}

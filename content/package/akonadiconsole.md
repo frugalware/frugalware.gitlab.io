@@ -15,7 +15,8 @@ depends = "['calendarsupport>=23.08.5', 'messagelib>=23.08.5']"
 +++
 A utility that can be used to explore or manage Akonadi
 
-{{< files text="show files" >}}* /usr/bin/akonadiconsole
+## Files: 
+* /usr/bin/akonadiconsole
 * /usr/lib/libakonadiconsole.so.5
 * /usr/lib/libakonadiconsole.so.5.24.5
 * /usr/share/applications/org.kde.akonadiconsole.desktop
@@ -54,4 +55,3 @@ A utility that can be used to explore or manage Akonadi
 * /usr/share/locale/zh_CN/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/qlogging-categories5/akonadiconsole.categories
 * /usr/share/qlogging-categories5/akonadiconsole.renamecategories
-{{< /files >}}

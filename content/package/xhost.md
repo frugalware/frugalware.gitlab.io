@@ -16,11 +16,11 @@ license = "GPL2"
 +++
 X.Org xgc application
 
-{{< files text="show files" >}}* /usr/bin/xhost
+## Files: 
+* /usr/bin/xhost
 * /usr/share/doc/xhost-1.0.9/AUTHORS
 * /usr/share/doc/xhost-1.0.9/ChangeLog
 * /usr/share/doc/xhost-1.0.9/COPYING
 * /usr/share/doc/xhost-1.0.9/INSTALL
 * /usr/share/doc/xhost-1.0.9/README.md
 * /usr/share/man/man1/xhost.1.gz
-{{< /files >}}

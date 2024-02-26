@@ -15,5 +15,5 @@ depends = "['gtk+3', 'kconfig', 'kcoreaddons', 'ki18n', 'kio', 'kwindowsystem', 
 +++
 libreoffice KF5/Qt5 integration using GTK3.
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/program/libvclplug_gtk3_kde5lo.so
-{{< /files >}}
+## Files: 
+* /usr/lib/libreoffice/program/libvclplug_gtk3_kde5lo.so

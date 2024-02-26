@@ -16,7 +16,8 @@ reverse_depends = "['haskell-semigroupoids']"
 +++
 Anything that associates
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/semigroups-0.20/Data/Semigroup/Generic.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/semigroups-0.20/Data/Semigroup/Generic.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/semigroups-0.20/Data/Semigroup/Generic.hi
 * /usr/lib/ghc-9.8.1/site-local/semigroups-0.20/libHSsemigroups-0.20-E5GWr2A9lEaLFFYy4Mn0aN.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSsemigroups-0.20-E5GWr2A9lEaLFFYy4Mn0aN-ghc9.8.1.so
@@ -34,4 +35,3 @@ Anything that associates
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/semigroups-0.20/LICENSE
 * /usr/share/haskell/haskell-semigroups/register.sh
 * /usr/share/haskell/haskell-semigroups/unregister.sh
-{{< /files >}}

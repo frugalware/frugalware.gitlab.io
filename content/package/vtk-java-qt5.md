@@ -15,5 +15,5 @@ depends = "['openjre-x', 'vtk>=9.3.0', 'vtk-java>=9.3.0', 'vtk-qt5>=9.3.0']"
 +++
 Java Qt5 interface and bindings for vtk
 
-{{< files text="show files" >}}* /usr/lib/java/vtk-Linux-x86_64/libvtkRenderingQtJava.so
-{{< /files >}}
+## Files: 
+* /usr/lib/java/vtk-Linux-x86_64/libvtkRenderingQtJava.so

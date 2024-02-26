@@ -16,7 +16,8 @@ reverse_depends = "['bootsplash', 'firefox', 'graphicsmagick', 'xsane']"
 +++
 Lightweight color management development library/engine
 
-{{< files text="show files" >}}* /usr/bin/icc2ps
+## Files: 
+* /usr/bin/icc2ps
 * /usr/bin/icclink
 * /usr/bin/icctrans
 * /usr/bin/jpegicc
@@ -40,4 +41,3 @@ Lightweight color management development library/engine
 * /usr/share/man/man1/jpegicc.1.gz
 * /usr/share/man/man1/tifficc.1.gz
 * /usr/share/man/man1/wtpt.1.gz
-{{< /files >}}

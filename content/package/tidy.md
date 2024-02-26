@@ -16,7 +16,8 @@ reverse_depends = "['konqueror']"
 +++
 Tidy the layout and correct errors in HTML, XHTML and XML documents
 
-{{< files text="show files" >}}* /usr/bin/tidy
+## Files: 
+* /usr/bin/tidy
 * /usr/include/buffio.h
 * /usr/include/platform.h
 * /usr/include/tidy.h
@@ -29,4 +30,3 @@ Tidy the layout and correct errors in HTML, XHTML and XML documents
 * /usr/lib/pkgconfig/tidy.pc
 * /usr/share/doc/tidy-5.8.0/README.md
 * /usr/share/man/man1/tidy.1.gz
-{{< /files >}}

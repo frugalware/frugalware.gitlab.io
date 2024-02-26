@@ -15,7 +15,8 @@ depends = "['python3>=3.10']"
 +++
 A CFF subroutinizer for fontTools.
 
-{{< files text="show files" >}}* /usr/bin/compreffor
+## Files: 
+* /usr/bin/compreffor
 * /usr/lib/python3.12/site-packages/compreffor-0.5.5-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/compreffor-0.5.5-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/compreffor-0.5.5-py3.12.egg-info/not-zip-safe
@@ -44,4 +45,3 @@ A CFF subroutinizer for fontTools.
 * /usr/lib/python3.12/site-packages/compreffor/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/compreffor-0.5.5/LICENSE
 * /usr/share/doc/compreffor-0.5.5/README.rst
-{{< /files >}}

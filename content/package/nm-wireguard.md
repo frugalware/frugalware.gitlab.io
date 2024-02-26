@@ -15,10 +15,10 @@ depends = "['libsecret>=0.18.5', 'nm-connection-editor>=1.8.20']"
 +++
 NetworkManager VPN Plugin: Wireguard
 
-{{< files text="show files" >}}* /usr/lib/NetworkManager/libnm-vpn-plugin-wireguard-editor.la
+## Files: 
+* /usr/lib/NetworkManager/libnm-vpn-plugin-wireguard-editor.la
 * /usr/lib/NetworkManager/libnm-vpn-plugin-wireguard-editor.so
 * /usr/share/appdata/network-manager-wireguard.metainfo.xml
 * /usr/share/doc/nm-wireguard-0.0.1/AUTHORS
 * /usr/share/doc/nm-wireguard-0.0.1/COPYING
 * /usr/share/doc/nm-wireguard-0.0.1/README.md
-{{< /files >}}

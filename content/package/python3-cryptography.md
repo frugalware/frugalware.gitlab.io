@@ -16,7 +16,8 @@ reverse_depends = "['lutris', 'paramiko', 'python3-openssl', 'python3-secretstor
 +++
 Cryptography expose cryptographic recipes and primitives in a python module
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/cryptography-41.0.7-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/cryptography-41.0.7-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/cryptography-41.0.7-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/cryptography-41.0.7-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/cryptography-41.0.7-py3.12.egg-info/requires.txt
@@ -188,4 +189,3 @@ Cryptography expose cryptographic recipes and primitives in a python module
 * /usr/lib/python3.12/site-packages/cryptography/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-cryptography-41.0.7/LICENSE
 * /usr/share/doc/python3-cryptography-41.0.7/README.rst
-{{< /files >}}

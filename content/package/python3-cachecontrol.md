@@ -16,7 +16,8 @@ reverse_depends = "['python3-poetry']"
 +++
 httplib2 caching for requests
 
-{{< files text="show files" >}}* /usr/bin/doesitcache
+## Files: 
+* /usr/bin/doesitcache
 * /usr/lib/python3.12/site-packages/cachecontrol-0.13.1.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/cachecontrol-0.13.1.dist-info/LICENSE.txt
 * /usr/lib/python3.12/site-packages/cachecontrol-0.13.1.dist-info/METADATA
@@ -60,4 +61,3 @@ httplib2 caching for requests
 * /usr/lib/python3.12/site-packages/cachecontrol/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/cachecontrol/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-cachecontrol-0.13.1/README.rst
-{{< /files >}}

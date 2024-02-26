@@ -16,7 +16,8 @@ reverse_depends = "['fwupd', 'gvfs', 'solid', 'udiskie']"
 +++
 Storage Management Service
 
-{{< files text="show files" >}}* /etc/udisks2/mount_options.conf.example
+## Files: 
+* /etc/udisks2/mount_options.conf.example
 * /etc/udisks2/udisks2.conf
 * /usr/bin/udisksctl
 * /usr/bin/umount.udisks2
@@ -269,4 +270,3 @@ Storage Management Service
 * /usr/share/polkit-1/actions/org.freedesktop.UDisks2.lvm2.policy
 * /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy
 * /usr/share/zsh/site-functions/_udisks2
-{{< /files >}}

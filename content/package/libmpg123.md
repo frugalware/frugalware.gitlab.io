@@ -16,7 +16,8 @@ reverse_depends = "['mpd', 'mpg123', 'qmmp', 'vlc-mpg123', 'wine', 'wine-devel']
 +++
 libmpg123 is the API used by the mpg123 audio player
 
-{{< files text="show files" >}}* /usr/include/fmt123.h
+## Files: 
+* /usr/include/fmt123.h
 * /usr/include/mpg123.h
 * /usr/include/out123.h
 * /usr/include/syn123.h
@@ -34,4 +35,3 @@ libmpg123 is the API used by the mpg123 audio player
 * /usr/lib/pkgconfig/libmpg123.pc
 * /usr/lib/pkgconfig/libout123.pc
 * /usr/lib/pkgconfig/libsyn123.pc
-{{< /files >}}

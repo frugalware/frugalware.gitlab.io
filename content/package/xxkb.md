@@ -15,7 +15,8 @@ depends = "['libx11', 'libxext', 'libxpm']"
 +++
 Keyboard layout indicator and switcher
 
-{{< files text="show files" >}}* /etc/X11/app-defaults/XXkb
+## Files: 
+* /etc/X11/app-defaults/XXkb
 * /usr/bin/xxkb
 * /usr/lib/X11/app-defaults
 * /usr/share/doc/xxkb-1.11.1/LICENSE
@@ -38,4 +39,3 @@ Keyboard layout indicator and switcher
 * /usr/share/xxkb/su48.xpm
 * /usr/share/xxkb/ua15.xpm
 * /usr/share/xxkb/ua48.xpm
-{{< /files >}}

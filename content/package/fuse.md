@@ -16,7 +16,8 @@ reverse_depends = "['cryfs', 'encfs', 'fuseiso', 'grub2-mount', 'ifuse', 'libgue
 +++
 An interface for filesystems implemented in userspace.
 
-{{< files text="show files" >}}* /usr/bin/fusermount
+## Files: 
+* /usr/bin/fusermount
 * /usr/bin/mount.fuse
 * /usr/bin/ulockmgr_server
 * /usr/include/fuse.h
@@ -47,4 +48,3 @@ An interface for filesystems implemented in userspace.
 * /usr/share/man/man1/fusermount.1.gz
 * /usr/share/man/man1/ulockmgr_server.1.gz
 * /usr/share/man/man8/mount.fuse.8.gz
-{{< /files >}}

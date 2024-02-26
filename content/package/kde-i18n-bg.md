@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Bulgarian Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/khangman/data/bg/animals.kvtml
+## Files: 
+* usr/share/apps/khangman/data/bg/animals.kvtml
 * usr/share/apps/khangman/data/bg/easy.kvtml
 * usr/share/apps/khangman/data/bg/hard.kvtml
 * usr/share/apps/khangman/data/bg/medium.kvtml
@@ -567,4 +568,3 @@ Bulgarian Localization for KDE.
 * usr/share/locale/bg/LC_MESSAGES/wakeup.mo
 * usr/share/locale/bg/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/bg/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

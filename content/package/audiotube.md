@@ -15,7 +15,8 @@ depends = "['futuresql', 'kcoreaddons>=', 'kcrash>=', 'ki18n>=', 'kirigami-addon
 +++
 Client for YouTube Music
 
-{{< files text="show files" >}}* /usr/bin/audiotube
+## Files: 
+* /usr/bin/audiotube
 * /usr/share/applications/org.kde.audiotube.desktop
 * /usr/share/doc/audiotube-23.08.5/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.audiotube.svg
@@ -54,4 +55,3 @@ Client for YouTube Music
 * /usr/share/locale/zh_CN/LC_MESSAGES/audiotube.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/audiotube.mo
 * /usr/share/metainfo/org.kde.audiotube.appdata.xml
-{{< /files >}}

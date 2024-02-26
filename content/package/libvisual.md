@@ -16,7 +16,8 @@ reverse_depends = "['gst1-plugins-base-libvisual']"
 +++
 An audio visualisation library that acts as a middle layer between audio visualisation plugins and applications.
 
-{{< files text="show files" >}}* /usr/include/libvisual-0.4/libvisual/libvisual.h
+## Files: 
+* /usr/include/libvisual-0.4/libvisual/libvisual.h
 * /usr/include/libvisual-0.4/libvisual/lvconfig.h
 * /usr/include/libvisual-0.4/libvisual/lv_actor.h
 * /usr/include/libvisual-0.4/libvisual/lv_audio.h
@@ -75,4 +76,3 @@ An audio visualisation library that acts as a middle layer between audio visuali
 * /usr/share/locale/de/LC_MESSAGES/libvisual-0.4.mo
 * /usr/share/locale/es_AR/LC_MESSAGES/libvisual-0.4.mo
 * /usr/share/locale/es_ES/LC_MESSAGES/libvisual-0.4.mo
-{{< /files >}}

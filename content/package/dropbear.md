@@ -15,7 +15,8 @@ depends = "['pam', 'zlib>=1.2.12']"
 +++
 A small alternative to SSH
 
-{{< files text="show files" >}}* /etc/sysconfig/dropbear
+## Files: 
+* /etc/sysconfig/dropbear
 * /usr/bin/dbclient
 * /usr/bin/dbscp
 * /usr/bin/dropbear
@@ -30,4 +31,3 @@ A small alternative to SSH
 * /usr/share/man/man1/dropbearconvert.1.gz
 * /usr/share/man/man1/dropbearkey.1.gz
 * /usr/share/man/man8/dropbear.8.gz
-{{< /files >}}

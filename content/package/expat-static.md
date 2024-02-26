@@ -15,5 +15,5 @@ depends = "[]"
 +++
 Static files for expat
 
-{{< files text="show files" >}}* /usr/lib/libexpat.a
-{{< /files >}}
+## Files: 
+* /usr/lib/libexpat.a

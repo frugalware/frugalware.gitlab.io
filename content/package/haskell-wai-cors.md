@@ -16,7 +16,8 @@ reverse_depends = "['pandoc-server']"
 +++
 CORS for WAI
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/wai-cors-0.2.7/libHSwai-cors-0.2.7-5g7HBk8aVCL7Pxbax4ciyz.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/wai-cors-0.2.7/libHSwai-cors-0.2.7-5g7HBk8aVCL7Pxbax4ciyz.a
 * /usr/lib/ghc-9.8.1/site-local/wai-cors-0.2.7/Network/Wai/Middleware/Cors.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/wai-cors-0.2.7/Network/Wai/Middleware/Cors.hi
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSwai-cors-0.2.7-5g7HBk8aVCL7Pxbax4ciyz-ghc9.8.1.so
@@ -43,4 +44,3 @@ CORS for WAI
 * /usr/share/x86_64-linux-ghc-9.8.1/wai-cors-0.2.7/README.md
 * /usr/share/x86_64-linux-ghc-9.8.1/wai-cors-0.2.7/test/index.html
 * /usr/share/x86_64-linux-ghc-9.8.1/wai-cors-0.2.7/test/phantomjs.js
-{{< /files >}}

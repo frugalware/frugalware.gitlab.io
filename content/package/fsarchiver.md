@@ -15,7 +15,8 @@ depends = "['bzip2', 'e2fsprogs', 'libgcrypt>=1.6.1', 'lzo', 'ntfs-3g>=2013.1.13
 +++
 Save the contents of a file-system to a compressed archive file
 
-{{< files text="show files" >}}* /usr/bin/fsarchiver
+## Files: 
+* /usr/bin/fsarchiver
 * /usr/share/doc/fsarchiver-0.8.7/ChangeLog
 * /usr/share/doc/fsarchiver-0.8.7/COPYING
 * /usr/share/doc/fsarchiver-0.8.7/INSTALL
@@ -23,4 +24,3 @@ Save the contents of a file-system to a compressed archive file
 * /usr/share/doc/fsarchiver-0.8.7/README
 * /usr/share/doc/fsarchiver-0.8.7/THANKS
 * /usr/share/man/man8/fsarchiver.8.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['curl', 'git', 'libglu', 'libglvnd', 'openjdk', 'unzip', 'xz']"
 +++
 A new mobile app SDK to help developers and designers build modern mobile apps for iOS and Android.
 
-{{< files text="show files" >}}* /etc/profile.d/flutter.sh
+## Files: 
+* /etc/profile.d/flutter.sh
 * /opt/flutter/.ci.yaml
 * /opt/flutter/.cirrus.yml
 * /opt/flutter/.git/config
@@ -9093,4 +9094,3 @@ A new mobile app SDK to help developers and designers build modern mobile apps f
 * /usr/share/doc/flutter-3.7.7/AUTHORS
 * /usr/share/doc/flutter-3.7.7/LICENSE
 * /usr/share/doc/flutter-3.7.7/README.md
-{{< /files >}}

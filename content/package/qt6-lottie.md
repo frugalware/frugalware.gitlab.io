@@ -15,7 +15,8 @@ depends = "['qt6-declarative']"
 +++
 The Qt6 toolkit, qtlottie
 
-{{< files text="show files" >}}* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/beziereasing_p.h
+## Files: 
+* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/beziereasing_p.h
 * /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmbase_p.h
 * /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmbasictransform_p.h
 * /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmconstants_p.h
@@ -72,4 +73,3 @@ The Qt6 toolkit, qtlottie
 * /usr/lib/qt6/qml/Qt/labs/lottieqt/liblottieqtplugin.so
 * /usr/lib/qt6/qml/Qt/labs/lottieqt/plugins.qmltypes
 * /usr/lib/qt6/qml/Qt/labs/lottieqt/qmldir
-{{< /files >}}

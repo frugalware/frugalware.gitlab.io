@@ -16,9 +16,9 @@ reverse_depends = "['perl-mail-dkim', 'spamassassin']"
 +++
 Perl interface to the SHA-1 algorithm
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/Digest/SHA1/SHA1.so
+## Files: 
+* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/Digest/SHA1/SHA1.so
 * /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Digest/SHA1.pm
 * /usr/share/doc/perl-digest-sha1-2.13/MANIFEST
 * /usr/share/doc/perl-digest-sha1-2.13/README
 * /usr/share/man/man3/Digest::SHA1.3perl.gz
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['libkdegames>=23.08.5', 'qt5-svg>=5.15.12']"
 +++
 A simple game of evading killer robots.
 
-{{< files text="show files" >}}* /usr/bin/killbots
+## Files: 
+* /usr/bin/killbots
 * /usr/share/applications/org.kde.killbots.desktop
 * /usr/share/config.kcfg/killbots.kcfg
 * /usr/share/doc/HTML/ca/killbots/index.cache.bz2
@@ -135,4 +136,3 @@ A simple game of evading killer robots.
 * /usr/share/locale/zh_TW/LC_MESSAGES/killbots.mo
 * /usr/share/metainfo/org.kde.killbots.appdata.xml
 * /usr/share/qlogging-categories5/killbots.categories
-{{< /files >}}

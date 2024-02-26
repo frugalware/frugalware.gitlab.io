@@ -17,7 +17,8 @@ license = "GPL"
 +++
 CLN is a library for efficient computations with all kinds of numbers in arbitrary precision.
 
-{{< files text="show files" >}}* /usr/bin/pi
+## Files: 
+* /usr/bin/pi
 * /usr/include/cln/cln.h
 * /usr/include/cln/complex.h
 * /usr/include/cln/complex_class.h
@@ -110,4 +111,3 @@ CLN is a library for efficient computations with all kinds of numbers in arbitra
 * /usr/share/doc/cln-1.3.7/TODO
 * /usr/share/info/cln.info.gz
 * /usr/share/man/man1/pi.1.gz
-{{< /files >}}

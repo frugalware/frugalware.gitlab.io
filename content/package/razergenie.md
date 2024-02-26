@@ -15,7 +15,8 @@ depends = "['libopenrazer']"
 +++
 Qt application for configuring your Razer devices under GNU/Linux.
 
-{{< files text="show files" >}}* /usr/bin/razergenie
+## Files: 
+* /usr/bin/razergenie
 * /usr/share/applications/xyz.z3ntu.razergenie.desktop
 * /usr/share/doc/razergenie-1.1.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/xyz.z3ntu.razergenie.svg
@@ -34,4 +35,3 @@ Qt application for configuring your Razer devices under GNU/Linux.
 * /usr/share/razergenie/translations/ka.qm
 * /usr/share/razergenie/translations/nl.qm
 * /usr/share/razergenie/translations/ru.qm
-{{< /files >}}

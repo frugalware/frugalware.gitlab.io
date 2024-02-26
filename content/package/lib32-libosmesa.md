@@ -16,9 +16,9 @@ reverse_depends = "['wine', 'wine-devel']"
 +++
 Mesa Off-screen Rendering (32-bit)
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/GL/osmesa.h
+## Files: 
+* /usr/i686-frugalware-linux/include/GL/osmesa.h
 * /usr/lib32/libOSMesa.so
 * /usr/lib32/libOSMesa.so.8
 * /usr/lib32/libOSMesa.so.8.0.0
 * /usr/lib32/pkgconfig/osmesa.pc
-{{< /files >}}

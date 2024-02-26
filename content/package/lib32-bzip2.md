@@ -16,9 +16,9 @@ reverse_depends = "['lib32-elfutils', 'lib32-file', 'lib32-fontconfig', 'lib32-f
 +++
 A block-sorting file compressor ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/bzlib.h
+## Files: 
+* /usr/i686-frugalware-linux/include/bzlib.h
 * /usr/lib32/libbz2.so
 * /usr/lib32/libbz2.so.1
 * /usr/lib32/libbz2.so.1.0
 * /usr/lib32/libbz2.so.1.0.8
-{{< /files >}}

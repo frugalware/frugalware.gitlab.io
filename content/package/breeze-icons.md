@@ -16,7 +16,8 @@ reverse_depends = "['breeze']"
 +++
 Icons for the Breeze visual style for the Plasma Desktop.
 
-{{< files text="show files" >}}* /usr/lib/cmake/KF5BreezeIcons/KF5BreezeIconsConfig.cmake
+## Files: 
+* /usr/lib/cmake/KF5BreezeIcons/KF5BreezeIconsConfig.cmake
 * /usr/lib/cmake/KF5BreezeIcons/KF5BreezeIconsConfigVersion.cmake
 * /usr/share/doc/breeze-icons-5.115.0/COPYING-ICONS
 * /usr/share/doc/breeze-icons-5.115.0/COPYING.LIB
@@ -22880,4 +22881,3 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/status/symbolic/user-trash-full-symbolic.svg
 * /usr/share/icons/breeze/status/symbolic/view-wrapped-symbolic-rtl.svg
 * /usr/share/icons/breeze/status/symbolic/view-wrapped-symbolic.svg
-{{< /files >}}

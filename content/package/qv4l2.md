@@ -15,7 +15,8 @@ depends = "['alsa-lib', 'qt5-base>=5.15.11', 'v4l-utils>=1.26.1']"
 +++
 Video 4 Linux Qt Application
 
-{{< files text="show files" >}}* /usr/bin/qv4l2
+## Files: 
+* /usr/bin/qv4l2
 * /usr/share/applications/qv4l2.desktop
 * /usr/share/icons/hicolor/16x16/apps/qv4l2.png
 * /usr/share/icons/hicolor/24x24/apps/qv4l2.png
@@ -23,4 +24,3 @@ Video 4 Linux Qt Application
 * /usr/share/icons/hicolor/64x64/apps/qv4l2.png
 * /usr/share/icons/hicolor/scalable/apps/qv4l2.svg
 * /usr/share/man/man1/qv4l2.1.gz
-{{< /files >}}

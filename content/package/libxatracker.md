@@ -16,11 +16,11 @@ reverse_depends = "['xf86-video-vmware']"
 +++
 Mesa xatracker library
 
-{{< files text="show files" >}}* /usr/include/xa_composite.h
+## Files: 
+* /usr/include/xa_composite.h
 * /usr/include/xa_context.h
 * /usr/include/xa_tracker.h
 * /usr/lib/libxatracker.so
 * /usr/lib/libxatracker.so.2
 * /usr/lib/libxatracker.so.2.5.0
 * /usr/lib/pkgconfig/xatracker.pc
-{{< /files >}}

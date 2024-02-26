@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Chinese Traditional Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/doc/HTML/zh_TW/common/1.png
+## Files: 
+* usr/share/doc/HTML/zh_TW/common/1.png
 * usr/share/doc/HTML/zh_TW/common/10.png
 * usr/share/doc/HTML/zh_TW/common/2.png
 * usr/share/doc/HTML/zh_TW/common/3.png
@@ -663,4 +664,3 @@ Chinese Traditional Localization for KDE.
 * usr/share/locale/zh_TW/LC_MESSAGES/wakeup.mo
 * usr/share/locale/zh_TW/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/zh_TW/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

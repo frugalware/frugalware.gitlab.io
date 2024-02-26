@@ -16,7 +16,8 @@ reverse_depends = "['haskell-singleton-bool']"
 +++
 Existential type: Some
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/some-1.0.6/Data/EqP.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/some-1.0.6/Data/EqP.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/some-1.0.6/Data/EqP.hi
 * /usr/lib/ghc-9.8.1/site-local/some-1.0.6/Data/GADT/Compare.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/some-1.0.6/Data/GADT/Compare.hi
@@ -59,4 +60,3 @@ Existential type: Some
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/some-1.0.6/LICENSE
 * /usr/share/haskell/haskell-some/register.sh
 * /usr/share/haskell/haskell-some/unregister.sh
-{{< /files >}}

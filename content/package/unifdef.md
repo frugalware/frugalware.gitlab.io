@@ -15,7 +15,8 @@ depends = "['glibc>=2.34']"
 +++
 Unifdef is useful for removing #ifdef'ed lines from a file.
 
-{{< files text="show files" >}}* /usr/bin/unifdef
+## Files: 
+* /usr/bin/unifdef
 * /usr/bin/unifdefall
 * /usr/share/doc/unifdef-2.12/Changelog
 * /usr/share/doc/unifdef-2.12/COPYING
@@ -23,4 +24,3 @@ Unifdef is useful for removing #ifdef'ed lines from a file.
 * /usr/share/doc/unifdef-2.12/README
 * /usr/share/man/man1/unifdef.1.gz
 * /usr/share/man/man1/unifdefall.1.gz
-{{< /files >}}

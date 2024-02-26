@@ -15,7 +15,8 @@ depends = "['freetype2>=2.7.1-1', 'gtksourceview4', 'libice>=1.0.9-6', 'libsm>=1
 +++
 Xpad is a sticky pad, or post-it note, system for X
 
-{{< files text="show files" >}}* /usr/bin/xpad
+## Files: 
+* /usr/bin/xpad
 * /usr/share/applications/xpad.desktop
 * /usr/share/doc/xpad-5.8.0/AUTHORS
 * /usr/share/doc/xpad-5.8.0/ChangeLog
@@ -57,4 +58,3 @@ Xpad is a sticky pad, or post-it note, system for X
 * /usr/share/man/man1/xpad.1.gz
 * /usr/share/metainfo/xpad.appdata.xml
 * /usr/share/xpad/help/xpad-user-help.txt
-{{< /files >}}

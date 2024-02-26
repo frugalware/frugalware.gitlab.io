@@ -16,7 +16,8 @@ reverse_depends = "['blender', 'discover-overlay', 'lutris', 'python3-cachecontr
 +++
 Python HTTP for Humans.
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/requests-2.31.0-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/requests-2.31.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/requests-2.31.0-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/requests-2.31.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/requests-2.31.0-py3.12.egg-info/requires.txt
@@ -60,4 +61,3 @@ Python HTTP for Humans.
 * /usr/lib/python3.12/site-packages/requests/__version__.py
 * /usr/share/doc/python3-requests-2.31.0/LICENSE
 * /usr/share/doc/python3-requests-2.31.0/README.md
-{{< /files >}}

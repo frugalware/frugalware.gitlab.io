@@ -16,7 +16,8 @@ reverse_depends = "['allegro', 'alsa-plugins', 'alsa-tools', 'alsa-utils', 'blue
 +++
 An alternative implementation of Linux sound support
 
-{{< files text="show files" >}}* /usr/bin/aserver
+## Files: 
+* /usr/bin/aserver
 * /usr/include/alsa/asoundef.h
 * /usr/include/alsa/asoundlib.h
 * /usr/include/alsa/conf.h
@@ -159,4 +160,3 @@ An alternative implementation of Linux sound support
 * /usr/share/doc/alsa-lib-1.2.11/INSTALL
 * /usr/share/doc/alsa-lib-1.2.11/README.md
 * /usr/share/doc/alsa-lib-1.2.11/TODO
-{{< /files >}}

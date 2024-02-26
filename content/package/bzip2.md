@@ -16,7 +16,8 @@ reverse_depends = "['binwalk', 'botan', 'coin-or-coinutils', 'efl', 'elfutils', 
 +++
 A block-sorting file compressor
 
-{{< files text="show files" >}}* /usr/bin/bunzip2
+## Files: 
+* /usr/bin/bunzip2
 * /usr/bin/bzcat
 * /usr/bin/bzip2
 * /usr/bin/bzip2recover
@@ -35,4 +36,3 @@ A block-sorting file compressor
 * /usr/share/man/man1/bzcat.1.gz
 * /usr/share/man/man1/bzip2.1.gz
 * /usr/share/man/man1/bzip2recover.1.gz
-{{< /files >}}

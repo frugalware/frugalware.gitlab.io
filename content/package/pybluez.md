@@ -15,7 +15,8 @@ depends = "['bluez', 'python3']"
 +++
 Python wrapper for bluez-libs
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/bluetooth/ble.py
+## Files: 
+* /usr/lib/python3.12/site-packages/bluetooth/ble.py
 * /usr/lib/python3.12/site-packages/bluetooth/bluez.py
 * /usr/lib/python3.12/site-packages/bluetooth/btcommon.py
 * /usr/lib/python3.12/site-packages/bluetooth/macos.py
@@ -40,4 +41,3 @@ Python wrapper for bluez-libs
 * /usr/share/doc/pybluez-0.23/CHANGELOG
 * /usr/share/doc/pybluez-0.23/COPYING
 * /usr/share/doc/pybluez-0.23/README.md
-{{< /files >}}

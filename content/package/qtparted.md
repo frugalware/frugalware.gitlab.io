@@ -15,7 +15,8 @@ depends = "['expat', 'jfsutils', 'libxmu', 'parted>=2.3', 'xfsprogs']"
 +++
 A Partition Magic clone written in C++ using qt toolkit
 
-{{< files text="show files" >}}* /usr/bin/qtparted
+## Files: 
+* /usr/bin/qtparted
 * /usr/share/applications/qtparted.desktop
 * /usr/share/doc/qtparted-0.5.0/AUTHORS
 * /usr/share/doc/qtparted-0.5.0/ChangeLog
@@ -39,4 +40,3 @@ A Partition Magic clone written in C++ using qt toolkit
 * /usr/share/qtparted/pics/qtparted_32.png
 * /usr/share/qtparted/pics/qtparted_64.png
 * /usr/share/qtparted/pics/qtp_splash.png
-{{< /files >}}

@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 The XScrnSaver Library
 
-{{< files text="show files" >}}* /usr/include/X11/extensions/scrnsaver.h
+## Files: 
+* /usr/include/X11/extensions/scrnsaver.h
 * /usr/lib/libXss.so
 * /usr/lib/libXss.so.1
 * /usr/lib/libXss.so.1.0.0
@@ -38,4 +39,3 @@ The XScrnSaver Library
 * /usr/share/man/man3/XScreenSaverUnregister.3.gz
 * /usr/share/man/man3/XScreenSaverUnsetAttributes.3.gz
 * /usr/share/man/man3/Xss.3.gz
-{{< /files >}}

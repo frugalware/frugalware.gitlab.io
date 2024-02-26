@@ -16,7 +16,8 @@ reverse_depends = "['flatpak']"
 +++
 Operating system and container binary deployment and upgrades
 
-{{< files text="show files" >}}* /etc/dracut.conf.d/ostree.conf
+## Files: 
+* /etc/dracut.conf.d/ostree.conf
 * /usr/bin/ostree
 * /usr/bin/rofiles-fuse
 * /usr/include/ostree-1/ostree-async-progress.h
@@ -150,4 +151,3 @@ Operating system and container binary deployment and upgrades
 * /usr/share/man/man5/ostree.repo-config.5.gz
 * /usr/share/man/man5/ostree.repo.5.gz
 * /usr/share/ostree/trusted.gpg.d/README-gpg
-{{< /files >}}

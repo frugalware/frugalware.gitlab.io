@@ -15,7 +15,8 @@ depends = "['libmnl']"
 +++
 Fast, modern, secure VPN tunnel (tools)
 
-{{< files text="show files" >}}* /usr/bin/wg
+## Files: 
+* /usr/bin/wg
 * /usr/bin/wg-quick
 * /usr/lib/systemd/system/wg-quick.target
 * /usr/lib/systemd/system/wg-quick@.service
@@ -25,4 +26,3 @@ Fast, modern, secure VPN tunnel (tools)
 * /usr/share/doc/wireguard-tools-1.0.20210914/README.md
 * /usr/share/man/man8/wg-quick.8.gz
 * /usr/share/man/man8/wg.8.gz
-{{< /files >}}

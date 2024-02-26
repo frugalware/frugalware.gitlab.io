@@ -15,6 +15,6 @@ depends = "['php=8.3.3']"
 +++
 CGI binary for php and its libs.
 
-{{< files text="show files" >}}* /usr/bin/php-cgi
+## Files: 
+* /usr/bin/php-cgi
 * /usr/share/man/man1/php-cgi.1.gz
-{{< /files >}}

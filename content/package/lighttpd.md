@@ -16,7 +16,8 @@ license = "BSD"
 +++
 A webserver designed and optimized for high performance environments.
 
-{{< files text="show files" >}}* /etc/lighttpd/conf.d/access_log.conf
+## Files: 
+* /etc/lighttpd/conf.d/access_log.conf
 * /etc/lighttpd/conf.d/auth.conf
 * /etc/lighttpd/conf.d/cgi.conf
 * /etc/lighttpd/conf.d/debug.conf
@@ -76,4 +77,3 @@ A webserver designed and optimized for high performance environments.
 * /usr/share/man/man8/lighttpd.8.gz
 * /var/www/htdocs/frugalware.png
 * /var/www/htdocs/index.html
-{{< /files >}}

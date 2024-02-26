@@ -16,10 +16,10 @@ reverse_depends = "['lib32-gtk+2-libs', 'lib32-libxtst', 'wine', 'wine-devel']"
 +++
 X inputextension library ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/X11/extensions/XInput.h
+## Files: 
+* /usr/i686-frugalware-linux/include/X11/extensions/XInput.h
 * /usr/i686-frugalware-linux/include/X11/extensions/XInput2.h
 * /usr/lib32/libXi.so
 * /usr/lib32/libXi.so.6
 * /usr/lib32/libXi.so.6.1.0
 * /usr/lib32/pkgconfig/xi.pc
-{{< /files >}}

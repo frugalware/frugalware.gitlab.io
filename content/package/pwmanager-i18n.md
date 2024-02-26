@@ -15,7 +15,8 @@ depends = "['pwmanager']"
 +++
 A secure password manager - i18n package
 
-{{< files text="show files" >}}* usr/share/locale/ca/LC_MESSAGES/pwmanager.mo
+## Files: 
+* usr/share/locale/ca/LC_MESSAGES/pwmanager.mo
 * usr/share/locale/da/LC_MESSAGES/pwmanager.mo
 * usr/share/locale/de/LC_MESSAGES/pwmanager.mo
 * usr/share/locale/el/LC_MESSAGES/pwmanager.mo
@@ -29,4 +30,3 @@ A secure password manager - i18n package
 * usr/share/locale/pl/LC_MESSAGES/pwmanager.mo
 * usr/share/locale/ro/LC_MESSAGES/pwmanager.mo
 * usr/share/locale/sv/LC_MESSAGES/pwmanager.mo
-{{< /files >}}

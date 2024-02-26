@@ -16,7 +16,8 @@ reverse_depends = "['libdom']"
 +++
 A library for parsing HTML5, written in C.
 
-{{< files text="show files" >}}* /usr/include/hubbub/errors.h
+## Files: 
+* /usr/include/hubbub/errors.h
 * /usr/include/hubbub/functypes.h
 * /usr/include/hubbub/hubbub.h
 * /usr/include/hubbub/parser.h
@@ -28,4 +29,3 @@ A library for parsing HTML5, written in C.
 * /usr/lib/pkgconfig/libhubbub.pc
 * /usr/share/doc/hubbub-0.3.8/COPYING
 * /usr/share/doc/hubbub-0.3.8/README
-{{< /files >}}

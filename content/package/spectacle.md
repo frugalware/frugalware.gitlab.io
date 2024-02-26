@@ -15,7 +15,8 @@ depends = "['kdeclarative>=5.115.0', 'kio>=5.115.0', 'kipi-plugins>=23.08.5', 'k
 +++
 KDE screenshot capture utility
 
-{{< files text="show files" >}}* /usr/bin/spectacle
+## Files: 
+* /usr/bin/spectacle
 * /usr/lib/kconf_update_bin/spectacle-migrate-rememberregion
 * /usr/lib/kconf_update_bin/spectacle-migrate-shortcuts
 * /usr/lib/systemd/user/app-org.kde.spectacle.service
@@ -128,4 +129,3 @@ KDE screenshot capture utility
 * /usr/share/man/uk/man1/spectacle.1.gz
 * /usr/share/metainfo/org.kde.spectacle.appdata.xml
 * /usr/share/qlogging-categories5/spectacle.categories
-{{< /files >}}

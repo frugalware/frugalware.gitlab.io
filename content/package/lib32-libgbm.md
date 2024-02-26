@@ -16,9 +16,9 @@ reverse_depends = "['lib32-libegl', 'lib32-mesa-libegl', 'lib32-xorg-server']"
 +++
 Mesa gbm library. (32-Bit)
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/gbm.h
+## Files: 
+* /usr/i686-frugalware-linux/include/gbm.h
 * /usr/lib32/libgbm.so
 * /usr/lib32/libgbm.so.1
 * /usr/lib32/libgbm.so.1.0.0
 * /usr/lib32/pkgconfig/gbm.pc
-{{< /files >}}

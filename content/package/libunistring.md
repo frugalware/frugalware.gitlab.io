@@ -16,7 +16,8 @@ reverse_depends = "['gettext', 'gnunet', 'gnutls', 'guile', 'libidn2', 'libratba
 +++
 Library for manipulating Unicode strings and C strings.
 
-{{< files text="show files" >}}* /usr/include/unicase.h
+## Files: 
+* /usr/include/unicase.h
 * /usr/include/uniconv.h
 * /usr/include/unictype.h
 * /usr/include/unigbrk.h
@@ -79,4 +80,3 @@ Library for manipulating Unicode strings and C strings.
 * /usr/share/doc/libunistring-1.2/README
 * /usr/share/doc/libunistring-1.2/THANKS
 * /usr/share/info/libunistring.info.gz
-{{< /files >}}

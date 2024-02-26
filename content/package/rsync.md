@@ -16,7 +16,8 @@ reverse_depends = "['calamares-frugalware', 'profile-sync-daemon', 'sshcode']"
 +++
 An open source utility that provides fast incremental file transfer.
 
-{{< files text="show files" >}}* /etc/logrotate.d/rsyncd
+## Files: 
+* /etc/logrotate.d/rsyncd
 * /etc/rsyncd.conf
 * /usr/bin/rsync
 * /usr/bin/rsync-ssl
@@ -28,4 +29,3 @@ An open source utility that provides fast incremental file transfer.
 * /usr/share/man/man1/rsync-ssl.1.gz
 * /usr/share/man/man1/rsync.1.gz
 * /usr/share/man/man5/rsyncd.conf.5.gz
-{{< /files >}}

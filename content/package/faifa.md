@@ -15,7 +15,8 @@ depends = "['libevent>=2.1.8', 'libpcap']"
 +++
 Faifa is a network tool to remotely manage HomePlug 1.0 and HomePlug AV devices.
 
-{{< files text="show files" >}}* /usr/bin/faifa
+## Files: 
+* /usr/bin/faifa
 * /usr/bin/hpav_cfg
 * /usr/include/faifa/crypto.h
 * /usr/include/faifa/device.h
@@ -29,4 +30,3 @@ Faifa is a network tool to remotely manage HomePlug 1.0 and HomePlug AV devices.
 * /usr/lib/libfaifa.so.0
 * /usr/share/doc/faifa-0.1/COPYING
 * /usr/share/man/man8/faifa.8.gz
-{{< /files >}}

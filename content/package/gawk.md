@@ -16,7 +16,8 @@ reverse_depends = "['autoconf', 'autoconf213', 'backupninja', 'go', 'inxi', 'par
 +++
 Gnu version of awk
 
-{{< files text="show files" >}}* /etc/profile.d/gawk.csh
+## Files: 
+* /etc/profile.d/gawk.csh
 * /etc/profile.d/gawk.sh
 * /usr/bin/awk
 * /usr/bin/gawk
@@ -120,4 +121,3 @@ Gnu version of awk
 * /usr/share/man/man3/revtwoway.3am.gz
 * /usr/share/man/man3/rwarray.3am.gz
 * /usr/share/man/man3/time.3am.gz
-{{< /files >}}

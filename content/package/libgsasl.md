@@ -16,7 +16,8 @@ reverse_depends = "['jreen', 'msmtp']"
 +++
 Implementation of the Simple Authentication and Security Layer framework and a few common SASL mechanisms
 
-{{< files text="show files" >}}* /usr/include/gsasl-compat.h
+## Files: 
+* /usr/include/gsasl-compat.h
 * /usr/include/gsasl-mech.h
 * /usr/include/gsasl.h
 * /usr/lib/libgsasl.so
@@ -53,4 +54,3 @@ Implementation of the Simple Authentication and Security Layer framework and a f
 * /usr/share/locale/uk/LC_MESSAGES/libgsasl.mo
 * /usr/share/locale/vi/LC_MESSAGES/libgsasl.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/libgsasl.mo
-{{< /files >}}

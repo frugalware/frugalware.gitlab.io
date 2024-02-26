@@ -16,7 +16,8 @@ reverse_depends = "['julia', 'kate', 'ktexteditor']"
 +++
 portable, pure C implementation of the Git core methods
 
-{{< files text="show files" >}}* /usr/bin/git2
+## Files: 
+* /usr/bin/git2
 * /usr/include/git2.h
 * /usr/include/git2/annotated_commit.h
 * /usr/include/git2/apply.h
@@ -117,4 +118,3 @@ portable, pure C implementation of the Git core methods
 * /usr/share/doc/libgit2-1.7.2/AUTHORS
 * /usr/share/doc/libgit2-1.7.2/COPYING
 * /usr/share/doc/libgit2-1.7.2/README.md
-{{< /files >}}

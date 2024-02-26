@@ -16,7 +16,8 @@ reverse_depends = "['libtorrent-rasterbar', 'lighttpd', 'mod_security', 'nginx',
 +++
 Easily lookup countries by IP addresses, even when Reverse DNS entries don't exist.
 
-{{< files text="show files" >}}* /usr/bin/geoiplookup
+## Files: 
+* /usr/bin/geoiplookup
 * /usr/bin/geoiplookup6
 * /usr/include/GeoIP.h
 * /usr/include/GeoIPCity.h
@@ -34,4 +35,3 @@ Easily lookup countries by IP addresses, even when Reverse DNS entries don't exi
 * /usr/share/doc/geoip-1.6.12/README.OSX
 * /usr/share/man/man1/geoiplookup.1.gz
 * /usr/share/man/man1/geoiplookup6.1.gz
-{{< /files >}}

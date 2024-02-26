@@ -15,7 +15,8 @@ depends = "['kio>=5.115.0']"
 +++
 KDE system log viewer tool.
 
-{{< files text="show files" >}}* /usr/bin/ksystemlog
+## Files: 
+* /usr/bin/ksystemlog
 * /usr/share/applications/org.kde.ksystemlog.desktop
 * /usr/share/doc/HTML/ca/ksystemlog/index.cache.bz2
 * /usr/share/doc/HTML/ca/ksystemlog/index.docbook
@@ -125,4 +126,3 @@ KDE system log viewer tool.
 * /usr/share/locale/zh_TW/LC_MESSAGES/ksystemlog.mo
 * /usr/share/metainfo/org.kde.ksystemlog.appdata.xml
 * /usr/share/qlogging-categories5/ksystemlog.categories
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['pyinotify', 'pyqt5']"
 +++
 Git-cola is a sleek and powerful Git GUI.
 
-{{< files text="show files" >}}* /usr/bin/cola
+## Files: 
+* /usr/bin/cola
 * /usr/bin/git-cola
 * /usr/bin/git-cola-sequence-editor
 * /usr/bin/git-dag
@@ -363,4 +364,3 @@ Git-cola is a sleek and powerful Git GUI.
 * /usr/share/share/icons/hicolor/scalable/apps/git-cola.svg
 * /usr/share/share/metainfo/git-cola.appdata.xml
 * /usr/share/share/metainfo/git-dag.appdata.xml
-{{< /files >}}

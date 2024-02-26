@@ -15,5 +15,5 @@ depends = "['freetype2', 'fribidi', 'libvlc>=3.0.20', 'libxinerama', 'libxpm>=3.
 +++
 vlc skins plugin
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/gui/libskins2_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/gui/libskins2_plugin.so

@@ -16,7 +16,8 @@ reverse_depends = "['lib32-elfutils-debuginfod', 'lib32-libcurl-gnutls', 'lib32-
 +++
 A command line tool for transferring data specified with URL syntax. ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/curl
+## Files: 
+* /usr/i686-frugalware-linux/bin/curl
 * /usr/i686-frugalware-linux/bin/curl-config
 * /usr/i686-frugalware-linux/include/curl/curl.h
 * /usr/i686-frugalware-linux/include/curl/curlver.h
@@ -34,4 +35,3 @@ A command line tool for transferring data specified with URL syntax. ( 32bit )
 * /usr/lib32/libcurl.so.4
 * /usr/lib32/libcurl.so.4.8.0
 * /usr/lib32/pkgconfig/libcurl.pc
-{{< /files >}}

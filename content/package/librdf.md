@@ -16,7 +16,8 @@ reverse_depends = "['libreoffice']"
 +++
 RDF Application Framework
 
-{{< files text="show files" >}}* /usr/bin/rdfproc
+## Files: 
+* /usr/bin/rdfproc
 * /usr/bin/redland-config
 * /usr/bin/redland-db-upgrade
 * /usr/include/librdf.h
@@ -115,4 +116,3 @@ RDF Application Framework
 * /usr/share/man/man1/redland-db-upgrade.1.gz
 * /usr/share/man/man3/redland.3.gz
 * /usr/share/redland/Redland.i
-{{< /files >}}

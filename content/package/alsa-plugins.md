@@ -16,7 +16,8 @@ reverse_depends = "['alsa-plugin-ffmpeg', 'alsa-plugin-jack', 'alsa-plugin-pulse
 +++
 Various plugins for ALSA.
 
-{{< files text="show files" >}}* /etc/alsa/conf.d/10-rate-lav.conf
+## Files: 
+* /etc/alsa/conf.d/10-rate-lav.conf
 * /etc/alsa/conf.d/10-samplerate.conf
 * /etc/alsa/conf.d/10-speexrate.conf
 * /etc/alsa/conf.d/50-arcam-av-ctl.conf
@@ -49,4 +50,3 @@ Various plugins for ALSA.
 * /usr/share/alsa/alsa.conf.d/98-usb-stream.conf
 * /usr/share/doc/alsa-plugins-1.2.7.1/COPYING
 * /usr/share/doc/alsa-plugins-1.2.7.1/COPYING.GPL
-{{< /files >}}

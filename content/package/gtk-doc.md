@@ -15,7 +15,8 @@ depends = "['docbook-xsl', 'openjade', 'perl>=5.28.2', 'python3-six', 'source-hi
 +++
 Used to document the public API of libraries
 
-{{< files text="show files" >}}* /usr/bin/gtkdoc-check
+## Files: 
+* /usr/bin/gtkdoc-check
 * /usr/bin/gtkdoc-depscan
 * /usr/bin/gtkdoc-fixxref
 * /usr/bin/gtkdoc-mkdb
@@ -103,4 +104,3 @@ Used to document the public API of libraries
 * /usr/share/help/te/gtk-doc-manual/index.docbook
 * /usr/share/help/zh_CN/gtk-doc-manual/fdl-appendix.xml
 * /usr/share/help/zh_CN/gtk-doc-manual/index.docbook
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['html5lib-python', 'pexpect', 'python3-build', 'python3-cachecontrol
 +++
 Python dependency management and packaging made easy
 
-{{< files text="show files" >}}* /usr/bin/poetry
+## Files: 
+* /usr/bin/poetry
 * /usr/lib/python3.12/site-packages/poetry-1.7.1.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/poetry-1.7.1.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/poetry-1.7.1.dist-info/METADATA
@@ -586,4 +587,3 @@ Python dependency management and packaging made easy
 * /usr/share/doc/python3-poetry-1.7.1/README.md
 * /usr/share/fish/vendor_completions.d/poetry.fish
 * /usr/share/zsh/site-functions/_poetry
-{{< /files >}}

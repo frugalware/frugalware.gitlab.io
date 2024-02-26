@@ -16,7 +16,8 @@ reverse_depends = "['python3-eventlet', 'python3-gevent', 'uwsgi-plugin-python']
 +++
 Lightweight in-process concurrent programming
 
-{{< files text="show files" >}}* /usr/include/python3.12/greenlet/greenlet.h
+## Files: 
+* /usr/include/python3.12/greenlet/greenlet.h
 * /usr/lib/python3.12/site-packages/greenlet-3.0.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/greenlet-3.0.1-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/greenlet-3.0.1-py3.12.egg-info/PKG-INFO
@@ -133,4 +134,3 @@ Lightweight in-process concurrent programming
 * /usr/share/doc/python3-greenlet-3.0.1/AUTHORS
 * /usr/share/doc/python3-greenlet-3.0.1/LICENSE
 * /usr/share/doc/python3-greenlet-3.0.1/README.rst
-{{< /files >}}

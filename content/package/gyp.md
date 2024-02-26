@@ -15,7 +15,8 @@ depends = "['ninja']"
 +++
 GYP can Generate Your Projects.
 
-{{< files text="show files" >}}* /usr/bin/gyp
+## Files: 
+* /usr/bin/gyp
 * /usr/lib/python3.12/site-packages/gyp-0.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/gyp-0.1-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/gyp-0.1-py3.12.egg-info/PKG-INFO
@@ -102,4 +103,3 @@ GYP can Generate Your Projects.
 * /usr/share/doc/gyp-20220912.g9d09418/AUTHORS
 * /usr/share/doc/gyp-20220912.g9d09418/LICENSE
 * /usr/share/doc/gyp-20220912.g9d09418/README.md
-{{< /files >}}

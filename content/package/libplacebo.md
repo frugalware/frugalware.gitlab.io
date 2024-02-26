@@ -16,7 +16,8 @@ reverse_depends = "['mpv']"
 +++
 Reusable library for GPU-accelerated video/image rendering primitives
 
-{{< files text="show files" >}}* /usr/include/libplacebo/cache.h
+## Files: 
+* /usr/include/libplacebo/cache.h
 * /usr/include/libplacebo/colorspace.h
 * /usr/include/libplacebo/common.h
 * /usr/include/libplacebo/config.h
@@ -55,4 +56,3 @@ Reusable library for GPU-accelerated video/image rendering primitives
 * /usr/lib/pkgconfig/libplacebo.pc
 * /usr/share/doc/libplacebo-6.338.2/LICENSE
 * /usr/share/doc/libplacebo-6.338.2/README.md
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['subversion']"
 +++
 High-performance asynchronous HTTP client library
 
-{{< files text="show files" >}}* /usr/include/serf-1/serf.h
+## Files: 
+* /usr/include/serf-1/serf.h
 * /usr/include/serf-1/serf_bucket_types.h
 * /usr/include/serf-1/serf_bucket_util.h
 * /usr/lib/libserf-1.a
@@ -27,4 +28,3 @@ High-performance asynchronous HTTP client library
 * /usr/share/doc/serf-1.3.10/CHANGES
 * /usr/share/doc/serf-1.3.10/LICENSE
 * /usr/share/doc/serf-1.3.10/README
-{{< /files >}}

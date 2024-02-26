@@ -15,8 +15,8 @@ depends = "['libgfortran>=11.2']"
 +++
 Basic Linear Algebra Subprograms.
 
-{{< files text="show files" >}}* /usr/lib/libblas64.so
+## Files: 
+* /usr/lib/libblas64.so
 * /usr/lib/libblas64.so.3
 * /usr/lib/libblas64.so.3.12.0
 * /usr/lib/pkgconfig/blas64.pc
-{{< /files >}}

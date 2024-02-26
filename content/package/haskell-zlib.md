@@ -16,7 +16,8 @@ reverse_depends = "['haskell-juicypixels', 'haskell-streaming-commons', 'haskell
 +++
 Compression and decompression in the gzip and zlib formats
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/zlib-0.6.3.0/Codec/Compression/GZip.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/zlib-0.6.3.0/Codec/Compression/GZip.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/zlib-0.6.3.0/Codec/Compression/GZip.hi
 * /usr/lib/ghc-9.8.1/site-local/zlib-0.6.3.0/Codec/Compression/Zlib.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/zlib-0.6.3.0/Codec/Compression/Zlib.hi
@@ -47,4 +48,3 @@ Compression and decompression in the gzip and zlib formats
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/zlib-0.6.3.0/LICENSE
 * /usr/share/haskell/haskell-zlib/register.sh
 * /usr/share/haskell/haskell-zlib/unregister.sh
-{{< /files >}}

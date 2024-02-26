@@ -16,7 +16,8 @@ reverse_depends = "['autogen', 'avahi-glib', 'cairo', 'cairomm', 'chromium-brows
 +++
 A Portable Foreign Function Interface Library
 
-{{< files text="show files" >}}* /usr/include/ffi.h
+## Files: 
+* /usr/include/ffi.h
 * /usr/include/ffitarget.h
 * /usr/lib/libffi.so
 * /usr/lib/libffi.so.8
@@ -30,4 +31,3 @@ A Portable Foreign Function Interface Library
 * /usr/share/man/man3/ffi_call.3.gz
 * /usr/share/man/man3/ffi_prep_cif.3.gz
 * /usr/share/man/man3/ffi_prep_cif_var.3.gz
-{{< /files >}}

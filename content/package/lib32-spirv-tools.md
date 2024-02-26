@@ -16,7 +16,8 @@ reverse_depends = "['lib32-spirv-llvm-translator']"
 +++
 API and commands for processing SPIR-V modules ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/spirv-tools/instrument.hpp
+## Files: 
+* /usr/i686-frugalware-linux/include/spirv-tools/instrument.hpp
 * /usr/i686-frugalware-linux/include/spirv-tools/libspirv.h
 * /usr/i686-frugalware-linux/include/spirv-tools/libspirv.hpp
 * /usr/i686-frugalware-linux/include/spirv-tools/linker.hpp
@@ -51,4 +52,3 @@ API and commands for processing SPIR-V modules ( 32bit )
 * /usr/lib32/libSPIRV-Tools.so
 * /usr/lib32/pkgconfig/SPIRV-Tools-shared.pc
 * /usr/lib32/pkgconfig/SPIRV-Tools.pc
-{{< /files >}}

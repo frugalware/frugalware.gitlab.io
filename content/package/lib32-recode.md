@@ -16,10 +16,10 @@ reverse_depends = "['lib32-libenca']"
 +++
 Converts files between various character sets and usages ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/bin/recode
+## Files: 
+* /usr/i686-frugalware-linux/bin/recode
 * /usr/i686-frugalware-linux/include/recode.h
 * /usr/i686-frugalware-linux/include/recodext.h
 * /usr/lib32/librecode.so
 * /usr/lib32/librecode.so.0
 * /usr/lib32/librecode.so.0.0.0
-{{< /files >}}

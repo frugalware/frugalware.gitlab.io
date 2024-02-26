@@ -15,7 +15,8 @@ depends = "['libidn2', 'libkrb5', 'openssl']"
 +++
 Environment for sending and receiving mail
 
-{{< files text="show files" >}}* /etc/mail.rc
+## Files: 
+* /etc/mail.rc
 * /usr/bin/mail
 * /usr/bin/mailx
 * /usr/lib/mail-dotlock
@@ -26,4 +27,3 @@ Environment for sending and receiving mail
 * /usr/share/doc/s-nail-14.9.24/THANKS
 * /usr/share/man/man1/mail.1.gz
 * /usr/share/man/man1/mailx.1.gz
-{{< /files >}}

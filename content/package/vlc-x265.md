@@ -15,5 +15,5 @@ depends = "['libvlc>=3.0.20', 'x265>=3.5']"
 +++
 vlc x265 support
 
-{{< files text="show files" >}}* /usr/lib/vlc/plugins/codec/libx265_plugin.so
-{{< /files >}}
+## Files: 
+* /usr/lib/vlc/plugins/codec/libx265_plugin.so

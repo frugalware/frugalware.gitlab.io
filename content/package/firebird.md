@@ -15,7 +15,8 @@ depends = "['glibc', 'libedit', 'libfbclient>=4.0.4.3010_0-1', 'libgcc', 'libstd
 +++
 SQL relational database management system
 
-{{< files text="show files" >}}* /etc/firebird/CHANGELOG.md
+## Files: 
+* /etc/firebird/CHANGELOG.md
 * /etc/firebird/databases.conf
 * /etc/firebird/fbintl.conf
 * /etc/firebird/fbtrace.conf
@@ -356,4 +357,3 @@ SQL relational database management system
 * /var/lib/firebird/system/help.fdb
 * /var/lib/firebird/system/security4.fdb
 * /var/log/firebird/firebird.log
-{{< /files >}}

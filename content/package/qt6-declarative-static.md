@@ -15,7 +15,8 @@ depends = "['libstdc++>=11.3']"
 +++
 Qt6 declarative static libs.
 
-{{< files text="show files" >}}* /usr/lib/libQt6PacketProtocol.a
+## Files: 
+* /usr/lib/libQt6PacketProtocol.a
 * /usr/lib/libQt6QmlDebug.a
 * /usr/lib/libQt6QmlDom.a
 * /usr/lib/libQt6QmlLS.a
@@ -23,4 +24,3 @@ Qt6 declarative static libs.
 * /usr/lib/libQt6QmlTypeRegistrar.a
 * /usr/lib/libQt6QuickControlsTestUtils.a
 * /usr/lib/libQt6QuickTestUtils.a
-{{< /files >}}

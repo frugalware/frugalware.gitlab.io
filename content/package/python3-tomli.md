@@ -16,7 +16,8 @@ reverse_depends = "['python3-build', 'python3-flit_core', 'python3-hatchling', '
 +++
 A lil' TOML parser
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/tomli-2.0.1.dist-info/LICENSE
+## Files: 
+* /usr/lib/python3.12/site-packages/tomli-2.0.1.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/tomli-2.0.1.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/tomli-2.0.1.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/tomli-2.0.1.dist-info/WHEEL
@@ -35,4 +36,3 @@ A lil' TOML parser
 * /usr/lib/python3.12/site-packages/tomli/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-tomli-2.0.1/LICENSE
 * /usr/share/doc/python3-tomli-2.0.1/README.md
-{{< /files >}}

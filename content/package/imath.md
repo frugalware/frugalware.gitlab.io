@@ -16,7 +16,8 @@ reverse_depends = "['alembic', 'alicevision', 'opencolorio', 'openexr']"
 +++
 Imath is a C++ and python library of 2D and 3D vector, matrix, and math operations for computer graphics
 
-{{< files text="show files" >}}* /usr/include/Imath/half.h
+## Files: 
+* /usr/include/Imath/half.h
 * /usr/include/Imath/halfFunction.h
 * /usr/include/Imath/halfLimits.h
 * /usr/include/Imath/ImathBox.h
@@ -61,4 +62,3 @@ Imath is a C++ and python library of 2D and 3D vector, matrix, and math operatio
 * /usr/lib/libImath.so
 * /usr/lib/pkgconfig/Imath.pc
 * /usr/share/doc/imath-3.1.10/README.md
-{{< /files >}}

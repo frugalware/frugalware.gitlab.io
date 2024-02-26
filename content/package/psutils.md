@@ -16,7 +16,8 @@ reverse_depends = "['a2ps', 'a2ps']"
 +++
 Postscript utilities
 
-{{< files text="show files" >}}* /usr/bin/epsffit
+## Files: 
+* /usr/bin/epsffit
 * /usr/bin/extractres
 * /usr/bin/fixdlsrps
 * /usr/bin/fixfmps
@@ -61,4 +62,3 @@ Postscript utilities
 * /usr/share/man/man1/pstops.1.gz
 * /usr/share/psutils/md68_0.ps
 * /usr/share/psutils/md71_0.ps
-{{< /files >}}

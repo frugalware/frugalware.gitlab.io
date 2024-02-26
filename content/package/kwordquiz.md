@@ -15,7 +15,8 @@ depends = "['kdelibs4support>=5.115.0', 'kirigami-addons', 'knotifyconfig>=5.115
 +++
 Flash Card Trainer.
 
-{{< files text="show files" >}}* /usr/bin/kwordquiz
+## Files: 
+* /usr/bin/kwordquiz
 * /usr/share/applications/org.kde.kwordquiz.desktop
 * /usr/share/config.kcfg/kwordquiz.kcfg
 * /usr/share/doc/HTML/ca/kwordquiz/index.cache.bz2
@@ -356,4 +357,3 @@ Flash Card Trainer.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kwordquiz.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kwordquiz.mo
 * /usr/share/metainfo/org.kde.kwordquiz.appdata.xml
-{{< /files >}}

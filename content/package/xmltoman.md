@@ -15,7 +15,8 @@ depends = "['perl-xml-parser']"
 +++
 Convert xml to man pages in groff format or html
 
-{{< files text="show files" >}}* /usr/bin/xmlmantohtml
+## Files: 
+* /usr/bin/xmlmantohtml
 * /usr/bin/xmltoman
 * /usr/share/doc/xmltoman-0.4/ChangeLog
 * /usr/share/doc/xmltoman-0.4/COPYING
@@ -23,4 +24,3 @@ Convert xml to man pages in groff format or html
 * /usr/share/xmltoman/xmltoman.css
 * /usr/share/xmltoman/xmltoman.dtd
 * /usr/share/xmltoman/xmltoman.xsl
-{{< /files >}}

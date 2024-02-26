@@ -15,7 +15,8 @@ depends = "[]"
 +++
 A collection of multi-dimensional data structure and indexing algorithm.
 
-{{< files text="show files" >}}* /usr/include/mdds-2.1/mdds/flat_segment_tree.hpp
+## Files: 
+* /usr/include/mdds-2.1/mdds/flat_segment_tree.hpp
 * /usr/include/mdds-2.1/mdds/flat_segment_tree_def.inl
 * /usr/include/mdds-2.1/mdds/flat_segment_tree_itr.hpp
 * /usr/include/mdds-2.1/mdds/global.hpp
@@ -63,4 +64,3 @@ A collection of multi-dimensional data structure and indexing algorithm.
 * /usr/share/doc/mdds-2.1.1/LICENSE
 * /usr/share/doc/mdds-2.1.1/NEWS
 * /usr/share/doc/mdds-2.1.1/README.md
-{{< /files >}}

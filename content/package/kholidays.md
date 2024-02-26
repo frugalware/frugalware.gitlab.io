@@ -16,7 +16,8 @@ reverse_depends = "['calendarsupport', 'itinerary', 'kalarm', 'kopeninghours', '
 +++
 C++ library for calendar holidays.
 
-{{< files text="show files" >}}* /usr/include/KF5/KHolidays/KHolidays/AstroSeasons
+## Files: 
+* /usr/include/KF5/KHolidays/KHolidays/AstroSeasons
 * /usr/include/KF5/KHolidays/kholidays/astroseasons.h
 * /usr/include/KF5/KHolidays/KHolidays/Holiday
 * /usr/include/KF5/KHolidays/kholidays/holiday.h
@@ -116,4 +117,3 @@ C++ library for calendar holidays.
 * /usr/share/qt5/mkspecs/modules/qt_KHolidays.pri
 * /usr/share/qt5/qml/org/kde/kholidays/libkholidaysdeclarativeplugin.so
 * /usr/share/qt5/qml/org/kde/kholidays/qmldir
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['arianna', 'plasma-workspace']"
 +++
 A QtQuick plugin providing high-performance charts
 
-{{< files text="show files" >}}* /usr/lib/cmake/KF5QuickCharts/KF5QuickChartsConfig.cmake
+## Files: 
+* /usr/lib/cmake/KF5QuickCharts/KF5QuickChartsConfig.cmake
 * /usr/lib/cmake/KF5QuickCharts/KF5QuickChartsConfigVersion.cmake
 * /usr/share/doc/kquickcharts-5.115.0/README.md
 * /usr/share/qlogging-categories5/kquickcharts.categories
@@ -31,4 +32,3 @@ A QtQuick plugin providing high-performance charts
 * /usr/share/qt5/qml/org/kde/quickcharts/controls/Theme.qml
 * /usr/share/qt5/qml/org/kde/quickcharts/libQuickCharts.so
 * /usr/share/qt5/qml/org/kde/quickcharts/qmldir
-{{< /files >}}

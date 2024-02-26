@@ -16,7 +16,8 @@ reverse_depends = "['haskell-hslua-core', 'haskell-lpeg']"
 +++
 Lua, an embeddable scripting language
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/lua-2.3.1/libHSlua-2.3.1-3QKfP14YGJTLK88sa6OXV7.a
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/lua-2.3.1/libHSlua-2.3.1-3QKfP14YGJTLK88sa6OXV7.a
 * /usr/lib/ghc-9.8.1/site-local/lua-2.3.1/Lua.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/lua-2.3.1/Lua.hi
 * /usr/lib/ghc-9.8.1/site-local/lua-2.3.1/Lua/Auxiliary.dyn_hi
@@ -87,4 +88,3 @@ Lua, an embeddable scripting language
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/lua-2.3.1/LICENSE
 * /usr/share/haskell/haskell-lua/register.sh
 * /usr/share/haskell/haskell-lua/unregister.sh
-{{< /files >}}

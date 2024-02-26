@@ -16,7 +16,8 @@ reverse_depends = "['hubbub', 'libcss']"
 +++
 A library for building efficient parsers, written in C.
 
-{{< files text="show files" >}}* /usr/include/parserutils/charset/codec.h
+## Files: 
+* /usr/include/parserutils/charset/codec.h
 * /usr/include/parserutils/charset/mibenum.h
 * /usr/include/parserutils/charset/utf16.h
 * /usr/include/parserutils/charset/utf8.h
@@ -34,4 +35,3 @@ A library for building efficient parsers, written in C.
 * /usr/lib/pkgconfig/libparserutils.pc
 * /usr/share/doc/libparserutils-0.2.5/COPYING
 * /usr/share/doc/libparserutils-0.2.5/README
-{{< /files >}}

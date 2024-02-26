@@ -15,7 +15,8 @@ depends = "['augeas>=1.9.0', 'cdrtools', 'cpio', 'fuse>=2.9.4', 'glib2>=2.50.1',
 +++
 tools for accessing and modifying virtual machine disk images
 
-{{< files text="show files" >}}* /etc/libguestfs-tools.conf
+## Files: 
+* /etc/libguestfs-tools.conf
 * /usr/bin/guestfish
 * /usr/bin/guestmount
 * /usr/bin/guestunmount
@@ -218,4 +219,3 @@ tools for accessing and modifying virtual machine disk images
 * /usr/share/man/man3/guestfs.3.gz
 * /usr/share/man/man3/libguestfs.3.gz
 * /usr/share/man/man5/libguestfs-tools.conf.5.gz
-{{< /files >}}

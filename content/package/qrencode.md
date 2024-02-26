@@ -16,7 +16,8 @@ reverse_depends = "['keepassxc', 'prison', 'qtox']"
 +++
 A C library for encoding data in a QR Code symbol
 
-{{< files text="show files" >}}* /usr/bin/qrencode
+## Files: 
+* /usr/bin/qrencode
 * /usr/include/qrencode.h
 * /usr/lib/libqrencode.so
 * /usr/lib/libqrencode.so.4
@@ -29,4 +30,3 @@ A C library for encoding data in a QR Code symbol
 * /usr/share/doc/qrencode-4.1.1/Readme.markdown
 * /usr/share/doc/qrencode-4.1.1/TODO
 * /usr/share/man/man1/qrencode.1.gz
-{{< /files >}}

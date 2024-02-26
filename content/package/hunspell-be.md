@@ -15,8 +15,8 @@ depends = "['hunspell>=1.1.3']"
 +++
 Belarusian dictionary for Hunspell
 
-{{< files text="show files" >}}* /usr/share/doc/hunspell-be-1.1/README_hyph_be_BY
+## Files: 
+* /usr/share/doc/hunspell-be-1.1/README_hyph_be_BY
 * /usr/share/hyphen/hyph_be_BY.dic
 * /usr/share/myspell/be_BY.aff
 * /usr/share/myspell/be_BY.dic
-{{< /files >}}

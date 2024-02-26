@@ -16,7 +16,8 @@ reverse_depends = "['thunderbird-af', 'thunderbird-ar', 'thunderbird-ast', 'thun
 +++
 Mozilla Thunderbird mail and newsgroup client
 
-{{< files text="show files" >}}* /etc/ld.so.conf.d/thunderbird.conf
+## Files: 
+* /etc/ld.so.conf.d/thunderbird.conf
 * /usr/bin/thunderbird
 * /usr/lib/thunderbird/application.ini
 * /usr/lib/thunderbird/chrome/icons/default/calendar-alarm-dialog.png
@@ -73,4 +74,3 @@ Mozilla Thunderbird mail and newsgroup client
 * /usr/share/icons/hicolor/256x256/apps/thunderbird.png
 * /usr/share/icons/hicolor/32x32/apps/thunderbird.png
 * /usr/share/icons/hicolor/48x48/apps/thunderbird.png
-{{< /files >}}

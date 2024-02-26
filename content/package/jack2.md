@@ -16,7 +16,8 @@ reverse_depends = "['aubio', 'lsp-plugins', 'pipewire-jack']"
 +++
 C++ version of jack audio connection kit is a low-latency audio server
 
-{{< files text="show files" >}}* /etc/jack/example.conf
+## Files: 
+* /etc/jack/example.conf
 * /usr/bin/jackd
 * /usr/bin/jackdbus
 * /usr/bin/jack_control
@@ -64,4 +65,3 @@ C++ version of jack audio connection kit is a low-latency audio server
 * /usr/share/doc/jack2-1.9.22/README.rst
 * /usr/share/doc/jack2-1.9.22/README_NETJACK2
 * /usr/share/man/man1/jackd.1.gz
-{{< /files >}}

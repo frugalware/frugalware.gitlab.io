@@ -15,7 +15,8 @@ depends = "['libreoffice>=24.2.0.3']"
 +++
 Installs Slovak support in LibreOffice
 
-{{< files text="show files" >}}* /usr/lib/libreoffice/help/sk/default.css
+## Files: 
+* /usr/lib/libreoffice/help/sk/default.css
 * /usr/lib/libreoffice/help/sk/err.html
 * /usr/lib/libreoffice/help/sk/highcontrast1.css
 * /usr/lib/libreoffice/help/sk/highcontrast2.css
@@ -136,4 +137,3 @@ Installs Slovak support in LibreOffice
 * /usr/lib/libreoffice/share/registry/Langpack-sk.xcd
 * /usr/lib/libreoffice/share/registry/res/fcfg_langpack_sk.xcd
 * /usr/lib/libreoffice/share/registry/res/registry_sk.xcd
-{{< /files >}}

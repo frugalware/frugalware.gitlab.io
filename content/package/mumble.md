@@ -15,7 +15,8 @@ depends = "['avahi>=0.6.31-7', 'avahi-compat>=0.6.31-7', 'libsndfile', 'opus', '
 +++
 A voice chat application similar to TeamSpeak
 
-{{< files text="show files" >}}* /usr/bin/mumble
+## Files: 
+* /usr/bin/mumble
 * /usr/bin/mumble-overlay
 * /usr/lib/mumble/libcelt0.so
 * /usr/lib/mumble/libcelt0.so.0.7.0
@@ -79,4 +80,3 @@ A voice chat application similar to TeamSpeak
 * /usr/share/man/man1/mumble-overlay.1.gz
 * /usr/share/man/man1/mumble.1.gz
 * /usr/share/metainfo/info.mumble.Mumble.appdata.xml
-{{< /files >}}

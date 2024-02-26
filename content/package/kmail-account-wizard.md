@@ -16,7 +16,8 @@ reverse_depends = "['kmail']"
 +++
 Assistant for KMail accounts configuration
 
-{{< files text="show files" >}}* /usr/bin/accountwizard
+## Files: 
+* /usr/bin/accountwizard
 * /usr/bin/ispdb
 * /usr/lib/qt5/plugins/accountwizard_plugin.so
 * /usr/share/akonadi/accountwizard/tine20/tine20wizard.desktop
@@ -133,4 +134,3 @@ Assistant for KMail accounts configuration
 * /usr/share/mime/packages/accountwizard-mime.xml
 * /usr/share/qlogging-categories5/accountwizard.categories
 * /usr/share/qlogging-categories5/accountwizard.renamecategories
-{{< /files >}}

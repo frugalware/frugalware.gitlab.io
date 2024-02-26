@@ -16,7 +16,8 @@ reverse_depends = "['usbguard']"
 +++
 Library with the primary purpose of providing high performance client server reusable features
 
-{{< files text="show files" >}}* /usr/bin/doxygen2man
+## Files: 
+* /usr/bin/doxygen2man
 * /usr/bin/qb-blackbox
 * /usr/include/qb/qbarray.h
 * /usr/include/qb/qbatomic.h
@@ -42,4 +43,3 @@ Library with the primary purpose of providing high performance client server reu
 * /usr/share/doc/libqb-2.0.8/README.markdown
 * /usr/share/man/man1/doxygen2man.1.gz
 * /usr/share/man/man8/qb-blackbox.8.gz
-{{< /files >}}

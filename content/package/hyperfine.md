@@ -15,10 +15,10 @@ depends = "['glibc']"
 +++
 A command-line benchmarking tool
 
-{{< files text="show files" >}}* /usr/bin/hyperfine
+## Files: 
+* /usr/bin/hyperfine
 * /usr/share/bash-completion/completions/hyperfine
 * /usr/share/doc/hyperfine-1.18.0/README.md
 * /usr/share/fish/vendor_completions.d/hyperfine.fish
 * /usr/share/man/man1/hyperfine.1.gz
 * /usr/share/zsh/site-functions/_hyperfine
-{{< /files >}}

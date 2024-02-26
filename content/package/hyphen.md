@@ -16,7 +16,8 @@ reverse_depends = "['calibre', 'enlightenment', 'libreoffice', 'scribus', 'termi
 +++
 A text hyphenation library
 
-{{< files text="show files" >}}* /usr/bin/substrings.pl
+## Files: 
+* /usr/bin/substrings.pl
 * /usr/include/hyphen.h
 * /usr/lib/libhyphen.so
 * /usr/lib/libhyphen.so.0
@@ -36,4 +37,3 @@ A text hyphenation library
 * /usr/share/doc/hyphen-2.8.8/THANKS
 * /usr/share/doc/hyphen-2.8.8/TODO
 * /usr/share/hyphen/hyph_en_US.dic
-{{< /files >}}

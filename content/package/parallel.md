@@ -15,7 +15,8 @@ depends = "['perl', 'procps-ng']"
 +++
 A shell tool for executing jobs in parallel
 
-{{< files text="show files" >}}* /usr/bin/env_parallel
+## Files: 
+* /usr/bin/env_parallel
 * /usr/bin/env_parallel.ash
 * /usr/bin/env_parallel.bash
 * /usr/bin/env_parallel.csh
@@ -107,4 +108,3 @@ A shell tool for executing jobs in parallel
 * /usr/share/man/man7/parallel_examples.7.gz
 * /usr/share/man/man7/parallel_tutorial.7.gz
 * /usr/share/zsh/site-functions/_parallel
-{{< /files >}}

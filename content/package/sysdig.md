@@ -15,7 +15,8 @@ depends = "['curl', 'grpc>=1.62', 'intel-tbb', 'jq', 'jsoncpp>=1.9.2', 'kernel=6
 +++
 Open source system-level exploration and troubleshooting tool
 
-{{< files text="show files" >}}* /usr/bin/csysdig
+## Files: 
+* /usr/bin/csysdig
 * /usr/bin/scap-driver-loader
 * /usr/bin/sysdig
 * /usr/include/sysdig/driver/capture_macro.h
@@ -345,4 +346,3 @@ Open source system-level exploration and troubleshooting tool
 * /usr/share/sysdig/chisels/wsysdig_summary.lua
 * /usr/share/zsh/site-functions/_sysdig
 * /usr/share/zsh/vendor-completions/_sysdig
-{{< /files >}}

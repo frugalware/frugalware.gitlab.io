@@ -16,7 +16,8 @@ reverse_depends = "['crawl', 'crawl-tiles', 'hotdoc', 'lutris']"
 +++
 a complete python YAML 1.1 parser
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/PyYAML-5.3.1-py3.12.egg-info/dependency_links.txt
+## Files: 
+* /usr/lib/python3.12/site-packages/PyYAML-5.3.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/PyYAML-5.3.1-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/PyYAML-5.3.1-py3.12.egg-info/SOURCES.txt
 * /usr/lib/python3.12/site-packages/PyYAML-5.3.1-py3.12.egg-info/top_level.txt
@@ -57,4 +58,3 @@ a complete python YAML 1.1 parser
 * /usr/share/doc/pyyaml3-5.3.1/CHANGES
 * /usr/share/doc/pyyaml3-5.3.1/LICENSE
 * /usr/share/doc/pyyaml3-5.3.1/README
-{{< /files >}}

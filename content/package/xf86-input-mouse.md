@@ -17,7 +17,8 @@ license = "GPL2"
 +++
 X.Org driver for mouse input devices
 
-{{< files text="show files" >}}* /usr/include/xorg/xf86-mouse-properties.h
+## Files: 
+* /usr/include/xorg/xf86-mouse-properties.h
 * /usr/lib/pkgconfig/xorg-mouse.pc
 * /usr/lib/xorg/modules/input/mouse_drv.so
 * /usr/share/doc/xf86-input-mouse-1.9.5/ChangeLog
@@ -25,4 +26,3 @@ X.Org driver for mouse input devices
 * /usr/share/doc/xf86-input-mouse-1.9.5/INSTALL
 * /usr/share/doc/xf86-input-mouse-1.9.5/README
 * /usr/share/man/man4/mousedrv.4.gz
-{{< /files >}}

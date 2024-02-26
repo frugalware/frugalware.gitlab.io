@@ -15,7 +15,8 @@ depends = "['glibc', 'gnutls>=3.4.2']"
 +++
 A command line tool to upload files to FTP site, the opposite to wget
 
-{{< files text="show files" >}}* /usr/bin/wdel
+## Files: 
+* /usr/bin/wdel
 * /usr/bin/wput
 * /usr/share/doc/wput-0.6.2/CHANGELOG
 * /usr/share/doc/wput-0.6.2/ChangeLog
@@ -38,4 +39,3 @@ A command line tool to upload files to FTP site, the opposite to wget
 * /usr/share/locale/zh/LC_MESSAGES/wput.mo
 * /usr/share/man/man1/wdel.1.gz
 * /usr/share/man/man1/wput.1.gz
-{{< /files >}}

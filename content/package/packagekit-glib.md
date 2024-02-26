@@ -16,7 +16,8 @@ reverse_depends = "['packagekit']"
 +++
 GLib Libraries and headers for PackageKit
 
-{{< files text="show files" >}}* /usr/include/PackageKit/packagekit-glib2/packagekit.h
+## Files: 
+* /usr/include/PackageKit/packagekit-glib2/packagekit.h
 * /usr/include/PackageKit/packagekit-glib2/pk-bitfield.h
 * /usr/include/PackageKit/packagekit-glib2/pk-category.h
 * /usr/include/PackageKit/packagekit-glib2/pk-client-helper.h
@@ -57,4 +58,3 @@ GLib Libraries and headers for PackageKit
 * /usr/lib/libpackagekit-glib2.so.18
 * /usr/lib/libpackagekit-glib2.so.18.1.3
 * /usr/lib/pkgconfig/packagekit-glib2.pc
-{{< /files >}}

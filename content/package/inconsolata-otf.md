@@ -15,5 +15,5 @@ depends = "['fontconfig', 'mkfontscale']"
 +++
 A monospaced font for use with Terminals and Editors.
 
-{{< files text="show files" >}}* /usr/share/fonts/X11/OTF/Inconsolata.otf
-{{< /files >}}
+## Files: 
+* /usr/share/fonts/X11/OTF/Inconsolata.otf

@@ -15,7 +15,8 @@ depends = "['kernel']"
 +++
 Allows you to mount remote filesystems using a shell (ssh) connection
 
-{{< files text="show files" >}}* lib/modules/2.6.15-fw2/kernel/fs/shfs/shfs.ko
+## Files: 
+* lib/modules/2.6.15-fw2/kernel/fs/shfs/shfs.ko
 * sbin/mount.shfs
 * usr/bin/shfsmount
 * usr/bin/shfsumount
@@ -30,4 +31,3 @@ Allows you to mount remote filesystems using a shell (ssh) connection
 * usr/share/doc/shfs-0.35/INSTALL
 * usr/share/doc/shfs-0.35/README
 * usr/share/doc/shfs-0.35/TODO
-{{< /files >}}

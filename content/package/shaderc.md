@@ -16,7 +16,8 @@ reverse_depends = "['libplacebo']"
 +++
 Collection of tools, libraries and tests for shader compilation
 
-{{< files text="show files" >}}* /usr/bin/glslc
+## Files: 
+* /usr/bin/glslc
 * /usr/include/shaderc/env.h
 * /usr/include/shaderc/shaderc.h
 * /usr/include/shaderc/shaderc.hpp
@@ -32,4 +33,3 @@ Collection of tools, libraries and tests for shader compilation
 * /usr/share/doc/shaderc-2023.8/CONTRIBUTORS
 * /usr/share/doc/shaderc-2023.8/LICENSE
 * /usr/share/doc/shaderc-2023.8/README.md
-{{< /files >}}

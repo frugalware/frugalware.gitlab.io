@@ -16,11 +16,11 @@ reverse_depends = "['munin']"
 +++
 Perl module to use HTML Templates from CGI scripts
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/current/HTML/Template.pm
+## Files: 
+* /usr/lib/perl5/site_perl/current/HTML/Template.pm
 * /usr/lib/perl5/site_perl/current/HTML/Template/FAQ.pm
 * /usr/share/doc/perl-html-template-2.97/LICENSE
 * /usr/share/doc/perl-html-template-2.97/MANIFEST
 * /usr/share/doc/perl-html-template-2.97/README
 * /usr/share/man/man3/HTML::Template.3perl.gz
 * /usr/share/man/man3/HTML::Template::FAQ.3perl.gz
-{{< /files >}}

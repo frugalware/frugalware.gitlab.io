@@ -15,7 +15,8 @@ depends = "['git>=1.8.5']"
 +++
 An open source Git extension for versioning large files
 
-{{< files text="show files" >}}* /usr/bin/git-lfs
+## Files: 
+* /usr/bin/git-lfs
 * /usr/share/doc/git-lfs-3.4.1/INSTALLING.md
 * /usr/share/doc/git-lfs-3.4.1/README.md
 * /usr/share/man/man1/git-lfs-checkout.1.gz
@@ -52,4 +53,3 @@ An open source Git extension for versioning large files
 * /usr/share/man/man1/git-lfs-untrack.1.gz
 * /usr/share/man/man1/git-lfs-update.1.gz
 * /usr/share/man/man1/git-lfs.1.gz
-{{< /files >}}

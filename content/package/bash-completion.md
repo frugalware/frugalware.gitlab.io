@@ -16,7 +16,8 @@ reverse_depends = "['git-imerge', 'packagekit']"
 +++
 Programmable completion for bash
 
-{{< files text="show files" >}}* /etc/profile.d/bash_completion.sh
+## Files: 
+* /etc/profile.d/bash_completion.sh
 * /usr/lib/pkgconfig/bash-completion.pc
 * /usr/share/bash-completion/bash_completion
 * /usr/share/bash-completion/completions/2to3
@@ -767,4 +768,3 @@ Programmable completion for bash
 * /usr/share/doc/bash-completion-2.11/CHANGES
 * /usr/share/doc/bash-completion-2.11/COPYING
 * /usr/share/doc/bash-completion-2.11/README.md
-{{< /files >}}

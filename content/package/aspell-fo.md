@@ -15,7 +15,8 @@ depends = "['aspell']"
 +++
 GNU Aspell Faroese Word List Package
 
-{{< files text="show files" >}}* usr/lib/aspell-0.60/f370royskt.alias
+## Files: 
+* usr/lib/aspell-0.60/f370royskt.alias
 * usr/lib/aspell-0.60/faroese.alias
 * usr/lib/aspell-0.60/fo.dat
 * usr/lib/aspell-0.60/fo.multi
@@ -23,4 +24,3 @@ GNU Aspell Faroese Word List Package
 * usr/lib/aspell-0.60/fo_phonet.dat
 * usr/share/doc/aspell-fo-0.51r0/COPYING
 * usr/share/doc/aspell-fo-0.51r0/README
-{{< /files >}}

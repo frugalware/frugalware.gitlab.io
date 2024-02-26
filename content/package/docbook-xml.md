@@ -16,7 +16,8 @@ reverse_depends = "['docbook-xsl']"
 +++
 A widely used XML scheme for writing documentation and help
 
-{{< files text="show files" >}}* /usr/share/doc/docbook-xml-4.5/ChangeLog
+## Files: 
+* /usr/share/doc/docbook-xml-4.5/ChangeLog
 * /usr/share/doc/docbook-xml-4.5/README
 * /usr/share/sgml/docbook
 * /usr/share/xml/docbook/xml-dtd-4.1.2
@@ -55,4 +56,3 @@ A widely used XML scheme for writing documentation and help
 * /usr/share/xml/docbook/xml-dtd/ent/README
 * /usr/share/xml/docbook/xml-dtd/htmltblx.mod
 * /usr/share/xml/docbook/xml-dtd/soextblx.dtd
-{{< /files >}}

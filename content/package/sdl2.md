@@ -16,7 +16,8 @@ reverse_depends = "['crawl-tiles', 'faudio', 'ffmpeg', 'ffmpeg4.4', 'freeorion',
 +++
 Simple DirectMedia Layer library v2
 
-{{< files text="show files" >}}* /usr/bin/sdl2-config
+## Files: 
+* /usr/bin/sdl2-config
 * /usr/include/SDL2/begin_code.h
 * /usr/include/SDL2/close_code.h
 * /usr/include/SDL2/SDL.h
@@ -106,4 +107,3 @@ Simple DirectMedia Layer library v2
 * /usr/share/doc/sdl2-2.30.0/INSTALL.txt
 * /usr/share/doc/sdl2-2.30.0/README-SDL.txt
 * /usr/share/doc/sdl2-2.30.0/README.md
-{{< /files >}}

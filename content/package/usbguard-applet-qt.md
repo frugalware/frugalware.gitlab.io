@@ -15,9 +15,9 @@ depends = "['qt5-base>=5.15.10', 'usbguard']"
 +++
 USBguard QT GUI
 
-{{< files text="show files" >}}* /usr/bin/usbguard-applet-qt
+## Files: 
+* /usr/bin/usbguard-applet-qt
 * /usr/share/applications/usbguard-applet-qt.desktop
 * /usr/share/doc/usbguard-applet-qt-0.7.8/LICENSE
 * /usr/share/doc/usbguard-applet-qt-0.7.8/README.adoc
 * /usr/share/icons/hicolor/scalable/apps/usbguard-icon.svg
-{{< /files >}}

@@ -16,7 +16,8 @@ reverse_depends = "['signal-desktop']"
 +++
 A fast image processing library with low memory needs
 
-{{< files text="show files" >}}* /usr/bin/vips
+## Files: 
+* /usr/bin/vips
 * /usr/bin/vipsedit
 * /usr/bin/vipsheader
 * /usr/bin/vipsprofile
@@ -97,4 +98,3 @@ A fast image processing library with low memory needs
 * /usr/share/man/man1/vipsheader.1.gz
 * /usr/share/man/man1/vipsprofile.1.gz
 * /usr/share/man/man1/vipsthumbnail.1.gz
-{{< /files >}}

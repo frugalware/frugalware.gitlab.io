@@ -15,7 +15,8 @@ depends = "['bash', 'pam', 'perl']"
 +++
 Linux Containers
 
-{{< files text="show files" >}}* /etc/lxc/default.conf
+## Files: 
+* /etc/lxc/default.conf
 * /etc/sysconfig/lxc
 * /usr/bin/init.lxc
 * /usr/bin/lxc-attach
@@ -209,4 +210,3 @@ Linux Containers
 * /usr/share/man/man5/lxc.container.conf.5.gz
 * /usr/share/man/man5/lxc.system.conf.5.gz
 * /usr/share/man/man7/lxc.7.gz
-{{< /files >}}

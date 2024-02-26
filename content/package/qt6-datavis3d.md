@@ -15,7 +15,8 @@ depends = "['qt6-declarative']"
 +++
 The Qt6 toolkit, qtdatavis3d
 
-{{< files text="show files" >}}* /usr/include/qt6/QtDataVisualization/6.6.2/QtDataVisualization/private/abstract3dcontroller_p.h
+## Files: 
+* /usr/include/qt6/QtDataVisualization/6.6.2/QtDataVisualization/private/abstract3dcontroller_p.h
 * /usr/include/qt6/QtDataVisualization/6.6.2/QtDataVisualization/private/abstract3drenderer_p.h
 * /usr/include/qt6/QtDataVisualization/6.6.2/QtDataVisualization/private/abstractdeclarativeinterface_p.h
 * /usr/include/qt6/QtDataVisualization/6.6.2/QtDataVisualization/private/abstractitemmodelhandler_p.h
@@ -246,4 +247,3 @@ The Qt6 toolkit, qtdatavis3d
 * /usr/lib/qt6/qml/QtDataVisualization/libdatavisualizationqmlplugin.so
 * /usr/lib/qt6/qml/QtDataVisualization/plugins.qmltypes
 * /usr/lib/qt6/qml/QtDataVisualization/qmldir
-{{< /files >}}

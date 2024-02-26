@@ -16,7 +16,8 @@ reverse_depends = "['freecell-solver']"
 +++
 C11 / gnu11 utilities C library
 
-{{< files text="show files" >}}* /usr/include/rinutils/alloc_wrap.h
+## Files: 
+* /usr/include/rinutils/alloc_wrap.h
 * /usr/include/rinutils/bit_rw.h
 * /usr/include/rinutils/count.h
 * /usr/include/rinutils/dllexport.h
@@ -35,4 +36,3 @@ C11 / gnu11 utilities C library
 * /usr/lib/pkgconfig/librinutils.pc
 * /usr/share/doc/rinutils-0.10.2/LICENSE
 * /usr/share/doc/rinutils-0.10.2/README.asciidoc
-{{< /files >}}

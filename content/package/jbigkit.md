@@ -15,7 +15,8 @@ depends = "['glibc>=2.3.4']"
 +++
 JBIG-KIT implements a highly effective data compression algorithm for bi-level high-resolution images such as fax pages or scanned documents.
 
-{{< files text="show files" >}}* /usr/bin/jbgtopbm
+## Files: 
+* /usr/bin/jbgtopbm
 * /usr/bin/pbmtojbg
 * /usr/include/jbig.h
 * /usr/include/jbig_ar.h
@@ -29,4 +30,3 @@ JBIG-KIT implements a highly effective data compression algorithm for bi-level h
 * /usr/share/man/man1/pbmtojbg.1.gz
 * /usr/share/man/man5/pbm.5.gz
 * /usr/share/man/man5/pgm.5.gz
-{{< /files >}}

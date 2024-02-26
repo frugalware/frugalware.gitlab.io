@@ -15,4 +15,4 @@ depends = "['bluez', 'curl', 'freetype2', 'fribidi', 'glew>=2.2.0', 'libgl', 'li
 +++
 A new and improved version of TuxKart, a kart racing game featuring Tux and his friends
 
-{{< files text="show files" >}}{{< /files >}}
+## Files: 

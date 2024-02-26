@@ -15,7 +15,8 @@ depends = "['qt5-declarative>=5.15.12']"
 +++
 The Qt5 toolkit, qttranslations
 
-{{< files text="show files" >}}* /usr/share/qt5/translations/assistant_ar.qm
+## Files: 
+* /usr/share/qt5/translations/assistant_ar.qm
 * /usr/share/qt5/translations/assistant_bg.qm
 * /usr/share/qt5/translations/assistant_cs.qm
 * /usr/share/qt5/translations/assistant_da.qm
@@ -360,4 +361,3 @@ The Qt5 toolkit, qttranslations
 * /usr/share/qt5/translations/qt_uk.qm
 * /usr/share/qt5/translations/qt_zh_CN.qm
 * /usr/share/qt5/translations/qt_zh_TW.qm
-{{< /files >}}

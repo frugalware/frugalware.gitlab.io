@@ -16,7 +16,8 @@ reverse_depends = "['python3-twisted']"
 +++
 Standalone Zope interface library
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/zope.interface-6.1-py3.12-nspkg.pth
+## Files: 
+* /usr/lib/python3.12/site-packages/zope.interface-6.1-py3.12-nspkg.pth
 * /usr/lib/python3.12/site-packages/zope.interface-6.1-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/zope.interface-6.1-py3.12.egg-info/namespace_packages.txt
 * /usr/lib/python3.12/site-packages/zope.interface-6.1-py3.12.egg-info/not-zip-safe
@@ -128,4 +129,3 @@ Standalone Zope interface library
 * /usr/lib/python3.12/site-packages/zope/interface/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-zopeinterface-6.1/COPYRIGHT.txt
 * /usr/share/doc/python3-zopeinterface-6.1/README.rst
-{{< /files >}}

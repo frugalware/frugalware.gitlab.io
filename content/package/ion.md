@@ -15,7 +15,7 @@ depends = "['glibc', 'libgcc']"
 +++
 Ion is a modern system shell that features a simple, yet powerful, syntax
 
-{{< files text="show files" >}}* /usr/bin/ion
+## Files: 
+* /usr/bin/ion
 * /usr/share/doc/ion-1.0.0_alpha/LICENSE
 * /usr/share/doc/ion-1.0.0_alpha/README.md
-{{< /files >}}

@@ -15,7 +15,8 @@ depends = "['desktop-file-utils', 'gcr-1', 'libhandy', 'libldap', 'libpwquality'
 +++
 A GNOME application for managing PGP keys.
 
-{{< files text="show files" >}}* /usr/bin/seahorse
+## Files: 
+* /usr/bin/seahorse
 * /usr/lib/seahorse/seahorse/ssh-askpass
 * /usr/lib/seahorse/seahorse/xloadimage
 * /usr/share/applications/org.gnome.seahorse.Application.desktop
@@ -880,4 +881,3 @@ A GNOME application for managing PGP keys.
 * /usr/share/seahorse/icons/hicolor/48x48/status/seahorse-sign-ok.png
 * /usr/share/seahorse/icons/hicolor/48x48/status/seahorse-sign-unknown.png
 * /usr/share/seahorse/icons/hicolor/48x48/status/seahorse-sign.png
-{{< /files >}}

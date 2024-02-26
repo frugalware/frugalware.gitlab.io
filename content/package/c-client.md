@@ -16,7 +16,8 @@ reverse_depends = "['php']"
 +++
 Imap client library
 
-{{< files text="show files" >}}* /usr/include/imap/c-client.h
+## Files: 
+* /usr/include/imap/c-client.h
 * /usr/include/imap/env.h
 * /usr/include/imap/env_unix.h
 * /usr/include/imap/fs.h
@@ -38,4 +39,3 @@ Imap client library
 * /usr/lib/libc-client.so.1
 * /usr/lib/libc-client.so.1.0.0
 * /usr/share/doc/c-client-2007f/README
-{{< /files >}}

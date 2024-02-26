@@ -15,7 +15,8 @@ depends = "['php']"
 +++
 PEAR: database abstraction layer
 
-{{< files text="show files" >}}* /usr/share/pear/DB.php
+## Files: 
+* /usr/share/pear/DB.php
 * /usr/share/pear/DB/common.php
 * /usr/share/pear/DB/dbase.php
 * /usr/share/pear/DB/fbsql.php
@@ -80,4 +81,3 @@ PEAR: database abstraction layer
 * /usr/share/pear/test/DB/tests/skipif.inc
 * /usr/share/pear/test/DB/tests/transactions.inc
 * /var/lib/pear/DB.xml
-{{< /files >}}

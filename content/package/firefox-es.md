@@ -15,6 +15,6 @@ depends = "['firefox>=1.0.7']"
 +++
 Spanish language support for Firefox
 
-{{< files text="show files" >}}* usr/lib/firefox/chrome/es-ES.jar
+## Files: 
+* usr/lib/firefox/chrome/es-ES.jar
 * usr/lib/firefox/chrome/rc.d/10_firefox-es.txt
-{{< /files >}}

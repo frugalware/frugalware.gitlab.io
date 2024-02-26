@@ -15,7 +15,8 @@ depends = "['ncurses>=6.0-4']"
 +++
 The nice editor for beginners.
 
-{{< files text="show files" >}}* /usr/bin/ne
+## Files: 
+* /usr/bin/ne
 * /usr/share/doc/ne-3.3.3/CHANGES
 * /usr/share/doc/ne-3.3.3/COPYING
 * /usr/share/doc/ne-3.3.3/default.keys
@@ -297,4 +298,3 @@ The nice editor for beginners.
 * /usr/share/ne/syntax/whitespace.jsf
 * /usr/share/ne/syntax/xml.jsf
 * /usr/share/ne/syntax/yaml.jsf
-{{< /files >}}

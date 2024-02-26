@@ -16,7 +16,8 @@ reverse_depends = "['hplip']"
 +++
 HPLIP printing, scanning, and scanning driver for HP inkjet and laser based printers.
 
-{{< files text="show files" >}}* /etc/hp/hplip.conf
+## Files: 
+* /etc/hp/hplip.conf
 * /etc/udev/rules.d/56-hpmud.rules
 * /usr/bin/hp-makeuri
 * /usr/lib/cups/backend/hp
@@ -1388,4 +1389,3 @@ HPLIP printing, scanning, and scanning driver for HP inkjet and laser based prin
 * /usr/share/cups/model/HP/hp-smart_tank_plus_650_series.ppd.gz
 * /usr/share/cups/model/HP/hp-smart_tank_wireless_450_series.ppd.gz
 * /usr/share/cups/model/HP/hp-tango.ppd.gz
-{{< /files >}}

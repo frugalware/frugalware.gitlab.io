@@ -16,7 +16,8 @@ reverse_depends = "['perl-datetime']"
 +++
 Time zone object base class and factory
 
-{{< files text="show files" >}}* /usr/lib/perl5/site_perl/DateTime/TimeZone.pm
+## Files: 
+* /usr/lib/perl5/site_perl/DateTime/TimeZone.pm
 * /usr/lib/perl5/site_perl/DateTime/TimeZone/Africa/Abidjan.pm
 * /usr/lib/perl5/site_perl/DateTime/TimeZone/Africa/Algiers.pm
 * /usr/lib/perl5/site_perl/DateTime/TimeZone/Africa/Bissau.pm
@@ -365,4 +366,3 @@ Time zone object base class and factory
 * /usr/share/man/man3/DateTime::TimeZone::OffsetOnly.3perl.gz
 * /usr/share/man/man3/DateTime::TimeZone::OlsonDB.3perl.gz
 * /usr/share/man/man3/DateTime::TimeZone::UTC.3perl.gz
-{{< /files >}}

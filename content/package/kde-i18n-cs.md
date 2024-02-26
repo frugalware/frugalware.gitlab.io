@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Czech Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/khangman/cs.txt
+## Files: 
+* usr/share/apps/khangman/cs.txt
 * usr/share/apps/khangman/data/cs/animals.kvtml
 * usr/share/apps/khangman/data/cs/easy.kvtml
 * usr/share/apps/khangman/data/cs/hard.kvtml
@@ -802,4 +803,3 @@ Czech Localization for KDE.
 * usr/share/locale/cs/LC_MESSAGES/wakeup.mo
 * usr/share/locale/cs/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/cs/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

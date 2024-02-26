@@ -16,7 +16,8 @@ license = "GPL2"
 +++
 X.Org encodings fonts
 
-{{< files text="show files" >}}* /usr/share/doc/encodings-1.0.7/ChangeLog
+## Files: 
+* /usr/share/doc/encodings-1.0.7/ChangeLog
 * /usr/share/doc/encodings-1.0.7/COPYING
 * /usr/share/doc/encodings-1.0.7/INSTALL
 * /usr/share/doc/encodings-1.0.7/README.md
@@ -69,4 +70,3 @@ X.Org encodings fonts
 * /usr/share/fonts/X11/encodings/tcvn-0.enc.gz
 * /usr/share/fonts/X11/encodings/tis620-2.enc.gz
 * /usr/share/fonts/X11/encodings/viscii1.1-1.enc.gz
-{{< /files >}}

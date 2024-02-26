@@ -16,7 +16,8 @@ reverse_depends = "['gv']"
 +++
 Athena widgets (libXaw) drop-in replacement
 
-{{< files text="show files" >}}* usr/include/X11/Xaw3d/AllWidgets.h
+## Files: 
+* usr/include/X11/Xaw3d/AllWidgets.h
 * usr/include/X11/Xaw3d/AsciiSink.h
 * usr/include/X11/Xaw3d/AsciiSinkP.h
 * usr/include/X11/Xaw3d/AsciiSrc.h
@@ -97,4 +98,3 @@ Athena widgets (libXaw) drop-in replacement
 * usr/lib/libXaw3d.so
 * usr/lib/libXaw3d.so.8
 * usr/lib/libXaw3d.so.8.0
-{{< /files >}}

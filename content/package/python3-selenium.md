@@ -15,7 +15,8 @@ depends = "['certifi', 'python3-trio', 'python3-trio-websocket', 'python3-urllib
 +++
 Python language bindings for Selenium WebDriver
 
-{{< files text="show files" >}}* /usr/lib/python3.12/site-packages/selenium-4.15.2.dist-info/METADATA
+## Files: 
+* /usr/lib/python3.12/site-packages/selenium-4.15.2.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/selenium-4.15.2.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/selenium-4.15.2.dist-info/top_level.txt
 * /usr/lib/python3.12/site-packages/selenium-4.15.2.dist-info/WHEEL
@@ -935,4 +936,3 @@ Python language bindings for Selenium WebDriver
 * /usr/lib/python3.12/site-packages/selenium/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/python3-selenium-4.15.2/CHANGES
 * /usr/share/doc/python3-selenium-4.15.2/README.rst
-{{< /files >}}

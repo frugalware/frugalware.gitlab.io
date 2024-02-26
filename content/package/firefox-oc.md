@@ -16,5 +16,5 @@ reverse_depends = "['firefox-i18n']"
 +++
 Occitan (post 1500) language support for Firefox
 
-{{< files text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-oc@firefox.mozilla.org.xpi
-{{< /files >}}
+## Files: 
+* /usr/lib/firefox/browser/extensions/langpack-oc@firefox.mozilla.org.xpi

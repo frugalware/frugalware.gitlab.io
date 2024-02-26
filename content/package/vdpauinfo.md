@@ -15,8 +15,8 @@ depends = "['libstdc++>=5.3.0-2', 'libvdpau>=1.1.1-2']"
 +++
 Command line utility for querying the capabilities of a VDPAU
 
-{{< files text="show files" >}}* /usr/bin/vdpauinfo
+## Files: 
+* /usr/bin/vdpauinfo
 * /usr/share/doc/vdpauinfo-1.0/ChangeLog
 * /usr/share/doc/vdpauinfo-1.0/COPYING
 * /usr/share/doc/vdpauinfo-1.0/INSTALL
-{{< /files >}}

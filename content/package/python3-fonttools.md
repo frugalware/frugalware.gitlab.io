@@ -15,7 +15,8 @@ depends = "['python3>=3.11']"
 +++
 Library to manipulate font files from Python
 
-{{< files text="show files" >}}* /usr/bin/fonttools
+## Files: 
+* /usr/bin/fonttools
 * /usr/bin/pyftmerge
 * /usr/bin/pyftsubset
 * /usr/bin/ttx
@@ -628,4 +629,3 @@ Library to manipulate font files from Python
 * /usr/share/doc/python3-fonttools-4.46.0/LICENSE
 * /usr/share/doc/python3-fonttools-4.46.0/README.rst
 * /usr/share/man/man1/ttx.1.gz
-{{< /files >}}

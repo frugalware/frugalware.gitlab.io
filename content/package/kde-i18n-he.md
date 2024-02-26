@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Hebrew Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/apps/klettres/he/alpha/a-01.ogg
+## Files: 
+* usr/share/apps/klettres/he/alpha/a-01.ogg
 * usr/share/apps/klettres/he/alpha/a-02.ogg
 * usr/share/apps/klettres/he/alpha/a-03.ogg
 * usr/share/apps/klettres/he/alpha/a-04.ogg
@@ -622,4 +623,3 @@ Hebrew Localization for KDE.
 * usr/share/locale/he/LC_MESSAGES/wakeup.mo
 * usr/share/locale/he/LC_MESSAGES/wavecapture.mo
 * usr/share/locale/he/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

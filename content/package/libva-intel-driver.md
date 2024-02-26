@@ -16,10 +16,10 @@ license = "GPL"
 +++
 Intel backend for VA API
 
-{{< files text="show files" >}}* /usr/lib/dri/i965_drv_video.so
+## Files: 
+* /usr/lib/dri/i965_drv_video.so
 * /usr/share/doc/libva-intel-driver-2.4.1/AUTHORS
 * /usr/share/doc/libva-intel-driver-2.4.1/COPYING
 * /usr/share/doc/libva-intel-driver-2.4.1/NEWS
 * /usr/share/doc/libva-intel-driver-2.4.1/README
 * /usr/share/doc/libva-intel-driver-2.4.1/README.md
-{{< /files >}}

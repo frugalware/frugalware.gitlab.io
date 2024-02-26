@@ -16,10 +16,10 @@ reverse_depends = "['lib32-ffmpeg']"
 +++
 A portable library for SSA/ASS subtitles rendering ( 32bit )
 
-{{< files text="show files" >}}* /usr/i686-frugalware-linux/include/ass/ass.h
+## Files: 
+* /usr/i686-frugalware-linux/include/ass/ass.h
 * /usr/i686-frugalware-linux/include/ass/ass_types.h
 * /usr/lib32/libass.so
 * /usr/lib32/libass.so.9
 * /usr/lib32/libass.so.9.2.1
 * /usr/lib32/pkgconfig/libass.pc
-{{< /files >}}

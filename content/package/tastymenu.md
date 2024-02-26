@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Tasty Menu is a KMenu replacement.
 
-{{< files text="show files" >}}* usr/lib/kde3/tastymenu_panelapplet.la
+## Files: 
+* usr/lib/kde3/tastymenu_panelapplet.la
 * usr/lib/kde3/tastymenu_panelapplet.so
 * usr/share/apps/kicker/applets/tastymenu.desktop
 * usr/share/config.kcfg/tastymenu.kcfg
@@ -42,4 +43,3 @@ Tasty Menu is a KMenu replacement.
 * usr/share/locale/ru/LC_MESSAGES/tastymenu.mo
 * usr/share/locale/sl/LC_MESSAGES/tastymenu.mo
 * usr/share/locale/uk/LC_MESSAGES/tastymenu.mo
-{{< /files >}}

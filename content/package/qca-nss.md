@@ -15,5 +15,5 @@ depends = "['nss', 'qca']"
 +++
 Plugins for qca with nss
 
-{{< files text="show files" >}}* /usr/lib/qca-qt5/crypto/libqca-nss.so
-{{< /files >}}
+## Files: 
+* /usr/lib/qca-qt5/crypto/libqca-nss.so

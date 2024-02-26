@@ -16,7 +16,8 @@ reverse_depends = "['haskell-appar', 'haskell-byteorder', 'haskell-cookie', 'has
 +++
 A class for types with a default value.
 
-{{< files text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/data-default-class-0.1.2.0/Data/Default/Class.dyn_hi
+## Files: 
+* /usr/lib/ghc-9.8.1/site-local/data-default-class-0.1.2.0/Data/Default/Class.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/data-default-class-0.1.2.0/Data/Default/Class.hi
 * /usr/lib/ghc-9.8.1/site-local/data-default-class-0.1.2.0/libHSdata-default-class-0.1.2.0-Ao78PX3plEHFYzgC5jHfsf.a
 * /usr/lib/x86_64-linux-ghc-9.8.1/libHSdata-default-class-0.1.2.0-Ao78PX3plEHFYzgC5jHfsf-ghc9.8.1.so
@@ -33,4 +34,3 @@ A class for types with a default value.
 * /usr/share/doc/x86_64-linux-ghc-9.8.1/data-default-class-0.1.2.0/LICENSE
 * /usr/share/haskell/haskell-data-default-class/register.sh
 * /usr/share/haskell/haskell-data-default-class/unregister.sh
-{{< /files >}}

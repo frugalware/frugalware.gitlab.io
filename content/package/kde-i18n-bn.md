@@ -15,7 +15,8 @@ depends = "[]"
 +++
 Bengali Localization for KDE.
 
-{{< files text="show files" >}}* usr/share/locale/bn/charset
+## Files: 
+* usr/share/locale/bn/charset
 * usr/share/locale/bn/entry.desktop
 * usr/share/locale/bn/LC_MESSAGES/amor.mo
 * usr/share/locale/bn/LC_MESSAGES/appletproxy.mo
@@ -220,4 +221,3 @@ Bengali Localization for KDE.
 * usr/share/locale/bn/LC_MESSAGES/secpolicy.mo
 * usr/share/locale/bn/LC_MESSAGES/timezones.mo
 * usr/share/locale/bn/LC_MESSAGES/webarchiver.mo
-{{< /files >}}

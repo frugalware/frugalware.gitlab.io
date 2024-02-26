@@ -16,7 +16,8 @@ reverse_depends = "['python3-poetry-core']"
 +++
 An implementation of JSON Schema validation for Python
 
-{{< files text="show files" >}}* /usr/bin/jsonschema
+## Files: 
+* /usr/bin/jsonschema
 * /usr/lib/python3.12/site-packages/jsonschema-4.20.0.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/jsonschema-4.20.0.dist-info/licenses/COPYING
 * /usr/lib/python3.12/site-packages/jsonschema-4.20.0.dist-info/METADATA
@@ -115,4 +116,3 @@ An implementation of JSON Schema validation for Python
 * /usr/lib/python3.12/site-packages/jsonschema/__pycache__/__main__.cpython-312.pyc
 * /usr/share/doc/python3-jsonschema-4.20.0/COPYING
 * /usr/share/doc/python3-jsonschema-4.20.0/README.rst
-{{< /files >}}

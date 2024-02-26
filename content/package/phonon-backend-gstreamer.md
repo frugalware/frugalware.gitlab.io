@@ -16,7 +16,8 @@ reverse_depends = "['plasma-pa']"
 +++
 Phonon gstreamer backend.
 
-{{< files text="show files" >}}* /usr/lib/qt5/plugins/phonon4qt5_backend/phonon_gstreamer.so
+## Files: 
+* /usr/lib/qt5/plugins/phonon4qt5_backend/phonon_gstreamer.so
 * /usr/share/doc/phonon-backend-gstreamer-4.10.0/COPYING.LIB
 * /usr/share/icons/hicolor/128x128/apps/phonon-gstreamer.png
 * /usr/share/icons/hicolor/16x16/apps/phonon-gstreamer.png
@@ -24,4 +25,3 @@ Phonon gstreamer backend.
 * /usr/share/icons/hicolor/48x48/apps/phonon-gstreamer.png
 * /usr/share/icons/hicolor/64x64/apps/phonon-gstreamer.png
 * /usr/share/icons/hicolor/scalable/apps/phonon-gstreamer.svg
-{{< /files >}}

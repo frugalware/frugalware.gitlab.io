@@ -16,7 +16,8 @@ reverse_depends = "['mercurial-hgk']"
 +++
 A fast, lightweight source control management system.
 
-{{< files text="show files" >}}* /usr/bin/hg
+## Files: 
+* /usr/bin/hg
 * /usr/lib/python3.12/site-packages/hgdemandimport/demandimportpy3.py
 * /usr/lib/python3.12/site-packages/hgdemandimport/tracing.py
 * /usr/lib/python3.12/site-packages/hgdemandimport/__init__.py
@@ -1087,4 +1088,3 @@ A fast, lightweight source control management system.
 * /usr/share/man/man5/hgrc.5.gz
 * /usr/share/man/man8/hg-ssh.8.gz
 * /usr/share/zsh/site-functions/_hg
-{{< /files >}}

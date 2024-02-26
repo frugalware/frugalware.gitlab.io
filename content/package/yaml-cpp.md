@@ -16,7 +16,8 @@ reverse_depends = "['calamares-frugalware', 'facter', 'opencolorio', 'qtcreator'
 +++
 YAML parser and emitter in C++, written around the YAML 1.2 spec
 
-{{< files text="show files" >}}* /usr/include/yaml-cpp/anchor.h
+## Files: 
+* /usr/include/yaml-cpp/anchor.h
 * /usr/include/yaml-cpp/binary.h
 * /usr/include/yaml-cpp/contrib/anchordict.h
 * /usr/include/yaml-cpp/contrib/graphbuilder.h
@@ -63,4 +64,3 @@ YAML parser and emitter in C++, written around the YAML 1.2 spec
 * /usr/lib/pkgconfig/yaml-cpp.pc
 * /usr/share/doc/yaml-cpp-0.8.0/LICENSE
 * /usr/share/doc/yaml-cpp-0.8.0/README.md
-{{< /files >}}

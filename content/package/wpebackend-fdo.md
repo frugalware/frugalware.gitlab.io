@@ -16,7 +16,8 @@ reverse_depends = "['webkit-gtk3']"
 +++
 freedesktop.org backend for WPE WebKit
 
-{{< files text="show files" >}}* /usr/include/wpe-fdo-1.0/wpe/exported-buffer-shm.h
+## Files: 
+* /usr/include/wpe-fdo-1.0/wpe/exported-buffer-shm.h
 * /usr/include/wpe-fdo-1.0/wpe/exported-image-egl.h
 * /usr/include/wpe-fdo-1.0/wpe/extensions/audio.h
 * /usr/include/wpe-fdo-1.0/wpe/extensions/video-plane-display-dmabuf.h
@@ -42,4 +43,3 @@ freedesktop.org backend for WPE WebKit
 * /usr/lib/pkgconfig/wpebackend-fdo-1.0.pc
 * /usr/share/doc/wpebackend-fdo-1.14.2/COPYING
 * /usr/share/doc/wpebackend-fdo-1.14.2/NEWS
-{{< /files >}}

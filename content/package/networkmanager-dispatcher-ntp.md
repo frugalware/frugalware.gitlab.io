@@ -15,5 +15,5 @@ depends = "['networkmanager', 'ntp']"
 +++
 Dispatcher Script for ntpd
 
-{{< files text="show files" >}}* /etc/NetworkManager/dispatcher.d/10-ntpd
-{{< /files >}}
+## Files: 
+* /etc/NetworkManager/dispatcher.d/10-ntpd

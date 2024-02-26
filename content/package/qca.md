@@ -17,7 +17,8 @@ license = "2.1"
 +++
 QCA aims to provide a straightforward and cross-platform crypto API, using Qt5 datatypes and conventions.
 
-{{< files text="show files" >}}* /usr/bin/mozcerts-qt5
+## Files: 
+* /usr/bin/mozcerts-qt5
 * /usr/bin/qcatool-qt5
 * /usr/include/Qca-qt5/QtCrypto/qca.h
 * /usr/include/Qca-qt5/QtCrypto/qcaprovider.h
@@ -53,4 +54,3 @@ QCA aims to provide a straightforward and cross-platform crypto API, using Qt5 d
 * /usr/share/doc/qca-2.3.8/TODO
 * /usr/share/man/man1/qcatool-qt5.1.gz
 * /usr/share/qt5/mkspecs/features/crypto.prf
-{{< /files >}}

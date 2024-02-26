@@ -16,7 +16,8 @@ reverse_depends = "['digikam']"
 +++
 A seam-carving C/C++ library called Liquid Rescale
 
-{{< files text="show files" >}}* /usr/include/lqr-1/lqr.h
+## Files: 
+* /usr/include/lqr-1/lqr.h
 * /usr/include/lqr-1/lqr/lqr_base.h
 * /usr/include/lqr-1/lqr/lqr_carver_bias_pub.h
 * /usr/include/lqr-1/lqr/lqr_carver_list_pub.h
@@ -42,4 +43,3 @@ A seam-carving C/C++ library called Liquid Rescale
 * /usr/share/doc/liblqr-0.4.2/README
 * /usr/share/doc/liblqr-0.4.2/README.Windows
 * /usr/share/doc/liblqr-0.4.2/TODO
-{{< /files >}}
