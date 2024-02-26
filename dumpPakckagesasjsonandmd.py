@@ -1,138 +1,147 @@
 #!/usr/bin/env python
 
-import pacman
 import json
 import datetime
 import argparse
+import mariadb
+import sys
 from lunr import lunr
+from functools import reduce
 
 parser = argparse.ArgumentParser(
                     prog='dumpPakckagesasjsonandmd.py',
                     description='Dump package description and metadata to .md files and JSON Index',
                     epilog='Here be dragons')
 
-root = "/"
-parser.add_argument('-d', '--package_directory', help="Directory containing fdb and fpm files", default=root+"var/cache/pacman-g2/pkg") 
 parser.add_argument('-t', '--hugo_directory', help="Directory containing hugo", default="./")
 parser.add_argument('-j', '--json_path', help="Where to create index file", default="/pub/PagesIndex.json")
-parser.add_argument('-b', '--dbpath', help="Path to db")
-parser.add_argument('-n', '--dbname', help="Name of db", default="frugalware-current")
+parser.add_argument('-u', '--username', help="DB username")
+parser.add_argument('-p', '--password', help="DB password")
+parser.add_argument('-d', '--dbname', help="DB name", default="frugalware2")
+parser.add_argument('-f', '--fwver', help="FW Ver", default="current")
+parser.add_argument('-a', '--arch', help="FW arg", default="x86_64")
+parser.add_argument('-s', '--server', help="DB server or socket", default="localhost")
 
 args = parser.parse_args()
-                    
+
 packages_as_dict = {}
-packages_path = args.package_directory
 
-if pacman.initialize(root) == -1:
-    print("initializing DB failed")
-    exit
+# Connect to MariaDB Platform
+try:
+    conn = mariadb.connect(
+        user=args.username,
+        password=args.password,
+        host=args.server,
+        port=3306,
+        database=args.dbname
+    )
+except mariadb.Error as e:
+    print(f"Error connecting to MariaDB Platform: {e}")
+    sys.exit(1)
 
-if 'dbpath' in args:
-    if pacman.set_option(pacman.OPT_DBPATH, pacman.char_to_unsigned_long(args.dbpath)) == -1:
-        print("failed to set option DBPATH")
-        exit
+# Get Cursor
+cur = conn.cursor(dictionary=True)
 
-db = pacman.db_register(args.dbname)
+cur.execute("SELECT * FROM packages WHERE arch = ? AND fwver = ?", (args.arch, args.fwver))
 
-i = pacman.db_getpkgcache(db)
-while i :
-    pkg = pacman.void_to_PM_PKG(pacman.list_getdata(i))
-    name = pacman.void_to_char(pacman.pkg_getinfo(pkg, pacman.PKG_NAME))
-    version = pacman.void_to_char(pacman.pkg_getinfo(pkg, pacman.PKG_VERSION))
-    arch = pacman.void_to_char(pacman.pkg_getinfo(pkg, pacman.PKG_ARCH))
-    files = None
-    url = None
-    builddate = None
-    licenses = None
 
-    groups = []
-    j = pacman.void_to_PM_LIST(pacman.pkg_getinfo(pkg, pacman.PKG_GROUPS))
-    while j:
-        group = pacman.void_to_char(pacman.list_getdata(j))
-        groups.append(group)
-        j = pacman.list_next(j)
-
+for package in cur:
     depends = []
-    k = pacman.void_to_PM_LIST(pacman.pkg_getinfo(pkg, pacman.PKG_DEPENDS))
-    while k:
-        depend = pacman.void_to_char(pacman.list_getdata(k))
-        depends.append(depend)
-        k = pacman.list_next(k)
+    files = []
+    reverse_depends = []
+    
+    package_id = package['id']
+    name = package['pkgname']
+    version = package['pkgver']
+    arch = package['arch']    
+    url = package['url']
+    builddate = package['builddate']        
+    
+    desc = package['desc']
+    size = package['size']
+    usize = package['usize']
+    sha1sum = package['sha1sum']
+    
+    # Get Cursor
+    cur2 = conn.cursor()
 
-    desc = pacman.void_to_char(pacman.pkg_getinfo(pkg, pacman.PKG_DESC))
-    size = pacman.void_to_long(pacman.pkg_getinfo(pkg, pacman.PKG_SIZE))
-    usize = pacman.void_to_long(pacman.pkg_getinfo(pkg, pacman.PKG_USIZE))
-    sha1sum = pacman.void_to_char(pacman.pkg_getinfo(pkg, pacman.PKG_SHA1SUM))
+    cur2.execute("SELECT file FROM files WHERE pkg_id = ? ORDER BY file", ([package_id]))
+    files = cur2.fetchall()
+    files = flattened = [item for sublist in files for item in sublist]
+    files = list(filter(lambda filename: not(filename.endswith('/')), files))
+    
+    # Get Cursor
+    cur3 = conn.cursor()
+    
+    cur3.execute("SELECT name FROM groups \
+        WHERE id in (SELECT group_id FROM ct_groups WHERE pkg_id = ?) ORDER BY name", ([package_id]))
+    groups = cur3.fetchall()
+    if groups:
+        groups = groups[0]
+    
+    # Get Cursor
+    cur4 = conn.cursor()
+    
+    cur4.execute("SELECT pkgname, version FROM depends D \
+        JOIN packages P ON D.depend_id = P.id \
+        WHERE D.pkg_id = ? ORDER by pkgname", ([package_id]))
+    for depend in cur4:
+        if depend[1]:
+            depends += [depend[0] + depend[1]]
+        else:
+            depends += [depend[0]]
+            
+    cur4.execute("SELECT pkgname FROM depends D \
+        JOIN packages P ON D.pkg_id = P.id \
+        WHERE D.depend_id = ? ORDER by pkgname", ([package_id]))
+    for reverse_depend in cur4:
+        reverse_depends += reverse_depend         
 
-    full_pkg = pacman.PKGp_new()
-    package_path= packages_path + name + "-" + version + "-" + arch + ".fpm"
+    # Get Cursor
+    cur5 = conn.cursor()
+    cur5.execute("SELECT license FROM licenses WHERE pkg_id = ?", ([package_id]))
+    package_license = cur5.fetchall()
+    if package_license:
+        package_license = package_license[0][0]
 
-    if pacman.pkg_load(package_path, full_pkg) != -1:
-        files = []
-        licenses = []
+        
 
-        m = pacman.void_to_PM_LIST(pacman.pkg_getinfo(pacman.PKGp_to_PKG(full_pkg), pacman.PKG_FILES))
-        while m:
-            package_file = pacman.void_to_char(pacman.list_getdata(m))
-            files.append(package_file)
-            m = pacman.list_next(m)
+    packages_as_dict[name] = {
+        'name': name,
+        'version' : version ,
+        'desc' : desc ,
+    }
 
-        n = pacman.void_to_PM_LIST(pacman.pkg_getinfo(pacman.PKGp_to_PKG(full_pkg), pacman.PKG_LICENSE))
-        while n:
-            license = pacman.void_to_char(pacman.list_getdata(n))
-            licenses.append(license)
-            n = pacman.list_next(n)
-        url = pacman.void_to_char(pacman.pkg_getinfo(pacman.PKGp_to_PKG(full_pkg), pacman.PKG_URL))
-        builddate = pacman.void_to_char(pacman.pkg_getinfo(pacman.PKGp_to_PKG(full_pkg), pacman.PKG_BUILDDATE))
+    f = open(args.hugo_directory+'content/package/'+name+'.md', 'w')
+    f.write("+++\n")
+    f.write("draft = false\n")
+    f.write('title = "'+name+" "+version+'"\n')
+    f.write('version = "'+version+'"\n')
+    f.write('date = "'+builddate.isoformat()+'"\n')
+    f.write('aliases = "/packages/'+str(package_id)+'"\n')
 
+    f.write('categories = '+str(list(groups))+'\n')
+    f.write('upstreamurl = "'+url+'"\n')
+    f.write('arch = "'+arch+'"\n')
+    f.write('size = "'+str(size)+'"\n')
+    f.write('usize = "'+str(usize)+'"\n')
+    f.write('sha1sum = "'+sha1sum+'"\n')
+    f.write('depends = "'+str(depends)+'"\n')
+    if reverse_depends:
+        f.write('reverse depends = "'+str(reverse_depends)+'"\n')
+    f.write('files = "'+str(files)+'"\n')
+    if package_license:
+        f.write('license = "'+str(package_license)+'"\n')
+    
+    f.write("+++\n")
+    f.write(desc)
+    f.close()
 
-        packages_as_dict[name] = {
-            'name': name,
-            'version' : version ,
-            'desc' : desc ,
-        }
-        if files:
-            packages_as_dict[name]['files'] = list(filter(lambda filename: filename.endswith('/'), files))
-        if url:
-            packages_as_dict[name]['url'] = url
-        if builddate:
-            packages_as_dict[name]['builddate'] = builddate
-        if licenses:
-            packages_as_dict[name]['licenses'] = licenses
+if packages_as_dict:
+    idx = lunr(
+        ref='name', fields=('desc', 'version'), documents=packages_as_dict.values()
+    )
 
-        f = open(args.hugo_directory+'content/package/'+name+'.md', 'w')
-        f.write("+++\n")
-        f.write("draft = false\n")
-        f.write('title = "'+name+" "+version+'"\n')
-        f.write('version = "'+version+'"\n')
-        if builddate:
-            date_object = datetime.datetime.strptime(builddate, '%c')
-            f.write('date = "'+date_object.isoformat()+'"\n')
+    with open(args.json_path, 'w') as f:
+        print(idx.serialize(), file=f)
 
-        f.write('categories = '+str(groups)+'\n')
-        if url:
-            f.write('upstreamurl = "'+url+'"\n')
-        f.write('arch = "'+arch+'"\n')
-        f.write('size = "'+str(size)+'"\n')
-        f.write('usize = "'+str(usize)+'"\n')
-        f.write('sha1sum = "'+sha1sum+'"\n')
-        f.write('depends = "'+str(depends)+'"\n')
-        if licenses:
-            f.write('license = "'+str(license)+'"\n')
-        if files:
-            f.write('files = "'+str(files)+'"\n')
-        f.write("+++\n")
-        f.write(desc)
-        f.close()
-
-    i = pacman.list_next(i)
-
-idx = lunr(
-    ref='name', fields=('desc', 'version'), documents=packages_as_dict.values()
-)
-
-with open(args.json_path, 'w') as f:
-    print(idx.serialize(), file=f)
-
-
-pacman.release()
