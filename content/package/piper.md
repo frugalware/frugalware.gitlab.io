@@ -13,9 +13,10 @@ usize = "1960457"
 sha1sum = "fd5d6831a08b4155807d1088e204f65ed85bdfad"
 depends = "['gobject-introspection', 'libratbag>=0.9.906', 'pygobject3-cairo', 'python3-evdev', 'python3-lxml']"
 +++
+### Description: 
 Piper is a GUI interface to ratbagd, the system daemon for configurable mice
 
-## Files: 
+### Files: 
 * /usr/bin/piper
 * /usr/lib/python3.12/site-packages/piper/application.py
 * /usr/lib/python3.12/site-packages/piper/buttondialog.py

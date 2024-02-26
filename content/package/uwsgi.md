@@ -15,9 +15,10 @@ depends = "['jansson', 'libcap', 'libuuid', 'libxml2', 'mono', 'openssl>=3.1.0',
 reverse_depends = "['uwsgi-plugin-airbrake', 'uwsgi-plugin-carbon', 'uwsgi-plugin-cplusplus', 'uwsgi-plugin-curl', 'uwsgi-plugin-emperor_pg', 'uwsgi-plugin-ffi', 'uwsgi-plugin-geoip', 'uwsgi-plugin-gevent', 'uwsgi-plugin-graylog', 'uwsgi-plugin-ldap', 'uwsgi-plugin-lua', 'uwsgi-plugin-mongrel', 'uwsgi-plugin-mono', 'uwsgi-plugin-nagios', 'uwsgi-plugin-pam', 'uwsgi-plugin-psgi', 'uwsgi-plugin-python', 'uwsgi-plugin-rack', 'uwsgi-plugin-router', 'uwsgi-plugin-ruby', 'uwsgi-plugin-sqlite', 'uwsgi-plugin-systemd', 'uwsgi-plugin-webdav', 'uwsgi-plugin-xmpp', 'uwsgi-plugin-xslt', 'uwsgi-plugin-zergpool']"
 license = "GPL2"
 +++
+### Description: 
 A fast, self-healing and developer/sysadmin-friendly application container server coded in pure C
 
-## Files: 
+### Files: 
 * /etc/tmpfiles.d/uwsgi.conf
 * /usr/bin/uwsgi
 * /usr/lib/systemd/system/uwsgi@.service

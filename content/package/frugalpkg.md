@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "09af415c55db389f68651d58158629eed4251e8a"
 depends = "['shared-mime-info']"
 +++
+### Description: 
 Graphical frontend to pacman
 
-## Files: 
+### Files: 
 * usr/bin/frugalpkg
 * usr/share/applications/frugalpkg.desktop
 * usr/share/applications/kde/frugalpkg.desktop

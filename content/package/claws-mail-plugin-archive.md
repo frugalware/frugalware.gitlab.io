@@ -13,7 +13,8 @@ usize = "63728"
 sha1sum = "239b3fa9131070b3e7625d33f7fe9c46e0ec5dca"
 depends = "['claws-mail=4.1.1', 'libarchive>=3.1.2-8']"
 +++
+### Description: 
 This plugin adds archiving features to Claws Mail.
 
-## Files: 
+### Files: 
 * /usr/lib/claws-mail/plugins/archive.so

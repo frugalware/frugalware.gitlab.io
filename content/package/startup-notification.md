@@ -14,9 +14,10 @@ sha1sum = "bba6dbcd94167d0b4f3e100793c07511188a489a"
 depends = "['libx11>=1.6.3-3', 'xcb-util>=0.4.0-2']"
 reverse_depends = "['claws-mail', 'firefox', 'i3', 'libreoffice', 'libwnck', 'libwnck2', 'openbox', 'pidgin']"
 +++
+### Description: 
 Application startup notification and feedback library
 
-## Files: 
+### Files: 
 * /usr/include/startup-notification-1.0/libsn/sn-common.h
 * /usr/include/startup-notification-1.0/libsn/sn-launchee.h
 * /usr/include/startup-notification-1.0/libsn/sn-launcher.h

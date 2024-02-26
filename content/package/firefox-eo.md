@@ -14,7 +14,8 @@ sha1sum = "ea10016f564b983a9b16cb18c50270536881a2a8"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Esperanto language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-eo@firefox.mozilla.org.xpi

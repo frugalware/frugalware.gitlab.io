@@ -14,9 +14,10 @@ sha1sum = "5d3f1fedc195a516c96d8d522e6cd78cae257612"
 depends = "['cairo', 'jack2', 'libglvnd', 'libxrandr']"
 reverse_depends = "['easyeffects']"
 +++
+### Description: 
 Collection of open-source plugins
 
-## Files: 
+### Files: 
 * /etc/xdg/menus/applications-merged/lsp-plugins.menu
 * /usr/bin/lsp-plugins-ab-tester-x2-mono
 * /usr/bin/lsp-plugins-ab-tester-x2-stereo

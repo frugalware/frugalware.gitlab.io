@@ -14,9 +14,10 @@ sha1sum = "e05bd77d0e9ccde6619c6129be73c56804c289d9"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-singleton-bool']"
 +++
+### Description: 
 Existential type: Some
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/some-1.0.6/Data/EqP.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/some-1.0.6/Data/EqP.hi
 * /usr/lib/ghc-9.8.1/site-local/some-1.0.6/Data/GADT/Compare.dyn_hi

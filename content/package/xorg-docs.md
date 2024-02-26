@@ -14,9 +14,10 @@ sha1sum = "4c8eeb315fcb11788840f3150259902fe081aea6"
 depends = "['glibc']"
 license = "GPL2"
 +++
+### Description: 
 X.Org Documentation
 
-## Files: 
+### Files: 
 * /usr/share/doc/xorg-docs-1.7.2/ChangeLog
 * /usr/share/doc/xorg-docs-1.7.2/ctext/ctext.xml
 * /usr/share/doc/xorg-docs-1.7.2/fonts/fonts.xml

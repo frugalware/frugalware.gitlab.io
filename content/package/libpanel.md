@@ -14,9 +14,10 @@ sha1sum = "4220fc89ed67d041222103a346bca2fc5a19b2ac"
 depends = "['gtk+4', 'libadwaita']"
 reverse_depends = "['sysprof']"
 +++
+### Description: 
 Dock/panel library for GTK 4
 
-## Files: 
+### Files: 
 * /usr/include/libpanel-1/libpanel.h
 * /usr/include/libpanel-1/panel-action-group.h
 * /usr/include/libpanel-1/panel-action-muxer.h

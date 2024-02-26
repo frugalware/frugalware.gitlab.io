@@ -14,9 +14,10 @@ sha1sum = "0a4c55f5b6ce96cba69afeb82ed8b5b23a36c6e0"
 depends = "['glibc']"
 reverse_depends = "['chromium-browser', 'julia', 'libdex', 'mlt', 'ogre', 'webkit-gtk3']"
 +++
+### Description: 
 Atomic libraries from GCC
 
-## Files: 
+### Files: 
 * /usr/lib/libatomic.a
 * /usr/lib/libatomic.so
 * /usr/lib/libatomic.so.1

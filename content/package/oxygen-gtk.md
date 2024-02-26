@@ -13,9 +13,10 @@ usize = "1360982"
 sha1sum = "1a945b23b23ee7c8cfee3e029bf2293232d47a67"
 depends = "['bzip2', 'dbus-glib', 'gtk+2', 'libuuid']"
 +++
+### Description: 
 Port of the KDE widget theme (Oxygen) to Gtk2.
 
-## Files: 
+### Files: 
 * /usr/bin/oxygen-gtk-demo
 * /usr/lib/gtk-2.0/2.10.0/engines/liboxygen-gtk.so
 * /usr/share/doc/oxygen-gtk-1.4.6/AUTHORS

@@ -13,9 +13,10 @@ usize = "65709"
 sha1sum = "0e9e4295975aa156d7d52034a1eca7c33dd0668b"
 depends = "['openssl>=3.1.0']"
 +++
+### Description: 
 Extremely simple MTA to get mail off the system to a mailhub.
 
-## Files: 
+### Files: 
 * /etc/ssmtp/revaliases
 * /usr/bin/sendmail
 * /usr/bin/ssmtp

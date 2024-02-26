@@ -14,9 +14,10 @@ sha1sum = "8741957d7f997d70bfc226bfa2719c4cdd98756d"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-citeproc', 'haskell-wai-app-static']"
 +++
+### Description: 
 Use Template Haskell to embed file contents directly.
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/file-embed-0.0.15.0/Data/FileEmbed.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/file-embed-0.0.15.0/Data/FileEmbed.hi
 * /usr/lib/ghc-9.8.1/site-local/file-embed-0.0.15.0/libHSfile-embed-0.0.15.0-KC6jD1IQbxHDelLO3TCAZT.a

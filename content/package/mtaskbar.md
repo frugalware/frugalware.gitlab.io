@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "00e40f2868f650b9ddbe9d79da4e89eb24230e11"
 depends = "[]"
 +++
+### Description: 
 A modified TaskBar for KDE
 
-## Files: 
+### Files: 
 * usr/lib/libmtaskbar.la
 * usr/lib/libmtaskbar.so
 * usr/share/apps/kicker/applets/mtaskbar.desktop

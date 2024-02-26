@@ -13,9 +13,10 @@ usize = "9512783"
 sha1sum = "4935ee44b23a134672c322cb0d5269fe3348ef6a"
 depends = "['curl', 'gnutls', 'guile', 'libgcrypt', 'lua>=5.4', 'ncurses>=6.0-12', 'python3>=3.12', 'ruby>=3.3.0', 'tk']"
 +++
+### Description: 
 Fast, light & extensible IRC client.
 
-## Files: 
+### Files: 
 * /usr/bin/weechat
 * /usr/bin/weechat-curses
 * /usr/bin/weechat-headless

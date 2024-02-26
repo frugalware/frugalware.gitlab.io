@@ -14,9 +14,10 @@ sha1sum = "d7219351df4be839c56c81da6d37b3b0fc4d9a69"
 depends = "['qt5-declarative>=5.15.10']"
 reverse_depends = "['qmlkonsole']"
 +++
+### Description: 
 QML port of qtermwidget
 
-## Files: 
+### Files: 
 * /usr/share/doc/qmltermwidget-0.2.0/AUTHORS
 * /usr/share/doc/qmltermwidget-0.2.0/COPYING-CMAKE-SCRIPTS
 * /usr/share/doc/qmltermwidget-0.2.0/LICENSE

@@ -14,9 +14,10 @@ sha1sum = "92c865f0bc2a780f7fd573e198c01618275b372b"
 depends = "['libuuid>=2.29.2-2', 'libxmu>=1.1.2-3', 'libxpm>=3.5.11-3']"
 license = "GPL2"
 +++
+### Description: 
 Athena widgets (libXaw) drop-in replacement
 
-## Files: 
+### Files: 
 * /usr/include/X11/Xaw3d/AllWidgets.h
 * /usr/include/X11/Xaw3d/AsciiSink.h
 * /usr/include/X11/Xaw3d/AsciiSinkP.h

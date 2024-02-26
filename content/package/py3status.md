@@ -13,9 +13,10 @@ usize = "3872831"
 sha1sum = "42469388feef1827fa64a95136f60bf607c9d3cd"
 depends = "['glibc', 'i3', 'python3-setuptools']"
 +++
+### Description: 
 py3status is an extensible i3status wrapper written in python
 
-## Files: 
+### Files: 
 * /usr/bin/py3-cmd
 * /usr/bin/py3status
 * /usr/lib/python3.12/site-packages/py3status-3.53.dist-info/entry_points.txt

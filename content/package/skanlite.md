@@ -13,9 +13,10 @@ usize = "2736484"
 sha1sum = "1a451acdbed37f303e180bf88fea192b416f4531"
 depends = "['kcoreaddons>=5.70.0', 'ki18n>=5.70.0', 'kio>=5.70.0', 'kxmlgui>=5.70.0', 'libksane']"
 +++
+### Description: 
 Image Scanning Application for KDE
 
-## Files: 
+### Files: 
 * /usr/bin/skanlite
 * /usr/share/applications/org.kde.skanlite.desktop
 * /usr/share/doc/HTML/de/skanlite/buttons-main.png

@@ -14,9 +14,10 @@ sha1sum = "19bf466a83b4f6ad7cac3f63f708074a3e177c8a"
 depends = "[]"
 reverse_depends = "['openbox']"
 +++
+### Description: 
 Default openbox artwork for Frugalware.
 
-## Files: 
+### Files: 
 * /usr/share/doc/openbox-frugalware-1.6/AUTHORS
 * /usr/share/doc/openbox-frugalware-1.6/LICENSE
 * /usr/share/doc/openbox-frugalware-1.6/README.md

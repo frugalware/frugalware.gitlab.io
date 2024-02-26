@@ -14,9 +14,10 @@ sha1sum = "a3412e0133a82787bb7d98acf4baa5376df38905"
 depends = "['python3>=3.12']"
 reverse_depends = "['adios2', 'aubio', 'blender', 'face_recognition', 'howdy', 'opencv-python3', 'openrazer', 'python3-pythran', 'python3-rapidfuzz', 'python3-scipy', 'scikit-learn']"
 +++
+### Description: 
 Numerical Python adds a fast array facility to the Python3 language.
 
-## Files: 
+### Files: 
 * /usr/bin/f2py
 * /usr/lib/python3.12/site-packages/numpy-1.26.4.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/numpy-1.26.4.dist-info/LICENSE.txt

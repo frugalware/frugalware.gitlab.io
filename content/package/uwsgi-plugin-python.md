@@ -13,7 +13,8 @@ usize = "201248"
 sha1sum = "b6bf98a0924381764d7bcb9fa4f104f0b8552796"
 depends = "['python3-greenlet', 'uwsgi']"
 +++
+### Description: 
 UWSGI Python Plugin
 
-## Files: 
+### Files: 
 * /usr/lib/uwsgi/python_plugin.so

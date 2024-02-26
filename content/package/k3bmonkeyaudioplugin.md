@@ -13,9 +13,10 @@ usize = "559505"
 sha1sum = "05b1acbbcbe3d1d4bdcbfb67df81b651fc4592d4"
 depends = "[]"
 +++
+### Description: 
 K3b Monkey's Audio plugin
 
-## Files: 
+### Files: 
 * usr/lib/kde3/libk3bmonkeydecoder.la
 * usr/lib/kde3/libk3bmonkeydecoder.so
 * usr/lib/kde3/libk3bmonkeydecoder.so.0

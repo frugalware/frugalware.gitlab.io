@@ -13,9 +13,10 @@ usize = "3344862"
 sha1sum = "668be116bf1d095cce4a4838da0390e8ea234f6e"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Frisian support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/resource/fy/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/fy/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/fy/LC_MESSAGES/basctl.mo

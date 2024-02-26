@@ -14,7 +14,8 @@ sha1sum = "e17faf31e36bb66183f2ee38feaa668b8b65d3ed"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Albanian language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-sq@firefox.mozilla.org.xpi

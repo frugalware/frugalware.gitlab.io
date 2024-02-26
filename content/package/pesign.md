@@ -14,9 +14,10 @@ sha1sum = "988cbdbc098c99f99ed2dd76f4c179c36f30dd71"
 depends = "['efivar', 'libuuid', 'nss']"
 license = "GPL2"
 +++
+### Description: 
 Tools for manipulating signed PE-COFF binaries
 
-## Files: 
+### Files: 
 * /etc/pesign/groups
 * /etc/pesign/users
 * /etc/pki/pesign/cert8.db

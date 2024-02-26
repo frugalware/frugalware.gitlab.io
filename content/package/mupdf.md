@@ -14,9 +14,10 @@ sha1sum = "f46098b7a1d6fcfe6937a5e052b0e81118f314e1"
 depends = "['curl', 'freetype2', 'harfbuzz', 'libglu', 'libjpeg-turbo', 'libxi', 'libxrandr', 'openjpeg>=2.3.0']"
 reverse_depends = "['cups-filters']"
 +++
+### Description: 
 Lightweight PDF and XPS viewer
 
-## Files: 
+### Files: 
 * /usr/bin/mupdf
 * /usr/bin/mupdf-x11
 * /usr/bin/mupdf-x11-curl

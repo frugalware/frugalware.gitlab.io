@@ -14,9 +14,10 @@ sha1sum = "279964cabea3bf11b7d2fb2e04d830872c880f46"
 depends = "['haskell-emojis', 'haskell-safe']"
 reverse_depends = "['haskell-doctemplates', 'haskell-gridtables', 'haskell-hslua-module-doclayout']"
 +++
+### Description: 
 A prettyprinting library for laying out text documents
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/doclayout-0.4.0.1/libHSdoclayout-0.4.0.1-6a0qnaI12QI6UMu6QtQ0sN.a
 * /usr/lib/ghc-9.8.1/site-local/doclayout-0.4.0.1/Text/DocLayout.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/doclayout-0.4.0.1/Text/DocLayout.hi

@@ -13,9 +13,10 @@ usize = "52202184"
 sha1sum = "822228b6d23957dd9996fd7e85cb8ed5c7e9a512"
 depends = "[]"
 +++
+### Description: 
 Gtkmm gtk+2 Documentation
 
-## Files: 
+### Files: 
 * /usr/share/doc/gtkmm-2.4/images/gtkmm_logo.gif
 * /usr/share/doc/gtkmm-2.4/images/top.gif
 * /usr/share/doc/gtkmm-2.4/reference/gtkmm-2.4.tag

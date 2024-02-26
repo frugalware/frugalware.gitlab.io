@@ -14,9 +14,10 @@ sha1sum = "2642f1b784cad556fc4eb1ce4e1d9c82861ac94e"
 depends = "['glibc']"
 reverse_depends = "['libreoffice']"
 +++
+### Description: 
 C/C++ version of the zxcvbn password strength estimator
 
-## Files: 
+### Files: 
 * /usr/bin/dictgen
 * /usr/include/zxcvbn/dict-crc.h
 * /usr/include/zxcvbn/dict-src.h

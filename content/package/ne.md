@@ -13,9 +13,10 @@ usize = "2362268"
 sha1sum = "3d623565a5e747f08dba7d4a53a0d2333af7444a"
 depends = "['ncurses>=6.0-4']"
 +++
+### Description: 
 The nice editor for beginners.
 
-## Files: 
+### Files: 
 * /usr/bin/ne
 * /usr/share/doc/ne-3.3.3/CHANGES
 * /usr/share/doc/ne-3.3.3/COPYING

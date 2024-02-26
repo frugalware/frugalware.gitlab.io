@@ -13,9 +13,10 @@ usize = "474318"
 sha1sum = "d135bd64d13f8e989b5b0d989722c4993ff818b5"
 depends = "['bzip2', 'gdk-pixbuf2', 'gtk+2', 'libuuid']"
 +++
+### Description: 
 The Tangram chinese puzzle game
 
-## Files: 
+### Files: 
 * /etc/gtansrc
 * /usr/bin/gtans
 * /usr/share/applications/gtans.desktop

@@ -15,9 +15,10 @@ depends = "['libudev>=242', 'xorg-server>=1.20.4-3']"
 reverse_depends = "['xorg-compat']"
 license = "GPL2"
 +++
+### Description: 
 X.Org driver for ATI cards
 
-## Files: 
+### Files: 
 * /usr/lib/xorg/modules/drivers/ati_drv.so
 * /usr/lib/xorg/modules/drivers/radeon_drv.so
 * /usr/share/doc/xf86-video-ati-22.0.0/ChangeLog

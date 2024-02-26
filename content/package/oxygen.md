@@ -14,9 +14,10 @@ sha1sum = "2c6b77238791bff73ca2cf376677d16e14aa6a03"
 depends = "['frameworkintegration>=5.115.0', 'kwin5>=5.27.10']"
 reverse_depends = "['lumina-desktop']"
 +++
+### Description: 
 KDE Oxygen style.
 
-## Files: 
+### Files: 
 * /usr/bin/oxygen-demo5
 * /usr/bin/oxygen-settings5
 * /usr/lib/liboxygenstyle5.so.5

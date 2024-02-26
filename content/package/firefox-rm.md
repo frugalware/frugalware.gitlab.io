@@ -14,7 +14,8 @@ sha1sum = "b46f81db26e0c04bc046a8028cbf07f00e793a0e"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Romansh language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-rm@firefox.mozilla.org.xpi

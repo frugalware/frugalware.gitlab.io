@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "90b52d8bd71152faff94ff37f762f31e236511a7"
 depends = "[]"
 +++
+### Description: 
 Afrikaans Localization for KOffice. 
 
-## Files: 
+### Files: 
 * usr/share/locale/af/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/af/LC_MESSAGES/example.mo
 * usr/share/locale/af/LC_MESSAGES/karbon.mo

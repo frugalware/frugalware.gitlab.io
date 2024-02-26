@@ -13,9 +13,10 @@ usize = "6337503"
 sha1sum = "6f77d266a9c404fafecd6c98c906e144df48065f"
 depends = "[]"
 +++
+### Description: 
 Turkish Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/apps/khangman/data/tr/animals.kvtml
 * usr/share/apps/khangman/data/tr/easy.kvtml
 * usr/share/apps/khangman/data/tr/hard.kvtml

@@ -13,9 +13,10 @@ usize = "352893"
 sha1sum = "68099abc7c92518d1c940fff796cd627580fbd73"
 depends = "['python3>=3.10']"
 +++
+### Description: 
 A set of objects for performing math operations on font data.
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/fontMath-0.9.3-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/fontMath-0.9.3-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/fontMath-0.9.3-py3.12.egg-info/requires.txt

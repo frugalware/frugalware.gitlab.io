@@ -13,8 +13,9 @@ usize = "16303"
 sha1sum = "57dedd792afdeaf0241e241c1ac9af57c1341a42"
 depends = "[]"
 +++
+### Description: 
 X.Org autotools utility macros ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/lib/pkgconfig/xorg-macros.pc
 * /usr/share/util-macros/INSTALL

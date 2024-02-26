@@ -13,9 +13,10 @@ usize = "1883122"
 sha1sum = "1698deaf982eb52b361e0d7c3a9482bd61350739"
 depends = "['libkrb5', 'miniupnpc>=2.1']"
 +++
+### Description: 
 A free socks4,5 and msproxy implementation.
 
-## Files: 
+### Files: 
 * /etc/sockd.conf
 * /etc/socks.conf
 * /usr/bin/sockd

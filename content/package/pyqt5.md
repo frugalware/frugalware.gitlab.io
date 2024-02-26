@@ -15,9 +15,10 @@ depends = "['qt5-base>=5.15.10']"
 reverse_depends = "['git-cola', 'hplip', 'picard', 'pyqtwebengine']"
 license = "GPL"
 +++
+### Description: 
 PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit.
 
-## Files: 
+### Files: 
 * /usr/bin/pylupdate5
 * /usr/bin/pyrcc5
 * /usr/bin/pyuic5

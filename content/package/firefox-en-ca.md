@@ -14,7 +14,8 @@ sha1sum = "af513a495fbc7b924f2ea105cf22b79c03e17fd9"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Canadian English language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-en-CA@firefox.mozilla.org.xpi

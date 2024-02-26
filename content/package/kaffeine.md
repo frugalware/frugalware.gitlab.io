@@ -14,9 +14,10 @@ sha1sum = "e3da018ce977dd99de562d9f189ce1dbd4b8b1fd"
 depends = "['kio>=5.70.0', 'libvlc', 'libxscrnsaver', 'v4l-utils', 'vlc']"
 license = "GPL"
 +++
+### Description: 
 KDE media player
 
-## Files: 
+### Files: 
 * /usr/bin/kaffeine
 * /usr/share/applications/org.kde.kaffeine.desktop
 * /usr/share/doc/HTML/ca/kaffeine/application-x-subrip.png

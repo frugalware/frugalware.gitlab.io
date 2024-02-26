@@ -13,7 +13,8 @@ usize = "1698876"
 sha1sum = "a099ae1101ee0e71692c44cd203c912829a1b841"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang pan
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/pan.traineddata

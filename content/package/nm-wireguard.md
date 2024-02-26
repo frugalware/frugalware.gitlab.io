@@ -13,9 +13,10 @@ usize = "171378"
 sha1sum = "1dee37718082fea87968f5ed4c7501b5d61e2c4e"
 depends = "['libsecret>=0.18.5', 'nm-connection-editor>=1.8.20']"
 +++
+### Description: 
 NetworkManager VPN Plugin: Wireguard
 
-## Files: 
+### Files: 
 * /usr/lib/NetworkManager/libnm-vpn-plugin-wireguard-editor.la
 * /usr/lib/NetworkManager/libnm-vpn-plugin-wireguard-editor.so
 * /usr/share/appdata/network-manager-wireguard.metainfo.xml

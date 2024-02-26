@@ -14,9 +14,10 @@ sha1sum = "2788ca605ebd6faca12e885f3659ce7b05125281"
 depends = "['kernel=6.7.6-1', 'libglvnd', 'nvidia-settings>=', 'nvidia-xconfig>=550.40.07']"
 reverse_depends = "['cuda', 'lib32-nvidia']"
 +++
+### Description: 
 3D accelerated display driver for Nvidia cards
 
-## Files: 
+### Files: 
 * /etc/modprobe.d/nvidia.conf
 * /etc/OpenCL/vendors/nvidia.icd
 * /etc/X11/xorg.conf.d/15-nvidia.conf

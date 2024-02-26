@@ -14,9 +14,10 @@ sha1sum = "87f0a0e80c62d08542ee87de28bd8eb282c13ae9"
 depends = "[]"
 license = "Freeware"
 +++
+### Description: 
 Freely available ROMs to use with xmame
 
-## Files: 
+### Files: 
 * usr/share/xmame/roms/gridlee.zip
 * usr/share/xmame/roms/polyplay.zip
 * usr/share/xmame/roms/robby.zip

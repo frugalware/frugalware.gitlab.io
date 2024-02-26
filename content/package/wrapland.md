@@ -14,9 +14,10 @@ sha1sum = "063bac8427e30f520ba48114c4da894560f34692"
 depends = "['kwayland>=$_F_kf5_full', 'libglvnd']"
 reverse_depends = "['disman']"
 +++
+### Description: 
 Qt/C++ library wrapping libwayland
 
-## Files: 
+### Files: 
 * /usr/include/Wrapland/Client/appmenu.h
 * /usr/include/Wrapland/Client/blur.h
 * /usr/include/Wrapland/Client/buffer.h

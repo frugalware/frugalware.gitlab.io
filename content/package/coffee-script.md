@@ -13,9 +13,10 @@ usize = "9541828"
 sha1sum = "1805c8f630e472e45a85f64917ddd4b4f18f0a2d"
 depends = "['glibc']"
 +++
+### Description: 
 CoffeeScript is a little language that compiles into JavaScript
 
-## Files: 
+### Files: 
 * /usr/bin/cake
 * /usr/bin/coffee
 * /usr/lib/node_modules/coffeescript/.babelrc

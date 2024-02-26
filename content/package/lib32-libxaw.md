@@ -13,9 +13,10 @@ usize = "1084627"
 sha1sum = "d1cb535b1efb3c0941b7af2d4cdd428505fae576"
 depends = "['lib32-libuuid>=2.29.2-2', 'lib32-libxmu>=1.1.2-3', 'lib32-libxpm>=3.5.11-3']"
 +++
+### Description: 
 X.Org Xaw library ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/X11/Xaw/AllWidgets.h
 * /usr/i686-frugalware-linux/include/X11/Xaw/AsciiSink.h
 * /usr/i686-frugalware-linux/include/X11/Xaw/AsciiSinkP.h

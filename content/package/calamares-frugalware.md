@@ -13,9 +13,10 @@ usize = "9218278"
 sha1sum = "40b0c7de8a4af2f958644fb99488af2d72af95ad"
 depends = "['icu4c>=74.1', 'kconfig', 'kcoreaddons', 'kdbusaddons', 'kpmcore>=22.04.3', 'libboost>=1.83.0', 'libpwquality', 'parted', 'polkit-qt5-1', 'python3>=3.12', 'qt5-declarative>=5.15.10', 'qt5-svg>=5.15.10', 'rsync', 'squashfs', 'yaml-cpp>=0.8.0']"
 +++
+### Description: 
 Distribution-independent installer framework
 
-## Files: 
+### Files: 
 * /etc/polkit-1/rules.d/49-nopasswd_calamares.rules
 * /etc/sudoers.d/calamares-frugalware-live
 * /usr/bin/calamares

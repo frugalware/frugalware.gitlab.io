@@ -14,9 +14,10 @@ sha1sum = "9bbe199af6f74e36829f236145e1edf90e7903ae"
 depends = "['lib32-fribidi>=0.19.7-4', 'lib32-harfbuzz>=1.3.1', 'lib32-libenca>=1.16-4']"
 reverse_depends = "['lib32-ffmpeg']"
 +++
+### Description: 
 A portable library for SSA/ASS subtitles rendering ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/ass/ass.h
 * /usr/i686-frugalware-linux/include/ass/ass_types.h
 * /usr/lib32/libass.so

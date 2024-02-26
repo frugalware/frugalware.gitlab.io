@@ -14,9 +14,10 @@ sha1sum = "e197d8ada4b7ba86a8377de0f515df3621b48c36"
 depends = "['dolphin>=23.08.5', 'ki18n>=5.115.0', 'kio>=5.115.0', 'libkgapi>=23.08.5', 'qtkeychain']"
 license = "GPL"
 +++
+### Description: 
 KIO Slave to access Google Drive
 
-## Files: 
+### Files: 
 * /usr/lib/qt5/plugins/kf5/kfileitemaction/gdrivecontextmenuaction.so
 * /usr/lib/qt5/plugins/kf5/kio/gdrive.so
 * /usr/lib/qt5/plugins/kf5/propertiesdialog/gdrivepropertiesplugin.so

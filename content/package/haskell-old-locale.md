@@ -14,9 +14,10 @@ sha1sum = "e412231f79da5beb6f2d109a35d60a1ac0ba0865"
 depends = "['ghc>=9.8.1']"
 reverse_depends = "['haskell-data-default-instances-old-locale', 'haskell-old-time']"
 +++
+### Description: 
 This package provides the ability to adapt to locale conventions such as date and time formats.
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/old-locale-1.0.0.7/libHSold-locale-1.0.0.7-4KE3cr4a8MDLNQtccJ9ww8.a
 * /usr/lib/ghc-9.8.1/site-local/old-locale-1.0.0.7/System/Locale.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/old-locale-1.0.0.7/System/Locale.hi

@@ -13,9 +13,10 @@ usize = "32253183"
 sha1sum = "5e545f403744bfcba0f1ce4f463e1247157422a6"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Romanian support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/help/ro/default.css
 * /usr/lib/libreoffice/help/ro/err.html
 * /usr/lib/libreoffice/help/ro/highcontrast1.css

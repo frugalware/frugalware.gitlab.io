@@ -14,9 +14,10 @@ sha1sum = "03f544fa9eda4e74d5c8104e3b1fec0438019336"
 depends = "['grantlee>=5.1.0-2', 'kcoreaddons>=5.115.0', 'kdesignerplugin>=5.115.0', 'kemoticons>=5.115.0', 'kio>=5.115.0', 'ktextwidgets>=5.115.0', 'qt5-speech>=5.15.12', 'sonnet>=5.115.0', 'syntax-highlighting>=5.115.0']"
 reverse_depends = "['kidentitymanagement', 'libkleo', 'pimcommon']"
 +++
+### Description: 
 Desc: A library for textedit with PIM-specific features.
 
-## Files: 
+### Files: 
 * /usr/include/KPim5/KPIMTextEdit/KPIMTextEdit/AbstractMarkupBuilder
 * /usr/include/KPim5/KPIMTextEdit/kpimtextedit/abstractmarkupbuilder.h
 * /usr/include/KPim5/KPIMTextEdit/KPIMTextEdit/EditorUtil

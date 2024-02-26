@@ -14,9 +14,10 @@ sha1sum = "ef7b41921e140a35a5987aedb5c0b06b7c3f44c4"
 depends = "['python3>=3.12']"
 reverse_depends = "['bind', 'python3-nml', 'python3-pycparser', 'python3-pythran', 'sip']"
 +++
+### Description: 
 Implementation of lex and yacc parsing tools for Python
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/ply-3.11-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/ply-3.11-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/ply-3.11-py3.12.egg-info/SOURCES.txt

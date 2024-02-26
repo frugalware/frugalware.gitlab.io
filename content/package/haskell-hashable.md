@@ -14,9 +14,10 @@ sha1sum = "bbcdec0840496a00dd40665058206902f78b6d85"
 depends = "['ghc>=9.8.1']"
 reverse_depends = "['haskell-async', 'haskell-case-insensitive', 'haskell-constraints', 'haskell-data-fix', 'haskell-psqueues', 'haskell-scientific', 'haskell-text-short', 'haskell-these', 'haskell-time-compat', 'haskell-unordered-containers', 'haskell-uuid-types', 'haskell-vault', 'haskell-witherable']"
 +++
+### Description: 
 A class for types that can be converted to a hash value
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/hashable-1.4.3.0/Data/Hashable.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hashable-1.4.3.0/Data/Hashable.hi
 * /usr/lib/ghc-9.8.1/site-local/hashable-1.4.3.0/Data/Hashable/Class.dyn_hi

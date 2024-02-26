@@ -14,9 +14,10 @@ sha1sum = "78ec3678910277334cfb9e66041002c307cbb6d0"
 depends = "['gobject-introspection>=1.60.0', 'gtk+4']"
 reverse_depends = "['gamt', 'geany', 'remmina', 'sakura', 'sunflower', 'virt-manager', 'xcfa']"
 +++
+### Description: 
 Virtual Terminal Emulator (gtk+4)
 
-## Files: 
+### Files: 
 * /etc/profile.d/vte.csh
 * /etc/profile.d/vte.sh
 * /usr/bin/vte-2.91

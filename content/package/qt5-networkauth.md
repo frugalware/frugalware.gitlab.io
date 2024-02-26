@@ -14,9 +14,10 @@ sha1sum = "8df24974cc54c6f0003ed4ea4e4cf36dac71b331"
 depends = "['pcre2', 'qt5-base>=5.15.12']"
 reverse_depends = "['digikam', 'kdenlive', 'kdepim-runtime']"
 +++
+### Description: 
 The Qt5 toolkit, qtnetworkauth
 
-## Files: 
+### Files: 
 * /usr/include/qt5/QtNetworkAuth/5.15.12/QtNetworkAuth/private/qabstractoauth2_p.h
 * /usr/include/qt5/QtNetworkAuth/5.15.12/QtNetworkAuth/private/qabstractoauthreplyhandler_p.h
 * /usr/include/qt5/QtNetworkAuth/5.15.12/QtNetworkAuth/private/qabstractoauth_p.h

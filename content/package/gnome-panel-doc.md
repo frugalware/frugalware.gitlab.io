@@ -13,9 +13,10 @@ usize = "1264915"
 sha1sum = "b83a06566789980451941a5c6bdfbe4e79d64672"
 depends = "['gtk+3']"
 +++
+### Description: 
 gnome-panel documention
 
-## Files: 
+### Files: 
 * /usr/share/gtk-doc/html/panel-applet-4.0/getting-started.concepts.html
 * /usr/share/gtk-doc/html/panel-applet-4.0/getting-started.context-menu.html
 * /usr/share/gtk-doc/html/panel-applet-4.0/getting-started.example.html

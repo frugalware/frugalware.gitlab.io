@@ -13,7 +13,8 @@ usize = "26672"
 sha1sum = "35428dd835ac1d336b3233e0f0a798b2a45fc138"
 depends = "['gst1-plugins-bad>=1.22.10', 'gstreamer1>=1.22.10', 'libffi>=3.2.1-2']"
 +++
+### Description: 
 GStreamer bzip2 plugin (Bad).
 
-## Files: 
+### Files: 
 * /usr/lib/gstreamer-1.0/libgstbz2.so

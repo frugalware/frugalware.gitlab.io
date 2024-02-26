@@ -14,9 +14,10 @@ sha1sum = "85f22bcfbbafeedc611a210e4e4448285c9a1f38"
 depends = "['glibc']"
 reverse_depends = "['qtcreator']"
 +++
+### Description: 
 Demangling for Rust symbols, C API
 
-## Files: 
+### Files: 
 * /usr/include/rustc_demangle.h
 * /usr/lib/librustc_demangle.a
 * /usr/lib/librustc_demangle.so

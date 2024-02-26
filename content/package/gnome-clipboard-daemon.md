@@ -13,7 +13,8 @@ usize = "0"
 sha1sum = "08723e64054f28b84e9ce88e177eadc6462f8217"
 depends = "['gtk+2']"
 +++
+### Description: 
 A daemon that keeps the content of your X clipboard in memory.
 
-## Files: 
+### Files: 
 * usr/bin/gnome-clipboard-daemon

@@ -14,9 +14,10 @@ sha1sum = "fff90f8446bb29d20d2b7153f253ad7d64c58bdf"
 depends = "['lib32-nspr>=4.34', 'lib32-sqlite3>=3.14.2-2', 'lib32-zlib>=1.2.12']"
 reverse_depends = "['lib32-networkmanager', 'steam-native']"
 +++
+### Description: 
 NSS library from mozilla.org ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/nss
 * /usr/i686-frugalware-linux/bin/nss-certutil
 * /usr/i686-frugalware-linux/bin/nss-cmsutil

@@ -14,9 +14,10 @@ sha1sum = "7c4f0a222c164e9386fcb09c07fefffbb9cf5005"
 depends = "['libxaw>=1.0.13-2']"
 license = "GPL2"
 +++
+### Description: 
 X.Org xedit application
 
-## Files: 
+### Files: 
 * /usr/bin/xedit
 * /usr/lib/X11/xedit/lisp/indent.lsp
 * /usr/lib/X11/xedit/lisp/lisp.lsp

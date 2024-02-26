@@ -14,9 +14,10 @@ sha1sum = "329ee64ab2c6e1bcfcc493aa29359305292671d8"
 depends = "['glibc>=2.34', 'libxcrypt', 'openssl>=3.1.0']"
 reverse_depends = "['inxi']"
 +++
+### Description: 
 Give limited root privileges to certain users
 
-## Files: 
+### Files: 
 * /etc/sudo.conf
 * /etc/sudoers
 * /etc/sudoers.d/.sudo

@@ -14,9 +14,10 @@ sha1sum = "78ab6716ac512600db654673e433b063f158a5c4"
 depends = "['libxfont2']"
 license = "GPL2"
 +++
+### Description: 
 X font server
 
-## Files: 
+### Files: 
 * /etc/X11/fs/config
 * /usr/bin/xfs
 * /usr/share/doc/xfs-1.2.1/ChangeLog

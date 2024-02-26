@@ -14,9 +14,10 @@ sha1sum = "8ffc659aa1a8ffda5dd9f2dce85cffbdd1ea2cd8"
 depends = "['libmikmod>=3.3.8', 'libvorbis>=1.3.5-4', 'sdl>=1.2.15-3', 'smpeg>=0.4.5-2']"
 reverse_depends = "['manaplus', 'netpanzer', 'opencity', 'ufoai']"
 +++
+### Description: 
 SDL Mixer library
 
-## Files: 
+### Files: 
 * /usr/include/SDL/SDL_mixer.h
 * /usr/lib/libSDL_mixer-1.2.so.0
 * /usr/lib/libSDL_mixer-1.2.so.0.12.0

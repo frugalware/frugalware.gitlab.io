@@ -14,7 +14,8 @@ sha1sum = "b0d4248449cc7ae4600b51950b030462f4beb965"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Sardinian language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-sc@firefox.mozilla.org.xpi

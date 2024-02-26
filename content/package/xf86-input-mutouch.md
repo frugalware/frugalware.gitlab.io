@@ -14,9 +14,10 @@ sha1sum = "be53cb47450e0842ed82cb7cd6be8ba3b2219889"
 depends = "['xorg-server>=1.20.4-3']"
 license = "GPL2"
 +++
+### Description: 
 X.Org driver for mutouch input devices
 
-## Files: 
+### Files: 
 * /usr/lib/xorg/modules/input/mutouch_drv.so
 * /usr/share/doc/xf86-input-mutouch-1.3.0/ChangeLog
 * /usr/share/doc/xf86-input-mutouch-1.3.0/COPYING

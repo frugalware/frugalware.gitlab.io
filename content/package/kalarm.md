@@ -14,9 +14,10 @@ sha1sum = "5069e7fd4feb2be4faaf3e267954f010ddf3c203"
 depends = "['kcalutils>=23.08.5', 'kholidays>=5.115.0', 'kidletime>=5.115.0', 'kmailtransport>=23.08.5', 'knotifyconfig>=5.115.0', 'mailcommon>=23.08.5', 'pimcommon>=23.08.5']"
 reverse_depends = "['kdepim-runtime', 'pim-data-exporter']"
 +++
+### Description: 
 Personal Alarm Scheduler
 
-## Files: 
+### Files: 
 * /etc/xdg/autostart/kalarm.autostart.desktop
 * /usr/bin/kalarm
 * /usr/bin/kalarmautostart

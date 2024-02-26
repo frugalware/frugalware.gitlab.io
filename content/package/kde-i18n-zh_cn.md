@@ -13,9 +13,10 @@ usize = "6054442"
 sha1sum = "9bae8b382334d412dc2083359c8470f5b1cb9f19"
 depends = "[]"
 +++
+### Description: 
 Chinese Simplified Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/doc/HTML/zh_CN/common/1.png
 * usr/share/doc/HTML/zh_CN/common/10.png
 * usr/share/doc/HTML/zh_CN/common/2.png

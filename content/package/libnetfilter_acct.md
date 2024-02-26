@@ -14,9 +14,10 @@ sha1sum = "ca2fe97a80f31f574002a8d6c6bf21e856e2b94e"
 depends = "['libmnl']"
 reverse_depends = "['nfacct']"
 +++
+### Description: 
 A userspace library providing interface to extended accounting infrastructure.
 
-## Files: 
+### Files: 
 * /usr/include/libnetfilter_acct/libnetfilter_acct.h
 * /usr/lib/libnetfilter_acct.so
 * /usr/lib/libnetfilter_acct.so.1

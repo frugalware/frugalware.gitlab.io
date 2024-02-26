@@ -14,9 +14,10 @@ sha1sum = "609965e9bcfcc7a38379391508bd22f0df1e0b5e"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['frei0r-plugins']"
 +++
+### Description: 
 A library which provides basic support for uncompressed Audio, Video and Image data.
 
-## Files: 
+### Files: 
 * /usr/include/gavl/compression.h
 * /usr/include/gavl/gavl.h
 * /usr/include/gavl/gavldefs.h

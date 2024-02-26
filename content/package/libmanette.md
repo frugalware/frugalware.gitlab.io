@@ -14,9 +14,10 @@ sha1sum = "7ea70efc2de01ea0707ed74cfa55ee9011f3d60f"
 depends = "['libevdev', 'libgudev']"
 reverse_depends = "['webkit-gtk3']"
 +++
+### Description: 
 Simple GObject game controller library
 
-## Files: 
+### Files: 
 * /usr/bin/manette-test
 * /usr/include/libmanette/libmanette.h
 * /usr/include/libmanette/manette-device.h

@@ -14,9 +14,10 @@ sha1sum = "663226225c4b3d53d6772a3b71b525142bea6d3d"
 depends = "['kcoreaddons>=5.115.0', 'polkit-qt5-1>=0.112.0-11']"
 reverse_depends = "['kconfigwidgets', 'kpmcore', 'plasma-desktop', 'smb4k', 'user-kcm']"
 +++
+### Description: 
 Framework which lets applications perform actions as a privileged user.
 
-## Files: 
+### Files: 
 * /usr/include/KF5/KAuth/KAuth
 * /usr/include/KF5/KAuth/kauth.h
 * /usr/include/KF5/KAuth/KAuthAction

@@ -14,9 +14,10 @@ sha1sum = "e70eb8ed27b32babf2ba12b2996b2032fc0e6b03"
 depends = "['python3>=3.12']"
 reverse_depends = "['audiotube', 'dlib', 'opencolorio', 'openimageio', 'python3-scipy']"
 +++
+### Description: 
 A lightweight header-only library that exposes C++ types in Python and vice versa
 
-## Files: 
+### Files: 
 * /usr/bin/pybind11-config
 * /usr/include/pybind11/attr.h
 * /usr/include/pybind11/buffer_info.h

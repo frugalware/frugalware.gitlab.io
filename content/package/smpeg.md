@@ -14,9 +14,10 @@ sha1sum = "827583e8019e0c412af96ca4828288815f8b3051"
 depends = "['sdl>=1.2.15-3']"
 reverse_depends = "['sdl_mixer']"
 +++
+### Description: 
 SDL MPEG Player Library is a general purpose MPEG video/audio player
 
-## Files: 
+### Files: 
 * /usr/bin/plaympeg
 * /usr/bin/smpeg-config
 * /usr/include/smpeg/MPEG.h

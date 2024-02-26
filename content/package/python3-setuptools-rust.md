@@ -13,9 +13,10 @@ usize = "246946"
 sha1sum = "9e48580b309104975c7dbe2b5229fa43016184ef"
 depends = "['python3-semantic-version', 'python3-setuptools', 'python3-toml', 'python3-typing_extensions', 'rust']"
 +++
+### Description: 
 Compile and distribute Python extensions written in rust as easily as if they were written in C
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/setuptools_rust-1.8.1.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/setuptools_rust-1.8.1.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/setuptools_rust-1.8.1.dist-info/METADATA

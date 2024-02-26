@@ -14,9 +14,10 @@ sha1sum = "bd43ee486de8981020b96254e953814b298331f4"
 depends = "['sdl2']"
 license = "GPL"
 +++
+### Description: 
 Set of utilities for joysticks and serial devices
 
-## Files: 
+### Files: 
 * /etc/sysconfig/inputattach
 * /usr/bin/evdev-joystick
 * /usr/bin/ffcfstress

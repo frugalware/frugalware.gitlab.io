@@ -13,9 +13,10 @@ usize = "31654442"
 sha1sum = "7a001ae596605de3f539e98c3b11285b8c84960a"
 depends = "['kitemmodels>=5.115.0', 'knewstuff>=5.115.0', 'ktexteditor>=5.115.0', 'libgit2>=0.26', 'plasma-framework>=5.115.0', 'qt5-declarative>=5.15.12', 'threadweaver>=5.115.0']"
 +++
+### Description: 
 KDE Advanced Text Editor.
 
-## Files: 
+### Files: 
 * /usr/bin/kate
 * /usr/bin/kwrite
 * /usr/lib/libkateprivate.so.23.08.5

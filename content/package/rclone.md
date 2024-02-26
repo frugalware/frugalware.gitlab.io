@@ -13,9 +13,10 @@ usize = "87856111"
 sha1sum = "ef7d295307be0c2fe0f374102d8be2c8f306f47a"
 depends = "['fuse', 'glibc']"
 +++
+### Description: 
 Sync files to and from Google Drive, S3, Swift, Cloudfiles, Dropbox and Google Cloud Storage
 
-## Files: 
+### Files: 
 * /usr/bin/mount.rclone
 * /usr/bin/rclone
 * /usr/bin/rclonefs

@@ -13,9 +13,10 @@ usize = "955917"
 sha1sum = "2977364863e9852e522fff35f4c148fc4435f05e"
 depends = "['python3']"
 +++
+### Description: 
 Python PE parsing module
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/ordlookup/oleaut32.py
 * /usr/lib/python3.12/site-packages/ordlookup/ws2_32.py
 * /usr/lib/python3.12/site-packages/ordlookup/__init__.py

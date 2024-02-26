@@ -13,9 +13,10 @@ usize = "1195598"
 sha1sum = "cbdab854f6ba6f6c8615b1d4635026ade4f19fba"
 depends = "['imlib2', 'libpulse', 'libxdamage', 'libxft', 'libxinerama', 'libxml2', 'lua>=5.4', 'wireless_tools']"
 +++
+### Description: 
 Light-weight system monitor.
 
-## Files: 
+### Files: 
 * /usr/bin/conky
 * /usr/share/applications/conky.desktop
 * /usr/share/doc/conky-1.19.4/AUTHORS

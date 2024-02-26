@@ -14,7 +14,8 @@ sha1sum = "d59f0cb27adc980241c381cf7b4a0957e0980fcb"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Telugu language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-te@firefox.mozilla.org.xpi

@@ -14,9 +14,10 @@ sha1sum = "3e6ec1dbb93fdf089c6464ab489760c165645d64"
 depends = "['haskell-primitive', 'haskell-unliftio-core']"
 reverse_depends = "['haskell-conduit', 'haskell-wai-extra']"
 +++
+### Description: 
 Deterministic allocation and freeing of scarce resources
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/resourcet-1.3.0/Control/Monad/Trans/Resource.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/resourcet-1.3.0/Control/Monad/Trans/Resource.hi
 * /usr/lib/ghc-9.8.1/site-local/resourcet-1.3.0/Control/Monad/Trans/Resource/Internal.dyn_hi

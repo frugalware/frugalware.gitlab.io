@@ -13,9 +13,10 @@ usize = "7163018"
 sha1sum = "b4df8f9ba0679d116217796f6a198a2544b79805"
 depends = "['libgcc>=12.2']"
 +++
+### Description: 
 Automatically generates Rust FFI bindings to C (and some C++) libraries
 
-## Files: 
+### Files: 
 * /usr/bin/bindgen
 * /usr/share/doc/rust-bindgen-0.69.1/LICENSE
 * /usr/share/doc/rust-bindgen-0.69.1/README.md

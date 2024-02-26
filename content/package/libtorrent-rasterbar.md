@@ -14,9 +14,10 @@ sha1sum = "9b24c43802c1b82f9cbbe7e10bcc4e3da8b3e2ce"
 depends = "['geoip>=1.4.8-2', 'openssl>=3.1.0']"
 reverse_depends = "['libtorrent-rasterbar-python', 'qbittorrent']"
 +++
+### Description: 
 LibTorrent Rasterbar is a BitTorrent library written in C++
 
-## Files: 
+### Files: 
 * /usr/include/libtorrent/address.hpp
 * /usr/include/libtorrent/add_torrent_params.hpp
 * /usr/include/libtorrent/alert.hpp

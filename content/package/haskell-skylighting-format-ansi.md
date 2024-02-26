@@ -14,9 +14,10 @@ sha1sum = "2cdfe0132f0382ba96bd54d5c31a63e1d8d410f3"
 depends = "['haskell-ansi-terminal', 'haskell-skylighting-core>=0.14']"
 reverse_depends = "['haskell-skylighting']"
 +++
+### Description: 
 ANSI formatter for skylighting syntax highlighting library
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/skylighting-format-ansi-0.1/libHSskylighting-format-ansi-0.1-CATtEqwxjInLGNcxdfDEko.a
 * /usr/lib/ghc-9.8.1/site-local/skylighting-format-ansi-0.1/Skylighting/Format/ANSI.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/skylighting-format-ansi-0.1/Skylighting/Format/ANSI.hi

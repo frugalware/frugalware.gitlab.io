@@ -13,9 +13,10 @@ usize = "447162"
 sha1sum = "7b6787de85b1046a0d4e633c1aea5adbcbb4bfde"
 depends = "['haskell-hslua']"
 +++
+### Description: 
 Lua module for text
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/hslua-module-text-1.1.0.1/HsLua/Module/Text.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-module-text-1.1.0.1/HsLua/Module/Text.hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-module-text-1.1.0.1/libHShslua-module-text-1.1.0.1-LCblXqNBJ99JP4wOvLZruQ.a

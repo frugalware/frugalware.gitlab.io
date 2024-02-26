@@ -13,9 +13,10 @@ usize = "235964"
 sha1sum = "e3a3bbe779fbff703238b15dc8ceccae37ac17df"
 depends = "['vte3']"
 +++
+### Description: 
 Sakura is a terminal emulator based on GTK and VTE.
 
-## Files: 
+### Files: 
 * /usr/bin/sakura
 * /usr/share/applications/sakura.desktop
 * /usr/share/doc/sakura-3.8.6/AUTHORS

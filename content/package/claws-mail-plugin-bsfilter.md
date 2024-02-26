@@ -13,7 +13,8 @@ usize = "35152"
 sha1sum = "1a41efbff2040eee40075ca18aa7189e112195dd"
 depends = "['claws-mail=4.1.1']"
 +++
+### Description: 
 Check all messages that are received from an IMAP, LOCAL or POP account for spam using Bsfilter.
 
-## Files: 
+### Files: 
 * /usr/lib/claws-mail/plugins/bsfilter.so

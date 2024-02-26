@@ -14,8 +14,9 @@ sha1sum = "232cf4faa7a5cdf7a91da669ad9e848cd3d33ce3"
 depends = "['scriptlet-core']"
 reverse_depends = "['grub2']"
 +++
+### Description: 
 Frugalware theme for GNU GRand Unified Bootloader
 
-## Files: 
+### Files: 
 * /boot/grub/background.png
 * /etc/grub.d/05_theme

@@ -13,7 +13,8 @@ usize = "15317802"
 sha1sum = "023ce7ddc0a452fd10e13b9169f6c7c2c34ab1c5"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang kor
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/kor.traineddata

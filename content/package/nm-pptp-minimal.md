@@ -14,9 +14,10 @@ sha1sum = "1ef45745429198f2d86f20df042679fece8de8f9"
 depends = "['networkmanager']"
 reverse_depends = "['nm-pptp']"
 +++
+### Description: 
 network management framework (PPTP plugin) without GNOME
 
-## Files: 
+### Files: 
 * /usr/lib/nm-pptp/nm-pptp-service
 * /usr/lib/pppd/2.4.9/nm-pptp-pppd-plugin.so
 * /usr/share/dbus-1/system.d/nm-pptp-service.conf

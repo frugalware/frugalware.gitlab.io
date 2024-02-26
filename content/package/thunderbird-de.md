@@ -14,7 +14,8 @@ sha1sum = "82ad96791578c99879278dc14ab969a3814d4797"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
+### Description: 
 German language support for Thunderbird
 
-## Files: 
+### Files: 
 * /usr/lib/thunderbird/extensions/langpack-de@thunderbird.mozilla.org.xpi

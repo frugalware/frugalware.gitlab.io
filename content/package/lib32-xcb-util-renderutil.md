@@ -14,9 +14,10 @@ sha1sum = "eb1db319174da0c3dbf47dd5e240404672f5de0a"
 depends = "['lib32-libxcb>=1.12-2']"
 reverse_depends = "['lib32-xorg-server-xephyr']"
 +++
+### Description: 
 renderutil libraries for X C Binding ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/xcb/xcb_renderutil.h
 * /usr/lib32/libxcb-render-util.so
 * /usr/lib32/libxcb-render-util.so.0

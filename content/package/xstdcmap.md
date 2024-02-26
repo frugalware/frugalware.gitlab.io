@@ -14,9 +14,10 @@ sha1sum = "9c1a8ee2b34e93186fb92e23219d10ec70ca0b3f"
 depends = "['libxmu>=1.1.2-3']"
 license = "GPL2"
 +++
+### Description: 
 X.Org xstdcmap application
 
-## Files: 
+### Files: 
 * /usr/bin/xstdcmap
 * /usr/share/doc/xstdcmap-1.0.5/ChangeLog
 * /usr/share/doc/xstdcmap-1.0.5/COPYING

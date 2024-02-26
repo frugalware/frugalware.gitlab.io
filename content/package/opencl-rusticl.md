@@ -13,9 +13,10 @@ usize = "31182092"
 sha1sum = "67b7c9cd44f5a363492e1e763e93bbbf85206254"
 depends = "['libclc', 'spirv-llvm-translator']"
 +++
+### Description: 
 Mesa OpenCL rusticl
 
-## Files: 
+### Files: 
 * /etc/OpenCL/vendors/rusticl.icd
 * /usr/lib/libRusticlOpenCL.so
 * /usr/lib/libRusticlOpenCL.so.1

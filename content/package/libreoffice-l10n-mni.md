@@ -13,9 +13,10 @@ usize = "1959407"
 sha1sum = "cd9c35d78077ed6a0da49f40399381da3e4f8dc6"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Manipuri support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/resource/mni/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/mni/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/mni/LC_MESSAGES/basctl.mo

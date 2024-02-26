@@ -13,9 +13,10 @@ usize = "6449046"
 sha1sum = "3a0d5c76b70dce91d23e55db0198478d0e6e80ff"
 depends = "['texlive=2023.0']"
 +++
+### Description: 
 A 16-bit extended TeX
 
-## Files: 
+### Files: 
 * /usr/share/texmf-dist/dvips/omega/config.omega
 * /usr/share/texmf-dist/dvips/omega/omega.cfg
 * /usr/share/texmf-dist/fonts/afm/public/mxedruli/mxed10.afm

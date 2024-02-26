@@ -14,9 +14,10 @@ sha1sum = "291d264b74af14deca422d01ce8663a43f8b0316"
 depends = "['libpng>=1.6.20', 'libx11>=1.6.3-3', 'libxcursor>=1.1.14-2']"
 license = "GPL2"
 +++
+### Description: 
 X.Org xcursorgen application
 
-## Files: 
+### Files: 
 * /usr/bin/xcursorgen
 * /usr/share/doc/xcursorgen-1.0.8/AUTHORS
 * /usr/share/doc/xcursorgen-1.0.8/ChangeLog

@@ -13,9 +13,10 @@ usize = "53677"
 sha1sum = "2c5610d9524b3e31645267d6fa1cedfed09b6792"
 depends = "['libmediainfo>=23.09']"
 +++
+### Description: 
 MediaInfo supplies technical and tag information about a video or audio file.
 
-## Files: 
+### Files: 
 * /usr/bin/mediainfo
 * /usr/share/doc/mediainfo-23.09/LICENSE
 * /usr/share/doc/mediainfo-23.09/README.md

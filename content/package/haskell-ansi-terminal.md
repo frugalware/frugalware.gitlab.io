@@ -14,9 +14,10 @@ sha1sum = "e25c0b8807b46583ec775c5faa70efe536596a0d"
 depends = "['haskell-ansi-terminal-types', 'haskell-colour>=2.3.6']"
 reverse_depends = "['haskell-prettyprinter-ansi-terminal', 'haskell-skylighting-format-ansi', 'haskell-wai-extra']"
 +++
+### Description: 
 Simple ANSI terminal support, with Windows compatibility
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/ansi-terminal-1.0/libHSansi-terminal-1.0-8JbR9KkmKIsLouLsATdWUr.a
 * /usr/lib/ghc-9.8.1/site-local/ansi-terminal-1.0/System/Console/ANSI.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/ansi-terminal-1.0/System/Console/ANSI.hi

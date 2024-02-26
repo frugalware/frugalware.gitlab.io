@@ -13,9 +13,10 @@ usize = "1107496"
 sha1sum = "2300325cd20b1f60187b94b5c1c4efc1204c44f8"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Friulian support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/resource/fur/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/fur/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/fur/LC_MESSAGES/basctl.mo

@@ -14,9 +14,10 @@ sha1sum = "4dcc3cb298f67c0f365dd7d10d8ab5571d9efc38"
 depends = "['cyrus-sasl', 'dbus-glib', 'farstream', 'libgadu', 'libidn>=1.35', 'meanwhile', 'nss']"
 reverse_depends = "['bitlbee-libpurple', 'finch', 'pidgin', 'pidgin-facebookchat', 'pidgin-skypeweb', 'telepathy-haze']"
 +++
+### Description: 
 Library intended to be used by programmers seeking to write an IM client that connects to many IM networks.
 
-## Files: 
+### Files: 
 * /usr/include/libpurple/account.h
 * /usr/include/libpurple/accountopt.h
 * /usr/include/libpurple/blist.h

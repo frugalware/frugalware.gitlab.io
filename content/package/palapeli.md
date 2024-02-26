@@ -13,9 +13,10 @@ usize = "4611881"
 sha1sum = "3b9dfd5823375e7bc9e0febc89bb5dd504b0e4c7"
 depends = "['kdelibs4support>=5.115.0', 'libkdegames>=23.08.5']"
 +++
+### Description: 
 Palapeli is a single-player jigsaw puzzle game.
 
-## Files: 
+### Files: 
 * /etc/xdg/palapeli-collectionrc
 * /usr/bin/palapeli
 * /usr/include/Pala/pala/libpala_export.h

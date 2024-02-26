@@ -14,9 +14,10 @@ sha1sum = "c6d266c7aa8df3b18f36ed2e902be6a1ec0d3596"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-hunit']"
 +++
+### Description: 
 Use GHC call-stacks in a backward compatible way
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/call-stack-0.4.0/Data/CallStack.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/call-stack-0.4.0/Data/CallStack.hi
 * /usr/lib/ghc-9.8.1/site-local/call-stack-0.4.0/Data/SrcLoc.dyn_hi

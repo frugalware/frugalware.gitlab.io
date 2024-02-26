@@ -14,9 +14,10 @@ sha1sum = "d43dde96b5ffd63269a3122d88192e0e1bac0a27"
 depends = "['libxi>=1.7.6-2']"
 license = "GPL2"
 +++
+### Description: 
 X.Org xsetmode application
 
-## Files: 
+### Files: 
 * /usr/bin/xsetmode
 * /usr/share/doc/xsetmode-1.0.0/ChangeLog
 * /usr/share/doc/xsetmode-1.0.0/COPYING

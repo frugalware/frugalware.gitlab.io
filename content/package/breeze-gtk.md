@@ -13,9 +13,10 @@ usize = "1213900"
 sha1sum = "e828a7b40d40f20f5d54eb1e9f1f1398ca2049ff"
 depends = "['qt5-base>=5.15.12']"
 +++
+### Description: 
 Artwork, styles and assets for the Breeze visual style for GTK
 
-## Files: 
+### Files: 
 * /usr/share/doc/breeze-gtk-5.27.10/README.md
 * /usr/share/doc/breeze-gtk-5.27.10/TODO
 * /usr/share/themes/Breeze-Dark/assets/arrow-down-active.png

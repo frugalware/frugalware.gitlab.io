@@ -14,9 +14,10 @@ sha1sum = "6cf185742aa07268fefb13d33639100567c3fca5"
 depends = "['perl>=5.34.0', 'perl-sub-exporter', 'perl-sub-exporter-progressive']"
 reverse_depends = "['perl-moo']"
 +++
+### Description: 
 Expose the flag which marks global
 
-## Files: 
+### Files: 
 * /usr/lib/perl5/site_perl/current/Devel/GlobalDestruction.pm
 * /usr/share/doc/perl-devel-globaldestruction-0.14/MANIFEST
 * /usr/share/doc/perl-devel-globaldestruction-0.14/README

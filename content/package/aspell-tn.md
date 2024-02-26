@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = ""
 depends = "['aspell']"
 +++
+### Description: 
 GNU Aspell Setswana Word List Package
 
-## Files: 
+### Files: 
 * usr/lib/aspell-0.60/setswana.alias
 * usr/lib/aspell-0.60/tn.dat
 * usr/lib/aspell-0.60/tn.multi

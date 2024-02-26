@@ -14,9 +14,10 @@ sha1sum = "7f7739884635f0d5f091a89372bfccc0818e0ed7"
 depends = "['fdk-aac', 'ldacbt', 'libcamera>=0.1.0', 'libcanberra', 'libfreeaptx', 'libmysofa', 'lilv', 'sbc', 'vulkan-icd-loader', 'webrtc-audio-processing-1']"
 reverse_depends = "['clightd', 'easyeffects', 'kpipewire', 'kwin5', 'obs-studio', 'plasma-workspace', 'telegram-desktop', 'weston', 'wireplumber', 'xdg-desktop-portal']"
 +++
+### Description: 
 A project that aims to greatly improve handling of audio and video under Linux
 
-## Files: 
+### Files: 
 * /usr/bin/pipewire
 * /usr/bin/pipewire-aes67
 * /usr/bin/pipewire-avb

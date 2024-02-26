@@ -13,9 +13,10 @@ usize = "3592064"
 sha1sum = "1316a95d05b46ef35fa6ac83b038c4c1c78b25ad"
 depends = "['gstreamer1', 'qt5-multimedia>=5.15.10', 'qt5-x11extras>=5.15.10']"
 +++
+### Description: 
 Screencasting tool for Linux
 
-## Files: 
+### Files: 
 * /usr/bin/vokoscreenNG
 * /usr/share/doc/vokoscreenng-3.6.0/COPYING
 * /usr/share/doc/vokoscreenng-3.6.0/INSTALL

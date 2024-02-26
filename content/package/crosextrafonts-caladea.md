@@ -13,9 +13,10 @@ usize = "560427"
 sha1sum = "e32efbeff2a40b7a3ff037d0e52d459f4f090978"
 depends = "['fontconfig', 'mkfontscale']"
 +++
+### Description: 
 Free equivalent font to Microsoft's Cambria
 
-## Files: 
+### Files: 
 * /usr/share/doc/crosextrafonts-caladea-20230622.g336a529/README.md
 * /usr/share/fonts/X11/OTF/Caladea-Bold.otf
 * /usr/share/fonts/X11/OTF/Caladea-BoldItalic.otf

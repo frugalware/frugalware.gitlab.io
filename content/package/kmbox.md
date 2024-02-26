@@ -14,9 +14,10 @@ sha1sum = "b1544c7a2808ecaa6ac288c97bb97146b24837b0"
 depends = "['kmime>=23.08.5']"
 reverse_depends = "['kdepim-runtime', 'kldap']"
 +++
+### Description: 
 A library for handling mbox data.
 
-## Files: 
+### Files: 
 * /usr/include/KPim5/KMbox/kmbox/kmbox_export.h
 * /usr/include/KPim5/KMbox/KMbox/MBox
 * /usr/include/KPim5/KMbox/kmbox/mbox.h

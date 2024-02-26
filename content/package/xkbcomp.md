@@ -15,9 +15,10 @@ depends = "['libx11>=1.6.3-4', 'libxkbfile>=1.0.9-3']"
 reverse_depends = "['xkeyboard-config']"
 license = "GPL2"
 +++
+### Description: 
 X.Org xkbcomp application
 
-## Files: 
+### Files: 
 * /usr/bin/xkbcomp
 * /usr/lib/pkgconfig/xkbcomp.pc
 * /usr/share/doc/xkbcomp-1.4.7/ChangeLog

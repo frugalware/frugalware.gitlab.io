@@ -14,9 +14,10 @@ sha1sum = "ddbd30ec5570c8f6267427efe6aa52053a0b4a15"
 depends = "['db>=6.2.23', 'gtkspell3', 'icu4c>=74.1', 'libboost>=1.83.0', 'lucene++', 'pugixml>=1.9-2', 'zip']"
 license = "MIT"
 +++
+### Description: 
 cross-platform gettext catalogs (.po files) editor
 
-## Files: 
+### Files: 
 * /usr/bin/poedit
 * /usr/share/applications/net.poedit.Poedit.desktop
 * /usr/share/applications/net.poedit.PoeditURI.desktop

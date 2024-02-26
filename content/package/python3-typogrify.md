@@ -14,9 +14,10 @@ sha1sum = "e01d6ff32de3791d421c41515a2ea8360191ce70"
 depends = "['python3-smartypants']"
 reverse_depends = "['gi-docgen']"
 +++
+### Description: 
 Filters to enhance web typography
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/typogrify-2.0.7-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/typogrify-2.0.7-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/typogrify-2.0.7-py3.12.egg-info/requires.txt

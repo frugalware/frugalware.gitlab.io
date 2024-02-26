@@ -14,9 +14,10 @@ sha1sum = "4ed12641e2d2c5b104b84ce1df2421d7aa6e1529"
 depends = "['curl>=7.9.7', 'libxml++2', 'opensp']"
 reverse_depends = "['skrooge']"
 +++
+### Description: 
 libofx API for the OFX banking standard.
 
-## Files: 
+### Files: 
 * /usr/bin/ofx2qif
 * /usr/bin/ofxdump
 * /usr/include/libofx/libofx.h

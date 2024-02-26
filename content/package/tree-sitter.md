@@ -14,9 +14,10 @@ sha1sum = "922186e43f8b5deceab4a8646315d5007c247a96"
 depends = "['glibc>=2.34']"
 reverse_depends = "['neovim']"
 +++
+### Description: 
 Rust bindings to the Tree-sitter parsing library
 
-## Files: 
+### Files: 
 * /usr/include/tree_sitter/api.h
 * /usr/lib/libtree-sitter.so
 * /usr/lib/libtree-sitter.so.0

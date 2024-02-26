@@ -14,9 +14,10 @@ sha1sum = "af675a1271373189d1ba2d3668ebe0978703d6e8"
 depends = "['lib32-libx11', 'lib32-libxext']"
 reverse_depends = "['lib32-libepoxy', 'lib32-libglu', 'lib32-libva', 'lib32-nvidia', 'lib32-xorg-server', 'lib32-xorg-server-xephyr']"
 +++
+### Description: 
 The GL Vendor-Neutral Dispatch library ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/glvnd/GLdispatchABI.h
 * /usr/i686-frugalware-linux/include/glvnd/libeglabi.h
 * /usr/i686-frugalware-linux/include/glvnd/libglxabi.h

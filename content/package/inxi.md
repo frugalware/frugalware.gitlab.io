@@ -14,9 +14,10 @@ sha1sum = "ffd0987c5339a890a23802ca3c3898ddbcd7f180"
 depends = "['coreutils', 'dmidecode', 'file', 'gawk', 'grep', 'hddtemp', 'iproute2', 'kmod', 'lmsensors', 'pciutils', 'perl', 'sed', 'sudo', 'usbutils']"
 reverse_depends = "['hw-probe']"
 +++
+### Description: 
 inxi is a command line system information tool.
 
-## Files: 
+### Files: 
 * /usr/bin/inxi
 * /usr/share/doc/inxi-3.3.01/README.txt
 * /usr/share/man/man1/inxi.1.gz

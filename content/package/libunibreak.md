@@ -14,9 +14,10 @@ sha1sum = "905d0a3c62aba50c11c414392d19e700dc64ccf7"
 depends = "['glibc']"
 reverse_depends = "['krita']"
 +++
+### Description: 
 An implementation of the line breaking algorithm as described in Unicode 5.2.0 Standard Annex 14, Revision 24
 
-## Files: 
+### Files: 
 * /usr/include/graphemebreak.h
 * /usr/include/linebreak.h
 * /usr/include/linebreakdef.h

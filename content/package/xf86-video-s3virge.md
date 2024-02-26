@@ -14,9 +14,10 @@ sha1sum = "49c6833ce1c3ac9b20015f9cd13671af244f2fab"
 depends = "['xorg-server>=1.20.4-3']"
 license = "GPL2"
 +++
+### Description: 
 X.Org driver for S3 Virge cards
 
-## Files: 
+### Files: 
 * /usr/lib/xorg/modules/drivers/s3virge_drv.so
 * /usr/share/doc/xf86-video-s3virge-1.11.1/ChangeLog
 * /usr/share/doc/xf86-video-s3virge-1.11.1/COPYING

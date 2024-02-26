@@ -13,9 +13,10 @@ usize = "2760509"
 sha1sum = "30d31a6b76a29dc461a9cc57e447814c83f66d48"
 depends = "['akonadi-notes>=23.08.5', 'grantleetheme>=23.08.5', 'kcalutils>=23.08.5', 'kdnssd>=5.115.0', 'knotifyconfig>=5.115.0', 'kontactinterface>=23.08.5', 'pimcommon>=23.08.5']"
 +++
+### Description: 
 KDE Popup Notes.
 
-## Files: 
+### Files: 
 * /usr/bin/akonadi_notes_agent
 * /usr/bin/knotes
 * /usr/lib/libknotesprivate.so.5

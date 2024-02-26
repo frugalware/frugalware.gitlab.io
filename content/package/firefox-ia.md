@@ -14,7 +14,8 @@ sha1sum = "5b8dc41a88e05f7241855fe39c98ed2c94216dcf"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Interlingua (International Auxiliary Language Association) language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-ia@firefox.mozilla.org.xpi

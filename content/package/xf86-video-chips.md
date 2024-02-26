@@ -14,9 +14,10 @@ sha1sum = "4539d8d3112652ce553247b8129de6dac5c1595a"
 depends = "['xorg-server>=1.20.4-3']"
 license = "GPL2"
 +++
+### Description: 
 X.Org driver for chips cards
 
-## Files: 
+### Files: 
 * /usr/lib/xorg/modules/drivers/chips_drv.so
 * /usr/share/doc/xf86-video-chips-1.4.0/ChangeLog
 * /usr/share/doc/xf86-video-chips-1.4.0/COPYING

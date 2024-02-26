@@ -14,9 +14,10 @@ sha1sum = "88b1d3b5f3f74cadb63f30b7b5b1bb43a3fbe6e2"
 depends = "['kxmlgui>=5.115.0', 'qt5-svg>=5.15.12', 'qt5-x11extras>=5.15.12']"
 reverse_depends = "['digikam', 'gwenview', 'kipi-plugins', 'spectacle']"
 +++
+### Description: 
 KDE Image Plugin Interface, a C++ library to share plugins among graphic release-service.
 
-## Files: 
+### Files: 
 * /usr/include/KF5/KIPI/KIPI/ConfigWidget
 * /usr/include/KF5/KIPI/kipi/configwidget.h
 * /usr/include/KF5/KIPI/KIPI/ImageCollection

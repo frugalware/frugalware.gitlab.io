@@ -13,9 +13,10 @@ usize = "752775"
 sha1sum = "ec04c8b0635ed1a8943b2dfea6a7d47c64a570ce"
 depends = "['kdelibs4support>=5.115.0']"
 +++
+### Description: 
 Can be used to show nice dialog boxes from shell scripts.
 
-## Files: 
+### Files: 
 * /usr/bin/kdialog
 * /usr/bin/kdialog_progress_helper
 * /usr/share/applications/org.kde.kdialog.desktop

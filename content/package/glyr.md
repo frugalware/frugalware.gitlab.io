@@ -13,9 +13,10 @@ usize = "272953"
 sha1sum = "a4368b0cd2a77fd109c6cbf7009fc8fb1f639eae"
 depends = "['curl', 'glib2', 'sqlite3']"
 +++
+### Description: 
 A music related metadata searchengine, both with commandline interface and C API
 
-## Files: 
+### Files: 
 * /usr/bin/glyrc
 * /usr/include/glyr/cache.h
 * /usr/include/glyr/config.h

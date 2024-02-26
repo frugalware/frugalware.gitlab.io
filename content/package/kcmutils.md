@@ -14,9 +14,10 @@ sha1sum = "1d5a9b2a3411c321fc35d5834a9f42f4757cdee2"
 depends = "['kdeclarative>=5.115.0']"
 reverse_depends = "['akonadi-search', 'audiocd-kio', 'bluedevil5', 'breeze', 'colord-kde', 'discover', 'dolphin', 'k3b', 'kaccounts-integration', 'kamera', 'kcron', 'kde-cli-tools', 'kde-gtk-config', 'kdeconnect-kde', 'kdeplasma-addons5', 'kdf', 'kget', 'khelpcenter5', 'khotkeys5', 'kinfocenter5', 'kleopatra', 'kmailtransport', 'knemo', 'konqueror', 'kopete', 'krdc', 'kscreen5', 'ktouch', 'libkcddb', 'okteta', 'parley', 'plasma-desktop', 'plasma-pa', 'plasma-thunderbolt', 'plasma-workspace', 'sddm-kcm', 'systemsettings5', 'user-kcm']"
 +++
+### Description: 
 Utilities for interacting with KCModules.
 
-## Files: 
+### Files: 
 * /usr/include/KF5/KCMUtils/KCModuleContainer
 * /usr/include/KF5/KCMUtils/kcmodulecontainer.h
 * /usr/include/KF5/KCMUtils/KCModuleData

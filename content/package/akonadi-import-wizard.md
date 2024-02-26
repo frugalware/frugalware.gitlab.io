@@ -14,9 +14,10 @@ sha1sum = "1f360bf58dddee6dad43ab39a5973349e8a8703e"
 depends = "['mailcommon>=23.08.5']"
 reverse_depends = "['kdepim-addons', 'kmail']"
 +++
+### Description: 
 KMail import wizard application.
 
-## Files: 
+### Files: 
 * /usr/bin/akonadiimportwizard
 * /usr/include/KPim5/ImportWizard/ImportWizard/AbstractAddressBook
 * /usr/include/KPim5/ImportWizard/importwizard/abstractaddressbook.h

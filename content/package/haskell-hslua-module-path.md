@@ -13,9 +13,10 @@ usize = "734394"
 sha1sum = "4126d55b264bea87d37bbf81c9b5e400df146108"
 depends = "['haskell-hslua-packaging']"
 +++
+### Description: 
 Lua module to work with file paths.
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/hslua-module-path-1.1.0/HsLua/Module/Path.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-module-path-1.1.0/HsLua/Module/Path.hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-module-path-1.1.0/libHShslua-module-path-1.1.0-G9i78Nwyah26Hp9XztorFP.a

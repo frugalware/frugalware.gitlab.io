@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = ""
 depends = "['aspell']"
 +++
+### Description: 
 GNU Aspell Faroese Word List Package
 
-## Files: 
+### Files: 
 * usr/lib/aspell-0.60/f370royskt.alias
 * usr/lib/aspell-0.60/faroese.alias
 * usr/lib/aspell-0.60/fo.dat

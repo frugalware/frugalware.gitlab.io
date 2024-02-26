@@ -13,9 +13,10 @@ usize = "445528"
 sha1sum = "5c9efdf3b856d1efce14eb81b4c50588b40105a3"
 depends = "['lzo', 'openssl>=3.1.0']"
 +++
+### Description: 
 Like dd, dd_rescue does copy data from one file or block device to another.
 
-## Files: 
+### Files: 
 * /usr/bin/dd_rescue
 * /usr/lib/libddr_crypt.so
 * /usr/lib/libddr_hash.so

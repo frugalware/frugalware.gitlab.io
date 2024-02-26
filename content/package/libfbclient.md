@@ -14,9 +14,10 @@ sha1sum = "f4c3aa645596c6ea25cc3f26c89f8ea5c9a1692d"
 depends = "['libgcc', 'libtommath']"
 reverse_depends = "['firebird', 'libreoffice']"
 +++
+### Description: 
 Multi-process, local client libraries for Firebird SQL RDBMS
 
-## Files: 
+### Files: 
 * /usr/lib/libfbclient.so
 * /usr/lib/libfbclient.so.2
 * /usr/lib/libfbclient.so.4.0.4

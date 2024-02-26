@@ -14,9 +14,10 @@ sha1sum = "cd7161816d0f84d2ccc790706f84e6430585001f"
 depends = "['akonadi>=23.08.5', 'kconfig>=5.115.0', 'kdbusaddons>=5.115.0', 'kdelibs4support>=5.115.0', 'ki18n>=5.115.0', 'kio>=5.115.0', 'kitemmodels>=5.115.0', 'kmime>=23.08.5', 'kxmlgui>=5.115.0', 'libxslt>=1.1.29-2', 'shared-mime-info>=1.7-2']"
 reverse_depends = "['akonadi-contacts']"
 +++
+### Description: 
 Libraries and daemons to implement searching in Akonad
 
-## Files: 
+### Files: 
 * /usr/include/KPim5/AkonadiMime/akonadi-mime_version.h
 * /usr/include/KPim5/AkonadiMime/Akonadi/AddressAttribute
 * /usr/include/KPim5/AkonadiMime/akonadi/addressattribute.h

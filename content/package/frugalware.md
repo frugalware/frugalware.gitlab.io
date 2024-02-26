@@ -14,9 +14,10 @@ sha1sum = "fc5c48e663855009df29090764b539aa20a7ef27"
 depends = "[]"
 reverse_depends = "['fontconfig', 'glibc', 'kernel-initrd', 'kernel-lts-initrd', 'systemd']"
 +++
+### Description: 
 Basic Frugalware Linux filesystem package
 
-## Files: 
+### Files: 
 * /bin
 * /etc/frugalware-release
 * /etc/issue

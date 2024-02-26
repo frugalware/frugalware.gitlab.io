@@ -13,9 +13,10 @@ usize = "7877371"
 sha1sum = "40528203e80f7e0dbd7d552b8db42212d419fe94"
 depends = "['libclc', 'spirv-llvm-translator']"
 +++
+### Description: 
 Mesa OpenCL Clover
 
-## Files: 
+### Files: 
 * /etc/OpenCL/vendors/mesa.icd
 * /usr/lib/libMesaOpenCL.so
 * /usr/lib/libMesaOpenCL.so.1

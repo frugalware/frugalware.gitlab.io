@@ -14,9 +14,10 @@ sha1sum = "77f4e582b6fd31e8ae40c57b74510e3c69a7d40a"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-sphinx']"
 +++
+### Description: 
 Sphinx extension which outputs QtHelp document
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/sphinxcontrib/qthelp/locales/.tx/config
 * /usr/lib/python3.12/site-packages/sphinxcontrib/qthelp/locales/ar/LC_MESSAGES/sphinxcontrib.qthelp.mo
 * /usr/lib/python3.12/site-packages/sphinxcontrib/qthelp/locales/ar/LC_MESSAGES/sphinxcontrib.qthelp.po

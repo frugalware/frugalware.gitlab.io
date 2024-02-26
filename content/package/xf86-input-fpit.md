@@ -14,9 +14,10 @@ sha1sum = "6a9ce5122742056200a2f8dcf79badac5a48b0e6"
 depends = "['xorg-server>=1.20.4-3']"
 license = "GPL2"
 +++
+### Description: 
 X.Org driver for fpit input devices
 
-## Files: 
+### Files: 
 * /usr/lib/xorg/modules/input/fpit_drv.so
 * /usr/share/doc/xf86-input-fpit-1.4.0/ChangeLog
 * /usr/share/doc/xf86-input-fpit-1.4.0/COPYING

@@ -13,9 +13,10 @@ usize = "16007508"
 sha1sum = "6136991d875cb1bcdfba1d1a46fa725b44f503f1"
 depends = "['kparts>=5.110.0', 'qt5-svg>=5.15.11']"
 +++
+### Description: 
 Twin Panel File Manager For Your Desktop
 
-## Files: 
+### Files: 
 * /etc/xdg/kio_isorc
 * /usr/bin/krusader
 * /usr/lib/qt5/plugins/kf5/kio/kio_iso.so

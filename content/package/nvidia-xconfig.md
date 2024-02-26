@@ -14,9 +14,10 @@ sha1sum = "d525cb5c83bb917fbad76b3d6a443af3b7ac6b42"
 depends = "['libpciaccess']"
 reverse_depends = "['nvidia']"
 +++
+### Description: 
 nVidia settings configuration tool.
 
-## Files: 
+### Files: 
 * /usr/bin/nvidia-xconfig
 * /usr/share/doc/nvidia-xconfig-550.40.07/COPYING
 * /usr/share/man/man1/nvidia-xconfig.1.gz

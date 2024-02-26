@@ -14,9 +14,10 @@ sha1sum = "9d62fc29e6a2904192e84aed0510d8ae9cf8f205"
 depends = "['python3>=3.12', 'sqlite3>=3.15.1']"
 reverse_depends = "['calibre']"
 +++
+### Description: 
 Python3 wrapper for SQLite.
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/apsw-3.44.2.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/apsw-3.44.2.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/apsw-3.44.2.0-py3.12.egg-info/SOURCES.txt

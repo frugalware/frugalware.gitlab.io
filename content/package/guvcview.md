@@ -13,9 +13,10 @@ usize = "1091883"
 sha1sum = "2215af0c45d118b68699852f5def5aff0533a549"
 depends = "['ffmpeg>=6.0', 'gsl>=2.7.1', 'libogg', 'libpulse>=6.0', 'libraw1394', 'libxau>=1.0.4-1', 'libxdamage>=1.1.1-3', 'libxdmcp', 'libxext>=1.0.5-3', 'libxml2>=2.7.8', 'portaudio', 'sdl2', 'systemd>=188', 'twolame']"
 +++
+### Description: 
 A video viewer and capturer for the linux uvc driver
 
-## Files: 
+### Files: 
 * /usr/bin/guvcview
 * /usr/include/guvcview-2/libgviewaudio/gviewaudio.h
 * /usr/include/guvcview-2/libgviewencoder/gviewencoder.h

@@ -14,9 +14,10 @@ sha1sum = "dc98f9e0e77c1a93006a1a23798517864c8cd311"
 depends = "['libstdc++>=6.2.1-5']"
 reverse_depends = "['libreoffice', 'lyx']"
 +++
+### Description: 
 A thesaurus library
 
-## Files: 
+### Files: 
 * /usr/bin/th_gen_idx.pl
 * /usr/include/mythes.hxx
 * /usr/lib/libmythes-1.2.la

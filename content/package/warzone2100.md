@@ -13,9 +13,10 @@ usize = "395760592"
 sha1sum = "2c75082098b859ca37558338be1fe3d8426f7688"
 depends = "['curl', 'fmtlib', 'libsodium>=1.0.19', 'libzip', 'miniupnpc', 'ocl-icd', 'openal', 'opus', 'physfs']"
 +++
+### Description: 
 3D realtime strategy game on a future Earth
 
-## Files: 
+### Files: 
 * /usr/bin/warzone2100
 * /usr/share/applications/net.wz2100.warzone2100.desktop
 * /usr/share/doc/warzone2100-4.4.1/AUTHORS

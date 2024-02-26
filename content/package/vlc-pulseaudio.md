@@ -13,9 +13,10 @@ usize = "80794"
 sha1sum = "61f27bb8a9afb43bfc14f8d1ebfa5e279f128c32"
 depends = "['libpulse>=7.1', 'libvlc>=3.0.20']"
 +++
+### Description: 
 vlc plugin for pulseaudio
 
-## Files: 
+### Files: 
 * /usr/lib/vlc/libvlc_pulse.so
 * /usr/lib/vlc/libvlc_pulse.so.0
 * /usr/lib/vlc/libvlc_pulse.so.0.0.0

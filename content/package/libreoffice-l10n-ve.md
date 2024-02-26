@@ -13,9 +13,10 @@ usize = "1334360"
 sha1sum = "63150049fe64770cfb792a8089f1ebf7d0d8b8b3"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Venda support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/resource/ve/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/ve/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/ve/LC_MESSAGES/basctl.mo

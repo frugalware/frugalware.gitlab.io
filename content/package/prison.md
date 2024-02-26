@@ -14,9 +14,10 @@ sha1sum = "8302484f2ecb7704fbc04d2fc289760f56f8fb8d"
 depends = "['libdmtx>=0.7.4', 'qrencode>=4.0.0', 'qt5-base>=5.15.12', 'qt5-multimedia>=5.15.12', 'zxing-cpp']"
 reverse_depends = "['akonadi-contacts', 'itinerary', 'plasma-workspace']"
 +++
+### Description: 
 Qt library to access Open Collaboration Services
 
-## Files: 
+### Files: 
 * /usr/include/KF5/Prison/prison/AbstractBarcode
 * /usr/include/KF5/Prison/Prison/AbstractBarcode
 * /usr/include/KF5/Prison/prison/abstractbarcode.h

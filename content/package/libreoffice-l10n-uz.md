@@ -13,9 +13,10 @@ usize = "1396259"
 sha1sum = "1f8eaa95a2657dbb8277b3a3c6d69619df2e0424"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Uzbek support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/resource/uz/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/uz/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/uz/LC_MESSAGES/basctl.mo

@@ -13,9 +13,10 @@ usize = "695365"
 sha1sum = "35fda9af766e8cbb19b65f964d1c580f9fb8dedb"
 depends = "['gtk+2>=2.24.29-2', 'openssl>=1.0.2-4']"
 +++
+### Description: 
 Graphical Frugalware Package Manager
 
-## Files: 
+### Files: 
 * /usr/bin/gfpm
 * /usr/share/applications/gfpm.desktop
 * /usr/share/applications/kde/gfpm-kde.desktop

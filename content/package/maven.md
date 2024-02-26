@@ -13,9 +13,10 @@ usize = "10535674"
 sha1sum = "6900cfe77ad82a8512a9a647f1089ca9c8801718"
 depends = "['openjdk']"
 +++
+### Description: 
 A Java project management and project comprehension tool
 
-## Files: 
+### Files: 
 * /etc/profile.d/maven.sh
 * /usr/lib/maven/bin/m2.conf
 * /usr/lib/maven/bin/mvn

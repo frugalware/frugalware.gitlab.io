@@ -14,9 +14,10 @@ sha1sum = "4a6273aec7f914a443788c0f0487841254f84053"
 depends = "['libxxf86vm>=1.1.4-3']"
 license = "GPL2"
 +++
+### Description: 
 X.Org xgamma application
 
-## Files: 
+### Files: 
 * /usr/bin/xgamma
 * /usr/share/doc/xgamma-1.0.7/ChangeLog
 * /usr/share/doc/xgamma-1.0.7/COPYING

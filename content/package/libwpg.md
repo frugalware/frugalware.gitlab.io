@@ -14,9 +14,10 @@ sha1sum = "7af66ba5e80bbc00c855262467426de2dc4dd360"
 depends = "['libstdc++>=6.2.1-5', 'libwpd>=0.10.1-5']"
 reverse_depends = "['libcdr', 'libfreehand', 'libmspub', 'libmwaw', 'libvisio']"
 +++
+### Description: 
 A C++ library to read and parse graphics in WPG
 
-## Files: 
+### Files: 
 * /usr/bin/wpg2raw
 * /usr/bin/wpg2svg
 * /usr/bin/wpg2svgbatch.pl

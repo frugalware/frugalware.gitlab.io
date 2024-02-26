@@ -14,9 +14,10 @@ sha1sum = "d6a17de989c4ada7602b513dc7d207053ace374c"
 depends = "['curl', 'libusb']"
 reverse_depends = "['dracut-ykfde', 'ykclient']"
 +++
+### Description: 
 Yubico YubiKey C library
 
-## Files: 
+### Files: 
 * /usr/bin/modhex
 * /usr/bin/ykgenerate
 * /usr/bin/ykparse

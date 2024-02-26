@@ -14,9 +14,10 @@ sha1sum = "c23b33e81f8487a93e5d6ca9bad7b99bdafde06f"
 depends = "['aspell', 'enchant', 'gtk+2>=2.20.0-2', 'libpng>=1.6.20-1', 'libxml2>=2.7.8']"
 reverse_depends = "['geany-plugins', 'sylpheed']"
 +++
+### Description: 
 GtkSpell provides word-processor-style highlighting and replacement of misspelled words in a GtkTextView widget.
 
-## Files: 
+### Files: 
 * /usr/include/gtkspell-2.0/gtkspell/gtkspell.h
 * /usr/lib/libgtkspell.so
 * /usr/lib/libgtkspell.so.0

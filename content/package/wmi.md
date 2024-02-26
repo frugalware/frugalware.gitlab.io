@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "cefa85c97dea73423bfce7afbd183e823bd9fc89"
 depends = "['libsm', 'libstdc++', 'libx11', 'libxft', 'libxt']"
 +++
+### Description: 
 Window Manager Improved is a lightweight window manager, which attempts to combine the best features of LarsWM, Ion, evilwm, and ratpoison.
 
-## Files: 
+### Files: 
 * etc/X11/sessions/wmi.desktop
 * etc/X11/xinit/xinitrc.wmi
 * usr/bin/wmi

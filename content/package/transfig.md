@@ -13,9 +13,10 @@ usize = "757605"
 sha1sum = "f4811f04122df127475d48afac773d0b27a1ed31"
 depends = "['libpng>=1.6.20', 'libxpm>=3.5.11-2']"
 +++
+### Description: 
 Creates TeX documents with graphics which can be printed in a wide variety of environments.
 
-## Files: 
+### Files: 
 * /usr/bin/fig2dev
 * /usr/bin/fig2ps2tex
 * /usr/bin/fig2ps2tex.sh

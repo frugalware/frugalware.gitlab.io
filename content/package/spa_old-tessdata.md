@@ -13,7 +13,8 @@ usize = "19628470"
 sha1sum = "f3fbaf5f6b358f60ce0f8cdb84f2560b02df7b31"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang spa_old
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/spa_old.traineddata

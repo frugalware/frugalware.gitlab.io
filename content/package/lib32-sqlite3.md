@@ -14,9 +14,10 @@ sha1sum = "11bda0be5f29b478a2fbcef9f9e23d0598bbebed"
 depends = "['lib32-ncurses>=6.1-5', 'lib32-readline>=8.0-3']"
 reverse_depends = "['lib32-libsndfile', 'lib32-nss']"
 +++
+### Description: 
 A C library that implements an SQL database engine ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/sqlite3
 * /usr/i686-frugalware-linux/include/sqlite3.h
 * /usr/i686-frugalware-linux/include/sqlite3ext.h

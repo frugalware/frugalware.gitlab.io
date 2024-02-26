@@ -13,9 +13,10 @@ usize = "78717682"
 sha1sum = "eb7cba9e4cbda5a82cd58f29f1d6beb119a561e5"
 depends = "['bzip2', 'openssl>=3.1.0', 'zlib>=1.2.12']"
 +++
+### Description: 
 John the Ripper is a fast password cracker.
 
-## Files: 
+### Files: 
 * /etc/john/john.conf
 * /usr/bin/john
 * /usr/bin/unafs

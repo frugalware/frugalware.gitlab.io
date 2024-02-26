@@ -13,9 +13,10 @@ usize = "2559218"
 sha1sum = "86825313259d85f33269c6be918c211830435ad2"
 depends = "[]"
 +++
+### Description: 
 Kinyarwanda Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/locale/rw/charset
 * usr/share/locale/rw/entry.desktop
 * usr/share/locale/rw/LC_MESSAGES/akregator.mo

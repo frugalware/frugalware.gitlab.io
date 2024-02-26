@@ -14,7 +14,8 @@ sha1sum = "a74211375e63f36a0fdc432ed872871324937eaa"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Gujarati language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-gu-IN@firefox.mozilla.org.xpi

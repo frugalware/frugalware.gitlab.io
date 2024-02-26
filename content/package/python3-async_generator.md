@@ -14,9 +14,10 @@ sha1sum = "c2b1acef9b60af7a5b58c0a146b9a5399c6f1957"
 depends = "['python3']"
 reverse_depends = "['python3-trio']"
 +++
+### Description: 
 Making it easy to write async iterators
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/async_generator-1.10.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/async_generator-1.10.dist-info/LICENSE.APACHE2
 * /usr/lib/python3.12/site-packages/async_generator-1.10.dist-info/LICENSE.MIT

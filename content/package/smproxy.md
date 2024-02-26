@@ -14,9 +14,10 @@ sha1sum = "f5ba41b0c08ea02dd3386fab4c15e928c861dbb0"
 depends = "['libxmu>=1.1.2-2']"
 license = "GPL2"
 +++
+### Description: 
 X.Org smproxy application
 
-## Files: 
+### Files: 
 * /usr/bin/smproxy
 * /usr/share/doc/smproxy-1.0.7/ChangeLog
 * /usr/share/doc/smproxy-1.0.7/COPYING

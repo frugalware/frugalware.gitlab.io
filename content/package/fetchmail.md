@@ -14,9 +14,10 @@ sha1sum = "8d0b60e5eec75c8bbd9681dc15e2febeeb549b35"
 depends = "['openssl>=3.1.0']"
 reverse_depends = "['fetchmailconf']"
 +++
+### Description: 
 A remote-mail retrieval and forwarding utility.
 
-## Files: 
+### Files: 
 * /usr/bin/fetchmail
 * /usr/share/doc/fetchmail-6.4.38/AUTHORS
 * /usr/share/doc/fetchmail-6.4.38/COPYING

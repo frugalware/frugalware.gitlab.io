@@ -14,9 +14,10 @@ sha1sum = "d553470dd3db85e3dda800fc3f5fbe50d99b3f45"
 depends = "['gd', 'pango', 'qt5-base>=5.15.10', 'qt5-svg>=5.15.10', 'readline>=8.0']"
 reverse_depends = "['darktable', 'octave']"
 +++
+### Description: 
 Gnuplot is a portable command-line driven interactive data and function plotting utility.
 
-## Files: 
+### Files: 
 * /usr/bin/gnuplot
 * /usr/lib/gnuplot/gnuplot/5.4/gnuplot_qt
 * /usr/lib/gnuplot/gnuplot/5.4/gnuplot_x11

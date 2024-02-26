@@ -14,9 +14,10 @@ sha1sum = "7323d10e65f9c09a2e7893d7be856aac639666a6"
 depends = "['bzip2', 'geoip', 'libldap>=2.5.4', 'lua>=5.4', 'mariadb-libs>=10.3.14', 'openssl>=3.1.0', 'pam', 'pcre>=8.30', 'xfsprogs-attr']"
 license = "BSD"
 +++
+### Description: 
 A webserver designed and optimized for high performance environments.
 
-## Files: 
+### Files: 
 * /etc/lighttpd/conf.d/access_log.conf
 * /etc/lighttpd/conf.d/auth.conf
 * /etc/lighttpd/conf.d/cgi.conf

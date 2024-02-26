@@ -13,7 +13,8 @@ usize = "13797496"
 sha1sum = "89bebc4a273d28ebf901debe8eff2c8380b2e102"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang hrv
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/hrv.traineddata

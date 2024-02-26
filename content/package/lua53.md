@@ -14,9 +14,10 @@ sha1sum = "f29e4d5c91b6b09153905d011cb4fe32b82b4541"
 depends = "['glibc>=2.34', 'ncurses>=6.0-18', 'readline>=8.0']"
 reverse_depends = "['apache']"
 +++
+### Description: 
 A powerful light-weight programming language designed for extending applications.
 
-## Files: 
+### Files: 
 * /usr/bin/lua5.3
 * /usr/bin/luac5.3
 * /usr/include/lua5.3/lauxlib.h

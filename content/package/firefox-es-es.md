@@ -14,7 +14,8 @@ sha1sum = "2a97db7a9950f7aeac9ed6c182a51f51b9b68bed"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Castilian Spanish language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-es-ES@firefox.mozilla.org.xpi

@@ -14,9 +14,10 @@ sha1sum = "d0c27c6ca5d5c1c851c930f428eaf63820336e86"
 depends = "['libxkbfile>=1.0.9-2']"
 license = "GPL2"
 +++
+### Description: 
 X.Org xwd application
 
-## Files: 
+### Files: 
 * /usr/bin/xwd
 * /usr/share/doc/xwd-1.0.9/ChangeLog
 * /usr/share/doc/xwd-1.0.9/COPYING

@@ -14,9 +14,10 @@ sha1sum = "666f3b22c1f4ca1d8d0f32cdb5603db02234ae10"
 depends = "['libusb1>=1.0.22-2']"
 reverse_depends = "['clightd', 'ddcutil', 'gnokii', 'gnupg2', 'hplip', 'keepassxc', 'libiio', 'libu2f-host', 'libykneomgr', 'libyubikey', 'lirc', 'openrgb', 'resetmsmice', 'usbutils']"
 +++
+### Description: 
 A library which allows userspace application access to USB devices
 
-## Files: 
+### Files: 
 * /usr/bin/libusb-config
 * /usr/include/usb.h
 * /usr/lib/libusb-0.1.so.4

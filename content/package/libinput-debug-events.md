@@ -13,9 +13,10 @@ usize = "104752"
 sha1sum = "a7d40f98eec3a4352376fb2bba2d34b198982a9e"
 depends = "['gtk+3', 'libevdev', 'libinput']"
 +++
+### Description: 
 Event debug tool for libinput
 
-## Files: 
+### Files: 
 * /usr/bin/libinput-debug-events
 * /usr/lib/libinput/libinput/libinput-debug-events
 * /usr/lib/libinput/libinput/libinput-debug-gui

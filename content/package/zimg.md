@@ -14,9 +14,10 @@ sha1sum = "00c0a96e9002f14f952ecfacfc040c3f4ee24268"
 depends = "['glibc']"
 reverse_depends = "['ffmpeg']"
 +++
+### Description: 
 Scaling, colorspace conversion, and dithering library
 
-## Files: 
+### Files: 
 * /usr/include/zimg++.hpp
 * /usr/include/zimg.h
 * /usr/lib/libzimg.so

@@ -14,9 +14,10 @@ sha1sum = "d10756b269eb871780dd699638fb94e9a4b44bb5"
 depends = "[]"
 reverse_depends = "['lib32-libldap', 'lib32-libmpg123', 'lib32-libpulse']"
 +++
+### Description: 
 A generic library support script ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/libtool
 * /usr/i686-frugalware-linux/bin/libtoolize
 * /usr/i686-frugalware-linux/include/libltdl/lt_dlloader.h

@@ -14,9 +14,10 @@ sha1sum = "e783495ff4177a33c3202fe3590d592b5efb3118"
 depends = "['lib32-glib2', 'lib32-libjpeg-turbo', 'lib32-libpng', 'lib32-libtiff', 'lib32-libx11', 'lib32-shared-mime-info']"
 reverse_depends = "['lib32-gtk+2-libs']"
 +++
+### Description: 
 An image loading library ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/gdk-pixbuf-csource
 * /usr/i686-frugalware-linux/bin/gdk-pixbuf-pixdata
 * /usr/i686-frugalware-linux/bin/gdk-pixbuf-query-loaders

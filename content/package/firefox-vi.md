@@ -14,7 +14,8 @@ sha1sum = "a4c459d551ca90977d9f4492d2ea6d903513f2cd"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Vietnamese language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-vi@firefox.mozilla.org.xpi

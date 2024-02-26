@@ -14,9 +14,10 @@ sha1sum = "18b6834146727a0a83f9c917e735bbe50ed9f042"
 depends = "['glib2>=2.60.3']"
 reverse_depends = "['digikam']"
 +++
+### Description: 
 A seam-carving C/C++ library called Liquid Rescale
 
-## Files: 
+### Files: 
 * /usr/include/lqr-1/lqr.h
 * /usr/include/lqr-1/lqr/lqr_base.h
 * /usr/include/lqr-1/lqr/lqr_carver_bias_pub.h

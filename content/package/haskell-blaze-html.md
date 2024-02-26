@@ -14,9 +14,10 @@ sha1sum = "4640bd69157c966f808405a711e951dab512a524"
 depends = "['haskell-blaze-markup']"
 reverse_depends = "['haskell-wai-app-static', 'haskell-xml-conduit']"
 +++
+### Description: 
 A blazingly fast HTML combinator library for Haskell
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/blaze-html-0.9.1.2/libHSblaze-html-0.9.1.2-L4oXEreADQPJlVChpVSTHc.a
 * /usr/lib/ghc-9.8.1/site-local/blaze-html-0.9.1.2/Text/Blaze/Html.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/blaze-html-0.9.1.2/Text/Blaze/Html.hi

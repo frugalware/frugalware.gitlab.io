@@ -14,9 +14,10 @@ sha1sum = "72e6879be9c5484d2872fc203e0dfb34326ced7e"
 depends = "['bridge-utils', 'btrfs-progs>=4.10-2', 'containerd', 'iproute2', 'libnetwork', 'lvm2', 'runc', 'sqlite3', 'tini']"
 reverse_depends = "['docker-compose']"
 +++
+### Description: 
 Docker - the Linux container runtime
 
-## Files: 
+### Files: 
 * /etc/sysconfig/dockerd
 * /usr/bin/docker
 * /usr/bin/dockerd

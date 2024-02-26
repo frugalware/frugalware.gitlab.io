@@ -13,7 +13,8 @@ usize = "88752"
 sha1sum = "0c14f87428ce1b630f7921dd9c8e1f52e9d312f0"
 depends = "['gst1-plugins-base', 'libcamera']"
 +++
+### Description: 
 libcamera gstreamer plugin
 
-## Files: 
+### Files: 
 * /usr/lib/gstreamer-1.0/libgstlibcamera.so

@@ -13,8 +13,9 @@ usize = "48093"
 sha1sum = "c98590309170ced9d3a20f5a7c4f2340440ecbca"
 depends = "['knotifications>=5.115.0', 'kpty>=5.115.0', 'oxygen-sounds>=5.27.10']"
 +++
+### Description: 
 Daemon listening for wall and write messages.
 
-## Files: 
+### Files: 
 * /usr/lib/qt5/plugins/kf5/kded/kwrited.so
 * /usr/share/knotifications5/kwrited.notifyrc

@@ -13,9 +13,10 @@ usize = "84853343"
 sha1sum = "b59731ab248ced60036d1e768a73bef2a2337d22"
 depends = "['alsa-lib', 'swt']"
 +++
+### Description: 
 TuxGuitar is a multitrack guitar tablature editor and player written in Java-SWT.
 
-## Files: 
+### Files: 
 * /usr/bin/tuxguitar
 * /usr/share/applications/tuxguitar.desktop
 * /usr/share/doc/tuxguitar-1.5.6/AUTHORS

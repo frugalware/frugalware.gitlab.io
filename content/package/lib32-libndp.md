@@ -14,9 +14,10 @@ sha1sum = "eb8fe866686ab1e38a7b398068f8b5fa8b7f1146"
 depends = "[]"
 reverse_depends = "['lib32-networkmanager']"
 +++
+### Description: 
 This package contains a library which provides a wrapper for IPv6 Neighbor Discovery Protocol. ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/lib32/libndp.so
 * /usr/lib32/libndp.so.0
 * /usr/lib32/libndp.so.0.2.0

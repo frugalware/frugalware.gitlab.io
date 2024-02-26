@@ -14,9 +14,10 @@ sha1sum = "fd4e84996f7ad4bb1548eb80a2b1fdf08a9c6263"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-sphinx']"
 +++
+### Description: 
 Python Sphinx Read The Docs Theme
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/alabaster-0.7.13-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/alabaster-0.7.13-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/alabaster-0.7.13-py3.12.egg-info/PKG-INFO

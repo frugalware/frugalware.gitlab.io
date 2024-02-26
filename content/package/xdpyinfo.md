@@ -15,9 +15,10 @@ depends = "['libxtst>=1.2.2-2']"
 reverse_depends = "['screenfetch']"
 license = "GPL2"
 +++
+### Description: 
 X.Org xdpyinfo application
 
-## Files: 
+### Files: 
 * /usr/bin/xdpyinfo
 * /usr/share/doc/xdpyinfo-1.3.4/ChangeLog
 * /usr/share/doc/xdpyinfo-1.3.4/COPYING

@@ -14,9 +14,10 @@ sha1sum = "5f97047f9770bcd01c8e58f17bf35b9b8b2e57cd"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['libmpack-lua']"
 +++
+### Description: 
 Simple implementation of msgpack in C
 
-## Files: 
+### Files: 
 * /usr/include/mpack.h
 * /usr/lib/libmpack.so
 * /usr/lib/libmpack.so.0

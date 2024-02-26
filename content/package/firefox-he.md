@@ -14,7 +14,8 @@ sha1sum = "d1a405a5ff77d9cf747fef7e1e3044d1de2d5475"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Hebrew language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-he@firefox.mozilla.org.xpi

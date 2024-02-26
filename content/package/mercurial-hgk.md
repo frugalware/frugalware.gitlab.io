@@ -13,8 +13,9 @@ usize = "125253"
 sha1sum = "a59a19dd4d0ca85671ca39d0212fdb0b4b2809c3"
 depends = "['mercurial', 'tk']"
 +++
+### Description: 
 Graphical repository and history browser based on gitk.
 
-## Files: 
+### Files: 
 * /usr/bin/hgk
 * /usr/lib/python3.12/site-packages/hgext/hgk.py

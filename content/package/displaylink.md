@@ -13,9 +13,10 @@ usize = "15099567"
 sha1sum = "bdbc828cf349c55c84892662d3efc2dfac975429"
 depends = "['evdi']"
 +++
+### Description: 
 Linux driver for DL-6xxx, DL-5xxx, DL-41xx and DL-3x00
 
-## Files: 
+### Files: 
 * /etc/udev/rules.d/99-displaylink.rules
 * /opt/displaylink/udev.sh
 * /usr/lib/displaylink/DisplayLinkManager

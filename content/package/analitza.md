@@ -14,9 +14,10 @@ sha1sum = "0b997c3e7e7585d7b739bea6e4a75a817dcc9fda"
 depends = "['eigen>=3.2.9-3', 'qt5-declarative>=5.15.12', 'qt5-svg>=5.15.12']"
 reverse_depends = "['cantor', 'kalgebra']"
 +++
+### Description: 
 Shared Math libraries from Kalgebra.
 
-## Files: 
+### Files: 
 * /usr/include/Analitza5/analitza/abstractexpressionvisitor.h
 * /usr/include/Analitza5/analitza/abstractlexer.h
 * /usr/include/Analitza5/analitza/analitzaexport.h

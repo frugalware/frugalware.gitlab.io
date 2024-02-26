@@ -14,7 +14,8 @@ sha1sum = "03f97e97af112c6f524e4eada0139f18478ace9c"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
+### Description: 
 Catalan language support for Thunderbird
 
-## Files: 
+### Files: 
 * /usr/lib/thunderbird/extensions/langpack-ca@thunderbird.mozilla.org.xpi

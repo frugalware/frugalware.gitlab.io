@@ -13,7 +13,8 @@ usize = "18728"
 sha1sum = "7fc9b8230a5e12b0750981f9934be2e1520a7cce"
 depends = "['libssh2', 'libxml2', 'uwsgi']"
 +++
+### Description: 
 UWSGI Airbrake Plugin
 
-## Files: 
+### Files: 
 * /usr/lib/uwsgi/airbrake_plugin.so

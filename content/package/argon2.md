@@ -15,9 +15,10 @@ depends = "['glibc>=2.35']"
 reverse_depends = "['cryptsetup-luks', 'keepassxc', 'opendht']"
 license = "custom:CC0"
 +++
+### Description: 
 A password-hashing function (reference C implementation)
 
-## Files: 
+### Files: 
 * /usr/bin/argon2
 * /usr/include/argon2.h
 * /usr/lib/libargon2.so

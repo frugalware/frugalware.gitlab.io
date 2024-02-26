@@ -14,9 +14,10 @@ sha1sum = "be1664ca7a8aabffa4a9564b2a337ed2885b60e7"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-setuptools']"
 +++
+### Description: 
 A small Python module for determining appropriate platform-specific dirs, e.g. a 'usr data dir'
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/appdirs-1.4.4-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/appdirs-1.4.4-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/appdirs-1.4.4-py3.12.egg-info/SOURCES.txt

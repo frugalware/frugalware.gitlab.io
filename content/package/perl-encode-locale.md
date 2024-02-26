@@ -14,9 +14,10 @@ sha1sum = "9b42cf6ba5d451744318e3ccdebf5b0f422162b7"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-http-message']"
 +++
+### Description: 
 Determine the locale encoding.
 
-## Files: 
+### Files: 
 * /usr/lib/perl5/site_perl/current/Encode/Locale.pm
 * /usr/share/doc/perl-encode-locale-1.05/MANIFEST
 * /usr/share/doc/perl-encode-locale-1.05/README

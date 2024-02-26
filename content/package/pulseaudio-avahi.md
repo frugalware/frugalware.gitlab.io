@@ -13,9 +13,10 @@ usize = "178512"
 sha1sum = "dea154509a52b7a39afd97dc7d37f922af965776"
 depends = "['avahi>=0.6.31-7', 'openssl>=1.1.1', 'pulseaudio>=17.0']"
 +++
+### Description: 
 avahi module for PulseAudio sound server
 
-## Files: 
+### Files: 
 * /usr/lib/pulseaudio/modules/libavahi-wrap.so
 * /usr/lib/pulseaudio/modules/libraop.so
 * /usr/lib/pulseaudio/modules/module-raop-discover.so

@@ -14,9 +14,10 @@ sha1sum = "d1b6786e0d554da747222adc53f26e4edb24bc14"
 depends = "[]"
 license = "GPL2"
 +++
+### Description: 
 KXML Editor is application for KDE, that display and edit
 
-## Files: 
+### Files: 
 * usr/bin/kxmleditor
 * usr/lib/libkxmleditorpart.la
 * usr/lib/libkxmleditorpart.so

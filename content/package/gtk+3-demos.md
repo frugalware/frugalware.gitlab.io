@@ -13,8 +13,9 @@ usize = "3422856"
 sha1sum = "58ece78b3cfbe86ba0421afba0ea897cb5c38b01"
 depends = "['gdk-pixbuf2>=2.38.1-2', 'gtk+3>=3.24.41', 'libepoxy>=1.3.1-3', 'libffi>=3.2.1-2', 'pango>=1.42.0']"
 +++
+### Description: 
 GTK+3 Demos.
 
-## Files: 
+### Files: 
 * /usr/bin/gtk3-demo
 * /usr/bin/gtk3-demo-application

@@ -13,7 +13,8 @@ usize = "584296"
 sha1sum = "92dfa30a33ee7abddf0e7ea38b3da3e1f26c66b2"
 depends = "[]"
 +++
+### Description: 
 Static files for libassuan
 
-## Files: 
+### Files: 
 * /usr/lib/libassuan.a

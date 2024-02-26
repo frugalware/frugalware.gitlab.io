@@ -13,9 +13,10 @@ usize = "5347230"
 sha1sum = "e7453e2dccd2aa4d6d543253fad9e31d5c8f6bc0"
 depends = "['glibc']"
 +++
+### Description: 
 Tool for smooth git handover.
 
-## Files: 
+### Files: 
 * /usr/bin/mob
 * /usr/share/doc/mob-4.4.6/LICENSE
 * /usr/share/doc/mob-4.4.6/README.md

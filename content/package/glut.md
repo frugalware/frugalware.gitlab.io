@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "624f50cea71ae33771d5639beeb5bc01bff4d9bb"
 depends = "['glibc']"
 +++
+### Description: 
 Provides functionality for small OpenGL programs
 
-## Files: 
+### Files: 
 * usr/share/doc/glut-3.7/AUTHORS
 * usr/share/doc/glut-3.7/CHANGES
 * usr/share/doc/glut-3.7/COPYING

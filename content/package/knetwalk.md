@@ -13,9 +13,10 @@ usize = "1735232"
 sha1sum = "a3dffe83bbee06bf30b993028e0a450a5a7ccde0"
 depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5']"
 +++
+### Description: 
 Connect all the terminals to the server, in as few turns as possible.
 
-## Files: 
+### Files: 
 * /usr/bin/knetwalk
 * /usr/share/applications/org.kde.knetwalk.desktop
 * /usr/share/doc/HTML/ca/knetwalk/index.cache.bz2

@@ -13,7 +13,8 @@ usize = "72856"
 sha1sum = "37ee3b3865c882d35145eab4f88cac12256e3dc9"
 depends = "['ruby>=3.3.0', 'uwsgi']"
 +++
+### Description: 
 UWSGI Ruby Rack Plugin
 
-## Files: 
+### Files: 
 * /usr/lib/uwsgi/rack_plugin.so

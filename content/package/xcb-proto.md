@@ -14,9 +14,10 @@ sha1sum = "1fc006e88c47cf5ff97c8a4c5149b7f2f76774ca"
 depends = "['libpthread-stubs', 'python3>=3.12']"
 reverse_depends = "['x11-protos']"
 +++
+### Description: 
 X.org X protocol descriptions for XCB
 
-## Files: 
+### Files: 
 * /usr/lib/pkgconfig/xcb-proto.pc
 * /usr/lib/python3.12/site-packages/xcbgen/align.py
 * /usr/lib/python3.12/site-packages/xcbgen/error.py

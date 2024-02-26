@@ -13,9 +13,10 @@ usize = "27304"
 sha1sum = "784a750c636a8f1d23607e18b09d8daac44f5d1d"
 depends = "['bash', 'gawk', 'iputils']"
 +++
+### Description: 
 A ping wrapper making the output prettier, more colorful, more compact, and easier to read.
 
-## Files: 
+### Files: 
 * /usr/bin/prettyping
 * /usr/share/doc/prettyping-1.0.1/LICENSE
 * /usr/share/doc/prettyping-1.0.1/README.md

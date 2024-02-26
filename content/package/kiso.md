@@ -13,9 +13,10 @@ usize = "992390"
 sha1sum = "003a57c7f24592e1a3f0dda4e1577a2e05b4b6b0"
 depends = "['libcdio>=0.81-1']"
 +++
+### Description: 
 To make creating, extracting and editing of ISO-Images as easy as possible.
 
-## Files: 
+### Files: 
 * usr/bin/kiso
 * usr/share/applnk/Utilities/kiso.desktop
 * usr/share/apps/kiso/Icons/cd.mng

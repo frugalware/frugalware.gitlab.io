@@ -14,9 +14,10 @@ sha1sum = "b1c5fca309fa53d6d8f7b840b9250fa6121a3839"
 depends = "['gobject-introspection', 'libgusb', 'nss', 'pixman']"
 reverse_depends = "['fprintd']"
 +++
+### Description: 
 Fingerprint Reader Library
 
-## Files: 
+### Files: 
 * /usr/include/libfprint-2/fp-context.h
 * /usr/include/libfprint-2/fp-device.h
 * /usr/include/libfprint-2/fp-enums.h

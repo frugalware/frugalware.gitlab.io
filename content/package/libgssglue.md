@@ -14,9 +14,10 @@ sha1sum = "88ec1abb4f0f4b8ac9ae287e106873f077add9c9"
 depends = "['glibc>=2.34']"
 reverse_depends = "['libkrb5', 'libtirpc']"
 +++
+### Description: 
 Generic Security Services GLUE.
 
-## Files: 
+### Files: 
 * /etc/gssapi_mech.conf
 * /usr/include/gssglue/gssapi/gssapi.h
 * /usr/lib/libgssglue.so

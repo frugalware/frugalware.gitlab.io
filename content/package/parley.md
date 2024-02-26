@@ -13,9 +13,10 @@ usize = "12534384"
 sha1sum = "a5a5276280d85467402515a105571b42174600e1"
 depends = "['kcmutils>=5.115.0', 'knewstuff>=5.115.0', 'kross>=5.115.0', 'libkeduvocdocument>=23.08.5', 'qt5-multimedia>=5.15.12', 'qt5-webengine>=5.15.12']"
 +++
+### Description: 
 Vocabulary Trainer.
 
-## Files: 
+### Files: 
 * /usr/bin/parley
 * /usr/share/applications/org.kde.parley.desktop
 * /usr/share/config.kcfg/documentsettings.kcfg

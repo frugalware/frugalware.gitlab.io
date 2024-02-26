@@ -15,9 +15,10 @@ depends = "['libinput>=1.14.1', 'libudev>=242', 'xorg-server>=1.20.4-3']"
 reverse_depends = "['plasma-workspace']"
 license = "GPL2"
 +++
+### Description: 
 X.Org driver for libinput input devices
 
-## Files: 
+### Files: 
 * /usr/include/xorg/libinput-properties.h
 * /usr/lib/pkgconfig/xorg-libinput.pc
 * /usr/lib/xorg/modules/input/libinput_drv.so

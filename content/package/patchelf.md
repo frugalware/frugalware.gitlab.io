@@ -14,9 +14,10 @@ sha1sum = "d0ba86e48d121f3573a2761f99969d0a974b503a"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['meson-python', 'python3-pypatchelf']"
 +++
+### Description: 
 Small utility to modify the dynamic linker and RPATH of ELF executables
 
-## Files: 
+### Files: 
 * /usr/bin/patchelf
 * /usr/share/doc/patchelf-0.18.0/COPYING
 * /usr/share/doc/patchelf-0.18.0/README.md

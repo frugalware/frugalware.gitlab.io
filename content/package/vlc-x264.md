@@ -13,8 +13,9 @@ usize = "97840"
 sha1sum = "e660c6dda3106beec923636eced8891de9f47c19"
 depends = "['libvlc>=3.0.20', 'x264>=20230712.ga8b68eb']"
 +++
+### Description: 
 vlc x264 support
 
-## Files: 
+### Files: 
 * /usr/lib/vlc/plugins/codec/libx26410b_plugin.so
 * /usr/lib/vlc/plugins/codec/libx264_plugin.so

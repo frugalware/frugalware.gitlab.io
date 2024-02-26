@@ -14,7 +14,8 @@ sha1sum = "3f7d87487321bb80259bb0eef4baead6f3c0fa51"
 depends = "['libcanberra>=0.30', 'libpulse>=12.2-9']"
 reverse_depends = "['plasma-pa']"
 +++
+### Description: 
 pulseaudio libcanberra
 
-## Files: 
+### Files: 
 * /usr/lib/libcanberra-0.30/libcanberra-pulse.so

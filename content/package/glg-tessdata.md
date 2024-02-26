@@ -13,7 +13,8 @@ usize = "8075014"
 sha1sum = "e50b98e3c4804003d1ec61189c45857a8a00f21b"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang glg
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/glg.traineddata

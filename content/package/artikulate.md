@@ -13,9 +13,10 @@ usize = "2549402"
 sha1sum = "38902612a4ed53b00cff0b438c08f0b7359c763a"
 depends = "['kdeclarative>=5.115.0', 'knewstuff>=5.115.0', 'qt5-gstreamer>=1.2.0', 'qt5-multimedia>=5.15.12', 'qt5-xmlpatterns>=5.15.12']"
 +++
+### Description: 
 Memory Enhancement Game.
 
-## Files: 
+### Files: 
 * /usr/bin/artikulate
 * /usr/bin/artikulate_editor
 * /usr/lib/libartikulatecore.so.0

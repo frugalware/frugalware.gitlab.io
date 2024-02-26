@@ -13,9 +13,10 @@ usize = "487403"
 sha1sum = "65eabda33d3374e2a26dd6704f9ab608d13c1f77"
 depends = "['fontconfig', 'mkfontscale']"
 +++
+### Description: 
 Several free fonts by Brian M. Zick
 
-## Files: 
+### Files: 
 * /usr/share/fonts/X11/TTF/AlpineText.ttf
 * /usr/share/fonts/X11/TTF/Lubitel.ttf
 * /usr/share/fonts/X11/TTF/Neuton-Italic.ttf

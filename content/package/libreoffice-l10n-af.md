@@ -13,9 +13,10 @@ usize = "3942256"
 sha1sum = "4c8d76a01ff70e26a5c1db8593702d12f920c3b5"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Afrikaans support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/resource/af/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/af/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/af/LC_MESSAGES/basctl.mo

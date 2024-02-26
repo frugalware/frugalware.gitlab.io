@@ -13,9 +13,10 @@ usize = "15954147"
 sha1sum = "a0995b8d7cb176d9a3bb8a0ed651f4b48fd0ee24"
 depends = "['ghc>=9.6.2']"
 +++
+### Description: 
 Alex is a tool for generating lexical analysers in Haskell
 
-## Files: 
+### Files: 
 * /usr/bin/alex
 * /usr/share/doc/haskell-alex-3.4.0.1/LICENSE
 * /usr/share/doc/haskell-alex-3.4.0.1/README.md

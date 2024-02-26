@@ -14,9 +14,10 @@ sha1sum = "2d9e58c18853e3bdeace7fd418fa1a5b1bcaadf6"
 depends = "['curl', 'gimp', 'openblas', 'opencv>=4.9.0', 'openexr>=3.2.0']"
 reverse_depends = "['darktable']"
 +++
+### Description: 
 Image procession framework
 
-## Files: 
+### Files: 
 * /usr/bin/gmic
 * /usr/bin/gmic_qt
 * /usr/bin/zart

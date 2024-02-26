@@ -14,9 +14,10 @@ sha1sum = "31f4c399dd2232decb617566c9c2cac3415ee5f9"
 depends = "['python3-lazy-object-proxy', 'python3-six', 'python3-wrapt']"
 reverse_depends = "['lutris', 'pylint']"
 +++
+### Description: 
 Python Abstract Syntax Tree New Generation.
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/astroid-3.0.1.dist-info/CONTRIBUTORS.txt
 * /usr/lib/python3.12/site-packages/astroid-3.0.1.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/astroid-3.0.1.dist-info/METADATA

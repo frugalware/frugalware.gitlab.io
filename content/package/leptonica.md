@@ -14,9 +14,10 @@ sha1sum = "d42560e2bed61180e575c3b919e6e48b7fed5320"
 depends = "['libgif', 'libjpeg-turbo', 'libpng', 'libtiff']"
 reverse_depends = "['tesseract-ocr']"
 +++
+### Description: 
 Software that is broadly useful for image processing and image analysis applications
 
-## Files: 
+### Files: 
 * /usr/bin/convertfilestopdf
 * /usr/bin/convertfilestops
 * /usr/bin/convertformat

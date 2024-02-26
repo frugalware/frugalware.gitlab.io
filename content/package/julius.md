@@ -13,9 +13,10 @@ usize = "2412764"
 sha1sum = "788cd5830ac38a838aec1983b88169e9a0d444f1"
 depends = "['libpng', 'sdl2_mixer']"
 +++
+### Description: 
 An open source re-implementation of Caesar III
 
-## Files: 
+### Files: 
 * /usr/bin/julius
 * /usr/share/applications/com.github.bvschaik.julius.desktop
 * /usr/share/doc/julius-1.7.0/README.md

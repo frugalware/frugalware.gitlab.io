@@ -13,9 +13,10 @@ usize = "7572578"
 sha1sum = "49f3d8e016e9d94b58905f9109b2a4915643d8f3"
 depends = "[]"
 +++
+### Description: 
 Man pages are online documentation for Linux
 
-## Files: 
+### Files: 
 * /usr/local/share/man/man1/getent.1
 * /usr/local/share/man/man1/iconv.1
 * /usr/local/share/man/man1/intro.1

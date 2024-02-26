@@ -13,8 +13,9 @@ usize = "2425"
 sha1sum = "59be9ecd523a717d9e3a7172d7b042fe58426d6c"
 depends = "['get_steam', 'lib32-cairo', 'lib32-curl', 'lib32-dbus-glib', 'lib32-gconf', 'lib32-gtk+2-libs', 'lib32-libcups', 'lib32-libgcrypt15', 'lib32-libpng12', 'lib32-libpulse', 'lib32-libsm', 'lib32-libudev0-shim', 'lib32-libusb1', 'lib32-libva', 'lib32-libxcrypt-compat', 'lib32-libxscrnsaver', 'lib32-libxtst', 'lib32-networkmanager', 'lib32-nss', 'libselinux']"
 +++
+### Description: 
 Native replacement for the Steam runtime
 
-## Files: 
+### Files: 
 * /usr/bin/steam-native
 * /usr/share/applications/steam-native.desktop

@@ -14,9 +14,10 @@ sha1sum = "9319c4056f8ec30226703da132dd5c77009afe38"
 depends = "['python3']"
 license = "GPL"
 +++
+### Description: 
 A command line client for Amazon S3
 
-## Files: 
+### Files: 
 * /usr/bin/s3cmd
 * /usr/lib/python3.12/site-packages/S3/AccessLog.py
 * /usr/lib/python3.12/site-packages/S3/ACL.py

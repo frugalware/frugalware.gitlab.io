@@ -13,9 +13,10 @@ usize = "6221642"
 sha1sum = "fb1aa2649deded74d3239ea42b6b3f0801bb5a8c"
 depends = "['icu4c>=74.1', 'kactivities5>=5.115.0', 'kcmutils>=5.115.0', 'kconfig>=5.115.0', 'kconfigwidgets>=5.115.0', 'kcoreaddons>=5.115.0', 'kdelibs4support>=5.115.0', 'ki18n>=5.115.0', 'kio>=5.115.0', 'knewstuff>=5.115.0', 'kross>=5.115.0', 'krunner5>=5.115.0', 'kservice>=5.115.0', 'kunitconversion>=5.115.0', 'plasma-workspace>=5.27.10', 'purpose>=5.115.0', 'qt5-x11extras>=5.15.12']"
 +++
+### Description: 
 Plasma AddOns
 
-## Files: 
+### Files: 
 * /usr/include/plasma/potdprovider/plasma_potd_export.h
 * /usr/include/plasma/potdprovider/potdprovider.h
 * /usr/lib/cmake/PlasmaPotdProvider/PlasmaPotdProviderConfig.cmake

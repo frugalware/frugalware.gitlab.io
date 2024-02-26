@@ -14,9 +14,10 @@ sha1sum = "5eaff3252a2e1b0847d87724202f08cc90511f64"
 depends = "['glibc>=2.34']"
 reverse_depends = "['a2ps', 'cups', 'ghostscript', 'libgs', 'texlive']"
 +++
+### Description: 
 The paper library provides a simple way for applications to take actions based on a user-defined paper size
 
-## Files: 
+### Files: 
 * /usr/bin/paperconf
 * /usr/bin/paperconfig
 * /usr/include/paper.h

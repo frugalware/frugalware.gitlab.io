@@ -14,9 +14,10 @@ sha1sum = "d67ec3cecd4943ed165e277dbfa2c82285309a66"
 depends = "['qt5-declarative']"
 reverse_depends = "['koko', 'neochat', 'skanpage']"
 +++
+### Description: 
 QML image editing components
 
-## Files: 
+### Files: 
 * /usr/lib/cmake/KQuickImageEditor/KQuickImageEditorConfig.cmake
 * /usr/lib/cmake/KQuickImageEditor/KQuickImageEditorConfigVersion.cmake
 * /usr/share/doc/kquickimageeditor-0.3.0/README.md

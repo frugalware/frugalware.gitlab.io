@@ -14,9 +14,10 @@ sha1sum = "2b18d002a5ca674af8d0df77157d34544d29963e"
 depends = "['sdl2>=1.2.12']"
 reverse_depends = "['freeciv', 'lincity-ng']"
 +++
+### Description: 
 SDL graphics drawing primitives and other support functions
 
-## Files: 
+### Files: 
 * /usr/include/SDL2/SDL2_framerate.h
 * /usr/include/SDL2/SDL2_gfxPrimitives.h
 * /usr/include/SDL2/SDL2_imageFilter.h

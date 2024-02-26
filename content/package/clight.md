@@ -14,9 +14,10 @@ sha1sum = "cb1aa3066f758fee2ea19f8b54da7d8f2fef5963"
 depends = "['clightd', 'geoclue2', 'gsl>=2.7.1', 'hicolor-icon-theme', 'libconfig', 'popt', 'upower']"
 reverse_depends = "['clight-gui']"
 +++
+### Description: 
 A C daemon that turns your webcam into a light sensor. It can also change
 
-## Files: 
+### Files: 
 * /etc/clight/clight.conf
 * /etc/clight/modules.conf.d/backlight.conf
 * /etc/clight/modules.conf.d/daytime.conf

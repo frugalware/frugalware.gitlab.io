@@ -13,9 +13,10 @@ usize = "11508474"
 sha1sum = "9235892c927ddba48b5e51547b7f19d4717e73db"
 depends = "[]"
 +++
+### Description: 
 Slovenian Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/apps/katepart/syntax/logohighlightstyle.sl.xml
 * usr/share/apps/khangman/data/sl/animals.kvtml
 * usr/share/apps/khangman/data/sl/easy.kvtml

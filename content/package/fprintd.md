@@ -13,9 +13,10 @@ usize = "811041"
 sha1sum = "17b43b68c56acbeceb42738a45dac70c57ce3b1f"
 depends = "['libfprint>=0.6.0', 'libgudev', 'polkit>=0.113-5']"
 +++
+### Description: 
 D-Bus daemon that offers libfprint functionality over the D-Bus interprocess communication bus.
 
-## Files: 
+### Files: 
 * /etc/fprintd.conf
 * /usr/bin/fprintd-delete
 * /usr/bin/fprintd-enroll

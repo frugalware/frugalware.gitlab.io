@@ -13,9 +13,10 @@ usize = "36147669"
 sha1sum = "c27c8876f522a11bf7253bec8e44d6644f7485dd"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Portuguese (Brazil) support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/help/pt-BR/default.css
 * /usr/lib/libreoffice/help/pt-BR/err.html
 * /usr/lib/libreoffice/help/pt-BR/highcontrast1.css

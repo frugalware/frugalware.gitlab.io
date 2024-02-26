@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "f56ca59d187d787abcb92a47a8ee76f21270a58a"
 depends = "[]"
 +++
+### Description: 
 Esperanto Localization for KOffice. 
 
-## Files: 
+### Files: 
 * usr/share/locale/eo/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/eo/LC_MESSAGES/example.mo
 * usr/share/locale/eo/LC_MESSAGES/kchart.mo

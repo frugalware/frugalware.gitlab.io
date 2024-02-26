@@ -13,9 +13,10 @@ usize = "238406"
 sha1sum = "43785688ab70e3d019e902aea463916b6e3bc6a9"
 depends = "['knotifications']"
 +++
+### Description: 
 Tooling for monitoring inotify limits and informing the user when they have been or about to be reached
 
-## Files: 
+### Files: 
 * /usr/bin/kde-inotify-survey
 * /usr/lib/kf5/kauth/kded-inotify-helper
 * /usr/lib/qt5/plugins/kf5/kded/inotify.so

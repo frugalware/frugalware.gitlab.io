@@ -14,9 +14,10 @@ sha1sum = "a3dffb65a7bb7ce93231658cfab9aea4cc4b7b4f"
 depends = "['ffmpeg', 'sdl2']"
 reverse_depends = "['wine', 'wine-devel']"
 +++
+### Description: 
 XAudio2 reimplementation
 
-## Files: 
+### Files: 
 * /usr/include/F3DAudio.h
 * /usr/include/FACT.h
 * /usr/include/FACT3D.h

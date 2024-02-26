@@ -14,9 +14,10 @@ sha1sum = "903d3ab6a32f7daff0e970de93bbbf8b89836539"
 depends = "['python3']"
 reverse_depends = "['duplicity']"
 +++
+### Description: 
 GnuPGInterface is a Python module to interface with GnuPG.
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/GnuPGInterface-0.3.2-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/GnuPGInterface-0.3.2-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/GnuPGInterface-0.3.2-py3.12.egg-info/SOURCES.txt

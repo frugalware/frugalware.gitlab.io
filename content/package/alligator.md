@@ -13,9 +13,10 @@ usize = "415270"
 sha1sum = "a8ef55fcf3174c160edefc70522a2f7b563ca843"
 depends = "['kconfig>=', 'kcoreaddons>=', 'ki18n>=', 'kirigami-addons', 'syndication>=']"
 +++
+### Description: 
 Kirigami-based RSS reader
 
-## Files: 
+### Files: 
 * /usr/bin/alligator
 * /usr/share/applications/org.kde.alligator.desktop
 * /usr/share/doc/alligator-23.08.5/README.md

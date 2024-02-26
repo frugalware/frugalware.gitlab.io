@@ -13,7 +13,8 @@ usize = "18750699"
 sha1sum = "6355858fc0b14dae3c09a868d46073480c23b096"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang tur
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/tur.traineddata

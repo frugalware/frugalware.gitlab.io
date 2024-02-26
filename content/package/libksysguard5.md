@@ -14,9 +14,10 @@ sha1sum = "74eca924bdd88f4caa005b9f0c7051638f35d7ae"
 depends = "['kconfigwidgets>=5.115.0', 'knewstuff>=5.115.0', 'kwindowsystem>=5.115.0', 'libnl', 'libxres>=1.0.7-4', 'lmsensors', 'qt5-webengine>=5.15.12']"
 reverse_depends = "['kdevelop', 'ksysguard5', 'ksystemstats', 'plasma-vault', 'plasma-workspace']"
 +++
+### Description: 
 Task management and system monitoring library.
 
-## Files: 
+### Files: 
 * /usr/include/ksysguard/faces/FaceLoader.h
 * /usr/include/ksysguard/faces/SensorFaceController.h
 * /usr/include/ksysguard/faces/sensorfaces_export.h

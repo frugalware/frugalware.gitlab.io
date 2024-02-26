@@ -13,9 +13,10 @@ usize = "2050270"
 sha1sum = "be6ead9b33669a8be6e05b1bea1dd5d7df86ae94"
 depends = "['libkdegames>=23.08.5', 'libkmahjongg>=23.08.5']"
 +++
+### Description: 
 A solitaire-like game played using the standard set of Mahjong tiles.
 
-## Files: 
+### Files: 
 * /usr/bin/kshisen
 * /usr/share/applications/org.kde.kshisen.desktop
 * /usr/share/config.kcfg/kshisen.kcfg

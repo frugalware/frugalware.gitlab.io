@@ -13,9 +13,10 @@ usize = "1048740"
 sha1sum = "4fd6659f4d669dce64a4d26b7bc9d4076a1356c5"
 depends = "['qt5-multimedia>=5.15.10', 'qt5-qdbus>=5.15.10', 'qt5-websockets>=5.15.10']"
 +++
+### Description: 
 Snorenotify is a multi platform Qt notification framework.
 
-## Files: 
+### Files: 
 * /usr/bin/snorenotify
 * /usr/bin/snoresend
 * /usr/bin/snoresettings

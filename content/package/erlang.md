@@ -14,9 +14,10 @@ sha1sum = "ee33b58122003d3f4f2e6a788ce19ce568a6a6f6"
 depends = "['ncurses>=6.0-3', 'openssl>=3.1.0']"
 reverse_depends = "['elixir', 'erlang-odbc']"
 +++
+### Description: 
 A programming language designed at the Ericsson Computer Science Laboratory.
 
-## Files: 
+### Files: 
 * /usr/bin/beam
 * /usr/bin/ct_run
 * /usr/bin/dialyzer

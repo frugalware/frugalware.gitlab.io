@@ -13,9 +13,10 @@ usize = "147203753"
 sha1sum = "46f6a54521df64becc7a6387ef1dceb33120333f"
 depends = "['bash', 'openjre']"
 +++
+### Description: 
 Powerful build system for the JVM
 
-## Files: 
+### Files: 
 * /etc/profile.d/gradle.sh
 * /usr/bin/gradle
 * /usr/lib/gradle/bin/gradle

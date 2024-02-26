@@ -14,9 +14,10 @@ sha1sum = "331873c6d11b6988b27f561da340bd03dac25209"
 depends = "['haskell-tagged']"
 reverse_depends = "['haskell-bifunctors', 'haskell-these']"
 +++
+### Description: 
 assoc: swap and assoc: Symmetric and Semigroupy Bifunctors
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/assoc-1.1/Data/Bifunctor/Assoc.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/assoc-1.1/Data/Bifunctor/Assoc.hi
 * /usr/lib/ghc-9.8.1/site-local/assoc-1.1/Data/Bifunctor/Swap.dyn_hi

@@ -13,9 +13,10 @@ usize = "4668638"
 sha1sum = "877d8b94bb483d577ee6247c7a26d91a00070c33"
 depends = "['libkdegames>=23.08.5']"
 +++
+### Description: 
 A clone of the classic Bomberman game.
 
-## Files: 
+### Files: 
 * /usr/bin/granatier
 * /usr/share/applications/org.kde.granatier.desktop
 * /usr/share/config.kcfg/granatier.kcfg

@@ -14,9 +14,10 @@ sha1sum = "f0e85d4968aeafbaaa737c9e92f6a2c5c84593e7"
 depends = "['libsndfile', 'libstdc++>=9.1.0-3']"
 reverse_depends = "['easyeffects', 'ladspa-bs2b', 'qmmp']"
 +++
+### Description: 
 Library for Bauer stereophonic-to-binaural DSP.
 
-## Files: 
+### Files: 
 * /usr/bin/bs2bconvert
 * /usr/bin/bs2bstream
 * /usr/include/bs2b/bs2b.h

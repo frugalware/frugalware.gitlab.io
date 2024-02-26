@@ -14,9 +14,10 @@ sha1sum = "9408af37fff092cb2012449c9a388dfa606b315b"
 depends = "['libxml2=2.12.5', 'python3>=3.12']"
 reverse_depends = "['itstool']"
 +++
+### Description: 
 Python bindings for libxml2
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/drv_libxml2.py
 * /usr/lib/python3.12/site-packages/libxml2.py
 * /usr/lib/python3.12/site-packages/libxml2mod.so

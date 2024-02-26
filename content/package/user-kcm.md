@@ -13,9 +13,10 @@ usize = "375092"
 sha1sum = "3581915f2f48d3a2d2d985f41370adc9fa7ee851"
 depends = "['icu4c>=74.1', 'kauth>=5.111.0', 'kcmutils>=5.111.0', 'kconfigwidgets>=5.111.0', 'kiconthemes>=5.111.0', 'kitemmodels>=5.111.0', 'knotifications>=5.111.0']"
 +++
+### Description: 
 KCM module for User Management
 
-## Files: 
+### Files: 
 * /usr/lib/kf5/kauth/kcm_locale_authhelper
 * /usr/lib/kf5/kauth/kcm_users_authhelper
 * /usr/lib/qt5/plugins/kcm_locale.so

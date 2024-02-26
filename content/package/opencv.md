@@ -14,9 +14,10 @@ sha1sum = "7210ce0922f6f34a32eb3aa282777fbaed71d4d7"
 depends = "['eigen', 'ffmpeg', 'gdal', 'gst1-plugins-base', 'hdf5', 'intel-tbb', 'jasper>=2.0.10', 'jasper', 'libdc1394>=2.2.7', 'libglvnd', 'libgphoto2', 'libjpeg-turbo', 'libpng', 'libsm', 'libtiff', 'libwebp>=0.6.0', 'libxt', 'mesa-libglx', 'openexr>=3.2.0', 'protobuf>=3.2.0', 'qt6-5compat', 'tesseract-ocr', 'v4l-utils', 'vtk', 'xine-lib>=1.2.8-3', 'zlib>=1.2.12', 'zlib>=1.2.12']"
 reverse_depends = "['digikam', 'gmic', 'howdy', 'nomacs', 'opencv-cuda', 'opencv-python3', 'opencv-samples', 'openimageio', 'opentrack', 'performous']"
 +++
+### Description: 
 Intel(R) Open Source Computer Vision Library
 
-## Files: 
+### Files: 
 * /usr/bin/opencv_annotation
 * /usr/bin/opencv_interactive-calibration
 * /usr/bin/opencv_model_diagnostics

@@ -14,9 +14,10 @@ sha1sum = "3f69107145f181320202e17086591f562a1668c3"
 depends = "['haskell-blaze-html', 'haskell-crypton', 'haskell-file-embed', 'haskell-mime-types', 'haskell-optparse-applicative', 'haskell-wai-extra']"
 reverse_depends = "['haskell-servant-server']"
 +++
+### Description: 
 WAI application for static serving
 
-## Files: 
+### Files: 
 * /usr/bin/warp
 * /usr/lib/ghc-9.8.1/site-local/wai-app-static-3.1.8/libHSwai-app-static-3.1.8-DbCfvuhACZRGm9YZHtcBuB.a
 * /usr/lib/ghc-9.8.1/site-local/wai-app-static-3.1.8/Network/Wai/Application/Static.dyn_hi

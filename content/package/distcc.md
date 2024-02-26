@@ -14,9 +14,10 @@ sha1sum = "9a698bae19f457b2c9b8e3ac7b6c96cfeb63d1a1"
 depends = "['lzo', 'popt>=1.14-2', 'python3>=3.10', 'shadow>=4.1.2.1-2']"
 reverse_depends = "['distcc-gui']"
 +++
+### Description: 
 A distributed C, C++, Obj C compiler
 
-## Files: 
+### Files: 
 * /etc/default/distcc
 * /etc/distcc/clients.allow
 * /etc/distcc/commands.allow.sh

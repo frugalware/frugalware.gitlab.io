@@ -14,9 +14,10 @@ sha1sum = "e2db26259d60097eff4fa7e7268bb7d564835864"
 depends = "['glibc>=2.36']"
 reverse_depends = "['argyllcms', 'blender', 'chromium-browser', 'clightd', 'darktable', 'dcraw', 'djvulibre', 'dlib', 'efl', 'emacs', 'enlightenment', 'fltk', 'fontforge', 'fox', 'freeorion', 'gd', 'gdal', 'gdk-pixbuf2', 'gegl', 'ghostscript', 'gst1-plugins-bad', 'gst1-plugins-good-jpeg', 'gst1-plugins-good-video4linux2', 'hplip-driver', 'imagemagick', 'imlib2', 'insight-toolkit', 'jasper', 'lcms', 'lcms2', 'leptonica', 'libcamera', 'libgdiplus', 'libgphoto2', 'libopenraw', 'libpano13', 'libraw', 'libreoffice', 'libvncserver', 'libwebp', 'libyuv', 'mencoder', 'minidlna', 'mjpegtools', 'mplayer', 'mpv', 'mupdf', 'mupdf-gl', 'neatvnc', 'netpbm', 'openclonk', 'opencv', 'openjre-x', 'openscenegraph', 'php', 'podofo', 'podofo-0.9', 'poppler', 'qemu', 'qpdf', 'qt5-base', 'qt5-webengine', 'qt6-base', 'qt6-webengine', 'r', 'sane-backends', 'scummvm', 'sfml', 'silly', 'spice', 'spice-glib', 'stepmania', 'supertuxkart', 'terminology', 'ufoai', 'v4l-utils', 'vigra', 'x11vnc', 'xine-ui', 'xrdp']"
 +++
+### Description: 
 JPEG image codec that uses SIMD instructions
 
-## Files: 
+### Files: 
 * /usr/bin/cjpeg
 * /usr/bin/djpeg
 * /usr/bin/jpegtran

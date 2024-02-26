@@ -13,9 +13,10 @@ usize = "266168"
 sha1sum = "817847a938a084f8dc06385f13f25a0d38744be5"
 depends = "['glibc']"
 +++
+### Description: 
 C++ library for value-oriented design using the unidirectional data-flow architecture
 
-## Files: 
+### Files: 
 * /usr/include/lager/commit.hpp
 * /usr/include/lager/config.hpp
 * /usr/include/lager/constant.hpp

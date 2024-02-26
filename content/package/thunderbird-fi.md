@@ -14,7 +14,8 @@ sha1sum = "14721febaa4861e9cb049a5e101dfe712d52b498"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
+### Description: 
 Finnish language support for Thunderbird
 
-## Files: 
+### Files: 
 * /usr/lib/thunderbird/extensions/langpack-fi@thunderbird.mozilla.org.xpi

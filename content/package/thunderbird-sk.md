@@ -14,7 +14,8 @@ sha1sum = "cc385b4903b095c9b024b686f118bb28a73efd9d"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
+### Description: 
 Slovak language support for Thunderbird
 
-## Files: 
+### Files: 
 * /usr/lib/thunderbird/extensions/langpack-sk@thunderbird.mozilla.org.xpi

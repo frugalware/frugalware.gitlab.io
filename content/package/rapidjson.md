@@ -13,9 +13,10 @@ usize = "604498"
 sha1sum = "7216327f841b7dfaf305fe42145b89ca4eda8fab"
 depends = "[]"
 +++
+### Description: 
 A fast JSON parser/generator for C++
 
-## Files: 
+### Files: 
 * /usr/include/rapidjson/allocators.h
 * /usr/include/rapidjson/document.h
 * /usr/include/rapidjson/encodedstream.h

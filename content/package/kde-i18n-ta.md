@@ -13,9 +13,10 @@ usize = "9182010"
 sha1sum = "dcd6abc790e7bb2467a11bfe5b9ddcc59f37e840"
 depends = "[]"
 +++
+### Description: 
 Tamil Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/locale/ta/charset
 * usr/share/locale/ta/entry.desktop
 * usr/share/locale/ta/flag.png

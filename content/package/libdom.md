@@ -13,9 +13,10 @@ usize = "613020"
 sha1sum = "f6f3840bd022cc445346a677b386e6485c8aa091"
 depends = "['expat', 'hubbub>=0.3.1', 'libwapcaplet>=0.2.2']"
 +++
+### Description: 
 A CSS parser and selection engine library, written in C.
 
-## Files: 
+### Files: 
 * /usr/include/dom/bindings/hubbub/errors.h
 * /usr/include/dom/bindings/hubbub/parser.h
 * /usr/include/dom/bindings/xml/xmlerror.h

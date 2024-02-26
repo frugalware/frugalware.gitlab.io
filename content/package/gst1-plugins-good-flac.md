@@ -13,7 +13,8 @@ usize = "75888"
 sha1sum = "d1ed73d86658772ae1458971b7eef2331a7218ff"
 depends = "['flac>=1.4.0', 'gst1-plugins-base>=1.22.10', 'gst1-plugins-good>=1.22.10', 'libffi>=3.2.1-2']"
 +++
+### Description: 
 GStreamer flac plugin (Good).
 
-## Files: 
+### Files: 
 * /usr/lib/gstreamer-1.0/libgstflac.so

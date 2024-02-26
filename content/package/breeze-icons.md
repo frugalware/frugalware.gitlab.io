@@ -14,9 +14,10 @@ sha1sum = "3e6feb5b88b9de1aa44cf85a8867545eaf8fbb8d"
 depends = "[]"
 reverse_depends = "['breeze']"
 +++
+### Description: 
 Icons for the Breeze visual style for the Plasma Desktop.
 
-## Files: 
+### Files: 
 * /usr/lib/cmake/KF5BreezeIcons/KF5BreezeIconsConfig.cmake
 * /usr/lib/cmake/KF5BreezeIcons/KF5BreezeIconsConfigVersion.cmake
 * /usr/share/doc/breeze-icons-5.115.0/COPYING-ICONS

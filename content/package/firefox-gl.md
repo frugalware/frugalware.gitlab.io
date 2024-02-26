@@ -14,7 +14,8 @@ sha1sum = "10d4af94be11a09b00ca1bb56f471e5a6d799c29"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Galician language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-gl@firefox.mozilla.org.xpi

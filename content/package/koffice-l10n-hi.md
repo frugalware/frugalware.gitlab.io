@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "27d24dc663b50ccd90ad972e6322d0bc1b2929fe"
 depends = "[]"
 +++
+### Description: 
 Hindi Localization for KOffice. 
 
-## Files: 
+### Files: 
 * usr/share/locale/hi/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/hi/LC_MESSAGES/example.mo
 * usr/share/locale/hi/LC_MESSAGES/karbon.mo

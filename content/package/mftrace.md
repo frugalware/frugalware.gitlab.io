@@ -13,9 +13,10 @@ usize = "127842"
 sha1sum = "a1b354dd48a3f28ac9cd6892f0bb55f8b14dad32"
 depends = "['fontforge>=20190317', 'potrace', 'python3', 't1utils', 'texlive']"
 +++
+### Description: 
 Trace a TeX bitmap font into a PFA or PFB font
 
-## Files: 
+### Files: 
 * /usr/bin/gf2pbm
 * /usr/bin/mftrace
 * /usr/share/doc/mftrace-1.2.20/ChangeLog

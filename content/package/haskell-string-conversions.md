@@ -14,9 +14,10 @@ sha1sum = "57a9bac3ef38cc992b4a8bff13e3577ef560b590"
 depends = "['haskell-utf8-string']"
 reverse_depends = "['haskell-servant']"
 +++
+### Description: 
 Simplifies dealing with different types for strings
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/string-conversions-0.4.0.1/Data/String/Conversions.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/string-conversions-0.4.0.1/Data/String/Conversions.hi
 * /usr/lib/ghc-9.8.1/site-local/string-conversions-0.4.0.1/Data/String/Conversions/Monomorphic.dyn_hi

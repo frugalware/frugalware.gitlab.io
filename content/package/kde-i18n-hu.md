@@ -13,9 +13,10 @@ usize = "10118283"
 sha1sum = "8c57bb48fb2b2ba9c4f0e4ab603814ea7b391c5c"
 depends = "[]"
 +++
+### Description: 
 Hungarian Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/apps/khangman/data/hu/animals.kvtml
 * usr/share/apps/khangman/data/hu/easy.kvtml
 * usr/share/apps/khangman/data/hu/hard.kvtml

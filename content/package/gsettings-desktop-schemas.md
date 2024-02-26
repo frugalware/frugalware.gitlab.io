@@ -14,9 +14,10 @@ sha1sum = "f550f3aa46976f399cb2316fde0991571ecb6bdd"
 depends = "['glib2>=2.60.3']"
 reverse_depends = "['fwupd', 'gnome-desktop', 'gvfs', 'kde-gtk-config']"
 +++
+### Description: 
 Shared GSettings schemas for the desktop
 
-## Files: 
+### Files: 
 * /usr/include/gsettings-desktop-schemas/gdesktop-enums.h
 * /usr/lib/girepository-1.0/GDesktopEnums-3.0.typelib
 * /usr/lib/pkgconfig/gsettings-desktop-schemas.pc

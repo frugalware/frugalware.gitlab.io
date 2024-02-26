@@ -14,9 +14,10 @@ sha1sum = "89c343304ff34b43077be0389677753519935fe0"
 depends = "['lib32-libogg>=1.3.2-5']"
 reverse_depends = "['lib32-ffmpeg']"
 +++
+### Description: 
 An open video codec developed by the Xiph.org. ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/theora/codec.h
 * /usr/i686-frugalware-linux/include/theora/theora.h
 * /usr/i686-frugalware-linux/include/theora/theoradec.h

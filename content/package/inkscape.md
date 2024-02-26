@@ -13,9 +13,10 @@ usize = "179476892"
 sha1sum = "4b10deaf9c7d5911b21950e1062f3cbd96831136"
 depends = "['dbus', 'double-conversion', 'gdl', 'graphicsmagick', 'gsl', 'gspell', 'gtkmm3', 'gtksourceview4', 'gtkspell3', 'jemalloc', 'libboost>=1.83.0', 'libcdr', 'libgc', 'libgomp', 'libsoup', 'libvisio', 'libxslt', 'poppler-glib>=24.02.0', 'potrace']"
 +++
+### Description: 
 A vector illustrator program
 
-## Files: 
+### Files: 
 * /etc/ld.so.conf.d/inkscape.conf
 * /usr/bin/inkscape
 * /usr/bin/inkview

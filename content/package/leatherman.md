@@ -14,9 +14,10 @@ sha1sum = "ccebec301290baafed444b2f4da1f9cd638bf63d"
 depends = "[]"
 license = "APACHE"
 +++
+### Description: 
 Collection of C++ and CMake utility libraries
 
-## Files: 
+### Files: 
 * /usr/include/leatherman/curl/client.hpp
 * /usr/include/leatherman/curl/export.h
 * /usr/include/leatherman/curl/request.hpp

@@ -13,9 +13,10 @@ usize = "919369"
 sha1sum = "062fd19f959535aa4f99a3bc19239f5a872ff2b2"
 depends = "['glibc>=2.34']"
 +++
+### Description: 
 A tool to write command line option parsing code for C programs.
 
-## Files: 
+### Files: 
 * /usr/bin/gengetopt
 * /usr/share/doc/gengetopt-2.23/AUTHORS
 * /usr/share/doc/gengetopt-2.23/ChangeLog

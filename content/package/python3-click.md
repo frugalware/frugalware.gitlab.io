@@ -14,9 +14,10 @@ sha1sum = "e2eb13988c864557653d19e8156325335d72b4a5"
 depends = "['python3']"
 reverse_depends = "['face_recognition', 'howdy']"
 +++
+### Description: 
 Simple wrapper around optparse for powerful command line utilities
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/click-8.1.7-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/click-8.1.7-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/click-8.1.7-py3.12.egg-info/requires.txt

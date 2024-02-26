@@ -14,9 +14,10 @@ sha1sum = "65596b21ebe9c340f38e8ee8241392d93f5612c3"
 depends = "['fontconfig', 'mkfontscale']"
 license = "GPL2"
 +++
+### Description: 
 X.Org Misc Misc Fontset
 
-## Files: 
+### Files: 
 * /usr/share/doc/font-misc-misc-1.1.3/AUTHORS
 * /usr/share/doc/font-misc-misc-1.1.3/ChangeLog
 * /usr/share/doc/font-misc-misc-1.1.3/COPYING

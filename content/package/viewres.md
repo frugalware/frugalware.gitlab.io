@@ -14,9 +14,10 @@ sha1sum = "e38d8b834cda5c91c2b21868dc5ae839f9128c5f"
 depends = "['libxaw>=1.0.13-2']"
 license = "GPL2"
 +++
+### Description: 
 X.Org viewres application
 
-## Files: 
+### Files: 
 * /usr/bin/viewres
 * /usr/share/doc/viewres-1.0.7/ChangeLog
 * /usr/share/doc/viewres-1.0.7/COPYING

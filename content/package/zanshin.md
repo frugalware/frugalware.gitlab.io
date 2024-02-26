@@ -13,9 +13,10 @@ usize = "3196323"
 sha1sum = "1abd42599c35f06e09a6e0d855140afee24706f8"
 depends = "['kdepim-runtime', 'kontactinterface']"
 +++
+### Description: 
 To-do management application based on Akonadi
 
-## Files: 
+### Files: 
 * /usr/bin/zanshin
 * /usr/bin/zanshin-migrator
 * /usr/lib/qt5/plugins/kf5/krunner/org.kde.zanshin.so

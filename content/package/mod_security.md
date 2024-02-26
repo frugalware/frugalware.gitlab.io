@@ -13,9 +13,10 @@ usize = "211946859"
 sha1sum = "a5a3812097b1a6d971b8881c9819491dbbd273d7"
 depends = "['apache>=2.4.35', 'apr-util', 'curl', 'geoip', 'libxml2', 'lua>=5.4', 'owasp-modsecurity-crs', 'yajl']"
 +++
+### Description: 
 A security filter DSO for the popular Apache httpd server
 
-## Files: 
+### Files: 
 * /usr/bin/modsec-rules-check
 * /usr/include/modsecurity/actions/action.h
 * /usr/include/modsecurity/anchored_set_variable.h

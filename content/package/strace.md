@@ -13,9 +13,10 @@ usize = "3204049"
 sha1sum = "033966d14f4dba649a4c54b06bd4fdfd0d29c476"
 depends = "['glibc>=2.34']"
 +++
+### Description: 
 A system call trace, which prints out a trace of all the system calls made by a another process/program.
 
-## Files: 
+### Files: 
 * /usr/bin/strace
 * /usr/bin/strace-graph
 * /usr/bin/strace-log-merge

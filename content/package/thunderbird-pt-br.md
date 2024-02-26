@@ -14,7 +14,8 @@ sha1sum = "56df04b74a8c9c5f9289d992776073de1fe6ddcd"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
+### Description: 
 Brazilian Portuguese language support for Thunderbird
 
-## Files: 
+### Files: 
 * /usr/lib/thunderbird/extensions/langpack-pt-BR@thunderbird.mozilla.org.xpi

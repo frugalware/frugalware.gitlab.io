@@ -14,7 +14,8 @@ sha1sum = "85f9d25100284bf6362ebc4415604462ddb04609"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Guarani language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-gn@firefox.mozilla.org.xpi

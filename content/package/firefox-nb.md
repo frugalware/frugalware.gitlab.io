@@ -13,8 +13,9 @@ usize = "0"
 sha1sum = ""
 depends = "['firefox>=1.0.7']"
 +++
+### Description: 
 Norwegian Bokmal language support for Firefox
 
-## Files: 
+### Files: 
 * usr/lib/firefox/chrome/nb-NO.jar
 * usr/lib/firefox/chrome/rc.d/10_firefox-nb.txt

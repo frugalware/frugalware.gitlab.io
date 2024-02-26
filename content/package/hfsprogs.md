@@ -13,9 +13,10 @@ usize = "319217"
 sha1sum = "900a99910079b3c7dff44b1f98d84b88d2350d4f"
 depends = "['libbsd', 'openssl>=3.1.0']"
 +++
+### Description: 
 HFS/HFS+ user space utils
 
-## Files: 
+### Files: 
 * /usr/bin/fsck.hfsplus
 * /usr/bin/mkfs.hfsplus
 * /usr/share/man/man8/fsck.hfsplus.8.gz

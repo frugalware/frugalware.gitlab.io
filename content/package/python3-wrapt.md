@@ -14,9 +14,10 @@ sha1sum = "7dc7e1caccccc48d5da28114c1e7e920692148f2"
 depends = "['python3']"
 reverse_depends = "['lutris', 'python3-astroid']"
 +++
+### Description: 
 A Python module for decorators, wrappers and monkey patching
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/wrapt-1.16.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/wrapt-1.16.0-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/wrapt-1.16.0-py3.12.egg-info/PKG-INFO

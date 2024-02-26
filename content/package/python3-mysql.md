@@ -13,9 +13,10 @@ usize = "338598"
 sha1sum = "44447382fee345bcdc3326f051573a949e6c2a4f"
 depends = "['python3']"
 +++
+### Description: 
 A brunch of tools for developing python applications
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/mysqlclient-2.2.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/mysqlclient-2.2.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/mysqlclient-2.2.0-py3.12.egg-info/SOURCES.txt

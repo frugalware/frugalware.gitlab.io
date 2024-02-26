@@ -14,9 +14,10 @@ sha1sum = "1f4711586d19799341374a61c24f1c2d061b3fe2"
 depends = "['jasper', 'libmng', 'libwebp', 'qt6-base']"
 reverse_depends = "['telegram-desktop']"
 +++
+### Description: 
 The Qt6 toolkit, qtimageformats
 
-## Files: 
+### Files: 
 * /usr/lib/cmake/Qt6/FindLibmng.cmake
 * /usr/lib/cmake/Qt6/FindWrapJasper.cmake
 * /usr/lib/cmake/Qt6/FindWrapWebP.cmake

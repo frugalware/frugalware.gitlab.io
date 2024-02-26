@@ -13,9 +13,10 @@ usize = "2013905"
 sha1sum = "6e98a870d8d69246c73fe370ad2594380bef0983"
 depends = "['openssl>=1.0.0']"
 +++
+### Description: 
 Utility to (re)set the password of any user and registry editor on Windows NT/2K/XP system
 
-## Files: 
+### Files: 
 * /usr/bin/chntpw
 * /usr/bin/chntpw.static
 * /usr/bin/cpnt

@@ -14,9 +14,10 @@ sha1sum = "b12ebb98c823589a2d97f7c142d2d65363823af2"
 depends = "['ghc>=9.8.1']"
 reverse_depends = "['haskell-ansi-terminal', 'haskell-ansi-terminal-types', 'haskell-skylighting-core']"
 +++
+### Description: 
 A model for human colour/color perception
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/colour-2.3.6/Data/Colour.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/colour-2.3.6/Data/Colour.hi
 * /usr/lib/ghc-9.8.1/site-local/colour-2.3.6/Data/Colour/Chan.dyn_hi

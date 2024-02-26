@@ -14,7 +14,8 @@ sha1sum = "3bca9f90c1ac3524276f9dec69934591588ae7f6"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
+### Description: 
 Turkish language support for Thunderbird
 
-## Files: 
+### Files: 
 * /usr/lib/thunderbird/extensions/langpack-tr@thunderbird.mozilla.org.xpi

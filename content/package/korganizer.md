@@ -13,9 +13,10 @@ usize = "10899849"
 sha1sum = "bd07c15cdad3a1a37fcd54170b5532b508c67352"
 depends = "['incidenceeditor>=23.08.5', 'kdepim-runtime>=23.08.5', 'kontactinterface>=23.08.5', 'mailcommon>=23.08.5']"
 +++
+### Description: 
 KDE Personal Organizer.
 
-## Files: 
+### Files: 
 * /usr/bin/korganizer
 * /usr/lib/libkorganizerprivate.so.5
 * /usr/lib/libkorganizerprivate.so.5.24.5

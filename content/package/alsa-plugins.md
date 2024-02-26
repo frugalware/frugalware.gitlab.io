@@ -14,9 +14,10 @@ sha1sum = "f21cf3679fe0daabde7a6f93f369b6e69083ef1b"
 depends = "['alsa-lib>=1.1.3']"
 reverse_depends = "['alsa-plugin-ffmpeg', 'alsa-plugin-jack', 'alsa-plugin-pulseaudio', 'alsa-plugin-samplerate', 'alsa-plugin-speex']"
 +++
+### Description: 
 Various plugins for ALSA.
 
-## Files: 
+### Files: 
 * /etc/alsa/conf.d/10-rate-lav.conf
 * /etc/alsa/conf.d/10-samplerate.conf
 * /etc/alsa/conf.d/10-speexrate.conf

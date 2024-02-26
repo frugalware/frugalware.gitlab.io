@@ -14,9 +14,10 @@ sha1sum = "f0b5c78b2c97be9f91f625884c937ea7fdd1216b"
 depends = "['python3-more-itertools']"
 reverse_depends = "['python3-keyring']"
 +++
+### Description: 
 Module for classes manipulation
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/jaraco.classes-3.3.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/jaraco.classes-3.3.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/jaraco.classes-3.3.0.dist-info/RECORD

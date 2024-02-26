@@ -14,9 +14,10 @@ sha1sum = "8f807c694333e2e7a824ea36814b72ad0d4f88ab"
 depends = "['glibc>=2.34', 'xfsprogs-attr>=2.4.47-6']"
 reverse_depends = "['quilt']"
 +++
+### Description: 
 A utility to apply patch files to original sources
 
-## Files: 
+### Files: 
 * /usr/bin/patch
 * /usr/share/doc/patch-2.7.6/AUTHORS
 * /usr/share/doc/patch-2.7.6/ChangeLog

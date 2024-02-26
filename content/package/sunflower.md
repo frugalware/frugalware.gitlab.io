@@ -13,9 +13,10 @@ usize = "2753142"
 sha1sum = "3ca4dbb0c45a68cee85cc78dcf332e4cce88d659"
 depends = "['gtk+3', 'libnotify', 'pygobject3-cairo', 'python3-sqlite3', 'vte3']"
 +++
+### Description: 
 Sunflower is a small and highly customizable twin-panel file manager for Linux with support for plugins.
 
-## Files: 
+### Files: 
 * /usr/bin/sunflower
 * /usr/lib/python3.12/site-packages/Sunflower-0.5.63-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/Sunflower-0.5.63-py3.12.egg-info/entry_points.txt

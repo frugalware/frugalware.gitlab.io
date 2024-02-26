@@ -13,9 +13,10 @@ usize = "869416"
 sha1sum = "238b05e9cb4d9be278efdbd26505392a79030d31"
 depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kio', 'kwindowsystem', 'libreoffice>=24.2.0.3', 'qt5-base>=5.15.10', 'qt5-x11extras>=5.15.10']"
 +++
+### Description: 
 libreoffice KF5/Qt5 integration
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/libkf5be1lo.so
 * /usr/lib/libreoffice/program/libvclplug_kf5lo.so
 * /usr/lib/libreoffice/program/libvclplug_qt5lo.so

@@ -13,9 +13,10 @@ usize = "2742685"
 sha1sum = "66364410c5d934f7ca04d7026feb0bba1b818c6a"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Venetian support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/resource/vec/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/vec/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/vec/LC_MESSAGES/basctl.mo

@@ -13,7 +13,8 @@ usize = "43488"
 sha1sum = "c078611b6e0800344598f2b60dc30b531ae9558f"
 depends = "['claws-mail=4.1.1', 'curl>=7.47.0']"
 +++
+### Description: 
 Displays libravatar/gravatar profiles images
 
-## Files: 
+### Files: 
 * /usr/lib/claws-mail/plugins/libravatar.so

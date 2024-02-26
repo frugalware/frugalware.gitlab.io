@@ -14,9 +14,10 @@ sha1sum = "b2d0789b3a1e8a77b396180ef547f42ba7c8ad71"
 depends = "['zlib>=1.2.12']"
 reverse_depends = "['enchant', 'sonnet-plugin-hspell']"
 +++
+### Description: 
 Hebrew spell-checker.
 
-## Files: 
+### Files: 
 * /usr/bin/hspell
 * /usr/bin/hspell-i
 * /usr/bin/multispell

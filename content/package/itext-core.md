@@ -13,7 +13,8 @@ usize = "1145874"
 sha1sum = "c0ca5be57895849c3fd2827dfada27c2d76ff012"
 depends = "['openjre']"
 +++
+### Description: 
 A Free Java-PDF library
 
-## Files: 
+### Files: 
 * /usr/share/java/itext.jar

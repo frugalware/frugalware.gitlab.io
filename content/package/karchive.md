@@ -14,9 +14,10 @@ sha1sum = "f60d2e142375f8321cadb8831749cb0fce358511"
 depends = "['qt5-base>=5.15.12']"
 reverse_depends = "['discover', 'kbackup', 'kcachegrind', 'kdoctools', 'kemoticons', 'kfilemetadata5', 'kiconthemes', 'kimageformats', 'kio', 'kpackage', 'kpkpass', 'plasma-sdk']"
 +++
+### Description: 
 Qt 5 addon providing access to numerous types of archives.
 
-## Files: 
+### Files: 
 * /usr/include/KF5/KArchive/K7Zip
 * /usr/include/KF5/KArchive/k7zip.h
 * /usr/include/KF5/KArchive/KAr

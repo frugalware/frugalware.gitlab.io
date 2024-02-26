@@ -14,9 +14,10 @@ sha1sum = "360b0502872d20dffd34e7f8530a93225c6a8158"
 depends = "['lib32-glib2>=2.60.0', 'lib32-libffi>=3.2.1-2', 'lib32-libudev>=242']"
 reverse_depends = "['lib32-modemmanager', 'lib32-networkmanager']"
 +++
+### Description: 
 GObject bindings for libudev ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/gudev-1.0/gudev/gudev.h
 * /usr/i686-frugalware-linux/include/gudev-1.0/gudev/gudevclient.h
 * /usr/i686-frugalware-linux/include/gudev-1.0/gudev/gudevdevice.h

@@ -13,9 +13,10 @@ usize = "5055165"
 sha1sum = "623cb1ba9edc69babcaa3d2cb7583e87ce04ff09"
 depends = "[]"
 +++
+### Description: 
 Hindi Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/locale/hi/charset
 * usr/share/locale/hi/entry.desktop
 * usr/share/locale/hi/LC_MESSAGES/akregator_konqplugin.mo

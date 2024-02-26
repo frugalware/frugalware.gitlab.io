@@ -14,7 +14,8 @@ sha1sum = "85bbb9417951d981e69c1a91de559aa072c3e18c"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
+### Description: 
 Chinese Traditional language support for Thunderbird
 
-## Files: 
+### Files: 
 * /usr/lib/thunderbird/extensions/langpack-zh-TW@thunderbird.mozilla.org.xpi

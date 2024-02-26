@@ -13,7 +13,8 @@ usize = "18051777"
 sha1sum = "f01df9727733af6a3e13cde030409ee32beda534"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang hun
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/hun.traineddata

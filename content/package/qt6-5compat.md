@@ -14,9 +14,10 @@ sha1sum = "8dff0630106d6839fbd42b37053d56b7bac795bc"
 depends = "['icu4c>=7.1', 'qt6-base']"
 reverse_depends = "['alizams', 'opencv', 'qtcreator', 'seafile-client', 'socnetv', 'telegram-desktop']"
 +++
+### Description: 
 The Qt6 toolkit, qt5compat
 
-## Files: 
+### Files: 
 * /usr/include/qt6/QtCore5Compat/6.6.2/QtCore5Compat/private/qbinaryjsonarray_p.h
 * /usr/include/qt6/QtCore5Compat/6.6.2/QtCore5Compat/private/qbinaryjsonobject_p.h
 * /usr/include/qt6/QtCore5Compat/6.6.2/QtCore5Compat/private/qbinaryjsonvalue_p.h

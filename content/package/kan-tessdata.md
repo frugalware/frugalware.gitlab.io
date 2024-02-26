@@ -13,7 +13,8 @@ usize = "3608398"
 sha1sum = "70dfa23dfc97b3f81d230abf6d0e7ee3c281967f"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang kan
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/kan.traineddata

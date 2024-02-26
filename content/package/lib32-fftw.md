@@ -14,9 +14,10 @@ sha1sum = "0b93c13b0844fbc672b920c62dcb28e77e711a58"
 depends = "[]"
 reverse_depends = "['lib32-libpulse']"
 +++
+### Description: 
 C subroutine library for computing the Discrete Fourier Transform (DFT) ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/fftw-wisdom
 * /usr/i686-frugalware-linux/bin/fftw-wisdom-to-conf
 * /usr/i686-frugalware-linux/bin/fftwf-wisdom

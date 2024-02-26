@@ -13,7 +13,8 @@ usize = "126992"
 sha1sum = "35eee40cbd3a2680a8bebd04d9278c19c37deaa5"
 depends = "['freetype2>=2.9']"
 +++
+### Description: 
 grub2 mkfont utility
 
-## Files: 
+### Files: 
 * /usr/bin/grub-mkfont

@@ -15,9 +15,10 @@ depends = "['libx11>=1.6.4-3']"
 reverse_depends = "['efl', 'enlightenment', 'ffmpeg', 'ffmpeg4.4', 'gnunet', 'libva', 'libva1', 'libxcomposite', 'libxcursor', 'libxdamage', 'libxi', 'libxpresent', 'pipewire-x11', 'spice-vdagent', 'terminology', 'whalebird', 'xrdp']"
 license = "GPL2"
 +++
+### Description: 
 X.Org Xfixes library
 
-## Files: 
+### Files: 
 * /usr/include/X11/extensions/Xfixes.h
 * /usr/lib/libXfixes.so
 * /usr/lib/libXfixes.so.3

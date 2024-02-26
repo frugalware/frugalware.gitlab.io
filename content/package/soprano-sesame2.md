@@ -13,9 +13,10 @@ usize = "1912122"
 sha1sum = "3b77e65063e5cd4ff020c296bee570ed2961481d"
 depends = "[]"
 +++
+### Description: 
 Sesame2 storage backend (java-based)
 
-## Files: 
+### Files: 
 * usr/lib/soprano/libsoprano_sesame2backend.so
 * usr/share/soprano/plugins/sesame2backend.desktop
 * usr/share/soprano/sesame2/openrdf-sesame-2.2.4-onejar.jar

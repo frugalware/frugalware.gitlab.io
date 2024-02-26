@@ -13,9 +13,10 @@ usize = "39056652"
 sha1sum = "f08f335a007b17d3dd8b29436fb76b813cdfba52"
 depends = "['curl>=7.47.0', 'devil>=1.8.0', 'freetype2>=2.6.2-3', 'glew>=2.2.0', 'libboost>=1.72', 'libunwind>=1.1-4', 'libxcursor>=1.1.14-2', 'openal>=1.20', 'openjre-x', 'sdl2>=2.0.4']"
 +++
+### Description: 
 A free 3D game engine for the real-time-strategy (RTS) game Total Annihilation
 
-## Files: 
+### Files: 
 * /usr/bin/mapcompile
 * /usr/bin/mapdecompile
 * /usr/bin/pr-downloader

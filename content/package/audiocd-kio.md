@@ -13,9 +13,10 @@ usize = "2507439"
 sha1sum = "56c086f65de4ae6ac921420a6ce1b99a02b51e4d"
 depends = "['cdparanoia', 'flac>=1.4.0', 'kcmutils>=5.115.0', 'kdelibs4support>=5.115.0', 'libkcddb>=23.08.5', 'libkcompactdisc>=23.08.5']"
 +++
+### Description: 
 Kioslave for accessing audio CDs
 
-## Files: 
+### Files: 
 * /usr/include/audiocdplugins/audiocdencoder.h
 * /usr/include/audiocdplugins/audiocdplugins_export.h
 * /usr/include/audiocdplugins/audiocdplugins_version.h

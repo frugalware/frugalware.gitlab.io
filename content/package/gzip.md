@@ -14,9 +14,10 @@ sha1sum = "20ea3e02cd75f049f02f80e8a0c9f253fa372b07"
 depends = "['bash>=4.4.12-4']"
 reverse_depends = "['binwalk', 'cracklib', 'parted']"
 +++
+### Description: 
 A file compression utility
 
-## Files: 
+### Files: 
 * /usr/bin/gunzip
 * /usr/bin/gzexe
 * /usr/bin/gzip

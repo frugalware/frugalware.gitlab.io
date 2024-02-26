@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "3fd961563e3aca3c334b7965c827c9c22388fac0"
 depends = "[]"
 +++
+### Description: 
 Bosnian Localization for KOffice. 
 
-## Files: 
+### Files: 
 * usr/share/locale/bs/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/bs/LC_MESSAGES/example.mo
 * usr/share/locale/bs/LC_MESSAGES/karbon.mo

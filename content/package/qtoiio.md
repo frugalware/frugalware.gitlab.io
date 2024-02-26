@@ -14,9 +14,10 @@ sha1sum = "9a0bfc7dc852d055c2d2c9ecd36c66fc481dc42e"
 depends = "['openimageio>=2.5.4.0', 'qt5-3d>=5.15.10']"
 reverse_depends = "['meshroom']"
 +++
+### Description: 
 Qt Image IO plugin based on OpenImageIO
 
-## Files: 
+### Files: 
 * /usr/imageformats/libQtOIIOPlugin.so
 * /usr/qml/DepthMapEntity/libdepthMapEntityQmlPlugin.so
 * /usr/qml/DepthMapEntity/qmldir

@@ -13,9 +13,10 @@ usize = "12500664"
 sha1sum = "572fe8758951e327371a9253abfccd316845fd7e"
 depends = "['db>=4.7.25', 'sdl']"
 +++
+### Description: 
 Additional plugins and scripts for some KDE applications.
 
-## Files: 
+### Files: 
 * usr/bin/atlantikdesigner
 * usr/bin/fsview
 * usr/bin/jpegorient

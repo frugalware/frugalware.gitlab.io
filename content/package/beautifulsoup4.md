@@ -13,9 +13,10 @@ usize = "1081108"
 sha1sum = "2682b4e22a0ef7798b9b62bb9efebef2782b8be6"
 depends = "['python3>=3.10']"
 +++
+### Description: 
 Beautiful Soup sits atop an HTML or XML parser, providing Pythonic idioms for iterating, searching, and modifying the parse tree.
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/beautifulsoup4-4.11.2-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/beautifulsoup4-4.11.2-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/beautifulsoup4-4.11.2-py3.12.egg-info/requires.txt

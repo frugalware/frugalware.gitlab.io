@@ -13,9 +13,10 @@ usize = "83115"
 sha1sum = "5816caabaa7faf95bae4f7258698ec48c676459f"
 depends = "['lib32-glib2>=2.60.0', 'lib32-libffi>=3.2.1']"
 +++
+### Description: 
 Glib bindings for Avahi (32-Bit)
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/avahi-glib/glib-malloc.h
 * /usr/i686-frugalware-linux/include/avahi-glib/glib-watch.h
 * /usr/i686-frugalware-linux/include/avahi-gobject/ga-client.h

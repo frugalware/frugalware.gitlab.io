@@ -14,9 +14,10 @@ sha1sum = "70490dd0a449dbb580d5372bd146af90a5716386"
 depends = "['ghc>=9.6.2']"
 reverse_depends = "['haskell-cassava']"
 +++
+### Description: 
 The 1-tuple type or single-value \"collection\"
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/Only-0.1/Data/Tuple/Only.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/Only-0.1/Data/Tuple/Only.hi
 * /usr/lib/ghc-9.8.1/site-local/Only-0.1/libHSOnly-0.1-GOQ8x7ANPHLAhW8HAOeFpS.a

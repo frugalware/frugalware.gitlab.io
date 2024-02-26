@@ -14,9 +14,10 @@ sha1sum = "5bc4a3c694e41b387c77bfb314396d46ea81a6c1"
 depends = "[]"
 reverse_depends = "['m17n-lib']"
 +++
+### Description: 
 A multilingual processing database.
 
-## Files: 
+### Files: 
 * /usr/bin/m17n-db
 * /usr/lib/pkgconfig/m17n-db.pc
 * /usr/share/doc/m17n-db-1.8.0/AUTHORS

@@ -13,7 +13,8 @@ usize = "3353166"
 sha1sum = "60ecd9c39a38359ad0537b876f4cedbaa7460bd9"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang tam
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/tam.traineddata

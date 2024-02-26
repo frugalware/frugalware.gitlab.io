@@ -14,9 +14,10 @@ sha1sum = "be1f8798fca9ef2d956f12ebc19ddbdde240e328"
 depends = "['aom', 'bzip2', 'dav1d>=1.3.0', 'dbus-glib', 'gdk-pixbuf2', 'gtk+2', 'gtk+3', 'hunspell>=1.7', 'icu4c>=73.1', 'libevent>=2.1.11', 'libffi>=3.4', 'libnotify', 'libotr', 'libpulse>=6.0', 'librsvg', 'libvpx>=1.13.0', 'libwebp', 'libxt', 'mailcap', 'nspr', 'nss>=3.81', 'pango', 'sqlite3>=3.31']"
 reverse_depends = "['thunderbird-af', 'thunderbird-ar', 'thunderbird-ast', 'thunderbird-be', 'thunderbird-bg', 'thunderbird-br', 'thunderbird-ca', 'thunderbird-cak', 'thunderbird-cs', 'thunderbird-cy', 'thunderbird-da', 'thunderbird-de', 'thunderbird-dsb', 'thunderbird-el', 'thunderbird-en-ca', 'thunderbird-en-gb', 'thunderbird-en-us', 'thunderbird-es-ar', 'thunderbird-es-es', 'thunderbird-es-mx', 'thunderbird-et', 'thunderbird-eu', 'thunderbird-fi', 'thunderbird-fr', 'thunderbird-fy-nl', 'thunderbird-ga-ie', 'thunderbird-gd', 'thunderbird-gl', 'thunderbird-he', 'thunderbird-hr', 'thunderbird-hsb', 'thunderbird-hu', 'thunderbird-hy-am', 'thunderbird-i18n', 'thunderbird-id', 'thunderbird-is', 'thunderbird-it', 'thunderbird-ja', 'thunderbird-ka', 'thunderbird-kab', 'thunderbird-kk', 'thunderbird-ko', 'thunderbird-lt', 'thunderbird-lv', 'thunderbird-ms', 'thunderbird-nb-no', 'thunderbird-nl', 'thunderbird-nn-no', 'thunderbird-pa-in', 'thunderbird-pl', 'thunderbird-pt', 'thunderbird-pt-br', 'thunderbird-pt-pt', 'thunderbird-rm', 'thunderbird-ro', 'thunderbird-ru', 'thunderbird-sk', 'thunderbird-sl', 'thunderbird-sq', 'thunderbird-sr', 'thunderbird-sv-se', 'thunderbird-th', 'thunderbird-tr', 'thunderbird-uk', 'thunderbird-uz', 'thunderbird-vi', 'thunderbird-zh-cn', 'thunderbird-zh-tw']"
 +++
+### Description: 
 Mozilla Thunderbird mail and newsgroup client
 
-## Files: 
+### Files: 
 * /etc/ld.so.conf.d/thunderbird.conf
 * /usr/bin/thunderbird
 * /usr/lib/thunderbird/application.ini

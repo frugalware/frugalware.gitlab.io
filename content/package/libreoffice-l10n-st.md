@@ -13,9 +13,10 @@ usize = "1323952"
 sha1sum = "0f4f7f69d4eb14c5dafec7cd857f259afc7c8108"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Southern Sotho (Sutu) support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/resource/st/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/st/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/st/LC_MESSAGES/basctl.mo

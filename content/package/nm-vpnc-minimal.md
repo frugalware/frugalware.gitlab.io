@@ -14,9 +14,10 @@ sha1sum = "d1301eeb5bab8c85626c3e43ba3d2751465569ff"
 depends = "['networkmanager', 'vpnc']"
 reverse_depends = "['nm-vpnc']"
 +++
+### Description: 
 network management framework (VPNC plugin) without GNOME
 
-## Files: 
+### Files: 
 * /usr/lib/NetworkManager/VPN/nm-vpnc-service.name
 * /usr/lib/nm-vpnc/nm-vpnc-service
 * /usr/lib/nm-vpnc/nm-vpnc-service-vpnc-helper

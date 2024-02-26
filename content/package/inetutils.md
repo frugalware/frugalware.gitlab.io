@@ -13,9 +13,10 @@ usize = "1343104"
 sha1sum = "5e3ba89b491a6894d1e3f2b515a094c215b8b4fc"
 depends = "['libcap', 'libxcrypt', 'pam']"
 +++
+### Description: 
 A collection of common network programs
 
-## Files: 
+### Files: 
 * /etc/host.conf
 * /etc/hostname
 * /etc/hosts.equiv

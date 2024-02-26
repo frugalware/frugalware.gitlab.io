@@ -14,9 +14,10 @@ sha1sum = "142cc94488cfe4c16f4b4f6f8d3cdead46f972dd"
 depends = "['libdrm', 'libva', 'wayland']"
 reverse_depends = "['ffmpeg']"
 +++
+### Description: 
 Intel Video Processing Library
 
-## Files: 
+### Files: 
 * /etc/vpl/vars.sh
 * /usr/bin/sample_decode
 * /usr/bin/sample_encode

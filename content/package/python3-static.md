@@ -13,7 +13,8 @@ usize = "43052874"
 sha1sum = "dba4b238dc18fcd5ba495f403567a88077a938a5"
 depends = "[]"
 +++
+### Description: 
 Static files for python3
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/config-3.12-x86_64-linux-gnu/libpython3.12.a

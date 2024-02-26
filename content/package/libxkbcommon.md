@@ -14,9 +14,10 @@ sha1sum = "26042e86713dd33c83d10c0bee72c02146ac6c22"
 depends = "['glibc>=2.34', 'libxcb>=1.12-2', 'xkeyboard-config>=2.18-2']"
 reverse_depends = "['chromium-browser', 'efl', 'enlightenment', 'freerdp', 'glfw', 'gtk+3', 'gtk+4', 'i3', 'i3lock', 'kitty', 'libwpe', 'obs-studio', 'qt5-base', 'qt6-base', 'terminology', 'weston', 'wine', 'wine-devel', 'wlroots', 'xdotool']"
 +++
+### Description: 
 Keymap compiler and support library for the XKB specification.
 
-## Files: 
+### Files: 
 * /usr/bin/xkbcli
 * /usr/include/xkbcommon/xkbcommon-compat.h
 * /usr/include/xkbcommon/xkbcommon-compose.h

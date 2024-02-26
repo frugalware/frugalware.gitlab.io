@@ -14,9 +14,10 @@ sha1sum = "a25543b14a00658c07910fecf33aae9d9f476945"
 depends = "['gstreamer1', 'gtk+3>=3.18.7', 'spice-glib>=0.41']"
 reverse_depends = "['remmina-spice', 'virt-manager']"
 +++
+### Description: 
 A Gtk client and libraries for SPICE remote desktop servers
 
-## Files: 
+### Files: 
 * /usr/bin/spicy
 * /usr/bin/spicy-screenshot
 * /usr/bin/spicy-stats

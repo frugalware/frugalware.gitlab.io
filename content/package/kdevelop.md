@@ -14,9 +14,10 @@ sha1sum = "856ef729cd187392f81a49594b8d61a491615073"
 depends = "['clang-libs>=17.0.6', 'grantlee', 'kitemmodels>=5.115.0', 'knotifyconfig>=5.115.0', 'krunner5>=5.115.0', 'ktexteditor>=5.115.0', 'libboost>=1.72.0', 'libkomparediff2', 'libksysguard5>=5.27.10', 'okteta>=0.26.2', 'qca', 'qt5-tools>=5.15.12', 'qt5-webengine>=5.15.12']"
 reverse_depends = "['kdev-php', 'kdev-python']"
 +++
+### Description: 
 The KDevelop integrated C/C++ application development environment
 
-## Files: 
+### Files: 
 * /usr/bin/kdevelop
 * /usr/bin/kdevelop!
 * /usr/bin/kdevplatform_shell_environment.sh

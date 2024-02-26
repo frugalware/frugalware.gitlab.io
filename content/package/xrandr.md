@@ -15,9 +15,10 @@ depends = "['libxrandr>=1.5.0-5']"
 reverse_depends = "['lutris', 'steamtinkerlaunch', 'virtualbox']"
 license = "GPL2"
 +++
+### Description: 
 X.Org xrandr application
 
-## Files: 
+### Files: 
 * /usr/bin/xkeystone
 * /usr/bin/xrandr
 * /usr/share/doc/xrandr-1.5.2/ChangeLog

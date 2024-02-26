@@ -13,9 +13,10 @@ usize = "2387957"
 sha1sum = "95181bd8be26a038300138cf9995b28d9d1d1c56"
 depends = "['dolphin>=23.08.5', 'ktexteditor>=5.115.0']"
 +++
+### Description: 
 Extra Dolphin plugins.
 
-## Files: 
+### Files: 
 * /usr/lib/qt5/plugins/dolphin/vcs/fileviewbazaarplugin.so
 * /usr/lib/qt5/plugins/dolphin/vcs/fileviewdropboxplugin.so
 * /usr/lib/qt5/plugins/dolphin/vcs/fileviewgitplugin.so

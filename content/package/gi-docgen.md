@@ -13,9 +13,10 @@ usize = "2211989"
 sha1sum = "55f3989a0e5ec12661375a5b98229c3e6d108854"
 depends = "['python3-jinja', 'python3-markdown', 'python3-markupsafe', 'python3-pygments', 'python3-toml', 'python3-typogrify']"
 +++
+### Description: 
 Documentation generator for GObject-based libraries
 
-## Files: 
+### Files: 
 * /usr/bin/gi-docgen
 * /usr/lib/pkgconfig/gi-docgen.pc
 * /usr/lib/python3.12/site-packages/gidocgen/config.py

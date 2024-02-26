@@ -14,9 +14,10 @@ sha1sum = "ff1b039225b55e92526b02aa53f08a5e93fd24b7"
 depends = "['python3>=3.11']"
 reverse_depends = "['lutris', 'python3-astroid']"
 +++
+### Description: 
 A fast and thorough lazy object proxy
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/lazy_object_proxy-1.9.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/lazy_object_proxy-1.9.0-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/lazy_object_proxy-1.9.0-py3.12.egg-info/PKG-INFO

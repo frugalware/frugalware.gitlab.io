@@ -14,9 +14,10 @@ sha1sum = "fbaea2c0fb7c503a4faa4c55b20381e8bbd5b875"
 depends = "[]"
 reverse_depends = "['lib32-ffmpeg']"
 +++
+### Description: 
 liba52 is a free library for decoding ATSC A/52 streams. ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/a52dec
 * /usr/i686-frugalware-linux/bin/extract_a52
 * /usr/i686-frugalware-linux/include/a52dec/a52.h

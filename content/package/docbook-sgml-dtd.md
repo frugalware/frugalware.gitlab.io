@@ -13,9 +13,10 @@ usize = "294971"
 sha1sum = "ececbcb396bce044946a46584799a65d88c42593"
 depends = "['sgml-common>=0.6.3-6']"
 +++
+### Description: 
 Docbook SGML DTD 3.1
 
-## Files: 
+### Files: 
 * /usr/share/doc/docbook-sgml-dtd-3.1/ChangeLog
 * /usr/share/sgml/docbook/sgml-dtd-3.1/cals-tbl.dtd
 * /usr/share/sgml/docbook/sgml-dtd-3.1/catalog

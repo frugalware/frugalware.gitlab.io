@@ -14,9 +14,10 @@ sha1sum = "3d3ecc0a73a4b567ac6ea22a74e82f8a3f2334e0"
 depends = "['kcalutils>=23.08.5', 'kmailtransport>=23.08.5', 'messagelib>=23.08.5']"
 reverse_depends = "['calendarsupport', 'kdepim-runtime']"
 +++
+### Description: 
 Akonadi calendar integration
 
-## Files: 
+### Files: 
 * /etc/xdg/autostart/org.kde.kalendarac.desktop
 * /usr/bin/kalendarac
 * /usr/include/KPim5/AkonadiCalendar/akonadi-calendar_version.h

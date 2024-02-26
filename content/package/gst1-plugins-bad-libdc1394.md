@@ -13,7 +13,8 @@ usize = "42776"
 sha1sum = "65b2adcac85b4bac84681b3a677e93407bf7e6ed"
 depends = "['gst1-plugins-bad>=1.22.10', 'gst1-plugins-base>=1.22.10', 'libdc1394>=2.2.7']"
 +++
+### Description: 
 GStreamer libdc1394 plugin (Bad).
 
-## Files: 
+### Files: 
 * /usr/lib/gstreamer-1.0/libgstdc1394.so

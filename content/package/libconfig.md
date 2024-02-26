@@ -14,9 +14,10 @@ sha1sum = "c77f7f2f2d4cb2e33e2860e075bd579997061d99"
 depends = "['libstdc++>=9.2']"
 reverse_depends = "['clight', 'libguestfs']"
 +++
+### Description: 
 Configuration file library for C and C++.
 
-## Files: 
+### Files: 
 * /usr/include/libconfig.h
 * /usr/include/libconfig.h++
 * /usr/lib/cmake/libconfig++/libconfig++Config.cmake

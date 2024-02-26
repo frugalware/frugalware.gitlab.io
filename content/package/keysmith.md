@@ -13,9 +13,10 @@ usize = "690152"
 sha1sum = "bdccc54bdfe5815d9ee12b80f0a2d39b1170f8ec"
 depends = "['kdbusaddons', 'ki18n', 'kirigami2', 'kwindowsystem', 'libsodium>=1.0.19', 'qt5-quickcontrols2', 'qt5-svg']"
 +++
+### Description: 
 OTP client for Plasma Mobile and Desktop
 
-## Files: 
+### Files: 
 * /usr/bin/keysmith
 * /usr/share/applications/org.kde.keysmith.desktop
 * /usr/share/doc/keysmith-23.08.5/COPYING

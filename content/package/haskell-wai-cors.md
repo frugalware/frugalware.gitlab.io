@@ -14,9 +14,10 @@ sha1sum = "338ea4bfef565b0045877d59a1f42bc71ded6e4a"
 depends = "['haskell-attoparsec', 'haskell-base-unicode-symbols', 'haskell-wai']"
 reverse_depends = "['pandoc-server']"
 +++
+### Description: 
 CORS for WAI
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/wai-cors-0.2.7/libHSwai-cors-0.2.7-5g7HBk8aVCL7Pxbax4ciyz.a
 * /usr/lib/ghc-9.8.1/site-local/wai-cors-0.2.7/Network/Wai/Middleware/Cors.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/wai-cors-0.2.7/Network/Wai/Middleware/Cors.hi

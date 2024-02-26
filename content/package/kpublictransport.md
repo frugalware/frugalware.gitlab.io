@@ -14,9 +14,10 @@ sha1sum = "0f12b7a7b674d6b04415a8b7aa49aeee22c854f6"
 depends = "['ki18n>=5.115.0', 'networkmanager-qt>=5.115.0', 'qt5-declarative>=5.15.12']"
 reverse_depends = "['kosmindoormap', 'ktrip']"
 +++
+### Description: 
 Library to assist with accessing public transport timetables and other data
 
-## Files: 
+### Files: 
 * /usr/include/KPublicTransport/KPublicTransport/AbstractQueryModel
 * /usr/include/KPublicTransport/kpublictransport/abstractquerymodel.h
 * /usr/include/KPublicTransport/KPublicTransport/Attribution

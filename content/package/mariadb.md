@@ -14,9 +14,10 @@ sha1sum = "0deb43302f0da6d084cf274b4f27c90afb2221d5"
 depends = "['jemalloc', 'libaio', 'libsystemd', 'libxml2', 'lzo', 'mariadb-libs>=11.2.2', 'openssl>=3.1.0']"
 reverse_depends = "['postfixadmin']"
 +++
+### Description: 
 A fast SQL database server
 
-## Files: 
+### Files: 
 * /etc/mysql/logrotate.d/mariadb
 * /etc/mysql/my.cnf
 * /etc/mysql/my.cnf.d/client.cnf

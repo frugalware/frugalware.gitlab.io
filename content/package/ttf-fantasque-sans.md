@@ -13,9 +13,10 @@ usize = "1022523"
 sha1sum = "5ed03f213e051132d210c10c3dc9f9c20d3e5599"
 depends = "['fontconfig', 'mkfontscale']"
 +++
+### Description: 
 A font family with a great monospaced variant for programmers.
 
-## Files: 
+### Files: 
 * /usr/share/doc/ttf-fantasque-sans-1.8.0/README.md
 * /usr/share/fonts/X11/TTF/FantasqueSansMono-Bold.otf
 * /usr/share/fonts/X11/TTF/FantasqueSansMono-Bold.ttf

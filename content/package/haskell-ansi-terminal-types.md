@@ -14,9 +14,10 @@ sha1sum = "7277cf69b23fa01ce8f895dec26a4645e0460df7"
 depends = "['haskell-colour']"
 reverse_depends = "['haskell-ansi-terminal']"
 +++
+### Description: 
 Types and functions used to represent SGR aspects
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/ansi-terminal-types-0.11.5/libHSansi-terminal-types-0.11.5-2a2fmPlNFqF1DlTktOKqnN.a
 * /usr/lib/ghc-9.8.1/site-local/ansi-terminal-types-0.11.5/System/Console/ANSI/Types.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/ansi-terminal-types-0.11.5/System/Console/ANSI/Types.hi

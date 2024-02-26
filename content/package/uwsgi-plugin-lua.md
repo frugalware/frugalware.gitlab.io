@@ -13,7 +13,8 @@ usize = "35304"
 sha1sum = "94410d734d6bee79982cbe44e02d39883d861fe1"
 depends = "['lua>=5.4', 'uwsgi']"
 +++
+### Description: 
 UWSGI Lua Plugin
 
-## Files: 
+### Files: 
 * /usr/lib/uwsgi/lua_plugin.so

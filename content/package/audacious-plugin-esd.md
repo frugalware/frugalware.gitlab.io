@@ -13,7 +13,8 @@ usize = "53747"
 sha1sum = "8011a0ca175d1d8703df187ebb5927ee94c7d883"
 depends = "[]"
 +++
+### Description: 
 Audacious esd output plugin
 
-## Files: 
+### Files: 
 * /usr/lib/audacious/Output/ESD.so

@@ -13,9 +13,10 @@ usize = "291526"
 sha1sum = "a7958f11f2d952c881240f8c32c7dc01bd7d5794"
 depends = "['libstdc++']"
 +++
+### Description: 
 GNU ddrescue is a data recovery tool
 
-## Files: 
+### Files: 
 * /usr/bin/ddrescue
 * /usr/bin/ddrescuelog
 * /usr/share/doc/ddrescue-1.24/AUTHORS

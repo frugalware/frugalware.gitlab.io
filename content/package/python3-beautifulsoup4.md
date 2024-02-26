@@ -14,9 +14,10 @@ sha1sum = "c2ec0678de2b9d6df501587351efd405de4dd994"
 depends = "['python3-soupsieve']"
 reverse_depends = "['calibre']"
 +++
+### Description: 
 Beautiful Soup sits atop an HTML or XML parser, providing Pythonic idioms for iterating, searching, and modifying the parse tree.
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/beautifulsoup4-4.12.2.dist-info/licenses/AUTHORS
 * /usr/lib/python3.12/site-packages/beautifulsoup4-4.12.2.dist-info/licenses/LICENSE
 * /usr/lib/python3.12/site-packages/beautifulsoup4-4.12.2.dist-info/METADATA

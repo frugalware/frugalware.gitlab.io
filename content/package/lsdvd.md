@@ -15,9 +15,10 @@ depends = "['glibc>=2.29-6', 'libdvdread>=6.1.1']"
 reverse_depends = "['kvideoencoder']"
 license = "GPL2"
 +++
+### Description: 
 Lsdvd is a c application for reading the contents of a DVD and printing the contents to your terminal.
 
-## Files: 
+### Files: 
 * /usr/bin/lsdvd
 * /usr/share/doc/lsdvd-0.17/AUTHORS
 * /usr/share/doc/lsdvd-0.17/ChangeLog

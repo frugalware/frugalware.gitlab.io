@@ -15,9 +15,10 @@ depends = "['libx11>=1.6.3-4', 'libxext>=1.3.3-3', 'libxmu>=1.1.2-3']"
 reverse_depends = "['sddm']"
 license = "GPL2"
 +++
+### Description: 
 X.Org xauth application
 
-## Files: 
+### Files: 
 * /usr/bin/xauth
 * /usr/share/doc/xauth-1.1.2/ChangeLog
 * /usr/share/doc/xauth-1.1.2/COPYING

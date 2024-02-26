@@ -14,7 +14,8 @@ sha1sum = "a028121799cea766a814e53af075c64a05caf328"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Occitan (post 1500) language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-oc@firefox.mozilla.org.xpi

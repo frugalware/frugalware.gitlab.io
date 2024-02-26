@@ -14,9 +14,10 @@ sha1sum = "d4ddd5b6269c784c923bcc4521971d3d86022855"
 depends = "['glibc>=2.34', 'libuuid>=2.31.1-3']"
 reverse_depends = "['partitionmanager', 'qtparted']"
 +++
+### Description: 
 JFS filesystem utilities
 
-## Files: 
+### Files: 
 * /usr/bin/fsck.jfs
 * /usr/bin/jfs_debugfs
 * /usr/bin/jfs_fsck

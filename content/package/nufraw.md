@@ -13,9 +13,10 @@ usize = "2978722"
 sha1sum = "1eebf71213c246d2108a2e97960701e792cc44dc"
 depends = "['cfitsio>=4.2.0', 'exiv2>=0.28.1', 'jasper>=2.0.10', 'lcms2>=2.7-3', 'lensfun>=0.3.2-2', 'libgomp', 'libpng']"
 +++
+### Description: 
 Converter for raw files
 
-## Files: 
+### Files: 
 * /usr/bin/nikon-curve
 * /usr/bin/nufraw-batch
 * /usr/share/appdata/nufraw.appdata.xml

@@ -13,7 +13,8 @@ usize = "10757185"
 sha1sum = "d9fac5a565bb13d1bcddfdc66ebcd98b1170e703"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang uzb
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/uzb.traineddata

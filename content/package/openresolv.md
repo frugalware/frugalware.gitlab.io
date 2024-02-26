@@ -14,9 +14,10 @@ sha1sum = "dc95fa375675558bfa7b8575c8f4583aa13c5ee9"
 depends = "['bash']"
 reverse_depends = "['networkmanager', 'strongswan']"
 +++
+### Description: 
 The DNS management framework
 
-## Files: 
+### Files: 
 * /etc/resolvconf.conf
 * /usr/bin/resolvconf
 * /usr/lib/openresolv/dnsmasq

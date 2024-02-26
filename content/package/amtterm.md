@@ -13,9 +13,10 @@ usize = "57263"
 sha1sum = "2fc018d5b5208e92820c99a3382af3434a93e05b"
 depends = "['glibc']"
 +++
+### Description: 
 Serial-over-lan (sol) client for Intel AMT
 
-## Files: 
+### Files: 
 * /usr/bin/amtterm
 * /usr/bin/amttool
 * /usr/share/doc/amtterm-1.6/COPYING

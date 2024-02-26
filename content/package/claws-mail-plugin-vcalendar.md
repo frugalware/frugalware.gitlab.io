@@ -13,7 +13,8 @@ usize = "216936"
 sha1sum = "3f78c52e52ea81b4962b2a9d1528f8cb8ffb3f9d"
 depends = "['claws-mail=4.1.1', 'curl>=7.47.0', 'libical>=3.0.3']"
 +++
+### Description: 
 This plugin enables vCalendar message, and handles webCal subscriptions.
 
-## Files: 
+### Files: 
 * /usr/lib/claws-mail/plugins/vcalendar.so

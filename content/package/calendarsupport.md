@@ -14,9 +14,10 @@ sha1sum = "ff3224f78020314c68030e4b40c3430790b657b1"
 depends = "['akonadi>=23.08.5', 'akonadi-calendar>=23.08.5', 'akonadi-notes>=23.08.5', 'kholidays>=5.115.0', 'pimcommon>=23.08.5']"
 reverse_depends = "['akonadi-calendar-tools', 'akonadiconsole', 'eventviews', 'pim-data-exporter']"
 +++
+### Description: 
 This lib provides calendar support
 
-## Files: 
+### Files: 
 * /usr/include/KPim5/CalendarSupport/CalendarSupport/ArchiveDialog
 * /usr/include/KPim5/CalendarSupport/calendarsupport/archivedialog.h
 * /usr/include/KPim5/CalendarSupport/CalendarSupport/CalendarSingleton

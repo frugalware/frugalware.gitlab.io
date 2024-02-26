@@ -13,7 +13,8 @@ usize = "694"
 sha1sum = "804ffe930e2abd21015581efd0845a912807eef3"
 depends = "['chrony', 'networkmanager']"
 +++
+### Description: 
 Dispatcher Script for chrony
 
-## Files: 
+### Files: 
 * /etc/NetworkManager/dispatcher.d/10-chrony

@@ -13,9 +13,10 @@ usize = "6491388"
 sha1sum = "48c91c4c4db79c716f88c83f5c6273d0f5afa069"
 depends = "['knotifyconfig>=5.115.0', 'kontactinterface>=23.08.5', 'ktexteditor>=5.115.0', 'messagelib>=23.08.5', 'syndication>=5.115.0']"
 +++
+### Description: 
 Feed Reader
 
-## Files: 
+### Files: 
 * /usr/bin/akregator
 * /usr/bin/akregatorstorageexporter
 * /usr/lib/libakregatorinterfaces.so.5

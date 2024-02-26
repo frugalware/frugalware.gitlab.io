@@ -14,9 +14,10 @@ sha1sum = "ed392e39877f16bb1c4c5bb78af33447c23ba6b8"
 depends = "['haskell-basement', 'haskell-cereal', 'haskell-network']"
 reverse_depends = "['haskell-connection', 'haskell-crypton-connection']"
 +++
+### Description: 
 Socks proxy (ver 5)
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/socks-0.6.1/libHSsocks-0.6.1-DeD1txQEx2Y3gWhExFMYLl.a
 * /usr/lib/ghc-9.8.1/site-local/socks-0.6.1/Network/Socks5.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/socks-0.6.1/Network/Socks5.hi

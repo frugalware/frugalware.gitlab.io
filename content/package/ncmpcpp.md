@@ -13,9 +13,10 @@ usize = "2608765"
 sha1sum = "fe6259aec5ecbcfcd4e1d12468a4431d186f2aff"
 depends = "['curl>=7.20.0-2', 'fftw', 'icu4c>=74.1', 'libboost>=1.83.0', 'libmpdclient', 'ncurses>=6.0-3', 'readline>=8.0', 'taglib']"
 +++
+### Description: 
 An almost exact clone of ncmpc with some new features.
 
-## Files: 
+### Files: 
 * /usr/bin/ncmpcpp
 * /usr/share/doc/ncmpcpp-0.9.2/AUTHORS
 * /usr/share/doc/ncmpcpp-0.9.2/COPYING

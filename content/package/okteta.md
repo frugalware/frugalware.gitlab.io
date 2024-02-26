@@ -14,9 +14,10 @@ sha1sum = "8523a2b9eaa9a7fb913f9fe51d70d901e6e785ef"
 depends = "['kcmutils>=5.113.0', 'knewstuff>=5.113.0', 'kparts>=5.113.0', 'qca>=2.1.1-6', 'qt5-declarative>=5.15.12']"
 reverse_depends = "['kdevelop']"
 +++
+### Description: 
 Okteta is a simple hexadecimal editor or binary editor.
 
-## Files: 
+### Files: 
 * /usr/bin/okteta
 * /usr/bin/struct2osd
 * /usr/include/KastenControllers/Kasten/ClipboardControllerFactory

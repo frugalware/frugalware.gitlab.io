@@ -13,9 +13,10 @@ usize = "11201077"
 sha1sum = "22f5922fe4900815ae5032d809f35ba64125ff7b"
 depends = "[]"
 +++
+### Description: 
 EL Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/locale/el/charset
 * usr/share/locale/el/entry.desktop
 * usr/share/locale/el/flag.png

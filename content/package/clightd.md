@@ -14,9 +14,10 @@ sha1sum = "2702cb7bed1b230f5072d44982e24e60484b22a4"
 depends = "['ddcutil', 'libdrm', 'libiio', 'libjpeg-turbo', 'libmodule', 'libsystemd', 'libusb', 'libx11', 'libxext', 'libxrandr', 'pipewire', 'polkit', 'wayland']"
 reverse_depends = "['clight']"
 +++
+### Description: 
 Bus interface to change screen brightness and capture frames from webcam.
 
-## Files: 
+### Files: 
 * /etc/dbus-1/system.d/org.clightd.clightd.conf
 * /usr/lib/clightd/clightd
 * /usr/lib/modules-load.d/i2c_clightd.conf

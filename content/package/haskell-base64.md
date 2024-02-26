@@ -14,9 +14,10 @@ sha1sum = "796acb8c93b9cda72aa85ee26d6f3ba95060ae54"
 depends = "['haskell-text-short']"
 reverse_depends = "['pandoc']"
 +++
+### Description: 
 A modern RFC 4648-compliant Base64 library
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/base64-0.4.2.4/Data/ByteString/Base64.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/base64-0.4.2.4/Data/ByteString/Base64.hi
 * /usr/lib/ghc-9.8.1/site-local/base64-0.4.2.4/Data/ByteString/Base64/Internal.dyn_hi

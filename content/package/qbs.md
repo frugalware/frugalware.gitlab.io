@@ -13,9 +13,10 @@ usize = "9449635"
 sha1sum = "e786805b495e19b16e19d09e72b64d28d3e7a5bf"
 depends = "['qt5-base>=5.15.10', 'qt5-script>=5.15.10']"
 +++
+### Description: 
 A tool that helps simplify the build process for developing projects across multiple platforms
 
-## Files: 
+### Files: 
 * /usr/bin/qbs
 * /usr/bin/qbs-config
 * /usr/bin/qbs-config-ui

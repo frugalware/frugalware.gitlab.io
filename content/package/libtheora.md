@@ -14,9 +14,10 @@ sha1sum = "3965c078cbb11e8ed95b3daccca189e98789110b"
 depends = "['libogg>=1.3.2-5']"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-base-theora', 'gtk-handbrake', 'icecast', 'libshout', 'love', 'mencoder', 'mplayer', 'picard', 'scummvm', 'ufoai', 'vlc-theora']"
 +++
+### Description: 
 An open video codec developed by the Xiph.org.
 
-## Files: 
+### Files: 
 * /usr/include/theora/codec.h
 * /usr/include/theora/theora.h
 * /usr/include/theora/theoradec.h

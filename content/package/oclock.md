@@ -14,9 +14,10 @@ sha1sum = "16f07ef24d302744ebf033aaaf08cd619f77af4c"
 depends = "['libxkbfile', 'libxmu']"
 license = "GPL2"
 +++
+### Description: 
 X.Org oclock application
 
-## Files: 
+### Files: 
 * /usr/bin/oclock
 * /usr/share/doc/oclock-1.0.5/ChangeLog
 * /usr/share/doc/oclock-1.0.5/COPYING

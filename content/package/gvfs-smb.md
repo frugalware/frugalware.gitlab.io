@@ -13,9 +13,10 @@ usize = "90029"
 sha1sum = "c7368b66292ac8a6217e21aaf5b0f52c080f9a0e"
 depends = "['gvfs>=1.52.0', 'libsmbclient>=4.3.3-1', 'samba-client>=4.3.4-1']"
 +++
+### Description: 
 gvfs with samba support
 
-## Files: 
+### Files: 
 * /usr/lib/gvfs/gvfsd-smb
 * /usr/lib/gvfs/gvfsd-smb-browse
 * /usr/share/gvfs/mounts/smb-browse.mount

@@ -13,9 +13,10 @@ usize = "1484236"
 sha1sum = "fb3a4d7469bba683b7d644b5b9ed02715685f692"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Swahili support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/resource/sw_TZ/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/sw_TZ/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/sw_TZ/LC_MESSAGES/basctl.mo

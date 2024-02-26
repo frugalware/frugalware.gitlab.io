@@ -14,7 +14,8 @@ sha1sum = "be5c51f8c5f7e7d1b53393ec295d67488e8954c7"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Georgian language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-ka@firefox.mozilla.org.xpi

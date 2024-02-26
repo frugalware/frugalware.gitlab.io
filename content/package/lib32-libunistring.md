@@ -14,9 +14,10 @@ sha1sum = "e5ca93aaeb1f5b0d6a2d67c7fb15731b01ad1498"
 depends = "[]"
 reverse_depends = "['lib32-gettext', 'lib32-gnutls', 'lib32-libidn2']"
 +++
+### Description: 
 Library for manipulating Unicode strings and C strings. ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/unicase.h
 * /usr/i686-frugalware-linux/include/uniconv.h
 * /usr/i686-frugalware-linux/include/unictype.h

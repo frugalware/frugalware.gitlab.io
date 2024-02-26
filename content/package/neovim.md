@@ -13,9 +13,10 @@ usize = "26296336"
 sha1sum = "debaa5a8351e0821182d4299430aa94181ca8687"
 depends = "['libluv', 'libtermkey', 'libvterm', 'msgpack-c', 'tree-sitter', 'unibilium']"
 +++
+### Description: 
 Fork of Vim aiming to improve user experience, plugins, and GUIs
 
-## Files: 
+### Files: 
 * /usr/bin/nvim
 * /usr/share/applications/nvim.desktop
 * /usr/share/doc/neovim-0.9.4/README.md

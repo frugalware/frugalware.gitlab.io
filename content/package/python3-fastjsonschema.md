@@ -14,9 +14,10 @@ sha1sum = "05e021418e34b2bd4ce7f1ed153f0c9835e9d7d0"
 depends = "['python3']"
 reverse_depends = "['python3-poetry']"
 +++
+### Description: 
 Fast JSON schema validator for Python
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/fastjsonschema-2.19.0.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/fastjsonschema-2.19.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/fastjsonschema-2.19.0.dist-info/RECORD

@@ -13,9 +13,10 @@ usize = "70050524"
 sha1sum = "e724e33391f91e05aba439c7ad7c1f9a85b3b41a"
 depends = "['kfilemetadata5>=5.115.0', 'knewstuff>=5.115.0', 'knotifyconfig>=5.115.0', 'kplotting>=5.115.0', 'mlt>=7.14.0', 'mlt-qt>=7.14.0', 'mlt-sdl>=7.14.0', 'purpose>=5.115.0', 'qt5-declarative>=5.15.12', 'qt5-networkauth>=5.15.12', 'qt5-svg>=5.15.12', 'qt5-webengine>=5.15.12']"
 +++
+### Description: 
 A non-linear video editor for Linux using the MLT video framework
 
-## Files: 
+### Files: 
 * /usr/bin/kdenlive
 * /usr/bin/kdenlive_render
 * /usr/lib/qt5/plugins/kf5/thumbcreator/mltpreview.so

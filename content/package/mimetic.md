@@ -14,9 +14,10 @@ sha1sum = "55af14530bc6f0ad0c7fcb05e0f0b0a8cc0d42c4"
 depends = "['libstdc++>=11.2']"
 license = "MIT"
 +++
+### Description: 
 a free, MIT licensed, Email library (MIME) written in C++
 
-## Files: 
+### Files: 
 * /usr/include/mimetic/body.h
 * /usr/include/mimetic/circular_buffer.h
 * /usr/include/mimetic/codec/base64.h

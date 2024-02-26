@@ -14,9 +14,10 @@ sha1sum = "68a978f65365598388ee795209b50f6bcb365a48"
 depends = "['python3-typing_extensions']"
 reverse_depends = "['python3-poetry-core']"
 +++
+### Description: 
 A modern parsing library
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/lark-1.1.8.dist-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/lark-1.1.8.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/lark-1.1.8.dist-info/METADATA

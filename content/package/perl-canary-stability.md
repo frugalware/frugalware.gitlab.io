@@ -14,9 +14,10 @@ sha1sum = "7d7ff00f2d5c5fedb277699db4a86b0db70b53a9"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-convert-uulib', 'perl-json-xs']"
 +++
+### Description: 
 canary to check perl compatibility for schmorp's modules
 
-## Files: 
+### Files: 
 * /usr/lib/perl5/site_perl/Canary/Stability.pm
 * /usr/share/doc/perl-canary-stability-2013/COPYING
 * /usr/share/doc/perl-canary-stability-2013/MANIFEST

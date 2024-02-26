@@ -14,9 +14,10 @@ sha1sum = "9cc0d4f4526cfce70377af58d786bc588907a218"
 depends = "['curl', 'openssl', 'perl>=5.10.0-2', 'perl-dbi', 'perl-digest-sha1>=2.11-2', 'perl-encode-detect>=1.00-2', 'perl-html-parser>=3.56-2', 'perl-io-socket-inet6>=2.52', 'perl-io-socket-ssl', 'perl-io-socket-ssl', 'perl-ip-country', 'perl-libwww>=6.05', 'perl-mail-dkim', 'perl-mail-domainkeys', 'perl-mail-spf', 'perl-net-dns', 'perl-net-ident', 'perl-net-ssleay>=1.35', 'perl-netaddr-ip', 'perl-razor2-client-agent']"
 reverse_depends = "['amavisd-new']"
 +++
+### Description: 
 A mail filter to identify spam.
 
-## Files: 
+### Files: 
 * /etc/mail/spamassassin/init.pre
 * /etc/mail/spamassassin/local.cf
 * /etc/mail/spamassassin/v310.pre

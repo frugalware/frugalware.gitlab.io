@@ -14,9 +14,10 @@ sha1sum = "92fd172672c0b427571e89e77f02e313fef54cdd"
 depends = "[]"
 reverse_depends = "['lib32-util-linux']"
 +++
+### Description: 
 A library making programming with POSIX capabilities easier than traditional libcap ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/captest
 * /usr/i686-frugalware-linux/bin/filecap
 * /usr/i686-frugalware-linux/bin/netcap

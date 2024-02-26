@@ -14,9 +14,10 @@ sha1sum = "9128a5aad4503bcd81bc1fb3ca72b8258cca749b"
 depends = "['glibc>=2.34', 'libassuan>=2.4.3-4', 'libgpg-error>=1.27-3']"
 reverse_depends = "['claws-mail-plugin-pgpcore', 'claws-mail-plugin-pgpinline', 'claws-mail-plugin-pgpmime', 'claws-mail-plugin-smime', 'fwupd', 'gmime2', 'gmime3', 'kgpg', 'libgpgmepp', 'libjcat', 'libqgpgme', 'libsmbclient', 'mcabber', 'mutt-devel', 'openvas-libraries', 'openvas-manager', 'ostree', 'python3-gpgme', 'sylpheed', 'volume_key', 'wget2']"
 +++
+### Description: 
 A high-level crypto API for encryption
 
-## Files: 
+### Files: 
 * /usr/bin/gpgme-json
 * /usr/bin/gpgme-tool
 * /usr/include/gpgme++/configuration.h

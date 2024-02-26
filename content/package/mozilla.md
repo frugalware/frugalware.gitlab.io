@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = ""
 depends = "['gtk+2', 'libidl']"
 +++
+### Description: 
 The Mozilla Web Browser
 
-## Files: 
+### Files: 
 * usr/bin/mozilla
 * usr/bin/mozilla-config
 * usr/include/mozilla

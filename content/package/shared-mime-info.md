@@ -14,9 +14,10 @@ sha1sum = "4d0096a82129c679e202c8b6d2ccaec56674260a"
 depends = "['glib2>=2.56.0', 'libxml2>=2.9.4-3']"
 reverse_depends = "['akonadi', 'akonadi-mime', 'frugalpkg', 'gdk-pixbuf2', 'gtk+2', 'gtk+3', 'gtk+4', 'kcoreaddons', 'kpkpass', 'love', 'qt6-base']"
 +++
+### Description: 
 Freedesktop.org Shared MIME Info
 
-## Files: 
+### Files: 
 * /usr/bin/update-mime-database
 * /usr/lib/pkgconfig/shared-mime-info.pc
 * /usr/share/doc/shared-mime-info-2.4/COPYING

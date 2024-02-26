@@ -13,9 +13,10 @@ usize = "45103"
 sha1sum = "8f45653de47cf82dc82dcace528b2729b229d6a1"
 depends = "['glibc']"
 +++
+### Description: 
 Secure rm is a command-line compatible rm which destroys file contents before unlinking
 
-## Files: 
+### Files: 
 * /usr/bin/fill_test
 * /usr/bin/srm
 * /usr/share/doc/srm-1.2.15/AUTHORS

@@ -13,9 +13,10 @@ usize = "2497355"
 sha1sum = "b405c03c21ffa25f5a35c1159db257806290800a"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Marathi support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/resource/mr/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/mr/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/mr/LC_MESSAGES/basctl.mo

@@ -13,9 +13,10 @@ usize = "3452617"
 sha1sum = "3a9bd71436d511435755ce741a70747e17f4f97e"
 depends = "[]"
 +++
+### Description: 
 Esperanto Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/locale/eo/charset
 * usr/share/locale/eo/entry.desktop
 * usr/share/locale/eo/flag.png

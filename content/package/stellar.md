@@ -13,9 +13,10 @@ usize = "674538"
 sha1sum = "dfa5766c239bfe80813e048f3f3c10eb9202202e"
 depends = "['glibc', 'sddm']"
 +++
+### Description: 
 sddm greeter theme that features a milky way background
 
-## Files: 
+### Files: 
 * /usr/share/doc/stellar-0.1.0/LICENSE
 * /usr/share/sddm/themes/stellar/LICENSE
 * /usr/share/sddm/themes/stellar/Main.qml

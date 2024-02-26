@@ -13,7 +13,8 @@ usize = "18120"
 sha1sum = "97312d9aa99503885a6b05758d563648b2aa48f4"
 depends = "['flac>=1.4.0', 'libvlc>=3.0.20']"
 +++
+### Description: 
 vlc flac support
 
-## Files: 
+### Files: 
 * /usr/lib/vlc/plugins/codec/libflac_plugin.so

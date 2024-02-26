@@ -13,9 +13,10 @@ usize = "647120"
 sha1sum = "a1e9a1e75210073e49dc684134e8ad7847d42f25"
 depends = "['baloo5>=', 'kirigami-addons', 'kquickcharts>=', 'qqc2-desktop-style>=', 'qt5-webengine>=', 'qt5-websockets>=']"
 +++
+### Description: 
 EPub Reader for mobile devices
 
-## Files: 
+### Files: 
 * /usr/bin/arianna
 * /usr/share/applications/org.kde.arianna.desktop
 * /usr/share/doc/arianna-23.08.5/README.md

@@ -15,9 +15,10 @@ depends = "['glibc>=2.26.9000-3', 'libsystemd>=231-22']"
 reverse_depends = "['rsyslog']"
 license = "GPL"
 +++
+### Description: 
 Easy to use, portable, open source library for system logging
 
-## Files: 
+### Files: 
 * /usr/bin/stdlogctl
 * /usr/include/liblogging/stdlog.h
 * /usr/lib/liblogging-stdlog.so

@@ -13,9 +13,10 @@ usize = "4690640"
 sha1sum = "c86d17a74a4740d6b8e338d03c9259ff3965cea0"
 depends = "[]"
 +++
+### Description: 
 Chrome OS core fonts
 
-## Files: 
+### Files: 
 * /usr/share/fonts/X11/TTF/Arimo-Bold.ttf
 * /usr/share/fonts/X11/TTF/Arimo-BoldItalic.ttf
 * /usr/share/fonts/X11/TTF/Arimo-Italic.ttf

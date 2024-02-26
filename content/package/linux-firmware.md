@@ -14,9 +14,10 @@ sha1sum = "7309f7d8f11f16c9e0d6fe65d62b5fc8cdc3a157"
 depends = "[]"
 reverse_depends = "['kernel-initrd', 'kernel-lts-initrd']"
 +++
+### Description: 
 The linux kernel firmware.
 
-## Files: 
+### Files: 
 * /usr/lib/firmware/3com/typhoon.bin.zst
 * /usr/lib/firmware/a300_pfp.fw.zst
 * /usr/lib/firmware/a300_pm4.fw.zst

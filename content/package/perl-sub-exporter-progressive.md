@@ -14,9 +14,10 @@ sha1sum = "9fcf392dddd19a2cd49c9fa1bd72745e978489de"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-devel-globaldestruction']"
 +++
+### Description: 
 Only use Sub::Exporter if you need it
 
-## Files: 
+### Files: 
 * /usr/lib/perl5/site_perl/current/Sub/Exporter/Progressive.pm
 * /usr/share/doc/perl-sub-exporter-progressive-0.001013/LICENSE
 * /usr/share/doc/perl-sub-exporter-progressive-0.001013/MANIFEST

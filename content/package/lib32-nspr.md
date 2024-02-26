@@ -14,9 +14,10 @@ sha1sum = "af38b486765777cd17f0eefe6e554150c6544a8b"
 depends = "[]"
 reverse_depends = "['lib32-nss']"
 +++
+### Description: 
 NSPR library from mozilla.org ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/nspr-config
 * /usr/i686-frugalware-linux/bin/prerr.properties
 * /usr/i686-frugalware-linux/include/nspr

@@ -14,9 +14,10 @@ sha1sum = "a04e5dee6b6b1498412347d03436fae5a75c5a00"
 depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxext>=1.3.3-3', 'lib32-libxt>=1.1.5-3']"
 reverse_depends = "['lib32-libxaw']"
 +++
+### Description: 
 X.Org Xmu library ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/X11/Xmu/Atoms.h
 * /usr/i686-frugalware-linux/include/X11/Xmu/CharSet.h
 * /usr/i686-frugalware-linux/include/X11/Xmu/CloseHook.h

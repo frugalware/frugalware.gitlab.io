@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "8df8da78f69a3503194ee778725a46125fab0442"
 depends = "['glibc']"
 +++
+### Description: 
 The GNU GCC library (libgcc_s.so)
 
-## Files: 
+### Files: 
 * usr/lib/libgcc_s.so
 * usr/lib/libgcc_s.so.1
 * usr/share/doc/gcc-lib-4.0.3/BUGS

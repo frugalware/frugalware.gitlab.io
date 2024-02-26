@@ -14,9 +14,10 @@ sha1sum = "ec67b249e43a079bf042b50f01fbef1730979d44"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-fast-logger']"
 +++
+### Description: 
 Cross-platform File handling
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/easy-file-0.2.5/libHSeasy-file-0.2.5-EAV3KM5oAXoDsK5ykouJhD.a
 * /usr/lib/ghc-9.8.1/site-local/easy-file-0.2.5/System/EasyFile.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/easy-file-0.2.5/System/EasyFile.hi

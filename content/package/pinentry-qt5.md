@@ -13,7 +13,8 @@ usize = "178728"
 sha1sum = "9143b5a2e603369d36924a8faca55efe4ef7476d"
 depends = "['pinentry>=1.2.1', 'qt5-base>=5.15.10']"
 +++
+### Description: 
 Qt5 based Applications for entering PINs or Passphrases.
 
-## Files: 
+### Files: 
 * /usr/bin/pinentry-qt

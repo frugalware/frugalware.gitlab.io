@@ -13,7 +13,8 @@ usize = "26544"
 sha1sum = "9fd5fc6d24c7726b73fff8d7fd85e4af49c45cd7"
 depends = "['gst1-plugins-bad>=1.22.10', 'gst1-plugins-base>=1.22.10', 'libdca>=0.0.5-5', 'libffi>=3.2.1-2']"
 +++
+### Description: 
 GStreamer dts plugin (Bad).
 
-## Files: 
+### Files: 
 * /usr/lib/gstreamer-1.0/libgstdtsdec.so

@@ -13,9 +13,10 @@ usize = "2596930"
 sha1sum = "c539e25172a512e9cef2b919d5224987899a5cde"
 depends = "[]"
 +++
+### Description: 
 A mindmapping-like tool to help students to produce complicated documents very quickly and efficiently
 
-## Files: 
+### Files: 
 * usr/bin/kdissert
 * usr/lib/kde3/libkdissapplet.la
 * usr/lib/kde3/libkdissapplet.so

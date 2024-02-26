@@ -13,9 +13,10 @@ usize = "423314"
 sha1sum = "e265cbd61f7db2f99924def7a0f56e54e326d68a"
 depends = "['qt5-base>=5.15.10']"
 +++
+### Description: 
 Qt5 based gui for mediainfo.
 
-## Files: 
+### Files: 
 * /usr/bin/mediainfo-gui
 * /usr/share/applications/mediainfo-gui.desktop
 * /usr/share/icons/hicolor/scalable/apps/mediainfo.svg

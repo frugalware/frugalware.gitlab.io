@@ -14,9 +14,10 @@ sha1sum = "be8a1d9ebf93e52fd07aac53c33fe160be51f35f"
 depends = "['python3']"
 reverse_depends = "['lib32-spirv-llvm-translator']"
 +++
+### Description: 
 API and commands for processing SPIR-V modules ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/spirv-tools/instrument.hpp
 * /usr/i686-frugalware-linux/include/spirv-tools/libspirv.h
 * /usr/i686-frugalware-linux/include/spirv-tools/libspirv.hpp

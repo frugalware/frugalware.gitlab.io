@@ -13,9 +13,10 @@ usize = "214293"
 sha1sum = "72bbb29806e26ced487c283a3bb22e58cab6afb8"
 depends = "['libpng']"
 +++
+### Description: 
 A PNG optimizer that tries to reduce the file size even further.
 
-## Files: 
+### Files: 
 * /usr/bin/optipng
 * /usr/share/doc/optipng-0.7.8/history.txt
 * /usr/share/doc/optipng-0.7.8/LICENSE.txt

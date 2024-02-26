@@ -14,9 +14,10 @@ sha1sum = "a5918bb39104c5b55fac275f2480347bd78ad0e2"
 depends = "['libboost>=1.72.0']"
 reverse_depends = "['libepubgen', 'libodfgen', 'libpagemaker', 'libqxp', 'libstaroffice', 'libwpd', 'libwps', 'libzmf', 'scribus']"
 +++
+### Description: 
 A helper library for REVerses ENGineered formats filters
 
-## Files: 
+### Files: 
 * /usr/include/librevenge-0.0/librevenge-generators/librevenge-generators-api.h
 * /usr/include/librevenge-0.0/librevenge-generators/librevenge-generators.h
 * /usr/include/librevenge-0.0/librevenge-generators/RVNGCSVSpreadsheetGenerator.h

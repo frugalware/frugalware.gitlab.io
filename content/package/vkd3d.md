@@ -14,9 +14,10 @@ sha1sum = "e2c9321009c8c865b94e159fb608a045afee034c"
 depends = "['ncurses', 'vulkan-icd-loader']"
 reverse_depends = "['wine', 'wine-devel']"
 +++
+### Description: 
 Direct3D 12 to Vulkan translation library
 
-## Files: 
+### Files: 
 * /usr/bin/vkd3d-compiler
 * /usr/bin/vkd3d-dxbc
 * /usr/include/vkd3d/vkd3d.h

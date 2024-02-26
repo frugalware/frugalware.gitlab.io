@@ -13,9 +13,10 @@ usize = "281917"
 sha1sum = "ce08a111f76a5197d0149e876904d1e8ca52ccdf"
 depends = "['ffmpeg>=6.0']"
 +++
+### Description: 
 Creates thumbnails for your video files
 
-## Files: 
+### Files: 
 * /usr/bin/ffmpegthumbnailer
 * /usr/include/libffmpegthumbnailer/ffmpegthumbnailertypes.h
 * /usr/include/libffmpegthumbnailer/filmstripfilter.h

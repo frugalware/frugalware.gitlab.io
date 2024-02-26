@@ -13,9 +13,10 @@ usize = "6315543"
 sha1sum = "d5c4a169c80370775f2dc43f05ce1810aff501f5"
 depends = "[]"
 +++
+### Description: 
 Galician Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/locale/gl/charset
 * usr/share/locale/gl/entry.desktop
 * usr/share/locale/gl/flag.png

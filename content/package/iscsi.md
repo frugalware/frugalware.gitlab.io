@@ -14,9 +14,10 @@ sha1sum = "8605ad407e3488cc2d974b8709cf21de52f0d5a6"
 depends = "['kmod', 'libsystemd', 'open-isns>=0.102']"
 reverse_depends = "['dracut-network', 'libvirt']"
 +++
+### Description: 
 Open-iSCSI project is a high performance, transport independent
 
-## Files: 
+### Files: 
 * /etc/iscsi/initiatorname.iscsi
 * /etc/iscsi/iscsid.conf
 * /etc/logrotate.d/iscsiuiolog

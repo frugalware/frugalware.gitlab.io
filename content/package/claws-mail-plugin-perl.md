@@ -13,7 +13,8 @@ usize = "71600"
 sha1sum = "8ca8e082892f7c3bb52f4a39f256bb42cd99513a"
 depends = "['claws-mail=4.1.1', 'perl>=5.14.1-7']"
 +++
+### Description: 
 This plugin is intended to extend the filtering possibilities of Claws Mail.
 
-## Files: 
+### Files: 
 * /usr/lib/claws-mail/plugins/perl.so

@@ -13,7 +13,8 @@ usize = "46904"
 sha1sum = "6a2746bcddc63bfd87fa3f5157ae3bcba2983886"
 depends = "['gst1-plugins-base', 'libvlc>=3.0.20']"
 +++
+### Description: 
 vlc Gstreamer support
 
-## Files: 
+### Files: 
 * /usr/lib/vlc/plugins/codec/libgstdecode_plugin.so

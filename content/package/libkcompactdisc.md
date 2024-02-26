@@ -14,9 +14,10 @@ sha1sum = "05e63e3bedd3f602cbc2238cbe5434c32d55542b"
 depends = "['kcoreaddons>=$_F_kf5_full', 'ki18n>=$_F_kf5_full', 'phonon-qt5', 'solid>=$_F_kf5_full']"
 reverse_depends = "['audiocd-kio']"
 +++
+### Description: 
 A library for interfacing with CDs.
 
-## Files: 
+### Files: 
 * /usr/include/KF5/KCompactDisc/KCompactDisc
 * /usr/include/KF5/KCompactDisc/kcompactdisc.h
 * /usr/include/KF5/KCompactDisc/kcompactdisc_export.h

@@ -14,9 +14,10 @@ sha1sum = "11b40861089c25468cc665180fe2faec7060611c"
 depends = "['python3']"
 reverse_depends = "['python3-virtualenv']"
 +++
+### Description: 
 Low-level functions that relate to packaging and distribution of Python software
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/distlib-0.3.7.dist-info/LICENSE.txt
 * /usr/lib/python3.12/site-packages/distlib-0.3.7.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/distlib-0.3.7.dist-info/RECORD

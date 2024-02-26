@@ -14,7 +14,8 @@ sha1sum = "3c332aa5f5ea4bdbe5ad005202e8c390d52dc60a"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
+### Description: 
 Latvian language support for Thunderbird
 
-## Files: 
+### Files: 
 * /usr/lib/thunderbird/extensions/langpack-lv@thunderbird.mozilla.org.xpi

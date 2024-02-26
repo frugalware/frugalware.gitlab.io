@@ -14,9 +14,10 @@ sha1sum = "0801701e3a2c3bac9019587a432aad398e4489da"
 depends = "['curl', 'glew>=2.2.0', 'glm', 'libboost>=1.83.0', 'libvorbis', 'openal>=1.7.411', 'physfs>=2.0.2', 'sdl2_image', 'sdl2_mixer']"
 license = "GPL"
 +++
+### Description: 
 SuperTux is a classic 2D jump'n run sidescroller game in a style similar to the original SuperMario games.
 
-## Files: 
+### Files: 
 * /usr/bin/supertux2
 * /usr/share/applications/supertux2.desktop
 * /usr/share/doc/supertux-0.6.3/INSTALL.md

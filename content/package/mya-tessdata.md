@@ -13,7 +13,8 @@ usize = "4640678"
 sha1sum = "8ad89779bef047f729849904258c83c5763f1bf5"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang mya
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/mya.traineddata

@@ -14,9 +14,10 @@ sha1sum = "7af30701dab3eda0bf16b781313637105d064070"
 depends = "['libgcrypt>=1.7.3-2']"
 reverse_depends = "['darktable', 'element', 'gcr', 'gcr-1', 'gvfs', 'msmtp', 'nm-applet', 'nm-libreswan', 'nm-openconnect', 'nm-openvpn', 'nm-pptp', 'nm-vpnc', 'nm-wireguard', 'pinentry', 'pulsar', 'qtkeychain', 'remmina-secret', 'slack-desktop', 'teams', 'vlc-secret', 'vscode', 'webkit-gtk3', 'zulucrypt']"
 +++
+### Description: 
 Library for storing and retrieving passwords and other secrets
 
-## Files: 
+### Files: 
 * /usr/bin/secret-tool
 * /usr/include/libsecret-1/libsecret/secret-attributes.h
 * /usr/include/libsecret-1/libsecret/secret-backend.h

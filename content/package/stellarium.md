@@ -13,9 +13,10 @@ usize = "484895380"
 sha1sum = "95758c0673f47ea307ce1a6093502234c1d76285"
 depends = "['qt5-charts>=5.15.10', 'qt5-multimedia>=5.15.10', 'qt5-script>=5.15.10', 'qt5-serialport>=5.15.10']"
 +++
+### Description: 
 A free open source planetarium for your computer.
 
-## Files: 
+### Files: 
 * /usr/bin/stellarium
 * /usr/lib/libShowMySky-Qt5.so
 * /usr/lib/libShowMySky-Qt5.so.15

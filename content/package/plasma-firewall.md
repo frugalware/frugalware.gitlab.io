@@ -13,9 +13,10 @@ usize = "1212091"
 sha1sum = "1b38ce2a1960a58e8bf605a7ea0dca912aa142f4"
 depends = "['systemsettings5>=5.27.10']"
 +++
+### Description: 
 Control Panel for your system firewall
 
-## Files: 
+### Files: 
 * /usr/lib/kf5/kauth/kde_ufw_plugin_helper
 * /usr/lib/kf5/kde_ufw_plugin_helper.py
 * /usr/lib/libkcm_firewall_core.so

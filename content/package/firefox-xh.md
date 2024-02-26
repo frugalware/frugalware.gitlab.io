@@ -14,7 +14,8 @@ sha1sum = "2c2b1c3713f081b30af22d3faf1a63a7613314d0"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Xhosa language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-xh@firefox.mozilla.org.xpi

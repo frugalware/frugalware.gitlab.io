@@ -13,9 +13,10 @@ usize = "211318"
 sha1sum = "86d262b1a0bdfb533e1b68ffd096f3409389a673"
 depends = "['openjre']"
 +++
+### Description: 
 Menu editor for LXDE
 
-## Files: 
+### Files: 
 * /usr/bin/lxmed
 * /usr/share/applications/lxmed.desktop
 * /usr/share/java/LXMenuEditor.jar

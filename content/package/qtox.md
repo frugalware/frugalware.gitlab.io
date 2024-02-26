@@ -13,9 +13,10 @@ usize = "7356815"
 sha1sum = "c79fe4fe98aaafd4ba719a8fb2342a7a88d0f749"
 depends = "['ffmpeg>=6.0', 'filter_audio', 'gdk-pixbuf2', 'gtk+2', 'libexif', 'libvpx>=1.11.0', 'libxscrnsaver', 'qrencode>=4.0.0', 'qt5-svg>=5.15.10', 'sqlcipher>=3.4.0-2', 'tox-core>=0.2.0']"
 +++
+### Description: 
 Powerful Tox client that follows the Tox design guidelines.
 
-## Files: 
+### Files: 
 * /usr/bin/qtox
 * /usr/share/applications/io.github.qtox.qTox.desktop
 * /usr/share/doc/qtox-1.17.6/INSTALL.fa.md

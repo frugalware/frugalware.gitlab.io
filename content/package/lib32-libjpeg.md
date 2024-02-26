@@ -13,9 +13,10 @@ usize = "427103"
 sha1sum = "43bb7b4bcf673840fabc6db4f184aa779b229f04"
 depends = "[]"
 +++
+### Description: 
 Library of JPEG support functions ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/cjpeg
 * /usr/i686-frugalware-linux/bin/djpeg
 * /usr/i686-frugalware-linux/bin/jpegtran

@@ -14,9 +14,10 @@ sha1sum = "fdb9e916938fecdf6adbc97d55b129f0f1996f1d"
 depends = "['lib32-libsm>=1.2.2-3', 'lib32-libx11>=1.6.8']"
 reverse_depends = "['lib32-libxmu', 'lib32-libxpm']"
 +++
+### Description: 
 X Toolkit Library ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/X11/CallbackI.h
 * /usr/i686-frugalware-linux/include/X11/Composite.h
 * /usr/i686-frugalware-linux/include/X11/CompositeP.h

@@ -14,9 +14,10 @@ sha1sum = "33180a19529d2518f9afdad9385eb4a41aee2a98"
 depends = "['libxml2', 'spirv-tools']"
 reverse_depends = "['intel-compute-runtime']"
 +++
+### Description: 
 Intel Graphics Compiler for OpenCL
 
-## Files: 
+### Files: 
 * /usr/bin/GenX_IR
 * /usr/bin/iga64
 * /usr/bin/lld

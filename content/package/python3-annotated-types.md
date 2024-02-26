@@ -14,9 +14,10 @@ sha1sum = "29aa22ad7434492b24bd49de4258299efe2f45b2"
 depends = "['python3']"
 reverse_depends = "['python3-pydantic']"
 +++
+### Description: 
 Reusable constraint types to use with typing.Annotated
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/annotated_types-0.6.0.dist-info/licenses/LICENSE
 * /usr/lib/python3.12/site-packages/annotated_types-0.6.0.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/annotated_types-0.6.0.dist-info/RECORD

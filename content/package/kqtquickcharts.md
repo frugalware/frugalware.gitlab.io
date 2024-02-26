@@ -14,9 +14,10 @@ sha1sum = "a0ad7b5cdc7b94b35de29a95346de5475521bf9d"
 depends = "['qt5-declarative']"
 reverse_depends = "['ktouch']"
 +++
+### Description: 
 A QtQuick plugin to render beautiful and interactive charts.
 
-## Files: 
+### Files: 
 * /usr/include/KF5/kqtquickcharts_version.h
 * /usr/lib/cmake/KQtQuickCharts/KQtQuickChartsConfig.cmake
 * /usr/lib/cmake/KQtQuickCharts/KQtQuickChartsVersion.cmake

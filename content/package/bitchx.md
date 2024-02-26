@@ -13,9 +13,10 @@ usize = "3167567"
 sha1sum = "e319522ad2f2657ad019624e9edfcfcbb1f21167"
 depends = "['glibc', 'ncurses', 'openssl']"
 +++
+### Description: 
 A console based irc client
 
-## Files: 
+### Files: 
 * usr/bin/bitchx
 * usr/bin/BitchX
 * usr/bin/BitchX-1.1-final

@@ -14,9 +14,10 @@ sha1sum = "dd84d9b5cd33b2c63128e8929cbb30637a1a7624"
 depends = "['libxi', 'taglib']"
 license = "GPL-2"
 +++
+### Description: 
 A QT frontend for libnjb and its supported players.
 
-## Files: 
+### Files: 
 * usr/bin/kzenexplorer
 * usr/share/applnk/Multimedia/kzenexplorer.desktop
 * usr/share/apps/kzenexplorer/kzenexplorerui.rc

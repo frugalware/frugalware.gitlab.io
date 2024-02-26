@@ -13,9 +13,10 @@ usize = "218555"
 sha1sum = "920a8a7b80e02873f4ba3074e812380af8ad29a5"
 depends = "['git', 'openssl>=3.1.0']"
 +++
+### Description: 
 Transparent file encryption in Git
 
-## Files: 
+### Files: 
 * /usr/bin/git-crypt
 * /usr/share/doc/git-crypt-0.7.0/AUTHORS
 * /usr/share/doc/git-crypt-0.7.0/COPYING

@@ -14,9 +14,10 @@ sha1sum = "172296bb118f3127e520b0306b927f53c5330d5d"
 depends = "['oniguruma>=6.9.8']"
 reverse_depends = "['sysdig']"
 +++
+### Description: 
 Command-line JSON processor.
 
-## Files: 
+### Files: 
 * /usr/bin/jq
 * /usr/include/jq.h
 * /usr/include/jv.h

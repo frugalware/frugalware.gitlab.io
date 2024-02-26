@@ -13,9 +13,10 @@ usize = "1127858"
 sha1sum = "eb776cf71787250d6afc087ff150c5a827df74af"
 depends = "['qt6-base']"
 +++
+### Description: 
 A jigsaw puzzle with tetrominoes for pieces.
 
-## Files: 
+### Files: 
 * /usr/bin/tetzle
 * /usr/share/applications/tetzle.desktop
 * /usr/share/doc/tetzle-2.2.2/ChangeLog

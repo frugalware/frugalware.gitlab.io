@@ -13,9 +13,10 @@ usize = "112039"
 sha1sum = "17a97958d022ee917472079b7b99e6e6e4f9ed1f"
 depends = "['fuse3>=3.4.1', 'glib2']"
 +++
+### Description: 
 A filesystem client based on the SSH File Transfer Protocol.
 
-## Files: 
+### Files: 
 * /usr/bin/mount.fuse.sshfs
 * /usr/bin/mount.sshfs
 * /usr/bin/sshfs

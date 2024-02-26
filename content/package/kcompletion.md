@@ -14,9 +14,10 @@ sha1sum = "c026800435d14353903fa084f7d65333d9753b49"
 depends = "['kconfig>=5.115.0', 'kwidgetsaddons>=5.115.0']"
 reverse_depends = "['akonadi-contacts', 'dolphin', 'kdebugsettings', 'kldap', 'krita', 'ktextwidgets', 'libkmahjongg', 'plasma-sdk', 'smb4k']"
 +++
+### Description: 
 Provides widgets with advanced completion support.
 
-## Files: 
+### Files: 
 * /usr/include/KF5/KCompletion/KComboBox
 * /usr/include/KF5/KCompletion/kcombobox.h
 * /usr/include/KF5/KCompletion/KCompletion

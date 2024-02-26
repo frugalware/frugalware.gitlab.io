@@ -14,9 +14,10 @@ sha1sum = "0576c3108809c117aec852d0f4f5b4fc5edf1d58"
 depends = "['akonadi-contacts>=23.08.5', 'kcmutils>=5.115.0', 'krunner5>=5.115.0', 'qt5-declarative>=5.15.12', 'qt5-svg>=5.15.12', 'xapian-core>=1.4.0-2']"
 reverse_depends = "['libkdepim']"
 +++
+### Description: 
 Libraries and daemons to implement searching in Akonad
 
-## Files: 
+### Files: 
 * /usr/bin/akonadi_html_to_text
 * /usr/bin/akonadi_indexing_agent
 * /usr/include/KPim5/AkonadiSearch/akonadi_search_version.h

@@ -14,9 +14,10 @@ sha1sum = "2678c0d6316e45fc12bf947fa6c98974e7f7946c"
 depends = "['python3']"
 reverse_depends = "['hotdoc']"
 +++
+### Description: 
 Python module which provides the variables defined by the XDG Base Directory Specification
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/xdg-6.0.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/xdg-6.0.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/xdg-6.0.0-py3.12.egg-info/SOURCES.txt

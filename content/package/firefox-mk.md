@@ -14,7 +14,8 @@ sha1sum = "18b445c78bdb86b77ed7ed71e670e2d76852d96b"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Macedonian language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-mk@firefox.mozilla.org.xpi

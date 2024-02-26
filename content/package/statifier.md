@@ -14,9 +14,10 @@ sha1sum = "8a5861e052da28249b3e25db58e7b6ccbc5ae0bf"
 depends = "['glibc']"
 license = "GPL"
 +++
+### Description: 
 A tool for generating static binaries of dynamic ELF executables
 
-## Files: 
+### Files: 
 * /usr/bin/statifier
 * /usr/lib/statifier/64/dl-var
 * /usr/lib/statifier/64/elf_data

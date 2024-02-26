@@ -13,7 +13,8 @@ usize = "179088"
 sha1sum = "7d382da91d3d847e4e5e68a16f67c3194018668f"
 depends = "['gst1-plugins-bad>=1.22.10', 'gst1-plugins-base>=1.22.10', 'libdvdnav>=6.1.0', 'libdvdread>=6.1.1', 'libffi>=3.2.1-2']"
 +++
+### Description: 
 GStreamer resindvd plugin (Bad).
 
-## Files: 
+### Files: 
 * /usr/lib/gstreamer-1.0/libgstresindvd.so

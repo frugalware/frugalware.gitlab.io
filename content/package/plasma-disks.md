@@ -13,9 +13,10 @@ usize = "468634"
 sha1sum = "5caf5a2f6a7aa7d9d34f548361a7f27e6d0ffcd0"
 depends = "['kdeclarative>=5.115.0', 'smartmontools']"
 +++
+### Description: 
 Monitors S.M.A.R.T. capable devices for imminent failure
 
-## Files: 
+### Files: 
 * /usr/lib/kf5/kauth/kded-smart-helper
 * /usr/lib/qt5/plugins/kf5/kded/smart.so
 * /usr/lib/qt5/plugins/plasma/kcms/kinfocenter/smart.so

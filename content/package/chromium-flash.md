@@ -14,8 +14,9 @@ sha1sum = "b4e6c9b46e0e7de3dbfa838a27ee37fcbaf320e2"
 depends = "['glibc']"
 license = "chrome"
 +++
+### Description: 
 Google Chrome's Pepper Flash plugin for Chromium
 
-## Files: 
+### Files: 
 * /usr/lib/chromium/PepperFlash/libpepflashplayer.so
 * /usr/lib/chromium/PepperFlash/manifest.json

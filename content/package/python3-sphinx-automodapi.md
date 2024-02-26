@@ -13,9 +13,10 @@ usize = "247893"
 sha1sum = "eed849f68952512fa5c3708d68b4e96fd4f28d76"
 depends = "['python3>=3.12']"
 +++
+### Description: 
 Sphinx extension for auto-generating API documentation for entire modules
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/sphinx_automodapi-0.0.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/sphinx_automodapi-0.0.0-py3.12.egg-info/not-zip-safe
 * /usr/lib/python3.12/site-packages/sphinx_automodapi-0.0.0-py3.12.egg-info/PKG-INFO

@@ -14,9 +14,10 @@ sha1sum = "ead3eab6fc49e4bf2449a44a463f6a827aa1ceca"
 depends = "['kcolorpicker', 'qt5-svg>=5.15.6']"
 reverse_depends = "['gwenview']"
 +++
+### Description: 
 Tool for annotating images
 
-## Files: 
+### Files: 
 * /usr/include/kImageAnnotator/KImageAnnotator.h
 * /usr/include/kImageAnnotator/KImageAnnotatorExport.h
 * /usr/lib/cmake/kImageAnnotator/kImageAnnotator-targets-release.cmake

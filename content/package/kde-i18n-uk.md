@@ -13,9 +13,10 @@ usize = "8208116"
 sha1sum = "dc705869c1ac6fa45002457af638b6587dee5f1e"
 depends = "[]"
 +++
+### Description: 
 Ukrainian Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/doc/HTML/uk/common/1.png
 * usr/share/doc/HTML/uk/common/10.png
 * usr/share/doc/HTML/uk/common/2.png

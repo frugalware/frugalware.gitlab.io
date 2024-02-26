@@ -14,9 +14,10 @@ sha1sum = "8d0b71bafba165bd210d521971a46f780f216e2d"
 depends = "['akonadi>=23.08.5', 'kdelibs4support>=5.115.0', 'ki18n>=5.115.0', 'kmime>=23.08.5']"
 reverse_depends = "['calendarsupport', 'kdepim-runtime', 'knotes', 'messagelib']"
 +++
+### Description: 
 Libraries and daemons to implement searching in Akonad
 
-## Files: 
+### Files: 
 * /usr/include/KPim5/AkonadiNotes/akonadi-notes_version.h
 * /usr/include/KPim5/AkonadiNotes/akonadi/akonadi-notes_export.h
 * /usr/include/KPim5/AkonadiNotes/akonadi/NoteUtils

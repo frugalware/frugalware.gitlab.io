@@ -13,7 +13,8 @@ usize = "1963215"
 sha1sum = "8abe2e91523844499e9d2acc1c786f95c5d0ab60"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang guj
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/guj.traineddata

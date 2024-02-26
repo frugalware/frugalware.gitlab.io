@@ -14,7 +14,8 @@ sha1sum = "82f35b313c29c14044fe32ed4c00eaa5724e7cbd"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Breton language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-br@firefox.mozilla.org.xpi

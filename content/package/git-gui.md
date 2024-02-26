@@ -13,9 +13,10 @@ usize = "1455729"
 sha1sum = "341cd954067d74fa19d08793fdba83a426d0e617"
 depends = "['git>=2.44.0', 'tk']"
 +++
+### Description: 
 Git GUI tool.
 
-## Files: 
+### Files: 
 * /usr/lib/git/git-core/git-citool
 * /usr/lib/git/git-core/git-gui
 * /usr/lib/git/git-core/git-gui--askpass

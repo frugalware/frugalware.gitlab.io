@@ -14,9 +14,10 @@ sha1sum = "302da647fbf29feacf175775bb37005e9b53d641"
 depends = "['python3-contextlib2']"
 reverse_depends = "['hotdoc']"
 +++
+### Description: 
 Python module to validate and convert data structures.
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/schema-0.7.5-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/schema-0.7.5-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/schema-0.7.5-py3.12.egg-info/requires.txt

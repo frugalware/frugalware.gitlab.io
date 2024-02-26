@@ -14,9 +14,10 @@ sha1sum = "469bbec907e093e4c7282442758a0dbc0686a1bf"
 depends = "['qt5-base>=5.15.11']"
 reverse_depends = "['angelfish', 'audiotube', 'kontrast']"
 +++
+### Description: 
 Non-blocking Qt database framework
 
-## Files: 
+### Files: 
 * /usr/include/FutureSQL5/futuresql_export.h
 * /usr/include/FutureSQL5/ThreadedDatabase
 * /usr/include/FutureSQL5/threadeddatabase.h

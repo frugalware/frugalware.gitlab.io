@@ -14,7 +14,8 @@ sha1sum = "afb667372375cecb91c1e01c72435580b46bd20d"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Basque language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-eu@firefox.mozilla.org.xpi

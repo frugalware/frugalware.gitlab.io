@@ -14,9 +14,10 @@ sha1sum = "af66a28e6f61aa5182d5e5d66138776f0b768504"
 depends = "['glib2', 'gnutls>=3.4.2', 'systemd']"
 reverse_depends = "['bitlbee', 'bitlbee-libpurple']"
 +++
+### Description: 
 Common files required by bitlbee/bitlbee-libpurple.
 
-## Files: 
+### Files: 
 * /etc/bitlbee/bitlbee.conf
 * /etc/bitlbee/motd.txt
 * /usr/bin/bitlbee

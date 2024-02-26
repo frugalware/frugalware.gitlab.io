@@ -14,9 +14,10 @@ sha1sum = "3a74be2d0be799b45748d4034355f734c384c93b"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['inkscape', 'openscad', 'qt6-base']"
 +++
+### Description: 
 Binary-decimal and decimal-binary routines for IEEE doubles
 
-## Files: 
+### Files: 
 * /usr/include/double-conversion/bignum.h
 * /usr/include/double-conversion/cached-powers.h
 * /usr/include/double-conversion/diy-fp.h

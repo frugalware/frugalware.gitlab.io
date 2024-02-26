@@ -14,9 +14,10 @@ sha1sum = "b0fbb0caab8bf2b1c9e2366ec8a6329d4a0bed5f"
 depends = "['zlib']"
 reverse_depends = "['labplot']"
 +++
+### Description: 
 Command-line tool (+ C library) for converting SAS, Stata, and SPSS files
 
-## Files: 
+### Files: 
 * /usr/bin/extract_metadata
 * /usr/bin/readstat
 * /usr/include/readstat.h

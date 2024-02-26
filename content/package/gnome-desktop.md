@@ -14,9 +14,10 @@ sha1sum = "44f79b875dd2bee4c414b5cb3b5a64f5b559bde6"
 depends = "['gsettings-desktop-schemas>=3.28.0', 'gtk+3>=3.24.0', 'iso-codes>=3.70-2', 'libseccomp', 'libxkbfile>=1.0.9-3', 'xkeyboard-config>=2.18-2']"
 reverse_depends = "['gnome-desktop-doc', 'lutris']"
 +++
+### Description: 
 The GNOME Desktop
 
-## Files: 
+### Files: 
 * /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-bg-crossfade.h
 * /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-bg-slide-show.h
 * /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-bg.h

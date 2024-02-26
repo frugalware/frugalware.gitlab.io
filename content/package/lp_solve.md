@@ -14,9 +14,10 @@ sha1sum = "ffdfe6c6ea977c45ad50f2f1700bd7baf22efa5b"
 depends = "['glibc>=2.27-2']"
 reverse_depends = "['libreoffice']"
 +++
+### Description: 
 A Mixed Integer Linear Programming (MILP) solver.
 
-## Files: 
+### Files: 
 * /usr/bin/lp_solve
 * /usr/include/lpsolve/lpkit.h
 * /usr/include/lpsolve/lpsolve.h

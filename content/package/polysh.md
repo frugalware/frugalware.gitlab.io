@@ -13,9 +13,10 @@ usize = "203257"
 sha1sum = "35dc1e609ec0e02b363e5b0fee187d1f0044bc72"
 depends = "['python3>=3.9.6']"
 +++
+### Description: 
 Polysh is a tool to aggregate several remote shells into one.
 
-## Files: 
+### Files: 
 * /usr/bin/polysh
 * /usr/lib/python3.12/site-packages/polysh-0.14-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/polysh-0.14-py3.12.egg-info/entry_points.txt

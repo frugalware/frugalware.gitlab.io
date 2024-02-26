@@ -14,9 +14,10 @@ sha1sum = "8142d0cfab11d0ba008567a357b6c2555f5ed69c"
 depends = "['glibc>=2.34']"
 reverse_depends = "['mpc', 'mpd', 'ncmpc', 'ncmpcpp']"
 +++
+### Description: 
 An asynchronous API library for interfacing MPD in the C, C++ & Objective C languages
 
-## Files: 
+### Files: 
 * /usr/include/mpd/albumart.h
 * /usr/include/mpd/async.h
 * /usr/include/mpd/audio_format.h

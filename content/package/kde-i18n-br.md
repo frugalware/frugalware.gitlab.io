@@ -13,9 +13,10 @@ usize = "3012668"
 sha1sum = "964d240981414dbc7b70c7e7f04beed50c6d2756"
 depends = "[]"
 +++
+### Description: 
 Breton Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/locale/br/charset
 * usr/share/locale/br/entry.desktop
 * usr/share/locale/br/flag.png

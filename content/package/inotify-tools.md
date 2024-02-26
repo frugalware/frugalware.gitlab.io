@@ -13,9 +13,10 @@ usize = "134413"
 sha1sum = "e0aec789d7c6e40be00cdfbc8117ec6dde1a68cf"
 depends = "[]"
 +++
+### Description: 
 inotify-tools is a set of command-line programs for Linux providing a simple interface to inotify
 
-## Files: 
+### Files: 
 * /usr/bin/inotifywait
 * /usr/bin/inotifywatch
 * /usr/include/inotifytools/inotify-nosys.h

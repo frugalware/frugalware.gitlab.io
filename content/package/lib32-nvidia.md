@@ -13,9 +13,10 @@ usize = "198872186"
 sha1sum = "e01e171198cf91dde78d3a191eb575532f50459a"
 depends = "['lib32-libglvnd', 'nvidia=550.40.07-6']"
 +++
+### Description: 
 3D accelerated display driver for Nvidia cards ( 32bit)
 
-## Files: 
+### Files: 
 * /usr/lib32/libcuda.so.550.40.07
 * /usr/lib32/libEGL_nvidia.so.550.40.07
 * /usr/lib32/libGLESv1_CM_nvidia.so.1

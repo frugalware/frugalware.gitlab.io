@@ -14,9 +14,10 @@ sha1sum = "bfab1e3af12d2a7454bdf387c236cbb3eaa23d4d"
 depends = "['glibc>=2.35']"
 reverse_depends = "['gettext', 'gnunet', 'gnutls', 'guile', 'libidn2', 'libratbag', 'podofo', 'podofo-0.9']"
 +++
+### Description: 
 Library for manipulating Unicode strings and C strings.
 
-## Files: 
+### Files: 
 * /usr/include/unicase.h
 * /usr/include/uniconv.h
 * /usr/include/unictype.h

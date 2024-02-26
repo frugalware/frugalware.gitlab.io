@@ -14,9 +14,10 @@ sha1sum = "9b1020133a723d44d3b3157475fd7b04f746638b"
 depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3']"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'libva-vdpau-driver', 'libvdpau-va-gl', 'mencoder', 'mplayer', 'mpv', 'vdpauinfo']"
 +++
+### Description: 
 VDPAU wrapper library
 
-## Files: 
+### Files: 
 * /etc/vdpau_wrapper.cfg
 * /usr/include/vdpau/vdpau.h
 * /usr/include/vdpau/vdpau_x11.h

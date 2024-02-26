@@ -13,7 +13,8 @@ usize = "12397980"
 sha1sum = "0e92413214e47f0ec889eaa95480a39b0a6fe8b8"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang nor
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/nor.traineddata

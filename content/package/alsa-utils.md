@@ -14,9 +14,10 @@ sha1sum = "00b01b6dea1ae863722825764e66ab0759443fa6"
 depends = "['alsa-lib>=1.1.4', 'libsamplerate>=0.1.8-3', 'ncurses>=6.0-12']"
 reverse_depends = "['lumina-desktop']"
 +++
+### Description: 
 An alternative implementation of Linux sound support
 
-## Files: 
+### Files: 
 * /usr/bin/aconnect
 * /usr/bin/alsabat
 * /usr/bin/alsabat-test.sh

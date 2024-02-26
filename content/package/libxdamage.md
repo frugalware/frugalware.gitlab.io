@@ -15,9 +15,10 @@ depends = "['libx11>=1.6.5-2', 'libxfixes>=5.0.1-3']"
 reverse_depends = "['conky', 'distcc-gui', 'efl', 'enlightenment', 'firefox', 'freeciv', 'freerdp', 'gst1-plugins-good-ximage', 'gtk2-sharp', 'guvcview', 'hot-babe', 'kompose', 'ksubeditor', 'ksubtile', 'libepoxy', 'libextractor', 'libgl', 'maxemumtvguide', 'mesa-libglx', 'printoxx', 'terminology', 'virtualbox-guest-additions', 'whalebird', 'xcfa', 'xf86-video-intel', 'xpad']"
 license = "GPL2"
 +++
+### Description: 
 X.Org Xdamage library
 
-## Files: 
+### Files: 
 * /usr/include/X11/extensions/Xdamage.h
 * /usr/lib/libXdamage.so
 * /usr/lib/libXdamage.so.1

@@ -14,9 +14,10 @@ sha1sum = "e9f82fe899e59394eb8078e5bd9dc88beb5b288a"
 depends = "['qt6-base']"
 reverse_depends = "['qt6-positioning', 'qt6-serialbus']"
 +++
+### Description: 
 The Qt6 toolkit, qtserialport
 
-## Files: 
+### Files: 
 * /usr/include/qt6/QtSerialPort/6.6.2/QtSerialPort/private/qserialportinfo_p.h
 * /usr/include/qt6/QtSerialPort/6.6.2/QtSerialPort/private/qserialport_p.h
 * /usr/include/qt6/QtSerialPort/6.6.2/QtSerialPort/private/qtserialport-config_p.h

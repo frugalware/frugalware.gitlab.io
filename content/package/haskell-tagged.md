@@ -14,9 +14,10 @@ sha1sum = "e1843f4dc824a817ddabc4c16bb229ae1189149d"
 depends = "['haskell-transformers-compat>=0.7']"
 reverse_depends = "['haskell-assoc', 'haskell-boring', 'haskell-distributive', 'haskell-http-api-data', 'haskell-indexed-traversable-instances', 'haskell-semigroups']"
 +++
+### Description: 
 Haskell 98 phantom types to avoid unsafely passing dummy arguments
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/tagged-0.8.8/Data/Proxy/TH.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/tagged-0.8.8/Data/Proxy/TH.hi
 * /usr/lib/ghc-9.8.1/site-local/tagged-0.8.8/Data/Tagged.dyn_hi

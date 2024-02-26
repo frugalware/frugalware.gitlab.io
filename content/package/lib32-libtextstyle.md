@@ -14,9 +14,10 @@ sha1sum = "806c6beec2318005291444fac0ab6e46bd471fa6"
 depends = "['gettext']"
 reverse_depends = "['lib32-gettext']"
 +++
+### Description: 
 gettext lib32
 
-## Files: 
+### Files: 
 * /usr/lib32/libtextstyle.so
 * /usr/lib32/libtextstyle.so.0
 * /usr/lib32/libtextstyle.so.0.2.1

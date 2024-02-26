@@ -14,9 +14,10 @@ sha1sum = "1020a3129bdf18a296a0ea67840e628bb2d75bb8"
 depends = "['mariadb-libs', 'openssl>=3.1.0', 'unixodbc']"
 reverse_depends = "['mumble']"
 +++
+### Description: 
 C++ class libraries for network-centric, portable applications, complete edition with debug libraries
 
-## Files: 
+### Files: 
 * /usr/bin/cpspc
 * /usr/bin/f2cpsp
 * /usr/bin/poco-arc

@@ -14,7 +14,8 @@ sha1sum = "1798934992d86deac8c6481d55d3d0ccd4f12dbc"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Songhai languages language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-son@firefox.mozilla.org.xpi

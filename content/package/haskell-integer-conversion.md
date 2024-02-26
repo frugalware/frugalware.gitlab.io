@@ -14,9 +14,10 @@ sha1sum = "0e47755941d3794f8a00c816c96cc0e522ebc69e"
 depends = "['haskell-primitive']"
 reverse_depends = "['haskell-attoparsec-iso8601', 'haskell-text-iso8601']"
 +++
+### Description: 
 Conversion from strings to Integer
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/integer-conversion-0.1.0.1/Data/Integer/Conversion.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/integer-conversion-0.1.0.1/Data/Integer/Conversion.hi
 * /usr/lib/ghc-9.8.1/site-local/integer-conversion-0.1.0.1/libHSinteger-conversion-0.1.0.1-BdeHXQABNoJHR7rP10an8X.a

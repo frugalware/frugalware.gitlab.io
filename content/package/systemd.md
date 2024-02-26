@@ -14,9 +14,10 @@ sha1sum = "633c6d5a209977653cb31c0772af238cefca437f"
 depends = "['cryptsetup-luks>=2.0.1-3', 'dbus>=1.12.2-4', 'frugalware>=2.1-129', 'hwdata', 'kmod>=25-2', 'libidn2', 'libseccomp', 'libsystemd>=255.3', 'libudev>=255.3', 'lz4>=1.8.1.2-2', 'openssl>=3.1.0', 'pcre2', 'scriptlet-core', 'shadow>=4.6-5', 'systemd-systemctl>=255.3', 'systemd-sysvinit']"
 reverse_depends = "['amavisd-new', 'bitlbee-common', 'bolt', 'ccid', 'dracut', 'flightgear', 'gamemode', 'greetd', 'guvcview', 'iio-sensor-proxy', 'kernel-initrd', 'kernel-lts-initrd', 'kscreenlocker', 'libfido2', 'libvirt', 'php-fpm', 'profile-sync-daemon', 'python3-systemd', 'pyudev', 'seatd', 'systemd-pull', 'systemd-remote', 'systemd-swap', 'systemd-sysvinit', 'tcplay', 'umockdev', 'usb-modeswitch-data', 'uwsgi-plugin-systemd', 'xdg-desktop-portal', 'xf86-input-wacom']"
 +++
+### Description: 
 A System and Service Manager
 
-## Files: 
+### Files: 
 * /etc/init.d/README
 * /etc/locale.conf
 * /etc/machine-id

@@ -14,9 +14,10 @@ sha1sum = "9f65d833e6b63a5f1e1984255a6be480d1720003"
 depends = "[]"
 reverse_depends = "['openttd']"
 +++
+### Description: 
 Graphic data files for openttd.
 
-## Files: 
+### Files: 
 * /usr/share/openttd/data/ogfx1_base.grf
 * /usr/share/openttd/data/ogfxc_arctic.grf
 * /usr/share/openttd/data/ogfxe_extra.grf

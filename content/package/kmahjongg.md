@@ -13,9 +13,10 @@ usize = "5741925"
 sha1sum = "d2ceef078ec774ab8b8ca7288141e2b93c44c6ad"
 depends = "['libkdegames>=23.08.5', 'libkmahjongg>=23.08.5']"
 +++
+### Description: 
 KMahjongg is a tile matching game for one or two players
 
-## Files: 
+### Files: 
 * /usr/bin/kmahjongg
 * /usr/share/applications/org.kde.kmahjongg.desktop
 * /usr/share/config.kcfg/kmahjongg.kcfg

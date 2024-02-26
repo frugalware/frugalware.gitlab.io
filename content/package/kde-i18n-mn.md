@@ -13,9 +13,10 @@ usize = "1469412"
 sha1sum = "7ebb2c4082bd49b7434a3c24de542896974aa722"
 depends = "[]"
 +++
+### Description: 
 Mongolian Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/locale/mn/30x16.png
 * usr/share/locale/mn/60x40.png
 * usr/share/locale/mn/charset

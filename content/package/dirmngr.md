@@ -13,7 +13,8 @@ usize = "402752"
 sha1sum = "ad4f95c575f90e396f61e1a6d8d02e35088c1fb2"
 depends = "['gnutls>=3.4.8', 'libassuan>=2.4.45-3', 'libffi>=3.2.1', 'libgcrypt>=1.6.4-3', 'libidn>=1.32-4', 'libksba>=1.3.3-3', 'npth>=1.2-5']"
 +++
+### Description: 
 GnuPG dirmngr
 
-## Files: 
+### Files: 
 * /usr/bin/dirmngr

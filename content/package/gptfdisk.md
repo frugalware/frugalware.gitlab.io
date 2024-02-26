@@ -13,9 +13,10 @@ usize = "732725"
 sha1sum = "b96b06fe7b530e07d71ff0ebc16b924e80db4c8a"
 depends = "['libstdc++>=11.3', 'libuuid>=2.31.1-3', 'ncurses>=6.1', 'popt>=1.16-7']"
 +++
+### Description: 
 A clone of fdisk that works on GPT disks instead of MBR disks.
 
-## Files: 
+### Files: 
 * /usr/bin/cgdisk
 * /usr/bin/fixparts
 * /usr/bin/gdisk

@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "2d407fc9cff7c19af6d6b3f8a13f0ba8c50731f7"
 depends = "[]"
 +++
+### Description: 
 Breton Localization for KOffice. 
 
-## Files: 
+### Files: 
 * usr/share/locale/br/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/br/LC_MESSAGES/example.mo
 * usr/share/locale/br/LC_MESSAGES/karbon.mo

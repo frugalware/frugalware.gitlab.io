@@ -13,9 +13,10 @@ usize = "5138"
 sha1sum = "3c5a351b97d1e9ef3d397f88c6887c10fa493657"
 depends = "['python3-setuptools_scm']"
 +++
+### Description: 
 setuptools_scm plugin for git archives
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/setuptools_scm_git_archive-1.4-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/setuptools_scm_git_archive-1.4-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/setuptools_scm_git_archive-1.4-py3.12.egg-info/PKG-INFO

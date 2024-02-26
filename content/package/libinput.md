@@ -14,9 +14,10 @@ sha1sum = "d99a4f209cf00086bf4b6aecbd41da1ae05c7db0"
 depends = "['libevdev>=1.5.4-2', 'libudev>=242', 'libwacom>=0.29', 'mtdev>=1.1.5-4']"
 reverse_depends = "['efl', 'enlightenment', 'libinput-debug-events', 'libinput-gestures', 'qt5-base', 'qt6-base', 'terminology', 'virtualbox', 'weston', 'wlroots', 'xf86-input-libinput']"
 +++
+### Description: 
 A library to handle input devices in Wayland compositors and to provide a generic X.Org input driver
 
-## Files: 
+### Files: 
 * /usr/bin/libinput
 * /usr/bin/libinput-list-devices
 * /usr/include/libinput.h

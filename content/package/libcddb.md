@@ -15,9 +15,10 @@ depends = "['glibc>=2.34']"
 reverse_depends = "['libcdio', 'vlc-cdda', 'xcfa']"
 license = "GPL2"
 +++
+### Description: 
 Libcddb is a library that implements the different protocols (CDDBP, HTTP, SMTP) to access data on a CDDB server (http://freedb.org).
 
-## Files: 
+### Files: 
 * /usr/bin/cddb_query
 * /usr/include/cddb/cddb.h
 * /usr/include/cddb/cddb_cmd.h

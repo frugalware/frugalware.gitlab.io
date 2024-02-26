@@ -14,7 +14,8 @@ sha1sum = "70cff5f42ec3d50968de899193a36674d0273830"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Latvian language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-lv@firefox.mozilla.org.xpi

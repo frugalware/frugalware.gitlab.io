@@ -14,7 +14,8 @@ sha1sum = "fa65a13e58f4c1498ad27e5158bba5982ade13a4"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
+### Description: 
 Thai language support for Thunderbird
 
-## Files: 
+### Files: 
 * /usr/lib/thunderbird/extensions/langpack-th@thunderbird.mozilla.org.xpi

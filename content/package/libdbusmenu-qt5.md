@@ -14,9 +14,10 @@ sha1sum = "8106385afeaa5500ced5d107691832577af193ca"
 depends = "['qt5-base>=5.15.10']"
 reverse_depends = "['knotifications']"
 +++
+### Description: 
 Provides a QT5 implementation of DbusMenu.
 
-## Files: 
+### Files: 
 * /usr/include/dbusmenu-qt5/dbusmenuexporter.h
 * /usr/include/dbusmenu-qt5/dbusmenuimporter.h
 * /usr/include/dbusmenu-qt5/dbusmenu_export.h

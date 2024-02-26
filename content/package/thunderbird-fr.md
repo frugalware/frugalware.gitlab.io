@@ -14,7 +14,8 @@ sha1sum = "91157c4dab00bdfe85ea971e250cf1acd8801c12"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
+### Description: 
 French language support for Thunderbird
 
-## Files: 
+### Files: 
 * /usr/lib/thunderbird/extensions/langpack-fr@thunderbird.mozilla.org.xpi

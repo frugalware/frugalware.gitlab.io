@@ -13,9 +13,10 @@ usize = "254042"
 sha1sum = "4c1922e556e585a809604a3e11dae3c0fbbacc8d"
 depends = "['glib2', 'libsecret>=0.18.5', 'nm-connection-editor>=1.8.20', 'nm-openvpn-minimal', 'openvpn']"
 +++
+### Description: 
 network management framework (OPENVPN plugin)
 
-## Files: 
+### Files: 
 * /usr/lib/NetworkManager/libnm-vpn-plugin-openvpn-editor.so
 * /usr/lib/nm-openvpn/nm-openvpn-auth-dialog
 * /usr/share/dbus-1/system.d/nm-openvpn-service.conf

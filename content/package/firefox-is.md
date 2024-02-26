@@ -14,7 +14,8 @@ sha1sum = "9f06998cb6b7322062b388734053d270fec224f6"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Icelandic language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-is@firefox.mozilla.org.xpi

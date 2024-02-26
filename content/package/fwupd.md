@@ -13,9 +13,10 @@ usize = "45374794"
 sha1sum = "bb3df7b47c9afc358f63c28f293b8140bbbc314d"
 depends = "['appstream-glib', 'colord', 'efivar', 'fwupd-efi', 'gnu-efi', 'gpgme', 'gsettings-desktop-schemas', 'libarchive', 'libgusb', 'libjcat', 'libsmbios', 'libxmlb>=0.2.0', 'protobuf-c', 'tpm2-tss', 'udisks2']"
 +++
+### Description: 
 A simple daemon to allow session software to update firmware
 
-## Files: 
+### Files: 
 * /etc/fwupd/bios-settings.d/README.md
 * /etc/fwupd/fwupd.conf
 * /etc/fwupd/remotes.d/fwupd-tests.conf

@@ -14,9 +14,10 @@ sha1sum = "2f98e2f212b8326d56f612752bb0713c29816d34"
 depends = "['haskell-data-default-class>=0.1.2.0-7', 'haskell-dlist>=1.0']"
 reverse_depends = "['haskell-data-default']"
 +++
+### Description: 
 Default instances for types in dlist.
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/data-default-instances-dlist-0.0.1/Data/Default/Instances/DList.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/data-default-instances-dlist-0.0.1/Data/Default/Instances/DList.hi
 * /usr/lib/ghc-9.8.1/site-local/data-default-instances-dlist-0.0.1/libHSdata-default-instances-dlist-0.0.1-27CUSGUFYirEC5wWIxVKJw.a

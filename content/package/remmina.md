@@ -13,9 +13,10 @@ usize = "4880916"
 sha1sum = "72b6cac0280f9a19d4633b45f25c2d74cf866351"
 depends = "['avahi', 'json-glib', 'libappindicator', 'libcups', 'libgcrypt', 'libsodium>=1.0.19', 'libsoup3', 'libssh', 'python3>=3.12', 'vte3']"
 +++
+### Description: 
 A GTK+ RDP, VNC, XDMCP and SSH client
 
-## Files: 
+### Files: 
 * /usr/bin/remmina
 * /usr/bin/remmina-file-wrapper
 * /usr/include/remmina/plugin.h

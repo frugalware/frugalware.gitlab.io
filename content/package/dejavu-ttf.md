@@ -14,9 +14,10 @@ sha1sum = "980dc031ecd1537716cc9ff19a6e97add1560bd1"
 depends = "['fontconfig', 'glibc>=2.26.9000-3', 'mkfontscale']"
 reverse_depends = "['crawl-tiles', 'gegl', 'i3', 'lumina-desktop', 'mpv']"
 +++
+### Description: 
 DejaVu fonts
 
-## Files: 
+### Files: 
 * /usr/share/doc/dejavu-ttf-2.37/AUTHORS
 * /usr/share/doc/dejavu-ttf-2.37/BUGS
 * /usr/share/doc/dejavu-ttf-2.37/LICENSE

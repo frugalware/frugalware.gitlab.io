@@ -14,9 +14,10 @@ sha1sum = "d33e7c0e8c443fc34c57d7a04141d3c0fa812ea6"
 depends = "['kio>=5.115.0']"
 reverse_depends = "['kdegraphics-thumbnailers', 'okular']"
 +++
+### Description: 
 A collection of plugins to handle mobipocket files
 
-## Files: 
+### Files: 
 * /usr/include/QMobipocket/qmobipocket/mobipocket.h
 * /usr/include/QMobipocket/qmobipocket/qfilestream.h
 * /usr/include/QMobipocket/qmobipocket/qmobipocket_export.h

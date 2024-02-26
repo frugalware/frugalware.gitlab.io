@@ -14,9 +14,10 @@ sha1sum = "23486f98068ea4b152f15766938332d2331a061c"
 depends = "['gpgme>=1.23.2', 'python3>=3.12']"
 reverse_depends = "['python3-dulwich']"
 +++
+### Description: 
 Python3 bindings for gpgme
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/EGG-INFO/dependency_links.txt
 * /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/EGG-INFO/native_libs.txt
 * /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/EGG-INFO/not-zip-safe

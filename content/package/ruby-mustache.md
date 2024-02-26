@@ -14,9 +14,10 @@ sha1sum = "edc6871b6a949e9989aeec278b131bf13c1ea838"
 depends = "['ruby>=3.3.0']"
 reverse_depends = "['ruby-ronn']"
 +++
+### Description: 
 Mustache is a framework-agnostic way to render logic-free views.
 
-## Files: 
+### Files: 
 * /usr/bin/mustache
 * /usr/lib/ruby/gems/3.3.0/cache/mustache-1.1.1.gem
 * /usr/lib/ruby/gems/3.3.0/doc/mustache-1.1.1/ri/cache.ri

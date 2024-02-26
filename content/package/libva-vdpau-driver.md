@@ -14,9 +14,10 @@ sha1sum = "0ecc27179dd5a18a02aab7e35fbba1a651888378"
 depends = "['libva>=2.3', 'libvdpau>=1.1.1-3']"
 license = "GPL"
 +++
+### Description: 
 VDPAU backend for VA API
 
-## Files: 
+### Files: 
 * /usr/lib/dri/nvidia_drv_video.so
 * /usr/lib/dri/s3g_drv_video.so
 * /usr/lib/dri/vdpau_drv_video.so

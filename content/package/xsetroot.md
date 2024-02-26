@@ -15,9 +15,10 @@ depends = "['libxcursor>=1.1.14-3', 'libxmu>=1.1.2-3', 'xbitmaps>=1.1.1-2']"
 reverse_depends = "['i3', 'plasma-workspace']"
 license = "GPL2"
 +++
+### Description: 
 X.Org xsetroot application
 
-## Files: 
+### Files: 
 * /usr/bin/xsetroot
 * /usr/share/doc/xsetroot-1.1.3/ChangeLog
 * /usr/share/doc/xsetroot-1.1.3/COPYING

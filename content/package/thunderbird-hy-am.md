@@ -14,7 +14,8 @@ sha1sum = "4418a1cff1a3ea894944375f71d1bd45d6e4f805"
 depends = "['thunderbird>=115.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
+### Description: 
 Armenian language support for Thunderbird
 
-## Files: 
+### Files: 
 * /usr/lib/thunderbird/extensions/langpack-hy-AM@thunderbird.mozilla.org.xpi

@@ -13,7 +13,8 @@ usize = "34744"
 sha1sum = "24a2e61a018b283017dc05002cc70852858f370a"
 depends = "[]"
 +++
+### Description: 
 Gnome menu support for icewm.
 
-## Files: 
+### Files: 
 * /usr/bin/icewm-menu-gnome2

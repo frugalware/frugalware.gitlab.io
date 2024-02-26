@@ -14,9 +14,10 @@ sha1sum = "6a2c66dde27250e644f7a20217b603ba6820420b"
 depends = "['glibc>=2.34']"
 reverse_depends = "['clight', 'easyeffects', 'enblend-enfuse', 'guvcview', 'inkscape', 'krita', 'kst', 'labplot', 'luminance-hdr', 'stellarsolver', 'step']"
 +++
+### Description: 
 The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers.
 
-## Files: 
+### Files: 
 * /usr/bin/gsl-config
 * /usr/bin/gsl-histogram
 * /usr/bin/gsl-randist

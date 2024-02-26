@@ -13,7 +13,8 @@ usize = "75464"
 sha1sum = "d56594a093d4d85eedf5d9c21711d4211eec6802"
 depends = "['libxml2>=2.9.4-3', 'mlt']"
 +++
+### Description: 
 Jack modules for mlt
 
-## Files: 
+### Files: 
 * /usr/lib/mlt-7/libmltjackrack.so

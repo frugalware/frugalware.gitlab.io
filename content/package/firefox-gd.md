@@ -14,7 +14,8 @@ sha1sum = "63a85d05ec2ae5d45c5087a3bd932c608d549f92"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Scottish Gaelic language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-gd@firefox.mozilla.org.xpi

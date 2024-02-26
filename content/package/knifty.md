@@ -14,9 +14,10 @@ sha1sum = "54bf0bc66b1ef53cfb99a9581eba59f820752cf9"
 depends = "[]"
 license = "GPL"
 +++
+### Description: 
 Knifty is a lightweight KDE 3.4.x Window Decoration
 
-## Files: 
+### Files: 
 * usr/lib/kde3/kwin3_knifty.la
 * usr/lib/kde3/kwin3_knifty.so
 * usr/lib/kde3/kwin_knifty_config.la

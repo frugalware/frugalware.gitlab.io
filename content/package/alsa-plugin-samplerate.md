@@ -13,9 +13,10 @@ usize = "14594"
 sha1sum = "3ed7abbf60f41a6698a859761a16ed69f16908fe"
 depends = "['alsa-plugins>=1.2.7.1', 'libsamplerate>=0.1.8-2']"
 +++
+### Description: 
 ALSA plugin for samplerate.
 
-## Files: 
+### Files: 
 * /usr/lib/alsa-lib/libasound_module_rate_samplerate.so
 * /usr/lib/alsa-lib/libasound_module_rate_samplerate_best.so
 * /usr/lib/alsa-lib/libasound_module_rate_samplerate_linear.so

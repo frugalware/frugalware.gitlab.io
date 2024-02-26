@@ -13,9 +13,10 @@ usize = "2096506"
 sha1sum = "0e3cbe93ff78fd879e8121d1e020c2491a61664e"
 depends = "['gpm>=1.20.5-2', 'ncurses>=6.0']"
 +++
+### Description: 
 An easy to use text editor, similar to WordStar[tm]
 
-## Files: 
+### Files: 
 * /etc/joe/ftyperc
 * /etc/joe/jicerc.ru
 * /etc/joe/jmacsrc

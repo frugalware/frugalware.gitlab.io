@@ -13,9 +13,10 @@ usize = "99009"
 sha1sum = "a951e9512e40a38dff6fca8a3c9617be0bbce3f0"
 depends = "['libinput', 'wmctrl', 'xdotool']"
 +++
+### Description: 
 Actions gestures on your touchpad using libinput
 
-## Files: 
+### Files: 
 * /etc/libinput-gestures.conf
 * /usr/bin/libinput-gestures
 * /usr/bin/libinput-gestures-setup

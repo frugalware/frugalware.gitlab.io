@@ -14,9 +14,10 @@ sha1sum = "b2ea4569d41b6c451a8b5dec112c9d9962a5439e"
 depends = "['bash>=4.4', 'binutils', 'cpio>=2.12-3', 'dash>=0.5.8', 'dmraid', 'elfutils', 'file', 'grep', 'kbd>=2.0.3-3', 'keyutils>=1.5.9-5', 'kmod', 'lvm2>=2.03.01-3', 'multipath-tools', 'pkgconfig', 'popt>=1.16-5', 'systemd>=227-15', 'util-linux>=2.27.1-4']"
 reverse_depends = "['dracut-network', 'kernel-initrd', 'kernel-lts-initrd']"
 +++
+### Description: 
 Generic initramfs generationtool
 
-## Files: 
+### Files: 
 * /etc/dracut.conf
 * /etc/dracut.conf.d/00-frugalware.conf
 * /etc/dracut.conf.d/10-frugalware-omitted-modules.conf

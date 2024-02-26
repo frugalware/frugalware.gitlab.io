@@ -13,9 +13,10 @@ usize = "1651150"
 sha1sum = "c5f6eb8b563cf49b040f3a5d410514aa963183e6"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Central Kurdish support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/resource/ckb/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/ckb/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/ckb/LC_MESSAGES/basctl.mo

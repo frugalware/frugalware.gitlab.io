@@ -13,9 +13,10 @@ usize = "1590836797"
 sha1sum = "9fb37ce573d1dd9e9e9ac40b83afcd938ebd73be"
 depends = "['cuda-tools', 'jasper', 'opencv>=4.9.0']"
 +++
+### Description: 
 Intel(R) Open Source Computer Vision Library CUDA
 
-## Files: 
+### Files: 
 * /usr/bin/opencv_annotation
 * /usr/bin/opencv_interactive-calibration
 * /usr/bin/opencv_model_diagnostics

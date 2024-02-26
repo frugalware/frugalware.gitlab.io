@@ -13,9 +13,10 @@ usize = "121338"
 sha1sum = "28059825c7ae3462e0d48f70268b2b5176737445"
 depends = "['glibc>=2.34']"
 +++
+### Description: 
 A POSIX-compliant line editor
 
-## Files: 
+### Files: 
 * /usr/bin/ed
 * /usr/bin/red
 * /usr/share/doc/ed-1.20.1/AUTHORS

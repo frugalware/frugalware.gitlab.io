@@ -13,7 +13,8 @@ usize = "1480183"
 sha1sum = "8829ee9806c5c008346ec2c42940ab9271a31f5c"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang ori
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/ori.traineddata

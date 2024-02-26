@@ -14,7 +14,8 @@ sha1sum = "951770238cb0234152c8b4b35e0ecfef3652d4b0"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 French language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-fr@firefox.mozilla.org.xpi

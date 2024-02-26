@@ -13,9 +13,10 @@ usize = "6966394"
 sha1sum = "54a3892422ed0bc5aed9391aa7bbb39798a595a9"
 depends = "[]"
 +++
+### Description: 
 Finnish Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/apps/khangman/data/fi/animals.kvtml
 * usr/share/apps/khangman/data/fi/easy.kvtml
 * usr/share/apps/khangman/data/fi/hard.kvtml

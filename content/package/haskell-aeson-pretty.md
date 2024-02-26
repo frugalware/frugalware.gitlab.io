@@ -14,9 +14,10 @@ sha1sum = "344ee36085f71f82ca53f3b008f2ce981828c056"
 depends = "['haskell-aeson']"
 reverse_depends = "['pandoc']"
 +++
+### Description: 
 JSON pretty-printing library and command-line tool.
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/aeson-pretty-0.8.10/Data/Aeson/Encode/Pretty.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/aeson-pretty-0.8.10/Data/Aeson/Encode/Pretty.hi
 * /usr/lib/ghc-9.8.1/site-local/aeson-pretty-0.8.10/libHSaeson-pretty-0.8.10-9VkDB5IBeuj4KITu7FiNWr.a

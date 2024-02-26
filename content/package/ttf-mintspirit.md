@@ -13,9 +13,10 @@ usize = "1164765"
 sha1sum = "06745af954c798ce3f1fbbd9050c317cdf5b6371"
 depends = "['fontconfig', 'mkfontscale']"
 +++
+### Description: 
 A font made by the Linux Mint team
 
-## Files: 
+### Files: 
 * /usr/share/fonts/X11/TTF/MintSpirit-Bold.otf
 * /usr/share/fonts/X11/TTF/MintSpirit-BoldItalic.otf
 * /usr/share/fonts/X11/TTF/MintSpirit-Italic.otf

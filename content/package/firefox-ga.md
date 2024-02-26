@@ -13,8 +13,9 @@ usize = "0"
 sha1sum = "279461f44aa32d59543d5d337d61ce8820b14cf6"
 depends = "['firefox>=1.0.7']"
 +++
+### Description: 
 Irish language support for Firefox
 
-## Files: 
+### Files: 
 * usr/lib/firefox/chrome/ga-IE.jar
 * usr/lib/firefox/chrome/rc.d/10_firefox-ga.txt

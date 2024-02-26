@@ -13,9 +13,10 @@ usize = "730917"
 sha1sum = "56373b40350b7c99616c3ff0c56aa66508774cd9"
 depends = "['colord', 'kcmutils', 'kdeclarative', 'kirigami-addons', 'kitemmodels', 'libxrandr']"
 +++
+### Description: 
 Interfaces and session daemon to colord for KDE
 
-## Files: 
+### Files: 
 * /usr/bin/colord-kde-icc-importer
 * /usr/lib/qt5/plugins/kf5/kded/colord.so
 * /usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_colord.so

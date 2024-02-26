@@ -14,9 +14,10 @@ sha1sum = "da8a22f060a8f41e9fef896b9b1e40fbad3b54cc"
 depends = "['lame', 'libgomp', 'libmad', 'libpng', 'libpulse', 'wavpack']"
 reverse_depends = "['mlt', 'realrekord']"
 +++
+### Description: 
 A universal sound converter, player, and recorder
 
-## Files: 
+### Files: 
 * /usr/bin/play
 * /usr/bin/rec
 * /usr/bin/sox

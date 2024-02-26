@@ -14,9 +14,10 @@ sha1sum = "2731bb193d6f0459a05b4b649bb7250d72287cf4"
 depends = "['libboost>=1.83.0', 'xz']"
 reverse_depends = "['wimlib']"
 +++
+### Description: 
 A tool to unpack installers created by Inno Setup
 
-## Files: 
+### Files: 
 * /usr/bin/innoextract
 * /usr/share/doc/innoextract-1.9/CHANGELOG
 * /usr/share/doc/innoextract-1.9/LICENSE

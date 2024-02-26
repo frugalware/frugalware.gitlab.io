@@ -14,9 +14,10 @@ sha1sum = "87d812016fca8207ea583da0ce2776b1094983bf"
 depends = "['haskell-scientific>=0.3.7.0-3']"
 reverse_depends = "['haskell-attoparsec-aeson', 'haskell-attoparsec-iso8601', 'haskell-cassava', 'haskell-conduit-extra', 'haskell-http-date', 'haskell-wai-cors', 'haskell-yaml']"
 +++
+### Description: 
 Fast combinator parsing for bytestrings and text
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/attoparsec-0.14.4/Data/Attoparsec.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/attoparsec-0.14.4/Data/Attoparsec.hi
 * /usr/lib/ghc-9.8.1/site-local/attoparsec-0.14.4/Data/Attoparsec/ByteString.dyn_hi

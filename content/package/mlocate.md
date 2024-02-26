@@ -14,9 +14,10 @@ sha1sum = "88d90fde07fb6e8c0f625c6a50d6f7de684cb166"
 depends = "['glibc>=2.34', 'scriptlet-core']"
 license = "GPLv2"
 +++
+### Description: 
 mlocate (merging locate) is a locate/updatedb implementation.
 
-## Files: 
+### Files: 
 * /etc/cron.daily/updatedb
 * /etc/updatedb.conf
 * /usr/bin/locate

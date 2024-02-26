@@ -15,9 +15,10 @@ depends = "['libxmu>=1.1.2-3']"
 reverse_depends = "['plasma-workspace']"
 license = "GPL2"
 +++
+### Description: 
 X.Org xrdb application
 
-## Files: 
+### Files: 
 * /usr/bin/xrdb
 * /usr/share/doc/xrdb-1.2.2/AUTHORS
 * /usr/share/doc/xrdb-1.2.2/ChangeLog

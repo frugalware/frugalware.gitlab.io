@@ -13,9 +13,10 @@ usize = "1903891"
 sha1sum = "8365765f9238bbbd3e56b7eedbe7364f060eb5b5"
 depends = "['kidletime>=5.104.0', 'kinit>=5.104.0', 'openssl>=3.1.0', 'pcre2', 'plasma-framework>=5.27.3']"
 +++
+### Description: 
 Kup is a KDE-based frontend for the bup backup software
 
-## Files: 
+### Files: 
 * /etc/xdg/autostart/kup-daemon.desktop
 * /usr/bin/kup-daemon
 * /usr/bin/kup-filedigger

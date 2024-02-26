@@ -14,9 +14,10 @@ sha1sum = "bb1588eef7521ec2b73d5e173218095ac5dc9a70"
 depends = "['python3>=3.12']"
 reverse_depends = "['pyside6']"
 +++
+### Description: 
 Shiboken lib python only
 
-## Files: 
+### Files: 
 * /usr/lib/libshiboken6.abi3.so
 * /usr/lib/libshiboken6.abi3.so.6.6
 * /usr/lib/libshiboken6.abi3.so.6.6.2

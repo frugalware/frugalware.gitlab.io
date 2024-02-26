@@ -13,9 +13,10 @@ usize = "3296022"
 sha1sum = "f30bfb551cf4ec2353bf1f575e571270ec4cb8ed"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Mongolian support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/resource/mn/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/mn/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/mn/LC_MESSAGES/basctl.mo

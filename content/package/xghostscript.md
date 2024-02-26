@@ -14,7 +14,8 @@ sha1sum = "38d194372d3852bef09ba3b6ee9e343559ac18a5"
 depends = "['ghostscript', 'libxt']"
 reverse_depends = "['gv', 'texmaker']"
 +++
+### Description: 
 A graphical interpreter for the PostScript language.
 
-## Files: 
+### Files: 
 * /usr/bin/gsx

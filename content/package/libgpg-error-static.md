@@ -13,7 +13,8 @@ usize = "798398"
 sha1sum = "5d14c0ba7a192f4ba8f3ecb3249fa0083352bfa2"
 depends = "[]"
 +++
+### Description: 
 Static files for libgpg-error
 
-## Files: 
+### Files: 
 * /usr/lib/libgpg-error.a

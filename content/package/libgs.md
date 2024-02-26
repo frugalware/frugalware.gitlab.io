@@ -14,9 +14,10 @@ sha1sum = "62ee04d8fe3ff87901323d97e1c7231e0cf30dea"
 depends = "['fontconfig', 'ijs', 'libcups', 'libidn>=1.35', 'libpaper', 'openjpeg']"
 reverse_depends = "['ghostscript', 'graphviz', 'libspectre', 'texlive']"
 +++
+### Description: 
 PostScript libs from ghostscript
 
-## Files: 
+### Files: 
 * /usr/lib/libgs.so
 * /usr/lib/libgs.so.10
 * /usr/lib/libgs.so.10.02

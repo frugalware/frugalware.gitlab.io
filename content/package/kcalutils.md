@@ -14,9 +14,10 @@ sha1sum = "e4b12340d5eb45ee977e8c6a07a87b5c1323ec8f"
 depends = "['kcalendarcore>=5.115.0', 'kidentitymanagement>=23.08.5']"
 reverse_depends = "['akonadi-calendar', 'kalarm', 'kmail', 'knotes', 'ktnef']"
 +++
+### Description: 
 The KDE calendar utility library
 
-## Files: 
+### Files: 
 * /usr/include/KPim5/KCalUtils/KCalUtils/DndFactory
 * /usr/include/KPim5/KCalUtils/kcalutils/dndfactory.h
 * /usr/include/KPim5/KCalUtils/KCalUtils/ICalDrag

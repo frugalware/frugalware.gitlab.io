@@ -13,7 +13,8 @@ usize = "9375117"
 sha1sum = "460d3e581c1e68aae9a46cad71db5cc895684e3f"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang srp_latn
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/srp_latn.traineddata

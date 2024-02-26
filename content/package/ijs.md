@@ -14,9 +14,10 @@ sha1sum = "3bbb8fbcf8eb8cda0407fd8385d0d82cb16bffc9"
 depends = "['glibc>=2.34']"
 reverse_depends = "['cups-filters', 'ghostscript', 'libgs']"
 +++
+### Description: 
 Backends, filters and other software from CUPS distribution.
 
-## Files: 
+### Files: 
 * /usr/bin/ijs-config
 * /usr/bin/ijs_client_example
 * /usr/bin/ijs_server_example

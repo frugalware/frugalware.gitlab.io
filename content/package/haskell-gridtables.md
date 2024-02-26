@@ -14,9 +14,10 @@ sha1sum = "6e70ecacbab948b525bd948df3088864833fef30"
 depends = "['haskell-doclayout']"
 reverse_depends = "['pandoc']"
 +++
+### Description: 
 Parser for reStructuredText-style grid tables
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/gridtables-0.1.0.0/libHSgridtables-0.1.0.0-JifS6Pvhtl7Jz6lN5UZFys.a
 * /usr/lib/ghc-9.8.1/site-local/gridtables-0.1.0.0/Text/GridTable.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/gridtables-0.1.0.0/Text/GridTable.hi

@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "3580740e6a2edbc37794b0fff5a5853dcf494af1"
 depends = "['fontconfig', 'libpng', 'libstdc++', 'ncurses']"
 +++
+### Description: 
 A fork of the XFree86 Project with a GPL-compatible license
 
-## Files: 
+### Files: 
 * etc/profile.d/xprint.csh
 * etc/profile.d/xprint.sh
 * etc/rc.d/rc.messages/xprint.en

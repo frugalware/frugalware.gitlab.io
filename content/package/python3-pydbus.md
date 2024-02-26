@@ -14,9 +14,10 @@ sha1sum = "334ca7a1f1c2ffc5c0af86de39c9184ec16bfd4c"
 depends = "['python3>=3.11']"
 reverse_depends = "['input-remapper']"
 +++
+### Description: 
 Pythonic D-Bus library
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/pydbus-0.6.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pydbus-0.6.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/pydbus-0.6.0-py3.12.egg-info/SOURCES.txt

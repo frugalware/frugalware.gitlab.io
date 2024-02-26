@@ -13,7 +13,8 @@ usize = "4905750"
 sha1sum = "c27f3f54d713f5a1a8a4c4f67f0616536f26993d"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang uzb_cyrl
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/uzb_cyrl.traineddata

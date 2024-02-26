@@ -13,9 +13,10 @@ usize = "59216"
 sha1sum = "be0707c674e12de4ab00406daf984d7bc8ae1a09"
 depends = "['python3-setuptools']"
 +++
+### Description: 
 Setuptools revision control system plugin for Git
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/setuptools_git-1.2-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/setuptools_git-1.2-py3.12.egg-info/entry_points.txt
 * /usr/lib/python3.12/site-packages/setuptools_git-1.2-py3.12.egg-info/PKG-INFO

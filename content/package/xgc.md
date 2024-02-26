@@ -14,9 +14,10 @@ sha1sum = "21829fc93ebb54cb6ecd19f7b014d746fac26078"
 depends = "['libxaw>=1.0.13-3']"
 license = "GPL2"
 +++
+### Description: 
 X.Org xgc application
 
-## Files: 
+### Files: 
 * /usr/bin/xgc
 * /usr/share/doc/xgc-1.0.6/ChangeLog
 * /usr/share/doc/xgc-1.0.6/COPYING

@@ -13,9 +13,10 @@ usize = "15145201"
 sha1sum = "b36d2267c3e210f3ce9f66d42b133cdf3b3a2d93"
 depends = "['audiofile', 'flac>=1.4.0', 'id3lib', 'kio>=5.115.0', 'libmad', 'libsamplerate', 'opus', 'qt5-multimedia']"
 +++
+### Description: 
 Kwave is a sound editor for KDE
 
-## Files: 
+### Files: 
 * /usr/bin/kwave
 * /usr/lib/libkwave.so.23
 * /usr/lib/libkwave.so.23.08.5

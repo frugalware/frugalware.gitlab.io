@@ -13,9 +13,10 @@ usize = "1614860"
 sha1sum = "7b9179f8695131e734d246d5351e1998de3e5762"
 depends = "['kdelibs4support>=5.115.0', 'kfilemetadata5>==5.115.0']"
 +++
+### Description: 
 A standalone search too.
 
-## Files: 
+### Files: 
 * /usr/bin/kfind
 * /usr/share/applications/org.kde.kfind.desktop
 * /usr/share/doc/HTML/ca/kfind/index.cache.bz2

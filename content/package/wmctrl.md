@@ -14,9 +14,10 @@ sha1sum = "b4c3bf1607394570016f0ab25f264e758aac2d9c"
 depends = "['libxmu']"
 reverse_depends = "['libinput-gestures']"
 +++
+### Description: 
 Command line control of your window manager
 
-## Files: 
+### Files: 
 * /usr/bin/wmctrl
 * /usr/share/doc/wmctrl-1.07/AUTHORS
 * /usr/share/doc/wmctrl-1.07/ChangeLog

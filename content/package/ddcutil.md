@@ -14,9 +14,10 @@ sha1sum = "38642d21cb99bfa0890e28fcc93dd85cd570c330"
 depends = "['glib2', 'i2c-tools', 'jansson', 'libdrm', 'libusb', 'libxrandr']"
 reverse_depends = "['clightd', 'hw-probe']"
 +++
+### Description: 
 Query and change Linux monitor settings using DDC/CI and USB.
 
-## Files: 
+### Files: 
 * /usr/bin/ddcutil
 * /usr/include/ddcutil_c_api.h
 * /usr/include/ddcutil_macros.h

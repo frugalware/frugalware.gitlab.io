@@ -14,9 +14,10 @@ sha1sum = "fe3e0e477b18ae4657812d30a164f40f700d644a"
 depends = "['dbus-glib', 'libdbusmenu-gtk3', 'libindicator>=12.10']"
 reverse_depends = "['polychromatic', 'remmina', 'slack-desktop', 'syncthing-gtk']"
 +++
+### Description: 
 Library to allow applications to export a menu into the Unity Menu bar (GTK+ 2 library)
 
-## Files: 
+### Files: 
 * /usr/include/libappindicator3-0.1/libappindicator/app-indicator-enum-types.h
 * /usr/include/libappindicator3-0.1/libappindicator/app-indicator.h
 * /usr/lib/libappindicator3.so

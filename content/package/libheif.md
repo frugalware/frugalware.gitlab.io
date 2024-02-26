@@ -14,9 +14,10 @@ sha1sum = "10ba633a882e0a347d527a567654a5af15ab0bbd"
 depends = "['aom', 'dav1d>=1.3.0', 'libde265', 'rav1e', 'x265>=3.5']"
 reverse_depends = "['digikam', 'gdal', 'gimp', 'graphicsmagick', 'imagemagick', 'kimageformats', 'libheif-gdk-pixbuf', 'libheif-tools', 'libvips', 'openimageio']"
 +++
+### Description: 
 HEIF file format decoder and encoder
 
-## Files: 
+### Files: 
 * /usr/include/libheif/heif.h
 * /usr/include/libheif/heif_cxx.h
 * /usr/include/libheif/heif_plugin.h

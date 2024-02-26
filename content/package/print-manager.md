@@ -13,9 +13,10 @@ usize = "2456112"
 sha1sum = "7fe10532bd15e4ac0e5c81d9461f76e65b8abae8"
 depends = "['cups>=2.2.0-2', 'cups-filters', 'kio>=5.115.0', 'qt5-declarative>=5.15.12']"
 +++
+### Description: 
 System tray utility, to autoconfig printers.
 
-## Files: 
+### Files: 
 * /usr/bin/configure-printer
 * /usr/bin/kde-add-printer
 * /usr/bin/kde-print-queue

@@ -14,9 +14,10 @@ sha1sum = "1bb2c51e0804f688d5f1df7b401e76a5b57369d3"
 depends = "['lib32-elfutils', 'lib32-json-c', 'lib32-libglu', 'lib32-libjpeg-turbo', 'lib32-libsystemd', 'lib32-libudev', 'lib32-libx11', 'lib32-sdl2', 'lib32-sdl2_image', 'v4l-utils>=1.26.1']"
 reverse_depends = "['lib32-ffmpeg']"
 +++
+### Description: 
 v4l-utils (32-bit)
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/bin/cec-compliance
 * /usr/i686-frugalware-linux/bin/cec-ctl
 * /usr/i686-frugalware-linux/bin/cec-follower

@@ -14,9 +14,10 @@ sha1sum = "4fccabc24fb07feb9bcda640ccb1d90f913f053b"
 depends = "['qt5-charts>=_F_kdever_qt5', 'qt5-declarative>=', 'qt5-svg>=_F_kdever_qt5']"
 reverse_depends = "['drkonqi', 'plasma-welcome']"
 +++
+### Description: 
 Framework for collecting user feedback for applications via telemetry and surveys
 
-## Files: 
+### Files: 
 * /usr/bin/UserFeedbackConsole
 * /usr/bin/userfeedbackctl
 * /usr/include/KUserFeedback/AbstractDataSource

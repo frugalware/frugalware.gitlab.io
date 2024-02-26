@@ -14,9 +14,10 @@ sha1sum = "8fb0b3979c910e34797ed9037bb4e685491e7d79"
 depends = "['kinit>=5.115.0']"
 reverse_depends = "['bluedevil5', 'kdelibs4support', 'kio']"
 +++
+### Description: 
 Central daemon of KDE workspaces.
 
-## Files: 
+### Files: 
 * /usr/bin/kded5
 * /usr/lib/cmake/KDED/KDEDConfig.cmake
 * /usr/lib/cmake/KDED/KDEDConfigVersion.cmake

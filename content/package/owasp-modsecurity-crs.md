@@ -14,9 +14,10 @@ sha1sum = "cb50ebd482c1c49fe1b8008ccfc419bb1fe1e4db"
 depends = "[]"
 reverse_depends = "['mod_security']"
 +++
+### Description: 
 ModSecurity Core Rule Set (CRS)
 
-## Files: 
+### Files: 
 * /etc/modsecurity/crs/CHANGES
 * /etc/modsecurity/crs/CONTRIBUTING.md
 * /etc/modsecurity/crs/CONTRIBUTORS.md

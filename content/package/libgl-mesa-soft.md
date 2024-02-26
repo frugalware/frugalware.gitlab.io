@@ -14,9 +14,10 @@ sha1sum = "d88dadb04d11bb52ebfac3f63b4e852f6e914d21"
 depends = "[]"
 reverse_depends = "['libosmesa-x11']"
 +++
+### Description: 
 Mesa Software OpenGL files.
 
-## Files: 
+### Files: 
 * usr/lib/libGL.so
 * usr/lib/libGL.so.1
 * usr/lib/libGL.so.1.5.070700

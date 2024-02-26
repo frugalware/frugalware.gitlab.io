@@ -14,7 +14,8 @@ sha1sum = "f7440744e476b5cb0436a0e04895d10de7121214"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Chinese Simplified language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-zh-CN@firefox.mozilla.org.xpi

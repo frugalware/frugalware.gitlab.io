@@ -14,9 +14,10 @@ sha1sum = "752ab62100171d30e000738cbf1efadb0e033827"
 depends = "['glibc']"
 reverse_depends = "['inxi']"
 +++
+### Description: 
 hddtemp will show you the hard drive's temperature if the hard drive supports it
 
-## Files: 
+### Files: 
 * /etc/sysconfig/hddtemp
 * /usr/bin/hddtemp
 * /usr/lib/systemd/system/hddtemp.service

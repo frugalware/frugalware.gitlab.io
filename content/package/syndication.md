@@ -14,9 +14,10 @@ sha1sum = "de503028ce71aa3537b30db2dcd3372e9ad82903"
 depends = "['kio>=5.115.0']"
 reverse_depends = "['akregator', 'alligator', 'kasts', 'kdepim-runtime', 'knewstuff', 'ktorrent']"
 +++
+### Description: 
 KParts Kontact interface.
 
-## Files: 
+### Files: 
 * /usr/include/KF5/Syndication/Syndication/AbstractParser
 * /usr/include/KF5/Syndication/syndication/abstractparser.h
 * /usr/include/KF5/Syndication/Syndication/Atom/Atom

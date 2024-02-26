@@ -14,9 +14,10 @@ sha1sum = "b8968aebe00e7e3243fc09dd986b65ad5815c852"
 depends = "['gnutls>=3.4.8', 'libidn>=1.35']"
 reverse_depends = "['uwsgi-plugin-xmpp']"
 +++
+### Description: 
 A stable, extensible C++ library for the development of XMPP clients and components.
 
-## Files: 
+### Files: 
 * /usr/bin/gloox-config
 * /usr/include/gloox/adhoc.h
 * /usr/include/gloox/adhoccommandprovider.h

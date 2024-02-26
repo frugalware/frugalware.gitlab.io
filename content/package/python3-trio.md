@@ -14,9 +14,10 @@ sha1sum = "79f78ed15815234b0dd743d0583d1bc27b4512ea"
 depends = "['python3-async_generator', 'python3-attrs', 'python3-exceptiongroup', 'python3-idna', 'python3-outcome', 'python3-sniffio', 'python3-sortedcontainers']"
 reverse_depends = "['python3-selenium', 'python3-trio-websocket']"
 +++
+### Description: 
 A friendly Python library for async concurrency and I/O
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/trio-0.23.1.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/trio-0.23.1.dist-info/LICENSE.APACHE2
 * /usr/lib/python3.12/site-packages/trio-0.23.1.dist-info/LICENSE.MIT

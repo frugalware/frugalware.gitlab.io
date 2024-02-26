@@ -14,9 +14,10 @@ sha1sum = "919da834bacc6535d3dd09ee77faa81d31f6e575"
 depends = "[]"
 reverse_depends = "['lib32-ffmpeg']"
 +++
+### Description: 
 XviD is an open source MPEG-4 video codec ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/xvid.h
 * /usr/lib32/libxvidcore.so
 * /usr/lib32/libxvidcore.so.4

@@ -14,9 +14,10 @@ sha1sum = "8bb5f75cdbecb4e8c36a7cf761f6f88391b4670d"
 depends = "['haskell-aeson', 'haskell-base64-bytestring']"
 reverse_depends = "['pandoc']"
 +++
+### Description: 
 Data structure for working with Jupyter notebooks
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/ipynb-0.2/Data/Ipynb.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/ipynb-0.2/Data/Ipynb.hi
 * /usr/lib/ghc-9.8.1/site-local/ipynb-0.2/libHSipynb-0.2-HbH0WfjdwKB6WNXSOAj1iA.a

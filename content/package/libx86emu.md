@@ -14,9 +14,10 @@ sha1sum = "dbb14f221f417b10ac6f4574d465e27e50b8dd05"
 depends = "['glibc']"
 reverse_depends = "['hwinfo']"
 +++
+### Description: 
 x86 emulation library
 
-## Files: 
+### Files: 
 * /usr/include/x86emu.h
 * /usr/lib/libx86emu.so
 * /usr/lib/libx86emu.so.3

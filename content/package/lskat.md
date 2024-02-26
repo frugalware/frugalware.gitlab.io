@@ -13,9 +13,10 @@ usize = "4892260"
 sha1sum = "3871e70f063a3c6154548f3f65078fef2eab02f0"
 depends = "['libkdegames>=23.08.5']"
 +++
+### Description: 
 Lieutenant Skat (from German Offiziersskat) is a fun and engaging card game for two players
 
-## Files: 
+### Files: 
 * /usr/bin/lskat
 * /usr/share/applications/org.kde.lskat.desktop
 * /usr/share/doc/HTML/ca/lskat/index.cache.bz2

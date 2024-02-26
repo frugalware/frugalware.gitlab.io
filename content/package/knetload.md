@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "874bf68fd8a2cb64d530ab2e11ea0545b22dc8a8"
 depends = "[]"
 +++
+### Description: 
 A Network Load Monitor applet for Kicker
 
-## Files: 
+### Files: 
 * usr/lib/libknetloadapplet.la
 * usr/lib/libknetloadapplet.so
 * usr/share/apps/kicker/applets/knetloadapplet.desktop

@@ -13,7 +13,8 @@ usize = "8341116"
 sha1sum = "57a0490f7843c12dbb0be8743a53cf5c51594d48"
 depends = "['lib32-libva>=2.3']"
 +++
+### Description: 
 Intel backend for VA API ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/lib32/dri/i965_drv_video.so

@@ -13,7 +13,8 @@ usize = "12629625"
 sha1sum = "23850bb60482c3d4ea19ef6eaa0cce24686da651"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang lit
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/lit.traineddata

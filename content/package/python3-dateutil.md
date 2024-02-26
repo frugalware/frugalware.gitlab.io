@@ -14,9 +14,10 @@ sha1sum = "7fc47027239140ff693103454edda2adbfea9c00"
 depends = "['python3-six']"
 reverse_depends = "['python3-suntime', 'syncthing-gtk', 'yokadi']"
 +++
+### Description: 
 Provides powerful extensions to the standard datetime module.
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/dateutil/easter.py
 * /usr/lib/python3.12/site-packages/dateutil/parser/isoparser.py
 * /usr/lib/python3.12/site-packages/dateutil/parser/_parser.py

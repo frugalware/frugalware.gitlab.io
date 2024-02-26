@@ -14,9 +14,10 @@ sha1sum = "7a7005fd91c7731372f6774be4330f2ce5e7f98e"
 depends = "['kdelibs4support>=5.115.0', 'mobile-broadband-provider-info', 'modemmanager-qt>=5.115.0', 'networkmanager-qt>=5.115.0', 'plasma-framework>=5.115.0', 'plasma-workspace>=5.27.10', 'qca>=2.1.1-6']"
 reverse_depends = "['plasma-bigscreen']"
 +++
+### Description: 
 Plasma applet written in QML for managing network connections.
 
-## Files: 
+### Files: 
 * /usr/lib/libplasmanm_editor.so
 * /usr/lib/libplasmanm_internal.so
 * /usr/lib/qt5/plugins/kf5/kded/networkmanagement.so

@@ -14,9 +14,10 @@ sha1sum = "db1e72c8664004219743ec29570d2a1f738f17c1"
 depends = "['lib32-libx11>=1.6.7-2']"
 reverse_depends = "['lib32-cairo', 'lib32-libxcursor', 'lib32-libxft', 'lib32-libxrandr', 'wine', 'wine-devel']"
 +++
+### Description: 
 X Render Library ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/i686-frugalware-linux/include/X11/extensions/Xrender.h
 * /usr/lib32/libXrender.so
 * /usr/lib32/libXrender.so.1

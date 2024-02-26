@@ -14,9 +14,10 @@ sha1sum = "cc25c7936c8ab440d691446891b27738dd49e2d7"
 depends = "['glibc']"
 reverse_depends = "['quilt']"
 +++
+### Description: 
 Displays a histogram of changes to a file
 
-## Files: 
+### Files: 
 * /usr/bin/diffstat
 * /usr/share/doc/diffstat-1.65/CHANGES
 * /usr/share/doc/diffstat-1.65/COPYING

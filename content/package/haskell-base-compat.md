@@ -14,9 +14,10 @@ sha1sum = "320bc6c9994be793caa63a7322a9098a6bb99227"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-base-compat-batteries', 'haskell-these']"
 +++
+### Description: 
 A compatibility layer for base
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/base-compat-0.13.1/Control/Concurrent/Compat.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/base-compat-0.13.1/Control/Concurrent/Compat.hi
 * /usr/lib/ghc-9.8.1/site-local/base-compat-0.13.1/Control/Concurrent/Compat/Repl.dyn_hi

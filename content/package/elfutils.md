@@ -14,9 +14,10 @@ sha1sum = "e9a1842447f01319ef6ace173e64c6e3a4c872b6"
 depends = "['bzip2>=1.0.6-16', 'glibc>=2.35', 'libstdc++>=11.3', 'xz>=5.2.4-2', 'zlib>=1.2.12', 'zstd']"
 reverse_depends = "['aide', 'bcc', 'dracut', 'elfutils-debuginfod', 'glib2', 'lib32-mesa-libswrast', 'libosmesa', 'libsystemd', 'libva-mesa-driver', 'mesa-dri-drivers', 'mesa-nine', 'mesa-opemax', 'mesa-pipe-drivers', 'mesa-vdpau-drivers', 'modemmanager', 'perf', 'v4l-utils']"
 +++
+### Description: 
 Collection of libraries and utilities for working with ELF object files and DWARF debugging information
 
-## Files: 
+### Files: 
 * /etc/profile.d/debuginfod.csh
 * /etc/profile.d/debuginfod.sh
 * /usr/bin/eu-addr2line

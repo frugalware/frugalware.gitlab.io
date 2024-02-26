@@ -14,9 +14,10 @@ sha1sum = "e72fc0c23c7c45fe50dd925fc22af1a58aefc8b2"
 depends = "['freerdp', 'kbookmarks>=5.115.0', 'kcmutils>=5.115.0', 'kdnssd>=5.115.0', 'knotifications>=5.115.0', 'knotifyconfig>=5.115.0', 'knotifyconfig>=5.115.0', 'kwallet5>=5.115.0', 'libssh', 'libvncserver']"
 reverse_depends = "['qt-virt-manager']"
 +++
+### Description: 
 KRDC is a Remote Desktop Client for KDE.
 
-## Files: 
+### Files: 
 * /usr/bin/krdc
 * /usr/include/krdc/hostpreferences.h
 * /usr/include/krdc/remoteview.h

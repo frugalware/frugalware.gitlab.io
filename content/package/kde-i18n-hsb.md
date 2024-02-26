@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = ""
 depends = "[]"
 +++
+### Description: 
 Upper Sorbian Localization for KDE.
 
-## Files: 
+### Files: 
 * usr/share/locale/hsb/charset
 * usr/share/locale/hsb/entry.desktop
 * usr/share/locale/hsb/LC_MESSAGES/appletproxy.mo

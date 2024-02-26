@@ -15,9 +15,10 @@ depends = "['expat>=2.1.0-5', 'geos>=3.6.2', 'json-c', 'json-c>=0.14', 'libdefla
 reverse_depends = "['hexer', 'liblas', 'opencv']"
 license = "Warmerdam"
 +++
+### Description: 
 GDAL - a translator library for raster geospatial data formats
 
-## Files: 
+### Files: 
 * /usr/bin/gdal-config
 * /usr/bin/gdaladdo
 * /usr/bin/gdalbuildvrt

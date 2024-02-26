@@ -14,9 +14,10 @@ sha1sum = "d9c571c79a6d5d143b2086afa73187b372b2b780"
 depends = "[]"
 reverse_depends = "['openttd']"
 +++
+### Description: 
 Sound data files for openttd.
 
-## Files: 
+### Files: 
 * /usr/share/doc/opensfx-1.0.3/changelog.txt
 * /usr/share/doc/opensfx-1.0.3/digifish_music_grant.txt
 * /usr/share/doc/opensfx-1.0.3/license.txt

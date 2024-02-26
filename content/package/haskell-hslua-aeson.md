@@ -14,9 +14,10 @@ sha1sum = "50f3fee918d85179db70bbf2730d0343752b24df"
 depends = "['haskell-aeson', 'haskell-hslua-marshalling']"
 reverse_depends = "['haskell-hslua']"
 +++
+### Description: 
 Allow aeson data types to be used with Lua.
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/hslua-aeson-2.3.0.1/HsLua/Aeson.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-aeson-2.3.0.1/HsLua/Aeson.hi
 * /usr/lib/ghc-9.8.1/site-local/hslua-aeson-2.3.0.1/libHShslua-aeson-2.3.0.1-IeYSppZEY9J14Mt4CPR3O7.a

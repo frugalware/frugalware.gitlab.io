@@ -14,9 +14,10 @@ sha1sum = "2f59bbeec2c29eceff113827066adba433c0d51d"
 depends = "['glibc>=2.25']"
 reverse_depends = "['firetools']"
 +++
+### Description: 
 Linux namespaces sandbox program
 
-## Files: 
+### Files: 
 * /etc/firejail/0ad.profile
 * /etc/firejail/1password.profile
 * /etc/firejail/2048-qt.profile

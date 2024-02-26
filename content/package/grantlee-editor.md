@@ -13,9 +13,10 @@ usize = "1252268"
 sha1sum = "79ff238d9c5a2c46f5ae6a2e4ada64e8732bb38e"
 depends = "['ktexteditor>=5.115.0', 'messagelib>=23.08.5']"
 +++
+### Description: 
 gantt editor for PIM application.
 
-## Files: 
+### Files: 
 * /usr/bin/contactprintthemeeditor
 * /usr/bin/contactthemeeditor
 * /usr/bin/headerthemeeditor

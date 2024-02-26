@@ -13,9 +13,10 @@ usize = "15324836"
 sha1sum = "c046de1764e567ab2aa6121dae816c5e40bcac25"
 depends = "[]"
 +++
+### Description: 
 Libwpd Documentation
 
-## Files: 
+### Files: 
 * /usr/share/doc/libwpd-0.10.3/html/annotated.html
 * /usr/share/doc/libwpd-0.10.3/html/bc_s.png
 * /usr/share/doc/libwpd-0.10.3/html/bdwn.png

@@ -13,9 +13,10 @@ usize = "1239658"
 sha1sum = "6b3d5663d48d2ab6c0baf7ff86ed0e67b729355b"
 depends = "['libreoffice>=24.2.0.3']"
 +++
+### Description: 
 Installs Serbian (Latin) support in LibreOffice
 
-## Files: 
+### Files: 
 * /usr/lib/libreoffice/program/resource/sr@latin/LC_MESSAGES/acc.mo
 * /usr/lib/libreoffice/program/resource/sr@latin/LC_MESSAGES/avmedia.mo
 * /usr/lib/libreoffice/program/resource/sr@latin/LC_MESSAGES/basctl.mo

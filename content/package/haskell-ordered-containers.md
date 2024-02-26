@@ -14,9 +14,10 @@ sha1sum = "aca11c1f577bc1704f5f70ad6b4a68878a8d9891"
 depends = "['ghc>=9.6.2']"
 reverse_depends = "['haskell-typst']"
 +++
+### Description: 
 Set- and Map-like types that remember the order elements were inserted
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/ordered-containers-0.2.3/Data/Map/Ordered.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/ordered-containers-0.2.3/Data/Map/Ordered.hi
 * /usr/lib/ghc-9.8.1/site-local/ordered-containers-0.2.3/Data/Map/Ordered/Internal.dyn_hi

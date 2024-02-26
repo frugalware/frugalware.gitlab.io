@@ -13,9 +13,10 @@ usize = "93885"
 sha1sum = "3b61840e3c4951c0a19d96b0ec22cce461f36932"
 depends = "[]"
 +++
+### Description: 
 Command-line Sudoku solver and generator
 
-## Files: 
+### Files: 
 * /usr/bin/qqwing
 * /usr/include/qqwing.hpp
 * /usr/lib/libqqwing.so

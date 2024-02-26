@@ -14,9 +14,10 @@ sha1sum = "64b6d0e5783fe7071762b29eff40ff00b2b9c6e1"
 depends = "['gdk-pixbuf2>=2.36.11-3', 'libffi>=3.2.1-2', 'libpng>=1.6.25']"
 reverse_depends = "['claws-mail-plugin-notification', 'discord', 'firefox', 'freetuxtv', 'geoclue2', 'gtk-handbrake', 'hexchat', 'ibus', 'nm-applet', 'notification-daemon', 'sunflower', 'syncthing-gtk', 'thunderbird', 'uget', 'usbguard-notifier', 'volumeicon', 'webkit-gtk3', 'wxwidgets', 'zenity']"
 +++
+### Description: 
 libnotify is a library for sending desktop notifications
 
-## Files: 
+### Files: 
 * /usr/bin/notify-send
 * /usr/include/libnotify/notification.h
 * /usr/include/libnotify/notify-enum-types.h

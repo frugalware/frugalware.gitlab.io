@@ -13,9 +13,10 @@ usize = "40660223"
 sha1sum = "96e7f2639ba53ad8e2221b8fc330dd2c0bf8cd28"
 depends = "['glibc']"
 +++
+### Description: 
 TypeScript is a language for application scale JavaScript development
 
-## Files: 
+### Files: 
 * /usr/bin/tsc
 * /usr/bin/tsserver
 * /usr/lib/node_modules/root/.travis.yml

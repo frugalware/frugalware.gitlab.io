@@ -14,9 +14,10 @@ sha1sum = "9048ada449c73782920109551a05cdc3904a3a8b"
 depends = "['gegl>=0.4.6', 'gobject-introspection', 'json-c>=0.14']"
 reverse_depends = "['gimp', 'krita']"
 +++
+### Description: 
 A fast and easy painting application for digital painters, with brush dynamics
 
-## Files: 
+### Files: 
 * /usr/include/libmypaint/fastapprox/cast.h
 * /usr/include/libmypaint/fastapprox/fastexp.h
 * /usr/include/libmypaint/fastapprox/fastlog.h

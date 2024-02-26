@@ -13,9 +13,10 @@ usize = "11725655"
 sha1sum = "a0bb566cd8daaaeb677d1533857d81efda28f22f"
 depends = "['git>=1.8.5']"
 +++
+### Description: 
 An open source Git extension for versioning large files
 
-## Files: 
+### Files: 
 * /usr/bin/git-lfs
 * /usr/share/doc/git-lfs-3.4.1/INSTALLING.md
 * /usr/share/doc/git-lfs-3.4.1/README.md

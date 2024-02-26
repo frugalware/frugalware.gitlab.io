@@ -14,9 +14,10 @@ sha1sum = "43310eba835f3490714286e0926da975206afdbc"
 depends = "['pcre>=8.40-2']"
 reverse_depends = "['gst1-plugins-good-caca', 'libcaca', 'mc', 'newt', 'perf', 'slrn']"
 +++
+### Description: 
 S-Lang is a powerful interpreted language
 
-## Files: 
+### Files: 
 * /etc/slsh.rc
 * /usr/bin/slsh
 * /usr/include/slang.h

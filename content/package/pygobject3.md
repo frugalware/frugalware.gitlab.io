@@ -14,9 +14,10 @@ sha1sum = "195ea4fef03118139e2c8e863c883242fcbffc7f"
 depends = "['pygobject3-devel', 'python3>=3.12']"
 reverse_depends = "['claws-mail-plugin-python', 'discover-overlay', 'input-remapper', 'openrazer', 'pygobject3-cairo', 'redshift-gtk', 'switcheroo-control', 'telepathy-haze', 'udiskie']"
 +++
+### Description: 
 Python bindings for GObject
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/PyGObject-3.47.0.dev0.egg-info
 * /usr/lib/python3.12/site-packages/pygtkcompat/generictreemodel.py
 * /usr/lib/python3.12/site-packages/pygtkcompat/pygtkcompat.py

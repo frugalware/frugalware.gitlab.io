@@ -13,7 +13,8 @@ usize = "194242"
 sha1sum = "dc513959c110a4caf6f8c9bfef470f73daecf2dd"
 depends = "['python3>=3.11']"
 +++
+### Description: 
 Numerical Python3 static files.
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/numpy/core/lib/libnpymath.a

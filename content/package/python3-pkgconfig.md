@@ -14,9 +14,10 @@ sha1sum = "4d2458011a036733eef01f0016a28d1ad72535ed"
 depends = "['python3>=3.11']"
 reverse_depends = "['hotdoc']"
 +++
+### Description: 
 Python module to interface with the pkg-config command line tool
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/pkgconfig-1.5.5-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/pkgconfig-1.5.5-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/pkgconfig-1.5.5-py3.12.egg-info/SOURCES.txt

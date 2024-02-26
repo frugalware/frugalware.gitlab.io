@@ -13,9 +13,10 @@ usize = "839474"
 sha1sum = "43ec17d870727e1189203815398c2adb92d90439"
 depends = "['pyqt6', 'pyside6', 'python3-psutil', 'python3-suntime', 'python3-systemd', 'qt6-positioning']"
 +++
+### Description: 
 Light/dark theme switcher for Linux. Supports popular Desktops, text editors and more!
 
-## Files: 
+### Files: 
 * /opt/yin-yang/designer/main_window.ui
 * /opt/yin-yang/LICENSE
 * /opt/yin-yang/README.md

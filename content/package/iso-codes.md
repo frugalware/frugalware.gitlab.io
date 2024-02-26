@@ -14,9 +14,10 @@ sha1sum = "ddc2b414878442b5ca874d1957f20f614ca9969e"
 depends = "['python3>=3.6.4']"
 reverse_depends = "['darktable', 'gimp', 'gnome-desktop', 'gspell', 'hexchat', 'nm-applet', 'plasma-workspace']"
 +++
+### Description: 
 Provides the list of country and language names
 
-## Files: 
+### Files: 
 * /usr/lib/pkgconfig/iso-codes.pc
 * /usr/share/doc/iso-codes-4.16.0/COPYING
 * /usr/share/doc/iso-codes-4.16.0/INSTALL

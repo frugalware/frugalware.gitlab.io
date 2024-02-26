@@ -13,9 +13,10 @@ usize = "2241504"
 sha1sum = "7a9d0279a2ea748e9e3969331703b8f995a615f8"
 depends = "['alsa-lib', 'libglu', 'libpng', 'libsm', 'libvorbis', 'libxcursor', 'libxxf86dga', 'libxxf86vm']"
 +++
+### Description: 
 Allegro graphics library
 
-## Files: 
+### Files: 
 * /usr/include/allegro5/alcompat.h
 * /usr/include/allegro5/allegro.h
 * /usr/include/allegro5/allegro5.h

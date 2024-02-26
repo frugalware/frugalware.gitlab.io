@@ -14,9 +14,10 @@ sha1sum = "28a3e41a8f9740f26b1fc04e9c197b3d7dfe6efb"
 depends = "['lsdvd', 'mplayer']"
 license = "GPL"
 +++
+### Description: 
 KVideoEncoder is a GUI for the mencoder.
 
-## Files: 
+### Files: 
 * etc/kvideoencoder
 * usr/bin/kvideoencoder
 * usr/share/applications/kde/kvideoencoder.desktop

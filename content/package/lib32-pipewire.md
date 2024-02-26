@@ -13,9 +13,10 @@ usize = "6547190"
 sha1sum = "73ce69c2e72c63fd50ca0e57d1e7a072c3b99da1"
 depends = "['lib32-glib2', 'lib32-libcap', 'lib32-libdrm', 'lib32-libgcrypt', 'lib32-libpulse', 'lib32-libsystemd', 'lib32-zstd']"
 +++
+### Description: 
 A project that aims to greatly improve handling of audio and video under Linux ( 32bit )
 
-## Files: 
+### Files: 
 * /usr/lib32/alsa-lib/libasound_module_ctl_pipewire.so
 * /usr/lib32/alsa-lib/libasound_module_pcm_pipewire.so
 * /usr/lib32/libpipewire-0.3.so

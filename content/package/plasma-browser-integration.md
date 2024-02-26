@@ -13,9 +13,10 @@ usize = "469271"
 sha1sum = "5ef257fd17538d5ec3ecbe5ae057cb617adaee2a"
 depends = "['kactivities5>=5.115.0', 'kconfig>=5.115.0', 'kdbusaddons>=5.115.0', 'kfilemetadata5>=5.115.0', 'ki18n>=5.115.0', 'kio>=5.115.0', 'knotifications>=5.115.0', 'krunner5>=5.115.0', 'kwindowsystem>=5.115.0', 'plasma-workspace>=5.27.10', 'purpose>=5.115.0']"
 +++
+### Description: 
 Qt Platform Theme integration plugins for the Plasma workspaces.
 
-## Files: 
+### Files: 
 * /etc/chromium/native-messaging-hosts/org.kde.plasma.browser_integration.json
 * /etc/opt/chrome/native-messaging-hosts/org.kde.plasma.browser_integration.json
 * /etc/opt/edge/native-messaging-hosts/org.kde.plasma.browser_integration.json

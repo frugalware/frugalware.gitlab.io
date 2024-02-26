@@ -14,9 +14,10 @@ sha1sum = "f84cd99f6d64b3267916b10f7d05fc6d9b39bdb6"
 depends = "['alembic', 'openexr', 'qt5-3d>=5.15.10', 'qt5-declarative>=5.15.10']"
 reverse_depends = "['meshroom']"
 +++
+### Description: 
 Qml Alembic plugin to visualize Alembic Point Clouds
 
-## Files: 
+### Files: 
 * /usr/qml/AlembicEntity/libalembicEntityQmlPlugin.so
 * /usr/qml/AlembicEntity/libalembicEntityQmlPlugin.so.0
 * /usr/qml/AlembicEntity/libalembicEntityQmlPlugin.so.0.1

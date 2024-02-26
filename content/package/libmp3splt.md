@@ -14,9 +14,10 @@ sha1sum = "0696d4e9b0f207d1133ad9b078835a350eece1d9"
 depends = "['libid3tag', 'libmad', 'libtool', 'libvorbis', 'pcre']"
 reverse_depends = "['mp3splt', 'mp3splt-gtk']"
 +++
+### Description: 
 Library for mp3splt a utility for mp3/ogg splitting without decoding
 
-## Files: 
+### Files: 
 * /usr/include/libmp3splt/mp3splt.h
 * /usr/include/libmp3splt/version.h
 * /usr/lib/libmp3splt.so

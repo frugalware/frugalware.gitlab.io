@@ -14,9 +14,10 @@ sha1sum = "5449dde2a5870f5d6b3a49961eae40c73bd13f42"
 depends = "['glibc']"
 reverse_depends = "['firacode', 'ttf-twemoji-color']"
 +++
+### Description: 
 Bitstream Vera fonts
 
-## Files: 
+### Files: 
 * /usr/share/doc/ttf-bitstream-vera-1.10/COPYRIGHT.TXT
 * /usr/share/doc/ttf-bitstream-vera-1.10/README.TXT
 * /usr/share/doc/ttf-bitstream-vera-1.10/RELEASENOTES.TXT

@@ -14,9 +14,10 @@ sha1sum = "fb93076f19dd711849321d6518331775cbf398a0"
 depends = "['libdrm', 'libstdc++', 'libxxf86vm']"
 license = "GPL2"
 +++
+### Description: 
 KoverArtist is a program for the creation of covers for cd/dvd
 
-## Files: 
+### Files: 
 * usr/bin/koverartist
 * usr/share/applnk/Multimedia/koverartist.desktop
 * usr/share/apps/koverartist/cases/cd-multiple.koac

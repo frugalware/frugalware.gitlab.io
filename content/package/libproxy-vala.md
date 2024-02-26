@@ -13,8 +13,9 @@ usize = "915"
 sha1sum = "38873188f7b774b28f4cf798ccbdac369a179fff"
 depends = "['libproxy>=0.5.4', 'vala>=0.30.0-3']"
 +++
+### Description: 
 libproxy vala support
 
-## Files: 
+### Files: 
 * /usr/share/vala/vapi/libproxy-1.0.deps
 * /usr/share/vala/vapi/libproxy-1.0.vapi

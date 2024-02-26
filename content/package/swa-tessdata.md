@@ -13,7 +13,8 @@ usize = "6029117"
 sha1sum = "a62a38ac0434b8e7bba02a8158c089b4ff1efc6f"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang swa
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/swa.traineddata

@@ -13,7 +13,8 @@ usize = "8575846"
 sha1sum = "8c131176cb47f055afd7c31ce2a9d1b7a9d0f189"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang sqi
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/sqi.traineddata

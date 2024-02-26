@@ -14,9 +14,10 @@ sha1sum = "6c0af4f457b1881046dd7599bde1ef53796ec72e"
 depends = "['haskell-aeson', 'haskell-doclayout', 'haskell-emojis', 'haskell-hsyaml', 'haskell-text-conversions']"
 reverse_depends = "['pandoc']"
 +++
+### Description: 
 Pandoc-style document templates
 
-## Files: 
+### Files: 
 * /usr/lib/ghc-9.8.1/site-local/doctemplates-0.11/libHSdoctemplates-0.11-7nZTvm1ylOPG6Z2aCCLZ1x.a
 * /usr/lib/ghc-9.8.1/site-local/doctemplates-0.11/Text/DocTemplates.dyn_hi
 * /usr/lib/ghc-9.8.1/site-local/doctemplates-0.11/Text/DocTemplates.hi

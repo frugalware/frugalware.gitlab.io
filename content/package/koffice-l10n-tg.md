@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = "017b9fcc92152aebb740792a1d178301c956fa32"
 depends = "[]"
 +++
+### Description: 
 Tajik Localization for KOffice. 
 
-## Files: 
+### Files: 
 * usr/share/locale/tg/LC_MESSAGES/desktop_koffice.mo
 * usr/share/locale/tg/LC_MESSAGES/example.mo
 * usr/share/locale/tg/LC_MESSAGES/karbon.mo

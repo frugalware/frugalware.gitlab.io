@@ -13,9 +13,10 @@ usize = "0"
 sha1sum = ""
 depends = "['aspell']"
 +++
+### Description: 
 GNU Aspell Scottish Gaelic Word List Package
 
-## Files: 
+### Files: 
 * usr/lib/aspell-0.60/gaidhlig.alias
 * usr/lib/aspell-0.60/gd.dat
 * usr/lib/aspell-0.60/gd.multi

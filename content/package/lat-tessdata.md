@@ -13,7 +13,8 @@ usize = "9215453"
 sha1sum = "ffaf80a0863a25c88edc4cf3d4289496c06ca8fd"
 depends = "['glibc']"
 +++
+### Description: 
 Language specific files for tesseract lang lat
 
-## Files: 
+### Files: 
 * /usr/share/tessdata/lat.traineddata

@@ -13,8 +13,9 @@ usize = "40336"
 sha1sum = "7a5fb7f428c2bf4fc44da8f24e5ff83789813dc9"
 depends = "['libvlc>=3.0.20']"
 +++
+### Description: 
 vlc plugin for jack
 
-## Files: 
+### Files: 
 * /usr/lib/vlc/plugins/access/libaccess_jack_plugin.so
 * /usr/lib/vlc/plugins/audio_output/libjack_plugin.so

@@ -13,9 +13,10 @@ usize = "15319100"
 sha1sum = "97d23607db894d22a2a373387444a112dcfaf35c"
 depends = "['certifi', 'python3-trio', 'python3-trio-websocket', 'python3-urllib3']"
 +++
+### Description: 
 Python language bindings for Selenium WebDriver
 
-## Files: 
+### Files: 
 * /usr/lib/python3.12/site-packages/selenium-4.15.2.dist-info/METADATA
 * /usr/lib/python3.12/site-packages/selenium-4.15.2.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/selenium-4.15.2.dist-info/top_level.txt

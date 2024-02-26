@@ -14,7 +14,8 @@ sha1sum = "ca8928bc9464a97a2cba47ca907ea03e86fea288"
 depends = "['firefox>=123.0']"
 reverse_depends = "['firefox-i18n']"
 +++
+### Description: 
 Bosnian language support for Firefox
 
-## Files: 
+### Files: 
 * /usr/lib/firefox/browser/extensions/langpack-bs@firefox.mozilla.org.xpi

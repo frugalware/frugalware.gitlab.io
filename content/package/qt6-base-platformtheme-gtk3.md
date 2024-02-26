@@ -13,9 +13,10 @@ usize = "226835"
 sha1sum = "6f517c17943d9413fe47d3c56c2f8aeadd4a86b7"
 depends = "['gtk+3', 'qt6-base>=6.6.2']"
 +++
+### Description: 
 Qt6 GTK3 Theme support
 
-## Files: 
+### Files: 
 * /usr/lib/cmake/Qt6/FindGTK3.cmake
 * /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginConfig.cmake
