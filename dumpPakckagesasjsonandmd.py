@@ -57,7 +57,7 @@ for package in cur:
     url = package['url']
     builddate = package['builddate']        
     
-    desc = package['desc']
+    desc = package['desc'].replace('"', '\"')
     size = package['size']
     usize = package['usize']
     sha1sum = package['sha1sum']
@@ -135,7 +135,7 @@ for package in cur:
         f.write('license = "'+str(package_license)+'"\n')
     
     f.write("+++\n")
-    f.write(desc)
+    f.write(desc+'"\n\n')
     f.write('{{< files text="show files" >}}')
     for file in files:
         f.write("* "+str(file)+"\n")
