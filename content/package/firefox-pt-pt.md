@@ -1,0 +1,18 @@
++++
+draft = false
+title = "firefox-pt-pt 123.0-1"
+version = "123.0-1"
+description = "Portuguese language support for Firefox"
+date = "2024-02-22T14:41:39"
+aliases = "/packages/73647"
+categories = ['firefox-extensions']
+upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
+arch = "x86_64"
+size = "541188"
+usize = "598151"
+sha1sum = "71370d8adc50511b5369dfe584e90bbc740b6883"
+depends = "['firefox>=123.0']"
+reverse_depends = "['firefox-i18n']"
++++
+Portuguese language support for Firefox{{< spoiler text="show files" >}}* /usr/lib/firefox/browser/extensions/langpack-pt-PT@firefox.mozilla.org.xpi
+{{< /spoiler >}}

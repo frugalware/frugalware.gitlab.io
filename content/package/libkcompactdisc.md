@@ -1,0 +1,96 @@
++++
+draft = false
+title = "libkcompactdisc 23.08.5-1"
+version = "23.08.5-1"
+description = "A library for interfacing with CDs."
+date = "2024-02-19T20:49:12"
+aliases = "/packages/168473"
+categories = ['kde5']
+upstreamurl = "http://www.kde.org"
+arch = "x86_64"
+size = "72684"
+usize = "246719"
+sha1sum = "05e63e3bedd3f602cbc2238cbe5434c32d55542b"
+depends = "['kcoreaddons>=$_F_kf5_full', 'ki18n>=$_F_kf5_full', 'phonon-qt5', 'solid>=$_F_kf5_full']"
+reverse_depends = "['audiocd-kio']"
++++
+A library for interfacing with CDs.{{< spoiler text="show files" >}}* /usr/include/KF5/KCompactDisc/KCompactDisc
+* /usr/include/KF5/KCompactDisc/kcompactdisc.h
+* /usr/include/KF5/KCompactDisc/kcompactdisc_export.h
+* /usr/include/KF5/KCompactDisc/kcompactdisc_version.h
+* /usr/lib/cmake/KF5CompactDisc/KF5CompactDiscConfig.cmake
+* /usr/lib/cmake/KF5CompactDisc/KF5CompactDiscConfigVersion.cmake
+* /usr/lib/cmake/KF5CompactDisc/KF5CompactDiscTargets-release.cmake
+* /usr/lib/cmake/KF5CompactDisc/KF5CompactDiscTargets.cmake
+* /usr/lib/libKF5CompactDisc.so
+* /usr/lib/libKF5CompactDisc.so.5
+* /usr/lib/libKF5CompactDisc.so.5.0.0
+* /usr/share/doc/libkcompactdisc-23.08.5/COPYING
+* /usr/share/doc/libkcompactdisc-23.08.5/COPYING.LIB
+* /usr/share/locale/ar/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/be/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/bg/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/bs/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/ca/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/cs/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/csb/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/da/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/de/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/el/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/eo/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/es/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/et/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/eu/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/fi/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/fr/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/ga/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/gl/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/he/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/hi/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/hne/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/hr/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/hu/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/ia/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/is/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/it/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/ja/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/ka/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/kk/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/km/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/ko/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/lt/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/lv/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/mk/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/mr/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/nb/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/nds/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/nl/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/nn/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/oc/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/pa/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/pl/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/pt/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/ro/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/ru/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/se/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/sk/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/sl/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/sq/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/sr/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/sv/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/ta/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/th/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/tr/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/ug/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/uk/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/wa/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/qt5/mkspecs/modules/qt_KCompactDisc.pri
+{{< /spoiler >}}

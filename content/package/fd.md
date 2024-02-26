@@ -1,0 +1,19 @@
++++
+draft = false
+title = "fd 8.7.1-1"
+version = "8.7.1-1"
+description = "Simple, fast and user-friendly alternative to find"
+date = "2023-11-19T14:07:04"
+aliases = "/packages/220341"
+categories = ['apps-extra']
+upstreamurl = "https://github.com/sharkdp/fd"
+arch = "x86_64"
+size = "1220292"
+usize = "4252495"
+sha1sum = "7b800e602eebb103c54c93d55a52dd530e07e44d"
+depends = "['libgcc']"
++++
+Simple, fast and user-friendly alternative to find{{< spoiler text="show files" >}}* /usr/bin/fd
+* /usr/share/doc/fd-8.7.1/README.md
+* /usr/share/man/man1/fd.1.gz
+{{< /spoiler >}}

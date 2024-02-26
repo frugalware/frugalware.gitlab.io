@@ -1,0 +1,96 @@
++++
+draft = false
+title = "pim-sieve-editor 23.08.5-1"
+version = "23.08.5-1"
+description = "Assistant for editing IMAP Sieve filters"
+date = "2024-02-20T09:51:55"
+aliases = "/packages/218942"
+categories = ['kde5']
+upstreamurl = "http://www.kde.org"
+arch = "x86_64"
+size = "537476"
+usize = "1324764"
+sha1sum = "118a9a5730918ef6c6f9c4b32923d8f4a0479e81"
+depends = "['libksieve>=23.08.5', 'messagelib>=23.08.5']"
++++
+Assistant for editing IMAP Sieve filters{{< spoiler text="show files" >}}* /usr/bin/sieveeditor
+* /usr/lib/libsieveeditor.so.5
+* /usr/lib/libsieveeditor.so.5.24.5
+* /usr/share/applications/org.kde.sieveeditor.desktop
+* /usr/share/config.kcfg/sieveeditorglobalconfig.kcfg
+* /usr/share/doc/HTML/ca/sieveeditor/first-start.png
+* /usr/share/doc/HTML/ca/sieveeditor/index.cache.bz2
+* /usr/share/doc/HTML/ca/sieveeditor/index.docbook
+* /usr/share/doc/HTML/de/sieveeditor/index.cache.bz2
+* /usr/share/doc/HTML/de/sieveeditor/index.docbook
+* /usr/share/doc/HTML/en/sieveeditor/first-start.png
+* /usr/share/doc/HTML/en/sieveeditor/index.cache.bz2
+* /usr/share/doc/HTML/en/sieveeditor/index.docbook
+* /usr/share/doc/HTML/en/sieveeditor/script-edit.png
+* /usr/share/doc/HTML/en/sieveeditor/script-help.png
+* /usr/share/doc/HTML/en/sieveeditor/script-tools.png
+* /usr/share/doc/HTML/es/sieveeditor/index.cache.bz2
+* /usr/share/doc/HTML/es/sieveeditor/index.docbook
+* /usr/share/doc/HTML/et/sieveeditor/index.cache.bz2
+* /usr/share/doc/HTML/et/sieveeditor/index.docbook
+* /usr/share/doc/HTML/it/sieveeditor/index.cache.bz2
+* /usr/share/doc/HTML/it/sieveeditor/index.docbook
+* /usr/share/doc/HTML/nl/sieveeditor/index.cache.bz2
+* /usr/share/doc/HTML/nl/sieveeditor/index.docbook
+* /usr/share/doc/HTML/pt/sieveeditor/index.cache.bz2
+* /usr/share/doc/HTML/pt/sieveeditor/index.docbook
+* /usr/share/doc/HTML/pt_BR/sieveeditor/index.cache.bz2
+* /usr/share/doc/HTML/pt_BR/sieveeditor/index.docbook
+* /usr/share/doc/HTML/ru/sieveeditor/index.cache.bz2
+* /usr/share/doc/HTML/ru/sieveeditor/index.docbook
+* /usr/share/doc/HTML/sv/sieveeditor/index.cache.bz2
+* /usr/share/doc/HTML/sv/sieveeditor/index.docbook
+* /usr/share/doc/HTML/uk/sieveeditor/index.cache.bz2
+* /usr/share/doc/HTML/uk/sieveeditor/index.docbook
+* /usr/share/locale/ar/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/az/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/bg/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/bs/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/ca/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/cs/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/da/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/de/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/eo/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/es/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/et/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/eu/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/fi/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/fr/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/gl/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/hu/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/ia/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/it/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/ja/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/ka/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/ko/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/lt/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/nb/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/nds/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/nl/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/pl/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/pt/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/ro/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/ru/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/sk/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/sl/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/sr/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/sv/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/tr/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/uk/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/sieveeditor.mo
+* /usr/share/metainfo/org.kde.sieveeditor.appdata.xml
+* /usr/share/qlogging-categories5/sieveeditor.categories
+* /usr/share/qlogging-categories5/sieveeditor.renamecategories
+{{< /spoiler >}}

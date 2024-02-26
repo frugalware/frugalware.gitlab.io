@@ -1,0 +1,78 @@
++++
+draft = false
+title = "sddm-kcm 5.27.10-5"
+version = "5.27.10-5"
+description = "KCM module for SDDM"
+date = "2024-02-19T13:12:18"
+aliases = "/packages/218406"
+categories = ['plasma']
+upstreamurl = "http://www.kde.org"
+arch = "x86_64"
+size = "111896"
+usize = "503966"
+sha1sum = "f726826f13a05501b5373331078fa409a2e8b34d"
+depends = "['kcmutils>=5.115.0', 'kdeclarative>=5.115.0', 'knewstuff>=5.115.0', 'sddm>=0.16.0']"
++++
+KCM module for SDDM{{< spoiler text="show files" >}}* /usr/bin/sddmthemeinstaller
+* /usr/lib/kf5/kauth/kcmsddm_authhelper
+* /usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_sddm.so
+* /usr/share/applications/kcm_sddm.desktop
+* /usr/share/dbus-1/system-services/org.kde.kcontrol.kcmsddm.service
+* /usr/share/dbus-1/system.d/org.kde.kcontrol.kcmsddm.conf
+* /usr/share/doc/sddm-kcm-5.27.10/CONTRIBUTORS
+* /usr/share/doc/sddm-kcm-5.27.10/COPYING
+* /usr/share/doc/sddm-kcm-5.27.10/README.md
+* /usr/share/knsrcfiles/sddmtheme.knsrc
+* /usr/share/kpackage/kcms/kcm_sddm/contents/ui/Advanced.qml
+* /usr/share/kpackage/kcms/kcm_sddm/contents/ui/DetailsDialog.qml
+* /usr/share/kpackage/kcms/kcm_sddm/contents/ui/main.qml
+* /usr/share/locale/ar/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/az/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/bg/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/bs/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/ca/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/cs/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/da/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/de/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/el/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/es/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/et/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/eu/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/fi/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/fr/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/gl/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/he/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/hi/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/hu/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/ia/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/id/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/it/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/ja/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/ka/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/ko/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/lt/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/ml/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/nb/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/nl/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/nn/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/pa/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/pl/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/pt/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/ro/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/ru/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/sk/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/sl/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/sr/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/sv/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/tr/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/uk/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy
+{{< /spoiler >}}

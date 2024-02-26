@@ -1,0 +1,24 @@
++++
+draft = false
+title = "krohnkite 0.8.2-1"
+version = "0.8.2-1"
+description = "A dynamic tiling extension for KWin"
+date = "2022-09-12T14:48:30"
+aliases = "/packages/220287"
+categories = ['kde5-extra']
+upstreamurl = "https://github.com/esjeon/krohnkite"
+arch = "x86_64"
+size = "25436"
+usize = "161650"
+sha1sum = "45e86a781bce4bd16289cfe30b67f62617e0ebdb"
+depends = "['plasma-framework>=5.97.0']"
++++
+A dynamic tiling extension for KWin{{< spoiler text="show files" >}}* /usr/share/doc/krohnkite-0.8.2/LICENSE
+* /usr/share/doc/krohnkite-0.8.2/README.md
+* /usr/share/kwin/scripts/krohnkite/contents/code/script.js
+* /usr/share/kwin/scripts/krohnkite/contents/config/main.xml
+* /usr/share/kwin/scripts/krohnkite/contents/ui/config.ui
+* /usr/share/kwin/scripts/krohnkite/contents/ui/main.qml
+* /usr/share/kwin/scripts/krohnkite/contents/ui/popup.qml
+* /usr/share/kwin/scripts/krohnkite/metadata.desktop
+{{< /spoiler >}}

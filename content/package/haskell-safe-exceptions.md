@@ -1,0 +1,35 @@
++++
+draft = false
+title = "haskell-safe-exceptions 0.1.7.4-3"
+version = "0.1.7.4-3"
+description = "Safe, consistent, and easy exception handling"
+date = "2023-12-13T10:26:33"
+aliases = "/packages/220715"
+categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/safe-exceptions"
+arch = "x86_64"
+size = "98004"
+usize = "891988"
+sha1sum = "cc0b0985b561285321c6c41201dec92f09b9f898"
+depends = "['ghc>=9.6.1']"
+reverse_depends = "['haskell-unliftio']"
++++
+Safe, consistent, and easy exception handling{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/safe-exceptions-0.1.7.4/Control/Exception/Safe.dyn_hi
+* /usr/lib/ghc-9.8.1/site-local/safe-exceptions-0.1.7.4/Control/Exception/Safe.hi
+* /usr/lib/ghc-9.8.1/site-local/safe-exceptions-0.1.7.4/libHSsafe-exceptions-0.1.7.4-JIB7ML5uNELK4mnGSRWEfd.a
+* /usr/lib/x86_64-linux-ghc-9.8.1/libHSsafe-exceptions-0.1.7.4-JIB7ML5uNELK4mnGSRWEfd-ghc9.8.1.so
+* /usr/share/doc/haskell-safe-exceptions-0.1.7.4/LICENSE
+* /usr/share/doc/haskell-safe-exceptions-0.1.7.4/README.md
+* /usr/share/doc/x86_64-linux-ghc-9.8.1/safe-exceptions-0.1.7.4/html/Control-Exception-Safe.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.1/safe-exceptions-0.1.7.4/html/doc-index.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.1/safe-exceptions-0.1.7.4/html/haddock-bundle.min.js
+* /usr/share/doc/x86_64-linux-ghc-9.8.1/safe-exceptions-0.1.7.4/html/index.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.1/safe-exceptions-0.1.7.4/html/linuwial.css
+* /usr/share/doc/x86_64-linux-ghc-9.8.1/safe-exceptions-0.1.7.4/html/meta.json
+* /usr/share/doc/x86_64-linux-ghc-9.8.1/safe-exceptions-0.1.7.4/html/quick-jump.css
+* /usr/share/doc/x86_64-linux-ghc-9.8.1/safe-exceptions-0.1.7.4/html/safe-exceptions.haddock
+* /usr/share/doc/x86_64-linux-ghc-9.8.1/safe-exceptions-0.1.7.4/html/synopsis.png
+* /usr/share/doc/x86_64-linux-ghc-9.8.1/safe-exceptions-0.1.7.4/LICENSE
+* /usr/share/haskell/haskell-safe-exceptions/register.sh
+* /usr/share/haskell/haskell-safe-exceptions/unregister.sh
+{{< /spoiler >}}

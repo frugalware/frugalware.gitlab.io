@@ -1,0 +1,156 @@
++++
+draft = false
+title = "texlive-latex3 2023.0-3"
+version = "2023.0-3"
+description = "LaTeX3 packages for TeX Live"
+date = "2024-02-02T14:42:47"
+aliases = "/packages/219468"
+categories = ['xapps-extra']
+upstreamurl = "http://tug.org/texlive/"
+arch = "x86_64"
+size = "826604"
+usize = "6252941"
+sha1sum = "504c21390dcc407f72a3e23683afb5121b580009"
+depends = "['texlive=2023.0']"
++++
+LaTeX3 packages for TeX Live{{< spoiler text="show files" >}}* /usr/share/texmf-dist/source/latex/l3experimental/l3benchmark/l3benchmark.dtx
+* /usr/share/texmf-dist/source/latex/l3experimental/l3benchmark/l3benchmark.ins
+* /usr/share/texmf-dist/source/latex/l3experimental/l3bitset/l3bitset.dtx
+* /usr/share/texmf-dist/source/latex/l3experimental/l3bitset/l3bitset.ins
+* /usr/share/texmf-dist/source/latex/l3experimental/l3draw/l3draw-boxes.dtx
+* /usr/share/texmf-dist/source/latex/l3experimental/l3draw/l3draw-layers.dtx
+* /usr/share/texmf-dist/source/latex/l3experimental/l3draw/l3draw-paths.dtx
+* /usr/share/texmf-dist/source/latex/l3experimental/l3draw/l3draw-points.dtx
+* /usr/share/texmf-dist/source/latex/l3experimental/l3draw/l3draw-scopes.dtx
+* /usr/share/texmf-dist/source/latex/l3experimental/l3draw/l3draw-softpath.dtx
+* /usr/share/texmf-dist/source/latex/l3experimental/l3draw/l3draw-state.dtx
+* /usr/share/texmf-dist/source/latex/l3experimental/l3draw/l3draw-transforms.dtx
+* /usr/share/texmf-dist/source/latex/l3experimental/l3draw/l3draw.dtx
+* /usr/share/texmf-dist/source/latex/l3experimental/l3draw/l3draw.ins
+* /usr/share/texmf-dist/source/latex/l3experimental/l3graphics/l3graphics.dtx
+* /usr/share/texmf-dist/source/latex/l3experimental/l3graphics/l3graphics.ins
+* /usr/share/texmf-dist/source/latex/l3experimental/l3opacity/l3opacity.dtx
+* /usr/share/texmf-dist/source/latex/l3experimental/l3opacity/l3opacity.ins
+* /usr/share/texmf-dist/source/latex/l3experimental/l3str/l3str-format.dtx
+* /usr/share/texmf-dist/source/latex/l3experimental/l3str/l3str.ins
+* /usr/share/texmf-dist/source/latex/l3experimental/l3sys-shell/l3sys-shell.dtx
+* /usr/share/texmf-dist/source/latex/l3experimental/l3sys-shell/l3sys-shell.ins
+* /usr/share/texmf-dist/source/latex/l3experimental/xcoffins/xcoffins.dtx
+* /usr/share/texmf-dist/source/latex/l3experimental/xcoffins/xcoffins.ins
+* /usr/share/texmf-dist/source/latex/l3experimental/xgalley/l3galley.dtx
+* /usr/share/texmf-dist/source/latex/l3experimental/xgalley/xgalley.dtx
+* /usr/share/texmf-dist/source/latex/l3experimental/xgalley/xgalley.ins
+* /usr/share/texmf-dist/source/latex/l3kernel/expl3.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3.ins
+* /usr/share/texmf-dist/source/latex/l3kernel/l3basics.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3bootstrap.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3box.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3candidates.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3cctab.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3clist.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3coffins.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3color.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3debug.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3deprecation.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3doc.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3docstrip.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3expan.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3file.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3flag.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3fp-assign.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3fp-aux.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3fp-basics.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3fp-convert.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3fp-expo.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3fp-extended.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3fp-logic.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3fp-parse.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3fp-random.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3fp-round.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3fp-traps.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3fp-trig.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3fp.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3fparray.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3int.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3intarray.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3kernel-functions.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3keys.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3legacy.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3luatex.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3msg.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3names.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3pdf.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3prg.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3prop.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3quark.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3regex.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3seq.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3skip.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3sort.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3str-convert.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3str.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3sys.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3text-case.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3text-map.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3text-purify.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3text.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3tl-analysis.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3tl.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3token.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3unicode.dtx
+* /usr/share/texmf-dist/source/latex/l3packages/l3keys2e/l3keys2e.dtx
+* /usr/share/texmf-dist/source/latex/l3packages/l3keys2e/l3keys2e.ins
+* /usr/share/texmf-dist/source/latex/l3packages/xfp/xfp.dtx
+* /usr/share/texmf-dist/source/latex/l3packages/xfp/xfp.ins
+* /usr/share/texmf-dist/source/latex/l3packages/xfrac/xfrac.dtx
+* /usr/share/texmf-dist/source/latex/l3packages/xfrac/xfrac.ins
+* /usr/share/texmf-dist/source/latex/l3packages/xparse/xparse.dtx
+* /usr/share/texmf-dist/source/latex/l3packages/xparse/xparse.ins
+* /usr/share/texmf-dist/source/latex/l3packages/xtemplate/xtemplate.dtx
+* /usr/share/texmf-dist/source/latex/l3packages/xtemplate/xtemplate.ins
+* /usr/share/texmf-dist/tex/latex/l3experimental/l3benchmark/l3benchmark.sty
+* /usr/share/texmf-dist/tex/latex/l3experimental/l3bitset/l3bitset.sty
+* /usr/share/texmf-dist/tex/latex/l3experimental/l3draw/l3draw.sty
+* /usr/share/texmf-dist/tex/latex/l3experimental/l3graphics/l3graphics.sty
+* /usr/share/texmf-dist/tex/latex/l3experimental/l3opacity/l3opacity.sty
+* /usr/share/texmf-dist/tex/latex/l3experimental/l3str/l3str-format.sty
+* /usr/share/texmf-dist/tex/latex/l3experimental/l3sys-shell/l3sys-shell.sty
+* /usr/share/texmf-dist/tex/latex/l3experimental/xcoffins/xcoffins.sty
+* /usr/share/texmf-dist/tex/latex/l3experimental/xgalley/l3galley.sty
+* /usr/share/texmf-dist/tex/latex/l3experimental/xgalley/xgalley.sty
+* /usr/share/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+* /usr/share/texmf-dist/tex/latex/l3kernel/expl3-generic.tex
+* /usr/share/texmf-dist/tex/latex/l3kernel/expl3.ltx
+* /usr/share/texmf-dist/tex/latex/l3kernel/expl3.lua
+* /usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+* /usr/share/texmf-dist/tex/latex/l3kernel/l3debug.def
+* /usr/share/texmf-dist/tex/latex/l3kernel/l3doc.cls
+* /usr/share/texmf-dist/tex/latex/l3kernel/l3docstrip.tex
+* /usr/share/texmf-dist/tex/latex/l3kernel/l3str-enc-iso88591.def
+* /usr/share/texmf-dist/tex/latex/l3kernel/l3str-enc-iso885910.def
+* /usr/share/texmf-dist/tex/latex/l3kernel/l3str-enc-iso885911.def
+* /usr/share/texmf-dist/tex/latex/l3kernel/l3str-enc-iso885913.def
+* /usr/share/texmf-dist/tex/latex/l3kernel/l3str-enc-iso885914.def
+* /usr/share/texmf-dist/tex/latex/l3kernel/l3str-enc-iso885915.def
+* /usr/share/texmf-dist/tex/latex/l3kernel/l3str-enc-iso885916.def
+* /usr/share/texmf-dist/tex/latex/l3kernel/l3str-enc-iso88592.def
+* /usr/share/texmf-dist/tex/latex/l3kernel/l3str-enc-iso88593.def
+* /usr/share/texmf-dist/tex/latex/l3kernel/l3str-enc-iso88594.def
+* /usr/share/texmf-dist/tex/latex/l3kernel/l3str-enc-iso88595.def
+* /usr/share/texmf-dist/tex/latex/l3kernel/l3str-enc-iso88596.def
+* /usr/share/texmf-dist/tex/latex/l3kernel/l3str-enc-iso88597.def
+* /usr/share/texmf-dist/tex/latex/l3kernel/l3str-enc-iso88598.def
+* /usr/share/texmf-dist/tex/latex/l3kernel/l3str-enc-iso88599.def
+* /usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+* /usr/share/texmf-dist/tex/latex/l3packages/xfp/xfp.sty
+* /usr/share/texmf-dist/tex/latex/l3packages/xfrac/xfrac.sty
+* /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2018-04-12.sty
+* /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
+* /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex
+* /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.ltx
+* /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+* /usr/share/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+* /usr/share/texmf-dist/tex/latex/lt3graph/lt3graph-dry.sty
+* /usr/share/texmf-dist/tex/latex/lt3graph/lt3graph-packagedoc.cls
+* /usr/share/texmf-dist/tex/latex/lt3graph/lt3graph.sty
+{{< /spoiler >}}

@@ -1,0 +1,184 @@
++++
+draft = false
+title = "lv2 1.18.10-1"
+version = "1.18.10-1"
+description = "LV2 is a plugin standard for audio system."
+date = "2022-10-16T12:34:27"
+aliases = "/packages/219688"
+categories = ['lib']
+upstreamurl = "http://lv2plug.in"
+arch = "x86_64"
+size = "122140"
+usize = "906694"
+sha1sum = "8e5e4cfcaa3f3d4f65380100fa21dada171cb4ea"
+depends = "['libsndfile>=1.0.0']"
+reverse_depends = "['lilv', 'qtractor', 'sratom']"
++++
+LV2 is a plugin standard for audio system.{{< spoiler text="show files" >}}* /usr/bin/lv2_validate
+* /usr/include/lv2.h
+* /usr/include/lv2/atom/atom.h
+* /usr/include/lv2/atom/forge.h
+* /usr/include/lv2/atom/util.h
+* /usr/include/lv2/buf-size/buf-size.h
+* /usr/include/lv2/core/attributes.h
+* /usr/include/lv2/core/lv2.h
+* /usr/include/lv2/core/lv2_util.h
+* /usr/include/lv2/data-access/data-access.h
+* /usr/include/lv2/dynmanifest/dynmanifest.h
+* /usr/include/lv2/event/event-helpers.h
+* /usr/include/lv2/event/event.h
+* /usr/include/lv2/instance-access/instance-access.h
+* /usr/include/lv2/log/log.h
+* /usr/include/lv2/log/logger.h
+* /usr/include/lv2/lv2plug.in/ns/ext/atom/atom.h
+* /usr/include/lv2/lv2plug.in/ns/ext/atom/forge.h
+* /usr/include/lv2/lv2plug.in/ns/ext/atom/util.h
+* /usr/include/lv2/lv2plug.in/ns/ext/buf-size/buf-size.h
+* /usr/include/lv2/lv2plug.in/ns/ext/data-access/data-access.h
+* /usr/include/lv2/lv2plug.in/ns/ext/dynmanifest/dynmanifest.h
+* /usr/include/lv2/lv2plug.in/ns/ext/event/event-helpers.h
+* /usr/include/lv2/lv2plug.in/ns/ext/event/event.h
+* /usr/include/lv2/lv2plug.in/ns/ext/instance-access/instance-access.h
+* /usr/include/lv2/lv2plug.in/ns/ext/log/log.h
+* /usr/include/lv2/lv2plug.in/ns/ext/log/logger.h
+* /usr/include/lv2/lv2plug.in/ns/ext/midi/midi.h
+* /usr/include/lv2/lv2plug.in/ns/ext/morph/morph.h
+* /usr/include/lv2/lv2plug.in/ns/ext/options/options.h
+* /usr/include/lv2/lv2plug.in/ns/ext/parameters/parameters.h
+* /usr/include/lv2/lv2plug.in/ns/ext/patch/patch.h
+* /usr/include/lv2/lv2plug.in/ns/ext/port-groups/port-groups.h
+* /usr/include/lv2/lv2plug.in/ns/ext/port-props/port-props.h
+* /usr/include/lv2/lv2plug.in/ns/ext/presets/presets.h
+* /usr/include/lv2/lv2plug.in/ns/ext/resize-port/resize-port.h
+* /usr/include/lv2/lv2plug.in/ns/ext/state/state.h
+* /usr/include/lv2/lv2plug.in/ns/ext/time/time.h
+* /usr/include/lv2/lv2plug.in/ns/ext/uri-map/uri-map.h
+* /usr/include/lv2/lv2plug.in/ns/ext/urid/urid.h
+* /usr/include/lv2/lv2plug.in/ns/ext/worker/worker.h
+* /usr/include/lv2/lv2plug.in/ns/extensions/ui/ui.h
+* /usr/include/lv2/lv2plug.in/ns/extensions/units/units.h
+* /usr/include/lv2/lv2plug.in/ns/lv2core/attributes.h
+* /usr/include/lv2/lv2plug.in/ns/lv2core/lv2.h
+* /usr/include/lv2/lv2plug.in/ns/lv2core/lv2_util.h
+* /usr/include/lv2/midi/midi.h
+* /usr/include/lv2/morph/morph.h
+* /usr/include/lv2/options/options.h
+* /usr/include/lv2/parameters/parameters.h
+* /usr/include/lv2/patch/patch.h
+* /usr/include/lv2/port-groups/port-groups.h
+* /usr/include/lv2/port-props/port-props.h
+* /usr/include/lv2/presets/presets.h
+* /usr/include/lv2/resize-port/resize-port.h
+* /usr/include/lv2/state/state.h
+* /usr/include/lv2/time/time.h
+* /usr/include/lv2/ui/ui.h
+* /usr/include/lv2/units/units.h
+* /usr/include/lv2/uri-map/uri-map.h
+* /usr/include/lv2/urid/urid.h
+* /usr/include/lv2/worker/worker.h
+* /usr/lib/lv2/atom.lv2/atom.meta.ttl
+* /usr/lib/lv2/atom.lv2/atom.ttl
+* /usr/lib/lv2/atom.lv2/manifest.ttl
+* /usr/lib/lv2/buf-size.lv2/buf-size.meta.ttl
+* /usr/lib/lv2/buf-size.lv2/buf-size.ttl
+* /usr/lib/lv2/buf-size.lv2/manifest.ttl
+* /usr/lib/lv2/core.lv2/lv2core.meta.ttl
+* /usr/lib/lv2/core.lv2/lv2core.ttl
+* /usr/lib/lv2/core.lv2/manifest.ttl
+* /usr/lib/lv2/core.lv2/meta.ttl
+* /usr/lib/lv2/core.lv2/people.ttl
+* /usr/lib/lv2/data-access.lv2/data-access.meta.ttl
+* /usr/lib/lv2/data-access.lv2/data-access.ttl
+* /usr/lib/lv2/data-access.lv2/manifest.ttl
+* /usr/lib/lv2/dynmanifest.lv2/dynmanifest.meta.ttl
+* /usr/lib/lv2/dynmanifest.lv2/dynmanifest.ttl
+* /usr/lib/lv2/dynmanifest.lv2/manifest.ttl
+* /usr/lib/lv2/eg-amp.lv2/amp.so
+* /usr/lib/lv2/eg-amp.lv2/amp.ttl
+* /usr/lib/lv2/eg-amp.lv2/manifest.ttl
+* /usr/lib/lv2/eg-fifths.lv2/fifths.so
+* /usr/lib/lv2/eg-fifths.lv2/fifths.ttl
+* /usr/lib/lv2/eg-fifths.lv2/manifest.ttl
+* /usr/lib/lv2/eg-metro.lv2/manifest.ttl
+* /usr/lib/lv2/eg-metro.lv2/metro.so
+* /usr/lib/lv2/eg-metro.lv2/metro.ttl
+* /usr/lib/lv2/eg-midigate.lv2/manifest.ttl
+* /usr/lib/lv2/eg-midigate.lv2/midigate.so
+* /usr/lib/lv2/eg-midigate.lv2/midigate.ttl
+* /usr/lib/lv2/eg-params.lv2/manifest.ttl
+* /usr/lib/lv2/eg-params.lv2/params.so
+* /usr/lib/lv2/eg-params.lv2/params.ttl
+* /usr/lib/lv2/eg-scope.lv2/examploscope.so
+* /usr/lib/lv2/eg-scope.lv2/examploscope.ttl
+* /usr/lib/lv2/eg-scope.lv2/manifest.ttl
+* /usr/lib/lv2/event.lv2/event.meta.ttl
+* /usr/lib/lv2/event.lv2/event.ttl
+* /usr/lib/lv2/event.lv2/manifest.ttl
+* /usr/lib/lv2/instance-access.lv2/instance-access.meta.ttl
+* /usr/lib/lv2/instance-access.lv2/instance-access.ttl
+* /usr/lib/lv2/instance-access.lv2/manifest.ttl
+* /usr/lib/lv2/log.lv2/log.meta.ttl
+* /usr/lib/lv2/log.lv2/log.ttl
+* /usr/lib/lv2/log.lv2/manifest.ttl
+* /usr/lib/lv2/midi.lv2/manifest.ttl
+* /usr/lib/lv2/midi.lv2/midi.meta.ttl
+* /usr/lib/lv2/midi.lv2/midi.ttl
+* /usr/lib/lv2/morph.lv2/manifest.ttl
+* /usr/lib/lv2/morph.lv2/morph.meta.ttl
+* /usr/lib/lv2/morph.lv2/morph.ttl
+* /usr/lib/lv2/options.lv2/manifest.ttl
+* /usr/lib/lv2/options.lv2/options.meta.ttl
+* /usr/lib/lv2/options.lv2/options.ttl
+* /usr/lib/lv2/parameters.lv2/manifest.ttl
+* /usr/lib/lv2/parameters.lv2/parameters.meta.ttl
+* /usr/lib/lv2/parameters.lv2/parameters.ttl
+* /usr/lib/lv2/patch.lv2/manifest.ttl
+* /usr/lib/lv2/patch.lv2/patch.meta.ttl
+* /usr/lib/lv2/patch.lv2/patch.ttl
+* /usr/lib/lv2/port-groups.lv2/manifest.ttl
+* /usr/lib/lv2/port-groups.lv2/port-groups.meta.ttl
+* /usr/lib/lv2/port-groups.lv2/port-groups.ttl
+* /usr/lib/lv2/port-props.lv2/manifest.ttl
+* /usr/lib/lv2/port-props.lv2/port-props.meta.ttl
+* /usr/lib/lv2/port-props.lv2/port-props.ttl
+* /usr/lib/lv2/presets.lv2/manifest.ttl
+* /usr/lib/lv2/presets.lv2/presets.meta.ttl
+* /usr/lib/lv2/presets.lv2/presets.ttl
+* /usr/lib/lv2/resize-port.lv2/manifest.ttl
+* /usr/lib/lv2/resize-port.lv2/resize-port.meta.ttl
+* /usr/lib/lv2/resize-port.lv2/resize-port.ttl
+* /usr/lib/lv2/schemas.lv2/dcterms.ttl
+* /usr/lib/lv2/schemas.lv2/doap.ttl
+* /usr/lib/lv2/schemas.lv2/foaf.ttl
+* /usr/lib/lv2/schemas.lv2/manifest.ttl
+* /usr/lib/lv2/schemas.lv2/owl.ttl
+* /usr/lib/lv2/schemas.lv2/rdf.ttl
+* /usr/lib/lv2/schemas.lv2/rdfs.ttl
+* /usr/lib/lv2/schemas.lv2/xsd.ttl
+* /usr/lib/lv2/state.lv2/manifest.ttl
+* /usr/lib/lv2/state.lv2/state.meta.ttl
+* /usr/lib/lv2/state.lv2/state.ttl
+* /usr/lib/lv2/time.lv2/manifest.ttl
+* /usr/lib/lv2/time.lv2/time.meta.ttl
+* /usr/lib/lv2/time.lv2/time.ttl
+* /usr/lib/lv2/ui.lv2/manifest.ttl
+* /usr/lib/lv2/ui.lv2/ui.meta.ttl
+* /usr/lib/lv2/ui.lv2/ui.ttl
+* /usr/lib/lv2/units.lv2/manifest.ttl
+* /usr/lib/lv2/units.lv2/units.meta.ttl
+* /usr/lib/lv2/units.lv2/units.ttl
+* /usr/lib/lv2/uri-map.lv2/manifest.ttl
+* /usr/lib/lv2/uri-map.lv2/uri-map.meta.ttl
+* /usr/lib/lv2/uri-map.lv2/uri-map.ttl
+* /usr/lib/lv2/urid.lv2/manifest.ttl
+* /usr/lib/lv2/urid.lv2/urid.meta.ttl
+* /usr/lib/lv2/urid.lv2/urid.ttl
+* /usr/lib/lv2/worker.lv2/manifest.ttl
+* /usr/lib/lv2/worker.lv2/worker.meta.ttl
+* /usr/lib/lv2/worker.lv2/worker.ttl
+* /usr/lib/pkgconfig/lv2.pc
+* /usr/share/doc/lv2-1.18.10/COPYING
+* /usr/share/doc/lv2-1.18.10/INSTALL.md
+* /usr/share/doc/lv2-1.18.10/NEWS
+* /usr/share/doc/lv2-1.18.10/README.md
+{{< /spoiler >}}

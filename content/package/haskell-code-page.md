@@ -1,0 +1,40 @@
++++
+draft = false
+title = "haskell-code-page 0.2.1-10"
+version = "0.2.1-10"
+description = "Windows code page library for Haskell"
+date = "2023-12-11T14:59:57"
+aliases = "/packages/220379"
+categories = ['devel-extra']
+upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/code-page"
+arch = "x86_64"
+size = "54820"
+usize = "291170"
+sha1sum = "fd8d59e7ac742c1845bce6c36d9a30d9ddcaddde"
+depends = "['ghc>=9.6.1']"
++++
+Windows code page library for Haskell{{< spoiler text="show files" >}}* /usr/lib/ghc-9.8.1/site-local/code-page-0.2.1/libHScode-page-0.2.1-BoW65gHPWFY2WubjSVmVsI.a
+* /usr/lib/ghc-9.8.1/site-local/code-page-0.2.1/System/IO/CodePage.dyn_hi
+* /usr/lib/ghc-9.8.1/site-local/code-page-0.2.1/System/IO/CodePage.hi
+* /usr/lib/ghc-9.8.1/site-local/code-page-0.2.1/System/IO/CodePage/Internal.dyn_hi
+* /usr/lib/ghc-9.8.1/site-local/code-page-0.2.1/System/IO/CodePage/Internal.hi
+* /usr/lib/ghc-9.8.1/site-local/code-page-0.2.1/System/Win32/CodePage.dyn_hi
+* /usr/lib/ghc-9.8.1/site-local/code-page-0.2.1/System/Win32/CodePage.hi
+* /usr/lib/x86_64-linux-ghc-9.8.1/libHScode-page-0.2.1-BoW65gHPWFY2WubjSVmVsI-ghc9.8.1.so
+* /usr/share/doc/haskell-code-page-0.2.1/LICENSE
+* /usr/share/doc/haskell-code-page-0.2.1/README.md
+* /usr/share/doc/x86_64-linux-ghc-9.8.1/code-page-0.2.1/html/code-page.haddock
+* /usr/share/doc/x86_64-linux-ghc-9.8.1/code-page-0.2.1/html/doc-index.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.1/code-page-0.2.1/html/haddock-bundle.min.js
+* /usr/share/doc/x86_64-linux-ghc-9.8.1/code-page-0.2.1/html/index.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.1/code-page-0.2.1/html/linuwial.css
+* /usr/share/doc/x86_64-linux-ghc-9.8.1/code-page-0.2.1/html/meta.json
+* /usr/share/doc/x86_64-linux-ghc-9.8.1/code-page-0.2.1/html/quick-jump.css
+* /usr/share/doc/x86_64-linux-ghc-9.8.1/code-page-0.2.1/html/synopsis.png
+* /usr/share/doc/x86_64-linux-ghc-9.8.1/code-page-0.2.1/html/System-IO-CodePage-Internal.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.1/code-page-0.2.1/html/System-IO-CodePage.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.1/code-page-0.2.1/html/System-Win32-CodePage.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.1/code-page-0.2.1/LICENSE
+* /usr/share/haskell/haskell-code-page/register.sh
+* /usr/share/haskell/haskell-code-page/unregister.sh
+{{< /spoiler >}}

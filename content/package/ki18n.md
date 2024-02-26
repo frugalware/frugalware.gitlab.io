@@ -1,0 +1,187 @@
++++
+draft = false
+title = "ki18n 5.115.1-1"
+version = "5.115.1-1"
+description = "KDE Gettext-based UI text."
+date = "2024-02-19T10:34:43"
+aliases = "/packages/218315"
+categories = ['kf5']
+upstreamurl = "http://www.kde.org"
+arch = "x86_64"
+size = "1442300"
+usize = "17896453"
+sha1sum = "42ebb03edf6091713a33e191a995fc5b8e1149e7"
+depends = "['gettext', 'qt5-script>=5.15.12']"
+reverse_depends = "['akonadi-mime', 'akonadi-notes', 'alligator', 'audiotube', 'aura-browser', 'dolphin', 'incidenceeditor', 'kamoso', 'kbackup', 'kcachegrind', 'kclock', 'kcolorchooser', 'kconfigwidgets', 'kcontacts', 'kdebugsettings', 'kdecoration', 'kdeplasma-addons5', 'kdesdk-kio', 'kdiff3', 'keysmith', 'kfilemetadata5', 'kio-gdrive', 'kitinerary', 'kjournald', 'kjsembed', 'kldap', 'kmime', 'kmousetool', 'kongress', 'kontrast', 'kopeninghours', 'kopete', 'kosmindoormap', 'kpackage', 'kpipewire', 'kpmcore', 'kpty', 'kpublictransport', 'krecorder', 'krita', 'ksanecore', 'kservice', 'kunitconversion', 'kweathercore', 'libkcompactdisc', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'plank-player', 'plasma-browser-integration', 'plasma-sdk', 'plasmatube', 'purpose', 'qmlkonsole', 'rkward', 'skanlite', 'sweeper', 'telly-skout', 'xdg-desktop-portal-kde']"
++++
+KDE Gettext-based UI text.{{< spoiler text="show files" >}}* /usr/include/KF5/KI18n/ki18n_export.h
+* /usr/include/KF5/KI18n/ki18n_version.h
+* /usr/include/KF5/KI18n/KLazyLocalizedString
+* /usr/include/KF5/KI18n/klazylocalizedstring.h
+* /usr/include/KF5/KI18n/KLocalizedContext
+* /usr/include/KF5/KI18n/klocalizedcontext.h
+* /usr/include/KF5/KI18n/KLocalizedString
+* /usr/include/KF5/KI18n/klocalizedstring.h
+* /usr/include/KF5/KI18n/KLocalizedTranslator
+* /usr/include/KF5/KI18n/klocalizedtranslator.h
+* /usr/include/KF5/KI18n/KuitMarkup
+* /usr/include/KF5/KI18n/kuitmarkup.h
+* /usr/include/KF5/KI18n/KuitSetup
+* /usr/include/KF5/KI18n/kuitsetup.h
+* /usr/include/KF5/KI18nLocaleData/KCountry
+* /usr/include/KF5/KI18nLocaleData/kcountry.h
+* /usr/include/KF5/KI18nLocaleData/KCountrySubdivision
+* /usr/include/KF5/KI18nLocaleData/kcountrysubdivision.h
+* /usr/include/KF5/KI18nLocaleData/ki18nlocaledata_export.h
+* /usr/include/KF5/KI18nLocaleData/KTimeZone
+* /usr/include/KF5/KI18nLocaleData/ktimezone.h
+* /usr/lib/cmake/KF5I18n/build-pofiles.cmake
+* /usr/lib/cmake/KF5I18n/build-tsfiles.cmake
+* /usr/lib/cmake/KF5I18n/KF5I18nConfig.cmake
+* /usr/lib/cmake/KF5I18n/KF5I18nConfigVersion.cmake
+* /usr/lib/cmake/KF5I18n/KF5I18nMacros.cmake
+* /usr/lib/cmake/KF5I18n/KF5I18nTargets-release.cmake
+* /usr/lib/cmake/KF5I18n/KF5I18nTargets.cmake
+* /usr/lib/cmake/KF5I18n/kf5i18nuic.cmake
+* /usr/lib/cmake/KF5I18n/ts-pmap-compile.py
+* /usr/lib/libKF5I18n.so
+* /usr/lib/libKF5I18n.so.5
+* /usr/lib/libKF5I18n.so.5.115.0
+* /usr/lib/libKF5I18nLocaleData.so
+* /usr/lib/libKF5I18nLocaleData.so.5
+* /usr/lib/libKF5I18nLocaleData.so.5.115.0
+* /usr/lib/qt5/plugins/kf5/ktranscript.so
+* /usr/share/doc/ki18n-5.115.1/README.md
+* /usr/share/locale/af/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/ar/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/as/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/az/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/be/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/be@latin/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/bg/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/bn/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/bn_IN/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/br/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/bs/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/ca/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/ca/LC_SCRIPTS/ki18n5/ki18n5.js
+* /usr/share/locale/ca@valencia/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/ca@valencia/LC_SCRIPTS/ki18n5/ki18n5.js
+* /usr/share/locale/crh/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/cs/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/csb/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/cy/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/da/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/de/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/el/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/eo/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/es/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/et/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/eu/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/fa/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/fi/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/fi/LC_SCRIPTS/ki18n5/general.pmap
+* /usr/share/locale/fi/LC_SCRIPTS/ki18n5/general.pmapc
+* /usr/share/locale/fi/LC_SCRIPTS/ki18n5/ki18n5.js
+* /usr/share/locale/fr/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/fy/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/ga/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/gd/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/gd/LC_SCRIPTS/ki18n5/ki18n5.js
+* /usr/share/locale/gl/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/gu/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/ha/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/he/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/hi/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/hne/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/hr/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/hsb/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/hu/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/hy/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/ia/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/id/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/ie/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/is/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/it/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/ja/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/ja/LC_SCRIPTS/ki18n5/ki18n5.js
+* /usr/share/locale/ka/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/kk/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/km/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/kn/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/ko/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/ko/LC_SCRIPTS/ki18n5/ki18n5.js
+* /usr/share/locale/ku/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/lb/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/lt/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/lv/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/mai/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/mk/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/ml/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/mr/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/ms/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/nb/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/nb/LC_SCRIPTS/ki18n5/ki18n5.js
+* /usr/share/locale/nds/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/ne/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/nl/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/nn/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/nn/LC_SCRIPTS/ki18n5/ki18n5.js
+* /usr/share/locale/nn/LC_SCRIPTS/ki18n5/skjermelement.pmap
+* /usr/share/locale/nn/LC_SCRIPTS/ki18n5/skjermelement.pmapc
+* /usr/share/locale/oc/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/or/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/pa/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/pl/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/ps/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/pt/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/ro/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/ru/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/ru/LC_SCRIPTS/ki18n5/ki18n5.js
+* /usr/share/locale/se/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/si/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/sk/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/sl/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/sq/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/sr/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/sr/LC_SCRIPTS/ki18n5/ki18n5.js
+* /usr/share/locale/sr/LC_SCRIPTS/ki18n5/trapnakron.pmap
+* /usr/share/locale/sr/LC_SCRIPTS/ki18n5/trapnakron.pmapc
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/sr@ijekavian/LC_SCRIPTS/ki18n5/ki18n5.js
+* /usr/share/locale/sr@ijekavian/LC_SCRIPTS/ki18n5/trapnakron.pmap
+* /usr/share/locale/sr@ijekavian/LC_SCRIPTS/ki18n5/trapnakron.pmapc
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_SCRIPTS/ki18n5/ki18n5.js
+* /usr/share/locale/sr@ijekavianlatin/LC_SCRIPTS/ki18n5/trapnakron.pmap
+* /usr/share/locale/sr@ijekavianlatin/LC_SCRIPTS/ki18n5/trapnakron.pmapc
+* /usr/share/locale/sr@latin/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/sr@latin/LC_SCRIPTS/ki18n5/ki18n5.js
+* /usr/share/locale/sr@latin/LC_SCRIPTS/ki18n5/trapnakron.pmap
+* /usr/share/locale/sr@latin/LC_SCRIPTS/ki18n5/trapnakron.pmapc
+* /usr/share/locale/sv/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/ta/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/te/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/tg/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/th/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/tr/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/tt/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/ug/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/uk/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/uk/LC_SCRIPTS/ki18n5/ki18n5.js
+* /usr/share/locale/uz/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/uz@cyrillic/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/vi/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/wa/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/xh/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/zh_HK/LC_MESSAGES/ki18n5.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/ki18n5.mo
+* /usr/share/qlogging-categories5/ki18n.categories
+* /usr/share/qlogging-categories5/ki18n.renamecategories
+* /usr/share/qt5/mkspecs/modules/qt_KI18n.pri
+* /usr/share/qt5/qml/org/kde/i18n/localeData/libki18nlocaledataqmlplugin.so
+* /usr/share/qt5/qml/org/kde/i18n/localeData/qmldir
+{{< /spoiler >}}
