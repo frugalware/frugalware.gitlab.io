@@ -135,8 +135,9 @@ for package in cur:
         f.write('license = "'+str(package_license)+'"\n')
     
     f.write("+++\n")
+    f.write('### Description: \n')
     f.write(desc+'\n\n')
-    f.write('## Files: \n')
+    f.write('### Files: \n')
     for file in files:
         f.write("* "+str(file)+"\n")
     f.close()
