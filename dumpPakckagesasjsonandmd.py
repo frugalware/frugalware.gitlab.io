@@ -136,10 +136,10 @@ for package in cur:
     
     f.write("+++\n")
     f.write(desc)
-    f.write('{{< spoiler text="show files" >}}')
+    f.write('{{< files text="show files" >}}')
     for file in files:
         f.write("* "+str(file)+"\n")
-    f.write("{{< /spoiler >}}")
+    f.write("{{< /files >}}")
     f.close()
 
 if packages_as_dict:
