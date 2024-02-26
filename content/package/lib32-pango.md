@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-pango 1.51.2-1"
-version = "1.51.2-1"
+title = "lib32-pango 1.52.0-1"
+version = "1.52.0-1"
 description = "A library for layout and rendering of text ( 32bit )"
-date = "2024-02-20T09:58:54"
+date = "2024-02-26T21:13:18"
 aliases = "/packages/220204"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "286068"
-usize = "1053118"
-sha1sum = "eac575992aa9d54f2209c47e4990ba52357027c6"
+size = "287488"
+usize = "1053557"
+sha1sum = "4ddfc7ada637e9a036cc97ec2039c5599cf894f0"
 depends = "['lib32-cairo>=1.17.2-2', 'lib32-fribidi>=1.0.5', 'lib32-harfbuzz>=2.5.0', 'lib32-libffi>=3.2.1-2', 'lib32-libpng>=1.6.25', 'lib32-libxft>=2.3.2-2', 'lib32-util-linux']"
 reverse_depends = "['lib32-gtk+2-libs']"
 +++
@@ -61,16 +61,16 @@ A library for layout and rendering of text ( 32bit )
 * /usr/i686-frugalware-linux/include/pango-1.0/pango/pangoxft.h
 * /usr/lib32/libpango-1.0.so
 * /usr/lib32/libpango-1.0.so.0
-* /usr/lib32/libpango-1.0.so.0.5102.0
+* /usr/lib32/libpango-1.0.so.0.5200.0
 * /usr/lib32/libpangocairo-1.0.so
 * /usr/lib32/libpangocairo-1.0.so.0
-* /usr/lib32/libpangocairo-1.0.so.0.5102.0
+* /usr/lib32/libpangocairo-1.0.so.0.5200.0
 * /usr/lib32/libpangoft2-1.0.so
 * /usr/lib32/libpangoft2-1.0.so.0
-* /usr/lib32/libpangoft2-1.0.so.0.5102.0
+* /usr/lib32/libpangoft2-1.0.so.0.5200.0
 * /usr/lib32/libpangoxft-1.0.so
 * /usr/lib32/libpangoxft-1.0.so.0
-* /usr/lib32/libpangoxft-1.0.so.0.5102.0
+* /usr/lib32/libpangoxft-1.0.so.0.5200.0
 * /usr/lib32/pkgconfig/pango.pc
 * /usr/lib32/pkgconfig/pangocairo.pc
 * /usr/lib32/pkgconfig/pangofc.pc
