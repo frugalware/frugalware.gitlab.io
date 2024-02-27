@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wine-devel 9.2-1"
-version = "9.2-1"
+title = "wine-devel 9.3-1"
+version = "9.3-1"
 description = "An Open Source implementation of the Windows API on top of X and Unix. (Development)"
-date = "2024-02-22T23:23:04"
+date = "2024-02-27T15:28:53"
 aliases = "/packages/136362"
 categories = ['xapps-extra']
 upstreamurl = "http://www.winehq.org"
 arch = "x86_64"
-size = "73266364"
-usize = "652944391"
-sha1sum = "c1326e749ecb15d9d465c3e8c632f779cc8ba264"
+size = "73507136"
+usize = "654276691"
+sha1sum = "4934d85fa2721dca622f8ff1fd46da162d894789"
 depends = "['faudio', 'gettext', 'gst1-plugins-base', 'gst1-plugins-base', 'lcms2', 'lib32-faudio', 'lib32-freetype2', 'lib32-lcms2', 'lib32-libldap>=2.5.4', 'lib32-libosmesa', 'lib32-libxcomposite', 'lib32-libxcursor', 'lib32-libxi', 'lib32-libxinerama', 'lib32-libxml2', 'lib32-libxrandr', 'lib32-libxrender', 'lib32-ncurses', 'lib32-ocl-icd', 'lib32-vkd3d', 'lib32-vulkan-icd-loader', 'libglu', 'libgphoto2', 'libldap>=2.5.4', 'libmpg123', 'libosmesa', 'libpcap', 'libpulse', 'libxcomposite', 'libxcursor', 'libxi', 'libxinerama', 'libxkbcommon', 'libxml2', 'libxrandr', 'libxrender', 'libxslt', 'ocl-icd', 'openal', 'pcsc-lite', 'sane-backends', 'v4l-utils', 'vkd3d', 'vulkan-icd-loader']"
 +++
 ### Description: 
@@ -728,6 +728,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/msdasc.h
 * /usr/include/wine/windows/msdasc.idl
 * /usr/include/wine/windows/msdasql.h
+* /usr/include/wine/windows/msdelta.h
 * /usr/include/wine/windows/mshtmcid.h
 * /usr/include/wine/windows/mshtmdid.h
 * /usr/include/wine/windows/mshtmhst.h
@@ -1142,6 +1143,8 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/windows.graphics.effects.idl
 * /usr/include/wine/windows/windows.graphics.holographic.h
 * /usr/include/wine/windows/windows.graphics.holographic.idl
+* /usr/include/wine/windows/windows.graphics.imaging.h
+* /usr/include/wine/windows/windows.graphics.imaging.idl
 * /usr/include/wine/windows/windows.h
 * /usr/include/wine/windows/windows.management.deployment.h
 * /usr/include/wine/windows/windows.management.deployment.idl
@@ -1153,6 +1156,8 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/windows.media.devices.idl
 * /usr/include/wine/windows/windows.media.effects.h
 * /usr/include/wine/windows/windows.media.effects.idl
+* /usr/include/wine/windows/windows.media.faceanalysis.h
+* /usr/include/wine/windows/windows.media.faceanalysis.idl
 * /usr/include/wine/windows/windows.media.h
 * /usr/include/wine/windows/windows.media.idl
 * /usr/include/wine/windows/windows.media.render.h
@@ -1169,6 +1174,8 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/windows.perception.spatial.idl
 * /usr/include/wine/windows/windows.perception.spatial.surfaces.h
 * /usr/include/wine/windows/windows.perception.spatial.surfaces.idl
+* /usr/include/wine/windows/windows.security.authentication.onlineid.h
+* /usr/include/wine/windows/windows.security.authentication.onlineid.idl
 * /usr/include/wine/windows/windows.security.credentials.h
 * /usr/include/wine/windows/windows.security.credentials.idl
 * /usr/include/wine/windows/windows.security.credentials.ui.h
@@ -1860,6 +1867,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/mmcndmgr.dll.so
 * /usr/lib/wine/x86_64-unix/mmdevapi.dll.so
 * /usr/lib/wine/x86_64-unix/mofcomp.exe.so
+* /usr/lib/wine/x86_64-unix/mouhid.sys.so
 * /usr/lib/wine/x86_64-unix/mountmgr.so
 * /usr/lib/wine/x86_64-unix/mountmgr.sys.so
 * /usr/lib/wine/x86_64-unix/mp3dmod.dll.so
@@ -2170,6 +2178,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/windows.networking.dll.so
 * /usr/lib/wine/x86_64-unix/windows.networking.hostname.dll.so
 * /usr/lib/wine/x86_64-unix/windows.perception.stub.dll.so
+* /usr/lib/wine/x86_64-unix/windows.security.authentication.onlineid.dll.so
 * /usr/lib/wine/x86_64-unix/windows.security.credentials.ui.userconsentverifier.dll.so
 * /usr/lib/wine/x86_64-unix/windows.storage.applicationdata.dll.so
 * /usr/lib/wine/x86_64-unix/windows.system.profile.systemmanufacturers.dll.so
@@ -2599,6 +2608,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-windows/mmcndmgr.dll
 * /usr/lib/wine/x86_64-windows/mmdevapi.dll
 * /usr/lib/wine/x86_64-windows/mofcomp.exe
+* /usr/lib/wine/x86_64-windows/mouhid.sys
 * /usr/lib/wine/x86_64-windows/mountmgr.sys
 * /usr/lib/wine/x86_64-windows/mp3dmod.dll
 * /usr/lib/wine/x86_64-windows/mpr.dll
@@ -2907,6 +2917,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-windows/windows.networking.dll
 * /usr/lib/wine/x86_64-windows/windows.networking.hostname.dll
 * /usr/lib/wine/x86_64-windows/windows.perception.stub.dll
+* /usr/lib/wine/x86_64-windows/windows.security.authentication.onlineid.dll
 * /usr/lib/wine/x86_64-windows/windows.security.credentials.ui.userconsentverifier.dll
 * /usr/lib/wine/x86_64-windows/windows.storage.applicationdata.dll
 * /usr/lib/wine/x86_64-windows/windows.system.profile.systemmanufacturers.dll
@@ -3575,6 +3586,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/mmsystem.dll16.so
 * /usr/lib32/wine/i386-unix/mofcomp.exe.so
 * /usr/lib32/wine/i386-unix/monodebg.vxd.so
+* /usr/lib32/wine/i386-unix/mouhid.sys.so
 * /usr/lib32/wine/i386-unix/mountmgr.so
 * /usr/lib32/wine/i386-unix/mountmgr.sys.so
 * /usr/lib32/wine/i386-unix/mouse.drv16.so
@@ -3918,6 +3930,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/windows.networking.dll.so
 * /usr/lib32/wine/i386-unix/windows.networking.hostname.dll.so
 * /usr/lib32/wine/i386-unix/windows.perception.stub.dll.so
+* /usr/lib32/wine/i386-unix/windows.security.authentication.onlineid.dll.so
 * /usr/lib32/wine/i386-unix/windows.security.credentials.ui.userconsentverifier.dll.so
 * /usr/lib32/wine/i386-unix/windows.storage.applicationdata.dll.so
 * /usr/lib32/wine/i386-unix/windows.system.profile.systemmanufacturers.dll.so
@@ -4362,6 +4375,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-windows/mmsystem.dll16
 * /usr/lib32/wine/i386-windows/mofcomp.exe
 * /usr/lib32/wine/i386-windows/monodebg.vxd
+* /usr/lib32/wine/i386-windows/mouhid.sys
 * /usr/lib32/wine/i386-windows/mountmgr.sys
 * /usr/lib32/wine/i386-windows/mouse.drv16
 * /usr/lib32/wine/i386-windows/mp3dmod.dll
@@ -4704,6 +4718,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-windows/windows.networking.dll
 * /usr/lib32/wine/i386-windows/windows.networking.hostname.dll
 * /usr/lib32/wine/i386-windows/windows.perception.stub.dll
+* /usr/lib32/wine/i386-windows/windows.security.authentication.onlineid.dll
 * /usr/lib32/wine/i386-windows/windows.security.credentials.ui.userconsentverifier.dll
 * /usr/lib32/wine/i386-windows/windows.storage.applicationdata.dll
 * /usr/lib32/wine/i386-windows/windows.system.profile.systemmanufacturers.dll
@@ -4831,11 +4846,11 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-windows/xpsprint.dll
 * /usr/lib32/wine/i386-windows/xpssvcs.dll
 * /usr/share/applications/wine.desktop
-* /usr/share/doc/wine-devel-9.2/AUTHORS
-* /usr/share/doc/wine-devel-9.2/COPYING.LIB
-* /usr/share/doc/wine-devel-9.2/LICENSE
-* /usr/share/doc/wine-devel-9.2/README.md
-* /usr/share/doc/wine-devel-9.2/VERSION
+* /usr/share/doc/wine-devel-9.3/AUTHORS
+* /usr/share/doc/wine-devel-9.3/COPYING.LIB
+* /usr/share/doc/wine-devel-9.3/LICENSE
+* /usr/share/doc/wine-devel-9.3/README.md
+* /usr/share/doc/wine-devel-9.3/VERSION
 * /usr/share/man/de.UTF-8/man1/wine.1.gz
 * /usr/share/man/de.UTF-8/man1/winemaker.1.gz
 * /usr/share/man/de.UTF-8/man1/wineserver.1.gz
