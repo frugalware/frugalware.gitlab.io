@@ -5,7 +5,6 @@ import datetime
 import argparse
 import mariadb
 import sys
-from lunr import lunr
 from functools import reduce
 
 parser = argparse.ArgumentParser(
@@ -143,10 +142,6 @@ for package in cur:
     f.close()
 
 if packages_as_dict:
-    idx = lunr(
-        ref='name', fields=('desc', 'version'), documents=packages_as_dict.values()
-    )
-
     with open(args.json_path, 'w') as f:
-        json.dump(idx.serialize(), f)
+        json.dump(list(packages_as_dict.values()), f, sort_keys=True, indent=4 * ' ')
 
