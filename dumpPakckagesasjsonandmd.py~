@@ -148,5 +148,5 @@ if packages_as_dict:
     )
 
     with open(args.json_path, 'w') as f:
-        json.dump(idx.serialize(), f)
+        json.dump(idx.serialize(), file=f)
 
