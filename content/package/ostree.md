@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ostree 2023.7-2"
-version = "2023.7-2"
+title = "ostree 2024.4-1"
+version = "2024.4-1"
 description = "Operating system and container binary deployment and upgrades"
-date = "2024-01-09T20:13:22"
+date = "2024-02-27T14:35:28"
 aliases = "/packages/220840"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/ostreedev/ostree"
 arch = "x86_64"
-size = "677924"
-usize = "4142745"
-sha1sum = "83074c0e21f349d5044f4342ba0dc8179e7865b2"
-depends = "['curl', 'fuse3', 'gpgme', 'libarchive', 'libsodium>=1.0.19']"
+size = "696444"
+usize = "4211115"
+sha1sum = "d81adda8ae4d4a7de6bc17a41055a2f96bd9abeb"
+depends = "['curl', 'fuse3', 'gpgme', 'libarchive', 'libsodium>=1.0.19', 'libsoup']"
 reverse_depends = "['flatpak']"
 +++
 ### Description: 
@@ -67,11 +67,12 @@ Operating system and container binary deployment and upgrades
 * /usr/lib/systemd/system/ostree-finalize-staged.service
 * /usr/lib/systemd/system/ostree-prepare-root.service
 * /usr/lib/systemd/system/ostree-remount.service
+* /usr/lib/systemd/system/ostree-state-overlay@.service
 * /usr/lib/tmpfiles.d/ostree-tmpfiles.conf
 * /usr/share/bash-completion/completions/ostree
-* /usr/share/doc/ostree-2023.7/COPYING
-* /usr/share/doc/ostree-2023.7/README.md
-* /usr/share/doc/ostree-2023.7/TODO
+* /usr/share/doc/ostree-2024.4/COPYING
+* /usr/share/doc/ostree-2024.4/README.md
+* /usr/share/doc/ostree-2024.4/TODO
 * /usr/share/gir-1.0/OSTree-1.0.gir
 * /usr/share/gtk-doc/html/ostree/home.png
 * /usr/share/gtk-doc/html/ostree/index.html
@@ -110,8 +111,10 @@ Operating system and container binary deployment and upgrades
 * /usr/share/man/man1/ostree-admin-deploy.1.gz
 * /usr/share/man/man1/ostree-admin-init-fs.1.gz
 * /usr/share/man/man1/ostree-admin-instutil.1.gz
+* /usr/share/man/man1/ostree-admin-lock-finalization.1.gz
 * /usr/share/man/man1/ostree-admin-os-init.1.gz
 * /usr/share/man/man1/ostree-admin-pin.1.gz
+* /usr/share/man/man1/ostree-admin-post-copy.1.gz
 * /usr/share/man/man1/ostree-admin-set-default.1.gz
 * /usr/share/man/man1/ostree-admin-set-origin.1.gz
 * /usr/share/man/man1/ostree-admin-stateroot-init.1.gz
@@ -151,4 +154,5 @@ Operating system and container binary deployment and upgrades
 * /usr/share/man/man1/rofiles-fuse.1.gz
 * /usr/share/man/man5/ostree.repo-config.5.gz
 * /usr/share/man/man5/ostree.repo.5.gz
+* /usr/share/man/man8/ostree-state-overlay@.service.8.gz
 * /usr/share/ostree/trusted.gpg.d/README-gpg

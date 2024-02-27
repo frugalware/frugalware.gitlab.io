@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "discount 2.2.7-4"
-version = "2.2.7-4"
+title = "discount 3.0.0-1"
+version = "3.0.0-1"
 description = "A Markdown implementation written in C"
-date = "2023-09-08T11:44:23"
+date = "2024-02-27T14:21:38"
 aliases = "/packages/219879"
 categories = ['apps-extra']
 upstreamurl = "http://www.pell.portland.or.us/~orc/Code/discount/"
 arch = "x86_64"
-size = "72720"
-usize = "190889"
-sha1sum = "98ac50ce0557180529a1e176dc3cb16e03e765be"
+size = "77484"
+usize = "209600"
+sha1sum = "668979e317e00398e0091e2904867876416e19e1"
 depends = "['glibc>=2.34']"
 reverse_depends = "['kdepim-addons', 'labplot', 'okular']"
 +++
@@ -24,14 +24,14 @@ A Markdown implementation written in C
 * /usr/bin/theme
 * /usr/include/mkdio.h
 * /usr/lib/libmarkdown.so
-* /usr/lib/libmarkdown.so.2
-* /usr/lib/libmarkdown.so.2.2.7
+* /usr/lib/libmarkdown.so.3
+* /usr/lib/libmarkdown.so.3.0.0
 * /usr/lib/pkgconfig/libmarkdown.pc
-* /usr/share/doc/discount-2.2.7/COPYRIGHT
-* /usr/share/doc/discount-2.2.7/CREDITS
-* /usr/share/doc/discount-2.2.7/INSTALL
-* /usr/share/doc/discount-2.2.7/README
-* /usr/share/doc/discount-2.2.7/VERSION
+* /usr/share/doc/discount-3.0.0/COPYRIGHT
+* /usr/share/doc/discount-3.0.0/CREDITS
+* /usr/share/doc/discount-3.0.0/INSTALL
+* /usr/share/doc/discount-3.0.0/README
+* /usr/share/doc/discount-3.0.0/VERSION
 * /usr/share/man/man1/makepage.1.gz
 * /usr/share/man/man1/markdown.1.gz
 * /usr/share/man/man1/mkd2html.1.gz

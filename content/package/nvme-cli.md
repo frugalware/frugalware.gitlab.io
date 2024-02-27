@@ -29,6 +29,6 @@ NVMe management command line interface.
 * /usr/lib/udev/rules.d/70-nvmf-autoconnect.rules
 * /usr/lib/udev/rules.d/71-nvmf-netapp.rules
 * /usr/share/bash-completion/completions/nvme
-* /usr/share/doc/nvme-cli-2.7.1/LICENSE
-* /usr/share/doc/nvme-cli-2.7.1/README.md
+* /usr/share/doc/nvme-cli-2.8/LICENSE
+* /usr/share/doc/nvme-cli-2.8/README.md
 * /usr/share/zsh/site-functions/_nvme

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fwupd 1.9.12-2"
-version = "1.9.12-2"
+title = "fwupd 1.9.14-1"
+version = "1.9.14-1"
 description = "A simple daemon to allow session software to update firmware"
-date = "2024-01-30T11:35:08"
+date = "2024-02-27T14:29:32"
 aliases = "/packages/219170"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/fwupd/fwupd"
 arch = "x86_64"
-size = "7184008"
-usize = "45374794"
-sha1sum = "bb3df7b47c9afc358f63c28f293b8140bbbc314d"
+size = "7190956"
+usize = "45453633"
+sha1sum = "60b0ab4fd8e594ea24e8dab6f8923be75702b888"
 depends = "['appstream-glib', 'colord', 'efivar', 'fwupd-efi', 'gnu-efi', 'gpgme', 'gsettings-desktop-schemas', 'libarchive', 'libgusb', 'libjcat', 'libsmbios', 'libxmlb>=0.2.0', 'protobuf-c', 'tpm2-tss', 'udisks2']"
 +++
 ### Description: 
@@ -19,11 +19,9 @@ A simple daemon to allow session software to update firmware
 ### Files: 
 * /etc/fwupd/bios-settings.d/README.md
 * /etc/fwupd/fwupd.conf
-* /etc/fwupd/remotes.d/fwupd-tests.conf
 * /etc/fwupd/remotes.d/lvfs-testing.conf
 * /etc/fwupd/remotes.d/lvfs.conf
 * /etc/fwupd/remotes.d/vendor-directory.conf
-* /etc/fwupd/remotes.d/vendor.conf
 * /etc/grub.d/35_fwupd
 * /etc/pki/fwupd-metadata/GPG-KEY-Linux-Foundation-Metadata
 * /etc/pki/fwupd-metadata/GPG-KEY-Linux-Vendor-Firmware-Service
@@ -50,9 +48,9 @@ A simple daemon to allow session software to update firmware
 * /usr/include/fwupd-1/libfwupd/fwupd-request.h
 * /usr/include/fwupd-1/libfwupd/fwupd-security-attr.h
 * /usr/include/fwupd-1/libfwupd/fwupd-version.h
-* /usr/lib/fwupd-1.9.12/libfwupdengine.so
-* /usr/lib/fwupd-1.9.12/libfwupdplugin.so
-* /usr/lib/fwupd-1.9.12/libfwupdutil.so
+* /usr/lib/fwupd-1.9.14/libfwupdengine.so
+* /usr/lib/fwupd-1.9.14/libfwupdplugin.so
+* /usr/lib/fwupd-1.9.14/libfwupdutil.so
 * /usr/lib/fwupd/fwupd
 * /usr/lib/fwupd/fwupd-detect-cet
 * /usr/lib/fwupd/fwupdoffline
@@ -67,7 +65,6 @@ A simple daemon to allow session software to update firmware
 * /usr/lib/installed-tests/fwupd/ccgx-self-test
 * /usr/lib/installed-tests/fwupd/elantp-self-test
 * /usr/lib/installed-tests/fwupd/fu-dfu-self-test
-* /usr/lib/installed-tests/fwupd/fwupd.sh
 * /usr/lib/installed-tests/fwupd/linux-swap-self-test
 * /usr/lib/installed-tests/fwupd/mtd-self-test
 * /usr/lib/installed-tests/fwupd/nitrokey-self-test
@@ -99,9 +96,9 @@ A simple daemon to allow session software to update firmware
 * /usr/share/dbus-1/interfaces/org.freedesktop.fwupd.xml
 * /usr/share/dbus-1/system-services/org.freedesktop.fwupd.service
 * /usr/share/dbus-1/system.d/org.freedesktop.fwupd.conf
-* /usr/share/doc/fwupd-1.9.12/COPYING
-* /usr/share/doc/fwupd-1.9.12/README.md
-* /usr/share/doc/fwupd-1.9.12/RELEASE
+* /usr/share/doc/fwupd-1.9.14/COPYING
+* /usr/share/doc/fwupd-1.9.14/README.md
+* /usr/share/doc/fwupd-1.9.14/RELEASE
 * /usr/share/doc/fwupd/hsi.html
 * /usr/share/doc/fwupd/index.html
 * /usr/share/doc/fwupd/libfwupd
@@ -218,6 +215,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupd/const.PLUGIN_FLAG_READY.html
 * /usr/share/doc/libfwupd/const.PLUGIN_FLAG_REQUIRE_HWID.html
 * /usr/share/doc/libfwupd/const.PLUGIN_FLAG_SECURE_CONFIG.html
+* /usr/share/doc/libfwupd/const.PLUGIN_FLAG_TEST_ONLY.html
 * /usr/share/doc/libfwupd/const.PLUGIN_FLAG_UNLOCK_REQUIRED.html
 * /usr/share/doc/libfwupd/const.PLUGIN_FLAG_USER_WARNING.html
 * /usr/share/doc/libfwupd/const.RELEASE_FLAG_BLOCKED_APPROVAL.html
@@ -231,6 +229,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupd/const.RELEASE_FLAG_TRUSTED_PAYLOAD.html
 * /usr/share/doc/libfwupd/const.RELEASE_FLAG_TRUSTED_REPORT.html
 * /usr/share/doc/libfwupd/const.REPORT_FLAG_FROM_OEM.html
+* /usr/share/doc/libfwupd/const.REPORT_FLAG_IS_UPGRADE.html
 * /usr/share/doc/libfwupd/const.REPORT_FLAG_NONE.html
 * /usr/share/doc/libfwupd/const.REQUEST_FLAG_ALLOW_GENERIC_IMAGE.html
 * /usr/share/doc/libfwupd/const.REQUEST_FLAG_ALLOW_GENERIC_MESSAGE.html
@@ -1261,6 +1260,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/const.DEVICE_INTERNAL_FLAG_DISPLAY_REQUIRED.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_INTERNAL_FLAG_ENFORCE_REQUIRES.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_INTERNAL_FLAG_ENSURE_SEMVER.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_INTERNAL_FLAG_EXPLICIT_ORDER.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_INTERNAL_FLAG_HOST_CPU.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_INTERNAL_FLAG_HOST_CPU_CHILD.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_INTERNAL_FLAG_HOST_FIRMWARE.html
@@ -3153,6 +3153,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/method.Config.get_value_strv.html
 * /usr/share/doc/libfwupdplugin/method.Config.get_value_u64.html
 * /usr/share/doc/libfwupdplugin/method.Config.load.html
+* /usr/share/doc/libfwupdplugin/method.Config.set_default.html
 * /usr/share/doc/libfwupdplugin/method.Config.set_value.html
 * /usr/share/doc/libfwupdplugin/method.Context.add_compile_version.html
 * /usr/share/doc/libfwupdplugin/method.Context.add_esp_volume.html
@@ -3262,7 +3263,6 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/method.Device.get_firmware_gtype.html
 * /usr/share/doc/libfwupdplugin/method.Device.get_firmware_size_max.html
 * /usr/share/doc/libfwupdplugin/method.Device.get_firmware_size_min.html
-* /usr/share/doc/libfwupdplugin/method.Device.get_guids_as_str.html
 * /usr/share/doc/libfwupdplugin/method.Device.get_instance_str.html
 * /usr/share/doc/libfwupdplugin/method.Device.get_internal_flags.html
 * /usr/share/doc/libfwupdplugin/method.Device.get_logical_id.html
@@ -3557,6 +3557,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/method.Plugin.get_context.html
 * /usr/share/doc/libfwupdplugin/method.Plugin.get_data.html
 * /usr/share/doc/libfwupdplugin/method.Plugin.get_devices.html
+* /usr/share/doc/libfwupdplugin/method.Plugin.get_device_gtype_default.html
 * /usr/share/doc/libfwupdplugin/method.Plugin.get_name.html
 * /usr/share/doc/libfwupdplugin/method.Plugin.get_order.html
 * /usr/share/doc/libfwupdplugin/method.Plugin.get_priority.html
@@ -3595,8 +3596,10 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/method.Plugin.runner_verify.html
 * /usr/share/doc/libfwupdplugin/method.Plugin.runner_write_firmware.html
 * /usr/share/doc/libfwupdplugin/method.Plugin.security_attr_new.html
+* /usr/share/doc/libfwupdplugin/method.Plugin.set_config_default.html
 * /usr/share/doc/libfwupdplugin/method.Plugin.set_config_value.html
 * /usr/share/doc/libfwupdplugin/method.Plugin.set_context.html
+* /usr/share/doc/libfwupdplugin/method.Plugin.set_device_gtype_default.html
 * /usr/share/doc/libfwupdplugin/method.Plugin.set_name.html
 * /usr/share/doc/libfwupdplugin/method.Plugin.set_order.html
 * /usr/share/doc/libfwupdplugin/method.Plugin.set_priority.html
@@ -3947,6 +3950,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/fwupd/metainfo/org.freedesktop.fwupd.remotes.lvfs-testing.metainfo.xml
 * /usr/share/fwupd/metainfo/org.freedesktop.fwupd.remotes.lvfs.metainfo.xml
 * /usr/share/fwupd/quirks.d/builtin.quirk.gz
+* /usr/share/fwupd/remotes.d/fwupd-tests.conf
 * /usr/share/fwupd/remotes.d/vendor/firmware/README.md
 * /usr/share/fwupd/simple_client.py
 * /usr/share/fwupd/uefi-capsule-ux.tar.xz
@@ -3968,6 +3972,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/installed-tests/fwupd/fakedevice124.metainfo.xml
 * /usr/share/installed-tests/fwupd/firmware.zip
 * /usr/share/installed-tests/fwupd/fwupd-tests.xml
+* /usr/share/installed-tests/fwupd/fwupd.sh
 * /usr/share/installed-tests/fwupd/fwupd.test
 * /usr/share/installed-tests/fwupd/fwupdmgr-p2p.sh
 * /usr/share/installed-tests/fwupd/fwupdmgr-p2p.test
