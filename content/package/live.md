@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "live 2024.02.15-1"
-version = "2024.02.15-1"
+title = "live 2024.02.23-1"
+version = "2024.02.23-1"
 description = "Source-code libraries for standards-based RTP/RTCP/RTSP multimedia streaming"
-date = "2024-02-18T16:38:34"
+date = "2024-02-27T09:37:51"
 aliases = "/packages/5534"
 categories = ['multimedia']
 upstreamurl = "http://www.live555.com/"
 arch = "x86_64"
-size = "520848"
+size = "520832"
 usize = "2641513"
-sha1sum = "976728b912fe27804d856d145a8bfb0ab5d70831"
+sha1sum = "378198f32ad584b8e4a2e7dec1884bc7c3b9f06c"
 depends = "['glibc>=2.27-2', 'libstdc++>=7.3.0-7']"
 reverse_depends = "['vlc-live']"
 +++
@@ -245,11 +245,11 @@ Source-code libraries for standards-based RTP/RTCP/RTSP multimedia streaming
 * /usr/lib/libgroupsock.so.30.1.13
 * /usr/lib/libliveMedia.so
 * /usr/lib/libliveMedia.so.112
-* /usr/lib/libliveMedia.so.112.0.1
+* /usr/lib/libliveMedia.so.112.0.2
 * /usr/lib/libUsageEnvironment.so
 * /usr/lib/libUsageEnvironment.so.3
 * /usr/lib/libUsageEnvironment.so.3.1.0
 * /usr/lib/pkgconfig/live555.pc
-* /usr/share/doc/live-2024.02.15/COPYING
-* /usr/share/doc/live-2024.02.15/COPYING.LESSER
-* /usr/share/doc/live-2024.02.15/README
+* /usr/share/doc/live-2024.02.23/COPYING
+* /usr/share/doc/live-2024.02.23/COPYING.LESSER
+* /usr/share/doc/live-2024.02.23/README
