@@ -12,7 +12,7 @@ size = "294308"
 usize = "845841"
 sha1sum = "fb40bd410aefa86ff21c7b72f324013b53f2da9e"
 depends = "['libtool']"
-reverse_depends = "['mpd', 'mpg123', 'qmmp', 'vlc-mpg123', 'wine', 'wine-devel']"
+reverse_depends = "['libopenmpt', 'mpd', 'mpg123', 'qmmp', 'vlc-mpg123', 'wine', 'wine-devel']"
 +++
 ### Description: 
 libmpg123 is the API used by the mpg123 audio player

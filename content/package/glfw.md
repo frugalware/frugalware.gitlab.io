@@ -12,7 +12,7 @@ size = "142120"
 usize = "670869"
 sha1sum = "2cd96a7df4e9431cf5b340bd07de900cbe68ef87"
 depends = "['libwayland-egl', 'libxkbcommon', 'vulkan-icd-loader']"
-reverse_depends = "['box2d', 'embree', 'geogram', 'mupdf-gl', 'ospray']"
+reverse_depends = "['box2d', 'embree', 'geogram', 'jazz2', 'mupdf-gl', 'ospray']"
 +++
 ### Description: 
 A free, open source, portable framework for OpenGL application development.
