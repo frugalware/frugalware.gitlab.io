@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vscode 1.86.2-1"
-version = "1.86.2-1"
+title = "vscode 1.87.0-1"
+version = "1.87.0-1"
 description = "The Open Source build of Visual Studio Code (vscode) editor"
-date = "2024-02-22T22:41:58"
+date = "2024-02-28T10:01:20"
 aliases = "/packages/219983"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/microsoft/vscode"
 arch = "x86_64"
-size = "90057548"
-usize = "352617106"
-sha1sum = "62659698adcb1863ff6210c4c53b658efc9d2756"
+size = "90370344"
+usize = "352974888"
+sha1sum = "b3f9c83b9161ca42a0b7ae932a87f62507455c6a"
 depends = "['ffmpeg', 'libsecret', 'libxkbfile', 'ripgrep', 'sqlite3']"
 +++
 ### Description: 
@@ -20,7 +20,9 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/bin/code-oss
 * /usr/share/applications/code-oss-url-handler.desktop
 * /usr/share/applications/code-oss.desktop
-* /usr/share/doc/vscode-1.86.2/README.md
+* /usr/share/bash-completion/completions/code
+* /usr/share/bash-completion/completions/code-oss
+* /usr/share/doc/vscode-1.87.0/README.md
 * /usr/share/metainfo/code-oss.appdata.xml
 * /usr/share/pixmaps/code-oss.png
 * /usr/share/vscode/bin/code-oss
@@ -897,26 +899,26 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.nls.js
 * /usr/share/vscode/resources/app/out/vs/editor/common/services/editorSimpleWorker.nls.js
 * /usr/share/vscode/resources/app/out/vs/loader.js
-* /usr/share/vscode/resources/app/out/vs/platform/audioCues/browser/media/break.mp3
-* /usr/share/vscode/resources/app/out/vs/platform/audioCues/browser/media/chatRequestSent.mp3
-* /usr/share/vscode/resources/app/out/vs/platform/audioCues/browser/media/chatResponsePending.mp3
-* /usr/share/vscode/resources/app/out/vs/platform/audioCues/browser/media/chatResponseReceived1.mp3
-* /usr/share/vscode/resources/app/out/vs/platform/audioCues/browser/media/chatResponseReceived2.mp3
-* /usr/share/vscode/resources/app/out/vs/platform/audioCues/browser/media/chatResponseReceived3.mp3
-* /usr/share/vscode/resources/app/out/vs/platform/audioCues/browser/media/chatResponseReceived4.mp3
-* /usr/share/vscode/resources/app/out/vs/platform/audioCues/browser/media/clear.mp3
-* /usr/share/vscode/resources/app/out/vs/platform/audioCues/browser/media/diffLineDeleted.mp3
-* /usr/share/vscode/resources/app/out/vs/platform/audioCues/browser/media/diffLineInserted.mp3
-* /usr/share/vscode/resources/app/out/vs/platform/audioCues/browser/media/diffLineModified.mp3
-* /usr/share/vscode/resources/app/out/vs/platform/audioCues/browser/media/error.mp3
-* /usr/share/vscode/resources/app/out/vs/platform/audioCues/browser/media/foldedAreas.mp3
-* /usr/share/vscode/resources/app/out/vs/platform/audioCues/browser/media/format.mp3
-* /usr/share/vscode/resources/app/out/vs/platform/audioCues/browser/media/quickFixes.mp3
-* /usr/share/vscode/resources/app/out/vs/platform/audioCues/browser/media/save.mp3
-* /usr/share/vscode/resources/app/out/vs/platform/audioCues/browser/media/taskCompleted.mp3
-* /usr/share/vscode/resources/app/out/vs/platform/audioCues/browser/media/taskFailed.mp3
-* /usr/share/vscode/resources/app/out/vs/platform/audioCues/browser/media/terminalBell.mp3
-* /usr/share/vscode/resources/app/out/vs/platform/audioCues/browser/media/warning.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/break.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatRequestSent.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatResponsePending.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatResponseReceived1.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatResponseReceived2.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatResponseReceived3.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatResponseReceived4.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/clear.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/diffLineDeleted.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/diffLineInserted.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/diffLineModified.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/error.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/foldedAreas.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/format.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/quickFixes.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/save.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/taskCompleted.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/taskFailed.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/terminalBell.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/warning.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/files/node/watcher/watcherMain.js
 * /usr/share/vscode/resources/app/out/vs/platform/files/node/watcher/watcherMain.nls.js
 * /usr/share/vscode/resources/app/out/vs/platform/profiling/electron-sandbox/profileAnalysisWorker.js
@@ -998,3 +1000,5 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/snapshot_blob.bin
 * /usr/share/vscode/v8_context_snapshot.bin
 * /usr/share/vscode/vk_swiftshader_icd.json
+* /usr/share/zsh/site-functions/_code
+* /usr/share/zsh/site-functions/_code-oss
