@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libbsd 0.12.0-1"
-version = "0.12.0-1"
+title = "libbsd 0.12.1-1"
+version = "0.12.1-1"
 description = "This library provides useful functions commonly found on BSD systems"
-date = "2024-02-27T09:41:45"
+date = "2024-02-28T13:50:07"
 aliases = "/packages/219020"
 categories = ['lib-extra']
 upstreamurl = "http://libbsd.freedesktop.org/wiki/"
 arch = "x86_64"
-size = "228128"
-usize = "666598"
-sha1sum = "8195da11e0c5bdb8d3b7083bcef8308dee191841"
+size = "228600"
+usize = "670627"
+sha1sum = "8bb808168460e9def04c644cf1228393ab29d809"
 depends = "['libmd']"
 reverse_depends = "['criu', 'hfsprogs', 'openvas-manager', 'openvas-scanner']"
 +++
@@ -20,6 +20,7 @@ This library provides useful functions commonly found on BSD systems
 ### Files: 
 * /usr/include/bsd/bitstring.h
 * /usr/include/bsd/bsd.h
+* /usr/include/bsd/err.h
 * /usr/include/bsd/getopt.h
 * /usr/include/bsd/grp.h
 * /usr/include/bsd/inttypes.h
@@ -47,14 +48,14 @@ This library provides useful functions commonly found on BSD systems
 * /usr/include/bsd/wchar.h
 * /usr/lib/libbsd.so
 * /usr/lib/libbsd.so.0
-* /usr/lib/libbsd.so.0.12.0
+* /usr/lib/libbsd.so.0.12.1
 * /usr/lib/pkgconfig/libbsd-ctor.pc
 * /usr/lib/pkgconfig/libbsd-overlay.pc
 * /usr/lib/pkgconfig/libbsd.pc
-* /usr/share/doc/libbsd-0.12.0/ChangeLog
-* /usr/share/doc/libbsd-0.12.0/COPYING
-* /usr/share/doc/libbsd-0.12.0/README
-* /usr/share/doc/libbsd-0.12.0/TODO
+* /usr/share/doc/libbsd-0.12.1/ChangeLog
+* /usr/share/doc/libbsd-0.12.1/COPYING
+* /usr/share/doc/libbsd-0.12.1/README
+* /usr/share/doc/libbsd-0.12.1/TODO
 * /usr/share/man/man3/arc4random.3bsd.gz
 * /usr/share/man/man3/arc4random_addrandom.3bsd.gz
 * /usr/share/man/man3/arc4random_buf.3bsd.gz

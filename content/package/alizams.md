@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "alizams 1.9.5-3"
-version = "1.9.5-3"
+title = "alizams 1.9.7-1"
+version = "1.9.7-1"
 description = "Qt6 DICOM Viewer"
-date = "2024-02-19T20:51:01"
+date = "2024-02-28T13:56:12"
 aliases = "/packages/220909"
 categories = ['xapps-extra']
 upstreamurl = "https://www.aliza-dicom-viewer.com"
 arch = "x86_64"
-size = "2429944"
-usize = "12502426"
-sha1sum = "c909c73632cb3cb174f440f25f1a6d065e8e1933"
+size = "2436520"
+usize = "12506822"
+sha1sum = "675f038a62808de710afa4952aca2fad927ef296"
 depends = "['insight-toolkit', 'qt6-5compat', 'qt6-base', 'qt6-base-sql-common']"
 +++
 ### Description: 
@@ -22,8 +22,8 @@ Qt6 DICOM Viewer
 * /usr/share/alizams/datasets/001US/TESTXX02.dcm
 * /usr/share/alizams/datasets/001US/TESTXX04_SR.dcm
 * /usr/share/applications/alizams.desktop
-* /usr/share/doc/alizams-1.9.5/LICENSE
-* /usr/share/doc/alizams-1.9.5/README.md
+* /usr/share/doc/alizams-1.9.7/LICENSE
+* /usr/share/doc/alizams-1.9.7/README.md
 * /usr/share/icons/hicolor/128x128/apps/alizams.png
 * /usr/share/icons/hicolor/16x16/apps/alizams.png
 * /usr/share/icons/hicolor/192x192/apps/alizams.png
