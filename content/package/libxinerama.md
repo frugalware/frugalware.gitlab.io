@@ -12,7 +12,7 @@ size = "23736"
 usize = "69030"
 sha1sum = "a0585779db61a5d5080155b7c150248b01b18ee2"
 depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3']"
-reverse_depends = "['argyllcms', 'box2d', 'conky', 'dmenu', 'dunst', 'efl', 'enlightenment', 'feh', 'fltk', 'freerdp', 'geogram', 'gtk+2-libs', 'gtk+4', 'ksubeditor', 'ksubtile', 'mpv', 'obs-studio', 'openbox', 'opendiablo2', 'openjre-x', 'spice-vdagent', 'ssr', 'terminology', 'virtualbox', 'vlc-skins', 'wine', 'wine-devel', 'xf86-input-wacom', 'xf86-video-intel', 'xine-lib', 'xinput', 'xterm']"
+reverse_depends = "['argyllcms', 'box2d', 'conky', 'dmenu', 'dunst', 'dzen', 'efl', 'enlightenment', 'feh', 'fltk', 'freerdp', 'geogram', 'gtk+2-libs', 'gtk+4', 'ksubeditor', 'ksubtile', 'mpv', 'obs-studio', 'openbox', 'opendiablo2', 'openjre-x', 'spice-vdagent', 'ssr', 'terminology', 'virtualbox', 'vlc-skins', 'wine', 'wine-devel', 'xf86-input-wacom', 'xf86-video-intel', 'xine-lib', 'xinput', 'xterm']"
 license = "GPL2"
 +++
 ### Description: 

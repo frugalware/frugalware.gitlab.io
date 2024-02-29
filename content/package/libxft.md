@@ -12,7 +12,7 @@ size = "82772"
 usize = "213253"
 sha1sum = "461a2ebf131ddc93eaa281db2967029922e4e5f7"
 depends = "['fontconfig>=2.12.6-2', 'freetype2>=2.9', 'libx11>=1.6.7-2', 'libxext>=1.3.4-2', 'libxrender>=0.9.10-6']"
-reverse_depends = "['conky', 'dmenu', 'firefox', 'fltk', 'fluxbox', 'fox', 'fox-1.2', 'ksubeditor', 'ksubtile', 'm17n-lib', 'pango', 'plasma-desktop', 'plasma-workspace', 'tk', 'wmi', 'xclock', 'xfd', 'xscreensaver-data', 'xterm']"
+reverse_depends = "['conky', 'dmenu', 'dzen', 'firefox', 'fltk', 'fluxbox', 'fox', 'fox-1.2', 'ksubeditor', 'ksubtile', 'm17n-lib', 'pango', 'plasma-desktop', 'plasma-workspace', 'tk', 'wmi', 'xclock', 'xfd', 'xscreensaver-data', 'xterm']"
 license = "GPL2"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "portaudio 19.7.0-1"
-version = "19.7.0-1"
+title = "portaudio 19.7.0-2"
+version = "19.7.0-2"
 description = "PortAudio is a free, cross platform, open-source, audio I/O library"
-date = "2024-02-28T14:31:48"
+date = "2024-02-29T19:56:04"
 aliases = "/packages/16103"
 categories = ['multimedia-extra']
 upstreamurl = "https://github.com/portaudio/portaudio"
 arch = "x86_64"
-size = "84044"
+size = "84140"
 usize = "309605"
-sha1sum = "499558dc1b2b5cbba52f6570ea3aa06529f77064"
+sha1sum = "b6e9aed35547d4ba39ddf515d48b002abcd48d50"
 depends = "['alsa-lib>=1.1.2-2']"
 reverse_depends = "['espeak', 'guvcview', 'libopenmpt', 'mixxx', 'performous']"
 +++
