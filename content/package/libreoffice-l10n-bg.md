@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-bg 24.2.0.3-1"
-version = "24.2.0.3-1"
+title = "libreoffice-l10n-bg 24.2.1.2-1"
+version = "24.2.1.2-1"
 description = "Installs Bulgarian support in LibreOffice"
-date = "2024-02-09T23:53:11"
+date = "2024-02-29T16:29:34"
 aliases = "/packages/104037"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4897228"
-usize = "43496624"
-sha1sum = "258124215b6201e844b065f953839d9acfc29e9c"
+size = "4896388"
+usize = "43498582"
+sha1sum = "d627878e428c371ec988dd6a3ac4cf1ce2fb272d"
 depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
