@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hsakmt-roct 6.0.0-1"
-version = "6.0.0-1"
+title = "hsakmt-roct 6.0.0-2"
+version = "6.0.0-2"
 description = "Radeon Open Compute Thunk Interface"
-date = "2024-02-29T18:00:16"
+date = "2024-02-29T21:05:45"
 aliases = "/packages/221250"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ROCm/ROCT-Thunk-Interface"
 arch = "x86_64"
-size = "78244"
+size = "78652"
 usize = "283746"
-sha1sum = "df896fa894744b49a2b08f8e1f3ae9fb54106911"
+sha1sum = "63313233e579cb362dd3a6da8f9bb51d19b7d474"
 depends = "['libdrm', 'numactl', 'pciutils', 'rocm-core']"
 reverse_depends = "['hsa-rocr']"
 +++

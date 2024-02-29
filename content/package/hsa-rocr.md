@@ -12,6 +12,7 @@ size = "487864"
 usize = "3054744"
 sha1sum = "5805fe7f075b178542bf0121665e57f6f21936cb"
 depends = "['hsakmt-roct', 'rocm-core', 'rocm-device-libs']"
+reverse_depends = "['rocminfo']"
 +++
 ### Description: 
 HSA Runtime API and runtime for ROCm
