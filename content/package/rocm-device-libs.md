@@ -12,7 +12,7 @@ size = "458596"
 usize = "3286060"
 sha1sum = "9f3b46aa897cd19bb44c642c250b47e1e1cd20da"
 depends = "['glibc']"
-reverse_depends = "['comgr']"
+reverse_depends = "['comgr', 'hsa-rocr']"
 +++
 ### Description: 
 ROCm Device Libraries

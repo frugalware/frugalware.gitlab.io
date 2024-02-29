@@ -12,6 +12,7 @@ size = "78244"
 usize = "283746"
 sha1sum = "df896fa894744b49a2b08f8e1f3ae9fb54106911"
 depends = "['libdrm', 'numactl', 'pciutils', 'rocm-core']"
+reverse_depends = "['hsa-rocr']"
 +++
 ### Description: 
 Radeon Open Compute Thunk Interface
