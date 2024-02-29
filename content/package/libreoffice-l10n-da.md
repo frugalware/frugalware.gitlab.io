@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4757444"
 usize = "35198277"
 sha1sum = "00b41809ef8c6b0009e6fd32a2577b2b98d0d5df"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Danish support in LibreOffice

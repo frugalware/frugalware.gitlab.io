@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "363364"
 usize = "1993445"
 sha1sum = "eafad44063fb9426ab13bab19270056c8229fa8f"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Guarani support in LibreOffice

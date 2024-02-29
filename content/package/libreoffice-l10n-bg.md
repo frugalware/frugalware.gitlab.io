@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4897228"
 usize = "43496624"
 sha1sum = "258124215b6201e844b065f953839d9acfc29e9c"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Bulgarian support in LibreOffice

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "512640"
 usize = "3065818"
 sha1sum = "785063ebdcd205f3e59e5c980f28351a1356f9ab"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Serbian (Cyrillic) support in LibreOffice

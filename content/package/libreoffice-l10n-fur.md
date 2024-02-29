@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "156568"
 usize = "1107496"
 sha1sum = "2300325cd20b1f60187b94b5c1c4efc1204c44f8"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Friulian support in LibreOffice

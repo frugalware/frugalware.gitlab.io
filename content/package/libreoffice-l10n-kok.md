@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "287088"
 usize = "1943740"
 sha1sum = "3fbc55b26ee63a90d089b7db7fed6b6eecb4c9cb"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Konkani support in LibreOffice

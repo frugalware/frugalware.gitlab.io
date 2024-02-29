@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "119196"
 usize = "946603"
 sha1sum = "f69d34652d9b1a5c966d43649f7da223536d5708"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Luxembourgish support in LibreOffice

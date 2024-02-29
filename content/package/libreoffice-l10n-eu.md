@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4670880"
 usize = "35614073"
 sha1sum = "ddf694db09b6f1829617f096c44127fbb62524e3"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Basque support in LibreOffice

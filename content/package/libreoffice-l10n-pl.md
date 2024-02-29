@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4854836"
 usize = "36110740"
 sha1sum = "0d0f2dcd93e27f188955d3cb140de843d5557820"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Polish support in LibreOffice

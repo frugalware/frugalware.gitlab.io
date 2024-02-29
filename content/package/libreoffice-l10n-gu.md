@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "3718524"
 usize = "32461296"
 sha1sum = "f6927721555a8889b76afc475f7ccb91966a012d"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Gujarati support in LibreOffice

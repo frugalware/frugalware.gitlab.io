@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "5056088"
 usize = "46301392"
 sha1sum = "5e68fbcf0c32174afa8b41b5542a0d8c5e55403a"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Greek support in LibreOffice

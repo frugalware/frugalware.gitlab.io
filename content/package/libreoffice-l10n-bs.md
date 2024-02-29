@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "3919104"
 usize = "31999419"
 sha1sum = "3a3c87d02fc3d769dc4aefd8b16534d47dc76e90"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Bosnian support in LibreOffice

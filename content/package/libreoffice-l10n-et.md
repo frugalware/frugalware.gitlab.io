@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4526476"
 usize = "34113318"
 sha1sum = "8395a65dd7b2fbff222bdf09752914b75020a9da"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Estonian support in LibreOffice

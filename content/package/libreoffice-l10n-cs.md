@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4725692"
 usize = "35394036"
 sha1sum = "190c81a9ee50253b79578118626861a52898b42c"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Czech support in LibreOffice

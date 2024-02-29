@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "618252"
 usize = "3296022"
 sha1sum = "f30bfb551cf4ec2353bf1f575e571270ec4cb8ed"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Mongolian support in LibreOffice

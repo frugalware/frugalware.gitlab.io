@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "3801548"
 usize = "32901828"
 sha1sum = "653dc4b5c2b4efd413ca029584f205ecc770bc7f"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Sinhala support in LibreOffice

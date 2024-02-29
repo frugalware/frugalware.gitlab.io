@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "3900152"
 usize = "32415878"
 sha1sum = "8b969a06dcb71d990578ccbc41162b3c769acb53"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Croatian support in LibreOffice

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4909988"
 usize = "37474444"
 sha1sum = "51263d9328c7ac0cd5991ec971eb72fa8081c385"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs French support in LibreOffice

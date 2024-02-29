@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "3699092"
 usize = "31661181"
 sha1sum = "aee1289a22f70df31324e2d5ba585bfe71ae4d2f"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Albanian support in LibreOffice

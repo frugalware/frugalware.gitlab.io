@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "585868"
 usize = "2704221"
 sha1sum = "640e97eab8ac2c1746a1fc012c7183ac8f100374"
-depends = "['gtk+3', 'libreoffice>=24.2.0.3']"
+depends = "['gtk+3', 'libreoffice>=24.2.1.2']"
 reverse_depends = "['libreoffice-gtk3-kde5']"
 +++
 ### Description: 

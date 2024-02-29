@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "11012"
 usize = "0"
 sha1sum = "d302eda1d8dc0dbbce10a4b52be30f1c26d8b844"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs scripting javascript support in LibreOffice

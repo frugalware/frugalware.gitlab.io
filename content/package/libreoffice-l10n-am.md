@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4631172"
 usize = "38197057"
 sha1sum = "fd73fa404c641d602a6be437f55dc2411205ed0c"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Amharic support in LibreOffice

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4474776"
 usize = "43090494"
 sha1sum = "c178ff53a3139974b1e9c2f9705754eb04d79605"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Dzongkha support in LibreOffice

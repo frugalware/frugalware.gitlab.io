@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4594812"
 usize = "38580891"
 sha1sum = "017801ef90b9781a566578cde05d12b801aaa503"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Bengali (India) support in LibreOffice

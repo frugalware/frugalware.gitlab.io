@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "3979076"
 usize = "32730163"
 sha1sum = "c261a684fe9dc33d509d933adcc9ecbd3958c036"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Icelandic support in LibreOffice

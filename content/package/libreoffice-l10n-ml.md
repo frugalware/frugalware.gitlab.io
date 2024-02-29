@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "361464"
 usize = "2538222"
 sha1sum = "0b87843981e8e3b20c1cf6e4814894a5f0a8bfba"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Malayalam support in LibreOffice

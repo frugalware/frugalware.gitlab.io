@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4338644"
 usize = "38340900"
 sha1sum = "bdad8ae3d392f912b117d213ca0b235869f17257"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Tibetan support in LibreOffice

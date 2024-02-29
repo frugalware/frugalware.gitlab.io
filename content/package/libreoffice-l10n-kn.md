@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "389020"
 usize = "2611725"
 sha1sum = "e4806e4b4111c7837f3cca61f90fc6b1b80e0dbf"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Kannada support in LibreOffice

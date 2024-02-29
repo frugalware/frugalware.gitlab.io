@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "303592"
 usize = "1842853"
 sha1sum = "1708249eb25d066b7bfa5dc063c05e769e1ad369"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Sindhi support in LibreOffice

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4711408"
 usize = "43972390"
 sha1sum = "a2131b689e0654fc5fae6a39a4b5e2220d5df560"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Khmer support in LibreOffice

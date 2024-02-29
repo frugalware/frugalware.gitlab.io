@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "195720"
 usize = "1239658"
 sha1sum = "6b3d5663d48d2ab6c0baf7ff86ed0e67b729355b"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Serbian (Latin) support in LibreOffice

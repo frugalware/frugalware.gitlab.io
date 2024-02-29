@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "456112"
 usize = "2632260"
 sha1sum = "b995c76e9d5902065b75c0928f5a55556f059bdb"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Belarusian support in LibreOffice

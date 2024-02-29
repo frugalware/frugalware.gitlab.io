@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "240276"
 usize = "1783123"
 sha1sum = "c9ad47cc5411247bd41c9f05e4f833d1e9be0a07"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Bodo support in LibreOffice

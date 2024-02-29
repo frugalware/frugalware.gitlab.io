@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "3858072"
 usize = "32691078"
 sha1sum = "9e9e97a7433cce37108a5ef99bba4ca01f8578c6"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Arabic support in LibreOffice

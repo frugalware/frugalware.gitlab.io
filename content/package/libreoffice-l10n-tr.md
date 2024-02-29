@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4813576"
 usize = "35617946"
 sha1sum = "3bc9c0254ea21fea09af2aa42e103b6c332e7d62"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Turkish support in LibreOffice

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "503344"
 usize = "2649378"
 sha1sum = "666cf7a957d583fe9b4f421e7068fcd9a2b74976"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Irish support in LibreOffice

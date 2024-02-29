@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4977544"
 usize = "40011238"
 sha1sum = "ec23158ebf78348da663975970103e67259d3767"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Russian support in LibreOffice

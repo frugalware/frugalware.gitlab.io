@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "360668"
 usize = "2412122"
 sha1sum = "c85b9ac2f1a01fc383e2b71c97faf3b35324bd70"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Assamese support in LibreOffice

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "443644"
 usize = "2361078"
 sha1sum = "926c90c2884207f76fec7bca807a129a4214626b"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Breton support in LibreOffice

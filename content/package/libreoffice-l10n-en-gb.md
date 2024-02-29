@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "3930732"
 usize = "33360018"
 sha1sum = "b28e2f595187f12e0d4a732a38302f012212566e"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs English (United Kingdom) support in LibreOffice

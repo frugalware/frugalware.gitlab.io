@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "363148"
 usize = "2404446"
 sha1sum = "91dc0edfca91f07499f38a7496212d3e50938df7"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Telugu support in LibreOffice

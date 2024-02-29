@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "3710412"
 usize = "31192439"
 sha1sum = "b50899917ed2ce86542829531cbda8b0fb37e955"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Hebrew support in LibreOffice

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4454808"
 usize = "34857475"
 sha1sum = "16edac2e92a70a3dbc33ec4e39e8c16b1df444df"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Lower Sorbian support in LibreOffice

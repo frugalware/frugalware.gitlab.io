@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4527508"
 usize = "34460670"
 sha1sum = "54f29ccebb38643efbec2bfc675655080120da26"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Finnish support in LibreOffice

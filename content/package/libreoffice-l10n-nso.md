@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "234868"
 usize = "1456358"
 sha1sum = "81c66ed0d5feeab48dc84a3c929a392db2d97368"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Northern Sotho support in LibreOffice

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4957508"
 usize = "36603799"
 sha1sum = "bc0ace269f136a3b79ffb4eec4c4bad21b10be2d"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Hungarian support in LibreOffice

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4313608"
 usize = "33451919"
 sha1sum = "5e8b73f6643620f82b501d5ab913777c5cd557a1"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Asturian support in LibreOffice

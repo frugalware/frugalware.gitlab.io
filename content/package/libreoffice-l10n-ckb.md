@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "254264"
 usize = "1651150"
 sha1sum = "c5f6eb8b563cf49b040f3a5d410514aa963183e6"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Central Kurdish support in LibreOffice

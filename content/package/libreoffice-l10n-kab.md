@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "445240"
 usize = "2309032"
 sha1sum = "31ecad2756a650e579b8ef0c58ba77c736aa04e5"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Kabyle support in LibreOffice

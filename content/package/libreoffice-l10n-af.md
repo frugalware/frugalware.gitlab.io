@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "782712"
 usize = "3942256"
 sha1sum = "4c8d76a01ff70e26a5c1db8593702d12f920c3b5"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Afrikaans support in LibreOffice

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4819376"
 usize = "35479507"
 sha1sum = "5e2320f574e78c85cbb550e1a8caf17876f8e157"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Slovenian support in LibreOffice

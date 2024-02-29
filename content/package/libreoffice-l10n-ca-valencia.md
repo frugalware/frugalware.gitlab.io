@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4686532"
 usize = "35924361"
 sha1sum = "cc59646c5ae0250cd52f682912da7f4d06658054"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Catalan (Valencian) support in LibreOffice

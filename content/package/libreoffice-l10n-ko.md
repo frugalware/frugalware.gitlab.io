@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4986108"
 usize = "35882396"
 sha1sum = "5b96258e4dcb8d26cb242b2f62fbe0701150e35a"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Korean support in LibreOffice

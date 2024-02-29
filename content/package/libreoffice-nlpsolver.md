@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "11008"
 usize = "0"
 sha1sum = "222236c420f260d519f68e873d5155bf221cceb3"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs nlpsolver support in LibreOffice

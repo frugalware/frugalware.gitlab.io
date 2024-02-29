@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "301836"
 usize = "2039605"
 sha1sum = "826e17e9e8755d2dad95506749b01394715c01b8"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Dogri support in LibreOffice

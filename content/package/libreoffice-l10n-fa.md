@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "285412"
 usize = "1748758"
 sha1sum = "3e71342044ac41329a6bb30a7914aef70e2c8cb1"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Persian support in LibreOffice

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4557936"
 usize = "35003350"
 sha1sum = "20897d63da0e8e72fe1e88d30a03f9372bfb175b"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Galician support in LibreOffice

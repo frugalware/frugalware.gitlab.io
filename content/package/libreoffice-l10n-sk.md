@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4652860"
 usize = "34780036"
 sha1sum = "8b5b27e37aa3c6818174e00699ac88422da46e85"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Slovak support in LibreOffice

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4471008"
 usize = "34453077"
 sha1sum = "2d67d46dc25ec117229bb80c19d265d90e77073a"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Indonesian support in LibreOffice

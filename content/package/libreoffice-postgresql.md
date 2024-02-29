@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "236512"
 usize = "941525"
 sha1sum = "a39f86a4b81effe9b5d0bd7bd0a1fb363182aa31"
-depends = "['libkrb5>=1.14.3', 'libpq', 'libreoffice>=24.2.0.3']"
+depends = "['libkrb5>=1.14.3', 'libpq', 'libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 libreoffice postgresql SDBC driver

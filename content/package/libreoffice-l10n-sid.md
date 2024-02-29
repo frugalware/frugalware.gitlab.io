@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4233548"
 usize = "32702822"
 sha1sum = "90fb71fd15d7b08886611fc8472ece7a534b0969"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Sidama support in LibreOffice

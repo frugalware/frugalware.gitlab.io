@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4367068"
 usize = "34043775"
 sha1sum = "74e39f4b5c3a486ed11e3825b47bcfaa20edb391"
-depends = "['libreoffice>=24.2.0.3']"
+depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
 Installs Esperanto support in LibreOffice
