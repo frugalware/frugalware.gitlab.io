@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libvdpau 1.2-4"
-version = "1.2-4"
+title = "libvdpau 1.5-1"
+version = "1.5-1"
 description = "VDPAU wrapper library"
-date = "2023-10-22T12:31:28"
+date = "2024-02-29T09:07:56"
 aliases = "/packages/74446"
 categories = ['x11']
-upstreamurl = "http://xorg.freedesktop.org"
+upstreamurl = "https://www.freedesktop.org/wiki/Software/VDPAU/"
 arch = "x86_64"
-size = "67464"
-usize = "310043"
-sha1sum = "9b1020133a723d44d3b3157475fd7b04f746638b"
+size = "60752"
+usize = "295186"
+sha1sum = "7e3b96b424a56c342767e3c88c4f03e316d2e630"
 depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3']"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'libva-vdpau-driver', 'libvdpau-va-gl', 'mencoder', 'mplayer', 'mpv', 'vdpauinfo']"
 +++
@@ -28,6 +28,5 @@ VDPAU wrapper library
 * /usr/lib/vdpau/libvdpau_trace.so
 * /usr/lib/vdpau/libvdpau_trace.so.1
 * /usr/lib/vdpau/libvdpau_trace.so.1.0.0
-* /usr/share/doc/libvdpau-1.2/AUTHORS
-* /usr/share/doc/libvdpau-1.2/ChangeLog
-* /usr/share/doc/libvdpau-1.2/COPYING
+* /usr/share/doc/libvdpau-1.5/AUTHORS
+* /usr/share/doc/libvdpau-1.5/COPYING

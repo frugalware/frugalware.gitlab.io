@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libvdpau 1.2-4"
-version = "1.2-4"
+title = "lib32-libvdpau 1.5-1"
+version = "1.5-1"
 description = "VDPAU wrapper library ( 32bit )"
-date = "2023-10-22T12:31:28"
+date = "2024-02-29T09:07:56"
 aliases = "/packages/218868"
 categories = ['lib32-extra']
-upstreamurl = "http://xorg.freedesktop.org"
+upstreamurl = "https://www.freedesktop.org/wiki/Software/VDPAU/"
 arch = "x86_64"
-size = "53052"
-usize = "270705"
-sha1sum = "c35363cec61f25ef35ee72231a5fc91b35763930"
+size = "57264"
+usize = "300958"
+sha1sum = "3f6cf882f67d54d993cb7466a49a29e35275a308"
 depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxext>=1.3.3-3']"
 reverse_depends = "['lib32-ffmpeg']"
 +++
