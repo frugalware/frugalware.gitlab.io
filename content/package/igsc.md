@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "igsc 0.8.16-1"
-version = "0.8.16-1"
+title = "igsc 0.8.16-2"
+version = "0.8.16-2"
 description = "Intel graphics system controller firmware update library"
-date = "2023-11-06T15:36:03"
+date = "2024-02-29T10:03:47"
 aliases = "/packages/220867"
 categories = ['lib']
 upstreamurl = "https://github.com/intel/igsc"
 arch = "x86_64"
-size = "68424"
-usize = "251067"
-sha1sum = "27af5a3c8ca552f993c1dc0c08280a50b01678a2"
-depends = "['intel-metee>=3.2.3']"
+size = "68452"
+usize = "251071"
+sha1sum = "6d8d5ac5ed27db16e396d6c10ab4ba777b0b3f30"
+depends = "['intel-metee>=4.0.0']"
 reverse_depends = "['intel-compute-runtime']"
 +++
 ### Description: 

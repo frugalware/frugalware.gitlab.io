@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libglapi 24.0.1-1"
-version = "24.0.1-1"
+title = "libglapi 24.0.2-1"
+version = "24.0.2-1"
 description = "Mesa OpenGL API library."
-date = "2024-02-17T22:37:07"
+date = "2024-02-29T09:32:40"
 aliases = "/packages/136776"
 categories = ['x11']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "43360"
+size = "43760"
 usize = "210878"
-sha1sum = "9ff8fcf7f234d17080a0887a0b8f811a5b6db61b"
+sha1sum = "8556ce8d055a576e3d37ccd53d14c2c0f5ae5194"
 depends = "['glibc>=2.24-4']"
 reverse_depends = "['efl', 'libgbm', 'libgl', 'libgles', 'libosmesa', 'mesa-libglx', 'xorg-server', 'xorg-server-xephyr']"
 +++

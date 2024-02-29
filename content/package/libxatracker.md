@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxatracker 24.0.1-1"
-version = "24.0.1-1"
+title = "libxatracker 24.0.2-1"
+version = "24.0.2-1"
 description = "Mesa xatracker library"
-date = "2024-02-17T22:37:07"
+date = "2024-02-29T09:32:40"
 aliases = "/packages/217324"
 categories = ['x11']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "2588252"
+size = "2587756"
 usize = "10963550"
-sha1sum = "bd5b545e22b796efc2cb86eca031a03bea9e0160"
+sha1sum = "2b492ffeb7717265fc4fedaff002d4a3d2e3fe0a"
 depends = "['expat>=2.1.0-6', 'libdrm>=2.4.71', 'libffi>=3.2.1-2', 'llvm-libs>=17.0.6', 'zlib>=1.2.8-8']"
 reverse_depends = "['xf86-video-vmware']"
 +++

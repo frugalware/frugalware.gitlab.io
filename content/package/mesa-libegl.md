@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mesa-libegl 24.0.1-1"
-version = "24.0.1-1"
+title = "mesa-libegl 24.0.2-1"
+version = "24.0.2-1"
 description = "Mesa OpenEGL library."
-date = "2024-02-17T22:37:07"
+date = "2024-02-29T09:32:40"
 aliases = "/packages/219520"
 categories = ['x11']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "147172"
+size = "146928"
 usize = "369628"
-sha1sum = "c1602712cdf323e8bd5e5e94fb647bc041a178a4"
+sha1sum = "685d77e1713b9ced567545929111e352b51061dd"
 depends = "['libdrm>=2.4.70-2', 'libgbm', 'libx11>=1.6.4', 'libxshmfence>=1.2-3', 'wayland>=1.11.0-3']"
 reverse_depends = "['libepoxy', 'libwayland-egl', 'qt5-base', 'virtualbox', 'xorg-server']"
 +++

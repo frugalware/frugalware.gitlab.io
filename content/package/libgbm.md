@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libgbm 24.0.1-1"
-version = "24.0.1-1"
+title = "libgbm 24.0.2-1"
+version = "24.0.2-1"
 description = "Mesa gbm library."
-date = "2024-02-17T22:37:07"
+date = "2024-02-29T09:32:40"
 aliases = "/packages/136775"
 categories = ['x11']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "50420"
+size = "50704"
 usize = "81428"
-sha1sum = "cb650d418d288519e35df78f0eeef31db5487953"
+sha1sum = "497b6a1c9fdcd54d2dd3b80bfc69f23182737770"
 depends = "['libdrm>=2.4.71', 'libglapi', 'wayland>=1.11.0-3']"
 reverse_depends = "['efl', 'enlightenment', 'libegl', 'mesa-libegl', 'qemu', 'qt6-webengine', 'terminology', 'weston', 'wlroots', 'xf86-video-amdgpu', 'xorg-server']"
 +++
