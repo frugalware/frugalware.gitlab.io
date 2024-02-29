@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "okular 23.08.5-1"
-version = "23.08.5-1"
+title = "okular 23.08.5-2"
+version = "23.08.5-2"
 description = "KDE universal document viewer."
-date = "2024-02-20T13:32:15"
+date = "2024-02-29T12:15:45"
 aliases = "/packages/218510"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7187016"
+size = "7185076"
 usize = "19527824"
-sha1sum = "36dc38bb87791e52c15354722637b7c15fde250f"
+sha1sum = "d672db1091588b0d1a277cce2e7084c77a59a893"
 depends = "['attica>=5.115.0', 'chmlib>=0.40', 'discount>=3.0.0', 'djvulibre>=3.5.24', 'ebook-tools>=0.2.2-3', 'kactivities5>=5.115.0', 'kdegraphics-mobipocket>=23.08.5', 'khtml>=5.115.0', 'kirigami2>=5.115.0', 'kjs>=5.115.0', 'kpty>=5.115.0', 'libkexiv2>=23.08.5', 'libspectre>=0.2.6', 'libzip>=1.3.2-2', 'poppler-qt5>=0.60.1-2', 'purpose>=5.115.0', 'qt5-speech>=5.15.12', 'qt5-svg>=5.15.12', 'threadweaver>=5.115.0']"
 reverse_depends = "['kile']"
 +++
