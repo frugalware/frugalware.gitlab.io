@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libmpg123 1.31.3-1"
-version = "1.31.3-1"
+title = "libmpg123 1.32.5-1"
+version = "1.32.5-1"
 description = "libmpg123 is the API used by the mpg123 audio player"
-date = "2023-09-12T07:18:35"
+date = "2024-03-01T09:37:17"
 aliases = "/packages/88550"
-categories = ['lib-extra']
+categories = ['lib']
 upstreamurl = "http://www.mpg123.de"
 arch = "x86_64"
-size = "294308"
-usize = "845841"
-sha1sum = "fb40bd410aefa86ff21c7b72f324013b53f2da9e"
+size = "297924"
+usize = "871472"
+sha1sum = "8a445542b514526d63844522a348c5023a3bf0f1"
 depends = "['libtool']"
 reverse_depends = "['libopenmpt', 'mpd', 'mpg123', 'qmmp', 'vlc-mpg123', 'wine', 'wine-devel']"
 +++
@@ -24,13 +24,13 @@ libmpg123 is the API used by the mpg123 audio player
 * /usr/include/syn123.h
 * /usr/lib/libmpg123.so
 * /usr/lib/libmpg123.so.0
-* /usr/lib/libmpg123.so.0.47.0
+* /usr/lib/libmpg123.so.0.48.2
 * /usr/lib/libout123.so
 * /usr/lib/libout123.so.0
-* /usr/lib/libout123.so.0.4.7
+* /usr/lib/libout123.so.0.5.1
 * /usr/lib/libsyn123.so
 * /usr/lib/libsyn123.so.0
-* /usr/lib/libsyn123.so.0.1.5
+* /usr/lib/libsyn123.so.0.2.3
 * /usr/lib/mpg123/output_dummy.so
 * /usr/lib/mpg123/output_oss.so
 * /usr/lib/pkgconfig/libmpg123.pc

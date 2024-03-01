@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-pixman 0.43.2-1"
-version = "0.43.2-1"
+title = "lib32-pixman 0.43.4-1"
+version = "0.43.4-1"
 description = "X.Org pixman library ( 32bit )"
-date = "2024-01-29T08:06:29"
+date = "2024-03-01T09:33:54"
 aliases = "/packages/218889"
 categories = ['lib32-extra']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "261432"
+size = "261652"
 usize = "801457"
-sha1sum = "6b494a403585c86af5e74d932817b3a259f79018"
+sha1sum = "4b66600dd8122aefdf814a63b8bb161427e78835"
 depends = "['lib32-libpng']"
 reverse_depends = "['lib32-cairo', 'lib32-xorg-server', 'lib32-xorg-server-fbdev', 'lib32-xorg-server-xephyr']"
 +++
@@ -22,5 +22,5 @@ X.Org pixman library ( 32bit )
 * /usr/i686-frugalware-linux/include/pixman-1/pixman.h
 * /usr/lib32/libpixman-1.so
 * /usr/lib32/libpixman-1.so.0
-* /usr/lib32/libpixman-1.so.0.43.2
+* /usr/lib32/libpixman-1.so.0.43.4
 * /usr/lib32/pkgconfig/pixman-1.pc

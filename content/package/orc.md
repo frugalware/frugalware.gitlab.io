@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "orc 0.4.37-1"
-version = "0.4.37-1"
+title = "orc 0.4.38-1"
+version = "0.4.38-1"
 description = "The Oil Runtime Compiler"
-date = "2024-02-19T09:13:29"
+date = "2024-03-01T09:54:48"
 aliases = "/packages/168895"
 categories = ['devel']
 upstreamurl = "http://gstreamer.freedesktop.org/"
 arch = "x86_64"
-size = "236264"
-usize = "1107608"
-sha1sum = "e001cf285857202d7fe3488b8f6556a983d334e7"
+size = "234692"
+usize = "1097629"
+sha1sum = "52adc6c17951d240f8c2988ee1bfcedcac6dadd3"
 depends = "['glibc>=2.34']"
 reverse_depends = "['efl', 'gst1-plugins-base', 'gst1-plugins-good', 'gst1-plugins-ugly', 'libpulse', 'libvips', 'spice']"
 +++
@@ -59,14 +59,13 @@ The Oil Runtime Compiler
 * /usr/include/orc-0.4/orc/orcx86insn.h
 * /usr/lib/liborc-0.4.so
 * /usr/lib/liborc-0.4.so.0
-* /usr/lib/liborc-0.4.so.0.37.0
+* /usr/lib/liborc-0.4.so.0.38.0
 * /usr/lib/liborc-test-0.4.so
 * /usr/lib/liborc-test-0.4.so.0
-* /usr/lib/liborc-test-0.4.so.0.37.0
+* /usr/lib/liborc-test-0.4.so.0.38.0
 * /usr/lib/pkgconfig/orc-0.4.pc
 * /usr/lib/pkgconfig/orc-test-0.4.pc
-* /usr/share/aclocal/orc.m4
-* /usr/share/doc/orc-0.4.37/COPYING
-* /usr/share/doc/orc-0.4.37/README
-* /usr/share/doc/orc-0.4.37/RELEASE
-* /usr/share/doc/orc-0.4.37/TODO
+* /usr/share/doc/orc-0.4.38/COPYING
+* /usr/share/doc/orc-0.4.38/README
+* /usr/share/doc/orc-0.4.38/RELEASE
+* /usr/share/doc/orc-0.4.38/TODO

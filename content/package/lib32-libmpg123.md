@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libmpg123 1.31.3-1"
-version = "1.31.3-1"
+title = "lib32-libmpg123 1.32.5-1"
+version = "1.32.5-1"
 description = "libmpg123 is the API used by the mpg123 audio player (32-bit)"
-date = "2023-09-12T07:18:35"
+date = "2024-03-01T09:37:17"
 aliases = "/packages/217741"
 categories = ['lib32-extra']
 upstreamurl = "http://www.mpg123.de"
 arch = "x86_64"
-size = "276440"
-usize = "855384"
-sha1sum = "d818ce220b20dff11f11345c4d8ae98f95ca6af8"
+size = "279756"
+usize = "881015"
+sha1sum = "52449bc2b5e98a10a7e4b1cf552302f309c310a2"
 depends = "['lib32-libtool']"
 reverse_depends = "['get_steam']"
 +++
@@ -24,13 +24,13 @@ libmpg123 is the API used by the mpg123 audio player (32-bit)
 * /usr/i686-frugalware-linux/include/syn123.h
 * /usr/lib32/libmpg123.so
 * /usr/lib32/libmpg123.so.0
-* /usr/lib32/libmpg123.so.0.47.0
+* /usr/lib32/libmpg123.so.0.48.2
 * /usr/lib32/libout123.so
 * /usr/lib32/libout123.so.0
-* /usr/lib32/libout123.so.0.4.7
+* /usr/lib32/libout123.so.0.5.1
 * /usr/lib32/libsyn123.so
 * /usr/lib32/libsyn123.so.0
-* /usr/lib32/libsyn123.so.0.1.5
+* /usr/lib32/libsyn123.so.0.2.3
 * /usr/lib32/mpg123/output_dummy.so
 * /usr/lib32/mpg123/output_oss.so
 * /usr/lib32/pkgconfig/libmpg123.pc

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-orc 0.4.37-1"
-version = "0.4.37-1"
+title = "lib32-orc 0.4.38-1"
+version = "0.4.38-1"
 description = "The Oil Runtime Compiler ( 32bit )"
-date = "2024-02-19T09:13:29"
+date = "2024-03-01T09:54:48"
 aliases = "/packages/217940"
 categories = ['lib32-extra']
 upstreamurl = "http://gstreamer.freedesktop.org/"
 arch = "x86_64"
-size = "239480"
-usize = "1173719"
-sha1sum = "920c62dbae2aa2e5af2861e3d6f5f7238e7701d1"
+size = "238428"
+usize = "1169623"
+sha1sum = "cb298f6d09469ce062417607bba35b7d96b1d545"
 depends = "[]"
 reverse_depends = "['lib32-libpulse']"
 +++
@@ -59,9 +59,9 @@ The Oil Runtime Compiler ( 32bit )
 * /usr/i686-frugalware-linux/include/orc-0.4/orc/orcx86insn.h
 * /usr/lib32/liborc-0.4.so
 * /usr/lib32/liborc-0.4.so.0
-* /usr/lib32/liborc-0.4.so.0.37.0
+* /usr/lib32/liborc-0.4.so.0.38.0
 * /usr/lib32/liborc-test-0.4.so
 * /usr/lib32/liborc-test-0.4.so.0
-* /usr/lib32/liborc-test-0.4.so.0.37.0
+* /usr/lib32/liborc-test-0.4.so.0.38.0
 * /usr/lib32/pkgconfig/orc-0.4.pc
 * /usr/lib32/pkgconfig/orc-test-0.4.pc
