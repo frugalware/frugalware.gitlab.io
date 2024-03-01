@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tcl 8.6.13-1"
-version = "8.6.13-1"
+title = "tcl 8.6.14-1"
+version = "8.6.14-1"
 description = "The Tcl scripting language"
-date = "2022-12-19T15:57:25"
+date = "2024-03-01T10:56:14"
 aliases = "/packages/3350"
 categories = ['devel']
 upstreamurl = "http://tcl.tk"
 arch = "x86_64"
-size = "3216492"
-usize = "14219083"
-sha1sum = "e54aa2de9d55e125137a547fcfd640bfd640c981"
+size = "3265964"
+usize = "14271723"
+sha1sum = "2f8550205aa404d9071981f0e8c7c0edfc05fcc5"
 depends = "['zlib>=1.2.12']"
 reverse_depends = "['expect', 'insight-toolkit', 'postgresql-pltcl', 'sqlite3-tcl', 'tk', 'usb-modeswitch']"
 +++
@@ -89,17 +89,17 @@ The Tcl scripting language
 * /usr/include/tdbc.h
 * /usr/include/tdbcDecls.h
 * /usr/include/tdbcInt.h
-* /usr/lib/itcl4.2.3/itcl.tcl
-* /usr/lib/itcl4.2.3/itclConfig.sh
-* /usr/lib/itcl4.2.3/itclHullCmds.tcl
-* /usr/lib/itcl4.2.3/itclWidget.tcl
-* /usr/lib/itcl4.2.3/libitcl4.2.3.so
-* /usr/lib/itcl4.2.3/pkgIndex.tcl
+* /usr/lib/itcl4.2.4/itcl.tcl
+* /usr/lib/itcl4.2.4/itclConfig.sh
+* /usr/lib/itcl4.2.4/itclHullCmds.tcl
+* /usr/lib/itcl4.2.4/itclWidget.tcl
+* /usr/lib/itcl4.2.4/libitcl4.2.4.so
+* /usr/lib/itcl4.2.4/pkgIndex.tcl
 * /usr/lib/libtcl.so
 * /usr/lib/libtcl8.6.so
 * /usr/lib/pkgconfig/tcl.pc
-* /usr/lib/sqlite3.40.0/libsqlite3.40.0.so
-* /usr/lib/sqlite3.40.0/pkgIndex.tcl
+* /usr/lib/sqlite3.44.2/libsqlite3.44.2.so
+* /usr/lib/sqlite3.44.2/pkgIndex.tcl
 * /usr/lib/tcl8.6/auto.tcl
 * /usr/lib/tcl8.6/clock.tcl
 * /usr/lib/tcl8.6/encoding/ascii.enc
@@ -325,29 +325,29 @@ The Tcl scripting language
 * /usr/lib/tcl8/8.4/platform-1.0.19.tm
 * /usr/lib/tcl8/8.4/platform/shell-1.1.4.tm
 * /usr/lib/tcl8/8.5/msgcat-1.6.1.tm
-* /usr/lib/tcl8/8.5/tcltest-2.5.5.tm
+* /usr/lib/tcl8/8.5/tcltest-2.5.7.tm
 * /usr/lib/tcl8/8.6/http-2.9.8.tm
-* /usr/lib/tcl8/8.6/tdbc/sqlite3-1.1.5.tm
+* /usr/lib/tcl8/8.6/tdbc/sqlite3-1.1.7.tm
 * /usr/lib/tclConfig.sh
 * /usr/lib/tclooConfig.sh
-* /usr/lib/tdbc1.1.5/libtdbc1.1.5.so
-* /usr/lib/tdbc1.1.5/pkgIndex.tcl
-* /usr/lib/tdbc1.1.5/tdbc.tcl
-* /usr/lib/tdbc1.1.5/tdbcConfig.sh
-* /usr/lib/tdbcmysql1.1.5/libtdbcmysql1.1.5.so
-* /usr/lib/tdbcmysql1.1.5/pkgIndex.tcl
-* /usr/lib/tdbcmysql1.1.5/tdbcmysql.tcl
-* /usr/lib/tdbcodbc1.1.5/libtdbcodbc1.1.5.so
-* /usr/lib/tdbcodbc1.1.5/pkgIndex.tcl
-* /usr/lib/tdbcodbc1.1.5/tdbcodbc.tcl
-* /usr/lib/tdbcpostgres1.1.5/libtdbcpostgres1.1.5.so
-* /usr/lib/tdbcpostgres1.1.5/pkgIndex.tcl
-* /usr/lib/tdbcpostgres1.1.5/tdbcpostgres.tcl
-* /usr/lib/thread2.8.8/libthread2.8.8.so
-* /usr/lib/thread2.8.8/pkgIndex.tcl
-* /usr/lib/thread2.8.8/ttrace.tcl
-* /usr/share/doc/tcl-8.6.13/ChangeLog
-* /usr/share/doc/tcl-8.6.13/README.md
+* /usr/lib/tdbc1.1.7/libtdbc1.1.7.so
+* /usr/lib/tdbc1.1.7/pkgIndex.tcl
+* /usr/lib/tdbc1.1.7/tdbc.tcl
+* /usr/lib/tdbc1.1.7/tdbcConfig.sh
+* /usr/lib/tdbcmysql1.1.7/libtdbcmysql1.1.7.so
+* /usr/lib/tdbcmysql1.1.7/pkgIndex.tcl
+* /usr/lib/tdbcmysql1.1.7/tdbcmysql.tcl
+* /usr/lib/tdbcodbc1.1.7/libtdbcodbc1.1.7.so
+* /usr/lib/tdbcodbc1.1.7/pkgIndex.tcl
+* /usr/lib/tdbcodbc1.1.7/tdbcodbc.tcl
+* /usr/lib/tdbcpostgres1.1.7/libtdbcpostgres1.1.7.so
+* /usr/lib/tdbcpostgres1.1.7/pkgIndex.tcl
+* /usr/lib/tdbcpostgres1.1.7/tdbcpostgres.tcl
+* /usr/lib/thread2.8.9/libthread2.8.9.so
+* /usr/lib/thread2.8.9/pkgIndex.tcl
+* /usr/lib/thread2.8.9/ttrace.tcl
+* /usr/share/doc/tcl-8.6.14/ChangeLog
+* /usr/share/doc/tcl-8.6.14/README.md
 * /usr/share/man/man1/tclsh.1.gz
 * /usr/share/man/man3/attemptckalloc.3.gz
 * /usr/share/man/man3/attemptckrealloc.3.gz
