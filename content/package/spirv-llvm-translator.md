@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "spirv-llvm-translator 17.0.0.g43acfef-1"
-version = "17.0.0.g43acfef-1"
+title = "spirv-llvm-translator 17.0.0.g7d7e0ac-1"
+version = "17.0.0.g7d7e0ac-1"
 description = "Tool and a library for bi-directional translation between SPIR-V and LLVM IR"
-date = "2024-02-09T13:29:30"
+date = "2024-03-01T10:49:03"
 aliases = "/packages/220082"
 categories = ['devel']
 upstreamurl = "https://github.com/KhronosGroup/SPIRV-LLVM-Translator"
 arch = "x86_64"
-size = "725840"
+size = "727008"
 usize = "3718170"
-sha1sum = "2d535511927dfe678f0d04de9df4c37b155a6f28"
+sha1sum = "87ee9ae50496426b7621cec5ee8191ea014f125c"
 depends = "['libxml2', 'llvm-libs>=17.0.6', 'spirv-tools']"
 reverse_depends = "['opencl-clover', 'opencl-rusticl']"
 +++
@@ -25,4 +25,4 @@ Tool and a library for bi-directional translation between SPIR-V and LLVM IR
 * /usr/lib/libLLVMSPIRVLib.so
 * /usr/lib/libLLVMSPIRVLib.so.17
 * /usr/lib/pkgconfig/LLVMSPIRVLib.pc
-* /usr/share/doc/spirv-llvm-translator-17.0.0.g43acfef/README.md
+* /usr/share/doc/spirv-llvm-translator-17.0.0.g7d7e0ac/README.md
