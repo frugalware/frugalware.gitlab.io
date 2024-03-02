@@ -12,6 +12,7 @@ size = "39646320"
 usize = "164796036"
 sha1sum = "771701441f535f73bba282839181560727cbb2ca"
 depends = "['rocm-core', 'rocm-device-libs']"
+reverse_depends = "['hip-runtime-amd']"
 +++
 ### Description: 
 Compiler support library for ROCm LLVM

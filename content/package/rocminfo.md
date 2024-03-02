@@ -12,6 +12,7 @@ size = "24000"
 usize = "81261"
 sha1sum = "793f4a2ae71fa9c3f5c25314f1dc4a1968c3b71b"
 depends = "['hsa-rocr', 'rocm-core']"
+reverse_depends = "['hip-runtime-amd']"
 +++
 ### Description: 
 ROCm Application for Reporting System Info
