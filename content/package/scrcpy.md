@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "scrcpy 2.3.1-1"
-version = "2.3.1-1"
+title = "scrcpy 2.4-1"
+version = "2.4-1"
 description = "Display and control your Android device"
-date = "2023-12-14T18:17:55"
+date = "2024-03-03T17:13:11"
 aliases = "/packages/220940"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/Genymobile/scrcpy"
 arch = "x86_64"
-size = "155772"
-usize = "296492"
-sha1sum = "3982990b37e28c4bbce5c91037978536a0689311"
+size = "161172"
+usize = "305627"
+sha1sum = "da09e24712c9b72b69cb017316159afa6445ed28"
 depends = "['android-tools', 'ffmpeg', 'sdl2']"
 +++
 ### Description: 
