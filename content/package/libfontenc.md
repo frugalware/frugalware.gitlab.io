@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libfontenc 1.1.7-2"
-version = "1.1.7-2"
+title = "libfontenc 1.1.8-1"
+version = "1.1.8-1"
 description = "The fontenc Library"
-date = "2023-09-05T09:57:54"
+date = "2024-03-03T16:22:41"
 aliases = "/packages/4777"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "30628"
-usize = "89547"
-sha1sum = "6bff4e46f10f63a6ab17b5c3b7e07d3ea540897f"
+size = "31268"
+usize = "91654"
+sha1sum = "952051f9a1291b403cbab0e0c38a85b32ab4e24a"
 depends = "['zlib>=1.2.12']"
 reverse_depends = "['fonttosfnt', 'libxfont', 'libxfont2', 'luit', 'mkfontscale']"
 license = "GPL2"
@@ -24,7 +24,7 @@ The fontenc Library
 * /usr/lib/libfontenc.so.1
 * /usr/lib/libfontenc.so.1.0.0
 * /usr/lib/pkgconfig/fontenc.pc
-* /usr/share/doc/libfontenc-1.1.7/ChangeLog
-* /usr/share/doc/libfontenc-1.1.7/COPYING
-* /usr/share/doc/libfontenc-1.1.7/INSTALL
-* /usr/share/doc/libfontenc-1.1.7/README.md
+* /usr/share/doc/libfontenc-1.1.8/ChangeLog
+* /usr/share/doc/libfontenc-1.1.8/COPYING
+* /usr/share/doc/libfontenc-1.1.8/INSTALL
+* /usr/share/doc/libfontenc-1.1.8/README.md

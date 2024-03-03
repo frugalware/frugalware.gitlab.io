@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxcb 1.16-1"
-version = "1.16-1"
+title = "libxcb 1.16.1-1"
+version = "1.16.1-1"
 description = "X.org X-protocol C Binding"
-date = "2023-09-10T18:53:24"
+date = "2024-03-03T16:36:02"
 aliases = "/packages/14766"
 categories = ['x11']
 upstreamurl = "http://xcb.freedesktop.org"
 arch = "x86_64"
-size = "1016456"
-usize = "4416151"
-sha1sum = "1e7d83fb0d70e47bfc13175f0867b27da36b0212"
+size = "1017868"
+usize = "4418421"
+sha1sum = "56c37127792c00ce9e0572f9bbaf8e77c15294c6"
 depends = "['libxau>=1.0.8-8', 'libxdmcp>=1.1.2-8']"
 reverse_depends = "['cairo', 'efl', 'enlightenment', 'ffmpeg', 'ffmpeg4.4', 'libx11', 'libxkbcommon', 'mlt', 'nushell', 'qt5-base', 'redshift', 'sylpheed', 'terminology', 'vulkan-mesa-layers', 'vulkan-tools', 'whalebird', 'wlroots', 'xbacklight', 'xcb-util', 'xcb-util-image', 'xcb-util-keysyms', 'xcb-util-renderutil', 'xcb-util-wm', 'xlsatoms', 'xlsclients', 'xrdp', 'xwininfo']"
 license = "GPL2"
@@ -152,13 +152,13 @@ X.org X-protocol C Binding
 * /usr/lib/pkgconfig/xcb-xv.pc
 * /usr/lib/pkgconfig/xcb-xvmc.pc
 * /usr/lib/pkgconfig/xcb.pc
-* /usr/share/doc/libxcb-1.16/ChangeLog
-* /usr/share/doc/libxcb-1.16/COPYING
-* /usr/share/doc/libxcb-1.16/INSTALL
-* /usr/share/doc/libxcb-1.16/NEWS
-* /usr/share/doc/libxcb-1.16/README.md
-* /usr/share/doc/libxcb-1.16/tutorial/index.html
-* /usr/share/doc/libxcb-1.16/tutorial/xcb.css
+* /usr/share/doc/libxcb-1.16.1/ChangeLog
+* /usr/share/doc/libxcb-1.16.1/COPYING
+* /usr/share/doc/libxcb-1.16.1/INSTALL
+* /usr/share/doc/libxcb-1.16.1/NEWS
+* /usr/share/doc/libxcb-1.16.1/README.md
+* /usr/share/doc/libxcb-1.16.1/tutorial/index.html
+* /usr/share/doc/libxcb-1.16.1/tutorial/xcb.css
 * /usr/share/man/man3/xcb-examples.3.gz
 * /usr/share/man/man3/xcb-requests.3.gz
 * /usr/share/man/man3/xcb_alloc_color.3.gz

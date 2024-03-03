@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxaw3d 1.6.5-1"
-version = "1.6.5-1"
+title = "libxaw3d 1.6.6-1"
+version = "1.6.6-1"
 description = "Athena widgets (libXaw) drop-in replacement"
-date = "2023-05-13T16:43:58"
+date = "2024-03-03T16:38:07"
 aliases = "/packages/137229"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "194448"
-usize = "820225"
-sha1sum = "92c865f0bc2a780f7fd573e198c01618275b372b"
+size = "195232"
+usize = "823948"
+sha1sum = "22bc2ab37645815db59e047a5d4ca4748b72aa44"
 depends = "['libuuid>=2.29.2-2', 'libxmu>=1.1.2-3', 'libxpm>=3.5.11-3']"
 license = "GPL2"
 +++
@@ -97,8 +97,8 @@ Athena widgets (libXaw) drop-in replacement
 * /usr/lib/libXaw3d.so.8
 * /usr/lib/libXaw3d.so.8.0.0
 * /usr/lib/pkgconfig/xaw3d.pc
-* /usr/share/doc/libxaw3d-1.6.5/ChangeLog
-* /usr/share/doc/libxaw3d-1.6.5/COPYING
-* /usr/share/doc/libxaw3d-1.6.5/INSTALL
-* /usr/share/doc/libxaw3d-1.6.5/README.md
-* /usr/share/doc/libxaw3d-1.6.5/README.XAW3D
+* /usr/share/doc/libxaw3d-1.6.6/ChangeLog
+* /usr/share/doc/libxaw3d-1.6.6/COPYING
+* /usr/share/doc/libxaw3d-1.6.6/INSTALL
+* /usr/share/doc/libxaw3d-1.6.6/README.md
+* /usr/share/doc/libxaw3d-1.6.6/README.XAW3D

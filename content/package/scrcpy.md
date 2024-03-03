@@ -21,9 +21,9 @@ Display and control your Android device
 * /usr/share/applications/scrcpy-console.desktop
 * /usr/share/applications/scrcpy.desktop
 * /usr/share/bash-completion/completions/scrcpy
-* /usr/share/doc/scrcpy-2.3.1/FAQ.md
-* /usr/share/doc/scrcpy-2.3.1/LICENSE
-* /usr/share/doc/scrcpy-2.3.1/README.md
+* /usr/share/doc/scrcpy-2.4/FAQ.md
+* /usr/share/doc/scrcpy-2.4/LICENSE
+* /usr/share/doc/scrcpy-2.4/README.md
 * /usr/share/icons/hicolor/256x256/apps/scrcpy.png
 * /usr/share/man/man1/scrcpy.1.gz
 * /usr/share/scrcpy/scrcpy-server

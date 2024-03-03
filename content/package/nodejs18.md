@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nodejs18 18.19.0-1"
-version = "18.19.0-1"
+title = "nodejs18 18.19.1-1"
+version = "18.19.1-1"
 description = "Evented I/O for V8 javascript (LTS release: Hydrogen)"
-date = "2023-12-04T11:15:46"
+date = "2024-03-03T16:59:40"
 aliases = "/packages/221152"
 categories = ['devel-extra']
 upstreamurl = "https://nodejs.org"
 arch = "x86_64"
-size = "10916232"
-usize = "50744628"
-sha1sum = "0b40cb946fbbf9154511b1bd12c2db1b32bcd5c6"
+size = "10918884"
+usize = "50755418"
+sha1sum = "04dc73cb05e28231010f806a8005ba84d8b85a0a"
 depends = "['brotli', 'c-ares', 'icu4c>=74.1', 'libuv', 'nghttp2>=1.41.0', 'python3-setuptools', 'zlib>=1.2.12']"
 license = "MIT"
 +++
@@ -541,9 +541,6 @@ Evented I/O for V8 javascript (LTS release: Hydrogen)
 * /usr/lib/node_modules/npm/node_modules/@isaacs/cliui/build/lib/index.js
 * /usr/lib/node_modules/npm/node_modules/@isaacs/cliui/index.mjs
 * /usr/lib/node_modules/npm/node_modules/@isaacs/cliui/LICENSE.txt
-* /usr/lib/node_modules/npm/node_modules/@isaacs/cliui/node_modules/ansi-regex/index.js
-* /usr/lib/node_modules/npm/node_modules/@isaacs/cliui/node_modules/ansi-regex/license
-* /usr/lib/node_modules/npm/node_modules/@isaacs/cliui/node_modules/ansi-regex/package.json
 * /usr/lib/node_modules/npm/node_modules/@isaacs/cliui/node_modules/emoji-regex/es2015/index.js
 * /usr/lib/node_modules/npm/node_modules/@isaacs/cliui/node_modules/emoji-regex/es2015/RGI_Emoji.js
 * /usr/lib/node_modules/npm/node_modules/@isaacs/cliui/node_modules/emoji-regex/es2015/text.js
@@ -555,9 +552,6 @@ Evented I/O for V8 javascript (LTS release: Hydrogen)
 * /usr/lib/node_modules/npm/node_modules/@isaacs/cliui/node_modules/string-width/index.js
 * /usr/lib/node_modules/npm/node_modules/@isaacs/cliui/node_modules/string-width/license
 * /usr/lib/node_modules/npm/node_modules/@isaacs/cliui/node_modules/string-width/package.json
-* /usr/lib/node_modules/npm/node_modules/@isaacs/cliui/node_modules/strip-ansi/index.js
-* /usr/lib/node_modules/npm/node_modules/@isaacs/cliui/node_modules/strip-ansi/license
-* /usr/lib/node_modules/npm/node_modules/@isaacs/cliui/node_modules/strip-ansi/package.json
 * /usr/lib/node_modules/npm/node_modules/@isaacs/cliui/package.json
 * /usr/lib/node_modules/npm/node_modules/@isaacs/string-locale-compare/index.js
 * /usr/lib/node_modules/npm/node_modules/@isaacs/string-locale-compare/LICENSE
@@ -568,17 +562,6 @@ Evented I/O for V8 javascript (LTS release: Hydrogen)
 * /usr/lib/node_modules/npm/node_modules/@npmcli/agent/lib/index.js
 * /usr/lib/node_modules/npm/node_modules/@npmcli/agent/lib/options.js
 * /usr/lib/node_modules/npm/node_modules/@npmcli/agent/lib/proxy.js
-* /usr/lib/node_modules/npm/node_modules/@npmcli/agent/node_modules/agent-base/dist/helpers.js
-* /usr/lib/node_modules/npm/node_modules/@npmcli/agent/node_modules/agent-base/dist/index.js
-* /usr/lib/node_modules/npm/node_modules/@npmcli/agent/node_modules/agent-base/package.json
-* /usr/lib/node_modules/npm/node_modules/@npmcli/agent/node_modules/http-proxy-agent/dist/index.js
-* /usr/lib/node_modules/npm/node_modules/@npmcli/agent/node_modules/http-proxy-agent/LICENSE
-* /usr/lib/node_modules/npm/node_modules/@npmcli/agent/node_modules/http-proxy-agent/package.json
-* /usr/lib/node_modules/npm/node_modules/@npmcli/agent/node_modules/https-proxy-agent/dist/index.js
-* /usr/lib/node_modules/npm/node_modules/@npmcli/agent/node_modules/https-proxy-agent/dist/parse-proxy-response.js
-* /usr/lib/node_modules/npm/node_modules/@npmcli/agent/node_modules/https-proxy-agent/package.json
-* /usr/lib/node_modules/npm/node_modules/@npmcli/agent/node_modules/socks-proxy-agent/dist/index.js
-* /usr/lib/node_modules/npm/node_modules/@npmcli/agent/node_modules/socks-proxy-agent/package.json
 * /usr/lib/node_modules/npm/node_modules/@npmcli/agent/package.json
 * /usr/lib/node_modules/npm/node_modules/@npmcli/arborist/bin/actual.js
 * /usr/lib/node_modules/npm/node_modules/@npmcli/arborist/bin/audit.js
@@ -663,6 +646,9 @@ Evented I/O for V8 javascript (LTS release: Hydrogen)
 * /usr/lib/node_modules/npm/node_modules/@npmcli/config/README.md
 * /usr/lib/node_modules/npm/node_modules/@npmcli/disparity-colors/lib/index.js
 * /usr/lib/node_modules/npm/node_modules/@npmcli/disparity-colors/LICENSE
+* /usr/lib/node_modules/npm/node_modules/@npmcli/disparity-colors/node_modules/ansi-styles/index.js
+* /usr/lib/node_modules/npm/node_modules/@npmcli/disparity-colors/node_modules/ansi-styles/license
+* /usr/lib/node_modules/npm/node_modules/@npmcli/disparity-colors/node_modules/ansi-styles/package.json
 * /usr/lib/node_modules/npm/node_modules/@npmcli/disparity-colors/package.json
 * /usr/lib/node_modules/npm/node_modules/@npmcli/fs/lib/common/get-options.js
 * /usr/lib/node_modules/npm/node_modules/@npmcli/fs/lib/common/node.js
@@ -854,6 +840,9 @@ Evented I/O for V8 javascript (LTS release: Hydrogen)
 * /usr/lib/node_modules/npm/node_modules/abort-controller/package.json
 * /usr/lib/node_modules/npm/node_modules/abort-controller/polyfill.js
 * /usr/lib/node_modules/npm/node_modules/abort-controller/polyfill.mjs
+* /usr/lib/node_modules/npm/node_modules/agent-base/dist/helpers.js
+* /usr/lib/node_modules/npm/node_modules/agent-base/dist/index.js
+* /usr/lib/node_modules/npm/node_modules/agent-base/package.json
 * /usr/lib/node_modules/npm/node_modules/aggregate-error/index.js
 * /usr/lib/node_modules/npm/node_modules/aggregate-error/license
 * /usr/lib/node_modules/npm/node_modules/aggregate-error/package.json
@@ -955,6 +944,12 @@ Evented I/O for V8 javascript (LTS release: Hydrogen)
 * /usr/lib/node_modules/npm/node_modules/cli-columns/color.js
 * /usr/lib/node_modules/npm/node_modules/cli-columns/index.js
 * /usr/lib/node_modules/npm/node_modules/cli-columns/license
+* /usr/lib/node_modules/npm/node_modules/cli-columns/node_modules/ansi-regex/index.js
+* /usr/lib/node_modules/npm/node_modules/cli-columns/node_modules/ansi-regex/license
+* /usr/lib/node_modules/npm/node_modules/cli-columns/node_modules/ansi-regex/package.json
+* /usr/lib/node_modules/npm/node_modules/cli-columns/node_modules/strip-ansi/index.js
+* /usr/lib/node_modules/npm/node_modules/cli-columns/node_modules/strip-ansi/license
+* /usr/lib/node_modules/npm/node_modules/cli-columns/node_modules/strip-ansi/package.json
 * /usr/lib/node_modules/npm/node_modules/cli-columns/package.json
 * /usr/lib/node_modules/npm/node_modules/cli-columns/test.js
 * /usr/lib/node_modules/npm/node_modules/cli-table3/index.js
@@ -991,6 +986,12 @@ Evented I/O for V8 javascript (LTS release: Hydrogen)
 * /usr/lib/node_modules/npm/node_modules/columnify/index.js
 * /usr/lib/node_modules/npm/node_modules/columnify/LICENSE
 * /usr/lib/node_modules/npm/node_modules/columnify/Makefile
+* /usr/lib/node_modules/npm/node_modules/columnify/node_modules/ansi-regex/index.js
+* /usr/lib/node_modules/npm/node_modules/columnify/node_modules/ansi-regex/license
+* /usr/lib/node_modules/npm/node_modules/columnify/node_modules/ansi-regex/package.json
+* /usr/lib/node_modules/npm/node_modules/columnify/node_modules/strip-ansi/index.js
+* /usr/lib/node_modules/npm/node_modules/columnify/node_modules/strip-ansi/license
+* /usr/lib/node_modules/npm/node_modules/columnify/node_modules/strip-ansi/package.json
 * /usr/lib/node_modules/npm/node_modules/columnify/package.json
 * /usr/lib/node_modules/npm/node_modules/columnify/utils.js
 * /usr/lib/node_modules/npm/node_modules/columnify/width.js
@@ -1167,6 +1168,12 @@ Evented I/O for V8 javascript (LTS release: Hydrogen)
 * /usr/lib/node_modules/npm/node_modules/gauge/lib/themes.js
 * /usr/lib/node_modules/npm/node_modules/gauge/lib/wide-truncate.js
 * /usr/lib/node_modules/npm/node_modules/gauge/LICENSE.md
+* /usr/lib/node_modules/npm/node_modules/gauge/node_modules/ansi-regex/index.js
+* /usr/lib/node_modules/npm/node_modules/gauge/node_modules/ansi-regex/license
+* /usr/lib/node_modules/npm/node_modules/gauge/node_modules/ansi-regex/package.json
+* /usr/lib/node_modules/npm/node_modules/gauge/node_modules/strip-ansi/index.js
+* /usr/lib/node_modules/npm/node_modules/gauge/node_modules/strip-ansi/license
+* /usr/lib/node_modules/npm/node_modules/gauge/node_modules/strip-ansi/package.json
 * /usr/lib/node_modules/npm/node_modules/gauge/package.json
 * /usr/lib/node_modules/npm/node_modules/glob/dist/commonjs/glob.d.ts
 * /usr/lib/node_modules/npm/node_modules/glob/dist/commonjs/glob.d.ts.map
@@ -1242,9 +1249,10 @@ Evented I/O for V8 javascript (LTS release: Hydrogen)
 * /usr/lib/node_modules/npm/node_modules/has-unicode/index.js
 * /usr/lib/node_modules/npm/node_modules/has-unicode/LICENSE
 * /usr/lib/node_modules/npm/node_modules/has-unicode/package.json
-* /usr/lib/node_modules/npm/node_modules/has/LICENSE-MIT
-* /usr/lib/node_modules/npm/node_modules/has/package.json
-* /usr/lib/node_modules/npm/node_modules/has/src/index.js
+* /usr/lib/node_modules/npm/node_modules/hasown/index.js
+* /usr/lib/node_modules/npm/node_modules/hasown/LICENSE
+* /usr/lib/node_modules/npm/node_modules/hasown/package.json
+* /usr/lib/node_modules/npm/node_modules/hasown/tsconfig.json
 * /usr/lib/node_modules/npm/node_modules/hosted-git-info/lib/from-url.js
 * /usr/lib/node_modules/npm/node_modules/hosted-git-info/lib/hosts.js
 * /usr/lib/node_modules/npm/node_modules/hosted-git-info/lib/index.js
@@ -1254,6 +1262,12 @@ Evented I/O for V8 javascript (LTS release: Hydrogen)
 * /usr/lib/node_modules/npm/node_modules/http-cache-semantics/index.js
 * /usr/lib/node_modules/npm/node_modules/http-cache-semantics/LICENSE
 * /usr/lib/node_modules/npm/node_modules/http-cache-semantics/package.json
+* /usr/lib/node_modules/npm/node_modules/http-proxy-agent/dist/index.js
+* /usr/lib/node_modules/npm/node_modules/http-proxy-agent/LICENSE
+* /usr/lib/node_modules/npm/node_modules/http-proxy-agent/package.json
+* /usr/lib/node_modules/npm/node_modules/https-proxy-agent/dist/index.js
+* /usr/lib/node_modules/npm/node_modules/https-proxy-agent/dist/parse-proxy-response.js
+* /usr/lib/node_modules/npm/node_modules/https-proxy-agent/package.json
 * /usr/lib/node_modules/npm/node_modules/iconv-lite/encodings/dbcs-codec.js
 * /usr/lib/node_modules/npm/node_modules/iconv-lite/encodings/dbcs-data.js
 * /usr/lib/node_modules/npm/node_modules/iconv-lite/encodings/index.js
@@ -1414,12 +1428,10 @@ Evented I/O for V8 javascript (LTS release: Hydrogen)
 * /usr/lib/node_modules/npm/node_modules/libnpmversion/LICENSE
 * /usr/lib/node_modules/npm/node_modules/libnpmversion/package.json
 * /usr/lib/node_modules/npm/node_modules/libnpmversion/README.md
-* /usr/lib/node_modules/npm/node_modules/lru-cache/dist/cjs/index.js
-* /usr/lib/node_modules/npm/node_modules/lru-cache/dist/cjs/index.min.js
-* /usr/lib/node_modules/npm/node_modules/lru-cache/dist/cjs/package.json
-* /usr/lib/node_modules/npm/node_modules/lru-cache/dist/mjs/index.js
-* /usr/lib/node_modules/npm/node_modules/lru-cache/dist/mjs/index.min.js
-* /usr/lib/node_modules/npm/node_modules/lru-cache/dist/mjs/package.json
+* /usr/lib/node_modules/npm/node_modules/lru-cache/dist/commonjs/index.js
+* /usr/lib/node_modules/npm/node_modules/lru-cache/dist/commonjs/package.json
+* /usr/lib/node_modules/npm/node_modules/lru-cache/dist/esm/index.js
+* /usr/lib/node_modules/npm/node_modules/lru-cache/dist/esm/package.json
 * /usr/lib/node_modules/npm/node_modules/lru-cache/LICENSE
 * /usr/lib/node_modules/npm/node_modules/lru-cache/package.json
 * /usr/lib/node_modules/npm/node_modules/make-fetch-happen/lib/cache/entry.js
@@ -1969,6 +1981,8 @@ Evented I/O for V8 javascript (LTS release: Hydrogen)
 * /usr/lib/node_modules/npm/node_modules/smart-buffer/docs/ROADMAP.md
 * /usr/lib/node_modules/npm/node_modules/smart-buffer/LICENSE
 * /usr/lib/node_modules/npm/node_modules/smart-buffer/package.json
+* /usr/lib/node_modules/npm/node_modules/socks-proxy-agent/dist/index.js
+* /usr/lib/node_modules/npm/node_modules/socks-proxy-agent/package.json
 * /usr/lib/node_modules/npm/node_modules/socks/build/client/socksclient.js
 * /usr/lib/node_modules/npm/node_modules/socks/build/common/constants.js
 * /usr/lib/node_modules/npm/node_modules/socks/build/common/helpers.js
@@ -2005,15 +2019,30 @@ Evented I/O for V8 javascript (LTS release: Hydrogen)
 * /usr/lib/node_modules/npm/node_modules/ssri/package.json
 * /usr/lib/node_modules/npm/node_modules/string-width-cjs/index.js
 * /usr/lib/node_modules/npm/node_modules/string-width-cjs/license
+* /usr/lib/node_modules/npm/node_modules/string-width-cjs/node_modules/ansi-regex/index.js
+* /usr/lib/node_modules/npm/node_modules/string-width-cjs/node_modules/ansi-regex/license
+* /usr/lib/node_modules/npm/node_modules/string-width-cjs/node_modules/ansi-regex/package.json
+* /usr/lib/node_modules/npm/node_modules/string-width-cjs/node_modules/strip-ansi/index.js
+* /usr/lib/node_modules/npm/node_modules/string-width-cjs/node_modules/strip-ansi/license
+* /usr/lib/node_modules/npm/node_modules/string-width-cjs/node_modules/strip-ansi/package.json
 * /usr/lib/node_modules/npm/node_modules/string-width-cjs/package.json
 * /usr/lib/node_modules/npm/node_modules/string-width/index.js
 * /usr/lib/node_modules/npm/node_modules/string-width/license
+* /usr/lib/node_modules/npm/node_modules/string-width/node_modules/ansi-regex/index.js
+* /usr/lib/node_modules/npm/node_modules/string-width/node_modules/ansi-regex/license
+* /usr/lib/node_modules/npm/node_modules/string-width/node_modules/ansi-regex/package.json
+* /usr/lib/node_modules/npm/node_modules/string-width/node_modules/strip-ansi/index.js
+* /usr/lib/node_modules/npm/node_modules/string-width/node_modules/strip-ansi/license
+* /usr/lib/node_modules/npm/node_modules/string-width/node_modules/strip-ansi/package.json
 * /usr/lib/node_modules/npm/node_modules/string-width/package.json
 * /usr/lib/node_modules/npm/node_modules/string_decoder/lib/string_decoder.js
 * /usr/lib/node_modules/npm/node_modules/string_decoder/LICENSE
 * /usr/lib/node_modules/npm/node_modules/string_decoder/package.json
 * /usr/lib/node_modules/npm/node_modules/strip-ansi-cjs/index.js
 * /usr/lib/node_modules/npm/node_modules/strip-ansi-cjs/license
+* /usr/lib/node_modules/npm/node_modules/strip-ansi-cjs/node_modules/ansi-regex/index.js
+* /usr/lib/node_modules/npm/node_modules/strip-ansi-cjs/node_modules/ansi-regex/license
+* /usr/lib/node_modules/npm/node_modules/strip-ansi-cjs/node_modules/ansi-regex/package.json
 * /usr/lib/node_modules/npm/node_modules/strip-ansi-cjs/package.json
 * /usr/lib/node_modules/npm/node_modules/strip-ansi/index.js
 * /usr/lib/node_modules/npm/node_modules/strip-ansi/license
@@ -2145,15 +2174,18 @@ Evented I/O for V8 javascript (LTS release: Hydrogen)
 * /usr/lib/node_modules/npm/node_modules/wide-align/package.json
 * /usr/lib/node_modules/npm/node_modules/wrap-ansi-cjs/index.js
 * /usr/lib/node_modules/npm/node_modules/wrap-ansi-cjs/license
+* /usr/lib/node_modules/npm/node_modules/wrap-ansi-cjs/node_modules/ansi-regex/index.js
+* /usr/lib/node_modules/npm/node_modules/wrap-ansi-cjs/node_modules/ansi-regex/license
+* /usr/lib/node_modules/npm/node_modules/wrap-ansi-cjs/node_modules/ansi-regex/package.json
+* /usr/lib/node_modules/npm/node_modules/wrap-ansi-cjs/node_modules/ansi-styles/index.js
+* /usr/lib/node_modules/npm/node_modules/wrap-ansi-cjs/node_modules/ansi-styles/license
+* /usr/lib/node_modules/npm/node_modules/wrap-ansi-cjs/node_modules/ansi-styles/package.json
+* /usr/lib/node_modules/npm/node_modules/wrap-ansi-cjs/node_modules/strip-ansi/index.js
+* /usr/lib/node_modules/npm/node_modules/wrap-ansi-cjs/node_modules/strip-ansi/license
+* /usr/lib/node_modules/npm/node_modules/wrap-ansi-cjs/node_modules/strip-ansi/package.json
 * /usr/lib/node_modules/npm/node_modules/wrap-ansi-cjs/package.json
 * /usr/lib/node_modules/npm/node_modules/wrap-ansi/index.js
 * /usr/lib/node_modules/npm/node_modules/wrap-ansi/license
-* /usr/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/ansi-regex/index.js
-* /usr/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/ansi-regex/license
-* /usr/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/ansi-regex/package.json
-* /usr/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/ansi-styles/index.js
-* /usr/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/ansi-styles/license
-* /usr/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/ansi-styles/package.json
 * /usr/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/emoji-regex/es2015/index.js
 * /usr/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/emoji-regex/es2015/RGI_Emoji.js
 * /usr/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/emoji-regex/es2015/text.js
@@ -2165,9 +2197,6 @@ Evented I/O for V8 javascript (LTS release: Hydrogen)
 * /usr/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/string-width/index.js
 * /usr/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/string-width/license
 * /usr/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/string-width/package.json
-* /usr/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/strip-ansi/index.js
-* /usr/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/strip-ansi/license
-* /usr/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/strip-ansi/package.json
 * /usr/lib/node_modules/npm/node_modules/wrap-ansi/package.json
 * /usr/lib/node_modules/npm/node_modules/write-file-atomic/lib/index.js
 * /usr/lib/node_modules/npm/node_modules/write-file-atomic/LICENSE.md
@@ -2180,7 +2209,7 @@ Evented I/O for V8 javascript (LTS release: Hydrogen)
 * /usr/lib/node_modules/npm/README.md
 * /usr/share/doc/node/gdbinit
 * /usr/share/doc/node/lldb_commands.py
-* /usr/share/doc/nodejs18-18.19.0/LICENSE
-* /usr/share/doc/nodejs18-18.19.0/README.md
+* /usr/share/doc/nodejs18-18.19.1/LICENSE
+* /usr/share/doc/nodejs18-18.19.1/README.md
 * /usr/share/man/man1/node.1.gz
 * /usr/share/systemtap/tapset/node.stp

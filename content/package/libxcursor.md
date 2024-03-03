@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxcursor 1.2.1-2"
-version = "1.2.1-2"
+title = "libxcursor 1.2.2-1"
+version = "1.2.2-1"
 description = "X Cursor Library"
-date = "2023-10-22T12:33:56"
+date = "2024-03-03T16:25:10"
 aliases = "/packages/4787"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "51148"
-usize = "132583"
-sha1sum = "42dd8aa35be84e310f177403a83bc284b656f178"
+size = "51820"
+usize = "135497"
+sha1sum = "618f8f929b0ee8e9140504b60b5baa2ad9e22f6d"
 depends = "['libx11>=1.6.5-2', 'libxfixes>=5.0.1-3', 'libxrender>=0.9.9-5']"
 reverse_depends = "['allegro', 'box2d', 'cef', 'efl', 'enlightenment', 'fox', 'fox-1.2', 'freerdp', 'geogram', 'gtk+2-libs', 'gtk+3', 'gtk+4', 'irrlicht', 'ksubeditor', 'ksubtile', 'openbox', 'opendiablo2', 'qt5-base', 'qt6-webengine', 'spring', 'terminology', 'virtualbox', 'weston', 'whalebird', 'wine', 'wine-devel', 'xcursorgen', 'xf86-video-intel', 'xsetroot']"
 license = "GPL2"
@@ -24,11 +24,11 @@ X Cursor Library
 * /usr/lib/libXcursor.so.1
 * /usr/lib/libXcursor.so.1.0.2
 * /usr/lib/pkgconfig/xcursor.pc
-* /usr/share/doc/libxcursor-1.2.1/AUTHORS
-* /usr/share/doc/libxcursor-1.2.1/ChangeLog
-* /usr/share/doc/libxcursor-1.2.1/COPYING
-* /usr/share/doc/libxcursor-1.2.1/INSTALL
-* /usr/share/doc/libxcursor-1.2.1/README.md
+* /usr/share/doc/libxcursor-1.2.2/AUTHORS
+* /usr/share/doc/libxcursor-1.2.2/ChangeLog
+* /usr/share/doc/libxcursor-1.2.2/COPYING
+* /usr/share/doc/libxcursor-1.2.2/INSTALL
+* /usr/share/doc/libxcursor-1.2.2/README.md
 * /usr/share/man/man3/Xcursor.3.gz
 * /usr/share/man/man3/XcursorAnimateCreate.3.gz
 * /usr/share/man/man3/XcursorAnimateDestroy.3.gz

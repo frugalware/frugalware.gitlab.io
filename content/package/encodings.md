@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "encodings 1.0.7-1"
-version = "1.0.7-1"
+title = "encodings 1.1.0-1"
+version = "1.1.0-1"
 description = "X.Org encodings fonts"
-date = "2023-02-28T08:31:13"
+date = "2024-03-03T16:29:28"
 aliases = "/packages/4722"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "586552"
-usize = "688271"
-sha1sum = "32f481fa96982ef67d9f61ddc2b78b9642baade6"
+size = "587616"
+usize = "681889"
+sha1sum = "ab712256d6c25ab99a4926813f804a9040f187b0"
 depends = "['mkfontscale>=1.1.2-4']"
 license = "GPL2"
 +++
@@ -18,10 +18,10 @@ license = "GPL2"
 X.Org encodings fonts
 
 ### Files: 
-* /usr/share/doc/encodings-1.0.7/ChangeLog
-* /usr/share/doc/encodings-1.0.7/COPYING
-* /usr/share/doc/encodings-1.0.7/INSTALL
-* /usr/share/doc/encodings-1.0.7/README.md
+* /usr/share/doc/encodings-1.1.0/ChangeLog
+* /usr/share/doc/encodings-1.1.0/COPYING
+* /usr/share/doc/encodings-1.1.0/INSTALL
+* /usr/share/doc/encodings-1.1.0/README.md
 * /usr/share/fonts/X11/encodings/adobe-dingbats.enc.gz
 * /usr/share/fonts/X11/encodings/adobe-standard.enc.gz
 * /usr/share/fonts/X11/encodings/adobe-symbol.enc.gz
@@ -34,6 +34,7 @@ X.Org encodings fonts
 * /usr/share/fonts/X11/encodings/ibm-cp866.enc.gz
 * /usr/share/fonts/X11/encodings/iso8859-11.enc.gz
 * /usr/share/fonts/X11/encodings/iso8859-13.enc.gz
+* /usr/share/fonts/X11/encodings/iso8859-14.enc.gz
 * /usr/share/fonts/X11/encodings/iso8859-16.enc.gz
 * /usr/share/fonts/X11/encodings/iso8859-6.16.enc.gz
 * /usr/share/fonts/X11/encodings/iso8859-6.8x.enc.gz
