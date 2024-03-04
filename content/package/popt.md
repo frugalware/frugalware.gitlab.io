@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "popt 1.16-16"
-version = "1.16-16"
+title = "popt 1.19-1"
+version = "1.19-1"
 description = "A commandline option parser"
-date = "2023-09-05T11:41:26"
+date = "2024-03-04T09:06:45"
 aliases = "/packages/2431"
 categories = ['base']
 upstreamurl = "http://rpm5.org"
 arch = "x86_64"
-size = "57112"
-usize = "161938"
-sha1sum = "878d3cfc28c1cea0955d2ab72d931365c403260c"
+size = "57188"
+usize = "164079"
+sha1sum = "8006eb7e7a404f39a46c8fe0c25704f86bc80617"
 depends = "['glibc>=2.35']"
 reverse_depends = "['clight', 'cryptsetup-luks', 'desktop-file-utils', 'distcc', 'distcc-gui', 'dracut', 'efivar', 'exif', 'gphoto2', 'gptfdisk', 'hd2u', 'intltool', 'libdv', 'librsync', 'logrotate', 'newt', 'ptabtools', 'rsync', 'samba-client', 'vcdimager']"
 +++
@@ -21,11 +21,12 @@ A commandline option parser
 * /usr/include/popt.h
 * /usr/lib/libpopt.so
 * /usr/lib/libpopt.so.0
-* /usr/lib/libpopt.so.0.0.0
+* /usr/lib/libpopt.so.0.0.2
 * /usr/lib/pkgconfig/popt.pc
-* /usr/share/doc/popt-1.16/CHANGES
-* /usr/share/doc/popt-1.16/COPYING
-* /usr/share/doc/popt-1.16/README
+* /usr/share/doc/popt-1.19/COPYING
+* /usr/share/doc/popt-1.19/CREDITS
+* /usr/share/doc/popt-1.19/README
+* /usr/share/locale/ca/LC_MESSAGES/popt.mo
 * /usr/share/locale/cs/LC_MESSAGES/popt.mo
 * /usr/share/locale/da/LC_MESSAGES/popt.mo
 * /usr/share/locale/de/LC_MESSAGES/popt.mo
@@ -40,14 +41,17 @@ A commandline option parser
 * /usr/share/locale/is/LC_MESSAGES/popt.mo
 * /usr/share/locale/it/LC_MESSAGES/popt.mo
 * /usr/share/locale/ja/LC_MESSAGES/popt.mo
+* /usr/share/locale/ka/LC_MESSAGES/popt.mo
 * /usr/share/locale/ko/LC_MESSAGES/popt.mo
 * /usr/share/locale/lv/LC_MESSAGES/popt.mo
 * /usr/share/locale/nb/LC_MESSAGES/popt.mo
 * /usr/share/locale/nl/LC_MESSAGES/popt.mo
 * /usr/share/locale/pl/LC_MESSAGES/popt.mo
 * /usr/share/locale/pt/LC_MESSAGES/popt.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/popt.mo
 * /usr/share/locale/ro/LC_MESSAGES/popt.mo
 * /usr/share/locale/ru/LC_MESSAGES/popt.mo
+* /usr/share/locale/si/LC_MESSAGES/popt.mo
 * /usr/share/locale/sk/LC_MESSAGES/popt.mo
 * /usr/share/locale/sl/LC_MESSAGES/popt.mo
 * /usr/share/locale/sv/LC_MESSAGES/popt.mo

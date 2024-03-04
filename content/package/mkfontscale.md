@@ -21,9 +21,9 @@ Create an index of scalable font files for X
 ### Files: 
 * /usr/bin/mkfontdir
 * /usr/bin/mkfontscale
-* /usr/share/doc/mkfontscale-1.2.2/ChangeLog
-* /usr/share/doc/mkfontscale-1.2.2/COPYING
-* /usr/share/doc/mkfontscale-1.2.2/INSTALL
-* /usr/share/doc/mkfontscale-1.2.2/README.md
+* /usr/share/doc/mkfontscale-1.2.3/ChangeLog
+* /usr/share/doc/mkfontscale-1.2.3/COPYING
+* /usr/share/doc/mkfontscale-1.2.3/INSTALL
+* /usr/share/doc/mkfontscale-1.2.3/README.md
 * /usr/share/man/man1/mkfontdir.1.gz
 * /usr/share/man/man1/mkfontscale.1.gz
