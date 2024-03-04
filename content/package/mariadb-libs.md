@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mariadb-libs 11.2.2-2"
-version = "11.2.2-2"
+title = "mariadb-libs 11.3.2-1"
+version = "11.3.2-1"
 description = "Mariadb library."
-date = "2024-02-01T15:01:54"
+date = "2024-03-04T10:14:17"
 aliases = "/packages/219863"
 categories = ['lib']
 upstreamurl = "https://mariadb.org"
 arch = "x86_64"
-size = "6197836"
-usize = "29866635"
-sha1sum = "675493b314a884540f6ec99f25842d4d337ef84f"
+size = "6223596"
+usize = "30042603"
+sha1sum = "285db32af28009e82cdc0e6a4ab4fefb55dbbef5"
 depends = "['bzip2', 'libaio', 'liburing', 'lz4', 'lzo', 'openssl>=3.0.7', 'xz', 'zlib']"
 reverse_depends = "['courier-authlib', 'cyrus-sasl-sql', 'dovecot', 'gammu', 'gnokii-mysql', 'libreoffice', 'lighttpd', 'mariadb', 'neko', 'pdns', 'perl-dbd-mysql', 'php', 'poco', 'postfix', 'proftpd', 'pure-ftpd', 'qt5-base-mysql', 'qt6-base-mysql', 'rsyslog-mysql', 'vtk-mysql']"
 +++
@@ -148,6 +148,7 @@ Mariadb library.
 * /usr/include/mysql/server/private/backup.h
 * /usr/include/mysql/server/private/bounded_queue.h
 * /usr/include/mysql/server/private/charset_collations.h
+* /usr/include/mysql/server/private/char_buffer.h
 * /usr/include/mysql/server/private/client_settings.h
 * /usr/include/mysql/server/private/compat56.h
 * /usr/include/mysql/server/private/config.h
@@ -160,6 +161,7 @@ Mariadb library.
 * /usr/include/mysql/server/private/ddl_log.h
 * /usr/include/mysql/server/private/debug.h
 * /usr/include/mysql/server/private/debug_sync.h
+* /usr/include/mysql/server/private/deprecation.h
 * /usr/include/mysql/server/private/derived_handler.h
 * /usr/include/mysql/server/private/derror.h
 * /usr/include/mysql/server/private/des_key_file.h
@@ -215,6 +217,7 @@ Mariadb library.
 * /usr/include/mysql/server/private/keycaches.h
 * /usr/include/mysql/server/private/lex.h
 * /usr/include/mysql/server/private/lex_charset.h
+* /usr/include/mysql/server/private/lex_ident.h
 * /usr/include/mysql/server/private/lex_string.h
 * /usr/include/mysql/server/private/lex_symbol.h
 * /usr/include/mysql/server/private/lf.h
@@ -222,6 +225,7 @@ Mariadb library.
 * /usr/include/mysql/server/private/log.h
 * /usr/include/mysql/server/private/log_cache.h
 * /usr/include/mysql/server/private/log_event.h
+* /usr/include/mysql/server/private/log_event_data_type.h
 * /usr/include/mysql/server/private/log_slow.h
 * /usr/include/mysql/server/private/maria.h
 * /usr/include/mysql/server/private/mariadb.h
@@ -329,6 +333,7 @@ Mariadb library.
 * /usr/include/mysql/server/private/set_var.h
 * /usr/include/mysql/server/private/simple_tokenizer.h
 * /usr/include/mysql/server/private/slave.h
+* /usr/include/mysql/server/private/socketpair.h
 * /usr/include/mysql/server/private/source_revision.h
 * /usr/include/mysql/server/private/sp.h
 * /usr/include/mysql/server/private/span.h
@@ -420,6 +425,7 @@ Mariadb library.
 * /usr/include/mysql/server/private/sql_type_json.h
 * /usr/include/mysql/server/private/sql_type_real.h
 * /usr/include/mysql/server/private/sql_type_string.h
+* /usr/include/mysql/server/private/sql_type_timeofday.h
 * /usr/include/mysql/server/private/sql_udf.h
 * /usr/include/mysql/server/private/sql_union.h
 * /usr/include/mysql/server/private/sql_update.h
