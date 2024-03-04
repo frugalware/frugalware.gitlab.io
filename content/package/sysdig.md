@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sysdig 0.35.2-3"
-version = "0.35.2-3"
+title = "sysdig 0.35.3-1"
+version = "0.35.3-1"
 description = "Open source system-level exploration and troubleshooting tool"
-date = "2024-03-03T14:03:37"
+date = "2024-03-04T09:37:00"
 aliases = "/packages/219877"
 categories = ['apps-extra']
 upstreamurl = "https://www.sysdig.com/"
 arch = "x86_64"
-size = "2065492"
+size = "2065848"
 usize = "14041184"
-sha1sum = "f123a1d9bfc0d2ae4804cd308ee1740e931a8a0e"
+sha1sum = "9a3df6b7a78f28ce84112644a2d926074abab714"
 depends = "['curl', 'grpc>=1.62', 'intel-tbb', 'jq', 'jsoncpp>=1.9.2', 'kernel=6.7.8-1', 'libb64', 'luajit2', 'nlohmann-json', 'yaml-cpp']"
 +++
 ### Description: 
@@ -237,9 +237,9 @@ Open source system-level exploration and troubleshooting tool
 * /usr/lib/pkgconfig/libscap.pc
 * /usr/lib/pkgconfig/libsinsp.pc
 * /usr/share/bash-completion/completions/sysdig
-* /usr/share/doc/sysdig-0.35.2/COPYING
-* /usr/share/doc/sysdig-0.35.2/LICENSE
-* /usr/share/doc/sysdig-0.35.2/README.md
+* /usr/share/doc/sysdig-0.35.3/COPYING
+* /usr/share/doc/sysdig-0.35.3/LICENSE
+* /usr/share/doc/sysdig-0.35.3/README.md
 * /usr/share/man/man8/csysdig.8.gz
 * /usr/share/man/man8/sysdig.8.gz
 * /usr/share/sysdig/chisels/ansiterminal.lua

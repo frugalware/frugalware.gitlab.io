@@ -12,7 +12,7 @@ size = "90940"
 usize = "261698"
 sha1sum = "3a796f49c14102a4a1423fcf257e0ae6e44c03b1"
 depends = "['libx11>=1.6.4-3']"
-reverse_depends = "['freerdp', 'gnome-desktop', 'libxkbui', 'oclock', 'plasma-desktop', 'pulsar', 'setxkbmap', 'vscode', 'xclock', 'xfd', 'xkbcomp', 'xkbevd', 'xkbprint', 'xterm', 'xwd']"
+reverse_depends = "['editres', 'freerdp', 'gnome-desktop', 'libxkbui', 'oclock', 'plasma-desktop', 'pulsar', 'setxkbmap', 'vscode', 'xclock', 'xfd', 'xkbcomp', 'xkbevd', 'xkbprint', 'xterm', 'xwd']"
 license = "GPL2"
 +++
 ### Description: 
