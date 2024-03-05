@@ -20,9 +20,9 @@ Hardware identification and configuration data
 ### Files: 
 * /usr/lib/modprobe.d/dist-blacklist.conf
 * /usr/lib/pkgconfig/hwdata.pc
-* /usr/share/doc/hwdata-0.379/COPYING
-* /usr/share/doc/hwdata-0.379/LICENSE
-* /usr/share/doc/hwdata-0.379/README
+* /usr/share/doc/hwdata-0.380/COPYING
+* /usr/share/doc/hwdata-0.380/LICENSE
+* /usr/share/doc/hwdata-0.380/README
 * /usr/share/hwdata/iab.txt
 * /usr/share/hwdata/oui.txt
 * /usr/share/hwdata/pci.ids

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-bad-faac 1.22.10-1"
-version = "1.22.10-1"
+title = "gst1-plugins-bad-faac 1.24.0-1"
+version = "1.24.0-1"
 description = "GStreamer faac plugin (Bad)."
-date = "2024-02-18T17:49:14"
+date = "2024-03-05T13:56:25"
 aliases = "/packages/168833"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "14588"
+size = "14600"
 usize = "30576"
-sha1sum = "d5a5e5f43d778fd3a51a916afd9cb024e348477b"
-depends = "['faac>=1.28-5', 'gst1-plugins-bad>=1.22.10', 'gst1-plugins-base>=1.22.10', 'libffi>=3.2.1-2']"
+sha1sum = "0e08933f301e6a4ecd36b33026bd336acd6dc1e5"
+depends = "['faac>=1.28-5', 'gst1-plugins-bad>=1.24.0', 'gst1-plugins-base>=1.24.0', 'libffi>=3.2.1-2']"
 +++
 ### Description: 
 GStreamer faac plugin (Bad).

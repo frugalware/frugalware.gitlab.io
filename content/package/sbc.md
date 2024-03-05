@@ -12,7 +12,7 @@ size = "57940"
 usize = "261710"
 sha1sum = "780767138758644726e08b642b97fffa4e5dcb6c"
 depends = "['glibc>=2.34']"
-reverse_depends = "['pipewire', 'pulseaudio-bluetooth', 'wireshark-qt']"
+reverse_depends = "['gst1-plugins-bad-sbc', 'pipewire', 'pulseaudio-bluetooth', 'wireshark-qt']"
 +++
 ### Description: 
 Library for Low Complexity Subband Coding with BlueZ

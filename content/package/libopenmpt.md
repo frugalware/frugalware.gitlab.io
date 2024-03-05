@@ -12,7 +12,7 @@ size = "737976"
 usize = "2209159"
 sha1sum = "aab0aed20f6e09941905bb575682cb968649bf4f"
 depends = "['libmpg123', 'libpulse', 'portaudio']"
-reverse_depends = "['ffmpeg', 'jazz2']"
+reverse_depends = "['ffmpeg', 'gst1-plugins-bad-openmpt', 'jazz2']"
 +++
 ### Description: 
 A library to render tracker music to a PCM audio stream

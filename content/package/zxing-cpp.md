@@ -12,7 +12,7 @@ size = "595952"
 usize = "1471199"
 sha1sum = "e23af1d6620bb2c51950faf168d821a163885f62"
 depends = "['libstdc++>=11.2']"
-reverse_depends = "['kitinerary', 'prison']"
+reverse_depends = "['gst1-plugins-bad-zxing', 'kitinerary', 'prison']"
 +++
 ### Description: 
 A command-line tool to decode QRCode

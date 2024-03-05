@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-ugly-x264 1.22.10-1"
-version = "1.22.10-1"
+title = "gst1-plugins-ugly-x264 1.24.0-1"
+version = "1.24.0-1"
 description = "GStreamer x264 plugin (Ugly)."
-date = "2024-02-18T17:52:30"
+date = "2024-03-05T14:05:44"
 aliases = "/packages/168880"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "27688"
+size = "27744"
 usize = "71536"
-sha1sum = "72c544e658a1231be2faf71ff4f63a9f6c0968b8"
-depends = "['gst1-plugins-base>=1.22.10', 'gst1-plugins-ugly>=1.22.10', 'libffi>=3.2.1-2', 'x264>=20230712.ga8b68eb']"
+sha1sum = "f29ae0af1d58a5c887174ad72875d977986a52a3"
+depends = "['gst1-plugins-base>=1.24.0', 'gst1-plugins-ugly>=1.24.0', 'libffi>=3.2.1-2', 'x264>=20230712.ga8b68eb']"
 +++
 ### Description: 
 GStreamer x264 plugin (Ugly).

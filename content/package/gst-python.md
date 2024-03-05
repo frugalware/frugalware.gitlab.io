@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst-python 1.22.10-1"
-version = "1.22.10-1"
+title = "gst-python 1.24.0-1"
+version = "1.24.0-1"
 description = "GStreamer python bindings"
-date = "2024-02-18T18:14:54"
+date = "2024-03-05T14:09:20"
 aliases = "/packages/73075"
 categories = ['xlib-extra']
 upstreamurl = "http://gstreamer.freedesktop.org/modules/gst-python.html"
 arch = "x86_64"
-size = "82176"
-usize = "286444"
-sha1sum = "98048feee0a4b2573ef2b3bcd5ff92af751741de"
-depends = "['gst1-plugins-base>=1.22.10']"
+size = "72408"
+usize = "241875"
+sha1sum = "4072ada3987b4bb218fc85d6796b5bb3f29bdfad"
+depends = "['gst1-plugins-base>=1.24.0']"
 reverse_depends = "['transmageddon']"
 +++
 ### Description: 
@@ -28,10 +28,8 @@ GStreamer python bindings
 * /usr/lib/python3.12/site-packages/gi/overrides/__pycache__/GstAudio.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gi/overrides/__pycache__/GstPbutils.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gi/overrides/__pycache__/GstVideo.cpython-312.pyc
-* /usr/share/doc/gst-python-1.22.10/AUTHORS
-* /usr/share/doc/gst-python-1.22.10/ChangeLog
-* /usr/share/doc/gst-python-1.22.10/COPYING
-* /usr/share/doc/gst-python-1.22.10/NEWS
-* /usr/share/doc/gst-python-1.22.10/README
-* /usr/share/doc/gst-python-1.22.10/RELEASE
-* /usr/share/doc/gst-python-1.22.10/TODO
+* /usr/share/doc/gst-python-1.24.0/ChangeLog
+* /usr/share/doc/gst-python-1.24.0/COPYING
+* /usr/share/doc/gst-python-1.24.0/NEWS
+* /usr/share/doc/gst-python-1.24.0/README.md
+* /usr/share/doc/gst-python-1.24.0/RELEASE

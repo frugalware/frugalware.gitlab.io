@@ -12,7 +12,7 @@ size = "670004"
 usize = "1498792"
 sha1sum = "bec521f4441b846776c1298c3911aca246fc4db6"
 depends = "['glibc>=2.34']"
-reverse_depends = "['obs-studio', 'obs-studio', 'pipewire']"
+reverse_depends = "['gst1-plugins-bad-fdk-aac', 'obs-studio', 'obs-studio', 'pipewire']"
 +++
 ### Description: 
 A standalone library of the Fraunhofer FDK AAC code from Android.

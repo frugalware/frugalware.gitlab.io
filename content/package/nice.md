@@ -12,7 +12,7 @@ size = "302948"
 usize = "1697420"
 sha1sum = "6d45bd909b21e3277eb933d5fddf8ecdb8be79bb"
 depends = "['gnutls', 'gstreamer1>=1.9.2-2', 'libffi>=3.2.1-2']"
-reverse_depends = "['farstream', 'telepathy-gabble']"
+reverse_depends = "['farstream', 'gst1-plugins-bad', 'telepathy-gabble']"
 +++
 ### Description: 
 Library for Interactive Connectivity Establishment.

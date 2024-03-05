@@ -12,7 +12,7 @@ size = "302196"
 usize = "840310"
 sha1sum = "fdc1f3847459a359df2d6177b4642e451c558875"
 depends = "['libstdc++>=11.2']"
-reverse_depends = "['gst1-plugins-bad', 'libpulse']"
+reverse_depends = "['libpulse']"
 +++
 ### Description: 
 AudioProcessing library based on Google's implementation of WebRTC

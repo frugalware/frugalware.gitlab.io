@@ -12,7 +12,7 @@ size = "48592"
 usize = "314611"
 sha1sum = "5898e74bc98e5cb6f7e13183b0b8b758f3627196"
 depends = "['libstdc++', 'libxkbcommon']"
-reverse_depends = "['wpebackend-fdo']"
+reverse_depends = "['gst1-plugins-bad', 'wpebackend-fdo']"
 +++
 ### Description: 
 General-purpose library for the WPE WebKit.

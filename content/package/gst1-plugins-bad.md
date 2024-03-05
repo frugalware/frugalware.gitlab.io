@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "gst1-plugins-bad 1.22.10-1"
-version = "1.22.10-1"
+title = "gst1-plugins-bad 1.24.0-1"
+version = "1.24.0-1"
 description = "Plugins for GStreamer (Bad)"
-date = "2024-02-18T17:49:14"
+date = "2024-03-05T13:56:25"
 aliases = "/packages/168830"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "2518148"
-usize = "9662406"
-sha1sum = "25221e6da8bfcd72ac4a2a46e1b075fe87a71b83"
-depends = "['gst1-plugins-base>=1.22.10', 'ldacbt', 'libass>=0.13.6', 'libffi>=3.2.1-2', 'libfreeaptx', 'libgudev>=230-7', 'libjpeg-turbo', 'libpng>=1.6.27', 'mjpegtools>=2.2.1', 'nettle>=3.6', 'openjpeg>=2.2.0', 'openssl>=3.1.0', 'webrtc-audio-processing', 'x265>=3.5']"
-reverse_depends = "['castersoundboard', 'gst1-plugins-bad-bzip2', 'gst1-plugins-bad-dts', 'gst1-plugins-bad-faac', 'gst1-plugins-bad-faad2', 'gst1-plugins-bad-libdc1394', 'gst1-plugins-bad-mpeg2enc', 'gst1-plugins-bad-resindvd', 'gst1-plugins-bad-soundtouch', 'gtk+4', 'pulseaudio-bluetooth', 'qt5-gstreamer', 'qt5-multimedia', 'spice-glib', 'webkit-gtk3']"
+size = "3314844"
+usize = "14567194"
+sha1sum = "71032de4cf0de54e3323b44d3ef415e171bc62c4"
+depends = "['gst1-plugins-base>=1.24.0', 'ladspa_sdk', 'ldacbt', 'libass>=0.13.6', 'libffi>=3.2.1-2', 'libfreeaptx', 'libgudev>=230-7', 'libjpeg-turbo', 'libpng>=1.6.27', 'libsoup', 'libwpe', 'lilv', 'mjpegtools>=2.2.1', 'nettle>=3.6', 'nice', 'openjpeg>=2.2.0', 'openssl>=3.1.0', 'pango', 'x265>=3.5']"
+reverse_depends = "['castersoundboard', 'gst1-plugins-bad-bluez', 'gst1-plugins-bad-bzip2', 'gst1-plugins-bad-chromaprint', 'gst1-plugins-bad-cuda', 'gst1-plugins-bad-de265', 'gst1-plugins-bad-dts', 'gst1-plugins-bad-faac', 'gst1-plugins-bad-faad2', 'gst1-plugins-bad-fdk-aac', 'gst1-plugins-bad-gtk-wayland', 'gst1-plugins-bad-json', 'gst1-plugins-bad-libdc1394', 'gst1-plugins-bad-libva', 'gst1-plugins-bad-mpeg2enc', 'gst1-plugins-bad-neon', 'gst1-plugins-bad-opencv', 'gst1-plugins-bad-openmpt', 'gst1-plugins-bad-opus', 'gst1-plugins-bad-qroverlay', 'gst1-plugins-bad-resindvd', 'gst1-plugins-bad-sbc', 'gst1-plugins-bad-soundtouch', 'gst1-plugins-bad-srtp', 'gst1-plugins-bad-vulkan', 'gst1-plugins-bad-wayland', 'gst1-plugins-bad-webrtc', 'gst1-plugins-bad-wildmidi', 'gst1-plugins-bad-zxing', 'gtk+4', 'pulseaudio-bluetooth', 'qt5-gstreamer', 'qt5-multimedia', 'spice-glib', 'webkit-gtk3']"
 +++
 ### Description: 
 Plugins for GStreamer (Bad)
@@ -20,6 +20,12 @@ Plugins for GStreamer (Bad)
 ### Files: 
 * /usr/bin/gst-transcoder-1.0
 * /usr/bin/playout
+* /usr/include/gstreamer-1.0/gst/analytics/analytics-meta-prelude.h
+* /usr/include/gstreamer-1.0/gst/analytics/analytics.h
+* /usr/include/gstreamer-1.0/gst/analytics/gstanalyticsclassificationmtd.h
+* /usr/include/gstreamer-1.0/gst/analytics/gstanalyticsmeta.h
+* /usr/include/gstreamer-1.0/gst/analytics/gstanalyticsobjectdetectionmtd.h
+* /usr/include/gstreamer-1.0/gst/analytics/gstanalyticsobjecttrackingmtd.h
 * /usr/include/gstreamer-1.0/gst/audio/audio-bad-prelude.h
 * /usr/include/gstreamer-1.0/gst/audio/gstnonstreamaudiodecoder.h
 * /usr/include/gstreamer-1.0/gst/audio/gstplanaraudioadapter.h
@@ -40,14 +46,6 @@ Plugins for GStreamer (Bad)
 * /usr/include/gstreamer-1.0/gst/codecparsers/gstvp8parser.h
 * /usr/include/gstreamer-1.0/gst/codecparsers/gstvp8rangedecoder.h
 * /usr/include/gstreamer-1.0/gst/codecparsers/gstvp9parser.h
-* /usr/include/gstreamer-1.0/gst/cuda/cuda-gst.h
-* /usr/include/gstreamer-1.0/gst/cuda/cuda-prelude.h
-* /usr/include/gstreamer-1.0/gst/cuda/gstcudabufferpool.h
-* /usr/include/gstreamer-1.0/gst/cuda/gstcudacontext.h
-* /usr/include/gstreamer-1.0/gst/cuda/gstcudaloader.h
-* /usr/include/gstreamer-1.0/gst/cuda/gstcudamemory.h
-* /usr/include/gstreamer-1.0/gst/cuda/gstcudanvrtc.h
-* /usr/include/gstreamer-1.0/gst/cuda/gstcudautils.h
 * /usr/include/gstreamer-1.0/gst/insertbin/gstinsertbin.h
 * /usr/include/gstreamer-1.0/gst/interfaces/photography-enumtypes.h
 * /usr/include/gstreamer-1.0/gst/interfaces/photography-prelude.h
@@ -59,12 +57,21 @@ Plugins for GStreamer (Bad)
 * /usr/include/gstreamer-1.0/gst/mpegts/gst-dvb-section.h
 * /usr/include/gstreamer-1.0/gst/mpegts/gst-hdmv-section.h
 * /usr/include/gstreamer-1.0/gst/mpegts/gst-isdb-descriptor.h
+* /usr/include/gstreamer-1.0/gst/mpegts/gst-metadata-descriptor.h
+* /usr/include/gstreamer-1.0/gst/mpegts/gst-mpegtspesmetadatameta.h
 * /usr/include/gstreamer-1.0/gst/mpegts/gst-scte-section.h
 * /usr/include/gstreamer-1.0/gst/mpegts/gstmpegts-enumtypes.h
 * /usr/include/gstreamer-1.0/gst/mpegts/gstmpegtsdescriptor.h
 * /usr/include/gstreamer-1.0/gst/mpegts/gstmpegtssection.h
 * /usr/include/gstreamer-1.0/gst/mpegts/mpegts-prelude.h
 * /usr/include/gstreamer-1.0/gst/mpegts/mpegts.h
+* /usr/include/gstreamer-1.0/gst/mse/gstmediasource.h
+* /usr/include/gstreamer-1.0/gst/mse/gstmsesrc.h
+* /usr/include/gstreamer-1.0/gst/mse/gstsourcebuffer.h
+* /usr/include/gstreamer-1.0/gst/mse/gstsourcebufferlist.h
+* /usr/include/gstreamer-1.0/gst/mse/mse-enumtypes.h
+* /usr/include/gstreamer-1.0/gst/mse/mse-prelude.h
+* /usr/include/gstreamer-1.0/gst/mse/mse.h
 * /usr/include/gstreamer-1.0/gst/play/gstplay-media-info.h
 * /usr/include/gstreamer-1.0/gst/play/gstplay-signal-adapter.h
 * /usr/include/gstreamer-1.0/gst/play/gstplay-types.h
@@ -95,24 +102,30 @@ Plugins for GStreamer (Bad)
 * /usr/include/gstreamer-1.0/gst/uridownloader/gsturidownloader.h
 * /usr/include/gstreamer-1.0/gst/uridownloader/gsturidownloader_debug.h
 * /usr/include/gstreamer-1.0/gst/uridownloader/uridownloader-prelude.h
-* /usr/include/gstreamer-1.0/gst/webrtc/datachannel.h
-* /usr/include/gstreamer-1.0/gst/webrtc/dtlstransport.h
-* /usr/include/gstreamer-1.0/gst/webrtc/ice.h
-* /usr/include/gstreamer-1.0/gst/webrtc/icestream.h
-* /usr/include/gstreamer-1.0/gst/webrtc/icetransport.h
-* /usr/include/gstreamer-1.0/gst/webrtc/rtcsessiondescription.h
-* /usr/include/gstreamer-1.0/gst/webrtc/rtpreceiver.h
-* /usr/include/gstreamer-1.0/gst/webrtc/rtpsender.h
-* /usr/include/gstreamer-1.0/gst/webrtc/rtptransceiver.h
-* /usr/include/gstreamer-1.0/gst/webrtc/sctptransport.h
-* /usr/include/gstreamer-1.0/gst/webrtc/webrtc-enumtypes.h
-* /usr/include/gstreamer-1.0/gst/webrtc/webrtc.h
-* /usr/include/gstreamer-1.0/gst/webrtc/webrtc_fwd.h
+* /usr/lib/girepository-1.0/CudaGst-1.0.typelib
+* /usr/lib/girepository-1.0/GstAnalytics-1.0.typelib
+* /usr/lib/girepository-1.0/GstBadAudio-1.0.typelib
+* /usr/lib/girepository-1.0/GstCodecs-1.0.typelib
+* /usr/lib/girepository-1.0/GstCuda-1.0.typelib
+* /usr/lib/girepository-1.0/GstDxva-1.0.typelib
+* /usr/lib/girepository-1.0/GstInsertBin-1.0.typelib
+* /usr/lib/girepository-1.0/GstMpegts-1.0.typelib
+* /usr/lib/girepository-1.0/GstMse-1.0.typelib
+* /usr/lib/girepository-1.0/GstPlay-1.0.typelib
+* /usr/lib/girepository-1.0/GstPlayer-1.0.typelib
+* /usr/lib/girepository-1.0/GstTranscoder-1.0.typelib
+* /usr/lib/girepository-1.0/GstVa-1.0.typelib
+* /usr/lib/girepository-1.0/GstVulkan-1.0.typelib
+* /usr/lib/girepository-1.0/GstVulkanWayland-1.0.typelib
+* /usr/lib/girepository-1.0/GstVulkanXCB-1.0.typelib
+* /usr/lib/girepository-1.0/GstWebRTC-1.0.typelib
 * /usr/lib/gstreamer-1.0/libgstaccurip.so
 * /usr/lib/gstreamer-1.0/libgstadpcmdec.so
 * /usr/lib/gstreamer-1.0/libgstadpcmenc.so
 * /usr/lib/gstreamer-1.0/libgstaes.so
 * /usr/lib/gstreamer-1.0/libgstaiff.so
+* /usr/lib/gstreamer-1.0/libgstanalyticsoverlay.so
+* /usr/lib/gstreamer-1.0/libgstaom.so
 * /usr/lib/gstreamer-1.0/libgstasfmux.so
 * /usr/lib/gstreamer-1.0/libgstassrender.so
 * /usr/lib/gstreamer-1.0/libgstaudiobuffersplit.so
@@ -123,10 +136,12 @@ Plugins for GStreamer (Bad)
 * /usr/lib/gstreamer-1.0/libgstautoconvert.so
 * /usr/lib/gstreamer-1.0/libgstbayer.so
 * /usr/lib/gstreamer-1.0/libgstcamerabin.so
+* /usr/lib/gstreamer-1.0/libgstclosedcaption.so
 * /usr/lib/gstreamer-1.0/libgstcodecalpha.so
 * /usr/lib/gstreamer-1.0/libgstcodectimestamper.so
 * /usr/lib/gstreamer-1.0/libgstcoloreffects.so
 * /usr/lib/gstreamer-1.0/libgstcolormanagement.so
+* /usr/lib/gstreamer-1.0/libgstcurl.so
 * /usr/lib/gstreamer-1.0/libgstdash.so
 * /usr/lib/gstreamer-1.0/libgstdebugutilsbad.so
 * /usr/lib/gstreamer-1.0/libgstdecklink.so
@@ -144,34 +159,48 @@ Plugins for GStreamer (Bad)
 * /usr/lib/gstreamer-1.0/libgstgaudieffects.so
 * /usr/lib/gstreamer-1.0/libgstgdp.so
 * /usr/lib/gstreamer-1.0/libgstgeometrictransform.so
+* /usr/lib/gstreamer-1.0/libgstgsm.so
 * /usr/lib/gstreamer-1.0/libgsthls.so
 * /usr/lib/gstreamer-1.0/libgstid3tag.so
+* /usr/lib/gstreamer-1.0/libgstinsertbin.so
 * /usr/lib/gstreamer-1.0/libgstinter.so
 * /usr/lib/gstreamer-1.0/libgstinterlace.so
 * /usr/lib/gstreamer-1.0/libgstipcpipeline.so
+* /usr/lib/gstreamer-1.0/libgstisac.so
 * /usr/lib/gstreamer-1.0/libgstivfparse.so
 * /usr/lib/gstreamer-1.0/libgstivtc.so
 * /usr/lib/gstreamer-1.0/libgstjp2kdecimator.so
 * /usr/lib/gstreamer-1.0/libgstjpegformat.so
+* /usr/lib/gstreamer-1.0/libgstkms.so
+* /usr/lib/gstreamer-1.0/libgstladspa.so
 * /usr/lib/gstreamer-1.0/libgstldac.so
 * /usr/lib/gstreamer-1.0/libgstlegacyrawparse.so
+* /usr/lib/gstreamer-1.0/libgstlv2.so
 * /usr/lib/gstreamer-1.0/libgstmidi.so
+* /usr/lib/gstreamer-1.0/libgstmodplug.so
 * /usr/lib/gstreamer-1.0/libgstmpegpsdemux.so
 * /usr/lib/gstreamer-1.0/libgstmpegpsmux.so
 * /usr/lib/gstreamer-1.0/libgstmpegtsdemux.so
 * /usr/lib/gstreamer-1.0/libgstmpegtsmux.so
 * /usr/lib/gstreamer-1.0/libgstmplex.so
+* /usr/lib/gstreamer-1.0/libgstmsdk.so
+* /usr/lib/gstreamer-1.0/libgstmse.so
 * /usr/lib/gstreamer-1.0/libgstmxf.so
 * /usr/lib/gstreamer-1.0/libgstnetsim.so
 * /usr/lib/gstreamer-1.0/libgstnvcodec.so
+* /usr/lib/gstreamer-1.0/libgstopenal.so
 * /usr/lib/gstreamer-1.0/libgstopenaptx.so
+* /usr/lib/gstreamer-1.0/libgstopenexr.so
 * /usr/lib/gstreamer-1.0/libgstopenjpeg.so
 * /usr/lib/gstreamer-1.0/libgstpcapparse.so
 * /usr/lib/gstreamer-1.0/libgstpnm.so
 * /usr/lib/gstreamer-1.0/libgstproxy.so
+* /usr/lib/gstreamer-1.0/libgstqsv.so
 * /usr/lib/gstreamer-1.0/libgstremovesilence.so
 * /usr/lib/gstreamer-1.0/libgstrfbsrc.so
 * /usr/lib/gstreamer-1.0/libgstrist.so
+* /usr/lib/gstreamer-1.0/libgstrsvg.so
+* /usr/lib/gstreamer-1.0/libgstrtmp.so
 * /usr/lib/gstreamer-1.0/libgstrtmp2.so
 * /usr/lib/gstreamer-1.0/libgstrtpmanagerbad.so
 * /usr/lib/gstreamer-1.0/libgstrtponvif.so
@@ -182,11 +211,17 @@ Plugins for GStreamer (Bad)
 * /usr/lib/gstreamer-1.0/libgstsiren.so
 * /usr/lib/gstreamer-1.0/libgstsmooth.so
 * /usr/lib/gstreamer-1.0/libgstsmoothstreaming.so
+* /usr/lib/gstreamer-1.0/libgstsndfile.so
 * /usr/lib/gstreamer-1.0/libgstspeed.so
+* /usr/lib/gstreamer-1.0/libgstsrt.so
 * /usr/lib/gstreamer-1.0/libgstsubenc.so
+* /usr/lib/gstreamer-1.0/libgstsvtav1.so
 * /usr/lib/gstreamer-1.0/libgstswitchbin.so
 * /usr/lib/gstreamer-1.0/libgsttimecode.so
 * /usr/lib/gstreamer-1.0/libgsttranscode.so
+* /usr/lib/gstreamer-1.0/libgstttmlsubs.so
+* /usr/lib/gstreamer-1.0/libgstunixfd.so
+* /usr/lib/gstreamer-1.0/libgstuvcgadget.so
 * /usr/lib/gstreamer-1.0/libgstuvch264.so
 * /usr/lib/gstreamer-1.0/libgstv4l2codecs.so
 * /usr/lib/gstreamer-1.0/libgstvideofiltersbad.so
@@ -194,75 +229,92 @@ Plugins for GStreamer (Bad)
 * /usr/lib/gstreamer-1.0/libgstvideoparsersbad.so
 * /usr/lib/gstreamer-1.0/libgstvideosignal.so
 * /usr/lib/gstreamer-1.0/libgstvmnc.so
-* /usr/lib/gstreamer-1.0/libgstwebrtcdsp.so
+* /usr/lib/gstreamer-1.0/libgstwebp.so
 * /usr/lib/gstreamer-1.0/libgstx265.so
 * /usr/lib/gstreamer-1.0/libgsty4mdec.so
 * /usr/lib/libgstadaptivedemux-1.0.so
 * /usr/lib/libgstadaptivedemux-1.0.so.0
-* /usr/lib/libgstadaptivedemux-1.0.so.0.2210.0
+* /usr/lib/libgstadaptivedemux-1.0.so.0.2400.0
+* /usr/lib/libgstanalytics-1.0.so
+* /usr/lib/libgstanalytics-1.0.so.0
+* /usr/lib/libgstanalytics-1.0.so.0.2400.0
 * /usr/lib/libgstbadaudio-1.0.so
 * /usr/lib/libgstbadaudio-1.0.so.0
-* /usr/lib/libgstbadaudio-1.0.so.0.2210.0
+* /usr/lib/libgstbadaudio-1.0.so.0.2400.0
 * /usr/lib/libgstbasecamerabinsrc-1.0.so
 * /usr/lib/libgstbasecamerabinsrc-1.0.so.0
-* /usr/lib/libgstbasecamerabinsrc-1.0.so.0.2210.0
+* /usr/lib/libgstbasecamerabinsrc-1.0.so.0.2400.0
 * /usr/lib/libgstcodecparsers-1.0.so
 * /usr/lib/libgstcodecparsers-1.0.so.0
-* /usr/lib/libgstcodecparsers-1.0.so.0.2210.0
+* /usr/lib/libgstcodecparsers-1.0.so.0.2400.0
 * /usr/lib/libgstcodecs-1.0.so
 * /usr/lib/libgstcodecs-1.0.so.0
-* /usr/lib/libgstcodecs-1.0.so.0.2210.0
-* /usr/lib/libgstcuda-1.0.so
-* /usr/lib/libgstcuda-1.0.so.0
-* /usr/lib/libgstcuda-1.0.so.0.2210.0
+* /usr/lib/libgstcodecs-1.0.so.0.2400.0
 * /usr/lib/libgstinsertbin-1.0.so
 * /usr/lib/libgstinsertbin-1.0.so.0
-* /usr/lib/libgstinsertbin-1.0.so.0.2210.0
+* /usr/lib/libgstinsertbin-1.0.so.0.2400.0
 * /usr/lib/libgstisoff-1.0.so
 * /usr/lib/libgstisoff-1.0.so.0
-* /usr/lib/libgstisoff-1.0.so.0.2210.0
+* /usr/lib/libgstisoff-1.0.so.0.2400.0
 * /usr/lib/libgstmpegts-1.0.so
 * /usr/lib/libgstmpegts-1.0.so.0
-* /usr/lib/libgstmpegts-1.0.so.0.2210.0
+* /usr/lib/libgstmpegts-1.0.so.0.2400.0
+* /usr/lib/libgstmse-1.0.so
+* /usr/lib/libgstmse-1.0.so.0
+* /usr/lib/libgstmse-1.0.so.0.2400.0
 * /usr/lib/libgstphotography-1.0.so
 * /usr/lib/libgstphotography-1.0.so.0
-* /usr/lib/libgstphotography-1.0.so.0.2210.0
+* /usr/lib/libgstphotography-1.0.so.0.2400.0
 * /usr/lib/libgstplay-1.0.so
 * /usr/lib/libgstplay-1.0.so.0
-* /usr/lib/libgstplay-1.0.so.0.2210.0
+* /usr/lib/libgstplay-1.0.so.0.2400.0
 * /usr/lib/libgstplayer-1.0.so
 * /usr/lib/libgstplayer-1.0.so.0
-* /usr/lib/libgstplayer-1.0.so.0.2210.0
+* /usr/lib/libgstplayer-1.0.so.0.2400.0
 * /usr/lib/libgstsctp-1.0.so
 * /usr/lib/libgstsctp-1.0.so.0
-* /usr/lib/libgstsctp-1.0.so.0.2210.0
+* /usr/lib/libgstsctp-1.0.so.0.2400.0
 * /usr/lib/libgsttranscoder-1.0.so
 * /usr/lib/libgsttranscoder-1.0.so.0
 * /usr/lib/libgsturidownloader-1.0.so
 * /usr/lib/libgsturidownloader-1.0.so.0
-* /usr/lib/libgsturidownloader-1.0.so.0.2210.0
-* /usr/lib/libgstwebrtc-1.0.so
-* /usr/lib/libgstwebrtc-1.0.so.0
-* /usr/lib/libgstwebrtc-1.0.so.0.2210.0
+* /usr/lib/libgsturidownloader-1.0.so.0.2400.0
+* /usr/lib/pkgconfig/gstreamer-analytics-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-bad-audio-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-codecparsers-1.0.pc
-* /usr/lib/pkgconfig/gstreamer-cuda-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-insertbin-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-mpegts-1.0.pc
+* /usr/lib/pkgconfig/gstreamer-mse-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-photography-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-play-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-player-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-plugins-bad-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-sctp-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-transcoder-1.0.pc
-* /usr/lib/pkgconfig/gstreamer-webrtc-1.0.pc
-* /usr/share/doc/gst1-plugins-bad-1.22.10/AUTHORS
-* /usr/share/doc/gst1-plugins-bad-1.22.10/ChangeLog
-* /usr/share/doc/gst1-plugins-bad-1.22.10/COPYING
-* /usr/share/doc/gst1-plugins-bad-1.22.10/NEWS
-* /usr/share/doc/gst1-plugins-bad-1.22.10/README.md
-* /usr/share/doc/gst1-plugins-bad-1.22.10/README.static-linking
-* /usr/share/doc/gst1-plugins-bad-1.22.10/RELEASE
+* /usr/share/doc/gst1-plugins-bad-1.24.0/AUTHORS
+* /usr/share/doc/gst1-plugins-bad-1.24.0/ChangeLog
+* /usr/share/doc/gst1-plugins-bad-1.24.0/COPYING
+* /usr/share/doc/gst1-plugins-bad-1.24.0/NEWS
+* /usr/share/doc/gst1-plugins-bad-1.24.0/README.md
+* /usr/share/doc/gst1-plugins-bad-1.24.0/README.static-linking
+* /usr/share/doc/gst1-plugins-bad-1.24.0/RELEASE
+* /usr/share/gir-1.0/CudaGst-1.0.gir
+* /usr/share/gir-1.0/GstAnalytics-1.0.gir
+* /usr/share/gir-1.0/GstBadAudio-1.0.gir
+* /usr/share/gir-1.0/GstCodecs-1.0.gir
+* /usr/share/gir-1.0/GstCuda-1.0.gir
+* /usr/share/gir-1.0/GstDxva-1.0.gir
+* /usr/share/gir-1.0/GstInsertBin-1.0.gir
+* /usr/share/gir-1.0/GstMpegts-1.0.gir
+* /usr/share/gir-1.0/GstMse-1.0.gir
+* /usr/share/gir-1.0/GstPlay-1.0.gir
+* /usr/share/gir-1.0/GstPlayer-1.0.gir
+* /usr/share/gir-1.0/GstTranscoder-1.0.gir
+* /usr/share/gir-1.0/GstVa-1.0.gir
+* /usr/share/gir-1.0/GstVulkan-1.0.gir
+* /usr/share/gir-1.0/GstVulkanWayland-1.0.gir
+* /usr/share/gir-1.0/GstVulkanXCB-1.0.gir
+* /usr/share/gir-1.0/GstWebRTC-1.0.gir
 * /usr/share/gstreamer-1.0/encoding-profiles/device/dvd.gep
 * /usr/share/gstreamer-1.0/encoding-profiles/file-extension/avi.gep
 * /usr/share/gstreamer-1.0/encoding-profiles/file-extension/flv.gep

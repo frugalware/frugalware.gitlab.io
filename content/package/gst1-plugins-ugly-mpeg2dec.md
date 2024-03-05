@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-ugly-mpeg2dec 1.22.10-1"
-version = "1.22.10-1"
+title = "gst1-plugins-ugly-mpeg2dec 1.24.0-1"
+version = "1.24.0-1"
 description = "GStreamer mpeg2dec plugin (Ugly)."
-date = "2024-02-18T17:52:30"
+date = "2024-03-05T14:05:44"
 aliases = "/packages/168876"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "16376"
+size = "16372"
 usize = "38832"
-sha1sum = "4b98019aa1b9f72dc836f6b87c4c751e1747dc05"
-depends = "['gst1-plugins-base>=1.22.10', 'gst1-plugins-ugly>=1.22.10', 'libffi>=3.2.1-2', 'mpeg2dec>=0.5.1-4']"
+sha1sum = "a2cb4421f50a29deb3650c28b498dcf10e76325f"
+depends = "['gst1-plugins-base>=1.24.0', 'gst1-plugins-ugly>=1.24.0', 'libffi>=3.2.1-2', 'mpeg2dec>=0.5.1-4']"
 +++
 ### Description: 
 GStreamer mpeg2dec plugin (Ugly).

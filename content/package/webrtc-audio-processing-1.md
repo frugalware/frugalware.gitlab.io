@@ -12,7 +12,7 @@ size = "479552"
 usize = "1428444"
 sha1sum = "35bd98efa2aadf12cef861386fb25306b192491c"
 depends = "['abseil-cpp>=20230125', 'libstdc++>=11.2']"
-reverse_depends = "['pipewire']"
+reverse_depends = "['gst1-plugins-bad-webrtc', 'pipewire']"
 +++
 ### Description: 
 AudioProcessing library based on Google's implementation of WebRTC

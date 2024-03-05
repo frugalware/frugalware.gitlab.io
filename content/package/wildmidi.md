@@ -12,7 +12,7 @@ size = "103064"
 usize = "217703"
 sha1sum = "64e9e115d44e259f7d6fff14b737f4c3f51bd90f"
 depends = "['alsa-lib>=1.1.2-2', 'openal']"
-reverse_depends = "['mpd']"
+reverse_depends = "['gst1-plugins-bad-wildmidi', 'mpd']"
 +++
 ### Description: 
 A midi processing library and a midi player using the gus patch set.

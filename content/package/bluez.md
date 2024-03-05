@@ -12,7 +12,7 @@ size = "1853308"
 usize = "6856931"
 sha1sum = "1271894636bd560f358685147c30723bf263cfff"
 depends = "['alsa-lib', 'dbus>=1.10.16-3', 'glib2>=2.50.0', 'libical>=3.0.3', 'libsystemd>=242-3', 'libudev>=242-3', 'readline>=8.0']"
-reverse_depends = "['anyremote', 'enlightenment', 'gammu', 'gnokii', 'gpsd', 'kvm', 'ofono', 'pulseaudio-bluetooth', 'pybluez', 'qemu', 'qt5-connectivity', 'qt6-connectivity', 'supertuxkart']"
+reverse_depends = "['anyremote', 'enlightenment', 'gammu', 'gnokii', 'gpsd', 'gst1-plugins-bad-bluez', 'kvm', 'ofono', 'pulseaudio-bluetooth', 'pybluez', 'qemu', 'qt5-connectivity', 'qt6-connectivity', 'supertuxkart']"
 +++
 ### Description: 
 Library to use the BlueZ Linux Bluetooth stack

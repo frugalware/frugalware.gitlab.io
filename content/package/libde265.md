@@ -12,7 +12,7 @@ size = "257128"
 usize = "814653"
 sha1sum = "31479e9e2698c930295fa5902d42f38c7edc1ea5"
 depends = "['libstdc++']"
-reverse_depends = "['libheif', 'sherlock265']"
+reverse_depends = "['gst1-plugins-bad-de265', 'libheif', 'sherlock265']"
 +++
 ### Description: 
 Open h.265 video codec implementation

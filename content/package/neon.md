@@ -12,7 +12,7 @@ size = "218792"
 usize = "777402"
 sha1sum = "c67b6007e7253932c6dbe7ea935b697cefa9aee2"
 depends = "['expat>=2.1.0-5', 'libkrb5>=1.17-2', 'openssl>=3.1.0', 'zlib>=1.2.12']"
-reverse_depends = "['libmusicbrainz']"
+reverse_depends = "['gst1-plugins-bad-neon', 'libmusicbrainz']"
 +++
 ### Description: 
 An HTTP and WebDAV client library, with a C interface.
