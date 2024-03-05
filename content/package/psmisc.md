@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "psmisc 23.6-1"
-version = "23.6-1"
+title = "psmisc 23.7-1"
+version = "23.7-1"
 description = "Miscellaneous procfs tools"
-date = "2022-12-19T10:00:19"
+date = "2024-03-05T14:16:20"
 aliases = "/packages/2434"
 categories = ['base']
 upstreamurl = "https://sourceforge.net/projects/psmisc"
 arch = "x86_64"
-size = "258664"
-usize = "802776"
-sha1sum = "0326a20aae802471e793428615a03854d66adf3f"
+size = "267196"
+usize = "845550"
+sha1sum = "f38f07fe4d642a041db6d8de9a766bd9c97e07b1"
 depends = "['ncurses>=6.1-2']"
 reverse_depends = "['dcron', 'scriptlet-core']"
 +++
@@ -25,12 +25,12 @@ Miscellaneous procfs tools
 * /usr/bin/pslog
 * /usr/bin/pstree
 * /usr/bin/pstree.x11
-* /usr/share/doc/psmisc-23.6/AUTHORS
-* /usr/share/doc/psmisc-23.6/ChangeLog
-* /usr/share/doc/psmisc-23.6/COPYING
-* /usr/share/doc/psmisc-23.6/NEWS
-* /usr/share/doc/psmisc-23.6/README
-* /usr/share/doc/psmisc-23.6/README.md
+* /usr/share/doc/psmisc-23.7/AUTHORS
+* /usr/share/doc/psmisc-23.7/ChangeLog
+* /usr/share/doc/psmisc-23.7/COPYING
+* /usr/share/doc/psmisc-23.7/NEWS
+* /usr/share/doc/psmisc-23.7/README
+* /usr/share/doc/psmisc-23.7/README.md
 * /usr/share/locale/bg/LC_MESSAGES/psmisc.mo
 * /usr/share/locale/ca/LC_MESSAGES/psmisc.mo
 * /usr/share/locale/cs/LC_MESSAGES/psmisc.mo
@@ -47,6 +47,8 @@ Miscellaneous procfs tools
 * /usr/share/locale/id/LC_MESSAGES/psmisc.mo
 * /usr/share/locale/it/LC_MESSAGES/psmisc.mo
 * /usr/share/locale/ja/LC_MESSAGES/psmisc.mo
+* /usr/share/locale/ka/LC_MESSAGES/psmisc.mo
+* /usr/share/locale/ko/LC_MESSAGES/psmisc.mo
 * /usr/share/locale/nb/LC_MESSAGES/psmisc.mo
 * /usr/share/locale/nl/LC_MESSAGES/psmisc.mo
 * /usr/share/locale/pl/LC_MESSAGES/psmisc.mo

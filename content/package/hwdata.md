@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hwdata 0.379-1"
-version = "0.379-1"
+title = "hwdata 0.380-1"
+version = "0.380-1"
 description = "Hardware identification and configuration data"
-date = "2024-02-07T09:58:08"
+date = "2024-03-05T14:14:55"
 aliases = "/packages/136189"
 categories = ['base']
 upstreamurl = "https://github.com/vcrhonek/hwdata"
 arch = "x86_64"
-size = "1591976"
-usize = "9487688"
-sha1sum = "6c9e2ae7211982238cf809ebac54a9821a6b287e"
+size = "1593876"
+usize = "9513546"
+sha1sum = "ff1da295211567858a8813acdddf3f53ccad77b4"
 depends = "['kmod>=25-2']"
 reverse_depends = "['kwin5', 'libgusb', 'pciutils', 'systemd', 'usbutils']"
 +++
