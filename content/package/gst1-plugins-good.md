@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-good 1.22.10-2"
-version = "1.22.10-2"
+title = "gst1-plugins-good 1.24.0-1"
+version = "1.24.0-1"
 description = "Plugins for GStreamer (Good)"
-date = "2024-02-20T16:02:06"
+date = "2024-03-05T09:42:46"
 aliases = "/packages/168850"
 categories = ['xmultimedia']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "1846348"
-usize = "6347030"
-sha1sum = "c1949f30e4ce02562d4f30ce721c45aee47daa0e"
-depends = "['cairo>=1.15.14', 'gst1-plugins-base>=1.22.10', 'gstreamer1>=1.22.10', 'orc>=0.4.26']"
+size = "1859840"
+usize = "6334523"
+sha1sum = "f389477f87c556d4de7c7362ed7e64e868baf680"
+depends = "['cairo>=1.15.14', 'gst1-plugins-base>=1.24.0', 'gstreamer1>=1.24.0', 'orc>=0.4.26']"
 reverse_depends = "['castersoundboard', 'gst1-plugins-good-aalib', 'gst1-plugins-good-avc1394', 'gst1-plugins-good-caca', 'gst1-plugins-good-dv', 'gst1-plugins-good-flac', 'gst1-plugins-good-gdkpixbuf', 'gst1-plugins-good-jack', 'gst1-plugins-good-jpeg', 'gst1-plugins-good-libsoup', 'gst1-plugins-good-png', 'gst1-plugins-good-pulseaudio', 'gst1-plugins-good-shout', 'gst1-plugins-good-speex', 'gst1-plugins-good-taglib', 'gst1-plugins-good-video4linux2', 'gst1-plugins-good-videobox', 'gst1-plugins-good-vpx', 'gst1-plugins-good-wavpack', 'gst1-plugins-good-ximage', 'qt5-gstreamer', 'qt5-multimedia', 'spice', 'spice-glib', 'webkit-gtk3']"
 +++
 ### Description: 
@@ -68,13 +68,13 @@ Plugins for GStreamer (Good)
 * /usr/lib/gstreamer-1.0/libgstwavparse.so
 * /usr/lib/gstreamer-1.0/libgstxingmux.so
 * /usr/lib/gstreamer-1.0/libgsty4menc.so
-* /usr/share/doc/gst1-plugins-good-1.22.10/AUTHORS
-* /usr/share/doc/gst1-plugins-good-1.22.10/ChangeLog
-* /usr/share/doc/gst1-plugins-good-1.22.10/COPYING
-* /usr/share/doc/gst1-plugins-good-1.22.10/NEWS
-* /usr/share/doc/gst1-plugins-good-1.22.10/README.md
-* /usr/share/doc/gst1-plugins-good-1.22.10/README.static-linking
-* /usr/share/doc/gst1-plugins-good-1.22.10/RELEASE
+* /usr/share/doc/gst1-plugins-good-1.24.0/AUTHORS
+* /usr/share/doc/gst1-plugins-good-1.24.0/ChangeLog
+* /usr/share/doc/gst1-plugins-good-1.24.0/COPYING
+* /usr/share/doc/gst1-plugins-good-1.24.0/NEWS
+* /usr/share/doc/gst1-plugins-good-1.24.0/README.md
+* /usr/share/doc/gst1-plugins-good-1.24.0/README.static-linking
+* /usr/share/doc/gst1-plugins-good-1.24.0/RELEASE
 * /usr/share/gstreamer-1.0/presets/GstIirEqualizer10Bands.prs
 * /usr/share/gstreamer-1.0/presets/GstIirEqualizer3Bands.prs
 * /usr/share/gstreamer-1.0/presets/GstQTMux.prs

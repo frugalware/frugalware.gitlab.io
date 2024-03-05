@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sof-firmware 2023.12-2"
-version = "2023.12-2"
+title = "sof-firmware 2023.12.1-1"
+version = "2023.12.1-1"
 description = "Sound Open Firmware"
-date = "2024-01-02T20:21:47"
+date = "2024-03-05T09:14:11"
 aliases = "/packages/220320"
 categories = ['base']
 upstreamurl = "https://www.sofproject.org/"
 arch = "x86_64"
-size = "1079092"
-usize = "21083749"
-sha1sum = "165acebaa7f06b6d2187adfa494989d6c521e515"
+size = "1080436"
+usize = "21352745"
+sha1sum = "4e314ea4b33606b7eb793d0d950d4f4c611b0783"
 depends = "['glibc>=2.35']"
 +++
 ### Description: 
@@ -23,9 +23,15 @@ Sound Open Firmware
 * /usr/bin/sof-probes
 * /usr/lib/firmware/intel/sof-ace-tplg/sof-hda-generic-2ch.tplg
 * /usr/lib/firmware/intel/sof-ace-tplg/sof-hda-generic-4ch.tplg
+* /usr/lib/firmware/intel/sof-ace-tplg/sof-hda-generic-ace1-2ch.tplg
+* /usr/lib/firmware/intel/sof-ace-tplg/sof-hda-generic-ace1-4ch.tplg
+* /usr/lib/firmware/intel/sof-ace-tplg/sof-hda-generic-cavs25-2ch.tplg
+* /usr/lib/firmware/intel/sof-ace-tplg/sof-hda-generic-cavs25-4ch.tplg
 * /usr/lib/firmware/intel/sof-ace-tplg/sof-hda-generic-idisp.tplg
 * /usr/lib/firmware/intel/sof-ace-tplg/sof-hda-generic.tplg
 * /usr/lib/firmware/intel/sof-ace-tplg/sof-mtl-cs42l43-l0-cs35l56-l12.tplg
+* /usr/lib/firmware/intel/sof-ace-tplg/sof-mtl-es83x6-ssp1-hdmi-ssp02.tplg
+* /usr/lib/firmware/intel/sof-ace-tplg/sof-mtl-hdmi-ssp02.tplg
 * /usr/lib/firmware/intel/sof-ace-tplg/sof-mtl-max98357a-rt5682-ssp2-ssp0-2ch-pdm1.tplg
 * /usr/lib/firmware/intel/sof-ace-tplg/sof-mtl-max98357a-rt5682-ssp2-ssp0.tplg
 * /usr/lib/firmware/intel/sof-ace-tplg/sof-mtl-max98357a-rt5682.tplg
@@ -395,5 +401,5 @@ Sound Open Firmware
 * /usr/lib/firmware/intel/sof/sof-tgl-h.ri
 * /usr/lib/firmware/intel/sof/sof-tgl.ldc
 * /usr/lib/firmware/intel/sof/sof-tgl.ri
-* /usr/share/doc/sof-firmware-2023.12/README.Intel
-* /usr/share/doc/sof-firmware-2023.12/README.md
+* /usr/share/doc/sof-firmware-2023.12.1/README.Intel
+* /usr/share/doc/sof-firmware-2023.12.1/README.md

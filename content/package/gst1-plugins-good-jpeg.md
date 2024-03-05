@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-good-jpeg 1.22.10-2"
-version = "1.22.10-2"
+title = "gst1-plugins-good-jpeg 1.24.0-1"
+version = "1.24.0-1"
 description = "GStreamer jpeg plugin (Good)."
-date = "2024-02-20T16:02:06"
+date = "2024-03-05T09:42:46"
 aliases = "/packages/168854"
 categories = ['xmultimedia']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "27436"
+size = "27368"
 usize = "51376"
-sha1sum = "1d56f90c84389fa13ba58259a36efe91b2ce801a"
-depends = "['gst1-plugins-base>=1.22.10', 'gst1-plugins-good>=1.22.10', 'libffi>=3.2.1-2', 'libjpeg-turbo']"
+sha1sum = "a83c41736557c21770d013793312878670ff812e"
+depends = "['gst1-plugins-base>=1.24.0', 'gst1-plugins-good>=1.24.0', 'libffi>=3.2.1-2', 'libjpeg-turbo']"
 reverse_depends = "['kamoso']"
 +++
 ### Description: 

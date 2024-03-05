@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "postfix 3.8.5-1"
-version = "3.8.5-1"
+title = "postfix 3.8.6-1"
+version = "3.8.6-1"
 description = "A fast, easy to administer, and secure MTA"
-date = "2024-01-23T09:32:51"
+date = "2024-03-05T09:17:51"
 aliases = "/packages/3296"
 categories = ['network']
 upstreamurl = "https://www.postfix.org/"
 arch = "x86_64"
-size = "1447188"
-usize = "4769004"
-sha1sum = "9554f7fef3153da37f8d378c63fc1566a0e194e9"
+size = "1448064"
+usize = "4772145"
+sha1sum = "670302410156985afc6a35666d9edd85fbc14ea2"
 depends = "['cyrus-sasl>=2.1.26-3', 'db>=18.1.32', 'icu4c>=74.1', 'libldap>=2.4.47-2', 'libnsl>=2.0.0', 'libpq>=11.2-2', 'mariadb-libs>=10.3.14', 'openssl>=3.1.0', 'pcre>=8.30']"
 reverse_depends = "['arpwatch', 'postfixadmin', 'postgrey']"
 +++
@@ -92,35 +92,35 @@ A fast, easy to administer, and secure MTA
 * /usr/lib/postfix/virtual
 * /usr/lib/sendmail
 * /usr/lib/systemd/system/postfix.service
-* /usr/share/doc/postfix-3.8.5/AAAREADME
-* /usr/share/doc/postfix-3.8.5/COPYRIGHT
-* /usr/share/doc/postfix-3.8.5/HISTORY
-* /usr/share/doc/postfix-3.8.5/INSTALL
-* /usr/share/doc/postfix-3.8.5/LICENSE
-* /usr/share/doc/postfix-3.8.5/README.Frugalware
-* /usr/share/doc/postfix-3.8.5/RELEASE_NOTES
-* /usr/share/doc/postfix-3.8.5/RELEASE_NOTES-1.0
-* /usr/share/doc/postfix-3.8.5/RELEASE_NOTES-1.1
-* /usr/share/doc/postfix-3.8.5/RELEASE_NOTES-2.0
-* /usr/share/doc/postfix-3.8.5/RELEASE_NOTES-2.1
-* /usr/share/doc/postfix-3.8.5/RELEASE_NOTES-2.10
-* /usr/share/doc/postfix-3.8.5/RELEASE_NOTES-2.11
-* /usr/share/doc/postfix-3.8.5/RELEASE_NOTES-2.2
-* /usr/share/doc/postfix-3.8.5/RELEASE_NOTES-2.3
-* /usr/share/doc/postfix-3.8.5/RELEASE_NOTES-2.4
-* /usr/share/doc/postfix-3.8.5/RELEASE_NOTES-2.5
-* /usr/share/doc/postfix-3.8.5/RELEASE_NOTES-2.6
-* /usr/share/doc/postfix-3.8.5/RELEASE_NOTES-2.7
-* /usr/share/doc/postfix-3.8.5/RELEASE_NOTES-2.8
-* /usr/share/doc/postfix-3.8.5/RELEASE_NOTES-2.9
-* /usr/share/doc/postfix-3.8.5/RELEASE_NOTES-3.0
-* /usr/share/doc/postfix-3.8.5/RELEASE_NOTES-3.1
-* /usr/share/doc/postfix-3.8.5/RELEASE_NOTES-3.2
-* /usr/share/doc/postfix-3.8.5/RELEASE_NOTES-3.3
-* /usr/share/doc/postfix-3.8.5/RELEASE_NOTES-3.4
-* /usr/share/doc/postfix-3.8.5/RELEASE_NOTES-3.5
-* /usr/share/doc/postfix-3.8.5/RELEASE_NOTES-3.6
-* /usr/share/doc/postfix-3.8.5/RELEASE_NOTES-3.7
+* /usr/share/doc/postfix-3.8.6/AAAREADME
+* /usr/share/doc/postfix-3.8.6/COPYRIGHT
+* /usr/share/doc/postfix-3.8.6/HISTORY
+* /usr/share/doc/postfix-3.8.6/INSTALL
+* /usr/share/doc/postfix-3.8.6/LICENSE
+* /usr/share/doc/postfix-3.8.6/README.Frugalware
+* /usr/share/doc/postfix-3.8.6/RELEASE_NOTES
+* /usr/share/doc/postfix-3.8.6/RELEASE_NOTES-1.0
+* /usr/share/doc/postfix-3.8.6/RELEASE_NOTES-1.1
+* /usr/share/doc/postfix-3.8.6/RELEASE_NOTES-2.0
+* /usr/share/doc/postfix-3.8.6/RELEASE_NOTES-2.1
+* /usr/share/doc/postfix-3.8.6/RELEASE_NOTES-2.10
+* /usr/share/doc/postfix-3.8.6/RELEASE_NOTES-2.11
+* /usr/share/doc/postfix-3.8.6/RELEASE_NOTES-2.2
+* /usr/share/doc/postfix-3.8.6/RELEASE_NOTES-2.3
+* /usr/share/doc/postfix-3.8.6/RELEASE_NOTES-2.4
+* /usr/share/doc/postfix-3.8.6/RELEASE_NOTES-2.5
+* /usr/share/doc/postfix-3.8.6/RELEASE_NOTES-2.6
+* /usr/share/doc/postfix-3.8.6/RELEASE_NOTES-2.7
+* /usr/share/doc/postfix-3.8.6/RELEASE_NOTES-2.8
+* /usr/share/doc/postfix-3.8.6/RELEASE_NOTES-2.9
+* /usr/share/doc/postfix-3.8.6/RELEASE_NOTES-3.0
+* /usr/share/doc/postfix-3.8.6/RELEASE_NOTES-3.1
+* /usr/share/doc/postfix-3.8.6/RELEASE_NOTES-3.2
+* /usr/share/doc/postfix-3.8.6/RELEASE_NOTES-3.3
+* /usr/share/doc/postfix-3.8.6/RELEASE_NOTES-3.4
+* /usr/share/doc/postfix-3.8.6/RELEASE_NOTES-3.5
+* /usr/share/doc/postfix-3.8.6/RELEASE_NOTES-3.6
+* /usr/share/doc/postfix-3.8.6/RELEASE_NOTES-3.7
 * /usr/share/man/man1/mailq.1.gz
 * /usr/share/man/man1/newaliases.1.gz
 * /usr/share/man/man1/postalias.1.gz

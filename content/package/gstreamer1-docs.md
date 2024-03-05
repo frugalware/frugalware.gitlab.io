@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gstreamer1-docs 1.22.10-1"
-version = "1.22.10-1"
+title = "gstreamer1-docs 1.24.0-1"
+version = "1.24.0-1"
 description = "GStreamer $pkgver Documentation."
-date = "2024-02-18T16:41:54"
+date = "2024-03-05T09:23:37"
 aliases = "/packages/168882"
 categories = ['docs-extra']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "8482024"
-usize = "108086604"
-sha1sum = "853c2fd8b814ee8b08f206b158b966cf45347cf6"
+size = "8782316"
+usize = "116938057"
+sha1sum = "2850a0cf977fde2635de6c63f832fd1768cdb7e1"
 depends = "[]"
 +++
 ### Description: 
@@ -117,12 +117,19 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/aiff/aiffmux.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/aiff/aiffparse.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/aiff/index.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/aja/ajasink.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/aja/ajasinkcombiner.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/aja/ajasrc.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/aja/ajasrcdemux.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/aja/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/alaw/alawdec.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/alaw/alawenc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/alaw/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/allocators/gstdmabuf.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/allocators/gstdrmdumb.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/allocators/gstfdmemory.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/allocators/gstphysmemoryallocator.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/allocators/gstshmallocator.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/allocators/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/alpha/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/alphacolor/index.html
@@ -130,6 +137,7 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/alsa/alsasink.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/alsa/alsasrc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/alsa/index.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/amfcodec/amfav1enc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/amfcodec/amfh264enc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/amfcodec/amfh265enc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/amfcodec/GstAmfEncoder.html
@@ -138,6 +146,12 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/amrnb/amrnbenc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/amrnb/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/amrwbdec/index.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/analytics/gstanalyticsclassificationtd.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/analytics/gstanalyticsmeta.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/analytics/gstanalyticsobjectdetectionmtd.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/analytics/gstanalyticsobjecttrackingmtd.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/analytics/index.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/analyticsoverlay/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/aom/av1dec.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/aom/av1enc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/aom/index.html
@@ -217,16 +231,30 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/asfmux/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/asfmux/rtpasfpay.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/css/bootstrap-toc.min.css
-* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/css/custom_bootstrap.css
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/css/dark-frontend.css
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/css/dark-sitenav.css
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/css/devhelp.css
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/css/extra_frontend.css
-* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/css/frontend.css
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/css/jquery.mCustomScrollbar.min.css
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/css/light-frontend.css
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/css/light-sitenav.css
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/css/prism-tomorrow.css
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/css/prism.css
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/images/api-reference.svg
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/images/deploy.png
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/images/design-guidelines.svg
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/images/favicon-120.png
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/images/favicon-128.png
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/images/favicon-152.png
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/images/favicon-16.png
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/images/favicon-180.png
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/images/favicon-192.png
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/images/favicon-196.png
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/images/favicon-228.png
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/images/favicon-32.png
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/images/favicon-57.png
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/images/favicon-76.png
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/images/favicon-96.png
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/images/favicon.png
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/images/gstreamer-logo.svg
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/images/home.svg
@@ -235,6 +263,7 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/js/bootstrap-toc.min.js
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/js/bootstrap.js
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/js/compare-versions.js
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/js/full-width.js
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/js/jquery.js
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/js/jquery.mCustomScrollbar.concat.min.js
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/js/jquery.touchSwipe.min.js
@@ -247,6 +276,7 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/js/prism-core.js
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/js/prism_autoloader_path_override.js
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/js/scrollspy.js
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/js/styleswitcher.js
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/js/tag_filtering.js
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/js/trie.js
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/assets/js/trie_index.js
@@ -526,6 +556,8 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/audio/gstaudiosink.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/audio/gstaudiosrc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/audio/gstaudiostreamalign.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/audio/gstdsd.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/audio/gstdsdformat.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/audio/gststreamvolume.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/audio/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/audiobuffersplit/index.html
@@ -575,7 +607,10 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/audiovisualizers/wavescope.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/auparse/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/autoconvert/autoconvert.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/autoconvert/autodeinterlace.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/autoconvert/autovideoconvert.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/autoconvert/autovideoflip.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/autoconvert/GstBaseAutoConvert.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/autoconvert/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/autodetect/autoaudiosink.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/autodetect/autoaudiosrc.html
@@ -593,11 +628,15 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/avtp/avtpcrfsync.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/avtp/avtpcvfdepay.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/avtp/avtpcvfpay.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/avtp/avtprvfdepay.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/avtp/avtprvfpay.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/avtp/avtpsink.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/avtp/avtpsrc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/avtp/GstAvtpBaseDepayload.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/avtp/GstAvtpBasePayload.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/avtp/GstAvtpCrfBase.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/avtp/GstAvtpVfDepayBase.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/avtp/GstAvtpVfPayBase.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/avtp/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/bad-audio/gstnonstreamaudiodecoder.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/bad-audio/gstplanaraudioadapter.html
@@ -625,6 +664,7 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/basecamerabinsrc/element-basecamerasrc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/basecamerabinsrc/gst-libs/gst/basecamerabinsrc/gstcamerabin-enum.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/basecamerabinsrc/index.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/basedebug/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/bayer/bayer2rgb.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/bayer/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/bayer/rgb2bayer.html
@@ -658,15 +698,22 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/closedcaption/cccombiner.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/closedcaption/ccconverter.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/closedcaption/ccextractor.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/closedcaption/cea608mux.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/closedcaption/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/closedcaption/line21decoder.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/closedcaption/line21encoder.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/codec2json/av12json.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/codec2json/h2642json.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/codec2json/h2652json.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/codec2json/index.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/codec2json/vp82json.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/codecalpha/alphacombine.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/codecalpha/codecalphademux.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/codecalpha/GstAlphaDecodeBin.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/codecalpha/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/codecalpha/vp8alphadecodebin.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/codecalpha/vp9alphadecodebin.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/codecs/gst-libs/gst/codecs/gstcodecpicture.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/codecs/gstav1decoder.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/codecs/gsth264decoder.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/codecs/gsth265decoder.html
@@ -735,6 +782,7 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/cuda/gst-libs/gst/cuda/gstcudaloader.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/cuda/gst-libs/gst/cuda/gstcudamemory.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/cuda/gst-libs/gst/cuda/gstcudanvrtc.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/cuda/gst-libs/gst/cuda/gstcudastream.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/cuda/gst-libs/gst/cuda/gstcudautils.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/cuda/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/curl/curlfilesink.html
@@ -758,7 +806,10 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d11/d3d11download.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d11/d3d11h264dec.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d11/d3d11h265dec.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d11/d3d11ipcsink.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d11/d3d11ipcsrc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d11/d3d11mpeg2dec.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d11/d3d11overlay.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d11/d3d11scale.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d11/d3d11screencapturesrc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d11/d3d11testsrc.html
@@ -770,6 +821,24 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d11/GstD3D11BaseFilter.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d11/GstD3D11CompositorPad.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d11/index.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d12/d3d12av1dec.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d12/d3d12compositor.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d12/d3d12convert.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d12/d3d12download.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d12/d3d12h264dec.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d12/d3d12h264enc.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d12/d3d12h265dec.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d12/d3d12mpeg2dec.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d12/d3d12screencapturesrc.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d12/d3d12testsrc.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d12/d3d12upload.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d12/d3d12videosink.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d12/d3d12vp8dec.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d12/d3d12vp9dec.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d12/GstD3D12BaseFilter.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d12/GstD3D12CompositorPad.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d12/GstD3D12Encoder.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/d3d12/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dash/dashdemux.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dash/dashsink.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dash/index.html
@@ -839,6 +908,7 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/directshow/dshowvideosrc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/directshow/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/directsoundsrc/index.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dsd/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dtls/dtlsdec.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dtls/dtlsenc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dtls/dtlssrtpdec.html
@@ -865,6 +935,23 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dvdsub/dvdsubdec.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dvdsub/dvdsubparse.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dvdsub/index.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dwrite/dwriteclockoverlay.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dwrite/dwritesubtitlemux.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dwrite/dwritesubtitleoverlay.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dwrite/dwritetextoverlay.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dwrite/dwritetimeoverlay.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dwrite/GstDWriteBaseOverlay.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dwrite/GstDWriteSubtitleMuxPad.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dwrite/index.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dxva/gst-libs/gst/dxva/gstdxvaav1decoder.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dxva/gst-libs/gst/dxva/gstdxvah264decoder.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dxva/gst-libs/gst/dxva/gstdxvah265decoder.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dxva/gst-libs/gst/dxva/gstdxvampeg2decoder.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dxva/gst-libs/gst/dxva/gstdxvatypes.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dxva/gst-libs/gst/dxva/gstdxvautils.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dxva/gst-libs/gst/dxva/gstdxvavp8decoder.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dxva/gst-libs/gst/dxva/gstdxvavp9decoder.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/dxva/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/effectv/agingtv.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/effectv/dicetv.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/effectv/edgetv.html
@@ -1116,6 +1203,7 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gl/gstglapi.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gl/gstglbasefilter.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gl/gstglbasememory.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gl/gstglbasemixer.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gl/gstglbasesrc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gl/gstglbuffer.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gl/gstglbufferpool.html
@@ -1130,6 +1218,7 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gl/gstglframebuffer.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gl/gstglmemory.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gl/gstglmemorypbo.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gl/gstglmixer.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gl/gstgloverlaycompositor.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gl/gstglquery.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gl/gstglrenderbuffer.html
@@ -1192,6 +1281,7 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gst-editing-services/deprecated.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gst-editing-services/ges-base-xml-formatter.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gst-editing-services/ges-command-line-formatter.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gst-editing-services/ges-discoverer-manager.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gst-editing-services/ges-enums.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gst-editing-services/ges-gerror.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gst-editing-services/ges-prelude.html
@@ -1216,6 +1306,7 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gst-editing-services/geseffectclip.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gst-editing-services/gesextractable.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gst-editing-services/gesformatter.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gst-editing-services/gesframecompositionmeta.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gst-editing-services/gesgroup.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gst-editing-services/gesimagesource.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gst-editing-services/geslayer.html
@@ -1258,6 +1349,7 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gst-plugins-bad-adaptivedemux/gstadaptivedemux.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gst-plugins-bad-adaptivedemux/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gst-plugins-bad-codecparsers/dboolhuff.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gst-plugins-bad-codecparsers/gstav1bitwriter.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gst-plugins-bad-codecparsers/gstav1parser.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gst-plugins-bad-codecparsers/gsth264bitwriter.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gst-plugins-bad-codecparsers/gsth264parser.html
@@ -1317,6 +1409,7 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gstreamer/gstbufferlist.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gstreamer/gstbufferpool.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gstreamer/gstbus.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gstreamer/gstbytearrayinterface.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gstreamer/gstcaps.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gstreamer/gstcapsfeatures.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/gstreamer/gstchildproxy.html
@@ -1467,11 +1560,6 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/jpegformat/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/jpegformat/jifmux.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/jpegformat/jpegparse.html
-* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/kate/index.html
-* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/kate/katedec.html
-* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/kate/kateenc.html
-* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/kate/kateparse.html
-* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/kate/katetag.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/kms/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/ladspa/GstLADSPAFilter.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/ladspa/GstLADSPASource.html
@@ -1481,12 +1569,17 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/ladspa/ladspa-delay-so-delay-5s.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/ladspa/ladspa-filter-so-hpf.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/ladspa/ladspa-filter-so-lpf.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/ladspa/ladspa-ladspa-rubberband-so-rubberband-pitchshifter-mono.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/ladspa/ladspa-ladspa-rubberband-so-rubberband-pitchshifter-stereo.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/ladspa/ladspa-sine-so-sine-faaa.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/ladspa/ladspa-sine-so-sine-faac.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/ladspa/ladspa-sine-so-sine-fcaa.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/ladspa/ladspasrc-noise-so-noise-white.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/ladspa/ladspasrc-sine-so-sine-fcac.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/lame/index.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/lc3/index.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/lc3/lc3dec.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/lc3/lc3enc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/legacyrawparse/audioparse.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/legacyrawparse/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/legacyrawparse/videoparse.html
@@ -2123,6 +2216,7 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/libav/avmux_webp.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/libav/avmux_wtv.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/libav/avmux_yuv4mpegpipe.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/libav/avvideocompare.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/libav/GstFFMpegVidDec.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/libav/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/libs.html
@@ -2231,6 +2325,8 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/mpegts/gst-dvb-section.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/mpegts/gst-hdmv-section.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/mpegts/gst-isdb-descriptor.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/mpegts/gst-libs/gst/mpegts/gst-metadata-descriptor.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/mpegts/gst-libs/gst/mpegts/gst-mpegtspesmetadatameta.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/mpegts/gst-scte-section.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/mpegts/gstmpegts.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/mpegts/gstmpegtsdescriptor.html
@@ -2265,6 +2361,12 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/msdk/msdkvp9dec.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/msdk/msdkvp9enc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/msdk/msdkvpp.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/mse/index.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/mselib/gstmediasource.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/mselib/gstmsesrc.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/mselib/gstsourcebuffer.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/mselib/gstsourcebufferlist.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/mselib/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/mulaw/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/mulaw/mulawdec.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/mulaw/mulawenc.html
@@ -2305,6 +2407,8 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/cudaconvert.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/cudaconvertscale.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/cudadownload.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/cudaipcsink.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/cudaipcsrc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/cudascale.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/cudaupload.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/GstCudaBaseConvert.html
@@ -2325,18 +2429,15 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/nvd3d11h265enc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/nvh264dec.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/nvh264enc.html
-* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/nvh264sldec.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/nvh265dec.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/nvh265enc.html
-* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/nvh265sldec.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/nvjpegdec.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/nvjpegenc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/nvmpeg2videodec.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/nvmpeg4videodec.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/nvmpegvideodec.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/nvvp8dec.html
-* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/nvvp8sldec.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/nvvp9dec.html
-* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/nvcodec/nvvp9sldec.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/ogg/GstOgmParse.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/ogg/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/ogg/oggaviparse.html
@@ -2346,7 +2447,6 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/ogg/ogmaudioparse.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/ogg/ogmtextparse.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/ogg/ogmvideoparse.html
-* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/omx/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/openal/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/openal/openalsink.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/openal/openalsrc.html
@@ -2424,11 +2524,8 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/opengl/glvideomixer.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/opengl/glvideomixerelement.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/opengl/glviewconvert.html
-* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/opengl/GstGLBaseMixer.html
-* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/opengl/GstGLBaseMixerPad.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/opengl/GstGLEffects.html
-* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/opengl/GstGLMixer.html
-* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/opengl/GstGLMixerPad.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/opengl/GstGLSinkBin.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/opengl/GstGLStereoMixPad.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/opengl/GstGLVideoMixerInput.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/opengl/GstGLVideoMixerPad.html
@@ -2575,6 +2672,7 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/qsv/qsvjpegenc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/qsv/qsvvp9dec.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/qsv/qsvvp9enc.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/qt6d3d11/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rawparse/GstRawBaseParse.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rawparse/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rawparse/rawaudioparse.html
@@ -2582,12 +2680,8 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rawparse/unalignedaudioparse.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rawparse/unalignedvideoparse.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/realmedia/index.html
-* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/realmedia/pnmsrc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/realmedia/rademux.html
-* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/realmedia/rdtdepay.html
-* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/realmedia/rdtmanager.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/realmedia/rmdemux.html
-* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/realmedia/rtspreal.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/removesilence/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/replaygain/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/replaygain/rganalysis.html
@@ -2687,6 +2781,7 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rtp/rtpmpvpay.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rtp/rtpopusdepay.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rtp/rtpopuspay.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rtp/rtppassthroughpay.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rtp/rtppcmadepay.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rtp/rtppcmapay.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rtp/rtppcmudepay.html
@@ -2727,6 +2822,7 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rtplib/gstrtpmeta.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rtplib/gstrtppayloads.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rtplib/index.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rtpmanager/GstRTPMux.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rtpmanager/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rtpmanager/rtpbin.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rtpmanager/rtpdtmfmux.html
@@ -2814,6 +2910,8 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/speex/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/speex/speexdec.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/speex/speexenc.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/srt/GstSRTSink.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/srt/GstSRTSrc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/srt/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/srt/srtclientsink.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/srt/srtclientsrc.html
@@ -2956,6 +3054,10 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/udp/multiudpsink.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/udp/udpsink.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/udp/udpsrc.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/unixfd/index.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/unixfd/unixfdsink.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/unixfd/unixfdsrc.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/uvcgadget/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/uvch264/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/uvch264/uvch264mjpgdemux.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/uvch264/uvch264src.html
@@ -3029,6 +3131,7 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/video/video-format.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/video/video-frame.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/video/video-hdr.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/video/video-info-dma-drm.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/video/video-info.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/video/video-multiview.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/video/video-tile.html
@@ -3041,6 +3144,7 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/video4linux2/v4l2sink.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/video4linux2/v4l2src.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/videobox/index.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/videoconvertscale/GstVideoConvertScale.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/videoconvertscale/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/videoconvertscale/videoconvert.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/videoconvertscale/videoconvertscale.html
@@ -3106,11 +3210,13 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkan/vulkanviewconvert.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkanlib/gst-libs/gst/vulkan/gstvkapi.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkanlib/gst-libs/gst/vulkan/gstvkbarrier.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkanlib/gst-libs/gst/vulkan/gstvkvideoutils.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkanlib/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkanlib/vkbuffermemory.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkanlib/vkbufferpool.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkanlib/vkcommandpool.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkanlib/vkdebug.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkanlib/vkdecoder.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkanlib/vkdescriptorcache.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkanlib/vkdescriptorpool.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkanlib/vkdescriptorset.html
@@ -3126,6 +3232,7 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkanlib/vkimageview.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkanlib/vkinstance.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkanlib/vkmemory.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkanlib/vkoperation.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkanlib/vkphysicaldevice.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkanlib/vkqueue.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkanlib/vkswapper.html

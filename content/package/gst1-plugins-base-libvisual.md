@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-base-libvisual 1.22.10-1"
-version = "1.22.10-1"
+title = "gst1-plugins-base-libvisual 1.24.0-1"
+version = "1.24.0-1"
 description = "GStreamer libvisual plugin (Base)."
-date = "2024-02-18T16:45:53"
+date = "2024-03-05T09:37:02"
 aliases = "/packages/168845"
 categories = ['xmultimedia']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "11176"
+size = "11228"
 usize = "18352"
-sha1sum = "0e43f2f4828112198f24674ccef95c534cdd1479"
-depends = "['gst1-plugins-base>=1.22.10', 'gstreamer1>=1.22.10', 'libffi>=3.2.1', 'libvisual>=0.4.0-4']"
+sha1sum = "f9b817b506322962c03fcb3968ed98b2ffd7d355"
+depends = "['gst1-plugins-base>=1.24.0', 'gstreamer1>=1.24.0', 'libffi>=3.2.1', 'libvisual>=0.4.0-4']"
 +++
 ### Description: 
 GStreamer libvisual plugin (Base).

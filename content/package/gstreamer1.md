@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gstreamer1 1.22.10-1"
-version = "1.22.10-1"
+title = "gstreamer1 1.24.0-1"
+version = "1.24.0-1"
 description = "Open Source Multimedia Framework"
-date = "2024-02-18T16:41:54"
+date = "2024-03-05T09:23:37"
 aliases = "/packages/168881"
 categories = ['xmultimedia']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "1809372"
-usize = "11109811"
-sha1sum = "4ae9d374cc74abb4688c0677b8e3c0c169ae5391"
+size = "1826884"
+usize = "11232762"
+sha1sum = "03cd0c1dd6209452fd5746a8bfdfa3bdcee97938"
 depends = "['glib2>=2.70.2', 'libcap>=2.24-5', 'libffi>=3.2.1-2']"
 reverse_depends = "['efl', 'gst1-plugins-bad-bzip2', 'gst1-plugins-base', 'gst1-plugins-base-alsa', 'gst1-plugins-base-cdparanoia', 'gst1-plugins-base-gio', 'gst1-plugins-base-libvisual', 'gst1-plugins-base-ogg', 'gst1-plugins-base-opus', 'gst1-plugins-base-pango', 'gst1-plugins-base-theora', 'gst1-plugins-base-vorbis', 'gst1-plugins-good', 'gst1-plugins-ugly', 'libcanberra-gst', 'nice', 'spice', 'spice-gtk', 'uget', 'vokoscreenng']"
 +++
@@ -69,6 +69,7 @@ Open Source Multimedia Framework
 * /usr/include/gstreamer-1.0/gst/gstbufferlist.h
 * /usr/include/gstreamer-1.0/gst/gstbufferpool.h
 * /usr/include/gstreamer-1.0/gst/gstbus.h
+* /usr/include/gstreamer-1.0/gst/gstbytearrayinterface.h
 * /usr/include/gstreamer-1.0/gst/gstcaps.h
 * /usr/include/gstreamer-1.0/gst/gstcapsfeatures.h
 * /usr/include/gstreamer-1.0/gst/gstchildproxy.h
@@ -153,39 +154,39 @@ Open Source Multimedia Framework
 * /usr/lib/girepository-1.0/GstNet-1.0.typelib
 * /usr/lib/gstreamer-1.0/libgstcoreelements.so
 * /usr/lib/gstreamer-1.0/libgstcoretracers.so
+* /usr/lib/gstreamer1/gstreamer-1.0/gst-completion-helper
 * /usr/lib/gstreamer1/gstreamer-1.0/gst-hotdoc-plugins-scanner
 * /usr/lib/gstreamer1/gstreamer-1.0/gst-plugin-scanner
 * /usr/lib/gstreamer1/gstreamer-1.0/gst-plugins-doc-cache-generator
-* /usr/lib/gstreamer1/gstreamer-1.0/gst-ptp-helper
 * /usr/lib/libgstbase-1.0.so
 * /usr/lib/libgstbase-1.0.so.0
-* /usr/lib/libgstbase-1.0.so.0.2210.0
+* /usr/lib/libgstbase-1.0.so.0.2400.0
 * /usr/lib/libgstcheck-1.0.so
 * /usr/lib/libgstcheck-1.0.so.0
-* /usr/lib/libgstcheck-1.0.so.0.2210.0
+* /usr/lib/libgstcheck-1.0.so.0.2400.0
 * /usr/lib/libgstcontroller-1.0.so
 * /usr/lib/libgstcontroller-1.0.so.0
-* /usr/lib/libgstcontroller-1.0.so.0.2210.0
+* /usr/lib/libgstcontroller-1.0.so.0.2400.0
 * /usr/lib/libgstnet-1.0.so
 * /usr/lib/libgstnet-1.0.so.0
-* /usr/lib/libgstnet-1.0.so.0.2210.0
+* /usr/lib/libgstnet-1.0.so.0.2400.0
 * /usr/lib/libgstreamer-1.0.so
 * /usr/lib/libgstreamer-1.0.so.0
-* /usr/lib/libgstreamer-1.0.so.0.2210.0
+* /usr/lib/libgstreamer-1.0.so.0.2400.0
 * /usr/lib/pkgconfig/gstreamer-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-base-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-check-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-controller-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-net-1.0.pc
 * /usr/share/aclocal/gst-element-check-1.0.m4
-* /usr/share/doc/gstreamer1-1.22.10/AUTHORS
-* /usr/share/doc/gstreamer1-1.22.10/ChangeLog
-* /usr/share/doc/gstreamer1-1.22.10/COPYING
-* /usr/share/doc/gstreamer1-1.22.10/NEWS
-* /usr/share/doc/gstreamer1-1.22.10/README.md
-* /usr/share/doc/gstreamer1-1.22.10/README.static-linking
-* /usr/share/doc/gstreamer1-1.22.10/RELEASE
-* /usr/share/gdb/auto-load/usr/lib/libgstreamer-1.0.so.0.2210.0-gdb.py
+* /usr/share/doc/gstreamer1-1.24.0/AUTHORS
+* /usr/share/doc/gstreamer1-1.24.0/ChangeLog
+* /usr/share/doc/gstreamer1-1.24.0/COPYING
+* /usr/share/doc/gstreamer1-1.24.0/NEWS
+* /usr/share/doc/gstreamer1-1.24.0/README.md
+* /usr/share/doc/gstreamer1-1.24.0/README.static-linking
+* /usr/share/doc/gstreamer1-1.24.0/RELEASE
+* /usr/share/gdb/auto-load/usr/lib/libgstreamer-1.0.so.0.2400.0-gdb.py
 * /usr/share/gir-1.0/Gst-1.0.gir
 * /usr/share/gir-1.0/GstBase-1.0.gir
 * /usr/share/gir-1.0/GstCheck-1.0.gir
@@ -219,6 +220,7 @@ Open Source Multimedia Framework
 * /usr/share/locale/ka/LC_MESSAGES/gstreamer-1.0.mo
 * /usr/share/locale/ko/LC_MESSAGES/gstreamer-1.0.mo
 * /usr/share/locale/lt/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/lv/LC_MESSAGES/gstreamer-1.0.mo
 * /usr/share/locale/nb/LC_MESSAGES/gstreamer-1.0.mo
 * /usr/share/locale/nl/LC_MESSAGES/gstreamer-1.0.mo
 * /usr/share/locale/pl/LC_MESSAGES/gstreamer-1.0.mo

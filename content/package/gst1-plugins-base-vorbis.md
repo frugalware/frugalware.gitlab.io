@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-base-vorbis 1.22.10-1"
-version = "1.22.10-1"
+title = "gst1-plugins-base-vorbis 1.24.0-1"
+version = "1.24.0-1"
 description = "GStreamer vorbis plugin (Base)."
-date = "2024-02-18T16:45:53"
+date = "2024-03-05T09:37:02"
 aliases = "/packages/168847"
 categories = ['xmultimedia']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "25288"
+size = "25316"
 usize = "63600"
-sha1sum = "fde8498f849965ccd39d7c87c2abd84b954df381"
-depends = "['gst1-plugins-base>=1.22.10', 'gstreamer1>=1.22.10', 'libffi>=3.2.1-2', 'libogg>=1.3.2-5', 'libvorbis>=1.3.5-5']"
+sha1sum = "661d38b0bac88be81640824e26d73ca03b4d0e0e"
+depends = "['gst1-plugins-base>=1.24.0', 'gstreamer1>=1.24.0', 'libffi>=3.2.1-2', 'libogg>=1.3.2-5', 'libvorbis>=1.3.5-5']"
 +++
 ### Description: 
 GStreamer vorbis plugin (Base).

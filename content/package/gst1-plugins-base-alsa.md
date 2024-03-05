@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-base-alsa 1.22.10-1"
-version = "1.22.10-1"
+title = "gst1-plugins-base-alsa 1.24.0-1"
+version = "1.24.0-1"
 description = "GStreamer alsa plugin (Base)."
-date = "2024-02-18T16:45:53"
+date = "2024-03-05T09:37:02"
 aliases = "/packages/168842"
 categories = ['xmultimedia']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "37980"
-usize = "104480"
-sha1sum = "c1ca76ed4221e60750e44e62275a890101bd9b78"
-depends = "['alsa-lib>=1.1.2-2', 'gst1-plugins-base>=1.22.10', 'gstreamer1>=1.22.10', 'libffi>=3.2.1-2']"
+size = "39508"
+usize = "108576"
+sha1sum = "610de2763e6e6cd55e379450bcd12b6441921b28"
+depends = "['alsa-lib>=1.1.2-2', 'gst1-plugins-base>=1.24.0', 'gstreamer1>=1.24.0', 'libffi>=3.2.1-2']"
 +++
 ### Description: 
 GStreamer alsa plugin (Base).
