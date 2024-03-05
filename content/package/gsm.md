@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gsm 1.0.22-2"
-version = "1.0.22-2"
+title = "gsm 1.0.22-3"
+version = "1.0.22-3"
 description = "Gsm is an implementation of the final draft GSM 06.10 standard for full-rate speech transcoding."
-date = "2023-09-03T11:46:19"
+date = "2024-03-05T12:44:57"
 aliases = "/packages/38835"
 categories = ['multimedia']
 upstreamurl = "http://www.quut.com/gsm"
 arch = "x86_64"
-size = "43036"
-usize = "169198"
-sha1sum = "6e35531bc64c8cb3959d6dbaf071e17d35c992fd"
+size = "40548"
+usize = "116146"
+sha1sum = "dc22c5da2db026e3a0d578a3a7ff28f6b771d9ef"
 depends = "['glibc>=2.35']"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4']"
 +++
@@ -22,7 +22,9 @@ Gsm is an implementation of the final draft GSM 06.10 standard for full-rate spe
 * /usr/bin/toast
 * /usr/bin/untoast
 * /usr/include/gsm/gsm.h
-* /usr/lib/libgsm.a
+* /usr/lib/libgsm.so
+* /usr/lib/libgsm.so.1
+* /usr/lib/libgsm.so.1.0.22
 * /usr/share/doc/gsm-1.0.22/ChangeLog
 * /usr/share/doc/gsm-1.0.22/COPYRIGHT
 * /usr/share/doc/gsm-1.0.22/INSTALL
