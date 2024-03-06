@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "opensc 0.24.0-1"
-version = "0.24.0-1"
+title = "opensc 0.25.0-1"
+version = "0.25.0-1"
 description = "Tools and libraries for smart cards"
-date = "2023-12-13T21:00:57"
+date = "2024-03-06T14:57:41"
 aliases = "/packages/219996"
 categories = ['base']
 upstreamurl = "https://github.com/OpenSC/OpenSC/wiki"
 arch = "x86_64"
-size = "1201796"
-usize = "3837990"
-sha1sum = "54d87dc822359150ca2159a48bf29535dd67f633"
+size = "1177800"
+usize = "3778333"
+sha1sum = "914579335c1906590aeabfe38e4e6582b755a900"
 depends = "['openssl>=3.1.0', 'pcsc-lite']"
 reverse_depends = "['rng-tools']"
 +++
@@ -21,6 +21,7 @@ Tools and libraries for smart cards
 * /etc/bash_completion.d/cardos-tool
 * /etc/bash_completion.d/cryptoflex-tool
 * /etc/bash_completion.d/dnie-tool
+* /etc/bash_completion.d/dtrust-tool
 * /etc/bash_completion.d/egk-tool
 * /etc/bash_completion.d/eidenv
 * /etc/bash_completion.d/gids-tool
@@ -45,6 +46,7 @@ Tools and libraries for smart cards
 * /usr/bin/cardos-tool
 * /usr/bin/cryptoflex-tool
 * /usr/bin/dnie-tool
+* /usr/bin/dtrust-tool
 * /usr/bin/egk-tool
 * /usr/bin/eidenv
 * /usr/bin/gids-tool
@@ -65,11 +67,11 @@ Tools and libraries for smart cards
 * /usr/bin/sc-hsm-tool
 * /usr/bin/westcos-tool
 * /usr/lib/libopensc.so
-* /usr/lib/libopensc.so.8
-* /usr/lib/libopensc.so.8.2.1
+* /usr/lib/libopensc.so.11
+* /usr/lib/libopensc.so.11.0.1
 * /usr/lib/libsmm-local.so
-* /usr/lib/libsmm-local.so.8
-* /usr/lib/libsmm-local.so.8.2.1
+* /usr/lib/libsmm-local.so.11
+* /usr/lib/libsmm-local.so.11.0.1
 * /usr/lib/onepin-opensc-pkcs11.so
 * /usr/lib/opensc-pkcs11.so
 * /usr/lib/pkcs11-spy.so
@@ -78,13 +80,14 @@ Tools and libraries for smart cards
 * /usr/lib/pkcs11/pkcs11-spy.so
 * /usr/lib/pkgconfig/opensc-pkcs11.pc
 * /usr/share/applications/org.opensc.notify.desktop
-* /usr/share/doc/opensc-0.24.0/COPYING
-* /usr/share/doc/opensc-0.24.0/NEWS
-* /usr/share/doc/opensc-0.24.0/opensc.conf
-* /usr/share/doc/opensc-0.24.0/README
+* /usr/share/doc/opensc-0.25.0/COPYING
+* /usr/share/doc/opensc-0.25.0/NEWS
+* /usr/share/doc/opensc-0.25.0/opensc.conf
+* /usr/share/doc/opensc-0.25.0/README
 * /usr/share/man/man1/cardos-tool.1.gz
 * /usr/share/man/man1/cryptoflex-tool.1.gz
 * /usr/share/man/man1/dnie-tool.1.gz
+* /usr/share/man/man1/dtrust-tool.1.gz
 * /usr/share/man/man1/egk-tool.1.gz
 * /usr/share/man/man1/eidenv.1.gz
 * /usr/share/man/man1/gids-tool.1.gz
@@ -115,7 +118,6 @@ Tools and libraries for smart cards
 * /usr/share/opensc/epass2003.profile
 * /usr/share/opensc/flex.profile
 * /usr/share/opensc/gids.profile
-* /usr/share/opensc/gpk.profile
 * /usr/share/opensc/iasecc.profile
 * /usr/share/opensc/iasecc_admin_eid.profile
 * /usr/share/opensc/iasecc_generic_oberthur.profile
@@ -123,7 +125,6 @@ Tools and libraries for smart cards
 * /usr/share/opensc/ias_adele_admin1.profile
 * /usr/share/opensc/ias_adele_admin2.profile
 * /usr/share/opensc/ias_adele_common.profile
-* /usr/share/opensc/incrypto34.profile
 * /usr/share/opensc/isoApplet.profile
 * /usr/share/opensc/muscle.profile
 * /usr/share/opensc/myeid.profile
@@ -136,4 +137,3 @@ Tools and libraries for smart cards
 * /usr/share/opensc/sc-hsm.profile
 * /usr/share/opensc/setcos.profile
 * /usr/share/opensc/starcos.profile
-* /usr/share/opensc/westcos.profile

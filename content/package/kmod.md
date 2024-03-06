@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kmod 31-4"
-version = "31-4"
+title = "kmod 32-1"
+version = "32-1"
 description = "Utilities for inserting and removing modules from the Linux kernel"
-date = "2024-01-17T17:26:19"
+date = "2024-03-06T14:53:57"
 aliases = "/packages/137173"
 categories = ['base']
 upstreamurl = "http://kernel.org"
 arch = "x86_64"
-size = "176220"
-usize = "469076"
-sha1sum = "0b58a9588178ec29d4792385046fe4a5e4351e43"
+size = "136036"
+usize = "366986"
+sha1sum = "30038c4466ae1d52c94fa7a087010428ad8cd9f4"
 depends = "['openssl>=3.1.0', 'xz>=5.2.4-2', 'zlib>=1.2.12', 'zstd>=1.4.4']"
 reverse_depends = "['dracut', 'hwdata', 'intel-gpu-tools', 'inxi', 'iscsi', 'kernel', 'kernel-initrd', 'kernel-lts', 'kernel-lts-initrd', 'libndctl', 'ndctl', 'pciutils', 'pcmciautils', 'systemd', 'systemd-nspawn', 'systemd-systemctl', 'systemd-sysvinit']"
 +++
@@ -30,15 +30,14 @@ Utilities for inserting and removing modules from the Linux kernel
 * /usr/include/libkmod.h
 * /usr/lib/libkmod.so
 * /usr/lib/libkmod.so.2
-* /usr/lib/libkmod.so.2.4.1
+* /usr/lib/libkmod.so.2.4.2
+* /usr/lib/pkgconfig/kmod.pc
 * /usr/lib/pkgconfig/libkmod.pc
 * /usr/share/bash-completion/completions/kmod
-* /usr/share/doc/kmod-31/COPYING
-* /usr/share/doc/kmod-31/CREDITS
-* /usr/share/doc/kmod-31/NEWS
-* /usr/share/doc/kmod-31/README
-* /usr/share/doc/kmod-31/README.md
-* /usr/share/doc/kmod-31/TODO
+* /usr/share/doc/kmod-32/COPYING
+* /usr/share/doc/kmod-32/NEWS
+* /usr/share/doc/kmod-32/README.md
+* /usr/share/doc/kmod-32/TODO
 * /usr/share/man/man5/depmod.d.5.gz
 * /usr/share/man/man5/modprobe.d.5.gz
 * /usr/share/man/man5/modules.dep.5.gz
