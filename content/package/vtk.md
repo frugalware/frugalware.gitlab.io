@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vtk 9.3.0-4"
-version = "9.3.0-4"
+title = "vtk 9.3.0-5"
+version = "9.3.0-5"
 description = "Software system for 3D computer graphics, modeling, image processing, volume rendering, scientific visualization, and information visualization."
-date = "2024-02-02T21:19:48"
+date = "2024-03-07T16:48:21"
 aliases = "/packages/219042"
 categories = ['xlib-extra']
 upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "39458140"
-usize = "206598040"
-sha1sum = "48a9cca6bba91772b802f470de42c2803ddfb9ba"
+size = "39451096"
+usize = "206557330"
+sha1sum = "3aee78b835dc47bb88ba7e494a9dc77e20c5fc26"
 depends = "['adios2', 'libboost', 'liblas', 'openslide>=4.0.0', 'openturns>=1.22', 'openvdb>=10.1.0', 'openvr', 'openxr', 'pdal>=2.6.1', 'postgresql']"
 reverse_depends = "['opencascade', 'opencv', 'vtk-ffmpeg', 'vtk-java', 'vtk-java-ffmpeg', 'vtk-java-mpi', 'vtk-java-mysql', 'vtk-java-qt5', 'vtk-mysql', 'vtk-python3', 'vtk-python3-ffmpeg', 'vtk-python3-java', 'vtk-python3-qt5', 'vtk-python3-tcl', 'vtk-qt5']"
 license = "GPL-2"
@@ -696,9 +696,6 @@ Software system for 3D computer graphics, modeling, image processing, volume ren
 * /usr/lib/libvtkzlib.so
 * /usr/lib/libvtkzlib.so.1
 * /usr/lib/libvtkzlib.so.9.3
-* /usr/lib/qml/VTK.9.3/libqmlvtkplugin.so
-* /usr/lib/qml/VTK.9.3/plugins.qmltypes
-* /usr/lib/qml/VTK.9.3/qmldir
 * /usr/lib/vtk-9.3/hierarchy/VTK/vtkAcceleratorsVTKmCore-hierarchy.txt
 * /usr/lib/vtk-9.3/hierarchy/VTK/vtkAcceleratorsVTKmDataModel-hierarchy.txt
 * /usr/lib/vtk-9.3/hierarchy/VTK/vtkAcceleratorsVTKmFilters-hierarchy.txt

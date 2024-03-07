@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vtk-qt5 9.3.0-4"
-version = "9.3.0-4"
+title = "vtk-qt5 9.3.0-5"
+version = "9.3.0-5"
 description = "Qt5 interface and bindings for vtk"
-date = "2024-02-02T21:19:48"
+date = "2024-03-07T16:48:21"
 aliases = "/packages/219062"
 categories = ['xlib-extra']
 upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "194996"
-usize = "800700"
-sha1sum = "98f70703839b328cce057a5868ab17db82c1f34e"
+size = "200516"
+usize = "841410"
+sha1sum = "acefebd87f404b63c165668b652f312857ff7d29"
 depends = "['qt5-base>=5.15.10', 'qt5-quickcontrols>=5.15.10', 'qt5-x11extras>=5.15.10', 'vtk>=9.3.0']"
 reverse_depends = "['vtk-java-qt5', 'vtk-python3-qt5']"
 +++
@@ -33,3 +33,6 @@ Qt5 interface and bindings for vtk
 * /usr/lib/libvtkViewsQt.so
 * /usr/lib/libvtkViewsQt.so.1
 * /usr/lib/libvtkViewsQt.so.9.3
+* /usr/lib/qml/VTK.9.3/libqmlvtkplugin.so
+* /usr/lib/qml/VTK.9.3/plugins.qmltypes
+* /usr/lib/qml/VTK.9.3/qmldir

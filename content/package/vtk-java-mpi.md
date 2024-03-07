@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vtk-java-mpi 9.3.0-4"
-version = "9.3.0-4"
+title = "vtk-java-mpi 9.3.0-5"
+version = "9.3.0-5"
 description = "Java Openmpi interface and bindings for vtk"
-date = "2024-02-02T21:19:48"
+date = "2024-03-07T16:48:21"
 aliases = "/packages/219045"
 categories = ['xlib-extra']
 upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "93460"
+size = "93328"
 usize = "570584"
-sha1sum = "2580b2c9464fc5c605c186e0ee59ee39fdce7de4"
+sha1sum = "c6f0a399edcbdd84bced5904b440884154dde3ef"
 depends = "['vtk>=9.3.0', 'vtk-java>=9.3.0']"
 +++
 ### Description: 
