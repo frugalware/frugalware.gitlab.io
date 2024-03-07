@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gst1-plugins-bad-openmpt 1.24.0-1"
-version = "1.24.0-1"
+title = "gst1-plugins-bad-openmpt 1.24.0-2"
+version = "1.24.0-2"
 description = "GStreamer OpenMPT plugin (Bad)."
-date = "2024-03-05T13:56:25"
+date = "2024-03-07T15:57:08"
 aliases = "/packages/221267"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "14984"
+size = "15020"
 usize = "30640"
-sha1sum = "285b22b0b1d60369115df7dce04aefdd198c5a3f"
+sha1sum = "50abb5975a6b5ddbf4465f40af946edabc406f5e"
 depends = "['gst1-plugins-bad>=1.24.0', 'gst1-plugins-base>=1.24.0', 'libopenmpt']"
 +++
 ### Description: 

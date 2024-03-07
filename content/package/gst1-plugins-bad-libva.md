@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gst1-plugins-bad-libva 1.24.0-1"
-version = "1.24.0-1"
+title = "gst1-plugins-bad-libva 1.24.0-2"
+version = "1.24.0-2"
 description = "GStreamer libva plugin (Bad)."
-date = "2024-03-05T13:56:25"
+date = "2024-03-07T15:57:08"
 aliases = "/packages/221276"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "227624"
-usize = "643772"
-sha1sum = "7d1d2a18fedf2550f35b855ddbc488eecd228d1b"
+size = "413240"
+usize = "1245892"
+sha1sum = "c6a40bf8fba55793512c34f55737f11443f3d06d"
 depends = "['gst1-plugins-bad>=1.24.0', 'gst1-plugins-base>=1.24.0', 'libva']"
 +++
 ### Description: 
@@ -27,6 +27,8 @@ GStreamer libva plugin (Bad).
 * /usr/include/gstreamer-1.0/gst/va/va-enumtypes.h
 * /usr/include/gstreamer-1.0/gst/va/va-prelude.h
 * /usr/include/gstreamer-1.0/gst/va/va_fwd.h
+* /usr/lib/gstreamer-1.0/libgstmsdk.so
+* /usr/lib/gstreamer-1.0/libgstqsv.so
 * /usr/lib/gstreamer-1.0/libgstva.so
 * /usr/lib/libgstdxva-1.0.so
 * /usr/lib/libgstdxva-1.0.so.0

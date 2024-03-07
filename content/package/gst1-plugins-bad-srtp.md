@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gst1-plugins-bad-srtp 1.24.0-1"
-version = "1.24.0-1"
+title = "gst1-plugins-bad-srtp 1.24.0-2"
+version = "1.24.0-2"
 description = "GStreamer srtp plugin (Bad)."
-date = "2024-03-05T13:56:25"
+date = "2024-03-07T15:57:08"
 aliases = "/packages/221273"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "27664"
+size = "27708"
 usize = "67920"
-sha1sum = "a1add4c2e06737f92e48b0cbe2db7bb65f3b2019"
+sha1sum = "3a449434cab925558614749d65e35a23497b2792"
 depends = "['gst1-plugins-bad>=1.24.0', 'gst1-plugins-base>=1.24.0', 'libsrtp']"
 +++
 ### Description: 
