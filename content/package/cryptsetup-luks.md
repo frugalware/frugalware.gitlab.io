@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cryptsetup-luks 2.7.0-1"
-version = "2.7.0-1"
+title = "cryptsetup-luks 2.7.1-1"
+version = "2.7.1-1"
 description = "cryptsetup-luks is intended as a complete replacement for the original cryptsetup."
-date = "2024-01-24T12:59:25"
+date = "2024-03-09T11:40:48"
 aliases = "/packages/14464"
 categories = ['base']
 upstreamurl = "https://gitlab.com/cryptsetup/cryptsetup"
 arch = "x86_64"
-size = "738896"
-usize = "3056824"
-sha1sum = "7250607ff5723af1a6aa1499e02751098a654766"
+size = "743488"
+usize = "3065270"
+sha1sum = "266674f950c3bdc6ed608e917271041a85f3dcf9"
 depends = "['argon2', 'json-c>=0.14', 'libblkid', 'libssh', 'libuuid>=2.31.1-3', 'lvm2-libs>=2.02.177-4', 'openssl>=3.1.0', 'popt>=1.16-9']"
 reverse_depends = "['dracut-ykfde', 'kernel-initrd', 'kernel-lts-initrd', 'systemd', 'systemd-nspawn', 'systemd-systemctl', 'volume_key', 'zulucrypt']"
 +++
@@ -28,12 +28,12 @@ cryptsetup-luks is intended as a complete replacement for the original cryptsetu
 * /usr/lib/libcryptsetup.so.12
 * /usr/lib/libcryptsetup.so.12.10.0
 * /usr/lib/pkgconfig/libcryptsetup.pc
-* /usr/share/doc/cryptsetup-luks-2.7.0/AUTHORS
-* /usr/share/doc/cryptsetup-luks-2.7.0/COPYING
-* /usr/share/doc/cryptsetup-luks-2.7.0/COPYING.LGPL
-* /usr/share/doc/cryptsetup-luks-2.7.0/FAQ.md
-* /usr/share/doc/cryptsetup-luks-2.7.0/README.Frugalware
-* /usr/share/doc/cryptsetup-luks-2.7.0/README.md
+* /usr/share/doc/cryptsetup-luks-2.7.1/AUTHORS
+* /usr/share/doc/cryptsetup-luks-2.7.1/COPYING
+* /usr/share/doc/cryptsetup-luks-2.7.1/COPYING.LGPL
+* /usr/share/doc/cryptsetup-luks-2.7.1/FAQ.md
+* /usr/share/doc/cryptsetup-luks-2.7.1/README.Frugalware
+* /usr/share/doc/cryptsetup-luks-2.7.1/README.md
 * /usr/share/locale/cs/LC_MESSAGES/cryptsetup.mo
 * /usr/share/locale/da/LC_MESSAGES/cryptsetup.mo
 * /usr/share/locale/de/LC_MESSAGES/cryptsetup.mo
