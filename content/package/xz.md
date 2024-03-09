@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xz 5.6.0-1"
-version = "5.6.0-1"
+title = "xz 5.6.1-1"
+version = "5.6.1-1"
 description = "XZ Utils is free general-purpose data compression software with high compression ratio."
-date = "2024-02-25T14:49:26"
+date = "2024-03-09T20:23:11"
 aliases = "/packages/74189"
 categories = ['base']
 upstreamurl = "http://tukaani.org/xz/"
 arch = "x86_64"
-size = "736332"
-usize = "3044406"
-sha1sum = "e782a8865693020e6fe3d16693f2df0ef9b50da0"
+size = "738568"
+usize = "3055565"
+sha1sum = "83bd528dfaffd34f5247c87f355f3521e0505dc3"
 depends = "['glibc>=2.37']"
 reverse_depends = "['aria2', 'binwalk', 'botan', 'efl', 'elfutils', 'enlightenment', 'file', 'flutter', 'foomatic-db', 'foomatic-db-engine', 'foomatic-db-nonfree', 'fsarchiver', 'hivex', 'innoextract', 'kernel-initrd', 'kernel-lts-initrd', 'kmod', 'libarchive', 'libsystemd', 'libtiff', 'libunwind', 'libvlc', 'libxml2', 'links', 'mariadb-libs', 'minizip-ng', 'opencollada', 'openttd', 'pacman-g2', 'perf', 'pocketsphinx', 'python3', 'squashfs', 'terminology', 'xdelta', 'xmlstarlet', 'zstd']"
 +++
@@ -58,103 +58,103 @@ XZ Utils is free general-purpose data compression software with high compression
 * /usr/include/lzma/vli.h
 * /usr/lib/liblzma.so
 * /usr/lib/liblzma.so.5
-* /usr/lib/liblzma.so.5.6.0
+* /usr/lib/liblzma.so.5.6.1
 * /usr/lib/pkgconfig/liblzma.pc
-* /usr/share/doc/xz-5.6.0/api/annotated.html
-* /usr/share/doc/xz-5.6.0/api/base_8h.html
-* /usr/share/doc/xz-5.6.0/api/bcj_8h.html
-* /usr/share/doc/xz-5.6.0/api/bc_s.png
-* /usr/share/doc/xz-5.6.0/api/bc_sd.png
-* /usr/share/doc/xz-5.6.0/api/block_8h.html
-* /usr/share/doc/xz-5.6.0/api/check_8h.html
-* /usr/share/doc/xz-5.6.0/api/classes.html
-* /usr/share/doc/xz-5.6.0/api/closed.png
-* /usr/share/doc/xz-5.6.0/api/container_8h.html
-* /usr/share/doc/xz-5.6.0/api/COPYING.CC-BY-SA-4.0
-* /usr/share/doc/xz-5.6.0/api/delta_8h.html
-* /usr/share/doc/xz-5.6.0/api/dir_b17a1d403082bd69a703ed987cf158fb.html
-* /usr/share/doc/xz-5.6.0/api/doc.svg
-* /usr/share/doc/xz-5.6.0/api/docd.svg
-* /usr/share/doc/xz-5.6.0/api/doxygen.css
-* /usr/share/doc/xz-5.6.0/api/doxygen.svg
-* /usr/share/doc/xz-5.6.0/api/files.html
-* /usr/share/doc/xz-5.6.0/api/filter_8h.html
-* /usr/share/doc/xz-5.6.0/api/folderclosed.svg
-* /usr/share/doc/xz-5.6.0/api/folderclosedd.svg
-* /usr/share/doc/xz-5.6.0/api/folderopen.svg
-* /usr/share/doc/xz-5.6.0/api/folderopend.svg
-* /usr/share/doc/xz-5.6.0/api/functions.html
-* /usr/share/doc/xz-5.6.0/api/functions_vars.html
-* /usr/share/doc/xz-5.6.0/api/globals.html
-* /usr/share/doc/xz-5.6.0/api/globals_defs.html
-* /usr/share/doc/xz-5.6.0/api/globals_enum.html
-* /usr/share/doc/xz-5.6.0/api/globals_eval.html
-* /usr/share/doc/xz-5.6.0/api/globals_func.html
-* /usr/share/doc/xz-5.6.0/api/globals_type.html
-* /usr/share/doc/xz-5.6.0/api/hardware_8h.html
-* /usr/share/doc/xz-5.6.0/api/index.html
-* /usr/share/doc/xz-5.6.0/api/index_8h.html
-* /usr/share/doc/xz-5.6.0/api/index__hash_8h.html
-* /usr/share/doc/xz-5.6.0/api/lzma12_8h.html
-* /usr/share/doc/xz-5.6.0/api/lzma_8h.html
-* /usr/share/doc/xz-5.6.0/api/nav_f.png
-* /usr/share/doc/xz-5.6.0/api/nav_fd.png
-* /usr/share/doc/xz-5.6.0/api/nav_g.png
-* /usr/share/doc/xz-5.6.0/api/nav_h.png
-* /usr/share/doc/xz-5.6.0/api/nav_hd.png
-* /usr/share/doc/xz-5.6.0/api/open.png
-* /usr/share/doc/xz-5.6.0/api/splitbar.png
-* /usr/share/doc/xz-5.6.0/api/splitbard.png
-* /usr/share/doc/xz-5.6.0/api/stream__flags_8h.html
-* /usr/share/doc/xz-5.6.0/api/structlzma__allocator.html
-* /usr/share/doc/xz-5.6.0/api/structlzma__block.html
-* /usr/share/doc/xz-5.6.0/api/structlzma__filter.html
-* /usr/share/doc/xz-5.6.0/api/structlzma__index__iter.html
-* /usr/share/doc/xz-5.6.0/api/structlzma__mt.html
-* /usr/share/doc/xz-5.6.0/api/structlzma__options__bcj.html
-* /usr/share/doc/xz-5.6.0/api/structlzma__options__delta.html
-* /usr/share/doc/xz-5.6.0/api/structlzma__options__lzma.html
-* /usr/share/doc/xz-5.6.0/api/structlzma__stream.html
-* /usr/share/doc/xz-5.6.0/api/structlzma__stream__flags.html
-* /usr/share/doc/xz-5.6.0/api/sync_off.png
-* /usr/share/doc/xz-5.6.0/api/sync_on.png
-* /usr/share/doc/xz-5.6.0/api/tabs.css
-* /usr/share/doc/xz-5.6.0/api/tab_a.png
-* /usr/share/doc/xz-5.6.0/api/tab_ad.png
-* /usr/share/doc/xz-5.6.0/api/tab_b.png
-* /usr/share/doc/xz-5.6.0/api/tab_bd.png
-* /usr/share/doc/xz-5.6.0/api/tab_h.png
-* /usr/share/doc/xz-5.6.0/api/tab_hd.png
-* /usr/share/doc/xz-5.6.0/api/tab_s.png
-* /usr/share/doc/xz-5.6.0/api/tab_sd.png
-* /usr/share/doc/xz-5.6.0/api/version_8h.html
-* /usr/share/doc/xz-5.6.0/api/vli_8h.html
-* /usr/share/doc/xz-5.6.0/api/xz-logo.png
-* /usr/share/doc/xz-5.6.0/AUTHORS
-* /usr/share/doc/xz-5.6.0/ChangeLog
-* /usr/share/doc/xz-5.6.0/COPYING
-* /usr/share/doc/xz-5.6.0/COPYING.0BSD
-* /usr/share/doc/xz-5.6.0/COPYING.CC-BY-SA-4.0
-* /usr/share/doc/xz-5.6.0/COPYING.GPLv2
-* /usr/share/doc/xz-5.6.0/COPYING.GPLv3
-* /usr/share/doc/xz-5.6.0/COPYING.LGPLv2.1
-* /usr/share/doc/xz-5.6.0/examples/00_README.txt
-* /usr/share/doc/xz-5.6.0/examples/01_compress_easy.c
-* /usr/share/doc/xz-5.6.0/examples/02_decompress.c
-* /usr/share/doc/xz-5.6.0/examples/03_compress_custom.c
-* /usr/share/doc/xz-5.6.0/examples/04_compress_easy_mt.c
-* /usr/share/doc/xz-5.6.0/examples/11_file_info.c
-* /usr/share/doc/xz-5.6.0/examples/Makefile
-* /usr/share/doc/xz-5.6.0/faq.txt
-* /usr/share/doc/xz-5.6.0/history.txt
-* /usr/share/doc/xz-5.6.0/INSTALL
-* /usr/share/doc/xz-5.6.0/INSTALL.generic
-* /usr/share/doc/xz-5.6.0/lzma-file-format.txt
-* /usr/share/doc/xz-5.6.0/NEWS
-* /usr/share/doc/xz-5.6.0/README
-* /usr/share/doc/xz-5.6.0/THANKS
-* /usr/share/doc/xz-5.6.0/TODO
-* /usr/share/doc/xz-5.6.0/xz-file-format.txt
+* /usr/share/doc/xz-5.6.1/api/annotated.html
+* /usr/share/doc/xz-5.6.1/api/base_8h.html
+* /usr/share/doc/xz-5.6.1/api/bcj_8h.html
+* /usr/share/doc/xz-5.6.1/api/bc_s.png
+* /usr/share/doc/xz-5.6.1/api/bc_sd.png
+* /usr/share/doc/xz-5.6.1/api/block_8h.html
+* /usr/share/doc/xz-5.6.1/api/check_8h.html
+* /usr/share/doc/xz-5.6.1/api/classes.html
+* /usr/share/doc/xz-5.6.1/api/closed.png
+* /usr/share/doc/xz-5.6.1/api/container_8h.html
+* /usr/share/doc/xz-5.6.1/api/COPYING.CC-BY-SA-4.0
+* /usr/share/doc/xz-5.6.1/api/delta_8h.html
+* /usr/share/doc/xz-5.6.1/api/dir_b17a1d403082bd69a703ed987cf158fb.html
+* /usr/share/doc/xz-5.6.1/api/doc.svg
+* /usr/share/doc/xz-5.6.1/api/docd.svg
+* /usr/share/doc/xz-5.6.1/api/doxygen.css
+* /usr/share/doc/xz-5.6.1/api/doxygen.svg
+* /usr/share/doc/xz-5.6.1/api/files.html
+* /usr/share/doc/xz-5.6.1/api/filter_8h.html
+* /usr/share/doc/xz-5.6.1/api/folderclosed.svg
+* /usr/share/doc/xz-5.6.1/api/folderclosedd.svg
+* /usr/share/doc/xz-5.6.1/api/folderopen.svg
+* /usr/share/doc/xz-5.6.1/api/folderopend.svg
+* /usr/share/doc/xz-5.6.1/api/functions.html
+* /usr/share/doc/xz-5.6.1/api/functions_vars.html
+* /usr/share/doc/xz-5.6.1/api/globals.html
+* /usr/share/doc/xz-5.6.1/api/globals_defs.html
+* /usr/share/doc/xz-5.6.1/api/globals_enum.html
+* /usr/share/doc/xz-5.6.1/api/globals_eval.html
+* /usr/share/doc/xz-5.6.1/api/globals_func.html
+* /usr/share/doc/xz-5.6.1/api/globals_type.html
+* /usr/share/doc/xz-5.6.1/api/hardware_8h.html
+* /usr/share/doc/xz-5.6.1/api/index.html
+* /usr/share/doc/xz-5.6.1/api/index_8h.html
+* /usr/share/doc/xz-5.6.1/api/index__hash_8h.html
+* /usr/share/doc/xz-5.6.1/api/lzma12_8h.html
+* /usr/share/doc/xz-5.6.1/api/lzma_8h.html
+* /usr/share/doc/xz-5.6.1/api/nav_f.png
+* /usr/share/doc/xz-5.6.1/api/nav_fd.png
+* /usr/share/doc/xz-5.6.1/api/nav_g.png
+* /usr/share/doc/xz-5.6.1/api/nav_h.png
+* /usr/share/doc/xz-5.6.1/api/nav_hd.png
+* /usr/share/doc/xz-5.6.1/api/open.png
+* /usr/share/doc/xz-5.6.1/api/splitbar.png
+* /usr/share/doc/xz-5.6.1/api/splitbard.png
+* /usr/share/doc/xz-5.6.1/api/stream__flags_8h.html
+* /usr/share/doc/xz-5.6.1/api/structlzma__allocator.html
+* /usr/share/doc/xz-5.6.1/api/structlzma__block.html
+* /usr/share/doc/xz-5.6.1/api/structlzma__filter.html
+* /usr/share/doc/xz-5.6.1/api/structlzma__index__iter.html
+* /usr/share/doc/xz-5.6.1/api/structlzma__mt.html
+* /usr/share/doc/xz-5.6.1/api/structlzma__options__bcj.html
+* /usr/share/doc/xz-5.6.1/api/structlzma__options__delta.html
+* /usr/share/doc/xz-5.6.1/api/structlzma__options__lzma.html
+* /usr/share/doc/xz-5.6.1/api/structlzma__stream.html
+* /usr/share/doc/xz-5.6.1/api/structlzma__stream__flags.html
+* /usr/share/doc/xz-5.6.1/api/sync_off.png
+* /usr/share/doc/xz-5.6.1/api/sync_on.png
+* /usr/share/doc/xz-5.6.1/api/tabs.css
+* /usr/share/doc/xz-5.6.1/api/tab_a.png
+* /usr/share/doc/xz-5.6.1/api/tab_ad.png
+* /usr/share/doc/xz-5.6.1/api/tab_b.png
+* /usr/share/doc/xz-5.6.1/api/tab_bd.png
+* /usr/share/doc/xz-5.6.1/api/tab_h.png
+* /usr/share/doc/xz-5.6.1/api/tab_hd.png
+* /usr/share/doc/xz-5.6.1/api/tab_s.png
+* /usr/share/doc/xz-5.6.1/api/tab_sd.png
+* /usr/share/doc/xz-5.6.1/api/version_8h.html
+* /usr/share/doc/xz-5.6.1/api/vli_8h.html
+* /usr/share/doc/xz-5.6.1/api/xz-logo.png
+* /usr/share/doc/xz-5.6.1/AUTHORS
+* /usr/share/doc/xz-5.6.1/ChangeLog
+* /usr/share/doc/xz-5.6.1/COPYING
+* /usr/share/doc/xz-5.6.1/COPYING.0BSD
+* /usr/share/doc/xz-5.6.1/COPYING.CC-BY-SA-4.0
+* /usr/share/doc/xz-5.6.1/COPYING.GPLv2
+* /usr/share/doc/xz-5.6.1/COPYING.GPLv3
+* /usr/share/doc/xz-5.6.1/COPYING.LGPLv2.1
+* /usr/share/doc/xz-5.6.1/examples/00_README.txt
+* /usr/share/doc/xz-5.6.1/examples/01_compress_easy.c
+* /usr/share/doc/xz-5.6.1/examples/02_decompress.c
+* /usr/share/doc/xz-5.6.1/examples/03_compress_custom.c
+* /usr/share/doc/xz-5.6.1/examples/04_compress_easy_mt.c
+* /usr/share/doc/xz-5.6.1/examples/11_file_info.c
+* /usr/share/doc/xz-5.6.1/examples/Makefile
+* /usr/share/doc/xz-5.6.1/faq.txt
+* /usr/share/doc/xz-5.6.1/history.txt
+* /usr/share/doc/xz-5.6.1/INSTALL
+* /usr/share/doc/xz-5.6.1/INSTALL.generic
+* /usr/share/doc/xz-5.6.1/lzma-file-format.txt
+* /usr/share/doc/xz-5.6.1/NEWS
+* /usr/share/doc/xz-5.6.1/README
+* /usr/share/doc/xz-5.6.1/THANKS
+* /usr/share/doc/xz-5.6.1/TODO
+* /usr/share/doc/xz-5.6.1/xz-file-format.txt
 * /usr/share/locale/ca/LC_MESSAGES/xz.mo
 * /usr/share/locale/cs/LC_MESSAGES/xz.mo
 * /usr/share/locale/da/LC_MESSAGES/xz.mo

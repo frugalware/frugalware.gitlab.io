@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sane-backends 1.2.1-3"
-version = "1.2.1-3"
+title = "sane-backends 1.3.0-1"
+version = "1.3.0-1"
 description = "Scanner Access Now Easy"
-date = "2024-01-06T13:09:07"
+date = "2024-03-09T20:18:29"
 aliases = "/packages/3327"
 categories = ['multimedia']
 upstreamurl = "http://www.sane-project.org"
 arch = "x86_64"
-size = "3873048"
-usize = "20442267"
-sha1sum = "9ad1a6797c0d72e7ba954dd4c7c87f99c9262fb8"
+size = "3917304"
+usize = "20750174"
+sha1sum = "62252d0277d47138af41d2510c9c4ab3f7dd4d65"
 depends = "['libgphoto2>=2.5.9-2', 'libieee1284>=0.2.11-4', 'libjpeg-turbo', 'libsystemd>=242-3', 'libtiff>=3.2.1-2', 'libusb1>=1.0.20-5', 'v4l-utils']"
 reverse_depends = "['hplip', 'ksanecore', 'libreoffice', 'python3-pillow', 'python3-sane', 'wine', 'wine-devel', 'xsane']"
 +++
@@ -60,6 +60,7 @@ Scanner Access Now Easy
 * /etc/sane.d/kvs1025.conf
 * /etc/sane.d/leo.conf
 * /etc/sane.d/lexmark.conf
+* /etc/sane.d/lexmark_x2600.conf
 * /etc/sane.d/ma1509.conf
 * /etc/sane.d/magicolor.conf
 * /etc/sane.d/matsushita.conf
@@ -256,6 +257,9 @@ Scanner Access Now Easy
 * /usr/lib/sane/libsane-lexmark.so
 * /usr/lib/sane/libsane-lexmark.so.1
 * /usr/lib/sane/libsane-lexmark.so.1.2.1
+* /usr/lib/sane/libsane-lexmark_x2600.so
+* /usr/lib/sane/libsane-lexmark_x2600.so.1
+* /usr/lib/sane/libsane-lexmark_x2600.so.1.2.1
 * /usr/lib/sane/libsane-ma1509.so
 * /usr/lib/sane/libsane-ma1509.so.1
 * /usr/lib/sane/libsane-ma1509.so.1.2.1
@@ -383,116 +387,117 @@ Scanner Access Now Easy
 * /usr/lib/sane/libsane-xerox_mfp.so.1
 * /usr/lib/sane/libsane-xerox_mfp.so.1.2.1
 * /usr/lib/udev/rules.d/70-libsane.rules
-* /usr/share/doc/sane-backends-1.2.1/AUTHORS
-* /usr/share/doc/sane-backends-1.2.1/backend-writing.txt
-* /usr/share/doc/sane-backends-1.2.1/canon/canon.changes
-* /usr/share/doc/sane-backends-1.2.1/canon/canon.install2700F.txt
-* /usr/share/doc/sane-backends-1.2.1/ChangeLog
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.0
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.1
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.10
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.11
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.12
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.13
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.14
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.15
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.16
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.17
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.18
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.19
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.2
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.20
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.21
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.22
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.23
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.24
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.25
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.27
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.28
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.3
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.4
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.5
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.6
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.7
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.8
-* /usr/share/doc/sane-backends-1.2.1/ChangeLogs/ChangeLog-1.0.9
-* /usr/share/doc/sane-backends-1.2.1/COPYING
-* /usr/share/doc/sane-backends-1.2.1/gt68xx/gt68xx.CHANGES
-* /usr/share/doc/sane-backends-1.2.1/gt68xx/gt68xx.TODO
-* /usr/share/doc/sane-backends-1.2.1/INSTALL
-* /usr/share/doc/sane-backends-1.2.1/INSTALL.linux
-* /usr/share/doc/sane-backends-1.2.1/leo/leo.txt
-* /usr/share/doc/sane-backends-1.2.1/LICENSE
-* /usr/share/doc/sane-backends-1.2.1/matsushita/matsushita.txt
-* /usr/share/doc/sane-backends-1.2.1/mustek/mustek.CHANGES
-* /usr/share/doc/sane-backends-1.2.1/mustek_usb/mustek_usb.CHANGES
-* /usr/share/doc/sane-backends-1.2.1/mustek_usb/mustek_usb.TODO
-* /usr/share/doc/sane-backends-1.2.1/mustek_usb2/mustek_usb2.CHANGES
-* /usr/share/doc/sane-backends-1.2.1/mustek_usb2/mustek_usb2.TODO
-* /usr/share/doc/sane-backends-1.2.1/NEWS
-* /usr/share/doc/sane-backends-1.2.1/niash/niash.TODO
-* /usr/share/doc/sane-backends-1.2.1/plustek/FAQ
-* /usr/share/doc/sane-backends-1.2.1/plustek/Plustek-PARPORT-TODO.txt
-* /usr/share/doc/sane-backends-1.2.1/plustek/Plustek-PARPORT.changes
-* /usr/share/doc/sane-backends-1.2.1/plustek/Plustek-PARPORT.txt
-* /usr/share/doc/sane-backends-1.2.1/plustek/Plustek-USB-TODO.txt
-* /usr/share/doc/sane-backends-1.2.1/plustek/Plustek-USB.changes
-* /usr/share/doc/sane-backends-1.2.1/plustek/Plustek-USB.txt
-* /usr/share/doc/sane-backends-1.2.1/PROBLEMS
-* /usr/share/doc/sane-backends-1.2.1/PROJECTS
-* /usr/share/doc/sane-backends-1.2.1/README
-* /usr/share/doc/sane-backends-1.2.1/README.aix
-* /usr/share/doc/sane-backends-1.2.1/README.beos
-* /usr/share/doc/sane-backends-1.2.1/README.darwin
-* /usr/share/doc/sane-backends-1.2.1/README.djpeg
-* /usr/share/doc/sane-backends-1.2.1/README.freebsd
-* /usr/share/doc/sane-backends-1.2.1/README.hp-ux
-* /usr/share/doc/sane-backends-1.2.1/README.linux
-* /usr/share/doc/sane-backends-1.2.1/README.netbsd
-* /usr/share/doc/sane-backends-1.2.1/README.openbsd
-* /usr/share/doc/sane-backends-1.2.1/README.os2
-* /usr/share/doc/sane-backends-1.2.1/README.solaris
-* /usr/share/doc/sane-backends-1.2.1/README.unixware2
-* /usr/share/doc/sane-backends-1.2.1/README.unixware7
-* /usr/share/doc/sane-backends-1.2.1/README.windows
-* /usr/share/doc/sane-backends-1.2.1/README.zeta
-* /usr/share/doc/sane-backends-1.2.1/sane-backends-external.html
-* /usr/share/doc/sane-backends-1.2.1/sane-backends.html
-* /usr/share/doc/sane-backends-1.2.1/sane-mfgs-external.html
-* /usr/share/doc/sane-backends-1.2.1/sane-mfgs.html
-* /usr/share/doc/sane-backends-1.2.1/sceptre/s1200.txt
-* /usr/share/doc/sane-backends-1.2.1/teco/teco1.txt
-* /usr/share/doc/sane-backends-1.2.1/teco/teco2.txt
-* /usr/share/doc/sane-backends-1.2.1/teco/teco3.txt
-* /usr/share/doc/sane-backends-1.2.1/u12/U12.changes
-* /usr/share/doc/sane-backends-1.2.1/u12/U12.todo
-* /usr/share/doc/sane-backends-1.2.1/umax/negative-types.txt
-* /usr/share/doc/sane-backends-1.2.1/umax/sane-logo.jpg
-* /usr/share/doc/sane-backends-1.2.1/umax/sane-umax-advanced-options-doc.html
-* /usr/share/doc/sane-backends-1.2.1/umax/sane-umax-advanced.jpg
-* /usr/share/doc/sane-backends-1.2.1/umax/sane-umax-astra-doc.html
-* /usr/share/doc/sane-backends-1.2.1/umax/sane-umax-config-doc.html
-* /usr/share/doc/sane-backends-1.2.1/umax/sane-umax-doc.html
-* /usr/share/doc/sane-backends-1.2.1/umax/sane-umax-histogram.jpg
-* /usr/share/doc/sane-backends-1.2.1/umax/sane-umax-mirage-doc.html
-* /usr/share/doc/sane-backends-1.2.1/umax/sane-umax-not-listed-doc.html
-* /usr/share/doc/sane-backends-1.2.1/umax/sane-umax-others-doc.html
-* /usr/share/doc/sane-backends-1.2.1/umax/sane-umax-parport-doc.html
-* /usr/share/doc/sane-backends-1.2.1/umax/sane-umax-powerlook-doc.html
-* /usr/share/doc/sane-backends-1.2.1/umax/sane-umax-scanner-clones-doc.html
-* /usr/share/doc/sane-backends-1.2.1/umax/sane-umax-speed-doc.html
-* /usr/share/doc/sane-backends-1.2.1/umax/sane-umax-standard-options-doc.html
-* /usr/share/doc/sane-backends-1.2.1/umax/sane-umax-standard.jpg
-* /usr/share/doc/sane-backends-1.2.1/umax/sane-umax-text.jpg
-* /usr/share/doc/sane-backends-1.2.1/umax/sane-umax-text2.jpg
-* /usr/share/doc/sane-backends-1.2.1/umax/sane-umax-text4.jpg
-* /usr/share/doc/sane-backends-1.2.1/umax/sane-umax-uc-doc.html
-* /usr/share/doc/sane-backends-1.2.1/umax/sane-umax-vista-doc.html
-* /usr/share/doc/sane-backends-1.2.1/umax/sane-umax.jpg
-* /usr/share/doc/sane-backends-1.2.1/umax/umax.BUGS
-* /usr/share/doc/sane-backends-1.2.1/umax/umax.CHANGES
-* /usr/share/doc/sane-backends-1.2.1/umax/umax.FAQ
-* /usr/share/doc/sane-backends-1.2.1/umax/umax.TODO
+* /usr/share/doc/sane-backends-1.3.0/AUTHORS
+* /usr/share/doc/sane-backends-1.3.0/backend-writing.txt
+* /usr/share/doc/sane-backends-1.3.0/canon/canon.changes
+* /usr/share/doc/sane-backends-1.3.0/canon/canon.install2700F.txt
+* /usr/share/doc/sane-backends-1.3.0/ChangeLog
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.0
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.1
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.10
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.11
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.12
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.13
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.14
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.15
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.16
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.17
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.18
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.19
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.2
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.20
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.21
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.22
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.23
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.24
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.25
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.27
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.28
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.3
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.4
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.5
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.6
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.7
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.8
+* /usr/share/doc/sane-backends-1.3.0/ChangeLogs/ChangeLog-1.0.9
+* /usr/share/doc/sane-backends-1.3.0/COPYING
+* /usr/share/doc/sane-backends-1.3.0/gt68xx/gt68xx.CHANGES
+* /usr/share/doc/sane-backends-1.3.0/gt68xx/gt68xx.TODO
+* /usr/share/doc/sane-backends-1.3.0/INSTALL
+* /usr/share/doc/sane-backends-1.3.0/INSTALL.linux
+* /usr/share/doc/sane-backends-1.3.0/leo/leo.txt
+* /usr/share/doc/sane-backends-1.3.0/LICENSE
+* /usr/share/doc/sane-backends-1.3.0/matsushita/matsushita.txt
+* /usr/share/doc/sane-backends-1.3.0/mustek/mustek.CHANGES
+* /usr/share/doc/sane-backends-1.3.0/mustek_usb/mustek_usb.CHANGES
+* /usr/share/doc/sane-backends-1.3.0/mustek_usb/mustek_usb.TODO
+* /usr/share/doc/sane-backends-1.3.0/mustek_usb2/mustek_usb2.CHANGES
+* /usr/share/doc/sane-backends-1.3.0/mustek_usb2/mustek_usb2.TODO
+* /usr/share/doc/sane-backends-1.3.0/NEWS
+* /usr/share/doc/sane-backends-1.3.0/niash/niash.TODO
+* /usr/share/doc/sane-backends-1.3.0/plustek/FAQ
+* /usr/share/doc/sane-backends-1.3.0/plustek/Plustek-PARPORT-TODO.txt
+* /usr/share/doc/sane-backends-1.3.0/plustek/Plustek-PARPORT.changes
+* /usr/share/doc/sane-backends-1.3.0/plustek/Plustek-PARPORT.txt
+* /usr/share/doc/sane-backends-1.3.0/plustek/Plustek-USB-TODO.txt
+* /usr/share/doc/sane-backends-1.3.0/plustek/Plustek-USB.changes
+* /usr/share/doc/sane-backends-1.3.0/plustek/Plustek-USB.txt
+* /usr/share/doc/sane-backends-1.3.0/PROBLEMS
+* /usr/share/doc/sane-backends-1.3.0/PROJECTS
+* /usr/share/doc/sane-backends-1.3.0/README
+* /usr/share/doc/sane-backends-1.3.0/README.aix
+* /usr/share/doc/sane-backends-1.3.0/README.beos
+* /usr/share/doc/sane-backends-1.3.0/README.darwin
+* /usr/share/doc/sane-backends-1.3.0/README.djpeg
+* /usr/share/doc/sane-backends-1.3.0/README.freebsd
+* /usr/share/doc/sane-backends-1.3.0/README.hp-ux
+* /usr/share/doc/sane-backends-1.3.0/README.linux
+* /usr/share/doc/sane-backends-1.3.0/README.netbsd
+* /usr/share/doc/sane-backends-1.3.0/README.openbsd
+* /usr/share/doc/sane-backends-1.3.0/README.os2
+* /usr/share/doc/sane-backends-1.3.0/README.solaris
+* /usr/share/doc/sane-backends-1.3.0/README.unixware2
+* /usr/share/doc/sane-backends-1.3.0/README.unixware7
+* /usr/share/doc/sane-backends-1.3.0/README.windows
+* /usr/share/doc/sane-backends-1.3.0/README.zeta
+* /usr/share/doc/sane-backends-1.3.0/sane-backends-external.html
+* /usr/share/doc/sane-backends-1.3.0/sane-backends.html
+* /usr/share/doc/sane-backends-1.3.0/sane-mfgs-external.html
+* /usr/share/doc/sane-backends-1.3.0/sane-mfgs.html
+* /usr/share/doc/sane-backends-1.3.0/saned/saned.install.md
+* /usr/share/doc/sane-backends-1.3.0/sceptre/s1200.txt
+* /usr/share/doc/sane-backends-1.3.0/teco/teco1.txt
+* /usr/share/doc/sane-backends-1.3.0/teco/teco2.txt
+* /usr/share/doc/sane-backends-1.3.0/teco/teco3.txt
+* /usr/share/doc/sane-backends-1.3.0/u12/U12.changes
+* /usr/share/doc/sane-backends-1.3.0/u12/U12.todo
+* /usr/share/doc/sane-backends-1.3.0/umax/negative-types.txt
+* /usr/share/doc/sane-backends-1.3.0/umax/sane-logo.jpg
+* /usr/share/doc/sane-backends-1.3.0/umax/sane-umax-advanced-options-doc.html
+* /usr/share/doc/sane-backends-1.3.0/umax/sane-umax-advanced.jpg
+* /usr/share/doc/sane-backends-1.3.0/umax/sane-umax-astra-doc.html
+* /usr/share/doc/sane-backends-1.3.0/umax/sane-umax-config-doc.html
+* /usr/share/doc/sane-backends-1.3.0/umax/sane-umax-doc.html
+* /usr/share/doc/sane-backends-1.3.0/umax/sane-umax-histogram.jpg
+* /usr/share/doc/sane-backends-1.3.0/umax/sane-umax-mirage-doc.html
+* /usr/share/doc/sane-backends-1.3.0/umax/sane-umax-not-listed-doc.html
+* /usr/share/doc/sane-backends-1.3.0/umax/sane-umax-others-doc.html
+* /usr/share/doc/sane-backends-1.3.0/umax/sane-umax-parport-doc.html
+* /usr/share/doc/sane-backends-1.3.0/umax/sane-umax-powerlook-doc.html
+* /usr/share/doc/sane-backends-1.3.0/umax/sane-umax-scanner-clones-doc.html
+* /usr/share/doc/sane-backends-1.3.0/umax/sane-umax-speed-doc.html
+* /usr/share/doc/sane-backends-1.3.0/umax/sane-umax-standard-options-doc.html
+* /usr/share/doc/sane-backends-1.3.0/umax/sane-umax-standard.jpg
+* /usr/share/doc/sane-backends-1.3.0/umax/sane-umax-text.jpg
+* /usr/share/doc/sane-backends-1.3.0/umax/sane-umax-text2.jpg
+* /usr/share/doc/sane-backends-1.3.0/umax/sane-umax-text4.jpg
+* /usr/share/doc/sane-backends-1.3.0/umax/sane-umax-uc-doc.html
+* /usr/share/doc/sane-backends-1.3.0/umax/sane-umax-vista-doc.html
+* /usr/share/doc/sane-backends-1.3.0/umax/sane-umax.jpg
+* /usr/share/doc/sane-backends-1.3.0/umax/umax.BUGS
+* /usr/share/doc/sane-backends-1.3.0/umax/umax.CHANGES
+* /usr/share/doc/sane-backends-1.3.0/umax/umax.FAQ
+* /usr/share/doc/sane-backends-1.3.0/umax/umax.TODO
 * /usr/share/locale/bg/LC_MESSAGES/sane-backends.mo
 * /usr/share/locale/ca/LC_MESSAGES/sane-backends.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/sane-backends.mo
@@ -511,6 +516,7 @@ Scanner Access Now Easy
 * /usr/share/locale/hu/LC_MESSAGES/sane-backends.mo
 * /usr/share/locale/it/LC_MESSAGES/sane-backends.mo
 * /usr/share/locale/ja/LC_MESSAGES/sane-backends.mo
+* /usr/share/locale/ka/LC_MESSAGES/sane-backends.mo
 * /usr/share/locale/nb/LC_MESSAGES/sane-backends.mo
 * /usr/share/locale/nl/LC_MESSAGES/sane-backends.mo
 * /usr/share/locale/pl/LC_MESSAGES/sane-backends.mo
@@ -570,6 +576,7 @@ Scanner Access Now Easy
 * /usr/share/man/man5/sane-kvs40xx.5.gz
 * /usr/share/man/man5/sane-leo.5.gz
 * /usr/share/man/man5/sane-lexmark.5.gz
+* /usr/share/man/man5/sane-lexmark_x2600.5.gz
 * /usr/share/man/man5/sane-ma1509.5.gz
 * /usr/share/man/man5/sane-magicolor.5.gz
 * /usr/share/man/man5/sane-matsushita.5.gz
