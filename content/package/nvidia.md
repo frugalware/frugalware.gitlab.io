@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "92698748"
 usize = "298966176"
 sha1sum = "a0d4ef12648a6a65da2837297e2c43e92fad0d45"
-depends = "['kernel=6.7.9-1', 'libglvnd', 'nvidia-settings>=', 'nvidia-xconfig>=550.54.14']"
+depends = "['kernel=6.8-1', 'libglvnd', 'nvidia-settings>=', 'nvidia-xconfig>=550.54.14']"
 reverse_depends = "['cuda', 'lib32-nvidia']"
 +++
 ### Description: 
@@ -72,10 +72,10 @@ reverse_depends = "['cuda', 'lib32-nvidia']"
 * /usr/lib/libnvidia-ptxjitcompiler.so.550.54.14
 * /usr/lib/libnvidia-tls.so
 * /usr/lib/libnvidia-tls.so.550.54.14
-* /usr/lib/modules/6.7.9-fw1/kernel/drivers/video/nvidia-drm.ko.zst
-* /usr/lib/modules/6.7.9-fw1/kernel/drivers/video/nvidia-modeset.ko.zst
-* /usr/lib/modules/6.7.9-fw1/kernel/drivers/video/nvidia-uvm.ko.zst
-* /usr/lib/modules/6.7.9-fw1/kernel/drivers/video/nvidia.ko.zst
+* /usr/lib/modules/6.8-fw1/kernel/drivers/video/nvidia-drm.ko.zst
+* /usr/lib/modules/6.8-fw1/kernel/drivers/video/nvidia-modeset.ko.zst
+* /usr/lib/modules/6.8-fw1/kernel/drivers/video/nvidia-uvm.ko.zst
+* /usr/lib/modules/6.8-fw1/kernel/drivers/video/nvidia.ko.zst
 * /usr/lib/vdpau/libvdpau_nvidia.so
 * /usr/lib/vdpau/libvdpau_nvidia.so.1
 * /usr/lib/vdpau/libvdpau_nvidia.so.1.0

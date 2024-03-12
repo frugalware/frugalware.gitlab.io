@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "749836"
 usize = "3126180"
 sha1sum = "4ed4ab83ebbc0604cceea43e7f666b1ea6f32938"
-depends = "['kernel=6.7.9-1', 'libxcomposite', 'libxdamage', 'libxmu', 'libxrandr', 'mesa-dri-drivers', 'pam', 'xf86-video-vmware']"
+depends = "['kernel=6.8-1', 'libxcomposite', 'libxdamage', 'libxmu', 'libxrandr', 'mesa-dri-drivers', 'pam', 'xf86-video-vmware']"
 +++
 ### Description: 
 VirtualBox guest Additions
@@ -24,8 +24,8 @@ VirtualBox guest Additions
 * /usr/bin/VBoxControl
 * /usr/bin/VBoxDRMClient
 * /usr/bin/VBoxService
-* /usr/lib/modules/6.7.9-fw1/kernel/misc/vboxguest.ko.zst
-* /usr/lib/modules/6.7.9-fw1/kernel/misc/vboxsf.ko.zst
+* /usr/lib/modules/6.8-fw1/kernel/misc/vboxguest.ko.zst
+* /usr/lib/modules/6.8-fw1/kernel/misc/vboxsf.ko.zst
 * /usr/lib/security/pam_vbox.so
 * /usr/lib/systemd/system/multi-user.target.wants/vboxdrmclient.path
 * /usr/lib/systemd/system/multi-user.target.wants/vboxdrmclient.service

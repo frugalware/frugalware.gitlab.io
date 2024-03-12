@@ -171,7 +171,6 @@ Linux kernel include files
 * /usr/include/linux/blktrace_api.h
 * /usr/include/linux/blkzoned.h
 * /usr/include/linux/bpf.h
-* /usr/include/linux/bpfilter.h
 * /usr/include/linux/bpf_common.h
 * /usr/include/linux/bpf_perf_event.h
 * /usr/include/linux/bpqether.h
@@ -407,6 +406,7 @@ Linux kernel include files
 * /usr/include/linux/loadpin.h
 * /usr/include/linux/loop.h
 * /usr/include/linux/lp.h
+* /usr/include/linux/lsm.h
 * /usr/include/linux/lwtunnel.h
 * /usr/include/linux/magic.h
 * /usr/include/linux/major.h
@@ -620,6 +620,7 @@ Linux kernel include files
 * /usr/include/linux/nl80211.h
 * /usr/include/linux/npcm-video.h
 * /usr/include/linux/nsfs.h
+* /usr/include/linux/nsm.h
 * /usr/include/linux/nubus.h
 * /usr/include/linux/nvme_ioctl.h
 * /usr/include/linux/nvram.h
@@ -758,7 +759,6 @@ Linux kernel include files
 * /usr/include/linux/tc_act/tc_gact.h
 * /usr/include/linux/tc_act/tc_gate.h
 * /usr/include/linux/tc_act/tc_ife.h
-* /usr/include/linux/tc_act/tc_ipt.h
 * /usr/include/linux/tc_act/tc_mirred.h
 * /usr/include/linux/tc_act/tc_mpls.h
 * /usr/include/linux/tc_act/tc_nat.h
@@ -777,6 +777,7 @@ Linux kernel include files
 * /usr/include/linux/tee.h
 * /usr/include/linux/termios.h
 * /usr/include/linux/thermal.h
+* /usr/include/linux/thp7312.h
 * /usr/include/linux/time.h
 * /usr/include/linux/timerfd.h
 * /usr/include/linux/times.h
@@ -935,6 +936,7 @@ Linux kernel include files
 * /usr/include/rdma/rvt-abi.h
 * /usr/include/rdma/siw-abi.h
 * /usr/include/rdma/vmw_pvrdma-abi.h
+* /usr/include/regulator/regulator.h
 * /usr/include/sound/asequencer.h
 * /usr/include/sound/asoc.h
 * /usr/include/sound/asound.h
@@ -947,6 +949,7 @@ Linux kernel include files
 * /usr/include/sound/hdspm.h
 * /usr/include/sound/intel/avs/tokens.h
 * /usr/include/sound/sb16_csp.h
+* /usr/include/sound/scarlett2.h
 * /usr/include/sound/sfnt_info.h
 * /usr/include/sound/skl-tplg-interface.h
 * /usr/include/sound/snd_ar_tokens.h

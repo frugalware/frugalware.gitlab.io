@@ -11,14 +11,14 @@ arch = "x86_64"
 size = "48152"
 usize = "73499"
 sha1sum = "cf23e24ec5de828386e06833ddc532d57f5f22b9"
-depends = "['kernel=6.7.9-1']"
+depends = "['kernel=6.8-1']"
 reverse_depends = "['obs-v4l2sink']"
 +++
 ### Description: 
 v4l2-loopback device
 
 ### Files: 
-* /usr/lib/modules/6.7.9-fw1/kernel/extra/v4l2loopback.ko.zst
+* /usr/lib/modules/6.8-fw1/kernel/extra/v4l2loopback.ko.zst
 * /usr/share/doc/v4l2loopback-0.12.7/AUTHORS
 * /usr/share/doc/v4l2loopback-0.12.7/ChangeLog
 * /usr/share/doc/v4l2loopback-0.12.7/COPYING

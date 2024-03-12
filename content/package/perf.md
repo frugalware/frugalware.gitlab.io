@@ -169,13 +169,17 @@ Kernel performance profiling tool
 * /usr/lib/perf/perf-core/tests/shell/coresight/thread_loop_check_tid_2.sh
 * /usr/lib/perf/perf-core/tests/shell/coresight/unroll_loop_thread_10.sh
 * /usr/lib/perf/perf-core/tests/shell/daemon.sh
+* /usr/lib/perf/perf-core/tests/shell/diff.sh
 * /usr/lib/perf/perf-core/tests/shell/lib/coresight.sh
+* /usr/lib/perf/perf-core/tests/shell/lib/perf_has_symbol.sh
 * /usr/lib/perf/perf-core/tests/shell/lib/perf_json_output_lint.py
 * /usr/lib/perf/perf-core/tests/shell/lib/perf_metric_validation.py
 * /usr/lib/perf/perf-core/tests/shell/lib/probe.sh
 * /usr/lib/perf/perf-core/tests/shell/lib/probe_vfs_getname.sh
+* /usr/lib/perf/perf-core/tests/shell/lib/setup_python.sh
 * /usr/lib/perf/perf-core/tests/shell/lib/stat_output.sh
 * /usr/lib/perf/perf-core/tests/shell/lib/waiting.sh
+* /usr/lib/perf/perf-core/tests/shell/list.sh
 * /usr/lib/perf/perf-core/tests/shell/lock_contention.sh
 * /usr/lib/perf/perf-core/tests/shell/pipe_test.sh
 * /usr/lib/perf/perf-core/tests/shell/probe_vfs_getname.sh
