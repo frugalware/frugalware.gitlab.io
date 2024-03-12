@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vhba-module 20240202-2"
-version = "20240202-2"
+title = "vhba-module 20240202-3"
+version = "20240202-3"
 description = "VHBA module provides a Virtual (SCSI) HBA, which is the link between userspace daemon and linux kernel."
-date = "2024-03-08T16:31:44"
+date = "2024-03-11T19:11:06"
 aliases = "/packages/184272"
 categories = ['apps-extra']
 upstreamurl = "https://sourceforge.net/projects/cdemu"
 arch = "x86_64"
-size = "40320"
-usize = "31761"
-sha1sum = "30c14586cd2ed04dae7242e643a2795e2cc731e3"
+size = "40360"
+usize = "31757"
+sha1sum = "ecc25d17a8543d47636e6f63d13b141fcd64ce8b"
 depends = "['kernel=6.8-1']"
 +++
 ### Description: 

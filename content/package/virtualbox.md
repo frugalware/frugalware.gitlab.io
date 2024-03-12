@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "virtualbox 7.0.14-13"
-version = "7.0.14-13"
+title = "virtualbox 7.0.14-14"
+version = "7.0.14-14"
 description = "Oracle VirtualBox is a family of powerful x86 virtualization products for enterprise as well as home use."
-date = "2024-03-08T17:00:22"
+date = "2024-03-12T09:03:22"
 aliases = "/packages/136016"
 categories = ['xapps-extra']
 upstreamurl = "http://www.virtualbox.org"
 arch = "x86_64"
-size = "43512700"
-usize = "124263729"
-sha1sum = "16921a03f86772fa01509746923db9d92d3ed54a"
+size = "43509276"
+usize = "124263727"
+sha1sum = "f4f5102bf44d828b7cbccabd540a613c666200e3"
 depends = "['alsa-lib>=1.1.4.1', 'curl', 'dev86', 'iasl', 'iproute2', 'kernel=6.8-1', 'libcap', 'libglu', 'libglvnd', 'libidl', 'libinput', 'libpulse', 'libuuid', 'libvncserver', 'libvpx>=1.13.0', 'libx11', 'libxcomposite', 'libxcursor', 'libxext', 'libxinerama', 'libxmu', 'libxrandr', 'libxslt', 'lvm2', 'mesa-libegl>=17.3.0-3', 'mesa-libglx>=17.3.0-3', 'openssl>=3.1.0', 'opus', 'python3', 'qt5-base>=5.15.10', 'qt5-x11extras>=5.15.10', 'sdl', 'virtualbox-modules>=7.0.14', 'xalan-c>=1.10.0-2', 'xerces-c>=2.8.0', 'xrandr']"
 +++
 ### Description: 

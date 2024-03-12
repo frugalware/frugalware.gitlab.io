@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kernel 6.7.9-1"
-version = "6.7.9-1"
+title = "kernel 6.8-1"
+version = "6.8-1"
 description = "The Linux Kernel and modules"
-date = "2024-03-08T15:24:52"
+date = "2024-03-11T15:14:17"
 aliases = "/packages/2397"
 categories = ['base']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "96336032"
-usize = "107526748"
-sha1sum = "72e267679a9defeea260898f8990091db09f9b16"
+size = "97676696"
+usize = "108949969"
+sha1sum = "c00e88ea10e0f873eae79ab22b795a8f2e4c4a81"
 depends = "['kmod', 'sed']"
 reverse_depends = "['acpi_call', 'ddcci-driver-linux', 'evdi', 'ieee80211', 'intel-ucode', 'ipw2200', 'ipw3945', 'kernel-initrd', 'nvidia', 'openrazer', 'r8168', 'rtl8821ce', 'shfs', 'submount', 'sysdig', 'tp-smapi', 'v4l2loopback', 'vhba-module', 'virtualbox', 'virtualbox-guest-additions', 'virtualbox-modules', 'zenpower', 'zfs']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kernel-docs 6.7.9-1"
-version = "6.7.9-1"
+title = "kernel-docs 6.8-1"
+version = "6.8-1"
 description = "Linux kernel documentation"
-date = "2024-03-08T15:24:52"
+date = "2024-03-11T15:14:17"
 aliases = "/packages/5525"
 categories = ['devel-extra']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "9249660"
-usize = "47034893"
-sha1sum = "953c0617b41d1a3da455e39a0978ca9ea9a2ad66"
+size = "9356664"
+usize = "47809234"
+sha1sum = "6aa670e976aa3dbc095c4067af2e3c87c771164e"
 depends = "[]"
 +++
 ### Description: 

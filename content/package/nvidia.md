@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nvidia 550.54.14-3"
-version = "550.54.14-3"
+title = "nvidia 550.54.14-4"
+version = "550.54.14-4"
 description = "3D accelerated display driver for Nvidia cards"
-date = "2024-03-08T16:51:13"
+date = "2024-03-12T09:11:35"
 aliases = "/packages/3749"
 categories = ['x11-extra']
 upstreamurl = "http://www.nvidia.com/object/unix.html"
 arch = "x86_64"
-size = "92698748"
-usize = "298966176"
-sha1sum = "a0d4ef12648a6a65da2837297e2c43e92fad0d45"
+size = "92696832"
+usize = "298966382"
+sha1sum = "30d0e8d5b4f572469f9143e388a9f81d24013947"
 depends = "['kernel=6.8-1', 'libglvnd', 'nvidia-settings>=', 'nvidia-xconfig>=550.54.14']"
 reverse_depends = "['cuda', 'lib32-nvidia']"
 +++

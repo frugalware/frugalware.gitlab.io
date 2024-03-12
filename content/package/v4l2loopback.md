@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "v4l2loopback 0.12.7-102"
-version = "0.12.7-102"
+title = "v4l2loopback 0.12.7-103"
+version = "0.12.7-103"
 description = "v4l2-loopback device"
-date = "2024-03-08T16:43:31"
+date = "2024-03-11T19:07:57"
 aliases = "/packages/220159"
 categories = ['multimedia-extra']
 upstreamurl = "https://github.com/umlaeute/v4l2loopback"
 arch = "x86_64"
-size = "48152"
-usize = "73499"
-sha1sum = "cf23e24ec5de828386e06833ddc532d57f5f22b9"
+size = "48164"
+usize = "73504"
+sha1sum = "7964c476c4baea48a94243af23074f1a73de06a4"
 depends = "['kernel=6.8-1']"
 reverse_depends = "['obs-v4l2sink']"
 +++
