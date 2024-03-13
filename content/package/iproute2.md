@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "iproute2 6.7.0-1"
-version = "6.7.0-1"
+title = "iproute2 6.8.0-1"
+version = "6.8.0-1"
 description = "kernel routing and traffic control utilities."
-date = "2024-01-18T10:54:02"
+date = "2024-03-13T14:58:30"
 aliases = "/packages/3104"
 categories = ['base']
 upstreamurl = "http://www.kernel.org"
 arch = "x86_64"
-size = "1072028"
-usize = "2992672"
-sha1sum = "f33b322971ff6547f6a5692320aa2179b31e64ee"
+size = "1076276"
+usize = "2995922"
+sha1sum = "fd67743cc81e5f13e1820869bdcb3173449f6ce8"
 depends = "['db>=18.1.25', 'iptables>=1.6.1-4']"
 reverse_depends = "['dhclient', 'dhcp', 'docker', 'dracut-network', 'inxi', 'iputils', 'libvirt', 'networkmanager', 'openvpn', 'pptp', 'strongswan', 'virtualbox', 'vpnc']"
 +++
@@ -39,17 +39,15 @@ kernel routing and traffic control utilities.
 * /usr/bin/vdpa
 * /usr/include/iproute2/bpf_elf.h
 * /usr/lib/tc/experimental.dist
-* /usr/lib/tc/m_ipt.so
-* /usr/lib/tc/m_xt.so
 * /usr/lib/tc/normal.dist
 * /usr/lib/tc/pareto.dist
 * /usr/lib/tc/paretonormal.dist
 * /usr/share/bash-completion/completions/devlink
 * /usr/share/bash-completion/completions/tc
-* /usr/share/doc/iproute2-6.7.0/COPYING
-* /usr/share/doc/iproute2-6.7.0/CREDITS
-* /usr/share/doc/iproute2-6.7.0/README
-* /usr/share/doc/iproute2-6.7.0/README.devel
+* /usr/share/doc/iproute2-6.8.0/COPYING
+* /usr/share/doc/iproute2-6.8.0/CREDITS
+* /usr/share/doc/iproute2-6.8.0/README
+* /usr/share/doc/iproute2-6.8.0/README.devel
 * /usr/share/iproute2/bpf_pinning
 * /usr/share/iproute2/ematch_map
 * /usr/share/iproute2/group
@@ -150,6 +148,7 @@ kernel routing and traffic control utilities.
 * /usr/share/man/man8/tc-fq_codel.8.gz
 * /usr/share/man/man8/tc-fq_pie.8.gz
 * /usr/share/man/man8/tc-fw.8.gz
+* /usr/share/man/man8/tc-gact.8.gz
 * /usr/share/man/man8/tc-gate.8.gz
 * /usr/share/man/man8/tc-hfsc.8.gz
 * /usr/share/man/man8/tc-htb.8.gz
@@ -181,7 +180,6 @@ kernel routing and traffic control utilities.
 * /usr/share/man/man8/tc-tunnel_key.8.gz
 * /usr/share/man/man8/tc-u32.8.gz
 * /usr/share/man/man8/tc-vlan.8.gz
-* /usr/share/man/man8/tc-xt.8.gz
 * /usr/share/man/man8/tc.8.gz
 * /usr/share/man/man8/tipc-bearer.8.gz
 * /usr/share/man/man8/tipc-link.8.gz
