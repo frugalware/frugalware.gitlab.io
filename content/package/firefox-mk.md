@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-mk 123.0-1"
-version = "123.0-1"
+title = "firefox-mk 124.0-1"
+version = "124.0-1"
 description = "Macedonian language support for Firefox"
-date = "2024-02-22T14:41:39"
+date = "2024-03-19T16:58:52"
 aliases = "/packages/4421"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "424276"
-usize = "486675"
-sha1sum = "18b445c78bdb86b77ed7ed71e670e2d76852d96b"
-depends = "['firefox>=123.0']"
+size = "423604"
+usize = "486009"
+sha1sum = "569c6d730a3d1361f1b80579759c6323f2ab17df"
+depends = "['firefox>=124.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
