@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "thunderbird-af 115.7.0-1"
-version = "115.7.0-1"
+title = "thunderbird-af 115.9.0-1"
+version = "115.9.0-1"
 description = "Afrikaans language support for Thunderbird"
-date = "2024-01-29T10:02:06"
+date = "2024-03-19T18:13:09"
 aliases = "/packages/220171"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "468200"
-usize = "549700"
-sha1sum = "e656f1962ef9f9dce494e315353dca6734e2751d"
+size = "468176"
+usize = "549702"
+sha1sum = "c0c28f24345cb8d1bc993cfa4765d880c32ece9f"
 depends = "['thunderbird>=115.9.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++

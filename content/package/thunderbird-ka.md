@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-ka 115.7.0-1"
-version = "115.7.0-1"
+title = "thunderbird-ka 115.9.0-1"
+version = "115.9.0-1"
 description = "Georgian language support for Thunderbird"
-date = "2024-01-29T10:02:06"
+date = "2024-03-19T18:13:09"
 aliases = "/packages/219959"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "722424"
-usize = "783160"
-sha1sum = "780944535f8a9b50dc8d1ad481ee1320c68c62b9"
-depends = "['thunderbird>=115.7.0']"
+size = "722444"
+usize = "783166"
+sha1sum = "ee0ef443212b7611573bce86f93c37fe8a2ecf5f"
+depends = "['thunderbird>=115.9.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

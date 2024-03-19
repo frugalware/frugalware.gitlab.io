@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-ca 115.7.0-1"
-version = "115.7.0-1"
+title = "thunderbird-ca 115.9.0-1"
+version = "115.9.0-1"
 description = "Catalan language support for Thunderbird"
-date = "2024-01-29T10:02:06"
+date = "2024-03-19T18:13:09"
 aliases = "/packages/5187"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "622088"
-usize = "685487"
-sha1sum = "03f97e97af112c6f524e4eada0139f18478ace9c"
-depends = "['thunderbird>=115.7.0']"
+size = "622068"
+usize = "685488"
+sha1sum = "103c2741d95a46b0318affa3a9519b18e440fc9d"
+depends = "['thunderbird>=115.9.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

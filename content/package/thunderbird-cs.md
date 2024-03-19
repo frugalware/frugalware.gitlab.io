@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-cs 115.7.0-1"
-version = "115.7.0-1"
+title = "thunderbird-cs 115.9.0-1"
+version = "115.9.0-1"
 description = "Czech language support for Thunderbird"
-date = "2024-01-29T10:02:06"
+date = "2024-03-19T18:13:09"
 aliases = "/packages/5188"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "697192"
-usize = "758494"
-sha1sum = "f874c0a976bbc17f52936aa44be6790d04e1b2d3"
-depends = "['thunderbird>=115.7.0']"
+size = "698112"
+usize = "759532"
+sha1sum = "ee44b5f1729d4171a8598650d3bcc8701ba30f8c"
+depends = "['thunderbird>=115.9.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
