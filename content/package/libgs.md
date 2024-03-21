@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libgs 10.02.1-1"
-version = "10.02.1-1"
+title = "libgs 10.03.0-1"
+version = "10.03.0-1"
 description = "PostScript libs from ghostscript"
-date = "2023-11-07T15:19:13"
+date = "2024-03-21T16:41:31"
 aliases = "/packages/219086"
 categories = ['libs']
 upstreamurl = "https://www.ghostscript.com/"
 arch = "x86_64"
-size = "3944956"
-usize = "25974204"
-sha1sum = "62ee04d8fe3ff87901323d97e1c7231e0cf30dea"
+size = "3674888"
+usize = "25253276"
+sha1sum = "0a567714555f55202edc155104923646b0e1caa4"
 depends = "['fontconfig', 'ijs', 'libcups', 'libidn>=1.35', 'libpaper', 'openjpeg']"
 reverse_depends = "['ghostscript', 'graphviz', 'libspectre', 'texlive']"
 +++
@@ -20,4 +20,4 @@ PostScript libs from ghostscript
 ### Files: 
 * /usr/lib/libgs.so
 * /usr/lib/libgs.so.10
-* /usr/lib/libgs.so.10.02
+* /usr/lib/libgs.so.10.03

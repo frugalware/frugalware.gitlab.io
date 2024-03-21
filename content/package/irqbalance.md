@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "irqbalance 1.9.3-3"
-version = "1.9.3-3"
+title = "irqbalance 1.9.4-1"
+version = "1.9.4-1"
 description = "Distributes interrupts over the processors and cores you have."
-date = "2024-01-30T10:05:20"
+date = "2024-03-21T16:14:25"
 aliases = "/packages/30462"
 categories = ['apps']
 upstreamurl = "https://github.com/irqbalance/irqbalance"
 arch = "x86_64"
-size = "49120"
-usize = "123230"
-sha1sum = "ab100bce3979b6c1672f00c1b804ecf9e22c160f"
+size = "46756"
+usize = "115038"
+sha1sum = "d8f2af52f0174b94906d94ffe25cfd8b348c1e4d"
 depends = "['glib2>=2.60.3', 'libsystemd>=231-7']"
 +++
 ### Description: 

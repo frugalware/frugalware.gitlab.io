@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lesspipe 2.11-1"
-version = "2.11-1"
+title = "lesspipe 2.12-1"
+version = "2.12-1"
 description = "A powerful input filer that makes 'less' more usable."
-date = "2023-12-14T16:03:08"
+date = "2024-03-21T16:27:33"
 aliases = "/packages/184101"
 categories = ['apps']
 upstreamurl = "https://github.com/wofr06/lesspipe"
 arch = "x86_64"
-size = "56512"
-usize = "202674"
-sha1sum = "fba06dfe1a7ecfad4b7e0b9d3184e34f343c01c1"
+size = "57020"
+usize = "204482"
+sha1sum = "b9c45e2588c084c0a1099070c4f5d11f3488fe3c"
 depends = "['bash>=4.3_042-5', 'less>=458-3', 'perl>=5.26.1']"
 +++
 ### Description: 
@@ -25,9 +25,9 @@ A powerful input filer that makes 'less' more usable.
 * /usr/bin/sxw2txt
 * /usr/bin/vimcolor
 * /usr/share/bash-completion/less_completion
-* /usr/share/doc/lesspipe-2.11/ChangeLog
-* /usr/share/doc/lesspipe-2.11/COPYING
-* /usr/share/doc/lesspipe-2.11/INSTALL
-* /usr/share/doc/lesspipe-2.11/README.md
+* /usr/share/doc/lesspipe-2.12/ChangeLog
+* /usr/share/doc/lesspipe-2.12/COPYING
+* /usr/share/doc/lesspipe-2.12/INSTALL
+* /usr/share/doc/lesspipe-2.12/README.md
 * /usr/share/man/man1/lesspipe.1.gz
 * /usr/share/zsh/site-functions/_less
