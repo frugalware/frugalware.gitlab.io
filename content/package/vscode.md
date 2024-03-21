@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vscode 1.87.0-1"
-version = "1.87.0-1"
+title = "vscode 1.87.2-1"
+version = "1.87.2-1"
 description = "The Open Source build of Visual Studio Code (vscode) editor"
-date = "2024-02-28T10:01:20"
+date = "2024-03-21T18:20:31"
 aliases = "/packages/219983"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/microsoft/vscode"
 arch = "x86_64"
-size = "90370344"
-usize = "352974888"
-sha1sum = "b3f9c83b9161ca42a0b7ae932a87f62507455c6a"
+size = "90529708"
+usize = "352974740"
+sha1sum = "6e675d2e4a7131b59a30825602fad80a2c82e661"
 depends = "['ffmpeg', 'libsecret', 'libxkbfile', 'ripgrep', 'sqlite3']"
 +++
 ### Description: 
@@ -22,7 +22,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/applications/code-oss.desktop
 * /usr/share/bash-completion/completions/code
 * /usr/share/bash-completion/completions/code-oss
-* /usr/share/doc/vscode-1.87.0/README.md
+* /usr/share/doc/vscode-1.87.2/README.md
 * /usr/share/metainfo/code-oss.appdata.xml
 * /usr/share/pixmaps/code-oss.png
 * /usr/share/vscode/bin/code-oss
