@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wayland-protocols 1.32-1"
-version = "1.32-1"
+title = "wayland-protocols 1.34-1"
+version = "1.34-1"
 description = "Wayland protocols that adds functionality not available in the core protocol."
-date = "2023-07-06T21:20:11"
+date = "2024-03-21T15:14:08"
 aliases = "/packages/218049"
 categories = ['x11']
 upstreamurl = "http://wayland.freedesktop.org/"
 arch = "x86_64"
-size = "81340"
-usize = "550724"
-sha1sum = "33d53bd0578e69f56ef9775045aeb1bc0404e311"
+size = "85656"
+usize = "609576"
+sha1sum = "43474ea7f0191abac9d5ab774b0d689fd143dd18"
 depends = "['wayland>=1.15.0']"
 reverse_depends = "['efl', 'gtk+4', 'kwayland-integration']"
 +++
@@ -19,8 +19,9 @@ Wayland protocols that adds functionality not available in the core protocol.
 
 ### Files: 
 * /usr/lib/pkgconfig/wayland-protocols.pc
-* /usr/share/doc/wayland-protocols-1.32/COPYING
-* /usr/share/doc/wayland-protocols-1.32/README.md
+* /usr/share/doc/wayland-protocols-1.34/COPYING
+* /usr/share/doc/wayland-protocols-1.34/README.md
+* /usr/share/wayland-protocols/stable/linux-dmabuf/linux-dmabuf-v1.xml
 * /usr/share/wayland-protocols/stable/presentation-time/presentation-time.xml
 * /usr/share/wayland-protocols/stable/viewporter/viewporter.xml
 * /usr/share/wayland-protocols/stable/xdg-shell/xdg-shell.xml
@@ -30,11 +31,15 @@ Wayland protocols that adds functionality not available in the core protocol.
 * /usr/share/wayland-protocols/staging/ext-foreign-toplevel-list/ext-foreign-toplevel-list-v1.xml
 * /usr/share/wayland-protocols/staging/ext-idle-notify/ext-idle-notify-v1.xml
 * /usr/share/wayland-protocols/staging/ext-session-lock/ext-session-lock-v1.xml
+* /usr/share/wayland-protocols/staging/ext-transient-seat/ext-transient-seat-v1.xml
 * /usr/share/wayland-protocols/staging/fractional-scale/fractional-scale-v1.xml
+* /usr/share/wayland-protocols/staging/linux-drm-syncobj/linux-drm-syncobj-v1.xml
 * /usr/share/wayland-protocols/staging/security-context/security-context-v1.xml
 * /usr/share/wayland-protocols/staging/single-pixel-buffer/single-pixel-buffer-v1.xml
 * /usr/share/wayland-protocols/staging/tearing-control/tearing-control-v1.xml
 * /usr/share/wayland-protocols/staging/xdg-activation/xdg-activation-v1.xml
+* /usr/share/wayland-protocols/staging/xdg-dialog/xdg-dialog-v1.xml
+* /usr/share/wayland-protocols/staging/xdg-toplevel-drag/xdg-toplevel-drag-v1.xml
 * /usr/share/wayland-protocols/staging/xwayland-shell/xwayland-shell-v1.xml
 * /usr/share/wayland-protocols/unstable/fullscreen-shell/fullscreen-shell-unstable-v1.xml
 * /usr/share/wayland-protocols/unstable/idle-inhibit/idle-inhibit-unstable-v1.xml

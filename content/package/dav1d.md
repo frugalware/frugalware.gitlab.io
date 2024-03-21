@@ -29,6 +29,6 @@ dav1d is an AV1 decoder
 * /usr/lib/libdav1d.so.7
 * /usr/lib/libdav1d.so.7.0.0
 * /usr/lib/pkgconfig/dav1d.pc
-* /usr/share/doc/dav1d-1.4.0/COPYING
-* /usr/share/doc/dav1d-1.4.0/NEWS
-* /usr/share/doc/dav1d-1.4.0/README.md
+* /usr/share/doc/dav1d-1.4.1/COPYING
+* /usr/share/doc/dav1d-1.4.1/NEWS
+* /usr/share/doc/dav1d-1.4.1/README.md

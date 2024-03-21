@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libxaw 1.0.15-2"
-version = "1.0.15-2"
+title = "lib32-libxaw 1.0.16-1"
+version = "1.0.16-1"
 description = "X.Org Xaw library ( 32bit )"
-date = "2023-09-05T10:56:33"
+date = "2024-03-21T15:11:25"
 aliases = "/packages/218869"
 categories = ['lib32-extra']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "258648"
-usize = "1084627"
-sha1sum = "d1cb535b1efb3c0941b7af2d4cdd428505fae576"
+size = "259744"
+usize = "1088717"
+sha1sum = "14167a75c5246d23fb51979a2333e7cbd844d531"
 depends = "['lib32-libuuid>=2.29.2-2', 'lib32-libxmu>=1.1.2-3', 'lib32-libxpm>=3.5.11-3']"
 +++
 ### Description: 

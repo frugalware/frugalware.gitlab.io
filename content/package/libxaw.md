@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxaw 1.0.15-2"
-version = "1.0.15-2"
+title = "libxaw 1.0.16-1"
+version = "1.0.16-1"
 description = "X.Org Xaw library"
-date = "2023-09-05T10:56:33"
+date = "2024-03-21T15:11:25"
 aliases = "/packages/4785"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "370816"
-usize = "1888913"
-sha1sum = "bfcd963704828bb5ef8b1345c6498df76a78aa55"
+size = "373316"
+usize = "1905599"
+sha1sum = "972ca6a0d111db23a8564bb90abfd848de94726f"
 depends = "['libuuid>=2.29.2-2', 'libxmu>=1.1.2-3', 'libxpm>=3.5.11-3']"
 reverse_depends = "['bitmap', 'editres', 'graphviz', 'libotf', 'libreoffice', 'listres', 'm17n-lib', 'ngspice', 'ogre', 't1lib', 'viewres', 'xbiff', 'xcalc', 'xclipboard', 'xclock', 'xconsole', 'xditview', 'xdm', 'xedit', 'xfd', 'xfontsel', 'xgc', 'xkbutils', 'xload', 'xlogo', 'xmag', 'xman', 'xmessage', 'xmh', 'xmore', 'xsm', 'xterm', 'xvidtune']"
 license = "GPL2"
@@ -101,54 +101,54 @@ X.Org Xaw library
 * /usr/lib/libXaw7.so.7.0.0
 * /usr/lib/pkgconfig/xaw6.pc
 * /usr/lib/pkgconfig/xaw7.pc
-* /usr/share/doc/libxaw-1.0.15/AsciiSink.xml
-* /usr/share/doc/libxaw-1.0.15/AsciiSource.xml
-* /usr/share/doc/libxaw-1.0.15/AsciiText.xml
-* /usr/share/doc/libxaw-1.0.15/Box.xml
-* /usr/share/doc/libxaw-1.0.15/CH1.xml
-* /usr/share/doc/libxaw-1.0.15/CH2.xml
-* /usr/share/doc/libxaw-1.0.15/CH3.xml
-* /usr/share/doc/libxaw-1.0.15/CH4.xml
-* /usr/share/doc/libxaw-1.0.15/CH5.xml
-* /usr/share/doc/libxaw-1.0.15/CH6.xml
-* /usr/share/doc/libxaw-1.0.15/CH7.xml
-* /usr/share/doc/libxaw-1.0.15/ChangeLog
-* /usr/share/doc/libxaw-1.0.15/Command.xml
-* /usr/share/doc/libxaw-1.0.15/COPYING
-* /usr/share/doc/libxaw-1.0.15/Dialog.xml
-* /usr/share/doc/libxaw-1.0.15/Form.xml
-* /usr/share/doc/libxaw-1.0.15/Grip.xml
-* /usr/share/doc/libxaw-1.0.15/INSTALL
-* /usr/share/doc/libxaw-1.0.15/Label.xml
-* /usr/share/doc/libxaw-1.0.15/libXaw.xml
-* /usr/share/doc/libxaw-1.0.15/List.xml
-* /usr/share/doc/libxaw-1.0.15/MenuButton.xml
-* /usr/share/doc/libxaw-1.0.15/Paned.xml
-* /usr/share/doc/libxaw-1.0.15/Panner.xml
-* /usr/share/doc/libxaw-1.0.15/Porthole.xml
-* /usr/share/doc/libxaw-1.0.15/README.md
-* /usr/share/doc/libxaw-1.0.15/Repeater.xml
-* /usr/share/doc/libxaw-1.0.15/Scrollbar.xml
-* /usr/share/doc/libxaw-1.0.15/Simple.xml
-* /usr/share/doc/libxaw-1.0.15/SimpleMenu.xml
-* /usr/share/doc/libxaw-1.0.15/Sme.xml
-* /usr/share/doc/libxaw-1.0.15/SmeBSB.xml
-* /usr/share/doc/libxaw-1.0.15/SmeLine.xml
-* /usr/share/doc/libxaw-1.0.15/StripChart.xml
-* /usr/share/doc/libxaw-1.0.15/Template.xml
-* /usr/share/doc/libxaw-1.0.15/Template_private_header_file.xml
-* /usr/share/doc/libxaw-1.0.15/Template_public_header_file.xml
-* /usr/share/doc/libxaw-1.0.15/Template_widget_source_file.xml
-* /usr/share/doc/libxaw-1.0.15/Text.xml
-* /usr/share/doc/libxaw-1.0.15/TextActions.xml
-* /usr/share/doc/libxaw-1.0.15/TextActions_default_translation_bindings.xml
-* /usr/share/doc/libxaw-1.0.15/TextActions_text_widget_actions.xml
-* /usr/share/doc/libxaw-1.0.15/TextCustom.xml
-* /usr/share/doc/libxaw-1.0.15/TextFuncs.xml
-* /usr/share/doc/libxaw-1.0.15/TextSink.xml
-* /usr/share/doc/libxaw-1.0.15/TextSource.xml
-* /usr/share/doc/libxaw-1.0.15/Toggle.xml
-* /usr/share/doc/libxaw-1.0.15/TPage_Credits.xml
-* /usr/share/doc/libxaw-1.0.15/Tree.xml
-* /usr/share/doc/libxaw-1.0.15/Viewport.xml
+* /usr/share/doc/libxaw-1.0.16/AsciiSink.xml
+* /usr/share/doc/libxaw-1.0.16/AsciiSource.xml
+* /usr/share/doc/libxaw-1.0.16/AsciiText.xml
+* /usr/share/doc/libxaw-1.0.16/Box.xml
+* /usr/share/doc/libxaw-1.0.16/CH1.xml
+* /usr/share/doc/libxaw-1.0.16/CH2.xml
+* /usr/share/doc/libxaw-1.0.16/CH3.xml
+* /usr/share/doc/libxaw-1.0.16/CH4.xml
+* /usr/share/doc/libxaw-1.0.16/CH5.xml
+* /usr/share/doc/libxaw-1.0.16/CH6.xml
+* /usr/share/doc/libxaw-1.0.16/CH7.xml
+* /usr/share/doc/libxaw-1.0.16/ChangeLog
+* /usr/share/doc/libxaw-1.0.16/Command.xml
+* /usr/share/doc/libxaw-1.0.16/COPYING
+* /usr/share/doc/libxaw-1.0.16/Dialog.xml
+* /usr/share/doc/libxaw-1.0.16/Form.xml
+* /usr/share/doc/libxaw-1.0.16/Grip.xml
+* /usr/share/doc/libxaw-1.0.16/INSTALL
+* /usr/share/doc/libxaw-1.0.16/Label.xml
+* /usr/share/doc/libxaw-1.0.16/libXaw.xml
+* /usr/share/doc/libxaw-1.0.16/List.xml
+* /usr/share/doc/libxaw-1.0.16/MenuButton.xml
+* /usr/share/doc/libxaw-1.0.16/Paned.xml
+* /usr/share/doc/libxaw-1.0.16/Panner.xml
+* /usr/share/doc/libxaw-1.0.16/Porthole.xml
+* /usr/share/doc/libxaw-1.0.16/README.md
+* /usr/share/doc/libxaw-1.0.16/Repeater.xml
+* /usr/share/doc/libxaw-1.0.16/Scrollbar.xml
+* /usr/share/doc/libxaw-1.0.16/Simple.xml
+* /usr/share/doc/libxaw-1.0.16/SimpleMenu.xml
+* /usr/share/doc/libxaw-1.0.16/Sme.xml
+* /usr/share/doc/libxaw-1.0.16/SmeBSB.xml
+* /usr/share/doc/libxaw-1.0.16/SmeLine.xml
+* /usr/share/doc/libxaw-1.0.16/StripChart.xml
+* /usr/share/doc/libxaw-1.0.16/Template.xml
+* /usr/share/doc/libxaw-1.0.16/Template_private_header_file.xml
+* /usr/share/doc/libxaw-1.0.16/Template_public_header_file.xml
+* /usr/share/doc/libxaw-1.0.16/Template_widget_source_file.xml
+* /usr/share/doc/libxaw-1.0.16/Text.xml
+* /usr/share/doc/libxaw-1.0.16/TextActions.xml
+* /usr/share/doc/libxaw-1.0.16/TextActions_default_translation_bindings.xml
+* /usr/share/doc/libxaw-1.0.16/TextActions_text_widget_actions.xml
+* /usr/share/doc/libxaw-1.0.16/TextCustom.xml
+* /usr/share/doc/libxaw-1.0.16/TextFuncs.xml
+* /usr/share/doc/libxaw-1.0.16/TextSink.xml
+* /usr/share/doc/libxaw-1.0.16/TextSource.xml
+* /usr/share/doc/libxaw-1.0.16/Toggle.xml
+* /usr/share/doc/libxaw-1.0.16/TPage_Credits.xml
+* /usr/share/doc/libxaw-1.0.16/Tree.xml
+* /usr/share/doc/libxaw-1.0.16/Viewport.xml
 * /usr/share/man/man3/Xaw.3.gz
