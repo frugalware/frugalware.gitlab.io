@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-pipewire 1.0.3-1"
-version = "1.0.3-1"
+title = "lib32-pipewire 1.0.4-1"
+version = "1.0.4-1"
 description = "A project that aims to greatly improve handling of audio and video under Linux ( 32bit )"
-date = "2024-02-03T11:20:37"
+date = "2024-03-21T15:20:25"
 aliases = "/packages/220575"
 categories = ['lib32-extra']
 upstreamurl = "https://pipewire.org/"
 arch = "x86_64"
-size = "1366852"
-usize = "6547190"
-sha1sum = "73ce69c2e72c63fd50ca0e57d1e7a072c3b99da1"
+size = "1369056"
+usize = "6555382"
+sha1sum = "bc31341a8b7bc547785c8b022be7bee8b3e46980"
 depends = "['lib32-glib2', 'lib32-libcap', 'lib32-libdrm', 'lib32-libgcrypt', 'lib32-libpulse', 'lib32-libsystemd', 'lib32-zstd']"
 +++
 ### Description: 
@@ -21,16 +21,16 @@ A project that aims to greatly improve handling of audio and video under Linux (
 * /usr/lib32/alsa-lib/libasound_module_pcm_pipewire.so
 * /usr/lib32/libpipewire-0.3.so
 * /usr/lib32/libpipewire-0.3.so.0
-* /usr/lib32/libpipewire-0.3.so.0.1003.0
+* /usr/lib32/libpipewire-0.3.so.0.1004.0
 * /usr/lib32/pipewire-0.3/jack/libjack.so
 * /usr/lib32/pipewire-0.3/jack/libjack.so.0
-* /usr/lib32/pipewire-0.3/jack/libjack.so.0.3.1003
+* /usr/lib32/pipewire-0.3/jack/libjack.so.0.3.1004
 * /usr/lib32/pipewire-0.3/jack/libjacknet.so
 * /usr/lib32/pipewire-0.3/jack/libjacknet.so.0
-* /usr/lib32/pipewire-0.3/jack/libjacknet.so.0.3.1003
+* /usr/lib32/pipewire-0.3/jack/libjacknet.so.0.3.1004
 * /usr/lib32/pipewire-0.3/jack/libjackserver.so
 * /usr/lib32/pipewire-0.3/jack/libjackserver.so.0
-* /usr/lib32/pipewire-0.3/jack/libjackserver.so.0.3.1003
+* /usr/lib32/pipewire-0.3/jack/libjackserver.so.0.3.1004
 * /usr/lib32/pipewire-0.3/libpipewire-module-access.so
 * /usr/lib32/pipewire-0.3/libpipewire-module-adapter.so
 * /usr/lib32/pipewire-0.3/libpipewire-module-avb.so

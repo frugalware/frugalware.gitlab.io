@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dav1d 1.4.0-1"
-version = "1.4.0-1"
+title = "dav1d 1.4.1-1"
+version = "1.4.1-1"
 description = "dav1d is an AV1 decoder"
-date = "2024-02-18T16:36:53"
+date = "2024-03-21T15:16:49"
 aliases = "/packages/219851"
 categories = ['multimedia']
 upstreamurl = "https://code.videolan.org/videolan/dav1d"
 arch = "x86_64"
-size = "583940"
-usize = "1844995"
-sha1sum = "5bbef8503778d627b0fd2368a4f5e34b0d7e6d97"
+size = "584140"
+usize = "1845388"
+sha1sum = "16368be5ce9af3d1ab8faf0ac61f8cc8fc680be3"
 depends = "[]"
 reverse_depends = "['chromium-browser', 'ffmpeg', 'ffmpeg4.4', 'firefox', 'libavif', 'libheif', 'thunderbird', 'vlc-dav1d', 'xine-lib']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bluez 5.72-2"
-version = "5.72-2"
+title = "bluez 5.73-1"
+version = "5.73-1"
 description = "Library to use the BlueZ Linux Bluetooth stack"
-date = "2024-01-30T10:12:03"
+date = "2024-03-21T16:04:49"
 aliases = "/packages/74581"
 categories = ['apps']
 upstreamurl = "http://bluez.sourceforge.net/"
 arch = "x86_64"
-size = "1853308"
-usize = "6856931"
-sha1sum = "1271894636bd560f358685147c30723bf263cfff"
+size = "1809400"
+usize = "6553470"
+sha1sum = "49e288e1bd6a9e0883b5377dac4c93ee61a286c5"
 depends = "['alsa-lib', 'dbus>=1.10.16-3', 'glib2>=2.50.0', 'libical>=3.0.3', 'libsystemd>=242-3', 'libudev>=242-3', 'readline>=8.0']"
 reverse_depends = "['anyremote', 'enlightenment', 'gammu', 'gnokii', 'gpsd', 'gst1-plugins-bad-bluez', 'kvm', 'ofono', 'pulseaudio-bluetooth', 'pybluez', 'qemu', 'qt5-connectivity', 'qt6-connectivity', 'supertuxkart']"
 +++
@@ -18,7 +18,10 @@ reverse_depends = "['anyremote', 'enlightenment', 'gammu', 'gnokii', 'gpsd', 'gs
 Library to use the BlueZ Linux Bluetooth stack
 
 ### Files: 
+* /etc/bluetooth/input.conf
 * /etc/bluetooth/main.conf
+* /etc/bluetooth/mesh-main.conf
+* /etc/bluetooth/network.conf
 * /usr/bin/bluemoon
 * /usr/bin/bluetoothctl
 * /usr/bin/bluez-simple-agent
@@ -52,7 +55,6 @@ Library to use the BlueZ Linux Bluetooth stack
 * /usr/include/bluetooth/sco.h
 * /usr/include/bluetooth/sdp.h
 * /usr/include/bluetooth/sdp_lib.h
-* /usr/lib/bluetooth/plugins/sixaxis.so
 * /usr/lib/bluez/bluetooth/bluetooth-meshd
 * /usr/lib/bluez/bluetooth/bluetoothd
 * /usr/lib/bluez/bluetooth/obexd
@@ -93,12 +95,13 @@ Library to use the BlueZ Linux Bluetooth stack
 * /usr/lib/cups/backend/bluetooth
 * /usr/lib/libbluetooth.so
 * /usr/lib/libbluetooth.so.3
-* /usr/lib/libbluetooth.so.3.19.12
+* /usr/lib/libbluetooth.so.3.19.13
 * /usr/lib/modprobe.d/bluetooth-usb.conf
 * /usr/lib/modules-load.d/bluez.conf
 * /usr/lib/pkgconfig/bluez.pc
 * /usr/lib/systemd/system/bluetooth-mesh.service
 * /usr/lib/systemd/system/bluetooth.service
+* /usr/lib/systemd/user/dbus-org.bluez.obex.service
 * /usr/lib/systemd/user/obex.service
 * /usr/lib/udev/hid2hci
 * /usr/lib/udev/rules.d/97-hid2hci.rules
@@ -107,13 +110,13 @@ Library to use the BlueZ Linux Bluetooth stack
 * /usr/share/dbus-1/system-services/org.bluez.service
 * /usr/share/dbus-1/system.d/bluetooth-mesh.conf
 * /usr/share/dbus-1/system.d/bluetooth.conf
-* /usr/share/doc/bluez-5.72/AUTHORS
-* /usr/share/doc/bluez-5.72/ChangeLog
-* /usr/share/doc/bluez-5.72/COPYING
-* /usr/share/doc/bluez-5.72/COPYING.LIB
-* /usr/share/doc/bluez-5.72/INSTALL
-* /usr/share/doc/bluez-5.72/README
-* /usr/share/doc/bluez-5.72/TODO
+* /usr/share/doc/bluez-5.73/AUTHORS
+* /usr/share/doc/bluez-5.73/ChangeLog
+* /usr/share/doc/bluez-5.73/COPYING
+* /usr/share/doc/bluez-5.73/COPYING.LIB
+* /usr/share/doc/bluez-5.73/INSTALL
+* /usr/share/doc/bluez-5.73/README
+* /usr/share/doc/bluez-5.73/TODO
 * /usr/share/man/man1/bluetoothctl-admin.1.gz
 * /usr/share/man/man1/bluetoothctl-advertise.1.gz
 * /usr/share/man/man1/bluetoothctl-endpoint.1.gz

@@ -21,8 +21,8 @@ Distributes interrupts over the processors and cores you have.
 * /usr/bin/irqbalance
 * /usr/bin/irqbalance-ui
 * /usr/lib/systemd/system/irqbalance.service
-* /usr/share/doc/irqbalance-1.9.3/AUTHORS
-* /usr/share/doc/irqbalance-1.9.3/COPYING
-* /usr/share/doc/irqbalance-1.9.3/README.md
+* /usr/share/doc/irqbalance-1.9.4/AUTHORS
+* /usr/share/doc/irqbalance-1.9.4/COPYING
+* /usr/share/doc/irqbalance-1.9.4/README.md
 * /usr/share/man/man1/irqbalance-ui.1.gz
 * /usr/share/man/man1/irqbalance.1.gz

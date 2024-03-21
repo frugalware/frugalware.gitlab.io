@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libva 2.20.0-1"
-version = "2.20.0-1"
+title = "libva 2.21.0-1"
+version = "2.21.0-1"
 description = "Uniform library API for hardware acceleration of video decoding."
-date = "2023-09-15T08:30:16"
+date = "2024-03-21T15:15:26"
 aliases = "/packages/135979"
 categories = ['x11']
 upstreamurl = "https://github.com/intel/libva"
 arch = "x86_64"
-size = "185388"
-usize = "947674"
-sha1sum = "e5fdfc1cd9facc951f4a2d20e37496d416e979bf"
+size = "188872"
+usize = "972198"
+sha1sum = "99da2067c44b9b42ab258c1d3d9944c3f402c546"
 depends = "['libdrm>=2.4.70-2', 'libglvnd', 'libxext>=1.3.3-3', 'libxfixes>=5.0.1-3', 'wayland>=1.11.0-3']"
 reverse_depends = "['chromium-browser', 'ffmpeg', 'ffmpeg4.4', 'gst1-plugins-bad-libva', 'intel-compute-runtime', 'libva-intel-driver', 'libva-utils', 'libva-vdpau-driver', 'libvdpau-va-gl', 'libvpl', 'media-driver', 'mpv', 'stepmania', 'vlc', 'weston', 'xine-lib']"
 +++
@@ -31,6 +31,7 @@ Uniform library API for hardware acceleration of video decoding.
 * /usr/include/va/va_dec_vp8.h
 * /usr/include/va/va_dec_vp9.h
 * /usr/include/va/va_dri2.h
+* /usr/include/va/va_dri3.h
 * /usr/include/va/va_dricommon.h
 * /usr/include/va/va_drm.h
 * /usr/include/va/va_drmcommon.h
@@ -49,30 +50,31 @@ Uniform library API for hardware acceleration of video decoding.
 * /usr/include/va/va_prot.h
 * /usr/include/va/va_str.h
 * /usr/include/va/va_tpi.h
+* /usr/include/va/va_trace.h
 * /usr/include/va/va_version.h
 * /usr/include/va/va_vpp.h
 * /usr/include/va/va_wayland.h
 * /usr/include/va/va_x11.h
 * /usr/lib/libva-drm.so
 * /usr/lib/libva-drm.so.2
-* /usr/lib/libva-drm.so.2.2000.0
+* /usr/lib/libva-drm.so.2.2100.0
 * /usr/lib/libva-glx.so
 * /usr/lib/libva-glx.so.2
-* /usr/lib/libva-glx.so.2.2000.0
+* /usr/lib/libva-glx.so.2.2100.0
 * /usr/lib/libva-wayland.so
 * /usr/lib/libva-wayland.so.2
-* /usr/lib/libva-wayland.so.2.2000.0
+* /usr/lib/libva-wayland.so.2.2100.0
 * /usr/lib/libva-x11.so
 * /usr/lib/libva-x11.so.2
-* /usr/lib/libva-x11.so.2.2000.0
+* /usr/lib/libva-x11.so.2.2100.0
 * /usr/lib/libva.so
 * /usr/lib/libva.so.2
-* /usr/lib/libva.so.2.2000.0
+* /usr/lib/libva.so.2.2100.0
 * /usr/lib/pkgconfig/libva-drm.pc
 * /usr/lib/pkgconfig/libva-glx.pc
 * /usr/lib/pkgconfig/libva-wayland.pc
 * /usr/lib/pkgconfig/libva-x11.pc
 * /usr/lib/pkgconfig/libva.pc
-* /usr/share/doc/libva-2.20.0/COPYING
-* /usr/share/doc/libva-2.20.0/NEWS
-* /usr/share/doc/libva-2.20.0/README.md
+* /usr/share/doc/libva-2.21.0/COPYING
+* /usr/share/doc/libva-2.21.0/NEWS
+* /usr/share/doc/libva-2.21.0/README.md
