@@ -65,6 +65,7 @@ SPIRV-Headers
 * /usr/include/spirv/unified1/extinst.nonsemantic.debugbreak.grammar.json
 * /usr/include/spirv/unified1/extinst.nonsemantic.debugprintf.grammar.json
 * /usr/include/spirv/unified1/extinst.nonsemantic.shader.debuginfo.100.grammar.json
+* /usr/include/spirv/unified1/extinst.nonsemantic.vkspreflection.grammar.json
 * /usr/include/spirv/unified1/extinst.opencl.debuginfo.100.grammar.json
 * /usr/include/spirv/unified1/extinst.opencl.std.100.grammar.json
 * /usr/include/spirv/unified1/extinst.spv-amd-gcn-shader.grammar.json
@@ -76,6 +77,7 @@ SPIRV-Headers
 * /usr/include/spirv/unified1/NonSemanticDebugBreak.h
 * /usr/include/spirv/unified1/NonSemanticDebugPrintf.h
 * /usr/include/spirv/unified1/NonSemanticShaderDebugInfo100.h
+* /usr/include/spirv/unified1/NonSemanticVkspReflection.h
 * /usr/include/spirv/unified1/OpenCL.std.h
 * /usr/include/spirv/unified1/OpenCLDebugInfo100.h
 * /usr/include/spirv/unified1/spirv.bf
@@ -90,6 +92,6 @@ SPIRV-Headers
 * /usr/include/spirv/unified1/spv.d
 * /usr/share/cmake/SPIRV-Headers/SPIRV-HeadersConfig.cmake
 * /usr/share/cmake/SPIRV-Headers/SPIRV-HeadersConfigVersion.cmake
-* /usr/share/doc/spirv-headers-1.3.275.0/LICENSE
-* /usr/share/doc/spirv-headers-1.3.275.0/README.md
+* /usr/share/doc/spirv-headers-1.3.280.0/LICENSE
+* /usr/share/doc/spirv-headers-1.3.280.0/README.md
 * /usr/share/pkgconfig/SPIRV-Headers.pc

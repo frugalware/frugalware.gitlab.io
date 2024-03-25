@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vulkan-headers 1.3.275.0-1"
-version = "1.3.275.0-1"
+title = "vulkan-headers 1.3.280.0-1"
+version = "1.3.280.0-1"
 description = "Vulkan Header files and API registry"
-date = "2024-01-20T17:04:44"
+date = "2024-03-25T19:40:01"
 aliases = "/packages/219803"
 categories = ['devel-extra']
 upstreamurl = "https://www.khronos.org/vulkan/"
 arch = "x86_64"
-size = "1307388"
-usize = "26475200"
-sha1sum = "eeb5e6c663db0e706a7126865e0eba5e27e4d355"
+size = "1346104"
+usize = "27199331"
+sha1sum = "02c333f6d6480d401b202da8a9d3c920c2470f43"
 depends = "['glibc>=2.35']"
 reverse_depends = "['qt6-base']"
 +++
@@ -19,6 +19,8 @@ Vulkan Header files and API registry
 
 ### Files: 
 * /usr/include/vk_video/vulkan_video_codecs_common.h
+* /usr/include/vk_video/vulkan_video_codec_av1std.h
+* /usr/include/vk_video/vulkan_video_codec_av1std_decode.h
 * /usr/include/vk_video/vulkan_video_codec_h264std.h
 * /usr/include/vk_video/vulkan_video_codec_h264std_decode.h
 * /usr/include/vk_video/vulkan_video_codec_h264std_encode.h
@@ -62,12 +64,12 @@ Vulkan Header files and API registry
 * /usr/include/vulkan/vulkan_xlib_xrandr.h
 * /usr/share/cmake/VulkanHeaders/VulkanHeadersConfig.cmake
 * /usr/share/cmake/VulkanHeaders/VulkanHeadersConfigVersion.cmake
-* /usr/share/doc/vulkan-headers-1.3.275.0/README.md
+* /usr/share/doc/vulkan-headers-1.3.280.0/README.md
 * /usr/share/vulkan/registry/apiconventions.py
 * /usr/share/vulkan/registry/cgenerator.py
 * /usr/share/vulkan/registry/generator.py
 * /usr/share/vulkan/registry/parse_dependency.py
-* /usr/share/vulkan/registry/profiles/VP_KHR_roadmap_2022.json
+* /usr/share/vulkan/registry/profiles/VP_KHR_roadmap.json
 * /usr/share/vulkan/registry/reg.py
 * /usr/share/vulkan/registry/spec_tools/conventions.py
 * /usr/share/vulkan/registry/spec_tools/util.py
