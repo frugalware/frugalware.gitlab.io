@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "shadow 4.15.0-1"
-version = "4.15.0-1"
+title = "shadow 4.15.1-1"
+version = "4.15.1-1"
 description = "Shadow password file utilities"
-date = "2024-03-09T11:45:37"
+date = "2024-03-25T13:40:58"
 aliases = "/packages/220453"
 categories = ['base']
 upstreamurl = "https://github.com/shadow-maint/shadow"
 arch = "x86_64"
-size = "698076"
-usize = "4423011"
-sha1sum = "13fd55ac8bf71e0d24a41dee29edd4e9e02e612d"
+size = "699436"
+usize = "4399320"
+sha1sum = "b596ad28e8c2cfdbb01720154aacccce91152955"
 depends = "['libsystemd', 'libxcrypt']"
 reverse_depends = "['avahi', 'clamav', 'distcc', 'libusbmuxd', 'pacman-g2', 'pacman-tools', 'parted', 'redis', 'scriptlet-core', 'systemd', 'texinfo', 'tpm2-tss', 'xdotool']"
 +++
@@ -63,10 +63,10 @@ Shadow password file utilities
 * /usr/bin/userdel
 * /usr/bin/usermod
 * /usr/include/shadow/subid.h
-* /usr/share/doc/shadow-4.15.0/ChangeLog
-* /usr/share/doc/shadow-4.15.0/COPYING
-* /usr/share/doc/shadow-4.15.0/NEWS
-* /usr/share/doc/shadow-4.15.0/README
+* /usr/share/doc/shadow-4.15.1/ChangeLog
+* /usr/share/doc/shadow-4.15.1/COPYING
+* /usr/share/doc/shadow-4.15.1/NEWS
+* /usr/share/doc/shadow-4.15.1/README
 * /usr/share/locale/bs/LC_MESSAGES/shadow.mo
 * /usr/share/locale/ca/LC_MESSAGES/shadow.mo
 * /usr/share/locale/cs/LC_MESSAGES/shadow.mo
