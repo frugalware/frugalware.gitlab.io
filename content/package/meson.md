@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "meson 1.3.1-1"
-version = "1.3.1-1"
+title = "meson 1.4.0-1"
+version = "1.4.0-1"
 description = "High productivity build system"
-date = "2024-01-24T10:18:30"
+date = "2024-03-27T08:47:29"
 aliases = "/packages/219168"
 categories = ['devel-extra']
 upstreamurl = "http://mesonbuild.com/"
 arch = "x86_64"
-size = "1754368"
-usize = "8214671"
-sha1sum = "4ef582861ed55109e80dd73616095024c3ac1a6c"
+size = "1787220"
+usize = "8247784"
+sha1sum = "785e3c4189a3f9bd04580389700dc5feba4414ce"
 depends = "['ninja>=1.8.2-2', 'python3>=3.12', 'python3-setuptools']"
 reverse_depends = "['meson-python']"
 +++
@@ -19,12 +19,12 @@ High productivity build system
 
 ### Files: 
 * /usr/bin/meson
-* /usr/lib/python3.12/site-packages/meson-1.3.1-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/meson-1.3.1-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/meson-1.3.1-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/meson-1.3.1-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/meson-1.3.1-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/meson-1.3.1-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/meson-1.4.0-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/meson-1.4.0-py3.12.egg-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/meson-1.4.0-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/meson-1.4.0-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/meson-1.4.0-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/meson-1.4.0-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/mesonbuild/arglist.py
 * /usr/lib/python3.12/site-packages/mesonbuild/ast/interpreter.py
 * /usr/lib/python3.12/site-packages/mesonbuild/ast/introspection.py
@@ -482,7 +482,9 @@ High productivity build system
 * /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/_pathlib.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/_typing.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/meson-1.3.1/COPYING
-* /usr/share/doc/meson-1.3.1/README.md
+* /usr/share/doc/meson-1.4.0/CHANGELOG
+* /usr/share/doc/meson-1.4.0/COPYING
+* /usr/share/doc/meson-1.4.0/LICENSE
+* /usr/share/doc/meson-1.4.0/README.md
 * /usr/share/share/man/man1/meson.1
 * /usr/share/share/polkit-1/actions/com.mesonbuild.install.policy
