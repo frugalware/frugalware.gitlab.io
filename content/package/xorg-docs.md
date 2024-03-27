@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xorg-docs 1.7.2-1"
-version = "1.7.2-1"
+title = "xorg-docs 1.7.3-1"
+version = "1.7.3-1"
 description = "X.Org Documentation"
-date = "2022-08-12T10:27:38"
+date = "2024-03-27T10:35:27"
 aliases = "/packages/4941"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "236188"
-usize = "1019390"
-sha1sum = "4c8eeb315fcb11788840f3150259902fe081aea6"
+size = "238408"
+usize = "1028688"
+sha1sum = "70ebd8f10b60c6b21436780da067370d13cca602"
 depends = "['glibc']"
 license = "GPL2"
 +++
@@ -18,27 +18,27 @@ license = "GPL2"
 X.Org Documentation
 
 ### Files: 
-* /usr/share/doc/xorg-docs-1.7.2/ChangeLog
-* /usr/share/doc/xorg-docs-1.7.2/ctext/ctext.xml
-* /usr/share/doc/xorg-docs-1.7.2/fonts/fonts.xml
-* /usr/share/doc/xorg-docs-1.7.2/graphics/dps.xml
-* /usr/share/doc/xorg-docs-1.7.2/icccm/icccm.xml
-* /usr/share/doc/xorg-docs-1.7.2/input/XKB-Config.xml
-* /usr/share/doc/xorg-docs-1.7.2/input/XKB-Enhancing.xml
-* /usr/share/doc/xorg-docs-1.7.2/INSTALL
-* /usr/share/doc/xorg-docs-1.7.2/License.xml
-* /usr/share/doc/xorg-docs-1.7.2/MAINTAINERS
-* /usr/share/doc/xorg-docs-1.7.2/platforms/Darwin.xml
-* /usr/share/doc/xorg-docs-1.7.2/platforms/Solaris.xml
-* /usr/share/doc/xorg-docs-1.7.2/README.md
-* /usr/share/doc/xorg-docs-1.7.2/README.xml
-* /usr/share/doc/xorg-docs-1.7.2/ReleaseNotes.xml
-* /usr/share/doc/xorg-docs-1.7.2/Versions.xml
-* /usr/share/doc/xorg-docs-1.7.2/xlfd/xlfd.xml
-* /usr/share/doc/xorg-docs-1.7.2/Xserver/analysis.xml
-* /usr/share/doc/xorg-docs-1.7.2/Xserver/appgroup.xml
-* /usr/share/doc/xorg-docs-1.7.2/Xserver/secint.xml
-* /usr/share/doc/xorg-docs-1.7.2/Xserver/XACE-Spec.xml
+* /usr/share/doc/xorg-docs-1.7.3/ChangeLog
+* /usr/share/doc/xorg-docs-1.7.3/ctext/ctext.xml
+* /usr/share/doc/xorg-docs-1.7.3/fonts/fonts.xml
+* /usr/share/doc/xorg-docs-1.7.3/graphics/dps.xml
+* /usr/share/doc/xorg-docs-1.7.3/icccm/icccm.xml
+* /usr/share/doc/xorg-docs-1.7.3/input/XKB-Config.xml
+* /usr/share/doc/xorg-docs-1.7.3/input/XKB-Enhancing.xml
+* /usr/share/doc/xorg-docs-1.7.3/INSTALL
+* /usr/share/doc/xorg-docs-1.7.3/License.xml
+* /usr/share/doc/xorg-docs-1.7.3/MAINTAINERS
+* /usr/share/doc/xorg-docs-1.7.3/platforms/Darwin.xml
+* /usr/share/doc/xorg-docs-1.7.3/platforms/Solaris.xml
+* /usr/share/doc/xorg-docs-1.7.3/README.md
+* /usr/share/doc/xorg-docs-1.7.3/README.xml
+* /usr/share/doc/xorg-docs-1.7.3/ReleaseNotes.xml
+* /usr/share/doc/xorg-docs-1.7.3/Versions.xml
+* /usr/share/doc/xorg-docs-1.7.3/xlfd/xlfd.xml
+* /usr/share/doc/xorg-docs-1.7.3/Xserver/analysis.xml
+* /usr/share/doc/xorg-docs-1.7.3/Xserver/appgroup.xml
+* /usr/share/doc/xorg-docs-1.7.3/Xserver/secint.xml
+* /usr/share/doc/xorg-docs-1.7.3/Xserver/XACE-Spec.xml
 * /usr/share/man/man7/Consortium.7.gz
 * /usr/share/man/man7/Standards.7.gz
 * /usr/share/man/man7/X.7.gz

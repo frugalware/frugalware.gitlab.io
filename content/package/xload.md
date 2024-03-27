@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xload 1.1.4-1"
-version = "1.1.4-1"
+title = "xload 1.2.0-1"
+version = "1.2.0-1"
 description = "X.Org xload application"
-date = "2022-08-12T10:21:16"
+date = "2024-03-27T10:14:40"
 aliases = "/packages/4929"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "25640"
-usize = "78474"
-sha1sum = "702e2104e21587885a4f72fb17dec635e0d62134"
+size = "26896"
+usize = "82800"
+sha1sum = "f14ad295aece22c06c69e4d3bf66d5c37e901000"
 depends = "['libxaw>=1.0.13-3']"
 license = "GPL2"
 +++
