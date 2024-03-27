@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxkbcommon 1.6.0-1"
-version = "1.6.0-1"
+title = "libxkbcommon 1.7.0-1"
+version = "1.7.0-1"
 description = "Keymap compiler and support library for the XKB specification."
-date = "2023-10-16T08:37:40"
+date = "2024-03-27T09:57:55"
 aliases = "/packages/168713"
 categories = ['x11']
 upstreamurl = "http://xkbcommon.org/"
 arch = "x86_64"
-size = "215776"
-usize = "923075"
-sha1sum = "26042e86713dd33c83d10c0bee72c02146ac6c22"
+size = "211028"
+usize = "909041"
+sha1sum = "0060ff12911eb9e79c95d23e1fc5743cadc4b96c"
 depends = "['glibc>=2.34', 'libxcb>=1.12-2', 'xkeyboard-config>=2.18-2']"
 reverse_depends = "['chromium-browser', 'efl', 'enlightenment', 'freerdp', 'glfw', 'gst1-plugins-bad-vulkan', 'gtk+3', 'gtk+4', 'i3', 'i3lock', 'kitty', 'libwpe', 'obs-studio', 'qt5-base', 'qt6-base', 'terminology', 'weston', 'wine', 'wine-devel', 'wlroots', 'xdotool']"
 +++
@@ -32,6 +32,7 @@ Keymap compiler and support library for the XKB specification.
 * /usr/lib/libxkbcommon.so
 * /usr/lib/libxkbcommon.so.0
 * /usr/lib/libxkbcommon.so.0.0.0
+* /usr/lib/libxkbcommon/xkbcommon/xkbcli-compile-compose
 * /usr/lib/libxkbcommon/xkbcommon/xkbcli-compile-keymap
 * /usr/lib/libxkbcommon/xkbcommon/xkbcli-how-to-type
 * /usr/lib/libxkbcommon/xkbcommon/xkbcli-interactive-evdev
@@ -45,9 +46,9 @@ Keymap compiler and support library for the XKB specification.
 * /usr/lib/pkgconfig/xkbcommon.pc
 * /usr/lib/pkgconfig/xkbregistry.pc
 * /usr/share/bash-completion/completions/xkbcli
-* /usr/share/doc/libxkbcommon-1.6.0/LICENSE
-* /usr/share/doc/libxkbcommon-1.6.0/NEWS
-* /usr/share/doc/libxkbcommon-1.6.0/README.md
+* /usr/share/doc/libxkbcommon-1.7.0/LICENSE
+* /usr/share/doc/libxkbcommon-1.7.0/README.md
+* /usr/share/man/man1/xkbcli-compile-compose.1.gz
 * /usr/share/man/man1/xkbcli-compile-keymap.1.gz
 * /usr/share/man/man1/xkbcli-how-to-type.1.gz
 * /usr/share/man/man1/xkbcli-interactive-evdev.1.gz

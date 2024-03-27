@@ -19,9 +19,9 @@ X.Org xload application
 
 ### Files: 
 * /usr/bin/xload
-* /usr/share/doc/xload-1.1.4/ChangeLog
-* /usr/share/doc/xload-1.1.4/COPYING
-* /usr/share/doc/xload-1.1.4/INSTALL
-* /usr/share/doc/xload-1.1.4/README.md
+* /usr/share/doc/xload-1.2.0/ChangeLog
+* /usr/share/doc/xload-1.2.0/COPYING
+* /usr/share/doc/xload-1.2.0/INSTALL
+* /usr/share/doc/xload-1.2.0/README.md
 * /usr/share/man/man1/xload.1.gz
 * /usr/share/X11/app-defaults/XLoad

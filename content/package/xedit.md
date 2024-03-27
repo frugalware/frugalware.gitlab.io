@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xedit 1.2.3-1"
-version = "1.2.3-1"
+title = "xedit 1.2.4-1"
+version = "1.2.4-1"
 description = "X.Org xedit application"
-date = "2022-08-12T10:08:01"
+date = "2024-03-27T10:02:24"
 aliases = "/packages/4863"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "344788"
-usize = "1082186"
-sha1sum = "7c4f0a222c164e9386fcb09c07fefffbb9cf5005"
+size = "345472"
+usize = "1075110"
+sha1sum = "1d98087dd63baa1c13a5cf98aba51428feb85533"
 depends = "['libxaw>=1.0.13-2']"
 license = "GPL2"
 +++
@@ -39,11 +39,11 @@ X.Org xedit application
 * /usr/lib/X11/xedit/lisp/progmodes/xrdb.lsp
 * /usr/lib/X11/xedit/lisp/syntax.lsp
 * /usr/lib/X11/xedit/lisp/xedit.lsp
-* /usr/share/doc/xedit-1.2.3/AUTHORS
-* /usr/share/doc/xedit-1.2.3/ChangeLog
-* /usr/share/doc/xedit-1.2.3/COPYING
-* /usr/share/doc/xedit-1.2.3/INSTALL
-* /usr/share/doc/xedit-1.2.3/README
+* /usr/share/doc/xedit-1.2.4/AUTHORS
+* /usr/share/doc/xedit-1.2.4/ChangeLog
+* /usr/share/doc/xedit-1.2.4/COPYING
+* /usr/share/doc/xedit-1.2.4/INSTALL
+* /usr/share/doc/xedit-1.2.4/README
 * /usr/share/man/man1/xedit.1.gz
 * /usr/share/X11/app-defaults/Xedit
 * /usr/share/X11/app-defaults/Xedit-color

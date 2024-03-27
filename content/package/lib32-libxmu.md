@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libxmu 1.1.4-2"
-version = "1.1.4-2"
+title = "lib32-libxmu 1.2.0-1"
+version = "1.2.0-1"
 description = "X.Org Xmu library ( 32bit )"
-date = "2023-09-05T11:08:31"
+date = "2024-03-27T10:11:01"
 aliases = "/packages/218649"
 categories = ['lib32-extra']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "57004"
-usize = "193821"
-sha1sum = "a04e5dee6b6b1498412347d03436fae5a75c5a00"
+size = "57072"
+usize = "193786"
+sha1sum = "2b019efd8bbc408f2c20551d12761a595aca4f4a"
 depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxext>=1.3.3-3', 'lib32-libxt>=1.1.5-3']"
 reverse_depends = "['lib32-libxaw']"
 +++

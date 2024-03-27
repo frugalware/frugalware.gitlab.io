@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xorgproto 2023.2-1"
-version = "2023.2-1"
+title = "xorgproto 2024.1-1"
+version = "2024.1-1"
 description = "X.Org Unified Protocol"
-date = "2023-06-18T13:45:53"
+date = "2024-03-27T09:59:03"
 aliases = "/packages/219564"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "226120"
-usize = "1523335"
-sha1sum = "85a0822ce0b10f9788760df0b7d78460cced217b"
+size = "228808"
+usize = "1545848"
+sha1sum = "4bafee64ace5cfbd72572d19a5dd6aecacf1abc8"
 depends = "[]"
 reverse_depends = "['x11-protos']"
 license = "GPL2"
@@ -177,46 +177,46 @@ X.Org Unified Protocol
 * /usr/lib/pkgconfig/xineramaproto.pc
 * /usr/lib/pkgconfig/xproto.pc
 * /usr/lib/pkgconfig/xwaylandproto.pc
-* /usr/share/doc/xorgproto-2023.2/AUTHORS
-* /usr/share/doc/xorgproto-2023.2/COPYING-applewmproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-bigreqsproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-compositeproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-damageproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-dmxproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-dri2proto
-* /usr/share/doc/xorgproto-2023.2/COPYING-dri3proto
-* /usr/share/doc/xorgproto-2023.2/COPYING-evieproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-fixesproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-fontcacheproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-fontsproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-glproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-inputproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-kbproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-lg3dproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-pmproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-presentproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-printproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-randrproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-recordproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-renderproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-resourceproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-scrnsaverproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-trapproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-videoproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-windowswmproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-x11proto
-* /usr/share/doc/xorgproto-2023.2/COPYING-xcmiscproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-xextproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-xf86bigfontproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-xf86dgaproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-xf86driproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-xf86miscproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-xf86rushproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-xf86vidmodeproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-xineramaproto
-* /usr/share/doc/xorgproto-2023.2/COPYING-xwaylandproto
-* /usr/share/doc/xorgproto-2023.2/INSTALL
-* /usr/share/doc/xorgproto-2023.2/README.md
+* /usr/share/doc/xorgproto-2024.1/AUTHORS
+* /usr/share/doc/xorgproto-2024.1/COPYING-applewmproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-bigreqsproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-compositeproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-damageproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-dmxproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-dri2proto
+* /usr/share/doc/xorgproto-2024.1/COPYING-dri3proto
+* /usr/share/doc/xorgproto-2024.1/COPYING-evieproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-fixesproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-fontcacheproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-fontsproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-glproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-inputproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-kbproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-lg3dproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-pmproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-presentproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-printproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-randrproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-recordproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-renderproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-resourceproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-scrnsaverproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-trapproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-videoproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-windowswmproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-x11proto
+* /usr/share/doc/xorgproto-2024.1/COPYING-xcmiscproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-xextproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-xf86bigfontproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-xf86dgaproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-xf86driproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-xf86miscproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-xf86rushproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-xf86vidmodeproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-xineramaproto
+* /usr/share/doc/xorgproto-2024.1/COPYING-xwaylandproto
+* /usr/share/doc/xorgproto-2024.1/INSTALL
+* /usr/share/doc/xorgproto-2024.1/README.md
 * /usr/share/doc/xorgproto/compositeproto.txt
 * /usr/share/doc/xorgproto/damageproto.txt
 * /usr/share/doc/xorgproto/dri2proto.txt
