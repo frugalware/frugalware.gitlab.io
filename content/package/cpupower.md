@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cpupower 6.8.1-1"
-version = "6.8.1-1"
+title = "cpupower 6.8.2-1"
+version = "6.8.2-1"
 description = "Kernel cpu powersaving tool"
-date = "2024-03-16T19:55:00"
+date = "2024-03-28T16:50:24"
 aliases = "/packages/137197"
 categories = ['apps-extra']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "98404"
+size = "98212"
 usize = "243706"
-sha1sum = "e4787c82576bf570661da1c5c304fcc623fc5c62"
+sha1sum = "2caecee4ac13420ba3b2b8a2abf9edbd300bb690"
 depends = "['pciutils']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libaudit 3.1.2-2"
-version = "3.1.2-2"
+title = "libaudit 4.0.1-1"
+version = "4.0.1-1"
 description = "Dynamic library for security auditing"
-date = "2024-01-14T13:55:13"
+date = "2024-03-28T17:45:05"
 aliases = "/packages/135784"
 categories = ['base']
 upstreamurl = "http://people.redhat.com/sgrubb/audit"
 arch = "x86_64"
-size = "1109608"
-usize = "1567022"
-sha1sum = "33dcbd57b0917ac726bc1f8420a5c68f7e6713d7"
+size = "1140372"
+usize = "1622628"
+sha1sum = "bbb967543be39ea1b7d87ebc9cc928f6f28fc589"
 depends = "['glibc>=2.24-8']"
 reverse_depends = "['audit', 'audit-go', 'pam', 'usbguard']"
 +++
@@ -18,6 +18,8 @@ reverse_depends = "['audit', 'audit-go', 'pam', 'usbguard']"
 Dynamic library for security auditing
 
 ### Files: 
+* /usr/include/audit-records.h
+* /usr/include/audit_logging.h
 * /usr/include/auparse-defs.h
 * /usr/include/auparse.h
 * /usr/include/libaudit.h

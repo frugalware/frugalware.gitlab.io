@@ -1,33 +1,36 @@
 +++
 draft = false
-title = "audit 3.1.2-2"
-version = "3.1.2-2"
+title = "audit 4.0.1-1"
+version = "4.0.1-1"
 description = "Linux Auditing Framework."
-date = "2024-01-14T13:55:13"
+date = "2024-03-28T17:45:05"
 aliases = "/packages/135783"
 categories = ['apps-extra']
 upstreamurl = "http://people.redhat.com/sgrubb/audit"
 arch = "x86_64"
-size = "295228"
-usize = "862455"
-sha1sum = "eaf4ea0694c01cd999bdf3571b3b967e69f448cf"
-depends = "['libaudit>=3.1.2', 'libcap-ng', 'libldap>=2.6.2']"
+size = "290460"
+usize = "843507"
+sha1sum = "f8cfa15e8e9b56a85a3d751bcff27a454415d1c3"
+depends = "['libaudit>=4.0.1', 'libcap-ng', 'libldap>=2.6.2']"
 reverse_depends = "['usbguard']"
 +++
 ### Description: 
 Linux Auditing Framework.
 
 ### Files: 
+* /etc/audit/audisp-filter.conf
 * /etc/audit/audisp-remote.conf
 * /etc/audit/audit-stop.rules
 * /etc/audit/auditd.conf
 * /etc/audit/plugins.d/af_unix.conf
 * /etc/audit/plugins.d/au-remote.conf
 * /etc/audit/plugins.d/audispd-zos-remote.conf
+* /etc/audit/plugins.d/filter.conf
 * /etc/audit/plugins.d/syslog.conf
 * /etc/audit/zos-remote.conf
 * /etc/libaudit.conf
 * /usr/bin/audisp-af_unix
+* /usr/bin/audisp-filter
 * /usr/bin/audisp-remote
 * /usr/bin/audisp-syslog
 * /usr/bin/audispd-zos-remote
@@ -39,9 +42,6 @@ Linux Auditing Framework.
 * /usr/bin/aureport
 * /usr/bin/ausearch
 * /usr/bin/ausyscall
-* /usr/bin/autrace
-* /usr/bin/auvirt
-* /usr/lib/audit/audit-functions
 * /usr/lib/audit/initscripts/legacy-actions/auditd/condrestart
 * /usr/lib/audit/initscripts/legacy-actions/auditd/reload
 * /usr/lib/audit/initscripts/legacy-actions/auditd/restart
@@ -49,8 +49,44 @@ Linux Auditing Framework.
 * /usr/lib/audit/initscripts/legacy-actions/auditd/rotate
 * /usr/lib/audit/initscripts/legacy-actions/auditd/state
 * /usr/lib/audit/initscripts/legacy-actions/auditd/stop
+* /usr/lib/systemd/system/audit-rules.service
 * /usr/lib/systemd/system/auditd.service
 * /usr/share/aclocal/audit.m4
+* /usr/share/audit-rules/10-base-config.rules
+* /usr/share/audit-rules/10-no-audit.rules
+* /usr/share/audit-rules/11-loginuid.rules
+* /usr/share/audit-rules/12-cont-fail.rules
+* /usr/share/audit-rules/12-ignore-error.rules
+* /usr/share/audit-rules/20-dont-audit.rules
+* /usr/share/audit-rules/21-no32bit.rules
+* /usr/share/audit-rules/22-ignore-chrony.rules
+* /usr/share/audit-rules/23-ignore-filesystems.rules
+* /usr/share/audit-rules/30-ospp-v42-1-create-failed.rules
+* /usr/share/audit-rules/30-ospp-v42-1-create-success.rules
+* /usr/share/audit-rules/30-ospp-v42-2-modify-failed.rules
+* /usr/share/audit-rules/30-ospp-v42-2-modify-success.rules
+* /usr/share/audit-rules/30-ospp-v42-3-access-failed.rules
+* /usr/share/audit-rules/30-ospp-v42-3-access-success.rules
+* /usr/share/audit-rules/30-ospp-v42-4-delete-failed.rules
+* /usr/share/audit-rules/30-ospp-v42-4-delete-success.rules
+* /usr/share/audit-rules/30-ospp-v42-5-perm-change-failed.rules
+* /usr/share/audit-rules/30-ospp-v42-5-perm-change-success.rules
+* /usr/share/audit-rules/30-ospp-v42-6-owner-change-failed.rules
+* /usr/share/audit-rules/30-ospp-v42-6-owner-change-success.rules
+* /usr/share/audit-rules/30-ospp-v42.rules
+* /usr/share/audit-rules/30-pci-dss-v31.rules
+* /usr/share/audit-rules/30-stig.rules
+* /usr/share/audit-rules/31-privileged.rules
+* /usr/share/audit-rules/32-power-abuse.rules
+* /usr/share/audit-rules/40-local.rules
+* /usr/share/audit-rules/41-containers.rules
+* /usr/share/audit-rules/42-injection.rules
+* /usr/share/audit-rules/43-module-load.rules
+* /usr/share/audit-rules/44-installers.rules
+* /usr/share/audit-rules/70-einval.rules
+* /usr/share/audit-rules/71-networking.rules
+* /usr/share/audit-rules/99-finalize.rules
+* /usr/share/audit-rules/README-rules
 * /usr/share/audit/rules/10-base-config.rules
 * /usr/share/audit/rules/10-no-audit.rules
 * /usr/share/audit/rules/11-loginuid.rules
@@ -60,7 +96,6 @@ Linux Auditing Framework.
 * /usr/share/audit/rules/21-no32bit.rules
 * /usr/share/audit/rules/22-ignore-chrony.rules
 * /usr/share/audit/rules/23-ignore-filesystems.rules
-* /usr/share/audit/rules/30-nispom.rules
 * /usr/share/audit/rules/30-ospp-v42-1-create-failed.rules
 * /usr/share/audit/rules/30-ospp-v42-1-create-success.rules
 * /usr/share/audit/rules/30-ospp-v42-2-modify-failed.rules
@@ -86,50 +121,14 @@ Linux Auditing Framework.
 * /usr/share/audit/rules/70-einval.rules
 * /usr/share/audit/rules/71-networking.rules
 * /usr/share/audit/rules/99-finalize.rules
-* /usr/share/audit/sample-rules/10-base-config.rules
-* /usr/share/audit/sample-rules/10-no-audit.rules
-* /usr/share/audit/sample-rules/11-loginuid.rules
-* /usr/share/audit/sample-rules/12-cont-fail.rules
-* /usr/share/audit/sample-rules/12-ignore-error.rules
-* /usr/share/audit/sample-rules/20-dont-audit.rules
-* /usr/share/audit/sample-rules/21-no32bit.rules
-* /usr/share/audit/sample-rules/22-ignore-chrony.rules
-* /usr/share/audit/sample-rules/23-ignore-filesystems.rules
-* /usr/share/audit/sample-rules/30-nispom.rules
-* /usr/share/audit/sample-rules/30-ospp-v42-1-create-failed.rules
-* /usr/share/audit/sample-rules/30-ospp-v42-1-create-success.rules
-* /usr/share/audit/sample-rules/30-ospp-v42-2-modify-failed.rules
-* /usr/share/audit/sample-rules/30-ospp-v42-2-modify-success.rules
-* /usr/share/audit/sample-rules/30-ospp-v42-3-access-failed.rules
-* /usr/share/audit/sample-rules/30-ospp-v42-3-access-success.rules
-* /usr/share/audit/sample-rules/30-ospp-v42-4-delete-failed.rules
-* /usr/share/audit/sample-rules/30-ospp-v42-4-delete-success.rules
-* /usr/share/audit/sample-rules/30-ospp-v42-5-perm-change-failed.rules
-* /usr/share/audit/sample-rules/30-ospp-v42-5-perm-change-success.rules
-* /usr/share/audit/sample-rules/30-ospp-v42-6-owner-change-failed.rules
-* /usr/share/audit/sample-rules/30-ospp-v42-6-owner-change-success.rules
-* /usr/share/audit/sample-rules/30-ospp-v42.rules
-* /usr/share/audit/sample-rules/30-pci-dss-v31.rules
-* /usr/share/audit/sample-rules/30-stig.rules
-* /usr/share/audit/sample-rules/31-privileged.rules
-* /usr/share/audit/sample-rules/32-power-abuse.rules
-* /usr/share/audit/sample-rules/40-local.rules
-* /usr/share/audit/sample-rules/41-containers.rules
-* /usr/share/audit/sample-rules/42-injection.rules
-* /usr/share/audit/sample-rules/43-module-load.rules
-* /usr/share/audit/sample-rules/44-installers.rules
-* /usr/share/audit/sample-rules/70-einval.rules
-* /usr/share/audit/sample-rules/71-networking.rules
-* /usr/share/audit/sample-rules/99-finalize.rules
-* /usr/share/audit/sample-rules/README-rules
-* /usr/share/doc/audit-3.1.2/AUTHORS
-* /usr/share/doc/audit-3.1.2/ChangeLog
-* /usr/share/doc/audit-3.1.2/COPYING
-* /usr/share/doc/audit-3.1.2/COPYING.LIB
-* /usr/share/doc/audit-3.1.2/INSTALL
-* /usr/share/doc/audit-3.1.2/README
-* /usr/share/doc/audit-3.1.2/THANKS
-* /usr/share/doc/audit-3.1.2/TODO
+* /usr/share/doc/audit-4.0.1/AUTHORS
+* /usr/share/doc/audit-4.0.1/ChangeLog
+* /usr/share/doc/audit-4.0.1/COPYING
+* /usr/share/doc/audit-4.0.1/COPYING.LIB
+* /usr/share/doc/audit-4.0.1/INSTALL
+* /usr/share/doc/audit-4.0.1/README.md
+* /usr/share/doc/audit-4.0.1/THANKS
+* /usr/share/doc/audit-4.0.1/TODO
 * /usr/share/man/man3/audit_add_rule_data.3.gz
 * /usr/share/man/man3/audit_add_watch.3.gz
 * /usr/share/man/man3/audit_close.3.gz
@@ -200,6 +199,7 @@ Linux Auditing Framework.
 * /usr/share/man/man3/auparse_goto_record_num.3.gz
 * /usr/share/man/man3/auparse_init.3.gz
 * /usr/share/man/man3/auparse_interpret_field.3.gz
+* /usr/share/man/man3/auparse_metrics.3.gz
 * /usr/share/man/man3/auparse_new_buffer.3.gz
 * /usr/share/man/man3/auparse_next_event.3.gz
 * /usr/share/man/man3/auparse_next_field.3.gz
@@ -218,6 +218,7 @@ Linux Auditing Framework.
 * /usr/share/man/man3/ausearch_add_timestamp_item.3.gz
 * /usr/share/man/man3/ausearch_add_timestamp_item_ex.3.gz
 * /usr/share/man/man3/ausearch_clear.3.gz
+* /usr/share/man/man3/ausearch_cur_event.3.gz
 * /usr/share/man/man3/ausearch_next_event.3.gz
 * /usr/share/man/man3/ausearch_set_stop.3.gz
 * /usr/share/man/man3/get_auditfail_action.3.gz
@@ -230,6 +231,7 @@ Linux Auditing Framework.
 * /usr/share/man/man5/zos-remote.conf.5.gz
 * /usr/share/man/man7/audit.rules.7.gz
 * /usr/share/man/man8/audisp-af_unix.8.gz
+* /usr/share/man/man8/audisp-filter.8.gz
 * /usr/share/man/man8/audisp-remote.8.gz
 * /usr/share/man/man8/audisp-syslog.8.gz
 * /usr/share/man/man8/audispd-zos-remote.8.gz
@@ -241,5 +243,3 @@ Linux Auditing Framework.
 * /usr/share/man/man8/aureport.8.gz
 * /usr/share/man/man8/ausearch.8.gz
 * /usr/share/man/man8/ausyscall.8.gz
-* /usr/share/man/man8/autrace.8.gz
-* /usr/share/man/man8/auvirt.8.gz
