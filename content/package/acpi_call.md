@@ -1,22 +1,22 @@
 +++
 draft = false
-title = "acpi_call 1.1.0-623"
-version = "1.1.0-623"
+title = "acpi_call 1.1.0-624"
+version = "1.1.0-624"
 description = "kernel module that enables calls to ACPI methods through /proc/acpi/call"
-date = "2024-03-16T20:33:22"
+date = "2024-03-28T20:13:37"
 aliases = "/packages/200768"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/mkottman/acpi_call"
 arch = "x86_64"
-size = "28192"
-usize = "7913"
-sha1sum = "5dd9ed3c0b82e1317284fdfc6787eeaf14c7f963"
-depends = "['kernel=6.8.1-1']"
+size = "28232"
+usize = "7911"
+sha1sum = "f1485c80f55ac00c5718706fdd036c8915ff8c0b"
+depends = "['kernel=6.8.2-1']"
 license = "GPL"
 +++
 ### Description: 
 kernel module that enables calls to ACPI methods through /proc/acpi/call
 
 ### Files: 
-* /usr/lib/modules/6.8.1-fw1/kernel/drivers/acpi/acpi_call.ko.zst
+* /usr/lib/modules/6.8.2-fw1/kernel/drivers/acpi/acpi_call.ko.zst
 * /usr/share/doc/acpi_call-1.1.0/README.md
