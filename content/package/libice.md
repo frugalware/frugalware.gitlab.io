@@ -12,7 +12,7 @@ size = "102188"
 usize = "467052"
 sha1sum = "c1dc981e1322deb65bd19e56bc5b2348436a9cb2"
 depends = "['glibc>=2.34']"
-reverse_depends = "['firefox', 'gvim', 'iceauth', 'libqtdesignercomponents', 'libsm', 'polkit-qt5-1', 'qscintilla2', 'xpad']"
+reverse_depends = "['firefox', 'gvim', 'iceauth', 'libqtdesignercomponents', 'libsm', 'polkit-qt5-1', 'polkit-qt6-1', 'qscintilla2', 'xpad']"
 license = "GPL2"
 +++
 ### Description: 

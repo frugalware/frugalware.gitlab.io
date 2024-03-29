@@ -12,7 +12,7 @@ size = "155144"
 usize = "629501"
 sha1sum = "ed7c88e54eb528cd5d991d0b7ae0596707c3f501"
 depends = "['kcontacts>=6.0.0', 'kitemviews=>6.0.0', 'kwidgetsaddons>=6.0.0', 'qt6-base-sql-common>=6.6.3']"
-reverse_depends = "['kpeoplevcard']"
+reverse_depends = "['kpeoplevcard', 'plasma-desktop']"
 +++
 ### Description: 
 A library that provides access to all contacts and the people who hold them.

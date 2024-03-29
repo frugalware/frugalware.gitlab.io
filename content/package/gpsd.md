@@ -12,7 +12,7 @@ size = "917340"
 usize = "4290222"
 sha1sum = "64326cb7c4e42f78edfc717e3345be15b8c9bce3"
 depends = "['bluez>=5.41-2', 'libusb1>=1.0.20-4']"
-reverse_depends = "['gpsd-qt', 'libmarble', 'plasma-workspace']"
+reverse_depends = "['gpsd-qt', 'libmarble']"
 +++
 ### Description: 
 GPS daemon and library to support USB/serial GPS devices

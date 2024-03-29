@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wireshark-qt 4.0.10-1"
-version = "4.0.10-1"
+title = "wireshark-qt 4.0.10-2"
+version = "4.0.10-2"
 description = "The world's most popular network protocol analyzer. (Qt5 frontend)"
-date = "2023-10-30T21:45:40"
+date = "2024-03-28T17:18:26"
 aliases = "/packages/201209"
 categories = ['xapps-extra']
 upstreamurl = "http://www.wireshark.org/"
 arch = "x86_64"
-size = "4259408"
-usize = "9926305"
-sha1sum = "8576b31841076b60c04a57667507ef823f43996b"
+size = "4259844"
+usize = "9926313"
+sha1sum = "4dcc2283f53a3f513613db7bd311870c22057e94"
 depends = "['c-ares', 'geoip', 'libnl', 'lua51', 'qt5-base>=5.15.10', 'qt5-multimedia>=5.15.10', 'qt5-svg>=5.15.10', 'sbc', 'wireshark>=4.0.10']"
 +++
 ### Description: 

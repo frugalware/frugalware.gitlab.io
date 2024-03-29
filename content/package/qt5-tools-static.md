@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt5-tools-static 5.15.12-1"
-version = "5.15.12-1"
+title = "qt5-tools-static 5.15.13-1"
+version = "5.15.13-1"
 description = "Qt5 tools static libs."
-date = "2023-12-25T17:14:50"
+date = "2024-03-13T15:27:09"
 aliases = "/packages/219944"
 categories = ['devel-extra']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "165880"
+size = "165852"
 usize = "1136077"
-sha1sum = "5065a770fc7098056df34629ce4ff2dc8555f2c6"
+sha1sum = "4f4545d6829c95e2748a4bfa3d8a28dc11c2d9b0"
 depends = "[]"
 +++
 ### Description: 

@@ -12,7 +12,7 @@ size = "1311224"
 usize = "5525377"
 sha1sum = "7af30701dab3eda0bf16b781313637105d064070"
 depends = "['libgcrypt>=1.7.3-2']"
-reverse_depends = "['darktable', 'element', 'gcr', 'gcr-1', 'gvfs', 'msmtp', 'nm-applet', 'nm-libreswan', 'nm-openconnect', 'nm-openvpn', 'nm-pptp', 'nm-vpnc', 'nm-wireguard', 'pinentry', 'pulsar', 'qtkeychain', 'remmina-secret', 'slack-desktop', 'teams', 'vlc-secret', 'vscode', 'webkit-gtk3', 'zulucrypt']"
+reverse_depends = "['darktable', 'element', 'gcr', 'gcr-1', 'gvfs', 'msmtp', 'nm-applet', 'nm-libreswan', 'nm-openconnect', 'nm-openvpn', 'nm-pptp', 'nm-vpnc', 'nm-wireguard', 'pinentry', 'pulsar', 'qtkeychain', 'qtkeychain-qt5', 'remmina-secret', 'slack-desktop', 'teams', 'vlc-secret', 'vscode', 'webkit-gtk3', 'zulucrypt']"
 +++
 ### Description: 
 Library for storing and retrieving passwords and other secrets

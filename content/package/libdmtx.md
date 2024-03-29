@@ -12,7 +12,7 @@ size = "58904"
 usize = "156802"
 sha1sum = "809f6896a703be9fcffeecd6ef17a24ca8d85c9d"
 depends = "['glibc>=2.34']"
-reverse_depends = "['prison']"
+reverse_depends = "['prison', 'prison5']"
 +++
 ### Description: 
 Software for reading and writing Data Matrix 2D barcodes

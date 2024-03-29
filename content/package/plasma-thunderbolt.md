@@ -1,37 +1,37 @@
 +++
 draft = false
-title = "plasma-thunderbolt 5.27.10-5"
-version = "5.27.10-5"
+title = "plasma-thunderbolt 6.0.3-1"
+version = "6.0.3-1"
 description = "Plasma integration for controlling Thunderbolt devices"
-date = "2024-02-19T12:26:44"
+date = "2024-03-27T08:17:27"
 aliases = "/packages/219992"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "104560"
-usize = "467764"
-sha1sum = "009df358dd0afe3778bfac0feb91b38cc480f4db"
-depends = "['bolt', 'kcmutils>=5.115.0']"
+size = "117192"
+usize = "499759"
+sha1sum = "4241fb9861791106cb2d76e06c9dec0ab660bbe3"
+depends = "['bolt', 'kcmutils>=6.0.0']"
 +++
 ### Description: 
 Plasma integration for controlling Thunderbolt devices
 
 ### Files: 
 * /usr/lib/libkbolt.so
-* /usr/lib/qt5/plugins/kf5/kded/kded_bolt.so
-* /usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_bolt.so
+* /usr/lib/qt6/plugins/kf6/kded/kded_bolt.so
+* /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_bolt.so
 * /usr/share/applications/kcm_bolt.desktop
-* /usr/share/doc/plasma-thunderbolt-5.27.10/README.md
-* /usr/share/doc/plasma-thunderbolt-5.27.10/TODO
-* /usr/share/knotifications5/kded_bolt.notifyrc
-* /usr/share/kpackage/kcms/kcm_bolt/contents/ui/DeviceList.qml
-* /usr/share/kpackage/kcms/kcm_bolt/contents/ui/DeviceView.qml
-* /usr/share/kpackage/kcms/kcm_bolt/contents/ui/main.qml
-* /usr/share/kpackage/kcms/kcm_bolt/contents/ui/utils.js
+* /usr/share/doc/plasma-thunderbolt-6.0.3/README.md
+* /usr/share/doc/plasma-thunderbolt-6.0.3/TODO
+* /usr/share/knotifications6/kded_bolt.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/kcm_bolt.mo
 * /usr/share/locale/ar/LC_MESSAGES/kded_bolt.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcm_bolt.mo
+* /usr/share/locale/ast/LC_MESSAGES/kded_bolt.mo
 * /usr/share/locale/az/LC_MESSAGES/kcm_bolt.mo
 * /usr/share/locale/az/LC_MESSAGES/kded_bolt.mo
+* /usr/share/locale/be/LC_MESSAGES/kcm_bolt.mo
+* /usr/share/locale/be/LC_MESSAGES/kded_bolt.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcm_bolt.mo
 * /usr/share/locale/bg/LC_MESSAGES/kded_bolt.mo
 * /usr/share/locale/ca/LC_MESSAGES/kcm_bolt.mo
@@ -46,6 +46,8 @@ Plasma integration for controlling Thunderbolt devices
 * /usr/share/locale/de/LC_MESSAGES/kded_bolt.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kcm_bolt.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kded_bolt.mo
+* /usr/share/locale/eo/LC_MESSAGES/kcm_bolt.mo
+* /usr/share/locale/eo/LC_MESSAGES/kded_bolt.mo
 * /usr/share/locale/es/LC_MESSAGES/kcm_bolt.mo
 * /usr/share/locale/es/LC_MESSAGES/kded_bolt.mo
 * /usr/share/locale/et/LC_MESSAGES/kcm_bolt.mo
@@ -58,6 +60,8 @@ Plasma integration for controlling Thunderbolt devices
 * /usr/share/locale/fr/LC_MESSAGES/kded_bolt.mo
 * /usr/share/locale/gl/LC_MESSAGES/kcm_bolt.mo
 * /usr/share/locale/gl/LC_MESSAGES/kded_bolt.mo
+* /usr/share/locale/he/LC_MESSAGES/kcm_bolt.mo
+* /usr/share/locale/he/LC_MESSAGES/kded_bolt.mo
 * /usr/share/locale/hu/LC_MESSAGES/kcm_bolt.mo
 * /usr/share/locale/hu/LC_MESSAGES/kded_bolt.mo
 * /usr/share/locale/ia/LC_MESSAGES/kcm_bolt.mo

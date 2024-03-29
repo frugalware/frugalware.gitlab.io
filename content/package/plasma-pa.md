@@ -1,24 +1,29 @@
 +++
 draft = false
-title = "plasma-pa 5.27.10-5"
-version = "5.27.10-5"
+title = "plasma-pa 6.0.3-1"
+version = "6.0.3-1"
 description = "Plasma applet written in QML for PulseAudio"
-date = "2024-02-19T12:25:32"
+date = "2024-03-27T08:15:59"
 aliases = "/packages/218400"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "246664"
-usize = "1170439"
-sha1sum = "c0d110109cae4d6329c3b21d5dffc0b06adbaedf"
-depends = "['gst1-plugins-good-pulseaudio', 'kcmutils>=5.115.0', 'kdeclarative>=5.115.0', 'libcanberra', 'libcanberra-pulseaudio', 'phonon-backend-gstreamer', 'plasma-framework>=5.115.0', 'pulseaudio', 'sound-theme-freedesktop']"
+size = "265488"
+usize = "1145575"
+sha1sum = "9e27e05c7e82a683547424f8bb8f6d621ea6164f"
+depends = "['kcmutils>=6.0.0', 'kdeclarative>=6.0.0', 'kirigami-addons', 'kitemmodels>=6.0.0', 'libcanberra', 'libcanberra-pulseaudio', 'libplasma>=6.0.3', 'sound-theme-freedesktop']"
 reverse_depends = "['plasma-bigscreen']"
 +++
 ### Description: 
 Plasma applet written in QML for PulseAudio
 
 ### Files: 
-* /usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_pulseaudio.so
+* /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_pulseaudio.so
+* /usr/lib/qt6/qml/org/kde/plasma/private/volume/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/plasma/private/volume/libplasma-volume-declarative.so
+* /usr/lib/qt6/qml/org/kde/plasma/private/volume/plasma-volume-declarative.qmltypes
+* /usr/lib/qt6/qml/org/kde/plasma/private/volume/PulseObjectFilterModel.qml
+* /usr/lib/qt6/qml/org/kde/plasma/private/volume/qmldir
 * /usr/share/applications/kcm_pulseaudio.desktop
 * /usr/share/doc/HTML/ca/kcontrol/plasma-pa/index.cache.bz2
 * /usr/share/doc/HTML/ca/kcontrol/plasma-pa/index.docbook
@@ -42,24 +47,14 @@ Plasma applet written in QML for PulseAudio
 * /usr/share/doc/HTML/ru/kcontrol/plasma-pa/index.docbook
 * /usr/share/doc/HTML/sv/kcontrol/plasma-pa/index.cache.bz2
 * /usr/share/doc/HTML/sv/kcontrol/plasma-pa/index.docbook
+* /usr/share/doc/HTML/tr/kcontrol/plasma-pa/index.cache.bz2
+* /usr/share/doc/HTML/tr/kcontrol/plasma-pa/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/plasma-pa/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/plasma-pa/index.docbook
-* /usr/share/kconf_update/disable_kmix.upd
-* /usr/share/kconf_update/plasmaVolumeDisableKMixAutostart.pl
-* /usr/share/kde4/apps/kconf_update/disable_kmix.upd
-* /usr/share/kde4/apps/kconf_update/plasmaVolumeDisableKMixAutostart.pl
-* /usr/share/kpackage/kcms/kcm_pulseaudio/contents/code/icon.js
-* /usr/share/kpackage/kcms/kcm_pulseaudio/contents/ui/CardListItem.qml
-* /usr/share/kpackage/kcms/kcm_pulseaudio/contents/ui/DeviceComboBox.qml
-* /usr/share/kpackage/kcms/kcm_pulseaudio/contents/ui/DeviceListItem.qml
-* /usr/share/kpackage/kcms/kcm_pulseaudio/contents/ui/main.qml
-* /usr/share/kpackage/kcms/kcm_pulseaudio/contents/ui/MuteButton.qml
-* /usr/share/kpackage/kcms/kcm_pulseaudio/contents/ui/StreamListItem.qml
-* /usr/share/kpackage/kcms/kcm_pulseaudio/contents/ui/VolumeControlsConfig.qml
-* /usr/share/kpackage/kcms/kcm_pulseaudio/contents/ui/VolumeSlider.qml
-* /usr/share/kservices5/plasma-applet-org.kde.plasma.volume.desktop
 * /usr/share/locale/ar/LC_MESSAGES/kcm_pulseaudio.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.plasma.volume.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcm_pulseaudio.mo
+* /usr/share/locale/ast/LC_MESSAGES/plasma_applet_org.kde.plasma.volume.mo
 * /usr/share/locale/az/LC_MESSAGES/kcm_pulseaudio.mo
 * /usr/share/locale/az/LC_MESSAGES/plasma_applet_org.kde.plasma.volume.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcm_pulseaudio.mo
@@ -78,6 +73,8 @@ Plasma applet written in QML for PulseAudio
 * /usr/share/locale/el/LC_MESSAGES/plasma_applet_org.kde.plasma.volume.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kcm_pulseaudio.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma_applet_org.kde.plasma.volume.mo
+* /usr/share/locale/eo/LC_MESSAGES/kcm_pulseaudio.mo
+* /usr/share/locale/eo/LC_MESSAGES/plasma_applet_org.kde.plasma.volume.mo
 * /usr/share/locale/es/LC_MESSAGES/kcm_pulseaudio.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma_applet_org.kde.plasma.volume.mo
 * /usr/share/locale/et/LC_MESSAGES/kcm_pulseaudio.mo
@@ -99,6 +96,8 @@ Plasma applet written in QML for PulseAudio
 * /usr/share/locale/ia/LC_MESSAGES/plasma_applet_org.kde.plasma.volume.mo
 * /usr/share/locale/id/LC_MESSAGES/kcm_pulseaudio.mo
 * /usr/share/locale/id/LC_MESSAGES/plasma_applet_org.kde.plasma.volume.mo
+* /usr/share/locale/is/LC_MESSAGES/kcm_pulseaudio.mo
+* /usr/share/locale/is/LC_MESSAGES/plasma_applet_org.kde.plasma.volume.mo
 * /usr/share/locale/it/LC_MESSAGES/kcm_pulseaudio.mo
 * /usr/share/locale/it/LC_MESSAGES/plasma_applet_org.kde.plasma.volume.mo
 * /usr/share/locale/ja/LC_MESSAGES/kcm_pulseaudio.mo
@@ -163,8 +162,4 @@ Plasma applet written in QML for PulseAudio
 * /usr/share/plasma/plasmoids/org.kde.plasma.volume/contents/ui/SmallToolButton.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.volume/contents/ui/StreamListItem.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.volume/contents/ui/VolumeSlider.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.volume/metadata.desktop
 * /usr/share/plasma/plasmoids/org.kde.plasma.volume/metadata.json
-* /usr/share/qt5/qml/org/kde/plasma/private/volume/libplasma-volume-declarative.so
-* /usr/share/qt5/qml/org/kde/plasma/private/volume/PulseObjectFilterModel.qml
-* /usr/share/qt5/qml/org/kde/plasma/private/volume/qmldir

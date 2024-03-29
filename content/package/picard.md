@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "picard 2.9.2-2"
-version = "2.9.2-2"
+title = "picard 2.9.2-3"
+version = "2.9.2-3"
 description = "The next generation MusicBrainz tagger"
-date = "2023-10-12T12:29:36"
+date = "2024-03-28T19:29:32"
 aliases = "/packages/219040"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://musicbrainz.org/doc/PicardTagger"
 arch = "x86_64"
-size = "2381716"
+size = "2380744"
 usize = "11798083"
-sha1sum = "c442a09f3e1b671dae7688064d933ea265bfadc8"
+sha1sum = "c2dacd7eaf0fa94040bf61ce98186257c05d3b04"
 depends = "['ffmpeg>=3.3.2', 'libdiscid', 'libgcc', 'libtheora', 'libx11', 'mutagen', 'pyqt5>=5.9.2', 'python3>=3.9.6']"
 +++
 ### Description: 

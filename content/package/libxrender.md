@@ -12,7 +12,7 @@ size = "43792"
 usize = "148930"
 sha1sum = "cc1dc1c159360b8039418985f6f0516fe9044738"
 depends = "['libx11>=1.6.7-2']"
-reverse_depends = "['cairo', 'efl', 'enlightenment', 'libqtdesignercomponents', 'libxcursor', 'libxft', 'libxrandr', 'mlt-qt', 'openjre-x', 'polkit-qt5-1', 'qscintilla2', 'qt5-base', 'qt6-base', 'rendercheck', 'terminology', 'utox', 'whalebird', 'wine', 'wine-devel', 'x11perf', 'xclock', 'xeyes', 'xrdp', 'xterm']"
+reverse_depends = "['cairo', 'efl', 'enlightenment', 'libqtdesignercomponents', 'libxcursor', 'libxft', 'libxrandr', 'mlt-qt', 'openjre-x', 'polkit-qt5-1', 'polkit-qt6-1', 'qscintilla2', 'qt5-base', 'qt6-base', 'rendercheck', 'terminology', 'utox', 'whalebird', 'wine', 'wine-devel', 'x11perf', 'xclock', 'xeyes', 'xrdp', 'xterm']"
 license = "GPL2"
 +++
 ### Description: 

@@ -1,26 +1,26 @@
 +++
 draft = false
-title = "qt5-speech 5.15.12-1"
-version = "5.15.12-1"
+title = "qt5-speech 5.15.13-1"
+version = "5.15.13-1"
 description = "The Qt5 toolkit, qtspeech"
-date = "2023-12-25T17:49:42"
+date = "2024-03-13T16:10:40"
 aliases = "/packages/220775"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "32884"
+size = "32916"
 usize = "137860"
-sha1sum = "3e919a54d6a96e665390104feeb46d492b8cb4f4"
-depends = "['qt5-base>=5.15.12', 'qt5-multimedia>=5.15.12', 'speech-dispatcher']"
+sha1sum = "dc926c3e593898e991df32223888b3a4de790980"
+depends = "['qt5-base>=5.15.13', 'qt5-multimedia>=5.15.13', 'speech-dispatcher']"
 reverse_depends = "['kmouth', 'knotifications5', 'konqueror', 'kpimtextedit', 'ktextaddons', 'ktextwidgets5', 'okular']"
 +++
 ### Description: 
 The Qt5 toolkit, qtspeech
 
 ### Files: 
-* /usr/include/qt5/QtTextToSpeech/5.15.12/QtTextToSpeech/private/qtexttospeech_p.h
-* /usr/include/qt5/QtTextToSpeech/5.15.12/QtTextToSpeech/private/qttexttospeech-config_p.h
-* /usr/include/qt5/QtTextToSpeech/5.15.12/QtTextToSpeech/private/qvoice_p.h
+* /usr/include/qt5/QtTextToSpeech/5.15.13/QtTextToSpeech/private/qtexttospeech_p.h
+* /usr/include/qt5/QtTextToSpeech/5.15.13/QtTextToSpeech/private/qttexttospeech-config_p.h
+* /usr/include/qt5/QtTextToSpeech/5.15.13/QtTextToSpeech/private/qvoice_p.h
 * /usr/include/qt5/QtTextToSpeech/QTextToSpeech
 * /usr/include/qt5/QtTextToSpeech/qtexttospeech.h
 * /usr/include/qt5/QtTextToSpeech/QTextToSpeechEngine
@@ -42,7 +42,7 @@ The Qt5 toolkit, qtspeech
 * /usr/lib/libQt5TextToSpeech.so
 * /usr/lib/libQt5TextToSpeech.so.5
 * /usr/lib/libQt5TextToSpeech.so.5.15
-* /usr/lib/libQt5TextToSpeech.so.5.15.12
+* /usr/lib/libQt5TextToSpeech.so.5.15.13
 * /usr/lib/pkgconfig/Qt5TextToSpeech.pc
 * /usr/lib/qt5/plugins/texttospeech/libqtexttospeech_speechd.so
 * /usr/share/qt5/mkspecs/modules/qt_lib_texttospeech.pri

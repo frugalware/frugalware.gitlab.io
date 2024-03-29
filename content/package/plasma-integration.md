@@ -1,36 +1,26 @@
 +++
 draft = false
-title = "plasma-integration 5.27.10-6"
-version = "5.27.10-6"
+title = "plasma-integration 6.0.3-1"
+version = "6.0.3-1"
 description = "Qt Platform Theme integration plugins for the Plasma workspaces."
-date = "2024-02-19T12:40:19"
+date = "2024-03-27T08:44:58"
 aliases = "/packages/218397"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "141080"
-usize = "528687"
-sha1sum = "1d90e959677f39c0debcef4b0962f264ec48bdb3"
-depends = "['breeze>=5.27.10', 'hack', 'kio>=5.115.0', 'kwayland>=5.115.0', 'noto-emoji', 'noto-fonts', 'qt5-quickcontrols2>=5.15.12', 'qt5-svg>=5.15.12']"
-reverse_depends = "['plasma-workspace']"
+size = "135108"
+usize = "500256"
+sha1sum = "f9ab9ba897c9cfa03f21ced7551d1242235cfb4e"
+depends = "['breeze>=6.0.3', 'hack', 'kio>=6.0.0', 'kwayland>=6.0.0', 'libxcursor', 'noto-emoji', 'noto-fonts', 'xdg-desktop-portal-kde>=6.0.3', 'xdg-desktop-portal-kde>=6.0.3']"
 +++
 ### Description: 
 Qt Platform Theme integration plugins for the Plasma workspaces.
 
 ### Files: 
-* /usr/include/PlasmaKeyData/plasmakeydata.h
-* /usr/lib/pkgconfig/plasma-key-data.pc
-* /usr/lib/qt5/plugins/platforminputcontexts/plasmaimplatforminputcontextplugin.so
-* /usr/lib/qt5/plugins/platformthemes/KDEPlasmaPlatformTheme.so
-* /usr/share/doc/plasma-integration-5.27.10/README.md
-* /usr/share/kconf_update/fonts_akregator.pl
-* /usr/share/kconf_update/fonts_akregator.upd
-* /usr/share/kconf_update/fonts_global.pl
-* /usr/share/kconf_update/fonts_global.upd
-* /usr/share/kconf_update/fonts_global_toolbar.upd
-* /usr/share/kconf_update/fonts_kate.pl
-* /usr/share/kconf_update/fonts_kate.upd
+* /usr/lib/qt6/plugins/platformthemes/KDEPlasmaPlatformTheme6.so
+* /usr/share/doc/plasma-integration-6.0.3/README.md
 * /usr/share/locale/ar/LC_MESSAGES/plasmaintegration5.mo
+* /usr/share/locale/ast/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/az/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasmaintegration5.mo
@@ -40,6 +30,7 @@ Qt Platform Theme integration plugins for the Plasma workspaces.
 * /usr/share/locale/de/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/el/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasmaintegration5.mo
+* /usr/share/locale/eo/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/es/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/et/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasmaintegration5.mo
@@ -51,6 +42,7 @@ Qt Platform Theme integration plugins for the Plasma workspaces.
 * /usr/share/locale/hu/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/id/LC_MESSAGES/plasmaintegration5.mo
+* /usr/share/locale/is/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/it/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/ja/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/ka/LC_MESSAGES/plasmaintegration5.mo
@@ -66,6 +58,7 @@ Qt Platform Theme integration plugins for the Plasma workspaces.
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/ro/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasmaintegration5.mo
+* /usr/share/locale/sa/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/sr/LC_MESSAGES/plasmaintegration5.mo

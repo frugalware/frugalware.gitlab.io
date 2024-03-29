@@ -12,7 +12,7 @@ size = "42688"
 usize = "110413"
 sha1sum = "551889a5b9563f5e314134541d44605d8651191d"
 depends = "['libx11>=1.6.3-4']"
-reverse_depends = "['plasma-workspace', 'screenfetch', 'steamtinkerlaunch']"
+reverse_depends = "['screenfetch', 'steamtinkerlaunch']"
 license = "GPL2"
 +++
 ### Description: 

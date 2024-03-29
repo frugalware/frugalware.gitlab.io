@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openscad 2021.01-10"
-version = "2021.01-10"
+title = "openscad 2021.01-11"
+version = "2021.01-11"
 description = "Software for creating solid 3D CAD objects."
-date = "2023-10-26T13:38:41"
+date = "2024-03-28T16:03:37"
 aliases = "/packages/200054"
 categories = ['xapps-extra']
 upstreamurl = "http://www.openscad.org/"
 arch = "x86_64"
-size = "4279120"
+size = "4281864"
 usize = "12056057"
-sha1sum = "2c6883177eac7cb16fb63c145d00c238cd2bd4d1"
+sha1sum = "2ff86cf529b2d9de00aa98192e68557b4e2c2ea5"
 depends = "['double-conversion', 'libboost>=1.83.0', 'libzip', 'opencsg>=1.4.2-3', 'qscintilla2-qt5>=2.11.1', 'qt5-multimedia>=5.15.10']"
 license = "GPLv2"
 +++

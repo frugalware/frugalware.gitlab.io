@@ -12,7 +12,7 @@ size = "63336"
 usize = "188473"
 sha1sum = "a4b4fb5b18161eb0d6db1ade7b97cd66c39fa6b1"
 depends = "['fuse3', 'kio>=5.112.0']"
-reverse_depends = "['xdg-desktop-portal-kde']"
+reverse_depends = "['plasma-wayland-session', 'xdg-desktop-portal-kde']"
 +++
 ### Description: 
 FUSE interface for KIO

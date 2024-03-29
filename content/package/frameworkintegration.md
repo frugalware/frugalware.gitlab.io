@@ -12,7 +12,7 @@ size = "1619000"
 usize = "1774566"
 sha1sum = "8aa5b9b80ba98c1f6089eb77c46cac57baea3f4f"
 depends = "['appstream-qt>=1.0.0', 'kio>=5.115.0', 'knewstuff>=5.115.0', 'kpackage>=5.115.0', 'noto-fonts', 'packagekit-qt5>=1.0.1']"
-reverse_depends = "['oxygen', 'plasma-workspace']"
+reverse_depends = "['oxygen']"
 +++
 ### Description: 
 Framework providing components to allow applications to integrate with a KDE Workspace.

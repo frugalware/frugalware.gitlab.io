@@ -12,7 +12,7 @@ size = "23188"
 usize = "60383"
 sha1sum = "34dd4ad0fe033e4943927c41239f1ae8908a3134"
 depends = "['libxcursor>=1.1.14-3', 'libxmu>=1.1.2-3', 'xbitmaps>=1.1.1-2']"
-reverse_depends = "['i3', 'plasma-workspace']"
+reverse_depends = "['i3']"
 license = "GPL2"
 +++
 ### Description: 

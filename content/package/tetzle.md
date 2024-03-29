@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tetzle 2.2.2-6"
-version = "2.2.2-6"
+title = "tetzle 2.2.2-7"
+version = "2.2.2-7"
 description = "A jigsaw puzzle with tetrominoes for pieces."
-date = "2024-02-19T20:48:23"
+date = "2024-03-27T13:18:59"
 aliases = "/packages/184376"
 categories = ['games-extra']
 upstreamurl = "http://gottcode.org/tetzle/"
 arch = "x86_64"
-size = "509036"
+size = "509140"
 usize = "1127858"
-sha1sum = "eb776cf71787250d6afc087ff150c5a827df74af"
+sha1sum = "929c111fae0a65565f6f5b0882e3f148791b55ea"
 depends = "['qt6-base']"
 +++
 ### Description: 

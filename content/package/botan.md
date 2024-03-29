@@ -12,7 +12,7 @@ size = "2478768"
 usize = "9000310"
 sha1sum = "ca3c3361ed716edb0817d001b914cc541393d5e2"
 depends = "['bzip2', 'libgcc', 'libstdc++', 'python3', 'sqlite3', 'xz', 'zlib>=1.2.12']"
-reverse_depends = "['keepassxc', 'qca-botan']"
+reverse_depends = "['keepassxc', 'qca-botan', 'qca-qt5']"
 +++
 ### Description: 
 Crypto library written in C++

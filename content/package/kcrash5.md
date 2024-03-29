@@ -12,7 +12,7 @@ size = "18600"
 usize = "59352"
 sha1sum = "8ccad0014a91a238e20b5eb2e1597407ed731526"
 depends = "['kcoreaddons5>=5.115.0']"
-reverse_depends = "['krename', 'kservice5', 'minuet']"
+reverse_depends = "['krename', 'kservice5', 'minuet', 'telly-skout']"
 +++
 ### Description: 
 Gracefull handling of application crashes.

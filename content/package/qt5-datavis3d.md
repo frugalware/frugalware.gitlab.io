@@ -1,94 +1,94 @@
 +++
 draft = false
-title = "qt5-datavis3d 5.15.12-1"
-version = "5.15.12-1"
+title = "qt5-datavis3d 5.15.13-1"
+version = "5.15.13-1"
 description = "The Qt5 toolkit, qtdatavis3d"
-date = "2023-12-25T17:48:35"
+date = "2024-03-13T16:09:20"
 aliases = "/packages/220233"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "549340"
+size = "548944"
 usize = "2568218"
-sha1sum = "99ae1e59a2676cf310e7a8594339925361293af4"
-depends = "['qt5-declarative>=5.15.12']"
+sha1sum = "1d5853a4ab02a1b5a8ad27f40286676e8b490239"
+depends = "['qt5-declarative>=5.15.13']"
 +++
 ### Description: 
 The Qt5 toolkit, qtdatavis3d
 
 ### Files: 
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/abstract3dcontroller_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/abstract3drenderer_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/abstractitemmodelhandler_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/abstractobjecthelper_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/abstractrenderitem_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/axisrendercache_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/baritemmodelhandler_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/barrenderitem_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/bars3dcontroller_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/bars3drenderer_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/barseriesrendercache_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/camerahelper_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/customrenderitem_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/datavisualizationglobal_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/drawer_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/labelitem_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/meshloader_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/objecthelper_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/q3dbars_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/q3dcamera_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/q3dinputhandler_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/q3dlight_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/q3dobject_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/q3dscatter_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/q3dscene_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/q3dsurface_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/q3dtheme_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qabstract3daxis_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qabstract3dgraph_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qabstract3dinputhandler_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qabstract3dseries_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qabstractdataproxy_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qbar3dseries_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qbardataitem_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qbardataproxy_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qcategory3daxis_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qcustom3ditem_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qcustom3dlabel_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qcustom3dvolume_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qheightmapsurfacedataproxy_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qitemmodelbardataproxy_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qitemmodelscatterdataproxy_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qitemmodelsurfacedataproxy_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qlogvalue3daxisformatter_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qscatter3dseries_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qscatterdataitem_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qscatterdataproxy_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qsurface3dseries_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qsurfacedataitem_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qsurfacedataproxy_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qtouch3dinputhandler_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qvalue3daxisformatter_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/qvalue3daxis_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/scatter3dcontroller_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/scatter3drenderer_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/scatteritemmodelhandler_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/scatterobjectbufferhelper_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/scatterpointbufferhelper_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/scatterrenderitem_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/scatterseriesrendercache_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/selectionpointer_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/seriesrendercache_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/shaderhelper_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/surface3dcontroller_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/surface3drenderer_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/surfaceitemmodelhandler_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/surfaceobject_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/surfaceseriesrendercache_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/texturehelper_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/thememanager_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/utils_p.h
-* /usr/include/qt5/QtDataVisualization/5.15.12/QtDataVisualization/private/vertexindexer_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/abstract3dcontroller_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/abstract3drenderer_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/abstractitemmodelhandler_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/abstractobjecthelper_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/abstractrenderitem_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/axisrendercache_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/baritemmodelhandler_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/barrenderitem_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/bars3dcontroller_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/bars3drenderer_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/barseriesrendercache_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/camerahelper_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/customrenderitem_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/datavisualizationglobal_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/drawer_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/labelitem_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/meshloader_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/objecthelper_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/q3dbars_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/q3dcamera_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/q3dinputhandler_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/q3dlight_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/q3dobject_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/q3dscatter_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/q3dscene_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/q3dsurface_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/q3dtheme_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qabstract3daxis_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qabstract3dgraph_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qabstract3dinputhandler_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qabstract3dseries_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qabstractdataproxy_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qbar3dseries_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qbardataitem_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qbardataproxy_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qcategory3daxis_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qcustom3ditem_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qcustom3dlabel_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qcustom3dvolume_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qheightmapsurfacedataproxy_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qitemmodelbardataproxy_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qitemmodelscatterdataproxy_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qitemmodelsurfacedataproxy_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qlogvalue3daxisformatter_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qscatter3dseries_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qscatterdataitem_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qscatterdataproxy_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qsurface3dseries_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qsurfacedataitem_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qsurfacedataproxy_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qtouch3dinputhandler_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qvalue3daxisformatter_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/qvalue3daxis_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/scatter3dcontroller_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/scatter3drenderer_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/scatteritemmodelhandler_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/scatterobjectbufferhelper_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/scatterpointbufferhelper_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/scatterrenderitem_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/scatterseriesrendercache_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/selectionpointer_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/seriesrendercache_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/shaderhelper_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/surface3dcontroller_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/surface3drenderer_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/surfaceitemmodelhandler_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/surfaceobject_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/surfaceseriesrendercache_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/texturehelper_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/thememanager_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/utils_p.h
+* /usr/include/qt5/QtDataVisualization/5.15.13/QtDataVisualization/private/vertexindexer_p.h
 * /usr/include/qt5/QtDataVisualization/Q3DBars
 * /usr/include/qt5/QtDataVisualization/q3dbars.h
 * /usr/include/qt5/QtDataVisualization/Q3DCamera
@@ -176,7 +176,7 @@ The Qt5 toolkit, qtdatavis3d
 * /usr/lib/libQt5DataVisualization.so
 * /usr/lib/libQt5DataVisualization.so.5
 * /usr/lib/libQt5DataVisualization.so.5.15
-* /usr/lib/libQt5DataVisualization.so.5.15.12
+* /usr/lib/libQt5DataVisualization.so.5.15.13
 * /usr/lib/pkgconfig/Qt5DataVisualization.pc
 * /usr/share/qt5/mkspecs/modules/qt_lib_datavisualization.pri
 * /usr/share/qt5/mkspecs/modules/qt_lib_datavisualization_private.pri

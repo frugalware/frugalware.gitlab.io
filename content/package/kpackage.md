@@ -12,7 +12,7 @@ size = "159468"
 usize = "662040"
 sha1sum = "343052d3fea7fa5127f278af1499333e9344135b"
 depends = "['karchive>=6.0.0', 'kconfig>=6.0.0', 'kcoreaddons>=6.0.0', 'ki18n>=6.0.0']"
-reverse_depends = "['frameworkintegration', 'kdeclarative', 'kinfocenter', 'kinfocenter5', 'knewstuff', 'kwin']"
+reverse_depends = "['frameworkintegration', 'kdeclarative', 'kinfocenter', 'kinfocenter5', 'knewstuff', 'kwin', 'plasma-workspace']"
 +++
 ### Description: 
 Framework that lets applications manage user installable packages of non-binary assets.

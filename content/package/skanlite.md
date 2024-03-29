@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "skanlite 2.1.0.1-5"
-version = "2.1.0.1-5"
+title = "skanlite 24.02.1-1"
+version = "24.02.1-1"
 description = "Image Scanning Application for KDE"
-date = "2020-06-15T07:27:34"
+date = "2024-03-22T10:53:10"
 aliases = "/packages/103475"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2238448"
-usize = "2736484"
-sha1sum = "1a451acdbed37f303e180bf88fea192b416f4531"
-depends = "['kcoreaddons>=5.70.0', 'ki18n>=5.70.0', 'kio>=5.70.0', 'kxmlgui>=5.70.0', 'libksane']"
+size = "2527032"
+usize = "3119913"
+sha1sum = "45b55936743f38afd911dfc357b6efa1626a2ace"
+depends = "['kcoreaddons5>=5.115.0', 'ki18n5>=5.115.0', 'kio5>=5.115.0', 'kxmlgui5>=5.115.0']"
 +++
 ### Description: 
 Image Scanning Application for KDE
@@ -19,6 +19,18 @@ Image Scanning Application for KDE
 ### Files: 
 * /usr/bin/skanlite
 * /usr/share/applications/org.kde.skanlite.desktop
+* /usr/share/doc/HTML/ca/skanlite/buttons-main.png
+* /usr/share/doc/HTML/ca/skanlite/choose-scanner.png
+* /usr/share/doc/HTML/ca/skanlite/final-button.png
+* /usr/share/doc/HTML/ca/skanlite/index.cache.bz2
+* /usr/share/doc/HTML/ca/skanlite/index.docbook
+* /usr/share/doc/HTML/ca/skanlite/main-window.png
+* /usr/share/doc/HTML/ca/skanlite/no-scanner-found.png
+* /usr/share/doc/HTML/ca/skanlite/other-options.png
+* /usr/share/doc/HTML/ca/skanlite/preview-button.png
+* /usr/share/doc/HTML/ca/skanlite/scanning.png
+* /usr/share/doc/HTML/ca/skanlite/settings.png
+* /usr/share/doc/HTML/ca/skanlite/zoom-to-fit.png
 * /usr/share/doc/HTML/de/skanlite/buttons-main.png
 * /usr/share/doc/HTML/de/skanlite/final-button.png
 * /usr/share/doc/HTML/de/skanlite/index.cache.bz2
@@ -58,6 +70,8 @@ Image Scanning Application for KDE
 * /usr/share/doc/HTML/pt/skanlite/index.docbook
 * /usr/share/doc/HTML/pt_BR/skanlite/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/skanlite/index.docbook
+* /usr/share/doc/HTML/ru/skanlite/index.cache.bz2
+* /usr/share/doc/HTML/ru/skanlite/index.docbook
 * /usr/share/doc/HTML/sv/skanlite/index.cache.bz2
 * /usr/share/doc/HTML/sv/skanlite/index.docbook
 * /usr/share/doc/HTML/uk/skanlite/buttons-main.png
@@ -76,8 +90,9 @@ Image Scanning Application for KDE
 * /usr/share/doc/HTML/uk/skanlite/settings.png
 * /usr/share/doc/HTML/uk/skanlite/zoom-in.png
 * /usr/share/doc/HTML/uk/skanlite/zoom-to-fit.png
+* /usr/share/icons/hicolor/48x48/apps/org.kde.skanlite.svg
 * /usr/share/locale/ar/LC_MESSAGES/skanlite.mo
-* /usr/share/locale/ast/LC_MESSAGES/skanlite.mo
+* /usr/share/locale/az/LC_MESSAGES/skanlite.mo
 * /usr/share/locale/be/LC_MESSAGES/skanlite.mo
 * /usr/share/locale/bg/LC_MESSAGES/skanlite.mo
 * /usr/share/locale/bs/LC_MESSAGES/skanlite.mo
@@ -96,13 +111,16 @@ Image Scanning Application for KDE
 * /usr/share/locale/fr/LC_MESSAGES/skanlite.mo
 * /usr/share/locale/ga/LC_MESSAGES/skanlite.mo
 * /usr/share/locale/gl/LC_MESSAGES/skanlite.mo
+* /usr/share/locale/hi/LC_MESSAGES/skanlite.mo
 * /usr/share/locale/hr/LC_MESSAGES/skanlite.mo
 * /usr/share/locale/hu/LC_MESSAGES/skanlite.mo
 * /usr/share/locale/ia/LC_MESSAGES/skanlite.mo
 * /usr/share/locale/id/LC_MESSAGES/skanlite.mo
+* /usr/share/locale/ie/LC_MESSAGES/skanlite.mo
 * /usr/share/locale/is/LC_MESSAGES/skanlite.mo
 * /usr/share/locale/it/LC_MESSAGES/skanlite.mo
 * /usr/share/locale/ja/LC_MESSAGES/skanlite.mo
+* /usr/share/locale/ka/LC_MESSAGES/skanlite.mo
 * /usr/share/locale/km/LC_MESSAGES/skanlite.mo
 * /usr/share/locale/ko/LC_MESSAGES/skanlite.mo
 * /usr/share/locale/lt/LC_MESSAGES/skanlite.mo

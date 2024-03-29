@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "opencsg 1.6.0-1"
-version = "1.6.0-1"
+title = "opencsg 1.6.0-2"
+version = "1.6.0-2"
 description = "OpenCSG is a library that does image-based CSG rendering using OpenGL."
-date = "2023-09-16T17:28:39"
+date = "2024-03-28T15:09:22"
 aliases = "/packages/200053"
 categories = ['lib-extra']
 upstreamurl = "http://www.opencsg.org"
 arch = "x86_64"
-size = "49800"
+size = "49544"
 usize = "195318"
-sha1sum = "5daa04f4b57528d2f3ebedff04d8f0751d908e80"
+sha1sum = "274e86e69aa61d812a095c5dae19f01267f044d5"
 depends = "['freeglut>=3.0.0-2', 'glew>=2.2.0']"
 reverse_depends = "['openscad']"
 license = "GPLv2"

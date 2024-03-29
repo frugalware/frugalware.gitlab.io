@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "transmission-cli 4.0.5-1"
-version = "4.0.5-1"
+title = "transmission-cli 4.0.5-2"
+version = "4.0.5-2"
 description = "A free, lightweight BitTorrent Client. (CLI based)"
-date = "2023-12-10T17:05:03"
+date = "2024-03-28T14:44:57"
 aliases = "/packages/153764"
 categories = ['apps-extra']
 upstreamurl = "https://transmissionbt.com"
 arch = "x86_64"
-size = "1269500"
+size = "1269492"
 usize = "6220824"
-sha1sum = "f2b7b29cb234d18b67be4cbc8c446058ac9bb012"
+sha1sum = "f132b9bf6b970b461da19c1a02a5e0760a291dc0"
 depends = "['curl>=7.26.0', 'libb64', 'libdeflate', 'libevent>=2.1.11', 'miniupnpc>=2.1', 'openssl>=3.1.0']"
 reverse_depends = "['transmission-gtk', 'transmission-qt']"
 +++

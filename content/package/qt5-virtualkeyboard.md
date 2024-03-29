@@ -1,54 +1,54 @@
 +++
 draft = false
-title = "qt5-virtualkeyboard 5.15.12-1"
-version = "5.15.12-1"
+title = "qt5-virtualkeyboard 5.15.13-1"
+version = "5.15.13-1"
 description = "The Qt5 toolkit, qtvirtualkeyboard"
-date = "2023-12-25T17:44:08"
+date = "2024-03-13T16:04:38"
 aliases = "/packages/218661"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "2180888"
+size = "2185632"
 usize = "5978490"
-sha1sum = "91ef8552ed3162139fdc4ef7b1387fed745512b3"
-depends = "['hunspell>=1.7.0', 'qt5-declarative>=5.15.12', 'qt5-svg>=5.15.12']"
+sha1sum = "d3ef1e6602241f72928809919d699990d3503c08"
+depends = "['hunspell>=1.7.0', 'qt5-declarative>=5.15.13', 'qt5-svg>=5.15.13']"
 reverse_depends = "['aura-browser', 'kwin5', 'plasma-bigscreen']"
 +++
 ### Description: 
 The Qt5 toolkit, qtvirtualkeyboard
 
 ### Files: 
-* /usr/include/qt5/QtHunspellInputMethod/5.15.12/QtHunspellInputMethod/private/hunspellinputmethod_p.h
-* /usr/include/qt5/QtHunspellInputMethod/5.15.12/QtHunspellInputMethod/private/hunspellinputmethod_p_p.h
-* /usr/include/qt5/QtHunspellInputMethod/5.15.12/QtHunspellInputMethod/private/hunspellworker_p.h
+* /usr/include/qt5/QtHunspellInputMethod/5.15.13/QtHunspellInputMethod/private/hunspellinputmethod_p.h
+* /usr/include/qt5/QtHunspellInputMethod/5.15.13/QtHunspellInputMethod/private/hunspellinputmethod_p_p.h
+* /usr/include/qt5/QtHunspellInputMethod/5.15.13/QtHunspellInputMethod/private/hunspellworker_p.h
 * /usr/include/qt5/QtHunspellInputMethod/qhunspellinputmethod_global.h
 * /usr/include/qt5/QtHunspellInputMethod/QtHunspellInputMethod
 * /usr/include/qt5/QtHunspellInputMethod/QtHunspellInputMethodDepends
 * /usr/include/qt5/QtHunspellInputMethod/QtHunspellInputMethodVersion
 * /usr/include/qt5/QtHunspellInputMethod/qthunspellinputmethodversion.h
-* /usr/include/qt5/QtVirtualKeyboard/5.15.12/QtVirtualKeyboard/private/abstractinputpanel_p.h
-* /usr/include/qt5/QtVirtualKeyboard/5.15.12/QtVirtualKeyboard/private/appinputpanel_p.h
-* /usr/include/qt5/QtVirtualKeyboard/5.15.12/QtVirtualKeyboard/private/appinputpanel_p_p.h
-* /usr/include/qt5/QtVirtualKeyboard/5.15.12/QtVirtualKeyboard/private/desktopinputpanel_p.h
-* /usr/include/qt5/QtVirtualKeyboard/5.15.12/QtVirtualKeyboard/private/desktopinputselectioncontrol_p.h
-* /usr/include/qt5/QtVirtualKeyboard/5.15.12/QtVirtualKeyboard/private/enterkeyactionattachedtype_p.h
-* /usr/include/qt5/QtVirtualKeyboard/5.15.12/QtVirtualKeyboard/private/enterkeyaction_p.h
-* /usr/include/qt5/QtVirtualKeyboard/5.15.12/QtVirtualKeyboard/private/fallbackinputmethod_p.h
-* /usr/include/qt5/QtVirtualKeyboard/5.15.12/QtVirtualKeyboard/private/gesturerecognizer_p.h
-* /usr/include/qt5/QtVirtualKeyboard/5.15.12/QtVirtualKeyboard/private/handwritinggesturerecognizer_p.h
-* /usr/include/qt5/QtVirtualKeyboard/5.15.12/QtVirtualKeyboard/private/inputmethod_p.h
-* /usr/include/qt5/QtVirtualKeyboard/5.15.12/QtVirtualKeyboard/private/inputselectionhandle_p.h
-* /usr/include/qt5/QtVirtualKeyboard/5.15.12/QtVirtualKeyboard/private/inputview_p.h
-* /usr/include/qt5/QtVirtualKeyboard/5.15.12/QtVirtualKeyboard/private/plaininputmethod_p.h
-* /usr/include/qt5/QtVirtualKeyboard/5.15.12/QtVirtualKeyboard/private/platforminputcontext_p.h
-* /usr/include/qt5/QtVirtualKeyboard/5.15.12/QtVirtualKeyboard/private/qvirtualkeyboardinputcontext_p.h
-* /usr/include/qt5/QtVirtualKeyboard/5.15.12/QtVirtualKeyboard/private/qvirtualkeyboard_staticplugin_p.h
-* /usr/include/qt5/QtVirtualKeyboard/5.15.12/QtVirtualKeyboard/private/settings_p.h
-* /usr/include/qt5/QtVirtualKeyboard/5.15.12/QtVirtualKeyboard/private/shadowinputcontext_p.h
-* /usr/include/qt5/QtVirtualKeyboard/5.15.12/QtVirtualKeyboard/private/shifthandler_p.h
-* /usr/include/qt5/QtVirtualKeyboard/5.15.12/QtVirtualKeyboard/private/unipentrace_p.h
-* /usr/include/qt5/QtVirtualKeyboard/5.15.12/QtVirtualKeyboard/private/virtualkeyboarddebug_p.h
-* /usr/include/qt5/QtVirtualKeyboard/5.15.12/QtVirtualKeyboard/private/virtualkeyboardsettings_p.h
+* /usr/include/qt5/QtVirtualKeyboard/5.15.13/QtVirtualKeyboard/private/abstractinputpanel_p.h
+* /usr/include/qt5/QtVirtualKeyboard/5.15.13/QtVirtualKeyboard/private/appinputpanel_p.h
+* /usr/include/qt5/QtVirtualKeyboard/5.15.13/QtVirtualKeyboard/private/appinputpanel_p_p.h
+* /usr/include/qt5/QtVirtualKeyboard/5.15.13/QtVirtualKeyboard/private/desktopinputpanel_p.h
+* /usr/include/qt5/QtVirtualKeyboard/5.15.13/QtVirtualKeyboard/private/desktopinputselectioncontrol_p.h
+* /usr/include/qt5/QtVirtualKeyboard/5.15.13/QtVirtualKeyboard/private/enterkeyactionattachedtype_p.h
+* /usr/include/qt5/QtVirtualKeyboard/5.15.13/QtVirtualKeyboard/private/enterkeyaction_p.h
+* /usr/include/qt5/QtVirtualKeyboard/5.15.13/QtVirtualKeyboard/private/fallbackinputmethod_p.h
+* /usr/include/qt5/QtVirtualKeyboard/5.15.13/QtVirtualKeyboard/private/gesturerecognizer_p.h
+* /usr/include/qt5/QtVirtualKeyboard/5.15.13/QtVirtualKeyboard/private/handwritinggesturerecognizer_p.h
+* /usr/include/qt5/QtVirtualKeyboard/5.15.13/QtVirtualKeyboard/private/inputmethod_p.h
+* /usr/include/qt5/QtVirtualKeyboard/5.15.13/QtVirtualKeyboard/private/inputselectionhandle_p.h
+* /usr/include/qt5/QtVirtualKeyboard/5.15.13/QtVirtualKeyboard/private/inputview_p.h
+* /usr/include/qt5/QtVirtualKeyboard/5.15.13/QtVirtualKeyboard/private/plaininputmethod_p.h
+* /usr/include/qt5/QtVirtualKeyboard/5.15.13/QtVirtualKeyboard/private/platforminputcontext_p.h
+* /usr/include/qt5/QtVirtualKeyboard/5.15.13/QtVirtualKeyboard/private/qvirtualkeyboardinputcontext_p.h
+* /usr/include/qt5/QtVirtualKeyboard/5.15.13/QtVirtualKeyboard/private/qvirtualkeyboard_staticplugin_p.h
+* /usr/include/qt5/QtVirtualKeyboard/5.15.13/QtVirtualKeyboard/private/settings_p.h
+* /usr/include/qt5/QtVirtualKeyboard/5.15.13/QtVirtualKeyboard/private/shadowinputcontext_p.h
+* /usr/include/qt5/QtVirtualKeyboard/5.15.13/QtVirtualKeyboard/private/shifthandler_p.h
+* /usr/include/qt5/QtVirtualKeyboard/5.15.13/QtVirtualKeyboard/private/unipentrace_p.h
+* /usr/include/qt5/QtVirtualKeyboard/5.15.13/QtVirtualKeyboard/private/virtualkeyboarddebug_p.h
+* /usr/include/qt5/QtVirtualKeyboard/5.15.13/QtVirtualKeyboard/private/virtualkeyboardsettings_p.h
 * /usr/include/qt5/QtVirtualKeyboard/QtVirtualKeyboard
 * /usr/include/qt5/QtVirtualKeyboard/QtVirtualKeyboardDepends
 * /usr/include/qt5/QtVirtualKeyboard/QtVirtualKeyboardVersion
@@ -81,12 +81,12 @@ The Qt5 toolkit, qtvirtualkeyboard
 * /usr/lib/libQt5HunspellInputMethod.so
 * /usr/lib/libQt5HunspellInputMethod.so.5
 * /usr/lib/libQt5HunspellInputMethod.so.5.15
-* /usr/lib/libQt5HunspellInputMethod.so.5.15.12
+* /usr/lib/libQt5HunspellInputMethod.so.5.15.13
 * /usr/lib/libQt5VirtualKeyboard.prl
 * /usr/lib/libQt5VirtualKeyboard.so
 * /usr/lib/libQt5VirtualKeyboard.so.5
 * /usr/lib/libQt5VirtualKeyboard.so.5.15
-* /usr/lib/libQt5VirtualKeyboard.so.5.15.12
+* /usr/lib/libQt5VirtualKeyboard.so.5.15.13
 * /usr/lib/pkgconfig/Qt5VirtualKeyboard.pc
 * /usr/lib/qt5/plugins/platforminputcontexts/libqtvirtualkeyboardplugin.so
 * /usr/lib/qt5/plugins/virtualkeyboard/libqtvirtualkeyboard_hangul.so

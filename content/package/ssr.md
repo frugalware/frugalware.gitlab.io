@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ssr 0.4.4-5"
-version = "0.4.4-5"
+title = "ssr 0.4.4-6"
+version = "0.4.4-6"
 description = "Screen recorder for Linux"
-date = "2023-10-18T17:39:33"
+date = "2024-03-28T16:44:55"
 aliases = "/packages/219773"
 categories = ['xapps-extra']
 upstreamurl = "http://www.maartenbaert.be/simplescreenrecorder/"
 arch = "x86_64"
-size = "1339688"
+size = "1340080"
 usize = "3821381"
-sha1sum = "c6b69381df46a34cc65b5504c4c46b3a6ff4d097"
+sha1sum = "a0fd1cf99ecf2dff5bc09e72d32aca8c7c343005"
 depends = "['alsa-lib', 'ffmpeg>=6.0', 'libxinerama', 'pcre2', 'pulseaudio', 'qt5-base>=5.15.10', 'qt5-x11extras>=5.15.10']"
 +++
 ### Description: 

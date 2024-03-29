@@ -1,28 +1,29 @@
 +++
 draft = false
-title = "polkit-kde-agent-1 5.27.10-5"
-version = "5.27.10-5"
+title = "polkit-kde-agent-1 6.0.3-1"
+version = "6.0.3-1"
 description = "Daemon providing a polkit authentication UI for KDE"
-date = "2024-02-19T13:11:13"
+date = "2024-03-27T09:05:17"
 aliases = "/packages/118466"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "60044"
-usize = "268341"
-sha1sum = "c6e7d4531f604386320571c0cf05f32acdae4a67"
-depends = "['kcrash>=5.115.0', 'kdbusaddons>=5.115.0', 'kiconthemes>=5.115.0']"
+size = "64772"
+usize = "231849"
+sha1sum = "ce231d073451141a57fe3e48aae0ebd1b123d1b5"
+depends = "['kcrash>=6.0.0', 'kdbusaddons>=6.0.0', 'kiconthemes>=6.0.0']"
 +++
 ### Description: 
 Daemon providing a polkit authentication UI for KDE
 
 ### Files: 
 * /etc/xdg/autostart/polkit-kde-authentication-agent-1.desktop
-* /usr/lib/kf5/polkit-kde-authentication-agent-1
+* /usr/lib/polkit-kde-agent-1/polkit-kde-authentication-agent-1
 * /usr/lib/systemd/user/plasma-polkit-agent.service
 * /usr/share/applications/org.kde.polkit-kde-authentication-agent-1.desktop
-* /usr/share/knotifications5/policykit1-kde.notifyrc
+* /usr/share/knotifications6/policykit1-kde.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
+* /usr/share/locale/ast/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
 * /usr/share/locale/be/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
 * /usr/share/locale/bg/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
 * /usr/share/locale/bs/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
@@ -70,6 +71,7 @@ Daemon providing a polkit authentication UI for KDE
 * /usr/share/locale/pt_BR/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
 * /usr/share/locale/ro/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
 * /usr/share/locale/ru/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
+* /usr/share/locale/sa/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
 * /usr/share/locale/sk/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
 * /usr/share/locale/sl/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
 * /usr/share/locale/sr/LC_MESSAGES/polkit-kde-authentication-agent-1.mo

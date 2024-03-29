@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wireshark 4.0.10-1"
-version = "4.0.10-1"
+title = "wireshark 4.0.10-2"
+version = "4.0.10-2"
 description = "The world's most popular network protocol analyzer."
-date = "2023-10-30T21:45:40"
+date = "2024-03-28T17:18:26"
 aliases = "/packages/10556"
 categories = ['xapps-extra']
 upstreamurl = "http://www.wireshark.org/"
 arch = "x86_64"
-size = "20714980"
-usize = "127482823"
-sha1sum = "925bda9123e0aefd87744503ef9561fa39817db8"
+size = "20702172"
+usize = "127482831"
+sha1sum = "aca5e9a0b4659c0a08778a3fa0a7acdaf31302ed"
 depends = "['c-ares', 'dbus', 'geoip', 'glib2', 'gnutls', 'libkrb5', 'libnl', 'libpcap', 'libssh', 'libusb1', 'lua', 'lua51', 'nghttp2', 'snappy']"
 reverse_depends = "['wireshark-qt']"
 +++

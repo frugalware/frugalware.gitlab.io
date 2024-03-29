@@ -1,28 +1,29 @@
 +++
 draft = false
-title = "plasma-vault 5.27.10-5"
-version = "5.27.10-5"
+title = "plasma-vault 6.0.3-1"
+version = "6.0.3-1"
 description = "Plasma applet and services for creating encrypted vaults"
-date = "2024-02-19T13:17:32"
+date = "2024-03-27T09:22:51"
 aliases = "/packages/219484"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "284032"
-usize = "1395476"
-sha1sum = "1ca91503a09f9f965377c71b7f96bc0c76d5ad76"
-depends = "['cryfs', 'encfs', 'libksysguard5>=5.27.10', 'networkmanager-qt>=5.115.0', 'plasma-framework>=5.115.0']"
+size = "315540"
+usize = "1512651"
+sha1sum = "f2770944e28d4a81623d1e5449741059227f6fc6"
+depends = "['cryfs', 'encfs', 'kitemmodels>=6.0.0', 'libksysguard>=6.0.3', 'libplasma>=6.0.3', 'networkmanager-qt>=6.0.0']"
 +++
 ### Description: 
 Plasma applet and services for creating encrypted vaults
 
 ### Files: 
-* /usr/lib/qt5/plugins/kf5/kded/plasmavault.so
-* /usr/lib/qt5/plugins/kf5/kfileitemaction/plasmavaultfileitemaction.so
-* /usr/lib/qt5/plugins/plasma/applets/plasma_applet_vault.so
-* /usr/share/kservices5/plasma-applet-org.kde.plasma.vault.desktop
+* /usr/lib/qt6/plugins/kf6/kded/plasmavault.so
+* /usr/lib/qt6/plugins/kf6/kfileitemaction/plasmavaultfileitemaction.so
+* /usr/lib/qt6/plugins/plasma/applets/org.kde.plasma.vault.so
 * /usr/share/locale/ar/LC_MESSAGES/plasmavault-kde.mo
+* /usr/share/locale/ast/LC_MESSAGES/plasmavault-kde.mo
 * /usr/share/locale/az/LC_MESSAGES/plasmavault-kde.mo
+* /usr/share/locale/be/LC_MESSAGES/plasmavault-kde.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasmavault-kde.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasmavault-kde.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasmavault-kde.mo
@@ -31,6 +32,7 @@ Plasma applet and services for creating encrypted vaults
 * /usr/share/locale/de/LC_MESSAGES/plasmavault-kde.mo
 * /usr/share/locale/el/LC_MESSAGES/plasmavault-kde.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasmavault-kde.mo
+* /usr/share/locale/eo/LC_MESSAGES/plasmavault-kde.mo
 * /usr/share/locale/es/LC_MESSAGES/plasmavault-kde.mo
 * /usr/share/locale/et/LC_MESSAGES/plasmavault-kde.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasmavault-kde.mo
@@ -69,5 +71,4 @@ Plasma applet and services for creating encrypted vaults
 * /usr/share/metainfo/org.kde.plasma.vault.appdata.xml
 * /usr/share/plasma/plasmoids/org.kde.plasma.vault/contents/ui/main.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.vault/contents/ui/VaultItem.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.vault/metadata.desktop
 * /usr/share/plasma/plasmoids/org.kde.plasma.vault/metadata.json

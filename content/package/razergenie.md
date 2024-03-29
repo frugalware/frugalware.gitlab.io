@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "razergenie 1.1.0-1"
-version = "1.1.0-1"
+title = "razergenie 1.1.0-2"
+version = "1.1.0-2"
 description = "Qt application for configuring your Razer devices under GNU/Linux."
-date = "2023-11-05T21:46:26"
+date = "2024-03-29T09:48:33"
 aliases = "/packages/220393"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/z3ntu/razergenie"
 arch = "x86_64"
-size = "98488"
-usize = "496435"
-sha1sum = "fc1c30ec95171f425f83ebd8ac0570da8f278b13"
+size = "99192"
+usize = "492339"
+sha1sum = "36e023a8b7d6c287078b155160ecb09c72e2f75d"
 depends = "['libopenrazer']"
 +++
 ### Description: 

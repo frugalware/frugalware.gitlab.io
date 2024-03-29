@@ -12,7 +12,7 @@ size = "559052"
 usize = "1997552"
 sha1sum = "3925464b08cdfbbd938effbd718339adf02626c2"
 depends = "['gmp>=6.1.1-4']"
-reverse_depends = "['ginac', 'libqalculate', 'plasma-workspace']"
+reverse_depends = "['ginac', 'libqalculate']"
 license = "GPL"
 +++
 ### Description: 

@@ -12,6 +12,7 @@ size = "140604"
 usize = "952387"
 sha1sum = "e6f254fd7f568c90a6db353f2f4652425cc31970"
 depends = "[]"
+reverse_depends = "['telly-skout']"
 +++
 ### Description: 
 Add-ons for the Kirigami framework (KF5)

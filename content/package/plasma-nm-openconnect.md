@@ -1,30 +1,31 @@
 +++
 draft = false
-title = "plasma-nm-openconnect 5.27.10-5"
-version = "5.27.10-5"
+title = "plasma-nm-openconnect 6.0.3-1"
+version = "6.0.3-1"
 description = "Openconnect Plugin for Plasma network manager"
-date = "2024-02-19T13:03:12"
+date = "2024-03-27T09:32:47"
 aliases = "/packages/218675"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "86816"
-usize = "1171013"
-sha1sum = "3486118c5916f8d9fac406bc9da474287cadd31a"
+size = "97328"
+usize = "1424960"
+sha1sum = "4f0b6e1a22820e4b1f4ed60b377496b9cdddc50c"
 depends = "['openconnect']"
 +++
 ### Description: 
 Openconnect Plugin for Plasma network manager
 
 ### Files: 
-* /usr/lib/qt5/plugins/plasma/network/vpn/plasmanetworkmanagement_openconnect_anyconnect.so
-* /usr/lib/qt5/plugins/plasma/network/vpn/plasmanetworkmanagement_openconnect_arrayui.so
-* /usr/lib/qt5/plugins/plasma/network/vpn/plasmanetworkmanagement_openconnect_f5ui.so
-* /usr/lib/qt5/plugins/plasma/network/vpn/plasmanetworkmanagement_openconnect_fortinetui.so
-* /usr/lib/qt5/plugins/plasma/network/vpn/plasmanetworkmanagement_openconnect_globalprotectui.so
-* /usr/lib/qt5/plugins/plasma/network/vpn/plasmanetworkmanagement_openconnect_juniperui.so
-* /usr/lib/qt5/plugins/plasma/network/vpn/plasmanetworkmanagement_openconnect_pulseui.so
+* /usr/lib/qt6/plugins/plasma/network/vpn/plasmanetworkmanagement_openconnect_anyconnect.so
+* /usr/lib/qt6/plugins/plasma/network/vpn/plasmanetworkmanagement_openconnect_arrayui.so
+* /usr/lib/qt6/plugins/plasma/network/vpn/plasmanetworkmanagement_openconnect_f5ui.so
+* /usr/lib/qt6/plugins/plasma/network/vpn/plasmanetworkmanagement_openconnect_fortinetui.so
+* /usr/lib/qt6/plugins/plasma/network/vpn/plasmanetworkmanagement_openconnect_globalprotectui.so
+* /usr/lib/qt6/plugins/plasma/network/vpn/plasmanetworkmanagement_openconnect_juniperui.so
+* /usr/lib/qt6/plugins/plasma/network/vpn/plasmanetworkmanagement_openconnect_pulseui.so
 * /usr/share/locale/ar/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
+* /usr/share/locale/ast/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/az/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/bs/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
@@ -35,12 +36,14 @@ Openconnect Plugin for Plasma network manager
 * /usr/share/locale/de/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/el/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
+* /usr/share/locale/eo/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/es/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/et/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/fi/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/fr/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
+* /usr/share/locale/he/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/id/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo

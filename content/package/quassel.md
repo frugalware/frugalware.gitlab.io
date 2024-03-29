@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "quassel 0.14.0-2"
-version = "0.14.0-2"
+title = "quassel 0.14.0-3"
+version = "0.14.0-3"
 description = "A modern, cross-platform, distributed IRC client."
-date = "2023-10-18T17:49:15"
+date = "2024-03-18T12:52:28"
 aliases = "/packages/103589"
 categories = ['kde5']
 upstreamurl = "http://quassel-irc.org"
 arch = "x86_64"
-size = "2506852"
-usize = "11974914"
-sha1sum = "2b037a8d3191e5733b7469c8d6e582d2ce3b90fd"
-depends = "['knotifyconfig>=5.110.0', 'libboost', 'qca>=2.1.1-6', 'qt5-multimedia>=5.15.11', 'qt5-svg>=5.15.11', 'qt5-webengine>=5.15.11']"
+size = "2490160"
+usize = "11917570"
+sha1sum = "461b0e17b7ff112077ef69c5c63aa42e28fe8360"
+depends = "['knotifyconfig5>=5.115.0', 'libboost', 'qca>=2.1.1-6', 'qt5-multimedia>=5.15.12', 'qt5-svg>=5.15.12', 'qt5-webengine>=5.15.12']"
 +++
 ### Description: 
 A modern, cross-platform, distributed IRC client.

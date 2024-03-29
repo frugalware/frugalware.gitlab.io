@@ -12,7 +12,7 @@ size = "108900"
 usize = "291984"
 sha1sum = "3063a3ee01ddc9ef6f3eeefd710df57247893ffc"
 depends = "['glibc']"
-reverse_depends = "['inetutils', 'lib32-libxcrypt', 'libreswan', 'libsmbclient', 'libsystemd', 'libxcrypt-compat', 'openldap', 'openvas-libraries', 'pam', 'plasma-workspace', 'ppp', 'saslauthd', 'shadow', 'squid', 'sudo', 'util-linux', 'uwsgi-plugin-router', 'xscreensaver-data']"
+reverse_depends = "['inetutils', 'lib32-libxcrypt', 'libreswan', 'libsmbclient', 'libsystemd', 'libxcrypt-compat', 'openldap', 'openvas-libraries', 'pam', 'ppp', 'saslauthd', 'shadow', 'squid', 'sudo', 'util-linux', 'uwsgi-plugin-router', 'xscreensaver-data']"
 +++
 ### Description: 
 Modern library for one-way hashing of passwords

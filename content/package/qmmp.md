@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qmmp 2.1.5-5"
-version = "2.1.5-5"
+title = "qmmp 2.1.5-6"
+version = "2.1.5-6"
 description = "A music player written in Qt that supports Winamp skins."
-date = "2024-02-19T23:23:43"
+date = "2024-03-28T14:16:51"
 aliases = "/packages/119458"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://qmmp.ylsoftware.com"
 arch = "x86_64"
-size = "2252620"
-usize = "11198822"
-sha1sum = "82002da501ee8de7765e60db8b15cacab29d4ef4"
+size = "2257344"
+usize = "11182438"
+sha1sum = "4e7aa5f7c750a9750431ac6e27b8e5bd57e2835b"
 depends = "['curl', 'libarchive', 'libbs2b', 'libcdio-paranoia', 'libmad', 'libmms', 'libmpg123', 'qt6-multimedia', 'taglib>=2.0', 'wavpack']"
 +++
 ### Description: 

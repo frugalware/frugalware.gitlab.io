@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qterminal 1.3.0-2"
-version = "1.3.0-2"
+title = "qterminal 1.3.0-3"
+version = "1.3.0-3"
 description = "The lightweight Qt5 terminal emulator"
-date = "2023-10-21T17:56:37"
+date = "2024-03-28T16:22:49"
 aliases = "/packages/218429"
 categories = ['xapps-extra']
 upstreamurl = "https://www.lxde.org"
 arch = "x86_64"
-size = "239044"
+size = "239012"
 usize = "1178086"
-sha1sum = "880eb8e9cb353ac1878dcf2679079870edd32a3f"
+sha1sum = "b1c54d4e2520c512d3f1d1b64337e2a291276f00"
 depends = "['qt5-x11extras>=5.15.10', 'qtermwidget>=1.3.0']"
 reverse_depends = "['lumina-desktop']"
 +++

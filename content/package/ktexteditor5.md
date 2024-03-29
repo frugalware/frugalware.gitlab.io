@@ -12,7 +12,7 @@ size = "2492284"
 usize = "13045352"
 sha1sum = "e979b54ec4fc6e48cefe5679b4915ae8374d18d4"
 depends = "['editorconfig-core-c', 'kparts5>=5.115.0', 'libgit2>=1.3.0']"
-reverse_depends = "['ktouch']"
+reverse_depends = "['ktouch', 'rocs']"
 +++
 ### Description: 
 Provides a powerful text editor component.

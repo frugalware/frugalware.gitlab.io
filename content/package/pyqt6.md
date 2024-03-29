@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pyqt6 6.6.0-2"
-version = "6.6.0-2"
+title = "pyqt6 6.6.0-3"
+version = "6.6.0-3"
 description = "PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit."
-date = "2023-11-29T08:41:27"
+date = "2024-03-28T11:34:33"
 aliases = "/packages/220810"
 categories = ['xlib-extra']
 upstreamurl = "http://www.riverbankcomputing.co.uk/"
 arch = "x86_64"
-size = "3813228"
+size = "3819688"
 usize = "27712850"
-sha1sum = "f89594e81ef7f9f3957080e0bdb265f5c75bd1e1"
+sha1sum = "8b748439b8e9242cad20f4498aa65c5788452ad4"
 depends = "['python3-pyqt6-sip', 'qt6-base']"
 reverse_depends = "['calibre', 'pyqt6webengine', 'yin-yang']"
 +++

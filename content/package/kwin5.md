@@ -12,7 +12,7 @@ size = "8847996"
 usize = "33167650"
 sha1sum = "e32989a8fb7bd6418fdcf4deee2ceaa2aeb2d557"
 depends = "['breeze>=5.27.10', 'hwdata', 'kdecoration>=5.27.10', 'kinit>=5.115.0', 'knewstuff>=5.115.0', 'krunner5>=5.115.0', 'kscreenlocker>=5.27.10', 'libqaccessibilityclient', 'libsm', 'libxcvt', 'pipewire>=0.3.13', 'plasma-framework>=5.115.0', 'qt5-multimedia>=5.15.12', 'qt5-quickcontrols>=5.15.12', 'qt5-quickcontrols2>=5.15.12', 'qt5-sensors>=5.15.12', 'qt5-virtualkeyboard>=5.15.12', 'xcb-util-cursor>=0.1.3-2']"
-reverse_depends = "['oxygen', 'plasma-workspace']"
+reverse_depends = "['oxygen']"
 +++
 ### Description: 
 KDE Window Manager.

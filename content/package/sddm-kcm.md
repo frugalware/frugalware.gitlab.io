@@ -1,36 +1,33 @@
 +++
 draft = false
-title = "sddm-kcm 5.27.10-5"
-version = "5.27.10-5"
+title = "sddm-kcm 6.0.3-1"
+version = "6.0.3-1"
 description = "KCM module for SDDM"
-date = "2024-02-19T13:12:18"
+date = "2024-03-27T09:08:14"
 aliases = "/packages/218406"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "111896"
-usize = "503966"
-sha1sum = "f726826f13a05501b5373331078fa409a2e8b34d"
-depends = "['kcmutils>=5.115.0', 'kdeclarative>=5.115.0', 'knewstuff>=5.115.0', 'sddm>=0.16.0']"
+size = "128760"
+usize = "525209"
+sha1sum = "689f7aa934dc10e2d5dd0ba28a860f3475c2b746"
+depends = "['kcmutils>=6.0.0', 'kdeclarative>=6.0.0', 'knewstuff>=6.0.0', 'sddm>=0.16.0']"
 +++
 ### Description: 
 KCM module for SDDM
 
 ### Files: 
 * /usr/bin/sddmthemeinstaller
-* /usr/lib/kf5/kauth/kcmsddm_authhelper
-* /usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_sddm.so
+* /usr/lib/kauth/kf6/kauth/kcmsddm_authhelper
+* /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_sddm.so
 * /usr/share/applications/kcm_sddm.desktop
 * /usr/share/dbus-1/system-services/org.kde.kcontrol.kcmsddm.service
 * /usr/share/dbus-1/system.d/org.kde.kcontrol.kcmsddm.conf
-* /usr/share/doc/sddm-kcm-5.27.10/CONTRIBUTORS
-* /usr/share/doc/sddm-kcm-5.27.10/COPYING
-* /usr/share/doc/sddm-kcm-5.27.10/README.md
+* /usr/share/doc/sddm-kcm-6.0.3/CONTRIBUTORS
+* /usr/share/doc/sddm-kcm-6.0.3/README.md
 * /usr/share/knsrcfiles/sddmtheme.knsrc
-* /usr/share/kpackage/kcms/kcm_sddm/contents/ui/Advanced.qml
-* /usr/share/kpackage/kcms/kcm_sddm/contents/ui/DetailsDialog.qml
-* /usr/share/kpackage/kcms/kcm_sddm/contents/ui/main.qml
 * /usr/share/locale/ar/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/az/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/bs/LC_MESSAGES/kcm_sddm.mo
@@ -41,6 +38,7 @@ KCM module for SDDM
 * /usr/share/locale/de/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/el/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/eo/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/es/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/et/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/eu/LC_MESSAGES/kcm_sddm.mo
@@ -74,6 +72,7 @@ KCM module for SDDM
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/sv/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/ta/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/tr/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/uk/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcm_sddm.mo

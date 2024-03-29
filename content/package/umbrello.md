@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "umbrello 23.08.5-1"
-version = "23.08.5-1"
+title = "umbrello 24.02.1-2"
+version = "24.02.1-2"
 description = "UML Modeller."
-date = "2024-02-20T15:22:18"
+date = "2024-03-26T10:46:47"
 aliases = "/packages/220997"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5219032"
-usize = "14853313"
-sha1sum = "b05a85e3d5f1967526b18685785cab475bc658dc"
-depends = "['kdelibs4support', 'kdev-php']"
+size = "5213220"
+usize = "14914566"
+sha1sum = "f1d79fee497ebfa7936793affc4cadf799890d69"
+depends = "['kdev-php', 'kdevelop-pg-qt']"
 +++
 ### Description: 
 UML Modeller.
@@ -254,15 +254,15 @@ UML Modeller.
 * /usr/share/doc/HTML/uk/umbrello/use-case-diagram.png
 * /usr/share/doc/HTML/uk/umbrello/user-interface-settings.png
 * /usr/share/doc/HTML/uk/umbrello/working_with_umbrello.docbook
-* /usr/share/doc/umbrello-23.08.5/AUTHORS
-* /usr/share/doc/umbrello-23.08.5/ChangeLog
-* /usr/share/doc/umbrello-23.08.5/COPYING
-* /usr/share/doc/umbrello-23.08.5/COPYING.DOC
-* /usr/share/doc/umbrello-23.08.5/COPYING.LIB
-* /usr/share/doc/umbrello-23.08.5/INSTALL
-* /usr/share/doc/umbrello-23.08.5/README
-* /usr/share/doc/umbrello-23.08.5/THANKS
-* /usr/share/doc/umbrello-23.08.5/TODO
+* /usr/share/doc/umbrello-24.02.1/AUTHORS
+* /usr/share/doc/umbrello-24.02.1/ChangeLog
+* /usr/share/doc/umbrello-24.02.1/COPYING
+* /usr/share/doc/umbrello-24.02.1/COPYING.DOC
+* /usr/share/doc/umbrello-24.02.1/COPYING.LIB
+* /usr/share/doc/umbrello-24.02.1/INSTALL
+* /usr/share/doc/umbrello-24.02.1/README
+* /usr/share/doc/umbrello-24.02.1/THANKS
+* /usr/share/doc/umbrello-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/umbrello.png
 * /usr/share/icons/hicolor/16x16/apps/umbrello.png
 * /usr/share/icons/hicolor/16x16/mimetypes/application-x-uml.png

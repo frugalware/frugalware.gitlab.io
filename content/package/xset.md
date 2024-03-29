@@ -12,7 +12,7 @@ size = "36228"
 usize = "98107"
 sha1sum = "94125e2569c6b6c0afaf8255e984e211636e6233"
 depends = "['libxmu>=1.1.2-3']"
-reverse_depends = "['i3', 'plasma-workspace']"
+reverse_depends = "['i3']"
 license = "GPL2"
 +++
 ### Description: 

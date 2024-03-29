@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "rocs 23.08.5-1"
-version = "23.08.5-1"
+title = "rocs 24.02.1-1"
+version = "24.02.1-1"
 description = "Graph Theory IDE."
-date = "2024-02-19T21:53:47"
+date = "2024-03-22T10:39:13"
 aliases = "/packages/152840"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1554864"
-usize = "4001151"
-sha1sum = "e1c2765293c5b10fb860b948dd0385bb3c4bd9d5"
-depends = "['grantlee>=5.1.0-2', 'kdeclarative>=5.115.0', 'ktexteditor>=5.115.0', 'libboost>=1.61.0', 'qt5-xmlpatterns>=5.15.12']"
+size = "1556412"
+usize = "3998961"
+sha1sum = "e7e31703a62a4537abb716bd242ccf3aa89402f2"
+depends = "['grantlee>=5.1.0-2', 'kdeclarative5>=5.115.0', 'ktexteditor5>=5.115.0', 'libboost>=1.61.0', 'qt5-xmlpatterns>=5.15.12']"
 +++
 ### Description: 
 Graph Theory IDE.
@@ -94,12 +94,12 @@ Graph Theory IDE.
 * /usr/share/doc/HTML/uk/rocs/index.docbook
 * /usr/share/doc/HTML/uk/rocs/rocs-interfaces.png
 * /usr/share/doc/HTML/uk/rocs/rocs-screenshot.png
-* /usr/share/doc/rocs-23.08.5/AUTHORS
-* /usr/share/doc/rocs-23.08.5/ChangeLog
-* /usr/share/doc/rocs-23.08.5/INSTALL.md
-* /usr/share/doc/rocs-23.08.5/README.developer.md
-* /usr/share/doc/rocs-23.08.5/README.md
-* /usr/share/doc/rocs-23.08.5/README.packager.md
+* /usr/share/doc/rocs-24.02.1/AUTHORS
+* /usr/share/doc/rocs-24.02.1/ChangeLog
+* /usr/share/doc/rocs-24.02.1/INSTALL.md
+* /usr/share/doc/rocs-24.02.1/README.developer.md
+* /usr/share/doc/rocs-24.02.1/README.md
+* /usr/share/doc/rocs-24.02.1/README.packager.md
 * /usr/share/icons/hicolor/128x128/apps/rocs.png
 * /usr/share/icons/hicolor/16x16/apps/rocs.png
 * /usr/share/icons/hicolor/22x22/apps/rocs.png
@@ -123,7 +123,6 @@ Graph Theory IDE.
 * /usr/share/icons/hicolor/scalable/actions/rocsunidirectional.svgz
 * /usr/share/icons/hicolor/scalable/actions/rocsvisible.svgz
 * /usr/share/icons/hicolor/scalable/apps/rocs.svgz
-* /usr/share/kxmlgui5/rocs/rocsui.rc
 * /usr/share/locale/ar/LC_MESSAGES/libgraphtheory.mo
 * /usr/share/locale/ar/LC_MESSAGES/rocs.mo
 * /usr/share/locale/bg/LC_MESSAGES/libgraphtheory.mo

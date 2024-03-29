@@ -1,26 +1,65 @@
 +++
 draft = false
-title = "plasma-systemmonitor 5.27.10-5"
-version = "5.27.10-5"
+title = "plasma-systemmonitor 6.0.3-1"
+version = "6.0.3-1"
 description = "An interface for monitoring system sensors, process information and other system resources"
-date = "2024-02-19T12:31:38"
+date = "2024-03-27T08:28:25"
 aliases = "/packages/220308"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "219240"
-usize = "1315541"
-sha1sum = "fc517b53b3a42d2cab5c04b4ace4f4cdb4026faa"
-depends = "['kdeclarative>=5.115.0', 'kirigami2>=5.115.0', 'kitemmodels>=5.115.0', 'ksystemstats>=5.27.10']"
+size = "364420"
+usize = "2070844"
+sha1sum = "fced4533a3842494b811c7229132e23747caeb44"
+depends = "['kdeclarative>=6.0.0', 'kirigami-addons', 'kitemmodels>=6.0.0', 'ksystemstats>=6.0.3']"
 +++
 ### Description: 
 An interface for monitoring system sensors, process information and other system resources
 
 ### Files: 
 * /usr/bin/plasma-systemmonitor
+* /usr/lib/libPlasmaSystemMonitorPage.so
+* /usr/lib/libPlasmaSystemMonitorTable.so
+* /usr/lib/qt6/qml/org/kde/ksysguard/page/ColumnControl.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/page/ConditionalLoader.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/page/Container.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/page/DialogLoader.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/page/EditablePage.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/page/EditablePageAction.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/page/EditorToolBar.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/page/FaceConfigurationPage.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/page/FaceControl.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/page/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/ksysguard/page/libPlasmaSystemMonitorPageplugin.so
+* /usr/lib/qt6/qml/org/kde/ksysguard/page/LoadPresetDialog.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/page/MissingSensorsDialog.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/page/MoveButton.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/page/PageContents.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/page/PageDialog.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/page/PageEditor.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/page/PageSortDialog.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/page/PlaceholderRectangle.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/page/PlasmaSystemMonitorPage.qmltypes
+* /usr/lib/qt6/qml/org/kde/ksysguard/page/qmldir
+* /usr/lib/qt6/qml/org/kde/ksysguard/page/RowControl.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/page/SectionControl.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/table/BaseCellDelegate.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/table/BaseTableView.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/table/ColumnConfigurationDialog.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/table/FirstCellDelegate.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/table/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/ksysguard/table/KillDialog.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/table/libPlasmaSystemMonitorTableplugin.so
+* /usr/lib/qt6/qml/org/kde/ksysguard/table/LineChartCellDelegate.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/table/PlasmaSystemMonitorTable.qmltypes
+* /usr/lib/qt6/qml/org/kde/ksysguard/table/qmldir
+* /usr/lib/qt6/qml/org/kde/ksysguard/table/TableViewHeader.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/table/TextCellDelegate.qml
+* /usr/lib/qt6/qml/org/kde/ksysguard/table/UserCellDelegate.qml
 * /usr/share/applications/org.kde.plasma-systemmonitor.desktop
 * /usr/share/config.kcfg/systemmonitor.kcfg
-* /usr/share/doc/plasma-systemmonitor-5.27.10/README.md
+* /usr/share/doc/plasma-systemmonitor-6.0.3/README.md
+* /usr/share/kglobalaccel/org.kde.plasma-systemmonitor.desktop
 * /usr/share/knsrcfiles/plasma-systemmonitor.knsrc
 * /usr/share/ksysguard/sensorfaces/org.kde.ksysguard.applicationstable/contents/config/main.xml
 * /usr/share/ksysguard/sensorfaces/org.kde.ksysguard.applicationstable/contents/faceproperties
@@ -31,7 +70,6 @@ An interface for monitoring system sensors, process information and other system
 * /usr/share/ksysguard/sensorfaces/org.kde.ksysguard.applicationstable/contents/ui/Config.qml
 * /usr/share/ksysguard/sensorfaces/org.kde.ksysguard.applicationstable/contents/ui/FullRepresentation.qml
 * /usr/share/ksysguard/sensorfaces/org.kde.ksysguard.applicationstable/contents/ui/LineChartCard.qml
-* /usr/share/ksysguard/sensorfaces/org.kde.ksysguard.applicationstable/metadata.desktop
 * /usr/share/ksysguard/sensorfaces/org.kde.ksysguard.applicationstable/metadata.json
 * /usr/share/ksysguard/sensorfaces/org.kde.ksysguard.processtable/contents/config/main.xml
 * /usr/share/ksysguard/sensorfaces/org.kde.ksysguard.processtable/contents/faceproperties
@@ -39,14 +77,19 @@ An interface for monitoring system sensors, process information and other system
 * /usr/share/ksysguard/sensorfaces/org.kde.ksysguard.processtable/contents/ui/Config.qml
 * /usr/share/ksysguard/sensorfaces/org.kde.ksysguard.processtable/contents/ui/FullRepresentation.qml
 * /usr/share/ksysguard/sensorfaces/org.kde.ksysguard.processtable/contents/ui/ProcessTableView.qml
-* /usr/share/ksysguard/sensorfaces/org.kde.ksysguard.processtable/metadata.desktop
 * /usr/share/ksysguard/sensorfaces/org.kde.ksysguard.processtable/metadata.json
 * /usr/share/locale/ar/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.applicationstable.mo
 * /usr/share/locale/ar/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.processtable.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma-systemmonitor.mo
+* /usr/share/locale/ast/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.applicationstable.mo
+* /usr/share/locale/ast/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.processtable.mo
+* /usr/share/locale/ast/LC_MESSAGES/plasma-systemmonitor.mo
 * /usr/share/locale/az/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.applicationstable.mo
 * /usr/share/locale/az/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.processtable.mo
 * /usr/share/locale/az/LC_MESSAGES/plasma-systemmonitor.mo
+* /usr/share/locale/be/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.applicationstable.mo
+* /usr/share/locale/be/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.processtable.mo
+* /usr/share/locale/be/LC_MESSAGES/plasma-systemmonitor.mo
 * /usr/share/locale/bg/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.applicationstable.mo
 * /usr/share/locale/bg/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.processtable.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasma-systemmonitor.mo
@@ -68,6 +111,9 @@ An interface for monitoring system sensors, process information and other system
 * /usr/share/locale/en_GB/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.applicationstable.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.processtable.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma-systemmonitor.mo
+* /usr/share/locale/eo/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.applicationstable.mo
+* /usr/share/locale/eo/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.processtable.mo
+* /usr/share/locale/eo/LC_MESSAGES/plasma-systemmonitor.mo
 * /usr/share/locale/es/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.applicationstable.mo
 * /usr/share/locale/es/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.processtable.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma-systemmonitor.mo
@@ -132,6 +178,9 @@ An interface for monitoring system sensors, process information and other system
 * /usr/share/locale/ru/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.applicationstable.mo
 * /usr/share/locale/ru/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.processtable.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasma-systemmonitor.mo
+* /usr/share/locale/sa/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.applicationstable.mo
+* /usr/share/locale/sa/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.processtable.mo
+* /usr/share/locale/sa/LC_MESSAGES/plasma-systemmonitor.mo
 * /usr/share/locale/sk/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.applicationstable.mo
 * /usr/share/locale/sk/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.processtable.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasma-systemmonitor.mo
@@ -162,35 +211,3 @@ An interface for monitoring system sensors, process information and other system
 * /usr/share/plasma-systemmonitor/overview.page
 * /usr/share/plasma-systemmonitor/processes.page
 * /usr/share/plasma/kinfocenter/externalmodules/kcm_external_plasma-systemmonitor.desktop
-* /usr/share/qt5/qml/org/kde/ksysguard/page/ColumnControl.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/page/Container.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/page/DialogLoader.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/page/EditablePage.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/page/EditablePageAction.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/page/EditorToolBar.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/page/FaceConfigurationPage.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/page/FaceControl.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/page/libPagePlugin.so
-* /usr/share/qt5/qml/org/kde/ksysguard/page/LoadPresetDialog.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/page/MissingSensorsDialog.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/page/MoveButton.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/page/PageContents.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/page/PageDialog.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/page/PageEditor.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/page/PageSortDialog.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/page/PlaceholderRectangle.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/page/qmldir
-* /usr/share/qt5/qml/org/kde/ksysguard/page/RowControl.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/page/SectionControl.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/table/BaseCellDelegate.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/table/BaseTableView.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/table/ColumnConfigurationDialog.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/table/FirstCellDelegate.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/table/KillDialog.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/table/libTablePlugin.so
-* /usr/share/qt5/qml/org/kde/ksysguard/table/LineChartCellDelegate.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/table/qmldir
-* /usr/share/qt5/qml/org/kde/ksysguard/table/TableViewHeader.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/table/TextCellDelegate.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/table/TreeDecoration.qml
-* /usr/share/qt5/qml/org/kde/ksysguard/table/UserCellDelegate.qml

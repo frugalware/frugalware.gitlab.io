@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "noto-fonts 20170821-4"
-version = "20170821-4"
+title = "noto-fonts 24.3.1-1"
+version = "24.3.1-1"
 description = "Noto fonts"
-date = "2022-01-19T08:09:13"
+date = "2024-03-07T11:14:39"
 aliases = "/packages/218387"
 categories = ['x11']
 upstreamurl = "https://www.google.com/get/noto/"
 arch = "x86_64"
-size = "97065780"
-usize = "481656142"
-sha1sum = "11b8da9557b4e86e81e9488998cc95ded992418b"
+size = "28025376"
+usize = "117773238"
+sha1sum = "4d28c291374e6ba9bef958205529abb0cafc4fb9"
 depends = "['fontconfig', 'mkfontscale']"
 reverse_depends = "['frameworkintegration', 'frameworkintegration5', 'i3', 'lumina-desktop', 'plasma-integration']"
 +++

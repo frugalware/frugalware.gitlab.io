@@ -1,49 +1,36 @@
 +++
 draft = false
-title = "plasma-firewall 5.27.10-5"
-version = "5.27.10-5"
+title = "plasma-firewall 6.0.3-1"
+version = "6.0.3-1"
 description = "Control Panel for your system firewall"
-date = "2024-02-19T13:09:57"
+date = "2024-03-27T09:29:11"
 aliases = "/packages/220307"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "434672"
-usize = "1212091"
-sha1sum = "1b38ce2a1960a58e8bf605a7ea0dca912aa142f4"
-depends = "['systemsettings5>=5.27.10']"
+size = "466756"
+usize = "1299151"
+sha1sum = "886809491cbe786fd065e2282ffee60d8ee27ceb"
+depends = "[]"
 +++
 ### Description: 
 Control Panel for your system firewall
 
 ### Files: 
-* /usr/lib/kf5/kauth/kde_ufw_plugin_helper
-* /usr/lib/kf5/kde_ufw_plugin_helper.py
+* /usr/lib/kauth/kf6/kauth/kde_ufw_plugin_helper
 * /usr/lib/libkcm_firewall_core.so
-* /usr/lib/qt5/plugins/kf5/plasma_firewall/firewalldbackend.so
-* /usr/lib/qt5/plugins/kf5/plasma_firewall/ufwbackend.so
-* /usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_firewall.so
+* /usr/lib/plasma-firewall/kde_ufw_plugin_helper.py
+* /usr/lib/qt6/plugins/kf6/plasma_firewall/firewalldbackend.so
+* /usr/lib/qt6/plugins/kf6/plasma_firewall/ufwbackend.so
+* /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_firewall.so
 * /usr/share/applications/kcm_firewall.desktop
 * /usr/share/dbus-1/system-services/org.kde.ufw.service
 * /usr/share/dbus-1/system.d/org.kde.ufw.conf
-* /usr/share/doc/plasma-firewall-5.27.10/INSTALL
-* /usr/share/doc/plasma-firewall-5.27.10/README.md
+* /usr/share/doc/plasma-firewall-6.0.3/INSTALL
+* /usr/share/doc/plasma-firewall-6.0.3/README.md
 * /usr/share/kcm_ufw/defaults
-* /usr/share/kpackage/kcms/kcm_firewall/contents/ui/About.qml
-* /usr/share/kpackage/kcms/kcm_firewall/contents/ui/AdvancedRuleEdit.qml
-* /usr/share/kpackage/kcms/kcm_firewall/contents/ui/ConnectionItemDelegate.qml
-* /usr/share/kpackage/kcms/kcm_firewall/contents/ui/ConnectionsView.qml
-* /usr/share/kpackage/kcms/kcm_firewall/contents/ui/InlineBusyIndicator.qml
-* /usr/share/kpackage/kcms/kcm_firewall/contents/ui/IpTextField.qml
-* /usr/share/kpackage/kcms/kcm_firewall/contents/ui/LogsView.qml
-* /usr/share/kpackage/kcms/kcm_firewall/contents/ui/main.qml
-* /usr/share/kpackage/kcms/kcm_firewall/contents/ui/plasma_firewall.png
-* /usr/share/kpackage/kcms/kcm_firewall/contents/ui/PortTextField.qml
-* /usr/share/kpackage/kcms/kcm_firewall/contents/ui/RuleEdit.qml
-* /usr/share/kpackage/kcms/kcm_firewall/contents/ui/RuleListItem.qml
-* /usr/share/kpackage/kcms/kcm_firewall/contents/ui/SimpleRuleEdit.qml
-* /usr/share/kpackage/kcms/kcm_firewall/contents/ui/ViewBase.qml
 * /usr/share/locale/ar/LC_MESSAGES/kcm_firewall.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/az/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/ca/LC_MESSAGES/kcm_firewall.mo
@@ -52,6 +39,7 @@ Control Panel for your system firewall
 * /usr/share/locale/da/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/de/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kcm_firewall.mo
+* /usr/share/locale/eo/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/es/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/et/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/eu/LC_MESSAGES/kcm_firewall.mo
@@ -67,6 +55,7 @@ Control Panel for your system firewall
 * /usr/share/locale/lt/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/nl/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/nn/LC_MESSAGES/kcm_firewall.mo
+* /usr/share/locale/pa/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/pl/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/pt/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcm_firewall.mo
@@ -75,6 +64,7 @@ Control Panel for your system firewall
 * /usr/share/locale/sk/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/sl/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/sv/LC_MESSAGES/kcm_firewall.mo
+* /usr/share/locale/ta/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/tr/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/uk/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcm_firewall.mo

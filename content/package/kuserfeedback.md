@@ -12,7 +12,7 @@ size = "410908"
 usize = "2301468"
 sha1sum = "4fccabc24fb07feb9bcda640ccb1d90f913f053b"
 depends = "['qt5-charts>=_F_kdever_qt5', 'qt5-declarative>=', 'qt5-svg>=_F_kdever_qt5']"
-reverse_depends = "['plasma-welcome']"
+reverse_depends = "['plasma-welcome', 'plasma-workspace']"
 +++
 ### Description: 
 Framework for collecting user feedback for applications via telemetry and surveys

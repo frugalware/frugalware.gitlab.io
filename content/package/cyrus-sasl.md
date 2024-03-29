@@ -12,7 +12,7 @@ size = "234296"
 usize = "804877"
 sha1sum = "e4ae7c3ff25e3ae03e7d1cc78ea49144f56892a1"
 depends = "['e2fsprogs>=1.42.13-4', 'gdbm>=1.15', 'libkrb5>=1.17-2', 'openssl>=3.1.0']"
-reverse_depends = "['apr-util', 'cyrus-sasl-gssapiv2', 'cyrus-sasl-sql', 'gtk-vnc', 'kimap', 'kimap2', 'ksmtp', 'kvm', 'libetpan', 'libkgapi', 'libldap', 'libpurple', 'libvirt', 'mutt-devel', 'postfix', 'qca', 'qca-cyrus-sasl', 'qemu', 'saslauthd', 'spice', 'telepathy-salut', 'znc']"
+reverse_depends = "['apr-util', 'cyrus-sasl-gssapiv2', 'cyrus-sasl-sql', 'gtk-vnc', 'kimap', 'kimap2', 'ksmtp', 'kvm', 'libetpan', 'libkgapi', 'libldap', 'libpurple', 'libvirt', 'mutt-devel', 'postfix', 'qca', 'qca-cyrus-sasl', 'qca-qt5', 'qemu', 'saslauthd', 'spice', 'telepathy-salut', 'znc']"
 +++
 ### Description: 
 SASL Authentication mechanism

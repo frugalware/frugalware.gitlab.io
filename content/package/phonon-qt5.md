@@ -1,24 +1,23 @@
 +++
 draft = false
-title = "phonon-qt5 4.12.0-1"
-version = "4.12.0-1"
-description = "The multimedia API for KDE 5."
-date = "2023-11-05T12:48:58"
+title = "phonon-qt5 4.12.0-8"
+version = "4.12.0-8"
+description = "The multimedia API for KDE 6."
+date = "2024-03-28T18:18:21"
 aliases = "/packages/201104"
 categories = ['xmultimedia']
 upstreamurl = "http://phonon.kde.org"
 arch = "x86_64"
-size = "325024"
-usize = "1541996"
-sha1sum = "f62fc44f290365fd22a4ec3ac0256f50ee466494"
-depends = "['libpulse>=9.0-2', 'libuuid>=2.28.2-2', 'libxml2>=2.9.4-3', 'qt5-base>=5.15.10']"
-reverse_depends = "['knotifications5', 'konversation', 'libkcompactdisc', 'phonon-backend-gstreamer', 'phonon-backend-vlc']"
+size = "215164"
+usize = "983420"
+sha1sum = "4c2c64703c1765effba5f01985835387354c1eef"
+depends = "['libpulse>=9.0-2', 'libuuid>=2.28.2-2', 'libxml2>=2.9.4-3', 'qt5-base']"
+reverse_depends = "['knotifications5', 'konversation', 'libkcompactdisc', 'phonon-backend-gstreamer']"
 +++
 ### Description: 
-The multimedia API for KDE 5.
+The multimedia API for KDE 6.
 
 ### Files: 
-* /usr/bin/phononsettings
 * /usr/include/phonon4qt5/KDE/Phonon/AbstractAudioOutput
 * /usr/include/phonon4qt5/KDE/Phonon/AbstractMediaStream
 * /usr/include/phonon4qt5/KDE/Phonon/AbstractVideoOutput
@@ -194,166 +193,3 @@ The multimedia API for KDE 5.
 * /usr/lib/libphonon4qt5experimental.so.4.12.0
 * /usr/lib/pkgconfig/phonon4qt5.pc
 * /usr/lib/qt5/plugins/designer/phonon4qt5widgets.so
-* /usr/share/doc/phonon-qt5-4.12.0/COPYING
-* /usr/share/doc/phonon-qt5-4.12.0/COPYING.LIB
-* /usr/share/locale/ar/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/ar/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/az/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/az/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/be/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/be/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/be@latin/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/bg/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/bg/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/bn/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/bn_IN/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/bs/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/bs/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/ca/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/ca/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/ca@valencia/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/ca@valencia/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/cs/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/cs/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/csb/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/csb/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/da/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/da/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/de/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/de/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/el/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/el/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/en_GB/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/en_GB/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/eo/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/eo/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/es/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/es/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/et/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/et/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/eu/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/eu/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/fa/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/fa/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/fi/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/fi/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/fr/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/fr/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/fy/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/ga/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/ga/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/gl/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/gl/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/gu/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/gu/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/he/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/he/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/hi/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/hi/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/hne/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/hne/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/hr/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/hr/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/hsb/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/hsb/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/hu/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/hu/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/ia/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/ia/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/id/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/id/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/is/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/is/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/it/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/it/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/ja/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/ja/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/ka/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/ka/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/kk/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/kk/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/km/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/km/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/kn/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/ko/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/ko/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/ku/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/ku/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/lt/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/lt/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/lv/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/lv/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/mai/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/mai/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/mk/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/mk/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/ml/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/ml/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/mr/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/mr/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/ms/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/nb/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/nb/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/nds/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/nds/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/ne/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/ne/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/nl/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/nl/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/nn/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/nn/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/oc/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/oc/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/or/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/pa/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/pa/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/pl/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/pl/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/pt/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/pt/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/pt_BR/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/pt_BR/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/ro/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/ro/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/ru/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/ru/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/se/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/se/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/si/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/sk/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/sk/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/sl/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/sl/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/sq/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/sq/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/sr/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/sr/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/sr@latin/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/sr@latin/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/sv/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/sv/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/ta/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/ta/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/te/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/tg/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/th/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/th/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/tr/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/tr/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/ug/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/ug/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/uk/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/uk/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/vi/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/vi/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/wa/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/wa/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/zh_CN/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/zh_CN/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/locale/zh_TW/LC_MESSAGES/libphonon_qt.qm
-* /usr/share/locale/zh_TW/LC_MESSAGES/phononsettings_qt.qm
-* /usr/share/qt5/mkspecs/modules/qt_phonon4qt5.pri

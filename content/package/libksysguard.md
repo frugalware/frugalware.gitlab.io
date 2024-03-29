@@ -12,6 +12,7 @@ size = "467304"
 usize = "2633042"
 sha1sum = "65bef6bb13e23da24bd75346f3f1a90aa23f1de3"
 depends = "['kconfigwidgets>=6.0.0', 'knewstuff>=6.0.0', 'kwindowsystem>=6.0.0', 'libnl', 'libxres>=1.0.7-4', 'lmsensors', 'qt6-webengine>=6.6.3']"
+reverse_depends = "['plasma-vault', 'plasma-workspace']"
 +++
 ### Description: 
 Task management and system monitoring library.

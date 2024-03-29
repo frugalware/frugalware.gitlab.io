@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qsyncthingtray 0.5.8-13"
-version = "0.5.8-13"
+title = "qsyncthingtray 0.5.8-14"
+version = "0.5.8-14"
 description = "tray app for syncthing"
-date = "2023-10-24T10:59:41"
+date = "2024-03-28T16:21:04"
 aliases = "/packages/219191"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/sieren/QSyncthingTray"
 arch = "x86_64"
-size = "6939824"
+size = "6940740"
 usize = "8367765"
-sha1sum = "d6cd57a3c068f51e933d2e0dc1dc7d9b8ab1ed2d"
+sha1sum = "964e2af84b11009e93c2e82c77b6dc42d87b6825"
 depends = "['qt5-location>=5.15.10', 'qt5-webengine>=5.15.10', 'syncthing']"
 +++
 ### Description: 

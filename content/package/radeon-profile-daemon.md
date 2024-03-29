@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "radeon-profile-daemon 20190603-7"
-version = "20190603-7"
+title = "radeon-profile-daemon 20190603-8"
+version = "20190603-8"
 description = "Daemon for radeon-profile GUI"
-date = "2024-01-15T18:28:32"
+date = "2024-03-28T16:26:45"
 aliases = "/packages/219624"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/marazmista/radeon-profile-daemon"
 arch = "x86_64"
-size = "21172"
+size = "21244"
 usize = "62498"
-sha1sum = "04835a85ac4d5fe196a1a3cb04ead49ad34aa169"
+sha1sum = "d923b6c7cc9a49321f7d1a155ca68a4b83e2e20b"
 depends = "['qt5-base>=5.15.10']"
 reverse_depends = "['radeon-profile']"
 +++

@@ -12,7 +12,6 @@ size = "163416"
 usize = "1086383"
 sha1sum = "b05fc44ee6d0a4bbcbd2e1d696753ba01555b451"
 depends = "['polkit>=0.113-6']"
-reverse_depends = "['plasma-workspace']"
 +++
 ### Description: 
 D-Bus interfaces for querying and manipulating user account information

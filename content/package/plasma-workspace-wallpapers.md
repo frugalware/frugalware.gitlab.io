@@ -1,25 +1,25 @@
 +++
 draft = false
-title = "plasma-workspace-wallpapers 5.27.10-5"
-version = "5.27.10-5"
+title = "plasma-workspace-wallpapers 6.0.3-1"
+version = "6.0.3-1"
 description = "Additional wallpapers for the Plasma Workspace."
-date = "2024-02-19T13:18:40"
+date = "2024-03-27T09:24:08"
 aliases = "/packages/218404"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "94049624"
-usize = "95170020"
-sha1sum = "56e4bb734524c3b97b160fe207a1bb886df0d185"
+size = "110100808"
+usize = "111232054"
+sha1sum = "bbe48bc02d8cb0e36cfc374f636ba3f1e5926df7"
 depends = "[]"
 +++
 ### Description: 
 Additional wallpapers for the Plasma Workspace.
 
 ### Files: 
-* /usr/share/doc/plasma-workspace-wallpapers-5.27.10/AUTHORS
-* /usr/share/doc/plasma-workspace-wallpapers-5.27.10/COPYING
-* /usr/share/doc/plasma-workspace-wallpapers-5.27.10/COPYING.LGPL3
+* /usr/share/doc/plasma-workspace-wallpapers-6.0.3/AUTHORS
+* /usr/share/doc/plasma-workspace-wallpapers-6.0.3/COPYING
+* /usr/share/doc/plasma-workspace-wallpapers-6.0.3/COPYING.LGPL3
 * /usr/share/wallpapers/Altai/contents/images/1080x1920.png
 * /usr/share/wallpapers/Altai/contents/images/5120x2880.png
 * /usr/share/wallpapers/Altai/contents/screenshot.png
@@ -190,6 +190,11 @@ Additional wallpapers for the Plasma Workspace.
 * /usr/share/wallpapers/MilkyWay/contents/images/5120x2880.png
 * /usr/share/wallpapers/MilkyWay/contents/screenshot.png
 * /usr/share/wallpapers/MilkyWay/metadata.json
+* /usr/share/wallpapers/Mountain/contents/images/1080x1920.png
+* /usr/share/wallpapers/Mountain/contents/images/5120x2880.png
+* /usr/share/wallpapers/Mountain/contents/images_dark/1080x1920.png
+* /usr/share/wallpapers/Mountain/contents/images_dark/5120x2880.png
+* /usr/share/wallpapers/Mountain/metadata.json
 * /usr/share/wallpapers/OneStandsOut/contents/images/1280x1024.jpg
 * /usr/share/wallpapers/OneStandsOut/contents/images/1280x800.jpg
 * /usr/share/wallpapers/OneStandsOut/contents/images/1440x900.jpg

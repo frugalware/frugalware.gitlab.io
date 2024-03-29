@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qtox 1.17.6-7"
-version = "1.17.6-7"
+title = "qtox 1.17.6-8"
+version = "1.17.6-8"
 description = "Powerful Tox client that follows the Tox design guidelines."
-date = "2023-11-20T09:53:42"
+date = "2024-03-28T16:25:57"
 aliases = "/packages/217521"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/qtox/qtox"
 arch = "x86_64"
-size = "5120980"
+size = "5118016"
 usize = "7356815"
-sha1sum = "c79fe4fe98aaafd4ba719a8fb2342a7a88d0f749"
+sha1sum = "2e48abb1b7f3a7e092b81b7804b10c2ea42c04c2"
 depends = "['ffmpeg>=6.0', 'filter_audio', 'gdk-pixbuf2', 'gtk+2', 'libexif', 'libvpx>=1.11.0', 'libxscrnsaver', 'qrencode>=4.0.0', 'qt5-svg>=5.15.10', 'sqlcipher>=3.4.0-2', 'tox-core>=0.2.0']"
 +++
 ### Description: 

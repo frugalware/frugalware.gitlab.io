@@ -12,6 +12,7 @@ size = "464240"
 usize = "2350032"
 sha1sum = "40fd20592c25d78f1baf8d5c85d29a6073af8307"
 depends = "['kidletime>=6.0.0', 'kio>=6.0.0', 'lmdb>=0.9.18-3']"
+reverse_depends = "['plasma-workspace']"
 +++
 ### Description: 
 A framework for searching and managing metadata.

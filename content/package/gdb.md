@@ -12,7 +12,7 @@ size = "4642332"
 usize = "13198643"
 sha1sum = "e0d07ef669ddca7aaef40a993e1b688e365cf5b9"
 depends = "['binutils', 'expat>=2.1.0-6', 'ncurses>=6.0-18', 'python3>=3.12', 'readline>=8.0']"
-reverse_depends = "['qtcreator', 'rr']"
+reverse_depends = "['python3-pygdbmi', 'qtcreator', 'rr']"
 +++
 ### Description: 
 Gnu Project Debugger

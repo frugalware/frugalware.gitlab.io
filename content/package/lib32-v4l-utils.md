@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-v4l-utils 1.26.1-3"
-version = "1.26.1-3"
+title = "lib32-v4l-utils 1.26.1-4"
+version = "1.26.1-4"
 description = "v4l-utils (32-bit)"
-date = "2024-01-05T11:23:17"
+date = "2024-03-28T19:11:14"
 aliases = "/packages/219239"
 categories = ['lib32-extra']
 upstreamurl = "http://linuxtv.org"
 arch = "x86_64"
-size = "1054736"
-usize = "4143094"
-sha1sum = "1bb2c51e0804f688d5f1df7b401e76a5b57369d3"
+size = "1072760"
+usize = "4159742"
+sha1sum = "7dc87f48e92487305ba1c025ddaf6d8a69e131b9"
 depends = "['lib32-elfutils', 'lib32-json-c', 'lib32-libglu', 'lib32-libjpeg-turbo', 'lib32-libsystemd', 'lib32-libudev', 'lib32-libx11', 'lib32-sdl2', 'lib32-sdl2_image', 'v4l-utils>=1.26.1']"
 reverse_depends = "['lib32-ffmpeg']"
 +++

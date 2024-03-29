@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "scribus 1.5.8-21"
-version = "1.5.8-21"
+title = "scribus 1.5.8-22"
+version = "1.5.8-22"
 description = "A professional desktop publishing application."
-date = "2024-02-03T22:24:55"
+date = "2024-03-28T16:34:45"
 aliases = "/packages/3829"
 categories = ['xapps-extra']
 upstreamurl = "http://www.scribus.net"
 arch = "x86_64"
-size = "74496600"
+size = "74500288"
 usize = "136758190"
-sha1sum = "5966ff2e740f7d8e12100bb4bbf419de535d4bf1"
+sha1sum = "974718b0be1fe003573e720f39db89ce0e936fd5"
 depends = "['cairo', 'fontconfig', 'freetype2', 'ghostscript', 'glib2', 'hunspell>=1.7.0', 'hyphen', 'icu4c>=74.1', 'libcdr', 'libfreehand', 'libmspub', 'libpagemaker', 'librevenge', 'libvisio', 'podofo-0.9', 'poppler>=24.02.0', 'python3>=3.12', 'qt5-declarative>=5.15.0']"
 +++
 ### Description: 

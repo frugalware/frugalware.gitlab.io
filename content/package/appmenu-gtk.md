@@ -12,6 +12,7 @@ size = "41660"
 usize = "226100"
 sha1sum = "6ab8aba8358596129dfe6d507ec7dada6c6e7d1b"
 depends = "['gtk+2-libs', 'gtk+3']"
+reverse_depends = "['plasma-wayland-session']"
 +++
 ### Description: 
 Application menu module for GTK+

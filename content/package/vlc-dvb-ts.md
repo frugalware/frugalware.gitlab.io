@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-dvb-ts 3.0.20-9"
-version = "3.0.20-9"
+title = "vlc-dvb-ts 3.0.20-10"
+version = "3.0.20-10"
 description = "vlc plugin for DVB/TS"
-date = "2024-02-23T15:34:47"
+date = "2024-03-28T19:36:51"
 aliases = "/packages/219569"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "169468"
+size = "169560"
 usize = "415048"
-sha1sum = "7fbd0b1b4f791bf2ef4f078cc972be2186e8db19"
+sha1sum = "7f5e5ee295afae038254ed5ad5da90c27401ce66"
 depends = "['libdvbpsi>=1.3.0', 'libvlc>=3.0.20']"
 +++
 ### Description: 

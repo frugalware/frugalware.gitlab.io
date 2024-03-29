@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qtractor 0.9.34-2"
-version = "0.9.34-2"
+title = "qtractor 0.9.34-3"
+version = "0.9.34-3"
 description = "Audio/MIDI multi-track sequencer written in C++ with the Qt5 framework"
-date = "2023-10-25T10:27:06"
+date = "2024-03-28T19:31:13"
 aliases = "/packages/218531"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://sourceforge.net/projects/qtractor"
 arch = "x86_64"
-size = "1820772"
+size = "1820736"
 usize = "7031583"
-sha1sum = "be57c04df6ba7ae968b97ad505c9ac4d88d02251"
+sha1sum = "48facaf62cc085e6832da27ba10e996412811c96"
 depends = "['dssi', 'liblo', 'libmad', 'libsndfile', 'lilv', 'lv2', 'qt5-base>=5.15.10', 'qt5-svg>=5.15.10', 'qt5-x11extras>=5.15.10', 'rubberband']"
 +++
 ### Description: 

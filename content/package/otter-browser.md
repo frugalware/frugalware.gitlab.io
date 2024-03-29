@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "otter-browser 1.0.03-3"
-version = "1.0.03-3"
+title = "otter-browser 1.0.03-4"
+version = "1.0.03-4"
 description = "Otter Browser, project aiming to recreate classic Opera (12.x) UI using Qt5."
-date = "2023-10-20T15:02:52"
+date = "2024-03-28T16:10:40"
 aliases = "/packages/217669"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/Emdek/otter"
 arch = "x86_64"
-size = "2712624"
+size = "2712672"
 usize = "13055248"
-sha1sum = "2d721ab305f8b0767095c2d2d840f3598719ec6f"
+sha1sum = "93efb9d155e3ce0ec193a9ca4234cddf1f3665ae"
 depends = "['hunspell>=1.7.0', 'libgcrypt>=1.7.5-1', 'qt5-imageformats>=5.15.10', 'qt5-multimedia>=5.15.10', 'qt5-script>=5.15.10', 'qt5-svg>=5.15.10', 'qt5-webengine>=5.15.10', 'qt5-xmlpatterns>=5.15.10']"
 +++
 ### Description: 

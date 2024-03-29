@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pyqt5 5.15.10-1"
-version = "5.15.10-1"
+title = "pyqt5 5.15.10-2"
+version = "5.15.10-2"
 description = "PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit."
-date = "2023-10-30T20:16:17"
+date = "2024-03-28T18:15:25"
 aliases = "/packages/201196"
 categories = ['xlib-extra']
 upstreamurl = "http://www.riverbankcomputing.co.uk/"
 arch = "x86_64"
-size = "4330572"
+size = "4333880"
 usize = "31031466"
-sha1sum = "8dd5d8a4edae375fce3df7f26b1975af687f705e"
+sha1sum = "84ee95cb4bd1189f1f7edb635949d54fd830b6ad"
 depends = "['qt5-base>=5.15.10']"
 reverse_depends = "['git-cola', 'hplip', 'picard', 'pyqtwebengine']"
 license = "GPL"

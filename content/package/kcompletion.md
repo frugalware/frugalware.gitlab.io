@@ -12,7 +12,7 @@ size = "114100"
 usize = "426211"
 sha1sum = "2d57a9bb5a4f870958b496b26b2bfa5be98d7220"
 depends = "['kcodecs>=6.0.0', 'kconfig>=6.0.0', 'kwidgetsaddons>=6.0.0']"
-reverse_depends = "['akonadi-contacts', 'dolphin', 'kdebugsettings', 'kldap', 'krita', 'ktextwidgets', 'libkmahjongg', 'plasma-sdk', 'smb4k']"
+reverse_depends = "['akonadi-contacts', 'dolphin', 'kdebugsettings', 'kldap', 'krita', 'ktextwidgets', 'libkmahjongg', 'plasma-sdk']"
 +++
 ### Description: 
 Provides widgets with advanced completion support.

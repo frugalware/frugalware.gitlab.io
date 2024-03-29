@@ -12,7 +12,7 @@ size = "343080"
 usize = "1590226"
 sha1sum = "7a2add8f4bc1696c2daaa08876dd247ee0685e8b"
 depends = "['qt5-base>=5.15.12']"
-reverse_depends = "['kconfigwidgets5', 'kcontacts5', 'kdesignerplugin5', 'kpackage5', 'krename', 'kservice5']"
+reverse_depends = "['kconfigwidgets5', 'kcontacts5', 'kdesignerplugin5', 'kpackage5', 'krename', 'kservice5', 'purpose5', 'smb4k', 'telly-skout']"
 +++
 ### Description: 
 Provides an advanced configuration system.

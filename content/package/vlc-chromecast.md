@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-chromecast 3.0.20-9"
-version = "3.0.20-9"
+title = "vlc-chromecast 3.0.20-10"
+version = "3.0.20-10"
 description = "vlc chromecast support"
-date = "2024-02-23T15:34:47"
+date = "2024-03-28T19:36:51"
 aliases = "/packages/219593"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "65556"
+size = "65684"
 usize = "142312"
-sha1sum = "ae8a124f5f7aaa447217801d66e98fe6bf64688b"
+sha1sum = "070cfa198c04567bba9753c3a5486a8de382e2ac"
 depends = "['libvlc>=3.0.20', 'protobuf>=25.3']"
 +++
 ### Description: 

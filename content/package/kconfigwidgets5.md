@@ -12,7 +12,7 @@ size = "364568"
 usize = "1621649"
 sha1sum = "6a3c0a282e139bcd1279c64465adc43ff67f806d"
 depends = "['kauth5>=5.115.0', 'kcodecs5>=5.115.0', 'kconfig5>=5.115.0', 'qt5-x11extras>=5.15.12']"
-reverse_depends = "['kiconthemes5']"
+reverse_depends = "['kiconthemes5', 'qqc2-desktop-style5']"
 +++
 ### Description: 
 Widgets for KConfig.

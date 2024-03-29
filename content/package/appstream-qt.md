@@ -12,7 +12,7 @@ size = "111592"
 usize = "564783"
 sha1sum = "f306d3ec369b567a3362a56a2b2d907a0c02b58a"
 depends = "['appstream=1.0.2', 'qt6-base']"
-reverse_depends = "['discover', 'frameworkintegration', 'frameworkintegration5']"
+reverse_depends = "['discover', 'frameworkintegration', 'frameworkintegration5', 'plasma-workspace']"
 +++
 ### Description: 
 Qt Bindings for Appstream

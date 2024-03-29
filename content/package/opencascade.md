@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "opencascade 7.7.2-4"
-version = "7.7.2-4"
+title = "opencascade 7.7.2-5"
+version = "7.7.2-5"
 description = "SDK intended for development of applications dealing with 3D CAD data"
-date = "2023-11-21T10:46:57"
+date = "2024-03-28T17:50:44"
 aliases = "/packages/219825"
 categories = ['xlib-extra']
 upstreamurl = "https://dev.opencascade.org"
 arch = "x86_64"
-size = "31733200"
-usize = "157779717"
-sha1sum = "ce1c9629a94921eed0614343a714ce5e67abfc00"
+size = "31725864"
+usize = "157779744"
+sha1sum = "d80bb520fac5b1da72165d50b1210bcc8b68bd62"
 depends = "['ffmpeg4.4', 'freeimage', 'intel-tbb', 'libboost', 'tk', 'vtk']"
 reverse_depends = "['kicad']"
 +++

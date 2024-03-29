@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qmltermwidget 0.2.0-3"
-version = "0.2.0-3"
+title = "qmltermwidget 0.2.0-4"
+version = "0.2.0-4"
 description = "QML port of qtermwidget"
-date = "2023-10-27T16:04:32"
+date = "2024-03-28T18:19:43"
 aliases = "/packages/220992"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/Swordfish90/qmltermwidget"
 arch = "x86_64"
-size = "212484"
+size = "212852"
 usize = "736055"
-sha1sum = "d7219351df4be839c56c81da6d37b3b0fc4d9a69"
+sha1sum = "01be8074147c9c0a028c956f694b3f07762ced99"
 depends = "['qt5-declarative>=5.15.10']"
 reverse_depends = "['qmlkonsole']"
 +++

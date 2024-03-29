@@ -12,7 +12,7 @@ size = "242816"
 usize = "1029395"
 sha1sum = "ade5dd8e33209782b2871128cf2807b0a3d66d0f"
 depends = "['libimobiledevice-glue', 'libusbmuxd>=2.0.2', 'openssl>=3.1.0']"
-reverse_depends = "['ifuse', 'solid', 'upower', 'usbmuxd']"
+reverse_depends = "['ifuse', 'solid', 'solid5', 'upower', 'usbmuxd']"
 +++
 ### Description: 
 Library for connecting to mobile devices

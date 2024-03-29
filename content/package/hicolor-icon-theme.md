@@ -12,7 +12,7 @@ size = "16192"
 usize = "84470"
 sha1sum = "1e5cf7b4d0cb173721e22ba7f7e5e0492020b580"
 depends = "[]"
-reverse_depends = "['adwaita-icon-theme', 'clight', 'get_steam', 'keepassxc', 'kitty', 'love', 'nitroshare', 'obsidian', 'plasma-workspace', 'polychromatic', 'qownnotes', 'qt-virt-manager', 'signal-desktop', 'stellarsolver', 'telegram-desktop', 'tootle', 'whalebird']"
+reverse_depends = "['adwaita-icon-theme', 'clight', 'get_steam', 'keepassxc', 'kitty', 'love', 'nitroshare', 'obsidian', 'polychromatic', 'qownnotes', 'qt-virt-manager', 'signal-desktop', 'stellarsolver', 'telegram-desktop', 'tootle', 'whalebird']"
 +++
 ### Description: 
 Freedesktop.org Hicolor icon theme

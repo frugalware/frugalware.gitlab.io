@@ -1,98 +1,97 @@
 +++
 draft = false
-title = "threadweaver 5.115.0-1"
-version = "5.115.0-1"
+title = "threadweaver 6.0.0-2"
+version = "6.0.0-2"
 description = "KDE Helper for multithreaded programming."
-date = "2024-02-19T10:09:54"
+date = "2024-03-26T23:04:48"
 aliases = "/packages/218421"
-categories = ['kf5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "75992"
-usize = "283015"
-sha1sum = "599e3ae0744352d1cd0264d428408f8544398a75"
-depends = "['qt5-base>=5.15.12']"
+size = "78488"
+usize = "303208"
+sha1sum = "1b007a159be25d6605aa1933c1bcb174d4c3ebd5"
+depends = "['qt6-base>=6.6.3']"
 reverse_depends = "['kasts', 'kate', 'okular']"
 +++
 ### Description: 
 KDE Helper for multithreaded programming.
 
 ### Files: 
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/Collection
-* /usr/include/KF5/ThreadWeaver/threadweaver/collection.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/DebuggingAids
-* /usr/include/KF5/ThreadWeaver/threadweaver/debuggingaids.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/Dependency
-* /usr/include/KF5/ThreadWeaver/threadweaver/dependency.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/DependencyPolicy
-* /usr/include/KF5/ThreadWeaver/threadweaver/dependencypolicy.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/DestructedState
-* /usr/include/KF5/ThreadWeaver/threadweaver/destructedstate.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/Exception
-* /usr/include/KF5/ThreadWeaver/threadweaver/exception.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/IdDecorator
-* /usr/include/KF5/ThreadWeaver/threadweaver/iddecorator.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/InConstructionState
-* /usr/include/KF5/ThreadWeaver/threadweaver/inconstructionstate.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/Job
-* /usr/include/KF5/ThreadWeaver/threadweaver/job.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/JobInterface
-* /usr/include/KF5/ThreadWeaver/threadweaver/jobinterface.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/JobPointer
-* /usr/include/KF5/ThreadWeaver/threadweaver/jobpointer.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/Lambda
-* /usr/include/KF5/ThreadWeaver/threadweaver/lambda.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/ManagedJobPointer
-* /usr/include/KF5/ThreadWeaver/threadweaver/managedjobpointer.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/QObjectDecorator
-* /usr/include/KF5/ThreadWeaver/threadweaver/qobjectdecorator.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/Queue
-* /usr/include/KF5/ThreadWeaver/threadweaver/queue.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/QueueAPI
-* /usr/include/KF5/ThreadWeaver/threadweaver/queueapi.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/Queueing
-* /usr/include/KF5/ThreadWeaver/threadweaver/queueing.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/QueueInterface
-* /usr/include/KF5/ThreadWeaver/threadweaver/queueinterface.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/QueuePolicy
-* /usr/include/KF5/ThreadWeaver/threadweaver/queuepolicy.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/QueueSignals
-* /usr/include/KF5/ThreadWeaver/threadweaver/queuesignals.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/QueueStream
-* /usr/include/KF5/ThreadWeaver/threadweaver/queuestream.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/ResourceRestrictionPolicy
-* /usr/include/KF5/ThreadWeaver/threadweaver/resourcerestrictionpolicy.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/Sequence
-* /usr/include/KF5/ThreadWeaver/threadweaver/sequence.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/ShuttingDownState
-* /usr/include/KF5/ThreadWeaver/threadweaver/shuttingdownstate.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/State
-* /usr/include/KF5/ThreadWeaver/threadweaver/state.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/SuspendedState
-* /usr/include/KF5/ThreadWeaver/threadweaver/suspendedstate.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/SuspendingState
-* /usr/include/KF5/ThreadWeaver/threadweaver/suspendingstate.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/Thread
-* /usr/include/KF5/ThreadWeaver/threadweaver/thread.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/ThreadWeaver
-* /usr/include/KF5/ThreadWeaver/threadweaver/threadweaver.h
-* /usr/include/KF5/ThreadWeaver/threadweaver/threadweaver_export.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/Weaver
-* /usr/include/KF5/ThreadWeaver/threadweaver/weaver.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/WeaverImplState
-* /usr/include/KF5/ThreadWeaver/threadweaver/weaverimplstate.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/WeaverInterface
-* /usr/include/KF5/ThreadWeaver/threadweaver/weaverinterface.h
-* /usr/include/KF5/ThreadWeaver/ThreadWeaver/WorkingHardState
-* /usr/include/KF5/ThreadWeaver/threadweaver/workinghardstate.h
-* /usr/include/KF5/ThreadWeaver/threadweaver_version.h
-* /usr/lib/cmake/KF5ThreadWeaver/KF5ThreadWeaverConfig.cmake
-* /usr/lib/cmake/KF5ThreadWeaver/KF5ThreadWeaverConfigVersion.cmake
-* /usr/lib/cmake/KF5ThreadWeaver/KF5ThreadWeaverTargets-release.cmake
-* /usr/lib/cmake/KF5ThreadWeaver/KF5ThreadWeaverTargets.cmake
-* /usr/lib/libKF5ThreadWeaver.so
-* /usr/lib/libKF5ThreadWeaver.so.5
-* /usr/lib/libKF5ThreadWeaver.so.5.115.0
-* /usr/share/doc/threadweaver-5.115.0/COPYING.LIB
-* /usr/share/doc/threadweaver-5.115.0/README.md
-* /usr/share/qt5/mkspecs/modules/qt_ThreadWeaver.pri
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/Collection
+* /usr/include/KF6/ThreadWeaver/threadweaver/collection.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/DebuggingAids
+* /usr/include/KF6/ThreadWeaver/threadweaver/debuggingaids.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/Dependency
+* /usr/include/KF6/ThreadWeaver/threadweaver/dependency.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/DependencyPolicy
+* /usr/include/KF6/ThreadWeaver/threadweaver/dependencypolicy.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/DestructedState
+* /usr/include/KF6/ThreadWeaver/threadweaver/destructedstate.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/Exception
+* /usr/include/KF6/ThreadWeaver/threadweaver/exception.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/IdDecorator
+* /usr/include/KF6/ThreadWeaver/threadweaver/iddecorator.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/InConstructionState
+* /usr/include/KF6/ThreadWeaver/threadweaver/inconstructionstate.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/Job
+* /usr/include/KF6/ThreadWeaver/threadweaver/job.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/JobInterface
+* /usr/include/KF6/ThreadWeaver/threadweaver/jobinterface.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/JobPointer
+* /usr/include/KF6/ThreadWeaver/threadweaver/jobpointer.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/Lambda
+* /usr/include/KF6/ThreadWeaver/threadweaver/lambda.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/ManagedJobPointer
+* /usr/include/KF6/ThreadWeaver/threadweaver/managedjobpointer.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/QObjectDecorator
+* /usr/include/KF6/ThreadWeaver/threadweaver/qobjectdecorator.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/Queue
+* /usr/include/KF6/ThreadWeaver/threadweaver/queue.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/QueueAPI
+* /usr/include/KF6/ThreadWeaver/threadweaver/queueapi.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/Queueing
+* /usr/include/KF6/ThreadWeaver/threadweaver/queueing.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/QueueInterface
+* /usr/include/KF6/ThreadWeaver/threadweaver/queueinterface.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/QueuePolicy
+* /usr/include/KF6/ThreadWeaver/threadweaver/queuepolicy.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/QueueSignals
+* /usr/include/KF6/ThreadWeaver/threadweaver/queuesignals.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/QueueStream
+* /usr/include/KF6/ThreadWeaver/threadweaver/queuestream.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/ResourceRestrictionPolicy
+* /usr/include/KF6/ThreadWeaver/threadweaver/resourcerestrictionpolicy.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/Sequence
+* /usr/include/KF6/ThreadWeaver/threadweaver/sequence.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/ShuttingDownState
+* /usr/include/KF6/ThreadWeaver/threadweaver/shuttingdownstate.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/State
+* /usr/include/KF6/ThreadWeaver/threadweaver/state.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/SuspendedState
+* /usr/include/KF6/ThreadWeaver/threadweaver/suspendedstate.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/SuspendingState
+* /usr/include/KF6/ThreadWeaver/threadweaver/suspendingstate.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/Thread
+* /usr/include/KF6/ThreadWeaver/threadweaver/thread.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/ThreadWeaver
+* /usr/include/KF6/ThreadWeaver/threadweaver/threadweaver.h
+* /usr/include/KF6/ThreadWeaver/threadweaver/threadweaver_export.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/Weaver
+* /usr/include/KF6/ThreadWeaver/threadweaver/weaver.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/WeaverImplState
+* /usr/include/KF6/ThreadWeaver/threadweaver/weaverimplstate.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/WeaverInterface
+* /usr/include/KF6/ThreadWeaver/threadweaver/weaverinterface.h
+* /usr/include/KF6/ThreadWeaver/ThreadWeaver/WorkingHardState
+* /usr/include/KF6/ThreadWeaver/threadweaver/workinghardstate.h
+* /usr/include/KF6/ThreadWeaver/threadweaver_version.h
+* /usr/lib/cmake/KF6ThreadWeaver/KF6ThreadWeaverConfig.cmake
+* /usr/lib/cmake/KF6ThreadWeaver/KF6ThreadWeaverConfigVersion.cmake
+* /usr/lib/cmake/KF6ThreadWeaver/KF6ThreadWeaverTargets-release.cmake
+* /usr/lib/cmake/KF6ThreadWeaver/KF6ThreadWeaverTargets.cmake
+* /usr/lib/libKF6ThreadWeaver.so
+* /usr/lib/libKF6ThreadWeaver.so.6
+* /usr/lib/libKF6ThreadWeaver.so.6.0.0
+* /usr/share/doc/threadweaver-6.0.0/COPYING.LIB
+* /usr/share/doc/threadweaver-6.0.0/README.md

@@ -12,7 +12,7 @@ size = "163164"
 usize = "650666"
 sha1sum = "db92ab9960a805e777357c50796269e17c59b791"
 depends = "['qt6-declarative>=6.6.3']"
-reverse_depends = "['arianna', 'plasma-workspace']"
+reverse_depends = "['arianna', 'plasma-workspace', 'qqc2-breeze-style']"
 +++
 ### Description: 
 A QtQuick plugin providing high-performance charts

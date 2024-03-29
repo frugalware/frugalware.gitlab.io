@@ -12,7 +12,7 @@ size = "94740"
 usize = "434155"
 sha1sum = "47f0020aaee4a715f489592abe5600ad905919c0"
 depends = "['polkit-qt5-1>=0.112.0-11']"
-reverse_depends = "['kconfigwidgets5']"
+reverse_depends = "['kconfigwidgets5', 'smb4k']"
 +++
 ### Description: 
 Framework which lets applications perform actions as a privileged user.

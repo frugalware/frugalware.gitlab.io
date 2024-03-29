@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qtav 1.13.0-8"
-version = "1.13.0-8"
+title = "qtav 1.13.0-9"
+version = "1.13.0-9"
 description = "A cross-platform multimedia playback framework based on Qt and FFmpeg"
-date = "2023-10-18T16:55:43"
+date = "2024-03-28T18:22:51"
 aliases = "/packages/220190"
 categories = ['xlib-extra']
 upstreamurl = "https://www.qtav.org/"
 arch = "x86_64"
-size = "884624"
+size = "885748"
 usize = "3481909"
-sha1sum = "50b6f340980d9396e2ddc83a24da10791efc0d90"
+sha1sum = "f0c4c4d5032ae98252893a69f63b777099b1c504"
 depends = "['desktop-file-utils', 'ffmpeg4.4', 'libxv', 'openal', 'qt5-declarative>=5.15.10', 'qt5-quickcontrols>=5.15.10', 'qt5-svg>=5.15.10']"
 reverse_depends = "['digikam']"
 +++
@@ -18,25 +18,25 @@ reverse_depends = "['digikam']"
 A cross-platform multimedia playback framework based on Qt and FFmpeg
 
 ### Files: 
-* /usr/include/qt5/QtAV/5.15.11/QtAV/private/AudioOutputBackend.h
-* /usr/include/qt5/QtAV/5.15.11/QtAV/private/AudioResampler_p.h
-* /usr/include/qt5/QtAV/5.15.11/QtAV/private/AVCompat.h
-* /usr/include/qt5/QtAV/5.15.11/QtAV/private/AVDecoder_p.h
-* /usr/include/qt5/QtAV/5.15.11/QtAV/private/AVEncoder_p.h
-* /usr/include/qt5/QtAV/5.15.11/QtAV/private/AVOutput_p.h
-* /usr/include/qt5/QtAV/5.15.11/QtAV/private/factory.h
-* /usr/include/qt5/QtAV/5.15.11/QtAV/private/Filter_p.h
-* /usr/include/qt5/QtAV/5.15.11/QtAV/private/Frame_p.h
-* /usr/include/qt5/QtAV/5.15.11/QtAV/private/MediaIO_p.h
-* /usr/include/qt5/QtAV/5.15.11/QtAV/private/mkid.h
-* /usr/include/qt5/QtAV/5.15.11/QtAV/private/OpenGLRendererBase_p.h
-* /usr/include/qt5/QtAV/5.15.11/QtAV/private/PlayerSubtitle.h
-* /usr/include/qt5/QtAV/5.15.11/QtAV/private/prepost.h
-* /usr/include/qt5/QtAV/5.15.11/QtAV/private/QPainterRenderer_p.h
-* /usr/include/qt5/QtAV/5.15.11/QtAV/private/singleton.h
-* /usr/include/qt5/QtAV/5.15.11/QtAV/private/SubtitleProcessor.h
-* /usr/include/qt5/QtAV/5.15.11/QtAV/private/VideoRenderer_p.h
-* /usr/include/qt5/QtAV/5.15.11/QtAV/private/VideoShader_p.h
+* /usr/include/qt5/QtAV/5.15.13/QtAV/private/AudioOutputBackend.h
+* /usr/include/qt5/QtAV/5.15.13/QtAV/private/AudioResampler_p.h
+* /usr/include/qt5/QtAV/5.15.13/QtAV/private/AVCompat.h
+* /usr/include/qt5/QtAV/5.15.13/QtAV/private/AVDecoder_p.h
+* /usr/include/qt5/QtAV/5.15.13/QtAV/private/AVEncoder_p.h
+* /usr/include/qt5/QtAV/5.15.13/QtAV/private/AVOutput_p.h
+* /usr/include/qt5/QtAV/5.15.13/QtAV/private/factory.h
+* /usr/include/qt5/QtAV/5.15.13/QtAV/private/Filter_p.h
+* /usr/include/qt5/QtAV/5.15.13/QtAV/private/Frame_p.h
+* /usr/include/qt5/QtAV/5.15.13/QtAV/private/MediaIO_p.h
+* /usr/include/qt5/QtAV/5.15.13/QtAV/private/mkid.h
+* /usr/include/qt5/QtAV/5.15.13/QtAV/private/OpenGLRendererBase_p.h
+* /usr/include/qt5/QtAV/5.15.13/QtAV/private/PlayerSubtitle.h
+* /usr/include/qt5/QtAV/5.15.13/QtAV/private/prepost.h
+* /usr/include/qt5/QtAV/5.15.13/QtAV/private/QPainterRenderer_p.h
+* /usr/include/qt5/QtAV/5.15.13/QtAV/private/singleton.h
+* /usr/include/qt5/QtAV/5.15.13/QtAV/private/SubtitleProcessor.h
+* /usr/include/qt5/QtAV/5.15.13/QtAV/private/VideoRenderer_p.h
+* /usr/include/qt5/QtAV/5.15.13/QtAV/private/VideoShader_p.h
 * /usr/include/qt5/QtAV/AudioDecoder.h
 * /usr/include/qt5/QtAV/AudioEncoder.h
 * /usr/include/qt5/QtAV/AudioFormat.h

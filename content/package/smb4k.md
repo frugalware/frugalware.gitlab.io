@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "smb4k 3.2.5-1"
-version = "3.2.5-1"
+title = "smb4k 3.2.5-3"
+version = "3.2.5-3"
 description = "Smb4K is a SMB/CIFS share browser for KDE."
-date = "2023-11-17T10:56:54"
+date = "2024-03-26T13:35:12"
 aliases = "/packages/3338"
 categories = ['kde5-extra']
 upstreamurl = "https://sourceforge.net/projects/smb4k"
 arch = "x86_64"
-size = "4632600"
+size = "4632040"
 usize = "11856456"
-sha1sum = "a340c61fa3bd16862c078224f2c05a6004b4453e"
-depends = "['kauth>=5.112.0', 'kcompletion>=5.112.0', 'kconfig>=5.112.0', 'kdelibs4support>=5.112.0', 'kdnssd>=5.112.0', 'kiconthemes>=5.112.0', 'libsmbclient', 'plasma-framework>=5.112.0', 'samba-client', 'solid>=5.112.0']"
+sha1sum = "12d3ce51eacbe82b49851bf43523bb08dd92f99e"
+depends = "['kauth5>=5.115.0', 'kcompletion5>=5.115.0', 'kconfig5>=5.115.0', 'kdnssd5>=5.115.0', 'kiconthemes5>=5.115.0', 'libsmbclient', 'plasma-framework5>=5.115.0', 'samba-client']"
 +++
 ### Description: 
 Smb4K is a SMB/CIFS share browser for KDE.

@@ -12,7 +12,7 @@ size = "46384"
 usize = "181028"
 sha1sum = "91d7546936a78eb548b616c9fc7d7b692d51bd24"
 depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3', 'libxi>=1.7.7']"
-reverse_depends = "['anyremote', 'at-spi2-core', 'cef', 'chromium-browser', 'efl', 'enlightenment', 'kdeconnect-kde', 'keepassxc', 'krfb', 'libfakekey', 'libpulse', 'openjre-x', 'plasma-workspace', 'pulseaudio-x11', 'qt5-webengine', 'swt', 'teams', 'telegram-desktop', 'terminology', 'whalebird', 'x11vnc', 'xautomation', 'xdotool', 'xdpyinfo', 'xf86-video-intel', 'xine-ui']"
+reverse_depends = "['anyremote', 'at-spi2-core', 'cef', 'chromium-browser', 'efl', 'enlightenment', 'kdeconnect-kde', 'keepassxc', 'krfb', 'libfakekey', 'libpulse', 'openjre-x', 'pulseaudio-x11', 'qt5-webengine', 'swt', 'teams', 'telegram-desktop', 'terminology', 'whalebird', 'x11vnc', 'xautomation', 'xdotool', 'xdpyinfo', 'xf86-video-intel', 'xine-ui']"
 license = "GPL2"
 +++
 ### Description: 

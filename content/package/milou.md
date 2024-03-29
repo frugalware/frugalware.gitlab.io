@@ -12,7 +12,6 @@ size = "72064"
 usize = "291214"
 sha1sum = "9b148b48fab0c10be7a237bffceaaf54e7d83a79"
 depends = "['kitemmodels>=6.0.0', 'libplasma>=6.0.3']"
-reverse_depends = "['plasma-workspace']"
 +++
 ### Description: 
 A dedicated search application built on top of Baloo.

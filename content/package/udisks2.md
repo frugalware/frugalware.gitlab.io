@@ -12,7 +12,7 @@ size = "1228860"
 usize = "17437642"
 sha1sum = "e11926ad58482b3ff14a8c4cd6b899b431b094bc"
 depends = "['btrfs-progs', 'dosfstools>=4.0-3', 'libatasmart>=0.19-4', 'libblockdev>=3.0.1', 'libffi>=3.2.1-2', 'libgudev>=232', 'libsystemd>=231-6', 'lvm2', 'mtools>=4.0.18-3', 'ntfs-3g', 'polkit>=0.113-6', 'sg3-utils>=1.42-2', 'util-linux>=2.28.2-2']"
-reverse_depends = "['fwupd', 'gvfs', 'solid', 'udiskie']"
+reverse_depends = "['fwupd', 'gvfs', 'solid', 'solid5', 'udiskie']"
 +++
 ### Description: 
 Storage Management Service

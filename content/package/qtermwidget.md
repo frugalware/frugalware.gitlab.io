@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qtermwidget 1.3.0-2"
-version = "1.3.0-2"
+title = "qtermwidget 1.3.0-3"
+version = "1.3.0-3"
 description = "A terminal emulator widget for Qt5"
-date = "2023-10-20T15:03:58"
+date = "2024-03-28T16:23:51"
 aliases = "/packages/217828"
 categories = ['xapps-extra']
 upstreamurl = "https://www.lxde.org"
 arch = "x86_64"
-size = "185916"
+size = "186116"
 usize = "698879"
-sha1sum = "7c7f8373bcea92a9a413bcba5b10062a4a0948e1"
+sha1sum = "67cd717872c901078787c1e1ee7ad2e0b6778a0b"
 depends = "['qt5-base>=5.15.10', 'utf8proc>=2.2.0']"
 reverse_depends = "['qt-virt-manager', 'qterminal']"
 +++

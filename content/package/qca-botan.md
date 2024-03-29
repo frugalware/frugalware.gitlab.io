@@ -1,20 +1,20 @@
 +++
 draft = false
-title = "qca-botan 2.3.8-2"
-version = "2.3.8-2"
+title = "qca-botan 2.3.8-6"
+version = "2.3.8-6"
 description = "Plugins for qca with botan"
-date = "2024-02-22T13:59:00"
+date = "2024-03-28T17:36:20"
 aliases = "/packages/217818"
 categories = ['xlib']
 upstreamurl = "http://delta.affinix.com/qca/"
 arch = "x86_64"
-size = "27104"
-usize = "96280"
-sha1sum = "a4e4b19fccdbe4420f63f723b7f6b3066726ea02"
+size = "30372"
+usize = "105400"
+sha1sum = "b457f628bf55dd06ceb19e7a1d8b5cd45df806dd"
 depends = "['botan>=3.3.0', 'qca']"
 +++
 ### Description: 
 Plugins for qca with botan
 
 ### Files: 
-* /usr/lib/qca-qt5/crypto/libqca-botan.so
+* /usr/lib/qca-qt6/crypto/libqca-botan.so

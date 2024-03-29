@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "shiboken2 5.15.11-3"
-version = "5.15.11-3"
+title = "shiboken2 5.15.11-4"
+version = "5.15.11-4"
 description = "Support library for Python bindings."
-date = "2024-02-17T20:06:06"
+date = "2024-03-28T14:53:21"
 aliases = "/packages/220140"
 categories = ['devel-extra']
 upstreamurl = "https://wiki.qt.io/Qt_for_Python"
 arch = "x86_64"
-size = "595176"
+size = "596088"
 usize = "2002018"
-sha1sum = "fd53e895a1813479571300a33ad882f631165a7d"
+sha1sum = "1c95e37c2b1ac87091b1bf361641ed780435f988"
 depends = "['clang-libs>=17.0.6', 'libxslt', 'qt5-xmlpatterns>=5.15.10']"
 +++
 ### Description: 

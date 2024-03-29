@@ -12,7 +12,7 @@ size = "78652"
 usize = "259806"
 sha1sum = "0b50e8053b128832ea2e68294fb169a385cc5387"
 depends = "['libinput>=1.14.1', 'libudev>=242', 'xorg-server>=1.20.4-3']"
-reverse_depends = "['plasma-workspace']"
+reverse_depends = "['plasma-desktop']"
 license = "GPL2"
 +++
 ### Description: 

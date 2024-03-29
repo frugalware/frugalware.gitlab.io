@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "simsu 1.4.2-6"
-version = "1.4.2-6"
+title = "simsu 1.4.2-7"
+version = "1.4.2-7"
 description = "Simsu is a basic Sudoku game."
-date = "2024-02-19T20:45:06"
+date = "2024-03-27T13:16:03"
 aliases = "/packages/184380"
 categories = ['games-extra']
 upstreamurl = "https://gottcode.org/simsu"
 arch = "x86_64"
-size = "290580"
+size = "290432"
 usize = "625567"
-sha1sum = "6ef759fc4afb6f3dc4a94ad53a991f276243d957"
+sha1sum = "b88180979c8acda4acf43c7829d2090029c03211"
 depends = "['qt6-base']"
 +++
 ### Description: 

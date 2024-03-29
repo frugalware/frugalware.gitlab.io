@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "smplayer 22.7.0-3"
-version = "22.7.0-3"
+title = "smplayer 22.7.0-4"
+version = "22.7.0-4"
 description = "SMPlayer intends to be a complete front-end for MPlayer."
-date = "2023-10-26T13:34:03"
+date = "2024-03-28T16:40:07"
 aliases = "/packages/152656"
 categories = ['xapps-extra']
 upstreamurl = "https://sourceforge.net/projects/smplayer"
 arch = "x86_64"
-size = "3462544"
+size = "3463912"
 usize = "16187849"
-sha1sum = "d897655c4df265e8c3ba205ccdd52219e54e3225"
+sha1sum = "9f71b46f9485ff74509810e109c8bc890a97425a"
 depends = "['mplayer', 'qt5-base>=5.15.10', 'qt5-script>=5.15.10']"
 +++
 ### Description: 

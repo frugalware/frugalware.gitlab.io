@@ -12,7 +12,7 @@ size = "119908"
 usize = "492355"
 sha1sum = "f9b7196c128b35df162739c2b3029c3c1b970566"
 depends = "['kitemviews5>=5.115.0', 'qt5-declarative>=5.15.12']"
-reverse_depends = "['calindori', 'plasma-desktop', 'plasma-workspace']"
+reverse_depends = "['calindori']"
 +++
 ### Description: 
 A library that provides access to all contacts and the people who hold them.

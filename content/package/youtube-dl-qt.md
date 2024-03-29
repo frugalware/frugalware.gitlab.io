@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "youtube-dl-qt 0.5-13"
-version = "0.5-13"
+title = "youtube-dl-qt 0.5-14"
+version = "0.5-14"
 description = "Qt frontend for youtube-dl"
-date = "2023-10-18T17:50:12"
+date = "2024-03-28T17:20:07"
 aliases = "/packages/218906"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/rrooij/youtube-dl-qt"
 arch = "x86_64"
-size = "36504"
+size = "36660"
 usize = "125189"
-sha1sum = "c972c0cf0767a507912d59d05d5e67b7425e7e48"
+sha1sum = "f339c5b7b62bc9aaa796879c4be5b28913528af1"
 depends = "['qt5-base>=5.15.10']"
 +++
 ### Description: 
