@@ -12,7 +12,7 @@ size = "37448"
 usize = "102754"
 sha1sum = "d8e1efbb6eba5b250739d603cc417a2e6839442f"
 depends = "['glibc']"
-reverse_depends = "['mbrola-de', 'mbrola-en', 'mbrola-es', 'mbrola-fr']"
+reverse_depends = "['mbrola-de', 'mbrola-en', 'mbrola-es', 'mbrola-fr', 'mbrola-hu']"
 +++
 ### Description: 
 Speech synthesizer based on the concatenation of diphones.

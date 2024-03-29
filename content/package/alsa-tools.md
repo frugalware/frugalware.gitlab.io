@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "alsa-tools 1.2.5-3"
-version = "1.2.5-3"
+title = "alsa-tools 1.2.11-1"
+version = "1.2.11-1"
 description = "Tools for ALSA."
-date = "2023-04-18T09:09:19"
+date = "2024-02-03T14:00:14"
 aliases = "/packages/23339"
 categories = ['multimedia']
 upstreamurl = "http://www.alsa-project.org"
 arch = "x86_64"
-size = "73824"
+size = "73804"
 usize = "304152"
-sha1sum = "96dd0cac03b0ac39fa06e2d9888159e3696e8dc8"
+sha1sum = "2c0a96969fcb43310a06ca8a8a6735c1effa1276"
 depends = "['alsa-lib>=1.1.4', 'libstdc++>=7.3.0-7', 'pyalsa']"
 +++
 ### Description: 
