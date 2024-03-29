@@ -12,7 +12,7 @@ size = "41864"
 usize = "178816"
 sha1sum = "de932acc5852a10c7df3428aeb616984f64cd9d9"
 depends = "['libxscrnsaver', 'qt5-x11extras>=5.15.12']"
-reverse_depends = "['baloo5', 'discover', 'drkonqi', 'kalarm', 'konversation', 'kscreenlocker', 'kup', 'kwayland-integration', 'plasma-workspace', 'rsibreak']"
+reverse_depends = "['baloo', 'discover', 'drkonqi', 'kalarm', 'konversation', 'kscreenlocker', 'kup', 'kwayland-integration', 'plasma-workspace', 'rsibreak']"
 +++
 ### Description: 
 Reporting of idle time of user and system.

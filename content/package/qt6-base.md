@@ -12,7 +12,7 @@ size = "13080820"
 usize = "57412909"
 sha1sum = "0ac7d9cc8669dcc4f5ba8cd45fa974e70b47e41f"
 depends = "['at-spi2-core', 'brotli', 'double-conversion', 'fontconfig', 'harfbuzz', 'icu4c>=74.1', 'libb2', 'libcups', 'libglvnd', 'libinput', 'libjpeg-turbo', 'libproxy', 'libxi', 'libxkbcommon', 'libxrender', 'md4c', 'qt6-translations', 'shared-mime-info', 'sqlite3', 'tslib', 'vulkan-headers', 'xcb-util-cursor', 'xcb-util-keysyms', 'xcb-util-wm', 'xdg-utils']"
-reverse_depends = "['alizams', 'gottet', 'ladybird', 'poppler-qt6', 'pyqt6', 'qt6-5compat', 'qt6-base-mysql', 'qt6-base-platformtheme-gtk3', 'qt6-base-postgresql', 'qt6-imageformats', 'qt6-languageserver', 'qt6-networkauth', 'qt6-serialport', 'qt6-shadertools', 'qt6-svg', 'seafile-client', 'shiboken6', 'simsu', 'tanglet', 'tetzle']"
+reverse_depends = "['alizams', 'appstream-qt', 'attica', 'breeze-gtk', 'gottet', 'karchive', 'kcodecs', 'ladybird', 'libqgpgme', 'poppler-qt6', 'pyqt6', 'qt6-5compat', 'qt6-base-mysql', 'qt6-base-platformtheme-gtk3', 'qt6-base-postgresql', 'qt6-imageformats', 'qt6-languageserver', 'qt6-networkauth', 'qt6-serialport', 'qt6-shadertools', 'qt6-svg', 'seafile-client', 'shiboken6', 'simsu', 'tanglet', 'tetzle']"
 +++
 ### Description: 
 The Qt6 toolkit, qtbase

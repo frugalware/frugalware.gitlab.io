@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "kactivities5 5.115.0-1"
-version = "5.115.0-1"
+title = "kactivities5 5.115.0-3"
+version = "5.115.0-3"
 description = "The KActivity Manager Daemon."
-date = "2024-02-19T11:05:36"
+date = "2024-03-15T11:18:28"
 aliases = "/packages/218270"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "111804"
-usize = "453528"
-sha1sum = "ac35e2d35c113bcb19a55c856ae9ae6a2edea41b"
-depends = "['kio>=5.115.0']"
-reverse_depends = "['dolphin', 'gwenview', 'kactivities-stats', 'kde-cli-tools', 'kdeplasma-addons5', 'kio-extras', 'konqueror', 'okular', 'plasma-browser-integration', 'plasma-framework']"
+size = "111932"
+usize = "453554"
+sha1sum = "e75c2ee45cd8746c8d19b926afd11c9c49e1468c"
+depends = "[]"
+reverse_depends = "['dolphin', 'gwenview', 'kactivities-stats', 'kactivities-stats5', 'kde-cli-tools', 'kdeplasma-addons5', 'kio-extras', 'konqueror', 'okular', 'plasma-browser-integration', 'plasma-framework']"
 +++
 ### Description: 
 The KActivity Manager Daemon.

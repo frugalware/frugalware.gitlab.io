@@ -12,7 +12,7 @@ size = "75460"
 usize = "357767"
 sha1sum = "662b99b8dc6c4cd6da3d2311fd42a65b241072eb"
 depends = "['kio>=5.115.0']"
-reverse_depends = "['akregator', 'digikam', 'k3b', 'kalarm', 'kdenlive', 'kdepim-runtime', 'kdevelop', 'kdiamond', 'kfourinline', 'kget', 'kgoldrunner', 'kjumpingcube', 'klettres', 'klickety', 'klines', 'kmail', 'kmail-account-wizard', 'kmines', 'knavalbattle', 'knemo', 'knetwalk', 'knotes', 'kollision', 'konsole', 'konversation', 'kopete', 'kpat', 'krdc', 'krdc', 'ksquares', 'kstars', 'kteatime', 'ktuberling', 'kwordquiz', 'picmi', 'plasma-desktop', 'plasma-workspace', 'quassel', 'rsibreak', 'skrooge', 'yakuake']"
+reverse_depends = "['akregator', 'digikam', 'kalarm', 'kdenlive', 'kdepim-runtime', 'kdevelop', 'kdiamond', 'kfourinline', 'kget', 'kgoldrunner', 'kjumpingcube', 'klettres', 'klickety', 'klines', 'kmail', 'kmail-account-wizard', 'kmines', 'knavalbattle', 'knemo', 'knetwalk', 'knotes', 'kollision', 'konsole', 'konversation', 'kopete', 'kpat', 'krdc', 'krdc', 'ksquares', 'kstars', 'kteatime', 'ktuberling', 'kwordquiz', 'picmi', 'plasma-desktop', 'plasma-workspace', 'quassel', 'rsibreak', 'skrooge', 'yakuake']"
 +++
 ### Description: 
 Configuration dialog for desktop notifications.

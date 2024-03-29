@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "grantlee 5.3.1-5"
-version = "5.3.1-5"
+title = "grantlee 5.3.1-6"
+version = "5.3.1-6"
 description = "Grantlee Templates and Grantlee TextDocument."
-date = "2023-10-24T10:58:24"
+date = "2024-03-25T19:04:42"
 aliases = "/packages/135691"
 categories = ['xlib']
 upstreamurl = "https://github.com/steveire/grantlee"
 arch = "x86_64"
-size = "295296"
+size = "295592"
 usize = "1206419"
-sha1sum = "8f3edfe79f7cc212f70160099c4a417bc78c90d6"
+sha1sum = "e85645b5a648b194ae83db3eb0db052020ffd8be"
 depends = "['qt5-script>=5.15.10']"
 reverse_depends = "['grantleetheme', 'kdevelop', 'khelpcenter5', 'kpimtextedit', 'rocs', 'skrooge']"
 +++

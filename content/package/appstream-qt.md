@@ -1,50 +1,50 @@
 +++
 draft = false
-title = "appstream-qt 1.0.2-1"
-version = "1.0.2-1"
+title = "appstream-qt 1.0.2-3"
+version = "1.0.2-3"
 description = "Qt Bindings for Appstream"
-date = "2024-02-25T15:50:42"
+date = "2024-03-27T13:32:28"
 aliases = "/packages/218252"
 categories = ['xlib']
 upstreamurl = "http://distributions.freedesktop.org/wiki/AppStream"
 arch = "x86_64"
-size = "81072"
-usize = "382239"
-sha1sum = "aff373898db86b5897d61b17ea9e73660bd39e16"
-depends = "['appstream=1.0.2', 'qt5-base']"
-reverse_depends = "['discover', 'frameworkintegration']"
+size = "111592"
+usize = "564783"
+sha1sum = "f306d3ec369b567a3362a56a2b2d907a0c02b58a"
+depends = "['appstream=1.0.2', 'qt6-base']"
+reverse_depends = "['discover', 'frameworkintegration', 'frameworkintegration5']"
 +++
 ### Description: 
 Qt Bindings for Appstream
 
 ### Files: 
-* /usr/include/AppStreamQt5/appstreamqt_export.h
-* /usr/include/AppStreamQt5/bundle.h
-* /usr/include/AppStreamQt5/category.h
-* /usr/include/AppStreamQt5/component-box.h
-* /usr/include/AppStreamQt5/component.h
-* /usr/include/AppStreamQt5/contentrating.h
-* /usr/include/AppStreamQt5/developer.h
-* /usr/include/AppStreamQt5/icon.h
-* /usr/include/AppStreamQt5/image.h
-* /usr/include/AppStreamQt5/launchable.h
-* /usr/include/AppStreamQt5/metadata.h
-* /usr/include/AppStreamQt5/pool.h
-* /usr/include/AppStreamQt5/provided.h
-* /usr/include/AppStreamQt5/relation-check-result.h
-* /usr/include/AppStreamQt5/relation.h
-* /usr/include/AppStreamQt5/release-list.h
-* /usr/include/AppStreamQt5/release.h
-* /usr/include/AppStreamQt5/screenshot.h
-* /usr/include/AppStreamQt5/spdx.h
-* /usr/include/AppStreamQt5/suggested.h
-* /usr/include/AppStreamQt5/systeminfo.h
-* /usr/include/AppStreamQt5/translation.h
-* /usr/include/AppStreamQt5/utils.h
-* /usr/include/AppStreamQt5/version.h
-* /usr/include/AppStreamQt5/video.h
-* /usr/lib/cmake/AppStreamQt5/AppStreamQt5Config.cmake
-* /usr/lib/cmake/AppStreamQt5/AppStreamQt5ConfigVersion.cmake
-* /usr/lib/libAppStreamQt5.so
-* /usr/lib/libAppStreamQt5.so.1.0.2
-* /usr/lib/libAppStreamQt5.so.3
+* /usr/include/AppStreamQt/appstreamqt_export.h
+* /usr/include/AppStreamQt/bundle.h
+* /usr/include/AppStreamQt/category.h
+* /usr/include/AppStreamQt/component-box.h
+* /usr/include/AppStreamQt/component.h
+* /usr/include/AppStreamQt/contentrating.h
+* /usr/include/AppStreamQt/developer.h
+* /usr/include/AppStreamQt/icon.h
+* /usr/include/AppStreamQt/image.h
+* /usr/include/AppStreamQt/launchable.h
+* /usr/include/AppStreamQt/metadata.h
+* /usr/include/AppStreamQt/pool.h
+* /usr/include/AppStreamQt/provided.h
+* /usr/include/AppStreamQt/relation-check-result.h
+* /usr/include/AppStreamQt/relation.h
+* /usr/include/AppStreamQt/release-list.h
+* /usr/include/AppStreamQt/release.h
+* /usr/include/AppStreamQt/screenshot.h
+* /usr/include/AppStreamQt/spdx.h
+* /usr/include/AppStreamQt/suggested.h
+* /usr/include/AppStreamQt/systeminfo.h
+* /usr/include/AppStreamQt/translation.h
+* /usr/include/AppStreamQt/utils.h
+* /usr/include/AppStreamQt/version.h
+* /usr/include/AppStreamQt/video.h
+* /usr/lib/cmake/AppStreamQt/AppStreamQtConfig.cmake
+* /usr/lib/cmake/AppStreamQt/AppStreamQtConfigVersion.cmake
+* /usr/lib/libAppStreamQt.so
+* /usr/lib/libAppStreamQt.so.1.0.2
+* /usr/lib/libAppStreamQt.so.3

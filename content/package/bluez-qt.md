@@ -1,114 +1,116 @@
 +++
 draft = false
-title = "bluez-qt 5.115.0-1"
-version = "5.115.0-1"
+title = "bluez-qt 6.0.0-2"
+version = "6.0.0-2"
 description = "A Qt wrapper for bluez"
-date = "2024-02-19T10:01:35"
+date = "2024-03-26T22:55:58"
 aliases = "/packages/218255"
-categories = ['kf5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "225292"
-usize = "1017792"
-sha1sum = "5080a65296ec440533241cb8ecdbe67e44cf5516"
-depends = "['qt5-declarative>=5.15.12']"
-reverse_depends = "['bluedevil5', 'powerdevil5']"
+size = "285188"
+usize = "1291280"
+sha1sum = "a985f34cbacd43503e104e9a1dc24b0e8664c7c0"
+depends = "['qt6-declarative>=6.6.3']"
+reverse_depends = "['bluedevil', 'bluedevil5', 'powerdevil5']"
 +++
 ### Description: 
 A Qt wrapper for bluez
 
 ### Files: 
-* /usr/include/KF5/BluezQt/BluezQt/Adapter
-* /usr/include/KF5/BluezQt/bluezqt/adapter.h
-* /usr/include/KF5/BluezQt/BluezQt/Agent
-* /usr/include/KF5/BluezQt/bluezqt/agent.h
-* /usr/include/KF5/BluezQt/bluezqt/bluezqt_export.h
-* /usr/include/KF5/BluezQt/BluezQt/Device
-* /usr/include/KF5/BluezQt/bluezqt/device.h
-* /usr/include/KF5/BluezQt/BluezQt/DevicesModel
-* /usr/include/KF5/BluezQt/bluezqt/devicesmodel.h
-* /usr/include/KF5/BluezQt/BluezQt/GattApplication
-* /usr/include/KF5/BluezQt/bluezqt/gattapplication.h
-* /usr/include/KF5/BluezQt/BluezQt/GattCharacteristic
-* /usr/include/KF5/BluezQt/bluezqt/gattcharacteristic.h
-* /usr/include/KF5/BluezQt/BluezQt/GattCharacteristicRemote
-* /usr/include/KF5/BluezQt/bluezqt/gattcharacteristicremote.h
-* /usr/include/KF5/BluezQt/BluezQt/GattDescriptorRemote
-* /usr/include/KF5/BluezQt/bluezqt/gattdescriptorremote.h
-* /usr/include/KF5/BluezQt/BluezQt/GattManager
-* /usr/include/KF5/BluezQt/bluezqt/gattmanager.h
-* /usr/include/KF5/BluezQt/BluezQt/GattService
-* /usr/include/KF5/BluezQt/bluezqt/gattservice.h
-* /usr/include/KF5/BluezQt/BluezQt/GattServiceRemote
-* /usr/include/KF5/BluezQt/bluezqt/gattserviceremote.h
-* /usr/include/KF5/BluezQt/BluezQt/InitManagerJob
-* /usr/include/KF5/BluezQt/bluezqt/initmanagerjob.h
-* /usr/include/KF5/BluezQt/BluezQt/InitObexManagerJob
-* /usr/include/KF5/BluezQt/bluezqt/initobexmanagerjob.h
-* /usr/include/KF5/BluezQt/BluezQt/Input
-* /usr/include/KF5/BluezQt/bluezqt/input.h
-* /usr/include/KF5/BluezQt/BluezQt/Job
-* /usr/include/KF5/BluezQt/bluezqt/job.h
-* /usr/include/KF5/BluezQt/BluezQt/LEAdvertisement
-* /usr/include/KF5/BluezQt/bluezqt/leadvertisement.h
-* /usr/include/KF5/BluezQt/BluezQt/LEAdvertisingManager
-* /usr/include/KF5/BluezQt/bluezqt/leadvertisingmanager.h
-* /usr/include/KF5/BluezQt/BluezQt/Manager
-* /usr/include/KF5/BluezQt/bluezqt/manager.h
-* /usr/include/KF5/BluezQt/BluezQt/Media
-* /usr/include/KF5/BluezQt/bluezqt/media.h
-* /usr/include/KF5/BluezQt/BluezQt/MediaEndpoint
-* /usr/include/KF5/BluezQt/bluezqt/mediaendpoint.h
-* /usr/include/KF5/BluezQt/BluezQt/MediaPlayer
-* /usr/include/KF5/BluezQt/bluezqt/mediaplayer.h
-* /usr/include/KF5/BluezQt/BluezQt/MediaPlayerTrack
-* /usr/include/KF5/BluezQt/bluezqt/mediaplayertrack.h
-* /usr/include/KF5/BluezQt/BluezQt/MediaTransport
-* /usr/include/KF5/BluezQt/bluezqt/mediatransport.h
-* /usr/include/KF5/BluezQt/BluezQt/MediaTypes
-* /usr/include/KF5/BluezQt/bluezqt/mediatypes.h
-* /usr/include/KF5/BluezQt/BluezQt/ObexAgent
-* /usr/include/KF5/BluezQt/bluezqt/obexagent.h
-* /usr/include/KF5/BluezQt/BluezQt/ObexFileTransfer
-* /usr/include/KF5/BluezQt/bluezqt/obexfiletransfer.h
-* /usr/include/KF5/BluezQt/BluezQt/ObexFileTransferEntry
-* /usr/include/KF5/BluezQt/bluezqt/obexfiletransferentry.h
-* /usr/include/KF5/BluezQt/BluezQt/ObexManager
-* /usr/include/KF5/BluezQt/bluezqt/obexmanager.h
-* /usr/include/KF5/BluezQt/BluezQt/ObexObjectPush
-* /usr/include/KF5/BluezQt/bluezqt/obexobjectpush.h
-* /usr/include/KF5/BluezQt/BluezQt/ObexSession
-* /usr/include/KF5/BluezQt/bluezqt/obexsession.h
-* /usr/include/KF5/BluezQt/BluezQt/ObexTransfer
-* /usr/include/KF5/BluezQt/bluezqt/obextransfer.h
-* /usr/include/KF5/BluezQt/BluezQt/PendingCall
-* /usr/include/KF5/BluezQt/bluezqt/pendingcall.h
-* /usr/include/KF5/BluezQt/BluezQt/Profile
-* /usr/include/KF5/BluezQt/bluezqt/profile.h
-* /usr/include/KF5/BluezQt/BluezQt/Request
-* /usr/include/KF5/BluezQt/bluezqt/request.h
-* /usr/include/KF5/BluezQt/BluezQt/Rfkill
-* /usr/include/KF5/BluezQt/bluezqt/rfkill.h
-* /usr/include/KF5/BluezQt/BluezQt/Services
-* /usr/include/KF5/BluezQt/bluezqt/services.h
-* /usr/include/KF5/BluezQt/BluezQt/TPendingCall
-* /usr/include/KF5/BluezQt/bluezqt/tpendingcall.h
-* /usr/include/KF5/BluezQt/BluezQt/Types
-* /usr/include/KF5/BluezQt/bluezqt/types.h
-* /usr/include/KF5/BluezQt/bluezqt_version.h
-* /usr/lib/cmake/KF5BluezQt/KF5BluezQtConfig.cmake
-* /usr/lib/cmake/KF5BluezQt/KF5BluezQtConfigVersion.cmake
-* /usr/lib/cmake/KF5BluezQt/KF5BluezQtTargets-release.cmake
-* /usr/lib/cmake/KF5BluezQt/KF5BluezQtTargets.cmake
-* /usr/lib/libKF5BluezQt.so
-* /usr/lib/libKF5BluezQt.so.5.115.0
-* /usr/lib/libKF5BluezQt.so.6
-* /usr/lib/pkgconfig/KF5BluezQt.pc
-* /usr/lib/udev/rules.d/61-kde-bluetooth-rfkill.rules
-* /usr/share/doc/bluez-qt-5.115.0/README.md
-* /usr/share/qlogging-categories5/bluezqt.categories
-* /usr/share/qlogging-categories5/bluezqt.renamecategories
-* /usr/share/qt5/mkspecs/modules/qt_BluezQt.pri
-* /usr/share/qt5/qml/org/kde/bluezqt/DevicesModel.qml
-* /usr/share/qt5/qml/org/kde/bluezqt/libbluezqtextensionplugin.so
-* /usr/share/qt5/qml/org/kde/bluezqt/qmldir
+* /usr/include/KF6/BluezQt/BluezQt/Adapter
+* /usr/include/KF6/BluezQt/bluezqt/adapter.h
+* /usr/include/KF6/BluezQt/BluezQt/Agent
+* /usr/include/KF6/BluezQt/bluezqt/agent.h
+* /usr/include/KF6/BluezQt/bluezqt/bluezqt_export.h
+* /usr/include/KF6/BluezQt/BluezQt/Device
+* /usr/include/KF6/BluezQt/bluezqt/device.h
+* /usr/include/KF6/BluezQt/BluezQt/DevicesModel
+* /usr/include/KF6/BluezQt/bluezqt/devicesmodel.h
+* /usr/include/KF6/BluezQt/BluezQt/GattApplication
+* /usr/include/KF6/BluezQt/bluezqt/gattapplication.h
+* /usr/include/KF6/BluezQt/BluezQt/GattCharacteristic
+* /usr/include/KF6/BluezQt/bluezqt/gattcharacteristic.h
+* /usr/include/KF6/BluezQt/BluezQt/GattCharacteristicRemote
+* /usr/include/KF6/BluezQt/bluezqt/gattcharacteristicremote.h
+* /usr/include/KF6/BluezQt/BluezQt/GattDescriptor
+* /usr/include/KF6/BluezQt/bluezqt/gattdescriptor.h
+* /usr/include/KF6/BluezQt/BluezQt/GattDescriptorRemote
+* /usr/include/KF6/BluezQt/bluezqt/gattdescriptorremote.h
+* /usr/include/KF6/BluezQt/BluezQt/GattManager
+* /usr/include/KF6/BluezQt/bluezqt/gattmanager.h
+* /usr/include/KF6/BluezQt/BluezQt/GattService
+* /usr/include/KF6/BluezQt/bluezqt/gattservice.h
+* /usr/include/KF6/BluezQt/BluezQt/GattServiceRemote
+* /usr/include/KF6/BluezQt/bluezqt/gattserviceremote.h
+* /usr/include/KF6/BluezQt/BluezQt/InitManagerJob
+* /usr/include/KF6/BluezQt/bluezqt/initmanagerjob.h
+* /usr/include/KF6/BluezQt/BluezQt/InitObexManagerJob
+* /usr/include/KF6/BluezQt/bluezqt/initobexmanagerjob.h
+* /usr/include/KF6/BluezQt/BluezQt/Input
+* /usr/include/KF6/BluezQt/bluezqt/input.h
+* /usr/include/KF6/BluezQt/BluezQt/Job
+* /usr/include/KF6/BluezQt/bluezqt/job.h
+* /usr/include/KF6/BluezQt/BluezQt/LEAdvertisement
+* /usr/include/KF6/BluezQt/bluezqt/leadvertisement.h
+* /usr/include/KF6/BluezQt/BluezQt/LEAdvertisingManager
+* /usr/include/KF6/BluezQt/bluezqt/leadvertisingmanager.h
+* /usr/include/KF6/BluezQt/BluezQt/Manager
+* /usr/include/KF6/BluezQt/bluezqt/manager.h
+* /usr/include/KF6/BluezQt/BluezQt/Media
+* /usr/include/KF6/BluezQt/bluezqt/media.h
+* /usr/include/KF6/BluezQt/BluezQt/MediaEndpoint
+* /usr/include/KF6/BluezQt/bluezqt/mediaendpoint.h
+* /usr/include/KF6/BluezQt/BluezQt/MediaPlayer
+* /usr/include/KF6/BluezQt/bluezqt/mediaplayer.h
+* /usr/include/KF6/BluezQt/BluezQt/MediaPlayerTrack
+* /usr/include/KF6/BluezQt/bluezqt/mediaplayertrack.h
+* /usr/include/KF6/BluezQt/BluezQt/MediaTransport
+* /usr/include/KF6/BluezQt/bluezqt/mediatransport.h
+* /usr/include/KF6/BluezQt/BluezQt/MediaTypes
+* /usr/include/KF6/BluezQt/bluezqt/mediatypes.h
+* /usr/include/KF6/BluezQt/BluezQt/ObexAgent
+* /usr/include/KF6/BluezQt/bluezqt/obexagent.h
+* /usr/include/KF6/BluezQt/BluezQt/ObexFileTransfer
+* /usr/include/KF6/BluezQt/bluezqt/obexfiletransfer.h
+* /usr/include/KF6/BluezQt/BluezQt/ObexFileTransferEntry
+* /usr/include/KF6/BluezQt/bluezqt/obexfiletransferentry.h
+* /usr/include/KF6/BluezQt/BluezQt/ObexManager
+* /usr/include/KF6/BluezQt/bluezqt/obexmanager.h
+* /usr/include/KF6/BluezQt/BluezQt/ObexObjectPush
+* /usr/include/KF6/BluezQt/bluezqt/obexobjectpush.h
+* /usr/include/KF6/BluezQt/BluezQt/ObexSession
+* /usr/include/KF6/BluezQt/bluezqt/obexsession.h
+* /usr/include/KF6/BluezQt/BluezQt/ObexTransfer
+* /usr/include/KF6/BluezQt/bluezqt/obextransfer.h
+* /usr/include/KF6/BluezQt/BluezQt/PendingCall
+* /usr/include/KF6/BluezQt/bluezqt/pendingcall.h
+* /usr/include/KF6/BluezQt/BluezQt/Profile
+* /usr/include/KF6/BluezQt/bluezqt/profile.h
+* /usr/include/KF6/BluezQt/BluezQt/Request
+* /usr/include/KF6/BluezQt/bluezqt/request.h
+* /usr/include/KF6/BluezQt/BluezQt/Rfkill
+* /usr/include/KF6/BluezQt/bluezqt/rfkill.h
+* /usr/include/KF6/BluezQt/BluezQt/Services
+* /usr/include/KF6/BluezQt/bluezqt/services.h
+* /usr/include/KF6/BluezQt/BluezQt/TPendingCall
+* /usr/include/KF6/BluezQt/bluezqt/tpendingcall.h
+* /usr/include/KF6/BluezQt/BluezQt/Types
+* /usr/include/KF6/BluezQt/bluezqt/types.h
+* /usr/include/KF6/BluezQt/bluezqt_version.h
+* /usr/lib/cmake/KF6BluezQt/KF6BluezQtConfig.cmake
+* /usr/lib/cmake/KF6BluezQt/KF6BluezQtConfigVersion.cmake
+* /usr/lib/cmake/KF6BluezQt/KF6BluezQtTargets-release.cmake
+* /usr/lib/cmake/KF6BluezQt/KF6BluezQtTargets.cmake
+* /usr/lib/libKF6BluezQt.so
+* /usr/lib/libKF6BluezQt.so.6
+* /usr/lib/libKF6BluezQt.so.6.0.0
+* /usr/lib/pkgconfig/KF6BluezQt.pc
+* /usr/lib/qt6/qml/org/kde/bluezqt/bluezqtextensionplugin.qmltypes
+* /usr/lib/qt6/qml/org/kde/bluezqt/DevicesModel.qml
+* /usr/lib/qt6/qml/org/kde/bluezqt/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/bluezqt/libbluezqtextensionplugin.so
+* /usr/lib/qt6/qml/org/kde/bluezqt/qmldir
+* /usr/share/doc/bluez-qt-6.0.0/README.md
+* /usr/share/qlogging-categories6/bluezqt.categories
+* /usr/share/qlogging-categories6/bluezqt.renamecategories

@@ -1,23 +1,24 @@
 +++
 draft = false
-title = "libqgpgme 1.23.2-1"
-version = "1.23.2-1"
-description = "Qt5 bindings for gpgme"
-date = "2023-12-06T16:58:48"
+title = "libqgpgme 1.23.2-3"
+version = "1.23.2-3"
+description = "Qt6 bindings for gpgme"
+date = "2024-03-27T13:12:05"
 aliases = "/packages/218790"
 categories = ['xlib']
 upstreamurl = "http://www.gnupg.org/related_software/gpgme/"
 arch = "x86_64"
-size = "234188"
-usize = "1091558"
-sha1sum = "dc3e39eec80573ee78f54421b943ee5829bc5002"
-depends = "['gpgme>=1.23.2', 'qt5-base>=5.13.1']"
+size = "11492972"
+usize = "24405612"
+sha1sum = "ba91ed0357511f886980ad29f7babc2d5c478c4c"
+depends = "['gpgme>=1.23.2', 'qt6-base']"
 reverse_depends = "['kget', 'libkleo']"
 +++
 ### Description: 
-Qt5 bindings for gpgme
+Qt6 bindings for gpgme
 
 ### Files: 
-* /usr/lib/libqgpgme.so
-* /usr/lib/libqgpgme.so.15
-* /usr/lib/libqgpgme.so.15.5.1
+* /usr/lib/libqgpgmeqt6.a
+* /usr/lib/libqgpgmeqt6.so
+* /usr/lib/libqgpgmeqt6.so.15
+* /usr/lib/libqgpgmeqt6.so.15.5.1

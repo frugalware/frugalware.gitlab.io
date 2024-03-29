@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "breeze-grub 5.27.10-5"
-version = "5.27.10-5"
+title = "breeze-grub 6.0.3-1"
+version = "6.0.3-1"
 description = "Breeze theme for GRUB"
-date = "2024-02-19T12:07:37"
+date = "2024-03-27T07:49:38"
 aliases = "/packages/218257"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3134672"
-usize = "13292029"
-sha1sum = "3ac30c22198f96a786b57e4bb72b2f2c26cae092"
+size = "1432660"
+usize = "4901363"
+sha1sum = "bce3e6ccc9fc2d41360cea3f03a0d8836e5745da"
 depends = "['grub2']"
 +++
 ### Description: 
@@ -30,5 +30,3 @@ Breeze theme for GRUB
 * /usr/share/grub/themes/breeze/unifont-regular-14.pf2.license
 * /usr/share/grub/themes/breeze/unifont-regular-16.pf2
 * /usr/share/grub/themes/breeze/unifont-regular-16.pf2.license
-* /usr/share/grub/themes/breeze/unifont-regular-32.pf2
-* /usr/share/grub/themes/breeze/unifont-regular-32.pf2.license

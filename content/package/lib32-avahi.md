@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-avahi 0.8-8"
-version = "0.8-8"
+title = "lib32-avahi 0.8-9"
+version = "0.8-9"
 description = "A multicast/unicast DNS-SD framework (32-Bit)"
-date = "2024-01-30T10:38:10"
+date = "2024-03-28T15:19:22"
 aliases = "/packages/218855"
 categories = ['lib32-extra']
 upstreamurl = "http://www.avahi.org"
 arch = "x86_64"
-size = "165988"
+size = "166140"
 usize = "632130"
-sha1sum = "69069786f2403f246b421f48da7ac01069fde6cf"
+sha1sum = "9ea39ef5d03dd6123b04ff7a38d5a28965d03693"
 depends = "['lib32-expat', 'lib32-gdbm>=1.15', 'lib32-libdaemon', 'lib32-libdbus', 'lib32-libevent', 'lib32-libsystemd']"
 reverse_depends = "['lib32-libcups']"
 +++

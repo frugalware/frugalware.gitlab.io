@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cmst 2023.03.14-2"
-version = "2023.03.14-2"
+title = "cmst 2023.03.14-3"
+version = "2023.03.14-3"
 description = "QT5 GUI for Connman"
-date = "2023-10-24T10:45:00"
+date = "2024-03-28T15:26:28"
 aliases = "/packages/219349"
 categories = ['lumina']
 upstreamurl = "https://github.com/andrew-bibb/cmst"
 arch = "x86_64"
-size = "2937984"
+size = "2937980"
 usize = "3998464"
-sha1sum = "e1a93dc34d8f0e909650a13a1ba9adfa51cede5d"
+sha1sum = "1566ae4cfccc6055d7b00dea702d58a2e21d8193"
 depends = "['connman', 'pcre2', 'qt5-base>=5.15.10']"
 +++
 ### Description: 

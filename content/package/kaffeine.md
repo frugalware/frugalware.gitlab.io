@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kaffeine 2.0.18-2"
-version = "2.0.18-2"
+title = "kaffeine 2.0.18-3"
+version = "2.0.18-3"
 description = "KDE media player"
-date = "2020-06-14T11:12:42"
+date = "2024-03-18T08:01:47"
 aliases = "/packages/218929"
 categories = ['kde5']
 upstreamurl = "http://kaffeine.kde.org"
 arch = "x86_64"
-size = "6280644"
-usize = "10088021"
-sha1sum = "e3da018ce977dd99de562d9f189ce1dbd4b8b1fd"
-depends = "['kio>=5.70.0', 'libvlc', 'libxscrnsaver', 'v4l-utils', 'vlc']"
+size = "6286828"
+usize = "10038080"
+sha1sum = "17fb5640d40702eb54c8ab0b6f3b42aa66da33cf"
+depends = "['libvlc', 'libxscrnsaver', 'v4l-utils', 'vlc']"
 license = "GPL"
 +++
 ### Description: 

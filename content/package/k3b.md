@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "k3b 23.08.5-1"
-version = "23.08.5-1"
+title = "k3b 24.02.1-1"
+version = "24.02.1-1"
 description = "The CD Kreator"
-date = "2024-02-19T20:52:04"
+date = "2024-03-22T10:21:38"
 aliases = "/packages/218657"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "11296944"
-usize = "35156409"
-sha1sum = "deed9e731f50f8d1a0ef7856dc29066360af8771"
-depends = "['cdrdao>=1.2.3-6', 'cdrtools>=3.01-3', 'dvd+rw-tools>=7.1-4', 'ffmpeg>=5.0', 'kcmutils>=5.115.0', 'kfilemetadata5>=5.115.0', 'knewstuff>=5.115.0', 'knotifyconfig>=5.115.0', 'libdvdread>=6.1.1', 'libkcddb', 'libmad>=0.15.1b-9', 'libmpcdec>=1.2.6-4', 'libsamplerate>=0.1.9', 'qt5-svg>=5.15.12']"
+size = "11305008"
+usize = "35199791"
+sha1sum = "da9033ebca877f35626c97679f6e73c0ec564bb6"
+depends = "['cdrdao>=1.2.3-6', 'cdrtools>=3.01-3', 'dvd+rw-tools>=7.1-4', 'ffmpeg>=5.0', 'kfilemetadata5>=5.115.0', 'libdvdread>=6.1.1', 'libmad>=0.15.1b-9', 'libmpcdec>=1.2.6-4', 'libsamplerate>=0.1.9', 'qt5-svg>=5.15.12', 'qt5-webengine>=5.15.12']"
 +++
 ### Description: 
 The CD Kreator
@@ -146,6 +146,7 @@ The CD Kreator
 * /usr/lib/qt5/plugins/k3b_plugins/k3baudiometainforenamerplugin.so
 * /usr/lib/qt5/plugins/k3b_plugins/k3baudioprojectcddbplugin.so
 * /usr/lib/qt5/plugins/k3b_plugins/k3bexternalencoder.so
+* /usr/lib/qt5/plugins/k3b_plugins/k3bffmpegdecoder.so
 * /usr/lib/qt5/plugins/k3b_plugins/k3bflacdecoder.so
 * /usr/lib/qt5/plugins/k3b_plugins/k3blameencoder.so
 * /usr/lib/qt5/plugins/k3b_plugins/k3blibsndfiledecoder.so
@@ -232,10 +233,10 @@ The CD Kreator
 * /usr/share/doc/HTML/uk/k3b/K3bMoreActions.png
 * /usr/share/doc/HTML/uk/k3b/K3bsetup.png
 * /usr/share/doc/HTML/uk/k3b/K3bSetVerify.png
-* /usr/share/doc/k3b-23.08.5/ChangeLog
-* /usr/share/doc/k3b-23.08.5/FAQ.txt
-* /usr/share/doc/k3b-23.08.5/INSTALL.txt
-* /usr/share/doc/k3b-23.08.5/README.txt
+* /usr/share/doc/k3b-24.02.1/ChangeLog
+* /usr/share/doc/k3b-24.02.1/FAQ.txt
+* /usr/share/doc/k3b-24.02.1/INSTALL.txt
+* /usr/share/doc/k3b-24.02.1/README.txt
 * /usr/share/icons/hicolor/128x128/apps/k3b.png
 * /usr/share/icons/hicolor/128x128/mimetypes/application-x-k3b.png
 * /usr/share/icons/hicolor/16x16/apps/k3b.png
@@ -391,17 +392,14 @@ The CD Kreator
 * /usr/share/k3b/pics/RobsTheme/project_right.png
 * /usr/share/k3b/pics/RobsTheme/splash.png
 * /usr/share/k3b/pics/RobsTheme/welcome_bg.png
+* /usr/share/kio/servicemenus/k3b_create_audio_cd.desktop
+* /usr/share/kio/servicemenus/k3b_create_data_project.desktop
+* /usr/share/kio/servicemenus/k3b_create_video_cd.desktop
+* /usr/share/kio/servicemenus/k3b_write_bin_image.desktop
+* /usr/share/kio/servicemenus/k3b_write_iso_image.desktop
 * /usr/share/knotifications5/k3b.notifyrc
 * /usr/share/knsrcfiles/k3btheme.knsrc
 * /usr/share/konqsidebartng/virtual_folders/services/videodvd.desktop
-* /usr/share/kservices5/ServiceMenus/k3b_create_audio_cd.desktop
-* /usr/share/kservices5/ServiceMenus/k3b_create_data_project.desktop
-* /usr/share/kservices5/ServiceMenus/k3b_create_video_cd.desktop
-* /usr/share/kservices5/ServiceMenus/k3b_write_bin_image.desktop
-* /usr/share/kservices5/ServiceMenus/k3b_write_iso_image.desktop
-* /usr/share/kservicetypes5/k3bplugin.desktop
-* /usr/share/kxmlgui5/k3b/k3bdeviceui.rc
-* /usr/share/kxmlgui5/k3b/k3bui.rc
 * /usr/share/locale/ar/LC_MESSAGES/k3b.mo
 * /usr/share/locale/ar/LC_MESSAGES/kio_videodvd.mo
 * /usr/share/locale/ar/LC_MESSAGES/libk3bdevice.mo

@@ -1,18 +1,17 @@
 +++
 draft = false
-title = "frameworkintegration 5.115.0-1"
-version = "5.115.0-1"
+title = "frameworkintegration5 5.115.0-2"
+version = "5.115.0-2"
 description = "Framework providing components to allow applications to integrate with a KDE Workspace."
-date = "2024-02-19T11:12:50"
-aliases = "/packages/218263"
+date = "2024-03-15T10:28:14"
+aliases = "/packages/221284"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1619000"
+size = "1614680"
 usize = "1774566"
-sha1sum = "8aa5b9b80ba98c1f6089eb77c46cac57baea3f4f"
-depends = "['appstream-qt>=1.0.0', 'kio>=5.115.0', 'knewstuff>=5.115.0', 'kpackage>=5.115.0', 'noto-fonts', 'packagekit-qt5>=1.0.1']"
-reverse_depends = "['oxygen', 'plasma-workspace']"
+sha1sum = "8834c04666f8bdea2295b6360749f63f94329498"
+depends = "['appstream-qt>=1.0.0', 'noto-fonts', 'packagekit-qt5>=1.0.1']"
 +++
 ### Description: 
 Framework providing components to allow applications to integrate with a KDE Workspace.
@@ -31,7 +30,7 @@ Framework providing components to allow applications to integrate with a KDE Wor
 * /usr/lib/libKF5Style.so.5
 * /usr/lib/libKF5Style.so.5.115.0
 * /usr/lib/qt5/plugins/kf5/FrameworkIntegrationPlugin.so
-* /usr/share/doc/frameworkintegration-5.115.0/README.md
+* /usr/share/doc/frameworkintegration5-5.115.0/README.md
 * /usr/share/kf5/infopage/bar-bottom-left.png
 * /usr/share/kf5/infopage/bar-bottom-middle.png
 * /usr/share/kf5/infopage/bar-bottom-right.png

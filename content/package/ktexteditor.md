@@ -12,7 +12,7 @@ size = "2497564"
 usize = "13045322"
 sha1sum = "0314fd849ebe6316dcde2b84007d1aa23de3657b"
 depends = "['editorconfig-core-c', 'kparts>=5.115.0', 'libgit2>=1.3.0', 'syntax-highlighting>=5.115.0']"
-reverse_depends = "['akregator', 'cantor', 'dolphin-plugins', 'grantlee-editor', 'kate', 'kdevelop', 'kile', 'kmail-account-wizard', 'kompare', 'kopete', 'ktouch', 'plasma-sdk', 'plasma-workspace', 'rkward', 'rocs']"
+reverse_depends = "['akregator', 'dolphin-plugins', 'grantlee-editor', 'kate', 'kdevelop', 'kile', 'kmail-account-wizard', 'kompare', 'kopete', 'ktouch', 'plasma-sdk', 'plasma-workspace', 'rkward', 'rocs']"
 +++
 ### Description: 
 Provides a powerful text editor component.

@@ -12,7 +12,7 @@ size = "443084"
 usize = "3253463"
 sha1sum = "33d60d6419dd8ec652d3e84207c915f90ea2573e"
 depends = "['python3>=3.12']"
-reverse_depends = "['bpytop', 'meshroom', 'python3-pidfile', 'yin-yang']"
+reverse_depends = "['bpytop', 'drkonqi', 'meshroom', 'python3-pidfile', 'yin-yang']"
 +++
 ### Description: 
 A cross-platform process ans system utilities module for Python

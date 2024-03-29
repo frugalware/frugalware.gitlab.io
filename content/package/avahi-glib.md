@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "avahi-glib 0.8-8"
-version = "0.8-8"
+title = "avahi-glib 0.8-9"
+version = "0.8-9"
 description = "Glib bindings for Avahi"
-date = "2024-01-30T10:38:10"
+date = "2024-03-28T15:19:22"
 aliases = "/packages/10022"
 categories = ['lib']
 upstreamurl = "http://www.avahi.org"
 arch = "x86_64"
-size = "25748"
+size = "25832"
 usize = "88535"
-sha1sum = "25ce35ff5e6a61629516188fc0e8de732ec4b59a"
+sha1sum = "8c8953a1065b8889e09bce554237854bf66ed996"
 depends = "['glib2>=2.60.0', 'libffi>=3.2.1']"
 reverse_depends = "['cups-filters', 'geoclue2', 'gvfs', 'telepathy-salut']"
 +++

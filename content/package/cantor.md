@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "cantor 23.08.5-1"
-version = "23.08.5-1"
+title = "cantor 24.02.1-1"
+version = "24.02.1-1"
 description = "KDE Frontend to Mathematical Software."
-date = "2024-02-20T14:06:57"
+date = "2024-03-22T15:13:56"
 aliases = "/packages/152823"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2343616"
-usize = "8667075"
-sha1sum = "f5b656915b2f8c331286d21202c6b6e009fa3c02"
-depends = "['analitza>=23.08.5', 'julia>=1.0.2', 'knewstuff>=5.115.0', 'kpty>=5.115.0', 'ktexteditor>=5.115.0', 'libqalculate>=3.20.1', 'libspectre', 'luajit2', 'openblas64', 'poppler-qt5', 'python3>=3.12', 'qt5-webengine>=5.15.12', 'qt5-xmlpatterns>=5.15.12', 'r']"
+size = "2343724"
+usize = "8649285"
+sha1sum = "a8d86d10195be4e5b742274c5878c5a0eca2797a"
+depends = "['analitza>=24.02.1', 'julia>=1.0.2', 'kpty>=5.115.0', 'libqalculate>=3.20.1', 'libspectre', 'luajit2', 'openblas64', 'poppler-qt5', 'python3>=3.12', 'qt5-webengine>=5.15.12', 'r']"
 reverse_depends = "['labplot']"
 +++
 ### Description: 
@@ -55,7 +55,7 @@ KDE Frontend to Mathematical Software.
 * /usr/lib/cmake/Cantor/CantorTargets-release.cmake
 * /usr/lib/cmake/Cantor/CantorTargets.cmake
 * /usr/lib/libcantorlibs.so
-* /usr/lib/libcantorlibs.so.23.08.5
+* /usr/lib/libcantorlibs.so.24.02.1
 * /usr/lib/libcantorlibs.so.28
 * /usr/lib/libcantor_config.so
 * /usr/lib/qt5/plugins/cantor/assistants/cantor_advancedplotassistant.so
@@ -72,7 +72,6 @@ KDE Frontend to Mathematical Software.
 * /usr/lib/qt5/plugins/cantor/assistants/cantor_runscriptassistant.so
 * /usr/lib/qt5/plugins/cantor/assistants/cantor_solveassistant.so
 * /usr/lib/qt5/plugins/cantor/backends/cantor_juliabackend.so
-* /usr/lib/qt5/plugins/cantor/backends/cantor_kalgebrabackend.so
 * /usr/lib/qt5/plugins/cantor/backends/cantor_luabackend.so
 * /usr/lib/qt5/plugins/cantor/backends/cantor_maximabackend.so
 * /usr/lib/qt5/plugins/cantor/backends/cantor_octavebackend.so
@@ -103,7 +102,6 @@ KDE Frontend to Mathematical Software.
 * /usr/share/config.kcfg/cantor.kcfg
 * /usr/share/config.kcfg/cantor_libs.kcfg
 * /usr/share/config.kcfg/juliabackend.kcfg
-* /usr/share/config.kcfg/kalgebrabackend.kcfg
 * /usr/share/config.kcfg/luabackend.kcfg
 * /usr/share/config.kcfg/maximabackend.kcfg
 * /usr/share/config.kcfg/octavebackend.kcfg.in
@@ -112,7 +110,7 @@ KDE Frontend to Mathematical Software.
 * /usr/share/config.kcfg/rserver.kcfg
 * /usr/share/config.kcfg/sagebackend.kcfg
 * /usr/share/config.kcfg/scilabbackend.kcfg
-* /usr/share/doc/cantor-23.08.5/README.md
+* /usr/share/doc/cantor-24.02.1/README.md
 * /usr/share/doc/HTML/ca/cantor/create-dlg.png
 * /usr/share/doc/HTML/ca/cantor/differentiate-dlg.png
 * /usr/share/doc/HTML/ca/cantor/import-dlg.png
@@ -196,7 +194,6 @@ KDE Frontend to Mathematical Software.
 * /usr/share/icons/hicolor/64x64/apps/cantor.png
 * /usr/share/knsrcfiles/cantor-documentation.knsrc
 * /usr/share/knsrcfiles/cantor.knsrc
-* /usr/share/knsrcfiles/cantor_kalgebra.knsrc
 * /usr/share/knsrcfiles/cantor_lua.knsrc
 * /usr/share/knsrcfiles/cantor_maxima.knsrc
 * /usr/share/knsrcfiles/cantor_octave.knsrc
@@ -205,22 +202,6 @@ KDE Frontend to Mathematical Software.
 * /usr/share/knsrcfiles/cantor_r.knsrc
 * /usr/share/knsrcfiles/cantor_sage.knsrc
 * /usr/share/knsrcfiles/cantor_scilab.knsrc
-* /usr/share/kxmlgui5/cantor/cantor_advancedplot_assistant.rc
-* /usr/share/kxmlgui5/cantor/cantor_create_matrix_assistant.rc
-* /usr/share/kxmlgui5/cantor/cantor_differentiate_assistant.rc
-* /usr/share/kxmlgui5/cantor/cantor_eigenvalues_assistant.rc
-* /usr/share/kxmlgui5/cantor/cantor_eigenvectors_assistant.rc
-* /usr/share/kxmlgui5/cantor/cantor_import_package_assistant.rc
-* /usr/share/kxmlgui5/cantor/cantor_integrate_assistant.rc
-* /usr/share/kxmlgui5/cantor/cantor_invert_matrix_assistant.rc
-* /usr/share/kxmlgui5/cantor/cantor_part.rc
-* /usr/share/kxmlgui5/cantor/cantor_plot2d_assistant.rc
-* /usr/share/kxmlgui5/cantor/cantor_plot3d_assistant.rc
-* /usr/share/kxmlgui5/cantor/cantor_qalculateplotassistant.rc
-* /usr/share/kxmlgui5/cantor/cantor_runscript_assistant.rc
-* /usr/share/kxmlgui5/cantor/cantor_scripteditor.rc
-* /usr/share/kxmlgui5/cantor/cantor_shell.rc
-* /usr/share/kxmlgui5/cantor/cantor_solve_assistant.rc
 * /usr/share/locale/ar/LC_MESSAGES/cantor.mo
 * /usr/share/locale/bg/LC_MESSAGES/cantor.mo
 * /usr/share/locale/bs/LC_MESSAGES/cantor.mo

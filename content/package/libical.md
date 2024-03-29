@@ -12,7 +12,7 @@ size = "362048"
 usize = "2224413"
 sha1sum = "97557b9aa628499584b6a8dbe5dd57251921c001"
 depends = "['db>=18.1.25', 'icu4c>=74.1']"
-reverse_depends = "['bluez', 'claws-mail-plugin-vcalendar', 'kcalendarcore', 'openvas-manager']"
+reverse_depends = "['bluez', 'claws-mail-plugin-vcalendar', 'kcalendarcore', 'kcalendarcore5', 'openvas-manager']"
 +++
 ### Description: 
 An open source reference implementation of the icalendar data type and serialization format

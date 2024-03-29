@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "accounts-qml-module 0.7-10"
-version = "0.7-10"
+title = "accounts-qml-module 0.7-12"
+version = "0.7-12"
 description = "Qt-based client library for accessing the online accounts database."
-date = "2023-10-26T13:35:19"
+date = "2024-03-28T11:38:42"
 aliases = "/packages/219541"
 categories = ['xlib']
 upstreamurl = "https://gitlab.com/accounts-sso/accounts-qml-module"
 arch = "x86_64"
-size = "107284"
-usize = "401509"
-sha1sum = "95560f1d381b4425614b0909838f920abddf62b4"
-depends = "['libaccounts-qt>=1.15-10', 'qt5-base>=5.15.10', 'signon>=8.60-2']"
+size = "152260"
+usize = "728156"
+sha1sum = "635834caf926ecc3c245015efe0c16c6ab1b2b7e"
+depends = "['libaccounts-qt>=1.15-10', 'qt6-declarative', 'signon>=8.60-2']"
 reverse_depends = "['purpose']"
 +++
 ### Description: 
@@ -19,8 +19,28 @@ Qt-based client library for accessing the online accounts database.
 
 ### Files: 
 * /usr/bin/tst_plugin
+* /usr/lib/qt6/qml/SSO/OnlineAccounts/libAccounts.so
+* /usr/lib/qt6/qml/SSO/OnlineAccounts/plugin.qmltypes
+* /usr/lib/qt6/qml/SSO/OnlineAccounts/qmldir
+* /usr/share/accounts-qml-module/doc/html/.gitignore
+* /usr/share/accounts-qml-module/doc/html/onlineaccounts-qml-api.index
+* /usr/share/accounts-qml-module/doc/html/qml-sso-onlineaccounts-account-members.html
+* /usr/share/accounts-qml-module/doc/html/qml-sso-onlineaccounts-account.html
+* /usr/share/accounts-qml-module/doc/html/qml-sso-onlineaccounts-accountservice-members.html
+* /usr/share/accounts-qml-module/doc/html/qml-sso-onlineaccounts-accountservice.html
+* /usr/share/accounts-qml-module/doc/html/qml-sso-onlineaccounts-accountservicemodel-members.html
+* /usr/share/accounts-qml-module/doc/html/qml-sso-onlineaccounts-accountservicemodel.html
+* /usr/share/accounts-qml-module/doc/html/qml-sso-onlineaccounts-application-members.html
+* /usr/share/accounts-qml-module/doc/html/qml-sso-onlineaccounts-application.html
+* /usr/share/accounts-qml-module/doc/html/qml-sso-onlineaccounts-applicationmodel-members.html
+* /usr/share/accounts-qml-module/doc/html/qml-sso-onlineaccounts-applicationmodel.html
+* /usr/share/accounts-qml-module/doc/html/qml-sso-onlineaccounts-credentials-members.html
+* /usr/share/accounts-qml-module/doc/html/qml-sso-onlineaccounts-credentials.html
+* /usr/share/accounts-qml-module/doc/html/qml-sso-onlineaccounts-manager-members.html
+* /usr/share/accounts-qml-module/doc/html/qml-sso-onlineaccounts-manager.html
+* /usr/share/accounts-qml-module/doc/html/qml-sso-onlineaccounts-providermodel-members.html
+* /usr/share/accounts-qml-module/doc/html/qml-sso-onlineaccounts-providermodel.html
+* /usr/share/accounts-qml-module/doc/html/sso-onlineaccounts-qmlmodule.html
+* /usr/share/accounts-qml-module/doc/html/style/qtquick.css
 * /usr/share/doc/accounts-qml-module-0.7/COPYING
 * /usr/share/doc/accounts-qml-module-0.7/README.md
-* /usr/share/qt5/qml/Ubuntu/OnlineAccounts/libAccounts.so
-* /usr/share/qt5/qml/Ubuntu/OnlineAccounts/plugin.qmltypes
-* /usr/share/qt5/qml/Ubuntu/OnlineAccounts/qmldir

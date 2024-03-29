@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "avahi 0.8-8"
-version = "0.8-8"
+title = "avahi 0.8-9"
+version = "0.8-9"
 description = "A multicast/unicast DNS-SD framework"
-date = "2024-01-30T10:38:10"
+date = "2024-03-28T15:19:22"
 aliases = "/packages/10021"
 categories = ['network']
 upstreamurl = "http://www.avahi.org"
 arch = "x86_64"
-size = "317732"
+size = "315652"
 usize = "1446536"
-sha1sum = "3239aab563018849ab8f153e884ef35d2bb74ebf"
+sha1sum = "5debd80afbe7b55e7799ff1efeda0278203d9871"
 depends = "['dbus>=1.10.10-3', 'expat>=2.1.0-6', 'gdbm>=1.15', 'libdaemon>=0.14-4', 'libevent', 'libssp>=9.1.0-3', 'libsystemd>=231-6', 'shadow>=4.2.1-5']"
 reverse_depends = "['anyremote', 'cups', 'efl', 'geoclue2', 'kdnssd', 'libcups', 'libiio', 'libvirt', 'mpd', 'mumble', 'murmur', 'pipewire-pulse', 'pulseaudio-avahi', 'remmina', 'telepathy-salut', 'vlc-avahi']"
 +++

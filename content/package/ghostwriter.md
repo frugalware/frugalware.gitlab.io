@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ghostwriter 23.08.5-1"
-version = "23.08.5-1"
+title = "ghostwriter 24.02.1-1"
+version = "24.02.1-1"
 description = "Aesthetic, distraction-free Markdown editor"
-date = "2024-02-20T14:47:32"
+date = "2024-03-22T15:32:05"
 aliases = "/packages/220968"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2455972"
-usize = "12140545"
-sha1sum = "ee9dbf61046fd603d4732746e81601d99bf56bb3"
-depends = "['cmark', 'hunspell', 'kxmlgui', 'mathjax', 'qt5-webchannel', 'qt5-webengine', 'sonnet']"
+size = "2456596"
+usize = "12154939"
+sha1sum = "9a877c039b77584cc8c329e7508da1583c5ce2bb"
+depends = "['cmark', 'hunspell', 'mathjax', 'qt5-webchannel', 'qt5-webengine', 'sonnet']"
 +++
 ### Description: 
 Aesthetic, distraction-free Markdown editor
@@ -19,8 +19,8 @@ Aesthetic, distraction-free Markdown editor
 ### Files: 
 * /usr/bin/ghostwriter
 * /usr/share/applications/org.kde.ghostwriter.desktop
-* /usr/share/doc/ghostwriter-23.08.5/COPYING
-* /usr/share/doc/ghostwriter-23.08.5/README.md
+* /usr/share/doc/ghostwriter-24.02.1/COPYING
+* /usr/share/doc/ghostwriter-24.02.1/README.md
 * /usr/share/icons/hicolor/128x128/apps/ghostwriter.png
 * /usr/share/icons/hicolor/16x16/apps/ghostwriter.png
 * /usr/share/icons/hicolor/22x22/apps/ghostwriter.png
@@ -51,7 +51,6 @@ Aesthetic, distraction-free Markdown editor
 * /usr/share/locale/ru/LC_MESSAGES/ghostwriter_qt.qm
 * /usr/share/locale/sk/LC_MESSAGES/ghostwriter_qt.qm
 * /usr/share/locale/sl/LC_MESSAGES/ghostwriter_qt.qm
-* /usr/share/locale/sv/LC_MESSAGES/ghostwriter_qt.qm
 * /usr/share/locale/tr/LC_MESSAGES/ghostwriter_qt.qm
 * /usr/share/locale/uk/LC_MESSAGES/ghostwriter_qt.qm
 * /usr/share/locale/zh_CN/LC_MESSAGES/ghostwriter_qt.qm
@@ -62,6 +61,5 @@ Aesthetic, distraction-free Markdown editor
 * /usr/share/man/man1/ghostwriter.1.gz
 * /usr/share/man/nl/man1/ghostwriter.1.gz
 * /usr/share/man/ru/man1/ghostwriter.1.gz
-* /usr/share/man/sv/man1/ghostwriter.1.gz
 * /usr/share/man/uk/man1/ghostwriter.1.gz
 * /usr/share/metainfo/org.kde.ghostwriter.metainfo.xml

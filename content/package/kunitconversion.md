@@ -12,7 +12,7 @@ size = "826716"
 usize = "11109758"
 sha1sum = "5a718c7a6bb067b4272f204229bae088c3a8d50b"
 depends = "['ki18n>=5.115.0', 'qt5-base>=5.15.12']"
-reverse_depends = "['kalk', 'kalzium', 'kdelibs4support', 'kdeplasma-addons5']"
+reverse_depends = "['kalk', 'kdelibs4support', 'kdeplasma-addons5']"
 +++
 ### Description: 
 Converting physical units.

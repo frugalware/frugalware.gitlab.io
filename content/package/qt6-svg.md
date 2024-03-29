@@ -12,7 +12,7 @@ size = "167216"
 usize = "667210"
 sha1sum = "86ec18f274476ac02a2928057094b1613bc3afd5"
 depends = "['qt6-base']"
-reverse_depends = "['cutemaze', 'ladybird', 'mkvtoolnix-gui', 'obs-studio', 'qt6-virtualkeyboard', 'qtcreator', 'socnetv', 'telegram-desktop']"
+reverse_depends = "['calamares-frugalware', 'cutemaze', 'ladybird', 'mkvtoolnix-gui', 'obs-studio', 'qt6-virtualkeyboard', 'qtcreator', 'socnetv', 'telegram-desktop']"
 +++
 ### Description: 
 The Qt6 toolkit, qtsvg

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "extra-cmake-modules 5.115.0-1"
-version = "5.115.0-1"
+title = "extra-cmake-modules 6.0.0-2"
+version = "6.0.0-2"
 description = "Extra CMake modules."
-date = "2024-02-19T09:49:53"
+date = "2024-03-26T22:41:35"
 aliases = "/packages/218262"
-categories = ['kf5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "278160"
-usize = "1786875"
-sha1sum = "9d502439c42a7aa0ec574dd58045700e812ff479"
+size = "283280"
+usize = "1840613"
+sha1sum = "3a05e70dac5a6255d3fa311f89967666a41878eb"
 depends = "[]"
 +++
 ### Description: 
@@ -68,6 +68,7 @@ Extra CMake modules.
 * /usr/share/doc/ECM/html/manual/ecm-toolchains.7.html
 * /usr/share/doc/ECM/html/manual/ecm.7.html
 * /usr/share/doc/ECM/html/module/CheckAtomic.html
+* /usr/share/doc/ECM/html/module/ECMAddAndroidApk.html
 * /usr/share/doc/ECM/html/module/ECMAddAppIcon.html
 * /usr/share/doc/ECM/html/module/ECMAddQch.html
 * /usr/share/doc/ECM/html/module/ECMAddQtDesignerPlugin.html
@@ -155,6 +156,7 @@ Extra CMake modules.
 * /usr/share/doc/ECM/html/_sources/manual/ecm-toolchains.7.rst.txt
 * /usr/share/doc/ECM/html/_sources/manual/ecm.7.rst.txt
 * /usr/share/doc/ECM/html/_sources/module/CheckAtomic.rst.txt
+* /usr/share/doc/ECM/html/_sources/module/ECMAddAndroidApk.rst.txt
 * /usr/share/doc/ECM/html/_sources/module/ECMAddAppIcon.rst.txt
 * /usr/share/doc/ECM/html/_sources/module/ECMAddQch.rst.txt
 * /usr/share/doc/ECM/html/_sources/module/ECMAddQtDesignerPlugin.rst.txt
@@ -205,9 +207,9 @@ Extra CMake modules.
 * /usr/share/doc/ECM/html/_static/searchtools.js
 * /usr/share/doc/ECM/html/_static/sidebar.js
 * /usr/share/doc/ECM/html/_static/sphinx_highlight.js
-* /usr/share/doc/extra-cmake-modules-5.115.0/COPYING-CMAKE-SCRIPTS
-* /usr/share/doc/extra-cmake-modules-5.115.0/README.md
-* /usr/share/doc/extra-cmake-modules-5.115.0/README.rst
+* /usr/share/doc/extra-cmake-modules-6.0.0/COPYING-CMAKE-SCRIPTS
+* /usr/share/doc/extra-cmake-modules-6.0.0/README.md
+* /usr/share/doc/extra-cmake-modules-6.0.0/README.rst
 * /usr/share/ECM/cmake/ECMConfig.cmake
 * /usr/share/ECM/cmake/ECMConfigVersion.cmake
 * /usr/share/ECM/find-modules/ECMFindModuleHelpersStub.cmake
@@ -224,6 +226,7 @@ Extra CMake modules.
 * /usr/share/ECM/find-modules/FindInotify.cmake
 * /usr/share/ECM/find-modules/FindIsoCodes.cmake
 * /usr/share/ECM/find-modules/FindKF5.cmake
+* /usr/share/ECM/find-modules/FindKF6.cmake
 * /usr/share/ECM/find-modules/FindLibcap.cmake
 * /usr/share/ECM/find-modules/FindLibExiv2.cmake
 * /usr/share/ECM/find-modules/FindLibGit2.cmake
@@ -254,8 +257,11 @@ Extra CMake modules.
 * /usr/share/ECM/find-modules/settings.gradle.cmake
 * /usr/share/ECM/find-modules/sip_generator.py
 * /usr/share/ECM/kde-modules/appstreamtest.cmake
-* /usr/share/ECM/kde-modules/clang-format.in
+* /usr/share/ECM/kde-modules/clang-format.cmake
 * /usr/share/ECM/kde-modules/kde-git-commit-hooks/clang-format.sh
+* /usr/share/ECM/kde-modules/kde-git-commit-hooks/combined.schema.json.in
+* /usr/share/ECM/kde-modules/kde-git-commit-hooks/combined.schema.json.in.license
+* /usr/share/ECM/kde-modules/kde-git-commit-hooks/json-schema.py
 * /usr/share/ECM/kde-modules/kde-git-commit-hooks/pre-commit.in
 * /usr/share/ECM/kde-modules/KDEClangFormat.cmake
 * /usr/share/ECM/kde-modules/KDECMakeSettings.cmake
@@ -270,10 +276,11 @@ Extra CMake modules.
 * /usr/share/ECM/kde-modules/KDEMetaInfoPlatformCheck.cmake
 * /usr/share/ECM/kde-modules/KDEPackageAppTemplates.cmake
 * /usr/share/ECM/kde-modules/KDESetupPrefixScript.cmake
-* /usr/share/ECM/kde-modules/prefix.sh.fish.in
-* /usr/share/ECM/kde-modules/prefix.sh.in
+* /usr/share/ECM/kde-modules/prefix.sh.cmake
+* /usr/share/ECM/kde-modules/prefix.sh.fish.cmake
 * /usr/share/ECM/modules/check-outbound-license.py
 * /usr/share/ECM/modules/CheckAtomic.cmake
+* /usr/share/ECM/modules/ECMAddAndroidApk.cmake
 * /usr/share/ECM/modules/ECMAddAppIcon.cmake
 * /usr/share/ECM/modules/ECMAddQch.cmake
 * /usr/share/ECM/modules/ECMAddQtDesignerPlugin.cmake
@@ -284,6 +291,7 @@ Extra CMake modules.
 * /usr/share/ECM/modules/ECMCreateQmFromPoFiles.cmake
 * /usr/share/ECM/modules/ECMDeprecationSettings.cmake
 * /usr/share/ECM/modules/ECMEnableSanitizers.cmake
+* /usr/share/ECM/modules/ECMFeatureSummary.cmake
 * /usr/share/ECM/modules/ECMFindModuleHelpers.cmake
 * /usr/share/ECM/modules/ECMFindQmlModule.cmake
 * /usr/share/ECM/modules/ECMFindQmlModule.cmake.in
@@ -306,6 +314,8 @@ Extra CMake modules.
 * /usr/share/ECM/modules/ECMQmlModule.cpp.in.license
 * /usr/share/ECM/modules/ECMQmlModule.h.in
 * /usr/share/ECM/modules/ECMQmlModule.h.in.license
+* /usr/share/ECM/modules/ECMQmlModule5.cmake
+* /usr/share/ECM/modules/ECMQmlModule6.cmake
 * /usr/share/ECM/modules/ECMQMLModules.cmake
 * /usr/share/ECM/modules/ECMQmLoader.cpp.in
 * /usr/share/ECM/modules/ECMQtDeclareLoggingCategory.cmake
@@ -325,8 +335,10 @@ Extra CMake modules.
 * /usr/share/ECM/test-modules/test_execute_and_compare.cmake
 * /usr/share/ECM/toolchain/Android.cmake
 * /usr/share/ECM/toolchain/deployment-file-qt514.json.in
+* /usr/share/ECM/toolchain/deployment-file-qt6.json.in
+* /usr/share/ECM/toolchain/deployment-file-qt6.json.in.license
 * /usr/share/ECM/toolchain/deployment-file.json.in
-* /usr/share/ECM/toolchain/ECMAndroidDeployQt.cmake
+* /usr/share/ECM/toolchain/ECMAndroidDeployQt5.cmake
 * /usr/share/ECM/toolchain/generate-fastlane-metadata.py
 * /usr/share/ECM/toolchain/hasMainSymbol.cmake
 * /usr/share/ECM/toolchain/specifydependencies.cmake

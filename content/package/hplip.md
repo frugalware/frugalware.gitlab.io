@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hplip 3.23.12-3"
-version = "3.23.12-3"
+title = "hplip 3.23.12-4"
+version = "3.23.12-4"
 description = "HPLIP is an HP developed solution for printing, scanning, and faxing with HP inkjet and laser based printers in Linux."
-date = "2024-01-09T10:03:32"
+date = "2024-03-28T14:39:18"
 aliases = "/packages/9747"
 categories = ['apps-extra']
 upstreamurl = "https://sourceforge.net/projects/hplip"
 arch = "x86_64"
-size = "7303048"
+size = "7302784"
 usize = "12871488"
-sha1sum = "9d55cda39d378b74132e47bacb85cd32d3e5e9e9"
+sha1sum = "35630f42fa272c85659d40dc289416d2facc01d9"
 depends = "['hplip-driver>=3.23.12', 'libcups>=2.2', 'libusb>=0.1.5-4', 'pygobject3-cairo', 'pyqt5', 'python3-distro', 'rpcbind', 'sane-backends>=1.0.25-2', 'wget']"
 +++
 ### Description: 

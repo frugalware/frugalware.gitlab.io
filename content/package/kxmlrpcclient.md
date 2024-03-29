@@ -12,7 +12,7 @@ size = "37864"
 usize = "134634"
 sha1sum = "d4cdf9a45682136ddb3c8520080edc1edb7e7152"
 depends = "['kio>=5.115.0']"
-reverse_depends = "['drkonqi', 'plasma-workspace']"
+reverse_depends = "['plasma-workspace']"
 +++
 ### Description: 
 XML-RPC client library for KDE.

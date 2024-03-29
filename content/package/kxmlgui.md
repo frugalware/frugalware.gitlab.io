@@ -12,7 +12,7 @@ size = "672500"
 usize = "3559880"
 sha1sum = "7053798ee86d9d47bdd772bbd3628f926cb52093"
 depends = "['attica>=5.115.0', 'kglobalaccel>=5.115.0', 'ktextwidgets>=5.115.0', 'qt5-svg>=5.15.12', 'qt5-x11extras>=5.15.12']"
-reverse_depends = "['akonadi-mime', 'ghostwriter', 'kbackup', 'kbookmarks', 'kbruch', 'kcachegrind', 'kcharselect', 'kcolorchooser', 'kdesignerplugin', 'kgeography', 'kmousetool', 'krfb', 'kruler', 'kscreen5', 'ktextaddons', 'kvirc', 'libkipi', 'plasma-sdk', 'plasma-workspace', 'rkward', 'skanlite', 'svgpart']"
+reverse_depends = "['akonadi-mime', 'kbackup', 'kbookmarks', 'kbruch', 'kcachegrind', 'kcharselect', 'kcolorchooser', 'kdesignerplugin', 'kgeography', 'kmousetool', 'krfb', 'kruler', 'kscreen5', 'ktextaddons', 'kvirc', 'libkipi', 'plasma-sdk', 'plasma-workspace', 'rkward', 'skanlite', 'svgpart']"
 +++
 ### Description: 
 Framework for managing menu and toolbar actions.

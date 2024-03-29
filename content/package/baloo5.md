@@ -1,28 +1,25 @@
 +++
 draft = false
-title = "baloo5 5.115.0-1"
-version = "5.115.0-1"
+title = "baloo5 5.115.0-4"
+version = "5.115.0-4"
 description = "A framework for searching and managing metadata."
-date = "2024-02-19T11:08:35"
+date = "2024-03-15T11:16:25"
 aliases = "/packages/218253"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "411632"
-usize = "2160703"
-sha1sum = "5a85b4e3d167af980f4ba28b4d9a50e29e8c42f8"
-depends = "['kfilemetadata5>=5.115.0', 'kidletime>=5.115.0', 'kio>=5.115.0', 'lmdb>=0.9.18-3']"
+size = "306732"
+usize = "1667790"
+sha1sum = "adba9e6cde3c6d5cb463ada2764119fc927fbf07"
+depends = "['kfilemetadata5>=5.115.0', 'lmdb>=0.9.18-3']"
 reverse_depends = "['arianna', 'baloo-widgets', 'elisa', 'gwenview', 'plasma-workspace']"
 +++
 ### Description: 
 A framework for searching and managing metadata.
 
 ### Files: 
-* /usr/bin/balooctl
 * /usr/bin/baloosearch
 * /usr/bin/balooshow
-* /usr/bin/baloo_file
-* /usr/bin/baloo_file_extractor
 * /usr/include/KF5/Baloo/baloo/baloosettings.h
 * /usr/include/KF5/Baloo/baloo/core_export.h
 * /usr/include/KF5/Baloo/Baloo/File
@@ -44,8 +41,6 @@ A framework for searching and managing metadata.
 * /usr/lib/cmake/KF5Baloo/KF5BalooConfigVersion.cmake
 * /usr/lib/cmake/KF5Baloo/KF5BalooTargets-release.cmake
 * /usr/lib/cmake/KF5Baloo/KF5BalooTargets.cmake
-* /usr/lib/kf5/baloo_file
-* /usr/lib/kf5/baloo_file_extractor
 * /usr/lib/libKF5Baloo.so
 * /usr/lib/libKF5Baloo.so.5
 * /usr/lib/libKF5Baloo.so.5.115.0
@@ -56,12 +51,6 @@ A framework for searching and managing metadata.
 * /usr/lib/qt5/plugins/kf5/kio/baloosearch.so
 * /usr/lib/qt5/plugins/kf5/kio/tags.so
 * /usr/lib/qt5/plugins/kf5/kio/timeline.so
-* /usr/lib/systemd/user/kde-baloo.service
-* /usr/share/dbus-1/interfaces/org.kde.baloo.file.indexer.xml
-* /usr/share/dbus-1/interfaces/org.kde.baloo.fileindexer.xml
-* /usr/share/dbus-1/interfaces/org.kde.baloo.main.xml
-* /usr/share/dbus-1/interfaces/org.kde.baloo.scheduler.xml
-* /usr/share/dbus-1/interfaces/org.kde.BalooWatcherApplication.xml
 * /usr/share/doc/baloo5-5.115.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/balooctl5.mo
 * /usr/share/locale/ar/LC_MESSAGES/baloodb5.mo

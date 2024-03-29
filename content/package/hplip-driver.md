@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hplip-driver 3.23.12-3"
-version = "3.23.12-3"
+title = "hplip-driver 3.23.12-4"
+version = "3.23.12-4"
 description = "HPLIP printing, scanning, and scanning driver for HP inkjet and laser based printers."
-date = "2024-01-09T10:03:32"
+date = "2024-03-28T14:39:18"
 aliases = "/packages/88588"
 categories = ['apps-extra']
 upstreamurl = "https://sourceforge.net/projects/hplip"
 arch = "x86_64"
-size = "15440976"
+size = "15440148"
 usize = "22808983"
-sha1sum = "d9e5397780ed04acd19b449ad6754ead9c0faf65"
+sha1sum = "5aad3dbb0161dd4b2c92665ec37d415d8cdb6a4a"
 depends = "['cups-filters', 'foomatic-db', 'foomatic-db-engine', 'ghostscript', 'libcups>=2.1.2-2', 'libjpeg-turbo', 'libusb1>=1.0.20-4', 'net-snmp>=5.9']"
 reverse_depends = "['hplip']"
 +++

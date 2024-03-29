@@ -12,7 +12,7 @@ size = "511144"
 usize = "1503845"
 sha1sum = "385fb6d91c3f9ba822dbf5ddd0d8d92bb870ed3f"
 depends = "['kcmutils>=5.115.0', 'kio>=5.115.0', 'libmusicbrainz>=5.1.0-3']"
-reverse_depends = "['audiocd-kio', 'k3b']"
+reverse_depends = "['audiocd-kio']"
 +++
 ### Description: 
 A library for retrieving and sending cddb information.

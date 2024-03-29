@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "calamares-frugalware 3.3.0-2"
-version = "3.3.0-2"
+title = "calamares-frugalware 3.3.5-1"
+version = "3.3.5-1"
 description = "Distribution-independent installer framework"
-date = "2024-02-01T14:12:48"
+date = "2024-03-28T18:09:18"
 aliases = "/packages/218846"
 categories = ['installer-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4111816"
-usize = "9218278"
-sha1sum = "40b0c7de8a4af2f958644fb99488af2d72af95ad"
-depends = "['icu4c>=74.1', 'kconfig', 'kcoreaddons', 'kdbusaddons', 'kpmcore>=22.04.3', 'libboost>=1.83.0', 'libpwquality', 'parted', 'polkit-qt5-1', 'python3>=3.12', 'qt5-declarative>=5.15.10', 'qt5-svg>=5.15.10', 'rsync', 'squashfs', 'yaml-cpp>=0.8.0']"
+size = "3969128"
+usize = "9246512"
+sha1sum = "1d90e526b314400f383b88a4512c0455361d4d67"
+depends = "['icu4c>=74.1', 'kconfig', 'kcoreaddons', 'kdbusaddons', 'kpmcore>=22.04.3', 'libboost>=1.83.0', 'libpwquality', 'parted', 'polkit-qt5-1', 'python3>=3.12', 'qt6-declarative>=5.15.10', 'qt6-svg', 'rsync', 'squashfs', 'yaml-cpp>=0.8.0']"
 +++
 ### Description: 
 Distribution-independent installer framework
@@ -24,6 +24,8 @@ Distribution-independent installer framework
 * /usr/include/libcalamares/CalamaresAbout.h
 * /usr/include/libcalamares/CalamaresConfig.h
 * /usr/include/libcalamares/CalamaresVersion.h
+* /usr/include/libcalamares/compat/Mutex.h
+* /usr/include/libcalamares/compat/Variant.h
 * /usr/include/libcalamares/CppJob.h
 * /usr/include/libcalamares/DllMacro.h
 * /usr/include/libcalamares/geoip/GeoIPFixed.h
@@ -60,6 +62,7 @@ Distribution-independent installer framework
 * /usr/include/libcalamares/modulesystem/ViewModule.h
 * /usr/include/libcalamares/network/Manager.h
 * /usr/include/libcalamares/network/Tests.h
+* /usr/include/libcalamares/packages/Globals.h
 * /usr/include/libcalamares/partition/AutoMount.h
 * /usr/include/libcalamares/partition/FileSystem.h
 * /usr/include/libcalamares/partition/Global.h
@@ -231,10 +234,10 @@ Distribution-independent installer framework
 * /usr/lib/fvbe/calamares-locale-setup
 * /usr/lib/libcalamares.so
 * /usr/lib/libcalamares.so.3.3
-* /usr/lib/libcalamares.so.3.3.0
+* /usr/lib/libcalamares.so.3.3.5
 * /usr/lib/libcalamaresui.so
 * /usr/lib/libcalamaresui.so.3.3
-* /usr/lib/libcalamaresui.so.3.3.0
+* /usr/lib/libcalamaresui.so.3.3.5
 * /usr/lib/systemd/system/calamares-locale.service
 * /usr/share/calamares/branding/default/banner.png
 * /usr/share/calamares/branding/default/banner.png.license
@@ -258,8 +261,8 @@ Distribution-independent installer framework
 * /usr/share/calamares/qml/calamares/slideshow/qmldir.license
 * /usr/share/calamares/qml/calamares/slideshow/Slide.qml
 * /usr/share/calamares/qml/calamares/slideshow/SlideCounter.qml
-* /usr/share/doc/calamares-frugalware-3.3.0/AUTHORS
-* /usr/share/doc/calamares-frugalware-3.3.0/README.md
+* /usr/share/doc/calamares-frugalware-3.3.5/AUTHORS
+* /usr/share/doc/calamares-frugalware-3.3.5/README.md
 * /usr/share/icons/hicolor/scalable/apps/calamares-frugalware.svg
 * /usr/share/icons/hicolor/scalable/apps/calamares.svg
 * /usr/share/locale/ar/LC_MESSAGES/calamares-python.mo
@@ -296,6 +299,7 @@ Distribution-independent installer framework
 * /usr/share/locale/is/LC_MESSAGES/calamares-python.mo
 * /usr/share/locale/it_IT/LC_MESSAGES/calamares-python.mo
 * /usr/share/locale/ja/LC_MESSAGES/calamares-python.mo
+* /usr/share/locale/ka/LC_MESSAGES/calamares-python.mo
 * /usr/share/locale/ko/LC_MESSAGES/calamares-python.mo
 * /usr/share/locale/lt/LC_MESSAGES/calamares-python.mo
 * /usr/share/locale/ml/LC_MESSAGES/calamares-python.mo

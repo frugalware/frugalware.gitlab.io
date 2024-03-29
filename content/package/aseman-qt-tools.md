@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "aseman-qt-tools 1.0.0-13"
-version = "1.0.0-13"
+title = "aseman-qt-tools 1.0.0-14"
+version = "1.0.0-14"
 description = "AsemanQtTools, is the shared tools and functions, we used in the aseman's projects."
-date = "2023-10-24T11:01:03"
+date = "2024-03-29T09:51:30"
 aliases = "/packages/218994"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/Aseman-Land/aseman-qt-tools"
 arch = "x86_64"
-size = "1110048"
+size = "1109628"
 usize = "3736199"
-sha1sum = "ae568917500b5f7e3c50b1db575f6efaa7e2c023"
-depends = "['qt5-location>=5.15.10', 'qt5-multimedia>=5.15.10', 'qt5-sensors>=5.15.10', 'qtkeychain']"
+sha1sum = "a469ef0cb01691ee7965141a80bd167bd8d51bb3"
+depends = "['qt5-location>=5.15.10', 'qt5-multimedia>=5.15.10', 'qt5-sensors>=5.15.10']"
 +++
 ### Description: 
 AsemanQtTools, is the shared tools and functions, we used in the aseman's projects.

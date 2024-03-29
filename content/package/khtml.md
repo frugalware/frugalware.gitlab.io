@@ -12,7 +12,7 @@ size = "2303888"
 usize = "10602552"
 sha1sum = "79c568cdf45c0315324a0c1e16c45be5d01c73d8"
 depends = "['kjs>=5.115.0', 'kparts>=5.115.0', 'libgif>=5.1.4-2']"
-reverse_depends = "['kalzium', 'khelpcenter5', 'kile', 'kimagemapeditor', 'kio-extras', 'kiten', 'konqueror', 'kopete', 'okular', 'step', 'systemsettings5']"
+reverse_depends = "['khelpcenter5', 'kile', 'kimagemapeditor', 'kio-extras', 'kiten', 'konqueror', 'kopete', 'okular', 'step', 'systemsettings5']"
 +++
 ### Description: 
 HTML rendering engine.

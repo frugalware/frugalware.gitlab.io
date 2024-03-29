@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gpgme 1.23.2-1"
-version = "1.23.2-1"
+title = "gpgme 1.23.2-3"
+version = "1.23.2-3"
 description = "A high-level crypto API for encryption"
-date = "2023-12-06T16:58:48"
+date = "2024-03-27T13:12:05"
 aliases = "/packages/3620"
 categories = ['apps']
 upstreamurl = "http://www.gnupg.org/related_software/gpgme/"
 arch = "x86_64"
-size = "2349452"
-usize = "4121282"
-sha1sum = "9128a5aad4503bcd81bc1fb3ca72b8258cca749b"
+size = "2348908"
+usize = "4121752"
+sha1sum = "c44d8547f71da967b5eec06844142d312ee52ad8"
 depends = "['glibc>=2.34', 'libassuan>=2.4.3-4', 'libgpg-error>=1.27-3']"
 reverse_depends = "['claws-mail-plugin-pgpcore', 'claws-mail-plugin-pgpinline', 'claws-mail-plugin-pgpmime', 'claws-mail-plugin-smime', 'fwupd', 'gmime2', 'gmime3', 'kgpg', 'libgpgmepp', 'libjcat', 'libqgpgme', 'libsmbclient', 'mcabber', 'mutt-devel', 'openvas-libraries', 'openvas-manager', 'ostree', 'python3-gpgme', 'sylpheed', 'volume_key', 'wget2']"
 +++
@@ -167,8 +167,8 @@ A high-level crypto API for encryption
 * /usr/include/qgpgme/wkspublishjob.h
 * /usr/lib/cmake/Gpgmepp/GpgmeppConfig.cmake
 * /usr/lib/cmake/Gpgmepp/GpgmeppConfigVersion.cmake
-* /usr/lib/cmake/QGpgme/QGpgmeConfig.cmake
-* /usr/lib/cmake/QGpgme/QGpgmeConfigVersion.cmake
+* /usr/lib/cmake/QGpgmeQt6/QGpgmeQt6Config.cmake
+* /usr/lib/cmake/QGpgmeQt6/QGpgmeQt6ConfigVersion.cmake
 * /usr/lib/libgpgme.a
 * /usr/lib/libgpgme.so
 * /usr/lib/libgpgme.so.11

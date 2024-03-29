@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cutemaze 1.3.2-6"
-version = "1.3.2-6"
+title = "cutemaze 1.3.2-7"
+version = "1.3.2-7"
 description = "CuteMaze is a simple, top-down game in which mazes are randomly generated."
-date = "2024-02-19T20:42:51"
+date = "2024-03-27T13:14:09"
 aliases = "/packages/184382"
 categories = ['games-extra']
 upstreamurl = "https://gottcode.org/cutemaze/"
 arch = "x86_64"
-size = "321712"
+size = "321688"
 usize = "640465"
-sha1sum = "a2b81fba055308b783510ff7a968c4b07f6de78b"
+sha1sum = "2b14dd9c89957ccd75c69c3e8862e05a9317de63"
 depends = "['qt6-svg']"
 +++
 ### Description: 
