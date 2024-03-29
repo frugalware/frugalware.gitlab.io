@@ -12,7 +12,7 @@ size = "114340"
 usize = "466740"
 sha1sum = "bc71450897df6358590648c2c1c2369e1dfeeaca"
 depends = "['qt6-base']"
-reverse_depends = "['plasma-desktop']"
+reverse_depends = "['discover', 'plasma-desktop']"
 +++
 ### Description: 
 A system designed to make installation and updates of packages easier

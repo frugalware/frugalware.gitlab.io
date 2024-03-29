@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "discover 5.27.8-3"
-version = "5.27.8-3"
+title = "discover 6.0.2-2"
+version = "6.0.2-2"
 description = "A collection of package management tools for KDE"
-date = "2023-10-27T15:55:09"
+date = "2024-03-29T12:57:03"
 aliases = "/packages/219618"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "0"
 usize = "0"
 sha1sum = ""
-depends = "['appstream-qt>=0.10.3', 'git', 'karchive>=5.110.0', 'kcmutils>=5.110.0', 'kconfig>=5.110.0', 'kcoreaddons>=5.110.0', 'kdeclarative>=5.110.0', 'kiconthemes>=5.110.0', 'kidletime>=5.110.0', 'kio>=5.110.0', 'kirigami2', 'kitemmodels>=5.110.0', 'kitemviews>=5.110.0', 'knewstuff>=5.110.0', 'kwallet5>=5.110.0', 'packagekit-qt5>=0.9.5-3', 'plasma-framework>=5.110.0', 'purpose>=5.110.0', 'qt5-svg>=5.15.11', 'solid>=5.110.0']"
+depends = "['appstream-qt>=0.10.3', 'flatpak', 'fwupd', 'git', 'karchive>=6.0.0', 'kcmutils>=6.0.0', 'kconfig>=6.0.0', 'kcoreaddons>=6.0.0', 'kdeclarative>=6.0.0', 'kiconthemes>=6.0.0', 'kidletime>=6.0.0', 'kio>=6.0.0', 'kirigami-addons', 'kitemmodels>=6.0.0', 'kitemviews>=6.0.0', 'knewstuff>=6.0.0', 'kuserfeedback>=6.0.0', 'kwallet>=6.0.0', 'libplasma>=6.0.3', 'packagekit-qt6>=0.9.5-3', 'purpose>=6.0.0', 'qt6-svg>=6.6.3', 'qt6-webview>=6.6.3', 'solid>=6.0.0']"
 +++
 ### Description: 
 A collection of package management tools for KDE

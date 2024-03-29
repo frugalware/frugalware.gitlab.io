@@ -1,9 +1,9 @@
 +++
 draft = false
-title = "flightgear 2020.3.19-1"
-version = "2020.3.19-1"
+title = "flightgear 2020.3.19-2"
+version = "2020.3.19-2"
 description = "An open-source, multi-platform flight simulator."
-date = "2023-10-20T15:00:44"
+date = "2024-03-29T12:57:03"
 aliases = "/packages/218981"
 categories = ['games-extra']
 upstreamurl = "http://www.flightgear.org/"

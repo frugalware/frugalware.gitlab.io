@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "colord-kde 23.08.5-1"
-version = "23.08.5-1"
+title = "colord-kde 24.02.1-3"
+version = "24.02.1-3"
 description = "Interfaces and session daemon to colord for KDE"
-date = "2024-02-20T14:43:54"
+date = "2024-03-27T14:02:10"
 aliases = "/packages/220966"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "162388"
-usize = "730917"
-sha1sum = "56373b40350b7c99616c3ff0c56aa66508774cd9"
+size = "195844"
+usize = "871803"
+sha1sum = "74e39dbfeccb36ee4d70ea5ac0146d1a7310141b"
 depends = "['colord', 'kcmutils', 'kdeclarative', 'kirigami-addons', 'kitemmodels', 'libxrandr']"
 +++
 ### Description: 
@@ -18,13 +18,12 @@ Interfaces and session daemon to colord for KDE
 
 ### Files: 
 * /usr/bin/colord-kde-icc-importer
-* /usr/lib/qt5/plugins/kf5/kded/colord.so
-* /usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_colord.so
+* /usr/lib/qt6/plugins/kf6/kded/colord.so
+* /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_colord.so
 * /usr/share/applications/colordkdeiccimporter.desktop
-* /usr/share/doc/colord-kde-23.08.5/COPYING
-* /usr/share/doc/colord-kde-23.08.5/TODO
-* /usr/share/kpackage/kcms/kcm_colord/contents/ui/main.qml
-* /usr/share/kpackage/kcms/kcm_colord/contents/ui/ProfileMetaDataView.qml
+* /usr/share/applications/kcm_colord.desktop
+* /usr/share/doc/colord-kde-24.02.1/COPYING
+* /usr/share/doc/colord-kde-24.02.1/TODO
 * /usr/share/locale/ar/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/az/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/bg/LC_MESSAGES/colord-kde.mo
@@ -36,6 +35,7 @@ Interfaces and session daemon to colord for KDE
 * /usr/share/locale/de/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/el/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/colord-kde.mo
+* /usr/share/locale/eo/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/es/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/et/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/eu/LC_MESSAGES/colord-kde.mo

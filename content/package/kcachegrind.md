@@ -5,13 +5,13 @@ version = "23.08.5-1"
 description = "Visualization of Performance Profiling Data."
 date = "2024-02-20T12:37:11"
 aliases = "/packages/218525"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1061544"
 usize = "4736589"
 sha1sum = "569ef977536e13fe07f642ade9cf5f70cd316504"
-depends = "['karchive>=5.115.0', 'kconfig>=5.115.0', 'kcoreaddons>=5.115.0', 'kdoctools>=5.115.0', 'ki18n>=5.115.0', 'kio>=5.115.0', 'kwidgetsaddons>=5.115.0', 'kxmlgui>=5.115.0']"
+depends = "['karchive>=6.0.0', 'kconfig>=6.0.0', 'kcoreaddons>=6.0.0', 'kdoctools>=6.0.0', 'ki18n>=6.0.0', 'kio>=6.0.0', 'kwidgetsaddons>=6.0.0', 'kxmlgui>=6.0.0']"
 +++
 ### Description: 
 Visualization of Performance Profiling Data.
@@ -52,12 +52,12 @@ Visualization of Performance Profiling Data.
 * /usr/share/doc/HTML/sv/kcachegrind/index.docbook
 * /usr/share/doc/HTML/uk/kcachegrind/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcachegrind/index.docbook
-* /usr/share/doc/kcachegrind-23.08.5/AUTHORS
-* /usr/share/doc/kcachegrind-23.08.5/ChangeLog
-* /usr/share/doc/kcachegrind-23.08.5/INSTALL
-* /usr/share/doc/kcachegrind-23.08.5/README
-* /usr/share/doc/kcachegrind-23.08.5/README_DEVELOPER
-* /usr/share/doc/kcachegrind-23.08.5/TODO
+* /usr/share/doc/kcachegrind-24.02.1/AUTHORS
+* /usr/share/doc/kcachegrind-24.02.1/ChangeLog
+* /usr/share/doc/kcachegrind-24.02.1/INSTALL
+* /usr/share/doc/kcachegrind-24.02.1/README
+* /usr/share/doc/kcachegrind-24.02.1/README_DEVELOPER
+* /usr/share/doc/kcachegrind-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kcachegrind.png
 * /usr/share/icons/hicolor/32x32/apps/kcachegrind.png
 * /usr/share/icons/hicolor/48x48/apps/kcachegrind.png
@@ -70,6 +70,8 @@ Visualization of Performance Profiling Data.
 * /usr/share/kcachegrind/icons/hicolor/32x32/actions/percent.png
 * /usr/share/kcachegrind/tips
 * /usr/share/locale/ar/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcachegrind_qt.qm
 * /usr/share/locale/be/LC_MESSAGES/kcachegrind.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcachegrind.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcachegrind_qt.qm
@@ -115,6 +117,8 @@ Visualization of Performance Profiling Data.
 * /usr/share/locale/hr/LC_MESSAGES/kcachegrind_qt.qm
 * /usr/share/locale/hu/LC_MESSAGES/kcachegrind.mo
 * /usr/share/locale/hu/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/ia/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/ia/LC_MESSAGES/kcachegrind_qt.qm
 * /usr/share/locale/it/LC_MESSAGES/kcachegrind.mo
 * /usr/share/locale/it/LC_MESSAGES/kcachegrind_qt.qm
 * /usr/share/locale/ja/LC_MESSAGES/kcachegrind.mo

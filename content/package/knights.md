@@ -5,13 +5,13 @@ version = "23.08.5-1"
 description = "Chess board program."
 date = "2024-02-20T13:29:51"
 aliases = "/packages/38796"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "3547632"
 usize = "5239826"
 sha1sum = "00277444704ed929f74e507bf9cd510e65bf0710"
-depends = "['kplotting>=5.115.0', 'libkdegames>=23.08.5', 'plasma-framework>=5.115.0']"
+depends = "['kplotting>=6.0.0', 'libkdegames>=24.02.1', 'libplasma>=6.0.3']"
 +++
 ### Description: 
 Chess board program.
@@ -90,11 +90,11 @@ Chess board program.
 * /usr/share/doc/HTML/uk/knights/Knights-server-challenges.png
 * /usr/share/doc/HTML/uk/knights/Knights-server-graph.png
 * /usr/share/doc/HTML/uk/knights/Knights-server-list.png
-* /usr/share/doc/knights-23.08.5/ChangeLog
-* /usr/share/doc/knights-23.08.5/LICENSE
-* /usr/share/doc/knights-23.08.5/README.md
-* /usr/share/doc/knights-23.08.5/README.themes
-* /usr/share/doc/knights-23.08.5/README.translation
+* /usr/share/doc/knights-24.02.1/ChangeLog
+* /usr/share/doc/knights-24.02.1/LICENSE
+* /usr/share/doc/knights-24.02.1/README.md
+* /usr/share/doc/knights-24.02.1/README.themes
+* /usr/share/doc/knights-24.02.1/README.translation
 * /usr/share/icons/hicolor/16x16/apps/knights.png
 * /usr/share/icons/hicolor/32x32/apps/knights.png
 * /usr/share/icons/hicolor/48x48/apps/knights.png
@@ -119,8 +119,8 @@ Chess board program.
 * /usr/share/knights/themes/xboard2.png
 * /usr/share/knights/themes/xboard2.svgz
 * /usr/share/knsrcfiles/knights.knsrc
-* /usr/share/kxmlgui5/knights/knightsui.rc
 * /usr/share/locale/ar/LC_MESSAGES/knights.mo
+* /usr/share/locale/ast/LC_MESSAGES/knights.mo
 * /usr/share/locale/bg/LC_MESSAGES/knights.mo
 * /usr/share/locale/bs/LC_MESSAGES/knights.mo
 * /usr/share/locale/ca/LC_MESSAGES/knights.mo
@@ -140,6 +140,7 @@ Chess board program.
 * /usr/share/locale/ga/LC_MESSAGES/knights.mo
 * /usr/share/locale/gl/LC_MESSAGES/knights.mo
 * /usr/share/locale/hu/LC_MESSAGES/knights.mo
+* /usr/share/locale/ia/LC_MESSAGES/knights.mo
 * /usr/share/locale/id/LC_MESSAGES/knights.mo
 * /usr/share/locale/it/LC_MESSAGES/knights.mo
 * /usr/share/locale/ja/LC_MESSAGES/knights.mo
@@ -171,4 +172,4 @@ Chess board program.
 * /usr/share/locale/zh_CN/LC_MESSAGES/knights.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/knights.mo
 * /usr/share/metainfo/org.kde.knights.appdata.xml
-* /usr/share/qlogging-categories5/knights.categories
+* /usr/share/qlogging-categories6/knights.categories

@@ -1,70 +1,70 @@
 +++
 draft = false
-title = "analitza 23.08.5-1"
-version = "23.08.5-1"
+title = "analitza 24.02.1-3"
+version = "24.02.1-3"
 description = "Shared Math libraries from Kalgebra."
-date = "2024-02-19T21:02:29"
+date = "2024-03-27T10:01:19"
 aliases = "/packages/152574"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "491988"
-usize = "2449871"
-sha1sum = "0b997c3e7e7585d7b739bea6e4a75a817dcc9fda"
-depends = "['eigen>=3.2.9-3', 'qt5-declarative>=5.15.12', 'qt5-svg>=5.15.12']"
+size = "531448"
+usize = "2573056"
+sha1sum = "ce71ed97497873923005b9cfe37195e4e5d6468e"
+depends = "['eigen>=3.2.9-3', 'qt6-5compat>=6.6.3', 'qt6-declarative>=6.6.3', 'qt6-svg>=6.6.3']"
 reverse_depends = "['cantor', 'kalgebra']"
 +++
 ### Description: 
 Shared Math libraries from Kalgebra.
 
 ### Files: 
-* /usr/include/Analitza5/analitza/abstractexpressionvisitor.h
-* /usr/include/Analitza5/analitza/abstractlexer.h
-* /usr/include/Analitza5/analitza/analitzaexport.h
-* /usr/include/Analitza5/analitza/analitzautils.h
-* /usr/include/Analitza5/analitza/analyzer.h
-* /usr/include/Analitza5/analitza/apply.h
-* /usr/include/Analitza5/analitza/builtinmethods.h
-* /usr/include/Analitza5/analitza/container.h
-* /usr/include/Analitza5/analitza/customobject.h
-* /usr/include/Analitza5/analitza/expression.h
-* /usr/include/Analitza5/analitza/expressionstream.h
-* /usr/include/Analitza5/analitza/expressiontype.h
-* /usr/include/Analitza5/analitza/importqobjectmetatype.h
-* /usr/include/Analitza5/analitza/list.h
-* /usr/include/Analitza5/analitza/matrix.h
-* /usr/include/Analitza5/analitza/object.h
-* /usr/include/Analitza5/analitza/operations.h
-* /usr/include/Analitza5/analitza/operator.h
-* /usr/include/Analitza5/analitza/value.h
-* /usr/include/Analitza5/analitza/variable.h
-* /usr/include/Analitza5/analitza/variables.h
-* /usr/include/Analitza5/analitza/vector.h
-* /usr/include/Analitza5/analitzagui/algebrahighlighter.h
-* /usr/include/Analitza5/analitzagui/analitzaguiexport.h
-* /usr/include/Analitza5/analitzagui/analitzawidgets_export.h
-* /usr/include/Analitza5/analitzagui/expressionedit.h
-* /usr/include/Analitza5/analitzagui/operatorsmodel.h
-* /usr/include/Analitza5/analitzagui/plotsview2d.h
-* /usr/include/Analitza5/analitzagui/plotsview3d_es.h
-* /usr/include/Analitza5/analitzagui/variablesmodel.h
-* /usr/include/Analitza5/analitzaplot/analitzaplotexport.h
-* /usr/include/Analitza5/analitzaplot/functiongraph.h
-* /usr/include/Analitza5/analitzaplot/planecurve.h
-* /usr/include/Analitza5/analitzaplot/plotitem.h
-* /usr/include/Analitza5/analitzaplot/plotsdictionarymodel.h
-* /usr/include/Analitza5/analitzaplot/plotsfactory.h
-* /usr/include/Analitza5/analitzaplot/plotsmodel.h
-* /usr/include/Analitza5/analitzaplot/plotter2d.h
-* /usr/include/Analitza5/analitzaplot/plotter3d_es.h
-* /usr/include/Analitza5/analitzaplot/plottingenums.h
-* /usr/include/Analitza5/analitzaplot/spacecurve.h
-* /usr/include/Analitza5/analitzaplot/surface.h
-* /usr/include/Analitza5/analitza_version.h
-* /usr/lib/cmake/Analitza5/Analitza5Config.cmake
-* /usr/lib/cmake/Analitza5/Analitza5ConfigVersion.cmake
-* /usr/lib/cmake/Analitza5/Analitza5Targets-release.cmake
-* /usr/lib/cmake/Analitza5/Analitza5Targets.cmake
+* /usr/include/Analitza6/analitza/abstractexpressionvisitor.h
+* /usr/include/Analitza6/analitza/abstractlexer.h
+* /usr/include/Analitza6/analitza/analitzaexport.h
+* /usr/include/Analitza6/analitza/analitzautils.h
+* /usr/include/Analitza6/analitza/analyzer.h
+* /usr/include/Analitza6/analitza/apply.h
+* /usr/include/Analitza6/analitza/builtinmethods.h
+* /usr/include/Analitza6/analitza/container.h
+* /usr/include/Analitza6/analitza/customobject.h
+* /usr/include/Analitza6/analitza/expression.h
+* /usr/include/Analitza6/analitza/expressionstream.h
+* /usr/include/Analitza6/analitza/expressiontype.h
+* /usr/include/Analitza6/analitza/importqobjectmetatype.h
+* /usr/include/Analitza6/analitza/list.h
+* /usr/include/Analitza6/analitza/matrix.h
+* /usr/include/Analitza6/analitza/object.h
+* /usr/include/Analitza6/analitza/operations.h
+* /usr/include/Analitza6/analitza/operator.h
+* /usr/include/Analitza6/analitza/value.h
+* /usr/include/Analitza6/analitza/variable.h
+* /usr/include/Analitza6/analitza/variables.h
+* /usr/include/Analitza6/analitza/vector.h
+* /usr/include/Analitza6/analitzagui/algebrahighlighter.h
+* /usr/include/Analitza6/analitzagui/analitzaguiexport.h
+* /usr/include/Analitza6/analitzagui/analitzawidgets_export.h
+* /usr/include/Analitza6/analitzagui/expressionedit.h
+* /usr/include/Analitza6/analitzagui/operatorsmodel.h
+* /usr/include/Analitza6/analitzagui/plotsview2d.h
+* /usr/include/Analitza6/analitzagui/plotsview3d_es.h
+* /usr/include/Analitza6/analitzagui/variablesmodel.h
+* /usr/include/Analitza6/analitzaplot/analitzaplotexport.h
+* /usr/include/Analitza6/analitzaplot/functiongraph.h
+* /usr/include/Analitza6/analitzaplot/planecurve.h
+* /usr/include/Analitza6/analitzaplot/plotitem.h
+* /usr/include/Analitza6/analitzaplot/plotsdictionarymodel.h
+* /usr/include/Analitza6/analitzaplot/plotsfactory.h
+* /usr/include/Analitza6/analitzaplot/plotsmodel.h
+* /usr/include/Analitza6/analitzaplot/plotter2d.h
+* /usr/include/Analitza6/analitzaplot/plotter3d_es.h
+* /usr/include/Analitza6/analitzaplot/plottingenums.h
+* /usr/include/Analitza6/analitzaplot/spacecurve.h
+* /usr/include/Analitza6/analitzaplot/surface.h
+* /usr/include/Analitza6/analitza_version.h
+* /usr/lib/cmake/Analitza6/Analitza6Config.cmake
+* /usr/lib/cmake/Analitza6/Analitza6ConfigVersion.cmake
+* /usr/lib/cmake/Analitza6/Analitza6Targets-release.cmake
+* /usr/lib/cmake/Analitza6/Analitza6Targets.cmake
 * /usr/lib/libAnalitza.so
 * /usr/lib/libAnalitza.so.8
 * /usr/lib/libAnalitza.so.8.0.0
@@ -77,15 +77,22 @@ Shared Math libraries from Kalgebra.
 * /usr/lib/libAnalitzaWidgets.so
 * /usr/lib/libAnalitzaWidgets.so.8
 * /usr/lib/libAnalitzaWidgets.so.8.0.0
-* /usr/share/doc/analitza-23.08.5/COPYING
-* /usr/share/doc/analitza-23.08.5/COPYING.DOC
-* /usr/share/doc/analitza-23.08.5/COPYING.LIB
-* /usr/share/doc/analitza-23.08.5/TODO
+* /usr/lib/qt6/qml/org/kde/analitza/analitzadeclarativeplugin.qmltypes
+* /usr/lib/qt6/qml/org/kde/analitza/Graph2D.qml
+* /usr/lib/qt6/qml/org/kde/analitza/Graph3D.qml
+* /usr/lib/qt6/qml/org/kde/analitza/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/analitza/libanalitzadeclarativeplugin.so
+* /usr/lib/qt6/qml/org/kde/analitza/qmldir
+* /usr/share/doc/analitza-24.02.1/COPYING
+* /usr/share/doc/analitza-24.02.1/COPYING.DOC
+* /usr/share/doc/analitza-24.02.1/COPYING.LIB
+* /usr/share/doc/analitza-24.02.1/TODO
 * /usr/share/libanalitza/plots/3Ds.plots
 * /usr/share/libanalitza/plots/basic_curves.plots
 * /usr/share/libanalitza/plots/conics.plots
 * /usr/share/libanalitza/plots/polar.plots
 * /usr/share/locale/ar/LC_MESSAGES/analitza_qt.qm
+* /usr/share/locale/ast/LC_MESSAGES/analitza_qt.qm
 * /usr/share/locale/bs/LC_MESSAGES/analitza_qt.qm
 * /usr/share/locale/ca/LC_MESSAGES/analitza_qt.qm
 * /usr/share/locale/ca@valencia/LC_MESSAGES/analitza_qt.qm
@@ -94,6 +101,7 @@ Shared Math libraries from Kalgebra.
 * /usr/share/locale/de/LC_MESSAGES/analitza_qt.qm
 * /usr/share/locale/el/LC_MESSAGES/analitza_qt.qm
 * /usr/share/locale/en_GB/LC_MESSAGES/analitza_qt.qm
+* /usr/share/locale/eo/LC_MESSAGES/analitza_qt.qm
 * /usr/share/locale/es/LC_MESSAGES/analitza_qt.qm
 * /usr/share/locale/et/LC_MESSAGES/analitza_qt.qm
 * /usr/share/locale/eu/LC_MESSAGES/analitza_qt.qm
@@ -129,7 +137,3 @@ Shared Math libraries from Kalgebra.
 * /usr/share/locale/uk/LC_MESSAGES/analitza_qt.qm
 * /usr/share/locale/zh_CN/LC_MESSAGES/analitza_qt.qm
 * /usr/share/locale/zh_TW/LC_MESSAGES/analitza_qt.qm
-* /usr/share/qt5/qml/org/kde/analitza/Graph2D.qml
-* /usr/share/qt5/qml/org/kde/analitza/Graph3D.qml
-* /usr/share/qt5/qml/org/kde/analitza/libanalitzadeclarativeplugin.so
-* /usr/share/qt5/qml/org/kde/analitza/qmldir

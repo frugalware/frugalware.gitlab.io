@@ -5,32 +5,36 @@ version = "23.08.5-1"
 description = "Kirigami-based podcast player"
 date = "2024-02-20T14:50:21"
 aliases = "/packages/220971"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "525280"
 usize = "2259095"
 sha1sum = "2f590e8739d245a637f5bee109f660f55c6c6d28"
-depends = "['kirigami-addons', 'libvlc', 'networkmanager-qt', 'qt5-quickcontrols2', 'qtkeychain', 'syndication', 'taglib>=2.0', 'threadweaver', 'vlc']"
+depends = "['kirigami-addons', 'libvlc', 'networkmanager-qt', 'qtkeychain', 'syndication', 'taglib>=2.0', 'threadweaver', 'vlc']"
 +++
 ### Description: 
 Kirigami-based podcast player
 
 ### Files: 
 * /usr/bin/kasts
-* /usr/lib/libKastsSolidExtras.so
 * /usr/lib/libKMediaSession.so
+* /usr/lib/qt6/qml/org/kde/kmediasession/libkmediasession-qmlplugin.so
+* /usr/lib/qt6/qml/org/kde/kmediasession/qmldir
 * /usr/share/applications/org.kde.kasts.desktop
-* /usr/share/doc/kasts-23.08.5/README.md
+* /usr/share/doc/kasts-24.02.1/README.md
 * /usr/share/icons/hicolor/scalable/actions/media-playback-cloud.svg
 * /usr/share/icons/hicolor/scalable/apps/kasts-tray-dark.svg
 * /usr/share/icons/hicolor/scalable/apps/kasts-tray-light.svg
 * /usr/share/icons/hicolor/scalable/apps/kasts.svg
+* /usr/share/locale/ar/LC_MESSAGES/kasts.mo
+* /usr/share/locale/ast/LC_MESSAGES/kasts.mo
 * /usr/share/locale/ca/LC_MESSAGES/kasts.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kasts.mo
 * /usr/share/locale/cs/LC_MESSAGES/kasts.mo
 * /usr/share/locale/de/LC_MESSAGES/kasts.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kasts.mo
+* /usr/share/locale/eo/LC_MESSAGES/kasts.mo
 * /usr/share/locale/es/LC_MESSAGES/kasts.mo
 * /usr/share/locale/eu/LC_MESSAGES/kasts.mo
 * /usr/share/locale/fi/LC_MESSAGES/kasts.mo
@@ -55,7 +59,3 @@ Kirigami-based podcast player
 * /usr/share/locale/zh_CN/LC_MESSAGES/kasts.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kasts.mo
 * /usr/share/metainfo/org.kde.kasts.appdata.xml
-* /usr/share/qt5/qml/org/kde/kasts/solidextras/libkasts-solidextrasqmlplugin.so
-* /usr/share/qt5/qml/org/kde/kasts/solidextras/qmldir
-* /usr/share/qt5/qml/org/kde/kmediasession/libkmediasession-qmlplugin.so
-* /usr/share/qt5/qml/org/kde/kmediasession/qmldir

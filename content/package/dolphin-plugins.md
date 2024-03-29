@@ -1,28 +1,29 @@
 +++
 draft = false
-title = "dolphin-plugins 23.08.5-1"
-version = "23.08.5-1"
+title = "dolphin-plugins 24.02.1-3"
+version = "24.02.1-3"
 description = "Extra Dolphin plugins."
-date = "2024-02-20T14:09:22"
+date = "2024-03-27T13:38:40"
 aliases = "/packages/218508"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "355392"
-usize = "2387957"
-sha1sum = "95181bd8be26a038300138cf9995b28d9d1d1c56"
-depends = "['dolphin>=23.08.5', 'ktexteditor>=5.115.0']"
+size = "417388"
+usize = "2717564"
+sha1sum = "19f7f7a46ce5e9491c48e1d4d378b65dde613fb4"
+depends = "['dolphin>=24.02.1', 'ktexteditor>=6.0.0']"
 +++
 ### Description: 
 Extra Dolphin plugins.
 
 ### Files: 
-* /usr/lib/qt5/plugins/dolphin/vcs/fileviewbazaarplugin.so
-* /usr/lib/qt5/plugins/dolphin/vcs/fileviewdropboxplugin.so
-* /usr/lib/qt5/plugins/dolphin/vcs/fileviewgitplugin.so
-* /usr/lib/qt5/plugins/dolphin/vcs/fileviewhgplugin.so
-* /usr/lib/qt5/plugins/dolphin/vcs/fileviewsvnplugin.so
-* /usr/lib/qt5/plugins/kf5/kfileitemaction/mountisoaction.so
+* /usr/lib/qt6/plugins/dolphin/vcs/fileviewbazaarplugin.so
+* /usr/lib/qt6/plugins/dolphin/vcs/fileviewdropboxplugin.so
+* /usr/lib/qt6/plugins/dolphin/vcs/fileviewgitplugin.so
+* /usr/lib/qt6/plugins/dolphin/vcs/fileviewhgplugin.so
+* /usr/lib/qt6/plugins/dolphin/vcs/fileviewsvnplugin.so
+* /usr/lib/qt6/plugins/kf6/kfileitemaction/makefileactions.so
+* /usr/lib/qt6/plugins/kf6/kfileitemaction/mountisoaction.so
 * /usr/share/config.kcfg/fileviewgitpluginsettings.kcfg
 * /usr/share/config.kcfg/fileviewhgpluginsettings.kcfg
 * /usr/share/config.kcfg/fileviewsvnpluginsettings.kcfg
@@ -45,16 +46,19 @@ Extra Dolphin plugins.
 * /usr/share/locale/ca/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/ca/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/ca/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/ca/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/ca/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/cs/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/cs/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/cs/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/cs/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/cs/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/cs/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/da/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/da/LC_MESSAGES/fileviewgitplugin.mo
@@ -64,6 +68,7 @@ Extra Dolphin plugins.
 * /usr/share/locale/de/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/de/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/de/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/de/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/de/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/el/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/el/LC_MESSAGES/fileviewgitplugin.mo
@@ -74,12 +79,17 @@ Extra Dolphin plugins.
 * /usr/share/locale/en_GB/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/fileviewsvnplugin.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/mountisoaction.mo
+* /usr/share/locale/eo/LC_MESSAGES/fileviewbazaarplugin.mo
+* /usr/share/locale/eo/LC_MESSAGES/fileviewgitplugin.mo
+* /usr/share/locale/eo/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/eo/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/eo/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/eo/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/es/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/es/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/es/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/es/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/es/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/es/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/et/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/et/LC_MESSAGES/fileviewgitplugin.mo
@@ -90,16 +100,19 @@ Extra Dolphin plugins.
 * /usr/share/locale/eu/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/eu/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/eu/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/eu/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/eu/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/fi/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/fi/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/fi/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/fi/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/fi/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/fi/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/fr/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/fr/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/fr/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/fr/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/fr/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/fr/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/ga/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/ga/LC_MESSAGES/fileviewgitplugin.mo
@@ -114,10 +127,13 @@ Extra Dolphin plugins.
 * /usr/share/locale/hu/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/hu/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/hu/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/hu/LC_MESSAGES/makefileactions.mo
+* /usr/share/locale/hu/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/ia/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/ia/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/ia/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/ia/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/ia/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/ia/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/id/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/id/LC_MESSAGES/fileviewgitplugin.mo
@@ -130,16 +146,19 @@ Extra Dolphin plugins.
 * /usr/share/locale/it/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/it/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/it/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/it/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/it/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/ja/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/ja/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/ja/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/ja/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/ja/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/ja/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/ka/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/ka/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/ka/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/ka/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/ka/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/ka/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/kk/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/kk/LC_MESSAGES/fileviewgitplugin.mo
@@ -149,6 +168,7 @@ Extra Dolphin plugins.
 * /usr/share/locale/ko/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/ko/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/ko/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/ko/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/ko/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/lt/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/lt/LC_MESSAGES/fileviewgitplugin.mo
@@ -177,6 +197,7 @@ Extra Dolphin plugins.
 * /usr/share/locale/nl/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/nl/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/nl/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/nl/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/nl/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/nn/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/nn/LC_MESSAGES/fileviewgitplugin.mo
@@ -190,6 +211,7 @@ Extra Dolphin plugins.
 * /usr/share/locale/pl/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/pl/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/pl/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/pl/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/pl/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/pt/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/pt/LC_MESSAGES/fileviewgitplugin.mo
@@ -200,6 +222,7 @@ Extra Dolphin plugins.
 * /usr/share/locale/pt_BR/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/ro/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/ro/LC_MESSAGES/fileviewsvnplugin.mo
@@ -208,27 +231,32 @@ Extra Dolphin plugins.
 * /usr/share/locale/ru/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/ru/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/ru/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/ru/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/ru/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/sk/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/sk/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/sk/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/sk/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/sk/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/sk/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/sl/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/sl/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/sl/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/sl/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/sl/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/sl/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/sv/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/sv/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/sv/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/sv/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/sv/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/sv/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/ta/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/tr/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/tr/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/tr/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/tr/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/tr/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/tr/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/ug/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/ug/LC_MESSAGES/fileviewgitplugin.mo
@@ -238,6 +266,7 @@ Extra Dolphin plugins.
 * /usr/share/locale/uk/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/uk/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/uk/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/uk/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/uk/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/vi/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/vi/LC_MESSAGES/mountisoaction.mo
@@ -245,10 +274,12 @@ Extra Dolphin plugins.
 * /usr/share/locale/zh_CN/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/mountisoaction.mo
 * /usr/share/metainfo/org.kde.dolphin-plugins.metainfo.xml

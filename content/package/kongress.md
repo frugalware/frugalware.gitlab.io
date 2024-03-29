@@ -5,13 +5,13 @@ version = "23.08.5-1"
 description = "Companion application for conferences"
 date = "2024-02-20T15:01:57"
 aliases = "/packages/220983"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "103516"
 usize = "436817"
 sha1sum = "20b3454796bb1f38c225c9e59deeb2729410c34e"
-depends = "['kcalendarcore', 'kconfig', 'kcoreaddons', 'kdbusaddons', 'ki18n', 'kirigami2', 'knotifications']"
+depends = "['kcalendarcore', 'kconfig', 'kcoreaddons', 'kdbusaddons', 'ki18n', 'kirigami', 'kirigami2', 'knotifications']"
 +++
 ### Description: 
 Companion application for conferences
@@ -21,9 +21,11 @@ Companion application for conferences
 * /usr/bin/kongressac
 * /usr/share/applications/org.kde.kongress.desktop
 * /usr/share/dbus-1/services/org.kde.kongressac.service
-* /usr/share/doc/kongress-23.08.5/README.md
+* /usr/share/doc/kongress-24.02.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.kongress.svg
-* /usr/share/knotifications5/kongressac.notifyrc
+* /usr/share/knotifications6/kongressac.notifyrc
+* /usr/share/locale/ast/LC_MESSAGES/kongress.mo
+* /usr/share/locale/ast/LC_MESSAGES/kongressac.mo
 * /usr/share/locale/ca/LC_MESSAGES/kongress.mo
 * /usr/share/locale/ca/LC_MESSAGES/kongressac.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kongress.mo
@@ -38,6 +40,7 @@ Companion application for conferences
 * /usr/share/locale/el/LC_MESSAGES/kongressac.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kongress.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kongressac.mo
+* /usr/share/locale/eo/LC_MESSAGES/kongress.mo
 * /usr/share/locale/eo/LC_MESSAGES/kongressac.mo
 * /usr/share/locale/es/LC_MESSAGES/kongress.mo
 * /usr/share/locale/es/LC_MESSAGES/kongressac.mo

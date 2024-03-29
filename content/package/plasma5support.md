@@ -12,6 +12,7 @@ size = "113204"
 usize = "428134"
 sha1sum = "e90e153089eb1fa2babf1b69066e8ff85046bc31"
 depends = "['kconfig>=6.0.0', 'kcoreaddons>=6.0.0', 'ki18n>=6.0.0']"
+reverse_depends = "['kup']"
 +++
 ### Description: 
 Support components for porting from KF5/Qt5 to KF6/Qt6

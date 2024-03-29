@@ -12,7 +12,7 @@ size = "3284132"
 usize = "12426493"
 sha1sum = "54093dbea4aed65b4c3147bd905a999c55bb7bec"
 depends = "['gpsd>=3.25', 'knewstuff5', 'kparts5', 'krunner5', 'protobuf>=25.3', 'qt5-serialport', 'qt5-webengine']"
-reverse_depends = "['digikam', 'marble']"
+reverse_depends = "['marble']"
 +++
 ### Description: 
 Marble libs

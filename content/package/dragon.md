@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "dragon 23.08.5-1"
-version = "23.08.5-1"
+title = "dragon 24.02.1-3"
+version = "24.02.1-3"
 description = "KDE Video Player."
-date = "2024-02-19T20:57:52"
+date = "2024-03-27T09:57:45"
 aliases = "/packages/168469"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1750628"
-usize = "2778466"
-sha1sum = "6105f30f23978c7a4c8fbbad7bd286a2a82dbb5f"
-depends = "['kparts>=5.115.0']"
+size = "1767288"
+usize = "2857628"
+sha1sum = "128c2e8ed7102123ce6924ca392b3e1f23be76e0"
+depends = "['kparts>=6.0.0']"
 +++
 ### Description: 
 KDE Video Player.
@@ -19,7 +19,7 @@ KDE Video Player.
 ### Files: 
 * /etc/xdg/dragonplayerrc
 * /usr/bin/dragon
-* /usr/lib/qt5/plugins/kf5/parts/dragonpart.so
+* /usr/lib/qt6/plugins/kf6/parts/dragonpart.so
 * /usr/share/applications/org.kde.dragonplayer.desktop
 * /usr/share/doc/HTML/ca/dragonplayer/index.cache.bz2
 * /usr/share/doc/HTML/ca/dragonplayer/index.docbook
@@ -84,8 +84,9 @@ KDE Video Player.
 * /usr/share/icons/oxygen/32x32/actions/player-volume-muted.png
 * /usr/share/icons/oxygen/48x48/actions/player-volume-muted.png
 * /usr/share/icons/oxygen/scalable/actions/player-volume-muted.svgz
-* /usr/share/kservices5/ServiceMenus/dragonplayer_play_dvd.desktop
+* /usr/share/kio/servicemenus/dragonplayer_play_dvd.desktop
 * /usr/share/locale/ar/LC_MESSAGES/dragonplayer.mo
+* /usr/share/locale/ast/LC_MESSAGES/dragonplayer.mo
 * /usr/share/locale/be/LC_MESSAGES/dragonplayer.mo
 * /usr/share/locale/bg/LC_MESSAGES/dragonplayer.mo
 * /usr/share/locale/bs/LC_MESSAGES/dragonplayer.mo
@@ -152,7 +153,6 @@ KDE Video Player.
 * /usr/share/man/et/man1/dragon.1.gz
 * /usr/share/man/fr/man1/dragon.1.gz
 * /usr/share/man/it/man1/dragon.1.gz
-* /usr/share/man/man1/dragon.1.gz
 * /usr/share/man/nl/man1/dragon.1.gz
 * /usr/share/man/pt/man1/dragon.1.gz
 * /usr/share/man/pt_BR/man1/dragon.1.gz

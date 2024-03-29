@@ -5,13 +5,13 @@ version = "23.08.5-1"
 description = "Screen Magnifier"
 date = "2024-02-20T12:44:29"
 aliases = "/packages/153195"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "817548"
 usize = "1654590"
 sha1sum = "363d6d962635b4926fc3f1791f6f49daa288537d"
-depends = "['kio>=5.115.0', 'libqaccessibilityclient']"
+depends = "['kio>=6.0.0', 'libqaccessibilityclient']"
 +++
 ### Description: 
 Screen Magnifier
@@ -54,18 +54,16 @@ Screen Magnifier
 * /usr/share/doc/HTML/uk/kmag/index.cache.bz2
 * /usr/share/doc/HTML/uk/kmag/index.docbook
 * /usr/share/doc/HTML/uk/kmag/screenshot.png
-* /usr/share/doc/kmag-23.08.5/AUTHORS
-* /usr/share/doc/kmag-23.08.5/ChangeLog
-* /usr/share/doc/kmag-23.08.5/COPYING
-* /usr/share/doc/kmag-23.08.5/COPYING.DOC
-* /usr/share/doc/kmag-23.08.5/README
-* /usr/share/doc/kmag-23.08.5/TODO
+* /usr/share/doc/kmag-24.02.1/ChangeLog
+* /usr/share/doc/kmag-24.02.1/README.md
 * /usr/share/icons/hicolor/16x16/apps/kmag.png
 * /usr/share/icons/hicolor/32x32/apps/kmag.png
+* /usr/share/icons/hicolor/scalable/apps/kmag.svg
 * /usr/share/kmag/icons/hicolor/16x16/actions/followmouse.png
 * /usr/share/kmag/icons/hicolor/16x16/actions/hidemouse.png
 * /usr/share/kmag/icons/hicolor/16x16/actions/window.png
 * /usr/share/locale/ar/LC_MESSAGES/kmag.mo
+* /usr/share/locale/ast/LC_MESSAGES/kmag.mo
 * /usr/share/locale/be/LC_MESSAGES/kmag.mo
 * /usr/share/locale/bg/LC_MESSAGES/kmag.mo
 * /usr/share/locale/br/LC_MESSAGES/kmag.mo

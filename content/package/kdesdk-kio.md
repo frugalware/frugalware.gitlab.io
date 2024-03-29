@@ -5,20 +5,20 @@ version = "23.08.5-1"
 description = "KIO-Slaves."
 date = "2024-02-20T12:38:23"
 aliases = "/packages/220582"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "45880"
 usize = "210013"
 sha1sum = "525b79a93946a8017988d0a6c849c1c63c66d7a0"
-depends = "['ki18n>=5.115.0', 'kio>=5.115.0']"
+depends = "['ki18n>=6.0.0', 'kio>=6.0.0']"
 +++
 ### Description: 
 KIO-Slaves.
 
 ### Files: 
-* /usr/lib/qt5/plugins/kf5/kio/perldoc.so
-* /usr/share/doc/kdesdk-kio-23.08.5/COPYING
+* /usr/lib/qt6/plugins/kf6/kio/perldoc.so
+* /usr/share/doc/kdesdk-kio-24.02.1/COPYING
 * /usr/share/kio_perldoc/pod2html.pl
 * /usr/share/locale/bs/LC_MESSAGES/kio5_perldoc.mo
 * /usr/share/locale/ca/LC_MESSAGES/kio5_perldoc.mo

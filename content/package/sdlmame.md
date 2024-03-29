@@ -1,9 +1,9 @@
 +++
 draft = false
-title = "sdlmame 0261-1"
-version = "0261-1"
+title = "sdlmame 0261-2"
+version = "0261-2"
 description = "A port of the popular Multiple Arcade Machine Emulator using SDL with OpenGL support."
-date = "2023-12-17T21:23:04"
+date = "2024-03-29T12:57:03"
 aliases = "/packages/219187"
 categories = ['games-extra']
 upstreamurl = "http://mamedev.org"

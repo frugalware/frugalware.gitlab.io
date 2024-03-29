@@ -12,7 +12,7 @@ size = "3392640"
 usize = "19175454"
 sha1sum = "a1e8a6ae84d146b35ce0d8e262b129cd7537a004"
 depends = "['kded>=5.115.0', 'kdesignerplugin>=5.115.0', 'kemoticons>=5.115.0', 'kitemmodels>=5.115.0', 'kparts>=5.115.0', 'kunitconversion>=5.115.0', 'libsm>=1.2.2-3', 'networkmanager>=1.4.0-2']"
-reverse_depends = "['akonadi-mime', 'akonadi-notes', 'audiocd-kio', 'dolphin', 'gwenview', 'kdeplasma-addons5', 'kdialog', 'kfind', 'kfourinline', 'kget', 'kgoldrunner', 'khelpcenter5', 'kio-extras', 'kjumpingcube', 'klettres', 'klickety', 'klines', 'kmenuedit5', 'kmines', 'knavalbattle', 'knemo', 'knetwalk', 'kolf', 'kollision', 'konqueror', 'kopete', 'kpat', 'ksirk', 'ksquares', 'kteatime', 'ktuberling', 'kwalletmanager', 'kwordquiz', 'pairs', 'palapeli', 'picmi', 'plasma-sdk']"
+reverse_depends = "['gwenview', 'kdeplasma-addons5', 'kdialog', 'kfind', 'kfourinline', 'kgoldrunner', 'khelpcenter5', 'kio-extras', 'kjumpingcube', 'klettres', 'klickety', 'klines', 'kmenuedit5', 'kmines', 'knavalbattle', 'knemo', 'knetwalk', 'kollision', 'konqueror', 'kopete', 'ksquares', 'kteatime', 'ktuberling', 'kwalletmanager', 'kwordquiz', 'pairs', 'palapeli', 'picmi', 'plasma-sdk']"
 +++
 ### Description: 
 KDE4 Support.

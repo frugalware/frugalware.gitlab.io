@@ -12,7 +12,7 @@ size = "246788"
 usize = "1155662"
 sha1sum = "8ca5f259b11aaa1ca1d31e6b83132576af7a9f52"
 depends = "['gst1-plugins-bad>=1.10.1-2', 'gst1-plugins-base>=1.10.1', 'gst1-plugins-good>=1.10.1', 'qt5-base>=5.15.0', 'qt5-declarative>=5.15.0']"
-reverse_depends = "['artikulate', 'blinken']"
+reverse_depends = "['artikulate']"
 +++
 ### Description: 
 Qt5 bindings for GStreamer.

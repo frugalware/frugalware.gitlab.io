@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "alligator 23.08.5-1"
-version = "23.08.5-1"
+title = "alligator 24.02.1-3"
+version = "24.02.1-3"
 description = "Kirigami-based RSS reader"
-date = "2024-02-20T15:25:31"
+date = "2024-03-27T14:29:11"
 aliases = "/packages/220959"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "99508"
-usize = "415270"
-sha1sum = "a8ef55fcf3174c160edefc70522a2f7b563ca843"
+size = "139644"
+usize = "623059"
+sha1sum = "9d5326bcff21d12cd44275f9e555f3fec4d5747a"
 depends = "['kconfig>=', 'kcoreaddons>=', 'ki18n>=', 'kirigami-addons', 'syndication>=']"
 +++
 ### Description: 
@@ -19,13 +19,15 @@ Kirigami-based RSS reader
 ### Files: 
 * /usr/bin/alligator
 * /usr/share/applications/org.kde.alligator.desktop
-* /usr/share/doc/alligator-23.08.5/README.md
+* /usr/share/doc/alligator-24.02.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/alligator.svg
+* /usr/share/locale/ast/LC_MESSAGES/alligator.mo
 * /usr/share/locale/ca/LC_MESSAGES/alligator.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/alligator.mo
 * /usr/share/locale/cs/LC_MESSAGES/alligator.mo
 * /usr/share/locale/de/LC_MESSAGES/alligator.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/alligator.mo
+* /usr/share/locale/eo/LC_MESSAGES/alligator.mo
 * /usr/share/locale/es/LC_MESSAGES/alligator.mo
 * /usr/share/locale/et/LC_MESSAGES/alligator.mo
 * /usr/share/locale/eu/LC_MESSAGES/alligator.mo

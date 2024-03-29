@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "dolphin 23.08.5-1"
-version = "23.08.5-1"
+title = "dolphin 24.02.1-3"
+version = "24.02.1-3"
 description = "File Manager"
-date = "2024-02-20T09:58:41"
+date = "2024-03-27T12:48:54"
 aliases = "/packages/88149"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4454432"
-usize = "13509641"
-sha1sum = "d2a3dc54e51ffc91d4464a5d7982f3d7a521e00e"
-depends = "['baloo-widgets>=23.08.5', 'ffmpegthumbs', 'kactivities5>=5.115.0', 'kbookmarks>=5.115.0', 'kcmutils>=5.115.0', 'kcompletion>=5.115.0', 'kconfig>=5.115.0', 'kcoreaddons>=5.115.0', 'kcrash>=5.115.0', 'kdbusaddons>=5.115.0', 'kdegraphics-thumbnailers', 'kdelibs4support>=5.115.0', 'kdesdk-thumbnailers', 'kfilemetadata5>=5.115.0', 'ki18n>=5.115.0', 'kiconthemes>=5.115.0', 'kinit>=5.115.0', 'kio>=5.115.0', 'knewstuff>=5.115.0', 'knotifications>=5.115.0', 'kparts>=5.115.0', 'ktextwidgets>=5.115.0', 'kwindowsystem>=5.115.0', 'qt5-declarative>=5.15.12', 'solid>=5.115.0']"
+size = "4593624"
+usize = "14096902"
+sha1sum = "58716f46d8791837bea68c6afb565f46c434dec3"
+depends = "['baloo-widgets>=24.02.1', 'ffmpegthumbs', 'kbookmarks>=6.0.0', 'kcmutils>=6.0.0', 'kcompletion>=6.0.0', 'kconfig>=6.0.0', 'kcoreaddons>=6.0.0', 'kcrash>=6.0.0', 'kdbusaddons>=6.0.0', 'kdegraphics-thumbnailers', 'kdesdk-thumbnailers', 'kfilemetadata>=6.0.0', 'ki18n>=6.0.0', 'kiconthemes>=6.0.0', 'kio>=6.0.0', 'knewstuff>=6.0.0', 'knotifications>=6.0.0', 'kparts>=6.0.0', 'ktextwidgets>=6.0.0', 'kwindowsystem>=6.0.0', 'plasma-activities>=6.0.3', 'qt6-declarative>=6.6.3', 'solid>=6.0.0']"
 reverse_depends = "['dolphin-plugins', 'kio-gdrive']"
 +++
 ### Description: 
@@ -29,15 +29,14 @@ File Manager
 * /usr/lib/cmake/DolphinVcs/DolphinVcsConfigVersion.cmake
 * /usr/lib/cmake/DolphinVcs/DolphinVcsTargets-release.cmake
 * /usr/lib/cmake/DolphinVcs/DolphinVcsTargets.cmake
-* /usr/lib/libdolphinprivate.so.5
-* /usr/lib/libdolphinprivate.so.5.0.0
+* /usr/lib/libdolphinprivate.so.24.02.1
+* /usr/lib/libdolphinprivate.so.6
 * /usr/lib/libdolphinvcs.so
-* /usr/lib/libdolphinvcs.so.5
-* /usr/lib/libdolphinvcs.so.5.0.0
-* /usr/lib/qt5/plugins/dolphin/kcms/kcm_dolphingeneral.so
-* /usr/lib/qt5/plugins/dolphin/kcms/kcm_dolphinnavigation.so
-* /usr/lib/qt5/plugins/dolphin/kcms/kcm_dolphinviewmodes.so
-* /usr/lib/qt5/plugins/kf5/parts/dolphinpart.so
+* /usr/lib/libdolphinvcs.so.24.02.1
+* /usr/lib/libdolphinvcs.so.6
+* /usr/lib/qt6/plugins/dolphin/kcms/kcm_dolphingeneral.so
+* /usr/lib/qt6/plugins/dolphin/kcms/kcm_dolphinviewmodes.so
+* /usr/lib/qt6/plugins/kf6/parts/dolphinpart.so
 * /usr/lib/systemd/user/plasma-dolphin.service
 * /usr/share/applications/org.kde.dolphin.desktop
 * /usr/share/config.kcfg/dolphin_compactmodesettings.kcfg
@@ -50,9 +49,9 @@ File Manager
 * /usr/share/config.kcfg/dolphin_versioncontrolsettings.kcfg
 * /usr/share/dbus-1/interfaces/org.freedesktop.FileManager1.xml
 * /usr/share/dbus-1/services/org.kde.dolphin.FileManager1.service
-* /usr/share/doc/dolphin-23.08.5/COPYING
-* /usr/share/doc/dolphin-23.08.5/COPYING.DOC
-* /usr/share/doc/dolphin-23.08.5/README.md
+* /usr/share/doc/dolphin-24.02.1/COPYING
+* /usr/share/doc/dolphin-24.02.1/COPYING.DOC
+* /usr/share/doc/dolphin-24.02.1/README.md
 * /usr/share/doc/HTML/ca/dolphin/default-ui.png
 * /usr/share/doc/HTML/ca/dolphin/grouping-view.png
 * /usr/share/doc/HTML/ca/dolphin/index.cache.bz2
@@ -229,11 +228,14 @@ File Manager
 * /usr/share/doc/HTML/uk/dolphin/toolbar.png
 * /usr/share/doc/HTML/uk/dolphin/viewproperties-dialog.png
 * /usr/share/dolphin/dolphinpartactions.desktop
+* /usr/share/icons/hicolor/scalable/apps/org.kde.dolphin.svg
 * /usr/share/kconf_update/dolphin_detailsmodesettings.upd
 * /usr/share/kglobalaccel/org.kde.dolphin.desktop
 * /usr/share/knsrcfiles/servicemenu.knsrc
 * /usr/share/locale/ar/LC_MESSAGES/dolphin.mo
 * /usr/share/locale/ar/LC_MESSAGES/dolphin_servicemenuinstaller.mo
+* /usr/share/locale/ast/LC_MESSAGES/dolphin.mo
+* /usr/share/locale/ast/LC_MESSAGES/dolphin_servicemenuinstaller.mo
 * /usr/share/locale/az/LC_MESSAGES/dolphin.mo
 * /usr/share/locale/az/LC_MESSAGES/dolphin_servicemenuinstaller.mo
 * /usr/share/locale/be/LC_MESSAGES/dolphin.mo
@@ -270,7 +272,6 @@ File Manager
 * /usr/share/locale/fa/LC_MESSAGES/dolphin.mo
 * /usr/share/locale/fi/LC_MESSAGES/dolphin.mo
 * /usr/share/locale/fi/LC_MESSAGES/dolphin_servicemenuinstaller.mo
-* /usr/share/locale/fi/LC_SCRIPTS/dolphin/dolphin.js
 * /usr/share/locale/fr/LC_MESSAGES/dolphin.mo
 * /usr/share/locale/fr/LC_MESSAGES/dolphin_servicemenuinstaller.mo
 * /usr/share/locale/fy/LC_MESSAGES/dolphin.mo
@@ -279,6 +280,7 @@ File Manager
 * /usr/share/locale/gl/LC_MESSAGES/dolphin_servicemenuinstaller.mo
 * /usr/share/locale/gu/LC_MESSAGES/dolphin.mo
 * /usr/share/locale/he/LC_MESSAGES/dolphin.mo
+* /usr/share/locale/he/LC_MESSAGES/dolphin_servicemenuinstaller.mo
 * /usr/share/locale/hi/LC_MESSAGES/dolphin.mo
 * /usr/share/locale/hi/LC_MESSAGES/dolphin_servicemenuinstaller.mo
 * /usr/share/locale/hne/LC_MESSAGES/dolphin.mo
@@ -373,5 +375,5 @@ File Manager
 * /usr/share/locale/zh_TW/LC_MESSAGES/dolphin.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/dolphin_servicemenuinstaller.mo
 * /usr/share/metainfo/org.kde.dolphin.appdata.xml
-* /usr/share/qlogging-categories5/dolphin.categories
+* /usr/share/qlogging-categories6/dolphin.categories
 * /usr/share/zsh/site-functions/_dolphin

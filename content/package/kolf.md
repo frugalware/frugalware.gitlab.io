@@ -5,13 +5,13 @@ version = "23.08.5-1"
 description = "Kolf is a miniature golf game."
 date = "2024-02-20T13:05:37"
 aliases = "/packages/219527"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1252500"
 usize = "3397383"
 sha1sum = "17c7d80be85bce8ba27f5489af5db7d67470893e"
-depends = "['kdelibs4support>=5.115.0', 'libkdegames>=23.08.5']"
+depends = "['libkdegames>=24.02.1']"
 +++
 ### Description: 
 Kolf is a miniature golf game.
@@ -47,13 +47,13 @@ Kolf is a miniature golf game.
 * /usr/share/doc/HTML/sv/kolf/index.docbook
 * /usr/share/doc/HTML/uk/kolf/index.cache.bz2
 * /usr/share/doc/HTML/uk/kolf/index.docbook
-* /usr/share/doc/kolf-23.08.5/COPYING
-* /usr/share/doc/kolf-23.08.5/COPYING.DOC
-* /usr/share/doc/kolf-23.08.5/COPYING.LIB
-* /usr/share/doc/kolf-23.08.5/README.objectplugins
-* /usr/share/doc/kolf-23.08.5/README.PACKAGERS
-* /usr/share/doc/kolf-23.08.5/README.pool
-* /usr/share/doc/kolf-23.08.5/TODO
+* /usr/share/doc/kolf-24.02.1/COPYING
+* /usr/share/doc/kolf-24.02.1/COPYING.DOC
+* /usr/share/doc/kolf-24.02.1/COPYING.LIB
+* /usr/share/doc/kolf-24.02.1/README.objectplugins
+* /usr/share/doc/kolf-24.02.1/README.PACKAGERS
+* /usr/share/doc/kolf-24.02.1/README.pool
+* /usr/share/doc/kolf-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kolf.png
 * /usr/share/icons/hicolor/16x16/apps/kolf.png
 * /usr/share/icons/hicolor/22x22/apps/kolf.png
@@ -83,9 +83,9 @@ Kolf is a miniature golf game.
 * /usr/share/kolf/sounds/woohoo.wav
 * /usr/share/kolf/tutorial.kolf
 * /usr/share/kolf/tutorial.kolfgame
-* /usr/share/kxmlgui5/kolf/kolfui.rc
 * /usr/share/locale/af/LC_MESSAGES/kolf.mo
 * /usr/share/locale/ar/LC_MESSAGES/kolf.mo
+* /usr/share/locale/ast/LC_MESSAGES/kolf.mo
 * /usr/share/locale/be/LC_MESSAGES/kolf.mo
 * /usr/share/locale/bg/LC_MESSAGES/kolf.mo
 * /usr/share/locale/br/LC_MESSAGES/kolf.mo
@@ -112,6 +112,7 @@ Kolf is a miniature golf game.
 * /usr/share/locale/hne/LC_MESSAGES/kolf.mo
 * /usr/share/locale/hr/LC_MESSAGES/kolf.mo
 * /usr/share/locale/hu/LC_MESSAGES/kolf.mo
+* /usr/share/locale/ia/LC_MESSAGES/kolf.mo
 * /usr/share/locale/is/LC_MESSAGES/kolf.mo
 * /usr/share/locale/it/LC_MESSAGES/kolf.mo
 * /usr/share/locale/ja/LC_MESSAGES/kolf.mo

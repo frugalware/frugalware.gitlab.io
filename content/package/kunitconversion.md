@@ -12,7 +12,7 @@ size = "837060"
 usize = "11241344"
 sha1sum = "637dfaad54b5226b27997a6c3ea598f25cadc8aa"
 depends = "['ki18n>=6.0.0', 'qt6-base>=6.6.3']"
-reverse_depends = "['kalk', 'kdelibs4support', 'kdeplasma-addons', 'kdeplasma-addons5', 'plasma-workspace']"
+reverse_depends = "['itinerary', 'kalk', 'kdelibs4support', 'kdeplasma-addons', 'kdeplasma-addons5', 'plasma-workspace']"
 +++
 ### Description: 
 Converting physical units.

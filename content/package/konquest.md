@@ -5,13 +5,13 @@ version = "23.08.5-1"
 description = "Konquest is the KDE version of Gnu-Lactic"
 date = "2024-02-20T13:06:54"
 aliases = "/packages/219337"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "973044"
 usize = "1667929"
 sha1sum = "777f0b2bedd4d2333898e96e6daae9e0f34d2e5c"
-depends = "['libkdegames>=23.08.5']"
+depends = "['libkdegames>=24.02.1', 'qt6-scxml>=6.6.3']"
 +++
 ### Description: 
 Konquest is the KDE version of Gnu-Lactic
@@ -58,10 +58,10 @@ Konquest is the KDE version of Gnu-Lactic
 * /usr/share/doc/HTML/uk/konquest/ingame_window.png
 * /usr/share/doc/HTML/uk/konquest/main_game_window.png
 * /usr/share/doc/HTML/uk/konquest/new_game_settings.png
-* /usr/share/doc/konquest-23.08.5/AUTHORS
-* /usr/share/doc/konquest-23.08.5/README
-* /usr/share/doc/konquest-23.08.5/README.PACKAGERS
-* /usr/share/doc/konquest-23.08.5/TODO
+* /usr/share/doc/konquest-24.02.1/AUTHORS
+* /usr/share/doc/konquest-24.02.1/README
+* /usr/share/doc/konquest-24.02.1/README.PACKAGERS
+* /usr/share/doc/konquest-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/konquest.png
 * /usr/share/icons/hicolor/16x16/apps/konquest.png
 * /usr/share/icons/hicolor/22x22/apps/konquest.png
@@ -72,6 +72,7 @@ Konquest is the KDE version of Gnu-Lactic
 * /usr/share/konquest/pics/konquest-splash.png
 * /usr/share/locale/af/LC_MESSAGES/konquest.mo
 * /usr/share/locale/ar/LC_MESSAGES/konquest.mo
+* /usr/share/locale/ast/LC_MESSAGES/konquest.mo
 * /usr/share/locale/be/LC_MESSAGES/konquest.mo
 * /usr/share/locale/bg/LC_MESSAGES/konquest.mo
 * /usr/share/locale/br/LC_MESSAGES/konquest.mo
@@ -98,6 +99,7 @@ Konquest is the KDE version of Gnu-Lactic
 * /usr/share/locale/hne/LC_MESSAGES/konquest.mo
 * /usr/share/locale/hr/LC_MESSAGES/konquest.mo
 * /usr/share/locale/hu/LC_MESSAGES/konquest.mo
+* /usr/share/locale/ia/LC_MESSAGES/konquest.mo
 * /usr/share/locale/is/LC_MESSAGES/konquest.mo
 * /usr/share/locale/it/LC_MESSAGES/konquest.mo
 * /usr/share/locale/ja/LC_MESSAGES/konquest.mo

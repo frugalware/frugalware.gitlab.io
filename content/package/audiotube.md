@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "audiotube 23.08.5-1"
-version = "23.08.5-1"
+title = "audiotube 24.02.1-3"
+version = "24.02.1-3"
 description = "Client for YouTube Music"
-date = "2024-02-20T15:27:05"
+date = "2024-03-27T14:33:51"
 aliases = "/packages/220964"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "426772"
-usize = "1366790"
-sha1sum = "b55a648269afd9fa6ae84ad176890de7d02156b6"
-depends = "['futuresql', 'kcoreaddons>=', 'kcrash>=', 'ki18n>=', 'kirigami-addons', 'kwindowsystem>=', 'pybind11', 'python3-ytmusicapi', 'qcoro', 'yt-dlp']"
+size = "437140"
+usize = "1463262"
+sha1sum = "a9d2beaa3853a2de8863662c4a24cf842dbf54fd"
+depends = "['futuresql', 'kcoreaddons>=', 'kcrash>=', 'ki18n>=', 'kirigami-addons', 'kwindowsystem>=', 'pybind11', 'python3-ytmusicapi', 'qcoro', 'qt6-multimedia>=', 'yt-dlp']"
 +++
 ### Description: 
 Client for YouTube Music
@@ -19,7 +19,7 @@ Client for YouTube Music
 ### Files: 
 * /usr/bin/audiotube
 * /usr/share/applications/org.kde.audiotube.desktop
-* /usr/share/doc/audiotube-23.08.5/README.md
+* /usr/share/doc/audiotube-24.02.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.audiotube.svg
 * /usr/share/locale/ar/LC_MESSAGES/audiotube.mo
 * /usr/share/locale/az/LC_MESSAGES/audiotube.mo
@@ -28,12 +28,14 @@ Client for YouTube Music
 * /usr/share/locale/cs/LC_MESSAGES/audiotube.mo
 * /usr/share/locale/de/LC_MESSAGES/audiotube.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/audiotube.mo
+* /usr/share/locale/eo/LC_MESSAGES/audiotube.mo
 * /usr/share/locale/es/LC_MESSAGES/audiotube.mo
 * /usr/share/locale/eu/LC_MESSAGES/audiotube.mo
 * /usr/share/locale/fi/LC_MESSAGES/audiotube.mo
 * /usr/share/locale/fr/LC_MESSAGES/audiotube.mo
 * /usr/share/locale/gl/LC_MESSAGES/audiotube.mo
 * /usr/share/locale/hi/LC_MESSAGES/audiotube.mo
+* /usr/share/locale/hu/LC_MESSAGES/audiotube.mo
 * /usr/share/locale/ia/LC_MESSAGES/audiotube.mo
 * /usr/share/locale/id/LC_MESSAGES/audiotube.mo
 * /usr/share/locale/it/LC_MESSAGES/audiotube.mo

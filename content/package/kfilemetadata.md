@@ -12,6 +12,7 @@ size = "208180"
 usize = "1209728"
 sha1sum = "ef61d713d8bc826eb7bb09e82449c593336c83bc"
 depends = "['catdoc>=0.95-3', 'ebook-tools>=0.2.2-6', 'exiv2>=0.28.1', 'ffmpeg>=6.0', 'karchive>=6.0.0', 'kcoreaddons>=6.0.0', 'kdegraphics-mobipocket', 'ki18n>=6.0.0', 'poppler-qt6>=0.62.0', 'qt6-multimedia>=5.10.0', 'taglib>=2.0']"
+reverse_depends = "['ark', 'digikam', 'dolphin', 'kdenlive', 'koko']"
 +++
 ### Description: 
 A library for extracting file metadata.

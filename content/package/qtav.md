@@ -12,7 +12,6 @@ size = "885748"
 usize = "3481909"
 sha1sum = "f0c4c4d5032ae98252893a69f63b777099b1c504"
 depends = "['desktop-file-utils', 'ffmpeg4.4', 'libxv', 'openal', 'qt5-declarative>=5.15.10', 'qt5-quickcontrols>=5.15.10', 'qt5-svg>=5.15.10']"
-reverse_depends = "['digikam']"
 +++
 ### Description: 
 A cross-platform multimedia playback framework based on Qt and FFmpeg

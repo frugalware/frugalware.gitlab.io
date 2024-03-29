@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "audiocd-kio 23.08.5-1"
-version = "23.08.5-1"
+title = "audiocd-kio 24.02.1-3"
+version = "24.02.1-3"
 description = "Kioslave for accessing audio CDs"
-date = "2024-02-19T22:13:07"
+date = "2024-03-27T10:44:21"
 aliases = "/packages/219318"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "675672"
-usize = "2507439"
-sha1sum = "56c086f65de4ae6ac921420a6ce1b99a02b51e4d"
-depends = "['cdparanoia', 'flac>=1.4.0', 'kcmutils>=5.115.0', 'kdelibs4support>=5.115.0', 'libkcddb>=23.08.5', 'libkcompactdisc>=23.08.5']"
+size = "684068"
+usize = "2496932"
+sha1sum = "caf6405bb4df1bf4163edce0ac3ef6e842550998"
+depends = "['cdparanoia', 'flac>=1.4.0', 'kcmutils>=6.0.0', 'libkcddb>=24.02.1', 'libkcompactdisc>=24.02.1']"
 +++
 ### Description: 
 Kioslave for accessing audio CDs
@@ -23,29 +23,29 @@ Kioslave for accessing audio CDs
 * /usr/lib/libaudiocdplugins.so
 * /usr/lib/libaudiocdplugins.so.5
 * /usr/lib/libaudiocdplugins.so.5.1.0
-* /usr/lib/qt5/plugins/kf5/kio/audiocd.so
-* /usr/lib/qt5/plugins/libaudiocd_encoder_flac.so
-* /usr/lib/qt5/plugins/libaudiocd_encoder_lame.so
-* /usr/lib/qt5/plugins/libaudiocd_encoder_opus.so
-* /usr/lib/qt5/plugins/libaudiocd_encoder_vorbis.so
-* /usr/lib/qt5/plugins/libaudiocd_encoder_wav.so
-* /usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/kcm_audiocd.so
+* /usr/lib/qt6/plugins/kf6/kio/audiocd.so
+* /usr/lib/qt6/plugins/libaudiocd_encoder_flac.so
+* /usr/lib/qt6/plugins/libaudiocd_encoder_lame.so
+* /usr/lib/qt6/plugins/libaudiocd_encoder_opus.so
+* /usr/lib/qt6/plugins/libaudiocd_encoder_vorbis.so
+* /usr/lib/qt6/plugins/libaudiocd_encoder_wav.so
+* /usr/lib/qt6/plugins/plasma/kcms/systemsettings_qwidgets/kcm_audiocd.so
 * /usr/share/applications/kcm_audiocd.desktop
 * /usr/share/config.kcfg/audiocd_flac_encoder.kcfg
 * /usr/share/config.kcfg/audiocd_lame_encoder.kcfg
 * /usr/share/config.kcfg/audiocd_opus_encoder.kcfg
 * /usr/share/config.kcfg/audiocd_vorbis_encoder.kcfg
-* /usr/share/doc/audiocd-kio-23.08.5/COPYING
-* /usr/share/doc/audiocd-kio-23.08.5/COPYING.DOC
-* /usr/share/doc/audiocd-kio-23.08.5/HACKING
+* /usr/share/doc/audiocd-kio-24.02.1/COPYING
+* /usr/share/doc/audiocd-kio-24.02.1/COPYING.DOC
+* /usr/share/doc/audiocd-kio-24.02.1/HACKING
 * /usr/share/doc/HTML/ca/kcontrol/kcmaudiocd/index.cache.bz2
 * /usr/share/doc/HTML/ca/kcontrol/kcmaudiocd/index.docbook
-* /usr/share/doc/HTML/ca/kioslave5/audiocd/index.cache.bz2
-* /usr/share/doc/HTML/ca/kioslave5/audiocd/index.docbook
+* /usr/share/doc/HTML/ca/kioworker6/audiocd/index.cache.bz2
+* /usr/share/doc/HTML/ca/kioworker6/audiocd/index.docbook
 * /usr/share/doc/HTML/de/kcontrol/kcmaudiocd/index.cache.bz2
 * /usr/share/doc/HTML/de/kcontrol/kcmaudiocd/index.docbook
-* /usr/share/doc/HTML/de/kioslave5/audiocd/index.cache.bz2
-* /usr/share/doc/HTML/de/kioslave5/audiocd/index.docbook
+* /usr/share/doc/HTML/de/kioworker6/audiocd/index.cache.bz2
+* /usr/share/doc/HTML/de/kioworker6/audiocd/index.docbook
 * /usr/share/doc/HTML/en/kcontrol/audiocd/flac.png
 * /usr/share/doc/HTML/en/kcontrol/audiocd/general.png
 * /usr/share/doc/HTML/en/kcontrol/audiocd/index.cache.bz2
@@ -58,38 +58,42 @@ Kioslave for accessing audio CDs
 * /usr/share/doc/HTML/en/kioslave5/audiocd/index.docbook
 * /usr/share/doc/HTML/es/kcontrol/kcmaudiocd/index.cache.bz2
 * /usr/share/doc/HTML/es/kcontrol/kcmaudiocd/index.docbook
-* /usr/share/doc/HTML/es/kioslave5/audiocd/index.cache.bz2
-* /usr/share/doc/HTML/es/kioslave5/audiocd/index.docbook
-* /usr/share/doc/HTML/et/kioslave5/audiocd/index.cache.bz2
-* /usr/share/doc/HTML/et/kioslave5/audiocd/index.docbook
-* /usr/share/doc/HTML/fr/kioslave5/audiocd/index.cache.bz2
-* /usr/share/doc/HTML/fr/kioslave5/audiocd/index.docbook
+* /usr/share/doc/HTML/es/kioworker6/audiocd/index.cache.bz2
+* /usr/share/doc/HTML/es/kioworker6/audiocd/index.docbook
+* /usr/share/doc/HTML/et/kioworker6/audiocd/index.cache.bz2
+* /usr/share/doc/HTML/et/kioworker6/audiocd/index.docbook
+* /usr/share/doc/HTML/fr/kioworker6/audiocd/index.cache.bz2
+* /usr/share/doc/HTML/fr/kioworker6/audiocd/index.docbook
 * /usr/share/doc/HTML/it/kcontrol/kcmaudiocd/index.cache.bz2
 * /usr/share/doc/HTML/it/kcontrol/kcmaudiocd/index.docbook
-* /usr/share/doc/HTML/it/kioslave5/audiocd/index.cache.bz2
-* /usr/share/doc/HTML/it/kioslave5/audiocd/index.docbook
+* /usr/share/doc/HTML/it/kioworker6/audiocd/index.cache.bz2
+* /usr/share/doc/HTML/it/kioworker6/audiocd/index.docbook
 * /usr/share/doc/HTML/nl/kcontrol/kcmaudiocd/index.cache.bz2
 * /usr/share/doc/HTML/nl/kcontrol/kcmaudiocd/index.docbook
-* /usr/share/doc/HTML/nl/kioslave5/audiocd/index.cache.bz2
-* /usr/share/doc/HTML/nl/kioslave5/audiocd/index.docbook
-* /usr/share/doc/HTML/pl/kioslave5/audiocd/index.cache.bz2
-* /usr/share/doc/HTML/pl/kioslave5/audiocd/index.docbook
-* /usr/share/doc/HTML/pt/kioslave5/audiocd/index.cache.bz2
-* /usr/share/doc/HTML/pt/kioslave5/audiocd/index.docbook
-* /usr/share/doc/HTML/pt_BR/kioslave5/audiocd/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/kioslave5/audiocd/index.docbook
+* /usr/share/doc/HTML/nl/kioworker6/audiocd/index.cache.bz2
+* /usr/share/doc/HTML/nl/kioworker6/audiocd/index.docbook
+* /usr/share/doc/HTML/pl/kioworker6/audiocd/index.cache.bz2
+* /usr/share/doc/HTML/pl/kioworker6/audiocd/index.docbook
+* /usr/share/doc/HTML/pt/kioworker6/audiocd/index.cache.bz2
+* /usr/share/doc/HTML/pt/kioworker6/audiocd/index.docbook
+* /usr/share/doc/HTML/pt_BR/kioworker6/audiocd/index.cache.bz2
+* /usr/share/doc/HTML/pt_BR/kioworker6/audiocd/index.docbook
 * /usr/share/doc/HTML/ru/kcontrol/kcmaudiocd/index.cache.bz2
 * /usr/share/doc/HTML/ru/kcontrol/kcmaudiocd/index.docbook
-* /usr/share/doc/HTML/ru/kioslave5/audiocd/index.cache.bz2
-* /usr/share/doc/HTML/ru/kioslave5/audiocd/index.docbook
-* /usr/share/doc/HTML/sr/kioslave5/audiocd/index.cache.bz2
-* /usr/share/doc/HTML/sr/kioslave5/audiocd/index.docbook
-* /usr/share/doc/HTML/sr@latin/kioslave5/audiocd/index.cache.bz2
-* /usr/share/doc/HTML/sr@latin/kioslave5/audiocd/index.docbook
+* /usr/share/doc/HTML/ru/kioworker6/audiocd/index.cache.bz2
+* /usr/share/doc/HTML/ru/kioworker6/audiocd/index.docbook
+* /usr/share/doc/HTML/sr/kioworker6/audiocd/index.cache.bz2
+* /usr/share/doc/HTML/sr/kioworker6/audiocd/index.docbook
+* /usr/share/doc/HTML/sr@latin/kioworker6/audiocd/index.cache.bz2
+* /usr/share/doc/HTML/sr@latin/kioworker6/audiocd/index.docbook
 * /usr/share/doc/HTML/sv/kcontrol/kcmaudiocd/index.cache.bz2
 * /usr/share/doc/HTML/sv/kcontrol/kcmaudiocd/index.docbook
-* /usr/share/doc/HTML/sv/kioslave5/audiocd/index.cache.bz2
-* /usr/share/doc/HTML/sv/kioslave5/audiocd/index.docbook
+* /usr/share/doc/HTML/sv/kioworker6/audiocd/index.cache.bz2
+* /usr/share/doc/HTML/sv/kioworker6/audiocd/index.docbook
+* /usr/share/doc/HTML/tr/kcontrol/kcmaudiocd/index.cache.bz2
+* /usr/share/doc/HTML/tr/kcontrol/kcmaudiocd/index.docbook
+* /usr/share/doc/HTML/tr/kioworker6/audiocd/index.cache.bz2
+* /usr/share/doc/HTML/tr/kioworker6/audiocd/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/kcmaudiocd/flac.png
 * /usr/share/doc/HTML/uk/kcontrol/kcmaudiocd/general.png
 * /usr/share/doc/HTML/uk/kcontrol/kcmaudiocd/index.cache.bz2
@@ -98,8 +102,8 @@ Kioslave for accessing audio CDs
 * /usr/share/doc/HTML/uk/kcontrol/kcmaudiocd/names.png
 * /usr/share/doc/HTML/uk/kcontrol/kcmaudiocd/ogg.png
 * /usr/share/doc/HTML/uk/kcontrol/kcmaudiocd/opus.png
-* /usr/share/doc/HTML/uk/kioslave5/audiocd/index.cache.bz2
-* /usr/share/doc/HTML/uk/kioslave5/audiocd/index.docbook
+* /usr/share/doc/HTML/uk/kioworker6/audiocd/index.cache.bz2
+* /usr/share/doc/HTML/uk/kioworker6/audiocd/index.docbook
 * /usr/share/konqsidebartng/virtual_folders/services/audiocd.desktop
 * /usr/share/locale/af/LC_MESSAGES/kcmaudiocd.mo
 * /usr/share/locale/af/LC_MESSAGES/kio_audiocd.mo
@@ -109,6 +113,12 @@ Kioslave for accessing audio CDs
 * /usr/share/locale/ar/LC_MESSAGES/audiocd_encoder_vorbis.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcmaudiocd.mo
 * /usr/share/locale/ar/LC_MESSAGES/kio_audiocd.mo
+* /usr/share/locale/ast/LC_MESSAGES/audiocd_encoder_flac.mo
+* /usr/share/locale/ast/LC_MESSAGES/audiocd_encoder_lame.mo
+* /usr/share/locale/ast/LC_MESSAGES/audiocd_encoder_opus.mo
+* /usr/share/locale/ast/LC_MESSAGES/audiocd_encoder_vorbis.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcmaudiocd.mo
+* /usr/share/locale/ast/LC_MESSAGES/kio_audiocd.mo
 * /usr/share/locale/az/LC_MESSAGES/audiocd_encoder_flac.mo
 * /usr/share/locale/az/LC_MESSAGES/audiocd_encoder_lame.mo
 * /usr/share/locale/az/LC_MESSAGES/audiocd_encoder_opus.mo
@@ -183,6 +193,7 @@ Kioslave for accessing audio CDs
 * /usr/share/locale/en_GB/LC_MESSAGES/kio_audiocd.mo
 * /usr/share/locale/eo/LC_MESSAGES/audiocd_encoder_flac.mo
 * /usr/share/locale/eo/LC_MESSAGES/audiocd_encoder_lame.mo
+* /usr/share/locale/eo/LC_MESSAGES/audiocd_encoder_opus.mo
 * /usr/share/locale/eo/LC_MESSAGES/audiocd_encoder_vorbis.mo
 * /usr/share/locale/eo/LC_MESSAGES/kcmaudiocd.mo
 * /usr/share/locale/eo/LC_MESSAGES/kio_audiocd.mo
@@ -230,7 +241,9 @@ Kioslave for accessing audio CDs
 * /usr/share/locale/gl/LC_MESSAGES/audiocd_encoder_vorbis.mo
 * /usr/share/locale/gl/LC_MESSAGES/kcmaudiocd.mo
 * /usr/share/locale/gl/LC_MESSAGES/kio_audiocd.mo
+* /usr/share/locale/he/LC_MESSAGES/audiocd_encoder_flac.mo
 * /usr/share/locale/he/LC_MESSAGES/audiocd_encoder_lame.mo
+* /usr/share/locale/he/LC_MESSAGES/audiocd_encoder_opus.mo
 * /usr/share/locale/he/LC_MESSAGES/audiocd_encoder_vorbis.mo
 * /usr/share/locale/he/LC_MESSAGES/kcmaudiocd.mo
 * /usr/share/locale/he/LC_MESSAGES/kio_audiocd.mo
@@ -479,6 +492,6 @@ Kioslave for accessing audio CDs
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcmaudiocd.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kio_audiocd.mo
 * /usr/share/metainfo/org.kde.kio_audiocd.metainfo.xml
-* /usr/share/qlogging-categories5/kio_audiocd.categories
-* /usr/share/qlogging-categories5/kio_audiocd.renamecategories
+* /usr/share/qlogging-categories6/kio_audiocd.categories
+* /usr/share/qlogging-categories6/kio_audiocd.renamecategories
 * /usr/share/solid/actions/solid_audiocd.desktop

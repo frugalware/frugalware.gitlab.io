@@ -5,13 +5,13 @@ version = "23.08.5-1"
 description = "A free download manager for KDE."
 date = "2024-02-20T12:42:54"
 aliases = "/packages/219524"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "5837660"
 usize = "11561987"
 sha1sum = "83d3f7d14f13acc42217f5d98c3b10d440d96a87"
-depends = "['kcmutils>=5.115.0', 'kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libktorrent', 'libmms', 'libqgpgme', 'plasma-workspace>=5.27.10']"
+depends = "['kcmutils>=6.0.0', 'knotifyconfig>=6.0.0', 'libktorrent', 'libmms', 'libqgpgme', 'plasma-workspace>=6.0.3']"
 +++
 ### Description: 
 A free download manager for KDE.
@@ -19,21 +19,21 @@ A free download manager for KDE.
 ### Files: 
 * /usr/bin/kget
 * /usr/lib/libkgetcore.so
-* /usr/lib/libkgetcore.so.5
-* /usr/lib/libkgetcore.so.5.0.0
-* /usr/lib/qt5/plugins/kget/kget_bittorrent.so
-* /usr/lib/qt5/plugins/kget/kget_checksumsearchfactory.so
-* /usr/lib/qt5/plugins/kget/kget_kio.so
-* /usr/lib/qt5/plugins/kget/kget_metalinkfactory.so
-* /usr/lib/qt5/plugins/kget/kget_mirrorsearchfactory.so
-* /usr/lib/qt5/plugins/kget/kget_mmsfactory.so
-* /usr/lib/qt5/plugins/kget/kget_multisegkiofactory.so
-* /usr/lib/qt5/plugins/kget_kcms/kcm_kget_bittorrentfactory.so
-* /usr/lib/qt5/plugins/kget_kcms/kcm_kget_checksumsearchfactory.so
-* /usr/lib/qt5/plugins/kget_kcms/kcm_kget_metalinkfactory.so
-* /usr/lib/qt5/plugins/kget_kcms/kcm_kget_mirrorsearchfactory.so
-* /usr/lib/qt5/plugins/kget_kcms/kcm_kget_mmsfactory.so
-* /usr/lib/qt5/plugins/kget_kcms/kcm_kget_multisegkiofactory.so
+* /usr/lib/libkgetcore.so.6
+* /usr/lib/libkgetcore.so.6.0.0
+* /usr/lib/qt6/plugins/kget/kget_bittorrent.so
+* /usr/lib/qt6/plugins/kget/kget_checksumsearchfactory.so
+* /usr/lib/qt6/plugins/kget/kget_kio.so
+* /usr/lib/qt6/plugins/kget/kget_metalinkfactory.so
+* /usr/lib/qt6/plugins/kget/kget_mirrorsearchfactory.so
+* /usr/lib/qt6/plugins/kget/kget_mmsfactory.so
+* /usr/lib/qt6/plugins/kget/kget_multisegkiofactory.so
+* /usr/lib/qt6/plugins/kget_kcms/kcm_kget_bittorrentfactory.so
+* /usr/lib/qt6/plugins/kget_kcms/kcm_kget_checksumsearchfactory.so
+* /usr/lib/qt6/plugins/kget_kcms/kcm_kget_metalinkfactory.so
+* /usr/lib/qt6/plugins/kget_kcms/kcm_kget_mirrorsearchfactory.so
+* /usr/lib/qt6/plugins/kget_kcms/kcm_kget_mmsfactory.so
+* /usr/lib/qt6/plugins/kget_kcms/kcm_kget_multisegkiofactory.so
 * /usr/share/applications/org.kde.kget.desktop
 * /usr/share/config.kcfg/kget.kcfg
 * /usr/share/config.kcfg/kget_checksumsearchfactory.kcfg
@@ -197,14 +197,14 @@ A free download manager for KDE.
 * /usr/share/doc/HTML/uk/kget/metalink1.png
 * /usr/share/doc/HTML/uk/kget/metalink2.png
 * /usr/share/doc/HTML/uk/kget/metalink3.png
-* /usr/share/doc/kget-23.08.5/AUTHORS
-* /usr/share/doc/kget-23.08.5/Changelog
-* /usr/share/doc/kget-23.08.5/COPYING
-* /usr/share/doc/kget-23.08.5/COPYING.DOC
-* /usr/share/doc/kget-23.08.5/COPYING.LIB
-* /usr/share/doc/kget-23.08.5/HACKING
-* /usr/share/doc/kget-23.08.5/README
-* /usr/share/doc/kget-23.08.5/TODO
+* /usr/share/doc/kget-24.02.1/AUTHORS
+* /usr/share/doc/kget-24.02.1/Changelog
+* /usr/share/doc/kget-24.02.1/COPYING
+* /usr/share/doc/kget-24.02.1/COPYING.DOC
+* /usr/share/doc/kget-24.02.1/COPYING.LIB
+* /usr/share/doc/kget-24.02.1/HACKING
+* /usr/share/doc/kget-24.02.1/README
+* /usr/share/doc/kget-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kget.png
 * /usr/share/icons/hicolor/16x16/apps/kget.png
 * /usr/share/icons/hicolor/22x22/apps/kget.png
@@ -213,9 +213,8 @@ A free download manager for KDE.
 * /usr/share/icons/hicolor/64x64/apps/kget.png
 * /usr/share/kget/pics/kget_splash.png
 * /usr/share/kio/servicemenus/kget_download.desktop
-* /usr/share/knotifications5/kget.notifyrc
-* /usr/share/kservicetypes5/kget_plugin.desktop
-* /usr/share/kxmlgui5/kget/kgetui.rc
+* /usr/share/kio/servicemenus/kget_plugin.desktop
+* /usr/share/knotifications6/kget.notifyrc
 * /usr/share/locale/af/LC_MESSAGES/kget.mo
 * /usr/share/locale/ar/LC_MESSAGES/kget.mo
 * /usr/share/locale/be/LC_MESSAGES/kget.mo
@@ -297,4 +296,4 @@ A free download manager for KDE.
 * /usr/share/locale/zh_HK/LC_MESSAGES/kget.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kget.mo
 * /usr/share/metainfo/org.kde.kget.appdata.xml
-* /usr/share/qlogging-categories5/kget.categories
+* /usr/share/qlogging-categories6/kget.categories

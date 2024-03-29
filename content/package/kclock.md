@@ -5,13 +5,13 @@ version = "23.08.5-1"
 description = "Clock app for Plasma Mobile"
 date = "2024-02-20T14:51:44"
 aliases = "/packages/220972"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "231820"
 usize = "1213907"
 sha1sum = "bbd098f526f01eff0c8c7ee141433096f0098413"
-depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kirigami-addons', 'plasma-framework', 'qt5-multimedia']"
+depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kirigami-addons', 'libplasma', 'qt6-multimedia']"
 +++
 ### Description: 
 Clock app for Plasma Mobile
@@ -20,7 +20,7 @@ Clock app for Plasma Mobile
 * /etc/xdg/autostart/org.kde.kclockd-autostart.desktop
 * /usr/bin/kclock
 * /usr/bin/kclockd
-* /usr/lib/qt5/plugins/plasma/applets/plasma_applet_kclock_1x2.so
+* /usr/lib/qt6/plugins/plasma/applets/org.kde.plasma.kclock_1x2.so
 * /usr/share/applications/org.kde.kclock.desktop
 * /usr/share/dbus-1/interfaces/org.kde.kclockd.Alarm.xml
 * /usr/share/dbus-1/interfaces/org.kde.kclockd.AlarmModel.xml
@@ -29,10 +29,10 @@ Clock app for Plasma Mobile
 * /usr/share/dbus-1/interfaces/org.kde.kclockd.TimerModel.xml
 * /usr/share/dbus-1/interfaces/org.kde.kclockd.Utility.xml
 * /usr/share/dbus-1/services/org.kde.kclockd.service
-* /usr/share/doc/kclock-23.08.5/README.md
+* /usr/share/doc/kclock-24.02.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/kclock_plasmoid_1x2.svg
 * /usr/share/icons/hicolor/scalable/apps/org.kde.kclock.svg
-* /usr/share/knotifications5/kclockd.notifyrc
+* /usr/share/knotifications6/kclockd.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/kclock.mo
 * /usr/share/locale/ca/LC_MESSAGES/kclock.mo
 * /usr/share/locale/ca/LC_MESSAGES/kclockd.mo
@@ -45,6 +45,8 @@ Clock app for Plasma Mobile
 * /usr/share/locale/el/LC_MESSAGES/kclock.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kclock.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kclockd.mo
+* /usr/share/locale/eo/LC_MESSAGES/kclock.mo
+* /usr/share/locale/eo/LC_MESSAGES/kclockd.mo
 * /usr/share/locale/es/LC_MESSAGES/kclock.mo
 * /usr/share/locale/es/LC_MESSAGES/kclockd.mo
 * /usr/share/locale/eu/LC_MESSAGES/kclock.mo

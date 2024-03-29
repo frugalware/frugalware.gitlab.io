@@ -12,7 +12,7 @@ size = "115436"
 usize = "452304"
 sha1sum = "9c53cfadbdff027f03240257b35281f72c69a3e2"
 depends = "['kio>=6.0.0', 'qt6-base-sql-common>=6.6.3']"
-reverse_depends = "['plasma-activities-stats', 'systemsettings']"
+reverse_depends = "['dolphin', 'plasma-activities-stats', 'systemsettings']"
 +++
 ### Description: 
 The KActivity Manager Daemon.

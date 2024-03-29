@@ -12,7 +12,7 @@ size = "167216"
 usize = "667210"
 sha1sum = "86ec18f274476ac02a2928057094b1613bc3afd5"
 depends = "['qt6-base']"
-reverse_depends = "['calamares-frugalware', 'cutemaze', 'kde-gtk-config', 'kiconthemes', 'kirigami', 'kxmlgui', 'ladybird', 'mkvtoolnix-gui', 'obs-studio', 'qt6-virtualkeyboard', 'qtcreator', 'socnetv', 'telegram-desktop']"
+reverse_depends = "['akonadi-search', 'analitza', 'calamares-frugalware', 'cutemaze', 'discover', 'kde-gtk-config', 'kdenlive', 'keysmith', 'kiconthemes', 'kile', 'kirigami', 'krecorder', 'kxmlgui', 'ladybird', 'mkvtoolnix-gui', 'obs-studio', 'qt6-virtualkeyboard', 'qtcreator', 'socnetv', 'telegram-desktop']"
 +++
 ### Description: 
 The Qt6 toolkit, qtsvg

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akonadi-search 23.08.5-1"
-version = "23.08.5-1"
+title = "akonadi-search 24.02.1-3"
+version = "24.02.1-3"
 description = "Libraries and daemons to implement searching in Akonad"
-date = "2024-02-19T23:40:47"
+date = "2024-03-27T11:57:40"
 aliases = "/packages/218250"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "260740"
-usize = "1117161"
-sha1sum = "0576c3108809c117aec852d0f4f5b4fc5edf1d58"
-depends = "['akonadi-contacts>=23.08.5', 'kcmutils>=5.115.0', 'krunner5>=5.115.0', 'qt5-declarative>=5.15.12', 'qt5-svg>=5.15.12', 'xapian-core>=1.4.0-2']"
+size = "298776"
+usize = "1259579"
+sha1sum = "1bc46eae6b1c5b5cf50a9360203d614dd8fc9c85"
+depends = "['akonadi-contacts>=24.02.1', 'kcmutils>=6.0.0', 'qt6-declarative>=6.6.3', 'qt6-svg>=6.6.3', 'xapian-core>=1.4.0-2']"
 reverse_depends = "['libkdepim']"
 +++
 ### Description: 
@@ -20,61 +20,62 @@ Libraries and daemons to implement searching in Akonad
 ### Files: 
 * /usr/bin/akonadi_html_to_text
 * /usr/bin/akonadi_indexing_agent
-* /usr/include/KPim5/AkonadiSearch/akonadi_search_version.h
-* /usr/include/KPim5/AkonadiSearch/Core/Query
-* /usr/include/KPim5/AkonadiSearch/core/query.h
-* /usr/include/KPim5/AkonadiSearch/Core/ResultIterator
-* /usr/include/KPim5/AkonadiSearch/core/resultiterator.h
-* /usr/include/KPim5/AkonadiSearch/Core/SearchStore
-* /usr/include/KPim5/AkonadiSearch/core/searchstore.h
-* /usr/include/KPim5/AkonadiSearch/Core/Term
-* /usr/include/KPim5/AkonadiSearch/core/term.h
-* /usr/include/KPim5/AkonadiSearch/Debug/akonadisearchdebugdialog.h
-* /usr/include/KPim5/AkonadiSearch/Debug/akonadisearchdebugsearchpathcombobox.h
-* /usr/include/KPim5/AkonadiSearch/Debug/search_debug_export.h
-* /usr/include/KPim5/AkonadiSearch/PIM/collectionquery.h
-* /usr/include/KPim5/AkonadiSearch/PIM/contactcompleter.h
-* /usr/include/KPim5/AkonadiSearch/PIM/contactquery.h
-* /usr/include/KPim5/AkonadiSearch/PIM/emailquery.h
-* /usr/include/KPim5/AkonadiSearch/PIM/indexeditems.h
-* /usr/include/KPim5/AkonadiSearch/PIM/notequery.h
-* /usr/include/KPim5/AkonadiSearch/PIM/query.h
-* /usr/include/KPim5/AkonadiSearch/PIM/resultiterator.h
-* /usr/include/KPim5/AkonadiSearch/PIM/search_pim_export.h
-* /usr/include/KPim5/AkonadiSearch/search_core_export.h
-* /usr/include/KPim5/AkonadiSearch/Xapian/search_xapian_export.h
-* /usr/include/KPim5/AkonadiSearch/Xapian/xapiandatabase.h
-* /usr/include/KPim5/AkonadiSearch/Xapian/xapiandocument.h
-* /usr/include/KPim5/AkonadiSearch/Xapian/xapianqueryparser.h
-* /usr/include/KPim5/AkonadiSearch/Xapian/xapiansearchstore.h
-* /usr/include/KPim5/AkonadiSearch/Xapian/xapiantermgenerator.h
-* /usr/lib/cmake/KPim5AkonadiSearch/KPim5AkonadiSearchConfig.cmake
-* /usr/lib/cmake/KPim5AkonadiSearch/KPim5AkonadiSearchConfigVersion.cmake
-* /usr/lib/cmake/KPim5AkonadiSearch/KPim5AkonadiSearchTargets-release.cmake
-* /usr/lib/cmake/KPim5AkonadiSearch/KPim5AkonadiSearchTargets.cmake
-* /usr/lib/libKPim5AkonadiSearchCore.so
-* /usr/lib/libKPim5AkonadiSearchCore.so.5
-* /usr/lib/libKPim5AkonadiSearchCore.so.5.24.5
-* /usr/lib/libKPim5AkonadiSearchDebug.so
-* /usr/lib/libKPim5AkonadiSearchDebug.so.5
-* /usr/lib/libKPim5AkonadiSearchDebug.so.5.24.5
-* /usr/lib/libKPim5AkonadiSearchPIM.so
-* /usr/lib/libKPim5AkonadiSearchPIM.so.5
-* /usr/lib/libKPim5AkonadiSearchPIM.so.5.24.5
-* /usr/lib/libKPim5AkonadiSearchXapian.so
-* /usr/lib/libKPim5AkonadiSearchXapian.so.5
-* /usr/lib/libKPim5AkonadiSearchXapian.so.5.24.5
-* /usr/lib/qt5/plugins/kf5/krunner/kcms/kcm_krunner_pimcontacts.so
-* /usr/lib/qt5/plugins/kf5/krunner/krunner_pimcontacts.so
-* /usr/lib/qt5/plugins/pim5/akonadi/akonadi_search_plugin.so
-* /usr/lib/qt5/plugins/pim5/akonadi/calendarsearchstore.so
-* /usr/lib/qt5/plugins/pim5/akonadi/contactsearchstore.so
-* /usr/lib/qt5/plugins/pim5/akonadi/emailsearchstore.so
-* /usr/lib/qt5/plugins/pim5/akonadi/notesearchstore.so
+* /usr/include/KPim6/AkonadiSearch/akonadi_search_version.h
+* /usr/include/KPim6/AkonadiSearch/Core/Query
+* /usr/include/KPim6/AkonadiSearch/core/query.h
+* /usr/include/KPim6/AkonadiSearch/Core/ResultIterator
+* /usr/include/KPim6/AkonadiSearch/core/resultiterator.h
+* /usr/include/KPim6/AkonadiSearch/Core/SearchStore
+* /usr/include/KPim6/AkonadiSearch/core/searchstore.h
+* /usr/include/KPim6/AkonadiSearch/Core/Term
+* /usr/include/KPim6/AkonadiSearch/core/term.h
+* /usr/include/KPim6/AkonadiSearch/Debug/akonadisearchdebugdialog.h
+* /usr/include/KPim6/AkonadiSearch/Debug/akonadisearchdebugsearchpathcombobox.h
+* /usr/include/KPim6/AkonadiSearch/Debug/search_debug_export.h
+* /usr/include/KPim6/AkonadiSearch/PIM/collectionquery.h
+* /usr/include/KPim6/AkonadiSearch/PIM/contactcompleter.h
+* /usr/include/KPim6/AkonadiSearch/PIM/contactquery.h
+* /usr/include/KPim6/AkonadiSearch/PIM/emailquery.h
+* /usr/include/KPim6/AkonadiSearch/PIM/indexeditems.h
+* /usr/include/KPim6/AkonadiSearch/PIM/notequery.h
+* /usr/include/KPim6/AkonadiSearch/PIM/query.h
+* /usr/include/KPim6/AkonadiSearch/PIM/resultiterator.h
+* /usr/include/KPim6/AkonadiSearch/PIM/search_pim_export.h
+* /usr/include/KPim6/AkonadiSearch/search_core_export.h
+* /usr/include/KPim6/AkonadiSearch/Xapian/search_xapian_export.h
+* /usr/include/KPim6/AkonadiSearch/Xapian/xapiandatabase.h
+* /usr/include/KPim6/AkonadiSearch/Xapian/xapiandocument.h
+* /usr/include/KPim6/AkonadiSearch/Xapian/xapianqueryparser.h
+* /usr/include/KPim6/AkonadiSearch/Xapian/xapiansearchstore.h
+* /usr/include/KPim6/AkonadiSearch/Xapian/xapiantermgenerator.h
+* /usr/lib/cmake/KPim6AkonadiSearch/KPim6AkonadiSearchConfig.cmake
+* /usr/lib/cmake/KPim6AkonadiSearch/KPim6AkonadiSearchConfigVersion.cmake
+* /usr/lib/cmake/KPim6AkonadiSearch/KPim6AkonadiSearchTargets-release.cmake
+* /usr/lib/cmake/KPim6AkonadiSearch/KPim6AkonadiSearchTargets.cmake
+* /usr/lib/libKPim6AkonadiSearchCore.so
+* /usr/lib/libKPim6AkonadiSearchCore.so.6
+* /usr/lib/libKPim6AkonadiSearchCore.so.6.0.1
+* /usr/lib/libKPim6AkonadiSearchDebug.so
+* /usr/lib/libKPim6AkonadiSearchDebug.so.6
+* /usr/lib/libKPim6AkonadiSearchDebug.so.6.0.1
+* /usr/lib/libKPim6AkonadiSearchPIM.so
+* /usr/lib/libKPim6AkonadiSearchPIM.so.6
+* /usr/lib/libKPim6AkonadiSearchPIM.so.6.0.1
+* /usr/lib/libKPim6AkonadiSearchXapian.so
+* /usr/lib/libKPim6AkonadiSearchXapian.so.6
+* /usr/lib/libKPim6AkonadiSearchXapian.so.6.0.1
+* /usr/lib/qt6/plugins/kf6/krunner/kcms/kcm_krunner_pimcontacts.so
+* /usr/lib/qt6/plugins/kf6/krunner/krunner_pimcontacts.so
+* /usr/lib/qt6/plugins/pim6/akonadi/akonadi_search_plugin.so
+* /usr/lib/qt6/plugins/pim6/akonadi/calendarsearchstore.so
+* /usr/lib/qt6/plugins/pim6/akonadi/contactsearchstore.so
+* /usr/lib/qt6/plugins/pim6/akonadi/emailsearchstore.so
+* /usr/lib/qt6/plugins/pim6/akonadi/notesearchstore.so
 * /usr/share/akonadi/agents/akonadiindexingagent.desktop
-* /usr/share/doc/akonadi-search-23.08.5/README.md
-* /usr/share/doc/akonadi-search-23.08.5/README.md.license
+* /usr/share/doc/akonadi-search-24.02.1/README.md
+* /usr/share/doc/akonadi-search-24.02.1/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/akonadi_search.mo
+* /usr/share/locale/ast/LC_MESSAGES/akonadi_search.mo
 * /usr/share/locale/az/LC_MESSAGES/akonadi_search.mo
 * /usr/share/locale/bg/LC_MESSAGES/akonadi_search.mo
 * /usr/share/locale/ca/LC_MESSAGES/akonadi_search.mo
@@ -84,6 +85,7 @@ Libraries and daemons to implement searching in Akonad
 * /usr/share/locale/de/LC_MESSAGES/akonadi_search.mo
 * /usr/share/locale/el/LC_MESSAGES/akonadi_search.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/akonadi_search.mo
+* /usr/share/locale/eo/LC_MESSAGES/akonadi_search.mo
 * /usr/share/locale/es/LC_MESSAGES/akonadi_search.mo
 * /usr/share/locale/et/LC_MESSAGES/akonadi_search.mo
 * /usr/share/locale/eu/LC_MESSAGES/akonadi_search.mo
@@ -108,6 +110,7 @@ Libraries and daemons to implement searching in Akonad
 * /usr/share/locale/pt_BR/LC_MESSAGES/akonadi_search.mo
 * /usr/share/locale/ro/LC_MESSAGES/akonadi_search.mo
 * /usr/share/locale/ru/LC_MESSAGES/akonadi_search.mo
+* /usr/share/locale/sa/LC_MESSAGES/akonadi_search.mo
 * /usr/share/locale/sk/LC_MESSAGES/akonadi_search.mo
 * /usr/share/locale/sl/LC_MESSAGES/akonadi_search.mo
 * /usr/share/locale/sr/LC_MESSAGES/akonadi_search.mo
@@ -119,5 +122,5 @@ Libraries and daemons to implement searching in Akonad
 * /usr/share/locale/uk/LC_MESSAGES/akonadi_search.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/akonadi_search.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/akonadi_search.mo
-* /usr/share/qlogging-categories5/akonadi-search.categories
-* /usr/share/qlogging-categories5/akonadi-search.renamecategories
+* /usr/share/qlogging-categories6/akonadi-search.categories
+* /usr/share/qlogging-categories6/akonadi-search.renamecategories

@@ -5,13 +5,13 @@ version = "23.08.5-1"
 description = "JuK is an audio jukebox application."
 date = "2024-02-20T12:32:52"
 aliases = "/packages/219523"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "2491864"
 usize = "6104044"
 sha1sum = "18e9239fbbaaf43aa076cc19ed9eb13aaaab3296"
-depends = "['kio>=5.115.0', 'pcre2', 'taglib>=2.0']"
+depends = "['kio>=6.0.0', 'pcre2', 'taglib>=2.0']"
 +++
 ### Description: 
 JuK is an audio jukebox application.
@@ -58,8 +58,6 @@ JuK is an audio jukebox application.
 * /usr/share/doc/HTML/es/juk/normal-playlist.png
 * /usr/share/doc/HTML/es/juk/search-playlist.png
 * /usr/share/doc/HTML/es/juk/toolbar.png
-* /usr/share/doc/HTML/et/juk/index.cache.bz2
-* /usr/share/doc/HTML/et/juk/index.docbook
 * /usr/share/doc/HTML/fr/juk/index.cache.bz2
 * /usr/share/doc/HTML/fr/juk/index.docbook
 * /usr/share/doc/HTML/it/juk/index.cache.bz2
@@ -73,40 +71,10 @@ JuK is an audio jukebox application.
 * /usr/share/doc/HTML/nl/juk/index.cache.bz2
 * /usr/share/doc/HTML/nl/juk/index.docbook
 * /usr/share/doc/HTML/nl/juk/juk-main.png
-* /usr/share/doc/HTML/pl/juk/history-playlist.png
-* /usr/share/doc/HTML/pl/juk/index.cache.bz2
-* /usr/share/doc/HTML/pl/juk/index.docbook
-* /usr/share/doc/HTML/pl/juk/juk-adv-search.png
-* /usr/share/doc/HTML/pl/juk/juk-file-renamer.png
-* /usr/share/doc/HTML/pl/juk/juk-main.png
-* /usr/share/doc/HTML/pl/juk/juk-tag-guesser.png
-* /usr/share/doc/HTML/pl/juk/normal-playlist.png
-* /usr/share/doc/HTML/pl/juk/search-playlist.png
-* /usr/share/doc/HTML/pl/juk/toolbar.png
-* /usr/share/doc/HTML/pt/juk/index.cache.bz2
-* /usr/share/doc/HTML/pt/juk/index.docbook
-* /usr/share/doc/HTML/pt_BR/juk/history-playlist.png
-* /usr/share/doc/HTML/pt_BR/juk/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/juk/index.docbook
-* /usr/share/doc/HTML/pt_BR/juk/juk-file-renamer.png
-* /usr/share/doc/HTML/pt_BR/juk/juk-main.png
-* /usr/share/doc/HTML/pt_BR/juk/juk-tag-guesser.png
-* /usr/share/doc/HTML/pt_BR/juk/toolbar.png
-* /usr/share/doc/HTML/ru/juk/index.cache.bz2
-* /usr/share/doc/HTML/ru/juk/index.docbook
 * /usr/share/doc/HTML/sr/juk/index.cache.bz2
 * /usr/share/doc/HTML/sr/juk/index.docbook
 * /usr/share/doc/HTML/sr@latin/juk/index.cache.bz2
 * /usr/share/doc/HTML/sr@latin/juk/index.docbook
-* /usr/share/doc/HTML/sv/juk/history-playlist.png
-* /usr/share/doc/HTML/sv/juk/index.cache.bz2
-* /usr/share/doc/HTML/sv/juk/index.docbook
-* /usr/share/doc/HTML/sv/juk/juk-adv-search.png
-* /usr/share/doc/HTML/sv/juk/juk-file-renamer.png
-* /usr/share/doc/HTML/sv/juk/juk-main.png
-* /usr/share/doc/HTML/sv/juk/juk-tag-guesser.png
-* /usr/share/doc/HTML/sv/juk/normal-playlist.png
-* /usr/share/doc/HTML/sv/juk/search-playlist.png
 * /usr/share/doc/HTML/uk/juk/index.cache.bz2
 * /usr/share/doc/HTML/uk/juk/index.docbook
 * /usr/share/doc/HTML/uk/juk/juk-adv-search.png
@@ -114,10 +82,10 @@ JuK is an audio jukebox application.
 * /usr/share/doc/HTML/uk/juk/juk-main.png
 * /usr/share/doc/HTML/uk/juk/juk-manage-folders.png
 * /usr/share/doc/HTML/uk/juk/juk-tag-guesser.png
-* /usr/share/doc/juk-23.08.5/COPYING
-* /usr/share/doc/juk-23.08.5/HACKING
-* /usr/share/doc/juk-23.08.5/README.md
-* /usr/share/doc/juk-23.08.5/TODO
+* /usr/share/doc/juk-24.02.1/COPYING
+* /usr/share/doc/juk-24.02.1/HACKING
+* /usr/share/doc/juk-24.02.1/README.md
+* /usr/share/doc/juk-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/juk.png
 * /usr/share/icons/hicolor/16x16/apps/juk.png
 * /usr/share/icons/hicolor/32x32/apps/juk.png
@@ -126,9 +94,7 @@ JuK is an audio jukebox application.
 * /usr/share/juk/pics/playing.png
 * /usr/share/juk/pics/theme.svg
 * /usr/share/kio/servicemenus/jukservicemenu.desktop
-* /usr/share/knotifications5/juk.notifyrc
-* /usr/share/kxmlgui5/juk/jukui-rtl.rc
-* /usr/share/kxmlgui5/juk/jukui.rc
+* /usr/share/knotifications6/juk.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/juk.mo
 * /usr/share/locale/be/LC_MESSAGES/juk.mo
 * /usr/share/locale/bg/LC_MESSAGES/juk.mo

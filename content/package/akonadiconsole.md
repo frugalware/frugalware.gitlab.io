@@ -1,25 +1,25 @@
 +++
 draft = false
-title = "akonadiconsole 23.08.5-1"
-version = "23.08.5-1"
+title = "akonadiconsole 24.02.1-3"
+version = "24.02.1-3"
 description = "A utility that can be used to explore or manage Akonadi"
-date = "2024-02-20T09:24:14"
+date = "2024-03-27T12:18:47"
 aliases = "/packages/218924"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "429196"
-usize = "1460859"
-sha1sum = "f9c01178dcc11d041158d180ea4d107e9d3535b9"
-depends = "['calendarsupport>=23.08.5', 'messagelib>=23.08.5']"
+size = "477732"
+usize = "1673971"
+sha1sum = "876670f9819954ce9082f9b3e64fed018774ce2e"
+depends = "['calendarsupport>=24.02.1', 'messagelib>=24.02.1']"
 +++
 ### Description: 
 A utility that can be used to explore or manage Akonadi
 
 ### Files: 
 * /usr/bin/akonadiconsole
-* /usr/lib/libakonadiconsole.so.5
-* /usr/lib/libakonadiconsole.so.5.24.5
+* /usr/lib/libakonadiconsole.so.6
+* /usr/lib/libakonadiconsole.so.6.0.1
 * /usr/share/applications/org.kde.akonadiconsole.desktop
 * /usr/share/icons/hicolor/128x128/apps/akonadiconsole.png
 * /usr/share/icons/hicolor/16x16/apps/akonadiconsole.png
@@ -28,11 +28,13 @@ A utility that can be used to explore or manage Akonadi
 * /usr/share/icons/hicolor/32x32/apps/akonadiconsole.png
 * /usr/share/icons/hicolor/48x48/apps/akonadiconsole.png
 * /usr/share/icons/hicolor/64x64/apps/akonadiconsole.png
+* /usr/share/locale/ast/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/locale/ca/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/locale/cs/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/locale/de/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/akonadiconsole.mo
+* /usr/share/locale/eo/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/locale/es/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/locale/eu/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/locale/fi/LC_MESSAGES/akonadiconsole.mo
@@ -47,6 +49,7 @@ A utility that can be used to explore or manage Akonadi
 * /usr/share/locale/nl/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/locale/pl/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/locale/pt/LC_MESSAGES/akonadiconsole.mo
+* /usr/share/locale/ro/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/locale/ru/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/locale/sk/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/locale/sl/LC_MESSAGES/akonadiconsole.mo
@@ -54,5 +57,6 @@ A utility that can be used to explore or manage Akonadi
 * /usr/share/locale/tr/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/locale/uk/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/akonadiconsole.mo
-* /usr/share/qlogging-categories5/akonadiconsole.categories
-* /usr/share/qlogging-categories5/akonadiconsole.renamecategories
+* /usr/share/locale/zh_TW/LC_MESSAGES/akonadiconsole.mo
+* /usr/share/qlogging-categories6/akonadiconsole.categories
+* /usr/share/qlogging-categories6/akonadiconsole.renamecategories

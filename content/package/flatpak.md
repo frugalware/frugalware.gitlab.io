@@ -12,7 +12,7 @@ size = "1526932"
 usize = "8017990"
 sha1sum = "5122fd4d73865983a589813f9c222d576433f1ef"
 depends = "['appstream>=1.0.0', 'bubblewrap', 'gdk-pixbuf2', 'json-glib', 'libseccomp', 'ostree', 'polkit', 'xdg-dbus-proxy']"
-reverse_depends = "['flatpak-kcm']"
+reverse_depends = "['discover', 'flatpak-kcm']"
 +++
 ### Description: 
 Linux application sandboxing and distribution framework (formerly xdg-app)

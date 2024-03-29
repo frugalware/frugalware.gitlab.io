@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "angelfish 23.08.5-1"
-version = "23.08.5-1"
+title = "angelfish 24.02.1-3"
+version = "24.02.1-3"
 description = "Web browser for Plasma Mobile"
-date = "2024-02-20T14:41:13"
+date = "2024-03-27T14:00:49"
 aliases = "/packages/220961"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1272340"
-usize = "4795352"
-sha1sum = "9c9ba6fa2c3a8b44334cfc2f5e7c95a0bb2437ff"
-depends = "['futuresql', 'kirigami-addons', 'purpose', 'qcoro', 'qqc2-desktop-style', 'qt5-webengine']"
+size = "1291400"
+usize = "5036535"
+sha1sum = "bab2354b37c36e647e83640f02467ec00df1e8c6"
+depends = "['futuresql', 'kirigami-addons', 'purpose', 'qcoro', 'qqc2-desktop-style', 'qt6-webengine']"
 +++
 ### Description: 
 Web browser for Plasma Mobile
@@ -21,9 +21,11 @@ Web browser for Plasma Mobile
 * /usr/bin/angelfish-webapp
 * /usr/share/applications/org.kde.angelfish.desktop
 * /usr/share/config.kcfg/angelfishsettings.kcfg
-* /usr/share/doc/angelfish-23.08.5/README.md
+* /usr/share/doc/angelfish-24.02.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.angelfish.svg
-* /usr/share/knotifications5/angelfish.notifyrc
+* /usr/share/knotifications6/angelfish.notifyrc
+* /usr/share/locale/ar/LC_MESSAGES/angelfish.mo
+* /usr/share/locale/ast/LC_MESSAGES/angelfish.mo
 * /usr/share/locale/az/LC_MESSAGES/angelfish.mo
 * /usr/share/locale/ca/LC_MESSAGES/angelfish.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/angelfish.mo
@@ -32,6 +34,7 @@ Web browser for Plasma Mobile
 * /usr/share/locale/de/LC_MESSAGES/angelfish.mo
 * /usr/share/locale/el/LC_MESSAGES/angelfish.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/angelfish.mo
+* /usr/share/locale/eo/LC_MESSAGES/angelfish.mo
 * /usr/share/locale/es/LC_MESSAGES/angelfish.mo
 * /usr/share/locale/et/LC_MESSAGES/angelfish.mo
 * /usr/share/locale/eu/LC_MESSAGES/angelfish.mo

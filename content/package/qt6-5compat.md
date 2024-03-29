@@ -12,7 +12,7 @@ size = "153800"
 usize = "512383"
 sha1sum = "8dff0630106d6839fbd42b37053d56b7bac795bc"
 depends = "['icu4c>=7.1', 'qt6-base']"
-reverse_depends = "['alizams', 'kwin', 'opencv', 'phonon-qt6', 'qca', 'qtcreator', 'seafile-client', 'socnetv', 'telegram-desktop']"
+reverse_depends = "['alizams', 'analitza', 'kwin', 'opencv', 'phonon-qt6', 'qca', 'qtcreator', 'seafile-client', 'socnetv', 'telegram-desktop']"
 +++
 ### Description: 
 The Qt6 toolkit, qt5compat

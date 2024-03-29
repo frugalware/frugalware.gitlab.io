@@ -5,7 +5,7 @@ version = "23.08.5-1"
 description = "Framework for interacting with systemd-journald"
 date = "2024-02-20T14:59:05"
 aliases = "/packages/220980"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "126160"
@@ -20,19 +20,22 @@ Framework for interacting with systemd-journald
 * /usr/bin/kjournaldbrowser
 * /usr/lib/libkjournald.so
 * /usr/lib/libkjournald.so.0
-* /usr/lib/libkjournald.so.23.08.5
+* /usr/lib/libkjournald.so.24.02.1
 * /usr/share/applications/org.kde.kjournaldbrowser.desktop
-* /usr/share/doc/kjournald-23.08.5/README.md
+* /usr/share/doc/kjournald-24.02.1/README.md
+* /usr/share/locale/ast/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/ca/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/cs/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/de/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kjournald.mo
+* /usr/share/locale/eo/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/es/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/eu/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/fi/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/fr/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/gl/LC_MESSAGES/kjournald.mo
+* /usr/share/locale/ia/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/ie/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/it/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/ja/LC_MESSAGES/kjournald.mo
@@ -52,4 +55,4 @@ Framework for interacting with systemd-journald
 * /usr/share/locale/zh_CN/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kjournald.mo
 * /usr/share/metainfo/org.kde.kjournaldbrowser.appdata.xml
-* /usr/share/qlogging-categories5/kjournald.categories
+* /usr/share/qlogging-categories6/kjournald.categories

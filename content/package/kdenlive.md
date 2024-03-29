@@ -5,13 +5,13 @@ version = "23.08.5-1"
 description = "A non-linear video editor for Linux using the MLT video framework"
 date = "2024-02-20T14:29:09"
 aliases = "/packages/218299"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "13219136"
 usize = "70050524"
 sha1sum = "e724e33391f91e05aba439c7ad7c1f9a85b3b41a"
-depends = "['kfilemetadata5>=5.115.0', 'knewstuff>=5.115.0', 'knotifyconfig>=5.115.0', 'kplotting>=5.115.0', 'mlt>=7.14.0', 'mlt-qt>=7.14.0', 'mlt-sdl>=7.14.0', 'purpose>=5.115.0', 'qt5-declarative>=5.15.12', 'qt5-networkauth>=5.15.12', 'qt5-svg>=5.15.12', 'qt5-webengine>=5.15.12']"
+depends = "['kfilemetadata>=6.0.0', 'knewstuff>=6.0.0', 'knotifyconfig>=6.0.0', 'kplotting>=6.0.0', 'mlt>=7.14.0', 'mlt-qt>=7.14.0', 'mlt-sdl>=7.14.0', 'purpose>=6.0.0', 'qt6-declarative>=6.6.3', 'qt6-networkauth>=6.6.3', 'qt6-svg>=6.6.3', 'qt6-webengine>=6.6.3']"
 +++
 ### Description: 
 A non-linear video editor for Linux using the MLT video framework
@@ -19,7 +19,7 @@ A non-linear video editor for Linux using the MLT video framework
 ### Files: 
 * /usr/bin/kdenlive
 * /usr/bin/kdenlive_render
-* /usr/lib/qt5/plugins/kf5/thumbcreator/mltpreview.so
+* /usr/lib/qt6/plugins/kf6/thumbcreator/mltpreview.so
 * /usr/share/applications/org.kde.kdenlive.desktop
 * /usr/share/config.kcfg/kdenlivesettings.kcfg
 * /usr/share/doc/HTML/ca/kdenlive/index.cache.bz2
@@ -117,12 +117,13 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-save-project.png
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-timeline-clips.png
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-timelinecursor.png
-* /usr/share/doc/kdenlive-23.08.5/AUTHORS
-* /usr/share/doc/kdenlive-23.08.5/ChangeLog
-* /usr/share/doc/kdenlive-23.08.5/COPYING
-* /usr/share/doc/kdenlive-23.08.5/README.md
-* /usr/share/doc/kdenlive-23.08.5/README.md.license
+* /usr/share/doc/kdenlive-24.02.1/AUTHORS
+* /usr/share/doc/kdenlive-24.02.1/COPYING
+* /usr/share/doc/kdenlive-24.02.1/README.md
+* /usr/share/doc/kdenlive-24.02.1/README.md.license
 * /usr/share/doc/Kdenlive/AUTHORS
+* /usr/share/doc/Kdenlive/LICENSES/Apache-2.0.txt
+* /usr/share/doc/Kdenlive/LICENSES/BSD-2-Clause.txt
 * /usr/share/doc/Kdenlive/LICENSES/BSD-3-Clause.txt
 * /usr/share/doc/Kdenlive/LICENSES/BSL-1.0.txt
 * /usr/share/doc/Kdenlive/LICENSES/CC-BY-SA-4.0.txt
@@ -130,9 +131,12 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/doc/Kdenlive/LICENSES/GPL-2.0-only.txt
 * /usr/share/doc/Kdenlive/LICENSES/GPL-3.0-only.txt
 * /usr/share/doc/Kdenlive/LICENSES/GPL-3.0-or-later.txt
+* /usr/share/doc/Kdenlive/LICENSES/LGPL-2.1-only.txt
 * /usr/share/doc/Kdenlive/LICENSES/LGPL-3.0-only.txt
+* /usr/share/doc/Kdenlive/LICENSES/LGPL-3.0-or-later.txt
 * /usr/share/doc/Kdenlive/LICENSES/LicenseRef-KDE-Accepted-GPL.txt
 * /usr/share/doc/Kdenlive/LICENSES/LicenseRef-KDE-Accepted-LGPL.txt
+* /usr/share/doc/Kdenlive/LICENSES/MIT.txt
 * /usr/share/doc/Kdenlive/README.md
 * /usr/share/icons/hicolor/128x128/apps/kdenlive.png
 * /usr/share/icons/hicolor/128x128/mimetypes/application-x-kdenlivetitle.png
@@ -168,6 +172,7 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/icons/hicolor/scalable/mimetypes/video-mlt-playlist.svgz
 * /usr/share/kdenlive/clipjobsettings.rc
 * /usr/share/kdenlive/effect-templates/secondary_color_correction.xml
+* /usr/share/kdenlive/effect-templates/secondary_color_correction_v2.xml
 * /usr/share/kdenlive/effect-templates/shut_off.xml
 * /usr/share/kdenlive/effects/acompressor.xml
 * /usr/share/kdenlive/effects/aecho.xml
@@ -213,6 +218,7 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/kdenlive/effects/avfilter_crossfeed.xml
 * /usr/share/kdenlive/effects/avfilter_crystalizer.xml
 * /usr/share/kdenlive/effects/avfilter_datascope.xml
+* /usr/share/kdenlive/effects/avfilter_dblur.xml
 * /usr/share/kdenlive/effects/avfilter_dcshift.xml
 * /usr/share/kdenlive/effects/avfilter_dctdnoiz.xml
 * /usr/share/kdenlive/effects/avfilter_deband.xml
@@ -324,6 +330,9 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/kdenlive/effects/fade_to_black.xml
 * /usr/share/kdenlive/effects/freeze.xml
 * /usr/share/kdenlive/effects/frei0r_alpha0ps.xml
+* /usr/share/kdenlive/effects/frei0r_alpha0ps_alpha0ps.xml
+* /usr/share/kdenlive/effects/frei0r_alpha0ps_alphagrad.xml
+* /usr/share/kdenlive/effects/frei0r_alpha0ps_alphaspot.xml
 * /usr/share/kdenlive/effects/frei0r_alphagrad.xml
 * /usr/share/kdenlive/effects/frei0r_alphaspot.xml
 * /usr/share/kdenlive/effects/frei0r_B.xml
@@ -626,7 +635,7 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/kdenlive/transitions/slide.xml
 * /usr/share/kdenlive/transitions/vqm.xml
 * /usr/share/kdenlive/transitions/wipe.xml
-* /usr/share/knotifications5/kdenlive.notifyrc
+* /usr/share/knotifications6/kdenlive.notifyrc
 * /usr/share/knsrcfiles/kdenlive_effects.knsrc
 * /usr/share/knsrcfiles/kdenlive_keyboardschemes.knsrc
 * /usr/share/knsrcfiles/kdenlive_luts.knsrc
@@ -682,4 +691,4 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/metainfo/org.kde.kdenlive.appdata.xml
 * /usr/share/mime/packages/org.kde.kdenlive.xml
 * /usr/share/mime/packages/westley.xml
-* /usr/share/qlogging-categories5/kdenlive.categories
+* /usr/share/qlogging-categories6/kdenlive.categories

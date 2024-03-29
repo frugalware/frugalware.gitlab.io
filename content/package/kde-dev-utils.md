@@ -5,13 +5,13 @@ version = "23.08.5-1"
 description = "Developer utilities for kde."
 date = "2024-02-20T13:02:50"
 aliases = "/packages/219158"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "84356"
 usize = "388106"
 sha1sum = "dfb45db89fceef337fe0a11e013aae1b28e1abaf"
-depends = "['kparts>=5.115.0', 'qt5-tools']"
+depends = "['kparts>=6.0.0', 'qt6-tools']"
 +++
 ### Description: 
 Developer utilities for kde.
@@ -19,8 +19,8 @@ Developer utilities for kde.
 ### Files: 
 * /usr/bin/kpartloader
 * /usr/bin/kuiviewer
-* /usr/lib/qt5/plugins/kf5/parts/kuiviewerpart.so
-* /usr/lib/qt5/plugins/quithumbnail.so
+* /usr/lib/qt6/plugins/kf6/parts/kuiviewerpart.so
+* /usr/lib/qt6/plugins/kf6/thumbcreator/quithumbnail.so
 * /usr/share/applications/org.kde.kuiviewer.desktop
 * /usr/share/icons/hicolor/128x128/apps/kuiviewer.png
 * /usr/share/icons/hicolor/16x16/apps/kuiviewer.png
@@ -28,8 +28,6 @@ Developer utilities for kde.
 * /usr/share/icons/hicolor/48x48/apps/kuiviewer.png
 * /usr/share/icons/hicolor/64x64/apps/kuiviewer.png
 * /usr/share/icons/hicolor/scalable/apps/kuiviewer.svg
-* /usr/share/kservices5/designerthumbnail.desktop
-* /usr/share/kservices5/kuiviewer_part.desktop
 * /usr/share/locale/ar/LC_MESSAGES/kuiviewer.mo
 * /usr/share/locale/az/LC_MESSAGES/kpartloader.mo
 * /usr/share/locale/az/LC_MESSAGES/kuiviewer.mo

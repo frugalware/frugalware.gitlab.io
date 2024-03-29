@@ -12,7 +12,7 @@ size = "2817576"
 usize = "16443770"
 sha1sum = "c12676dc6f78ebf6f88aa4a522c7ad51d590f40e"
 depends = "['perl>=5.34.0']"
-reverse_depends = "['darktable', 'digikam']"
+reverse_depends = "['darktable']"
 +++
 ### Description: 
 Read and write meta information

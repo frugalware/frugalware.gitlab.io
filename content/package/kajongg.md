@@ -5,13 +5,13 @@ version = "23.08.5-1"
 description = "KDE Mahjongg game."
 date = "2024-02-20T14:30:24"
 aliases = "/packages/219325"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "5142756"
 usize = "10659717"
 sha1sum = "436f0eb06fe12e77eadd95909e22404fec8f0a9d"
-depends = "['libkmahjongg>=23.08.5', 'python3-twisted']"
+depends = "['libkmahjongg>=24.02.1', 'python3-twisted']"
 +++
 ### Description: 
 KDE Mahjongg game.
@@ -66,11 +66,11 @@ KDE Mahjongg game.
 * /usr/share/doc/HTML/uk/kajongg/index.docbook
 * /usr/share/doc/HTML/uk/kajongg/ruleseteditor.png
 * /usr/share/doc/HTML/uk/kajongg/scoretable.png
-* /usr/share/doc/kajongg-23.08.5/COPYING.DOC
-* /usr/share/doc/kajongg-23.08.5/LICENSE
-* /usr/share/doc/kajongg-23.08.5/README
-* /usr/share/doc/kajongg-23.08.5/README.packagers
-* /usr/share/doc/kajongg-23.08.5/README.windows
+* /usr/share/doc/kajongg-24.02.1/COPYING.DOC
+* /usr/share/doc/kajongg-24.02.1/LICENSE
+* /usr/share/doc/kajongg-24.02.1/README
+* /usr/share/doc/kajongg-24.02.1/README.packagers
+* /usr/share/doc/kajongg-24.02.1/README.windows
 * /usr/share/icons/hicolor/128x128/apps/kajongg.png
 * /usr/share/icons/hicolor/16x16/apps/kajongg.png
 * /usr/share/icons/hicolor/22x22/apps/kajongg.png
@@ -571,6 +571,7 @@ KDE Mahjongg game.
 * /usr/share/kajongg/__pycache__/wall.cpython-312.pyc
 * /usr/share/kajongg/__pycache__/wind.cpython-312.pyc
 * /usr/share/locale/ar/LC_MESSAGES/kajongg.mo
+* /usr/share/locale/ast/LC_MESSAGES/kajongg.mo
 * /usr/share/locale/bg/LC_MESSAGES/kajongg.mo
 * /usr/share/locale/bs/LC_MESSAGES/kajongg.mo
 * /usr/share/locale/ca/LC_MESSAGES/kajongg.mo
@@ -589,6 +590,7 @@ KDE Mahjongg game.
 * /usr/share/locale/ga/LC_MESSAGES/kajongg.mo
 * /usr/share/locale/gl/LC_MESSAGES/kajongg.mo
 * /usr/share/locale/hu/LC_MESSAGES/kajongg.mo
+* /usr/share/locale/ia/LC_MESSAGES/kajongg.mo
 * /usr/share/locale/is/LC_MESSAGES/kajongg.mo
 * /usr/share/locale/it/LC_MESSAGES/kajongg.mo
 * /usr/share/locale/ja/LC_MESSAGES/kajongg.mo

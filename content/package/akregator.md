@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akregator 23.08.5-1"
-version = "23.08.5-1"
+title = "akregator 24.02.1-3"
+version = "24.02.1-3"
 description = "Feed Reader"
-date = "2024-02-20T09:26:15"
+date = "2024-03-27T12:20:40"
 aliases = "/packages/218925"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2514404"
-usize = "6491388"
-sha1sum = "48c91c4c4db79c716f88c83f5c6273d0f5afa069"
-depends = "['knotifyconfig>=5.115.0', 'kontactinterface>=23.08.5', 'ktexteditor>=5.115.0', 'messagelib>=23.08.5', 'syndication>=5.115.0']"
+size = "2574108"
+usize = "6685100"
+sha1sum = "56ae14cae37dc5c00f8ddaa5c1f5efc080d41c24"
+depends = "['knotifyconfig>=6.0.0', 'kontactinterface>=24.02.1', 'ktexteditor>=6.0.0', 'messagelib>=24.02.1', 'syndication>=6.0.0']"
 +++
 ### Description: 
 Feed Reader
@@ -19,19 +19,19 @@ Feed Reader
 ### Files: 
 * /usr/bin/akregator
 * /usr/bin/akregatorstorageexporter
-* /usr/lib/libakregatorinterfaces.so.5
-* /usr/lib/libakregatorinterfaces.so.5.24.5
-* /usr/lib/libakregatorprivate.so.5
-* /usr/lib/libakregatorprivate.so.5.24.5
-* /usr/lib/qt5/plugins/akregatorpart.so
-* /usr/lib/qt5/plugins/pim5/kcms/akregator/akregator_config_advanced.so
-* /usr/lib/qt5/plugins/pim5/kcms/akregator/akregator_config_appearance.so
-* /usr/lib/qt5/plugins/pim5/kcms/akregator/akregator_config_archive.so
-* /usr/lib/qt5/plugins/pim5/kcms/akregator/akregator_config_browser.so
-* /usr/lib/qt5/plugins/pim5/kcms/akregator/akregator_config_general.so
-* /usr/lib/qt5/plugins/pim5/kcms/akregator/akregator_config_plugins.so
-* /usr/lib/qt5/plugins/pim5/kcms/akregator/akregator_config_security.so
-* /usr/lib/qt5/plugins/pim5/kontact/kontact_akregatorplugin.so
+* /usr/lib/libakregatorinterfaces.so.6
+* /usr/lib/libakregatorinterfaces.so.6.0.1
+* /usr/lib/libakregatorprivate.so.6
+* /usr/lib/libakregatorprivate.so.6.0.1
+* /usr/lib/qt6/plugins/akregatorpart.so
+* /usr/lib/qt6/plugins/pim6/kcms/akregator/akregator_config_advanced.so
+* /usr/lib/qt6/plugins/pim6/kcms/akregator/akregator_config_appearance.so
+* /usr/lib/qt6/plugins/pim6/kcms/akregator/akregator_config_archive.so
+* /usr/lib/qt6/plugins/pim6/kcms/akregator/akregator_config_browser.so
+* /usr/lib/qt6/plugins/pim6/kcms/akregator/akregator_config_general.so
+* /usr/lib/qt6/plugins/pim6/kcms/akregator/akregator_config_plugins.so
+* /usr/lib/qt6/plugins/pim6/kcms/akregator/akregator_config_security.so
+* /usr/lib/qt6/plugins/pim6/kontact/kontact_akregatorplugin.so
 * /usr/share/akregator/grantleetheme/5.2/combinedview.html
 * /usr/share/akregator/grantleetheme/5.2/defaultnormalvisitfeed.html
 * /usr/share/akregator/grantleetheme/5.2/defaultnormalvisitfolder.html
@@ -39,8 +39,8 @@ Feed Reader
 * /usr/share/applications/org.kde.akregator.desktop
 * /usr/share/config.kcfg/akregator.kcfg
 * /usr/share/dbus-1/interfaces/org.kde.akregator.part.xml
-* /usr/share/doc/akregator-23.08.5/AUTHORS
-* /usr/share/doc/akregator-23.08.5/README
+* /usr/share/doc/akregator-24.02.1/AUTHORS
+* /usr/share/doc/akregator-24.02.1/README
 * /usr/share/doc/HTML/ca/akregator/add-feed.png
 * /usr/share/doc/HTML/ca/akregator/add-feed2.png
 * /usr/share/doc/HTML/ca/akregator/add-folder.png
@@ -123,8 +123,9 @@ Feed Reader
 * /usr/share/icons/hicolor/48x48/apps/akregator.png
 * /usr/share/icons/hicolor/64x64/apps/akregator.png
 * /usr/share/icons/hicolor/scalable/apps/akregator.svg
-* /usr/share/knotifications5/akregator.notifyrc
+* /usr/share/knotifications6/akregator.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/akregator.mo
+* /usr/share/locale/ast/LC_MESSAGES/akregator.mo
 * /usr/share/locale/az/LC_MESSAGES/akregator.mo
 * /usr/share/locale/be/LC_MESSAGES/akregator.mo
 * /usr/share/locale/bg/LC_MESSAGES/akregator.mo
@@ -198,5 +199,5 @@ Feed Reader
 * /usr/share/locale/zh_CN/LC_MESSAGES/akregator.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/akregator.mo
 * /usr/share/metainfo/org.kde.akregator.appdata.xml
-* /usr/share/qlogging-categories5/akregator.categories
-* /usr/share/qlogging-categories5/akregator.renamecategories
+* /usr/share/qlogging-categories6/akregator.categories
+* /usr/share/qlogging-categories6/akregator.renamecategories

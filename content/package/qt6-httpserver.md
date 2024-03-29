@@ -12,6 +12,7 @@ size = "60412"
 usize = "230082"
 sha1sum = "ab47add7a7361662f7101195f7a9f6d1edd455c7"
 depends = "['qt6-declarative', 'qt6-websockets']"
+reverse_depends = "['arianna']"
 +++
 ### Description: 
 The Qt6 toolkit, qthttpserver

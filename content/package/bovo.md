@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "bovo 23.08.5-1"
-version = "23.08.5-1"
+title = "bovo 24.02.1-3"
+version = "24.02.1-3"
 description = "A Gomoku like game for two players."
-date = "2024-02-19T22:25:11"
+date = "2024-03-27T10:56:19"
 aliases = "/packages/184171"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "309416"
-usize = "797303"
-sha1sum = "70c51c670dad8e0ceba7f3a073cabe30d1bc8f0b"
-depends = "['libkdegames>=23.08.5']"
+size = "313044"
+usize = "817705"
+sha1sum = "71adb2721fb52e9649ed1b360df445fa15e20777"
+depends = "['libkdegames>=24.02.1']"
 +++
 ### Description: 
 A Gomoku like game for two players.
@@ -27,13 +27,13 @@ A Gomoku like game for two players.
 * /usr/share/bovo/themes/scribble/themerc
 * /usr/share/bovo/themes/spacy/theme.svg
 * /usr/share/bovo/themes/spacy/themerc
-* /usr/share/doc/bovo-23.08.5/AUTHORS
-* /usr/share/doc/bovo-23.08.5/COPYING
-* /usr/share/doc/bovo-23.08.5/COPYING.DOC
-* /usr/share/doc/bovo-23.08.5/HISTORY
-* /usr/share/doc/bovo-23.08.5/INSTALL
-* /usr/share/doc/bovo-23.08.5/README.PACKAGERS
-* /usr/share/doc/bovo-23.08.5/TODO
+* /usr/share/doc/bovo-24.02.1/AUTHORS
+* /usr/share/doc/bovo-24.02.1/COPYING
+* /usr/share/doc/bovo-24.02.1/COPYING.DOC
+* /usr/share/doc/bovo-24.02.1/HISTORY
+* /usr/share/doc/bovo-24.02.1/INSTALL
+* /usr/share/doc/bovo-24.02.1/README.PACKAGERS
+* /usr/share/doc/bovo-24.02.1/TODO
 * /usr/share/doc/HTML/ca/bovo/index.cache.bz2
 * /usr/share/doc/HTML/ca/bovo/index.docbook
 * /usr/share/doc/HTML/ca/bovo/mainscreen.png
@@ -72,6 +72,7 @@ A Gomoku like game for two players.
 * /usr/share/icons/hicolor/48x48/apps/bovo.png
 * /usr/share/icons/hicolor/64x64/apps/bovo.png
 * /usr/share/locale/ar/LC_MESSAGES/bovo.mo
+* /usr/share/locale/ast/LC_MESSAGES/bovo.mo
 * /usr/share/locale/be/LC_MESSAGES/bovo.mo
 * /usr/share/locale/bg/LC_MESSAGES/bovo.mo
 * /usr/share/locale/bs/LC_MESSAGES/bovo.mo
@@ -95,6 +96,7 @@ A Gomoku like game for two players.
 * /usr/share/locale/hne/LC_MESSAGES/bovo.mo
 * /usr/share/locale/hr/LC_MESSAGES/bovo.mo
 * /usr/share/locale/hu/LC_MESSAGES/bovo.mo
+* /usr/share/locale/ia/LC_MESSAGES/bovo.mo
 * /usr/share/locale/id/LC_MESSAGES/bovo.mo
 * /usr/share/locale/is/LC_MESSAGES/bovo.mo
 * /usr/share/locale/it/LC_MESSAGES/bovo.mo

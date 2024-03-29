@@ -5,13 +5,13 @@ version = "23.08.5-1"
 description = "KsirK is a computerized version of the well known strategic board game Risk."
 date = "2024-02-20T13:15:03"
 aliases = "/packages/219528"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "5158092"
 usize = "13085754"
 sha1sum = "55a1d0371c0db15240e0d7314464c3e3d172cac0"
-depends = "['kdelibs4support>=5.115.0', 'libkdegames>=23.08.5', 'qca']"
+depends = "['libkdegames>=24.02.1', 'qca']"
 +++
 ### Description: 
 KsirK is a computerized version of the well known strategic board game Risk.
@@ -19,9 +19,6 @@ KsirK is a computerized version of the well known strategic board game Risk.
 ### Files: 
 * /usr/bin/ksirk
 * /usr/bin/ksirkskineditor
-* /usr/lib/libiris_ksirk.so
-* /usr/lib/libiris_ksirk.so.2
-* /usr/lib/libiris_ksirk.so.2.0.0
 * /usr/share/applications/org.kde.ksirk.desktop
 * /usr/share/applications/org.kde.ksirkskineditor.desktop
 * /usr/share/config.kcfg/ksirksettings.kcfg
@@ -142,14 +139,14 @@ KsirK is a computerized version of the well known strategic board game Risk.
 * /usr/share/doc/HTML/uk/ksirk/shownumberofarmies.png
 * /usr/share/doc/HTML/uk/ksirkskineditor/index.cache.bz2
 * /usr/share/doc/HTML/uk/ksirkskineditor/index.docbook
-* /usr/share/doc/ksirk-23.08.5/AUTHORS
-* /usr/share/doc/ksirk-23.08.5/ChangeLog
-* /usr/share/doc/ksirk-23.08.5/COPYING
-* /usr/share/doc/ksirk-23.08.5/COPYING.DOC
-* /usr/share/doc/ksirk-23.08.5/COPYING.LIB
-* /usr/share/doc/ksirk-23.08.5/INSTALL
-* /usr/share/doc/ksirk-23.08.5/README
-* /usr/share/doc/ksirk-23.08.5/TODO
+* /usr/share/doc/ksirk-24.02.1/AUTHORS
+* /usr/share/doc/ksirk-24.02.1/ChangeLog
+* /usr/share/doc/ksirk-24.02.1/COPYING
+* /usr/share/doc/ksirk-24.02.1/COPYING.DOC
+* /usr/share/doc/ksirk-24.02.1/COPYING.LIB
+* /usr/share/doc/ksirk-24.02.1/INSTALL
+* /usr/share/doc/ksirk-24.02.1/README
+* /usr/share/doc/ksirk-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/ksirk.png
 * /usr/share/icons/hicolor/16x16/apps/ksirk.png
 * /usr/share/icons/hicolor/22x22/apps/ksirk.png
@@ -158,7 +155,6 @@ KsirK is a computerized version of the well known strategic board game Risk.
 * /usr/share/icons/hicolor/64x64/apps/ksirk.png
 * /usr/share/icons/hicolor/scalable/apps/ksirk.svgz
 * /usr/share/knsrcfiles/ksirk.knsrc
-* /usr/share/ksirk/jabber.png
 * /usr/share/ksirk/skins/default/Data/world.desktop
 * /usr/share/ksirk/skins/default/Images/2DownArrow.png
 * /usr/share/ksirk/skins/default/Images/2UpArrow.png
@@ -198,9 +194,9 @@ KsirK is a computerized version of the well known strategic board game Risk.
 * /usr/share/ksirk/skins/skinsdir
 * /usr/share/ksirkskineditor/cross.png
 * /usr/share/ksirkskineditor/target.png
-* /usr/share/kxmlgui5/ksirk/ksirkui.rc
-* /usr/share/kxmlgui5/ksirkskineditor/ksirkskineditorui.rc
 * /usr/share/locale/ar/LC_MESSAGES/ksirk.mo
+* /usr/share/locale/ast/LC_MESSAGES/ksirk.mo
+* /usr/share/locale/ast/LC_MESSAGES/ksirkskineditor.mo
 * /usr/share/locale/be/LC_MESSAGES/ksirk.mo
 * /usr/share/locale/bg/LC_MESSAGES/ksirk.mo
 * /usr/share/locale/bg/LC_MESSAGES/ksirkskineditor.mo
@@ -241,6 +237,8 @@ KsirK is a computerized version of the well known strategic board game Risk.
 * /usr/share/locale/hr/LC_MESSAGES/ksirkskineditor.mo
 * /usr/share/locale/hu/LC_MESSAGES/ksirk.mo
 * /usr/share/locale/hu/LC_MESSAGES/ksirkskineditor.mo
+* /usr/share/locale/ia/LC_MESSAGES/ksirk.mo
+* /usr/share/locale/ia/LC_MESSAGES/ksirkskineditor.mo
 * /usr/share/locale/is/LC_MESSAGES/ksirk.mo
 * /usr/share/locale/is/LC_MESSAGES/ksirkskineditor.mo
 * /usr/share/locale/it/LC_MESSAGES/ksirk.mo
@@ -308,4 +306,4 @@ KsirK is a computerized version of the well known strategic board game Risk.
 * /usr/share/locale/zh_TW/LC_MESSAGES/ksirk.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/ksirkskineditor.mo
 * /usr/share/metainfo/org.kde.ksirk.appdata.xml
-* /usr/share/qlogging-categories5/ksirk.categories
+* /usr/share/qlogging-categories6/ksirk.categories

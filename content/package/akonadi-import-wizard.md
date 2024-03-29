@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akonadi-import-wizard 23.08.5-1"
-version = "23.08.5-1"
+title = "akonadi-import-wizard 24.02.1-3"
+version = "24.02.1-3"
 description = "KMail import wizard application."
-date = "2024-02-20T09:22:25"
+date = "2024-03-27T12:17:13"
 aliases = "/packages/218923"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "676268"
-usize = "1856670"
-sha1sum = "1f360bf58dddee6dad43ab39a5973349e8a8703e"
-depends = "['mailcommon>=23.08.5']"
+size = "705468"
+usize = "1925240"
+sha1sum = "3b1a2347681fccd18e3c7396508df1165e5e2d4d"
+depends = "['mailcommon>=24.02.1']"
 reverse_depends = "['kdepim-addons', 'kmail']"
 +++
 ### Description: 
@@ -19,41 +19,37 @@ KMail import wizard application.
 
 ### Files: 
 * /usr/bin/akonadiimportwizard
-* /usr/include/KPim5/ImportWizard/ImportWizard/AbstractAddressBook
-* /usr/include/KPim5/ImportWizard/importwizard/abstractaddressbook.h
-* /usr/include/KPim5/ImportWizard/ImportWizard/AbstractBase
-* /usr/include/KPim5/ImportWizard/importwizard/abstractbase.h
-* /usr/include/KPim5/ImportWizard/ImportWizard/AbstractCalendar
-* /usr/include/KPim5/ImportWizard/importwizard/abstractcalendar.h
-* /usr/include/KPim5/ImportWizard/ImportWizard/AbstractDisplayInfo
-* /usr/include/KPim5/ImportWizard/importwizard/abstractdisplayinfo.h
-* /usr/include/KPim5/ImportWizard/ImportWizard/AbstractImporter
-* /usr/include/KPim5/ImportWizard/importwizard/abstractimporter.h
-* /usr/include/KPim5/ImportWizard/ImportWizard/AbstractSettings
-* /usr/include/KPim5/ImportWizard/importwizard/abstractsettings.h
-* /usr/include/KPim5/ImportWizard/ImportWizard/ImportWizardUtil
-* /usr/include/KPim5/ImportWizard/importwizard/importwizardutil.h
-* /usr/include/KPim5/ImportWizard/importwizard/libimportwizard_export.h
-* /usr/include/KPim5/ImportWizard/importwizard_version.h
-* /usr/lib/cmake/KPim5ImportWizard/KPim5ImportWizardConfig.cmake
-* /usr/lib/cmake/KPim5ImportWizard/KPim5ImportWizardConfigVersion.cmake
-* /usr/lib/cmake/KPim5ImportWizard/KPim5ImportWizardTargets-release.cmake
-* /usr/lib/cmake/KPim5ImportWizard/KPim5ImportWizardTargets.cmake
-* /usr/lib/cmake/KPimImportWizard/KPim5ImportWizardTargets-release.cmake
-* /usr/lib/cmake/KPimImportWizard/KPim5ImportWizardTargets.cmake
-* /usr/lib/cmake/KPimImportWizard/KPimImportWizardConfig.cmake
-* /usr/lib/cmake/KPimImportWizard/KPimImportWizardConfigVersion.cmake
-* /usr/lib/libKPim5ImportWizard.so
-* /usr/lib/libKPim5ImportWizard.so.5
-* /usr/lib/libKPim5ImportWizard.so.5.24.5
-* /usr/lib/qt5/plugins/pim5/importwizard/balsaimporterplugin.so
-* /usr/lib/qt5/plugins/pim5/importwizard/clawsmailimporterplugin.so
-* /usr/lib/qt5/plugins/pim5/importwizard/evolutionv3importerplugin.so
-* /usr/lib/qt5/plugins/pim5/importwizard/icedoveimporterplugin.so
-* /usr/lib/qt5/plugins/pim5/importwizard/seamonkeyimporterplugin.so
-* /usr/lib/qt5/plugins/pim5/importwizard/sylpheedimporterplugin.so
-* /usr/lib/qt5/plugins/pim5/importwizard/thunderbirdimporterplugin.so
-* /usr/lib/qt5/plugins/pim5/importwizard/trojitaimporterplugin.so
+* /usr/include/KPim6/ImportWizard/ImportWizard/AbstractAddressBook
+* /usr/include/KPim6/ImportWizard/importwizard/abstractaddressbook.h
+* /usr/include/KPim6/ImportWizard/ImportWizard/AbstractBase
+* /usr/include/KPim6/ImportWizard/importwizard/abstractbase.h
+* /usr/include/KPim6/ImportWizard/ImportWizard/AbstractCalendar
+* /usr/include/KPim6/ImportWizard/importwizard/abstractcalendar.h
+* /usr/include/KPim6/ImportWizard/ImportWizard/AbstractDisplayInfo
+* /usr/include/KPim6/ImportWizard/importwizard/abstractdisplayinfo.h
+* /usr/include/KPim6/ImportWizard/ImportWizard/AbstractImporter
+* /usr/include/KPim6/ImportWizard/importwizard/abstractimporter.h
+* /usr/include/KPim6/ImportWizard/ImportWizard/AbstractSettings
+* /usr/include/KPim6/ImportWizard/importwizard/abstractsettings.h
+* /usr/include/KPim6/ImportWizard/ImportWizard/ImportWizardUtil
+* /usr/include/KPim6/ImportWizard/importwizard/importwizardutil.h
+* /usr/include/KPim6/ImportWizard/importwizard/libimportwizard_export.h
+* /usr/include/KPim6/ImportWizard/importwizard_version.h
+* /usr/lib/cmake/KPim6ImportWizard/KPim6ImportWizardConfig.cmake
+* /usr/lib/cmake/KPim6ImportWizard/KPim6ImportWizardConfigVersion.cmake
+* /usr/lib/cmake/KPim6ImportWizard/KPim6ImportWizardTargets-release.cmake
+* /usr/lib/cmake/KPim6ImportWizard/KPim6ImportWizardTargets.cmake
+* /usr/lib/libKPim6ImportWizard.so
+* /usr/lib/libKPim6ImportWizard.so.6
+* /usr/lib/libKPim6ImportWizard.so.6.0.1
+* /usr/lib/qt6/plugins/pim6/importwizard/balsaimporterplugin.so
+* /usr/lib/qt6/plugins/pim6/importwizard/clawsmailimporterplugin.so
+* /usr/lib/qt6/plugins/pim6/importwizard/evolutionv3importerplugin.so
+* /usr/lib/qt6/plugins/pim6/importwizard/icedoveimporterplugin.so
+* /usr/lib/qt6/plugins/pim6/importwizard/seamonkeyimporterplugin.so
+* /usr/lib/qt6/plugins/pim6/importwizard/sylpheedimporterplugin.so
+* /usr/lib/qt6/plugins/pim6/importwizard/thunderbirdimporterplugin.so
+* /usr/lib/qt6/plugins/pim6/importwizard/trojitaimporterplugin.so
 * /usr/share/applications/org.kde.akonadiimportwizard.desktop
 * /usr/share/doc/HTML/ca/importwizard/index.cache.bz2
 * /usr/share/doc/HTML/ca/importwizard/index.docbook
@@ -90,6 +86,7 @@ KMail import wizard application.
 * /usr/share/icons/hicolor/64x64/apps/kontact-import-wizard.png
 * /usr/share/importwizard/pics/step1.png
 * /usr/share/locale/ar/LC_MESSAGES/akonadiimportwizard.mo
+* /usr/share/locale/ast/LC_MESSAGES/akonadiimportwizard.mo
 * /usr/share/locale/az/LC_MESSAGES/akonadiimportwizard.mo
 * /usr/share/locale/bg/LC_MESSAGES/akonadiimportwizard.mo
 * /usr/share/locale/bs/LC_MESSAGES/akonadiimportwizard.mo
@@ -100,6 +97,7 @@ KMail import wizard application.
 * /usr/share/locale/de/LC_MESSAGES/akonadiimportwizard.mo
 * /usr/share/locale/el/LC_MESSAGES/akonadiimportwizard.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/akonadiimportwizard.mo
+* /usr/share/locale/eo/LC_MESSAGES/akonadiimportwizard.mo
 * /usr/share/locale/es/LC_MESSAGES/akonadiimportwizard.mo
 * /usr/share/locale/et/LC_MESSAGES/akonadiimportwizard.mo
 * /usr/share/locale/eu/LC_MESSAGES/akonadiimportwizard.mo
@@ -134,5 +132,5 @@ KMail import wizard application.
 * /usr/share/locale/uk/LC_MESSAGES/akonadiimportwizard.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/akonadiimportwizard.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/akonadiimportwizard.mo
-* /usr/share/qlogging-categories5/importwizard.categories
-* /usr/share/qlogging-categories5/importwizard.renamecategories
+* /usr/share/qlogging-categories6/importwizard.categories
+* /usr/share/qlogging-categories6/importwizard.renamecategories

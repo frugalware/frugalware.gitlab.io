@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "baloo-widgets 23.08.5-1"
-version = "23.08.5-1"
+title = "baloo-widgets 24.02.1-3"
+version = "24.02.1-3"
 description = "Widgets for Baloo"
-date = "2024-02-19T23:13:36"
+date = "2024-03-27T11:34:38"
 aliases = "/packages/200750"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "105780"
-usize = "437595"
-sha1sum = "9db0d72e3a751b3e6e650e2112472703d626b98c"
-depends = "['baloo5>=5.115.0']"
+size = "127460"
+usize = "494887"
+sha1sum = "92a22c946adc1f0f228221187ebbf2b29c457916"
+depends = "['baloo>=6.0.0']"
 reverse_depends = "['dolphin']"
 +++
 ### Description: 
@@ -19,22 +19,22 @@ Widgets for Baloo
 
 ### Files: 
 * /usr/bin/baloo_filemetadata_temp_extractor
-* /usr/include/KF5/BalooWidgets/Baloo/FileMetaDataConfigWidget
-* /usr/include/KF5/BalooWidgets/baloo/filemetadataconfigwidget.h
-* /usr/include/KF5/BalooWidgets/Baloo/FileMetaDataWidget
-* /usr/include/KF5/BalooWidgets/baloo/filemetadatawidget.h
-* /usr/include/KF5/BalooWidgets/Baloo/TagWidget
-* /usr/include/KF5/BalooWidgets/baloo/tagwidget.h
-* /usr/include/KF5/BalooWidgets/baloo/widgets_export.h
-* /usr/lib/cmake/KF5BalooWidgets/KF5BalooWidgetsConfig.cmake
-* /usr/lib/cmake/KF5BalooWidgets/KF5BalooWidgetsConfigVersion.cmake
-* /usr/lib/cmake/KF5BalooWidgets/KF5BalooWidgetsTargets-release.cmake
-* /usr/lib/cmake/KF5BalooWidgets/KF5BalooWidgetsTargets.cmake
-* /usr/lib/libKF5BalooWidgets.so
-* /usr/lib/libKF5BalooWidgets.so.23.08.5
-* /usr/lib/libKF5BalooWidgets.so.5
-* /usr/lib/qt5/plugins/kf5/kfileitemaction/tagsfileitemaction.so
-* /usr/lib/qt5/plugins/kf5/propertiesdialog/baloofilepropertiesplugin.so
+* /usr/include/KF6/BalooWidgets/Baloo/FileMetaDataConfigWidget
+* /usr/include/KF6/BalooWidgets/baloo/filemetadataconfigwidget.h
+* /usr/include/KF6/BalooWidgets/Baloo/FileMetaDataWidget
+* /usr/include/KF6/BalooWidgets/baloo/filemetadatawidget.h
+* /usr/include/KF6/BalooWidgets/Baloo/TagWidget
+* /usr/include/KF6/BalooWidgets/baloo/tagwidget.h
+* /usr/include/KF6/BalooWidgets/baloo/widgets_export.h
+* /usr/lib/cmake/KF6BalooWidgets/KF6BalooWidgetsConfig.cmake
+* /usr/lib/cmake/KF6BalooWidgets/KF6BalooWidgetsConfigVersion.cmake
+* /usr/lib/cmake/KF6BalooWidgets/KF6BalooWidgetsTargets-release.cmake
+* /usr/lib/cmake/KF6BalooWidgets/KF6BalooWidgetsTargets.cmake
+* /usr/lib/libKF6BalooWidgets.so
+* /usr/lib/libKF6BalooWidgets.so.24.02.1
+* /usr/lib/libKF6BalooWidgets.so.6
+* /usr/lib/qt6/plugins/kf6/kfileitemaction/tagsfileitemaction.so
+* /usr/lib/qt6/plugins/kf6/propertiesdialog/baloofilepropertiesplugin.so
 * /usr/share/locale/ar/LC_MESSAGES/baloowidgets5.mo
 * /usr/share/locale/az/LC_MESSAGES/baloowidgets5.mo
 * /usr/share/locale/bg/LC_MESSAGES/baloowidgets5.mo
@@ -88,4 +88,4 @@ Widgets for Baloo
 * /usr/share/locale/uk/LC_MESSAGES/baloowidgets5.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/baloowidgets5.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/baloowidgets5.mo
-* /usr/share/qlogging-categories5/baloo-widgets.categories
+* /usr/share/qlogging-categories6/baloo-widgets.categories

@@ -5,13 +5,13 @@ version = "23.08.5-1"
 description = "Speech Synthesizer Frontend"
 date = "2024-02-20T12:46:59"
 aliases = "/packages/219526"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "1934940"
 usize = "4165529"
 sha1sum = "e07c417bdef7438c5c315620d4c9f02d3a5a09a9"
-depends = "['kio>=5.115.0', 'pcre2', 'qt5-speech>=5.15.12']"
+depends = "['kio>=6.0.0', 'pcre2', 'qt6-speech>=6.6.3']"
 +++
 ### Description: 
 Speech Synthesizer Frontend
@@ -99,9 +99,9 @@ Speech Synthesizer Frontend
 * /usr/share/doc/HTML/sv/kmouth/kmouthwizard.png
 * /usr/share/doc/HTML/uk/kmouth/index.cache.bz2
 * /usr/share/doc/HTML/uk/kmouth/index.docbook
-* /usr/share/doc/kmouth-23.08.5/AUTHORS
-* /usr/share/doc/kmouth-23.08.5/COPYING
-* /usr/share/doc/kmouth-23.08.5/COPYING.DOC
+* /usr/share/doc/kmouth-24.02.1/AUTHORS
+* /usr/share/doc/kmouth-24.02.1/COPYING
+* /usr/share/doc/kmouth-24.02.1/COPYING.DOC
 * /usr/share/icons/hicolor/16x16/actions/phrase.png
 * /usr/share/icons/hicolor/16x16/actions/phrasebook.png
 * /usr/share/icons/hicolor/16x16/apps/kmouth.png
@@ -132,9 +132,8 @@ Speech Synthesizer Frontend
 * /usr/share/kmouth/books/sv/sv-howareyou.phrasebook
 * /usr/share/kmouth/books/sv/sv-personal.phrasebook
 * /usr/share/kmouth/books/sv/sv.desktop
-* /usr/share/kxmlgui5/kmouth/kmouthui.rc
-* /usr/share/kxmlgui5/kmouth/phrasebookdialogui.rc
 * /usr/share/locale/ar/LC_MESSAGES/kmouth.mo
+* /usr/share/locale/ast/LC_MESSAGES/kmouth.mo
 * /usr/share/locale/be/LC_MESSAGES/kmouth.mo
 * /usr/share/locale/bg/LC_MESSAGES/kmouth.mo
 * /usr/share/locale/br/LC_MESSAGES/kmouth.mo

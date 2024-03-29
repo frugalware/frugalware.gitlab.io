@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ark 23.08.5-1"
-version = "23.08.5-1"
+title = "ark 24.02.1-3"
+version = "24.02.1-3"
 description = "KDE Archiving Tool."
-date = "2024-02-19T23:24:42"
+date = "2024-03-27T11:44:42"
 aliases = "/packages/153200"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1487136"
-usize = "5068202"
-sha1sum = "f77b84e10d3566ea9b3d706a689f2ed35c25b7e4"
-depends = "['kitemmodels>=5.115.0', 'kparts>=5.115.0', 'kpty>=5.115.0', 'libarchive>=3.1.2-8', 'libzip']"
+size = "1391620"
+usize = "5060708"
+sha1sum = "0ab0fd0dbf60a2d6b520d5517c325b03748d0094"
+depends = "['kfilemetadata>=6.0.0', 'kitemmodels>=6.0.0', 'kparts>=6.0.0', 'kpty>=6.0.0', 'libarchive>=3.1.2-8', 'libzip']"
 +++
 ### Description: 
 KDE Archiving Tool.
@@ -19,31 +19,27 @@ KDE Archiving Tool.
 ### Files: 
 * /etc/xdg/arkrc
 * /usr/bin/ark
-* /usr/lib/libkerfuffle.so.23
-* /usr/lib/libkerfuffle.so.23.08.5
-* /usr/lib/qt5/plugins/kerfuffle/kerfuffle_cli7z.so
-* /usr/lib/qt5/plugins/kerfuffle/kerfuffle_cliarj.so
-* /usr/lib/qt5/plugins/kerfuffle/kerfuffle_clirar.so
-* /usr/lib/qt5/plugins/kerfuffle/kerfuffle_cliunarchiver.so
-* /usr/lib/qt5/plugins/kerfuffle/kerfuffle_clizip.so
-* /usr/lib/qt5/plugins/kerfuffle/kerfuffle_libarchive.so
-* /usr/lib/qt5/plugins/kerfuffle/kerfuffle_libarchive_readonly.so
-* /usr/lib/qt5/plugins/kerfuffle/kerfuffle_libzip.so
-* /usr/lib/qt5/plugins/kf5/kfileitemaction/compressfileitemaction.so
-* /usr/lib/qt5/plugins/kf5/kfileitemaction/extractfileitemaction.so
-* /usr/lib/qt5/plugins/kf5/kio_dnd/extracthere.so
-* /usr/lib/qt5/plugins/kf5/parts/arkpart.so
+* /usr/lib/libkerfuffle.so.24
+* /usr/lib/libkerfuffle.so.24.02.1
+* /usr/lib/qt6/plugins/kerfuffle/kerfuffle_cli7z.so
+* /usr/lib/qt6/plugins/kerfuffle/kerfuffle_cliarj.so
+* /usr/lib/qt6/plugins/kerfuffle/kerfuffle_clirar.so
+* /usr/lib/qt6/plugins/kerfuffle/kerfuffle_cliunarchiver.so
+* /usr/lib/qt6/plugins/kerfuffle/kerfuffle_clizip.so
+* /usr/lib/qt6/plugins/kerfuffle/kerfuffle_libarchive.so
+* /usr/lib/qt6/plugins/kerfuffle/kerfuffle_libarchive_readonly.so
+* /usr/lib/qt6/plugins/kerfuffle/kerfuffle_libzip.so
+* /usr/lib/qt6/plugins/kf6/kfileitemaction/compressfileitemaction.so
+* /usr/lib/qt6/plugins/kf6/kfileitemaction/extractfileitemaction.so
+* /usr/lib/qt6/plugins/kf6/kio_dnd/extracthere.so
+* /usr/lib/qt6/plugins/kf6/parts/arkpart.so
 * /usr/share/applications/org.kde.ark.desktop
 * /usr/share/config.kcfg/ark.kcfg
-* /usr/share/doc/ark-23.08.5/COPYING.icons
-* /usr/share/doc/ark-23.08.5/HACKING
-* /usr/share/doc/ark-23.08.5/README.md
-* /usr/share/doc/ark-23.08.5/README.packagers
+* /usr/share/doc/ark-24.02.1/COPYING.icons
+* /usr/share/doc/ark-24.02.1/README.md
+* /usr/share/doc/ark-24.02.1/README.packagers
 * /usr/share/doc/HTML/ca/ark/index.cache.bz2
 * /usr/share/doc/HTML/ca/ark/index.docbook
-* /usr/share/doc/HTML/de/ark/ark-mainwindow.png
-* /usr/share/doc/HTML/de/ark/index.cache.bz2
-* /usr/share/doc/HTML/de/ark/index.docbook
 * /usr/share/doc/HTML/en/ark/ark-comment.png
 * /usr/share/doc/HTML/en/ark/ark-mainwindow.png
 * /usr/share/doc/HTML/en/ark/create-archive.png
@@ -55,9 +51,6 @@ KDE Archiving Tool.
 * /usr/share/doc/HTML/es/ark/index.docbook
 * /usr/share/doc/HTML/et/ark/index.cache.bz2
 * /usr/share/doc/HTML/et/ark/index.docbook
-* /usr/share/doc/HTML/fr/ark/ark-mainwindow.png
-* /usr/share/doc/HTML/fr/ark/index.cache.bz2
-* /usr/share/doc/HTML/fr/ark/index.docbook
 * /usr/share/doc/HTML/gl/ark/index.cache.bz2
 * /usr/share/doc/HTML/gl/ark/index.docbook
 * /usr/share/doc/HTML/it/ark/ark-comment.png
@@ -100,7 +93,6 @@ KDE Archiving Tool.
 * /usr/share/icons/hicolor/scalable/apps/ark.svgz
 * /usr/share/kconf_update/ark.upd
 * /usr/share/kconf_update/ark_add_hamburgermenu_to_toolbar.sh
-* /usr/share/kservices5/ark_part.desktop
 * /usr/share/locale/af/LC_MESSAGES/ark.mo
 * /usr/share/locale/ar/LC_MESSAGES/ark.mo
 * /usr/share/locale/ast/LC_MESSAGES/ark.mo
@@ -181,18 +173,17 @@ KDE Archiving Tool.
 * /usr/share/locale/zh_HK/LC_MESSAGES/ark.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/ark.mo
 * /usr/share/man/ca/man1/ark.1.gz
-* /usr/share/man/de/man1/ark.1.gz
 * /usr/share/man/es/man1/ark.1.gz
 * /usr/share/man/fr/man1/ark.1.gz
 * /usr/share/man/gl/man1/ark.1.gz
 * /usr/share/man/it/man1/ark.1.gz
 * /usr/share/man/man1/ark.1.gz
 * /usr/share/man/nl/man1/ark.1.gz
-* /usr/share/man/pt/man1/ark.1.gz
 * /usr/share/man/pt_BR/man1/ark.1.gz
 * /usr/share/man/sr/man1/ark.1.gz
 * /usr/share/man/sr@latin/man1/ark.1.gz
 * /usr/share/man/sv/man1/ark.1.gz
+* /usr/share/man/tr/man1/ark.1.gz
 * /usr/share/man/uk/man1/ark.1.gz
 * /usr/share/metainfo/org.kde.ark.appdata.xml
-* /usr/share/qlogging-categories5/ark.categories
+* /usr/share/qlogging-categories6/ark.categories

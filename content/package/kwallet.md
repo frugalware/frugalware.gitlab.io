@@ -12,7 +12,7 @@ size = "450148"
 usize = "2385235"
 sha1sum = "20f80349181df7f5ebdb72c8f9bb57a77604806e"
 depends = "['knotifications>=6.0.0', 'libgpgmepp>=1.10.0', 'qca']"
-reverse_depends = "['kwallet-pam']"
+reverse_depends = "['discover', 'kwallet-pam']"
 +++
 ### Description: 
 Safe desktop-wide storage for passwords.

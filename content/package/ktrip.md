@@ -5,13 +5,13 @@ version = "23.08.5-1"
 description = "Public Transport Assistance for Mobile Devices"
 date = "2024-02-20T15:05:41"
 aliases = "/packages/220986"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "70120"
 usize = "255121"
 sha1sum = "ae37e83653870b67d74f5ce4971131e884d769fd"
-depends = "['kconfig', 'kcoreaddons', 'kitemmodels', 'kpublictransport', 'qqc2-desktop-style', 'qt5-quickcontrols2']"
+depends = "['kconfig', 'kcoreaddons', 'kirigami-addons', 'kitemmodels', 'kpublictransport', 'qqc2-desktop-style']"
 +++
 ### Description: 
 Public Transport Assistance for Mobile Devices
@@ -19,13 +19,15 @@ Public Transport Assistance for Mobile Devices
 ### Files: 
 * /usr/bin/ktrip
 * /usr/share/applications/org.kde.ktrip.desktop
-* /usr/share/doc/ktrip-23.08.5/README.md
+* /usr/share/doc/ktrip-24.02.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.ktrip.svg
+* /usr/share/locale/ast/LC_MESSAGES/ktrip.mo
 * /usr/share/locale/ca/LC_MESSAGES/ktrip.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/ktrip.mo
 * /usr/share/locale/cs/LC_MESSAGES/ktrip.mo
 * /usr/share/locale/de/LC_MESSAGES/ktrip.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/ktrip.mo
+* /usr/share/locale/eo/LC_MESSAGES/ktrip.mo
 * /usr/share/locale/es/LC_MESSAGES/ktrip.mo
 * /usr/share/locale/et/LC_MESSAGES/ktrip.mo
 * /usr/share/locale/eu/LC_MESSAGES/ktrip.mo

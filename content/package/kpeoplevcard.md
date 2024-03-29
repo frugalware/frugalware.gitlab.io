@@ -12,7 +12,6 @@ size = "19192"
 usize = "71018"
 sha1sum = "90b41c6cf00394b9a70e796d049f09a0992d0f71"
 depends = "['kcontacts>=6.0.0', 'kpeople>=6.0.0']"
-reverse_depends = "['kdeconnect-kde']"
 +++
 ### Description: 
 Makes it possible to expose vcards to KPeople

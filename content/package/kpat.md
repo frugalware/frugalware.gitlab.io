@@ -5,13 +5,13 @@ version = "23.08.5-1"
 description = "Offers a selection of solitaire card games."
 date = "2024-02-20T13:28:31"
 aliases = "/packages/184195"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "3822192"
 usize = "5566978"
 sha1sum = "b4a0c80e53b463678b632f710383aa93edbc80e4"
-depends = "['black-hole-solver', 'freecell-solver', 'kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5']"
+depends = "['black-hole-solver', 'freecell-solver', 'knotifyconfig>=6.0.0', 'libkdegames>=24.02.1']"
 +++
 ### Description: 
 Offers a selection of solitaire card games.
@@ -61,8 +61,8 @@ Offers a selection of solitaire card games.
 * /usr/share/doc/HTML/sv/kpat/index.docbook
 * /usr/share/doc/HTML/uk/kpat/index.cache.bz2
 * /usr/share/doc/HTML/uk/kpat/index.docbook
-* /usr/share/doc/kpat-23.08.5/COPYING
-* /usr/share/doc/kpat-23.08.5/COPYING.DOC
+* /usr/share/doc/kpat-24.02.1/COPYING
+* /usr/share/doc/kpat-24.02.1/COPYING.DOC
 * /usr/share/icons/hicolor/128x128/apps/kpat.png
 * /usr/share/icons/hicolor/16x16/apps/kpat.png
 * /usr/share/icons/hicolor/22x22/apps/kpat.png
@@ -103,6 +103,7 @@ Offers a selection of solitaire card games.
 * /usr/share/kpat/themes/royalhearts.svgz
 * /usr/share/locale/af/LC_MESSAGES/kpat.mo
 * /usr/share/locale/ar/LC_MESSAGES/kpat.mo
+* /usr/share/locale/ast/LC_MESSAGES/kpat.mo
 * /usr/share/locale/be/LC_MESSAGES/kpat.mo
 * /usr/share/locale/bg/LC_MESSAGES/kpat.mo
 * /usr/share/locale/br/LC_MESSAGES/kpat.mo
@@ -130,6 +131,7 @@ Offers a selection of solitaire card games.
 * /usr/share/locale/hne/LC_MESSAGES/kpat.mo
 * /usr/share/locale/hr/LC_MESSAGES/kpat.mo
 * /usr/share/locale/hu/LC_MESSAGES/kpat.mo
+* /usr/share/locale/ia/LC_MESSAGES/kpat.mo
 * /usr/share/locale/id/LC_MESSAGES/kpat.mo
 * /usr/share/locale/is/LC_MESSAGES/kpat.mo
 * /usr/share/locale/it/LC_MESSAGES/kpat.mo
@@ -190,4 +192,4 @@ Offers a selection of solitaire card games.
 * /usr/share/man/uk/man6/kpat.6.gz
 * /usr/share/metainfo/org.kde.kpat.appdata.xml
 * /usr/share/mime/packages/kpatience.xml
-* /usr/share/qlogging-categories5/kpat.categories
+* /usr/share/qlogging-categories6/kpat.categories

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akonadi-calendar-tools 23.08.5-1"
-version = "23.08.5-1"
+title = "akonadi-calendar-tools 24.02.1-3"
+version = "24.02.1-3"
 description = "Akonadi calendar tools"
-date = "2024-02-20T09:16:53"
+date = "2024-03-27T12:12:25"
 aliases = "/packages/218922"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "370776"
-usize = "1484099"
-sha1sum = "a99bc4ba14eec989b999ce1481c9f10b5aa46f84"
-depends = "['calendarsupport>=23.08.5']"
+size = "387016"
+usize = "1564017"
+sha1sum = "4a81a7ca93ef77912693f071d3f1772b9c85af1c"
+depends = "['calendarsupport>=24.02.1']"
 +++
 ### Description: 
 Akonadi calendar tools
@@ -51,6 +51,8 @@ Akonadi calendar tools
 * /usr/share/icons/hicolor/48x48/apps/konsolekalendar.png
 * /usr/share/locale/ar/LC_MESSAGES/calendarjanitor.mo
 * /usr/share/locale/ar/LC_MESSAGES/konsolekalendar.mo
+* /usr/share/locale/ast/LC_MESSAGES/calendarjanitor.mo
+* /usr/share/locale/ast/LC_MESSAGES/konsolekalendar.mo
 * /usr/share/locale/az/LC_MESSAGES/calendarjanitor.mo
 * /usr/share/locale/az/LC_MESSAGES/konsolekalendar.mo
 * /usr/share/locale/be/LC_MESSAGES/konsolekalendar.mo
@@ -74,6 +76,7 @@ Akonadi calendar tools
 * /usr/share/locale/el/LC_MESSAGES/konsolekalendar.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/calendarjanitor.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/konsolekalendar.mo
+* /usr/share/locale/eo/LC_MESSAGES/calendarjanitor.mo
 * /usr/share/locale/eo/LC_MESSAGES/konsolekalendar.mo
 * /usr/share/locale/es/LC_MESSAGES/calendarjanitor.mo
 * /usr/share/locale/es/LC_MESSAGES/konsolekalendar.mo
@@ -90,6 +93,7 @@ Akonadi calendar tools
 * /usr/share/locale/ga/LC_MESSAGES/konsolekalendar.mo
 * /usr/share/locale/gl/LC_MESSAGES/calendarjanitor.mo
 * /usr/share/locale/gl/LC_MESSAGES/konsolekalendar.mo
+* /usr/share/locale/he/LC_MESSAGES/calendarjanitor.mo
 * /usr/share/locale/he/LC_MESSAGES/konsolekalendar.mo
 * /usr/share/locale/hi/LC_MESSAGES/calendarjanitor.mo
 * /usr/share/locale/hi/LC_MESSAGES/konsolekalendar.mo
@@ -158,5 +162,5 @@ Akonadi calendar tools
 * /usr/share/locale/zh_CN/LC_MESSAGES/konsolekalendar.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/calendarjanitor.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/konsolekalendar.mo
-* /usr/share/qlogging-categories5/console.categories
-* /usr/share/qlogging-categories5/console.renamecategories
+* /usr/share/qlogging-categories6/console.categories
+* /usr/share/qlogging-categories6/console.renamecategories
