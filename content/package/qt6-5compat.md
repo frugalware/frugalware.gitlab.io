@@ -1,37 +1,37 @@
 +++
 draft = false
-title = "qt6-5compat 6.6.2-1"
-version = "6.6.2-1"
+title = "qt6-5compat 6.6.3-1"
+version = "6.6.3-1"
 description = "The Qt6 toolkit, qt5compat"
-date = "2024-02-19T13:11:01"
+date = "2024-03-26T18:36:18"
 aliases = "/packages/220762"
-categories = ['xlib-extra']
+categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "153800"
-usize = "512383"
-sha1sum = "8dff0630106d6839fbd42b37053d56b7bac795bc"
-depends = "['icu4c>=7.1', 'qt6-base']"
+size = "425060"
+usize = "1712349"
+sha1sum = "5d0dc57636f8fa4d1e42247a60479c410c3baec6"
+depends = "['icu4c>=7.1', 'qt6-declarative']"
 reverse_depends = "['alizams', 'analitza', 'keysmith', 'kwin', 'opencv', 'phonon-qt6', 'qca', 'qmlkonsole', 'qtcreator', 'seafile-client', 'socnetv', 'telegram-desktop']"
 +++
 ### Description: 
 The Qt6 toolkit, qt5compat
 
 ### Files: 
-* /usr/include/qt6/QtCore5Compat/6.6.2/QtCore5Compat/private/qbinaryjsonarray_p.h
-* /usr/include/qt6/QtCore5Compat/6.6.2/QtCore5Compat/private/qbinaryjsonobject_p.h
-* /usr/include/qt6/QtCore5Compat/6.6.2/QtCore5Compat/private/qbinaryjsonvalue_p.h
-* /usr/include/qt6/QtCore5Compat/6.6.2/QtCore5Compat/private/qbinaryjson_p.h
-* /usr/include/qt6/QtCore5Compat/6.6.2/QtCore5Compat/private/qcodecmacros_p.h
-* /usr/include/qt6/QtCore5Compat/6.6.2/QtCore5Compat/private/qicucodec_p.h
-* /usr/include/qt6/QtCore5Compat/6.6.2/QtCore5Compat/private/qisciicodec_p.h
-* /usr/include/qt6/QtCore5Compat/6.6.2/QtCore5Compat/private/qlatincodec_p.h
-* /usr/include/qt6/QtCore5Compat/6.6.2/QtCore5Compat/private/qsimplecodec_p.h
-* /usr/include/qt6/QtCore5Compat/6.6.2/QtCore5Compat/private/qtcore5compat-config_p.h
-* /usr/include/qt6/QtCore5Compat/6.6.2/QtCore5Compat/private/qtextcodec_p.h
-* /usr/include/qt6/QtCore5Compat/6.6.2/QtCore5Compat/private/qtsciicodec_p.h
-* /usr/include/qt6/QtCore5Compat/6.6.2/QtCore5Compat/private/qutfcodec_p.h
-* /usr/include/qt6/QtCore5Compat/6.6.2/QtCore5Compat/private/qxml_p.h
+* /usr/include/qt6/QtCore5Compat/6.6.3/QtCore5Compat/private/qbinaryjsonarray_p.h
+* /usr/include/qt6/QtCore5Compat/6.6.3/QtCore5Compat/private/qbinaryjsonobject_p.h
+* /usr/include/qt6/QtCore5Compat/6.6.3/QtCore5Compat/private/qbinaryjsonvalue_p.h
+* /usr/include/qt6/QtCore5Compat/6.6.3/QtCore5Compat/private/qbinaryjson_p.h
+* /usr/include/qt6/QtCore5Compat/6.6.3/QtCore5Compat/private/qcodecmacros_p.h
+* /usr/include/qt6/QtCore5Compat/6.6.3/QtCore5Compat/private/qicucodec_p.h
+* /usr/include/qt6/QtCore5Compat/6.6.3/QtCore5Compat/private/qisciicodec_p.h
+* /usr/include/qt6/QtCore5Compat/6.6.3/QtCore5Compat/private/qlatincodec_p.h
+* /usr/include/qt6/QtCore5Compat/6.6.3/QtCore5Compat/private/qsimplecodec_p.h
+* /usr/include/qt6/QtCore5Compat/6.6.3/QtCore5Compat/private/qtcore5compat-config_p.h
+* /usr/include/qt6/QtCore5Compat/6.6.3/QtCore5Compat/private/qtextcodec_p.h
+* /usr/include/qt6/QtCore5Compat/6.6.3/QtCore5Compat/private/qtsciicodec_p.h
+* /usr/include/qt6/QtCore5Compat/6.6.3/QtCore5Compat/private/qutfcodec_p.h
+* /usr/include/qt6/QtCore5Compat/6.6.3/QtCore5Compat/private/qxml_p.h
 * /usr/include/qt6/QtCore5Compat/QBinaryJson
 * /usr/include/qt6/QtCore5Compat/qbinaryjson.h
 * /usr/include/qt6/QtCore5Compat/QConcatenable
@@ -80,12 +80,62 @@ The Qt6 toolkit, qt5compat
 * /usr/lib/cmake/Qt6Core5Compat/Qt6Core5CompatTargets-release.cmake
 * /usr/lib/cmake/Qt6Core5Compat/Qt6Core5CompatTargets.cmake
 * /usr/lib/cmake/Qt6Core5Compat/Qt6Core5CompatVersionlessTargets.cmake
+* /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginConfig.cmake
+* /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginConfigVersion.cmake
+* /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginTargets-release.cmake
+* /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginTargets.cmake
+* /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateConfig.cmake
+* /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateConfigVersion.cmake
+* /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateTargets-release.cmake
+* /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateTargets.cmake
 * /usr/lib/libQt6Core5Compat.prl
 * /usr/lib/libQt6Core5Compat.so
 * /usr/lib/libQt6Core5Compat.so.6
-* /usr/lib/libQt6Core5Compat.so.6.6.2
+* /usr/lib/libQt6Core5Compat.so.6.6.3
 * /usr/lib/pkgconfig/Qt6Core5Compat.pc
 * /usr/lib/qt6/metatypes/qt6core5compat_release_metatypes.json
 * /usr/lib/qt6/mkspecs/modules/qt_lib_core5compat.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_core5compat_private.pri
 * /usr/lib/qt6/modules/Core5Compat.json
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/Blend.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/BrightnessContrast.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/Colorize.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/ColorOverlay.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/ConicalGradient.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/Desaturate.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/DirectionalBlur.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/Displace.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/DropShadow.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/FastBlur.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/GammaAdjust.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/GaussianBlur.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/Glow.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/HueSaturation.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/InnerShadow.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/LevelAdjust.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/libqtgraphicaleffectsplugin.so
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/LinearGradient.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/MaskedBlur.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/OpacityMask.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/plugins.qmltypes
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/private/DropShadowBase.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/private/FastGlow.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/private/FastInnerShadow.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/private/GaussianDirectionalBlur.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/private/GaussianGlow.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/private/GaussianInnerShadow.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/private/GaussianMaskedBlur.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/private/libqtgraphicaleffectsprivateplugin.so
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/private/plugins.qmltypes
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/private/qmldir
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/qmldir
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/RadialBlur.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/RadialGradient.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/RectangularGlow.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/RecursiveBlur.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/ThresholdMask.qml
+* /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/ZoomBlur.qml

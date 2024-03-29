@@ -1,49 +1,49 @@
 +++
 draft = false
-title = "qt6-lottie 6.6.2-1"
-version = "6.6.2-1"
+title = "qt6-lottie 6.6.3-1"
+version = "6.6.3-1"
 description = "The Qt6 toolkit, qtlottie"
-date = "2024-02-19T13:16:30"
+date = "2024-03-26T18:41:22"
 aliases = "/packages/220766"
-categories = ['xlib-extra']
+categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "127748"
+size = "127548"
 usize = "500122"
-sha1sum = "71bca2b132f220bab3ad06259609f1c6ede4555c"
+sha1sum = "07c1cbe174d6ae2d22563abbee1eae19cc3433db"
 depends = "['qt6-declarative']"
 +++
 ### Description: 
 The Qt6 toolkit, qtlottie
 
 ### Files: 
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/beziereasing_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmbase_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmbasictransform_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmconstants_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmellipse_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmfilleffect_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmfill_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmfreeformshape_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmgfill_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmgroup_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmimagelayer_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmimage_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmlayer_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmpathtrimmer_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmproperty_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmrect_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmrepeatertransform_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmrepeater_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmround_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmshapelayer_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmshapetransform_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmshape_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmspatialproperty_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmstroke_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/bmtrimpath_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/lottierenderer_p.h
-* /usr/include/qt6/QtBodymovin/6.6.2/QtBodymovin/private/trimpath_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/beziereasing_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmbase_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmbasictransform_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmconstants_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmellipse_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmfilleffect_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmfill_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmfreeformshape_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmgfill_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmgroup_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmimagelayer_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmimage_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmlayer_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmpathtrimmer_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmproperty_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmrect_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmrepeatertransform_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmrepeater_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmround_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmshapelayer_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmshapetransform_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmshape_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmspatialproperty_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmstroke_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/bmtrimpath_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/lottierenderer_p.h
+* /usr/include/qt6/QtBodymovin/6.6.3/QtBodymovin/private/trimpath_p.h
 * /usr/include/qt6/QtBodymovin/bmglobal.h
 * /usr/include/qt6/QtBodymovin/QtBodymovin
 * /usr/include/qt6/QtBodymovin/QtBodymovinDepends
@@ -67,7 +67,7 @@ The Qt6 toolkit, qtlottie
 * /usr/lib/libQt6Bodymovin.prl
 * /usr/lib/libQt6Bodymovin.so
 * /usr/lib/libQt6Bodymovin.so.6
-* /usr/lib/libQt6Bodymovin.so.6.6.2
+* /usr/lib/libQt6Bodymovin.so.6.6.3
 * /usr/lib/qt6/metatypes/qt6bodymovinprivate_release_metatypes.json
 * /usr/lib/qt6/mkspecs/modules/qt_lib_bodymovin_private.pri
 * /usr/lib/qt6/modules/BodymovinPrivate.json

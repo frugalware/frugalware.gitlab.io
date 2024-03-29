@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-quicktimeline 6.6.2-1"
-version = "6.6.2-1"
+title = "qt6-quicktimeline 6.6.3-1"
+version = "6.6.3-1"
 description = "The Qt6 toolkit, qtquicktimeline"
-date = "2024-02-19T13:25:24"
+date = "2024-03-26T18:49:11"
 aliases = "/packages/220773"
-categories = ['xlib-extra']
+categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "40300"
+size = "39984"
 usize = "201417"
-sha1sum = "a9646e92149972dfdc51b0fb0ed52976d9d7de29"
+sha1sum = "abcf9686a6279400a34a1652fecd6e32ef54ab5d"
 depends = "['qt6-declarative']"
 reverse_depends = "['qt6-quick3d']"
 +++
@@ -18,12 +18,12 @@ reverse_depends = "['qt6-quick3d']"
 The Qt6 toolkit, qtquicktimeline
 
 ### Files: 
-* /usr/include/qt6/QtQuickTimeline/6.6.2/QtQuickTimeline/private/qquickkeyframedatautils_p.h
-* /usr/include/qt6/QtQuickTimeline/6.6.2/QtQuickTimeline/private/qquickkeyframe_p.h
-* /usr/include/qt6/QtQuickTimeline/6.6.2/QtQuickTimeline/private/qquicktimelineanimation_p.h
-* /usr/include/qt6/QtQuickTimeline/6.6.2/QtQuickTimeline/private/qquicktimeline_p.h
-* /usr/include/qt6/QtQuickTimeline/6.6.2/QtQuickTimeline/private/qtquicktimelineexports_p.h
-* /usr/include/qt6/QtQuickTimeline/6.6.2/QtQuickTimeline/private/qtquicktimelineglobal_p.h
+* /usr/include/qt6/QtQuickTimeline/6.6.3/QtQuickTimeline/private/qquickkeyframedatautils_p.h
+* /usr/include/qt6/QtQuickTimeline/6.6.3/QtQuickTimeline/private/qquickkeyframe_p.h
+* /usr/include/qt6/QtQuickTimeline/6.6.3/QtQuickTimeline/private/qquicktimelineanimation_p.h
+* /usr/include/qt6/QtQuickTimeline/6.6.3/QtQuickTimeline/private/qquicktimeline_p.h
+* /usr/include/qt6/QtQuickTimeline/6.6.3/QtQuickTimeline/private/qtquicktimelineexports_p.h
+* /usr/include/qt6/QtQuickTimeline/6.6.3/QtQuickTimeline/private/qtquicktimelineglobal_p.h
 * /usr/include/qt6/QtQuickTimeline/QtQuickTimeline
 * /usr/include/qt6/QtQuickTimeline/QtQuickTimelineDepends
 * /usr/include/qt6/QtQuickTimeline/qtquicktimelineexports.h
@@ -48,7 +48,7 @@ The Qt6 toolkit, qtquicktimeline
 * /usr/lib/libQt6QuickTimeline.prl
 * /usr/lib/libQt6QuickTimeline.so
 * /usr/lib/libQt6QuickTimeline.so.6
-* /usr/lib/libQt6QuickTimeline.so.6.6.2
+* /usr/lib/libQt6QuickTimeline.so.6.6.3
 * /usr/lib/pkgconfig/Qt6QuickTimeline.pc
 * /usr/lib/qt6/metatypes/qt6quicktimeline_release_metatypes.json
 * /usr/lib/qt6/mkspecs/modules/qt_lib_quicktimeline.pri

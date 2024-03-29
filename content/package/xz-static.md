@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xz-static 5.6.1-1"
-version = "5.6.1-1"
+title = "xz-static 5.6.1-2"
+version = "5.6.1-2"
 description = "Static files for xz"
-date = "2024-03-09T20:23:11"
+date = "2024-03-29T22:55:36"
 aliases = "/packages/219956"
 categories = ['devel-extra']
 upstreamurl = "http://tukaani.org/xz/"
 arch = "x86_64"
-size = "1143324"
+size = "1143304"
 usize = "1436800"
-sha1sum = "5898e99f2a7d6d84648a07b4887b77fc989bbd9e"
+sha1sum = "4e2317444d4b5e6d2c1f114bd0a8a74c12caf0d3"
 depends = "['libstdc++>=12.2']"
 +++
 ### Description: 
