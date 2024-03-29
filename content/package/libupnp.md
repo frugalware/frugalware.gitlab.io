@@ -12,7 +12,7 @@ size = "181328"
 usize = "763042"
 sha1sum = "22f0953c5099676dd4317dea1344954d47347c51"
 depends = "['glibc>=2.34']"
-reverse_depends = "['mpd', 'openclonk', 'vlc-upnp']"
+reverse_depends = "['mpd', 'openclonk', 'retroshare', 'retroshare', 'vlc-upnp']"
 +++
 ### Description: 
 An Portable Open Source UPnP Development Kit
