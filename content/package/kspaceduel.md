@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kspaceduel 23.08.5-1"
-version = "23.08.5-1"
+title = "kspaceduel 24.02.1-3"
+version = "24.02.1-3"
 description = "KSpaceDuel: each of two possible players controls a satellite spaceship orbiting the sun"
-date = "2024-02-20T13:17:27"
+date = "2024-03-27T13:24:05"
 aliases = "/packages/219340"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "692224"
-usize = "1792117"
-sha1sum = "6e8c002ef9120fb5ab64b42b783b47b4aab1cd33"
-depends = "['libkdegames>=23.08.5']"
+size = "694908"
+usize = "1817455"
+sha1sum = "425532d76387c9afba0e5db07433db55d3152be3"
+depends = "['libkdegames>=24.02.1']"
 +++
 ### Description: 
 KSpaceDuel: each of two possible players controls a satellite spaceship orbiting the sun
@@ -60,11 +60,11 @@ KSpaceDuel: each of two possible players controls a satellite spaceship orbiting
 * /usr/share/doc/HTML/uk/kspaceduel/index.cache.bz2
 * /usr/share/doc/HTML/uk/kspaceduel/index.docbook
 * /usr/share/doc/HTML/uk/kspaceduel/kspaceduel3.png
-* /usr/share/doc/kspaceduel-23.08.5/AUTHORS
-* /usr/share/doc/kspaceduel-23.08.5/ChangeLog
-* /usr/share/doc/kspaceduel-23.08.5/README
-* /usr/share/doc/kspaceduel-23.08.5/README.PACKAGERS
-* /usr/share/doc/kspaceduel-23.08.5/TODO
+* /usr/share/doc/kspaceduel-24.02.1/AUTHORS
+* /usr/share/doc/kspaceduel-24.02.1/ChangeLog
+* /usr/share/doc/kspaceduel-24.02.1/README
+* /usr/share/doc/kspaceduel-24.02.1/README.PACKAGERS
+* /usr/share/doc/kspaceduel-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kspaceduel.png
 * /usr/share/icons/hicolor/16x16/apps/kspaceduel.png
 * /usr/share/icons/hicolor/22x22/apps/kspaceduel.png
@@ -95,6 +95,7 @@ KSpaceDuel: each of two possible players controls a satellite spaceship orbiting
 * /usr/share/kspaceduel/sprites/playerinfo/win.png
 * /usr/share/locale/af/LC_MESSAGES/kspaceduel.mo
 * /usr/share/locale/ar/LC_MESSAGES/kspaceduel.mo
+* /usr/share/locale/ast/LC_MESSAGES/kspaceduel.mo
 * /usr/share/locale/be/LC_MESSAGES/kspaceduel.mo
 * /usr/share/locale/bg/LC_MESSAGES/kspaceduel.mo
 * /usr/share/locale/br/LC_MESSAGES/kspaceduel.mo
@@ -121,6 +122,7 @@ KSpaceDuel: each of two possible players controls a satellite spaceship orbiting
 * /usr/share/locale/hne/LC_MESSAGES/kspaceduel.mo
 * /usr/share/locale/hr/LC_MESSAGES/kspaceduel.mo
 * /usr/share/locale/hu/LC_MESSAGES/kspaceduel.mo
+* /usr/share/locale/ia/LC_MESSAGES/kspaceduel.mo
 * /usr/share/locale/is/LC_MESSAGES/kspaceduel.mo
 * /usr/share/locale/it/LC_MESSAGES/kspaceduel.mo
 * /usr/share/locale/ja/LC_MESSAGES/kspaceduel.mo

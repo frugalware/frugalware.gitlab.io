@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdf 23.08.5-1"
-version = "23.08.5-1"
+title = "kdf 24.02.1-3"
+version = "24.02.1-3"
 description = "KDiskFree displays the available file devices"
-date = "2024-02-19T21:19:38"
+date = "2024-03-27T10:13:47"
 aliases = "/packages/219331"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "623464"
-usize = "1368357"
-sha1sum = "a52c81f54e7faa23662abec8d05d1beff1022830"
-depends = "['kcmutils>=5.115.0', 'kio>=5.115.0']"
+size = "625136"
+usize = "1377595"
+sha1sum = "95309389bc13789064c82569fb36922203754926"
+depends = "['kcmutils>=6.0.0', 'kio>=6.0.0']"
 +++
 ### Description: 
 KDiskFree displays the available file devices
@@ -19,9 +19,9 @@ KDiskFree displays the available file devices
 ### Files: 
 * /usr/bin/kdf
 * /usr/bin/kwikdisk
-* /usr/lib/libkdfprivate.so.23
-* /usr/lib/libkdfprivate.so.23.08.5
-* /usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/kcm_kdf.so
+* /usr/lib/libkdfprivate.so.24
+* /usr/lib/libkdfprivate.so.24.02.1
+* /usr/lib/qt6/plugins/plasma/kcms/systemsettings_qwidgets/kcm_kdf.so
 * /usr/share/applications/kcm_kdf.desktop
 * /usr/share/applications/org.kde.kdf.desktop
 * /usr/share/applications/org.kde.kwikdisk.desktop
@@ -120,9 +120,9 @@ KDiskFree displays the available file devices
 * /usr/share/icons/hicolor/48x48/apps/kwikdisk.png
 * /usr/share/icons/hicolor/64x64/apps/kdf.png
 * /usr/share/icons/hicolor/64x64/apps/kwikdisk.png
-* /usr/share/kxmlgui5/kdf/kdfui.rc
 * /usr/share/locale/af/LC_MESSAGES/kdf.mo
 * /usr/share/locale/ar/LC_MESSAGES/kdf.mo
+* /usr/share/locale/ast/LC_MESSAGES/kdf.mo
 * /usr/share/locale/be/LC_MESSAGES/kdf.mo
 * /usr/share/locale/bg/LC_MESSAGES/kdf.mo
 * /usr/share/locale/br/LC_MESSAGES/kdf.mo
@@ -196,4 +196,4 @@ KDiskFree displays the available file devices
 * /usr/share/locale/zh_CN/LC_MESSAGES/kdf.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kdf.mo
 * /usr/share/metainfo/org.kde.kdf.appdata.xml
-* /usr/share/qlogging-categories5/kdf.categories
+* /usr/share/qlogging-categories6/kdf.categories

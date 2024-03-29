@@ -1,24 +1,23 @@
 +++
 draft = false
-title = "kiten 23.08.5-1"
-version = "23.08.5-1"
+title = "kiten 24.02.1-3"
+version = "24.02.1-3"
 description = "Japanese Reference/Study Tool."
-date = "2024-02-19T21:25:34"
+date = "2024-03-27T10:18:43"
 aliases = "/packages/152831"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "11524920"
-usize = "33020609"
-sha1sum = "9287a5b5558f262106b5408e48ee586b7410fafa"
-depends = "['khtml>=5.115.0', 'qt5-svg>=5.15.12']"
+size = "11563620"
+usize = "33097028"
+sha1sum = "71e031bfbcbcdfea6bd3b6d8421783b285ef1219"
+depends = "['kio>=6.0.0']"
 +++
 ### Description: 
 Japanese Reference/Study Tool.
 
 ### Files: 
 * /usr/bin/kiten
-* /usr/bin/kitengen
 * /usr/bin/kitenkanjibrowser
 * /usr/bin/kitenradselect
 * /usr/include/libkiten/DictEdict/dictfileedict.h
@@ -31,10 +30,9 @@ Japanese Reference/Study Tool.
 * /usr/include/libkiten/entry.h
 * /usr/include/libkiten/entrylist.h
 * /usr/include/libkiten/historyptrlist.h
-* /usr/include/libkiten/kromajiedit.h
 * /usr/lib/libkiten.so
-* /usr/lib/libkiten.so.5
-* /usr/lib/libkiten.so.5.0.0
+* /usr/lib/libkiten.so.6
+* /usr/lib/libkiten.so.6.0.0
 * /usr/share/applications/org.kde.kiten.desktop
 * /usr/share/applications/org.kde.kitenkanjibrowser.desktop
 * /usr/share/applications/org.kde.kitenradselect.desktop
@@ -97,10 +95,10 @@ Japanese Reference/Study Tool.
 * /usr/share/doc/HTML/uk/kiten/verb_deinflection.png
 * /usr/share/doc/HTML/uk/kiten/with_filtering.png
 * /usr/share/doc/HTML/uk/kiten/word_type_results.png
-* /usr/share/doc/kiten-23.08.5/AUTHORS
-* /usr/share/doc/kiten-23.08.5/COPYING.DOC
-* /usr/share/doc/kiten-23.08.5/README
-* /usr/share/doc/kiten-23.08.5/TODO
+* /usr/share/doc/kiten-24.02.1/AUTHORS
+* /usr/share/doc/kiten-24.02.1/COPYING.DOC
+* /usr/share/doc/kiten-24.02.1/README.md
+* /usr/share/doc/kiten-24.02.1/TODO
 * /usr/share/fonts/kanjistrokeorders/KanjiStrokeOrders.ttf
 * /usr/share/icons/hicolor/128x128/apps/kiten.png
 * /usr/share/icons/hicolor/16x16/apps/kiten.png
@@ -114,9 +112,6 @@ Japanese Reference/Study Tool.
 * /usr/share/kiten/radkfile
 * /usr/share/kiten/romkana.cnv
 * /usr/share/kiten/vconj
-* /usr/share/kxmlgui5/kiten/kitenui.rc
-* /usr/share/kxmlgui5/kitenkanjibrowser/kanjibrowserui.rc
-* /usr/share/kxmlgui5/kitenradselect/radselectui.rc
 * /usr/share/locale/af/LC_MESSAGES/kiten.mo
 * /usr/share/locale/ar/LC_MESSAGES/kiten.mo
 * /usr/share/locale/be/LC_MESSAGES/kiten.mo
@@ -140,10 +135,12 @@ Japanese Reference/Study Tool.
 * /usr/share/locale/fr/LC_MESSAGES/kiten.mo
 * /usr/share/locale/ga/LC_MESSAGES/kiten.mo
 * /usr/share/locale/gl/LC_MESSAGES/kiten.mo
+* /usr/share/locale/he/LC_MESSAGES/kiten.mo
 * /usr/share/locale/hi/LC_MESSAGES/kiten.mo
 * /usr/share/locale/hne/LC_MESSAGES/kiten.mo
 * /usr/share/locale/hr/LC_MESSAGES/kiten.mo
 * /usr/share/locale/hu/LC_MESSAGES/kiten.mo
+* /usr/share/locale/ia/LC_MESSAGES/kiten.mo
 * /usr/share/locale/is/LC_MESSAGES/kiten.mo
 * /usr/share/locale/it/LC_MESSAGES/kiten.mo
 * /usr/share/locale/ja/LC_MESSAGES/kiten.mo

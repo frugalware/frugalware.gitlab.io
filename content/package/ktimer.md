@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktimer 23.08.5-1"
-version = "23.08.5-1"
+title = "ktimer 24.02.1-3"
+version = "24.02.1-3"
 description = "Countdown timer."
-date = "2024-02-19T21:44:14"
+date = "2024-03-27T10:28:13"
 aliases = "/packages/153208"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "462828"
-usize = "938122"
-sha1sum = "ffc02ae51b3fb926e37be919bc2462c3d7d42694"
-depends = "['kio>=5.115.0']"
+size = "463568"
+usize = "962898"
+sha1sum = "0a97f82be930cc33bd54eb8b063df3a25545160c"
+depends = "['kio>=6.0.0']"
 +++
 ### Description: 
 Countdown timer.
@@ -73,13 +73,14 @@ Countdown timer.
 * /usr/share/doc/HTML/uk/ktimer/main.png
 * /usr/share/doc/HTML/uk/ktimer/running.png
 * /usr/share/doc/HTML/uk/ktimer/two_at_once.png
-* /usr/share/doc/ktimer-23.08.5/COPYING
+* /usr/share/doc/ktimer-24.02.1/COPYING
 * /usr/share/icons/hicolor/128x128/apps/ktimer.png
 * /usr/share/icons/hicolor/16x16/apps/ktimer.png
 * /usr/share/icons/hicolor/32x32/apps/ktimer.png
 * /usr/share/icons/hicolor/48x48/apps/ktimer.png
 * /usr/share/locale/af/LC_MESSAGES/ktimer.mo
 * /usr/share/locale/ar/LC_MESSAGES/ktimer.mo
+* /usr/share/locale/ast/LC_MESSAGES/ktimer.mo
 * /usr/share/locale/be/LC_MESSAGES/ktimer.mo
 * /usr/share/locale/bg/LC_MESSAGES/ktimer.mo
 * /usr/share/locale/br/LC_MESSAGES/ktimer.mo

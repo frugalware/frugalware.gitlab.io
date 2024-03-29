@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kreversi 23.08.5-1"
-version = "23.08.5-1"
+title = "kreversi 24.02.1-3"
+version = "24.02.1-3"
 description = "KReversi is is a simple one player strategy game played against the computer"
-date = "2024-02-20T13:13:10"
+date = "2024-03-27T13:20:27"
 aliases = "/packages/219338"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1059888"
-usize = "2267230"
-sha1sum = "c1dbe95e6225563a2bfce4d443df441e3022face"
-depends = "['libkdegames>=23.08.5']"
+size = "1063608"
+usize = "2291338"
+sha1sum = "17332f276d7dfb62ab5141ba9baaef2d4e785204"
+depends = "['libkdegames>=24.02.1']"
 +++
 ### Description: 
 KReversi is is a simple one player strategy game played against the computer
@@ -63,10 +63,10 @@ KReversi is is a simple one player strategy game played against the computer
 * /usr/share/doc/HTML/uk/kreversi/index.docbook
 * /usr/share/doc/HTML/uk/kreversi/kreversi1.png
 * /usr/share/doc/HTML/uk/kreversi/kreversi2.png
-* /usr/share/doc/kreversi-23.08.5/AUTHORS
-* /usr/share/doc/kreversi-23.08.5/ChangeLog
-* /usr/share/doc/kreversi-23.08.5/NEWS
-* /usr/share/doc/kreversi-23.08.5/TODO
+* /usr/share/doc/kreversi-24.02.1/AUTHORS
+* /usr/share/doc/kreversi-24.02.1/ChangeLog
+* /usr/share/doc/kreversi-24.02.1/NEWS
+* /usr/share/doc/kreversi-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kreversi.png
 * /usr/share/icons/hicolor/16x16/actions/lastmoves.png
 * /usr/share/icons/hicolor/16x16/actions/legalmoves.png
@@ -83,7 +83,7 @@ KReversi is is a simple one player strategy game played against the computer
 * /usr/share/icons/hicolor/64x64/apps/kreversi.png
 * /usr/share/icons/hicolor/scalable/actions/lastmoves.svgz
 * /usr/share/icons/hicolor/scalable/actions/legalmoves.svgz
-* /usr/share/knotifications5/kreversi.notifyrc
+* /usr/share/knotifications6/kreversi.notifyrc
 * /usr/share/kreversi/pics/default_theme.desktop
 * /usr/share/kreversi/pics/default_theme.svgz
 * /usr/share/kreversi/qml/Board.qml
@@ -97,6 +97,7 @@ KReversi is is a simple one player strategy game played against the computer
 * /usr/share/kreversi/sounds/reversi-won.wav
 * /usr/share/locale/af/LC_MESSAGES/kreversi.mo
 * /usr/share/locale/ar/LC_MESSAGES/kreversi.mo
+* /usr/share/locale/ast/LC_MESSAGES/kreversi.mo
 * /usr/share/locale/be/LC_MESSAGES/kreversi.mo
 * /usr/share/locale/bg/LC_MESSAGES/kreversi.mo
 * /usr/share/locale/bn/LC_MESSAGES/kreversi.mo
@@ -124,6 +125,7 @@ KReversi is is a simple one player strategy game played against the computer
 * /usr/share/locale/hne/LC_MESSAGES/kreversi.mo
 * /usr/share/locale/hr/LC_MESSAGES/kreversi.mo
 * /usr/share/locale/hu/LC_MESSAGES/kreversi.mo
+* /usr/share/locale/ia/LC_MESSAGES/kreversi.mo
 * /usr/share/locale/id/LC_MESSAGES/kreversi.mo
 * /usr/share/locale/is/LC_MESSAGES/kreversi.mo
 * /usr/share/locale/it/LC_MESSAGES/kreversi.mo

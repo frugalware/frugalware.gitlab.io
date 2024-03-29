@@ -1,23 +1,22 @@
 +++
 draft = false
-title = "kturtle 23.08.5-1"
-version = "23.08.5-1"
+title = "kturtle 24.02.1-3"
+version = "24.02.1-3"
 description = "Educational Programming Environment."
-date = "2024-02-20T12:50:43"
+date = "2024-03-27T13:11:29"
 aliases = "/packages/152836"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2274128"
-usize = "5815136"
-sha1sum = "2215c9f793940817af9d4ab5d9f7e6abcf23435e"
-depends = "['kio>=5.115.0', 'knewstuff>=5.115.0']"
+size = "2292164"
+usize = "5936917"
+sha1sum = "1222a2d5b1e91a6c2ef5db0393f711df2cc56b01"
+depends = "['kio>=6.0.0', 'knewstuff>=6.0.0']"
 +++
 ### Description: 
 Educational Programming Environment.
 
 ### Files: 
-* /etc/xdg/kturtle.knsrc
 * /usr/bin/kturtle
 * /usr/share/applications/org.kde.kturtle.desktop
 * /usr/share/doc/HTML/ar/kturtle/getting-started.docbook
@@ -160,18 +159,19 @@ Educational Programming Environment.
 * /usr/share/doc/HTML/uk/kturtle/programming-reference.docbook
 * /usr/share/doc/HTML/uk/kturtle/translator-guide.docbook
 * /usr/share/doc/HTML/uk/kturtle/using-kturtle.docbook
-* /usr/share/doc/kturtle-23.08.5/AUTHORS
-* /usr/share/doc/kturtle-23.08.5/COPYING.DOC
-* /usr/share/doc/kturtle-23.08.5/INSTALL.md
-* /usr/share/doc/kturtle-23.08.5/README.md
+* /usr/share/doc/kturtle-24.02.1/AUTHORS
+* /usr/share/doc/kturtle-24.02.1/COPYING.DOC
+* /usr/share/doc/kturtle-24.02.1/INSTALL.md
+* /usr/share/doc/kturtle-24.02.1/README.md
 * /usr/share/icons/hicolor/128x128/apps/kturtle.png
 * /usr/share/icons/hicolor/16x16/apps/kturtle.png
 * /usr/share/icons/hicolor/22x22/apps/kturtle.png
 * /usr/share/icons/hicolor/32x32/apps/kturtle.png
 * /usr/share/icons/hicolor/48x48/apps/kturtle.png
 * /usr/share/icons/hicolor/64x64/apps/kturtle.png
-* /usr/share/kxmlgui5/kturtle/kturtleui.rc
+* /usr/share/knsrcfiles/kturtle.knsrc
 * /usr/share/locale/ar/LC_MESSAGES/kturtle.mo
+* /usr/share/locale/ast/LC_MESSAGES/kturtle.mo
 * /usr/share/locale/be/LC_MESSAGES/kturtle.mo
 * /usr/share/locale/bg/LC_MESSAGES/kturtle.mo
 * /usr/share/locale/bn/LC_MESSAGES/kturtle.mo
@@ -201,6 +201,7 @@ Educational Programming Environment.
 * /usr/share/locale/hr/LC_MESSAGES/kturtle.mo
 * /usr/share/locale/hu/LC_MESSAGES/kturtle.mo
 * /usr/share/locale/hy/LC_MESSAGES/kturtle.mo
+* /usr/share/locale/ia/LC_MESSAGES/kturtle.mo
 * /usr/share/locale/is/LC_MESSAGES/kturtle.mo
 * /usr/share/locale/it/LC_MESSAGES/kturtle.mo
 * /usr/share/locale/ja/LC_MESSAGES/kturtle.mo

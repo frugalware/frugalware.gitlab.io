@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmahjongg 23.08.5-1"
-version = "23.08.5-1"
+title = "kmahjongg 24.02.1-3"
+version = "24.02.1-3"
 description = "KMahjongg is a tile matching game for one or two players"
-date = "2024-02-20T13:08:05"
+date = "2024-03-27T13:19:10"
 aliases = "/packages/219335"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4205900"
-usize = "5741925"
-sha1sum = "d2ceef078ec774ab8b8ca7288141e2b93c44c6ad"
-depends = "['libkdegames>=23.08.5', 'libkmahjongg>=23.08.5']"
+size = "4206284"
+usize = "5751114"
+sha1sum = "8deecaf92c0f06adc988c1c15db2e0b4e8c905c8"
+depends = "['libkdegames>=24.02.1', 'libkmahjongg>=24.02.1']"
 +++
 ### Description: 
 KMahjongg is a tile matching game for one or two players
@@ -113,8 +113,8 @@ KMahjongg is a tile matching game for one or two players
 * /usr/share/doc/HTML/uk/kmahjongg/index.cache.bz2
 * /usr/share/doc/HTML/uk/kmahjongg/index.docbook
 * /usr/share/doc/HTML/uk/kmahjongg/numbered.png
-* /usr/share/doc/kmahjongg-23.08.5/ChangeLog
-* /usr/share/doc/kmahjongg-23.08.5/README.PACKAGERS
+* /usr/share/doc/kmahjongg-24.02.1/ChangeLog
+* /usr/share/doc/kmahjongg-24.02.1/README.PACKAGERS
 * /usr/share/icons/hicolor/128x128/apps/kmahjongg.png
 * /usr/share/icons/hicolor/16x16/apps/kmahjongg.png
 * /usr/share/icons/hicolor/22x22/apps/kmahjongg.png
@@ -268,6 +268,7 @@ KMahjongg is a tile matching game for one or two players
 * /usr/share/kmahjongg/layouts/X_shaped.layout
 * /usr/share/locale/af/LC_MESSAGES/kmahjongg.mo
 * /usr/share/locale/ar/LC_MESSAGES/kmahjongg.mo
+* /usr/share/locale/ast/LC_MESSAGES/kmahjongg.mo
 * /usr/share/locale/be/LC_MESSAGES/kmahjongg.mo
 * /usr/share/locale/bg/LC_MESSAGES/kmahjongg.mo
 * /usr/share/locale/bn/LC_MESSAGES/kmahjongg.mo
@@ -296,6 +297,7 @@ KMahjongg is a tile matching game for one or two players
 * /usr/share/locale/hne/LC_MESSAGES/kmahjongg.mo
 * /usr/share/locale/hr/LC_MESSAGES/kmahjongg.mo
 * /usr/share/locale/hu/LC_MESSAGES/kmahjongg.mo
+* /usr/share/locale/ia/LC_MESSAGES/kmahjongg.mo
 * /usr/share/locale/id/LC_MESSAGES/kmahjongg.mo
 * /usr/share/locale/is/LC_MESSAGES/kmahjongg.mo
 * /usr/share/locale/it/LC_MESSAGES/kmahjongg.mo
@@ -342,4 +344,4 @@ KMahjongg is a tile matching game for one or two players
 * /usr/share/locale/zh_CN/LC_MESSAGES/kmahjongg.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kmahjongg.mo
 * /usr/share/metainfo/org.kde.kmahjongg.appdata.xml
-* /usr/share/qlogging-categories5/kmahjongg.categories
+* /usr/share/qlogging-categories6/kmahjongg.categories

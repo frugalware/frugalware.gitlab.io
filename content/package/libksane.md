@@ -1,38 +1,38 @@
 +++
 draft = false
-title = "libksane 23.08.5-1"
-version = "23.08.5-1"
+title = "libksane 24.02.1-3"
+version = "24.02.1-3"
 description = "KDE SANE interface library."
-date = "2024-02-19T22:21:23"
+date = "2024-03-27T10:52:17"
 aliases = "/packages/74207"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "152440"
-usize = "715360"
-sha1sum = "763edeb60ca88af7efad7dec2b737ec1b624a4ec"
-depends = "['ksanecore>=23.08.5', 'ktextwidgets>=5.115.0']"
+size = "149056"
+usize = "704890"
+sha1sum = "658f5e388d55029909f70868d578ee6b4c9f0c70"
+depends = "['ksanecore>=24.02.1', 'ktextwidgets>=6.0.0', 'kwallet>=6.0.0']"
 reverse_depends = "['digikam', 'kolourpaint']"
 +++
 ### Description: 
 KDE SANE interface library.
 
 ### Files: 
-* /usr/include/KF5/KSane/KSaneWidget
-* /usr/include/KF5/KSane/ksanewidget.h
-* /usr/include/KF5/KSane/ksane_export.h
-* /usr/include/KF5/KSane/ksane_version.h
-* /usr/lib/cmake/KF5Sane/KF5SaneConfig.cmake
-* /usr/lib/cmake/KF5Sane/KF5SaneConfigVersion.cmake
-* /usr/lib/cmake/KF5Sane/KF5SaneTargets-release.cmake
-* /usr/lib/cmake/KF5Sane/KF5SaneTargets.cmake
-* /usr/lib/libKF5Sane.so
-* /usr/lib/libKF5Sane.so.23.08.5
-* /usr/lib/libKF5Sane.so.5
-* /usr/share/doc/libksane-23.08.5/AUTHORS
-* /usr/share/doc/libksane-23.08.5/COPYING.twain
-* /usr/share/doc/libksane-23.08.5/README.md
-* /usr/share/doc/libksane-23.08.5/TODO
+* /usr/include/KSaneWidgets6/KSaneWidget
+* /usr/include/KSaneWidgets6/ksanewidget.h
+* /usr/include/KSaneWidgets6/ksane_export.h
+* /usr/include/KSaneWidgets6/ksane_version.h
+* /usr/lib/cmake/KSaneWidgets6/KSaneWidgets6Config.cmake
+* /usr/lib/cmake/KSaneWidgets6/KSaneWidgets6ConfigVersion.cmake
+* /usr/lib/cmake/KSaneWidgets6/KSaneWidgets6Targets-release.cmake
+* /usr/lib/cmake/KSaneWidgets6/KSaneWidgets6Targets.cmake
+* /usr/lib/libKSaneWidgets6.so
+* /usr/lib/libKSaneWidgets6.so.24.02.1
+* /usr/lib/libKSaneWidgets6.so.6
+* /usr/share/doc/libksane-24.02.1/AUTHORS
+* /usr/share/doc/libksane-24.02.1/COPYING.twain
+* /usr/share/doc/libksane-24.02.1/README.md
+* /usr/share/doc/libksane-24.02.1/TODO
 * /usr/share/icons/hicolor/16x16/actions/black-white.png
 * /usr/share/icons/hicolor/16x16/actions/color.png
 * /usr/share/icons/hicolor/16x16/actions/gray-scale.png

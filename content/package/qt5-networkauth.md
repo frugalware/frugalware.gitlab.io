@@ -12,7 +12,6 @@ size = "63736"
 usize = "248461"
 sha1sum = "d0a86d7c90e7fbf6e3b555766be7762cd288f03b"
 depends = "['pcre2', 'qt5-base>=5.15.13']"
-reverse_depends = "['kdepim-runtime']"
 +++
 ### Description: 
 The Qt5 toolkit, qtnetworkauth

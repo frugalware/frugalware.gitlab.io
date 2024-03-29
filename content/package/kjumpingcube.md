@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kjumpingcube 23.08.5-1"
-version = "23.08.5-1"
+title = "kjumpingcube 24.02.1-3"
+version = "24.02.1-3"
 description = "A simple tactical game."
-date = "2024-02-19T22:42:42"
+date = "2024-03-27T11:13:14"
 aliases = "/packages/184185"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "451528"
-usize = "1345404"
-sha1sum = "ab18ff44af0b1829a3afb73d479c79b97d27d9f3"
-depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5']"
+size = "452516"
+usize = "1359091"
+sha1sum = "6c40fabd1c70cd7295a1a6eed9d1a7c0ea1c3988"
+depends = "['knotifyconfig>=6.0.0', 'libkdegames>=24.02.1']"
 +++
 ### Description: 
 A simple tactical game.
@@ -51,11 +51,11 @@ A simple tactical game.
 * /usr/share/doc/HTML/uk/kjumpingcube/index.cache.bz2
 * /usr/share/doc/HTML/uk/kjumpingcube/index.docbook
 * /usr/share/doc/HTML/uk/kjumpingcube/settings.png
-* /usr/share/doc/kjumpingcube-23.08.5/AUTHORS
-* /usr/share/doc/kjumpingcube-23.08.5/ChangeLog
-* /usr/share/doc/kjumpingcube-23.08.5/README
-* /usr/share/doc/kjumpingcube-23.08.5/README.PACKAGERS
-* /usr/share/doc/kjumpingcube-23.08.5/TODO
+* /usr/share/doc/kjumpingcube-24.02.1/AUTHORS
+* /usr/share/doc/kjumpingcube-24.02.1/ChangeLog
+* /usr/share/doc/kjumpingcube-24.02.1/README
+* /usr/share/doc/kjumpingcube-24.02.1/README.PACKAGERS
+* /usr/share/doc/kjumpingcube-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kjumpingcube.png
 * /usr/share/icons/hicolor/16x16/apps/kjumpingcube.png
 * /usr/share/icons/hicolor/22x22/apps/kjumpingcube.png
@@ -66,6 +66,7 @@ A simple tactical game.
 * /usr/share/kjumpingcube/pics/default.svg
 * /usr/share/locale/af/LC_MESSAGES/kjumpingcube.mo
 * /usr/share/locale/ar/LC_MESSAGES/kjumpingcube.mo
+* /usr/share/locale/ast/LC_MESSAGES/kjumpingcube.mo
 * /usr/share/locale/be/LC_MESSAGES/kjumpingcube.mo
 * /usr/share/locale/bg/LC_MESSAGES/kjumpingcube.mo
 * /usr/share/locale/br/LC_MESSAGES/kjumpingcube.mo
@@ -92,6 +93,7 @@ A simple tactical game.
 * /usr/share/locale/hne/LC_MESSAGES/kjumpingcube.mo
 * /usr/share/locale/hr/LC_MESSAGES/kjumpingcube.mo
 * /usr/share/locale/hu/LC_MESSAGES/kjumpingcube.mo
+* /usr/share/locale/ia/LC_MESSAGES/kjumpingcube.mo
 * /usr/share/locale/id/LC_MESSAGES/kjumpingcube.mo
 * /usr/share/locale/is/LC_MESSAGES/kjumpingcube.mo
 * /usr/share/locale/it/LC_MESSAGES/kjumpingcube.mo
@@ -138,4 +140,4 @@ A simple tactical game.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kjumpingcube.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kjumpingcube.mo
 * /usr/share/metainfo/org.kde.kjumpingcube.appdata.xml
-* /usr/share/qlogging-categories5/kjumpingcube.categories
+* /usr/share/qlogging-categories6/kjumpingcube.categories

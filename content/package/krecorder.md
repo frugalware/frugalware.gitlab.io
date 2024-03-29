@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "krecorder 23.08.5-1"
-version = "23.08.5-1"
+title = "krecorder 24.02.1-3"
+version = "24.02.1-3"
 description = "Audio recorder for Plasma Mobile and other platforms"
-date = "2024-02-20T15:04:12"
+date = "2024-03-27T14:12:25"
 aliases = "/packages/220985"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "97384"
-usize = "456058"
-sha1sum = "3c96a21a5db70d9a9fe5ff94ff72090f81bd02c1"
-depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kirigami-addons', 'kwindowsystem', 'qt5-multimedia', 'qt5-svg']"
+size = "78536"
+usize = "299962"
+sha1sum = "ddb1ebd6f143cb7740ab222112c5bf374e822e89"
+depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kirigami-addons', 'kwindowsystem', 'qt6-multimedia', 'qt6-svg']"
 +++
 ### Description: 
 Audio recorder for Plasma Mobile and other platforms
@@ -19,7 +19,7 @@ Audio recorder for Plasma Mobile and other platforms
 ### Files: 
 * /usr/bin/krecorder
 * /usr/share/applications/org.kde.krecorder.desktop
-* /usr/share/doc/krecorder-23.08.5/README.md
+* /usr/share/doc/krecorder-24.02.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.krecorder.svg
 * /usr/share/locale/ar/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/ca/LC_MESSAGES/krecorder.mo
@@ -28,11 +28,14 @@ Audio recorder for Plasma Mobile and other platforms
 * /usr/share/locale/de/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/el/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/krecorder.mo
+* /usr/share/locale/eo/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/es/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/eu/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/fi/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/fr/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/gl/LC_MESSAGES/krecorder.mo
+* /usr/share/locale/hu/LC_MESSAGES/krecorder.mo
+* /usr/share/locale/ia/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/it/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/ja/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/ka/LC_MESSAGES/krecorder.mo

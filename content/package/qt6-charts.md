@@ -12,7 +12,7 @@ size = "706956"
 usize = "4455624"
 sha1sum = "9a41044c7e6ce75b47c071080de6437f725980bd"
 depends = "['qt6-declarative']"
-reverse_depends = "['socnetv']"
+reverse_depends = "['kweather', 'socnetv']"
 +++
 ### Description: 
 The Qt6 toolkit, qtcharts

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kalgebra 23.08.5-1"
-version = "23.08.5-1"
+title = "kalgebra 24.02.1-3"
+version = "24.02.1-3"
 description = "2D and 3D Graph Calculator."
-date = "2024-02-19T21:03:44"
+date = "2024-03-27T10:02:30"
 aliases = "/packages/152824"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1079980"
-usize = "1999542"
-sha1sum = "02fb7f53fbfec2329daea252b4fc4b4c1d6505c3"
-depends = "['analitza>=23.08.5', 'kio>=5.115.0', 'libglu>=9.0.0-3', 'qt5-webengine>=5.15.12', 'readline>=8.0']"
+size = "1079788"
+usize = "2028347"
+sha1sum = "6ac62bfe4f779dd10466bdd2c832fd94f99aa22c"
+depends = "['analitza>=24.02.1', 'kio>=6.0.0', 'libglu>=9.0.0-3', 'qt6-webengine>=6.6.3', 'readline>=8.0']"
 +++
 ### Description: 
 2D and 3D Graph Calculator.
@@ -73,14 +73,16 @@ depends = "['analitza>=23.08.5', 'kio>=5.115.0', 'libglu>=9.0.0-3', 'qt5-webengi
 * /usr/share/doc/HTML/uk/kalgebra/kalgebra-console-window.png
 * /usr/share/doc/HTML/uk/kalgebra/kalgebra-dictionary-window.png
 * /usr/share/doc/HTML/uk/kalgebra/kalgebra-main-window.png
-* /usr/share/doc/kalgebra-23.08.5/COPYING
-* /usr/share/doc/kalgebra-23.08.5/COPYING.DOC
-* /usr/share/doc/kalgebra-23.08.5/COPYING.LIB
-* /usr/share/doc/kalgebra-23.08.5/TODO
+* /usr/share/doc/kalgebra-24.02.1/COPYING
+* /usr/share/doc/kalgebra-24.02.1/COPYING.DOC
+* /usr/share/doc/kalgebra-24.02.1/COPYING.LIB
+* /usr/share/doc/kalgebra-24.02.1/TODO
 * /usr/share/icons/hicolor/64x64/apps/kalgebra.png
 * /usr/share/icons/hicolor/scalable/apps/kalgebra.svgz
 * /usr/share/locale/ar/LC_MESSAGES/kalgebra.mo
 * /usr/share/locale/ar/LC_MESSAGES/kalgebramobile.mo
+* /usr/share/locale/ast/LC_MESSAGES/kalgebra.mo
+* /usr/share/locale/ast/LC_MESSAGES/kalgebramobile.mo
 * /usr/share/locale/be/LC_MESSAGES/kalgebra.mo
 * /usr/share/locale/bg/LC_MESSAGES/kalgebra.mo
 * /usr/share/locale/bg/LC_MESSAGES/kalgebramobile.mo
@@ -100,12 +102,14 @@ depends = "['analitza>=23.08.5', 'kio>=5.115.0', 'libglu>=9.0.0-3', 'qt5-webengi
 * /usr/share/locale/en_GB/LC_MESSAGES/kalgebra.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kalgebramobile.mo
 * /usr/share/locale/eo/LC_MESSAGES/kalgebra.mo
+* /usr/share/locale/eo/LC_MESSAGES/kalgebramobile.mo
 * /usr/share/locale/es/LC_MESSAGES/kalgebra.mo
 * /usr/share/locale/es/LC_MESSAGES/kalgebramobile.mo
 * /usr/share/locale/et/LC_MESSAGES/kalgebra.mo
 * /usr/share/locale/et/LC_MESSAGES/kalgebramobile.mo
 * /usr/share/locale/eu/LC_MESSAGES/kalgebra.mo
 * /usr/share/locale/eu/LC_MESSAGES/kalgebramobile.mo
+* /usr/share/locale/fa/LC_MESSAGES/kalgebra.mo
 * /usr/share/locale/fi/LC_MESSAGES/kalgebra.mo
 * /usr/share/locale/fi/LC_MESSAGES/kalgebramobile.mo
 * /usr/share/locale/fr/LC_MESSAGES/kalgebra.mo
@@ -113,10 +117,13 @@ depends = "['analitza>=23.08.5', 'kio>=5.115.0', 'libglu>=9.0.0-3', 'qt5-webengi
 * /usr/share/locale/ga/LC_MESSAGES/kalgebra.mo
 * /usr/share/locale/gl/LC_MESSAGES/kalgebra.mo
 * /usr/share/locale/gl/LC_MESSAGES/kalgebramobile.mo
+* /usr/share/locale/he/LC_MESSAGES/kalgebra.mo
+* /usr/share/locale/he/LC_MESSAGES/kalgebramobile.mo
 * /usr/share/locale/hi/LC_MESSAGES/kalgebra.mo
 * /usr/share/locale/hne/LC_MESSAGES/kalgebra.mo
 * /usr/share/locale/hr/LC_MESSAGES/kalgebra.mo
 * /usr/share/locale/hu/LC_MESSAGES/kalgebra.mo
+* /usr/share/locale/hu/LC_MESSAGES/kalgebramobile.mo
 * /usr/share/locale/ia/LC_MESSAGES/kalgebra.mo
 * /usr/share/locale/ia/LC_MESSAGES/kalgebramobile.mo
 * /usr/share/locale/it/LC_MESSAGES/kalgebra.mo

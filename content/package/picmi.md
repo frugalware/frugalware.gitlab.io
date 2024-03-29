@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "picmi 23.08.5-1"
-version = "23.08.5-1"
+title = "picmi 24.02.1-3"
+version = "24.02.1-3"
 description = "A nonogram logic game for KDE."
-date = "2024-02-19T23:01:10"
+date = "2024-03-27T11:29:17"
 aliases = "/packages/184207"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1322292"
-usize = "2075273"
-sha1sum = "7cf23d915c887bb55cb912783ca5386d309681be"
-depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5']"
+size = "1323892"
+usize = "2106805"
+sha1sum = "58cc5dc18741b58f91c6cede9b1a13f42fdab09b"
+depends = "['knotifyconfig>=6.0.0', 'libkdegames>=24.02.1']"
 +++
 ### Description: 
 A nonogram logic game for KDE.
@@ -46,10 +46,10 @@ A nonogram logic game for KDE.
 * /usr/share/doc/HTML/uk/picmi/gameboard.png
 * /usr/share/doc/HTML/uk/picmi/index.cache.bz2
 * /usr/share/doc/HTML/uk/picmi/index.docbook
-* /usr/share/doc/picmi-23.08.5/AUTHORS
-* /usr/share/doc/picmi-23.08.5/INSTALL
-* /usr/share/doc/picmi-23.08.5/README
-* /usr/share/doc/picmi-23.08.5/TODO
+* /usr/share/doc/picmi-24.02.1/AUTHORS
+* /usr/share/doc/picmi-24.02.1/INSTALL
+* /usr/share/doc/picmi-24.02.1/README
+* /usr/share/doc/picmi-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/picmi.png
 * /usr/share/icons/hicolor/16x16/apps/picmi.png
 * /usr/share/icons/hicolor/22x22/apps/picmi.png
@@ -57,6 +57,7 @@ A nonogram logic game for KDE.
 * /usr/share/icons/hicolor/32x32/apps/picmi.png
 * /usr/share/icons/hicolor/48x48/apps/picmi.png
 * /usr/share/icons/hicolor/64x64/apps/picmi.png
+* /usr/share/locale/ast/LC_MESSAGES/picmi.mo
 * /usr/share/locale/bs/LC_MESSAGES/picmi.mo
 * /usr/share/locale/ca/LC_MESSAGES/picmi.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/picmi.mo
@@ -65,6 +66,7 @@ A nonogram logic game for KDE.
 * /usr/share/locale/de/LC_MESSAGES/picmi.mo
 * /usr/share/locale/el/LC_MESSAGES/picmi.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/picmi.mo
+* /usr/share/locale/eo/LC_MESSAGES/picmi.mo
 * /usr/share/locale/es/LC_MESSAGES/picmi.mo
 * /usr/share/locale/et/LC_MESSAGES/picmi.mo
 * /usr/share/locale/eu/LC_MESSAGES/picmi.mo
@@ -73,6 +75,7 @@ A nonogram logic game for KDE.
 * /usr/share/locale/ga/LC_MESSAGES/picmi.mo
 * /usr/share/locale/gl/LC_MESSAGES/picmi.mo
 * /usr/share/locale/hu/LC_MESSAGES/picmi.mo
+* /usr/share/locale/ia/LC_MESSAGES/picmi.mo
 * /usr/share/locale/it/LC_MESSAGES/picmi.mo
 * /usr/share/locale/ja/LC_MESSAGES/picmi.mo
 * /usr/share/locale/ka/LC_MESSAGES/picmi.mo
@@ -139,4 +142,4 @@ A nonogram logic game for KDE.
 * /usr/share/picmi/themes/picmi.desktop
 * /usr/share/picmi/themes/picmi.png
 * /usr/share/picmi/themes/picmi.svg
-* /usr/share/qlogging-categories5/picmi.categories
+* /usr/share/qlogging-categories6/picmi.categories

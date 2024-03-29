@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kfind 23.08.5-1"
-version = "23.08.5-1"
+title = "kfind 24.02.1-3"
+version = "24.02.1-3"
 description = "A standalone search too."
-date = "2024-02-19T21:57:25"
+date = "2024-03-27T10:30:28"
 aliases = "/packages/218932"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "469076"
-usize = "1614860"
-sha1sum = "7b9179f8695131e734d246d5351e1998de3e5762"
-depends = "['kdelibs4support>=5.115.0', 'kfilemetadata5>==5.115.0']"
+size = "399768"
+usize = "1485930"
+sha1sum = "2d52da1f49adbff44ce25f34e4f14f5cca0d69dc"
+depends = "['kfilemetadata>==6.0.0']"
 +++
 ### Description: 
 A standalone search too.
@@ -21,40 +21,20 @@ A standalone search too.
 * /usr/share/applications/org.kde.kfind.desktop
 * /usr/share/doc/HTML/ca/kfind/index.cache.bz2
 * /usr/share/doc/HTML/ca/kfind/index.docbook
-* /usr/share/doc/HTML/de/kfind/index.cache.bz2
-* /usr/share/doc/HTML/de/kfind/index.docbook
 * /usr/share/doc/HTML/en/kfind/index.cache.bz2
 * /usr/share/doc/HTML/en/kfind/index.docbook
 * /usr/share/doc/HTML/es/kfind/index.cache.bz2
 * /usr/share/doc/HTML/es/kfind/index.docbook
-* /usr/share/doc/HTML/et/kfind/index.cache.bz2
-* /usr/share/doc/HTML/et/kfind/index.docbook
 * /usr/share/doc/HTML/fr/kfind/index.cache.bz2
 * /usr/share/doc/HTML/fr/kfind/index.docbook
 * /usr/share/doc/HTML/it/kfind/index.cache.bz2
 * /usr/share/doc/HTML/it/kfind/index.docbook
-* /usr/share/doc/HTML/lt/kfind/index.cache.bz2
-* /usr/share/doc/HTML/lt/kfind/index.docbook
 * /usr/share/doc/HTML/nl/kfind/index.cache.bz2
 * /usr/share/doc/HTML/nl/kfind/index.docbook
-* /usr/share/doc/HTML/pl/kfind/index.cache.bz2
-* /usr/share/doc/HTML/pl/kfind/index.docbook
-* /usr/share/doc/HTML/pt/kfind/index.cache.bz2
-* /usr/share/doc/HTML/pt/kfind/index.docbook
-* /usr/share/doc/HTML/pt_BR/kfind/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/kfind/index.docbook
-* /usr/share/doc/HTML/ru/kfind/index.cache.bz2
-* /usr/share/doc/HTML/ru/kfind/index.docbook
-* /usr/share/doc/HTML/sr/kfind/index.cache.bz2
-* /usr/share/doc/HTML/sr/kfind/index.docbook
-* /usr/share/doc/HTML/sr@latin/kfind/index.cache.bz2
-* /usr/share/doc/HTML/sr@latin/kfind/index.docbook
-* /usr/share/doc/HTML/sv/kfind/index.cache.bz2
-* /usr/share/doc/HTML/sv/kfind/index.docbook
+* /usr/share/doc/HTML/tr/kfind/index.cache.bz2
+* /usr/share/doc/HTML/tr/kfind/index.docbook
 * /usr/share/doc/HTML/uk/kfind/index.cache.bz2
 * /usr/share/doc/HTML/uk/kfind/index.docbook
-* /usr/share/doc/HTML/zh_CN/kfind/index.cache.bz2
-* /usr/share/doc/HTML/zh_CN/kfind/index.docbook
 * /usr/share/icons/hicolor/128x128/apps/kfind.png
 * /usr/share/icons/hicolor/16x16/apps/kfind.png
 * /usr/share/icons/hicolor/22x22/apps/kfind.png
@@ -64,6 +44,7 @@ A standalone search too.
 * /usr/share/icons/hicolor/scalable/apps/kfind.svgz
 * /usr/share/locale/af/LC_MESSAGES/kfind.mo
 * /usr/share/locale/ar/LC_MESSAGES/kfind.mo
+* /usr/share/locale/ast/LC_MESSAGES/kfind.mo
 * /usr/share/locale/az/LC_MESSAGES/kfind.mo
 * /usr/share/locale/be/LC_MESSAGES/kfind.mo
 * /usr/share/locale/be@latin/LC_MESSAGES/kfind.mo
@@ -173,4 +154,4 @@ A standalone search too.
 * /usr/share/man/tr/man1/kfind.1.gz
 * /usr/share/man/uk/man1/kfind.1.gz
 * /usr/share/metainfo/org.kde.kfind.appdata.xml
-* /usr/share/qlogging-categories5/kfind.categories
+* /usr/share/qlogging-categories6/kfind.categories

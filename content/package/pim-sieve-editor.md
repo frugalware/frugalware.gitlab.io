@@ -1,25 +1,25 @@
 +++
 draft = false
-title = "pim-sieve-editor 23.08.5-1"
-version = "23.08.5-1"
+title = "pim-sieve-editor 24.02.1-3"
+version = "24.02.1-3"
 description = "Assistant for editing IMAP Sieve filters"
-date = "2024-02-20T09:51:55"
+date = "2024-03-27T12:43:08"
 aliases = "/packages/218942"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "537476"
-usize = "1324764"
-sha1sum = "118a9a5730918ef6c6f9c4b32923d8f4a0479e81"
-depends = "['libksieve>=23.08.5', 'messagelib>=23.08.5']"
+size = "557000"
+usize = "1380094"
+sha1sum = "541987186d8dc725c291914684a83dfa8f3c690f"
+depends = "['libksieve>=24.02.1', 'messagelib>=24.02.1']"
 +++
 ### Description: 
 Assistant for editing IMAP Sieve filters
 
 ### Files: 
 * /usr/bin/sieveeditor
-* /usr/lib/libsieveeditor.so.5
-* /usr/lib/libsieveeditor.so.5.24.5
+* /usr/lib/libsieveeditor.so.6
+* /usr/lib/libsieveeditor.so.6.0.1
 * /usr/share/applications/org.kde.sieveeditor.desktop
 * /usr/share/config.kcfg/sieveeditorglobalconfig.kcfg
 * /usr/share/doc/HTML/ca/sieveeditor/first-start.png
@@ -51,7 +51,14 @@ Assistant for editing IMAP Sieve filters
 * /usr/share/doc/HTML/sv/sieveeditor/index.docbook
 * /usr/share/doc/HTML/uk/sieveeditor/index.cache.bz2
 * /usr/share/doc/HTML/uk/sieveeditor/index.docbook
+* /usr/share/icons/hicolor/16x16/apps/sieveeditor.png
+* /usr/share/icons/hicolor/22x22/apps/sieveeditor.png
+* /usr/share/icons/hicolor/32x32/apps/sieveeditor.png
+* /usr/share/icons/hicolor/48x48/apps/sieveeditor.png
+* /usr/share/icons/hicolor/64x64/apps/sieveeditor.png
+* /usr/share/icons/hicolor/scalable/apps/sieveeditor.svg
 * /usr/share/locale/ar/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/ast/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/az/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/bg/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/bs/LC_MESSAGES/sieveeditor.mo
@@ -95,5 +102,5 @@ Assistant for editing IMAP Sieve filters
 * /usr/share/locale/zh_CN/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/sieveeditor.mo
 * /usr/share/metainfo/org.kde.sieveeditor.appdata.xml
-* /usr/share/qlogging-categories5/sieveeditor.categories
-* /usr/share/qlogging-categories5/sieveeditor.renamecategories
+* /usr/share/qlogging-categories6/sieveeditor.categories
+* /usr/share/qlogging-categories6/sieveeditor.renamecategories

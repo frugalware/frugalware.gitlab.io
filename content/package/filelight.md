@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "filelight 23.08.5-1"
-version = "23.08.5-1"
+title = "filelight 24.02.1-3"
+version = "24.02.1-3"
 description = "View disk usage information."
-date = "2024-02-19T21:00:35"
+date = "2024-03-27T10:00:02"
 aliases = "/packages/153203"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "749228"
-usize = "1438086"
-sha1sum = "85c7e7ee1f4f67f61741ad65aa0e169f48b69c09"
-depends = "['kdeclarative>=5.115.0', 'kparts>=5.115.0', 'qt5-quickcontrols2>=5.15.12']"
+size = "771660"
+usize = "1509203"
+sha1sum = "de6e211bfd59202531bd35bab7f1b01b0dd04c93"
+depends = "['kdeclarative>=6.0.0', 'kirigami-addons', 'kparts>=6.0.0', 'qqc2-desktop-style>=6.0.0']"
 +++
 ### Description: 
 View disk usage information.
@@ -20,9 +20,9 @@ View disk usage information.
 * /etc/xdg/filelightrc
 * /usr/bin/filelight
 * /usr/share/applications/org.kde.filelight.desktop
-* /usr/share/doc/filelight-23.08.5/AUTHORS
-* /usr/share/doc/filelight-23.08.5/README.md
-* /usr/share/doc/filelight-23.08.5/TODO
+* /usr/share/doc/filelight-24.02.1/AUTHORS
+* /usr/share/doc/filelight-24.02.1/README.md
+* /usr/share/doc/filelight-24.02.1/TODO
 * /usr/share/doc/HTML/ca/filelight/index.cache.bz2
 * /usr/share/doc/HTML/ca/filelight/index.docbook
 * /usr/share/doc/HTML/de/filelight/config_appear.png
@@ -59,6 +59,8 @@ View disk usage information.
 * /usr/share/doc/HTML/ru/filelight/index.docbook
 * /usr/share/doc/HTML/sv/filelight/index.cache.bz2
 * /usr/share/doc/HTML/sv/filelight/index.docbook
+* /usr/share/doc/HTML/tr/filelight/index.cache.bz2
+* /usr/share/doc/HTML/tr/filelight/index.docbook
 * /usr/share/doc/HTML/uk/filelight/config_appear.png
 * /usr/share/doc/HTML/uk/filelight/config_scan.png
 * /usr/share/doc/HTML/uk/filelight/index.cache.bz2
@@ -71,8 +73,8 @@ View disk usage information.
 * /usr/share/icons/hicolor/32x32/apps/filelight.png
 * /usr/share/icons/hicolor/48x48/apps/filelight.png
 * /usr/share/icons/hicolor/64x64/apps/filelight.png
-* /usr/share/kxmlgui5/filelight/filelightui.rc
 * /usr/share/locale/ar/LC_MESSAGES/filelight.mo
+* /usr/share/locale/ast/LC_MESSAGES/filelight.mo
 * /usr/share/locale/az/LC_MESSAGES/filelight.mo
 * /usr/share/locale/bg/LC_MESSAGES/filelight.mo
 * /usr/share/locale/bs/LC_MESSAGES/filelight.mo
@@ -91,6 +93,7 @@ View disk usage information.
 * /usr/share/locale/fr/LC_MESSAGES/filelight.mo
 * /usr/share/locale/ga/LC_MESSAGES/filelight.mo
 * /usr/share/locale/gl/LC_MESSAGES/filelight.mo
+* /usr/share/locale/he/LC_MESSAGES/filelight.mo
 * /usr/share/locale/hu/LC_MESSAGES/filelight.mo
 * /usr/share/locale/ia/LC_MESSAGES/filelight.mo
 * /usr/share/locale/id/LC_MESSAGES/filelight.mo
@@ -127,4 +130,4 @@ View disk usage information.
 * /usr/share/locale/zh_CN/LC_MESSAGES/filelight.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/filelight.mo
 * /usr/share/metainfo/org.kde.filelight.appdata.xml
-* /usr/share/qlogging-categories5/filelight.categories
+* /usr/share/qlogging-categories6/filelight.categories

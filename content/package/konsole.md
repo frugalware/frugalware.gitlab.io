@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "konsole 23.08.5-1"
-version = "23.08.5-1"
+title = "konsole 24.02.1-3"
+version = "24.02.1-3"
 description = "KDE Terminal emulator."
-date = "2024-02-19T21:34:04"
+date = "2024-03-27T10:22:55"
 aliases = "/packages/88141"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1755032"
-usize = "8449049"
-sha1sum = "4a821c4a3da8a5ec1447856ecef415db5c088ce9"
-depends = "['kinit>=5.115.0', 'knewstuff>=5.115.0', 'knotifyconfig>=5.115.0', 'kparts>=5.115.0', 'kpty>=5.115.0']"
+size = "1920392"
+usize = "9183011"
+sha1sum = "821ed49c68736c8ac939241622fbba754915fc48"
+depends = "['knewstuff>=6.0.0', 'knotifyconfig>=6.0.0', 'kparts>=6.0.0', 'kpty>=6.0.0']"
 +++
 ### Description: 
 KDE Terminal emulator.
@@ -22,13 +22,11 @@ KDE Terminal emulator.
 * /usr/bin/konsoleprofile
 * /usr/lib/kconf_update_bin/konsole_globalaccel
 * /usr/lib/kconf_update_bin/konsole_show_menubar
-* /usr/lib/libkonsoleapp.so.1
-* /usr/lib/libkonsoleapp.so.23.08.5
-* /usr/lib/libkonsoleprivate.so.1
-* /usr/lib/libkonsoleprivate.so.23.08.5
-* /usr/lib/qt5/plugins/konsolepart.so
-* /usr/lib/qt5/plugins/konsoleplugins/konsole_quickcommandsplugin.so
-* /usr/lib/qt5/plugins/konsoleplugins/konsole_sshmanagerplugin.so
+* /usr/lib/libkonsoleapp.so.24.02.1
+* /usr/lib/libkonsoleprivate.so.24.02.1
+* /usr/lib/qt6/plugins/kf6/parts/konsolepart.so
+* /usr/lib/qt6/plugins/konsoleplugins/konsole_quickcommandsplugin.so
+* /usr/lib/qt6/plugins/konsoleplugins/konsole_sshmanagerplugin.so
 * /usr/share/applications/org.kde.konsole.desktop
 * /usr/share/doc/HTML/ca/konsole/draganddrop-contextmenu.png
 * /usr/share/doc/HTML/ca/konsole/index.cache.bz2
@@ -56,20 +54,22 @@ KDE Terminal emulator.
 * /usr/share/doc/HTML/sr@latin/konsole/index.docbook
 * /usr/share/doc/HTML/sv/konsole/index.cache.bz2
 * /usr/share/doc/HTML/sv/konsole/index.docbook
+* /usr/share/doc/HTML/tr/konsole/index.cache.bz2
+* /usr/share/doc/HTML/tr/konsole/index.docbook
 * /usr/share/doc/HTML/uk/konsole/draganddrop-contextmenu.png
 * /usr/share/doc/HTML/uk/konsole/index.cache.bz2
 * /usr/share/doc/HTML/uk/konsole/index.docbook
 * /usr/share/doc/HTML/zh_CN/konsole/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/konsole/index.docbook
-* /usr/share/doc/konsole-23.08.5/COPYING
-* /usr/share/doc/konsole-23.08.5/COPYING.DOC
-* /usr/share/doc/konsole-23.08.5/COPYING.LIB
-* /usr/share/doc/konsole-23.08.5/README.md
+* /usr/share/doc/konsole-24.02.1/COPYING
+* /usr/share/doc/konsole-24.02.1/COPYING.DOC
+* /usr/share/doc/konsole-24.02.1/COPYING.LIB
+* /usr/share/doc/konsole-24.02.1/README.md
 * /usr/share/kconf_update/konsole.upd
 * /usr/share/kconf_update/konsole_add_hamburgermenu_to_toolbar.sh
 * /usr/share/kglobalaccel/org.kde.konsole.desktop
 * /usr/share/kio/servicemenus/konsolerun.desktop
-* /usr/share/knotifications5/konsole.notifyrc
+* /usr/share/knotifications6/konsole.notifyrc
 * /usr/share/knsrcfiles/konsole.knsrc
 * /usr/share/konsole/1x2-terminals.json
 * /usr/share/konsole/2x1-terminals.json
@@ -90,10 +90,9 @@ KDE Terminal emulator.
 * /usr/share/konsole/Solarized.colorscheme
 * /usr/share/konsole/SolarizedLight.colorscheme
 * /usr/share/konsole/WhiteOnBlack.colorscheme
-* /usr/share/kservices5/konsolepart.desktop
-* /usr/share/kservicetypes5/terminalemulator.desktop
 * /usr/share/locale/af/LC_MESSAGES/konsole.mo
 * /usr/share/locale/ar/LC_MESSAGES/konsole.mo
+* /usr/share/locale/ast/LC_MESSAGES/konsole.mo
 * /usr/share/locale/az/LC_MESSAGES/konsole.mo
 * /usr/share/locale/be/LC_MESSAGES/konsole.mo
 * /usr/share/locale/be@latin/LC_MESSAGES/konsole.mo
@@ -185,5 +184,5 @@ KDE Terminal emulator.
 * /usr/share/locale/zh_CN/LC_MESSAGES/konsole.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/konsole.mo
 * /usr/share/metainfo/org.kde.konsole.appdata.xml
-* /usr/share/qlogging-categories5/konsole.categories
+* /usr/share/qlogging-categories6/konsole.categories
 * /usr/share/zsh/site-functions/_konsole

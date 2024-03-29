@@ -12,7 +12,7 @@ size = "167216"
 usize = "667210"
 sha1sum = "86ec18f274476ac02a2928057094b1613bc3afd5"
 depends = "['qt6-base']"
-reverse_depends = "['akonadi-search', 'analitza', 'calamares-frugalware', 'cutemaze', 'discover', 'kde-gtk-config', 'kdenlive', 'keysmith', 'kiconthemes', 'kile', 'kirigami', 'krecorder', 'kxmlgui', 'ladybird', 'mkvtoolnix-gui', 'obs-studio', 'qt6-virtualkeyboard', 'qtcreator', 'socnetv', 'telegram-desktop']"
+reverse_depends = "['akonadi-search', 'analitza', 'calamares-frugalware', 'cutemaze', 'discover', 'kaccounts-providers', 'kanagram', 'kapman', 'kapptemplate', 'katomic', 'kblackbox', 'kblocks', 'kbounce', 'kbreakout', 'kbruch', 'kcron', 'kde-gtk-config', 'kdegraphics-thumbnailers', 'kdenetwork-filesharing', 'kdenlive', 'kdesdk-thumbnailers', 'kdiagram', 'kdiamond', 'keysmith', 'kfourinline', 'kgeography', 'kgoldrunner', 'khangman', 'kiconthemes', 'kile', 'killbots', 'kimageannotator', 'kirigami', 'kiriki', 'kpmcore', 'krecorder', 'kvirc', 'kxmlgui', 'ladybird', 'libkgapi', 'libkmahjongg', 'mkvtoolnix-gui', 'obs-studio', 'okular', 'plasmatube', 'qmlkonsole', 'qt6-virtualkeyboard', 'qtcreator', 'socnetv', 'telegram-desktop', 'yakuake']"
 +++
 ### Description: 
 The Qt6 toolkit, qtsvg

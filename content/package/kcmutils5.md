@@ -12,7 +12,7 @@ size = "218904"
 usize = "1047535"
 sha1sum = "2efe356fc5ce427fde57ae49bc3fc76529e9b7a7"
 depends = "[]"
-reverse_depends = "['kdevelop', 'krdc', 'ktouch', 'okteta']"
+reverse_depends = "['kdevelop', 'krdc', 'ktouch', 'libkcddb5', 'okteta']"
 +++
 ### Description: 
 Utilities for interacting with KCModules.

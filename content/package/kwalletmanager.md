@@ -1,25 +1,25 @@
 +++
 draft = false
-title = "kwalletmanager 23.08.5-1"
-version = "23.08.5-1"
+title = "kwalletmanager 24.02.1-3"
+version = "24.02.1-3"
 description = "Passwords managing tool."
-date = "2024-02-19T21:45:44"
+date = "2024-03-27T10:29:22"
 aliases = "/packages/200641"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "983636"
-usize = "2897663"
-sha1sum = "55334e8dc5fd326861a51f203628eff2d8c796c9"
-depends = "['kdelibs4support>=5.115.0']"
+size = "996432"
+usize = "2940598"
+sha1sum = "9b830f5011edbc6950beac00f3b53bd1f08ced0d"
+depends = "[]"
 +++
 ### Description: 
 Passwords managing tool.
 
 ### Files: 
 * /usr/bin/kwalletmanager5
-* /usr/lib/kf5/kauth/kcm_kwallet_helper5
-* /usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/kcm_kwallet5.so
+* /usr/lib/kauth/kf6/kauth/kcm_kwallet_helper5
+* /usr/lib/qt6/plugins/plasma/kcms/systemsettings_qwidgets/kcm_kwallet5.so
 * /usr/share/applications/kwalletmanager5-kwalletd.desktop
 * /usr/share/applications/org.kde.kwalletmanager5.desktop
 * /usr/share/dbus-1/services/org.kde.kwalletmanager5.service
@@ -84,7 +84,7 @@ Passwords managing tool.
 * /usr/share/doc/HTML/uk/kwallet5/kwalletmanager.png
 * /usr/share/doc/HTML/uk/kwallet5/openwallet-request.png
 * /usr/share/doc/HTML/uk/kwallet5/save-login-information.png
-* /usr/share/doc/kwalletmanager-23.08.5/TODO
+* /usr/share/doc/kwalletmanager-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kwalletmanager.png
 * /usr/share/icons/hicolor/128x128/apps/kwalletmanager2.png
 * /usr/share/icons/hicolor/16x16/apps/kwalletmanager.png
@@ -98,9 +98,10 @@ Passwords managing tool.
 * /usr/share/icons/hicolor/48x48/apps/kwalletmanager2.png
 * /usr/share/icons/hicolor/64x64/apps/kwalletmanager.png
 * /usr/share/icons/hicolor/64x64/apps/kwalletmanager2.png
-* /usr/share/kservices5/kwalletmanager5_show.desktop
 * /usr/share/locale/ar/LC_MESSAGES/kcmkwallet.mo
 * /usr/share/locale/ar/LC_MESSAGES/kwalletmanager.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcmkwallet.mo
+* /usr/share/locale/ast/LC_MESSAGES/kwalletmanager.mo
 * /usr/share/locale/az/LC_MESSAGES/kcmkwallet.mo
 * /usr/share/locale/az/LC_MESSAGES/kwalletmanager.mo
 * /usr/share/locale/be/LC_MESSAGES/kcmkwallet.mo
@@ -145,6 +146,8 @@ Passwords managing tool.
 * /usr/share/locale/ga/LC_MESSAGES/kwalletmanager.mo
 * /usr/share/locale/gl/LC_MESSAGES/kcmkwallet.mo
 * /usr/share/locale/gl/LC_MESSAGES/kwalletmanager.mo
+* /usr/share/locale/he/LC_MESSAGES/kcmkwallet.mo
+* /usr/share/locale/he/LC_MESSAGES/kwalletmanager.mo
 * /usr/share/locale/hi/LC_MESSAGES/kcmkwallet.mo
 * /usr/share/locale/hi/LC_MESSAGES/kwalletmanager.mo
 * /usr/share/locale/hne/LC_MESSAGES/kcmkwallet.mo
@@ -251,4 +254,4 @@ Passwords managing tool.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kwalletmanager.mo
 * /usr/share/metainfo/org.kde.kwalletmanager5.appdata.xml
 * /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy
-* /usr/share/qlogging-categories5/kwalletmanager.categories
+* /usr/share/qlogging-categories6/kwalletmanager.categories

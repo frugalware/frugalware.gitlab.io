@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kaddressbook 23.08.5-1"
-version = "23.08.5-1"
+title = "kaddressbook 24.02.1-3"
+version = "24.02.1-3"
 description = "Contact Manager"
-date = "2024-02-20T09:28:08"
+date = "2024-03-27T12:22:21"
 aliases = "/packages/218928"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3401200"
-usize = "6395872"
-sha1sum = "9db48bb3b4001b443003c647c6ded6613f90d443"
-depends = "['kontactinterface>=23.08.5', 'mailcommon>=23.08.5']"
+size = "3425964"
+usize = "6490804"
+sha1sum = "6435661463cc7cd6d1b741fe25d58365cb968ff8"
+depends = "['kontactinterface>=24.02.1', 'mailcommon>=24.02.1']"
 reverse_depends = "['kdepim-addons']"
 +++
 ### Description: 
@@ -19,42 +19,38 @@ Contact Manager
 
 ### Files: 
 * /usr/bin/kaddressbook
-* /usr/include/KPim5/KAddressBookImportExport/KAddressBookImportExport/ContactFields
-* /usr/include/KPim5/KAddressBookImportExport/kaddressbookimportexport/contactfields.h
-* /usr/include/KPim5/KAddressBookImportExport/KAddressBookImportExport/ContactList
-* /usr/include/KPim5/KAddressBookImportExport/kaddressbookimportexport/contactlist.h
-* /usr/include/KPim5/KAddressBookImportExport/KAddressBookImportExport/ContactSelectionDialog
-* /usr/include/KPim5/KAddressBookImportExport/kaddressbookimportexport/contactselectiondialog.h
-* /usr/include/KPim5/KAddressBookImportExport/KAddressBookImportExport/ContactSelectionWidget
-* /usr/include/KPim5/KAddressBookImportExport/kaddressbookimportexport/contactselectionwidget.h
-* /usr/include/KPim5/KAddressBookImportExport/KAddressBookImportExport/ExportSelectionWidget
-* /usr/include/KPim5/KAddressBookImportExport/kaddressbookimportexport/exportselectionwidget.h
-* /usr/include/KPim5/KAddressBookImportExport/KAddressBookImportExport/ImportExportEngine
-* /usr/include/KPim5/KAddressBookImportExport/kaddressbookimportexport/importexportengine.h
-* /usr/include/KPim5/KAddressBookImportExport/kaddressbookimportexport/kaddressbook_importexport_export.h
-* /usr/include/KPim5/KAddressBookImportExport/KAddressBookImportExport/Plugin
-* /usr/include/KPim5/KAddressBookImportExport/kaddressbookimportexport/plugin.h
-* /usr/include/KPim5/KAddressBookImportExport/KAddressBookImportExport/PluginInterface
-* /usr/include/KPim5/KAddressBookImportExport/kaddressbookimportexport/plugininterface.h
-* /usr/include/KPim5/KAddressBookImportExport/KAddressBookImportExport/PluginManager
-* /usr/include/KPim5/KAddressBookImportExport/kaddressbookimportexport/pluginmanager.h
-* /usr/include/KPim5/KAddressBookImportExport/kaddressbookimportexport_version.h
-* /usr/lib/cmake/KPim5AddressbookImportExport/KPim5AddressbookImportExportConfig.cmake
-* /usr/lib/cmake/KPim5AddressbookImportExport/KPim5AddressbookImportExportConfigVersion.cmake
-* /usr/lib/cmake/KPim5AddressbookImportExport/KPim5AddressbookImportExportTargets-release.cmake
-* /usr/lib/cmake/KPim5AddressbookImportExport/KPim5AddressbookImportExportTargets.cmake
-* /usr/lib/cmake/KPimAddressbookImportExport/KPimAddressbookImportExportConfig.cmake
-* /usr/lib/cmake/KPimAddressbookImportExport/KPimAddressbookImportExportConfigVersion.cmake
-* /usr/lib/cmake/KPimAddressbookImportExport/KPimAddressbookImportExportTargets-release.cmake
-* /usr/lib/cmake/KPimAddressbookImportExport/KPimAddressbookImportExportTargets.cmake
-* /usr/lib/libkaddressbookprivate.so.5
-* /usr/lib/libkaddressbookprivate.so.5.24.5
-* /usr/lib/libKPim5AddressbookImportExport.so
-* /usr/lib/libKPim5AddressbookImportExport.so.5
-* /usr/lib/libKPim5AddressbookImportExport.so.5.24.5
-* /usr/lib/qt5/plugins/kaddressbookpart.so
-* /usr/lib/qt5/plugins/pim5/kcms/kaddressbook/kaddressbook_config_plugins.so
-* /usr/lib/qt5/plugins/pim5/kontact/kontact_kaddressbookplugin.so
+* /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/ContactFields
+* /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/contactfields.h
+* /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/ContactList
+* /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/contactlist.h
+* /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/ContactSelectionDialog
+* /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/contactselectiondialog.h
+* /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/ContactSelectionWidget
+* /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/contactselectionwidget.h
+* /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/ExportSelectionWidget
+* /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/exportselectionwidget.h
+* /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/ImportExportEngine
+* /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/importexportengine.h
+* /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/kaddressbook_importexport_export.h
+* /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/Plugin
+* /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/plugin.h
+* /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/PluginInterface
+* /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/plugininterface.h
+* /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/PluginManager
+* /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/pluginmanager.h
+* /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport_version.h
+* /usr/lib/cmake/KPim6AddressbookImportExport/KPim6AddressbookImportExportConfig.cmake
+* /usr/lib/cmake/KPim6AddressbookImportExport/KPim6AddressbookImportExportConfigVersion.cmake
+* /usr/lib/cmake/KPim6AddressbookImportExport/KPim6AddressbookImportExportTargets-release.cmake
+* /usr/lib/cmake/KPim6AddressbookImportExport/KPim6AddressbookImportExportTargets.cmake
+* /usr/lib/libkaddressbookprivate.so.6
+* /usr/lib/libkaddressbookprivate.so.6.0.1
+* /usr/lib/libKPim6AddressbookImportExport.so
+* /usr/lib/libKPim6AddressbookImportExport.so.6
+* /usr/lib/libKPim6AddressbookImportExport.so.6.0.1
+* /usr/lib/qt6/plugins/kaddressbookpart.so
+* /usr/lib/qt6/plugins/pim6/kcms/kaddressbook/kaddressbook_config_plugins.so
+* /usr/lib/qt6/plugins/pim6/kontact/kontact_kaddressbookplugin.so
 * /usr/share/applications/kaddressbook-importer.desktop
 * /usr/share/applications/kaddressbook-view.desktop
 * /usr/share/applications/org.kde.kaddressbook.desktop
@@ -292,6 +288,7 @@ Contact Manager
 * /usr/share/kaddressbook/viewertemplates/default/theme.desktop
 * /usr/share/locale/af/LC_MESSAGES/kaddressbook.mo
 * /usr/share/locale/ar/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/ast/LC_MESSAGES/kaddressbook.mo
 * /usr/share/locale/az/LC_MESSAGES/kaddressbook.mo
 * /usr/share/locale/be/LC_MESSAGES/kaddressbook.mo
 * /usr/share/locale/bg/LC_MESSAGES/kaddressbook.mo
@@ -366,6 +363,5 @@ Contact Manager
 * /usr/share/locale/zh_CN/LC_MESSAGES/kaddressbook.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kaddressbook.mo
 * /usr/share/metainfo/org.kde.kaddressbook.appdata.xml
-* /usr/share/qlogging-categories5/kaddressbook.categories
-* /usr/share/qlogging-categories5/kaddressbook.renamecategories
-* /usr/share/qt5/mkspecs/modules/qt_KAddressbookImportExport.pri
+* /usr/share/qlogging-categories6/kaddressbook.categories
+* /usr/share/qlogging-categories6/kaddressbook.renamecategories

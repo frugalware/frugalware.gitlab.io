@@ -12,7 +12,6 @@ size = "233340"
 usize = "1070173"
 sha1sum = "cb5e27bf1aba66bd0b739b6b58c5327a3794df97"
 depends = "['kcmutils>=5.115.0', 'kxmlgui>=5.115.0', 'layer-shell-qt>=5.27.10', 'libkscreen5>=5.27.10', 'plasma-framework>=5.115.0', 'qt5-sensors>=5.15.12']"
-reverse_depends = "['spectacle']"
 +++
 ### Description: 
 KDE's screen management utility.

@@ -1,38 +1,37 @@
 +++
 draft = false
-title = "kmbox 23.08.5-1"
-version = "23.08.5-1"
+title = "kmbox 24.02.1-3"
+version = "24.02.1-3"
 description = "A library for handling mbox data."
-date = "2024-02-19T22:01:33"
+date = "2024-03-27T10:33:21"
 aliases = "/packages/218332"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "30968"
-usize = "81582"
-sha1sum = "b1544c7a2808ecaa6ac288c97bb97146b24837b0"
-depends = "['kmime>=23.08.5']"
+size = "27144"
+usize = "82862"
+sha1sum = "a7de1e37e738981d1bd932555764f930c61cfc83"
+depends = "['kmime>=24.02.1']"
 reverse_depends = "['kdepim-runtime', 'kldap', 'mimetreeparser']"
 +++
 ### Description: 
 A library for handling mbox data.
 
 ### Files: 
-* /usr/include/KPim5/KMbox/kmbox/kmbox_export.h
-* /usr/include/KPim5/KMbox/KMbox/MBox
-* /usr/include/KPim5/KMbox/kmbox/mbox.h
-* /usr/include/KPim5/KMbox/KMbox/MBoxEntry
-* /usr/include/KPim5/KMbox/kmbox/mboxentry.h
-* /usr/include/KPim5/KMbox/kmbox_version.h
-* /usr/lib/cmake/KPim5Mbox/KPim5MboxConfig.cmake
-* /usr/lib/cmake/KPim5Mbox/KPim5MboxConfigVersion.cmake
-* /usr/lib/cmake/KPim5Mbox/KPim5MboxTargets-release.cmake
-* /usr/lib/cmake/KPim5Mbox/KPim5MboxTargets.cmake
-* /usr/lib/libKPim5Mbox.so
-* /usr/lib/libKPim5Mbox.so.5
-* /usr/lib/libKPim5Mbox.so.5.24.5
-* /usr/share/doc/kmbox-23.08.5/README.md
-* /usr/share/doc/kmbox-23.08.5/README.md.license
-* /usr/share/qlogging-categories5/kmbox.categories
-* /usr/share/qlogging-categories5/kmbox.renamecategories
-* /usr/share/qt5/mkspecs/modules/qt_KMbox.pri
+* /usr/include/KPim6/KMbox/kmbox/kmbox_export.h
+* /usr/include/KPim6/KMbox/KMbox/MBox
+* /usr/include/KPim6/KMbox/kmbox/mbox.h
+* /usr/include/KPim6/KMbox/KMbox/MBoxEntry
+* /usr/include/KPim6/KMbox/kmbox/mboxentry.h
+* /usr/include/KPim6/KMbox/kmbox_version.h
+* /usr/lib/cmake/KPim6Mbox/KPim6MboxConfig.cmake
+* /usr/lib/cmake/KPim6Mbox/KPim6MboxConfigVersion.cmake
+* /usr/lib/cmake/KPim6Mbox/KPim6MboxTargets-release.cmake
+* /usr/lib/cmake/KPim6Mbox/KPim6MboxTargets.cmake
+* /usr/lib/libKPim6Mbox.so
+* /usr/lib/libKPim6Mbox.so.6
+* /usr/lib/libKPim6Mbox.so.6.0.1
+* /usr/share/doc/kmbox-24.02.1/README.md
+* /usr/share/doc/kmbox-24.02.1/README.md.license
+* /usr/share/qlogging-categories6/kmbox.categories
+* /usr/share/qlogging-categories6/kmbox.renamecategories

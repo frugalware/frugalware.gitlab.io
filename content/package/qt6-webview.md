@@ -12,7 +12,7 @@ size = "65476"
 usize = "418314"
 sha1sum = "40e4901609fd953043d69bddc3c45811cb2bc239"
 depends = "['qt6-webengine']"
-reverse_depends = "['discover']"
+reverse_depends = "['discover', 'neochat', 'tokodon']"
 +++
 ### Description: 
 The Qt6 toolkit, qtwebview

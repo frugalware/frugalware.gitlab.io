@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcharselect 23.08.5-1"
-version = "23.08.5-1"
+title = "kcharselect 24.02.1-3"
+version = "24.02.1-3"
 description = "Character selector."
-date = "2024-02-19T21:09:53"
+date = "2024-03-27T10:08:07"
 aliases = "/packages/153202"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "424780"
-usize = "780429"
-sha1sum = "396f39568b53673ee93d180c009f63cb0bc77fc5"
-depends = "['kbookmarks>=5.115.0', 'kxmlgui>=5.115.0']"
+size = "422120"
+usize = "790931"
+sha1sum = "f9ac4b3bb52f99d00ee4c3ddfa55a51b28430cda"
+depends = "['kbookmarks>=6.0.0', 'kxmlgui>=6.0.0']"
 +++
 ### Description: 
 Character selector.
@@ -66,9 +66,10 @@ Character selector.
 * /usr/share/doc/HTML/uk/kcharselect/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcharselect/index.docbook
 * /usr/share/doc/HTML/uk/kcharselect/kcharselect.png
-* /usr/share/doc/kcharselect-23.08.5/COPYING
+* /usr/share/doc/kcharselect-24.02.1/COPYING
 * /usr/share/locale/af/LC_MESSAGES/kcharselect.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcharselect.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcharselect.mo
 * /usr/share/locale/be/LC_MESSAGES/kcharselect.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcharselect.mo
 * /usr/share/locale/br/LC_MESSAGES/kcharselect.mo

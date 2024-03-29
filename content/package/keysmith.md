@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "keysmith 23.08.5-1"
-version = "23.08.5-1"
+title = "keysmith 24.02.1-3"
+version = "24.02.1-3"
 description = "OTP client for Plasma Mobile and Desktop"
-date = "2024-02-20T14:54:38"
+date = "2024-03-27T14:07:45"
 aliases = "/packages/220977"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "159820"
-usize = "690152"
-sha1sum = "bdccc54bdfe5815d9ee12b80f0a2d39b1170f8ec"
+size = "178056"
+usize = "798589"
+sha1sum = "149faff17214b94bac3cd9f2c2d216ff702e0185"
 depends = "['kdbusaddons', 'ki18n', 'kirigami', 'kwindowsystem', 'libsodium>=1.0.19', 'qt6-5compat>=', 'qt6-svg>=']"
 +++
 ### Description: 

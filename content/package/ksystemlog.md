@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ksystemlog 23.08.5-1"
-version = "23.08.5-1"
+title = "ksystemlog 24.02.1-3"
+version = "24.02.1-3"
 description = "KDE system log viewer tool."
-date = "2024-02-19T21:42:39"
+date = "2024-03-27T10:27:04"
 aliases = "/packages/135946"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2115240"
-usize = "6078059"
-sha1sum = "cf64bd1b0ec5170c0529d83c8a86b703973c9a4e"
-depends = "['kio>=5.115.0']"
+size = "2154312"
+usize = "6238528"
+sha1sum = "77e4bf25235c8f67b6c681cff8b6e4a38e34dd62"
+depends = "['kio>=6.0.0']"
 +++
 ### Description: 
 KDE system log viewer tool.
@@ -57,6 +57,8 @@ KDE system log viewer tool.
 * /usr/share/doc/HTML/ru/ksystemlog/index.docbook
 * /usr/share/doc/HTML/sv/ksystemlog/index.cache.bz2
 * /usr/share/doc/HTML/sv/ksystemlog/index.docbook
+* /usr/share/doc/HTML/tr/ksystemlog/index.cache.bz2
+* /usr/share/doc/HTML/tr/ksystemlog/index.docbook
 * /usr/share/doc/HTML/uk/ksystemlog/filter-process.png
 * /usr/share/doc/HTML/uk/ksystemlog/first-opening.png
 * /usr/share/doc/HTML/uk/ksystemlog/index.cache.bz2
@@ -64,9 +66,9 @@ KDE system log viewer tool.
 * /usr/share/doc/HTML/uk/ksystemlog/main-screen.png
 * /usr/share/doc/HTML/zh_CN/ksystemlog/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/ksystemlog/index.docbook
-* /usr/share/doc/ksystemlog-23.08.5/Changelog
-* /usr/share/kxmlgui5/ksystemlog/ksystemlogui.rc
+* /usr/share/doc/ksystemlog-24.02.1/Changelog
 * /usr/share/locale/ar/LC_MESSAGES/ksystemlog.mo
+* /usr/share/locale/ast/LC_MESSAGES/ksystemlog.mo
 * /usr/share/locale/az/LC_MESSAGES/ksystemlog.mo
 * /usr/share/locale/be/LC_MESSAGES/ksystemlog.mo
 * /usr/share/locale/bg/LC_MESSAGES/ksystemlog.mo
@@ -126,4 +128,4 @@ KDE system log viewer tool.
 * /usr/share/locale/zh_CN/LC_MESSAGES/ksystemlog.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/ksystemlog.mo
 * /usr/share/metainfo/org.kde.ksystemlog.appdata.xml
-* /usr/share/qlogging-categories5/ksystemlog.categories
+* /usr/share/qlogging-categories6/ksystemlog.categories

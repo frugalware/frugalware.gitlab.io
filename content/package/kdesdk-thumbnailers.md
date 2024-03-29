@@ -1,24 +1,24 @@
 +++
 draft = false
-title = "kdesdk-thumbnailers 23.08.5-1"
-version = "23.08.5-1"
+title = "kdesdk-thumbnailers 24.02.1-3"
+version = "24.02.1-3"
 description = "Thumnailers Creators for KDE SDK."
-date = "2024-02-19T21:17:46"
+date = "2024-03-27T10:12:37"
 aliases = "/packages/184305"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "18944"
-usize = "62447"
-sha1sum = "0dd6adcc212de40276946b3176d739e8734add82"
-depends = "['gettext', 'kio>=5.115.0', 'qt5-svg>=5.15.12']"
+size = "14960"
+usize = "58473"
+sha1sum = "9e77e518a0b4285f9c87dca0f82d5d3a34db7565"
+depends = "['gettext', 'kio>=6.0.0', 'qt6-svg>=6.6.3']"
 reverse_depends = "['dolphin']"
 +++
 ### Description: 
 Thumnailers Creators for KDE SDK.
 
 ### Files: 
-* /usr/lib/qt5/plugins/kf5/thumbcreator/pothumbnail.so
+* /usr/lib/qt6/plugins/kf6/thumbcreator/pothumbnail.so
 * /usr/share/config.kcfg/pocreatorsettings.kcfg
 * /usr/share/locale/ar/LC_MESSAGES/pothumbnail.mo
 * /usr/share/locale/bg/LC_MESSAGES/pothumbnail.mo

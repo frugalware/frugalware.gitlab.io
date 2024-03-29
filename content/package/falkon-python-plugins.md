@@ -1,27 +1,27 @@
 +++
 draft = false
-title = "falkon-python-plugins 23.08.5-1"
-version = "23.08.5-1"
+title = "falkon-python-plugins 24.02.1-3"
+version = "24.02.1-3"
 description = "Python Plugins for Falkon"
-date = "2024-02-20T10:09:14"
+date = "2024-03-27T12:58:06"
 aliases = "/packages/220146"
 categories = ['xlib-extra']
 upstreamurl = "https://www.falkon.org"
 arch = "x86_64"
-size = "400816"
-usize = "1330600"
-sha1sum = "93c99524760908536868819c5bed5935dc15d63a"
+size = "438860"
+usize = "1445664"
+sha1sum = "44fea2e1055c67bd95e8a14cb30ce38e2b35adcf"
 depends = "['falkon', 'python3']"
 +++
 ### Description: 
 Python Plugins for Falkon
 
 ### Files: 
-* /usr/lib/qt5/plugins/falkon/AutoScroll.so
-* /usr/lib/qt5/plugins/falkon/FlashCookieManager.so
-* /usr/lib/qt5/plugins/falkon/GreaseMonkey.so
-* /usr/lib/qt5/plugins/falkon/MouseGestures.so
-* /usr/lib/qt5/plugins/falkon/PIM.so
-* /usr/lib/qt5/plugins/falkon/StatusBarIcons.so
-* /usr/lib/qt5/plugins/falkon/TabManager.so
-* /usr/lib/qt5/plugins/falkon/VerticalTabs.so
+* /usr/lib/qt6/plugins/falkon/AutoScroll.so
+* /usr/lib/qt6/plugins/falkon/FlashCookieManager.so
+* /usr/lib/qt6/plugins/falkon/GreaseMonkey.so
+* /usr/lib/qt6/plugins/falkon/MouseGestures.so
+* /usr/lib/qt6/plugins/falkon/PIM.so
+* /usr/lib/qt6/plugins/falkon/StatusBarIcons.so
+* /usr/lib/qt6/plugins/falkon/TabManager.so
+* /usr/lib/qt6/plugins/falkon/VerticalTabs.so

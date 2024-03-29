@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "klettres 23.08.5-1"
-version = "23.08.5-1"
+title = "klettres 24.02.1-3"
+version = "24.02.1-3"
 description = "Learn The Alphabet."
-date = "2024-02-19T22:44:05"
+date = "2024-03-27T11:14:32"
 aliases = "/packages/152832"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "39552048"
-usize = "50087154"
-sha1sum = "91962aa6af7a090685ad6227e0d5345d2cbb988e"
-depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5']"
+size = "39552016"
+usize = "50095411"
+sha1sum = "f8409b05cc885546c32c211cc08426f8017f0c52"
+depends = "['knotifyconfig>=6.0.0', 'libkdegames>=24.02.1']"
 +++
 ### Description: 
 Learn The Alphabet.
@@ -98,12 +98,12 @@ Learn The Alphabet.
 * /usr/share/doc/HTML/uk/klettres/klettres4.png
 * /usr/share/doc/HTML/uk/klettres/klettres5.png
 * /usr/share/doc/HTML/uk/klettres/klettres6.png
-* /usr/share/doc/klettres-23.08.5/AUTHORS
-* /usr/share/doc/klettres-23.08.5/ChangeLog
-* /usr/share/doc/klettres-23.08.5/COPYING.DOC
-* /usr/share/doc/klettres-23.08.5/INSTALL
-* /usr/share/doc/klettres-23.08.5/README_packagers
-* /usr/share/doc/klettres-23.08.5/TODO
+* /usr/share/doc/klettres-24.02.1/AUTHORS
+* /usr/share/doc/klettres-24.02.1/ChangeLog
+* /usr/share/doc/klettres-24.02.1/COPYING.DOC
+* /usr/share/doc/klettres-24.02.1/INSTALL
+* /usr/share/doc/klettres-24.02.1/README_packagers
+* /usr/share/doc/klettres-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/klettres.png
 * /usr/share/icons/hicolor/16x16/apps/klettres.png
 * /usr/share/icons/hicolor/22x22/apps/klettres.png
@@ -2001,9 +2001,9 @@ Learn The Alphabet.
 * /usr/share/klettres/uk/syllab/zmi.ogg
 * /usr/share/klettres/uk/syllab/zyk.ogg
 * /usr/share/knsrcfiles/klettres.knsrc
-* /usr/share/kxmlgui5/klettres/klettresui.rc
 * /usr/share/locale/af/LC_MESSAGES/klettres.mo
 * /usr/share/locale/ar/LC_MESSAGES/klettres.mo
+* /usr/share/locale/ast/LC_MESSAGES/klettres.mo
 * /usr/share/locale/be/LC_MESSAGES/klettres.mo
 * /usr/share/locale/bg/LC_MESSAGES/klettres.mo
 * /usr/share/locale/bn/LC_MESSAGES/klettres.mo
@@ -2076,4 +2076,4 @@ Learn The Alphabet.
 * /usr/share/locale/zh_CN/LC_MESSAGES/klettres.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/klettres.mo
 * /usr/share/metainfo/org.kde.klettres.appdata.xml
-* /usr/share/qlogging-categories5/klettres.categories
+* /usr/share/qlogging-categories6/klettres.categories

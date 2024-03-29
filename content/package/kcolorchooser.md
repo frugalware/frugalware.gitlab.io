@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcolorchooser 23.08.5-1"
-version = "23.08.5-1"
+title = "kcolorchooser 24.02.1-3"
+version = "24.02.1-3"
 description = "KDE Color Selector."
-date = "2024-02-19T20:43:43"
+date = "2024-03-27T09:50:17"
 aliases = "/packages/88167"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "33564"
-usize = "124000"
-sha1sum = "3c8e4cdd2005309966af19a54f4372a5e160de86"
-depends = "['ki18n>=5.115.0', 'kxmlgui>=5.115.0']"
+size = "31128"
+usize = "134554"
+sha1sum = "ed3d895e001428be1a3483d78ca6dbbea00dae6a"
+depends = "['ki18n>=6.0.0', 'kxmlgui>=6.0.0']"
 +++
 ### Description: 
 KDE Color Selector.
@@ -19,10 +19,11 @@ KDE Color Selector.
 ### Files: 
 * /usr/bin/kcolorchooser
 * /usr/share/applications/org.kde.kcolorchooser.desktop
-* /usr/share/doc/kcolorchooser-23.08.5/COPYING
+* /usr/share/doc/kcolorchooser-24.02.1/COPYING
 * /usr/share/icons/hicolor/16x16/apps/kcolorchooser.png
 * /usr/share/icons/hicolor/22x22/apps/kcolorchooser.png
 * /usr/share/locale/ar/LC_MESSAGES/kcolorchooser.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcolorchooser.mo
 * /usr/share/locale/az/LC_MESSAGES/kcolorchooser.mo
 * /usr/share/locale/be/LC_MESSAGES/kcolorchooser.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcolorchooser.mo
@@ -72,6 +73,7 @@ KDE Color Selector.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcolorchooser.mo
 * /usr/share/locale/ro/LC_MESSAGES/kcolorchooser.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcolorchooser.mo
+* /usr/share/locale/sa/LC_MESSAGES/kcolorchooser.mo
 * /usr/share/locale/si/LC_MESSAGES/kcolorchooser.mo
 * /usr/share/locale/sk/LC_MESSAGES/kcolorchooser.mo
 * /usr/share/locale/sl/LC_MESSAGES/kcolorchooser.mo
@@ -81,6 +83,7 @@ KDE Color Selector.
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kcolorchooser.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/kcolorchooser.mo
 * /usr/share/locale/sv/LC_MESSAGES/kcolorchooser.mo
+* /usr/share/locale/ta/LC_MESSAGES/kcolorchooser.mo
 * /usr/share/locale/th/LC_MESSAGES/kcolorchooser.mo
 * /usr/share/locale/tr/LC_MESSAGES/kcolorchooser.mo
 * /usr/share/locale/ug/LC_MESSAGES/kcolorchooser.mo

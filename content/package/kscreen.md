@@ -12,7 +12,7 @@ size = "267816"
 usize = "1171692"
 sha1sum = "94c56d109bacae1e328be5b36cb571526aabcd70"
 depends = "['layer-shell-qt>=6.0.3', 'qt6-sensors>=6.6.3']"
-reverse_depends = "['kscreenlocker']"
+reverse_depends = "['kscreenlocker', 'spectacle']"
 +++
 ### Description: 
 KDE's screen management utility.

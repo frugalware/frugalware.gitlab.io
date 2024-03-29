@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kubrick 23.08.5-1"
-version = "23.08.5-1"
+title = "kubrick 24.02.1-3"
+version = "24.02.1-3"
 description = "Kubrick is based on the famous Rubik's Cube"
-date = "2024-02-20T13:20:11"
+date = "2024-03-27T13:26:22"
 aliases = "/packages/219341"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "503480"
-usize = "1965698"
-sha1sum = "b0638c606e8ede0f91e74a4bda3094a79975e155"
-depends = "['libglu', 'libkdegames>=23.08.5']"
+size = "505140"
+usize = "1983337"
+sha1sum = "5bd703f9561cc155c91140613641b863f7d8641c"
+depends = "['libglu', 'libkdegames>=24.02.1']"
 +++
 ### Description: 
 Kubrick is based on the famous Rubik's Cube
@@ -45,10 +45,10 @@ Kubrick is based on the famous Rubik's Cube
 * /usr/share/doc/HTML/sv/kubrick/index.docbook
 * /usr/share/doc/HTML/uk/kubrick/index.cache.bz2
 * /usr/share/doc/HTML/uk/kubrick/index.docbook
-* /usr/share/doc/kubrick-23.08.5/AUTHORS
-* /usr/share/doc/kubrick-23.08.5/README
-* /usr/share/doc/kubrick-23.08.5/README.PACKAGERS
-* /usr/share/doc/kubrick-23.08.5/TODO
+* /usr/share/doc/kubrick-24.02.1/AUTHORS
+* /usr/share/doc/kubrick-24.02.1/README
+* /usr/share/doc/kubrick-24.02.1/README.PACKAGERS
+* /usr/share/doc/kubrick-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kubrick.png
 * /usr/share/icons/hicolor/16x16/apps/kubrick.png
 * /usr/share/icons/hicolor/22x22/apps/kubrick.png
@@ -79,6 +79,7 @@ Kubrick is based on the famous Rubik's Cube
 * /usr/share/kubrick/p333X2.kbk
 * /usr/share/kubrick/p333X6.kbk
 * /usr/share/kubrick/themes/default.svgz
+* /usr/share/locale/ast/LC_MESSAGES/kubrick.mo
 * /usr/share/locale/bg/LC_MESSAGES/kubrick.mo
 * /usr/share/locale/bs/LC_MESSAGES/kubrick.mo
 * /usr/share/locale/ca/LC_MESSAGES/kubrick.mo
@@ -98,6 +99,7 @@ Kubrick is based on the famous Rubik's Cube
 * /usr/share/locale/gl/LC_MESSAGES/kubrick.mo
 * /usr/share/locale/hr/LC_MESSAGES/kubrick.mo
 * /usr/share/locale/hu/LC_MESSAGES/kubrick.mo
+* /usr/share/locale/ia/LC_MESSAGES/kubrick.mo
 * /usr/share/locale/id/LC_MESSAGES/kubrick.mo
 * /usr/share/locale/is/LC_MESSAGES/kubrick.mo
 * /usr/share/locale/it/LC_MESSAGES/kubrick.mo
@@ -133,4 +135,4 @@ Kubrick is based on the famous Rubik's Cube
 * /usr/share/locale/zh_CN/LC_MESSAGES/kubrick.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kubrick.mo
 * /usr/share/metainfo/org.kde.kubrick.appdata.xml
-* /usr/share/qlogging-categories5/kubrick.categories
+* /usr/share/qlogging-categories6/kubrick.categories

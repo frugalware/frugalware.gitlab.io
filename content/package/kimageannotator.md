@@ -1,34 +1,34 @@
 +++
 draft = false
-title = "kimageannotator 0.6.1-2"
-version = "0.6.1-2"
+title = "kimageannotator 0.7.1-1"
+version = "0.7.1-1"
 description = "Tool for annotating images"
-date = "2023-10-25T10:36:12"
+date = "2024-03-12T16:03:50"
 aliases = "/packages/220583"
-categories = ['kde5']
+categories = []
 upstreamurl = "https://github.com/ksnip/kimageannotator"
 arch = "x86_64"
-size = "356520"
-usize = "1636348"
-sha1sum = "ead3eab6fc49e4bf2449a44a463f6a827aa1ceca"
-depends = "['kcolorpicker', 'qt5-svg>=5.15.6']"
+size = "382776"
+usize = "1804101"
+sha1sum = "ea90d23ed23eefdee9caf2e3236b10989c52e99e"
+depends = "['kcolorpicker', 'qt6-svg>=5.15.6']"
 reverse_depends = "['gwenview']"
 +++
 ### Description: 
 Tool for annotating images
 
 ### Files: 
-* /usr/include/kImageAnnotator/KImageAnnotator.h
-* /usr/include/kImageAnnotator/KImageAnnotatorExport.h
-* /usr/lib/cmake/kImageAnnotator/kImageAnnotator-targets-release.cmake
-* /usr/lib/cmake/kImageAnnotator/kImageAnnotator-targets.cmake
-* /usr/lib/cmake/kImageAnnotator/kImageAnnotatorConfig-version.cmake
-* /usr/lib/cmake/kImageAnnotator/kImageAnnotatorConfig.cmake
+* /usr/include/kImageAnnotator-Qt6/kImageAnnotator/KImageAnnotator.h
+* /usr/include/kImageAnnotator-Qt6/kImageAnnotator/KImageAnnotatorExport.h
+* /usr/lib/cmake/kImageAnnotator-Qt6/kImageAnnotator-Qt6Config-version.cmake
+* /usr/lib/cmake/kImageAnnotator-Qt6/kImageAnnotator-Qt6Config.cmake
+* /usr/lib/cmake/kImageAnnotator-Qt6/kImageAnnotator-targets-release.cmake
+* /usr/lib/cmake/kImageAnnotator-Qt6/kImageAnnotator-targets.cmake
 * /usr/lib/libkImageAnnotator.so
 * /usr/lib/libkImageAnnotator.so.0
-* /usr/lib/libkImageAnnotator.so.0.6.1
-* /usr/share/doc/kimageannotator-0.6.1/LICENSE
-* /usr/share/doc/kimageannotator-0.6.1/README.md
+* /usr/lib/libkImageAnnotator.so.0.7.1
+* /usr/share/doc/kimageannotator-0.7.1/LICENSE
+* /usr/share/doc/kimageannotator-0.7.1/README.md
 * /usr/share/kImageAnnotator/translations/kImageAnnotator_ar.qm
 * /usr/share/kImageAnnotator/translations/kImageAnnotator_bg.qm
 * /usr/share/kImageAnnotator/translations/kImageAnnotator_ca.qm

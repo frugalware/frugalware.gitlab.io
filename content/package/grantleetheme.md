@@ -1,100 +1,101 @@
 +++
 draft = false
-title = "grantleetheme 23.08.5-1"
-version = "23.08.5-1"
+title = "grantleetheme 24.02.1-3"
+version = "24.02.1-3"
 description = "This lib provides grantlee theme support"
-date = "2024-02-19T22:09:06"
+date = "2024-03-27T10:40:45"
 aliases = "/packages/218476"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "56792"
-usize = "206430"
-sha1sum = "30ae96a9cdeb58da587a935afe5fa13d5d74b36e"
-depends = "['grantlee>=5.1.0-2', 'knewstuff>=5.115.0']"
+size = "60532"
+usize = "225758"
+sha1sum = "4ebcfdefb0f3bd3bed4102012f6ee9232e4c420e"
+depends = "['knewstuff>=6.0.0']"
 reverse_depends = "['akonadi-contacts', 'knotes']"
 +++
 ### Description: 
 This lib provides grantlee theme support
 
 ### Files: 
-* /usr/include/KPim5/GrantleeTheme/grantleetheme/GenericFormatter
-* /usr/include/KPim5/GrantleeTheme/GrantleeTheme/GenericFormatter
-* /usr/include/KPim5/GrantleeTheme/grantleetheme/genericformatter.h
-* /usr/include/KPim5/GrantleeTheme/grantleetheme/GrantleeKi18nLocalizer
-* /usr/include/KPim5/GrantleeTheme/GrantleeTheme/GrantleeKi18nLocalizer
-* /usr/include/KPim5/GrantleeTheme/grantleetheme/grantleeki18nlocalizer.h
-* /usr/include/KPim5/GrantleeTheme/grantleetheme/GrantleeTheme
-* /usr/include/KPim5/GrantleeTheme/GrantleeTheme/GrantleeTheme
-* /usr/include/KPim5/GrantleeTheme/grantleetheme/grantleetheme.h
-* /usr/include/KPim5/GrantleeTheme/grantleetheme/GrantleeThemeEngine
-* /usr/include/KPim5/GrantleeTheme/GrantleeTheme/GrantleeThemeEngine
-* /usr/include/KPim5/GrantleeTheme/grantleetheme/grantleethemeengine.h
-* /usr/include/KPim5/GrantleeTheme/grantleetheme/GrantleeThemeManager
-* /usr/include/KPim5/GrantleeTheme/GrantleeTheme/GrantleeThemeManager
-* /usr/include/KPim5/GrantleeTheme/grantleetheme/grantleethememanager.h
-* /usr/include/KPim5/GrantleeTheme/grantleetheme/grantleetheme_export.h
-* /usr/include/KPim5/GrantleeTheme/grantleetheme/QtResourceTemplateLoader
-* /usr/include/KPim5/GrantleeTheme/GrantleeTheme/QtResourceTemplateLoader
-* /usr/include/KPim5/GrantleeTheme/grantleetheme/qtresourcetemplateloader.h
-* /usr/include/KPim5/GrantleeTheme/grantleetheme_version.h
-* /usr/lib/cmake/KPim5GrantleeTheme/KPim5GrantleeThemeConfig.cmake
-* /usr/lib/cmake/KPim5GrantleeTheme/KPim5GrantleeThemeConfigVersion.cmake
-* /usr/lib/cmake/KPim5GrantleeTheme/KPim5GrantleeThemeTargets-release.cmake
-* /usr/lib/cmake/KPim5GrantleeTheme/KPim5GrantleeThemeTargets.cmake
-* /usr/lib/grantlee/5.3/kde_grantlee_plugin.so
-* /usr/lib/libKPim5GrantleeTheme.so
-* /usr/lib/libKPim5GrantleeTheme.so.5
-* /usr/lib/libKPim5GrantleeTheme.so.5.24.5
-* /usr/share/doc/grantleetheme-23.08.5/README.md
-* /usr/share/doc/grantleetheme-23.08.5/README.md.license
-* /usr/share/locale/ar/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/bg/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/bs/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/ca/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/cs/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/da/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/de/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/el/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/eo/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/es/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/et/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/eu/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/fi/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/fr/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/gl/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/hi/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/hu/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/ia/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/it/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/ja/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/ka/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/kk/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/ko/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/lt/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/nb/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/nds/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/nl/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/nn/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/pl/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/pt/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/ro/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/ru/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/sk/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/sl/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/sr/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/sv/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/tr/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/ug/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/uk/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/libgrantleetheme.mo
-* /usr/share/qlogging-categories5/grantleetheme.categories
-* /usr/share/qlogging-categories5/grantleetheme.renamecategories
-* /usr/share/qt5/mkspecs/modules/qt_GrantleeTheme.pri
+* /usr/include/KPim6/GrantleeTheme/grantleetheme/GenericFormatter
+* /usr/include/KPim6/GrantleeTheme/GrantleeTheme/GenericFormatter
+* /usr/include/KPim6/GrantleeTheme/grantleetheme/genericformatter.h
+* /usr/include/KPim6/GrantleeTheme/grantleetheme/GrantleeKi18nLocalizer
+* /usr/include/KPim6/GrantleeTheme/GrantleeTheme/GrantleeKi18nLocalizer
+* /usr/include/KPim6/GrantleeTheme/grantleetheme/grantleeki18nlocalizer.h
+* /usr/include/KPim6/GrantleeTheme/grantleetheme/GrantleeTheme
+* /usr/include/KPim6/GrantleeTheme/GrantleeTheme/GrantleeTheme
+* /usr/include/KPim6/GrantleeTheme/grantleetheme/grantleetheme.h
+* /usr/include/KPim6/GrantleeTheme/grantleetheme/GrantleeThemeEngine
+* /usr/include/KPim6/GrantleeTheme/GrantleeTheme/GrantleeThemeEngine
+* /usr/include/KPim6/GrantleeTheme/grantleetheme/grantleethemeengine.h
+* /usr/include/KPim6/GrantleeTheme/grantleetheme/GrantleeThemeManager
+* /usr/include/KPim6/GrantleeTheme/GrantleeTheme/GrantleeThemeManager
+* /usr/include/KPim6/GrantleeTheme/grantleetheme/grantleethememanager.h
+* /usr/include/KPim6/GrantleeTheme/grantleetheme/grantleetheme_export.h
+* /usr/include/KPim6/GrantleeTheme/grantleetheme/QtResourceTemplateLoader
+* /usr/include/KPim6/GrantleeTheme/GrantleeTheme/QtResourceTemplateLoader
+* /usr/include/KPim6/GrantleeTheme/grantleetheme/qtresourcetemplateloader.h
+* /usr/include/KPim6/GrantleeTheme/grantleetheme_version.h
+* /usr/lib/cmake/KPim6GrantleeTheme/KPim6GrantleeThemeConfig.cmake
+* /usr/lib/cmake/KPim6GrantleeTheme/KPim6GrantleeThemeConfigVersion.cmake
+* /usr/lib/cmake/KPim6GrantleeTheme/KPim6GrantleeThemeTargets-release.cmake
+* /usr/lib/cmake/KPim6GrantleeTheme/KPim6GrantleeThemeTargets.cmake
+* /usr/lib/libKPim6GrantleeTheme.so
+* /usr/lib/libKPim6GrantleeTheme.so.6
+* /usr/lib/libKPim6GrantleeTheme.so.6.0.1
+* /usr/lib/qt6/plugins/kf6/ktexttemplate/kde_grantlee_plugin.so
+* /usr/share/doc/grantleetheme-24.02.1/README.md
+* /usr/share/doc/grantleetheme-24.02.1/README.md.license
+* /usr/share/locale/ar/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/ast/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/bg/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/bs/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/ca/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/cs/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/da/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/de/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/el/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/eo/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/es/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/et/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/eu/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/fi/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/fr/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/gl/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/hi/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/hu/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/ia/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/it/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/ja/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/ka/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/kk/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/ko/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/lt/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/nb/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/nds/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/nl/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/nn/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/pl/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/pt/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/ro/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/ru/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/sa/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/sk/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/sl/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/sr/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/sv/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/tr/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/ug/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/uk/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/qlogging-categories6/grantleetheme.categories
+* /usr/share/qlogging-categories6/grantleetheme.renamecategories

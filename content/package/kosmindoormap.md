@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kosmindoormap 23.08.5-1"
-version = "23.08.5-1"
+title = "kosmindoormap 24.02.1-3"
+version = "24.02.1-3"
 description = "OSM multi-floor indoor map renderer"
-date = "2024-02-20T14:24:09"
+date = "2024-03-27T13:52:35"
 aliases = "/packages/220317"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "409604"
-usize = "1735550"
-sha1sum = "fb673552bf4502748d2685197f5ac06fcebf2e29"
-depends = "['ki18n>=5.115.0', 'kpublictransport=>23.08.5']"
+size = "690576"
+usize = "2243083"
+sha1sum = "5e424f5e8094a59a36b25c0c93b4926fc747edc7"
+depends = "['ki18n>=6.0.0', 'kopeninghours>=24.02.1', 'kpublictransport=>24.02.1']"
 reverse_depends = "['itinerary']"
 +++
 ### Description: 
@@ -36,8 +36,14 @@ OSM multi-floor indoor map renderer
 * /usr/include/kosmindoormap/kosmindoormap_export.h
 * /usr/include/KOSMIndoorMap/MapCSSParser
 * /usr/include/kosmindoormap/mapcssparser.h
+* /usr/include/KOSMIndoorMap/MapCSSProperty
+* /usr/include/kosmindoormap/mapcssproperty.h
+* /usr/include/KOSMIndoorMap/MapCSSResult
+* /usr/include/kosmindoormap/mapcssresult.h
 * /usr/include/KOSMIndoorMap/MapCSSStyle
 * /usr/include/kosmindoormap/mapcssstyle.h
+* /usr/include/KOSMIndoorMap/MapCSSTypes
+* /usr/include/kosmindoormap/mapcsstypes.h
 * /usr/include/KOSMIndoorMap/MapData
 * /usr/include/kosmindoormap/mapdata.h
 * /usr/include/KOSMIndoorMap/MapLoader
@@ -65,21 +71,38 @@ OSM multi-floor indoor map renderer
 * /usr/lib/cmake/KOSMIndoorMap/KOSMIndoorMapTargets.cmake
 * /usr/lib/libKOSM.so
 * /usr/lib/libKOSM.so.1
-* /usr/lib/libKOSM.so.23.08.5
+* /usr/lib/libKOSM.so.24.02.1
 * /usr/lib/libKOSMIndoorMap.so
 * /usr/lib/libKOSMIndoorMap.so.1
-* /usr/lib/libKOSMIndoorMap.so.23.08.5
-* /usr/share/doc/kosmindoormap-23.08.5/README.md
-* /usr/share/doc/kosmindoormap-23.08.5/README.md.license
+* /usr/lib/libKOSMIndoorMap.so.24.02.1
+* /usr/lib/qt6/qml/org/kde/kosmindoormap/IndoorMap.qml
+* /usr/lib/qt6/qml/org/kde/kosmindoormap/IndoorMapAttributionLabel.qml
+* /usr/lib/qt6/qml/org/kde/kosmindoormap/IndoorMapScale.qml
+* /usr/lib/qt6/qml/org/kde/kosmindoormap/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/kosmindoormap/kosmindoormapquickplugin.qmltypes
+* /usr/lib/qt6/qml/org/kde/kosmindoormap/kpublictransport/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/kosmindoormap/kpublictransport/kosmindoormap_kpublictransport_integration_plugin.qmltypes
+* /usr/lib/qt6/qml/org/kde/kosmindoormap/kpublictransport/libkosmindoormap_kpublictransport_integration_plugin.so
+* /usr/lib/qt6/qml/org/kde/kosmindoormap/kpublictransport/qmldir
+* /usr/lib/qt6/qml/org/kde/kosmindoormap/libkosmindoormapquickplugin.so
+* /usr/lib/qt6/qml/org/kde/kosmindoormap/qmldir
+* /usr/lib/qt6/qml/org/kde/osm/editorcontroller/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/osm/editorcontroller/kosmeditorcontrollerplugin.qmltypes
+* /usr/lib/qt6/qml/org/kde/osm/editorcontroller/libkosmeditorcontrollerplugin.so
+* /usr/lib/qt6/qml/org/kde/osm/editorcontroller/qmldir
+* /usr/share/doc/kosmindoormap-24.02.1/README.md
+* /usr/share/doc/kosmindoormap-24.02.1/README.md.license
 * /usr/share/locale/ca/LC_MESSAGES/kosmindoormap.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kosmindoormap.mo
 * /usr/share/locale/cs/LC_MESSAGES/kosmindoormap.mo
 * /usr/share/locale/de/LC_MESSAGES/kosmindoormap.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kosmindoormap.mo
+* /usr/share/locale/eo/LC_MESSAGES/kosmindoormap.mo
 * /usr/share/locale/es/LC_MESSAGES/kosmindoormap.mo
 * /usr/share/locale/eu/LC_MESSAGES/kosmindoormap.mo
 * /usr/share/locale/fi/LC_MESSAGES/kosmindoormap.mo
 * /usr/share/locale/fr/LC_MESSAGES/kosmindoormap.mo
+* /usr/share/locale/ia/LC_MESSAGES/kosmindoormap.mo
 * /usr/share/locale/it/LC_MESSAGES/kosmindoormap.mo
 * /usr/share/locale/ja/LC_MESSAGES/kosmindoormap.mo
 * /usr/share/locale/ka/LC_MESSAGES/kosmindoormap.mo
@@ -97,11 +120,4 @@ OSM multi-floor indoor map renderer
 * /usr/share/locale/uk/LC_MESSAGES/kosmindoormap.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kosmindoormap.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kosmindoormap.mo
-* /usr/share/qlogging-categories5/org_kde_kosmindoormap.categories
-* /usr/share/qt5/qml/org/kde/kosmindoormap/IndoorMap.qml
-* /usr/share/qt5/qml/org/kde/kosmindoormap/IndoorMapAttributionLabel.qml
-* /usr/share/qt5/qml/org/kde/kosmindoormap/IndoorMapScale.qml
-* /usr/share/qt5/qml/org/kde/kosmindoormap/kpublictransport/libkosmindoormap_kpublictransport_integration_plugin.so
-* /usr/share/qt5/qml/org/kde/kosmindoormap/kpublictransport/qmldir
-* /usr/share/qt5/qml/org/kde/kosmindoormap/libkosmindoormapquickplugin.so
-* /usr/share/qt5/qml/org/kde/kosmindoormap/qmldir
+* /usr/share/qlogging-categories6/org_kde_kosmindoormap.categories

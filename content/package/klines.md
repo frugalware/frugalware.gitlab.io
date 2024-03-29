@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "klines 23.08.5-1"
-version = "23.08.5-1"
+title = "klines 24.02.1-3"
+version = "24.02.1-3"
 description = "A simple but highly addictive, one player game."
-date = "2024-02-19T22:47:03"
+date = "2024-03-27T11:17:12"
 aliases = "/packages/184187"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1602848"
-usize = "7538290"
-sha1sum = "ed9934555dcd844fabca93ecf03a7accbb614cd7"
-depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5']"
+size = "1603696"
+usize = "7556868"
+sha1sum = "f54eb3ee8b085692820311261efc628c48e874af"
+depends = "['knotifyconfig>=6.0.0', 'libkdegames>=24.02.1']"
 +++
 ### Description: 
 A simple but highly addictive, one player game.
@@ -48,9 +48,9 @@ A simple but highly addictive, one player game.
 * /usr/share/doc/HTML/uk/klines/gamescreen.png
 * /usr/share/doc/HTML/uk/klines/index.cache.bz2
 * /usr/share/doc/HTML/uk/klines/index.docbook
-* /usr/share/doc/klines-23.08.5/AUTHORS
-* /usr/share/doc/klines-23.08.5/README.PACKAGERS
-* /usr/share/doc/klines-23.08.5/README.themes
+* /usr/share/doc/klines-24.02.1/AUTHORS
+* /usr/share/doc/klines-24.02.1/README.PACKAGERS
+* /usr/share/doc/klines-24.02.1/README.themes
 * /usr/share/icons/hicolor/128x128/apps/klines.png
 * /usr/share/icons/hicolor/16x16/apps/klines.png
 * /usr/share/icons/hicolor/22x22/apps/klines.png
@@ -74,6 +74,7 @@ A simple but highly addictive, one player game.
 * /usr/share/klines/themes/pool.svgz
 * /usr/share/locale/af/LC_MESSAGES/klines.mo
 * /usr/share/locale/ar/LC_MESSAGES/klines.mo
+* /usr/share/locale/ast/LC_MESSAGES/klines.mo
 * /usr/share/locale/be/LC_MESSAGES/klines.mo
 * /usr/share/locale/bg/LC_MESSAGES/klines.mo
 * /usr/share/locale/br/LC_MESSAGES/klines.mo
@@ -101,6 +102,7 @@ A simple but highly addictive, one player game.
 * /usr/share/locale/hne/LC_MESSAGES/klines.mo
 * /usr/share/locale/hr/LC_MESSAGES/klines.mo
 * /usr/share/locale/hu/LC_MESSAGES/klines.mo
+* /usr/share/locale/ia/LC_MESSAGES/klines.mo
 * /usr/share/locale/id/LC_MESSAGES/klines.mo
 * /usr/share/locale/is/LC_MESSAGES/klines.mo
 * /usr/share/locale/it/LC_MESSAGES/klines.mo
@@ -147,4 +149,4 @@ A simple but highly addictive, one player game.
 * /usr/share/locale/zh_CN/LC_MESSAGES/klines.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/klines.mo
 * /usr/share/metainfo/org.kde.klines.appdata.xml
-* /usr/share/qlogging-categories5/klines.categories
+* /usr/share/qlogging-categories6/klines.categories

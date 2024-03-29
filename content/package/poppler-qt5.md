@@ -12,7 +12,7 @@ size = "190336"
 usize = "711006"
 sha1sum = "9bc0ccc5caa487ca7fb4f1f6d38549debf23fcd1"
 depends = "['poppler', 'qt5-base>=5.15.10']"
-reverse_depends = "['cantor', 'kfilemetadata5', 'krita', 'okular', 'texmaker', 'texstudio', 'texworks']"
+reverse_depends = "['cantor', 'kfilemetadata5', 'krita', 'texmaker', 'texstudio', 'texworks']"
 +++
 ### Description: 
 Poppler QT5 bindings

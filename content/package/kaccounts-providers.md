@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kaccounts-providers 23.08.5-1"
-version = "23.08.5-1"
+title = "kaccounts-providers 24.02.1-3"
+version = "24.02.1-3"
 description = "Small system to administer web accounts for the sites and services across the KDE desktop, including: Google, Facebook, Owncloud, IMAP, Jabber and others"
-date = "2024-02-20T10:00:02"
+date = "2024-03-27T12:50:20"
 aliases = "/packages/218268"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "67968"
-usize = "299511"
-sha1sum = "5b1caa494bfcdd131df2b9fe333b62ffea82c36b"
-depends = "['kaccounts-integration>=23.08.5', 'qt5-svg>=5.15.12', 'qt5-webengine>=5.15.12']"
+size = "62912"
+usize = "278408"
+sha1sum = "2a8b68fd99b9d71360bd5ff12ef03aa9e7826db9"
+depends = "['kaccounts-integration>=24.02.1', 'qt6-svg>=6.6.3', 'qt6-webengine>=6.6.3']"
 +++
 ### Description: 
 Small system to administer web accounts for the sites and services across the KDE desktop, including: Google, Facebook, Owncloud, IMAP, Jabber and others
@@ -21,8 +21,8 @@ Small system to administer web accounts for the sites and services across the KD
 * /etc/signon-ui/webkit-options.d/api.twitter.com.conf
 * /etc/signon-ui/webkit-options.d/identi.ca.conf
 * /etc/signon-ui/webkit-options.d/www.facebook.com.conf
-* /usr/lib/qt5/plugins/kaccounts/ui/nextcloud_plugin_kaccounts.so
-* /usr/lib/qt5/plugins/kaccounts/ui/owncloud_plugin_kaccounts.so
+* /usr/lib/qt6/plugins/kaccounts/ui/nextcloud_plugin_kaccounts.so
+* /usr/lib/qt6/plugins/kaccounts/ui/owncloud_plugin_kaccounts.so
 * /usr/share/accounts/providers/kde/google.provider
 * /usr/share/accounts/providers/kde/nextcloud.provider
 * /usr/share/accounts/providers/kde/owncloud.provider
@@ -36,12 +36,10 @@ Small system to administer web accounts for the sites and services across the KD
 * /usr/share/kpackage/genericqml/org.kde.kaccounts.nextcloud/contents/ui/Services.qml
 * /usr/share/kpackage/genericqml/org.kde.kaccounts.nextcloud/contents/ui/WebLogin.qml
 * /usr/share/kpackage/genericqml/org.kde.kaccounts.nextcloud/metadata.desktop
-* /usr/share/kpackage/genericqml/org.kde.kaccounts.nextcloud/metadata.json
 * /usr/share/kpackage/genericqml/org.kde.kaccounts.owncloud/contents/ui/main.qml
 * /usr/share/kpackage/genericqml/org.kde.kaccounts.owncloud/contents/ui/Server.qml
 * /usr/share/kpackage/genericqml/org.kde.kaccounts.owncloud/contents/ui/Services.qml
 * /usr/share/kpackage/genericqml/org.kde.kaccounts.owncloud/metadata.desktop
-* /usr/share/kpackage/genericqml/org.kde.kaccounts.owncloud/metadata.json
 * /usr/share/locale/ar/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/az/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/bg/LC_MESSAGES/kaccounts-providers.mo
@@ -53,6 +51,7 @@ Small system to administer web accounts for the sites and services across the KD
 * /usr/share/locale/de/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/el/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kaccounts-providers.mo
+* /usr/share/locale/eo/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/es/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/et/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/eu/LC_MESSAGES/kaccounts-providers.mo
@@ -82,9 +81,8 @@ Small system to administer web accounts for the sites and services across the KD
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/sv/LC_MESSAGES/kaccounts-providers.mo
+* /usr/share/locale/ta/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/tr/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/uk/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kaccounts-providers.mo
-* /usr/share/metainfo/org.kde.kaccounts.nextcloud.appdata.xml
-* /usr/share/metainfo/org.kde.kaccounts.owncloud.appdata.xml

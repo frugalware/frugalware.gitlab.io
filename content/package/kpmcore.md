@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpmcore 23.08.5-1"
-version = "23.08.5-1"
+title = "kpmcore 24.02.1-3"
+version = "24.02.1-3"
 description = "Library for managing partitions"
-date = "2024-02-20T10:03:53"
+date = "2024-03-27T12:53:28"
 aliases = "/packages/218345"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "623232"
-usize = "4096872"
-sha1sum = "da5d5d4a1a7d246295d49f6bfcbf37449a78a452"
-depends = "['kauth>=5.115.0', 'ki18n>=>=5.115.0', 'kwidgetsaddons>=5.115.0', 'qca', 'qca-ossl', 'qt5-svg>=5.15.12', 'util-linux']"
+size = "650948"
+usize = "4197342"
+sha1sum = "751b5abd6a83aa199289665d62aab8b9fb36d2f1"
+depends = "['kauth>=6.0.0', 'ki18n>=>=6.0.0', 'kwidgetsaddons>=6.0.0', 'qca', 'qca-ossl', 'qt6-svg>=6.6.3', 'util-linux']"
 reverse_depends = "['calamares-frugalware', 'partitionmanager']"
 +++
 ### Description: 
@@ -103,16 +103,16 @@ Library for managing partitions
 * /usr/lib/cmake/KPMcore/KPMcoreConfigVersion.cmake
 * /usr/lib/cmake/KPMcore/KPMcoreTargets-release.cmake
 * /usr/lib/cmake/KPMcore/KPMcoreTargets.cmake
-* /usr/lib/kf5/kpmcore_externalcommand
+* /usr/lib/kpmcore/kpmcore_externalcommand
 * /usr/lib/libkpmcore.so
 * /usr/lib/libkpmcore.so.12
-* /usr/lib/libkpmcore.so.23.08.5
-* /usr/lib/qt5/plugins/kpmcore/pmdummybackendplugin.so
-* /usr/lib/qt5/plugins/kpmcore/pmsfdiskbackendplugin.so
+* /usr/lib/libkpmcore.so.24.02.1
+* /usr/lib/qt6/plugins/kpmcore/pmdummybackendplugin.so
+* /usr/lib/qt6/plugins/kpmcore/pmsfdiskbackendplugin.so
 * /usr/share/dbus-1/system-services/org.kde.kpmcore.helperinterface.service
 * /usr/share/dbus-1/system.d/org.kde.kpmcore.helperinterface.conf
-* /usr/share/doc/kpmcore-23.08.5/INSTALL.md
-* /usr/share/doc/kpmcore-23.08.5/README.md
+* /usr/share/doc/kpmcore-24.02.1/INSTALL.md
+* /usr/share/doc/kpmcore-24.02.1/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kpmcore.mo
 * /usr/share/locale/bg/LC_MESSAGES/kpmcore.mo
 * /usr/share/locale/bg/LC_MESSAGES/kpmcore._policy_.mo
@@ -149,6 +149,8 @@ Library for managing partitions
 * /usr/share/locale/hr/LC_MESSAGES/kpmcore.mo
 * /usr/share/locale/hu/LC_MESSAGES/kpmcore.mo
 * /usr/share/locale/hu/LC_MESSAGES/kpmcore._policy_.mo
+* /usr/share/locale/ia/LC_MESSAGES/kpmcore.mo
+* /usr/share/locale/ia/LC_MESSAGES/kpmcore._policy_.mo
 * /usr/share/locale/id/LC_MESSAGES/kpmcore.mo
 * /usr/share/locale/is/LC_MESSAGES/kpmcore.mo
 * /usr/share/locale/it/LC_MESSAGES/kpmcore.mo

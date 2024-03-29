@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gwenview 23.08.5-1"
-version = "23.08.5-1"
+title = "gwenview 24.02.1-3"
+version = "24.02.1-3"
 description = "KDE Image Viewer."
-date = "2024-02-19T23:20:09"
+date = "2024-03-27T11:40:47"
 aliases = "/packages/74209"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7033148"
-usize = "11662729"
-sha1sum = "b0011277f09fcce22f5c44e3722678aa84d88527"
-depends = "['baloo5>=5.115.0', 'cfitsio>=4.2.0', 'exiv2>=0.28.1', 'kactivities5>=5.115.0', 'kdelibs4support>=5.115.0', 'kimageannotator', 'kipi-plugins>=23.08.5', 'libkdcraw>=23.08.5', 'libkipi>=23.08.5']"
+size = "7147636"
+usize = "12074887"
+sha1sum = "35ee2fb71341288a75047d9cfda449fff193dbab"
+depends = "['baloo>=6.0.0', 'cfitsio>=4.2.0', 'exiv2>=0.28.1', 'kimageannotator', 'kparts>=6.0.0', 'libkdcraw>=24.02.1', 'libtiff', 'plasma-activities>=6.0.3', 'purpose>=6.0.0', 'qt6-imageformats>=6.6.3']"
 +++
 ### Description: 
 KDE Image Viewer.
@@ -21,13 +21,14 @@ KDE Image Viewer.
 * /usr/bin/gwenview_importer
 * /usr/lib/libgwenviewlib.so.4.97.0
 * /usr/lib/libgwenviewlib.so.5
-* /usr/lib/qt5/plugins/kf5/kfileitemaction/slideshowfileitemaction.so
-* /usr/lib/qt5/plugins/kf5/parts/gvpart.so
+* /usr/lib/qt6/plugins/kf6/kfileitemaction/slideshowfileitemaction.so
+* /usr/lib/qt6/plugins/kf6/parts/gvpart.so
 * /usr/share/applications/org.kde.gwenview.desktop
 * /usr/share/applications/org.kde.gwenview_importer.desktop
-* /usr/share/doc/gwenview-23.08.5/COPYING
-* /usr/share/doc/gwenview-23.08.5/COPYING.DOC
-* /usr/share/doc/gwenview-23.08.5/NEWS
+* /usr/share/doc/gwenview-24.02.1/COPYING
+* /usr/share/doc/gwenview-24.02.1/COPYING.DOC
+* /usr/share/doc/gwenview-24.02.1/NEWS
+* /usr/share/doc/gwenview-24.02.1/README.md
 * /usr/share/doc/HTML/ca/gwenview/browse_mode.png
 * /usr/share/doc/HTML/ca/gwenview/index.cache.bz2
 * /usr/share/doc/HTML/ca/gwenview/index.docbook
@@ -77,6 +78,8 @@ KDE Image Viewer.
 * /usr/share/doc/HTML/sr@latin/gwenview/index.docbook
 * /usr/share/doc/HTML/sv/gwenview/index.cache.bz2
 * /usr/share/doc/HTML/sv/gwenview/index.docbook
+* /usr/share/doc/HTML/tr/gwenview/index.cache.bz2
+* /usr/share/doc/HTML/tr/gwenview/index.docbook
 * /usr/share/doc/HTML/uk/gwenview/browse_mode.png
 * /usr/share/doc/HTML/uk/gwenview/fullscreen-browse.png
 * /usr/share/doc/HTML/uk/gwenview/fullscreen-view.png
@@ -102,9 +105,6 @@ KDE Image Viewer.
 * /usr/share/icons/hicolor/48x48/apps/gwenview.png
 * /usr/share/icons/hicolor/64x64/actions/document-share.png
 * /usr/share/icons/hicolor/64x64/apps/gwenview.png
-* /usr/share/kconf_update/gwenview-imageview-alphabackgroundmode-update.pl
-* /usr/share/kconf_update/gwenview.upd
-* /usr/share/kservices5/gvpart.desktop
 * /usr/share/locale/ar/LC_MESSAGES/gwenview.mo
 * /usr/share/locale/az/LC_MESSAGES/gwenview.mo
 * /usr/share/locale/be/LC_MESSAGES/gwenview.mo
@@ -175,6 +175,6 @@ KDE Image Viewer.
 * /usr/share/locale/zh_CN/LC_MESSAGES/gwenview.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/gwenview.mo
 * /usr/share/metainfo/org.kde.gwenview.appdata.xml
-* /usr/share/qlogging-categories5/gwenview.categories
+* /usr/share/qlogging-categories6/gwenview.categories
 * /usr/share/solid/actions/gwenview_importer.desktop
 * /usr/share/solid/actions/gwenview_importer_camera.desktop

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kgpg 23.08.5-1"
-version = "23.08.5-1"
+title = "kgpg 24.02.1-3"
+version = "24.02.1-3"
 description = "KGpg is a simple interface for GnuPG"
-date = "2024-02-19T23:47:25"
+date = "2024-03-27T12:03:42"
 aliases = "/packages/218933"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3218728"
-usize = "8862548"
-sha1sum = "dfb1ccfb35b78172ae611775e8f051db740600a1"
-depends = "['akonadi-contacts>=23.08.5', 'gpg-agent', 'gpgme']"
+size = "3229660"
+usize = "8784645"
+sha1sum = "09957613f8449f05b17da097907f98cd7af355e8"
+depends = "['akonadi-contacts>=24.02.1', 'gpg-agent', 'gpgme']"
 +++
 ### Description: 
 KGpg is a simple interface for GnuPG
@@ -98,6 +98,8 @@ KGpg is a simple interface for GnuPG
 * /usr/share/doc/HTML/sv/kgpg/keymanage.png
 * /usr/share/doc/HTML/sv/kgpg/keys.png
 * /usr/share/doc/HTML/sv/kgpg/options.png
+* /usr/share/doc/HTML/tr/kgpg/index.cache.bz2
+* /usr/share/doc/HTML/tr/kgpg/index.docbook
 * /usr/share/doc/HTML/uk/kgpg/editor.png
 * /usr/share/doc/HTML/uk/kgpg/index.cache.bz2
 * /usr/share/doc/HTML/uk/kgpg/index.docbook
@@ -107,8 +109,8 @@ KGpg is a simple interface for GnuPG
 * /usr/share/doc/HTML/uk/kgpg/keys.png
 * /usr/share/doc/HTML/uk/kgpg/options.png
 * /usr/share/doc/HTML/uk/kgpg/select-secret-key.png
-* /usr/share/doc/kgpg-23.08.5/AUTHORS
-* /usr/share/doc/kgpg-23.08.5/TODO
+* /usr/share/doc/kgpg-24.02.1/AUTHORS
+* /usr/share/doc/kgpg-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kgpg.png
 * /usr/share/icons/hicolor/16x16/actions/document-export-key.png
 * /usr/share/icons/hicolor/16x16/actions/document-import-key.png
@@ -149,12 +151,9 @@ KGpg is a simple interface for GnuPG
 * /usr/share/icons/hicolor/scalable/status/key-group.svgz
 * /usr/share/icons/hicolor/scalable/status/key-pair.svgz
 * /usr/share/icons/hicolor/scalable/status/key-single.svgz
-* /usr/share/kgpg/tips
 * /usr/share/kio/servicemenus/kgpg_encryptfile.desktop
 * /usr/share/kio/servicemenus/kgpg_encryptfolder.desktop
 * /usr/share/kio/servicemenus/kgpg_viewdecrypted.desktop
-* /usr/share/kxmlgui5/kgpg/keysmanager.rc
-* /usr/share/kxmlgui5/kgpg/kgpgeditor.rc
 * /usr/share/locale/ar/LC_MESSAGES/kgpg.mo
 * /usr/share/locale/be/LC_MESSAGES/kgpg.mo
 * /usr/share/locale/bg/LC_MESSAGES/kgpg.mo
@@ -224,4 +223,4 @@ KGpg is a simple interface for GnuPG
 * /usr/share/locale/zh_CN/LC_MESSAGES/kgpg.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kgpg.mo
 * /usr/share/metainfo/org.kde.kgpg.appdata.xml
-* /usr/share/qlogging-categories5/kgpg.categories
+* /usr/share/qlogging-categories6/kgpg.categories

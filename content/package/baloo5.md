@@ -12,7 +12,6 @@ size = "306732"
 usize = "1667790"
 sha1sum = "adba9e6cde3c6d5cb463ada2764119fc927fbf07"
 depends = "['kfilemetadata5>=5.115.0', 'lmdb>=0.9.18-3']"
-reverse_depends = "['gwenview']"
 +++
 ### Description: 
 A framework for searching and managing metadata.

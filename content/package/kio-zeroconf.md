@@ -1,24 +1,24 @@
 +++
 draft = false
-title = "kio-zeroconf 23.08.5-1"
-version = "23.08.5-1"
+title = "kio-zeroconf 24.02.1-3"
+version = "24.02.1-3"
 description = "DNS Service Discovery for KDE."
-date = "2024-02-19T20:46:31"
+date = "2024-03-27T09:52:38"
 aliases = "/packages/220584"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "45648"
-usize = "188113"
-sha1sum = "52498a7b52c11f4cefa2190473a68a93f590c252"
-depends = "['kdnssd>=5.115.0', 'kio>=5.115.0']"
+size = "49660"
+usize = "193425"
+sha1sum = "7645e1f6e6062282d5a643a720a548387fc3b83d"
+depends = "['kdnssd>=6.0.0', 'kio>=6.0.0']"
 +++
 ### Description: 
 DNS Service Discovery for KDE.
 
 ### Files: 
-* /usr/lib/qt5/plugins/kf5/kded/dnssdwatcher.so
-* /usr/lib/qt5/plugins/kf5/kio/zeroconf.so
+* /usr/lib/qt6/plugins/kf6/kded/dnssdwatcher.so
+* /usr/lib/qt6/plugins/kf6/kio/zeroconf.so
 * /usr/share/dbus-1/interfaces/org.kde.kdnssd.xml
 * /usr/share/locale/ar/LC_MESSAGES/kio5_zeroconf.mo
 * /usr/share/locale/be/LC_MESSAGES/kio5_zeroconf.mo

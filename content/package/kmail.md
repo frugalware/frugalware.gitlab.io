@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmail 23.08.5-1"
-version = "23.08.5-1"
+title = "kmail 24.02.1-3"
+version = "24.02.1-3"
 description = "Email client, supporting POP3 and IMAP mailboxes"
-date = "2024-02-20T09:56:19"
+date = "2024-03-27T12:46:59"
 aliases = "/packages/218934"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7040144"
-usize = "23503975"
-sha1sum = "b4ea31b141568bdef8d3150d039454efaeacce26"
-depends = "['akonadi-import-wizard>=23.08.5', 'kcalutils>=23.08.5', 'kdepim-runtime>=23.08.5', 'kmail-account-wizard>=23.08.5', 'knotifyconfig>=5.115.0', 'kontactinterface>=23.08.5', 'ktnef>=23.08.5', 'libksieve>=23.08.5', 'mailcommon>=23.08.5', 'mbox-importer>=']"
+size = "7127032"
+usize = "23500335"
+sha1sum = "9be18c589dc7ca3349a78ac71c61492f48d5be01"
+depends = "['akonadi-import-wizard>=24.02.1', 'kcalutils>=24.02.1', 'kdepim-runtime>=24.02.1', 'kmail-account-wizard>=24.02.1', 'knotifyconfig>=6.0.0', 'kontactinterface>=24.02.1', 'ktnef>=24.02.1', 'libksieve>=24.02.1', 'mailcommon>=24.02.1', 'mbox-importer>=']"
 +++
 ### Description: 
 Email client, supporting POP3 and IMAP mailboxes
@@ -26,21 +26,23 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/bin/kmail
 * /usr/bin/kmail-refresh-settings
 * /usr/bin/ktnef
-* /usr/lib/libkmailprivate.so.5
-* /usr/lib/libkmailprivate.so.5.24.5
-* /usr/lib/qt5/plugins/kmailpart.so
-* /usr/lib/qt5/plugins/pim5/akonadi/config/archivemailagentconfig.so
-* /usr/lib/qt5/plugins/pim5/akonadi/config/followupreminderagentconfig.so
-* /usr/lib/qt5/plugins/pim5/kcms/kmail/kcm_kmail_accounts.so
-* /usr/lib/qt5/plugins/pim5/kcms/kmail/kcm_kmail_appearance.so
-* /usr/lib/qt5/plugins/pim5/kcms/kmail/kcm_kmail_composer.so
-* /usr/lib/qt5/plugins/pim5/kcms/kmail/kcm_kmail_misc.so
-* /usr/lib/qt5/plugins/pim5/kcms/kmail/kcm_kmail_plugins.so
-* /usr/lib/qt5/plugins/pim5/kcms/kmail/kcm_kmail_security.so
-* /usr/lib/qt5/plugins/pim5/kcms/summary/kcmkmailsummary.so
-* /usr/lib/qt5/plugins/pim5/kcms/summary/kcmkontactsummary.so
-* /usr/lib/qt5/plugins/pim5/kontact/kontact_kmailplugin.so
-* /usr/lib/qt5/plugins/pim5/kontact/kontact_summaryplugin.so
+* /usr/lib/libkmailprivate.so.6
+* /usr/lib/libkmailprivate.so.6.0.1
+* /usr/lib/libmailfilteragentprivate.so.6
+* /usr/lib/libmailfilteragentprivate.so.6.0.1
+* /usr/lib/qt6/plugins/kmailpart.so
+* /usr/lib/qt6/plugins/pim6/akonadi/config/archivemailagentconfig.so
+* /usr/lib/qt6/plugins/pim6/akonadi/config/followupreminderagentconfig.so
+* /usr/lib/qt6/plugins/pim6/kcms/kmail/kcm_kmail_accounts.so
+* /usr/lib/qt6/plugins/pim6/kcms/kmail/kcm_kmail_appearance.so
+* /usr/lib/qt6/plugins/pim6/kcms/kmail/kcm_kmail_composer.so
+* /usr/lib/qt6/plugins/pim6/kcms/kmail/kcm_kmail_misc.so
+* /usr/lib/qt6/plugins/pim6/kcms/kmail/kcm_kmail_plugins.so
+* /usr/lib/qt6/plugins/pim6/kcms/kmail/kcm_kmail_security.so
+* /usr/lib/qt6/plugins/pim6/kcms/summary/kcmkmailsummary.so
+* /usr/lib/qt6/plugins/pim6/kcms/summary/kcmkontactsummary.so
+* /usr/lib/qt6/plugins/pim6/kontact/kontact_kmailplugin.so
+* /usr/lib/qt6/plugins/pim6/kontact/kontact_summaryplugin.so
 * /usr/share/akonadi/agents/archivemailagent.desktop
 * /usr/share/akonadi/agents/followupreminder.desktop
 * /usr/share/akonadi/agents/mailfilteragent.desktop
@@ -445,13 +447,12 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/share/icons/hicolor/8x8/emblems/gpg-key-trust-level-4.svg
 * /usr/share/icons/hicolor/scalable/apps/kmail.svg
 * /usr/share/kmail2/pics/pgp-keys.png
-* /usr/share/knotifications5/akonadi_archivemail_agent.notifyrc
-* /usr/share/knotifications5/akonadi_followupreminder_agent.notifyrc
-* /usr/share/knotifications5/akonadi_mailfilter_agent.notifyrc
-* /usr/share/knotifications5/akonadi_mailmerge_agent.notifyrc
-* /usr/share/knotifications5/akonadi_sendlater_agent.notifyrc
-* /usr/share/knotifications5/kmail2.notifyrc
-* /usr/share/kxmlgui5/kontactsummary/kontactsummary_part.rc
+* /usr/share/knotifications6/akonadi_archivemail_agent.notifyrc
+* /usr/share/knotifications6/akonadi_followupreminder_agent.notifyrc
+* /usr/share/knotifications6/akonadi_mailfilter_agent.notifyrc
+* /usr/share/knotifications6/akonadi_mailmerge_agent.notifyrc
+* /usr/share/knotifications6/akonadi_sendlater_agent.notifyrc
+* /usr/share/knotifications6/kmail2.notifyrc
 * /usr/share/locale/af/LC_MESSAGES/kmail.mo
 * /usr/share/locale/ar/LC_MESSAGES/akonadi_archivemail_agent.mo
 * /usr/share/locale/ar/LC_MESSAGES/akonadi_followupreminder_agent.mo
@@ -462,6 +463,15 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/share/locale/ar/LC_MESSAGES/kmail-refresh-settings.mo
 * /usr/share/locale/ar/LC_MESSAGES/kmail.mo
 * /usr/share/locale/ar/LC_MESSAGES/ktnef.mo
+* /usr/share/locale/ast/LC_MESSAGES/akonadi_archivemail_agent.mo
+* /usr/share/locale/ast/LC_MESSAGES/akonadi_followupreminder_agent.mo
+* /usr/share/locale/ast/LC_MESSAGES/akonadi_mailfilter_agent.mo
+* /usr/share/locale/ast/LC_MESSAGES/akonadi_mailmerge_agent.mo
+* /usr/share/locale/ast/LC_MESSAGES/akonadi_sendlater_agent.mo
+* /usr/share/locale/ast/LC_MESSAGES/akonadi_unifiedmailbox_agent.mo
+* /usr/share/locale/ast/LC_MESSAGES/kmail-refresh-settings.mo
+* /usr/share/locale/ast/LC_MESSAGES/kmail.mo
+* /usr/share/locale/ast/LC_MESSAGES/ktnef.mo
 * /usr/share/locale/az/LC_MESSAGES/akonadi_archivemail_agent.mo
 * /usr/share/locale/az/LC_MESSAGES/akonadi_followupreminder_agent.mo
 * /usr/share/locale/az/LC_MESSAGES/akonadi_mailfilter_agent.mo
@@ -627,7 +637,10 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/share/locale/hu/LC_MESSAGES/akonadi_archivemail_agent.mo
 * /usr/share/locale/hu/LC_MESSAGES/akonadi_followupreminder_agent.mo
 * /usr/share/locale/hu/LC_MESSAGES/akonadi_mailfilter_agent.mo
+* /usr/share/locale/hu/LC_MESSAGES/akonadi_mailmerge_agent.mo
 * /usr/share/locale/hu/LC_MESSAGES/akonadi_sendlater_agent.mo
+* /usr/share/locale/hu/LC_MESSAGES/akonadi_unifiedmailbox_agent.mo
+* /usr/share/locale/hu/LC_MESSAGES/kmail-refresh-settings.mo
 * /usr/share/locale/hu/LC_MESSAGES/kmail.mo
 * /usr/share/locale/hu/LC_MESSAGES/ktnef.mo
 * /usr/share/locale/ia/LC_MESSAGES/akonadi_archivemail_agent.mo
@@ -872,5 +885,5 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/share/locale/zh_TW/LC_MESSAGES/kmail.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/ktnef.mo
 * /usr/share/metainfo/org.kde.kmail2.appdata.xml
-* /usr/share/qlogging-categories5/kmail.categories
-* /usr/share/qlogging-categories5/kmail.renamecategories
+* /usr/share/qlogging-categories6/kmail.categories
+* /usr/share/qlogging-categories6/kmail.renamecategories

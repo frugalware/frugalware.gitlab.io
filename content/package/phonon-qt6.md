@@ -12,7 +12,7 @@ size = "388584"
 usize = "1795144"
 sha1sum = "4b070d6d55716899c95ad36fa4f17996be02841b"
 depends = "['libpulse>=9.0-2', 'libuuid>=2.28.2-2', 'libxml2>=2.9.4-3', 'qt6-5compat']"
-reverse_depends = "['konversation']"
+reverse_depends = "['konversation', 'kvirc', 'libkcompactdisc']"
 +++
 ### Description: 
 The multimedia API for KDE 6.

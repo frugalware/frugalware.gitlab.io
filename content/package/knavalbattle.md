@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "knavalbattle 23.08.5-1"
-version = "23.08.5-1"
+title = "knavalbattle 24.02.1-3"
+version = "24.02.1-3"
 description = "A ship sinking game."
-date = "2024-02-19T22:49:33"
+date = "2024-03-27T11:19:33"
 aliases = "/packages/184190"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1516996"
-usize = "2412562"
-sha1sum = "c24955cf9ce06fe74fa1150ad0752558d2947e30"
-depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5']"
+size = "1521804"
+usize = "2443157"
+sha1sum = "d55f17f6978a02d668ca27d511ad2a087f97e435"
+depends = "['knotifyconfig>=6.0.0', 'libkdegames>=24.02.1']"
 +++
 ### Description: 
 A ship sinking game.
@@ -45,17 +45,15 @@ A ship sinking game.
 * /usr/share/doc/HTML/pt/knavalbattle/index.docbook
 * /usr/share/doc/HTML/pt_BR/knavalbattle/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/knavalbattle/index.docbook
-* /usr/share/doc/HTML/ru/knavalbattle/index.cache.bz2
-* /usr/share/doc/HTML/ru/knavalbattle/index.docbook
 * /usr/share/doc/HTML/sv/knavalbattle/index.cache.bz2
 * /usr/share/doc/HTML/sv/knavalbattle/index.docbook
 * /usr/share/doc/HTML/uk/knavalbattle/gameboard.png
 * /usr/share/doc/HTML/uk/knavalbattle/index.cache.bz2
 * /usr/share/doc/HTML/uk/knavalbattle/index.docbook
-* /usr/share/doc/knavalbattle-23.08.5/AUTHORS
-* /usr/share/doc/knavalbattle-23.08.5/COPYING.DOC
-* /usr/share/doc/knavalbattle-23.08.5/README.md
-* /usr/share/doc/knavalbattle-23.08.5/README.PACKAGERS
+* /usr/share/doc/knavalbattle-24.02.1/AUTHORS
+* /usr/share/doc/knavalbattle-24.02.1/COPYING.DOC
+* /usr/share/doc/knavalbattle-24.02.1/README.md
+* /usr/share/doc/knavalbattle-24.02.1/README.PACKAGERS
 * /usr/share/icons/hicolor/128x128/apps/knavalbattle.png
 * /usr/share/icons/hicolor/16x16/apps/knavalbattle.png
 * /usr/share/icons/hicolor/22x22/apps/knavalbattle.png
@@ -70,6 +68,7 @@ A ship sinking game.
 * /usr/share/knavalbattle/sounds/ship-sink.ogg
 * /usr/share/locale/af/LC_MESSAGES/knavalbattle.mo
 * /usr/share/locale/ar/LC_MESSAGES/knavalbattle.mo
+* /usr/share/locale/ast/LC_MESSAGES/knavalbattle.mo
 * /usr/share/locale/be/LC_MESSAGES/knavalbattle.mo
 * /usr/share/locale/bg/LC_MESSAGES/knavalbattle.mo
 * /usr/share/locale/bn/LC_MESSAGES/knavalbattle.mo
@@ -98,6 +97,7 @@ A ship sinking game.
 * /usr/share/locale/hne/LC_MESSAGES/knavalbattle.mo
 * /usr/share/locale/hr/LC_MESSAGES/knavalbattle.mo
 * /usr/share/locale/hu/LC_MESSAGES/knavalbattle.mo
+* /usr/share/locale/ia/LC_MESSAGES/knavalbattle.mo
 * /usr/share/locale/id/LC_MESSAGES/knavalbattle.mo
 * /usr/share/locale/is/LC_MESSAGES/knavalbattle.mo
 * /usr/share/locale/it/LC_MESSAGES/knavalbattle.mo
@@ -144,4 +144,4 @@ A ship sinking game.
 * /usr/share/locale/zh_CN/LC_MESSAGES/knavalbattle.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/knavalbattle.mo
 * /usr/share/metainfo/org.kde.knavalbattle.appdata.xml
-* /usr/share/qlogging-categories5/knavalbattle.categories
+* /usr/share/qlogging-categories6/knavalbattle.categories

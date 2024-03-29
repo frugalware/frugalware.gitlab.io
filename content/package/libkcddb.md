@@ -1,58 +1,47 @@
 +++
 draft = false
-title = "libkcddb 23.08.5-1"
-version = "23.08.5-1"
+title = "libkcddb 24.02.1-3"
+version = "24.02.1-3"
 description = "A library for retrieving and sending cddb information."
-date = "2024-02-19T20:47:52"
+date = "2024-03-27T09:54:15"
 aliases = "/packages/74490"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "511144"
-usize = "1503845"
-sha1sum = "385fb6d91c3f9ba822dbf5ddd0d8d92bb870ed3f"
-depends = "['kcmutils>=5.115.0', 'kio>=5.115.0', 'libmusicbrainz>=5.1.0-3']"
+size = "514456"
+usize = "1518844"
+sha1sum = "a31b9836766345642024741a331c843b57e06216"
+depends = "['kcmutils>=6.0.0', 'kio>=6.0.0', 'libmusicbrainz>=5.1.0-3']"
 reverse_depends = "['audiocd-kio']"
 +++
 ### Description: 
 A library for retrieving and sending cddb information.
 
 ### Files: 
-* /usr/include/KCddb5/KCDDB/Categories
-* /usr/include/KCddb5/kcddb/categories.h
-* /usr/include/KCddb5/KCDDB/CDInfo
-* /usr/include/KCddb5/kcddb/cdinfo.h
-* /usr/include/KCddb5/KCDDB/Client
-* /usr/include/KCddb5/kcddb/client.h
-* /usr/include/KCddb5/KCDDB/Config
-* /usr/include/KCddb5/kcddb/config.h
-* /usr/include/KCddb5/kcddb/configbase.h
-* /usr/include/KCddb5/KCDDB/Genres
-* /usr/include/KCddb5/kcddb/genres.h
-* /usr/include/KCddb5/KCDDB/KCDDB
-* /usr/include/KCddb5/kcddb/kcddb.h
-* /usr/include/KCddb5/kcddb/kcddb_export.h
-* /usr/include/KCddb5/kcddb_version.h
-* /usr/include/KF5/KCddb/Categories
-* /usr/include/KF5/KCddb/categories.h
-* /usr/include/KF5/KCddb/Cdinfo
-* /usr/include/KF5/KCddb/cdinfo.h
-* /usr/include/KF5/KCddb/Client
-* /usr/include/KF5/KCddb/client.h
-* /usr/include/KF5/KCddb/Genres
-* /usr/include/KF5/KCddb/genres.h
-* /usr/include/KF5/KCddb/Kcddb
-* /usr/include/KF5/KCddb/kcddb.h
-* /usr/include/KF5/KCddb/KcddbConfig
-* /usr/include/KF5/KCddb/kcddbconfig.h
-* /usr/lib/cmake/KF5Cddb/KF5CddbConfig.cmake
-* /usr/lib/cmake/KF5Cddb/KF5CddbConfigVersion.cmake
-* /usr/lib/cmake/KF5Cddb/KF5CddbTargets-release.cmake
-* /usr/lib/cmake/KF5Cddb/KF5CddbTargets.cmake
-* /usr/lib/libKF5Cddb.so
-* /usr/lib/libKF5Cddb.so.5
-* /usr/lib/libKF5Cddb.so.5.1.0
-* /usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/kcm_cddb.so
+* /usr/include/KCddb6/KCDDB/Categories
+* /usr/include/KCddb6/kcddb/categories.h
+* /usr/include/KCddb6/KCDDB/CDInfo
+* /usr/include/KCddb6/kcddb/cdinfo.h
+* /usr/include/KCddb6/KCDDB/Client
+* /usr/include/KCddb6/kcddb/client.h
+* /usr/include/KCddb6/KCDDB/Config
+* /usr/include/KCddb6/kcddb/config.h
+* /usr/include/KCddb6/kcddb/configbase.h
+* /usr/include/KCddb6/KCDDB/Genres
+* /usr/include/KCddb6/kcddb/genres.h
+* /usr/include/KCddb6/KCDDB/KCDDB
+* /usr/include/KCddb6/kcddb/kcddb.h
+* /usr/include/KCddb6/kcddb/kcddb_export.h
+* /usr/include/KCddb6/kcddb_version.h
+* /usr/lib/cmake/KCddb6/KCddb6Config.cmake
+* /usr/lib/cmake/KCddb6/KCddb6ConfigVersion.cmake
+* /usr/lib/cmake/KCddb6/KCddb6Targets-release.cmake
+* /usr/lib/cmake/KCddb6/KCddb6Targets.cmake
+* /usr/lib/libKCddb6.so
+* /usr/lib/libKCddb6.so.5
+* /usr/lib/libKCddb6.so.5.1.0
+* /usr/lib/qt6/mkspecs/modules/qt_KCddb.pri
+* /usr/lib/qt6/plugins/plasma/kcms/systemsettings_qwidgets/kcm_cddb.so
 * /usr/share/applications/kcm_cddb.desktop
 * /usr/share/config.kcfg/libkcddb5.kcfg
 * /usr/share/doc/HTML/ca/kcontrol/cddbretrieval5/index.cache.bz2
@@ -90,7 +79,7 @@ A library for retrieving and sending cddb information.
 * /usr/share/doc/HTML/sv/kcontrol/cddbretrieval5/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/cddbretrieval5/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/cddbretrieval5/index.docbook
-* /usr/share/doc/libkcddb-23.08.5/TODO
+* /usr/share/doc/libkcddb-24.02.1/TODO
 * /usr/share/locale/ar/LC_MESSAGES/kcmcddb.mo
 * /usr/share/locale/ar/LC_MESSAGES/libkcddb.mo
 * /usr/share/locale/be/LC_MESSAGES/kcmcddb.mo
@@ -231,5 +220,4 @@ A library for retrieving and sending cddb information.
 * /usr/share/locale/zh_HK/LC_MESSAGES/kcmcddb.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcmcddb.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libkcddb.mo
-* /usr/share/qlogging-categories5/libkcddb.categories
-* /usr/share/qt5/mkspecs/modules/qt_KCddb.pri
+* /usr/share/qlogging-categories6/libkcddb.categories

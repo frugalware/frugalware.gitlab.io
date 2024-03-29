@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "parley 23.08.5-1"
-version = "23.08.5-1"
+title = "parley 24.02.1-3"
+version = "24.02.1-3"
 description = "Vocabulary Trainer."
-date = "2024-02-19T23:09:15"
+date = "2024-03-27T11:33:20"
 aliases = "/packages/152839"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7692668"
-usize = "12534384"
-sha1sum = "a5a5276280d85467402515a105571b42174600e1"
-depends = "['kcmutils>=5.115.0', 'knewstuff>=5.115.0', 'kross>=5.115.0', 'libkeduvocdocument>=23.08.5', 'qt5-multimedia>=5.15.12', 'qt5-webengine>=5.15.12']"
+size = "7739884"
+usize = "12444483"
+sha1sum = "52c078fce215d299b56b8ddc0d1c4b987c68033d"
+depends = "['kcmutils>=6.0.0', 'knewstuff>=6.0.0', 'libkeduvocdocument>=24.02.1', 'qt6-multimedia>=6.6.3', 'qt6-webengine>=6.6.3']"
 +++
 ### Description: 
 Vocabulary Trainer.
@@ -190,9 +190,9 @@ Vocabulary Trainer.
 * /usr/share/doc/HTML/sv/parley/index.docbook
 * /usr/share/doc/HTML/uk/parley/index.cache.bz2
 * /usr/share/doc/HTML/uk/parley/index.docbook
-* /usr/share/doc/parley-23.08.5/AUTHORS
-* /usr/share/doc/parley-23.08.5/README.md
-* /usr/share/doc/parley-23.08.5/TODO
+* /usr/share/doc/parley-24.02.1/AUTHORS
+* /usr/share/doc/parley-24.02.1/README.md
+* /usr/share/doc/parley-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/parley.png
 * /usr/share/icons/hicolor/16x16/apps/parley.png
 * /usr/share/icons/hicolor/32x32/apps/parley.png
@@ -271,18 +271,6 @@ Vocabulary Trainer.
 * /usr/share/icons/oxygen/scalable/actions/specific-setup.svgz
 * /usr/share/knsrcfiles/parley-themes.knsrc
 * /usr/share/knsrcfiles/parley.knsrc
-* /usr/share/kxmlgui5/parley/dashboardui.rc
-* /usr/share/kxmlgui5/parley/editorui.rc
-* /usr/share/kxmlgui5/parley/parleyui.rc
-* /usr/share/kxmlgui5/parley/practicesummaryui.rc
-* /usr/share/kxmlgui5/parley/practiceui.rc
-* /usr/share/kxmlgui5/parley/statisticsui.rc
-* /usr/share/kxmlgui5/parley/themes/bees_theme.desktop
-* /usr/share/kxmlgui5/parley/themes/bees_theme.svgz
-* /usr/share/kxmlgui5/parley/themes/bees_theme_preview.jpg
-* /usr/share/kxmlgui5/parley/themes/theme_reference.desktop
-* /usr/share/kxmlgui5/parley/themes/theme_reference.svgz
-* /usr/share/kxmlgui5/parley/themes/theme_reference_preview.jpg
 * /usr/share/locale/af/LC_MESSAGES/parley.mo
 * /usr/share/locale/ar/LC_MESSAGES/parley.mo
 * /usr/share/locale/be/LC_MESSAGES/parley.mo

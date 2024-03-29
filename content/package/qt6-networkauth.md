@@ -12,7 +12,7 @@ size = "71516"
 usize = "310786"
 sha1sum = "ecef86a25956265f027c1eb08f4327297cf54833"
 depends = "['qt6-base']"
-reverse_depends = "['digikam', 'kdenlive']"
+reverse_depends = "['digikam', 'kdenlive', 'kdepim-runtime']"
 +++
 ### Description: 
 The Qt6 toolkit, qtnetworkauth

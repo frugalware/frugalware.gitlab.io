@@ -12,7 +12,7 @@ size = "238764"
 usize = "1639413"
 sha1sum = "8350cd4e3d11468c8e4169576580cc0af5d671e4"
 depends = "['knotifications5>=5.115.0', 'libgpgmepp>=1.10.0', 'qca']"
-reverse_depends = "['falkon-kde', 'kio5', 'kopete', 'krdc', 'krfb', 'ksshaskpass5', 'libkgapi', 'remmina-kwallet', 'signon-kwallet-extension']"
+reverse_depends = "['kio5', 'kopete', 'krdc', 'ksshaskpass5', 'libksane5', 'remmina-kwallet']"
 +++
 ### Description: 
 Safe desktop-wide storage for passwords.

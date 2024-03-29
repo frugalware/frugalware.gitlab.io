@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kanagram 23.08.5-1"
-version = "23.08.5-1"
+title = "kanagram 24.02.1-3"
+version = "24.02.1-3"
 description = "Letter Order Game."
-date = "2024-02-19T23:02:29"
+date = "2024-03-27T11:30:27"
 aliases = "/packages/152826"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7273632"
-usize = "8388931"
-sha1sum = "fab552695fbe2e73e25eeb730befca03b9624721"
-depends = "['kdeclarative>=5.115.0', 'knewstuff>=5.115.0', 'libkeduvocdocument>=23.08.5', 'qt5-declarative>=5.15.12', 'qt5-svg>=5.15.12']"
+size = "7280208"
+usize = "8414339"
+sha1sum = "6e17a74ee203f3c5cb754ec7e3fc5e4c9006d0a8"
+depends = "['kdeclarative>=6.0.0', 'knewstuff>=6.0.0', 'libkeduvocdocument>=24.02.1', 'qt6-declarative>=6.6.3', 'qt6-svg>=6.6.3']"
 +++
 ### Description: 
 Letter Order Game.
@@ -106,10 +106,10 @@ Letter Order Game.
 * /usr/share/doc/HTML/uk/kanagram/newstuff-dialog.png
 * /usr/share/doc/HTML/uk/kanagram/vocab-editor.png
 * /usr/share/doc/HTML/uk/kanagram/vocab-settings.png
-* /usr/share/doc/kanagram-23.08.5/ChangeLog
-* /usr/share/doc/kanagram-23.08.5/COPYING
-* /usr/share/doc/kanagram-23.08.5/COPYING.DOC
-* /usr/share/doc/kanagram-23.08.5/TODO
+* /usr/share/doc/kanagram-24.02.1/ChangeLog
+* /usr/share/doc/kanagram-24.02.1/COPYING
+* /usr/share/doc/kanagram-24.02.1/COPYING.DOC
+* /usr/share/doc/kanagram-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kanagram.png
 * /usr/share/icons/hicolor/16x16/apps/kanagram.png
 * /usr/share/icons/hicolor/24x24/apps/kanagram.png
@@ -148,6 +148,7 @@ Letter Order Game.
 * /usr/share/kanagram/ui/sounds/wrong.wav
 * /usr/share/knsrcfiles/kanagram.knsrc
 * /usr/share/locale/ar/LC_MESSAGES/kanagram.mo
+* /usr/share/locale/ast/LC_MESSAGES/kanagram.mo
 * /usr/share/locale/be/LC_MESSAGES/kanagram.mo
 * /usr/share/locale/bg/LC_MESSAGES/kanagram.mo
 * /usr/share/locale/bn/LC_MESSAGES/kanagram.mo
@@ -176,6 +177,7 @@ Letter Order Game.
 * /usr/share/locale/hne/LC_MESSAGES/kanagram.mo
 * /usr/share/locale/hr/LC_MESSAGES/kanagram.mo
 * /usr/share/locale/hu/LC_MESSAGES/kanagram.mo
+* /usr/share/locale/ia/LC_MESSAGES/kanagram.mo
 * /usr/share/locale/id/LC_MESSAGES/kanagram.mo
 * /usr/share/locale/it/LC_MESSAGES/kanagram.mo
 * /usr/share/locale/ja/LC_MESSAGES/kanagram.mo

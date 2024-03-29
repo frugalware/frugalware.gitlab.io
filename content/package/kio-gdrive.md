@@ -1,26 +1,26 @@
 +++
 draft = false
-title = "kio-gdrive 23.08.5-1"
-version = "23.08.5-1"
+title = "kio-gdrive 24.02.1-3"
+version = "24.02.1-3"
 description = "KIO Slave to access Google Drive"
-date = "2024-02-20T10:06:40"
+date = "2024-03-27T12:55:52"
 aliases = "/packages/219163"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "124024"
-usize = "410638"
-sha1sum = "e197d8ada4b7ba86a8377de0f515df3621b48c36"
-depends = "['dolphin>=23.08.5', 'ki18n>=5.115.0', 'kio>=5.115.0', 'libkgapi>=23.08.5', 'qtkeychain']"
+size = "133808"
+usize = "434557"
+sha1sum = "a2193d0355cd9b834c80d957289784c6e746c7fd"
+depends = "['dolphin>=24.02.1', 'ki18n>=6.0.0', 'kio>=6.0.0', 'libkgapi>=24.02.1', 'qtkeychain']"
 license = "GPL"
 +++
 ### Description: 
 KIO Slave to access Google Drive
 
 ### Files: 
-* /usr/lib/qt5/plugins/kf5/kfileitemaction/gdrivecontextmenuaction.so
-* /usr/lib/qt5/plugins/kf5/kio/gdrive.so
-* /usr/lib/qt5/plugins/kf5/propertiesdialog/gdrivepropertiesplugin.so
+* /usr/lib/qt6/plugins/kf6/kfileitemaction/gdrivecontextmenuaction.so
+* /usr/lib/qt6/plugins/kf6/kio/gdrive.so
+* /usr/lib/qt6/plugins/kf6/propertiesdialog/gdrivepropertiesplugin.so
 * /usr/share/doc/HTML/ca/kioslave5/gdrive/index.cache.bz2
 * /usr/share/doc/HTML/ca/kioslave5/gdrive/index.docbook
 * /usr/share/doc/HTML/de/kioslave5/gdrive/index.cache.bz2
@@ -49,11 +49,11 @@ KIO Slave to access Google Drive
 * /usr/share/doc/HTML/tr/kioslave5/gdrive/index.docbook
 * /usr/share/doc/HTML/uk/kioslave5/gdrive/index.cache.bz2
 * /usr/share/doc/HTML/uk/kioslave5/gdrive/index.docbook
-* /usr/share/doc/kio-gdrive-23.08.5/COPYING
-* /usr/share/doc/kio-gdrive-23.08.5/COPYING.GPL3
-* /usr/share/doc/kio-gdrive-23.08.5/HACKING
-* /usr/share/doc/kio-gdrive-23.08.5/README.md
-* /usr/share/doc/kio-gdrive-23.08.5/README.packagers
+* /usr/share/doc/kio-gdrive-24.02.1/COPYING
+* /usr/share/doc/kio-gdrive-24.02.1/COPYING.GPL3
+* /usr/share/doc/kio-gdrive-24.02.1/HACKING
+* /usr/share/doc/kio-gdrive-24.02.1/README.md
+* /usr/share/doc/kio-gdrive-24.02.1/README.packagers
 * /usr/share/locale/ar/LC_MESSAGES/kio5_gdrive.mo
 * /usr/share/locale/az/LC_MESSAGES/kio5_gdrive.mo
 * /usr/share/locale/be/LC_MESSAGES/kio5_gdrive.mo

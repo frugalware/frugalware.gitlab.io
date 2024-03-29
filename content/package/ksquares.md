@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ksquares 23.08.5-1"
-version = "23.08.5-1"
+title = "ksquares 24.02.1-3"
+version = "24.02.1-3"
 description = "A game modeled after the well known pen and paper based game of Dots and Boxes."
-date = "2024-02-19T22:54:21"
+date = "2024-03-27T11:23:59"
 aliases = "/packages/184201"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "380280"
-usize = "973303"
-sha1sum = "0437c1d862e20eb8a7d11c1ab8a32388a967cea8"
-depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5']"
+size = "389260"
+usize = "1018598"
+sha1sum = "22dab62b6530908e525581dc28950345f991c5cd"
+depends = "['knotifyconfig>=6.0.0', 'libkdegames>=24.02.1']"
 +++
 ### Description: 
 A game modeled after the well known pen and paper based game of Dots and Boxes.
@@ -55,8 +55,8 @@ A game modeled after the well known pen and paper based game of Dots and Boxes.
 * /usr/share/doc/HTML/uk/ksquares/index.cache.bz2
 * /usr/share/doc/HTML/uk/ksquares/index.docbook
 * /usr/share/doc/HTML/uk/ksquares/newgame.png
-* /usr/share/doc/ksquares-23.08.5/README
-* /usr/share/doc/ksquares-23.08.5/TODO
+* /usr/share/doc/ksquares-24.02.1/README
+* /usr/share/doc/ksquares-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/ksquares.png
 * /usr/share/icons/hicolor/16x16/apps/ksquares.png
 * /usr/share/icons/hicolor/22x22/apps/ksquares.png
@@ -64,6 +64,7 @@ A game modeled after the well known pen and paper based game of Dots and Boxes.
 * /usr/share/icons/hicolor/48x48/apps/ksquares.png
 * /usr/share/icons/hicolor/64x64/apps/ksquares.png
 * /usr/share/locale/ar/LC_MESSAGES/ksquares.mo
+* /usr/share/locale/ast/LC_MESSAGES/ksquares.mo
 * /usr/share/locale/be/LC_MESSAGES/ksquares.mo
 * /usr/share/locale/bg/LC_MESSAGES/ksquares.mo
 * /usr/share/locale/bs/LC_MESSAGES/ksquares.mo
@@ -86,6 +87,7 @@ A game modeled after the well known pen and paper based game of Dots and Boxes.
 * /usr/share/locale/hne/LC_MESSAGES/ksquares.mo
 * /usr/share/locale/hr/LC_MESSAGES/ksquares.mo
 * /usr/share/locale/hu/LC_MESSAGES/ksquares.mo
+* /usr/share/locale/ia/LC_MESSAGES/ksquares.mo
 * /usr/share/locale/is/LC_MESSAGES/ksquares.mo
 * /usr/share/locale/it/LC_MESSAGES/ksquares.mo
 * /usr/share/locale/ja/LC_MESSAGES/ksquares.mo

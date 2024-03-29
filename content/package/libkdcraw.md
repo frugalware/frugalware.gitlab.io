@@ -1,41 +1,41 @@
 +++
 draft = false
-title = "libkdcraw 23.08.5-1"
-version = "23.08.5-1"
+title = "libkdcraw 24.02.1-3"
+version = "24.02.1-3"
 description = "KDE Paint Program."
-date = "2024-02-19T22:17:05"
+date = "2024-03-27T10:48:40"
 aliases = "/packages/74204"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "44360"
-usize = "137324"
-sha1sum = "117a17b723c0860aaa2d51696eb9025fecf4ae2f"
-depends = "['libraw>=0.21.1', 'qt5-base>=5.15.12']"
+size = "39636"
+usize = "136863"
+sha1sum = "25390178dea7e6653ff3c8a27512c31c2501f6f6"
+depends = "['libraw>=0.21.1', 'qt6-base>=6.6.3']"
 reverse_depends = "['gwenview', 'kdegraphics-thumbnailers', 'krita']"
 +++
 ### Description: 
 KDE Paint Program.
 
 ### Files: 
-* /usr/include/KF5/KDCRAW/KDCRAW/DcrawInfoContainer
-* /usr/include/KF5/KDCRAW/kdcraw/dcrawinfocontainer.h
-* /usr/include/KF5/KDCRAW/KDCRAW/KDcraw
-* /usr/include/KF5/KDCRAW/kdcraw/kdcraw.h
-* /usr/include/KF5/KDCRAW/kdcraw/libkdcraw_export.h
-* /usr/include/KF5/KDCRAW/KDCRAW/RawDecodingSettings
-* /usr/include/KF5/KDCRAW/kdcraw/rawdecodingsettings.h
-* /usr/include/KF5/KDCRAW/KDCRAW/RawFiles
-* /usr/include/KF5/KDCRAW/kdcraw/rawfiles.h
-* /usr/include/KF5/KDCRAW/libkdcraw_version.h
-* /usr/lib/cmake/KF5KDcraw/KF5KDcrawConfig.cmake
-* /usr/lib/cmake/KF5KDcraw/KF5KDcrawConfigVersion.cmake
-* /usr/lib/cmake/KF5KDcraw/KF5KDcrawTargets-release.cmake
-* /usr/lib/cmake/KF5KDcraw/KF5KDcrawTargets.cmake
-* /usr/lib/libKF5KDcraw.so
-* /usr/lib/libKF5KDcraw.so.5
-* /usr/lib/libKF5KDcraw.so.5.0.0
-* /usr/share/doc/libkdcraw-23.08.5/AUTHORS
-* /usr/share/doc/libkdcraw-23.08.5/README
-* /usr/share/doc/libkdcraw-23.08.5/TODO
-* /usr/share/qlogging-categories5/libkdcraw.categories
+* /usr/include/KDcrawQt6/KDCRAW/DcrawInfoContainer
+* /usr/include/KDcrawQt6/kdcraw/dcrawinfocontainer.h
+* /usr/include/KDcrawQt6/KDCRAW/KDcraw
+* /usr/include/KDcrawQt6/kdcraw/kdcraw.h
+* /usr/include/KDcrawQt6/kdcraw/libkdcraw_export.h
+* /usr/include/KDcrawQt6/KDCRAW/RawDecodingSettings
+* /usr/include/KDcrawQt6/kdcraw/rawdecodingsettings.h
+* /usr/include/KDcrawQt6/KDCRAW/RawFiles
+* /usr/include/KDcrawQt6/kdcraw/rawfiles.h
+* /usr/include/KDcrawQt6/libkdcraw_version.h
+* /usr/lib/cmake/KDcrawQt6/KDcrawQt6Config.cmake
+* /usr/lib/cmake/KDcrawQt6/KDcrawQt6ConfigVersion.cmake
+* /usr/lib/cmake/KDcrawQt6/KDcrawQt6Targets-release.cmake
+* /usr/lib/cmake/KDcrawQt6/KDcrawQt6Targets.cmake
+* /usr/lib/libKDcrawQt6.so
+* /usr/lib/libKDcrawQt6.so.5
+* /usr/lib/libKDcrawQt6.so.5.0.0
+* /usr/share/doc/libkdcraw-24.02.1/AUTHORS
+* /usr/share/doc/libkdcraw-24.02.1/README
+* /usr/share/doc/libkdcraw-24.02.1/TODO
+* /usr/share/qlogging-categories6/libkdcraw.categories

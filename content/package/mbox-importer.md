@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mbox-importer 23.08.5-1"
-version = "23.08.5-1"
+title = "mbox-importer 24.02.1-3"
+version = "24.02.1-3"
 description = "Wizard to assist with importing MBox email archives into Akonadi"
-date = "2024-02-20T09:31:30"
+date = "2024-03-27T12:25:11"
 aliases = "/packages/218940"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "30692"
-usize = "123372"
-sha1sum = "dab9d9476237ffa9e05c7f61c2e6ec87b14ec297"
-depends = "['mailcommon>=23.08.5']"
+size = "28332"
+usize = "128050"
+sha1sum = "3eba2c025824693d5e8f67a7c5af748a7155f418"
+depends = "['mailcommon>=24.02.1']"
 reverse_depends = "['kmail']"
 +++
 ### Description: 
@@ -21,6 +21,7 @@ Wizard to assist with importing MBox email archives into Akonadi
 * /usr/bin/mboximporter
 * /usr/share/applications/org.kde.mboximporter.desktop
 * /usr/share/locale/ar/LC_MESSAGES/mboximporter.mo
+* /usr/share/locale/ast/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/bg/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/bs/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/ca/LC_MESSAGES/mboximporter.mo
@@ -30,6 +31,7 @@ Wizard to assist with importing MBox email archives into Akonadi
 * /usr/share/locale/de/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/el/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/mboximporter.mo
+* /usr/share/locale/eo/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/es/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/et/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/eu/LC_MESSAGES/mboximporter.mo
@@ -54,6 +56,7 @@ Wizard to assist with importing MBox email archives into Akonadi
 * /usr/share/locale/pt_BR/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/ro/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/ru/LC_MESSAGES/mboximporter.mo
+* /usr/share/locale/sa/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/sk/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/sl/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/sr/LC_MESSAGES/mboximporter.mo

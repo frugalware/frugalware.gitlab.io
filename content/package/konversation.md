@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "konversation 23.08.5-1"
-version = "23.08.5-1"
+title = "konversation 24.02.1-3"
+version = "24.02.1-3"
 description = "IRC clinet for KDE5"
-date = "2024-02-20T14:19:39"
+date = "2024-03-27T13:47:47"
 aliases = "/packages/218844"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4925604"
-usize = "16550372"
-sha1sum = "0a39582a092269252d1030e9e7a79d4910b64b02"
-depends = "['kemoticons>=5.115.0', 'kidletime>=5.115.0', 'knewstuff>=5.115.0', 'knotifyconfig>=5.115.0', 'kparts>=5.115.0', 'phonon-qt5', 'qca', 'qt5-multimedia>=5.15.12']"
+size = "4862644"
+usize = "16203031"
+sha1sum = "fb9405b126c1f9411e2a422020443998392687d3"
+depends = "['kidletime>=6.0.0', 'knewstuff>=6.0.0', 'knotifyconfig>=6.0.0', 'kparts>=6.0.0', 'phonon-qt6', 'qca', 'qt6-multimedia>=6.6.3']"
 +++
 ### Description: 
 IRC clinet for KDE5
@@ -22,8 +22,6 @@ IRC clinet for KDE5
 * /usr/share/dbus-1/services/org.kde.konversation.service
 * /usr/share/doc/HTML/ca/konversation/index.cache.bz2
 * /usr/share/doc/HTML/ca/konversation/index.docbook
-* /usr/share/doc/HTML/de/konversation/index.cache.bz2
-* /usr/share/doc/HTML/de/konversation/index.docbook
 * /usr/share/doc/HTML/en/konversation/addchannel.png
 * /usr/share/doc/HTML/en/konversation/addnetwork_co.png
 * /usr/share/doc/HTML/en/konversation/addserver_co.png
@@ -103,12 +101,6 @@ IRC clinet for KDE5
 * /usr/share/doc/HTML/it/konversation/webbrowser_screen_co.png
 * /usr/share/doc/HTML/nl/konversation/index.cache.bz2
 * /usr/share/doc/HTML/nl/konversation/index.docbook
-* /usr/share/doc/HTML/pt/konversation/index.cache.bz2
-* /usr/share/doc/HTML/pt/konversation/index.docbook
-* /usr/share/doc/HTML/pt_BR/konversation/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/konversation/index.docbook
-* /usr/share/doc/HTML/ru/konversation/index.cache.bz2
-* /usr/share/doc/HTML/ru/konversation/index.docbook
 * /usr/share/doc/HTML/sv/konversation/addchannel.png
 * /usr/share/doc/HTML/sv/konversation/addnetwork_co.png
 * /usr/share/doc/HTML/sv/konversation/addserver_co.png
@@ -141,11 +133,11 @@ IRC clinet for KDE5
 * /usr/share/doc/HTML/sv/konversation/webbrowser_screen_co.png
 * /usr/share/doc/HTML/uk/konversation/index.cache.bz2
 * /usr/share/doc/HTML/uk/konversation/index.docbook
-* /usr/share/doc/konversation-23.08.5/AUTHORS
-* /usr/share/doc/konversation-23.08.5/ChangeLog
-* /usr/share/doc/konversation-23.08.5/INSTALL
-* /usr/share/doc/konversation-23.08.5/NEWS
-* /usr/share/doc/konversation-23.08.5/README
+* /usr/share/doc/konversation-24.02.1/AUTHORS
+* /usr/share/doc/konversation-24.02.1/ChangeLog
+* /usr/share/doc/konversation-24.02.1/INSTALL
+* /usr/share/doc/konversation-24.02.1/NEWS
+* /usr/share/doc/konversation-24.02.1/README
 * /usr/share/icons/hicolor/128x128/actions/konv_message.png
 * /usr/share/icons/hicolor/128x128/apps/konversation.png
 * /usr/share/icons/hicolor/16x16/actions/konv_message.png
@@ -158,17 +150,7 @@ IRC clinet for KDE5
 * /usr/share/icons/hicolor/48x48/apps/konversation.png
 * /usr/share/icons/hicolor/64x64/actions/konv_message.png
 * /usr/share/icons/hicolor/64x64/apps/konversation.png
-* /usr/share/kconf_update/konversation-0.19-appearance.pl
-* /usr/share/kconf_update/konversation-0.19-colorcodes.pl
-* /usr/share/kconf_update/konversation-0.19-colors.pl
-* /usr/share/kconf_update/konversation-0.19-custombrowser.pl
-* /usr/share/kconf_update/konversation-0.19-notifylists.pl
-* /usr/share/kconf_update/konversation-0.19-sortorder.pl
-* /usr/share/kconf_update/konversation-0.19-tabplacement.pl
-* /usr/share/kconf_update/konversation-0.20-customfonts.pl
-* /usr/share/kconf_update/konversation-0.20-quickbuttons.pl
-* /usr/share/kconf_update/konversation.upd
-* /usr/share/knotifications5/konversation.notifyrc
+* /usr/share/knotifications6/konversation.notifyrc
 * /usr/share/knsrcfiles/konversation_nicklist_theme.knsrc
 * /usr/share/konversation/scripting_support/python/konversation/dbus.py
 * /usr/share/konversation/scripting_support/python/konversation/i18n.py
@@ -321,4 +303,4 @@ IRC clinet for KDE5
 * /usr/share/locale/zh_CN/LC_MESSAGES/konversation.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/konversation.mo
 * /usr/share/metainfo/org.kde.konversation.appdata.xml
-* /usr/share/qlogging-categories5/konversation.categories
+* /usr/share/qlogging-categories6/konversation.categories

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "knotes 23.08.5-1"
-version = "23.08.5-1"
+title = "knotes 24.02.1-3"
+version = "24.02.1-3"
 description = "KDE Popup Notes."
-date = "2024-02-20T09:46:19"
+date = "2024-03-27T12:37:58"
 aliases = "/packages/218936"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "624608"
-usize = "2760509"
-sha1sum = "30d31a6b76a29dc461a9cc57e447814c83f66d48"
-depends = "['akonadi-notes>=23.08.5', 'grantleetheme>=23.08.5', 'kcalutils>=23.08.5', 'kdnssd>=5.115.0', 'knotifyconfig>=5.115.0', 'kontactinterface>=23.08.5', 'pimcommon>=23.08.5']"
+size = "659536"
+usize = "2890589"
+sha1sum = "799fd94aee271e4fc3c94632d1552ed05d83d3cf"
+depends = "['akonadi-notes>=24.02.1', 'grantleetheme>=24.02.1', 'kcalutils>=24.02.1', 'kdnssd>=6.0.0', 'knotifyconfig>=6.0.0', 'kontactinterface>=24.02.1', 'pimcommon>=24.02.1']"
 +++
 ### Description: 
 KDE Popup Notes.
@@ -19,19 +19,19 @@ KDE Popup Notes.
 ### Files: 
 * /usr/bin/akonadi_notes_agent
 * /usr/bin/knotes
-* /usr/lib/libknotesprivate.so.5
-* /usr/lib/libknotesprivate.so.5.24.5
-* /usr/lib/libnotesharedprivate.so.5
-* /usr/lib/libnotesharedprivate.so.5.24.5
-* /usr/lib/qt5/plugins/pim5/kcms/knotes/kcm_knote_action.so
-* /usr/lib/qt5/plugins/pim5/kcms/knotes/kcm_knote_collection.so
-* /usr/lib/qt5/plugins/pim5/kcms/knotes/kcm_knote_display.so
-* /usr/lib/qt5/plugins/pim5/kcms/knotes/kcm_knote_editor.so
-* /usr/lib/qt5/plugins/pim5/kcms/knotes/kcm_knote_misc.so
-* /usr/lib/qt5/plugins/pim5/kcms/knotes/kcm_knote_network.so
-* /usr/lib/qt5/plugins/pim5/kcms/knotes/kcm_knote_print.so
-* /usr/lib/qt5/plugins/pim5/kcms/summary/kcmknotessummary.so
-* /usr/lib/qt5/plugins/pim5/kontact/kontact_knotesplugin.so
+* /usr/lib/libknotesprivate.so.6
+* /usr/lib/libknotesprivate.so.6.0.1
+* /usr/lib/libnotesharedprivate.so.6
+* /usr/lib/libnotesharedprivate.so.6.0.1
+* /usr/lib/qt6/plugins/pim6/kcms/knotes/kcm_knote_action.so
+* /usr/lib/qt6/plugins/pim6/kcms/knotes/kcm_knote_collection.so
+* /usr/lib/qt6/plugins/pim6/kcms/knotes/kcm_knote_display.so
+* /usr/lib/qt6/plugins/pim6/kcms/knotes/kcm_knote_editor.so
+* /usr/lib/qt6/plugins/pim6/kcms/knotes/kcm_knote_misc.so
+* /usr/lib/qt6/plugins/pim6/kcms/knotes/kcm_knote_network.so
+* /usr/lib/qt6/plugins/pim6/kcms/knotes/kcm_knote_print.so
+* /usr/lib/qt6/plugins/pim6/kcms/summary/kcmknotessummary.so
+* /usr/lib/qt6/plugins/pim6/kontact/kontact_knotesplugin.so
 * /usr/share/akonadi/agents/notesagent.desktop
 * /usr/share/applications/org.kde.knotes.desktop
 * /usr/share/config.kcfg/knotesglobalconfig.kcfg
@@ -93,10 +93,10 @@ KDE Popup Notes.
 * /usr/share/doc/HTML/uk/akonadi_notes_agent/index.docbook
 * /usr/share/doc/HTML/uk/knotes/index.cache.bz2
 * /usr/share/doc/HTML/uk/knotes/index.docbook
-* /usr/share/doc/knotes-23.08.5/AUTHORS
-* /usr/share/doc/knotes-23.08.5/HACKING
-* /usr/share/doc/knotes-23.08.5/README
-* /usr/share/doc/knotes-23.08.5/TODO
+* /usr/share/doc/knotes-24.02.1/AUTHORS
+* /usr/share/doc/knotes-24.02.1/HACKING
+* /usr/share/doc/knotes-24.02.1/README
+* /usr/share/doc/knotes-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/knotes.png
 * /usr/share/icons/hicolor/16x16/actions/knotes_alarm.png
 * /usr/share/icons/hicolor/16x16/actions/knotes_close.png
@@ -114,7 +114,7 @@ KDE Popup Notes.
 * /usr/share/knotes/print/themes/big-title/theme.html
 * /usr/share/knotes/print/themes/default/theme.desktop
 * /usr/share/knotes/print/themes/default/theme.html
-* /usr/share/knotifications5/akonadi_notes_agent.notifyrc
+* /usr/share/knotifications6/akonadi_notes_agent.notifyrc
 * /usr/share/knsrcfiles/knotes_printing_theme.knsrc
 * /usr/share/kxmlgui5/knotes/knotesappui.rc
 * /usr/share/kxmlgui5/knotes/knotesui.rc
@@ -123,6 +123,9 @@ KDE Popup Notes.
 * /usr/share/locale/ar/LC_MESSAGES/akonadi_notes_agent.mo
 * /usr/share/locale/ar/LC_MESSAGES/knotes.mo
 * /usr/share/locale/ar/LC_MESSAGES/libnoteshared.mo
+* /usr/share/locale/ast/LC_MESSAGES/akonadi_notes_agent.mo
+* /usr/share/locale/ast/LC_MESSAGES/knotes.mo
+* /usr/share/locale/ast/LC_MESSAGES/libnoteshared.mo
 * /usr/share/locale/be/LC_MESSAGES/knotes.mo
 * /usr/share/locale/bg/LC_MESSAGES/akonadi_notes_agent.mo
 * /usr/share/locale/bg/LC_MESSAGES/knotes.mo
@@ -177,7 +180,9 @@ KDE Popup Notes.
 * /usr/share/locale/gl/LC_MESSAGES/akonadi_notes_agent.mo
 * /usr/share/locale/gl/LC_MESSAGES/knotes.mo
 * /usr/share/locale/gl/LC_MESSAGES/libnoteshared.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_notes_agent.mo
 * /usr/share/locale/he/LC_MESSAGES/knotes.mo
+* /usr/share/locale/he/LC_MESSAGES/libnoteshared.mo
 * /usr/share/locale/hi/LC_MESSAGES/knotes.mo
 * /usr/share/locale/hne/LC_MESSAGES/knotes.mo
 * /usr/share/locale/hr/LC_MESSAGES/knotes.mo
@@ -278,5 +283,5 @@ KDE Popup Notes.
 * /usr/share/locale/zh_TW/LC_MESSAGES/knotes.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libnoteshared.mo
 * /usr/share/metainfo/org.kde.knotes.appdata.xml
-* /usr/share/qlogging-categories5/knotes.categories
-* /usr/share/qlogging-categories5/knotes.renamecategories
+* /usr/share/qlogging-categories6/knotes.categories
+* /usr/share/qlogging-categories6/knotes.renamecategories

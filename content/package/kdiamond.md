@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdiamond 23.08.5-1"
-version = "23.08.5-1"
+title = "kdiamond 24.02.1-3"
+version = "24.02.1-3"
 description = "A single player puzzle game."
-date = "2024-02-19T22:34:56"
+date = "2024-03-27T11:06:10"
 aliases = "/packages/184179"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4781588"
-usize = "5176970"
-sha1sum = "09244929a0d61c6370719983a04db134b8f0f118"
-depends = "['knotifyconfig>=5.115.0', 'libkdegames>=23.08.5', 'qt5-svg>=5.15.12']"
+size = "4823956"
+usize = "5235134"
+sha1sum = "ff920d7b862cfb90a49fbb0d0d7d4c9b7bcfd9f5"
+depends = "['knotifyconfig>=6.0.0', 'libkdegames>=24.02.1', 'qt6-svg>=6.6.3']"
 +++
 ### Description: 
 A single player puzzle game.
@@ -65,9 +65,10 @@ A single player puzzle game.
 * /usr/share/kdiamond/themes/funny_zoo.desktop
 * /usr/share/kdiamond/themes/funny_zoo.png
 * /usr/share/kdiamond/themes/funny_zoo.svgz
-* /usr/share/knotifications5/kdiamond.notifyrc
+* /usr/share/knotifications6/kdiamond.notifyrc
 * /usr/share/knsrcfiles/kdiamond.knsrc
 * /usr/share/locale/ar/LC_MESSAGES/kdiamond.mo
+* /usr/share/locale/ast/LC_MESSAGES/kdiamond.mo
 * /usr/share/locale/bg/LC_MESSAGES/kdiamond.mo
 * /usr/share/locale/bs/LC_MESSAGES/kdiamond.mo
 * /usr/share/locale/ca/LC_MESSAGES/kdiamond.mo
@@ -90,6 +91,7 @@ A single player puzzle game.
 * /usr/share/locale/hne/LC_MESSAGES/kdiamond.mo
 * /usr/share/locale/hr/LC_MESSAGES/kdiamond.mo
 * /usr/share/locale/hu/LC_MESSAGES/kdiamond.mo
+* /usr/share/locale/ia/LC_MESSAGES/kdiamond.mo
 * /usr/share/locale/id/LC_MESSAGES/kdiamond.mo
 * /usr/share/locale/is/LC_MESSAGES/kdiamond.mo
 * /usr/share/locale/it/LC_MESSAGES/kdiamond.mo

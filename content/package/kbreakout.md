@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kbreakout 23.08.5-1"
-version = "23.08.5-1"
+title = "kbreakout 24.02.1-3"
+version = "24.02.1-3"
 description = "A Breakout-like game."
-date = "2024-02-19T22:33:44"
+date = "2024-03-27T11:05:03"
 aliases = "/packages/184178"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3084664"
-usize = "3649600"
-sha1sum = "3346b17c7db33b5a870809054e525a7c6f8ab5b8"
-depends = "['libkdegames>=23.08.5', 'qt5-svg>=5.15.12']"
+size = "3082220"
+usize = "3651640"
+sha1sum = "f59296869e33edbd5586bd2bd64cf32207047b8e"
+depends = "['libkdegames>=24.02.1', 'qt6-svg>=6.6.3']"
 +++
 ### Description: 
 A Breakout-like game.
@@ -70,7 +70,7 @@ A Breakout-like game.
 * /usr/share/doc/HTML/uk/kbreakout/gameboard.png
 * /usr/share/doc/HTML/uk/kbreakout/index.cache.bz2
 * /usr/share/doc/HTML/uk/kbreakout/index.docbook
-* /usr/share/doc/kbreakout-23.08.5/TODO
+* /usr/share/doc/kbreakout-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kbreakout.png
 * /usr/share/icons/hicolor/16x16/apps/kbreakout.png
 * /usr/share/icons/hicolor/22x22/apps/kbreakout.png
@@ -108,6 +108,7 @@ A Breakout-like game.
 * /usr/share/kbreakout/themes/web20.svgz
 * /usr/share/kbreakout/themes/web20_preview.png
 * /usr/share/locale/ar/LC_MESSAGES/kbreakout.mo
+* /usr/share/locale/ast/LC_MESSAGES/kbreakout.mo
 * /usr/share/locale/bg/LC_MESSAGES/kbreakout.mo
 * /usr/share/locale/bs/LC_MESSAGES/kbreakout.mo
 * /usr/share/locale/ca/LC_MESSAGES/kbreakout.mo
@@ -128,6 +129,7 @@ A Breakout-like game.
 * /usr/share/locale/gu/LC_MESSAGES/kbreakout.mo
 * /usr/share/locale/hr/LC_MESSAGES/kbreakout.mo
 * /usr/share/locale/hu/LC_MESSAGES/kbreakout.mo
+* /usr/share/locale/ia/LC_MESSAGES/kbreakout.mo
 * /usr/share/locale/id/LC_MESSAGES/kbreakout.mo
 * /usr/share/locale/is/LC_MESSAGES/kbreakout.mo
 * /usr/share/locale/it/LC_MESSAGES/kbreakout.mo
@@ -166,4 +168,4 @@ A Breakout-like game.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kbreakout.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kbreakout.mo
 * /usr/share/metainfo/org.kde.kbreakout.appdata.xml
-* /usr/share/qlogging-categories5/kbreakout.categories
+* /usr/share/qlogging-categories6/kbreakout.categories

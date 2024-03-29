@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kapman 23.08.5-1"
-version = "23.08.5-1"
+title = "kapman 24.02.1-3"
+version = "24.02.1-3"
 description = "A clone of the well known game Pac-Man."
-date = "2024-02-19T22:27:36"
+date = "2024-03-27T10:58:50"
 aliases = "/packages/184173"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2542808"
-usize = "3065889"
-sha1sum = "93107f9d30f75340a4b17fc8df900fe438ed7271"
-depends = "['libkdegames>=23.08.5', 'qt5-svg>=5.15.12']"
+size = "2531600"
+usize = "3095236"
+sha1sum = "584fd669c8114e29591daf42dd9f6ad7c8092c4b"
+depends = "['libkdegames>=24.02.1', 'qt6-svg>=6.6.3']"
 +++
 ### Description: 
 A clone of the well known game Pac-Man.
@@ -72,7 +72,6 @@ A clone of the well known game Pac-Man.
 * /usr/share/kapman/themes/matches.desktop
 * /usr/share/kapman/themes/matches.svgz
 * /usr/share/kapman/themes/matches_preview.png
-* /usr/share/kapman/themes/mountain.copyright
 * /usr/share/kapman/themes/mountain.desktop
 * /usr/share/kapman/themes/mountain.svgz
 * /usr/share/kapman/themes/mountain_preview.png
@@ -83,6 +82,7 @@ A clone of the well known game Pac-Man.
 * /usr/share/kapman/themes/retro.svgz
 * /usr/share/kapman/themes/retro_preview.png
 * /usr/share/locale/ar/LC_MESSAGES/kapman.mo
+* /usr/share/locale/ast/LC_MESSAGES/kapman.mo
 * /usr/share/locale/bg/LC_MESSAGES/kapman.mo
 * /usr/share/locale/bs/LC_MESSAGES/kapman.mo
 * /usr/share/locale/ca/LC_MESSAGES/kapman.mo
@@ -104,6 +104,7 @@ A clone of the well known game Pac-Man.
 * /usr/share/locale/hi/LC_MESSAGES/kapman.mo
 * /usr/share/locale/hr/LC_MESSAGES/kapman.mo
 * /usr/share/locale/hu/LC_MESSAGES/kapman.mo
+* /usr/share/locale/ia/LC_MESSAGES/kapman.mo
 * /usr/share/locale/id/LC_MESSAGES/kapman.mo
 * /usr/share/locale/is/LC_MESSAGES/kapman.mo
 * /usr/share/locale/it/LC_MESSAGES/kapman.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "partitionmanager 23.08.5-1"
-version = "23.08.5-1"
+title = "partitionmanager 24.02.1-3"
+version = "24.02.1-3"
 description = "A Kf5 utility that allows you to manage disks, partitions, and file systems."
-date = "2024-02-20T14:16:32"
+date = "2024-03-27T13:44:03"
 aliases = "/packages/118282"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2185916"
-usize = "5684579"
-sha1sum = "d2b41b2e5b454cd276b236028868ffb311fd89cc"
-depends = "['dosfstools', 'e2fsprogs', 'f2fs-tools', 'jfsutils', 'kiconthemes>=5.115.0', 'kio>=5.115.0', 'kpmcore>=4.1.0', 'reiserfsprogs', 'xfsprogs']"
+size = "2228416"
+usize = "6666698"
+sha1sum = "f2c605c300c05582d962bd2fdda585880ad8d3b6"
+depends = "['dosfstools', 'e2fsprogs', 'f2fs-tools', 'jfsutils', 'kiconthemes>=6.0.0', 'kio>=6.0.0', 'kpmcore>=4.1.0', 'reiserfsprogs', 'xfsprogs']"
 +++
 ### Description: 
 A Kf5 utility that allows you to manage disks, partitions, and file systems.
@@ -187,6 +187,37 @@ A Kf5 utility that allows you to manage disks, partitions, and file systems.
 * /usr/share/doc/HTML/sv/partitionmanager/referencemanual.docbook
 * /usr/share/doc/HTML/sv/partitionmanager/resizehowto.docbook
 * /usr/share/doc/HTML/sv/partitionmanager/usermanual.docbook
+* /usr/share/doc/HTML/tr/partitionmanager/copyhowto.docbook
+* /usr/share/doc/HTML/tr/partitionmanager/copy_howto_1.png
+* /usr/share/doc/HTML/tr/partitionmanager/copy_howto_2.png
+* /usr/share/doc/HTML/tr/partitionmanager/credits.docbook
+* /usr/share/doc/HTML/tr/partitionmanager/faq.docbook
+* /usr/share/doc/HTML/tr/partitionmanager/filesystemsupport.png
+* /usr/share/doc/HTML/tr/partitionmanager/glossary.docbook
+* /usr/share/doc/HTML/tr/partitionmanager/index.cache.bz2
+* /usr/share/doc/HTML/tr/partitionmanager/index.docbook
+* /usr/share/doc/HTML/tr/partitionmanager/installoshowto.docbook
+* /usr/share/doc/HTML/tr/partitionmanager/installos_howto_1.png
+* /usr/share/doc/HTML/tr/partitionmanager/installos_howto_2.png
+* /usr/share/doc/HTML/tr/partitionmanager/installos_howto_3.png
+* /usr/share/doc/HTML/tr/partitionmanager/installos_howto_4.png
+* /usr/share/doc/HTML/tr/partitionmanager/installos_howto_5.png
+* /usr/share/doc/HTML/tr/partitionmanager/installos_howto_6.png
+* /usr/share/doc/HTML/tr/partitionmanager/installos_howto_7.png
+* /usr/share/doc/HTML/tr/partitionmanager/introduction.docbook
+* /usr/share/doc/HTML/tr/partitionmanager/mainwindow.png
+* /usr/share/doc/HTML/tr/partitionmanager/referencemanual.docbook
+* /usr/share/doc/HTML/tr/partitionmanager/resizehowto.docbook
+* /usr/share/doc/HTML/tr/partitionmanager/resize_howto_1.png
+* /usr/share/doc/HTML/tr/partitionmanager/resize_howto_2.png
+* /usr/share/doc/HTML/tr/partitionmanager/resize_howto_3.png
+* /usr/share/doc/HTML/tr/partitionmanager/resize_howto_4.png
+* /usr/share/doc/HTML/tr/partitionmanager/resize_howto_5.png
+* /usr/share/doc/HTML/tr/partitionmanager/resize_howto_6.png
+* /usr/share/doc/HTML/tr/partitionmanager/resize_howto_7.png
+* /usr/share/doc/HTML/tr/partitionmanager/resize_howto_8.png
+* /usr/share/doc/HTML/tr/partitionmanager/resize_howto_9.png
+* /usr/share/doc/HTML/tr/partitionmanager/usermanual.docbook
 * /usr/share/doc/HTML/uk/partitionmanager/copyhowto.docbook
 * /usr/share/doc/HTML/uk/partitionmanager/credits.docbook
 * /usr/share/doc/HTML/uk/partitionmanager/faq.docbook
@@ -198,10 +229,9 @@ A Kf5 utility that allows you to manage disks, partitions, and file systems.
 * /usr/share/doc/HTML/uk/partitionmanager/referencemanual.docbook
 * /usr/share/doc/HTML/uk/partitionmanager/resizehowto.docbook
 * /usr/share/doc/HTML/uk/partitionmanager/usermanual.docbook
-* /usr/share/doc/partitionmanager-23.08.5/INSTALL.md
-* /usr/share/doc/partitionmanager-23.08.5/README.md
+* /usr/share/doc/partitionmanager-24.02.1/INSTALL.md
+* /usr/share/doc/partitionmanager-24.02.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/partitionmanager.svg
-* /usr/share/kxmlgui5/partitionmanager/partitionmanagerui.rc
 * /usr/share/locale/ar/LC_MESSAGES/partitionmanager.mo
 * /usr/share/locale/az/LC_MESSAGES/partitionmanager.mo
 * /usr/share/locale/bg/LC_MESSAGES/partitionmanager.mo

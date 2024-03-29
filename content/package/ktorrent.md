@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktorrent 23.08.5-1"
-version = "23.08.5-1"
+title = "ktorrent 24.02.1-3"
+version = "24.02.1-3"
 description = "A BitTorrent application for KDE."
-date = "2024-02-20T14:14:46"
+date = "2024-03-27T13:42:44"
 aliases = "/packages/219530"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2567224"
-usize = "12052622"
-sha1sum = "5c2171449f095d9226c4daa3990618b9f6ae80e9"
-depends = "['kross>=5.115.0', 'libktorrent>=23.08.5', 'plasma-workspace>=5.27.10', 'syndication']"
+size = "2598468"
+usize = "12067028"
+sha1sum = "a4919dedaaebaab5df2bf9c11f5dc2981a5525cc"
+depends = "['libktorrent>=24.02.1', 'plasma-workspace>=6.0.3', 'syndication']"
 +++
 ### Description: 
 A BitTorrent application for KDE.
@@ -22,20 +22,19 @@ A BitTorrent application for KDE.
 * /usr/bin/ktupnptest
 * /usr/lib/libktcore.so.16
 * /usr/lib/libktcore.so.16.0.0
-* /usr/lib/qt5/plugins/ktorrent_plugins/ktorrent_bwscheduler.so
-* /usr/lib/qt5/plugins/ktorrent_plugins/ktorrent_downloadorder.so
-* /usr/lib/qt5/plugins/ktorrent_plugins/ktorrent_infowidget.so
-* /usr/lib/qt5/plugins/ktorrent_plugins/ktorrent_ipfilter.so
-* /usr/lib/qt5/plugins/ktorrent_plugins/ktorrent_logviewer.so
-* /usr/lib/qt5/plugins/ktorrent_plugins/ktorrent_magnetgenerator.so
-* /usr/lib/qt5/plugins/ktorrent_plugins/ktorrent_mediaplayer.so
-* /usr/lib/qt5/plugins/ktorrent_plugins/ktorrent_scanfolder.so
-* /usr/lib/qt5/plugins/ktorrent_plugins/ktorrent_scanforlostfiles.so
-* /usr/lib/qt5/plugins/ktorrent_plugins/ktorrent_search.so
-* /usr/lib/qt5/plugins/ktorrent_plugins/ktorrent_shutdown.so
-* /usr/lib/qt5/plugins/ktorrent_plugins/ktorrent_stats.so
-* /usr/lib/qt5/plugins/ktorrent_plugins/ktorrent_syndication.so
-* /usr/lib/qt5/plugins/ktorrent_plugins/ktorrent_upnp.so
+* /usr/lib/qt6/plugins/ktorrent_plugins/BandwidthSchedulerPlugin.so
+* /usr/lib/qt6/plugins/ktorrent_plugins/DownloadOrderPlugin.so
+* /usr/lib/qt6/plugins/ktorrent_plugins/InfoWidgetPlugin.so
+* /usr/lib/qt6/plugins/ktorrent_plugins/IPFilterPlugin.so
+* /usr/lib/qt6/plugins/ktorrent_plugins/LogViewerPlugin.so
+* /usr/lib/qt6/plugins/ktorrent_plugins/MagnetGeneratorPlugin.so
+* /usr/lib/qt6/plugins/ktorrent_plugins/MediaPlayerPlugin.so
+* /usr/lib/qt6/plugins/ktorrent_plugins/ScanFolderPlugin.so
+* /usr/lib/qt6/plugins/ktorrent_plugins/ScanForLostFilesPlugin.so
+* /usr/lib/qt6/plugins/ktorrent_plugins/SearchPlugin.so
+* /usr/lib/qt6/plugins/ktorrent_plugins/ShutdownPlugin.so
+* /usr/lib/qt6/plugins/ktorrent_plugins/SyndicationPlugin.so
+* /usr/lib/qt6/plugins/ktorrent_plugins/UPnPPlugin.so
 * /usr/share/applications/org.kde.ktorrent.desktop
 * /usr/share/doc/HTML/ca/ktorrent/index.cache.bz2
 * /usr/share/doc/HTML/ca/ktorrent/index.docbook
@@ -61,11 +60,13 @@ A BitTorrent application for KDE.
 * /usr/share/doc/HTML/ru/ktorrent/index.docbook
 * /usr/share/doc/HTML/sv/ktorrent/index.cache.bz2
 * /usr/share/doc/HTML/sv/ktorrent/index.docbook
+* /usr/share/doc/HTML/tr/ktorrent/index.cache.bz2
+* /usr/share/doc/HTML/tr/ktorrent/index.docbook
 * /usr/share/doc/HTML/uk/ktorrent/index.cache.bz2
 * /usr/share/doc/HTML/uk/ktorrent/index.docbook
 * /usr/share/doc/HTML/zh_CN/ktorrent/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/ktorrent/index.docbook
-* /usr/share/doc/ktorrent-23.08.5/ChangeLog
+* /usr/share/doc/ktorrent-24.02.1/ChangeLog
 * /usr/share/icons/hicolor/128x128/apps/ktorrent.png
 * /usr/share/icons/hicolor/16x16/actions/kt-add-feeds.png
 * /usr/share/icons/hicolor/16x16/actions/kt-add-filters.png
@@ -136,7 +137,7 @@ A BitTorrent application for KDE.
 * /usr/share/icons/hicolor/scalable/actions/kt-set-max-download-speed.svgz
 * /usr/share/icons/hicolor/scalable/actions/kt-set-max-upload-speed.svgz
 * /usr/share/icons/hicolor/scalable/actions/kt-speed-limits.svgz
-* /usr/share/knotifications5/ktorrent.notifyrc
+* /usr/share/knotifications6/ktorrent.notifyrc
 * /usr/share/ktorrent/opensearch/btdb.in/favicon.ico
 * /usr/share/ktorrent/opensearch/btdb.in/opensearch.xml
 * /usr/share/ktorrent/opensearch/btdig.com/favicon.ico

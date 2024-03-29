@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "grantlee-editor 23.08.5-1"
-version = "23.08.5-1"
+title = "grantlee-editor 24.02.1-3"
+version = "24.02.1-3"
 description = "gantt editor for PIM application."
-date = "2024-02-20T09:53:34"
+date = "2024-03-27T12:44:40"
 aliases = "/packages/218927"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "235560"
-usize = "1252268"
-sha1sum = "79ff238d9c5a2c46f5ae6a2e4ada64e8732bb38e"
-depends = "['ktexteditor>=5.115.0', 'messagelib>=23.08.5']"
+size = "243580"
+usize = "1304099"
+sha1sum = "152837620d431291ac123947e9c26568f8e55610"
+depends = "['ktexteditor>=6.0.0', 'messagelib>=24.02.1']"
 +++
 ### Description: 
 gantt editor for PIM application.
@@ -20,8 +20,8 @@ gantt editor for PIM application.
 * /usr/bin/contactprintthemeeditor
 * /usr/bin/contactthemeeditor
 * /usr/bin/headerthemeeditor
-* /usr/lib/libgrantleethemeeditor.so.5
-* /usr/lib/libgrantleethemeeditor.so.5.24.5
+* /usr/lib/libgrantleethemeeditor.so.6
+* /usr/lib/libgrantleethemeeditor.so.6.0.1
 * /usr/share/applications/org.kde.contactprintthemeeditor.desktop
 * /usr/share/applications/org.kde.contactthemeeditor.desktop
 * /usr/share/applications/org.kde.headerthemeeditor.desktop
@@ -78,6 +78,10 @@ gantt editor for PIM application.
 * /usr/share/locale/ar/LC_MESSAGES/contactthemeeditor.mo
 * /usr/share/locale/ar/LC_MESSAGES/headerthemeeditor.mo
 * /usr/share/locale/ar/LC_MESSAGES/libgrantleethemeeditor.mo
+* /usr/share/locale/ast/LC_MESSAGES/contactprintthemeeditor.mo
+* /usr/share/locale/ast/LC_MESSAGES/contactthemeeditor.mo
+* /usr/share/locale/ast/LC_MESSAGES/headerthemeeditor.mo
+* /usr/share/locale/ast/LC_MESSAGES/libgrantleethemeeditor.mo
 * /usr/share/locale/bg/LC_MESSAGES/contactprintthemeeditor.mo
 * /usr/share/locale/bg/LC_MESSAGES/contactthemeeditor.mo
 * /usr/share/locale/bg/LC_MESSAGES/headerthemeeditor.mo
@@ -111,6 +115,10 @@ gantt editor for PIM application.
 * /usr/share/locale/en_GB/LC_MESSAGES/contactthemeeditor.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/headerthemeeditor.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/libgrantleethemeeditor.mo
+* /usr/share/locale/eo/LC_MESSAGES/contactprintthemeeditor.mo
+* /usr/share/locale/eo/LC_MESSAGES/contactthemeeditor.mo
+* /usr/share/locale/eo/LC_MESSAGES/headerthemeeditor.mo
+* /usr/share/locale/eo/LC_MESSAGES/libgrantleethemeeditor.mo
 * /usr/share/locale/es/LC_MESSAGES/contactprintthemeeditor.mo
 * /usr/share/locale/es/LC_MESSAGES/contactthemeeditor.mo
 * /usr/share/locale/es/LC_MESSAGES/headerthemeeditor.mo
@@ -135,6 +143,7 @@ gantt editor for PIM application.
 * /usr/share/locale/gl/LC_MESSAGES/contactthemeeditor.mo
 * /usr/share/locale/gl/LC_MESSAGES/headerthemeeditor.mo
 * /usr/share/locale/gl/LC_MESSAGES/libgrantleethemeeditor.mo
+* /usr/share/locale/hu/LC_MESSAGES/contactprintthemeeditor.mo
 * /usr/share/locale/hu/LC_MESSAGES/contactthemeeditor.mo
 * /usr/share/locale/hu/LC_MESSAGES/headerthemeeditor.mo
 * /usr/share/locale/hu/LC_MESSAGES/libgrantleethemeeditor.mo
@@ -233,5 +242,5 @@ gantt editor for PIM application.
 * /usr/share/locale/zh_TW/LC_MESSAGES/contactthemeeditor.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/headerthemeeditor.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libgrantleethemeeditor.mo
-* /usr/share/qlogging-categories5/grantleeditor.categories
-* /usr/share/qlogging-categories5/grantleeditor.renamecategories
+* /usr/share/qlogging-categories6/grantleeditor.categories
+* /usr/share/qlogging-categories6/grantleeditor.renamecategories

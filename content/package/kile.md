@@ -1,28 +1,34 @@
 +++
 draft = false
-title = "kile 20200620.g58a9443-2"
-version = "20200620.g58a9443-2"
+title = "kile 2.9.94-1"
+version = "2.9.94-1"
 description = "A qt latex environment."
-date = "2023-10-25T10:40:51"
+date = "2024-03-26T09:55:40"
 aliases = "/packages/3697"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4071500"
-usize = "8407181"
-sha1sum = "4c3bfce8bd790d93fbbe0dd9d2e78e42b49e0be0"
-depends = "['khtml>=5.110.0', 'kinit>=5.110.0', 'ktexteditor>=5.110.0', 'okular>=23.08.2', 'poppler-qt5>=0.53.0', 'qt5-svg>=5.15.11']"
+size = "7351280"
+usize = "20830410"
+sha1sum = "5c452eb44b66e24481eb44df07b601c328bd2ff4"
+depends = "['ktexteditor>=6.0.0', 'okular>=24.02.1', 'poppler-qt6>=0.53.0', 'qt6-svg>=6.6.2']"
 +++
 ### Description: 
 A qt latex environment.
 
 ### Files: 
-* /etc/xdg/kile.categories
 * /usr/bin/kile
-* /usr/lib/libkdeinit5_kile.so
 * /usr/share/applications/org.kde.kile.desktop
 * /usr/share/config.kcfg/kile.kcfg
-* /usr/share/dbus-1/interfaces/net.sourceforge.kile.main.xml
+* /usr/share/dbus-1/interfaces/org.kde.kile.main.xml
+* /usr/share/doc/HTML/ca/kile/index.cache.bz2
+* /usr/share/doc/HTML/ca/kile/index.docbook
+* /usr/share/doc/HTML/ca/kile/scripting.docbook
+* /usr/share/doc/HTML/ca/kile/usermenu.docbook
+* /usr/share/doc/HTML/de/kile/index.cache.bz2
+* /usr/share/doc/HTML/de/kile/index.docbook
+* /usr/share/doc/HTML/de/kile/scripting.docbook
+* /usr/share/doc/HTML/de/kile/usermenu.docbook
 * /usr/share/doc/HTML/en/kile/bullets.png
 * /usr/share/doc/HTML/en/kile/command-view.png
 * /usr/share/doc/HTML/en/kile/complete_cmd1.png
@@ -111,20 +117,144 @@ A qt latex environment.
 * /usr/share/doc/HTML/en/kile/usermenu_11.png
 * /usr/share/doc/HTML/en/kile/usermenu_11b.png
 * /usr/share/doc/HTML/en/kile/usermenu_12.png
-* /usr/share/doc/kile-20200620.g58a9443/AUTHORS
-* /usr/share/doc/kile-20200620.g58a9443/ChangeLog
-* /usr/share/doc/kile-20200620.g58a9443/COPYING
-* /usr/share/doc/kile-20200620.g58a9443/COPYING.DOC
-* /usr/share/doc/kile-20200620.g58a9443/README
-* /usr/share/doc/kile-20200620.g58a9443/README-win.txt
-* /usr/share/doc/kile-20200620.g58a9443/README.cwl
-* /usr/share/doc/kile-20200620.g58a9443/README.MacOSX
+* /usr/share/doc/HTML/fr/kile/index.cache.bz2
+* /usr/share/doc/HTML/fr/kile/index.docbook
+* /usr/share/doc/HTML/fr/kile/scripting.docbook
+* /usr/share/doc/HTML/fr/kile/usermenu.docbook
+* /usr/share/doc/HTML/it/kile/index.cache.bz2
+* /usr/share/doc/HTML/it/kile/index.docbook
+* /usr/share/doc/HTML/it/kile/scripting.docbook
+* /usr/share/doc/HTML/it/kile/usermenu.docbook
+* /usr/share/doc/HTML/nl/kile/index.cache.bz2
+* /usr/share/doc/HTML/nl/kile/index.docbook
+* /usr/share/doc/HTML/nl/kile/scripting.docbook
+* /usr/share/doc/HTML/nl/kile/usermenu.docbook
+* /usr/share/doc/HTML/pl/kile/bullets.png
+* /usr/share/doc/HTML/pl/kile/command-view.png
+* /usr/share/doc/HTML/pl/kile/config-complete.png
+* /usr/share/doc/HTML/pl/kile/config-dblquotes.png
+* /usr/share/doc/HTML/pl/kile/config-encoding.png
+* /usr/share/doc/HTML/pl/kile/config-quickpreview.png
+* /usr/share/doc/HTML/pl/kile/config-userhelp.png
+* /usr/share/doc/HTML/pl/kile/delete.png
+* /usr/share/doc/HTML/pl/kile/dialog-addhelp.png
+* /usr/share/doc/HTML/pl/kile/dialog-docbrowser1.png
+* /usr/share/doc/HTML/pl/kile/dialog-docbrowser2.png
+* /usr/share/doc/HTML/pl/kile/dialog-float.png
+* /usr/share/doc/HTML/pl/kile/dialog-insertreference.png
+* /usr/share/doc/HTML/pl/kile/dialog-insertsection.png
+* /usr/share/doc/HTML/pl/kile/dialog-math.png
+* /usr/share/doc/HTML/pl/kile/dialog-pstools.png
+* /usr/share/doc/HTML/pl/kile/dialog-tabular.png
+* /usr/share/doc/HTML/pl/kile/dialog-userhelp.png
+* /usr/share/doc/HTML/pl/kile/environment.png
+* /usr/share/doc/HTML/pl/kile/includegraphics.png
+* /usr/share/doc/HTML/pl/kile/index.cache.bz2
+* /usr/share/doc/HTML/pl/kile/index.docbook
+* /usr/share/doc/HTML/pl/kile/latex_example.png
+* /usr/share/doc/HTML/pl/kile/menu-userhelp.png
+* /usr/share/doc/HTML/pl/kile/project-creation.png
+* /usr/share/doc/HTML/pl/kile/quickpreview.png
+* /usr/share/doc/HTML/pl/kile/scripting.docbook
+* /usr/share/doc/HTML/pl/kile/select.png
+* /usr/share/doc/HTML/pl/kile/snap_compile_error.png
+* /usr/share/doc/HTML/pl/kile/snap_okular_settings.png
+* /usr/share/doc/HTML/pl/kile/snap_sidebarmenu.png
+* /usr/share/doc/HTML/pl/kile/texgroup.png
+* /usr/share/doc/HTML/pl/kile/usermenu.docbook
+* /usr/share/doc/HTML/pt_BR/kile/index.cache.bz2
+* /usr/share/doc/HTML/pt_BR/kile/index.docbook
+* /usr/share/doc/HTML/pt_BR/kile/scripting.docbook
+* /usr/share/doc/HTML/pt_BR/kile/usermenu.docbook
+* /usr/share/doc/HTML/sv/kile/index.cache.bz2
+* /usr/share/doc/HTML/sv/kile/index.docbook
+* /usr/share/doc/HTML/sv/kile/scripting.docbook
+* /usr/share/doc/HTML/sv/kile/usermenu.docbook
+* /usr/share/doc/HTML/uk/kile/bullets.png
+* /usr/share/doc/HTML/uk/kile/command-view.png
+* /usr/share/doc/HTML/uk/kile/config-complete.png
+* /usr/share/doc/HTML/uk/kile/config-dblquotes.png
+* /usr/share/doc/HTML/uk/kile/config-encoding.png
+* /usr/share/doc/HTML/uk/kile/config-quickpreview.png
+* /usr/share/doc/HTML/uk/kile/config-userhelp.png
+* /usr/share/doc/HTML/uk/kile/delete.png
+* /usr/share/doc/HTML/uk/kile/dialog-addhelp.png
+* /usr/share/doc/HTML/uk/kile/dialog-docbrowser1.png
+* /usr/share/doc/HTML/uk/kile/dialog-docbrowser2.png
+* /usr/share/doc/HTML/uk/kile/dialog-float.png
+* /usr/share/doc/HTML/uk/kile/dialog-insertreference.png
+* /usr/share/doc/HTML/uk/kile/dialog-insertsection.png
+* /usr/share/doc/HTML/uk/kile/dialog-math.png
+* /usr/share/doc/HTML/uk/kile/dialog-pdftools1.png
+* /usr/share/doc/HTML/uk/kile/dialog-pdftools2.png
+* /usr/share/doc/HTML/uk/kile/dialog-pdftools3.png
+* /usr/share/doc/HTML/uk/kile/dialog-pstools.png
+* /usr/share/doc/HTML/uk/kile/dialog-tabular.png
+* /usr/share/doc/HTML/uk/kile/dialog-userhelp.png
+* /usr/share/doc/HTML/uk/kile/environment.png
+* /usr/share/doc/HTML/uk/kile/includegraphics.png
+* /usr/share/doc/HTML/uk/kile/index.cache.bz2
+* /usr/share/doc/HTML/uk/kile/index.docbook
+* /usr/share/doc/HTML/uk/kile/latex_example.png
+* /usr/share/doc/HTML/uk/kile/menu-userhelp.png
+* /usr/share/doc/HTML/uk/kile/project-creation.png
+* /usr/share/doc/HTML/uk/kile/quickpreview.png
+* /usr/share/doc/HTML/uk/kile/scripting-configure.png
+* /usr/share/doc/HTML/uk/kile/scripting-execbutton.png
+* /usr/share/doc/HTML/uk/kile/scripting-keysequence1.png
+* /usr/share/doc/HTML/uk/kile/scripting-keysequence2.png
+* /usr/share/doc/HTML/uk/kile/scripting-panel.png
+* /usr/share/doc/HTML/uk/kile/scripting-shortcut.png
+* /usr/share/doc/HTML/uk/kile/scripting-support.png
+* /usr/share/doc/HTML/uk/kile/scripting.docbook
+* /usr/share/doc/HTML/uk/kile/select.png
+* /usr/share/doc/HTML/uk/kile/snap_autocomplete.png
+* /usr/share/doc/HTML/uk/kile/snap_compile_error.png
+* /usr/share/doc/HTML/uk/kile/snap_okular_settings.png
+* /usr/share/doc/HTML/uk/kile/snap_projectview.png
+* /usr/share/doc/HTML/uk/kile/snap_projectview_add.png
+* /usr/share/doc/HTML/uk/kile/snap_ref_choose.png
+* /usr/share/doc/HTML/uk/kile/snap_ref_select.png
+* /usr/share/doc/HTML/uk/kile/snap_sidebarmenu.png
+* /usr/share/doc/HTML/uk/kile/snap_structview_label.png
+* /usr/share/doc/HTML/uk/kile/structureview-context1.png
+* /usr/share/doc/HTML/uk/kile/structureview-context2.png
+* /usr/share/doc/HTML/uk/kile/structureview.png
+* /usr/share/doc/HTML/uk/kile/texgroup.png
+* /usr/share/doc/HTML/uk/kile/usermenu.docbook
+* /usr/share/doc/HTML/uk/kile/usermenu_01.png
+* /usr/share/doc/HTML/uk/kile/usermenu_02.png
+* /usr/share/doc/HTML/uk/kile/usermenu_03.png
+* /usr/share/doc/HTML/uk/kile/usermenu_04.png
+* /usr/share/doc/HTML/uk/kile/usermenu_05.png
+* /usr/share/doc/HTML/uk/kile/usermenu_06a.png
+* /usr/share/doc/HTML/uk/kile/usermenu_06b.png
+* /usr/share/doc/HTML/uk/kile/usermenu_07a.png
+* /usr/share/doc/HTML/uk/kile/usermenu_07b.png
+* /usr/share/doc/HTML/uk/kile/usermenu_07c.png
+* /usr/share/doc/HTML/uk/kile/usermenu_08a.png
+* /usr/share/doc/HTML/uk/kile/usermenu_08b.png
+* /usr/share/doc/HTML/uk/kile/usermenu_08c.png
+* /usr/share/doc/HTML/uk/kile/usermenu_08d.png
+* /usr/share/doc/HTML/uk/kile/usermenu_08e.png
+* /usr/share/doc/HTML/uk/kile/usermenu_08f.png
+* /usr/share/doc/HTML/uk/kile/usermenu_09.png
+* /usr/share/doc/HTML/uk/kile/usermenu_10.png
+* /usr/share/doc/HTML/uk/kile/usermenu_11.png
+* /usr/share/doc/HTML/uk/kile/usermenu_12.png
+* /usr/share/doc/kile-2.9.94/AUTHORS
+* /usr/share/doc/kile-2.9.94/ChangeLog
+* /usr/share/doc/kile-2.9.94/COPYING
+* /usr/share/doc/kile-2.9.94/COPYING.DOC
+* /usr/share/doc/kile-2.9.94/README
+* /usr/share/doc/kile-2.9.94/README-win.txt
+* /usr/share/doc/kile-2.9.94/README.cwl
+* /usr/share/doc/kile-2.9.94/README.MacOSX
 * /usr/share/doc/kile/AUTHORS
 * /usr/share/doc/kile/ChangeLog
 * /usr/share/doc/kile/kile-remote-control.txt
 * /usr/share/doc/kile/README
 * /usr/share/doc/kile/README.cwl
-* /usr/share/doc/kile/README.MacOSX
 * /usr/share/icons/hicolor/128x128/apps/kile.png
 * /usr/share/icons/hicolor/150x150/apps/kile.png
 * /usr/share/icons/hicolor/16x16/apps/kile.png
@@ -280,13 +410,9 @@ A qt latex environment.
 * /usr/share/kile/encodings/latin4.enc
 * /usr/share/kile/encodings/latin5.enc
 * /usr/share/kile/encodings/latin9.enc
-* /usr/share/kile/help/latex-kile.lst
-* /usr/share/kile/help/latex-tetex.lst
-* /usr/share/kile/help/latex-tetex3.lst
-* /usr/share/kile/help/latex-texlive-3.9.lst
-* /usr/share/kile/help/latex2e-texlive.html
-* /usr/share/kile/help/latex2e-texlive.lst
+* /usr/share/kile/help/latex-kile.index
 * /usr/share/kile/help/latexhelp.html
+* /usr/share/kile/help/unofficial-latex2e-reference-manual.index
 * /usr/share/kile/icons/hicolor/128x128/actions/nroot.png
 * /usr/share/kile/icons/hicolor/128x128/actions/sqrt.png
 * /usr/share/kile/icons/hicolor/16x16/actions/acute.png
@@ -1610,5 +1736,55 @@ A qt latex environment.
 * /usr/share/kile/test/test_index.tex
 * /usr/share/kile/test/test_plain.tex
 * /usr/share/kile/usermenu/example.xml
+* /usr/share/locale/ar/LC_MESSAGES/kile.mo
+* /usr/share/locale/bg/LC_MESSAGES/kile.mo
+* /usr/share/locale/bs/LC_MESSAGES/kile.mo
+* /usr/share/locale/ca/LC_MESSAGES/kile.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/kile.mo
+* /usr/share/locale/cs/LC_MESSAGES/kile.mo
+* /usr/share/locale/da/LC_MESSAGES/kile.mo
+* /usr/share/locale/de/LC_MESSAGES/kile.mo
+* /usr/share/locale/el/LC_MESSAGES/kile.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/kile.mo
+* /usr/share/locale/eo/LC_MESSAGES/kile.mo
+* /usr/share/locale/es/LC_MESSAGES/kile.mo
+* /usr/share/locale/et/LC_MESSAGES/kile.mo
+* /usr/share/locale/eu/LC_MESSAGES/kile.mo
+* /usr/share/locale/fi/LC_MESSAGES/kile.mo
+* /usr/share/locale/fr/LC_MESSAGES/kile.mo
+* /usr/share/locale/ga/LC_MESSAGES/kile.mo
+* /usr/share/locale/gl/LC_MESSAGES/kile.mo
+* /usr/share/locale/hi/LC_MESSAGES/kile.mo
+* /usr/share/locale/hne/LC_MESSAGES/kile.mo
+* /usr/share/locale/hu/LC_MESSAGES/kile.mo
+* /usr/share/locale/ia/LC_MESSAGES/kile.mo
+* /usr/share/locale/ie/LC_MESSAGES/kile.mo
+* /usr/share/locale/it/LC_MESSAGES/kile.mo
+* /usr/share/locale/ja/LC_MESSAGES/kile.mo
+* /usr/share/locale/ka/LC_MESSAGES/kile.mo
+* /usr/share/locale/kk/LC_MESSAGES/kile.mo
+* /usr/share/locale/ko/LC_MESSAGES/kile.mo
+* /usr/share/locale/lt/LC_MESSAGES/kile.mo
+* /usr/share/locale/mai/LC_MESSAGES/kile.mo
+* /usr/share/locale/mr/LC_MESSAGES/kile.mo
+* /usr/share/locale/ms/LC_MESSAGES/kile.mo
+* /usr/share/locale/nb/LC_MESSAGES/kile.mo
+* /usr/share/locale/nds/LC_MESSAGES/kile.mo
+* /usr/share/locale/nl/LC_MESSAGES/kile.mo
+* /usr/share/locale/nn/LC_MESSAGES/kile.mo
+* /usr/share/locale/pl/LC_MESSAGES/kile.mo
+* /usr/share/locale/pt/LC_MESSAGES/kile.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/kile.mo
+* /usr/share/locale/ro/LC_MESSAGES/kile.mo
+* /usr/share/locale/ru/LC_MESSAGES/kile.mo
+* /usr/share/locale/sk/LC_MESSAGES/kile.mo
+* /usr/share/locale/sl/LC_MESSAGES/kile.mo
+* /usr/share/locale/sv/LC_MESSAGES/kile.mo
+* /usr/share/locale/tr/LC_MESSAGES/kile.mo
+* /usr/share/locale/ug/LC_MESSAGES/kile.mo
+* /usr/share/locale/uk/LC_MESSAGES/kile.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/kile.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/kile.mo
 * /usr/share/metainfo/org.kde.kile.appdata.xml
 * /usr/share/mime/packages/kile.xml
+* /usr/share/qlogging-categories6/kile.categories

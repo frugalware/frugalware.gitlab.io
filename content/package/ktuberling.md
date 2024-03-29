@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktuberling 23.08.5-1"
-version = "23.08.5-1"
+title = "ktuberling 24.02.1-3"
+version = "24.02.1-3"
 description = "A simple constructor game suitable for children and adults alike."
-date = "2024-02-19T22:57:11"
+date = "2024-03-27T11:26:28"
 aliases = "/packages/184203"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "46804236"
-usize = "63245714"
-sha1sum = "94201b28ce13fa1bb923289908933776b4ab4d93"
-depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5', 'qt5-multimedia>=5.15.12']"
+size = "72040984"
+usize = "100104937"
+sha1sum = "929bf0e209ef6c5a7ef8173514b4616de400bfc3"
+depends = "['knotifyconfig>=6.0.0', 'libkdegames>=24.02.1', 'qt6-multimedia>=6.6.3']"
 +++
 ### Description: 
 A simple constructor game suitable for children and adults alike.
@@ -102,8 +102,8 @@ A simple constructor game suitable for children and adults alike.
 * /usr/share/doc/HTML/uk/ktuberling/index.cache.bz2
 * /usr/share/doc/HTML/uk/ktuberling/index.docbook
 * /usr/share/doc/HTML/uk/ktuberling/technical-reference.docbook
-* /usr/share/doc/ktuberling-23.08.5/README.PACKAGERS
-* /usr/share/doc/ktuberling-23.08.5/TODO
+* /usr/share/doc/ktuberling-24.02.1/README.PACKAGERS
+* /usr/share/doc/ktuberling-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/ktuberling.png
 * /usr/share/icons/hicolor/128x128/mimetypes/application-x-tuberling.png
 * /usr/share/icons/hicolor/16x16/apps/ktuberling.png
@@ -727,6 +727,28 @@ A simple constructor game suitable for children and adults alike.
 * /usr/share/ktuberling/sounds/en/tv_train.ogg
 * /usr/share/ktuberling/sounds/en/tv_tree.ogg
 * /usr/share/ktuberling/sounds/en/umbrella.ogg
+* /usr/share/ktuberling/sounds/eo.soundtheme
+* /usr/share/ktuberling/sounds/eo/kt_ball-pilko.ogg
+* /usr/share/ktuberling/sounds/eo/kt_bow-banto.ogg
+* /usr/share/ktuberling/sounds/eo/kt_coat-mantelo.ogg
+* /usr/share/ktuberling/sounds/eo/kt_ear-orelo.ogg
+* /usr/share/ktuberling/sounds/eo/kt_earring-orelringo.ogg
+* /usr/share/ktuberling/sounds/eo/kt_eye-okulo.ogg
+* /usr/share/ktuberling/sounds/eo/kt_eyebrow-brovo.ogg
+* /usr/share/ktuberling/sounds/eo/kt_flower-floro.ogg
+* /usr/share/ktuberling/sounds/eo/kt_hair-haroj.ogg
+* /usr/share/ktuberling/sounds/eo/kt_hat-chapelo.ogg
+* /usr/share/ktuberling/sounds/eo/kt_moustache-lipharoj.ogg
+* /usr/share/ktuberling/sounds/eo/kt_mouth-busho.ogg
+* /usr/share/ktuberling/sounds/eo/kt_nose-nazo.ogg
+* /usr/share/ktuberling/sounds/eo/kt_shoe-shuo.ogg
+* /usr/share/ktuberling/sounds/eo/kt_shorts-pantaloneto.ogg
+* /usr/share/ktuberling/sounds/eo/kt_skirt-jupo.ogg
+* /usr/share/ktuberling/sounds/eo/kt_spectacles-okulvitroj.ogg
+* /usr/share/ktuberling/sounds/eo/kt_stick-bastono.ogg
+* /usr/share/ktuberling/sounds/eo/kt_sunglasses-sunvitroj.ogg
+* /usr/share/ktuberling/sounds/eo/kt_tie-kravato.ogg
+* /usr/share/ktuberling/sounds/eo/kt_umbrella-ombrelo.ogg
 * /usr/share/ktuberling/sounds/es.soundtheme
 * /usr/share/ktuberling/sounds/es/anteojos.wav
 * /usr/share/ktuberling/sounds/es/bigote.wav
@@ -1050,6 +1072,211 @@ A simple constructor game suitable for children and adults alike.
 * /usr/share/ktuberling/sounds/gl/tv_train.ogg
 * /usr/share/ktuberling/sounds/gl/umbrella.ogg
 * /usr/share/ktuberling/sounds/id.soundtheme
+* /usr/share/ktuberling/sounds/id/ball_bola.wav
+* /usr/share/ktuberling/sounds/id/bow_dasi-kupu-kupu.wav
+* /usr/share/ktuberling/sounds/id/butterflies_body_tubuh.wav
+* /usr/share/ktuberling/sounds/id/butterflies_circles_lingkaran.wav
+* /usr/share/ktuberling/sounds/id/butterflies_circle_bulatan.wav
+* /usr/share/ktuberling/sounds/id/butterflies_eye_mata.wav
+* /usr/share/ktuberling/sounds/id/butterflies_heart_hati.wav
+* /usr/share/ktuberling/sounds/id/butterflies_purple_shape_bentuk-ungu.wav
+* /usr/share/ktuberling/sounds/id/butterflies_spiral.wav
+* /usr/share/ktuberling/sounds/id/butterflies_wing_sayap.wav
+* /usr/share/ktuberling/sounds/id/coat_baju.wav
+* /usr/share/ktuberling/sounds/id/earring_anting-anting.wav
+* /usr/share/ktuberling/sounds/id/ear_telinga.wav
+* /usr/share/ktuberling/sounds/id/egypt_arch_lengkungan-taman.wav
+* /usr/share/ktuberling/sounds/id/egypt_birds_burung.wav
+* /usr/share/ktuberling/sounds/id/egypt_boy_pria.wav
+* /usr/share/ktuberling/sounds/id/egypt_bridge_jembatan.wav
+* /usr/share/ktuberling/sounds/id/egypt_camel_unta.wav
+* /usr/share/ktuberling/sounds/id/egypt_cart_gerobak.wav
+* /usr/share/ktuberling/sounds/id/egypt_column_tiang.wav
+* /usr/share/ktuberling/sounds/id/egypt_donkey_keledai.wav
+* /usr/share/ktuberling/sounds/id/egypt_girl_wanita.wav
+* /usr/share/ktuberling/sounds/id/egypt_grass_rumput.wav
+* /usr/share/ktuberling/sounds/id/egypt_man_laki-laki.wav
+* /usr/share/ktuberling/sounds/id/egypt_oasis_wahah.wav
+* /usr/share/ktuberling/sounds/id/egypt_palmtree_pohon-palem.wav
+* /usr/share/ktuberling/sounds/id/egypt_pyramid.wav
+* /usr/share/ktuberling/sounds/id/egypt_road_jalan.wav
+* /usr/share/ktuberling/sounds/id/egypt_sphynx.wav
+* /usr/share/ktuberling/sounds/id/egypt_well_sumur.wav
+* /usr/share/ktuberling/sounds/id/egypt_woman_perempuan.wav
+* /usr/share/ktuberling/sounds/id/eyebrow_alis.wav
+* /usr/share/ktuberling/sounds/id/eye_mata.wav
+* /usr/share/ktuberling/sounds/id/flower_bunga.wav
+* /usr/share/ktuberling/sounds/id/frier-tux_tux-biarawan.wav
+* /usr/share/ktuberling/sounds/id/guard-tux_tux-penjaga.wav
+* /usr/share/ktuberling/sounds/id/hair_rambut.wav
+* /usr/share/ktuberling/sounds/id/hat_topi.wav
+* /usr/share/ktuberling/sounds/id/kid-tux_tux-pemanah.wav
+* /usr/share/ktuberling/sounds/id/kid-tux_tux-pria.wav
+* /usr/share/ktuberling/sounds/id/little-tux_tux-putra.wav
+* /usr/share/ktuberling/sounds/id/maiden-tux_tux-putri.wav
+* /usr/share/ktuberling/sounds/id/moon_alien.wav
+* /usr/share/ktuberling/sounds/id/moon_astronaut.wav
+* /usr/share/ktuberling/sounds/id/moon_earth_bumi.wav
+* /usr/share/ktuberling/sounds/id/moon_fallingstar_meteor.wav
+* /usr/share/ktuberling/sounds/id/moon_hotel.wav
+* /usr/share/ktuberling/sounds/id/moon_monster.wav
+* /usr/share/ktuberling/sounds/id/moon_moonwalker_robot-penjelajah-rembulan.wav
+* /usr/share/ktuberling/sounds/id/moon_planet.wav
+* /usr/share/ktuberling/sounds/id/moon_radar.wav
+* /usr/share/ktuberling/sounds/id/moon_rocket.wav
+* /usr/share/ktuberling/sounds/id/moon_satellite.wav
+* /usr/share/ktuberling/sounds/id/moon_sign_rambu.wav
+* /usr/share/ktuberling/sounds/id/moon_star_bintang.wav
+* /usr/share/ktuberling/sounds/id/moon_ufo.wav
+* /usr/share/ktuberling/sounds/id/moustache_kumis.wav
+* /usr/share/ktuberling/sounds/id/mouth_mulut.wav
+* /usr/share/ktuberling/sounds/id/nose_hidung.wav
+* /usr/share/ktuberling/sounds/id/pizzeria_anchovy_daging-ikan.wav
+* /usr/share/ktuberling/sounds/id/pizzeria_bacon_daging-merah.wav
+* /usr/share/ktuberling/sounds/id/pizzeria_brocolli_brokoli.wav
+* /usr/share/ktuberling/sounds/id/pizzeria_cheese_keju.wav
+* /usr/share/ktuberling/sounds/id/pizzeria_cucumber_timun.wav
+* /usr/share/ktuberling/sounds/id/pizzeria_mushroom_jamur.wav
+* /usr/share/ktuberling/sounds/id/pizzeria_olive1_biji-zaitun-muda.wav
+* /usr/share/ktuberling/sounds/id/pizzeria_olive2_biji-zaitun-tua.wav
+* /usr/share/ktuberling/sounds/id/pizzeria_olive3_irisan-zaitun-muda.wav
+* /usr/share/ktuberling/sounds/id/pizzeria_olive4_irisan-zaitun-tua.wav
+* /usr/share/ktuberling/sounds/id/pizzeria_onion1_bawang-putih.wav
+* /usr/share/ktuberling/sounds/id/pizzeria_onion2_bawang-merah.wav
+* /usr/share/ktuberling/sounds/id/pizzeria_oregano1_daun-oregano.wav
+* /usr/share/ktuberling/sounds/id/pizzeria_oregano2_serbuk-oregano.wav
+* /usr/share/ktuberling/sounds/id/pizzeria_pepper1_cabai-paprika-merah.wav
+* /usr/share/ktuberling/sounds/id/pizzeria_pepper2_cabai-paprika-hijau.wav
+* /usr/share/ktuberling/sounds/id/pizzeria_pepper3_cabai-paprika-kuning.wav
+* /usr/share/ktuberling/sounds/id/pizzeria_pepperoni.wav
+* /usr/share/ktuberling/sounds/id/pizzeria_pineapple_nanas.wav
+* /usr/share/ktuberling/sounds/id/pizzeria_salami.wav
+* /usr/share/ktuberling/sounds/id/pizzeria_tomato_tomat.wav
+* /usr/share/ktuberling/sounds/id/prince-tux_tux-pangeran.wav
+* /usr/share/ktuberling/sounds/id/robin-tux_tux-robin.wav
+* /usr/share/ktuberling/sounds/id/robot_workshop_antenna.wav
+* /usr/share/ktuberling/sounds/id/robot_workshop_arm_lengan.wav
+* /usr/share/ktuberling/sounds/id/robot_workshop_ball_bola.wav
+* /usr/share/ktuberling/sounds/id/robot_workshop_base_dasaran.wav
+* /usr/share/ktuberling/sounds/id/robot_workshop_block_balok.wav
+* /usr/share/ktuberling/sounds/id/robot_workshop_body_tubuh.wav
+* /usr/share/ktuberling/sounds/id/robot_workshop_claw_cakar.wav
+* /usr/share/ktuberling/sounds/id/robot_workshop_eye_mata.wav
+* /usr/share/ktuberling/sounds/id/robot_workshop_foot_kaki.wav
+* /usr/share/ktuberling/sounds/id/robot_workshop_hand_tangan.wav
+* /usr/share/ktuberling/sounds/id/robot_workshop_head_kepala.wav
+* /usr/share/ktuberling/sounds/id/robot_workshop_panel.wav
+* /usr/share/ktuberling/sounds/id/robot_workshop_rocket_roket.wav
+* /usr/share/ktuberling/sounds/id/robot_workshop_rod_batang.wav
+* /usr/share/ktuberling/sounds/id/robot_workshop_wheel_roda.wav
+* /usr/share/ktuberling/sounds/id/sherif-tux_tux-sherif.wav
+* /usr/share/ktuberling/sounds/id/shoe_sepatu.wav
+* /usr/share/ktuberling/sounds/id/shorts_celana.wav
+* /usr/share/ktuberling/sounds/id/skirt_rok.wav
+* /usr/share/ktuberling/sounds/id/spectacles_kacamata-putih.wav
+* /usr/share/ktuberling/sounds/id/stick_tongkat.wav
+* /usr/share/ktuberling/sounds/id/sunglasses_kacamata-hitam.wav
+* /usr/share/ktuberling/sounds/id/tie_dasi.wav
+* /usr/share/ktuberling/sounds/id/tux-angry_lapar.wav
+* /usr/share/ktuberling/sounds/id/tux-apple_apel.wav
+* /usr/share/ktuberling/sounds/id/tux-arrows_wadah-panah.wav
+* /usr/share/ktuberling/sounds/id/tux-arrow_panah.wav
+* /usr/share/ktuberling/sounds/id/tux-bow_busur.wav
+* /usr/share/ktuberling/sounds/id/tux-bullseye_sasaran-panah.wav
+* /usr/share/ktuberling/sounds/id/tux-candles_lilin.wav
+* /usr/share/ktuberling/sounds/id/tux-dowe_merpati-hinggap.wav
+* /usr/share/ktuberling/sounds/id/tux-dowe_merpati-hinggap1.wav
+* /usr/share/ktuberling/sounds/id/tux-fish_ikan.wav
+* /usr/share/ktuberling/sounds/id/tux-flask_botol-flask.wav
+* /usr/share/ktuberling/sounds/id/tux-fly_merpati-terbang.wav
+* /usr/share/ktuberling/sounds/id/tux-goblet_gelas-goblet.wav
+* /usr/share/ktuberling/sounds/id/tux-guitar_gitar.wav
+* /usr/share/ktuberling/sounds/id/tux-huh.wav
+* /usr/share/ktuberling/sounds/id/tux-idea_ide.wav
+* /usr/share/ktuberling/sounds/id/tux-key_kunci.wav
+* /usr/share/ktuberling/sounds/id/tux-laugh_tertawa.wav
+* /usr/share/ktuberling/sounds/id/tux-letter_surat.wav
+* /usr/share/ktuberling/sounds/id/tux-love_cinta.wav
+* /usr/share/ktuberling/sounds/id/tux-love_surat-cinta.wav
+* /usr/share/ktuberling/sounds/id/tux-notes_notasi.wav
+* /usr/share/ktuberling/sounds/id/tux-note_not.wav
+* /usr/share/ktuberling/sounds/id/tux-plate_piring.wav
+* /usr/share/ktuberling/sounds/id/tux-poison_racun.wav
+* /usr/share/ktuberling/sounds/id/tux-shoot_panahkan.wav
+* /usr/share/ktuberling/sounds/id/tux-sick_sakit.wav
+* /usr/share/ktuberling/sounds/id/tux-sick_tongkat.wav
+* /usr/share/ktuberling/sounds/id/tux-stare_tatapan.wav
+* /usr/share/ktuberling/sounds/id/tux-teacup_gelas-cangkir.wav
+* /usr/share/ktuberling/sounds/id/tux-vase_vas-bunga.wav
+* /usr/share/ktuberling/sounds/id/tux-wanted_buronan.wav
+* /usr/share/ktuberling/sounds/id/tux-what_apa.wav
+* /usr/share/ktuberling/sounds/id/tux-wow.wav
+* /usr/share/ktuberling/sounds/id/tux-zzz.wav
+* /usr/share/ktuberling/sounds/id/tv_accident_kecelakaan.wav
+* /usr/share/ktuberling/sounds/id/tv_ball_bola.wav
+* /usr/share/ktuberling/sounds/id/tv_barrier_palang.wav
+* /usr/share/ktuberling/sounds/id/tv_bicycle_sepeda.wav
+* /usr/share/ktuberling/sounds/id/tv_breakdown_lorry_truk-derek.wav
+* /usr/share/ktuberling/sounds/id/tv_caravan_rumah-gandeng.wav
+* /usr/share/ktuberling/sounds/id/tv_car_mobil.wav
+* /usr/share/ktuberling/sounds/id/tv_cyclist_bersepeda.wav
+* /usr/share/ktuberling/sounds/id/tv_elephant_gajah.wav
+* /usr/share/ktuberling/sounds/id/tv_excavator_alat-penggali.wav
+* /usr/share/ktuberling/sounds/id/tv_fence_pagar.wav
+* /usr/share/ktuberling/sounds/id/tv_fireengine_mobil-pemadam-kebakaran.wav
+* /usr/share/ktuberling/sounds/id/tv_fireengine_pemadam-kebakaran.wav
+* /usr/share/ktuberling/sounds/id/tv_fireman_pemadam-api.wav
+* /usr/share/ktuberling/sounds/id/tv_fire_api.wav
+* /usr/share/ktuberling/sounds/id/tv_fisherman_pemancing.wav
+* /usr/share/ktuberling/sounds/id/tv_giraffe_jerapah.wav
+* /usr/share/ktuberling/sounds/id/tv_guitarist_gitaris.wav
+* /usr/share/ktuberling/sounds/id/tv_guitar_gitar.wav
+* /usr/share/ktuberling/sounds/id/tv_house_rumah.wav
+* /usr/share/ktuberling/sounds/id/tv_ladder_tangga.wav
+* /usr/share/ktuberling/sounds/id/tv_lion_singa.wav
+* /usr/share/ktuberling/sounds/id/tv_lorry_tractor_kepala-truk.wav
+* /usr/share/ktuberling/sounds/id/tv_lorry_truk-tronton.wav
+* /usr/share/ktuberling/sounds/id/tv_man_laki-laki.wav
+* /usr/share/ktuberling/sounds/id/tv_mechanic_montir.wav
+* /usr/share/ktuberling/sounds/id/tv_monkey_monyet.wav
+* /usr/share/ktuberling/sounds/id/tv_path_jalan-setapak.wav
+* /usr/share/ktuberling/sounds/id/tv_rock_batu.wav
+* /usr/share/ktuberling/sounds/id/tv_school_sekolah.wav
+* /usr/share/ktuberling/sounds/id/tv_shop_toko.wav
+* /usr/share/ktuberling/sounds/id/tv_smoke_asap.wav
+* /usr/share/ktuberling/sounds/id/tv_tipper_truk-jomplang.wav
+* /usr/share/ktuberling/sounds/id/tv_trailer_becak.wav
+* /usr/share/ktuberling/sounds/id/tv_trailer_gerobak.wav
+* /usr/share/ktuberling/sounds/id/tv_train_kereta-api.wav
+* /usr/share/ktuberling/sounds/id/tv_train_kereta.wav
+* /usr/share/ktuberling/sounds/id/tv_train_lokomotif.wav
+* /usr/share/ktuberling/sounds/id/tv_tree_pohon.wav
+* /usr/share/ktuberling/sounds/id/tv_tunnel_terowongan.wav
+* /usr/share/ktuberling/sounds/id/tv_volley_net_net-voli.wav
+* /usr/share/ktuberling/sounds/id/tv_wagon_gerbong.wav
+* /usr/share/ktuberling/sounds/id/tv_woman_perempuan.wav
+* /usr/share/ktuberling/sounds/id/umbrella_payung.wav
+* /usr/share/ktuberling/sounds/id/whitch-tux_tux-penyihir.wav
+* /usr/share/ktuberling/sounds/id/xmas_angel_malaikat.wav
+* /usr/share/ktuberling/sounds/id/xmas_ball_bola.wav
+* /usr/share/ktuberling/sounds/id/xmas_boot_sepatu-but.wav
+* /usr/share/ktuberling/sounds/id/xmas_candle_lilin.wav
+* /usr/share/ktuberling/sounds/id/xmas_comet_komet.wav
+* /usr/share/ktuberling/sounds/id/xmas_garland_karangan-bunga.wav
+* /usr/share/ktuberling/sounds/id/xmas_lights_lampu.wav
+* /usr/share/ktuberling/sounds/id/xmas_mistletoe_benalu.wav
+* /usr/share/ktuberling/sounds/id/xmas_moon_rembulan.wav
+* /usr/share/ktuberling/sounds/id/xmas_owl_burung-hantu.wav
+* /usr/share/ktuberling/sounds/id/xmas_present_kado.wav
+* /usr/share/ktuberling/sounds/id/xmas_rabbit_kelinci.wav
+* /usr/share/ktuberling/sounds/id/xmas_reindeer_rusa-kutub.wav
+* /usr/share/ktuberling/sounds/id/xmas_shoe_sepatu.wav
+* /usr/share/ktuberling/sounds/id/xmas_snowflake_kepingan-salju.wav
+* /usr/share/ktuberling/sounds/id/xmas_snowman_manusia-salju.wav
+* /usr/share/ktuberling/sounds/id/xmas_star_bintang.wav
+* /usr/share/ktuberling/sounds/id/xmas_tree_pohon.wav
+* /usr/share/ktuberling/sounds/id/xmas_turtle_penyu.wav
+* /usr/share/ktuberling/sounds/id/xmas_tux.wav
 * /usr/share/ktuberling/sounds/it.soundtheme
 * /usr/share/ktuberling/sounds/it/baffi.wav
 * /usr/share/ktuberling/sounds/it/bocca.wav
@@ -2067,6 +2294,7 @@ A simple constructor game suitable for children and adults alike.
 * /usr/share/ktuberling/sounds/wa/tv_vweteure.ogg
 * /usr/share/locale/af/LC_MESSAGES/ktuberling.mo
 * /usr/share/locale/ar/LC_MESSAGES/ktuberling.mo
+* /usr/share/locale/ast/LC_MESSAGES/ktuberling.mo
 * /usr/share/locale/be/LC_MESSAGES/ktuberling.mo
 * /usr/share/locale/bg/LC_MESSAGES/ktuberling.mo
 * /usr/share/locale/br/LC_MESSAGES/ktuberling.mo
@@ -2094,6 +2322,7 @@ A simple constructor game suitable for children and adults alike.
 * /usr/share/locale/hne/LC_MESSAGES/ktuberling.mo
 * /usr/share/locale/hr/LC_MESSAGES/ktuberling.mo
 * /usr/share/locale/hu/LC_MESSAGES/ktuberling.mo
+* /usr/share/locale/ia/LC_MESSAGES/ktuberling.mo
 * /usr/share/locale/id/LC_MESSAGES/ktuberling.mo
 * /usr/share/locale/is/LC_MESSAGES/ktuberling.mo
 * /usr/share/locale/it/LC_MESSAGES/ktuberling.mo
@@ -2139,4 +2368,4 @@ A simple constructor game suitable for children and adults alike.
 * /usr/share/locale/zh_CN/LC_MESSAGES/ktuberling.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/ktuberling.mo
 * /usr/share/metainfo/org.kde.ktuberling.appdata.xml
-* /usr/share/qlogging-categories5/ktuberling.categories
+* /usr/share/qlogging-categories6/ktuberling.categories

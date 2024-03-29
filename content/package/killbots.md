@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "killbots 23.08.5-1"
-version = "23.08.5-1"
+title = "killbots 24.02.1-3"
+version = "24.02.1-3"
 description = "A simple game of evading killer robots."
-date = "2024-02-19T22:40:16"
+date = "2024-03-27T11:11:00"
 aliases = "/packages/184183"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1346128"
-usize = "2505250"
-sha1sum = "21c2285737018ffbfb58b535e4186fa59f09d419"
-depends = "['libkdegames>=23.08.5', 'qt5-svg>=5.15.12']"
+size = "1363496"
+usize = "2542815"
+sha1sum = "5d295a79b6227b42bc6aabaaac630defbd0818f2"
+depends = "['libkdegames>=24.02.1', 'qt6-svg>=6.6.3']"
 +++
 ### Description: 
 A simple game of evading killer robots.
@@ -56,8 +56,8 @@ A simple game of evading killer robots.
 * /usr/share/doc/HTML/uk/killbots/index.cache.bz2
 * /usr/share/doc/HTML/uk/killbots/index.docbook
 * /usr/share/doc/HTML/uk/killbots/status.png
-* /usr/share/doc/killbots-23.08.5/README.codestyle
-* /usr/share/doc/killbots-23.08.5/README.translators
+* /usr/share/doc/killbots-24.02.1/README.codestyle
+* /usr/share/doc/killbots-24.02.1/README.translators
 * /usr/share/icons/hicolor/128x128/apps/killbots.png
 * /usr/share/icons/hicolor/16x16/apps/killbots.png
 * /usr/share/icons/hicolor/22x22/apps/killbots.png
@@ -82,6 +82,7 @@ A simple game of evading killer robots.
 * /usr/share/killbots/themes/robotkill.png
 * /usr/share/killbots/themes/robotkill.svgz
 * /usr/share/locale/ar/LC_MESSAGES/killbots.mo
+* /usr/share/locale/ast/LC_MESSAGES/killbots.mo
 * /usr/share/locale/bg/LC_MESSAGES/killbots.mo
 * /usr/share/locale/bs/LC_MESSAGES/killbots.mo
 * /usr/share/locale/ca/LC_MESSAGES/killbots.mo
@@ -101,6 +102,7 @@ A simple game of evading killer robots.
 * /usr/share/locale/gl/LC_MESSAGES/killbots.mo
 * /usr/share/locale/hr/LC_MESSAGES/killbots.mo
 * /usr/share/locale/hu/LC_MESSAGES/killbots.mo
+* /usr/share/locale/ia/LC_MESSAGES/killbots.mo
 * /usr/share/locale/id/LC_MESSAGES/killbots.mo
 * /usr/share/locale/is/LC_MESSAGES/killbots.mo
 * /usr/share/locale/it/LC_MESSAGES/killbots.mo
@@ -136,4 +138,4 @@ A simple game of evading killer robots.
 * /usr/share/locale/zh_CN/LC_MESSAGES/killbots.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/killbots.mo
 * /usr/share/metainfo/org.kde.killbots.appdata.xml
-* /usr/share/qlogging-categories5/killbots.categories
+* /usr/share/qlogging-categories6/killbots.categories

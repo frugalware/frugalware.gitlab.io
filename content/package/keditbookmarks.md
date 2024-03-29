@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "keditbookmarks 23.08.5-1"
-version = "23.08.5-1"
+title = "keditbookmarks 24.02.1-3"
+version = "24.02.1-3"
 description = "KDE's bookmarks editor"
-date = "2024-02-19T21:22:41"
+date = "2024-03-27T10:16:08"
 aliases = "/packages/88143"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "340532"
-usize = "1486272"
-sha1sum = "555de52c0670691b96dbb579c94bae6f479b50b8"
-depends = "['kparts>=5.115.0']"
+size = "361080"
+usize = "1577747"
+sha1sum = "5295f3b54edb5470698549ad11a2f84cd14e2596"
+depends = "['kparts>=6.0.0']"
 +++
 ### Description: 
 KDE's bookmarks editor
@@ -19,7 +19,6 @@ KDE's bookmarks editor
 ### Files: 
 * /usr/bin/kbookmarkmerger
 * /usr/bin/keditbookmarks
-* /usr/lib/libkbookmarkmodel_private.so
 * /usr/lib/libkbookmarkmodel_private.so.5.97.0
 * /usr/lib/libkbookmarkmodel_private.so.6
 * /usr/share/applications/org.kde.keditbookmarks.desktop
@@ -52,10 +51,11 @@ KDE's bookmarks editor
 * /usr/share/doc/HTML/uk/keditbookmarks/index.docbook
 * /usr/share/doc/HTML/zh_CN/keditbookmarks/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/keditbookmarks/index.docbook
-* /usr/share/doc/keditbookmarks-23.08.5/COPYING
-* /usr/share/doc/keditbookmarks-23.08.5/COPYING.DOC
-* /usr/share/doc/keditbookmarks-23.08.5/TODO
+* /usr/share/doc/keditbookmarks-24.02.1/COPYING
+* /usr/share/doc/keditbookmarks-24.02.1/COPYING.DOC
+* /usr/share/doc/keditbookmarks-24.02.1/TODO
 * /usr/share/locale/ar/LC_MESSAGES/keditbookmarks.mo
+* /usr/share/locale/ast/LC_MESSAGES/keditbookmarks.mo
 * /usr/share/locale/be/LC_MESSAGES/keditbookmarks.mo
 * /usr/share/locale/be@latin/LC_MESSAGES/keditbookmarks.mo
 * /usr/share/locale/bg/LC_MESSAGES/keditbookmarks.mo
@@ -159,4 +159,4 @@ KDE's bookmarks editor
 * /usr/share/man/tr/man1/kbookmarkmerger.1.gz
 * /usr/share/man/uk/man1/kbookmarkmerger.1.gz
 * /usr/share/man/zh_CN/man1/kbookmarkmerger.1.gz
-* /usr/share/qlogging-categories5/keditbookmarks.categories
+* /usr/share/qlogging-categories6/keditbookmarks.categories

@@ -12,6 +12,7 @@ size = "47504"
 usize = "150558"
 sha1sum = "e12e6c12717a5b2676168836e6174c6386e7f6b7"
 depends = "['kdsoap>=2.2.0']"
+reverse_depends = "['kio-extras']"
 +++
 ### Description: 
 WS-Discovery client library based on KDSoap

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kruler 23.08.5-1"
-version = "23.08.5-1"
+title = "kruler 24.02.1-3"
+version = "24.02.1-3"
 description = "KDE Ruler Widget."
-date = "2024-02-19T21:39:36"
+date = "2024-03-27T10:25:32"
 aliases = "/packages/88170"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "278516"
-usize = "624016"
-sha1sum = "fea59778aed4abbde7876976f3c6724d9c7fe412"
-depends = "['knotifications>=5.115.0', 'kxmlgui>=5.115.0']"
+size = "280808"
+usize = "633374"
+sha1sum = "304bfb42cec4849b81a73673ade554df59144f9b"
+depends = "['knotifications>=6.0.0', 'kxmlgui>=6.0.0']"
 +++
 ### Description: 
 KDE Ruler Widget.
@@ -49,10 +49,12 @@ KDE Ruler Widget.
 * /usr/share/doc/HTML/ru/kruler/index.docbook
 * /usr/share/doc/HTML/sv/kruler/index.cache.bz2
 * /usr/share/doc/HTML/sv/kruler/index.docbook
+* /usr/share/doc/HTML/tr/kruler/index.cache.bz2
+* /usr/share/doc/HTML/tr/kruler/index.docbook
 * /usr/share/doc/HTML/uk/kruler/index.cache.bz2
 * /usr/share/doc/HTML/uk/kruler/index.docbook
 * /usr/share/doc/HTML/uk/kruler/kruler-settings.png
-* /usr/share/doc/kruler-23.08.5/TODO
+* /usr/share/doc/kruler-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kruler.png
 * /usr/share/icons/hicolor/16x16/actions/kruler-east.png
 * /usr/share/icons/hicolor/16x16/actions/kruler-north.png
@@ -67,10 +69,11 @@ KDE Ruler Widget.
 * /usr/share/icons/hicolor/32x32/apps/kruler.png
 * /usr/share/icons/hicolor/48x48/apps/kruler.png
 * /usr/share/icons/hicolor/64x64/apps/kruler.png
-* /usr/share/knotifications5/kruler.notifyrc
+* /usr/share/knotifications6/kruler.notifyrc
 * /usr/share/kruler/sounds/move.wav
 * /usr/share/locale/af/LC_MESSAGES/kruler.mo
 * /usr/share/locale/ar/LC_MESSAGES/kruler.mo
+* /usr/share/locale/ast/LC_MESSAGES/kruler.mo
 * /usr/share/locale/be/LC_MESSAGES/kruler.mo
 * /usr/share/locale/bg/LC_MESSAGES/kruler.mo
 * /usr/share/locale/br/LC_MESSAGES/kruler.mo

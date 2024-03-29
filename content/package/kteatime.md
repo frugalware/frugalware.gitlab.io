@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kteatime 23.08.5-1"
-version = "23.08.5-1"
+title = "kteatime 24.02.1-3"
+version = "24.02.1-3"
 description = "Tea Cooker."
-date = "2024-02-19T22:55:32"
+date = "2024-03-27T11:25:02"
 aliases = "/packages/184729"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "347220"
-usize = "763655"
-sha1sum = "7a2e67de03bcb860b25d7a3fd07cf285c53df9bf"
-depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5']"
+size = "346052"
+usize = "767034"
+sha1sum = "342a26fcb0cd7e72a31708e3614146c75a74faec"
+depends = "['knotifyconfig>=6.0.0', 'libkdegames>=24.02.1']"
 +++
 ### Description: 
 Tea Cooker.
@@ -51,17 +51,18 @@ Tea Cooker.
 * /usr/share/doc/HTML/uk/kteatime/config.png
 * /usr/share/doc/HTML/uk/kteatime/index.cache.bz2
 * /usr/share/doc/HTML/uk/kteatime/index.docbook
-* /usr/share/doc/kteatime-23.08.5/ChangeLog
-* /usr/share/doc/kteatime-23.08.5/TODO
+* /usr/share/doc/kteatime-24.02.1/ChangeLog
+* /usr/share/doc/kteatime-24.02.1/TODO
 * /usr/share/icons/hicolor/16x16/apps/kteatime.png
 * /usr/share/icons/hicolor/22x22/apps/kteatime.png
 * /usr/share/icons/hicolor/32x32/apps/kteatime.png
 * /usr/share/icons/hicolor/48x48/apps/kteatime.png
 * /usr/share/icons/hicolor/64x64/apps/kteatime.png
 * /usr/share/icons/hicolor/scalable/apps/kteatime.svgz
-* /usr/share/knotifications5/kteatime.notifyrc
+* /usr/share/knotifications6/kteatime.notifyrc
 * /usr/share/locale/af/LC_MESSAGES/kteatime.mo
 * /usr/share/locale/ar/LC_MESSAGES/kteatime.mo
+* /usr/share/locale/ast/LC_MESSAGES/kteatime.mo
 * /usr/share/locale/be/LC_MESSAGES/kteatime.mo
 * /usr/share/locale/bg/LC_MESSAGES/kteatime.mo
 * /usr/share/locale/bn/LC_MESSAGES/kteatime.mo

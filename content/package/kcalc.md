@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcalc 23.08.5-1"
-version = "23.08.5-1"
+title = "kcalc 24.02.1-3"
+version = "24.02.1-3"
 description = "A scientific calculator."
-date = "2024-02-19T21:08:45"
+date = "2024-03-27T10:07:06"
 aliases = "/packages/153201"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "621088"
-usize = "2788906"
-sha1sum = "07a58acf8e12cee04f5344a41c6556b0999634ac"
-depends = "['kinit>=5.115.0']"
+size = "648432"
+usize = "2883179"
+sha1sum = "fa3f5fc92d917b2b9e5943b79e342abed85421a5"
+depends = "['knotifications>=6.0.0', 'kxmlgui>=6.0.0']"
 +++
 ### Description: 
 A scientific calculator.
@@ -68,16 +68,20 @@ A scientific calculator.
 * /usr/share/doc/HTML/sv/kcalc/commands.docbook
 * /usr/share/doc/HTML/sv/kcalc/index.cache.bz2
 * /usr/share/doc/HTML/sv/kcalc/index.docbook
+* /usr/share/doc/HTML/tr/kcalc/commands.docbook
+* /usr/share/doc/HTML/tr/kcalc/index.cache.bz2
+* /usr/share/doc/HTML/tr/kcalc/index.docbook
 * /usr/share/doc/HTML/uk/kcalc/commands.docbook
 * /usr/share/doc/HTML/uk/kcalc/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcalc/index.docbook
-* /usr/share/doc/kcalc-23.08.5/ChangeLog
-* /usr/share/doc/kcalc-23.08.5/README
-* /usr/share/doc/kcalc-23.08.5/TODO
+* /usr/share/doc/kcalc-24.02.1/ChangeLog
+* /usr/share/doc/kcalc-24.02.1/README
+* /usr/share/doc/kcalc-24.02.1/TODO
 * /usr/share/kconf_update/kcalcrc.upd
 * /usr/share/kglobalaccel/org.kde.kcalc.desktop
 * /usr/share/locale/af/LC_MESSAGES/kcalc.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcalc.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcalc.mo
 * /usr/share/locale/az/LC_MESSAGES/kcalc.mo
 * /usr/share/locale/be/LC_MESSAGES/kcalc.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcalc.mo

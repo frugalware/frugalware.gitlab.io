@@ -1,23 +1,22 @@
 +++
 draft = false
-title = "khangman 23.08.5-1"
-version = "23.08.5-1"
+title = "khangman 24.02.1-3"
+version = "24.02.1-3"
 description = "KDE hangman game."
-date = "2024-02-19T23:07:12"
+date = "2024-03-27T11:31:44"
 aliases = "/packages/152829"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "6527264"
-usize = "9766909"
-sha1sum = "cc94f3b153f8d7f4b69bfbd59449e3c24a874492"
-depends = "['kdeclarative>=5.115.0', 'knewstuff>=5.115.0', 'libkeduvocdocument>=23.08.5', 'qt5-declarative>=5.15.12', 'qt5-svg>=5.15.12']"
+size = "6466104"
+usize = "9802403"
+sha1sum = "e4a142117960e0c08bffe78cf23ec45af6660451"
+depends = "['kdeclarative>=6.0.0', 'knewstuff>=6.0.0', 'libkeduvocdocument>=24.02.1', 'qt6-declarative>=6.6.3', 'qt6-svg>=6.6.3']"
 +++
 ### Description: 
 KDE hangman game.
 
 ### Files: 
-* /etc/xdg/khangman.knsrc
 * /usr/bin/khangman
 * /usr/share/applications/org.kde.khangman.desktop
 * /usr/share/config.kcfg/khangman.kcfg
@@ -103,16 +102,16 @@ KDE hangman game.
 * /usr/share/doc/HTML/uk/khangman/settings-languages.png
 * /usr/share/doc/HTML/uk/khangman/settings-timers.png
 * /usr/share/doc/HTML/uk/khangman/settings.png
-* /usr/share/doc/khangman-23.08.5/AUTHORS
-* /usr/share/doc/khangman-23.08.5/ChangeLog
-* /usr/share/doc/khangman-23.08.5/COPYING
-* /usr/share/doc/khangman-23.08.5/COPYING.DOC
-* /usr/share/doc/khangman-23.08.5/INSTALL
-* /usr/share/doc/khangman-23.08.5/README
-* /usr/share/doc/khangman-23.08.5/README.developer
-* /usr/share/doc/khangman-23.08.5/README.languages
-* /usr/share/doc/khangman-23.08.5/README_packagers
-* /usr/share/doc/khangman-23.08.5/TODO
+* /usr/share/doc/khangman-24.02.1/AUTHORS
+* /usr/share/doc/khangman-24.02.1/ChangeLog
+* /usr/share/doc/khangman-24.02.1/COPYING
+* /usr/share/doc/khangman-24.02.1/COPYING.DOC
+* /usr/share/doc/khangman-24.02.1/INSTALL
+* /usr/share/doc/khangman-24.02.1/README
+* /usr/share/doc/khangman-24.02.1/README.developer
+* /usr/share/doc/khangman-24.02.1/README.languages
+* /usr/share/doc/khangman-24.02.1/README_packagers
+* /usr/share/doc/khangman-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/khangman.png
 * /usr/share/icons/hicolor/16x16/apps/khangman.png
 * /usr/share/icons/hicolor/22x22/apps/khangman.png
@@ -124,6 +123,7 @@ KDE hangman game.
 * /usr/share/khangman/cs.txt
 * /usr/share/khangman/da.txt
 * /usr/share/khangman/de.txt
+* /usr/share/khangman/eo.txt
 * /usr/share/khangman/es.txt
 * /usr/share/khangman/et.txt
 * /usr/share/khangman/fi.txt
@@ -139,44 +139,6 @@ KDE hangman game.
 * /usr/share/khangman/pl.txt
 * /usr/share/khangman/pt.txt
 * /usr/share/khangman/pt_BR.txt
-* /usr/share/khangman/qml/gallows/gallows1.png
-* /usr/share/khangman/qml/gallows/gallows10.png
-* /usr/share/khangman/qml/gallows/gallows2.png
-* /usr/share/khangman/qml/gallows/gallows3.png
-* /usr/share/khangman/qml/gallows/gallows4.png
-* /usr/share/khangman/qml/gallows/gallows5.png
-* /usr/share/khangman/qml/gallows/gallows6.png
-* /usr/share/khangman/qml/gallows/gallows7.png
-* /usr/share/khangman/qml/gallows/gallows8.png
-* /usr/share/khangman/qml/gallows/gallows9.png
-* /usr/share/khangman/qml/GamePage.qml
-* /usr/share/khangman/qml/Images/about-kde.png
-* /usr/share/khangman/qml/Images/action-fail.png
-* /usr/share/khangman/qml/Images/action-success.png
-* /usr/share/khangman/qml/Images/dialog-information.png
-* /usr/share/khangman/qml/Images/get-hot-new-stuff.png
-* /usr/share/khangman/qml/Images/go-next.png
-* /usr/share/khangman/qml/Images/handbook.png
-* /usr/share/khangman/qml/Images/help-hint.png
-* /usr/share/khangman/qml/Images/pause.png
-* /usr/share/khangman/qml/Images/play.png
-* /usr/share/khangman/qml/Images/quit.png
-* /usr/share/khangman/qml/Images/settings_icon.png
-* /usr/share/khangman/qml/LetterElement.qml
-* /usr/share/khangman/qml/main.qml
-* /usr/share/khangman/qml/MainSettingsDialog.qml
-* /usr/share/khangman/qml/MySelectionDialog.qml
-* /usr/share/khangman/qml/sounds/chalk.ogg
-* /usr/share/khangman/qml/sounds/chalk.wav
-* /usr/share/khangman/qml/sounds/EW_Dialogue_Appear.ogg
-* /usr/share/khangman/qml/sounds/EW_Dialogue_Appear.wav
-* /usr/share/khangman/qml/sounds/khangman-alphabet-button-press.wav
-* /usr/share/khangman/qml/sounds/new_game.ogg
-* /usr/share/khangman/qml/sounds/new_game.wav
-* /usr/share/khangman/qml/sounds/splash.ogg
-* /usr/share/khangman/qml/sounds/splash.wav
-* /usr/share/khangman/qml/sounds/wrong.ogg
-* /usr/share/khangman/qml/sounds/wrong.wav
 * /usr/share/khangman/sk.txt
 * /usr/share/khangman/sl.txt
 * /usr/share/khangman/sr@ijekavianlatin.txt
@@ -190,8 +152,10 @@ KDE hangman game.
 * /usr/share/khangman/themes/khangman_winter.svg
 * /usr/share/khangman/themes/standardthemes.xml
 * /usr/share/khangman/tr.txt
+* /usr/share/knsrcfiles/khangman.knsrc
 * /usr/share/locale/af/LC_MESSAGES/khangman.mo
 * /usr/share/locale/ar/LC_MESSAGES/khangman.mo
+* /usr/share/locale/ast/LC_MESSAGES/khangman.mo
 * /usr/share/locale/be/LC_MESSAGES/khangman.mo
 * /usr/share/locale/bg/LC_MESSAGES/khangman.mo
 * /usr/share/locale/bn/LC_MESSAGES/khangman.mo
@@ -220,6 +184,7 @@ KDE hangman game.
 * /usr/share/locale/hne/LC_MESSAGES/khangman.mo
 * /usr/share/locale/hr/LC_MESSAGES/khangman.mo
 * /usr/share/locale/hu/LC_MESSAGES/khangman.mo
+* /usr/share/locale/ia/LC_MESSAGES/khangman.mo
 * /usr/share/locale/is/LC_MESSAGES/khangman.mo
 * /usr/share/locale/it/LC_MESSAGES/khangman.mo
 * /usr/share/locale/ja/LC_MESSAGES/khangman.mo

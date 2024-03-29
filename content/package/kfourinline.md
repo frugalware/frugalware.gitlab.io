@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kfourinline 23.08.5-1"
-version = "23.08.5-1"
+title = "kfourinline 24.02.1-3"
+version = "24.02.1-3"
 description = "A four-in-a-row game."
-date = "2024-02-19T22:36:17"
+date = "2024-03-27T11:07:26"
 aliases = "/packages/184180"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "811836"
-usize = "6247779"
-sha1sum = "864a6c009065add7099cb61f537e906ea5c2d55f"
-depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5', 'qt5-svg>=5.15.12']"
+size = "821916"
+usize = "6301200"
+sha1sum = "74bc10c49abd7321b5693623d2c0954902f96e1d"
+depends = "['knotifyconfig>=6.0.0', 'libkdegames>=24.02.1', 'qt6-svg>=6.6.3']"
 +++
 ### Description: 
 A four-in-a-row game.
@@ -53,8 +53,8 @@ A four-in-a-row game.
 * /usr/share/doc/HTML/uk/kfourinline/index.cache.bz2
 * /usr/share/doc/HTML/uk/kfourinline/index.docbook
 * /usr/share/doc/HTML/uk/kfourinline/settings.png
-* /usr/share/doc/kfourinline-23.08.5/AUTHORS
-* /usr/share/doc/kfourinline-23.08.5/README.md
+* /usr/share/doc/kfourinline-24.02.1/AUTHORS
+* /usr/share/doc/kfourinline-24.02.1/README.md
 * /usr/share/icons/hicolor/128x128/apps/kfourinline.png
 * /usr/share/icons/hicolor/16x16/apps/kfourinline.png
 * /usr/share/icons/hicolor/22x22/apps/kfourinline.png
@@ -74,6 +74,7 @@ A four-in-a-row game.
 * /usr/share/kfourinline/grafix/yellow_reflection.rc
 * /usr/share/locale/af/LC_MESSAGES/kfourinline.mo
 * /usr/share/locale/ar/LC_MESSAGES/kfourinline.mo
+* /usr/share/locale/ast/LC_MESSAGES/kfourinline.mo
 * /usr/share/locale/be/LC_MESSAGES/kfourinline.mo
 * /usr/share/locale/bg/LC_MESSAGES/kfourinline.mo
 * /usr/share/locale/br/LC_MESSAGES/kfourinline.mo
@@ -98,6 +99,7 @@ A four-in-a-row game.
 * /usr/share/locale/he/LC_MESSAGES/kfourinline.mo
 * /usr/share/locale/hr/LC_MESSAGES/kfourinline.mo
 * /usr/share/locale/hu/LC_MESSAGES/kfourinline.mo
+* /usr/share/locale/ia/LC_MESSAGES/kfourinline.mo
 * /usr/share/locale/id/LC_MESSAGES/kfourinline.mo
 * /usr/share/locale/is/LC_MESSAGES/kfourinline.mo
 * /usr/share/locale/it/LC_MESSAGES/kfourinline.mo
@@ -142,4 +144,4 @@ A four-in-a-row game.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kfourinline.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kfourinline.mo
 * /usr/share/metainfo/org.kde.kfourinline.appdata.xml
-* /usr/share/qlogging-categories5/kfourinline.categories
+* /usr/share/qlogging-categories6/kfourinline.categories

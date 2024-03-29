@@ -12,7 +12,7 @@ size = "4374004"
 usize = "24232541"
 sha1sum = "1231c7a348a982d88a7f1f692f869104649e4918"
 depends = "['karchive5>=5.115.0', 'kbookmarks5>=5.115.0', 'kded5', 'kdoctools5>=5.115.0', 'kwallet5>=5.115.0', 'libkrb5>=1.14.4', 'libxslt', 'switcheroo-control']"
-reverse_depends = "['kipi-plugins', 'knewstuff5', 'knotifyconfig5', 'kparts5', 'krename', 'ktouch', 'kwave', 'kxmlrpcclient5', 'purpose5', 'skanlite', 'syndication5']"
+reverse_depends = "['kipi-plugins', 'knewstuff5', 'knotifyconfig5', 'kparts5', 'krename', 'ktouch', 'kwave', 'kxmlrpcclient5', 'libkcddb5', 'purpose5', 'skanlite', 'syndication5']"
 +++
 ### Description: 
 Network transparent access to files and data.

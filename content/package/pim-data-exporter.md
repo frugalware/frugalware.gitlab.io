@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pim-data-exporter 23.08.5-1"
-version = "23.08.5-1"
+title = "pim-data-exporter 24.02.1-3"
+version = "24.02.1-3"
 description = "Assistant to backup and archive PIM data and configuration"
-date = "2024-02-20T09:39:28"
+date = "2024-03-27T12:32:09"
 aliases = "/packages/218941"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "457700"
-usize = "1765719"
-sha1sum = "7d31173d6454227d97716234e29b12246dc4b61a"
-depends = "['calendarsupport>=23.08.5', 'kalarm>=23.08.5', 'mailcommon>=23.08.5']"
+size = "485348"
+usize = "1856256"
+sha1sum = "b84f88af58db21d41fd02984b29705cfa7476171"
+depends = "['calendarsupport>=24.02.1', 'kalarm>=24.02.1', 'mailcommon>=24.02.1']"
 +++
 ### Description: 
 Assistant to backup and archive PIM data and configuration
@@ -19,8 +19,8 @@ Assistant to backup and archive PIM data and configuration
 ### Files: 
 * /usr/bin/pimdataexporter
 * /usr/bin/pimdataexporterconsole
-* /usr/lib/libpimdataexporterprivate.so.5
-* /usr/lib/libpimdataexporterprivate.so.5.24.5
+* /usr/lib/libpimdataexporterprivate.so.6
+* /usr/lib/libpimdataexporterprivate.so.6.0.1
 * /usr/share/applications/org.kde.pimdataexporter.desktop
 * /usr/share/config.kcfg/pimdataexporterglobalconfig.kcfg
 * /usr/share/doc/HTML/ca/pimsettingexporter/index.cache.bz2
@@ -49,8 +49,9 @@ Assistant to backup and archive PIM data and configuration
 * /usr/share/doc/HTML/sv/pimsettingexporter/index.docbook
 * /usr/share/doc/HTML/uk/pimsettingexporter/index.cache.bz2
 * /usr/share/doc/HTML/uk/pimsettingexporter/index.docbook
-* /usr/share/doc/pim-data-exporter-23.08.5/TODO
+* /usr/share/doc/pim-data-exporter-24.02.1/TODO
 * /usr/share/locale/ar/LC_MESSAGES/pimdataexporter.mo
+* /usr/share/locale/ast/LC_MESSAGES/pimdataexporter.mo
 * /usr/share/locale/az/LC_MESSAGES/pimdataexporter.mo
 * /usr/share/locale/bg/LC_MESSAGES/pimdataexporter.mo
 * /usr/share/locale/bs/LC_MESSAGES/pimdataexporter.mo
@@ -101,5 +102,5 @@ Assistant to backup and archive PIM data and configuration
 * /usr/share/locale/zh_CN/LC_MESSAGES/pimdataexporter.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/pimdataexporter.mo
 * /usr/share/metainfo/org.kde.pimdataexporter.appdata.xml
-* /usr/share/qlogging-categories5/pimdataexporter.categories
-* /usr/share/qlogging-categories5/pimdataexporter.renamecategories
+* /usr/share/qlogging-categories6/pimdataexporter.categories
+* /usr/share/qlogging-categories6/pimdataexporter.renamecategories

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "wrapland 0.527.0-2"
-version = "0.527.0-2"
+title = "wrapland 0.600.0-2"
+version = "0.600.0-2"
 description = "Qt/C++ library wrapping libwayland"
-date = "2023-10-21T07:41:38"
+date = "2024-03-26T08:45:20"
 aliases = "/packages/220135"
-categories = ['kde5-extra']
-upstreamurl = "https://gitlab.com/kwinft/wrapland"
+categories = []
+upstreamurl = "https://github.com/winft/wrapland"
 arch = "x86_64"
-size = "632460"
-usize = "3619623"
-sha1sum = "063bac8427e30f520ba48114c4da894560f34692"
-depends = "['kwayland>=$_F_kf5_full', 'libglvnd']"
+size = "711604"
+usize = "4109161"
+sha1sum = "1123b7005704efa070c636397910c75c24dfe6c1"
+depends = "['microsoft-gsl', 'qt6-base>=', 'wayland']"
 reverse_depends = "['disman']"
 +++
 ### Description: 
@@ -44,9 +44,6 @@ Qt/C++ library wrapping libwayland
 * /usr/include/Wrapland/Client/layer_shell_v1.h
 * /usr/include/Wrapland/Client/linux_dmabuf_v1.h
 * /usr/include/Wrapland/Client/output.h
-* /usr/include/Wrapland/Client/output_configuration_v1.h
-* /usr/include/Wrapland/Client/output_device_v1.h
-* /usr/include/Wrapland/Client/output_management_v1.h
 * /usr/include/Wrapland/Client/plasmashell.h
 * /usr/include/Wrapland/Client/plasmavirtualdesktop.h
 * /usr/include/Wrapland/Client/plasmawindowmanagement.h
@@ -61,6 +58,7 @@ Qt/C++ library wrapping libwayland
 * /usr/include/Wrapland/Client/registry.h
 * /usr/include/Wrapland/Client/relativepointer.h
 * /usr/include/Wrapland/Client/seat.h
+* /usr/include/Wrapland/Client/security_context_v1.h
 * /usr/include/Wrapland/Client/server_decoration_palette.h
 * /usr/include/Wrapland/Client/shadow.h
 * /usr/include/Wrapland/Client/shell.h
@@ -102,7 +100,6 @@ Qt/C++ library wrapping libwayland
 * /usr/include/Wrapland/Server/drm_lease_v1.h
 * /usr/include/Wrapland/Server/fake_input.h
 * /usr/include/Wrapland/Server/filtered_display.h
-* /usr/include/Wrapland/Server/globals.h
 * /usr/include/Wrapland/Server/idle_inhibit_v1.h
 * /usr/include/Wrapland/Server/idle_notify_v1.h
 * /usr/include/Wrapland/Server/input_method_v2.h
@@ -114,10 +111,7 @@ Qt/C++ library wrapping libwayland
 * /usr/include/Wrapland/Server/layer_shell_v1.h
 * /usr/include/Wrapland/Server/linux_dmabuf_v1.h
 * /usr/include/Wrapland/Server/output.h
-* /usr/include/Wrapland/Server/output_changeset_v1.h
-* /usr/include/Wrapland/Server/output_configuration_v1.h
-* /usr/include/Wrapland/Server/output_device_v1.h
-* /usr/include/Wrapland/Server/output_management_v1.h
+* /usr/include/Wrapland/Server/output_manager.h
 * /usr/include/Wrapland/Server/plasma_activation_feedback.h
 * /usr/include/Wrapland/Server/plasma_shell.h
 * /usr/include/Wrapland/Server/plasma_virtual_desktop.h
@@ -131,6 +125,7 @@ Qt/C++ library wrapping libwayland
 * /usr/include/Wrapland/Server/region.h
 * /usr/include/Wrapland/Server/relative_pointer_v1.h
 * /usr/include/Wrapland/Server/seat.h
+* /usr/include/Wrapland/Server/security_context_v1.h
 * /usr/include/Wrapland/Server/server_decoration_palette.h
 * /usr/include/Wrapland/Server/shadow.h
 * /usr/include/Wrapland/Server/slide.h
@@ -143,6 +138,9 @@ Qt/C++ library wrapping libwayland
 * /usr/include/Wrapland/Server/touch_pool.h
 * /usr/include/Wrapland/Server/viewporter.h
 * /usr/include/Wrapland/Server/virtual_keyboard_v1.h
+* /usr/include/Wrapland/Server/wlr_output_configuration_head_v1.h
+* /usr/include/Wrapland/Server/wlr_output_configuration_v1.h
+* /usr/include/Wrapland/Server/wlr_output_manager_v1.h
 * /usr/include/Wrapland/Server/wl_output.h
 * /usr/include/Wrapland/Server/wraplandserver_export.h
 * /usr/include/Wrapland/Server/xdg_activation_v1.h
@@ -161,11 +159,10 @@ Qt/C++ library wrapping libwayland
 * /usr/lib/cmake/Wrapland/WraplandTargets.cmake
 * /usr/lib/libWraplandClient.so
 * /usr/lib/libWraplandClient.so.0
-* /usr/lib/libWraplandClient.so.0.527.0
+* /usr/lib/libWraplandClient.so.0.600.0
 * /usr/lib/libWraplandServer.so
 * /usr/lib/libWraplandServer.so.0
-* /usr/lib/libWraplandServer.so.0.527.0
-* /usr/lib/wrapland/org-kde-kf5-wrapland-testserver
-* /usr/share/doc/wrapland-0.527.0/COPYING.LIB
-* /usr/share/doc/wrapland-0.527.0/README.md
-* /usr/share/qlogging-categories5/org_kde_wrapland.categories
+* /usr/lib/libWraplandServer.so.0.600.0
+* /usr/share/doc/wrapland-0.600.0/COPYING.LIB
+* /usr/share/doc/wrapland-0.600.0/README.md
+* /usr/share/qlogging-categories6/org_kde_wrapland.categories

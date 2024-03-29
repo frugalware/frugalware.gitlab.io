@@ -1,25 +1,25 @@
 +++
 draft = false
-title = "kdenetwork-filesharing 23.08.5-1"
-version = "23.08.5-1"
+title = "kdenetwork-filesharing 24.02.1-3"
+version = "24.02.1-3"
 description = "Front end for KDE to enable or disable, simple ( HOME ) or advanced ( SAMBA, NFS ) file sharing."
-date = "2024-02-19T21:16:09"
+date = "2024-03-27T10:11:35"
 aliases = "/packages/184677"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "172240"
-usize = "944417"
-sha1sum = "d38df28dcf854920281953e6012b2bd5c66d262c"
-depends = "['kdeclarative>=5.115.0', 'kio>=5.115.0', 'packagekit-qt5>=1.0.1', 'qcoro', 'qt5-svg>=5.15.12']"
+size = "187356"
+usize = "987802"
+sha1sum = "b72aa290b4a367f3db4c0fbac3d6f7011c071754"
+depends = "['kdeclarative>=6.0.0', 'kio>=6.0.0', 'packagekit-qt6>=1.0.1', 'qcoro', 'qt6-svg>=6.6.3']"
 +++
 ### Description: 
 Front end for KDE to enable or disable, simple ( HOME ) or advanced ( SAMBA, NFS ) file sharing.
 
 ### Files: 
-* /usr/lib/kf5/kauth/authhelper
-* /usr/lib/qt5/plugins/kf5/propertiesdialog/SambaAcl.so
-* /usr/lib/qt5/plugins/kf5/propertiesdialog/sambausershareplugin.so
+* /usr/lib/kauth/kf6/kauth/authhelper
+* /usr/lib/qt6/plugins/kf6/propertiesdialog/SambaAcl.so
+* /usr/lib/qt6/plugins/kf6/propertiesdialog/sambausershareplugin.so
 * /usr/share/dbus-1/system-services/org.kde.filesharing.samba.service
 * /usr/share/dbus-1/system.d/org.kde.filesharing.samba.conf
 * /usr/share/locale/ar/LC_MESSAGES/kfileshare.mo

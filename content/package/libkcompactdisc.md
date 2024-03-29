@@ -1,37 +1,39 @@
 +++
 draft = false
-title = "libkcompactdisc 23.08.5-1"
-version = "23.08.5-1"
+title = "libkcompactdisc 24.02.1-3"
+version = "24.02.1-3"
 description = "A library for interfacing with CDs."
-date = "2024-02-19T20:49:12"
+date = "2024-03-27T09:55:19"
 aliases = "/packages/168473"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "72684"
-usize = "246719"
-sha1sum = "05e63e3bedd3f602cbc2238cbe5434c32d55542b"
-depends = "['kcoreaddons>=$_F_kf5_full', 'ki18n>=$_F_kf5_full', 'phonon-qt5', 'solid>=$_F_kf5_full']"
+size = "73020"
+usize = "261789"
+sha1sum = "ea05f7cb8410bc519a5334c5e1ab12b3bc2376f0"
+depends = "['kcoreaddons>=$_F_kf6_full', 'ki18n>=$_F_kf6_full', 'phonon-qt6', 'solid>=$_F_kf6_full']"
 reverse_depends = "['audiocd-kio']"
 +++
 ### Description: 
 A library for interfacing with CDs.
 
 ### Files: 
-* /usr/include/KF5/KCompactDisc/KCompactDisc
-* /usr/include/KF5/KCompactDisc/kcompactdisc.h
-* /usr/include/KF5/KCompactDisc/kcompactdisc_export.h
-* /usr/include/KF5/KCompactDisc/kcompactdisc_version.h
-* /usr/lib/cmake/KF5CompactDisc/KF5CompactDiscConfig.cmake
-* /usr/lib/cmake/KF5CompactDisc/KF5CompactDiscConfigVersion.cmake
-* /usr/lib/cmake/KF5CompactDisc/KF5CompactDiscTargets-release.cmake
-* /usr/lib/cmake/KF5CompactDisc/KF5CompactDiscTargets.cmake
-* /usr/lib/libKF5CompactDisc.so
-* /usr/lib/libKF5CompactDisc.so.5
-* /usr/lib/libKF5CompactDisc.so.5.0.0
-* /usr/share/doc/libkcompactdisc-23.08.5/COPYING
-* /usr/share/doc/libkcompactdisc-23.08.5/COPYING.LIB
+* /usr/include/KCompactDisc6/KCompactDisc
+* /usr/include/KCompactDisc6/kcompactdisc.h
+* /usr/include/KCompactDisc6/kcompactdisc_export.h
+* /usr/include/KCompactDisc6/kcompactdisc_version.h
+* /usr/lib/cmake/KCompactDisc6/KCompactDisc6Config.cmake
+* /usr/lib/cmake/KCompactDisc6/KCompactDisc6ConfigVersion.cmake
+* /usr/lib/cmake/KCompactDisc6/KCompactDisc6Targets-release.cmake
+* /usr/lib/cmake/KCompactDisc6/KCompactDisc6Targets.cmake
+* /usr/lib/libKCompactDisc6.so
+* /usr/lib/libKCompactDisc6.so.5
+* /usr/lib/libKCompactDisc6.so.5.0.0
+* /usr/lib/qt6/mkspecs/modules/qt_KCompactDisc.pri
+* /usr/share/doc/libkcompactdisc-24.02.1/COPYING
+* /usr/share/doc/libkcompactdisc-24.02.1/COPYING.LIB
 * /usr/share/locale/ar/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/ast/LC_MESSAGES/libkcompactdisc.mo
 * /usr/share/locale/be/LC_MESSAGES/libkcompactdisc.mo
 * /usr/share/locale/bg/LC_MESSAGES/libkcompactdisc.mo
 * /usr/share/locale/bs/LC_MESSAGES/libkcompactdisc.mo
@@ -79,6 +81,7 @@ A library for interfacing with CDs.
 * /usr/share/locale/pt_BR/LC_MESSAGES/libkcompactdisc.mo
 * /usr/share/locale/ro/LC_MESSAGES/libkcompactdisc.mo
 * /usr/share/locale/ru/LC_MESSAGES/libkcompactdisc.mo
+* /usr/share/locale/sa/LC_MESSAGES/libkcompactdisc.mo
 * /usr/share/locale/se/LC_MESSAGES/libkcompactdisc.mo
 * /usr/share/locale/sk/LC_MESSAGES/libkcompactdisc.mo
 * /usr/share/locale/sl/LC_MESSAGES/libkcompactdisc.mo
@@ -96,4 +99,3 @@ A library for interfacing with CDs.
 * /usr/share/locale/wa/LC_MESSAGES/libkcompactdisc.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/libkcompactdisc.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libkcompactdisc.mo
-* /usr/share/qt5/mkspecs/modules/qt_KCompactDisc.pri

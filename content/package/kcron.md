@@ -1,92 +1,93 @@
 +++
 draft = false
-title = "kcron 23.08.5-1"
-version = "23.08.5-1"
+title = "kcron 24.02.1-3"
+version = "24.02.1-3"
 description = "KDE module for configure and schedule tasks."
-date = "2024-02-19T21:11:19"
+date = "2024-03-27T10:09:15"
 aliases = "/packages/135945"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "990120"
-usize = "2023137"
-sha1sum = "cc911a3250a3f505d370f40e1d6a2a304a2c62fb"
-depends = "['kcmutils>=5.115.0', 'kio>=5.115.0', 'qt5-svg>=5.15.12']"
+size = "995768"
+usize = "2059184"
+sha1sum = "adfed9e6a750f7d23a26fd0b3526ba40b61dfc0c"
+depends = "['kcmutils>=6.0.0', 'kio>=6.0.0', 'qt6-svg>=6.6.3']"
 +++
 ### Description: 
 KDE module for configure and schedule tasks.
 
 ### Files: 
-* /usr/lib/kf5/kauth/kcron_helper
-* /usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/kcm_cron.so
+* /usr/lib/kauth/kf6/kauth/kcron_helper
+* /usr/lib/qt6/plugins/plasma/kcms/systemsettings_qwidgets/kcm_cron.so
 * /usr/share/applications/kcm_cron.desktop
 * /usr/share/dbus-1/system-services/local.kcron.crontab.service
 * /usr/share/dbus-1/system.d/local.kcron.crontab.conf
-* /usr/share/doc/HTML/ca/kcontrol5/kcron/index.cache.bz2
-* /usr/share/doc/HTML/ca/kcontrol5/kcron/index.docbook
-* /usr/share/doc/HTML/de/kcontrol5/kcron/index.cache.bz2
-* /usr/share/doc/HTML/de/kcontrol5/kcron/index.docbook
-* /usr/share/doc/HTML/de/kcontrol5/kcron/kcronstart.png
-* /usr/share/doc/HTML/de/kcontrol5/kcron/newtask.png
-* /usr/share/doc/HTML/de/kcontrol5/kcron/newvariable.png
-* /usr/share/doc/HTML/en/kcontrol5/kcron/index.cache.bz2
-* /usr/share/doc/HTML/en/kcontrol5/kcron/index.docbook
-* /usr/share/doc/HTML/en/kcontrol5/kcron/kcronstart.png
-* /usr/share/doc/HTML/en/kcontrol5/kcron/newtask.png
-* /usr/share/doc/HTML/en/kcontrol5/kcron/newvariable.png
-* /usr/share/doc/HTML/es/kcontrol5/kcron/index.cache.bz2
-* /usr/share/doc/HTML/es/kcontrol5/kcron/index.docbook
-* /usr/share/doc/HTML/es/kcontrol5/kcron/print.png
-* /usr/share/doc/HTML/et/kcontrol5/kcron/index.cache.bz2
-* /usr/share/doc/HTML/et/kcontrol5/kcron/index.docbook
-* /usr/share/doc/HTML/fr/kcontrol5/kcron/index.cache.bz2
-* /usr/share/doc/HTML/fr/kcontrol5/kcron/index.docbook
-* /usr/share/doc/HTML/fr/kcontrol5/kcron/kcron.png
-* /usr/share/doc/HTML/fr/kcontrol5/kcron/kcronstart.png
-* /usr/share/doc/HTML/fr/kcontrol5/kcron/newtask.png
-* /usr/share/doc/HTML/fr/kcontrol5/kcron/newvariable.png
-* /usr/share/doc/HTML/fr/kcontrol5/kcron/print.png
-* /usr/share/doc/HTML/it/kcontrol5/kcron/index.cache.bz2
-* /usr/share/doc/HTML/it/kcontrol5/kcron/index.docbook
-* /usr/share/doc/HTML/ko/kcontrol5/kcron/index.cache.bz2
-* /usr/share/doc/HTML/ko/kcontrol5/kcron/index.docbook
-* /usr/share/doc/HTML/nl/kcontrol5/kcron/index.cache.bz2
-* /usr/share/doc/HTML/nl/kcontrol5/kcron/index.docbook
-* /usr/share/doc/HTML/nl/kcontrol5/kcron/newtask.png
-* /usr/share/doc/HTML/nl/kcontrol5/kcron/newvariable.png
-* /usr/share/doc/HTML/nl/kcontrol5/kcron/print.png
-* /usr/share/doc/HTML/pt/kcontrol5/kcron/index.cache.bz2
-* /usr/share/doc/HTML/pt/kcontrol5/kcron/index.docbook
-* /usr/share/doc/HTML/pt/kcontrol5/kcron/kcron.png
-* /usr/share/doc/HTML/pt/kcontrol5/kcron/kcronstart.png
-* /usr/share/doc/HTML/pt/kcontrol5/kcron/newtask.png
-* /usr/share/doc/HTML/pt/kcontrol5/kcron/newvariable.png
-* /usr/share/doc/HTML/pt/kcontrol5/kcron/print.png
-* /usr/share/doc/HTML/pt_BR/kcontrol5/kcron/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/kcontrol5/kcron/index.docbook
-* /usr/share/doc/HTML/pt_BR/kcontrol5/kcron/kcronstart.png
-* /usr/share/doc/HTML/pt_BR/kcontrol5/kcron/newtask.png
-* /usr/share/doc/HTML/pt_BR/kcontrol5/kcron/newvariable.png
-* /usr/share/doc/HTML/ru/kcontrol5/kcron/index.cache.bz2
-* /usr/share/doc/HTML/ru/kcontrol5/kcron/index.docbook
-* /usr/share/doc/HTML/sv/kcontrol5/kcron/index.cache.bz2
-* /usr/share/doc/HTML/sv/kcontrol5/kcron/index.docbook
-* /usr/share/doc/HTML/sv/kcontrol5/kcron/kcronstart.png
-* /usr/share/doc/HTML/sv/kcontrol5/kcron/newtask.png
-* /usr/share/doc/HTML/sv/kcontrol5/kcron/newvariable.png
-* /usr/share/doc/HTML/uk/kcontrol5/kcron/index.cache.bz2
-* /usr/share/doc/HTML/uk/kcontrol5/kcron/index.docbook
-* /usr/share/doc/HTML/uk/kcontrol5/kcron/kcronstart.png
-* /usr/share/doc/HTML/uk/kcontrol5/kcron/newtask.png
-* /usr/share/doc/HTML/uk/kcontrol5/kcron/newvariable.png
-* /usr/share/doc/HTML/zh_CN/kcontrol5/kcron/index.cache.bz2
-* /usr/share/doc/HTML/zh_CN/kcontrol5/kcron/index.docbook
-* /usr/share/doc/kcron-23.08.5/AUTHORS
-* /usr/share/doc/kcron-23.08.5/ChangeLog
-* /usr/share/doc/kcron-23.08.5/README
-* /usr/share/doc/kcron-23.08.5/TODO
+* /usr/share/doc/HTML/ca/kcontrol/kcron/index.cache.bz2
+* /usr/share/doc/HTML/ca/kcontrol/kcron/index.docbook
+* /usr/share/doc/HTML/de/kcontrol/kcron/index.cache.bz2
+* /usr/share/doc/HTML/de/kcontrol/kcron/index.docbook
+* /usr/share/doc/HTML/de/kcontrol/kcron/kcronstart.png
+* /usr/share/doc/HTML/de/kcontrol/kcron/newtask.png
+* /usr/share/doc/HTML/de/kcontrol/kcron/newvariable.png
+* /usr/share/doc/HTML/en/kcontrol/kcron/index.cache.bz2
+* /usr/share/doc/HTML/en/kcontrol/kcron/index.docbook
+* /usr/share/doc/HTML/en/kcontrol/kcron/kcronstart.png
+* /usr/share/doc/HTML/en/kcontrol/kcron/newtask.png
+* /usr/share/doc/HTML/en/kcontrol/kcron/newvariable.png
+* /usr/share/doc/HTML/es/kcontrol/kcron/index.cache.bz2
+* /usr/share/doc/HTML/es/kcontrol/kcron/index.docbook
+* /usr/share/doc/HTML/es/kcontrol/kcron/print.png
+* /usr/share/doc/HTML/et/kcontrol/kcron/index.cache.bz2
+* /usr/share/doc/HTML/et/kcontrol/kcron/index.docbook
+* /usr/share/doc/HTML/fr/kcontrol/kcron/index.cache.bz2
+* /usr/share/doc/HTML/fr/kcontrol/kcron/index.docbook
+* /usr/share/doc/HTML/fr/kcontrol/kcron/kcron.png
+* /usr/share/doc/HTML/fr/kcontrol/kcron/kcronstart.png
+* /usr/share/doc/HTML/fr/kcontrol/kcron/newtask.png
+* /usr/share/doc/HTML/fr/kcontrol/kcron/newvariable.png
+* /usr/share/doc/HTML/fr/kcontrol/kcron/print.png
+* /usr/share/doc/HTML/it/kcontrol/kcron/index.cache.bz2
+* /usr/share/doc/HTML/it/kcontrol/kcron/index.docbook
+* /usr/share/doc/HTML/ko/kcontrol/kcron/index.cache.bz2
+* /usr/share/doc/HTML/ko/kcontrol/kcron/index.docbook
+* /usr/share/doc/HTML/nl/kcontrol/kcron/index.cache.bz2
+* /usr/share/doc/HTML/nl/kcontrol/kcron/index.docbook
+* /usr/share/doc/HTML/nl/kcontrol/kcron/newtask.png
+* /usr/share/doc/HTML/nl/kcontrol/kcron/newvariable.png
+* /usr/share/doc/HTML/nl/kcontrol/kcron/print.png
+* /usr/share/doc/HTML/pt/kcontrol/kcron/index.cache.bz2
+* /usr/share/doc/HTML/pt/kcontrol/kcron/index.docbook
+* /usr/share/doc/HTML/pt/kcontrol/kcron/kcron.png
+* /usr/share/doc/HTML/pt/kcontrol/kcron/kcronstart.png
+* /usr/share/doc/HTML/pt/kcontrol/kcron/newtask.png
+* /usr/share/doc/HTML/pt/kcontrol/kcron/newvariable.png
+* /usr/share/doc/HTML/pt/kcontrol/kcron/print.png
+* /usr/share/doc/HTML/pt_BR/kcontrol/kcron/index.cache.bz2
+* /usr/share/doc/HTML/pt_BR/kcontrol/kcron/index.docbook
+* /usr/share/doc/HTML/pt_BR/kcontrol/kcron/kcronstart.png
+* /usr/share/doc/HTML/pt_BR/kcontrol/kcron/newtask.png
+* /usr/share/doc/HTML/pt_BR/kcontrol/kcron/newvariable.png
+* /usr/share/doc/HTML/ru/kcontrol/kcron/index.cache.bz2
+* /usr/share/doc/HTML/ru/kcontrol/kcron/index.docbook
+* /usr/share/doc/HTML/sv/kcontrol/kcron/index.cache.bz2
+* /usr/share/doc/HTML/sv/kcontrol/kcron/index.docbook
+* /usr/share/doc/HTML/sv/kcontrol/kcron/kcronstart.png
+* /usr/share/doc/HTML/sv/kcontrol/kcron/newtask.png
+* /usr/share/doc/HTML/sv/kcontrol/kcron/newvariable.png
+* /usr/share/doc/HTML/uk/kcontrol/kcron/index.cache.bz2
+* /usr/share/doc/HTML/uk/kcontrol/kcron/index.docbook
+* /usr/share/doc/HTML/uk/kcontrol/kcron/kcronstart.png
+* /usr/share/doc/HTML/uk/kcontrol/kcron/newtask.png
+* /usr/share/doc/HTML/uk/kcontrol/kcron/newvariable.png
+* /usr/share/doc/HTML/zh_CN/kcontrol/kcron/index.cache.bz2
+* /usr/share/doc/HTML/zh_CN/kcontrol/kcron/index.docbook
+* /usr/share/doc/kcron-24.02.1/AUTHORS
+* /usr/share/doc/kcron-24.02.1/ChangeLog
+* /usr/share/doc/kcron-24.02.1/README
+* /usr/share/doc/kcron-24.02.1/TODO
 * /usr/share/locale/af/LC_MESSAGES/kcron.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcron.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcron.mo
 * /usr/share/locale/be/LC_MESSAGES/kcron.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcron.mo
 * /usr/share/locale/br/LC_MESSAGES/kcron.mo
@@ -162,4 +163,4 @@ KDE module for configure and schedule tasks.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcron.mo
 * /usr/share/metainfo/org.kde.kcron.metainfo.xml
 * /usr/share/polkit-1/actions/local.kcron.crontab.policy
-* /usr/share/qlogging-categories5/kcron.categories
+* /usr/share/qlogging-categories6/kcron.categories

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kshisen 23.08.5-1"
-version = "23.08.5-1"
+title = "kshisen 24.02.1-3"
+version = "24.02.1-3"
 description = "A solitaire-like game played using the standard set of Mahjong tiles."
-date = "2024-02-19T22:53:10"
+date = "2024-03-27T11:22:53"
 aliases = "/packages/184197"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1099856"
-usize = "2050270"
-sha1sum = "be6ead9b33669a8be6e05b1bea1dd5d7df86ae94"
-depends = "['libkdegames>=23.08.5', 'libkmahjongg>=23.08.5']"
+size = "1097508"
+usize = "2059863"
+sha1sum = "c64ca99ca60e7367d982aa5a80d0618b7e0a64cc"
+depends = "['libkdegames>=24.02.1', 'libkmahjongg>=24.02.1']"
 +++
 ### Description: 
 A solitaire-like game played using the standard set of Mahjong tiles.
@@ -64,8 +64,8 @@ A solitaire-like game played using the standard set of Mahjong tiles.
 * /usr/share/doc/HTML/uk/kshisen/index.cache.bz2
 * /usr/share/doc/HTML/uk/kshisen/index.docbook
 * /usr/share/doc/HTML/uk/kshisen/kshisen-configuration.png
-* /usr/share/doc/kshisen-23.08.5/ChangeLog
-* /usr/share/doc/kshisen-23.08.5/TODO
+* /usr/share/doc/kshisen-24.02.1/ChangeLog
+* /usr/share/doc/kshisen-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kshisen.png
 * /usr/share/icons/hicolor/16x16/apps/kshisen.png
 * /usr/share/icons/hicolor/22x22/apps/kshisen.png
@@ -74,6 +74,7 @@ A solitaire-like game played using the standard set of Mahjong tiles.
 * /usr/share/icons/hicolor/64x64/apps/kshisen.png
 * /usr/share/locale/af/LC_MESSAGES/kshisen.mo
 * /usr/share/locale/ar/LC_MESSAGES/kshisen.mo
+* /usr/share/locale/ast/LC_MESSAGES/kshisen.mo
 * /usr/share/locale/be/LC_MESSAGES/kshisen.mo
 * /usr/share/locale/bg/LC_MESSAGES/kshisen.mo
 * /usr/share/locale/bn/LC_MESSAGES/kshisen.mo
@@ -101,6 +102,7 @@ A solitaire-like game played using the standard set of Mahjong tiles.
 * /usr/share/locale/hne/LC_MESSAGES/kshisen.mo
 * /usr/share/locale/hr/LC_MESSAGES/kshisen.mo
 * /usr/share/locale/hu/LC_MESSAGES/kshisen.mo
+* /usr/share/locale/ia/LC_MESSAGES/kshisen.mo
 * /usr/share/locale/id/LC_MESSAGES/kshisen.mo
 * /usr/share/locale/is/LC_MESSAGES/kshisen.mo
 * /usr/share/locale/it/LC_MESSAGES/kshisen.mo
@@ -146,6 +148,6 @@ A solitaire-like game played using the standard set of Mahjong tiles.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kshisen.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kshisen.mo
 * /usr/share/metainfo/org.kde.kshisen.appdata.xml
-* /usr/share/qlogging-categories5/kshisen.categories
+* /usr/share/qlogging-categories6/kshisen.categories
 * /usr/share/sounds/kshisen/tile-fall-tile.ogg
 * /usr/share/sounds/kshisen/tile-touch.ogg

@@ -12,7 +12,7 @@ size = "271060"
 usize = "1483587"
 sha1sum = "37e3331293ce092d717ec3eeb0f6591bee9a187d"
 depends = "['kcompletion>=6.0.0', 'kiconthemes>=6.0.0', 'kservice>=6.0.0', 'qt6-speech>=6.6.3', 'sonnet>=6.0.0']"
-reverse_depends = "['dolphin', 'kpimtextedit', 'kxmlgui', 'libksane']"
+reverse_depends = "['dolphin', 'kxmlgui', 'libksane']"
 +++
 ### Description: 
 KDE Text editing widgets.

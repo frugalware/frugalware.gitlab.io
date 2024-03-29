@@ -1,47 +1,46 @@
 +++
 draft = false
-title = "korganizer 23.08.5-1"
-version = "23.08.5-1"
+title = "korganizer 24.02.1-3"
+version = "24.02.1-3"
 description = "KDE Personal Organizer."
-date = "2024-02-20T09:50:14"
+date = "2024-03-27T12:41:33"
 aliases = "/packages/218939"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2402236"
-usize = "10899849"
-sha1sum = "bd07c15cdad3a1a37fcd54170b5532b508c67352"
-depends = "['incidenceeditor>=23.08.5', 'kdepim-runtime>=23.08.5', 'kontactinterface>=23.08.5', 'mailcommon>=23.08.5']"
+size = "2345152"
+usize = "10710678"
+sha1sum = "ebd6ed5981759301595d1a3d6dfb4eb334be34b7"
+depends = "['incidenceeditor>=24.02.1', 'kdepim-runtime>=24.02.1', 'kontactinterface>=24.02.1', 'mailcommon>=24.02.1']"
 +++
 ### Description: 
 KDE Personal Organizer.
 
 ### Files: 
 * /usr/bin/korganizer
-* /usr/lib/libkorganizerprivate.so.5
-* /usr/lib/libkorganizerprivate.so.5.24.5
-* /usr/lib/libkorganizer_core.so
-* /usr/lib/libkorganizer_core.so.5
-* /usr/lib/libkorganizer_core.so.5.24.5
-* /usr/lib/libkorganizer_interfaces.so.5
-* /usr/lib/libkorganizer_interfaces.so.5.24.5
-* /usr/lib/qt5/plugins/korganizerpart.so
-* /usr/lib/qt5/plugins/pim5/kcms/korganizer/korganizer_configcolorsandfonts.so
-* /usr/lib/qt5/plugins/pim5/kcms/korganizer/korganizer_configdesignerfields.so
-* /usr/lib/qt5/plugins/pim5/kcms/korganizer/korganizer_configfreebusy.so
-* /usr/lib/qt5/plugins/pim5/kcms/korganizer/korganizer_configgroupscheduling.so
-* /usr/lib/qt5/plugins/pim5/kcms/korganizer/korganizer_configmain.so
-* /usr/lib/qt5/plugins/pim5/kcms/korganizer/korganizer_configplugins.so
-* /usr/lib/qt5/plugins/pim5/kcms/korganizer/korganizer_configtime.so
-* /usr/lib/qt5/plugins/pim5/kcms/korganizer/korganizer_configviews.so
-* /usr/lib/qt5/plugins/pim5/kcms/korganizer/korganizer_userfeedback.so
-* /usr/lib/qt5/plugins/pim5/kcms/summary/kcmapptsummary.so
-* /usr/lib/qt5/plugins/pim5/kcms/summary/kcmsdsummary.so
-* /usr/lib/qt5/plugins/pim5/kcms/summary/kcmtodosummary.so
-* /usr/lib/qt5/plugins/pim5/kontact/kontact_journalplugin.so
-* /usr/lib/qt5/plugins/pim5/kontact/kontact_korganizerplugin.so
-* /usr/lib/qt5/plugins/pim5/kontact/kontact_specialdatesplugin.so
-* /usr/lib/qt5/plugins/pim5/kontact/kontact_todoplugin.so
+* /usr/lib/libkorganizerprivate.so.6
+* /usr/lib/libkorganizerprivate.so.6.0.1
+* /usr/lib/libkorganizer_core.so.6
+* /usr/lib/libkorganizer_core.so.6.0.1
+* /usr/lib/libkorganizer_interfaces.so.6
+* /usr/lib/libkorganizer_interfaces.so.6.0.1
+* /usr/lib/qt6/plugins/korganizerpart.so
+* /usr/lib/qt6/plugins/pim6/kcms/korganizer/korganizer_configcolorsandfonts.so
+* /usr/lib/qt6/plugins/pim6/kcms/korganizer/korganizer_configdesignerfields.so
+* /usr/lib/qt6/plugins/pim6/kcms/korganizer/korganizer_configfreebusy.so
+* /usr/lib/qt6/plugins/pim6/kcms/korganizer/korganizer_configgroupscheduling.so
+* /usr/lib/qt6/plugins/pim6/kcms/korganizer/korganizer_configmain.so
+* /usr/lib/qt6/plugins/pim6/kcms/korganizer/korganizer_configplugins.so
+* /usr/lib/qt6/plugins/pim6/kcms/korganizer/korganizer_configtime.so
+* /usr/lib/qt6/plugins/pim6/kcms/korganizer/korganizer_configviews.so
+* /usr/lib/qt6/plugins/pim6/kcms/korganizer/korganizer_userfeedback.so
+* /usr/lib/qt6/plugins/pim6/kcms/summary/kcmapptsummary.so
+* /usr/lib/qt6/plugins/pim6/kcms/summary/kcmsdsummary.so
+* /usr/lib/qt6/plugins/pim6/kcms/summary/kcmtodosummary.so
+* /usr/lib/qt6/plugins/pim6/kontact/kontact_journalplugin.so
+* /usr/lib/qt6/plugins/pim6/kontact/kontact_korganizerplugin.so
+* /usr/lib/qt6/plugins/pim6/kontact/kontact_specialdatesplugin.so
+* /usr/lib/qt6/plugins/pim6/kontact/kontact_todoplugin.so
 * /usr/share/applications/korganizer-import.desktop
 * /usr/share/applications/korganizer-view.desktop
 * /usr/share/applications/org.kde.korganizer.desktop
@@ -107,9 +106,9 @@ KDE Personal Organizer.
 * /usr/share/doc/HTML/sv/korganizer/index.docbook
 * /usr/share/doc/HTML/uk/korganizer/index.cache.bz2
 * /usr/share/doc/HTML/uk/korganizer/index.docbook
-* /usr/share/doc/korganizer-23.08.5/AUTHORS
-* /usr/share/doc/korganizer-23.08.5/README.md
-* /usr/share/doc/korganizer-23.08.5/README.md.license
+* /usr/share/doc/korganizer-24.02.1/AUTHORS
+* /usr/share/doc/korganizer-24.02.1/README.md
+* /usr/share/doc/korganizer-24.02.1/README.md.license
 * /usr/share/icons/hicolor/128x128/apps/korg-journal.png
 * /usr/share/icons/hicolor/128x128/apps/korg-todo.png
 * /usr/share/icons/hicolor/128x128/apps/korganizer.png
@@ -147,6 +146,7 @@ KDE Personal Organizer.
 * /usr/share/korganizer/sounds/spinout.wav
 * /usr/share/locale/af/LC_MESSAGES/korganizer.mo
 * /usr/share/locale/ar/LC_MESSAGES/korganizer.mo
+* /usr/share/locale/ast/LC_MESSAGES/korganizer.mo
 * /usr/share/locale/az/LC_MESSAGES/korganizer.mo
 * /usr/share/locale/be/LC_MESSAGES/korganizer.mo
 * /usr/share/locale/bg/LC_MESSAGES/korganizer.mo
@@ -220,5 +220,5 @@ KDE Personal Organizer.
 * /usr/share/locale/zh_CN/LC_MESSAGES/korganizer.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/korganizer.mo
 * /usr/share/metainfo/org.kde.korganizer.appdata.xml
-* /usr/share/qlogging-categories5/korganizer.categories
-* /usr/share/qlogging-categories5/korganizer.renamecategories
+* /usr/share/qlogging-categories6/korganizer.categories
+* /usr/share/qlogging-categories6/korganizer.renamecategories

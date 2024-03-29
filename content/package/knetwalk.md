@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "knetwalk 23.08.5-1"
-version = "23.08.5-1"
+title = "knetwalk 24.02.1-3"
+version = "24.02.1-3"
 description = "Connect all the terminals to the server, in as few turns as possible."
-date = "2024-02-19T22:50:45"
+date = "2024-03-27T11:20:40"
 aliases = "/packages/184191"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1203168"
-usize = "1735232"
-sha1sum = "a3dffe83bbee06bf30b993028e0a450a5a7ccde0"
-depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5']"
+size = "1249700"
+usize = "1798068"
+sha1sum = "3e632a348cc5676557679a6aa2d0d0d3cb8e3ae9"
+depends = "['knotifyconfig>=6.0.0', 'libkdegames>=24.02.1']"
 +++
 ### Description: 
 Connect all the terminals to the server, in as few turns as possible.
@@ -56,8 +56,8 @@ Connect all the terminals to the server, in as few turns as possible.
 * /usr/share/doc/HTML/uk/knetwalk/gameboard.png
 * /usr/share/doc/HTML/uk/knetwalk/index.cache.bz2
 * /usr/share/doc/HTML/uk/knetwalk/index.docbook
-* /usr/share/doc/knetwalk-23.08.5/AUTHORS
-* /usr/share/doc/knetwalk-23.08.5/TODO
+* /usr/share/doc/knetwalk-24.02.1/AUTHORS
+* /usr/share/doc/knetwalk-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/knetwalk.png
 * /usr/share/icons/hicolor/16x16/apps/knetwalk.png
 * /usr/share/icons/hicolor/22x22/apps/knetwalk.png
@@ -82,6 +82,7 @@ Connect all the terminals to the server, in as few turns as possible.
 * /usr/share/knetwalk/themes/electronic.svgz
 * /usr/share/knetwalk/themes/electronic_preview.png
 * /usr/share/locale/ar/LC_MESSAGES/knetwalk.mo
+* /usr/share/locale/ast/LC_MESSAGES/knetwalk.mo
 * /usr/share/locale/be/LC_MESSAGES/knetwalk.mo
 * /usr/share/locale/bg/LC_MESSAGES/knetwalk.mo
 * /usr/share/locale/br/LC_MESSAGES/knetwalk.mo
@@ -109,6 +110,7 @@ Connect all the terminals to the server, in as few turns as possible.
 * /usr/share/locale/hne/LC_MESSAGES/knetwalk.mo
 * /usr/share/locale/hr/LC_MESSAGES/knetwalk.mo
 * /usr/share/locale/hu/LC_MESSAGES/knetwalk.mo
+* /usr/share/locale/ia/LC_MESSAGES/knetwalk.mo
 * /usr/share/locale/id/LC_MESSAGES/knetwalk.mo
 * /usr/share/locale/is/LC_MESSAGES/knetwalk.mo
 * /usr/share/locale/it/LC_MESSAGES/knetwalk.mo

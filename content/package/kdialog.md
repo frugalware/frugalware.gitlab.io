@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdialog 23.08.5-1"
-version = "23.08.5-1"
+title = "kdialog 24.02.1-3"
+version = "24.02.1-3"
 description = "Can be used to show nice dialog boxes from shell scripts."
-date = "2024-02-19T21:21:21"
+date = "2024-03-27T10:14:54"
 aliases = "/packages/88145"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "139368"
-usize = "752775"
-sha1sum = "ec04c8b0635ed1a8943b2dfea6a7d47c64a570ce"
-depends = "['kdelibs4support>=5.115.0']"
+size = "142068"
+usize = "771499"
+sha1sum = "0695d59334239d6419fe232fc38fceb276345c86"
+depends = "['kio>=']"
 +++
 ### Description: 
 Can be used to show nice dialog boxes from shell scripts.
@@ -21,10 +21,12 @@ Can be used to show nice dialog boxes from shell scripts.
 * /usr/bin/kdialog_progress_helper
 * /usr/share/applications/org.kde.kdialog.desktop
 * /usr/share/dbus-1/interfaces/org.kde.kdialog.ProgressDialog.xml
-* /usr/share/doc/kdialog-23.08.5/COPYING.DOC
-* /usr/share/doc/kdialog-23.08.5/README.md
+* /usr/share/doc/kdialog-24.02.1/COPYING.DOC
+* /usr/share/doc/kdialog-24.02.1/README.md
 * /usr/share/locale/af/LC_MESSAGES/kdialog.mo
 * /usr/share/locale/ar/LC_MESSAGES/kdialog.mo
+* /usr/share/locale/ast/LC_MESSAGES/kdialog.mo
+* /usr/share/locale/az/LC_MESSAGES/kdialog.mo
 * /usr/share/locale/be/LC_MESSAGES/kdialog.mo
 * /usr/share/locale/be@latin/LC_MESSAGES/kdialog.mo
 * /usr/share/locale/bg/LC_MESSAGES/kdialog.mo

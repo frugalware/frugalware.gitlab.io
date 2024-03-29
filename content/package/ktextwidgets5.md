@@ -12,7 +12,7 @@ size = "267576"
 usize = "1480500"
 sha1sum = "3a431ec434369bbfc3bd7849f8eede532ba54574"
 depends = "['kcompletion5>=5.115.0', 'kiconthemes5>=5.115.0', 'kservice5>=5.115.0', 'qt5-speech>=5.15.12']"
-reverse_depends = "['kxmlgui5']"
+reverse_depends = "['kxmlgui5', 'libksane5']"
 +++
 ### Description: 
 KDE Text editing widgets.

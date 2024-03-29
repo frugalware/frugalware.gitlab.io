@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ksnakeduel 23.08.5-1"
-version = "23.08.5-1"
+title = "ksnakeduel 24.02.1-3"
+version = "24.02.1-3"
 description = "KSnakeDuel is a simple snake duel game"
-date = "2024-02-20T13:16:17"
+date = "2024-03-27T13:22:57"
 aliases = "/packages/219339"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "488528"
-usize = "912742"
-sha1sum = "e6d5715b7df5723cf13c687e4513cf34ad73bb14"
-depends = "['libkdegames>=23.08.5']"
+size = "487828"
+usize = "913956"
+sha1sum = "821501cfa8754fb204ab5f56becf636c12c5502a"
+depends = "['libkdegames>=24.02.1']"
 +++
 ### Description: 
 KSnakeDuel is a simple snake duel game
@@ -57,6 +57,7 @@ KSnakeDuel is a simple snake duel game
 * /usr/share/ksnakeduel/themes/neon.png
 * /usr/share/ksnakeduel/themes/neon.svgz
 * /usr/share/locale/ar/LC_MESSAGES/ksnakeduel.mo
+* /usr/share/locale/ast/LC_MESSAGES/ksnakeduel.mo
 * /usr/share/locale/bg/LC_MESSAGES/ksnakeduel.mo
 * /usr/share/locale/bs/LC_MESSAGES/ksnakeduel.mo
 * /usr/share/locale/ca/LC_MESSAGES/ksnakeduel.mo
@@ -77,6 +78,7 @@ KSnakeDuel is a simple snake duel game
 * /usr/share/locale/hr/LC_MESSAGES/ksnakeduel.mo
 * /usr/share/locale/hsb/LC_MESSAGES/ksnakeduel.mo
 * /usr/share/locale/hu/LC_MESSAGES/ksnakeduel.mo
+* /usr/share/locale/ia/LC_MESSAGES/ksnakeduel.mo
 * /usr/share/locale/is/LC_MESSAGES/ksnakeduel.mo
 * /usr/share/locale/it/LC_MESSAGES/ksnakeduel.mo
 * /usr/share/locale/ja/LC_MESSAGES/ksnakeduel.mo
@@ -113,4 +115,4 @@ KSnakeDuel is a simple snake duel game
 * /usr/share/locale/zh_CN/LC_MESSAGES/ksnakeduel.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/ksnakeduel.mo
 * /usr/share/metainfo/org.kde.ksnakeduel.appdata.xml
-* /usr/share/qlogging-categories5/ksnakeduel.categories
+* /usr/share/qlogging-categories6/ksnakeduel.categories

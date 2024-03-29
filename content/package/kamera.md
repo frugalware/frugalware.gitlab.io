@@ -1,24 +1,24 @@
 +++
 draft = false
-title = "kamera 23.08.5-1"
-version = "23.08.5-1"
+title = "kamera 24.02.1-3"
+version = "24.02.1-3"
 description = "KDE Webcam Configurator Tool."
-date = "2024-02-19T21:04:56"
+date = "2024-03-27T10:03:40"
 aliases = "/packages/88166"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "166344"
-usize = "716784"
-sha1sum = "f879ec5e11a32d7da422cbf118d8edcd85bec30a"
-depends = "['gphoto2>=2.5.11-2', 'kcmutils>=5.115.0', 'kio>=5.115.0']"
+size = "156680"
+usize = "648294"
+sha1sum = "d73699e64e10b866cbe5175237a66b9f7a472386"
+depends = "['gphoto2>=2.5.11-2', 'kcmutils>=6.0.0', 'kio>=6.0.0']"
 +++
 ### Description: 
 KDE Webcam Configurator Tool.
 
 ### Files: 
-* /usr/lib/qt5/plugins/kf5/kio/kio_kamera.so
-* /usr/lib/qt5/plugins/plasma/kcms/systemsettings_qwidgets/kcm_kamera.so
+* /usr/lib/qt6/plugins/kf6/kio/kio_kamera.so
+* /usr/lib/qt6/plugins/plasma/kcms/systemsettings_qwidgets/kcm_kamera.so
 * /usr/share/applications/kcm_kamera.desktop
 * /usr/share/doc/HTML/ca/kcontrol/kamera/index.cache.bz2
 * /usr/share/doc/HTML/ca/kcontrol/kamera/index.docbook
@@ -54,124 +54,127 @@ KDE Webcam Configurator Tool.
 * /usr/share/doc/HTML/tr/kcontrol/kamera/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/kamera/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/kamera/index.docbook
-* /usr/share/doc/kamera-23.08.5/AUTHORS
-* /usr/share/doc/kamera-23.08.5/README
+* /usr/share/doc/kamera-24.02.1/AUTHORS
+* /usr/share/doc/kamera-24.02.1/README
 * /usr/share/locale/af/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/ar/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/ar/LC_MESSAGES/kio6_kamera.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcmkamera.mo
+* /usr/share/locale/ast/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/az/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/az/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/az/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/be/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/bg/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/bg/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/br/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/bs/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/ca/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/ca/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/ca/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/cs/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/cs/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/cs/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/cy/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/da/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/da/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/da/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/de/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/de/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/de/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/el/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/el/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/el/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/eo/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/eo/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/eo/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/es/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/es/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/es/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/et/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/et/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/et/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/eu/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/eu/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/eu/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/fa/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/fi/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/fi/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/fi/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/fr/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/fr/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/fr/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/fy/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/ga/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/gl/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/gl/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/gl/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/he/LC_MESSAGES/kcmkamera.mo
+* /usr/share/locale/he/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/hi/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/hne/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/hr/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/hu/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/hu/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/hu/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/ia/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/ia/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/ia/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/id/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/id/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/id/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/is/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/is/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/is/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/it/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/it/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/it/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/ja/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/ja/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/ja/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/ka/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/ka/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/ka/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/kk/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/km/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/ko/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/ko/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/ko/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/lt/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/lt/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/lt/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/lv/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/mk/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/ml/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/ml/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/ml/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/mr/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/ms/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/nds/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/ne/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/nl/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/nl/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/nl/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/nn/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/nn/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/nn/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/oc/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/pa/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/pl/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/pl/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/pl/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/pt/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/pt/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/pt/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/ro/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/ro/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/ro/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/ru/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/ru/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/se/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/si/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/sk/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/sk/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/sk/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/sl/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/sl/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/sl/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/sq/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/sv/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/sv/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/sv/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/ta/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/tg/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/th/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/tr/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/tr/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/tr/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/ug/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/uk/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/uk/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/uk/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/vi/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/vi/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/vi/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/xh/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcmkamera.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kio5_kamera.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/kio6_kamera.mo
 * /usr/share/metainfo/org.kde.kamera.metainfo.xml
-* /usr/share/qlogging-categories5/kamera.categories
+* /usr/share/qlogging-categories6/kamera.categories
 * /usr/share/solid/actions/solid_camera.desktop

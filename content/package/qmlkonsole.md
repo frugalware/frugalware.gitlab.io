@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qmlkonsole 23.08.5-1"
-version = "23.08.5-1"
+title = "qmlkonsole 24.02.1-3"
+version = "24.02.1-3"
 description = "Terminal app for Plasma Mobile"
-date = "2024-02-20T15:14:06"
+date = "2024-03-27T14:21:13"
 aliases = "/packages/220993"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "60024"
-usize = "235357"
-sha1sum = "bbe309efdcf2fb1106af8a6293404a8303efa3c6"
-depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kirigami-addons', 'kwindowsystem', 'qmltermwidget', 'qt5-svg']"
+size = "185832"
+usize = "643789"
+sha1sum = "e40f4313d11974b16c31e827bf7bb61560f1cde9"
+depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kirigami-addons', 'kpty', 'kwindowsystem', 'qmltermwidget', 'qt6-5compat', 'qt6-svg']"
 +++
 ### Description: 
 Terminal app for Plasma Mobile
@@ -20,13 +20,15 @@ Terminal app for Plasma Mobile
 * /usr/bin/qmlkonsole
 * /usr/share/applications/org.kde.qmlkonsole.desktop
 * /usr/share/config.kcfg/terminalsettings.kcfg
-* /usr/share/doc/qmlkonsole-23.08.5/README.md
+* /usr/share/doc/qmlkonsole-24.02.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.qmlkonsole.svg
+* /usr/share/locale/ast/LC_MESSAGES/qmlkonsole.mo
 * /usr/share/locale/ca/LC_MESSAGES/qmlkonsole.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/qmlkonsole.mo
 * /usr/share/locale/cs/LC_MESSAGES/qmlkonsole.mo
 * /usr/share/locale/de/LC_MESSAGES/qmlkonsole.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/qmlkonsole.mo
+* /usr/share/locale/eo/LC_MESSAGES/qmlkonsole.mo
 * /usr/share/locale/es/LC_MESSAGES/qmlkonsole.mo
 * /usr/share/locale/eu/LC_MESSAGES/qmlkonsole.mo
 * /usr/share/locale/fi/LC_MESSAGES/qmlkonsole.mo
@@ -34,6 +36,7 @@ Terminal app for Plasma Mobile
 * /usr/share/locale/gl/LC_MESSAGES/qmlkonsole.mo
 * /usr/share/locale/hi/LC_MESSAGES/qmlkonsole.mo
 * /usr/share/locale/hu/LC_MESSAGES/qmlkonsole.mo
+* /usr/share/locale/ia/LC_MESSAGES/qmlkonsole.mo
 * /usr/share/locale/it/LC_MESSAGES/qmlkonsole.mo
 * /usr/share/locale/ja/LC_MESSAGES/qmlkonsole.mo
 * /usr/share/locale/ka/LC_MESSAGES/qmlkonsole.mo

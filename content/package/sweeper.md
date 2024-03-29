@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "sweeper 23.08.5-1"
-version = "23.08.5-1"
+title = "sweeper 24.02.1-3"
+version = "24.02.1-3"
 description = "System cleaner."
-date = "2024-02-20T12:53:07"
+date = "2024-03-27T13:13:40"
 aliases = "/packages/218528"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "406392"
-usize = "870425"
-sha1sum = "1a8fe2e06de29a7dffc8d2b89ebb12587f1b6586"
-depends = "['kactivities-stats>=5.115.0', 'kconfig>=5.115.0', 'kconfigwidgets>=5.115.0', 'kcoreaddons>=5.115.0', 'kcrash>=5.115.0', 'kdoctools>=5.115.0', 'ki18n>=5.115.0']"
+size = "406480"
+usize = "875437"
+sha1sum = "41479ece80c59048bd7771cadd27ff7c5e3839fb"
+depends = "['kconfig>=6.0.0', 'kconfigwidgets>=6.0.0', 'kcoreaddons>=6.0.0', 'kcrash>=6.0.0', 'kdoctools>=6.0.0', 'ki18n>=6.0.0', 'plasma-activities-stats>=6.0.3']"
 +++
 ### Description: 
 System cleaner.
@@ -56,10 +56,10 @@ System cleaner.
 * /usr/share/doc/HTML/uk/sweeper/index.cache.bz2
 * /usr/share/doc/HTML/uk/sweeper/index.docbook
 * /usr/share/doc/HTML/uk/sweeper/sweeper.png
-* /usr/share/doc/sweeper-23.08.5/TODO
-* /usr/share/kxmlgui5/sweeper/sweeperui.rc
+* /usr/share/doc/sweeper-24.02.1/TODO
 * /usr/share/locale/af/LC_MESSAGES/sweeper.mo
 * /usr/share/locale/ar/LC_MESSAGES/sweeper.mo
+* /usr/share/locale/ast/LC_MESSAGES/sweeper.mo
 * /usr/share/locale/be/LC_MESSAGES/sweeper.mo
 * /usr/share/locale/bg/LC_MESSAGES/sweeper.mo
 * /usr/share/locale/bn/LC_MESSAGES/sweeper.mo
@@ -137,4 +137,4 @@ System cleaner.
 * /usr/share/locale/zh_CN/LC_MESSAGES/sweeper.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/sweeper.mo
 * /usr/share/metainfo/org.kde.sweeper.appdata.xml
-* /usr/share/qlogging-categories5/sweeper.categories
+* /usr/share/qlogging-categories6/sweeper.categories

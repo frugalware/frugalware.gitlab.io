@@ -12,7 +12,7 @@ size = "112008"
 usize = "433942"
 sha1sum = "8fac1e960f58abd4d6872ace46ad6c117a97f01a"
 depends = "['qt6-declarative']"
-reverse_depends = "['qt6-webengine']"
+reverse_depends = "['falkon', 'qt6-webengine']"
 +++
 ### Description: 
 The Qt6 toolkit, qtwebchannel

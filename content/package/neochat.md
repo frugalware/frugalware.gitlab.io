@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "neochat 23.08.5-1"
-version = "23.08.5-1"
+title = "neochat 24.02.1-3"
+version = "24.02.1-3"
 description = "A client for matrix, the decentralized communication protocol"
-date = "2024-02-20T15:11:39"
+date = "2024-03-27T14:18:35"
 aliases = "/packages/220990"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "962380"
-usize = "5108754"
-sha1sum = "e97cac235b3bca5da04623c1de429a5560ae8f0e"
-depends = "['cmark>=0.31.0', 'kio', 'kirigami-addons', 'kitemmodels', 'kquickimageeditor', 'libquotient', 'qqc2-desktop-style', 'qt5-quickcontrols2', 'syntax-highlighting']"
+size = "1699108"
+usize = "8909948"
+sha1sum = "f20c96a77c11040cc5b35f090375dc6325423a15"
+depends = "['cmark>=0.31.0', 'kio', 'kirigami-addons', 'kitemmodels', 'kquickimageeditor', 'libquotient', 'qqc2-desktop-style', 'qt6-webview', 'syntax-highlighting']"
 +++
 ### Description: 
 A client for matrix, the decentralized communication protocol
@@ -19,12 +19,13 @@ A client for matrix, the decentralized communication protocol
 ### Files: 
 * /usr/bin/neochat
 * /usr/share/applications/org.kde.neochat.desktop
-* /usr/share/doc/neochat-23.08.5/README.md
+* /usr/share/doc/neochat-24.02.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.neochat.svg
 * /usr/share/icons/hicolor/scalable/apps/org.kde.neochat.tray.svg
-* /usr/share/knotifications5/neochat.notifyrc
+* /usr/share/knotifications6/neochat.notifyrc
 * /usr/share/krunner/dbusplugins/plasma-runner-neochat.desktop
 * /usr/share/locale/ar/LC_MESSAGES/neochat.mo
+* /usr/share/locale/ast/LC_MESSAGES/neochat.mo
 * /usr/share/locale/az/LC_MESSAGES/neochat.mo
 * /usr/share/locale/ca/LC_MESSAGES/neochat.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/neochat.mo
@@ -33,6 +34,7 @@ A client for matrix, the decentralized communication protocol
 * /usr/share/locale/de/LC_MESSAGES/neochat.mo
 * /usr/share/locale/el/LC_MESSAGES/neochat.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/neochat.mo
+* /usr/share/locale/eo/LC_MESSAGES/neochat.mo
 * /usr/share/locale/es/LC_MESSAGES/neochat.mo
 * /usr/share/locale/eu/LC_MESSAGES/neochat.mo
 * /usr/share/locale/fi/LC_MESSAGES/neochat.mo
@@ -71,4 +73,4 @@ A client for matrix, the decentralized communication protocol
 * /usr/share/man/tr/man1/neochat.1.gz
 * /usr/share/man/uk/man1/neochat.1.gz
 * /usr/share/metainfo/org.kde.neochat.appdata.xml
-* /usr/share/qlogging-categories5/neochat.categories
+* /usr/share/qlogging-categories6/neochat.categories

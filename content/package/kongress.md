@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kongress 23.08.5-1"
-version = "23.08.5-1"
+title = "kongress 24.02.1-3"
+version = "24.02.1-3"
 description = "Companion application for conferences"
-date = "2024-02-20T15:01:57"
+date = "2024-03-27T14:11:26"
 aliases = "/packages/220983"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "103516"
-usize = "436817"
-sha1sum = "20b3454796bb1f38c225c9e59deeb2729410c34e"
+size = "113844"
+usize = "471457"
+sha1sum = "e79276fe11a0914755c1a0824505c73bd1f0464f"
 depends = "['kcalendarcore', 'kconfig', 'kcoreaddons', 'kdbusaddons', 'ki18n', 'kirigami', 'kirigami2', 'knotifications']"
 +++
 ### Description: 

@@ -1,28 +1,32 @@
 +++
 draft = false
-title = "spectacle 23.08.5-1"
-version = "23.08.5-1"
+title = "spectacle 24.02.1-3"
+version = "24.02.1-3"
 description = "KDE screenshot capture utility"
-date = "2024-02-19T23:18:04"
+date = "2024-03-27T11:39:01"
 aliases = "/packages/218413"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1508472"
-usize = "3503986"
-sha1sum = "fa5afe0fcb33305f3b1edd5f40f2e206cedb4790"
-depends = "['kdeclarative>=5.115.0', 'kio>=5.115.0', 'kipi-plugins>=23.08.5', 'knewstuff>=5.115.0', 'kpipewire>=5.27.10', 'kscreen5>=5.27.10', 'libkipi>=23.08.5', 'purpose>=5.115.0', 'xcb-util-cursor']"
+size = "1736508"
+usize = "4834270"
+sha1sum = "67c311e94a5a07a993cf85d8d624f10b45737350"
+depends = "['kdeclarative>=6.0.0', 'kio>=6.0.0', 'knewstuff>=6.0.0', 'kpipewire>=6.0.3', 'kscreen>=6.0.3', 'purpose>=6.0.0', 'xcb-util-cursor']"
 +++
 ### Description: 
 KDE screenshot capture utility
 
 ### Files: 
 * /usr/bin/spectacle
-* /usr/lib/kconf_update_bin/spectacle-migrate-rememberregion
-* /usr/lib/kconf_update_bin/spectacle-migrate-shortcuts
+* /usr/lib/kconf_update_bin/spectacle-24.02.0-change_placeholder_format
+* /usr/lib/kconf_update_bin/spectacle-24.02.0-keep_old_filename_templates
+* /usr/lib/kconf_update_bin/spectacle-24.02.0-keep_old_save_location
+* /usr/lib/kconf_update_bin/spectacle-24.02.0-rename_settings
+* /usr/lib/kconf_update_bin/spectacle-24.02.0-video_format
 * /usr/lib/systemd/user/app-org.kde.spectacle.service
 * /usr/share/applications/org.kde.spectacle.desktop
 * /usr/share/dbus-1/interfaces/org.kde.Spectacle.xml
+* /usr/share/dbus-1/services/org.kde.spectacle.service
 * /usr/share/dbus-1/services/org.kde.Spectacle.service
 * /usr/share/doc/HTML/ca/spectacle/Annotate.png
 * /usr/share/doc/HTML/ca/spectacle/ApplicationPreferences.png
@@ -55,22 +59,21 @@ KDE screenshot capture utility
 * /usr/share/doc/HTML/ru/spectacle/index.docbook
 * /usr/share/doc/HTML/sv/spectacle/index.cache.bz2
 * /usr/share/doc/HTML/sv/spectacle/index.docbook
+* /usr/share/doc/HTML/tr/spectacle/index.cache.bz2
+* /usr/share/doc/HTML/tr/spectacle/index.docbook
 * /usr/share/doc/HTML/uk/spectacle/Annotate.png
 * /usr/share/doc/HTML/uk/spectacle/ApplicationPreferences.png
 * /usr/share/doc/HTML/uk/spectacle/index.cache.bz2
 * /usr/share/doc/HTML/uk/spectacle/index.docbook
 * /usr/share/doc/HTML/uk/spectacle/MainWindow.png
 * /usr/share/doc/HTML/uk/spectacle/SaveOptions.png
-* /usr/share/doc/spectacle-23.08.5/README.md
+* /usr/share/doc/spectacle-24.02.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/spectacle.svg
-* /usr/share/kconf_update/50-clipboard_settings_change.py
-* /usr/share/kconf_update/spectacle_clipboard.upd
-* /usr/share/kconf_update/spectacle_newConfig.upd
-* /usr/share/kconf_update/spectacle_rememberregion.upd
-* /usr/share/kconf_update/spectacle_shortcuts.upd
+* /usr/share/kconf_update/spectacle.upd
 * /usr/share/kglobalaccel/org.kde.spectacle.desktop
-* /usr/share/knotifications5/spectacle.notifyrc
+* /usr/share/knotifications6/spectacle.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/spectacle.mo
+* /usr/share/locale/ast/LC_MESSAGES/spectacle.mo
 * /usr/share/locale/az/LC_MESSAGES/spectacle.mo
 * /usr/share/locale/bg/LC_MESSAGES/spectacle.mo
 * /usr/share/locale/ca/LC_MESSAGES/spectacle.mo
@@ -99,6 +102,7 @@ KDE screenshot capture utility
 * /usr/share/locale/ka/LC_MESSAGES/spectacle.mo
 * /usr/share/locale/ko/LC_MESSAGES/spectacle.mo
 * /usr/share/locale/lt/LC_MESSAGES/spectacle.mo
+* /usr/share/locale/lv/LC_MESSAGES/spectacle.mo
 * /usr/share/locale/ml/LC_MESSAGES/spectacle.mo
 * /usr/share/locale/nl/LC_MESSAGES/spectacle.mo
 * /usr/share/locale/nn/LC_MESSAGES/spectacle.mo
@@ -127,6 +131,7 @@ KDE screenshot capture utility
 * /usr/share/man/man1/spectacle.1.gz
 * /usr/share/man/nl/man1/spectacle.1.gz
 * /usr/share/man/sv/man1/spectacle.1.gz
+* /usr/share/man/tr/man1/spectacle.1.gz
 * /usr/share/man/uk/man1/spectacle.1.gz
 * /usr/share/metainfo/org.kde.spectacle.appdata.xml
-* /usr/share/qlogging-categories5/spectacle.categories
+* /usr/share/qlogging-categories6/spectacle.categories

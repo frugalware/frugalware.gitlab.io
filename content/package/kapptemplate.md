@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kapptemplate 23.08.5-1"
-version = "23.08.5-1"
+title = "kapptemplate 24.02.1-4"
+version = "24.02.1-4"
 description = "KDE Template Generator."
-date = "2024-02-19T21:06:08"
+date = "2024-03-27T10:04:48"
 aliases = "/packages/118444"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "432548"
-usize = "968930"
-sha1sum = "46e9862eb3d4c66e7faece8c4ef7ded3317bbabb"
-depends = "['kio>=5.115.0', 'plasma-framework', 'qt5-svg>=5.15.12']"
+size = "432100"
+usize = "978350"
+sha1sum = "944d34baa47c04a3bd8ac8bc810ecb8ed21546e7"
+depends = "['kio>=6.0.0', 'qt6-svg>=6.6.3']"
 +++
 ### Description: 
 KDE Template Generator.
@@ -50,8 +50,8 @@ KDE Template Generator.
 * /usr/share/doc/HTML/sv/kapptemplate/index.docbook
 * /usr/share/doc/HTML/uk/kapptemplate/index.cache.bz2
 * /usr/share/doc/HTML/uk/kapptemplate/index.docbook
-* /usr/share/doc/kapptemplate-23.08.5/README.md
-* /usr/share/doc/kapptemplate-23.08.5/TODO
+* /usr/share/doc/kapptemplate-24.02.1/README.md
+* /usr/share/doc/kapptemplate-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kapptemplate.png
 * /usr/share/icons/hicolor/16x16/apps/kapptemplate.png
 * /usr/share/icons/hicolor/22x22/apps/kapptemplate.png
@@ -59,8 +59,9 @@ KDE Template Generator.
 * /usr/share/icons/hicolor/48x48/apps/kapptemplate.png
 * /usr/share/icons/hicolor/64x64/apps/kapptemplate.png
 * /usr/share/icons/hicolor/scalable/apps/kapptemplate.svg
-* /usr/share/kdevappwizard/templates/kde-frameworks5-simple.tar.bz2
-* /usr/share/kdevappwizard/templates/kde-frameworks5.tar.bz2
+* /usr/share/kdevappwizard/templates/kde-frameworks6-simple.tar.bz2
+* /usr/share/kdevappwizard/templates/kde-frameworks6.tar.bz2
+* /usr/share/locale/ast/LC_MESSAGES/kapptemplate.mo
 * /usr/share/locale/bg/LC_MESSAGES/kapptemplate.mo
 * /usr/share/locale/bs/LC_MESSAGES/kapptemplate.mo
 * /usr/share/locale/ca/LC_MESSAGES/kapptemplate.mo
@@ -79,6 +80,7 @@ KDE Template Generator.
 * /usr/share/locale/ga/LC_MESSAGES/kapptemplate.mo
 * /usr/share/locale/gl/LC_MESSAGES/kapptemplate.mo
 * /usr/share/locale/hu/LC_MESSAGES/kapptemplate.mo
+* /usr/share/locale/ia/LC_MESSAGES/kapptemplate.mo
 * /usr/share/locale/it/LC_MESSAGES/kapptemplate.mo
 * /usr/share/locale/ja/LC_MESSAGES/kapptemplate.mo
 * /usr/share/locale/ka/LC_MESSAGES/kapptemplate.mo
@@ -110,4 +112,4 @@ KDE Template Generator.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kapptemplate.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kapptemplate.mo
 * /usr/share/metainfo/org.kde.kapptemplate.appdata.xml
-* /usr/share/qlogging-categories5/kapptemplate.categories
+* /usr/share/qlogging-categories6/kapptemplate.categories

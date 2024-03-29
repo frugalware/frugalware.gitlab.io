@@ -12,6 +12,7 @@ size = "211572"
 usize = "951080"
 sha1sum = "2136cd43bdba3e63872c194ea51554fac557c33a"
 depends = "['kcalendarcore>=6.0.0', 'kcodecs>=6.0.0', 'ki18n>=6.0.0', 'kmbox>=24.02.1', 'kmime>=24.02.1', 'libkleo>=24.02.1']"
+reverse_depends = "['kleopatra', 'merkuro']"
 +++
 ### Description: 
 Parser for MIME trees

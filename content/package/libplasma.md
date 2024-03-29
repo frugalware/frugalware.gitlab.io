@@ -12,7 +12,7 @@ size = "2618136"
 usize = "5900031"
 sha1sum = "e3e79a40666b95ffb4fbd170afef296a40bfad29"
 depends = "['kcmutils>=6.0.0']"
-reverse_depends = "['discover', 'kclock', 'knights', 'kup', 'kweather', 'milou', 'plasma-pa', 'plasma-vault', 'plasma-workspace']"
+reverse_depends = "['discover', 'kate', 'kclock', 'knights', 'kup', 'kweather', 'milou', 'plasma-pa', 'plasma-vault', 'plasma-workspace']"
 +++
 ### Description: 
 Plasma library and runtime components based upon KF5 and Qt5.

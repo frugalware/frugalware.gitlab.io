@@ -12,6 +12,7 @@ size = "28964"
 usize = "101496"
 sha1sum = "efbd1800de103ee32a2f88b03192745b9b56d6bd"
 depends = "['mpv', 'qt6-declarative']"
+reverse_depends = "['plasmatube', 'tokodon']"
 +++
 ### Description: 
 A libmpv wrapper for QtQuick2 and QML

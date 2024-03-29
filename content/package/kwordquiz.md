@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwordquiz 23.08.5-1"
-version = "23.08.5-1"
+title = "kwordquiz 24.02.1-3"
+version = "24.02.1-3"
 description = "Flash Card Trainer."
-date = "2024-02-20T10:05:12"
+date = "2024-03-27T12:54:33"
 aliases = "/packages/152837"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2584668"
-usize = "3609364"
-sha1sum = "d6a844ed3c43dbbb0dd7de810127c65209e50fd0"
-depends = "['kdelibs4support>=5.115.0', 'kirigami-addons', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5', 'libkeduvocdocument>=23.08.5']"
+size = "941260"
+usize = "1457291"
+sha1sum = "a770563ab20b4e2d980e7720fd3fd94e4b25342f"
+depends = "['kirigami-addons', 'knotifyconfig>=6.0.0', 'libkdegames>=24.02.1', 'libkeduvocdocument>=24.02.1']"
 +++
 ### Description: 
 Flash Card Trainer.
@@ -20,26 +20,6 @@ Flash Card Trainer.
 * /usr/bin/kwordquiz
 * /usr/share/applications/org.kde.kwordquiz.desktop
 * /usr/share/config.kcfg/kwordquiz.kcfg
-* /usr/share/doc/HTML/ca/kwordquiz/index.cache.bz2
-* /usr/share/doc/HTML/ca/kwordquiz/index.docbook
-* /usr/share/doc/HTML/de/kwordquiz/index.cache.bz2
-* /usr/share/doc/HTML/de/kwordquiz/index.docbook
-* /usr/share/doc/HTML/de/kwordquiz/kwq-dlg-characters.png
-* /usr/share/doc/HTML/de/kwordquiz/kwq-dlg-configure-appearance.png
-* /usr/share/doc/HTML/de/kwordquiz/kwq-dlg-configure-characters.png
-* /usr/share/doc/HTML/de/kwordquiz/kwq-dlg-configure-editor.png
-* /usr/share/doc/HTML/de/kwordquiz/kwq-dlg-configure-general.png
-* /usr/share/doc/HTML/de/kwordquiz/kwq-dlg-configure-quiz.png
-* /usr/share/doc/HTML/de/kwordquiz/kwq-dlg-languages.png
-* /usr/share/doc/HTML/de/kwordquiz/kwq-dlg-print-exam.png
-* /usr/share/doc/HTML/de/kwordquiz/kwq-dlg-print-flashcard.png
-* /usr/share/doc/HTML/de/kwordquiz/kwq-dlg-print-list.png
-* /usr/share/doc/HTML/de/kwordquiz/kwq-dlg-print-type.png
-* /usr/share/doc/HTML/de/kwordquiz/kwq-dlg-rowscolumns.png
-* /usr/share/doc/HTML/de/kwordquiz/kwq-editor.png
-* /usr/share/doc/HTML/de/kwordquiz/kwq-flashcard.png
-* /usr/share/doc/HTML/de/kwordquiz/kwq-multiple.png
-* /usr/share/doc/HTML/de/kwordquiz/kwq-qanda.png
 * /usr/share/doc/HTML/en/kwordquiz/index.cache.bz2
 * /usr/share/doc/HTML/en/kwordquiz/index.docbook
 * /usr/share/doc/HTML/en/kwordquiz/kwordquiz-icon.png
@@ -55,76 +35,10 @@ Flash Card Trainer.
 * /usr/share/doc/HTML/en/kwordquiz/kwq-multiple.png
 * /usr/share/doc/HTML/en/kwordquiz/kwq-qanda.png
 * /usr/share/doc/HTML/en/kwordquiz/kwq-welcome.png
-* /usr/share/doc/HTML/es/kwordquiz/index.cache.bz2
-* /usr/share/doc/HTML/es/kwordquiz/index.docbook
-* /usr/share/doc/HTML/es/kwordquiz/kwq-dlg-characters.png
-* /usr/share/doc/HTML/es/kwordquiz/kwq-dlg-configure-appearance.png
-* /usr/share/doc/HTML/es/kwordquiz/kwq-dlg-configure-characters.png
-* /usr/share/doc/HTML/es/kwordquiz/kwq-dlg-configure-editor.png
-* /usr/share/doc/HTML/es/kwordquiz/kwq-dlg-configure-general.png
-* /usr/share/doc/HTML/es/kwordquiz/kwq-dlg-configure-quiz.png
-* /usr/share/doc/HTML/es/kwordquiz/kwq-dlg-languages.png
-* /usr/share/doc/HTML/es/kwordquiz/kwq-dlg-print-exam.png
-* /usr/share/doc/HTML/es/kwordquiz/kwq-dlg-print-flashcard.png
-* /usr/share/doc/HTML/es/kwordquiz/kwq-dlg-print-list.png
-* /usr/share/doc/HTML/es/kwordquiz/kwq-dlg-print-type.png
-* /usr/share/doc/HTML/es/kwordquiz/kwq-editor.png
-* /usr/share/doc/HTML/es/kwordquiz/kwq-flashcard.png
-* /usr/share/doc/HTML/es/kwordquiz/kwq-multiple.png
-* /usr/share/doc/HTML/es/kwordquiz/kwq-qanda.png
-* /usr/share/doc/HTML/et/kwordquiz/index.cache.bz2
-* /usr/share/doc/HTML/et/kwordquiz/index.docbook
-* /usr/share/doc/HTML/it/kwordquiz/index.cache.bz2
-* /usr/share/doc/HTML/it/kwordquiz/index.docbook
-* /usr/share/doc/HTML/ko/kwordquiz/index.cache.bz2
-* /usr/share/doc/HTML/ko/kwordquiz/index.docbook
-* /usr/share/doc/HTML/nl/kwordquiz/index.cache.bz2
-* /usr/share/doc/HTML/nl/kwordquiz/index.docbook
-* /usr/share/doc/HTML/pt/kwordquiz/index.cache.bz2
-* /usr/share/doc/HTML/pt/kwordquiz/index.docbook
-* /usr/share/doc/HTML/pt_BR/kwordquiz/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/kwordquiz/index.docbook
-* /usr/share/doc/HTML/ru/kwordquiz/index.cache.bz2
-* /usr/share/doc/HTML/ru/kwordquiz/index.docbook
-* /usr/share/doc/HTML/sv/kwordquiz/index.cache.bz2
-* /usr/share/doc/HTML/sv/kwordquiz/index.docbook
-* /usr/share/doc/HTML/sv/kwordquiz/kwq-dlg-characters.png
-* /usr/share/doc/HTML/sv/kwordquiz/kwq-dlg-configure-characters.png
-* /usr/share/doc/HTML/sv/kwordquiz/kwq-dlg-configure-editor.png
-* /usr/share/doc/HTML/sv/kwordquiz/kwq-dlg-configure-quiz.png
-* /usr/share/doc/HTML/sv/kwordquiz/kwq-dlg-languages.png
-* /usr/share/doc/HTML/sv/kwordquiz/kwq-dlg-print-exam.png
-* /usr/share/doc/HTML/sv/kwordquiz/kwq-dlg-print-flashcard.png
-* /usr/share/doc/HTML/sv/kwordquiz/kwq-dlg-print-list.png
-* /usr/share/doc/HTML/sv/kwordquiz/kwq-dlg-print-type.png
-* /usr/share/doc/HTML/sv/kwordquiz/kwq-dlg-rowscolumns.png
-* /usr/share/doc/HTML/sv/kwordquiz/kwq-editor.png
-* /usr/share/doc/HTML/sv/kwordquiz/kwq-flashcard.png
-* /usr/share/doc/HTML/sv/kwordquiz/kwq-multiple.png
-* /usr/share/doc/HTML/sv/kwordquiz/kwq-qanda.png
-* /usr/share/doc/HTML/uk/kwordquiz/index.cache.bz2
-* /usr/share/doc/HTML/uk/kwordquiz/index.docbook
-* /usr/share/doc/HTML/uk/kwordquiz/kwq-dlg-characters.png
-* /usr/share/doc/HTML/uk/kwordquiz/kwq-dlg-configure-appearance.png
-* /usr/share/doc/HTML/uk/kwordquiz/kwq-dlg-configure-characters.png
-* /usr/share/doc/HTML/uk/kwordquiz/kwq-dlg-configure-editor.png
-* /usr/share/doc/HTML/uk/kwordquiz/kwq-dlg-configure-general.png
-* /usr/share/doc/HTML/uk/kwordquiz/kwq-dlg-configure-quiz.png
-* /usr/share/doc/HTML/uk/kwordquiz/kwq-dlg-languages.png
-* /usr/share/doc/HTML/uk/kwordquiz/kwq-dlg-print-type.png
-* /usr/share/doc/HTML/uk/kwordquiz/kwq-editor.png
-* /usr/share/doc/HTML/uk/kwordquiz/kwq-flashcard.png
-* /usr/share/doc/HTML/uk/kwordquiz/kwq-multiple.png
-* /usr/share/doc/HTML/uk/kwordquiz/kwq-qanda.png
-* /usr/share/doc/HTML/uk/kwordquiz/kwq-tutor-popup-minimalistic.png
-* /usr/share/doc/HTML/uk/kwordquiz/kwq-tutor-popup-native.png
-* /usr/share/doc/HTML/uk/kwordquiz/kwq-tutor-settings.png
-* /usr/share/doc/HTML/uk/kwordquiz/kwq-tutor-shortcuts.png
-* /usr/share/doc/HTML/uk/kwordquiz/kwq-tutor-welcome.png
-* /usr/share/doc/kwordquiz-23.08.5/AUTHORS
-* /usr/share/doc/kwordquiz-23.08.5/INSTALL
-* /usr/share/doc/kwordquiz-23.08.5/README
-* /usr/share/doc/kwordquiz-23.08.5/TODO
+* /usr/share/doc/kwordquiz-24.02.1/AUTHORS
+* /usr/share/doc/kwordquiz-24.02.1/INSTALL
+* /usr/share/doc/kwordquiz-24.02.1/README
+* /usr/share/doc/kwordquiz-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kwordquiz.png
 * /usr/share/icons/hicolor/128x128/mimetypes/application-x-kwordquiz.png
 * /usr/share/icons/hicolor/16x16/apps/kwordquiz.png
@@ -137,7 +51,6 @@ Flash Card Trainer.
 * /usr/share/icons/hicolor/48x48/mimetypes/application-x-kwordquiz.png
 * /usr/share/icons/hicolor/64x64/apps/kwordquiz.png
 * /usr/share/icons/hicolor/scalable/apps/org.kde.kwordquiz.svg
-* /usr/share/knotifications5/kwordquiz.notifyrc
 * /usr/share/knsrcfiles/kwordquiz.knsrc
 * /usr/share/kwordquiz/examples/example.kvtml
 * /usr/share/kwordquiz/examples/fill_in_the_blank.kvtml
@@ -292,6 +205,7 @@ Flash Card Trainer.
 * /usr/share/kwordquiz/icons/hicolor/scalable/actions/question.svgz
 * /usr/share/kwordquiz/icons/hicolor/scalable/actions/unmarkasblank.svgz
 * /usr/share/locale/ar/LC_MESSAGES/kwordquiz.mo
+* /usr/share/locale/ast/LC_MESSAGES/kwordquiz.mo
 * /usr/share/locale/be/LC_MESSAGES/kwordquiz.mo
 * /usr/share/locale/bg/LC_MESSAGES/kwordquiz.mo
 * /usr/share/locale/bn/LC_MESSAGES/kwordquiz.mo

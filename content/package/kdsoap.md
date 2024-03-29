@@ -12,7 +12,7 @@ size = "419280"
 usize = "1298954"
 sha1sum = "7806e3ed0c3e1942102dbc6e46065e85fdaf7385"
 depends = "['qt6-base>=5.15.10']"
-reverse_depends = "['kdsoap-ws-discovery-client', 'kio-extras']"
+reverse_depends = "['kdsoap-ws-discovery-client']"
 +++
 ### Description: 
 Qt-based client-side and server-side SOAP component

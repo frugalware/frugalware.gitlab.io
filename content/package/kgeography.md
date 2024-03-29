@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kgeography 23.08.5-1"
-version = "23.08.5-1"
+title = "kgeography 24.02.1-3"
+version = "24.02.1-3"
 description = "Geography Trainer."
-date = "2024-02-19T21:23:53"
+date = "2024-03-27T10:17:16"
 aliases = "/packages/152828"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "10871748"
-usize = "31287298"
-sha1sum = "7554557e2524c9c9de8f095e5583ba41a90211fb"
-depends = "['kxmlgui>=5.115.0', 'qt5-svg>=5.15.12', 'qt5-x11extras>=5.15.12']"
+size = "11058408"
+usize = "32051372"
+sha1sum = "39fb8efba2fae88800e352f49e62957681c1cd6d"
+depends = "['kxmlgui>=6.0.0', 'qt6-svg>=6.6.3']"
 +++
 ### Description: 
 Geography Trainer.
@@ -123,11 +123,11 @@ Geography Trainer.
 * /usr/share/doc/HTML/uk/kgeography/index.docbook
 * /usr/share/doc/HTML/uk/kgeography/kgeography.png
 * /usr/share/doc/HTML/uk/kgeography/zoom.png
-* /usr/share/doc/kgeography-23.08.5/AUTHORS
-* /usr/share/doc/kgeography-23.08.5/COPYING
-* /usr/share/doc/kgeography-23.08.5/COPYING.DOC
-* /usr/share/doc/kgeography-23.08.5/README
-* /usr/share/doc/kgeography-23.08.5/TODO
+* /usr/share/doc/kgeography-24.02.1/AUTHORS
+* /usr/share/doc/kgeography-24.02.1/COPYING
+* /usr/share/doc/kgeography-24.02.1/COPYING.DOC
+* /usr/share/doc/kgeography-24.02.1/README
+* /usr/share/doc/kgeography-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kgeography.png
 * /usr/share/icons/hicolor/16x16/apps/kgeography.png
 * /usr/share/icons/hicolor/22x22/apps/kgeography.png
@@ -1170,8 +1170,8 @@ Geography Trainer.
 * /usr/share/kgeography/zimbabwe.png
 * /usr/share/kgeography/zimbabwe_districts.kgm
 * /usr/share/kgeography/zimbabwe_districts.png
-* /usr/share/kxmlgui5/kgeography/kgeographyui.rc
 * /usr/share/locale/ar/LC_MESSAGES/kgeography.mo
+* /usr/share/locale/ast/LC_MESSAGES/kgeography.mo
 * /usr/share/locale/be/LC_MESSAGES/kgeography.mo
 * /usr/share/locale/bg/LC_MESSAGES/kgeography.mo
 * /usr/share/locale/br/LC_MESSAGES/kgeography.mo
@@ -1203,6 +1203,7 @@ Geography Trainer.
 * /usr/share/locale/hne/LC_MESSAGES/kgeography.mo
 * /usr/share/locale/hr/LC_MESSAGES/kgeography.mo
 * /usr/share/locale/hu/LC_MESSAGES/kgeography.mo
+* /usr/share/locale/ia/LC_MESSAGES/kgeography.mo
 * /usr/share/locale/is/LC_MESSAGES/kgeography.mo
 * /usr/share/locale/it/LC_MESSAGES/kgeography.mo
 * /usr/share/locale/ja/LC_MESSAGES/kgeography.mo

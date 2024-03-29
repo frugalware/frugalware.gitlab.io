@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kblackbox 23.08.5-1"
-version = "23.08.5-1"
+title = "kblackbox 24.02.1-3"
+version = "24.02.1-3"
 description = "A game of hide and seek played on a grid of boxes."
-date = "2024-02-19T22:29:58"
+date = "2024-03-27T11:01:20"
 aliases = "/packages/184175"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "619988"
-usize = "1929618"
-sha1sum = "222a9e8758cc46f09ab2e721054593a2af45779e"
-depends = "['libkdegames>=23.08.5', 'qt5-svg>=5.15.12']"
+size = "619452"
+usize = "1937802"
+sha1sum = "d33d2c72550ffc278ac99ce3acc0fb67b36231d4"
+depends = "['libkdegames>=24.02.1', 'qt6-svg>=6.6.3']"
 +++
 ### Description: 
 A game of hide and seek played on a grid of boxes.
@@ -46,8 +46,8 @@ A game of hide and seek played on a grid of boxes.
 * /usr/share/doc/HTML/uk/kblackbox/gameboard.png
 * /usr/share/doc/HTML/uk/kblackbox/index.cache.bz2
 * /usr/share/doc/HTML/uk/kblackbox/index.docbook
-* /usr/share/doc/kblackbox-23.08.5/CHANGES
-* /usr/share/doc/kblackbox-23.08.5/README
+* /usr/share/doc/kblackbox-24.02.1/CHANGES
+* /usr/share/doc/kblackbox-24.02.1/README
 * /usr/share/icons/hicolor/128x128/apps/kblackbox.png
 * /usr/share/icons/hicolor/16x16/apps/kblackbox.png
 * /usr/share/icons/hicolor/22x22/apps/kblackbox.png
@@ -57,6 +57,7 @@ A game of hide and seek played on a grid of boxes.
 * /usr/share/kblackbox/pics/kblackbox.svgz
 * /usr/share/locale/af/LC_MESSAGES/kblackbox.mo
 * /usr/share/locale/ar/LC_MESSAGES/kblackbox.mo
+* /usr/share/locale/ast/LC_MESSAGES/kblackbox.mo
 * /usr/share/locale/be/LC_MESSAGES/kblackbox.mo
 * /usr/share/locale/bg/LC_MESSAGES/kblackbox.mo
 * /usr/share/locale/bn/LC_MESSAGES/kblackbox.mo
@@ -84,6 +85,7 @@ A game of hide and seek played on a grid of boxes.
 * /usr/share/locale/hne/LC_MESSAGES/kblackbox.mo
 * /usr/share/locale/hr/LC_MESSAGES/kblackbox.mo
 * /usr/share/locale/hu/LC_MESSAGES/kblackbox.mo
+* /usr/share/locale/ia/LC_MESSAGES/kblackbox.mo
 * /usr/share/locale/id/LC_MESSAGES/kblackbox.mo
 * /usr/share/locale/is/LC_MESSAGES/kblackbox.mo
 * /usr/share/locale/it/LC_MESSAGES/kblackbox.mo

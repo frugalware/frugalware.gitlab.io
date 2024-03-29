@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "klickety 23.08.5-1"
-version = "23.08.5-1"
+title = "klickety 24.02.1-3"
+version = "24.02.1-3"
 description = "An adaptation of the Clickomania game."
-date = "2024-02-19T22:45:49"
+date = "2024-03-27T11:16:02"
 aliases = "/packages/184186"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1593492"
-usize = "3099788"
-sha1sum = "1d944304f89fd6c66ccda3dac388788fc8593f7c"
-depends = "['kdelibs4support>=5.115.0', 'knotifyconfig>=5.115.0', 'libkdegames>=23.08.5']"
+size = "1592420"
+usize = "3107434"
+sha1sum = "501fb2231215f4879e340e632f08b8bfe5531ca6"
+depends = "['knotifyconfig>=6.0.0', 'libkdegames>=24.02.1']"
 +++
 ### Description: 
 An adaptation of the Clickomania game.
@@ -75,8 +75,8 @@ An adaptation of the Clickomania game.
 * /usr/share/doc/HTML/uk/klickety/index.docbook
 * /usr/share/doc/HTML/uk/klickety/ksamemode.png
 * /usr/share/doc/HTML/uk/klickety/numbered.png
-* /usr/share/doc/klickety-23.08.5/README.PACKAGERS
-* /usr/share/doc/klickety-23.08.5/README.THEMES
+* /usr/share/doc/klickety-24.02.1/README.PACKAGERS
+* /usr/share/doc/klickety-24.02.1/README.THEMES
 * /usr/share/icons/hicolor/128x128/apps/klickety.png
 * /usr/share/icons/hicolor/128x128/apps/ksame.png
 * /usr/share/icons/hicolor/16x16/apps/klickety.png
@@ -101,6 +101,7 @@ An adaptation of the Clickomania game.
 * /usr/share/klickety/themes/ksame_old.svg
 * /usr/share/klickety/themes/ksame_old_preview.png
 * /usr/share/klickety/themes/ksame_preview.png
+* /usr/share/locale/ast/LC_MESSAGES/klickety.mo
 * /usr/share/locale/bg/LC_MESSAGES/klickety.mo
 * /usr/share/locale/bs/LC_MESSAGES/klickety.mo
 * /usr/share/locale/ca/LC_MESSAGES/klickety.mo
@@ -110,6 +111,7 @@ An adaptation of the Clickomania game.
 * /usr/share/locale/de/LC_MESSAGES/klickety.mo
 * /usr/share/locale/el/LC_MESSAGES/klickety.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/klickety.mo
+* /usr/share/locale/eo/LC_MESSAGES/klickety.mo
 * /usr/share/locale/es/LC_MESSAGES/klickety.mo
 * /usr/share/locale/et/LC_MESSAGES/klickety.mo
 * /usr/share/locale/eu/LC_MESSAGES/klickety.mo
@@ -118,6 +120,7 @@ An adaptation of the Clickomania game.
 * /usr/share/locale/ga/LC_MESSAGES/klickety.mo
 * /usr/share/locale/gl/LC_MESSAGES/klickety.mo
 * /usr/share/locale/hu/LC_MESSAGES/klickety.mo
+* /usr/share/locale/ia/LC_MESSAGES/klickety.mo
 * /usr/share/locale/id/LC_MESSAGES/klickety.mo
 * /usr/share/locale/is/LC_MESSAGES/klickety.mo
 * /usr/share/locale/it/LC_MESSAGES/klickety.mo

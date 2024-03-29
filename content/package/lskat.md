@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lskat 23.08.5-1"
-version = "23.08.5-1"
+title = "lskat 24.02.1-3"
+version = "24.02.1-3"
 description = "Lieutenant Skat (from German Offiziersskat) is a fun and engaging card game for two players"
-date = "2024-02-20T13:21:26"
+date = "2024-03-27T13:27:30"
 aliases = "/packages/219342"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1298668"
-usize = "4892260"
-sha1sum = "3871e70f063a3c6154548f3f65078fef2eab02f0"
-depends = "['libkdegames>=23.08.5']"
+size = "1309408"
+usize = "4937961"
+sha1sum = "99677f5030a8620130782b8becfdcfed3661f86a"
+depends = "['libkdegames>=24.02.1']"
 +++
 ### Description: 
 Lieutenant Skat (from German Offiziersskat) is a fun and engaging card game for two players
@@ -49,10 +49,10 @@ Lieutenant Skat (from German Offiziersskat) is a fun and engaging card game for 
 * /usr/share/doc/HTML/sv/lskat/index.docbook
 * /usr/share/doc/HTML/uk/lskat/index.cache.bz2
 * /usr/share/doc/HTML/uk/lskat/index.docbook
-* /usr/share/doc/lskat-23.08.5/AUTHORS
-* /usr/share/doc/lskat-23.08.5/INSTALL
-* /usr/share/doc/lskat-23.08.5/README
-* /usr/share/doc/lskat-23.08.5/README.PACKAGERS
+* /usr/share/doc/lskat-24.02.1/AUTHORS
+* /usr/share/doc/lskat-24.02.1/INSTALL
+* /usr/share/doc/lskat-24.02.1/README
+* /usr/share/doc/lskat-24.02.1/README.PACKAGERS
 * /usr/share/icons/hicolor/128x128/apps/lskat.png
 * /usr/share/icons/hicolor/16x16/apps/lskat.png
 * /usr/share/icons/hicolor/22x22/apps/lskat.png
@@ -61,6 +61,7 @@ Lieutenant Skat (from German Offiziersskat) is a fun and engaging card game for 
 * /usr/share/icons/hicolor/64x64/apps/lskat.png
 * /usr/share/locale/af/LC_MESSAGES/lskat.mo
 * /usr/share/locale/ar/LC_MESSAGES/lskat.mo
+* /usr/share/locale/ast/LC_MESSAGES/lskat.mo
 * /usr/share/locale/be/LC_MESSAGES/lskat.mo
 * /usr/share/locale/bg/LC_MESSAGES/lskat.mo
 * /usr/share/locale/br/LC_MESSAGES/lskat.mo
@@ -141,4 +142,4 @@ Lieutenant Skat (from German Offiziersskat) is a fun and engaging card game for 
 * /usr/share/lskat/grafix/oxygen.rc
 * /usr/share/lskat/grafix/oxygen.svg
 * /usr/share/metainfo/org.kde.lskat.appdata.xml
-* /usr/share/qlogging-categories5/lskat.categories
+* /usr/share/qlogging-categories6/lskat.categories

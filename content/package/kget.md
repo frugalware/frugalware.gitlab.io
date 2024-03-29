@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kget 23.08.5-1"
-version = "23.08.5-1"
+title = "kget 24.02.1-3"
+version = "24.02.1-3"
 description = "A free download manager for KDE."
-date = "2024-02-20T12:42:54"
+date = "2024-03-27T13:06:48"
 aliases = "/packages/219524"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5837660"
-usize = "11561987"
-sha1sum = "83d3f7d14f13acc42217f5d98c3b10d440d96a87"
+size = "5939904"
+usize = "12046360"
+sha1sum = "7b5fe2eaa4c3eacad9a499f68dda3251adddd536"
 depends = "['kcmutils>=6.0.0', 'knotifyconfig>=6.0.0', 'libktorrent', 'libmms', 'libqgpgme', 'plasma-workspace>=6.0.3']"
 +++
 ### Description: 

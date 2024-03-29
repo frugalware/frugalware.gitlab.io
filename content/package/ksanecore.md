@@ -1,40 +1,40 @@
 +++
 draft = false
-title = "ksanecore 23.08.5-1"
-version = "23.08.5-1"
+title = "ksanecore 24.02.1-3"
+version = "24.02.1-3"
 description = "Library providing logic to interface scanners"
-date = "2024-02-19T22:20:13"
+date = "2024-03-27T10:50:44"
 aliases = "/packages/220585"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "68228"
-usize = "250525"
-sha1sum = "2c4f979d015951a87b7e1da2f43ca5349a40ba2d"
-depends = "['ki18n>=5.115.0', 'sane-backends>=1.0.25-3']"
+size = "80380"
+usize = "286877"
+sha1sum = "33dcb0c72cdcf0955dca2440520b3cd61000ef8c"
+depends = "['ki18n>=6.0.0', 'sane-backends>=1.0.25-3']"
 reverse_depends = "['libksane', 'skanpage']"
 +++
 ### Description: 
 Library providing logic to interface scanners
 
 ### Files: 
-* /usr/include/KSaneCore/DeviceInformation
-* /usr/include/KSaneCore/deviceinformation.h
-* /usr/include/KSaneCore/Interface
-* /usr/include/KSaneCore/interface.h
-* /usr/include/KSaneCore/ksanecore_export.h
-* /usr/include/KSaneCore/ksanecore_version.h
-* /usr/include/KSaneCore/Option
-* /usr/include/KSaneCore/option.h
-* /usr/lib/cmake/KSaneCore/KSaneCoreConfig.cmake
-* /usr/lib/cmake/KSaneCore/KSaneCoreConfigVersion.cmake
-* /usr/lib/cmake/KSaneCore/KSaneCoreTargets-release.cmake
-* /usr/lib/cmake/KSaneCore/KSaneCoreTargets.cmake
-* /usr/lib/libKSaneCore.so
-* /usr/lib/libKSaneCore.so.1
-* /usr/lib/libKSaneCore.so.23.08.5
-* /usr/share/doc/ksanecore-23.08.5/README.md
-* /usr/share/doc/ksanecore-23.08.5/TODO
+* /usr/include/KSaneCore6/KSaneCore/DeviceInformation
+* /usr/include/KSaneCore6/ksanecore/deviceinformation.h
+* /usr/include/KSaneCore6/KSaneCore/Interface
+* /usr/include/KSaneCore6/ksanecore/interface.h
+* /usr/include/KSaneCore6/KSaneCore/Option
+* /usr/include/KSaneCore6/ksanecore/option.h
+* /usr/include/KSaneCore6/ksanecore_export.h
+* /usr/include/KSaneCore6/ksanecore_version.h
+* /usr/lib/cmake/KSaneCore6/KSaneCore6Config.cmake
+* /usr/lib/cmake/KSaneCore6/KSaneCore6ConfigVersion.cmake
+* /usr/lib/cmake/KSaneCore6/KSaneCore6Targets-release.cmake
+* /usr/lib/cmake/KSaneCore6/KSaneCore6Targets.cmake
+* /usr/lib/libKSaneCore6.so
+* /usr/lib/libKSaneCore6.so.1
+* /usr/lib/libKSaneCore6.so.24.02.1
+* /usr/share/doc/ksanecore-24.02.1/README.md
+* /usr/share/doc/ksanecore-24.02.1/TODO
 * /usr/share/locale/ar/LC_MESSAGES/ksanecore.mo
 * /usr/share/locale/bg/LC_MESSAGES/ksanecore.mo
 * /usr/share/locale/ca/LC_MESSAGES/ksanecore.mo

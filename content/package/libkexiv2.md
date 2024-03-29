@@ -1,41 +1,41 @@
 +++
 draft = false
-title = "libkexiv2 23.08.5-1"
-version = "23.08.5-1"
+title = "libkexiv2 24.02.1-3"
+version = "24.02.1-3"
 description = "A C++ library to manipulate EXIF/IPTC/XMP metadata using Exiv2 library."
-date = "2024-02-19T21:58:24"
+date = "2024-03-27T11:36:32"
 aliases = "/packages/74205"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "130048"
-usize = "410473"
-sha1sum = "6cc149978bb61f231ff5370a172377e4a81ef4cb"
-depends = "['exiv2>=0.28.1', 'qt5-base>=5.15.12']"
+size = "138224"
+usize = "443017"
+sha1sum = "47fe8c176d8ac1bf76970b79bac169c7c15b5c2f"
+depends = "['exiv2>=0.28.1', 'qt6-base>=6.6.3']"
 reverse_depends = "['kdegraphics-thumbnailers', 'kolourpaint', 'okular', 'plasma-workspace']"
 +++
 ### Description: 
 A C++ library to manipulate EXIF/IPTC/XMP metadata using Exiv2 library.
 
 ### Files: 
-* /usr/include/KF5/KExiv2/KExiv2/KExiv2
-* /usr/include/KF5/KExiv2/kexiv2/kexiv2.h
-* /usr/include/KF5/KExiv2/KExiv2/KExiv2Data
-* /usr/include/KF5/KExiv2/kexiv2/kexiv2data.h
-* /usr/include/KF5/KExiv2/KExiv2/KExiv2Previews
-* /usr/include/KF5/KExiv2/kexiv2/kexiv2previews.h
-* /usr/include/KF5/KExiv2/kexiv2/libkexiv2_export.h
-* /usr/include/KF5/KExiv2/KExiv2/RotationMatrix
-* /usr/include/KF5/KExiv2/kexiv2/rotationmatrix.h
-* /usr/include/KF5/KExiv2/libkexiv2_version.h
-* /usr/lib/cmake/KF5KExiv2/KF5KExiv2Config.cmake
-* /usr/lib/cmake/KF5KExiv2/KF5KExiv2ConfigVersion.cmake
-* /usr/lib/cmake/KF5KExiv2/KF5KExiv2Targets-release.cmake
-* /usr/lib/cmake/KF5KExiv2/KF5KExiv2Targets.cmake
-* /usr/lib/libKF5KExiv2.so
-* /usr/lib/libKF5KExiv2.so.15.0.0
-* /usr/lib/libKF5KExiv2.so.5.0.0
-* /usr/share/doc/libkexiv2-23.08.5/AUTHORS
-* /usr/share/doc/libkexiv2-23.08.5/README
-* /usr/share/doc/libkexiv2-23.08.5/TODO
-* /usr/share/qlogging-categories5/libkexiv2.categories
+* /usr/include/KExiv2Qt6/KExiv2/KExiv2
+* /usr/include/KExiv2Qt6/kexiv2/kexiv2.h
+* /usr/include/KExiv2Qt6/KExiv2/KExiv2Data
+* /usr/include/KExiv2Qt6/kexiv2/kexiv2data.h
+* /usr/include/KExiv2Qt6/KExiv2/KExiv2Previews
+* /usr/include/KExiv2Qt6/kexiv2/kexiv2previews.h
+* /usr/include/KExiv2Qt6/kexiv2/libkexiv2_export.h
+* /usr/include/KExiv2Qt6/KExiv2/RotationMatrix
+* /usr/include/KExiv2Qt6/kexiv2/rotationmatrix.h
+* /usr/include/KExiv2Qt6/libkexiv2_version.h
+* /usr/lib/cmake/KExiv2Qt6/KExiv2Qt6Config.cmake
+* /usr/lib/cmake/KExiv2Qt6/KExiv2Qt6ConfigVersion.cmake
+* /usr/lib/cmake/KExiv2Qt6/KExiv2Qt6Targets-release.cmake
+* /usr/lib/cmake/KExiv2Qt6/KExiv2Qt6Targets.cmake
+* /usr/lib/libKExiv2Qt6.so
+* /usr/lib/libKExiv2Qt6.so.0
+* /usr/lib/libKExiv2Qt6.so.5.1.0
+* /usr/share/doc/libkexiv2-24.02.1/AUTHORS
+* /usr/share/doc/libkexiv2-24.02.1/README
+* /usr/share/doc/libkexiv2-24.02.1/TODO
+* /usr/share/qlogging-categories6/libkexiv2.categories

@@ -1,27 +1,27 @@
 +++
 draft = false
-title = "kdegraphics-thumbnailers 23.08.5-1"
-version = "23.08.5-1"
+title = "kdegraphics-thumbnailers 24.02.1-3"
+version = "24.02.1-3"
 description = "Thumnailers Creators for Kdegraphics."
-date = "2024-02-19T23:14:45"
+date = "2024-03-27T11:37:36"
 aliases = "/packages/88171"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "51668"
-usize = "195758"
-sha1sum = "f84970b3b4bcbe66c6802ba68be5cbc47d00c818"
-depends = "['kdegraphics-mobipocket>=23.08.5', 'kio>=5.115.0', 'libkdcraw>=23.08.5', 'libkexiv2>=23.08.5', 'qt5-svg>=5.15.12']"
+size = "47288"
+usize = "201922"
+sha1sum = "7d21bd061a78a7c1e095ecf90ca98e52b44fa4d7"
+depends = "['kdegraphics-mobipocket>=24.02.1', 'kio>=6.0.0', 'libkdcraw>=24.02.1', 'libkexiv2>=24.02.1', 'qt6-svg>=6.6.3']"
 reverse_depends = "['dolphin']"
 +++
 ### Description: 
 Thumnailers Creators for Kdegraphics.
 
 ### Files: 
-* /usr/lib/qt5/plugins/kf5/thumbcreator/blenderthumbnail.so
-* /usr/lib/qt5/plugins/kf5/thumbcreator/gsthumbnail.so
-* /usr/lib/qt5/plugins/kf5/thumbcreator/mobithumbnail.so
-* /usr/lib/qt5/plugins/kf5/thumbcreator/rawthumbnail.so
-* /usr/share/doc/kdegraphics-thumbnailers-23.08.5/COPYING
-* /usr/share/doc/kdegraphics-thumbnailers-23.08.5/COPYING.LIB
+* /usr/lib/qt6/plugins/kf6/thumbcreator/blenderthumbnail.so
+* /usr/lib/qt6/plugins/kf6/thumbcreator/gsthumbnail.so
+* /usr/lib/qt6/plugins/kf6/thumbcreator/mobithumbnail.so
+* /usr/lib/qt6/plugins/kf6/thumbcreator/rawthumbnail.so
+* /usr/share/doc/kdegraphics-thumbnailers-24.02.1/COPYING
+* /usr/share/doc/kdegraphics-thumbnailers-24.02.1/COPYING.LIB
 * /usr/share/metainfo/org.kde.kdegraphics-thumbnailers.metainfo.xml

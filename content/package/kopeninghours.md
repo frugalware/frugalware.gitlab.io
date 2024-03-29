@@ -1,17 +1,18 @@
 +++
 draft = false
-title = "kopeninghours 23.08.5-1"
-version = "23.08.5-1"
+title = "kopeninghours 24.02.1-3"
+version = "24.02.1-3"
 description = "Library for parsing and evaluating OSM opening hours expressions"
-date = "2024-02-20T15:02:59"
+date = "2024-03-27T13:51:15"
 aliases = "/packages/220984"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "93992"
-usize = "351162"
-sha1sum = "ed54655327e8fe1551be8bc8a64680831262ad68"
-depends = "['kholidays', 'ki18n', 'qt5-declarative']"
+size = "101616"
+usize = "378175"
+sha1sum = "42f1a8e6e881ad28ca162d72d0d1e5b7f27728e4"
+depends = "['kholidays', 'ki18n', 'qt6-declarative']"
+reverse_depends = "['kosmindoormap']"
 +++
 ### Description: 
 Library for parsing and evaluating OSM opening hours expressions
@@ -33,9 +34,13 @@ Library for parsing and evaluating OSM opening hours expressions
 * /usr/lib/cmake/KOpeningHours/KOpeningHoursTargets.cmake
 * /usr/lib/libKOpeningHours.so
 * /usr/lib/libKOpeningHours.so.1
-* /usr/lib/libKOpeningHours.so.23.8.5
-* /usr/share/doc/kopeninghours-23.08.5/README.md
-* /usr/share/doc/kopeninghours-23.08.5/README.md.license
+* /usr/lib/libKOpeningHours.so.24.2.1
+* /usr/lib/qt6/qml/org/kde/kopeninghours/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/kopeninghours/kopeninghoursqmlplugin.qmltypes
+* /usr/lib/qt6/qml/org/kde/kopeninghours/libkopeninghoursqmlplugin.so
+* /usr/lib/qt6/qml/org/kde/kopeninghours/qmldir
+* /usr/share/doc/kopeninghours-24.02.1/README.md
+* /usr/share/doc/kopeninghours-24.02.1/README.md.license
 * /usr/share/locale/ca/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/cs/LC_MESSAGES/kopeninghours.mo
@@ -48,6 +53,7 @@ Library for parsing and evaluating OSM opening hours expressions
 * /usr/share/locale/fr/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/gl/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/hi/LC_MESSAGES/kopeninghours.mo
+* /usr/share/locale/ia/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/it/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/ja/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/ka/LC_MESSAGES/kopeninghours.mo
@@ -67,6 +73,4 @@ Library for parsing and evaluating OSM opening hours expressions
 * /usr/share/locale/uk/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kopeninghours.mo
-* /usr/share/qlogging-categories5/org_kde_kopeninghours.categories
-* /usr/share/qt5/qml/org/kde/kopeninghours/libkopeninghoursqmlplugin.so
-* /usr/share/qt5/qml/org/kde/kopeninghours/qmldir
+* /usr/share/qlogging-categories6/org_kde_kopeninghours.categories

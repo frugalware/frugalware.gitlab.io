@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kalarm 23.08.5-1"
-version = "23.08.5-1"
+title = "kalarm 24.02.1-3"
+version = "24.02.1-3"
 description = "Personal Alarm Scheduler"
-date = "2024-02-20T09:33:45"
+date = "2024-03-27T12:27:01"
 aliases = "/packages/218930"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2888092"
-usize = "14402120"
-sha1sum = "5069e7fd4feb2be4faaf3e267954f010ddf3c203"
-depends = "['kcalutils>=23.08.5', 'kholidays>=5.115.0', 'kidletime>=5.115.0', 'kmailtransport>=23.08.5', 'knotifyconfig>=5.115.0', 'mailcommon>=23.08.5', 'pimcommon>=23.08.5']"
+size = "2975092"
+usize = "14695810"
+sha1sum = "de0d79f40472f71b5a19650c0969d940007d830e"
+depends = "['kcalutils>=24.02.1', 'kholidays>=6.0.0', 'kidletime>=6.0.0', 'kmailtransport>=24.02.1', 'knotifyconfig>=6.0.0', 'mailcommon>=24.02.1', 'pimcommon>=24.02.1']"
 reverse_depends = "['kdepim-runtime', 'pim-data-exporter']"
 +++
 ### Description: 
@@ -21,12 +21,12 @@ Personal Alarm Scheduler
 * /etc/xdg/autostart/kalarm.autostart.desktop
 * /usr/bin/kalarm
 * /usr/bin/kalarmautostart
-* /usr/lib/kf5/kauth/kalarm_helper
-* /usr/lib/libkalarmcalendar.so.5
-* /usr/lib/libkalarmcalendar.so.5.24.5
-* /usr/lib/libkalarmplugin.so.5
-* /usr/lib/libkalarmplugin.so.5.24.5
-* /usr/lib/qt5/plugins/pim5/kalarm/akonadiplugin.so
+* /usr/lib/kauth/kf6/kauth/kalarm_helper
+* /usr/lib/libkalarmcalendar.so.6
+* /usr/lib/libkalarmcalendar.so.6.0.1
+* /usr/lib/libkalarmplugin.so.6
+* /usr/lib/libkalarmplugin.so.6.0.1
+* /usr/lib/qt6/plugins/pim6/kalarm/akonadiplugin.so
 * /usr/share/applications/org.kde.kalarm.desktop
 * /usr/share/config.kcfg/kalarmconfig.kcfg
 * /usr/share/dbus-1/interfaces/org.kde.kalarm.kalarm.xml
@@ -67,14 +67,10 @@ Personal Alarm Scheduler
 * /usr/share/doc/HTML/sv/kalarm/index.docbook
 * /usr/share/doc/HTML/uk/kalarm/index.cache.bz2
 * /usr/share/doc/HTML/uk/kalarm/index.docbook
-* /usr/share/doc/kalarm-23.08.5/AUTHORS
-* /usr/share/doc/kalarm-23.08.5/Changelog
-* /usr/share/doc/kalarm-23.08.5/INSTALL
-* /usr/share/doc/kalarm-23.08.5/README
-* /usr/share/icons/breeze-dark/actions/16/show-today.svg
-* /usr/share/icons/breeze-dark/actions/22/show-today.svg
-* /usr/share/icons/breeze/actions/16/show-today.svg
-* /usr/share/icons/breeze/actions/22/show-today.svg
+* /usr/share/doc/kalarm-24.02.1/AUTHORS
+* /usr/share/doc/kalarm-24.02.1/Changelog
+* /usr/share/doc/kalarm-24.02.1/INSTALL
+* /usr/share/doc/kalarm-24.02.1/README
 * /usr/share/icons/hicolor/128x128/apps/kalarm.png
 * /usr/share/icons/hicolor/16x16/apps/kalarm.png
 * /usr/share/icons/hicolor/22x22/apps/kalarm.png
@@ -82,20 +78,12 @@ Personal Alarm Scheduler
 * /usr/share/icons/hicolor/48x48/apps/kalarm.png
 * /usr/share/icons/hicolor/64x64/apps/kalarm.png
 * /usr/share/kalarm/icons/oxygen/16x16/actions/document-new-from-template.png
-* /usr/share/kalarm/icons/oxygen/16x16/actions/new-audio-alarm.png
-* /usr/share/kalarm/icons/oxygen/16x16/actions/new-command-alarm.png
-* /usr/share/kalarm/icons/oxygen/16x16/actions/show-today.svg
 * /usr/share/kalarm/icons/oxygen/22x22/actions/document-new-from-template.png
-* /usr/share/kalarm/icons/oxygen/22x22/actions/kalarm-disabled.png
-* /usr/share/kalarm/icons/oxygen/22x22/actions/kalarm-partdisabled.png
 * /usr/share/kalarm/icons/oxygen/22x22/actions/kalarm.png
-* /usr/share/kalarm/icons/oxygen/22x22/actions/new-audio-alarm.png
-* /usr/share/kalarm/icons/oxygen/22x22/actions/new-command-alarm.png
-* /usr/share/kalarm/icons/oxygen/22x22/actions/show-today.svg
-* /usr/share/knotifications5/kalarm.notifyrc
-* /usr/share/kxmlgui5/kalarm/kalarmui.rc
+* /usr/share/knotifications6/kalarm.notifyrc
 * /usr/share/locale/af/LC_MESSAGES/kalarm.mo
 * /usr/share/locale/ar/LC_MESSAGES/kalarm.mo
+* /usr/share/locale/ast/LC_MESSAGES/kalarm.mo
 * /usr/share/locale/be/LC_MESSAGES/kalarm.mo
 * /usr/share/locale/bg/LC_MESSAGES/kalarm.mo
 * /usr/share/locale/br/LC_MESSAGES/kalarm.mo
@@ -171,5 +159,5 @@ Personal Alarm Scheduler
 * /usr/share/locale/zh_TW/LC_MESSAGES/kalarm.mo
 * /usr/share/metainfo/org.kde.kalarm.appdata.xml
 * /usr/share/polkit-1/actions/org.kde.kalarm.rtcwake.policy
-* /usr/share/qlogging-categories5/kalarm.categories
-* /usr/share/qlogging-categories5/kalarm.renamecategories
+* /usr/share/qlogging-categories6/kalarm.categories
+* /usr/share/qlogging-categories6/kalarm.renamecategories

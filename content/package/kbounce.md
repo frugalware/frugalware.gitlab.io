@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kbounce 23.08.5-1"
-version = "23.08.5-1"
+title = "kbounce 24.02.1-3"
+version = "24.02.1-3"
 description = "A single player arcade game with the elements of puzzle."
-date = "2024-02-19T22:32:32"
+date = "2024-03-27T11:03:51"
 aliases = "/packages/184177"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3023356"
-usize = "6536410"
-sha1sum = "571d0a4c5870279a2dae14d59a86230f812be0eb"
-depends = "['libkdegames>=23.08.5', 'qt5-svg>=5.15.12']"
+size = "3031868"
+usize = "6561784"
+sha1sum = "0bf5a87552b5a6b62c4f61f03b9f92c4bdb3fc9c"
+depends = "['libkdegames>=24.02.1', 'qt6-svg>=6.6.3']"
 +++
 ### Description: 
 A single player arcade game with the elements of puzzle.
@@ -60,6 +60,8 @@ A single player arcade game with the elements of puzzle.
 * /usr/share/doc/HTML/pt_BR/kbounce/kbounce_corridor2.png
 * /usr/share/doc/HTML/sv/kbounce/index.cache.bz2
 * /usr/share/doc/HTML/sv/kbounce/index.docbook
+* /usr/share/doc/HTML/tr/kbounce/index.cache.bz2
+* /usr/share/doc/HTML/tr/kbounce/index.docbook
 * /usr/share/doc/HTML/uk/kbounce/index.cache.bz2
 * /usr/share/doc/HTML/uk/kbounce/index.docbook
 * /usr/share/doc/HTML/uk/kbounce/kbounce_corridor1.png
@@ -93,6 +95,7 @@ A single player arcade game with the elements of puzzle.
 * /usr/share/kbounce/themes/the_beach.svgz
 * /usr/share/locale/af/LC_MESSAGES/kbounce.mo
 * /usr/share/locale/ar/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/ast/LC_MESSAGES/kbounce.mo
 * /usr/share/locale/be/LC_MESSAGES/kbounce.mo
 * /usr/share/locale/bg/LC_MESSAGES/kbounce.mo
 * /usr/share/locale/bn/LC_MESSAGES/kbounce.mo
@@ -121,6 +124,7 @@ A single player arcade game with the elements of puzzle.
 * /usr/share/locale/hne/LC_MESSAGES/kbounce.mo
 * /usr/share/locale/hr/LC_MESSAGES/kbounce.mo
 * /usr/share/locale/hu/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/ia/LC_MESSAGES/kbounce.mo
 * /usr/share/locale/id/LC_MESSAGES/kbounce.mo
 * /usr/share/locale/is/LC_MESSAGES/kbounce.mo
 * /usr/share/locale/it/LC_MESSAGES/kbounce.mo
@@ -169,4 +173,4 @@ A single player arcade game with the elements of puzzle.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kbounce.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kbounce.mo
 * /usr/share/metainfo/org.kde.kbounce.appdata.xml
-* /usr/share/qlogging-categories5/kbounce.categories
+* /usr/share/qlogging-categories6/kbounce.categories

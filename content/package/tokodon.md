@@ -1,32 +1,43 @@
 +++
 draft = false
-title = "tokodon 23.08.5-1"
-version = "23.08.5-1"
+title = "tokodon 24.02.1-3"
+version = "24.02.1-3"
 description = "A Mastodon client for Plasma"
-date = "2024-02-20T15:18:50"
+date = "2024-03-27T14:26:09"
 aliases = "/packages/220996"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "418716"
-usize = "1742338"
-sha1sum = "f1528e4a596548c2c6deb2f6194da05b9d39e3b2"
-depends = "['kdbusaddons', 'kio', 'kirigami-addons', 'kitemmodels', 'knotifications', 'mpv', 'qqc2-desktop-style', 'qt5-websockets', 'qtkeychain']"
+size = "1341064"
+usize = "7265680"
+sha1sum = "6a9d3b9411d40105bd824d713f1838c96b2a578c"
+depends = "['kdbusaddons', 'kio', 'kirigami-addons', 'kitemmodels', 'knotifications', 'mpvqt', 'purpose', 'qqc2-desktop-style', 'qt6-websockets', 'qt6-webview', 'qtkeychain']"
 +++
 ### Description: 
 A Mastodon client for Plasma
 
 ### Files: 
 * /usr/bin/tokodon
+* /usr/lib/qt6/plugins/kf6/purpose/tokodonplugin.so
 * /usr/share/applications/org.kde.tokodon.desktop
-* /usr/share/doc/tokodon-23.08.5/README.md
+* /usr/share/doc/tokodon-24.02.1/README.md
+* /usr/share/icons/hicolor/scalable/actions/tokodon-chat-reply.svg
+* /usr/share/icons/hicolor/scalable/actions/tokodon-post-bookmarked.svg
+* /usr/share/icons/hicolor/scalable/actions/tokodon-post-boost.svg
+* /usr/share/icons/hicolor/scalable/actions/tokodon-post-boosted.svg
+* /usr/share/icons/hicolor/scalable/actions/tokodon-post-favorite.svg
+* /usr/share/icons/hicolor/scalable/actions/tokodon-post-favorited.svg
+* /usr/share/icons/hicolor/scalable/actions/tokodon-post-reply-filled.svg
+* /usr/share/icons/hicolor/scalable/actions/tokodon-post-reply.svg
 * /usr/share/icons/hicolor/scalable/apps/org.kde.tokodon.svg
-* /usr/share/knotifications5/tokodon.notifyrc
+* /usr/share/knotifications6/tokodon.notifyrc
+* /usr/share/locale/ast/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/ca/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/cs/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/de/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/tokodon.mo
+* /usr/share/locale/eo/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/es/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/eu/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/fi/LC_MESSAGES/tokodon.mo
@@ -41,6 +52,7 @@ A Mastodon client for Plasma
 * /usr/share/locale/ka/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/ko/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/lt/LC_MESSAGES/tokodon.mo
+* /usr/share/locale/lv/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/nl/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/pa/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/pl/LC_MESSAGES/tokodon.mo
@@ -55,4 +67,4 @@ A Mastodon client for Plasma
 * /usr/share/locale/zh_CN/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/tokodon.mo
 * /usr/share/metainfo/org.kde.tokodon.appdata.xml
-* /usr/share/qlogging-categories5/tokodon.categories
+* /usr/share/qlogging-categories6/tokodon.categories

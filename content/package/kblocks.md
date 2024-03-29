@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kblocks 23.08.5-1"
-version = "23.08.5-1"
+title = "kblocks 24.02.1-3"
+version = "24.02.1-3"
 description = "The classic falling blocks game."
-date = "2024-02-19T22:31:18"
+date = "2024-03-27T11:02:37"
 aliases = "/packages/184176"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2298660"
-usize = "2852225"
-sha1sum = "6946d7566a6e09e427d3dc9b2e4741fc578295ad"
-depends = "['libkdegames>=23.08.5', 'qt5-svg>=5.15.12']"
+size = "2297656"
+usize = "2860376"
+sha1sum = "23591c12d94a797bc34a5f60c2cc4c911cc103a8"
+depends = "['libkdegames>=24.02.1', 'qt6-svg>=6.6.3']"
 +++
 ### Description: 
 The classic falling blocks game.
@@ -51,9 +51,9 @@ The classic falling blocks game.
 * /usr/share/doc/HTML/uk/kblocks/gameboard.png
 * /usr/share/doc/HTML/uk/kblocks/index.cache.bz2
 * /usr/share/doc/HTML/uk/kblocks/index.docbook
-* /usr/share/doc/kblocks-23.08.5/COPYING
-* /usr/share/doc/kblocks-23.08.5/COPYING.DOC
-* /usr/share/doc/kblocks-23.08.5/README.PACKAGERS
+* /usr/share/doc/kblocks-24.02.1/COPYING
+* /usr/share/doc/kblocks-24.02.1/COPYING.DOC
+* /usr/share/doc/kblocks-24.02.1/README.PACKAGERS
 * /usr/share/icons/hicolor/128x128/apps/kblocks.png
 * /usr/share/icons/hicolor/16x16/apps/kblocks.png
 * /usr/share/icons/hicolor/22x22/apps/kblocks.png
@@ -73,6 +73,7 @@ The classic falling blocks game.
 * /usr/share/kblocks/themes/oxygen_preview.png
 * /usr/share/knsrcfiles/kblocks.knsrc
 * /usr/share/locale/ar/LC_MESSAGES/kblocks.mo
+* /usr/share/locale/ast/LC_MESSAGES/kblocks.mo
 * /usr/share/locale/bg/LC_MESSAGES/kblocks.mo
 * /usr/share/locale/bs/LC_MESSAGES/kblocks.mo
 * /usr/share/locale/ca/LC_MESSAGES/kblocks.mo
@@ -94,6 +95,7 @@ The classic falling blocks game.
 * /usr/share/locale/hi/LC_MESSAGES/kblocks.mo
 * /usr/share/locale/hr/LC_MESSAGES/kblocks.mo
 * /usr/share/locale/hu/LC_MESSAGES/kblocks.mo
+* /usr/share/locale/ia/LC_MESSAGES/kblocks.mo
 * /usr/share/locale/id/LC_MESSAGES/kblocks.mo
 * /usr/share/locale/is/LC_MESSAGES/kblocks.mo
 * /usr/share/locale/it/LC_MESSAGES/kblocks.mo
@@ -131,4 +133,4 @@ The classic falling blocks game.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kblocks.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kblocks.mo
 * /usr/share/metainfo/org.kde.kblocks.appdata.xml
-* /usr/share/qlogging-categories5/kblocks.categories
+* /usr/share/qlogging-categories6/kblocks.categories

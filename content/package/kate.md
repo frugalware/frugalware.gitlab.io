@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kate 23.08.5-1"
-version = "23.08.5-1"
+title = "kate 24.02.1-3"
+version = "24.02.1-3"
 description = "KDE Advanced Text Editor."
-date = "2024-02-19T23:22:45"
+date = "2024-03-27T11:43:08"
 aliases = "/packages/118445"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "9490096"
-usize = "31654442"
-sha1sum = "7a001ae596605de3f539e98c3b11285b8c84960a"
-depends = "['kitemmodels>=5.115.0', 'knewstuff>=5.115.0', 'ktexteditor>=5.115.0', 'libgit2>=0.26', 'plasma-framework>=5.115.0', 'qt5-declarative>=5.15.12', 'threadweaver>=5.115.0']"
+size = "10236944"
+usize = "34600120"
+sha1sum = "6640b0b9b01b3f3fe88cf7fd66e4e58821c295fe"
+depends = "['kitemmodels>=6.0.0', 'knewstuff>=6.0.0', 'ktexteditor>=6.0.0', 'libgit2>=0.26', 'libplasma>=6.0.3', 'qt6-declarative>=6.6.3', 'threadweaver>=6.0.0']"
 +++
 ### Description: 
 KDE Advanced Text Editor.
@@ -19,38 +19,37 @@ KDE Advanced Text Editor.
 ### Files: 
 * /usr/bin/kate
 * /usr/bin/kwrite
-* /usr/lib/libkateprivate.so.23.08.5
-* /usr/lib/qt5/plugins/ktexteditor/cmaketoolsplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/compilerexplorer.so
-* /usr/lib/qt5/plugins/ktexteditor/eslintplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/externaltoolsplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/formatplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/katebacktracebrowserplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/katebuildplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/katecloseexceptplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/katecolorpickerplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/katectagsplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/katefilebrowserplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/katefiletreeplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/kategdbplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/kategitblameplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/katekonsoleplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/kateprojectplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/katereplicodeplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/katesearchplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/katesnippetsplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/katesqlplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/katesymbolviewerplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/katexmlcheckplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/katexmltoolsplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/keyboardmacrosplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/ktexteditorpreviewplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/latexcompletionplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/lspclientplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/openlinkplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/rainbowparens.so
-* /usr/lib/qt5/plugins/ktexteditor/tabswitcherplugin.so
-* /usr/lib/qt5/plugins/ktexteditor/textfilterplugin.so
+* /usr/lib/libkateprivate.so.24.02.1
+* /usr/lib/qt6/plugins/kf6/ktexteditor/cmaketoolsplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/compilerexplorer.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/eslintplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/externaltoolsplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/formatplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/katebacktracebrowserplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/katebuildplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/katecloseexceptplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/katecolorpickerplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/katectagsplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/katefilebrowserplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/katefiletreeplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/kategdbplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/kategitblameplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/katekonsoleplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/kateprojectplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/katereplicodeplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/katesearchplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/katesnippetsplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/katesymbolviewerplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/katexmlcheckplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/katexmltoolsplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/keyboardmacrosplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/ktexteditorpreviewplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/latexcompletionplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/lspclientplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/openlinkplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/rainbowparens.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/tabswitcherplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/textfilterplugin.so
 * /usr/share/applications/org.kde.kate.desktop
 * /usr/share/applications/org.kde.kwrite.desktop
 * /usr/share/doc/HTML/ca/kate/backtrace-settings.png
@@ -209,6 +208,7 @@ KDE Advanced Text Editor.
 * /usr/share/doc/HTML/en/katepart/index.cache.bz2
 * /usr/share/doc/HTML/en/katepart/index.docbook
 * /usr/share/doc/HTML/en/katepart/kf5-ksyntaxhighlighting.png
+* /usr/share/doc/HTML/en/katepart/ksyntaxhighlighter6-trace-format.png
 * /usr/share/doc/HTML/en/katepart/line-modification-system.png
 * /usr/share/doc/HTML/en/katepart/menus.docbook
 * /usr/share/doc/HTML/en/katepart/minimap.png
@@ -218,6 +218,25 @@ KDE Advanced Text Editor.
 * /usr/share/doc/HTML/en/katepart/vi.docbook
 * /usr/share/doc/HTML/en/kwrite/index.cache.bz2
 * /usr/share/doc/HTML/en/kwrite/index.docbook
+* /usr/share/doc/HTML/eo/kate/configuring.docbook
+* /usr/share/doc/HTML/eo/kate/development.docbook
+* /usr/share/doc/HTML/eo/kate/fundamentals.docbook
+* /usr/share/doc/HTML/eo/kate/index.cache.bz2
+* /usr/share/doc/HTML/eo/kate/index.docbook
+* /usr/share/doc/HTML/eo/kate/menus.docbook
+* /usr/share/doc/HTML/eo/kate/plugins.docbook
+* /usr/share/doc/HTML/eo/katepart/advanced.docbook
+* /usr/share/doc/HTML/eo/katepart/configuring.docbook
+* /usr/share/doc/HTML/eo/katepart/development.docbook
+* /usr/share/doc/HTML/eo/katepart/fundamentals.docbook
+* /usr/share/doc/HTML/eo/katepart/index.cache.bz2
+* /usr/share/doc/HTML/eo/katepart/index.docbook
+* /usr/share/doc/HTML/eo/katepart/menus.docbook
+* /usr/share/doc/HTML/eo/katepart/part.docbook
+* /usr/share/doc/HTML/eo/katepart/regular-expressions.docbook
+* /usr/share/doc/HTML/eo/katepart/vi.docbook
+* /usr/share/doc/HTML/eo/kwrite/index.cache.bz2
+* /usr/share/doc/HTML/eo/kwrite/index.docbook
 * /usr/share/doc/HTML/es/kwrite/index.cache.bz2
 * /usr/share/doc/HTML/es/kwrite/index.docbook
 * /usr/share/doc/HTML/it/kate/configuring.docbook
@@ -324,6 +343,25 @@ KDE Advanced Text Editor.
 * /usr/share/doc/HTML/sv/katepart/vi.docbook
 * /usr/share/doc/HTML/sv/kwrite/index.cache.bz2
 * /usr/share/doc/HTML/sv/kwrite/index.docbook
+* /usr/share/doc/HTML/tr/kate/configuring.docbook
+* /usr/share/doc/HTML/tr/kate/development.docbook
+* /usr/share/doc/HTML/tr/kate/fundamentals.docbook
+* /usr/share/doc/HTML/tr/kate/index.cache.bz2
+* /usr/share/doc/HTML/tr/kate/index.docbook
+* /usr/share/doc/HTML/tr/kate/menus.docbook
+* /usr/share/doc/HTML/tr/kate/plugins.docbook
+* /usr/share/doc/HTML/tr/katepart/advanced.docbook
+* /usr/share/doc/HTML/tr/katepart/configuring.docbook
+* /usr/share/doc/HTML/tr/katepart/development.docbook
+* /usr/share/doc/HTML/tr/katepart/fundamentals.docbook
+* /usr/share/doc/HTML/tr/katepart/index.cache.bz2
+* /usr/share/doc/HTML/tr/katepart/index.docbook
+* /usr/share/doc/HTML/tr/katepart/menus.docbook
+* /usr/share/doc/HTML/tr/katepart/part.docbook
+* /usr/share/doc/HTML/tr/katepart/regular-expressions.docbook
+* /usr/share/doc/HTML/tr/katepart/vi.docbook
+* /usr/share/doc/HTML/tr/kwrite/index.cache.bz2
+* /usr/share/doc/HTML/tr/kwrite/index.docbook
 * /usr/share/doc/HTML/uk/kate/backtrace-settings.png
 * /usr/share/doc/HTML/uk/kate/build-output.png
 * /usr/share/doc/HTML/uk/kate/close-except-like.png
@@ -373,7 +411,7 @@ KDE Advanced Text Editor.
 * /usr/share/doc/HTML/uk/katepart/vi.docbook
 * /usr/share/doc/HTML/uk/kwrite/index.cache.bz2
 * /usr/share/doc/HTML/uk/kwrite/index.docbook
-* /usr/share/doc/kate-23.08.5/README.md
+* /usr/share/doc/kate-24.02.1/README.md
 * /usr/share/icons/hicolor/128x128/apps/kate.png
 * /usr/share/icons/hicolor/128x128/apps/kwrite.png
 * /usr/share/icons/hicolor/150x150/apps/kate.png
@@ -411,8 +449,6 @@ KDE Advanced Text Editor.
 * /usr/share/katexmltools/xhtml1-strict.dtd.xml
 * /usr/share/katexmltools/xhtml1-transitional.dtd.xml
 * /usr/share/katexmltools/xslt-1.0.dtd.xml
-* /usr/share/kconf_update/katesession_migration.upd
-* /usr/share/kconf_update/migrate_kate_sessions_applet_to_kdeplasma-addons.sh
 * /usr/share/locale/af/LC_MESSAGES/kate.mo
 * /usr/share/locale/af/LC_MESSAGES/katetextfilter.mo
 * /usr/share/locale/af/LC_MESSAGES/katexmltools.mo
@@ -437,6 +473,31 @@ KDE Advanced Text Editor.
 * /usr/share/locale/ar/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/ar/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/ar/LC_MESSAGES/tabswitcherplugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/kate-ctags-plugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/kate-replicode-plugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/kate.mo
+* /usr/share/locale/ast/LC_MESSAGES/katebacktracebrowserplugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/katebuild-plugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/katecloseexceptplugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/katecolorpickerplugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/kateexternaltoolsplugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/katefilebrowserplugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/katefiletree.mo
+* /usr/share/locale/ast/LC_MESSAGES/kategdbplugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/kategitblameplugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/katekeyboardmacros.mo
+* /usr/share/locale/ast/LC_MESSAGES/katekonsoleplugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/kateproject.mo
+* /usr/share/locale/ast/LC_MESSAGES/katesearch.mo
+* /usr/share/locale/ast/LC_MESSAGES/katesnippetsplugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/katesql.mo
+* /usr/share/locale/ast/LC_MESSAGES/katesymbolviewer.mo
+* /usr/share/locale/ast/LC_MESSAGES/katetextfilter.mo
+* /usr/share/locale/ast/LC_MESSAGES/katexmlcheck.mo
+* /usr/share/locale/ast/LC_MESSAGES/katexmltools.mo
+* /usr/share/locale/ast/LC_MESSAGES/ktexteditorpreviewplugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/ast/LC_MESSAGES/tabswitcherplugin.mo
 * /usr/share/locale/az/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/az/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/az/LC_MESSAGES/kate.mo
@@ -514,6 +575,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/bs/LC_MESSAGES/katetextfilter.mo
 * /usr/share/locale/bs/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/bs/LC_MESSAGES/tabswitcherplugin.mo
+* /usr/share/locale/ca/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/ca/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/ca/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/ca/LC_MESSAGES/kate.mo
@@ -538,7 +600,9 @@ KDE Advanced Text Editor.
 * /usr/share/locale/ca/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/ca/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/ca/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/ca/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/ca/LC_MESSAGES/tabswitcherplugin.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kate.mo
@@ -563,7 +627,9 @@ KDE Advanced Text Editor.
 * /usr/share/locale/ca@valencia/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/tabswitcherplugin.mo
+* /usr/share/locale/cs/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/cs/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/cs/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/cs/LC_MESSAGES/kate.mo
@@ -588,6 +654,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/cs/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/cs/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/cs/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/cs/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/cs/LC_MESSAGES/tabswitcherplugin.mo
 * /usr/share/locale/csb/LC_MESSAGES/kate.mo
 * /usr/share/locale/cy/LC_MESSAGES/kate.mo
@@ -616,6 +683,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/da/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/da/LC_MESSAGES/lspclient.mo
 * /usr/share/locale/da/LC_MESSAGES/tabswitcherplugin.mo
+* /usr/share/locale/de/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/de/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/de/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/de/LC_MESSAGES/kate.mo
@@ -640,6 +708,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/de/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/de/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/de/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/de/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/de/LC_MESSAGES/tabswitcherplugin.mo
 * /usr/share/locale/el/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/el/LC_MESSAGES/kate-replicode-plugin.mo
@@ -691,6 +760,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/en_GB/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/lspclient.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/tabswitcherplugin.mo
+* /usr/share/locale/eo/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/eo/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/eo/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/eo/LC_MESSAGES/kate.mo
@@ -715,7 +785,9 @@ KDE Advanced Text Editor.
 * /usr/share/locale/eo/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/eo/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/eo/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/eo/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/eo/LC_MESSAGES/tabswitcherplugin.mo
+* /usr/share/locale/es/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/es/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/es/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/es/LC_MESSAGES/kate.mo
@@ -740,6 +812,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/es/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/es/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/es/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/es/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/es/LC_MESSAGES/tabswitcherplugin.mo
 * /usr/share/locale/et/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/et/LC_MESSAGES/kate-replicode-plugin.mo
@@ -763,6 +836,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/et/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/et/LC_MESSAGES/lspclient.mo
 * /usr/share/locale/et/LC_MESSAGES/tabswitcherplugin.mo
+* /usr/share/locale/eu/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/eu/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/eu/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/eu/LC_MESSAGES/kate.mo
@@ -787,6 +861,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/eu/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/eu/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/eu/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/eu/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/eu/LC_MESSAGES/tabswitcherplugin.mo
 * /usr/share/locale/fa/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/fa/LC_MESSAGES/kate.mo
@@ -798,6 +873,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/fa/LC_MESSAGES/katekonsoleplugin.mo
 * /usr/share/locale/fa/LC_MESSAGES/katetextfilter.mo
 * /usr/share/locale/fa/LC_MESSAGES/katexmltools.mo
+* /usr/share/locale/fi/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/fi/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/fi/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/fi/LC_MESSAGES/kate.mo
@@ -822,7 +898,9 @@ KDE Advanced Text Editor.
 * /usr/share/locale/fi/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/fi/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/fi/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/fi/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/fi/LC_MESSAGES/tabswitcherplugin.mo
+* /usr/share/locale/fr/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/fr/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/fr/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/fr/LC_MESSAGES/kate.mo
@@ -847,6 +925,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/fr/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/fr/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/fr/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/fr/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/fr/LC_MESSAGES/tabswitcherplugin.mo
 * /usr/share/locale/fy/LC_MESSAGES/kate.mo
 * /usr/share/locale/fy/LC_MESSAGES/katesymbolviewer.mo
@@ -866,6 +945,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/ga/LC_MESSAGES/katesymbolviewer.mo
 * /usr/share/locale/ga/LC_MESSAGES/katetextfilter.mo
 * /usr/share/locale/ga/LC_MESSAGES/katexmltools.mo
+* /usr/share/locale/gl/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/gl/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/gl/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/gl/LC_MESSAGES/kate.mo
@@ -888,6 +968,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/gl/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/gl/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/gl/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/gl/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/gl/LC_MESSAGES/tabswitcherplugin.mo
 * /usr/share/locale/he/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/he/LC_MESSAGES/kate-replicode-plugin.mo
@@ -919,6 +1000,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/hr/LC_MESSAGES/katetextfilter.mo
 * /usr/share/locale/hr/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/hsb/LC_MESSAGES/kate.mo
+* /usr/share/locale/hu/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/hu/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/hu/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/hu/LC_MESSAGES/kate.mo
@@ -942,7 +1024,9 @@ KDE Advanced Text Editor.
 * /usr/share/locale/hu/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/hu/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/hu/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/hu/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/hu/LC_MESSAGES/tabswitcherplugin.mo
+* /usr/share/locale/ia/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/ia/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/ia/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/ia/LC_MESSAGES/kate.mo
@@ -967,6 +1051,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/ia/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/ia/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/ia/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/ia/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/ia/LC_MESSAGES/tabswitcherplugin.mo
 * /usr/share/locale/id/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/id/LC_MESSAGES/kate-replicode-plugin.mo
@@ -1008,6 +1093,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/is/LC_MESSAGES/katesymbolviewer.mo
 * /usr/share/locale/is/LC_MESSAGES/katetextfilter.mo
 * /usr/share/locale/is/LC_MESSAGES/katexmltools.mo
+* /usr/share/locale/it/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/it/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/it/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/it/LC_MESSAGES/kate.mo
@@ -1032,7 +1118,9 @@ KDE Advanced Text Editor.
 * /usr/share/locale/it/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/it/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/it/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/it/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/it/LC_MESSAGES/tabswitcherplugin.mo
+* /usr/share/locale/ja/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/ja/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/ja/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/ja/LC_MESSAGES/kate.mo
@@ -1057,7 +1145,9 @@ KDE Advanced Text Editor.
 * /usr/share/locale/ja/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/ja/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/ja/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/ja/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/ja/LC_MESSAGES/tabswitcherplugin.mo
+* /usr/share/locale/ka/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/ka/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/ka/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/ka/LC_MESSAGES/kate.mo
@@ -1082,6 +1172,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/ka/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/ka/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/ka/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/ka/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/ka/LC_MESSAGES/tabswitcherplugin.mo
 * /usr/share/locale/kk/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/kk/LC_MESSAGES/kate.mo
@@ -1110,6 +1201,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/km/LC_MESSAGES/katesymbolviewer.mo
 * /usr/share/locale/km/LC_MESSAGES/katetextfilter.mo
 * /usr/share/locale/km/LC_MESSAGES/katexmltools.mo
+* /usr/share/locale/ko/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/ko/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/ko/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/ko/LC_MESSAGES/kate.mo
@@ -1134,6 +1226,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/ko/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/ko/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/ko/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/ko/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/ko/LC_MESSAGES/tabswitcherplugin.mo
 * /usr/share/locale/ku/LC_MESSAGES/kate.mo
 * /usr/share/locale/lt/LC_MESSAGES/kate-ctags-plugin.mo
@@ -1287,6 +1380,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/nds/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/nds/LC_MESSAGES/tabswitcherplugin.mo
 * /usr/share/locale/ne/LC_MESSAGES/kate.mo
+* /usr/share/locale/nl/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/nl/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/nl/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/nl/LC_MESSAGES/kate.mo
@@ -1311,6 +1405,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/nl/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/nl/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/nl/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/nl/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/nl/LC_MESSAGES/tabswitcherplugin.mo
 * /usr/share/locale/nn/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/nn/LC_MESSAGES/kate-replicode-plugin.mo
@@ -1358,6 +1453,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/pa/LC_MESSAGES/katetextfilter.mo
 * /usr/share/locale/pa/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/pa/LC_MESSAGES/tabswitcherplugin.mo
+* /usr/share/locale/pl/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/pl/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/pl/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/pl/LC_MESSAGES/kate.mo
@@ -1382,6 +1478,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/pl/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/pl/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/pl/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/pl/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/pl/LC_MESSAGES/tabswitcherplugin.mo
 * /usr/share/locale/pt/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/pt/LC_MESSAGES/kate-replicode-plugin.mo
@@ -1454,6 +1551,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/ro/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/ro/LC_MESSAGES/lspclient.mo
 * /usr/share/locale/ro/LC_MESSAGES/tabswitcherplugin.mo
+* /usr/share/locale/ru/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/ru/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/ru/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/ru/LC_MESSAGES/kate.mo
@@ -1478,7 +1576,13 @@ KDE Advanced Text Editor.
 * /usr/share/locale/ru/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/ru/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/ru/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/ru/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/ru/LC_MESSAGES/tabswitcherplugin.mo
+* /usr/share/locale/sa/LC_MESSAGES/kate.mo
+* /usr/share/locale/sa/LC_MESSAGES/kategdbplugin.mo
+* /usr/share/locale/sa/LC_MESSAGES/kateproject.mo
+* /usr/share/locale/sa/LC_MESSAGES/katesearch.mo
+* /usr/share/locale/sa/LC_MESSAGES/lspclient.mo
 * /usr/share/locale/se/LC_MESSAGES/kate.mo
 * /usr/share/locale/se/LC_MESSAGES/katefilebrowserplugin.mo
 * /usr/share/locale/se/LC_MESSAGES/katefiletree.mo
@@ -1494,6 +1598,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/si/LC_MESSAGES/katesql.mo
 * /usr/share/locale/si/LC_MESSAGES/katesymbolviewer.mo
 * /usr/share/locale/si/LC_MESSAGES/katexmltools.mo
+* /usr/share/locale/sk/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/sk/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/sk/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/sk/LC_MESSAGES/kate.mo
@@ -1518,7 +1623,9 @@ KDE Advanced Text Editor.
 * /usr/share/locale/sk/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/sk/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/sk/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/sk/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/sk/LC_MESSAGES/tabswitcherplugin.mo
+* /usr/share/locale/sl/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/sl/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/sl/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/sl/LC_MESSAGES/kate.mo
@@ -1543,6 +1650,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/sl/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/sl/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/sl/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/sl/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/sl/LC_MESSAGES/tabswitcherplugin.mo
 * /usr/share/locale/sq/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/sq/LC_MESSAGES/kate.mo
@@ -1658,19 +1766,32 @@ KDE Advanced Text Editor.
 * /usr/share/locale/sv/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/sv/LC_MESSAGES/lspclient.mo
 * /usr/share/locale/sv/LC_MESSAGES/tabswitcherplugin.mo
+* /usr/share/locale/ta/LC_MESSAGES/formatplugin.mo
+* /usr/share/locale/ta/LC_MESSAGES/kate-ctags-plugin.mo
+* /usr/share/locale/ta/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/ta/LC_MESSAGES/kate.mo
+* /usr/share/locale/ta/LC_MESSAGES/katebacktracebrowserplugin.mo
+* /usr/share/locale/ta/LC_MESSAGES/katebuild-plugin.mo
 * /usr/share/locale/ta/LC_MESSAGES/katecloseexceptplugin.mo
 * /usr/share/locale/ta/LC_MESSAGES/katecolorpickerplugin.mo
+* /usr/share/locale/ta/LC_MESSAGES/kateexternaltoolsplugin.mo
 * /usr/share/locale/ta/LC_MESSAGES/katefilebrowserplugin.mo
 * /usr/share/locale/ta/LC_MESSAGES/katefiletree.mo
+* /usr/share/locale/ta/LC_MESSAGES/kategdbplugin.mo
 * /usr/share/locale/ta/LC_MESSAGES/kategitblameplugin.mo
+* /usr/share/locale/ta/LC_MESSAGES/katekeyboardmacros.mo
 * /usr/share/locale/ta/LC_MESSAGES/katekonsoleplugin.mo
+* /usr/share/locale/ta/LC_MESSAGES/kateproject.mo
 * /usr/share/locale/ta/LC_MESSAGES/katesearch.mo
+* /usr/share/locale/ta/LC_MESSAGES/katesnippetsplugin.mo
+* /usr/share/locale/ta/LC_MESSAGES/katesql.mo
 * /usr/share/locale/ta/LC_MESSAGES/katesymbolviewer.mo
 * /usr/share/locale/ta/LC_MESSAGES/katetextfilter.mo
+* /usr/share/locale/ta/LC_MESSAGES/katexmlcheck.mo
 * /usr/share/locale/ta/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/ta/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/ta/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/ta/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/ta/LC_MESSAGES/tabswitcherplugin.mo
 * /usr/share/locale/te/LC_MESSAGES/kate.mo
 * /usr/share/locale/tg/LC_MESSAGES/kate.mo
@@ -1681,6 +1802,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/th/LC_MESSAGES/katebuild-plugin.mo
 * /usr/share/locale/th/LC_MESSAGES/katefilebrowserplugin.mo
 * /usr/share/locale/th/LC_MESSAGES/katekonsoleplugin.mo
+* /usr/share/locale/tr/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/tr/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/tr/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/tr/LC_MESSAGES/kate.mo
@@ -1705,6 +1827,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/tr/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/tr/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/tr/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/tr/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/tr/LC_MESSAGES/tabswitcherplugin.mo
 * /usr/share/locale/ug/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/ug/LC_MESSAGES/kate.mo
@@ -1721,6 +1844,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/ug/LC_MESSAGES/katesymbolviewer.mo
 * /usr/share/locale/ug/LC_MESSAGES/katetextfilter.mo
 * /usr/share/locale/ug/LC_MESSAGES/katexmltools.mo
+* /usr/share/locale/uk/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/uk/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/uk/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/uk/LC_MESSAGES/kate.mo
@@ -1745,6 +1869,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/uk/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/uk/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/uk/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/uk/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/uk/LC_MESSAGES/tabswitcherplugin.mo
 * /usr/share/locale/uz/LC_MESSAGES/kate.mo
 * /usr/share/locale/uz/LC_MESSAGES/katetextfilter.mo
@@ -1780,6 +1905,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/xh/LC_MESSAGES/kate.mo
 * /usr/share/locale/xh/LC_MESSAGES/katetextfilter.mo
 * /usr/share/locale/xh/LC_MESSAGES/katexmltools.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kate.mo
@@ -1804,7 +1930,9 @@ KDE Advanced Text Editor.
 * /usr/share/locale/zh_CN/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/tabswitcherplugin.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kate.mo
@@ -1817,6 +1945,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/zh_TW/LC_MESSAGES/katefiletree.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kategdbplugin.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kategitblameplugin.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/katekeyboardmacros.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/katekonsoleplugin.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kateproject.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/katesearch.mo
@@ -1828,9 +1957,11 @@ KDE Advanced Text Editor.
 * /usr/share/locale/zh_TW/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/rainbowparens.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/tabswitcherplugin.mo
 * /usr/share/man/ca/man1/kate.1.gz
 * /usr/share/man/de/man1/kate.1.gz
+* /usr/share/man/eo/man1/kate.1.gz
 * /usr/share/man/es/man1/kate.1.gz
 * /usr/share/man/it/man1/kate.1.gz
 * /usr/share/man/man1/kate.1.gz

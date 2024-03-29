@@ -1,24 +1,24 @@
 +++
 draft = false
-title = "kio-fuse 5.1.0-1"
-version = "5.1.0-1"
+title = "kio-fuse 5.1.0-2"
+version = "5.1.0-2"
 description = "FUSE interface for KIO"
-date = "2023-12-10T12:34:28"
+date = "2024-03-18T08:06:36"
 aliases = "/packages/220906"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "63336"
-usize = "188473"
-sha1sum = "a4b4fb5b18161eb0d6db1ade7b97cd66c39fa6b1"
-depends = "['fuse3', 'kio>=5.112.0']"
+size = "65604"
+usize = "193491"
+sha1sum = "3e2d04cccfe87a8ca9bdc657df980b32d17811b8"
+depends = "['fuse3', 'kio>=6.0.0']"
 reverse_depends = "['plasma-wayland-session', 'xdg-desktop-portal-kde']"
 +++
 ### Description: 
 FUSE interface for KIO
 
 ### Files: 
-* /usr/lib/kf5/kio-fuse
+* /usr/lib/kio-fuse/kio-fuse
 * /usr/lib/systemd/user/kio-fuse.service
 * /usr/lib/tmpfiles.d/kio-fuse-tmpfiles.conf
 * /usr/share/dbus-1/services/org.kde.KIOFuse.service

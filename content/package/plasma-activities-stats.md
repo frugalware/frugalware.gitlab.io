@@ -12,7 +12,7 @@ size = "84116"
 usize = "294228"
 sha1sum = "2b761d96e30780dd37f4c96d17657ee3c5a90028"
 depends = "['kio>=6.0.0', 'plasma-activities>=6.0.3']"
-reverse_depends = "['plasma-desktop', 'plasma-workspace']"
+reverse_depends = "['kio-extras', 'plasma-desktop', 'plasma-workspace', 'sweeper']"
 +++
 ### Description: 
 Library for accessing the usage statistics data collected by the KDE activity manager.

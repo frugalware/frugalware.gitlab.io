@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kasts 23.08.5-1"
-version = "23.08.5-1"
+title = "kasts 24.02.1-3"
+version = "24.02.1-3"
 description = "Kirigami-based podcast player"
-date = "2024-02-20T14:50:21"
+date = "2024-03-27T14:04:30"
 aliases = "/packages/220971"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "525280"
-usize = "2259095"
-sha1sum = "2f590e8739d245a637f5bee109f660f55c6c6d28"
+size = "579296"
+usize = "2484307"
+sha1sum = "146c8d0e943c81a95b32145c8742e8a828cd368f"
 depends = "['kirigami-addons', 'libvlc', 'networkmanager-qt', 'qtkeychain', 'syndication', 'taglib>=2.0', 'threadweaver', 'vlc']"
 +++
 ### Description: 

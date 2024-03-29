@@ -1,67 +1,65 @@
 +++
 draft = false
-title = "kaccounts-integration 23.08.5-1"
-version = "23.08.5-1"
+title = "kaccounts-integration 24.02.1-3"
+version = "24.02.1-3"
 description = "Small system to administer web accounts like: Google, Facebook, Owncloud, IMAP, Jabber and others"
-date = "2024-02-19T23:12:13"
+date = "2024-03-27T11:49:41"
 aliases = "/packages/218267"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "119924"
-usize = "582439"
-sha1sum = "42e19ce722c382cf5afbeaffc485f89c02d67b7e"
-depends = "['kcmutils>=5.115.0', 'kconfigwidgets>=5.115.0', 'kdbusaddons>=5.115.0', 'kdeclarative>=5.115.0', 'libaccounts-qt>=1.14-3', 'qcoro', 'qt5-declarative>=5.15.12', 'qt5-x11extras>=5.15.12', 'signon-kwallet-extension>=23.08.5']"
+size = "126084"
+usize = "587009"
+sha1sum = "5c8185b96fc121d7c885ae510af425a5376bacf8"
+depends = "['kcmutils>=6.0.0', 'kconfigwidgets>=6.0.0', 'kdbusaddons>=6.0.0', 'kdeclarative>=6.0.0', 'libaccounts-qt>=1.14-3', 'qcoro', 'qt6-declarative>=6.6.3', 'signon-kwallet-extension>=24.02.1']"
 reverse_depends = "['akonadi', 'kaccounts-provider-opendesktop', 'kaccounts-providers', 'plasma-welcome']"
 +++
 ### Description: 
 Small system to administer web accounts like: Google, Facebook, Owncloud, IMAP, Jabber and others
 
 ### Files: 
-* /usr/include/KAccounts/AccountServiceToggleJob
-* /usr/include/KAccounts/accountservicetogglejob.h
-* /usr/include/KAccounts/AccountsModel
-* /usr/include/KAccounts/accountsmodel.h
-* /usr/include/KAccounts/ChangeAccountDisplayNameJob
-* /usr/include/KAccounts/changeaccountdisplaynamejob.h
-* /usr/include/KAccounts/Core
-* /usr/include/KAccounts/core.h
-* /usr/include/KAccounts/CreateAccountJob
-* /usr/include/KAccounts/createaccountjob.h
-* /usr/include/KAccounts/GetCredentialsJob
-* /usr/include/KAccounts/getcredentialsjob.h
-* /usr/include/KAccounts/KAccountsDPlugin
-* /usr/include/KAccounts/kaccountsdplugin.h
-* /usr/include/KAccounts/KAccountsUiPlugin
-* /usr/include/KAccounts/kaccountsuiplugin.h
-* /usr/include/KAccounts/kaccounts_export.h
-* /usr/include/KAccounts/kaccounts_version.h
-* /usr/include/KAccounts/ProvidersModel
-* /usr/include/KAccounts/providersmodel.h
-* /usr/include/KAccounts/RemoveAccountJob
-* /usr/include/KAccounts/removeaccountjob.h
-* /usr/include/KAccounts/ServicesModel
-* /usr/include/KAccounts/servicesmodel.h
-* /usr/lib/cmake/KAccounts/KAccountsConfig.cmake
-* /usr/lib/cmake/KAccounts/KAccountsConfigVersion.cmake
-* /usr/lib/cmake/KAccounts/KAccountsMacros.cmake
-* /usr/lib/cmake/KAccounts/KAccountsTargets-release.cmake
-* /usr/lib/cmake/KAccounts/KAccountsTargets.cmake
-* /usr/lib/libkaccounts.so
-* /usr/lib/libkaccounts.so.2
-* /usr/lib/libkaccounts.so.23.08.5
-* /usr/lib/qt5/plugins/kaccounts/daemonplugins/kaccounts_kio_webdav_plugin.so
-* /usr/lib/qt5/plugins/kf5/kded/kded_accounts.so
-* /usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_kaccounts.so
+* /usr/include/KAccounts6/KAccounts/AccountServiceToggleJob
+* /usr/include/KAccounts6/kaccounts/accountservicetogglejob.h
+* /usr/include/KAccounts6/KAccounts/AccountsModel
+* /usr/include/KAccounts6/kaccounts/accountsmodel.h
+* /usr/include/KAccounts6/KAccounts/ChangeAccountDisplayNameJob
+* /usr/include/KAccounts6/kaccounts/changeaccountdisplaynamejob.h
+* /usr/include/KAccounts6/KAccounts/Core
+* /usr/include/KAccounts6/kaccounts/core.h
+* /usr/include/KAccounts6/KAccounts/CreateAccountJob
+* /usr/include/KAccounts6/kaccounts/createaccountjob.h
+* /usr/include/KAccounts6/KAccounts/GetCredentialsJob
+* /usr/include/KAccounts6/kaccounts/getcredentialsjob.h
+* /usr/include/KAccounts6/KAccounts/KAccountsDPlugin
+* /usr/include/KAccounts6/kaccounts/kaccountsdplugin.h
+* /usr/include/KAccounts6/KAccounts/KAccountsUiPlugin
+* /usr/include/KAccounts6/kaccounts/kaccountsuiplugin.h
+* /usr/include/KAccounts6/KAccounts/ProvidersModel
+* /usr/include/KAccounts6/kaccounts/providersmodel.h
+* /usr/include/KAccounts6/KAccounts/RemoveAccountJob
+* /usr/include/KAccounts6/kaccounts/removeaccountjob.h
+* /usr/include/KAccounts6/KAccounts/ServicesModel
+* /usr/include/KAccounts6/kaccounts/servicesmodel.h
+* /usr/include/KAccounts6/kaccounts_export.h
+* /usr/include/KAccounts6/kaccounts_version.h
+* /usr/lib/cmake/KAccounts6/KAccounts6Config.cmake
+* /usr/lib/cmake/KAccounts6/KAccounts6ConfigVersion.cmake
+* /usr/lib/cmake/KAccounts6/KAccounts6Targets-release.cmake
+* /usr/lib/cmake/KAccounts6/KAccounts6Targets.cmake
+* /usr/lib/cmake/KAccounts6/KAccountsMacros.cmake
+* /usr/lib/libkaccounts6.so
+* /usr/lib/libkaccounts6.so.2
+* /usr/lib/libkaccounts6.so.24.02.1
+* /usr/lib/qt6/plugins/kaccounts/daemonplugins/kaccounts_kio_webdav_plugin.so
+* /usr/lib/qt6/plugins/kf6/kded/kded_accounts.so
+* /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_kaccounts.so
+* /usr/lib/qt6/qml/org/kde/kaccounts/kaccountsdeclarativeplugin.qmltypes
+* /usr/lib/qt6/qml/org/kde/kaccounts/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/kaccounts/libkaccountsdeclarativeplugin.so
+* /usr/lib/qt6/qml/org/kde/kaccounts/qmldir
 * /usr/share/applications/kcm_kaccounts.desktop
-* /usr/share/doc/kaccounts-integration-23.08.5/README
-* /usr/share/doc/kaccounts-integration-23.08.5/README.md
-* /usr/share/kpackage/kcms/kcm_kaccounts/contents/ui/AccountDetails.qml
-* /usr/share/kpackage/kcms/kcm_kaccounts/contents/ui/AvailableAccounts.qml
-* /usr/share/kpackage/kcms/kcm_kaccounts/contents/ui/main.qml
-* /usr/share/kpackage/kcms/kcm_kaccounts/contents/ui/MessageBoxSheet.qml
-* /usr/share/kpackage/kcms/kcm_kaccounts/contents/ui/RemoveAccountDialog.qml
-* /usr/share/kpackage/kcms/kcm_kaccounts/contents/ui/RenameAccountDialog.qml
+* /usr/share/doc/kaccounts-integration-24.02.1/README
+* /usr/share/doc/kaccounts-integration-24.02.1/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/az/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/bg/LC_MESSAGES/kaccounts-integration.mo
@@ -73,6 +71,7 @@ Small system to administer web accounts like: Google, Facebook, Owncloud, IMAP, 
 * /usr/share/locale/de/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/el/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kaccounts-integration.mo
+* /usr/share/locale/eo/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/es/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/et/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/eu/LC_MESSAGES/kaccounts-integration.mo
@@ -102,9 +101,8 @@ Small system to administer web accounts like: Google, Facebook, Owncloud, IMAP, 
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/sv/LC_MESSAGES/kaccounts-integration.mo
+* /usr/share/locale/ta/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/tr/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/uk/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kaccounts-integration.mo
-* /usr/share/qt5/qml/org/kde/kaccounts/libkaccountsdeclarativeplugin.so
-* /usr/share/qt5/qml/org/kde/kaccounts/qmldir

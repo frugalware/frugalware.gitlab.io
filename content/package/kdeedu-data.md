@@ -12,7 +12,6 @@ size = "336388"
 usize = "4291193"
 sha1sum = "1d0743e8e9fc748103aa41e8d3430f38d8471132"
 depends = "['qt5-base>=5.15.12']"
-reverse_depends = "['libkeduvocdocument']"
 +++
 ### Description: 
 Common libraries for KDE Edu release-service

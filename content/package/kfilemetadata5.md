@@ -12,7 +12,7 @@ size = "187116"
 usize = "1143807"
 sha1sum = "9d72888c5065e2b96eb9b22192a93b929b3eee1f"
 depends = "['catdoc>=0.95-3', 'ebook-tools>=0.2.2-6', 'exiv2>=0.28.1', 'ffmpeg>=6.0', 'karchive5>=5.115.0', 'kcoreaddons5>=5.115.0', 'poppler-qt5>=0.62.0', 'qt5-multimedia>=5.10.0', 'taglib>=2.0']"
-reverse_depends = "['baloo5', 'k3b', 'kfind', 'plasma-browser-integration']"
+reverse_depends = "['baloo5', 'k3b', 'plasma-browser-integration']"
 +++
 ### Description: 
 A library for extracting file metadata.

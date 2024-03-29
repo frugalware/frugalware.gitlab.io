@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "krfb 23.08.5-1"
-version = "23.08.5-1"
+title = "krfb 24.02.1-3"
+version = "24.02.1-3"
 description = "KRfb is a RFB protocol server (VNC)."
-date = "2024-02-19T21:37:09"
+date = "2024-03-27T10:24:25"
 aliases = "/packages/74082"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1375004"
-usize = "2582948"
-sha1sum = "7d591d4d73f5334c9d1b101125699cd87a92e061"
-depends = "['kdnssd>=5.115.0', 'kwallet5>=5.115.0', 'kwayland>=5.115.0', 'kxmlgui>=5.115.0', 'libvncserver>=0.9.11', 'libxtst', 'qt5-x11extras>=5.15.12']"
+size = "1385432"
+usize = "2649852"
+sha1sum = "eba88c50c96f7d1d24f18ce3cf4cfa7715570746"
+depends = "['kdnssd>=6.0.0', 'kwallet>=6.0.0', 'kwayland>=6.0.0', 'kxmlgui>=6.0.0', 'libvncserver>=0.9.11', 'libxtst']"
 reverse_depends = "['krfb-pipewire']"
 +++
 ### Description: 
@@ -22,8 +22,8 @@ KRfb is a RFB protocol server (VNC).
 * /usr/bin/krfb-virtualmonitor
 * /usr/lib/libkrfbprivate.so.5
 * /usr/lib/libkrfbprivate.so.5.0
-* /usr/lib/qt5/plugins/krfb/events/x11.so
-* /usr/lib/qt5/plugins/krfb/events/xdp.so
+* /usr/lib/qt6/plugins/krfb/events/x11.so
+* /usr/lib/qt6/plugins/krfb/events/xdp.so
 * /usr/share/applications/org.kde.krfb.desktop
 * /usr/share/applications/org.kde.krfb.virtualmonitor.desktop
 * /usr/share/doc/HTML/ca/krfb/index.cache.bz2
@@ -82,12 +82,12 @@ KRfb is a RFB protocol server (VNC).
 * /usr/share/doc/HTML/sv/krfb/screenshot.png
 * /usr/share/doc/HTML/uk/krfb/index.cache.bz2
 * /usr/share/doc/HTML/uk/krfb/index.docbook
-* /usr/share/doc/krfb-23.08.5/AUTHORS
-* /usr/share/doc/krfb-23.08.5/COPYING
-* /usr/share/doc/krfb-23.08.5/COPYING.DOC
-* /usr/share/doc/krfb-23.08.5/COPYING.LIB
-* /usr/share/doc/krfb-23.08.5/README
-* /usr/share/doc/krfb-23.08.5/TODO
+* /usr/share/doc/krfb-24.02.1/AUTHORS
+* /usr/share/doc/krfb-24.02.1/COPYING
+* /usr/share/doc/krfb-24.02.1/COPYING.DOC
+* /usr/share/doc/krfb-24.02.1/COPYING.LIB
+* /usr/share/doc/krfb-24.02.1/README
+* /usr/share/doc/krfb-24.02.1/TODO
 * /usr/share/icons/hicolor/48x48/apps/krfb.png
 * /usr/share/icons/hicolor/scalable/apps/krfb.svgz
 * /usr/share/krfb/krfb.notifyrc
@@ -168,4 +168,4 @@ KRfb is a RFB protocol server (VNC).
 * /usr/share/locale/zh_CN/LC_MESSAGES/krfb.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/krfb.mo
 * /usr/share/metainfo/org.kde.krfb.appdata.xml
-* /usr/share/qlogging-categories5/krfb.categories
+* /usr/share/qlogging-categories6/krfb.categories

@@ -12,7 +12,6 @@ size = "1613528"
 usize = "17267899"
 sha1sum = "0e580daea0a4f41de361ab096e957881ca8dde4e"
 depends = "['kio5>=5.115.0', 'libkipi>=24.02.1']"
-reverse_depends = "['gwenview', 'spectacle']"
 +++
 ### Description: 
 kipi-plugins is based in part on the work of the Independent JPEG Group.

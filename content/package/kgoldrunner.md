@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kgoldrunner 23.08.5-1"
-version = "23.08.5-1"
+title = "kgoldrunner 24.02.1-4"
+version = "24.02.1-4"
 description = "A game of action and puzzle solving."
-date = "2024-02-19T22:37:35"
+date = "2024-03-27T11:08:35"
 aliases = "/packages/184181"
-categories = ['kde5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5164872"
-usize = "18236556"
-sha1sum = "0de02a97fea1ebb15a3d6b92d3ff6dbfa4cfe301"
-depends = "['kdelibs4support', 'kio', 'knewstuff', 'knotifyconfig', 'libkdegames', 'qt5-svg>=5.15.12']"
+size = "5251424"
+usize = "18368035"
+sha1sum = "484fad05aeecccb994fc0b42b1cf407c524f2e83"
+depends = "['kio', 'knewstuff', 'knotifyconfig', 'libkdegames', 'qt6-svg>=6.6.3']"
 +++
 ### Description: 
 A game of action and puzzle solving.
@@ -61,12 +61,12 @@ A game of action and puzzle solving.
 * /usr/share/doc/HTML/uk/kgoldrunner/index.docbook
 * /usr/share/doc/HTML/uk/kgoldrunner/select.png
 * /usr/share/doc/HTML/uk/kgoldrunner/tute008.png
-* /usr/share/doc/kgoldrunner-23.08.5/AUTHORS
-* /usr/share/doc/kgoldrunner-23.08.5/BUGS
-* /usr/share/doc/kgoldrunner-23.08.5/README
-* /usr/share/doc/kgoldrunner-23.08.5/README.PACKAGERS
-* /usr/share/doc/kgoldrunner-23.08.5/TODO
-* /usr/share/doc/kgoldrunner-23.08.5/VERSION
+* /usr/share/doc/kgoldrunner-24.02.1/AUTHORS
+* /usr/share/doc/kgoldrunner-24.02.1/BUGS
+* /usr/share/doc/kgoldrunner-24.02.1/README
+* /usr/share/doc/kgoldrunner-24.02.1/README.PACKAGERS
+* /usr/share/doc/kgoldrunner-24.02.1/TODO
+* /usr/share/doc/kgoldrunner-24.02.1/VERSION
 * /usr/share/icons/hicolor/128x128/apps/kgoldrunner.png
 * /usr/share/icons/hicolor/16x16/apps/kgoldrunner.png
 * /usr/share/icons/hicolor/22x22/apps/kgoldrunner.png
@@ -142,6 +142,7 @@ A game of action and puzzle solving.
 * /usr/share/kgoldrunner/themes/README
 * /usr/share/knsrcfiles/kgoldrunner.knsrc
 * /usr/share/locale/ar/LC_MESSAGES/kgoldrunner.mo
+* /usr/share/locale/ast/LC_MESSAGES/kgoldrunner.mo
 * /usr/share/locale/be/LC_MESSAGES/kgoldrunner.mo
 * /usr/share/locale/bg/LC_MESSAGES/kgoldrunner.mo
 * /usr/share/locale/bn/LC_MESSAGES/kgoldrunner.mo
@@ -168,6 +169,7 @@ A game of action and puzzle solving.
 * /usr/share/locale/hne/LC_MESSAGES/kgoldrunner.mo
 * /usr/share/locale/hr/LC_MESSAGES/kgoldrunner.mo
 * /usr/share/locale/hu/LC_MESSAGES/kgoldrunner.mo
+* /usr/share/locale/ia/LC_MESSAGES/kgoldrunner.mo
 * /usr/share/locale/id/LC_MESSAGES/kgoldrunner.mo
 * /usr/share/locale/is/LC_MESSAGES/kgoldrunner.mo
 * /usr/share/locale/it/LC_MESSAGES/kgoldrunner.mo
@@ -212,4 +214,4 @@ A game of action and puzzle solving.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kgoldrunner.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kgoldrunner.mo
 * /usr/share/metainfo/org.kde.kgoldrunner.appdata.xml
-* /usr/share/qlogging-categories5/kgoldrunner.categories
+* /usr/share/qlogging-categories6/kgoldrunner.categories
