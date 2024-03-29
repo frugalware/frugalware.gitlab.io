@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kig 23.08.5-1"
-version = "23.08.5-1"
+title = "kig 24.02.1-1"
+version = "24.02.1-1"
 description = "Interactive Geometry."
-date = "2024-02-19T23:31:12"
+date = "2024-03-22T10:51:48"
 aliases = "/packages/152830"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3528724"
-usize = "11185201"
-sha1sum = "991c64bce1f758e0f76a9c06cd8d632c1f470338"
-depends = "['kparts>=5.115.0', 'libboost>=1.83.0', 'python3>=3.12', 'qt5-svg>=5.15.12', 'qt5-xmlpatterns>=5.15.12']"
+size = "3528844"
+usize = "11181205"
+sha1sum = "7a47e7d56defcd907b37f59a9f1f658763d33474"
+depends = "['libboost>=1.83.0', 'python3>=3.12', 'qt5-svg>=5.15.12', 'qt5-xmlpatterns>=5.15.12']"
 +++
 ### Description: 
 Interactive Geometry.
@@ -94,12 +94,12 @@ Interactive Geometry.
 * /usr/share/doc/HTML/uk/kig/text_label_attaching.png
 * /usr/share/doc/HTML/uk/kig/text_label_wizard.png
 * /usr/share/doc/HTML/uk/kig/text_label_wizard__select_property.png
-* /usr/share/doc/kig-23.08.5/AUTHORS
-* /usr/share/doc/kig-23.08.5/ChangeLog
-* /usr/share/doc/kig-23.08.5/FEATURES
-* /usr/share/doc/kig-23.08.5/README.Developers
-* /usr/share/doc/kig-23.08.5/README.in
-* /usr/share/doc/kig-23.08.5/TODO
+* /usr/share/doc/kig-24.02.1/AUTHORS
+* /usr/share/doc/kig-24.02.1/ChangeLog
+* /usr/share/doc/kig-24.02.1/FEATURES
+* /usr/share/doc/kig-24.02.1/README.Developers
+* /usr/share/doc/kig-24.02.1/README.in
+* /usr/share/doc/kig-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kig.png
 * /usr/share/icons/hicolor/128x128/mimetypes/application-x-kig.png
 * /usr/share/icons/hicolor/16x16/apps/kig.png
@@ -398,8 +398,6 @@ Interactive Geometry.
 * /usr/share/kig/icons/hicolor/scalable/actions/vectorsum.svgz
 * /usr/share/kig/icons/hicolor/scalable/actions/w.svgz
 * /usr/share/kig/tips
-* /usr/share/kxmlgui5/kig/kigpartui.rc
-* /usr/share/kxmlgui5/kig/kigui.rc
 * /usr/share/locale/ar/LC_MESSAGES/kig.mo
 * /usr/share/locale/be/LC_MESSAGES/kig.mo
 * /usr/share/locale/bg/LC_MESSAGES/kig.mo
@@ -478,4 +476,4 @@ Interactive Geometry.
 * /usr/share/man/ru/man1/kig.1.gz
 * /usr/share/man/sv/man1/kig.1.gz
 * /usr/share/man/uk/man1/kig.1.gz
-* /usr/share/metainfo/org.kde.kig.appdata.xml
+* /usr/share/metainfo/org.kde.kig.metainfo.xml

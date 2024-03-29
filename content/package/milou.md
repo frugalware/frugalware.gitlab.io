@@ -1,28 +1,35 @@
 +++
 draft = false
-title = "milou 5.27.10-5"
-version = "5.27.10-5"
+title = "milou 6.0.3-1"
+version = "6.0.3-1"
 description = "A dedicated search application built on top of Baloo."
-date = "2024-02-19T12:24:17"
+date = "2024-03-27T08:14:23"
 aliases = "/packages/218377"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "69840"
-usize = "306594"
-sha1sum = "5c31e30ef28963b31419fd51c6b2c4c48ab6142e"
-depends = "['kitemmodels>=5.115.0', 'krunner5>=5.115.0']"
+size = "72064"
+usize = "291214"
+sha1sum = "9b148b48fab0c10be7a237bffceaaf54e7d83a79"
+depends = "['kitemmodels>=6.0.0', 'libplasma>=6.0.3']"
 reverse_depends = "['plasma-workspace']"
 +++
 ### Description: 
 A dedicated search application built on top of Baloo.
 
 ### Files: 
-* /usr/lib/libmilou.so.5
-* /usr/lib/libmilou.so.5.27.10
-* /usr/share/kservices5/plasma-applet-org.kde.milou.desktop
+* /usr/lib/qt6/qml/org/kde/milou/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/milou/libmilouqmlplugin.so
+* /usr/lib/qt6/qml/org/kde/milou/milouqmlplugin.qmltypes
+* /usr/lib/qt6/qml/org/kde/milou/qmldir
+* /usr/lib/qt6/qml/org/kde/milou/ResultDelegate.qml
+* /usr/lib/qt6/qml/org/kde/milou/ResultsListView.qml
+* /usr/lib/qt6/qml/org/kde/milou/ResultsListViewDelegate.qml
+* /usr/lib/qt6/qml/org/kde/milou/ResultsView.qml
 * /usr/share/locale/ar/LC_MESSAGES/milou.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.milou.mo
+* /usr/share/locale/ast/LC_MESSAGES/milou.mo
+* /usr/share/locale/ast/LC_MESSAGES/plasma_applet_org.kde.milou.mo
 * /usr/share/locale/bg/LC_MESSAGES/milou.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasma_applet_org.kde.milou.mo
 * /usr/share/locale/bs/LC_MESSAGES/milou.mo
@@ -41,6 +48,8 @@ A dedicated search application built on top of Baloo.
 * /usr/share/locale/el/LC_MESSAGES/plasma_applet_org.kde.milou.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/milou.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma_applet_org.kde.milou.mo
+* /usr/share/locale/eo/LC_MESSAGES/milou.mo
+* /usr/share/locale/eo/LC_MESSAGES/plasma_applet_org.kde.milou.mo
 * /usr/share/locale/es/LC_MESSAGES/milou.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma_applet_org.kde.milou.mo
 * /usr/share/locale/et/LC_MESSAGES/milou.mo
@@ -95,6 +104,8 @@ A dedicated search application built on top of Baloo.
 * /usr/share/locale/ro/LC_MESSAGES/plasma_applet_org.kde.milou.mo
 * /usr/share/locale/ru/LC_MESSAGES/milou.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasma_applet_org.kde.milou.mo
+* /usr/share/locale/sa/LC_MESSAGES/milou.mo
+* /usr/share/locale/sa/LC_MESSAGES/plasma_applet_org.kde.milou.mo
 * /usr/share/locale/sk/LC_MESSAGES/milou.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasma_applet_org.kde.milou.mo
 * /usr/share/locale/sl/LC_MESSAGES/milou.mo
@@ -109,6 +120,8 @@ A dedicated search application built on top of Baloo.
 * /usr/share/locale/sr@latin/LC_MESSAGES/plasma_applet_org.kde.milou.mo
 * /usr/share/locale/sv/LC_MESSAGES/milou.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasma_applet_org.kde.milou.mo
+* /usr/share/locale/ta/LC_MESSAGES/milou.mo
+* /usr/share/locale/ta/LC_MESSAGES/plasma_applet_org.kde.milou.mo
 * /usr/share/locale/tg/LC_MESSAGES/plasma_applet_org.kde.milou.mo
 * /usr/share/locale/tr/LC_MESSAGES/milou.mo
 * /usr/share/locale/tr/LC_MESSAGES/plasma_applet_org.kde.milou.mo
@@ -122,12 +135,4 @@ A dedicated search application built on top of Baloo.
 * /usr/share/plasma/plasmoids/org.kde.milou/contents/ui/globals.js
 * /usr/share/plasma/plasmoids/org.kde.milou/contents/ui/main.qml
 * /usr/share/plasma/plasmoids/org.kde.milou/contents/ui/SearchField.qml
-* /usr/share/plasma/plasmoids/org.kde.milou/metadata.desktop
 * /usr/share/plasma/plasmoids/org.kde.milou/metadata.json
-* /usr/share/qt5/qml/org/kde/milou/globals.js
-* /usr/share/qt5/qml/org/kde/milou/libmilouqmlplugin.so
-* /usr/share/qt5/qml/org/kde/milou/qmldir
-* /usr/share/qt5/qml/org/kde/milou/ResultDelegate.qml
-* /usr/share/qt5/qml/org/kde/milou/ResultsListView.qml
-* /usr/share/qt5/qml/org/kde/milou/ResultsListViewDelegate.qml
-* /usr/share/qt5/qml/org/kde/milou/ResultsView.qml

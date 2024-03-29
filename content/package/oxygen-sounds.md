@@ -12,7 +12,7 @@ size = "1890688"
 usize = "2112149"
 sha1sum = "33dd52af2a888f009d0d40b3d9b8437e06b77866"
 depends = "[]"
-reverse_depends = "['kwrited5']"
+reverse_depends = "['kwrited', 'kwrited5']"
 +++
 ### Description: 
 The Oxygen Sound Theme

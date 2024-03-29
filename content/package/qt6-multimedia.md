@@ -12,7 +12,7 @@ size = "876820"
 usize = "3750348"
 sha1sum = "57698f04bb3ef874231a9ff72253dfa8b0691cc4"
 depends = "['ffmpeg>=6.0', 'gst1-plugins-base', 'libxrandr', 'qt6-quick3d']"
-reverse_depends = "['ladybird', 'mkvtoolnix-gui', 'qmmp', 'qt6-speech']"
+reverse_depends = "['kfilemetadata', 'ladybird', 'libquotient', 'mkvtoolnix-gui', 'qmmp', 'qt6-speech']"
 +++
 ### Description: 
 The Qt6 toolkit, qtmultimedia

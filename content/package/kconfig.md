@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "kconfig 5.115.0-1"
-version = "5.115.0-1"
+title = "kconfig 6.0.0-2"
+version = "6.0.0-2"
 description = "Provides an advanced configuration system."
-date = "2024-02-19T10:27:10"
+date = "2024-03-26T23:21:04"
 aliases = "/packages/218283"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "346860"
-usize = "1590226"
-sha1sum = "7378f14de4e0bbc59a3c11c26f2523d843605432"
+size = "387900"
+usize = "1769843"
+sha1sum = "373ce026e7dea2b28956cd7d910733d5f3b9cfbf"
 depends = "['qt6-base>=6.6.3']"
-reverse_depends = "['akonadi-mime', 'alligator', 'breeze', 'calamares-frugalware', 'discover', 'dolphin', 'kalk', 'kcachegrind', 'kclock', 'kcolorscheme', 'kcompletion', 'kcontacts', 'kdeplasma-addons5', 'kdesignerplugin', 'kongress', 'kopete', 'kpackage', 'krecorder', 'kservice', 'ktrip', 'ktux', 'libkscreen5', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'plasma-browser-integration', 'plasma-sdk', 'plasmatube', 'purpose', 'qmlkonsole', 'qqc2-breeze-style', 'rkward', 'smb4k', 'sweeper', 'telly-skout', 'xdg-desktop-portal-kde']"
+reverse_depends = "['akonadi-mime', 'alligator', 'breeze', 'calamares-frugalware', 'discover', 'dolphin', 'kalk', 'kcachegrind', 'kclock', 'kcolorscheme', 'kcompletion', 'kcontacts', 'kdeplasma-addons', 'kdeplasma-addons5', 'kdesignerplugin', 'kglobalacceld', 'kongress', 'kopete', 'kpackage', 'krecorder', 'kservice', 'ktrip', 'ktux', 'kwin', 'libkscreen', 'libkscreen5', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'plasma-browser-integration', 'plasma-sdk', 'plasmatube', 'purpose', 'qmlkonsole', 'qqc2-breeze-style', 'rkward', 'smb4k', 'sweeper', 'telly-skout', 'xdg-desktop-portal-kde']"
 +++
 ### Description: 
 Provides an advanced configuration system.

@@ -12,7 +12,7 @@ size = "1561896"
 usize = "18166784"
 sha1sum = "b3adda96b8d141ab915ef89cd288c38ffce959de"
 depends = "['docbook-xml', 'libxslt', 'sed']"
-reverse_depends = "['asciidoc', 'gtk-doc', 'kdoctools']"
+reverse_depends = "['asciidoc', 'gtk-doc', 'kdoctools', 'kdoctools5']"
 +++
 ### Description: 
 XML stylesheets for Docbook-xml transformations.

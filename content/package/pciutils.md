@@ -12,7 +12,7 @@ size = "162276"
 usize = "470064"
 sha1sum = "0252d4d4b607a1d8138a3c20483f224f7c7d9d72"
 depends = "['glibc>=2.35', 'hwdata', 'kmod>=25-2', 'libudev>=242']"
-reverse_depends = "['chromium-browser', 'cpupower', 'efibootmgr', 'hexchat', 'hsakmt-roct', 'hw-probe', 'inxi', 'kinfocenter5', 'kvm', 'net-snmp', 'x86_energy_perf_policy']"
+reverse_depends = "['chromium-browser', 'cpupower', 'efibootmgr', 'hexchat', 'hsakmt-roct', 'hw-probe', 'inxi', 'kinfocenter', 'kinfocenter5', 'kvm', 'net-snmp', 'x86_energy_perf_policy']"
 +++
 ### Description: 
 PCI utilities

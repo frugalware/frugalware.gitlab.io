@@ -12,7 +12,7 @@ size = "326228"
 usize = "1773475"
 sha1sum = "2b325e80e239a3cfbf6386cd7e59dd7d4dbfac06"
 depends = "['libimobiledevice', 'libsystemd>=231-6', 'media-player-info', 'qt5-declarative>=5.15.12', 'udisks2>=2.1.7-2', 'upower>=0.99.4-2']"
-reverse_depends = "['discover', 'dolphin', 'itinerary', 'kamoso', 'kinfocenter5', 'kio', 'libkcompactdisc', 'smb4k']"
+reverse_depends = "['discover', 'dolphin', 'itinerary', 'kamoso', 'kinfocenter', 'kinfocenter5', 'kio', 'libkcompactdisc', 'smb4k']"
 +++
 ### Description: 
 KDE Desktop hardware abstraction.

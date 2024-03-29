@@ -1,25 +1,23 @@
 +++
 draft = false
-title = "kwallet5 5.115.0-1"
-version = "5.115.0-1"
+title = "kwallet5 5.115.0-4"
+version = "5.115.0-4"
 description = "Safe desktop-wide storage for passwords."
-date = "2024-02-19T10:57:03"
+date = "2024-03-15T11:44:19"
 aliases = "/packages/218360"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "414160"
-usize = "2257541"
-sha1sum = "258aa2baa3ae9957077a11eae8586dd5fc5081e2"
-depends = "['knotifications>=5.115.0', 'libgpgmepp>=1.10.0', 'qca']"
-reverse_depends = "['discover', 'falkon-kde', 'kio', 'kopete', 'krdc', 'krfb', 'ksshaskpass5', 'kwallet-pam', 'libkgapi', 'remmina-kwallet', 'signon-kwallet-extension']"
+size = "238764"
+usize = "1639413"
+sha1sum = "8350cd4e3d11468c8e4169576580cc0af5d671e4"
+depends = "['knotifications5>=5.115.0', 'libgpgmepp>=1.10.0', 'qca']"
+reverse_depends = "['discover', 'falkon-kde', 'kio5', 'kopete', 'krdc', 'krfb', 'ksshaskpass5', 'libkgapi', 'remmina-kwallet', 'signon-kwallet-extension']"
 +++
 ### Description: 
 Safe desktop-wide storage for passwords.
 
 ### Files: 
-* /usr/bin/kwallet-query
-* /usr/bin/kwalletd5
 * /usr/include/KF5/KWallet/KWallet
 * /usr/include/KF5/KWallet/kwallet.h
 * /usr/include/KF5/KWallet/kwallet_export.h
@@ -31,15 +29,8 @@ Safe desktop-wide storage for passwords.
 * /usr/lib/libKF5Wallet.so
 * /usr/lib/libKF5Wallet.so.5
 * /usr/lib/libKF5Wallet.so.5.115.0
-* /usr/lib/libkwalletbackend5.so
-* /usr/lib/libkwalletbackend5.so.5
-* /usr/lib/libkwalletbackend5.so.5.115.0
-* /usr/share/applications/org.kde.kwalletd5.desktop
 * /usr/share/dbus-1/interfaces/kf5_org.kde.KWallet.xml
-* /usr/share/dbus-1/services/org.kde.kwalletd5.service
 * /usr/share/doc/kwallet5-5.115.0/README.md
-* /usr/share/knotifications5/kwalletd5.notifyrc
-* /usr/share/kservices5/kwalletd5.desktop
 * /usr/share/locale/ar/LC_MESSAGES/kwallet-query.mo
 * /usr/share/locale/ar/LC_MESSAGES/kwalletd5.mo
 * /usr/share/locale/az/LC_MESSAGES/kwallet-query.mo
@@ -166,7 +157,6 @@ Safe desktop-wide storage for passwords.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kwalletd5.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kwallet-query.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kwalletd5.mo
-* /usr/share/man/man1/kwallet-query.1.gz
 * /usr/share/qlogging-categories5/kwallet.categories
 * /usr/share/qlogging-categories5/kwallet.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KWallet.pri

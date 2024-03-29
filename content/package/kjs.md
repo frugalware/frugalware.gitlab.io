@@ -12,7 +12,7 @@ size = "370040"
 usize = "1576749"
 sha1sum = "2e1585aa0d1416aa6b8cab9662532942d892dc8d"
 depends = "['qt5-base>=5.15.12']"
-reverse_depends = "['khtml', 'kjsembed', 'krename', 'okular']"
+reverse_depends = "['khtml', 'kjsembed', 'okular']"
 +++
 ### Description: 
 KDE Javascript engine.

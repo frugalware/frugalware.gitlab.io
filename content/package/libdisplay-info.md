@@ -12,7 +12,7 @@ size = "93540"
 usize = "339904"
 sha1sum = "a5df1722a663d788049509c57084ac71f9b1d5b3"
 depends = "['glibc']"
-reverse_depends = "['weston']"
+reverse_depends = "['kwin', 'weston']"
 +++
 ### Description: 
 EDID and DisplayID library

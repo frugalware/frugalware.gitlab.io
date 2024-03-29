@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "krusader 2.8.0-2"
-version = "2.8.0-2"
+title = "krusader 2.8.1-1"
+version = "2.8.1-1"
 description = "Twin Panel File Manager For Your Desktop"
-date = "2023-10-21T10:08:39"
+date = "2024-03-18T08:10:52"
 aliases = "/packages/3137"
 categories = ['kde5']
 upstreamurl = "https://krusader.org"
 arch = "x86_64"
-size = "3916124"
-usize = "16007508"
-sha1sum = "6136991d875cb1bcdfba1d1a46fa725b44f503f1"
-depends = "['kparts>=5.110.0', 'qt5-svg>=5.15.11']"
+size = "3940696"
+usize = "16287402"
+sha1sum = "9a63dcbf5fdec45abea8865b9da0c5fe28ca6b97"
+depends = "['kparts5>=5.115.0', 'qt5-svg>=5.15.12']"
 +++
 ### Description: 
 Twin Panel File Manager For Your Desktop
@@ -345,14 +345,14 @@ Twin Panel File Manager For Your Desktop
 * /usr/share/doc/HTML/uk/krusader/useractions.docbook
 * /usr/share/doc/HTML/uk/krusader/vfs.docbook
 * /usr/share/doc/HTML/uk/krusader/viewer-editor.docbook
-* /usr/share/doc/krusader-2.8.0/AUTHORS
-* /usr/share/doc/krusader-2.8.0/ChangeLog
-* /usr/share/doc/krusader-2.8.0/CREDITS
-* /usr/share/doc/krusader-2.8.0/INSTALL
-* /usr/share/doc/krusader-2.8.0/NEWS
-* /usr/share/doc/krusader-2.8.0/README
-* /usr/share/doc/krusader-2.8.0/README.md
-* /usr/share/doc/krusader-2.8.0/TODO
+* /usr/share/doc/krusader-2.8.1/AUTHORS
+* /usr/share/doc/krusader-2.8.1/ChangeLog
+* /usr/share/doc/krusader-2.8.1/CREDITS
+* /usr/share/doc/krusader-2.8.1/INSTALL
+* /usr/share/doc/krusader-2.8.1/NEWS
+* /usr/share/doc/krusader-2.8.1/README
+* /usr/share/doc/krusader-2.8.1/README.md
+* /usr/share/doc/krusader-2.8.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/krusader_root.png
 * /usr/share/icons/hicolor/128x128/apps/krusader_user.png
 * /usr/share/icons/hicolor/16x16/apps/krusader_blue.png
@@ -463,6 +463,7 @@ Twin Panel File Manager For Your Desktop
 * /usr/share/man/man1/krusader.1.gz
 * /usr/share/man/nl/man1/krusader.1.gz
 * /usr/share/man/pt/man1/krusader.1.gz
+* /usr/share/man/ru/man1/krusader.1.gz
 * /usr/share/man/sv/man1/krusader.1.gz
 * /usr/share/man/uk/man1/krusader.1.gz
 * /usr/share/metainfo/org.kde.krusader.appdata.xml

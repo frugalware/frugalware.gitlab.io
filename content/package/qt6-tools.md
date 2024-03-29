@@ -12,7 +12,7 @@ size = "5987944"
 usize = "19465730"
 sha1sum = "333977f106ed77aaa4179b71c2e5f313a0d9cb76"
 depends = "['clang-libs>=17.0.6', 'qt6-declarative', 'zstd']"
-reverse_depends = "['qtcreator']"
+reverse_depends = "['kwin', 'qtcreator']"
 +++
 ### Description: 
 The Qt6 toolkit, qttools

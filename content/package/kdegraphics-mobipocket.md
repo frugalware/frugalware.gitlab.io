@@ -12,7 +12,7 @@ size = "26716"
 usize = "75705"
 sha1sum = "d33e7c0e8c443fc34c57d7a04141d3c0fa812ea6"
 depends = "['kio>=5.115.0']"
-reverse_depends = "['kdegraphics-thumbnailers', 'okular']"
+reverse_depends = "['kdegraphics-thumbnailers', 'kfilemetadata', 'okular']"
 +++
 ### Description: 
 A collection of plugins to handle mobipocket files

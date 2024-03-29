@@ -12,7 +12,7 @@ size = "27588"
 usize = "88923"
 sha1sum = "2c3e9edf3cb88f7bb1cea12d1228622f3849703b"
 depends = "['pcre']"
-reverse_depends = "['ktexteditor']"
+reverse_depends = "['ktexteditor', 'ktexteditor5']"
 +++
 ### Description: 
 EditorConfig core code written in C (for use by plugins supporting EditorConfig parsing)

@@ -12,7 +12,7 @@ size = "32884"
 usize = "137860"
 sha1sum = "3e919a54d6a96e665390104feeb46d492b8cb4f4"
 depends = "['qt5-base>=5.15.12', 'qt5-multimedia>=5.15.12', 'speech-dispatcher']"
-reverse_depends = "['kmouth', 'knotifications', 'konqueror', 'kpimtextedit', 'ktextaddons', 'ktextwidgets', 'okular']"
+reverse_depends = "['kmouth', 'knotifications5', 'konqueror', 'kpimtextedit', 'ktextaddons', 'ktextwidgets5', 'okular']"
 +++
 ### Description: 
 The Qt5 toolkit, qtspeech

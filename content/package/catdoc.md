@@ -12,7 +12,7 @@ size = "78300"
 usize = "651881"
 sha1sum = "3237ffb7250caf43897ce561d9022aeb45c54a99"
 depends = "['glibc>=2.29-6']"
-reverse_depends = "['kfilemetadata5']"
+reverse_depends = "['kfilemetadata', 'kfilemetadata5']"
 +++
 ### Description: 
 reads one or more Microsoft word files and outputs text

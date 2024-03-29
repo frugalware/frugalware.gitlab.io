@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdevelop-pg-qt 2.2.2-3"
-version = "2.2.2-3"
+title = "kdevelop-pg-qt 2.2.2-4"
+version = "2.2.2-4"
 description = "KDevelop Parser Generator, a LL(1) parser generator used by KDevelop language plugins"
-date = "2023-10-27T15:59:55"
+date = "2024-03-28T14:48:32"
 aliases = "/packages/220974"
 categories = ['devel-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "480120"
+size = "480220"
 usize = "1123542"
-sha1sum = "46b3fea1f1097ad4c2494971bbdb5ce9d4a18445"
+sha1sum = "5fe9e57d74d92975890917c77855d8004c7988cb"
 depends = "['qt5-base>=']"
 +++
 ### Description: 

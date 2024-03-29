@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lxqt-build-tools 0.13.0-1"
-version = "0.13.0-1"
+title = "lxqt-build-tools 0.13.0-2"
+version = "0.13.0-2"
 description = "Various packaging tools and scripts for LXQt applications."
-date = "2023-06-15T13:58:47"
+date = "2024-03-28T14:49:09"
 aliases = "/packages/219175"
 categories = ['devel-extra']
 upstreamurl = "http://lxqt.org/"
 arch = "x86_64"
-size = "31604"
-usize = "150582"
-sha1sum = "ffaf2f88278af1e77afdbb65d5fc6c7b5fddd837"
+size = "25836"
+usize = "132595"
+sha1sum = "8b042e212526121e2197c84f0471ac1d42070f24"
 depends = "['cmake']"
 +++
 ### Description: 
@@ -53,5 +53,4 @@ Various packaging tools and scripts for LXQt applications.
 * /usr/share/cmake/lxqt-build-tools/modules/Qt5TranslationLoader.cpp.in
 * /usr/share/doc/lxqt-build-tools-0.13.0/AUTHORS
 * /usr/share/doc/lxqt-build-tools-0.13.0/CHANGELOG
-* /usr/share/doc/lxqt-build-tools-0.13.0/LICENSE
 * /usr/share/doc/lxqt-build-tools-0.13.0/README.md

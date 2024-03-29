@@ -12,7 +12,7 @@ size = "54668"
 usize = "209077"
 sha1sum = "f3f3d146fa0f418204b4ac76ba83552c8f8f33c9"
 depends = "['libsecret', 'qt5-base>=5.15.10']"
-reverse_depends = "['kasts', 'kio-gdrive', 'kldap', 'kmailtransport', 'ktextaddons', 'libquotient', 'mixxx', 'tokodon']"
+reverse_depends = "['kasts', 'kio-gdrive', 'kldap', 'kmailtransport', 'ktextaddons', 'libquotient', 'tokodon']"
 +++
 ### Description: 
 Provides support for secure credentials storage.

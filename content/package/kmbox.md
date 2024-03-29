@@ -12,7 +12,7 @@ size = "30968"
 usize = "81582"
 sha1sum = "b1544c7a2808ecaa6ac288c97bb97146b24837b0"
 depends = "['kmime>=23.08.5']"
-reverse_depends = "['kdepim-runtime', 'kldap']"
+reverse_depends = "['kdepim-runtime', 'kldap', 'mimetreeparser']"
 +++
 ### Description: 
 A library for handling mbox data.

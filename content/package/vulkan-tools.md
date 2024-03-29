@@ -12,6 +12,7 @@ size = "267312"
 usize = "1538029"
 sha1sum = "a7e96827154af5556a62b6b8c8a2a59e126b0e40"
 depends = "['libstdc++', 'libxcb', 'vulkan-icd-loader']"
+reverse_depends = "['kinfocenter']"
 +++
 ### Description: 
 Vulkan Utilities and Tools

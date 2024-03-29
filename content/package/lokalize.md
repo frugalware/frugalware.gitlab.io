@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lokalize 23.08.5-1"
-version = "23.08.5-1"
+title = "lokalize 24.02.1-1"
+version = "24.02.1-1"
 description = "Computer-Aided Translation System."
-date = "2024-02-19T21:50:38"
+date = "2024-03-22T10:36:13"
 aliases = "/packages/118455"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2372196"
-usize = "7802534"
-sha1sum = "f88feb5b201bc1c66bc805955cc03feb2f3c1eb1"
-depends = "['hunspell>=1.7.0', 'kross>=5.115.0']"
+size = "2373928"
+usize = "7795875"
+sha1sum = "57e53588d02534459452c3fa825a43c417e45741"
+depends = "['hunspell>=1.7.0', 'kross5>=5.115.0']"
 +++
 ### Description: 
 Computer-Aided Translation System.
@@ -82,19 +82,13 @@ Computer-Aided Translation System.
 * /usr/share/doc/HTML/uk/lokalize/project_overview.png
 * /usr/share/doc/HTML/uk/lokalize/sync.png
 * /usr/share/doc/HTML/uk/lokalize/tmview.png
-* /usr/share/doc/lokalize-23.08.5/README.md
-* /usr/share/doc/lokalize-23.08.5/TODO
+* /usr/share/doc/lokalize-24.02.1/README.md
+* /usr/share/doc/lokalize-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/lokalize.png
 * /usr/share/icons/hicolor/32x32/apps/lokalize.png
 * /usr/share/icons/hicolor/64x64/apps/lokalize.png
 * /usr/share/icons/hicolor/scalable/apps/lokalize.svgz
 * /usr/share/knotifications5/lokalize.notifyrc
-* /usr/share/kxmlgui5/lokalize/editorui.rc
-* /usr/share/kxmlgui5/lokalize/filesearchtabui.rc
-* /usr/share/kxmlgui5/lokalize/lokalizemainwindowui.rc
-* /usr/share/kxmlgui5/lokalize/projectmanagerui.rc
-* /usr/share/kxmlgui5/lokalize/scriptsui.rc
-* /usr/share/kxmlgui5/lokalize/translationmemoryrui.rc
 * /usr/share/locale/ar/LC_MESSAGES/lokalize.mo
 * /usr/share/locale/az/LC_MESSAGES/lokalize.mo
 * /usr/share/locale/be/LC_MESSAGES/lokalize.mo

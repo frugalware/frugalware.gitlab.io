@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "karchive 5.115.0-1"
-version = "5.115.0-1"
+title = "karchive 6.0.0-2"
+version = "6.0.0-2"
 description = "Qt 5 addon providing access to numerous types of archives."
-date = "2024-02-19T09:51:06"
+date = "2024-03-26T22:42:33"
 aliases = "/packages/218274"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "137196"
-usize = "618773"
-sha1sum = "f60d2e142375f8321cadb8831749cb0fce358511"
+size = "143924"
+usize = "680064"
+sha1sum = "93a60891e23d18d5c01f2dab4c95fd7c28e075d5"
 depends = "['qt6-base>=6.6.3']"
-reverse_depends = "['discover', 'kbackup', 'kcachegrind', 'kdoctools', 'kemoticons', 'kfilemetadata5', 'kiconthemes', 'kimageformats', 'kio', 'kpackage', 'kpkpass', 'plasma-sdk']"
+reverse_depends = "['discover', 'kbackup', 'kcachegrind', 'kdoctools', 'kemoticons', 'kfilemetadata', 'kiconthemes', 'kimageformats', 'kio', 'kpackage', 'kpkpass', 'plasma-sdk']"
 +++
 ### Description: 
 Qt 5 addon providing access to numerous types of archives.

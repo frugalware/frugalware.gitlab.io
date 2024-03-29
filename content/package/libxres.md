@@ -12,7 +12,7 @@ size = "25664"
 usize = "69691"
 sha1sum = "7761fef345c294072079ad91d598937451bee0b7"
 depends = "['libx11>=1.6.5-2', 'libxau>=1.0.8-3', 'libxext>=1.3.3-3']"
-reverse_depends = "['libksysguard5', 'libwnck', 'libwnck2', 'xrestop']"
+reverse_depends = "['libksysguard', 'libksysguard5', 'libwnck', 'libwnck2', 'xrestop']"
 license = "GPL2"
 +++
 ### Description: 

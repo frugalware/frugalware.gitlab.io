@@ -12,6 +12,7 @@ size = "51340"
 usize = "165892"
 sha1sum = "c5980a9873b366d2767cd0b53fd01d4bd69bc1a7"
 depends = "['ocl-icd']"
+reverse_depends = "['kinfocenter']"
 +++
 ### Description: 
 Simple OpenCL application that enumerates all available platform and device properties

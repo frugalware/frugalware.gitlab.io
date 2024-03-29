@@ -12,7 +12,7 @@ size = "737816"
 usize = "3822001"
 sha1sum = "72511b81a67721c33451c0817c611cb4abad7c3d"
 depends = "['gst1-plugins-bad>=1.10.3', 'gst1-plugins-base>=1.10.3', 'gst1-plugins-good>=1.10.3', 'libpulse', 'openal', 'qt5-declarative>=5.15.12']"
-reverse_depends = "['artikulate', 'aseman-qt-tools', 'aura-browser', 'babe', 'castersoundboard', 'eiskaltdc', 'hills', 'kclock', 'kdeconnect-kde', 'kfilemetadata5', 'konversation', 'krecorder', 'ktuberling', 'kvirc', 'kwave', 'kwin5', 'libquotient', 'lumina-desktop', 'openscad', 'otter-browser', 'parley', 'plank-player', 'prison', 'qt-virt-manager', 'qt5-speech', 'quassel', 'rolisteam', 'snorenotify', 'stellarium', 'vokoscreenng', 'wireshark-qt']"
+reverse_depends = "['artikulate', 'aseman-qt-tools', 'aura-browser', 'babe', 'castersoundboard', 'eiskaltdc', 'hills', 'kclock', 'kdeconnect-kde', 'kfilemetadata5', 'konversation', 'krecorder', 'ktuberling', 'kvirc', 'kwave', 'kwin5', 'lumina-desktop', 'openscad', 'otter-browser', 'parley', 'plank-player', 'prison', 'qt-virt-manager', 'qt5-speech', 'quassel', 'rolisteam', 'snorenotify', 'stellarium', 'vokoscreenng', 'wireshark-qt']"
 +++
 ### Description: 
 The Qt5 toolkit, qtmultimedia

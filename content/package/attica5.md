@@ -12,6 +12,7 @@ size = "150384"
 usize = "734491"
 sha1sum = "e16d65d50631b8fe6224ebdc0a0b73afae902500"
 depends = "['qt5-base>=5.15.12']"
+reverse_depends = "['kxmlgui5']"
 +++
 ### Description: 
 Qt library to access Open Collaboration Services

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kolourpaint 23.08.5-1"
-version = "23.08.5-1"
+title = "kolourpaint 24.02.1-1"
+version = "24.02.1-1"
 description = "KDE Paint Program."
-date = "2024-02-19T23:05:49"
+date = "2024-03-22T10:47:30"
 aliases = "/packages/88169"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5907204"
-usize = "10026943"
-sha1sum = "3f31a907ff4cfd4a576a70158036bd181e423336"
-depends = "['kdelibs4support>=5.115.0', 'libkexiv2>=23.08.5', 'libksane>=23.08.5']"
+size = "5918204"
+usize = "10049961"
+sha1sum = "54e02705fc9273eb1badb9c2762c77bb82146b28"
+depends = "['kdelibs4support5>=5.115.0', 'libkexiv2>=24.02.1', 'libksane>=24.02.1']"
 +++
 ### Description: 
 KDE Paint Program.
@@ -263,14 +263,14 @@ KDE Paint Program.
 * /usr/share/doc/HTML/uk/kolourpaint/index.docbook
 * /usr/share/doc/HTML/uk/kolourpaint/KolourPaint.png
 * /usr/share/doc/HTML/uk/kolourpaint/screenshot_acquiring.png
-* /usr/share/doc/kolourpaint-23.08.5/AUTHORS
-* /usr/share/doc/kolourpaint-23.08.5/BUGS
-* /usr/share/doc/kolourpaint-23.08.5/ChangeLog
-* /usr/share/doc/kolourpaint-23.08.5/COPYING
-* /usr/share/doc/kolourpaint-23.08.5/COPYING.DOC
-* /usr/share/doc/kolourpaint-23.08.5/COPYING.LIB
-* /usr/share/doc/kolourpaint-23.08.5/NEWS
-* /usr/share/doc/kolourpaint-23.08.5/README.md
+* /usr/share/doc/kolourpaint-24.02.1/AUTHORS
+* /usr/share/doc/kolourpaint-24.02.1/BUGS
+* /usr/share/doc/kolourpaint-24.02.1/ChangeLog
+* /usr/share/doc/kolourpaint-24.02.1/COPYING
+* /usr/share/doc/kolourpaint-24.02.1/COPYING.DOC
+* /usr/share/doc/kolourpaint-24.02.1/COPYING.LIB
+* /usr/share/doc/kolourpaint-24.02.1/NEWS
+* /usr/share/doc/kolourpaint-24.02.1/README.md
 * /usr/share/icons/hicolor/128x128/apps/kolourpaint.png
 * /usr/share/icons/hicolor/16x16/apps/kolourpaint.png
 * /usr/share/icons/hicolor/22x22/apps/kolourpaint.png
@@ -367,7 +367,6 @@ KDE Paint Program.
 * /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_rounded_rectangle.svgz
 * /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_spraycan.svgz
 * /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_text.svgz
-* /usr/share/kxmlgui5/kolourpaint/kolourpaintui.rc
 * /usr/share/locale/ar/LC_MESSAGES/kolourpaint.mo
 * /usr/share/locale/be/LC_MESSAGES/kolourpaint.mo
 * /usr/share/locale/bg/LC_MESSAGES/kolourpaint.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libaccounts-qt 1.16-8"
-version = "1.16-8"
+title = "libaccounts-qt 1.16-10"
+version = "1.16-10"
 description = "Qt-based client library for accessing the online accounts database."
-date = "2023-10-21T18:05:07"
+date = "2024-03-28T11:39:50"
 aliases = "/packages/200094"
 categories = ['xlib']
 upstreamurl = "https://gitlab.com/accounts-sso/libaccounts-qt"
 arch = "x86_64"
-size = "522740"
-usize = "2248127"
-sha1sum = "ed608632806af115015633e6446f85ec052abec5"
-depends = "['libaccounts-glib>=1.25', 'qt5-base>=5.15.10']"
+size = "250104"
+usize = "1822347"
+sha1sum = "136fa7bcf77c5b70a67a1886f75608efb6be1792"
+depends = "['libaccounts-glib>=1.25', 'qt6-base']"
 reverse_depends = "['accounts-qml-module', 'kaccounts-integration']"
 +++
 ### Description: 
@@ -19,34 +19,34 @@ Qt-based client library for accessing the online accounts database.
 
 ### Files: 
 * /usr/bin/accountstest
-* /usr/include/accounts-qt5/Accounts/Account
-* /usr/include/accounts-qt5/Accounts/account-service.h
-* /usr/include/accounts-qt5/Accounts/account.h
-* /usr/include/accounts-qt5/Accounts/accountscommon.h
-* /usr/include/accounts-qt5/Accounts/AccountService
-* /usr/include/accounts-qt5/Accounts/Application
-* /usr/include/accounts-qt5/Accounts/application.h
-* /usr/include/accounts-qt5/Accounts/auth-data.h
-* /usr/include/accounts-qt5/Accounts/AuthData
-* /usr/include/accounts-qt5/Accounts/Error
-* /usr/include/accounts-qt5/Accounts/error.h
-* /usr/include/accounts-qt5/Accounts/Manager
-* /usr/include/accounts-qt5/Accounts/manager.h
-* /usr/include/accounts-qt5/Accounts/manager_p.h
-* /usr/include/accounts-qt5/Accounts/Provider
-* /usr/include/accounts-qt5/Accounts/provider.h
-* /usr/include/accounts-qt5/Accounts/Service
-* /usr/include/accounts-qt5/Accounts/service-type.h
-* /usr/include/accounts-qt5/Accounts/service.h
-* /usr/include/accounts-qt5/Accounts/ServiceType
-* /usr/include/accounts-qt5/Accounts/utils.h
-* /usr/lib/cmake/AccountsQt5/AccountsQt5Config.cmake
-* /usr/lib/cmake/AccountsQt5/AccountsQt5ConfigVersion.cmake
-* /usr/lib/libaccounts-qt5.so
-* /usr/lib/libaccounts-qt5.so.1
-* /usr/lib/libaccounts-qt5.so.1.4
-* /usr/lib/libaccounts-qt5.so.1.4.0
-* /usr/lib/pkgconfig/accounts-qt5.pc
+* /usr/include/accounts-qt6/Accounts/Account
+* /usr/include/accounts-qt6/Accounts/account-service.h
+* /usr/include/accounts-qt6/Accounts/account.h
+* /usr/include/accounts-qt6/Accounts/accountscommon.h
+* /usr/include/accounts-qt6/Accounts/AccountService
+* /usr/include/accounts-qt6/Accounts/Application
+* /usr/include/accounts-qt6/Accounts/application.h
+* /usr/include/accounts-qt6/Accounts/auth-data.h
+* /usr/include/accounts-qt6/Accounts/AuthData
+* /usr/include/accounts-qt6/Accounts/Error
+* /usr/include/accounts-qt6/Accounts/error.h
+* /usr/include/accounts-qt6/Accounts/Manager
+* /usr/include/accounts-qt6/Accounts/manager.h
+* /usr/include/accounts-qt6/Accounts/manager_p.h
+* /usr/include/accounts-qt6/Accounts/Provider
+* /usr/include/accounts-qt6/Accounts/provider.h
+* /usr/include/accounts-qt6/Accounts/Service
+* /usr/include/accounts-qt6/Accounts/service-type.h
+* /usr/include/accounts-qt6/Accounts/service.h
+* /usr/include/accounts-qt6/Accounts/ServiceType
+* /usr/include/accounts-qt6/Accounts/utils.h
+* /usr/lib/cmake/AccountsQt6/AccountsQt6Config.cmake
+* /usr/lib/cmake/AccountsQt6/AccountsQt6ConfigVersion.cmake
+* /usr/lib/libaccounts-qt6.so
+* /usr/lib/libaccounts-qt6.so.1
+* /usr/lib/libaccounts-qt6.so.1.4
+* /usr/lib/libaccounts-qt6.so.1.4.0
+* /usr/lib/pkgconfig/accounts-qt6.pc
 * /usr/share/doc/accounts-qt/html/account-service_8cpp_source.html
 * /usr/share/doc/accounts-qt/html/account-service_8h_source.html
 * /usr/share/doc/accounts-qt/html/accountscommon_8h_source.html
@@ -60,7 +60,6 @@ Qt-based client library for accessing the online accounts database.
 * /usr/share/doc/accounts-qt/html/auth-data_8h_source.html
 * /usr/share/doc/accounts-qt/html/bc_s.png
 * /usr/share/doc/accounts-qt/html/bc_sd.png
-* /usr/share/doc/accounts-qt/html/bdwn.png
 * /usr/share/doc/accounts-qt/html/classAccounts_1_1AccountService-members.html
 * /usr/share/doc/accounts-qt/html/classAccounts_1_1AccountService.html
 * /usr/share/doc/accounts-qt/html/classAccounts_1_1AccountService.js
@@ -85,9 +84,6 @@ Qt-based client library for accessing the online accounts database.
 * /usr/share/doc/accounts-qt/html/classAccounts_1_1ServiceType-members.html
 * /usr/share/doc/accounts-qt/html/classAccounts_1_1ServiceType.html
 * /usr/share/doc/accounts-qt/html/classAccounts_1_1ServiceType.js
-* /usr/share/doc/accounts-qt/html/classAccounts_1_1Watch-members.html
-* /usr/share/doc/accounts-qt/html/classAccounts_1_1Watch.html
-* /usr/share/doc/accounts-qt/html/classAccounts_1_1Watch.js
 * /usr/share/doc/accounts-qt/html/classes.html
 * /usr/share/doc/accounts-qt/html/closed.png
 * /usr/share/doc/accounts-qt/html/deprecated.html
@@ -96,21 +92,17 @@ Qt-based client library for accessing the online accounts database.
 * /usr/share/doc/accounts-qt/html/dir_c3d1d086c816c0518443c9e800634b9c.html
 * /usr/share/doc/accounts-qt/html/dir_c3d1d086c816c0518443c9e800634b9c.js
 * /usr/share/doc/accounts-qt/html/dir_e68e8157741866f444e17edd764ebbae.html
-* /usr/share/doc/accounts-qt/html/doc.png
 * /usr/share/doc/accounts-qt/html/doc.svg
 * /usr/share/doc/accounts-qt/html/docd.svg
 * /usr/share/doc/accounts-qt/html/doxygen.css
-* /usr/share/doc/accounts-qt/html/doxygen.png
 * /usr/share/doc/accounts-qt/html/doxygen.svg
 * /usr/share/doc/accounts-qt/html/dynsections.js
 * /usr/share/doc/accounts-qt/html/error_8cpp_source.html
 * /usr/share/doc/accounts-qt/html/error_8h_source.html
 * /usr/share/doc/accounts-qt/html/files.html
 * /usr/share/doc/accounts-qt/html/files_dup.js
-* /usr/share/doc/accounts-qt/html/folderclosed.png
 * /usr/share/doc/accounts-qt/html/folderclosed.svg
 * /usr/share/doc/accounts-qt/html/folderclosedd.svg
-* /usr/share/doc/accounts-qt/html/folderopen.png
 * /usr/share/doc/accounts-qt/html/folderopen.svg
 * /usr/share/doc/accounts-qt/html/folderopend.svg
 * /usr/share/doc/accounts-qt/html/functions.html
@@ -161,7 +153,6 @@ Qt-based client library for accessing the online accounts database.
 * /usr/share/doc/accounts-qt/html/tab_sd.png
 * /usr/share/doc/accounts-qt/html/utils_8cpp_source.html
 * /usr/share/doc/accounts-qt/html/utils_8h_source.html
-* /usr/share/doc/accounts-qt/qch/accounts.qch
 * /usr/share/doc/libaccounts-qt-1.16/COPYING
 * /usr/share/doc/libaccounts-qt-1.16/INSTALL
 * /usr/share/doc/libaccounts-qt-1.16/README.md

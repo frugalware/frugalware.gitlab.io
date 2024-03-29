@@ -12,7 +12,7 @@ size = "94896"
 usize = "331393"
 sha1sum = "f8cf94c4bd45e2186e36f2eed6d5cec42010eec7"
 depends = "['glibc>=2.34']"
-reverse_depends = "['dlib', 'efl', 'efl', 'emacs', 'fontforge', 'imlib2', 'khtml', 'leptonica', 'libgdiplus', 'libwebp', 'mencoder', 'mplayer', 'openjre-x']"
+reverse_depends = "['dlib', 'efl', 'efl', 'emacs', 'fontforge', 'imlib2', 'khtml', 'khtml5', 'leptonica', 'libgdiplus', 'libwebp', 'mencoder', 'mplayer', 'openjre-x']"
 +++
 ### Description: 
 GIF loading and saving shared library

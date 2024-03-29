@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "kauth 5.115.0-1"
-version = "5.115.0-1"
+title = "kauth 6.0.0-2"
+version = "6.0.0-2"
 description = "Framework which lets applications perform actions as a privileged user."
-date = "2024-02-19T10:28:24"
+date = "2024-03-26T23:22:17"
 aliases = "/packages/218275"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "98772"
-usize = "434155"
-sha1sum = "663226225c4b3d53d6772a3b71b525142bea6d3d"
+size = "99804"
+usize = "417487"
+sha1sum = "b7310a7a82c39ecaedd5894733aed88decd9ea6d"
 depends = "['kcoreaddons>=6.0.0', 'kwindowsystem>=6.0.0']"
-reverse_depends = "['kpmcore', 'plasma-desktop', 'smb4k', 'user-kcm']"
+reverse_depends = "['kio', 'kpmcore', 'kwin', 'plasma-desktop', 'smb4k', 'user-kcm']"
 +++
 ### Description: 
 Framework which lets applications perform actions as a privileged user.

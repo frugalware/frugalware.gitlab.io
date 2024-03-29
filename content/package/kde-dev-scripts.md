@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kde-dev-scripts 19.08.3-1"
-version = "19.08.3-1"
+title = "kde-dev-scripts 24.02.1-1"
+version = "24.02.1-1"
 description = "Scripts and setting files useful during development of KDE software"
-date = "2019-11-14T10:00:07"
+date = "2024-03-26T10:40:20"
 aliases = "/packages/219329"
 categories = ['devel-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "326520"
-usize = "593284"
-sha1sum = "ae05b889b6f38aeb7dc7a86654350125b4695368"
+size = "308524"
+usize = "536173"
+sha1sum = "277bc3c2e70dd30d0329556c2ea5ee9dab4e67a8"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -18,10 +18,13 @@ Scripts and setting files useful during development of KDE software
 
 ### Files: 
 * /usr/bin/adddebug
+* /usr/bin/addmocincludes
 * /usr/bin/build-progress.sh
 * /usr/bin/c++-copy-class-and-file
 * /usr/bin/c++-rename-class-and-file
 * /usr/bin/cheatmake
+* /usr/bin/clean-forward-declaration.sh
+* /usr/bin/clean-includes.sh
 * /usr/bin/colorsvn
 * /usr/bin/create_cvsignore
 * /usr/bin/create_makefile
@@ -61,8 +64,8 @@ Scripts and setting files useful during development of KDE software
 * /usr/bin/optimizegraphics
 * /usr/bin/package_crystalsvg
 * /usr/bin/png2mng.pl
+* /usr/bin/port_new_gitlab_ci_template.sh
 * /usr/bin/pruneemptydirs
-* /usr/bin/qtdoc
 * /usr/bin/reviewboard-am
 * /usr/bin/svn-clean
 * /usr/bin/svnbackport
@@ -77,9 +80,9 @@ Scripts and setting files useful during development of KDE software
 * /usr/bin/uncrustify-kf5
 * /usr/bin/wcgrep
 * /usr/bin/zonetab2pot.py
-* /usr/share/doc/kde-dev-scripts-19.08.3/COPYING
-* /usr/share/doc/kde-dev-scripts-19.08.3/COPYING.DOC
-* /usr/share/doc/kde-dev-scripts-19.08.3/README
+* /usr/share/doc/kde-dev-scripts-24.02.1/COPYING
+* /usr/share/doc/kde-dev-scripts-24.02.1/COPYING.DOC
+* /usr/share/doc/kde-dev-scripts-24.02.1/README
 * /usr/share/man/ca/man1/adddebug.1.gz
 * /usr/share/man/ca/man1/cheatmake.1.gz
 * /usr/share/man/ca/man1/create_cvsignore.1.gz
@@ -94,9 +97,6 @@ Scripts and setting files useful during development of KDE software
 * /usr/share/man/ca/man1/extractrc.1.gz
 * /usr/share/man/ca/man1/fixincludes.1.gz
 * /usr/share/man/ca/man1/pruneemptydirs.1.gz
-* /usr/share/man/ca/man1/qtdoc.1.gz
-* /usr/share/man/ca/man1/reportview.1.gz
-* /usr/share/man/ca/man1/transxx.1.gz
 * /usr/share/man/ca/man1/zonetab2pot.py.1.gz
 * /usr/share/man/da/man1/adddebug.1.gz
 * /usr/share/man/da/man1/cheatmake.1.gz
@@ -111,8 +111,6 @@ Scripts and setting files useful during development of KDE software
 * /usr/share/man/da/man1/extractrc.1.gz
 * /usr/share/man/da/man1/fixincludes.1.gz
 * /usr/share/man/da/man1/pruneemptydirs.1.gz
-* /usr/share/man/da/man1/qtdoc.1.gz
-* /usr/share/man/da/man1/reportview.1.gz
 * /usr/share/man/da/man1/zonetab2pot.py.1.gz
 * /usr/share/man/de/man1/adddebug.1.gz
 * /usr/share/man/de/man1/cheatmake.1.gz
@@ -128,9 +126,6 @@ Scripts and setting files useful during development of KDE software
 * /usr/share/man/de/man1/extractrc.1.gz
 * /usr/share/man/de/man1/fixincludes.1.gz
 * /usr/share/man/de/man1/pruneemptydirs.1.gz
-* /usr/share/man/de/man1/qtdoc.1.gz
-* /usr/share/man/de/man1/reportview.1.gz
-* /usr/share/man/de/man1/transxx.1.gz
 * /usr/share/man/de/man1/zonetab2pot.py.1.gz
 * /usr/share/man/es/man1/adddebug.1.gz
 * /usr/share/man/es/man1/cheatmake.1.gz
@@ -146,11 +141,7 @@ Scripts and setting files useful during development of KDE software
 * /usr/share/man/es/man1/extractrc.1.gz
 * /usr/share/man/es/man1/fixincludes.1.gz
 * /usr/share/man/es/man1/pruneemptydirs.1.gz
-* /usr/share/man/es/man1/qtdoc.1.gz
-* /usr/share/man/es/man1/reportview.1.gz
-* /usr/share/man/es/man1/transxx.1.gz
 * /usr/share/man/es/man1/zonetab2pot.py.1.gz
-* /usr/share/man/et/man1/qtdoc.1.gz
 * /usr/share/man/fr/man1/adddebug.1.gz
 * /usr/share/man/fr/man1/cheatmake.1.gz
 * /usr/share/man/fr/man1/create_cvsignore.1.gz
@@ -165,9 +156,6 @@ Scripts and setting files useful during development of KDE software
 * /usr/share/man/fr/man1/extractrc.1.gz
 * /usr/share/man/fr/man1/fixincludes.1.gz
 * /usr/share/man/fr/man1/pruneemptydirs.1.gz
-* /usr/share/man/fr/man1/qtdoc.1.gz
-* /usr/share/man/fr/man1/reportview.1.gz
-* /usr/share/man/fr/man1/transxx.1.gz
 * /usr/share/man/fr/man1/zonetab2pot.py.1.gz
 * /usr/share/man/gl/man1/adddebug.1.gz
 * /usr/share/man/gl/man1/cheatmake.1.gz
@@ -182,9 +170,6 @@ Scripts and setting files useful during development of KDE software
 * /usr/share/man/gl/man1/extractrc.1.gz
 * /usr/share/man/gl/man1/fixincludes.1.gz
 * /usr/share/man/gl/man1/pruneemptydirs.1.gz
-* /usr/share/man/gl/man1/qtdoc.1.gz
-* /usr/share/man/gl/man1/reportview.1.gz
-* /usr/share/man/gl/man1/transxx.1.gz
 * /usr/share/man/gl/man1/zonetab2pot.py.1.gz
 * /usr/share/man/it/man1/adddebug.1.gz
 * /usr/share/man/it/man1/cheatmake.1.gz
@@ -200,9 +185,6 @@ Scripts and setting files useful during development of KDE software
 * /usr/share/man/it/man1/extractrc.1.gz
 * /usr/share/man/it/man1/fixincludes.1.gz
 * /usr/share/man/it/man1/pruneemptydirs.1.gz
-* /usr/share/man/it/man1/qtdoc.1.gz
-* /usr/share/man/it/man1/reportview.1.gz
-* /usr/share/man/it/man1/transxx.1.gz
 * /usr/share/man/it/man1/zonetab2pot.py.1.gz
 * /usr/share/man/man1/adddebug.1.gz
 * /usr/share/man/man1/cheatmake.1.gz
@@ -218,9 +200,6 @@ Scripts and setting files useful during development of KDE software
 * /usr/share/man/man1/extractrc.1.gz
 * /usr/share/man/man1/fixincludes.1.gz
 * /usr/share/man/man1/pruneemptydirs.1.gz
-* /usr/share/man/man1/qtdoc.1.gz
-* /usr/share/man/man1/reportview.1.gz
-* /usr/share/man/man1/transxx.1.gz
 * /usr/share/man/man1/zonetab2pot.py.1.gz
 * /usr/share/man/nl/man1/adddebug.1.gz
 * /usr/share/man/nl/man1/cheatmake.1.gz
@@ -236,9 +215,6 @@ Scripts and setting files useful during development of KDE software
 * /usr/share/man/nl/man1/extractrc.1.gz
 * /usr/share/man/nl/man1/fixincludes.1.gz
 * /usr/share/man/nl/man1/pruneemptydirs.1.gz
-* /usr/share/man/nl/man1/qtdoc.1.gz
-* /usr/share/man/nl/man1/reportview.1.gz
-* /usr/share/man/nl/man1/transxx.1.gz
 * /usr/share/man/nl/man1/zonetab2pot.py.1.gz
 * /usr/share/man/pt/man1/adddebug.1.gz
 * /usr/share/man/pt/man1/cheatmake.1.gz
@@ -254,9 +230,6 @@ Scripts and setting files useful during development of KDE software
 * /usr/share/man/pt/man1/extractrc.1.gz
 * /usr/share/man/pt/man1/fixincludes.1.gz
 * /usr/share/man/pt/man1/pruneemptydirs.1.gz
-* /usr/share/man/pt/man1/qtdoc.1.gz
-* /usr/share/man/pt/man1/reportview.1.gz
-* /usr/share/man/pt/man1/transxx.1.gz
 * /usr/share/man/pt/man1/zonetab2pot.py.1.gz
 * /usr/share/man/pt_BR/man1/adddebug.1.gz
 * /usr/share/man/pt_BR/man1/cheatmake.1.gz
@@ -272,10 +245,22 @@ Scripts and setting files useful during development of KDE software
 * /usr/share/man/pt_BR/man1/extractrc.1.gz
 * /usr/share/man/pt_BR/man1/fixincludes.1.gz
 * /usr/share/man/pt_BR/man1/pruneemptydirs.1.gz
-* /usr/share/man/pt_BR/man1/qtdoc.1.gz
-* /usr/share/man/pt_BR/man1/reportview.1.gz
-* /usr/share/man/pt_BR/man1/transxx.1.gz
 * /usr/share/man/pt_BR/man1/zonetab2pot.py.1.gz
+* /usr/share/man/ru/man1/adddebug.1.gz
+* /usr/share/man/ru/man1/cheatmake.1.gz
+* /usr/share/man/ru/man1/create_cvsignore.1.gz
+* /usr/share/man/ru/man1/create_makefile.1.gz
+* /usr/share/man/ru/man1/create_makefiles.1.gz
+* /usr/share/man/ru/man1/cvscheck.1.gz
+* /usr/share/man/ru/man1/cvslastchange.1.gz
+* /usr/share/man/ru/man1/cvslastlog.1.gz
+* /usr/share/man/ru/man1/cvsrevertlast.1.gz
+* /usr/share/man/ru/man1/cxxmetric.1.gz
+* /usr/share/man/ru/man1/extend_dmalloc.1.gz
+* /usr/share/man/ru/man1/extractrc.1.gz
+* /usr/share/man/ru/man1/fixincludes.1.gz
+* /usr/share/man/ru/man1/pruneemptydirs.1.gz
+* /usr/share/man/ru/man1/zonetab2pot.py.1.gz
 * /usr/share/man/sv/man1/adddebug.1.gz
 * /usr/share/man/sv/man1/cheatmake.1.gz
 * /usr/share/man/sv/man1/create_cvsignore.1.gz
@@ -290,9 +275,6 @@ Scripts and setting files useful during development of KDE software
 * /usr/share/man/sv/man1/extractrc.1.gz
 * /usr/share/man/sv/man1/fixincludes.1.gz
 * /usr/share/man/sv/man1/pruneemptydirs.1.gz
-* /usr/share/man/sv/man1/qtdoc.1.gz
-* /usr/share/man/sv/man1/reportview.1.gz
-* /usr/share/man/sv/man1/transxx.1.gz
 * /usr/share/man/sv/man1/zonetab2pot.py.1.gz
 * /usr/share/man/uk/man1/adddebug.1.gz
 * /usr/share/man/uk/man1/cheatmake.1.gz
@@ -308,9 +290,6 @@ Scripts and setting files useful during development of KDE software
 * /usr/share/man/uk/man1/extractrc.1.gz
 * /usr/share/man/uk/man1/fixincludes.1.gz
 * /usr/share/man/uk/man1/pruneemptydirs.1.gz
-* /usr/share/man/uk/man1/qtdoc.1.gz
-* /usr/share/man/uk/man1/reportview.1.gz
-* /usr/share/man/uk/man1/transxx.1.gz
 * /usr/share/man/uk/man1/zonetab2pot.py.1.gz
 * /usr/share/uncrustify/uncrustify-kf5.cfg
 * /usr/share/uncrustify/uncrustify-qt.cfg

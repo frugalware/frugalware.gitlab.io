@@ -12,7 +12,7 @@ size = "74200"
 usize = "256467"
 sha1sum = "d9d2cd4cca28b734b7b5ca09958a788bd0fa4e4a"
 depends = "['glibc>=2.34']"
-reverse_depends = "['hw-probe', 'inxi', 'libvirt']"
+reverse_depends = "['hw-probe', 'inxi', 'kinfocenter', 'libvirt']"
 +++
 ### Description: 
 Desktop Management Interface (DMI) table related utilities.

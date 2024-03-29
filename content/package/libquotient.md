@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libquotient 0.8.1.2-2"
-version = "0.8.1.2-2"
+title = "libquotient 0.8.1.2-4"
+version = "0.8.1.2-4"
 description = "A Qt library to write cross-platform clients for Matrix"
-date = "2023-10-27T16:03:33"
+date = "2024-03-27T13:21:03"
 aliases = "/packages/220989"
 categories = ['lib-extra']
 upstreamurl = "https://matrix.org/docs/projects/sdk/quotient"
 arch = "x86_64"
-size = "545944"
-usize = "2301767"
-sha1sum = "af15012869e2e109522d3cce5a4cfd12c8817bb2"
-depends = "['qt5-multimedia>=5.15.10', 'qtkeychain']"
+size = "745804"
+usize = "3074623"
+sha1sum = "920ff446b4a1a8f07f68c386d243b41bec34c59f"
+depends = "['qt6-multimedia', 'qtkeychain']"
 reverse_depends = "['neochat']"
 +++
 ### Description: 
@@ -176,14 +176,14 @@ A Qt library to write cross-platform clients for Matrix
 * /usr/include/Quotient/uriresolver.h
 * /usr/include/Quotient/user.h
 * /usr/include/Quotient/util.h
-* /usr/lib/cmake/Quotient/QuotientConfig.cmake
-* /usr/lib/cmake/Quotient/QuotientConfigVersion.cmake
-* /usr/lib/cmake/Quotient/QuotientTargets-release.cmake
-* /usr/lib/cmake/Quotient/QuotientTargets.cmake
-* /usr/lib/libQuotient.so
-* /usr/lib/libQuotient.so.0.8
-* /usr/lib/libQuotient.so.0.8.1.2
-* /usr/lib/pkgconfig/Quotient.pc
+* /usr/lib/cmake/QuotientQt6/QuotientQt6Config.cmake
+* /usr/lib/cmake/QuotientQt6/QuotientQt6ConfigVersion.cmake
+* /usr/lib/cmake/QuotientQt6/QuotientQt6Targets-release.cmake
+* /usr/lib/cmake/QuotientQt6/QuotientQt6Targets.cmake
+* /usr/lib/libQuotientQt6.so
+* /usr/lib/libQuotientQt6.so.0.8
+* /usr/lib/libQuotientQt6.so.0.8.1.2
+* /usr/lib/pkgconfig/QuotientQt6.pc
 * /usr/share/doc/libquotient-0.8.1.2/COPYING
 * /usr/share/doc/libquotient-0.8.1.2/README.md
 * /usr/share/ndk-modules/Android.mk

@@ -12,7 +12,7 @@ size = "71820"
 usize = "266259"
 sha1sum = "3ccb6512ae027010797d23993e71dda8b7701916"
 depends = "['glibc>=2.34']"
-reverse_depends = "['guvcview', 'kinfocenter5', 'libavc1394', 'libdc1394', 'libiec61883']"
+reverse_depends = "['guvcview', 'kinfocenter', 'kinfocenter5', 'libavc1394', 'libdc1394', 'libiec61883']"
 +++
 ### Description: 
 Provides an API to the Linux IEEE1394 (FireWire) driver

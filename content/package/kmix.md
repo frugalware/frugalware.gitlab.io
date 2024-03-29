@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmix 23.08.5-1"
-version = "23.08.5-1"
+title = "kmix 24.02.1-1"
+version = "24.02.1-1"
 description = "KDE volume control program"
-date = "2024-02-19T21:27:37"
+date = "2024-03-22T10:27:13"
 aliases = "/packages/219009"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1311780"
-usize = "3206323"
-sha1sum = "f1a437bdb0a774f21926c31f8375dd48e12e52c0"
-depends = "['kdelibs4support>=5.115.0', 'libcanberra', 'plasma-framework>=5.115.0']"
+size = "1311456"
+usize = "3207125"
+sha1sum = "d25cda3c581a0e49482b3806808f7631d755f656"
+depends = "['kdelibs4support5>=5.115.0', 'libcanberra']"
 +++
 ### Description: 
 KDE volume control program
@@ -22,7 +22,7 @@ KDE volume control program
 * /usr/bin/kmix
 * /usr/bin/kmixctrl
 * /usr/bin/kmixremote
-* /usr/lib/libkmixcore.so.23.08.5
+* /usr/lib/libkmixcore.so.24.02.1
 * /usr/lib/libkmixcore.so.5
 * /usr/lib/qt5/plugins/kf5/kded/kmixd.so
 * /usr/share/applications/org.kde.kmix.desktop
@@ -108,13 +108,13 @@ KDE volume control program
 * /usr/share/doc/HTML/uk/kmix/kmix-master.png
 * /usr/share/doc/HTML/uk/kmix/kmix-options.png
 * /usr/share/doc/HTML/uk/kmix/kmix.png
-* /usr/share/doc/kmix-23.08.5/AUTHORS
-* /usr/share/doc/kmix-23.08.5/ChangeLog
-* /usr/share/doc/kmix-23.08.5/COPYING
-* /usr/share/doc/kmix-23.08.5/COPYING.DOC
-* /usr/share/doc/kmix-23.08.5/COPYING.LIB
-* /usr/share/doc/kmix-23.08.5/README.oss4
-* /usr/share/doc/kmix-23.08.5/TODO
+* /usr/share/doc/kmix-24.02.1/AUTHORS
+* /usr/share/doc/kmix-24.02.1/ChangeLog
+* /usr/share/doc/kmix-24.02.1/COPYING
+* /usr/share/doc/kmix-24.02.1/COPYING.DOC
+* /usr/share/doc/kmix-24.02.1/COPYING.LIB
+* /usr/share/doc/kmix-24.02.1/README.oss4
+* /usr/share/doc/kmix-24.02.1/TODO
 * /usr/share/icons/hicolor/128x128/actions/kmix.png
 * /usr/share/icons/hicolor/16x16/actions/kmix.png
 * /usr/share/icons/hicolor/32x32/actions/kmix.png

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nitroshare 0.3.4-2"
-version = "0.3.4-2"
+title = "nitroshare 0.3.4-3"
+version = "0.3.4-3"
 description = "LAN file sender application, designed to make transferring files from one device to another extremely simple"
-date = "2023-10-21T18:17:59"
+date = "2024-03-28T15:14:48"
 aliases = "/packages/221084"
 categories = ['network-extra']
 upstreamurl = "https://nitroshare.net"
 arch = "x86_64"
-size = "169660"
+size = "169892"
 usize = "564368"
-sha1sum = "268f7616c9ba3b63191751180ee1adc1b7ca06c5"
+sha1sum = "58234e8f380c292e8f5c8c4e3ab9ea8c0908c140"
 depends = "['hicolor-icon-theme', 'python3', 'qhttpengine', 'qmdnsengine', 'qt5-svg']"
 +++
 ### Description: 

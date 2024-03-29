@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdeedu-data 23.08.5-1"
-version = "23.08.5-1"
+title = "kdeedu-data 24.02.1-1"
+version = "24.02.1-1"
 description = "Common libraries for KDE Edu release-service"
-date = "2024-02-19T22:58:36"
+date = "2024-03-22T10:43:53"
 aliases = "/packages/218297"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "330768"
-usize = "4226450"
-sha1sum = "984acf68b0710a99b854faccefcf2aa838b31577"
+size = "336388"
+usize = "4291193"
+sha1sum = "1d0743e8e9fc748103aa41e8d3430f38d8471132"
 depends = "['qt5-base>=5.15.12']"
 reverse_depends = "['libkeduvocdocument']"
 +++
@@ -134,6 +134,10 @@ Common libraries for KDE Edu release-service
 * /usr/share/apps/kvtml/en_GB/transportation.kvtml
 * /usr/share/apps/kvtml/en_GB/vegetables.kvtml
 * /usr/share/apps/kvtml/en_GB/worldcapitals.kvtml
+* /usr/share/apps/kvtml/eo/animals.kvtml
+* /usr/share/apps/kvtml/eo/easy.kvtml
+* /usr/share/apps/kvtml/eo/hard.kvtml
+* /usr/share/apps/kvtml/eo/medium.kvtml
 * /usr/share/apps/kvtml/es/animals.kvtml
 * /usr/share/apps/kvtml/es/computadoras.kvtml
 * /usr/share/apps/kvtml/es/deportes.kvtml
@@ -384,7 +388,7 @@ Common libraries for KDE Edu release-service
 * /usr/share/apps/kvtml/uk/transportation.kvtml
 * /usr/share/apps/kvtml/uk/vegetables.kvtml
 * /usr/share/apps/kvtml/uk/worldcapitals.kvtml
-* /usr/share/doc/kdeedu-data-23.08.5/COPYING
+* /usr/share/doc/kdeedu-data-24.02.1/COPYING
 * /usr/share/icons/hicolor/16x16/actions/editplots.png
 * /usr/share/icons/hicolor/16x16/actions/functionhelp.png
 * /usr/share/icons/hicolor/16x16/actions/integral_func.png

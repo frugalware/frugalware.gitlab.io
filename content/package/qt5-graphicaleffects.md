@@ -12,7 +12,7 @@ size = "72088"
 usize = "581270"
 sha1sum = "81341969e6794ef7ee52076f0735914d1ddb5a56"
 depends = "['qt5-declarative>=5.15.12']"
-reverse_depends = "['kirigami2', 'meshroom', 'plank-player', 'plasma-desktop']"
+reverse_depends = "['kirigami2', 'kirigami25', 'meshroom', 'plank-player', 'plasma-desktop']"
 +++
 ### Description: 
 The Qt5 toolkit, qtgraphicaleffects

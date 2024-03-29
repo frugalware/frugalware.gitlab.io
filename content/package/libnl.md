@@ -12,7 +12,7 @@ size = "382864"
 usize = "2219753"
 sha1sum = "78b961c9b4b097158209ce7666d821ac878b1868"
 depends = "['glibc>=2.34']"
-reverse_depends = "['aircrack-ng', 'criu', 'hostapd', 'i3status', 'iw', 'ksysguard5', 'libksysguard5', 'libvirt', 'networkmanager', 'powertop', 'quota-tools', 'rdma-core', 'wavemon', 'wireshark', 'wireshark-qt', 'wpa_supplicant']"
+reverse_depends = "['aircrack-ng', 'criu', 'hostapd', 'i3status', 'iw', 'ksysguard5', 'libksysguard', 'libksysguard5', 'libvirt', 'networkmanager', 'powertop', 'quota-tools', 'rdma-core', 'wavemon', 'wireshark', 'wireshark-qt', 'wpa_supplicant']"
 +++
 ### Description: 
 A library to ease the use of netlink sockets

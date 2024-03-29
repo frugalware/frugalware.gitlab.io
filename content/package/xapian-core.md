@@ -12,7 +12,7 @@ size = "2439872"
 usize = "11736304"
 sha1sum = "90e0c0478d29744f88d61cfc9e32ceb538688887"
 depends = "['libstdc++>=12.2', 'libuuid>=2.28.2-2', 'zlib>=1.2.12']"
-reverse_depends = "['akonadi-search', 'khelpcenter5']"
+reverse_depends = "['akonadi-search', 'khelpcenter', 'khelpcenter5']"
 license = "GPL"
 +++
 ### Description: 

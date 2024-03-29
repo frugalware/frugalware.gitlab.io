@@ -12,7 +12,7 @@ size = "71545812"
 usize = "230799721"
 sha1sum = "2ed314b396dc3dcd6f6c167f5c6663df9dce2d58"
 depends = "['ffmpeg>=6.0', 'libepoxy', 'libevent', 'libgbm', 'libjpeg-turbo', 'libkrb5', 'libxcomposite', 'libxcursor', 'libxrandr', 'libxshmfence', 'libxslt', 'nss', 'opus', 'qt6-positioning', 'qt6-webchannel', 'snappy']"
-reverse_depends = "['pyqt6webengine', 'qt6-webview', 'qtcreator', 'seafile-client']"
+reverse_depends = "['khelpcenter', 'libksysguard', 'pyqt6webengine', 'qt6-webview', 'qtcreator', 'seafile-client']"
 +++
 ### Description: 
 The Qt6 toolkit, qtwebengine

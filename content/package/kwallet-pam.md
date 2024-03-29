@@ -1,24 +1,24 @@
 +++
 draft = false
-title = "kwallet-pam 5.27.10-6"
-version = "5.27.10-6"
+title = "kwallet-pam 6.0.3-1"
+version = "6.0.3-1"
 description = "KWallet PAM integration"
-date = "2024-02-19T12:22:19"
+date = "2024-03-27T08:40:46"
 aliases = "/packages/218359"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "15544"
-usize = "32785"
-sha1sum = "bb20010749383919ecbfd82c1ad36989f9a5c2f3"
-depends = "['kwallet5>=5.115.0', 'libgcrypt>=1.7.3-2', 'pam>=1.1.8-4', 'socat>=1.7.3.1-2']"
+size = "15612"
+usize = "33151"
+sha1sum = "4b504697576953a5819cbf59bb3e47d250ef5694"
+depends = "['kwallet>=6.0.0', 'libgcrypt>=1.7.3-2', 'pam>=1.1.8-4', 'socat>=1.7.3.1-2']"
 +++
 ### Description: 
 KWallet PAM integration
 
 ### Files: 
 * /etc/xdg/autostart/pam_kwallet_init.desktop
-* /usr/lib/kf5/pam_kwallet_init
+* /usr/lib/kwallet-pam/pam_kwallet_init
 * /usr/lib/security/pam_kwallet5.so
 * /usr/lib/systemd/user/plasma-kwallet-pam.service
-* /usr/share/doc/kwallet-pam-5.27.10/README.txt
+* /usr/share/doc/kwallet-pam-6.0.3/README.txt

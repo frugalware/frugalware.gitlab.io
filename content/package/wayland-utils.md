@@ -12,7 +12,7 @@ size = "16020"
 usize = "60132"
 sha1sum = "a1dbd595162628f8a0052e6d331d44893733e57d"
 depends = "['libdrm', 'wayland']"
-reverse_depends = "['kinfocenter5']"
+reverse_depends = "['kinfocenter', 'kinfocenter5']"
 +++
 ### Description: 
 Wayland tools to display information about current compositor

@@ -1,35 +1,34 @@
 +++
 draft = false
-title = "kcrash 5.115.0-1"
-version = "5.115.0-1"
+title = "kcrash 6.0.0-2"
+version = "6.0.0-2"
 description = "Gracefull handling of application crashes."
-date = "2024-02-19T10:29:31"
+date = "2024-03-26T23:23:22"
 aliases = "/packages/218287"
-categories = ['kf5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "22412"
-usize = "59352"
-sha1sum = "4898577debb5812ae81e12a34b6988be3e5acdfa"
-depends = "['kcoreaddons>=5.115.0', 'kwindowsystem>=5.115.0']"
-reverse_depends = "['audiotube', 'dolphin', 'kopete', 'krita', 'kservice', 'polkit-kde-agent-1', 'sweeper', 'telly-skout']"
+size = "20396"
+usize = "65702"
+sha1sum = "8b4c52382ad4f6d761b3756f5fb1f12bd6cff5a7"
+depends = "['kcoreaddons>=6.0.0', 'kwindowsystem>=6.0.0']"
+reverse_depends = "['audiotube', 'dolphin', 'kglobalacceld', 'kopete', 'krita', 'kservice', 'kwin', 'polkit-kde-agent-1', 'sweeper', 'telly-skout']"
 +++
 ### Description: 
 Gracefull handling of application crashes.
 
 ### Files: 
-* /usr/include/KF5/KCrash/KCrash
-* /usr/include/KF5/KCrash/kcrash.h
-* /usr/include/KF5/KCrash/kcrash_export.h
-* /usr/include/KF5/KCrash/kcrash_version.h
-* /usr/lib/cmake/KF5Crash/KF5CrashConfig.cmake
-* /usr/lib/cmake/KF5Crash/KF5CrashConfigVersion.cmake
-* /usr/lib/cmake/KF5Crash/KF5CrashTargets-release.cmake
-* /usr/lib/cmake/KF5Crash/KF5CrashTargets.cmake
-* /usr/lib/libKF5Crash.so
-* /usr/lib/libKF5Crash.so.5
-* /usr/lib/libKF5Crash.so.5.115.0
-* /usr/share/doc/kcrash-5.115.0/README.md
-* /usr/share/qlogging-categories5/kcrash.categories
-* /usr/share/qlogging-categories5/kcrash.renamecategories
-* /usr/share/qt5/mkspecs/modules/qt_KCrash.pri
+* /usr/include/KF6/KCrash/KCrash
+* /usr/include/KF6/KCrash/kcrash.h
+* /usr/include/KF6/KCrash/kcrash_export.h
+* /usr/include/KF6/KCrash/kcrash_version.h
+* /usr/lib/cmake/KF6Crash/KF6CrashConfig.cmake
+* /usr/lib/cmake/KF6Crash/KF6CrashConfigVersion.cmake
+* /usr/lib/cmake/KF6Crash/KF6CrashTargets-release.cmake
+* /usr/lib/cmake/KF6Crash/KF6CrashTargets.cmake
+* /usr/lib/libKF6Crash.so
+* /usr/lib/libKF6Crash.so.6
+* /usr/lib/libKF6Crash.so.6.0.0
+* /usr/share/doc/kcrash-6.0.0/README.md
+* /usr/share/qlogging-categories6/kcrash.categories
+* /usr/share/qlogging-categories6/kcrash.renamecategories

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "liblastfm 1.1.0-7"
-version = "1.1.0-7"
+title = "liblastfm 1.1.0-8"
+version = "1.1.0-8"
 description = "A collection of libraries to help you integrate Last.fm services into your rich desktop software."
-date = "2023-10-21T18:04:05"
+date = "2024-03-28T17:29:23"
 aliases = "/packages/74091"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/lastfm/liblastfm"
 arch = "x86_64"
-size = "181100"
+size = "180924"
 usize = "601457"
-sha1sum = "8be30691bc1d4b12e69fabab0d590ee1e1a9ca28"
+sha1sum = "e0b6482b532fb6c3b9edce29b5da3b7969fb627f"
 depends = "['libsamplerate', 'qt5-base>=5.15.10']"
 +++
 ### Description: 

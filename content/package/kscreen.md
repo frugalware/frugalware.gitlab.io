@@ -1,0 +1,190 @@
++++
+draft = false
+title = "kscreen 6.0.3-1"
+version = "6.0.3-1"
+description = "KDE's screen management utility."
+date = "2024-03-27T08:09:27"
+aliases = "/packages/221347"
+categories = ['plasma']
+upstreamurl = "http://www.kde.org"
+arch = "x86_64"
+size = "267816"
+usize = "1171692"
+sha1sum = "94c56d109bacae1e328be5b36cb571526aabcd70"
+depends = "['layer-shell-qt>=6.0.3', 'qt6-sensors>=6.6.3']"
+reverse_depends = "['kscreenlocker']"
++++
+### Description: 
+KDE's screen management utility.
+
+### Files: 
+* /usr/bin/kscreen-console
+* /usr/lib/kscreen/kscreen_osd_service
+* /usr/lib/qt6/plugins/kf6/kded/kscreen.so
+* /usr/lib/qt6/plugins/plasma/applets/org.kde.kscreen.so
+* /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_kscreen.so
+* /usr/lib/systemd/user/plasma-kscreen-osd.service
+* /usr/share/applications/kcm_kscreen.desktop
+* /usr/share/dbus-1/services/org.kde.kscreen.osdService.service
+* /usr/share/doc/kscreen-6.0.3/README.md
+* /usr/share/kglobalaccel/org.kde.kscreen.desktop
+* /usr/share/locale/ar/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/ar/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/ast/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/ast/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/az/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/az/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/az/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/bg/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/bg/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/bg/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/bs/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/ca/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/ca/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/ca/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/cs/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/cs/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/cs/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/da/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/da/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/da/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/de/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/de/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/de/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/el/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/el/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/el/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/eo/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/eo/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/eo/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/es/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/es/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/es/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/et/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/et/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/et/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/eu/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/eu/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/eu/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/fi/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/fi/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/fi/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/fr/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/fr/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/fr/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/gl/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/gl/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/gl/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/he/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/he/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/he/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/hsb/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/hsb/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/hsb/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/hu/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/hu/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/hu/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/ia/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/ia/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/ia/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/id/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/id/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/id/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/is/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/is/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/is/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/it/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/it/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/it/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/ja/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/ja/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/ja/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/ka/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/ka/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/ka/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/ko/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/ko/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/ko/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/lt/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/lt/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/lt/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/lv/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/ml/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/ml/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/nb/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/nb/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/nl/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/nl/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/nl/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/nn/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/nn/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/nn/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/pa/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/pa/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/pa/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/pl/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/pl/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/pl/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/pt/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/pt/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/pt/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/ro/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/ro/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/ro/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/ru/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/ru/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/ru/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/sk/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/sk/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/sk/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/sl/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/sl/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/sl/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/sr/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/sr/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/sv/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/sv/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/sv/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/ta/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/ta/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/ta/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/tg/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/tg/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/tg/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/tr/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/tr/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/tr/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/uk/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/uk/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/uk/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/metainfo/org.kde.kscreen.appdata.xml
+* /usr/share/plasma/plasmoids/org.kde.kscreen/contents/ui/InhibitionHint.qml
+* /usr/share/plasma/plasmoids/org.kde.kscreen/contents/ui/main.qml
+* /usr/share/plasma/plasmoids/org.kde.kscreen/contents/ui/PresentationModeItem.qml
+* /usr/share/plasma/plasmoids/org.kde.kscreen/contents/ui/ScreenLayoutSelection.qml
+* /usr/share/plasma/plasmoids/org.kde.kscreen/metadata.json
+* /usr/share/qlogging-categories6/kscreen.categories

@@ -12,6 +12,7 @@ size = "89316"
 usize = "428721"
 sha1sum = "31ebed8ee4b62ca743fed90ffe992c8ab582aae6"
 depends = "['qt6-declarative', 'qt6-multimedia', 'speech-dispatcher']"
+reverse_depends = "['knotifications', 'ktextwidgets']"
 +++
 ### Description: 
 The Qt6 toolkit, qtspeech

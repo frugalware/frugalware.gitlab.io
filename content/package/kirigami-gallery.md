@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kirigami-gallery 23.08.5-1"
-version = "23.08.5-1"
+title = "kirigami-gallery 24.02.1-1"
+version = "24.02.1-1"
 description = "Gallery application built using Kirigami"
-date = "2024-02-20T14:57:59"
+date = "2024-03-25T13:59:12"
 aliases = "/packages/220979"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "278216"
-usize = "801656"
-sha1sum = "81d0b9eee6a333be1c7b9b6dda6d648bda4949a9"
-depends = "['kirigami2', 'kitemmodels']"
+size = "281896"
+usize = "819401"
+sha1sum = "d42051d6c6181fc7417a1f4fcae681a9fb606bfe"
+depends = "[]"
 +++
 ### Description: 
 Gallery application built using Kirigami
@@ -19,7 +19,7 @@ Gallery application built using Kirigami
 ### Files: 
 * /usr/bin/kirigami2gallery
 * /usr/share/applications/org.kde.kirigami2.gallery.desktop
-* /usr/share/doc/kirigami-gallery-23.08.5/README.md
+* /usr/share/doc/kirigami-gallery-24.02.1/README.md
 * /usr/share/locale/ca/LC_MESSAGES/kirigamigallery_qt.qm
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kirigamigallery_qt.qm
 * /usr/share/locale/cs/LC_MESSAGES/kirigamigallery_qt.qm

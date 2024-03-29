@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kfilemetadata5 5.115.0-1"
-version = "5.115.0-1"
+title = "kfilemetadata5 5.115.0-3"
+version = "5.115.0-3"
 description = "A library for extracting file metadata."
-date = "2024-02-19T10:42:58"
+date = "2024-03-15T11:26:34"
 aliases = "/packages/218307"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "186776"
+size = "187116"
 usize = "1143807"
-sha1sum = "6fe6f432d6d61b8c9ccb53bc9a453a197f09ac83"
-depends = "['catdoc>=0.95-3', 'ebook-tools>=0.2.2-6', 'exiv2>=0.28.1', 'ffmpeg>=6.0', 'karchive>=5.115.0', 'kcoreaddons>=5.115.0', 'ki18n>=5.115.0', 'poppler-qt5>=0.62.0', 'qt5-multimedia>=5.10.0', 'taglib>=2.0']"
+sha1sum = "9d72888c5065e2b96eb9b22192a93b929b3eee1f"
+depends = "['catdoc>=0.95-3', 'ebook-tools>=0.2.2-6', 'exiv2>=0.28.1', 'ffmpeg>=6.0', 'karchive5>=5.115.0', 'kcoreaddons5>=5.115.0', 'poppler-qt5>=0.62.0', 'qt5-multimedia>=5.10.0', 'taglib>=2.0']"
 reverse_depends = "['baloo5', 'digikam', 'digikam', 'dolphin', 'k3b', 'kdenlive', 'kfind', 'koko', 'plasma-browser-integration']"
 +++
 ### Description: 

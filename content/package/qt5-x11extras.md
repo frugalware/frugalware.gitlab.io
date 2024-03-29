@@ -12,7 +12,7 @@ size = "14288"
 usize = "41893"
 sha1sum = "03e78aed9c150cd34951f84b4f01f3905b60c0cc"
 depends = "['qt5-base>=5.15.12']"
-reverse_depends = "['disman', 'falkon', 'kaccounts-integration', 'kbruch', 'kconfigwidgets', 'kdbusaddons', 'kdebugsettings', 'kdeplasma-addons5', 'keepassxc', 'kgeography', 'kguiaddons', 'kidletime', 'kjobwidgets', 'krfb', 'kvirc', 'kwindowsystem', 'kxmlgui', 'libkipi', 'libkmahjongg', 'libkscreen5', 'libportal-qt5', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'lumina-desktop', 'mixxx', 'phonon-backend-gstreamer', 'qownnotes', 'qqc2-desktop-style', 'qterminal', 'qtractor', 'signon-kwallet-extension', 'ssr', 'virtualbox', 'vlc', 'vokoscreenng', 'vtk-qt5']"
+reverse_depends = "['disman', 'falkon', 'kaccounts-integration', 'kbruch', 'kconfigwidgets5', 'kdbusaddons5', 'kdebugsettings', 'kdeplasma-addons5', 'keepassxc', 'kgeography', 'kguiaddons5', 'kidletime5', 'kjobwidgets5', 'krfb', 'kvirc', 'kwindowsystem5', 'kxmlgui5', 'libkipi', 'libkmahjongg', 'libkscreen5', 'libportal-qt5', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'lumina-desktop', 'mixxx', 'phonon-backend-gstreamer', 'qownnotes', 'qqc2-desktop-style', 'qterminal', 'qtractor', 'signon-kwallet-extension', 'ssr', 'virtualbox', 'vlc', 'vokoscreenng', 'vtk-qt5']"
 +++
 ### Description: 
 The Qt5 toolkit, qtx11extras

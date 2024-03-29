@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "krunner5 5.115.0-1"
-version = "5.115.0-1"
+title = "krunner5 5.115.0-2"
+version = "5.115.0-2"
 description = "Framework for providing different actions given a string query."
-date = "2024-02-19T11:38:13"
+date = "2024-03-15T10:20:39"
 aliases = "/packages/218348"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "149232"
-usize = "448263"
-sha1sum = "460d32abd01e2fe66c81d7943cdcd6b53e6523d8"
-depends = "['plasma-framework>=5.115.0', 'threadweaver>=5.115.0']"
-reverse_depends = "['akonadi-search', 'kdeplasma-addons5', 'kdevelop', 'kwin5', 'libmarble', 'milou', 'plasma-browser-integration', 'plasma-desktop', 'plasma-workspace', 'skrooge']"
+size = "149864"
+usize = "448256"
+sha1sum = "f3b27894689fa4acb9479246c2e471a707beb766"
+depends = "[]"
+reverse_depends = "['akonadi-search', 'kdeplasma-addons5', 'kdevelop', 'kwin5', 'libmarble', 'plasma-browser-integration', 'plasma-desktop', 'plasma-workspace', 'skrooge']"
 +++
 ### Description: 
 Framework for providing different actions given a string query.

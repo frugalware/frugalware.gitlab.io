@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libopenrazer 0.2.0-1"
-version = "0.2.0-1"
+title = "libopenrazer 0.2.0-2"
+version = "0.2.0-2"
 description = "Qt wrapper around the D-Bus API from OpenRazer"
-date = "2023-11-05T21:34:52"
+date = "2024-03-28T19:01:51"
 aliases = "/packages/220871"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/z3ntu/libopenrazer"
 arch = "x86_64"
-size = "85976"
-usize = "336250"
-sha1sum = "10b0f20a42c9b9ef23c095f6425c6449a0b2647c"
+size = "84688"
+usize = "333774"
+sha1sum = "05e63b8fa211242a59682b3a4c76943f19c7317f"
 depends = "['openrazer', 'qt5-base>=5.15.10']"
 reverse_depends = "['razergenie']"
 +++
@@ -30,4 +30,3 @@ Qt wrapper around the D-Bus API from OpenRazer
 * /usr/lib/libopenrazer.so.0
 * /usr/lib/libopenrazer.so.0.2.0
 * /usr/lib/pkgconfig/libopenrazer.pc
-* /usr/share/doc/libopenrazer-0.2.0/README.md

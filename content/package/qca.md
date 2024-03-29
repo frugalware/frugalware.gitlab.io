@@ -12,7 +12,7 @@ size = "508068"
 usize = "2092018"
 sha1sum = "a1182c70be2a9850315e79b6d259c4e635f18ce5"
 depends = "['cyrus-sasl>=2.1.26-3', 'nss>=3.26', 'qt5-base>=5.15.10']"
-reverse_depends = "['kdeconnect-kde', 'kdepim-runtime', 'kdevelop', 'konversation', 'kopete', 'kpmcore', 'ksirk', 'kwallet5', 'libktorrent', 'messagelib', 'okteta', 'plasma-nm', 'qca-botan', 'qca-cyrus-sasl', 'qca-gcrypt', 'qca-gnupg', 'qca-nss', 'qca-ossl', 'quassel', 'skrooge']"
+reverse_depends = "['kdeconnect-kde', 'kdepim-runtime', 'konversation', 'kopete', 'kpmcore', 'ksirk', 'kwallet', 'kwallet5', 'libktorrent', 'messagelib', 'okteta', 'plasma-nm', 'qca-botan', 'qca-cyrus-sasl', 'qca-gcrypt', 'qca-gnupg', 'qca-nss', 'qca-ossl', 'quassel', 'skrooge']"
 license = "2.1"
 +++
 ### Description: 

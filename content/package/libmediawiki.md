@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libmediawiki 5.38.0-1"
-version = "5.38.0-1"
+title = "libmediawiki 5.38.0-2"
+version = "5.38.0-2"
 description = "A KDE C++ interface for MediaWiki based web service."
-date = "2022-09-12T15:07:32"
+date = "2024-03-18T12:40:37"
 aliases = "/packages/218375"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "78444"
-usize = "365040"
-sha1sum = "5c504b217f37956d478acdd67ab18959308e33a2"
-depends = "['kcoreaddons>=5.97.0']"
+size = "87240"
+usize = "385901"
+sha1sum = "4d933a568c815ecb64514efe15c1971ef6466483"
+depends = "['kcoreaddons5>=5.115.0']"
 +++
 ### Description: 
 A KDE C++ interface for MediaWiki based web service.
@@ -70,5 +70,7 @@ A KDE C++ interface for MediaWiki based web service.
 * /usr/share/doc/libmediawiki-5.38.0/COPYING
 * /usr/share/doc/libmediawiki-5.38.0/COPYING-CMAKE-SCRIPTS
 * /usr/share/doc/libmediawiki-5.38.0/COPYING.LIB
+* /usr/share/doc/libmediawiki-5.38.0/INSTALL
 * /usr/share/doc/libmediawiki-5.38.0/README.md
+* /usr/share/doc/libmediawiki-5.38.0/RELEASES
 * /usr/share/qt5/mkspecs/modules/qt_MediaWiki.pri

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "meshroom 2023.3.0-1"
-version = "2023.3.0-1"
+title = "meshroom 2023.3.0-2"
+version = "2023.3.0-2"
 description = "3D Reconstruction Software"
-date = "2023-12-14T17:51:00"
+date = "2024-03-28T15:50:10"
 aliases = "/packages/220139"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/alicevision/meshroom"
 arch = "x86_64"
-size = "13129572"
-usize = "48732731"
-sha1sum = "b8ee168c97bc93c4d46b69a2a500e2646a9240b4"
+size = "13545252"
+usize = "48815120"
+sha1sum = "4235c4f87fd05f1f3d328958498ca425e3b57682"
 depends = "['alicevision', 'libffi>=3.4', 'python3>=3.11', 'python3-markdown', 'python3-psutil', 'qmlalembic', 'qt5-3d>=5.15.10', 'qt5-graphicaleffects>=5.15.10', 'qt5-imageformats>=5.15.10', 'qt5-location>=5.15.10', 'qt5-quickcontrols>=5.15.10', 'qt5-quickcontrols2>=5.15.10', 'qt5-svg>=5.15.10', 'qtoiio']"
 +++
 ### Description: 
@@ -280,11 +280,11 @@ depends = "['alicevision', 'libffi>=3.4', 'python3>=3.11', 'python3-markdown', '
 * /usr/lib/Meshroom-2023.3.0/lib/libbz2.so.1.0.8
 * /usr/lib/Meshroom-2023.3.0/lib/libcrypto.so.3
 * /usr/lib/Meshroom-2023.3.0/lib/libffi.so.8
-* /usr/lib/Meshroom-2023.3.0/lib/libffi.so.8.1.2
+* /usr/lib/Meshroom-2023.3.0/lib/libffi.so.8.1.3
 * /usr/lib/Meshroom-2023.3.0/lib/liblzma.so.5
-* /usr/lib/Meshroom-2023.3.0/lib/liblzma.so.5.4.5
-* /usr/lib/Meshroom-2023.3.0/lib/libmpdec.so.2.5.1
-* /usr/lib/Meshroom-2023.3.0/lib/libmpdec.so.3
+* /usr/lib/Meshroom-2023.3.0/lib/liblzma.so.5.6.1
+* /usr/lib/Meshroom-2023.3.0/lib/libmpdec.so.4
+* /usr/lib/Meshroom-2023.3.0/lib/libmpdec.so.4.0.0
 * /usr/lib/Meshroom-2023.3.0/lib/libncurses.so.6
 * /usr/lib/Meshroom-2023.3.0/lib/libncurses.so.6.4
 * /usr/lib/Meshroom-2023.3.0/lib/libncursesw.so.6
@@ -700,6 +700,9 @@ depends = "['alicevision', 'libffi>=3.4', 'python3>=3.11', 'python3-markdown', '
 * /usr/lib/Meshroom-2023.3.0/lib/setuptools/command/upload_docs.pyc
 * /usr/lib/Meshroom-2023.3.0/lib/setuptools/command/_requirestxt.pyc
 * /usr/lib/Meshroom-2023.3.0/lib/setuptools/command/__init__.pyc
+* /usr/lib/Meshroom-2023.3.0/lib/setuptools/compat/py310.pyc
+* /usr/lib/Meshroom-2023.3.0/lib/setuptools/compat/py311.pyc
+* /usr/lib/Meshroom-2023.3.0/lib/setuptools/compat/__init__.pyc
 * /usr/lib/Meshroom-2023.3.0/lib/setuptools/config/expand.pyc
 * /usr/lib/Meshroom-2023.3.0/lib/setuptools/config/pyprojecttoml.pyc
 * /usr/lib/Meshroom-2023.3.0/lib/setuptools/config/setupcfg.pyc
@@ -727,7 +730,6 @@ depends = "['alicevision', 'libffi>=3.4', 'python3>=3.11', 'python3-markdown', '
 * /usr/lib/Meshroom-2023.3.0/lib/setuptools/msvc.pyc
 * /usr/lib/Meshroom-2023.3.0/lib/setuptools/namespaces.pyc
 * /usr/lib/Meshroom-2023.3.0/lib/setuptools/package_index.pyc
-* /usr/lib/Meshroom-2023.3.0/lib/setuptools/py312compat.pyc
 * /usr/lib/Meshroom-2023.3.0/lib/setuptools/sandbox.pyc
 * /usr/lib/Meshroom-2023.3.0/lib/setuptools/script (dev).tmpl
 * /usr/lib/Meshroom-2023.3.0/lib/setuptools/script.tmpl
@@ -1128,7 +1130,6 @@ depends = "['alicevision', 'libffi>=3.4', 'python3>=3.11', 'python3-markdown', '
 * /usr/lib/Meshroom-2023.3.0/lib/test/randv2_64.pck
 * /usr/lib/Meshroom-2023.3.0/lib/test/randv3.pck
 * /usr/lib/Meshroom-2023.3.0/lib/test/recursion.tar
-* /usr/lib/Meshroom-2023.3.0/lib/test/setuptools-67.6.1-py3-none-any.whl
 * /usr/lib/Meshroom-2023.3.0/lib/test/Sine-1000Hz-300ms.aif
 * /usr/lib/Meshroom-2023.3.0/lib/test/sndhdrdata/README
 * /usr/lib/Meshroom-2023.3.0/lib/test/sndhdrdata/sndhdr.8svx
@@ -1147,10 +1148,10 @@ depends = "['alicevision', 'libffi>=3.4', 'python3>=3.11', 'python3-markdown', '
 * /usr/lib/Meshroom-2023.3.0/lib/test/testtar.tar.xz
 * /usr/lib/Meshroom-2023.3.0/lib/test/test_cppext/extension.cpp
 * /usr/lib/Meshroom-2023.3.0/lib/test/test_difflib_expect.html
-* /usr/lib/Meshroom-2023.3.0/lib/test/test_doctest.txt
-* /usr/lib/Meshroom-2023.3.0/lib/test/test_doctest2.txt
-* /usr/lib/Meshroom-2023.3.0/lib/test/test_doctest3.txt
-* /usr/lib/Meshroom-2023.3.0/lib/test/test_doctest4.txt
+* /usr/lib/Meshroom-2023.3.0/lib/test/test_doctest/test_doctest.txt
+* /usr/lib/Meshroom-2023.3.0/lib/test/test_doctest/test_doctest2.txt
+* /usr/lib/Meshroom-2023.3.0/lib/test/test_doctest/test_doctest3.txt
+* /usr/lib/Meshroom-2023.3.0/lib/test/test_doctest/test_doctest4.txt
 * /usr/lib/Meshroom-2023.3.0/lib/test/test_email/data/msg_01.txt
 * /usr/lib/Meshroom-2023.3.0/lib/test/test_email/data/msg_02.txt
 * /usr/lib/Meshroom-2023.3.0/lib/test/test_email/data/msg_03.txt
@@ -1318,7 +1319,8 @@ depends = "['alicevision', 'libffi>=3.4', 'python3>=3.11', 'python3-markdown', '
 * /usr/lib/Meshroom-2023.3.0/lib/test/tokenizedata/tokenize_tests-utf8-coding-cookie-and-no-utf8-bom-sig.txt
 * /usr/lib/Meshroom-2023.3.0/lib/test/tokenizedata/tokenize_tests-utf8-coding-cookie-and-utf8-bom-sig.txt
 * /usr/lib/Meshroom-2023.3.0/lib/test/tokenizedata/tokenize_tests.txt
-* /usr/lib/Meshroom-2023.3.0/lib/test/wheel-0.40.0-py3-none-any.whl
+* /usr/lib/Meshroom-2023.3.0/lib/test/wheeldata/setuptools-67.6.1-py3-none-any.whl
+* /usr/lib/Meshroom-2023.3.0/lib/test/wheeldata/wheel-0.40.0-py3-none-any.whl
 * /usr/lib/Meshroom-2023.3.0/lib/test/xmltestdata/c14n-20/c14nComment.xml
 * /usr/lib/Meshroom-2023.3.0/lib/test/xmltestdata/c14n-20/c14nDefault.xml
 * /usr/lib/Meshroom-2023.3.0/lib/test/xmltestdata/c14n-20/c14nPrefix.xml
@@ -1387,6 +1389,10 @@ depends = "['alicevision', 'libffi>=3.4', 'python3>=3.11', 'python3-markdown', '
 * /usr/lib/Meshroom-2023.3.0/lib/test/ziptestdata/README.md
 * /usr/lib/Meshroom-2023.3.0/lib/test/zip_cp437_header.zip
 * /usr/lib/Meshroom-2023.3.0/lib/test/__init__.pyc
+* /usr/lib/Meshroom-2023.3.0/lib/tomllib/_parser.pyc
+* /usr/lib/Meshroom-2023.3.0/lib/tomllib/_re.pyc
+* /usr/lib/Meshroom-2023.3.0/lib/tomllib/_types.pyc
+* /usr/lib/Meshroom-2023.3.0/lib/tomllib/__init__.pyc
 * /usr/lib/Meshroom-2023.3.0/lib/unicodedata.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/Meshroom-2023.3.0/lib/unittest/async_case.pyc
 * /usr/lib/Meshroom-2023.3.0/lib/unittest/case.pyc

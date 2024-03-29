@@ -1,23 +1,26 @@
 +++
 draft = false
-title = "kscreenlocker 5.27.10-5"
-version = "5.27.10-5"
+title = "kscreenlocker 6.0.3-2"
+version = "6.0.3-2"
 description = "KDE Screenlocker"
-date = "2024-02-19T12:36:16"
+date = "2024-03-29T12:08:46"
 aliases = "/packages/218350"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "180644"
-usize = "793645"
-sha1sum = "19120d89b40523de40ad2fd18f99b685828242da"
-depends = "['kidletime>=', 'kscreen5>=5.27.10', 'layer-shell-qt>=5.27.10', 'libseccomp', 'systemd']"
-reverse_depends = "['kwin5']"
+size = "221032"
+usize = "935857"
+sha1sum = "a0a5c32183fd8db18c36b3fba30b3df58e5fbb5d"
+depends = "['kidletime>=', 'kscreen>=6.0.3', 'layer-shell-qt>=6.0.3', 'libseccomp', 'systemd']"
+reverse_depends = "['kwin', 'kwin5']"
 +++
 ### Description: 
 KDE Screenlocker
 
 ### Files: 
+* /etc/pam.d/kde
+* /etc/pam.d/kde-fingerprint
+* /etc/pam.d/kde-smartcard
 * /usr/include/KScreenLocker/KScreenLocker/kscreenlocker_export.h
 * /usr/include/KScreenLocker/KScreenLocker/KsldApp
 * /usr/include/KScreenLocker/KScreenLocker/ksldapp.h
@@ -26,27 +29,24 @@ KDE Screenlocker
 * /usr/lib/cmake/KScreenLocker/KScreenLockerTargets-release.cmake
 * /usr/lib/cmake/KScreenLocker/KScreenLockerTargets.cmake
 * /usr/lib/cmake/ScreenSaverDBusInterface/ScreenSaverDBusInterfaceConfig.cmake
-* /usr/lib/kf5/kscreenlocker_greet
+* /usr/lib/kscreenlocker/kscreenlocker_greet
 * /usr/lib/libKScreenLocker.so
-* /usr/lib/libKScreenLocker.so.5
-* /usr/lib/libKScreenLocker.so.5.27.10
-* /usr/lib/qt5/plugins/plasma/kcms/systemsettings/kcm_screenlocker.so
+* /usr/lib/libKScreenLocker.so.6
+* /usr/lib/libKScreenLocker.so.6.0.3
+* /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_screenlocker.so
 * /usr/share/applications/kcm_screenlocker.desktop
-* /usr/share/dbus-1/interfaces/kf5_org.freedesktop.ScreenSaver.xml
+* /usr/share/dbus-1/interfaces/kf6_org.freedesktop.ScreenSaver.xml
 * /usr/share/dbus-1/interfaces/org.kde.screensaver.xml
-* /usr/share/doc/kscreenlocker-5.27.10/COPYING
-* /usr/share/doc/kscreenlocker-5.27.10/README.pam
-* /usr/share/kconf_update/kscreenlocker.upd
-* /usr/share/kconf_update/ksreenlocker_5_3_separate_autologin.pl
-* /usr/share/knotifications5/ksmserver.notifyrc
-* /usr/share/kpackage/kcms/kcm_screenlocker/contents/ui/Appearance.qml
-* /usr/share/kpackage/kcms/kcm_screenlocker/contents/ui/LnfConfig.qml
-* /usr/share/kpackage/kcms/kcm_screenlocker/contents/ui/main.qml
-* /usr/share/kpackage/kcms/kcm_screenlocker/contents/ui/WallpaperConfig.qml
+* /usr/share/doc/kscreenlocker-6.0.3/COPYING
+* /usr/share/doc/kscreenlocker-6.0.3/README.pam
+* /usr/share/knotifications6/ksmserver.notifyrc
 * /usr/share/ksmserver/screenlocker/org.kde.passworddialog/metadata.desktop
 * /usr/share/locale/ar/LC_MESSAGES/kcm_screenlocker.mo
 * /usr/share/locale/ar/LC_MESSAGES/kscreenlocker.mo
 * /usr/share/locale/ar/LC_MESSAGES/kscreenlocker_greet.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcm_screenlocker.mo
+* /usr/share/locale/ast/LC_MESSAGES/kscreenlocker.mo
+* /usr/share/locale/ast/LC_MESSAGES/kscreenlocker_greet.mo
 * /usr/share/locale/az/LC_MESSAGES/kscreenlocker.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcm_screenlocker.mo
 * /usr/share/locale/bg/LC_MESSAGES/kscreenlocker.mo
@@ -75,6 +75,9 @@ KDE Screenlocker
 * /usr/share/locale/en_GB/LC_MESSAGES/kcm_screenlocker.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kscreenlocker.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kscreenlocker_greet.mo
+* /usr/share/locale/eo/LC_MESSAGES/kcm_screenlocker.mo
+* /usr/share/locale/eo/LC_MESSAGES/kscreenlocker.mo
+* /usr/share/locale/eo/LC_MESSAGES/kscreenlocker_greet.mo
 * /usr/share/locale/es/LC_MESSAGES/kcm_screenlocker.mo
 * /usr/share/locale/es/LC_MESSAGES/kscreenlocker.mo
 * /usr/share/locale/es/LC_MESSAGES/kscreenlocker_greet.mo
@@ -108,6 +111,9 @@ KDE Screenlocker
 * /usr/share/locale/id/LC_MESSAGES/kcm_screenlocker.mo
 * /usr/share/locale/id/LC_MESSAGES/kscreenlocker.mo
 * /usr/share/locale/id/LC_MESSAGES/kscreenlocker_greet.mo
+* /usr/share/locale/is/LC_MESSAGES/kcm_screenlocker.mo
+* /usr/share/locale/is/LC_MESSAGES/kscreenlocker.mo
+* /usr/share/locale/is/LC_MESSAGES/kscreenlocker_greet.mo
 * /usr/share/locale/it/LC_MESSAGES/kcm_screenlocker.mo
 * /usr/share/locale/it/LC_MESSAGES/kscreenlocker.mo
 * /usr/share/locale/it/LC_MESSAGES/kscreenlocker_greet.mo
@@ -204,4 +210,4 @@ KDE Screenlocker
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_screenlocker.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kscreenlocker.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kscreenlocker_greet.mo
-* /usr/share/qlogging-categories5/kscreenlocker.categories
+* /usr/share/qlogging-categories6/kscreenlocker.categories

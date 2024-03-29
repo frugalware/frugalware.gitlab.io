@@ -12,6 +12,7 @@ size = "7190956"
 usize = "45453633"
 sha1sum = "60b0ab4fd8e594ea24e8dab6f8923be75702b888"
 depends = "['appstream-glib', 'colord', 'efivar', 'fwupd-efi', 'gnu-efi', 'gpgme', 'gsettings-desktop-schemas', 'libarchive', 'libgusb', 'libjcat', 'libsmbios', 'libxmlb>=0.2.0', 'protobuf-c', 'tpm2-tss', 'udisks2']"
+reverse_depends = "['kinfocenter']"
 +++
 ### Description: 
 A simple daemon to allow session software to update firmware

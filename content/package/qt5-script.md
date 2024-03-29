@@ -12,7 +12,7 @@ size = "1081500"
 usize = "4373558"
 sha1sum = "c1292f567311294baedb39c3f0f4fbf8d9cfe3bf"
 depends = "['qt5-base>=5.15.12']"
-reverse_depends = "['grantlee', 'ki18n', 'mixxx', 'otter-browser', 'qbs', 'smplayer', 'sqlitestudio', 'stellarium', 'texmaker', 'texstudio', 'texworks']"
+reverse_depends = "['grantlee', 'ki18n5', 'mixxx', 'otter-browser', 'qbs', 'smplayer', 'sqlitestudio', 'stellarium', 'texmaker', 'texstudio', 'texworks']"
 +++
 ### Description: 
 The Qt5 toolkit, qtscript

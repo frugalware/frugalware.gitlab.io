@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "krename 5.0.2-5"
-version = "5.0.2-5"
+title = "krename 5.0.2-6"
+version = "5.0.2-6"
 description = "KRename is a powerful batch renamer for KDE."
-date = "2024-01-25T08:46:58"
+date = "2024-03-26T10:32:27"
 aliases = "/packages/10237"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "464884"
+size = "464676"
 usize = "2307749"
-sha1sum = "cb710d55b776170dee4bff55b27306e22c4f14f2"
-depends = "['exiv2>=0.28.1', 'kdelibs4support>=5.114.0', 'kjs>=5.114.0', 'podofo>=0.10.1', 'taglib>=2.0']"
+sha1sum = "fab546ba4e6061218af76712b59b9cca8e91c3e7"
+depends = "['exiv2>=0.28.1', 'kcompletion5>=5.115.0', 'kconfig5>=5.115.0', 'kcoreaddons5>=5.115.0', 'kcrash5>=5.115.0', 'ki18n5>=5.115.0', 'kiconthemes5>=5.115.0', 'kio5>=5.115.0', 'kitemviews5>=5.115.0', 'kjobwidgets5>=5.115.0', 'kjs5>=5.115.0', 'podofo>=0.10.1', 'taglib>=2.0']"
 license = "GPL-2"
 +++
 ### Description: 

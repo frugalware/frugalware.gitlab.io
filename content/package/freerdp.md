@@ -12,7 +12,7 @@ size = "2276636"
 usize = "8886489"
 sha1sum = "b2c3d109ed33081dc0e6af9e2fb8c0d299124223"
 depends = "['ffmpeg', 'fuse3', 'libcups', 'libkrb5', 'libkrb5', 'libxcursor', 'libxdamage', 'libxinerama', 'libxkbcommon', 'libxkbfile', 'libxrandr', 'sdl2_ttf']"
-reverse_depends = "['krdc', 'remmina-rdp']"
+reverse_depends = "['remmina-rdp']"
 +++
 ### Description: 
 Remote Desktop Protocol cliente

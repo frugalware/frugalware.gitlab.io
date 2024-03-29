@@ -12,7 +12,7 @@ size = "66784"
 usize = "344407"
 sha1sum = "19879d9b1d46ac221298d21f2887fc9e4d2d3197"
 depends = "['libice>=1.0.9-8', 'libuuid>=2.31.1-3']"
-reverse_depends = "['allegro', 'claws-mail', 'dbus-x11', 'gifsicle', 'gvim', 'kdelibs4support', 'ksubeditor', 'ksubtile', 'kwin5', 'libpulse', 'libxt', 'openbox', 'opencv', 'pidgin', 'pulseaudio-x11', 'qt5-base', 'wmi', 'xpad']"
+reverse_depends = "['allegro', 'claws-mail', 'dbus-x11', 'gifsicle', 'gvim', 'kdelibs4support', 'kdelibs4support5', 'ksubeditor', 'ksubtile', 'kwin5', 'libpulse', 'libxt', 'openbox', 'opencv', 'pidgin', 'pulseaudio-x11', 'qt5-base', 'wmi', 'xpad']"
 license = "GPL2"
 +++
 ### Description: 

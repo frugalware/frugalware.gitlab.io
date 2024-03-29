@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdecoration 5.27.10-5"
-version = "5.27.10-5"
+title = "kdecoration 6.0.3-1"
+version = "6.0.3-1"
 description = "KDE Decoration"
-date = "2024-02-19T12:32:35"
+date = "2024-03-27T08:23:23"
 aliases = "/packages/218295"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "72760"
-usize = "303181"
-sha1sum = "a755f962afdf1b453209ed22bc32f2ea776d116d"
-depends = "['kcoreaddons>=5.115.0', 'ki18n>=5.115.0', 'qt5-base>=5.15.12']"
+size = "80508"
+usize = "338451"
+sha1sum = "35ae3050e0321a47cdbb336f3dc0e9dc91758945"
+depends = "['kcoreaddons>=6.0.0', 'ki18n>=6.0.0', 'qt6-base>=6.6.3']"
 reverse_depends = "['breeze', 'kde-gtk-config', 'kwin5']"
 +++
 ### Description: 
@@ -41,18 +41,20 @@ KDE Decoration
 * /usr/include/KDecoration2/KDecoration2/Private/DecorationSettingsPrivate
 * /usr/include/KDecoration2/kdecoration2/private/decorationsettingsprivate.h
 * /usr/include/KDecoration2/kdecoration2/private/kdecoration2_private_export.h
-* /usr/include/KF5/kdecoration2_version.h
+* /usr/include/KF6/kdecoration2_version.h
 * /usr/lib/cmake/KDecoration2/KDecoration2Config.cmake
 * /usr/lib/cmake/KDecoration2/KDecoration2ConfigVersion.cmake
 * /usr/lib/cmake/KDecoration2/KDecoration2Targets-release.cmake
 * /usr/lib/cmake/KDecoration2/KDecoration2Targets.cmake
 * /usr/lib/libkdecorations2.so
-* /usr/lib/libkdecorations2.so.5
-* /usr/lib/libkdecorations2.so.5.27.10
+* /usr/lib/libkdecorations2.so.6
+* /usr/lib/libkdecorations2.so.6.0.3
 * /usr/lib/libkdecorations2private.so
-* /usr/lib/libkdecorations2private.so.10
-* /usr/lib/libkdecorations2private.so.5.27.10
-* /usr/share/doc/kdecoration-5.27.10/README.md
+* /usr/lib/libkdecorations2private.so.11
+* /usr/lib/libkdecorations2private.so.6.0.3
+* /usr/share/doc/kdecoration-6.0.3/README.md
+* /usr/share/locale/ar/LC_MESSAGES/kdecoration.mo
+* /usr/share/locale/ast/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/az/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/bg/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/ca/LC_MESSAGES/kdecoration.mo
@@ -62,6 +64,7 @@ KDE Decoration
 * /usr/share/locale/de/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/el/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kdecoration.mo
+* /usr/share/locale/eo/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/es/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/et/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdecoration.mo
@@ -72,6 +75,7 @@ KDE Decoration
 * /usr/share/locale/hu/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/ia/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/id/LC_MESSAGES/kdecoration.mo
+* /usr/share/locale/is/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/it/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/ja/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/ka/LC_MESSAGES/kdecoration.mo
@@ -80,11 +84,13 @@ KDE Decoration
 * /usr/share/locale/ml/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/nl/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/nn/LC_MESSAGES/kdecoration.mo
+* /usr/share/locale/pa/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/pl/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/pt/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/ro/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/ru/LC_MESSAGES/kdecoration.mo
+* /usr/share/locale/sa/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/sk/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/sl/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/sv/LC_MESSAGES/kdecoration.mo

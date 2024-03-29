@@ -1,102 +1,99 @@
 +++
 draft = false
-title = "kdsoap 2.1.1-4"
-version = "2.1.1-4"
+title = "kdsoap 2.2.0-2"
+version = "2.2.0-2"
 description = "Qt-based client-side and server-side SOAP component"
-date = "2023-10-27T15:49:50"
+date = "2024-03-27T13:42:47"
 aliases = "/packages/220152"
 categories = ['lib']
 upstreamurl = "https://github.com/KDAB/kdsoap"
 arch = "x86_64"
-size = "379600"
-usize = "1198769"
-sha1sum = "944bd3f2f50e17c51df681a954074d2c271c7078"
-depends = "['qt5-base>=5.15.10']"
-reverse_depends = "['kio-extras']"
+size = "419280"
+usize = "1298954"
+sha1sum = "7806e3ed0c3e1942102dbc6e46065e85fdaf7385"
+depends = "['qt6-base>=5.15.10']"
+reverse_depends = "['kdsoap-ws-discovery-client', 'kio-extras']"
 +++
 ### Description: 
 Qt-based client-side and server-side SOAP component
 
 ### Files: 
-* /usr/bin/kdwsdl2cpp
-* /usr/include/KDSoapClient/KDDateTime
-* /usr/include/KDSoapClient/KDDateTime.h
-* /usr/include/KDSoapClient/KDQName
-* /usr/include/KDSoapClient/KDQName.h
-* /usr/include/KDSoapClient/KDSoap
-* /usr/include/KDSoapClient/KDSoap.h
-* /usr/include/KDSoapClient/KDSoapAuthentication
-* /usr/include/KDSoapClient/KDSoapAuthentication.h
-* /usr/include/KDSoapClient/KDSoapClient
-* /usr/include/KDSoapClient/KDSoapClientInterface
-* /usr/include/KDSoapClient/KDSoapClientInterface.h
-* /usr/include/KDSoapClient/KDSoapEndpointReference
-* /usr/include/KDSoapClient/KDSoapEndpointReference.h
-* /usr/include/KDSoapClient/KDSoapFaultException
-* /usr/include/KDSoapClient/KDSoapFaultException.h
-* /usr/include/KDSoapClient/KDSoapGlobal
-* /usr/include/KDSoapClient/KDSoapGlobal.h
-* /usr/include/KDSoapClient/KDSoapHeaders
-* /usr/include/KDSoapClient/KDSoapJob
-* /usr/include/KDSoapClient/KDSoapJob.h
-* /usr/include/KDSoapClient/KDSoapMessage
-* /usr/include/KDSoapClient/KDSoapMessage.h
-* /usr/include/KDSoapClient/KDSoapMessageAddressingProperties
-* /usr/include/KDSoapClient/KDSoapMessageAddressingProperties.h
-* /usr/include/KDSoapClient/KDSoapNamespaceManager
-* /usr/include/KDSoapClient/KDSoapNamespaceManager.h
-* /usr/include/KDSoapClient/KDSoapPendingCall
-* /usr/include/KDSoapClient/KDSoapPendingCall.h
-* /usr/include/KDSoapClient/KDSoapPendingCallWatcher
-* /usr/include/KDSoapClient/KDSoapPendingCallWatcher.h
-* /usr/include/KDSoapClient/KDSoapSslHandler
-* /usr/include/KDSoapClient/KDSoapSslHandler.h
-* /usr/include/KDSoapClient/KDSoapUdpClient
-* /usr/include/KDSoapClient/KDSoapUdpClient.h
-* /usr/include/KDSoapClient/KDSoapValue
-* /usr/include/KDSoapClient/KDSoapValue.h
-* /usr/include/KDSoapClient/KDSoapValueList
-* /usr/include/KDSoapClient/kdsoap_version.h
-* /usr/include/KDSoapServer/KDSoapDelayedResponseHandle
-* /usr/include/KDSoapServer/KDSoapDelayedResponseHandle.h
-* /usr/include/KDSoapServer/KDSoapServer
-* /usr/include/KDSoapServer/KDSoapServer.h
-* /usr/include/KDSoapServer/KDSoapServerAuthInterface
-* /usr/include/KDSoapServer/KDSoapServerAuthInterface.h
-* /usr/include/KDSoapServer/KDSoapServerCustomVerbRequestInterface
-* /usr/include/KDSoapServer/KDSoapServerCustomVerbRequestInterface.h
-* /usr/include/KDSoapServer/KDSoapServerGlobal
-* /usr/include/KDSoapServer/KDSoapServerGlobal.h
-* /usr/include/KDSoapServer/KDSoapServerObjectInterface
-* /usr/include/KDSoapServer/KDSoapServerObjectInterface.h
-* /usr/include/KDSoapServer/KDSoapServerRawXMLInterface
-* /usr/include/KDSoapServer/KDSoapServerRawXMLInterface.h
-* /usr/include/KDSoapServer/KDSoapThreadPool
-* /usr/include/KDSoapServer/KDSoapThreadPool.h
-* /usr/lib/cmake/KDSoap/KDSoapConfig.cmake
-* /usr/lib/cmake/KDSoap/KDSoapConfigVersion.cmake
-* /usr/lib/cmake/KDSoap/KDSoapMacros.cmake
-* /usr/lib/cmake/KDSoap/KDSoapTargets-release.cmake
-* /usr/lib/cmake/KDSoap/KDSoapTargets.cmake
-* /usr/lib/libkdsoap-server.so
-* /usr/lib/libkdsoap-server.so.2
-* /usr/lib/libkdsoap-server.so.2.1.1
-* /usr/lib/libkdsoap.so
-* /usr/lib/libkdsoap.so.2
-* /usr/lib/libkdsoap.so.2.1.1
-* /usr/share/doc/kdsoap-2.1.1/INSTALL.txt
-* /usr/share/doc/kdsoap-2.1.1/README.md
-* /usr/share/doc/KDSoap/kdsoap.pri
-* /usr/share/doc/KDSoap/kdwsdl2cpp.pri
-* /usr/share/doc/KDSoap/LICENSES/BSD-3-Clause.txt
-* /usr/share/doc/KDSoap/LICENSES/GPL-2.0-only.txt
-* /usr/share/doc/KDSoap/LICENSES/LicenseRef-Microsoft.txt
-* /usr/share/doc/KDSoap/LICENSES/LicenseRef-Novell.txt
-* /usr/share/doc/KDSoap/LICENSES/LicenseRef-OASIS.txt
-* /usr/share/doc/KDSoap/LICENSES/LicenseRef-SportingExchange.txt
-* /usr/share/doc/KDSoap/LICENSES/MIT.txt
-* /usr/share/doc/KDSoap/LICENSES/W3C.txt
-* /usr/share/doc/KDSoap/README.md
-* /usr/share/mkspecs/features/kdsoap.prf
-* /usr/share/qt5/mkspecs/modules/qt_KDSoapClient.pri
-* /usr/share/qt5/mkspecs/modules/qt_KDSoapServer.pri
+* /usr/bin/kdwsdl2cpp-qt6
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDDateTime
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDDateTime.h
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDQName
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDQName.h
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoap
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoap.h
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapAuthentication
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapAuthentication.h
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapClient
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapClientInterface
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapClientInterface.h
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapEndpointReference
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapEndpointReference.h
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapFaultException
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapFaultException.h
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapGlobal
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapGlobal.h
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapHeaders
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapJob
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapJob.h
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapMessage
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapMessage.h
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapMessageAddressingProperties
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapMessageAddressingProperties.h
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapNamespaceManager
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapNamespaceManager.h
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapPendingCall
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapPendingCall.h
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapPendingCallWatcher
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapPendingCallWatcher.h
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapSslHandler
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapSslHandler.h
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapUdpClient
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapUdpClient.h
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapValue
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapValue.h
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/KDSoapValueList
+* /usr/include/KDSoapClient-Qt6/KDSoapClient/kdsoap_version.h
+* /usr/include/KDSoapServer-Qt6/KDSoapServer/KDSoapDelayedResponseHandle
+* /usr/include/KDSoapServer-Qt6/KDSoapServer/KDSoapDelayedResponseHandle.h
+* /usr/include/KDSoapServer-Qt6/KDSoapServer/KDSoapServer
+* /usr/include/KDSoapServer-Qt6/KDSoapServer/KDSoapServer.h
+* /usr/include/KDSoapServer-Qt6/KDSoapServer/KDSoapServerAuthInterface
+* /usr/include/KDSoapServer-Qt6/KDSoapServer/KDSoapServerAuthInterface.h
+* /usr/include/KDSoapServer-Qt6/KDSoapServer/KDSoapServerCustomVerbRequestInterface
+* /usr/include/KDSoapServer-Qt6/KDSoapServer/KDSoapServerCustomVerbRequestInterface.h
+* /usr/include/KDSoapServer-Qt6/KDSoapServer/KDSoapServerGlobal
+* /usr/include/KDSoapServer-Qt6/KDSoapServer/KDSoapServerGlobal.h
+* /usr/include/KDSoapServer-Qt6/KDSoapServer/KDSoapServerObjectInterface
+* /usr/include/KDSoapServer-Qt6/KDSoapServer/KDSoapServerObjectInterface.h
+* /usr/include/KDSoapServer-Qt6/KDSoapServer/KDSoapServerRawXMLInterface
+* /usr/include/KDSoapServer-Qt6/KDSoapServer/KDSoapServerRawXMLInterface.h
+* /usr/include/KDSoapServer-Qt6/KDSoapServer/KDSoapThreadPool
+* /usr/include/KDSoapServer-Qt6/KDSoapServer/KDSoapThreadPool.h
+* /usr/lib/cmake/KDSoap-qt6/KDSoap-qt6Config.cmake
+* /usr/lib/cmake/KDSoap-qt6/KDSoap-qt6ConfigVersion.cmake
+* /usr/lib/cmake/KDSoap-qt6/KDSoapMacros.cmake
+* /usr/lib/cmake/KDSoap-qt6/KDSoapTargets-release.cmake
+* /usr/lib/cmake/KDSoap-qt6/KDSoapTargets.cmake
+* /usr/lib/libkdsoap-qt6.so
+* /usr/lib/libkdsoap-qt6.so.2
+* /usr/lib/libkdsoap-qt6.so.2.2.0
+* /usr/lib/libkdsoap-server-qt6.so
+* /usr/lib/libkdsoap-server-qt6.so.2
+* /usr/lib/libkdsoap-server-qt6.so.2.2.0
+* /usr/lib/qt6/mkspecs/modules/qt_KDSoapClient.pri
+* /usr/lib/qt6/mkspecs/modules/qt_KDSoapServer.pri
+* /usr/share/doc/kdsoap-2.2.0/INSTALL.txt
+* /usr/share/doc/kdsoap-2.2.0/README.md
+* /usr/share/doc/KDSoap-qt6/LICENSES/BSD-3-Clause.txt
+* /usr/share/doc/KDSoap-qt6/LICENSES/GPL-2.0-only.txt
+* /usr/share/doc/KDSoap-qt6/LICENSES/LicenseRef-Microsoft.txt
+* /usr/share/doc/KDSoap-qt6/LICENSES/LicenseRef-Novell.txt
+* /usr/share/doc/KDSoap-qt6/LICENSES/LicenseRef-OASIS.txt
+* /usr/share/doc/KDSoap-qt6/LICENSES/LicenseRef-SportingExchange.txt
+* /usr/share/doc/KDSoap-qt6/LICENSES/MIT.txt
+* /usr/share/doc/KDSoap-qt6/LICENSES/W3C.txt
+* /usr/share/doc/KDSoap-qt6/README.md

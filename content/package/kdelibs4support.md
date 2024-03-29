@@ -12,7 +12,7 @@ size = "3392640"
 usize = "19175454"
 sha1sum = "a1e8a6ae84d146b35ce0d8e262b129cd7537a004"
 depends = "['kded>=5.115.0', 'kdesignerplugin>=5.115.0', 'kemoticons>=5.115.0', 'kitemmodels>=5.115.0', 'kparts>=5.115.0', 'kunitconversion>=5.115.0', 'libsm>=1.2.2-3', 'networkmanager>=1.4.0-2']"
-reverse_depends = "['akonadi-mime', 'akonadi-notes', 'audiocd-kio', 'dolphin', 'gwenview', 'kdeplasma-addons5', 'kdialog', 'kfind', 'kfourinline', 'kget', 'kgoldrunner', 'khelpcenter5', 'kimagemapeditor', 'kio-extras', 'kjumpingcube', 'klettres', 'klickety', 'klines', 'kmenuedit5', 'kmines', 'kmix', 'kmplot', 'knavalbattle', 'knemo', 'knetwalk', 'kolf', 'kollision', 'kolourpaint', 'konqueror', 'kopete', 'kpat', 'krename', 'kross-interpreters', 'ksirk', 'ksquares', 'kteatime', 'ktuberling', 'kwalletmanager', 'kwordquiz', 'pairs', 'palapeli', 'picmi', 'plasma-desktop', 'plasma-nm', 'plasma-sdk', 'plasma-workspace', 'qtcurve-qt5', 'skrooge', 'smb4k', 'step', 'umbrello']"
+reverse_depends = "['akonadi-mime', 'akonadi-notes', 'audiocd-kio', 'dolphin', 'gwenview', 'kdeplasma-addons5', 'kdialog', 'kfind', 'kfourinline', 'kget', 'kgoldrunner', 'khelpcenter5', 'kio-extras', 'kjumpingcube', 'klettres', 'klickety', 'klines', 'kmenuedit5', 'kmines', 'knavalbattle', 'knemo', 'knetwalk', 'kolf', 'kollision', 'konqueror', 'kopete', 'kpat', 'ksirk', 'ksquares', 'kteatime', 'ktuberling', 'kwalletmanager', 'kwordquiz', 'pairs', 'palapeli', 'picmi', 'plasma-desktop', 'plasma-nm', 'plasma-sdk', 'plasma-workspace', 'qtcurve-qt5', 'skrooge', 'smb4k', 'step', 'umbrello']"
 +++
 ### Description: 
 KDE4 Support.

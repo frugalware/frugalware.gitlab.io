@@ -11,8 +11,7 @@ arch = "x86_64"
 size = "1355432"
 usize = "7517815"
 sha1sum = "8523a2b9eaa9a7fb913f9fe51d70d901e6e785ef"
-depends = "['kcmutils>=5.113.0', 'knewstuff>=5.113.0', 'kparts>=5.113.0', 'qca>=2.1.1-6', 'qt5-declarative>=5.15.12']"
-reverse_depends = "['kdevelop']"
+depends = "['kcmutils5>=5.115.0', 'knewstuff5>=5.115.0', 'kparts5>=5.115.0', 'qca>=2.1.1-6', 'qt5-declarative>=5.15.12']"
 +++
 ### Description: 
 Okteta is a simple hexadecimal editor or binary editor.
@@ -549,10 +548,10 @@ Okteta is a simple hexadecimal editor or binary editor.
 * /usr/share/doc/HTML/sv/okteta/index.docbook
 * /usr/share/doc/HTML/uk/okteta/index.cache.bz2
 * /usr/share/doc/HTML/uk/okteta/index.docbook
-* /usr/share/doc/okteta-0.26.14/README.md
-* /usr/share/doc/okteta-0.26.14/README_developers.md
-* /usr/share/doc/okteta-0.26.14/README_packagers.md
-* /usr/share/doc/okteta-0.26.14/TODO
+* /usr/share/doc/okteta-0.26.15/README.md
+* /usr/share/doc/okteta-0.26.15/README_developers.md
+* /usr/share/doc/okteta-0.26.15/README_packagers.md
+* /usr/share/doc/okteta-0.26.15/TODO
 * /usr/share/icons/hicolor/128x128/apps/okteta.png
 * /usr/share/icons/hicolor/16x16/apps/okteta.png
 * /usr/share/icons/hicolor/22x22/apps/okteta.png

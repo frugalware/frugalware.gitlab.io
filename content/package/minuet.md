@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "minuet 23.08.5-1"
-version = "23.08.5-1"
+title = "minuet 24.02.1-1"
+version = "24.02.1-1"
 description = "A KDE Software for Music Education"
-date = "2024-02-20T13:22:55"
+date = "2024-03-25T14:25:14"
 aliases = "/packages/219343"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "27481616"
-usize = "33280438"
-sha1sum = "c2452c362347070ba14082d5e8196e34221b92ee"
-depends = "['fluidsynth>=2.0.0', 'libkdegames>=23.08.5', 'qt5-quickcontrols2>=5.15.12']"
+size = "27482160"
+usize = "33317819"
+sha1sum = "d51c95f01f997eab984db4e8c6a13f4e0d68edf5"
+depends = "['fluidsynth>=2.0.0', 'kcoreaddons5>=5.115.0', 'kcrash5>=5.115.0', 'ki18n5>=5.115.0', 'libkdegames>=24.02.1', 'qt5-quickcontrols2>=5.15.12', 'qt5-svg>=5.15.12']"
 +++
 ### Description: 
 A KDE Software for Music Education
@@ -56,9 +56,9 @@ A KDE Software for Music Education
 * /usr/share/doc/HTML/sv/minuet/index.docbook
 * /usr/share/doc/HTML/uk/minuet/index.cache.bz2
 * /usr/share/doc/HTML/uk/minuet/index.docbook
-* /usr/share/doc/minuet-23.08.5/COPYING
-* /usr/share/doc/minuet-23.08.5/COPYING.DOC
-* /usr/share/doc/minuet-23.08.5/README
+* /usr/share/doc/minuet-24.02.1/COPYING
+* /usr/share/doc/minuet-24.02.1/COPYING.DOC
+* /usr/share/doc/minuet-24.02.1/README
 * /usr/share/icons/hicolor/128x128/apps/minuet.png
 * /usr/share/icons/hicolor/128x128/apps/minuet.svg
 * /usr/share/icons/hicolor/16x16/actions/minuet-chords.svg
@@ -113,8 +113,10 @@ A KDE Software for Music Education
 * /usr/share/locale/uk/LC_MESSAGES/minuet.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/minuet.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/minuet.mo
-* /usr/share/metainfo/org.kde.minuet.appdata.xml
-* /usr/share/minuet/definitions/chords-root-position-definitions.json
+* /usr/share/metainfo/org.kde.minuet.metainfo.xml
+* /usr/share/minuet/definitions/chords-extended-definitions.json
+* /usr/share/minuet/definitions/chords-sevenths-definitions.json
+* /usr/share/minuet/definitions/chords-three-notes-definitions.json
 * /usr/share/minuet/definitions/intervals-ascending-melodic-harmonic-definitions.json
 * /usr/share/minuet/definitions/intervals-descending-melodic-definitions.json
 * /usr/share/minuet/definitions/rhythm-definitions.json
@@ -124,7 +126,10 @@ A KDE Software for Music Education
 * /usr/share/minuet/definitions/scales-major-and-its-modes-definitions.json
 * /usr/share/minuet/definitions/scales-pentatonic-major-and-its-modes-definitions.json
 * /usr/share/minuet/definitions/scales-simmetric-definitions.json
-* /usr/share/minuet/exercises/chords-root-position-exercises.json
+* /usr/share/minuet/exercises/chords-combined-exercises.json
+* /usr/share/minuet/exercises/chords-extended-exercises.json
+* /usr/share/minuet/exercises/chords-sevenths-exercises.json
+* /usr/share/minuet/exercises/chords-three-notes-exercises.json
 * /usr/share/minuet/exercises/intervals-ascending-melodic-exercises.json
 * /usr/share/minuet/exercises/intervals-descending-melodic-exercises.json
 * /usr/share/minuet/exercises/intervals-harmonic-exercises.json

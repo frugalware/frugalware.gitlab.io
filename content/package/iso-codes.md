@@ -12,7 +12,7 @@ size = "2909852"
 usize = "19758467"
 sha1sum = "ddc2b414878442b5ca874d1957f20f614ca9969e"
 depends = "['python3>=3.6.4']"
-reverse_depends = "['darktable', 'gimp', 'gnome-desktop', 'gspell', 'hexchat', 'nm-applet', 'plasma-workspace']"
+reverse_depends = "['darktable', 'gimp', 'gnome-desktop', 'gspell', 'hexchat', 'ki18n', 'nm-applet', 'plasma-workspace']"
 +++
 ### Description: 
 Provides the list of country and language names
