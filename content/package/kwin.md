@@ -12,7 +12,7 @@ size = "10500692"
 usize = "36224108"
 sha1sum = "21335118bf2af90d354d601a4ee2c945cae645a7"
 depends = "['breeze>=6.0.3', 'kauth>=6.0.0', 'kcmutils>=6.0.0', 'kconfig>=6.0.0', 'kconfigwidgets>=6.0.0', 'kcoreaddons>=6.0.0', 'kcrash>=6.0.0', 'kdbusaddons>=6.0.0', 'kdeclarative>=6.0.0', 'kglobalacceld>=6.0.3', 'kguiaddons>=6.0.0', 'ki18n>=6.0.0', 'kidletime>=6.0.0', 'knewstuff>=6.0.0', 'kpackage>=6.0.0', 'kscreenlocker>=6.0.3', 'kservice>=6.0.0', 'kwayland>=6.0.3', 'kwidgetsaddons>=6.0.0', 'kwindowsystem>=6.0.0', 'kxmlgui>=6.0.0', 'libdisplay-info', 'libqaccessibilityclient', 'libxcvt', 'pipewire', 'qt6-5compat>=_F_kdever_qt6', 'qt6-sensors>=6.6.3', 'qt6-tools>=6.6.3', 'qt6-wayland>=6.6.3']"
-reverse_depends = "['plasma-workspace']"
+reverse_depends = "['oxygen', 'plasma-workspace']"
 +++
 ### Description: 
 KDE Window Manager.

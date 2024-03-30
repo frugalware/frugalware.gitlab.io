@@ -1,32 +1,34 @@
 +++
 draft = false
-title = "oxygen 5.27.10-5"
-version = "5.27.10-5"
+title = "oxygen 6.0.3-1"
+version = "6.0.3-1"
 description = "KDE Oxygen style."
-date = "2024-02-19T13:29:34"
+date = "2024-03-30T21:55:05"
 aliases = "/packages/218391"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2811244"
-usize = "18611908"
-sha1sum = "2c6b77238791bff73ca2cf376677d16e14aa6a03"
-depends = "['frameworkintegration>=5.115.0', 'kwin5>=5.27.10']"
+size = "2861788"
+usize = "18852715"
+sha1sum = "597f8675b28e8fda4639ee77bc30447dfdcf5d05"
+depends = "['frameworkintegration>=6.0.0', 'kwin>=6.0.3']"
 reverse_depends = "['lumina-desktop']"
 +++
 ### Description: 
 KDE Oxygen style.
 
 ### Files: 
-* /usr/bin/oxygen-demo5
-* /usr/bin/oxygen-settings5
-* /usr/lib/liboxygenstyle5.so.5
-* /usr/lib/liboxygenstyle5.so.5.27.10
-* /usr/lib/liboxygenstyleconfig5.so.5
-* /usr/lib/liboxygenstyleconfig5.so.5.27.10
-* /usr/lib/qt5/plugins/kstyle_oxygen_config.so
-* /usr/lib/qt5/plugins/org.kde.kdecoration2/oxygendecoration.so
-* /usr/lib/qt5/plugins/styles/oxygen.so
+* /usr/bin/oxygen-demo6
+* /usr/bin/oxygen-settings6
+* /usr/lib/liboxygenstyle6.so.6
+* /usr/lib/liboxygenstyle6.so.6.0.3
+* /usr/lib/liboxygenstyleconfig6.so.6
+* /usr/lib/liboxygenstyleconfig6.so.6.0.3
+* /usr/lib/qt6/plugins/kstyle_config/kstyle_oxygen_config.so
+* /usr/lib/qt6/plugins/org.kde.kdecoration2.kcm/kcm_oxygendecoration.so
+* /usr/lib/qt6/plugins/org.kde.kdecoration2/org.kde.oxygen.so
+* /usr/lib/qt6/plugins/styles/oxygen6.so
+* /usr/share/applications/kcm_oxygendecoration.desktop
 * /usr/share/color-schemes/Oxygen.colors
 * /usr/share/color-schemes/OxygenCold.colors
 * /usr/share/icons/hicolor/256x256/apps/oxygen-settings.png
@@ -512,8 +514,6 @@ KDE Oxygen style.
 * /usr/share/icons/Oxygen_Zion/cursors/xterm
 * /usr/share/icons/Oxygen_Zion/cursors/X_cursor
 * /usr/share/icons/Oxygen_Zion/index.theme
-* /usr/share/kservices5/oxygendecorationconfig.desktop
-* /usr/share/kservices5/oxygenstyleconfig.desktop
 * /usr/share/kstyle/themes/oxygen.themerc
 * /usr/share/locale/af/LC_MESSAGES/oxygen_style_config.mo
 * /usr/share/locale/af/LC_MESSAGES/oxygen_style_demo.mo
@@ -521,6 +521,10 @@ KDE Oxygen style.
 * /usr/share/locale/ar/LC_MESSAGES/oxygen_kdecoration.mo
 * /usr/share/locale/ar/LC_MESSAGES/oxygen_style_config.mo
 * /usr/share/locale/ar/LC_MESSAGES/oxygen_style_demo.mo
+* /usr/share/locale/ast/LC_MESSAGES/liboxygenstyleconfig.mo
+* /usr/share/locale/ast/LC_MESSAGES/oxygen_kdecoration.mo
+* /usr/share/locale/ast/LC_MESSAGES/oxygen_style_config.mo
+* /usr/share/locale/ast/LC_MESSAGES/oxygen_style_demo.mo
 * /usr/share/locale/az/LC_MESSAGES/liboxygenstyleconfig.mo
 * /usr/share/locale/az/LC_MESSAGES/oxygen_kdecoration.mo
 * /usr/share/locale/az/LC_MESSAGES/oxygen_style_config.mo
@@ -573,6 +577,8 @@ KDE Oxygen style.
 * /usr/share/locale/en_GB/LC_MESSAGES/oxygen_kdecoration.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/oxygen_style_config.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/oxygen_style_demo.mo
+* /usr/share/locale/eo/LC_MESSAGES/liboxygenstyleconfig.mo
+* /usr/share/locale/eo/LC_MESSAGES/oxygen_kdecoration.mo
 * /usr/share/locale/eo/LC_MESSAGES/oxygen_style_config.mo
 * /usr/share/locale/eo/LC_MESSAGES/oxygen_style_demo.mo
 * /usr/share/locale/es/LC_MESSAGES/liboxygenstyleconfig.mo
@@ -609,6 +615,7 @@ KDE Oxygen style.
 * /usr/share/locale/gu/LC_MESSAGES/oxygen_style_config.mo
 * /usr/share/locale/gu/LC_MESSAGES/oxygen_style_demo.mo
 * /usr/share/locale/he/LC_MESSAGES/liboxygenstyleconfig.mo
+* /usr/share/locale/he/LC_MESSAGES/oxygen_kdecoration.mo
 * /usr/share/locale/he/LC_MESSAGES/oxygen_style_config.mo
 * /usr/share/locale/he/LC_MESSAGES/oxygen_style_demo.mo
 * /usr/share/locale/hi/LC_MESSAGES/oxygen_style_config.mo
@@ -789,6 +796,7 @@ KDE Oxygen style.
 * /usr/share/locale/zh_TW/LC_MESSAGES/oxygen_kdecoration.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/oxygen_style_config.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/oxygen_style_demo.mo
+* /usr/share/metainfo/org.kde.oxygen.appdata.xml
 * /usr/share/plasma/look-and-feel/org.kde.oxygen/contents/defaults
 * /usr/share/plasma/look-and-feel/org.kde.oxygen/contents/previews/preview.png
 * /usr/share/plasma/look-and-feel/org.kde.oxygen/contents/previews/splash.png
@@ -796,4 +804,4 @@ KDE Oxygen style.
 * /usr/share/plasma/look-and-feel/org.kde.oxygen/contents/splash/images/kde.png
 * /usr/share/plasma/look-and-feel/org.kde.oxygen/contents/splash/images/rectangle.png
 * /usr/share/plasma/look-and-feel/org.kde.oxygen/contents/splash/Splash.qml
-* /usr/share/plasma/look-and-feel/org.kde.oxygen/metadata.desktop
+* /usr/share/plasma/look-and-feel/org.kde.oxygen/metadata.json
