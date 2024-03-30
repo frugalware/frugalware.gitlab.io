@@ -1,80 +1,95 @@
 +++
 draft = false
-title = "qqc2-desktop-style 5.115.0-1"
-version = "5.115.0-1"
+title = "qqc2-desktop-style 6.0.0-3"
+version = "6.0.0-3"
 description = "QtQuickControls2 style that uses QWidget's QStyle for painting."
-date = "2024-02-19T11:39:25"
+date = "2024-03-30T20:24:42"
 aliases = "/packages/219485"
-categories = ['kf5']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "79800"
-usize = "381553"
-sha1sum = "2a4de674cc5e2c08b3d30b59957e6116eea363b3"
-depends = "['kconfigwidgets>=5.115.0', 'kiconthemes>=5.115.0', 'kirigami2>=5.115.0', 'plasma-framework>=5.115.0', 'qt5-x11extras>=5.15.12']"
+size = "341004"
+usize = "2053615"
+sha1sum = "bb208d2df814f99e51de694757abbc98c60df8c6"
+depends = "['kconfigwidgets>=6.0.0', 'kiconthemes>=6.0.0', 'kirigami>=6.0.0']"
 reverse_depends = "['angelfish', 'arianna', 'elisa', 'filelight', 'itinerary', 'kdeconnect-kde', 'ktrip', 'merkuro', 'neochat', 'plasma-desktop', 'tokodon']"
 +++
 ### Description: 
 QtQuickControls2 style that uses QWidget's QStyle for painting.
 
 ### Files: 
-* /usr/lib/cmake/KF5QQC2DeskopStyle/KF5QQC2DeskopStyleConfig.cmake
-* /usr/lib/cmake/KF5QQC2DeskopStyle/KF5QQC2DeskopStyleConfigVersion.cmake
-* /usr/lib/cmake/KF5QQC2DesktopStyle/KF5QQC2DesktopStyleConfig.cmake
-* /usr/lib/cmake/KF5QQC2DesktopStyle/KF5QQC2DesktopStyleConfigVersion.cmake
-* /usr/lib/qt5/plugins/kf5/kirigami/org.kde.desktop.so
-* /usr/share/doc/qqc2-desktop-style-5.115.0/README.md
-* /usr/share/qt5/qml/org/kde/qqc2desktopstyle/private/libqqc2desktopstyleplugin.so
-* /usr/share/qt5/qml/org/kde/qqc2desktopstyle/private/qmldir
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/BusyIndicator.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Button.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/CheckBox.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/CheckDelegate.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/CheckIndicator.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ComboBox.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Container.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Control.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/DelayButton.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Dial.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Dialog.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/DialogButtonBox.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Drawer.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Frame.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/GroupBox.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ItemDelegate.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Label.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuBar.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuBarItem.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuSeparator.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Page.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Pane.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Popup.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/private/DefaultListItemBackground.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/private/FocusRect.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/private/MobileCursor.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/private/MobileTextActionsToolBar.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/private/qmldir
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/private/TextFieldContextMenu.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ProgressBar.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/RadioButton.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/RadioDelegate.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/RangeSlider.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/RoundButton.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollView.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Slider.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/SpinBox.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Switch.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/SwitchDelegate.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/SwitchIndicator.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/TabBar.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/TabButton.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/TextArea.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/TextField.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolBar.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolButton.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolSeparator.qml
-* /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml
+* /usr/lib/cmake/KF6QQC2DesktopStyle/KF6QQC2DesktopStyleConfig.cmake
+* /usr/lib/cmake/KF6QQC2DesktopStyle/KF6QQC2DesktopStyleConfigVersion.cmake
+* /usr/lib/qt6/plugins/kf6/kirigami/platform/org.kde.desktop.so
+* /usr/lib/qt6/qml/org/kde/desktop/BusyIndicator.qml
+* /usr/lib/qt6/qml/org/kde/desktop/Button.qml
+* /usr/lib/qt6/qml/org/kde/desktop/CheckBox.qml
+* /usr/lib/qt6/qml/org/kde/desktop/CheckDelegate.qml
+* /usr/lib/qt6/qml/org/kde/desktop/ComboBox.qml
+* /usr/lib/qt6/qml/org/kde/desktop/Container.qml
+* /usr/lib/qt6/qml/org/kde/desktop/Control.qml
+* /usr/lib/qt6/qml/org/kde/desktop/DelayButton.qml
+* /usr/lib/qt6/qml/org/kde/desktop/Dial.qml
+* /usr/lib/qt6/qml/org/kde/desktop/Dialog.qml
+* /usr/lib/qt6/qml/org/kde/desktop/DialogButtonBox.qml
+* /usr/lib/qt6/qml/org/kde/desktop/Drawer.qml
+* /usr/lib/qt6/qml/org/kde/desktop/Frame.qml
+* /usr/lib/qt6/qml/org/kde/desktop/GroupBox.qml
+* /usr/lib/qt6/qml/org/kde/desktop/HorizontalHeaderView.qml
+* /usr/lib/qt6/qml/org/kde/desktop/ItemDelegate.qml
+* /usr/lib/qt6/qml/org/kde/desktop/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/desktop/Label.qml
+* /usr/lib/qt6/qml/org/kde/desktop/liborg_kde_desktop.so
+* /usr/lib/qt6/qml/org/kde/desktop/Menu.qml
+* /usr/lib/qt6/qml/org/kde/desktop/MenuBar.qml
+* /usr/lib/qt6/qml/org/kde/desktop/MenuBarItem.qml
+* /usr/lib/qt6/qml/org/kde/desktop/MenuItem.qml
+* /usr/lib/qt6/qml/org/kde/desktop/MenuSeparator.qml
+* /usr/lib/qt6/qml/org/kde/desktop/org_kde_desktop.qmltypes
+* /usr/lib/qt6/qml/org/kde/desktop/Page.qml
+* /usr/lib/qt6/qml/org/kde/desktop/PageIndicator.qml
+* /usr/lib/qt6/qml/org/kde/desktop/Pane.qml
+* /usr/lib/qt6/qml/org/kde/desktop/Popup.qml
+* /usr/lib/qt6/qml/org/kde/desktop/private/CheckIndicator.qml
+* /usr/lib/qt6/qml/org/kde/desktop/private/DefaultListItemBackground.qml
+* /usr/lib/qt6/qml/org/kde/desktop/private/DefaultSliderHandle.qml
+* /usr/lib/qt6/qml/org/kde/desktop/private/DefaultToolBarBackground.qml
+* /usr/lib/qt6/qml/org/kde/desktop/private/FocusRect.qml
+* /usr/lib/qt6/qml/org/kde/desktop/private/GlobalSonnetSettings.qml
+* /usr/lib/qt6/qml/org/kde/desktop/private/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/desktop/private/liborg_kde_desktop_private.so
+* /usr/lib/qt6/qml/org/kde/desktop/private/MobileCursor.qml
+* /usr/lib/qt6/qml/org/kde/desktop/private/MobileTextActionsToolBar.qml
+* /usr/lib/qt6/qml/org/kde/desktop/private/MobileTextActionsToolBarImpl.qml
+* /usr/lib/qt6/qml/org/kde/desktop/private/org_kde_desktop_private.qmltypes
+* /usr/lib/qt6/qml/org/kde/desktop/private/qmldir
+* /usr/lib/qt6/qml/org/kde/desktop/private/SwitchIndicator.qml
+* /usr/lib/qt6/qml/org/kde/desktop/private/TextFieldContextMenu.qml
+* /usr/lib/qt6/qml/org/kde/desktop/ProgressBar.qml
+* /usr/lib/qt6/qml/org/kde/desktop/qmldir
+* /usr/lib/qt6/qml/org/kde/desktop/RadioButton.qml
+* /usr/lib/qt6/qml/org/kde/desktop/RadioDelegate.qml
+* /usr/lib/qt6/qml/org/kde/desktop/RangeSlider.qml
+* /usr/lib/qt6/qml/org/kde/desktop/RoundButton.qml
+* /usr/lib/qt6/qml/org/kde/desktop/ScrollBar.qml
+* /usr/lib/qt6/qml/org/kde/desktop/ScrollView.qml
+* /usr/lib/qt6/qml/org/kde/desktop/Slider.qml
+* /usr/lib/qt6/qml/org/kde/desktop/SpinBox.qml
+* /usr/lib/qt6/qml/org/kde/desktop/StackView.qml
+* /usr/lib/qt6/qml/org/kde/desktop/Switch.qml
+* /usr/lib/qt6/qml/org/kde/desktop/SwitchDelegate.qml
+* /usr/lib/qt6/qml/org/kde/desktop/TabBar.qml
+* /usr/lib/qt6/qml/org/kde/desktop/TabButton.qml
+* /usr/lib/qt6/qml/org/kde/desktop/TextArea.qml
+* /usr/lib/qt6/qml/org/kde/desktop/TextField.qml
+* /usr/lib/qt6/qml/org/kde/desktop/ToolBar.qml
+* /usr/lib/qt6/qml/org/kde/desktop/ToolButton.qml
+* /usr/lib/qt6/qml/org/kde/desktop/ToolSeparator.qml
+* /usr/lib/qt6/qml/org/kde/desktop/ToolTip.qml
+* /usr/lib/qt6/qml/org/kde/desktop/TreeViewDelegate.qml
+* /usr/lib/qt6/qml/org/kde/desktop/VerticalHeaderView.qml
+* /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/libqqc2desktopstyleplugin.so
+* /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/qmldir
+* /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/qqc2desktopstyleplugin.qmltypes
+* /usr/share/doc/qqc2-desktop-style-6.0.0/README.md

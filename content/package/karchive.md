@@ -12,7 +12,7 @@ size = "143924"
 usize = "680064"
 sha1sum = "93a60891e23d18d5c01f2dab4c95fd7c28e075d5"
 depends = "['qt6-base>=6.6.3']"
-reverse_depends = "['discover', 'kbackup', 'kcachegrind', 'kdoctools', 'kemoticons', 'kfilemetadata', 'kiconthemes', 'kimageformats', 'kio', 'kpackage', 'kpkpass', 'plasma-sdk']"
+reverse_depends = "['discover', 'kbackup', 'kcachegrind', 'kdoctools', 'kemoticons', 'kfilemetadata', 'kiconthemes', 'kimageformats', 'kio', 'kpackage', 'kpkpass', 'ksvg', 'plasma-sdk']"
 +++
 ### Description: 
 Qt 5 addon providing access to numerous types of archives.

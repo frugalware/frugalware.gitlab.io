@@ -12,7 +12,7 @@ size = "871684"
 usize = "4161132"
 sha1sum = "df750d6cf0051a93f4eee4ca416baa9002d9c076"
 depends = "['libgomp', 'qt6-declarative>=6.6.3', 'qt6-svg>=6.6.3']"
-reverse_depends = "['elisa', 'kalk', 'keysmith', 'knewstuff', 'kongress', 'kontrast', 'okular', 'purpose', 'qqc2-breeze-style', 'systemsettings', 'xdg-desktop-portal-kde']"
+reverse_depends = "['elisa', 'kalk', 'keysmith', 'knewstuff', 'kongress', 'kontrast', 'ksvg', 'okular', 'purpose', 'qqc2-breeze-style', 'qqc2-desktop-style', 'systemsettings', 'xdg-desktop-portal-kde']"
 +++
 ### Description: 
 UI framework for mobile and convergent applications written in Qt.

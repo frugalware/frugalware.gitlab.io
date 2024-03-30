@@ -12,7 +12,7 @@ size = "38496"
 usize = "141389"
 sha1sum = "521c5638f079723db21af935feeb0d83167cb819"
 depends = "['kconfig>=6.0.0', 'kguiaddons>=6.0.0', 'ki18n>=6.0.0']"
-reverse_depends = "['kconfigwidgets']"
+reverse_depends = "['kconfigwidgets', 'ksvg']"
 +++
 ### Description: 
 Classes to read and interact with color schemes
