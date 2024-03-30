@@ -12,7 +12,7 @@ size = "387900"
 usize = "1769843"
 sha1sum = "373ce026e7dea2b28956cd7d910733d5f3b9cfbf"
 depends = "['qt6-base>=6.6.3']"
-reverse_depends = "['akonadi-mime', 'alligator', 'breeze', 'calamares-frugalware', 'discover', 'dolphin', 'kalk', 'kcachegrind', 'kclock', 'kcolorscheme', 'kcompletion', 'kcontacts', 'kdeplasma-addons', 'kdeplasma-addons5', 'kdesignerplugin', 'kglobalacceld', 'kongress', 'kopete', 'kpackage', 'krecorder', 'kservice', 'ktrip', 'ktux', 'kwin', 'libkscreen', 'libkscreen5', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'plasma-browser-integration', 'plasma-sdk', 'plasma5support', 'plasmatube', 'purpose', 'qmlkonsole', 'qqc2-breeze-style', 'rkward', 'sweeper']"
+reverse_depends = "['akonadi-mime', 'alligator', 'breeze', 'calamares-frugalware', 'discover', 'dolphin', 'kalk', 'kcachegrind', 'kclock', 'kcolorscheme', 'kcompletion', 'kcontacts', 'kdeplasma-addons', 'kdeplasma-addons5', 'kdesignerplugin', 'kglobalacceld', 'kongress', 'kopete', 'kpackage', 'krecorder', 'krunner', 'kservice', 'ktrip', 'ktux', 'kwin', 'libkscreen', 'libkscreen5', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'plasma-browser-integration', 'plasma5support', 'plasmatube', 'purpose', 'qmlkonsole', 'qqc2-breeze-style', 'rkward', 'sweeper']"
 +++
 ### Description: 
 Provides an advanced configuration system.

@@ -12,7 +12,7 @@ size = "138952"
 usize = "652654"
 sha1sum = "b9b816b0c269c29f71480ef6b6417e8695b05951"
 depends = "['kio>=6.0.0', 'kpackage>=6.0.0', 'libepoxy>=1.3.1-6']"
-reverse_depends = "['blinken', 'colord-kde', 'discover', 'filelight', 'kaccounts-integration', 'kanagram', 'kcmutils', 'kdenetwork-filesharing', 'khangman', 'koko', 'kontrast', 'kwin', 'libkdegames', 'plasma-disks', 'plasma-framework', 'plasma-pa', 'plasma-sdk', 'plasma-systemmonitor', 'plasma-workspace', 'purpose', 'sddm-kcm', 'spectacle', 'systemsettings', 'systemsettings5']"
+reverse_depends = "['blinken', 'colord-kde', 'discover', 'filelight', 'kaccounts-integration', 'kanagram', 'kcmutils', 'kdenetwork-filesharing', 'khangman', 'koko', 'kontrast', 'kwin', 'libkdegames', 'plasma-disks', 'plasma-framework', 'plasma-pa', 'plasma-systemmonitor', 'plasma-workspace', 'purpose', 'sddm-kcm', 'spectacle', 'systemsettings', 'systemsettings5']"
 +++
 ### Description: 
 Integration of QML and KDE workspaces.

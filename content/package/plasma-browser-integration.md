@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-browser-integration 5.27.10-5"
-version = "5.27.10-5"
+title = "plasma-browser-integration 6.0.3-1"
+version = "6.0.3-1"
 description = "Qt Platform Theme integration plugins for the Plasma workspaces."
-date = "2024-02-19T13:27:26"
+date = "2024-03-30T22:40:38"
 aliases = "/packages/219689"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "121156"
-usize = "469271"
-sha1sum = "5ef257fd17538d5ec3ecbe5ae057cb617adaee2a"
-depends = "['kactivities5>=5.115.0', 'kconfig>=5.115.0', 'kdbusaddons>=5.115.0', 'kfilemetadata5>=5.115.0', 'ki18n>=5.115.0', 'kio>=5.115.0', 'knotifications>=5.115.0', 'krunner5>=5.115.0', 'kwindowsystem>=5.115.0', 'plasma-workspace>=5.27.10', 'purpose>=5.115.0']"
+size = "145960"
+usize = "542876"
+sha1sum = "97efd11e61b7bb9288427faee2f056188c16b67d"
+depends = "['kconfig>=6.0.0', 'kdbusaddons>=6.0.0', 'kfilemetadata>=6.0.0', 'ki18n>=6.0.0', 'kio>=6.0.0', 'knotifications>=6.0.0', 'krunner>=6.0.0', 'kstatusnotifieritem>=6.0.0', 'kwindowsystem>=6.0.0', 'plasma-activities>=6.0.3', 'plasma-workspace>=6.0.3', 'purpose>=6.0.0']"
 +++
 ### Description: 
 Qt Platform Theme integration plugins for the Plasma workspaces.
@@ -22,15 +22,17 @@ Qt Platform Theme integration plugins for the Plasma workspaces.
 * /etc/opt/edge/native-messaging-hosts/org.kde.plasma.browser_integration.json
 * /usr/bin/plasma-browser-integration-host
 * /usr/lib/mozilla/native-messaging-hosts/org.kde.plasma.browser_integration.json
-* /usr/lib/qt5/plugins/kf5/kded/browserintegrationreminder.so
+* /usr/lib/qt6/plugins/kf6/kded/browserintegrationreminder.so
 * /usr/share/applications/org.kde.plasma.browser_integration.host.desktop
-* /usr/share/doc/plasma-browser-integration-5.27.10/COPYING-GPL3
-* /usr/share/doc/plasma-browser-integration-5.27.10/dev_README.txt
-* /usr/share/doc/plasma-browser-integration-5.27.10/README.md
+* /usr/share/doc/plasma-browser-integration-6.0.3/COPYING-GPL3
+* /usr/share/doc/plasma-browser-integration-6.0.3/dev_README.txt
+* /usr/share/doc/plasma-browser-integration-6.0.3/README.md
 * /usr/share/krunner/dbusplugins/plasma-runner-browserhistory.desktop
 * /usr/share/krunner/dbusplugins/plasma-runner-browsertabs.desktop
 * /usr/share/locale/ar/LC_MESSAGES/plasma-browser-integration-host.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma-browser-integration-reminder.mo
+* /usr/share/locale/ast/LC_MESSAGES/plasma-browser-integration-host.mo
+* /usr/share/locale/ast/LC_MESSAGES/plasma-browser-integration-reminder.mo
 * /usr/share/locale/az/LC_MESSAGES/plasma-browser-integration-host.mo
 * /usr/share/locale/az/LC_MESSAGES/plasma-browser-integration-reminder.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasma-browser-integration-host.mo
@@ -49,6 +51,8 @@ Qt Platform Theme integration plugins for the Plasma workspaces.
 * /usr/share/locale/el/LC_MESSAGES/plasma-browser-integration-reminder.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma-browser-integration-host.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma-browser-integration-reminder.mo
+* /usr/share/locale/eo/LC_MESSAGES/plasma-browser-integration-host.mo
+* /usr/share/locale/eo/LC_MESSAGES/plasma-browser-integration-reminder.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma-browser-integration-host.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma-browser-integration-reminder.mo
 * /usr/share/locale/et/LC_MESSAGES/plasma-browser-integration-host.mo
@@ -61,12 +65,16 @@ Qt Platform Theme integration plugins for the Plasma workspaces.
 * /usr/share/locale/fr/LC_MESSAGES/plasma-browser-integration-reminder.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma-browser-integration-host.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma-browser-integration-reminder.mo
+* /usr/share/locale/he/LC_MESSAGES/plasma-browser-integration-host.mo
+* /usr/share/locale/he/LC_MESSAGES/plasma-browser-integration-reminder.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma-browser-integration-host.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma-browser-integration-reminder.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasma-browser-integration-host.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasma-browser-integration-reminder.mo
 * /usr/share/locale/id/LC_MESSAGES/plasma-browser-integration-host.mo
 * /usr/share/locale/id/LC_MESSAGES/plasma-browser-integration-reminder.mo
+* /usr/share/locale/is/LC_MESSAGES/plasma-browser-integration-host.mo
+* /usr/share/locale/is/LC_MESSAGES/plasma-browser-integration-reminder.mo
 * /usr/share/locale/it/LC_MESSAGES/plasma-browser-integration-host.mo
 * /usr/share/locale/it/LC_MESSAGES/plasma-browser-integration-reminder.mo
 * /usr/share/locale/ja/LC_MESSAGES/plasma-browser-integration-host.mo

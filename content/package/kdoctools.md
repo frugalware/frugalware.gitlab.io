@@ -12,7 +12,7 @@ size = "415536"
 usize = "2468178"
 sha1sum = "9cd033dd79a4897c5306404a66e5fa9dce4935cf"
 depends = "['docbook-xsl', 'karchive>=6.0.0', 'libxslt']"
-reverse_depends = "['kcachegrind', 'plasma-sdk', 'rkward', 'sweeper']"
+reverse_depends = "['kcachegrind', 'rkward', 'sweeper']"
 +++
 ### Description: 
 Create documentation from DocBook.

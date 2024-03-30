@@ -12,7 +12,7 @@ size = "443440"
 usize = "2104356"
 sha1sum = "39c1a2701a50e0d3b8a90839bcac567ceb1b7921"
 depends = "['libgomp', 'qt5-declarative>=5.15.12', 'qt5-graphicaleffects>=5.15.12', 'qt5-quickcontrols2>=5.15.12', 'qt5-svg>=5.15.12']"
-reverse_depends = "['aura-browser', 'kirigami-addons', 'kjournald', 'kongress', 'plank-player', 'plasma-framework', 'plasma-sdk', 'plasma-welcome', 'skanpage', 'systemsettings5']"
+reverse_depends = "['aura-browser', 'kirigami-addons', 'kjournald', 'kongress', 'plank-player', 'plasma-framework', 'skanpage', 'systemsettings5']"
 +++
 ### Description: 
 UI framework for mobile and convergent applications written in Qt.

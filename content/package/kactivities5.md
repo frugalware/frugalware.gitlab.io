@@ -12,7 +12,7 @@ size = "111932"
 usize = "453554"
 sha1sum = "e75c2ee45cd8746c8d19b926afd11c9c49e1468c"
 depends = "[]"
-reverse_depends = "['kactivities-stats', 'kactivities-stats5', 'kdeplasma-addons5', 'krdc', 'plasma-browser-integration', 'plasma-framework', 'plasma-framework5']"
+reverse_depends = "['kactivities-stats', 'kactivities-stats5', 'kdeplasma-addons5', 'krdc', 'plasma-framework', 'plasma-framework5']"
 +++
 ### Description: 
 The KActivity Manager Daemon.

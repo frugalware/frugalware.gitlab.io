@@ -1,26 +1,31 @@
 +++
 draft = false
-title = "plasma-nano 5.27.10-5"
-version = "5.27.10-5"
+title = "plasma-nano 6.0.3-1"
+version = "6.0.3-1"
 description = "A minimal Plasma shell package"
-date = "2024-02-19T13:33:12"
+date = "2024-03-30T22:59:52"
 aliases = "/packages/220612"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "42296"
-usize = "213678"
-sha1sum = "4b9e0b60a042bf3f3ed731d7e6aae1aa846d11c7"
-depends = "['plasma-framework>=5.115.0']"
+size = "40148"
+usize = "202669"
+sha1sum = "f8bb5ee35471f94ea84340807e8324995c11d932"
+depends = "['kitemmodels>=6.0.0', 'kwayland>=', 'libplasma>=6.0.3']"
 reverse_depends = "['plasma-bigscreen']"
 +++
 ### Description: 
 A minimal Plasma shell package
 
 ### Files: 
-* /usr/share/doc/plasma-nano-5.27.10/README.md
-* /usr/share/kservices5/plasma-applet-org.kde.plasma.nano.desktop
-* /usr/share/kservices5/plasma-package-org.kde.plasma.nano.desktoptoolbox.desktop
+* /usr/lib/qt6/qml/org/kde/plasma/private/nanoshell/libplasmananoshellprivateplugin.so
+* /usr/lib/qt6/qml/org/kde/plasma/private/nanoshell/qml/StartupFeedback.qml
+* /usr/lib/qt6/qml/org/kde/plasma/private/nanoshell/qmldir
+* /usr/share/doc/plasma-nano-6.0.3/README.md
+* /usr/share/locale/ar/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
+* /usr/share/locale/ar/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
+* /usr/share/locale/ast/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
+* /usr/share/locale/ast/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
 * /usr/share/locale/az/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
 * /usr/share/locale/az/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
@@ -39,6 +44,8 @@ A minimal Plasma shell package
 * /usr/share/locale/el/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
+* /usr/share/locale/eo/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
+* /usr/share/locale/eo/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
 * /usr/share/locale/et/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
@@ -73,6 +80,8 @@ A minimal Plasma shell package
 * /usr/share/locale/nl/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
 * /usr/share/locale/nn/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
 * /usr/share/locale/nn/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
+* /usr/share/locale/pa/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
+* /usr/share/locale/pa/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
 * /usr/share/locale/pt/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
@@ -83,6 +92,8 @@ A minimal Plasma shell package
 * /usr/share/locale/ro/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
+* /usr/share/locale/sa/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
+* /usr/share/locale/sa/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
@@ -101,8 +112,7 @@ A minimal Plasma shell package
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
 * /usr/share/metainfo/org.kde.plasma.nano.desktoptoolbox.appdata.xml
 * /usr/share/plasma/packages/org.kde.plasma.nano.desktoptoolbox/contents/ui/DesktopConfigButtons.qml
-* /usr/share/plasma/packages/org.kde.plasma.nano.desktoptoolbox/contents/ui/ToolBoxRoot.qml
-* /usr/share/plasma/packages/org.kde.plasma.nano.desktoptoolbox/metadata.desktop
+* /usr/share/plasma/packages/org.kde.plasma.nano.desktoptoolbox/contents/ui/main.qml
 * /usr/share/plasma/packages/org.kde.plasma.nano.desktoptoolbox/metadata.json
 * /usr/share/plasma/shells/org.kde.plasma.nano/contents/applet/AppletError.qml
 * /usr/share/plasma/shells/org.kde.plasma.nano/contents/applet/CompactApplet.qml
@@ -118,8 +128,4 @@ A minimal Plasma shell package
 * /usr/share/plasma/shells/org.kde.plasma.nano/contents/loader.qml
 * /usr/share/plasma/shells/org.kde.plasma.nano/contents/views/Desktop.qml
 * /usr/share/plasma/shells/org.kde.plasma.nano/contents/views/Panel.qml
-* /usr/share/plasma/shells/org.kde.plasma.nano/metadata.desktop
 * /usr/share/plasma/shells/org.kde.plasma.nano/metadata.json
-* /usr/share/qt5/qml/org/kde/plasma/private/nanoshell/libplasmananoshellprivateplugin.so
-* /usr/share/qt5/qml/org/kde/plasma/private/nanoshell/qml/StartupFeedback.qml
-* /usr/share/qt5/qml/org/kde/plasma/private/nanoshell/qmldir

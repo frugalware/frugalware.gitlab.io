@@ -1,38 +1,43 @@
 +++
 draft = false
-title = "plasma-welcome 5.27.10-5"
-version = "5.27.10-5"
+title = "plasma-welcome 6.0.3-1"
+version = "6.0.3-1"
 description = "A friendly onboarding wizard for Plasma"
-date = "2024-02-19T13:40:47"
+date = "2024-03-30T23:13:19"
 aliases = "/packages/220919"
-categories = ['kde5-extra']
+categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "820248"
-usize = "1410592"
-sha1sum = "29044ae0fcfa8fb8375289340f738c408eecab5f"
-depends = "['kaccounts-integration>=23.08.4', 'kirigami2>=5.115.0', 'knewstuff>=5.115.0', 'kuserfeedback', 'plasma-framework>=5.115.0']"
+size = "959716"
+usize = "2199879"
+sha1sum = "e6c03fb7a344d03513f3388de781e973a8c31bac"
+depends = "['kaccounts-integration>=24.02.1', 'kirigami>=6.0.0', 'kirigami-addons', 'knewstuff>=6.0.0', 'kuserfeedback', 'libplasma>=']"
 +++
 ### Description: 
 A friendly onboarding wizard for Plasma
 
 ### Files: 
-* /etc/xdg/autostart/org.kde.plasma-welcome.desktop
 * /usr/bin/plasma-welcome
+* /usr/lib/qt6/plugins/kf6/kded/kded_plasma-welcome.so
 * /usr/share/applications/org.kde.plasma-welcome.desktop
-* /usr/share/doc/plasma-welcome-5.27.10/README.md
+* /usr/share/doc/plasma-welcome-6.0.3/README.md
 * /usr/share/locale/ar/LC_MESSAGES/plasma-welcome.mo
+* /usr/share/locale/ast/LC_MESSAGES/plasma-welcome.mo
+* /usr/share/locale/be/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/cs/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/de/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma-welcome.mo
+* /usr/share/locale/eo/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/fi/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/fr/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma-welcome.mo
+* /usr/share/locale/he/LC_MESSAGES/plasma-welcome.mo
+* /usr/share/locale/hu/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/id/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/is/LC_MESSAGES/plasma-welcome.mo
@@ -40,21 +45,21 @@ A friendly onboarding wizard for Plasma
 * /usr/share/locale/ja/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/ka/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/ko/LC_MESSAGES/plasma-welcome.mo
+* /usr/share/locale/lt/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/nn/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/pa/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/pt/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasma-welcome.mo
+* /usr/share/locale/ro/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasma-welcome.mo
+* /usr/share/locale/sa/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasma-welcome.mo
-* /usr/share/locale/sv/LC_MESSAGES/plasma-welcome.mo
+* /usr/share/locale/ta/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/tr/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/metainfo/org.kde.plasma-welcome.appdata.xml
-* /usr/share/qt5/qml/org/kde/plasma/welcome/GenericPage.qml
-* /usr/share/qt5/qml/org/kde/plasma/welcome/KCM.qml
-* /usr/share/qt5/qml/org/kde/plasma/welcome/qmldir
