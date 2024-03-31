@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "coreutils 9.4-2"
-version = "9.4-2"
+title = "coreutils 9.5-1"
+version = "9.5-1"
 description = "These are the GNU core utilities, the basic command line programs"
-date = "2023-12-31T17:35:11"
+date = "2024-03-31T11:18:41"
 aliases = "/packages/2357"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/coreutils"
 arch = "x86_64"
-size = "2943300"
-usize = "17737963"
-sha1sum = "f4c34f7e18c8c25947bb9c072a3cb6e7c3d51c8f"
+size = "2881036"
+usize = "17221045"
+sha1sum = "f91d8c16c9385858af03fe50729f88035194bcd2"
 depends = "['bash>=4.4.12-3', 'glibc>=2.35', 'gmp>=6.1.2-6', 'libcap>=2.25-8', 'xfsprogs-acl>=2.2.52-7', 'xfsprogs-attr>=2.4.47-8']"
 reverse_depends = "['e2fsprogs', 'expat', 'inxi', 'kernel-initrd', 'kernel-lts-initrd', 'pacman-g2', 'pulse-autoconf', 'scriptlet-core', 'syslinux']"
 +++
@@ -127,15 +127,15 @@ These are the GNU core utilities, the basic command line programs
 * /usr/bin/yes
 * /usr/bin/[
 * /usr/lib/coreutils/coreutils/libstdbuf.so
-* /usr/share/doc/coreutils-9.4/AUTHORS
-* /usr/share/doc/coreutils-9.4/ChangeLog
-* /usr/share/doc/coreutils-9.4/COPYING
-* /usr/share/doc/coreutils-9.4/INSTALL
-* /usr/share/doc/coreutils-9.4/NEWS
-* /usr/share/doc/coreutils-9.4/README
-* /usr/share/doc/coreutils-9.4/README-install
-* /usr/share/doc/coreutils-9.4/THANKS
-* /usr/share/doc/coreutils-9.4/TODO
+* /usr/share/doc/coreutils-9.5/AUTHORS
+* /usr/share/doc/coreutils-9.5/ChangeLog
+* /usr/share/doc/coreutils-9.5/COPYING
+* /usr/share/doc/coreutils-9.5/INSTALL
+* /usr/share/doc/coreutils-9.5/NEWS
+* /usr/share/doc/coreutils-9.5/README
+* /usr/share/doc/coreutils-9.5/README-install
+* /usr/share/doc/coreutils-9.5/THANKS
+* /usr/share/doc/coreutils-9.5/TODO
 * /usr/share/info/coreutils.info.gz
 * /usr/share/locale/af/LC_MESSAGES/coreutils.mo
 * /usr/share/locale/af/LC_TIME/coreutils.mo
