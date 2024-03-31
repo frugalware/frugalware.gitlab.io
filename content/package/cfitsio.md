@@ -12,7 +12,7 @@ size = "518712"
 usize = "1837376"
 sha1sum = "a422d5cfb4f8ff2e41fb8c2504a0ac8d21a75a2c"
 depends = "['glibc>=2.34']"
-reverse_depends = "['gwenview', 'kst', 'kstars', 'labplot', 'libvips', 'nufraw', 'wcslib']"
+reverse_depends = "['gwenview', 'kstars', 'labplot', 'libvips', 'nufraw', 'wcslib']"
 +++
 ### Description: 
 C and Fortran library for manipulating FITS files
