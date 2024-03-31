@@ -12,7 +12,7 @@ size = "175084"
 usize = "711944"
 sha1sum = "76f434bde25198a34336e6d2db095a3a5d4a6e6b"
 depends = "['kcodecs>=6.0.0', 'ki18n>=6.0.0']"
-reverse_depends = "['akonadi-contacts', 'akonadi-mime', 'akonadi-notes', 'kimap', 'kimap2', 'kitinerary', 'kleopatra', 'kmbox', 'ksmtp', 'mimetreeparser']"
+reverse_depends = "['akonadi-contacts', 'akonadi-mime', 'akonadi-notes', 'kimap', 'kitinerary', 'kleopatra', 'kmbox', 'ksmtp', 'mimetreeparser']"
 +++
 ### Description: 
 Desc: C++ API for MIME handling.

@@ -12,7 +12,7 @@ size = "1676116"
 usize = "5345068"
 sha1sum = "cc72e6f5e842d75004984b0f834a148c84a794f7"
 depends = "['qt6-base>=6.6.3']"
-reverse_depends = "['kbackup', 'kcachegrind', 'kcompletion', 'kconfigwidgets', 'kdiff3', 'kpeople', 'kpmcore', 'kwin', 'rkward']"
+reverse_depends = "['kbackup', 'kcachegrind', 'kcompletion', 'kconfigwidgets', 'kpeople', 'kpmcore', 'kwin', 'rkward']"
 +++
 ### Description: 
 Large set of desktop widgets.
