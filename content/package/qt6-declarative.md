@@ -12,7 +12,7 @@ size = "10341792"
 usize = "54912286"
 sha1sum = "6b7936ad435240e135815e0de7cec02cc4ec7da9"
 depends = "['qt6-languageserver']"
-reverse_depends = "['accounts-qml-module', 'akonadi-search', 'analitza', 'bluez-qt', 'calamares-frugalware', 'dolphin', 'kaccounts-integration', 'kanagram', 'kate', 'kdenlive', 'khangman', 'kiconthemes', 'kirigami', 'kopeninghours', 'kpublictransport', 'kquickcharts', 'kuserfeedback', 'libkdegames', 'mpvqt', 'print-manager', 'pyside6', 'qcoro', 'qt6-3d', 'qt6-5compat', 'qt6-charts', 'qt6-connectivity', 'qt6-datavis3d', 'qt6-httpserver', 'qt6-location', 'qt6-lottie', 'qt6-positioning', 'qt6-quicktimeline', 'qt6-remoteobjects', 'qt6-scxml', 'qt6-sensors', 'qt6-speech', 'qt6-tools', 'qt6-virtualkeyboard', 'qt6-wayland', 'qt6-webchannel', 'qt6-websockets', 'sddm', 'solid']"
+reverse_depends = "['accounts-qml-module', 'akonadi-search', 'analitza', 'bluez-qt', 'calamares-frugalware', 'dolphin', 'kaccounts-integration', 'kanagram', 'kate', 'kdenlive', 'khangman', 'kiconthemes', 'kirigami', 'kopeninghours', 'kpublictransport', 'kquickcharts', 'ktexttemplate', 'kuserfeedback', 'libkdegames', 'mpvqt', 'print-manager', 'pyside6', 'qcoro', 'qt6-3d', 'qt6-5compat', 'qt6-charts', 'qt6-connectivity', 'qt6-datavis3d', 'qt6-httpserver', 'qt6-location', 'qt6-lottie', 'qt6-positioning', 'qt6-quicktimeline', 'qt6-remoteobjects', 'qt6-scxml', 'qt6-sensors', 'qt6-speech', 'qt6-tools', 'qt6-virtualkeyboard', 'qt6-wayland', 'qt6-webchannel', 'qt6-websockets', 'sddm', 'solid']"
 +++
 ### Description: 
 The Qt6 toolkit, qtdeclarative
