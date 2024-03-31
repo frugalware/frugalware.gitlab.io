@@ -1,22 +1,23 @@
 +++
 draft = false
-title = "stellarsolver 2.5-2"
-version = "2.5-2"
+title = "stellarsolver 2.5-3"
+version = "2.5-3"
 description = "The cross platform Sextractor and Astrometry.net-Based internal astrometric solver"
-date = "2024-03-28T16:57:02"
+date = "2024-03-31T14:51:34"
 aliases = "/packages/221199"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/rlancaste/stellarsolver"
 arch = "x86_64"
-size = "445224"
-usize = "1467443"
-sha1sum = "d2908f4ce6c0f78b72677399a6de5c9e97baa401"
+size = "1210824"
+usize = "2607030"
+sha1sum = "05d3dd9182b97e8cd289f349f795d034f17dce60"
 depends = "['gsl', 'hicolor-icon-theme', 'qt5-base', 'wcslib']"
 +++
 ### Description: 
 The cross platform Sextractor and Astrometry.net-Based internal astrometric solver
 
 ### Files: 
+* /usr/bin/StellarSolverTester
 * /usr/include/libstellarsolver/astrometry/an-bool.h
 * /usr/include/libstellarsolver/astrometry/anqfits.h
 * /usr/include/libstellarsolver/astrometry/bl-nl.h
@@ -92,5 +93,11 @@ The cross platform Sextractor and Astrometry.net-Based internal astrometric solv
 * /usr/lib/libstellarsolver.so.2
 * /usr/lib/libstellarsolver.so.2.5
 * /usr/lib/pkgconfig/stellarsolver.pc
+* /usr/share/applications/com.github.rlancaste.stellarsolver.desktop
 * /usr/share/doc/stellarsolver-2.5/LICENSE
 * /usr/share/doc/stellarsolver-2.5/README.md
+* /usr/share/icons/hicolor/128x128/apps/StellarSolverIcon.png
+* /usr/share/icons/hicolor/16x16/apps/StellarSolverIcon.png
+* /usr/share/icons/hicolor/32x32/apps/StellarSolverIcon.png
+* /usr/share/icons/hicolor/48x48/apps/StellarSolverIcon.png
+* /usr/share/icons/hicolor/64x64/apps/StellarSolverIcon.png
