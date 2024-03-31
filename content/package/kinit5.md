@@ -12,6 +12,7 @@ size = "114388"
 usize = "507103"
 sha1sum = "703c332f3e15f25439bdcced0266cd9dc7729643"
 depends = "[]"
+reverse_depends = "['cervisia']"
 +++
 ### Description: 
 KInit.

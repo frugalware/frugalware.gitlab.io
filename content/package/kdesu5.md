@@ -12,6 +12,7 @@ size = "65932"
 usize = "252689"
 sha1sum = "6f20955266d422f82d199b087941b1bbee65c9e6"
 depends = "[]"
+reverse_depends = "['cervisia']"
 +++
 ### Description: 
 User interface for running shell commands with root privileges.

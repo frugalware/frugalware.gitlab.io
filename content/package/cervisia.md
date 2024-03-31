@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "cervisia 23.08.5-1"
-version = "23.08.5-1"
+title = "cervisia 24.02.1-1"
+version = "24.02.1-1"
 description = "CVS Frontend"
-date = "2024-02-20T12:08:27"
+date = "2024-03-30T23:27:50"
 aliases = "/packages/219319"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2468172"
-usize = "6575287"
-sha1sum = "077cec4f93ffd019ea3f8ff0a39c48e65e369b61"
-depends = "['kdesu>=5.115.0', 'kinit>=5.115.0', 'kparts>=5.115.0']"
+size = "2469008"
+usize = "6577949"
+sha1sum = "b3077b40d862439d94b4a0fa615d80b98ead6b08"
+depends = "['kdesu5>=5.115.0', 'kinit5>=5.115.0', 'kparts5>=5.115.0']"
 +++
 ### Description: 
 CVS Frontend
@@ -30,13 +30,13 @@ CVS Frontend
 * /usr/share/dbus-1/interfaces/org.kde.cervisia5.cvsloginjob.xml
 * /usr/share/dbus-1/interfaces/org.kde.cervisia5.cvsservice.xml
 * /usr/share/dbus-1/interfaces/org.kde.cervisia5.repository.xml
-* /usr/share/doc/cervisia-23.08.5/ChangeLog
-* /usr/share/doc/cervisia-23.08.5/COPYING
-* /usr/share/doc/cervisia-23.08.5/COPYING.DOC
-* /usr/share/doc/cervisia-23.08.5/COPYING.LIB
-* /usr/share/doc/cervisia-23.08.5/HACKING
-* /usr/share/doc/cervisia-23.08.5/README
-* /usr/share/doc/cervisia-23.08.5/TODO
+* /usr/share/doc/cervisia-24.02.1/ChangeLog
+* /usr/share/doc/cervisia-24.02.1/COPYING
+* /usr/share/doc/cervisia-24.02.1/COPYING.DOC
+* /usr/share/doc/cervisia-24.02.1/COPYING.LIB
+* /usr/share/doc/cervisia-24.02.1/HACKING
+* /usr/share/doc/cervisia-24.02.1/README
+* /usr/share/doc/cervisia-24.02.1/TODO
 * /usr/share/doc/HTML/ca/cervisia/checkout.png
 * /usr/share/doc/HTML/ca/cervisia/import.png
 * /usr/share/doc/HTML/ca/cervisia/index.cache.bz2
@@ -142,6 +142,7 @@ CVS Frontend
 * /usr/share/icons/hicolor/scalable/actions/vcs-remove-cvs-cervisia.svgz
 * /usr/share/icons/hicolor/scalable/actions/vcs-status-cvs-cervisia.svgz
 * /usr/share/icons/hicolor/scalable/actions/vcs-update-cvs-cervisia.svgz
+* /usr/share/icons/hicolor/scalable/apps/cervisia.svg
 * /usr/share/knotifications5/cervisia.notifyrc
 * /usr/share/kservices5/org.kde.cervisiapart5.desktop
 * /usr/share/kservices5/org.kde.cvsservice5.desktop
