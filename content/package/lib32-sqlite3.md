@@ -12,7 +12,7 @@ size = "1424120"
 usize = "4215683"
 sha1sum = "26e58b3a4afc9ac30d609e846367130f5432bc48"
 depends = "['lib32-ncurses>=6.1-5', 'lib32-readline>=8.0-3']"
-reverse_depends = "['lib32-libsndfile', 'lib32-nss']"
+reverse_depends = "['lib32-libsndfile', 'lib32-nss', 'lib32-util-linux']"
 +++
 ### Description: 
 A C library that implements an SQL database engine ( 32bit )

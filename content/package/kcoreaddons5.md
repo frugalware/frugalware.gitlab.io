@@ -12,7 +12,7 @@ size = "466728"
 usize = "2032583"
 sha1sum = "1d661d720a5754aa8f807af4710914baaa539535"
 depends = "['qt5-base>=5.15.12', 'shared-mime-info']"
-reverse_depends = "['kcrash5', 'kdav5', 'kdesignerplugin5', 'kfilemetadata5', 'kjobwidgets5', 'kpackage5', 'kpty5', 'krename', 'libmediawiki', 'minuet', 'purpose5', 'skanlite']"
+reverse_depends = "['kcrash5', 'kdav5', 'kdesignerplugin5', 'kfilemetadata5', 'kjobwidgets5', 'kpackage5', 'kpty5', 'krename', 'ktux', 'libmediawiki', 'minuet', 'purpose5', 'skanlite']"
 +++
 ### Description: 
 Utilities for core application functionality and accessing the OS.

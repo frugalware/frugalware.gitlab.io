@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libuuid 2.39.3-10"
-version = "2.39.3-10"
+title = "lib32-libuuid 2.40-1"
+version = "2.40-1"
 description = "Universally unique id library ( 32bit )"
-date = "2024-02-01T13:12:02"
+date = "2024-03-31T12:15:39"
 aliases = "/packages/217923"
 categories = ['lib32-extra']
 upstreamurl = "http://www.kernel.org/pub/linux/utils/util-linux/"
 arch = "x86_64"
-size = "22644"
-usize = "34276"
-sha1sum = "0c3c1a16c273bea8bc12ccb6c1c32092f0809759"
+size = "23800"
+usize = "38467"
+sha1sum = "fb8431fa2579fc8307a7e06d6e1fbef27c5505bf"
 depends = "['glibc>=2.36']"
 reverse_depends = "['lib32-fontconfig', 'lib32-libblkid', 'lib32-libsm', 'lib32-libsystemd', 'lib32-libxaw', 'lib32-util-linux']"
 +++

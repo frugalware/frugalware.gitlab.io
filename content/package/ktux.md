@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktux 20200621.gfc79881-1"
-version = "20200621.gfc79881-1"
+title = "ktux 20200621.gfc79881-2"
+version = "20200621.gfc79881-2"
 description = "Screensaver of outer space."
-date = "2020-06-21T21:37:37"
+date = "2024-03-31T12:51:59"
 aliases = "/packages/184730"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "117584"
-usize = "182958"
-sha1sum = "a5f617e0e7dcb747374dcd6db340f2968e0d6cb9"
-depends = "['kconfig>=5.71.0', 'kcoreaddons>=5.71.0']"
+size = "118588"
+usize = "182315"
+sha1sum = "547503adc083c156ee3a0b3f0880df010f37f089"
+depends = "['kconfig5>=5.115.0', 'kcoreaddons5>=5.115.0']"
 +++
 ### Description: 
 Screensaver of outer space.
