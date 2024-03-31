@@ -12,7 +12,7 @@ size = "85656"
 usize = "609576"
 sha1sum = "43474ea7f0191abac9d5ab774b0d689fd143dd18"
 depends = "['wayland>=1.15.0']"
-reverse_depends = "['efl', 'gtk+4', 'kwayland-integration']"
+reverse_depends = "['efl', 'gtk+4']"
 +++
 ### Description: 
 Wayland protocols that adds functionality not available in the core protocol.

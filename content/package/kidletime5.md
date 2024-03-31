@@ -12,7 +12,7 @@ size = "37916"
 usize = "178816"
 sha1sum = "f334e22bf19e591d8f111cce9b9462a71d8f37bf"
 depends = "['libxscrnsaver', 'qt5-x11extras>=5.15.12']"
-reverse_depends = "['rsibreak']"
+reverse_depends = "['kwayland-integration', 'rsibreak']"
 +++
 ### Description: 
 Reporting of idle time of user and system.

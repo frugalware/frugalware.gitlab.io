@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwayland-integration 5.27.10-5"
-version = "5.27.10-5"
+title = "kwayland-integration 6.0.3-1"
+version = "6.0.3-1"
 description = "KDE Plasma Wayland Integration"
-date = "2024-02-19T12:10:56"
+date = "2024-03-31T20:08:59"
 aliases = "/packages/218362"
-categories = ['plasma']
+categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "31584"
-usize = "108766"
-sha1sum = "2c091d2e0a137b1c5089a86e59fea0363a8d560e"
-depends = "['kguiaddons>=5.115.0', 'kidletime>=5.115.0', 'kwayland>=5.115.0', 'kwindowsystem>=5.115.0', 'wayland-protocols']"
+size = "35684"
+usize = "163150"
+sha1sum = "b54a30e2eab7d82bbad97cd227a66a52ddc92842"
+depends = "['kguiaddons5>=', 'kidletime5>=', 'kwayland5>=', 'kwindowsystem5>=']"
 reverse_depends = "['plasma-wayland-session']"
 +++
 ### Description: 

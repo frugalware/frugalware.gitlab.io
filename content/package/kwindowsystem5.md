@@ -12,6 +12,7 @@ size = "175720"
 usize = "729153"
 sha1sum = "f0ff6e729ad3dcea8948812abdef2eaa957152e3"
 depends = "['qt5-x11extras>=5.15.12', 'xcb-util-keysyms>=0.4.0-3']"
+reverse_depends = "['kwayland-integration']"
 +++
 ### Description: 
 KDE Access to window manager.
