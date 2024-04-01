@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "babe 20200620.g116b7cd-3"
-version = "20200620.g116b7cd-3"
+title = "babe 20200620.g116b7cd-4"
+version = "20200620.g116b7cd-4"
 description = "Tiny Qt Music Player to keep your favorite songs at hand"
-date = "2024-01-25T08:45:33"
+date = "2024-04-01T20:07:54"
 aliases = "/packages/219181"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "552352"
+size = "552032"
 usize = "1752365"
-sha1sum = "cc5f4598768d04c71b66405d3e614833732c6ff4"
-depends = "['knotifications>=5.114.0', 'pcre2', 'qt5-multimedia>=5.15.12', 'qt5-webengine>=5.15.12', 'qt5-websockets>=5.15.12', 'taglib>=2.0']"
+sha1sum = "f68d2336da44ba94a9bc2d6733299e1c83790173"
+depends = "['knotifications5>=5.115.0', 'pcre2', 'qt5-multimedia>=5.15.12', 'qt5-webengine>=5.15.12', 'qt5-websockets>=5.15.12', 'taglib>=2.0']"
 +++
 ### Description: 
 Tiny Qt Music Player to keep your favorite songs at hand
