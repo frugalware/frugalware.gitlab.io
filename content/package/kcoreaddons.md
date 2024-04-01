@@ -12,7 +12,7 @@ size = "448336"
 usize = "1959347"
 sha1sum = "800a851b90434818fc748ceeb569ad85cbe01ba2"
 depends = "['qt6-base>=6.6.3', 'shared-mime-info']"
-reverse_depends = "['alligator', 'audiotube', 'breeze', 'calamares-frugalware', 'discover', 'disman', 'dolphin', 'itinerary', 'kalk', 'kauth', 'kcachegrind', 'kclock', 'kconfigwidgets', 'kcontacts', 'kcrash', 'kdav', 'kdebugsettings', 'kdecoration', 'kdeplasma-addons', 'kdeplasma-addons5', 'kdesignerplugin', 'kfilemetadata', 'kglobalacceld', 'kjournald', 'kongress', 'kontrast', 'kopete', 'kpackage', 'kpimtextedit', 'kpipewire', 'kpty', 'krecorder', 'krunner', 'ksmtp', 'ksvg', 'ktrip', 'kwin', 'libkcompactdisc', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'plasma5support', 'plasmatube', 'purpose', 'qmlkonsole', 'rkward', 'svgpart', 'sweeper', 'xwaylandvideobridge']"
+reverse_depends = "['alligator', 'audiotube', 'breeze', 'calamares-frugalware', 'discover', 'disman', 'dolphin', 'itinerary', 'kalk', 'kauth', 'kcachegrind', 'kclock', 'kconfigwidgets', 'kcontacts', 'kcrash', 'kdav', 'kdebugsettings', 'kdecoration', 'kdeplasma-addons', 'kdeplasma-addons5', 'kdesignerplugin', 'kfilemetadata', 'kglobalacceld', 'kjournald', 'kongress', 'kontrast', 'kopete', 'kpackage', 'kpimtextedit', 'kpipewire', 'kpty', 'krecorder', 'krunner', 'ksmtp', 'ksvg', 'ktrip', 'kwin', 'libkcompactdisc', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'plasma5support', 'plasmatube', 'purpose', 'qmlkonsole', 'svgpart', 'sweeper', 'xwaylandvideobridge']"
 +++
 ### Description: 
 Utilities for core application functionality and accessing the OS.

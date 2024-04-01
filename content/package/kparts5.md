@@ -12,7 +12,7 @@ size = "233240"
 usize = "892140"
 sha1sum = "ab06c32fa1de7346885c3e44353b41e0cde2ea4e"
 depends = "['kio5>=5.115.0']"
-reverse_depends = "['cervisia', 'kdiff3', 'kross5', 'krusader', 'ktexteditor5', 'libkomparediff2', 'libmarble', 'okteta', 'skrooge']"
+reverse_depends = "['cervisia', 'kdiff3', 'kross5', 'krusader', 'ktexteditor5', 'libkomparediff2', 'libmarble', 'okteta', 'rkward', 'skrooge']"
 +++
 ### Description: 
 Plugin framework for user interface components.

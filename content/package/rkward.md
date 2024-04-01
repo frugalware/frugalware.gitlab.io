@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "rkward 0.7.5-2"
-version = "0.7.5-2"
+title = "rkward 0.7.5-3"
+version = "0.7.5-3"
 description = "Easily extensible, easy to use IDE/GUI for R."
-date = "2023-10-21T18:02:51"
+date = "2024-04-01T00:03:52"
 aliases = "/packages/136601"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3153932"
-usize = "16546543"
-sha1sum = "df8a554c12e5baaedefaa0b39064573ba5ccabb2"
-depends = "['kconfig>=5.110.0', 'kcoreaddons>=5.110.0', 'kdoctools>=5.110.0', 'ki18n>=5.110.0', 'knotifications>=5.110.0', 'kparts>=5.110.0', 'ktexteditor>=5.110.0', 'kwidgetsaddons>=5.110.0', 'kwindowsystem>=5.110.0', 'kxmlgui>=5.110.0', 'qt5-webengine>=5.15.11', 'r']"
+size = "3155724"
+usize = "16546551"
+sha1sum = "a87031458278afe58ad61ad5f6c77dec27808d3f"
+depends = "['kconfig5>=5.115.0', 'kcoreaddons5>=5.115.0', 'kdoctools5>=5.115.0', 'ki18n5>=5.115.0', 'knotifications5>=5.115.0', 'kparts5>=5.115.0', 'ktexteditor5>=5.115.0', 'kwidgetsaddons5>=5.115.0', 'kwindowsystem5>=5.115.0', 'kxmlgui5>=5.115.0', 'qt5-webengine>=5.15.12', 'r']"
 +++
 ### Description: 
 Easily extensible, easy to use IDE/GUI for R.
