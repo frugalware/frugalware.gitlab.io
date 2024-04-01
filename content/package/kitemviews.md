@@ -12,7 +12,7 @@ size = "112332"
 usize = "410973"
 sha1sum = "45c22616f023d2a1e4bf52e3b328f8b1188b8b99"
 depends = "['qt6-base>=6.6.3']"
-reverse_depends = "['akonadi', 'discover', 'kdebugsettings', 'kiconthemes', 'kpeople', 'krita']"
+reverse_depends = "['akonadi', 'discover', 'kdebugsettings', 'kiconthemes', 'kpeople']"
 +++
 ### Description: 
 Set of item views extending the Qt model-view framework.

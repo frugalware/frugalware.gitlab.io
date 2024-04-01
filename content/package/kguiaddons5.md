@@ -12,7 +12,7 @@ size = "86136"
 usize = "318508"
 sha1sum = "2972bda637189e2c12eeded048a1ff29536d9dc5"
 depends = "['qt5-base>=5.15.12', 'qt5-wayland>=5.15.12', 'qt5-x11extras>=5.15.12']"
-reverse_depends = "['kwayland-integration']"
+reverse_depends = "['krita', 'kwayland-integration']"
 +++
 ### Description: 
 Utilities for graphical user interfaces.

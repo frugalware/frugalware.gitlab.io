@@ -12,7 +12,7 @@ size = "94168"
 usize = "352703"
 sha1sum = "9399ab63cee36df9d172a1e7c202acadfdbe72cf"
 depends = "['qt5-base>=5.15.12']"
-reverse_depends = "['kpeople5', 'krename']"
+reverse_depends = "['kpeople5', 'krename', 'krita']"
 +++
 ### Description: 
 Set of item views extending the Qt model-view framework.

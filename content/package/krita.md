@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "krita 5.2.2-2"
-version = "5.2.2-2"
+title = "krita 5.2.2-3"
+version = "5.2.2-3"
 description = "Krita is a FREE sketching and painting program"
-date = "2024-02-29T10:46:45"
+date = "2024-04-01T01:12:13"
 aliases = "/packages/218645"
 categories = ['kde5-extra']
 upstreamurl = "https://krita.org/"
 arch = "x86_64"
-size = "73909224"
-usize = "177197996"
-sha1sum = "61b242889decf392c97bbf86e35d24dfb699e3b1"
-depends = "['eigen', 'exiv2>=0.28.1', 'gsl', 'kcompletion', 'kcrash', 'kguiaddons', 'ki18n', 'kitemviews', 'kseexpr', 'libkdcraw', 'libmypaint', 'libunibreak>=6.0', 'mlt', 'opencolorio', 'poppler-qt5', 'qt5-svg', 'quazip']"
+size = "73854984"
+usize = "176956779"
+sha1sum = "256b3b489565b4c5cd977751fb83d4c59967b6fd"
+depends = "['eigen', 'exiv2>=0.28.1', 'gsl', 'kcompletion5', 'kcrash5', 'kguiaddons5', 'ki18n5', 'kitemviews5', 'kseexpr', 'libkdcraw', 'libmypaint', 'libunibreak>=6.0', 'mlt', 'opencolorio', 'poppler-qt5', 'qt5-svg', 'quazip']"
 +++
 ### Description: 
 Krita is a FREE sketching and painting program
@@ -197,7 +197,6 @@ Krita is a FREE sketching and painting program
 * /usr/lib/kritaplugins/krita_colorspaces_extensions.so
 * /usr/lib/kritaplugins/krita_flaketools.so
 * /usr/lib/kritaplugins/krita_karbontools.so
-* /usr/lib/kritaplugins/krita_raw_import.so
 * /usr/lib/kritaplugins/krita_shape_image.so
 * /usr/lib/kritaplugins/krita_shape_paths.so
 * /usr/lib/kritaplugins/krita_tool_svgtext.so
@@ -302,7 +301,6 @@ Krita is a FREE sketching and painting program
 * /usr/share/applications/krita_png.desktop
 * /usr/share/applications/krita_psd.desktop
 * /usr/share/applications/krita_qimageio.desktop
-* /usr/share/applications/krita_raw.desktop
 * /usr/share/applications/krita_spriter.desktop
 * /usr/share/applications/krita_svg.desktop
 * /usr/share/applications/krita_tga.desktop
