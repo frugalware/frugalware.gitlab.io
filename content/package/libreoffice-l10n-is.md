@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-is 24.2.1.2-1"
-version = "24.2.1.2-1"
+title = "libreoffice-l10n-is 24.2.1.2-2"
+version = "24.2.1.2-2"
 description = "Installs Icelandic support in LibreOffice"
-date = "2024-02-29T16:29:34"
+date = "2024-04-02T21:47:46"
 aliases = "/packages/104069"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "3979576"
+size = "3980268"
 usize = "32731389"
-sha1sum = "932e5bacfb1b39fdca07c23bea0a8db7ae8a5f22"
+sha1sum = "07314e5254f7a526e9224de6bface5540b74b590"
 depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 

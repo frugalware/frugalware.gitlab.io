@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-ne 24.2.1.2-1"
-version = "24.2.1.2-1"
+title = "libreoffice-l10n-ne 24.2.1.2-2"
+version = "24.2.1.2-2"
 description = "Installs Nepali support in LibreOffice"
-date = "2024-02-29T16:29:34"
+date = "2024-04-02T21:47:46"
 aliases = "/packages/104092"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4629500"
+size = "4629436"
 usize = "39452635"
-sha1sum = "84f21c117049a223efe352e4aea273375f685006"
+sha1sum = "7208f9d90a67f65419f67c31273feb898db3c076"
 depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 

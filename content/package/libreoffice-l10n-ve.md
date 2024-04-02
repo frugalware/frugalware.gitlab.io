@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-ve 24.2.1.2-1"
-version = "24.2.1.2-1"
+title = "libreoffice-l10n-ve 24.2.1.2-2"
+version = "24.2.1.2-2"
 description = "Installs Venda support in LibreOffice"
-date = "2024-02-29T16:29:34"
+date = "2024-04-02T21:47:46"
 aliases = "/packages/104135"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "211224"
+size = "211352"
 usize = "1334360"
-sha1sum = "1b7c4f1321e6b9195cb8cef0f865e3625c09a5e3"
+sha1sum = "85a0038b199b1da70e162438fd970240cb0371cc"
 depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 

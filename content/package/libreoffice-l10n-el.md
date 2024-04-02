@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-el 24.2.1.2-1"
-version = "24.2.1.2-1"
+title = "libreoffice-l10n-el 24.2.1.2-2"
+version = "24.2.1.2-2"
 description = "Installs Greek support in LibreOffice"
-date = "2024-02-29T16:29:34"
+date = "2024-04-02T21:47:46"
 aliases = "/packages/104050"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "5059148"
+size = "5059708"
 usize = "46418363"
-sha1sum = "2eedcb299decadf92e92fc223014e24b838f631a"
+sha1sum = "d203330ca245f57cfa90a90aa53a0c445166d4c5"
 depends = "['libreoffice>=24.2.1.2']"
 +++
 ### Description: 
