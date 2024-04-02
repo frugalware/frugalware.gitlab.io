@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "noto-fonts-extra 24.3.1-1"
-version = "24.3.1-1"
+title = "noto-fonts-extra 24.4.1-1"
+version = "24.4.1-1"
 description = "Extra Noto fonts"
-date = "2024-03-07T11:14:39"
+date = "2024-04-02T08:13:07"
 aliases = "/packages/221369"
 categories = ['x11-extra']
 upstreamurl = "https://www.google.com/get/noto/"
 arch = "x86_64"
-size = "69672268"
-usize = "334422908"
-sha1sum = "fe88a0e5b0753e193b6c17bd8b4a8a3410815121"
+size = "69689300"
+usize = "334449652"
+sha1sum = "84ad66a04c975b148ec3ae05c8b1eed1e6f13b77"
 depends = "[]"
 +++
 ### Description: 
