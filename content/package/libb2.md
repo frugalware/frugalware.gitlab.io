@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libb2 0.98.1-1"
-version = "0.98.1-1"
+title = "libb2 0.98.1-2"
+version = "0.98.1-2"
 description = "C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp hash functions"
-date = "2022-11-28T11:50:56"
+date = "2024-04-02T11:10:15"
 aliases = "/packages/220786"
-categories = ['lib-extra']
+categories = ['lib']
 upstreamurl = "https://blake2.net/"
 arch = "x86_64"
-size = "40376"
-usize = "129889"
-sha1sum = "1dc149f198fb45ef1aa7ab1624d9ea150154e760"
+size = "40248"
+usize = "129623"
+sha1sum = "6b30e395e1bfd55a58a7f9bc143271a24b6230d5"
 depends = "['glibc']"
 reverse_depends = "['qt6-base']"
 +++

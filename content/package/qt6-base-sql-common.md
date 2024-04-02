@@ -12,7 +12,7 @@ size = "12452"
 usize = "59572"
 sha1sum = "8471eb9a5955b51cc886fcc77f8135cf532155a3"
 depends = "[]"
-reverse_depends = "['alizams', 'futuresql', 'kactivitymanagerd', 'kpeople', 'plasma-activities', 'qt6-base-mysql', 'qt6-base-postgresql', 'qtcreator']"
+reverse_depends = "['alizams', 'futuresql', 'qt6-base-mysql', 'qt6-base-postgresql', 'qtcreator']"
 +++
 ### Description: 
 Development files for SQL plugins
