@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sof-firmware 2023.12.1-1"
-version = "2023.12.1-1"
+title = "sof-firmware 2024.03-1"
+version = "2024.03-1"
 description = "Sound Open Firmware"
-date = "2024-03-05T09:14:11"
+date = "2024-04-02T18:04:06"
 aliases = "/packages/220320"
 categories = ['base']
 upstreamurl = "https://www.sofproject.org/"
 arch = "x86_64"
-size = "1080436"
-usize = "21352745"
-sha1sum = "4e314ea4b33606b7eb793d0d950d4f4c611b0783"
+size = "1672244"
+usize = "27910912"
+sha1sum = "ad7ad74f7faf2a41a89b5579985891f722c123e3"
 depends = "['glibc>=2.35']"
 +++
 ### Description: 
@@ -21,32 +21,67 @@ Sound Open Firmware
 * /usr/bin/sof-ctl
 * /usr/bin/sof-logger
 * /usr/bin/sof-probes
-* /usr/lib/firmware/intel/sof-ace-tplg/sof-hda-generic-2ch.tplg
-* /usr/lib/firmware/intel/sof-ace-tplg/sof-hda-generic-4ch.tplg
-* /usr/lib/firmware/intel/sof-ace-tplg/sof-hda-generic-ace1-2ch.tplg
-* /usr/lib/firmware/intel/sof-ace-tplg/sof-hda-generic-ace1-4ch.tplg
-* /usr/lib/firmware/intel/sof-ace-tplg/sof-hda-generic-cavs25-2ch.tplg
-* /usr/lib/firmware/intel/sof-ace-tplg/sof-hda-generic-cavs25-4ch.tplg
-* /usr/lib/firmware/intel/sof-ace-tplg/sof-hda-generic-idisp.tplg
-* /usr/lib/firmware/intel/sof-ace-tplg/sof-hda-generic.tplg
-* /usr/lib/firmware/intel/sof-ace-tplg/sof-mtl-cs42l43-l0-cs35l56-l12.tplg
-* /usr/lib/firmware/intel/sof-ace-tplg/sof-mtl-es83x6-ssp1-hdmi-ssp02.tplg
-* /usr/lib/firmware/intel/sof-ace-tplg/sof-mtl-hdmi-ssp02.tplg
-* /usr/lib/firmware/intel/sof-ace-tplg/sof-mtl-max98357a-rt5682-ssp2-ssp0-2ch-pdm1.tplg
-* /usr/lib/firmware/intel/sof-ace-tplg/sof-mtl-max98357a-rt5682-ssp2-ssp0.tplg
-* /usr/lib/firmware/intel/sof-ace-tplg/sof-mtl-max98357a-rt5682.tplg
-* /usr/lib/firmware/intel/sof-ace-tplg/sof-mtl-rt1019-rt5682.tplg
-* /usr/lib/firmware/intel/sof-ace-tplg/sof-mtl-rt1318-l12-rt714-l0.tplg
-* /usr/lib/firmware/intel/sof-ace-tplg/sof-mtl-rt711-4ch.tplg
-* /usr/lib/firmware/intel/sof-ace-tplg/sof-mtl-rt711-l0-rt1316-l23-rt714-l1.tplg
-* /usr/lib/firmware/intel/sof-ace-tplg/sof-mtl-rt712-l0-rt1712-l3.tplg
-* /usr/lib/firmware/intel/sof-ace-tplg/sof-mtl-rt713-l0-rt1316-l12-rt1713-l3.tplg
-* /usr/lib/firmware/intel/sof-ace-tplg/sof-mtl-rt713-l0-rt1316-l12.tplg
-* /usr/lib/firmware/intel/sof-ace-tplg/sof-mtl-rt722-l0.tplg
-* /usr/lib/firmware/intel/sof-ace-tplg/sof-mtl-sdw-cs42l42-l0-max98363-l2.tplg
+* /usr/lib/firmware/intel/sof-ace-tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-adl-rt711-4ch.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-adl-rt711-l0-rt1308-l12-rt715-l3.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-adl-rt711-l0-rt1316-l12-rt714-l3.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-adl-rt711-l0-rt1316-l13-rt714-l2.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-2ch.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-4ch.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-ace1-2ch.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-ace1-4ch.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-cavs25-2ch.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-cavs25-4ch.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-idisp.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-imx8mp-wm8960.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-cs42l43-l0-cs35l56-l12.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-cs42l43-l0-cs35l56-l23.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-es83x6-ssp1-hdmi-ssp02.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-hdmi-ssp02.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-max98357a-rt5682-ssp2-ssp0-2ch-pdm1.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-max98357a-rt5682-ssp2-ssp0.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-max98357a-rt5682.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-rt1019-rt5682.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-rt1318-l12-rt714-l0.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-rt5650-dts.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-rt711-4ch.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-rt711-l0-rt1316-l23-rt714-l1.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-rt712-l0-rt1712-l3.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-rt713-l0-rt1316-l12-rt1713-l3.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-rt713-l0-rt1316-l12.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-rt722-l0.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-sdw-cs42l42-l0-max98363-l2.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-tgl-cs42l43-l3-cs35l56-l01.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-tgl-rt711-rt1308-4ch.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-tgl-rt711-rt1308-rt715.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-tgl-rt711-rt1316-rt714.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-tgl-rt712.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-tgl-rt715-rt711-rt1308-mono.tplg
+* /usr/lib/firmware/intel/sof-ipc4/adl-n/community/sof-adl-n.ri
+* /usr/lib/firmware/intel/sof-ipc4/adl-n/intel-signed/sof-adl-n.ri
+* /usr/lib/firmware/intel/sof-ipc4/adl-n/sof-adl-n.ri
+* /usr/lib/firmware/intel/sof-ipc4/adl-s/community/sof-adl-s.ri
+* /usr/lib/firmware/intel/sof-ipc4/adl-s/intel-signed/sof-adl-s.ri
+* /usr/lib/firmware/intel/sof-ipc4/adl-s/sof-adl-s.ri
+* /usr/lib/firmware/intel/sof-ipc4/adl/community/sof-adl.ri
+* /usr/lib/firmware/intel/sof-ipc4/adl/intel-signed/sof-adl.ri
+* /usr/lib/firmware/intel/sof-ipc4/adl/sof-adl.ri
 * /usr/lib/firmware/intel/sof-ipc4/mtl/community/sof-mtl.ri
 * /usr/lib/firmware/intel/sof-ipc4/mtl/intel-signed/sof-mtl.ri
 * /usr/lib/firmware/intel/sof-ipc4/mtl/sof-mtl.ri
+* /usr/lib/firmware/intel/sof-ipc4/rpl-s/community/sof-rpl-s.ri
+* /usr/lib/firmware/intel/sof-ipc4/rpl-s/intel-signed/sof-rpl-s.ri
+* /usr/lib/firmware/intel/sof-ipc4/rpl-s/sof-rpl-s.ri
+* /usr/lib/firmware/intel/sof-ipc4/rpl/community/sof-rpl.ri
+* /usr/lib/firmware/intel/sof-ipc4/rpl/intel-signed/sof-rpl.ri
+* /usr/lib/firmware/intel/sof-ipc4/rpl/sof-rpl.ri
+* /usr/lib/firmware/intel/sof-ipc4/tgl-h/community/sof-tgl-h.ri
+* /usr/lib/firmware/intel/sof-ipc4/tgl-h/intel-signed/sof-tgl-h.ri
+* /usr/lib/firmware/intel/sof-ipc4/tgl-h/sof-tgl-h.ri
+* /usr/lib/firmware/intel/sof-ipc4/tgl/community/sof-tgl.ri
+* /usr/lib/firmware/intel/sof-ipc4/tgl/intel-signed/sof-tgl.ri
+* /usr/lib/firmware/intel/sof-ipc4/tgl/sof-tgl.ri
 * /usr/lib/firmware/intel/sof-tplg/sof-acp.tplg
 * /usr/lib/firmware/intel/sof-tplg/sof-adl-cs35l41.tplg
 * /usr/lib/firmware/intel/sof-tplg/sof-adl-es8336-dmic2ch-ssp0.tplg
@@ -56,6 +91,7 @@ Sound Open Firmware
 * /usr/lib/firmware/intel/sof-tplg/sof-adl-es8336-dmic4ch-ssp1.tplg
 * /usr/lib/firmware/intel/sof-tplg/sof-adl-es8336-dmic4ch-ssp2.tplg
 * /usr/lib/firmware/intel/sof-tplg/sof-adl-es8336-ssp0.tplg
+* /usr/lib/firmware/intel/sof-tplg/sof-adl-es8336-ssp1-hdmi-ssp02-4ch.tplg
 * /usr/lib/firmware/intel/sof-tplg/sof-adl-es8336-ssp1-hdmi-ssp02.tplg
 * /usr/lib/firmware/intel/sof-tplg/sof-adl-es8336-ssp1.tplg
 * /usr/lib/firmware/intel/sof-tplg/sof-adl-es8336-ssp2.tplg
@@ -103,6 +139,7 @@ Sound Open Firmware
 * /usr/lib/firmware/intel/sof-tplg/sof-adl-rt711-l2-rt1316-l01-rt714-l3.tplg
 * /usr/lib/firmware/intel/sof-tplg/sof-adl-rt711-l2-rt1316-l01.tplg
 * /usr/lib/firmware/intel/sof-tplg/sof-adl-rt711.tplg
+* /usr/lib/firmware/intel/sof-tplg/sof-adl-sdw-cs42l42-4ch.tplg
 * /usr/lib/firmware/intel/sof-tplg/sof-adl-sdw-max98373-rt5682.tplg
 * /usr/lib/firmware/intel/sof-tplg/sof-apl-da7219.tplg
 * /usr/lib/firmware/intel/sof-tplg/sof-apl-demux-pcm512x.tplg
@@ -401,5 +438,5 @@ Sound Open Firmware
 * /usr/lib/firmware/intel/sof/sof-tgl-h.ri
 * /usr/lib/firmware/intel/sof/sof-tgl.ldc
 * /usr/lib/firmware/intel/sof/sof-tgl.ri
-* /usr/share/doc/sof-firmware-2023.12.1/README.Intel
-* /usr/share/doc/sof-firmware-2023.12.1/README.md
+* /usr/share/doc/sof-firmware-2024.03/README.Intel
+* /usr/share/doc/sof-firmware-2024.03/README.md
