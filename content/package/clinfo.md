@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "clinfo 3.0.23.01.25-2"
-version = "3.0.23.01.25-2"
+title = "clinfo 3.0.23.01.25-3"
+version = "3.0.23.01.25-3"
 description = "Simple OpenCL application that enumerates all available platform and device properties"
-date = "2024-01-26T10:10:28"
+date = "2024-04-02T12:52:16"
 aliases = "/packages/220856"
-categories = ['apps-extra']
+categories = ['apps']
 upstreamurl = "https://github.com/Oblomov/clinfo"
 arch = "x86_64"
-size = "51340"
+size = "51044"
 usize = "165892"
-sha1sum = "c5980a9873b366d2767cd0b53fd01d4bd69bc1a7"
+sha1sum = "26e6c9d864c4ffc6279ce3b767af9df55a9c76bf"
 depends = "['ocl-icd']"
 reverse_depends = "['kinfocenter']"
 +++

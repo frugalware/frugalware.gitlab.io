@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libsmbios 2.4.3-8"
-version = "2.4.3-8"
+title = "libsmbios 2.4.3-9"
+version = "2.4.3-9"
 description = "libsmbios is a library and set of tools that provide access to BIOS information."
-date = "2024-01-15T09:32:09"
+date = "2024-04-02T13:00:50"
 aliases = "/packages/219166"
-categories = ['lib-extra']
+categories = ['lib']
 upstreamurl = "https://github.com/dell/libsmbios"
 arch = "x86_64"
-size = "191136"
-usize = "1075385"
-sha1sum = "2502986d7f70ae61a70e92270fe47d4ed7426c85"
+size = "190028"
+usize = "1075352"
+sha1sum = "f3b0e46e378b7e57326dad7592c9fcded27d30b0"
 depends = "['libstdc++>=9.1.0-3', 'python3>=3.9.6']"
 reverse_depends = "['fwupd']"
 license = "OSL"

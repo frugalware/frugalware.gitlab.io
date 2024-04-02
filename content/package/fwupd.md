@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fwupd 1.9.14-1"
-version = "1.9.14-1"
+title = "fwupd 1.9.15-1"
+version = "1.9.15-1"
 description = "A simple daemon to allow session software to update firmware"
-date = "2024-02-27T14:29:32"
+date = "2024-04-02T12:13:22"
 aliases = "/packages/219170"
-categories = ['apps-extra']
+categories = ['apps']
 upstreamurl = "https://github.com/fwupd/fwupd"
 arch = "x86_64"
-size = "7190956"
-usize = "45453633"
-sha1sum = "60b0ab4fd8e594ea24e8dab6f8923be75702b888"
+size = "7192104"
+usize = "45550560"
+sha1sum = "627bdca6695316a05de665e12d4be93b06221dfc"
 depends = "['appstream-glib', 'colord', 'efivar', 'fwupd-efi', 'gnu-efi', 'gpgme', 'gsettings-desktop-schemas', 'libarchive', 'libgusb', 'libjcat', 'libsmbios', 'libxmlb>=0.2.0', 'protobuf-c', 'tpm2-tss', 'udisks2']"
 reverse_depends = "['discover', 'kinfocenter']"
 +++
@@ -49,9 +49,9 @@ A simple daemon to allow session software to update firmware
 * /usr/include/fwupd-1/libfwupd/fwupd-request.h
 * /usr/include/fwupd-1/libfwupd/fwupd-security-attr.h
 * /usr/include/fwupd-1/libfwupd/fwupd-version.h
-* /usr/lib/fwupd-1.9.14/libfwupdengine.so
-* /usr/lib/fwupd-1.9.14/libfwupdplugin.so
-* /usr/lib/fwupd-1.9.14/libfwupdutil.so
+* /usr/lib/fwupd-1.9.15/libfwupdengine.so
+* /usr/lib/fwupd-1.9.15/libfwupdplugin.so
+* /usr/lib/fwupd-1.9.15/libfwupdutil.so
 * /usr/lib/fwupd/fwupd
 * /usr/lib/fwupd/fwupd-detect-cet
 * /usr/lib/fwupd/fwupdoffline
@@ -97,9 +97,9 @@ A simple daemon to allow session software to update firmware
 * /usr/share/dbus-1/interfaces/org.freedesktop.fwupd.xml
 * /usr/share/dbus-1/system-services/org.freedesktop.fwupd.service
 * /usr/share/dbus-1/system.d/org.freedesktop.fwupd.conf
-* /usr/share/doc/fwupd-1.9.14/COPYING
-* /usr/share/doc/fwupd-1.9.14/README.md
-* /usr/share/doc/fwupd-1.9.14/RELEASE
+* /usr/share/doc/fwupd-1.9.15/COPYING
+* /usr/share/doc/fwupd-1.9.15/README.md
+* /usr/share/doc/fwupd-1.9.15/RELEASE
 * /usr/share/doc/fwupd/hsi.html
 * /usr/share/doc/fwupd/index.html
 * /usr/share/doc/fwupd/libfwupd
@@ -1290,6 +1290,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/const.DEVICE_INTERNAL_FLAG_NO_SERIAL_NUMBER.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_INTERNAL_FLAG_ONLY_SUPPORTED.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_INTERNAL_FLAG_ONLY_WAIT_FOR_REPLUG.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_INTERNAL_FLAG_REFCOUNTED_PROXY.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_INTERNAL_FLAG_REPLUG_MATCH_GUID.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_INTERNAL_FLAG_RETRY_OPEN.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_INTERNAL_FLAG_SAVE_INTO_BACKUP_REMOTE.html
@@ -1482,6 +1483,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/const.QUIRKS_PLUGIN.html
 * /usr/share/doc/libfwupdplugin/const.QUIRKS_PRIORITY.html
 * /usr/share/doc/libfwupdplugin/const.QUIRKS_PROTOCOL.html
+* /usr/share/doc/libfwupdplugin/const.QUIRKS_PROXY_GTYPE.html
 * /usr/share/doc/libfwupdplugin/const.QUIRKS_PROXY_GUID.html
 * /usr/share/doc/libfwupdplugin/const.QUIRKS_REMOVE_DELAY.html
 * /usr/share/doc/libfwupdplugin/const.QUIRKS_SUMMARY.html
@@ -3154,6 +3156,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/method.Config.get_value_strv.html
 * /usr/share/doc/libfwupdplugin/method.Config.get_value_u64.html
 * /usr/share/doc/libfwupdplugin/method.Config.load.html
+* /usr/share/doc/libfwupdplugin/method.Config.reset_defaults.html
 * /usr/share/doc/libfwupdplugin/method.Config.set_default.html
 * /usr/share/doc/libfwupdplugin/method.Config.set_value.html
 * /usr/share/doc/libfwupdplugin/method.Context.add_compile_version.html
@@ -3172,6 +3175,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/method.Context.get_compile_versions.html
 * /usr/share/doc/libfwupdplugin/method.Context.get_config.html
 * /usr/share/doc/libfwupdplugin/method.Context.get_display_state.html
+* /usr/share/doc/libfwupdplugin/method.Context.get_esp_location.html
 * /usr/share/doc/libfwupdplugin/method.Context.get_esp_volumes.html
 * /usr/share/doc/libfwupdplugin/method.Context.get_fdt.html
 * /usr/share/doc/libfwupdplugin/method.Context.get_firmware_gtypes.html
@@ -3205,6 +3209,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/method.Context.set_battery_threshold.html
 * /usr/share/doc/libfwupdplugin/method.Context.set_chassis_kind.html
 * /usr/share/doc/libfwupdplugin/method.Context.set_display_state.html
+* /usr/share/doc/libfwupdplugin/method.Context.set_esp_location.html
 * /usr/share/doc/libfwupdplugin/method.Context.set_lid_state.html
 * /usr/share/doc/libfwupdplugin/method.Context.set_power_state.html
 * /usr/share/doc/libfwupdplugin/method.CsvEntry.add_value.html
@@ -3280,6 +3285,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/method.Device.get_priority.html
 * /usr/share/doc/libfwupdplugin/method.Device.get_private_flags.html
 * /usr/share/doc/libfwupdplugin/method.Device.get_proxy.html
+* /usr/share/doc/libfwupdplugin/method.Device.get_proxy_gtype.html
 * /usr/share/doc/libfwupdplugin/method.Device.get_proxy_guid.html
 * /usr/share/doc/libfwupdplugin/method.Device.get_proxy_with_fallback.html
 * /usr/share/doc/libfwupdplugin/method.Device.get_remove_delay.html
@@ -3569,6 +3575,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/method.Plugin.name_compare.html
 * /usr/share/doc/libfwupdplugin/method.Plugin.open.html
 * /usr/share/doc/libfwupdplugin/method.Plugin.order_compare.html
+* /usr/share/doc/libfwupdplugin/method.Plugin.reset_config_values.html
 * /usr/share/doc/libfwupdplugin/method.Plugin.runner_activate.html
 * /usr/share/doc/libfwupdplugin/method.Plugin.runner_add_security_attrs.html
 * /usr/share/doc/libfwupdplugin/method.Plugin.runner_attach.html
