@@ -12,6 +12,7 @@ size = "1715964"
 usize = "2479989"
 sha1sum = "64ce8161eddc5d5f4e37c79425c240c4eceb76e7"
 depends = "['qt5-base>=5.15.12', 'qt5-xmlpatterns>=5.15.12']"
+reverse_depends = "['kio-extras-kf5']"
 +++
 ### Description: 
 Syntax highlighting Engine for Structured Text and Code

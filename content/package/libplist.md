@@ -12,7 +12,7 @@ size = "83640"
 usize = "300342"
 sha1sum = "d73b566265456874f6f3867fc60d213ae1ac6496"
 depends = "['libxml2>=2.9.4-3']"
-reverse_depends = "['kio-extras', 'libimobiledevice-glue', 'libusbmuxd']"
+reverse_depends = "['kio-extras', 'kio-extras-kf5', 'libimobiledevice-glue', 'libusbmuxd']"
 +++
 ### Description: 
 Library for manipulating Apple Binary and XML Property Lists

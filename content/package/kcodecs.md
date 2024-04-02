@@ -12,7 +12,7 @@ size = "140156"
 usize = "693380"
 sha1sum = "9e99c3d304dc94e3d0e27eeb5d2b2716c79ced25"
 depends = "['qt6-base>=6.6.3']"
-reverse_depends = "['akonadi-contacts', 'kcompletion', 'kconfigwidgets', 'kcontacts', 'kmime', 'mimetreeparser']"
+reverse_depends = "['akonadi-contacts', 'kcompletion', 'kconfigwidgets', 'kcontacts', 'khealthcertificate', 'kmime', 'mimetreeparser']"
 +++
 ### Description: 
 Plugins allowing Qt applications to access further types of images.
