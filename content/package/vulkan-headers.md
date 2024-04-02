@@ -12,7 +12,6 @@ size = "1346104"
 usize = "27199331"
 sha1sum = "02c333f6d6480d401b202da8a9d3c920c2470f43"
 depends = "['glibc>=2.35']"
-reverse_depends = "['qt6-base']"
 +++
 ### Description: 
 Vulkan Header files and API registry

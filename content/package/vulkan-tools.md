@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vulkan-tools 1.3.280.0-1"
-version = "1.3.280.0-1"
+title = "vulkan-tools 1.3.280.0-2"
+version = "1.3.280.0-2"
 description = "Vulkan Utilities and Tools"
-date = "2024-03-25T19:47:45"
+date = "2024-04-02T12:07:27"
 aliases = "/packages/219806"
-categories = ['apps-extra']
+categories = ['apps']
 upstreamurl = "https://www.khronos.org/vulkan/"
 arch = "x86_64"
-size = "267312"
+size = "265344"
 usize = "1538029"
-sha1sum = "a7e96827154af5556a62b6b8c8a2a59e126b0e40"
+sha1sum = "763dd77e130875b8dfe4117c0221027f36ab76a4"
 depends = "['libstdc++', 'libxcb', 'vulkan-icd-loader']"
 reverse_depends = "['kinfocenter']"
 +++

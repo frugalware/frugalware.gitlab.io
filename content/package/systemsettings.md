@@ -12,7 +12,7 @@ size = "343096"
 usize = "1220319"
 sha1sum = "6a43b04c05838beeef60b231fe2597108d891e44"
 depends = "['kcmutils>=6.0.0', 'kdeclarative>=6.0.0', 'kirigami>=6.0.0', 'kitemmodels>=6.0.0', 'plasma-activities>=6.0.3']"
-reverse_depends = "['flatpak-kcm']"
+reverse_depends = "['flatpak-kcm', 'kinfocenter']"
 +++
 ### Description: 
 KDE system settings.

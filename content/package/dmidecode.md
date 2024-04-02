@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dmidecode 3.5-2"
-version = "3.5-2"
+title = "dmidecode 3.5-3"
+version = "3.5-3"
 description = "Desktop Management Interface (DMI) table related utilities."
-date = "2024-01-16T12:20:51"
+date = "2024-04-02T12:05:58"
 aliases = "/packages/14672"
-categories = ['apps-extra']
+categories = ['apps']
 upstreamurl = "http://www.nongnu.org/dmidecode/"
 arch = "x86_64"
-size = "74200"
+size = "74296"
 usize = "256467"
-sha1sum = "d9d2cd4cca28b734b7b5ca09958a788bd0fa4e4a"
+sha1sum = "c24e83a0cccd3ea354eaeec74b1d7584f08274a2"
 depends = "['glibc>=2.34']"
 reverse_depends = "['hw-probe', 'inxi', 'kinfocenter', 'libvirt']"
 +++

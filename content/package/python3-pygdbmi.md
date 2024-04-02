@@ -1,17 +1,18 @@
 +++
 draft = false
-title = "python3-pygdbmi 0.11.0.0-1"
-version = "0.11.0.0-1"
+title = "python3-pygdbmi 0.11.0.0-2"
+version = "0.11.0.0-2"
 description = "Parse gdb machine interface output with Python"
-date = "2024-03-06T15:21:34"
+date = "2024-04-02T11:51:28"
 aliases = "/packages/221382"
-categories = ['devel-extra']
+categories = ['devel']
 upstreamurl = "http://pypi.python.org/pypi/pygdbmi"
 arch = "x86_64"
-size = "29828"
+size = "29844"
 usize = "112330"
-sha1sum = "fbfd5b80499080c9f64dac929bfaad85ad12967e"
+sha1sum = "c1e2401b09a59379fae299f0dd4c8558aa88b309"
 depends = "['gdb', 'python3>=3.12']"
+reverse_depends = "['drkonqi']"
 +++
 ### Description: 
 Parse gdb machine interface output with Python

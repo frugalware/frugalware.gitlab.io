@@ -1,28 +1,29 @@
 +++
 draft = false
-title = "python3-sentry-sdk 1.40.6-1"
-version = "1.40.6-1"
+title = "python3-sentry-sdk 1.44.0-1"
+version = "1.44.0-1"
 description = "The official Python SDK for Sentry.io"
-date = "2024-03-06T15:26:44"
+date = "2024-04-02T11:49:36"
 aliases = "/packages/221383"
-categories = ['devel-extra']
+categories = ['devel']
 upstreamurl = "https://sentry.io/for/python"
 arch = "x86_64"
-size = "411280"
-usize = "1849166"
-sha1sum = "72c0c2e1badf2bd649d5efbbac0a26ba5a52dda0"
+size = "422684"
+usize = "1898263"
+sha1sum = "98ada2a4dbcd114055dbd04a568358c9e444737a"
 depends = "['certifi', 'python3-urllib3']"
+reverse_depends = "['drkonqi']"
 +++
 ### Description: 
 The official Python SDK for Sentry.io
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/sentry_sdk-1.40.6-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/sentry_sdk-1.40.6-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/sentry_sdk-1.40.6-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/sentry_sdk-1.40.6-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/sentry_sdk-1.40.6-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/sentry_sdk-1.40.6-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/sentry_sdk-1.44.0-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/sentry_sdk-1.44.0-py3.12.egg-info/not-zip-safe
+* /usr/lib/python3.12/site-packages/sentry_sdk-1.44.0-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/sentry_sdk-1.44.0-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/sentry_sdk-1.44.0-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/sentry_sdk-1.44.0-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/sentry_sdk/api.py
 * /usr/lib/python3.12/site-packages/sentry_sdk/attachments.py
 * /usr/lib/python3.12/site-packages/sentry_sdk/client.py
@@ -105,6 +106,7 @@ The official Python SDK for Sentry.io
 * /usr/lib/python3.12/site-packages/sentry_sdk/integrations/logging.py
 * /usr/lib/python3.12/site-packages/sentry_sdk/integrations/loguru.py
 * /usr/lib/python3.12/site-packages/sentry_sdk/integrations/modules.py
+* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/openai.py
 * /usr/lib/python3.12/site-packages/sentry_sdk/integrations/opentelemetry/consts.py
 * /usr/lib/python3.12/site-packages/sentry_sdk/integrations/opentelemetry/integration.py
 * /usr/lib/python3.12/site-packages/sentry_sdk/integrations/opentelemetry/propagator.py
@@ -176,6 +178,7 @@ The official Python SDK for Sentry.io
 * /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/logging.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/loguru.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/modules.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/openai.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/pure_eval.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/pymongo.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/pyramid.cpython-312.pyc
@@ -211,6 +214,7 @@ The official Python SDK for Sentry.io
 * /usr/lib/python3.12/site-packages/sentry_sdk/tracing_utils_py2.py
 * /usr/lib/python3.12/site-packages/sentry_sdk/tracing_utils_py3.py
 * /usr/lib/python3.12/site-packages/sentry_sdk/transport.py
+* /usr/lib/python3.12/site-packages/sentry_sdk/types.py
 * /usr/lib/python3.12/site-packages/sentry_sdk/utils.py
 * /usr/lib/python3.12/site-packages/sentry_sdk/worker.py
 * /usr/lib/python3.12/site-packages/sentry_sdk/_compat.py
@@ -241,6 +245,7 @@ The official Python SDK for Sentry.io
 * /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/tracing_utils_py2.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/tracing_utils_py3.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/transport.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/types.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/utils.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/worker.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/_compat.cpython-312.pyc
@@ -250,5 +255,5 @@ The official Python SDK for Sentry.io
 * /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/_types.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/_werkzeug.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-sentry-sdk-1.40.6/LICENSE
-* /usr/share/doc/python3-sentry-sdk-1.40.6/README.md
+* /usr/share/doc/python3-sentry-sdk-1.44.0/LICENSE
+* /usr/share/doc/python3-sentry-sdk-1.44.0/README.md

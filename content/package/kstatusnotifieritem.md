@@ -12,7 +12,7 @@ size = "105780"
 usize = "366193"
 sha1sum = "62fede3f585c4b8f4d1f61dc4feb7b1f5eac118e"
 depends = "['kwindowsystem>=6.0.0']"
-reverse_depends = "['plasma-browser-integration', 'xwaylandvideobridge']"
+reverse_depends = "['drkonqi', 'plasma-browser-integration', 'xwaylandvideobridge']"
 +++
 ### Description: 
 Status Notifier Items
