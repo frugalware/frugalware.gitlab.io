@@ -18,8 +18,8 @@ reverse_depends = "['frameworkintegration', 'frameworkintegration5', 'i3', 'lumi
 Noto fonts
 
 ### Files: 
-* /usr/share/doc/noto-fonts-24.3.1/LICENSE
-* /usr/share/doc/noto-fonts-24.3.1/README.md
+* /usr/share/doc/noto-fonts-24.4.1/LICENSE
+* /usr/share/doc/noto-fonts-24.4.1/README.md
 * /usr/share/fontconfig/conf.avail/46-noto-mono.conf
 * /usr/share/fontconfig/conf.avail/46-noto-sans.conf
 * /usr/share/fontconfig/conf.avail/46-noto-serif.conf
