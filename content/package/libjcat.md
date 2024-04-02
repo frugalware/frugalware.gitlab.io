@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libjcat 0.2.1-2"
-version = "0.2.1-2"
+title = "libjcat 0.2.1-3"
+version = "0.2.1-3"
 description = "Library for reading and writing Jcat files"
-date = "2024-01-30T08:44:15"
+date = "2024-04-02T13:28:33"
 aliases = "/packages/220149"
-categories = ['lib-extra']
+categories = ['lib']
 upstreamurl = "https://github.com/hughsie/libjcat"
 arch = "x86_64"
-size = "106052"
+size = "105404"
 usize = "488524"
-sha1sum = "7c1170af3faac8d86b1a20e3508e5b5eb2334855"
+sha1sum = "c232ff3fbddac0a4748c1c90411e7e1f112e0122"
 depends = "['gnutls', 'gpgme', 'json-glib']"
 reverse_depends = "['fwupd']"
 +++

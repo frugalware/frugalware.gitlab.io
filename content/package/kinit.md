@@ -12,7 +12,7 @@ size = "118484"
 usize = "507103"
 sha1sum = "03b4125d11f326bb3d00836969a4637a3323ca45"
 depends = "['kio>=5.115.0']"
-reverse_depends = "['kup', 'kwin5', 'systemsettings5']"
+reverse_depends = "['kwin5', 'systemsettings5']"
 +++
 ### Description: 
 KInit.

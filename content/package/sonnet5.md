@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sonnet5 5.115.0-3"
-version = "5.115.0-3"
+title = "sonnet5 5.115.0-4"
+version = "5.115.0-4"
 description = "Spelling framework for Qt, plugin-based."
-date = "2024-03-30T20:28:02"
+date = "2024-04-02T13:47:27"
 aliases = "/packages/221401"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "278124"
+size = "277628"
 usize = "1624973"
-sha1sum = "3638db9d9756d2e7a4a1d7f1d4315ebe3c1697a7"
+sha1sum = "632bd4a0590b7d68a2d4c3a05bd1bb4b55563696"
 depends = "['qt5-base>=5.15.12']"
 +++
 ### Description: 

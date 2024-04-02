@@ -12,7 +12,7 @@ size = "2185632"
 usize = "5978490"
 sha1sum = "d3ef1e6602241f72928809919d699990d3503c08"
 depends = "['hunspell>=1.7.0', 'qt5-declarative>=5.15.13', 'qt5-svg>=5.15.13']"
-reverse_depends = "['aura-browser', 'kwin5', 'plasma-bigscreen']"
+reverse_depends = "['kwin5', 'plasma-bigscreen']"
 +++
 ### Description: 
 The Qt5 toolkit, qtvirtualkeyboard

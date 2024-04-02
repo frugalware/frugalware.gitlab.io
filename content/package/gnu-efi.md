@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gnu-efi 3.0.17-1"
-version = "3.0.17-1"
+title = "gnu-efi 3.0.18-1"
+version = "3.0.18-1"
 description = "EFI Development Environment for x86_64."
-date = "2023-09-15T10:09:30"
+date = "2024-04-02T13:23:08"
 aliases = "/packages/119048"
-categories = ['devel-extra']
+categories = ['devel']
 upstreamurl = "https://sourceforge.net/projects/gnu-efi"
 arch = "x86_64"
-size = "419592"
-usize = "3572925"
-sha1sum = "d30d683c4b90e7c90710b16e307bc74d5fc11fe0"
+size = "414684"
+usize = "3695168"
+sha1sum = "fa95a8c33713f7d84588b0a0ee18829f81f4a2f9"
 depends = "[]"
 reverse_depends = "['fwupd']"
 +++
@@ -69,6 +69,7 @@ EFI Development Environment for x86_64.
 * /usr/lib/elf_x86_64_efi.lds
 * /usr/lib/gnuefi/apps/AllocPages.efi
 * /usr/lib/gnuefi/apps/bltgrid.efi
+* /usr/lib/gnuefi/apps/ctors_dtors_priority_test.efi
 * /usr/lib/gnuefi/apps/ctors_test.efi
 * /usr/lib/gnuefi/apps/debughook.efi
 * /usr/lib/gnuefi/apps/debughook.efi.debug
@@ -95,13 +96,14 @@ EFI Development Environment for x86_64.
 * /usr/lib/libefi.a
 * /usr/lib/libgnuefi.a
 * /usr/lib/pkgconfig/gnu-efi.pc
-* /usr/share/doc/gnu-efi-3.0.17/ChangeLog
-* /usr/share/doc/gnu-efi-3.0.17/README.efilib
-* /usr/share/doc/gnu-efi-3.0.17/README.elilo
-* /usr/share/doc/gnu-efi-3.0.17/README.git
-* /usr/share/doc/gnu-efi-3.0.17/README.gnuefi
+* /usr/share/doc/gnu-efi-3.0.18/ChangeLog
+* /usr/share/doc/gnu-efi-3.0.18/README.efilib
+* /usr/share/doc/gnu-efi-3.0.18/README.elilo
+* /usr/share/doc/gnu-efi-3.0.18/README.git
+* /usr/share/doc/gnu-efi-3.0.18/README.gnuefi
 * /usr/share/gnu-efi/apps/x86_64/AllocPages.efi
 * /usr/share/gnu-efi/apps/x86_64/bltgrid.efi
+* /usr/share/gnu-efi/apps/x86_64/ctors_dtors_priority_test.efi
 * /usr/share/gnu-efi/apps/x86_64/ctors_test.efi
 * /usr/share/gnu-efi/apps/x86_64/debughook.efi
 * /usr/share/gnu-efi/apps/x86_64/drv0.efi

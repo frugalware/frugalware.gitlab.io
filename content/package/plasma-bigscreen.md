@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "937972"
 usize = "1929076"
 sha1sum = "922341f0ed01da357de4f8d26d80d62c1cbf1acf"
-depends = "['aura-browser>=5.27.10', 'kdeconnect-kde>=23.08.4', 'plank-player>=5.27.10', 'plasma-nano>=5.27.10', 'plasma-nm>=5.27.10', 'plasma-pa>=5.27.10', 'plasma-remotecontrollers>=5.27.10', 'plasma-settings', 'qt5-virtualkeyboard>=5.15.12']"
+depends = "['kdeconnect-kde>=23.08.4', 'plank-player>=5.27.10', 'plasma-nano>=5.27.10', 'plasma-nm>=5.27.10', 'plasma-pa>=5.27.10', 'plasma-remotecontrollers>=5.27.10', 'plasma-settings', 'qt5-virtualkeyboard>=5.15.12']"
 +++
 ### Description: 
 Plasma shell for TVs

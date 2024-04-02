@@ -12,7 +12,7 @@ size = "686668"
 usize = "837839"
 sha1sum = "b2d0789b3a1e8a77b396180ef547f42ba7c8ad71"
 depends = "['zlib>=1.2.12']"
-reverse_depends = "['enchant', 'sonnet-plugin-hspell']"
+reverse_depends = "['enchant', 'sonnet-plugin-hspell', 'sonnet5-plugin-hspell']"
 +++
 ### Description: 
 Hebrew spell-checker.

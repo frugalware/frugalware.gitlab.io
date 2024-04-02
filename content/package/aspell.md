@@ -12,7 +12,7 @@ size = "647884"
 usize = "3527142"
 sha1sum = "3dc93e73a151d6f3e23625cb70da7e73b010d09a"
 depends = "['libstdc++>=11.2', 'ncurses>=6.0-18']"
-reverse_depends = "['aspell-bg', 'aspell-ca', 'aspell-cs', 'aspell-da', 'aspell-de', 'aspell-en', 'aspell-fo', 'aspell-ga', 'aspell-gd', 'aspell-id', 'aspell-it', 'aspell-ru', 'aspell-tn', 'aspell6-de', 'aspell6-de-alt', 'aspell6-en', 'eiskaltdc', 'enchant', 'gtkspell', 'lyx', 'mcabber', 'sonnet-plugin-aspell']"
+reverse_depends = "['aspell-bg', 'aspell-ca', 'aspell-cs', 'aspell-da', 'aspell-de', 'aspell-en', 'aspell-fo', 'aspell-ga', 'aspell-gd', 'aspell-id', 'aspell-it', 'aspell-ru', 'aspell-tn', 'aspell6-de', 'aspell6-de-alt', 'aspell6-en', 'eiskaltdc', 'enchant', 'gtkspell', 'lyx', 'mcabber', 'sonnet-plugin-aspell', 'sonnet5-plugin-aspell']"
 +++
 ### Description: 
 A spell checker designed to eventually replace Ispell

@@ -12,7 +12,6 @@ size = "31735184"
 usize = "33061466"
 sha1sum = "662c6badf10504401874a20dccd7185f65d4b061"
 depends = "[]"
-reverse_depends = "['lumina-desktop']"
 +++
 ### Description: 
 KDE Icons Oxygen style.
