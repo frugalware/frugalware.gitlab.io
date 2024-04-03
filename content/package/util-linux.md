@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "util-linux 2.40-1"
-version = "2.40-1"
+title = "util-linux 2.40-2"
+version = "2.40-2"
 description = "Miscellaneous system utilities for Linux"
-date = "2024-03-31T12:15:39"
+date = "2024-04-03T09:54:59"
 aliases = "/packages/118476"
 categories = ['base']
 upstreamurl = "http://www.kernel.org/pub/linux/utils/util-linux/"
 arch = "x86_64"
-size = "3277252"
-usize = "16897840"
-sha1sum = "791ad5fc27fd6eb11aae94f7364a1d92f9f61475"
+size = "3276952"
+usize = "16897867"
+sha1sum = "f1eb6040b5883fd751dcb29d9289e3b6d25678d0"
 depends = "['libblkid', 'libcap-ng>=0.7.8-8', 'libsystemd', 'libudev', 'libuuid', 'libxcrypt', 'ncurses>=6.1-5', 'pam>=1.3.0-4', 'pcre2', 'readline>=8.0-3', 'sqlite3', 'zlib>=1.2.12']"
 reverse_depends = "['dracut', 'e2fsprogs', 'efl', 'enlightenment', 'f2fs-tools', 'glib2', 'harfbuzz', 'kpmcore', 'nilfs-utils', 'pacman-g2', 'pango', 'pulse-autoconf', 'scriptlet-core', 'syslinux', 'terminology', 'udisks2']"
 +++
@@ -182,6 +182,7 @@ Miscellaneous system utilities for Linux
 * /usr/lib/systemd/system/lastlog2-import.service
 * /usr/lib/systemd/system/uuidd.service
 * /usr/lib/systemd/system/uuidd.socket
+* /usr/lib/sysusers.d/util-linux.conf
 * /usr/lib/tmpfiles.d/lastlog2-tmpfiles.conf
 * /usr/lib/tmpfiles.d/uuidd-tmpfiles.conf
 * /usr/share/bash-completion/completions/addpart

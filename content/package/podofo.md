@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "podofo 0.10.1-1"
-version = "0.10.1-1"
+title = "podofo 0.10.3-1"
+version = "0.10.3-1"
 description = "PoDoFo is a library to work with the PDF file format."
-date = "2023-07-13T18:28:54"
+date = "2024-04-03T09:17:35"
 aliases = "/packages/103232"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/podofo/podofo"
 arch = "x86_64"
-size = "983208"
-usize = "3256013"
-sha1sum = "1d6885bdddcf89169c7955406ab14441d0a8c465"
+size = "1006100"
+usize = "3343636"
+sha1sum = "97d26251f55a33f8477c019a19c4775321522702"
 depends = "['fontconfig>=2.12.1-2', 'freetype2>=2.7', 'libidn>=1.35', 'libjpeg-turbo', 'libpng>=1.6.25', 'libtiff', 'libunistring>=1.1', 'lua>=5.4', 'openssl>=3.1.0', 'zlib>=1.2.8-8']"
-reverse_depends = "['calibre', 'krename']"
+reverse_depends = "['calibre', 'krename', 'scribus']"
 +++
 ### Description: 
 PoDoFo is a library to work with the PDF file format.
@@ -163,10 +163,10 @@ PoDoFo is a library to work with the PDF file format.
 * /usr/include/podofo/staging/PdfShadingPattern.h
 * /usr/include/podofo/staging/PdfTilingPattern.h
 * /usr/lib/libpodofo.so
-* /usr/lib/libpodofo.so.0.10.1
+* /usr/lib/libpodofo.so.0.10.3
 * /usr/lib/libpodofo.so.2
 * /usr/lib/pkgconfig/libpodofo.pc
-* /usr/share/doc/podofo-0.10.1/COPYING
-* /usr/share/doc/podofo-0.10.1/README.md
+* /usr/share/doc/podofo-0.10.3/COPYING
+* /usr/share/doc/podofo-0.10.3/README.md
 * /usr/share/podofo/podofo-config-release.cmake
 * /usr/share/podofo/podofo-config.cmake

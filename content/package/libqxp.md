@@ -12,7 +12,7 @@ size = "123480"
 usize = "405228"
 sha1sum = "c15ddfc5feecab00efcadc7242c65ccbbead336e"
 depends = "['librevenge']"
-reverse_depends = "['libreoffice']"
+reverse_depends = "['libreoffice', 'scribus']"
 +++
 ### Description: 
 A library that parses the file format of QuarkXPress documents.

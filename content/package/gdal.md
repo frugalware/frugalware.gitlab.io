@@ -12,7 +12,7 @@ size = "7392784"
 usize = "26348876"
 sha1sum = "771d4ca2ddaea3c899ba12c58134afa3f77ac647"
 depends = "['expat>=2.1.0-5', 'geos>=3.6.2', 'json-c', 'json-c>=0.14', 'libdeflate', 'libheif', 'libjpeg-turbo', 'libpng>=1.6.20', 'libpq>=11.2-2', 'libxml2>=2.9.4-3', 'openssl>=3.1.0', 'pcre>=1.6.20', 'proj>=8.0.0', 'sqlite3>=3.10.2', 'unixodbc>=2.3.4-2']"
-reverse_depends = "['hexer', 'liblas', 'opencv']"
+reverse_depends = "['hexer', 'liblas', 'opencv', 'scribus']"
 license = "Warmerdam"
 +++
 ### Description: 

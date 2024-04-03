@@ -12,7 +12,7 @@ size = "6314644"
 usize = "30861332"
 sha1sum = "80a7fb8ce722ccaaa60f098b41f98dbf9232b363"
 depends = "['cairo', 'curl', 'jasper>=2.0.10', 'libglvnd', 'libjpeg-turbo', 'libpng>=1.6.25', 'librsvg', 'libtiff', 'libxrandr', 'poppler-glib>=0.60.1-2', 'sdl2']"
-reverse_depends = "['flightgear', 'pdal']"
+reverse_depends = "['flightgear', 'pdal', 'scribus']"
 +++
 ### Description: 
 A high performance 3D graphics toolkit.

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "scribus 1.5.8-22"
-version = "1.5.8-22"
+title = "scribus 1.6.1-1"
+version = "1.6.1-1"
 description = "A professional desktop publishing application."
-date = "2024-03-28T16:34:45"
+date = "2024-04-03T09:40:24"
 aliases = "/packages/3829"
 categories = ['xapps-extra']
 upstreamurl = "http://www.scribus.net"
 arch = "x86_64"
-size = "74500288"
-usize = "136758190"
-sha1sum = "974718b0be1fe003573e720f39db89ce0e936fd5"
-depends = "['cairo', 'fontconfig', 'freetype2', 'ghostscript', 'glib2', 'hunspell>=1.7.0', 'hyphen', 'icu4c>=74.1', 'libcdr', 'libfreehand', 'libmspub', 'libpagemaker', 'librevenge', 'libvisio', 'podofo-0.9', 'poppler>=24.02.0', 'python3>=3.12', 'qt5-declarative>=5.15.0']"
+size = "74876096"
+usize = "138492249"
+sha1sum = "3f454b3c7987c80d4e5003b59dcee71dca51cb34"
+depends = "['cairo', 'fontconfig', 'freetype2', 'gdal', 'ghostscript', 'glib2', 'graphicsmagick', 'hunspell>=1.7.0', 'hyphen', 'icu4c>=74.1', 'libcdr', 'libfreehand', 'libmspub', 'libpagemaker', 'libqxp', 'librevenge', 'libvisio', 'libzmf', 'openscenegraph', 'podofo', 'poppler>=24.04.0', 'python3>=3.12', 'qt5-declarative>=5.15.0']"
 +++
 ### Description: 
 A professional desktop publishing application.
@@ -49,6 +49,7 @@ A professional desktop publishing application.
 * /usr/lib/scribus/plugins/libimportpdf.so
 * /usr/lib/scribus/plugins/libimportpm.so
 * /usr/lib/scribus/plugins/libimportpub.so
+* /usr/lib/scribus/plugins/libimportqxp.so
 * /usr/lib/scribus/plugins/libimportshape.so
 * /usr/lib/scribus/plugins/libimportsml.so
 * /usr/lib/scribus/plugins/libimportsvm.so
@@ -58,8 +59,11 @@ A professional desktop publishing application.
 * /usr/lib/scribus/plugins/libimportxar.so
 * /usr/lib/scribus/plugins/libimportxfig.so
 * /usr/lib/scribus/plugins/libimportxps.so
+* /usr/lib/scribus/plugins/libimportzmf.so
 * /usr/lib/scribus/plugins/liblenseffects.so
+* /usr/lib/scribus/plugins/libmeshdistortion.so
 * /usr/lib/scribus/plugins/liboodrawimp.so
+* /usr/lib/scribus/plugins/libpathalongpath.so
 * /usr/lib/scribus/plugins/libpathconnect.so
 * /usr/lib/scribus/plugins/libpathcut.so
 * /usr/lib/scribus/plugins/libpathfinder.so
@@ -83,15 +87,15 @@ A professional desktop publishing application.
 * /usr/lib/scribus/plugins/libxpsexplugin.so
 * /usr/lib/scribus/scribus.css
 * /usr/share/applications/scribus.desktop
-* /usr/share/doc/scribus-1.5.8/AUTHORS
-* /usr/share/doc/scribus-1.5.8/ChangeLog
-* /usr/share/doc/scribus-1.5.8/COPYING
-* /usr/share/doc/scribus-1.5.8/NEWS
-* /usr/share/doc/scribus-1.5.8/README
-* /usr/share/doc/scribus-1.5.8/README.MacOSX
-* /usr/share/doc/scribus-1.5.8/README.md
-* /usr/share/doc/scribus-1.5.8/README_150Manual
-* /usr/share/doc/scribus-1.5.8/TODO
+* /usr/share/doc/scribus-1.6.1/AUTHORS
+* /usr/share/doc/scribus-1.6.1/ChangeLog
+* /usr/share/doc/scribus-1.6.1/COPYING
+* /usr/share/doc/scribus-1.6.1/NEWS
+* /usr/share/doc/scribus-1.6.1/README
+* /usr/share/doc/scribus-1.6.1/README.MacOSX
+* /usr/share/doc/scribus-1.6.1/README.md
+* /usr/share/doc/scribus-1.6.1/README_150Manual
+* /usr/share/doc/scribus-1.6.1/TODO
 * /usr/share/doc/scribus/AUTHORS
 * /usr/share/doc/scribus/ChangeLog
 * /usr/share/doc/scribus/COPYING
@@ -1800,10 +1804,15 @@ A professional desktop publishing application.
 * /usr/share/doc/scribus/TRANSLATION
 * /usr/share/icons/hicolor/1024x1024/apps/scribus.png
 * /usr/share/icons/hicolor/128x128/apps/scribus.png
+* /usr/share/icons/hicolor/128x128/mimetypes/application-vnd.scribus.png
 * /usr/share/icons/hicolor/16x16/apps/scribus.png
+* /usr/share/icons/hicolor/16x16/mimetypes/application-vnd.scribus.png
 * /usr/share/icons/hicolor/256x256/apps/scribus.png
+* /usr/share/icons/hicolor/256x256/mimetypes/application-vnd.scribus.png
 * /usr/share/icons/hicolor/32x32/apps/scribus.png
+* /usr/share/icons/hicolor/32x32/mimetypes/application-vnd.scribus.png
 * /usr/share/icons/hicolor/512x512/apps/scribus.png
+* /usr/share/icons/hicolor/64x64/mimetypes/application-vnd.scribus.png
 * /usr/share/man/de/man1/scribus.1.gz
 * /usr/share/man/man1/scribus.1.gz
 * /usr/share/man/pl/man1/scribus.1.gz
@@ -1836,7 +1845,7 @@ A professional desktop publishing application.
 * /usr/share/scribus/dicts/hyph/hyph_lt.dic
 * /usr/share/scribus/dicts/hyph/hyph_ml_IN.dic
 * /usr/share/scribus/dicts/hyph/hyph_nb_NO.dic
-* /usr/share/scribus/dicts/hyph/hyph_nl.dic
+* /usr/share/scribus/dicts/hyph/hyph_nl_NL.dic
 * /usr/share/scribus/dicts/hyph/hyph_nn_NO.dic
 * /usr/share/scribus/dicts/hyph/hyph_pl.dic
 * /usr/share/scribus/dicts/hyph/hyph_pt.dic
@@ -1872,6 +1881,7 @@ A professional desktop publishing application.
 * /usr/share/scribus/dicts/hyph/README_is_IS.txt
 * /usr/share/scribus/dicts/hyph/README_ku.txt
 * /usr/share/scribus/dicts/hyph/README_lt_LT.txt
+* /usr/share/scribus/dicts/hyph/README_NL.txt
 * /usr/share/scribus/dicts/hyph/README_pt_BR.txt
 * /usr/share/scribus/dicts/hyph/README_pt_PT.txt
 * /usr/share/scribus/dicts/hyph/README_ru_RU_0.txt
@@ -2493,6 +2503,7 @@ A professional desktop publishing application.
 * /usr/share/scribus/icons/1_5_1/16/draw-triangle2.png
 * /usr/share/scribus/icons/1_5_1/16/draw-triangle3.png
 * /usr/share/scribus/icons/1_5_1/16/draw-triangle4.png
+* /usr/share/scribus/icons/1_5_1/16/dropdown-menu.png
 * /usr/share/scribus/icons/1_5_1/16/edit-clear.png
 * /usr/share/scribus/icons/1_5_1/16/edit-copy.png
 * /usr/share/scribus/icons/1_5_1/16/edit-cut.png
@@ -2881,6 +2892,7 @@ A professional desktop publishing application.
 * /usr/share/scribus/icons/1_5_1_dark/16/draw-triangle2.png
 * /usr/share/scribus/icons/1_5_1_dark/16/draw-triangle3.png
 * /usr/share/scribus/icons/1_5_1_dark/16/draw-triangle4.png
+* /usr/share/scribus/icons/1_5_1_dark/16/dropdown-menu.png
 * /usr/share/scribus/icons/1_5_1_dark/16/edit-clear.png
 * /usr/share/scribus/icons/1_5_1_dark/16/edit-copy.png
 * /usr/share/scribus/icons/1_5_1_dark/16/edit-cut.png
@@ -3106,6 +3118,8 @@ A professional desktop publishing application.
 * /usr/share/scribus/icons/1_5_1_dark/exit.png
 * /usr/share/scribus/icons/1_5_1_dark/exit22.png
 * /usr/share/scribus/icons/1_5_1_dark/expand.png
+* /usr/share/scribus/icons/1_5_1_dark/fill-rule-even-odd.png
+* /usr/share/scribus/icons/1_5_1_dark/fill-rule-nonzero.png
 * /usr/share/scribus/icons/1_5_1_dark/find.png
 * /usr/share/scribus/icons/1_5_1_dark/find16.png
 * /usr/share/scribus/icons/1_5_1_dark/firstline.png
@@ -3174,6 +3188,7 @@ A professional desktop publishing application.
 * /usr/share/scribus/icons/1_5_1_dark/rightindent.png
 * /usr/share/scribus/icons/1_5_1_dark/rotate_ccw.png
 * /usr/share/scribus/icons/1_5_1_dark/rotate_cw.png
+* /usr/share/scribus/icons/1_5_1_dark/round-corners.png
 * /usr/share/scribus/icons/1_5_1_dark/scrap_16.png
 * /usr/share/scribus/icons/1_5_1_dark/scribus.png
 * /usr/share/scribus/icons/1_5_1_dark/scribus16.png
@@ -3552,6 +3567,7 @@ A professional desktop publishing application.
 * /usr/share/scribus/translations/scribus.kab.qm
 * /usr/share/scribus/translations/scribus.kn_IN.qm
 * /usr/share/scribus/translations/scribus.ko.qm
+* /usr/share/scribus/translations/scribus.lb.qm
 * /usr/share/scribus/translations/scribus.lt_LT.qm
 * /usr/share/scribus/translations/scribus.ml.qm
 * /usr/share/scribus/translations/scribus.mn_MN.qm

@@ -12,7 +12,7 @@ size = "81288"
 usize = "238088"
 sha1sum = "f2b45880fa738644378cdfff8d73dae9946cbd46"
 depends = "['icu4c>=74.1', 'libpng', 'librevenge']"
-reverse_depends = "['libreoffice']"
+reverse_depends = "['libreoffice', 'scribus']"
 +++
 ### Description: 
 libzmf import filter library
