@@ -12,7 +12,7 @@ size = "1593876"
 usize = "9513546"
 sha1sum = "ff1da295211567858a8813acdddf3f53ccad77b4"
 depends = "['kmod>=25-2']"
-reverse_depends = "['kwin5', 'libgusb', 'pciutils', 'systemd', 'usbutils']"
+reverse_depends = "['libgusb', 'pciutils', 'systemd', 'usbutils']"
 +++
 ### Description: 
 Hardware identification and configuration data

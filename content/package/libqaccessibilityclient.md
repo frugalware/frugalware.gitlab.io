@@ -12,7 +12,7 @@ size = "91936"
 usize = "337039"
 sha1sum = "a935c4ba2ce99d711cf579ae3bfb4984f2ae5dbc"
 depends = "['qt6-base>=']"
-reverse_depends = "['kmag', 'kwin', 'kwin5']"
+reverse_depends = "['kmag', 'kwin']"
 +++
 ### Description: 
 Helper library to make writing accessibility tools easier

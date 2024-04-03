@@ -12,7 +12,6 @@ size = "40148"
 usize = "202669"
 sha1sum = "f8bb5ee35471f94ea84340807e8324995c11d932"
 depends = "['kitemmodels>=6.0.0', 'kwayland>=', 'libplasma>=6.0.3']"
-reverse_depends = "['plasma-bigscreen']"
 +++
 ### Description: 
 A minimal Plasma shell package

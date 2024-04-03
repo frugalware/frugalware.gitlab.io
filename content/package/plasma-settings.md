@@ -12,7 +12,6 @@ size = "55632"
 usize = "212562"
 sha1sum = "846c6a1f29c61d60629560c519e42d5141beb266"
 depends = "['kcmutils', 'kirigami-addons', 'modemmanager-qt', 'networkmanager-qt']"
-reverse_depends = "['plasma-bigscreen']"
 +++
 ### Description: 
 Settings application for Plasma Mobile

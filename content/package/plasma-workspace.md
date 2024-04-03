@@ -12,7 +12,7 @@ size = "20755228"
 usize = "55335702"
 sha1sum = "2f0387a1e27dee7cf223f2b0fa141f2766adc1fd"
 depends = "['appstream-qt', 'baloo>=6.0.0', 'kcmutils>=6.0.0', 'kdeclarative>=6.0.0', 'kholidays>=6.0.0', 'kidletime>=6.0.0', 'kirigami-addons', 'knewstuff>=6.0.0', 'knotifyconfig>=6.0.0', 'kpackage>=6.0.0', 'kparts>=6.0.0', 'kquickcharts>=6.0.0', 'ktexteditor>=6.0.0', 'kunitconversion>=6.0.0', 'kuserfeedback>=6.0.0', 'kwin>=6.0.3', 'libkexiv2', 'libksysguard>=6.0.3', 'libplasma>=6.0.3', 'libqalculate', 'libxft', 'networkmanager-qt>=6.0.0', 'plasma-activities-stats>=6.0.3', 'prison>=6.0.0']"
-reverse_depends = "['kde-cli-tools', 'kdeplasma-addons', 'kdeplasma-addons5', 'kget', 'khotkeys5', 'ktorrent', 'plasma-browser-integration', 'plasma-desktop', 'plasma-nm', 'plasma-remotecontrollers', 'plasma-wayland-session', 'powerdevil', 'powerdevil5', 'systemsettings5']"
+reverse_depends = "['kde-cli-tools', 'kdeplasma-addons', 'kdeplasma-addons5', 'kget', 'ktorrent', 'plasma-browser-integration', 'plasma-desktop', 'plasma-nm', 'plasma-remotecontrollers', 'plasma-wayland-session', 'powerdevil']"
 +++
 ### Description: 
 KDE Plasma Workspace.

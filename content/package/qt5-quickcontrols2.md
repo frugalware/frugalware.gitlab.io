@@ -12,7 +12,7 @@ size = "1577948"
 usize = "9899710"
 sha1sum = "08c5be20e97a05e4505b0eb0a45e659923cc3fe2"
 depends = "['qt5-declarative>=5.15.13']"
-reverse_depends = "['kirigami2', 'kirigami25', 'kquickcharts5', 'kwin5', 'meshroom', 'minuet', 'qt5-xmlpatterns', 'tiled']"
+reverse_depends = "['kirigami2', 'kirigami25', 'kquickcharts5', 'meshroom', 'minuet', 'qt5-xmlpatterns', 'tiled']"
 +++
 ### Description: 
 The Qt5 toolkit, qtquickcontrols2

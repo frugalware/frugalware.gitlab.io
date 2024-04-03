@@ -12,7 +12,7 @@ size = "149864"
 usize = "448256"
 sha1sum = "f3b27894689fa4acb9479246c2e471a707beb766"
 depends = "[]"
-reverse_depends = "['kdeplasma-addons5', 'kdevelop', 'kwin5', 'libmarble', 'skrooge']"
+reverse_depends = "['kdeplasma-addons5', 'kdevelop', 'libmarble', 'skrooge']"
 +++
 ### Description: 
 Framework for providing different actions given a string query.

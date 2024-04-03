@@ -12,7 +12,7 @@ size = "221032"
 usize = "935857"
 sha1sum = "a0a5c32183fd8db18c36b3fba30b3df58e5fbb5d"
 depends = "['kidletime>=', 'kscreen>=6.0.3', 'layer-shell-qt>=6.0.3', 'libseccomp', 'systemd']"
-reverse_depends = "['kwin', 'kwin5']"
+reverse_depends = "['kwin']"
 +++
 ### Description: 
 KDE Screenlocker

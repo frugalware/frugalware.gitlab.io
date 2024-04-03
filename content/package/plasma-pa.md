@@ -12,7 +12,6 @@ size = "265488"
 usize = "1145575"
 sha1sum = "9e27e05c7e82a683547424f8bb8f6d621ea6164f"
 depends = "['kcmutils>=6.0.0', 'kdeclarative>=6.0.0', 'kirigami-addons', 'kitemmodels>=6.0.0', 'libcanberra', 'libcanberra-pulseaudio', 'libplasma>=6.0.3', 'sound-theme-freedesktop']"
-reverse_depends = "['plasma-bigscreen']"
 +++
 ### Description: 
 Plasma applet written in QML for PulseAudio

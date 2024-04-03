@@ -12,7 +12,6 @@ size = "5393664"
 usize = "14287132"
 sha1sum = "03d712557eba1d3f04549fabddf2958b1272b3ee"
 depends = "['kcmutils>=6.0.0', 'kio>=6.0.0', 'kirigami-addons', 'kirigami-addons', 'kpeople>=6.0.0', 'kstatusnotifieritem>=6.0.0', 'kwayland>=6.0.3', 'libfakekey', 'libxtst', 'modemmanager-qt>=6.0.0', 'pulseaudio-qt>=1.3', 'qca', 'qca-ossl', 'qqc2-desktop-style>=6.0.0', 'qt6-multimedia>=6.6.3', 'qt6-sensors>=6.6.3']"
-reverse_depends = "['plasma-bigscreen']"
 +++
 ### Description: 
 Adds communication between KDE and your smartphone

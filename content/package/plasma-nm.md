@@ -12,7 +12,6 @@ size = "1312168"
 usize = "8735137"
 sha1sum = "802e5122cb5a7c8e9966c65003cb97190ab0d8cf"
 depends = "['mobile-broadband-provider-info', 'modemmanager-qt>=6.0.0', 'networkmanager-qt>=6.0.0', 'plasma-workspace>=6.0.3', 'qca>=2.1.1-6', 'qcoro']"
-reverse_depends = "['plasma-bigscreen']"
 +++
 ### Description: 
 Plasma applet written in QML for managing network connections.

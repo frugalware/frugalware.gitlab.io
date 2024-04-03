@@ -12,7 +12,7 @@ size = "285188"
 usize = "1291280"
 sha1sum = "a985f34cbacd43503e104e9a1dc24b0e8664c7c0"
 depends = "['qt6-declarative>=6.6.3']"
-reverse_depends = "['bluedevil', 'bluedevil5', 'powerdevil', 'powerdevil5']"
+reverse_depends = "['bluedevil', 'bluedevil5', 'powerdevil']"
 +++
 ### Description: 
 A Qt wrapper for bluez
