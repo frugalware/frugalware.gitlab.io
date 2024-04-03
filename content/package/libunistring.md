@@ -12,7 +12,7 @@ size = "565736"
 usize = "2713772"
 sha1sum = "bfab1e3af12d2a7454bdf387c236cbb3eaa23d4d"
 depends = "['glibc>=2.35']"
-reverse_depends = "['gettext', 'gnunet', 'gnutls', 'guile', 'libidn2', 'libratbag', 'podofo', 'podofo-0.9']"
+reverse_depends = "['gettext', 'gnunet', 'gnutls', 'guile', 'libidn2', 'libratbag', 'podofo']"
 +++
 ### Description: 
 Library for manipulating Unicode strings and C strings.

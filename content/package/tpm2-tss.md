@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tpm2-tss 3.2.2-4"
-version = "3.2.2-4"
+title = "tpm2-tss 3.2.2-5"
+version = "3.2.2-5"
 description = "Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2)"
-date = "2024-04-02T13:25:44"
+date = "2024-04-03T10:23:14"
 aliases = "/packages/219962"
 categories = ['lib']
 upstreamurl = "https://github.com/tpm2-software/tpm2-tss"
 arch = "x86_64"
-size = "617576"
-usize = "2567382"
-sha1sum = "98533730b202c569958269868a061ce9834a4464"
+size = "617448"
+usize = "2567370"
+sha1sum = "8879fc4896ea012e8a0d3199dc391097e63e092c"
 depends = "['curl', 'json-c>=0.14', 'openssl>=3.1.0', 'shadow']"
 reverse_depends = "['fwupd']"
 +++
