@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwin 6.0.3-1"
-version = "6.0.3-1"
+title = "kwin 6.0.3.1-1"
+version = "6.0.3.1-1"
 description = "KDE Window Manager."
-date = "2024-03-27T08:39:28"
+date = "2024-04-03T14:30:15"
 aliases = "/packages/221357"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "10500692"
-usize = "36224108"
-sha1sum = "21335118bf2af90d354d601a4ee2c945cae645a7"
-depends = "['breeze>=6.0.3', 'kauth>=6.0.0', 'kcmutils>=6.0.0', 'kconfig>=6.0.0', 'kconfigwidgets>=6.0.0', 'kcoreaddons>=6.0.0', 'kcrash>=6.0.0', 'kdbusaddons>=6.0.0', 'kdeclarative>=6.0.0', 'kglobalacceld>=6.0.3', 'kguiaddons>=6.0.0', 'ki18n>=6.0.0', 'kidletime>=6.0.0', 'knewstuff>=6.0.0', 'kpackage>=6.0.0', 'kscreenlocker>=6.0.3', 'kservice>=6.0.0', 'kwayland>=6.0.3', 'kwidgetsaddons>=6.0.0', 'kwindowsystem>=6.0.0', 'kxmlgui>=6.0.0', 'libdisplay-info', 'libqaccessibilityclient', 'libxcvt', 'pipewire', 'qt6-5compat>=_F_kdever_qt6', 'qt6-sensors>=6.6.3', 'qt6-tools>=6.6.3', 'qt6-wayland>=6.6.3']"
+size = "10499028"
+usize = "36228090"
+sha1sum = "ae47a883a6bea4f57b3f8301b1e14c4bbb82eb15"
+depends = "['breeze>=6.0.3', 'kauth>=6.0.0', 'kcmutils>=6.0.0', 'kconfig>=6.0.0', 'kconfigwidgets>=6.0.0', 'kcoreaddons>=6.0.0', 'kcrash>=6.0.0', 'kdbusaddons>=6.0.0', 'kdeclarative>=6.0.0', 'kglobalacceld>=6.0.3', 'kguiaddons>=6.0.0', 'ki18n>=6.0.0', 'kidletime>=6.0.0', 'knewstuff>=6.0.0', 'kpackage>=6.0.0', 'kscreenlocker>=6.0.3', 'kservice>=6.0.0', 'ksvg>=6.0.0', 'kwayland>=6.0.3', 'kwidgetsaddons>=6.0.0', 'kwindowsystem>=6.0.0', 'kxmlgui>=6.0.0', 'libdisplay-info', 'libplasma>=6.0.3', 'libqaccessibilityclient', 'libxcvt', 'pipewire', 'plasma-activities>=6.0.3', 'qt6-5compat>=_F_kdever_qt6', 'qt6-sensors>=6.6.3', 'qt6-tools>=6.6.3', 'qt6-wayland>=6.6.3']"
 reverse_depends = "['oxygen', 'plasma-workspace']"
 +++
 ### Description: 
@@ -682,7 +682,7 @@ KDE Window Manager.
 * /usr/share/doc/HTML/uk/kcontrol/windowbehaviour/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/windowspecific/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/windowspecific/index.docbook
-* /usr/share/doc/kwin-6.0.3/README.md
+* /usr/share/doc/kwin-6.0.3.1/README.md
 * /usr/share/icons/hicolor/16x16/apps/kwin.png
 * /usr/share/icons/hicolor/32x32/apps/kwin.png
 * /usr/share/icons/hicolor/48x48/apps/kwin.png
