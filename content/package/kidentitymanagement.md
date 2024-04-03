@@ -12,7 +12,7 @@ size = "171224"
 usize = "775294"
 sha1sum = "15520f9ee84bb4470c41624cd93a4c1adde53e3b"
 depends = "['kirigami-addons', 'kpimtextedit>=24.02.1']"
-reverse_depends = "['kcalutils', 'kmail-account-wizard', 'kopete', 'libksieve', 'messagelib']"
+reverse_depends = "['kcalutils', 'kmail-account-wizard', 'libksieve', 'messagelib']"
 +++
 ### Description: 
 KDE PIM libraries

@@ -12,7 +12,7 @@ size = "62160"
 usize = "234027"
 sha1sum = "fc960b00716897418c5aa4399803cf7daf3de4ff"
 depends = "['glibc>=2.34']"
-reverse_depends = "['gst1-plugins-bad-srtp', 'kopete', 'qt5-webengine']"
+reverse_depends = "['gst1-plugins-bad-srtp', 'qt5-webengine']"
 +++
 ### Description: 
 Library for SRTP (Secure Realtime Transport Protocol)

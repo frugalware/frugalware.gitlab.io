@@ -12,7 +12,7 @@ size = "120704"
 usize = "402483"
 sha1sum = "b00a623eb088f592886fdab21df4fa1481b0184e"
 depends = "['gnutls>=3.4.15-2', 'libffi>=3.2.1-2', 'libidn>=1.33-2']"
-reverse_depends = "['kopete', 'libpurple']"
+reverse_depends = "['libpurple']"
 license = "GPL"
 +++
 ### Description: 

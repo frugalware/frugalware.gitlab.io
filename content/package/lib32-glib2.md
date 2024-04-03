@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-glib2 2.78.4-1"
-version = "2.78.4-1"
+title = "lib32-glib2 2.80.0-1"
+version = "2.80.0-1"
 description = "Common C routines used by GTK+ and other libraries (32-bit)"
-date = "2024-01-29T12:16:48"
+date = "2024-04-03T07:40:12"
 aliases = "/packages/217903"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1413340"
-usize = "7237020"
-sha1sum = "4a22a3526fe26d3423c34e328547324b0bb286ae"
+size = "1556348"
+usize = "8032814"
+sha1sum = "b8c9333ca206848b71ed1c8b38a2d72618fc0873"
 depends = "['glibc', 'lib32-elfutils', 'lib32-libblkid', 'lib32-libdbus', 'lib32-libffi', 'lib32-pcre', 'lib32-util-linux', 'lib32-zlib']"
 reverse_depends = "['lib32-at-spi2-core', 'lib32-avahi-glib', 'lib32-cairo', 'lib32-dbus-glib', 'lib32-gdk-pixbuf2', 'lib32-harfbuzz', 'lib32-libcroco', 'lib32-libgudev', 'lib32-libsystemd', 'lib32-networkmanager', 'lib32-pipewire', 'lib32-polkit', 'lib32-shared-mime-info']"
 +++
@@ -21,6 +21,9 @@ Common C routines used by GTK+ and other libraries (32-bit)
 * /usr/i686-frugalware-linux/bin/gapplication
 * /usr/i686-frugalware-linux/bin/gdbus
 * /usr/i686-frugalware-linux/bin/gdbus-codegen
+* /usr/i686-frugalware-linux/bin/gi-compile-repository
+* /usr/i686-frugalware-linux/bin/gi-decompile-typelib
+* /usr/i686-frugalware-linux/bin/gi-inspect-typelib
 * /usr/i686-frugalware-linux/bin/gio
 * /usr/i686-frugalware-linux/bin/gio-querymodules
 * /usr/i686-frugalware-linux/bin/glib-compile-resources
@@ -197,6 +200,32 @@ Common C routines used by GTK+ and other libraries (32-bit)
 * /usr/i686-frugalware-linux/include/glib-2.0/gio/gvolumemonitor.h
 * /usr/i686-frugalware-linux/include/glib-2.0/gio/gzlibcompressor.h
 * /usr/i686-frugalware-linux/include/glib-2.0/gio/gzlibdecompressor.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/gi-visibility.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/giarginfo.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/gibaseinfo.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/gicallableinfo.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/gicallbackinfo.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/giconstantinfo.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/gienuminfo.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/gifieldinfo.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/giflagsinfo.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/gifunctioninfo.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/giinterfaceinfo.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/giobjectinfo.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/gipropertyinfo.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/giregisteredtypeinfo.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/girepository-autocleanups.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/girepository.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/girffi.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/gisignalinfo.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/gistructinfo.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/gitypeinfo.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/gitypelib.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/gitypes.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/giunioninfo.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/giunresolvedinfo.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/givalueinfo.h
+* /usr/i686-frugalware-linux/include/glib-2.0/girepository/givfuncinfo.h
 * /usr/i686-frugalware-linux/include/glib-2.0/glib-object.h
 * /usr/i686-frugalware-linux/include/glib-2.0/glib-unix.h
 * /usr/i686-frugalware-linux/include/glib-2.0/glib.h
@@ -286,7 +315,6 @@ Common C routines used by GTK+ and other libraries (32-bit)
 * /usr/i686-frugalware-linux/include/glib-2.0/glib/gvarianttype.h
 * /usr/i686-frugalware-linux/include/glib-2.0/glib/gversion.h
 * /usr/i686-frugalware-linux/include/glib-2.0/glib/gversionmacros.h
-* /usr/i686-frugalware-linux/include/glib-2.0/glib/gwin32.h
 * /usr/i686-frugalware-linux/include/glib-2.0/gmodule.h
 * /usr/i686-frugalware-linux/include/glib-2.0/gmodule/gmodule-visibility.h
 * /usr/i686-frugalware-linux/include/glib-2.0/gobject/gbinding.h
@@ -317,21 +345,25 @@ Common C routines used by GTK+ and other libraries (32-bit)
 * /usr/lib32/glib2/gio-launch-desktop
 * /usr/lib32/libgio-2.0.so
 * /usr/lib32/libgio-2.0.so.0
-* /usr/lib32/libgio-2.0.so.0.7800.4
+* /usr/lib32/libgio-2.0.so.0.8000.0
+* /usr/lib32/libgirepository-2.0.so
+* /usr/lib32/libgirepository-2.0.so.0
+* /usr/lib32/libgirepository-2.0.so.0.8000.0
 * /usr/lib32/libglib-2.0.so
 * /usr/lib32/libglib-2.0.so.0
-* /usr/lib32/libglib-2.0.so.0.7800.4
+* /usr/lib32/libglib-2.0.so.0.8000.0
 * /usr/lib32/libgmodule-2.0.so
 * /usr/lib32/libgmodule-2.0.so.0
-* /usr/lib32/libgmodule-2.0.so.0.7800.4
+* /usr/lib32/libgmodule-2.0.so.0.8000.0
 * /usr/lib32/libgobject-2.0.so
 * /usr/lib32/libgobject-2.0.so.0
-* /usr/lib32/libgobject-2.0.so.0.7800.4
+* /usr/lib32/libgobject-2.0.so.0.8000.0
 * /usr/lib32/libgthread-2.0.so
 * /usr/lib32/libgthread-2.0.so.0
-* /usr/lib32/libgthread-2.0.so.0.7800.4
+* /usr/lib32/libgthread-2.0.so.0.8000.0
 * /usr/lib32/pkgconfig/gio-2.0.pc
 * /usr/lib32/pkgconfig/gio-unix-2.0.pc
+* /usr/lib32/pkgconfig/girepository-2.0.pc
 * /usr/lib32/pkgconfig/glib-2.0.pc
 * /usr/lib32/pkgconfig/gmodule-2.0.pc
 * /usr/lib32/pkgconfig/gmodule-export-2.0.pc

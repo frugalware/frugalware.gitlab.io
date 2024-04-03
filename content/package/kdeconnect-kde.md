@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdeconnect-kde 24.02.1-4"
-version = "24.02.1-4"
+title = "kdeconnect-kde 24.02.1-5"
+version = "24.02.1-5"
 description = "Adds communication between KDE and your smartphone"
-date = "2024-03-27T13:40:30"
+date = "2024-04-03T08:12:42"
 aliases = "/packages/220147"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5395276"
+size = "5393664"
 usize = "14287132"
-sha1sum = "093ffb9c306a722dfc523de50e70ed32457b3367"
-depends = "['kcmutils>=6.0.0', 'kio>=6.0.0', 'kirigami-addons', 'kirigami-addons', 'kpeople>=6.0.0', 'kwayland>=6.0.3', 'libfakekey', 'libxtst', 'modemmanager-qt>=6.0.0', 'pulseaudio-qt>=1.3', 'qca', 'qca-ossl', 'qqc2-desktop-style>=6.0.0', 'qt6-multimedia>=6.6.3', 'qt6-sensors>=6.6.3']"
+sha1sum = "03d712557eba1d3f04549fabddf2958b1272b3ee"
+depends = "['kcmutils>=6.0.0', 'kio>=6.0.0', 'kirigami-addons', 'kirigami-addons', 'kpeople>=6.0.0', 'kstatusnotifieritem>=6.0.0', 'kwayland>=6.0.3', 'libfakekey', 'libxtst', 'modemmanager-qt>=6.0.0', 'pulseaudio-qt>=1.3', 'qca', 'qca-ossl', 'qqc2-desktop-style>=6.0.0', 'qt6-multimedia>=6.6.3', 'qt6-sensors>=6.6.3']"
 reverse_depends = "['plasma-bigscreen']"
 +++
 ### Description: 

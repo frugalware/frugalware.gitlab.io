@@ -12,7 +12,7 @@ size = "251220"
 usize = "866139"
 sha1sum = "cc1d02bda9f55070aff928edfd8ce96e53765059"
 depends = "['glibc>=2.35']"
-reverse_depends = "['courier-imap', 'courier-maildrop', 'dirmngr', 'dirmngr-ldap', 'eiskaltdc', 'elinks', 'gloox', 'gmime3', 'gnunet', 'kopete', 'libgadu', 'libgs', 'libgsasl', 'libpurple', 'libsystemd', 'libvlc', 'libvncserver', 'lynx', 'mutt-devel', 'php', 'podofo', 'podofo-0.9', 'whois']"
+reverse_depends = "['courier-imap', 'courier-maildrop', 'dirmngr', 'dirmngr-ldap', 'eiskaltdc', 'elinks', 'gloox', 'gmime3', 'gnunet', 'libgadu', 'libgs', 'libgsasl', 'libpurple', 'libsystemd', 'libvlc', 'libvncserver', 'lynx', 'mutt-devel', 'php', 'podofo', 'podofo-0.9', 'whois']"
 +++
 ### Description: 
 GNU Libidn is an implementation of the Stringprep,Punycode and IDNA specification.

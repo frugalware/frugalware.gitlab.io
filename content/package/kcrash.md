@@ -12,7 +12,7 @@ size = "20396"
 usize = "65702"
 sha1sum = "8b4c52382ad4f6d761b3756f5fb1f12bd6cff5a7"
 depends = "['kcoreaddons>=6.0.0', 'kwindowsystem>=6.0.0']"
-reverse_depends = "['audiotube', 'dolphin', 'isoimagewriter', 'kglobalacceld', 'kopete', 'kservice', 'kwin', 'polkit-kde-agent-1', 'sweeper']"
+reverse_depends = "['audiotube', 'dolphin', 'isoimagewriter', 'kglobalacceld', 'kservice', 'kwin', 'polkit-kde-agent-1', 'sweeper']"
 +++
 ### Description: 
 Gracefull handling of application crashes.

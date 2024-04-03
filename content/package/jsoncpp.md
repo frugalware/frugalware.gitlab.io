@@ -12,7 +12,7 @@ size = "93448"
 usize = "309271"
 sha1sum = "b1fa69baf43c543a5375a60cb00d5215dbecc418"
 depends = "['glibc>=2.34']"
-reverse_depends = "['cmake', 'kopete', 'opendht', 'openvr', 'openxr', 'qt5-webengine', 'sysdig']"
+reverse_depends = "['cmake', 'opendht', 'openvr', 'openxr', 'qt5-webengine', 'sysdig']"
 +++
 ### Description: 
 JSON C++ library.

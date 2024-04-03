@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdev-php 23.08.3-1"
-version = "23.08.3-1"
+title = "kdev-php 24.02.1-1"
+version = "24.02.1-1"
 description = "PHP Language Plugin for KDevelop"
-date = "2023-11-27T13:41:51"
+date = "2024-04-03T08:01:27"
 aliases = "/packages/220975"
 categories = ['devel-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1274152"
-usize = "8187610"
-sha1sum = "b2ca2a2cb25845419c8c1350d511749f0b80dd7a"
+size = "1276708"
+usize = "8224152"
+sha1sum = "0996d84bbb5e7cf9f8a270634fa3502487ea395b"
 depends = "['kdevelop', 'php']"
 reverse_depends = "['umbrello']"
 +++
@@ -38,13 +38,13 @@ PHP Language Plugin for KDevelop
 * /usr/lib/libkdevphpcompletion.so
 * /usr/lib/libkdevphpduchain.so
 * /usr/lib/libkdevphpparser.so
-* /usr/lib/qt5/plugins/kdevplatform/512/kcm/kcm_kdevphpdocs.so
-* /usr/lib/qt5/plugins/kdevplatform/512/kdevphpdocs.so
-* /usr/lib/qt5/plugins/kdevplatform/512/kdevphplanguagesupport.so
-* /usr/lib/qt5/plugins/kdevplatform/512/kdevphpunitprovider.so
-* /usr/share/doc/kdev-php-23.08.3/AUTHORS
-* /usr/share/doc/kdev-php-23.08.3/HACKING
-* /usr/share/doc/kdev-php-23.08.3/TODO
+* /usr/lib/qt5/plugins/kdevplatform/513/kcm/kcm_kdevphpdocs.so
+* /usr/lib/qt5/plugins/kdevplatform/513/kdevphpdocs.so
+* /usr/lib/qt5/plugins/kdevplatform/513/kdevphplanguagesupport.so
+* /usr/lib/qt5/plugins/kdevplatform/513/kdevphpunitprovider.so
+* /usr/share/doc/kdev-php-24.02.1/AUTHORS
+* /usr/share/doc/kdev-php-24.02.1/HACKING
+* /usr/share/doc/kdev-php-24.02.1/TODO
 * /usr/share/kdevappwizard/templates/simple_phpapp.tar.bz2
 * /usr/share/kdevphpsupport/phpfunctions.php
 * /usr/share/kdevphpsupport/phpunitdeclarations.php
