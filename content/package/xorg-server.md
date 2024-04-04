@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xorg-server 21.1.11-1"
-version = "21.1.11-1"
+title = "xorg-server 21.1.12-1"
+version = "21.1.12-1"
 description = "Modular X.Org X Server"
-date = "2024-01-17T21:14:49"
+date = "2024-04-04T08:43:20"
 aliases = "/packages/4942"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "3757772"
-usize = "17314098"
-sha1sum = "8a0010d616edd56768d857775528b0ba34e88827"
+size = "3761060"
+usize = "17327935"
+sha1sum = "67e0c901ffd0042c27f99f3a885d7a244ca9eed3"
 depends = "['dbus', 'libepoxy>=1.5.2', 'libgbm>=19.0.0', 'libglapi>=19.0.0', 'libglvnd', 'libsystemd>=242', 'libudev>=242', 'libxcvt', 'libxfont2>=2.0.1', 'mesa-dri-drivers', 'mesa-libegl>=19.0.0', 'mesa-libglx>=19.0.0', 'pam', 'pixman>=0.32.8-3', 'xf86-input-evdev']"
 reverse_depends = "['i3', 'ksynaptics', 'lumina-desktop', 'openbox', 'xf86-input-acecad', 'xf86-input-elographics', 'xf86-input-evdev', 'xf86-input-fpit', 'xf86-input-hyperpen', 'xf86-input-joystick', 'xf86-input-libinput', 'xf86-input-mouse', 'xf86-input-mtrack', 'xf86-input-mutouch', 'xf86-input-penmount', 'xf86-input-synaptics', 'xf86-input-vmmouse', 'xf86-input-void', 'xf86-input-wacom', 'xf86-video-amdgpu', 'xf86-video-ast', 'xf86-video-ati', 'xf86-video-chips', 'xf86-video-dummy', 'xf86-video-fbdev', 'xf86-video-i810', 'xf86-video-intel', 'xf86-video-nouveau', 'xf86-video-qxl', 'xf86-video-s3virge', 'xf86-video-sunbw2', 'xf86-video-suncg14', 'xf86-video-suncg3', 'xf86-video-suncg6', 'xf86-video-sunffb', 'xf86-video-sunleo', 'xf86-video-suntcx', 'xf86-video-vboxvideo', 'xf86-video-vesa', 'xf86-video-vmware', 'xorg-compat']"
 license = "GPL2"
@@ -196,10 +196,10 @@ Modular X.Org X Server
 * /usr/lib/xorg/modules/libwfb.so
 * /usr/lib/xorg/protocol.txt
 * /usr/share/aclocal/xorg-server.m4
-* /usr/share/doc/xorg-server-21.1.11/ChangeLog
-* /usr/share/doc/xorg-server-21.1.11/COPYING
-* /usr/share/doc/xorg-server-21.1.11/INSTALL
-* /usr/share/doc/xorg-server-21.1.11/README.md
+* /usr/share/doc/xorg-server-21.1.12/ChangeLog
+* /usr/share/doc/xorg-server-21.1.12/COPYING
+* /usr/share/doc/xorg-server-21.1.12/INSTALL
+* /usr/share/doc/xorg-server-21.1.12/README.md
 * /usr/share/man/man1/gtf.1.gz
 * /usr/share/man/man1/Xephyr.1.gz
 * /usr/share/man/man1/Xnest.1.gz

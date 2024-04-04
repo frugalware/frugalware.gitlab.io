@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lib32-nvidia 550.67-2"
-version = "550.67-2"
+title = "lib32-nvidia 550.67-3"
+version = "550.67-3"
 description = "3D accelerated display driver for Nvidia cards ( 32bit)"
-date = "2024-03-28T20:38:32"
+date = "2024-04-04T08:28:19"
 aliases = "/packages/219733"
 categories = ['x11-extra']
 upstreamurl = "http://www.nvidia.com/object/unix.html"
 arch = "x86_64"
-size = "38588540"
+size = "38576916"
 usize = "199122030"
-sha1sum = "1fac817f0b0aa1a3625c3dbe6b97b614a0f6b13d"
-depends = "['lib32-libglvnd', 'nvidia=550.67-2']"
+sha1sum = "b070ca7b06b95f52a66cb2adc729b1094d8817b2"
+depends = "['lib32-libglvnd', 'nvidia=550.67-3']"
 +++
 ### Description: 
 3D accelerated display driver for Nvidia cards ( 32bit)

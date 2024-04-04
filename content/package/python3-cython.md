@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-cython 3.0.8-1"
-version = "3.0.8-1"
+title = "python3-cython 3.0.10-1"
+version = "3.0.10-1"
 description = "C-Extensions for Python"
-date = "2024-01-22T10:07:52"
+date = "2024-04-04T08:56:04"
 aliases = "/packages/219316"
 categories = ['devel']
 upstreamurl = "http://www.cython.org"
 arch = "x86_64"
-size = "3373100"
-usize = "14637207"
-sha1sum = "6aa6d571c23cd8dcf5a734be31fd469cfe676463"
+size = "3377540"
+usize = "14662848"
+sha1sum = "018f311b3c3e4089cc1db30207e41f3b3a629d1d"
 depends = "['python3>=3.12']"
 +++
 ### Description: 
@@ -20,12 +20,12 @@ C-Extensions for Python
 * /usr/bin/cygdb
 * /usr/bin/cython
 * /usr/bin/cythonize
-* /usr/lib/python3.12/site-packages/Cython-3.0.8-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/Cython-3.0.8-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/Cython-3.0.8-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/Cython-3.0.8-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/Cython-3.0.8-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/Cython-3.0.8-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/Cython-3.0.10-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/Cython-3.0.10-py3.12.egg-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/Cython-3.0.10-py3.12.egg-info/not-zip-safe
+* /usr/lib/python3.12/site-packages/Cython-3.0.10-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/Cython-3.0.10-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/Cython-3.0.10-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/cython.py
 * /usr/lib/python3.12/site-packages/Cython/Build/BuildExecutable.py
 * /usr/lib/python3.12/site-packages/Cython/Build/Cythonize.py
@@ -462,6 +462,6 @@ C-Extensions for Python
 * /usr/lib/python3.12/site-packages/pyximport/__pycache__/_pyximport3.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pyximport/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/__pycache__/cython.cpython-312.pyc
-* /usr/share/doc/python3-cython-3.0.8/COPYING.txt
-* /usr/share/doc/python3-cython-3.0.8/INSTALL.txt
-* /usr/share/doc/python3-cython-3.0.8/README.rst
+* /usr/share/doc/python3-cython-3.0.10/COPYING.txt
+* /usr/share/doc/python3-cython-3.0.10/INSTALL.txt
+* /usr/share/doc/python3-cython-3.0.10/README.rst

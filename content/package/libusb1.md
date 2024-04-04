@@ -12,7 +12,7 @@ size = "83784"
 usize = "267997"
 sha1sum = "1df68fc24688197278c630f2592a3a41ddc19996"
 depends = "['glibc>=2.34', 'libudev>=242']"
-reverse_depends = "['android-tools', 'argyllcms', 'chromium-browser', 'cups', 'gpsd', 'hplip-driver', 'libdc1394', 'libgphoto2', 'libgusb', 'libhidapi', 'libmtp', 'libpcap', 'librtlsdr', 'libusb', 'libusbmuxd', 'sane-backends', 'upower', 'usb-modeswitch', 'usbredir', 'wireshark']"
+reverse_depends = "['android-tools', 'argyllcms', 'chromium-browser', 'cups', 'gpsd', 'hplip-driver', 'libdc1394', 'libgphoto2', 'libgusb', 'libhidapi', 'libmtp', 'libpcap', 'librtlsdr', 'libusb', 'libusbmuxd', 'sane-backends', 'uhubctl', 'upower', 'usb-modeswitch', 'usbredir', 'wireshark']"
 +++
 ### Description: 
 A library which allows userspace access to USB devices

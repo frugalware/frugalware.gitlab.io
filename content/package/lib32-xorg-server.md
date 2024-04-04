@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-xorg-server 21.1.11-1"
-version = "21.1.11-1"
+title = "lib32-xorg-server 21.1.12-1"
+version = "21.1.12-1"
 description = "Modular X.Org X Server (32-bit)"
-date = "2024-01-17T21:14:49"
+date = "2024-04-04T08:43:20"
 aliases = "/packages/218902"
 categories = ['lib32-extra']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "2142612"
-usize = "10447536"
-sha1sum = "cf200b2d67f7269c6d79c120a8b3ea6728e8c823"
+size = "2147312"
+usize = "10451944"
+sha1sum = "3bb8437d0c4ab27879a41a2642c177c63c0d8c0f"
 depends = "['lib32-libdbus', 'lib32-libepoxy>=1.5.2', 'lib32-libgbm>=19.0.0', 'lib32-libglapi>=19.0.0', 'lib32-libglvnd', 'lib32-libsystemd>=231-17', 'lib32-libudev', 'lib32-libxcvt', 'lib32-libxfont2>=2.0.1', 'lib32-mesa-dri-drivers>=19.0.0', 'lib32-mesa-libegl>=19.0.0', 'lib32-mesa-libglx>=19.0.0', 'lib32-pam', 'lib32-pixman>=0.32.8-3']"
 +++
 ### Description: 
