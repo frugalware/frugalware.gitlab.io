@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-uri 5.27-1"
-version = "5.27-1"
+title = "perl-uri 5.28-1"
+version = "5.28-1"
 description = "Uniform Resource Identifiers (absolute and relative)"
-date = "2024-02-19T09:26:07"
+date = "2024-04-04T09:37:17"
 aliases = "/packages/3286"
 categories = ['devel']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "91524"
-usize = "213492"
-sha1sum = "109cb60c958b18a83015f418365decd8241bd4f8"
+size = "91640"
+usize = "213724"
+sha1sum = "a1c0a0b53fd612b3263d4c62ef37cd58a6a4c1c9"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-http-message', 'perl-io-socket-ssl', 'perl-mail-spf', 'perl-www-robotrules']"
 +++
@@ -75,9 +75,9 @@ Uniform Resource Identifiers (absolute and relative)
 * /usr/lib/perl5/site_perl/URI/_segment.pm
 * /usr/lib/perl5/site_perl/URI/_server.pm
 * /usr/lib/perl5/site_perl/URI/_userpass.pm
-* /usr/share/doc/perl-uri-5.27/LICENSE
-* /usr/share/doc/perl-uri-5.27/MANIFEST
-* /usr/share/doc/perl-uri-5.27/README
+* /usr/share/doc/perl-uri-5.28/LICENSE
+* /usr/share/doc/perl-uri-5.28/MANIFEST
+* /usr/share/doc/perl-uri-5.28/README
 * /usr/share/man/man3/URI.3perl.gz
 * /usr/share/man/man3/URI::data.3perl.gz
 * /usr/share/man/man3/URI::Escape.3perl.gz
