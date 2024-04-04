@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "samba 4.19.5-1"
-version = "4.19.5-1"
+title = "samba 4.20.0-1"
+version = "4.20.0-1"
 description = "SMB file and print server."
-date = "2024-02-23T10:09:13"
+date = "2024-04-04T12:54:56"
 aliases = "/packages/3326"
 categories = ['network']
 upstreamurl = "http://www.samba.org"
 arch = "x86_64"
-size = "7230884"
-usize = "58064476"
-sha1sum = "ae5aec28e7079b0a1c5a6bcc6859bb6019addf38"
-depends = "['libldap>=2.4.47-2', 'libsystemd>=231-10', 'ncurses>=6.0-15', 'openssl>=1.1.1', 'perl-parse-yapp', 'python3>=3.12', 'readline>=8.0', 'samba-client>=4.19.5', 'talloc>=2.4.0', 'tdb>=1.4.6']"
+size = "7584320"
+usize = "60523346"
+sha1sum = "cfdc7f33b532a6ab28e9d7e0a76245520cc6ec72"
+depends = "['libldap>=2.4.47-2', 'libsystemd>=231-10', 'ncurses>=6.0-15', 'openssl>=1.1.1', 'perl-parse-yapp', 'python3>=3.12', 'readline>=8.0', 'samba-client>=4.20.0', 'talloc>=2.4.0', 'tdb>=1.4.6']"
 reverse_depends = "['nss-wins']"
 +++
 ### Description: 
@@ -71,6 +71,7 @@ SMB file and print server.
 * /usr/bin/testparm
 * /usr/bin/wbinfo
 * /usr/bin/winbindd
+* /usr/bin/wspsearch
 * /usr/include/samba-4.0/charset.h
 * /usr/include/samba-4.0/core/doserr.h
 * /usr/include/samba-4.0/core/error.h
@@ -129,6 +130,7 @@ SMB file and print server.
 * /usr/include/samba-4.0/samba/version.h
 * /usr/include/samba-4.0/share.h
 * /usr/include/samba-4.0/smb2_lease_struct.h
+* /usr/include/samba-4.0/smb3posix.h
 * /usr/include/samba-4.0/smbconf.h
 * /usr/include/samba-4.0/smbldap.h
 * /usr/include/samba-4.0/smb_ldap.h
@@ -165,6 +167,7 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/dcerpc/auth.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/dcerpc/base.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/dcerpc/claims.cpython-312-x86_64-linux-gnu.so
+* /usr/lib/python3.12/site-packages/samba/dcerpc/conditional_ace.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/dcerpc/dcerpc.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/dcerpc/dfs.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/dcerpc/dns.cpython-312-x86_64-linux-gnu.so
@@ -174,6 +177,8 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/dcerpc/drsuapi.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/dcerpc/echo.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/dcerpc/epmapper.cpython-312-x86_64-linux-gnu.so
+* /usr/lib/python3.12/site-packages/samba/dcerpc/gkdi.cpython-312-x86_64-linux-gnu.so
+* /usr/lib/python3.12/site-packages/samba/dcerpc/gmsa.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/dcerpc/idmap.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/dcerpc/initshutdown.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/dcerpc/irpc.cpython-312-x86_64-linux-gnu.so
@@ -191,6 +196,8 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/dcerpc/samr.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/dcerpc/security.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/dcerpc/server_id.cpython-312-x86_64-linux-gnu.so
+* /usr/lib/python3.12/site-packages/samba/dcerpc/smb3posix.cpython-312-x86_64-linux-gnu.so
+* /usr/lib/python3.12/site-packages/samba/dcerpc/smbXsrv.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/dcerpc/smb_acl.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/dcerpc/spoolss.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/dcerpc/srvsvc.cpython-312-x86_64-linux-gnu.so
@@ -219,11 +226,13 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/functional_level.py
 * /usr/lib/python3.12/site-packages/samba/gensec.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/getopt.py
+* /usr/lib/python3.12/site-packages/samba/gkdi.py
 * /usr/lib/python3.12/site-packages/samba/gp/gpclass.py
 * /usr/lib/python3.12/site-packages/samba/gp/gp_centrify_crontab_ext.py
 * /usr/lib/python3.12/site-packages/samba/gp/gp_centrify_sudoers_ext.py
 * /usr/lib/python3.12/site-packages/samba/gp/gp_cert_auto_enroll_ext.py
 * /usr/lib/python3.12/site-packages/samba/gp/gp_chromium_ext.py
+* /usr/lib/python3.12/site-packages/samba/gp/gp_drive_maps_ext.py
 * /usr/lib/python3.12/site-packages/samba/gp/gp_ext_loader.py
 * /usr/lib/python3.12/site-packages/samba/gp/gp_firefox_ext.py
 * /usr/lib/python3.12/site-packages/samba/gp/gp_firewalld_ext.py
@@ -252,6 +261,7 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/gp_parse/__init__.py
 * /usr/lib/python3.12/site-packages/samba/graph.py
 * /usr/lib/python3.12/site-packages/samba/hostconfig.py
+* /usr/lib/python3.12/site-packages/samba/hresult.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/idmap.py
 * /usr/lib/python3.12/site-packages/samba/join.py
 * /usr/lib/python3.12/site-packages/samba/kcc/debug.py
@@ -299,7 +309,9 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/netcmd/domain/models/claim_type.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/domain/models/exceptions.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/domain/models/fields.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/domain/models/group.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/domain/models/model.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/domain/models/query.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/domain/models/schema.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/domain/models/site.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/domain/models/subnet.py
@@ -330,16 +342,43 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/netcmd/pso.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/rodc.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/schema.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/shell.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/sites.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/spn.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/testparm.py
-* /usr/lib/python3.12/site-packages/samba/netcmd/user.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/add.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/add_unix_attrs.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/auth/policy.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/auth/silo.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/auth/__init__.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/delete.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/disable.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/edit.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/enable.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/getgroups.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/list.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/move.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/password.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/readpasswords/common.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/readpasswords/getpassword.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/readpasswords/get_kerberos_ticket.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/readpasswords/show.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/readpasswords/syncpasswords.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/readpasswords/__init__.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/rename.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/sensitive.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/setexpiry.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/setpassword.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/setprimarygroup.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/unlock.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/user/__init__.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/validators.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/visualize.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/__init__.py
 * /usr/lib/python3.12/site-packages/samba/net_s3.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/ntacls.py
 * /usr/lib/python3.12/site-packages/samba/ntstatus.cpython-312-x86_64-linux-gnu.so
+* /usr/lib/python3.12/site-packages/samba/nt_time.py
 * /usr/lib/python3.12/site-packages/samba/param.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/policies.py
 * /usr/lib/python3.12/site-packages/samba/policy.cpython-312-x86_64-linux-gnu.so
@@ -386,16 +425,19 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/tests/auth_log_winbind.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/bug13653.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/check_output.py
+* /usr/lib/python3.12/site-packages/samba/tests/blackbox/claims.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/downgradedatabase.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/mdsearch.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/ndrdump.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/netads_dns.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/netads_json.py
+* /usr/lib/python3.12/site-packages/samba/tests/blackbox/rpcd_witness_samba_only.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/samba_dnsupdate.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/smbcacls.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/smbcacls_basic.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/smbcacls_dfs_propagate_inherit.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/smbcacls_propagate_inhertance.py
+* /usr/lib/python3.12/site-packages/samba/tests/blackbox/smbcacls_save_restore.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/smbcontrol.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/smbcontrol_process.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/traffic_learner.py
@@ -405,6 +447,9 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/tests/common.py
 * /usr/lib/python3.12/site-packages/samba/tests/complex_expressions.py
 * /usr/lib/python3.12/site-packages/samba/tests/compression.py
+* /usr/lib/python3.12/site-packages/samba/tests/conditional_ace_assembler.py
+* /usr/lib/python3.12/site-packages/samba/tests/conditional_ace_bytes.py
+* /usr/lib/python3.12/site-packages/samba/tests/conditional_ace_claims.py
 * /usr/lib/python3.12/site-packages/samba/tests/core.py
 * /usr/lib/python3.12/site-packages/samba/tests/credentials.py
 * /usr/lib/python3.12/site-packages/samba/tests/cred_opt.py
@@ -454,6 +499,7 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/tests/gensec.py
 * /usr/lib/python3.12/site-packages/samba/tests/getdcname.py
 * /usr/lib/python3.12/site-packages/samba/tests/get_opt.py
+* /usr/lib/python3.12/site-packages/samba/tests/gkdi.py
 * /usr/lib/python3.12/site-packages/samba/tests/glue.py
 * /usr/lib/python3.12/site-packages/samba/tests/gpo.py
 * /usr/lib/python3.12/site-packages/samba/tests/gpo_member.py
@@ -474,14 +520,17 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/claims_in_pac.py
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/claims_tests.py
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/compatability_tests.py
+* /usr/lib/python3.12/site-packages/samba/tests/krb5/conditional_ace_tests.py
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/device_tests.py
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/etype_tests.py
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/fast_tests.py
+* /usr/lib/python3.12/site-packages/samba/tests/krb5/gkdi_tests.py
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/group_tests.py
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/kcrypto.py
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/kdc_base_test.py
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/kdc_tests.py
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/kdc_tgs_tests.py
+* /usr/lib/python3.12/site-packages/samba/tests/krb5/kdc_tgt_tests.py
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/kpasswd_tests.py
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/lockout_tests.py
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/ms_kile_client_principal_lookup_tests.py
@@ -492,6 +541,7 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/raw_testcase.py
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/rfc4120_constants.py
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/rfc4120_pyasn1.py
+* /usr/lib/python3.12/site-packages/samba/tests/krb5/rfc4120_pyasn1_generated.py
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/rodc_tests.py
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/s4u_tests.py
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/salt_tests.py
@@ -516,7 +566,9 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/tests/logfiles.py
 * /usr/lib/python3.12/site-packages/samba/tests/lsa_string.py
 * /usr/lib/python3.12/site-packages/samba/tests/messaging.py
-* /usr/lib/python3.12/site-packages/samba/tests/ndr.py
+* /usr/lib/python3.12/site-packages/samba/tests/ndr/gkdi.py
+* /usr/lib/python3.12/site-packages/samba/tests/ndr/gmsa.py
+* /usr/lib/python3.12/site-packages/samba/tests/ndr/wbint.py
 * /usr/lib/python3.12/site-packages/samba/tests/netbios.py
 * /usr/lib/python3.12/site-packages/samba/tests/netcmd.py
 * /usr/lib/python3.12/site-packages/samba/tests/netlogonsvc.py
@@ -563,7 +615,6 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/contact.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/demote.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/dnscmd.py
-* /usr/lib/python3.12/site-packages/samba/tests/samba_tool/domain_auth_base.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/domain_auth_policy.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/domain_auth_silo.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/domain_claim.py
@@ -589,10 +640,15 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/provision_userPassword_crypt.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/rodc.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/schema.py
+* /usr/lib/python3.12/site-packages/samba/tests/samba_tool/silo_base.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/sites.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/timecmd.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/user.py
+* /usr/lib/python3.12/site-packages/samba/tests/samba_tool/user_auth_policy.py
+* /usr/lib/python3.12/site-packages/samba/tests/samba_tool/user_auth_silo.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/user_check_password_script.py
+* /usr/lib/python3.12/site-packages/samba/tests/samba_tool/user_getpassword_gmsa.py
+* /usr/lib/python3.12/site-packages/samba/tests/samba_tool/user_get_kerberos_ticket.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/user_virtualCryptSHA.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/user_virtualCryptSHA_base.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/user_virtualCryptSHA_gpg.py
@@ -605,7 +661,9 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/tests/samdb.py
 * /usr/lib/python3.12/site-packages/samba/tests/samdb_api.py
 * /usr/lib/python3.12/site-packages/samba/tests/sddl.py
+* /usr/lib/python3.12/site-packages/samba/tests/sddl_conditional_ace.py
 * /usr/lib/python3.12/site-packages/samba/tests/security.py
+* /usr/lib/python3.12/site-packages/samba/tests/security_descriptors.py
 * /usr/lib/python3.12/site-packages/samba/tests/segfault.py
 * /usr/lib/python3.12/site-packages/samba/tests/sid_strings.py
 * /usr/lib/python3.12/site-packages/samba/tests/smb-notify.py
@@ -621,6 +679,7 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/tests/strings.py
 * /usr/lib/python3.12/site-packages/samba/tests/subunitrun.py
 * /usr/lib/python3.12/site-packages/samba/tests/tdb_util.py
+* /usr/lib/python3.12/site-packages/samba/tests/token_factory.py
 * /usr/lib/python3.12/site-packages/samba/tests/upgrade.py
 * /usr/lib/python3.12/site-packages/samba/tests/upgradeprovision.py
 * /usr/lib/python3.12/site-packages/samba/tests/upgradeprovisionneeddc.py
@@ -647,12 +706,12 @@ SMB file and print server.
 * /usr/lib/systemd/system/smb.socket
 * /usr/lib/systemd/system/smb@.service
 * /usr/lib/systemd/system/winbindd.service
-* /usr/share/doc/samba-4.19.5/COPYING
-* /usr/share/doc/samba-4.19.5/README.cifs-utils
-* /usr/share/doc/samba-4.19.5/README.Coding.md
-* /usr/share/doc/samba-4.19.5/README.contributing
-* /usr/share/doc/samba-4.19.5/README.md
-* /usr/share/doc/samba-4.19.5/VERSION
+* /usr/share/doc/samba-4.20.0/COPYING
+* /usr/share/doc/samba-4.20.0/README.cifs-utils
+* /usr/share/doc/samba-4.20.0/README.Coding.md
+* /usr/share/doc/samba-4.20.0/README.contributing
+* /usr/share/doc/samba-4.20.0/README.md
+* /usr/share/doc/samba-4.20.0/VERSION
 * /usr/share/man/man1/dbwrap_tool.1.gz
 * /usr/share/man/man1/gentest.1.gz
 * /usr/share/man/man1/ldbadd.1.gz
@@ -689,6 +748,7 @@ SMB file and print server.
 * /usr/share/man/man1/vfstest.1.gz
 * /usr/share/man/man1/wbinfo.1.gz
 * /usr/share/man/man1/winexe.1.gz
+* /usr/share/man/man1/wspsearch.1.gz
 * /usr/share/man/man3/ldb.3.gz
 * /usr/share/man/man5/lmhosts.5.gz
 * /usr/share/man/man5/pam_winbind.conf.5.gz
