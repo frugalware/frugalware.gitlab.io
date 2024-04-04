@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "docker 25.0.3-1"
-version = "25.0.3-1"
+title = "docker 26.0.0-1"
+version = "26.0.0-1"
 description = "Docker - the Linux container runtime"
-date = "2024-02-18T19:45:22"
+date = "2024-04-04T15:27:19"
 aliases = "/packages/217244"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/docker/cli"
 arch = "x86_64"
-size = "37505504"
-usize = "140281338"
-sha1sum = "72e6879be9c5484d2872fc203e0dfb34326ced7e"
+size = "27942984"
+usize = "117925296"
+sha1sum = "fe136afe1d4963bc4436207cd6897cbde074dd2c"
 depends = "['bridge-utils', 'btrfs-progs>=4.10-2', 'containerd', 'iproute2', 'libnetwork', 'lvm2', 'runc', 'sqlite3', 'tini']"
 reverse_depends = "['docker-compose']"
 +++
@@ -18,7 +18,6 @@ reverse_depends = "['docker-compose']"
 Docker - the Linux container runtime
 
 ### Files: 
-* /etc/sysconfig/dockerd
 * /usr/bin/docker
 * /usr/bin/dockerd
 * /usr/lib/systemd/system/docker.service
