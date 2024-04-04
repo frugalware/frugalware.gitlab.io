@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wget 1.21.4-1"
-version = "1.21.4-1"
+title = "wget 1.24.5-1"
+version = "1.24.5-1"
 description = "A network utility to retrieve files from the Web"
-date = "2023-05-14T12:59:04"
+date = "2024-04-04T12:26:55"
 aliases = "/packages/221000"
 categories = ['chroot-core']
 upstreamurl = "http://www.gnu.org/software/wget/wget.html"
 arch = "x86_64"
-size = "913284"
-usize = "4343476"
-sha1sum = "d0e928efa54724928eb973a7637c91f368086b7f"
+size = "928496"
+usize = "4437695"
+sha1sum = "4cea8524a04e10732139b2a7fe6d8f0a5fba12dd"
 depends = "['libpsl', 'libuuid', 'openssl>=3.1.0', 'pcre2']"
 reverse_depends = "['get_steam', 'hplip', 'pacman-tools']"
 +++
@@ -20,12 +20,12 @@ A network utility to retrieve files from the Web
 ### Files: 
 * /etc/wgetrc
 * /usr/bin/wget
-* /usr/share/doc/wget-1.21.4/AUTHORS
-* /usr/share/doc/wget-1.21.4/ChangeLog
-* /usr/share/doc/wget-1.21.4/COPYING
-* /usr/share/doc/wget-1.21.4/INSTALL
-* /usr/share/doc/wget-1.21.4/NEWS
-* /usr/share/doc/wget-1.21.4/README
+* /usr/share/doc/wget-1.24.5/AUTHORS
+* /usr/share/doc/wget-1.24.5/ChangeLog
+* /usr/share/doc/wget-1.24.5/COPYING
+* /usr/share/doc/wget-1.24.5/INSTALL
+* /usr/share/doc/wget-1.24.5/NEWS
+* /usr/share/doc/wget-1.24.5/README
 * /usr/share/info/wget.info.gz
 * /usr/share/locale/af/LC_MESSAGES/wget-gnulib.mo
 * /usr/share/locale/be/LC_MESSAGES/wget-gnulib.mo

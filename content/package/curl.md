@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "curl 8.6.0-1"
-version = "8.6.0-1"
+title = "curl 8.7.1-1"
+version = "8.7.1-1"
 description = "A command line tool for transferring data specified with URL syntax."
-date = "2024-01-31T16:21:59"
+date = "2024-04-04T12:35:26"
 aliases = "/packages/2359"
 categories = ['network']
 upstreamurl = "http://curl.haxx.se"
 arch = "x86_64"
-size = "1192168"
-usize = "2222046"
-sha1sum = "bc55157520fd0dd5c6ab50b6f552b2f095a1da79"
+size = "1203308"
+usize = "2264433"
+sha1sum = "f8a6e5d0a0b66eef907563227b245ce7b26adb5b"
 depends = "['brotli', 'c-ares>=1.13.0-2', 'libidn2>=2.0.0-5', 'libpsl>=0.21.5', 'libssh2>=1.8.2-2', 'nghttp2>=1.37.0-2', 'openssl>=3.1.0', 'zstd']"
 reverse_depends = "['alienarena', 'apache', 'appstream', 'appstream-glib', 'assaultcube', 'cargo-c', 'chromium-browser', 'clamav', 'claws-mail-plugin-libravatar', 'claws-mail-plugin-rssyl', 'claws-mail-plugin-spam-report', 'claws-mail-plugin-vcalendar', 'cmake', 'cryfs', 'dovecot', 'elfutils-debuginfod', 'enigma', 'exiv2', 'facter', 'feh', 'firefox', 'flickcurl', 'flutter', 'freeciv', 'freetuxtv', 'get_steam', 'git', 'glyr', 'gmic', 'gnunet', 'hw-probe', 'icecast', 'julia', 'keepassxc', 'kvm', 'libclastfm', 'libcmis', 'libmediainfo', 'libmicrohttpd', 'liboauth', 'libofx', 'libproxy', 'libqalculate', 'libquvi', 'libreswan', 'libu2f-host', 'libvirt', 'libvirt-glib', 'libykneomgr', 'libyubikey', 'manaplus', 'minetest', 'mod_security', 'mpd', 'mupdf', 'ncmpcpp', 'networkmanager', 'nushell', 'obs-studio', 'octave', 'openscenegraph', 'ostree', 'pdns', 'pdns-recursor', 'php', 'poppler', 'proj', 'pycurl', 'qemu', 'qmmp', 'r', 'raptor', 'retroshare', 'rng-tools', 'rsyslog', 'rust', 'rustup', 'scummvm', 'seafile', 'spamassassin', 'spring', 'strongswan', 'supertux', 'supertuxkart', 'sysdig', 'systemd-pull', 'tpm2-tss', 'transmission-cli', 'ufoai', 'uget', 'uwsgi-plugin-curl', 'virtualbox', 'vorbis-tools', 'warzone2100', 'weechat', 'wesnoth', 'xcfa', 'xine-ui', 'xmlrpc-c', 'xonotic']"
 +++
@@ -37,13 +37,12 @@ A command line tool for transferring data specified with URL syntax.
 * /usr/lib/libcurl.so.4.8.0
 * /usr/lib/pkgconfig/libcurl.pc
 * /usr/share/aclocal/libcurl.m4
-* /usr/share/doc/curl-8.6.0/CHANGES
-* /usr/share/doc/curl-8.6.0/COPYING
-* /usr/share/doc/curl-8.6.0/README
-* /usr/share/doc/curl-8.6.0/RELEASE-NOTES
+* /usr/share/doc/curl-8.7.1/CHANGES
+* /usr/share/doc/curl-8.7.1/COPYING
+* /usr/share/doc/curl-8.7.1/README
+* /usr/share/doc/curl-8.7.1/RELEASE-NOTES
 * /usr/share/man/man1/curl-config.1.gz
 * /usr/share/man/man1/curl.1.gz
-* /usr/share/man/man1/mk-ca-bundle.1.gz
 * /usr/share/man/man3/CURLINFO_ACTIVESOCKET.3.gz
 * /usr/share/man/man3/CURLINFO_APPCONNECT_TIME.3.gz
 * /usr/share/man/man3/CURLINFO_APPCONNECT_TIME_T.3.gz
@@ -115,6 +114,7 @@ A command line tool for transferring data specified with URL syntax.
 * /usr/share/man/man3/CURLINFO_TLS_SSL_PTR.3.gz
 * /usr/share/man/man3/CURLINFO_TOTAL_TIME.3.gz
 * /usr/share/man/man3/CURLINFO_TOTAL_TIME_T.3.gz
+* /usr/share/man/man3/CURLINFO_USED_PROXY.3.gz
 * /usr/share/man/man3/CURLINFO_XFER_ID.3.gz
 * /usr/share/man/man3/CURLMOPT_CHUNK_LENGTH_PENALTY_SIZE.3.gz
 * /usr/share/man/man3/CURLMOPT_CONTENT_LENGTH_PENALTY_SIZE.3.gz

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "c-ares 1.27.0-1"
-version = "1.27.0-1"
+title = "c-ares 1.28.1-1"
+version = "1.28.1-1"
 description = "C library that performs DNS requests and name resolves asynchronously."
-date = "2024-02-25T15:01:55"
+date = "2024-04-04T12:30:32"
 aliases = "/packages/15211"
 categories = ['network']
 upstreamurl = "https://c-ares.org/"
 arch = "x86_64"
-size = "246244"
-usize = "658473"
-sha1sum = "5f0399cf68c9719b35adbf419d692be2c2f83c2c"
+size = "252780"
+usize = "676743"
+sha1sum = "f0709fda417f95dfc77ce1883be0667da371bd1d"
 depends = "['glibc>=2.3.4']"
 reverse_depends = "['aria2', 'curl', 'grpc', 'nodejs', 'nodejs18', 'nodejs20', 'python3-gevent', 'rtorrent', 'wireshark', 'wireshark-qt']"
 +++
@@ -33,17 +33,17 @@ C library that performs DNS requests and name resolves asynchronously.
 * /usr/lib/cmake/c-ares/c-ares-targets.cmake
 * /usr/lib/libcares.so
 * /usr/lib/libcares.so.2
-* /usr/lib/libcares.so.2.12.0
+* /usr/lib/libcares.so.2.13.1
 * /usr/lib/pkgconfig/libcares.pc
-* /usr/share/doc/c-ares-1.27.0/AUTHORS
-* /usr/share/doc/c-ares-1.27.0/CHANGES
-* /usr/share/doc/c-ares-1.27.0/INSTALL.md
-* /usr/share/doc/c-ares-1.27.0/NEWS
-* /usr/share/doc/c-ares-1.27.0/README.cares
-* /usr/share/doc/c-ares-1.27.0/README.md
-* /usr/share/doc/c-ares-1.27.0/README.msvc
-* /usr/share/doc/c-ares-1.27.0/RELEASE-NOTES.md
-* /usr/share/doc/c-ares-1.27.0/TODO
+* /usr/share/doc/c-ares-1.28.1/AUTHORS
+* /usr/share/doc/c-ares-1.28.1/CHANGES
+* /usr/share/doc/c-ares-1.28.1/INSTALL.md
+* /usr/share/doc/c-ares-1.28.1/NEWS
+* /usr/share/doc/c-ares-1.28.1/README.cares
+* /usr/share/doc/c-ares-1.28.1/README.md
+* /usr/share/doc/c-ares-1.28.1/README.msvc
+* /usr/share/doc/c-ares-1.28.1/RELEASE-NOTES.md
+* /usr/share/doc/c-ares-1.28.1/TODO
 * /usr/share/man/man1/adig.1.gz
 * /usr/share/man/man1/ahost.1.gz
 * /usr/share/man/man3/ares_cancel.3.gz
@@ -67,6 +67,7 @@ C library that performs DNS requests and name resolves asynchronously.
 * /usr/share/man/man3/ares_dns_record.3.gz
 * /usr/share/man/man3/ares_dns_record_create.3.gz
 * /usr/share/man/man3/ares_dns_record_destroy.3.gz
+* /usr/share/man/man3/ares_dns_record_duplicate.3.gz
 * /usr/share/man/man3/ares_dns_record_get_flags.3.gz
 * /usr/share/man/man3/ares_dns_record_get_id.3.gz
 * /usr/share/man/man3/ares_dns_record_get_opcode.3.gz
@@ -74,10 +75,13 @@ C library that performs DNS requests and name resolves asynchronously.
 * /usr/share/man/man3/ares_dns_record_query_add.3.gz
 * /usr/share/man/man3/ares_dns_record_query_cnt.3.gz
 * /usr/share/man/man3/ares_dns_record_query_get.3.gz
+* /usr/share/man/man3/ares_dns_record_query_set_name.3.gz
+* /usr/share/man/man3/ares_dns_record_query_set_type.3.gz
 * /usr/share/man/man3/ares_dns_record_rr_add.3.gz
 * /usr/share/man/man3/ares_dns_record_rr_cnt.3.gz
 * /usr/share/man/man3/ares_dns_record_rr_del.3.gz
 * /usr/share/man/man3/ares_dns_record_rr_get.3.gz
+* /usr/share/man/man3/ares_dns_record_rr_get_const.3.gz
 * /usr/share/man/man3/ares_dns_rec_type_fromstr.3.gz
 * /usr/share/man/man3/ares_dns_rec_type_t.3.gz
 * /usr/share/man/man3/ares_dns_rr.3.gz
@@ -151,10 +155,16 @@ C library that performs DNS requests and name resolves asynchronously.
 * /usr/share/man/man3/ares_parse_uri_reply.3.gz
 * /usr/share/man/man3/ares_process.3.gz
 * /usr/share/man/man3/ares_query.3.gz
+* /usr/share/man/man3/ares_query_dnsrec.3.gz
+* /usr/share/man/man3/ares_queue.3.gz
+* /usr/share/man/man3/ares_queue_active_queries.3.gz
+* /usr/share/man/man3/ares_queue_wait_empty.3.gz
 * /usr/share/man/man3/ares_reinit.3.gz
 * /usr/share/man/man3/ares_save_options.3.gz
 * /usr/share/man/man3/ares_search.3.gz
+* /usr/share/man/man3/ares_search_dnsrec.3.gz
 * /usr/share/man/man3/ares_send.3.gz
+* /usr/share/man/man3/ares_send_dnsrec.3.gz
 * /usr/share/man/man3/ares_set_local_dev.3.gz
 * /usr/share/man/man3/ares_set_local_ip4.3.gz
 * /usr/share/man/man3/ares_set_local_ip6.3.gz
