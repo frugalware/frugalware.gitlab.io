@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "opencv-python3 4.9.0-3"
-version = "4.9.0-3"
+title = "opencv-python3 4.9.0-4"
+version = "4.9.0-4"
 description = "Opencv python3 bindings"
-date = "2024-03-28T14:10:51"
+date = "2024-04-05T18:23:54"
 aliases = "/packages/218389"
 categories = ['xapps-extra']
 upstreamurl = "http://opencv.org/"
 arch = "x86_64"
-size = "2131336"
+size = "2131732"
 usize = "11173341"
-sha1sum = "69f21f9fd907a8ab2cd35073468f67b7825c7284"
+sha1sum = "5052e7cdc5e49da3aa841e8c3accb2f6b7b8d6f6"
 depends = "['libgfortran', 'openblas', 'openblas64', 'opencv>=4.9.0', 'python3>=3.12', 'python3-numpy']"
 reverse_depends = "['howdy']"
 +++

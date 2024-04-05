@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "opencv-cuda 4.9.0-3"
-version = "4.9.0-3"
+title = "opencv-cuda 4.9.0-4"
+version = "4.9.0-4"
 description = "Intel(R) Open Source Computer Vision Library CUDA"
-date = "2024-03-28T14:10:51"
+date = "2024-04-05T18:23:54"
 aliases = "/packages/221242"
 categories = ['xapps-extra']
 upstreamurl = "http://opencv.org/"
 arch = "x86_64"
-size = "71280808"
-usize = "1590836797"
-sha1sum = "1075412fec9b6339ff4a9ffdad93a890f3149718"
+size = "71268808"
+usize = "1590840894"
+sha1sum = "0e0b054652a778cdfe8bd071c1615fe9e0cc6a28"
 depends = "['cuda-tools', 'jasper', 'opencv>=4.9.0']"
 +++
 ### Description: 
