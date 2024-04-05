@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-graphs 6.6.3-1"
-version = "6.6.3-1"
+title = "qt6-graphs 6.7.0-1"
+version = "6.7.0-1"
 description = "The Qt6 toolkit, qtgraphs"
-date = "2024-03-26T20:44:32"
+date = "2024-04-03T19:22:09"
 aliases = "/packages/221137"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "519848"
-usize = "2930676"
-sha1sum = "6fbf0ff6c9dccc722e0fbbf252145ae9c6dce47b"
+size = "635744"
+usize = "3549063"
+sha1sum = "8b6af3e64499939a3a768a75f49471bfc1a94b9f"
 depends = "['qt6-quick3d']"
 +++
 ### Description: 

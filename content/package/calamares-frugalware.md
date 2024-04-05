@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "calamares-frugalware 3.3.5-1"
-version = "3.3.5-1"
+title = "calamares-frugalware 3.3.5-2"
+version = "3.3.5-2"
 description = "Distribution-independent installer framework"
-date = "2024-03-28T18:09:18"
+date = "2024-04-05T16:11:43"
 aliases = "/packages/218846"
 categories = ['installer-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3969128"
+size = "3969640"
 usize = "9246512"
-sha1sum = "1d90e526b314400f383b88a4512c0455361d4d67"
+sha1sum = "61444d59c003f5c1b896e9e2003ccfba8757f99f"
 depends = "['icu4c>=74.1', 'kconfig', 'kcoreaddons', 'kdbusaddons', 'kpmcore>=22.04.3', 'libboost>=1.83.0', 'libpwquality', 'parted', 'polkit-qt5-1', 'python3>=3.12', 'qt6-declarative>=5.15.10', 'qt6-svg', 'rsync', 'squashfs', 'yaml-cpp>=0.8.0']"
 +++
 ### Description: 

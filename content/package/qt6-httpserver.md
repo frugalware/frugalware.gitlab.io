@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-httpserver 6.6.3-1"
-version = "6.6.3-1"
+title = "qt6-httpserver 6.7.0-1"
+version = "6.7.0-1"
 description = "The Qt6 toolkit, qthttpserver"
-date = "2024-03-26T20:26:42"
+date = "2024-04-03T17:59:59"
 aliases = "/packages/220798"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "60196"
-usize = "230082"
-sha1sum = "5b99769c726e0eaef18ebd3d304c68f2ab0ae124"
+size = "61788"
+usize = "240582"
+sha1sum = "454842668351169773230c3c35c116789b811932"
 depends = "['qt6-declarative', 'qt6-websockets']"
 reverse_depends = "['arianna']"
 +++
@@ -18,15 +18,15 @@ reverse_depends = "['arianna']"
 The Qt6 toolkit, qthttpserver
 
 ### Files: 
-* /usr/include/qt6/QtHttpServer/6.6.3/QtHttpServer/private/qabstracthttpserver_p.h
-* /usr/include/qt6/QtHttpServer/6.6.3/QtHttpServer/private/qhttpserverliterals_p.h
-* /usr/include/qt6/QtHttpServer/6.6.3/QtHttpServer/private/qhttpserverrequest_p.h
-* /usr/include/qt6/QtHttpServer/6.6.3/QtHttpServer/private/qhttpserverresponder_p.h
-* /usr/include/qt6/QtHttpServer/6.6.3/QtHttpServer/private/qhttpserverresponse_p.h
-* /usr/include/qt6/QtHttpServer/6.6.3/QtHttpServer/private/qhttpserverrouterrule_p.h
-* /usr/include/qt6/QtHttpServer/6.6.3/QtHttpServer/private/qhttpserverrouter_p.h
-* /usr/include/qt6/QtHttpServer/6.6.3/QtHttpServer/private/qhttpserverstream_p.h
-* /usr/include/qt6/QtHttpServer/6.6.3/QtHttpServer/private/qhttpserver_p.h
+* /usr/include/qt6/QtHttpServer/6.7.0/QtHttpServer/private/qabstracthttpserver_p.h
+* /usr/include/qt6/QtHttpServer/6.7.0/QtHttpServer/private/qhttpserverliterals_p.h
+* /usr/include/qt6/QtHttpServer/6.7.0/QtHttpServer/private/qhttpserverrequest_p.h
+* /usr/include/qt6/QtHttpServer/6.7.0/QtHttpServer/private/qhttpserverresponder_p.h
+* /usr/include/qt6/QtHttpServer/6.7.0/QtHttpServer/private/qhttpserverresponse_p.h
+* /usr/include/qt6/QtHttpServer/6.7.0/QtHttpServer/private/qhttpserverrouterrule_p.h
+* /usr/include/qt6/QtHttpServer/6.7.0/QtHttpServer/private/qhttpserverrouter_p.h
+* /usr/include/qt6/QtHttpServer/6.7.0/QtHttpServer/private/qhttpserverstream_p.h
+* /usr/include/qt6/QtHttpServer/6.7.0/QtHttpServer/private/qhttpserver_p.h
 * /usr/include/qt6/QtHttpServer/QAbstractHttpServer
 * /usr/include/qt6/QtHttpServer/qabstracthttpserver.h
 * /usr/include/qt6/QtHttpServer/QHttpServer
@@ -64,7 +64,7 @@ The Qt6 toolkit, qthttpserver
 * /usr/lib/libQt6HttpServer.prl
 * /usr/lib/libQt6HttpServer.so
 * /usr/lib/libQt6HttpServer.so.6
-* /usr/lib/libQt6HttpServer.so.6.6.3
+* /usr/lib/libQt6HttpServer.so.6.7.0
 * /usr/lib/pkgconfig/Qt6HttpServer.pc
 * /usr/lib/qt6/metatypes/qt6httpserver_release_metatypes.json
 * /usr/lib/qt6/mkspecs/modules/qt_lib_httpserver.pri

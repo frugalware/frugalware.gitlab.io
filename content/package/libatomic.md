@@ -12,7 +12,7 @@ size = "36944"
 usize = "280418"
 sha1sum = "0a4c55f5b6ce96cba69afeb82ed8b5b23a36c6e0"
 depends = "['glibc']"
-reverse_depends = "['chromium-browser', 'julia', 'libdex', 'mlt', 'ogre', 'roctracer', 'webkit-gtk3']"
+reverse_depends = "['chromium-browser', 'julia', 'libdex', 'mlt', 'ogre', 'qt6-webengine', 'roctracer', 'webkit-gtk3']"
 +++
 ### Description: 
 Atomic libraries from GCC

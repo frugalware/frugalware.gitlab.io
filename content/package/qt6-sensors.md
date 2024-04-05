@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-sensors 6.6.3-2"
-version = "6.6.3-2"
+title = "qt6-sensors 6.7.0-1"
+version = "6.7.0-1"
 description = "The Qt6 toolkit, qtsensors"
-date = "2024-03-26T21:10:33"
+date = "2024-04-03T17:23:55"
 aliases = "/packages/220795"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "166484"
-usize = "1140869"
-sha1sum = "ea6ab0dcddd808dd970d77d2f97e5be3fac81f75"
+size = "165604"
+usize = "1148217"
+sha1sum = "9bd5472fb4d82dbd69b90712ce66fb082e915c52"
 depends = "['iio-sensor-proxy', 'qt6-connectivity', 'qt6-declarative', 'qt6-svg']"
 reverse_depends = "['kdeconnect-kde', 'kscreen', 'kwin', 'qt6-remoteobjects']"
 +++
@@ -18,25 +18,25 @@ reverse_depends = "['kdeconnect-kde', 'kscreen', 'kwin', 'qt6-remoteobjects']"
 The Qt6 toolkit, qtsensors
 
 ### Files: 
-* /usr/include/qt6/QtSensors/6.6.3/QtSensors/private/qaccelerometer_p.h
-* /usr/include/qt6/QtSensors/6.6.3/QtSensors/private/qambientlightsensor_p.h
-* /usr/include/qt6/QtSensors/6.6.3/QtSensors/private/qambienttemperaturesensor_p.h
-* /usr/include/qt6/QtSensors/6.6.3/QtSensors/private/qcompass_p.h
-* /usr/include/qt6/QtSensors/6.6.3/QtSensors/private/qgyroscope_p.h
-* /usr/include/qt6/QtSensors/6.6.3/QtSensors/private/qhumiditysensor_p.h
-* /usr/include/qt6/QtSensors/6.6.3/QtSensors/private/qirproximitysensor_p.h
-* /usr/include/qt6/QtSensors/6.6.3/QtSensors/private/qlidsensor_p.h
-* /usr/include/qt6/QtSensors/6.6.3/QtSensors/private/qlightsensor_p.h
-* /usr/include/qt6/QtSensors/6.6.3/QtSensors/private/qmagnetometer_p.h
-* /usr/include/qt6/QtSensors/6.6.3/QtSensors/private/qorientationsensor_p.h
-* /usr/include/qt6/QtSensors/6.6.3/QtSensors/private/qpressuresensor_p.h
-* /usr/include/qt6/QtSensors/6.6.3/QtSensors/private/qproximitysensor_p.h
-* /usr/include/qt6/QtSensors/6.6.3/QtSensors/private/qrotationsensor_p.h
-* /usr/include/qt6/QtSensors/6.6.3/QtSensors/private/qsensor_p.h
-* /usr/include/qt6/QtSensors/6.6.3/QtSensors/private/qtapsensor_p.h
-* /usr/include/qt6/QtSensors/6.6.3/QtSensors/private/qtiltsensor_p.h
-* /usr/include/qt6/QtSensors/6.6.3/QtSensors/private/qtsensors-config_p.h
-* /usr/include/qt6/QtSensors/6.6.3/QtSensors/private/sensorlog_p.h
+* /usr/include/qt6/QtSensors/6.7.0/QtSensors/private/qaccelerometer_p.h
+* /usr/include/qt6/QtSensors/6.7.0/QtSensors/private/qambientlightsensor_p.h
+* /usr/include/qt6/QtSensors/6.7.0/QtSensors/private/qambienttemperaturesensor_p.h
+* /usr/include/qt6/QtSensors/6.7.0/QtSensors/private/qcompass_p.h
+* /usr/include/qt6/QtSensors/6.7.0/QtSensors/private/qgyroscope_p.h
+* /usr/include/qt6/QtSensors/6.7.0/QtSensors/private/qhumiditysensor_p.h
+* /usr/include/qt6/QtSensors/6.7.0/QtSensors/private/qirproximitysensor_p.h
+* /usr/include/qt6/QtSensors/6.7.0/QtSensors/private/qlidsensor_p.h
+* /usr/include/qt6/QtSensors/6.7.0/QtSensors/private/qlightsensor_p.h
+* /usr/include/qt6/QtSensors/6.7.0/QtSensors/private/qmagnetometer_p.h
+* /usr/include/qt6/QtSensors/6.7.0/QtSensors/private/qorientationsensor_p.h
+* /usr/include/qt6/QtSensors/6.7.0/QtSensors/private/qpressuresensor_p.h
+* /usr/include/qt6/QtSensors/6.7.0/QtSensors/private/qproximitysensor_p.h
+* /usr/include/qt6/QtSensors/6.7.0/QtSensors/private/qrotationsensor_p.h
+* /usr/include/qt6/QtSensors/6.7.0/QtSensors/private/qsensor_p.h
+* /usr/include/qt6/QtSensors/6.7.0/QtSensors/private/qtapsensor_p.h
+* /usr/include/qt6/QtSensors/6.7.0/QtSensors/private/qtiltsensor_p.h
+* /usr/include/qt6/QtSensors/6.7.0/QtSensors/private/qtsensors-config_p.h
+* /usr/include/qt6/QtSensors/6.7.0/QtSensors/private/sensorlog_p.h
 * /usr/include/qt6/QtSensors/QAccelerometer
 * /usr/include/qt6/QtSensors/qaccelerometer.h
 * /usr/include/qt6/QtSensors/QAccelerometerFilter
@@ -120,27 +120,27 @@ The Qt6 toolkit, qtsensors
 * /usr/include/qt6/QtSensors/qtsensorsexports.h
 * /usr/include/qt6/QtSensors/QtSensorsVersion
 * /usr/include/qt6/QtSensors/qtsensorsversion.h
-* /usr/include/qt6/QtSensorsQuick/6.6.3/QtSensorsQuick/private/qmlaccelerometer_p.h
-* /usr/include/qt6/QtSensorsQuick/6.6.3/QtSensorsQuick/private/qmlambientlightsensor_p.h
-* /usr/include/qt6/QtSensorsQuick/6.6.3/QtSensorsQuick/private/qmlambienttemperaturesensor_p.h
-* /usr/include/qt6/QtSensorsQuick/6.6.3/QtSensorsQuick/private/qmlcompass_p.h
-* /usr/include/qt6/QtSensorsQuick/6.6.3/QtSensorsQuick/private/qmlgyroscope_p.h
-* /usr/include/qt6/QtSensorsQuick/6.6.3/QtSensorsQuick/private/qmlhumiditysensor_p.h
-* /usr/include/qt6/QtSensorsQuick/6.6.3/QtSensorsQuick/private/qmlirproximitysensor_p.h
-* /usr/include/qt6/QtSensorsQuick/6.6.3/QtSensorsQuick/private/qmllidsensor_p.h
-* /usr/include/qt6/QtSensorsQuick/6.6.3/QtSensorsQuick/private/qmllightsensor_p.h
-* /usr/include/qt6/QtSensorsQuick/6.6.3/QtSensorsQuick/private/qmlmagnetometer_p.h
-* /usr/include/qt6/QtSensorsQuick/6.6.3/QtSensorsQuick/private/qmlorientationsensor_p.h
-* /usr/include/qt6/QtSensorsQuick/6.6.3/QtSensorsQuick/private/qmlpressuresensor_p.h
-* /usr/include/qt6/QtSensorsQuick/6.6.3/QtSensorsQuick/private/qmlproximitysensor_p.h
-* /usr/include/qt6/QtSensorsQuick/6.6.3/QtSensorsQuick/private/qmlrotationsensor_p.h
-* /usr/include/qt6/QtSensorsQuick/6.6.3/QtSensorsQuick/private/qmlsensorglobal_p.h
-* /usr/include/qt6/QtSensorsQuick/6.6.3/QtSensorsQuick/private/qmlsensorrange_p.h
-* /usr/include/qt6/QtSensorsQuick/6.6.3/QtSensorsQuick/private/qmlsensor_p.h
-* /usr/include/qt6/QtSensorsQuick/6.6.3/QtSensorsQuick/private/qmltapsensor_p.h
-* /usr/include/qt6/QtSensorsQuick/6.6.3/QtSensorsQuick/private/qmltiltsensor_p.h
-* /usr/include/qt6/QtSensorsQuick/6.6.3/QtSensorsQuick/private/qsensorsquickglobal_p.h
-* /usr/include/qt6/QtSensorsQuick/6.6.3/QtSensorsQuick/private/qtsensorsquickexports_p.h
+* /usr/include/qt6/QtSensorsQuick/6.7.0/QtSensorsQuick/private/qmlaccelerometer_p.h
+* /usr/include/qt6/QtSensorsQuick/6.7.0/QtSensorsQuick/private/qmlambientlightsensor_p.h
+* /usr/include/qt6/QtSensorsQuick/6.7.0/QtSensorsQuick/private/qmlambienttemperaturesensor_p.h
+* /usr/include/qt6/QtSensorsQuick/6.7.0/QtSensorsQuick/private/qmlcompass_p.h
+* /usr/include/qt6/QtSensorsQuick/6.7.0/QtSensorsQuick/private/qmlgyroscope_p.h
+* /usr/include/qt6/QtSensorsQuick/6.7.0/QtSensorsQuick/private/qmlhumiditysensor_p.h
+* /usr/include/qt6/QtSensorsQuick/6.7.0/QtSensorsQuick/private/qmlirproximitysensor_p.h
+* /usr/include/qt6/QtSensorsQuick/6.7.0/QtSensorsQuick/private/qmllidsensor_p.h
+* /usr/include/qt6/QtSensorsQuick/6.7.0/QtSensorsQuick/private/qmllightsensor_p.h
+* /usr/include/qt6/QtSensorsQuick/6.7.0/QtSensorsQuick/private/qmlmagnetometer_p.h
+* /usr/include/qt6/QtSensorsQuick/6.7.0/QtSensorsQuick/private/qmlorientationsensor_p.h
+* /usr/include/qt6/QtSensorsQuick/6.7.0/QtSensorsQuick/private/qmlpressuresensor_p.h
+* /usr/include/qt6/QtSensorsQuick/6.7.0/QtSensorsQuick/private/qmlproximitysensor_p.h
+* /usr/include/qt6/QtSensorsQuick/6.7.0/QtSensorsQuick/private/qmlrotationsensor_p.h
+* /usr/include/qt6/QtSensorsQuick/6.7.0/QtSensorsQuick/private/qmlsensorglobal_p.h
+* /usr/include/qt6/QtSensorsQuick/6.7.0/QtSensorsQuick/private/qmlsensorrange_p.h
+* /usr/include/qt6/QtSensorsQuick/6.7.0/QtSensorsQuick/private/qmlsensor_p.h
+* /usr/include/qt6/QtSensorsQuick/6.7.0/QtSensorsQuick/private/qmltapsensor_p.h
+* /usr/include/qt6/QtSensorsQuick/6.7.0/QtSensorsQuick/private/qmltiltsensor_p.h
+* /usr/include/qt6/QtSensorsQuick/6.7.0/QtSensorsQuick/private/qsensorsquickglobal_p.h
+* /usr/include/qt6/QtSensorsQuick/6.7.0/QtSensorsQuick/private/qtsensorsquickexports_p.h
 * /usr/include/qt6/QtSensorsQuick/QtSensorsQuick
 * /usr/include/qt6/QtSensorsQuick/QtSensorsQuickDepends
 * /usr/include/qt6/QtSensorsQuick/qtsensorsquickexports.h
@@ -186,11 +186,11 @@ The Qt6 toolkit, qtsensors
 * /usr/lib/libQt6Sensors.prl
 * /usr/lib/libQt6Sensors.so
 * /usr/lib/libQt6Sensors.so.6
-* /usr/lib/libQt6Sensors.so.6.6.3
+* /usr/lib/libQt6Sensors.so.6.7.0
 * /usr/lib/libQt6SensorsQuick.prl
 * /usr/lib/libQt6SensorsQuick.so
 * /usr/lib/libQt6SensorsQuick.so.6
-* /usr/lib/libQt6SensorsQuick.so.6.6.3
+* /usr/lib/libQt6SensorsQuick.so.6.7.0
 * /usr/lib/pkgconfig/Qt6Sensors.pc
 * /usr/lib/pkgconfig/Qt6SensorsQuick.pc
 * /usr/lib/qt6/metatypes/qt6sensorsquick_release_metatypes.json

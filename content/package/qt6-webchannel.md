@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-webchannel 6.6.3-1"
-version = "6.6.3-1"
+title = "qt6-webchannel 6.7.0-1"
+version = "6.7.0-1"
 description = "The Qt6 toolkit, qtwebchannel"
-date = "2024-03-26T18:53:51"
+date = "2024-04-03T14:13:55"
 aliases = "/packages/220789"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "111584"
-usize = "433942"
-sha1sum = "6737d0864172c9bd326459bf5541675c51614343"
+size = "112480"
+usize = "436232"
+sha1sum = "2e0e58e81d1f4a46c125ba55135e47419601ae0b"
 depends = "['qt6-declarative']"
 reverse_depends = "['falkon', 'qt6-webengine']"
 +++
@@ -18,9 +18,9 @@ reverse_depends = "['falkon', 'qt6-webengine']"
 The Qt6 toolkit, qtwebchannel
 
 ### Files: 
-* /usr/include/qt6/QtWebChannel/6.6.3/QtWebChannel/private/qmetaobjectpublisher_p.h
-* /usr/include/qt6/QtWebChannel/6.6.3/QtWebChannel/private/qwebchannel_p.h
-* /usr/include/qt6/QtWebChannel/6.6.3/QtWebChannel/private/signalhandler_p.h
+* /usr/include/qt6/QtWebChannel/6.7.0/QtWebChannel/private/qmetaobjectpublisher_p.h
+* /usr/include/qt6/QtWebChannel/6.7.0/QtWebChannel/private/qwebchannel_p.h
+* /usr/include/qt6/QtWebChannel/6.7.0/QtWebChannel/private/signalhandler_p.h
 * /usr/include/qt6/QtWebChannel/QtWebChannel
 * /usr/include/qt6/QtWebChannel/QtWebChannelDepends
 * /usr/include/qt6/QtWebChannel/qtwebchannelexports.h
@@ -31,7 +31,7 @@ The Qt6 toolkit, qtwebchannel
 * /usr/include/qt6/QtWebChannel/QWebChannelAbstractTransport
 * /usr/include/qt6/QtWebChannel/qwebchannelabstracttransport.h
 * /usr/include/qt6/QtWebChannel/qwebchannelglobal.h
-* /usr/include/qt6/QtWebChannelQuick/6.6.3/QtWebChannelQuick/private/qqmlwebchannelattached_p.h
+* /usr/include/qt6/QtWebChannelQuick/6.7.0/QtWebChannelQuick/private/qqmlwebchannelattached_p.h
 * /usr/include/qt6/QtWebChannelQuick/QQmlWebChannel
 * /usr/include/qt6/QtWebChannelQuick/qqmlwebchannel.h
 * /usr/include/qt6/QtWebChannelQuick/QtWebChannelQuick
@@ -66,11 +66,11 @@ The Qt6 toolkit, qtwebchannel
 * /usr/lib/libQt6WebChannel.prl
 * /usr/lib/libQt6WebChannel.so
 * /usr/lib/libQt6WebChannel.so.6
-* /usr/lib/libQt6WebChannel.so.6.6.3
+* /usr/lib/libQt6WebChannel.so.6.7.0
 * /usr/lib/libQt6WebChannelQuick.prl
 * /usr/lib/libQt6WebChannelQuick.so
 * /usr/lib/libQt6WebChannelQuick.so.6
-* /usr/lib/libQt6WebChannelQuick.so.6.6.3
+* /usr/lib/libQt6WebChannelQuick.so.6.7.0
 * /usr/lib/pkgconfig/Qt6WebChannel.pc
 * /usr/lib/pkgconfig/Qt6WebChannelQuick.pc
 * /usr/lib/qt6/metatypes/qt6webchannelquick_release_metatypes.json

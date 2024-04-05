@@ -12,6 +12,7 @@ size = "53122172"
 usize = "140499888"
 sha1sum = "38febcf72fcfd028e5a547a148ce9b63592323bf"
 depends = "['libstdc++>=11.3']"
+reverse_depends = "['qt6-quickeffectmaker']"
 +++
 ### Description: 
 Qt6 declarative static libs.

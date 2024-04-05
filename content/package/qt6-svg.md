@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-svg 6.6.3-1"
-version = "6.6.3-1"
+title = "qt6-svg 6.7.0-1"
+version = "6.7.0-1"
 description = "The Qt6 toolkit, qtsvg"
-date = "2024-03-26T18:42:36"
+date = "2024-04-03T13:12:23"
 aliases = "/packages/220767"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "167040"
-usize = "667253"
-sha1sum = "766fbd9109440158e1d7d6a482e9514efa5cd226"
+size = "208844"
+usize = "812315"
+sha1sum = "3b29125682b9b835092e3478e2b2684161fe2828"
 depends = "['qt6-base']"
 reverse_depends = "['akonadi-search', 'analitza', 'calamares-frugalware', 'cutemaze', 'discover', 'kaccounts-providers', 'kanagram', 'kapman', 'kapptemplate', 'katomic', 'kblackbox', 'kblocks', 'kbounce', 'kbreakout', 'kbruch', 'kcron', 'kde-gtk-config', 'kdegraphics-thumbnailers', 'kdenetwork-filesharing', 'kdenlive', 'kdesdk-thumbnailers', 'kdiagram', 'kdiamond', 'keysmith', 'kfourinline', 'kgeography', 'kgoldrunner', 'khangman', 'kiconthemes', 'kile', 'killbots', 'kimageannotator', 'kirigami', 'kiriki', 'kpmcore', 'krecorder', 'kuserfeedback', 'kvirc', 'kxmlgui', 'ladybird', 'libkgapi', 'libkmahjongg', 'mkvtoolnix-gui', 'obs-studio', 'okular', 'plasmatube', 'qmlkonsole', 'qt6-sensors', 'qt6-virtualkeyboard', 'qtcreator', 'socnetv', 'telegram-desktop', 'yakuake']"
 +++
@@ -18,15 +18,18 @@ reverse_depends = "['akonadi-search', 'analitza', 'calamares-frugalware', 'cutem
 The Qt6 toolkit, qtsvg
 
 ### Files: 
-* /usr/include/qt6/QtSvg/6.6.3/QtSvg/private/qsvgfont_p.h
-* /usr/include/qt6/QtSvg/6.6.3/QtSvg/private/qsvggraphics_p.h
-* /usr/include/qt6/QtSvg/6.6.3/QtSvg/private/qsvghandler_p.h
-* /usr/include/qt6/QtSvg/6.6.3/QtSvg/private/qsvgnode_p.h
-* /usr/include/qt6/QtSvg/6.6.3/QtSvg/private/qsvgstructure_p.h
-* /usr/include/qt6/QtSvg/6.6.3/QtSvg/private/qsvgstyle_p.h
-* /usr/include/qt6/QtSvg/6.6.3/QtSvg/private/qsvgtinydocument_p.h
-* /usr/include/qt6/QtSvg/6.6.3/QtSvg/private/qtsvgexports_p.h
-* /usr/include/qt6/QtSvg/6.6.3/QtSvg/private/qtsvgglobal_p.h
+* /usr/include/qt6/QtSvg/6.7.0/QtSvg/private/qsvgfilter_p.h
+* /usr/include/qt6/QtSvg/6.7.0/QtSvg/private/qsvgfont_p.h
+* /usr/include/qt6/QtSvg/6.7.0/QtSvg/private/qsvggraphics_p.h
+* /usr/include/qt6/QtSvg/6.7.0/QtSvg/private/qsvghandler_p.h
+* /usr/include/qt6/QtSvg/6.7.0/QtSvg/private/qsvghelper_p.h
+* /usr/include/qt6/QtSvg/6.7.0/QtSvg/private/qsvgnode_p.h
+* /usr/include/qt6/QtSvg/6.7.0/QtSvg/private/qsvgstructure_p.h
+* /usr/include/qt6/QtSvg/6.7.0/QtSvg/private/qsvgstyle_p.h
+* /usr/include/qt6/QtSvg/6.7.0/QtSvg/private/qsvgtinydocument_p.h
+* /usr/include/qt6/QtSvg/6.7.0/QtSvg/private/qsvgvisitor_p.h
+* /usr/include/qt6/QtSvg/6.7.0/QtSvg/private/qtsvgexports_p.h
+* /usr/include/qt6/QtSvg/6.7.0/QtSvg/private/qtsvgglobal_p.h
 * /usr/include/qt6/QtSvg/QSvgGenerator
 * /usr/include/qt6/QtSvg/qsvggenerator.h
 * /usr/include/qt6/QtSvg/QSvgRenderer
@@ -79,11 +82,11 @@ The Qt6 toolkit, qtsvg
 * /usr/lib/libQt6Svg.prl
 * /usr/lib/libQt6Svg.so
 * /usr/lib/libQt6Svg.so.6
-* /usr/lib/libQt6Svg.so.6.6.3
+* /usr/lib/libQt6Svg.so.6.7.0
 * /usr/lib/libQt6SvgWidgets.prl
 * /usr/lib/libQt6SvgWidgets.so
 * /usr/lib/libQt6SvgWidgets.so.6
-* /usr/lib/libQt6SvgWidgets.so.6.6.3
+* /usr/lib/libQt6SvgWidgets.so.6.7.0
 * /usr/lib/pkgconfig/Qt6Svg.pc
 * /usr/lib/pkgconfig/Qt6SvgWidgets.pc
 * /usr/lib/qt6/metatypes/qt6svgwidgets_release_metatypes.json

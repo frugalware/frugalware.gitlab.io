@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "fwupd 1.9.15-1"
-version = "1.9.15-1"
+title = "fwupd 1.9.16-1"
+version = "1.9.16-1"
 description = "A simple daemon to allow session software to update firmware"
-date = "2024-04-02T12:13:22"
+date = "2024-04-05T16:13:38"
 aliases = "/packages/219170"
 categories = ['apps']
 upstreamurl = "https://github.com/fwupd/fwupd"
 arch = "x86_64"
-size = "7192104"
-usize = "45550560"
-sha1sum = "627bdca6695316a05de665e12d4be93b06221dfc"
-depends = "['appstream-glib', 'colord', 'efivar', 'fwupd-efi', 'gnu-efi', 'gpgme', 'gsettings-desktop-schemas', 'libarchive', 'libgusb', 'libjcat', 'libsmbios', 'libxmlb>=0.2.0', 'protobuf-c', 'tpm2-tss', 'udisks2']"
+size = "7205020"
+usize = "45614691"
+sha1sum = "0e32216a5619d58aa2199a2c7a5433a89b46108c"
+depends = "['appstream-glib', 'colord', 'efivar', 'fwupd-efi', 'gnu-efi', 'gpgme', 'gsettings-desktop-schemas', 'libarchive', 'libgusb', 'libjcat', 'libqmi', 'libsmbios', 'libxmlb>=0.2.0', 'protobuf-c', 'tpm2-tss', 'udisks2']"
 reverse_depends = "['discover', 'kinfocenter']"
 +++
 ### Description: 
@@ -49,9 +49,9 @@ A simple daemon to allow session software to update firmware
 * /usr/include/fwupd-1/libfwupd/fwupd-request.h
 * /usr/include/fwupd-1/libfwupd/fwupd-security-attr.h
 * /usr/include/fwupd-1/libfwupd/fwupd-version.h
-* /usr/lib/fwupd-1.9.15/libfwupdengine.so
-* /usr/lib/fwupd-1.9.15/libfwupdplugin.so
-* /usr/lib/fwupd-1.9.15/libfwupdutil.so
+* /usr/lib/fwupd-1.9.16/libfwupdengine.so
+* /usr/lib/fwupd-1.9.16/libfwupdplugin.so
+* /usr/lib/fwupd-1.9.16/libfwupdutil.so
 * /usr/lib/fwupd/fwupd
 * /usr/lib/fwupd/fwupd-detect-cet
 * /usr/lib/fwupd/fwupdoffline
@@ -97,9 +97,9 @@ A simple daemon to allow session software to update firmware
 * /usr/share/dbus-1/interfaces/org.freedesktop.fwupd.xml
 * /usr/share/dbus-1/system-services/org.freedesktop.fwupd.service
 * /usr/share/dbus-1/system.d/org.freedesktop.fwupd.conf
-* /usr/share/doc/fwupd-1.9.15/COPYING
-* /usr/share/doc/fwupd-1.9.15/README.md
-* /usr/share/doc/fwupd-1.9.15/RELEASE
+* /usr/share/doc/fwupd-1.9.16/COPYING
+* /usr/share/doc/fwupd-1.9.16/README.md
+* /usr/share/doc/fwupd-1.9.16/RELEASE
 * /usr/share/doc/fwupd/hsi.html
 * /usr/share/doc/fwupd/index.html
 * /usr/share/doc/fwupd/libfwupd
@@ -1159,6 +1159,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/android-boot-README.html
 * /usr/share/doc/libfwupdplugin/architecture-plan.svg
 * /usr/share/doc/libfwupdplugin/ata-README.html
+* /usr/share/doc/libfwupdplugin/audio-s5gen2-README.html
 * /usr/share/doc/libfwupdplugin/aver-hid-README.html
 * /usr/share/doc/libfwupdplugin/bcm57xx-README.html
 * /usr/share/doc/libfwupdplugin/best-known-configuration.html
@@ -1299,6 +1300,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/const.DEVICE_INTERNAL_FLAG_USE_PARENT_FOR_BATTERY.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_INTERNAL_FLAG_USE_PARENT_FOR_OPEN.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_INTERNAL_FLAG_USE_PROXY_FALLBACK.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_INTERNAL_FLAG_USE_PROXY_FOR_OPEN.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_METADATA_CPU_MITIGATIONS_REQUIRED.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_METADATA_TBT_IS_SAFE_MODE.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_METADATA_UEFI_CAPSULE_FLAGS.html

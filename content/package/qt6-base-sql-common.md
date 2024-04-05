@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-base-sql-common 6.6.3-2"
-version = "6.6.3-2"
+title = "qt6-base-sql-common 6.7.0-1"
+version = "6.7.0-1"
 description = "Development files for SQL plugins"
-date = "2024-04-02T11:24:46"
+date = "2024-04-03T10:54:15"
 aliases = "/packages/220754"
 categories = ['devel-extra']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "12484"
-usize = "59572"
-sha1sum = "2c1eb717d7162e5922a224b0fea9cc7c3b4a532f"
+size = "12448"
+usize = "59731"
+sha1sum = "38ed601532bb9de54fc72237265137fb51a8ca91"
 depends = "[]"
 reverse_depends = "['alizams', 'futuresql', 'qt6-base-mysql', 'qt6-base-postgresql', 'qtcreator']"
 +++

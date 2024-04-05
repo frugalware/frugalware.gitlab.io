@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt6-quickeffectmaker 6.6.3-1"
-version = "6.6.3-1"
+title = "qt6-quickeffectmaker 6.7.0-1"
+version = "6.7.0-1"
 description = "The Qt6 toolkit, qtquickeffectmaker"
-date = "2024-03-26T20:42:44"
+date = "2024-04-03T19:09:18"
 aliases = "/packages/220949"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "3894436"
-usize = "4909784"
-sha1sum = "6ad07271610f77e039c1d2c5ace2a8ad47144570"
-depends = "['qt6-quick3d', 'qt6-shadertools']"
+size = "3896824"
+usize = "4913880"
+sha1sum = "78f6f11928d2f8a971f75c721c0a8490847a4685"
+depends = "['qt6-declarative-static', 'qt6-quick3d', 'qt6-shadertools']"
 +++
 ### Description: 
 The Qt6 toolkit, qtquickeffectmaker
