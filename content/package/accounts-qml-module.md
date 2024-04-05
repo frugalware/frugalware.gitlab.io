@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "accounts-qml-module 0.7-12"
-version = "0.7-12"
+title = "accounts-qml-module 0.7-13"
+version = "0.7-13"
 description = "Qt-based client library for accessing the online accounts database."
-date = "2024-03-28T11:38:42"
+date = "2024-04-05T14:31:16"
 aliases = "/packages/219541"
 categories = ['xlib']
 upstreamurl = "https://gitlab.com/accounts-sso/accounts-qml-module"
 arch = "x86_64"
-size = "152260"
+size = "152564"
 usize = "728156"
-sha1sum = "635834caf926ecc3c245015efe0c16c6ab1b2b7e"
+sha1sum = "4c9555db7a1f94a7909db011f1681ba9f4fa0baa"
 depends = "['libaccounts-qt>=1.15-10', 'qt6-declarative', 'signon>=8.60-2']"
 reverse_depends = "['purpose']"
 +++

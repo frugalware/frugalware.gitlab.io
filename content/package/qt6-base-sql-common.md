@@ -18,16 +18,15 @@ reverse_depends = "['alizams', 'futuresql', 'qt6-base-mysql', 'qt6-base-postgres
 Development files for SQL plugins
 
 ### Files: 
-* /usr/include/qt6/QtSql/6.6.3/QtSql/private/qsqlcachedresult_p.h
-* /usr/include/qt6/QtSql/6.6.3/QtSql/private/qsqldriver_p.h
-* /usr/include/qt6/QtSql/6.6.3/QtSql/private/qsqlnulldriver_p.h
-* /usr/include/qt6/QtSql/6.6.3/QtSql/private/qsqlquerymodel_p.h
-* /usr/include/qt6/QtSql/6.6.3/QtSql/private/qsqlresult_p.h
-* /usr/include/qt6/QtSql/6.6.3/QtSql/private/qsqltablemodel_p.h
-* /usr/include/qt6/QtSql/6.6.3/QtSql/private/qtsql-config_p.h
-* /usr/include/qt6/QtSql/6.6.3/QtSql/private/qtsqlglobal_p.h
+* /usr/include/qt6/QtSql/6.7.0/QtSql/private/qsqlcachedresult_p.h
+* /usr/include/qt6/QtSql/6.7.0/QtSql/private/qsqldriver_p.h
+* /usr/include/qt6/QtSql/6.7.0/QtSql/private/qsqlnulldriver_p.h
+* /usr/include/qt6/QtSql/6.7.0/QtSql/private/qsqlquerymodel_p.h
+* /usr/include/qt6/QtSql/6.7.0/QtSql/private/qsqlresult_p.h
+* /usr/include/qt6/QtSql/6.7.0/QtSql/private/qsqltablemodel_p.h
+* /usr/include/qt6/QtSql/6.7.0/QtSql/private/qtsql-config_p.h
+* /usr/include/qt6/QtSql/6.7.0/QtSql/private/qtsqlglobal_p.h
 * /usr/include/qt6/QtSql/QSql
-* /usr/include/qt6/QtSql/qsql.h
 * /usr/include/qt6/QtSql/QSqlDatabase
 * /usr/include/qt6/QtSql/qsqldatabase.h
 * /usr/include/qt6/QtSql/QSqlDriver

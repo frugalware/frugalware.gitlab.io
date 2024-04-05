@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "31880"
 usize = "106835"
 sha1sum = "fe03d2793aa80d406aed68b878335b51deb0b56e"
-depends = "['mariadb-libs>=10.3.14', 'qt6-base>=6.6.3', 'qt6-base-sql-common']"
+depends = "['mariadb-libs>=10.3.14', 'qt6-base>=6.7.0', 'qt6-base-sql-common']"
 +++
 ### Description: 
 Mysql support for qt6

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "signon 8.61-9"
-version = "8.61-9"
+title = "signon 8.61-10"
+version = "8.61-10"
 description = "Framework to provide credential storage and authentication service."
-date = "2024-04-02T09:36:51"
+date = "2024-04-05T14:46:52"
 aliases = "/packages/200096"
 categories = ['xlib']
 upstreamurl = "https://gitlab.com/accounts-sso/signond"
 arch = "x86_64"
-size = "624900"
-usize = "4411550"
-sha1sum = "e66d18bf69a6e36c44537c3667f32c543ed2035c"
+size = "551452"
+usize = "4171950"
+sha1sum = "fe8941dc11f551115c5abaed71f561b0d7a63531"
 depends = "['libproxy>=0.4.13-2', 'qt6-base']"
 reverse_depends = "['accounts-qml-module', 'libsignon-glib', 'signon-kwallet-extension', 'signon-plugin-oauth2']"
 +++

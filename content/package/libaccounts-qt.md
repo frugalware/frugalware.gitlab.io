@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libaccounts-qt 1.16-10"
-version = "1.16-10"
+title = "libaccounts-qt 1.16-11"
+version = "1.16-11"
 description = "Qt-based client library for accessing the online accounts database."
-date = "2024-03-28T11:39:50"
+date = "2024-04-05T14:32:43"
 aliases = "/packages/200094"
 categories = ['xlib']
 upstreamurl = "https://gitlab.com/accounts-sso/libaccounts-qt"
 arch = "x86_64"
-size = "250104"
+size = "250388"
 usize = "1822347"
-sha1sum = "136fa7bcf77c5b70a67a1886f75608efb6be1792"
+sha1sum = "ccce0f149fe0b6d711e79eb37a526e6e96f3618b"
 depends = "['libaccounts-glib>=1.25', 'qt6-base']"
 reverse_depends = "['accounts-qml-module', 'kaccounts-integration']"
 +++

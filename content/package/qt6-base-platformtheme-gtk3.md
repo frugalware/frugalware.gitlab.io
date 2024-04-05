@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "69464"
 usize = "226835"
 sha1sum = "42ffc9108f5b96516e63fcba57c34b567f521c8c"
-depends = "['gtk+3', 'qt6-base>=6.6.3']"
+depends = "['gtk+3', 'qt6-base>=6.7.0']"
 +++
 ### Description: 
 Qt6 GTK3 Theme support
