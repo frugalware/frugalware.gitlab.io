@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kate 24.02.1-3"
-version = "24.02.1-3"
+title = "kate 24.02.1-5"
+version = "24.02.1-5"
 description = "KDE Advanced Text Editor."
-date = "2024-03-27T11:43:08"
+date = "2024-04-05T02:04:09"
 aliases = "/packages/118445"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "10236944"
-usize = "34600120"
-sha1sum = "6640b0b9b01b3f3fe88cf7fd66e4e58821c295fe"
-depends = "['kitemmodels>=6.0.0', 'knewstuff>=6.0.0', 'ktexteditor>=6.0.0', 'libgit2>=0.26', 'libplasma>=6.0.3', 'qt6-declarative>=6.6.3', 'threadweaver>=6.0.0']"
+size = "10255132"
+usize = "34636984"
+sha1sum = "1ec5cbfae032e5bae26242b09d9cf66ca5f503b8"
+depends = "['kitemmodels>=6.0.0', 'knewstuff>=6.0.0', 'ktexteditor>=6.0.0', 'libgit2>=0.26', 'libplasma>=6.0.3', 'qt6-declarative>=6.7.0', 'threadweaver>=6.0.0']"
 +++
 ### Description: 
 KDE Advanced Text Editor.

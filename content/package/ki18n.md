@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ki18n 6.0.0-3"
-version = "6.0.0-3"
+title = "ki18n 6.0.0-5"
+version = "6.0.0-5"
 description = "KDE Gettext-based UI text."
-date = "2024-03-26T23:26:24"
+date = "2024-04-05T05:37:25"
 aliases = "/packages/218315"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1491412"
-usize = "18138795"
-sha1sum = "0ffcfec8358725244d711c2a323d4266cc60ce56"
+size = "1488132"
+usize = "18146987"
+sha1sum = "1f0add3a1d9583521c1ae387b394e4d5dea0d41c"
 depends = "['gettext', 'iso-codes']"
 reverse_depends = "['akonadi-mime', 'akonadi-notes', 'alligator', 'audiotube', 'breeze', 'dolphin', 'incidenceeditor', 'isoimagewriter', 'kbackup', 'kcachegrind', 'kclock', 'kcolorchooser', 'kcolorscheme', 'kcontacts', 'kdebugsettings', 'kdecoration', 'kdeplasma-addons', 'kdeplasma-addons5', 'kdesdk-kio', 'keysmith', 'kfilemetadata', 'khealthcertificate', 'kio-gdrive', 'kitinerary', 'kjournald', 'kjsembed', 'kldap', 'kmime', 'kmousetool', 'kongress', 'kontrast', 'kopeninghours', 'kosmindoormap', 'kpackage', 'kpipewire', 'kpmcore', 'kpty', 'kpublictransport', 'krecorder', 'krunner', 'ksanecore', 'kservice', 'kunitconversion', 'kweathercore', 'kwin', 'libkcompactdisc', 'mimetreeparser', 'plank-player', 'plasma-browser-integration', 'plasma5support', 'plasmatube', 'purpose', 'qmlkonsole', 'sweeper', 'xwaylandvideobridge']"
 +++

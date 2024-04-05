@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "drkonqi 6.0.3-2"
-version = "6.0.3-2"
+title = "drkonqi 6.0.3-4"
+version = "6.0.3-4"
 description = "The KDE Crash Handler."
-date = "2024-04-02T11:31:49"
+date = "2024-04-04T22:47:53"
 aliases = "/packages/219483"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "587496"
-usize = "3183294"
-sha1sum = "532eb81a06a4f26c566bf354d4631f791a9dcbb5"
+size = "591676"
+usize = "3191486"
+sha1sum = "fe337853df5833945cd188d5790bc15d4b7b9456"
 depends = "['kcmutils>=6.0.0', 'kidletime>=6.0.0', 'kio>=6.0.0', 'kirigami>=6.0.0', 'kitemmodels>=6.0.0', 'kstatusnotifieritem>=6.0.0', 'python3-psutil', 'python3-pygdbmi', 'python3-sentry-sdk', 'syntax-highlighting>=6.0.0']"
 +++
 ### Description: 

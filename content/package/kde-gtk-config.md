@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kde-gtk-config 6.0.3-1"
-version = "6.0.3-1"
+title = "kde-gtk-config 6.0.3-3"
+version = "6.0.3-3"
 description = "Config for GTK within KDE"
-date = "2024-03-27T08:26:38"
+date = "2024-04-04T23:07:14"
 aliases = "/packages/218292"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "80644"
+size = "80824"
 usize = "328542"
-sha1sum = "501a72da3a3daac72825ab9a3b5fe574561263d3"
+sha1sum = "608c15e4e283ce762d600d642b23ca61f7b6be52"
 depends = "['gsettings-desktop-schemas', 'harfbuzz', 'kcmutils>=6.0.0', 'kdecoration>=6.0.3', 'knewstuff>=6.0.0', 'qt6-svg']"
 +++
 ### Description: 

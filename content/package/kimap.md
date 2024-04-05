@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kimap 24.02.1-4"
-version = "24.02.1-4"
+title = "kimap 24.02.1-6"
+version = "24.02.1-6"
 description = "C++ API for IMAP support."
-date = "2024-03-31T13:11:33"
+date = "2024-04-05T00:50:37"
 aliases = "/packages/218320"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "254272"
-usize = "1016628"
-sha1sum = "ab5589523ad15575dccb313c015a85723f1fb1e6"
+size = "249812"
+usize = "984116"
+sha1sum = "f3c16e70ed6add593a87ff8609edb8a797c5ed7c"
 depends = "['cyrus-sasl>=2.1.26-3', 'kio>=6.0.0', 'kmime>=24.02.1']"
 reverse_depends = "['kdepim-runtime', 'pimcommon']"
 +++
@@ -153,8 +153,6 @@ C++ API for IMAP support.
 * /usr/lib/libKPim6IMAP.so
 * /usr/lib/libKPim6IMAP.so.6
 * /usr/lib/libKPim6IMAP.so.6.0.1
-* /usr/share/doc/kimap-24.02.1/COPYING
-* /usr/share/doc/kimap-24.02.1/COPYING.LIB
 * /usr/share/doc/kimap-24.02.1/README.md
 * /usr/share/doc/kimap-24.02.1/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/libkimap6.mo

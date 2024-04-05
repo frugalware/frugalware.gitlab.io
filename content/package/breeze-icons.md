@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "breeze-icons 6.0.0-3"
-version = "6.0.0-3"
+title = "breeze-icons 6.0.0-5"
+version = "6.0.0-5"
 description = "Icons for the Breeze visual style for the Plasma Desktop."
-date = "2024-03-26T22:52:55"
+date = "2024-04-04T22:07:50"
 aliases = "/packages/218259"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4740576"
+size = "4740196"
 usize = "35258251"
-sha1sum = "cd007863066cc5fe15a72e79f0bff7d02e6eaccc"
+sha1sum = "b0812a89e28c6cdacce457fc31ae41c51a68c1ff"
 depends = "[]"
 +++
 ### Description: 

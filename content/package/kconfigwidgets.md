@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kconfigwidgets 6.0.0-2"
-version = "6.0.0-2"
+title = "kconfigwidgets 6.0.0-4"
+version = "6.0.0-4"
 description = "Widgets for KConfig."
-date = "2024-03-26T23:30:47"
+date = "2024-04-05T05:41:45"
 aliases = "/packages/218284"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "301220"
-usize = "1358158"
-sha1sum = "a92d01a8b7b3065ed8e09fe89d4c614e2e9d7311"
+size = "301660"
+usize = "1362254"
+sha1sum = "d6db464300e47c48fdc1a4455a94835f8b13959d"
 depends = "['kcodecs>=6.0.0', 'kcolorscheme>=6.0.0', 'kcoreaddons>=6.0.0', 'kwidgetsaddons>=6.0.0']"
 reverse_depends = "['kaccounts-integration', 'kdeplasma-addons', 'kdeplasma-addons5', 'kgamma', 'kgamma5', 'kiconthemes', 'kwin', 'libkmahjongg', 'libksysguard', 'libksysguard5', 'qqc2-desktop-style', 'sweeper', 'user-kcm']"
 +++

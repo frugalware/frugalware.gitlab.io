@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcontacts 6.0.0-2"
-version = "6.0.0-2"
+title = "kcontacts 6.0.0-4"
+version = "6.0.0-4"
 description = "Address book API for KDE"
-date = "2024-03-26T23:41:34"
+date = "2024-04-05T05:51:42"
 aliases = "/packages/220115"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "266356"
-usize = "1219453"
-sha1sum = "f93833a97af9ceac2cf907f8c1e0c64df878f528"
+size = "269400"
+usize = "1231741"
+sha1sum = "86e6abc060811edaf8abb6b7fe2f6a647557cbbc"
 depends = "['kcodecs>=6.0.0', 'kconfig>=6.0.0', 'kcoreaddons>=6.0.0', 'ki18n>=6.0.0']"
 reverse_depends = "['akonadi-contacts', 'itinerary', 'kitinerary', 'kpeople', 'kpeoplevcard', 'ktnef', 'libkgapi']"
 +++

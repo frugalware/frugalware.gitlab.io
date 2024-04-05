@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "klines 24.02.1-3"
-version = "24.02.1-3"
+title = "klines 24.02.1-5"
+version = "24.02.1-5"
 description = "A simple but highly addictive, one player game."
-date = "2024-03-27T11:17:12"
+date = "2024-04-05T01:36:18"
 aliases = "/packages/184187"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1603696"
+size = "1603564"
 usize = "7556868"
-sha1sum = "f54eb3ee8b085692820311261efc628c48e874af"
+sha1sum = "86145cb2426f4af2c76cc674a9741ff7296daa86"
 depends = "['knotifyconfig>=6.0.0', 'libkdegames>=24.02.1']"
 +++
 ### Description: 

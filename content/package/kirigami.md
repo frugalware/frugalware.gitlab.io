@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "kirigami 6.0.0-2"
-version = "6.0.0-2"
+title = "kirigami 6.0.0-4"
+version = "6.0.0-4"
 description = "UI framework for mobile and convergent applications written in Qt."
-date = "2024-03-26T22:44:23"
+date = "2024-04-05T05:07:32"
 aliases = "/packages/221327"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "871684"
-usize = "4161132"
-sha1sum = "df750d6cf0051a93f4eee4ca416baa9002d9c076"
-depends = "['libgomp', 'qt6-declarative>=6.6.3', 'qt6-svg>=6.6.3']"
-reverse_depends = "['drkonqi', 'elisa', 'kalk', 'keysmith', 'kinfocenter', 'kirigami-addons', 'kjournald', 'knewstuff', 'kongress', 'kontrast', 'ksvg', 'okular', 'plasma-welcome', 'purpose', 'qqc2-breeze-style', 'qqc2-desktop-style', 'skanpage', 'systemsettings', 'xdg-desktop-portal-kde']"
+size = "900312"
+usize = "4281832"
+sha1sum = "bd4a3df689a892859d12fbfcd50f7d83ef5bce28"
+depends = "['libgomp', 'qt6-declarative>=6.7.0', 'qt6-svg>=6.7.0']"
+reverse_depends = "['breeze', 'drkonqi', 'elisa', 'kalk', 'keysmith', 'kinfocenter', 'kirigami-addons', 'kjournald', 'knewstuff', 'kongress', 'kontrast', 'ksvg', 'okular', 'plasma-welcome', 'purpose', 'qqc2-breeze-style', 'qqc2-desktop-style', 'skanpage', 'systemsettings', 'xdg-desktop-portal-kde']"
 +++
 ### Description: 
 UI framework for mobile and convergent applications written in Qt.

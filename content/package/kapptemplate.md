@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kapptemplate 24.02.1-4"
-version = "24.02.1-4"
+title = "kapptemplate 24.02.1-6"
+version = "24.02.1-6"
 description = "KDE Template Generator."
-date = "2024-03-27T10:04:48"
+date = "2024-04-05T00:21:23"
 aliases = "/packages/118444"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "432100"
-usize = "978350"
-sha1sum = "944d34baa47c04a3bd8ac8bc810ecb8ed21546e7"
-depends = "['kio>=6.0.0', 'qt6-svg>=6.6.3']"
+size = "433336"
+usize = "978379"
+sha1sum = "2477b6e6669a9cf21e64d746df65da698f5790c9"
+depends = "['kio>=6.0.0', 'qt6-svg>=6.7.0']"
 +++
 ### Description: 
 KDE Template Generator.

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "akonadi-notes 24.02.1-3"
-version = "24.02.1-3"
+title = "akonadi-notes 24.02.1-5"
+version = "24.02.1-5"
 description = "Libraries and daemons to implement searching in Akonad"
-date = "2024-03-27T11:54:31"
+date = "2024-04-05T02:16:18"
 aliases = "/packages/218739"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "29648"
+size = "29808"
 usize = "105609"
-sha1sum = "1fc232dba45e1de0652c09b7e3108922f6fc18a3"
+sha1sum = "f121729fe07dda9c970bdde9ea58daaf049ed103"
 depends = "['akonadi>=24.02.1', 'ki18n>=6.0.0', 'kmime>=24.02.1']"
 reverse_depends = "['calendarsupport', 'kdepim-runtime', 'knotes', 'messagelib']"
 +++

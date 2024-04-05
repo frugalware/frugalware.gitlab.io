@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kiriki 24.02.1-3"
-version = "24.02.1-3"
+title = "kiriki 24.02.1-5"
+version = "24.02.1-5"
 description = "An addictive and fun dice game."
-date = "2024-03-27T11:12:05"
+date = "2024-04-05T01:30:52"
 aliases = "/packages/184184"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "482484"
+size = "481748"
 usize = "1017901"
-sha1sum = "0f0e9f8af6273d355834602ed80b5bb26c03d087"
-depends = "['libkdegames>=24.02.1', 'qt6-svg>=6.6.3']"
+sha1sum = "e1647f1de1e0a54435dcf0a2ed30eaf15dfb3fe3"
+depends = "['libkdegames>=24.02.1', 'qt6-svg>=6.7.0']"
 +++
 ### Description: 
 An addictive and fun dice game.

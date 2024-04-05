@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kiten 24.02.1-3"
-version = "24.02.1-3"
+title = "kiten 24.02.1-5"
+version = "24.02.1-5"
 description = "Japanese Reference/Study Tool."
-date = "2024-03-27T10:18:43"
+date = "2024-04-05T00:35:56"
 aliases = "/packages/152831"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "11563620"
+size = "11562820"
 usize = "33097028"
-sha1sum = "71e031bfbcbcdfea6bd3b6d8421783b285ef1219"
+sha1sum = "a0777324184233c168737d66911834835c247e0d"
 depends = "['kio>=6.0.0']"
 +++
 ### Description: 

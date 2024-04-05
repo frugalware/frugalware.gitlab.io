@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcoreaddons 6.0.0-2"
-version = "6.0.0-2"
+title = "kcoreaddons 6.0.0-4"
+version = "6.0.0-4"
 description = "Utilities for core application functionality and accessing the OS."
-date = "2024-03-26T23:18:49"
+date = "2024-04-05T05:30:52"
 aliases = "/packages/218286"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "448336"
-usize = "1959347"
-sha1sum = "800a851b90434818fc748ceeb569ad85cbe01ba2"
-depends = "['qt6-base>=6.6.3', 'shared-mime-info']"
+size = "452072"
+usize = "1967539"
+sha1sum = "ec4ceaa46fe86979ec00013d910e762343973ead"
+depends = "['qt6-base>=6.7.0', 'shared-mime-info']"
 reverse_depends = "['alligator', 'audiotube', 'breeze', 'calamares-frugalware', 'discover', 'disman', 'dolphin', 'isoimagewriter', 'itinerary', 'kalk', 'kauth', 'kcachegrind', 'kclock', 'kconfigwidgets', 'kcontacts', 'kcrash', 'kdav', 'kdebugsettings', 'kdecoration', 'kdeplasma-addons', 'kdeplasma-addons5', 'kdesignerplugin', 'kfilemetadata', 'kglobalacceld', 'kjournald', 'kongress', 'kontrast', 'kpackage', 'kpimtextedit', 'kpipewire', 'kpty', 'krecorder', 'krunner', 'ksmtp', 'ksvg', 'ktrip', 'kwin', 'libkcompactdisc', 'plasma5support', 'plasmatube', 'purpose', 'qmlkonsole', 'svgpart', 'sweeper', 'xwaylandvideobridge']"
 +++
 ### Description: 

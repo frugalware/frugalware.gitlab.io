@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdiamond 24.02.1-3"
-version = "24.02.1-3"
+title = "kdiamond 24.02.1-5"
+version = "24.02.1-5"
 description = "A single player puzzle game."
-date = "2024-03-27T11:06:10"
+date = "2024-04-05T01:24:35"
 aliases = "/packages/184179"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4823956"
+size = "4824296"
 usize = "5235134"
-sha1sum = "ff920d7b862cfb90a49fbb0d0d7d4c9b7bcfd9f5"
-depends = "['knotifyconfig>=6.0.0', 'libkdegames>=24.02.1', 'qt6-svg>=6.6.3']"
+sha1sum = "e151a98898581e52f7ca20850cc4a57e1d45d398"
+depends = "['knotifyconfig>=6.0.0', 'libkdegames>=24.02.1', 'qt6-svg>=6.7.0']"
 +++
 ### Description: 
 A single player puzzle game.

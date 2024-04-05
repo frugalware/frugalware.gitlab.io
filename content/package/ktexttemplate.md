@@ -12,6 +12,7 @@ size = "297116"
 usize = "1188576"
 sha1sum = "db4122941aebc27e7c56388bd1e6690939f6e68a"
 depends = "['qt6-declarative>=6.6.3']"
+reverse_depends = "['grantleetheme', 'khelpcenter', 'kpimtextedit']"
 +++
 ### Description: 
 Library to allow application developers to separate the structure of documents from the data they contain

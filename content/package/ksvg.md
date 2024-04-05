@@ -12,7 +12,7 @@ size = "133004"
 usize = "460475"
 sha1sum = "cb4a61cca9a0cd165d2945cce283dccef86dc053"
 depends = "['karchive>=6.0.0', 'kcolorscheme>=6.0.0', 'kcoreaddons>=6.0.0', 'kirigami>=6.0.0']"
-reverse_depends = "['kwin']"
+reverse_depends = "['bluedevil', 'knights', 'kwin']"
 +++
 ### Description: 
 A library for rendering SVG-based themes with stylesheet re-coloring and on-disk caching.

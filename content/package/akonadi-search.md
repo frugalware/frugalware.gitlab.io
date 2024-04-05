@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akonadi-search 24.02.1-3"
-version = "24.02.1-3"
+title = "akonadi-search 24.02.1-5"
+version = "24.02.1-5"
 description = "Libraries and daemons to implement searching in Akonad"
-date = "2024-03-27T11:57:40"
+date = "2024-04-05T02:19:42"
 aliases = "/packages/218250"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "298776"
-usize = "1259579"
-sha1sum = "1bc46eae6b1c5b5cf50a9360203d614dd8fc9c85"
-depends = "['akonadi-contacts>=24.02.1', 'kcmutils>=6.0.0', 'qt6-declarative>=6.6.3', 'qt6-svg>=6.6.3', 'xapian-core>=1.4.0-2']"
+size = "302768"
+usize = "1267771"
+sha1sum = "be8c9f68cef9b548f5a531c0fe21caffa9dfc9a8"
+depends = "['akonadi-contacts>=24.02.1', 'kcmutils>=6.0.0', 'krunner>=6.0.0', 'qt6-declarative>=6.7.0', 'qt6-svg>=6.7.0', 'xapian-core>=1.4.0-2']"
 reverse_depends = "['libkdepim']"
 +++
 ### Description: 

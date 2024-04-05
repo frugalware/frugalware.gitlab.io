@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kmbox 24.02.1-3"
-version = "24.02.1-3"
+title = "kmbox 24.02.1-5"
+version = "24.02.1-5"
 description = "A library for handling mbox data."
-date = "2024-03-27T10:33:21"
+date = "2024-04-05T00:51:31"
 aliases = "/packages/218332"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "27144"
+size = "27408"
 usize = "82862"
-sha1sum = "a7de1e37e738981d1bd932555764f930c61cfc83"
+sha1sum = "c9f24cc40da80dd48a0d0ac9429553cee303d93c"
 depends = "['kmime>=24.02.1']"
 reverse_depends = "['kdepim-runtime', 'kldap', 'mimetreeparser']"
 +++

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "659536"
 usize = "2890589"
 sha1sum = "799fd94aee271e4fc3c94632d1552ed05d83d3cf"
-depends = "['akonadi-notes>=24.02.1', 'grantleetheme>=24.02.1', 'kcalutils>=24.02.1', 'kdnssd>=6.0.0', 'knotifyconfig>=6.0.0', 'kontactinterface>=24.02.1', 'pimcommon>=24.02.1']"
+depends = "['akonadi-notes>=24.02.1', 'grantleetheme>=24.02.1', 'kcalutils>=24.02.1', 'kdnssd>=6.0.0', 'knotifyconfig>=6.0.0', 'kontactinterface>=24.02.1', 'kstatusnotifieritem>=6.0.0', 'pimcommon>=24.02.1']"
 +++
 ### Description: 
 KDE Popup Notes.

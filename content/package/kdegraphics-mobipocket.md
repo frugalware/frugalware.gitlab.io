@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdegraphics-mobipocket 24.02.1-3"
-version = "24.02.1-3"
+title = "kdegraphics-mobipocket 24.02.1-5"
+version = "24.02.1-5"
 description = "A collection of plugins to handle mobipocket files"
-date = "2024-03-27T11:35:38"
+date = "2024-04-05T01:55:52"
 aliases = "/packages/219330"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "24028"
+size = "24092"
 usize = "71747"
-sha1sum = "1ee1617af8e8779311817414d1f32a71472e530e"
+sha1sum = "e1a92180ce548c48208a51b53cfdf9001d11b5b2"
 depends = "['kio>=6.0.0']"
 reverse_depends = "['kdegraphics-thumbnailers', 'kfilemetadata', 'okular']"
 +++

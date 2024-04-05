@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "falkon-kde 24.02.1-3"
-version = "24.02.1-3"
+title = "falkon-kde 24.02.1-5"
+version = "24.02.1-5"
 description = "Plugin for Falkon integration with KWallet."
-date = "2024-03-27T12:58:06"
+date = "2024-04-05T03:23:08"
 aliases = "/packages/219686"
 categories = ['xapps']
 upstreamurl = "https://www.falkon.org"
 arch = "x86_64"
-size = "35912"
+size = "36188"
 usize = "112840"
-sha1sum = "42b4f277886aae4db29823368eade7ffd1e4003c"
+sha1sum = "070219e25d9915668501d21e25e88e2531eac7f7"
 depends = "['falkon', 'kio>=6.0.0', 'kwallet>=6.0.0', 'purpose>=6.0.0']"
 +++
 ### Description: 

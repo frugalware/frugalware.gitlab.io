@@ -12,7 +12,7 @@ size = "195120"
 usize = "464780"
 sha1sum = "08d113054d40b3670b6a20b88770ab6dc3d7864e"
 depends = "['kconfig>=6.0.0', 'kcoreaddons>=6.0.0', 'ki18n>=6.0.0', 'kitemmodels>=6.0.0', 'threadweaver>=6.0.0']"
-reverse_depends = "['plasma-browser-integration']"
+reverse_depends = "['akonadi-search', 'kdeplasma-addons', 'plasma-browser-integration']"
 +++
 ### Description: 
 Framework for providing different actions given a string query.

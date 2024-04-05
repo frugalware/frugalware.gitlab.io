@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "8711428"
 usize = "27379381"
 sha1sum = "5f674a60df9d3149c360edc6a66bf4e4fbd52a0a"
-depends = "['hunspell', 'kcmutils>=6.0.0', 'kdesu>=6.0.0', 'kparts>=6.0.0', 'plasma-activities>=6.0.3', 'qt6-speech>=6.6.3', 'qt6-webengine>=6.6.3', 'tidy>=5.6.0']"
+depends = "['hunspell', 'kcmutils>=6.0.0', 'kdesu>=6.0.0', 'kparts>=6.0.0', 'plasma-activities>=6.0.3', 'qt6-speech>=6.7.0', 'qt6-webengine>=6.7.0', 'tidy>=5.6.0']"
 +++
 ### Description: 
 Web browser and file manager

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "979740"
 usize = "1699195"
 sha1sum = "bf18a9771e585837a49f41877c3329e8dc57075c"
-depends = "['libkdegames>=24.02.1', 'qt6-scxml>=6.6.3']"
+depends = "['libkdegames>=24.02.1', 'qt6-scxml>=6.7.0']"
 +++
 ### Description: 
 Konquest is the KDE version of Gnu-Lactic

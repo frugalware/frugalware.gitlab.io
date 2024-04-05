@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "angelfish 24.02.1-3"
-version = "24.02.1-3"
+title = "angelfish 24.02.1-5"
+version = "24.02.1-5"
 description = "Web browser for Plasma Mobile"
-date = "2024-03-27T14:00:49"
+date = "2024-04-05T04:27:14"
 aliases = "/packages/220961"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1291400"
-usize = "5036535"
-sha1sum = "bab2354b37c36e647e83640f02467ec00df1e8c6"
+size = "1279572"
+usize = "4962807"
+sha1sum = "46ca73a544a694977d147dd0c6be99ff0fb3e43d"
 depends = "['futuresql', 'kirigami-addons', 'purpose', 'qcoro', 'qqc2-desktop-style', 'qt6-webengine']"
 +++
 ### Description: 
