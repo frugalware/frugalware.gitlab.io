@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "poppler-qt5 24.04.0-1"
-version = "24.04.0-1"
+title = "poppler-qt5 24.04.0-2"
+version = "24.04.0-2"
 description = "Poppler QT5 bindings"
-date = "2024-04-02T10:56:40"
+date = "2024-04-05T16:37:37"
 aliases = "/packages/201110"
 categories = ['xlib']
 upstreamurl = "https://poppler.freedesktop.org/"
 arch = "x86_64"
-size = "190444"
+size = "190552"
 usize = "711006"
-sha1sum = "c7c6ebf88777ca8e8121eb02b321a9e31e53968d"
+sha1sum = "c70506499edd05fd0e8adc2902fc59d12abe5a65"
 depends = "['poppler', 'qt5-base>=5.15.10']"
 reverse_depends = "['cantor', 'kfilemetadata5', 'krita', 'texmaker', 'texstudio', 'texworks']"
 +++
