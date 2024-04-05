@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nice 0.1.21-1"
-version = "0.1.21-1"
+title = "nice 0.1.22-1"
+version = "0.1.22-1"
 description = "Library for Interactive Connectivity Establishment."
-date = "2023-01-08T20:33:23"
+date = "2024-04-05T20:08:19"
 aliases = "/packages/73071"
 categories = ['xlib']
 upstreamurl = "http://nice.freedesktop.org"
 arch = "x86_64"
-size = "302948"
-usize = "1697420"
-sha1sum = "6d45bd909b21e3277eb933d5fddf8ecdb8be79bb"
+size = "301588"
+usize = "1689000"
+sha1sum = "88f7d85f671f70e8cf70b67e5a3338e634ce503e"
 depends = "['gnutls', 'gstreamer1>=1.9.2-2', 'libffi>=3.2.1-2']"
 reverse_depends = "['farstream', 'gst1-plugins-bad', 'telepathy-gabble']"
 +++
@@ -40,15 +40,15 @@ Library for Interactive Connectivity Establishment.
 * /usr/lib/gstreamer-1.0/libgstnice.so
 * /usr/lib/libnice.so
 * /usr/lib/libnice.so.10
-* /usr/lib/libnice.so.10.13.1
+* /usr/lib/libnice.so.10.14.0
 * /usr/lib/pkgconfig/nice.pc
-* /usr/share/doc/nice-0.1.21/AUTHORS
-* /usr/share/doc/nice-0.1.21/COPYING
-* /usr/share/doc/nice-0.1.21/COPYING.LGPL
-* /usr/share/doc/nice-0.1.21/COPYING.MPL
-* /usr/share/doc/nice-0.1.21/NEWS
-* /usr/share/doc/nice-0.1.21/README
-* /usr/share/doc/nice-0.1.21/TODO
+* /usr/share/doc/nice-0.1.22/AUTHORS
+* /usr/share/doc/nice-0.1.22/COPYING
+* /usr/share/doc/nice-0.1.22/COPYING.LGPL
+* /usr/share/doc/nice-0.1.22/COPYING.MPL
+* /usr/share/doc/nice-0.1.22/NEWS
+* /usr/share/doc/nice-0.1.22/README
+* /usr/share/doc/nice-0.1.22/TODO
 * /usr/share/gtk-doc/html/libnice/annotation-glossary.html
 * /usr/share/gtk-doc/html/libnice/api-index-deprecated.html
 * /usr/share/gtk-doc/html/libnice/api-index-full.html

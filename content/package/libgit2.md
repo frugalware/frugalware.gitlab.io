@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libgit2 1.7.2-1"
-version = "1.7.2-1"
+title = "libgit2 1.8.0-1"
+version = "1.8.0-1"
 description = "portable, pure C implementation of the Git core methods"
-date = "2024-02-07T10:27:45"
+date = "2024-04-05T19:35:31"
 aliases = "/packages/200575"
 categories = ['lib']
 upstreamurl = "http://libgit2.github.com/"
 arch = "x86_64"
-size = "845560"
-usize = "2879443"
-sha1sum = "241ab62ff01c84e3d7cf5a56f1cb3d52ead5fc58"
+size = "855508"
+usize = "2917760"
+sha1sum = "93ca8cfa85bc8821872d5f6ec8814be3a118b2ed"
 depends = "['http-parser', 'libssh2', 'pcre2']"
 reverse_depends = "['julia', 'kate', 'ktexteditor', 'ktexteditor5', 'kup']"
 +++
@@ -88,6 +88,7 @@ portable, pure C implementation of the Git core methods
 * /usr/include/git2/sys/credential.h
 * /usr/include/git2/sys/diff.h
 * /usr/include/git2/sys/email.h
+* /usr/include/git2/sys/errors.h
 * /usr/include/git2/sys/filter.h
 * /usr/include/git2/sys/hashsig.h
 * /usr/include/git2/sys/index.h
@@ -113,9 +114,9 @@ portable, pure C implementation of the Git core methods
 * /usr/include/git2/version.h
 * /usr/include/git2/worktree.h
 * /usr/lib/libgit2.so
-* /usr/lib/libgit2.so.1.7
-* /usr/lib/libgit2.so.1.7.2
+* /usr/lib/libgit2.so.1.8
+* /usr/lib/libgit2.so.1.8.0
 * /usr/lib/pkgconfig/libgit2.pc
-* /usr/share/doc/libgit2-1.7.2/AUTHORS
-* /usr/share/doc/libgit2-1.7.2/COPYING
-* /usr/share/doc/libgit2-1.7.2/README.md
+* /usr/share/doc/libgit2-1.8.0/AUTHORS
+* /usr/share/doc/libgit2-1.8.0/COPYING
+* /usr/share/doc/libgit2-1.8.0/README.md

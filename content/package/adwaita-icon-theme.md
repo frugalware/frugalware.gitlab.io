@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "adwaita-icon-theme 45.0-1"
-version = "45.0-1"
+title = "adwaita-icon-theme 46.0-1"
+version = "46.0-1"
 description = "Default icon theme for GNOME"
-date = "2023-09-27T12:33:05"
+date = "2024-04-05T19:55:06"
 aliases = "/packages/217275"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "721672"
-usize = "34246891"
-sha1sum = "362876edc7ab9e94963126a3c47a191f271e9a06"
+size = "577116"
+usize = "11771148"
+sha1sum = "aee2c75b578dfa213caf8f9ae4fb899f0ef311b2"
 depends = "['gtk+4-update-icon-cache', 'gtk-update-icon-cache>=3.22.29', 'hicolor-icon-theme']"
 reverse_depends = "['gtk+2', 'gtk+3', 'gtk+4']"
 +++
@@ -18,13 +18,12 @@ reverse_depends = "['gtk+2', 'gtk+3', 'gtk+4']"
 Default icon theme for GNOME
 
 ### Files: 
-* /usr/share/doc/adwaita-icon-theme-45.0/AUTHORS
-* /usr/share/doc/adwaita-icon-theme-45.0/COPYING
-* /usr/share/doc/adwaita-icon-theme-45.0/COPYING_CCBYSA3
-* /usr/share/doc/adwaita-icon-theme-45.0/COPYING_LGPL
-* /usr/share/doc/adwaita-icon-theme-45.0/NEWS
-* /usr/share/doc/adwaita-icon-theme-45.0/README.md
-* /usr/share/icons/Adwaita/.icon-theme.cache
+* /usr/share/doc/adwaita-icon-theme-46.0/AUTHORS
+* /usr/share/doc/adwaita-icon-theme-46.0/COPYING
+* /usr/share/doc/adwaita-icon-theme-46.0/COPYING_CCBYSA3
+* /usr/share/doc/adwaita-icon-theme-46.0/COPYING_LGPL
+* /usr/share/doc/adwaita-icon-theme-46.0/NEWS
+* /usr/share/doc/adwaita-icon-theme-46.0/README.md
 * /usr/share/icons/Adwaita/16x16/devices/audio-headphones.png
 * /usr/share/icons/Adwaita/16x16/devices/audio-headset.png
 * /usr/share/icons/Adwaita/16x16/emblems/emblem-readonly.png
@@ -37,6 +36,7 @@ Default icon theme for GNOME
 * /usr/share/icons/Adwaita/16x16/mimetypes/application-x-executable.png
 * /usr/share/icons/Adwaita/16x16/mimetypes/application-x-firmware.png
 * /usr/share/icons/Adwaita/16x16/mimetypes/application-x-generic.png
+* /usr/share/icons/Adwaita/16x16/mimetypes/application-x-sharedlib.png
 * /usr/share/icons/Adwaita/16x16/mimetypes/audio-x-generic.png
 * /usr/share/icons/Adwaita/16x16/mimetypes/font-x-generic.png
 * /usr/share/icons/Adwaita/16x16/mimetypes/image-x-generic.png
@@ -75,21 +75,6 @@ Default icon theme for GNOME
 * /usr/share/icons/Adwaita/16x16/places/user-desktop.png
 * /usr/share/icons/Adwaita/16x16/places/user-home.png
 * /usr/share/icons/Adwaita/16x16/places/user-trash.png
-* /usr/share/icons/Adwaita/cursors/00008160000006810000408080010102
-* /usr/share/icons/Adwaita/cursors/028006030e0e7ebffc7f7070c0600140
-* /usr/share/icons/Adwaita/cursors/03b6e0fcb3499374a867c041f52298f0
-* /usr/share/icons/Adwaita/cursors/08e8e1c95fe2fc01f976f1e063a24ccd
-* /usr/share/icons/Adwaita/cursors/1081e37283d90000800003c07f3ef6bf
-* /usr/share/icons/Adwaita/cursors/14fef782d02440884392942c11205230
-* /usr/share/icons/Adwaita/cursors/2870a09082c103050810ffdffffe0204
-* /usr/share/icons/Adwaita/cursors/3085a0e285430894940527032f8b26df
-* /usr/share/icons/Adwaita/cursors/3ecb610c1bf2410f44200f48c40d3599
-* /usr/share/icons/Adwaita/cursors/4498f0e0c1937ffe01fd06f973665830
-* /usr/share/icons/Adwaita/cursors/5c6cd98b3f3ebcb1f9c7f1c204630408
-* /usr/share/icons/Adwaita/cursors/6407b0e94181790501fd1e167b474872
-* /usr/share/icons/Adwaita/cursors/640fb0e74195791501fd1ed57b41487f
-* /usr/share/icons/Adwaita/cursors/9081237383d90e509aa00f00170e968f
-* /usr/share/icons/Adwaita/cursors/9d800788f1b08800ae810202380a0822
 * /usr/share/icons/Adwaita/cursors/alias
 * /usr/share/icons/Adwaita/cursors/all-scroll
 * /usr/share/icons/Adwaita/cursors/arrow
@@ -97,53 +82,26 @@ Default icon theme for GNOME
 * /usr/share/icons/Adwaita/cursors/bottom_left_corner
 * /usr/share/icons/Adwaita/cursors/bottom_right_corner
 * /usr/share/icons/Adwaita/cursors/bottom_side
-* /usr/share/icons/Adwaita/cursors/bottom_tee
-* /usr/share/icons/Adwaita/cursors/c7088f0f3e6c8088236ef8e1e3e70000
 * /usr/share/icons/Adwaita/cursors/cell
 * /usr/share/icons/Adwaita/cursors/col-resize
 * /usr/share/icons/Adwaita/cursors/context-menu
 * /usr/share/icons/Adwaita/cursors/copy
 * /usr/share/icons/Adwaita/cursors/cross
-* /usr/share/icons/Adwaita/cursors/crossed_circle
 * /usr/share/icons/Adwaita/cursors/crosshair
 * /usr/share/icons/Adwaita/cursors/cross_reverse
-* /usr/share/icons/Adwaita/cursors/d9ce0ab605698f320427677b458ad60b
 * /usr/share/icons/Adwaita/cursors/default
 * /usr/share/icons/Adwaita/cursors/diamond_cross
-* /usr/share/icons/Adwaita/cursors/dnd-ask
-* /usr/share/icons/Adwaita/cursors/dnd-copy
-* /usr/share/icons/Adwaita/cursors/dnd-link
-* /usr/share/icons/Adwaita/cursors/dnd-move
-* /usr/share/icons/Adwaita/cursors/dnd-no-drop
-* /usr/share/icons/Adwaita/cursors/dnd-none
-* /usr/share/icons/Adwaita/cursors/dotbox
-* /usr/share/icons/Adwaita/cursors/dot_box_mask
-* /usr/share/icons/Adwaita/cursors/double_arrow
-* /usr/share/icons/Adwaita/cursors/draft_large
-* /usr/share/icons/Adwaita/cursors/draft_small
-* /usr/share/icons/Adwaita/cursors/draped_box
 * /usr/share/icons/Adwaita/cursors/e-resize
-* /usr/share/icons/Adwaita/cursors/e29285e634086352946a0e7090d73106
 * /usr/share/icons/Adwaita/cursors/ew-resize
-* /usr/share/icons/Adwaita/cursors/fcf1c3c7cd4491d801f1e1c78f100000
 * /usr/share/icons/Adwaita/cursors/fd_double_arrow
 * /usr/share/icons/Adwaita/cursors/fleur
 * /usr/share/icons/Adwaita/cursors/grab
 * /usr/share/icons/Adwaita/cursors/grabbing
-* /usr/share/icons/Adwaita/cursors/hand
 * /usr/share/icons/Adwaita/cursors/hand1
 * /usr/share/icons/Adwaita/cursors/hand2
 * /usr/share/icons/Adwaita/cursors/help
-* /usr/share/icons/Adwaita/cursors/h_double_arrow
-* /usr/share/icons/Adwaita/cursors/icon
 * /usr/share/icons/Adwaita/cursors/left_ptr
-* /usr/share/icons/Adwaita/cursors/left_ptr_help
-* /usr/share/icons/Adwaita/cursors/left_ptr_watch
 * /usr/share/icons/Adwaita/cursors/left_side
-* /usr/share/icons/Adwaita/cursors/left_tee
-* /usr/share/icons/Adwaita/cursors/link
-* /usr/share/icons/Adwaita/cursors/ll_angle
-* /usr/share/icons/Adwaita/cursors/lr_angle
 * /usr/share/icons/Adwaita/cursors/move
 * /usr/share/icons/Adwaita/cursors/n-resize
 * /usr/share/icons/Adwaita/cursors/ne-resize
@@ -153,49 +111,27 @@ Default icon theme for GNOME
 * /usr/share/icons/Adwaita/cursors/ns-resize
 * /usr/share/icons/Adwaita/cursors/nw-resize
 * /usr/share/icons/Adwaita/cursors/nwse-resize
-* /usr/share/icons/Adwaita/cursors/openhand
-* /usr/share/icons/Adwaita/cursors/pencil
-* /usr/share/icons/Adwaita/cursors/pirate
-* /usr/share/icons/Adwaita/cursors/plus
 * /usr/share/icons/Adwaita/cursors/pointer
-* /usr/share/icons/Adwaita/cursors/pointer-move
 * /usr/share/icons/Adwaita/cursors/progress
 * /usr/share/icons/Adwaita/cursors/question_arrow
-* /usr/share/icons/Adwaita/cursors/right_ptr
 * /usr/share/icons/Adwaita/cursors/right_side
-* /usr/share/icons/Adwaita/cursors/right_tee
 * /usr/share/icons/Adwaita/cursors/row-resize
 * /usr/share/icons/Adwaita/cursors/s-resize
-* /usr/share/icons/Adwaita/cursors/sb_down_arrow
 * /usr/share/icons/Adwaita/cursors/sb_h_double_arrow
-* /usr/share/icons/Adwaita/cursors/sb_left_arrow
-* /usr/share/icons/Adwaita/cursors/sb_right_arrow
-* /usr/share/icons/Adwaita/cursors/sb_up_arrow
 * /usr/share/icons/Adwaita/cursors/sb_v_double_arrow
 * /usr/share/icons/Adwaita/cursors/se-resize
-* /usr/share/icons/Adwaita/cursors/size_all
-* /usr/share/icons/Adwaita/cursors/size_bdiag
-* /usr/share/icons/Adwaita/cursors/size_fdiag
-* /usr/share/icons/Adwaita/cursors/size_hor
-* /usr/share/icons/Adwaita/cursors/size_ver
 * /usr/share/icons/Adwaita/cursors/sw-resize
-* /usr/share/icons/Adwaita/cursors/target
 * /usr/share/icons/Adwaita/cursors/tcross
 * /usr/share/icons/Adwaita/cursors/text
 * /usr/share/icons/Adwaita/cursors/top_left_arrow
 * /usr/share/icons/Adwaita/cursors/top_left_corner
 * /usr/share/icons/Adwaita/cursors/top_right_corner
 * /usr/share/icons/Adwaita/cursors/top_side
-* /usr/share/icons/Adwaita/cursors/top_tee
-* /usr/share/icons/Adwaita/cursors/ul_angle
-* /usr/share/icons/Adwaita/cursors/ur_angle
 * /usr/share/icons/Adwaita/cursors/vertical-text
-* /usr/share/icons/Adwaita/cursors/v_double_arrow
 * /usr/share/icons/Adwaita/cursors/w-resize
 * /usr/share/icons/Adwaita/cursors/wait
 * /usr/share/icons/Adwaita/cursors/watch
 * /usr/share/icons/Adwaita/cursors/xterm
-* /usr/share/icons/Adwaita/cursors/X_cursor
 * /usr/share/icons/Adwaita/cursors/zoom-in
 * /usr/share/icons/Adwaita/cursors/zoom-out
 * /usr/share/icons/Adwaita/index.theme
@@ -505,7 +441,6 @@ Default icon theme for GNOME
 * /usr/share/icons/Adwaita/symbolic/devices/input-dialpad-symbolic.svg
 * /usr/share/icons/Adwaita/symbolic/devices/input-gaming-symbolic.svg
 * /usr/share/icons/Adwaita/symbolic/devices/input-keyboard-symbolic.svg
-* /usr/share/icons/Adwaita/symbolic/devices/input-keyboard.svg
 * /usr/share/icons/Adwaita/symbolic/devices/input-mouse-symbolic.svg
 * /usr/share/icons/Adwaita/symbolic/devices/input-tablet-symbolic.svg
 * /usr/share/icons/Adwaita/symbolic/devices/input-touchpad-symbolic.svg
