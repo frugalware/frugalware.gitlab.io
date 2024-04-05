@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ladybird 20240328-1"
-version = "20240328-1"
+title = "ladybird 20240328-2"
+version = "20240328-2"
 description = "Web browser built from scratch using the SerenityOS LibWeb engine"
-date = "2024-03-28T10:39:00"
+date = "2024-04-05T13:39:52"
 aliases = "/packages/220941"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/SerenityOS/serenity"
 arch = "x86_64"
-size = "14214892"
-usize = "74372883"
-sha1sum = "46483d70b3b2dda64695a96a057090718170ea68"
+size = "32925264"
+usize = "166369063"
+sha1sum = "be927538702e21270d6eeba7e6e09d0f090ba165"
 depends = "['brotli', 'libgl', 'python3', 'qt6-base', 'qt6-multimedia', 'qt6-svg', 'qt6-wayland']"
 +++
 ### Description: 
@@ -26,105 +26,6 @@ Web browser built from scratch using the SerenityOS LibWeb engine
 * /usr/lib/ladybird/SQLServer
 * /usr/lib/ladybird/WebContent
 * /usr/lib/ladybird/WebWorker
-* /usr/lib/liblagom-accelgfx.so
-* /usr/lib/liblagom-accelgfx.so.0
-* /usr/lib/liblagom-accelgfx.so.0.0.0
-* /usr/lib/liblagom-audio.so
-* /usr/lib/liblagom-audio.so.0
-* /usr/lib/liblagom-audio.so.0.0.0
-* /usr/lib/liblagom-compress.so
-* /usr/lib/liblagom-compress.so.0
-* /usr/lib/liblagom-compress.so.0.0.0
-* /usr/lib/liblagom-core.so
-* /usr/lib/liblagom-core.so.0
-* /usr/lib/liblagom-core.so.0.0.0
-* /usr/lib/liblagom-crypto.so
-* /usr/lib/liblagom-crypto.so.0
-* /usr/lib/liblagom-crypto.so.0.0.0
-* /usr/lib/liblagom-filesystem.so
-* /usr/lib/liblagom-filesystem.so.0
-* /usr/lib/liblagom-filesystem.so.0.0.0
-* /usr/lib/liblagom-gemini.so
-* /usr/lib/liblagom-gemini.so.0
-* /usr/lib/liblagom-gemini.so.0.0.0
-* /usr/lib/liblagom-gfx.so
-* /usr/lib/liblagom-gfx.so.0
-* /usr/lib/liblagom-gfx.so.0.0.0
-* /usr/lib/liblagom-http.so
-* /usr/lib/liblagom-http.so.0
-* /usr/lib/liblagom-http.so.0.0.0
-* /usr/lib/liblagom-idl.so
-* /usr/lib/liblagom-idl.so.0
-* /usr/lib/liblagom-idl.so.0.0.0
-* /usr/lib/liblagom-imagedecoderclient.so
-* /usr/lib/liblagom-imagedecoderclient.so.0
-* /usr/lib/liblagom-imagedecoderclient.so.0.0.0
-* /usr/lib/liblagom-ipc.so
-* /usr/lib/liblagom-ipc.so.0
-* /usr/lib/liblagom-ipc.so.0.0.0
-* /usr/lib/liblagom-js.so
-* /usr/lib/liblagom-js.so.0
-* /usr/lib/liblagom-js.so.0.0.0
-* /usr/lib/liblagom-locale.so
-* /usr/lib/liblagom-locale.so.0
-* /usr/lib/liblagom-locale.so.0.0.0
-* /usr/lib/liblagom-markdown.so
-* /usr/lib/liblagom-markdown.so.0
-* /usr/lib/liblagom-markdown.so.0.0.0
-* /usr/lib/liblagom-protocol.so
-* /usr/lib/liblagom-protocol.so.0
-* /usr/lib/liblagom-protocol.so.0.0.0
-* /usr/lib/liblagom-regex.so
-* /usr/lib/liblagom-regex.so.0
-* /usr/lib/liblagom-regex.so.0.0.0
-* /usr/lib/liblagom-riff.so
-* /usr/lib/liblagom-riff.so.0
-* /usr/lib/liblagom-riff.so.0.0.0
-* /usr/lib/liblagom-softgpu.so
-* /usr/lib/liblagom-softgpu.so.0
-* /usr/lib/liblagom-softgpu.so.0.0.0
-* /usr/lib/liblagom-sql.so
-* /usr/lib/liblagom-sql.so.0
-* /usr/lib/liblagom-sql.so.0.0.0
-* /usr/lib/liblagom-syntax.so
-* /usr/lib/liblagom-syntax.so.0
-* /usr/lib/liblagom-syntax.so.0.0.0
-* /usr/lib/liblagom-textcodec.so
-* /usr/lib/liblagom-textcodec.so.0
-* /usr/lib/liblagom-textcodec.so.0.0.0
-* /usr/lib/liblagom-threading.so
-* /usr/lib/liblagom-threading.so.0
-* /usr/lib/liblagom-threading.so.0.0.0
-* /usr/lib/liblagom-tls.so
-* /usr/lib/liblagom-tls.so.0
-* /usr/lib/liblagom-tls.so.0.0.0
-* /usr/lib/liblagom-unicode.so
-* /usr/lib/liblagom-unicode.so.0
-* /usr/lib/liblagom-unicode.so.0.0.0
-* /usr/lib/liblagom-url.so
-* /usr/lib/liblagom-url.so.0
-* /usr/lib/liblagom-url.so.0.0.0
-* /usr/lib/liblagom-video.so
-* /usr/lib/liblagom-video.so.0
-* /usr/lib/liblagom-video.so.0.0.0
-* /usr/lib/liblagom-wasm.so
-* /usr/lib/liblagom-wasm.so.0
-* /usr/lib/liblagom-wasm.so.0.0.0
-* /usr/lib/liblagom-web.so
-* /usr/lib/liblagom-web.so.0
-* /usr/lib/liblagom-web.so.0.0.0
-* /usr/lib/liblagom-websocket.so
-* /usr/lib/liblagom-websocket.so.0
-* /usr/lib/liblagom-websocket.so.0.0.0
-* /usr/lib/liblagom-webview.so
-* /usr/lib/liblagom-webview.so.0
-* /usr/lib/liblagom-webview.so.0.0.0
-* /usr/lib/liblagom-x86.so
-* /usr/lib/liblagom-x86.so.0
-* /usr/lib/liblagom-x86.so.0.0.0
-* /usr/lib/liblagom-xml.so
-* /usr/lib/liblagom-xml.so.0
-* /usr/lib/liblagom-xml.so.0.0.0
 * /usr/share/doc/ladybird-20240328/LICENSE
 * /usr/share/doc/ladybird-20240328/README.md
 * /usr/share/Ladybird/LadybirdConfig.cmake
@@ -2144,6 +2045,7 @@ Web browser built from scratch using the SerenityOS LibWeb engine
 * /usr/share/Lagom/fonts/KaticaRegular12.font
 * /usr/share/Lagom/fonts/SerenitySans-Regular.ttf
 * /usr/share/Lagom/icons/16x16/app-browser.png
+* /usr/share/Lagom/icons/16x16/app-system-monitor.png
 * /usr/share/Lagom/icons/16x16/audio-volume-high.png
 * /usr/share/Lagom/icons/16x16/audio-volume-muted.png
 * /usr/share/Lagom/icons/16x16/close-tab.png
@@ -2172,6 +2074,7 @@ Web browser built from scratch using the SerenityOS LibWeb engine
 * /usr/share/Lagom/icons/16x16/zoom-out.png
 * /usr/share/Lagom/icons/16x16/zoom-reset.png
 * /usr/share/Lagom/icons/32x32/app-browser.png
+* /usr/share/Lagom/icons/32x32/app-system-monitor.png
 * /usr/share/Lagom/icons/32x32/filetype-folder.png
 * /usr/share/Lagom/icons/32x32/filetype-unknown.png
 * /usr/share/Lagom/icons/32x32/msgbox-warning.png

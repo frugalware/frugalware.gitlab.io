@@ -12,6 +12,7 @@ size = "1685664"
 usize = "20212985"
 sha1sum = "637099e113b5bd180350b7f2cdeae9eddcef9fef"
 depends = "['libmbim', 'libqrtr-glib']"
+reverse_depends = "['modemmanager']"
 +++
 ### Description: 
 QMI modem protocol helper library
