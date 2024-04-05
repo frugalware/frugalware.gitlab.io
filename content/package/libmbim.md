@@ -12,6 +12,7 @@ size = "418136"
 usize = "3663672"
 sha1sum = "07f6d1e26829aa76b6c7af1a87240f4bbcaf91c6"
 depends = "['glib2', 'libsystemd']"
+reverse_depends = "['libqmi']"
 +++
 ### Description: 
 MBIM modem protocol helper library

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpimtextedit 24.02.1-3"
-version = "24.02.1-3"
+title = "kpimtextedit 24.02.1-5"
+version = "24.02.1-5"
 description = "Desc: A library for textedit with PIM-specific features."
-date = "2024-03-27T10:35:50"
+date = "2024-04-05T00:54:03"
 aliases = "/packages/218343"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "173284"
+size = "173932"
 usize = "824058"
-sha1sum = "8ae32c294828e270a818d7ee36b1e06c39e46090"
-depends = "['kcoreaddons>=6.0.0', 'kio>=6.0.0', 'ktextaddons', 'ktexteditor>=6.0.0', 'qt6-speech>=6.6.3', 'sonnet>=6.0.0', 'syntax-highlighting>=6.0.0']"
+sha1sum = "b8a05e7d1e543b6d797fcee1cf2a18a36881b209"
+depends = "['kcoreaddons>=6.0.0', 'kio>=6.0.0', 'ktextaddons', 'ktexteditor>=6.0.0', 'ktexttemplate>=6.0.0', 'qt6-speech>=6.7.0', 'sonnet>=6.0.0', 'syntax-highlighting>=6.0.0']"
 reverse_depends = "['kidentitymanagement', 'libkleo', 'pimcommon']"
 +++
 ### Description: 

@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "knotifications 6.0.0-3"
-version = "6.0.0-3"
+title = "knotifications 6.0.0-5"
+version = "6.0.0-5"
 description = "KDE Desktop notifications."
-date = "2024-03-26T23:33:25"
+date = "2024-04-05T05:44:07"
 aliases = "/packages/218337"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "102148"
-usize = "353861"
-sha1sum = "37280fdcf36bd136ccb2b559d5ef92af74e7147e"
+size = "102808"
+usize = "349765"
+sha1sum = "5877a7035d6f5849799710a2abffa92f041702b0"
 depends = "['kiconthemes>=6.0.0', 'kservice>=6.0.0', 'libcanberra', 'libcanberra-alsa', 'phonon-qt6>=4.9.1-5', 'qt6-speech>=6.7.0']"
-reverse_depends = "['dolphin', 'itinerary', 'kbackup', 'kcalc', 'kde-inotify-survey', 'kjobwidgets', 'kmousetool', 'kongress', 'kruler', 'kvirc', 'kwallet', 'kwrited', 'kwrited5', 'plasma-browser-integration', 'tokodon', 'user-kcm', 'xwaylandvideobridge']"
+reverse_depends = "['dolphin', 'itinerary', 'kbackup', 'kcalc', 'kde-inotify-survey', 'kjobwidgets', 'kmousetool', 'kongress', 'kruler', 'kvirc', 'kwallet', 'kwrited', 'kwrited5', 'plasma-browser-integration', 'tokodon', 'user-kcm', 'wacomtablet', 'xwaylandvideobridge']"
 +++
 ### Description: 
 KDE Desktop notifications.

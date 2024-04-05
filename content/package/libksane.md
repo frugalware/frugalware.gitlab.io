@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libksane 24.02.1-3"
-version = "24.02.1-3"
+title = "libksane 24.02.1-5"
+version = "24.02.1-5"
 description = "KDE SANE interface library."
-date = "2024-03-27T10:52:17"
+date = "2024-04-05T01:11:08"
 aliases = "/packages/74207"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "149056"
-usize = "704890"
-sha1sum = "658f5e388d55029909f70868d578ee6b4c9f0c70"
+size = "149704"
+usize = "708986"
+sha1sum = "dde45e058aac55554920a848c5eacc1d03fab04d"
 depends = "['ksanecore>=24.02.1', 'ktextwidgets>=6.0.0', 'kwallet>=6.0.0']"
 reverse_depends = "['digikam', 'kolourpaint']"
 +++

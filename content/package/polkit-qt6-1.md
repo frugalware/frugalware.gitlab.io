@@ -12,7 +12,7 @@ size = "73044"
 usize = "326041"
 sha1sum = "5887c95f0557a29dfd90c5841319e8e881eb3a51"
 depends = "['libgcc>=6.2.1-5', 'libice>=1.0.9-3', 'libuuid>=2.29.2-2', 'libxext>=1.3.3-3', 'libxrender>=0.9.9-5', 'polkit>=0.113-9', 'qt6-base>=5.15.10']"
-reverse_depends = "['kauth']"
+reverse_depends = "['kauth', 'polkit-kde-agent-1']"
 +++
 ### Description: 
 A library that allows developers to access Polikit API with a nice Qt-style API

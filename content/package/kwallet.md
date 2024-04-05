@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "kwallet 6.0.0-3"
-version = "6.0.0-3"
+title = "kwallet 6.0.0-5"
+version = "6.0.0-5"
 description = "Safe desktop-wide storage for passwords."
-date = "2024-03-26T23:46:33"
+date = "2024-04-05T05:56:11"
 aliases = "/packages/221354"
-categories = []
+categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "450148"
-usize = "2385235"
-sha1sum = "20f80349181df7f5ebdb72c8f9bb57a77604806e"
+size = "453744"
+usize = "2393427"
+sha1sum = "14569f17cf2542f3ee753d3fcc16fd7d065258b9"
 depends = "['knotifications>=6.0.0', 'libgpgmepp>=1.10.0', 'qca']"
-reverse_depends = "['discover', 'falkon-kde', 'kio', 'krfb', 'kwallet-pam', 'libkgapi', 'libksane', 'signon-kwallet-extension']"
+reverse_depends = "['discover', 'falkon-kde', 'kio', 'krfb', 'ksshaskpass', 'kwallet-pam', 'libkgapi', 'libksane', 'signon-kwallet-extension']"
 +++
 ### Description: 
 Safe desktop-wide storage for passwords.

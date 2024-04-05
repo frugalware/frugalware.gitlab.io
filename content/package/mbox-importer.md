@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mbox-importer 24.02.1-3"
-version = "24.02.1-3"
+title = "mbox-importer 24.02.1-5"
+version = "24.02.1-5"
 description = "Wizard to assist with importing MBox email archives into Akonadi"
-date = "2024-03-27T12:25:11"
+date = "2024-04-05T02:48:27"
 aliases = "/packages/218940"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "28332"
+size = "28224"
 usize = "128050"
-sha1sum = "3eba2c025824693d5e8f67a7c5af748a7155f418"
+sha1sum = "616b6e4c695c0ca5edb25d91556b8ab2e4b192f6"
 depends = "['mailcommon>=24.02.1']"
 reverse_depends = "['kmail']"
 +++

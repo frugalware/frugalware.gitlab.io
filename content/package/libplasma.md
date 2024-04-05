@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "libplasma 6.0.3-1"
-version = "6.0.3-1"
+title = "libplasma 6.0.3-3"
+version = "6.0.3-3"
 description = "Plasma library and runtime components based upon KF5 and Qt5."
-date = "2024-03-27T07:58:08"
+date = "2024-04-05T06:08:46"
 aliases = "/packages/221364"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2618136"
-usize = "5900031"
-sha1sum = "e3e79a40666b95ffb4fbd170afef296a40bfad29"
-depends = "['kcmutils>=6.0.0']"
-reverse_depends = "['bluedevil', 'discover', 'kate', 'kclock', 'knights', 'kup', 'kweather', 'kwin', 'milou', 'plasma-nano', 'plasma-pa', 'plasma-sdk', 'plasma-vault', 'plasma-welcome', 'plasma-workspace']"
+size = "2625940"
+usize = "5932820"
+sha1sum = "8594cb464a641455849c47eb1382b8404a99352e"
+depends = "['kcmutils>=6.0.0', 'ksvg>=6.0.0', 'plasma-activities>=6.0.3']"
+reverse_depends = "['bluedevil', 'discover', 'kate', 'kclock', 'knights', 'kscreen', 'kup', 'kweather', 'kwin', 'milou', 'plasma-nano', 'plasma-pa', 'plasma-sdk', 'plasma-vault', 'plasma-welcome', 'plasma-workspace', 'wacomtablet']"
 +++
 ### Description: 
 Plasma library and runtime components based upon KF5 and Qt5.

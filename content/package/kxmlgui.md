@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "kxmlgui 6.0.0-2"
-version = "6.0.0-2"
+title = "kxmlgui 6.0.0-4"
+version = "6.0.0-4"
 description = "Framework for managing menu and toolbar actions."
-date = "2024-03-26T23:49:25"
+date = "2024-04-05T05:58:39"
 aliases = "/packages/218367"
-categories = []
+categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "628940"
-usize = "3171304"
-sha1sum = "016dc320cecccac6dae2b825188981bb6034b105"
-depends = "['attica>=6.0.0', 'kglobalaccel>=6.0.0', 'ktextwidgets>=6.0.0', 'qt6-svg>=6.6.3']"
-reverse_depends = "['akonadi-mime', 'kbackup', 'kbookmarks', 'kbruch', 'kcachegrind', 'kcalc', 'kcharselect', 'kcolorchooser', 'kdesignerplugin', 'kgeography', 'kmousetool', 'krfb', 'kruler', 'ktextaddons', 'kvirc', 'kwin', 'svgpart']"
+size = "631140"
+usize = "3179496"
+sha1sum = "79129d0a13a859b97221536d74be5c998dca9ebf"
+depends = "['attica>=6.0.0', 'kglobalaccel>=6.0.0', 'ktextwidgets>=6.0.0', 'qt6-svg>=6.7.0']"
+reverse_depends = "['akonadi-mime', 'kbackup', 'kbookmarks', 'kbruch', 'kcachegrind', 'kcalc', 'kcharselect', 'kcolorchooser', 'kdesignerplugin', 'kgeography', 'kmousetool', 'krfb', 'kruler', 'ktextaddons', 'kvirc', 'kwin', 'svgpart', 'wacomtablet']"
 +++
 ### Description: 
 Framework for managing menu and toolbar actions.

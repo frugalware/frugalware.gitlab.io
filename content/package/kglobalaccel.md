@@ -12,7 +12,7 @@ size = "79784"
 usize = "292825"
 sha1sum = "f7fc2726ec56af0ab0e7b111f1dcfd0cd915887f"
 depends = "['kservice>=6.0.0']"
-reverse_depends = "['kglobalacceld', 'kxmlgui']"
+reverse_depends = "['kglobalacceld', 'kxmlgui', 'wacomtablet']"
 +++
 ### Description: 
 Global desktop keyboard shortcuts.

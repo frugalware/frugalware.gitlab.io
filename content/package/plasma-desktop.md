@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-desktop 6.0.3-1"
-version = "6.0.3-1"
+title = "plasma-desktop 6.0.3-3"
+version = "6.0.3-3"
 description = "KDE Plasma Desktop."
-date = "2024-03-27T09:38:49"
+date = "2024-04-04T23:49:02"
 aliases = "/packages/218423"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "16223100"
-usize = "31916375"
-sha1sum = "28ee66808a11d3b03763ecc1ba35634f0a2918b8"
-depends = "['hack', 'kactivitymanagerd>=6.0.3', 'kauth>=6.0.0', 'kcmutils>=6.0.0', 'knewstuff>=6.0.0', 'knotifyconfig>=6.0.0', 'kpeople>=6.0.0', 'kpipewire', 'libcanberra>=0.30-14', 'libxft>=2.3.2-2', 'libxkbfile>=1.0.9-3', 'packagekit-qt6>=1.0.1', 'plasma-activities-stats>=6.0.0', 'plasma-workspace>=6.0.3', 'qqc2-desktop-style>=6.0.0', 'setxkbmap', 'xf86-input-libinput']"
+size = "16226016"
+usize = "31928836"
+sha1sum = "73a32ce2a3663ab071c0f887c017e507d808eabf"
+depends = "['hack', 'kactivitymanagerd>=6.0.3', 'kauth>=6.0.0', 'kcmutils>=6.0.0', 'knewstuff>=6.0.0', 'knotifyconfig>=6.0.0', 'kpeople>=6.0.0', 'kpipewire', 'krunner>=6.0.0', 'libcanberra>=0.30-14', 'libxft>=2.3.2-2', 'libxkbfile>=1.0.9-3', 'packagekit-qt6>=1.0.1', 'plasma-activities-stats>=6.0.0', 'plasma-workspace>=6.0.3', 'qqc2-desktop-style>=6.0.0', 'setxkbmap', 'xf86-input-libinput']"
 +++
 ### Description: 
 KDE Plasma Desktop.

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kolf 24.02.1-3"
-version = "24.02.1-3"
+title = "kolf 24.02.1-5"
+version = "24.02.1-5"
 description = "Kolf is a miniature golf game."
-date = "2024-03-27T13:16:52"
+date = "2024-04-05T03:42:03"
 aliases = "/packages/219527"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1270200"
+size = "1269204"
 usize = "3455124"
-sha1sum = "2e35efc7bea8645d4256afc019bd9af14f368902"
+sha1sum = "a5d695f83abde1dfa2e0992f0b2d82699221835e"
 depends = "['libkdegames>=24.02.1']"
 +++
 ### Description: 

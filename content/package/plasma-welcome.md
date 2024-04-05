@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-welcome 6.0.3-1"
-version = "6.0.3-1"
+title = "plasma-welcome 6.0.3-3"
+version = "6.0.3-3"
 description = "A friendly onboarding wizard for Plasma"
-date = "2024-03-30T23:13:19"
+date = "2024-04-05T00:02:46"
 aliases = "/packages/220919"
-categories = []
+categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "959716"
-usize = "2199879"
-sha1sum = "e6c03fb7a344d03513f3388de781e973a8c31bac"
+size = "959560"
+usize = "2203975"
+sha1sum = "e32177701f81fbe705cb5e67d5f91cd9aea9cd2d"
 depends = "['kaccounts-integration>=24.02.1', 'kirigami>=6.0.0', 'kirigami-addons', 'knewstuff>=6.0.0', 'kuserfeedback', 'libplasma>=']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kwallet-pam 6.0.3-1"
-version = "6.0.3-1"
+title = "kwallet-pam 6.0.3-3"
+version = "6.0.3-3"
 description = "KWallet PAM integration"
-date = "2024-03-27T08:40:46"
+date = "2024-04-04T23:17:39"
 aliases = "/packages/218359"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "15612"
+size = "15748"
 usize = "33151"
-sha1sum = "4b504697576953a5819cbf59bb3e47d250ef5694"
+sha1sum = "664e6e3a1e4c14a4a9f3ad0e3098ab6a5d77604f"
 depends = "['kwallet>=6.0.0', 'libgcrypt>=1.7.3-2', 'pam>=1.1.8-4', 'socat>=1.7.3.1-2']"
 +++
 ### Description: 

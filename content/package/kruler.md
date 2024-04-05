@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kruler 24.02.1-3"
-version = "24.02.1-3"
+title = "kruler 24.02.1-5"
+version = "24.02.1-5"
 description = "KDE Ruler Widget."
-date = "2024-03-27T10:25:32"
+date = "2024-04-05T00:43:10"
 aliases = "/packages/88170"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "280808"
+size = "280704"
 usize = "633374"
-sha1sum = "304bfb42cec4849b81a73673ade554df59144f9b"
-depends = "['knotifications>=6.0.0', 'kxmlgui>=6.0.0']"
+sha1sum = "8509702beb6312ed627d9ea9e64da9302e84c088"
+depends = "['knotifications>=6.0.0', 'kstatusnotifieritem>=6.0.0', 'kxmlgui>=6.0.0']"
 +++
 ### Description: 
 KDE Ruler Widget.

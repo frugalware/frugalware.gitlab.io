@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kontactinterface 24.02.1-3"
-version = "24.02.1-3"
+title = "kontactinterface 24.02.1-5"
+version = "24.02.1-5"
 description = "KParts Kontact interface."
-date = "2024-03-27T10:43:11"
+date = "2024-04-05T01:01:40"
 aliases = "/packages/218339"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "47072"
+size = "47648"
 usize = "192170"
-sha1sum = "5ab15a8b3a0ada834a7fc36e5d1d7e36710a037b"
+sha1sum = "1f489523aae5fec0be55ab64d3c1f8d94dffca7d"
 depends = "['kparts>=6.0.0']"
 reverse_depends = "['akregator', 'kaddressbook', 'kdepim-addons', 'kmail', 'knotes', 'kontact', 'korganizer', 'zanshin']"
 +++

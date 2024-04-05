@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ocean-sound-theme 6.0.3-1"
-version = "6.0.3-1"
+title = "ocean-sound-theme 6.0.3-3"
+version = "6.0.3-3"
 description = "Ocean Sound Theme for Plasma"
-date = "2024-03-27T09:43:25"
+date = "2024-04-04T23:53:12"
 aliases = "/packages/221370"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1100828"
+size = "1101104"
 usize = "1238673"
-sha1sum = "1769a11ca6a76ad64109b0401da5fb9fbc13a2ea"
+sha1sum = "26cdef8aa043d316ef756042c92f05d881edb6f2"
 depends = "['qt6-base']"
 +++
 ### Description: 

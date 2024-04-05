@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "plasma5support 6.0.3-1"
-version = "6.0.3-1"
+title = "plasma5support 6.0.3-3"
+version = "6.0.3-3"
 description = "Support components for porting from KF5/Qt5 to KF6/Qt6"
-date = "2024-03-27T09:09:28"
+date = "2024-04-04T23:26:23"
 aliases = "/packages/221377"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "113204"
-usize = "428134"
-sha1sum = "e90e153089eb1fa2babf1b69066e8ff85046bc31"
+size = "114256"
+usize = "432230"
+sha1sum = "9fc5180933140e09f58007d155b5577c41464b39"
 depends = "['kconfig>=6.0.0', 'kcoreaddons>=6.0.0', 'ki18n>=6.0.0']"
-reverse_depends = "['kup', 'plasma-sdk', 'wacomtablet']"
+reverse_depends = "['kup', 'plasma-sdk', 'plasma-workspace', 'wacomtablet']"
 +++
 ### Description: 
 Support components for porting from KF5/Qt5 to KF6/Qt6

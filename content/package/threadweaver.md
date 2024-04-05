@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "threadweaver 6.0.0-2"
-version = "6.0.0-2"
+title = "threadweaver 6.0.0-4"
+version = "6.0.0-4"
 description = "KDE Helper for multithreaded programming."
-date = "2024-03-26T23:04:48"
+date = "2024-04-05T05:18:40"
 aliases = "/packages/218421"
-categories = []
+categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "78488"
+size = "78472"
 usize = "303208"
-sha1sum = "1b007a159be25d6605aa1933c1bcb174d4c3ebd5"
-depends = "['qt6-base>=6.6.3']"
+sha1sum = "1a803840f6e0a74dc350af5dae7e0dbdb6082e87"
+depends = "['qt6-base>=6.7.0']"
 reverse_depends = "['kasts', 'kate', 'krunner', 'okular']"
 +++
 ### Description: 

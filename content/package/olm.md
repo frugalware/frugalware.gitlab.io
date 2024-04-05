@@ -12,6 +12,7 @@ size = "96912"
 usize = "247431"
 sha1sum = "194a19b56de2a20dab0d1ad5af7a0199824062d3"
 depends = "['libstdc++']"
+reverse_depends = "['libquotient']"
 +++
 ### Description: 
 Implementation of the Olm and Megolm cryptographic ratchets

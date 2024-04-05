@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "yakuake 24.02.1-3"
-version = "24.02.1-3"
+title = "yakuake 24.02.1-5"
+version = "24.02.1-5"
 description = "Yakuake is a Quake-style terminal emulator based on KDE Konsole technology."
-date = "2024-03-27T12:59:35"
+date = "2024-04-05T03:24:42"
 aliases = "/packages/5360"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://yakuake.kde.org/"
 arch = "x86_64"
-size = "430148"
-usize = "2286489"
-sha1sum = "f3256d736356af8bf836e907f0ea5af3ff52111e"
-depends = "['knewstuff>=6.0.0', 'knotifyconfig>=6.0.0', 'kparts>=6.0.0', 'kwayland>=6.0.0', 'qt6-svg>=6.6.3']"
+size = "432112"
+usize = "2298777"
+sha1sum = "d0c21776462a344ee40b816552c83a4ca8ceb1d4"
+depends = "['knewstuff>=6.0.0', 'knotifyconfig>=6.0.0', 'kparts>=6.0.0', 'kstatusnotifieritem>=6.0.0', 'kwayland>=6.0.0', 'qt6-svg>=6.7.0']"
 license = "GPL"
 +++
 ### Description: 

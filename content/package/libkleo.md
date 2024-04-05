@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libkleo 24.02.1-3"
-version = "24.02.1-3"
+title = "libkleo 24.02.1-5"
+version = "24.02.1-5"
 description = "This lib provides crypto for mails."
-date = "2024-03-27T10:42:03"
+date = "2024-04-05T01:00:28"
 aliases = "/packages/218474"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "734096"
-usize = "3599668"
-sha1sum = "1dd52d7c3372e0892feb55337a9d8215184ea9d9"
+size = "735876"
+usize = "3603764"
+sha1sum = "467dc88a13b52179600afd4079215c72e6b2df62"
 depends = "['kitemmodels>=6.0.0', 'kpimtextedit>=24.02.1', 'libgpgmepp>=1.18.0', 'libqgpgme>=1.18.0']"
 reverse_depends = "['akonadi-contacts', 'kleopatra', 'kmail-account-wizard', 'mimetreeparser']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-browser-integration 6.0.3-1"
-version = "6.0.3-1"
+title = "plasma-browser-integration 6.0.3-3"
+version = "6.0.3-3"
 description = "Qt Platform Theme integration plugins for the Plasma workspaces."
-date = "2024-03-30T22:40:38"
+date = "2024-04-04T23:58:49"
 aliases = "/packages/219689"
-categories = []
+categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "145960"
+size = "146864"
 usize = "542876"
-sha1sum = "97efd11e61b7bb9288427faee2f056188c16b67d"
+sha1sum = "ecfa3568c58b6e43db647ab90625c81871f2c1b1"
 depends = "['kconfig>=6.0.0', 'kdbusaddons>=6.0.0', 'kfilemetadata>=6.0.0', 'ki18n>=6.0.0', 'kio>=6.0.0', 'knotifications>=6.0.0', 'krunner>=6.0.0', 'kstatusnotifieritem>=6.0.0', 'kwindowsystem>=6.0.0', 'plasma-activities>=6.0.3', 'plasma-workspace>=6.0.3', 'purpose>=6.0.0']"
 +++
 ### Description: 

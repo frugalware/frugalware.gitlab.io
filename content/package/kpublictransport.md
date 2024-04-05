@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpublictransport 24.02.1-3"
-version = "24.02.1-3"
+title = "kpublictransport 24.02.1-5"
+version = "24.02.1-5"
 description = "Library to assist with accessing public transport timetables and other data"
-date = "2024-03-27T13:49:14"
+date = "2024-04-05T04:14:56"
 aliases = "/packages/220314"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "751244"
-usize = "2286921"
-sha1sum = "ce7a2f25233fb1a3f2b46e6015ab9819eb1d543a"
-depends = "['ki18n>=6.0.0', 'networkmanager-qt>=6.0.0', 'qt6-declarative>=6.6.3']"
+size = "757984"
+usize = "2307401"
+sha1sum = "e7f6cd70fa0966328116a6944c495b6441cf22cf"
+depends = "['ki18n>=6.0.0', 'networkmanager-qt>=6.0.0', 'qt6-declarative>=6.7.0']"
 reverse_depends = "['kosmindoormap', 'ktrip']"
 +++
 ### Description: 

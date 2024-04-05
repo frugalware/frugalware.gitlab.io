@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kpty 6.0.0-2"
-version = "6.0.0-2"
+title = "kpty 6.0.0-4"
+version = "6.0.0-4"
 description = "Interfacing with pseudo terminal devices."
-date = "2024-03-26T23:37:54"
+date = "2024-04-05T05:48:19"
 aliases = "/packages/218346"
 categories = []
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "42904"
+size = "42896"
 usize = "166322"
-sha1sum = "8add2c143f0db5294eabe35406373db833d6704b"
+sha1sum = "82b27883e723bda11d92f7071112ba4e9a8bf0a6"
 depends = "['kcoreaddons>=6.0.0', 'ki18n>=6.0.0', 'libutempter']"
 reverse_depends = "['ark', 'cantor', 'kdesu', 'kio-extras', 'konsole', 'kwrited', 'kwrited5', 'okular', 'qmlkonsole']"
 +++

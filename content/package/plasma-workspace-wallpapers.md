@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-workspace-wallpapers 6.0.3-1"
-version = "6.0.3-1"
+title = "plasma-workspace-wallpapers 6.0.3-3"
+version = "6.0.3-3"
 description = "Additional wallpapers for the Plasma Workspace."
-date = "2024-03-27T09:24:08"
+date = "2024-04-04T23:37:05"
 aliases = "/packages/218404"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "110100808"
+size = "110101588"
 usize = "111232054"
-sha1sum = "bbe48bc02d8cb0e36cfc374f636ba3f1e5926df7"
+sha1sum = "272a7dab4f3bc0fa73358a1f40d849ed54ed9ec3"
 depends = "[]"
 +++
 ### Description: 
