@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libx11 1.8.8-1"
-version = "1.8.8-1"
+title = "lib32-libx11 1.8.9-1"
+version = "1.8.9-1"
 description = "X.Org X11 library ( 32bit )"
-date = "2024-03-27T10:18:27"
+date = "2024-04-06T16:51:56"
 aliases = "/packages/217716"
 categories = ['lib32-extra']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "618272"
+size = "618352"
 usize = "1641447"
-sha1sum = "fbe2a89efb3f45624d880eaeeeadb29afe63169c"
+sha1sum = "57be787b80afb3bd973616cd3fab339894541e04"
 depends = "['lib32-libxau>=1.0.8-8', 'lib32-libxcb>=1.13.1', 'lib32-libxdmcp>=1.1.2-8']"
 reverse_depends = "['lib32-cairo', 'lib32-gdk-pixbuf2', 'lib32-libdmx', 'lib32-libegl', 'lib32-libepoxy', 'lib32-libglvnd', 'lib32-libosmesa', 'lib32-libpulse', 'lib32-libva-mesa-driver', 'lib32-libvdpau', 'lib32-libxcomposite', 'lib32-libxcursor', 'lib32-libxdamage', 'lib32-libxext', 'lib32-libxfixes', 'lib32-libxft', 'lib32-libxi', 'lib32-libxinerama', 'lib32-libxkbfile', 'lib32-libxmu', 'lib32-libxpm', 'lib32-libxrandr', 'lib32-libxrender', 'lib32-libxres', 'lib32-libxscrnsaver', 'lib32-libxt', 'lib32-libxtst', 'lib32-libxv', 'lib32-libxvmc', 'lib32-libxxf86dga', 'lib32-libxxf86vm', 'lib32-mangohud', 'lib32-mesa-libegl', 'lib32-mesa-opemax', 'lib32-mesa-vdpau-drivers', 'lib32-v4l-utils', 'lib32-vulkan-loader-layers']"
 +++
