@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "man-db 2.12.0-3"
-version = "2.12.0-3"
+title = "man-db 2.12.1-1"
+version = "2.12.1-1"
 description = "A utility for reading man pages"
-date = "2024-01-02T12:17:58"
+date = "2024-04-06T10:11:45"
 aliases = "/packages/118506"
 categories = ['base']
 upstreamurl = "http://www.nongnu.org/man-db/"
 arch = "x86_64"
-size = "498012"
-usize = "2149167"
-sha1sum = "1ef8c0ee534f20c53a0f3f447ecfcff3b96b2beb"
+size = "506348"
+usize = "2220391"
+sha1sum = "d917cd9e4d2b13548aeeb24016a63389b0b4815b"
 depends = "['gdbm>=1.15', 'groff>=1.22.3-4', 'less>=481-4', 'libpipeline>=1.4.1-5', 'zlib>=1.2.12']"
 reverse_depends = "['man2html']"
 +++
@@ -33,9 +33,9 @@ A utility for reading man pages
 * /usr/bin/manpath
 * /usr/bin/whatis
 * /usr/lib/man-db/globbing
-* /usr/lib/man-db/libman-2.12.0.so
+* /usr/lib/man-db/libman-2.12.1.so
 * /usr/lib/man-db/libman.so
-* /usr/lib/man-db/libmandb-2.12.0.so
+* /usr/lib/man-db/libmandb-2.12.1.so
 * /usr/lib/man-db/libmandb.so
 * /usr/lib/man-db/manconv
 * /usr/lib/man-db/zsoelim
@@ -43,13 +43,13 @@ A utility for reading man pages
 * /usr/lib/systemd/system/man-db.timer
 * /usr/lib/sysusers.d/man-db.conf
 * /usr/lib/tmpfiles.d/man-db.conf
-* /usr/share/doc/man-db-2.12.0/ChangeLog
-* /usr/share/doc/man-db-2.12.0/COPYING
-* /usr/share/doc/man-db-2.12.0/FAQ
-* /usr/share/doc/man-db-2.12.0/man-db-manual.ps
-* /usr/share/doc/man-db-2.12.0/man-db-manual.txt
-* /usr/share/doc/man-db-2.12.0/README.Frugalware
-* /usr/share/doc/man-db-2.12.0/README.md
+* /usr/share/doc/man-db-2.12.1/ChangeLog
+* /usr/share/doc/man-db-2.12.1/COPYING
+* /usr/share/doc/man-db-2.12.1/FAQ
+* /usr/share/doc/man-db-2.12.1/man-db-manual.ps
+* /usr/share/doc/man-db-2.12.1/man-db-manual.txt
+* /usr/share/doc/man-db-2.12.1/README.Frugalware
+* /usr/share/doc/man-db-2.12.1/README.md
 * /usr/share/locale/af/LC_MESSAGES/man-db-gnulib.mo
 * /usr/share/locale/ast/LC_MESSAGES/man-db.mo
 * /usr/share/locale/be/LC_MESSAGES/man-db-gnulib.mo

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "3896824"
 usize = "4913880"
 sha1sum = "78f6f11928d2f8a971f75c721c0a8490847a4685"
-depends = "['qt6-declarative-static', 'qt6-quick3d', 'qt6-shadertools']"
+depends = "['qt6-quick3d', 'qt6-shadertools']"
 +++
 ### Description: 
 The Qt6 toolkit, qtquickeffectmaker
