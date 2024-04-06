@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nodejs 21.7.1-1"
-version = "21.7.1-1"
+title = "nodejs 21.7.2-1"
+version = "21.7.2-1"
 description = "Evented I/O for V8 javascript"
-date = "2024-03-21T15:50:41"
+date = "2024-04-06T19:24:48"
 aliases = "/packages/153770"
 categories = ['devel-extra']
 upstreamurl = "https://nodejs.org/"
 arch = "x86_64"
-size = "12795840"
-usize = "56566938"
-sha1sum = "5ce26012dd57464c8b718c68336e917fa3f54648"
+size = "12822544"
+usize = "56534170"
+sha1sum = "a101dd9cf6397b159a229afbfba5ba96bb5e58f9"
 depends = "['c-ares', 'icu4c>=74.1', 'nghttp2', 'openssl>=3.1.0', 'python3-setuptools', 'zlib']"
 license = "MIT"
 +++
@@ -2167,6 +2167,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/README.md
 * /usr/share/doc/node/gdbinit
 * /usr/share/doc/node/lldb_commands.py
-* /usr/share/doc/nodejs-21.7.1/LICENSE
-* /usr/share/doc/nodejs-21.7.1/README.md
+* /usr/share/doc/nodejs-21.7.2/LICENSE
+* /usr/share/doc/nodejs-21.7.2/README.md
 * /usr/share/man/man1/node.1.gz
