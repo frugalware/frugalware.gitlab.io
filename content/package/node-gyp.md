@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "node-gyp 10.0.1-1"
-version = "10.0.1-1"
+title = "node-gyp 10.1.0-1"
+version = "10.1.0-1"
 description = "Node.js native addon build tool"
-date = "2023-11-13T09:59:55"
+date = "2024-04-06T18:30:20"
 aliases = "/packages/221182"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/nodejs/node-gyp"
 arch = "x86_64"
-size = "1084020"
-usize = "7589307"
-sha1sum = "daa48aa15af23fa978b2d701a7263d3c2bef968a"
+size = "1132268"
+usize = "7905982"
+sha1sum = "b4d23744e72670eda61c3ba9edbec3d3d953f3ab"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -18,6 +18,7 @@ Node.js native addon build tool
 
 ### Files: 
 * /usr/bin/node-gyp
+* /usr/lib/node_modules/node-gyp/.github/dependabot.yml
 * /usr/lib/node_modules/node-gyp/.github/ISSUE_TEMPLATE.md
 * /usr/lib/node_modules/node-gyp/.github/PULL_REQUEST_TEMPLATE.md
 * /usr/lib/node_modules/node-gyp/.github/scripts/check-engines.js
@@ -25,6 +26,7 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/.github/workflows/tests.yml
 * /usr/lib/node_modules/node-gyp/.github/workflows/visual-studio.yml
 * /usr/lib/node_modules/node-gyp/.npmignore
+* /usr/lib/node_modules/node-gyp/.release-please-manifest.json
 * /usr/lib/node_modules/node-gyp/addon.gypi
 * /usr/lib/node_modules/node-gyp/bin/node-gyp.js
 * /usr/lib/node_modules/node-gyp/CHANGELOG.md
@@ -207,6 +209,7 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/node_modules/agent-base/dist/index.d.ts.map
 * /usr/lib/node_modules/node-gyp/node_modules/agent-base/dist/index.js
 * /usr/lib/node_modules/node-gyp/node_modules/agent-base/dist/index.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/agent-base/LICENSE
 * /usr/lib/node_modules/node-gyp/node_modules/agent-base/package.json
 * /usr/lib/node_modules/node-gyp/node_modules/agent-base/README.md
 * /usr/lib/node_modules/node-gyp/node_modules/aggregate-error/index.d.ts
@@ -500,6 +503,7 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/node_modules/https-proxy-agent/dist/parse-proxy-response.d.ts.map
 * /usr/lib/node_modules/node-gyp/node_modules/https-proxy-agent/dist/parse-proxy-response.js
 * /usr/lib/node_modules/node-gyp/node_modules/https-proxy-agent/dist/parse-proxy-response.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/https-proxy-agent/LICENSE
 * /usr/lib/node_modules/node-gyp/node_modules/https-proxy-agent/package.json
 * /usr/lib/node_modules/node-gyp/node_modules/https-proxy-agent/README.md
 * /usr/lib/node_modules/node-gyp/node_modules/iconv-lite/.github/dependabot.yml
@@ -544,9 +548,54 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/node_modules/indent-string/license
 * /usr/lib/node_modules/node-gyp/node_modules/indent-string/package.json
 * /usr/lib/node_modules/node-gyp/node_modules/indent-string/readme.md
-* /usr/lib/node_modules/node-gyp/node_modules/ip/lib/ip.js
-* /usr/lib/node_modules/node-gyp/node_modules/ip/package.json
-* /usr/lib/node_modules/node-gyp/node_modules/ip/README.md
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/address-error.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/address-error.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/address-error.js
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/address-error.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/common.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/common.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/common.js
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/common.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/ip-address.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/ip-address.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/ip-address.js
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/ip-address.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/ipv4.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/ipv4.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/ipv4.js
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/ipv4.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/ipv6.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/ipv6.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/ipv6.js
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/ipv6.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/v4/constants.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/v4/constants.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/v4/constants.js
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/v4/constants.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/v6/constants.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/v6/constants.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/v6/constants.js
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/v6/constants.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/v6/helpers.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/v6/helpers.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/v6/helpers.js
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/v6/helpers.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/v6/regular-expressions.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/v6/regular-expressions.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/v6/regular-expressions.js
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/dist/v6/regular-expressions.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/LICENSE
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/package.json
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/README.md
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/src/address-error.ts
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/src/common.ts
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/src/ip-address.ts
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/src/ipv4.ts
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/src/ipv6.ts
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/src/v4/constants.ts
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/src/v6/constants.ts
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/src/v6/helpers.ts
+* /usr/lib/node_modules/node-gyp/node_modules/ip-address/src/v6/regular-expressions.ts
 * /usr/lib/node_modules/node-gyp/node_modules/is-fullwidth-code-point/index.d.ts
 * /usr/lib/node_modules/node-gyp/node_modules/is-fullwidth-code-point/index.js
 * /usr/lib/node_modules/node-gyp/node_modules/is-fullwidth-code-point/license
@@ -619,6 +668,15 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/node_modules/jackspeak/LICENSE.md
 * /usr/lib/node_modules/node-gyp/node_modules/jackspeak/package.json
 * /usr/lib/node_modules/node-gyp/node_modules/jackspeak/README.md
+* /usr/lib/node_modules/node-gyp/node_modules/jsbn/.npmignore
+* /usr/lib/node_modules/node-gyp/node_modules/jsbn/CHANGELOG.md
+* /usr/lib/node_modules/node-gyp/node_modules/jsbn/example.html
+* /usr/lib/node_modules/node-gyp/node_modules/jsbn/example.js
+* /usr/lib/node_modules/node-gyp/node_modules/jsbn/index.js
+* /usr/lib/node_modules/node-gyp/node_modules/jsbn/LICENSE
+* /usr/lib/node_modules/node-gyp/node_modules/jsbn/package.json
+* /usr/lib/node_modules/node-gyp/node_modules/jsbn/README.md
+* /usr/lib/node_modules/node-gyp/node_modules/jsbn/test/es6-import.js
 * /usr/lib/node_modules/node-gyp/node_modules/lru-cache/dist/commonjs/index.d.ts
 * /usr/lib/node_modules/node-gyp/node_modules/lru-cache/dist/commonjs/index.d.ts.map
 * /usr/lib/node_modules/node-gyp/node_modules/lru-cache/dist/commonjs/index.js
@@ -645,66 +703,61 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/node_modules/make-fetch-happen/LICENSE
 * /usr/lib/node_modules/node-gyp/node_modules/make-fetch-happen/package.json
 * /usr/lib/node_modules/node-gyp/node_modules/make-fetch-happen/README.md
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/assert-valid-pattern.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/assert-valid-pattern.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/assert-valid-pattern.js
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/assert-valid-pattern.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/ast.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/ast.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/ast.js
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/ast.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/brace-expressions.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/brace-expressions.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/brace-expressions.js
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/brace-expressions.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/escape.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/escape.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/escape.js
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/escape.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/index.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/index.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/index.js
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/index.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/package.json
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/unescape.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/unescape.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/unescape.js
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/cjs/unescape.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/assert-valid-pattern.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/assert-valid-pattern.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/assert-valid-pattern.js
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/assert-valid-pattern.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/ast.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/ast.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/ast.js
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/ast.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/brace-expressions.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/brace-expressions.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/brace-expressions.js
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/brace-expressions.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/escape.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/escape.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/escape.js
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/escape.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/index.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/index.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/index.js
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/index.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/package.json
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/unescape.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/unescape.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/unescape.js
-* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/mjs/unescape.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/assert-valid-pattern.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/assert-valid-pattern.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/assert-valid-pattern.js
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/assert-valid-pattern.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/ast.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/ast.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/ast.js
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/ast.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/brace-expressions.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/brace-expressions.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/brace-expressions.js
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/brace-expressions.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/escape.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/escape.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/escape.js
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/escape.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/index.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/index.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/index.js
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/index.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/package.json
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/unescape.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/unescape.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/unescape.js
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/commonjs/unescape.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/assert-valid-pattern.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/assert-valid-pattern.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/assert-valid-pattern.js
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/assert-valid-pattern.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/ast.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/ast.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/ast.js
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/ast.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/brace-expressions.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/brace-expressions.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/brace-expressions.js
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/brace-expressions.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/escape.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/escape.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/escape.js
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/escape.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/index.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/index.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/index.js
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/index.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/package.json
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/unescape.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/unescape.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/unescape.js
+* /usr/lib/node_modules/node-gyp/node_modules/minimatch/dist/esm/unescape.js.map
 * /usr/lib/node_modules/node-gyp/node_modules/minimatch/LICENSE
 * /usr/lib/node_modules/node-gyp/node_modules/minimatch/package.json
 * /usr/lib/node_modules/node-gyp/node_modules/minimatch/README.md
 * /usr/lib/node_modules/node-gyp/node_modules/minipass-collect/index.js
 * /usr/lib/node_modules/node-gyp/node_modules/minipass-collect/LICENSE
-* /usr/lib/node_modules/node-gyp/node_modules/minipass-collect/node_modules/minipass/index.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/minipass-collect/node_modules/minipass/index.js
-* /usr/lib/node_modules/node-gyp/node_modules/minipass-collect/node_modules/minipass/LICENSE
-* /usr/lib/node_modules/node-gyp/node_modules/minipass-collect/node_modules/minipass/package.json
-* /usr/lib/node_modules/node-gyp/node_modules/minipass-collect/node_modules/minipass/README.md
 * /usr/lib/node_modules/node-gyp/node_modules/minipass-collect/package.json
 * /usr/lib/node_modules/node-gyp/node_modules/minipass-collect/README.md
 * /usr/lib/node_modules/node-gyp/node_modules/minipass-fetch/lib/abort-error.js
@@ -814,16 +867,16 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/node_modules/path-key/license
 * /usr/lib/node_modules/node-gyp/node_modules/path-key/package.json
 * /usr/lib/node_modules/node-gyp/node_modules/path-key/readme.md
-* /usr/lib/node_modules/node-gyp/node_modules/path-scurry/dist/cjs/index.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/path-scurry/dist/cjs/index.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/path-scurry/dist/cjs/index.js
-* /usr/lib/node_modules/node-gyp/node_modules/path-scurry/dist/cjs/index.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/path-scurry/dist/cjs/package.json
-* /usr/lib/node_modules/node-gyp/node_modules/path-scurry/dist/mjs/index.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/path-scurry/dist/mjs/index.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/path-scurry/dist/mjs/index.js
-* /usr/lib/node_modules/node-gyp/node_modules/path-scurry/dist/mjs/index.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/path-scurry/dist/mjs/package.json
+* /usr/lib/node_modules/node-gyp/node_modules/path-scurry/dist/commonjs/index.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/path-scurry/dist/commonjs/index.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/path-scurry/dist/commonjs/index.js
+* /usr/lib/node_modules/node-gyp/node_modules/path-scurry/dist/commonjs/index.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/path-scurry/dist/commonjs/package.json
+* /usr/lib/node_modules/node-gyp/node_modules/path-scurry/dist/esm/index.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/path-scurry/dist/esm/index.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/path-scurry/dist/esm/index.js
+* /usr/lib/node_modules/node-gyp/node_modules/path-scurry/dist/esm/index.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/path-scurry/dist/esm/package.json
 * /usr/lib/node_modules/node-gyp/node_modules/path-scurry/LICENSE.md
 * /usr/lib/node_modules/node-gyp/node_modules/path-scurry/package.json
 * /usr/lib/node_modules/node-gyp/node_modules/path-scurry/README.md
@@ -974,6 +1027,7 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/node_modules/socks-proxy-agent/dist/index.d.ts.map
 * /usr/lib/node_modules/node-gyp/node_modules/socks-proxy-agent/dist/index.js
 * /usr/lib/node_modules/node-gyp/node_modules/socks-proxy-agent/dist/index.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/socks-proxy-agent/LICENSE
 * /usr/lib/node_modules/node-gyp/node_modules/socks-proxy-agent/package.json
 * /usr/lib/node_modules/node-gyp/node_modules/socks-proxy-agent/README.md
 * /usr/lib/node_modules/node-gyp/node_modules/socks/.eslintrc.cjs
@@ -1008,6 +1062,17 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/node_modules/socks/typings/common/receivebuffer.d.ts
 * /usr/lib/node_modules/node-gyp/node_modules/socks/typings/common/util.d.ts
 * /usr/lib/node_modules/node-gyp/node_modules/socks/typings/index.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/sprintf-js/CONTRIBUTORS.md
+* /usr/lib/node_modules/node-gyp/node_modules/sprintf-js/dist/.gitattributes
+* /usr/lib/node_modules/node-gyp/node_modules/sprintf-js/dist/angular-sprintf.min.js
+* /usr/lib/node_modules/node-gyp/node_modules/sprintf-js/dist/angular-sprintf.min.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/sprintf-js/dist/sprintf.min.js
+* /usr/lib/node_modules/node-gyp/node_modules/sprintf-js/dist/sprintf.min.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/sprintf-js/LICENSE
+* /usr/lib/node_modules/node-gyp/node_modules/sprintf-js/package.json
+* /usr/lib/node_modules/node-gyp/node_modules/sprintf-js/README.md
+* /usr/lib/node_modules/node-gyp/node_modules/sprintf-js/src/angular-sprintf.js
+* /usr/lib/node_modules/node-gyp/node_modules/sprintf-js/src/sprintf.js
 * /usr/lib/node_modules/node-gyp/node_modules/ssri/lib/index.js
 * /usr/lib/node_modules/node-gyp/node_modules/ssri/LICENSE.md
 * /usr/lib/node_modules/node-gyp/node_modules/ssri/package.json
@@ -1156,12 +1221,18 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/node_modules/yallist/yallist.js
 * /usr/lib/node_modules/node-gyp/package.json
 * /usr/lib/node_modules/node-gyp/README.md
+* /usr/lib/node_modules/node-gyp/release-please-config.json
 * /usr/lib/node_modules/node-gyp/SECURITY.md
 * /usr/lib/node_modules/node-gyp/src/win_delay_load_hook.cc
 * /usr/lib/node_modules/node-gyp/test/common.js
 * /usr/lib/node_modules/node-gyp/test/fixtures/certs.js
 * /usr/lib/node_modules/node-gyp/test/fixtures/nodedir/include/node/config.gypi
 * /usr/lib/node_modules/node-gyp/test/fixtures/test-charmap.py
+* /usr/lib/node_modules/node-gyp/test/fixtures/VSSetup_VS_2019_Professional_workload.txt
+* /usr/lib/node_modules/node-gyp/test/fixtures/VSSetup_VS_2022_multiple_install.txt
+* /usr/lib/node_modules/node-gyp/test/fixtures/VSSetup_VS_2022_VS2019_workload.txt
+* /usr/lib/node_modules/node-gyp/test/fixtures/VSSetup_VS_2022_workload.txt
+* /usr/lib/node_modules/node-gyp/test/fixtures/VSSetup_VS_2022_workload_missing_sdk.txt
 * /usr/lib/node_modules/node-gyp/test/fixtures/VS_2017_BuildTools_minimal.txt
 * /usr/lib/node_modules/node-gyp/test/fixtures/VS_2017_Community_workload.txt
 * /usr/lib/node_modules/node-gyp/test/fixtures/VS_2017_Express.txt
@@ -1176,6 +1247,7 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/test/node_modules/hello_world/package.json
 * /usr/lib/node_modules/node-gyp/test/simple-proxy.js
 * /usr/lib/node_modules/node-gyp/test/test-addon.js
+* /usr/lib/node_modules/node-gyp/test/test-configure-nodedir.js
 * /usr/lib/node_modules/node-gyp/test/test-configure-python.js
 * /usr/lib/node_modules/node-gyp/test/test-create-config-gypi.js
 * /usr/lib/node_modules/node-gyp/test/test-download.js
@@ -1187,5 +1259,5 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/test/test-options.js
 * /usr/lib/node_modules/node-gyp/test/test-process-release.js
 * /usr/lib/node_modules/node-gyp/update-gyp.py
-* /usr/share/doc/node-gyp-10.0.1/LICENSE
-* /usr/share/doc/node-gyp-10.0.1/README.md
+* /usr/share/doc/node-gyp-10.1.0/LICENSE
+* /usr/share/doc/node-gyp-10.1.0/README.md
