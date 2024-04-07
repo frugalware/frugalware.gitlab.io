@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pulsar 1.112.1-1"
-version = "1.112.1-1"
+title = "pulsar 1.115.0-1"
+version = "1.115.0-1"
 description = "A community-led hyper-hackable text editor, built on electron"
-date = "2023-12-19T10:05:08"
+date = "2024-04-07T13:55:25"
 aliases = "/packages/220902"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/pulsar-edit/pulsar"
 arch = "x86_64"
-size = "148876392"
-usize = "718010433"
-sha1sum = "52703e4ea39027f0448a3922841bae109538d96c"
+size = "157005028"
+usize = "747465681"
+sha1sum = "413207ad6d9c73b12591795c914327dc5f57c4d6"
 depends = "['libsecret', 'libxkbfile', 'ripgrep']"
 +++
 ### Description: 
@@ -89,6 +89,7 @@ A community-led hyper-hackable text editor, built on electron
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/build/lib/git-process.js
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/build/lib/index.js
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/bin/git
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/bin/scalar
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-add
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-add--interactive
@@ -130,6 +131,7 @@ A community-led hyper-hackable text editor, built on electron
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-cvsserver
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-daemon
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-describe
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-diagnose
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-diff
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-diff-files
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-diff-index
@@ -148,11 +150,13 @@ A community-led hyper-hackable text editor, built on electron
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-format-patch
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-fsck
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-fsck-objects
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-fsmonitor--daemon
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-gc
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-get-tar-commit-id
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-grep
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-hash-object
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-help
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-hook
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-http-backend
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-http-fetch
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-http-push
@@ -252,76 +256,81 @@ A community-led hyper-hackable text editor, built on electron
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-verify-commit
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-verify-pack
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-verify-tag
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-version
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-web--browse
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-whatchanged
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-worktree
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/git-write-tree
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-checkout.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-checkout.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-clean.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-clean.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-clone.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-clone.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-config.5
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-config.5.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-dedup.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-dedup.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-env.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-env.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-ext.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-ext.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-fetch.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-fetch.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-filter-process.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-filter-process.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-fsck.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-fsck.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-install.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-install.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-lock.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-lock.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-locks.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-locks.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-logs.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-logs.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-ls-files.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-ls-files.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-migrate.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-migrate.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-pointer.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-pointer.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-post-checkout.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-post-checkout.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-post-commit.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-post-commit.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-post-merge.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-post-merge.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-pre-push.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-pre-push.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-prune.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-prune.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-pull.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-pull.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-push.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-push.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-smudge.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-smudge.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-standalone-file.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-standalone-file.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-status.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-status.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-track.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-track.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-uninstall.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-uninstall.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-unlock.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-unlock.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-untrack.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-untrack.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-update.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs-update.1.html
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs.1
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/git-lfs.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-checkout.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-clean.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-clone.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-config.5.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-dedup.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-env.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-ext.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-faq.7.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-fetch.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-filter-process.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-fsck.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-install.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-lock.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-locks.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-logs.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-ls-files.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-merge-driver.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-migrate.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-pointer.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-post-checkout.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-post-commit.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-post-merge.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-pre-push.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-prune.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-pull.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-push.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-smudge.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-standalone-file.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-status.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-track.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-uninstall.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-unlock.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-untrack.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs-update.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/html/git-lfs.1.html
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-checkout.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-clean.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-clone.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-dedup.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-env.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-ext.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-fetch.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-filter-process.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-fsck.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-install.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-lock.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-locks.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-logs.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-ls-files.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-merge-driver.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-migrate.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-pointer.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-post-checkout.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-post-commit.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-post-merge.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-pre-push.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-prune.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-pull.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-push.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-smudge.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-standalone-file.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-status.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-track.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-uninstall.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-unlock.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-untrack.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs-update.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man1/git-lfs.1
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man5/git-lfs-config.5
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/man/man7/git-lfs-faq.7
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/mergetools/araxis
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/mergetools/bc
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/mergetools/codecompare
@@ -345,6 +354,7 @@ A community-led hyper-hackable text editor, built on electron
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/mergetools/vimdiff
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/mergetools/winmerge
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/mergetools/xxdiff
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/libexec/git-core/scalar
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/share/git-core/templates/description
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/share/git-core/templates/hooks/applypatch-msg.sample
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/dugite/git/share/git-core/templates/hooks/commit-msg.sample
@@ -511,25 +521,17 @@ A community-led hyper-hackable text editor, built on electron
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/spellchecker/vendor/hunspell_dictionaries/en_US.aff
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/spellchecker/vendor/hunspell_dictionaries/en_US.dic
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/spellchecker/vendor/hunspell_dictionaries/README.txt
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbols-view/.eslintrc.js
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbols-view/keymaps/symbols-view.cson
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbols-view/lib/ctags-config
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbols-view/lib/file-view.js
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbols-view/lib/get-tags-file.js
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbols-view/lib/go-back-view.js
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbols-view/lib/go-to-view.js
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbols-view/lib/load-tags-handler.js
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbols-view/lib/main.js
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbols-view/lib/project-view.js
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbols-view/lib/symbols-view.js
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbols-view/lib/tag-generator.js
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbols-view/lib/tag-reader.js
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbols-view/LICENSE.md
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbols-view/menus/symbols-view.cson
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbols-view/package.json
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbols-view/styles/symbols-view.less
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbols-view/vendor/ctags-darwin
-* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbols-view/vendor/ctags-linux
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbol-provider-ctags/.eslintrc.js
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbol-provider-ctags/lib/ctags-config
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbol-provider-ctags/lib/ctags-provider.js
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbol-provider-ctags/lib/get-tags-file.js
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbol-provider-ctags/lib/load-tags-handler.js
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbol-provider-ctags/lib/main.js
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbol-provider-ctags/lib/tag-reader.js
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbol-provider-ctags/LICENSE.md
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbol-provider-ctags/package.json
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbol-provider-ctags/vendor/ctags-darwin
+* /opt/Pulsar/resources/app.asar.unpacked/node_modules/symbol-provider-ctags/vendor/ctags-linux
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/tree-sitter-bash/.gitmodules
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/tree-sitter-bash/bindings/node/index.js
 * /opt/Pulsar/resources/app.asar.unpacked/node_modules/tree-sitter-bash/bindings/rust/build.rs
@@ -11531,8 +11533,8 @@ A community-led hyper-hackable text editor, built on electron
 * /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/generator/xcode.py
 * /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/generator/xcode_test.py
 * /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/generator/__init__.py
-* /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/generator/__pycache__/make.cpython-312.pyc
-* /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/generator/__pycache__/__init__.cpython-312.pyc
+* /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/generator/__pycache__/make.cpython-37.pyc
+* /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/generator/__pycache__/__init__.cpython-37.pyc
 * /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/input.py
 * /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/input_test.py
 * /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/mac_tool.py
@@ -11553,11 +11555,11 @@ A community-led hyper-hackable text editor, built on electron
 * /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/xcode_ninja.py
 * /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/xml_fix.py
 * /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/__init__.py
-* /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/__pycache__/common.cpython-312.pyc
-* /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/__pycache__/input.cpython-312.pyc
-* /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/__pycache__/simple_copy.cpython-312.pyc
-* /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/__pycache__/xcode_emulation.cpython-312.pyc
-* /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/__pycache__/__init__.cpython-312.pyc
+* /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/__pycache__/common.cpython-37.pyc
+* /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/__pycache__/input.cpython-37.pyc
+* /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/__pycache__/simple_copy.cpython-37.pyc
+* /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/__pycache__/xcode_emulation.cpython-37.pyc
+* /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/__pycache__/__init__.cpython-37.pyc
 * /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/pyproject.toml
 * /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/README.md
 * /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/node-gyp/gyp/test_gyp.py

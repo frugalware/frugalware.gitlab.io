@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "obs-studio 30.0.2-4"
-version = "30.0.2-4"
+title = "obs-studio 30.1.2-1"
+version = "30.1.2-1"
 description = "Free, open source software for live streaming and recording"
-date = "2024-04-05T13:42:57"
+date = "2024-04-07T13:07:32"
 aliases = "/packages/219145"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/obsproject/obs-studio"
 arch = "x86_64"
-size = "5726056"
-usize = "22884705"
-sha1sum = "d00f06c8d02b44a61e4bf003546f70429bd925b1"
+size = "5851632"
+usize = "23728756"
+sha1sum = "5cdf82ea7e4b1d4e4cf2506f6284fba13b3717a8"
 depends = "['asio', 'curl', 'fdk-aac', 'fdk-aac', 'ffmpeg>=6.0', 'gtk+3', 'jansson', 'libxcomposite', 'libxinerama', 'libxkbcommon', 'luajit2', 'mbedtls>=2.27.0', 'pipewire', 'python3>=3.12', 'qt6-svg', 'vlc', 'websocketpp', 'x264>=20230712.ga8b68eb']"
 reverse_depends = "['obs-v4l2sink']"
 +++
@@ -59,6 +59,7 @@ Free, open source software for live streaming and recording
 * /usr/include/obs/media-io/video-io.h
 * /usr/include/obs/media-io/video-scaler.h
 * /usr/include/obs/obs-audio-controls.h
+* /usr/include/obs/obs-av1.h
 * /usr/include/obs/obs-avc.h
 * /usr/include/obs/obs-config.h
 * /usr/include/obs/obs-data.h
@@ -83,12 +84,10 @@ Free, open source software for live streaming and recording
 * /usr/include/obs/obs-scene.h
 * /usr/include/obs/obs-service.h
 * /usr/include/obs/obs-source.h
-* /usr/include/obs/obs-ui.h
 * /usr/include/obs/obs.h
 * /usr/include/obs/obs.hpp
 * /usr/include/obs/obsconfig.h
 * /usr/include/obs/obsversion.h
-* /usr/include/obs/util/AlignedNew.hpp
 * /usr/include/obs/util/array-serializer.h
 * /usr/include/obs/util/base.h
 * /usr/include/obs/util/bitstream.h
@@ -101,6 +100,7 @@ Free, open source software for live streaming and recording
 * /usr/include/obs/util/crc32.h
 * /usr/include/obs/util/curl/curl-helper.h
 * /usr/include/obs/util/darray.h
+* /usr/include/obs/util/deque.h
 * /usr/include/obs/util/dstr.h
 * /usr/include/obs/util/dstr.hpp
 * /usr/include/obs/util/file-serializer.h
@@ -179,15 +179,15 @@ Free, open source software for live streaming and recording
 * /usr/lib/obs-scripting/_obspython.so
 * /usr/lib/pkgconfig/libobs.pc
 * /usr/share/applications/com.obsproject.Studio.desktop
-* /usr/share/doc/obs-studio-30.0.2/AUTHORS
-* /usr/share/doc/obs-studio-30.0.2/COPYING
-* /usr/share/doc/obs-studio-30.0.2/INSTALL
-* /usr/share/doc/obs-studio-30.0.2/README.rst
+* /usr/share/doc/obs-studio-30.1.2/AUTHORS
+* /usr/share/doc/obs-studio-30.1.2/COPYING
+* /usr/share/doc/obs-studio-30.1.2/INSTALL
+* /usr/share/doc/obs-studio-30.1.2/README.rst
 * /usr/share/icons/hicolor/128x128/apps/com.obsproject.Studio.png
 * /usr/share/icons/hicolor/256x256/apps/com.obsproject.Studio.png
 * /usr/share/icons/hicolor/512x512/apps/com.obsproject.Studio.png
 * /usr/share/icons/hicolor/scalable/apps/com.obsproject.Studio.svg
-* /usr/share/metainfo/com.obsproject.Studio.appdata.xml
+* /usr/share/metainfo/com.obsproject.Studio.metainfo.xml
 * /usr/share/obs/libobs/area.effect
 * /usr/share/obs/libobs/bicubic_scale.effect
 * /usr/share/obs/libobs/bilinear_lowres_scale.effect
@@ -216,6 +216,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/decklink/locale/ar-SA.ini
 * /usr/share/obs/obs-plugins/decklink/locale/az-AZ.ini
 * /usr/share/obs/obs-plugins/decklink/locale/ba-RU.ini
+* /usr/share/obs/obs-plugins/decklink/locale/be-BY.ini
 * /usr/share/obs/obs-plugins/decklink/locale/bg-BG.ini
 * /usr/share/obs/obs-plugins/decklink/locale/bn-BD.ini
 * /usr/share/obs/obs-plugins/decklink/locale/ca-ES.ini
@@ -244,6 +245,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/decklink/locale/it-IT.ini
 * /usr/share/obs/obs-plugins/decklink/locale/ja-JP.ini
 * /usr/share/obs/obs-plugins/decklink/locale/ka-GE.ini
+* /usr/share/obs/obs-plugins/decklink/locale/kaa.ini
 * /usr/share/obs/obs-plugins/decklink/locale/kab-KAB.ini
 * /usr/share/obs/obs-plugins/decklink/locale/kmr-TR.ini
 * /usr/share/obs/obs-plugins/decklink/locale/ko-KR.ini
@@ -270,6 +272,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/decklink/locale/th-TH.ini
 * /usr/share/obs/obs-plugins/decklink/locale/tl-PH.ini
 * /usr/share/obs/obs-plugins/decklink/locale/tr-TR.ini
+* /usr/share/obs/obs-plugins/decklink/locale/ug-CN.ini
 * /usr/share/obs/obs-plugins/decklink/locale/uk-UA.ini
 * /usr/share/obs/obs-plugins/decklink/locale/ur-PK.ini
 * /usr/share/obs/obs-plugins/decklink/locale/vi-VN.ini
@@ -310,6 +313,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/frontend-tools/locale/it-IT.ini
 * /usr/share/obs/obs-plugins/frontend-tools/locale/ja-JP.ini
 * /usr/share/obs/obs-plugins/frontend-tools/locale/ka-GE.ini
+* /usr/share/obs/obs-plugins/frontend-tools/locale/kaa.ini
 * /usr/share/obs/obs-plugins/frontend-tools/locale/kab-KAB.ini
 * /usr/share/obs/obs-plugins/frontend-tools/locale/kmr-TR.ini
 * /usr/share/obs/obs-plugins/frontend-tools/locale/ko-KR.ini
@@ -338,6 +342,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/frontend-tools/locale/th-TH.ini
 * /usr/share/obs/obs-plugins/frontend-tools/locale/tl-PH.ini
 * /usr/share/obs/obs-plugins/frontend-tools/locale/tr-TR.ini
+* /usr/share/obs/obs-plugins/frontend-tools/locale/ug-CN.ini
 * /usr/share/obs/obs-plugins/frontend-tools/locale/uk-UA.ini
 * /usr/share/obs/obs-plugins/frontend-tools/locale/vi-VN.ini
 * /usr/share/obs/obs-plugins/frontend-tools/locale/zh-CN.ini
@@ -383,6 +388,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/image-source/locale/it-IT.ini
 * /usr/share/obs/obs-plugins/image-source/locale/ja-JP.ini
 * /usr/share/obs/obs-plugins/image-source/locale/ka-GE.ini
+* /usr/share/obs/obs-plugins/image-source/locale/kaa.ini
 * /usr/share/obs/obs-plugins/image-source/locale/kab-KAB.ini
 * /usr/share/obs/obs-plugins/image-source/locale/kmr-TR.ini
 * /usr/share/obs/obs-plugins/image-source/locale/ko-KR.ini
@@ -410,6 +416,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/image-source/locale/th-TH.ini
 * /usr/share/obs/obs-plugins/image-source/locale/tl-PH.ini
 * /usr/share/obs/obs-plugins/image-source/locale/tr-TR.ini
+* /usr/share/obs/obs-plugins/image-source/locale/ug-CN.ini
 * /usr/share/obs/obs-plugins/image-source/locale/uk-UA.ini
 * /usr/share/obs/obs-plugins/image-source/locale/ur-PK.ini
 * /usr/share/obs/obs-plugins/image-source/locale/vi-VN.ini
@@ -449,6 +456,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/linux-alsa/locale/it-IT.ini
 * /usr/share/obs/obs-plugins/linux-alsa/locale/ja-JP.ini
 * /usr/share/obs/obs-plugins/linux-alsa/locale/ka-GE.ini
+* /usr/share/obs/obs-plugins/linux-alsa/locale/kaa.ini
 * /usr/share/obs/obs-plugins/linux-alsa/locale/kab-KAB.ini
 * /usr/share/obs/obs-plugins/linux-alsa/locale/kmr-TR.ini
 * /usr/share/obs/obs-plugins/linux-alsa/locale/ko-KR.ini
@@ -473,6 +481,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/linux-alsa/locale/th-TH.ini
 * /usr/share/obs/obs-plugins/linux-alsa/locale/tl-PH.ini
 * /usr/share/obs/obs-plugins/linux-alsa/locale/tr-TR.ini
+* /usr/share/obs/obs-plugins/linux-alsa/locale/ug-CN.ini
 * /usr/share/obs/obs-plugins/linux-alsa/locale/uk-UA.ini
 * /usr/share/obs/obs-plugins/linux-alsa/locale/ur-PK.ini
 * /usr/share/obs/obs-plugins/linux-alsa/locale/vi-VN.ini
@@ -510,6 +519,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/linux-capture/locale/it-IT.ini
 * /usr/share/obs/obs-plugins/linux-capture/locale/ja-JP.ini
 * /usr/share/obs/obs-plugins/linux-capture/locale/ka-GE.ini
+* /usr/share/obs/obs-plugins/linux-capture/locale/kaa.ini
 * /usr/share/obs/obs-plugins/linux-capture/locale/kab-KAB.ini
 * /usr/share/obs/obs-plugins/linux-capture/locale/kmr-TR.ini
 * /usr/share/obs/obs-plugins/linux-capture/locale/ko-KR.ini
@@ -533,6 +543,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/linux-capture/locale/ta-IN.ini
 * /usr/share/obs/obs-plugins/linux-capture/locale/tl-PH.ini
 * /usr/share/obs/obs-plugins/linux-capture/locale/tr-TR.ini
+* /usr/share/obs/obs-plugins/linux-capture/locale/ug-CN.ini
 * /usr/share/obs/obs-plugins/linux-capture/locale/uk-UA.ini
 * /usr/share/obs/obs-plugins/linux-capture/locale/vi-VN.ini
 * /usr/share/obs/obs-plugins/linux-capture/locale/zh-CN.ini
@@ -565,6 +576,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/linux-pipewire/locale/it-IT.ini
 * /usr/share/obs/obs-plugins/linux-pipewire/locale/ja-JP.ini
 * /usr/share/obs/obs-plugins/linux-pipewire/locale/ka-GE.ini
+* /usr/share/obs/obs-plugins/linux-pipewire/locale/kaa.ini
 * /usr/share/obs/obs-plugins/linux-pipewire/locale/kmr-TR.ini
 * /usr/share/obs/obs-plugins/linux-pipewire/locale/ko-KR.ini
 * /usr/share/obs/obs-plugins/linux-pipewire/locale/ms-MY.ini
@@ -581,6 +593,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/linux-pipewire/locale/sv-SE.ini
 * /usr/share/obs/obs-plugins/linux-pipewire/locale/ta-IN.ini
 * /usr/share/obs/obs-plugins/linux-pipewire/locale/tr-TR.ini
+* /usr/share/obs/obs-plugins/linux-pipewire/locale/ug-CN.ini
 * /usr/share/obs/obs-plugins/linux-pipewire/locale/uk-UA.ini
 * /usr/share/obs/obs-plugins/linux-pipewire/locale/vi-VN.ini
 * /usr/share/obs/obs-plugins/linux-pipewire/locale/zh-CN.ini
@@ -618,6 +631,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/linux-pulseaudio/locale/it-IT.ini
 * /usr/share/obs/obs-plugins/linux-pulseaudio/locale/ja-JP.ini
 * /usr/share/obs/obs-plugins/linux-pulseaudio/locale/ka-GE.ini
+* /usr/share/obs/obs-plugins/linux-pulseaudio/locale/kaa.ini
 * /usr/share/obs/obs-plugins/linux-pulseaudio/locale/kab-KAB.ini
 * /usr/share/obs/obs-plugins/linux-pulseaudio/locale/kmr-TR.ini
 * /usr/share/obs/obs-plugins/linux-pulseaudio/locale/ko-KR.ini
@@ -641,6 +655,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/linux-pulseaudio/locale/ta-IN.ini
 * /usr/share/obs/obs-plugins/linux-pulseaudio/locale/th-TH.ini
 * /usr/share/obs/obs-plugins/linux-pulseaudio/locale/tr-TR.ini
+* /usr/share/obs/obs-plugins/linux-pulseaudio/locale/ug-CN.ini
 * /usr/share/obs/obs-plugins/linux-pulseaudio/locale/uk-UA.ini
 * /usr/share/obs/obs-plugins/linux-pulseaudio/locale/ur-PK.ini
 * /usr/share/obs/obs-plugins/linux-pulseaudio/locale/vi-VN.ini
@@ -678,6 +693,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/linux-v4l2/locale/it-IT.ini
 * /usr/share/obs/obs-plugins/linux-v4l2/locale/ja-JP.ini
 * /usr/share/obs/obs-plugins/linux-v4l2/locale/ka-GE.ini
+* /usr/share/obs/obs-plugins/linux-v4l2/locale/kaa.ini
 * /usr/share/obs/obs-plugins/linux-v4l2/locale/kab-KAB.ini
 * /usr/share/obs/obs-plugins/linux-v4l2/locale/kmr-TR.ini
 * /usr/share/obs/obs-plugins/linux-v4l2/locale/ko-KR.ini
@@ -701,6 +717,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/linux-v4l2/locale/ta-IN.ini
 * /usr/share/obs/obs-plugins/linux-v4l2/locale/tl-PH.ini
 * /usr/share/obs/obs-plugins/linux-v4l2/locale/tr-TR.ini
+* /usr/share/obs/obs-plugins/linux-v4l2/locale/ug-CN.ini
 * /usr/share/obs/obs-plugins/linux-v4l2/locale/uk-UA.ini
 * /usr/share/obs/obs-plugins/linux-v4l2/locale/ur-PK.ini
 * /usr/share/obs/obs-plugins/linux-v4l2/locale/vi-VN.ini
@@ -709,6 +726,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-ffmpeg/locale/af-ZA.ini
 * /usr/share/obs/obs-plugins/obs-ffmpeg/locale/ar-SA.ini
 * /usr/share/obs/obs-plugins/obs-ffmpeg/locale/ba-RU.ini
+* /usr/share/obs/obs-plugins/obs-ffmpeg/locale/be-BY.ini
 * /usr/share/obs/obs-plugins/obs-ffmpeg/locale/bg-BG.ini
 * /usr/share/obs/obs-plugins/obs-ffmpeg/locale/bn-BD.ini
 * /usr/share/obs/obs-plugins/obs-ffmpeg/locale/ca-ES.ini
@@ -737,6 +755,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-ffmpeg/locale/it-IT.ini
 * /usr/share/obs/obs-plugins/obs-ffmpeg/locale/ja-JP.ini
 * /usr/share/obs/obs-plugins/obs-ffmpeg/locale/ka-GE.ini
+* /usr/share/obs/obs-plugins/obs-ffmpeg/locale/kaa.ini
 * /usr/share/obs/obs-plugins/obs-ffmpeg/locale/kab-KAB.ini
 * /usr/share/obs/obs-plugins/obs-ffmpeg/locale/kmr-TR.ini
 * /usr/share/obs/obs-plugins/obs-ffmpeg/locale/ko-KR.ini
@@ -761,6 +780,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-ffmpeg/locale/th-TH.ini
 * /usr/share/obs/obs-plugins/obs-ffmpeg/locale/tl-PH.ini
 * /usr/share/obs/obs-plugins/obs-ffmpeg/locale/tr-TR.ini
+* /usr/share/obs/obs-plugins/obs-ffmpeg/locale/ug-CN.ini
 * /usr/share/obs/obs-plugins/obs-ffmpeg/locale/uk-UA.ini
 * /usr/share/obs/obs-plugins/obs-ffmpeg/locale/ur-PK.ini
 * /usr/share/obs/obs-plugins/obs-ffmpeg/locale/vi-VN.ini
@@ -811,6 +831,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-filters/locale/it-IT.ini
 * /usr/share/obs/obs-plugins/obs-filters/locale/ja-JP.ini
 * /usr/share/obs/obs-plugins/obs-filters/locale/ka-GE.ini
+* /usr/share/obs/obs-plugins/obs-filters/locale/kaa.ini
 * /usr/share/obs/obs-plugins/obs-filters/locale/kab-KAB.ini
 * /usr/share/obs/obs-plugins/obs-filters/locale/kmr-TR.ini
 * /usr/share/obs/obs-plugins/obs-filters/locale/ko-KR.ini
@@ -834,6 +855,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-filters/locale/th-TH.ini
 * /usr/share/obs/obs-plugins/obs-filters/locale/tl-PH.ini
 * /usr/share/obs/obs-plugins/obs-filters/locale/tr-TR.ini
+* /usr/share/obs/obs-plugins/obs-filters/locale/ug-CN.ini
 * /usr/share/obs/obs-plugins/obs-filters/locale/uk-UA.ini
 * /usr/share/obs/obs-plugins/obs-filters/locale/vi-VN.ini
 * /usr/share/obs/obs-plugins/obs-filters/locale/zh-CN.ini
@@ -856,6 +878,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-outputs/locale/af-ZA.ini
 * /usr/share/obs/obs-plugins/obs-outputs/locale/ar-SA.ini
 * /usr/share/obs/obs-plugins/obs-outputs/locale/ba-RU.ini
+* /usr/share/obs/obs-plugins/obs-outputs/locale/be-BY.ini
 * /usr/share/obs/obs-plugins/obs-outputs/locale/bg-BG.ini
 * /usr/share/obs/obs-plugins/obs-outputs/locale/bn-BD.ini
 * /usr/share/obs/obs-plugins/obs-outputs/locale/ca-ES.ini
@@ -884,6 +907,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-outputs/locale/it-IT.ini
 * /usr/share/obs/obs-plugins/obs-outputs/locale/ja-JP.ini
 * /usr/share/obs/obs-plugins/obs-outputs/locale/ka-GE.ini
+* /usr/share/obs/obs-plugins/obs-outputs/locale/kaa.ini
 * /usr/share/obs/obs-plugins/obs-outputs/locale/kab-KAB.ini
 * /usr/share/obs/obs-plugins/obs-outputs/locale/kmr-TR.ini
 * /usr/share/obs/obs-plugins/obs-outputs/locale/ko-KR.ini
@@ -908,6 +932,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-outputs/locale/th-TH.ini
 * /usr/share/obs/obs-plugins/obs-outputs/locale/tl-PH.ini
 * /usr/share/obs/obs-plugins/obs-outputs/locale/tr-TR.ini
+* /usr/share/obs/obs-plugins/obs-outputs/locale/ug-CN.ini
 * /usr/share/obs/obs-plugins/obs-outputs/locale/uk-UA.ini
 * /usr/share/obs/obs-plugins/obs-outputs/locale/ur-PK.ini
 * /usr/share/obs/obs-plugins/obs-outputs/locale/vi-VN.ini
@@ -916,6 +941,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-qsv11/locale/af-ZA.ini
 * /usr/share/obs/obs-plugins/obs-qsv11/locale/ar-SA.ini
 * /usr/share/obs/obs-plugins/obs-qsv11/locale/ba-RU.ini
+* /usr/share/obs/obs-plugins/obs-qsv11/locale/be-BY.ini
 * /usr/share/obs/obs-plugins/obs-qsv11/locale/bg-BG.ini
 * /usr/share/obs/obs-plugins/obs-qsv11/locale/bn-BD.ini
 * /usr/share/obs/obs-plugins/obs-qsv11/locale/ca-ES.ini
@@ -944,6 +970,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-qsv11/locale/it-IT.ini
 * /usr/share/obs/obs-plugins/obs-qsv11/locale/ja-JP.ini
 * /usr/share/obs/obs-plugins/obs-qsv11/locale/ka-GE.ini
+* /usr/share/obs/obs-plugins/obs-qsv11/locale/kaa.ini
 * /usr/share/obs/obs-plugins/obs-qsv11/locale/kab-KAB.ini
 * /usr/share/obs/obs-plugins/obs-qsv11/locale/kmr-TR.ini
 * /usr/share/obs/obs-plugins/obs-qsv11/locale/ko-KR.ini
@@ -967,6 +994,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-qsv11/locale/th-TH.ini
 * /usr/share/obs/obs-plugins/obs-qsv11/locale/tl-PH.ini
 * /usr/share/obs/obs-plugins/obs-qsv11/locale/tr-TR.ini
+* /usr/share/obs/obs-plugins/obs-qsv11/locale/ug-CN.ini
 * /usr/share/obs/obs-plugins/obs-qsv11/locale/uk-UA.ini
 * /usr/share/obs/obs-plugins/obs-qsv11/locale/vi-VN.ini
 * /usr/share/obs/obs-plugins/obs-qsv11/locale/zh-CN.ini
@@ -976,6 +1004,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-transitions/locale/af-ZA.ini
 * /usr/share/obs/obs-plugins/obs-transitions/locale/ar-SA.ini
 * /usr/share/obs/obs-plugins/obs-transitions/locale/ba-RU.ini
+* /usr/share/obs/obs-plugins/obs-transitions/locale/be-BY.ini
 * /usr/share/obs/obs-plugins/obs-transitions/locale/bg-BG.ini
 * /usr/share/obs/obs-plugins/obs-transitions/locale/bn-BD.ini
 * /usr/share/obs/obs-plugins/obs-transitions/locale/ca-ES.ini
@@ -1004,6 +1033,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-transitions/locale/it-IT.ini
 * /usr/share/obs/obs-plugins/obs-transitions/locale/ja-JP.ini
 * /usr/share/obs/obs-plugins/obs-transitions/locale/ka-GE.ini
+* /usr/share/obs/obs-plugins/obs-transitions/locale/kaa.ini
 * /usr/share/obs/obs-plugins/obs-transitions/locale/kab-KAB.ini
 * /usr/share/obs/obs-plugins/obs-transitions/locale/kmr-TR.ini
 * /usr/share/obs/obs-plugins/obs-transitions/locale/ko-KR.ini
@@ -1025,6 +1055,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-transitions/locale/ta-IN.ini
 * /usr/share/obs/obs-plugins/obs-transitions/locale/tl-PH.ini
 * /usr/share/obs/obs-plugins/obs-transitions/locale/tr-TR.ini
+* /usr/share/obs/obs-plugins/obs-transitions/locale/ug-CN.ini
 * /usr/share/obs/obs-plugins/obs-transitions/locale/uk-UA.ini
 * /usr/share/obs/obs-plugins/obs-transitions/locale/vi-VN.ini
 * /usr/share/obs/obs-plugins/obs-transitions/locale/zh-CN.ini
@@ -1098,6 +1129,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-vst/locale/it-IT.ini
 * /usr/share/obs/obs-plugins/obs-vst/locale/ja-JP.ini
 * /usr/share/obs/obs-plugins/obs-vst/locale/ka-GE.ini
+* /usr/share/obs/obs-plugins/obs-vst/locale/kaa.ini
 * /usr/share/obs/obs-plugins/obs-vst/locale/kab-KAB.ini
 * /usr/share/obs/obs-plugins/obs-vst/locale/kmr-TR.ini
 * /usr/share/obs/obs-plugins/obs-vst/locale/ko-KR.ini
@@ -1118,6 +1150,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-vst/locale/szl-PL.ini
 * /usr/share/obs/obs-plugins/obs-vst/locale/tl-PH.ini
 * /usr/share/obs/obs-plugins/obs-vst/locale/tr-TR.ini
+* /usr/share/obs/obs-plugins/obs-vst/locale/ug-CN.ini
 * /usr/share/obs/obs-plugins/obs-vst/locale/uk-UA.ini
 * /usr/share/obs/obs-plugins/obs-vst/locale/vi-VN.ini
 * /usr/share/obs/obs-plugins/obs-vst/locale/zh-CN.ini
@@ -1154,6 +1187,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-x264/locale/it-IT.ini
 * /usr/share/obs/obs-plugins/obs-x264/locale/ja-JP.ini
 * /usr/share/obs/obs-plugins/obs-x264/locale/ka-GE.ini
+* /usr/share/obs/obs-plugins/obs-x264/locale/kaa.ini
 * /usr/share/obs/obs-plugins/obs-x264/locale/kab-KAB.ini
 * /usr/share/obs/obs-plugins/obs-x264/locale/kmr-TR.ini
 * /usr/share/obs/obs-plugins/obs-x264/locale/ko-KR.ini
@@ -1180,6 +1214,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-x264/locale/th-TH.ini
 * /usr/share/obs/obs-plugins/obs-x264/locale/tl-PH.ini
 * /usr/share/obs/obs-plugins/obs-x264/locale/tr-TR.ini
+* /usr/share/obs/obs-plugins/obs-x264/locale/ug-CN.ini
 * /usr/share/obs/obs-plugins/obs-x264/locale/uk-UA.ini
 * /usr/share/obs/obs-plugins/obs-x264/locale/ur-PK.ini
 * /usr/share/obs/obs-plugins/obs-x264/locale/vi-VN.ini
@@ -1217,6 +1252,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/rtmp-services/locale/it-IT.ini
 * /usr/share/obs/obs-plugins/rtmp-services/locale/ja-JP.ini
 * /usr/share/obs/obs-plugins/rtmp-services/locale/ka-GE.ini
+* /usr/share/obs/obs-plugins/rtmp-services/locale/kaa.ini
 * /usr/share/obs/obs-plugins/rtmp-services/locale/kab-KAB.ini
 * /usr/share/obs/obs-plugins/rtmp-services/locale/kmr-TR.ini
 * /usr/share/obs/obs-plugins/rtmp-services/locale/ko-KR.ini
@@ -1241,6 +1277,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/rtmp-services/locale/th-TH.ini
 * /usr/share/obs/obs-plugins/rtmp-services/locale/tl-PH.ini
 * /usr/share/obs/obs-plugins/rtmp-services/locale/tr-TR.ini
+* /usr/share/obs/obs-plugins/rtmp-services/locale/ug-CN.ini
 * /usr/share/obs/obs-plugins/rtmp-services/locale/uk-UA.ini
 * /usr/share/obs/obs-plugins/rtmp-services/locale/ur-PK.ini
 * /usr/share/obs/obs-plugins/rtmp-services/locale/vi-VN.ini
@@ -1282,6 +1319,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/text-freetype2/locale/it-IT.ini
 * /usr/share/obs/obs-plugins/text-freetype2/locale/ja-JP.ini
 * /usr/share/obs/obs-plugins/text-freetype2/locale/ka-GE.ini
+* /usr/share/obs/obs-plugins/text-freetype2/locale/kaa.ini
 * /usr/share/obs/obs-plugins/text-freetype2/locale/kab-KAB.ini
 * /usr/share/obs/obs-plugins/text-freetype2/locale/kmr-TR.ini
 * /usr/share/obs/obs-plugins/text-freetype2/locale/ko-KR.ini
@@ -1306,6 +1344,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/text-freetype2/locale/th-TH.ini
 * /usr/share/obs/obs-plugins/text-freetype2/locale/tl-PH.ini
 * /usr/share/obs/obs-plugins/text-freetype2/locale/tr-TR.ini
+* /usr/share/obs/obs-plugins/text-freetype2/locale/ug-CN.ini
 * /usr/share/obs/obs-plugins/text-freetype2/locale/uk-UA.ini
 * /usr/share/obs/obs-plugins/text-freetype2/locale/vi-VN.ini
 * /usr/share/obs/obs-plugins/text-freetype2/locale/zh-CN.ini
@@ -1342,6 +1381,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/vlc-video/locale/it-IT.ini
 * /usr/share/obs/obs-plugins/vlc-video/locale/ja-JP.ini
 * /usr/share/obs/obs-plugins/vlc-video/locale/ka-GE.ini
+* /usr/share/obs/obs-plugins/vlc-video/locale/kaa.ini
 * /usr/share/obs/obs-plugins/vlc-video/locale/kab-KAB.ini
 * /usr/share/obs/obs-plugins/vlc-video/locale/kmr-TR.ini
 * /usr/share/obs/obs-plugins/vlc-video/locale/ko-KR.ini
@@ -1366,6 +1406,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/vlc-video/locale/ta-IN.ini
 * /usr/share/obs/obs-plugins/vlc-video/locale/tl-PH.ini
 * /usr/share/obs/obs-plugins/vlc-video/locale/tr-TR.ini
+* /usr/share/obs/obs-plugins/vlc-video/locale/ug-CN.ini
 * /usr/share/obs/obs-plugins/vlc-video/locale/uk-UA.ini
 * /usr/share/obs/obs-plugins/vlc-video/locale/vi-VN.ini
 * /usr/share/obs/obs-plugins/vlc-video/locale/zh-CN.ini
@@ -1410,6 +1451,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-studio/locale/it-IT.ini
 * /usr/share/obs/obs-studio/locale/ja-JP.ini
 * /usr/share/obs/obs-studio/locale/ka-GE.ini
+* /usr/share/obs/obs-studio/locale/kaa.ini
 * /usr/share/obs/obs-studio/locale/kab-KAB.ini
 * /usr/share/obs/obs-studio/locale/kmr-TR.ini
 * /usr/share/obs/obs-studio/locale/ko-KR.ini
@@ -1441,6 +1483,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-studio/locale/th-TH.ini
 * /usr/share/obs/obs-studio/locale/tl-PH.ini
 * /usr/share/obs/obs-studio/locale/tr-TR.ini
+* /usr/share/obs/obs-studio/locale/ug-CN.ini
 * /usr/share/obs/obs-studio/locale/uk-UA.ini
 * /usr/share/obs/obs-studio/locale/ur-PK.ini
 * /usr/share/obs/obs-studio/locale/vi-VN.ini
