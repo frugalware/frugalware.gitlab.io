@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "31900"
 usize = "59312"
 sha1sum = "ed1df2d08c697b91c7167df2be2ce0344f470c30"
-depends = "['gst1-plugins-base>=1.24.0', 'gst1-plugins-good>=1.24.0', 'libffi>=3.2.1-2']"
+depends = "['gst1-plugins-base>=1.24.1', 'gst1-plugins-good>=1.24.1', 'libffi>=3.2.1-2']"
 +++
 ### Description: 
 GStreamer videobox plugin (Good).

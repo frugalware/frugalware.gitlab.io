@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "22404"
 usize = "51336"
 sha1sum = "3d34bef989d6bd5b3b2677130f616f8ffc655036"
-depends = "['gst1-plugins-base>=1.24.0', 'gst1-plugins-good>=1.24.0', 'libffi>=3.2.1-2', 'taglib>=2.0']"
+depends = "['gst1-plugins-base>=1.24.1', 'gst1-plugins-good>=1.24.1', 'libffi>=3.2.1-2', 'taglib>=2.0']"
 +++
 ### Description: 
 GStreamer taglib plugin (Good).

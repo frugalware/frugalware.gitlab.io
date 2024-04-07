@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xdg-desktop-portal 1.18.2-1"
-version = "1.18.2-1"
+title = "xdg-desktop-portal 1.18.3-1"
+version = "1.18.3-1"
 description = "Desktop integration portals for sandboxed apps"
-date = "2023-11-23T13:35:25"
+date = "2024-04-07T17:19:40"
 aliases = "/packages/220846"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/flatpak/xdg-desktop-portal"
 arch = "x86_64"
-size = "346696"
-usize = "2314536"
-sha1sum = "d4a96ce6b418ede9b59e1f2609728df6617e7426"
+size = "347840"
+usize = "2323148"
+sha1sum = "edb0531be0c18eaded3d8b128adf517fcfc6de9a"
 depends = "['fuse3', 'geoclue2', 'glib2', 'libportal', 'pipewire', 'rtkit', 'systemd']"
 reverse_depends = "['plasma-wayland-session']"
 +++
@@ -85,10 +85,10 @@ Desktop integration portals for sandboxed apps
 * /usr/share/dbus-1/services/org.freedesktop.impl.portal.PermissionStore.service
 * /usr/share/dbus-1/services/org.freedesktop.portal.Desktop.service
 * /usr/share/dbus-1/services/org.freedesktop.portal.Documents.service
-* /usr/share/doc/xdg-desktop-portal-1.18.2/COPYING
-* /usr/share/doc/xdg-desktop-portal-1.18.2/NEWS
-* /usr/share/doc/xdg-desktop-portal-1.18.2/README.md
-* /usr/share/doc/xdg-desktop-portal-1.18.2/RELEASE_HOWTO.md
+* /usr/share/doc/xdg-desktop-portal-1.18.3/COPYING
+* /usr/share/doc/xdg-desktop-portal-1.18.3/NEWS
+* /usr/share/doc/xdg-desktop-portal-1.18.3/README.md
+* /usr/share/doc/xdg-desktop-portal-1.18.3/RELEASE_HOWTO.md
 * /usr/share/doc/xdg-desktop-portal/docbook.css
 * /usr/share/doc/xdg-desktop-portal/portal-docs.html
 * /usr/share/doc/xdg-desktop-portal/redirect.html

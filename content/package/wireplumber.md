@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wireplumber 0.5.0-1"
-version = "0.5.0-1"
+title = "wireplumber 0.5.1-1"
+version = "0.5.1-1"
 description = "Session / policy manager implementation for PipeWire"
-date = "2024-03-21T15:27:42"
+date = "2024-04-07T17:14:36"
 aliases = "/packages/220823"
 categories = ['apps-extra']
 upstreamurl = "https://pipewire.pages.freedesktop.org/wireplumber/"
 arch = "x86_64"
-size = "340916"
-usize = "1597645"
-sha1sum = "b8e5df2f979c32239fb0d5c0df9a4195022d9de4"
+size = "341916"
+usize = "1602220"
+sha1sum = "e1cf4a62c1554d8ad7a311d86b3d35f277bd456b"
 depends = "['lua', 'pipewire']"
 reverse_depends = "['gst1-plugins-pipewire', 'pipewire-alsa', 'pipewire-jack', 'pipewire-pulse', 'pipewire-x11']"
 +++

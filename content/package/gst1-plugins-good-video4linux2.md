@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "134416"
 usize = "354656"
 sha1sum = "ba003e1da6b59b41a0a5cbc5a3d4d5af45aca33d"
-depends = "['gst1-plugins-base>=1.24.0', 'gst1-plugins-good>=1.24.0', 'libffi>=3.2.1-2', 'libgudev>=230-7', 'libjpeg-turbo', 'v4l-utils>=1.9.2-4']"
+depends = "['gst1-plugins-base>=1.24.1', 'gst1-plugins-good>=1.24.1', 'libffi>=3.2.1-2', 'libgudev>=230-7', 'libjpeg-turbo', 'v4l-utils>=1.9.2-4']"
 reverse_depends = "['kamoso']"
 +++
 ### Description: 

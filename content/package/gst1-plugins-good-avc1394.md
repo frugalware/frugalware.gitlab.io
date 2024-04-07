@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "22364"
 usize = "51184"
 sha1sum = "b2f9ba9f45044ebee44ab51f1228739611fec502"
-depends = "['gst1-plugins-base>=1.24.0', 'gst1-plugins-good>=1.24.0', 'libavc1394>=0.5.4-5', 'libffi>=3.2.1-2', 'libiec61883>=1.2.0-5']"
+depends = "['gst1-plugins-base>=1.24.1', 'gst1-plugins-good>=1.24.1', 'libavc1394>=0.5.4-5', 'libffi>=3.2.1-2', 'libiec61883>=1.2.0-5']"
 +++
 ### Description: 
 GStreamer avc1394 plugin (Good).

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "18004"
 usize = "34800"
 sha1sum = "74094166f9c163bc3fc0308d6111d2b84332adef"
-depends = "['aalib>=1.4rc5-9', 'gst1-plugins-base>=1.24.0', 'gst1-plugins-good>=1.24.0', 'libffi>=3.2.1-2']"
+depends = "['aalib>=1.4rc5-9', 'gst1-plugins-base>=1.24.1', 'gst1-plugins-good>=1.24.1', 'libffi>=3.2.1-2']"
 +++
 ### Description: 
 GStreamer aalib plugin (Good).

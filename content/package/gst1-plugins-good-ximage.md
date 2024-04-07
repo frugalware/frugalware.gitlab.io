@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "23948"
 usize = "46992"
 sha1sum = "2ccdbd3ffa8891760cb6d6f41256e135ebde304a"
-depends = "['gst1-plugins-base>=1.24.0', 'gst1-plugins-good>=1.24.0', 'libffi>=3.2.1-2', 'libx11>=1.6.3-4', 'libxdamage>=1.1.4-3']"
+depends = "['gst1-plugins-base>=1.24.1', 'gst1-plugins-good>=1.24.1', 'libffi>=3.2.1-2', 'libx11>=1.6.3-4', 'libxdamage>=1.1.4-3']"
 +++
 ### Description: 
 GStreamer ximage plugin (Good).

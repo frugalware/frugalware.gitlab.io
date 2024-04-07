@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "18484"
 usize = "34672"
 sha1sum = "3f0ee8bbb0f9bea310f16355dcf8d7d6e0db0636"
-depends = "['gst1-plugins-base>=1.24.0', 'gst1-plugins-good>=1.24.0', 'libffi>=3.2.1-2', 'libshout>=2.4.1-7']"
+depends = "['gst1-plugins-base>=1.24.1', 'gst1-plugins-good>=1.24.1', 'libffi>=3.2.1-2', 'libshout>=2.4.1-7']"
 +++
 ### Description: 
 GStreamer shout plugin (Good).

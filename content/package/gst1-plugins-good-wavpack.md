@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "22020"
 usize = "43120"
 sha1sum = "bc6963ba9ad03980c073aebfd79213dc9a7995ae"
-depends = "['gst1-plugins-base>=1.24.0', 'gst1-plugins-good>=1.24.0', 'libffi>=3.2.1-2', 'wavpack>=4.80.0-2']"
+depends = "['gst1-plugins-base>=1.24.1', 'gst1-plugins-good>=1.24.1', 'libffi>=3.2.1-2', 'wavpack>=4.80.0-2']"
 +++
 ### Description: 
 GStreamer wavpack plugin (Good).

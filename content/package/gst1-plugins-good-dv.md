@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "26300"
 usize = "55408"
 sha1sum = "2089210f3899d83261fd165c88633c2996d60587"
-depends = "['gst1-plugins-base>=1.24.0', 'gst1-plugins-good>=1.24.0', 'libdv>=1.0.0-5', 'libffi>=3.2.1-2']"
+depends = "['gst1-plugins-base>=1.24.1', 'gst1-plugins-good>=1.24.1', 'libdv>=1.0.0-5', 'libffi>=3.2.1-2']"
 +++
 ### Description: 
 GStreamer dv plugin (Good).

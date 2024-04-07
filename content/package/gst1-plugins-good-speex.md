@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "21016"
 usize = "47152"
 sha1sum = "82568368ffdf0989b9f5ec395cf49873dd6a3ec6"
-depends = "['gst1-plugins-base>=1.24.0', 'gst1-plugins-good>=1.24.0', 'libffi>=3.2.1-2', 'speex>=1.2rc2-5']"
+depends = "['gst1-plugins-base>=1.24.1', 'gst1-plugins-good>=1.24.1', 'libffi>=3.2.1-2', 'speex>=1.2rc2-5']"
 +++
 ### Description: 
 GStreamer speex plugin (Good).

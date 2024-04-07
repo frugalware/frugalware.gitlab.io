@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "38692"
 usize = "100336"
 sha1sum = "cf722de05a200f51015b9130214240d829e3ca72"
-depends = "['gst1-plugins-base>=1.24.0', 'gst1-plugins-good>=1.24.0', 'libffi>=3.2.1-2', 'libsoup>=2.56.0', 'sqlite3>=3.14.2-3']"
+depends = "['gst1-plugins-base>=1.24.1', 'gst1-plugins-good>=1.24.1', 'libffi>=3.2.1-2', 'libsoup>=2.56.0', 'sqlite3>=3.14.2-3']"
 +++
 ### Description: 
 GStreamer soup plugin (Good).

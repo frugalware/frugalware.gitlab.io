@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "29132"
 usize = "71600"
 sha1sum = "e32c2637c304a71aec90bab52ecaede0000f95ee"
-depends = "['db>=6.2.23', 'gst1-plugins-base>=1.24.0', 'gst1-plugins-good>=1.24.0', 'libffi>=3.2.1-2']"
+depends = "['db>=6.2.23', 'gst1-plugins-base>=1.24.1', 'gst1-plugins-good>=1.24.1', 'libffi>=3.2.1-2']"
 +++
 ### Description: 
 GStreamer jack plugin (Good).

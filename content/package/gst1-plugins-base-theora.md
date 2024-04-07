@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-base-theora 1.24.0-1"
-version = "1.24.0-1"
+title = "gst1-plugins-base-theora 1.24.1-1"
+version = "1.24.1-1"
 description = "GStreamer theora plugin (Base)."
-date = "2024-03-05T09:37:02"
+date = "2024-04-07T18:02:27"
 aliases = "/packages/168843"
 categories = ['xmultimedia']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "27104"
+size = "27168"
 usize = "63664"
-sha1sum = "f22bc6e97af7a1df539591d282033e8acd9d6694"
-depends = "['gst1-plugins-base>=1.24.0', 'gstreamer1>=1.24.0', 'libffi>=3.2.1-2', 'libogg>=1.3.2-5', 'libtheora>=1.1.1-5']"
+sha1sum = "42d0c6a986ca826179627a15170c3610d801b985"
+depends = "['gst1-plugins-base>=1.24.1', 'gstreamer1>=1.24.1', 'libffi>=3.2.1-2', 'libogg>=1.3.2-5', 'libtheora>=1.1.1-5']"
 +++
 ### Description: 
 GStreamer theora plugin (Base).

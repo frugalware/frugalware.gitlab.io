@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fprintd 1.94.2-3"
-version = "1.94.2-3"
+title = "fprintd 1.94.3-1"
+version = "1.94.3-1"
 description = "D-Bus daemon that offers libfprint functionality over the D-Bus interprocess communication bus."
-date = "2024-01-14T15:56:17"
+date = "2024-04-07T17:36:35"
 aliases = "/packages/217782"
 categories = ['apps-extra']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/fprint/fprintd"
 arch = "x86_64"
-size = "123520"
-usize = "811041"
-sha1sum = "17b43b68c56acbeceb42738a45dac70c57ce3b1f"
+size = "127044"
+usize = "851546"
+sha1sum = "7903d6f3f6c7c95b5022105e961b73565dfcd4c2"
 depends = "['libfprint>=0.6.0', 'libgudev', 'polkit>=0.113-5']"
 +++
 ### Description: 
@@ -29,11 +29,11 @@ D-Bus daemon that offers libfprint functionality over the D-Bus interprocess com
 * /usr/share/dbus-1/interfaces/net.reactivated.Fprint.Manager.xml
 * /usr/share/dbus-1/system-services/net.reactivated.Fprint.service
 * /usr/share/dbus-1/system.d/net.reactivated.Fprint.conf
-* /usr/share/doc/fprintd-1.94.2/AUTHORS
-* /usr/share/doc/fprintd-1.94.2/COPYING
-* /usr/share/doc/fprintd-1.94.2/NEWS
-* /usr/share/doc/fprintd-1.94.2/README
-* /usr/share/doc/fprintd-1.94.2/TODO
+* /usr/share/doc/fprintd-1.94.3/AUTHORS
+* /usr/share/doc/fprintd-1.94.3/COPYING
+* /usr/share/doc/fprintd-1.94.3/NEWS
+* /usr/share/doc/fprintd-1.94.3/README
+* /usr/share/doc/fprintd-1.94.3/TODO
 * /usr/share/locale/af/LC_MESSAGES/fprintd.mo
 * /usr/share/locale/ar/LC_MESSAGES/fprintd.mo
 * /usr/share/locale/as/LC_MESSAGES/fprintd.mo

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "31180"
 usize = "75888"
 sha1sum = "63bf10bc3e7e7d6013df974be8bd5aed5d8daf0c"
-depends = "['flac>=1.4.0', 'gst1-plugins-base>=1.24.0', 'gst1-plugins-good>=1.24.0', 'libffi>=3.2.1-2']"
+depends = "['flac>=1.4.0', 'gst1-plugins-base>=1.24.1', 'gst1-plugins-good>=1.24.1', 'libffi>=3.2.1-2']"
 +++
 ### Description: 
 GStreamer flac plugin (Good).
