@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-ugly 1.24.0-1"
-version = "1.24.0-1"
+title = "gst1-plugins-ugly 1.24.1-1"
+version = "1.24.1-1"
 description = "Plugins for GStreamer (Ugly)"
-date = "2024-03-05T14:05:44"
+date = "2024-04-07T18:48:48"
 aliases = "/packages/168871"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "157744"
-usize = "486412"
-sha1sum = "ab473f96bf3bd164ea3618bca50ab3d42f5641d5"
-depends = "['gst1-plugins-base>=1.24.0', 'gstreamer1>=1.24.0', 'libffi>=3.2.1-2', 'orc>=0.4.24-2']"
+size = "160012"
+usize = "497962"
+sha1sum = "13c0eb67f1fe46d3e5ea10c3370c90f2cae49bd4"
+depends = "['gst1-plugins-base>=1.24.1', 'gstreamer1>=1.24.1', 'libffi>=3.2.1-2', 'orc>=0.4.24-2']"
 reverse_depends = "['castersoundboard', 'gst1-plugins-ugly-a52dec', 'gst1-plugins-ugly-cdio', 'gst1-plugins-ugly-dvdread', 'gst1-plugins-ugly-mpeg2dec', 'gst1-plugins-ugly-x264', 'spice']"
 +++
 ### Description: 
@@ -22,13 +22,13 @@ Plugins for GStreamer (Ugly)
 * /usr/lib/gstreamer-1.0/libgstdvdlpcmdec.so
 * /usr/lib/gstreamer-1.0/libgstdvdsub.so
 * /usr/lib/gstreamer-1.0/libgstrealmedia.so
-* /usr/share/doc/gst1-plugins-ugly-1.24.0/AUTHORS
-* /usr/share/doc/gst1-plugins-ugly-1.24.0/ChangeLog
-* /usr/share/doc/gst1-plugins-ugly-1.24.0/COPYING
-* /usr/share/doc/gst1-plugins-ugly-1.24.0/NEWS
-* /usr/share/doc/gst1-plugins-ugly-1.24.0/README.md
-* /usr/share/doc/gst1-plugins-ugly-1.24.0/README.static-linking
-* /usr/share/doc/gst1-plugins-ugly-1.24.0/RELEASE
+* /usr/share/doc/gst1-plugins-ugly-1.24.1/AUTHORS
+* /usr/share/doc/gst1-plugins-ugly-1.24.1/ChangeLog
+* /usr/share/doc/gst1-plugins-ugly-1.24.1/COPYING
+* /usr/share/doc/gst1-plugins-ugly-1.24.1/NEWS
+* /usr/share/doc/gst1-plugins-ugly-1.24.1/README.md
+* /usr/share/doc/gst1-plugins-ugly-1.24.1/README.static-linking
+* /usr/share/doc/gst1-plugins-ugly-1.24.1/RELEASE
 * /usr/share/gstreamer-1.0/presets/GstX264Enc.prs
 * /usr/share/locale/af/LC_MESSAGES/gst-plugins-ugly-1.0.mo
 * /usr/share/locale/ast/LC_MESSAGES/gst-plugins-ugly-1.0.mo

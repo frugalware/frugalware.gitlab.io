@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gst1-plugins-good 1.24.0-1"
-version = "1.24.0-1"
+title = "gst1-plugins-good 1.24.1-1"
+version = "1.24.1-1"
 description = "Plugins for GStreamer (Good)"
-date = "2024-03-05T09:42:46"
+date = "2024-04-07T18:15:40"
 aliases = "/packages/168850"
 categories = ['xmultimedia']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "1859840"
-usize = "6334523"
-sha1sum = "f389477f87c556d4de7c7362ed7e64e868baf680"
+size = "1862132"
+usize = "6357778"
+sha1sum = "ec94abb87b94ae2abe6a53ddedce76b1a296c1fa"
 depends = "['cairo>=1.15.14', 'gst1-plugins-base>=1.24.1', 'gstreamer1>=1.24.1', 'orc>=0.4.26']"
 reverse_depends = "['castersoundboard', 'gst1-plugins-good-aalib', 'gst1-plugins-good-avc1394', 'gst1-plugins-good-caca', 'gst1-plugins-good-dv', 'gst1-plugins-good-flac', 'gst1-plugins-good-gdkpixbuf', 'gst1-plugins-good-jack', 'gst1-plugins-good-jpeg', 'gst1-plugins-good-libsoup', 'gst1-plugins-good-png', 'gst1-plugins-good-pulseaudio', 'gst1-plugins-good-shout', 'gst1-plugins-good-speex', 'gst1-plugins-good-taglib', 'gst1-plugins-good-video4linux2', 'gst1-plugins-good-videobox', 'gst1-plugins-good-vpx', 'gst1-plugins-good-wavpack', 'gst1-plugins-good-ximage', 'qt5-gstreamer', 'qt5-multimedia', 'spice', 'spice-glib', 'webkit-gtk3']"
 +++
