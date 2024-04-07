@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "yin-yang 3.3-5"
-version = "3.3-5"
+title = "yin-yang 3.4-1"
+version = "3.4-1"
 description = "Light/dark theme switcher for Linux. Supports popular Desktops, text editors and more!"
-date = "2024-04-05T14:05:10"
+date = "2024-04-07T16:38:21"
 aliases = "/packages/220855"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/oskarsh/Yin-Yang"
 arch = "x86_64"
-size = "479732"
-usize = "839474"
-sha1sum = "12c3ecb9ac2e42be4639a870c1468df20d2e7b3e"
+size = "46400"
+usize = "244697"
+sha1sum = "f22baa7d1a6c6605a665a73b281c676788cdc8eb"
 depends = "['pyqt6', 'pyside6', 'python3-psutil', 'python3-suntime', 'python3-systemd', 'qt6-positioning']"
 +++
 ### Description: 
@@ -20,10 +20,9 @@ Light/dark theme switcher for Linux. Supports popular Desktops, text editors and
 * /opt/yin-yang/designer/main_window.ui
 * /opt/yin-yang/LICENSE
 * /opt/yin-yang/README.md
-* /opt/yin-yang/README_zh.md
+* /opt/yin-yang/README_zh_CN.md
+* /opt/yin-yang/README_zh_TW.md
 * /opt/yin-yang/requirements.txt
-* /opt/yin-yang/resources/dark.wav
-* /opt/yin-yang/resources/light.wav
 * /opt/yin-yang/resources/logo.svg
 * /opt/yin-yang/resources/README.md
 * /opt/yin-yang/resources/resources.qrc
@@ -31,6 +30,8 @@ Light/dark theme switcher for Linux. Supports popular Desktops, text editors and
 * /opt/yin-yang/resources/translations/yin_yang.de_DE.ts
 * /opt/yin-yang/resources/translations/yin_yang.nl_NL.qm
 * /opt/yin-yang/resources/translations/yin_yang.nl_NL.ts
+* /opt/yin-yang/resources/translations/yin_yang.zh_TW.qm
+* /opt/yin-yang/resources/translations/yin_yang.zh_TW.ts
 * /opt/yin-yang/resources/yin-yang
 * /opt/yin-yang/resources/Yin-Yang.desktop
 * /opt/yin-yang/resources/yin_yang.json
@@ -51,12 +52,9 @@ Light/dark theme switcher for Linux. Supports popular Desktops, text editors and
 * /opt/yin-yang/yin_yang/daemon_handler.py
 * /opt/yin-yang/yin_yang/meta.py
 * /opt/yin-yang/yin_yang/NotificationHandler.py
-* /opt/yin-yang/yin_yang/plugins/atom.py
-* /opt/yin-yang/yin_yang/plugins/brave.py
 * /opt/yin-yang/yin_yang/plugins/colors.py
 * /opt/yin-yang/yin_yang/plugins/custom.py
 * /opt/yin-yang/yin_yang/plugins/firefox.py
-* /opt/yin-yang/yin_yang/plugins/gedit.py
 * /opt/yin-yang/yin_yang/plugins/gtk.py
 * /opt/yin-yang/yin_yang/plugins/icons.py
 * /opt/yin-yang/yin_yang/plugins/konsole.py
@@ -64,12 +62,12 @@ Light/dark theme switcher for Linux. Supports popular Desktops, text editors and
 * /opt/yin-yang/yin_yang/plugins/notify.py
 * /opt/yin-yang/yin_yang/plugins/okular.py
 * /opt/yin-yang/yin_yang/plugins/only_office.py
-* /opt/yin-yang/yin_yang/plugins/sound.py
 * /opt/yin-yang/yin_yang/plugins/system.py
 * /opt/yin-yang/yin_yang/plugins/vscode.py
 * /opt/yin-yang/yin_yang/plugins/wallpaper.py
 * /opt/yin-yang/yin_yang/plugins/_plugin.py
 * /opt/yin-yang/yin_yang/plugins/__init__.py
+* /opt/yin-yang/yin_yang/position.py
 * /opt/yin-yang/yin_yang/theme_switcher.py
 * /opt/yin-yang/yin_yang/ui/main_window.py
 * /opt/yin-yang/yin_yang/ui/main_window_connector.py
@@ -82,7 +80,8 @@ Light/dark theme switcher for Linux. Supports popular Desktops, text editors and
 * /usr/lib/systemd/user/yin_yang.service
 * /usr/lib/systemd/user/yin_yang.timer
 * /usr/share/applications/Yin-Yang.desktop
-* /usr/share/doc/yin-yang-3.3/LICENSE
-* /usr/share/doc/yin-yang-3.3/README.md
-* /usr/share/doc/yin-yang-3.3/README_zh.md
+* /usr/share/doc/yin-yang-3.4/LICENSE
+* /usr/share/doc/yin-yang-3.4/README.md
+* /usr/share/doc/yin-yang-3.4/README_zh_CN.md
+* /usr/share/doc/yin-yang-3.4/README_zh_TW.md
 * /usr/share/icons/hicolor/scalable/apps/yin_yang.svg

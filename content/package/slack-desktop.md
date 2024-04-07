@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "slack-desktop 4.35.131-1"
-version = "4.35.131-1"
+title = "slack-desktop 4.37.94-1"
+version = "4.37.94-1"
 description = "Slack Desktop (Beta) for Linux"
-date = "2023-12-14T18:15:15"
+date = "2024-04-07T16:44:42"
 aliases = "/packages/220944"
 categories = ['xapps-extra']
 upstreamurl = "https://slack.com/downloads"
 arch = "x86_64"
-size = "78327976"
-usize = "289178168"
-sha1sum = "280b48118ee691691fa8759669be198c3bd6b227"
+size = "78852592"
+usize = "287638472"
+sha1sum = "99d6f53659c13420c745ad2d825c070bf53a43a1"
 depends = "['gtk+3', 'libappindicator', 'libsecret', 'libxscrnsaver', 'nss', 'xdg-utils']"
 +++
 ### Description: 
@@ -88,115 +88,19 @@ Slack Desktop (Beta) for Linux
 * /usr/lib/slack/resources.pak
 * /usr/lib/slack/resources/animal_stick.mp3
 * /usr/lib/slack/resources/app.asar
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/52.chunk.js
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/52.chunk.js.map
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/backendManager.js
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/backendManager.js.map
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/background.js
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/background.js.map
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/fileFetcher.js
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/fileFetcher.js.map
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/importFile.worker.worker.js
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/importFile.worker.worker.js.map
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/installHook.js
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/installHook.js.map
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/main.js
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/main.js.map
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/panel.js
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/panel.js.map
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/parseHookNames.chunk.js
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/parseHookNames.chunk.js.map
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/parseSourceAndMetadata.worker.worker.js
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/parseSourceAndMetadata.worker.worker.js.map
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/prepareInjection.js
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/prepareInjection.js.map
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/proxy.js
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/proxy.js.map
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/react_devtools_backend_compact.js
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/react_devtools_backend_compact.js.map
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/renderer.js
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/build/renderer.js.map
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/128-deadcode.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/128-development.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/128-disabled.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/128-outdated.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/128-production.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/128-restricted.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/128-unminified.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/16-deadcode.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/16-development.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/16-disabled.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/16-outdated.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/16-production.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/16-restricted.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/16-unminified.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/32-deadcode.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/32-development.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/32-disabled.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/32-outdated.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/32-production.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/32-restricted.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/32-unminified.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/48-deadcode.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/48-development.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/48-disabled.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/48-outdated.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/48-production.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/48-restricted.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/48-unminified.png
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/deadcode.svg
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/development.svg
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/disabled.svg
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/outdated.svg
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/production.svg
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/icons/restricted.svg
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/main.html
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/manifest.json
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/panel.html
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/popups/deadcode.html
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/popups/development.html
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/popups/disabled.html
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/popups/outdated.html
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/popups/production.html
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/popups/restricted.html
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/popups/shared.css
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/popups/shared.js
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/popups/shared.js.map
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/popups/unminified.html
-* /usr/lib/slack/resources/app.asar.unpacked/dist/resources/extensions/react-devtools/_metadata/verified_contents.json
 * /usr/lib/slack/resources/app.asar.unpacked/dist/resources/slack-taskbar-highlight.ico
 * /usr/lib/slack/resources/app.asar.unpacked/dist/resources/slack-taskbar-rest.ico
 * /usr/lib/slack/resources/app.asar.unpacked/dist/resources/slack-taskbar-unread.ico
-* /usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.applicationmodel/bin/linux-x64-118/windows.applicationmodel.node
-* /usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.applicationmodel/build/Release/binding.node
-* /usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.data.xml.dom/bin/linux-x64-118/windows.data.xml.dom.node
-* /usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.data.xml.dom/build/Release/binding.node
-* /usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.foundation/bin/linux-x64-118/windows.foundation.node
-* /usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.foundation/build/Release/binding.node
-* /usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.ui.notifications/bin/linux-x64-118/windows.ui.notifications.node
-* /usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.ui.notifications/build/Release/binding.node
-* /usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.ui.startscreen/bin/linux-x64-118/windows.ui.startscreen.node
-* /usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.ui.startscreen/build/Release/binding.node
-* /usr/lib/slack/resources/app.asar.unpacked/node_modules/@tinyspeck/huddles-desktop-utils/bin/linux-x64-118/huddles-desktop-utils.node
 * /usr/lib/slack/resources/app.asar.unpacked/node_modules/@tinyspeck/huddles-desktop-utils/build/Release/CallsDesktopInterop.node
-* /usr/lib/slack/resources/app.asar.unpacked/node_modules/@tinyspeck/native-keymap/bin/linux-x64-118/native-keymap.node
 * /usr/lib/slack/resources/app.asar.unpacked/node_modules/@tinyspeck/native-keymap/build/Release/keymapping.node
-* /usr/lib/slack/resources/app.asar.unpacked/node_modules/@tinyspeck/slack-desktop-utils/lib/binding/napi-v8-linux-x64/slackdesktoputils.node
-* /usr/lib/slack/resources/app.asar.unpacked/node_modules/cf-prefs/bin/linux-x64-118/cf-prefs.node
+* /usr/lib/slack/resources/app.asar.unpacked/node_modules/@tinyspeck/slack-desktop-utils/lib/binding/napi-v8/slackdesktoputils.node
 * /usr/lib/slack/resources/app.asar.unpacked/node_modules/cf-prefs/build/Release/cf-prefs.node
-* /usr/lib/slack/resources/app.asar.unpacked/node_modules/electron-native-auth/bin/linux-x64-118/electron-native-auth.node
 * /usr/lib/slack/resources/app.asar.unpacked/node_modules/electron-native-auth/build/Release/electron_native_auth.node
-* /usr/lib/slack/resources/app.asar.unpacked/node_modules/file-handler-info/bin/linux-x64-118/file-handler-info.node
 * /usr/lib/slack/resources/app.asar.unpacked/node_modules/file-handler-info/build/Release/file_handler_info.node
-* /usr/lib/slack/resources/app.asar.unpacked/node_modules/macos-notification-state/bin/linux-x64-118/macos-notification-state.node
 * /usr/lib/slack/resources/app.asar.unpacked/node_modules/macos-notification-state/build/Release/notificationstate.node
-* /usr/lib/slack/resources/app.asar.unpacked/node_modules/registry-js/bin/linux-x64-118/registry-js.node
 * /usr/lib/slack/resources/app.asar.unpacked/node_modules/registry-js/build/Release/registry.node
-* /usr/lib/slack/resources/app.asar.unpacked/node_modules/windows-focus-assist/bin/linux-x64-118/windows-focus-assist.node
 * /usr/lib/slack/resources/app.asar.unpacked/node_modules/windows-focus-assist/build/Release/focusassist.node
-* /usr/lib/slack/resources/app.asar.unpacked/node_modules/windows-notification-state/bin/linux-x64-118/windows-notification-state.node
 * /usr/lib/slack/resources/app.asar.unpacked/node_modules/windows-notification-state/build/Release/notificationstate.node
-* /usr/lib/slack/resources/app.asar.unpacked/node_modules/windows-quiet-hours/bin/linux-x64-118/windows-quiet-hours.node
 * /usr/lib/slack/resources/app.asar.unpacked/node_modules/windows-quiet-hours/build/Release/quiethours.node
 * /usr/lib/slack/resources/b2.mp3
 * /usr/lib/slack/resources/been_tree.mp3

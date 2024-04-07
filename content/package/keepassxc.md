@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "keepassxc 2.7.6-6"
-version = "2.7.6-6"
+title = "keepassxc 2.7.7-1"
+version = "2.7.7-1"
 description = "Cross-platform community-driven port of Keepass password manager"
-date = "2024-03-28T15:37:19"
+date = "2024-04-07T16:25:42"
 aliases = "/packages/220624"
 categories = ['xapps-extra']
 upstreamurl = "https://keepassxc.org/"
 arch = "x86_64"
-size = "7687776"
-usize = "31822047"
-sha1sum = "3011b8dcec2fc64453be53199ae12d1b1237be51"
+size = "9117244"
+usize = "34574194"
+sha1sum = "e45e47db446a2e16fed7ef23a961dd6fea301cfb"
 depends = "['argon2', 'botan>=3.3.0', 'curl', 'hicolor-icon-theme', 'libusb', 'libxtst', 'pcsc-lite', 'qrencode', 'qt5-svg>=5.15.10', 'qt5-x11extras>=5.15.10']"
 +++
 ### Description: 
@@ -22,9 +22,9 @@ Cross-platform community-driven port of Keepass password manager
 * /usr/bin/keepassxc-proxy
 * /usr/lib/keepassxc/libkeepassxc-autotype-xcb.so
 * /usr/share/applications/org.keepassxc.KeePassXC.desktop
-* /usr/share/doc/keepassxc-2.7.6/COPYING
-* /usr/share/doc/keepassxc-2.7.6/INSTALL.md
-* /usr/share/doc/keepassxc-2.7.6/README.md
+* /usr/share/doc/keepassxc-2.7.7/COPYING
+* /usr/share/doc/keepassxc-2.7.7/INSTALL.md
+* /usr/share/doc/keepassxc-2.7.7/README.md
 * /usr/share/icons/hicolor/256x256/apps/keepassxc.png
 * /usr/share/icons/hicolor/scalable/apps/keepassxc-locked.svg
 * /usr/share/icons/hicolor/scalable/apps/keepassxc-monochrome-dark-locked.svg
