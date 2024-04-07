@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kitty 0.32.2-1"
-version = "0.32.2-1"
+title = "kitty 0.33.1-1"
+version = "0.33.1-1"
 description = "A modern, hackable, featureful, OpenGL-based terminal emulator"
-date = "2024-02-18T18:30:05"
+date = "2024-04-07T15:30:24"
 aliases = "/packages/220895"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/kovidgoyal/kitty"
 arch = "x86_64"
-size = "11323884"
-usize = "41648782"
-sha1sum = "5d5e5d94d738f44be8c86246b5268bca8e90e995"
+size = "11341508"
+usize = "41951134"
+sha1sum = "fbb131a409097e901df598d9649f50ace17da500"
 depends = "['dbus', 'fontconfig', 'freetype2', 'harfbuzz', 'hicolor-icon-theme', 'imagemagick>=7.1.1', 'lcms2', 'libcanberra', 'libgl', 'librsync', 'libx11', 'libxi', 'libxkbcommon', 'python3>=3.12', 'python3-pygments', 'wayland']"
 +++
 ### Description: 
@@ -690,9 +690,9 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/share/applications/kitty-open.desktop
 * /usr/share/applications/kitty.desktop
 * /usr/share/bash-completion/completions/kitty
-* /usr/share/doc/kitty-0.32.2/INSTALL.md
-* /usr/share/doc/kitty-0.32.2/LICENSE
-* /usr/share/doc/kitty-0.32.2/README.asciidoc
+* /usr/share/doc/kitty-0.33.1/INSTALL.md
+* /usr/share/doc/kitty-0.33.1/LICENSE
+* /usr/share/doc/kitty-0.33.1/README.asciidoc
 * /usr/share/doc/kitty/html/.buildinfo
 * /usr/share/doc/kitty/html/.nojekyll
 * /usr/share/doc/kitty/html/actions.html
@@ -765,7 +765,7 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/share/doc/kitty/html/_images/social_previews/summary_actions_1745a1bd.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_binary_478594b0.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_build_7ee1e14e.png
-* /usr/share/doc/kitty/html/_images/social_previews/summary_changelog_439aee19.png
+* /usr/share/doc/kitty/html/_images/social_previews/summary_changelog_09b0697f.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_clipboard_673291d1.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_color-stack_587105f7.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_conf_6d817f14.png

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "telegram-desktop 4.15.2-2"
-version = "4.15.2-2"
+title = "telegram-desktop 4.16.4-1"
+version = "4.16.4-1"
 description = "Official Telegram Desktop client"
-date = "2024-04-05T16:32:38"
+date = "2024-04-07T15:51:54"
 aliases = "/packages/220077"
 categories = ['xapps-extra']
 upstreamurl = "https://desktop.telegram.org/"
 arch = "x86_64"
-size = "31536568"
-usize = "88562164"
-sha1sum = "36b004fdff3238788d1f3b05db1a7bf65f5e349b"
+size = "32151592"
+usize = "90907977"
+sha1sum = "07739681fe953c5cd52d579b96cc82b07bf06127"
 depends = "['abseil-cpp>=20230125', 'ffmpeg>=6.0', 'fmtlib', 'glib2', 'glibmm', 'hicolor-icon-theme', 'hunspell', 'jemalloc', 'libboost', 'libdispatch', 'libsigc++3', 'libxrandr', 'libxtst', 'lz4', 'openal', 'openssl', 'opus', 'pipewire', 'protobuf>=25.3', 'qt6-5compat>=6.6.3', 'qt6-imageformats>=6.6.3', 'qt6-svg>=6.6.3', 'qt6-wayland>=6.6.3', 'rnnoise', 'webkit-gtk3', 'xxhash']"
 +++
 ### Description: 
@@ -20,8 +20,8 @@ Official Telegram Desktop client
 * /usr/bin/telegram-desktop
 * /usr/share/applications/org.telegram.desktop.desktop
 * /usr/share/dbus-1/services/org.telegram.desktop.service
-* /usr/share/doc/telegram-desktop-4.15.2/LICENSE
-* /usr/share/doc/telegram-desktop-4.15.2/README.md
+* /usr/share/doc/telegram-desktop-4.16.4/LICENSE
+* /usr/share/doc/telegram-desktop-4.16.4/README.md
 * /usr/share/icons/hicolor/128x128/apps/telegram.png
 * /usr/share/icons/hicolor/16x16/apps/telegram.png
 * /usr/share/icons/hicolor/256x256/apps/telegram.png
