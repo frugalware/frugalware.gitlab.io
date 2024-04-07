@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "jazz2 2.5.0-1"
-version = "2.5.0-1"
+title = "jazz2 2.6.0-1"
+version = "2.6.0-1"
 description = "Native C++ reimplementation of Jazz Jackrabbit 2"
-date = "2024-02-28T14:40:18"
+date = "2024-04-07T21:03:42"
 aliases = "/packages/221245"
 categories = ['games-extra']
 upstreamurl = "https://deat.tk/jazz2/"
 arch = "x86_64"
-size = "1380048"
-usize = "4006574"
-sha1sum = "8b04371a64d078f4816c411ea2329d76eff390d8"
+size = "1394076"
+usize = "4044210"
+sha1sum = "0272b3c4b3bda7781d066d7b3616b90e87a5861b"
 depends = "['glew', 'glfw', 'libopenmpt', 'openal', 'sdl2']"
 +++
 ### Description: 
@@ -19,8 +19,8 @@ Native C++ reimplementation of Jazz Jackrabbit 2
 ### Files: 
 * /usr/bin/jazz2
 * /usr/share/applications/jazz2.desktop
-* /usr/share/doc/jazz2-2.5.0/LICENSE
-* /usr/share/doc/jazz2-2.5.0/README.md
+* /usr/share/doc/jazz2-2.6.0/LICENSE
+* /usr/share/doc/jazz2-2.6.0/README.md
 * /usr/share/doc/Jazz\302\262 Resurrection/README.md
 * /usr/share/icons/hicolor/1024x1024/apps/jazz2.png
 * /usr/share/icons/hicolor/16x16/apps/jazz2.png

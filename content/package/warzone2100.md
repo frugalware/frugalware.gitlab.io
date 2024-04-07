@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "warzone2100 4.4.1-1"
-version = "4.4.1-1"
+title = "warzone2100 4.4.2-1"
+version = "4.4.2-1"
 description = "3D realtime strategy game on a future Earth"
-date = "2023-11-22T17:37:55"
+date = "2024-04-07T20:49:08"
 aliases = "/packages/60034"
 categories = ['games-extra']
 upstreamurl = "http://wz2100.net"
 arch = "x86_64"
-size = "335225768"
-usize = "395760592"
-sha1sum = "2c75082098b859ca37558338be1fe3d8426f7688"
+size = "335173604"
+usize = "395762459"
+sha1sum = "17cbebd528d0bb5824c99eceb0c95243e0c03403"
 depends = "['curl', 'fmtlib', 'libsodium>=1.0.19', 'libzip', 'miniupnpc', 'ocl-icd', 'openal', 'opus', 'physfs']"
 +++
 ### Description: 
@@ -19,12 +19,12 @@ depends = "['curl', 'fmtlib', 'libsodium>=1.0.19', 'libzip', 'miniupnpc', 'ocl-i
 ### Files: 
 * /usr/bin/warzone2100
 * /usr/share/applications/net.wz2100.warzone2100.desktop
-* /usr/share/doc/warzone2100-4.4.1/AUTHORS
-* /usr/share/doc/warzone2100-4.4.1/ChangeLog
-* /usr/share/doc/warzone2100-4.4.1/COPYING
-* /usr/share/doc/warzone2100-4.4.1/COPYING.NONGPL
-* /usr/share/doc/warzone2100-4.4.1/COPYING.README
-* /usr/share/doc/warzone2100-4.4.1/README.md
+* /usr/share/doc/warzone2100-4.4.2/AUTHORS
+* /usr/share/doc/warzone2100-4.4.2/ChangeLog
+* /usr/share/doc/warzone2100-4.4.2/COPYING
+* /usr/share/doc/warzone2100-4.4.2/COPYING.NONGPL
+* /usr/share/doc/warzone2100-4.4.2/COPYING.README
+* /usr/share/doc/warzone2100-4.4.2/README.md
 * /usr/share/doc/warzone2100/AUTHORS
 * /usr/share/doc/warzone2100/ChangeLog
 * /usr/share/doc/warzone2100/COPYING
