@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gtk+4 4.13.8-1"
-version = "4.13.8-1"
+title = "gtk+4 4.14.2-1"
+version = "4.14.2-1"
 description = "The GTK+ Toolkit (3.x series)"
-date = "2024-02-22T13:43:14"
+date = "2024-04-07T19:43:17"
 aliases = "/packages/220420"
 categories = ['xlib']
 upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
-size = "17901796"
-usize = "137731827"
-sha1sum = "9196db49c288a8ba771d3849a40b7a24cbfb625c"
+size = "19335404"
+usize = "142206066"
+sha1sum = "0071bd296502b64a2f20060759b59aee941a86a1"
 depends = "['adwaita-icon-theme', 'colord', 'gdk-pixbuf2>=2.38.1-2', 'graphene', 'gst1-plugins-bad>=1.22.1', 'gtk+3-tools', 'gtk-update-icon-cache', 'libatspi>=2.32.0', 'libcups>=2.2.0-2', 'libepoxy>=1.3.1-3', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libwayland-egl', 'libxcomposite>=0.4.4-2', 'libxcursor>=1.1.14-2', 'libxi', 'libxinerama', 'libxkbcommon>=0.5.0-3', 'libxrandr', 'pango>=1.42.4-2', 'sassc', 'shared-mime-info', 'vulkan-icd-loader', 'wayland-protocols>=1.7-2']"
 reverse_depends = "['celluloid', 'chromium-browser', 'colord-gtk4', 'gcr', 'granite', 'gssdp', 'gtk+4-demos', 'gtk+4-tools', 'gtkmm', 'ibus', 'libadwaita', 'libpanel', 'libportal-gtk4', 'vte3']"
 +++
@@ -433,7 +433,7 @@ The GTK+ Toolkit (3.x series)
 * /usr/lib/gtk-4.0/4.0.0/printbackends/libprintbackend-file.so
 * /usr/lib/libgtk-4.so
 * /usr/lib/libgtk-4.so.1
-* /usr/lib/libgtk-4.so.1.1308.0
+* /usr/lib/libgtk-4.so.1.1400.2
 * /usr/lib/pkgconfig/gtk4-atspi.pc
 * /usr/lib/pkgconfig/gtk4-broadway.pc
 * /usr/lib/pkgconfig/gtk4-unix-print.pc
@@ -777,14 +777,14 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_acircumflexbelowdot.html
 * /usr/share/doc/gdk4/const.KEY_Acircumflexgrave.html
 * /usr/share/doc/gdk4/const.KEY_acircumflexgrave.html
-* /usr/share/doc/gdk4/const.KEY_acircumflexhook.html
 * /usr/share/doc/gdk4/const.KEY_Acircumflexhook.html
-* /usr/share/doc/gdk4/const.KEY_acircumflextilde.html
+* /usr/share/doc/gdk4/const.KEY_acircumflexhook.html
 * /usr/share/doc/gdk4/const.KEY_Acircumflextilde.html
+* /usr/share/doc/gdk4/const.KEY_acircumflextilde.html
 * /usr/share/doc/gdk4/const.KEY_acute.html
 * /usr/share/doc/gdk4/const.KEY_AddFavorite.html
-* /usr/share/doc/gdk4/const.KEY_adiaeresis.html
 * /usr/share/doc/gdk4/const.KEY_Adiaeresis.html
+* /usr/share/doc/gdk4/const.KEY_adiaeresis.html
 * /usr/share/doc/gdk4/const.KEY_AE.html
 * /usr/share/doc/gdk4/const.KEY_ae.html
 * /usr/share/doc/gdk4/const.KEY_Agrave.html
@@ -920,12 +920,12 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_Armenian_ini.html
 * /usr/share/doc/gdk4/const.KEY_Armenian_JE.html
 * /usr/share/doc/gdk4/const.KEY_Armenian_je.html
-* /usr/share/doc/gdk4/const.KEY_Armenian_KE.html
 * /usr/share/doc/gdk4/const.KEY_Armenian_ke.html
+* /usr/share/doc/gdk4/const.KEY_Armenian_KE.html
 * /usr/share/doc/gdk4/const.KEY_Armenian_KEN.html
 * /usr/share/doc/gdk4/const.KEY_Armenian_ken.html
-* /usr/share/doc/gdk4/const.KEY_Armenian_khe.html
 * /usr/share/doc/gdk4/const.KEY_Armenian_KHE.html
+* /usr/share/doc/gdk4/const.KEY_Armenian_khe.html
 * /usr/share/doc/gdk4/const.KEY_Armenian_ligature_ew.html
 * /usr/share/doc/gdk4/const.KEY_Armenian_LYUN.html
 * /usr/share/doc/gdk4/const.KEY_Armenian_lyun.html
@@ -941,8 +941,8 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_Armenian_PYUR.html
 * /usr/share/doc/gdk4/const.KEY_Armenian_pyur.html
 * /usr/share/doc/gdk4/const.KEY_Armenian_question.html
-* /usr/share/doc/gdk4/const.KEY_Armenian_ra.html
 * /usr/share/doc/gdk4/const.KEY_Armenian_RA.html
+* /usr/share/doc/gdk4/const.KEY_Armenian_ra.html
 * /usr/share/doc/gdk4/const.KEY_Armenian_RE.html
 * /usr/share/doc/gdk4/const.KEY_Armenian_re.html
 * /usr/share/doc/gdk4/const.KEY_Armenian_SE.html
@@ -968,8 +968,8 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_Armenian_vo.html
 * /usr/share/doc/gdk4/const.KEY_Armenian_VYUN.html
 * /usr/share/doc/gdk4/const.KEY_Armenian_vyun.html
-* /usr/share/doc/gdk4/const.KEY_Armenian_YECH.html
 * /usr/share/doc/gdk4/const.KEY_Armenian_yech.html
+* /usr/share/doc/gdk4/const.KEY_Armenian_YECH.html
 * /usr/share/doc/gdk4/const.KEY_Armenian_yentamna.html
 * /usr/share/doc/gdk4/const.KEY_Armenian_ZA.html
 * /usr/share/doc/gdk4/const.KEY_Armenian_za.html
@@ -1002,8 +1002,8 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_Away.html
 * /usr/share/doc/gdk4/const.KEY_B.html
 * /usr/share/doc/gdk4/const.KEY_b.html
-* /usr/share/doc/gdk4/const.KEY_babovedot.html
 * /usr/share/doc/gdk4/const.KEY_Babovedot.html
+* /usr/share/doc/gdk4/const.KEY_babovedot.html
 * /usr/share/doc/gdk4/const.KEY_Back.html
 * /usr/share/doc/gdk4/const.KEY_BackForward.html
 * /usr/share/doc/gdk4/const.KEY_backslash.html
@@ -1301,14 +1301,14 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_breve.html
 * /usr/share/doc/gdk4/const.KEY_BrightnessAdjust.html
 * /usr/share/doc/gdk4/const.KEY_brokenbar.html
-* /usr/share/doc/gdk4/const.KEY_Byelorussian_SHORTU.html
 * /usr/share/doc/gdk4/const.KEY_Byelorussian_shortu.html
+* /usr/share/doc/gdk4/const.KEY_Byelorussian_SHORTU.html
 * /usr/share/doc/gdk4/const.KEY_C.html
 * /usr/share/doc/gdk4/const.KEY_c.html
 * /usr/share/doc/gdk4/const.KEY_Cabovedot.html
 * /usr/share/doc/gdk4/const.KEY_cabovedot.html
-* /usr/share/doc/gdk4/const.KEY_Cacute.html
 * /usr/share/doc/gdk4/const.KEY_cacute.html
+* /usr/share/doc/gdk4/const.KEY_Cacute.html
 * /usr/share/doc/gdk4/const.KEY_Calculator.html
 * /usr/share/doc/gdk4/const.KEY_Calendar.html
 * /usr/share/doc/gdk4/const.KEY_Cancel.html
@@ -1316,8 +1316,8 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_careof.html
 * /usr/share/doc/gdk4/const.KEY_caret.html
 * /usr/share/doc/gdk4/const.KEY_caron.html
-* /usr/share/doc/gdk4/const.KEY_Ccaron.html
 * /usr/share/doc/gdk4/const.KEY_ccaron.html
+* /usr/share/doc/gdk4/const.KEY_Ccaron.html
 * /usr/share/doc/gdk4/const.KEY_Ccedilla.html
 * /usr/share/doc/gdk4/const.KEY_ccedilla.html
 * /usr/share/doc/gdk4/const.KEY_Ccircumflex.html
@@ -1356,8 +1356,8 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_CycleAngle.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_A.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_a.html
-* /usr/share/doc/gdk4/const.KEY_Cyrillic_BE.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_be.html
+* /usr/share/doc/gdk4/const.KEY_Cyrillic_BE.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_CHE.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_che.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_CHE_descender.html
@@ -1380,8 +1380,8 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_en.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_EN_descender.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_en_descender.html
-* /usr/share/doc/gdk4/const.KEY_Cyrillic_ER.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_er.html
+* /usr/share/doc/gdk4/const.KEY_Cyrillic_ER.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_ES.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_es.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_GHE.html
@@ -1396,12 +1396,12 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_ha_descender.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_I.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_i.html
-* /usr/share/doc/gdk4/const.KEY_Cyrillic_ie.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_IE.html
+* /usr/share/doc/gdk4/const.KEY_Cyrillic_ie.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_IO.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_io.html
-* /usr/share/doc/gdk4/const.KEY_Cyrillic_i_macron.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_I_macron.html
+* /usr/share/doc/gdk4/const.KEY_Cyrillic_i_macron.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_JE.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_je.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_KA.html
@@ -1418,8 +1418,8 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_o.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_O_bar.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_o_bar.html
-* /usr/share/doc/gdk4/const.KEY_Cyrillic_pe.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_PE.html
+* /usr/share/doc/gdk4/const.KEY_Cyrillic_pe.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_SCHWA.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_schwa.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_SHA.html
@@ -1436,18 +1436,18 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_te.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_TSE.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_tse.html
-* /usr/share/doc/gdk4/const.KEY_Cyrillic_U.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_u.html
+* /usr/share/doc/gdk4/const.KEY_Cyrillic_U.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_U_macron.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_u_macron.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_U_straight.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_u_straight.html
-* /usr/share/doc/gdk4/const.KEY_Cyrillic_u_straight_bar.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_U_straight_bar.html
+* /usr/share/doc/gdk4/const.KEY_Cyrillic_u_straight_bar.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_VE.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_ve.html
-* /usr/share/doc/gdk4/const.KEY_Cyrillic_YA.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_ya.html
+* /usr/share/doc/gdk4/const.KEY_Cyrillic_YA.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_YERU.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_yeru.html
 * /usr/share/doc/gdk4/const.KEY_Cyrillic_YU.html
@@ -1461,15 +1461,15 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_C_H.html
 * /usr/share/doc/gdk4/const.KEY_C_h.html
 * /usr/share/doc/gdk4/const.KEY_c_h.html
-* /usr/share/doc/gdk4/const.KEY_d.html
 * /usr/share/doc/gdk4/const.KEY_D.html
-* /usr/share/doc/gdk4/const.KEY_dabovedot.html
+* /usr/share/doc/gdk4/const.KEY_d.html
 * /usr/share/doc/gdk4/const.KEY_Dabovedot.html
+* /usr/share/doc/gdk4/const.KEY_dabovedot.html
 * /usr/share/doc/gdk4/const.KEY_dagger.html
 * /usr/share/doc/gdk4/const.KEY_Dcaron.html
 * /usr/share/doc/gdk4/const.KEY_dcaron.html
-* /usr/share/doc/gdk4/const.KEY_dead_A.html
 * /usr/share/doc/gdk4/const.KEY_dead_a.html
+* /usr/share/doc/gdk4/const.KEY_dead_A.html
 * /usr/share/doc/gdk4/const.KEY_dead_abovecomma.html
 * /usr/share/doc/gdk4/const.KEY_dead_abovedot.html
 * /usr/share/doc/gdk4/const.KEY_dead_abovereversedcomma.html
@@ -1547,12 +1547,12 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_dstroke.html
 * /usr/share/doc/gdk4/const.KEY_E.html
 * /usr/share/doc/gdk4/const.KEY_e.html
-* /usr/share/doc/gdk4/const.KEY_eabovedot.html
 * /usr/share/doc/gdk4/const.KEY_Eabovedot.html
+* /usr/share/doc/gdk4/const.KEY_eabovedot.html
 * /usr/share/doc/gdk4/const.KEY_Eacute.html
 * /usr/share/doc/gdk4/const.KEY_eacute.html
-* /usr/share/doc/gdk4/const.KEY_Ebelowdot.html
 * /usr/share/doc/gdk4/const.KEY_ebelowdot.html
+* /usr/share/doc/gdk4/const.KEY_Ebelowdot.html
 * /usr/share/doc/gdk4/const.KEY_Ecaron.html
 * /usr/share/doc/gdk4/const.KEY_ecaron.html
 * /usr/share/doc/gdk4/const.KEY_Ecircumflex.html
@@ -1570,10 +1570,10 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_EcuSign.html
 * /usr/share/doc/gdk4/const.KEY_Ediaeresis.html
 * /usr/share/doc/gdk4/const.KEY_ediaeresis.html
-* /usr/share/doc/gdk4/const.KEY_Egrave.html
 * /usr/share/doc/gdk4/const.KEY_egrave.html
-* /usr/share/doc/gdk4/const.KEY_Ehook.html
+* /usr/share/doc/gdk4/const.KEY_Egrave.html
 * /usr/share/doc/gdk4/const.KEY_ehook.html
+* /usr/share/doc/gdk4/const.KEY_Ehook.html
 * /usr/share/doc/gdk4/const.KEY_eightsubscript.html
 * /usr/share/doc/gdk4/const.KEY_eightsuperior.html
 * /usr/share/doc/gdk4/const.KEY_Eisu_Shift.html
@@ -1605,8 +1605,8 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_eogonek.html
 * /usr/share/doc/gdk4/const.KEY_equal.html
 * /usr/share/doc/gdk4/const.KEY_Escape.html
-* /usr/share/doc/gdk4/const.KEY_ETH.html
 * /usr/share/doc/gdk4/const.KEY_Eth.html
+* /usr/share/doc/gdk4/const.KEY_ETH.html
 * /usr/share/doc/gdk4/const.KEY_eth.html
 * /usr/share/doc/gdk4/const.KEY_Etilde.html
 * /usr/share/doc/gdk4/const.KEY_etilde.html
@@ -1754,8 +1754,8 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_Greek_alpha.html
 * /usr/share/doc/gdk4/const.KEY_Greek_ALPHAaccent.html
 * /usr/share/doc/gdk4/const.KEY_Greek_alphaaccent.html
-* /usr/share/doc/gdk4/const.KEY_Greek_beta.html
 * /usr/share/doc/gdk4/const.KEY_Greek_BETA.html
+* /usr/share/doc/gdk4/const.KEY_Greek_beta.html
 * /usr/share/doc/gdk4/const.KEY_Greek_CHI.html
 * /usr/share/doc/gdk4/const.KEY_Greek_chi.html
 * /usr/share/doc/gdk4/const.KEY_Greek_DELTA.html
@@ -1766,8 +1766,8 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_Greek_epsilonaccent.html
 * /usr/share/doc/gdk4/const.KEY_Greek_ETA.html
 * /usr/share/doc/gdk4/const.KEY_Greek_eta.html
-* /usr/share/doc/gdk4/const.KEY_Greek_etaaccent.html
 * /usr/share/doc/gdk4/const.KEY_Greek_ETAaccent.html
+* /usr/share/doc/gdk4/const.KEY_Greek_etaaccent.html
 * /usr/share/doc/gdk4/const.KEY_Greek_finalsmallsigma.html
 * /usr/share/doc/gdk4/const.KEY_Greek_GAMMA.html
 * /usr/share/doc/gdk4/const.KEY_Greek_gamma.html
@@ -1818,8 +1818,8 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_Greek_UPSILONaccent.html
 * /usr/share/doc/gdk4/const.KEY_Greek_upsilonaccent.html
 * /usr/share/doc/gdk4/const.KEY_Greek_upsilonaccentdieresis.html
-* /usr/share/doc/gdk4/const.KEY_Greek_upsilondieresis.html
 * /usr/share/doc/gdk4/const.KEY_Greek_UPSILONdieresis.html
+* /usr/share/doc/gdk4/const.KEY_Greek_upsilondieresis.html
 * /usr/share/doc/gdk4/const.KEY_Greek_XI.html
 * /usr/share/doc/gdk4/const.KEY_Greek_xi.html
 * /usr/share/doc/gdk4/const.KEY_Greek_ZETA.html
@@ -2008,8 +2008,8 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_Iabovedot.html
 * /usr/share/doc/gdk4/const.KEY_Iacute.html
 * /usr/share/doc/gdk4/const.KEY_iacute.html
-* /usr/share/doc/gdk4/const.KEY_Ibelowdot.html
 * /usr/share/doc/gdk4/const.KEY_ibelowdot.html
+* /usr/share/doc/gdk4/const.KEY_Ibelowdot.html
 * /usr/share/doc/gdk4/const.KEY_Ibreve.html
 * /usr/share/doc/gdk4/const.KEY_ibreve.html
 * /usr/share/doc/gdk4/const.KEY_Icircumflex.html
@@ -2074,11 +2074,11 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_ISO_Release_Margin_Right.html
 * /usr/share/doc/gdk4/const.KEY_ISO_Set_Margin_Left.html
 * /usr/share/doc/gdk4/const.KEY_ISO_Set_Margin_Right.html
-* /usr/share/doc/gdk4/const.KEY_itilde.html
 * /usr/share/doc/gdk4/const.KEY_Itilde.html
+* /usr/share/doc/gdk4/const.KEY_itilde.html
 * /usr/share/doc/gdk4/const.KEY_iTouch.html
-* /usr/share/doc/gdk4/const.KEY_J.html
 * /usr/share/doc/gdk4/const.KEY_j.html
+* /usr/share/doc/gdk4/const.KEY_J.html
 * /usr/share/doc/gdk4/const.KEY_Jcircumflex.html
 * /usr/share/doc/gdk4/const.KEY_jcircumflex.html
 * /usr/share/doc/gdk4/const.KEY_jot.html
@@ -2138,20 +2138,20 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_kana_TE.html
 * /usr/share/doc/gdk4/const.KEY_kana_TI.html
 * /usr/share/doc/gdk4/const.KEY_kana_TO.html
-* /usr/share/doc/gdk4/const.KEY_kana_TSU.html
 * /usr/share/doc/gdk4/const.KEY_kana_tsu.html
+* /usr/share/doc/gdk4/const.KEY_kana_TSU.html
 * /usr/share/doc/gdk4/const.KEY_kana_tu.html
 * /usr/share/doc/gdk4/const.KEY_kana_TU.html
-* /usr/share/doc/gdk4/const.KEY_kana_u.html
 * /usr/share/doc/gdk4/const.KEY_kana_U.html
+* /usr/share/doc/gdk4/const.KEY_kana_u.html
 * /usr/share/doc/gdk4/const.KEY_kana_WA.html
 * /usr/share/doc/gdk4/const.KEY_kana_WO.html
 * /usr/share/doc/gdk4/const.KEY_kana_YA.html
 * /usr/share/doc/gdk4/const.KEY_kana_ya.html
-* /usr/share/doc/gdk4/const.KEY_kana_yo.html
 * /usr/share/doc/gdk4/const.KEY_kana_YO.html
-* /usr/share/doc/gdk4/const.KEY_kana_yu.html
+* /usr/share/doc/gdk4/const.KEY_kana_yo.html
 * /usr/share/doc/gdk4/const.KEY_kana_YU.html
+* /usr/share/doc/gdk4/const.KEY_kana_yu.html
 * /usr/share/doc/gdk4/const.KEY_Kanji.html
 * /usr/share/doc/gdk4/const.KEY_Kanji_Bangou.html
 * /usr/share/doc/gdk4/const.KEY_kappa.html
@@ -2273,8 +2273,8 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_mabovedot.html
 * /usr/share/doc/gdk4/const.KEY_Macedonia_DSE.html
 * /usr/share/doc/gdk4/const.KEY_Macedonia_dse.html
-* /usr/share/doc/gdk4/const.KEY_Macedonia_GJE.html
 * /usr/share/doc/gdk4/const.KEY_Macedonia_gje.html
+* /usr/share/doc/gdk4/const.KEY_Macedonia_GJE.html
 * /usr/share/doc/gdk4/const.KEY_Macedonia_KJE.html
 * /usr/share/doc/gdk4/const.KEY_Macedonia_kje.html
 * /usr/share/doc/gdk4/const.KEY_macron.html
@@ -2339,8 +2339,8 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_notequal.html
 * /usr/share/doc/gdk4/const.KEY_notidentical.html
 * /usr/share/doc/gdk4/const.KEY_notsign.html
-* /usr/share/doc/gdk4/const.KEY_Ntilde.html
 * /usr/share/doc/gdk4/const.KEY_ntilde.html
+* /usr/share/doc/gdk4/const.KEY_Ntilde.html
 * /usr/share/doc/gdk4/const.KEY_numbersign.html
 * /usr/share/doc/gdk4/const.KEY_numerosign.html
 * /usr/share/doc/gdk4/const.KEY_Num_Lock.html
@@ -2348,18 +2348,18 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_o.html
 * /usr/share/doc/gdk4/const.KEY_Oacute.html
 * /usr/share/doc/gdk4/const.KEY_oacute.html
-* /usr/share/doc/gdk4/const.KEY_Obarred.html
 * /usr/share/doc/gdk4/const.KEY_obarred.html
-* /usr/share/doc/gdk4/const.KEY_Obelowdot.html
+* /usr/share/doc/gdk4/const.KEY_Obarred.html
 * /usr/share/doc/gdk4/const.KEY_obelowdot.html
+* /usr/share/doc/gdk4/const.KEY_Obelowdot.html
 * /usr/share/doc/gdk4/const.KEY_Ocaron.html
 * /usr/share/doc/gdk4/const.KEY_ocaron.html
-* /usr/share/doc/gdk4/const.KEY_ocircumflex.html
 * /usr/share/doc/gdk4/const.KEY_Ocircumflex.html
+* /usr/share/doc/gdk4/const.KEY_ocircumflex.html
 * /usr/share/doc/gdk4/const.KEY_Ocircumflexacute.html
 * /usr/share/doc/gdk4/const.KEY_ocircumflexacute.html
-* /usr/share/doc/gdk4/const.KEY_Ocircumflexbelowdot.html
 * /usr/share/doc/gdk4/const.KEY_ocircumflexbelowdot.html
+* /usr/share/doc/gdk4/const.KEY_Ocircumflexbelowdot.html
 * /usr/share/doc/gdk4/const.KEY_Ocircumflexgrave.html
 * /usr/share/doc/gdk4/const.KEY_ocircumflexgrave.html
 * /usr/share/doc/gdk4/const.KEY_Ocircumflexhook.html
@@ -2390,8 +2390,8 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_ohornhook.html
 * /usr/share/doc/gdk4/const.KEY_Ohorntilde.html
 * /usr/share/doc/gdk4/const.KEY_ohorntilde.html
-* /usr/share/doc/gdk4/const.KEY_omacron.html
 * /usr/share/doc/gdk4/const.KEY_Omacron.html
+* /usr/share/doc/gdk4/const.KEY_omacron.html
 * /usr/share/doc/gdk4/const.KEY_oneeighth.html
 * /usr/share/doc/gdk4/const.KEY_onefifth.html
 * /usr/share/doc/gdk4/const.KEY_onehalf.html
@@ -2410,8 +2410,8 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_OpenURL.html
 * /usr/share/doc/gdk4/const.KEY_Option.html
 * /usr/share/doc/gdk4/const.KEY_ordfeminine.html
-* /usr/share/doc/gdk4/const.KEY_oslash.html
 * /usr/share/doc/gdk4/const.KEY_Oslash.html
+* /usr/share/doc/gdk4/const.KEY_oslash.html
 * /usr/share/doc/gdk4/const.KEY_Otilde.html
 * /usr/share/doc/gdk4/const.KEY_otilde.html
 * /usr/share/doc/gdk4/const.KEY_overbar.html
@@ -2481,8 +2481,8 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_Prior.html
 * /usr/share/doc/gdk4/const.KEY_prolongedsound.html
 * /usr/share/doc/gdk4/const.KEY_punctspace.html
-* /usr/share/doc/gdk4/const.KEY_q.html
 * /usr/share/doc/gdk4/const.KEY_Q.html
+* /usr/share/doc/gdk4/const.KEY_q.html
 * /usr/share/doc/gdk4/const.KEY_quad.html
 * /usr/share/doc/gdk4/const.KEY_question.html
 * /usr/share/doc/gdk4/const.KEY_questiondown.html
@@ -2717,8 +2717,8 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_Tabovedot.html
 * /usr/share/doc/gdk4/const.KEY_tabovedot.html
 * /usr/share/doc/gdk4/const.KEY_TaskPane.html
-* /usr/share/doc/gdk4/const.KEY_Tcaron.html
 * /usr/share/doc/gdk4/const.KEY_tcaron.html
+* /usr/share/doc/gdk4/const.KEY_Tcaron.html
 * /usr/share/doc/gdk4/const.KEY_Tcedilla.html
 * /usr/share/doc/gdk4/const.KEY_tcedilla.html
 * /usr/share/doc/gdk4/const.KEY_telephone.html
@@ -2951,8 +2951,8 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_Xabovedot.html
 * /usr/share/doc/gdk4/const.KEY_xabovedot.html
 * /usr/share/doc/gdk4/const.KEY_Xfer.html
-* /usr/share/doc/gdk4/const.KEY_Y.html
 * /usr/share/doc/gdk4/const.KEY_y.html
+* /usr/share/doc/gdk4/const.KEY_Y.html
 * /usr/share/doc/gdk4/const.KEY_Yacute.html
 * /usr/share/doc/gdk4/const.KEY_yacute.html
 * /usr/share/doc/gdk4/const.KEY_Ybelowdot.html
@@ -2963,16 +2963,16 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gdk4/const.KEY_ydiaeresis.html
 * /usr/share/doc/gdk4/const.KEY_Yellow.html
 * /usr/share/doc/gdk4/const.KEY_yen.html
-* /usr/share/doc/gdk4/const.KEY_Ygrave.html
 * /usr/share/doc/gdk4/const.KEY_ygrave.html
+* /usr/share/doc/gdk4/const.KEY_Ygrave.html
 * /usr/share/doc/gdk4/const.KEY_Yhook.html
 * /usr/share/doc/gdk4/const.KEY_yhook.html
 * /usr/share/doc/gdk4/const.KEY_Ytilde.html
 * /usr/share/doc/gdk4/const.KEY_ytilde.html
 * /usr/share/doc/gdk4/const.KEY_Z.html
 * /usr/share/doc/gdk4/const.KEY_z.html
-* /usr/share/doc/gdk4/const.KEY_Zabovedot.html
 * /usr/share/doc/gdk4/const.KEY_zabovedot.html
+* /usr/share/doc/gdk4/const.KEY_Zabovedot.html
 * /usr/share/doc/gdk4/const.KEY_Zacute.html
 * /usr/share/doc/gdk4/const.KEY_zacute.html
 * /usr/share/doc/gdk4/const.KEY_Zcaron.html
@@ -4238,10 +4238,10 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gsk4/type_func.SubsurfaceNode.get_subsurface.html
 * /usr/share/doc/gsk4/type_func.Transform.parse.html
 * /usr/share/doc/gsk4/urlmap.js
-* /usr/share/doc/gtk+4-4.13.8/AUTHORS
-* /usr/share/doc/gtk+4-4.13.8/COPYING
-* /usr/share/doc/gtk+4-4.13.8/NEWS
-* /usr/share/doc/gtk+4-4.13.8/README.md
+* /usr/share/doc/gtk+4-4.14.2/AUTHORS
+* /usr/share/doc/gtk+4-4.14.2/COPYING
+* /usr/share/doc/gtk+4-4.14.2/NEWS
+* /usr/share/doc/gtk+4-4.14.2/README.md
 * /usr/share/doc/gtk4/aboutdialog.png
 * /usr/share/doc/gtk4/action-bar.png
 * /usr/share/doc/gtk4/actions.html
@@ -6646,6 +6646,7 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gtk4/method.Image.set_from_resource.html
 * /usr/share/doc/gtk4/method.Image.set_icon_size.html
 * /usr/share/doc/gtk4/method.Image.set_pixel_size.html
+* /usr/share/doc/gtk4/method.IMContext.activate_osk.html
 * /usr/share/doc/gtk4/method.IMContext.delete_surrounding.html
 * /usr/share/doc/gtk4/method.IMContext.filter_key.html
 * /usr/share/doc/gtk4/method.IMContext.filter_keypress.html
@@ -10401,6 +10402,7 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gtk4/vfunc.AccessibleText.get_caret_position.html
 * /usr/share/doc/gtk4/vfunc.AccessibleText.get_contents.html
 * /usr/share/doc/gtk4/vfunc.AccessibleText.get_contents_at.html
+* /usr/share/doc/gtk4/vfunc.AccessibleText.get_default_attributes.html
 * /usr/share/doc/gtk4/vfunc.AccessibleText.get_selection.html
 * /usr/share/doc/gtk4/vfunc.Actionable.get_action_name.html
 * /usr/share/doc/gtk4/vfunc.Actionable.get_action_target_value.html
@@ -10515,6 +10517,7 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gtk4/vfunc.GLArea.render.html
 * /usr/share/doc/gtk4/vfunc.GLArea.resize.html
 * /usr/share/doc/gtk4/vfunc.IMContext.activate_osk.html
+* /usr/share/doc/gtk4/vfunc.IMContext.activate_osk_with_event.html
 * /usr/share/doc/gtk4/vfunc.IMContext.commit.html
 * /usr/share/doc/gtk4/vfunc.IMContext.delete_surrounding.html
 * /usr/share/doc/gtk4/vfunc.IMContext.filter_keypress.html
@@ -10816,6 +10819,7 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/locale/it/LC_MESSAGES/gtk40.mo
 * /usr/share/locale/ja/LC_MESSAGES/gtk40.mo
 * /usr/share/locale/ka/LC_MESSAGES/gtk40.mo
+* /usr/share/locale/kab/LC_MESSAGES/gtk40.mo
 * /usr/share/locale/kg/LC_MESSAGES/gtk40.mo
 * /usr/share/locale/kk/LC_MESSAGES/gtk40.mo
 * /usr/share/locale/km/LC_MESSAGES/gtk40.mo

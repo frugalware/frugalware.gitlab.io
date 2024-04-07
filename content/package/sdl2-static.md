@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sdl2-static 2.30.0-1"
-version = "2.30.0-1"
+title = "sdl2-static 2.30.2-1"
+version = "2.30.2-1"
 description = "Static files for sdl2"
-date = "2024-02-03T14:09:11"
+date = "2024-04-07T19:08:30"
 aliases = "/packages/219947"
 categories = ['devel-extra']
 upstreamurl = "http://libsdl.org"
 arch = "x86_64"
-size = "8918004"
-usize = "11110906"
-sha1sum = "b2dfec7b23b61c5e08f1162f54d670c43c553fac"
+size = "8925396"
+usize = "11119804"
+sha1sum = "5fff59b81bb5a56d07b25141164df3f01cffae8f"
 depends = "[]"
 +++
 ### Description: 

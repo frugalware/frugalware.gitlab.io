@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fish 3.7.0-1"
-version = "3.7.0-1"
+title = "fish 3.7.1-1"
+version = "3.7.1-1"
 description = "fish is a user friendly command line shell for UNIX-like operating systems."
-date = "2024-01-20T21:38:26"
+date = "2024-04-07T20:03:58"
 aliases = "/packages/5434"
 categories = ['apps-extra']
 upstreamurl = "http://fishshell.com"
 arch = "x86_64"
-size = "2422616"
-usize = "15375327"
-sha1sum = "9849e124b5b811e4846d796ce42bd0fa41b51d7a"
+size = "2424504"
+usize = "15386874"
+sha1sum = "622528c1a56465b0d31ea0ed691fce4df6b56c50"
 depends = "['libstdc++>=7.3.0-5', 'ncurses>=6.1', 'pcre2']"
 license = "GPL2"
 +++
@@ -24,8 +24,8 @@ fish is a user friendly command line shell for UNIX-like operating systems.
 * /usr/bin/fish_key_reader
 * /usr/lib/fish.pc
 * /usr/share/applications/fish.desktop
-* /usr/share/doc/fish-3.7.0/COPYING
-* /usr/share/doc/fish-3.7.0/README.rst
+* /usr/share/doc/fish-3.7.1/COPYING
+* /usr/share/doc/fish-3.7.1/README.rst
 * /usr/share/doc/fish/.buildinfo
 * /usr/share/doc/fish/CHANGELOG.rst
 * /usr/share/doc/fish/cmds/abbr.html
@@ -339,6 +339,7 @@ fish is a user friendly command line shell for UNIX-like operating systems.
 * /usr/share/fish/completions/cmark.fish
 * /usr/share/fish/completions/cmd.fish
 * /usr/share/fish/completions/cmdkey.fish
+* /usr/share/fish/completions/cobra-cli.fish
 * /usr/share/fish/completions/code.fish
 * /usr/share/fish/completions/color.fish
 * /usr/share/fish/completions/colordiff.fish
@@ -406,6 +407,7 @@ fish is a user friendly command line shell for UNIX-like operating systems.
 * /usr/share/fish/completions/dlocate.fish
 * /usr/share/fish/completions/dm-tool.fish
 * /usr/share/fish/completions/dmesg.fish
+* /usr/share/fish/completions/dmidecode.fish
 * /usr/share/fish/completions/dnf.fish
 * /usr/share/fish/completions/doas.fish
 * /usr/share/fish/completions/docker.fish
@@ -549,7 +551,6 @@ fish is a user friendly command line shell for UNIX-like operating systems.
 * /usr/share/fish/completions/help.fish
 * /usr/share/fish/completions/heroku.fish
 * /usr/share/fish/completions/hg.fish
-* /usr/share/fish/completions/highlight.fish
 * /usr/share/fish/completions/hikari.fish
 * /usr/share/fish/completions/history.fish
 * /usr/share/fish/completions/hjson.fish
@@ -709,6 +710,7 @@ fish is a user friendly command line shell for UNIX-like operating systems.
 * /usr/share/fish/completions/mutt.fish
 * /usr/share/fish/completions/mv.fish
 * /usr/share/fish/completions/mvn.fish
+* /usr/share/fish/completions/mycli.fish
 * /usr/share/fish/completions/mysql.fish
 * /usr/share/fish/completions/mysqldump.fish
 * /usr/share/fish/completions/namei.fish
@@ -748,6 +750,7 @@ fish is a user friendly command line shell for UNIX-like operating systems.
 * /usr/share/fish/completions/oggenc.fish
 * /usr/share/fish/completions/oksh.fish
 * /usr/share/fish/completions/okular.fish
+* /usr/share/fish/completions/ollama.fish
 * /usr/share/fish/completions/omega.fish
 * /usr/share/fish/completions/op.fish
 * /usr/share/fish/completions/opam.fish
@@ -831,6 +834,7 @@ fish is a user friendly command line shell for UNIX-like operating systems.
 * /usr/share/fish/completions/ps2pdfwr.fish
 * /usr/share/fish/completions/psql.fish
 * /usr/share/fish/completions/pstack.fish
+* /usr/share/fish/completions/pstree.fish
 * /usr/share/fish/completions/psub.fish
 * /usr/share/fish/completions/pushd.fish
 * /usr/share/fish/completions/pv.fish

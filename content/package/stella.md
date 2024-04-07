@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "stella 6.7-1"
-version = "6.7-1"
+title = "stella 6.7.1-1"
+version = "6.7.1-1"
 description = "A multi-platform Atari 2600 VCS emulator"
-date = "2022-09-14T08:00:38"
+date = "2024-04-07T20:10:43"
 aliases = "/packages/38858"
 categories = ['games-extra']
 upstreamurl = "https://stella-emu.github.io"
 arch = "x86_64"
-size = "2731168"
-usize = "10536364"
-sha1sum = "c91f3a9400943dbf8eca133c4dbab7e4de2948ee"
+size = "2299824"
+usize = "9468201"
+sha1sum = "0b41545e17a680eead52c0b474bc96ae2fe7274a"
 depends = "['libstdc++', 'sdl2', 'zlib>=1.2.12']"
 +++
 ### Description: 
@@ -19,17 +19,9 @@ A multi-platform Atari 2600 VCS emulator
 ### Files: 
 * /usr/bin/stella
 * /usr/share/applications/stella.desktop
-* /usr/share/doc/stella-6.7/AUTHORS
-* /usr/share/doc/stella-6.7/ChangeLog
-* /usr/share/doc/stella-6.7/COPYING
-* /usr/share/doc/stella-6.7/COPYRIGHT
-* /usr/share/doc/stella-6.7/CREDITS
-* /usr/share/doc/stella-6.7/INSTALL
-* /usr/share/doc/stella-6.7/README
-* /usr/share/doc/stella-6.7/README-SDL.txt
-* /usr/share/doc/stella-6.7/README.md
-* /usr/share/doc/stella-6.7/Readme.txt
-* /usr/share/doc/stella-6.7/TODO
+* /usr/share/doc/stella-6.7.1/README-SDL.txt
+* /usr/share/doc/stella-6.7.1/README.md
+* /usr/share/doc/stella-6.7.1/Readme.txt
 * /usr/share/doc/stella/Announce.txt
 * /usr/share/doc/stella/Changes.txt
 * /usr/share/doc/stella/Copyright.txt
