@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vscode 1.87.2-1"
-version = "1.87.2-1"
+title = "vscode 1.88.0-1"
+version = "1.88.0-1"
 description = "The Open Source build of Visual Studio Code (vscode) editor"
-date = "2024-03-21T18:20:31"
+date = "2024-04-06T21:47:28"
 aliases = "/packages/219983"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/microsoft/vscode"
 arch = "x86_64"
-size = "90529708"
-usize = "352974740"
-sha1sum = "6e675d2e4a7131b59a30825602fad80a2c82e661"
+size = "91534316"
+usize = "358416850"
+sha1sum = "84dd90b2b92bfea3692f658ed3ab1400e6835224"
 depends = "['ffmpeg', 'libsecret', 'libxkbfile', 'ripgrep', 'sqlite3']"
 +++
 ### Description: 
@@ -22,7 +22,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/applications/code-oss.desktop
 * /usr/share/bash-completion/completions/code
 * /usr/share/bash-completion/completions/code-oss
-* /usr/share/doc/vscode-1.87.2/README.md
+* /usr/share/doc/vscode-1.88.0/README.md
 * /usr/share/metainfo/code-oss.appdata.xml
 * /usr/share/pixmaps/code-oss.png
 * /usr/share/vscode/bin/code-oss
@@ -221,7 +221,6 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/git/resources/icons/light/status-type-changed.svg
 * /usr/share/vscode/resources/app/extensions/git/resources/icons/light/status-untracked.svg
 * /usr/share/vscode/resources/app/extensions/github-authentication/dist/extension.js
-* /usr/share/vscode/resources/app/extensions/github-authentication/dist/extension.js.LICENSE.txt
 * /usr/share/vscode/resources/app/extensions/github-authentication/images/icon.png
 * /usr/share/vscode/resources/app/extensions/github-authentication/media/auth.css
 * /usr/share/vscode/resources/app/extensions/github-authentication/media/favicon.ico
@@ -539,6 +538,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.decorators.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.decorators.legacy.d.ts
+* /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.dom.asynciterable.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.dom.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.dom.iterable.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es2015.collection.d.ts
@@ -554,6 +554,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es2016.array.include.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es2016.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es2016.full.d.ts
+* /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es2016.intl.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es2017.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es2017.date.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es2017.full.d.ts
@@ -607,12 +608,16 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es2023.full.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es5.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es6.d.ts
+* /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.collection.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.decorators.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.disposable.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.full.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.intl.d.ts
+* /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.object.d.ts
+* /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.promise.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.scripthost.d.ts
+* /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.webworker.asynciterable.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.webworker.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.webworker.importscripts.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.webworker.iterable.d.ts
@@ -812,7 +817,6 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/typescript-basics/syntaxes/TypeScript.tmLanguage.json
 * /usr/share/vscode/resources/app/extensions/typescript-basics/syntaxes/TypeScriptReact.tmLanguage.json
 * /usr/share/vscode/resources/app/extensions/typescript-language-features/dist/extension.js
-* /usr/share/vscode/resources/app/extensions/typescript-language-features/dist/extension.js.LICENSE.txt
 * /usr/share/vscode/resources/app/extensions/typescript-language-features/media/icon.png
 * /usr/share/vscode/resources/app/extensions/typescript-language-features/package.json
 * /usr/share/vscode/resources/app/extensions/typescript-language-features/package.nls.json
@@ -918,6 +922,8 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/taskCompleted.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/taskFailed.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/terminalBell.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/voiceRecordingStarted.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/voiceRecordingStopped.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/warning.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/files/node/watcher/watcherMain.js
 * /usr/share/vscode/resources/app/out/vs/platform/files/node/watcher/watcherMain.nls.js
