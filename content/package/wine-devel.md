@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wine-devel 9.3-1"
-version = "9.3-1"
+title = "wine-devel 9.6-1"
+version = "9.6-1"
 description = "An Open Source implementation of the Windows API on top of X and Unix. (Development)"
-date = "2024-02-27T15:28:53"
+date = "2024-04-07T01:14:54"
 aliases = "/packages/136362"
 categories = ['xapps-extra']
 upstreamurl = "http://www.winehq.org"
 arch = "x86_64"
-size = "73507136"
-usize = "654276691"
-sha1sum = "4934d85fa2721dca622f8ff1fd46da162d894789"
+size = "74072872"
+usize = "655226528"
+sha1sum = "6b12e6695c2c07a02c5d6ec940aa9452a4a4b935"
 depends = "['faudio', 'gettext', 'gst1-plugins-base', 'gst1-plugins-base', 'lcms2', 'lib32-faudio', 'lib32-freetype2', 'lib32-lcms2', 'lib32-libldap>=2.5.4', 'lib32-libosmesa', 'lib32-libxcomposite', 'lib32-libxcursor', 'lib32-libxi', 'lib32-libxinerama', 'lib32-libxml2', 'lib32-libxrandr', 'lib32-libxrender', 'lib32-ncurses', 'lib32-ocl-icd', 'lib32-vkd3d', 'lib32-vulkan-icd-loader', 'libglu', 'libgphoto2', 'libldap>=2.5.4', 'libmpg123', 'libosmesa', 'libpcap', 'libpulse', 'libxcomposite', 'libxcursor', 'libxi', 'libxinerama', 'libxkbcommon', 'libxml2', 'libxrandr', 'libxrender', 'libxslt', 'ocl-icd', 'openal', 'pcsc-lite', 'sane-backends', 'v4l-utils', 'vkd3d', 'vulkan-icd-loader']"
 +++
 ### Description: 
@@ -562,6 +562,8 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/hlguids.h
 * /usr/include/wine/windows/hlink.h
 * /usr/include/wine/windows/hlink.idl
+* /usr/include/wine/windows/holographicspaceinterop.h
+* /usr/include/wine/windows/holographicspaceinterop.idl
 * /usr/include/wine/windows/hrtfapoapi.h
 * /usr/include/wine/windows/hrtfapoapi.idl
 * /usr/include/wine/windows/hstring.h
@@ -910,6 +912,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/rstloc.idl
 * /usr/include/wine/windows/rstnot.idl
 * /usr/include/wine/windows/rstupd.idl
+* /usr/include/wine/windows/rtlsupportapi.h
 * /usr/include/wine/windows/rtutils.h
 * /usr/include/wine/windows/rtworkq.h
 * /usr/include/wine/windows/rtworkq.idl
@@ -1647,6 +1650,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/libd3d8.a
 * /usr/lib/wine/x86_64-unix/libd3d9.a
 * /usr/lib/wine/x86_64-unix/libd3dcompiler.a
+* /usr/lib/wine/x86_64-unix/libd3dcompiler_39.a
 * /usr/lib/wine/x86_64-unix/libd3dcompiler_43.a
 * /usr/lib/wine/x86_64-unix/libd3dcompiler_46.a
 * /usr/lib/wine/x86_64-unix/libd3drm.a
@@ -1685,6 +1689,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/libdxva2.a
 * /usr/lib/wine/x86_64-unix/libevr.a
 * /usr/lib/wine/x86_64-unix/libfaultrep.a
+* /usr/lib/wine/x86_64-unix/libfltmgr.a
 * /usr/lib/wine/x86_64-unix/libgdi32.a
 * /usr/lib/wine/x86_64-unix/libgdiplus.a
 * /usr/lib/wine/x86_64-unix/libglu32.a
@@ -1832,7 +1837,6 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/libwmcodecdspuuid.a
 * /usr/lib/wine/x86_64-unix/libwmvcore.a
 * /usr/lib/wine/x86_64-unix/libwnaspi32.a
-* /usr/lib/wine/x86_64-unix/libwow64.a
 * /usr/lib/wine/x86_64-unix/libws2_32.a
 * /usr/lib/wine/x86_64-unix/libwsdapi.a
 * /usr/lib/wine/x86_64-unix/libwsnmp32.a
@@ -2250,9 +2254,6 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/wnaspi32.dll.so
 * /usr/lib/wine/x86_64-unix/wofutil.dll.so
 * /usr/lib/wine/x86_64-unix/wordpad.exe.so
-* /usr/lib/wine/x86_64-unix/wow64.dll.so
-* /usr/lib/wine/x86_64-unix/wow64cpu.dll.so
-* /usr/lib/wine/x86_64-unix/wow64win.dll.so
 * /usr/lib/wine/x86_64-unix/wpc.dll.so
 * /usr/lib/wine/x86_64-unix/wpcap.dll.so
 * /usr/lib/wine/x86_64-unix/wpcap.so
@@ -2979,9 +2980,6 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-windows/wnaspi32.dll
 * /usr/lib/wine/x86_64-windows/wofutil.dll
 * /usr/lib/wine/x86_64-windows/wordpad.exe
-* /usr/lib/wine/x86_64-windows/wow64.dll
-* /usr/lib/wine/x86_64-windows/wow64cpu.dll
-* /usr/lib/wine/x86_64-windows/wow64win.dll
 * /usr/lib/wine/x86_64-windows/wpc.dll
 * /usr/lib/wine/x86_64-windows/wpcap.dll
 * /usr/lib/wine/x86_64-windows/write.exe
@@ -3363,6 +3361,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/libd3d8.a
 * /usr/lib32/wine/i386-unix/libd3d9.a
 * /usr/lib32/wine/i386-unix/libd3dcompiler.a
+* /usr/lib32/wine/i386-unix/libd3dcompiler_39.a
 * /usr/lib32/wine/i386-unix/libd3dcompiler_43.a
 * /usr/lib32/wine/i386-unix/libd3dcompiler_46.a
 * /usr/lib32/wine/i386-unix/libd3drm.a
@@ -3401,6 +3400,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/libdxva2.a
 * /usr/lib32/wine/i386-unix/libevr.a
 * /usr/lib32/wine/i386-unix/libfaultrep.a
+* /usr/lib32/wine/i386-unix/libfltmgr.a
 * /usr/lib32/wine/i386-unix/libgdi32.a
 * /usr/lib32/wine/i386-unix/libgdiplus.a
 * /usr/lib32/wine/i386-unix/libglu32.a
@@ -4846,11 +4846,11 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-windows/xpsprint.dll
 * /usr/lib32/wine/i386-windows/xpssvcs.dll
 * /usr/share/applications/wine.desktop
-* /usr/share/doc/wine-devel-9.3/AUTHORS
-* /usr/share/doc/wine-devel-9.3/COPYING.LIB
-* /usr/share/doc/wine-devel-9.3/LICENSE
-* /usr/share/doc/wine-devel-9.3/README.md
-* /usr/share/doc/wine-devel-9.3/VERSION
+* /usr/share/doc/wine-devel-9.6/AUTHORS
+* /usr/share/doc/wine-devel-9.6/COPYING.LIB
+* /usr/share/doc/wine-devel-9.6/LICENSE
+* /usr/share/doc/wine-devel-9.6/README.md
+* /usr/share/doc/wine-devel-9.6/VERSION
 * /usr/share/man/de.UTF-8/man1/wine.1.gz
 * /usr/share/man/de.UTF-8/man1/winemaker.1.gz
 * /usr/share/man/de.UTF-8/man1/wineserver.1.gz
