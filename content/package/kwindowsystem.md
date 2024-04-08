@@ -12,7 +12,7 @@ size = "205612"
 usize = "815209"
 sha1sum = "f272ce5c55f14d19d5adf23fa5a198876dec86d5"
 depends = "['qt6-wayland>=6.7.0', 'xcb-util-keysyms>=0.4.0-3']"
-reverse_depends = "['audiotube', 'breeze', 'dolphin', 'kauth', 'kcrash', 'keysmith', 'krecorder', 'kstatusnotifieritem', 'kwin', 'libksysguard', 'libksysguard5', 'plasma-browser-integration', 'plasmatube', 'qmlkonsole', 'wacomtablet', 'xwaylandvideobridge']"
+reverse_depends = "['audiotube', 'breeze', 'dolphin', 'kauth', 'kcrash', 'keysmith', 'krecorder', 'kstatusnotifieritem', 'kwin', 'libksysguard', 'libksysguard5', 'pinentry-qt6', 'plasma-browser-integration', 'plasmatube', 'qmlkonsole', 'wacomtablet', 'xwaylandvideobridge']"
 +++
 ### Description: 
 KDE Access to window manager.

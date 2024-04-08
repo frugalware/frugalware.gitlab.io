@@ -12,7 +12,7 @@ size = "1700092"
 usize = "10575130"
 sha1sum = "8b6bea611ba7b734bba69f4a303bd8e98c7b7a02"
 depends = "['gtk+4', 'libsecret']"
-reverse_depends = "['gcr-doc', 'gnome-keyring']"
+reverse_depends = "['gcr-doc', 'gnome-keyring', 'pinentry-gnome']"
 +++
 ### Description: 
 A library for bits of crypto UI

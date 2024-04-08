@@ -12,7 +12,7 @@ size = "30946028"
 usize = "74246814"
 sha1sum = "4f5ce7daeb22266bb209da51aa3cef773b3f3647"
 depends = "['avahi', 'bullet>=2.89', 'bzip2', 'dbus', 'expat', 'flac', 'fontconfig', 'freetype2', 'fribidi', 'glib2', 'glibc', 'graphite2', 'gst1-plugins-base', 'gstreamer1', 'harfbuzz', 'json-c', 'libasyncns', 'libblkid', 'libdrm', 'libevdev', 'libffi', 'libgbm', 'libgcc', 'libgcrypt', 'libgif', 'libgif', 'libgl', 'libglapi', 'libgpg-error', 'libinput', 'libjpeg-turbo', 'libogg', 'libpng', 'libpulse', 'libraw>=0.21.1', 'librsvg', 'libsndfile', 'libspectre', 'libssp', 'libstdc++', 'libsystemd', 'libtiff', 'libunwind', 'libuuid', 'libvlc', 'libvorbis', 'libwebp', 'libx11', 'libxau', 'libxcb', 'libxcomposite', 'libxcursor', 'libxdamage', 'libxdmcp', 'libxext', 'libxfixes', 'libxi', 'libxinerama', 'libxkbcommon', 'libxrandr', 'libxrender', 'libxscrnsaver', 'libxshmfence', 'libxtst', 'libxxf86vm', 'luajit2', 'lz4', 'mtdev', 'openjpeg>=2.2.0', 'openssl>=3.1.0', 'orc', 'pcre', 'poppler>=0.60.1-2', 'scim', 'util-linux', 'wayland', 'wayland', 'wayland-protocols', 'xz', 'zlib>=1.2.12']"
-reverse_depends = "['eflete', 'enlightenment', 'enventor', 'python-efl', 'rage', 'terminology']"
+reverse_depends = "['eflete', 'enlightenment', 'enventor', 'pinentry-enlightment', 'python-efl', 'rage', 'terminology']"
 license = "LGPL2.1"
 +++
 ### Description: 
