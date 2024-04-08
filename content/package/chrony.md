@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "chrony 4.5-2"
-version = "4.5-2"
+title = "chrony 4.5-3"
+version = "4.5-3"
 description = "Dial-up friendly NTP daemon and excellent replacement for NTP on desktop systems"
-date = "2024-01-07T21:10:55"
+date = "2024-04-08T17:56:17"
 aliases = "/packages/136603"
 categories = ['network']
-upstreamurl = "http://chrony.tuxfamily.org/"
+upstreamurl = "https://chrony-project.org"
 arch = "x86_64"
-size = "276188"
+size = "276444"
 usize = "583836"
-sha1sum = "5521c38486fdd4a70b3a318769ab1d1da071beae"
+sha1sum = "624067fac1771385304f1cc082da1ae3fe73bc63"
 depends = "['libcap>=2.24-4', 'nettle>=3.6', 'readline>=8.0']"
 reverse_depends = "['networkmanager-dispatcher-chrony']"
 +++
