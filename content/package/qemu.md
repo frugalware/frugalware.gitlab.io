@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qemu 8.2.0-2"
-version = "8.2.0-2"
+title = "qemu 8.2.2-1"
+version = "8.2.2-1"
 description = "QEMU is a FAST! processor emulator"
-date = "2024-01-30T09:21:05"
+date = "2024-04-08T19:50:09"
 aliases = "/packages/3815"
 categories = ['xapps-extra']
 upstreamurl = "http://www.nongnu.org/qemu/"
 arch = "x86_64"
-size = "123753804"
-usize = "732904048"
-sha1sum = "4fbf59da633428222f55a83c27c5c07fd7ce65a0"
+size = "123292500"
+usize = "731965154"
+sha1sum = "c26f857af836722194d676424972e21a8373246a"
 depends = "['alsa-lib', 'bluez', 'curl', 'cyrus-sasl', 'jemalloc', 'libaio', 'libepoxy', 'libgbm', 'libgl', 'libglu', 'libjpeg-turbo', 'libpng>=1.6.20', 'libseccomp', 'libssh2', 'liburing', 'libx11', 'lzo', 'ncurses>=6.0-3', 'nettle>=3.6', 'nss', 'numactl', 'pixman', 'pulseaudio', 'sdl2', 'snappy', 'spice-protocol', 'usbredir>=0.8.0']"
 reverse_depends = "['libguestfs']"
 +++
@@ -58,11 +58,7 @@ QEMU is a FAST! processor emulator
 * /usr/bin/qemu-system-x86_64
 * /usr/bin/qemu-system-xtensa
 * /usr/bin/qemu-system-xtensaeb
-* /usr/include/fdt.h
-* /usr/include/libfdt.h
-* /usr/include/libfdt_env.h
 * /usr/include/qemu-plugin.h
-* /usr/lib/pkgconfig/libfdt.pc
 * /usr/lib/qemu/accel-qtest-aarch64.so
 * /usr/lib/qemu/accel-qtest-alpha.so
 * /usr/lib/qemu/accel-qtest-arm.so
@@ -124,12 +120,12 @@ QEMU is a FAST! processor emulator
 * /usr/lib/qemu/ui-spice-core.so
 * /usr/lib/qemu/virtfs-proxy-helper
 * /usr/share/applications/qemu.desktop
-* /usr/share/doc/qemu-8.2.0/COPYING
-* /usr/share/doc/qemu-8.2.0/COPYING.LIB
-* /usr/share/doc/qemu-8.2.0/LICENSE
-* /usr/share/doc/qemu-8.2.0/README.Frugalware
-* /usr/share/doc/qemu-8.2.0/README.rst
-* /usr/share/doc/qemu-8.2.0/VERSION
+* /usr/share/doc/qemu-8.2.2/COPYING
+* /usr/share/doc/qemu-8.2.2/COPYING.LIB
+* /usr/share/doc/qemu-8.2.2/LICENSE
+* /usr/share/doc/qemu-8.2.2/README.Frugalware
+* /usr/share/doc/qemu-8.2.2/README.rst
+* /usr/share/doc/qemu-8.2.2/VERSION
 * /usr/share/doc/qemu/.buildinfo
 * /usr/share/doc/qemu/about/build-platforms.html
 * /usr/share/doc/qemu/about/deprecated.html
