@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "scummvm 2.7.1-1"
-version = "2.7.1-1"
+title = "scummvm 2.8.1-1"
+version = "2.8.1-1"
 description = "ScummVM is a program which allows you to run certain classic graphical point-and-click adventure games."
-date = "2023-09-13T09:40:38"
+date = "2024-04-08T12:04:28"
 aliases = "/packages/16071"
 categories = ['games-extra']
 upstreamurl = "http://www.scummvm.org/"
 arch = "x86_64"
-size = "73677488"
-usize = "141966343"
-sha1sum = "b0ad9c514b0d8ccef8431ccb812caf2e9bb0fba3"
+size = "96250700"
+usize = "171863340"
+sha1sum = "d090b4e85bd0724b99c2c701ff5feb1b4ec19ff3"
 depends = "['curl', 'faad2', 'fluidsynth', 'freetype2', 'fribidi', 'glib2', 'libjpeg-turbo', 'libmad', 'libtheora', 'sdl2_net']"
 reverse_depends = "['scummvm-tools']"
 +++
@@ -19,48 +19,57 @@ ScummVM is a program which allows you to run certain classic graphical point-and
 
 ### Files: 
 * /usr/bin/scummvm
-* /usr/share/applications/scummvm.desktop
-* /usr/share/doc/scummvm-2.7.1/AUTHORS
-* /usr/share/doc/scummvm-2.7.1/CONTRIBUTING.md
-* /usr/share/doc/scummvm-2.7.1/COPYING
-* /usr/share/doc/scummvm-2.7.1/COPYING.BSD
-* /usr/share/doc/scummvm-2.7.1/COPYING.FREEFONT
-* /usr/share/doc/scummvm-2.7.1/COPYING.GLAD
-* /usr/share/doc/scummvm-2.7.1/COPYING.ISC
-* /usr/share/doc/scummvm-2.7.1/COPYING.LGPL
-* /usr/share/doc/scummvm-2.7.1/COPYING.LUA
-* /usr/share/doc/scummvm-2.7.1/COPYING.MIT
-* /usr/share/doc/scummvm-2.7.1/COPYING.OFL
-* /usr/share/doc/scummvm-2.7.1/COPYING.TINYGL
-* /usr/share/doc/scummvm-2.7.1/COPYRIGHT
-* /usr/share/doc/scummvm-2.7.1/NEWS.md
-* /usr/share/doc/scummvm-2.7.1/README.md
-* /usr/share/doc/scummvm-2.7.1/TODO
-* /usr/share/icons/hicolor/scalable/apps/scummvm.svg
+* /usr/share/applications/org.scummvm.scummvm.desktop
+* /usr/share/doc/scummvm-2.8.1/AUTHORS
+* /usr/share/doc/scummvm-2.8.1/CatharonLicense.txt
+* /usr/share/doc/scummvm-2.8.1/CONTRIBUTING.md
+* /usr/share/doc/scummvm-2.8.1/COPYING
+* /usr/share/doc/scummvm-2.8.1/COPYING.BSD
+* /usr/share/doc/scummvm-2.8.1/COPYING.FREEFONT
+* /usr/share/doc/scummvm-2.8.1/COPYING.GLAD
+* /usr/share/doc/scummvm-2.8.1/COPYING.ISC
+* /usr/share/doc/scummvm-2.8.1/COPYING.LGPL
+* /usr/share/doc/scummvm-2.8.1/COPYING.LUA
+* /usr/share/doc/scummvm-2.8.1/COPYING.MIT
+* /usr/share/doc/scummvm-2.8.1/COPYING.MKV
+* /usr/share/doc/scummvm-2.8.1/COPYING.OFL
+* /usr/share/doc/scummvm-2.8.1/COPYING.TINYGL
+* /usr/share/doc/scummvm-2.8.1/COPYRIGHT
+* /usr/share/doc/scummvm-2.8.1/COPYRIGHT.Roland_SC-55
+* /usr/share/doc/scummvm-2.8.1/NEWS.md
+* /usr/share/doc/scummvm-2.8.1/README.md
+* /usr/share/doc/scummvm-2.8.1/TODO
+* /usr/share/icons/hicolor/scalable/apps/org.scummvm.scummvm.svg
 * /usr/share/man/man6/scummvm.6.gz
-* /usr/share/metainfo/scummvm.appdata.xml
-* /usr/share/pixmaps/scummvm.xpm
+* /usr/share/metainfo/org.scummvm.scummvm.metainfo.xml
+* /usr/share/pixmaps/org.scummvm.scummvm.xpm
 * /usr/share/scummvm/access.dat
 * /usr/share/scummvm/achievements.dat
 * /usr/share/scummvm/classicmacfonts.dat
 * /usr/share/scummvm/cryomni3d.dat
 * /usr/share/scummvm/drascula.dat
 * /usr/share/scummvm/encoding.dat
+* /usr/share/scummvm/fonts-cjk.dat
 * /usr/share/scummvm/fonts.dat
 * /usr/share/scummvm/freescape.dat
 * /usr/share/scummvm/grim-patch.lab
 * /usr/share/scummvm/gui-icons.dat
 * /usr/share/scummvm/hadesch_translations.dat
+* /usr/share/scummvm/helpdialog.zip
 * /usr/share/scummvm/hugo.dat
 * /usr/share/scummvm/kyra.dat
 * /usr/share/scummvm/lure.dat
 * /usr/share/scummvm/macgui.dat
+* /usr/share/scummvm/mm.dat
 * /usr/share/scummvm/mort.dat
 * /usr/share/scummvm/myst3.dat
+* /usr/share/scummvm/nancy.dat
 * /usr/share/scummvm/neverhood.dat
 * /usr/share/scummvm/pred.dic
+* /usr/share/scummvm/prince_translation.dat
 * /usr/share/scummvm/queen.tbl
 * /usr/share/scummvm/residualvm.zip
+* /usr/share/scummvm/Roland_SC-55.sf2
 * /usr/share/scummvm/scummclassic.zip
 * /usr/share/scummvm/scummmodern.zip
 * /usr/share/scummvm/scummremastered.zip
@@ -113,6 +122,8 @@ ScummVM is a program which allows you to run certain classic graphical point-and
 * /usr/share/scummvm/shaders/stark_shadow.vertex
 * /usr/share/scummvm/shaders/stark_surface.fragment
 * /usr/share/scummvm/shaders/stark_surface.vertex
+* /usr/share/scummvm/shaders/stark_surface_fill.fragment
+* /usr/share/scummvm/shaders/stark_surface_fill.vertex
 * /usr/share/scummvm/shaders/wme_fade.fragment
 * /usr/share/scummvm/shaders/wme_fade.vertex
 * /usr/share/scummvm/shaders/wme_flat_shadow_mask.fragment
@@ -139,6 +150,6 @@ ScummVM is a program which allows you to run certain classic graphical point-and
 * /usr/share/scummvm/toon.dat
 * /usr/share/scummvm/translations.dat
 * /usr/share/scummvm/ultima.dat
+* /usr/share/scummvm/ultima8.dat
 * /usr/share/scummvm/wintermute.zip
 * /usr/share/scummvm/wwwroot.zip
-* /usr/share/scummvm/xeen.ccs

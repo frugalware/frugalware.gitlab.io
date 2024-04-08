@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gottet 1.2.2-6"
-version = "1.2.2-6"
+title = "gottet 1.2.3-1"
+version = "1.2.3-1"
 description = "Gottet is a tetris clone."
-date = "2024-04-05T13:05:57"
+date = "2024-04-08T11:45:30"
 aliases = "/packages/184378"
 categories = ['games-extra']
 upstreamurl = "http://gottcode.org/gottet/"
 arch = "x86_64"
-size = "247080"
-usize = "440220"
-sha1sum = "77e4a6cd6d2cc0118c28b19db7d8fcb385c2b5b4"
+size = "246924"
+usize = "440524"
+sha1sum = "3478f55cb1b91c17ebbccdfd2da055f8d1aee91f"
 depends = "['qt6-base']"
 +++
 ### Description: 
@@ -19,11 +19,11 @@ Gottet is a tetris clone.
 ### Files: 
 * /usr/bin/gottet
 * /usr/share/applications/gottet.desktop
-* /usr/share/doc/gottet-1.2.2/ChangeLog
-* /usr/share/doc/gottet-1.2.2/COPYING
-* /usr/share/doc/gottet-1.2.2/CREDITS
-* /usr/share/doc/gottet-1.2.2/INSTALL
-* /usr/share/doc/gottet-1.2.2/README
+* /usr/share/doc/gottet-1.2.3/ChangeLog
+* /usr/share/doc/gottet-1.2.3/COPYING
+* /usr/share/doc/gottet-1.2.3/CREDITS
+* /usr/share/doc/gottet-1.2.3/INSTALL
+* /usr/share/doc/gottet-1.2.3/README
 * /usr/share/gottet/translations/gottet_ca.qm
 * /usr/share/gottet/translations/gottet_cs.qm
 * /usr/share/gottet/translations/gottet_de.qm
