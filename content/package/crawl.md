@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "crawl 0.27.1-3"
-version = "0.27.1-3"
+title = "crawl 0.31.0-1"
+version = "0.31.0-1"
 description = "Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelike game of exploration and treasure-hunting"
-date = "2022-07-18T19:55:40"
+date = "2024-04-08T13:05:23"
 aliases = "/packages/153713"
 categories = ['games-extra']
-upstreamurl = "http://crawl.develz.org/wordpress/"
+upstreamurl = "https://crawl.develz.org"
 arch = "x86_64"
-size = "5709092"
-usize = "19720321"
-sha1sum = "265836cb054f7b58f41479b8a10b69cf49602048"
+size = "6323012"
+usize = "29622332"
+sha1sum = "8d63cb8c41a9f78597a652601056b70caaa6649e"
 depends = "['lua', 'ncurses>=6.0-3', 'pyyaml3', 'sqlite3', 'zlib>=1.2.12']"
 +++
 ### Description: 
@@ -18,8 +18,8 @@ Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelik
 
 ### Files: 
 * /usr/bin/crawl
-* /usr/share/doc/crawl-0.27.1/INSTALL.md
-* /usr/share/doc/crawl-0.27.1/LICENSE
+* /usr/share/doc/crawl-0.31.0/INSTALL.md
+* /usr/share/doc/crawl-0.31.0/LICENSE
 * /usr/share/games/crawl/data/dat/clua/autofight.lua
 * /usr/share/games/crawl/data/dat/clua/automagic.lua
 * /usr/share/games/crawl/data/dat/clua/delays.lua
@@ -47,6 +47,15 @@ Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelik
 * /usr/share/games/crawl/data/dat/database/rand_wpn.txt
 * /usr/share/games/crawl/data/dat/database/shout.txt
 * /usr/share/games/crawl/data/dat/database/wpnnoise.txt
+* /usr/share/games/crawl/data/dat/database/zh/FAQ.txt
+* /usr/share/games/crawl/data/dat/database/zh/godname.txt
+* /usr/share/games/crawl/data/dat/database/zh/godspeak.txt
+* /usr/share/games/crawl/data/dat/database/zh/help.txt
+* /usr/share/games/crawl/data/dat/database/zh/miscname.txt
+* /usr/share/games/crawl/data/dat/database/zh/monflee.txt
+* /usr/share/games/crawl/data/dat/database/zh/monspell.txt
+* /usr/share/games/crawl/data/dat/database/zh/montitle.txt
+* /usr/share/games/crawl/data/dat/database/zh/shout.txt
 * /usr/share/games/crawl/data/dat/defaults/autopickup_exceptions.txt
 * /usr/share/games/crawl/data/dat/defaults/glyph_colours.txt
 * /usr/share/games/crawl/data/dat/defaults/menu_colours.txt
@@ -83,7 +92,9 @@ Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelik
 * /usr/share/games/crawl/data/dat/des/branches/dis.des
 * /usr/share/games/crawl/data/dat/des/branches/elf.des
 * /usr/share/games/crawl/data/dat/des/branches/geh.des
+* /usr/share/games/crawl/data/dat/des/branches/geh_lava_maze.des
 * /usr/share/games/crawl/data/dat/des/branches/hell.des
+* /usr/share/games/crawl/data/dat/des/branches/hells.des
 * /usr/share/games/crawl/data/dat/des/branches/hilbert_zone.des
 * /usr/share/games/crawl/data/dat/des/branches/lair.des
 * /usr/share/games/crawl/data/dat/des/branches/orc.des
@@ -106,6 +117,7 @@ Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelik
 * /usr/share/games/crawl/data/dat/des/branches/zot.des
 * /usr/share/games/crawl/data/dat/des/builder/alphashops.des
 * /usr/share/games/crawl/data/dat/des/builder/arena.des
+* /usr/share/games/crawl/data/dat/des/builder/custombooks.des
 * /usr/share/games/crawl/data/dat/des/builder/decor.des
 * /usr/share/games/crawl/data/dat/des/builder/dummy.des
 * /usr/share/games/crawl/data/dat/des/builder/layout.des
@@ -128,6 +140,7 @@ Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelik
 * /usr/share/games/crawl/data/dat/des/builder/shops.des
 * /usr/share/games/crawl/data/dat/des/builder/uniques.des
 * /usr/share/games/crawl/data/dat/des/guide.txt
+* /usr/share/games/crawl/data/dat/des/portals/arena.des
 * /usr/share/games/crawl/data/dat/des/portals/bailey.des
 * /usr/share/games/crawl/data/dat/des/portals/bazaar.des
 * /usr/share/games/crawl/data/dat/des/portals/desolation.des
@@ -144,15 +157,18 @@ Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelik
 * /usr/share/games/crawl/data/dat/des/serial/column_ruins.des
 * /usr/share/games/crawl/data/dat/des/serial/corridors.des
 * /usr/share/games/crawl/data/dat/des/serial/curves.des
+* /usr/share/games/crawl/data/dat/des/serial/demonic.des
 * /usr/share/games/crawl/data/dat/des/serial/forest.des
 * /usr/share/games/crawl/data/dat/des/serial/glass.des
 * /usr/share/games/crawl/data/dat/des/serial/gnoll_camp.des
 * /usr/share/games/crawl/data/dat/des/serial/ice.des
+* /usr/share/games/crawl/data/dat/des/serial/library.des
 * /usr/share/games/crawl/data/dat/des/serial/magic_research.des
 * /usr/share/games/crawl/data/dat/des/serial/park.des
 * /usr/share/games/crawl/data/dat/des/serial/rivers.des
 * /usr/share/games/crawl/data/dat/des/serial/serial_guide.txt
 * /usr/share/games/crawl/data/dat/des/serial/sigils.des
+* /usr/share/games/crawl/data/dat/des/serial/subway.des
 * /usr/share/games/crawl/data/dat/des/serial/undead.des
 * /usr/share/games/crawl/data/dat/des/serial/window.des
 * /usr/share/games/crawl/data/dat/des/sprint/arena_sprint.des
@@ -373,9 +389,11 @@ Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelik
 * /usr/share/games/crawl/data/dat/descript/lv/unident.txt
 * /usr/share/games/crawl/data/dat/descript/lv/unrand.txt
 * /usr/share/games/crawl/data/dat/descript/monsters.txt
+* /usr/share/games/crawl/data/dat/descript/mutations.txt
 * /usr/share/games/crawl/data/dat/descript/nl/ability.txt
 * /usr/share/games/crawl/data/dat/descript/nl/tutorial.txt
 * /usr/share/games/crawl/data/dat/descript/nl/unident.txt
+* /usr/share/games/crawl/data/dat/descript/passives.txt
 * /usr/share/games/crawl/data/dat/descript/pl/ability.txt
 * /usr/share/games/crawl/data/dat/descript/pl/backgrounds.txt
 * /usr/share/games/crawl/data/dat/descript/pl/cards.txt
@@ -450,10 +468,13 @@ Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelik
 * /usr/share/games/crawl/data/dat/descript/zh/hints.txt
 * /usr/share/games/crawl/data/dat/descript/zh/items.txt
 * /usr/share/games/crawl/data/dat/descript/zh/monsters.txt
+* /usr/share/games/crawl/data/dat/descript/zh/mutations.txt
+* /usr/share/games/crawl/data/dat/descript/zh/passives.txt
 * /usr/share/games/crawl/data/dat/descript/zh/quotes.txt
 * /usr/share/games/crawl/data/dat/descript/zh/skills.txt
 * /usr/share/games/crawl/data/dat/descript/zh/species.txt
 * /usr/share/games/crawl/data/dat/descript/zh/spells.txt
+* /usr/share/games/crawl/data/dat/descript/zh/status.txt
 * /usr/share/games/crawl/data/dat/descript/zh/tutorial.txt
 * /usr/share/games/crawl/data/dat/descript/zh/unident.txt
 * /usr/share/games/crawl/data/dat/descript/zh/unrand.txt
@@ -534,10 +555,10 @@ Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelik
 * /usr/share/games/crawl/data/dat/dlua/lm_items.lua
 * /usr/share/games/crawl/data/dat/dlua/lm_monst.lua
 * /usr/share/games/crawl/data/dat/dlua/lm_mon_prop.lua
-* /usr/share/games/crawl/data/dat/dlua/lm_mslav.lua
 * /usr/share/games/crawl/data/dat/dlua/lm_named_hatch.lua
 * /usr/share/games/crawl/data/dat/dlua/lm_pdesc.lua
 * /usr/share/games/crawl/data/dat/dlua/lm_props.lua
+* /usr/share/games/crawl/data/dat/dlua/lm_replica.lua
 * /usr/share/games/crawl/data/dat/dlua/lm_timed.lua
 * /usr/share/games/crawl/data/dat/dlua/lm_tmsg.lua
 * /usr/share/games/crawl/data/dat/dlua/lm_toll.lua
@@ -574,7 +595,6 @@ Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelik
 * /usr/share/games/crawl/data/docs/CREDITS.txt
 * /usr/share/games/crawl/data/docs/develop/android.txt
 * /usr/share/games/crawl/data/docs/develop/arena.txt
-* /usr/share/games/crawl/data/docs/develop/background_creation.txt
 * /usr/share/games/crawl/data/docs/develop/ctags.txt
 * /usr/share/games/crawl/data/docs/develop/editor_tips.txt
 * /usr/share/games/crawl/data/docs/develop/gdb_tips.txt
@@ -608,18 +628,6 @@ Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelik
 * /usr/share/games/crawl/data/docs/quickstart.txt
 * /usr/share/games/crawl/data/docs/ssh_guide.txt
 * /usr/share/games/crawl/data/docs/tiles_help.txt
-* /usr/share/games/crawl/data/settings/0.12_monster_glyphs.txt
-* /usr/share/games/crawl/data/settings/0.13_monster_glyphs.txt
-* /usr/share/games/crawl/data/settings/0.14_monster_glyphs.txt
-* /usr/share/games/crawl/data/settings/0.16_monster_glyphs.txt
-* /usr/share/games/crawl/data/settings/0.17_monster_glyphs.txt
-* /usr/share/games/crawl/data/settings/0.18_monster_glyphs.txt
-* /usr/share/games/crawl/data/settings/0.9_monster_glyphs.txt
-* /usr/share/games/crawl/data/settings/034_command_keys.txt
-* /usr/share/games/crawl/data/settings/052_monster_glyphs.txt
-* /usr/share/games/crawl/data/settings/060_monster_glyphs.txt
-* /usr/share/games/crawl/data/settings/071_monster_glyphs.txt
-* /usr/share/games/crawl/data/settings/080_monster_glyphs.txt
 * /usr/share/games/crawl/data/settings/advanced_optioneering.txt
 * /usr/share/games/crawl/data/settings/colemak_command_keys.txt
 * /usr/share/games/crawl/data/settings/dec_glyphs.txt
