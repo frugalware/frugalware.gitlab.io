@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "freeciv-gtk3 3.0.9-2"
-version = "3.0.9-2"
+title = "freeciv-gtk3 3.1.0-1"
+version = "3.1.0-1"
 description = "GTK+3 client for freeciv"
-date = "2024-03-28T14:57:49"
+date = "2024-04-08T15:19:51"
 aliases = "/packages/217365"
 categories = ['games-extra']
 upstreamurl = "http://freeciv.wikia.com/wiki/Main_Page"
 arch = "x86_64"
-size = "621892"
-usize = "1815463"
-sha1sum = "706b2509a5ee9b3815992a9386b3a19966105849"
+size = "1311288"
+usize = "2581578"
+sha1sum = "4249650c374462d91ca81bb2e0680d7215cd9f08"
 depends = "['freeciv', 'gtk+3']"
 +++
 ### Description: 
@@ -19,4 +19,11 @@ GTK+3 client for freeciv
 ### Files: 
 * /usr/bin/freeciv-gtk3.22
 * /usr/bin/freeciv-mp-gtk3
+* /usr/share/applications/org.freeciv.gtk3.mp.desktop
 * /usr/share/applications/org.freeciv.gtk322.desktop
+* /usr/share/freeciv/themes/gtk3.22/Freeciv/gtk-3.0/bg.png
+* /usr/share/freeciv/themes/gtk3.22/Freeciv/gtk-3.0/gtk.css
+* /usr/share/freeciv/themes/gtk3.22/Freeciv/gtk-3.0/menubar.css
+* /usr/share/man/man6/freeciv-gtk3.22.6.gz
+* /usr/share/man/man6/freeciv-gtk3.6.gz
+* /usr/share/man/man6/freeciv-mp-gtk3.6.gz
