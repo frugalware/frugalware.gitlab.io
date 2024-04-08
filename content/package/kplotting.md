@@ -12,7 +12,7 @@ size = "43532"
 usize = "158812"
 sha1sum = "a640a28eaea1edc013e03ce30a83f36be9e4a150"
 depends = "['qt6-base>=6.7.0']"
-reverse_depends = "['kdenlive', 'kdesignerplugin', 'knights', 'kstars']"
+reverse_depends = "['kdenlive', 'kdesignerplugin', 'knights']"
 +++
 ### Description: 
 Framework providing easy data-plotting functions.

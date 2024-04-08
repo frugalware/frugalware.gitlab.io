@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "maxr 0.2.14-1"
-version = "0.2.14-1"
+title = "maxr 0.2.15-1"
+version = "0.2.15-1"
 description = "OpenSource reimplementation for M.A.X."
-date = "2024-02-05T13:52:40"
+date = "2024-04-08T09:49:12"
 aliases = "/packages/50052"
 categories = ['games-extra']
 upstreamurl = "http://www.maxr.org"
 arch = "x86_64"
-size = "12128308"
-usize = "38817864"
-sha1sum = "6c4cad595856779de51a88ff84d0091379f1b76c"
+size = "12147864"
+usize = "38838928"
+sha1sum = "fa90e40bcdafcfba7ebca1533315c0f7e1d43597"
 depends = "['sdl2_mixer', 'sdl2_net']"
 +++
 ### Description: 
@@ -19,7 +19,7 @@ OpenSource reimplementation for M.A.X.
 ### Files: 
 * /usr/bin/maxr
 * /usr/share/applications/maxr.desktop
-* /usr/share/doc/maxr-0.2.14/README.md
+* /usr/share/doc/maxr-0.2.15/README.md
 * /usr/share/maxr/ABOUT
 * /usr/share/maxr/AUTHORS
 * /usr/share/maxr/buildings/barracks/data.json

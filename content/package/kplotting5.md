@@ -12,6 +12,7 @@ size = "36964"
 usize = "135416"
 sha1sum = "434669aa3599c4b4e5d6aa42be7a2870a390c1c6"
 depends = "['qt5-base>=5.15.12']"
+reverse_depends = "['kstars']"
 +++
 ### Description: 
 Framework providing easy data-plotting functions.

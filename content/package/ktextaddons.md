@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ktextaddons 1.5.3-1"
-version = "1.5.3-1"
+title = "ktextaddons 1.5.4-1"
+version = "1.5.4-1"
 description = "Various text handling addons"
-date = "2024-03-12T10:42:00"
+date = "2024-04-08T09:35:12"
 aliases = "/packages/220956"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "568804"
-usize = "2793272"
-sha1sum = "658ae047e49e9911533876ddb383c20677ab4ac4"
+size = "576692"
+usize = "2819910"
+sha1sum = "4ab7251c33b7d87f5719612abe3ef4a93168aee2"
 depends = "['kio>=', 'kxmlgui>=', 'qt6-speech>=', 'qtkeychain', 'syntax-highlighting>=']"
 reverse_depends = "['kpimtextedit', 'messagelib', 'pimcommon']"
 +++
@@ -251,34 +251,34 @@ Various text handling addons
 * /usr/lib/cmake/KF6TextUtils/KF6TextUtilsTargets.cmake
 * /usr/lib/libKF6TextAddonsWidgets.so
 * /usr/lib/libKF6TextAddonsWidgets.so.1
-* /usr/lib/libKF6TextAddonsWidgets.so.1.5.3
+* /usr/lib/libKF6TextAddonsWidgets.so.1.5.4
 * /usr/lib/libKF6TextAutoCorrectionCore.so
 * /usr/lib/libKF6TextAutoCorrectionCore.so.1
-* /usr/lib/libKF6TextAutoCorrectionCore.so.1.5.3
+* /usr/lib/libKF6TextAutoCorrectionCore.so.1.5.4
 * /usr/lib/libKF6TextAutoCorrectionWidgets.so
 * /usr/lib/libKF6TextAutoCorrectionWidgets.so.1
-* /usr/lib/libKF6TextAutoCorrectionWidgets.so.1.5.3
+* /usr/lib/libKF6TextAutoCorrectionWidgets.so.1.5.4
 * /usr/lib/libKF6TextCustomEditor.so
 * /usr/lib/libKF6TextCustomEditor.so.1
-* /usr/lib/libKF6TextCustomEditor.so.1.5.3
+* /usr/lib/libKF6TextCustomEditor.so.1.5.4
 * /usr/lib/libKF6TextEditTextToSpeech.so
 * /usr/lib/libKF6TextEditTextToSpeech.so.1
-* /usr/lib/libKF6TextEditTextToSpeech.so.1.5.3
+* /usr/lib/libKF6TextEditTextToSpeech.so.1.5.4
 * /usr/lib/libKF6TextEmoticonsCore.so
 * /usr/lib/libKF6TextEmoticonsCore.so.1
-* /usr/lib/libKF6TextEmoticonsCore.so.1.5.3
+* /usr/lib/libKF6TextEmoticonsCore.so.1.5.4
 * /usr/lib/libKF6TextEmoticonsWidgets.so
 * /usr/lib/libKF6TextEmoticonsWidgets.so.1
-* /usr/lib/libKF6TextEmoticonsWidgets.so.1.5.3
+* /usr/lib/libKF6TextEmoticonsWidgets.so.1.5.4
 * /usr/lib/libKF6TextGrammarCheck.so
 * /usr/lib/libKF6TextGrammarCheck.so.1
-* /usr/lib/libKF6TextGrammarCheck.so.1.5.3
+* /usr/lib/libKF6TextGrammarCheck.so.1.5.4
 * /usr/lib/libKF6TextTranslator.so
 * /usr/lib/libKF6TextTranslator.so.1
-* /usr/lib/libKF6TextTranslator.so.1.5.3
+* /usr/lib/libKF6TextTranslator.so.1.5.4
 * /usr/lib/libKF6TextUtils.so
 * /usr/lib/libKF6TextUtils.so.1
-* /usr/lib/libKF6TextUtils.so.1.5.3
+* /usr/lib/libKF6TextUtils.so.1.5.4
 * /usr/lib/qt6/plugins/designer/textcustomeditor.so
 * /usr/lib/qt6/plugins/designer/texttranslatorwidgets6.so
 * /usr/lib/qt6/plugins/kf6/translator/translator_bing.so
@@ -287,8 +287,8 @@ Various text handling addons
 * /usr/lib/qt6/plugins/kf6/translator/translator_libretranslate.so
 * /usr/lib/qt6/plugins/kf6/translator/translator_lingva.so
 * /usr/lib/qt6/plugins/kf6/translator/translator_yandex.so
-* /usr/share/doc/ktextaddons-1.5.3/README.md
-* /usr/share/doc/ktextaddons-1.5.3/README.md.license
+* /usr/share/doc/ktextaddons-1.5.4/README.md
+* /usr/share/doc/ktextaddons-1.5.4/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/libtextautocorrection.mo
 * /usr/share/locale/ar/LC_MESSAGES/libtextedittexttospeech.mo
 * /usr/share/locale/ar/LC_MESSAGES/libtextgrammarcheck.mo
@@ -479,6 +479,11 @@ Various text handling addons
 * /usr/share/locale/zh_CN/LC_MESSAGES/libtextemoticons.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/libtextgrammarcheck.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/libtexttranslator.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/libtextaddonswidgets.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/libtextautocorrection.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/libtextcustomeditor.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/libtextedittexttospeech.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libtextgrammarcheck.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/libtexttranslator.mo
 * /usr/share/qlogging-categories6/ktextaddons.categories
 * /usr/share/qlogging-categories6/ktextaddons.renamecategories

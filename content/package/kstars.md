@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kstars 3.6.4-2"
-version = "3.6.4-2"
+title = "kstars 3.7.0-1"
+version = "3.7.0-1"
 description = "Desktop Planetarium."
-date = "2023-10-23T20:02:30"
+date = "2024-04-08T09:24:52"
 aliases = "/packages/217862"
 categories = ['kde5-extra']
 upstreamurl = "https://edu.kde.org/kstars/"
 arch = "x86_64"
-size = "85549232"
-usize = "141451434"
-sha1sum = "5ad447e4158819a86bccbf2dcb0c11e87dde2c21"
-depends = "['cfitsio>=4.2.0', 'eigen', 'kio>=5.110.0', 'knewstuff>=5.110.0', 'knotifyconfig>=5.110.0', 'kplotting>=5.110.0', 'libraw>=0.21.1', 'qt5-websockets>=5.15.11']"
+size = "119560556"
+usize = "183913339"
+sha1sum = "596ff658e759577b33f64808b131e1ba27e67db7"
+depends = "['cfitsio>=4.2.0', 'eigen', 'gsl', 'kio5>=5.115.0', 'knewstuff5>=5.115.0', 'knotifyconfig5>=5.115.0', 'kplotting5>=5.115.0', 'libraw>=0.21.1', 'qt5-datavis3d>=5.15.12', 'qt5-websockets>=5.15.12', 'qtkeychain-qt5', 'stellarsolver']"
 +++
 ### Description: 
 Desktop Planetarium.
@@ -161,6 +161,11 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/ca/kstars/wut.png
 * /usr/share/doc/HTML/ca/kstars/xplanet_page.png
 * /usr/share/doc/HTML/ca/kstars/zenith.docbook
+* /usr/share/doc/HTML/en/kstars/aberration_inspector.png
+* /usr/share/doc/HTML/en/kstars/aberration_inspector_3dgraphic.png
+* /usr/share/doc/HTML/en/kstars/aberration_inspector_results.png
+* /usr/share/doc/HTML/en/kstars/aberration_inspector_table.png
+* /usr/share/doc/HTML/en/kstars/aberration_inspector_vcurve.png
 * /usr/share/doc/HTML/en/kstars/add-circle.png
 * /usr/share/doc/HTML/en/kstars/add_object.png
 * /usr/share/doc/HTML/en/kstars/Add_Object_to_Session_plan.png
@@ -183,6 +188,9 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/en/kstars/astrometry_windows_ansvr.png
 * /usr/share/doc/HTML/en/kstars/blackbody.docbook
 * /usr/share/doc/HTML/en/kstars/blackbody.png
+* /usr/share/doc/HTML/en/kstars/build_filter_offsets.png
+* /usr/share/doc/HTML/en/kstars/build_filter_offsets2.png
+* /usr/share/doc/HTML/en/kstars/build_filter_offsets3.png
 * /usr/share/doc/HTML/en/kstars/calc-angdist.docbook
 * /usr/share/doc/HTML/en/kstars/calc-angdist.png
 * /usr/share/doc/HTML/en/kstars/calc-apcoords.docbook
@@ -232,6 +240,7 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/en/kstars/delete_catalog.png
 * /usr/share/doc/HTML/en/kstars/detaildialog.png
 * /usr/share/doc/HTML/en/kstars/details.docbook
+* /usr/share/doc/HTML/en/kstars/developer_page.png
 * /usr/share/doc/HTML/en/kstars/devicemanager.png
 * /usr/share/doc/HTML/en/kstars/dialog-ok-apply.png
 * /usr/share/doc/HTML/en/kstars/document-edit.png
@@ -263,14 +272,26 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/en/kstars/ekos_analyze.png
 * /usr/share/doc/HTML/en/kstars/ekos_astrometry.png
 * /usr/share/doc/HTML/en/kstars/ekos_capture.png
+* /usr/share/doc/HTML/en/kstars/ekos_capture_sequence_editor.png
 * /usr/share/doc/HTML/en/kstars/ekos_focus.png
 * /usr/share/doc/HTML/en/kstars/ekos_guide.png
+* /usr/share/doc/HTML/en/kstars/ekos_guide_dithering_settings.png
+* /usr/share/doc/HTML/en/kstars/ekos_guide_gpg_settings.png
+* /usr/share/doc/HTML/en/kstars/ekos_guide_optical_train.png
 * /usr/share/doc/HTML/en/kstars/ekos_guide_phd2.png
+* /usr/share/doc/HTML/en/kstars/ekos_live_overlay.png
+* /usr/share/doc/HTML/en/kstars/ekos_live_overlay_options.png
 * /usr/share/doc/HTML/en/kstars/ekos_page.png
+* /usr/share/doc/HTML/en/kstars/ekos_profile_guide.png
 * /usr/share/doc/HTML/en/kstars/ekos_profile_guider_select.png
 * /usr/share/doc/HTML/en/kstars/ekos_remote_astrometry.png
 * /usr/share/doc/HTML/en/kstars/ekos_rotator_settings.png
 * /usr/share/doc/HTML/en/kstars/ekos_scheduler.png
+* /usr/share/doc/HTML/en/kstars/ekos_scheduler_settings.png
+* /usr/share/doc/HTML/en/kstars/ekos_stellarsolver_external.png
+* /usr/share/doc/HTML/en/kstars/ekos_stellarsolver_options.png
+* /usr/share/doc/HTML/en/kstars/ekos_stellarsolver_profiles.png
+* /usr/share/doc/HTML/en/kstars/ekos_stellarsolver_scale.png
 * /usr/share/doc/HTML/en/kstars/ekos_summary.png
 * /usr/share/doc/HTML/en/kstars/ekos_summary_cheatsheet.png
 * /usr/share/doc/HTML/en/kstars/ellipticalgalaxies.docbook
@@ -279,6 +300,13 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/en/kstars/equinox.docbook
 * /usr/share/doc/HTML/en/kstars/execute_session_nt.png
 * /usr/share/doc/HTML/en/kstars/execute_session_the_nt.png
+* /usr/share/doc/HTML/en/kstars/exposure-calculator-integration-graph.png
+* /usr/share/doc/HTML/en/kstars/exposure-calculator-integration-table.png
+* /usr/share/doc/HTML/en/kstars/exposure-calculator.png
+* /usr/share/doc/HTML/en/kstars/exposurecalculation-example_subexp30.png
+* /usr/share/doc/HTML/en/kstars/exposurecalculation-example_subexp300.png
+* /usr/share/doc/HTML/en/kstars/exposurecalculation_gain_at_step-avoid.png
+* /usr/share/doc/HTML/en/kstars/exposurecalculation_gain_at_step-shift.png
 * /usr/share/doc/HTML/en/kstars/eyepieceview.docbook
 * /usr/share/doc/HTML/en/kstars/faq.docbook
 * /usr/share/doc/HTML/en/kstars/file_settings.png
@@ -286,8 +314,16 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/en/kstars/find.png
 * /usr/share/doc/HTML/en/kstars/find2.png
 * /usr/share/doc/HTML/en/kstars/fitsarea.png
+* /usr/share/doc/HTML/en/kstars/fitsviewer-magnifier.png
+* /usr/share/doc/HTML/en/kstars/fitsviewer-mark-stars.png
+* /usr/share/doc/HTML/en/kstars/fitsviewer-selection.png
+* /usr/share/doc/HTML/en/kstars/fitsviewer-solver.png
+* /usr/share/doc/HTML/en/kstars/fitsviewer-status.png
+* /usr/share/doc/HTML/en/kstars/fitsviewer-stretch.png
 * /usr/share/doc/HTML/en/kstars/fitsviewer.docbook
 * /usr/share/doc/HTML/en/kstars/fitsviewer.png
+* /usr/share/doc/HTML/en/kstars/fitsviewer1.png
+* /usr/share/doc/HTML/en/kstars/fitsviewer2.png
 * /usr/share/doc/HTML/en/kstars/fitsviewer_embedded.png
 * /usr/share/doc/HTML/en/kstars/fitsviewer_histogram.png
 * /usr/share/doc/HTML/en/kstars/fitsviewer_selstat.png
@@ -300,15 +336,29 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/en/kstars/flux1.png
 * /usr/share/doc/HTML/en/kstars/flux2.png
 * /usr/share/doc/HTML/en/kstars/focuser_group.png
+* /usr/share/doc/HTML/en/kstars/focus_adaptive_focus.png
+* /usr/share/doc/HTML/en/kstars/focus_advisor.png
+* /usr/share/doc/HTML/en/kstars/focus_analyze.png
+* /usr/share/doc/HTML/en/kstars/focus_autofocus_log.png
 * /usr/share/doc/HTML/en/kstars/focus_bad_focus.png
 * /usr/share/doc/HTML/en/kstars/focus_ccdfw_group.png
+* /usr/share/doc/HTML/en/kstars/focus_cfz_classic.png
+* /usr/share/doc/HTML/en/kstars/focus_cfz_gold.png
+* /usr/share/doc/HTML/en/kstars/focus_cfz_moustache.png
+* /usr/share/doc/HTML/en/kstars/focus_cfz_wavefront.png
 * /usr/share/doc/HTML/en/kstars/focus_display.png
+* /usr/share/doc/HTML/en/kstars/focus_display_mosaic.png
 * /usr/share/doc/HTML/en/kstars/focus_good_focus.png
 * /usr/share/doc/HTML/en/kstars/focus_mechanics.png
+* /usr/share/doc/HTML/en/kstars/focus_mechanics1.png
 * /usr/share/doc/HTML/en/kstars/focus_process.png
 * /usr/share/doc/HTML/en/kstars/focus_relative_profile.png
 * /usr/share/doc/HTML/en/kstars/focus_settings.png
 * /usr/share/doc/HTML/en/kstars/focus_vcurve.png
+* /usr/share/doc/HTML/en/kstars/focus_vcurve_fourier.png
+* /usr/share/doc/HTML/en/kstars/focus_vcurve_fwhm.png
+* /usr/share/doc/HTML/en/kstars/focus_vcurve_hfradj.png
+* /usr/share/doc/HTML/en/kstars/focus_vcurve_numstars.png
 * /usr/share/doc/HTML/en/kstars/focus_vcurve_timeseries.png
 * /usr/share/doc/HTML/en/kstars/fovdialog.png
 * /usr/share/doc/HTML/en/kstars/geocoords.docbook
@@ -321,6 +371,8 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/en/kstars/hips.docbook
 * /usr/share/doc/HTML/en/kstars/horizon.docbook
 * /usr/share/doc/HTML/en/kstars/hourangle.docbook
+* /usr/share/doc/HTML/en/kstars/imageOverlays1.png
+* /usr/share/doc/HTML/en/kstars/imageOverlays2.png
 * /usr/share/doc/HTML/en/kstars/import_catalog.png
 * /usr/share/doc/HTML/en/kstars/index.cache.bz2
 * /usr/share/doc/HTML/en/kstars/index.docbook
@@ -367,6 +419,7 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/en/kstars/mosaic_select_grid.png
 * /usr/share/doc/HTML/en/kstars/mosaic_wizard.png
 * /usr/share/doc/HTML/en/kstars/newfov.png
+* /usr/share/doc/HTML/en/kstars/newview.png
 * /usr/share/doc/HTML/en/kstars/object-rotate-right.png
 * /usr/share/doc/HTML/en/kstars/obsplanner.docbook
 * /usr/share/doc/HTML/en/kstars/open_dialog_ldn.png
@@ -427,6 +480,7 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/en/kstars/view-filter.png
 * /usr/share/doc/HTML/en/kstars/view-fullscreen.png
 * /usr/share/doc/HTML/en/kstars/view-refresh.png
+* /usr/share/doc/HTML/en/kstars/viewmanager.png
 * /usr/share/doc/HTML/en/kstars/viewops.png
 * /usr/share/doc/HTML/en/kstars/wut.docbook
 * /usr/share/doc/HTML/en/kstars/wut.png
@@ -474,6 +528,11 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/es/kstars/details.docbook
 * /usr/share/doc/HTML/es/kstars/dumpmode.docbook
 * /usr/share/doc/HTML/es/kstars/ecliptic.docbook
+* /usr/share/doc/HTML/es/kstars/ekos-logs.docbook
+* /usr/share/doc/HTML/es/kstars/ekos-setup.docbook
+* /usr/share/doc/HTML/es/kstars/ekos-tutorials.docbook
+* /usr/share/doc/HTML/es/kstars/ekos-user-interface.docbook
+* /usr/share/doc/HTML/es/kstars/ekos.docbook
 * /usr/share/doc/HTML/es/kstars/ellipticalgalaxies.docbook
 * /usr/share/doc/HTML/es/kstars/epoch.docbook
 * /usr/share/doc/HTML/es/kstars/equinox.docbook
@@ -486,6 +545,7 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/es/kstars/geocoords.docbook
 * /usr/share/doc/HTML/es/kstars/geolocator.png
 * /usr/share/doc/HTML/es/kstars/greatcircle.docbook
+* /usr/share/doc/HTML/es/kstars/hips.docbook
 * /usr/share/doc/HTML/es/kstars/horizon.docbook
 * /usr/share/doc/HTML/es/kstars/hourangle.docbook
 * /usr/share/doc/HTML/es/kstars/index.cache.bz2
@@ -544,11 +604,17 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/fr/kstars/astrometry_windows_ansvr.png
 * /usr/share/doc/HTML/fr/kstars/blackbody.docbook
 * /usr/share/doc/HTML/fr/kstars/blackbody.png
+* /usr/share/doc/HTML/fr/kstars/build_filter_offsets.png
+* /usr/share/doc/HTML/fr/kstars/build_filter_offsets2.png
+* /usr/share/doc/HTML/fr/kstars/build_filter_offsets3.png
+* /usr/share/doc/HTML/fr/kstars/calc-altvstime.png
 * /usr/share/doc/HTML/fr/kstars/calc-angdist.docbook
 * /usr/share/doc/HTML/fr/kstars/calc-angdist.png
 * /usr/share/doc/HTML/fr/kstars/calc-apcoords.docbook
 * /usr/share/doc/HTML/fr/kstars/calc-apcoords.png
+* /usr/share/doc/HTML/fr/kstars/calc-appcoords.png
 * /usr/share/doc/HTML/fr/kstars/calc-dayduration.docbook
+* /usr/share/doc/HTML/fr/kstars/calc-daylenght.png
 * /usr/share/doc/HTML/fr/kstars/calc-daylength.png
 * /usr/share/doc/HTML/fr/kstars/calc-ecliptic.docbook
 * /usr/share/doc/HTML/fr/kstars/calc-ecliptic.png
@@ -564,6 +630,7 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/fr/kstars/calc-julianday.docbook
 * /usr/share/doc/HTML/fr/kstars/calc-planetcoords.docbook
 * /usr/share/doc/HTML/fr/kstars/calc-planetcoords.png
+* /usr/share/doc/HTML/fr/kstars/calc-precess.png
 * /usr/share/doc/HTML/fr/kstars/calc-sidereal.docbook
 * /usr/share/doc/HTML/fr/kstars/calc-sidereal.png
 * /usr/share/doc/HTML/fr/kstars/calculator.docbook
@@ -577,7 +644,9 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/fr/kstars/color_editor.png
 * /usr/share/doc/HTML/fr/kstars/color_indices.png
 * /usr/share/doc/HTML/fr/kstars/commands.docbook
+* /usr/share/doc/HTML/fr/kstars/complete_info_ldn.png
 * /usr/share/doc/HTML/fr/kstars/config.docbook
+* /usr/share/doc/HTML/fr/kstars/configurer_kstars.png
 * /usr/share/doc/HTML/fr/kstars/cosmicdist.docbook
 * /usr/share/doc/HTML/fr/kstars/cpoles.docbook
 * /usr/share/doc/HTML/fr/kstars/create_catalog.png
@@ -589,6 +658,7 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/fr/kstars/darkmatter.docbook
 * /usr/share/doc/HTML/fr/kstars/dark_library.png
 * /usr/share/doc/HTML/fr/kstars/Delete_all_images.png
+* /usr/share/doc/HTML/fr/kstars/delete_catalog.png
 * /usr/share/doc/HTML/fr/kstars/detaildialog.png
 * /usr/share/doc/HTML/fr/kstars/details.docbook
 * /usr/share/doc/HTML/fr/kstars/devicemanager.png
@@ -610,6 +680,10 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/fr/kstars/ekos-logs.docbook
 * /usr/share/doc/HTML/fr/kstars/ekos-profile-editor.docbook
 * /usr/share/doc/HTML/fr/kstars/ekos-profile-wizard.docbook
+* /usr/share/doc/HTML/fr/kstars/ekos-scheduler-mosaic-atpole.png
+* /usr/share/doc/HTML/fr/kstars/ekos-scheduler-mosaic-rotation.png
+* /usr/share/doc/HTML/fr/kstars/ekos-scheduler-mosaic-std.png
+* /usr/share/doc/HTML/fr/kstars/ekos-scheduler-mosaic-threequarteroverlap.png
 * /usr/share/doc/HTML/fr/kstars/ekos-scheduler.docbook
 * /usr/share/doc/HTML/fr/kstars/ekos-setup.docbook
 * /usr/share/doc/HTML/fr/kstars/ekos-tutorials.docbook
@@ -620,14 +694,20 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/fr/kstars/ekos_capture.png
 * /usr/share/doc/HTML/fr/kstars/ekos_focus.png
 * /usr/share/doc/HTML/fr/kstars/ekos_guide.png
+* /usr/share/doc/HTML/fr/kstars/ekos_guide_dithering_settings.png
+* /usr/share/doc/HTML/fr/kstars/ekos_guide_gpg_settings.png
+* /usr/share/doc/HTML/fr/kstars/ekos_guide_optical_train.png
 * /usr/share/doc/HTML/fr/kstars/ekos_guide_phd2.png
 * /usr/share/doc/HTML/fr/kstars/ekos_page.png
+* /usr/share/doc/HTML/fr/kstars/ekos_profile_guide.png
 * /usr/share/doc/HTML/fr/kstars/ekos_profile_guider_select.png
 * /usr/share/doc/HTML/fr/kstars/ekos_remote_astrometry.png
 * /usr/share/doc/HTML/fr/kstars/ekos_rotator_settings.png
 * /usr/share/doc/HTML/fr/kstars/ekos_scheduler.png
+* /usr/share/doc/HTML/fr/kstars/ekos_scheduler_settings.png
 * /usr/share/doc/HTML/fr/kstars/ekos_summary.png
 * /usr/share/doc/HTML/fr/kstars/ekos_summary_cheatsheet.png
+* /usr/share/doc/HTML/fr/kstars/ekos_summary_cheatsheet_original.png
 * /usr/share/doc/HTML/fr/kstars/ellipticalgalaxies.docbook
 * /usr/share/doc/HTML/fr/kstars/epoch.docbook
 * /usr/share/doc/HTML/fr/kstars/EPView_Screenshot.png
@@ -640,6 +720,7 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/fr/kstars/filter_settings.png
 * /usr/share/doc/HTML/fr/kstars/find.png
 * /usr/share/doc/HTML/fr/kstars/find2.png
+* /usr/share/doc/HTML/fr/kstars/fitsarea.png
 * /usr/share/doc/HTML/fr/kstars/fitsviewer.docbook
 * /usr/share/doc/HTML/fr/kstars/fitsviewer.png
 * /usr/share/doc/HTML/fr/kstars/fitsviewer_embedded.png
@@ -654,19 +735,36 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/fr/kstars/flux1.png
 * /usr/share/doc/HTML/fr/kstars/flux2.png
 * /usr/share/doc/HTML/fr/kstars/focuser_group.png
+* /usr/share/doc/HTML/fr/kstars/focus_adaptive_focus.png
+* /usr/share/doc/HTML/fr/kstars/focus_advisor.png
+* /usr/share/doc/HTML/fr/kstars/focus_analyze.png
+* /usr/share/doc/HTML/fr/kstars/focus_autofocus_log.png
 * /usr/share/doc/HTML/fr/kstars/focus_bad_focus.png
 * /usr/share/doc/HTML/fr/kstars/focus_ccdfw_group.png
+* /usr/share/doc/HTML/fr/kstars/focus_cfz_classic.png
+* /usr/share/doc/HTML/fr/kstars/focus_cfz_gold.png
+* /usr/share/doc/HTML/fr/kstars/focus_cfz_moustache.png
+* /usr/share/doc/HTML/fr/kstars/focus_cfz_wavefront.png
 * /usr/share/doc/HTML/fr/kstars/focus_display.png
+* /usr/share/doc/HTML/fr/kstars/focus_display_mosaic.png
 * /usr/share/doc/HTML/fr/kstars/focus_good_focus.png
 * /usr/share/doc/HTML/fr/kstars/focus_mechanics.png
+* /usr/share/doc/HTML/fr/kstars/focus_mechanics1.png
 * /usr/share/doc/HTML/fr/kstars/focus_process.png
 * /usr/share/doc/HTML/fr/kstars/focus_relative_profile.png
 * /usr/share/doc/HTML/fr/kstars/focus_settings.png
 * /usr/share/doc/HTML/fr/kstars/focus_vcurve.png
+* /usr/share/doc/HTML/fr/kstars/focus_vcurve_fourier.png
+* /usr/share/doc/HTML/fr/kstars/focus_vcurve_fwhm.png
+* /usr/share/doc/HTML/fr/kstars/focus_vcurve_hfradj.png
+* /usr/share/doc/HTML/fr/kstars/focus_vcurve_numstars.png
 * /usr/share/doc/HTML/fr/kstars/focus_vcurve_timeseries.png
 * /usr/share/doc/HTML/fr/kstars/fovdialog.png
 * /usr/share/doc/HTML/fr/kstars/geocoords.docbook
 * /usr/share/doc/HTML/fr/kstars/geolocator.png
+* /usr/share/doc/HTML/fr/kstars/graph1.png
+* /usr/share/doc/HTML/fr/kstars/graph2.png
+* /usr/share/doc/HTML/fr/kstars/graph3.png
 * /usr/share/doc/HTML/fr/kstars/greatcircle.docbook
 * /usr/share/doc/HTML/fr/kstars/guides_page.png
 * /usr/share/doc/HTML/fr/kstars/guide_calibration_settings.png
@@ -675,22 +773,28 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/fr/kstars/hips.docbook
 * /usr/share/doc/HTML/fr/kstars/horizon.docbook
 * /usr/share/doc/HTML/fr/kstars/hourangle.docbook
+* /usr/share/doc/HTML/fr/kstars/import_catalog.png
 * /usr/share/doc/HTML/fr/kstars/index.cache.bz2
 * /usr/share/doc/HTML/fr/kstars/index.docbook
 * /usr/share/doc/HTML/fr/kstars/indi.docbook
+* /usr/share/doc/HTML/fr/kstars/indicapture.png
 * /usr/share/doc/HTML/fr/kstars/indiclient.png
 * /usr/share/doc/HTML/fr/kstars/indicontrolpanel.png
+* /usr/share/doc/HTML/fr/kstars/indieclient.png
 * /usr/share/doc/HTML/fr/kstars/indi_page.png
 * /usr/share/doc/HTML/fr/kstars/install.docbook
 * /usr/share/doc/HTML/fr/kstars/jmoons.docbook
 * /usr/share/doc/HTML/fr/kstars/jmoons.png
 * /usr/share/doc/HTML/fr/kstars/julianday.docbook
+* /usr/share/doc/HTML/fr/kstars/kepler2nd.png
+* /usr/share/doc/HTML/fr/kstars/kepler3d.png
 * /usr/share/doc/HTML/fr/kstars/kstars_annotation.png
 * /usr/share/doc/HTML/fr/kstars/kstars_ekos.png
 * /usr/share/doc/HTML/fr/kstars/kstars_fitsviewer.png
 * /usr/share/doc/HTML/fr/kstars/kstars_hips.png
 * /usr/share/doc/HTML/fr/kstars/kstars_horizon.png
 * /usr/share/doc/HTML/fr/kstars/kstars_indi.png
+* /usr/share/doc/HTML/fr/kstars/kstars_m44_mac.png
 * /usr/share/doc/HTML/fr/kstars/KStars_Neptune.png
 * /usr/share/doc/HTML/fr/kstars/lambda_ex.png
 * /usr/share/doc/HTML/fr/kstars/lambda_max.png
@@ -699,6 +803,7 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/fr/kstars/lightcurves.docbook
 * /usr/share/doc/HTML/fr/kstars/limit_settings.png
 * /usr/share/doc/HTML/fr/kstars/list-add.png
+* /usr/share/doc/HTML/fr/kstars/load_catalog.png
 * /usr/share/doc/HTML/fr/kstars/lock-open.png
 * /usr/share/doc/HTML/fr/kstars/luminosity.docbook
 * /usr/share/doc/HTML/fr/kstars/luminosity.png
@@ -714,14 +819,23 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/fr/kstars/mosaic_create_jobs.png
 * /usr/share/doc/HTML/fr/kstars/mosaic_planner.png
 * /usr/share/doc/HTML/fr/kstars/mosaic_select_grid.png
+* /usr/share/doc/HTML/fr/kstars/mosaic_wizard.png
 * /usr/share/doc/HTML/fr/kstars/newfov.png
 * /usr/share/doc/HTML/fr/kstars/object-rotate-right.png
 * /usr/share/doc/HTML/fr/kstars/observinglist.docbook
 * /usr/share/doc/HTML/fr/kstars/observinglist.png
 * /usr/share/doc/HTML/fr/kstars/obsplanner.docbook
+* /usr/share/doc/HTML/fr/kstars/open_dialog_ldn.png
+* /usr/share/doc/HTML/fr/kstars/open_ldn.png
+* /usr/share/doc/HTML/fr/kstars/optical_train_group.png
+* /usr/share/doc/HTML/fr/kstars/overwrite_catalog.png
 * /usr/share/doc/HTML/fr/kstars/parallax.docbook
 * /usr/share/doc/HTML/fr/kstars/polar_alignment_result.png
 * /usr/share/doc/HTML/fr/kstars/polar_assistant_main.png
+* /usr/share/doc/HTML/fr/kstars/polar_assistant_main2.png
+* /usr/share/doc/HTML/fr/kstars/polar_assistant_ps1.png
+* /usr/share/doc/HTML/fr/kstars/polar_assistant_ps2.png
+* /usr/share/doc/HTML/fr/kstars/polar_assistant_ps3.png
 * /usr/share/doc/HTML/fr/kstars/popup.png
 * /usr/share/doc/HTML/fr/kstars/precession.docbook
 * /usr/share/doc/HTML/fr/kstars/process-stop.png
@@ -737,6 +851,9 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/fr/kstars/Savin_session.png
 * /usr/share/doc/HTML/fr/kstars/scheduler_planner.png
 * /usr/share/doc/HTML/fr/kstars/screen1.png
+* /usr/share/doc/HTML/fr/kstars/screen2.png
+* /usr/share/doc/HTML/fr/kstars/screen3.png
+* /usr/share/doc/HTML/fr/kstars/screen4.png
 * /usr/share/doc/HTML/fr/kstars/scriptbuilder.docbook
 * /usr/share/doc/HTML/fr/kstars/scriptbuilder.png
 * /usr/share/doc/HTML/fr/kstars/sds.png
@@ -1236,18 +1353,18 @@ Desktop Planetarium.
 * /usr/share/doc/HTML/uk/kstars/wut.png
 * /usr/share/doc/HTML/uk/kstars/xplanet_tab.png
 * /usr/share/doc/HTML/uk/kstars/zenith.docbook
-* /usr/share/doc/kstars-3.6.4/AUTHORS
-* /usr/share/doc/kstars-3.6.4/ChangeLog
-* /usr/share/doc/kstars-3.6.4/INSTALL
-* /usr/share/doc/kstars-3.6.4/README.android
-* /usr/share/doc/kstars-3.6.4/README.customize
-* /usr/share/doc/kstars-3.6.4/README.ephemerides
-* /usr/share/doc/kstars-3.6.4/README.i18n
-* /usr/share/doc/kstars-3.6.4/README.images
-* /usr/share/doc/kstars-3.6.4/README.md
-* /usr/share/doc/kstars-3.6.4/README.planetmath
-* /usr/share/doc/kstars-3.6.4/README.timekeeping
-* /usr/share/doc/kstars-3.6.4/TODO
+* /usr/share/doc/kstars-3.7.0/AUTHORS
+* /usr/share/doc/kstars-3.7.0/ChangeLog
+* /usr/share/doc/kstars-3.7.0/INSTALL
+* /usr/share/doc/kstars-3.7.0/README.android
+* /usr/share/doc/kstars-3.7.0/README.customize
+* /usr/share/doc/kstars-3.7.0/README.ephemerides
+* /usr/share/doc/kstars-3.7.0/README.i18n
+* /usr/share/doc/kstars-3.7.0/README.images
+* /usr/share/doc/kstars-3.7.0/README.md
+* /usr/share/doc/kstars-3.7.0/README.planetmath
+* /usr/share/doc/kstars-3.7.0/README.timekeeping
+* /usr/share/doc/kstars-3.7.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/kstars.png
 * /usr/share/icons/hicolor/16x16/apps/kstars.png
 * /usr/share/icons/hicolor/32x32/apps/kstars.png
@@ -1257,6 +1374,39 @@ Desktop Planetarium.
 * /usr/share/knotifications5/kstars.notifyrc
 * /usr/share/kstars/advinterface.dat
 * /usr/share/kstars/asteroids.dat
+* /usr/share/kstars/cameradata/Atik-16200CCD_Mono.xml
+* /usr/share/kstars/cameradata/Canon_DSLR_EOS_Ra.xml
+* /usr/share/kstars/cameradata/FLI-16200CCD_Mono.xml
+* /usr/share/kstars/cameradata/MI_CCD_C3.xml
+* /usr/share/kstars/cameradata/Nikon_DSLR_DSC_D5000_(PTP_mode).xml
+* /usr/share/kstars/cameradata/Nikon_DSLR_DSC_D5100_(PTP_mode).xml
+* /usr/share/kstars/cameradata/Nikon_DSLR_DSC_D700_(PTP_mode).xml
+* /usr/share/kstars/cameradata/Player_One_Poseidon-C_Pro.xml
+* /usr/share/kstars/cameradata/Player_One_Saturn-C_SQR.xml
+* /usr/share/kstars/cameradata/QHY_CCD_163C.xml
+* /usr/share/kstars/cameradata/QHY_CCD_163M.xml
+* /usr/share/kstars/cameradata/QHY_CCD_268C.xml
+* /usr/share/kstars/cameradata/QHY_CCD_268M.xml
+* /usr/share/kstars/cameradata/QHY_CCD_294M.xml
+* /usr/share/kstars/cameradata/QHY_CCD_461_PH.xml
+* /usr/share/kstars/cameradata/QHY_CCD_533M.xml
+* /usr/share/kstars/cameradata/QHY_CCD_600_PH.xml
+* /usr/share/kstars/cameradata/ZWO_CCD_ASI071MC_Pro.xml
+* /usr/share/kstars/cameradata/ZWO_CCD_ASI120MC.xml
+* /usr/share/kstars/cameradata/ZWO_CCD_ASI1600MM.xml
+* /usr/share/kstars/cameradata/ZWO_CCD_ASI178MC.xml
+* /usr/share/kstars/cameradata/ZWO_CCD_ASI183MC_Pro.xml
+* /usr/share/kstars/cameradata/ZWO_CCD_ASI183MM_Pro.xml
+* /usr/share/kstars/cameradata/ZWO_CCD_ASI224MC.xml
+* /usr/share/kstars/cameradata/ZWO_CCD_ASI2600MC_Pro.xml
+* /usr/share/kstars/cameradata/ZWO_CCD_ASI2600MM_Pro.xml
+* /usr/share/kstars/cameradata/ZWO_CCD_ASI290MM_Mini.xml
+* /usr/share/kstars/cameradata/ZWO_CCD_ASI294MC_Pro.xml
+* /usr/share/kstars/cameradata/ZWO_CCD_ASI294MM_Pro.xml
+* /usr/share/kstars/cameradata/ZWO_CCD_ASI533MC_Pro.xml
+* /usr/share/kstars/cameradata/ZWO_CCD_ASI533MM_Pro.xml
+* /usr/share/kstars/cameradata/ZWO_CCD_ASI6200MC_Pro.xml
+* /usr/share/kstars/cameradata/ZWO_CCD_ASI6200MM.xml
 * /usr/share/kstars/catalog.min.json
 * /usr/share/kstars/cbounds-3.idx
 * /usr/share/kstars/cbounds-4.idx
@@ -1819,6 +1969,7 @@ Desktop Planetarium.
 * /usr/share/kstars/themes/sunsetcolor.colors
 * /usr/share/kstars/themes/whitebalance.colors
 * /usr/share/kstars/tips
+* /usr/share/kstars/tns_public_objects.csv
 * /usr/share/kstars/TZrules.dat
 * /usr/share/kstars/unnamedstars.dat
 * /usr/share/kstars/uranus.B0.vsop

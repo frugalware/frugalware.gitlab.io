@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "shadow 4.15.1-1"
-version = "4.15.1-1"
+title = "shadow 4.15.1-2"
+version = "4.15.1-2"
 description = "Shadow password file utilities"
-date = "2024-03-25T13:40:58"
+date = "2024-04-08T09:12:55"
 aliases = "/packages/220453"
 categories = ['base']
 upstreamurl = "https://github.com/shadow-maint/shadow"
 arch = "x86_64"
-size = "699436"
-usize = "4399320"
-sha1sum = "b596ad28e8c2cfdbb01720154aacccce91152955"
+size = "697644"
+usize = "4399287"
+sha1sum = "536ab9fbb49520c5fb6d54eb0af16ff0b52a5bf0"
 depends = "['libsystemd', 'libxcrypt']"
 reverse_depends = "['avahi', 'clamav', 'distcc', 'libusbmuxd', 'pacman-g2', 'pacman-tools', 'parted', 'redis', 'scriptlet-core', 'systemd', 'texinfo', 'tpm2-tss', 'xdotool']"
 +++

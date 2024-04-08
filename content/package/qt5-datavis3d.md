@@ -12,6 +12,7 @@ size = "548944"
 usize = "2568218"
 sha1sum = "1d5853a4ab02a1b5a8ad27f40286676e8b490239"
 depends = "['qt5-declarative>=5.15.13']"
+reverse_depends = "['kstars']"
 +++
 ### Description: 
 The Qt5 toolkit, qtdatavis3d

@@ -12,6 +12,7 @@ size = "1210824"
 usize = "2607030"
 sha1sum = "05d3dd9182b97e8cd289f349f795d034f17dce60"
 depends = "['gsl', 'hicolor-icon-theme', 'qt5-base', 'wcslib']"
+reverse_depends = "['kstars']"
 +++
 ### Description: 
 The cross platform Sextractor and Astrometry.net-Based internal astrometric solver

@@ -12,7 +12,7 @@ size = "583544"
 usize = "2801409"
 sha1sum = "b24cec8e082169374bb3d8e63d8b9e4a0b091b2c"
 depends = "['kio>=6.0.0', 'kirigami>=6.0.0', 'kpackage>=6.0.0', 'syndication>=6.0.0']"
-reverse_depends = "['blinken', 'discover', 'dolphin', 'frameworkintegration', 'grantleetheme', 'kanagram', 'kate', 'kde-gtk-config', 'kdenlive', 'kdeplasma-addons', 'kdeplasma-addons5', 'kgoldrunner', 'khangman', 'kmail-account-wizard', 'konsole', 'konversation', 'kstars', 'ksysguard5', 'kturtle', 'kwin', 'libkdegames', 'libksysguard', 'libksysguard5', 'pairs', 'parley', 'pimcommon', 'plasma-desktop', 'plasma-welcome', 'plasma-workspace', 'sddm-kcm', 'spectacle', 'yakuake']"
+reverse_depends = "['blinken', 'discover', 'dolphin', 'frameworkintegration', 'grantleetheme', 'kanagram', 'kate', 'kde-gtk-config', 'kdenlive', 'kdeplasma-addons', 'kdeplasma-addons5', 'kgoldrunner', 'khangman', 'kmail-account-wizard', 'konsole', 'konversation', 'ksysguard5', 'kturtle', 'kwin', 'libkdegames', 'libksysguard', 'libksysguard5', 'pairs', 'parley', 'pimcommon', 'plasma-desktop', 'plasma-welcome', 'plasma-workspace', 'sddm-kcm', 'spectacle', 'yakuake']"
 +++
 ### Description: 
 Framework for downloading and sharing additional application data.

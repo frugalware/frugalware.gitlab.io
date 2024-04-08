@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "skrooge 2.31.0-2"
-version = "2.31.0-2"
+title = "skrooge 2.32.0-1"
+version = "2.32.0-1"
 description = "Personal finances manager for KDE5, allowing you to keep track of your incomes and expenses"
-date = "2024-03-26T12:41:33"
+date = "2024-04-08T09:32:02"
 aliases = "/packages/74103"
 categories = ['kde5-extra']
 upstreamurl = "http://skrooge.org"
 arch = "x86_64"
-size = "12906628"
-usize = "29113244"
-sha1sum = "5e31f5a9ec7264ead51addf18cca4d17754b486b"
+size = "13270132"
+usize = "28588066"
+sha1sum = "fce62c8220bd022d1b3c660b9754f4fa8740ba96"
 depends = "['grantlee>=5.0.0', 'kdesignerplugin5>=5.115.0', 'knewstuff5>=5.115.0', 'knotifyconfig5>=5.115.0', 'kparts5>=5.115.0', 'krunner5>=5.115.0', 'libofx>=0.9.11', 'qca-qt5', 'qt5-svg>=5.15.12', 'qt5-webengine>=', 'qt5-xmlpatterns>=5.15.12', 'sqlcipher>=3.3.1']"
 +++
 ### Description: 
@@ -20,13 +20,13 @@ Personal finances manager for KDE5, allowing you to keep track of your incomes a
 * /usr/bin/skrooge
 * /usr/bin/skroogeconvert
 * /usr/lib/libskgbankgui.so.2
-* /usr/lib/libskgbankgui.so.2.31.0
+* /usr/lib/libskgbankgui.so.2.32.0
 * /usr/lib/libskgbankmodeler.so.2
-* /usr/lib/libskgbankmodeler.so.2.31.0
+* /usr/lib/libskgbankmodeler.so.2.32.0
 * /usr/lib/libskgbasegui.so.2
-* /usr/lib/libskgbasegui.so.2.31.0
+* /usr/lib/libskgbasegui.so.2.32.0
 * /usr/lib/libskgbasemodeler.so.2
-* /usr/lib/libskgbasemodeler.so.2.31.0
+* /usr/lib/libskgbasemodeler.so.2.32.0
 * /usr/lib/qt5/plugins/designer/libskgbankguidesigner.so
 * /usr/lib/qt5/plugins/designer/libskgbaseguidesigner.so
 * /usr/lib/qt5/plugins/grantlee/5.3/grantlee_skgfilters.so
@@ -106,6 +106,7 @@ Personal finances manager for KDE5, allowing you to keep track of your incomes a
 * /usr/share/doc/HTML/en/skrooge/analysis_trackers_view.png
 * /usr/share/doc/HTML/en/skrooge/apply_process.png
 * /usr/share/doc/HTML/en/skrooge/apply_template.png
+* /usr/share/doc/HTML/en/skrooge/assign_schedule.png
 * /usr/share/doc/HTML/en/skrooge/back_forward.png
 * /usr/share/doc/HTML/en/skrooge/balance_evolution.png
 * /usr/share/doc/HTML/en/skrooge/bank_accounts.png
@@ -198,6 +199,7 @@ Personal finances manager for KDE5, allowing you to keep track of your incomes a
 * /usr/share/doc/HTML/en/skrooge/settings_operations.png
 * /usr/share/doc/HTML/en/skrooge/settings_report.png
 * /usr/share/doc/HTML/en/skrooge/settings_scheduled.png
+* /usr/share/doc/HTML/en/skrooge/settings_scheduled_convert.png
 * /usr/share/doc/HTML/en/skrooge/settings_search.png
 * /usr/share/doc/HTML/en/skrooge/settings_units.png
 * /usr/share/doc/HTML/en/skrooge/shares.png
@@ -293,10 +295,10 @@ Personal finances manager for KDE5, allowing you to keep track of your incomes a
 * /usr/share/doc/HTML/uk/skrooge/table_menu.png
 * /usr/share/doc/HTML/uk/skrooge/tab_state_management.png
 * /usr/share/doc/HTML/uk/skrooge/transfer_operation.png
-* /usr/share/doc/skrooge-2.31.0/AUTHORS
-* /usr/share/doc/skrooge-2.31.0/CHANGELOG
-* /usr/share/doc/skrooge-2.31.0/COPYING
-* /usr/share/doc/skrooge-2.31.0/README.md
+* /usr/share/doc/skrooge-2.32.0/AUTHORS
+* /usr/share/doc/skrooge-2.32.0/CHANGELOG
+* /usr/share/doc/skrooge-2.32.0/COPYING
+* /usr/share/doc/skrooge-2.32.0/README.md
 * /usr/share/icons/breeze-dark/actions/22/skg-chart-bubble.svgz
 * /usr/share/icons/breeze-dark/actions/22/skrooge_credit_card.svgz
 * /usr/share/icons/breeze-dark/actions/22/skrooge_less.svgz
@@ -771,17 +773,23 @@ Personal finances manager for KDE5, allowing you to keep track of your incomes a
 * /usr/share/skrooge/html/tutorial.txt
 * /usr/share/skrooge/images/logo/abn_amro.png
 * /usr/share/skrooge/images/logo/absa_bank__632005.png
+* /usr/share/skrooge/images/logo/acba.png
+* /usr/share/skrooge/images/logo/aeb.png
 * /usr/share/skrooge/images/logo/aib.png
 * /usr/share/skrooge/images/logo/ak_bars_bank.png
 * /usr/share/skrooge/images/logo/alfa_bank.png
 * /usr/share/skrooge/images/logo/allianz.png
+* /usr/share/skrooge/images/logo/ameriabank.png
 * /usr/share/skrooge/images/logo/american_express.png
+* /usr/share/skrooge/images/logo/amio_bank.png
 * /usr/share/skrooge/images/logo/amundi.png
+* /usr/share/skrooge/images/logo/araratbank.png
 * /usr/share/skrooge/images/logo/arkea.png
+* /usr/share/skrooge/images/logo/armswissbank.png
+* /usr/share/skrooge/images/logo/arshinbank.png
+* /usr/share/skrooge/images/logo/artsakhbank.png
 * /usr/share/skrooge/images/logo/axa_banque__41179.png
-* /usr/share/skrooge/images/logo/bank_moskvi.png
-* /usr/share/skrooge/images/logo/bank_petrokommerc.png
-* /usr/share/skrooge/images/logo/bank_rossiyskiy_kapital.png
+* /usr/share/skrooge/images/logo/bank_mellat.png
 * /usr/share/skrooge/images/logo/bank_russkij_standart.png
 * /usr/share/skrooge/images/logo/bank_sankt-peterburg.png
 * /usr/share/skrooge/images/logo/banque_de_savoie__10548.png
@@ -793,15 +801,18 @@ Personal finances manager for KDE5, allowing you to keep track of your incomes a
 * /usr/share/skrooge/images/logo/bnp_paribas__30004.png
 * /usr/share/skrooge/images/logo/boursorama_banque.png
 * /usr/share/skrooge/images/logo/bred__40398.png
+* /usr/share/skrooge/images/logo/byblos_bank.png
 * /usr/share/skrooge/images/logo/caisse_epargne.png
 * /usr/share/skrooge/images/logo/capitec__470010.png
 * /usr/share/skrooge/images/logo/carrefour_banque.png
+* /usr/share/skrooge/images/logo/charles_schwab.png
 * /usr/share/skrooge/images/logo/cic__30066.png
 * /usr/share/skrooge/images/logo/citadele.png
 * /usr/share/skrooge/images/logo/citibank.png
 * /usr/share/skrooge/images/logo/cnp.png
 * /usr/share/skrooge/images/logo/commonwealth.png
 * /usr/share/skrooge/images/logo/compte-nickel__16598.png
+* /usr/share/skrooge/images/logo/converse_bank.png
 * /usr/share/skrooge/images/logo/cortal_consors__18889.png
 * /usr/share/skrooge/images/logo/covefi__14690.png
 * /usr/share/skrooge/images/logo/credit_agricole.png
@@ -815,10 +826,17 @@ Personal finances manager for KDE5, allowing you to keep track of your incomes a
 * /usr/share/skrooge/images/logo/delubac.png
 * /usr/share/skrooge/images/logo/dexia__17290.png
 * /usr/share/skrooge/images/logo/dnb_nor.png
+* /usr/share/skrooge/images/logo/domrf.png
+* /usr/share/skrooge/images/logo/etrade.png
+* /usr/share/skrooge/images/logo/evocabank.png
 * /usr/share/skrooge/images/logo/farmers.png
+* /usr/share/skrooge/images/logo/fast_bank.png
+* /usr/share/skrooge/images/logo/fidelity_investments.png
 * /usr/share/skrooge/images/logo/finasta.png
 * /usr/share/skrooge/images/logo/first_national_bank.png
 * /usr/share/skrooge/images/logo/fortuneo.png
+* /usr/share/skrooge/images/logo/freedom_finance.png
+* /usr/share/skrooge/images/logo/gazprom.png
 * /usr/share/skrooge/images/logo/generali.png
 * /usr/share/skrooge/images/logo/globeks.png
 * /usr/share/skrooge/images/logo/groupama_banque__14878.png
@@ -828,14 +846,19 @@ Personal finances manager for KDE5, allowing you to keep track of your incomes a
 * /usr/share/skrooge/images/logo/home_credit_bank.png
 * /usr/share/skrooge/images/logo/hsbc.png
 * /usr/share/skrooge/images/logo/humanis.png
+* /usr/share/skrooge/images/logo/idbank.png
+* /usr/share/skrooge/images/logo/inecobank.png
 * /usr/share/skrooge/images/logo/ing_direct__14559.png
 * /usr/share/skrooge/images/logo/ing_direct__30438.png
+* /usr/share/skrooge/images/logo/interactive_brokers.png
 * /usr/share/skrooge/images/logo/investec__580105.png
 * /usr/share/skrooge/images/logo/jeju_bank.png
 * /usr/share/skrooge/images/logo/kiwibank.png
 * /usr/share/skrooge/images/logo/kookmin_bank.png
 * /usr/share/skrooge/images/logo/korea_exchange_bank.png
+* /usr/share/skrooge/images/logo/kredobank.png
 * /usr/share/skrooge/images/logo/l10n/ad/list_bank.txt
+* /usr/share/skrooge/images/logo/l10n/am/list_bank.txt
 * /usr/share/skrooge/images/logo/l10n/au/list_bank.txt
 * /usr/share/skrooge/images/logo/l10n/be/list_bank.txt
 * /usr/share/skrooge/images/logo/l10n/fr/list_bank.txt
@@ -856,6 +879,7 @@ Personal finances manager for KDE5, allowing you to keep track of your incomes a
 * /usr/share/skrooge/images/logo/lloyds_tsb.png
 * /usr/share/skrooge/images/logo/medicinos_bankas.png
 * /usr/share/skrooge/images/logo/merrill_lynch.png
+* /usr/share/skrooge/images/logo/mkb.png
 * /usr/share/skrooge/images/logo/monabanq.png
 * /usr/share/skrooge/images/logo/morning__16768.png
 * /usr/share/skrooge/images/logo/n26.png
@@ -866,37 +890,53 @@ Personal finances manager for KDE5, allowing you to keep track of your incomes a
 * /usr/share/skrooge/images/logo/nordea.png
 * /usr/share/skrooge/images/logo/oney.png
 * /usr/share/skrooge/images/logo/orange_bank.png
+* /usr/share/skrooge/images/logo/oschadbank.png
+* /usr/share/skrooge/images/logo/otkritie.png
+* /usr/share/skrooge/images/logo/otp.png
 * /usr/share/skrooge/images/logo/paypal.png
+* /usr/share/skrooge/images/logo/pivdenny.png
+* /usr/share/skrooge/images/logo/pochta_bank.png
 * /usr/share/skrooge/images/logo/postbank__460005.png
 * /usr/share/skrooge/images/logo/post_office.png
+* /usr/share/skrooge/images/logo/privatbank.png
+* /usr/share/skrooge/images/logo/procredit_bank.png
 * /usr/share/skrooge/images/logo/promsvyazbank.png
+* /usr/share/skrooge/images/logo/pumb.png
 * /usr/share/skrooge/images/logo/rabobank.png
 * /usr/share/skrooge/images/logo/raiffeisen_bank.png
+* /usr/share/skrooge/images/logo/rencredit.png
+* /usr/share/skrooge/images/logo/robinhood.png
 * /usr/share/skrooge/images/logo/rosbank.png
 * /usr/share/skrooge/images/logo/rosselhozbank.png
 * /usr/share/skrooge/images/logo/sberbank.png
 * /usr/share/skrooge/images/logo/sc_first_bank.png
 * /usr/share/skrooge/images/logo/seb.png
+* /usr/share/skrooge/images/logo/sense_bank.png
 * /usr/share/skrooge/images/logo/shinhan_bank.png
 * /usr/share/skrooge/images/logo/siauliu_bankas.png
 * /usr/share/skrooge/images/logo/smc__30077.png
 * /usr/share/skrooge/images/logo/snoras.png
 * /usr/share/skrooge/images/logo/societe_generale__30003.png
+* /usr/share/skrooge/images/logo/sovcombank.png
 * /usr/share/skrooge/images/logo/spirica.png
 * /usr/share/skrooge/images/logo/standard_bank__051001.png
 * /usr/share/skrooge/images/logo/st_george_bank.png
-* /usr/share/skrooge/images/logo/svyaz_bank.png
 * /usr/share/skrooge/images/logo/swedbank.png
+* /usr/share/skrooge/images/logo/tastytrade.png
 * /usr/share/skrooge/images/logo/tinkoff.png
-* /usr/share/skrooge/images/logo/trust.png
+* /usr/share/skrooge/images/logo/ubrr.png
 * /usr/share/skrooge/images/logo/ubs__30938.png
 * /usr/share/skrooge/images/logo/ukio_bankas.png
+* /usr/share/skrooge/images/logo/ukreximbank.png
+* /usr/share/skrooge/images/logo/ukrgasbank.png
 * /usr/share/skrooge/images/logo/umpqua__123205054.png
+* /usr/share/skrooge/images/logo/unibank.png
 * /usr/share/skrooge/images/logo/unicredit_bank.png
+* /usr/share/skrooge/images/logo/universal_bank.png
 * /usr/share/skrooge/images/logo/uralsib.png
 * /usr/share/skrooge/images/logo/urbana.png
-* /usr/share/skrooge/images/logo/vostochniy_express_bank.png
-* /usr/share/skrooge/images/logo/vtb24.png
+* /usr/share/skrooge/images/logo/vbrr.png
+* /usr/share/skrooge/images/logo/vtb.png
 * /usr/share/skrooge/images/logo/wells_fargo__121000248.png
 * /usr/share/skrooge/images/logo/westpac.png
 * /usr/share/skrooge/images/logo/woori_bank.png
