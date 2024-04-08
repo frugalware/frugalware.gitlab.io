@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bluez 5.73-1"
-version = "5.73-1"
+title = "bluez 5.73-3"
+version = "5.73-3"
 description = "Library to use the BlueZ Linux Bluetooth stack"
-date = "2024-03-21T16:04:49"
+date = "2024-04-08T18:27:24"
 aliases = "/packages/74581"
 categories = ['apps']
 upstreamurl = "http://bluez.sourceforge.net/"
 arch = "x86_64"
-size = "1809400"
+size = "1811308"
 usize = "6553470"
-sha1sum = "49e288e1bd6a9e0883b5377dac4c93ee61a286c5"
+sha1sum = "f027304e7b98c33cd951d3a446c8b1c3f7713eb6"
 depends = "['alsa-lib', 'dbus>=1.10.16-3', 'glib2>=2.50.0', 'libical>=3.0.3', 'libsystemd>=242-3', 'libudev>=242-3', 'readline>=8.0']"
 reverse_depends = "['anyremote', 'enlightenment', 'gammu', 'gnokii', 'gpsd', 'gst1-plugins-bad-bluez', 'kvm', 'ofono', 'pulseaudio-bluetooth', 'pybluez', 'qemu', 'qt5-connectivity', 'qt6-connectivity', 'supertuxkart']"
 +++
