@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "freeorion 0.5-3"
-version = "0.5-3"
+title = "freeorion 0.5.0.1-1"
+version = "0.5.0.1-1"
 description = "Free Clone of Master of Orion"
-date = "2023-10-07T10:46:14"
+date = "2024-04-08T09:56:58"
 aliases = "/packages/136117"
 categories = ['games-extra']
 upstreamurl = "http://freeorion.org/"
 arch = "x86_64"
-size = "156414532"
-usize = "186716154"
-sha1sum = "c80ef3993bc9126db434ad120c8d31d93357e8af"
+size = "156409984"
+usize = "186717025"
+sha1sum = "98af059362c96bc691fcfd898fecec4c90a90117"
 depends = "['freetype2>=2.6.2-3', 'glew>=2.2.0', 'libboost>=1.83.0', 'libjpeg-turbo', 'libpng>=1.6.20', 'libtiff>=4.0.6', 'libvorbis>=1.3.5-4', 'openal>=1.17.2', 'python3>=3.12', 'sdl2>=2.0.4']"
 +++
 ### Description: 
@@ -25,7 +25,7 @@ Free Clone of Master of Orion
 * /usr/lib/freeorion/libfreeorionparse.so
 * /usr/lib/freeorion/libGiGi.so
 * /usr/share/applications/org.freeorion.FreeOrion.desktop
-* /usr/share/doc/freeorion-0.5/README.md
+* /usr/share/doc/freeorion-0.5.0.1/README.md
 * /usr/share/freeorion/default/COPYING
 * /usr/share/freeorion/default/credits.xml
 * /usr/share/freeorion/default/data/art/cursors/default_cursor.png
