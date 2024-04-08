@@ -12,7 +12,7 @@ size = "2791512"
 usize = "17410599"
 sha1sum = "980dc031ecd1537716cc9ff19a6e97add1560bd1"
 depends = "['fontconfig', 'glibc>=2.26.9000-3', 'mkfontscale']"
-reverse_depends = "['crawl-tiles', 'gegl', 'i3', 'lumina-desktop', 'mpv']"
+reverse_depends = "['crawl', 'crawl-tiles', 'gegl', 'i3', 'lumina-desktop', 'mpv']"
 +++
 ### Description: 
 DejaVu fonts

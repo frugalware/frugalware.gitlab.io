@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "crawl 0.31.0-1"
-version = "0.31.0-1"
+title = "crawl 0.31.0-2"
+version = "0.31.0-2"
 description = "Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelike game of exploration and treasure-hunting"
-date = "2024-04-08T13:05:23"
+date = "2024-04-08T14:15:51"
 aliases = "/packages/153713"
 categories = ['games-extra']
 upstreamurl = "https://crawl.develz.org"
 arch = "x86_64"
-size = "6323012"
-usize = "29622332"
-sha1sum = "8d63cb8c41a9f78597a652601056b70caaa6649e"
-depends = "['lua', 'ncurses>=6.0-3', 'pyyaml3', 'sqlite3', 'zlib>=1.2.12']"
+size = "19947116"
+usize = "39317402"
+sha1sum = "b364fa66f7593db8e41b2cc1afcd7c26f5b24aed"
+depends = "['dejavu-ttf', 'freetype2', 'libglu', 'libpng', 'lua', 'pyyaml3', 'sdl2', 'sdl2_image', 'sdl2_ttf', 'sqlite3', 'zlib>=1.2.12']"
 +++
 ### Description: 
 Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelike game of exploration and treasure-hunting
@@ -587,6 +587,58 @@ Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelik
 * /usr/share/games/crawl/data/dat/dlua/v_rooms.lua
 * /usr/share/games/crawl/data/dat/dlua/v_shapes.lua
 * /usr/share/games/crawl/data/dat/dlua/ziggurat.lua
+* /usr/share/games/crawl/data/dat/tiles/feat.png
+* /usr/share/games/crawl/data/dat/tiles/floor.png
+* /usr/share/games/crawl/data/dat/tiles/gui.png
+* /usr/share/games/crawl/data/dat/tiles/icons.png
+* /usr/share/games/crawl/data/dat/tiles/logo.png
+* /usr/share/games/crawl/data/dat/tiles/logosmall.png
+* /usr/share/games/crawl/data/dat/tiles/logo_cropped.png
+* /usr/share/games/crawl/data/dat/tiles/main.png
+* /usr/share/games/crawl/data/dat/tiles/player.png
+* /usr/share/games/crawl/data/dat/tiles/stone_soup_icon-32x32.png
+* /usr/share/games/crawl/data/dat/tiles/stone_soup_icon-48x48.png
+* /usr/share/games/crawl/data/dat/tiles/stone_soup_icon-512x512.png
+* /usr/share/games/crawl/data/dat/tiles/stone_soup_icon-win32.png
+* /usr/share/games/crawl/data/dat/tiles/title_anon_octopus_wizard.png
+* /usr/share/games/crawl/data/dat/tiles/title_arbituhhh_tesu.png
+* /usr/share/games/crawl/data/dat/tiles/title_baconkid_duvessa_dowan.png
+* /usr/share/games/crawl/data/dat/tiles/title_baconkid_gastronok.png
+* /usr/share/games/crawl/data/dat/tiles/title_baconkid_mnoleg.png
+* /usr/share/games/crawl/data/dat/tiles/title_benadryl_antaeus.png
+* /usr/share/games/crawl/data/dat/tiles/title_Cws_Minotauros.png
+* /usr/share/games/crawl/data/dat/tiles/title_denzi_dragon.png
+* /usr/share/games/crawl/data/dat/tiles/title_denzi_evil_mage.png
+* /usr/share/games/crawl/data/dat/tiles/title_denzi_invasion.png
+* /usr/share/games/crawl/data/dat/tiles/title_denzi_kitchen_duty.png
+* /usr/share/games/crawl/data/dat/tiles/title_denzi_summoner.png
+* /usr/share/games/crawl/data/dat/tiles/title_denzi_undead_warrior.png
+* /usr/share/games/crawl/data/dat/tiles/title_e_m_fields.png
+* /usr/share/games/crawl/data/dat/tiles/title_firemage.png
+* /usr/share/games/crawl/data/dat/tiles/title_froggy_goodgod_tengu_gold.png
+* /usr/share/games/crawl/data/dat/tiles/title_froggy_jiyva_felid.png
+* /usr/share/games/crawl/data/dat/tiles/title_froggy_natasha_and_boris.png
+* /usr/share/games/crawl/data/dat/tiles/title_froggy_rune_and_run_failed_on_dis.png
+* /usr/share/games/crawl/data/dat/tiles/title_froggy_thunder_fist_nikola.png
+* /usr/share/games/crawl/data/dat/tiles/title_gompami_kohu_xbow.png
+* /usr/share/games/crawl/data/dat/tiles/title_kaonedong_ignis_the_dying_flame.png
+* /usr/share/games/crawl/data/dat/tiles/title_kaonedong_menkaure_prince_of_dust.png
+* /usr/share/games/crawl/data/dat/tiles/title_king7artist_eustachio.png
+* /usr/share/games/crawl/data/dat/tiles/title_micah_c_ereshkigal.png
+* /usr/share/games/crawl/data/dat/tiles/title_nibiki_octopode.png
+* /usr/share/games/crawl/data/dat/tiles/title_omndra_zot_demon.png
+* /usr/share/games/crawl/data/dat/tiles/title_peileppe_bloax_eye.png
+* /usr/share/games/crawl/data/dat/tiles/title_philosopheropposite_palentonga_paladin.png
+* /usr/share/games/crawl/data/dat/tiles/title_ploomutoo_ijyb.png
+* /usr/share/games/crawl/data/dat/tiles/title_pooryurik_knight.png
+* /usr/share/games/crawl/data/dat/tiles/title_psiweapon_kiku.png
+* /usr/share/games/crawl/data/dat/tiles/title_psiweapon_roxanne.png
+* /usr/share/games/crawl/data/dat/tiles/title_sastrei_chei.png
+* /usr/share/games/crawl/data/dat/tiles/title_shadyamish_octm.png
+* /usr/share/games/crawl/data/dat/tiles/title_SpinningBird_djinn_sears_gnolls.png
+* /usr/share/games/crawl/data/dat/tiles/title_white_noise_entering_the_dungeon.png
+* /usr/share/games/crawl/data/dat/tiles/title_white_noise_grabbing_the_orb.png
+* /usr/share/games/crawl/data/dat/tiles/wall.png
 * /usr/share/games/crawl/data/docs/aptitudes-wide.txt
 * /usr/share/games/crawl/data/docs/aptitudes.txt
 * /usr/share/games/crawl/data/docs/arena.txt

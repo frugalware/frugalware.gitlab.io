@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "crawl-tiles 0.27.1-2"
-version = "0.27.1-2"
+title = "crawl-tiles 0.31.0-2"
+version = "0.31.0-2"
 description = "Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-player, role-playing roguelike game"
-date = "2022-04-03T14:38:50"
+date = "2024-04-08T14:15:51"
 aliases = "/packages/168736"
 categories = ['games-extra']
-upstreamurl = "http://crawl.develz.org/wordpress/"
+upstreamurl = "https://crawl.develz.org"
 arch = "x86_64"
-size = "13066728"
-usize = "29555177"
-sha1sum = "3a93d743e637555b0bea38c4a147cac33d25d532"
+size = "19937664"
+usize = "39275684"
+sha1sum = "47141997780da45ece22c1cc6883768ccce93ce6"
 depends = "['dejavu-ttf', 'freetype2', 'libglu', 'libpng', 'lua', 'pyyaml3', 'sdl2', 'sdl2_image', 'sdl2_ttf', 'sqlite3', 'zlib>=1.2.12']"
 +++
 ### Description: 
@@ -18,8 +18,6 @@ Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-pla
 
 ### Files: 
 * /usr/bin/crawl-tiles
-* /usr/share/doc/crawl-tiles-0.27.1/INSTALL.md
-* /usr/share/doc/crawl-tiles-0.27.1/LICENSE
 * /usr/share/games/crawl-tiles/data/dat/clua/autofight.lua
 * /usr/share/games/crawl-tiles/data/dat/clua/automagic.lua
 * /usr/share/games/crawl-tiles/data/dat/clua/delays.lua
@@ -47,6 +45,15 @@ Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-pla
 * /usr/share/games/crawl-tiles/data/dat/database/rand_wpn.txt
 * /usr/share/games/crawl-tiles/data/dat/database/shout.txt
 * /usr/share/games/crawl-tiles/data/dat/database/wpnnoise.txt
+* /usr/share/games/crawl-tiles/data/dat/database/zh/FAQ.txt
+* /usr/share/games/crawl-tiles/data/dat/database/zh/godname.txt
+* /usr/share/games/crawl-tiles/data/dat/database/zh/godspeak.txt
+* /usr/share/games/crawl-tiles/data/dat/database/zh/help.txt
+* /usr/share/games/crawl-tiles/data/dat/database/zh/miscname.txt
+* /usr/share/games/crawl-tiles/data/dat/database/zh/monflee.txt
+* /usr/share/games/crawl-tiles/data/dat/database/zh/monspell.txt
+* /usr/share/games/crawl-tiles/data/dat/database/zh/montitle.txt
+* /usr/share/games/crawl-tiles/data/dat/database/zh/shout.txt
 * /usr/share/games/crawl-tiles/data/dat/defaults/autopickup_exceptions.txt
 * /usr/share/games/crawl-tiles/data/dat/defaults/glyph_colours.txt
 * /usr/share/games/crawl-tiles/data/dat/defaults/menu_colours.txt
@@ -83,7 +90,9 @@ Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-pla
 * /usr/share/games/crawl-tiles/data/dat/des/branches/dis.des
 * /usr/share/games/crawl-tiles/data/dat/des/branches/elf.des
 * /usr/share/games/crawl-tiles/data/dat/des/branches/geh.des
+* /usr/share/games/crawl-tiles/data/dat/des/branches/geh_lava_maze.des
 * /usr/share/games/crawl-tiles/data/dat/des/branches/hell.des
+* /usr/share/games/crawl-tiles/data/dat/des/branches/hells.des
 * /usr/share/games/crawl-tiles/data/dat/des/branches/hilbert_zone.des
 * /usr/share/games/crawl-tiles/data/dat/des/branches/lair.des
 * /usr/share/games/crawl-tiles/data/dat/des/branches/orc.des
@@ -106,6 +115,7 @@ Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-pla
 * /usr/share/games/crawl-tiles/data/dat/des/branches/zot.des
 * /usr/share/games/crawl-tiles/data/dat/des/builder/alphashops.des
 * /usr/share/games/crawl-tiles/data/dat/des/builder/arena.des
+* /usr/share/games/crawl-tiles/data/dat/des/builder/custombooks.des
 * /usr/share/games/crawl-tiles/data/dat/des/builder/decor.des
 * /usr/share/games/crawl-tiles/data/dat/des/builder/dummy.des
 * /usr/share/games/crawl-tiles/data/dat/des/builder/layout.des
@@ -128,6 +138,7 @@ Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-pla
 * /usr/share/games/crawl-tiles/data/dat/des/builder/shops.des
 * /usr/share/games/crawl-tiles/data/dat/des/builder/uniques.des
 * /usr/share/games/crawl-tiles/data/dat/des/guide.txt
+* /usr/share/games/crawl-tiles/data/dat/des/portals/arena.des
 * /usr/share/games/crawl-tiles/data/dat/des/portals/bailey.des
 * /usr/share/games/crawl-tiles/data/dat/des/portals/bazaar.des
 * /usr/share/games/crawl-tiles/data/dat/des/portals/desolation.des
@@ -144,15 +155,18 @@ Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-pla
 * /usr/share/games/crawl-tiles/data/dat/des/serial/column_ruins.des
 * /usr/share/games/crawl-tiles/data/dat/des/serial/corridors.des
 * /usr/share/games/crawl-tiles/data/dat/des/serial/curves.des
+* /usr/share/games/crawl-tiles/data/dat/des/serial/demonic.des
 * /usr/share/games/crawl-tiles/data/dat/des/serial/forest.des
 * /usr/share/games/crawl-tiles/data/dat/des/serial/glass.des
 * /usr/share/games/crawl-tiles/data/dat/des/serial/gnoll_camp.des
 * /usr/share/games/crawl-tiles/data/dat/des/serial/ice.des
+* /usr/share/games/crawl-tiles/data/dat/des/serial/library.des
 * /usr/share/games/crawl-tiles/data/dat/des/serial/magic_research.des
 * /usr/share/games/crawl-tiles/data/dat/des/serial/park.des
 * /usr/share/games/crawl-tiles/data/dat/des/serial/rivers.des
 * /usr/share/games/crawl-tiles/data/dat/des/serial/serial_guide.txt
 * /usr/share/games/crawl-tiles/data/dat/des/serial/sigils.des
+* /usr/share/games/crawl-tiles/data/dat/des/serial/subway.des
 * /usr/share/games/crawl-tiles/data/dat/des/serial/undead.des
 * /usr/share/games/crawl-tiles/data/dat/des/serial/window.des
 * /usr/share/games/crawl-tiles/data/dat/des/sprint/arena_sprint.des
@@ -373,9 +387,11 @@ Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-pla
 * /usr/share/games/crawl-tiles/data/dat/descript/lv/unident.txt
 * /usr/share/games/crawl-tiles/data/dat/descript/lv/unrand.txt
 * /usr/share/games/crawl-tiles/data/dat/descript/monsters.txt
+* /usr/share/games/crawl-tiles/data/dat/descript/mutations.txt
 * /usr/share/games/crawl-tiles/data/dat/descript/nl/ability.txt
 * /usr/share/games/crawl-tiles/data/dat/descript/nl/tutorial.txt
 * /usr/share/games/crawl-tiles/data/dat/descript/nl/unident.txt
+* /usr/share/games/crawl-tiles/data/dat/descript/passives.txt
 * /usr/share/games/crawl-tiles/data/dat/descript/pl/ability.txt
 * /usr/share/games/crawl-tiles/data/dat/descript/pl/backgrounds.txt
 * /usr/share/games/crawl-tiles/data/dat/descript/pl/cards.txt
@@ -450,10 +466,13 @@ Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-pla
 * /usr/share/games/crawl-tiles/data/dat/descript/zh/hints.txt
 * /usr/share/games/crawl-tiles/data/dat/descript/zh/items.txt
 * /usr/share/games/crawl-tiles/data/dat/descript/zh/monsters.txt
+* /usr/share/games/crawl-tiles/data/dat/descript/zh/mutations.txt
+* /usr/share/games/crawl-tiles/data/dat/descript/zh/passives.txt
 * /usr/share/games/crawl-tiles/data/dat/descript/zh/quotes.txt
 * /usr/share/games/crawl-tiles/data/dat/descript/zh/skills.txt
 * /usr/share/games/crawl-tiles/data/dat/descript/zh/species.txt
 * /usr/share/games/crawl-tiles/data/dat/descript/zh/spells.txt
+* /usr/share/games/crawl-tiles/data/dat/descript/zh/status.txt
 * /usr/share/games/crawl-tiles/data/dat/descript/zh/tutorial.txt
 * /usr/share/games/crawl-tiles/data/dat/descript/zh/unident.txt
 * /usr/share/games/crawl-tiles/data/dat/descript/zh/unrand.txt
@@ -534,10 +553,10 @@ Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-pla
 * /usr/share/games/crawl-tiles/data/dat/dlua/lm_items.lua
 * /usr/share/games/crawl-tiles/data/dat/dlua/lm_monst.lua
 * /usr/share/games/crawl-tiles/data/dat/dlua/lm_mon_prop.lua
-* /usr/share/games/crawl-tiles/data/dat/dlua/lm_mslav.lua
 * /usr/share/games/crawl-tiles/data/dat/dlua/lm_named_hatch.lua
 * /usr/share/games/crawl-tiles/data/dat/dlua/lm_pdesc.lua
 * /usr/share/games/crawl-tiles/data/dat/dlua/lm_props.lua
+* /usr/share/games/crawl-tiles/data/dat/dlua/lm_replica.lua
 * /usr/share/games/crawl-tiles/data/dat/dlua/lm_timed.lua
 * /usr/share/games/crawl-tiles/data/dat/dlua/lm_tmsg.lua
 * /usr/share/games/crawl-tiles/data/dat/dlua/lm_toll.lua
@@ -572,6 +591,7 @@ Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-pla
 * /usr/share/games/crawl-tiles/data/dat/tiles/icons.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/logo.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/logosmall.png
+* /usr/share/games/crawl-tiles/data/dat/tiles/logo_cropped.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/main.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/player.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/stone_soup_icon-32x32.png
@@ -583,6 +603,7 @@ Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-pla
 * /usr/share/games/crawl-tiles/data/dat/tiles/title_baconkid_duvessa_dowan.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/title_baconkid_gastronok.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/title_baconkid_mnoleg.png
+* /usr/share/games/crawl-tiles/data/dat/tiles/title_benadryl_antaeus.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/title_Cws_Minotauros.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/title_denzi_dragon.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/title_denzi_evil_mage.png
@@ -597,15 +618,22 @@ Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-pla
 * /usr/share/games/crawl-tiles/data/dat/tiles/title_froggy_natasha_and_boris.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/title_froggy_rune_and_run_failed_on_dis.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/title_froggy_thunder_fist_nikola.png
+* /usr/share/games/crawl-tiles/data/dat/tiles/title_gompami_kohu_xbow.png
+* /usr/share/games/crawl-tiles/data/dat/tiles/title_kaonedong_ignis_the_dying_flame.png
+* /usr/share/games/crawl-tiles/data/dat/tiles/title_kaonedong_menkaure_prince_of_dust.png
+* /usr/share/games/crawl-tiles/data/dat/tiles/title_king7artist_eustachio.png
+* /usr/share/games/crawl-tiles/data/dat/tiles/title_micah_c_ereshkigal.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/title_nibiki_octopode.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/title_omndra_zot_demon.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/title_peileppe_bloax_eye.png
+* /usr/share/games/crawl-tiles/data/dat/tiles/title_philosopheropposite_palentonga_paladin.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/title_ploomutoo_ijyb.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/title_pooryurik_knight.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/title_psiweapon_kiku.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/title_psiweapon_roxanne.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/title_sastrei_chei.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/title_shadyamish_octm.png
+* /usr/share/games/crawl-tiles/data/dat/tiles/title_SpinningBird_djinn_sears_gnolls.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/title_white_noise_entering_the_dungeon.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/title_white_noise_grabbing_the_orb.png
 * /usr/share/games/crawl-tiles/data/dat/tiles/wall.png
@@ -617,7 +645,6 @@ Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-pla
 * /usr/share/games/crawl-tiles/data/docs/CREDITS.txt
 * /usr/share/games/crawl-tiles/data/docs/develop/android.txt
 * /usr/share/games/crawl-tiles/data/docs/develop/arena.txt
-* /usr/share/games/crawl-tiles/data/docs/develop/background_creation.txt
 * /usr/share/games/crawl-tiles/data/docs/develop/ctags.txt
 * /usr/share/games/crawl-tiles/data/docs/develop/editor_tips.txt
 * /usr/share/games/crawl-tiles/data/docs/develop/gdb_tips.txt
@@ -651,18 +678,6 @@ Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-pla
 * /usr/share/games/crawl-tiles/data/docs/quickstart.txt
 * /usr/share/games/crawl-tiles/data/docs/ssh_guide.txt
 * /usr/share/games/crawl-tiles/data/docs/tiles_help.txt
-* /usr/share/games/crawl-tiles/data/settings/0.12_monster_glyphs.txt
-* /usr/share/games/crawl-tiles/data/settings/0.13_monster_glyphs.txt
-* /usr/share/games/crawl-tiles/data/settings/0.14_monster_glyphs.txt
-* /usr/share/games/crawl-tiles/data/settings/0.16_monster_glyphs.txt
-* /usr/share/games/crawl-tiles/data/settings/0.17_monster_glyphs.txt
-* /usr/share/games/crawl-tiles/data/settings/0.18_monster_glyphs.txt
-* /usr/share/games/crawl-tiles/data/settings/0.9_monster_glyphs.txt
-* /usr/share/games/crawl-tiles/data/settings/034_command_keys.txt
-* /usr/share/games/crawl-tiles/data/settings/052_monster_glyphs.txt
-* /usr/share/games/crawl-tiles/data/settings/060_monster_glyphs.txt
-* /usr/share/games/crawl-tiles/data/settings/071_monster_glyphs.txt
-* /usr/share/games/crawl-tiles/data/settings/080_monster_glyphs.txt
 * /usr/share/games/crawl-tiles/data/settings/advanced_optioneering.txt
 * /usr/share/games/crawl-tiles/data/settings/colemak_command_keys.txt
 * /usr/share/games/crawl-tiles/data/settings/dec_glyphs.txt

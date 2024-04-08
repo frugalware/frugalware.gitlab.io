@@ -12,7 +12,7 @@ size = "91436"
 usize = "259206"
 sha1sum = "bd5e161dfb197fcacd95899c7e250fe86fa3e5f0"
 depends = "['jxrlib', 'libavif', 'libtiff>=4.0.6', 'libwebp>=0.5.0', 'sdl2>=2.0.8']"
-reverse_depends = "['crawl-tiles', 'enigma', 'freeciv', 'lincity-ng', 'redeclipse', 'solarus', 'supertux', 'ultrastardx', 'v4l-utils', 'wesnoth']"
+reverse_depends = "['crawl', 'crawl-tiles', 'enigma', 'freeciv', 'lincity-ng', 'redeclipse', 'solarus', 'supertux', 'ultrastardx', 'v4l-utils', 'wesnoth']"
 +++
 ### Description: 
 Image loading library for SDL2

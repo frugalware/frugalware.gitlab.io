@@ -12,7 +12,7 @@ size = "554536"
 usize = "1918115"
 sha1sum = "401e1f3cba21099665930bd31178c1cd6d1db2fe"
 depends = "['brotli', 'bzip2>=1.0.6-16', 'libpng>=1.6.34-2', 'zlib>=1.2.12']"
-reverse_depends = "['alienarena', 'blender', 'bootsplash', 'cairo', 'chromium-browser', 'crawl-tiles', 'distcc-gui', 'easyrpg-player', 'efl', 'enlightenment', 'fontconfig', 'fonttosfnt', 'freeorion', 'gd', 'get_steam', 'gparted', 'graphicsmagick', 'grub2-mkfont', 'gtk+2', 'harfbuzz', 'imlib2', 'kitty', 'libbluray', 'libotf', 'libxfont', 'libxfont2', 'libxft', 'love', 'mkfontscale', 'mupdf', 'mupen64plus', 'naev', 'ogre', 'openjre-x', 'php', 'podofo', 'printoxx', 'redeclipse', 'scim', 'scribus', 'scummvm', 'sdl2_ttf', 'sdl_ttf', 'sfml', 'spring', 'supertuxkart', 'sylpheed', 'terminology', 'terminus-font-ttf', 'ultrastardx', 'vlc-skins', 'xcfa', 'xpad', 'xterm']"
+reverse_depends = "['alienarena', 'blender', 'bootsplash', 'cairo', 'chromium-browser', 'crawl', 'crawl-tiles', 'distcc-gui', 'easyrpg-player', 'efl', 'enlightenment', 'fontconfig', 'fonttosfnt', 'freeorion', 'gd', 'get_steam', 'gparted', 'graphicsmagick', 'grub2-mkfont', 'gtk+2', 'harfbuzz', 'imlib2', 'kitty', 'libbluray', 'libotf', 'libxfont', 'libxfont2', 'libxft', 'love', 'mkfontscale', 'mupdf', 'mupen64plus', 'naev', 'ogre', 'openjre-x', 'php', 'podofo', 'printoxx', 'redeclipse', 'scim', 'scribus', 'scummvm', 'sdl2_ttf', 'sdl_ttf', 'sfml', 'spring', 'supertuxkart', 'sylpheed', 'terminology', 'terminus-font-ttf', 'ultrastardx', 'vlc-skins', 'xcfa', 'xpad', 'xterm']"
 +++
 ### Description: 
 TrueType font rendering library - 2.0 series (with bytecode interpreter)
