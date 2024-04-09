@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-openssl 3.2.1-1"
-version = "3.2.1-1"
+title = "lib32-openssl 3.3.0-1"
+version = "3.3.0-1"
 description = "The Open Source toolkit for Secure Sockets Layer and Transport Layer Security ( 32bit )"
-date = "2024-01-31T14:09:58"
+date = "2024-04-09T17:54:40"
 aliases = "/packages/217921"
 categories = ['lib32-extra']
 upstreamurl = "http://www.openssl.org/source/"
 arch = "x86_64"
-size = "25897140"
-usize = "38397316"
-sha1sum = "bb72e03b41d1e2ab915bf713abe2739583eddb63"
+size = "26424548"
+usize = "39082835"
+sha1sum = "303337ffcb1f113537e8409966381615cabc2817"
 depends = "[]"
 reverse_depends = "['lib32-curl', 'lib32-db', 'lib32-libcups', 'lib32-libevent', 'lib32-libldap', 'lib32-libpulse', 'lib32-libssh2', 'lib32-libzip']"
 +++
@@ -159,6 +159,8 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security ( 
 * /usr/i686-frugalware-linux/include/openssl/x509v3.h
 * /usr/i686-frugalware-linux/include/openssl/x509v3err.h
 * /usr/i686-frugalware-linux/include/openssl/x509_vfy.h
+* /usr/lib32/cmake/OpenSSL/OpenSSLConfig.cmake
+* /usr/lib32/cmake/OpenSSL/OpenSSLConfigVersion.cmake
 * /usr/lib32/engines-3/afalg.so
 * /usr/lib32/engines-3/capi.so
 * /usr/lib32/engines-3/loader_attic.so

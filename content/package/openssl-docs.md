@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openssl-docs 3.2.1-1"
-version = "3.2.1-1"
+title = "openssl-docs 3.3.0-1"
+version = "3.3.0-1"
 description = "HTML documentation for openssl"
-date = "2024-01-31T14:09:58"
+date = "2024-04-09T17:54:40"
 aliases = "/packages/219932"
 categories = ['devel-extra']
 upstreamurl = "http://www.openssl.org/source/"
 arch = "x86_64"
-size = "1195092"
-usize = "6685356"
-sha1sum = "b23127eb559143235ef1158cab3e68370f9e7853"
+size = "1233708"
+usize = "6787866"
+sha1sum = "e53014273be1793c3a3b4bbc6fcfb990eacac4e4"
 depends = "[]"
 +++
 ### Description: 
@@ -613,6 +613,7 @@ HTML documentation for openssl
 * /usr/share/doc/openssl/html/man3/SSL_get_SSL_CTX.html
 * /usr/share/doc/openssl/html/man3/SSL_get_stream_id.html
 * /usr/share/doc/openssl/html/man3/SSL_get_stream_read_state.html
+* /usr/share/doc/openssl/html/man3/SSL_get_value_uint.html
 * /usr/share/doc/openssl/html/man3/SSL_get_verify_result.html
 * /usr/share/doc/openssl/html/man3/SSL_get_version.html
 * /usr/share/doc/openssl/html/man3/SSL_group_to_name.html
@@ -625,6 +626,7 @@ HTML documentation for openssl
 * /usr/share/doc/openssl/html/man3/SSL_new.html
 * /usr/share/doc/openssl/html/man3/SSL_new_stream.html
 * /usr/share/doc/openssl/html/man3/SSL_pending.html
+* /usr/share/doc/openssl/html/man3/SSL_poll.html
 * /usr/share/doc/openssl/html/man3/SSL_read.html
 * /usr/share/doc/openssl/html/man3/SSL_read_early_data.html
 * /usr/share/doc/openssl/html/man3/SSL_rstate_string.html
@@ -826,6 +828,7 @@ HTML documentation for openssl
 * /usr/share/doc/openssl/html/man7/openssl-core_names.h.html
 * /usr/share/doc/openssl/html/man7/openssl-env.html
 * /usr/share/doc/openssl/html/man7/openssl-glossary.html
+* /usr/share/doc/openssl/html/man7/openssl-qlog.html
 * /usr/share/doc/openssl/html/man7/openssl-quic.html
 * /usr/share/doc/openssl/html/man7/openssl-threads.html
 * /usr/share/doc/openssl/html/man7/openssl_user_macros.html
