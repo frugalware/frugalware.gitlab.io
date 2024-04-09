@@ -12,7 +12,7 @@ size = "167656"
 usize = "1032219"
 sha1sum = "35d88e3010905a5fddac0bd52fadaa9e217e665d"
 depends = "['dbus-glib>=0.108-3', 'libgudev>=230-7', 'libimobiledevice>=1.3.0', 'libsystemd>=231-6', 'libusb1>=1.0.20-5']"
-reverse_depends = "['clight', 'mixxx', 'solid', 'solid5']"
+reverse_depends = "['clight', 'mixxx', 'power-profiles-daemon', 'solid', 'solid5']"
 +++
 ### Description: 
 upower provides a daemon, API and command line tools for managing power devices attached to the system.
