@@ -12,6 +12,7 @@ size = "3235616"
 usize = "10111420"
 sha1sum = "fd7d1eca0d318ed9e0daab54b8e96ca847532345"
 depends = "['glibc']"
+reverse_depends = "['heroic-games-launcher']"
 +++
 ### Description: 
 Open Source implementation of GOG Galaxy Communication Service for SDK bundled with GOG games
