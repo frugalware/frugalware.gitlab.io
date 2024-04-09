@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "discover-overlay 0.7.3-1"
-version = "0.7.3-1"
+title = "discover-overlay 0.7.3-2"
+version = "0.7.3-2"
 description = "Yet another Discord overlay for Linux written in Python using GTK3"
-date = "2024-04-07T15:58:22"
+date = "2024-04-09T18:28:47"
 aliases = "/packages/220400"
 categories = ['xapps-extra']
 upstreamurl = "http://pypi.python.org/pypi/discover-overlay"
 arch = "x86_64"
-size = "157272"
+size = "157316"
 usize = "1346576"
-sha1sum = "6a800d92dd52cf48a8a2b083dc69b57085f1f646"
-depends = "['gtk+3', 'pygobject3', 'python3-pidfile', 'python3-pillow', 'python3-pycairo', 'python3-requests', 'python3-websocket_client']"
+sha1sum = "71b05f831551f4c8e4d8c390b867f38b04549d11"
+depends = "['gtk+3', 'pygobject3', 'python3-pidfile', 'python3-pillow', 'python3-pulsectl-asyncio', 'python3-pycairo', 'python3-requests', 'python3-websocket_client']"
 +++
 ### Description: 
 Yet another Discord overlay for Linux written in Python using GTK3

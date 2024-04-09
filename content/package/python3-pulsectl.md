@@ -12,6 +12,7 @@ size = "78212"
 usize = "301763"
 sha1sum = "41473fe24591d571798deddd480073dd0ec88ab2"
 depends = "['libpulse', 'python3']"
+reverse_depends = "['python3-pulsectl-asyncio']"
 +++
 ### Description: 
 Python high-level interface and ctypes-based bindings for PulseAudio (libpulse
