@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "elixir 1.15.7-1"
-version = "1.15.7-1"
+title = "elixir 1.16.2-1"
+version = "1.16.2-1"
 description = "a functional meta-programming aware language built on top of the Erlang VM"
-date = "2023-12-04T17:44:06"
+date = "2024-04-09T12:01:39"
 aliases = "/packages/219629"
 categories = ['devel-extra']
 upstreamurl = "http://elixir-lang.org"
 arch = "x86_64"
-size = "4624764"
-usize = "7115945"
-sha1sum = "4147473b4e7a5347dfc0b4eb16c265d4cdde7426"
+size = "5016764"
+usize = "7490987"
+sha1sum = "c52079718925513f2c76621a3139b505d18c5108"
 depends = "['erlang>=26.1']"
 +++
 ### Description: 
@@ -175,6 +175,7 @@ a functional meta-programming aware language built on top of the Erlang VM
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.Map.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.MapSet.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.MatchError.beam
+* /usr/lib/elixir/lib/elixir/ebin/Elixir.MismatchedDelimiterError.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.Module.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.Module.LocalsTracker.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.Module.ParallelChecker.beam
@@ -287,6 +288,7 @@ a functional meta-programming aware language built on top of the Erlang VM
 * /usr/lib/elixir/lib/elixir/ebin/elixir_sup.beam
 * /usr/lib/elixir/lib/elixir/ebin/elixir_tokenizer.beam
 * /usr/lib/elixir/lib/elixir/ebin/elixir_utils.beam
+* /usr/lib/elixir/lib/elixir/ebin/iex.beam
 * /usr/lib/elixir/lib/ex_unit/ebin/Elixir.ExUnit.AssertionError.beam
 * /usr/lib/elixir/lib/ex_unit/ebin/Elixir.ExUnit.Assertions.beam
 * /usr/lib/elixir/lib/ex_unit/ebin/Elixir.ExUnit.beam
@@ -456,10 +458,10 @@ a functional meta-programming aware language built on top of the Erlang VM
 * /usr/lib/elixir/lib/mix/ebin/Elixir.Mix.TasksServer.beam
 * /usr/lib/elixir/lib/mix/ebin/Elixir.Mix.Utils.beam
 * /usr/lib/elixir/lib/mix/ebin/mix.app
-* /usr/share/doc/elixir-1.15.7/LICENSE
-* /usr/share/doc/elixir-1.15.7/README.md
-* /usr/share/doc/elixir-1.15.7/RELEASE.md
-* /usr/share/doc/elixir-1.15.7/VERSION
+* /usr/share/doc/elixir-1.16.2/LICENSE
+* /usr/share/doc/elixir-1.16.2/README.md
+* /usr/share/doc/elixir-1.16.2/RELEASE.md
+* /usr/share/doc/elixir-1.16.2/VERSION
 * /usr/share/man/man1/elixir.1.gz
 * /usr/share/man/man1/elixirc.1.gz
 * /usr/share/man/man1/iex.1.gz

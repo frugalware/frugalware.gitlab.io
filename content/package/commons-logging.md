@@ -12,7 +12,7 @@ size = "34028"
 usize = "65003"
 sha1sum = "690a2774189746571e3ee77e200d2cd7a0734f90"
 depends = "['openjre']"
-reverse_depends = "['commons-httpclient', 'xmlgraphics-commons']"
+reverse_depends = "['commons-httpclient', 'fop', 'xmlgraphics-commons']"
 +++
 ### Description: 
 An ultra-thin bridge between different logging libraries.

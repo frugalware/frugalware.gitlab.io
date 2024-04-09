@@ -12,7 +12,7 @@ size = "628084"
 usize = "702382"
 sha1sum = "324eb0c7201d8ee81ae3d30d14f0b48b734e7df2"
 depends = "['commons-io', 'commons-logging']"
-reverse_depends = "['batik']"
+reverse_depends = "['batik', 'fop']"
 +++
 ### Description: 
 A library of several reusable components used by Apache Batik and Apache FOP.
