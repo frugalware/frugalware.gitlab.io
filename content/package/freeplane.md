@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "freeplane 1.11.11-1"
-version = "1.11.11-1"
+title = "freeplane 1.11.12-1"
+version = "1.11.12-1"
 description = "A free mind mapping software"
-date = "2024-04-07T16:46:59"
+date = "2024-04-09T10:41:44"
 aliases = "/packages/220344"
 categories = ['xapps-extra']
 upstreamurl = "https://www.freeplane.org/"
 arch = "x86_64"
-size = "61271680"
-usize = "74724271"
-sha1sum = "3a855ecef52d0f67d4a8d29f87385273bbb33858"
+size = "61287588"
+usize = "74670026"
+sha1sum = "2d5c63bfaf7432d3042162955af3d84e85335b15"
 depends = "['openjre-x']"
 +++
 ### Description: 
@@ -264,22 +264,22 @@ A free mind mapping software
 * /usr/lib/freeplane/org.freeplane.core/lib/data-url-2.0.1.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/flatlaf-3.2.5.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/freeplaneapi_viewer.jar
-* /usr/lib/freeplane/org.freeplane.core/lib/freeplaneeditor-1.11.11.jar
-* /usr/lib/freeplane/org.freeplane.core/lib/freeplaneosgi-1.11.11.jar
+* /usr/lib/freeplane/org.freeplane.core/lib/freeplaneeditor-1.11.12.jar
+* /usr/lib/freeplane/org.freeplane.core/lib/freeplaneosgi-1.11.12.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/freeplaneviewer.jar
-* /usr/lib/freeplane/org.freeplane.core/lib/freeplane_mac-1.11.11.jar
+* /usr/lib/freeplane/org.freeplane.core/lib/freeplane_mac-1.11.12.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/idw-gpl-1.6.1.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/imageio-core-3.10.1.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/imageio-jpeg-3.10.1.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/imageio-metadata-3.10.1.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/jgoodies-common-1.8.1.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/jgoodies-forms-1.9.0.jar
-* /usr/lib/freeplane/org.freeplane.core/lib/jortho-1.11.11.jar
+* /usr/lib/freeplane/org.freeplane.core/lib/jortho-1.11.12.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/kitfox-svg-salamander-1.1.1-p1.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/simplyhtml-0.19.9.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/twemoji-12.1.4.jar
 * /usr/lib/freeplane/org.freeplane.core/META-INF/MANIFEST.MF
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.bugreport/lib/plugin-1.11.11.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.bugreport/lib/plugin-1.11.12.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.bugreport/META-INF/MANIFEST.MF
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/apfloat-1.10.1.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/archunit-1.2.1.jar
@@ -287,26 +287,26 @@ A free mind mapping software
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/gson-2.10.1.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/jgrapht-core-1.5.2.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/jheaps-0.14.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/plugin-1.11.11.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/plugin-1.11.12.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/slf4j-api-2.0.9.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/slf4j-nop-2.0.9.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/META-INF/MANIFEST.MF
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.formula/lib/plugin-1.11.11.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.formula/lib/plugin-1.11.12.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.formula/META-INF/MANIFEST.MF
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.jsyntaxpane/lib/plugin-1.11.11.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.jsyntaxpane/lib/plugin-1.11.12.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.jsyntaxpane/lib/syntaxpane-1.3.0.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.jsyntaxpane/META-INF/MANIFEST.MF
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.latex/lib/jlatexmath-1.0.7.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.latex/lib/jlatexmath-font-cyrillic-1.0.7.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.latex/lib/jlatexmath-font-greek-1.0.7.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.latex/lib/plugin-1.11.11.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.latex/lib/plugin-1.11.12.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.latex/META-INF/MANIFEST.MF
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.markdown/lib/jsoup-1.16.1.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.markdown/lib/markedj-1.0.18.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.markdown/lib/plugin-1.11.11.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.markdown/lib/plugin-1.11.12.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.markdown/META-INF/MANIFEST.MF
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.openmaps/lib/jmapviewer-2.18.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.openmaps/lib/plugin-1.11.11.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.openmaps/lib/plugin-1.11.12.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.openmaps/META-INF/MANIFEST.MF
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/ant-1.10.14.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/ant-antlr-1.10.14.jar
@@ -361,7 +361,7 @@ A free mind mapping software
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/opentest4j-1.3.0.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/org.abego.treelayout.core-1.0.3.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/picocli-4.7.5.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/plugin-1.11.11.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/plugin-1.11.12.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/qdox-1.12.1.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/snakeyaml-2.2.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.script/META-INF/MANIFEST.MF
@@ -391,7 +391,7 @@ A free mind mapping software
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.svg/lib/fop-core-2.9.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.svg/lib/fop-events-2.9.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.svg/lib/fop-util-2.9.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.svg/lib/plugin-1.11.11.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.svg/lib/plugin-1.11.12.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.svg/lib/xml-apis-ext-1.3.04.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.svg/lib/xmlgraphics-commons-2.9.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.svg/META-INF/MANIFEST.MF
