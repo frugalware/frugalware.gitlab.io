@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-good-video4linux2 1.24.1-1"
-version = "1.24.1-1"
+title = "gst1-plugins-good-video4linux2 1.24.2-1"
+version = "1.24.2-1"
 description = "GStreamer video4linux2 plugin (Good)."
-date = "2024-04-07T18:15:40"
+date = "2024-04-10T11:11:44"
 aliases = "/packages/168863"
 categories = ['xmultimedia']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "134756"
+size = "134884"
 usize = "354656"
-sha1sum = "d5bc5c4bda1b0d4043ed591c3cc43592ec97568f"
-depends = "['gst1-plugins-base>=1.24.1', 'gst1-plugins-good>=1.24.1', 'libffi>=3.2.1-2', 'libgudev>=230-7', 'libjpeg-turbo', 'v4l-utils>=1.9.2-4']"
+sha1sum = "5818abe6780cd5204353f56acefd759f3ad8a344"
+depends = "['gst1-plugins-base>=1.24.2', 'gst1-plugins-good>=1.24.2', 'libffi>=3.2.1-2', 'libgudev>=230-7', 'libjpeg-turbo', 'v4l-utils>=1.9.2-4']"
 reverse_depends = "['kamoso']"
 +++
 ### Description: 

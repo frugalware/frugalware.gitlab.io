@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libcap-ng 0.8.4-1"
-version = "0.8.4-1"
+title = "libcap-ng 0.8.5-1"
+version = "0.8.5-1"
 description = "A library making programming with POSIX capabilities easier than traditional libcap"
-date = "2023-12-24T13:43:10"
+date = "2024-04-10T10:49:34"
 aliases = "/packages/218628"
 categories = ['base']
 upstreamurl = "http://people.redhat.com/sgrubb/libcap-ng/"
 arch = "x86_64"
-size = "58152"
-usize = "173158"
-sha1sum = "a73c2c2521fc4c9ba186d677157f10dccdb67f23"
+size = "58412"
+usize = "173430"
+sha1sum = "cc95758e86f87a5aae8e14573fbf08ed889bf45d"
 depends = "['glibc>=2.35']"
 reverse_depends = "['audit', 'greetd', 'libreswan', 'openvswitch', 'smartmontools', 'usbguard', 'util-linux']"
 license = "LGPL2.1"
@@ -32,13 +32,12 @@ A library making programming with POSIX capabilities easier than traditional lib
 * /usr/lib/libdrop_ambient.so.0.0.0
 * /usr/lib/pkgconfig/libcap-ng.pc
 * /usr/share/aclocal/cap-ng.m4
-* /usr/share/doc/libcap-ng-0.8.4/AUTHORS
-* /usr/share/doc/libcap-ng-0.8.4/ChangeLog
-* /usr/share/doc/libcap-ng-0.8.4/COPYING
-* /usr/share/doc/libcap-ng-0.8.4/COPYING.LIB
-* /usr/share/doc/libcap-ng-0.8.4/INSTALL
-* /usr/share/doc/libcap-ng-0.8.4/README.md
-* /usr/share/doc/libcap-ng-0.8.4/TODO
+* /usr/share/doc/libcap-ng-0.8.5/AUTHORS
+* /usr/share/doc/libcap-ng-0.8.5/ChangeLog
+* /usr/share/doc/libcap-ng-0.8.5/COPYING
+* /usr/share/doc/libcap-ng-0.8.5/COPYING.LIB
+* /usr/share/doc/libcap-ng-0.8.5/INSTALL
+* /usr/share/doc/libcap-ng-0.8.5/README.md
 * /usr/share/man/man3/capng_apply.3.gz
 * /usr/share/man/man3/capng_apply_caps_fd.3.gz
 * /usr/share/man/man3/capng_capability_to_name.3.gz

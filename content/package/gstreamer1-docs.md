@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gstreamer1-docs 1.24.1-1"
-version = "1.24.1-1"
+title = "gstreamer1-docs 1.24.2-1"
+version = "1.24.2-1"
 description = "GStreamer $pkgver Documentation."
-date = "2024-04-07T17:53:55"
+date = "2024-04-10T10:52:43"
 aliases = "/packages/168882"
 categories = ['docs-extra']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "8761716"
-usize = "116822985"
-sha1sum = "60405d6e6b663343c78068190b5e79265c9ebc27"
+size = "8764548"
+usize = "116822968"
+sha1sum = "8023761d23c32f7f87053395c2151c0918c7c418"
 depends = "[]"
 +++
 ### Description: 
