@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pam 1.6.0-2"
-version = "1.6.0-2"
+title = "pam 1.6.1-1"
+version = "1.6.1-1"
 description = "Linux-PAM (Pluggable Authentication Modules)"
-date = "2024-02-01T11:34:38"
+date = "2024-04-10T09:10:08"
 aliases = "/packages/73298"
 categories = ['base']
 upstreamurl = "https://github.com/linux-pam/linux-pam"
 arch = "x86_64"
-size = "572044"
-usize = "2190690"
-sha1sum = "884a2ed7b7348e0ad5de63aefbd38465d0a4808a"
+size = "567660"
+usize = "2168378"
+sha1sum = "40585a1fcd9c85ae7b95a240feb039b0302b183e"
 depends = "['db>=18.1.32-2', 'glibc>=2.35', 'libaudit', 'libsystemd', 'libxcrypt']"
 reverse_depends = "['c-client', 'cups', 'dovecot', 'dropbear', 'enlightenment', 'greetd', 'inetutils', 'kbd', 'kwallet-pam', 'libcups', 'libpwquality', 'lighttpd', 'lxc', 'monit', 'openssh', 'openvpn', 'pam-frugalware', 'pam-python', 'pam_wrapper', 'polkit', 'saslauthd', 'screen', 'systemd-sysvinit', 'util-linux', 'virtualbox-guest-additions', 'vsftpd', 'xorg-server', 'xrdp']"
 +++
@@ -33,9 +33,7 @@ Linux-PAM (Pluggable Authentication Modules)
 * /usr/bin/mkhomedir_helper
 * /usr/bin/pam_namespace_helper
 * /usr/bin/pam_timestamp_check
-* /usr/bin/pwhistory_helper
 * /usr/bin/unix_chkpwd
-* /usr/bin/unix_update
 * /usr/include/security/pam_appl.h
 * /usr/include/security/pam_client.h
 * /usr/include/security/pam_ext.h
@@ -102,16 +100,16 @@ Linux-PAM (Pluggable Authentication Modules)
 * /usr/lib/security/pam_wheel.so
 * /usr/lib/security/pam_xauth.so
 * /usr/lib/systemd/pam_namespace.service
-* /usr/share/doc/pam-1.6.0/AUTHORS
-* /usr/share/doc/pam-1.6.0/ChangeLog
-* /usr/share/doc/pam-1.6.0/CHANGELOG
-* /usr/share/doc/pam-1.6.0/COPYING
-* /usr/share/doc/pam-1.6.0/draft-morgan-pam-current.txt
-* /usr/share/doc/pam-1.6.0/index.html
-* /usr/share/doc/pam-1.6.0/INSTALL
-* /usr/share/doc/pam-1.6.0/NEWS
-* /usr/share/doc/pam-1.6.0/README
-* /usr/share/doc/pam-1.6.0/rfc86.0.txt
+* /usr/share/doc/pam-1.6.1/AUTHORS
+* /usr/share/doc/pam-1.6.1/ChangeLog
+* /usr/share/doc/pam-1.6.1/CHANGELOG
+* /usr/share/doc/pam-1.6.1/COPYING
+* /usr/share/doc/pam-1.6.1/draft-morgan-pam-current.txt
+* /usr/share/doc/pam-1.6.1/index.html
+* /usr/share/doc/pam-1.6.1/INSTALL
+* /usr/share/doc/pam-1.6.1/NEWS
+* /usr/share/doc/pam-1.6.1/README
+* /usr/share/doc/pam-1.6.1/rfc86.0.txt
 * /usr/share/locale/af/LC_MESSAGES/Linux-PAM.mo
 * /usr/share/locale/am/LC_MESSAGES/Linux-PAM.mo
 * /usr/share/locale/ar/LC_MESSAGES/Linux-PAM.mo
@@ -295,6 +293,4 @@ Linux-PAM (Pluggable Authentication Modules)
 * /usr/share/man/man8/pam_warn.8.gz
 * /usr/share/man/man8/pam_wheel.8.gz
 * /usr/share/man/man8/pam_xauth.8.gz
-* /usr/share/man/man8/pwhistory_helper.8.gz
 * /usr/share/man/man8/unix_chkpwd.8.gz
-* /usr/share/man/man8/unix_update.8.gz

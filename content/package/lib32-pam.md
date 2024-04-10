@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-pam 1.6.0-2"
-version = "1.6.0-2"
+title = "lib32-pam 1.6.1-1"
+version = "1.6.1-1"
 description = "Linux-PAM (Pluggable Authentication Modules) ( 32bit )"
-date = "2024-02-01T11:34:38"
+date = "2024-04-10T09:10:08"
 aliases = "/packages/218673"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/linux-pam/linux-pam"
 arch = "x86_64"
-size = "157456"
-usize = "625571"
-sha1sum = "856aecab7f800a301804af94663519715d999398"
+size = "160476"
+usize = "662423"
+sha1sum = "5bc627fbc2edb5d615da0646927de5fc2d42fcc0"
 depends = "['lib32-db>=18.1.32-2', 'lib32-libsystemd', 'lib32-libxcrypt']"
 reverse_depends = "['lib32-libcups', 'lib32-polkit', 'lib32-util-linux', 'lib32-xorg-server']"
 +++
