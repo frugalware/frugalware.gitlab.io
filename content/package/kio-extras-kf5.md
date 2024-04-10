@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kio-extras-kf5 24.02.1-1"
-version = "24.02.1-1"
+title = "kio-extras-kf5 24.02.1-2"
+version = "24.02.1-2"
 description = "Additional components to increase the functionality of KIO (KF5)"
-date = "2024-04-02T14:52:45"
+date = "2024-04-10T09:46:43"
 aliases = "/packages/221415"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1139276"
-usize = "4653868"
-sha1sum = "2bda8ba4147699450ef4f23cf15bcd04e73e1ecf"
-depends = "['exiv2>=0.25-7', 'kactivities-stats5>=5.115.0', 'kcmutils5>=5.115.0', 'kdnssd5>=5.115.0', 'kdsoap5', 'kpty5>=5.115.0', 'libkexiv25', 'libmtp>=1.1.12-2', 'libplist>=2.3.0', 'libssh>=0.7.3-2', 'libtirpc', 'openexr>=3.2.0', 'openslp>=2.0.0-3', 'qcoro', 'qt5-webengine>=5.15.12', 'samba-client>=4.5.0', 'syntax-highlighting5>=5.115.0', 'taglib>=2.0']"
+size = "1141044"
+usize = "4672212"
+sha1sum = "713b7e46321c011ba4a8f43dd59fb389a19c6991"
+depends = "['exiv2>=0.25-7', 'kactivities-stats5>=5.115.0', 'kcmutils5>=5.115.0', 'kdnssd5>=5.115.0', 'kdsoap5', 'kpty5>=5.115.0', 'libappimage', 'libkexiv25', 'libmtp>=1.1.12-2', 'libplist>=2.3.0', 'libssh>=0.7.3-2', 'libtirpc', 'openexr>=3.2.0', 'openslp>=2.0.0-3', 'qcoro', 'qt5-webengine>=5.15.12', 'samba-client>=4.5.0', 'syntax-highlighting5>=5.115.0', 'taglib>=2.0']"
 +++
 ### Description: 
 Additional components to increase the functionality of KIO (KF5)
@@ -48,6 +48,7 @@ Additional components to increase the functionality of KIO (KF5)
 * /usr/lib/qt5/plugins/kf5/kio/smb.so
 * /usr/lib/qt5/plugins/kf5/kio/thumbnail.so
 * /usr/lib/qt5/plugins/kf5/kiod/kmtpd.so
+* /usr/lib/qt5/plugins/kf5/thumbcreator/appimagethumbnail.so
 * /usr/lib/qt5/plugins/kf5/thumbcreator/audiothumbnail.so
 * /usr/lib/qt5/plugins/kf5/thumbcreator/comicbookthumbnail.so
 * /usr/lib/qt5/plugins/kf5/thumbcreator/cursorthumbnail.so
