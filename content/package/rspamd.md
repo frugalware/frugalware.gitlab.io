@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rspamd 3.7.5-2"
-version = "3.7.5-2"
+title = "rspamd 3.8.4-1"
+version = "3.8.4-1"
 description = "Rapid spam filtering system."
-date = "2024-01-30T10:08:31"
+date = "2024-04-10T19:41:11"
 aliases = "/packages/219819"
 categories = ['network-extra']
 upstreamurl = "https://github.com/rspamd/rspamd"
 arch = "x86_64"
-size = "3777320"
-usize = "13377920"
-sha1sum = "4441786c0648fe385e17a7b224b6796c08cf81ce"
+size = "3789132"
+usize = "13419521"
+sha1sum = "f3b59e7e5d0582ac8b6bd010ded04b7ab7845ae5"
 depends = "['glib2', 'hyperscan', 'icu4c>=74.1', 'libsodium>=1.0.19', 'luajit2']"
 +++
 ### Description: 
@@ -106,11 +106,11 @@ Rapid spam filtering system.
 * /etc/rspamd/worker-normal.inc
 * /etc/rspamd/worker-proxy.inc
 * /usr/bin/rspamadm
-* /usr/bin/rspamadm-3.7.5
+* /usr/bin/rspamadm-3.8.4
 * /usr/bin/rspamc
-* /usr/bin/rspamc-3.7.5
+* /usr/bin/rspamc-3.8.4
 * /usr/bin/rspamd
-* /usr/bin/rspamd-3.7.5
+* /usr/bin/rspamd-3.8.4
 * /usr/bin/rspamd_stats
 * /usr/lib/rspamd/librspamd-actrie.so
 * /usr/lib/rspamd/librspamd-ev.so
@@ -120,8 +120,8 @@ Rapid spam filtering system.
 * /usr/lib/systemd/system/rspamd.service
 * /usr/lib/sysusers.d/rspamd.conf
 * /usr/lib/tmpfiles.d/rspamd.conf
-* /usr/share/doc/rspamd-3.7.5/ChangeLog
-* /usr/share/doc/rspamd-3.7.5/README.md
+* /usr/share/doc/rspamd-3.8.4/ChangeLog
+* /usr/share/doc/rspamd-3.8.4/README.md
 * /usr/share/man/man1/rspamadm.1.gz
 * /usr/share/man/man1/rspamc.1.gz
 * /usr/share/man/man8/rspamd.8.gz
@@ -183,6 +183,7 @@ Rapid spam filtering system.
 * /usr/share/rspamd/lualib/lua_auth_results.lua
 * /usr/share/rspamd/lualib/lua_aws.lua
 * /usr/share/rspamd/lualib/lua_bayes_learn.lua
+* /usr/share/rspamd/lualib/lua_bayes_redis.lua
 * /usr/share/rspamd/lualib/lua_cfg_transform.lua
 * /usr/share/rspamd/lualib/lua_cfg_utils.lua
 * /usr/share/rspamd/lualib/lua_clickhouse.lua
@@ -244,6 +245,11 @@ Rapid spam filtering system.
 * /usr/share/rspamd/lualib/plugins/neural.lua
 * /usr/share/rspamd/lualib/plugins/rbl.lua
 * /usr/share/rspamd/lualib/plugins_stats.lua
+* /usr/share/rspamd/lualib/redis_scripts/bayes_cache_check.lua
+* /usr/share/rspamd/lualib/redis_scripts/bayes_cache_learn.lua
+* /usr/share/rspamd/lualib/redis_scripts/bayes_classify.lua
+* /usr/share/rspamd/lualib/redis_scripts/bayes_learn.lua
+* /usr/share/rspamd/lualib/redis_scripts/bayes_stat.lua
 * /usr/share/rspamd/lualib/redis_scripts/neural_maybe_invalidate.lua
 * /usr/share/rspamd/lualib/redis_scripts/neural_maybe_lock.lua
 * /usr/share/rspamd/lualib/redis_scripts/neural_save_unlock.lua
@@ -261,6 +267,7 @@ Rapid spam filtering system.
 * /usr/share/rspamd/lualib/rspamadm/dmarc_report.lua
 * /usr/share/rspamd/lualib/rspamadm/dns_tool.lua
 * /usr/share/rspamd/lualib/rspamadm/fuzzy_convert.lua
+* /usr/share/rspamd/lualib/rspamadm/fuzzy_ping.lua
 * /usr/share/rspamd/lualib/rspamadm/fuzzy_stat.lua
 * /usr/share/rspamd/lualib/rspamadm/grep.lua
 * /usr/share/rspamd/lualib/rspamadm/keypair.lua
@@ -365,9 +372,11 @@ Rapid spam filtering system.
 * /usr/share/rspamd/www/img/desc.png
 * /usr/share/rspamd/www/img/rspamd_logo_navbar.png
 * /usr/share/rspamd/www/index.html
+* /usr/share/rspamd/www/js/app/common.js
 * /usr/share/rspamd/www/js/app/config.js
 * /usr/share/rspamd/www/js/app/graph.js
 * /usr/share/rspamd/www/js/app/history.js
+* /usr/share/rspamd/www/js/app/libft.js
 * /usr/share/rspamd/www/js/app/rspamd.js
 * /usr/share/rspamd/www/js/app/selectors.js
 * /usr/share/rspamd/www/js/app/stats.js
@@ -381,7 +390,7 @@ Rapid spam filtering system.
 * /usr/share/rspamd/www/js/lib/d3pie.min.js
 * /usr/share/rspamd/www/js/lib/fontawesome.min.js
 * /usr/share/rspamd/www/js/lib/footable.min.js
-* /usr/share/rspamd/www/js/lib/jquery-3.7.0.min.js
+* /usr/share/rspamd/www/js/lib/jquery-3.7.1.min.js
 * /usr/share/rspamd/www/js/lib/jquery.stickytabs.min.js
 * /usr/share/rspamd/www/js/lib/nprogress.min.js
 * /usr/share/rspamd/www/js/lib/prism.js
