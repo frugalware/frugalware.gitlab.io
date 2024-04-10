@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "go 1.22.0-1"
-version = "1.22.0-1"
+title = "go 1.22.2-1"
+version = "1.22.2-1"
 description = "Compiler and tools for the Go programming language from Google"
-date = "2024-02-08T18:47:41"
+date = "2024-04-10T13:37:11"
 aliases = "/packages/200076"
 categories = ['devel-extra']
 upstreamurl = "http://golang.org/"
 arch = "x86_64"
-size = "277535564"
-usize = "447240263"
-sha1sum = "e62124aa239e41616967a525ba220efbdfe1c22a"
+size = "143360468"
+usize = "312108205"
+sha1sum = "fb2bac21846d9d761ccf6a58a8d990a551386fa8"
 depends = "['gawk', 'perl>=5.28.2']"
 reverse_depends = "['audit-go']"
 +++
@@ -2023,6 +2023,7 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/cmd/go/testdata/script/build_issue59571.txt
 * /usr/lib/go/src/cmd/go/testdata/script/build_issue62156.txt
 * /usr/lib/go/src/cmd/go/testdata/script/build_issue6480.txt
+* /usr/lib/go/src/cmd/go/testdata/script/build_issue_65528.txt
 * /usr/lib/go/src/cmd/go/testdata/script/build_link_x_import_path_escape.txt
 * /usr/lib/go/src/cmd/go/testdata/script/build_multi_main.txt
 * /usr/lib/go/src/cmd/go/testdata/script/build_negative_p.txt
@@ -2554,6 +2555,7 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/cmd/go/testdata/script/mod_vendor_unused.txt
 * /usr/lib/go/src/cmd/go/testdata/script/mod_vendor_unused_only.txt
 * /usr/lib/go/src/cmd/go/testdata/script/mod_verify.txt
+* /usr/lib/go/src/cmd/go/testdata/script/mod_verify_work.txt
 * /usr/lib/go/src/cmd/go/testdata/script/mod_versions.txt
 * /usr/lib/go/src/cmd/go/testdata/script/mod_why.txt
 * /usr/lib/go/src/cmd/go/testdata/script/noncanonical_import.txt
@@ -5399,7 +5401,6 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/go/types/version.go
 * /usr/lib/go/src/go/version/version.go
 * /usr/lib/go/src/go/version/version_test.go
-* /usr/lib/go/src/go1.17.13.linux-amd64.tar.gz
 * /usr/lib/go/src/go1.20.6.linux-amd64.tar.gz
 * /usr/lib/go/src/hash/adler32/adler32.go
 * /usr/lib/go/src/hash/adler32/adler32_test.go
@@ -6598,6 +6599,7 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/internal/types/testdata/fixedbugs/issue63563.go
 * /usr/lib/go/src/internal/types/testdata/fixedbugs/issue64406.go
 * /usr/lib/go/src/internal/types/testdata/fixedbugs/issue64704.go
+* /usr/lib/go/src/internal/types/testdata/fixedbugs/issue65854.go
 * /usr/lib/go/src/internal/types/testdata/fixedbugs/issue6977.go
 * /usr/lib/go/src/internal/types/testdata/spec/assignability.go
 * /usr/lib/go/src/internal/types/testdata/spec/comparable.go
@@ -9546,9 +9548,9 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/vendor/golang.org/x/text/unicode/norm/transform.go
 * /usr/lib/go/src/vendor/golang.org/x/text/unicode/norm/trie.go
 * /usr/lib/go/src/vendor/modules.txt
-* /usr/share/doc/go-1.22.0/LICENSE
-* /usr/share/doc/go-1.22.0/README.md
-* /usr/share/doc/go-1.22.0/VERSION
+* /usr/share/doc/go-1.22.2/LICENSE
+* /usr/share/doc/go-1.22.2/README.md
+* /usr/share/doc/go-1.22.2/VERSION
 * /usr/share/go/doc/asm.html
 * /usr/share/go/doc/go1.17_spec.html
 * /usr/share/go/doc/godebug.md
