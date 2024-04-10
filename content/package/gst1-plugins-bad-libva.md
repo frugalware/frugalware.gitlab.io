@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-bad-libva 1.24.1-1"
-version = "1.24.1-1"
+title = "gst1-plugins-bad-libva 1.24.2-1"
+version = "1.24.2-1"
 description = "GStreamer libva plugin (Bad)."
-date = "2024-04-07T18:25:25"
+date = "2024-04-10T11:21:36"
 aliases = "/packages/221276"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "416048"
-usize = "1258180"
-sha1sum = "6443a8f65f47eb80449bfb750f1792dc840c1560"
-depends = "['gst1-plugins-bad>=1.24.1', 'gst1-plugins-base>=1.24.1', 'libva']"
+size = "418960"
+usize = "1262276"
+sha1sum = "21bbfde845caa35c969e442e6dad289df73a5acc"
+depends = "['gst1-plugins-bad>=1.24.2', 'gst1-plugins-base>=1.24.2', 'libva']"
 +++
 ### Description: 
 GStreamer libva plugin (Bad).
@@ -32,8 +32,8 @@ GStreamer libva plugin (Bad).
 * /usr/lib/gstreamer-1.0/libgstva.so
 * /usr/lib/libgstdxva-1.0.so
 * /usr/lib/libgstdxva-1.0.so.0
-* /usr/lib/libgstdxva-1.0.so.0.2401.0
+* /usr/lib/libgstdxva-1.0.so.0.2402.0
 * /usr/lib/libgstva-1.0.so
 * /usr/lib/libgstva-1.0.so.0
-* /usr/lib/libgstva-1.0.so.0.2401.0
+* /usr/lib/libgstva-1.0.so.0.2402.0
 * /usr/lib/pkgconfig/gstreamer-va-1.0.pc

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-bad-bluez 1.24.1-1"
-version = "1.24.1-1"
+title = "gst1-plugins-bad-bluez 1.24.2-1"
+version = "1.24.2-1"
 description = "GStreamer BlueZ plugin (Bad)."
-date = "2024-04-07T18:25:25"
+date = "2024-04-10T11:21:36"
 aliases = "/packages/221263"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "31000"
+size = "31032"
 usize = "88048"
-sha1sum = "eb32754d9c6aeb4d49650df64f479b24fc9f5479"
-depends = "['bluez', 'gst1-plugins-bad>=1.24.1', 'gst1-plugins-base>=1.24.1']"
+sha1sum = "5853bcbb25b11d425cdafc259fc4eafcf6f80a01"
+depends = "['bluez', 'gst1-plugins-bad>=1.24.2', 'gst1-plugins-base>=1.24.2']"
 +++
 ### Description: 
 GStreamer BlueZ plugin (Bad).
