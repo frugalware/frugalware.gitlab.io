@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "python3-tools 3.12.2-2"
-version = "3.12.2-2"
+title = "python3-tools 3.12.3-1"
+version = "3.12.3-1"
 description = "Optional development tools to extending Python3"
-date = "2024-03-26T16:44:21"
+date = "2024-04-10T12:26:23"
 aliases = "/packages/217992"
 categories = ['devel-extra']
 upstreamurl = "https://www.python.org"
 arch = "x86_64"
-size = "628596"
-usize = "4100342"
-sha1sum = "706aefc333e453037250b6495428a099e07082cf"
-depends = "['python3>=3.12.2']"
+size = "628992"
+usize = "4103296"
+sha1sum = "e39c35dda07cf1faf1c62fe598f21c19d3345809"
+depends = "['python3>=3.12.3']"
 +++
 ### Description: 
 Optional development tools to extending Python3
@@ -326,12 +326,14 @@ Optional development tools to extending Python3
 * /usr/lib/python3.12/site-packages/scripts/pydoc3
 * /usr/lib/python3.12/site-packages/scripts/README
 * /usr/lib/python3.12/site-packages/scripts/run_tests.py
+* /usr/lib/python3.12/site-packages/scripts/sortperf.py
 * /usr/lib/python3.12/site-packages/scripts/summarize_stats.py
 * /usr/lib/python3.12/site-packages/scripts/var_access_benchmark.py
 * /usr/lib/python3.12/site-packages/ssl/make_ssl_data.py
 * /usr/lib/python3.12/site-packages/ssl/multissltests.py
 * /usr/lib/python3.12/site-packages/stringbench/README
 * /usr/lib/python3.12/site-packages/stringbench/stringbench.py
+* /usr/lib/python3.12/site-packages/tsan/supressions.txt
 * /usr/lib/python3.12/site-packages/tz/zdump.py
 * /usr/lib/python3.12/site-packages/unicode/comparecodecs.py
 * /usr/lib/python3.12/site-packages/unicode/gencjkcodecs.py

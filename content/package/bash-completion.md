@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bash-completion 2.12.0-1"
-version = "2.12.0-1"
+title = "bash-completion 2.13.0-1"
+version = "2.13.0-1"
 description = "Programmable completion for bash"
-date = "2024-03-21T16:28:57"
+date = "2024-04-10T13:11:59"
 aliases = "/packages/2926"
 categories = ['apps']
 upstreamurl = "https://github.com/scop/bash-completion"
 arch = "x86_64"
-size = "198960"
-usize = "1046907"
-sha1sum = "ff5873e1f5893f25783fd67e4cd904e6b9f2341b"
+size = "199668"
+usize = "1052158"
+sha1sum = "76addba2594adf6f4bf661ec0756063df9dc13c6"
 depends = "['bash']"
 reverse_depends = "['git-imerge', 'packagekit']"
 +++
@@ -897,6 +897,7 @@ Programmable completion for bash
 * /usr/share/bash-completion/completions/_repomanage
 * /usr/share/bash-completion/completions/_reptyr
 * /usr/share/bash-completion/completions/_rfkill
+* /usr/share/bash-completion/completions/_rg
 * /usr/share/bash-completion/completions/_rtcwake
 * /usr/share/bash-completion/completions/_ruff
 * /usr/share/bash-completion/completions/_runuser
@@ -936,6 +937,6 @@ Programmable completion for bash
 * /usr/share/bash-completion/helpers/python
 * /usr/share/cmake/bash-completion/bash-completion-config-version.cmake
 * /usr/share/cmake/bash-completion/bash-completion-config.cmake
-* /usr/share/doc/bash-completion-2.12.0/AUTHORS
-* /usr/share/doc/bash-completion-2.12.0/COPYING
-* /usr/share/doc/bash-completion-2.12.0/README.md
+* /usr/share/doc/bash-completion-2.13.0/AUTHORS
+* /usr/share/doc/bash-completion-2.13.0/COPYING
+* /usr/share/doc/bash-completion-2.13.0/README.md
