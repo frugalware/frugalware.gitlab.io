@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "heroic-games-launcher 2.14.1-1"
-version = "2.14.1-1"
+title = "heroic-games-launcher 2.14.1-2"
+version = "2.14.1-2"
 description = "Native GOG, Epic Games and Amazon games launcher for Linux"
-date = "2024-04-09T20:55:39"
+date = "2024-04-11T14:11:02"
 aliases = "/packages/221432"
 categories = ['games-extra']
 upstreamurl = "https://heroicgameslauncher.com/"
 arch = "x86_64"
-size = "119319216"
-usize = "395962631"
-sha1sum = "15811ea1b6dad279d13047eb360fa1d837455198"
+size = "119263820"
+usize = "395962870"
+sha1sum = "8682fb8f3e1688608cf70dbd3ae0175ea0279f21"
 depends = "['comet']"
 +++
 ### Description: 
@@ -114,6 +114,7 @@ Native GOG, Epic Games and Amazon games launcher for Linux
 * /opt/heroic/v8_context_snapshot.bin
 * /opt/heroic/vk_swiftshader_icd.json
 * /usr/bin/heroic
+* /usr/share/applications/heroic-games-launcher.desktop
 * /usr/share/doc/heroic-games-launcher-2.14.1/COPYING
 * /usr/share/doc/heroic-games-launcher-2.14.1/README.md
 * /usr/share/pixmaps/heroic.png
