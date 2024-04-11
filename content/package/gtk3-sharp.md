@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gtk3-sharp 2.99.3-2"
-version = "2.99.3-2"
+title = "gtk3-sharp 2.99.3-3"
+version = "2.99.3-3"
 description = "A C# language binding for the GTK+2 toolkit"
-date = "2024-04-11T10:56:01"
+date = "2024-04-11T11:47:34"
 aliases = "/packages/221433"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "3117748"
+size = "3116084"
 usize = "8858171"
-sha1sum = "a99754d470292f743566e038ae9b27895576c5b1"
+sha1sum = "02d534de2e7d615d5d910118b5010eee365b0e72"
 depends = "['glade', 'gtk+3', 'libxdamage>=1.1.1-3', 'libxml2>=2.7.8', 'mono>=2.8', 'mono']"
 reverse_depends = "['duplicati']"
 +++

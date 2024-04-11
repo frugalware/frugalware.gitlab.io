@@ -12,6 +12,7 @@ size = "110996"
 usize = "211860"
 sha1sum = "e7d11a23e9795493c49805347de648ef333d48d8"
 depends = "['glibc']"
+reverse_depends = "['gnome-themes-extra']"
 +++
 ### Description: 
 Contemporary humanist sans-serif font

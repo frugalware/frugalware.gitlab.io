@@ -12,7 +12,7 @@ size = "20592"
 usize = "61509"
 sha1sum = "56587f4017047dd513853dbc7a858cd72804f51f"
 depends = "['libx11>=1.6.5-2', 'libxfixes>=5.0.1-3']"
-reverse_depends = "['conky', 'distcc-gui', 'efl', 'enlightenment', 'firefox', 'freeciv', 'freerdp', 'gst1-plugins-good-ximage', 'gtk3-sharp', 'guvcview', 'hot-babe', 'kompose', 'ksubeditor', 'ksubtile', 'libepoxy', 'libextractor', 'libgl', 'maxemumtvguide', 'mesa-libglx', 'printoxx', 'terminology', 'virtualbox-guest-additions', 'whalebird', 'xcfa', 'xf86-video-intel', 'xpad']"
+reverse_depends = "['conky', 'distcc-gui', 'efl', 'enlightenment', 'firefox', 'freeciv', 'freerdp', 'gst1-plugins-good-ximage', 'gtk2-sharp', 'gtk3-sharp', 'guvcview', 'hot-babe', 'kompose', 'ksubeditor', 'ksubtile', 'libepoxy', 'libextractor', 'libgl', 'maxemumtvguide', 'mesa-libglx', 'printoxx', 'terminology', 'virtualbox-guest-additions', 'whalebird', 'xcfa', 'xf86-video-intel', 'xpad']"
 license = "GPL2"
 +++
 ### Description: 
