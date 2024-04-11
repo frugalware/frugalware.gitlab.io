@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dragon 24.02.1-5"
-version = "24.02.1-5"
+title = "dragon 24.02.2-1"
+version = "24.02.2-1"
 description = "KDE Video Player."
-date = "2024-04-05T00:14:01"
+date = "2024-04-11T18:02:50"
 aliases = "/packages/168469"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1768004"
-usize = "2857628"
-sha1sum = "80770568c6fc1a476ad6e74ebc50158b749d5dbb"
+size = "1768932"
+usize = "2858574"
+sha1sum = "93d7a7eafa7f4109f3cbae0e56e4a1675298733b"
 depends = "['kparts>=6.0.0']"
 +++
 ### Description: 
@@ -153,6 +153,7 @@ KDE Video Player.
 * /usr/share/man/et/man1/dragon.1.gz
 * /usr/share/man/fr/man1/dragon.1.gz
 * /usr/share/man/it/man1/dragon.1.gz
+* /usr/share/man/man1/dragon.1.gz
 * /usr/share/man/nl/man1/dragon.1.gz
 * /usr/share/man/pt/man1/dragon.1.gz
 * /usr/share/man/pt_BR/man1/dragon.1.gz

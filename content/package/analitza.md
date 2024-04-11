@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "analitza 24.02.1-5"
-version = "24.02.1-5"
+title = "analitza 24.02.2-1"
+version = "24.02.2-1"
 description = "Shared Math libraries from Kalgebra."
-date = "2024-04-05T00:17:48"
+date = "2024-04-11T18:08:39"
 aliases = "/packages/152574"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "530964"
+size = "530868"
 usize = "2573004"
-sha1sum = "f8f14282c1095a5166af56faeffbae6c7e908c72"
+sha1sum = "9301e6c3647e66b0979866e3981ed09db1b2b324"
 depends = "['eigen>=3.2.9-3', 'qt6-5compat>=6.7.0', 'qt6-declarative>=6.7.0', 'qt6-svg>=6.7.0']"
 reverse_depends = "['cantor', 'kalgebra']"
 +++
@@ -83,10 +83,10 @@ Shared Math libraries from Kalgebra.
 * /usr/lib/qt6/qml/org/kde/analitza/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/analitza/libanalitzadeclarativeplugin.so
 * /usr/lib/qt6/qml/org/kde/analitza/qmldir
-* /usr/share/doc/analitza-24.02.1/COPYING
-* /usr/share/doc/analitza-24.02.1/COPYING.DOC
-* /usr/share/doc/analitza-24.02.1/COPYING.LIB
-* /usr/share/doc/analitza-24.02.1/TODO
+* /usr/share/doc/analitza-24.02.2/COPYING
+* /usr/share/doc/analitza-24.02.2/COPYING.DOC
+* /usr/share/doc/analitza-24.02.2/COPYING.LIB
+* /usr/share/doc/analitza-24.02.2/TODO
 * /usr/share/libanalitza/plots/3Ds.plots
 * /usr/share/libanalitza/plots/basic_curves.plots
 * /usr/share/libanalitza/plots/conics.plots

@@ -5,7 +5,7 @@ version = "24.02.1-5"
 description = "A scientific calculator."
 date = "2024-04-05T00:23:41"
 aliases = "/packages/153201"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "647416"
@@ -74,9 +74,9 @@ A scientific calculator.
 * /usr/share/doc/HTML/uk/kcalc/commands.docbook
 * /usr/share/doc/HTML/uk/kcalc/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcalc/index.docbook
-* /usr/share/doc/kcalc-24.02.1/ChangeLog
-* /usr/share/doc/kcalc-24.02.1/README
-* /usr/share/doc/kcalc-24.02.1/TODO
+* /usr/share/doc/kcalc-24.02.2/ChangeLog
+* /usr/share/doc/kcalc-24.02.2/README
+* /usr/share/doc/kcalc-24.02.2/TODO
 * /usr/share/kconf_update/kcalcrc.upd
 * /usr/share/kglobalaccel/org.kde.kcalc.desktop
 * /usr/share/locale/af/LC_MESSAGES/kcalc.mo

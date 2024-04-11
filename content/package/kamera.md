@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kamera 24.02.1-5"
-version = "24.02.1-5"
+title = "kamera 24.02.2-1"
+version = "24.02.2-1"
 description = "KDE Webcam Configurator Tool."
-date = "2024-04-05T00:20:14"
+date = "2024-04-11T18:12:00"
 aliases = "/packages/88166"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "157276"
-usize = "648294"
-sha1sum = "0b3e57f2f594d6dafff152da5dfee720d6438e2b"
+size = "157028"
+usize = "648293"
+sha1sum = "e8199f53e4c0f112885b609d74cc9c1bb6575a1b"
 depends = "['gphoto2>=2.5.11-2', 'kcmutils>=6.0.0', 'kio>=6.0.0']"
 +++
 ### Description: 
@@ -54,8 +54,8 @@ KDE Webcam Configurator Tool.
 * /usr/share/doc/HTML/tr/kcontrol/kamera/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/kamera/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/kamera/index.docbook
-* /usr/share/doc/kamera-24.02.1/AUTHORS
-* /usr/share/doc/kamera-24.02.1/README
+* /usr/share/doc/kamera-24.02.2/AUTHORS
+* /usr/share/doc/kamera-24.02.2/README
 * /usr/share/locale/af/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/ar/LC_MESSAGES/kio6_kamera.mo

@@ -5,7 +5,7 @@ version = "24.02.1-5"
 description = "Practice Fractions."
 date = "2024-04-05T00:22:32"
 aliases = "/packages/152827"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "5136120"
@@ -145,11 +145,11 @@ Practice Fractions.
 * /usr/share/doc/HTML/uk/kbruch/reduced.png
 * /usr/share/doc/HTML/uk/kbruch/settings.png
 * /usr/share/doc/HTML/uk/kbruch/statistics.png
-* /usr/share/doc/kbruch-24.02.1/AUTHORS
-* /usr/share/doc/kbruch-24.02.1/ChangeLog
-* /usr/share/doc/kbruch-24.02.1/NEWS
-* /usr/share/doc/kbruch-24.02.1/README
-* /usr/share/doc/kbruch-24.02.1/TODO
+* /usr/share/doc/kbruch-24.02.2/AUTHORS
+* /usr/share/doc/kbruch-24.02.2/ChangeLog
+* /usr/share/doc/kbruch-24.02.2/NEWS
+* /usr/share/doc/kbruch-24.02.2/README
+* /usr/share/doc/kbruch-24.02.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/kbruch.png
 * /usr/share/icons/hicolor/16x16/apps/kbruch.png
 * /usr/share/icons/hicolor/22x22/apps/kbruch.png

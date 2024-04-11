@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kio-zeroconf 24.02.1-5"
-version = "24.02.1-5"
+title = "kio-zeroconf 24.02.2-1"
+version = "24.02.2-1"
 description = "DNS Service Discovery for KDE."
-date = "2024-04-05T00:08:56"
+date = "2024-04-11T17:25:23"
 aliases = "/packages/220584"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "49796"
 usize = "193425"
-sha1sum = "98f5380592b363197fa92f99ad64c78594d5de92"
+sha1sum = "026ee6979ab2f79443f6b2d57a26b47c75831b5a"
 depends = "['kdnssd>=6.0.0', 'kio>=6.0.0']"
 +++
 ### Description: 

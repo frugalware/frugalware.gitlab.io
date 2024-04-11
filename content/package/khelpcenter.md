@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "khelpcenter 24.02.1-5"
-version = "24.02.1-5"
+title = "khelpcenter 24.02.2-1"
+version = "24.02.2-1"
 description = "Application to show KDE Applications documentation."
-date = "2024-04-05T00:07:42"
+date = "2024-04-11T17:23:47"
 aliases = "/packages/221317"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3709964"
-usize = "7036979"
-sha1sum = "efa71fdf59af2eebccda3ef9e0790668838e27a9"
+size = "3710032"
+usize = "7040919"
+sha1sum = "a3314a8a74a21d50f21954a072b5c835ac7d0c0e"
 depends = "['kcmutils>=6.0.0', 'ktexttemplate>=6.0.0', 'qt6-webengine>=', 'xapian-core>=1.4.0-2']"
 +++
 ### Description: 
@@ -294,7 +294,7 @@ Application to show KDE Applications documentation.
 * /usr/share/doc/HTML/uk/khelpcenter/index.docbook
 * /usr/share/doc/HTML/uk/onlinehelp/index.cache.bz2
 * /usr/share/doc/HTML/uk/onlinehelp/index.docbook
-* /usr/share/doc/khelpcenter-24.02.1/README.metadata
+* /usr/share/doc/khelpcenter-24.02.2/README.metadata
 * /usr/share/khelpcenter/glossary.xslt
 * /usr/share/khelpcenter/plugins/Applications/.directory
 * /usr/share/khelpcenter/plugins/fundamentals.desktop
