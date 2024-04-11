@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "3115712"
 usize = "8858171"
 sha1sum = "cffaa4b143f2e4c6b85c349920dc5e6f40242745"
-depends = "['glade', 'gtk+3', 'libxdamage>=1.1.1-3', 'libxml2>=2.7.8', 'mono>=2.8', 'mono']"
+depends = "['glade', 'gtk+3', 'libxdamage>=1.1.1-3', 'libxml2>=2.7.8', 'mono', 'mono>=2.8']"
 reverse_depends = "['duplicati']"
 +++
 ### Description: 

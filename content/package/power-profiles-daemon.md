@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "power-profiles-daemon 0.21-1"
-version = "0.21-1"
+title = "power-profiles-daemon 0.21-2"
+version = "0.21-2"
 description = "Makes power profiles handling available over D-Bus"
-date = "2024-04-09T12:19:48"
+date = "2024-04-11T09:46:22"
 aliases = "/packages/221428"
-categories = ['apps-extra']
+categories = ['apps']
 upstreamurl = "https://gitlab.freedesktop.org/upower/power-profiles-daemon"
 arch = "x86_64"
-size = "48692"
+size = "48944"
 usize = "157986"
-sha1sum = "f8e5eee85da791c42cf74e0023bafa0d6ec0ef8a"
+sha1sum = "b2c99f0ae9705fd1e3de1f31dd5f2e6dda8f5be6"
 depends = "['libsystemd', 'polkit', 'upower']"
 reverse_depends = "['powerdevil']"
 +++

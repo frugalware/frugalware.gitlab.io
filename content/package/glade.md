@@ -12,7 +12,7 @@ size = "1941708"
 usize = "11427466"
 sha1sum = "2ffb00976fa653ce453713115aa98c86185347df"
 depends = "['gtk+3', 'libxml2>=2.9.4-3', 'python3']"
-reverse_depends = "['gnunet', 'gtk2-sharp', 'gtk3-sharp', 'xscreensaver']"
+reverse_depends = "['gnunet', 'gtk3-sharp', 'xscreensaver']"
 +++
 ### Description: 
 Allows you to load glade interface files in a program at runtime

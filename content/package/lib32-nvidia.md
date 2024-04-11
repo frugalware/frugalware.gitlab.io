@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "38585260"
 usize = "199122030"
 sha1sum = "2c903a761534ffac84028039b4efa0de74930c8b"
-depends = "['lib32-libglvnd', 'nvidia=550.67-4']"
+depends = "['lib32-libglvnd', 'nvidia=550.67-5']"
 +++
 ### Description: 
 3D accelerated display driver for Nvidia cards ( 32bit)
