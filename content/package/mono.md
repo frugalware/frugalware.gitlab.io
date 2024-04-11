@@ -12,7 +12,7 @@ size = "124300208"
 usize = "331627984"
 sha1sum = "f3e6ea02f42aed79d76ba4bae0772633e05e3949"
 depends = "['libstdc++>=9.1.0-3', 'zlib>=1.2.12']"
-reverse_depends = "['gtk-sharp', 'gtk2-sharp', 'gtk2-sharp', 'gtk3-sharp', 'gtk3-sharp', 'keepass', 'referenceassemblies-pcl', 'uwsgi', 'uwsgi-plugin-mono']"
+reverse_depends = "['dbus-sharp', 'dbus-sharp', 'dbus-sharp-glib', 'gtk-sharp', 'gtk2-sharp', 'gtk2-sharp', 'gtk3-sharp', 'gtk3-sharp', 'keepass', 'notify-sharp', 'notify-sharp', 'referenceassemblies-pcl', 'uwsgi', 'uwsgi-plugin-mono']"
 +++
 ### Description: 
 Mono runtime and class libraries, a C# compiler/interpreter

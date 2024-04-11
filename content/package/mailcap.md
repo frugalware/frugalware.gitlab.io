@@ -12,7 +12,7 @@ size = "29308"
 usize = "126736"
 sha1sum = "27784d3d8b12f260f1dbb1c207fd55c72328a333"
 depends = "['glibc']"
-reverse_depends = "['mutt-devel', 'thunderbird']"
+reverse_depends = "['mutt-devel', 'thunderbird', 'wl-clipboard']"
 +++
 ### Description: 
 Helper application and MIME type associations for file types

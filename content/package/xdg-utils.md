@@ -12,7 +12,7 @@ size = "63980"
 usize = "323680"
 sha1sum = "ee7b51738231dd9952c70c773d2e327d6057768e"
 depends = "[]"
-reverse_depends = "['djvulibre', 'gimp', 'keepass', 'lumina-desktop', 'qt6-base', 'slack-desktop']"
+reverse_depends = "['djvulibre', 'gimp', 'keepass', 'lumina-desktop', 'qt6-base', 'slack-desktop', 'wl-clipboard']"
 +++
 ### Description: 
 A set of command line tools that assist applications with a variety of desktop integration tasks.
