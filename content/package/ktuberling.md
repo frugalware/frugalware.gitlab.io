@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktuberling 24.02.1-5"
-version = "24.02.1-5"
+title = "ktuberling 24.02.2-1"
+version = "24.02.2-1"
 description = "A simple constructor game suitable for children and adults alike."
-date = "2024-04-05T01:45:54"
+date = "2024-04-11T20:57:21"
 aliases = "/packages/184203"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "72040624"
-usize = "100104937"
-sha1sum = "2c8ba8a8385b17b812a7c235194a17b32471fc4a"
-depends = "['knotifyconfig>=6.0.0', 'libkdegames>=24.02.1', 'qt6-multimedia>=6.7.0']"
+size = "72040876"
+usize = "100104938"
+sha1sum = "e81287cfd03b81887f058e9c4275bfca23a43d4a"
+depends = "['knotifyconfig>=6.0.0', 'libkdegames>=24.02.2', 'qt6-multimedia>=6.7.0']"
 +++
 ### Description: 
 A simple constructor game suitable for children and adults alike.
@@ -102,8 +102,8 @@ A simple constructor game suitable for children and adults alike.
 * /usr/share/doc/HTML/uk/ktuberling/index.cache.bz2
 * /usr/share/doc/HTML/uk/ktuberling/index.docbook
 * /usr/share/doc/HTML/uk/ktuberling/technical-reference.docbook
-* /usr/share/doc/ktuberling-24.02.1/README.PACKAGERS
-* /usr/share/doc/ktuberling-24.02.1/TODO
+* /usr/share/doc/ktuberling-24.02.2/README.PACKAGERS
+* /usr/share/doc/ktuberling-24.02.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/ktuberling.png
 * /usr/share/icons/hicolor/128x128/mimetypes/application-x-tuberling.png
 * /usr/share/icons/hicolor/16x16/apps/ktuberling.png

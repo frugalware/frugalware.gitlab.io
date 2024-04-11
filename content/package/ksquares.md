@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ksquares 24.02.1-5"
-version = "24.02.1-5"
+title = "ksquares 24.02.2-1"
+version = "24.02.2-1"
 description = "A game modeled after the well known pen and paper based game of Dots and Boxes."
-date = "2024-04-05T01:43:21"
+date = "2024-04-11T20:54:07"
 aliases = "/packages/184201"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "388716"
-usize = "1014502"
-sha1sum = "4c5a6edab29e1bc2c3676c2f2e06495a4a3f2194"
-depends = "['knotifyconfig>=6.0.0', 'libkdegames>=24.02.1']"
+size = "388984"
+usize = "1015969"
+sha1sum = "732b400ea3a420f82556ec04a94ca347a9a3c6f1"
+depends = "['knotifyconfig>=6.0.0', 'libkdegames>=24.02.2']"
 +++
 ### Description: 
 A game modeled after the well known pen and paper based game of Dots and Boxes.
@@ -55,8 +55,8 @@ A game modeled after the well known pen and paper based game of Dots and Boxes.
 * /usr/share/doc/HTML/uk/ksquares/index.cache.bz2
 * /usr/share/doc/HTML/uk/ksquares/index.docbook
 * /usr/share/doc/HTML/uk/ksquares/newgame.png
-* /usr/share/doc/ksquares-24.02.1/README
-* /usr/share/doc/ksquares-24.02.1/TODO
+* /usr/share/doc/ksquares-24.02.2/README
+* /usr/share/doc/ksquares-24.02.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/ksquares.png
 * /usr/share/icons/hicolor/16x16/apps/ksquares.png
 * /usr/share/icons/hicolor/22x22/apps/ksquares.png

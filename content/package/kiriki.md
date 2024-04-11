@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kiriki 24.02.1-5"
-version = "24.02.1-5"
+title = "kiriki 24.02.2-1"
+version = "24.02.2-1"
 description = "An addictive and fun dice game."
-date = "2024-04-05T01:30:52"
+date = "2024-04-11T20:38:07"
 aliases = "/packages/184184"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "481748"
-usize = "1017901"
-sha1sum = "e1647f1de1e0a54435dcf0a2ed30eaf15dfb3fe3"
-depends = "['libkdegames>=24.02.1', 'qt6-svg>=6.7.0']"
+size = "481444"
+usize = "1017902"
+sha1sum = "3655f6f84a8b4a8bac9c3c1f7274b2f10d5d2c1b"
+depends = "['libkdegames>=24.02.2', 'qt6-svg>=6.7.0']"
 +++
 ### Description: 
 An addictive and fun dice game.
@@ -51,8 +51,8 @@ An addictive and fun dice game.
 * /usr/share/doc/HTML/uk/kiriki/gameboard.png
 * /usr/share/doc/HTML/uk/kiriki/index.cache.bz2
 * /usr/share/doc/HTML/uk/kiriki/index.docbook
-* /usr/share/doc/kiriki-24.02.1/COPYING
-* /usr/share/doc/kiriki-24.02.1/COPYING.DOC
+* /usr/share/doc/kiriki-24.02.2/COPYING
+* /usr/share/doc/kiriki-24.02.2/COPYING.DOC
 * /usr/share/icons/hicolor/128x128/apps/kiriki.png
 * /usr/share/icons/hicolor/16x16/apps/kiriki.png
 * /usr/share/icons/hicolor/22x22/apps/kiriki.png

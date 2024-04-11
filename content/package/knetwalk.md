@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "knetwalk 24.02.1-5"
-version = "24.02.1-5"
+title = "knetwalk 24.02.2-1"
+version = "24.02.2-1"
 description = "Connect all the terminals to the server, in as few turns as possible."
-date = "2024-04-05T01:39:52"
+date = "2024-04-11T20:49:37"
 aliases = "/packages/184191"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1249328"
-usize = "1798068"
-sha1sum = "5caf311a2acaec738d8983a5ef1c9c1acdbf1628"
-depends = "['knotifyconfig>=6.0.0', 'libkdegames>=24.02.1']"
+size = "1249268"
+usize = "1798069"
+sha1sum = "b90f2f6229d6637378e186eee458a30e1fc1d183"
+depends = "['knotifyconfig>=6.0.0', 'libkdegames>=24.02.2']"
 +++
 ### Description: 
 Connect all the terminals to the server, in as few turns as possible.
@@ -56,8 +56,8 @@ Connect all the terminals to the server, in as few turns as possible.
 * /usr/share/doc/HTML/uk/knetwalk/gameboard.png
 * /usr/share/doc/HTML/uk/knetwalk/index.cache.bz2
 * /usr/share/doc/HTML/uk/knetwalk/index.docbook
-* /usr/share/doc/knetwalk-24.02.1/AUTHORS
-* /usr/share/doc/knetwalk-24.02.1/TODO
+* /usr/share/doc/knetwalk-24.02.2/AUTHORS
+* /usr/share/doc/knetwalk-24.02.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/knetwalk.png
 * /usr/share/icons/hicolor/16x16/apps/knetwalk.png
 * /usr/share/icons/hicolor/22x22/apps/knetwalk.png

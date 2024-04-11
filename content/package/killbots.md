@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "killbots 24.02.1-5"
-version = "24.02.1-5"
+title = "killbots 24.02.2-1"
+version = "24.02.2-1"
 description = "A simple game of evading killer robots."
-date = "2024-04-05T01:29:44"
+date = "2024-04-11T20:36:40"
 aliases = "/packages/184183"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1363788"
-usize = "2546911"
-sha1sum = "a1b06e6c720c4dcc0818a9c373c6e12f0bf03924"
-depends = "['libkdegames>=24.02.1', 'qt6-svg>=6.7.0']"
+size = "1363728"
+usize = "2546912"
+sha1sum = "b02e0c4e426cde0250a3cb2521bf3989922498e1"
+depends = "['libkdegames>=24.02.2', 'qt6-svg>=6.7.0']"
 +++
 ### Description: 
 A simple game of evading killer robots.
@@ -56,8 +56,8 @@ A simple game of evading killer robots.
 * /usr/share/doc/HTML/uk/killbots/index.cache.bz2
 * /usr/share/doc/HTML/uk/killbots/index.docbook
 * /usr/share/doc/HTML/uk/killbots/status.png
-* /usr/share/doc/killbots-24.02.1/README.codestyle
-* /usr/share/doc/killbots-24.02.1/README.translators
+* /usr/share/doc/killbots-24.02.2/README.codestyle
+* /usr/share/doc/killbots-24.02.2/README.translators
 * /usr/share/icons/hicolor/128x128/apps/killbots.png
 * /usr/share/icons/hicolor/16x16/apps/killbots.png
 * /usr/share/icons/hicolor/22x22/apps/killbots.png

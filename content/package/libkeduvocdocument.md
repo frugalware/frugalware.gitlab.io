@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libkeduvocdocument 24.02.1-5"
-version = "24.02.1-5"
+title = "libkeduvocdocument 24.02.2-1"
+version = "24.02.2-1"
 description = "Common libraries for KDE Edu release-service"
-date = "2024-04-05T01:47:56"
+date = "2024-04-11T20:59:45"
 aliases = "/packages/218369"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "161968"
-usize = "763284"
-sha1sum = "2e55fb1ce29da3111f7eb6289cbcb13c456d67f2"
+size = "161660"
+usize = "763286"
+sha1sum = "32f6f94a1b04db348ec5b00317ee6fc9999ab059"
 depends = "['kio>=6.0.0']"
 reverse_depends = "['kanagram', 'khangman', 'kwordquiz', 'parley']"
 +++
@@ -60,9 +60,9 @@ Common libraries for KDE Edu release-service
 * /usr/lib/libKEduVocDocument.so
 * /usr/lib/libKEduVocDocument.so.5
 * /usr/lib/libKEduVocDocument.so.5.1.0
-* /usr/share/doc/libkeduvocdocument-24.02.1/AUTHORS
-* /usr/share/doc/libkeduvocdocument-24.02.1/COPYING-CMAKE-SCRIPTS
-* /usr/share/doc/libkeduvocdocument-24.02.1/README
+* /usr/share/doc/libkeduvocdocument-24.02.2/AUTHORS
+* /usr/share/doc/libkeduvocdocument-24.02.2/COPYING-CMAKE-SCRIPTS
+* /usr/share/doc/libkeduvocdocument-24.02.2/README
 * /usr/share/locale/ar/LC_MESSAGES/libkeduvocdocument.mo
 * /usr/share/locale/az/LC_MESSAGES/libkeduvocdocument.mo
 * /usr/share/locale/be/LC_MESSAGES/libkeduvocdocument.mo
