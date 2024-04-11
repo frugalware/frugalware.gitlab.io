@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libksane5 24.02.1-5"
-version = "24.02.1-5"
+title = "libksane5 24.02.2-1"
+version = "24.02.2-1"
 description = "KDE SANE interface library. KF5"
-date = "2024-04-05T01:11:08"
+date = "2024-04-11T19:24:32"
 aliases = "/packages/221397"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "74260"
+size = "74256"
 usize = "284400"
-sha1sum = "bc29cefc5aa5a8147219a93b1b868f4af969b83e"
+sha1sum = "ff8c9705fa7208a2e88801e9dec4f7c99b14a635"
 depends = "['ksanecore5>=$_F_kdever_apps', 'ktextwidgets5>=$_F_kf5_full', 'kwallet5>=$_F_kf5_full']"
 +++
 ### Description: 
@@ -26,5 +26,5 @@ KDE SANE interface library. KF5
 * /usr/lib/cmake/KF5Sane/KF5SaneTargets-release.cmake
 * /usr/lib/cmake/KF5Sane/KF5SaneTargets.cmake
 * /usr/lib/libKF5Sane.so
-* /usr/lib/libKF5Sane.so.24.02.1
+* /usr/lib/libKF5Sane.so.24.02.2
 * /usr/lib/libKF5Sane.so.6

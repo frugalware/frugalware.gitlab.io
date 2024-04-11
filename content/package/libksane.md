@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libksane 24.02.1-5"
-version = "24.02.1-5"
+title = "libksane 24.02.2-1"
+version = "24.02.2-1"
 description = "KDE SANE interface library."
-date = "2024-04-05T01:11:08"
+date = "2024-04-11T19:24:32"
 aliases = "/packages/74207"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "149704"
+size = "149464"
 usize = "708986"
-sha1sum = "dde45e058aac55554920a848c5eacc1d03fab04d"
-depends = "['ksanecore>=24.02.1', 'ktextwidgets>=6.0.0', 'kwallet>=6.0.0']"
+sha1sum = "91087021e7310559b90b7880814702767cf78bff"
+depends = "['ksanecore>=24.02.2', 'ktextwidgets>=6.0.0', 'kwallet>=6.0.0']"
 reverse_depends = "['digikam', 'kolourpaint']"
 +++
 ### Description: 
@@ -27,12 +27,12 @@ KDE SANE interface library.
 * /usr/lib/cmake/KSaneWidgets6/KSaneWidgets6Targets-release.cmake
 * /usr/lib/cmake/KSaneWidgets6/KSaneWidgets6Targets.cmake
 * /usr/lib/libKSaneWidgets6.so
-* /usr/lib/libKSaneWidgets6.so.24.02.1
+* /usr/lib/libKSaneWidgets6.so.24.02.2
 * /usr/lib/libKSaneWidgets6.so.6
-* /usr/share/doc/libksane-24.02.1/AUTHORS
-* /usr/share/doc/libksane-24.02.1/COPYING.twain
-* /usr/share/doc/libksane-24.02.1/README.md
-* /usr/share/doc/libksane-24.02.1/TODO
+* /usr/share/doc/libksane-24.02.2/AUTHORS
+* /usr/share/doc/libksane-24.02.2/COPYING.twain
+* /usr/share/doc/libksane-24.02.2/README.md
+* /usr/share/doc/libksane-24.02.2/TODO
 * /usr/share/icons/hicolor/16x16/actions/black-white.png
 * /usr/share/icons/hicolor/16x16/actions/color.png
 * /usr/share/icons/hicolor/16x16/actions/gray-scale.png
