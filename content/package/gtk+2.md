@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gtk+2 2.24.32-8"
-version = "2.24.32-8"
+title = "gtk+2 2.24.32-9"
+version = "2.24.32-9"
 description = "The GTK+ Toolkit (2.x series)"
-date = "2023-02-25T13:57:10"
+date = "2024-04-11T12:24:27"
 aliases = "/packages/3073"
 categories = ['xlib']
 upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
-size = "3691868"
-usize = "32180953"
-sha1sum = "3a759de45a056ed6697f30cd285354bdf0573c39"
-depends = "['adwaita-icon-theme', 'freetype2', 'gdk-pixbuf2>=2.36.11-3', 'gtk+2-libs', 'libcups>=2.2.0-2', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'pango>=1.42.0', 'shared-mime-info']"
+size = "3693260"
+usize = "32196125"
+sha1sum = "5da2a8150fc31e0b59eaf3bcb03f585bbc36b576"
+depends = "['adwaita-icon-theme', 'freetype2', 'gdk-pixbuf2>=2.36.11-3', 'gnome-themes-extra', 'gtk+2-libs', 'libcups>=2.2.0-2', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'pango>=1.42.0', 'shared-mime-info']"
 reverse_depends = "['dunst', 'emacs', 'ethereal', 'firefox', 'freeciv-gtk2', 'gfpm', 'gftp', 'gnokii-gui', 'gnome-clipboard-daemon', 'gtans', 'gtk+2-demos', 'gtk+2-engines-clearlooks', 'gtk-lshw', 'gtk-sharp', 'gtk2-sharp', 'gtkspell', 'gvidcap', 'gxmame', 'hot-babe', 'libcanberra-gtk2', 'libextractor', 'libwnck2', 'mozilla', 'mupen64plus', 'obconf', 'openssh-askpass', 'oxygen-gtk', 'parcellite', 'pidgin', 'pinentry-gtk+2', 'pioneers', 'printoxx', 'qtcurve-gtk', 'qtox', 'scim', 'thunderbird', 'xsane', 'xscreensaver']"
 +++
 ### Description: 

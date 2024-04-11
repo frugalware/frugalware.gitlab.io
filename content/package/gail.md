@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gail 2.24.32-8"
-version = "2.24.32-8"
+title = "gail 2.24.32-9"
+version = "2.24.32-9"
 description = "Accessibility support for GTK+2 and libgnomecanvas"
-date = "2023-02-25T13:57:10"
+date = "2024-04-11T12:24:27"
 aliases = "/packages/59988"
 categories = ['xlib']
 upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
-size = "133100"
-usize = "507147"
-sha1sum = "ae4061d3a29e38d1da64a1b1f40e925268507763"
+size = "133484"
+usize = "506429"
+sha1sum = "75a58735e8352201d7dc7bdddade3be3310e13e2"
 depends = "['at-spi2-core', 'gdk-pixbuf2>=2.36.11-3', 'gtk+2-libs>=2.24.32', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'pango>=1.42.0']"
 +++
 ### Description: 

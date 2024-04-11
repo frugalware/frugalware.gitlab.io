@@ -12,6 +12,7 @@ size = "2690924"
 usize = "7662056"
 sha1sum = "37aab1ccffddd59edf4fa7676e6f2d0954c37f1d"
 depends = "['cantarell-fonts>=0.0.20', 'librsvg>=2.40.16-3']"
+reverse_depends = "['gtk+2']"
 +++
 ### Description: 
 Default standard themes for GNOME3

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gtk+2-demos 2.24.32-8"
-version = "2.24.32-8"
+title = "gtk+2-demos 2.24.32-9"
+version = "2.24.32-9"
 description = "GTK+2 Demos."
-date = "2023-02-25T13:57:10"
+date = "2024-04-11T12:24:27"
 aliases = "/packages/74550"
 categories = ['xapps-extra']
 upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
-size = "193892"
-usize = "654164"
-sha1sum = "0a3d003be69671a73617886cff2558b30828fffc"
+size = "194068"
+usize = "649960"
+sha1sum = "4016af44fec181d5712ce6ae76b1f1ae758ea939"
 depends = "['gtk+2>=2.24.32']"
 +++
 ### Description: 

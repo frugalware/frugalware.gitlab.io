@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gtk+2-docs 2.24.32-8"
-version = "2.24.32-8"
+title = "gtk+2-docs 2.24.32-9"
+version = "2.24.32-9"
 description = "GTK+2 Documentation."
-date = "2023-02-25T13:57:10"
+date = "2024-04-11T12:24:27"
 aliases = "/packages/30393"
 categories = ['docs-extra']
 upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
-size = "1450544"
-usize = "17148338"
-sha1sum = "5756e81a5dfe313777d4734e07735967f3d8fcba"
+size = "1450664"
+usize = "17119705"
+sha1sum = "a4d9a020b280c8ed768c64c03d5a1afb3278abf1"
 depends = "[]"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-gtk+2-libs 2.24.32-8"
-version = "2.24.32-8"
+title = "lib32-gtk+2-libs 2.24.32-9"
+version = "2.24.32-9"
 description = "GTK+2 core libraries. ( 32bit )"
-date = "2023-02-25T13:57:10"
+date = "2024-04-11T12:24:27"
 aliases = "/packages/218978"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
-size = "2397384"
-usize = "9901348"
-sha1sum = "c7568fa09d7090f024ea42e3a61a883072090de7"
+size = "2379868"
+usize = "9846595"
+sha1sum = "d412d9dffaa8dde7ab134580ffc672249de8341b"
 depends = "['lib32-at-spi2-core', 'lib32-gdk-pixbuf2>=2.36.0', 'lib32-libcups', 'lib32-libxcomposite>=0.4.4-3', 'lib32-libxcursor>=1.1.14-3', 'lib32-libxi>=1.7.6-2', 'lib32-libxinerama>=1.1.3-3', 'lib32-libxrandr>=1.5.0-5', 'lib32-pango>=1.40.3-2']"
 reverse_depends = "['steam-native']"
 +++
