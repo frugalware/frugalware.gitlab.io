@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "baloo-widgets 24.02.1-5"
-version = "24.02.1-5"
+title = "baloo-widgets 24.02.2-1"
+version = "24.02.2-1"
 description = "Widgets for Baloo"
-date = "2024-04-05T01:54:49"
+date = "2024-04-11T22:57:20"
 aliases = "/packages/200750"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "127976"
-usize = "498983"
-sha1sum = "50de5dbfabf9e9f93ce1ea01f00aacc05a427403"
+size = "128380"
+usize = "501539"
+sha1sum = "565efb72910a1cc23234f4d1de6d9549bf3c4834"
 depends = "['baloo>=6.0.0']"
 reverse_depends = "['dolphin']"
 +++
@@ -31,7 +31,7 @@ Widgets for Baloo
 * /usr/lib/cmake/KF6BalooWidgets/KF6BalooWidgetsTargets-release.cmake
 * /usr/lib/cmake/KF6BalooWidgets/KF6BalooWidgetsTargets.cmake
 * /usr/lib/libKF6BalooWidgets.so
-* /usr/lib/libKF6BalooWidgets.so.24.02.1
+* /usr/lib/libKF6BalooWidgets.so.24.02.2
 * /usr/lib/libKF6BalooWidgets.so.6
 * /usr/lib/qt6/plugins/kf6/kfileitemaction/tagsfileitemaction.so
 * /usr/lib/qt6/plugins/kf6/propertiesdialog/baloofilepropertiesplugin.so
@@ -46,6 +46,7 @@ Widgets for Baloo
 * /usr/share/locale/de/LC_MESSAGES/baloowidgets5.mo
 * /usr/share/locale/el/LC_MESSAGES/baloowidgets5.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/baloowidgets5.mo
+* /usr/share/locale/eo/LC_MESSAGES/baloowidgets5.mo
 * /usr/share/locale/es/LC_MESSAGES/baloowidgets5.mo
 * /usr/share/locale/et/LC_MESSAGES/baloowidgets5.mo
 * /usr/share/locale/eu/LC_MESSAGES/baloowidgets5.mo

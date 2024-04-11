@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "122228"
 usize = "677886"
 sha1sum = "5bb0887475c198c50e20f431daf4c0bec6ae6c50"
-depends = "['kcalutils>=24.02.1', 'kcontacts>=6.0.0']"
+depends = "['kcalutils>=24.02.2', 'kcontacts>=6.0.0']"
 reverse_depends = "['kdepim-addons', 'kmail']"
 +++
 ### Description: 
@@ -42,8 +42,8 @@ Desc: C++ API for the handling of TNEF data.
 * /usr/lib/cmake/KPim6Tnef/KPim6TnefTargets.cmake
 * /usr/lib/libKPim6Tnef.so
 * /usr/lib/libKPim6Tnef.so.6
-* /usr/lib/libKPim6Tnef.so.6.0.1
-* /usr/share/doc/ktnef-24.02.1/AUTHORS
+* /usr/lib/libKPim6Tnef.so.6.0.2
+* /usr/share/doc/ktnef-24.02.2/AUTHORS
 * /usr/share/locale/ar/LC_MESSAGES/libktnef6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libktnef6.mo
 * /usr/share/locale/be/LC_MESSAGES/libktnef6.mo

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "spectacle 24.02.1-5"
-version = "24.02.1-5"
+title = "spectacle 24.02.2-1"
+version = "24.02.2-1"
 description = "KDE screenshot capture utility"
-date = "2024-04-05T01:59:38"
+date = "2024-04-11T23:04:00"
 aliases = "/packages/218413"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1739204"
-usize = "4854750"
-sha1sum = "82db1f49afeedf5f1c3929845232dc2b6fbb1507"
+size = "1739352"
+usize = "4859201"
+sha1sum = "8c06435c4a39e823871377a1e9997eee0aa0f98f"
 depends = "['kdeclarative>=6.0.0', 'kio>=6.0.0', 'knewstuff>=6.0.0', 'kpipewire>=6.0.3', 'kscreen>=6.0.3', 'purpose>=6.0.0', 'xcb-util-cursor']"
 +++
 ### Description: 
@@ -26,8 +26,8 @@ KDE screenshot capture utility
 * /usr/lib/systemd/user/app-org.kde.spectacle.service
 * /usr/share/applications/org.kde.spectacle.desktop
 * /usr/share/dbus-1/interfaces/org.kde.Spectacle.xml
-* /usr/share/dbus-1/services/org.kde.spectacle.service
 * /usr/share/dbus-1/services/org.kde.Spectacle.service
+* /usr/share/dbus-1/services/org.kde.spectacle.service
 * /usr/share/doc/HTML/ca/spectacle/Annotate.png
 * /usr/share/doc/HTML/ca/spectacle/ApplicationPreferences.png
 * /usr/share/doc/HTML/ca/spectacle/index.cache.bz2
@@ -67,7 +67,7 @@ KDE screenshot capture utility
 * /usr/share/doc/HTML/uk/spectacle/index.docbook
 * /usr/share/doc/HTML/uk/spectacle/MainWindow.png
 * /usr/share/doc/HTML/uk/spectacle/SaveOptions.png
-* /usr/share/doc/spectacle-24.02.1/README.md
+* /usr/share/doc/spectacle-24.02.2/README.md
 * /usr/share/icons/hicolor/scalable/apps/spectacle.svg
 * /usr/share/kconf_update/spectacle.upd
 * /usr/share/kglobalaccel/org.kde.spectacle.desktop
