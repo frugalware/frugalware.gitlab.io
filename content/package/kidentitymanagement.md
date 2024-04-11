@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kidentitymanagement 24.02.1-5"
-version = "24.02.1-5"
+title = "kidentitymanagement 24.02.2-1"
+version = "24.02.2-1"
 description = "KDE PIM libraries"
-date = "2024-04-05T00:56:35"
+date = "2024-04-11T19:04:34"
 aliases = "/packages/218317"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "172508"
-usize = "779390"
-sha1sum = "aa6604c2ae99af49761dd213faa329b5af38eb2a"
-depends = "['kirigami-addons', 'kpimtextedit>=24.02.1']"
+size = "173044"
+usize = "785098"
+sha1sum = "31e03a064444f7fcb5bf0a44d8adc24801b0c6f4"
+depends = "['kirigami-addons', 'kpimtextedit>=24.02.2']"
 reverse_depends = "['kcalutils', 'kmail-account-wizard', 'libksieve', 'messagelib']"
 +++
 ### Description: 
@@ -58,13 +58,13 @@ KDE PIM libraries
 * /usr/lib/cmake/KPim6IdentityManagementWidgets/KPim6IdentityManagementWidgetsTargets.cmake
 * /usr/lib/libKPim6IdentityManagementCore.so
 * /usr/lib/libKPim6IdentityManagementCore.so.6
-* /usr/lib/libKPim6IdentityManagementCore.so.6.0.1
+* /usr/lib/libKPim6IdentityManagementCore.so.6.0.2
 * /usr/lib/libKPim6IdentityManagementQuick.so
 * /usr/lib/libKPim6IdentityManagementQuick.so.6
-* /usr/lib/libKPim6IdentityManagementQuick.so.6.0.1
+* /usr/lib/libKPim6IdentityManagementQuick.so.6.0.2
 * /usr/lib/libKPim6IdentityManagementWidgets.so
 * /usr/lib/libKPim6IdentityManagementWidgets.so.6
-* /usr/lib/libKPim6IdentityManagementWidgets.so.6.0.1
+* /usr/lib/libKPim6IdentityManagementWidgets.so.6.0.2
 * /usr/lib/qt6/qml/org/kde/kidentitymanagement/BasicIdentityEditorCard.qml
 * /usr/lib/qt6/qml/org/kde/kidentitymanagement/CryptographyEditorCard.qml
 * /usr/lib/qt6/qml/org/kde/kidentitymanagement/IdentityConfigurationForm.qml

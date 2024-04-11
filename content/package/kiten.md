@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kiten 24.02.1-5"
-version = "24.02.1-5"
+title = "kiten 24.02.2-1"
+version = "24.02.2-1"
 description = "Japanese Reference/Study Tool."
-date = "2024-04-05T00:35:56"
+date = "2024-04-11T18:34:01"
 aliases = "/packages/152831"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "11562820"
-usize = "33097028"
-sha1sum = "a0777324184233c168737d66911834835c247e0d"
+size = "11562540"
+usize = "33097188"
+sha1sum = "8a13a8f6ba78f0696a42b3b7d8b55d62b56ae0d3"
 depends = "['kio>=6.0.0']"
 +++
 ### Description: 
@@ -95,10 +95,10 @@ Japanese Reference/Study Tool.
 * /usr/share/doc/HTML/uk/kiten/verb_deinflection.png
 * /usr/share/doc/HTML/uk/kiten/with_filtering.png
 * /usr/share/doc/HTML/uk/kiten/word_type_results.png
-* /usr/share/doc/kiten-24.02.1/AUTHORS
-* /usr/share/doc/kiten-24.02.1/COPYING.DOC
-* /usr/share/doc/kiten-24.02.1/README.md
-* /usr/share/doc/kiten-24.02.1/TODO
+* /usr/share/doc/kiten-24.02.2/AUTHORS
+* /usr/share/doc/kiten-24.02.2/COPYING.DOC
+* /usr/share/doc/kiten-24.02.2/README.md
+* /usr/share/doc/kiten-24.02.2/TODO
 * /usr/share/fonts/kanjistrokeorders/KanjiStrokeOrders.ttf
 * /usr/share/icons/hicolor/128x128/apps/kiten.png
 * /usr/share/icons/hicolor/16x16/apps/kiten.png

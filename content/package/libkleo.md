@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libkleo 24.02.1-5"
-version = "24.02.1-5"
+title = "libkleo 24.02.2-1"
+version = "24.02.2-1"
 description = "This lib provides crypto for mails."
-date = "2024-04-05T01:00:28"
+date = "2024-04-11T19:09:51"
 aliases = "/packages/218474"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "735876"
-usize = "3603764"
-sha1sum = "467dc88a13b52179600afd4079215c72e6b2df62"
-depends = "['kitemmodels>=6.0.0', 'kpimtextedit>=24.02.1', 'libgpgmepp>=1.18.0', 'libqgpgme>=1.18.0']"
+size = "736184"
+usize = "3596529"
+sha1sum = "560ec8ad5b6274b3f66f90003fbec170df657fa6"
+depends = "['kitemmodels>=6.0.0', 'kpimtextedit>=24.02.2', 'libgpgmepp>=1.18.0', 'libqgpgme>=1.18.0']"
 reverse_depends = "['akonadi-contacts', 'kleopatra', 'kmail-account-wizard', 'mimetreeparser']"
 +++
 ### Description: 
@@ -165,7 +165,7 @@ This lib provides crypto for mails.
 * /usr/lib/cmake/KPim6Libkleo/KPim6LibkleoTargets.cmake
 * /usr/lib/libKPim6Libkleo.so
 * /usr/lib/libKPim6Libkleo.so.6
-* /usr/lib/libKPim6Libkleo.so.6.0.1
+* /usr/lib/libKPim6Libkleo.so.6.0.2
 * /usr/share/libkleopatra/pics/chiasmus_chi.png
 * /usr/share/libkleopatra/pics/hi16-app-gpg.png
 * /usr/share/libkleopatra/pics/hi16-app-gpgsm.png

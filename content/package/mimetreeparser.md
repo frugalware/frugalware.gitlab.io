@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "212420"
 usize = "955176"
 sha1sum = "3728838298661fa1d2bc2962f66f1e2b6cc97c39"
-depends = "['kcalendarcore>=6.0.0', 'kcodecs>=6.0.0', 'ki18n>=6.0.0', 'kmbox>=24.02.1', 'kmime>=24.02.1', 'libkleo>=24.02.1']"
+depends = "['kcalendarcore>=6.0.0', 'kcodecs>=6.0.0', 'ki18n>=6.0.0', 'kmbox>=24.02.2', 'kmime>=24.02.2', 'libkleo>=24.02.2']"
 reverse_depends = "['kleopatra', 'merkuro']"
 +++
 ### Description: 
@@ -54,10 +54,10 @@ Parser for MIME trees
 * /usr/lib/cmake/KPim6MimeTreeParserWidgets/KPim6MimeTreeParserWidgetsTargets.cmake
 * /usr/lib/libKPim6MimeTreeParserCore.so
 * /usr/lib/libKPim6MimeTreeParserCore.so.6
-* /usr/lib/libKPim6MimeTreeParserCore.so.6.0.1
+* /usr/lib/libKPim6MimeTreeParserCore.so.6.0.2
 * /usr/lib/libKPim6MimeTreeParserWidgets.so
 * /usr/lib/libKPim6MimeTreeParserWidgets.so.6
-* /usr/lib/libKPim6MimeTreeParserWidgets.so.6.0.1
+* /usr/lib/libKPim6MimeTreeParserWidgets.so.6.0.2
 * /usr/lib/qt6/mkspecs/modules/qt_MimeTreeParserCore.pri
 * /usr/lib/qt6/mkspecs/modules/qt_MimeTreeParserWidgets.pri
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/kde-qmlmodule.version
@@ -74,7 +74,7 @@ Parser for MIME trees
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/private/MailPartView.qml
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/private/TextPart.qml
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/qmldir
-* /usr/share/doc/mimetreeparser-24.02.1/README.md
+* /usr/share/doc/mimetreeparser-24.02.2/README.md
 * /usr/share/locale/ast/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/ca/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/mimetreeparser6.mo

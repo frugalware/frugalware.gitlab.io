@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdesdk-thumbnailers 24.02.1-5"
-version = "24.02.1-5"
+title = "kdesdk-thumbnailers 24.02.2-1"
+version = "24.02.2-1"
 description = "Thumnailers Creators for KDE SDK."
-date = "2024-04-05T00:29:36"
+date = "2024-04-11T18:25:03"
 aliases = "/packages/184305"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "15064"
+size = "15068"
 usize = "58473"
-sha1sum = "f4cc42ee44a8c1b8f0693ca6b7aadb231f4553b2"
+sha1sum = "58429f388da353e12607925f002eaebd980ea78f"
 depends = "['gettext', 'kio>=6.0.0', 'qt6-svg>=6.7.0']"
 reverse_depends = "['dolphin']"
 +++

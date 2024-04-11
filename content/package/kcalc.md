@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcalc 24.02.1-5"
-version = "24.02.1-5"
+title = "kcalc 24.02.2-1"
+version = "24.02.2-1"
 description = "A scientific calculator."
-date = "2024-04-05T00:23:41"
+date = "2024-04-11T18:16:43"
 aliases = "/packages/153201"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "647416"
-usize = "2883179"
-sha1sum = "9f1a147b583c7c12bacc05787c50e7d8c92ebbe1"
+size = "648200"
+usize = "2884190"
+sha1sum = "7c71d3e879e1e7f8138b489587227ece1c03ffff"
 depends = "['knotifications>=6.0.0', 'kxmlgui>=6.0.0']"
 +++
 ### Description: 
