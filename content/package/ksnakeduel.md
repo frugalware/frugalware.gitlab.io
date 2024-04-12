@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ksnakeduel 24.02.1-5"
-version = "24.02.1-5"
+title = "ksnakeduel 24.02.2-1"
+version = "24.02.2-1"
 description = "KSnakeDuel is a simple snake duel game"
-date = "2024-04-05T03:48:20"
+date = "2024-04-12T10:17:17"
 aliases = "/packages/219339"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "487708"
-usize = "913956"
-sha1sum = "c4dd576b39c5228d252b02152c949d13f0a4a8dd"
-depends = "['libkdegames>=24.02.1']"
+size = "605828"
+usize = "1047159"
+sha1sum = "df0135da0e4742d13ce19bd7ed5ea925ecbcac80"
+depends = "['libkdegames>=24.02.2']"
 +++
 ### Description: 
 KSnakeDuel is a simple snake duel game
@@ -30,6 +30,10 @@ KSnakeDuel is a simple snake duel game
 * /usr/share/doc/HTML/en/ksnakeduel/settings-theme.png
 * /usr/share/doc/HTML/es/ksnakeduel/index.cache.bz2
 * /usr/share/doc/HTML/es/ksnakeduel/index.docbook
+* /usr/share/doc/HTML/fr/ksnakeduel/index.cache.bz2
+* /usr/share/doc/HTML/fr/ksnakeduel/index.docbook
+* /usr/share/doc/HTML/fr/ksnakeduel/settings-general.png
+* /usr/share/doc/HTML/fr/ksnakeduel/settings-theme.png
 * /usr/share/doc/HTML/it/ksnakeduel/index.cache.bz2
 * /usr/share/doc/HTML/it/ksnakeduel/index.docbook
 * /usr/share/doc/HTML/nl/ksnakeduel/index.cache.bz2

@@ -5,7 +5,7 @@ version = "24.02.1-5"
 description = "A powerful cross-platform calculator application built with the Kirigami framework"
 date = "2024-04-05T04:29:15"
 aliases = "/packages/220970"
-categories = []
+categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "69048"
@@ -19,7 +19,7 @@ A powerful cross-platform calculator application built with the Kirigami framewo
 ### Files: 
 * /usr/bin/kalk
 * /usr/share/applications/org.kde.kalk.desktop
-* /usr/share/doc/kalk-24.02.1/README.md
+* /usr/share/doc/kalk-24.02.2/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.kalk.svg
 * /usr/share/locale/ar/LC_MESSAGES/kalk.mo
 * /usr/share/locale/ast/LC_MESSAGES/kalk.mo

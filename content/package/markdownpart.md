@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "markdownpart 24.02.1-5"
-version = "24.02.1-5"
+title = "markdownpart 24.02.2-1"
+version = "24.02.2-1"
 description = "KPart for rendering Markdown content"
-date = "2024-04-05T04:16:01"
+date = "2024-04-12T10:58:00"
 aliases = "/packages/220316"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "36620"
-usize = "150263"
-sha1sum = "9b2b7fb8045e042fe9562363ad49a0a9a58cd1a2"
+size = "36684"
+usize = "150264"
+sha1sum = "85bc407456f65140985ac06ece310f147a6791da"
 depends = "['kparts>=6.0.0']"
 +++
 ### Description: 
@@ -18,7 +18,7 @@ KPart for rendering Markdown content
 
 ### Files: 
 * /usr/lib/qt6/plugins/kf6/parts/markdownpart.so
-* /usr/share/doc/markdownpart-24.02.1/README.md
+* /usr/share/doc/markdownpart-24.02.2/README.md
 * /usr/share/locale/ar/LC_MESSAGES/markdownpart.mo
 * /usr/share/locale/ast/LC_MESSAGES/markdownpart.mo
 * /usr/share/locale/ca/LC_MESSAGES/markdownpart.mo

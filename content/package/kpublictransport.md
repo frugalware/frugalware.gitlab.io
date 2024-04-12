@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kpublictransport 24.02.1-5"
-version = "24.02.1-5"
+title = "kpublictransport 24.02.2-1"
+version = "24.02.2-1"
 description = "Library to assist with accessing public transport timetables and other data"
-date = "2024-04-05T04:14:56"
+date = "2024-04-12T10:56:32"
 aliases = "/packages/220314"
-categories = []
+categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "757984"
-usize = "2307401"
-sha1sum = "e7f6cd70fa0966328116a6944c495b6441cf22cf"
+size = "756092"
+usize = "2311497"
+sha1sum = "68fd04924bfdb6667c94ff8e3354d79f0e117584"
 depends = "['ki18n>=6.0.0', 'networkmanager-qt>=6.0.0', 'qt6-declarative>=6.7.0']"
 reverse_depends = "['kosmindoormap', 'ktrip']"
 +++
@@ -99,10 +99,10 @@ Library to assist with accessing public transport timetables and other data
 * /usr/lib/cmake/KPublicTransport/KPublicTransportTargets.cmake
 * /usr/lib/libKPublicTransport.so
 * /usr/lib/libKPublicTransport.so.1
-* /usr/lib/libKPublicTransport.so.24.02.1
+* /usr/lib/libKPublicTransport.so.24.02.2
 * /usr/lib/libKPublicTransportOnboard.so
 * /usr/lib/libKPublicTransportOnboard.so.1
-* /usr/lib/libKPublicTransportOnboard.so.24.02.1
+* /usr/lib/libKPublicTransportOnboard.so.24.02.2
 * /usr/lib/qt6/qml/org/kde/kpublictransport/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/kpublictransport/kpublictransportqmlplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/kpublictransport/libkpublictransportqmlplugin.so
@@ -116,7 +116,7 @@ Library to assist with accessing public transport timetables and other data
 * /usr/lib/qt6/qml/org/kde/kpublictransport/ui/libkpublictransportquickplugin.so
 * /usr/lib/qt6/qml/org/kde/kpublictransport/ui/qmldir
 * /usr/lib/qt6/qml/org/kde/kpublictransport/ui/VehicleSectionItem.qml
-* /usr/share/doc/kpublictransport-24.02.1/README.md
-* /usr/share/doc/kpublictransport-24.02.1/README.md.license
+* /usr/share/doc/kpublictransport-24.02.2/README.md
+* /usr/share/doc/kpublictransport-24.02.2/README.md.license
 * /usr/share/qlogging-categories6/org_kde_kpublictransport.categories
 * /usr/share/qlogging-categories6/org_kde_kpublictransport_onboard.categories

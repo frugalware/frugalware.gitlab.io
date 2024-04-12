@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdeconnect-kde 24.02.1-7"
-version = "24.02.1-7"
+title = "kdeconnect-kde 24.02.2-1"
+version = "24.02.2-1"
 description = "Adds communication between KDE and your smartphone"
-date = "2024-04-05T04:06:52"
+date = "2024-04-12T10:44:49"
 aliases = "/packages/220147"
-categories = []
+categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5457308"
-usize = "14357064"
-sha1sum = "1121647eedb1dc0aa2e15bb8663d1f8ceb45c27a"
+size = "5458328"
+usize = "14359736"
+sha1sum = "efa3fa9188fed671e9c12707a0dad3abee8eea7e"
 depends = "['kcmutils>=6.0.0', 'kio>=6.0.0', 'kirigami-addons', 'kirigami-addons', 'kpeople>=6.0.0', 'kstatusnotifieritem>=6.0.0', 'kwayland>=6.0.3', 'libfakekey', 'libxtst', 'modemmanager-qt>=6.0.0', 'pulseaudio-qt>=1.3', 'qca', 'qca-ossl', 'qqc2-desktop-style>=6.0.0', 'qt6-multimedia>=6.7.0', 'qt6-sensors>=6.7.0']"
 +++
 ### Description: 
@@ -26,10 +26,10 @@ Adds communication between KDE and your smartphone
 * /usr/bin/kdeconnect-sms
 * /usr/lib/kdeconnect-kde/kdeconnectd
 * /usr/lib/libkdeconnectcore.so.24
-* /usr/lib/libkdeconnectcore.so.24.02.1
+* /usr/lib/libkdeconnectcore.so.24.02.2
 * /usr/lib/libkdeconnectinterfaces.a
 * /usr/lib/libkdeconnectpluginkcm.so.24
-* /usr/lib/libkdeconnectpluginkcm.so.24.02.1
+* /usr/lib/libkdeconnectpluginkcm.so.24.02.2
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_clipboard_config.so
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_findthisdevice_config.so
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_pausemusic_config.so
@@ -113,7 +113,7 @@ Adds communication between KDE and your smartphone
 * /usr/share/doc/HTML/uk/kdeconnect-kde/index.docbook
 * /usr/share/doc/HTML/zh_CN/kdeconnect-kde/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/kdeconnect-kde/index.docbook
-* /usr/share/doc/kdeconnect-kde-24.02.1/README.md
+* /usr/share/doc/kdeconnect-kde-24.02.2/README.md
 * /usr/share/icons/hicolor/16x16/status/laptopconnected.svg
 * /usr/share/icons/hicolor/16x16/status/laptopdisconnected.svg
 * /usr/share/icons/hicolor/16x16/status/laptoptrusted.svg
@@ -780,13 +780,17 @@ Adds communication between KDE and your smartphone
 * /usr/share/locale/sv/LC_MESSAGES/kdeconnect-urlhandler.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
 * /usr/share/locale/ta/LC_MESSAGES/kdeconnect-app.mo
+* /usr/share/locale/ta/LC_MESSAGES/kdeconnect-cli.mo
 * /usr/share/locale/ta/LC_MESSAGES/kdeconnect-core.mo
+* /usr/share/locale/ta/LC_MESSAGES/kdeconnect-fileitemaction.mo
 * /usr/share/locale/ta/LC_MESSAGES/kdeconnect-indicator.mo
 * /usr/share/locale/ta/LC_MESSAGES/kdeconnect-interfaces.mo
 * /usr/share/locale/ta/LC_MESSAGES/kdeconnect-kcm.mo
 * /usr/share/locale/ta/LC_MESSAGES/kdeconnect-kio.mo
+* /usr/share/locale/ta/LC_MESSAGES/kdeconnect-plugins.mo
 * /usr/share/locale/ta/LC_MESSAGES/kdeconnect-settings.mo
 * /usr/share/locale/ta/LC_MESSAGES/kdeconnect-sms.mo
+* /usr/share/locale/ta/LC_MESSAGES/kdeconnect-urlhandler.mo
 * /usr/share/locale/tg/LC_MESSAGES/kdeconnect-fileitemaction.mo
 * /usr/share/locale/tg/LC_MESSAGES/kdeconnect-kcm.mo
 * /usr/share/locale/tg/LC_MESSAGES/kdeconnect-kded.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "dolphin-plugins 24.02.1-5"
-version = "24.02.1-5"
+title = "dolphin-plugins 24.02.2-1"
+version = "24.02.2-1"
 description = "Extra Dolphin plugins."
-date = "2024-04-05T04:04:51"
+date = "2024-04-12T10:41:28"
 aliases = "/packages/218508"
-categories = []
+categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "423624"
-usize = "2721660"
-sha1sum = "223a0550b5b87f1231bf008ba7a20b10b2384270"
-depends = "['dolphin>=24.02.1', 'ktexteditor>=6.0.0']"
+size = "421772"
+usize = "2727268"
+sha1sum = "5d6a5e4d76ad7ec08fa4c346b3b441d077340bde"
+depends = "['dolphin>=24.02.2', 'ktexteditor>=6.0.0']"
 +++
 ### Description: 
 Extra Dolphin plugins.
@@ -251,6 +251,10 @@ Extra Dolphin plugins.
 * /usr/share/locale/sv/LC_MESSAGES/fileviewsvnplugin.mo
 * /usr/share/locale/sv/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/sv/LC_MESSAGES/mountisoaction.mo
+* /usr/share/locale/ta/LC_MESSAGES/fileviewgitplugin.mo
+* /usr/share/locale/ta/LC_MESSAGES/fileviewhgplugin.mo
+* /usr/share/locale/ta/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/ta/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/ta/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/tr/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/tr/LC_MESSAGES/fileviewgitplugin.mo

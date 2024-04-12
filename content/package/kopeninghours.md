@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kopeninghours 24.02.1-5"
-version = "24.02.1-5"
+title = "kopeninghours 24.02.2-1"
+version = "24.02.2-1"
 description = "Library for parsing and evaluating OSM opening hours expressions"
-date = "2024-04-05T04:17:04"
+date = "2024-04-12T10:59:23"
 aliases = "/packages/220984"
-categories = []
+categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "102352"
-usize = "382271"
-sha1sum = "24137983484d7ad6544ee23326a96c66f72229f4"
+size = "103044"
+usize = "384891"
+sha1sum = "285f9e2bc9c75ab6ae8edfc09a9fbe8f75f63416"
 depends = "['kholidays', 'ki18n', 'qt6-declarative']"
 reverse_depends = "['kosmindoormap']"
 +++
@@ -34,13 +34,13 @@ Library for parsing and evaluating OSM opening hours expressions
 * /usr/lib/cmake/KOpeningHours/KOpeningHoursTargets.cmake
 * /usr/lib/libKOpeningHours.so
 * /usr/lib/libKOpeningHours.so.1
-* /usr/lib/libKOpeningHours.so.24.2.1
+* /usr/lib/libKOpeningHours.so.24.2.2
 * /usr/lib/qt6/qml/org/kde/kopeninghours/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/kopeninghours/kopeninghoursqmlplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/kopeninghours/libkopeninghoursqmlplugin.so
 * /usr/lib/qt6/qml/org/kde/kopeninghours/qmldir
-* /usr/share/doc/kopeninghours-24.02.1/README.md
-* /usr/share/doc/kopeninghours-24.02.1/README.md.license
+* /usr/share/doc/kopeninghours-24.02.2/README.md
+* /usr/share/doc/kopeninghours-24.02.2/README.md.license
 * /usr/share/locale/ca/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/cs/LC_MESSAGES/kopeninghours.mo
@@ -53,6 +53,7 @@ Library for parsing and evaluating OSM opening hours expressions
 * /usr/share/locale/fr/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/gl/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/hi/LC_MESSAGES/kopeninghours.mo
+* /usr/share/locale/hu/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/ia/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/it/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/ja/LC_MESSAGES/kopeninghours.mo

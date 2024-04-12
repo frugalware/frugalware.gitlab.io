@@ -5,7 +5,7 @@ version = "24.02.1-5"
 description = "Interfaces and session daemon to colord for KDE"
 date = "2024-04-05T04:28:22"
 aliases = "/packages/220966"
-categories = []
+categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "197784"
@@ -22,8 +22,8 @@ Interfaces and session daemon to colord for KDE
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_colord.so
 * /usr/share/applications/colordkdeiccimporter.desktop
 * /usr/share/applications/kcm_colord.desktop
-* /usr/share/doc/colord-kde-24.02.1/COPYING
-* /usr/share/doc/colord-kde-24.02.1/TODO
+* /usr/share/doc/colord-kde-24.02.2/COPYING
+* /usr/share/doc/colord-kde-24.02.2/TODO
 * /usr/share/locale/ar/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/az/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/bg/LC_MESSAGES/colord-kde.mo
