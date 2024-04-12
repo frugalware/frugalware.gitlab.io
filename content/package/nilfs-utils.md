@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nilfs-utils 2.2.9-2"
-version = "2.2.9-2"
+title = "nilfs-utils 2.2.11-1"
+version = "2.2.11-1"
 description = "A log-structured file system supporting continuous snapshotting (userspace utils)"
-date = "2024-01-16T09:57:17"
+date = "2024-04-12T15:09:06"
 aliases = "/packages/200052"
 categories = ['base-extra']
 upstreamurl = "http://nilfs.sourceforge.net/"
 arch = "x86_64"
-size = "126332"
-usize = "493659"
-sha1sum = "d24089e127333283660606eb4c4101011ee15af7"
+size = "124516"
+usize = "472765"
+sha1sum = "4ef6f2963c0e13bd245d9a30e2ec6b8a7a82b671"
 depends = "['util-linux>=2.28.2-2']"
 reverse_depends = "['partclone']"
 license = "LGPL2.1"
@@ -34,7 +34,6 @@ A log-structured file system supporting continuous snapshotting (userspace utils
 * /usr/bin/rmcp
 * /usr/bin/umount.nilfs2
 * /usr/include/nilfs.h
-* /usr/include/nilfs2_fs.h
 * /usr/include/nilfs_cleaner.h
 * /usr/lib/libnilfs.so
 * /usr/lib/libnilfs.so.0
@@ -45,11 +44,11 @@ A log-structured file system supporting continuous snapshotting (userspace utils
 * /usr/lib/libnilfsgc.so
 * /usr/lib/libnilfsgc.so.0
 * /usr/lib/libnilfsgc.so.0.2.1
-* /usr/share/doc/nilfs-utils-2.2.9/AUTHORS
-* /usr/share/doc/nilfs-utils-2.2.9/ChangeLog
-* /usr/share/doc/nilfs-utils-2.2.9/COPYING
-* /usr/share/doc/nilfs-utils-2.2.9/INSTALL
-* /usr/share/doc/nilfs-utils-2.2.9/README
+* /usr/share/doc/nilfs-utils-2.2.11/AUTHORS
+* /usr/share/doc/nilfs-utils-2.2.11/ChangeLog
+* /usr/share/doc/nilfs-utils-2.2.11/COPYING
+* /usr/share/doc/nilfs-utils-2.2.11/INSTALL
+* /usr/share/doc/nilfs-utils-2.2.11/README
 * /usr/share/man/man1/lscp.1.gz
 * /usr/share/man/man1/lssu.1.gz
 * /usr/share/man/man5/nilfs_cleanerd.conf.5.gz
