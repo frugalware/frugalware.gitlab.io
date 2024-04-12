@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4625792"
 usize = "11330205"
 sha1sum = "e25d1dfaf40a715fda9d1040386168b2f8d17b2f"
-depends = "['libkdegames>=24.02.1', 'qca']"
+depends = "['libkdegames>=24.02.2', 'qca']"
 +++
 ### Description: 
 KsirK is a computerized version of the well known strategic board game Risk.
@@ -139,14 +139,14 @@ KsirK is a computerized version of the well known strategic board game Risk.
 * /usr/share/doc/HTML/uk/ksirk/shownumberofarmies.png
 * /usr/share/doc/HTML/uk/ksirkskineditor/index.cache.bz2
 * /usr/share/doc/HTML/uk/ksirkskineditor/index.docbook
-* /usr/share/doc/ksirk-24.02.1/AUTHORS
-* /usr/share/doc/ksirk-24.02.1/ChangeLog
-* /usr/share/doc/ksirk-24.02.1/COPYING
-* /usr/share/doc/ksirk-24.02.1/COPYING.DOC
-* /usr/share/doc/ksirk-24.02.1/COPYING.LIB
-* /usr/share/doc/ksirk-24.02.1/INSTALL
-* /usr/share/doc/ksirk-24.02.1/README
-* /usr/share/doc/ksirk-24.02.1/TODO
+* /usr/share/doc/ksirk-24.02.2/AUTHORS
+* /usr/share/doc/ksirk-24.02.2/ChangeLog
+* /usr/share/doc/ksirk-24.02.2/COPYING
+* /usr/share/doc/ksirk-24.02.2/COPYING.DOC
+* /usr/share/doc/ksirk-24.02.2/COPYING.LIB
+* /usr/share/doc/ksirk-24.02.2/INSTALL
+* /usr/share/doc/ksirk-24.02.2/README
+* /usr/share/doc/ksirk-24.02.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/ksirk.png
 * /usr/share/icons/hicolor/16x16/apps/ksirk.png
 * /usr/share/icons/hicolor/22x22/apps/ksirk.png

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kmag 24.02.1-5"
-version = "24.02.1-5"
+title = "kmag 24.02.2-1"
+version = "24.02.2-1"
 description = "Screen Magnifier"
-date = "2024-04-05T03:32:43"
+date = "2024-04-12T09:56:16"
 aliases = "/packages/153195"
-categories = []
+categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "808024"
-usize = "1636998"
-sha1sum = "838fbf947e202623a39cdc3224af9f06b94f0ff2"
+size = "808036"
+usize = "1636999"
+sha1sum = "ed2a4446adea56c510ca3596e6ff5d223d4d3303"
 depends = "['kio>=6.0.0', 'libqaccessibilityclient']"
 +++
 ### Description: 
@@ -54,8 +54,8 @@ Screen Magnifier
 * /usr/share/doc/HTML/uk/kmag/index.cache.bz2
 * /usr/share/doc/HTML/uk/kmag/index.docbook
 * /usr/share/doc/HTML/uk/kmag/screenshot.png
-* /usr/share/doc/kmag-24.02.1/ChangeLog
-* /usr/share/doc/kmag-24.02.1/README.md
+* /usr/share/doc/kmag-24.02.2/ChangeLog
+* /usr/share/doc/kmag-24.02.2/README.md
 * /usr/share/icons/hicolor/16x16/apps/kmag.png
 * /usr/share/icons/hicolor/32x32/apps/kmag.png
 * /usr/share/icons/hicolor/scalable/apps/kmag.svg

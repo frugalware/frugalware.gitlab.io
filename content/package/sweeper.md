@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sweeper 24.02.1-5"
-version = "24.02.1-5"
+title = "sweeper 24.02.2-1"
+version = "24.02.2-1"
 description = "System cleaner."
-date = "2024-04-05T03:38:39"
+date = "2024-04-12T10:04:19"
 aliases = "/packages/218528"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "406876"
-usize = "875437"
-sha1sum = "8d0721b430314c4fec6d3300fba53c2f099f7b5d"
+size = "406844"
+usize = "875438"
+sha1sum = "df108538391efa1f65747065e293bb7570a6dac8"
 depends = "['kconfig>=6.0.0', 'kconfigwidgets>=6.0.0', 'kcoreaddons>=6.0.0', 'kcrash>=6.0.0', 'kdoctools>=6.0.0', 'ki18n>=6.0.0', 'plasma-activities-stats>=6.0.3']"
 +++
 ### Description: 
@@ -56,7 +56,7 @@ System cleaner.
 * /usr/share/doc/HTML/uk/sweeper/index.cache.bz2
 * /usr/share/doc/HTML/uk/sweeper/index.docbook
 * /usr/share/doc/HTML/uk/sweeper/sweeper.png
-* /usr/share/doc/sweeper-24.02.1/TODO
+* /usr/share/doc/sweeper-24.02.2/TODO
 * /usr/share/locale/af/LC_MESSAGES/sweeper.mo
 * /usr/share/locale/ar/LC_MESSAGES/sweeper.mo
 * /usr/share/locale/ast/LC_MESSAGES/sweeper.mo

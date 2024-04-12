@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kio-gdrive 24.02.1-5"
-version = "24.02.1-5"
+title = "kio-gdrive 24.02.2-1"
+version = "24.02.2-1"
 description = "KIO Slave to access Google Drive"
-date = "2024-04-05T03:20:49"
+date = "2024-04-12T09:29:11"
 aliases = "/packages/219163"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "134300"
-usize = "434557"
-sha1sum = "8c3bf44ed1e55f3434dbe6154880d71d3e393a3a"
-depends = "['dolphin>=24.02.1', 'ki18n>=6.0.0', 'kio>=6.0.0', 'libkgapi>=24.02.1', 'qtkeychain']"
+size = "134736"
+usize = "436434"
+sha1sum = "6d6a4863d80ec344da3c48fd7308d7c9028a012c"
+depends = "['dolphin>=24.02.2', 'ki18n>=6.0.0', 'kio>=6.0.0', 'libkgapi>=24.02.2', 'qtkeychain']"
 license = "GPL"
 +++
 ### Description: 
@@ -49,11 +49,11 @@ KIO Slave to access Google Drive
 * /usr/share/doc/HTML/tr/kioslave5/gdrive/index.docbook
 * /usr/share/doc/HTML/uk/kioslave5/gdrive/index.cache.bz2
 * /usr/share/doc/HTML/uk/kioslave5/gdrive/index.docbook
-* /usr/share/doc/kio-gdrive-24.02.1/COPYING
-* /usr/share/doc/kio-gdrive-24.02.1/COPYING.GPL3
-* /usr/share/doc/kio-gdrive-24.02.1/HACKING
-* /usr/share/doc/kio-gdrive-24.02.1/README.md
-* /usr/share/doc/kio-gdrive-24.02.1/README.packagers
+* /usr/share/doc/kio-gdrive-24.02.2/COPYING
+* /usr/share/doc/kio-gdrive-24.02.2/COPYING.GPL3
+* /usr/share/doc/kio-gdrive-24.02.2/HACKING
+* /usr/share/doc/kio-gdrive-24.02.2/README.md
+* /usr/share/doc/kio-gdrive-24.02.2/README.packagers
 * /usr/share/locale/ar/LC_MESSAGES/kio5_gdrive.mo
 * /usr/share/locale/az/LC_MESSAGES/kio5_gdrive.mo
 * /usr/share/locale/be/LC_MESSAGES/kio5_gdrive.mo
@@ -64,6 +64,7 @@ KIO Slave to access Google Drive
 * /usr/share/locale/de/LC_MESSAGES/kio5_gdrive.mo
 * /usr/share/locale/el/LC_MESSAGES/kio5_gdrive.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kio5_gdrive.mo
+* /usr/share/locale/eo/LC_MESSAGES/kio5_gdrive.mo
 * /usr/share/locale/es/LC_MESSAGES/kio5_gdrive.mo
 * /usr/share/locale/et/LC_MESSAGES/kio5_gdrive.mo
 * /usr/share/locale/eu/LC_MESSAGES/kio5_gdrive.mo

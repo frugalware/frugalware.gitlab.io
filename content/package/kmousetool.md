@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kmousetool 24.02.1-5"
-version = "24.02.1-5"
+title = "kmousetool 24.02.2-1"
+version = "24.02.2-1"
 description = "KMouseTool is a program that clicks the mouse for you."
-date = "2024-04-05T03:33:48"
+date = "2024-04-12T09:57:52"
 aliases = "/packages/219336"
-categories = []
+categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "208772"
-usize = "601884"
-sha1sum = "a6f5af5b35a5170112d8661a0269db9ea5e18a33"
+size = "208832"
+usize = "601885"
+sha1sum = "b9e4dd72b775d0795d8f80e916da9682d2e8deb7"
 depends = "['kdbusaddons>=6.0.0', 'ki18n>=6.0.0', 'kiconthemes>=6.0.0', 'knotifications>=6.0.0', 'kstatusnotifieritem>=6.0.0', 'kxmlgui>=6.0.0', 'libxt']"
 +++
 ### Description: 
@@ -43,10 +43,10 @@ KMouseTool is a program that clicks the mouse for you.
 * /usr/share/doc/HTML/sv/kmousetool/index.docbook
 * /usr/share/doc/HTML/uk/kmousetool/index.cache.bz2
 * /usr/share/doc/HTML/uk/kmousetool/index.docbook
-* /usr/share/doc/kmousetool-24.02.1/AUTHORS
-* /usr/share/doc/kmousetool-24.02.1/ChangeLog
-* /usr/share/doc/kmousetool-24.02.1/README
-* /usr/share/doc/kmousetool-24.02.1/TODO
+* /usr/share/doc/kmousetool-24.02.2/AUTHORS
+* /usr/share/doc/kmousetool-24.02.2/ChangeLog
+* /usr/share/doc/kmousetool-24.02.2/README
+* /usr/share/doc/kmousetool-24.02.2/TODO
 * /usr/share/icons/hicolor/16x16/actions/kmousetool_off.png
 * /usr/share/icons/hicolor/16x16/actions/kmousetool_on.png
 * /usr/share/icons/hicolor/16x16/apps/kmousetool.png
