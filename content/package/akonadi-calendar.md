@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akonadi-calendar 24.02.1-5"
-version = "24.02.1-5"
+title = "akonadi-calendar 24.02.2-1"
+version = "24.02.2-1"
 description = "Akonadi calendar integration"
-date = "2024-04-05T02:32:16"
+date = "2024-04-12T08:19:52"
 aliases = "/packages/218249"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "681324"
-usize = "3533119"
-sha1sum = "8f6bf5173bdbc5138a2d8db959118130837ce5f2"
-depends = "['kcalutils>=24.02.1', 'kmailtransport>=24.02.1', 'messagelib>=24.02.1']"
+size = "682052"
+usize = "3539901"
+sha1sum = "9b41dea92ccd733cfa431df27ec92fa458b366bc"
+depends = "['kcalutils>=24.02.2', 'kmailtransport>=24.02.2', 'messagelib>=24.02.2']"
 reverse_depends = "['calendarsupport', 'kdepim-runtime']"
 +++
 ### Description: 
@@ -67,14 +67,14 @@ Akonadi calendar integration
 * /usr/lib/cmake/KPim6AkonadiCalendar/KPim6AkonadiCalendarTargets.cmake
 * /usr/lib/libKPim6AkonadiCalendar.so
 * /usr/lib/libKPim6AkonadiCalendar.so.6
-* /usr/lib/libKPim6AkonadiCalendar.so.6.0.1
+* /usr/lib/libKPim6AkonadiCalendar.so.6.0.2
 * /usr/lib/qt6/plugins/akonadi_serializer_kcalcore.so
 * /usr/lib/qt6/plugins/kf6/org.kde.kcalendarcore.calendars/libakonadicalendarplugin.so
 * /usr/share/akonadi/plugins/serializer/akonadi_serializer_kcalcore.desktop
 * /usr/share/dbus-1/services/org.kde.kalendarac.service
-* /usr/share/doc/akonadi-calendar-24.02.1/README.md
-* /usr/share/doc/akonadi-calendar-24.02.1/README.md.license
-* /usr/share/doc/akonadi-calendar-24.02.1/TODO
+* /usr/share/doc/akonadi-calendar-24.02.2/README.md
+* /usr/share/doc/akonadi-calendar-24.02.2/README.md.license
+* /usr/share/doc/akonadi-calendar-24.02.2/TODO
 * /usr/share/knotifications6/kalendarac.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/kalendarac.mo
 * /usr/share/locale/ar/LC_MESSAGES/libakonadi-calendar6-serializer.mo

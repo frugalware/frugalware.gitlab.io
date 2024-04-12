@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akonadi-calendar-tools 24.02.1-5"
-version = "24.02.1-5"
+title = "akonadi-calendar-tools 24.02.2-1"
+version = "24.02.2-1"
 description = "Akonadi calendar tools"
-date = "2024-04-05T02:35:21"
+date = "2024-04-12T08:23:59"
 aliases = "/packages/218922"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "388296"
-usize = "1564017"
-sha1sum = "7bc73088607e19c1b02f9f8da57b7dbf2e314499"
-depends = "['calendarsupport>=24.02.1']"
+size = "388316"
+usize = "1564570"
+sha1sum = "042762419e6ef14a5dfa83180f14134161be931c"
+depends = "['calendarsupport>=24.02.2']"
 +++
 ### Description: 
 Akonadi calendar tools
@@ -148,6 +148,7 @@ Akonadi calendar tools
 * /usr/share/locale/sq/LC_MESSAGES/konsolekalendar.mo
 * /usr/share/locale/sv/LC_MESSAGES/calendarjanitor.mo
 * /usr/share/locale/sv/LC_MESSAGES/konsolekalendar.mo
+* /usr/share/locale/ta/LC_MESSAGES/calendarjanitor.mo
 * /usr/share/locale/ta/LC_MESSAGES/konsolekalendar.mo
 * /usr/share/locale/tg/LC_MESSAGES/konsolekalendar.mo
 * /usr/share/locale/tr/LC_MESSAGES/calendarjanitor.mo

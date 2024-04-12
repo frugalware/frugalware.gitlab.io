@@ -12,7 +12,6 @@ size = "15068"
 usize = "58473"
 sha1sum = "58429f388da353e12607925f002eaebd980ea78f"
 depends = "['gettext', 'kio>=6.0.0', 'qt6-svg>=6.7.0']"
-reverse_depends = "['dolphin']"
 +++
 ### Description: 
 Thumnailers Creators for KDE SDK.

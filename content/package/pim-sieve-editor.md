@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pim-sieve-editor 24.02.1-5"
-version = "24.02.1-5"
+title = "pim-sieve-editor 24.02.2-1"
+version = "24.02.2-1"
 description = "Assistant for editing IMAP Sieve filters"
-date = "2024-04-05T03:07:32"
+date = "2024-04-12T09:09:44"
 aliases = "/packages/218942"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "558500"
-usize = "1380094"
-sha1sum = "aa35c3d340c6e76d88e152786b1564924a2b8070"
-depends = "['libksieve>=24.02.1', 'messagelib>=24.02.1']"
+size = "557904"
+usize = "1380157"
+sha1sum = "471fb1c9c2d06a85b75a3acaec2e785d438beeb4"
+depends = "['libksieve>=24.02.2', 'messagelib>=24.02.2']"
 +++
 ### Description: 
 Assistant for editing IMAP Sieve filters
@@ -19,7 +19,7 @@ Assistant for editing IMAP Sieve filters
 ### Files: 
 * /usr/bin/sieveeditor
 * /usr/lib/libsieveeditor.so.6
-* /usr/lib/libsieveeditor.so.6.0.1
+* /usr/lib/libsieveeditor.so.6.0.2
 * /usr/share/applications/org.kde.sieveeditor.desktop
 * /usr/share/config.kcfg/sieveeditorglobalconfig.kcfg
 * /usr/share/doc/HTML/ca/sieveeditor/first-start.png

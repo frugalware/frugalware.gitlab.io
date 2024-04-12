@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "incidenceeditor 24.02.1-5"
-version = "24.02.1-5"
+title = "incidenceeditor 24.02.2-1"
+version = "24.02.2-1"
 description = "This lib provides incidence editor"
-date = "2024-04-05T03:03:44"
+date = "2024-04-12T09:04:19"
 aliases = "/packages/218490"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "558484"
-usize = "2925225"
-sha1sum = "18f7bd63a004197341e5a0859d06198abd75ef58"
-depends = "['akonadi>=24.02.1', 'eventviews>=24.02.1', 'ki18n>=6.0.0']"
+size = "558604"
+usize = "2925419"
+sha1sum = "29fb51931b9c4970c6eb512ae3e91cbea761072b"
+depends = "['akonadi>=24.02.2', 'eventviews>=24.02.2', 'ki18n>=6.0.0']"
 reverse_depends = "['kdepim-addons', 'korganizer']"
 +++
 ### Description: 
@@ -43,7 +43,7 @@ This lib provides incidence editor
 * /usr/lib/cmake/KPim6IncidenceEditor/KPim6IncidenceEditorTargets.cmake
 * /usr/lib/libKPim6IncidenceEditor.so
 * /usr/lib/libKPim6IncidenceEditor.so.6
-* /usr/lib/libKPim6IncidenceEditor.so.6.0.1
+* /usr/lib/libKPim6IncidenceEditor.so.6.0.2
 * /usr/share/locale/ar/LC_MESSAGES/libincidenceeditors6.mo
 * /usr/share/locale/bg/LC_MESSAGES/libincidenceeditors6.mo
 * /usr/share/locale/bs/LC_MESSAGES/libincidenceeditors6.mo

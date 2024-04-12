@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "knotes 24.02.1-5"
-version = "24.02.1-5"
+title = "knotes 24.02.2-1"
+version = "24.02.2-1"
 description = "KDE Popup Notes."
-date = "2024-04-05T03:02:08"
+date = "2024-04-12T09:01:46"
 aliases = "/packages/218936"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "660892"
-usize = "2894685"
-sha1sum = "f1c27f6f4ddaa9f429ccc9c10ae956bb23c8eb20"
-depends = "['akonadi-notes>=24.02.1', 'grantleetheme>=24.02.1', 'kcalutils>=24.02.1', 'kdnssd>=6.0.0', 'knotifyconfig>=6.0.0', 'kontactinterface>=24.02.1', 'kstatusnotifieritem>=6.0.0', 'pimcommon>=24.02.1']"
+size = "660332"
+usize = "2894687"
+sha1sum = "e3e6dad0251ebdb6cc4570b6c8d5d5072c9af8d2"
+depends = "['akonadi-notes>=24.02.2', 'grantleetheme>=24.02.2', 'kcalutils>=24.02.2', 'kdnssd>=6.0.0', 'knotifyconfig>=6.0.0', 'kontactinterface>=24.02.2', 'kstatusnotifieritem>=6.0.0', 'pimcommon>=24.02.2']"
 +++
 ### Description: 
 KDE Popup Notes.
@@ -20,9 +20,9 @@ KDE Popup Notes.
 * /usr/bin/akonadi_notes_agent
 * /usr/bin/knotes
 * /usr/lib/libknotesprivate.so.6
-* /usr/lib/libknotesprivate.so.6.0.1
+* /usr/lib/libknotesprivate.so.6.0.2
 * /usr/lib/libnotesharedprivate.so.6
-* /usr/lib/libnotesharedprivate.so.6.0.1
+* /usr/lib/libnotesharedprivate.so.6.0.2
 * /usr/lib/qt6/plugins/pim6/kcms/knotes/kcm_knote_action.so
 * /usr/lib/qt6/plugins/pim6/kcms/knotes/kcm_knote_collection.so
 * /usr/lib/qt6/plugins/pim6/kcms/knotes/kcm_knote_display.so
@@ -93,10 +93,10 @@ KDE Popup Notes.
 * /usr/share/doc/HTML/uk/akonadi_notes_agent/index.docbook
 * /usr/share/doc/HTML/uk/knotes/index.cache.bz2
 * /usr/share/doc/HTML/uk/knotes/index.docbook
-* /usr/share/doc/knotes-24.02.1/AUTHORS
-* /usr/share/doc/knotes-24.02.1/HACKING
-* /usr/share/doc/knotes-24.02.1/README
-* /usr/share/doc/knotes-24.02.1/TODO
+* /usr/share/doc/knotes-24.02.2/AUTHORS
+* /usr/share/doc/knotes-24.02.2/HACKING
+* /usr/share/doc/knotes-24.02.2/README
+* /usr/share/doc/knotes-24.02.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/knotes.png
 * /usr/share/icons/hicolor/16x16/actions/knotes_alarm.png
 * /usr/share/icons/hicolor/16x16/actions/knotes_close.png
