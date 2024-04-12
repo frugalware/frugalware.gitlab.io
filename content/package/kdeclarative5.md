@@ -12,7 +12,7 @@ size = "264652"
 usize = "1381759"
 sha1sum = "89cb4ac7abe18a9dc97e521ebc9f9e2aa48f2405"
 depends = "['libepoxy>=1.3.1-6']"
-reverse_depends = "['ktouch', 'plasma-framework5', 'purpose5', 'rocs']"
+reverse_depends = "['artikulate', 'ktouch', 'plasma-framework5', 'purpose5', 'rocs']"
 +++
 ### Description: 
 Integration of QML and KDE workspaces.

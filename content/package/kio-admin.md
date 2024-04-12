@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kio-admin 24.02.1-5"
-version = "24.02.1-5"
+title = "kio-admin 24.02.2-1"
+version = "24.02.2-1"
 description = "Manage files as administrator using the admin:// KIO protocol"
-date = "2024-04-05T05:02:44"
+date = "2024-04-12T12:05:08"
 aliases = "/packages/220978"
-categories = []
+categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "69004"
+size = "68980"
 usize = "326292"
-sha1sum = "dabd2acf5d4c08545584efd1b79ce6accdc25742"
+sha1sum = "dbe65b0863ddd67ea127bc537421d731da365a99"
 depends = "['kio']"
 +++
 ### Description: 
@@ -22,7 +22,7 @@ Manage files as administrator using the admin:// KIO protocol
 * /usr/lib/qt6/plugins/kf6/kio/admin.so
 * /usr/share/dbus-1/system-services/org.kde.kio.admin.service
 * /usr/share/dbus-1/system.d/org.kde.kio.admin.conf
-* /usr/share/doc/kio-admin-24.02.1/README.md
+* /usr/share/doc/kio-admin-24.02.2/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kio5_admin.mo
 * /usr/share/locale/be/LC_MESSAGES/kio5_admin.mo
 * /usr/share/locale/bg/LC_MESSAGES/kio5_admin.mo

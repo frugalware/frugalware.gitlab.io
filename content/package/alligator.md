@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "alligator 24.02.1-5"
-version = "24.02.1-5"
+title = "alligator 24.02.2-1"
+version = "24.02.2-1"
 description = "Kirigami-based RSS reader"
-date = "2024-04-05T04:54:45"
+date = "2024-04-12T11:53:25"
 aliases = "/packages/220959"
-categories = []
+categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "140196"
-usize = "627155"
-sha1sum = "8ae659d93b52d4966a7b582cd6d085cd73a534f4"
+size = "140148"
+usize = "627258"
+sha1sum = "1352047a0579766303218ecc335c887c9c705d8b"
 depends = "['kconfig>=', 'kcoreaddons>=', 'ki18n>=', 'kirigami-addons', 'syndication>=']"
 +++
 ### Description: 
@@ -19,7 +19,7 @@ Kirigami-based RSS reader
 ### Files: 
 * /usr/bin/alligator
 * /usr/share/applications/org.kde.alligator.desktop
-* /usr/share/doc/alligator-24.02.1/README.md
+* /usr/share/doc/alligator-24.02.2/README.md
 * /usr/share/icons/hicolor/scalable/apps/alligator.svg
 * /usr/share/locale/ast/LC_MESSAGES/alligator.mo
 * /usr/share/locale/ca/LC_MESSAGES/alligator.mo

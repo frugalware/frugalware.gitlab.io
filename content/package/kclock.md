@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kclock 24.02.1-5"
-version = "24.02.1-5"
+title = "kclock 24.02.2-1"
+version = "24.02.2-1"
 description = "Clock app for Plasma Mobile"
-date = "2024-04-05T04:31:57"
+date = "2024-04-12T11:20:33"
 aliases = "/packages/220972"
-categories = []
+categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "201276"
-usize = "892212"
-sha1sum = "a6c471854ef656b29544b1d1ad2f5bd949b2ccb1"
+size = "201352"
+usize = "892973"
+sha1sum = "b61d6ad113dccc2e52b887d270cf7bd1cc4fd0a7"
 depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kirigami-addons', 'kstatusnotifieritem', 'libplasma', 'qt6-multimedia']"
 +++
 ### Description: 
@@ -29,7 +29,7 @@ Clock app for Plasma Mobile
 * /usr/share/dbus-1/interfaces/org.kde.kclockd.TimerModel.xml
 * /usr/share/dbus-1/interfaces/org.kde.kclockd.Utility.xml
 * /usr/share/dbus-1/services/org.kde.kclockd.service
-* /usr/share/doc/kclock-24.02.1/README.md
+* /usr/share/doc/kclock-24.02.2/README.md
 * /usr/share/icons/hicolor/scalable/apps/kclock_plasmoid_1x2.svg
 * /usr/share/icons/hicolor/scalable/apps/org.kde.kclock.svg
 * /usr/share/knotifications6/kclockd.notifyrc
