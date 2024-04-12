@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akonadi-search 24.02.1-5"
-version = "24.02.1-5"
+title = "akonadi-search 24.02.2-1"
+version = "24.02.2-1"
 description = "Libraries and daemons to implement searching in Akonad"
-date = "2024-04-05T02:19:42"
+date = "2024-04-12T08:02:41"
 aliases = "/packages/218250"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "302768"
-usize = "1267771"
-sha1sum = "be8c9f68cef9b548f5a531c0fe21caffa9dfc9a8"
-depends = "['akonadi-contacts>=24.02.1', 'kcmutils>=6.0.0', 'krunner>=6.0.0', 'qt6-declarative>=6.7.0', 'qt6-svg>=6.7.0', 'xapian-core>=1.4.0-2']"
+size = "302828"
+usize = "1268153"
+sha1sum = "7a1826c87a5d649f293b25e80781b5c5a6ecec0d"
+depends = "['akonadi-contacts>=24.02.2', 'kcmutils>=6.0.0', 'krunner>=6.0.0', 'qt6-declarative>=6.7.0', 'qt6-svg>=6.7.0', 'xapian-core>=1.4.0-2']"
 reverse_depends = "['libkdepim']"
 +++
 ### Description: 
@@ -54,16 +54,16 @@ Libraries and daemons to implement searching in Akonad
 * /usr/lib/cmake/KPim6AkonadiSearch/KPim6AkonadiSearchTargets.cmake
 * /usr/lib/libKPim6AkonadiSearchCore.so
 * /usr/lib/libKPim6AkonadiSearchCore.so.6
-* /usr/lib/libKPim6AkonadiSearchCore.so.6.0.1
+* /usr/lib/libKPim6AkonadiSearchCore.so.6.0.2
 * /usr/lib/libKPim6AkonadiSearchDebug.so
 * /usr/lib/libKPim6AkonadiSearchDebug.so.6
-* /usr/lib/libKPim6AkonadiSearchDebug.so.6.0.1
+* /usr/lib/libKPim6AkonadiSearchDebug.so.6.0.2
 * /usr/lib/libKPim6AkonadiSearchPIM.so
 * /usr/lib/libKPim6AkonadiSearchPIM.so.6
-* /usr/lib/libKPim6AkonadiSearchPIM.so.6.0.1
+* /usr/lib/libKPim6AkonadiSearchPIM.so.6.0.2
 * /usr/lib/libKPim6AkonadiSearchXapian.so
 * /usr/lib/libKPim6AkonadiSearchXapian.so.6
-* /usr/lib/libKPim6AkonadiSearchXapian.so.6.0.1
+* /usr/lib/libKPim6AkonadiSearchXapian.so.6.0.2
 * /usr/lib/qt6/plugins/kf6/krunner/kcms/kcm_krunner_pimcontacts.so
 * /usr/lib/qt6/plugins/kf6/krunner/krunner_pimcontacts.so
 * /usr/lib/qt6/plugins/pim6/akonadi/akonadi_search_plugin.so
@@ -72,8 +72,8 @@ Libraries and daemons to implement searching in Akonad
 * /usr/lib/qt6/plugins/pim6/akonadi/emailsearchstore.so
 * /usr/lib/qt6/plugins/pim6/akonadi/notesearchstore.so
 * /usr/share/akonadi/agents/akonadiindexingagent.desktop
-* /usr/share/doc/akonadi-search-24.02.1/README.md
-* /usr/share/doc/akonadi-search-24.02.1/README.md.license
+* /usr/share/doc/akonadi-search-24.02.2/README.md
+* /usr/share/doc/akonadi-search-24.02.2/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/akonadi_search.mo
 * /usr/share/locale/ast/LC_MESSAGES/akonadi_search.mo
 * /usr/share/locale/az/LC_MESSAGES/akonadi_search.mo

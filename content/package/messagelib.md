@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "6537440"
 usize = "18019654"
 sha1sum = "fe72b4565f57af58ca5b22ac4065bb53bf0298e8"
-depends = "['akonadi-notes>=24.02.1', 'kidentitymanagement>=24.02.1', 'kmailtransport>=24.02.1', 'ktextaddons>=1.3.1', 'libgravatar>=24.02.1', 'qca']"
+depends = "['akonadi-notes>=24.02.2', 'kidentitymanagement>=24.02.2', 'kmailtransport>=24.02.2', 'ktextaddons>=1.3.1', 'libgravatar>=24.02.2', 'qca']"
 reverse_depends = "['akonadi-calendar', 'akonadiconsole', 'akregator', 'grantlee-editor', 'mailcommon', 'pim-sieve-editor']"
 +++
 ### Description: 
@@ -578,25 +578,25 @@ KdePim message library.
 * /usr/lib/cmake/KPim6WebEngineViewer/KPim6WebEngineViewerTargets.cmake
 * /usr/lib/libKPim6MessageComposer.so
 * /usr/lib/libKPim6MessageComposer.so.6
-* /usr/lib/libKPim6MessageComposer.so.6.0.1
+* /usr/lib/libKPim6MessageComposer.so.6.0.2
 * /usr/lib/libKPim6MessageCore.so
 * /usr/lib/libKPim6MessageCore.so.6
-* /usr/lib/libKPim6MessageCore.so.6.0.1
+* /usr/lib/libKPim6MessageCore.so.6.0.2
 * /usr/lib/libKPim6MessageList.so
 * /usr/lib/libKPim6MessageList.so.6
-* /usr/lib/libKPim6MessageList.so.6.0.1
+* /usr/lib/libKPim6MessageList.so.6.0.2
 * /usr/lib/libKPim6MessageViewer.so
 * /usr/lib/libKPim6MessageViewer.so.6
-* /usr/lib/libKPim6MessageViewer.so.6.0.1
+* /usr/lib/libKPim6MessageViewer.so.6.0.2
 * /usr/lib/libKPim6MimeTreeParser.so
 * /usr/lib/libKPim6MimeTreeParser.so.6
-* /usr/lib/libKPim6MimeTreeParser.so.6.0.1
+* /usr/lib/libKPim6MimeTreeParser.so.6.0.2
 * /usr/lib/libKPim6TemplateParser.so
 * /usr/lib/libKPim6TemplateParser.so.6
-* /usr/lib/libKPim6TemplateParser.so.6.0.1
+* /usr/lib/libKPim6TemplateParser.so.6.0.2
 * /usr/lib/libKPim6WebEngineViewer.so
 * /usr/lib/libKPim6WebEngineViewer.so.6
-* /usr/lib/libKPim6WebEngineViewer.so.6.0.1
+* /usr/lib/libKPim6WebEngineViewer.so.6.0.2
 * /usr/lib/qt6/plugins/pim6/messageviewer/headerstyle/messageviewer_defaultgrantleeheaderstyleplugin.so
 * /usr/lib/qt6/plugins/pim6/messageviewer/kf6/ktexttemplate/messageviewer_ktexttemplate_extension.so
 * /usr/share/config.kcfg/customtemplates_kfg.kcfg
