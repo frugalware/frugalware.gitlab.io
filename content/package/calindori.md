@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "calindori 24.02.1-1"
-version = "24.02.1-1"
+title = "calindori 24.02.2-1"
+version = "24.02.2-1"
 description = "Calendar for Plasma Mobil"
-date = "2024-03-22T15:03:33"
+date = "2024-04-12T13:09:12"
 aliases = "/packages/220965"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "273232"
-usize = "1397987"
-sha1sum = "2ca4687460e1f196bbb3c54edc9b646726b2a7d4"
-depends = "['kpeople5>=']"
+size = "274960"
+usize = "1407452"
+sha1sum = "d961f4313d32f40209c2358a1a28c7f52cb52e96"
+depends = "['kcalendarcore5>=', 'kirigami25>=', 'knotifications5>=', 'kpeople5>=']"
 +++
 ### Description: 
 Calendar for Plasma Mobil
@@ -22,8 +22,8 @@ Calendar for Plasma Mobil
 * /usr/bin/calindori
 * /usr/share/applications/org.kde.calindori.desktop
 * /usr/share/dbus-1/services/org.kde.calindac.service
-* /usr/share/doc/calindori-24.02.1/COPYING
-* /usr/share/doc/calindori-24.02.1/README.md
+* /usr/share/doc/calindori-24.02.2/COPYING
+* /usr/share/doc/calindori-24.02.2/README.md
 * /usr/share/icons/hicolor/scalable/apps/calindori.svg
 * /usr/share/knotifications5/calindac.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/calindac.mo
@@ -43,6 +43,7 @@ Calendar for Plasma Mobil
 * /usr/share/locale/en_GB/LC_MESSAGES/calindac.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/calindori.mo
 * /usr/share/locale/eo/LC_MESSAGES/calindac.mo
+* /usr/share/locale/eo/LC_MESSAGES/calindori.mo
 * /usr/share/locale/es/LC_MESSAGES/calindac.mo
 * /usr/share/locale/es/LC_MESSAGES/calindori.mo
 * /usr/share/locale/et/LC_MESSAGES/calindac.mo

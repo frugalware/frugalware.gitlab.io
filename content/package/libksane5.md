@@ -12,6 +12,7 @@ size = "74256"
 usize = "284400"
 sha1sum = "ff8c9705fa7208a2e88801e9dec4f7c99b14a635"
 depends = "['ksanecore5>=$_F_kdever_apps', 'ktextwidgets5>=$_F_kf5_full', 'kwallet5>=$_F_kf5_full']"
+reverse_depends = "['skanlite']"
 +++
 ### Description: 
 KDE SANE interface library. KF5

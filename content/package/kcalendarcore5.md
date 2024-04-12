@@ -12,6 +12,7 @@ size = "299520"
 usize = "1466267"
 sha1sum = "8d4eed706d0f5827d2749e88543aab5358722fbb"
 depends = "['libical>=3.0.3']"
+reverse_depends = "['calindori']"
 +++
 ### Description: 
 The KDE calendar access library

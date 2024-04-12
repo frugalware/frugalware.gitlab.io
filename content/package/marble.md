@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "marble 24.02.1-1"
-version = "24.02.1-1"
+title = "marble 24.02.2-1"
+version = "24.02.2-1"
 description = "Desc: Virtual Globe and World Atlas."
-date = "2024-03-22T13:38:42"
+date = "2024-04-12T13:06:52"
 aliases = "/packages/152838"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "44153288"
-usize = "67329277"
-sha1sum = "52e5b8115af5641ee9855e40e38a6a5a8f4aaed1"
+size = "44154744"
+usize = "67329301"
+sha1sum = "5486cedc30ecb060883e51960b5c56b8afa1f706"
 depends = "['libmarble', 'qt5-location>=5.15.12', 'qt5-tools>=5.15.12']"
 +++
 ### Description: 
@@ -383,10 +383,10 @@ Desc: Virtual Globe and World Atlas.
 * /usr/share/doc/HTML/uk/marble/routing-6.png
 * /usr/share/doc/HTML/uk/marble/search-1.png
 * /usr/share/doc/HTML/uk/marble/search-2.png
-* /usr/share/doc/marble-24.02.1/BUGS
-* /usr/share/doc/marble-24.02.1/ChangeLog
-* /usr/share/doc/marble-24.02.1/COPYING.DOC
-* /usr/share/doc/marble-24.02.1/CREDITS
+* /usr/share/doc/marble-24.02.2/BUGS
+* /usr/share/doc/marble-24.02.2/ChangeLog
+* /usr/share/doc/marble-24.02.2/COPYING.DOC
+* /usr/share/doc/marble-24.02.2/CREDITS
 * /usr/share/icons/hicolor/128x128/apps/marble.png
 * /usr/share/icons/hicolor/16x16/apps/marble.png
 * /usr/share/icons/hicolor/22x22/apps/marble.png

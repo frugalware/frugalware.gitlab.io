@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kipi-plugins 24.02.1-1"
-version = "24.02.1-1"
+title = "kipi-plugins 24.02.2-1"
+version = "24.02.2-1"
 description = "kipi-plugins is based in part on the work of the Independent JPEG Group."
-date = "2024-03-22T10:49:37"
+date = "2024-04-12T12:51:38"
 aliases = "/packages/219978"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1613528"
-usize = "17267899"
-sha1sum = "0e580daea0a4f41de361ab096e957881ca8dde4e"
-depends = "['kio5>=5.115.0', 'libkipi>=24.02.1']"
+size = "1616256"
+usize = "17293623"
+sha1sum = "46e430ad63d185b33384b7c487400d7b065066f4"
+depends = "['kio5>=5.115.0', 'libkipi>=24.02.2']"
 +++
 ### Description: 
 kipi-plugins is based in part on the work of the Independent JPEG Group.
@@ -35,15 +35,15 @@ kipi-plugins is based in part on the work of the Independent JPEG Group.
 * /usr/lib/qt5/plugins/kipiplugin_smug.so
 * /usr/lib/qt5/plugins/kipiplugin_yandexfotki.so
 * /usr/share/applications/kipiplugins.desktop
-* /usr/share/doc/kipi-plugins-24.02.1/AUTHORS
-* /usr/share/doc/kipi-plugins-24.02.1/ChangeLog
-* /usr/share/doc/kipi-plugins-24.02.1/COPYING
-* /usr/share/doc/kipi-plugins-24.02.1/COPYING-CMAKE-SCRIPTS
-* /usr/share/doc/kipi-plugins-24.02.1/HACKING
-* /usr/share/doc/kipi-plugins-24.02.1/INSTALL
-* /usr/share/doc/kipi-plugins-24.02.1/NEWS
-* /usr/share/doc/kipi-plugins-24.02.1/README
-* /usr/share/doc/kipi-plugins-24.02.1/TODO
+* /usr/share/doc/kipi-plugins-24.02.2/AUTHORS
+* /usr/share/doc/kipi-plugins-24.02.2/ChangeLog
+* /usr/share/doc/kipi-plugins-24.02.2/COPYING
+* /usr/share/doc/kipi-plugins-24.02.2/COPYING-CMAKE-SCRIPTS
+* /usr/share/doc/kipi-plugins-24.02.2/HACKING
+* /usr/share/doc/kipi-plugins-24.02.2/INSTALL
+* /usr/share/doc/kipi-plugins-24.02.2/NEWS
+* /usr/share/doc/kipi-plugins-24.02.2/README
+* /usr/share/doc/kipi-plugins-24.02.2/TODO
 * /usr/share/icons/hicolor/16x16/apps/kipi-dropbox.png
 * /usr/share/icons/hicolor/16x16/apps/kipi-facebook.png
 * /usr/share/icons/hicolor/16x16/apps/kipi-flickr.png
@@ -316,14 +316,22 @@ kipi-plugins is based in part on the work of the Independent JPEG Group.
 * /usr/share/locale/en_GB/LC_MESSAGES/kipiplugin_smug.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kipiplugin_yandexfotki.mo
 * /usr/share/locale/eo/LC_MESSAGES/kipiplugins.mo
+* /usr/share/locale/eo/LC_MESSAGES/kipiplugin_dropbox.mo
 * /usr/share/locale/eo/LC_MESSAGES/kipiplugin_facebook.mo
 * /usr/share/locale/eo/LC_MESSAGES/kipiplugin_flickr.mo
 * /usr/share/locale/eo/LC_MESSAGES/kipiplugin_googleservices.mo
+* /usr/share/locale/eo/LC_MESSAGES/kipiplugin_imageshack.mo
+* /usr/share/locale/eo/LC_MESSAGES/kipiplugin_imgur.mo
+* /usr/share/locale/eo/LC_MESSAGES/kipiplugin_jalbum.mo
+* /usr/share/locale/eo/LC_MESSAGES/kipiplugin_kmlexport.mo
+* /usr/share/locale/eo/LC_MESSAGES/kipiplugin_mediawiki.mo
 * /usr/share/locale/eo/LC_MESSAGES/kipiplugin_piwigo.mo
 * /usr/share/locale/eo/LC_MESSAGES/kipiplugin_printimages.mo
+* /usr/share/locale/eo/LC_MESSAGES/kipiplugin_rajce.mo
 * /usr/share/locale/eo/LC_MESSAGES/kipiplugin_remotestorage.mo
 * /usr/share/locale/eo/LC_MESSAGES/kipiplugin_sendimages.mo
 * /usr/share/locale/eo/LC_MESSAGES/kipiplugin_smug.mo
+* /usr/share/locale/eo/LC_MESSAGES/kipiplugin_yandexfotki.mo
 * /usr/share/locale/es/LC_MESSAGES/kipiplugins.mo
 * /usr/share/locale/es/LC_MESSAGES/kipiplugin_dropbox.mo
 * /usr/share/locale/es/LC_MESSAGES/kipiplugin_facebook.mo

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "krdc 24.02.1-1"
-version = "24.02.1-1"
+title = "krdc 24.02.2-1"
+version = "24.02.2-1"
 description = "KRDC is a Remote Desktop Client for KDE."
-date = "2024-03-22T10:30:23"
+date = "2024-04-12T12:20:51"
 aliases = "/packages/74081"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1691904"
-usize = "3427148"
-sha1sum = "725171dc1a77dd37abcf915bb31edfec83a3f2f9"
+size = "1693900"
+usize = "3431643"
+sha1sum = "5da910830146a283d61308a87e56c0b0ee3b0a9b"
 depends = "['kactivities5>=5.115.0', 'kbookmarks5>=5.115.0', 'kcmutils5>=5.115.0', 'kdnssd5>=5.115.0', 'knotifications5>=5.115.0', 'knotifyconfig5>=5.115.0', 'knotifyconfig5>=5.115.0', 'kwallet5>=5.115.0', 'libssh', 'libvncserver']"
 reverse_depends = "['qt-virt-manager']"
 +++
@@ -24,7 +24,7 @@ KRDC is a Remote Desktop Client for KDE.
 * /usr/include/krdc/remoteviewfactory.h
 * /usr/include/krdccore_export.h
 * /usr/lib/libkrdccore.so
-* /usr/lib/libkrdccore.so.24.02.1
+* /usr/lib/libkrdccore.so.24.02.2
 * /usr/lib/libkrdccore.so.5
 * /usr/lib/qt5/plugins/krdc/kcms/libkcm_krdc_vncplugin.so
 * /usr/lib/qt5/plugins/krdc/libkrdc_testplugin.so

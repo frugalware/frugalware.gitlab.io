@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "artikulate 24.02.1-1"
-version = "24.02.1-1"
+title = "artikulate 24.02.2-1"
+version = "24.02.2-1"
 description = "Memory Enhancement Game."
-date = "2024-03-22T10:25:31"
+date = "2024-04-12T12:15:15"
 aliases = "/packages/200752"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1166044"
+size = "1165896"
 usize = "2549341"
-sha1sum = "52fcc61b9620d8c0356bcf40766ef58aef333fa0"
+sha1sum = "91b3b4b2d484224e30385d87f8810242c77eb671"
 depends = "['kdeclarative5>=5.115.0', 'knewstuff5>=5.115.0', 'qt5-gstreamer>=1.2.0', 'qt5-multimedia>=5.15.12', 'qt5-xmlpatterns>=5.15.12']"
 +++
 ### Description: 

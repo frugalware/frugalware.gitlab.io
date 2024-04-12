@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libmarble 24.02.1-1"
-version = "24.02.1-1"
+title = "libmarble 24.02.2-1"
+version = "24.02.2-1"
 description = "Marble libs"
-date = "2024-03-22T13:38:42"
+date = "2024-04-12T13:06:52"
 aliases = "/packages/220195"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3284132"
+size = "3283368"
 usize = "12426493"
-sha1sum = "54093dbea4aed65b4c3147bd905a999c55bb7bec"
+sha1sum = "1b5338cf5753b9ccf9d4e2ee767c670fb786f134"
 depends = "['gpsd>=3.25', 'knewstuff5', 'kparts5', 'krunner5', 'protobuf>=25.3', 'qt5-serialport', 'qt5-webengine']"
 reverse_depends = "['marble']"
 +++
@@ -20,10 +20,10 @@ Marble libs
 ### Files: 
 * /usr/lib/libastro.so
 * /usr/lib/libastro.so.1
-* /usr/lib/libastro.so.24.2.1
+* /usr/lib/libastro.so.24.2.2
 * /usr/lib/libmarbledeclarative.so
 * /usr/lib/libmarblewidget-qt5.so
-* /usr/lib/libmarblewidget-qt5.so.24.2.1
+* /usr/lib/libmarblewidget-qt5.so.24.2.2
 * /usr/lib/libmarblewidget-qt5.so.28
 * /usr/lib/marble/plugins/AnnotatePlugin.so
 * /usr/lib/marble/plugins/AprsPlugin.so
