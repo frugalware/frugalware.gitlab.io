@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kirigami-gallery 24.02.1-1"
-version = "24.02.1-1"
+title = "kirigami-gallery 24.02.2-1"
+version = "24.02.2-1"
 description = "Gallery application built using Kirigami"
-date = "2024-03-25T13:59:12"
+date = "2024-04-12T13:38:15"
 aliases = "/packages/220979"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "281896"
-usize = "819401"
-sha1sum = "d42051d6c6181fc7417a1f4fcae681a9fb606bfe"
-depends = "[]"
+size = "283544"
+usize = "829719"
+sha1sum = "b7f1a3b05c163980847c01b26b773ef471ac5d11"
+depends = "['kirigami25', 'kitemmodels5']"
 +++
 ### Description: 
 Gallery application built using Kirigami
@@ -19,7 +19,7 @@ Gallery application built using Kirigami
 ### Files: 
 * /usr/bin/kirigami2gallery
 * /usr/share/applications/org.kde.kirigami2.gallery.desktop
-* /usr/share/doc/kirigami-gallery-24.02.1/README.md
+* /usr/share/doc/kirigami-gallery-24.02.2/README.md
 * /usr/share/locale/ca/LC_MESSAGES/kirigamigallery_qt.qm
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kirigamigallery_qt.qm
 * /usr/share/locale/cs/LC_MESSAGES/kirigamigallery_qt.qm
@@ -27,6 +27,7 @@ Gallery application built using Kirigami
 * /usr/share/locale/de/LC_MESSAGES/kirigamigallery_qt.qm
 * /usr/share/locale/el/LC_MESSAGES/kirigamigallery_qt.qm
 * /usr/share/locale/en_GB/LC_MESSAGES/kirigamigallery_qt.qm
+* /usr/share/locale/eo/LC_MESSAGES/kirigamigallery_qt.qm
 * /usr/share/locale/es/LC_MESSAGES/kirigamigallery_qt.qm
 * /usr/share/locale/et/LC_MESSAGES/kirigamigallery_qt.qm
 * /usr/share/locale/eu/LC_MESSAGES/kirigamigallery_qt.qm

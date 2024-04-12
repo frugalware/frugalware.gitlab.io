@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kamoso 24.02.1-2"
-version = "24.02.1-2"
+title = "kamoso 24.02.2-1"
+version = "24.02.2-1"
 description = "Kamoso is an application to take pictures and videos out of your webcam."
-date = "2024-04-05T16:13:25"
+date = "2024-04-12T13:28:10"
 aliases = "/packages/219631"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "241320"
+size = "241192"
 usize = "704611"
-sha1sum = "8d5b3e64afa6dbc4cbc58d8583a3fc1a1adbeb51"
+sha1sum = "66c7c0570f5aa9330cc07c99e589a61b6608a9bc"
 depends = "['frei0r-plugins', 'gst1-plugins-base', 'gst1-plugins-base-ogg', 'gst1-plugins-good-jpeg', 'gst1-plugins-good-video4linux2', 'kconfig5>=5.115.0', 'ki18n5>=5.115.0', 'kio5>=5.115.0', 'phonon-qt6', 'purpose5>=5.115.0', 'solid']"
 +++
 ### Description: 
@@ -68,7 +68,7 @@ Kamoso is an application to take pictures and videos out of your webcam.
 * /usr/share/doc/HTML/uk/kamoso/index.docbook
 * /usr/share/doc/HTML/zh_CN/kamoso/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/kamoso/index.docbook
-* /usr/share/doc/kamoso-24.02.1/AUTHORS
+* /usr/share/doc/kamoso-24.02.2/AUTHORS
 * /usr/share/icons/hicolor/128x128/apps/kamoso.png
 * /usr/share/icons/hicolor/16x16/apps/kamoso.png
 * /usr/share/icons/hicolor/22x22/apps/kamoso.png
