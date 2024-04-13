@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-zu 24.2.1.2-2"
-version = "24.2.1.2-2"
+title = "libreoffice-l10n-zu 24.2.2.2-1"
+version = "24.2.2.2-1"
 description = "Installs Zulu support in LibreOffice"
-date = "2024-04-02T21:47:46"
+date = "2024-04-13T11:49:14"
 aliases = "/packages/104140"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "230616"
+size = "230732"
 usize = "1405686"
-sha1sum = "7bb52c2c0ea686b443a5be28bf83b2766906bc24"
-depends = "['libreoffice>=24.2.1.2']"
+sha1sum = "7177e5231cdaabbbed06cbedfaade41f0b929c0b"
+depends = "['libreoffice>=24.2.2.2']"
 +++
 ### Description: 
 Installs Zulu support in LibreOffice

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-st 24.2.1.2-2"
-version = "24.2.1.2-2"
+title = "libreoffice-l10n-st 24.2.2.2-1"
+version = "24.2.2.2-1"
 description = "Installs Southern Sotho (Sutu) support in LibreOffice"
-date = "2024-04-02T21:47:46"
+date = "2024-04-13T11:49:14"
 aliases = "/packages/104120"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "210392"
+size = "211188"
 usize = "1323952"
-sha1sum = "ad7eda827fe11adfef809a1038355692db83cd65"
-depends = "['libreoffice>=24.2.1.2']"
+sha1sum = "96d5430bb1574d87e55b59f54324c46de25f42a8"
+depends = "['libreoffice>=24.2.2.2']"
 +++
 ### Description: 
 Installs Southern Sotho (Sutu) support in LibreOffice

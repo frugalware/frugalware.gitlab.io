@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-oc 24.2.1.2-2"
-version = "24.2.1.2-2"
+title = "libreoffice-l10n-oc 24.2.2.2-1"
+version = "24.2.2.2-1"
 description = "Installs Occitan support in LibreOffice"
-date = "2024-04-02T21:47:46"
+date = "2024-04-13T11:49:14"
 aliases = "/packages/104099"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "520480"
-usize = "2723324"
-sha1sum = "51b7ac8316962ccd068737b22d6cb5887b72300d"
-depends = "['libreoffice>=24.2.1.2']"
+size = "521144"
+usize = "2723320"
+sha1sum = "0d345c8a82bf992889c68b6e24a36c67eb68e7e8"
+depends = "['libreoffice>=24.2.2.2']"
 +++
 ### Description: 
 Installs Occitan support in LibreOffice

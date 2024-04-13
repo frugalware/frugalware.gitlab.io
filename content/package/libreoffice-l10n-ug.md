@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-ug 24.2.1.2-2"
-version = "24.2.1.2-2"
+title = "libreoffice-l10n-ug 24.2.2.2-1"
+version = "24.2.2.2-1"
 description = "Installs Uyghur support in LibreOffice"
-date = "2024-04-02T21:47:46"
+date = "2024-04-13T11:49:14"
 aliases = "/packages/104131"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "3789216"
-usize = "32660970"
-sha1sum = "2ece434ab6793f660a64ad76db19efb793cf5cdf"
-depends = "['libreoffice>=24.2.1.2']"
+size = "3789380"
+usize = "32661190"
+sha1sum = "1b4ed5288dba8b80e9f6480a039f908c136feddf"
+depends = "['libreoffice>=24.2.2.2']"
 +++
 ### Description: 
 Installs Uyghur support in LibreOffice
