@@ -18,20 +18,20 @@ reverse_depends = "['haskell-aeson']"
 Generically newtype to use with DerivingVia
 
 ### Files: 
-* /usr/lib/ghc-9.8.1/site-local/generically-0.1.1/GHC/Generics/Generically.dyn_hi
-* /usr/lib/ghc-9.8.1/site-local/generically-0.1.1/GHC/Generics/Generically.hi
-* /usr/lib/ghc-9.8.1/site-local/generically-0.1.1/libHSgenerically-0.1.1-HgATq6D4yUpDESMN0QuBBH.a
-* /usr/lib/x86_64-linux-ghc-9.8.1/libHSgenerically-0.1.1-HgATq6D4yUpDESMN0QuBBH-ghc9.8.1.so
+* /usr/lib/ghc-9.8.2/site-local/generically-0.1.1/GHC/Generics/Generically.dyn_hi
+* /usr/lib/ghc-9.8.2/site-local/generically-0.1.1/GHC/Generics/Generically.hi
+* /usr/lib/ghc-9.8.2/site-local/generically-0.1.1/libHSgenerically-0.1.1-49kH7WVeP7L9QQQQEewnld.a
+* /usr/lib/x86_64-linux-ghc-9.8.2/libHSgenerically-0.1.1-49kH7WVeP7L9QQQQEewnld-ghc9.8.2.so
 * /usr/share/doc/haskell-generically-0.1.1/LICENSE
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/generically-0.1.1/html/doc-index.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/generically-0.1.1/html/generically.haddock
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/generically-0.1.1/html/GHC-Generics-Generically.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/generically-0.1.1/html/haddock-bundle.min.js
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/generically-0.1.1/html/index.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/generically-0.1.1/html/linuwial.css
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/generically-0.1.1/html/meta.json
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/generically-0.1.1/html/quick-jump.css
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/generically-0.1.1/html/synopsis.png
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/generically-0.1.1/LICENSE
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/generically-0.1.1/html/doc-index.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/generically-0.1.1/html/generically.haddock
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/generically-0.1.1/html/GHC-Generics-Generically.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/generically-0.1.1/html/haddock-bundle.min.js
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/generically-0.1.1/html/index.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/generically-0.1.1/html/linuwial.css
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/generically-0.1.1/html/meta.json
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/generically-0.1.1/html/quick-jump.css
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/generically-0.1.1/html/synopsis.png
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/generically-0.1.1/LICENSE
 * /usr/share/haskell/haskell-generically/register.sh
 * /usr/share/haskell/haskell-generically/unregister.sh
