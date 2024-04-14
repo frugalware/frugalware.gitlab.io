@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "zfs 2.2.3-10"
-version = "2.2.3-10"
+title = "zfs 2.2.3-11"
+version = "2.2.3-11"
 description = "ZFS"
-date = "2024-04-11T10:05:41"
+date = "2024-04-14T10:30:18"
 aliases = "/packages/220123"
 categories = ['base-extra']
 upstreamurl = "http://zfsonlinux.org"
 arch = "x86_64"
-size = "33000216"
-usize = "48721317"
-sha1sum = "79b597a1b53e72584901ce034bb9bd49740b0e76"
-depends = "['kernel=6.8.5-1', 'libtirpc']"
+size = "32998472"
+usize = "48721321"
+sha1sum = "116ce95a2de0654b67bff1dfbb4923d47db08fe7"
+depends = "['kernel=6.8.6-1', 'libtirpc']"
 +++
 ### Description: 
 ZFS
@@ -358,8 +358,8 @@ ZFS
 * /usr/lib/libzpool.so.5
 * /usr/lib/libzpool.so.5.0.0
 * /usr/lib/modules-load.d/zfs.conf
-* /usr/lib/modules/6.8.5-fw1/extra/spl.ko.zst
-* /usr/lib/modules/6.8.5-fw1/extra/zfs.ko.zst
+* /usr/lib/modules/6.8.6-fw1/extra/spl.ko.zst
+* /usr/lib/modules/6.8.6-fw1/extra/zfs.ko.zst
 * /usr/lib/pam-configs/zfs_key
 * /usr/lib/pkgconfig/libzfs.pc
 * /usr/lib/pkgconfig/libzfsbootenv.pc
@@ -2740,9 +2740,9 @@ ZFS
 * /usr/share/man/man8/zpool_influxdb.8.gz
 * /usr/share/man/man8/zstream.8.gz
 * /usr/share/man/man8/zstreamdump.8.gz
-* /usr/src/zfs-2.2.3/6.8.5-fw1/Module.symvers
-* /usr/src/zfs-2.2.3/6.8.5-fw1/zfs.release
-* /usr/src/zfs-2.2.3/6.8.5-fw1/zfs_config.h
+* /usr/src/zfs-2.2.3/6.8.6-fw1/Module.symvers
+* /usr/src/zfs-2.2.3/6.8.6-fw1/zfs.release
+* /usr/src/zfs-2.2.3/6.8.6-fw1/zfs_config.h
 * /usr/src/zfs-2.2.3/include/cityhash.h
 * /usr/src/zfs-2.2.3/include/linux/blkdev_compat.h
 * /usr/src/zfs-2.2.3/include/linux/compiler_compat.h
