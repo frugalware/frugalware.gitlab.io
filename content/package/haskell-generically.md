@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "haskell-generically 0.1.1-3"
-version = "0.1.1-3"
+title = "haskell-generically 0.1.1-4"
+version = "0.1.1-4"
 description = "Generically newtype to use with DerivingVia"
-date = "2023-12-11T16:29:39"
+date = "2024-04-14T19:15:07"
 aliases = "/packages/221034"
 categories = ['devel-extra']
 upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/generically"
 arch = "x86_64"
-size = "35616"
-usize = "128443"
-sha1sum = "f2936d6a630f484d72a07e1906dcd6a70aaf50b0"
+size = "35676"
+usize = "128394"
+sha1sum = "f4ee25b93e80094a12171e738cff3ad408fcc88d"
 depends = "['ghc>=9.6.2']"
 reverse_depends = "['haskell-aeson']"
 +++
