@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kwin 6.0.3.1-3"
-version = "6.0.3.1-3"
+title = "kwin 6.0.3.1-4"
+version = "6.0.3.1-4"
 description = "KDE Window Manager."
-date = "2024-04-04T23:16:29"
+date = "2024-04-13T13:00:48"
 aliases = "/packages/221357"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "10448260"
+size = "10447876"
 usize = "35769146"
-sha1sum = "30e2ac4f5c5a9da99cbae70f2e129814494e8f5e"
+sha1sum = "bdc86adf02ad4df0439ddac1000d00cab8e2e4bf"
 depends = "['breeze>=6.0.3', 'kauth>=6.1.0', 'kcmutils>=6.1.0', 'kconfig>=6.1.0', 'kconfigwidgets>=6.1.0', 'kcoreaddons>=6.1.0', 'kcrash>=6.1.0', 'kdbusaddons>=6.1.0', 'kdeclarative>=6.1.0', 'kglobalacceld>=6.0.3', 'kguiaddons>=6.1.0', 'ki18n>=6.1.0', 'kidletime>=6.1.0', 'knewstuff>=6.1.0', 'kpackage>=6.1.0', 'kscreenlocker>=6.0.3', 'kservice>=6.1.0', 'ksvg>=6.1.0', 'kwayland>=6.0.3', 'kwidgetsaddons>=6.1.0', 'kwindowsystem>=6.1.0', 'kxmlgui>=6.1.0', 'libdisplay-info', 'libplasma>=6.0.3', 'libqaccessibilityclient', 'libxcvt', 'pipewire', 'plasma-activities>=6.0.3', 'qt6-5compat>=_F_kdever_qt6', 'qt6-sensors>=6.7.0', 'qt6-tools>=6.7.0', 'qt6-wayland>=6.7.0']"
 reverse_depends = "['oxygen', 'plasma-workspace']"
 +++

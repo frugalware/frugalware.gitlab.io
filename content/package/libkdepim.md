@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libkdepim 24.02.2-1"
-version = "24.02.2-1"
+title = "libkdepim 24.02.2-2"
+version = "24.02.2-2"
 description = "KDEPim library."
-date = "2024-04-12T08:04:33"
+date = "2024-04-13T16:03:16"
 aliases = "/packages/218466"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "92336"
+size = "92192"
 usize = "403343"
-sha1sum = "3d5865afb37e8d288debd042463e63a409a73033"
+sha1sum = "7a70b65e9ef8a969f63297c4007fd029314dd219"
 depends = "['akonadi>=24.02.2', 'akonadi-contacts>=24.02.2', 'akonadi-search>=24.02.2', 'kldap>=24.02.2']"
 reverse_depends = "['kmail-account-wizard', 'mailimporter', 'pimcommon']"
 +++

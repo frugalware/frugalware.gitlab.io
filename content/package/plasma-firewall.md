@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-firewall 6.0.3-3"
-version = "6.0.3-3"
+title = "plasma-firewall 6.0.3-4"
+version = "6.0.3-4"
 description = "Control Panel for your system firewall"
-date = "2024-04-04T23:41:32"
+date = "2024-04-13T13:25:08"
 aliases = "/packages/220307"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "466744"
+size = "466808"
 usize = "1299151"
-sha1sum = "35d5db96bb98219e8ac5f409a47e535812fdfb5e"
+sha1sum = "bc4ec3d3363d4dc42a8c350e2a3146c6f7559b29"
 depends = "['systemsettings>=6.0.3']"
 +++
 ### Description: 

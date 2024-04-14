@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "umbrello 24.02.2-1"
-version = "24.02.2-1"
+title = "umbrello 24.02.2-2"
+version = "24.02.2-2"
 description = "UML Modeller."
-date = "2024-04-12T13:47:56"
+date = "2024-04-13T19:56:23"
 aliases = "/packages/220997"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5214940"
+size = "5214372"
 usize = "14914566"
-sha1sum = "19e063cd2873624dc38ebcd9a42fb5e7ec485f8b"
+sha1sum = "be5a85740e3e9bbbc2fc8353516877d823b7f4fd"
 depends = "['kdev-php', 'kdevelop-pg-qt']"
 +++
 ### Description: 

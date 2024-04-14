@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kwallet 6.0.0-5"
-version = "6.0.0-5"
+title = "kwallet 6.1.0-1"
+version = "6.1.0-1"
 description = "Safe desktop-wide storage for passwords."
-date = "2024-04-05T05:56:11"
+date = "2024-04-12T20:29:21"
 aliases = "/packages/221354"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "453744"
-usize = "2393427"
-sha1sum = "14569f17cf2542f3ee753d3fcc16fd7d065258b9"
+size = "455196"
+usize = "2408463"
+sha1sum = "2bf4203b7e10022ff04fe69d42d181f6da53dd76"
 depends = "['knotifications>=6.1.0', 'libgpgmepp>=1.10.0', 'qca']"
 reverse_depends = "['discover', 'falkon-kde', 'kio', 'krfb', 'ksshaskpass', 'kwallet-pam', 'libkgapi', 'libksane', 'signon-kwallet-extension']"
 +++

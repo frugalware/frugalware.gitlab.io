@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "okular 24.02.2-1"
-version = "24.02.2-1"
+title = "okular 24.02.2-2"
+version = "24.02.2-2"
 description = "KDE universal document viewer."
-date = "2024-04-12T10:34:53"
+date = "2024-04-13T18:22:10"
 aliases = "/packages/218510"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7360500"
+size = "7360408"
 usize = "20291721"
-sha1sum = "24d7361ee97773988a5325333a43bd3716ade63d"
-depends = "['attica>=6.0.0', 'chmlib>=0.40', 'discount>=3.0.0', 'djvulibre>=3.5.24', 'ebook-tools>=0.2.2-3', 'kdegraphics-mobipocket>=24.02.2', 'kirigami>=6.0.0', 'kparts>=6.0.0', 'kpty>=6.0.0', 'libkexiv2>=24.02.2', 'libspectre>=0.2.6', 'libzip>=1.3.2-2', 'plasma-activities>=6.0.3', 'poppler-qt6>=0.60.1-2', 'purpose>=6.0.0', 'qca', 'qt6-speech>=6.7.0', 'qt6-svg>=6.7.0', 'threadweaver>=6.0.0']"
+sha1sum = "8e7d42cca37e8d41579990f054174ab65319f88c"
+depends = "['attica>=6.1.0', 'chmlib>=0.40', 'discount>=3.0.0', 'djvulibre>=3.5.24', 'ebook-tools>=0.2.2-3', 'kdegraphics-mobipocket>=24.02.2', 'kirigami>=6.1.0', 'kparts>=6.1.0', 'kpty>=6.1.0', 'libkexiv2>=24.02.2', 'libspectre>=0.2.6', 'libzip>=1.3.2-2', 'plasma-activities>=6.0.3', 'poppler-qt6>=0.60.1-2', 'purpose>=6.1.0', 'qca', 'qt6-speech>=6.7.0', 'qt6-svg>=6.7.0', 'threadweaver>=6.1.0']"
 reverse_depends = "['kile']"
 +++
 ### Description: 

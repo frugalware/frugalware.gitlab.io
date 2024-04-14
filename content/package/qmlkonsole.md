@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qmlkonsole 24.02.2-1"
-version = "24.02.2-1"
+title = "qmlkonsole 24.02.2-2"
+version = "24.02.2-2"
 description = "Terminal app for Plasma Mobile"
-date = "2024-04-12T11:42:53"
+date = "2024-04-13T19:12:23"
 aliases = "/packages/220993"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "185448"
+size = "185836"
 usize = "643948"
-sha1sum = "0fa7563e3faf3a4157eef898107e7cdb30cec25b"
+sha1sum = "408dbbabb7ac4bbec6a3650e20d30c82cab15379"
 depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kirigami-addons', 'kpty', 'kwindowsystem', 'qmltermwidget', 'qt6-5compat', 'qt6-svg']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-nm 6.0.3-3"
-version = "6.0.3-3"
+title = "plasma-nm 6.0.3-4"
+version = "6.0.3-4"
 description = "Plasma applet written in QML for managing network connections."
-date = "2024-04-04T23:44:09"
+date = "2024-04-13T13:28:39"
 aliases = "/packages/218399"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1312444"
+size = "1313132"
 usize = "8743424"
-sha1sum = "9f343649ceb947d2324347e6ec555837e0ec1f37"
-depends = "['mobile-broadband-provider-info', 'modemmanager-qt>=6.0.0', 'networkmanager-qt>=6.0.0', 'plasma-workspace>=6.0.3', 'qca>=2.1.1-6', 'qcoro']"
+sha1sum = "2bf8cc4233f997b870c372fa1d18b7518a0a99d6"
+depends = "['mobile-broadband-provider-info', 'modemmanager-qt>=6.1.0', 'networkmanager-qt>=6.1.0', 'plasma-workspace>=6.0.3', 'qca>=2.1.1-6', 'qcoro']"
 +++
 ### Description: 
 Plasma applet written in QML for managing network connections.

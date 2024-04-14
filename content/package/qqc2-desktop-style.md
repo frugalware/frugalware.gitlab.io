@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qqc2-desktop-style 6.0.0-3"
-version = "6.0.0-3"
+title = "qqc2-desktop-style 6.1.0-1"
+version = "6.1.0-1"
 description = "QtQuickControls2 style that uses QWidget's QStyle for painting."
-date = "2024-03-30T20:24:42"
+date = "2024-04-13T09:59:12"
 aliases = "/packages/219485"
-categories = []
+categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "341004"
-usize = "2053615"
-sha1sum = "bb208d2df814f99e51de694757abbc98c60df8c6"
-depends = "['kconfigwidgets>=6.0.0', 'kiconthemes>=6.0.0', 'kirigami>=6.0.0']"
+size = "390936"
+usize = "2239912"
+sha1sum = "9fc812c45573b636280eb0b0f906af93a425d4ea"
+depends = "['kconfigwidgets>=6.1.0', 'kiconthemes>=6.1.0', 'kirigami>=6.1.0']"
 reverse_depends = "['angelfish', 'arianna', 'elisa', 'filelight', 'itinerary', 'kdeconnect-kde', 'ktrip', 'merkuro', 'neochat', 'plasma-desktop', 'tokodon']"
 +++
 ### Description: 
@@ -92,4 +92,26 @@ QtQuickControls2 style that uses QWidget's QStyle for painting.
 * /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/libqqc2desktopstyleplugin.so
 * /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/qmldir
 * /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/qqc2desktopstyleplugin.qmltypes
-* /usr/share/doc/qqc2-desktop-style-6.0.0/README.md
+* /usr/share/doc/qqc2-desktop-style-6.1.0/README.md
+* /usr/share/locale/ar/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/ast/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/ca/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/ca@valencia/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/cs/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/de/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/eo/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/es/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/eu/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/fr/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/he/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/hu/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/ia/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/it/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/ka/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/nl/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/pl/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/sl/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/tr/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/uk/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/zh_CN/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/zh_TW/LC_MESSAGES/qqc2desktopstyle_qt.qm

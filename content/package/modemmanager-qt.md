@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "modemmanager-qt 6.0.0-4"
-version = "6.0.0-4"
+title = "modemmanager-qt 6.1.0-1"
+version = "6.1.0-1"
 description = "Qt-only wrapper for ModemManager DBus API."
-date = "2024-04-05T05:15:17"
+date = "2024-04-12T19:37:35"
 aliases = "/packages/218385"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "188736"
-usize = "858796"
-sha1sum = "00b36b80ff6ce235ef2c009e7f7edec8b15c3bd2"
+size = "189860"
+usize = "867372"
+sha1sum = "2a41383a26e255183a8616c99a75e39766ee0c99"
 depends = "['modemmanager>=1.6.2', 'qt6-base>=6.7.0']"
 reverse_depends = "['kdeconnect-kde', 'plasma-nm', 'plasma-settings']"
 +++
@@ -66,8 +66,8 @@ Qt-only wrapper for ModemManager DBus API.
 * /usr/lib/cmake/KF6ModemManagerQt/KF6ModemManagerQtTargets.cmake
 * /usr/lib/libKF6ModemManagerQt.so
 * /usr/lib/libKF6ModemManagerQt.so.6
-* /usr/lib/libKF6ModemManagerQt.so.6.0.0
-* /usr/share/doc/modemmanager-qt-6.0.0/README
-* /usr/share/doc/modemmanager-qt-6.0.0/README.md
+* /usr/lib/libKF6ModemManagerQt.so.6.1.0
+* /usr/share/doc/modemmanager-qt-6.1.0/README
+* /usr/share/doc/modemmanager-qt-6.1.0/README.md
 * /usr/share/qlogging-categories6/modemmanagerqt.categories
 * /usr/share/qlogging-categories6/modemmanagerqt.renamecategories

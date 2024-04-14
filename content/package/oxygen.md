@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "oxygen 6.0.3-3"
-version = "6.0.3-3"
+title = "oxygen 6.0.3-4"
+version = "6.0.3-4"
 description = "KDE Oxygen style."
-date = "2024-04-04T23:56:50"
+date = "2024-04-13T13:37:39"
 aliases = "/packages/218391"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2860980"
+size = "2862096"
 usize = "18852715"
-sha1sum = "1f8ef8661cce43af9dc26ceed10b44743a0b5cec"
-depends = "['frameworkintegration>=6.0.0', 'kwin>=6.0.3']"
+sha1sum = "488c994c0f60909a7fa3efbed48c46ed1e796eab"
+depends = "['frameworkintegration>=6.1.0', 'kwin>=6.0.3']"
 reverse_depends = "['lumina-desktop']"
 +++
 ### Description: 

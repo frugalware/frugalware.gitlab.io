@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libkcddb5 24.02.2-1"
-version = "24.02.2-1"
+title = "libkcddb5 24.02.2-2"
+version = "24.02.2-2"
 description = "A library for retrieving and sending cddb information. KF5"
-date = "2024-04-11T17:47:06"
+date = "2024-04-13T13:51:00"
 aliases = "/packages/221396"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "86016"
+size = "85980"
 usize = "305576"
-sha1sum = "e83a759281f86662c31d52f802b6fb814f499529"
+sha1sum = "3ee8ba8f610134f9a871eb79dbfaa1e828dee6db"
 depends = "['kcmutils5>=$_F_kf5_full', 'kio5>=$_F_kf5_full', 'libmusicbrainz>=5.1.0-3']"
 reverse_depends = "['k3b']"
 +++

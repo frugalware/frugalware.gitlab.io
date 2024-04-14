@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kubrick 24.02.2-1"
-version = "24.02.2-1"
+title = "kubrick 24.02.2-2"
+version = "24.02.2-2"
 description = "Kubrick is based on the famous Rubik's Cube"
-date = "2024-04-12T10:22:09"
+date = "2024-04-13T18:12:21"
 aliases = "/packages/219341"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "505940"
+size = "505936"
 usize = "1987449"
-sha1sum = "5774f904e673230aee6b1a3782d93084c6c54fda"
+sha1sum = "a69200325c3a50e3ba42dd644f51980bb7d2be3f"
 depends = "['libglu', 'libkdegames>=24.02.2']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pim-data-exporter 24.02.2-1"
-version = "24.02.2-1"
+title = "pim-data-exporter 24.02.2-2"
+version = "24.02.2-2"
 description = "Assistant to backup and archive PIM data and configuration"
-date = "2024-04-12T08:52:16"
+date = "2024-04-13T16:41:11"
 aliases = "/packages/218941"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "493764"
+size = "493932"
 usize = "1884896"
-sha1sum = "d5fadda1c655410b244ba8c4603a4f8c1d4c4d7b"
+sha1sum = "b225c6673380e695a837ea0ef1f0708152ee9d35"
 depends = "['calendarsupport>=24.02.2', 'kalarm>=24.02.2', 'mailcommon>=24.02.2']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rocs 24.02.2-1"
-version = "24.02.2-1"
+title = "rocs 24.02.2-2"
+version = "24.02.2-2"
 description = "Graph Theory IDE."
-date = "2024-04-12T12:35:02"
+date = "2024-04-13T17:27:32"
 aliases = "/packages/152840"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1555692"
+size = "1556316"
 usize = "3999525"
-sha1sum = "2721a207b29dc5d2ae74ea002f610c0fc611fd50"
+sha1sum = "38c41c70bae4ad27eb47f8a65caba3ed6a6e2d0f"
 depends = "['grantlee>=5.1.0-2', 'kdeclarative5>=5.115.0', 'ktexteditor5>=5.115.0', 'libboost>=1.61.0', 'qt5-xmlpatterns>=5.15.12']"
 +++
 ### Description: 

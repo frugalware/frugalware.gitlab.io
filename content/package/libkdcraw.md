@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libkdcraw 24.02.2-1"
-version = "24.02.2-1"
+title = "libkdcraw 24.02.2-2"
+version = "24.02.2-2"
 description = "KDE Paint Program."
-date = "2024-04-11T19:19:42"
+date = "2024-04-13T14:48:03"
 aliases = "/packages/74204"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "39756"
+size = "39808"
 usize = "136863"
-sha1sum = "54d009785c342766bfe94dc83869b7675ecdf293"
+sha1sum = "d927fa377c96801903ce388560e897d3911142f8"
 depends = "['libraw>=0.21.1', 'qt6-base>=6.7.0']"
 reverse_depends = "['gwenview', 'kdegraphics-thumbnailers', 'krita']"
 +++
