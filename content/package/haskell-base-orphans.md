@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "haskell-base-orphans 0.9.1-1"
-version = "0.9.1-1"
+title = "haskell-base-orphans 0.9.1-2"
+version = "0.9.1-2"
 description = "Backwards-compatible orphan instances for base"
-date = "2023-12-11T10:14:35"
+date = "2024-04-14T16:28:29"
 aliases = "/packages/219998"
 categories = ['devel-extra']
 upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/base-orphans"
 arch = "x86_64"
-size = "36704"
-usize = "109452"
-sha1sum = "c9166f103b5712a9db4126a9ab2ddcaee8f22c44"
+size = "36748"
+usize = "109354"
+sha1sum = "88e01701c6fc9f615921696a748d092de16d20c3"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-distributive', 'haskell-semigroupoids', 'haskell-time-compat', 'haskell-transformers-base', 'haskell-witherable']"
 +++
@@ -18,23 +18,23 @@ reverse_depends = "['haskell-distributive', 'haskell-semigroupoids', 'haskell-ti
 Backwards-compatible orphan instances for base
 
 ### Files: 
-* /usr/lib/ghc-9.8.1/site-local/base-orphans-0.9.1/Data/Orphans.dyn_hi
-* /usr/lib/ghc-9.8.1/site-local/base-orphans-0.9.1/Data/Orphans.hi
-* /usr/lib/ghc-9.8.1/site-local/base-orphans-0.9.1/Data/Orphans/Prelude.dyn_hi
-* /usr/lib/ghc-9.8.1/site-local/base-orphans-0.9.1/Data/Orphans/Prelude.hi
-* /usr/lib/ghc-9.8.1/site-local/base-orphans-0.9.1/libHSbase-orphans-0.9.1-Kw29Ed7rGSsBJZdEn5cfkB.a
-* /usr/lib/x86_64-linux-ghc-9.8.1/libHSbase-orphans-0.9.1-Kw29Ed7rGSsBJZdEn5cfkB-ghc9.8.1.so
+* /usr/lib/ghc-9.8.2/site-local/base-orphans-0.9.1/Data/Orphans.dyn_hi
+* /usr/lib/ghc-9.8.2/site-local/base-orphans-0.9.1/Data/Orphans.hi
+* /usr/lib/ghc-9.8.2/site-local/base-orphans-0.9.1/Data/Orphans/Prelude.dyn_hi
+* /usr/lib/ghc-9.8.2/site-local/base-orphans-0.9.1/Data/Orphans/Prelude.hi
+* /usr/lib/ghc-9.8.2/site-local/base-orphans-0.9.1/libHSbase-orphans-0.9.1-2l55U7IiQEbBQj7Rpk4rdH.a
+* /usr/lib/x86_64-linux-ghc-9.8.2/libHSbase-orphans-0.9.1-2l55U7IiQEbBQj7Rpk4rdH-ghc9.8.2.so
 * /usr/share/doc/haskell-base-orphans-0.9.1/LICENSE
 * /usr/share/doc/haskell-base-orphans-0.9.1/README.markdown
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/base-orphans-0.9.1/html/base-orphans.haddock
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/base-orphans-0.9.1/html/Data-Orphans.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/base-orphans-0.9.1/html/doc-index.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/base-orphans-0.9.1/html/haddock-bundle.min.js
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/base-orphans-0.9.1/html/index.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/base-orphans-0.9.1/html/linuwial.css
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/base-orphans-0.9.1/html/meta.json
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/base-orphans-0.9.1/html/quick-jump.css
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/base-orphans-0.9.1/html/synopsis.png
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/base-orphans-0.9.1/LICENSE
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/base-orphans-0.9.1/html/base-orphans.haddock
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/base-orphans-0.9.1/html/Data-Orphans.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/base-orphans-0.9.1/html/doc-index.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/base-orphans-0.9.1/html/haddock-bundle.min.js
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/base-orphans-0.9.1/html/index.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/base-orphans-0.9.1/html/linuwial.css
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/base-orphans-0.9.1/html/meta.json
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/base-orphans-0.9.1/html/quick-jump.css
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/base-orphans-0.9.1/html/synopsis.png
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/base-orphans-0.9.1/LICENSE
 * /usr/share/haskell/haskell-base-orphans/register.sh
 * /usr/share/haskell/haskell-base-orphans/unregister.sh

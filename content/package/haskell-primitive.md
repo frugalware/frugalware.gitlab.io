@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "haskell-primitive 0.9.0.0-1"
-version = "0.9.0.0-1"
+title = "haskell-primitive 0.9.0.0-2"
+version = "0.9.0.0-2"
 description = "Wrappers for primitive operations."
-date = "2023-12-10T22:01:00"
+date = "2024-04-14T16:16:14"
 aliases = "/packages/200645"
 categories = ['devel-extra']
 upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/primitive"
 arch = "x86_64"
-size = "474292"
-usize = "6582654"
-sha1sum = "8062c9d9fa8da32e33d565517cc415a8d3f8b09e"
+size = "473512"
+usize = "6597569"
+sha1sum = "a8a7de651c3437ed46d6b356ac54e783b444eebf"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-integer-conversion', 'haskell-resourcet', 'haskell-scientific', 'haskell-tf-random', 'haskell-vector']"
 +++
