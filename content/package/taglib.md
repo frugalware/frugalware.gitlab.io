@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "taglib 2.0-1"
-version = "2.0-1"
+title = "taglib 2.0.1-1"
+version = "2.0.1-1"
 description = "A library for reading and editing the meta-data of several popular audio formats."
-date = "2024-01-24T19:35:17"
+date = "2024-04-14T14:26:42"
 aliases = "/packages/3349"
 categories = ['multimedia']
 upstreamurl = "http://taglib.github.io/"
 arch = "x86_64"
-size = "416868"
-usize = "2034131"
-sha1sum = "3bebaa5c9aeb84906704bdb93031d8558fb420b8"
+size = "418416"
+usize = "2035207"
+sha1sum = "d9a7c4de0aa5ae2dfbec39f3a4f30fd0ccd19a2c"
 depends = "['libstdc++>=11.3', 'zlib>=1.2.12']"
 reverse_depends = "['babe', 'ffmpegthumbs', 'gst1-plugins-good-taglib', 'juk', 'kasts', 'kfilemetadata', 'kfilemetadata5', 'kio-extras', 'kio-extras-kf5', 'krename', 'kzenexplorer', 'ncmpcpp', 'qmmp', 'vlc-taglib', 'xcfa']"
 +++
@@ -138,14 +138,14 @@ A library for reading and editing the meta-data of several popular audio formats
 * /usr/lib/cmake/taglib/taglib-targets.cmake
 * /usr/lib/libtag.so
 * /usr/lib/libtag.so.2
-* /usr/lib/libtag.so.2.0.0
+* /usr/lib/libtag.so.2.0.1
 * /usr/lib/libtag_c.so
 * /usr/lib/libtag_c.so.2
-* /usr/lib/libtag_c.so.2.0.0
+* /usr/lib/libtag_c.so.2.0.1
 * /usr/lib/pkgconfig/taglib.pc
 * /usr/lib/pkgconfig/taglib_c.pc
-* /usr/share/doc/taglib-2.0/AUTHORS
-* /usr/share/doc/taglib-2.0/COPYING.LGPL
-* /usr/share/doc/taglib-2.0/COPYING.MPL
-* /usr/share/doc/taglib-2.0/INSTALL.md
-* /usr/share/doc/taglib-2.0/README.md
+* /usr/share/doc/taglib-2.0.1/AUTHORS
+* /usr/share/doc/taglib-2.0.1/COPYING.LGPL
+* /usr/share/doc/taglib-2.0.1/COPYING.MPL
+* /usr/share/doc/taglib-2.0.1/INSTALL.md
+* /usr/share/doc/taglib-2.0.1/README.md
