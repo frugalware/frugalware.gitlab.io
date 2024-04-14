@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "haskell-unordered-containers 0.2.19.1-9"
-version = "0.2.19.1-9"
+title = "haskell-unordered-containers 0.2.20-1"
+version = "0.2.20-1"
 description = "Efficient hashing-based container types"
-date = "2023-12-11T13:47:56"
+date = "2024-04-14T17:19:41"
 aliases = "/packages/218666"
 categories = ['devel-extra']
 upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/unordered-containers"
 arch = "x86_64"
-size = "419892"
-usize = "5034292"
-sha1sum = "7c1c611b4e80fd720f20012374cc62b90fe29806"
+size = "453756"
+usize = "5436459"
+sha1sum = "395771aadfbf852c7dea2d6c5bc8ad0f17d4c3e1"
 depends = "['haskell-hashable>=1.4.2.0']"
 reverse_depends = "['haskell-cassava', 'haskell-http-api-data', 'haskell-indexed-traversable-instances', 'haskell-mono-traversable', 'haskell-semigroups', 'haskell-uniplate', 'haskell-vault']"
 +++
@@ -18,41 +18,65 @@ reverse_depends = "['haskell-cassava', 'haskell-http-api-data', 'haskell-indexed
 Efficient hashing-based container types
 
 ### Files: 
-* /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashMap/Internal.dyn_hi
-* /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashMap/Internal.hi
-* /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashMap/Internal/Array.dyn_hi
-* /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashMap/Internal/Array.hi
-* /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashMap/Internal/List.dyn_hi
-* /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashMap/Internal/List.hi
-* /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashMap/Internal/Strict.dyn_hi
-* /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashMap/Internal/Strict.hi
-* /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashMap/Lazy.dyn_hi
-* /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashMap/Lazy.hi
-* /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashMap/Strict.dyn_hi
-* /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashMap/Strict.hi
-* /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashSet.dyn_hi
-* /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashSet.hi
-* /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashSet/Internal.dyn_hi
-* /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/Data/HashSet/Internal.hi
-* /usr/lib/ghc-9.8.1/site-local/unordered-containers-0.2.19.1/libHSunordered-containers-0.2.19.1-4cd5Li1juux7uW29hg3PTD.a
-* /usr/lib/x86_64-linux-ghc-9.8.1/libHSunordered-containers-0.2.19.1-4cd5Li1juux7uW29hg3PTD-ghc9.8.1.so
-* /usr/share/doc/haskell-unordered-containers-0.2.19.1/LICENSE
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/unordered-containers-0.2.19.1/html/Data-HashMap-Internal-Array.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/unordered-containers-0.2.19.1/html/Data-HashMap-Internal-List.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/unordered-containers-0.2.19.1/html/Data-HashMap-Internal-Strict.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/unordered-containers-0.2.19.1/html/Data-HashMap-Internal.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/unordered-containers-0.2.19.1/html/Data-HashMap-Lazy.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/unordered-containers-0.2.19.1/html/Data-HashMap-Strict.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/unordered-containers-0.2.19.1/html/Data-HashSet-Internal.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/unordered-containers-0.2.19.1/html/Data-HashSet.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/unordered-containers-0.2.19.1/html/doc-index.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/unordered-containers-0.2.19.1/html/haddock-bundle.min.js
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/unordered-containers-0.2.19.1/html/index.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/unordered-containers-0.2.19.1/html/linuwial.css
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/unordered-containers-0.2.19.1/html/meta.json
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/unordered-containers-0.2.19.1/html/quick-jump.css
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/unordered-containers-0.2.19.1/html/synopsis.png
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/unordered-containers-0.2.19.1/html/unordered-containers.haddock
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/unordered-containers-0.2.19.1/LICENSE
+* /usr/lib/ghc-9.8.2/site-local/unordered-containers-0.2.20/Data/HashMap/Internal.dyn_hi
+* /usr/lib/ghc-9.8.2/site-local/unordered-containers-0.2.20/Data/HashMap/Internal.hi
+* /usr/lib/ghc-9.8.2/site-local/unordered-containers-0.2.20/Data/HashMap/Internal/Array.dyn_hi
+* /usr/lib/ghc-9.8.2/site-local/unordered-containers-0.2.20/Data/HashMap/Internal/Array.hi
+* /usr/lib/ghc-9.8.2/site-local/unordered-containers-0.2.20/Data/HashMap/Internal/Debug.dyn_hi
+* /usr/lib/ghc-9.8.2/site-local/unordered-containers-0.2.20/Data/HashMap/Internal/Debug.hi
+* /usr/lib/ghc-9.8.2/site-local/unordered-containers-0.2.20/Data/HashMap/Internal/List.dyn_hi
+* /usr/lib/ghc-9.8.2/site-local/unordered-containers-0.2.20/Data/HashMap/Internal/List.hi
+* /usr/lib/ghc-9.8.2/site-local/unordered-containers-0.2.20/Data/HashMap/Internal/Strict.dyn_hi
+* /usr/lib/ghc-9.8.2/site-local/unordered-containers-0.2.20/Data/HashMap/Internal/Strict.hi
+* /usr/lib/ghc-9.8.2/site-local/unordered-containers-0.2.20/Data/HashMap/Lazy.dyn_hi
+* /usr/lib/ghc-9.8.2/site-local/unordered-containers-0.2.20/Data/HashMap/Lazy.hi
+* /usr/lib/ghc-9.8.2/site-local/unordered-containers-0.2.20/Data/HashMap/Strict.dyn_hi
+* /usr/lib/ghc-9.8.2/site-local/unordered-containers-0.2.20/Data/HashMap/Strict.hi
+* /usr/lib/ghc-9.8.2/site-local/unordered-containers-0.2.20/Data/HashSet.dyn_hi
+* /usr/lib/ghc-9.8.2/site-local/unordered-containers-0.2.20/Data/HashSet.hi
+* /usr/lib/ghc-9.8.2/site-local/unordered-containers-0.2.20/Data/HashSet/Internal.dyn_hi
+* /usr/lib/ghc-9.8.2/site-local/unordered-containers-0.2.20/Data/HashSet/Internal.hi
+* /usr/lib/ghc-9.8.2/site-local/unordered-containers-0.2.20/libHSunordered-containers-0.2.20-GUwBPxO7Ljy8Kmoa5HHL0Q.a
+* /usr/lib/x86_64-linux-ghc-9.8.2/libHSunordered-containers-0.2.20-GUwBPxO7Ljy8Kmoa5HHL0Q-ghc9.8.2.so
+* /usr/share/doc/haskell-unordered-containers-0.2.20/LICENSE
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/Data-HashMap-Internal-Array.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/Data-HashMap-Internal-Debug.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/Data-HashMap-Internal-List.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/Data-HashMap-Internal-Strict.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/Data-HashMap-Internal.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/Data-HashMap-Lazy.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/Data-HashMap-Strict.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/Data-HashSet-Internal.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/Data-HashSet.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/doc-index-33.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/doc-index-A.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/doc-index-All.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/doc-index-B.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/doc-index-C.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/doc-index-D.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/doc-index-E.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/doc-index-F.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/doc-index-H.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/doc-index-I.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/doc-index-K.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/doc-index-L.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/doc-index-M.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/doc-index-N.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/doc-index-P.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/doc-index-R.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/doc-index-S.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/doc-index-T.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/doc-index-U.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/doc-index-V.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/doc-index-W.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/doc-index.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/haddock-bundle.min.js
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/index.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/linuwial.css
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/meta.json
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/quick-jump.css
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/synopsis.png
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/html/unordered-containers.haddock
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/unordered-containers-0.2.20/LICENSE
 * /usr/share/haskell/haskell-unordered-containers/register.sh
 * /usr/share/haskell/haskell-unordered-containers/unregister.sh
