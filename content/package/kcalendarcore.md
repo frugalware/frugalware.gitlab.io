@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcalendarcore 6.0.0-2"
-version = "6.0.0-2"
+title = "kcalendarcore 6.1.0-1"
+version = "6.1.0-1"
 description = "The KDE calendar access library"
-date = "2024-03-30T20:09:39"
+date = "2024-04-13T10:01:51"
 aliases = "/packages/219991"
-categories = []
+categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "323284"
-usize = "1230725"
-sha1sum = "2f47ca2966c19e780086ce7b7cef6c4ecf4f0ef2"
+size = "326008"
+usize = "1243013"
+sha1sum = "ab5517be4411884ce411e04d14c976d6c7c4b13b"
 depends = "['libical>=3.0.3']"
 reverse_depends = "['akonadi-contacts', 'kcalutils', 'kitinerary', 'kongress', 'libkgapi', 'mimetreeparser']"
 +++
@@ -93,8 +93,8 @@ The KDE calendar access library
 * /usr/lib/cmake/KF6CalendarCore/KF6CalendarCoreTargets.cmake
 * /usr/lib/libKF6CalendarCore.so
 * /usr/lib/libKF6CalendarCore.so.6
-* /usr/lib/libKF6CalendarCore.so.6.0.0
+* /usr/lib/libKF6CalendarCore.so.6.1.0
 * /usr/lib/pkgconfig/KF6CalendarCore.pc
-* /usr/share/doc/kcalendarcore-6.0.0/README.md
+* /usr/share/doc/kcalendarcore-6.1.0/README.md
 * /usr/share/qlogging-categories6/kcalendarcore.categories
 * /usr/share/qlogging-categories6/kcalendarcore.renamecategories

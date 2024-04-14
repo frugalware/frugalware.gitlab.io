@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kirigami 6.0.0-4"
-version = "6.0.0-4"
+title = "kirigami 6.1.0-1"
+version = "6.1.0-1"
 description = "UI framework for mobile and convergent applications written in Qt."
-date = "2024-04-05T05:07:32"
+date = "2024-04-12T19:19:42"
 aliases = "/packages/221327"
-categories = []
+categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "900312"
-usize = "4281832"
-sha1sum = "bd4a3df689a892859d12fbfcd50f7d83ef5bce28"
+size = "910004"
+usize = "4341914"
+sha1sum = "ab0376b4b2a83141c81dd0c11d97af56801de780"
 depends = "['libgomp', 'qt6-declarative>=6.7.0', 'qt6-svg>=6.7.0']"
 reverse_depends = "['breeze', 'drkonqi', 'elisa', 'kalk', 'keysmith', 'kinfocenter', 'kirigami-addons', 'kjournald', 'knewstuff', 'kongress', 'kontrast', 'ksvg', 'okular', 'plasma-welcome', 'purpose', 'qqc2-breeze-style', 'qqc2-desktop-style', 'skanpage', 'systemsettings', 'xdg-desktop-portal-kde']"
 +++
@@ -45,13 +45,13 @@ UI framework for mobile and convergent applications written in Qt.
 * /usr/lib/cmake/KF6KirigamiPlatform/KF6KirigamiPlatformTargets.cmake
 * /usr/lib/libKirigami.so
 * /usr/lib/libKirigami.so.6
-* /usr/lib/libKirigami.so.6.0.0
+* /usr/lib/libKirigami.so.6.1.0
 * /usr/lib/libKirigamiDelegates.so
 * /usr/lib/libKirigamiDelegates.so.6
-* /usr/lib/libKirigamiDelegates.so.6.0.0
+* /usr/lib/libKirigamiDelegates.so.6.1.0
 * /usr/lib/libKirigamiPlatform.so
 * /usr/lib/libKirigamiPlatform.so.6
-* /usr/lib/libKirigamiPlatform.so.6.0.0
+* /usr/lib/libKirigamiPlatform.so.6.1.0
 * /usr/lib/qt6/qml/org/kde/kirigami/AboutItem.qml
 * /usr/lib/qt6/qml/org/kde/kirigami/AboutPage.qml
 * /usr/lib/qt6/qml/org/kde/kirigami/AbstractApplicationHeader.qml
@@ -68,6 +68,7 @@ UI framework for mobile and convergent applications written in Qt.
 * /usr/lib/qt6/qml/org/kde/kirigami/CardsListView.qml
 * /usr/lib/qt6/qml/org/kde/kirigami/Chip.qml
 * /usr/lib/qt6/qml/org/kde/kirigami/ContextDrawer.qml
+* /usr/lib/qt6/qml/org/kde/kirigami/ContextualHelpButton.qml
 * /usr/lib/qt6/qml/org/kde/kirigami/delegates/CheckSubtitleDelegate.qml
 * /usr/lib/qt6/qml/org/kde/kirigami/delegates/IconTitleSubtitle.qml
 * /usr/lib/qt6/qml/org/kde/kirigami/delegates/kde-qmlmodule.version
@@ -162,7 +163,7 @@ UI framework for mobile and convergent applications written in Qt.
 * /usr/lib/qt6/qml/org/kde/kirigami/templates/qmldir
 * /usr/lib/qt6/qml/org/kde/kirigami/templates/SingletonHeaderSizeGroup.qml
 * /usr/lib/qt6/qml/org/kde/kirigami/UrlButton.qml
-* /usr/share/doc/kirigami-6.0.0/README.md
+* /usr/share/doc/kirigami-6.1.0/README.md
 * /usr/share/kdevappwizard/templates/kirigami6.tar.bz2
 * /usr/share/locale/ar/LC_MESSAGES/libkirigami6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/libkirigami6_qt.qm
@@ -186,6 +187,7 @@ UI framework for mobile and convergent applications written in Qt.
 * /usr/share/locale/hu/LC_MESSAGES/libkirigami6_qt.qm
 * /usr/share/locale/ia/LC_MESSAGES/libkirigami6_qt.qm
 * /usr/share/locale/id/LC_MESSAGES/libkirigami6_qt.qm
+* /usr/share/locale/is/LC_MESSAGES/libkirigami6_qt.qm
 * /usr/share/locale/it/LC_MESSAGES/libkirigami6_qt.qm
 * /usr/share/locale/ja/LC_MESSAGES/libkirigami6_qt.qm
 * /usr/share/locale/ka/LC_MESSAGES/libkirigami6_qt.qm

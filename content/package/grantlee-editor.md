@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "grantlee-editor 24.02.2-1"
-version = "24.02.2-1"
+title = "grantlee-editor 24.02.2-2"
+version = "24.02.2-2"
 description = "gantt editor for PIM application."
-date = "2024-04-12T09:11:51"
+date = "2024-04-13T16:55:29"
 aliases = "/packages/218927"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "247012"
+size = "247300"
 usize = "1304103"
-sha1sum = "2029da03687b0517cab59da68527661f5c55a3a8"
-depends = "['ktexteditor>=6.0.0', 'messagelib>=24.02.2']"
+sha1sum = "4296bd8a7a0b11d0a6635c17d98cd56d3fe29075"
+depends = "['ktexteditor>=6.1.0', 'messagelib>=24.02.2']"
 +++
 ### Description: 
 gantt editor for PIM application.

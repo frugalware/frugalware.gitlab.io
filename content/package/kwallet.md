@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "453744"
 usize = "2393427"
 sha1sum = "14569f17cf2542f3ee753d3fcc16fd7d065258b9"
-depends = "['knotifications>=6.0.0', 'libgpgmepp>=1.10.0', 'qca']"
+depends = "['knotifications>=6.1.0', 'libgpgmepp>=1.10.0', 'qca']"
 reverse_depends = "['discover', 'falkon-kde', 'kio', 'krfb', 'ksshaskpass', 'kwallet-pam', 'libkgapi', 'libksane', 'signon-kwallet-extension']"
 +++
 ### Description: 
@@ -30,14 +30,14 @@ Safe desktop-wide storage for passwords.
 * /usr/lib/cmake/KF6Wallet/KF6WalletTargets.cmake
 * /usr/lib/libKF6Wallet.so
 * /usr/lib/libKF6Wallet.so.6
-* /usr/lib/libKF6Wallet.so.6.0.0
+* /usr/lib/libKF6Wallet.so.6.1.0
 * /usr/lib/libKF6WalletBackend.so.6
-* /usr/lib/libKF6WalletBackend.so.6.0.0
+* /usr/lib/libKF6WalletBackend.so.6.1.0
 * /usr/share/applications/org.kde.kwalletd6.desktop
 * /usr/share/dbus-1/interfaces/kf6_org.kde.KWallet.xml
 * /usr/share/dbus-1/services/org.kde.kwalletd5.service
 * /usr/share/dbus-1/services/org.kde.kwalletd6.service
-* /usr/share/doc/kwallet-6.0.0/README.md
+* /usr/share/doc/kwallet-6.1.0/README.md
 * /usr/share/knotifications6/kwalletd6.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/kwallet6-query.mo
 * /usr/share/locale/ar/LC_MESSAGES/kwalletd6.mo
@@ -112,6 +112,7 @@ Safe desktop-wide storage for passwords.
 * /usr/share/locale/ku/LC_MESSAGES/kwalletd6.mo
 * /usr/share/locale/lt/LC_MESSAGES/kwallet6-query.mo
 * /usr/share/locale/lt/LC_MESSAGES/kwalletd6.mo
+* /usr/share/locale/lv/LC_MESSAGES/kwallet6-query.mo
 * /usr/share/locale/lv/LC_MESSAGES/kwalletd6.mo
 * /usr/share/locale/mai/LC_MESSAGES/kwalletd6.mo
 * /usr/share/locale/mk/LC_MESSAGES/kwalletd6.mo

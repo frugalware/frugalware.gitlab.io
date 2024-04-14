@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kconfig 6.0.0-4"
-version = "6.0.0-4"
+title = "kconfig 6.1.0-1"
+version = "6.1.0-1"
 description = "Provides an advanced configuration system."
-date = "2024-04-05T05:32:58"
+date = "2024-04-12T20:00:29"
 aliases = "/packages/218283"
-categories = []
+categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "391496"
-usize = "1786227"
-sha1sum = "abc0bb7fa9fa5ed4a68f3940deb30435d14d5a4b"
+size = "392332"
+usize = "1796332"
+sha1sum = "fcc701b8b16a62820a536ee9898f45d570721711"
 depends = "['qt6-base>=6.7.0']"
 reverse_depends = "['akonadi-mime', 'alligator', 'breeze', 'calamares-frugalware', 'discover', 'dolphin', 'kalk', 'kcachegrind', 'kclock', 'kcolorscheme', 'kcompletion', 'kcontacts', 'kdeplasma-addons', 'kdeplasma-addons5', 'kdesignerplugin', 'kglobalacceld', 'kongress', 'kpackage', 'krecorder', 'krunner', 'kservice', 'ktrip', 'kwin', 'libkscreen', 'libkscreen5', 'plasma-browser-integration', 'plasma5support', 'plasmatube', 'purpose', 'qmlkonsole', 'qqc2-breeze-style', 'sweeper']"
 +++
@@ -73,19 +73,19 @@ Provides an advanced configuration system.
 * /usr/lib/kconfig/kf6/kconf_update
 * /usr/lib/libKF6ConfigCore.so
 * /usr/lib/libKF6ConfigCore.so.6
-* /usr/lib/libKF6ConfigCore.so.6.0.0
+* /usr/lib/libKF6ConfigCore.so.6.1.0
 * /usr/lib/libKF6ConfigGui.so
 * /usr/lib/libKF6ConfigGui.so.6
-* /usr/lib/libKF6ConfigGui.so.6.0.0
+* /usr/lib/libKF6ConfigGui.so.6.1.0
 * /usr/lib/libKF6ConfigQml.so
 * /usr/lib/libKF6ConfigQml.so.6
-* /usr/lib/libKF6ConfigQml.so.6.0.0
-* /usr/lib/qt6/qml/org/kde/config/kconfigqmlplugin.qmltypes
+* /usr/lib/libKF6ConfigQml.so.6.1.0
 * /usr/lib/qt6/qml/org/kde/config/kde-qmlmodule.version
-* /usr/lib/qt6/qml/org/kde/config/libkconfigqmlplugin.so
+* /usr/lib/qt6/qml/org/kde/config/KF6ConfigQml.qmltypes
+* /usr/lib/qt6/qml/org/kde/config/libKF6ConfigQmlplugin.so
 * /usr/lib/qt6/qml/org/kde/config/qmldir
-* /usr/share/doc/kconfig-6.0.0/README.md
-* /usr/share/doc/kconfig-6.0.0/TODO
+* /usr/share/doc/kconfig-6.1.0/README.md
+* /usr/share/doc/kconfig-6.1.0/TODO
 * /usr/share/locale/af/LC_MESSAGES/kconfig6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kconfig6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/kconfig6_qt.qm

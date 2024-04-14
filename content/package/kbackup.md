@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kbackup 24.02.2-1"
-version = "24.02.2-1"
+title = "kbackup 24.02.2-2"
+version = "24.02.2-2"
 description = "Backup program for KDE."
-date = "2024-04-12T09:47:18"
+date = "2024-04-13T17:43:38"
 aliases = "/packages/219632"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "540340"
+size = "540532"
 usize = "1297060"
-sha1sum = "c8bcea869c0682e30db2a0c6120b012cb49738cb"
-depends = "['karchive>=6.0.0', 'ki18n>=6.0.0', 'kiconthemes>=6.0.0', 'kio>=6.0.0', 'knotifications>=6.0.0', 'kstatusnotifieritem>=6.0.0', 'kwidgetsaddons>=6.0.0', 'kxmlgui>=6.0.0']"
+sha1sum = "560ac5bda2453cc19be5459281348b10e6dd53ed"
+depends = "['karchive>=6.1.0', 'ki18n>=6.1.0', 'kiconthemes>=6.1.0', 'kio>=6.1.0', 'knotifications>=6.1.0', 'kstatusnotifieritem>=6.1.0', 'kwidgetsaddons>=6.1.0', 'kxmlgui>=6.1.0']"
 +++
 ### Description: 
 Backup program for KDE.

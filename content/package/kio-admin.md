@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kio-admin 24.02.2-1"
-version = "24.02.2-1"
+title = "kio-admin 24.02.2-2"
+version = "24.02.2-2"
 description = "Manage files as administrator using the admin:// KIO protocol"
-date = "2024-04-12T12:05:08"
+date = "2024-04-13T19:29:57"
 aliases = "/packages/220978"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "68980"
+size = "69216"
 usize = "326292"
-sha1sum = "dbe65b0863ddd67ea127bc537421d731da365a99"
+sha1sum = "f1b14726ad94e5e258688c90ecc276315501c40e"
 depends = "['kio']"
 +++
 ### Description: 

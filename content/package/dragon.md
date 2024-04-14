@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dragon 24.02.2-1"
-version = "24.02.2-1"
+title = "dragon 24.02.2-2"
+version = "24.02.2-2"
 description = "KDE Video Player."
-date = "2024-04-11T18:02:50"
+date = "2024-04-13T13:54:35"
 aliases = "/packages/168469"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1768932"
+size = "1768708"
 usize = "2858574"
-sha1sum = "93d7a7eafa7f4109f3cbae0e56e4a1675298733b"
+sha1sum = "d47912c296d9632439cbddc1feba7e65477be98c"
 depends = "['kparts>=6.1.0']"
 +++
 ### Description: 

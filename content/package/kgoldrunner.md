@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kgoldrunner 24.02.2-1"
-version = "24.02.2-1"
+title = "kgoldrunner 24.02.2-2"
+version = "24.02.2-2"
 description = "A game of action and puzzle solving."
-date = "2024-04-11T20:33:19"
+date = "2024-04-13T15:07:34"
 aliases = "/packages/184181"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5254128"
+size = "5254136"
 usize = "18368046"
-sha1sum = "462a1f3293f32710318e23e66fde584ae8a60796"
+sha1sum = "30bfec42318c7ebfc8f6e2c25cce57f11dad1a42"
 depends = "['kio', 'knewstuff', 'knotifyconfig', 'libkdegames', 'qt6-svg>=6.7.0']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kontrast 24.02.2-1"
-version = "24.02.2-1"
+title = "kontrast 24.02.2-2"
+version = "24.02.2-2"
 description = "Tool to check contrast for colors that allows verifying that your colors are correctly accessible"
-date = "2024-04-12T10:51:47"
+date = "2024-04-13T18:34:43"
 aliases = "/packages/220313"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "177424"
+size = "177236"
 usize = "484806"
-sha1sum = "c4b2157b54cef35e9f7d25c1c15a14a4f2cb8a94"
-depends = "['futuresql', 'kcoreaddons>=6.0.0', 'kdeclarative>=6.0.0', 'ki18n>=6.0.0', 'kirigami>=6.0.0', 'qcoro']"
+sha1sum = "3c6296f02ecc89ad2bf4878f6eeb22abb8de2e21"
+depends = "['futuresql', 'kcoreaddons>=6.1.0', 'kdeclarative>=6.1.0', 'ki18n>=6.1.0', 'kirigami>=6.1.0', 'qcoro']"
 +++
 ### Description: 
 Tool to check contrast for colors that allows verifying that your colors are correctly accessible

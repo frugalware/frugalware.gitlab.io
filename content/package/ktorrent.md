@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktorrent 24.02.2-1"
-version = "24.02.2-1"
+title = "ktorrent 24.02.2-2"
+version = "24.02.2-2"
 description = "A BitTorrent application for KDE."
-date = "2024-04-12T10:48:23"
+date = "2024-04-13T18:31:47"
 aliases = "/packages/219530"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2609244"
+size = "2608844"
 usize = "12080163"
-sha1sum = "f9f44f7bc73cd130d1bafdbbe12c3b79ae6c122b"
-depends = "['kstatusnotifieritem>=6.0.0', 'libktorrent>=24.02.2', 'plasma-workspace>=6.0.3', 'syndication']"
+sha1sum = "a17f6434bce4bbb0122f4b327b22dbb342d0ec28"
+depends = "['kstatusnotifieritem>=6.1.0', 'libktorrent>=24.02.2', 'plasma-workspace>=6.0.3', 'syndication']"
 +++
 ### Description: 
 A BitTorrent application for KDE.

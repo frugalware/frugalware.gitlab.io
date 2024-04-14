@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "72040876"
 usize = "100104938"
 sha1sum = "e81287cfd03b81887f058e9c4275bfca23a43d4a"
-depends = "['knotifyconfig>=6.0.0', 'libkdegames>=24.02.2', 'qt6-multimedia>=6.7.0']"
+depends = "['knotifyconfig>=6.1.0', 'libkdegames>=24.02.2', 'qt6-multimedia>=6.7.0']"
 +++
 ### Description: 
 A simple constructor game suitable for children and adults alike.

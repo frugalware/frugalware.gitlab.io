@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kfind 24.02.2-1"
-version = "24.02.2-1"
+title = "kfind 24.02.2-2"
+version = "24.02.2-2"
 description = "A standalone search too."
-date = "2024-04-11T18:53:29"
+date = "2024-04-13T14:28:39"
 aliases = "/packages/218932"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "400224"
+size = "400296"
 usize = "1485932"
-sha1sum = "e808ae88aa99f1e55dd41d1596dcd26c94df4ecf"
-depends = "['kfilemetadata>==6.0.0']"
+sha1sum = "0cfc1555ced10288ddbbea0ed800437a270e2229"
+depends = "['kfilemetadata>==6.1.0']"
 +++
 ### Description: 
 A standalone search too.

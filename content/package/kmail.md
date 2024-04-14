@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmail 24.02.2-1"
-version = "24.02.2-1"
+title = "kmail 24.02.2-2"
+version = "24.02.2-2"
 description = "Email client, supporting POP3 and IMAP mailboxes"
-date = "2024-04-12T09:15:27"
+date = "2024-04-13T16:58:21"
 aliases = "/packages/218934"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7196604"
+size = "7195128"
 usize = "24007231"
-sha1sum = "65876cb4e07ac67bbdda2e06bd710f9f00f7d68d"
-depends = "['akonadi-import-wizard>=24.02.2', 'kcalutils>=24.02.2', 'kdepim-runtime>=24.02.2', 'kmail-account-wizard>=24.02.2', 'knotifyconfig>=6.0.0', 'kontactinterface>=24.02.2', 'kstatusnotifieritem>=6.0.0', 'ktnef>=24.02.2', 'libksieve>=24.02.2', 'mailcommon>=24.02.2', 'mbox-importer>=']"
+sha1sum = "e2fdfb697eb47f902637f559e13259e40242575b"
+depends = "['akonadi-import-wizard>=24.02.2', 'kcalutils>=24.02.2', 'kdepim-runtime>=24.02.2', 'kmail-account-wizard>=24.02.2', 'knotifyconfig>=6.1.0', 'kontactinterface>=24.02.2', 'kstatusnotifieritem>=6.1.0', 'ktnef>=24.02.2', 'libksieve>=24.02.2', 'mailcommon>=24.02.2', 'mbox-importer>=']"
 +++
 ### Description: 
 Email client, supporting POP3 and IMAP mailboxes

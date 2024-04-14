@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ksanecore5 24.02.2-1"
-version = "24.02.2-1"
+title = "ksanecore5 24.02.2-2"
+version = "24.02.2-2"
 description = "Library providing logic to interface scanners KF5"
-date = "2024-04-11T19:22:40"
+date = "2024-04-13T14:50:18"
 aliases = "/packages/221395"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "55832"
+size = "55916"
 usize = "199522"
-sha1sum = "1f317fc2cca58ea740f6793c857effac931931f7"
+sha1sum = "0d94ffd7a445214529d3bed12c809f68db760125"
 depends = "['ki18n5>=$_F_kf5_full', 'sane-backends']"
 reverse_depends = "['libksane5']"
 +++

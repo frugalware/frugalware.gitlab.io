@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kleopatra 24.02.2-1"
-version = "24.02.2-1"
+title = "kleopatra 24.02.2-2"
+version = "24.02.2-2"
 description = "Certificate manager and GUI for OpenPGP and CMS cryptography."
-date = "2024-04-11T19:18:22"
+date = "2024-04-13T14:47:00"
 aliases = "/packages/219334"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3321620"
+size = "3323212"
 usize = "16039720"
-sha1sum = "ffac7a9dacda47de16f8887ee5b6cecf3ae9dd01"
-depends = "['kcmutils>=6.0.0', 'kitemmodels>=6.0.0', 'kmime>=6.0.0', 'kstatusnotifieritem>=6.0.0', 'libkleo>=24.02.2', 'mimetreeparser>=24.02.2']"
+sha1sum = "cf97a4720ef26fae2c86f1af00e258553fdf412a"
+depends = "['kcmutils>=6.1.0', 'kitemmodels>=6.1.0', 'kmime>=6.1.0', 'kstatusnotifieritem>=6.1.0', 'libkleo>=24.02.2', 'mimetreeparser>=24.02.2']"
 +++
 ### Description: 
 Certificate manager and GUI for OpenPGP and CMS cryptography.

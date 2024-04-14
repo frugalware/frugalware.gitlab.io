@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ksshaskpass 6.0.3-4"
-version = "6.0.3-4"
+title = "ksshaskpass 6.0.3-5"
+version = "6.0.3-5"
 description = "Kf5 implementation of ssh-askpass with Kwallet integration"
-date = "2024-04-10T13:24:39"
+date = "2024-04-13T12:37:18"
 aliases = "/packages/221349"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "26048"
+size = "26144"
 usize = "115335"
-sha1sum = "6e79e7b4296c3c1fa053dec4c08ece768e3cc88e"
-depends = "['kwallet>=6.0.0']"
+sha1sum = "7ff7c80718d207e47f5f1663193dad8e10026cae"
+depends = "['kwallet>=6.1.0']"
 +++
 ### Description: 
 Kf5 implementation of ssh-askpass with Kwallet integration

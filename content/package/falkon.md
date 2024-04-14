@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "falkon 24.02.2-1"
-version = "24.02.2-1"
+title = "falkon 24.02.2-2"
+version = "24.02.2-2"
 description = "Web browser written in Qt."
-date = "2024-04-12T09:32:47"
+date = "2024-04-13T17:10:27"
 aliases = "/packages/219685"
 categories = ['kde6']
 upstreamurl = "https://www.falkon.org"
 arch = "x86_64"
-size = "2219504"
+size = "2222884"
 usize = "11405492"
-sha1sum = "c223955fb332d92beed2fde6fabe844dbfbb18dd"
+sha1sum = "caca0e20fb8027bf2ba60588cbcb035e0909b8a2"
 depends = "['openssl>=3.1.0', 'qt6-base>=5.15.0>=', 'qt6-webchannel>=', 'qt6-webengine>=']"
 reverse_depends = "['falkon-kde', 'falkon-python-plugins']"
 +++

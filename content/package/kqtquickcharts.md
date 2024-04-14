@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kqtquickcharts 24.02.2-1"
-version = "24.02.2-1"
+title = "kqtquickcharts 24.02.2-2"
+version = "24.02.2-2"
 description = "A QtQuick plugin to render beautiful and interactive charts."
-date = "2024-04-12T13:39:23"
+date = "2024-04-13T19:50:17"
 aliases = "/packages/200754"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "69024"
+size = "69268"
 usize = "335778"
-sha1sum = "18f25cd05b43ea8198f1d95f56ce6144e0dc2302"
+sha1sum = "39f91875767c4ea3d13c4cc3f4599958ddb9ce44"
 depends = "['qt5-declarative']"
 reverse_depends = "['ktouch']"
 +++

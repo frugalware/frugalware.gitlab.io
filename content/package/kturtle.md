@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "2292688"
 usize = "5937616"
 sha1sum = "45374cd86694b7f492439b0409e91f229078a802"
-depends = "['kio>=6.0.0', 'knewstuff>=6.0.0']"
+depends = "['kio>=6.1.0', 'knewstuff>=6.1.0']"
 +++
 ### Description: 
 Educational Programming Environment.

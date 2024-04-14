@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kio-extras-kf5 24.02.2-1"
-version = "24.02.2-1"
+title = "kio-extras-kf5 24.02.2-2"
+version = "24.02.2-2"
 description = "Additional components to increase the functionality of KIO (KF5)"
-date = "2024-04-12T12:58:08"
+date = "2024-04-13T17:40:49"
 aliases = "/packages/221415"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1141764"
+size = "1141116"
 usize = "4672181"
-sha1sum = "fe0b1e2f7ce15853687bc08516137c5eee40ebac"
+sha1sum = "80af2858347738f0e4df9ef3ab829fdf066450b6"
 depends = "['exiv2>=0.25-7', 'kactivities-stats5>=5.115.0', 'kcmutils5>=5.115.0', 'kdnssd5>=5.115.0', 'kdsoap5', 'kpty5>=5.115.0', 'libappimage', 'libkexiv25', 'libmtp>=1.1.12-2', 'libplist>=2.3.0', 'libssh>=0.7.3-2', 'libtirpc', 'openexr>=3.2.0', 'openslp>=2.0.0-3', 'qcoro', 'qt5-webengine>=5.15.12', 'samba-client>=4.5.0', 'syntax-highlighting5>=5.115.0', 'taglib>=2.0']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "knotes 24.02.2-1"
-version = "24.02.2-1"
+title = "knotes 24.02.2-2"
+version = "24.02.2-2"
 description = "KDE Popup Notes."
-date = "2024-04-12T09:01:46"
+date = "2024-04-13T16:47:58"
 aliases = "/packages/218936"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "660332"
+size = "659968"
 usize = "2894687"
-sha1sum = "e3e6dad0251ebdb6cc4570b6c8d5d5072c9af8d2"
-depends = "['akonadi-notes>=24.02.2', 'grantleetheme>=24.02.2', 'kcalutils>=24.02.2', 'kdnssd>=6.0.0', 'knotifyconfig>=6.0.0', 'kontactinterface>=24.02.2', 'kstatusnotifieritem>=6.0.0', 'pimcommon>=24.02.2']"
+sha1sum = "9cc6a1de4e66f37d3d8109aaa7ad8a9e5df4f4b7"
+depends = "['akonadi-notes>=24.02.2', 'grantleetheme>=24.02.2', 'kcalutils>=24.02.2', 'kdnssd>=6.1.0', 'knotifyconfig>=6.1.0', 'kontactinterface>=24.02.2', 'kstatusnotifieritem>=6.1.0', 'pimcommon>=24.02.2']"
 +++
 ### Description: 
 KDE Popup Notes.

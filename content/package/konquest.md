@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "konquest 24.02.2-1"
-version = "24.02.2-1"
+title = "konquest 24.02.2-2"
+version = "24.02.2-2"
 description = "Konquest is the KDE version of Gnu-Lactic"
-date = "2024-04-12T10:10:31"
+date = "2024-04-13T18:03:24"
 aliases = "/packages/219337"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "980632"
+size = "980524"
 usize = "1700536"
-sha1sum = "221ff4b7869ae1d8fed97ea6ca9b321cc24ced89"
+sha1sum = "b2b3a1a8e99403c0747f05fbed7e7a2296175c53"
 depends = "['libkdegames>=24.02.2', 'qt6-scxml>=6.7.0']"
 +++
 ### Description: 

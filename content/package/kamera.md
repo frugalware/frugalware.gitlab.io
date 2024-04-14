@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kamera 24.02.2-1"
-version = "24.02.2-1"
+title = "kamera 24.02.2-2"
+version = "24.02.2-2"
 description = "KDE Webcam Configurator Tool."
-date = "2024-04-11T18:12:00"
+date = "2024-04-13T14:00:45"
 aliases = "/packages/88166"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "157028"
+size = "157184"
 usize = "648293"
-sha1sum = "e8199f53e4c0f112885b609d74cc9c1bb6575a1b"
-depends = "['gphoto2>=2.5.11-2', 'kcmutils>=6.0.0', 'kio>=6.0.0']"
+sha1sum = "2e0103f8671cec8cc1bd5bbb9b38915819279a15"
+depends = "['gphoto2>=2.5.11-2', 'kcmutils>=6.1.0', 'kio>=6.1.0']"
 +++
 ### Description: 
 KDE Webcam Configurator Tool.

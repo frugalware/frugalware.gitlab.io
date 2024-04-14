@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdf 24.02.2-1"
-version = "24.02.2-1"
+title = "kdf 24.02.2-2"
+version = "24.02.2-2"
 description = "KDiskFree displays the available file devices"
-date = "2024-04-11T18:26:48"
+date = "2024-04-13T14:11:20"
 aliases = "/packages/219331"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "625492"
+size = "625244"
 usize = "1377596"
-sha1sum = "528cda59ee4ff5feec49e4df8320300e5420e623"
-depends = "['kcmutils>=6.0.0', 'kio>=6.0.0', 'kstatusnotifieritem>=6.0.0']"
+sha1sum = "e007cbf224535ae486d5cff9857153abf213432d"
+depends = "['kcmutils>=6.1.0', 'kio>=6.1.0', 'kstatusnotifieritem>=6.1.0']"
 +++
 ### Description: 
 KDiskFree displays the available file devices

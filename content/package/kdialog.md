@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdialog 24.02.2-1"
-version = "24.02.2-1"
+title = "kdialog 24.02.2-2"
+version = "24.02.2-2"
 description = "Can be used to show nice dialog boxes from shell scripts."
-date = "2024-04-11T18:28:34"
+date = "2024-04-13T14:12:27"
 aliases = "/packages/88145"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "142364"
+size = "143432"
 usize = "771692"
-sha1sum = "ae355f7eef1abbc27a88fd632d6249868bab12e8"
+sha1sum = "370b99094da7e024d4578f610cd3b83c7414164b"
 depends = "['kio>=']"
 +++
 ### Description: 

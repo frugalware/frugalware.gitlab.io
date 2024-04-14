@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "frameworkintegration 6.0.0-2"
-version = "6.0.0-2"
+title = "frameworkintegration 6.1.0-1"
+version = "6.1.0-1"
 description = "Framework providing components to allow applications to integrate with a KDE Workspace."
-date = "2024-03-30T20:06:53"
+date = "2024-04-13T09:46:21"
 aliases = "/packages/218263"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "63632"
-usize = "247050"
-sha1sum = "8eb77b323c9f80a68dca317a979ad145864e6ac8"
+size = "64144"
+usize = "248798"
+sha1sum = "477328a049e39a5e1e91889b9bf7bf545bf99639"
 depends = "['appstream-qt>=1.0.0', 'kio>=6.1.0', 'knewstuff>=6.1.0', 'kpackage>=6.1.0', 'noto-fonts', 'packagekit-qt6>=1.0.1']"
 reverse_depends = "['oxygen']"
 +++

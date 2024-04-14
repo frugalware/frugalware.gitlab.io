@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcoreaddons 6.0.0-4"
-version = "6.0.0-4"
+title = "kcoreaddons 6.1.0-1"
+version = "6.1.0-1"
 description = "Utilities for core application functionality and accessing the OS."
-date = "2024-04-05T05:30:52"
+date = "2024-04-12T19:57:49"
 aliases = "/packages/218286"
-categories = []
+categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "452072"
-usize = "1967539"
-sha1sum = "ec4ceaa46fe86979ec00013d910e762343973ead"
+size = "452612"
+usize = "1969489"
+sha1sum = "7d97448a3e6b32ee4f51a68cfca5431195081f00"
 depends = "['qt6-base>=6.7.0', 'shared-mime-info']"
 reverse_depends = "['alligator', 'audiotube', 'breeze', 'calamares-frugalware', 'discover', 'disman', 'dolphin', 'isoimagewriter', 'itinerary', 'kalk', 'kauth', 'kcachegrind', 'kclock', 'kconfigwidgets', 'kcontacts', 'kcrash', 'kdav', 'kdebugsettings', 'kdecoration', 'kdeplasma-addons', 'kdeplasma-addons5', 'kdesignerplugin', 'kfilemetadata', 'kglobalacceld', 'kjournald', 'kongress', 'kontrast', 'kpackage', 'kpimtextedit', 'kpipewire', 'kpty', 'krecorder', 'krunner', 'ksmtp', 'ksvg', 'ktrip', 'kwin', 'libkcompactdisc', 'plasma5support', 'plasmatube', 'purpose', 'qmlkonsole', 'svgpart', 'sweeper', 'xwaylandvideobridge']"
 +++
@@ -98,12 +98,12 @@ Utilities for core application functionality and accessing the OS.
 * /usr/lib/cmake/KF6CoreAddons/KF6CoreAddonsTargets.cmake
 * /usr/lib/libKF6CoreAddons.so
 * /usr/lib/libKF6CoreAddons.so.6
-* /usr/lib/libKF6CoreAddons.so.6.0.0
+* /usr/lib/libKF6CoreAddons.so.6.1.0
 * /usr/lib/qt6/qml/org/kde/coreaddons/kcoreaddonsplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/coreaddons/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/coreaddons/libkcoreaddonsplugin.so
 * /usr/lib/qt6/qml/org/kde/coreaddons/qmldir
-* /usr/share/doc/kcoreaddons-6.0.0/README.md
+* /usr/share/doc/kcoreaddons-6.1.0/README.md
 * /usr/share/kf6/jsonschema/kpluginmetadata.schema.json
 * /usr/share/kf6/licenses/ARTISTIC
 * /usr/share/kf6/licenses/BSD

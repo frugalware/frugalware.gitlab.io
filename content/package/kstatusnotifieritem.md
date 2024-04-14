@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kstatusnotifieritem 6.0.0-3"
-version = "6.0.0-3"
+title = "kstatusnotifieritem 6.1.0-1"
+version = "6.1.0-1"
 description = "Status Notifier Items"
-date = "2024-03-30T22:05:42"
+date = "2024-04-13T10:03:53"
 aliases = "/packages/221402"
-categories = []
+categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "105780"
-usize = "366193"
-sha1sum = "62fede3f585c4b8f4d1f61dc4feb7b1f5eac118e"
-depends = "['kwindowsystem>=6.0.0']"
+size = "107340"
+usize = "372265"
+sha1sum = "6e8162ac634610c2ed18e07a657cd1a35d7cc97f"
+depends = "['kwindowsystem>=6.1.0']"
 reverse_depends = "['akregator', 'discover', 'drkonqi', 'juk', 'kalarm', 'kbackup', 'kclock', 'kdeconnect-kde', 'kdf', 'kget', 'kgpg', 'kleopatra', 'kmail', 'kmousetool', 'knotes', 'konversation', 'krfb', 'kruler', 'ktimer', 'ktorrent', 'kvirc', 'kwalletmanager', 'neochat', 'plasma-browser-integration', 'plasma-integration', 'plasma-pa', 'xdg-desktop-portal-kde', 'xwaylandvideobridge', 'yakuake']"
 +++
 ### Description: 
@@ -28,7 +28,7 @@ Status Notifier Items
 * /usr/lib/cmake/KF6StatusNotifierItem/KF6StatusNotifierItemTargets.cmake
 * /usr/lib/libKF6StatusNotifierItem.so
 * /usr/lib/libKF6StatusNotifierItem.so.6
-* /usr/lib/libKF6StatusNotifierItem.so.6.0.0
+* /usr/lib/libKF6StatusNotifierItem.so.6.1.0
 * /usr/share/dbus-1/interfaces/kf6_org.kde.StatusNotifierItem.xml
 * /usr/share/dbus-1/interfaces/kf6_org.kde.StatusNotifierWatcher.xml
 * /usr/share/locale/ar/LC_MESSAGES/kstatusnotifieritem6_qt.qm
@@ -43,6 +43,7 @@ Status Notifier Items
 * /usr/share/locale/fi/LC_MESSAGES/kstatusnotifieritem6_qt.qm
 * /usr/share/locale/fr/LC_MESSAGES/kstatusnotifieritem6_qt.qm
 * /usr/share/locale/gl/LC_MESSAGES/kstatusnotifieritem6_qt.qm
+* /usr/share/locale/he/LC_MESSAGES/kstatusnotifieritem6_qt.qm
 * /usr/share/locale/hu/LC_MESSAGES/kstatusnotifieritem6_qt.qm
 * /usr/share/locale/ia/LC_MESSAGES/kstatusnotifieritem6_qt.qm
 * /usr/share/locale/is/LC_MESSAGES/kstatusnotifieritem6_qt.qm
@@ -51,10 +52,12 @@ Status Notifier Items
 * /usr/share/locale/ka/LC_MESSAGES/kstatusnotifieritem6_qt.qm
 * /usr/share/locale/ko/LC_MESSAGES/kstatusnotifieritem6_qt.qm
 * /usr/share/locale/lt/LC_MESSAGES/kstatusnotifieritem6_qt.qm
+* /usr/share/locale/lv/LC_MESSAGES/kstatusnotifieritem6_qt.qm
 * /usr/share/locale/nl/LC_MESSAGES/kstatusnotifieritem6_qt.qm
 * /usr/share/locale/nn/LC_MESSAGES/kstatusnotifieritem6_qt.qm
 * /usr/share/locale/pl/LC_MESSAGES/kstatusnotifieritem6_qt.qm
 * /usr/share/locale/pt_BR/LC_MESSAGES/kstatusnotifieritem6_qt.qm
+* /usr/share/locale/ro/LC_MESSAGES/kstatusnotifieritem6_qt.qm
 * /usr/share/locale/ru/LC_MESSAGES/kstatusnotifieritem6_qt.qm
 * /usr/share/locale/sa/LC_MESSAGES/kstatusnotifieritem6_qt.qm
 * /usr/share/locale/sk/LC_MESSAGES/kstatusnotifieritem6_qt.qm

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kblocks 24.02.2-1"
-version = "24.02.2-1"
+title = "kblocks 24.02.2-2"
+version = "24.02.2-2"
 description = "The classic falling blocks game."
-date = "2024-04-11T20:25:29"
+date = "2024-04-13T15:01:29"
 aliases = "/packages/184176"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2298004"
+size = "2298196"
 usize = "2860377"
-sha1sum = "49cdee969333cb120fb54c877c12ba72e7b7c0a9"
+sha1sum = "90e821369ab0b187bf9eb4b0b6804fb04e2e3de8"
 depends = "['libkdegames>=24.02.2', 'qt6-svg>=6.7.0']"
 +++
 ### Description: 

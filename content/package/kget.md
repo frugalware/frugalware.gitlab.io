@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kget 24.02.2-1"
-version = "24.02.2-1"
+title = "kget 24.02.2-2"
+version = "24.02.2-2"
 description = "A free download manager for KDE."
-date = "2024-04-12T09:54:37"
+date = "2024-04-13T17:48:57"
 aliases = "/packages/219524"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5938704"
+size = "5940896"
 usize = "12055363"
-sha1sum = "17566160e91a7cf4b518eccfb899b3198668b66b"
-depends = "['kcmutils>=6.0.0', 'knotifyconfig>=6.0.0', 'kstatusnotifieritem>=6.0.0', 'libktorrent', 'libmms', 'libqgpgme', 'plasma-workspace>=6.0.3']"
+sha1sum = "656979767dee03bb108b1f5037eed5e28ee5d7b5"
+depends = "['kcmutils>=6.1.0', 'knotifyconfig>=6.1.0', 'kstatusnotifieritem>=6.1.0', 'libktorrent', 'libmms', 'libqgpgme', 'plasma-workspace>=6.0.3']"
 +++
 ### Description: 
 A free download manager for KDE.

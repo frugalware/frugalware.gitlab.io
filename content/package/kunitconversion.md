@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "836520"
 usize = "11245440"
 sha1sum = "fdd280ad895a2aa8c1ca827402dc0879d81e21c8"
-depends = "['ki18n>=6.0.0', 'qt6-base>=6.7.0']"
+depends = "['ki18n>=6.1.0', 'qt6-base>=6.7.0']"
 reverse_depends = "['itinerary', 'kalk', 'kdelibs4support', 'kdeplasma-addons', 'kdeplasma-addons5', 'plasma-workspace']"
 +++
 ### Description: 
@@ -34,8 +34,8 @@ Converting physical units.
 * /usr/lib/cmake/KF6UnitConversion/KF6UnitConversionTargets.cmake
 * /usr/lib/libKF6UnitConversion.so
 * /usr/lib/libKF6UnitConversion.so.6
-* /usr/lib/libKF6UnitConversion.so.6.0.0
-* /usr/share/doc/kunitconversion-6.0.0/README.md
+* /usr/lib/libKF6UnitConversion.so.6.1.0
+* /usr/share/doc/kunitconversion-6.1.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kunitconversion6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kunitconversion6.mo
 * /usr/share/locale/az/LC_MESSAGES/kunitconversion6.mo

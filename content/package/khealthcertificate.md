@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "khealthcertificate 24.02.2-1"
-version = "24.02.2-1"
+title = "khealthcertificate 24.02.2-2"
+version = "24.02.2-2"
 description = "Handling of digital vaccination, test and recovery certificates"
-date = "2024-04-12T12:07:52"
+date = "2024-04-13T19:31:35"
 aliases = "/packages/221412"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "534440"
+size = "534420"
 usize = "1587130"
-sha1sum = "e7c010de2220f5b66ffdf1ea1038899483533f1c"
+sha1sum = "25ed256d97aec7f49b4d2ca1a5f499a75af1f61b"
 depends = "['karchive>=', 'kcodecs>=', 'ki18n>=']"
 +++
 ### Description: 

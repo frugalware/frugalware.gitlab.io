@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdebugsettings 24.02.2-1"
-version = "24.02.2-1"
+title = "kdebugsettings 24.02.2-2"
+version = "24.02.2-2"
 description = "An application to enable/disable qCDebug"
-date = "2024-04-11T18:21:40"
+date = "2024-04-13T14:07:56"
 aliases = "/packages/218293"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "150460"
+size = "150108"
 usize = "747473"
-sha1sum = "9a0511786e0b8c2f102e2edadd2e8dab54fa442a"
-depends = "['kcompletion>=6.0.0', 'kcoreaddons>=6.0.0', 'kdbusaddons>=6.0.0', 'ki18n>=6.0.0', 'kitemviews>=6.0.0']"
+sha1sum = "321e39399160780c5beb11aa57f4115616ecf006"
+depends = "['kcompletion>=6.1.0', 'kcoreaddons>=6.1.0', 'kdbusaddons>=6.1.0', 'ki18n>=6.1.0', 'kitemviews>=6.1.0']"
 +++
 ### Description: 
 An application to enable/disable qCDebug
