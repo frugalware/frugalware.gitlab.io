@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "591676"
 usize = "3191486"
 sha1sum = "fe337853df5833945cd188d5790bc15d4b7b9456"
-depends = "['kcmutils>=6.0.0', 'kidletime>=6.0.0', 'kio>=6.0.0', 'kirigami>=6.0.0', 'kitemmodels>=6.0.0', 'kstatusnotifieritem>=6.0.0', 'python3-psutil', 'python3-pygdbmi', 'python3-sentry-sdk', 'syntax-highlighting>=6.0.0']"
+depends = "['kcmutils>=6.1.0', 'kidletime>=6.1.0', 'kio>=6.1.0', 'kirigami>=6.1.0', 'kitemmodels>=6.1.0', 'kstatusnotifieritem>=6.1.0', 'python3-psutil', 'python3-pygdbmi', 'python3-sentry-sdk', 'syntax-highlighting>=6.1.0']"
 +++
 ### Description: 
 The KDE Crash Handler.

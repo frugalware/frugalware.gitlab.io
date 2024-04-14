@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bluez-qt 6.0.0-4"
-version = "6.0.0-4"
+title = "bluez-qt 6.1.0-1"
+version = "6.1.0-1"
 description = "A Qt wrapper for bluez"
-date = "2024-04-04T22:09:53"
+date = "2024-04-12T19:31:42"
 aliases = "/packages/218255"
-categories = []
+categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "285944"
-usize = "1295376"
-sha1sum = "2ed3c048f86bfe32e6865bf84b3eacdf21646f26"
+size = "290876"
+usize = "1316542"
+sha1sum = "dda634a3c597b63859dcb36501c0bbf67ea26032"
 depends = "['qt6-declarative>=6.7.0']"
 reverse_depends = "['bluedevil', 'bluedevil5', 'powerdevil']"
 +++
@@ -104,13 +104,13 @@ A Qt wrapper for bluez
 * /usr/lib/cmake/KF6BluezQt/KF6BluezQtTargets.cmake
 * /usr/lib/libKF6BluezQt.so
 * /usr/lib/libKF6BluezQt.so.6
-* /usr/lib/libKF6BluezQt.so.6.0.0
+* /usr/lib/libKF6BluezQt.so.6.1.0
 * /usr/lib/pkgconfig/KF6BluezQt.pc
 * /usr/lib/qt6/qml/org/kde/bluezqt/bluezqtextensionplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/bluezqt/DevicesModel.qml
 * /usr/lib/qt6/qml/org/kde/bluezqt/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/bluezqt/libbluezqtextensionplugin.so
 * /usr/lib/qt6/qml/org/kde/bluezqt/qmldir
-* /usr/share/doc/bluez-qt-6.0.0/README.md
+* /usr/share/doc/bluez-qt-6.1.0/README.md
 * /usr/share/qlogging-categories6/bluezqt.categories
 * /usr/share/qlogging-categories6/bluezqt.renamecategories

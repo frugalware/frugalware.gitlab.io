@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ark 24.02.2-1"
-version = "24.02.2-1"
+title = "ark 24.02.2-2"
+version = "24.02.2-2"
 description = "KDE Archiving Tool."
-date = "2024-04-11T23:12:06"
+date = "2024-04-13T15:47:33"
 aliases = "/packages/153200"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1395420"
+size = "1394288"
 usize = "5065235"
-sha1sum = "ad5e9adaa3f120c0628ef4e06b8ca1e53d57bd0e"
-depends = "['kfilemetadata>=6.0.0', 'kitemmodels>=6.0.0', 'kparts>=6.0.0', 'kpty>=6.0.0', 'libarchive>=3.1.2-8', 'libzip']"
+sha1sum = "a8f46714897d1a65ff9b904b03544232bc4d91ce"
+depends = "['kfilemetadata>=6.1.0', 'kitemmodels>=6.1.0', 'kparts>=6.1.0', 'kpty>=6.1.0', 'libarchive>=3.1.2-8', 'libzip']"
 +++
 ### Description: 
 KDE Archiving Tool.

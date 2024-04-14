@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "421772"
 usize = "2727268"
 sha1sum = "5d6a5e4d76ad7ec08fa4c346b3b441d077340bde"
-depends = "['dolphin>=24.02.2', 'ktexteditor>=6.0.0']"
+depends = "['dolphin>=24.02.2', 'ktexteditor>=6.1.0']"
 +++
 ### Description: 
 Extra Dolphin plugins.

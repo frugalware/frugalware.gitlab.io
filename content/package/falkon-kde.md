@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "36124"
 usize = "112840"
 sha1sum = "b9dc85884b26436ae00f83f691b5027415218b76"
-depends = "['falkon', 'kio>=6.0.0', 'kwallet>=6.0.0', 'purpose>=6.0.0']"
+depends = "['falkon', 'kio>=6.1.0', 'kwallet>=6.1.0', 'purpose>=6.1.0']"
 +++
 ### Description: 
 Plugin for Falkon integration with KWallet.

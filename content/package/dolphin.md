@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4596940"
 usize = "14109220"
 sha1sum = "9a6e073648d657df2bec94b422bbb02056e0e3c6"
-depends = "['baloo-widgets>=24.02.2', 'ffmpegthumbs', 'kbookmarks>=6.0.0', 'kcmutils>=6.0.0', 'kcompletion>=6.0.0', 'kconfig>=6.0.0', 'kcoreaddons>=6.0.0', 'kcrash>=6.0.0', 'kdbusaddons>=6.0.0', 'kdegraphics-thumbnailers', 'kdesdk-thumbnailers', 'kfilemetadata>=6.0.0', 'ki18n>=6.0.0', 'kiconthemes>=6.0.0', 'kio>=6.0.0', 'knewstuff>=6.0.0', 'knotifications>=6.0.0', 'kparts>=6.0.0', 'ktextwidgets>=6.0.0', 'kwindowsystem>=6.0.0', 'plasma-activities>=6.0.3', 'qt6-declarative>=6.7.0', 'solid>=6.0.0']"
+depends = "['baloo-widgets>=24.02.2', 'ffmpegthumbs', 'kbookmarks>=6.1.0', 'kcmutils>=6.1.0', 'kcompletion>=6.1.0', 'kconfig>=6.1.0', 'kcoreaddons>=6.1.0', 'kcrash>=6.1.0', 'kdbusaddons>=6.1.0', 'kdegraphics-thumbnailers', 'kdesdk-thumbnailers', 'kfilemetadata>=6.1.0', 'ki18n>=6.1.0', 'kiconthemes>=6.1.0', 'kio>=6.1.0', 'knewstuff>=6.1.0', 'knotifications>=6.1.0', 'kparts>=6.1.0', 'ktextwidgets>=6.1.0', 'kwindowsystem>=6.1.0', 'plasma-activities>=6.0.3', 'qt6-declarative>=6.7.0', 'solid>=6.1.0']"
 reverse_depends = "['dolphin-plugins', 'kio-gdrive']"
 +++
 ### Description: 

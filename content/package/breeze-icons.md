@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "breeze-icons 6.0.0-5"
-version = "6.0.0-5"
+title = "breeze-icons 6.1.0-1"
+version = "6.1.0-1"
 description = "Icons for the Breeze visual style for the Plasma Desktop."
-date = "2024-04-04T22:07:50"
+date = "2024-04-12T19:28:23"
 aliases = "/packages/218259"
-categories = []
+categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4740196"
-usize = "35258251"
-sha1sum = "b0812a89e28c6cdacce457fc31ae41c51a68c1ff"
+size = "4738688"
+usize = "34957587"
+sha1sum = "87c15645288524dce7eebad39be2fe0adfbb5176"
 depends = "[]"
 +++
 ### Description: 
@@ -19,9 +19,9 @@ Icons for the Breeze visual style for the Plasma Desktop.
 ### Files: 
 * /usr/lib/cmake/KF6BreezeIcons/KF6BreezeIconsConfig.cmake
 * /usr/lib/cmake/KF6BreezeIcons/KF6BreezeIconsConfigVersion.cmake
-* /usr/share/doc/breeze-icons-6.0.0/COPYING-ICONS
-* /usr/share/doc/breeze-icons-6.0.0/COPYING.LIB
-* /usr/share/doc/breeze-icons-6.0.0/README.md
+* /usr/share/doc/breeze-icons-6.1.0/COPYING-ICONS
+* /usr/share/doc/breeze-icons-6.1.0/COPYING.LIB
+* /usr/share/doc/breeze-icons-6.1.0/README.md
 * /usr/share/icons/breeze-dark/actions/12/mobile-close-app.svg
 * /usr/share/icons/breeze-dark/actions/12/mobile-task-switcher.svg
 * /usr/share/icons/breeze-dark/actions/12/object-fill.svg
@@ -1659,20 +1659,12 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/16/kdenlive-rolling.svg
 * /usr/share/icons/breeze-dark/actions/16/kdenlive-select-rects-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/16/kdenlive-select-rects.svg
-* /usr/share/icons/breeze-dark/actions/16/kdenlive-select-tool-symbolic.svg
-* /usr/share/icons/breeze-dark/actions/16/kdenlive-select-tool.svg
-* /usr/share/icons/breeze-dark/actions/16/kdenlive-show-audiothumb-symbolic.svg
-* /usr/share/icons/breeze-dark/actions/16/kdenlive-show-audiothumb.svg
 * /usr/share/icons/breeze-dark/actions/16/kdenlive-show-video-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/16/kdenlive-show-video.svg
-* /usr/share/icons/breeze-dark/actions/16/kdenlive-show-videothumb-symbolic.svg
-* /usr/share/icons/breeze-dark/actions/16/kdenlive-show-videothumb.svg
 * /usr/share/icons/breeze-dark/actions/16/kdenlive-slide-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/16/kdenlive-slide.svg
 * /usr/share/icons/breeze-dark/actions/16/kdenlive-slip-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/16/kdenlive-slip.svg
-* /usr/share/icons/breeze-dark/actions/16/kdenlive-spacer-tool-symbolic.svg
-* /usr/share/icons/breeze-dark/actions/16/kdenlive-spacer-tool.svg
 * /usr/share/icons/breeze-dark/actions/16/kdocumentinfo-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/16/kdocumentinfo.svg
 * /usr/share/icons/breeze-dark/actions/16/key-enter-symbolic.svg
@@ -3138,6 +3130,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/16/verb.svg
 * /usr/share/icons/breeze-dark/actions/16/verbatim-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/16/verbatim.svg
+* /usr/share/icons/breeze-dark/actions/16/video-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/16/video.svg
 * /usr/share/icons/breeze-dark/actions/16/videoclip-amarok-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/16/videoclip-amarok.svg
 * /usr/share/icons/breeze-dark/actions/16/view-app-grid-symbolic.svg
@@ -3307,7 +3301,6 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/16/view-list-details.svg
 * /usr/share/icons/breeze-dark/actions/16/view-list-icons-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/16/view-list-icons.svg
-* /usr/share/icons/breeze-dark/actions/16/view-list-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/16/view-list-text-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/16/view-list-text.svg
 * /usr/share/icons/breeze-dark/actions/16/view-list-tree-symbolic.svg
@@ -3472,6 +3465,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/16/virtual-desktops.svg
 * /usr/share/icons/breeze-dark/actions/16/visibility-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/16/visibility.svg
+* /usr/share/icons/breeze-dark/actions/16/waveform-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/16/waveform.svg
 * /usr/share/icons/breeze-dark/actions/16/widget-alternatives-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/16/widget-alternatives.svg
 * /usr/share/icons/breeze-dark/actions/16/window-close-symbolic.svg
@@ -3590,6 +3585,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/16/zoom-out-y-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/16/zoom-out-y.svg
 * /usr/share/icons/breeze-dark/actions/16/zoom-out.svg
+* /usr/share/icons/breeze-dark/actions/16/zoom-pixels-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/16/zoom-pixels.svg
 * /usr/share/icons/breeze-dark/actions/16/zoom-previous-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/16/zoom-previous.svg
 * /usr/share/icons/breeze-dark/actions/16/zoom-select-fit-symbolic.svg
@@ -3676,6 +3673,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/22/align-horizontal-right.svg
 * /usr/share/icons/breeze-dark/actions/22/align-horizontal-top-out-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/align-horizontal-top-out.svg
+* /usr/share/icons/breeze-dark/actions/22/align-none-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/22/align-none.svg
 * /usr/share/icons/breeze-dark/actions/22/align-vertical-baseline-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/align-vertical-baseline.svg
 * /usr/share/icons/breeze-dark/actions/22/align-vertical-bottom-out-symbolic.svg
@@ -3770,6 +3769,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/22/association.svg
 * /usr/share/icons/breeze-dark/actions/22/atmosphere-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/atmosphere.svg
+* /usr/share/icons/breeze-dark/actions/22/audio-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/22/audio.svg
 * /usr/share/icons/breeze-dark/actions/22/auto-scale-all-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/auto-scale-all.svg
 * /usr/share/icons/breeze-dark/actions/22/auto-scale-x-symbolic.svg
@@ -4382,7 +4383,6 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/22/edit-group.svg
 * /usr/share/icons/breeze-dark/actions/22/edit-guides-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/edit-guides.svg
-* /usr/share/icons/breeze-dark/actions/22/edit-hover.svg
 * /usr/share/icons/breeze-dark/actions/22/edit-image-face-add-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/edit-image-face-add.svg
 * /usr/share/icons/breeze-dark/actions/22/edit-image-face-detect-symbolic.svg
@@ -5305,28 +5305,14 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-add-slide-clip.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-add-text-clip-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-add-text-clip.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-align-none-symbolic.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-align-none.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-custom-effect-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-custom-effect.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-hide-audio-symbolic.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-hide-audio.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-hide-video-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-hide-video.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-insert-edit-symbolic.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-insert-edit.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-insert-rect-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-insert-rect.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-insert-unicode-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-insert-unicode.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-normal-edit-symbolic.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-normal-edit.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-object-height-symbolic.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-object-height.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-object-width-symbolic.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-object-width.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-overwrite-edit-symbolic.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-overwrite-edit.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-ripple-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-ripple.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-rolling-symbolic.svg
@@ -5337,24 +5323,14 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-select-rects.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-select-texts-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-select-texts.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-select-tool-symbolic.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-select-tool.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-show-audio-symbolic.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-show-audio.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-show-audiothumb-symbolic.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-show-audiothumb.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-show-markers-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-show-markers.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-show-video-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-show-video.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-show-videothumb-symbolic.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-show-videothumb.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-slide-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-slide.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-slip-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-slip.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-spacer-tool-symbolic.svg
-* /usr/share/icons/breeze-dark/actions/22/kdenlive-spacer-tool.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-split-audio-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-split-audio.svg
 * /usr/share/icons/breeze-dark/actions/22/kdenlive-track_has_effect-symbolic.svg
@@ -6003,6 +5979,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/22/object-group-calligra.svg
 * /usr/share/icons/breeze-dark/actions/22/object-group-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/object-group.svg
+* /usr/share/icons/breeze-dark/actions/22/object-height-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/22/object-height.svg
 * /usr/share/icons/breeze-dark/actions/22/object-locked-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/object-locked.svg
 * /usr/share/icons/breeze-dark/actions/22/object-order-back-calligra-symbolic.svg
@@ -6036,6 +6014,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/22/object-ungroup.svg
 * /usr/share/icons/breeze-dark/actions/22/object-unlocked-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/object-unlocked.svg
+* /usr/share/icons/breeze-dark/actions/22/object-width-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/22/object-width.svg
 * /usr/share/icons/breeze-dark/actions/22/object.svg
 * /usr/share/icons/breeze-dark/actions/22/object_node-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/object_node.svg
@@ -6732,6 +6712,12 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/22/timeline-insert.svg
 * /usr/share/icons/breeze-dark/actions/22/timeline-lift-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/timeline-lift.svg
+* /usr/share/icons/breeze-dark/actions/22/timeline-mode-insert-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/22/timeline-mode-insert.svg
+* /usr/share/icons/breeze-dark/actions/22/timeline-mode-normal-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/22/timeline-mode-normal.svg
+* /usr/share/icons/breeze-dark/actions/22/timeline-mode-overwrite-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/22/timeline-mode-overwrite.svg
 * /usr/share/icons/breeze-dark/actions/22/timeline-overwrite-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/timeline-overwrite.svg
 * /usr/share/icons/breeze-dark/actions/22/timeline-use-zone-off-symbolic.svg
@@ -6968,6 +6954,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/22/verb.svg
 * /usr/share/icons/breeze-dark/actions/22/verbatim-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/verbatim.svg
+* /usr/share/icons/breeze-dark/actions/22/video-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/22/video.svg
 * /usr/share/icons/breeze-dark/actions/22/videoclip-amarok-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/videoclip-amarok.svg
 * /usr/share/icons/breeze-dark/actions/22/view-bank-add-symbolic.svg
@@ -7332,6 +7320,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/22/warnnext.svg
 * /usr/share/icons/breeze-dark/actions/22/warnprev-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/warnprev.svg
+* /usr/share/icons/breeze-dark/actions/22/waveform-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/22/waveform.svg
 * /usr/share/icons/breeze-dark/actions/22/whitebalance-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/whitebalance.svg
 * /usr/share/icons/breeze-dark/actions/22/widget-alternatives-symbolic.svg
@@ -7386,6 +7376,10 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/22/x-shape-image.svg
 * /usr/share/icons/breeze-dark/actions/22/x-shape-text-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/x-shape-text.svg
+* /usr/share/icons/breeze-dark/actions/22/x-zoom-in-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/22/x-zoom-in.svg
+* /usr/share/icons/breeze-dark/actions/22/x-zoom-out-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/22/x-zoom-out.svg
 * /usr/share/icons/breeze-dark/actions/22/xfsm-hibernate-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/xfsm-hibernate.svg
 * /usr/share/icons/breeze-dark/actions/22/xml-attribute-delete-symbolic.svg
@@ -7400,6 +7394,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/22/xml-text-new.svg
 * /usr/share/icons/breeze-dark/actions/22/y-zoom-in-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/y-zoom-in.svg
+* /usr/share/icons/breeze-dark/actions/22/y-zoom-out-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/22/y-zoom-out.svg
 * /usr/share/icons/breeze-dark/actions/22/zone-in-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/zone-in.svg
 * /usr/share/icons/breeze-dark/actions/22/zone-out-symbolic.svg
@@ -7427,6 +7423,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/22/zoom-in-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/zoom-in-x-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/zoom-in-x.svg
+* /usr/share/icons/breeze-dark/actions/22/zoom-in-y-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/22/zoom-in-y.svg
 * /usr/share/icons/breeze-dark/actions/22/zoom-in.svg
 * /usr/share/icons/breeze-dark/actions/22/zoom-next-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/zoom-next.svg
@@ -7478,6 +7476,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/24/align-horizontal-right-to-anchor.svg
 * /usr/share/icons/breeze-dark/actions/24/align-horizontal-right.svg
 * /usr/share/icons/breeze-dark/actions/24/align-horizontal-top-out.svg
+* /usr/share/icons/breeze-dark/actions/24/align-none.svg
 * /usr/share/icons/breeze-dark/actions/24/align-vertical-baseline.svg
 * /usr/share/icons/breeze-dark/actions/24/align-vertical-bottom-out.svg
 * /usr/share/icons/breeze-dark/actions/24/align-vertical-bottom.svg
@@ -7701,7 +7700,6 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/24/edit-find.svg
 * /usr/share/icons/breeze-dark/actions/24/edit-group.svg
 * /usr/share/icons/breeze-dark/actions/24/edit-guides.svg
-* /usr/share/icons/breeze-dark/actions/24/edit-hover.svg
 * /usr/share/icons/breeze-dark/actions/24/edit-image-face-add.svg
 * /usr/share/icons/breeze-dark/actions/24/edit-image-face-detect.svg
 * /usr/share/icons/breeze-dark/actions/24/edit-image-face-recognize.svg
@@ -7980,22 +7978,14 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/24/junction.svg
 * /usr/share/icons/breeze-dark/actions/24/kdenlive-add-clip.svg
 * /usr/share/icons/breeze-dark/actions/24/kdenlive-add-color-clip.svg
-* /usr/share/icons/breeze-dark/actions/24/kdenlive-align-none.svg
 * /usr/share/icons/breeze-dark/actions/24/kdenlive-custom-effect.svg
-* /usr/share/icons/breeze-dark/actions/24/kdenlive-hide-video.svg
-* /usr/share/icons/breeze-dark/actions/24/kdenlive-insert-edit.svg
 * /usr/share/icons/breeze-dark/actions/24/kdenlive-insert-rect.svg
 * /usr/share/icons/breeze-dark/actions/24/kdenlive-insert-unicode.svg
-* /usr/share/icons/breeze-dark/actions/24/kdenlive-normal-edit.svg
-* /usr/share/icons/breeze-dark/actions/24/kdenlive-object-height.svg
-* /usr/share/icons/breeze-dark/actions/24/kdenlive-object-width.svg
-* /usr/share/icons/breeze-dark/actions/24/kdenlive-overwrite-edit.svg
 * /usr/share/icons/breeze-dark/actions/24/kdenlive-ripple.svg
 * /usr/share/icons/breeze-dark/actions/24/kdenlive-rolling.svg
 * /usr/share/icons/breeze-dark/actions/24/kdenlive-select-images.svg
 * /usr/share/icons/breeze-dark/actions/24/kdenlive-select-texts.svg
 * /usr/share/icons/breeze-dark/actions/24/kdenlive-show-markers.svg
-* /usr/share/icons/breeze-dark/actions/24/kdenlive-show-video.svg
 * /usr/share/icons/breeze-dark/actions/24/kdenlive-slide.svg
 * /usr/share/icons/breeze-dark/actions/24/kdenlive-slip.svg
 * /usr/share/icons/breeze-dark/actions/24/kdenlive-split-audio.svg
@@ -8082,10 +8072,6 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/24/labplot-xy-plot-two-axes-centered.svg
 * /usr/share/icons/breeze-dark/actions/24/labplot-xy-plot-two-axes.svg
 * /usr/share/icons/breeze-dark/actions/24/labplot-xy-smoothing-curve.svg
-* /usr/share/icons/breeze-dark/actions/24/labplot-zoom-in-x.svg
-* /usr/share/icons/breeze-dark/actions/24/labplot-zoom-in-y.svg
-* /usr/share/icons/breeze-dark/actions/24/labplot-zoom-out-x.svg
-* /usr/share/icons/breeze-dark/actions/24/labplot-zoom-out-y.svg
 * /usr/share/icons/breeze-dark/actions/24/layer-visible-off.svg
 * /usr/share/icons/breeze-dark/actions/24/layer-visible-on.svg
 * /usr/share/icons/breeze-dark/actions/24/lensautofix.svg
@@ -8210,6 +8196,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/24/object-flip-horizontal.svg
 * /usr/share/icons/breeze-dark/actions/24/object-flip-vertical.svg
 * /usr/share/icons/breeze-dark/actions/24/object-group.svg
+* /usr/share/icons/breeze-dark/actions/24/object-height.svg
 * /usr/share/icons/breeze-dark/actions/24/object-order-back.svg
 * /usr/share/icons/breeze-dark/actions/24/object-order-front.svg
 * /usr/share/icons/breeze-dark/actions/24/object-order-lower.svg
@@ -8219,6 +8206,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/24/object-rows.svg
 * /usr/share/icons/breeze-dark/actions/24/object-to-path.svg
 * /usr/share/icons/breeze-dark/actions/24/object-ungroup.svg
+* /usr/share/icons/breeze-dark/actions/24/object-width.svg
 * /usr/share/icons/breeze-dark/actions/24/office-chart-area-focus-peak-node.svg
 * /usr/share/icons/breeze-dark/actions/24/office-chart-area-percentage.svg
 * /usr/share/icons/breeze-dark/actions/24/office-chart-area-stacked.svg
@@ -8419,6 +8407,9 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/24/timeline-extract.svg
 * /usr/share/icons/breeze-dark/actions/24/timeline-insert.svg
 * /usr/share/icons/breeze-dark/actions/24/timeline-lift.svg
+* /usr/share/icons/breeze-dark/actions/24/timeline-mode-insert.svg
+* /usr/share/icons/breeze-dark/actions/24/timeline-mode-normal.svg
+* /usr/share/icons/breeze-dark/actions/24/timeline-mode-overwrite.svg
 * /usr/share/icons/breeze-dark/actions/24/timeline-overwrite.svg
 * /usr/share/icons/breeze-dark/actions/24/timeline-use-zone-off.svg
 * /usr/share/icons/breeze-dark/actions/24/timeline-use-zone-on.svg
@@ -8488,6 +8479,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/24/vcs-stash.svg
 * /usr/share/icons/breeze-dark/actions/24/vcs-status-cvs-cervisia.svg
 * /usr/share/icons/breeze-dark/actions/24/vcs-update-cvs-cervisia.svg
+* /usr/share/icons/breeze-dark/actions/24/video.svg
 * /usr/share/icons/breeze-dark/actions/24/view-barcode-add.svg
 * /usr/share/icons/breeze-dark/actions/24/view-barcode-qr.svg
 * /usr/share/icons/breeze-dark/actions/24/view-barcode.svg
@@ -8574,7 +8566,6 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/24/view-media-lyrics.svg
 * /usr/share/icons/breeze-dark/actions/24/view-media-playlist.svg
 * /usr/share/icons/breeze-dark/actions/24/view-media-title.svg
-* /usr/share/icons/breeze-dark/actions/24/view-media-visualization.svg
 * /usr/share/icons/breeze-dark/actions/24/view-multiple-objects.svg
 * /usr/share/icons/breeze-dark/actions/24/view-object-histogram-linear.svg
 * /usr/share/icons/breeze-dark/actions/24/view-object-histogram-logarithmic.svg
@@ -8618,6 +8609,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/24/wallet-open.svg
 * /usr/share/icons/breeze-dark/actions/24/warnnext.svg
 * /usr/share/icons/breeze-dark/actions/24/warnprev.svg
+* /usr/share/icons/breeze-dark/actions/24/waveform.svg
 * /usr/share/icons/breeze-dark/actions/24/whitebalance.svg
 * /usr/share/icons/breeze-dark/actions/24/widget-alternatives.svg
 * /usr/share/icons/breeze-dark/actions/24/window-close.svg
@@ -9183,8 +9175,16 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/32/window-close-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/32/window-close.svg
 * /usr/share/icons/breeze-dark/actions/32/window-list.svg
+* /usr/share/icons/breeze-dark/actions/32/x-zoom-in-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/32/x-zoom-in.svg
+* /usr/share/icons/breeze-dark/actions/32/x-zoom-out-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/32/x-zoom-out.svg
 * /usr/share/icons/breeze-dark/actions/32/xfsm-hibernate-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/32/xfsm-hibernate.svg
+* /usr/share/icons/breeze-dark/actions/32/y-zoom-in-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/32/y-zoom-in.svg
+* /usr/share/icons/breeze-dark/actions/32/y-zoom-out-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/32/y-zoom-out.svg
 * /usr/share/icons/breeze-dark/actions/32/zoom-1-to-2-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/32/zoom-1-to-2.svg
 * /usr/share/icons/breeze-dark/actions/32/zoom-2-to-1-symbolic.svg
@@ -9206,6 +9206,10 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/32/zoom-in-large-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/32/zoom-in-large.svg
 * /usr/share/icons/breeze-dark/actions/32/zoom-in-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/32/zoom-in-x-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/32/zoom-in-x.svg
+* /usr/share/icons/breeze-dark/actions/32/zoom-in-y-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/32/zoom-in-y.svg
 * /usr/share/icons/breeze-dark/actions/32/zoom-in.svg
 * /usr/share/icons/breeze-dark/actions/32/zoom-next-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/32/zoom-next.svg
@@ -9214,7 +9218,12 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/32/zoom-out-large-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/32/zoom-out-large.svg
 * /usr/share/icons/breeze-dark/actions/32/zoom-out-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/32/zoom-out-x-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/32/zoom-out-x.svg
+* /usr/share/icons/breeze-dark/actions/32/zoom-out-y-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/32/zoom-out-y.svg
 * /usr/share/icons/breeze-dark/actions/32/zoom-out.svg
+* /usr/share/icons/breeze-dark/actions/32/zoom-pixels.svg
 * /usr/share/icons/breeze-dark/actions/32/zoom-previous-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/32/zoom-previous.svg
 * /usr/share/icons/breeze-dark/actions/32/zoom-select-fit-symbolic.svg
@@ -9744,6 +9753,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/apps/48/diffuse.svg
 * /usr/share/icons/breeze-dark/apps/48/digikam.svg
 * /usr/share/icons/breeze-dark/apps/48/dragonplayer.svg
+* /usr/share/icons/breeze-dark/apps/48/elisa-symbolic.svg
 * /usr/share/icons/breeze-dark/apps/48/elisa.svg
 * /usr/share/icons/breeze-dark/apps/48/emacs.svg
 * /usr/share/icons/breeze-dark/apps/48/falkon.svg
@@ -10005,6 +10015,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/apps/48/org.kde.kbreakout.svg
 * /usr/share/icons/breeze-dark/apps/48/org.kde.kbruch.svg
 * /usr/share/icons/breeze-dark/apps/48/org.kde.kcachegrind.svg
+* /usr/share/icons/breeze-dark/apps/48/org.kde.kcolorchooser.svg
 * /usr/share/icons/breeze-dark/apps/48/org.kde.kdenlive.svg
 * /usr/share/icons/breeze-dark/apps/48/org.kde.kdevelop.svg
 * /usr/share/icons/breeze-dark/apps/48/org.kde.kdiamond.svg
@@ -10041,6 +10052,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/apps/48/org.kde.ktouch.svg
 * /usr/share/icons/breeze-dark/apps/48/org.kde.ktrip.svg
 * /usr/share/icons/breeze-dark/apps/48/org.kde.kuiviewer.svg
+* /usr/share/icons/breeze-dark/apps/48/org.kde.kwalletmanager5.svg
 * /usr/share/icons/breeze-dark/apps/48/org.kde.kwrite.svg
 * /usr/share/icons/breeze-dark/apps/48/org.kde.kxstitch.svg
 * /usr/share/icons/breeze-dark/apps/48/org.kde.labplot2.svg
@@ -10066,6 +10078,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/apps/48/org.libreoffice.LibreOffice.writer.svg
 * /usr/share/icons/breeze-dark/apps/48/org.qbittorrent.qBittorrent.svg
 * /usr/share/icons/breeze-dark/apps/48/org.qelectrotech.QElectroTech.svg
+* /usr/share/icons/breeze-dark/apps/48/org.suyu_emu.suyu.svg
 * /usr/share/icons/breeze-dark/apps/48/org.telegram.desktop.svg
 * /usr/share/icons/breeze-dark/apps/48/org.texstudio.TeXstudio.svg
 * /usr/share/icons/breeze-dark/apps/48/org.tordini.flavio.Minitube.svg
@@ -10118,6 +10131,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/apps/48/showfoto.svg
 * /usr/share/icons/breeze-dark/apps/48/skanlite.svg
 * /usr/share/icons/breeze-dark/apps/48/skanpage.svg
+* /usr/share/icons/breeze-dark/apps/48/skladnik.svg
 * /usr/share/icons/breeze-dark/apps/48/skrooge-black.svg
 * /usr/share/icons/breeze-dark/apps/48/skrooge-initial.svg
 * /usr/share/icons/breeze-dark/apps/48/skrooge.svg
@@ -14372,6 +14386,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/status/16/user-trash-full-symbolic.svg
 * /usr/share/icons/breeze-dark/status/16/view-wrapped-symbolic-rtl.svg
 * /usr/share/icons/breeze-dark/status/16/view-wrapped-symbolic.svg
+* /usr/share/icons/breeze-dark/status/16/waveform-off-symbolic.svg
+* /usr/share/icons/breeze-dark/status/16/waveform-off.svg
 * /usr/share/icons/breeze-dark/status/22/appointment-recurring-symbolic.svg
 * /usr/share/icons/breeze-dark/status/22/appointment-recurring.svg
 * /usr/share/icons/breeze-dark/status/22/appointment-reminder-symbolic.svg
@@ -14978,18 +14994,18 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/status/22/network-wireless-signal-weak.svg
 * /usr/share/icons/breeze-dark/status/22/nm-device-wired-symbolic.svg
 * /usr/share/icons/breeze-dark/status/22/nm-device-wired.svg
-* /usr/share/icons/breeze-dark/status/22/nm-nm-signal-00-symbolic.svg
-* /usr/share/icons/breeze-dark/status/22/nm-nm-signal-00.svg
-* /usr/share/icons/breeze-dark/status/22/nm-nm-signal-100-symbolic.svg
-* /usr/share/icons/breeze-dark/status/22/nm-nm-signal-100.svg
-* /usr/share/icons/breeze-dark/status/22/nm-nm-signal-25-symbolic.svg
-* /usr/share/icons/breeze-dark/status/22/nm-nm-signal-25.svg
-* /usr/share/icons/breeze-dark/status/22/nm-nm-signal-50-symbolic.svg
-* /usr/share/icons/breeze-dark/status/22/nm-nm-signal-50.svg
-* /usr/share/icons/breeze-dark/status/22/nm-nm-signal-75-symbolic.svg
-* /usr/share/icons/breeze-dark/status/22/nm-nm-signal-75.svg
 * /usr/share/icons/breeze-dark/status/22/nm-no-connection-symbolic.svg
 * /usr/share/icons/breeze-dark/status/22/nm-no-connection.svg
+* /usr/share/icons/breeze-dark/status/22/nm-signal-00-symbolic.svg
+* /usr/share/icons/breeze-dark/status/22/nm-signal-00.svg
+* /usr/share/icons/breeze-dark/status/22/nm-signal-100-symbolic.svg
+* /usr/share/icons/breeze-dark/status/22/nm-signal-100.svg
+* /usr/share/icons/breeze-dark/status/22/nm-signal-25-symbolic.svg
+* /usr/share/icons/breeze-dark/status/22/nm-signal-25.svg
+* /usr/share/icons/breeze-dark/status/22/nm-signal-50-symbolic.svg
+* /usr/share/icons/breeze-dark/status/22/nm-signal-50.svg
+* /usr/share/icons/breeze-dark/status/22/nm-signal-75-symbolic.svg
+* /usr/share/icons/breeze-dark/status/22/nm-signal-75.svg
 * /usr/share/icons/breeze-dark/status/22/plasmavault_error.svg
 * /usr/share/icons/breeze-dark/status/22/redshift-status-day-symbolic.svg
 * /usr/share/icons/breeze-dark/status/22/redshift-status-day.svg
@@ -15011,7 +15027,6 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/status/22/security-low.svg
 * /usr/share/icons/breeze-dark/status/22/security-medium-symbolic.svg
 * /usr/share/icons/breeze-dark/status/22/security-medium.svg
-* /usr/share/icons/breeze-dark/status/22/showinfo-hover.svg
 * /usr/share/icons/breeze-dark/status/22/showinfo.svg
 * /usr/share/icons/breeze-dark/status/22/smartphoneconnected.svg
 * /usr/share/icons/breeze-dark/status/22/smartphonedisconnected.svg
@@ -15032,6 +15047,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/status/22/state-sync.svg
 * /usr/share/icons/breeze-dark/status/22/state-warning-symbolic.svg
 * /usr/share/icons/breeze-dark/status/22/state-warning.svg
+* /usr/share/icons/breeze-dark/status/22/system-suspend-inhibited.svg
+* /usr/share/icons/breeze-dark/status/22/system-suspend-uninhibited.svg
 * /usr/share/icons/breeze-dark/status/22/task-complete-symbolic.svg
 * /usr/share/icons/breeze-dark/status/22/task-complete.svg
 * /usr/share/icons/breeze-dark/status/22/task-process-0-symbolic.svg
@@ -15092,8 +15109,12 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/status/22/user-online.svg
 * /usr/share/icons/breeze-dark/status/22/video-card-inactive-symbolic.svg
 * /usr/share/icons/breeze-dark/status/22/video-card-inactive.svg
+* /usr/share/icons/breeze-dark/status/22/video-off-symbolic.svg
+* /usr/share/icons/breeze-dark/status/22/video-off.svg
 * /usr/share/icons/breeze-dark/status/22/wallet-closed.svg
 * /usr/share/icons/breeze-dark/status/22/wallet-open.svg
+* /usr/share/icons/breeze-dark/status/22/waveform-off-symbolic.svg
+* /usr/share/icons/breeze-dark/status/22/waveform-off.svg
 * /usr/share/icons/breeze-dark/status/24/apport.svg
 * /usr/share/icons/breeze-dark/status/24/audio-on.svg
 * /usr/share/icons/breeze-dark/status/24/audio-ready.svg
@@ -15439,7 +15460,6 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/status/24/security-high.svg
 * /usr/share/icons/breeze-dark/status/24/security-low.svg
 * /usr/share/icons/breeze-dark/status/24/security-medium.svg
-* /usr/share/icons/breeze-dark/status/24/showinfo-hover.svg
 * /usr/share/icons/breeze-dark/status/24/showinfo.svg
 * /usr/share/icons/breeze-dark/status/24/smartphoneconnected.svg
 * /usr/share/icons/breeze-dark/status/24/smartphonedisconnected.svg
@@ -15452,6 +15472,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/status/24/state-pause.svg
 * /usr/share/icons/breeze-dark/status/24/state-sync.svg
 * /usr/share/icons/breeze-dark/status/24/state-warning.svg
+* /usr/share/icons/breeze-dark/status/24/system-suspend-inhibited.svg
+* /usr/share/icons/breeze-dark/status/24/system-suspend-uninhibited.svg
 * /usr/share/icons/breeze-dark/status/24/task-complete.svg
 * /usr/share/icons/breeze-dark/status/24/task-process-0.svg
 * /usr/share/icons/breeze-dark/status/24/task-process-1.svg
@@ -15474,8 +15496,10 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/status/24/update-none.svg
 * /usr/share/icons/breeze-dark/status/24/user-idle.svg
 * /usr/share/icons/breeze-dark/status/24/video-card-inactive.svg
+* /usr/share/icons/breeze-dark/status/24/video-off.svg
 * /usr/share/icons/breeze-dark/status/24/wallet-closed.svg
 * /usr/share/icons/breeze-dark/status/24/wallet-open.svg
+* /usr/share/icons/breeze-dark/status/24/waveform-off.svg
 * /usr/share/icons/breeze-dark/status/24@2x
 * /usr/share/icons/breeze-dark/status/24@3x
 * /usr/share/icons/breeze-dark/status/32/appointment-recurring-symbolic.svg
@@ -17236,20 +17260,12 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/16/kdenlive-rolling.svg
 * /usr/share/icons/breeze/actions/16/kdenlive-select-rects-symbolic.svg
 * /usr/share/icons/breeze/actions/16/kdenlive-select-rects.svg
-* /usr/share/icons/breeze/actions/16/kdenlive-select-tool-symbolic.svg
-* /usr/share/icons/breeze/actions/16/kdenlive-select-tool.svg
-* /usr/share/icons/breeze/actions/16/kdenlive-show-audiothumb-symbolic.svg
-* /usr/share/icons/breeze/actions/16/kdenlive-show-audiothumb.svg
 * /usr/share/icons/breeze/actions/16/kdenlive-show-video-symbolic.svg
 * /usr/share/icons/breeze/actions/16/kdenlive-show-video.svg
-* /usr/share/icons/breeze/actions/16/kdenlive-show-videothumb-symbolic.svg
-* /usr/share/icons/breeze/actions/16/kdenlive-show-videothumb.svg
 * /usr/share/icons/breeze/actions/16/kdenlive-slide-symbolic.svg
 * /usr/share/icons/breeze/actions/16/kdenlive-slide.svg
 * /usr/share/icons/breeze/actions/16/kdenlive-slip-symbolic.svg
 * /usr/share/icons/breeze/actions/16/kdenlive-slip.svg
-* /usr/share/icons/breeze/actions/16/kdenlive-spacer-tool-symbolic.svg
-* /usr/share/icons/breeze/actions/16/kdenlive-spacer-tool.svg
 * /usr/share/icons/breeze/actions/16/kdocumentinfo-symbolic.svg
 * /usr/share/icons/breeze/actions/16/kdocumentinfo.svg
 * /usr/share/icons/breeze/actions/16/key-enter-symbolic.svg
@@ -18715,6 +18731,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/16/verb.svg
 * /usr/share/icons/breeze/actions/16/verbatim-symbolic.svg
 * /usr/share/icons/breeze/actions/16/verbatim.svg
+* /usr/share/icons/breeze/actions/16/video-symbolic.svg
+* /usr/share/icons/breeze/actions/16/video.svg
 * /usr/share/icons/breeze/actions/16/videoclip-amarok-symbolic.svg
 * /usr/share/icons/breeze/actions/16/videoclip-amarok.svg
 * /usr/share/icons/breeze/actions/16/view-app-grid-symbolic.svg
@@ -18884,7 +18902,6 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/16/view-list-details.svg
 * /usr/share/icons/breeze/actions/16/view-list-icons-symbolic.svg
 * /usr/share/icons/breeze/actions/16/view-list-icons.svg
-* /usr/share/icons/breeze/actions/16/view-list-symbolic.svg
 * /usr/share/icons/breeze/actions/16/view-list-text-symbolic.svg
 * /usr/share/icons/breeze/actions/16/view-list-text.svg
 * /usr/share/icons/breeze/actions/16/view-list-tree-symbolic.svg
@@ -19049,6 +19066,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/16/virtual-desktops.svg
 * /usr/share/icons/breeze/actions/16/visibility-symbolic.svg
 * /usr/share/icons/breeze/actions/16/visibility.svg
+* /usr/share/icons/breeze/actions/16/waveform-symbolic.svg
+* /usr/share/icons/breeze/actions/16/waveform.svg
 * /usr/share/icons/breeze/actions/16/widget-alternatives-symbolic.svg
 * /usr/share/icons/breeze/actions/16/widget-alternatives.svg
 * /usr/share/icons/breeze/actions/16/window-close-symbolic.svg
@@ -19167,6 +19186,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/16/zoom-out-y-symbolic.svg
 * /usr/share/icons/breeze/actions/16/zoom-out-y.svg
 * /usr/share/icons/breeze/actions/16/zoom-out.svg
+* /usr/share/icons/breeze/actions/16/zoom-pixels-symbolic.svg
+* /usr/share/icons/breeze/actions/16/zoom-pixels.svg
 * /usr/share/icons/breeze/actions/16/zoom-previous-symbolic.svg
 * /usr/share/icons/breeze/actions/16/zoom-previous.svg
 * /usr/share/icons/breeze/actions/16/zoom-select-fit-symbolic.svg
@@ -19253,6 +19274,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/22/align-horizontal-right.svg
 * /usr/share/icons/breeze/actions/22/align-horizontal-top-out-symbolic.svg
 * /usr/share/icons/breeze/actions/22/align-horizontal-top-out.svg
+* /usr/share/icons/breeze/actions/22/align-none-symbolic.svg
+* /usr/share/icons/breeze/actions/22/align-none.svg
 * /usr/share/icons/breeze/actions/22/align-vertical-baseline-symbolic.svg
 * /usr/share/icons/breeze/actions/22/align-vertical-baseline.svg
 * /usr/share/icons/breeze/actions/22/align-vertical-bottom-out-symbolic.svg
@@ -19347,6 +19370,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/22/association.svg
 * /usr/share/icons/breeze/actions/22/atmosphere-symbolic.svg
 * /usr/share/icons/breeze/actions/22/atmosphere.svg
+* /usr/share/icons/breeze/actions/22/audio-symbolic.svg
+* /usr/share/icons/breeze/actions/22/audio.svg
 * /usr/share/icons/breeze/actions/22/auto-scale-all-symbolic.svg
 * /usr/share/icons/breeze/actions/22/auto-scale-all.svg
 * /usr/share/icons/breeze/actions/22/auto-scale-x-symbolic.svg
@@ -19959,7 +19984,6 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/22/edit-group.svg
 * /usr/share/icons/breeze/actions/22/edit-guides-symbolic.svg
 * /usr/share/icons/breeze/actions/22/edit-guides.svg
-* /usr/share/icons/breeze/actions/22/edit-hover.svg
 * /usr/share/icons/breeze/actions/22/edit-image-face-add-symbolic.svg
 * /usr/share/icons/breeze/actions/22/edit-image-face-add.svg
 * /usr/share/icons/breeze/actions/22/edit-image-face-detect-symbolic.svg
@@ -20882,28 +20906,14 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/22/kdenlive-add-slide-clip.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-add-text-clip-symbolic.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-add-text-clip.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-align-none-symbolic.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-align-none.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-custom-effect-symbolic.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-custom-effect.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-hide-audio-symbolic.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-hide-audio.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-hide-video-symbolic.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-hide-video.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-insert-edit-symbolic.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-insert-edit.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-insert-rect-symbolic.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-insert-rect.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-insert-unicode-symbolic.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-insert-unicode.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-normal-edit-symbolic.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-normal-edit.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-object-height-symbolic.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-object-height.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-object-width-symbolic.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-object-width.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-overwrite-edit-symbolic.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-overwrite-edit.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-ripple-symbolic.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-ripple.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-rolling-symbolic.svg
@@ -20914,24 +20924,14 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/22/kdenlive-select-rects.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-select-texts-symbolic.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-select-texts.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-select-tool-symbolic.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-select-tool.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-show-audio-symbolic.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-show-audio.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-show-audiothumb-symbolic.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-show-audiothumb.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-show-markers-symbolic.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-show-markers.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-show-video-symbolic.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-show-video.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-show-videothumb-symbolic.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-show-videothumb.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-slide-symbolic.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-slide.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-slip-symbolic.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-slip.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-spacer-tool-symbolic.svg
-* /usr/share/icons/breeze/actions/22/kdenlive-spacer-tool.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-split-audio-symbolic.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-split-audio.svg
 * /usr/share/icons/breeze/actions/22/kdenlive-track_has_effect-symbolic.svg
@@ -21580,6 +21580,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/22/object-group-calligra.svg
 * /usr/share/icons/breeze/actions/22/object-group-symbolic.svg
 * /usr/share/icons/breeze/actions/22/object-group.svg
+* /usr/share/icons/breeze/actions/22/object-height-symbolic.svg
+* /usr/share/icons/breeze/actions/22/object-height.svg
 * /usr/share/icons/breeze/actions/22/object-locked-symbolic.svg
 * /usr/share/icons/breeze/actions/22/object-locked.svg
 * /usr/share/icons/breeze/actions/22/object-order-back-calligra-symbolic.svg
@@ -21613,6 +21615,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/22/object-ungroup.svg
 * /usr/share/icons/breeze/actions/22/object-unlocked-symbolic.svg
 * /usr/share/icons/breeze/actions/22/object-unlocked.svg
+* /usr/share/icons/breeze/actions/22/object-width-symbolic.svg
+* /usr/share/icons/breeze/actions/22/object-width.svg
 * /usr/share/icons/breeze/actions/22/object.svg
 * /usr/share/icons/breeze/actions/22/object_node-symbolic.svg
 * /usr/share/icons/breeze/actions/22/object_node.svg
@@ -22309,6 +22313,12 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/22/timeline-insert.svg
 * /usr/share/icons/breeze/actions/22/timeline-lift-symbolic.svg
 * /usr/share/icons/breeze/actions/22/timeline-lift.svg
+* /usr/share/icons/breeze/actions/22/timeline-mode-insert-symbolic.svg
+* /usr/share/icons/breeze/actions/22/timeline-mode-insert.svg
+* /usr/share/icons/breeze/actions/22/timeline-mode-normal-symbolic.svg
+* /usr/share/icons/breeze/actions/22/timeline-mode-normal.svg
+* /usr/share/icons/breeze/actions/22/timeline-mode-overwrite-symbolic.svg
+* /usr/share/icons/breeze/actions/22/timeline-mode-overwrite.svg
 * /usr/share/icons/breeze/actions/22/timeline-overwrite-symbolic.svg
 * /usr/share/icons/breeze/actions/22/timeline-overwrite.svg
 * /usr/share/icons/breeze/actions/22/timeline-use-zone-off-symbolic.svg
@@ -22545,6 +22555,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/22/verb.svg
 * /usr/share/icons/breeze/actions/22/verbatim-symbolic.svg
 * /usr/share/icons/breeze/actions/22/verbatim.svg
+* /usr/share/icons/breeze/actions/22/video-symbolic.svg
+* /usr/share/icons/breeze/actions/22/video.svg
 * /usr/share/icons/breeze/actions/22/videoclip-amarok-symbolic.svg
 * /usr/share/icons/breeze/actions/22/videoclip-amarok.svg
 * /usr/share/icons/breeze/actions/22/view-bank-add-symbolic.svg
@@ -22909,6 +22921,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/22/warnnext.svg
 * /usr/share/icons/breeze/actions/22/warnprev-symbolic.svg
 * /usr/share/icons/breeze/actions/22/warnprev.svg
+* /usr/share/icons/breeze/actions/22/waveform-symbolic.svg
+* /usr/share/icons/breeze/actions/22/waveform.svg
 * /usr/share/icons/breeze/actions/22/whitebalance-symbolic.svg
 * /usr/share/icons/breeze/actions/22/whitebalance.svg
 * /usr/share/icons/breeze/actions/22/widget-alternatives-symbolic.svg
@@ -22963,6 +22977,10 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/22/x-shape-image.svg
 * /usr/share/icons/breeze/actions/22/x-shape-text-symbolic.svg
 * /usr/share/icons/breeze/actions/22/x-shape-text.svg
+* /usr/share/icons/breeze/actions/22/x-zoom-in-symbolic.svg
+* /usr/share/icons/breeze/actions/22/x-zoom-in.svg
+* /usr/share/icons/breeze/actions/22/x-zoom-out-symbolic.svg
+* /usr/share/icons/breeze/actions/22/x-zoom-out.svg
 * /usr/share/icons/breeze/actions/22/xfsm-hibernate-symbolic.svg
 * /usr/share/icons/breeze/actions/22/xfsm-hibernate.svg
 * /usr/share/icons/breeze/actions/22/xml-attribute-delete-symbolic.svg
@@ -22977,6 +22995,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/22/xml-text-new.svg
 * /usr/share/icons/breeze/actions/22/y-zoom-in-symbolic.svg
 * /usr/share/icons/breeze/actions/22/y-zoom-in.svg
+* /usr/share/icons/breeze/actions/22/y-zoom-out-symbolic.svg
+* /usr/share/icons/breeze/actions/22/y-zoom-out.svg
 * /usr/share/icons/breeze/actions/22/zone-in-symbolic.svg
 * /usr/share/icons/breeze/actions/22/zone-in.svg
 * /usr/share/icons/breeze/actions/22/zone-out-symbolic.svg
@@ -23004,6 +23024,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/22/zoom-in-symbolic.svg
 * /usr/share/icons/breeze/actions/22/zoom-in-x-symbolic.svg
 * /usr/share/icons/breeze/actions/22/zoom-in-x.svg
+* /usr/share/icons/breeze/actions/22/zoom-in-y-symbolic.svg
+* /usr/share/icons/breeze/actions/22/zoom-in-y.svg
 * /usr/share/icons/breeze/actions/22/zoom-in.svg
 * /usr/share/icons/breeze/actions/22/zoom-next-symbolic.svg
 * /usr/share/icons/breeze/actions/22/zoom-next.svg
@@ -23105,6 +23127,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/24/align-horizontal-right.svg
 * /usr/share/icons/breeze/actions/24/align-horizontal-top-out-symbolic.svg
 * /usr/share/icons/breeze/actions/24/align-horizontal-top-out.svg
+* /usr/share/icons/breeze/actions/24/align-none-symbolic.svg
+* /usr/share/icons/breeze/actions/24/align-none.svg
 * /usr/share/icons/breeze/actions/24/align-vertical-baseline-symbolic.svg
 * /usr/share/icons/breeze/actions/24/align-vertical-baseline.svg
 * /usr/share/icons/breeze/actions/24/align-vertical-bottom-out-symbolic.svg
@@ -23199,6 +23223,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/24/association.svg
 * /usr/share/icons/breeze/actions/24/atmosphere-symbolic.svg
 * /usr/share/icons/breeze/actions/24/atmosphere.svg
+* /usr/share/icons/breeze/actions/24/audio-symbolic.svg
+* /usr/share/icons/breeze/actions/24/audio.svg
 * /usr/share/icons/breeze/actions/24/auto-scale-all-symbolic.svg
 * /usr/share/icons/breeze/actions/24/auto-scale-all.svg
 * /usr/share/icons/breeze/actions/24/auto-scale-x-symbolic.svg
@@ -23811,7 +23837,6 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/24/edit-group.svg
 * /usr/share/icons/breeze/actions/24/edit-guides-symbolic.svg
 * /usr/share/icons/breeze/actions/24/edit-guides.svg
-* /usr/share/icons/breeze/actions/24/edit-hover.svg
 * /usr/share/icons/breeze/actions/24/edit-image-face-add-symbolic.svg
 * /usr/share/icons/breeze/actions/24/edit-image-face-add.svg
 * /usr/share/icons/breeze/actions/24/edit-image-face-detect-symbolic.svg
@@ -24733,28 +24758,14 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/24/kdenlive-add-slide-clip.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-add-text-clip-symbolic.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-add-text-clip.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-align-none-symbolic.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-align-none.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-custom-effect-symbolic.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-custom-effect.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-hide-audio-symbolic.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-hide-audio.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-hide-video-symbolic.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-hide-video.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-insert-edit-symbolic.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-insert-edit.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-insert-rect-symbolic.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-insert-rect.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-insert-unicode-symbolic.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-insert-unicode.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-normal-edit-symbolic.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-normal-edit.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-object-height-symbolic.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-object-height.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-object-width-symbolic.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-object-width.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-overwrite-edit-symbolic.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-overwrite-edit.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-ripple-symbolic.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-ripple.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-rolling-symbolic.svg
@@ -24765,24 +24776,14 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/24/kdenlive-select-rects.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-select-texts-symbolic.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-select-texts.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-select-tool-symbolic.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-select-tool.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-show-audio-symbolic.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-show-audio.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-show-audiothumb-symbolic.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-show-audiothumb.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-show-markers-symbolic.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-show-markers.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-show-video-symbolic.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-show-video.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-show-videothumb-symbolic.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-show-videothumb.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-slide-symbolic.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-slide.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-slip-symbolic.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-slip.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-spacer-tool-symbolic.svg
-* /usr/share/icons/breeze/actions/24/kdenlive-spacer-tool.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-split-audio-symbolic.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-split-audio.svg
 * /usr/share/icons/breeze/actions/24/kdenlive-track_has_effect-symbolic.svg
@@ -25431,6 +25432,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/24/object-group-calligra.svg
 * /usr/share/icons/breeze/actions/24/object-group-symbolic.svg
 * /usr/share/icons/breeze/actions/24/object-group.svg
+* /usr/share/icons/breeze/actions/24/object-height-symbolic.svg
+* /usr/share/icons/breeze/actions/24/object-height.svg
 * /usr/share/icons/breeze/actions/24/object-locked-symbolic.svg
 * /usr/share/icons/breeze/actions/24/object-locked.svg
 * /usr/share/icons/breeze/actions/24/object-order-back-calligra-symbolic.svg
@@ -25464,6 +25467,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/24/object-ungroup.svg
 * /usr/share/icons/breeze/actions/24/object-unlocked-symbolic.svg
 * /usr/share/icons/breeze/actions/24/object-unlocked.svg
+* /usr/share/icons/breeze/actions/24/object-width-symbolic.svg
+* /usr/share/icons/breeze/actions/24/object-width.svg
 * /usr/share/icons/breeze/actions/24/object.svg
 * /usr/share/icons/breeze/actions/24/object_node-symbolic.svg
 * /usr/share/icons/breeze/actions/24/object_node.svg
@@ -26160,6 +26165,12 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/24/timeline-insert.svg
 * /usr/share/icons/breeze/actions/24/timeline-lift-symbolic.svg
 * /usr/share/icons/breeze/actions/24/timeline-lift.svg
+* /usr/share/icons/breeze/actions/24/timeline-mode-insert-symbolic.svg
+* /usr/share/icons/breeze/actions/24/timeline-mode-insert.svg
+* /usr/share/icons/breeze/actions/24/timeline-mode-normal-symbolic.svg
+* /usr/share/icons/breeze/actions/24/timeline-mode-normal.svg
+* /usr/share/icons/breeze/actions/24/timeline-mode-overwrite-symbolic.svg
+* /usr/share/icons/breeze/actions/24/timeline-mode-overwrite.svg
 * /usr/share/icons/breeze/actions/24/timeline-overwrite-symbolic.svg
 * /usr/share/icons/breeze/actions/24/timeline-overwrite.svg
 * /usr/share/icons/breeze/actions/24/timeline-use-zone-off-symbolic.svg
@@ -26396,6 +26407,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/24/verb.svg
 * /usr/share/icons/breeze/actions/24/verbatim-symbolic.svg
 * /usr/share/icons/breeze/actions/24/verbatim.svg
+* /usr/share/icons/breeze/actions/24/video-symbolic.svg
+* /usr/share/icons/breeze/actions/24/video.svg
 * /usr/share/icons/breeze/actions/24/videoclip-amarok-symbolic.svg
 * /usr/share/icons/breeze/actions/24/videoclip-amarok.svg
 * /usr/share/icons/breeze/actions/24/view-bank-add-symbolic.svg
@@ -26760,6 +26773,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/24/warnnext.svg
 * /usr/share/icons/breeze/actions/24/warnprev-symbolic.svg
 * /usr/share/icons/breeze/actions/24/warnprev.svg
+* /usr/share/icons/breeze/actions/24/waveform-symbolic.svg
+* /usr/share/icons/breeze/actions/24/waveform.svg
 * /usr/share/icons/breeze/actions/24/whitebalance-symbolic.svg
 * /usr/share/icons/breeze/actions/24/whitebalance.svg
 * /usr/share/icons/breeze/actions/24/widget-alternatives-symbolic.svg
@@ -26814,6 +26829,10 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/24/x-shape-image.svg
 * /usr/share/icons/breeze/actions/24/x-shape-text-symbolic.svg
 * /usr/share/icons/breeze/actions/24/x-shape-text.svg
+* /usr/share/icons/breeze/actions/24/x-zoom-in-symbolic.svg
+* /usr/share/icons/breeze/actions/24/x-zoom-in.svg
+* /usr/share/icons/breeze/actions/24/x-zoom-out-symbolic.svg
+* /usr/share/icons/breeze/actions/24/x-zoom-out.svg
 * /usr/share/icons/breeze/actions/24/xfsm-hibernate-symbolic.svg
 * /usr/share/icons/breeze/actions/24/xfsm-hibernate.svg
 * /usr/share/icons/breeze/actions/24/xml-attribute-delete-symbolic.svg
@@ -26828,6 +26847,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/24/xml-text-new.svg
 * /usr/share/icons/breeze/actions/24/y-zoom-in-symbolic.svg
 * /usr/share/icons/breeze/actions/24/y-zoom-in.svg
+* /usr/share/icons/breeze/actions/24/y-zoom-out-symbolic.svg
+* /usr/share/icons/breeze/actions/24/y-zoom-out.svg
 * /usr/share/icons/breeze/actions/24/zone-in-symbolic.svg
 * /usr/share/icons/breeze/actions/24/zone-in.svg
 * /usr/share/icons/breeze/actions/24/zone-out-symbolic.svg
@@ -26855,6 +26876,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/24/zoom-in-symbolic.svg
 * /usr/share/icons/breeze/actions/24/zoom-in-x-symbolic.svg
 * /usr/share/icons/breeze/actions/24/zoom-in-x.svg
+* /usr/share/icons/breeze/actions/24/zoom-in-y-symbolic.svg
+* /usr/share/icons/breeze/actions/24/zoom-in-y.svg
 * /usr/share/icons/breeze/actions/24/zoom-in.svg
 * /usr/share/icons/breeze/actions/24/zoom-next-symbolic.svg
 * /usr/share/icons/breeze/actions/24/zoom-next.svg
@@ -27417,8 +27440,16 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/32/window-close-symbolic.svg
 * /usr/share/icons/breeze/actions/32/window-close.svg
 * /usr/share/icons/breeze/actions/32/window-list.svg
+* /usr/share/icons/breeze/actions/32/x-zoom-in-symbolic.svg
+* /usr/share/icons/breeze/actions/32/x-zoom-in.svg
+* /usr/share/icons/breeze/actions/32/x-zoom-out-symbolic.svg
+* /usr/share/icons/breeze/actions/32/x-zoom-out.svg
 * /usr/share/icons/breeze/actions/32/xfsm-hibernate-symbolic.svg
 * /usr/share/icons/breeze/actions/32/xfsm-hibernate.svg
+* /usr/share/icons/breeze/actions/32/y-zoom-in-symbolic.svg
+* /usr/share/icons/breeze/actions/32/y-zoom-in.svg
+* /usr/share/icons/breeze/actions/32/y-zoom-out-symbolic.svg
+* /usr/share/icons/breeze/actions/32/y-zoom-out.svg
 * /usr/share/icons/breeze/actions/32/zoom-1-to-2-symbolic.svg
 * /usr/share/icons/breeze/actions/32/zoom-1-to-2.svg
 * /usr/share/icons/breeze/actions/32/zoom-2-to-1-symbolic.svg
@@ -27440,6 +27471,10 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/32/zoom-in-large-symbolic.svg
 * /usr/share/icons/breeze/actions/32/zoom-in-large.svg
 * /usr/share/icons/breeze/actions/32/zoom-in-symbolic.svg
+* /usr/share/icons/breeze/actions/32/zoom-in-x-symbolic.svg
+* /usr/share/icons/breeze/actions/32/zoom-in-x.svg
+* /usr/share/icons/breeze/actions/32/zoom-in-y-symbolic.svg
+* /usr/share/icons/breeze/actions/32/zoom-in-y.svg
 * /usr/share/icons/breeze/actions/32/zoom-in.svg
 * /usr/share/icons/breeze/actions/32/zoom-next-symbolic.svg
 * /usr/share/icons/breeze/actions/32/zoom-next.svg
@@ -27448,7 +27483,12 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/32/zoom-out-large-symbolic.svg
 * /usr/share/icons/breeze/actions/32/zoom-out-large.svg
 * /usr/share/icons/breeze/actions/32/zoom-out-symbolic.svg
+* /usr/share/icons/breeze/actions/32/zoom-out-x-symbolic.svg
+* /usr/share/icons/breeze/actions/32/zoom-out-x.svg
+* /usr/share/icons/breeze/actions/32/zoom-out-y-symbolic.svg
+* /usr/share/icons/breeze/actions/32/zoom-out-y.svg
 * /usr/share/icons/breeze/actions/32/zoom-out.svg
+* /usr/share/icons/breeze/actions/32/zoom-pixels.svg
 * /usr/share/icons/breeze/actions/32/zoom-previous-symbolic.svg
 * /usr/share/icons/breeze/actions/32/zoom-previous.svg
 * /usr/share/icons/breeze/actions/32/zoom-select-fit-symbolic.svg
@@ -28004,6 +28044,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/apps/48/diffuse.svg
 * /usr/share/icons/breeze/apps/48/digikam.svg
 * /usr/share/icons/breeze/apps/48/dragonplayer.svg
+* /usr/share/icons/breeze/apps/48/elisa-symbolic.svg
 * /usr/share/icons/breeze/apps/48/elisa.svg
 * /usr/share/icons/breeze/apps/48/emacs.svg
 * /usr/share/icons/breeze/apps/48/falkon.svg
@@ -28265,6 +28306,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/apps/48/org.kde.kbreakout.svg
 * /usr/share/icons/breeze/apps/48/org.kde.kbruch.svg
 * /usr/share/icons/breeze/apps/48/org.kde.kcachegrind.svg
+* /usr/share/icons/breeze/apps/48/org.kde.kcolorchooser.svg
 * /usr/share/icons/breeze/apps/48/org.kde.kdenlive.svg
 * /usr/share/icons/breeze/apps/48/org.kde.kdevelop.svg
 * /usr/share/icons/breeze/apps/48/org.kde.kdiamond.svg
@@ -28301,6 +28343,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/apps/48/org.kde.ktouch.svg
 * /usr/share/icons/breeze/apps/48/org.kde.ktrip.svg
 * /usr/share/icons/breeze/apps/48/org.kde.kuiviewer.svg
+* /usr/share/icons/breeze/apps/48/org.kde.kwalletmanager5.svg
 * /usr/share/icons/breeze/apps/48/org.kde.kwrite.svg
 * /usr/share/icons/breeze/apps/48/org.kde.kxstitch.svg
 * /usr/share/icons/breeze/apps/48/org.kde.labplot2.svg
@@ -28326,6 +28369,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/apps/48/org.libreoffice.LibreOffice.writer.svg
 * /usr/share/icons/breeze/apps/48/org.qbittorrent.qBittorrent.svg
 * /usr/share/icons/breeze/apps/48/org.qelectrotech.QElectroTech.svg
+* /usr/share/icons/breeze/apps/48/org.suyu_emu.suyu.svg
 * /usr/share/icons/breeze/apps/48/org.telegram.desktop.svg
 * /usr/share/icons/breeze/apps/48/org.texstudio.TeXstudio.svg
 * /usr/share/icons/breeze/apps/48/org.tordini.flavio.Minitube.svg
@@ -28378,6 +28422,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/apps/48/showfoto.svg
 * /usr/share/icons/breeze/apps/48/skanlite.svg
 * /usr/share/icons/breeze/apps/48/skanpage.svg
+* /usr/share/icons/breeze/apps/48/skladnik.svg
 * /usr/share/icons/breeze/apps/48/skrooge-black.svg
 * /usr/share/icons/breeze/apps/48/skrooge-initial.svg
 * /usr/share/icons/breeze/apps/48/skrooge.svg
@@ -33482,6 +33527,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/status/16/user-trash-full-symbolic.svg
 * /usr/share/icons/breeze/status/16/view-wrapped-symbolic-rtl.svg
 * /usr/share/icons/breeze/status/16/view-wrapped-symbolic.svg
+* /usr/share/icons/breeze/status/16/waveform-off-symbolic.svg
+* /usr/share/icons/breeze/status/16/waveform-off.svg
 * /usr/share/icons/breeze/status/16@2x
 * /usr/share/icons/breeze/status/16@3x
 * /usr/share/icons/breeze/status/22/appointment-recurring-symbolic.svg
@@ -34090,18 +34137,18 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/status/22/network-wireless-signal-weak.svg
 * /usr/share/icons/breeze/status/22/nm-device-wired-symbolic.svg
 * /usr/share/icons/breeze/status/22/nm-device-wired.svg
-* /usr/share/icons/breeze/status/22/nm-nm-signal-00-symbolic.svg
-* /usr/share/icons/breeze/status/22/nm-nm-signal-00.svg
-* /usr/share/icons/breeze/status/22/nm-nm-signal-100-symbolic.svg
-* /usr/share/icons/breeze/status/22/nm-nm-signal-100.svg
-* /usr/share/icons/breeze/status/22/nm-nm-signal-25-symbolic.svg
-* /usr/share/icons/breeze/status/22/nm-nm-signal-25.svg
-* /usr/share/icons/breeze/status/22/nm-nm-signal-50-symbolic.svg
-* /usr/share/icons/breeze/status/22/nm-nm-signal-50.svg
-* /usr/share/icons/breeze/status/22/nm-nm-signal-75-symbolic.svg
-* /usr/share/icons/breeze/status/22/nm-nm-signal-75.svg
 * /usr/share/icons/breeze/status/22/nm-no-connection-symbolic.svg
 * /usr/share/icons/breeze/status/22/nm-no-connection.svg
+* /usr/share/icons/breeze/status/22/nm-signal-00-symbolic.svg
+* /usr/share/icons/breeze/status/22/nm-signal-00.svg
+* /usr/share/icons/breeze/status/22/nm-signal-100-symbolic.svg
+* /usr/share/icons/breeze/status/22/nm-signal-100.svg
+* /usr/share/icons/breeze/status/22/nm-signal-25-symbolic.svg
+* /usr/share/icons/breeze/status/22/nm-signal-25.svg
+* /usr/share/icons/breeze/status/22/nm-signal-50-symbolic.svg
+* /usr/share/icons/breeze/status/22/nm-signal-50.svg
+* /usr/share/icons/breeze/status/22/nm-signal-75-symbolic.svg
+* /usr/share/icons/breeze/status/22/nm-signal-75.svg
 * /usr/share/icons/breeze/status/22/plasmavault_error.svg
 * /usr/share/icons/breeze/status/22/redshift-status-day-symbolic.svg
 * /usr/share/icons/breeze/status/22/redshift-status-day.svg
@@ -34123,7 +34170,6 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/status/22/security-low.svg
 * /usr/share/icons/breeze/status/22/security-medium-symbolic.svg
 * /usr/share/icons/breeze/status/22/security-medium.svg
-* /usr/share/icons/breeze/status/22/showinfo-hover.svg
 * /usr/share/icons/breeze/status/22/showinfo.svg
 * /usr/share/icons/breeze/status/22/smartphoneconnected.svg
 * /usr/share/icons/breeze/status/22/smartphonedisconnected.svg
@@ -34144,6 +34190,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/status/22/state-sync.svg
 * /usr/share/icons/breeze/status/22/state-warning-symbolic.svg
 * /usr/share/icons/breeze/status/22/state-warning.svg
+* /usr/share/icons/breeze/status/22/system-suspend-inhibited.svg
+* /usr/share/icons/breeze/status/22/system-suspend-uninhibited.svg
 * /usr/share/icons/breeze/status/22/task-complete-symbolic.svg
 * /usr/share/icons/breeze/status/22/task-complete.svg
 * /usr/share/icons/breeze/status/22/task-process-0-symbolic.svg
@@ -34204,8 +34252,12 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/status/22/user-online.svg
 * /usr/share/icons/breeze/status/22/video-card-inactive-symbolic.svg
 * /usr/share/icons/breeze/status/22/video-card-inactive.svg
+* /usr/share/icons/breeze/status/22/video-off-symbolic.svg
+* /usr/share/icons/breeze/status/22/video-off.svg
 * /usr/share/icons/breeze/status/22/wallet-closed.svg
 * /usr/share/icons/breeze/status/22/wallet-open.svg
+* /usr/share/icons/breeze/status/22/waveform-off-symbolic.svg
+* /usr/share/icons/breeze/status/22/waveform-off.svg
 * /usr/share/icons/breeze/status/22@2x
 * /usr/share/icons/breeze/status/22@3x
 * /usr/share/icons/breeze/status/24/appointment-recurring-symbolic.svg
@@ -34814,18 +34866,18 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/status/24/network-wireless-signal-weak.svg
 * /usr/share/icons/breeze/status/24/nm-device-wired-symbolic.svg
 * /usr/share/icons/breeze/status/24/nm-device-wired.svg
-* /usr/share/icons/breeze/status/24/nm-nm-signal-00-symbolic.svg
-* /usr/share/icons/breeze/status/24/nm-nm-signal-00.svg
-* /usr/share/icons/breeze/status/24/nm-nm-signal-100-symbolic.svg
-* /usr/share/icons/breeze/status/24/nm-nm-signal-100.svg
-* /usr/share/icons/breeze/status/24/nm-nm-signal-25-symbolic.svg
-* /usr/share/icons/breeze/status/24/nm-nm-signal-25.svg
-* /usr/share/icons/breeze/status/24/nm-nm-signal-50-symbolic.svg
-* /usr/share/icons/breeze/status/24/nm-nm-signal-50.svg
-* /usr/share/icons/breeze/status/24/nm-nm-signal-75-symbolic.svg
-* /usr/share/icons/breeze/status/24/nm-nm-signal-75.svg
 * /usr/share/icons/breeze/status/24/nm-no-connection-symbolic.svg
 * /usr/share/icons/breeze/status/24/nm-no-connection.svg
+* /usr/share/icons/breeze/status/24/nm-signal-00-symbolic.svg
+* /usr/share/icons/breeze/status/24/nm-signal-00.svg
+* /usr/share/icons/breeze/status/24/nm-signal-100-symbolic.svg
+* /usr/share/icons/breeze/status/24/nm-signal-100.svg
+* /usr/share/icons/breeze/status/24/nm-signal-25-symbolic.svg
+* /usr/share/icons/breeze/status/24/nm-signal-25.svg
+* /usr/share/icons/breeze/status/24/nm-signal-50-symbolic.svg
+* /usr/share/icons/breeze/status/24/nm-signal-50.svg
+* /usr/share/icons/breeze/status/24/nm-signal-75-symbolic.svg
+* /usr/share/icons/breeze/status/24/nm-signal-75.svg
 * /usr/share/icons/breeze/status/24/plasmavault_error.svg
 * /usr/share/icons/breeze/status/24/redshift-status-day-symbolic.svg
 * /usr/share/icons/breeze/status/24/redshift-status-day.svg
@@ -34847,7 +34899,6 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/status/24/security-low.svg
 * /usr/share/icons/breeze/status/24/security-medium-symbolic.svg
 * /usr/share/icons/breeze/status/24/security-medium.svg
-* /usr/share/icons/breeze/status/24/showinfo-hover.svg
 * /usr/share/icons/breeze/status/24/showinfo.svg
 * /usr/share/icons/breeze/status/24/smartphoneconnected.svg
 * /usr/share/icons/breeze/status/24/smartphonedisconnected.svg
@@ -34868,6 +34919,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/status/24/state-sync.svg
 * /usr/share/icons/breeze/status/24/state-warning-symbolic.svg
 * /usr/share/icons/breeze/status/24/state-warning.svg
+* /usr/share/icons/breeze/status/24/system-suspend-inhibited.svg
+* /usr/share/icons/breeze/status/24/system-suspend-uninhibited.svg
 * /usr/share/icons/breeze/status/24/task-complete-symbolic.svg
 * /usr/share/icons/breeze/status/24/task-complete.svg
 * /usr/share/icons/breeze/status/24/task-process-0-symbolic.svg
@@ -34928,8 +34981,12 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/status/24/user-online.svg
 * /usr/share/icons/breeze/status/24/video-card-inactive-symbolic.svg
 * /usr/share/icons/breeze/status/24/video-card-inactive.svg
+* /usr/share/icons/breeze/status/24/video-off-symbolic.svg
+* /usr/share/icons/breeze/status/24/video-off.svg
 * /usr/share/icons/breeze/status/24/wallet-closed.svg
 * /usr/share/icons/breeze/status/24/wallet-open.svg
+* /usr/share/icons/breeze/status/24/waveform-off-symbolic.svg
+* /usr/share/icons/breeze/status/24/waveform-off.svg
 * /usr/share/icons/breeze/status/24@2x
 * /usr/share/icons/breeze/status/24@3x
 * /usr/share/icons/breeze/status/32/appointment-recurring-symbolic.svg

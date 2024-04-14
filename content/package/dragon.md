@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "1768932"
 usize = "2858574"
 sha1sum = "93d7a7eafa7f4109f3cbae0e56e4a1675298733b"
-depends = "['kparts>=6.0.0']"
+depends = "['kparts>=6.1.0']"
 +++
 ### Description: 
 KDE Video Player.

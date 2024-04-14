@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "25616"
 usize = "89227"
 sha1sum = "890d90f1f9f33441cbfeeb3f62afbe91a63ccfaf"
-depends = "['ffmpeg>=6.0', 'kio>=6.0.0', 'taglib']"
+depends = "['ffmpeg>=6.0', 'kio>=6.1.0', 'taglib']"
 reverse_depends = "['dolphin']"
 +++
 ### Description: 

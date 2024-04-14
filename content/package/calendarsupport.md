@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "576856"
 usize = "3621445"
 sha1sum = "b222e3454e7f5daa9d9eedd3e9920562e22ef5a4"
-depends = "['akonadi>=24.02.2', 'akonadi-calendar>=24.02.2', 'akonadi-notes>=24.02.2', 'kholidays>=6.0.0', 'pimcommon>=24.02.2']"
+depends = "['akonadi>=24.02.2', 'akonadi-calendar>=24.02.2', 'akonadi-notes>=24.02.2', 'kholidays>=6.1.0', 'pimcommon>=24.02.2']"
 reverse_depends = "['akonadi-calendar-tools', 'akonadiconsole', 'eventviews', 'pim-data-exporter']"
 +++
 ### Description: 
