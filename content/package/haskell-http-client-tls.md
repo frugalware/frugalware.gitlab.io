@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "haskell-http-client-tls 0.3.6.3-2"
-version = "0.3.6.3-2"
+title = "haskell-http-client-tls 0.3.6.3-3"
+version = "0.3.6.3-3"
 description = "http-client backend using the connection package and tls library"
-date = "2023-12-12T19:50:53"
+date = "2024-04-15T15:16:24"
 aliases = "/packages/220668"
 categories = ['devel-extra']
 upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/http-client-tls"
 arch = "x86_64"
-size = "98360"
-usize = "655106"
-sha1sum = "7b52122420e19b753d1ab4d4de54545e10b78dc4"
+size = "99020"
+usize = "661489"
+sha1sum = "a3f1b2fe1e84c19c7772c543eb7f99c3e17b5657"
 depends = "['haskell-crypton-connection', 'haskell-http-client', 'haskell-tls']"
 reverse_depends = "['pandoc']"
 +++

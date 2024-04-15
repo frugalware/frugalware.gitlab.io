@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "haskell-crypton-connection 0.3.1-4"
-version = "0.3.1-4"
+title = "haskell-crypton-connection 0.3.2-1"
+version = "0.3.2-1"
 description = "Simple and easy network connections API"
-date = "2023-12-12T19:49:15"
+date = "2024-04-15T15:14:36"
 aliases = "/packages/221042"
 categories = ['devel-extra']
 upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/crypton-connection"
 arch = "x86_64"
-size = "115368"
-usize = "912681"
-sha1sum = "51453431c2e3b2dfa11d7b7ad6c85a2949a49500"
+size = "115676"
+usize = "883352"
+sha1sum = "46480ac7d11c343860854e896111203130093fce"
 depends = "['haskell-crypton-x509-system', 'haskell-socks', 'haskell-tls']"
 reverse_depends = "['haskell-http-client-tls']"
 +++
