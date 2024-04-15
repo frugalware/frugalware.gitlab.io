@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "haskell-ansi-terminal-types 0.11.5-3"
-version = "0.11.5-3"
+title = "haskell-ansi-terminal-types 1.1-1"
+version = "1.1-1"
 description = "Types and functions used to represent SGR aspects"
-date = "2023-12-13T09:28:49"
+date = "2024-04-15T17:52:52"
 aliases = "/packages/220934"
 categories = ['devel-extra']
 upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/ansi-terminal-types"
 arch = "x86_64"
-size = "140816"
-usize = "1626954"
-sha1sum = "7277cf69b23fa01ce8f895dec26a4645e0460df7"
+size = "144224"
+usize = "1663215"
+sha1sum = "09189abcaf7dab8c7e734cc29901db9534dc80ab"
 depends = "['haskell-colour']"
 reverse_depends = "['haskell-ansi-terminal']"
 +++
@@ -18,21 +18,21 @@ reverse_depends = "['haskell-ansi-terminal']"
 Types and functions used to represent SGR aspects
 
 ### Files: 
-* /usr/lib/ghc-9.8.1/site-local/ansi-terminal-types-0.11.5/libHSansi-terminal-types-0.11.5-2a2fmPlNFqF1DlTktOKqnN.a
-* /usr/lib/ghc-9.8.1/site-local/ansi-terminal-types-0.11.5/System/Console/ANSI/Types.dyn_hi
-* /usr/lib/ghc-9.8.1/site-local/ansi-terminal-types-0.11.5/System/Console/ANSI/Types.hi
-* /usr/lib/x86_64-linux-ghc-9.8.1/libHSansi-terminal-types-0.11.5-2a2fmPlNFqF1DlTktOKqnN-ghc9.8.1.so
-* /usr/share/doc/haskell-ansi-terminal-types-0.11.5/LICENSE
-* /usr/share/doc/haskell-ansi-terminal-types-0.11.5/README.md
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/ansi-terminal-types-0.11.5/html/ansi-terminal-types.haddock
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/ansi-terminal-types-0.11.5/html/doc-index.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/ansi-terminal-types-0.11.5/html/haddock-bundle.min.js
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/ansi-terminal-types-0.11.5/html/index.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/ansi-terminal-types-0.11.5/html/linuwial.css
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/ansi-terminal-types-0.11.5/html/meta.json
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/ansi-terminal-types-0.11.5/html/quick-jump.css
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/ansi-terminal-types-0.11.5/html/synopsis.png
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/ansi-terminal-types-0.11.5/html/System-Console-ANSI-Types.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/ansi-terminal-types-0.11.5/LICENSE
+* /usr/lib/ghc-9.8.2/site-local/ansi-terminal-types-1.1/libHSansi-terminal-types-1.1-IRPsPWS0mCj2x9fUkNqFcS.a
+* /usr/lib/ghc-9.8.2/site-local/ansi-terminal-types-1.1/System/Console/ANSI/Types.dyn_hi
+* /usr/lib/ghc-9.8.2/site-local/ansi-terminal-types-1.1/System/Console/ANSI/Types.hi
+* /usr/lib/x86_64-linux-ghc-9.8.2/libHSansi-terminal-types-1.1-IRPsPWS0mCj2x9fUkNqFcS-ghc9.8.2.so
+* /usr/share/doc/haskell-ansi-terminal-types-1.1/LICENSE
+* /usr/share/doc/haskell-ansi-terminal-types-1.1/README.md
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/ansi-terminal-types-1.1/html/ansi-terminal-types.haddock
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/ansi-terminal-types-1.1/html/doc-index.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/ansi-terminal-types-1.1/html/haddock-bundle.min.js
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/ansi-terminal-types-1.1/html/index.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/ansi-terminal-types-1.1/html/linuwial.css
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/ansi-terminal-types-1.1/html/meta.json
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/ansi-terminal-types-1.1/html/quick-jump.css
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/ansi-terminal-types-1.1/html/synopsis.png
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/ansi-terminal-types-1.1/html/System-Console-ANSI-Types.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/ansi-terminal-types-1.1/LICENSE
 * /usr/share/haskell/haskell-ansi-terminal-types/register.sh
 * /usr/share/haskell/haskell-ansi-terminal-types/unregister.sh
