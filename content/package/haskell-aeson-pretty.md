@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "haskell-aeson-pretty 0.8.10-3"
-version = "0.8.10-3"
+title = "haskell-aeson-pretty 0.8.10-4"
+version = "0.8.10-4"
 description = "JSON pretty-printing library and command-line tool."
-date = "2023-12-12T08:37:45"
+date = "2024-04-15T07:09:32"
 aliases = "/packages/220347"
 categories = ['devel-extra']
 upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/aeson-pretty"
 arch = "x86_64"
-size = "65724"
-usize = "392168"
-sha1sum = "344ee36085f71f82ca53f3b008f2ce981828c056"
+size = "65828"
+usize = "392442"
+sha1sum = "877beec2f55d775da0385207e432cb6d7e8d9382"
 depends = "['haskell-aeson']"
 reverse_depends = "['pandoc']"
 +++
@@ -18,23 +18,23 @@ reverse_depends = "['pandoc']"
 JSON pretty-printing library and command-line tool.
 
 ### Files: 
-* /usr/lib/ghc-9.8.1/site-local/aeson-pretty-0.8.10/Data/Aeson/Encode/Pretty.dyn_hi
-* /usr/lib/ghc-9.8.1/site-local/aeson-pretty-0.8.10/Data/Aeson/Encode/Pretty.hi
-* /usr/lib/ghc-9.8.1/site-local/aeson-pretty-0.8.10/libHSaeson-pretty-0.8.10-9VkDB5IBeuj4KITu7FiNWr.a
-* /usr/lib/x86_64-linux-ghc-9.8.1/libHSaeson-pretty-0.8.10-9VkDB5IBeuj4KITu7FiNWr-ghc9.8.1.so
+* /usr/lib/ghc-9.8.2/site-local/aeson-pretty-0.8.10/Data/Aeson/Encode/Pretty.dyn_hi
+* /usr/lib/ghc-9.8.2/site-local/aeson-pretty-0.8.10/Data/Aeson/Encode/Pretty.hi
+* /usr/lib/ghc-9.8.2/site-local/aeson-pretty-0.8.10/libHSaeson-pretty-0.8.10-Bgm2Q7LwAKK1VkUIyyDC2A.a
+* /usr/lib/x86_64-linux-ghc-9.8.2/libHSaeson-pretty-0.8.10-Bgm2Q7LwAKK1VkUIyyDC2A-ghc9.8.2.so
 * /usr/share/doc/haskell-aeson-pretty-0.8.10/LICENSE
 * /usr/share/doc/haskell-aeson-pretty-0.8.10/README.markdown
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/aeson-pretty-0.8.10/html/aeson-pretty.haddock
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/aeson-pretty-0.8.10/html/Data-Aeson-Encode-Pretty.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/aeson-pretty-0.8.10/html/doc-index.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/aeson-pretty-0.8.10/html/doc-index.json
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/aeson-pretty-0.8.10/html/haddock-bundle.min.js
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/aeson-pretty-0.8.10/html/index.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/aeson-pretty-0.8.10/html/linuwial.css
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/aeson-pretty-0.8.10/html/meta.json
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/aeson-pretty-0.8.10/html/quick-jump.css
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/aeson-pretty-0.8.10/html/quick-jump.min.js
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/aeson-pretty-0.8.10/html/synopsis.png
-* /usr/share/doc/x86_64-linux-ghc-9.8.1/aeson-pretty-0.8.10/LICENSE
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/aeson-pretty-0.8.10/html/aeson-pretty.haddock
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/aeson-pretty-0.8.10/html/Data-Aeson-Encode-Pretty.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/aeson-pretty-0.8.10/html/doc-index.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/aeson-pretty-0.8.10/html/doc-index.json
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/aeson-pretty-0.8.10/html/haddock-bundle.min.js
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/aeson-pretty-0.8.10/html/index.html
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/aeson-pretty-0.8.10/html/linuwial.css
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/aeson-pretty-0.8.10/html/meta.json
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/aeson-pretty-0.8.10/html/quick-jump.css
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/aeson-pretty-0.8.10/html/quick-jump.min.js
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/aeson-pretty-0.8.10/html/synopsis.png
+* /usr/share/doc/x86_64-linux-ghc-9.8.2/aeson-pretty-0.8.10/LICENSE
 * /usr/share/haskell/haskell-aeson-pretty/register.sh
 * /usr/share/haskell/haskell-aeson-pretty/unregister.sh
