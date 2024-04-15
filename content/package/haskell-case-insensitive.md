@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "haskell-case-insensitive 1.2.1.0-22"
-version = "1.2.1.0-22"
+title = "haskell-case-insensitive 1.2.1.0-23"
+version = "1.2.1.0-23"
 description = "Case insensitive string comparison"
-date = "2023-12-12T08:50:19"
+date = "2024-04-15T07:14:54"
 aliases = "/packages/220349"
 categories = ['devel-extra']
 upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/case-insensitive"
 arch = "x86_64"
-size = "82620"
-usize = "581516"
-sha1sum = "74abbdd8590d1e0bdc35c133b152cd5d6a5192da"
+size = "82792"
+usize = "584861"
+sha1sum = "bb77a74e5a553e20199bb76c9f6782c3573e73c0"
 depends = "['haskell-hashable>=1.4.2.0']"
 reverse_depends = "['haskell-citeproc', 'haskell-http-media', 'haskell-http-types', 'haskell-servant', 'haskell-skylighting-core']"
 +++
