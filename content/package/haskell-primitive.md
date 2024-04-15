@@ -12,7 +12,7 @@ size = "473512"
 usize = "6597569"
 sha1sum = "a8a7de651c3437ed46d6b356ac54e783b444eebf"
 depends = "['ghc>=9.6.1']"
-reverse_depends = "['haskell-integer-conversion', 'haskell-resourcet', 'haskell-scientific', 'haskell-tf-random', 'haskell-vector']"
+reverse_depends = "['haskell-cborg', 'haskell-integer-conversion', 'haskell-resourcet', 'haskell-scientific', 'haskell-serialise', 'haskell-tf-random', 'haskell-vector']"
 +++
 ### Description: 
 Wrappers for primitive operations.

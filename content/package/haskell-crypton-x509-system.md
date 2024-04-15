@@ -12,7 +12,7 @@ size = "49136"
 usize = "256455"
 sha1sum = "60a9d41a6513f26ffb857748b64663858c929183"
 depends = "['haskell-crypton-x509-store']"
-reverse_depends = "['haskell-connection', 'haskell-crypton-connection']"
+reverse_depends = "['haskell-crypton-connection']"
 +++
 ### Description: 
 Handle per-operating-system X.509 accessors and storage

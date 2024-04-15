@@ -12,7 +12,7 @@ size = "131012"
 usize = "1109120"
 sha1sum = "9d8c6c6bd6b103d77c9e0538952dbc2e83df4da0"
 depends = "['haskell-crypton-x509-store', 'haskell-data-default-class']"
-reverse_depends = "['haskell-connection', 'haskell-tls']"
+reverse_depends = "['haskell-tls']"
 +++
 ### Description: 
 X.509 Certificate and CRL validation

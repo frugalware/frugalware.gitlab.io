@@ -12,7 +12,7 @@ size = "251392"
 usize = "2605533"
 sha1sum = "c39995620586029d208df78e3d6d473327a0b31b"
 depends = "['haskell-basement', 'haskell-cereal', 'haskell-network']"
-reverse_depends = "['haskell-connection', 'haskell-crypton-connection']"
+reverse_depends = "['haskell-crypton-connection']"
 +++
 ### Description: 
 Socks proxy (ver 5)

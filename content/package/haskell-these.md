@@ -12,7 +12,7 @@ size = "177396"
 usize = "1800055"
 sha1sum = "ad29111f65349eb11eaa2e3d5f0fb075fed99246"
 depends = "['haskell-assoc>=1.0.2-10', 'haskell-base-compat>=0.12.0', 'haskell-hashable>=1.3.4.0']"
-reverse_depends = "['haskell-semialign', 'haskell-strict']"
+reverse_depends = "['haskell-semialign', 'haskell-serialise', 'haskell-strict']"
 +++
 ### Description: 
 An either-or-both data type.

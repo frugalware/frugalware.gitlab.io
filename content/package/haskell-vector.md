@@ -12,7 +12,7 @@ size = "2213996"
 usize = "33734155"
 sha1sum = "7a621771606d892d17a08b41cb18fad068844208"
 depends = "['haskell-primitive>=0.3.7.0-2', 'haskell-vector-stream']"
-reverse_depends = "['haskell-bitvec', 'haskell-cassava', 'haskell-indexed-traversable-instances', 'haskell-juicypixels', 'haskell-th-lift-instances']"
+reverse_depends = "['haskell-bitvec', 'haskell-cassava', 'haskell-indexed-traversable-instances', 'haskell-juicypixels', 'haskell-serialise', 'haskell-th-lift-instances']"
 +++
 ### Description: 
 Efficient Arrays

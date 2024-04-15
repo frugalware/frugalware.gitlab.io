@@ -12,7 +12,7 @@ size = "174336"
 usize = "1904689"
 sha1sum = "88a876a270ccf3cba0f6fb9493a1ef7ffab6176d"
 depends = "['haskell-os-string']"
-reverse_depends = "['haskell-async', 'haskell-case-insensitive', 'haskell-constraints', 'haskell-data-fix', 'haskell-psqueues', 'haskell-scientific', 'haskell-text-short', 'haskell-these', 'haskell-time-compat', 'haskell-unordered-containers', 'haskell-uuid-types', 'haskell-vault', 'haskell-witherable']"
+reverse_depends = "['haskell-async', 'haskell-case-insensitive', 'haskell-constraints', 'haskell-data-fix', 'haskell-psqueues', 'haskell-scientific', 'haskell-serialise', 'haskell-text-short', 'haskell-these', 'haskell-time-compat', 'haskell-unordered-containers', 'haskell-uuid-types', 'haskell-vault', 'haskell-witherable']"
 +++
 ### Description: 
 A class for types that can be converted to a hash value

@@ -12,7 +12,7 @@ size = "277240"
 usize = "3122066"
 sha1sum = "03d2abf3d1b727e9622832d6cffac3fda007f683"
 depends = "['haskell-these>=1.1.1.1-15']"
-reverse_depends = "['haskell-aeson']"
+reverse_depends = "['haskell-aeson', 'haskell-serialise']"
 +++
 ### Description: 
 Strict data types and String IO.

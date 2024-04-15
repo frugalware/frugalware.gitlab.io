@@ -12,7 +12,7 @@ size = "453756"
 usize = "5436459"
 sha1sum = "395771aadfbf852c7dea2d6c5bc8ad0f17d4c3e1"
 depends = "['haskell-hashable>=1.4.2.0']"
-reverse_depends = "['haskell-cassava', 'haskell-http-api-data', 'haskell-indexed-traversable-instances', 'haskell-mono-traversable', 'haskell-semigroups', 'haskell-uniplate', 'haskell-vault']"
+reverse_depends = "['haskell-cassava', 'haskell-http-api-data', 'haskell-indexed-traversable-instances', 'haskell-mono-traversable', 'haskell-semigroups', 'haskell-serialise', 'haskell-uniplate', 'haskell-vault']"
 +++
 ### Description: 
 Efficient hashing-based container types
