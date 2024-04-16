@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxcb 1.16.1-1"
-version = "1.16.1-1"
+title = "libxcb 1.17.0-1"
+version = "1.17.0-1"
 description = "X.org X-protocol C Binding"
-date = "2024-03-03T16:36:02"
+date = "2024-04-16T18:15:20"
 aliases = "/packages/14766"
 categories = ['x11']
 upstreamurl = "http://xcb.freedesktop.org"
 arch = "x86_64"
-size = "1017868"
-usize = "4418421"
-sha1sum = "56c37127792c00ce9e0572f9bbaf8e77c15294c6"
+size = "1023308"
+usize = "4433517"
+sha1sum = "487ed4613cef3be4f31ec69f9ff0dadb7161ca03"
 depends = "['libxau>=1.0.8-8', 'libxdmcp>=1.1.2-8']"
 reverse_depends = "['cairo', 'efl', 'enlightenment', 'ffmpeg', 'ffmpeg4.4', 'libx11', 'libxkbcommon', 'mlt', 'nushell', 'qt5-base', 'redshift', 'sylpheed', 'terminology', 'vulkan-mesa-layers', 'vulkan-tools', 'whalebird', 'wlroots', 'xbacklight', 'xcb-util', 'xcb-util-image', 'xcb-util-keysyms', 'xcb-util-renderutil', 'xcb-util-wm', 'xlsatoms', 'xlsclients', 'xrdp', 'xwininfo']"
 license = "GPL2"
@@ -152,13 +152,13 @@ X.org X-protocol C Binding
 * /usr/lib/pkgconfig/xcb-xv.pc
 * /usr/lib/pkgconfig/xcb-xvmc.pc
 * /usr/lib/pkgconfig/xcb.pc
-* /usr/share/doc/libxcb-1.16.1/ChangeLog
-* /usr/share/doc/libxcb-1.16.1/COPYING
-* /usr/share/doc/libxcb-1.16.1/INSTALL
-* /usr/share/doc/libxcb-1.16.1/NEWS
-* /usr/share/doc/libxcb-1.16.1/README.md
-* /usr/share/doc/libxcb-1.16.1/tutorial/index.html
-* /usr/share/doc/libxcb-1.16.1/tutorial/xcb.css
+* /usr/share/doc/libxcb-1.17.0/ChangeLog
+* /usr/share/doc/libxcb-1.17.0/COPYING
+* /usr/share/doc/libxcb-1.17.0/INSTALL
+* /usr/share/doc/libxcb-1.17.0/NEWS
+* /usr/share/doc/libxcb-1.17.0/README.md
+* /usr/share/doc/libxcb-1.17.0/tutorial/index.html
+* /usr/share/doc/libxcb-1.17.0/tutorial/xcb.css
 * /usr/share/man/man3/xcb-examples.3.gz
 * /usr/share/man/man3/xcb-requests.3.gz
 * /usr/share/man/man3/xcb_alloc_color.3.gz
@@ -403,6 +403,8 @@ X.org X-protocol C Binding
 * /usr/share/man/man3/xcb_dri3_fd_from_fence_unchecked.3.gz
 * /usr/share/man/man3/xcb_dri3_fence_from_fd.3.gz
 * /usr/share/man/man3/xcb_dri3_fence_from_fd_checked.3.gz
+* /usr/share/man/man3/xcb_dri3_free_syncobj.3.gz
+* /usr/share/man/man3/xcb_dri3_free_syncobj_checked.3.gz
 * /usr/share/man/man3/xcb_dri3_get_supported_modifiers.3.gz
 * /usr/share/man/man3/xcb_dri3_get_supported_modifiers_reply.3.gz
 * /usr/share/man/man3/xcb_dri3_get_supported_modifiers_screen_modifiers.3.gz
@@ -412,6 +414,8 @@ X.org X-protocol C Binding
 * /usr/share/man/man3/xcb_dri3_get_supported_modifiers_window_modifiers.3.gz
 * /usr/share/man/man3/xcb_dri3_get_supported_modifiers_window_modifiers_end.3.gz
 * /usr/share/man/man3/xcb_dri3_get_supported_modifiers_window_modifiers_length.3.gz
+* /usr/share/man/man3/xcb_dri3_import_syncobj.3.gz
+* /usr/share/man/man3/xcb_dri3_import_syncobj_checked.3.gz
 * /usr/share/man/man3/xcb_dri3_open.3.gz
 * /usr/share/man/man3/xcb_dri3_open_reply.3.gz
 * /usr/share/man/man3/xcb_dri3_open_unchecked.3.gz
@@ -1289,6 +1293,8 @@ X.org X-protocol C Binding
 * /usr/share/man/man3/xcb_present_notify_msc_checked.3.gz
 * /usr/share/man/man3/xcb_present_pixmap.3.gz
 * /usr/share/man/man3/xcb_present_pixmap_checked.3.gz
+* /usr/share/man/man3/xcb_present_pixmap_synced.3.gz
+* /usr/share/man/man3/xcb_present_pixmap_synced_checked.3.gz
 * /usr/share/man/man3/xcb_present_query_capabilities.3.gz
 * /usr/share/man/man3/xcb_present_query_capabilities_reply.3.gz
 * /usr/share/man/man3/xcb_present_query_capabilities_unchecked.3.gz

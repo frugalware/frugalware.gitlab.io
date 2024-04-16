@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libxcb 1.16.1-1"
-version = "1.16.1-1"
+title = "lib32-libxcb 1.17.0-1"
+version = "1.17.0-1"
 description = "X.org X-protocol C Binding ( 32bit )"
-date = "2024-03-03T16:36:02"
+date = "2024-04-16T18:15:20"
 aliases = "/packages/217715"
 categories = ['lib32-extra']
 upstreamurl = "http://xcb.freedesktop.org"
 arch = "x86_64"
-size = "312548"
-usize = "3158489"
-sha1sum = "6b25599881eb891609757f045986820ccc7caf07"
+size = "313444"
+usize = "3166162"
+sha1sum = "67945c2c6f29d8e17c99248ea1bf27b0b5442882"
 depends = "['lib32-libxau>=1.0.8-8', 'lib32-libxdmcp>=1.1.2-8']"
 reverse_depends = "['lib32-cairo', 'lib32-ffmpeg', 'lib32-libx11', 'lib32-vulkan-mesa-layers', 'lib32-xcb-util', 'lib32-xcb-util-image', 'lib32-xcb-util-keysyms', 'lib32-xcb-util-renderutil', 'lib32-xcb-util-wm']"
 +++
