@@ -12,7 +12,7 @@ size = "22380"
 usize = "73924"
 sha1sum = "fe2c2438f8c6954f07ecdfacbc294a86dadf311d"
 depends = "['glibc']"
-reverse_depends = "['libgit2', 'restinio']"
+reverse_depends = "['libgit2', 'r2modman', 'restinio']"
 +++
 ### Description: 
 Parser for HTTP Request/Response written in C

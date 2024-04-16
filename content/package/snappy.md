@@ -12,7 +12,7 @@ size = "29212"
 usize = "95110"
 sha1sum = "363f3f49965be39af163349cbf37acaa55920711"
 depends = "['libstdc++>=11.2']"
-reverse_depends = "['blosc', 'chromium-browser', 'ospray', 'qemu', 'qt5-webengine', 'qt6-webengine', 'wireshark']"
+reverse_depends = "['blosc', 'chromium-browser', 'ospray', 'qemu', 'qt5-webengine', 'qt6-webengine', 'r2modman', 'wireshark']"
 +++
 ### Description: 
 Snappy is a compression/decompression library which aim for very high speeds and reasonable compression
