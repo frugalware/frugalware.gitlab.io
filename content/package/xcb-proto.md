@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xcb-proto 1.16.0-2"
-version = "1.16.0-2"
+title = "xcb-proto 1.17.0-1"
+version = "1.17.0-1"
 description = "X.org X protocol descriptions for XCB"
-date = "2023-10-05T08:48:37"
+date = "2024-04-16T14:22:09"
 aliases = "/packages/14765"
 categories = ['x11']
 upstreamurl = "http://xcb.freedesktop.org"
 arch = "x86_64"
-size = "130252"
-usize = "1087366"
-sha1sum = "1fc006e88c47cf5ff97c8a4c5149b7f2f76774ca"
+size = "130424"
+usize = "1088743"
+sha1sum = "297cf1f2331edbc9d717e6057ee0efdd294ca990"
 depends = "['libpthread-stubs', 'python3>=3.12']"
 reverse_depends = "['x11-protos']"
 +++
@@ -47,11 +47,11 @@ X.org X protocol descriptions for XCB
 * /usr/lib/python3.12/site-packages/xcbgen/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/xcbgen/__pycache__/__init__.cpython-312.opt-2.pyc
 * /usr/lib/python3.12/site-packages/xcbgen/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/xcb-proto-1.16.0/COPYING
-* /usr/share/doc/xcb-proto-1.16.0/INSTALL
-* /usr/share/doc/xcb-proto-1.16.0/NEWS
-* /usr/share/doc/xcb-proto-1.16.0/README.md
-* /usr/share/doc/xcb-proto-1.16.0/TODO
+* /usr/share/doc/xcb-proto-1.17.0/COPYING
+* /usr/share/doc/xcb-proto-1.17.0/INSTALL
+* /usr/share/doc/xcb-proto-1.17.0/NEWS
+* /usr/share/doc/xcb-proto-1.17.0/README.md
+* /usr/share/doc/xcb-proto-1.17.0/TODO
 * /usr/share/xcb/bigreq.xml
 * /usr/share/xcb/composite.xml
 * /usr/share/xcb/damage.xml

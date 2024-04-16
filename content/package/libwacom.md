@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libwacom 2.10.0-1"
-version = "2.10.0-1"
+title = "libwacom 2.11.0-1"
+version = "2.11.0-1"
 description = "Tablet Information Client Library"
-date = "2024-02-07T09:47:00"
+date = "2024-04-16T14:19:02"
 aliases = "/packages/153043"
 categories = ['x11']
 upstreamurl = "https://github.com/linuxwacom/libwacom"
 arch = "x86_64"
-size = "88500"
-usize = "772470"
-sha1sum = "a2051575e67bf47ba2a9c3b23abd8f73741f2ed5"
+size = "89624"
+usize = "774758"
+sha1sum = "4333a4ae6274ed42131bfc403b97902086775182"
 depends = "['glib2>=2.49.7-2', 'libevdev', 'libffi>=3.2.1-2', 'libgudev>=230-7', 'libudev>=231-6']"
 reverse_depends = "['libinput']"
 +++
@@ -29,9 +29,9 @@ Tablet Information Client Library
 * /usr/lib/pkgconfig/libwacom.pc
 * /usr/lib/udev/hwdb.d/65-libwacom.hwdb
 * /usr/lib/udev/rules.d/65-libwacom.rules
-* /usr/share/doc/libwacom-2.10.0/COPYING
-* /usr/share/doc/libwacom-2.10.0/NEWS
-* /usr/share/doc/libwacom-2.10.0/README.md
+* /usr/share/doc/libwacom-2.11.0/COPYING
+* /usr/share/doc/libwacom-2.11.0/NEWS
+* /usr/share/doc/libwacom-2.11.0/README.md
 * /usr/share/libwacom/bamboo-0fg-m-p-alt.tablet
 * /usr/share/libwacom/bamboo-0fg-s-p-alt.tablet
 * /usr/share/libwacom/bamboo-0fg-s-p.tablet
@@ -124,9 +124,12 @@ Tablet Information Client Library
 * /usr/share/libwacom/elan-2a70.tablet
 * /usr/share/libwacom/elan-2ad9.tablet
 * /usr/share/libwacom/elan-2bb3.tablet
+* /usr/share/libwacom/elan-2bd6.tablet
 * /usr/share/libwacom/elan-2c1b.tablet
 * /usr/share/libwacom/elan-2d55.tablet
 * /usr/share/libwacom/elan-2fc2.tablet
+* /usr/share/libwacom/elan-425a.tablet
+* /usr/share/libwacom/elan-425b.tablet
 * /usr/share/libwacom/elan-5515.tablet
 * /usr/share/libwacom/gaomon-s620.tablet
 * /usr/share/libwacom/generic.tablet
@@ -476,6 +479,7 @@ Tablet Information Client Library
 * /usr/share/libwacom/layouts/xp-pen-deco-pro-s-m-sw-mw.svg
 * /usr/share/libwacom/layouts/xp-pen-deco01-v2.svg
 * /usr/share/libwacom/layouts/xp-pen-star03.svg
+* /usr/share/libwacom/lenovo-ideapad-duet.tablet
 * /usr/share/libwacom/letsketch-wp9620.tablet
 * /usr/share/libwacom/libwacom.stylus
 * /usr/share/libwacom/mobilestudio-pro-13-2.tablet
@@ -492,6 +496,7 @@ Tablet Information Client Library
 * /usr/share/libwacom/surface-go-2.tablet
 * /usr/share/libwacom/surface-go.tablet
 * /usr/share/libwacom/volito-4x5.tablet
+* /usr/share/libwacom/wacom-hid-52EB-pen.tablet
 * /usr/share/libwacom/wacom-hid-52fa-pen.tablet
 * /usr/share/libwacom/wacom-hid-5362.tablet
 * /usr/share/libwacom/wacom-one-12.tablet

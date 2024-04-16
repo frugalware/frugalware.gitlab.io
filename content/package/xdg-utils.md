@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xdg-utils 1.1.3-4"
-version = "1.1.3-4"
+title = "xdg-utils 1.2.1-1"
+version = "1.2.1-1"
 description = "A set of command line tools that assist applications with a variety of desktop integration tasks."
-date = "2022-02-02T18:44:05"
+date = "2024-04-16T14:27:21"
 aliases = "/packages/15080"
 categories = ['apps']
-upstreamurl = "http://portland.freedesktop.org/wiki/"
+upstreamurl = "https://www.freedesktop.org/wiki/Software/xdg-utils"
 arch = "x86_64"
-size = "63980"
-usize = "323680"
-sha1sum = "ee7b51738231dd9952c70c773d2e327d6057768e"
+size = "70228"
+usize = "358225"
+sha1sum = "06325aa065e921bd539dee472964298634d567bc"
 depends = "[]"
 reverse_depends = "['djvulibre', 'gimp', 'keepass', 'lumina-desktop', 'qt6-base', 'slack-desktop', 'wl-clipboard']"
 +++
@@ -26,11 +26,11 @@ A set of command line tools that assist applications with a variety of desktop i
 * /usr/bin/xdg-open
 * /usr/bin/xdg-screensaver
 * /usr/bin/xdg-settings
-* /usr/share/doc/xdg-utils-1.1.3/ChangeLog
-* /usr/share/doc/xdg-utils-1.1.3/LICENSE
-* /usr/share/doc/xdg-utils-1.1.3/README
-* /usr/share/doc/xdg-utils-1.1.3/RELEASE_NOTES
-* /usr/share/doc/xdg-utils-1.1.3/TODO
+* /usr/share/doc/xdg-utils-1.2.1/ChangeLog
+* /usr/share/doc/xdg-utils-1.2.1/LICENSE
+* /usr/share/doc/xdg-utils-1.2.1/README.md
+* /usr/share/doc/xdg-utils-1.2.1/RELEASE_NOTES
+* /usr/share/doc/xdg-utils-1.2.1/TODO
 * /usr/share/man/man1/xdg-desktop-icon.1.gz
 * /usr/share/man/man1/xdg-desktop-menu.1.gz
 * /usr/share/man/man1/xdg-email.1.gz

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "shellcheck 0.9.0-9"
-version = "0.9.0-9"
+title = "shellcheck 0.10.0-1"
+version = "0.10.0-1"
 description = "Shell script analysis tool"
-date = "2023-12-13T18:58:55"
+date = "2024-04-16T14:17:01"
 aliases = "/packages/217684"
 categories = ['devel-extra']
 upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/ShellCheck"
 arch = "x86_64"
-size = "2929432"
-usize = "22827904"
-sha1sum = "dccb12bb2b93d19c1029bd8fee9a32841dff79e5"
+size = "2964428"
+usize = "23240544"
+sha1sum = "2b2b01cc3855e63b9f5f89e7c891570aa748e9a4"
 depends = "['haskell-aeson>=1.5.5.1-3', 'haskell-diff', 'haskell-fgl', 'haskell-quickcheck>=2.14.2', 'haskell-regex-tdfa>=1.3.1.1', 'libffi>=3.4']"
 +++
 ### Description: 
