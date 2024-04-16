@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "r2modman 3.1.48-1"
-version = "3.1.48-1"
+title = "r2modman 3.1.48-2"
+version = "3.1.48-2"
 description = "A simple and easy to use mod manager for several games using Thunderstore."
-date = "2024-04-16T17:06:18"
+date = "2024-04-16T17:18:46"
 aliases = "/packages/221449"
 categories = ['games-extra']
 upstreamurl = "https://github.com/ebkr/r2modmanPlus"
 arch = "x86_64"
-size = "88139232"
-usize = "298166213"
-sha1sum = "4ce51ff71d906ad4b5d5ad3fdb42351b346fc1e9"
+size = "88134704"
+usize = "298166454"
+sha1sum = "d3982d07309fe9926e66164ca6c795b4b5a1ef87"
 depends = "['c-ares', 'ffmpeg', 'gtk+3', 'http-parser', 'libappindicator', 'libevent', 'libnotify', 'libvpx', 'libxscrnsaver', 'libxslt', 'nss', 're2', 'snappy', 'zlib']"
 +++
 ### Description: 
@@ -18,6 +18,7 @@ A simple and easy to use mod manager for several games using Thunderstore.
 
 ### Files: 
 * /usr/bin/r2modman
+* /usr/share/applications/r2modman.desktop
 * /usr/share/doc/r2modman-3.1.48/LICENSE
 * /usr/share/doc/r2modman-3.1.48/README.md
 * /usr/share/icons/hicolor/128x128/apps/r2modman.png
