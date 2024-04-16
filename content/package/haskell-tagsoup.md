@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "haskell-tagsoup 0.14.8-5"
-version = "0.14.8-5"
+title = "haskell-tagsoup 0.14.8-6"
+version = "0.14.8-6"
 description = "Parsing and extracting information from (possibly malformed) HTML/XML documents"
-date = "2023-12-13T13:59:25"
+date = "2024-04-16T09:15:02"
 aliases = "/packages/220741"
 categories = ['devel-extra']
 upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/tagsoup"
 arch = "x86_64"
-size = "983784"
-usize = "13190201"
-sha1sum = "9c81e42fde132a8062530b6690ee3ee09a632685"
+size = "987556"
+usize = "13121718"
+sha1sum = "7e5e181edd82c453847b52b4ed3726cc59630f59"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['pandoc']"
 +++
