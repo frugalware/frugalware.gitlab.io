@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vim 9.1.0035-2"
-version = "9.1.0035-2"
+title = "vim 9.1.0336-1"
+version = "9.1.0336-1"
 description = "VIM - Vi IMproved console"
-date = "2024-01-17T15:28:12"
+date = "2024-04-16T12:40:55"
 aliases = "/packages/218458"
 categories = ['base']
 upstreamurl = "http://www.vim.org"
 arch = "x86_64"
-size = "8745228"
-usize = "43063939"
-sha1sum = "579e15df50d651e1ada6d35d99626656960379d4"
+size = "9059376"
+usize = "42955992"
+sha1sum = "b681e0b33b33dd983e428331a1ea8817e916c24d"
 depends = "['ncurses>=6.1', 'xfsprogs-acl>=2.2.52-5']"
 reverse_depends = "['gvim']"
 +++
@@ -28,11 +28,12 @@ VIM - Vi IMproved console
 * /usr/bin/vimtutor
 * /usr/bin/xxd
 * /usr/share/applications/vim.desktop
-* /usr/share/doc/vim-9.1.0035/LICENSE
-* /usr/share/doc/vim-9.1.0035/README.Frugalware
-* /usr/share/doc/vim-9.1.0035/README.md
-* /usr/share/doc/vim-9.1.0035/README.txt
-* /usr/share/doc/vim-9.1.0035/README_VIM9.md
+* /usr/share/doc/vim-9.1.0336/LICENSE
+* /usr/share/doc/vim-9.1.0336/README.Frugalware
+* /usr/share/doc/vim-9.1.0336/README.md
+* /usr/share/doc/vim-9.1.0336/README.rux.txt
+* /usr/share/doc/vim-9.1.0336/README.txt
+* /usr/share/doc/vim-9.1.0336/README_VIM9.md
 * /usr/share/icons/hicolor/48x48/apps/gvim.png
 * /usr/share/icons/locolor/16x16/apps/gvim.png
 * /usr/share/icons/locolor/32x32/apps/gvim.png
@@ -213,6 +214,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/autoload/adacomplete.vim
 * /usr/share/vim/autoload/bitbake.vim
 * /usr/share/vim/autoload/cargo.vim
+* /usr/share/vim/autoload/cargo/quickfix.vim
 * /usr/share/vim/autoload/ccomplete.vim
 * /usr/share/vim/autoload/clojurecomplete.vim
 * /usr/share/vim/autoload/context.vim
@@ -248,6 +250,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/autoload/RstFold.vim
 * /usr/share/vim/autoload/rubycomplete.vim
 * /usr/share/vim/autoload/rust.vim
+* /usr/share/vim/autoload/rust/debugging.vim
 * /usr/share/vim/autoload/rustfmt.vim
 * /usr/share/vim/autoload/spellfile.vim
 * /usr/share/vim/autoload/sqlcomplete.vim
@@ -367,10 +370,12 @@ VIM - Vi IMproved console
 * /usr/share/vim/compiler/neato.vim
 * /usr/share/vim/compiler/ocaml.vim
 * /usr/share/vim/compiler/onsgmls.vim
+* /usr/share/vim/compiler/pandoc.vim
 * /usr/share/vim/compiler/pbx.vim
 * /usr/share/vim/compiler/perl.vim
 * /usr/share/vim/compiler/perlcritic.vim
 * /usr/share/vim/compiler/php.vim
+* /usr/share/vim/compiler/pip_compile.vim
 * /usr/share/vim/compiler/podchecker.vim
 * /usr/share/vim/compiler/powershell.vim
 * /usr/share/vim/compiler/pylint.vim
@@ -382,6 +387,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/compiler/rake.vim
 * /usr/share/vim/compiler/README.txt
 * /usr/share/vim/compiler/rhino.vim
+* /usr/share/vim/compiler/rime_deployer.vim
 * /usr/share/vim/compiler/rspec.vim
 * /usr/share/vim/compiler/rst.vim
 * /usr/share/vim/compiler/rubocop.vim
@@ -404,6 +410,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/compiler/ts-node.vim
 * /usr/share/vim/compiler/tsc.vim
 * /usr/share/vim/compiler/typedoc.vim
+* /usr/share/vim/compiler/vimdoc.vim
 * /usr/share/vim/compiler/xbuild.vim
 * /usr/share/vim/compiler/xmllint.vim
 * /usr/share/vim/compiler/xmlwf.vim
@@ -509,6 +516,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/doc/syntax.txt
 * /usr/share/vim/doc/tabpage.txt
 * /usr/share/vim/doc/tags
+* /usr/share/vim/doc/tags-ru
 * /usr/share/vim/doc/tagsrch.txt
 * /usr/share/vim/doc/term.txt
 * /usr/share/vim/doc/terminal.txt
@@ -516,6 +524,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/doc/textprop.txt
 * /usr/share/vim/doc/tips.txt
 * /usr/share/vim/doc/todo.txt
+* /usr/share/vim/doc/uganda.rux
 * /usr/share/vim/doc/uganda.txt
 * /usr/share/vim/doc/undo.txt
 * /usr/share/vim/doc/userfunc.txt
@@ -584,6 +593,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/ftplugin/apache.vim
 * /usr/share/vim/ftplugin/arch.vim
 * /usr/share/vim/ftplugin/art.vim
+* /usr/share/vim/ftplugin/asciidoc.vim
 * /usr/share/vim/ftplugin/asm.vim
 * /usr/share/vim/ftplugin/aspvbs.vim
 * /usr/share/vim/ftplugin/automake.vim
@@ -592,6 +602,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/ftplugin/basic.vim
 * /usr/share/vim/ftplugin/bdf.vim
 * /usr/share/vim/ftplugin/bitbake.vim
+* /usr/share/vim/ftplugin/bp.vim
 * /usr/share/vim/ftplugin/bst.vim
 * /usr/share/vim/ftplugin/btm.vim
 * /usr/share/vim/ftplugin/bzl.vim
@@ -599,6 +610,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/ftplugin/calendar.vim
 * /usr/share/vim/ftplugin/cdrdaoconf.vim
 * /usr/share/vim/ftplugin/cfg.vim
+* /usr/share/vim/ftplugin/cgdbrc.vim
 * /usr/share/vim/ftplugin/ch.vim
 * /usr/share/vim/ftplugin/changelog.vim
 * /usr/share/vim/ftplugin/chatito.vim
@@ -620,6 +632,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/ftplugin/css.vim
 * /usr/share/vim/ftplugin/cucumber.vim
 * /usr/share/vim/ftplugin/cvsrc.vim
+* /usr/share/vim/ftplugin/deb822sources.vim
 * /usr/share/vim/ftplugin/debchangelog.vim
 * /usr/share/vim/ftplugin/debcontrol.vim
 * /usr/share/vim/ftplugin/debsources.vim
@@ -635,6 +648,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/ftplugin/dosini.vim
 * /usr/share/vim/ftplugin/dtd.vim
 * /usr/share/vim/ftplugin/dtrace.vim
+* /usr/share/vim/ftplugin/dts.vim
 * /usr/share/vim/ftplugin/dune.vim
 * /usr/share/vim/ftplugin/eiffel.vim
 * /usr/share/vim/ftplugin/elinks.vim
@@ -685,6 +699,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/ftplugin/hostsaccess.vim
 * /usr/share/vim/ftplugin/html.vim
 * /usr/share/vim/ftplugin/htmldjango.vim
+* /usr/share/vim/ftplugin/hurl.vim
 * /usr/share/vim/ftplugin/i3config.vim
 * /usr/share/vim/ftplugin/icon.vim
 * /usr/share/vim/ftplugin/indent.vim
@@ -758,6 +773,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/ftplugin/ocaml.vim
 * /usr/share/vim/ftplugin/occam.vim
 * /usr/share/vim/ftplugin/octave.vim
+* /usr/share/vim/ftplugin/odin.vim
 * /usr/share/vim/ftplugin/openvpn.vim
 * /usr/share/vim/ftplugin/pamconf.vim
 * /usr/share/vim/ftplugin/pascal.vim
@@ -792,11 +808,13 @@ VIM - Vi IMproved console
 * /usr/share/vim/ftplugin/readline.vim
 * /usr/share/vim/ftplugin/README.txt
 * /usr/share/vim/ftplugin/registry.vim
+* /usr/share/vim/ftplugin/requirements.vim
 * /usr/share/vim/ftplugin/reva.vim
 * /usr/share/vim/ftplugin/rhelp.vim
 * /usr/share/vim/ftplugin/rmd.vim
 * /usr/share/vim/ftplugin/rnc.vim
 * /usr/share/vim/ftplugin/rnoweb.vim
+* /usr/share/vim/ftplugin/roc.vim
 * /usr/share/vim/ftplugin/routeros.vim
 * /usr/share/vim/ftplugin/rpl.vim
 * /usr/share/vim/ftplugin/rrst.vim
@@ -877,6 +895,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/ftplugin/xsd.vim
 * /usr/share/vim/ftplugin/xslt.vim
 * /usr/share/vim/ftplugin/yaml.vim
+* /usr/share/vim/ftplugin/zathurarc.vim
 * /usr/share/vim/ftplugin/zig.vim
 * /usr/share/vim/ftplugin/zimbu.vim
 * /usr/share/vim/ftplugin/zsh.vim
@@ -888,6 +907,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/indent/aap.vim
 * /usr/share/vim/indent/ada.vim
 * /usr/share/vim/indent/ant.vim
+* /usr/share/vim/indent/asm.vim
 * /usr/share/vim/indent/automake.vim
 * /usr/share/vim/indent/awk.vim
 * /usr/share/vim/indent/bash.vim
@@ -952,6 +972,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/indent/javascript.vim
 * /usr/share/vim/indent/javascriptreact.vim
 * /usr/share/vim/indent/json.vim
+* /usr/share/vim/indent/json5.vim
 * /usr/share/vim/indent/jsonc.vim
 * /usr/share/vim/indent/jsp.vim
 * /usr/share/vim/indent/julia.vim
@@ -979,6 +1000,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/indent/obse.vim
 * /usr/share/vim/indent/ocaml.vim
 * /usr/share/vim/indent/occam.vim
+* /usr/share/vim/indent/odin.vim
 * /usr/share/vim/indent/pascal.vim
 * /usr/share/vim/indent/perl.vim
 * /usr/share/vim/indent/php.vim
@@ -1509,6 +1531,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/syntax/cdrtoc.vim
 * /usr/share/vim/syntax/cf.vim
 * /usr/share/vim/syntax/cfg.vim
+* /usr/share/vim/syntax/cgdbrc.vim
 * /usr/share/vim/syntax/ch.vim
 * /usr/share/vim/syntax/chaiscript.vim
 * /usr/share/vim/syntax/change.vim
@@ -1519,11 +1542,13 @@ VIM - Vi IMproved console
 * /usr/share/vim/syntax/chicken.vim
 * /usr/share/vim/syntax/chill.vim
 * /usr/share/vim/syntax/chordpro.vim
+* /usr/share/vim/syntax/chuck.vim
 * /usr/share/vim/syntax/cl.vim
 * /usr/share/vim/syntax/clean.vim
 * /usr/share/vim/syntax/clipper.vim
 * /usr/share/vim/syntax/clojure.vim
 * /usr/share/vim/syntax/cmake.vim
+* /usr/share/vim/syntax/cmakecache.vim
 * /usr/share/vim/syntax/cmod.vim
 * /usr/share/vim/syntax/cmusrc.vim
 * /usr/share/vim/syntax/cobol.vim
@@ -1840,6 +1865,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/syntax/obse.vim
 * /usr/share/vim/syntax/ocaml.vim
 * /usr/share/vim/syntax/occam.vim
+* /usr/share/vim/syntax/odin.vim
 * /usr/share/vim/syntax/omnimark.vim
 * /usr/share/vim/syntax/opam.vim
 * /usr/share/vim/syntax/openroad.vim
@@ -1850,6 +1876,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/syntax/pacmanlog.vim
 * /usr/share/vim/syntax/pamconf.vim
 * /usr/share/vim/syntax/pamenv.vim
+* /usr/share/vim/syntax/pandoc.vim
 * /usr/share/vim/syntax/papp.vim
 * /usr/share/vim/syntax/pascal.vim
 * /usr/share/vim/syntax/passwd.vim
@@ -1922,6 +1949,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/syntax/registry.vim
 * /usr/share/vim/syntax/rego.vim
 * /usr/share/vim/syntax/remind.vim
+* /usr/share/vim/syntax/requirements.vim
 * /usr/share/vim/syntax/resolv.vim
 * /usr/share/vim/syntax/reva.vim
 * /usr/share/vim/syntax/rexx.vim
@@ -2141,6 +2169,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/syntax/yacc.vim
 * /usr/share/vim/syntax/yaml.vim
 * /usr/share/vim/syntax/z8a.vim
+* /usr/share/vim/syntax/zathurarc.vim
 * /usr/share/vim/syntax/zig.vim
 * /usr/share/vim/syntax/zimbu.vim
 * /usr/share/vim/syntax/zir.vim
@@ -2209,6 +2238,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/tutor/tutor.ko
 * /usr/share/vim/tutor/tutor.ko.euc
 * /usr/share/vim/tutor/tutor.ko.utf-8
+* /usr/share/vim/tutor/tutor.lt.utf-8
 * /usr/share/vim/tutor/tutor.lv.utf-8
 * /usr/share/vim/tutor/tutor.nb
 * /usr/share/vim/tutor/tutor.nb.utf-8

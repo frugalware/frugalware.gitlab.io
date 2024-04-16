@@ -12,7 +12,7 @@ size = "389528"
 usize = "5581417"
 sha1sum = "44400205bddce9b57bbe4332ca5564cb532c6e02"
 depends = "['haskell-emojis', 'haskell-safe']"
-reverse_depends = "['haskell-doctemplates', 'haskell-gridtables', 'haskell-hslua-module-doclayout']"
+reverse_depends = "['haskell-djot', 'haskell-doctemplates', 'haskell-gridtables', 'haskell-hslua-module-doclayout']"
 +++
 ### Description: 
 A prettyprinting library for laying out text documents
