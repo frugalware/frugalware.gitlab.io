@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "shiboken6 6.6.2-3"
-version = "6.6.2-3"
+title = "shiboken6 6.7.0-1"
+version = "6.7.0-1"
 description = "Support library for Python bindings."
-date = "2024-04-04T14:41:39"
+date = "2024-04-16T21:21:26"
 aliases = "/packages/220852"
 categories = ['devel-extra']
 upstreamurl = "https://wiki.qt.io/Qt_for_Python"
 arch = "x86_64"
-size = "949492"
-usize = "2877546"
-sha1sum = "777dc9588d43a64c7e75c12e3ec533042440484f"
+size = "958456"
+usize = "2906668"
+sha1sum = "3354e14d61020de35cd11fbe6c0aee4a8e92e131"
 depends = "['clang-libs>=17.0.6', 'libxslt', 'qt6-base>=6.7.0']"
 +++
 ### Description: 
@@ -26,7 +26,9 @@ Support library for Python bindings.
 * /usr/include/shiboken6/bufferprocs_py37.h
 * /usr/include/shiboken6/gilstate.h
 * /usr/include/shiboken6/helper.h
+* /usr/include/shiboken6/pep384ext.h
 * /usr/include/shiboken6/pep384impl.h
+* /usr/include/shiboken6/pyobjectholder.h
 * /usr/include/shiboken6/sbkarrayconverter.h
 * /usr/include/shiboken6/sbkcontainer.h
 * /usr/include/shiboken6/sbkconverter.h
@@ -63,10 +65,10 @@ Support library for Python bindings.
 * /usr/lib/cmake/Shiboken6Tools/Shiboken6ToolsTargets-release.cmake
 * /usr/lib/cmake/Shiboken6Tools/Shiboken6ToolsTargets.cmake
 * /usr/lib/pkgconfig/shiboken6.pc
-* /usr/share/doc/shiboken6-6.6.2/README.md
-* /usr/share/doc/shiboken6-6.6.2/README.pyside6.md
-* /usr/share/doc/shiboken6-6.6.2/README.pyside6_addons.md
-* /usr/share/doc/shiboken6-6.6.2/README.pyside6_essentials.md
-* /usr/share/doc/shiboken6-6.6.2/README.pyside6_examples.md
-* /usr/share/doc/shiboken6-6.6.2/README.shiboken6-generator.md
-* /usr/share/doc/shiboken6-6.6.2/README.shiboken6.md
+* /usr/share/doc/shiboken6-6.7.0/README.md
+* /usr/share/doc/shiboken6-6.7.0/README.pyside6.md
+* /usr/share/doc/shiboken6-6.7.0/README.pyside6_addons.md
+* /usr/share/doc/shiboken6-6.7.0/README.pyside6_essentials.md
+* /usr/share/doc/shiboken6-6.7.0/README.pyside6_examples.md
+* /usr/share/doc/shiboken6-6.7.0/README.shiboken6-generator.md
+* /usr/share/doc/shiboken6-6.7.0/README.shiboken6.md

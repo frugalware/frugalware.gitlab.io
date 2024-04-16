@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pyside6 6.6.2-2"
-version = "6.6.2-2"
+title = "pyside6 6.7.0-1"
+version = "6.7.0-1"
 description = "The PySide project provides LGPL-licensed Python bindings for the Qt cross-platform application and UI framework."
-date = "2024-03-27T11:03:44"
+date = "2024-04-16T21:40:17"
 aliases = "/packages/220854"
 categories = ['lib-extra']
 upstreamurl = "https://wiki.qt.io/Qt_for_Python"
 arch = "x86_64"
-size = "8985596"
-usize = "57864672"
-sha1sum = "198a8da430bc788c28829d3ac21dcd0d86803dc7"
-depends = "['python3>=3.11', 'python3-shiboken6>=6.6.2', 'qt6-declarative>=6.6.3']"
+size = "9513888"
+usize = "60507986"
+sha1sum = "e3765f4de1ff7ff3804ddfaf369847e499effb24"
+depends = "['python3>=3.11', 'python3-shiboken6>=6.7.0', 'qt6-declarative>=6.7.0']"
 reverse_depends = "['yin-yang']"
 +++
 ### Description: 
@@ -74,6 +74,7 @@ The PySide project provides LGPL-licensed Python bindings for the Qt cross-platf
 * /usr/include/PySide6/QtCharts/pyside6_qtcharts_python.h
 * /usr/include/PySide6/QtConcurrent/pyside6_qtconcurrent_python.h
 * /usr/include/PySide6/QtCore/pyside6_qtcore_python.h
+* /usr/include/PySide6/QtCore/qiopipe.h
 * /usr/include/PySide6/QtCore/qtcorehelper.h
 * /usr/include/PySide6/QtDataVisualization/pyside6_qtdatavisualization_python.h
 * /usr/include/PySide6/QtDataVisualization/qtdatavisualization_helper.h
@@ -104,6 +105,7 @@ The PySide project provides LGPL-licensed Python bindings for the Qt cross-platf
 * /usr/include/PySide6/QtQuick/pyside6_qtquick_python.h
 * /usr/include/PySide6/QtQuick3D/pyside6_qtquick3d_python.h
 * /usr/include/PySide6/QtQuickControls2/pyside6_qtquickcontrols2_python.h
+* /usr/include/PySide6/QtQuickTest/pyside6_qtquicktest_python.h
 * /usr/include/PySide6/QtQuickWidgets/pyside6_qtquickwidgets_python.h
 * /usr/include/PySide6/QtRemoteObjects/pyside6_qtremoteobjects_python.h
 * /usr/include/PySide6/QtScxml/pyside6_qtscxml_python.h
@@ -137,11 +139,11 @@ The PySide project provides LGPL-licensed Python bindings for the Qt cross-platf
 * /usr/lib/cmake/PySide6Qml/PySide6QmlTargets-release.cmake
 * /usr/lib/cmake/PySide6Qml/PySide6QmlTargets.cmake
 * /usr/lib/libpyside6.abi3.so
-* /usr/lib/libpyside6.abi3.so.6.6
-* /usr/lib/libpyside6.abi3.so.6.6.2
+* /usr/lib/libpyside6.abi3.so.6.7
+* /usr/lib/libpyside6.abi3.so.6.7.0
 * /usr/lib/libpyside6qml.abi3.so
-* /usr/lib/libpyside6qml.abi3.so.6.6
-* /usr/lib/libpyside6qml.abi3.so.6.6.2
+* /usr/lib/libpyside6qml.abi3.so.6.7
+* /usr/lib/libpyside6qml.abi3.so.6.7.0
 * /usr/lib/pkgconfig/pyside6.pc
 * /usr/lib/python3.12/site-packages/PySide6/Qt3DAnimation.abi3.so
 * /usr/lib/python3.12/site-packages/PySide6/Qt3DAnimation.pyi
@@ -214,6 +216,8 @@ The PySide project provides LGPL-licensed Python bindings for the Qt cross-platf
 * /usr/lib/python3.12/site-packages/PySide6/QtQuick3D.pyi
 * /usr/lib/python3.12/site-packages/PySide6/QtQuickControls2.abi3.so
 * /usr/lib/python3.12/site-packages/PySide6/QtQuickControls2.pyi
+* /usr/lib/python3.12/site-packages/PySide6/QtQuickTest.abi3.so
+* /usr/lib/python3.12/site-packages/PySide6/QtQuickTest.pyi
 * /usr/lib/python3.12/site-packages/PySide6/QtQuickWidgets.abi3.so
 * /usr/lib/python3.12/site-packages/PySide6/QtQuickWidgets.pyi
 * /usr/lib/python3.12/site-packages/PySide6/QtRemoteObjects.abi3.so
@@ -263,13 +267,13 @@ The PySide project provides LGPL-licensed Python bindings for the Qt cross-platf
 * /usr/lib/python3.12/site-packages/PySide6/_git_pyside_version.py
 * /usr/lib/python3.12/site-packages/PySide6/__init__.py
 * /usr/lib/qt6/plugins/designer/libPySidePlugin.so
-* /usr/share/doc/pyside6-6.6.2/README.md
-* /usr/share/doc/pyside6-6.6.2/README.pyside6.md
-* /usr/share/doc/pyside6-6.6.2/README.pyside6_addons.md
-* /usr/share/doc/pyside6-6.6.2/README.pyside6_essentials.md
-* /usr/share/doc/pyside6-6.6.2/README.pyside6_examples.md
-* /usr/share/doc/pyside6-6.6.2/README.shiboken6-generator.md
-* /usr/share/doc/pyside6-6.6.2/README.shiboken6.md
+* /usr/share/doc/pyside6-6.7.0/README.md
+* /usr/share/doc/pyside6-6.7.0/README.pyside6.md
+* /usr/share/doc/pyside6-6.7.0/README.pyside6_addons.md
+* /usr/share/doc/pyside6-6.7.0/README.pyside6_essentials.md
+* /usr/share/doc/pyside6-6.7.0/README.pyside6_examples.md
+* /usr/share/doc/pyside6-6.7.0/README.shiboken6-generator.md
+* /usr/share/doc/pyside6-6.7.0/README.shiboken6.md
 * /usr/share/PySide6/glue/qtcharts.cpp
 * /usr/share/PySide6/glue/qtcore.cpp
 * /usr/share/PySide6/glue/qtdatavisualization.cpp
@@ -280,9 +284,11 @@ The PySide project provides LGPL-licensed Python bindings for the Qt cross-platf
 * /usr/share/PySide6/glue/qtnetwork.cpp
 * /usr/share/PySide6/glue/qtnetworkauth.cpp
 * /usr/share/PySide6/glue/qtopengl.cpp
+* /usr/share/PySide6/glue/qtpositioning.cpp
 * /usr/share/PySide6/glue/qtprintsupport.cpp
 * /usr/share/PySide6/glue/qtqml.cpp
 * /usr/share/PySide6/glue/qtquick.cpp
+* /usr/share/PySide6/glue/qtquicktest.cpp
 * /usr/share/PySide6/glue/qtserialbus.cpp
 * /usr/share/PySide6/glue/qtsql.cpp
 * /usr/share/PySide6/glue/qtstatemachine.cpp
@@ -367,6 +373,7 @@ The PySide project provides LGPL-licensed Python bindings for the Qt cross-platf
 * /usr/share/PySide6/typesystems/typesystem_quick.xml
 * /usr/share/PySide6/typesystems/typesystem_quick3d.xml
 * /usr/share/PySide6/typesystems/typesystem_quickcontrols2.xml
+* /usr/share/PySide6/typesystems/typesystem_quicktest.xml
 * /usr/share/PySide6/typesystems/typesystem_quickwidgets.xml
 * /usr/share/PySide6/typesystems/typesystem_remoteobjects.xml
 * /usr/share/PySide6/typesystems/typesystem_scxml.xml
