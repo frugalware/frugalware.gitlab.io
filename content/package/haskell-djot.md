@@ -12,6 +12,7 @@ size = "4272472"
 usize = "37506478"
 sha1sum = "a0445ab66f64da073853417487ca4e0bf80469c5"
 depends = "['haskell-doclayout']"
+reverse_depends = "['pandoc']"
 +++
 ### Description: 
 Parser and renderer for djot light markup syntax.
