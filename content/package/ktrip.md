@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ktrip 24.02.2-2"
-version = "24.02.2-2"
+title = "ktrip 24.02.2-3"
+version = "24.02.2-3"
 description = "Public Transport Assistance for Mobile Devices"
-date = "2024-04-13T19:04:09"
+date = "2024-04-17T01:43:24"
 aliases = "/packages/220986"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "96740"
+size = "96708"
 usize = "403719"
-sha1sum = "c7113a9489c45cd3487bb8b396ba3a345117ffd8"
+sha1sum = "a6aeb1688981e90eaaca64fec9c9c4d3e7e708fd"
 depends = "['kconfig', 'kcoreaddons', 'kirigami-addons', 'kitemmodels', 'kpublictransport', 'qqc2-desktop-style']"
 +++
 ### Description: 

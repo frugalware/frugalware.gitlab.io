@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libkipi 24.02.2-2"
-version = "24.02.2-2"
+title = "libkipi 24.02.2-3"
+version = "24.02.2-3"
 description = "KDE Image Plugin Interface, a C++ library to share plugins among graphic release-service."
-date = "2024-04-13T17:30:46"
+date = "2024-04-17T02:29:59"
 aliases = "/packages/74206"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "99548"
+size = "99552"
 usize = "275864"
-sha1sum = "90ce6e8c45d43f78c56d2213eae694fecc6dd57f"
+sha1sum = "ab0cf66fefa939fa6045d9c5e1a5dbb7dd13efc5"
 depends = "['kxmlgui5>=5.115.0', 'qt5-svg>=5.15.12', 'qt5-x11extras>=5.15.12']"
 reverse_depends = "['kipi-plugins']"
 +++

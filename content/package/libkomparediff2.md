@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libkomparediff2 24.02.2-2"
-version = "24.02.2-2"
+title = "libkomparediff2 24.02.2-3"
+version = "24.02.2-3"
 description = "Library to compare files and strings."
-date = "2024-04-13T17:14:56"
+date = "2024-04-17T02:13:54"
 aliases = "/packages/200332"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "102832"
+size = "102620"
 usize = "400225"
-sha1sum = "91da2a0cfd2b475c645d57b834008660e9e0b159"
+sha1sum = "f9aab2da13245410847ac7eeb7b4ad3deb16c3cd"
 depends = "['kparts5>=5.115.0', 'qt5-svg>=5.15.12']"
 reverse_depends = "['kdevelop', 'kompare']"
 +++

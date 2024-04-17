@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kio-extras 24.02.2-2"
-version = "24.02.2-2"
+title = "kio-extras 24.02.2-3"
+version = "24.02.2-3"
 description = "Additional components to increase the functionality of KIO."
-date = "2024-04-13T17:04:10"
+date = "2024-04-17T00:19:29"
 aliases = "/packages/218324"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1787796"
+size = "1787948"
 usize = "7587740"
-sha1sum = "142bfdff1c4f44f2f978a0d784e50e836fbcef3c"
+sha1sum = "ff142c515e97709ca010d95ebd596d4781ee2f46"
 depends = "['kcmutils>=6.1.0', 'kdnssd>=6.1.0', 'kdsoap-ws-discovery-client', 'kpty>=6.1.0', 'libappimage', 'libkexiv2>=24.02.2', 'libmtp>=1.1.12-2', 'libplist>=2.3.0', 'libssh>=0.7.3-2', 'libtirpc', 'openexr>=3.2.0', 'openslp>=2.0.0-3', 'plasma-activities-stats>=6.0.4', 'qcoro', 'qt6-webengine>=6.7.0', 'samba-client>=4.5.0', 'syntax-highlighting>=6.1.0', 'taglib>=2.0']"
 +++
 ### Description: 

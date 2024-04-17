@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kturtle 24.02.2-2"
-version = "24.02.2-2"
+title = "kturtle 24.02.2-3"
+version = "24.02.2-3"
 description = "Educational Programming Environment."
-date = "2024-04-13T17:53:52"
+date = "2024-04-17T00:40:43"
 aliases = "/packages/152836"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2292788"
+size = "2292584"
 usize = "5937616"
-sha1sum = "e4fb05897d634a94d1d79af6bf09e89add8e5914"
+sha1sum = "3751d3c8b3856c4d8d30c4d8e7036e9f04d23bd0"
 depends = "['kio>=6.1.0', 'knewstuff>=6.1.0']"
 +++
 ### Description: 

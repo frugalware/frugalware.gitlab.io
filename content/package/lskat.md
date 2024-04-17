@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lskat 24.02.2-2"
-version = "24.02.2-2"
+title = "lskat 24.02.2-3"
+version = "24.02.2-3"
 description = "Lieutenant Skat (from German Offiziersskat) is a fun and engaging card game for two players"
-date = "2024-04-13T18:13:35"
+date = "2024-04-17T00:57:01"
 aliases = "/packages/219342"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1309604"
+size = "1309292"
 usize = "4933866"
-sha1sum = "2f247370f3affa7561409a8e9e22c72de2bf385e"
+sha1sum = "3b7241154dfce2dba91c7230ce79bf337d9c2294"
 depends = "['libkdegames>=24.02.2']"
 +++
 ### Description: 

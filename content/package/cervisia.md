@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cervisia 24.02.2-2"
-version = "24.02.2-2"
+title = "cervisia 24.02.2-3"
+version = "24.02.2-3"
 description = "CVS Frontend"
-date = "2024-04-13T19:57:50"
+date = "2024-04-17T06:17:23"
 aliases = "/packages/219319"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2469344"
+size = "2469316"
 usize = "6577949"
-sha1sum = "3e60a5be12fc334abe1a7449b263132362db1171"
+sha1sum = "74588447b9fc2fcdf26ff58d47ea89e7c8600851"
 depends = "['kdesu5>=5.115.0', 'kinit5>=5.115.0', 'kparts5>=5.115.0']"
 +++
 ### Description: 

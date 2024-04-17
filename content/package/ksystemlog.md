@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ksystemlog 24.02.2-2"
-version = "24.02.2-2"
+title = "ksystemlog 24.02.2-3"
+version = "24.02.2-3"
 description = "KDE system log viewer tool."
-date = "2024-04-13T14:25:00"
+date = "2024-04-16T21:42:06"
 aliases = "/packages/135946"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2156972"
+size = "2156600"
 usize = "6238795"
-sha1sum = "e45e5030e42d96400357b5f45d099a2e14bb4736"
+sha1sum = "2760a6062027cc8112c51065a243be990074675e"
 depends = "['kio>=6.1.0']"
 +++
 ### Description: 

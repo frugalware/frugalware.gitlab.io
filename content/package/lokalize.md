@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lokalize 24.02.2-2"
-version = "24.02.2-2"
+title = "lokalize 24.02.2-3"
+version = "24.02.2-3"
 description = "Computer-Aided Translation System."
-date = "2024-04-13T17:24:59"
+date = "2024-04-17T02:24:21"
 aliases = "/packages/118455"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2375772"
+size = "2375728"
 usize = "7797996"
-sha1sum = "56da65d548268243bc764bffd71c7f14f62bf0a5"
+sha1sum = "fa1d04fd2259dc97e2f2a9e643bf5c1deacd9148"
 depends = "['hunspell>=1.7.0', 'kross5>=5.115.0']"
 +++
 ### Description: 

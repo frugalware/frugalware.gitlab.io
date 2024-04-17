@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libgravatar 24.02.2-2"
-version = "24.02.2-2"
+title = "libgravatar 24.02.2-3"
+version = "24.02.2-3"
 description = "A library that provides an interface for the Gravatar API"
-date = "2024-04-13T16:06:33"
+date = "2024-04-16T23:23:35"
 aliases = "/packages/218469"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "42320"
+size = "42392"
 usize = "171385"
-sha1sum = "9607b861021e5d48a280836b8fdebe43f0defbba"
+sha1sum = "4604c649590f8221539c386aaea809924bec5701"
 depends = "['akonadi>=24.02.2', 'pimcommon>=24.02.2']"
 reverse_depends = "['messagelib']"
 +++

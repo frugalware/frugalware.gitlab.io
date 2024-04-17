@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "zanshin 24.02.2-2"
-version = "24.02.2-2"
+title = "zanshin 24.02.2-3"
+version = "24.02.2-3"
 description = "To-do management application based on Akonadi"
-date = "2024-04-13T19:20:02"
+date = "2024-04-17T01:58:07"
 aliases = "/packages/220998"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "719968"
+size = "720676"
 usize = "3808245"
-sha1sum = "bfe8192c5e77321d572c08edd45ffcf7c8b06ecf"
+sha1sum = "d053429481ac9c6031739d08bae7d7505b215fce"
 depends = "['kdepim-runtime', 'kontactinterface']"
 +++
 ### Description: 

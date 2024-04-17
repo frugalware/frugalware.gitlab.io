@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "krdc 24.02.2-2"
-version = "24.02.2-2"
+title = "krdc 24.02.2-3"
+version = "24.02.2-3"
 description = "KRDC is a Remote Desktop Client for KDE."
-date = "2024-04-13T17:20:20"
+date = "2024-04-17T02:19:37"
 aliases = "/packages/74081"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1693708"
+size = "1693700"
 usize = "3431643"
-sha1sum = "6216216385f0488b58efd71dc9699a3777d93a7c"
+sha1sum = "a0facfef1d3c02193c588d1c89792d47d16c9bac"
 depends = "['kactivities5>=5.115.0', 'kbookmarks5>=5.115.0', 'kcmutils5>=5.115.0', 'kdnssd5>=5.115.0', 'knotifications5>=5.115.0', 'knotifyconfig5>=5.115.0', 'knotifyconfig5>=5.115.0', 'kwallet5>=5.115.0', 'libssh', 'libvncserver']"
 reverse_depends = "['qt-virt-manager']"
 +++

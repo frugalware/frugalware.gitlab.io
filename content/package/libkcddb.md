@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libkcddb 24.02.2-2"
-version = "24.02.2-2"
+title = "libkcddb 24.02.2-3"
+version = "24.02.2-3"
 description = "A library for retrieving and sending cddb information."
-date = "2024-04-13T13:51:00"
+date = "2024-04-16T21:06:37"
 aliases = "/packages/74490"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "515136"
+size = "515120"
 usize = "1518844"
-sha1sum = "c221924804865c1268fe801218191635973bb560"
+sha1sum = "7c9cc72245f7e6f654ff57972c233f805b054032"
 depends = "['kcmutils>=6.1.0', 'kio>=6.1.0', 'libmusicbrainz>=5.1.0-3']"
 reverse_depends = "['audiocd-kio']"
 +++

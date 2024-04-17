@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kipi-plugins 24.02.2-2"
-version = "24.02.2-2"
+title = "kipi-plugins 24.02.2-3"
+version = "24.02.2-3"
 description = "kipi-plugins is based in part on the work of the Independent JPEG Group."
-date = "2024-04-13T17:36:03"
+date = "2024-04-17T02:35:14"
 aliases = "/packages/219978"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1616976"
+size = "1616136"
 usize = "17293623"
-sha1sum = "7a14da9a082e765c2bc4d5e5490db62145e5c368"
+sha1sum = "2e35017fbd6330add0cb61ee7035efabe525e40b"
 depends = "['kio5>=5.115.0', 'libkipi>=24.02.2']"
 +++
 ### Description: 

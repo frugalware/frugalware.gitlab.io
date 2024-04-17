@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kwalletmanager 24.02.2-2"
-version = "24.02.2-2"
+title = "kwalletmanager 24.02.2-3"
+version = "24.02.2-3"
 description = "Passwords managing tool."
-date = "2024-04-13T14:27:22"
+date = "2024-04-16T21:44:27"
 aliases = "/packages/200641"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "995328"
+size = "995508"
 usize = "2936504"
-sha1sum = "1008ed3ec2f8085c3ed7b5316be06761c2045afe"
+sha1sum = "d440ebd099865c79ed97acad167940795f30e9c7"
 depends = "['kstatusnotifieritem>=6.1.0']"
 +++
 ### Description: 

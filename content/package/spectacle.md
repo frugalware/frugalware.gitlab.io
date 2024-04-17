@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "spectacle 24.02.2-2"
-version = "24.02.2-2"
+title = "spectacle 24.02.2-3"
+version = "24.02.2-3"
 description = "KDE screenshot capture utility"
-date = "2024-04-13T15:41:04"
+date = "2024-04-16T22:55:50"
 aliases = "/packages/218413"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1739520"
+size = "1739408"
 usize = "4859201"
-sha1sum = "f54c07fe69fd3692357ff0ef8fafa616b19d5485"
-depends = "['kdeclarative>=6.1.0', 'kio>=6.1.0', 'knewstuff>=6.1.0', 'kpipewire>=6.0.3', 'kscreen>=6.0.3', 'purpose>=6.1.0', 'xcb-util-cursor']"
+sha1sum = "c735134cf146e39b6d8044ca28b6f9dc5ec152b4"
+depends = "['kdeclarative>=6.1.0', 'kio>=6.1.0', 'knewstuff>=6.1.0', 'kpipewire>=6.0.4', 'kscreen>=6.0.4', 'purpose>=6.1.0', 'xcb-util-cursor']"
 +++
 ### Description: 
 KDE screenshot capture utility
@@ -26,8 +26,8 @@ KDE screenshot capture utility
 * /usr/lib/systemd/user/app-org.kde.spectacle.service
 * /usr/share/applications/org.kde.spectacle.desktop
 * /usr/share/dbus-1/interfaces/org.kde.Spectacle.xml
-* /usr/share/dbus-1/services/org.kde.Spectacle.service
 * /usr/share/dbus-1/services/org.kde.spectacle.service
+* /usr/share/dbus-1/services/org.kde.Spectacle.service
 * /usr/share/doc/HTML/ca/spectacle/Annotate.png
 * /usr/share/doc/HTML/ca/spectacle/ApplicationPreferences.png
 * /usr/share/doc/HTML/ca/spectacle/index.cache.bz2

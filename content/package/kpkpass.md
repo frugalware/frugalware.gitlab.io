@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kpkpass 24.02.2-2"
-version = "24.02.2-2"
+title = "kpkpass 24.02.2-3"
+version = "24.02.2-3"
 description = "Apple Wallet Pass reader"
-date = "2024-04-13T17:57:00"
+date = "2024-04-17T00:43:50"
 aliases = "/packages/219724"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "45644"
+size = "45652"
 usize = "167830"
-sha1sum = "492c28779758c4f2ab160da9724b0b7ab738c5c9"
+sha1sum = "bf1c56f008afee770fa385f95673ce0f418e2448"
 depends = "['karchive>=6.1.0', 'shared-mime-info']"
 reverse_depends = "['itinerary', 'kitinerary']"
 +++

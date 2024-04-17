@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kmix 24.02.2-2"
-version = "24.02.2-2"
+title = "kmix 24.02.2-3"
+version = "24.02.2-3"
 description = "KDE volume control program"
-date = "2024-04-13T17:17:42"
+date = "2024-04-17T02:16:53"
 aliases = "/packages/219009"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1311448"
+size = "1312352"
 usize = "3207125"
-sha1sum = "ab21b3350f9f811e6825e4e5e20e0622978b9e51"
+sha1sum = "d6dd193c468ba1f9f7bdc9298d2443f894ca9252"
 depends = "['kdelibs4support5>=5.115.0', 'libcanberra', 'plasma-framework5>=5.115.0']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "oxygen 6.0.3-4"
-version = "6.0.3-4"
+title = "oxygen 6.0.4-1"
+version = "6.0.4-1"
 description = "KDE Oxygen style."
-date = "2024-04-13T13:37:39"
+date = "2024-04-16T20:43:58"
 aliases = "/packages/218391"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2862096"
-usize = "18852715"
-sha1sum = "488c994c0f60909a7fa3efbed48c46ed1e796eab"
-depends = "['frameworkintegration>=6.1.0', 'kwin>=6.0.3']"
+size = "2862164"
+usize = "18852719"
+sha1sum = "04d2ad4ec754de9cf6efe13e3a9e7b315fc65c7d"
+depends = "['frameworkintegration>=6.1.0', 'kwin>=6.0.4']"
 reverse_depends = "['lumina-desktop']"
 +++
 ### Description: 
@@ -21,9 +21,9 @@ KDE Oxygen style.
 * /usr/bin/oxygen-demo6
 * /usr/bin/oxygen-settings6
 * /usr/lib/liboxygenstyle6.so.6
-* /usr/lib/liboxygenstyle6.so.6.0.3
+* /usr/lib/liboxygenstyle6.so.6.0.4
 * /usr/lib/liboxygenstyleconfig6.so.6
-* /usr/lib/liboxygenstyleconfig6.so.6.0.3
+* /usr/lib/liboxygenstyleconfig6.so.6.0.4
 * /usr/lib/qt6/plugins/kstyle_config/kstyle_oxygen_config.so
 * /usr/lib/qt6/plugins/org.kde.kdecoration2.kcm/kcm_oxygendecoration.so
 * /usr/lib/qt6/plugins/org.kde.kdecoration2/org.kde.oxygen.so

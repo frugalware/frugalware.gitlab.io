@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "merkuro 24.02.2-2"
-version = "24.02.2-2"
+title = "merkuro 24.02.2-3"
+version = "24.02.2-3"
 description = "A calendar application using Akonadi to sync with external services"
-date = "2024-04-13T19:23:08"
+date = "2024-04-17T02:01:07"
 aliases = "/packages/221078"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1217072"
+size = "1217696"
 usize = "5244253"
-sha1sum = "bf77716907333598bfda768ccbdff6f501395b0a"
+sha1sum = "c0063584a3aaa85ade369493c7f1de933677bf38"
 depends = "['eventviews', 'kirigami-addons', 'mailcommon', 'mimetreeparser', 'qqc2-desktop-style']"
 +++
 ### Description: 
