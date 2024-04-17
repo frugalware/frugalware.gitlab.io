@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdeedu-data 24.02.2-2"
-version = "24.02.2-2"
+title = "kdeedu-data 24.02.2-3"
+version = "24.02.2-3"
 description = "Common libraries for KDE Edu release-service"
-date = "2024-04-13T17:31:29"
+date = "2024-04-17T02:30:43"
 aliases = "/packages/218297"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "336364"
+size = "336484"
 usize = "4291193"
-sha1sum = "6628d6fd3263465c89664ddaed655ac010dbd369"
+sha1sum = "5c9f0ed6ebf9340414d584154771a5df8e765e8e"
 depends = "['qt5-base>=5.15.12']"
 +++
 ### Description: 

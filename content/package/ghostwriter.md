@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ghostwriter 24.02.2-2"
-version = "24.02.2-2"
+title = "ghostwriter 24.02.2-3"
+version = "24.02.2-3"
 description = "Aesthetic, distraction-free Markdown editor"
-date = "2024-04-13T19:39:32"
+date = "2024-04-17T05:55:53"
 aliases = "/packages/220968"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2461032"
+size = "2461436"
 usize = "12186938"
-sha1sum = "f1c94e8296ff1310a2a6121e9bc3de3e0ce66d7d"
+sha1sum = "d7dda58fd376e2f07ab3de74e857a16ac2ab999e"
 depends = "['cmark', 'hunspell', 'kxmlgui5', 'mathjax', 'qt5-webchannel', 'qt5-webengine', 'sonnet']"
 +++
 ### Description: 

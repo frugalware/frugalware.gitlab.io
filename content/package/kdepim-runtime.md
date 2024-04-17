@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdepim-runtime 24.02.2-2"
-version = "24.02.2-2"
+title = "kdepim-runtime 24.02.2-3"
+version = "24.02.2-3"
 description = "KDE PIM Runtime"
-date = "2024-04-13T16:44:19"
+date = "2024-04-16T23:59:34"
 aliases = "/packages/74083"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2663252"
+size = "2661248"
 usize = "15018625"
-sha1sum = "ae715718aba3ca1046c07235572e6fd02d571eb6"
+sha1sum = "99f96e070599f89dcac7c3162dcf7a56788758de"
 depends = "['akonadi-calendar>=24.02.2', 'akonadi-notes>=24.02.2', 'kalarm>=24.02.2', 'kdav>=6.1.0', 'kimap>=24.02.2', 'kmbox>=24.02.2', 'knotifyconfig>=6.1.0', 'libkgapi>=24.02.2', 'pimcommon>=24.02.2', 'qca', 'qt6-networkauth>=6.7.0', 'syndication>=6.1.0']"
 reverse_depends = "['kmail', 'korganizer', 'zanshin']"
 +++

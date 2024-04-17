@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kajongg 24.02.2-2"
-version = "24.02.2-2"
+title = "kajongg 24.02.2-3"
+version = "24.02.2-3"
 description = "KDE Mahjongg game."
-date = "2024-04-13T18:48:20"
+date = "2024-04-17T01:27:36"
 aliases = "/packages/219325"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5138888"
+size = "5139216"
 usize = "10665327"
-sha1sum = "20f51c2a33bb420a80cd50e82a5a0f703ec3b3a4"
+sha1sum = "055b995553d790db100bb237f59a536ee139a34b"
 depends = "['libkmahjongg>=24.02.2', 'python3-twisted']"
 +++
 ### Description: 

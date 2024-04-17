@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gwenview 24.02.2-2"
-version = "24.02.2-2"
+title = "gwenview 24.02.2-3"
+version = "24.02.2-3"
 description = "KDE Image Viewer."
-date = "2024-04-13T15:43:13"
+date = "2024-04-16T22:58:09"
 aliases = "/packages/74209"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7145888"
+size = "7146908"
 usize = "12070831"
-sha1sum = "532f8db81867c2926475074e84a04bf5d487c98d"
-depends = "['baloo>=6.1.0', 'cfitsio>=4.2.0', 'exiv2>=0.28.1', 'kimageannotator', 'kparts>=6.1.0', 'libkdcraw>=24.02.2', 'libtiff', 'plasma-activities>=6.0.3', 'purpose>=6.1.0', 'qt6-imageformats>=6.7.0']"
+sha1sum = "509968448dd32e1c593039f405e0acddf4c2b1bc"
+depends = "['baloo>=6.1.0', 'cfitsio>=4.2.0', 'exiv2>=0.28.1', 'kimageannotator', 'kparts>=6.1.0', 'libkdcraw>=24.02.2', 'libtiff', 'plasma-activities>=6.0.4', 'purpose>=6.1.0', 'qt6-imageformats>=6.7.0']"
 +++
 ### Description: 
 KDE Image Viewer.

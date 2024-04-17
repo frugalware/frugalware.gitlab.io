@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "isoimagewriter 24.02.2-1"
-version = "24.02.2-1"
+title = "isoimagewriter 24.02.2-3"
+version = "24.02.2-3"
 description = "Program to write hybrid ISO files onto USB disks"
-date = "2024-04-12T12:06:29"
+date = "2024-04-17T05:46:26"
 aliases = "/packages/221411"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "125268"
+size = "125456"
 usize = "543687"
-sha1sum = "f8b53e92dac44aec54ca3488893d6d117cbaffba"
+sha1sum = "2c6ce5a3f242fcf36b1b4d6d088de281a091c8ff"
 depends = "['karchive>=', 'kcoreaddons>=', 'kcrash>=', 'ki18n>=', 'kiconthemes>=', 'kwidgetsaddons>=', 'solid>=']"
 +++
 ### Description: 

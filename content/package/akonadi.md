@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "akonadi 24.02.2-2"
-version = "24.02.2-2"
+title = "akonadi 24.02.2-3"
+version = "24.02.2-3"
 description = "PIM layer, which provides an asynchronous API to access all kind of PIM data"
-date = "2024-04-13T15:55:44"
+date = "2024-04-16T23:12:20"
 aliases = "/packages/74013"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2697808"
-usize = "11475780"
-sha1sum = "67f1f7076e4b76b4c29fdac6b861618fdd5e141a"
+size = "2697384"
+usize = "11475759"
+sha1sum = "3a1dbac0e798184d6d1e205f7360f7207ba400bf"
 depends = "['kaccounts-integration>=24.02.2', 'kio>=6.1.0', 'kitemmodels>=6.1.0', 'kitemviews>=6.1.0', 'libxslt', 'qt6-base>=6.7.0', 'shared-mime-info']"
 reverse_depends = "['akonadi-contacts', 'akonadi-mime', 'akonadi-notes', 'calendarsupport', 'incidenceeditor', 'libgravatar', 'libkdepim', 'libksieve']"
 +++

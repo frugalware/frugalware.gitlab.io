@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "1787796"
 usize = "7587740"
 sha1sum = "142bfdff1c4f44f2f978a0d784e50e836fbcef3c"
-depends = "['kcmutils>=6.1.0', 'kdnssd>=6.1.0', 'kdsoap-ws-discovery-client', 'kpty>=6.1.0', 'libappimage', 'libkexiv2>=24.02.2', 'libmtp>=1.1.12-2', 'libplist>=2.3.0', 'libssh>=0.7.3-2', 'libtirpc', 'openexr>=3.2.0', 'openslp>=2.0.0-3', 'plasma-activities-stats>=6.0.3', 'qcoro', 'qt6-webengine>=6.7.0', 'samba-client>=4.5.0', 'syntax-highlighting>=6.1.0', 'taglib>=2.0']"
+depends = "['kcmutils>=6.1.0', 'kdnssd>=6.1.0', 'kdsoap-ws-discovery-client', 'kpty>=6.1.0', 'libappimage', 'libkexiv2>=24.02.2', 'libmtp>=1.1.12-2', 'libplist>=2.3.0', 'libssh>=0.7.3-2', 'libtirpc', 'openexr>=3.2.0', 'openslp>=2.0.0-3', 'plasma-activities-stats>=6.0.4', 'qcoro', 'qt6-webengine>=6.7.0', 'samba-client>=4.5.0', 'syntax-highlighting>=6.1.0', 'taglib>=2.0']"
 +++
 ### Description: 
 Additional components to increase the functionality of KIO.

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kbruch 24.02.2-2"
-version = "24.02.2-2"
+title = "kbruch 24.02.2-3"
+version = "24.02.2-3"
 description = "Practice Fractions."
-date = "2024-04-13T14:03:07"
+date = "2024-04-16T21:19:02"
 aliases = "/packages/152827"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5136328"
+size = "5136108"
 usize = "7087575"
-sha1sum = "e56c8722e37576f44c6e75d670500acf55f4adf4"
+sha1sum = "26a907d77e6c445f1d0668e5c4be7d4ba6052593"
 depends = "['kxmlgui>=6.1.0', 'qt6-svg>=6.7.0']"
 +++
 ### Description: 

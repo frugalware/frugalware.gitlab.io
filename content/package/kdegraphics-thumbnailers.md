@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdegraphics-thumbnailers 24.02.2-2"
-version = "24.02.2-2"
+title = "kdegraphics-thumbnailers 24.02.2-3"
+version = "24.02.2-3"
 description = "Thumnailers Creators for Kdegraphics."
-date = "2024-04-13T15:39:23"
+date = "2024-04-16T22:54:24"
 aliases = "/packages/88171"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "47720"
+size = "47760"
 usize = "202057"
-sha1sum = "cb5b6765fcb51e4a3314433348c9d141531e5901"
+sha1sum = "86a3be74e8f88dd2259ac03be8450e66c7386920"
 depends = "['kdegraphics-mobipocket>=24.02.2', 'kio>=6.1.0', 'libkdcraw>=24.02.2', 'libkexiv2>=24.02.2', 'qt6-svg>=6.7.0']"
 reverse_depends = "['dolphin']"
 +++

@@ -28,6 +28,6 @@ Daemon providing Global Keyboard Shortcut (Accelerator) functionality
 * /usr/lib/cmake/KGlobalAccelD/KGlobalAccelDTargets.cmake
 * /usr/lib/kglobalacceld/kglobalacceld
 * /usr/lib/libKGlobalAccelD.so.0
-* /usr/lib/libKGlobalAccelD.so.6.0.3
+* /usr/lib/libKGlobalAccelD.so.6.0.4
 * /usr/lib/qt6/plugins/org.kde.kglobalacceld.platforms/KGlobalAccelDXcb.so
 * /usr/lib/systemd/user/plasma-kglobalaccel.service

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kde-cli-tools 6.0.3-4"
-version = "6.0.3-4"
+title = "kde-cli-tools 6.0.4-1"
+version = "6.0.4-1"
 description = "Tools based on KDE Frameworks 5 to better interact with the system."
-date = "2024-04-13T13:30:31"
+date = "2024-04-16T20:29:12"
 aliases = "/packages/218291"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "812552"
-usize = "3837165"
-sha1sum = "ef37a7a3e63049e896bf3d97233cb9b92fb9a456"
-depends = "['kcmutils>=6.1.0', 'kdesu>=6.1.0', 'plasma-workspace>=6.0.3']"
+size = "812392"
+usize = "3837173"
+sha1sum = "f5237a6aea6825dc2c94e8d92189f21ec1f9bcc8"
+depends = "['kcmutils>=6.1.0', 'kdesu>=6.1.0', 'plasma-workspace>=6.0.4']"
 +++
 ### Description: 
 Tools based on KDE Frameworks 5 to better interact with the system.

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kirigami-gallery 24.02.2-2"
-version = "24.02.2-2"
+title = "kirigami-gallery 24.02.2-3"
+version = "24.02.2-3"
 description = "Gallery application built using Kirigami"
-date = "2024-04-13T19:49:28"
+date = "2024-04-17T06:07:34"
 aliases = "/packages/220979"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "283632"
+size = "283664"
 usize = "829719"
-sha1sum = "8aa50cf212b909bcaf6ab05464ab3ed56c2b665c"
+sha1sum = "fa2c1c1218a8f10a1bf7d8d91c6a47c1e295a32f"
 depends = "['kirigami25', 'kitemmodels5']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "juk 24.02.2-2"
-version = "24.02.2-2"
+title = "juk 24.02.2-3"
+version = "24.02.2-3"
 description = "JuK is an audio jukebox application."
-date = "2024-04-13T17:42:25"
+date = "2024-04-17T00:29:40"
 aliases = "/packages/219523"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1878140"
+size = "1879504"
 usize = "5138025"
-sha1sum = "608d249704226d52db37dd744283aeb11af2e3e9"
+sha1sum = "4c85b0bacb5de3a561856cbbb67f712e95bc37a5"
 depends = "['kio>=6.1.0', 'kstatusnotifieritem>=6.1.0', 'pcre2', 'taglib>=2.0']"
 +++
 ### Description: 

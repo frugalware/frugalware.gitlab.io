@@ -46,15 +46,13 @@ Adjust your monitor's gamma settings
 * /usr/share/doc/HTML/pt_BR/kcontrol/kgamma/index.docbook
 * /usr/share/doc/HTML/ru/kcontrol/kgamma/index.cache.bz2
 * /usr/share/doc/HTML/ru/kcontrol/kgamma/index.docbook
-* /usr/share/doc/HTML/sl/kcontrol/kgamma/index.cache.bz2
-* /usr/share/doc/HTML/sl/kcontrol/kgamma/index.docbook
 * /usr/share/doc/HTML/sv/kcontrol/kgamma/index.cache.bz2
 * /usr/share/doc/HTML/sv/kcontrol/kgamma/index.docbook
 * /usr/share/doc/HTML/tr/kcontrol/kgamma/index.cache.bz2
 * /usr/share/doc/HTML/tr/kcontrol/kgamma/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/kgamma/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/kgamma/index.docbook
-* /usr/share/doc/kgamma-6.0.3/ChangeLog
+* /usr/share/doc/kgamma-6.0.4/ChangeLog
 * /usr/share/kgamma/pics/background.png
 * /usr/share/kgamma/pics/cmyscale.png
 * /usr/share/kgamma/pics/darkgrey.png

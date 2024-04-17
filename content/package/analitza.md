@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "analitza 24.02.2-2"
-version = "24.02.2-2"
+title = "analitza 24.02.2-3"
+version = "24.02.2-3"
 description = "Shared Math libraries from Kalgebra."
-date = "2024-04-13T13:58:16"
+date = "2024-04-16T21:14:26"
 aliases = "/packages/152574"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "530844"
+size = "530908"
 usize = "2573004"
-sha1sum = "61032425dd0ac90b60684be620e0ce2eddf9266a"
+sha1sum = "3ae1b22630185c8cc723e5f9d32fc4fcb07c6b41"
 depends = "['eigen>=3.2.9-3', 'qt6-5compat>=6.7.0', 'qt6-declarative>=6.7.0', 'qt6-svg>=6.7.0']"
 reverse_depends = "['cantor', 'kalgebra']"
 +++

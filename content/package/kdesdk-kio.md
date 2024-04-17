@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdesdk-kio 24.02.2-2"
-version = "24.02.2-2"
+title = "kdesdk-kio 24.02.2-3"
+version = "24.02.2-3"
 description = "KIO-Slaves."
-date = "2024-04-13T19:28:47"
+date = "2024-04-17T02:07:43"
 aliases = "/packages/220582"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "44284"
+size = "44488"
 usize = "209962"
-sha1sum = "6d8405b45a0ba47d2a74c58347b3763c24ceab9d"
+sha1sum = "6094a083ff8d33b80934ca32b2672f42657da744"
 depends = "['ki18n>=6.1.0', 'kio>=6.1.0']"
 +++
 ### Description: 

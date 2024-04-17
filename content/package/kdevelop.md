@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdevelop 24.02.2-2"
-version = "24.02.2-2"
+title = "kdevelop 24.02.2-3"
+version = "24.02.2-3"
 description = "The KDevelop integrated C/C++ application development environment"
-date = "2024-04-13T19:46:53"
+date = "2024-04-17T06:03:39"
 aliases = "/packages/10830"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kdevelop.org/"
 arch = "x86_64"
-size = "9820796"
+size = "9820724"
 usize = "35883539"
-sha1sum = "f81ca617edbd3135e26e543c8e68f5c5d56136fb"
+sha1sum = "bfd20e95a15f5914da53adaeed7559ba24a89f0c"
 depends = "['clang-libs>=17.0.6', 'grantlee', 'kcmutils5>=5.115.0', 'kitemmodels5>=5.115.0', 'knewstuff5>=5.115.0', 'knotifyconfig5>=5.115.0', 'krunner5>=5.115.0', 'ktexteditor5>=5.115.0', 'libboost>=1.72.0', 'libkomparediff2', 'qt5-tools>=5.15.12', 'qt5-webengine>=5.15.12']"
 reverse_depends = "['kdev-php', 'kdev-python']"
 +++

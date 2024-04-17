@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdenlive 24.02.2-2"
-version = "24.02.2-2"
+title = "kdenlive 24.02.2-3"
+version = "24.02.2-3"
 description = "A non-linear video editor for Linux using the MLT video framework"
-date = "2024-04-13T18:47:07"
+date = "2024-04-17T01:26:27"
 aliases = "/packages/218299"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "13910984"
+size = "13911276"
 usize = "71813381"
-sha1sum = "97802a22f4084e8b9c63789c9e602f57a6d3b3b7"
+sha1sum = "58b50a5e75dcbd0d4314dc7ae3aeddd1052e76d7"
 depends = "['kfilemetadata>=6.1.0', 'knewstuff>=6.1.0', 'knotifyconfig>=6.1.0', 'kplotting>=6.1.0', 'mlt>=7.14.0', 'mlt-qt>=7.14.0', 'mlt-sdl>=7.14.0', 'purpose>=6.1.0', 'qt6-declarative>=6.7.0', 'qt6-networkauth>=6.7.0', 'qt6-svg>=6.7.0', 'qt6-webengine>=6.7.0']"
 +++
 ### Description: 

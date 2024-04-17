@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kaddressbook 24.02.2-2"
-version = "24.02.2-2"
+title = "kaddressbook 24.02.2-3"
+version = "24.02.2-3"
 description = "Contact Manager"
-date = "2024-04-13T16:30:16"
+date = "2024-04-16T23:45:50"
 aliases = "/packages/218928"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3427940"
+size = "3427716"
 usize = "6495699"
-sha1sum = "4a6e03bde95ac458f71da00eaea26fa8114a9da4"
+sha1sum = "3ac6bb11fbe758fc0653bffba43970b15db9bcc5"
 depends = "['kontactinterface>=24.02.2', 'mailcommon>=24.02.2']"
 reverse_depends = "['kdepim-addons']"
 +++

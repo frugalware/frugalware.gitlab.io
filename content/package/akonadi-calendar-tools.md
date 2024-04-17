@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "akonadi-calendar-tools 24.02.2-2"
-version = "24.02.2-2"
+title = "akonadi-calendar-tools 24.02.2-3"
+version = "24.02.2-3"
 description = "Akonadi calendar tools"
-date = "2024-04-13T16:18:48"
+date = "2024-04-16T23:34:48"
 aliases = "/packages/218922"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "388464"
+size = "388220"
 usize = "1564570"
-sha1sum = "094c56e64642f17b665d230c2740333b152795eb"
+sha1sum = "87db7a9080d8ca7ed4613e56250afd28eb717662"
 depends = "['calendarsupport>=24.02.2']"
 +++
 ### Description: 
