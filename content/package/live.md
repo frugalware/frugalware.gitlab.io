@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "live 2024.03.08-1"
-version = "2024.03.08-1"
+title = "live 2024.04.14-1"
+version = "2024.04.14-1"
 description = "Source-code libraries for standards-based RTP/RTCP/RTSP multimedia streaming"
-date = "2024-04-14T14:24:48"
+date = "2024-04-17T08:36:53"
 aliases = "/packages/5534"
 categories = ['multimedia']
 upstreamurl = "http://www.live555.com/"
 arch = "x86_64"
-size = "521144"
-usize = "2641513"
-sha1sum = "4a321c0783139ed2b469afb93b6f428c5cdcf8e6"
+size = "521508"
+usize = "2641945"
+sha1sum = "84f5066722b102d799e2568cd98cc3b204da8609"
 depends = "['glibc>=2.27-2', 'libstdc++>=7.3.0-7']"
 reverse_depends = "['vlc-live']"
 +++
@@ -239,17 +239,17 @@ Source-code libraries for standards-based RTP/RTCP/RTSP multimedia streaming
 * /usr/include/UsageEnvironment/UsageEnvironment_version.hh
 * /usr/lib/libBasicUsageEnvironment.so
 * /usr/lib/libBasicUsageEnvironment.so.2
-* /usr/lib/libBasicUsageEnvironment.so.2.0.4
+* /usr/lib/libBasicUsageEnvironment.so.2.1.0
 * /usr/lib/libgroupsock.so
 * /usr/lib/libgroupsock.so.30
-* /usr/lib/libgroupsock.so.30.1.13
+* /usr/lib/libgroupsock.so.30.2.0
 * /usr/lib/libliveMedia.so
 * /usr/lib/libliveMedia.so.112
-* /usr/lib/libliveMedia.so.112.0.4
+* /usr/lib/libliveMedia.so.112.1.0
 * /usr/lib/libUsageEnvironment.so
 * /usr/lib/libUsageEnvironment.so.3
-* /usr/lib/libUsageEnvironment.so.3.1.0
+* /usr/lib/libUsageEnvironment.so.3.2.0
 * /usr/lib/pkgconfig/live555.pc
-* /usr/share/doc/live-2024.03.08/COPYING
-* /usr/share/doc/live-2024.03.08/COPYING.LESSER
-* /usr/share/doc/live-2024.03.08/README
+* /usr/share/doc/live-2024.04.14/COPYING
+* /usr/share/doc/live-2024.04.14/COPYING.LESSER
+* /usr/share/doc/live-2024.04.14/README

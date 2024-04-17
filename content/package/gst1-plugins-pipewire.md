@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gst1-plugins-pipewire 1.0.4-1"
-version = "1.0.4-1"
+title = "gst1-plugins-pipewire 1.0.5-1"
+version = "1.0.5-1"
 description = "GStreamer Pipewire Plugin"
-date = "2024-03-21T15:20:25"
+date = "2024-04-17T08:13:23"
 aliases = "/packages/221090"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://pipewire.org/"
 arch = "x86_64"
-size = "44200"
+size = "44056"
 usize = "124864"
-sha1sum = "df4143277cba230e3f78b19b9fcc6c7ea4e0ad2b"
+sha1sum = "c9227043ab7196c119d80c735d463da013e87da3"
 depends = "['gst1-plugins-base', 'wireplumber']"
 +++
 ### Description: 
