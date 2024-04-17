@@ -12,7 +12,7 @@ size = "128988"
 usize = "411759"
 sha1sum = "101e4aa391ee1adbd2ac7b255be0f7073568b1b0"
 depends = "['libx11>=1.6.7-2']"
-reverse_depends = "['cairo', 'clightd', 'distcc-gui', 'efl', 'enlightenment', 'graphicsmagick', 'guvcview', 'imlib2', 'kchart', 'kdebase-runtime-kstyles', 'libdmx', 'libepoxy', 'libextractor', 'libglvnd', 'libqtdesignercomponents', 'libva', 'libva1', 'libvdpau', 'libxcomposite', 'libxft', 'libxi', 'libxinerama', 'libxmu', 'libxp', 'libxpm', 'libxpresent', 'libxrandr', 'libxres', 'libxscrnsaver', 'libxtst', 'libxv', 'libxvmc', 'libxxf86dga', 'libxxf86vm', 'mesa-libglx', 'polkit-qt5-1', 'polkit-qt6-1', 'printoxx', 'terminology', 'virtualbox', 'whalebird', 'xauth', 'xcfa', 'xdbedizzy', 'xpad', 'xrdp', 'xxkb']"
+reverse_depends = "['cairo', 'clightd', 'distcc-gui', 'efl', 'enlightenment', 'graphicsmagick', 'guvcview', 'imlib2', 'kchart', 'kdebase-runtime-kstyles', 'libdmx', 'libepoxy', 'libextractor', 'libglvnd', 'libqtdesignercomponents', 'libva', 'libvdpau', 'libxcomposite', 'libxft', 'libxi', 'libxinerama', 'libxmu', 'libxp', 'libxpm', 'libxpresent', 'libxrandr', 'libxres', 'libxscrnsaver', 'libxtst', 'libxv', 'libxvmc', 'libxxf86dga', 'libxxf86vm', 'mesa-libglx', 'polkit-qt5-1', 'polkit-qt6-1', 'printoxx', 'terminology', 'virtualbox', 'whalebird', 'xauth', 'xcfa', 'xdbedizzy', 'xpad', 'xrdp', 'xxkb']"
 license = "GPL2"
 +++
 ### Description: 

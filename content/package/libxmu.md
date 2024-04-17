@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxmu 1.2.0-1"
-version = "1.2.0-1"
+title = "libxmu 1.2.1-1"
+version = "1.2.1-1"
 description = "X.Org Xmu library"
-date = "2024-03-27T10:11:01"
+date = "2024-04-17T07:40:19"
 aliases = "/packages/4800"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "93388"
-usize = "425316"
-sha1sum = "022b4c1cc5c0cac941837d9089f71532912931d6"
+size = "93832"
+usize = "426442"
+sha1sum = "5452ceb8b37c8443ba6e1370aa223e0f2dd1202c"
 depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3', 'libxt>=1.1.5-3']"
 reverse_depends = "['flightgear', 'guarddog', 'kasablanca', 'kat', 'klamav', 'knetstats', 'knoda', 'ksniffer', 'ksubeditor', 'ksubtile', 'libxaw', 'libxaw3d', 'maxemumtvguide', 'oclock', 'qtparted', 'smproxy', 'twm', 'virtualbox', 'virtualbox-guest-additions', 'wmctrl', 'x11perf', 'xauth', 'xaw3d', 'xclip', 'xeyes', 'xhost', 'xkill', 'xpr', 'xrdb', 'xscreensaver', 'xset', 'xsetroot', 'xstdcmap', 'xterm']"
 license = "GPL2"
@@ -50,9 +50,9 @@ X.Org Xmu library
 * /usr/lib/libXmuu.so.1.0.0
 * /usr/lib/pkgconfig/xmu.pc
 * /usr/lib/pkgconfig/xmuu.pc
-* /usr/share/doc/libxmu-1.2.0/ChangeLog
-* /usr/share/doc/libxmu-1.2.0/COPYING
-* /usr/share/doc/libxmu-1.2.0/INSTALL
-* /usr/share/doc/libxmu-1.2.0/README.md
-* /usr/share/doc/libxmu-1.2.0/xlogo.svg
-* /usr/share/doc/libxmu-1.2.0/Xmu.xml
+* /usr/share/doc/libxmu-1.2.1/ChangeLog
+* /usr/share/doc/libxmu-1.2.1/COPYING
+* /usr/share/doc/libxmu-1.2.1/INSTALL
+* /usr/share/doc/libxmu-1.2.1/README.md
+* /usr/share/doc/libxmu-1.2.1/xlogo.svg
+* /usr/share/doc/libxmu-1.2.1/Xmu.xml

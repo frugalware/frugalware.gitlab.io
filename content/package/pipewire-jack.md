@@ -20,13 +20,13 @@ Pipewire Jack config
 * /usr/bin/pw-jack
 * /usr/lib/pipewire-0.3/jack/libjack.so
 * /usr/lib/pipewire-0.3/jack/libjack.so.0
-* /usr/lib/pipewire-0.3/jack/libjack.so.0.3.1004
+* /usr/lib/pipewire-0.3/jack/libjack.so.0.3.1005
 * /usr/lib/pipewire-0.3/jack/libjacknet.so
 * /usr/lib/pipewire-0.3/jack/libjacknet.so.0
-* /usr/lib/pipewire-0.3/jack/libjacknet.so.0.3.1004
+* /usr/lib/pipewire-0.3/jack/libjacknet.so.0.3.1005
 * /usr/lib/pipewire-0.3/jack/libjackserver.so
 * /usr/lib/pipewire-0.3/jack/libjackserver.so.0
-* /usr/lib/pipewire-0.3/jack/libjackserver.so.0.3.1004
+* /usr/lib/pipewire-0.3/jack/libjackserver.so.0.3.1005
 * /usr/lib/pipewire-0.3/libpipewire-module-jack-tunnel.so
 * /usr/lib/pipewire-0.3/libpipewire-module-jackdbus-detect.so
 * /usr/lib/pipewire-0.3/libpipewire-module-netjack2-driver.so

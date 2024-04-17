@@ -12,6 +12,7 @@ size = "140116"
 usize = "613276"
 sha1sum = "20e7f1034d796e4358eabb077d7524248b32fe6a"
 depends = "['libyaml', 'python3']"
+reverse_depends = "['qemu']"
 +++
 ### Description: 
 Device Tree Compiler

@@ -254,7 +254,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/lib/alsa-lib/libasound_module_pcm_pipewire.so
 * /usr/lib/libpipewire-0.3.so
 * /usr/lib/libpipewire-0.3.so.0
-* /usr/lib/libpipewire-0.3.so.0.1004.0
+* /usr/lib/libpipewire-0.3.so.0.1005.0
 * /usr/lib/pipewire-0.3/libpipewire-module-access.so
 * /usr/lib/pipewire-0.3/libpipewire-module-adapter.so
 * /usr/lib/pipewire-0.3/libpipewire-module-avb.so
@@ -395,11 +395,11 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/alsa-card-profile/mixer/profile-sets/texas-instruments-pcm2902.conf
 * /usr/share/alsa-card-profile/mixer/profile-sets/usb-gaming-headset.conf
 * /usr/share/alsa/alsa.conf.d/50-pipewire.conf
-* /usr/share/doc/pipewire-1.0.4/COPYING
-* /usr/share/doc/pipewire-1.0.4/INSTALL.md
-* /usr/share/doc/pipewire-1.0.4/LICENSE
-* /usr/share/doc/pipewire-1.0.4/NEWS
-* /usr/share/doc/pipewire-1.0.4/README.md
+* /usr/share/doc/pipewire-1.0.5/COPYING
+* /usr/share/doc/pipewire-1.0.5/INSTALL.md
+* /usr/share/doc/pipewire-1.0.5/LICENSE
+* /usr/share/doc/pipewire-1.0.5/NEWS
+* /usr/share/doc/pipewire-1.0.5/README.md
 * /usr/share/doc/pipewire/html/aac-types_8h_source.html
 * /usr/share/doc/pipewire/html/aac-utils_8h.html
 * /usr/share/doc/pipewire/html/aac-utils_8h_source.html

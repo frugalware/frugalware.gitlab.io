@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qemu 8.2.2-1"
-version = "8.2.2-1"
+title = "qemu 8.2.2-2"
+version = "8.2.2-2"
 description = "QEMU is a FAST! processor emulator"
-date = "2024-04-08T19:50:09"
+date = "2024-04-17T07:41:00"
 aliases = "/packages/3815"
 categories = ['xapps-extra']
 upstreamurl = "http://www.nongnu.org/qemu/"
 arch = "x86_64"
-size = "123292500"
-usize = "731965154"
-sha1sum = "c26f857af836722194d676424972e21a8373246a"
-depends = "['alsa-lib', 'bluez', 'curl', 'cyrus-sasl', 'jemalloc', 'libaio', 'libepoxy', 'libgbm', 'libgl', 'libglu', 'libjpeg-turbo', 'libpng>=1.6.20', 'libseccomp', 'libssh2', 'liburing', 'libx11', 'lzo', 'ncurses>=6.0-3', 'nettle>=3.6', 'nss', 'numactl', 'pixman', 'pulseaudio', 'sdl2', 'snappy', 'spice-protocol', 'usbredir>=0.8.0']"
+size = "123283764"
+usize = "731969253"
+sha1sum = "62bbae93ce1316400fe5bb14bc3fcedea4273dca"
+depends = "['alsa-lib', 'bluez', 'curl', 'cyrus-sasl', 'dtc', 'jemalloc', 'libaio', 'libepoxy', 'libgbm', 'libgl', 'libglu', 'libjpeg-turbo', 'libpng>=1.6.20', 'libseccomp', 'libssh2', 'liburing', 'libx11', 'lzo', 'ncurses>=6.0-3', 'nettle>=3.6', 'nss', 'numactl', 'pixman', 'pulseaudio', 'sdl2', 'snappy', 'spice-protocol', 'usbredir>=0.8.0']"
 reverse_depends = "['libguestfs']"
 +++
 ### Description: 
