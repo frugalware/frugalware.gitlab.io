@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kernel-lts 6.1.84-1"
-version = "6.1.84-1"
+title = "kernel-lts 6.1.86-1"
+version = "6.1.86-1"
 description = "The Linux Kernel and modules (lts version)"
-date = "2024-04-06T11:53:13"
+date = "2024-04-17T09:14:34"
 aliases = "/packages/221100"
 categories = ['base']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "86921252"
-usize = "95865353"
-sha1sum = "7e18a0b10d2f74e1dcd97ef8a127bb0b1ee2a57c"
+size = "86925704"
+usize = "95872246"
+sha1sum = "2ffc3744fe85c36d8ea5831c81e7565d864add46"
 depends = "['kmod', 'sed']"
 reverse_depends = "['kernel-lts-initrd']"
 +++

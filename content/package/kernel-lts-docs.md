@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kernel-lts-docs 6.1.84-1"
-version = "6.1.84-1"
+title = "kernel-lts-docs 6.1.86-1"
+version = "6.1.86-1"
 description = "Linux kernel documentation"
-date = "2024-04-06T11:53:13"
+date = "2024-04-17T09:14:34"
 aliases = "/packages/221101"
 categories = ['devel-extra']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "8497136"
-usize = "42587983"
-sha1sum = "b876b2b1a7e383dfd8b0b6e13b84108932961c08"
+size = "8496876"
+usize = "42589697"
+sha1sum = "4d761030d1630a2f1a9e06405da8f5b546646c5a"
 depends = "[]"
 +++
 ### Description: 
