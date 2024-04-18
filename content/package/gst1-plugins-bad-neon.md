@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gst1-plugins-bad-neon 1.24.2-1"
-version = "1.24.2-1"
+title = "gst1-plugins-bad-neon 1.24.2-2"
+version = "1.24.2-2"
 description = "GStreamer neon plugin (Bad)."
-date = "2024-04-10T11:21:36"
+date = "2024-04-18T11:21:24"
 aliases = "/packages/221275"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "16980"
+size = "16988"
 usize = "34704"
-sha1sum = "7c715d9832ce55c534747093beaa5352d7b05270"
+sha1sum = "8ff23a0b53614eed06381ce5bc052070d33a3b70"
 depends = "['gst1-plugins-bad>=1.24.2', 'gst1-plugins-base>=1.24.2', 'neon']"
 +++
 ### Description: 
