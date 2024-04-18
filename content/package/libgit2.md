@@ -12,7 +12,7 @@ size = "855508"
 usize = "2917760"
 sha1sum = "93ca8cfa85bc8821872d5f6ec8814be3a118b2ed"
 depends = "['http-parser', 'libssh2', 'pcre2']"
-reverse_depends = "['julia', 'kate', 'ktexteditor', 'ktexteditor5', 'kup']"
+reverse_depends = "['julia', 'kate', 'kicad', 'ktexteditor', 'ktexteditor5', 'kup']"
 +++
 ### Description: 
 portable, pure C implementation of the Git core methods
