@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openjfx-doc 19.0.2+1-1"
-version = "19.0.2+1-1"
+title = "openjfx-doc 22.0.1+7-1"
+version = "22.0.1+7-1"
 description = "OpenJFX Documentation"
-date = "2023-01-19T10:09:30"
+date = "2024-04-18T15:21:37"
 aliases = "/packages/220280"
 categories = ['docs-extra']
 upstreamurl = "https://openjfx.io"
 arch = "x86_64"
-size = "3322684"
-usize = "63730907"
-sha1sum = "e08ec3b8876395a1a3f742610005af8219c25d30"
+size = "12899348"
+usize = "74495219"
+sha1sum = "707ccdc461fd01635273e7e844d2417a48e9cee9"
 depends = "[]"
 +++
 ### Description: 
@@ -432,6 +432,7 @@ OpenJFX Documentation
 * /usr/share/doc/java-openjfx/javafx.base/javafx/util/class-use/FXPermission.html
 * /usr/share/doc/java-openjfx/javafx.base/javafx/util/class-use/Pair.html
 * /usr/share/doc/java-openjfx/javafx.base/javafx/util/class-use/StringConverter.html
+* /usr/share/doc/java-openjfx/javafx.base/javafx/util/class-use/Subscription.html
 * /usr/share/doc/java-openjfx/javafx.base/javafx/util/converter/BigDecimalStringConverter.html
 * /usr/share/doc/java-openjfx/javafx.base/javafx/util/converter/BigIntegerStringConverter.html
 * /usr/share/doc/java-openjfx/javafx.base/javafx/util/converter/BooleanStringConverter.html
@@ -484,6 +485,7 @@ OpenJFX Documentation
 * /usr/share/doc/java-openjfx/javafx.base/javafx/util/package-use.html
 * /usr/share/doc/java-openjfx/javafx.base/javafx/util/Pair.html
 * /usr/share/doc/java-openjfx/javafx.base/javafx/util/StringConverter.html
+* /usr/share/doc/java-openjfx/javafx.base/javafx/util/Subscription.html
 * /usr/share/doc/java-openjfx/javafx.base/module-summary.html
 * /usr/share/doc/java-openjfx/javafx.controls/javafx/scene/chart/AreaChart.html
 * /usr/share/doc/java-openjfx/javafx.controls/javafx/scene/chart/Axis.html
@@ -606,6 +608,7 @@ OpenJFX Documentation
 * /usr/share/doc/java-openjfx/javafx.controls/javafx/scene/control/class-use/ColorPicker.html
 * /usr/share/doc/java-openjfx/javafx.controls/javafx/scene/control/class-use/ComboBox.html
 * /usr/share/doc/java-openjfx/javafx.controls/javafx/scene/control/class-use/ComboBoxBase.html
+* /usr/share/doc/java-openjfx/javafx.controls/javafx/scene/control/class-use/ConstrainedColumnResizeBase.html
 * /usr/share/doc/java-openjfx/javafx.controls/javafx/scene/control/class-use/ContentDisplay.html
 * /usr/share/doc/java-openjfx/javafx.controls/javafx/scene/control/class-use/ContextMenu.html
 * /usr/share/doc/java-openjfx/javafx.controls/javafx/scene/control/class-use/Control.html
@@ -714,6 +717,7 @@ OpenJFX Documentation
 * /usr/share/doc/java-openjfx/javafx.controls/javafx/scene/control/ColorPicker.html
 * /usr/share/doc/java-openjfx/javafx.controls/javafx/scene/control/ComboBox.html
 * /usr/share/doc/java-openjfx/javafx.controls/javafx/scene/control/ComboBoxBase.html
+* /usr/share/doc/java-openjfx/javafx.controls/javafx/scene/control/ConstrainedColumnResizeBase.html
 * /usr/share/doc/java-openjfx/javafx.controls/javafx/scene/control/ContentDisplay.html
 * /usr/share/doc/java-openjfx/javafx.controls/javafx/scene/control/ContextMenu.html
 * /usr/share/doc/java-openjfx/javafx.controls/javafx/scene/control/Control.html
@@ -1059,15 +1063,18 @@ OpenJFX Documentation
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/Application.Parameters.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/class-use/Application.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/class-use/Application.Parameters.html
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/class-use/ColorScheme.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/class-use/ConditionalFeature.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/class-use/HostServices.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/class-use/Platform.html
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/class-use/Platform.Preferences.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/class-use/Preloader.ErrorNotification.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/class-use/Preloader.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/class-use/Preloader.PreloaderNotification.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/class-use/Preloader.ProgressNotification.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/class-use/Preloader.StateChangeNotification.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/class-use/Preloader.StateChangeNotification.Type.html
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/ColorScheme.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/ConditionalFeature.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/doc-files/Application.png
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/HostServices.html
@@ -1075,6 +1082,7 @@ OpenJFX Documentation
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/package-tree.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/package-use.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/Platform.html
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/Platform.Preferences.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/Preloader.ErrorNotification.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/Preloader.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/application/Preloader.PreloaderNotification.html
@@ -1318,6 +1326,7 @@ OpenJFX Documentation
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/print/PrintSides.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/AccessibleAction.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/AccessibleAttribute.html
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/AccessibleAttribute.ToggleState.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/AccessibleRole.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/AmbientLight.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/CacheHint.html
@@ -1331,6 +1340,7 @@ OpenJFX Documentation
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/canvas/package-use.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/class-use/AccessibleAction.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/class-use/AccessibleAttribute.html
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/class-use/AccessibleAttribute.ToggleState.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/class-use/AccessibleRole.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/class-use/AmbientLight.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/class-use/CacheHint.html
@@ -1606,7 +1616,44 @@ OpenJFX Documentation
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/class-use/Stop.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/Color.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/CycleMethod.html
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/color_and_map/gradient.svg
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/color_and_map/green_gradient.svg
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/color_and_map/map.jpg
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/color_and_map/map_tint.jpg
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/components/all.svg
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/components/lambertian.svg
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/components/reflective.svg
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/components/transparent.svg
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/gloss/red_high_spec.png
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/gloss/yellow_low_spec.png
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/ImagePattern.png
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/map_detail/diff/bump.png
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/map_detail/diff/bump_map.png
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/map_detail/diff/diff+bump.png
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/map_detail/diff/diff.png
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/map_detail/diff/diff_map.png
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/map_detail/spec/bump_map.png
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/map_detail/spec/diff+bump.png
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/map_detail/spec/diff+spec+bump.png
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/map_detail/spec/diff+spec.png
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/map_detail/spec/diff.png
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/map_detail/spec/diff_map.png
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/map_detail/spec/spec_map.png
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/math/specular_power_high.svg
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/math/specular_power_low.svg
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/math/vectors.svg
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/specular_color/copper_high.png
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/specular_color/copper_low.png
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/specular_color/copper_medium.png
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/specular_color/gold_high.png
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/specular_color/gold_low.png
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/texture_animation/animated_gif.gif
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/texture_animation/animated_gif_map.gif
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/texture_animation/animated_writable.gif
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/transparency/high_spec.png
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/transparency/low_spec.png
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/transparency/low_spec_tint.png
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/doc-files/transparency/no_spec.png
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/ImagePattern.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/LinearGradient.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/paint/Material.html
@@ -1875,15 +1922,16 @@ OpenJFX Documentation
 * /usr/share/doc/java-openjfx/javafx.web/javafx/scene/web/WebHistory.html
 * /usr/share/doc/java-openjfx/javafx.web/javafx/scene/web/WebView.html
 * /usr/share/doc/java-openjfx/javafx.web/module-summary.html
-* /usr/share/doc/java-openjfx/jquery-ui.overrides.css
+* /usr/share/doc/java-openjfx/link.svg
 * /usr/share/doc/java-openjfx/member-search-index.js
 * /usr/share/doc/java-openjfx/module-search-index.js
+* /usr/share/doc/java-openjfx/new-list.html
 * /usr/share/doc/java-openjfx/overview-summary.html
 * /usr/share/doc/java-openjfx/overview-tree.html
 * /usr/share/doc/java-openjfx/package-search-index.js
 * /usr/share/doc/java-openjfx/resources/glass.png
 * /usr/share/doc/java-openjfx/resources/x.png
-* /usr/share/doc/java-openjfx/script-dir/jquery-3.6.0.min.js
+* /usr/share/doc/java-openjfx/script-dir/jquery-3.6.1.min.js
 * /usr/share/doc/java-openjfx/script-dir/jquery-ui.min.css
 * /usr/share/doc/java-openjfx/script-dir/jquery-ui.min.js
 * /usr/share/doc/java-openjfx/script.js

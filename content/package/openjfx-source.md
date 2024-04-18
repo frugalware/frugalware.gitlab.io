@@ -1,20 +1,20 @@
 +++
 draft = false
-title = "openjfx-source 19.0.2+1-1"
-version = "19.0.2+1-1"
+title = "openjfx-source 22.0.1+7-1"
+version = "22.0.1+7-1"
 description = "OpenJFX Sourcecode"
-date = "2023-01-19T10:09:30"
+date = "2024-04-18T15:21:37"
 aliases = "/packages/220279"
 categories = ['devel-extra']
 upstreamurl = "https://openjfx.io"
 arch = "x86_64"
-size = "6052056"
-usize = "6636085"
-sha1sum = "74c2e1b18dc073529230e9172b2472a48be286c2"
+size = "6160400"
+usize = "6759861"
+sha1sum = "b94ba49dd5be84c99b7693d6e00cff6957da37c1"
 depends = "[]"
 +++
 ### Description: 
 OpenJFX Sourcecode
 
 ### Files: 
-* /usr/lib/jvm/java-19-openjdk/lib/javafx-src.zip
+* /usr/lib/jvm/java-21-openjdk/lib/javafx-src.zip
