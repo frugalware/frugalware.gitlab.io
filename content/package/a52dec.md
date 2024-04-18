@@ -12,7 +12,7 @@ size = "59652"
 usize = "186333"
 sha1sum = "fbbf5ed7c12c83763fd477fad111d2bd0f1e7cc5"
 depends = "['glibc>=2.34']"
-reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-ugly-a52dec', 'mencoder', 'mplayer', 'vlc-a52']"
+reverse_depends = "['ffmpeg', 'gst1-plugins-ugly-a52dec', 'mencoder', 'mplayer', 'vlc-a52']"
 +++
 ### Description: 
 liba52 is a free library for decoding ATSC A/52 streams.

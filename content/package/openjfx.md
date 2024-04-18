@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "74685916"
 usize = "150515046"
 sha1sum = "c7dfcc1d77fc95c66ebd142e81c3bca3979d20bb"
-depends = "['ffmpeg4.4', 'gtk+2-libs', 'gtk+3', 'openjre-x']"
+depends = "['gtk+2-libs', 'gtk+3', 'openjre-x']"
 +++
 ### Description: 
 Java OpenJFX client application platform (open-source implementation of JavaFX)

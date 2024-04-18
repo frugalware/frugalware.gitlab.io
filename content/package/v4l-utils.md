@@ -12,7 +12,7 @@ size = "1329800"
 usize = "5074086"
 sha1sum = "7ff197e16e282b9c17792fc8593ef431c92a032e"
 depends = "['alsa-lib', 'elfutils', 'json-c', 'libglu', 'libjpeg-turbo', 'libstdc++>=11.2', 'libudev', 'sdl2', 'sdl2_image']"
-reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-good-video4linux2', 'kaffeine', 'lib32-v4l-utils', 'opencv', 'qv4l2', 'sane-backends', 'wine', 'wine-devel']"
+reverse_depends = "['ffmpeg', 'gst1-plugins-good-video4linux2', 'kaffeine', 'lib32-v4l-utils', 'opencv', 'qv4l2', 'sane-backends', 'wine', 'wine-devel']"
 +++
 ### Description: 
 Userspace tools and conversion library for Video 4 Linux

@@ -12,7 +12,7 @@ size = "1817472"
 usize = "2390431"
 sha1sum = "908f96fba74746534713ac29c61b4a5eb13f385c"
 depends = "['lcms2>=2.8-2', 'libpng>=1.6.25', 'libtiff>=4.0.6-2']"
-reverse_depends = "['blender', 'efl', 'ffmpeg', 'ffmpeg4.4', 'freeimage', 'gdcm', 'ghostscript', 'gst1-plugins-bad', 'imagemagick', 'libgs', 'mupdf', 'openimageio', 'openslide', 'poppler', 'python3-pillow', 'webkit-gtk3']"
+reverse_depends = "['blender', 'efl', 'ffmpeg', 'freeimage', 'gdcm', 'ghostscript', 'gst1-plugins-bad', 'imagemagick', 'libgs', 'mupdf', 'openimageio', 'openslide', 'poppler', 'python3-pillow', 'webkit-gtk3']"
 +++
 ### Description: 
 An open-source JPEG 2000 codec written in C

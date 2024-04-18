@@ -12,7 +12,7 @@ size = "890604"
 usize = "5311516"
 sha1sum = "f13bbb597eb70e92d9e1e9004629bad0fe688a4a"
 depends = "['qt5-declarative>=5.15.13']"
-reverse_depends = "['meshroom', 'qt5-xmlpatterns', 'qtav', 'vtk-qt5']"
+reverse_depends = "['meshroom', 'qt5-xmlpatterns', 'vtk-qt5']"
 +++
 ### Description: 
 The Qt5 toolkit, qtquickcontrols

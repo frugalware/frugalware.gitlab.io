@@ -12,7 +12,7 @@ size = "104092"
 usize = "303303"
 sha1sum = "54900d7fadef48d8a90b8a5aa928f9bc9f0ad841"
 depends = "['gnutls', 'libgcrypt', 'zlib>=1.2.12']"
-reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'streamlink', 'yt-dlp']"
+reverse_depends = "['ffmpeg', 'streamlink', 'yt-dlp']"
 +++
 ### Description: 
 A tool to download rtmp:// and rtmpe:// streams

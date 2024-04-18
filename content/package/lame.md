@@ -12,7 +12,7 @@ size = "424956"
 usize = "1657842"
 sha1sum = "05de5b576fbe5160abe4a3ad801bfe9e69b9c2f5"
 depends = "['ncurses>=6.1']"
-reverse_depends = "['cdrdao', 'ffmpeg', 'ffmpeg4.4', 'gtk-handbrake', 'mencoder', 'mlt', 'mplayer', 'realrekord', 'sox']"
+reverse_depends = "['cdrdao', 'ffmpeg', 'gtk-handbrake', 'mencoder', 'mlt', 'mplayer', 'realrekord', 'sox']"
 +++
 ### Description: 
 An LGPL MP3 encoder.

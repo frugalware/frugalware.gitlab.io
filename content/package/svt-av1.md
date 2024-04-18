@@ -12,7 +12,7 @@ size = "1966448"
 usize = "7652851"
 sha1sum = "f8a39a0a9cc70e586e614926bcac02dc560ce028"
 depends = "['glibc']"
-reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'libavif']"
+reverse_depends = "['ffmpeg', 'libavif']"
 +++
 ### Description: 
 Scalable Video Technology AV1 encoder and decoder

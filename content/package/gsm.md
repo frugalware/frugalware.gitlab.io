@@ -12,7 +12,7 @@ size = "40548"
 usize = "116146"
 sha1sum = "dc22c5da2db026e3a0d578a3a7ff28f6b771d9ef"
 depends = "['glibc>=2.35']"
-reverse_depends = "['ffmpeg', 'ffmpeg4.4']"
+reverse_depends = "['ffmpeg']"
 +++
 ### Description: 
 Gsm is an implementation of the final draft GSM 06.10 standard for full-rate speech transcoding.

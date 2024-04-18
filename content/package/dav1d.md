@@ -12,7 +12,7 @@ size = "584140"
 usize = "1845388"
 sha1sum = "16368be5ce9af3d1ab8faf0ac61f8cc8fc680be3"
 depends = "[]"
-reverse_depends = "['chromium-browser', 'ffmpeg', 'ffmpeg4.4', 'firefox', 'libavif', 'libheif', 'thunderbird', 'vlc-dav1d', 'xine-lib']"
+reverse_depends = "['chromium-browser', 'ffmpeg', 'firefox', 'libavif', 'libheif', 'thunderbird', 'vlc-dav1d', 'xine-lib']"
 +++
 ### Description: 
 dav1d is an AV1 decoder

@@ -12,7 +12,7 @@ size = "4658560"
 usize = "22718282"
 sha1sum = "0d13365c3ef311eba64d2079417e4d1083c14a2b"
 depends = "['qt5-base>=5.15.10']"
-reverse_depends = "['bluez-qt5', 'flightgear', 'kiconthemes5', 'kirigami2', 'kirigami25', 'kpeople5', 'kqtquickcharts', 'kuserfeedback5', 'okteta', 'qmlalembic', 'qmltermwidget', 'qownnotes', 'qt5-3d', 'qt5-charts', 'qt5-connectivity', 'qt5-datavis3d', 'qt5-gamepad', 'qt5-graphicaleffects', 'qt5-gstreamer', 'qt5-location', 'qt5-lottie', 'qt5-multimedia', 'qt5-purchasing', 'qt5-quick3d', 'qt5-quickcontrols', 'qt5-quickcontrols2', 'qt5-quicktimeline', 'qt5-remoteobjects', 'qt5-scxml', 'qt5-sensors', 'qt5-serialport', 'qt5-tools', 'qt5-translations', 'qt5-virtualkeyboard', 'qt5-wayland', 'qt5-webchannel', 'qt5-webengine', 'qt5-webglplugin', 'qt5-websockets', 'qtav', 'scribus', 'sddm', 'solid5', 'tiled']"
+reverse_depends = "['bluez-qt5', 'flightgear', 'kiconthemes5', 'kirigami2', 'kirigami25', 'kpeople5', 'kqtquickcharts', 'kuserfeedback5', 'okteta', 'qmlalembic', 'qmltermwidget', 'qownnotes', 'qt5-3d', 'qt5-charts', 'qt5-connectivity', 'qt5-datavis3d', 'qt5-gamepad', 'qt5-graphicaleffects', 'qt5-gstreamer', 'qt5-location', 'qt5-lottie', 'qt5-multimedia', 'qt5-purchasing', 'qt5-quick3d', 'qt5-quickcontrols', 'qt5-quickcontrols2', 'qt5-quicktimeline', 'qt5-remoteobjects', 'qt5-scxml', 'qt5-sensors', 'qt5-serialport', 'qt5-tools', 'qt5-translations', 'qt5-virtualkeyboard', 'qt5-wayland', 'qt5-webchannel', 'qt5-webengine', 'qt5-webglplugin', 'qt5-websockets', 'scribus', 'sddm', 'solid5', 'tiled']"
 +++
 ### Description: 
 The Qt5 toolkit, qtdeclarative

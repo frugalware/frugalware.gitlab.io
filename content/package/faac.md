@@ -12,7 +12,7 @@ size = "62252"
 usize = "171168"
 sha1sum = "81b17e3974484c84282e63b0a4c08ef32716037c"
 depends = "['libmp4v2>=2.1.0-3', 'libstdc++>=11.2']"
-reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-bad-faac', 'mencoder', 'mplayer']"
+reverse_depends = "['ffmpeg', 'gst1-plugins-bad-faac', 'mencoder', 'mplayer']"
 +++
 ### Description: 
 FAAC is an AAC audio encoder.

@@ -12,7 +12,7 @@ size = "60752"
 usize = "295186"
 sha1sum = "7e3b96b424a56c342767e3c88c4f03e316d2e630"
 depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3']"
-reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'libva-vdpau-driver', 'libvdpau-va-gl', 'mencoder', 'mplayer', 'mpv', 'vdpauinfo']"
+reverse_depends = "['ffmpeg', 'libva-vdpau-driver', 'libvdpau-va-gl', 'mencoder', 'mplayer', 'mpv', 'vdpauinfo']"
 +++
 ### Description: 
 VDPAU wrapper library

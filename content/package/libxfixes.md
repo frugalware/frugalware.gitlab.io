@@ -12,7 +12,7 @@ size = "29832"
 usize = "91728"
 sha1sum = "906c2d47c16f8ac4595810e89f901863a833d73f"
 depends = "['libx11>=1.6.4-3']"
-reverse_depends = "['efl', 'enlightenment', 'ffmpeg', 'ffmpeg4.4', 'gnunet', 'libva', 'libxcomposite', 'libxcursor', 'libxdamage', 'libxi', 'libxpresent', 'pipewire-x11', 'spice-vdagent', 'terminology', 'whalebird', 'xrdp']"
+reverse_depends = "['efl', 'enlightenment', 'ffmpeg', 'gnunet', 'libva', 'libxcomposite', 'libxcursor', 'libxdamage', 'libxi', 'libxpresent', 'pipewire-x11', 'spice-vdagent', 'terminology', 'whalebird', 'xrdp']"
 license = "GPL2"
 +++
 ### Description: 
