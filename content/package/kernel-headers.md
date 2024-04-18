@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kernel-headers 6.8.6-1"
-version = "6.8.6-1"
+title = "kernel-headers 6.8.7-1"
+version = "6.8.7-1"
 description = "Linux kernel include files"
-date = "2024-04-13T22:43:11"
+date = "2024-04-18T09:48:48"
 aliases = "/packages/2398"
 categories = ['devel']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "1207040"
-usize = "5706783"
-sha1sum = "ea7e1ba8e74b5f278fbc72e4bd7295dd916842dd"
+size = "1207256"
+usize = "5708432"
+sha1sum = "435fda4823d29bb7759d5a235b015d7d3e1c898c"
 depends = "[]"
 +++
 ### Description: 
@@ -621,6 +621,7 @@ Linux kernel include files
 * /usr/include/linux/npcm-video.h
 * /usr/include/linux/nsfs.h
 * /usr/include/linux/nsm.h
+* /usr/include/linux/ntsync.h
 * /usr/include/linux/nubus.h
 * /usr/include/linux/nvme_ioctl.h
 * /usr/include/linux/nvram.h
