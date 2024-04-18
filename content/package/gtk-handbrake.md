@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gtk-handbrake 1.6.1-2"
-version = "1.6.1-2"
+title = "gtk-handbrake 1.7.3-1"
+version = "1.7.3-1"
 description = "gtk gui for handbrake"
-date = "2023-07-12T07:22:54"
+date = "2024-04-18T13:49:37"
 aliases = "/packages/88670"
 categories = ['xapps-extra']
 upstreamurl = "https://handbrake.fr"
 arch = "x86_64"
-size = "3389160"
-usize = "14956891"
-sha1sum = "15f68095458728e40c310b42fa3d40b205ca2fd2"
+size = "1328976"
+usize = "5915026"
+sha1sum = "94d80024d23366f74f468fc439ec033e6e8db4c3"
 depends = "['gst1-plugins-base', 'gtk+3', 'handbrake', 'lame', 'libass', 'libnotify', 'libsamplerate', 'libtheora', 'x264>=20230712.ga8b68eb']"
 +++
 ### Description: 
@@ -20,7 +20,6 @@ gtk gui for handbrake
 * /usr/bin/ghb
 * /usr/share/applications/fr.handbrake.ghb.desktop
 * /usr/share/icons/hicolor/scalable/apps/fr.handbrake.ghb.svg
-* /usr/share/icons/hicolor/scalable/apps/hb-icon.svg
 * /usr/share/locale/af/LC_MESSAGES/ghb.mo
 * /usr/share/locale/bg/LC_MESSAGES/ghb.mo
 * /usr/share/locale/ca/LC_MESSAGES/ghb.mo
