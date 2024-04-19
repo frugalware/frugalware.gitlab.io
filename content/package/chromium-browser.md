@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "chromium-browser 124.0.6367.60-1"
-version = "124.0.6367.60-1"
+title = "chromium-browser 124.0.6367.60-2"
+version = "124.0.6367.60-2"
 description = "Chromium browser"
-date = "2024-04-17T20:30:09"
+date = "2024-04-19T14:53:16"
 aliases = "/packages/74224"
 categories = ['xapps-extra']
 upstreamurl = "http://www.chromium.org/"
 arch = "x86_64"
-size = "104432132"
-usize = "413122523"
-sha1sum = "f90de4661292ba0701c1ff3a8551de1fe91da61d"
-depends = "['curl', 'dav1d', 'flac>=1.4.0', 'fontconfig', 'freetype2', 'gtk+4', 'harfbuzz>=3.0.0', 'icu4c>=74.1', 'json-glib', 'libatomic', 'libcups', 'libdrm', 'libffi', 'libjpeg-turbo', 'libpulse>=7.1-4', 'libusb1', 'libva', 'libxkbcommon', 'libxscrnsaver>=1.2.2-2', 'libxslt', 'libxtst>=1.2.2-2', 'nss>=3.21-3', 'openh264', 'opus', 'pango', 'pciutils>=3.5', 'qt5-base>=5.15.10', 'snappy>=1.1.6', 'speech-dispatcher>=0.7.1-4']"
+size = "104452948"
+usize = "413150979"
+sha1sum = "d654e82e502050e09ac86b16c4e9d724e81e82a6"
+depends = "['curl', 'dav1d', 'flac>=1.4.0', 'fontconfig', 'freetype2', 'gtk+4', 'harfbuzz>=3.0.0', 'icu4c>=74.1', 'json-glib', 'libatomic', 'libcups', 'libdrm', 'libffi', 'libjpeg-turbo', 'libpulse>=7.1-4', 'libusb1', 'libva', 'libxkbcommon', 'libxscrnsaver>=1.2.2-2', 'libxslt', 'libxtst>=1.2.2-2', 'nss>=3.21-3', 'openh264', 'opus', 'pango', 'pciutils>=3.5', 'snappy>=1.1.6', 'speech-dispatcher>=0.7.1-4']"
 license = "BSD"
 +++
 ### Description: 
@@ -33,6 +33,7 @@ Chromium browser
 * /usr/lib/chromium/libffmpeg.so
 * /usr/lib/chromium/libGLESv2.so
 * /usr/lib/chromium/libqt5_shim.so
+* /usr/lib/chromium/libqt6_shim.so
 * /usr/lib/chromium/libVkICD_mock_icd.so
 * /usr/lib/chromium/libvk_swiftshader.so
 * /usr/lib/chromium/locales/af.pak
