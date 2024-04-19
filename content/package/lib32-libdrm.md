@@ -12,7 +12,7 @@ size = "324488"
 usize = "1274362"
 sha1sum = "31b4eeb1ed47fcc3813791fac0220cd14de6a355"
 depends = "['lib32-libpciaccess>=0.13.4-4']"
-reverse_depends = "['lib32-libegl', 'lib32-libgbm', 'lib32-libgl', 'lib32-libosmesa', 'lib32-libva', 'lib32-libva-mesa-driver', 'lib32-libva1', 'lib32-libxatracker', 'lib32-mesa-dri-drivers', 'lib32-mesa-libegl', 'lib32-mesa-libglx', 'lib32-mesa-nine', 'lib32-mesa-opemax', 'lib32-mesa-pipe-drivers', 'lib32-mesa-vdpau-drivers', 'lib32-pipewire', 'lib32-vulkan-mesa-layers']"
+reverse_depends = "['lib32-libegl', 'lib32-libgbm', 'lib32-libgl', 'lib32-libosmesa', 'lib32-libva', 'lib32-libva-mesa-driver', 'lib32-libxatracker', 'lib32-mesa-dri-drivers', 'lib32-mesa-libegl', 'lib32-mesa-libglx', 'lib32-mesa-nine', 'lib32-mesa-opemax', 'lib32-mesa-pipe-drivers', 'lib32-mesa-vdpau-drivers', 'lib32-pipewire', 'lib32-vulkan-mesa-layers']"
 +++
 ### Description: 
 X.Org Userspace interface to kernel DRM services ( 32bit )
