@@ -12,7 +12,7 @@ size = "6988408"
 usize = "68967887"
 sha1sum = "d14486596191ed5d12f55d13920a60caed1d0cef"
 depends = "['libstdc++>=11.2', 'prrte', 'zlib>=1.2.12']"
-reverse_depends = "['libboost-mpi', 'ospray']"
+reverse_depends = "['libboost-mpi', 'ospray', 'python3-mpi4py']"
 +++
 ### Description: 
 A high-performance message passing library
