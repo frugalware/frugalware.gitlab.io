@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tcsh 6.24.10-3"
-version = "6.24.10-3"
+title = "tcsh 6.24.12-1"
+version = "6.24.12-1"
 description = "Enhanced version of the Berkeley C shell"
-date = "2024-02-02T15:02:44"
+date = "2024-04-22T12:32:17"
 aliases = "/packages/2449"
 categories = ['apps']
 upstreamurl = "https://www.tcsh.org"
 arch = "x86_64"
-size = "374604"
-usize = "1151298"
-sha1sum = "eee783db0afcb99260645216bae88a4c376ba7fe"
+size = "373708"
+usize = "1151347"
+sha1sum = "54f02187ae0c297f2fc6ad2aafd03888595aadeb"
 depends = "['ncurses>=6.1-2']"
 +++
 ### Description: 
@@ -20,9 +20,9 @@ Enhanced version of the Berkeley C shell
 * /etc/csh.login
 * /usr/bin/csh
 * /usr/bin/tcsh
-* /usr/share/doc/tcsh-6.24.10/BUGS
-* /usr/share/doc/tcsh-6.24.10/FAQ
-* /usr/share/doc/tcsh-6.24.10/README.md
+* /usr/share/doc/tcsh-6.24.12/BUGS
+* /usr/share/doc/tcsh-6.24.12/FAQ
+* /usr/share/doc/tcsh-6.24.12/README.md
 * /usr/share/locale/C/LC_MESSAGES/tcsh.cat
 * /usr/share/locale/de/LC_MESSAGES/tcsh.cat
 * /usr/share/locale/es/LC_MESSAGES/tcsh.cat

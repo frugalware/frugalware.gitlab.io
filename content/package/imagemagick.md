@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "imagemagick 7.1.1-14"
-version = "7.1.1-14"
+title = "imagemagick 7.1.1-15"
+version = "7.1.1-15"
 description = "A robust collection of tools and libraries to read, write and manipulate image files."
-date = "2024-02-26T15:14:56"
+date = "2024-04-22T13:10:03"
 aliases = "/packages/3097"
 categories = ['xapps']
 upstreamurl = "http://www.imagemagick.org"
 arch = "x86_64"
-size = "8471432"
-usize = "22345933"
-sha1sum = "31d2aefdcc620bc4d158b77edada8de1d443fd03"
+size = "8557124"
+usize = "22891117"
+sha1sum = "f3c4d042bb7ccec0aa8c80e73c12b05afbe531ad"
 depends = "['djvulibre>=3.5.27-4', 'fftw>=3.3.4-4', 'lcms2>=2.8-2', 'libgomp>=9.1.0-3', 'libheif', 'libjpeg-turbo', 'libraw>=0.21.1', 'librsvg>=2.40.16-3', 'libstdc++>=11.2', 'libtiff>=4.0.6-2', 'libtool>=2.4.6-4', 'libwebp>=0.5.0', 'openexr>=3.2.0', 'openjpeg', 'perl']"
 reverse_depends = "['darktable', 'emacs', 'kitty', 'libvips', 'polychromatic', 'xine-lib']"
 +++
@@ -462,10 +462,6 @@ A robust collection of tools and libraries to read, write and manipulate image f
 * /usr/lib/libMagickWand-7.Q16HDRI.so
 * /usr/lib/libMagickWand-7.Q16HDRI.so.10
 * /usr/lib/libMagickWand-7.Q16HDRI.so.10.0.1
-* /usr/lib/perl5/5.38/site_perl/auto/Image/Magick/Q16HDRI/autosplit.ix
-* /usr/lib/perl5/5.38/site_perl/auto/Image/Magick/Q16HDRI/Q16HDRI.so
-* /usr/lib/perl5/5.38/site_perl/Image/Magick.pm
-* /usr/lib/perl5/5.38/site_perl/Image/Magick/Q16HDRI.pm
 * /usr/lib/pkgconfig/ImageMagick-7.Q16HDRI.pc
 * /usr/lib/pkgconfig/ImageMagick.pc
 * /usr/lib/pkgconfig/Magick++-7.Q16HDRI.pc
@@ -476,7 +472,6 @@ A robust collection of tools and libraries to read, write and manipulate image f
 * /usr/lib/pkgconfig/MagickWand.pc
 * /usr/share/doc/imagemagick-7.1.1/LICENSE
 * /usr/share/doc/imagemagick-7.1.1/README.md
-* /usr/share/doc/imagemagick-7.1.1/README.txt
 * /usr/share/doc/ImageMagick-7/images/affine.png
 * /usr/share/doc/ImageMagick-7/images/annotate.png
 * /usr/share/doc/ImageMagick-7/images/arc.png
@@ -603,7 +598,6 @@ A robust collection of tools and libraries to read, write and manipulate image f
 * /usr/share/doc/ImageMagick-7/images/wizard.png
 * /usr/share/doc/ImageMagick-7/index.html
 * /usr/share/doc/ImageMagick-7/LICENSE
-* /usr/share/doc/ImageMagick-7/NEWS.txt
 * /usr/share/doc/ImageMagick-7/www/advanced-linux-installation.html
 * /usr/share/doc/ImageMagick-7/www/advanced-unix-installation.html
 * /usr/share/doc/ImageMagick-7/www/advanced-windows-installation.html
@@ -672,6 +666,7 @@ A robust collection of tools and libraries to read, write and manipulate image f
 * /usr/share/doc/ImageMagick-7/www/api/vision.html
 * /usr/share/doc/ImageMagick-7/www/api/wand-view.html
 * /usr/share/doc/ImageMagick-7/www/architecture.html
+* /usr/share/doc/ImageMagick-7/www/assets/color-modes.js
 * /usr/share/doc/ImageMagick-7/www/assets/magick.css
 * /usr/share/doc/ImageMagick-7/www/assets/magick.js
 * /usr/share/doc/ImageMagick-7/www/changelog.html
@@ -773,6 +768,7 @@ A robust collection of tools and libraries to read, write and manipulate image f
 * /usr/share/doc/ImageMagick-7/www/openmp.html
 * /usr/share/doc/ImageMagick-7/www/perl-magick.html
 * /usr/share/doc/ImageMagick-7/www/porting.html
+* /usr/share/doc/ImageMagick-7/www/privacy-policy.html
 * /usr/share/doc/ImageMagick-7/www/quantize.html
 * /usr/share/doc/ImageMagick-7/www/resources.html
 * /usr/share/doc/ImageMagick-7/www/search.html
@@ -831,5 +827,3 @@ A robust collection of tools and libraries to read, write and manipulate image f
 * /usr/share/man/man1/mogrify.1.gz
 * /usr/share/man/man1/montage.1.gz
 * /usr/share/man/man1/stream.1.gz
-* /usr/share/man/man3/Image::Magick.3perl.gz
-* /usr/share/man/man3/Image::Magick::Q16HDRI.3perl.gz

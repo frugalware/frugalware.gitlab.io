@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openexr 3.2.2-1"
-version = "3.2.2-1"
+title = "openexr 3.2.4-1"
+version = "3.2.4-1"
 description = "OpenEXR is a high dynamic-range (HDR) image file format."
-date = "2024-02-26T14:09:03"
+date = "2024-04-22T12:26:57"
 aliases = "/packages/4221"
 categories = ['xapps']
 upstreamurl = "http://www.openexr.com"
 arch = "x86_64"
-size = "1059340"
-usize = "7429004"
-sha1sum = "6be5df1e74f76a0cda0b340d02ca45b7f174afa6"
+size = "1060028"
+usize = "7452361"
+sha1sum = "fb0fec633af7fbeb5c23e5727cc6e258e4be660c"
 depends = "['imath>=3.1.10', 'libdeflate', 'zlib>=1.2.12']"
 reverse_depends = "['alicevision', 'blender', 'darktable', 'devil', 'freeimage', 'gegl', 'gmic', 'imagemagick', 'kimageformats', 'kimageformats5', 'kio-extras', 'kio-extras-kf5', 'libvips', 'luminance-hdr', 'opencv', 'openimageio', 'openshadinglanguage', 'qmlalembic', 'vigra']"
 +++
@@ -24,6 +24,7 @@ OpenEXR is a high dynamic-range (HDR) image file format.
 * /usr/bin/exrinfo
 * /usr/bin/exrmakepreview
 * /usr/bin/exrmaketiled
+* /usr/bin/exrmanifest
 * /usr/bin/exrmultipart
 * /usr/bin/exrmultiview
 * /usr/bin/exrstdattr
@@ -176,26 +177,26 @@ OpenEXR is a high dynamic-range (HDR) image file format.
 * /usr/lib/cmake/OpenEXR/OpenEXRTargets.cmake
 * /usr/lib/libIex-3_2.so
 * /usr/lib/libIex-3_2.so.31
-* /usr/lib/libIex-3_2.so.31.3.2.2
+* /usr/lib/libIex-3_2.so.31.3.2.4
 * /usr/lib/libIex.so
 * /usr/lib/libIlmThread-3_2.so
 * /usr/lib/libIlmThread-3_2.so.31
-* /usr/lib/libIlmThread-3_2.so.31.3.2.2
+* /usr/lib/libIlmThread-3_2.so.31.3.2.4
 * /usr/lib/libIlmThread.so
 * /usr/lib/libOpenEXR-3_2.so
 * /usr/lib/libOpenEXR-3_2.so.31
-* /usr/lib/libOpenEXR-3_2.so.31.3.2.2
+* /usr/lib/libOpenEXR-3_2.so.31.3.2.4
 * /usr/lib/libOpenEXR.so
 * /usr/lib/libOpenEXRCore-3_2.so
 * /usr/lib/libOpenEXRCore-3_2.so.31
-* /usr/lib/libOpenEXRCore-3_2.so.31.3.2.2
+* /usr/lib/libOpenEXRCore-3_2.so.31.3.2.4
 * /usr/lib/libOpenEXRCore.so
 * /usr/lib/libOpenEXRUtil-3_2.so
 * /usr/lib/libOpenEXRUtil-3_2.so.31
-* /usr/lib/libOpenEXRUtil-3_2.so.31.3.2.2
+* /usr/lib/libOpenEXRUtil-3_2.so.31.3.2.4
 * /usr/lib/libOpenEXRUtil.so
 * /usr/lib/pkgconfig/OpenEXR.pc
-* /usr/share/doc/openexr-3.2.2/README.md
+* /usr/share/doc/openexr-3.2.4/README.md
 * /usr/share/doc/OpenEXR/examples/deepExamples.cpp
 * /usr/share/doc/OpenEXR/examples/deepExamples.h
 * /usr/share/doc/OpenEXR/examples/deepTiledExamples.cpp

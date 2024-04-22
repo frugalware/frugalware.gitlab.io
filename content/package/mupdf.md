@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mupdf 1.23.11-1"
-version = "1.23.11-1"
+title = "mupdf 1.24.1-1"
+version = "1.24.1-1"
 description = "Lightweight PDF and XPS viewer"
-date = "2024-02-26T14:44:38"
+date = "2024-04-22T12:29:53"
 aliases = "/packages/218921"
 categories = ['xapps']
 upstreamurl = "https://mupdf.com"
 arch = "x86_64"
-size = "86881116"
-usize = "154059462"
-sha1sum = "f46098b7a1d6fcfe6937a5e052b0e81118f314e1"
+size = "86826816"
+usize = "154586183"
+sha1sum = "2add2e3c284a9be5e070e8daf4f468ecba260544"
 depends = "['curl', 'freetype2', 'harfbuzz', 'libglu', 'libjpeg-turbo', 'libxi', 'libxrandr', 'openjpeg>=2.3.0']"
 reverse_depends = "['cups-filters']"
 +++
@@ -46,6 +46,8 @@ Lightweight PDF and XPS viewer
 * /usr/include/mupdf/fitz/glyph-cache.h
 * /usr/include/mupdf/fitz/glyph.h
 * /usr/include/mupdf/fitz/hash.h
+* /usr/include/mupdf/fitz/heap-imp.h
+* /usr/include/mupdf/fitz/heap.h
 * /usr/include/mupdf/fitz/image.h
 * /usr/include/mupdf/fitz/link.h
 * /usr/include/mupdf/fitz/log.h
@@ -74,6 +76,7 @@ Lightweight PDF and XPS viewer
 * /usr/include/mupdf/fitz/write-pixmap.h
 * /usr/include/mupdf/fitz/writer.h
 * /usr/include/mupdf/fitz/xml.h
+* /usr/include/mupdf/html.h
 * /usr/include/mupdf/memento.h
 * /usr/include/mupdf/pdf.h
 * /usr/include/mupdf/pdf/annot.h
@@ -84,6 +87,7 @@ Lightweight PDF and XPS viewer
 * /usr/include/mupdf/pdf/event.h
 * /usr/include/mupdf/pdf/font.h
 * /usr/include/mupdf/pdf/form.h
+* /usr/include/mupdf/pdf/image-rewriter.h
 * /usr/include/mupdf/pdf/interpret.h
 * /usr/include/mupdf/pdf/javascript.h
 * /usr/include/mupdf/pdf/name-table.h
@@ -94,21 +98,24 @@ Lightweight PDF and XPS viewer
 * /usr/include/mupdf/pdf/xref.h
 * /usr/include/mupdf/ucdn.h
 * /usr/share/applications/mupdf.desktop
-* /usr/share/doc/mupdf-1.23.11/CHANGES
-* /usr/share/doc/mupdf-1.23.11/CONTRIBUTORS
-* /usr/share/doc/mupdf-1.23.11/COPYING
-* /usr/share/doc/mupdf-1.23.11/README
+* /usr/share/doc/mupdf-1.24.1/CHANGES
+* /usr/share/doc/mupdf-1.24.1/CONTRIBUTORS
+* /usr/share/doc/mupdf-1.24.1/COPYING
+* /usr/share/doc/mupdf-1.24.1/README
 * /usr/share/doc/mupdf/CHANGES
 * /usr/share/doc/mupdf/COPYING
 * /usr/share/doc/mupdf/examples/bbox-device.js
+* /usr/share/doc/mupdf/examples/copy-outline.js
 * /usr/share/doc/mupdf/examples/create-thumbnail.js
 * /usr/share/doc/mupdf/examples/draw-device.js
 * /usr/share/doc/mupdf/examples/draw-document.js
 * /usr/share/doc/mupdf/examples/example.c
 * /usr/share/doc/mupdf/examples/fix-s22pdf.js
 * /usr/share/doc/mupdf/examples/huntingofthesnark.png
+* /usr/share/doc/mupdf/examples/import-fdf.js
 * /usr/share/doc/mupdf/examples/jpx-to-pdf.js
 * /usr/share/doc/mupdf/examples/multi-threaded.c
+* /usr/share/doc/mupdf/examples/pdf-bake.js
 * /usr/share/doc/mupdf/examples/pdf-create-lowlevel.js
 * /usr/share/doc/mupdf/examples/pdf-create.js
 * /usr/share/doc/mupdf/examples/pdf-dejpx.js
@@ -116,6 +123,7 @@ Lightweight PDF and XPS viewer
 * /usr/share/doc/mupdf/examples/pdf-merge.js
 * /usr/share/doc/mupdf/examples/pdf-portfolio.js
 * /usr/share/doc/mupdf/examples/pdf-trace.js
+* /usr/share/doc/mupdf/examples/reconvert-cmyk.js
 * /usr/share/doc/mupdf/examples/SnarkFront.svg
 * /usr/share/doc/mupdf/examples/storytest.c
 * /usr/share/doc/mupdf/examples/storytest.js
