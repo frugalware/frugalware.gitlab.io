@@ -85,10 +85,10 @@ Desktop integration portals for sandboxed apps
 * /usr/share/dbus-1/services/org.freedesktop.impl.portal.PermissionStore.service
 * /usr/share/dbus-1/services/org.freedesktop.portal.Desktop.service
 * /usr/share/dbus-1/services/org.freedesktop.portal.Documents.service
-* /usr/share/doc/xdg-desktop-portal-1.18.3/COPYING
-* /usr/share/doc/xdg-desktop-portal-1.18.3/NEWS
-* /usr/share/doc/xdg-desktop-portal-1.18.3/README.md
-* /usr/share/doc/xdg-desktop-portal-1.18.3/RELEASE_HOWTO.md
+* /usr/share/doc/xdg-desktop-portal-1.18.4/COPYING
+* /usr/share/doc/xdg-desktop-portal-1.18.4/NEWS
+* /usr/share/doc/xdg-desktop-portal-1.18.4/README.md
+* /usr/share/doc/xdg-desktop-portal-1.18.4/RELEASE_HOWTO.md
 * /usr/share/doc/xdg-desktop-portal/docbook.css
 * /usr/share/doc/xdg-desktop-portal/portal-docs.html
 * /usr/share/doc/xdg-desktop-portal/redirect.html
