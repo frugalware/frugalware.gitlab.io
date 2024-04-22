@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "man-pages 6.7-1"
-version = "6.7-1"
+title = "man-pages 6.7-2"
+version = "6.7-2"
 description = "Man pages are online documentation for Linux"
-date = "2024-04-22T10:05:09"
+date = "2024-04-22T10:16:23"
 aliases = "/packages/3222"
 categories = ['apps']
 upstreamurl = "http://www.kernel.org/doc/man-pages/index.html"
 arch = "x86_64"
-size = "5638352"
-usize = "5673781"
-sha1sum = "9e2de9bcfb8401ef4430e298dd72e243eddeac36"
+size = "5613328"
+usize = "5649747"
+sha1sum = "99c392f642cb9b1f424a3f5c44299a8d2aafed0c"
 depends = "[]"
 +++
 ### Description: 
@@ -1031,8 +1031,6 @@ Man pages are online documentation for Linux
 * /usr/share/man/man3/creal.3.gz
 * /usr/share/man/man3/crealf.3.gz
 * /usr/share/man/man3/creall.3.gz
-* /usr/share/man/man3/crypt.3.gz
-* /usr/share/man/man3/crypt_r.3.gz
 * /usr/share/man/man3/csin.3.gz
 * /usr/share/man/man3/csinf.3.gz
 * /usr/share/man/man3/csinh.3.gz
@@ -3628,7 +3626,6 @@ Man pages are online documentation for Linux
 * /usr/share/man/man5/termcap.5.gz
 * /usr/share/man/man5/tmpfs.5.gz
 * /usr/share/man/man5/ttytype.5.gz
-* /usr/share/man/man5/tzfile.5.gz
 * /usr/share/man/man5/utmp.5.gz
 * /usr/share/man/man5/utmpx.5.gz
 * /usr/share/man/man5/wtmp.5.gz
@@ -3810,6 +3807,3 @@ Man pages are online documentation for Linux
 * /usr/share/man/man8/ldconfig.8.gz
 * /usr/share/man/man8/nscd.8.gz
 * /usr/share/man/man8/sln.8.gz
-* /usr/share/man/man8/tzselect.8.gz
-* /usr/share/man/man8/zdump.8.gz
-* /usr/share/man/man8/zic.8.gz
