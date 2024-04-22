@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xdg-desktop-portal 1.18.3-1"
-version = "1.18.3-1"
+title = "xdg-desktop-portal 1.18.4-1"
+version = "1.18.4-1"
 description = "Desktop integration portals for sandboxed apps"
-date = "2024-04-07T17:19:40"
+date = "2024-04-22T09:17:48"
 aliases = "/packages/220846"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/flatpak/xdg-desktop-portal"
 arch = "x86_64"
-size = "347840"
-usize = "2323148"
-sha1sum = "edb0531be0c18eaded3d8b128adf517fcfc6de9a"
+size = "347948"
+usize = "2327547"
+sha1sum = "1a552d5be5fe641bc74a236e48f303447c819521"
 depends = "['fuse3', 'geoclue2', 'glib2', 'libportal', 'pipewire', 'rtkit', 'systemd']"
 reverse_depends = "['plasma-wayland-session']"
 +++

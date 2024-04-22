@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kitty 0.33.1-1"
-version = "0.33.1-1"
+title = "kitty 0.34.1-1"
+version = "0.34.1-1"
 description = "A modern, hackable, featureful, OpenGL-based terminal emulator"
-date = "2024-04-07T15:30:24"
+date = "2024-04-22T09:34:22"
 aliases = "/packages/220895"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/kovidgoyal/kitty"
 arch = "x86_64"
-size = "11341508"
-usize = "41951134"
-sha1sum = "fbb131a409097e901df598d9649f50ace17da500"
+size = "11405764"
+usize = "41991034"
+sha1sum = "fb7448589aa1f5d65b223fe6d88bc92b0bc8deb1"
 depends = "['dbus', 'fontconfig', 'freetype2', 'harfbuzz', 'hicolor-icon-theme', 'imagemagick>=7.1.1', 'lcms2', 'libcanberra', 'libgl', 'librsync', 'libx11', 'libxi', 'libxkbcommon', 'python3>=3.12', 'python3-pygments', 'wayland']"
 +++
 ### Description: 
@@ -690,9 +690,9 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/share/applications/kitty-open.desktop
 * /usr/share/applications/kitty.desktop
 * /usr/share/bash-completion/completions/kitty
-* /usr/share/doc/kitty-0.33.1/INSTALL.md
-* /usr/share/doc/kitty-0.33.1/LICENSE
-* /usr/share/doc/kitty-0.33.1/README.asciidoc
+* /usr/share/doc/kitty-0.34.1/INSTALL.md
+* /usr/share/doc/kitty-0.34.1/LICENSE
+* /usr/share/doc/kitty-0.34.1/README.asciidoc
 * /usr/share/doc/kitty/html/.buildinfo
 * /usr/share/doc/kitty/html/.nojekyll
 * /usr/share/doc/kitty/html/actions.html
@@ -765,7 +765,7 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/share/doc/kitty/html/_images/social_previews/summary_actions_1745a1bd.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_binary_478594b0.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_build_7ee1e14e.png
-* /usr/share/doc/kitty/html/_images/social_previews/summary_changelog_09b0697f.png
+* /usr/share/doc/kitty/html/_images/social_previews/summary_changelog_0413c894.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_clipboard_673291d1.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_color-stack_587105f7.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_conf_6d817f14.png
@@ -792,7 +792,7 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/share/doc/kitty/html/_images/social_previews/summary_kittens_hyperlinked_grep_bce050dc.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_kittens_icat_8f870112.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_kittens_intro_2aa247aa.png
-* /usr/share/doc/kitty/html/_images/social_previews/summary_kittens_panel_60319d79.png
+* /usr/share/doc/kitty/html/_images/social_previews/summary_kittens_panel_acc427d1.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_kittens_query_terminal_bcf6bdb9.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_kittens_remote_file_c5782e6e.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_kittens_ssh_d0cb65fa.png
