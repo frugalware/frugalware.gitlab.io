@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bluez 5.73-3"
-version = "5.73-3"
+title = "bluez 5.75-1"
+version = "5.75-1"
 description = "Library to use the BlueZ Linux Bluetooth stack"
-date = "2024-04-08T18:27:24"
+date = "2024-04-22T11:30:05"
 aliases = "/packages/74581"
 categories = ['apps']
 upstreamurl = "http://bluez.sourceforge.net/"
 arch = "x86_64"
-size = "1811308"
-usize = "6553470"
-sha1sum = "f027304e7b98c33cd951d3a446c8b1c3f7713eb6"
+size = "1830580"
+usize = "6616421"
+sha1sum = "e061c243d573aee1c6d6d2a9838f3d5b83663fda"
 depends = "['alsa-lib', 'dbus>=1.10.16-3', 'glib2>=2.50.0', 'libical>=3.0.3', 'libsystemd>=242-3', 'libudev>=242-3', 'readline>=8.0']"
 reverse_depends = "['anyremote', 'enlightenment', 'gammu', 'gnokii', 'gpsd', 'gst1-plugins-bad-bluez', 'kvm', 'ofono', 'pulseaudio-bluetooth', 'pybluez', 'qemu', 'qt5-connectivity', 'qt6-connectivity', 'supertuxkart']"
 +++
@@ -95,7 +95,7 @@ Library to use the BlueZ Linux Bluetooth stack
 * /usr/lib/cups/backend/bluetooth
 * /usr/lib/libbluetooth.so
 * /usr/lib/libbluetooth.so.3
-* /usr/lib/libbluetooth.so.3.19.13
+* /usr/lib/libbluetooth.so.3.19.14
 * /usr/lib/modprobe.d/bluetooth-usb.conf
 * /usr/lib/modules-load.d/bluez.conf
 * /usr/lib/pkgconfig/bluez.pc
@@ -110,13 +110,13 @@ Library to use the BlueZ Linux Bluetooth stack
 * /usr/share/dbus-1/system-services/org.bluez.service
 * /usr/share/dbus-1/system.d/bluetooth-mesh.conf
 * /usr/share/dbus-1/system.d/bluetooth.conf
-* /usr/share/doc/bluez-5.73/AUTHORS
-* /usr/share/doc/bluez-5.73/ChangeLog
-* /usr/share/doc/bluez-5.73/COPYING
-* /usr/share/doc/bluez-5.73/COPYING.LIB
-* /usr/share/doc/bluez-5.73/INSTALL
-* /usr/share/doc/bluez-5.73/README
-* /usr/share/doc/bluez-5.73/TODO
+* /usr/share/doc/bluez-5.75/AUTHORS
+* /usr/share/doc/bluez-5.75/ChangeLog
+* /usr/share/doc/bluez-5.75/COPYING
+* /usr/share/doc/bluez-5.75/COPYING.LIB
+* /usr/share/doc/bluez-5.75/INSTALL
+* /usr/share/doc/bluez-5.75/README
+* /usr/share/doc/bluez-5.75/TODO
 * /usr/share/man/man1/bluetoothctl-admin.1.gz
 * /usr/share/man/man1/bluetoothctl-advertise.1.gz
 * /usr/share/man/man1/bluetoothctl-endpoint.1.gz
