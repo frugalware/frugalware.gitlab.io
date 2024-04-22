@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "asio 1.28.1-1"
-version = "1.28.1-1"
+title = "asio 1.30.2-1"
+version = "1.30.2-1"
 description = "A a cross-platform C++ library written in C++ for consistent asynchronous I/O."
-date = "2023-08-27T19:25:07"
+date = "2024-04-22T13:49:38"
 aliases = "/packages/219638"
 categories = ['lib-extra']
 upstreamurl = "https://sourceforge.net/projects/asio"
 arch = "x86_64"
-size = "431056"
-usize = "5764142"
-sha1sum = "111d2697cd5d6a5aa1bc385923f481ebe9b1fd63"
+size = "394144"
+usize = "5070130"
+sha1sum = "ae26635daa9ca9b0c716d39c70dee2686d5dea14"
 depends = "[]"
 reverse_depends = "['obs-studio', 'opendht', 'sdlmame']"
 +++
@@ -89,7 +89,6 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/detail/buffered_stream_storage.hpp
 * /usr/include/asio/detail/buffer_resize_guard.hpp
 * /usr/include/asio/detail/buffer_sequence_adapter.hpp
-* /usr/include/asio/detail/bulk_executor_op.hpp
 * /usr/include/asio/detail/call_stack.hpp
 * /usr/include/asio/detail/chrono.hpp
 * /usr/include/asio/detail/chrono_time_traits.hpp
@@ -119,14 +118,9 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/detail/fenced_block.hpp
 * /usr/include/asio/detail/functional.hpp
 * /usr/include/asio/detail/future.hpp
-* /usr/include/asio/detail/gcc_arm_fenced_block.hpp
-* /usr/include/asio/detail/gcc_hppa_fenced_block.hpp
-* /usr/include/asio/detail/gcc_sync_fenced_block.hpp
-* /usr/include/asio/detail/gcc_x86_fenced_block.hpp
 * /usr/include/asio/detail/global.hpp
 * /usr/include/asio/detail/handler_alloc_helpers.hpp
 * /usr/include/asio/detail/handler_cont_helpers.hpp
-* /usr/include/asio/detail/handler_invoke_helpers.hpp
 * /usr/include/asio/detail/handler_tracking.hpp
 * /usr/include/asio/detail/handler_type_requirements.hpp
 * /usr/include/asio/detail/handler_work.hpp
@@ -218,7 +212,6 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/detail/kqueue_reactor.hpp
 * /usr/include/asio/detail/limits.hpp
 * /usr/include/asio/detail/local_free_on_block_exit.hpp
-* /usr/include/asio/detail/macos_fenced_block.hpp
 * /usr/include/asio/detail/memory.hpp
 * /usr/include/asio/detail/mutex.hpp
 * /usr/include/asio/detail/noncopyable.hpp
@@ -290,7 +283,6 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/detail/socket_option.hpp
 * /usr/include/asio/detail/socket_select_interrupter.hpp
 * /usr/include/asio/detail/socket_types.hpp
-* /usr/include/asio/detail/solaris_fenced_block.hpp
 * /usr/include/asio/detail/source_location.hpp
 * /usr/include/asio/detail/static_mutex.hpp
 * /usr/include/asio/detail/std_event.hpp
@@ -317,7 +309,6 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/detail/tss_ptr.hpp
 * /usr/include/asio/detail/type_traits.hpp
 * /usr/include/asio/detail/utility.hpp
-* /usr/include/asio/detail/variadic_templates.hpp
 * /usr/include/asio/detail/wait_handler.hpp
 * /usr/include/asio/detail/wait_op.hpp
 * /usr/include/asio/detail/winapp_thread.hpp
@@ -336,7 +327,6 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/detail/winsock_init.hpp
 * /usr/include/asio/detail/win_event.hpp
 * /usr/include/asio/detail/win_fd_set_adapter.hpp
-* /usr/include/asio/detail/win_fenced_block.hpp
 * /usr/include/asio/detail/win_global.hpp
 * /usr/include/asio/detail/win_iocp_file_service.hpp
 * /usr/include/asio/detail/win_iocp_handle_read_op.hpp
@@ -374,38 +364,16 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/execution/bad_executor.hpp
 * /usr/include/asio/execution/blocking.hpp
 * /usr/include/asio/execution/blocking_adaptation.hpp
-* /usr/include/asio/execution/bulk_execute.hpp
-* /usr/include/asio/execution/bulk_guarantee.hpp
-* /usr/include/asio/execution/connect.hpp
 * /usr/include/asio/execution/context.hpp
 * /usr/include/asio/execution/context_as.hpp
-* /usr/include/asio/execution/detail/as_invocable.hpp
-* /usr/include/asio/execution/detail/as_operation.hpp
-* /usr/include/asio/execution/detail/as_receiver.hpp
-* /usr/include/asio/execution/detail/bulk_sender.hpp
-* /usr/include/asio/execution/detail/submit_receiver.hpp
-* /usr/include/asio/execution/detail/void_receiver.hpp
-* /usr/include/asio/execution/execute.hpp
 * /usr/include/asio/execution/executor.hpp
 * /usr/include/asio/execution/impl/bad_executor.ipp
-* /usr/include/asio/execution/impl/receiver_invocation_error.ipp
 * /usr/include/asio/execution/invocable_archetype.hpp
 * /usr/include/asio/execution/mapping.hpp
 * /usr/include/asio/execution/occupancy.hpp
-* /usr/include/asio/execution/operation_state.hpp
 * /usr/include/asio/execution/outstanding_work.hpp
 * /usr/include/asio/execution/prefer_only.hpp
-* /usr/include/asio/execution/receiver.hpp
-* /usr/include/asio/execution/receiver_invocation_error.hpp
 * /usr/include/asio/execution/relationship.hpp
-* /usr/include/asio/execution/schedule.hpp
-* /usr/include/asio/execution/scheduler.hpp
-* /usr/include/asio/execution/sender.hpp
-* /usr/include/asio/execution/set_done.hpp
-* /usr/include/asio/execution/set_error.hpp
-* /usr/include/asio/execution/set_value.hpp
-* /usr/include/asio/execution/start.hpp
-* /usr/include/asio/execution/submit.hpp
 * /usr/include/asio/execution_context.hpp
 * /usr/include/asio/executor.hpp
 * /usr/include/asio/executor_work_guard.hpp
@@ -459,9 +427,7 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/generic/raw_protocol.hpp
 * /usr/include/asio/generic/seq_packet_protocol.hpp
 * /usr/include/asio/generic/stream_protocol.hpp
-* /usr/include/asio/handler_alloc_hook.hpp
 * /usr/include/asio/handler_continuation_hook.hpp
-* /usr/include/asio/handler_invoke_hook.hpp
 * /usr/include/asio/high_resolution_timer.hpp
 * /usr/include/asio/impl/any_completion_executor.ipp
 * /usr/include/asio/impl/any_io_executor.ipp
@@ -484,7 +450,6 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/impl/execution_context.ipp
 * /usr/include/asio/impl/executor.hpp
 * /usr/include/asio/impl/executor.ipp
-* /usr/include/asio/impl/handler_alloc_hook.ipp
 * /usr/include/asio/impl/io_context.hpp
 * /usr/include/asio/impl/io_context.ipp
 * /usr/include/asio/impl/multiple_exceptions.ipp
@@ -633,12 +598,7 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/thread.hpp
 * /usr/include/asio/thread_pool.hpp
 * /usr/include/asio/time_traits.hpp
-* /usr/include/asio/traits/bulk_execute_free.hpp
-* /usr/include/asio/traits/bulk_execute_member.hpp
-* /usr/include/asio/traits/connect_free.hpp
-* /usr/include/asio/traits/connect_member.hpp
 * /usr/include/asio/traits/equality_comparable.hpp
-* /usr/include/asio/traits/execute_free.hpp
 * /usr/include/asio/traits/execute_member.hpp
 * /usr/include/asio/traits/prefer_free.hpp
 * /usr/include/asio/traits/prefer_member.hpp
@@ -649,21 +609,9 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/traits/require_concept_member.hpp
 * /usr/include/asio/traits/require_free.hpp
 * /usr/include/asio/traits/require_member.hpp
-* /usr/include/asio/traits/schedule_free.hpp
-* /usr/include/asio/traits/schedule_member.hpp
-* /usr/include/asio/traits/set_done_free.hpp
-* /usr/include/asio/traits/set_done_member.hpp
-* /usr/include/asio/traits/set_error_free.hpp
-* /usr/include/asio/traits/set_error_member.hpp
-* /usr/include/asio/traits/set_value_free.hpp
-* /usr/include/asio/traits/set_value_member.hpp
-* /usr/include/asio/traits/start_free.hpp
-* /usr/include/asio/traits/start_member.hpp
 * /usr/include/asio/traits/static_query.hpp
 * /usr/include/asio/traits/static_require.hpp
 * /usr/include/asio/traits/static_require_concept.hpp
-* /usr/include/asio/traits/submit_free.hpp
-* /usr/include/asio/traits/submit_member.hpp
 * /usr/include/asio/ts/buffer.hpp
 * /usr/include/asio/ts/executor.hpp
 * /usr/include/asio/ts/internet.hpp
@@ -692,6 +640,6 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/write_at.hpp
 * /usr/include/asio/yield.hpp
 * /usr/lib/pkgconfig/asio.pc
-* /usr/share/doc/asio-1.28.1/COPYING
-* /usr/share/doc/asio-1.28.1/INSTALL
-* /usr/share/doc/asio-1.28.1/README
+* /usr/share/doc/asio-1.30.2/COPYING
+* /usr/share/doc/asio-1.30.2/INSTALL
+* /usr/share/doc/asio-1.30.2/README

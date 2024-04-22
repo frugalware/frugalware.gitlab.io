@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lsp-plugins 1.2.14-1"
-version = "1.2.14-1"
+title = "lsp-plugins 1.2.15-1"
+version = "1.2.15-1"
 description = "Collection of open-source plugins"
-date = "2024-01-27T20:24:09"
+date = "2024-04-22T13:18:02"
 aliases = "/packages/221033"
 categories = ['multimedia-extra']
 upstreamurl = "https://lsp-plug.in"
 arch = "x86_64"
-size = "37228584"
-usize = "103871923"
-sha1sum = "5d3f1fedc195a516c96d8d522e6cd78cae257612"
+size = "37630680"
+usize = "105579842"
+sha1sum = "507823cc49910b15d8aec132ef8ca8edde8d7b5f"
 depends = "['cairo', 'jack2', 'libglvnd', 'libxrandr']"
 reverse_depends = "['easyeffects']"
 +++
@@ -200,10 +200,10 @@ Collection of open-source plugins
 * /usr/include/lsp-plug.in/r3d/glx/version.h
 * /usr/lib/clap/lsp-plugins-clap.clap
 * /usr/lib/ladspa/lsp-plugins-ladspa.so
-* /usr/lib/liblsp-r3d-glx-lib-1.0.16.so
+* /usr/lib/liblsp-r3d-glx-lib-1.0.17.so
 * /usr/lib/liblsp-r3d-glx-lib.a
 * /usr/lib/liblsp-r3d-glx-lib.so
-* /usr/lib/lsp-plugins/liblsp-plugins-jack-1.2.14.so
+* /usr/lib/lsp-plugins/liblsp-plugins-jack-1.2.15.so
 * /usr/lib/lv2/lsp-plugins.lv2/ab_tester_x2_mono.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/ab_tester_x2_stereo.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/ab_tester_x4_mono.ttl
@@ -446,7 +446,7 @@ Collection of open-source plugins
 * /usr/lib/vst/lsp-plugins/limiter-stereo.so
 * /usr/lib/vst/lsp-plugins/loud-comp-mono.so
 * /usr/lib/vst/lsp-plugins/loud-comp-stereo.so
-* /usr/lib/vst/lsp-plugins/lsp-plugins-vst2-1.2.14.so
+* /usr/lib/vst/lsp-plugins/lsp-plugins-vst2-1.2.15.so
 * /usr/lib/vst/lsp-plugins/mb-clipper-mono.so
 * /usr/lib/vst/lsp-plugins/mb-clipper-stereo.so
 * /usr/lib/vst/lsp-plugins/mb-compressor-lr.so
@@ -734,10 +734,10 @@ Collection of open-source plugins
 * /usr/share/applications/in.lsp_plug.lsp_plugins_trigger_mono.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_trigger_stereo.desktop
 * /usr/share/desktop-directories/lsp-plugins.directory
-* /usr/share/doc/lsp-plugins-1.2.14/CHANGELOG
-* /usr/share/doc/lsp-plugins-1.2.14/COPYING
-* /usr/share/doc/lsp-plugins-1.2.14/COPYING.LESSER
-* /usr/share/doc/lsp-plugins-1.2.14/README.md
+* /usr/share/doc/lsp-plugins-1.2.15/CHANGELOG
+* /usr/share/doc/lsp-plugins-1.2.15/COPYING
+* /usr/share/doc/lsp-plugins-1.2.15/COPYING.LESSER
+* /usr/share/doc/lsp-plugins-1.2.15/README.md
 * /usr/share/doc/lsp-plugins/css/style.css
 * /usr/share/doc/lsp-plugins/fonts/notosansdisplay-condensed-webfont.woff
 * /usr/share/doc/lsp-plugins/fonts/notosansdisplay-condensed-webfont.woff2
@@ -746,6 +746,7 @@ Collection of open-source plugins
 * /usr/share/doc/lsp-plugins/html/development/building.html
 * /usr/share/doc/lsp-plugins/html/development/eclipse.html
 * /usr/share/doc/lsp-plugins/html/development/testing.html
+* /usr/share/doc/lsp-plugins/html/development/ui_guidelines.html
 * /usr/share/doc/lsp-plugins/html/development/versioning.html
 * /usr/share/doc/lsp-plugins/html/installation.html
 * /usr/share/doc/lsp-plugins/html/licensing.html
@@ -1198,42 +1199,36 @@ Collection of open-source plugins
 * /usr/share/doc/lsp-plugins/img/plugins/trigger_mono.png
 * /usr/share/doc/lsp-plugins/img/plugins/trigger_stereo.png
 * /usr/share/doc/lsp-plugins/img/tutorials/lsp-sampler-hydrogen-kit.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/bottom.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/cgroup.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/cycles.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/gott.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/gott_full_screen.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/graph.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/group.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/hsl_color.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/hsl_gray.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/inactive.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/inactive_2.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/lch_color.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/lch_gray.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/legacy_group.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/lufs_group.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/middle.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/modern_group.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/no_shake.gif
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/palette 256.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/scheme_legacy.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/scheme_legacy_dark.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/scheme_modern.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/separator_legacy.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/separator_modern.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/shake.gif
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/simple_interface.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/simple_interface_grid.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/tabs.png
+* /usr/share/doc/lsp-plugins/img/ui_guidlines/top.png
 * /usr/share/doc/lsp-plugins/index.html
-* /usr/share/doc/lsp-plugins/svg/bou.png
-* /usr/share/doc/lsp-plugins/svg/bou.svg
-* /usr/share/doc/lsp-plugins/svg/bou_gray.png
-* /usr/share/doc/lsp-plugins/svg/bou_gray.svg
-* /usr/share/doc/lsp-plugins/svg/don.svg
-* /usr/share/doc/lsp-plugins/svg/donate_button_gray.svg
-* /usr/share/doc/lsp-plugins/svg/donate_button_green.svg
-* /usr/share/doc/lsp-plugins/svg/don_cover.svg
-* /usr/share/doc/lsp-plugins/svg/don_cover_9.svg
-* /usr/share/doc/lsp-plugins/svg/don_cover_l.svg
-* /usr/share/doc/lsp-plugins/svg/don_cover_r.svg
-* /usr/share/doc/lsp-plugins/svg/don_cover_t_l.svg
-* /usr/share/doc/lsp-plugins/svg/don_cover_t_r.svg
-* /usr/share/doc/lsp-plugins/svg/don_hover.svg
-* /usr/share/doc/lsp-plugins/svg/download_button_gray.svg
-* /usr/share/doc/lsp-plugins/svg/download_button_green.svg
-* /usr/share/doc/lsp-plugins/svg/eth.png
-* /usr/share/doc/lsp-plugins/svg/eth.svg
-* /usr/share/doc/lsp-plugins/svg/eth_gray.png
-* /usr/share/doc/lsp-plugins/svg/eth_gray.svg
-* /usr/share/doc/lsp-plugins/svg/lpa.png
-* /usr/share/doc/lsp-plugins/svg/lpa.svg
-* /usr/share/doc/lsp-plugins/svg/lpa_gray.png
-* /usr/share/doc/lsp-plugins/svg/lpa_gray.svg
-* /usr/share/doc/lsp-plugins/svg/m_cover_l.svg
-* /usr/share/doc/lsp-plugins/svg/m_cover_r.svg
-* /usr/share/doc/lsp-plugins/svg/m_cover_t_l.svg
-* /usr/share/doc/lsp-plugins/svg/m_cover_t_r.svg
-* /usr/share/doc/lsp-plugins/svg/patreon.svg
-* /usr/share/doc/lsp-plugins/svg/pay.png
-* /usr/share/doc/lsp-plugins/svg/pay.svg
-* /usr/share/doc/lsp-plugins/svg/pay_gray.png
-* /usr/share/doc/lsp-plugins/svg/pay_gray.svg
-* /usr/share/doc/lsp-plugins/svg/ptr.png
-* /usr/share/doc/lsp-plugins/svg/ptr_gray.png
 * /usr/share/icons/hicolor/128x128/apps/lsp-plugins.png
 * /usr/share/icons/hicolor/16x16/apps/lsp-plugins.png
 * /usr/share/icons/hicolor/22x22/apps/lsp-plugins.png
