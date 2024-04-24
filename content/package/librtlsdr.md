@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "librtlsdr 2.0.1-1"
-version = "2.0.1-1"
+title = "librtlsdr 2.0.2-1"
+version = "2.0.2-1"
 description = "Software to turn the RTL2832U into an SDR"
-date = "2023-11-13T09:12:22"
+date = "2024-04-24T13:27:29"
 aliases = "/packages/220095"
 categories = ['base']
 upstreamurl = "https://github.com/steve-m/librtlsdr"
 arch = "x86_64"
-size = "69500"
-usize = "277646"
-sha1sum = "22d303b722ae8668f206aa4465a7b56cf87e0979"
+size = "69496"
+usize = "277676"
+sha1sum = "98f68f5771bf266d293de0b29aeb664dd6cf25b9"
 depends = "['libusb1']"
 reverse_depends = "['rng-tools']"
 +++
@@ -33,9 +33,9 @@ Software to turn the RTL2832U into an SDR
 * /usr/lib/cmake/rtlsdr/rtlsdrTargets-release.cmake
 * /usr/lib/cmake/rtlsdr/rtlsdrTargets.cmake
 * /usr/lib/librtlsdr.so
-* /usr/lib/librtlsdr.so.2
+* /usr/lib/librtlsdr.so.0
 * /usr/lib/librtlsdr.so.2.0.1
 * /usr/lib/pkgconfig/librtlsdr.pc
-* /usr/share/doc/librtlsdr-2.0.1/AUTHORS
-* /usr/share/doc/librtlsdr-2.0.1/COPYING
-* /usr/share/doc/librtlsdr-2.0.1/README
+* /usr/share/doc/librtlsdr-2.0.2/AUTHORS
+* /usr/share/doc/librtlsdr-2.0.2/COPYING
+* /usr/share/doc/librtlsdr-2.0.2/README
