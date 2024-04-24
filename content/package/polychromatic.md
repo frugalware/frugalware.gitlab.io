@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "polychromatic 0.8.3-1"
-version = "0.8.3-1"
+title = "polychromatic 0.9.0-1"
+version = "0.9.0-1"
 description = "A graphical front end for managing Razer peripherals under GNU/Linux."
-date = "2023-11-22T19:25:23"
+date = "2024-04-24T15:04:30"
 aliases = "/packages/220392"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/polychromatic/polychromatic"
 arch = "x86_64"
-size = "793012"
-usize = "4827418"
-sha1sum = "9692c364659bc7bee2fff59e85b5b02fee6d2276"
-depends = "['hicolor-icon-theme', 'imagemagick>=7.1.1', 'libappindicator', 'openrazer', 'pyqtwebengine', 'python3-colorama', 'python3-colour']"
+size = "790020"
+usize = "4900616"
+sha1sum = "f7d255268de4b468b5b860ba176c245f69d6794e"
+depends = "['hicolor-icon-theme', 'imagemagick>=7.1.1', 'libappindicator', 'openrazer', 'pyqt6webengine', 'python3-colorama', 'python3-colour']"
 +++
 ### Description: 
 A graphical front end for managing Razer peripherals under GNU/Linux.
@@ -34,10 +34,8 @@ A graphical front end for managing Razer peripherals under GNU/Linux.
 * /usr/lib/python3.12/site-packages/polychromatic/controller/effects.py
 * /usr/lib/python3.12/site-packages/polychromatic/controller/menubar.py
 * /usr/lib/python3.12/site-packages/polychromatic/controller/preferences.py
-* /usr/lib/python3.12/site-packages/polychromatic/controller/presets.py
 * /usr/lib/python3.12/site-packages/polychromatic/controller/procviewer.py
 * /usr/lib/python3.12/site-packages/polychromatic/controller/shared.py
-* /usr/lib/python3.12/site-packages/polychromatic/controller/triggers.py
 * /usr/lib/python3.12/site-packages/polychromatic/controller/troubleshooter.py
 * /usr/lib/python3.12/site-packages/polychromatic/controller/__init__.py
 * /usr/lib/python3.12/site-packages/polychromatic/controller/__pycache__/devices.cpython-312.pyc
@@ -45,10 +43,8 @@ A graphical front end for managing Razer peripherals under GNU/Linux.
 * /usr/lib/python3.12/site-packages/polychromatic/controller/__pycache__/effects.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/polychromatic/controller/__pycache__/menubar.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/polychromatic/controller/__pycache__/preferences.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/controller/__pycache__/presets.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/polychromatic/controller/__pycache__/procviewer.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/polychromatic/controller/__pycache__/shared.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/controller/__pycache__/triggers.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/polychromatic/controller/__pycache__/troubleshooter.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/polychromatic/controller/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/polychromatic/effects.py
@@ -77,9 +73,9 @@ A graphical front end for managing Razer peripherals under GNU/Linux.
 * /usr/lib/python3.12/site-packages/polychromatic/__pycache__/procpid.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/polychromatic/__pycache__/__init__.cpython-312.pyc
 * /usr/share/applications/polychromatic.desktop
-* /usr/share/doc/polychromatic-0.8.3/CHANGELOG
-* /usr/share/doc/polychromatic-0.8.3/LICENSE
-* /usr/share/doc/polychromatic-0.8.3/README.md
+* /usr/share/doc/polychromatic-0.9.0/CHANGELOG
+* /usr/share/doc/polychromatic-0.9.0/LICENSE
+* /usr/share/doc/polychromatic-0.9.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/polychromatic.png
 * /usr/share/icons/hicolor/16x16/apps/polychromatic.png
 * /usr/share/icons/hicolor/256x256/apps/polychromatic.png
@@ -123,6 +119,8 @@ A graphical front end for managing Razer peripherals under GNU/Linux.
 * /usr/share/polychromatic/devicemaps/deathstalker_chroma_en_GB.svg
 * /usr/share/polychromatic/devicemaps/firefly.svg
 * /usr/share/polychromatic/devicemaps/huntsman_elite_de_DE.svg
+* /usr/share/polychromatic/devicemaps/huntsman_mini_en_US.json
+* /usr/share/polychromatic/devicemaps/huntsman_mini_en_US.svg
 * /usr/share/polychromatic/devicemaps/huntsman_te_en_US.json
 * /usr/share/polychromatic/devicemaps/huntsman_te_en_US.svg
 * /usr/share/polychromatic/devicemaps/mamba.svg

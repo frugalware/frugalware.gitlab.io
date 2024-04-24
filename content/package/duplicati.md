@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "duplicati 2.0.7.102-2"
-version = "2.0.7.102-2"
+title = "duplicati 2.0.7.103-1"
+version = "2.0.7.103-1"
 description = "A free backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers"
-date = "2024-04-11T14:57:49"
+date = "2024-04-24T15:02:17"
 aliases = "/packages/219894"
 categories = ['xapps-extra']
 upstreamurl = "http://duplicati.com"
 arch = "x86_64"
-size = "38067752"
-usize = "133826024"
-sha1sum = "f2e9916885ba1185175c5194fd715f5868e4c42f"
+size = "38161616"
+usize = "133826270"
+sha1sum = "dd5bc2a636d4b61d82e1fd5e550bcf90ce7fe630"
 depends = "['gtk2-sharp', 'notify-sharp']"
 +++
 ### Description: 
@@ -763,4 +763,4 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /usr/lib/systemd/system/duplicati.service
 * /usr/lib/systemd/user/duplicati.service
 * /usr/lib/sysusers.d/duplicati.conf
-* /usr/share/doc/duplicati-2.0.7.102/README.txt
+* /usr/share/doc/duplicati-2.0.7.103/README.txt

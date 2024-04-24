@@ -12,7 +12,7 @@ size = "122524"
 usize = "667997"
 sha1sum = "a9d3d377b4c7b4ca131e8cd721c44924c8d5e95b"
 depends = "['pyqt6', 'qt6-webengine']"
-reverse_depends = "['calibre']"
+reverse_depends = "['calibre', 'polychromatic']"
 +++
 ### Description: 
 Python bindings for Qt6WebEngine

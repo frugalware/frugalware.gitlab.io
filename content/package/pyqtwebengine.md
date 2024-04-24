@@ -12,7 +12,6 @@ size = "119264"
 usize = "686538"
 sha1sum = "f9324b1886511f8f78d62a7d9e068c042f318ef3"
 depends = "['pyqt5', 'qt5-webengine>=5.15.14']"
-reverse_depends = "['polychromatic']"
 +++
 ### Description: 
 Python bindings for QtWebEngine
