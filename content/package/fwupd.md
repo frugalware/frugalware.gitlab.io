@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "fwupd 1.9.16-1"
-version = "1.9.16-1"
+title = "fwupd 1.9.18-1"
+version = "1.9.18-1"
 description = "A simple daemon to allow session software to update firmware"
-date = "2024-04-05T16:13:38"
+date = "2024-04-24T15:56:11"
 aliases = "/packages/219170"
 categories = ['apps']
 upstreamurl = "https://github.com/fwupd/fwupd"
 arch = "x86_64"
-size = "7205020"
-usize = "45614691"
-sha1sum = "0e32216a5619d58aa2199a2c7a5433a89b46108c"
-depends = "['appstream-glib', 'colord', 'efivar', 'fwupd-efi', 'gnu-efi', 'gpgme', 'gsettings-desktop-schemas', 'libarchive', 'libgusb', 'libjcat', 'libqmi', 'libsmbios', 'libxmlb>=0.2.0', 'protobuf-c', 'tpm2-tss', 'udisks2']"
+size = "7177076"
+usize = "46582866"
+sha1sum = "2256b296ab709d472be92ffcca4bd0b51f32af21"
+depends = "['appstream-glib', 'colord', 'efivar', 'flashrom', 'fwupd-efi', 'gnu-efi', 'gpgme', 'gsettings-desktop-schemas', 'libarchive', 'libcbor', 'libgusb', 'libjcat', 'libqmi', 'libsmbios', 'libxmlb>=0.2.0', 'modemmanager', 'passim', 'protobuf-c', 'tpm2-tss', 'udisks2']"
 reverse_depends = "['discover', 'kinfocenter']"
 +++
 ### Description: 
@@ -49,9 +49,11 @@ A simple daemon to allow session software to update firmware
 * /usr/include/fwupd-1/libfwupd/fwupd-request.h
 * /usr/include/fwupd-1/libfwupd/fwupd-security-attr.h
 * /usr/include/fwupd-1/libfwupd/fwupd-version.h
-* /usr/lib/fwupd-1.9.16/libfwupdengine.so
-* /usr/lib/fwupd-1.9.16/libfwupdplugin.so
-* /usr/lib/fwupd-1.9.16/libfwupdutil.so
+* /usr/lib/fwupd-1.9.18/libfu_plugin_flashrom.so
+* /usr/lib/fwupd-1.9.18/libfu_plugin_modem_manager.so
+* /usr/lib/fwupd-1.9.18/libfwupdengine.so
+* /usr/lib/fwupd-1.9.18/libfwupdplugin.so
+* /usr/lib/fwupd-1.9.18/libfwupdutil.so
 * /usr/lib/fwupd/fwupd
 * /usr/lib/fwupd/fwupd-detect-cet
 * /usr/lib/fwupd/fwupdoffline
@@ -97,9 +99,9 @@ A simple daemon to allow session software to update firmware
 * /usr/share/dbus-1/interfaces/org.freedesktop.fwupd.xml
 * /usr/share/dbus-1/system-services/org.freedesktop.fwupd.service
 * /usr/share/dbus-1/system.d/org.freedesktop.fwupd.conf
-* /usr/share/doc/fwupd-1.9.16/COPYING
-* /usr/share/doc/fwupd-1.9.16/README.md
-* /usr/share/doc/fwupd-1.9.16/RELEASE
+* /usr/share/doc/fwupd-1.9.18/COPYING
+* /usr/share/doc/fwupd-1.9.18/README.md
+* /usr/share/doc/fwupd-1.9.18/RELEASE
 * /usr/share/doc/fwupd/hsi.html
 * /usr/share/doc/fwupd/index.html
 * /usr/share/doc/fwupd/libfwupd
@@ -936,6 +938,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupd/method.Report.to_string.html
 * /usr/share/doc/libfwupd/method.Report.to_variant.html
 * /usr/share/doc/libfwupd/method.Request.add_flag.html
+* /usr/share/doc/libfwupd/method.Request.emit_invalidate.html
 * /usr/share/doc/libfwupd/method.Request.get_created.html
 * /usr/share/doc/libfwupd/method.Request.get_device_id.html
 * /usr/share/doc/libfwupd/method.Request.get_flags.html
@@ -1086,6 +1089,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupd/signal.Client.device-removed.html
 * /usr/share/doc/libfwupd/signal.Client.device-request.html
 * /usr/share/doc/libfwupd/signal.Client.status-changed.html
+* /usr/share/doc/libfwupd/signal.Request.invalidate.html
 * /usr/share/doc/libfwupd/solarized-dark.css
 * /usr/share/doc/libfwupd/solarized-light.css
 * /usr/share/doc/libfwupd/SourceCodePro-It.ttf.woff
@@ -1143,6 +1147,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupd/vfunc.Client.device_removed.html
 * /usr/share/doc/libfwupd/vfunc.Client.device_request.html
 * /usr/share/doc/libfwupd/vfunc.Client.status_changed.html
+* /usr/share/doc/libfwupd/vfunc.Request.invalidate.html
 * /usr/share/doc/libfwupdplugin/acpi-dmar-README.html
 * /usr/share/doc/libfwupdplugin/acpi-facp-README.html
 * /usr/share/doc/libfwupdplugin/acpi-ivrs-README.html
@@ -2313,6 +2318,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/func.memwrite_uint64.html
 * /usr/share/doc/libfwupdplugin/func.memwrite_uint64_safe.html
 * /usr/share/doc/libfwupdplugin/func.memwrite_uint8_safe.html
+* /usr/share/doc/libfwupdplugin/func.misr16.html
 * /usr/share/doc/libfwupdplugin/func.path_find_program.html
 * /usr/share/doc/libfwupdplugin/func.path_from_kind.html
 * /usr/share/doc/libfwupdplugin/func.path_get_files.html
@@ -3731,6 +3737,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/method.Volume.get_size.html
 * /usr/share/doc/libfwupdplugin/method.Volume.is_encrypted.html
 * /usr/share/doc/libfwupdplugin/method.Volume.is_internal.html
+* /usr/share/doc/libfwupdplugin/method.Volume.is_mdraid.html
 * /usr/share/doc/libfwupdplugin/method.Volume.is_mounted.html
 * /usr/share/doc/libfwupdplugin/method.Volume.locker.html
 * /usr/share/doc/libfwupdplugin/method.Volume.mount.html
