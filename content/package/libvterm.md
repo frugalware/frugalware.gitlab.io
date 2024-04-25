@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libvterm 0.3.2-1"
-version = "0.3.2-1"
+title = "libvterm 0.3.3-1"
+version = "0.3.3-1"
 description = "A terminal emulator library for VT100 and rxvt."
-date = "2023-07-29T12:52:03"
+date = "2024-04-25T18:24:31"
 aliases = "/packages/219703"
 categories = ['lib-extra']
 upstreamurl = "http://www.leonerd.org.uk/code/libvterm/"
 arch = "x86_64"
-size = "45228"
-usize = "142833"
-sha1sum = "d940ef861ffa9875c09ad4bfe9581d4b3b645ba5"
+size = "45272"
+usize = "142903"
+sha1sum = "4d785a44e4c20881ae35cede1493c6f5edacf1ef"
 depends = "['glib2>=2.60.3']"
 reverse_depends = "['neovim']"
 +++
@@ -27,4 +27,4 @@ A terminal emulator library for VT100 and rxvt.
 * /usr/lib/libvterm.so.0
 * /usr/lib/libvterm.so.0.0.0
 * /usr/lib/pkgconfig/vterm.pc
-* /usr/share/doc/libvterm-0.3.2/LICENSE
+* /usr/share/doc/libvterm-0.3.3/LICENSE
