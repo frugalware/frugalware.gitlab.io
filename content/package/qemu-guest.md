@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qemu-guest 8.2.2-2"
-version = "8.2.2-2"
+title = "qemu-guest 9.0.0-1"
+version = "9.0.0-1"
 description = "Files for use in QEMU guests."
-date = "2024-04-17T07:41:00"
+date = "2024-04-25T12:45:42"
 aliases = "/packages/153710"
 categories = ['apps-extra']
 upstreamurl = "http://www.nongnu.org/qemu/"
 arch = "x86_64"
-size = "285964"
-usize = "1057525"
-sha1sum = "89cfaab71e167d15b9029fd4f70fc5e8811dfdfe"
+size = "288600"
+usize = "1069813"
+sha1sum = "39eb98ff69fb8ea44d1f6b4442bfec8a3e41d666"
 depends = "['liburing']"
 +++
 ### Description: 

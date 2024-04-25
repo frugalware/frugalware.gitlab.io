@@ -12,7 +12,7 @@ size = "3559320"
 usize = "37496899"
 sha1sum = "f72ba257a35c03cf98a8355878b48c40031379d3"
 depends = "['fdk-aac', 'ldacbt', 'libcamera>=0.1.0', 'libcanberra', 'libfreeaptx', 'libmysofa', 'lilv', 'sbc', 'vulkan-icd-loader', 'webrtc-audio-processing-1']"
-reverse_depends = "['clightd', 'easyeffects', 'kpipewire', 'kwin', 'obs-studio', 'telegram-desktop', 'weston', 'wireplumber', 'xdg-desktop-portal']"
+reverse_depends = "['clightd', 'easyeffects', 'kpipewire', 'kwin', 'obs-studio', 'qemu', 'telegram-desktop', 'weston', 'wireplumber', 'xdg-desktop-portal']"
 +++
 ### Description: 
 A project that aims to greatly improve handling of audio and video under Linux

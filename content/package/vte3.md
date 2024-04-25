@@ -12,7 +12,7 @@ size = "893380"
 usize = "5054803"
 sha1sum = "78ec3678910277334cfb9e66041002c307cbb6d0"
 depends = "['gobject-introspection>=1.60.0', 'gtk+4']"
-reverse_depends = "['gamt', 'geany', 'remmina', 'sakura', 'sunflower', 'virt-manager', 'xcfa']"
+reverse_depends = "['gamt', 'geany', 'qemu', 'remmina', 'sakura', 'sunflower', 'virt-manager', 'xcfa']"
 +++
 ### Description: 
 Virtual Terminal Emulator (gtk+4)
