@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libsigc++2 2.12.0-1"
-version = "2.12.0-1"
+title = "libsigc++2 2.12.1-1"
+version = "2.12.1-1"
 description = "A typesafe callback framework for C++"
-date = "2023-01-04T13:28:36"
+date = "2024-04-25T15:11:54"
 aliases = "/packages/3196"
 categories = ['lib']
-upstreamurl = "http://www.gnome.org/"
+upstreamurl = "https://github.com/libsigcplusplus/libsigcplusplus"
 arch = "x86_64"
-size = "93644"
-usize = "1301537"
-sha1sum = "682ad98dea306d8c2c0f54e34f6a8b5ff1d91292"
+size = "92876"
+usize = "1296603"
+sha1sum = "ec2483239c1e5aa17a9895d0a2ca023c246ea0bd"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['cairomm', 'glibmm24', 'libtorrent', 'net6']"
 +++
@@ -56,8 +56,7 @@ A typesafe callback framework for C++
 * /usr/lib/libsigc-2.0.so.0.0.0
 * /usr/lib/pkgconfig/sigc++-2.0.pc
 * /usr/lib/sigc++-2.0/include/sigc++config.h
-* /usr/share/doc/libsigc++2-2.12.0/AUTHORS
-* /usr/share/doc/libsigc++2-2.12.0/ChangeLog
-* /usr/share/doc/libsigc++2-2.12.0/COPYING
-* /usr/share/doc/libsigc++2-2.12.0/NEWS
-* /usr/share/doc/libsigc++2-2.12.0/README.md
+* /usr/share/doc/libsigc++2-2.12.1/ChangeLog
+* /usr/share/doc/libsigc++2-2.12.1/COPYING
+* /usr/share/doc/libsigc++2-2.12.1/NEWS
+* /usr/share/doc/libsigc++2-2.12.1/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gmic 3.3.3-1"
-version = "3.3.3-1"
+title = "gmic 3.3.5-1"
+version = "3.3.5-1"
 description = "Image procession framework"
-date = "2024-02-17T21:18:16"
+date = "2024-04-25T14:35:36"
 aliases = "/packages/220087"
 categories = ['xapps-extra']
 upstreamurl = "https://gmic.eu"
 arch = "x86_64"
-size = "30327728"
-usize = "64773094"
-sha1sum = "2d9e58c18853e3bdeace7fd418fa1a5b1bcaadf6"
+size = "27924352"
+usize = "64174500"
+sha1sum = "37b934cc1ecb5b28ae080504be0d86cf37907a58"
 depends = "['curl', 'gimp', 'openblas', 'opencv>=4.9.0', 'openexr>=3.2.0']"
 reverse_depends = "['darktable']"
 +++
@@ -23,23 +23,24 @@ Image procession framework
 * /usr/bin/zart
 * /usr/include/gmic.h
 * /usr/include/gmic_libc.h
-* /usr/lib/gimp/2.0/plug-ins/gmic_cluts.gmz
-* /usr/lib/gimp/2.0/plug-ins/gmic_denoise_cnn.gmz
-* /usr/lib/gimp/2.0/plug-ins/gmic_fonts.gmz
 * /usr/lib/gimp/2.0/plug-ins/gmic_gimp_qt
 * /usr/lib/libcgmic.so
 * /usr/lib/libcgmic.so.3
-* /usr/lib/libcgmic.so.333
+* /usr/lib/libcgmic.so.335
 * /usr/lib/libgmic.so
 * /usr/lib/libgmic.so.3
-* /usr/lib/libgmic.so.333
+* /usr/lib/libgmic.so.335
 * /usr/share/applications/gmic_qt.desktop
 * /usr/share/applications/zart.desktop
 * /usr/share/bash-completion/completions/gmic
-* /usr/share/doc/gmic-3.3.3/COPYING
-* /usr/share/doc/gmic-3.3.3/LICENSE
-* /usr/share/doc/gmic-3.3.3/README
-* /usr/share/doc/gmic-3.3.3/README.md
+* /usr/share/doc/gmic-3.3.5/COPYING
+* /usr/share/doc/gmic-3.3.5/LICENSE
+* /usr/share/doc/gmic-3.3.5/README
+* /usr/share/doc/gmic-3.3.5/README.md
+* /usr/share/gmic/gmic_cluts.gmz
+* /usr/share/gmic/gmic_denoise_cnn.gmz
+* /usr/share/gmic/gmic_fonts.gmz
+* /usr/share/gmic/gmic_lightleaks.gmz
 * /usr/share/icons/hicolor/48x48/apps/gmic_qt.png
 * /usr/share/icons/hicolor/48x48/apps/zart.png
 * /usr/share/icons/hicolor/scalable/apps/gmic_qt.svg

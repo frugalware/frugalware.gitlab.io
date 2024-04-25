@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libgpg-error 1.48-1"
-version = "1.48-1"
+title = "lib32-libgpg-error 1.49-1"
+version = "1.49-1"
 description = "Support library for libgcrypt ( 32bit )"
-date = "2024-02-26T10:08:46"
+date = "2024-04-25T15:03:21"
 aliases = "/packages/217735"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnupg.org"
 arch = "x86_64"
-size = "105848"
-usize = "391670"
-sha1sum = "33ea2b959f8e04dcf8179fc6127ecf957ea28276"
+size = "106484"
+usize = "392294"
+sha1sum = "ec222dac5b7fc7de40624d6022c082b4c71c130e"
 depends = "[]"
 reverse_depends = "['lib32-libgcrypt', 'lib32-libgcrypt15', 'lib32-libsystemd']"
 +++
@@ -25,5 +25,5 @@ Support library for libgcrypt ( 32bit )
 * /usr/i686-frugalware-linux/include/gpgrt.h
 * /usr/lib32/libgpg-error.so
 * /usr/lib32/libgpg-error.so.0
-* /usr/lib32/libgpg-error.so.0.35.0
+* /usr/lib32/libgpg-error.so.0.36.0
 * /usr/lib32/pkgconfig/gpg-error.pc
