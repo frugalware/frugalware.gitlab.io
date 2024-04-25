@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libosinfo 1.10.0-2"
-version = "1.10.0-2"
+title = "libosinfo 1.11.0-1"
+version = "1.11.0-1"
 description = "libosinfo is a GObject based library API for managing information about operating systems"
-date = "2023-09-28T08:23:48"
+date = "2024-04-25T16:43:47"
 aliases = "/packages/153037"
 categories = ['lib-extra']
 upstreamurl = "https://libosinfo.org"
 arch = "x86_64"
-size = "814312"
-usize = "5449525"
-sha1sum = "3a6cfe19c02c90a0412b46e7e0ea62080d67cd97"
+size = "581160"
+usize = "4108321"
+sha1sum = "2e4c92fc4f75a97941045acbd70dd0333c288d96"
 depends = "['glib2>=2.60.3', 'libsoup3', 'libxslt']"
 reverse_depends = "['virt-manager']"
 +++
@@ -69,14 +69,14 @@ libosinfo is a GObject based library API for managing information about operatin
 * /usr/lib/girepository-1.0/Libosinfo-1.0.typelib
 * /usr/lib/libosinfo-1.0.so
 * /usr/lib/libosinfo-1.0.so.0
-* /usr/lib/libosinfo-1.0.so.0.1010.0
+* /usr/lib/libosinfo-1.0.so.0.1011.0
 * /usr/lib/pkgconfig/libosinfo-1.0.pc
-* /usr/share/doc/libosinfo-1.10.0/AUTHORS
-* /usr/share/doc/libosinfo-1.10.0/ChangeLog
-* /usr/share/doc/libosinfo-1.10.0/COPYING
-* /usr/share/doc/libosinfo-1.10.0/COPYING.LIB
-* /usr/share/doc/libosinfo-1.10.0/NEWS
-* /usr/share/doc/libosinfo-1.10.0/README
+* /usr/share/doc/libosinfo-1.11.0/AUTHORS
+* /usr/share/doc/libosinfo-1.11.0/ChangeLog
+* /usr/share/doc/libosinfo-1.11.0/COPYING
+* /usr/share/doc/libosinfo-1.11.0/COPYING.LIB
+* /usr/share/doc/libosinfo-1.11.0/NEWS
+* /usr/share/doc/libosinfo-1.11.0/README
 * /usr/share/gir-1.0/Libosinfo-1.0.gir
 * /usr/share/gtk-doc/html/Libosinfo/annotation-glossary.html
 * /usr/share/gtk-doc/html/Libosinfo/api-index-full.html
@@ -135,7 +135,6 @@ libosinfo is a GObject based library API for managing information about operatin
 * /usr/share/gtk-doc/html/Libosinfo/style.css
 * /usr/share/gtk-doc/html/Libosinfo/up-insensitive.png
 * /usr/share/gtk-doc/html/Libosinfo/up.png
-* /usr/share/libosinfo/pci.ids
 * /usr/share/libosinfo/usb.ids
 * /usr/share/locale/ca/LC_MESSAGES/libosinfo.mo
 * /usr/share/locale/cs/LC_MESSAGES/libosinfo.mo
@@ -148,6 +147,7 @@ libosinfo is a GObject based library API for managing information about operatin
 * /usr/share/locale/id/LC_MESSAGES/libosinfo.mo
 * /usr/share/locale/it/LC_MESSAGES/libosinfo.mo
 * /usr/share/locale/ja/LC_MESSAGES/libosinfo.mo
+* /usr/share/locale/ka/LC_MESSAGES/libosinfo.mo
 * /usr/share/locale/ko/LC_MESSAGES/libosinfo.mo
 * /usr/share/locale/pl/LC_MESSAGES/libosinfo.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/libosinfo.mo

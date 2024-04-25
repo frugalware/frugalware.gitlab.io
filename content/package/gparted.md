@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gparted 1.5.0-1"
-version = "1.5.0-1"
+title = "gparted 1.6.0-1"
+version = "1.6.0-1"
 description = "Parted GUI written in C++ using gtkmm as Graphical Toolkit"
-date = "2023-02-22T18:57:13"
+date = "2024-04-25T15:57:09"
 aliases = "/packages/4214"
 categories = ['xapps-extra']
 upstreamurl = "http://gparted.sourceforge.net"
 arch = "x86_64"
-size = "1177732"
-usize = "6470385"
-sha1sum = "1dc9418d11095cb7417810bc7fec53f114642bfa"
+size = "1184044"
+usize = "6504663"
+sha1sum = "f5090caf542dee3f95bba411a1a748d0572c7aaa"
 depends = "['freetype2', 'gtk+3', 'gtkmm3', 'pango>=1.40.3-2', 'parted>=3.3']"
 +++
 ### Description: 

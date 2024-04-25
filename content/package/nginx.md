@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nginx 1.24.0-3"
-version = "1.24.0-3"
+title = "nginx 1.26.0-1"
+version = "1.26.0-1"
 description = "[engine x] is a HTTP server and mail proxy server."
-date = "2024-02-02T11:13:03"
+date = "2024-04-25T16:39:35"
 aliases = "/packages/21864"
 categories = ['network-extra']
 upstreamurl = "http://nginx.org"
 arch = "x86_64"
-size = "659604"
-usize = "2191381"
-sha1sum = "0cade31546589b8981e004af32d43bee78a42141"
+size = "662016"
+usize = "2196507"
+sha1sum = "bbff981683b4d3a23943d7e2723fe5cf75cb3ef8"
 depends = "['gd', 'geoip', 'libaio', 'libxslt', 'nghttp2', 'openssl>=3.1.0', 'pcre']"
 license = "BSD"
 +++
@@ -46,9 +46,9 @@ license = "BSD"
 * /usr/lib/perl5/5.38/site_perl/auto/nginx/nginx.so
 * /usr/lib/perl5/5.38/site_perl/nginx.pm
 * /usr/lib/systemd/system/nginx.service
-* /usr/share/doc/nginx-1.24.0/CHANGES
-* /usr/share/doc/nginx-1.24.0/LICENSE
-* /usr/share/doc/nginx-1.24.0/README
+* /usr/share/doc/nginx-1.26.0/CHANGES
+* /usr/share/doc/nginx-1.26.0/LICENSE
+* /usr/share/doc/nginx-1.26.0/README
 * /usr/share/man/man3/nginx.3perl.gz
 * /var/www/nginx/50x.html
 * /var/www/nginx/index.html
