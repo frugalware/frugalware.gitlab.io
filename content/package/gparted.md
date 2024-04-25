@@ -19,15 +19,14 @@ Parted GUI written in C++ using gtkmm as Graphical Toolkit
 ### Files: 
 * /usr/bin/gparted
 * /usr/lib/gparted/gpartedbin
-* /usr/share/appdata/gparted.appdata.xml
 * /usr/share/applications/gparted.desktop
 * /usr/share/applications/kde/gparted.desktop
-* /usr/share/doc/gparted-1.5.0/AUTHORS
-* /usr/share/doc/gparted-1.5.0/ChangeLog
-* /usr/share/doc/gparted-1.5.0/COPYING
-* /usr/share/doc/gparted-1.5.0/INSTALL
-* /usr/share/doc/gparted-1.5.0/NEWS
-* /usr/share/doc/gparted-1.5.0/README
+* /usr/share/doc/gparted-1.6.0/AUTHORS
+* /usr/share/doc/gparted-1.6.0/ChangeLog
+* /usr/share/doc/gparted-1.6.0/COPYING
+* /usr/share/doc/gparted-1.6.0/INSTALL
+* /usr/share/doc/gparted-1.6.0/NEWS
+* /usr/share/doc/gparted-1.6.0/README
 * /usr/share/icons/hicolor/16x16/apps/gparted.png
 * /usr/share/icons/hicolor/22x22/apps/gparted.png
 * /usr/share/icons/hicolor/24x24/apps/gparted.png
@@ -63,6 +62,7 @@ Parted GUI written in C++ using gtkmm as Graphical Toolkit
 * /usr/share/locale/hr/LC_MESSAGES/gparted.mo
 * /usr/share/locale/hu/LC_MESSAGES/gparted.mo
 * /usr/share/locale/id/LC_MESSAGES/gparted.mo
+* /usr/share/locale/ie/LC_MESSAGES/gparted.mo
 * /usr/share/locale/is/LC_MESSAGES/gparted.mo
 * /usr/share/locale/it/LC_MESSAGES/gparted.mo
 * /usr/share/locale/ja/LC_MESSAGES/gparted.mo
@@ -100,3 +100,4 @@ Parted GUI written in C++ using gtkmm as Graphical Toolkit
 * /usr/share/locale/zh_HK/LC_MESSAGES/gparted.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/gparted.mo
 * /usr/share/man/man8/gparted.8.gz
+* /usr/share/metainfo/gparted.appdata.xml
