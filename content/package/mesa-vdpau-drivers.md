@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mesa-vdpau-drivers 24.0.5-1"
-version = "24.0.5-1"
+title = "mesa-vdpau-drivers 24.0.6-1"
+version = "24.0.6-1"
 description = "Mesa VDPAU drivers."
-date = "2024-04-11T11:23:51"
+date = "2024-04-25T06:45:12"
 aliases = "/packages/153349"
 categories = ['x11']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "4493120"
+size = "4492272"
 usize = "17730060"
-sha1sum = "42f358e96e3279821e04bf5709c568bbc7250f8a"
+sha1sum = "24a443a60a2d9bc6ff6ceba505422d91b4699623"
 depends = "['elfutils>=0.167-2', 'expat>=2.1.0-6', 'libdrm>=2.4.70-2', 'libffi>=3.2.1-2', 'libx11>=1.6.3-4', 'llvm-libs>=17.0.6']"
 reverse_depends = "['vlc']"
 +++
