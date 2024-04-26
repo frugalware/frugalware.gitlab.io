@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dracut 059-4"
-version = "059-4"
+title = "dracut 101-1"
+version = "101-1"
 description = "Generic initramfs generationtool"
-date = "2023-12-29T18:14:13"
+date = "2024-04-26T17:01:32"
 aliases = "/packages/103623"
 categories = ['base']
-upstreamurl = "https://github.com/dracutdevs/dracut"
+upstreamurl = "https://github.com/dracut-ng/dracut-ng"
 arch = "x86_64"
-size = "240548"
-usize = "937382"
-sha1sum = "b2ea4569d41b6c451a8b5dec112c9d9962a5439e"
+size = "254792"
+usize = "994031"
+sha1sum = "5c5dca1f8d64afb16daa0e2d64923ab038f590ea"
 depends = "['bash>=4.4', 'binutils', 'cpio>=2.12-3', 'dash>=0.5.8', 'dmraid', 'elfutils', 'file', 'grep', 'kbd>=2.0.3-3', 'keyutils>=1.5.9-5', 'kmod', 'lvm2>=2.03.01-3', 'multipath-tools', 'pkgconfig', 'popt>=1.16-5', 'systemd>=227-15', 'util-linux>=2.27.1-4']"
 reverse_depends = "['dracut-network', 'kernel-initrd', 'kernel-lts-initrd']"
 +++
@@ -45,6 +45,7 @@ Generic initramfs generationtool
 * /usr/lib/dracut/modules.d/01systemd-ac-power/module-setup.sh
 * /usr/lib/dracut/modules.d/01systemd-ask-password/module-setup.sh
 * /usr/lib/dracut/modules.d/01systemd-coredump/module-setup.sh
+* /usr/lib/dracut/modules.d/01systemd-creds/module-setup.sh
 * /usr/lib/dracut/modules.d/01systemd-hostnamed/99-systemd-networkd-dracut.conf
 * /usr/lib/dracut/modules.d/01systemd-hostnamed/module-setup.sh
 * /usr/lib/dracut/modules.d/01systemd-hostnamed/org.freedesktop.hostname1_dracut.conf
@@ -62,7 +63,6 @@ Generic initramfs generationtool
 * /usr/lib/dracut/modules.d/01systemd-repart/module-setup.sh
 * /usr/lib/dracut/modules.d/01systemd-resolved/module-setup.sh
 * /usr/lib/dracut/modules.d/01systemd-resolved/resolved-tmpfile-dracut.conf
-* /usr/lib/dracut/modules.d/01systemd-rfkill/module-setup.sh
 * /usr/lib/dracut/modules.d/01systemd-sysctl/module-setup.sh
 * /usr/lib/dracut/modules.d/01systemd-sysext/module-setup.sh
 * /usr/lib/dracut/modules.d/01systemd-sysusers/module-setup.sh
@@ -102,7 +102,6 @@ Generic initramfs generationtool
 * /usr/lib/dracut/modules.d/35connman/cm-run.sh
 * /usr/lib/dracut/modules.d/35connman/cm-wait-online-initrd.service
 * /usr/lib/dracut/modules.d/35connman/module-setup.sh
-* /usr/lib/dracut/modules.d/35connman/netroot.sh
 * /usr/lib/dracut/modules.d/35network-legacy/dhclient-script.sh
 * /usr/lib/dracut/modules.d/35network-legacy/dhclient.conf
 * /usr/lib/dracut/modules.d/35network-legacy/dhcp-multi.sh
@@ -124,9 +123,11 @@ Generic initramfs generationtool
 * /usr/lib/dracut/modules.d/35network-manager/nm-lib.sh
 * /usr/lib/dracut/modules.d/35network-manager/nm-run.sh
 * /usr/lib/dracut/modules.d/35network-manager/nm-wait-online-initrd.service
-* /usr/lib/dracut/modules.d/35network-wicked/module-setup.sh
-* /usr/lib/dracut/modules.d/35network-wicked/wicked-config.sh
-* /usr/lib/dracut/modules.d/35network-wicked/wicked-run.sh
+* /usr/lib/dracut/modules.d/45net-lib/dhcp-root.sh
+* /usr/lib/dracut/modules.d/45net-lib/ifname-genrules.sh
+* /usr/lib/dracut/modules.d/45net-lib/module-setup.sh
+* /usr/lib/dracut/modules.d/45net-lib/net-lib.sh
+* /usr/lib/dracut/modules.d/45net-lib/netroot.sh
 * /usr/lib/dracut/modules.d/50drm/module-setup.sh
 * /usr/lib/dracut/modules.d/62bluetooth/module-setup.sh
 * /usr/lib/dracut/modules.d/80cms/cms-write-ifcfg.sh
@@ -210,6 +211,7 @@ Generic initramfs generationtool
 * /usr/lib/dracut/modules.d/90nvdimm/module-setup.sh
 * /usr/lib/dracut/modules.d/90overlayfs/module-setup.sh
 * /usr/lib/dracut/modules.d/90overlayfs/mount-overlayfs.sh
+* /usr/lib/dracut/modules.d/90overlayfs/prepare-overlayfs.sh
 * /usr/lib/dracut/modules.d/90ppcmac/load-thermal.sh
 * /usr/lib/dracut/modules.d/90ppcmac/module-setup.sh
 * /usr/lib/dracut/modules.d/90qemu/module-setup.sh
@@ -240,6 +242,7 @@ Generic initramfs generationtool
 * /usr/lib/dracut/modules.d/95lunmask/sas_transport_scan_lun.sh
 * /usr/lib/dracut/modules.d/95nvmf/95-nvmf-initqueue.rules
 * /usr/lib/dracut/modules.d/95nvmf/module-setup.sh
+* /usr/lib/dracut/modules.d/95nvmf/nbftroot.sh
 * /usr/lib/dracut/modules.d/95nvmf/nvmf-autoconnect.sh
 * /usr/lib/dracut/modules.d/95nvmf/parse-nvmf-boot-connections.sh
 * /usr/lib/dracut/modules.d/95qeth_rules/module-setup.sh
@@ -375,9 +378,11 @@ Generic initramfs generationtool
 * /usr/lib/systemd/system/sysinit.target.wants/dracut-shutdown.service
 * /usr/share/bash-completion/completions/dracut
 * /usr/share/bash-completion/completions/lsinitrd
-* /usr/share/doc/dracut-059/AUTHORS
-* /usr/share/doc/dracut-059/COPYING
-* /usr/share/doc/dracut-059/README.md
+* /usr/share/doc/dracut-101/AUTHORS
+* /usr/share/doc/dracut-101/COPYING
+* /usr/share/doc/dracut-101/COPYRIGHT
+* /usr/share/doc/dracut-101/LICENSE
+* /usr/share/doc/dracut-101/README.md
 * /usr/share/man/man1/lsinitrd.1.gz
 * /usr/share/man/man5/dracut.conf.5.gz
 * /usr/share/man/man7/dracut.bootup.7.gz

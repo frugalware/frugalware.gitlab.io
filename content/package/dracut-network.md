@@ -1,27 +1,23 @@
 +++
 draft = false
-title = "dracut-network 059-4"
-version = "059-4"
+title = "dracut-network 101-1"
+version = "101-1"
 description = "Dracut modules to build a dracut initramfs with network support"
-date = "2023-12-29T18:14:13"
+date = "2024-04-26T17:01:32"
 aliases = "/packages/103624"
 categories = ['base-extra']
-upstreamurl = "https://github.com/dracutdevs/dracut"
+upstreamurl = "https://github.com/dracut-ng/dracut-ng"
 arch = "x86_64"
-size = "30516"
-usize = "117599"
-sha1sum = "ba32dfdf9b81a51c174041f1ebe8f24c6bbecf38"
-depends = "['bridge-utils', 'dhclient', 'dracut=059', 'iproute2', 'iputils', 'iscsi', 'nfs-utils']"
+size = "24172"
+usize = "85745"
+sha1sum = "7d92fb339690bbde1be3ecd97641ed72ebfec686"
+depends = "['bridge-utils', 'dhclient', 'dracut=101', 'iproute2', 'iputils', 'iscsi', 'nfs-utils']"
 +++
 ### Description: 
 Dracut modules to build a dracut initramfs with network support
 
 ### Files: 
-* /usr/lib/dracut/modules.d/40network/dhcp-root.sh
-* /usr/lib/dracut/modules.d/40network/ifname-genrules.sh
 * /usr/lib/dracut/modules.d/40network/module-setup.sh
-* /usr/lib/dracut/modules.d/40network/net-lib.sh
-* /usr/lib/dracut/modules.d/40network/netroot.sh
 * /usr/lib/dracut/modules.d/45ifcfg/module-setup.sh
 * /usr/lib/dracut/modules.d/45ifcfg/write-ifcfg.sh
 * /usr/lib/dracut/modules.d/45url-lib/module-setup.sh
