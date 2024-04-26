@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dracut-network 101-1"
-version = "101-1"
+title = "dracut-network 101-2"
+version = "101-2"
 description = "Dracut modules to build a dracut initramfs with network support"
-date = "2024-04-26T17:01:32"
+date = "2024-04-26T18:29:38"
 aliases = "/packages/103624"
 categories = ['base-extra']
 upstreamurl = "https://github.com/dracut-ng/dracut-ng"
 arch = "x86_64"
-size = "24172"
+size = "24180"
 usize = "85745"
-sha1sum = "7d92fb339690bbde1be3ecd97641ed72ebfec686"
+sha1sum = "d48aaf91b39a23c89d07131361b076bca0bcdbc7"
 depends = "['bridge-utils', 'dhclient', 'dracut=101', 'iproute2', 'iputils', 'iscsi', 'nfs-utils']"
 +++
 ### Description: 

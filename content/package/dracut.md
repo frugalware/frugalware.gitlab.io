@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dracut 101-1"
-version = "101-1"
+title = "dracut 101-2"
+version = "101-2"
 description = "Generic initramfs generationtool"
-date = "2024-04-26T17:01:32"
+date = "2024-04-26T18:29:38"
 aliases = "/packages/103623"
 categories = ['base']
 upstreamurl = "https://github.com/dracut-ng/dracut-ng"
 arch = "x86_64"
-size = "254792"
-usize = "994031"
-sha1sum = "5c5dca1f8d64afb16daa0e2d64923ab038f590ea"
+size = "251468"
+usize = "981976"
+sha1sum = "8e302701d98837c00d6cd33c8328b01337af2817"
 depends = "['bash>=4.4', 'binutils', 'cpio>=2.12-3', 'dash>=0.5.8', 'dmraid', 'elfutils', 'file', 'grep', 'kbd>=2.0.3-3', 'keyutils>=1.5.9-5', 'kmod', 'lvm2>=2.03.01-3', 'multipath-tools', 'pkgconfig', 'popt>=1.16-5', 'systemd>=227-15', 'util-linux>=2.27.1-4']"
 reverse_depends = "['dracut-network', 'kernel-initrd', 'kernel-lts-initrd']"
 +++
@@ -380,8 +380,6 @@ Generic initramfs generationtool
 * /usr/share/bash-completion/completions/lsinitrd
 * /usr/share/doc/dracut-101/AUTHORS
 * /usr/share/doc/dracut-101/COPYING
-* /usr/share/doc/dracut-101/COPYRIGHT
-* /usr/share/doc/dracut-101/LICENSE
 * /usr/share/doc/dracut-101/README.md
 * /usr/share/man/man1/lsinitrd.1.gz
 * /usr/share/man/man5/dracut.conf.5.gz
