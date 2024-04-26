@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "spamassassin 4.0.0-3"
-version = "4.0.0-3"
+title = "spamassassin 4.0.1-1"
+version = "4.0.1-1"
 description = "A mail filter to identify spam."
-date = "2024-01-17T13:34:59"
+date = "2024-04-26T17:55:54"
 aliases = "/packages/3839"
 categories = ['network-extra']
 upstreamurl = "https://spamassassin.apache.org"
 arch = "x86_64"
-size = "976320"
-usize = "3414231"
-sha1sum = "9cc0d4f4526cfce70377af58d786bc588907a218"
+size = "996884"
+usize = "3483976"
+sha1sum = "1a1ce75e063daabbcdec7abae0b0e36f1b029c65"
 depends = "['curl', 'openssl', 'perl>=5.10.0-2', 'perl-dbi', 'perl-digest-sha1>=2.11-2', 'perl-encode-detect>=1.00-2', 'perl-html-parser>=3.56-2', 'perl-io-socket-inet6>=2.52', 'perl-io-socket-ssl', 'perl-io-socket-ssl', 'perl-ip-country', 'perl-libwww>=6.05', 'perl-mail-dkim', 'perl-mail-domainkeys', 'perl-mail-spf', 'perl-net-dns', 'perl-net-ident', 'perl-net-ssleay>=1.35', 'perl-netaddr-ip', 'perl-razor2-client-agent']"
 reverse_depends = "['amavisd-new']"
 +++
@@ -29,6 +29,7 @@ A mail filter to identify spam.
 * /etc/mail/spamassassin/v342.pre
 * /etc/mail/spamassassin/v343.pre
 * /etc/mail/spamassassin/v400.pre
+* /etc/mail/spamassassin/v401.pre
 * /etc/sysconfig/spamd
 * /usr/bin/site_perl/sa-awl
 * /usr/bin/site_perl/sa-check_spamd
@@ -137,6 +138,11 @@ A mail filter to identify spam.
 * /usr/lib/perl5/site_perl/Mail/SpamAssassin/Plugin/WelcomeListSubject.pm
 * /usr/lib/perl5/site_perl/Mail/SpamAssassin/Plugin/WLBLEval.pm
 * /usr/lib/perl5/site_perl/Mail/SpamAssassin/PluginHandler.pm
+* /usr/lib/perl5/site_perl/Mail/SpamAssassin/Pyzor.pm
+* /usr/lib/perl5/site_perl/Mail/SpamAssassin/Pyzor/Client.pm
+* /usr/lib/perl5/site_perl/Mail/SpamAssassin/Pyzor/Digest.pm
+* /usr/lib/perl5/site_perl/Mail/SpamAssassin/Pyzor/Digest/Pieces.pm
+* /usr/lib/perl5/site_perl/Mail/SpamAssassin/Pyzor/Digest/StripHtml.pm
 * /usr/lib/perl5/site_perl/Mail/SpamAssassin/RegistryBoundaries.pm
 * /usr/lib/perl5/site_perl/Mail/SpamAssassin/Reporter.pm
 * /usr/lib/perl5/site_perl/Mail/SpamAssassin/SpamdForkScaling.pm
@@ -151,12 +157,12 @@ A mail filter to identify spam.
 * /usr/lib/perl5/site_perl/Mail/SpamAssassin/Util/TinyRedis.pm
 * /usr/lib/perl5/site_perl/spamassassin-run.pod
 * /usr/lib/systemd/system/spamd.service
-* /usr/share/doc/spamassassin-4.0.0/CREDITS
-* /usr/share/doc/spamassassin-4.0.0/INSTALL
-* /usr/share/doc/spamassassin-4.0.0/INSTALL.VMS
-* /usr/share/doc/spamassassin-4.0.0/LICENSE
-* /usr/share/doc/spamassassin-4.0.0/MANIFEST
-* /usr/share/doc/spamassassin-4.0.0/README
+* /usr/share/doc/spamassassin-4.0.1/CREDITS
+* /usr/share/doc/spamassassin-4.0.1/INSTALL
+* /usr/share/doc/spamassassin-4.0.1/INSTALL.VMS
+* /usr/share/doc/spamassassin-4.0.1/LICENSE
+* /usr/share/doc/spamassassin-4.0.1/MANIFEST
+* /usr/share/doc/spamassassin-4.0.1/README
 * /usr/share/man/man1/sa-awl.1perl.gz
 * /usr/share/man/man1/sa-check_spamd.1perl.gz
 * /usr/share/man/man1/sa-compile.1perl.gz
@@ -241,6 +247,11 @@ A mail filter to identify spam.
 * /usr/share/man/man3/Mail::SpamAssassin::Plugin::VBounce.3perl.gz
 * /usr/share/man/man3/Mail::SpamAssassin::Plugin::WelcomeListSubject.3perl.gz
 * /usr/share/man/man3/Mail::SpamAssassin::PluginHandler.3perl.gz
+* /usr/share/man/man3/Mail::SpamAssassin::Pyzor.3perl.gz
+* /usr/share/man/man3/Mail::SpamAssassin::Pyzor::Client.3perl.gz
+* /usr/share/man/man3/Mail::SpamAssassin::Pyzor::Digest.3perl.gz
+* /usr/share/man/man3/Mail::SpamAssassin::Pyzor::Digest::Pieces.3perl.gz
+* /usr/share/man/man3/Mail::SpamAssassin::Pyzor::Digest::StripHtml.3perl.gz
 * /usr/share/man/man3/Mail::SpamAssassin::RegistryBoundaries.3perl.gz
 * /usr/share/man/man3/Mail::SpamAssassin::SQLBasedAddrList.3perl.gz
 * /usr/share/man/man3/Mail::SpamAssassin::SubProcBackChannel.3perl.gz

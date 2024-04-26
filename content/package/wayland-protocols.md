@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wayland-protocols 1.35-1"
-version = "1.35-1"
+title = "wayland-protocols 1.36-1"
+version = "1.36-1"
 description = "Wayland protocols that adds functionality not available in the core protocol."
-date = "2024-04-22T08:58:27"
+date = "2024-04-26T17:33:02"
 aliases = "/packages/218049"
 categories = ['x11']
 upstreamurl = "http://wayland.freedesktop.org/"
 arch = "x86_64"
-size = "86364"
-usize = "665820"
-sha1sum = "79f87f47a5b025d863cb62b0df33fa3385837af9"
+size = "86384"
+usize = "665824"
+sha1sum = "5c310387eaa15081c905b86555d4f1044c3f7439"
 depends = "['wayland>=1.15.0']"
 reverse_depends = "['efl', 'gtk+4']"
 +++
@@ -19,8 +19,8 @@ Wayland protocols that adds functionality not available in the core protocol.
 
 ### Files: 
 * /usr/lib/pkgconfig/wayland-protocols.pc
-* /usr/share/doc/wayland-protocols-1.35/COPYING
-* /usr/share/doc/wayland-protocols-1.35/README.md
+* /usr/share/doc/wayland-protocols-1.36/COPYING
+* /usr/share/doc/wayland-protocols-1.36/README.md
 * /usr/share/wayland-protocols/stable/linux-dmabuf/linux-dmabuf-v1.xml
 * /usr/share/wayland-protocols/stable/presentation-time/presentation-time.xml
 * /usr/share/wayland-protocols/stable/tablet/tablet-v2.xml
