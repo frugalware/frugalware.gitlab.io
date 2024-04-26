@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openjdk 22.0.1-1"
-version = "22.0.1-1"
+title = "openjdk 22.0.1-2"
+version = "22.0.1-2"
 description = "Open-source Java Development Kit implementation."
-date = "2024-04-25T20:17:53"
+date = "2024-04-26T08:08:31"
 aliases = "/packages/102857"
 categories = ['devel-extra']
 upstreamurl = "http://openjdk.java.net/"
 arch = "x86_64"
-size = "81094464"
-usize = "91064673"
-sha1sum = "a7e5b0ef7b73ce65cab845946c84df960b398ae4"
-depends = "['openjre=22.0.1-1']"
+size = "81094252"
+usize = "91064677"
+sha1sum = "3c9d3850ab29ef739d80d7ea0e6771af41b033a7"
+depends = "['openjre=22.0.1-2']"
 reverse_depends = "['flutter', 'maven', 'openjdk-source', 'testng']"
 +++
 ### Description: 
