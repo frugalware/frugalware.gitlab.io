@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "svt-av1 1.8.0-1"
-version = "1.8.0-1"
+title = "svt-av1 2.0.0-1"
+version = "2.0.0-1"
 description = "Scalable Video Technology AV1 encoder and decoder"
-date = "2023-12-18T08:53:06"
+date = "2024-04-27T10:34:54"
 aliases = "/packages/220805"
 categories = ['lib']
 upstreamurl = "https://gitlab.com/AOMediaCodec/SVT-AV1"
 arch = "x86_64"
-size = "1966448"
-usize = "7652851"
-sha1sum = "f8a39a0a9cc70e586e614926bcac02dc560ce028"
+size = "1947656"
+usize = "7578278"
+sha1sum = "aae577967423e5503f5ac2bb493bc0e6fa27baa4"
 depends = "['glibc']"
 reverse_depends = "['ffmpeg', 'libavif']"
 +++
@@ -32,8 +32,8 @@ Scalable Video Technology AV1 encoder and decoder
 * /usr/lib/libSvtAv1Dec.so.0
 * /usr/lib/libSvtAv1Dec.so.0.8.7
 * /usr/lib/libSvtAv1Enc.so
-* /usr/lib/libSvtAv1Enc.so.1
-* /usr/lib/libSvtAv1Enc.so.1.8.0
+* /usr/lib/libSvtAv1Enc.so.2
+* /usr/lib/libSvtAv1Enc.so.2.0.0
 * /usr/lib/pkgconfig/SvtAv1Dec.pc
 * /usr/lib/pkgconfig/SvtAv1Enc.pc
-* /usr/share/doc/svt-av1-1.8.0/README.md
+* /usr/share/doc/svt-av1-2.0.0/README.md
