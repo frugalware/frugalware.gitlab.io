@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libarchive 3.7.3-1"
-version = "3.7.3-1"
+title = "libarchive 3.7.4-1"
+version = "3.7.4-1"
 description = "Library to create and read several different archive formats"
-date = "2024-04-09T08:13:38"
+date = "2024-04-27T20:59:33"
 aliases = "/packages/3144"
 categories = ['base']
 upstreamurl = "http://www.libarchive.org"
 arch = "x86_64"
-size = "724880"
-usize = "2746985"
-sha1sum = "f7d26b562c1649383fbde082c522623fee609243"
+size = "724708"
+usize = "2747033"
+sha1sum = "a113a0f02d38d628bf7a34b63077c6fd4e13c277"
 depends = "['bzip2>=1.0.6-16', 'expat>=2.2.6-2', 'lzo>=1.9.2', 'nettle>=3.5.1', 'openssl>=3.1.0', 'xz>=5.2.4-2', 'zlib>=1.2.12', 'zstd']"
 reverse_depends = "['ark', 'claws-mail-plugin-archive', 'cmake', 'dracut-ykfde', 'fwupd', 'gvfs', 'libappimage', 'networkmanager', 'ostree', 'pacman-g2', 'qmmp', 'samba-client', 'vlc-archive']"
 +++
@@ -27,12 +27,12 @@ Library to create and read several different archive formats
 * /usr/lib/libarchive.la
 * /usr/lib/libarchive.so
 * /usr/lib/libarchive.so.13
-* /usr/lib/libarchive.so.13.7.3
+* /usr/lib/libarchive.so.13.7.4
 * /usr/lib/pkgconfig/libarchive.pc
-* /usr/share/doc/libarchive-3.7.3/COPYING
-* /usr/share/doc/libarchive-3.7.3/INSTALL
-* /usr/share/doc/libarchive-3.7.3/NEWS
-* /usr/share/doc/libarchive-3.7.3/README.md
+* /usr/share/doc/libarchive-3.7.4/COPYING
+* /usr/share/doc/libarchive-3.7.4/INSTALL
+* /usr/share/doc/libarchive-3.7.4/NEWS
+* /usr/share/doc/libarchive-3.7.4/README.md
 * /usr/share/man/man1/bsdcat.1.gz
 * /usr/share/man/man1/bsdcpio.1.gz
 * /usr/share/man/man1/bsdtar.1.gz
