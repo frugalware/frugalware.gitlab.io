@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "apache-ant 1.10.13-1"
-version = "1.10.13-1"
+title = "apache-ant 1.10.14-1"
+version = "1.10.14-1"
 description = "Ant is a Java-based build tool."
-date = "2023-02-27T10:45:49"
+date = "2024-04-27T09:21:48"
 aliases = "/packages/3440"
 categories = ['devel-extra']
 upstreamurl = "http://ant.apache.org"
 arch = "x86_64"
-size = "2373084"
-usize = "2764067"
-sha1sum = "ea4063509a8e7a9981536e9fc5ebb74be694ffa5"
+size = "2379272"
+usize = "2766683"
+sha1sum = "249aa85cc9781cf3c75d071e23ef74343c35f0ad"
 depends = "['openjre']"
 +++
 ### Description: 
@@ -22,10 +22,10 @@ Ant is a Java-based build tool.
 * /usr/bin/antRun.pl
 * /usr/bin/complete-ant-cmd.pl
 * /usr/bin/runant.pl
-* /usr/share/doc/apache-ant-1.10.13/CONTRIBUTORS
-* /usr/share/doc/apache-ant-1.10.13/INSTALL
-* /usr/share/doc/apache-ant-1.10.13/LICENSE
-* /usr/share/doc/apache-ant-1.10.13/README
+* /usr/share/doc/apache-ant-1.10.14/CONTRIBUTORS
+* /usr/share/doc/apache-ant-1.10.14/INSTALL
+* /usr/share/doc/apache-ant-1.10.14/LICENSE
+* /usr/share/doc/apache-ant-1.10.14/README
 * /usr/share/java/ant-antlr.jar
 * /usr/share/java/ant-apache-bcel.jar
 * /usr/share/java/ant-apache-bsf.jar
