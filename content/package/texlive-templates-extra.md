@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-templates-extra 2023.0-3"
-version = "2023.0-3"
+title = "texlive-templates-extra 2024.2-1"
+version = "2024.2-1"
 description = "Extra publications templates for Tex Live"
-date = "2024-02-02T14:42:47"
+date = "2024-04-28T17:24:18"
 aliases = "/packages/219463"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "6639056"
-usize = "30469062"
-sha1sum = "92677a08eedfd32d735a047dc506cf36f6cb49d5"
-depends = "['texlive=2023.0']"
+size = "6656376"
+usize = "30505768"
+sha1sum = "f1c039c6fd2a3c684303ddfcefbd039f9a876eb0"
+depends = "['texlive=2024.2']"
 +++
 ### Description: 
 Extra publications templates for Tex Live
@@ -501,7 +501,6 @@ Extra publications templates for Tex Live
 * /usr/share/texmf-dist/source/latex/resphilosophica/Makefile
 * /usr/share/texmf-dist/source/latex/resphilosophica/resphilosophica.dtx
 * /usr/share/texmf-dist/source/latex/resphilosophica/resphilosophica.ins
-* /usr/share/texmf-dist/source/latex/revtex/aip.dtx
 * /usr/share/texmf-dist/source/latex/revtex/aip4-2.dtx
 * /usr/share/texmf-dist/source/latex/revtex/ltxdocext.dtx
 * /usr/share/texmf-dist/source/latex/revtex/ltxfront.dtx
@@ -870,7 +869,6 @@ Extra publications templates for Tex Live
 * /usr/share/texmf-dist/tex/latex/revtex/ltxfront.sty
 * /usr/share/texmf-dist/tex/latex/revtex/ltxgrid.sty
 * /usr/share/texmf-dist/tex/latex/revtex/ltxutil.sty
-* /usr/share/texmf-dist/tex/latex/revtex/reftest4-2.tex
 * /usr/share/texmf-dist/tex/latex/revtex/revsymb4-2.sty
 * /usr/share/texmf-dist/tex/latex/revtex/revtex4-2.cls
 * /usr/share/texmf-dist/tex/latex/revtex/sor4-2.rtx

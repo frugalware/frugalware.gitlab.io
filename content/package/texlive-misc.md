@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-misc 2023.0-3"
-version = "2023.0-3"
+title = "texlive-misc 2024.2-1"
+version = "2024.2-1"
 description = "Miscellaneous packages for TeX Live"
-date = "2024-02-02T14:42:47"
+date = "2024-04-28T17:24:18"
 aliases = "/packages/102980"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "1349740"
-usize = "8299610"
-sha1sum = "c13b2c94bb7fe390a05ec0fbc2e1358b26b01f7a"
-depends = "['texlive=2023.0']"
+size = "1356708"
+usize = "8348994"
+sha1sum = "74db410b2a3bcd079fb813c7d359b4ec17feef03"
+depends = "['texlive=2024.2']"
 +++
 ### Description: 
 Miscellaneous packages for TeX Live
@@ -291,6 +291,11 @@ Miscellaneous packages for TeX Live
 * /usr/share/texmf-dist/source/latex/sudokubundle/sudokubundle.ins
 * /usr/share/texmf-dist/source/latex/xskak/xskak.dtx
 * /usr/share/texmf-dist/source/latex/xskak/xskak.ins
+* /usr/share/texmf-dist/tex/context/third/sudoku/t-sudoku-test-01.txt
+* /usr/share/texmf-dist/tex/context/third/sudoku/t-sudoku-test-02.txt
+* /usr/share/texmf-dist/tex/context/third/sudoku/t-sudoku-test-03.txt
+* /usr/share/texmf-dist/tex/context/third/sudoku/t-sudoku.lua
+* /usr/share/texmf-dist/tex/context/third/sudoku/t-sudoku.mkvi
 * /usr/share/texmf-dist/tex/generic/musixtex/musixadd.tex
 * /usr/share/texmf-dist/tex/generic/musixtex/musixadf.tex
 * /usr/share/texmf-dist/tex/generic/musixtex/musixbar.tex
@@ -321,6 +326,7 @@ Miscellaneous packages for TeX Live
 * /usr/share/texmf-dist/tex/generic/musixtex/musixlyr.tex
 * /usr/share/texmf-dist/tex/generic/musixtex/musixmad.tex
 * /usr/share/texmf-dist/tex/generic/musixtex/musixmkm.tex
+* /usr/share/texmf-dist/tex/generic/musixtex/musixmtab.tex
 * /usr/share/texmf-dist/tex/generic/musixtex/musixper.tex
 * /usr/share/texmf-dist/tex/generic/musixtex/musixplt.tex
 * /usr/share/texmf-dist/tex/generic/musixtex/musixpoi.tex

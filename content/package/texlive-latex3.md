@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-latex3 2023.0-3"
-version = "2023.0-3"
+title = "texlive-latex3 2024.2-1"
+version = "2024.2-1"
 description = "LaTeX3 packages for TeX Live"
-date = "2024-02-02T14:42:47"
+date = "2024-04-28T17:24:18"
 aliases = "/packages/219468"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "826604"
-usize = "6252941"
-sha1sum = "504c21390dcc407f72a3e23683afb5121b580009"
-depends = "['texlive=2023.0']"
+size = "831200"
+usize = "6286629"
+sha1sum = "9708105cceecf9ad6951802046d4203ca551ab99"
+depends = "['texlive=2024.2']"
 +++
 ### Description: 
 LaTeX3 packages for TeX Live
@@ -19,8 +19,6 @@ LaTeX3 packages for TeX Live
 ### Files: 
 * /usr/share/texmf-dist/source/latex/l3experimental/l3benchmark/l3benchmark.dtx
 * /usr/share/texmf-dist/source/latex/l3experimental/l3benchmark/l3benchmark.ins
-* /usr/share/texmf-dist/source/latex/l3experimental/l3bitset/l3bitset.dtx
-* /usr/share/texmf-dist/source/latex/l3experimental/l3bitset/l3bitset.ins
 * /usr/share/texmf-dist/source/latex/l3experimental/l3draw/l3draw-boxes.dtx
 * /usr/share/texmf-dist/source/latex/l3experimental/l3draw/l3draw-layers.dtx
 * /usr/share/texmf-dist/source/latex/l3experimental/l3draw/l3draw-paths.dtx
@@ -47,9 +45,9 @@ LaTeX3 packages for TeX Live
 * /usr/share/texmf-dist/source/latex/l3kernel/expl3.dtx
 * /usr/share/texmf-dist/source/latex/l3kernel/l3.ins
 * /usr/share/texmf-dist/source/latex/l3kernel/l3basics.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3bitset.dtx
 * /usr/share/texmf-dist/source/latex/l3kernel/l3bootstrap.dtx
 * /usr/share/texmf-dist/source/latex/l3kernel/l3box.dtx
-* /usr/share/texmf-dist/source/latex/l3kernel/l3candidates.dtx
 * /usr/share/texmf-dist/source/latex/l3kernel/l3cctab.dtx
 * /usr/share/texmf-dist/source/latex/l3kernel/l3clist.dtx
 * /usr/share/texmf-dist/source/latex/l3kernel/l3coffins.dtx
@@ -67,12 +65,15 @@ LaTeX3 packages for TeX Live
 * /usr/share/texmf-dist/source/latex/l3kernel/l3fp-convert.dtx
 * /usr/share/texmf-dist/source/latex/l3kernel/l3fp-expo.dtx
 * /usr/share/texmf-dist/source/latex/l3kernel/l3fp-extended.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3fp-functions.dtx
 * /usr/share/texmf-dist/source/latex/l3kernel/l3fp-logic.dtx
 * /usr/share/texmf-dist/source/latex/l3kernel/l3fp-parse.dtx
 * /usr/share/texmf-dist/source/latex/l3kernel/l3fp-random.dtx
 * /usr/share/texmf-dist/source/latex/l3kernel/l3fp-round.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3fp-symbolic.dtx
 * /usr/share/texmf-dist/source/latex/l3kernel/l3fp-traps.dtx
 * /usr/share/texmf-dist/source/latex/l3kernel/l3fp-trig.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3fp-types.dtx
 * /usr/share/texmf-dist/source/latex/l3kernel/l3fp.dtx
 * /usr/share/texmf-dist/source/latex/l3kernel/l3fparray.dtx
 * /usr/share/texmf-dist/source/latex/l3kernel/l3int.dtx
@@ -99,6 +100,7 @@ LaTeX3 packages for TeX Live
 * /usr/share/texmf-dist/source/latex/l3kernel/l3text-purify.dtx
 * /usr/share/texmf-dist/source/latex/l3kernel/l3text.dtx
 * /usr/share/texmf-dist/source/latex/l3kernel/l3tl-analysis.dtx
+* /usr/share/texmf-dist/source/latex/l3kernel/l3tl-build.dtx
 * /usr/share/texmf-dist/source/latex/l3kernel/l3tl.dtx
 * /usr/share/texmf-dist/source/latex/l3kernel/l3token.dtx
 * /usr/share/texmf-dist/source/latex/l3kernel/l3unicode.dtx
@@ -106,14 +108,11 @@ LaTeX3 packages for TeX Live
 * /usr/share/texmf-dist/source/latex/l3packages/l3keys2e/l3keys2e.ins
 * /usr/share/texmf-dist/source/latex/l3packages/xfp/xfp.dtx
 * /usr/share/texmf-dist/source/latex/l3packages/xfp/xfp.ins
-* /usr/share/texmf-dist/source/latex/l3packages/xfrac/xfrac.dtx
-* /usr/share/texmf-dist/source/latex/l3packages/xfrac/xfrac.ins
 * /usr/share/texmf-dist/source/latex/l3packages/xparse/xparse.dtx
 * /usr/share/texmf-dist/source/latex/l3packages/xparse/xparse.ins
 * /usr/share/texmf-dist/source/latex/l3packages/xtemplate/xtemplate.dtx
 * /usr/share/texmf-dist/source/latex/l3packages/xtemplate/xtemplate.ins
 * /usr/share/texmf-dist/tex/latex/l3experimental/l3benchmark/l3benchmark.sty
-* /usr/share/texmf-dist/tex/latex/l3experimental/l3bitset/l3bitset.sty
 * /usr/share/texmf-dist/tex/latex/l3experimental/l3draw/l3draw.sty
 * /usr/share/texmf-dist/tex/latex/l3experimental/l3graphics/l3graphics.sty
 * /usr/share/texmf-dist/tex/latex/l3experimental/l3opacity/l3opacity.sty
@@ -147,12 +146,12 @@ LaTeX3 packages for TeX Live
 * /usr/share/texmf-dist/tex/latex/l3kernel/l3str-enc-iso88599.def
 * /usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 * /usr/share/texmf-dist/tex/latex/l3packages/xfp/xfp.sty
-* /usr/share/texmf-dist/tex/latex/l3packages/xfrac/xfrac.sty
 * /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2018-04-12.sty
 * /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
 * /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex
 * /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.ltx
 * /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+* /usr/share/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate-2023-10-10.sty
 * /usr/share/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
 * /usr/share/texmf-dist/tex/latex/lt3graph/lt3graph-dry.sty
 * /usr/share/texmf-dist/tex/latex/lt3graph/lt3graph-packagedoc.cls

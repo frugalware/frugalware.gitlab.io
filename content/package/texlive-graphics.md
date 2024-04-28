@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-graphics 2023.0-3"
-version = "2023.0-3"
+title = "texlive-graphics 2024.2-1"
+version = "2024.2-1"
 description = "Graphics packages for TeX Live"
-date = "2024-02-02T14:42:47"
+date = "2024-04-28T17:24:18"
 aliases = "/packages/102986"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "5969792"
-usize = "36493082"
-sha1sum = "6499626bd5d6eeeccfaee236aad6a926efc66667"
-depends = "['texlive=2023.0']"
+size = "5991380"
+usize = "36589527"
+sha1sum = "e4161a88f4c16b3321b20d6561f4a2320058752a"
+depends = "['texlive=2024.2']"
 +++
 ### Description: 
 Graphics packages for TeX Live
@@ -305,8 +305,8 @@ Graphics packages for TeX Live
 * /usr/share/texmf-dist/source/latex/havannah/havannah.ins
 * /usr/share/texmf-dist/source/latex/hf-tikz/hf-tikz.dtx
 * /usr/share/texmf-dist/source/latex/hf-tikz/hf-tikz.ins
-* /usr/share/texmf-dist/source/latex/hobby/hobby.dtx
-* /usr/share/texmf-dist/source/latex/hobby/hobby.ins
+* /usr/share/texmf-dist/source/latex/hobby/hobby_code.dtx
+* /usr/share/texmf-dist/source/latex/hobby/hobby_code.ins
 * /usr/share/texmf-dist/source/latex/makeshape/makeshape.dtx
 * /usr/share/texmf-dist/source/latex/makeshape/makeshape.ins
 * /usr/share/texmf-dist/source/latex/makeshape/ontesting.dtx
@@ -1112,6 +1112,7 @@ Graphics packages for TeX Live
 * /usr/share/texmf-dist/tex/latex/havannah/havannah.sty
 * /usr/share/texmf-dist/tex/latex/here/here.sty
 * /usr/share/texmf-dist/tex/latex/hf-tikz/hf-tikz.sty
+* /usr/share/texmf-dist/tex/latex/hobby/hobby-l3draw.sty
 * /usr/share/texmf-dist/tex/latex/hobby/hobby.code.tex
 * /usr/share/texmf-dist/tex/latex/hobby/pgflibraryhobby.code.tex
 * /usr/share/texmf-dist/tex/latex/hobby/pml3array.sty
@@ -1298,9 +1299,12 @@ Graphics packages for TeX Live
 * /usr/share/texmf-dist/tex/latex/tkz-base/tkz-tools-text.tex
 * /usr/share/texmf-dist/tex/latex/tkz-base/tkz-tools-utilities.tex
 * /usr/share/texmf-dist/tex/latex/tkz-berge/tkz-berge.sty
+* /usr/share/texmf-dist/tex/latex/tkz-doc/tkz-doc.cfg
+* /usr/share/texmf-dist/tex/latex/tkz-doc/tkz-doc.cls
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-angles.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-circles.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-compass.tex
+* /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-ellipses.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-lines.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-points.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-polygons.tex
@@ -1316,6 +1320,12 @@ Graphics packages for TeX Live
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-circles.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-grids.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-lines.tex
+* /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-lua-circles-by.tex
+* /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-lua-circles.tex
+* /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-lua-points-by.tex
+* /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-lua-points-spc.tex
+* /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-lua-points-with.tex
+* /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-lua-points.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-by.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-rnd.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-spc.tex
@@ -1323,24 +1333,19 @@ Graphics packages for TeX Live
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-polygons.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-triangles.tex
-* /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-lua-circles.tex
-* /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-lua-points-by.tex
-* /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-lua-points-spc.tex
-* /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-lua-points-with.tex
-* /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-lua-points.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-angles.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-base.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-BB.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-colors.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-intersections.tex
+* /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-lua-angles.tex
+* /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-lua-base.tex
+* /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-lua-intersections.tex
+* /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-lua-math.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-math.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-modules.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-text.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-utilities.tex
-* /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-tools-lua-angles.tex
-* /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-tools-lua-base.tex
-* /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-tools-lua-intersections.tex
-* /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-tools-lua-math.tex
 * /usr/share/texmf-dist/tex/latex/tkz-fct/tkz-fct.sty
 * /usr/share/texmf-dist/tex/latex/tkz-graph/tkz-graph.sty
 * /usr/share/texmf-dist/tex/latex/tkz-orm/tkz-orm.sty

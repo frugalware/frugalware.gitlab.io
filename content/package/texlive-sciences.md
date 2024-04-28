@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-sciences 2023.0-3"
-version = "2023.0-3"
+title = "texlive-sciences 2024.2-1"
+version = "2024.2-1"
 description = "Extra science packages for TeX Live"
-date = "2024-02-02T14:42:47"
+date = "2024-04-28T17:24:18"
 aliases = "/packages/102984"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "4870488"
-usize = "26100786"
-sha1sum = "7f76e1fcc8981fd69ed0df6f39000bb65f6ce32a"
-depends = "['texlive=2023.0']"
+size = "4890472"
+usize = "26244003"
+sha1sum = "6bb0aea935572c6ea9a1018666acd3395d61256d"
+depends = "['texlive=2024.2']"
 +++
 ### Description: 
 Extra science packages for TeX Live
@@ -798,7 +798,6 @@ Extra science packages for TeX Live
 * /usr/share/texmf-dist/tex/latex/mhchem/hpstatement.inc/hpstatement-sl.inc.sty
 * /usr/share/texmf-dist/tex/latex/mhchem/hpstatement.inc/hpstatement-sv.inc.sty
 * /usr/share/texmf-dist/tex/latex/mhchem/hpstatement.sty
-* /usr/share/texmf-dist/tex/latex/mhchem/mhchem.4ht
 * /usr/share/texmf-dist/tex/latex/mhchem/mhchem.sty
 * /usr/share/texmf-dist/tex/latex/mhchem/rsphrase.sty
 * /usr/share/texmf-dist/tex/latex/mhequ/mhequ.sty

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-bibtex-extra 2023.0-3"
-version = "2023.0-3"
+title = "texlive-bibtex-extra 2024.2-1"
+version = "2024.2-1"
 description = "Extra Bibtex Styles for TeX Live"
-date = "2024-02-02T14:42:47"
+date = "2024-04-28T17:24:18"
 aliases = "/packages/102979"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "2526660"
-usize = "25488090"
-sha1sum = "5ab5a62d63499caf64e4409ef16f720b72982099"
-depends = "['texlive=2023.0']"
+size = "2567576"
+usize = "26000896"
+sha1sum = "6b3c38f3b5dd8448c883631b6be9bcaf628ec9f8"
+depends = "['texlive=2024.2']"
 +++
 ### Description: 
 Extra Bibtex Styles for TeX Live
@@ -205,6 +205,11 @@ Extra Bibtex Styles for TeX Live
 * /usr/share/texmf-dist/source/bibtex/apacite/apacite.ins
 * /usr/share/texmf-dist/source/bibtex/bibexport/bibexport.dtx
 * /usr/share/texmf-dist/source/bibtex/bibexport/bibexport.ins
+* /usr/share/texmf-dist/source/bibtex/francais-bst/francais-bst.ins
+* /usr/share/texmf-dist/source/bibtex/francais-bst/francais-bst.mbs
+* /usr/share/texmf-dist/source/bibtex/francais-bst/francais.dbj
+* /usr/share/texmf-dist/source/bibtex/francais-bst/francaisbst.dbj
+* /usr/share/texmf-dist/source/bibtex/francais-bst/francaissc.dbj
 * /usr/share/texmf-dist/source/bibtex/urlbst/configure
 * /usr/share/texmf-dist/source/bibtex/urlbst/configure.ac
 * /usr/share/texmf-dist/source/bibtex/urlbst/Makefile.in
@@ -347,6 +352,7 @@ Extra Bibtex Styles for TeX Live
 * /usr/share/texmf-dist/tex/latex/biblatex-apa/apa.bbx
 * /usr/share/texmf-dist/tex/latex/biblatex-apa/apa.cbx
 * /usr/share/texmf-dist/tex/latex/biblatex-apa/apa.dbx
+* /usr/share/texmf-dist/tex/latex/biblatex-apa/apa.lua
 * /usr/share/texmf-dist/tex/latex/biblatex-apa/austrian-apa.lbx
 * /usr/share/texmf-dist/tex/latex/biblatex-apa/brazilian-apa.lbx
 * /usr/share/texmf-dist/tex/latex/biblatex-apa/british-apa.lbx
@@ -359,6 +365,7 @@ Extra Bibtex Styles for TeX Live
 * /usr/share/texmf-dist/tex/latex/biblatex-apa/galician-apa.lbx
 * /usr/share/texmf-dist/tex/latex/biblatex-apa/german-apa.lbx
 * /usr/share/texmf-dist/tex/latex/biblatex-apa/greek-apa.lbx
+* /usr/share/texmf-dist/tex/latex/biblatex-apa/hungarian-apa.lbx
 * /usr/share/texmf-dist/tex/latex/biblatex-apa/italian-apa.lbx
 * /usr/share/texmf-dist/tex/latex/biblatex-apa/naustrian-apa.lbx
 * /usr/share/texmf-dist/tex/latex/biblatex-apa/ngerman-apa.lbx
@@ -510,6 +517,7 @@ Extra Bibtex Styles for TeX Live
 * /usr/share/texmf-dist/tex/latex/biblatex-manuscripts-philology/english-manuscripts.lbx
 * /usr/share/texmf-dist/tex/latex/biblatex-manuscripts-philology/french-manuscripts.lbx
 * /usr/share/texmf-dist/tex/latex/biblatex-manuscripts-philology/italian-manuscripts.lbx
+* /usr/share/texmf-dist/tex/latex/biblatex-manuscripts-philology/latin-manuscripts.lbx
 * /usr/share/texmf-dist/tex/latex/biblatex-manuscripts-philology/manuscripts-NewBibliographyString.sty
 * /usr/share/texmf-dist/tex/latex/biblatex-manuscripts-philology/manuscripts-noautoshorthand.bbx
 * /usr/share/texmf-dist/tex/latex/biblatex-manuscripts-philology/manuscripts-noautoshorthand.dbx

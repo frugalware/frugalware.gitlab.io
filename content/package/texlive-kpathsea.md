@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texlive-kpathsea 2023.0-3"
-version = "2023.0-3"
+title = "texlive-kpathsea 2024.2-1"
+version = "2024.2-1"
 description = "Libkpathsea"
-date = "2024-02-02T14:42:47"
+date = "2024-04-28T17:24:18"
 aliases = "/packages/217875"
 categories = ['xlib']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "43344"
-usize = "96388"
-sha1sum = "0fbd76efca3f853f3bfb054aa5324c063693e05c"
+size = "43912"
+usize = "100484"
+sha1sum = "60f67e703bdc618b478bdc789273c0ca3d1ad2a7"
 depends = "[]"
 reverse_depends = "['texlive', 'texlive-utils']"
 +++
@@ -20,5 +20,5 @@ Libkpathsea
 ### Files: 
 * /usr/lib/libkpathsea.so
 * /usr/lib/libkpathsea.so.6
-* /usr/lib/libkpathsea.so.6.3.5
+* /usr/lib/libkpathsea.so.6.4.0
 * /usr/lib/pkgconfig/kpathsea.pc

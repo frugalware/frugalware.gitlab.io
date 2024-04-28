@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-utils 2023.0-3"
-version = "2023.0-3"
+title = "texlive-utils 2024.2-1"
+version = "2024.2-1"
 description = "Utilities for TeX Live"
-date = "2024-02-02T14:42:47"
+date = "2024-04-28T17:24:18"
 aliases = "/packages/102992"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "1172288"
-usize = "5155627"
-sha1sum = "717f5c48dfe5cf7ab2ecdb757b591d0c7ccfde31"
-depends = "['texlive=2023.0', 'texlive-kpathsea', 'texlive-ptexen', 'texlive-synctex']"
+size = "1174560"
+usize = "5194319"
+sha1sum = "599118bd68c773d75adb7a3da3e7f9599bc1b840"
+depends = "['texlive=2024.2', 'texlive-kpathsea', 'texlive-ptexen', 'texlive-synctex']"
 +++
 ### Description: 
 Utilities for TeX Live
@@ -165,7 +165,6 @@ Utilities for TeX Live
 * /usr/share/texmf-dist/source/latex/listings-ext/listings-ext.dtx
 * /usr/share/texmf-dist/source/latex/listings-ext/listings-ext.ins
 * /usr/share/texmf-dist/source/latex/pfarrei/pfarrei.dtx
-* /usr/share/texmf-dist/source/latex/pfarrei/README
 * /usr/share/texmf-dist/source/latex/pslatex/fontinst/pslatex.tex
 * /usr/share/texmf-dist/tex/fontinst/afm2pl/ly1.etx
 * /usr/share/texmf-dist/tex/fontinst/afm2pl/ly1c.etx
@@ -254,6 +253,7 @@ Utilities for TeX Live
 * /usr/share/texmf-dist/tex/plain/cweb/ctproofmac.tex
 * /usr/share/texmf-dist/tex/plain/cweb/cttwinxmac.tex
 * /usr/share/texmf-dist/tex/plain/cweb/ctwimac.tex
+* /usr/share/texmf-dist/tex/plain/cweb/cwebacromac.tex
 * /usr/share/texmf-dist/tex/plain/cweb/cwebbin/cweb_ecma94.sty
 * /usr/share/texmf-dist/tex/plain/cweb/cwebbin/cweb_hp8.sty
 * /usr/share/texmf-dist/tex/plain/cweb/cwebbin/cweb_mac8.sty
@@ -264,8 +264,10 @@ Utilities for TeX Live
 * /usr/share/texmf-dist/tex/plain/cweb/cwebbin/dcwebstrings.tex
 * /usr/share/texmf-dist/tex/plain/cweb/cwebbin/fcwebmac.tex
 * /usr/share/texmf-dist/tex/plain/cweb/cwebbin/icwebmac.tex
+* /usr/share/texmf-dist/tex/plain/cweb/cwebbin/pdfctproofmac.tex
 * /usr/share/texmf-dist/tex/plain/cweb/cwebbin/pdfctwimac.tex
 * /usr/share/texmf-dist/tex/plain/cweb/cwebbin/pdfwebtocfront.tex
+* /usr/share/texmf-dist/tex/plain/cweb/cwebbin/twimac-web.tex
 * /usr/share/texmf-dist/tex/plain/cweb/cwebbin/Xcwebmac.tex
 * /usr/share/texmf-dist/tex/plain/cweb/cwebmac.tex
 * /usr/share/texmf-dist/tex/plain/cweb/twinx-startup.tex

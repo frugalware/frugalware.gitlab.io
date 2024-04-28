@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-lang-extra 2023.0-3"
-version = "2023.0-3"
+title = "texlive-lang-extra 2024.2-1"
+version = "2024.2-1"
 description = "Extra languages support for TeX Live"
-date = "2024-02-02T14:42:47"
+date = "2024-04-28T17:24:18"
 aliases = "/packages/219465"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "20949928"
-usize = "52829788"
-sha1sum = "6c4b46cf9f15e8c4cc470c7c5ffc332a3bcfa97c"
-depends = "['texlive=2023.0']"
+size = "20955328"
+usize = "52833711"
+sha1sum = "1bd872f3b6a4344cfbe82372205b9852626c1bde"
+depends = "['texlive=2024.2']"
 +++
 ### Description: 
 Extra languages support for TeX Live
@@ -2596,6 +2596,8 @@ Extra languages support for TeX Live
 * /usr/share/texmf-dist/tex/latex/schule/schule.mod.Aufgaben.code.tex
 * /usr/share/texmf-dist/tex/latex/schule/schule.mod.Aufgaben.optionen.tex
 * /usr/share/texmf-dist/tex/latex/schule/schule.mod.Aufgaben.pakete.tex
+* /usr/share/texmf-dist/tex/latex/schule/schule.mod.Aufgabenpool.code.tex
+* /usr/share/texmf-dist/tex/latex/schule/schule.mod.Aufgabenpool.pakete.tex
 * /usr/share/texmf-dist/tex/latex/schule/schule.mod.Bewertung.code.tex
 * /usr/share/texmf-dist/tex/latex/schule/schule.mod.Bewertung.optionen.tex
 * /usr/share/texmf-dist/tex/latex/schule/schule.mod.Bewertung.pakete.tex
