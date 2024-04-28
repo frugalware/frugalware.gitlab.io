@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "vkd3d 1.11-1"
-version = "1.11-1"
+title = "vkd3d 1.11-2"
+version = "1.11-2"
 description = "Direct3D 12 to Vulkan translation library"
-date = "2024-04-22T13:55:51"
+date = "2024-04-28T21:39:40"
 aliases = "/packages/219840"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/d3d12/vkd3d"
 arch = "x86_64"
-size = "583716"
+size = "583492"
 usize = "3093560"
-sha1sum = "497c5d08117849a7664371dbbabf39b88b958d41"
-depends = "['ncurses', 'vulkan-icd-loader']"
+sha1sum = "6fff0f321b120c3af22e7d928c443001f5028cfd"
+depends = "['ncurses>=6.5', 'vulkan-icd-loader']"
 reverse_depends = "['wine', 'wine-devel']"
 +++
 ### Description: 
