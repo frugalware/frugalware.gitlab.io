@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ne 3.3.3-1"
-version = "3.3.3-1"
+title = "ne 3.3.3-2"
+version = "3.3.3-2"
 description = "The nice editor for beginners."
-date = "2023-12-17T13:58:49"
+date = "2024-04-28T15:34:19"
 aliases = "/packages/102897"
 categories = ['base-extra']
 upstreamurl = "http://ne.di.unimi.it/"
 arch = "x86_64"
-size = "832376"
+size = "832680"
 usize = "2362268"
-sha1sum = "3d623565a5e747f08dba7d4a53a0d2333af7444a"
-depends = "['ncurses>=6.0-4']"
+sha1sum = "067cd5ec1d67e183525b708ae6105aed0362898d"
+depends = "['ncurses>=6.5']"
 +++
 ### Description: 
 The nice editor for beginners.

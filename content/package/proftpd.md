@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "proftpd 1.3.8b-3"
-version = "1.3.8b-3"
+title = "proftpd 1.3.8b-4"
+version = "1.3.8b-4"
 description = "Highly configurable GPL-licensed FTP server software"
-date = "2024-02-02T15:05:38"
+date = "2024-04-28T15:49:41"
 aliases = "/packages/3300"
 categories = ['network-extra']
 upstreamurl = "http://www.proftpd.org/"
 arch = "x86_64"
-size = "999660"
-usize = "4580595"
-sha1sum = "56e2cca07742caa46fc855903dc1ff6999a78c2f"
-depends = "['libldap>=2.6.2', 'mariadb-libs>=10.3.14', 'ncurses>=6.0-12', 'openssl>=3.1.0']"
+size = "996844"
+usize = "4568285"
+sha1sum = "2a03b6f259902fc5ec1a424d719d9cb6591c9309"
+depends = "['libldap>=2.6.2', 'mariadb-libs>=10.3.14', 'ncurses>=6.5', 'openssl>=3.1.0']"
 +++
 ### Description: 
 Highly configurable GPL-licensed FTP server software

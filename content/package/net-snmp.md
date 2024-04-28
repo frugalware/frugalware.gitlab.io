@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "net-snmp 5.9.4-2"
-version = "5.9.4-2"
+title = "net-snmp 5.9.4-3"
+version = "5.9.4-3"
 description = "A suite of applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both IPv4 and IPv6"
-date = "2024-01-14T15:02:53"
+date = "2024-04-28T15:47:04"
 aliases = "/packages/3746"
 categories = ['network-extra']
 upstreamurl = "http://www.net-snmp.org/"
 arch = "x86_64"
-size = "2650936"
-usize = "14109090"
-sha1sum = "89e33b7a0f174f815073d23711c96c7aa15c8387"
-depends = "['openssl>=3.1.0', 'pciutils>=3.4.1', 'perl>=5.38']"
+size = "2647004"
+usize = "14096883"
+sha1sum = "82644aa61ddb73bd8c3dd8eae0c1b70c95e0b3ee"
+depends = "['ncurses>=6.5', 'openssl>=3.1.0', 'pciutils>=3.4.1', 'perl>=5.38']"
 reverse_depends = "['hplip-driver', 'rsyslog-snmp']"
 +++
 ### Description: 
@@ -46,7 +46,6 @@ A suite of applications used to implement SNMP v1, SNMP v2c and SNMP v3 using bo
 * /usr/bin/snmpstatus
 * /usr/bin/snmptable
 * /usr/bin/snmptest
-* /usr/bin/snmptop
 * /usr/bin/snmptranslate
 * /usr/bin/snmptrap
 * /usr/bin/snmptrapd

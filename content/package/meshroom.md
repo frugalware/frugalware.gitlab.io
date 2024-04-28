@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "meshroom 2023.3.0-2"
-version = "2023.3.0-2"
+title = "meshroom 2023.3.0-3"
+version = "2023.3.0-3"
 description = "3D Reconstruction Software"
-date = "2024-03-28T15:50:10"
+date = "2024-04-28T14:59:34"
 aliases = "/packages/220139"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/alicevision/meshroom"
 arch = "x86_64"
-size = "13545252"
-usize = "48815120"
-sha1sum = "4235c4f87fd05f1f3d328958498ca425e3b57682"
-depends = "['alicevision', 'libffi>=3.4', 'python3>=3.11', 'python3-markdown', 'python3-psutil', 'qmlalembic', 'qt5-3d>=5.15.10', 'qt5-graphicaleffects>=5.15.10', 'qt5-imageformats>=5.15.10', 'qt5-location>=5.15.10', 'qt5-quickcontrols>=5.15.10', 'qt5-quickcontrols2>=5.15.10', 'qt5-svg>=5.15.10', 'qtoiio']"
+size = "13376580"
+usize = "48153680"
+sha1sum = "2acad086a3e1dc8f933d7ac17d1dd4e65e1cb159"
+depends = "['alicevision', 'libffi>=3.4', 'ncurses>=6.5', 'python3>=3.11', 'python3-markdown', 'python3-psutil', 'qmlalembic', 'qt5-3d>=5.15.10', 'qt5-graphicaleffects>=5.15.10', 'qt5-imageformats>=5.15.10', 'qt5-location>=5.15.10', 'qt5-quickcontrols>=5.15.10', 'qt5-quickcontrols2>=5.15.10', 'qt5-svg>=5.15.10', 'qtoiio']"
 +++
 ### Description: 
 3D Reconstruction Software
@@ -285,10 +285,8 @@ depends = "['alicevision', 'libffi>=3.4', 'python3>=3.11', 'python3-markdown', '
 * /usr/lib/Meshroom-2023.3.0/lib/liblzma.so.5.6.1
 * /usr/lib/Meshroom-2023.3.0/lib/libmpdec.so.4
 * /usr/lib/Meshroom-2023.3.0/lib/libmpdec.so.4.0.0
-* /usr/lib/Meshroom-2023.3.0/lib/libncurses.so.6
-* /usr/lib/Meshroom-2023.3.0/lib/libncurses.so.6.4
 * /usr/lib/Meshroom-2023.3.0/lib/libncursesw.so.6
-* /usr/lib/Meshroom-2023.3.0/lib/libncursesw.so.6.4
+* /usr/lib/Meshroom-2023.3.0/lib/libncursesw.so.6.5
 * /usr/lib/Meshroom-2023.3.0/lib/libpython3.12.so
 * /usr/lib/Meshroom-2023.3.0/lib/libpython3.12.so.1.0
 * /usr/lib/Meshroom-2023.3.0/lib/library.zip
@@ -1383,6 +1381,7 @@ depends = "['alicevision', 'libffi>=3.4', 'python3>=3.11', 'python3-markdown', '
 * /usr/lib/Meshroom-2023.3.0/lib/test/xmltestdata/test.xml
 * /usr/lib/Meshroom-2023.3.0/lib/test/xmltestdata/test.xml.out
 * /usr/lib/Meshroom-2023.3.0/lib/test/zipdir.zip
+* /usr/lib/Meshroom-2023.3.0/lib/test/zipdir_backslash.zip
 * /usr/lib/Meshroom-2023.3.0/lib/test/ziptestdata/exe_with_z64
 * /usr/lib/Meshroom-2023.3.0/lib/test/ziptestdata/exe_with_zip
 * /usr/lib/Meshroom-2023.3.0/lib/test/ziptestdata/header.sh

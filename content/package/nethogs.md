@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "nethogs 0.8.7-2"
-version = "0.8.7-2"
+title = "nethogs 0.8.7-3"
+version = "0.8.7-3"
 description = "A Net top tool grouping bandwidth per process."
-date = "2024-01-16T10:21:14"
+date = "2024-04-28T15:39:23"
 aliases = "/packages/220163"
 categories = ['network-extra']
 upstreamurl = "https://github.com/raboof/nethogs"
 arch = "x86_64"
-size = "36896"
+size = "36964"
 usize = "95913"
-sha1sum = "f409003539e0e3327088de56cbbb873870b4237e"
-depends = "['libpcap']"
+sha1sum = "ec92e3c9be77b413ade9637c0f36a1ba6f6cb1fd"
+depends = "['libpcap', 'ncurses>=6.5']"
 +++
 ### Description: 
 A Net top tool grouping bandwidth per process.
