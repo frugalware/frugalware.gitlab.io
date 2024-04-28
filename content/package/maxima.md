@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "maxima 5.47.0-1"
-version = "5.47.0-1"
+title = "maxima 5.47.0-2"
+version = "5.47.0-2"
 description = "A sophisticated computer algebra system."
-date = "2024-02-02T11:28:43"
+date = "2024-04-28T14:05:51"
 aliases = "/packages/39078"
 categories = ['xapps-extra']
 upstreamurl = "http://maxima.sourceforge.net/"
 arch = "x86_64"
-size = "24496484"
-usize = "89192745"
-sha1sum = "2f44240142746099aaf081ecfa985c81a7ba1a5b"
-depends = "['bash', 'clisp', 'glibc', 'ncurses>=6.0-3', 'readline>=8.0', 'tk']"
+size = "24412920"
+usize = "89013137"
+sha1sum = "a3fdd6b494d26d1850047623ecf2c1a009e5943a"
+depends = "['bash', 'clisp', 'glibc', 'ncurses>=6.5', 'readline>=8.0', 'tk']"
 reverse_depends = "['wxmaxima']"
 license = "GPL"
 +++
@@ -33,18 +33,24 @@ A sophisticated computer algebra system.
 * /usr/share/doc/maxima-5.47.0/AUTHORS
 * /usr/share/doc/maxima-5.47.0/ChangeLog
 * /usr/share/doc/maxima-5.47.0/COPYING
+* /usr/share/doc/maxima-5.47.0/CREDITS
 * /usr/share/doc/maxima-5.47.0/INSTALL
+* /usr/share/doc/maxima-5.47.0/INSTALL-SOURCE
+* /usr/share/doc/maxima-5.47.0/INSTALL-WIN-SOURCE
 * /usr/share/doc/maxima-5.47.0/INSTALL.git
 * /usr/share/doc/maxima-5.47.0/INSTALL.lisp
 * /usr/share/doc/maxima-5.47.0/INSTALL.win32
 * /usr/share/doc/maxima-5.47.0/INSTALL.win32nogcl
+* /usr/share/doc/maxima-5.47.0/KNOWN_BUGS.txt
 * /usr/share/doc/maxima-5.47.0/NEWS
 * /usr/share/doc/maxima-5.47.0/README
 * /usr/share/doc/maxima-5.47.0/README-lisps.md
 * /usr/share/doc/maxima-5.47.0/README.developers-howto
 * /usr/share/doc/maxima-5.47.0/README.external
 * /usr/share/doc/maxima-5.47.0/README.i18n
+* /usr/share/doc/maxima-5.47.0/README.md
 * /usr/share/doc/maxima-5.47.0/README.rpms
+* /usr/share/doc/maxima-5.47.0/VERSION
 * /usr/share/emacs/site-lisp/bookmode.el
 * /usr/share/emacs/site-lisp/dbl.el
 * /usr/share/emacs/site-lisp/emaxima.el
