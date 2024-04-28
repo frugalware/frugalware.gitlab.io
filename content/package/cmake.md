@@ -1,24 +1,23 @@
 +++
 draft = false
-title = "cmake 3.28.3-2"
-version = "3.28.3-2"
+title = "cmake 3.29.2-1"
+version = "3.29.2-1"
 description = "Cross platform make"
-date = "2024-02-16T14:18:14"
+date = "2024-04-28T11:49:27"
 aliases = "/packages/9148"
 categories = ['devel-extra']
 upstreamurl = "https://cmake.org"
 arch = "x86_64"
-size = "11865724"
-usize = "69858676"
-sha1sum = "5c7dd28546a79cfbf15463912a83bdf45a263434"
-depends = "['curl', 'jsoncpp', 'libarchive>=3.2.1', 'libuv', 'lz4', 'ncurses>=6.0-18', 'rhash']"
+size = "10532528"
+usize = "64167605"
+sha1sum = "a395afb9905ca7a3c8a66e4006398dfff817d015"
+depends = "['cppdap', 'curl', 'jsoncpp', 'libarchive>=3.2.1', 'libuv', 'lz4', 'ncurses>=6.5', 'rhash']"
 reverse_depends = "['corrosion', 'lxqt-build-tools', 'qtcreator', 'rocm-cmake', 'scikit-build']"
 +++
 ### Description: 
 Cross platform make
 
 ### Files: 
-* /usr/bin/ccmake
 * /usr/bin/cmake
 * /usr/bin/cpack
 * /usr/bin/ctest
@@ -202,6 +201,7 @@ Cross platform make
 * /usr/share/cmake/Help/envvar/CMAKE_GENERATOR_TOOLSET.rst
 * /usr/share/cmake/Help/envvar/CMAKE_INCLUDE_PATH.rst
 * /usr/share/cmake/Help/envvar/CMAKE_INSTALL_MODE.rst
+* /usr/share/cmake/Help/envvar/CMAKE_INSTALL_PREFIX.rst
 * /usr/share/cmake/Help/envvar/CMAKE_LANG_COMPILER_LAUNCHER.rst
 * /usr/share/cmake/Help/envvar/CMAKE_LANG_IMPLICIT_LINK_DIRECTORIES_EXCLUDE.rst
 * /usr/share/cmake/Help/envvar/CMAKE_LANG_LINKER_LAUNCHER.rst
@@ -212,6 +212,7 @@ Cross platform make
 * /usr/share/cmake/Help/envvar/CMAKE_OSX_ARCHITECTURES.rst
 * /usr/share/cmake/Help/envvar/CMAKE_PREFIX_PATH.rst
 * /usr/share/cmake/Help/envvar/CMAKE_PROGRAM_PATH.rst
+* /usr/share/cmake/Help/envvar/CMAKE_TEST_LAUNCHER.rst
 * /usr/share/cmake/Help/envvar/CMAKE_TOOLCHAIN_FILE.rst
 * /usr/share/cmake/Help/envvar/CSFLAGS.rst
 * /usr/share/cmake/Help/envvar/CTEST_INTERACTIVE_DEBUG_MODE.rst
@@ -308,6 +309,7 @@ Cross platform make
 * /usr/share/cmake/Help/manual/cpack-generators.7.rst
 * /usr/share/cmake/Help/manual/cpack.1.rst
 * /usr/share/cmake/Help/manual/ctest.1.rst
+* /usr/share/cmake/Help/manual/CTEST_EXAMPLE_MAKEFILE_JOB_SERVER.make
 * /usr/share/cmake/Help/manual/ID_RESERVE.txt
 * /usr/share/cmake/Help/manual/LINKS.txt
 * /usr/share/cmake/Help/manual/OPTIONS_BUILD.txt
@@ -745,8 +747,15 @@ Cross platform make
 * /usr/share/cmake/Help/policy/CMP0153.rst
 * /usr/share/cmake/Help/policy/CMP0154.rst
 * /usr/share/cmake/Help/policy/CMP0155.rst
+* /usr/share/cmake/Help/policy/CMP0156.rst
+* /usr/share/cmake/Help/policy/CMP0157.rst
+* /usr/share/cmake/Help/policy/CMP0158.rst
+* /usr/share/cmake/Help/policy/CMP0159.rst
+* /usr/share/cmake/Help/policy/CMP0160.rst
+* /usr/share/cmake/Help/policy/CMP0161.rst
 * /usr/share/cmake/Help/policy/DEPRECATED.txt
 * /usr/share/cmake/Help/policy/DISALLOWED_COMMAND.txt
+* /usr/share/cmake/Help/policy/STANDARD_ADVICE.txt
 * /usr/share/cmake/Help/prop_cache/ADVANCED.rst
 * /usr/share/cmake/Help/prop_cache/HELPSTRING.rst
 * /usr/share/cmake/Help/prop_cache/MODIFIED.rst
@@ -944,7 +953,9 @@ Cross platform make
 * /usr/share/cmake/Help/prop_tgt/ARCHIVE_OUTPUT_DIRECTORY_CONFIG.rst
 * /usr/share/cmake/Help/prop_tgt/ARCHIVE_OUTPUT_NAME.rst
 * /usr/share/cmake/Help/prop_tgt/ARCHIVE_OUTPUT_NAME_CONFIG.rst
+* /usr/share/cmake/Help/prop_tgt/AUTOGEN_BETTER_GRAPH_MULTI_CONFIG.rst
 * /usr/share/cmake/Help/prop_tgt/AUTOGEN_BUILD_DIR.rst
+* /usr/share/cmake/Help/prop_tgt/AUTOGEN_COMMAND_LINE_LENGTH_MAX.rst
 * /usr/share/cmake/Help/prop_tgt/AUTOGEN_ORIGIN_DEPENDS.rst
 * /usr/share/cmake/Help/prop_tgt/AUTOGEN_PARALLEL.rst
 * /usr/share/cmake/Help/prop_tgt/AUTOGEN_TARGET_DEPENDS.rst
@@ -1029,6 +1040,7 @@ Cross platform make
 * /usr/share/cmake/Help/prop_tgt/EXCLUDE_FROM_DEFAULT_BUILD.rst
 * /usr/share/cmake/Help/prop_tgt/EXCLUDE_FROM_DEFAULT_BUILD_CONFIG.rst
 * /usr/share/cmake/Help/prop_tgt/EXPORT_COMPILE_COMMANDS.rst
+* /usr/share/cmake/Help/prop_tgt/EXPORT_FIND_PACKAGE_NAME.rst
 * /usr/share/cmake/Help/prop_tgt/EXPORT_NAME.rst
 * /usr/share/cmake/Help/prop_tgt/EXPORT_NO_SYSTEM.rst
 * /usr/share/cmake/Help/prop_tgt/EXPORT_PROPERTIES.rst
@@ -1139,6 +1151,7 @@ Cross platform make
 * /usr/share/cmake/Help/prop_tgt/LIBRARY_OUTPUT_NAME.rst
 * /usr/share/cmake/Help/prop_tgt/LIBRARY_OUTPUT_NAME_CONFIG.rst
 * /usr/share/cmake/Help/prop_tgt/LINKER_LANGUAGE.rst
+* /usr/share/cmake/Help/prop_tgt/LINKER_TYPE.rst
 * /usr/share/cmake/Help/prop_tgt/LINK_DEPENDS.rst
 * /usr/share/cmake/Help/prop_tgt/LINK_DEPENDS_NO_SHARED.rst
 * /usr/share/cmake/Help/prop_tgt/LINK_DIRECTORIES.rst
@@ -1218,11 +1231,14 @@ Cross platform make
 * /usr/share/cmake/Help/prop_tgt/STATIC_LIBRARY_FLAGS_CONFIG.rst
 * /usr/share/cmake/Help/prop_tgt/STATIC_LIBRARY_OPTIONS.rst
 * /usr/share/cmake/Help/prop_tgt/SUFFIX.rst
+* /usr/share/cmake/Help/prop_tgt/Swift_COMPILATION_MODE-VALUES.txt
+* /usr/share/cmake/Help/prop_tgt/Swift_COMPILATION_MODE.rst
 * /usr/share/cmake/Help/prop_tgt/Swift_DEPENDENCIES_FILE.rst
 * /usr/share/cmake/Help/prop_tgt/Swift_LANGUAGE_VERSION.rst
 * /usr/share/cmake/Help/prop_tgt/Swift_MODULE_DIRECTORY.rst
 * /usr/share/cmake/Help/prop_tgt/Swift_MODULE_NAME.rst
 * /usr/share/cmake/Help/prop_tgt/SYSTEM.rst
+* /usr/share/cmake/Help/prop_tgt/TEST_LAUNCHER.rst
 * /usr/share/cmake/Help/prop_tgt/TYPE.rst
 * /usr/share/cmake/Help/prop_tgt/UNITY_BUILD.rst
 * /usr/share/cmake/Help/prop_tgt/UNITY_BUILD_BATCH_SIZE.rst
@@ -1232,6 +1248,7 @@ Cross platform make
 * /usr/share/cmake/Help/prop_tgt/UNITY_BUILD_UNIQUE_ID.rst
 * /usr/share/cmake/Help/prop_tgt/VERIFY_INTERFACE_HEADER_SETS.rst
 * /usr/share/cmake/Help/prop_tgt/VERSION.rst
+* /usr/share/cmake/Help/prop_tgt/VERSION_SOVERSION_EXAMPLE.txt
 * /usr/share/cmake/Help/prop_tgt/VISIBILITY_INLINES_HIDDEN.rst
 * /usr/share/cmake/Help/prop_tgt/VS_CONFIGURATION_TYPE.rst
 * /usr/share/cmake/Help/prop_tgt/VS_DEBUGGER_COMMAND.rst
@@ -1340,6 +1357,7 @@ Cross platform make
 * /usr/share/cmake/Help/release/3.26.rst
 * /usr/share/cmake/Help/release/3.27.rst
 * /usr/share/cmake/Help/release/3.28.rst
+* /usr/share/cmake/Help/release/3.29.rst
 * /usr/share/cmake/Help/release/3.3.rst
 * /usr/share/cmake/Help/release/3.4.rst
 * /usr/share/cmake/Help/release/3.5.rst
@@ -1394,6 +1412,8 @@ Cross platform make
 * /usr/share/cmake/Help/variable/CMAKE_ARCHIVE_OUTPUT_DIRECTORY_CONFIG.rst
 * /usr/share/cmake/Help/variable/CMAKE_ARGC.rst
 * /usr/share/cmake/Help/variable/CMAKE_ARGV0.rst
+* /usr/share/cmake/Help/variable/CMAKE_AUTOGEN_BETTER_GRAPH_MULTI_CONFIG.rst
+* /usr/share/cmake/Help/variable/CMAKE_AUTOGEN_COMMAND_LINE_LENGTH_MAX.rst
 * /usr/share/cmake/Help/variable/CMAKE_AUTOGEN_ORIGIN_DEPENDS.rst
 * /usr/share/cmake/Help/variable/CMAKE_AUTOGEN_PARALLEL.rst
 * /usr/share/cmake/Help/variable/CMAKE_AUTOGEN_USE_SYSTEM_INCLUDE.rst
@@ -1509,6 +1529,7 @@ Cross platform make
 * /usr/share/cmake/Help/variable/CMAKE_EXE_LINKER_FLAGS_CONFIG_INIT.rst
 * /usr/share/cmake/Help/variable/CMAKE_EXE_LINKER_FLAGS_INIT.rst
 * /usr/share/cmake/Help/variable/CMAKE_EXPORT_COMPILE_COMMANDS.rst
+* /usr/share/cmake/Help/variable/CMAKE_EXPORT_FIND_PACKAGE_NAME.rst
 * /usr/share/cmake/Help/variable/CMAKE_EXPORT_NO_PACKAGE_REGISTRY.rst
 * /usr/share/cmake/Help/variable/CMAKE_EXPORT_PACKAGE_REGISTRY.rst
 * /usr/share/cmake/Help/variable/CMAKE_EXTRA_GENERATOR.rst
@@ -1628,6 +1649,10 @@ Cross platform make
 * /usr/share/cmake/Help/variable/CMAKE_LANG_COMPILER_FRONTEND_VARIANT.rst
 * /usr/share/cmake/Help/variable/CMAKE_LANG_COMPILER_ID.rst
 * /usr/share/cmake/Help/variable/CMAKE_LANG_COMPILER_LAUNCHER.rst
+* /usr/share/cmake/Help/variable/CMAKE_LANG_COMPILER_LINKER.rst
+* /usr/share/cmake/Help/variable/CMAKE_LANG_COMPILER_LINKER_FRONTEND_VARIANT.rst
+* /usr/share/cmake/Help/variable/CMAKE_LANG_COMPILER_LINKER_ID.rst
+* /usr/share/cmake/Help/variable/CMAKE_LANG_COMPILER_LINKER_VERSION.rst
 * /usr/share/cmake/Help/variable/CMAKE_LANG_COMPILER_LOADED.rst
 * /usr/share/cmake/Help/variable/CMAKE_LANG_COMPILER_PREDEFINES_COMMAND.rst
 * /usr/share/cmake/Help/variable/CMAKE_LANG_COMPILER_RANLIB.rst
@@ -1687,6 +1712,8 @@ Cross platform make
 * /usr/share/cmake/Help/variable/CMAKE_LANG_STANDARD_INCLUDE_DIRECTORIES.rst
 * /usr/share/cmake/Help/variable/CMAKE_LANG_STANDARD_LIBRARIES.rst
 * /usr/share/cmake/Help/variable/CMAKE_LANG_STANDARD_REQUIRED.rst
+* /usr/share/cmake/Help/variable/CMAKE_LANG_USING_LINKER_MODE.rst
+* /usr/share/cmake/Help/variable/CMAKE_LANG_USING_LINKER_TYPE.rst
 * /usr/share/cmake/Help/variable/CMAKE_LANG_VISIBILITY_PRESET.rst
 * /usr/share/cmake/Help/variable/CMAKE_LIBRARY_ARCHITECTURE.rst
 * /usr/share/cmake/Help/variable/CMAKE_LIBRARY_ARCHITECTURE_REGEX.rst
@@ -1694,6 +1721,7 @@ Cross platform make
 * /usr/share/cmake/Help/variable/CMAKE_LIBRARY_OUTPUT_DIRECTORY_CONFIG.rst
 * /usr/share/cmake/Help/variable/CMAKE_LIBRARY_PATH.rst
 * /usr/share/cmake/Help/variable/CMAKE_LIBRARY_PATH_FLAG.rst
+* /usr/share/cmake/Help/variable/CMAKE_LINKER_TYPE.rst
 * /usr/share/cmake/Help/variable/CMAKE_LINK_DEF_FILE_FLAG.rst
 * /usr/share/cmake/Help/variable/CMAKE_LINK_DEPENDS_NO_SHARED.rst
 * /usr/share/cmake/Help/variable/CMAKE_LINK_DEPENDS_USE_LINKER.rst
@@ -1801,6 +1829,7 @@ Cross platform make
 * /usr/share/cmake/Help/variable/CMAKE_SKIP_INSTALL_RPATH.rst
 * /usr/share/cmake/Help/variable/CMAKE_SKIP_INSTALL_RULES.rst
 * /usr/share/cmake/Help/variable/CMAKE_SKIP_RPATH.rst
+* /usr/share/cmake/Help/variable/CMAKE_SKIP_TEST_ALL_DEPENDENCY.rst
 * /usr/share/cmake/Help/variable/CMAKE_SOURCE_DIR.rst
 * /usr/share/cmake/Help/variable/CMAKE_STAGING_PREFIX.rst
 * /usr/share/cmake/Help/variable/CMAKE_STATIC_LIBRARY_PREFIX.rst
@@ -1812,6 +1841,7 @@ Cross platform make
 * /usr/share/cmake/Help/variable/CMAKE_SUBLIME_TEXT_2_ENV_SETTINGS.rst
 * /usr/share/cmake/Help/variable/CMAKE_SUBLIME_TEXT_2_EXCLUDE_BUILD_TREE.rst
 * /usr/share/cmake/Help/variable/CMAKE_SUPPRESS_REGENERATION.rst
+* /usr/share/cmake/Help/variable/CMAKE_Swift_COMPILATION_MODE.rst
 * /usr/share/cmake/Help/variable/CMAKE_Swift_LANGUAGE_VERSION.rst
 * /usr/share/cmake/Help/variable/CMAKE_Swift_MODULE_DIRECTORY.rst
 * /usr/share/cmake/Help/variable/CMAKE_Swift_NUM_THREADS.rst
@@ -1831,6 +1861,7 @@ Cross platform make
 * /usr/share/cmake/Help/variable/CMAKE_SYSTEM_PROGRAM_PATH.rst
 * /usr/share/cmake/Help/variable/CMAKE_SYSTEM_VERSION.rst
 * /usr/share/cmake/Help/variable/CMAKE_TASKING_TOOLSET.rst
+* /usr/share/cmake/Help/variable/CMAKE_TEST_LAUNCHER.rst
 * /usr/share/cmake/Help/variable/CMAKE_TLS_CAINFO.rst
 * /usr/share/cmake/Help/variable/CMAKE_TLS_VERIFY.rst
 * /usr/share/cmake/Help/variable/CMAKE_TOOLCHAIN_FILE.rst
@@ -1868,6 +1899,7 @@ Cross platform make
 * /usr/share/cmake/Help/variable/CMAKE_VS_PLATFORM_TOOLSET.rst
 * /usr/share/cmake/Help/variable/CMAKE_VS_PLATFORM_TOOLSET_CUDA.rst
 * /usr/share/cmake/Help/variable/CMAKE_VS_PLATFORM_TOOLSET_CUDA_CUSTOM_DIR.rst
+* /usr/share/cmake/Help/variable/CMAKE_VS_PLATFORM_TOOLSET_FORTRAN.rst
 * /usr/share/cmake/Help/variable/CMAKE_VS_PLATFORM_TOOLSET_HOST_ARCHITECTURE.rst
 * /usr/share/cmake/Help/variable/CMAKE_VS_PLATFORM_TOOLSET_VERSION.rst
 * /usr/share/cmake/Help/variable/CMAKE_VS_SDK_EXCLUDE_DIRECTORIES.rst
@@ -2018,6 +2050,7 @@ Cross platform make
 * /usr/share/cmake/Help/variable/IGNORE_SEARCH_SYSTEM.txt
 * /usr/share/cmake/Help/variable/IOS.rst
 * /usr/share/cmake/Help/variable/LIBRARY_OUTPUT_PATH.rst
+* /usr/share/cmake/Help/variable/LINKER_PREDEFINED_TYPES.txt
 * /usr/share/cmake/Help/variable/LINK_GROUP_PREDEFINED_FEATURES.txt
 * /usr/share/cmake/Help/variable/LINK_LIBRARY_PREDEFINED_FEATURES.txt
 * /usr/share/cmake/Help/variable/LINUX.rst
@@ -2275,6 +2308,7 @@ Cross platform make
 * /usr/share/cmake/Modules/CMakeUnixFindMake.cmake
 * /usr/share/cmake/Modules/CMakeVerifyManifest.cmake
 * /usr/share/cmake/Modules/Compiler/Absoft-Fortran.cmake
+* /usr/share/cmake/Modules/Compiler/ADSP-ASM.cmake
 * /usr/share/cmake/Modules/Compiler/ADSP-C.cmake
 * /usr/share/cmake/Modules/Compiler/ADSP-CXX.cmake
 * /usr/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake
@@ -2318,7 +2352,6 @@ Cross platform make
 * /usr/share/cmake/Modules/Compiler/Clang-OBJCXX.cmake
 * /usr/share/cmake/Modules/Compiler/Clang.cmake
 * /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake
-* /usr/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake
 * /usr/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake
 * /usr/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake
 * /usr/share/cmake/Modules/Compiler/Cray-C.cmake
@@ -2476,6 +2509,13 @@ Cross platform make
 * /usr/share/cmake/Modules/Compiler/TI-CXX.cmake
 * /usr/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake
 * /usr/share/cmake/Modules/Compiler/TI.cmake
+* /usr/share/cmake/Modules/Compiler/TIClang-ASM.cmake
+* /usr/share/cmake/Modules/Compiler/TIClang-C-FeatureTests.cmake
+* /usr/share/cmake/Modules/Compiler/TIClang-C.cmake
+* /usr/share/cmake/Modules/Compiler/TIClang-CXX-FeatureTests.cmake
+* /usr/share/cmake/Modules/Compiler/TIClang-CXX.cmake
+* /usr/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake
+* /usr/share/cmake/Modules/Compiler/TIClang.cmake
 * /usr/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake
 * /usr/share/cmake/Modules/Compiler/TinyCC-C.cmake
 * /usr/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake
@@ -2751,6 +2791,8 @@ Cross platform make
 * /usr/share/cmake/Modules/IntelVSImplicitPath/CMakeLists.txt
 * /usr/share/cmake/Modules/IntelVSImplicitPath/detect.cmake
 * /usr/share/cmake/Modules/IntelVSImplicitPath/hello.f
+* /usr/share/cmake/Modules/Internal/AppleArchitectureSelection.cmake.in
+* /usr/share/cmake/Modules/Internal/ApplePlatformSelection.cmake.in
 * /usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake
 * /usr/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake
 * /usr/share/cmake/Modules/Internal/CheckLinkerFlag.cmake
@@ -2761,6 +2803,7 @@ Cross platform make
 * /usr/share/cmake/Modules/Internal/CMakeCUDAArchitecturesValidate.cmake
 * /usr/share/cmake/Modules/Internal/CMakeCUDAFilterImplicitLibs.cmake
 * /usr/share/cmake/Modules/Internal/CMakeCUDAFindToolkit.cmake
+* /usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake
 * /usr/share/cmake/Modules/Internal/CMakeNVCCFilterImplicitInfo.cmake
 * /usr/share/cmake/Modules/Internal/CMakeNVCCParseImplicitInfo.cmake
 * /usr/share/cmake/Modules/Internal/CMakeTryCompilerOrLinkerFlag.cmake
@@ -3023,8 +3066,10 @@ Cross platform make
 * /usr/share/cmake/Modules/Platform/kFreeBSD-Initialize.cmake
 * /usr/share/cmake/Modules/Platform/kFreeBSD.cmake
 * /usr/share/cmake/Modules/Platform/Linux-Absoft-Fortran.cmake
+* /usr/share/cmake/Modules/Platform/Linux-Apple-Swift.cmake
 * /usr/share/cmake/Modules/Platform/Linux-CCur-Fortran.cmake
 * /usr/share/cmake/Modules/Platform/Linux-Clang-C.cmake
+* /usr/share/cmake/Modules/Platform/Linux-Clang-CUDA.cmake
 * /usr/share/cmake/Modules/Platform/Linux-Clang-CXX.cmake
 * /usr/share/cmake/Modules/Platform/Linux-como.cmake
 * /usr/share/cmake/Modules/Platform/Linux-Determine-CXX.cmake
@@ -3048,11 +3093,13 @@ Cross platform make
 * /usr/share/cmake/Modules/Platform/Linux-LCC-CXX.cmake
 * /usr/share/cmake/Modules/Platform/Linux-LCC-Fortran.cmake
 * /usr/share/cmake/Modules/Platform/Linux-LCC.cmake
+* /usr/share/cmake/Modules/Platform/Linux-LLVMFlang-Fortran.cmake
 * /usr/share/cmake/Modules/Platform/Linux-NAG-Fortran.cmake
 * /usr/share/cmake/Modules/Platform/Linux-NVHPC-C.cmake
 * /usr/share/cmake/Modules/Platform/Linux-NVHPC-CXX.cmake
 * /usr/share/cmake/Modules/Platform/Linux-NVHPC-Fortran.cmake
 * /usr/share/cmake/Modules/Platform/Linux-NVHPC.cmake
+* /usr/share/cmake/Modules/Platform/Linux-NVIDIA-CUDA.cmake
 * /usr/share/cmake/Modules/Platform/Linux-OpenWatcom-C.cmake
 * /usr/share/cmake/Modules/Platform/Linux-OpenWatcom-CXX.cmake
 * /usr/share/cmake/Modules/Platform/Linux-OpenWatcom.cmake
@@ -3154,8 +3201,11 @@ Cross platform make
 * /usr/share/cmake/Modules/Platform/Windows-Borland-CXX.cmake
 * /usr/share/cmake/Modules/Platform/Windows-Clang-ASM.cmake
 * /usr/share/cmake/Modules/Platform/Windows-Clang-C.cmake
+* /usr/share/cmake/Modules/Platform/Windows-Clang-CUDA.cmake
 * /usr/share/cmake/Modules/Platform/Windows-Clang-CXX.cmake
 * /usr/share/cmake/Modules/Platform/Windows-Clang-HIP.cmake
+* /usr/share/cmake/Modules/Platform/Windows-Clang-OBJC.cmake
+* /usr/share/cmake/Modules/Platform/Windows-Clang-OBJCXX.cmake
 * /usr/share/cmake/Modules/Platform/Windows-Clang.cmake
 * /usr/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake
 * /usr/share/cmake/Modules/Platform/Windows-df.cmake
@@ -3171,6 +3221,10 @@ Cross platform make
 * /usr/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake
 * /usr/share/cmake/Modules/Platform/Windows-GNU-Fortran-ABI.cmake
 * /usr/share/cmake/Modules/Platform/Windows-GNU-Fortran.cmake
+* /usr/share/cmake/Modules/Platform/Windows-GNU-OBJC-ABI.cmake
+* /usr/share/cmake/Modules/Platform/Windows-GNU-OBJC.cmake
+* /usr/share/cmake/Modules/Platform/Windows-GNU-OBJCXX-ABI.cmake
+* /usr/share/cmake/Modules/Platform/Windows-GNU-OBJCXX.cmake
 * /usr/share/cmake/Modules/Platform/Windows-GNU.cmake
 * /usr/share/cmake/Modules/Platform/Windows-Initialize.cmake
 * /usr/share/cmake/Modules/Platform/Windows-Intel-ASM.cmake
@@ -3332,7 +3386,7 @@ Cross platform make
 * /usr/share/cmake/Templates/Windows/SplashScreen.png
 * /usr/share/cmake/Templates/Windows/StoreLogo.png
 * /usr/share/cmake/Templates/Windows/Windows_TemporaryKey.pfx
-* /usr/share/doc/cmake-3.28.3/README.rst
+* /usr/share/doc/cmake-3.29.2/README.rst
 * /usr/share/doc/cmake/cmsys/Copyright.txt
 * /usr/share/doc/cmake/Copyright.txt
 * /usr/share/doc/cmake/html/command/add_compile_definitions.html
@@ -3500,6 +3554,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/envvar/CMAKE_GENERATOR_TOOLSET.html
 * /usr/share/doc/cmake/html/envvar/CMAKE_INCLUDE_PATH.html
 * /usr/share/doc/cmake/html/envvar/CMAKE_INSTALL_MODE.html
+* /usr/share/doc/cmake/html/envvar/CMAKE_INSTALL_PREFIX.html
 * /usr/share/doc/cmake/html/envvar/CMAKE_LANG_COMPILER_LAUNCHER.html
 * /usr/share/doc/cmake/html/envvar/CMAKE_LANG_IMPLICIT_LINK_DIRECTORIES_EXCLUDE.html
 * /usr/share/doc/cmake/html/envvar/CMAKE_LANG_LINKER_LAUNCHER.html
@@ -3510,6 +3565,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/envvar/CMAKE_OSX_ARCHITECTURES.html
 * /usr/share/doc/cmake/html/envvar/CMAKE_PREFIX_PATH.html
 * /usr/share/doc/cmake/html/envvar/CMAKE_PROGRAM_PATH.html
+* /usr/share/doc/cmake/html/envvar/CMAKE_TEST_LAUNCHER.html
 * /usr/share/doc/cmake/html/envvar/CMAKE_TOOLCHAIN_FILE.html
 * /usr/share/doc/cmake/html/envvar/CSFLAGS.html
 * /usr/share/doc/cmake/html/envvar/CTEST_INTERACTIVE_DEBUG_MODE.html
@@ -4043,6 +4099,12 @@ Cross platform make
 * /usr/share/doc/cmake/html/policy/CMP0153.html
 * /usr/share/doc/cmake/html/policy/CMP0154.html
 * /usr/share/doc/cmake/html/policy/CMP0155.html
+* /usr/share/doc/cmake/html/policy/CMP0156.html
+* /usr/share/doc/cmake/html/policy/CMP0157.html
+* /usr/share/doc/cmake/html/policy/CMP0158.html
+* /usr/share/doc/cmake/html/policy/CMP0159.html
+* /usr/share/doc/cmake/html/policy/CMP0160.html
+* /usr/share/doc/cmake/html/policy/CMP0161.html
 * /usr/share/doc/cmake/html/prop_cache/ADVANCED.html
 * /usr/share/doc/cmake/html/prop_cache/HELPSTRING.html
 * /usr/share/doc/cmake/html/prop_cache/MODIFIED.html
@@ -4239,7 +4301,9 @@ Cross platform make
 * /usr/share/doc/cmake/html/prop_tgt/ARCHIVE_OUTPUT_DIRECTORY_CONFIG.html
 * /usr/share/doc/cmake/html/prop_tgt/ARCHIVE_OUTPUT_NAME.html
 * /usr/share/doc/cmake/html/prop_tgt/ARCHIVE_OUTPUT_NAME_CONFIG.html
+* /usr/share/doc/cmake/html/prop_tgt/AUTOGEN_BETTER_GRAPH_MULTI_CONFIG.html
 * /usr/share/doc/cmake/html/prop_tgt/AUTOGEN_BUILD_DIR.html
+* /usr/share/doc/cmake/html/prop_tgt/AUTOGEN_COMMAND_LINE_LENGTH_MAX.html
 * /usr/share/doc/cmake/html/prop_tgt/AUTOGEN_ORIGIN_DEPENDS.html
 * /usr/share/doc/cmake/html/prop_tgt/AUTOGEN_PARALLEL.html
 * /usr/share/doc/cmake/html/prop_tgt/AUTOGEN_TARGET_DEPENDS.html
@@ -4322,6 +4386,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/prop_tgt/EXCLUDE_FROM_DEFAULT_BUILD.html
 * /usr/share/doc/cmake/html/prop_tgt/EXCLUDE_FROM_DEFAULT_BUILD_CONFIG.html
 * /usr/share/doc/cmake/html/prop_tgt/EXPORT_COMPILE_COMMANDS.html
+* /usr/share/doc/cmake/html/prop_tgt/EXPORT_FIND_PACKAGE_NAME.html
 * /usr/share/doc/cmake/html/prop_tgt/EXPORT_NAME.html
 * /usr/share/doc/cmake/html/prop_tgt/EXPORT_NO_SYSTEM.html
 * /usr/share/doc/cmake/html/prop_tgt/EXPORT_PROPERTIES.html
@@ -4430,6 +4495,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/prop_tgt/LIBRARY_OUTPUT_NAME.html
 * /usr/share/doc/cmake/html/prop_tgt/LIBRARY_OUTPUT_NAME_CONFIG.html
 * /usr/share/doc/cmake/html/prop_tgt/LINKER_LANGUAGE.html
+* /usr/share/doc/cmake/html/prop_tgt/LINKER_TYPE.html
 * /usr/share/doc/cmake/html/prop_tgt/LINK_DEPENDS.html
 * /usr/share/doc/cmake/html/prop_tgt/LINK_DEPENDS_NO_SHARED.html
 * /usr/share/doc/cmake/html/prop_tgt/LINK_DIRECTORIES.html
@@ -4504,11 +4570,13 @@ Cross platform make
 * /usr/share/doc/cmake/html/prop_tgt/STATIC_LIBRARY_FLAGS_CONFIG.html
 * /usr/share/doc/cmake/html/prop_tgt/STATIC_LIBRARY_OPTIONS.html
 * /usr/share/doc/cmake/html/prop_tgt/SUFFIX.html
+* /usr/share/doc/cmake/html/prop_tgt/Swift_COMPILATION_MODE.html
 * /usr/share/doc/cmake/html/prop_tgt/Swift_DEPENDENCIES_FILE.html
 * /usr/share/doc/cmake/html/prop_tgt/Swift_LANGUAGE_VERSION.html
 * /usr/share/doc/cmake/html/prop_tgt/Swift_MODULE_DIRECTORY.html
 * /usr/share/doc/cmake/html/prop_tgt/Swift_MODULE_NAME.html
 * /usr/share/doc/cmake/html/prop_tgt/SYSTEM.html
+* /usr/share/doc/cmake/html/prop_tgt/TEST_LAUNCHER.html
 * /usr/share/doc/cmake/html/prop_tgt/TYPE.html
 * /usr/share/doc/cmake/html/prop_tgt/UNITY_BUILD.html
 * /usr/share/doc/cmake/html/prop_tgt/UNITY_BUILD_BATCH_SIZE.html
@@ -4623,6 +4691,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/release/3.26.html
 * /usr/share/doc/cmake/html/release/3.27.html
 * /usr/share/doc/cmake/html/release/3.28.html
+* /usr/share/doc/cmake/html/release/3.29.html
 * /usr/share/doc/cmake/html/release/3.3.html
 * /usr/share/doc/cmake/html/release/3.4.html
 * /usr/share/doc/cmake/html/release/3.5.html
@@ -4678,6 +4747,8 @@ Cross platform make
 * /usr/share/doc/cmake/html/variable/CMAKE_ARCHIVE_OUTPUT_DIRECTORY_CONFIG.html
 * /usr/share/doc/cmake/html/variable/CMAKE_ARGC.html
 * /usr/share/doc/cmake/html/variable/CMAKE_ARGV0.html
+* /usr/share/doc/cmake/html/variable/CMAKE_AUTOGEN_BETTER_GRAPH_MULTI_CONFIG.html
+* /usr/share/doc/cmake/html/variable/CMAKE_AUTOGEN_COMMAND_LINE_LENGTH_MAX.html
 * /usr/share/doc/cmake/html/variable/CMAKE_AUTOGEN_ORIGIN_DEPENDS.html
 * /usr/share/doc/cmake/html/variable/CMAKE_AUTOGEN_PARALLEL.html
 * /usr/share/doc/cmake/html/variable/CMAKE_AUTOGEN_USE_SYSTEM_INCLUDE.html
@@ -4793,6 +4864,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/variable/CMAKE_EXE_LINKER_FLAGS_CONFIG_INIT.html
 * /usr/share/doc/cmake/html/variable/CMAKE_EXE_LINKER_FLAGS_INIT.html
 * /usr/share/doc/cmake/html/variable/CMAKE_EXPORT_COMPILE_COMMANDS.html
+* /usr/share/doc/cmake/html/variable/CMAKE_EXPORT_FIND_PACKAGE_NAME.html
 * /usr/share/doc/cmake/html/variable/CMAKE_EXPORT_NO_PACKAGE_REGISTRY.html
 * /usr/share/doc/cmake/html/variable/CMAKE_EXPORT_PACKAGE_REGISTRY.html
 * /usr/share/doc/cmake/html/variable/CMAKE_EXTRA_GENERATOR.html
@@ -4911,6 +4983,10 @@ Cross platform make
 * /usr/share/doc/cmake/html/variable/CMAKE_LANG_COMPILER_FRONTEND_VARIANT.html
 * /usr/share/doc/cmake/html/variable/CMAKE_LANG_COMPILER_ID.html
 * /usr/share/doc/cmake/html/variable/CMAKE_LANG_COMPILER_LAUNCHER.html
+* /usr/share/doc/cmake/html/variable/CMAKE_LANG_COMPILER_LINKER.html
+* /usr/share/doc/cmake/html/variable/CMAKE_LANG_COMPILER_LINKER_FRONTEND_VARIANT.html
+* /usr/share/doc/cmake/html/variable/CMAKE_LANG_COMPILER_LINKER_ID.html
+* /usr/share/doc/cmake/html/variable/CMAKE_LANG_COMPILER_LINKER_VERSION.html
 * /usr/share/doc/cmake/html/variable/CMAKE_LANG_COMPILER_LOADED.html
 * /usr/share/doc/cmake/html/variable/CMAKE_LANG_COMPILER_PREDEFINES_COMMAND.html
 * /usr/share/doc/cmake/html/variable/CMAKE_LANG_COMPILER_RANLIB.html
@@ -4970,6 +5046,8 @@ Cross platform make
 * /usr/share/doc/cmake/html/variable/CMAKE_LANG_STANDARD_INCLUDE_DIRECTORIES.html
 * /usr/share/doc/cmake/html/variable/CMAKE_LANG_STANDARD_LIBRARIES.html
 * /usr/share/doc/cmake/html/variable/CMAKE_LANG_STANDARD_REQUIRED.html
+* /usr/share/doc/cmake/html/variable/CMAKE_LANG_USING_LINKER_MODE.html
+* /usr/share/doc/cmake/html/variable/CMAKE_LANG_USING_LINKER_TYPE.html
 * /usr/share/doc/cmake/html/variable/CMAKE_LANG_VISIBILITY_PRESET.html
 * /usr/share/doc/cmake/html/variable/CMAKE_LIBRARY_ARCHITECTURE.html
 * /usr/share/doc/cmake/html/variable/CMAKE_LIBRARY_ARCHITECTURE_REGEX.html
@@ -4977,6 +5055,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/variable/CMAKE_LIBRARY_OUTPUT_DIRECTORY_CONFIG.html
 * /usr/share/doc/cmake/html/variable/CMAKE_LIBRARY_PATH.html
 * /usr/share/doc/cmake/html/variable/CMAKE_LIBRARY_PATH_FLAG.html
+* /usr/share/doc/cmake/html/variable/CMAKE_LINKER_TYPE.html
 * /usr/share/doc/cmake/html/variable/CMAKE_LINK_DEF_FILE_FLAG.html
 * /usr/share/doc/cmake/html/variable/CMAKE_LINK_DEPENDS_NO_SHARED.html
 * /usr/share/doc/cmake/html/variable/CMAKE_LINK_DEPENDS_USE_LINKER.html
@@ -5081,6 +5160,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/variable/CMAKE_SKIP_INSTALL_RPATH.html
 * /usr/share/doc/cmake/html/variable/CMAKE_SKIP_INSTALL_RULES.html
 * /usr/share/doc/cmake/html/variable/CMAKE_SKIP_RPATH.html
+* /usr/share/doc/cmake/html/variable/CMAKE_SKIP_TEST_ALL_DEPENDENCY.html
 * /usr/share/doc/cmake/html/variable/CMAKE_SOURCE_DIR.html
 * /usr/share/doc/cmake/html/variable/CMAKE_STAGING_PREFIX.html
 * /usr/share/doc/cmake/html/variable/CMAKE_STATIC_LIBRARY_PREFIX.html
@@ -5092,6 +5172,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/variable/CMAKE_SUBLIME_TEXT_2_ENV_SETTINGS.html
 * /usr/share/doc/cmake/html/variable/CMAKE_SUBLIME_TEXT_2_EXCLUDE_BUILD_TREE.html
 * /usr/share/doc/cmake/html/variable/CMAKE_SUPPRESS_REGENERATION.html
+* /usr/share/doc/cmake/html/variable/CMAKE_Swift_COMPILATION_MODE.html
 * /usr/share/doc/cmake/html/variable/CMAKE_Swift_LANGUAGE_VERSION.html
 * /usr/share/doc/cmake/html/variable/CMAKE_Swift_MODULE_DIRECTORY.html
 * /usr/share/doc/cmake/html/variable/CMAKE_Swift_NUM_THREADS.html
@@ -5111,6 +5192,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/variable/CMAKE_SYSTEM_PROGRAM_PATH.html
 * /usr/share/doc/cmake/html/variable/CMAKE_SYSTEM_VERSION.html
 * /usr/share/doc/cmake/html/variable/CMAKE_TASKING_TOOLSET.html
+* /usr/share/doc/cmake/html/variable/CMAKE_TEST_LAUNCHER.html
 * /usr/share/doc/cmake/html/variable/CMAKE_TLS_CAINFO.html
 * /usr/share/doc/cmake/html/variable/CMAKE_TLS_VERIFY.html
 * /usr/share/doc/cmake/html/variable/CMAKE_TOOLCHAIN_FILE.html
@@ -5148,6 +5230,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/variable/CMAKE_VS_PLATFORM_TOOLSET.html
 * /usr/share/doc/cmake/html/variable/CMAKE_VS_PLATFORM_TOOLSET_CUDA.html
 * /usr/share/doc/cmake/html/variable/CMAKE_VS_PLATFORM_TOOLSET_CUDA_CUSTOM_DIR.html
+* /usr/share/doc/cmake/html/variable/CMAKE_VS_PLATFORM_TOOLSET_FORTRAN.html
 * /usr/share/doc/cmake/html/variable/CMAKE_VS_PLATFORM_TOOLSET_HOST_ARCHITECTURE.html
 * /usr/share/doc/cmake/html/variable/CMAKE_VS_PLATFORM_TOOLSET_VERSION.html
 * /usr/share/doc/cmake/html/variable/CMAKE_VS_SDK_EXCLUDE_DIRECTORIES.html
@@ -5507,6 +5590,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/_sources/envvar/CMAKE_GENERATOR_TOOLSET.rst.txt
 * /usr/share/doc/cmake/html/_sources/envvar/CMAKE_INCLUDE_PATH.rst.txt
 * /usr/share/doc/cmake/html/_sources/envvar/CMAKE_INSTALL_MODE.rst.txt
+* /usr/share/doc/cmake/html/_sources/envvar/CMAKE_INSTALL_PREFIX.rst.txt
 * /usr/share/doc/cmake/html/_sources/envvar/CMAKE_LANG_COMPILER_LAUNCHER.rst.txt
 * /usr/share/doc/cmake/html/_sources/envvar/CMAKE_LANG_IMPLICIT_LINK_DIRECTORIES_EXCLUDE.rst.txt
 * /usr/share/doc/cmake/html/_sources/envvar/CMAKE_LANG_LINKER_LAUNCHER.rst.txt
@@ -5517,6 +5601,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/_sources/envvar/CMAKE_OSX_ARCHITECTURES.rst.txt
 * /usr/share/doc/cmake/html/_sources/envvar/CMAKE_PREFIX_PATH.rst.txt
 * /usr/share/doc/cmake/html/_sources/envvar/CMAKE_PROGRAM_PATH.rst.txt
+* /usr/share/doc/cmake/html/_sources/envvar/CMAKE_TEST_LAUNCHER.rst.txt
 * /usr/share/doc/cmake/html/_sources/envvar/CMAKE_TOOLCHAIN_FILE.rst.txt
 * /usr/share/doc/cmake/html/_sources/envvar/CSFLAGS.rst.txt
 * /usr/share/doc/cmake/html/_sources/envvar/CTEST_INTERACTIVE_DEBUG_MODE.rst.txt
@@ -6048,6 +6133,12 @@ Cross platform make
 * /usr/share/doc/cmake/html/_sources/policy/CMP0153.rst.txt
 * /usr/share/doc/cmake/html/_sources/policy/CMP0154.rst.txt
 * /usr/share/doc/cmake/html/_sources/policy/CMP0155.rst.txt
+* /usr/share/doc/cmake/html/_sources/policy/CMP0156.rst.txt
+* /usr/share/doc/cmake/html/_sources/policy/CMP0157.rst.txt
+* /usr/share/doc/cmake/html/_sources/policy/CMP0158.rst.txt
+* /usr/share/doc/cmake/html/_sources/policy/CMP0159.rst.txt
+* /usr/share/doc/cmake/html/_sources/policy/CMP0160.rst.txt
+* /usr/share/doc/cmake/html/_sources/policy/CMP0161.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_cache/ADVANCED.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_cache/HELPSTRING.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_cache/MODIFIED.rst.txt
@@ -6244,7 +6335,9 @@ Cross platform make
 * /usr/share/doc/cmake/html/_sources/prop_tgt/ARCHIVE_OUTPUT_DIRECTORY_CONFIG.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/ARCHIVE_OUTPUT_NAME.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/ARCHIVE_OUTPUT_NAME_CONFIG.rst.txt
+* /usr/share/doc/cmake/html/_sources/prop_tgt/AUTOGEN_BETTER_GRAPH_MULTI_CONFIG.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/AUTOGEN_BUILD_DIR.rst.txt
+* /usr/share/doc/cmake/html/_sources/prop_tgt/AUTOGEN_COMMAND_LINE_LENGTH_MAX.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/AUTOGEN_ORIGIN_DEPENDS.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/AUTOGEN_PARALLEL.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/AUTOGEN_TARGET_DEPENDS.rst.txt
@@ -6327,6 +6420,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/_sources/prop_tgt/EXCLUDE_FROM_DEFAULT_BUILD.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/EXCLUDE_FROM_DEFAULT_BUILD_CONFIG.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/EXPORT_COMPILE_COMMANDS.rst.txt
+* /usr/share/doc/cmake/html/_sources/prop_tgt/EXPORT_FIND_PACKAGE_NAME.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/EXPORT_NAME.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/EXPORT_NO_SYSTEM.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/EXPORT_PROPERTIES.rst.txt
@@ -6435,6 +6529,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/_sources/prop_tgt/LIBRARY_OUTPUT_NAME.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/LIBRARY_OUTPUT_NAME_CONFIG.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/LINKER_LANGUAGE.rst.txt
+* /usr/share/doc/cmake/html/_sources/prop_tgt/LINKER_TYPE.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/LINK_DEPENDS.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/LINK_DEPENDS_NO_SHARED.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/LINK_DIRECTORIES.rst.txt
@@ -6509,11 +6604,13 @@ Cross platform make
 * /usr/share/doc/cmake/html/_sources/prop_tgt/STATIC_LIBRARY_FLAGS_CONFIG.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/STATIC_LIBRARY_OPTIONS.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/SUFFIX.rst.txt
+* /usr/share/doc/cmake/html/_sources/prop_tgt/Swift_COMPILATION_MODE.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/Swift_DEPENDENCIES_FILE.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/Swift_LANGUAGE_VERSION.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/Swift_MODULE_DIRECTORY.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/Swift_MODULE_NAME.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/SYSTEM.rst.txt
+* /usr/share/doc/cmake/html/_sources/prop_tgt/TEST_LAUNCHER.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/TYPE.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/UNITY_BUILD.rst.txt
 * /usr/share/doc/cmake/html/_sources/prop_tgt/UNITY_BUILD_BATCH_SIZE.rst.txt
@@ -6628,6 +6725,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/_sources/release/3.26.rst.txt
 * /usr/share/doc/cmake/html/_sources/release/3.27.rst.txt
 * /usr/share/doc/cmake/html/_sources/release/3.28.rst.txt
+* /usr/share/doc/cmake/html/_sources/release/3.29.rst.txt
 * /usr/share/doc/cmake/html/_sources/release/3.3.rst.txt
 * /usr/share/doc/cmake/html/_sources/release/3.4.rst.txt
 * /usr/share/doc/cmake/html/_sources/release/3.5.rst.txt
@@ -6681,6 +6779,8 @@ Cross platform make
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_ARCHIVE_OUTPUT_DIRECTORY_CONFIG.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_ARGC.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_ARGV0.rst.txt
+* /usr/share/doc/cmake/html/_sources/variable/CMAKE_AUTOGEN_BETTER_GRAPH_MULTI_CONFIG.rst.txt
+* /usr/share/doc/cmake/html/_sources/variable/CMAKE_AUTOGEN_COMMAND_LINE_LENGTH_MAX.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_AUTOGEN_ORIGIN_DEPENDS.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_AUTOGEN_PARALLEL.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_AUTOGEN_USE_SYSTEM_INCLUDE.rst.txt
@@ -6796,6 +6896,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_EXE_LINKER_FLAGS_CONFIG_INIT.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_EXE_LINKER_FLAGS_INIT.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_EXPORT_COMPILE_COMMANDS.rst.txt
+* /usr/share/doc/cmake/html/_sources/variable/CMAKE_EXPORT_FIND_PACKAGE_NAME.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_EXPORT_NO_PACKAGE_REGISTRY.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_EXPORT_PACKAGE_REGISTRY.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_EXTRA_GENERATOR.rst.txt
@@ -6914,6 +7015,10 @@ Cross platform make
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_LANG_COMPILER_FRONTEND_VARIANT.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_LANG_COMPILER_ID.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_LANG_COMPILER_LAUNCHER.rst.txt
+* /usr/share/doc/cmake/html/_sources/variable/CMAKE_LANG_COMPILER_LINKER.rst.txt
+* /usr/share/doc/cmake/html/_sources/variable/CMAKE_LANG_COMPILER_LINKER_FRONTEND_VARIANT.rst.txt
+* /usr/share/doc/cmake/html/_sources/variable/CMAKE_LANG_COMPILER_LINKER_ID.rst.txt
+* /usr/share/doc/cmake/html/_sources/variable/CMAKE_LANG_COMPILER_LINKER_VERSION.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_LANG_COMPILER_LOADED.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_LANG_COMPILER_PREDEFINES_COMMAND.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_LANG_COMPILER_RANLIB.rst.txt
@@ -6973,6 +7078,8 @@ Cross platform make
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_LANG_STANDARD_INCLUDE_DIRECTORIES.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_LANG_STANDARD_LIBRARIES.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_LANG_STANDARD_REQUIRED.rst.txt
+* /usr/share/doc/cmake/html/_sources/variable/CMAKE_LANG_USING_LINKER_MODE.rst.txt
+* /usr/share/doc/cmake/html/_sources/variable/CMAKE_LANG_USING_LINKER_TYPE.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_LANG_VISIBILITY_PRESET.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_LIBRARY_ARCHITECTURE.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_LIBRARY_ARCHITECTURE_REGEX.rst.txt
@@ -6980,6 +7087,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_LIBRARY_OUTPUT_DIRECTORY_CONFIG.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_LIBRARY_PATH.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_LIBRARY_PATH_FLAG.rst.txt
+* /usr/share/doc/cmake/html/_sources/variable/CMAKE_LINKER_TYPE.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_LINK_DEF_FILE_FLAG.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_LINK_DEPENDS_NO_SHARED.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_LINK_DEPENDS_USE_LINKER.rst.txt
@@ -7084,6 +7192,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_SKIP_INSTALL_RPATH.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_SKIP_INSTALL_RULES.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_SKIP_RPATH.rst.txt
+* /usr/share/doc/cmake/html/_sources/variable/CMAKE_SKIP_TEST_ALL_DEPENDENCY.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_SOURCE_DIR.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_STAGING_PREFIX.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_STATIC_LIBRARY_PREFIX.rst.txt
@@ -7095,6 +7204,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_SUBLIME_TEXT_2_ENV_SETTINGS.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_SUBLIME_TEXT_2_EXCLUDE_BUILD_TREE.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_SUPPRESS_REGENERATION.rst.txt
+* /usr/share/doc/cmake/html/_sources/variable/CMAKE_Swift_COMPILATION_MODE.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_Swift_LANGUAGE_VERSION.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_Swift_MODULE_DIRECTORY.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_Swift_NUM_THREADS.rst.txt
@@ -7114,6 +7224,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_SYSTEM_PROGRAM_PATH.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_SYSTEM_VERSION.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_TASKING_TOOLSET.rst.txt
+* /usr/share/doc/cmake/html/_sources/variable/CMAKE_TEST_LAUNCHER.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_TLS_CAINFO.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_TLS_VERIFY.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_TOOLCHAIN_FILE.rst.txt
@@ -7151,6 +7262,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_VS_PLATFORM_TOOLSET.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_VS_PLATFORM_TOOLSET_CUDA.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_VS_PLATFORM_TOOLSET_CUDA_CUSTOM_DIR.rst.txt
+* /usr/share/doc/cmake/html/_sources/variable/CMAKE_VS_PLATFORM_TOOLSET_FORTRAN.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_VS_PLATFORM_TOOLSET_HOST_ARCHITECTURE.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_VS_PLATFORM_TOOLSET_VERSION.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_VS_SDK_EXCLUDE_DIRECTORIES.rst.txt
@@ -7356,7 +7468,6 @@ Cross platform make
 * /usr/share/doc/cmake/html/_static/sidebar.js
 * /usr/share/doc/cmake/html/_static/sphinx_highlight.js
 * /usr/share/emacs/site-lisp/cmake-mode.el
-* /usr/share/man/man1/ccmake.1.gz
 * /usr/share/man/man1/cmake.1.gz
 * /usr/share/man/man1/cpack.1.gz
 * /usr/share/man/man1/ctest.1.gz

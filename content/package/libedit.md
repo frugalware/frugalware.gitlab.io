@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libedit 20230828_3.1-1"
-version = "20230828_3.1-1"
+title = "libedit 20230828_3.1-2"
+version = "20230828_3.1-2"
 description = "Editline Library"
-date = "2023-08-30T10:46:27"
+date = "2024-04-28T11:28:23"
 aliases = "/packages/49798"
 categories = ['lib']
 upstreamurl = "http://www.thrysoee.dk/editline/"
 arch = "x86_64"
-size = "107244"
-usize = "290032"
-sha1sum = "d2de41c3a338b68a62253e3fc9a4efb57bb2715c"
-depends = "['ncurses>=6.0-18']"
+size = "107236"
+usize = "290030"
+sha1sum = "b163855a1d29fabcd76e50caea8cd0f21ca8a007"
+depends = "['ncurses>=6.5']"
 reverse_depends = "['firebird', 'ghc', 'llvm-libs', 'llvm15-libs', 'nftables', 'ntp', 'openssh']"
 +++
 ### Description: 

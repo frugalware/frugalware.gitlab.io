@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gpm 1.20.7-16"
-version = "1.20.7-16"
+title = "gpm 1.20.7-17"
+version = "1.20.7-17"
 description = "General purpose mouse server"
-date = "2024-01-04T12:37:44"
+date = "2024-04-28T12:01:20"
 aliases = "/packages/2387"
 categories = ['base']
 upstreamurl = "https://www.nico.schottelius.org/software/gpm/"
 arch = "x86_64"
-size = "150612"
+size = "150360"
 usize = "457780"
-sha1sum = "58fc2b452f9acfe704561eb52d4033803a527b9a"
-depends = "['ncurses>=6.1-2']"
+sha1sum = "04b08518c10470658aa8211c8337ca4b6feadaf9"
+depends = "['ncurses>=6.5']"
 reverse_depends = "['aalib', 'fpc', 'gvim', 'joe']"
 +++
 ### Description: 

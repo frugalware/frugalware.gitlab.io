@@ -12,6 +12,7 @@ size = "299608"
 usize = "1656810"
 sha1sum = "8ddec296264daf87e8b480d606d5802855b9ae19"
 depends = "['libstdc++']"
+reverse_depends = "['cmake']"
 +++
 ### Description: 
 C++ library for the Debug Adapter Protocol

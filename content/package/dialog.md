@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "dialog 1.3_20240101-1"
-version = "1.3_20240101-1"
+title = "dialog 1.3_20240307-1"
+version = "1.3_20240307-1"
 description = "A tool to display dialog boxes from shell scripts"
-date = "2024-01-15T18:40:32"
+date = "2024-04-28T11:18:02"
 aliases = "/packages/2364"
 categories = ['lib-extra']
 upstreamurl = "http://invisible-island.net/dialog/dialog.html"
 arch = "x86_64"
-size = "194692"
-usize = "538804"
-sha1sum = "2a16ddfea7b1d33de572a5d4f5c0988a0f158c98"
-depends = "['ncurses>=6.1-2']"
+size = "196424"
+usize = "543403"
+sha1sum = "e24fced9b6af6bed4e41e14ab57fffab0bc3b8eb"
+depends = "['ncurses>=6.5']"
 reverse_depends = "['alsa-info', 'fetchmailconf']"
 +++
 ### Description: 
@@ -22,10 +22,10 @@ A tool to display dialog boxes from shell scripts
 * /usr/lib/libdialog.so
 * /usr/lib/libdialog.so.1.3
 * /usr/lib/libdialog.so.15.0.0
-* /usr/share/doc/dialog-1.3_20240101/CHANGES
-* /usr/share/doc/dialog-1.3_20240101/COPYING
-* /usr/share/doc/dialog-1.3_20240101/README
-* /usr/share/doc/dialog-1.3_20240101/VERSION
+* /usr/share/doc/dialog-1.3_20240307/CHANGES
+* /usr/share/doc/dialog-1.3_20240307/COPYING
+* /usr/share/doc/dialog-1.3_20240307/README
+* /usr/share/doc/dialog-1.3_20240307/VERSION
 * /usr/share/locale/an/LC_MESSAGES/dialog.mo
 * /usr/share/locale/ar/LC_MESSAGES/dialog.mo
 * /usr/share/locale/ast/LC_MESSAGES/dialog.mo

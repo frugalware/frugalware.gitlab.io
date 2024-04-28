@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "clamav 1.3.0-1"
-version = "1.3.0-1"
+title = "clamav 1.3.1-1"
+version = "1.3.1-1"
 description = "Clam AntiVirus is a GPL anti-virus toolkit for UNIX"
-date = "2024-02-08T13:55:19"
+date = "2024-04-28T11:41:18"
 aliases = "/packages/2948"
 categories = ['apps-extra']
 upstreamurl = "https://www.clamav.net"
 arch = "x86_64"
-size = "8743908"
-usize = "41849768"
-sha1sum = "1869bb62e902f649bb10581e80166e463064dd59"
-depends = "['curl', 'libmspack', 'libsystemd', 'libtool', 'libxml2', 'openssl>=3.1.0', 'pcre2', 'shadow']"
+size = "7971164"
+usize = "41361690"
+sha1sum = "b6c272903871036594a0223575e93f0193216f5a"
+depends = "['curl', 'libmspack', 'libsystemd', 'libtool', 'libxml2', 'ncurses>=6.5', 'openssl>=3.1.0', 'pcre2', 'shadow']"
 reverse_depends = "['klamav']"
 +++
 ### Description: 
@@ -58,10 +58,18 @@ Clam AntiVirus is a GPL anti-virus toolkit for UNIX
 * /usr/lib/systemd/system/clamav-freshclam-once.service
 * /usr/lib/systemd/system/clamav-freshclam-once.timer
 * /usr/lib/systemd/system/clamav-freshclam.service
-* /usr/share/doc/clamav-1.3.0/COPYING.txt
-* /usr/share/doc/clamav-1.3.0/INSTALL.md
-* /usr/share/doc/clamav-1.3.0/README.Docker.md
-* /usr/share/doc/clamav-1.3.0/README.md
+* /usr/share/doc/clamav-1.3.1/ANNOUNCE
+* /usr/share/doc/clamav-1.3.1/AUTHORS
+* /usr/share/doc/clamav-1.3.1/ChangeLog
+* /usr/share/doc/clamav-1.3.1/COPYING
+* /usr/share/doc/clamav-1.3.1/COPYING.txt
+* /usr/share/doc/clamav-1.3.1/INSTALL
+* /usr/share/doc/clamav-1.3.1/INSTALL.md
+* /usr/share/doc/clamav-1.3.1/NEWS
+* /usr/share/doc/clamav-1.3.1/README
+* /usr/share/doc/clamav-1.3.1/README.Docker.md
+* /usr/share/doc/clamav-1.3.1/README.md
+* /usr/share/doc/clamav-1.3.1/README.OS2
 * /usr/share/doc/ClamAV/html/404.html
 * /usr/share/doc/ClamAV/html/ace.js
 * /usr/share/doc/ClamAV/html/appendix/Appendix.html

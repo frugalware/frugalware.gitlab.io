@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "screen 4.9.1-2"
-version = "4.9.1-2"
+title = "screen 4.9.1-3"
+version = "4.9.1-3"
 description = "A full-screen window manager that multiplexes a physical terminal"
-date = "2024-02-02T15:03:39"
+date = "2024-04-28T11:24:12"
 aliases = "/packages/3330"
 categories = ['apps']
 upstreamurl = "http://www.gnu.org/software/screen/screen.html"
 arch = "x86_64"
-size = "565300"
+size = "561188"
 usize = "971985"
-sha1sum = "7fe5843c9e1ecae06d7e45a9e64c3f003663c57d"
-depends = "['ncurses>=6.1-2', 'pam']"
+sha1sum = "b47946df119fe6d700e7b3cd679927138fb9924a"
+depends = "['ncurses>=6.5', 'pam']"
 +++
 ### Description: 
 A full-screen window manager that multiplexes a physical terminal

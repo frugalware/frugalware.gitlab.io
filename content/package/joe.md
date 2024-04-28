@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "joe 4.6-2"
-version = "4.6-2"
+title = "joe 4.6-3"
+version = "4.6-3"
 description = "An easy to use text editor, similar to WordStar[tm]"
-date = "2018-02-11T14:18:37"
+date = "2024-04-28T11:59:36"
 aliases = "/packages/217808"
 categories = ['apps-extra']
-upstreamurl = "http://sourceforge.net/projects/joe-editor"
+upstreamurl = "https://sourceforge.net/projects/joe-editor"
 arch = "x86_64"
-size = "524816"
-usize = "2096506"
-sha1sum = "0e3cbe93ff78fd879e8121d1e020c2491a61664e"
-depends = "['gpm>=1.20.5-2', 'ncurses>=6.0']"
+size = "534012"
+usize = "2101402"
+sha1sum = "78f8423fb27eab5096c7a151de3e801e640d7369"
+depends = "['gpm>=1.20.5-2', 'ncurses>=6.5']"
 +++
 ### Description: 
 An easy to use text editor, similar to WordStar[tm]
