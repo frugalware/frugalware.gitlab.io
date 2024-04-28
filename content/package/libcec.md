@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libcec 6.0.2-1"
-version = "6.0.2-1"
+title = "libcec 6.0.2-2"
+version = "6.0.2-2"
 description = "Pulse-Eight's libcec for the Pulse-Eight USB-CEC adapter"
-date = "2022-10-24T15:00:19"
+date = "2024-04-28T12:57:06"
 aliases = "/packages/220614"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/Pulse-Eight/libcec"
 arch = "x86_64"
-size = "207064"
-usize = "802013"
-sha1sum = "1f72339115fc84cdf8e2d4542e42d1432b6cf487"
-depends = "['libudev', 'libxrandr', 'p8-platform']"
+size = "206372"
+usize = "797388"
+sha1sum = "4c739e90d312175a56f174a375c3c1780e0069ef"
+depends = "['libudev', 'libxrandr', 'ncurses>=6.5', 'p8-platform']"
 reverse_depends = "['plasma-remotecontrollers']"
 +++
 ### Description: 

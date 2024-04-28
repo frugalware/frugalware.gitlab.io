@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "inetutils 2.5-3"
-version = "2.5-3"
+title = "inetutils 2.5-4"
+version = "2.5-4"
 description = "A collection of common network programs"
-date = "2024-02-01T14:01:41"
+date = "2024-04-28T12:45:37"
 aliases = "/packages/220321"
 categories = ['base']
 upstreamurl = "https://www.gnu.org/software/inetutils/"
 arch = "x86_64"
-size = "355416"
-usize = "1343104"
-sha1sum = "5e3ba89b491a6894d1e3f2b515a094c215b8b4fc"
-depends = "['libcap', 'libxcrypt', 'pam']"
+size = "346096"
+usize = "1278825"
+sha1sum = "b41890a265c2825d0e3209fcbea3a09c17a6d0ef"
+depends = "['libcap', 'libxcrypt', 'ncurses', 'pam']"
 +++
 ### Description: 
 A collection of common network programs
@@ -33,7 +33,6 @@ A collection of common network programs
 * /usr/bin/rcp
 * /usr/bin/rlogin
 * /usr/bin/rsh
-* /usr/bin/talk
 * /usr/bin/telnet
 * /usr/lib/inetutils/ftpd
 * /usr/lib/inetutils/rlogind
@@ -65,7 +64,6 @@ A collection of common network programs
 * /usr/share/man/man1/rcp.1.gz
 * /usr/share/man/man1/rlogin.1.gz
 * /usr/share/man/man1/rsh.1.gz
-* /usr/share/man/man1/talk.1.gz
 * /usr/share/man/man1/telnet.1.gz
 * /usr/share/man/man8/ftpd.8.gz
 * /usr/share/man/man8/rlogind.8.gz

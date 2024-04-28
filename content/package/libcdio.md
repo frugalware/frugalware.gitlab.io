@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libcdio 2.1.0-2"
-version = "2.1.0-2"
+title = "libcdio 2.1.0-3"
+version = "2.1.0-3"
 description = "Portable CD-ROM I/O library"
-date = "2022-01-03T15:04:12"
+date = "2024-04-28T12:55:05"
 aliases = "/packages/3152"
 categories = ['lib']
 upstreamurl = "http://www.gnu.org/software/libcdio/"
 arch = "x86_64"
-size = "389192"
-usize = "1659291"
-sha1sum = "93cf929f0092d073ac354bed994b7182a5ed5e85"
-depends = "['libcddb>=1.3.2-5', 'libstdc++>=11.2', 'ncurses>=6.1-2']"
+size = "365672"
+usize = "1520335"
+sha1sum = "d990493d7afd1bc8f1a20363d18e43129016889e"
+depends = "['libcddb>=1.3.2-5', 'libstdc++>=11.2', 'ncurses>=6.5']"
 reverse_depends = "['gst1-plugins-ugly-cdio', 'gvfs', 'kiso', 'libcdio-paranoia', 'vcdimager', 'xcfa']"
 license = "GPL2"
 +++
@@ -22,7 +22,6 @@ Portable CD-ROM I/O library
 * /usr/bin/cd-drive
 * /usr/bin/cd-info
 * /usr/bin/cd-read
-* /usr/bin/cdda-player
 * /usr/bin/iso-info
 * /usr/bin/iso-read
 * /usr/bin/mmc-tool
