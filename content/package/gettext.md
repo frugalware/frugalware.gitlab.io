@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gettext 0.22.5-1"
-version = "0.22.5-1"
+title = "gettext 0.22.5-2"
+version = "0.22.5-2"
 description = "GNU internationalization library"
-date = "2024-02-22T08:49:00"
+date = "2024-04-28T13:38:14"
 aliases = "/packages/2383"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/gettext"
 arch = "x86_64"
-size = "2538144"
-usize = "10738441"
-sha1sum = "6e2a28356347ac6a3f8200dbcbf01c699e167851"
+size = "2305472"
+usize = "9923305"
+sha1sum = "8932b0f20b46afc5196dda2cad0eb9ab07a1c3d5"
 depends = "['icu4c>=74.1', 'libcroco', 'libtextstyle', 'libunistring>=1.1', 'ncurses>=6.1-5']"
 reverse_depends = "['bison', 'clisp', 'kdesdk-thumbnailers', 'ki18n', 'ki18n5', 'lib32-libtextstyle', 'libtextstyle', 'poxml', 'quilt', 'wine', 'wine-devel']"
 +++

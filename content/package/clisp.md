@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "clisp 2.49-10"
-version = "2.49-10"
+title = "clisp 2.49-11"
+version = "2.49-11"
 description = "GNU CLisp is an ANSI Common Lisp Implementation"
-date = "2024-02-01T14:18:17"
+date = "2024-04-28T13:24:12"
 aliases = "/packages/73805"
 categories = ['devel-extra']
 upstreamurl = "http://clisp.cons.org/"
 arch = "x86_64"
-size = "2725688"
-usize = "22200934"
-sha1sum = "86d46a343062b6e8a5586c1d5be9d958403d1087"
-depends = "['ffcall', 'gettext', 'glibc', 'libsigsegv', 'ncurses>=6.0-3', 'readline>=8.0']"
+size = "2749396"
+usize = "22210121"
+sha1sum = "3b4cf9d8e1049172423114700e5e03c138e082cc"
+depends = "['ffcall', 'gettext', 'glibc', 'libsigsegv', 'ncurses>=6.5', 'readline>=8.0']"
 reverse_depends = "['maxima']"
 +++
 ### Description: 
@@ -28,7 +28,6 @@ GNU CLisp is an ANSI Common Lisp Implementation
 * /usr/lib/clisp-2.49/base/makevars
 * /usr/lib/clisp-2.49/base/modules.h
 * /usr/lib/clisp-2.49/base/modules.o
-* /usr/lib/clisp-2.49/base/readline.o
 * /usr/lib/clisp-2.49/base/regexi.o
 * /usr/lib/clisp-2.49/build-aux/arg-nonnull.h
 * /usr/lib/clisp-2.49/build-aux/c++defs.h
@@ -47,15 +46,18 @@ GNU CLisp is an ANSI Common Lisp Implementation
 * /usr/lib/clisp-2.49/full/makevars
 * /usr/lib/clisp-2.49/full/modules.h
 * /usr/lib/clisp-2.49/full/modules.o
-* /usr/lib/clisp-2.49/full/readline.o
 * /usr/lib/clisp-2.49/full/regexi.o
 * /usr/lib/clisp-2.49/linkkit/clisp.h
 * /usr/lib/clisp-2.49/linkkit/modprep.lisp
 * /usr/lib/clisp-2.49/linkkit/modules.c
 * /usr/share/aclocal/clisp.m4
 * /usr/share/doc/clisp-2.49/ANNOUNCE
+* /usr/share/doc/clisp-2.49/AUTHORS
+* /usr/share/doc/clisp-2.49/ChangeLog
 * /usr/share/doc/clisp-2.49/clisp-link.html
 * /usr/share/doc/clisp-2.49/clisp.html
+* /usr/share/doc/clisp-2.49/COPYING
+* /usr/share/doc/clisp-2.49/COPYING.LIB
 * /usr/share/doc/clisp-2.49/COPYRIGHT
 * /usr/share/doc/clisp-2.49/doc/clisp-link.1
 * /usr/share/doc/clisp-2.49/doc/clisp-link.html
@@ -67,13 +69,18 @@ GNU CLisp is an ANSI Common Lisp Implementation
 * /usr/share/doc/clisp-2.49/doc/impnotes.html
 * /usr/share/doc/clisp-2.49/doc/LISP-tutorial.txt
 * /usr/share/doc/clisp-2.49/GNU-GPL
+* /usr/share/doc/clisp-2.49/HACKING
 * /usr/share/doc/clisp-2.49/INSTALL
+* /usr/share/doc/clisp-2.49/INSTALL.aix
+* /usr/share/doc/clisp-2.49/INSTALL.windows
 * /usr/share/doc/clisp-2.49/MAGIC.add
 * /usr/share/doc/clisp-2.49/NEWS
 * /usr/share/doc/clisp-2.49/README
 * /usr/share/doc/clisp-2.49/README.de
 * /usr/share/doc/clisp-2.49/README.es
 * /usr/share/doc/clisp-2.49/SUMMARY
+* /usr/share/doc/clisp-2.49/THANKS
+* /usr/share/doc/clisp-2.49/TODO
 * /usr/share/emacs/site-lisp/clhs.el
 * /usr/share/emacs/site-lisp/clisp-coding.el
 * /usr/share/emacs/site-lisp/clisp-ffi.el
