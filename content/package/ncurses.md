@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ncurses 6.4-4"
-version = "6.4-4"
+title = "ncurses 6.5-1"
+version = "6.5-1"
 description = "A System V curses emulation library"
-date = "2024-01-02T16:21:56"
+date = "2024-04-28T10:30:00"
 aliases = "/packages/2418"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/ncurses/ncurses.html"
 arch = "x86_64"
-size = "1301060"
-usize = "5812359"
-sha1sum = "09eafd43b5355a4bd4355a62d4f5ae149b389cd6"
+size = "1245528"
+usize = "5355762"
+sha1sum = "8168c9bbe9c958cdca21267cbcfa59095a3e9e6f"
 depends = "['glibc>=2.37', 'gmp>=6.1.2-10']"
 reverse_depends = "['aalib', 'alsa-utils', 'android-studio', 'aspell', 'bc', 'bind', 'bitchx', 'calcurse', 'clisp', 'cmake', 'crash', 'dialog', 'emacs', 'erlang', 'firebird', 'fish', 'fluidsynth', 'freeciv', 'gawk', 'gdb', 'gettext', 'gfs2-utils', 'gftp', 'ghc', 'gnokii', 'gnupg2', 'gpg-agent', 'gphoto2', 'gpm', 'gptfdisk', 'gst1-plugins-good-caca', 'guile', 'htop', 'hunspell', 'hwloc', 'iotop', 'irssi', 'joe', 'kvm', 'lame', 'less', 'libcaca', 'libcdio', 'libedit', 'libgnt', 'libqalculate', 'libtermkey', 'llvm-libs', 'llvm15-libs', 'lua', 'lua51', 'lua53', 'lvm2', 'lynx', 'maxima', 'mcabber', 'mencoder', 'minicom', 'mosh', 'mplayer', 'nano', 'ncdu', 'ncftp', 'ncmpc', 'ncmpcpp', 'ne', 'nftables', 'ocaml', 'octave', 'partclone', 'parted', 'pcre2', 'php', 'postgresql', 'postgresql-upgrade-from-12', 'postgresql-upgrade-from-13', 'postgresql-upgrade-from-14', 'postgresql-upgrade-from-15', 'powertop', 'procps-ng', 'proftpd', 'psmisc', 'python3', 'qemu', 'readline', 'rtorrent', 'ruby', 'samba', 'screen', 'sedutil', 'speech_tools', 'sqlite3', 'tcsh', 'texinfo', 'texlive', 'tmux', 'unixodbc', 'util-linux', 'vile', 'vim', 'vkd3d', 'w3m', 'wavemon', 'weechat', 'wpa_supplicant', 'xorg', 'xrestop', 'xterm', 'zsh']"
 +++
@@ -26,7 +26,6 @@ A System V curses emulation library
 * /usr/bin/infocmpw
 * /usr/bin/infotocap
 * /usr/bin/infotocapw
-* /usr/bin/ncurses6-config
 * /usr/bin/ncursesw6-config
 * /usr/bin/reset
 * /usr/bin/resetw
@@ -65,75 +64,52 @@ A System V curses emulation library
 * /usr/include/ncursesw/menu.h
 * /usr/include/ncursesw/ncurses.h
 * /usr/include/ncursesw/ncurses_dll.h
-* /usr/include/ncursesw/nc_tparm.h
 * /usr/include/ncursesw/panel.h
 * /usr/include/ncursesw/term.h
 * /usr/include/ncursesw/termcap.h
 * /usr/include/ncursesw/term_entry.h
-* /usr/include/ncursesw/tic.h
 * /usr/include/ncursesw/unctrl.h
 * /usr/include/ncurses_dll.h
-* /usr/include/nc_tparm.h
 * /usr/include/panel.h
 * /usr/include/term.h
 * /usr/include/termcap.h
 * /usr/include/term_entry.h
-* /usr/include/tic.h
 * /usr/include/unctrl.h
-* /usr/lib/libcurses.so
-* /usr/lib/libform.so
-* /usr/lib/libform.so.6
-* /usr/lib/libform.so.6.4
 * /usr/lib/libformw.so
 * /usr/lib/libformw.so.6
-* /usr/lib/libformw.so.6.4
-* /usr/lib/libmenu.so
-* /usr/lib/libmenu.so.6
-* /usr/lib/libmenu.so.6.4
+* /usr/lib/libformw.so.6.5
 * /usr/lib/libmenuw.so
 * /usr/lib/libmenuw.so.6
-* /usr/lib/libmenuw.so.6.4
-* /usr/lib/libncurses.so
-* /usr/lib/libncurses.so.6
-* /usr/lib/libncurses.so.6.4
+* /usr/lib/libmenuw.so.6.5
 * /usr/lib/libncursesw.so
 * /usr/lib/libncursesw.so.6
-* /usr/lib/libncursesw.so.6.4
-* /usr/lib/libpanel.so
-* /usr/lib/libpanel.so.6
-* /usr/lib/libpanel.so.6.4
+* /usr/lib/libncursesw.so.6.5
 * /usr/lib/libpanelw.so
 * /usr/lib/libpanelw.so.6
-* /usr/lib/libpanelw.so.6.4
+* /usr/lib/libpanelw.so.6.5
 * /usr/lib/libtinfo.so
 * /usr/lib/libtinfo.so.6
-* /usr/lib/libtinfo.so.6.4
-* /usr/lib/pkgconfig/form.pc
+* /usr/lib/libtinfo.so.6.5
 * /usr/lib/pkgconfig/formw.pc
-* /usr/lib/pkgconfig/menu.pc
 * /usr/lib/pkgconfig/menuw.pc
-* /usr/lib/pkgconfig/ncurses++.pc
 * /usr/lib/pkgconfig/ncurses++w.pc
-* /usr/lib/pkgconfig/ncurses.pc
 * /usr/lib/pkgconfig/ncursesw.pc
-* /usr/lib/pkgconfig/panel.pc
 * /usr/lib/pkgconfig/panelw.pc
 * /usr/lib/terminfo
-* /usr/share/doc/ncurses-6.4/ANNOUNCE
-* /usr/share/doc/ncurses-6.4/AUTHORS
-* /usr/share/doc/ncurses-6.4/COPYING
-* /usr/share/doc/ncurses-6.4/INSTALL
-* /usr/share/doc/ncurses-6.4/MANIFEST
-* /usr/share/doc/ncurses-6.4/NEWS
-* /usr/share/doc/ncurses-6.4/README
-* /usr/share/doc/ncurses-6.4/README.emx
-* /usr/share/doc/ncurses-6.4/README.MinGW
-* /usr/share/doc/ncurses-6.4/VERSION
+* /usr/share/doc/ncurses-6.5/ANNOUNCE
+* /usr/share/doc/ncurses-6.5/AUTHORS
+* /usr/share/doc/ncurses-6.5/COPYING
+* /usr/share/doc/ncurses-6.5/INSTALL
+* /usr/share/doc/ncurses-6.5/MANIFEST
+* /usr/share/doc/ncurses-6.5/NEWS
+* /usr/share/doc/ncurses-6.5/README
+* /usr/share/doc/ncurses-6.5/README.emx
+* /usr/share/doc/ncurses-6.5/README.MinGW
+* /usr/share/doc/ncurses-6.5/VERSION
 * /usr/share/man/man1/captoinfo.1m.gz
 * /usr/share/man/man1/clear.1.gz
 * /usr/share/man/man1/infocmp.1m.gz
 * /usr/share/man/man1/infotocap.1m.gz
-* /usr/share/man/man1/ncurses6-config.1.gz
 * /usr/share/man/man1/ncursesw6-config.1.gz
 * /usr/share/man/man1/reset.1.gz
 * /usr/share/man/man1/tabs.1.gz
@@ -163,6 +139,7 @@ A System V curses emulation library
 * /usr/share/man/man3/attr_off.3x.gz
 * /usr/share/man/man3/attr_on.3x.gz
 * /usr/share/man/man3/attr_set.3x.gz
+* /usr/share/man/man3/attr_t.3x.gz
 * /usr/share/man/man3/baudrate.3x.gz
 * /usr/share/man/man3/baudrate_sp.3x.gz
 * /usr/share/man/man3/BC.3x.gz
@@ -172,6 +149,7 @@ A System V curses emulation library
 * /usr/share/man/man3/bkgdset.3x.gz
 * /usr/share/man/man3/bkgrnd.3x.gz
 * /usr/share/man/man3/bkgrndset.3x.gz
+* /usr/share/man/man3/bool.3x.gz
 * /usr/share/man/man3/boolcodes.3x.gz
 * /usr/share/man/man3/boolfnames.3x.gz
 * /usr/share/man/man3/boolnames.3x.gz
@@ -184,18 +162,28 @@ A System V curses emulation library
 * /usr/share/man/man3/can_change_color_sp.3x.gz
 * /usr/share/man/man3/cbreak.3x.gz
 * /usr/share/man/man3/cbreak_sp.3x.gz
+* /usr/share/man/man3/cchar_t.3x.gz
 * /usr/share/man/man3/ceiling_panel.3x.gz
 * /usr/share/man/man3/chgat.3x.gz
+* /usr/share/man/man3/chtype.3x.gz
 * /usr/share/man/man3/clear.3x.gz
 * /usr/share/man/man3/clearok.3x.gz
 * /usr/share/man/man3/clrtobot.3x.gz
 * /usr/share/man/man3/clrtoeol.3x.gz
 * /usr/share/man/man3/COLORS.3x.gz
+* /usr/share/man/man3/COLOR_BLACK.3x.gz
+* /usr/share/man/man3/COLOR_BLUE.3x.gz
 * /usr/share/man/man3/color_content.3x.gz
 * /usr/share/man/man3/color_content_sp.3x.gz
+* /usr/share/man/man3/COLOR_CYAN.3x.gz
+* /usr/share/man/man3/COLOR_GREEN.3x.gz
+* /usr/share/man/man3/COLOR_MAGENTA.3x.gz
 * /usr/share/man/man3/COLOR_PAIR.3x.gz
 * /usr/share/man/man3/COLOR_PAIRS.3x.gz
+* /usr/share/man/man3/COLOR_RED.3x.gz
 * /usr/share/man/man3/color_set.3x.gz
+* /usr/share/man/man3/COLOR_WHITE.3x.gz
+* /usr/share/man/man3/COLOR_YELLOW.3x.gz
 * /usr/share/man/man3/COLS.3x.gz
 * /usr/share/man/man3/copywin.3x.gz
 * /usr/share/man/man3/current_field.3x.gz
@@ -303,6 +291,7 @@ A System V curses emulation library
 * /usr/share/man/man3/erasechar_sp.3x.gz
 * /usr/share/man/man3/erasewchar.3x.gz
 * /usr/share/man/man3/erasewchar_sp.3x.gz
+* /usr/share/man/man3/ERR.3x.gz
 * /usr/share/man/man3/ESCDELAY.3x.gz
 * /usr/share/man/man3/exit_curses.3x.gz
 * /usr/share/man/man3/exit_terminfo.3x.gz
@@ -312,6 +301,7 @@ A System V curses emulation library
 * /usr/share/man/man3/extended_pair_content_sp.3x.gz
 * /usr/share/man/man3/extended_slk_color.3x.gz
 * /usr/share/man/man3/extended_slk_color_sp.3x.gz
+* /usr/share/man/man3/FALSE.3x.gz
 * /usr/share/man/man3/field_arg.3x.gz
 * /usr/share/man/man3/field_back.3x.gz
 * /usr/share/man/man3/field_buffer.3x.gz
@@ -456,16 +446,24 @@ A System V curses emulation library
 * /usr/share/man/man3/in_wchstr.3x.gz
 * /usr/share/man/man3/isendwin.3x.gz
 * /usr/share/man/man3/isendwin_sp.3x.gz
+* /usr/share/man/man3/is_cbreak.3x.gz
+* /usr/share/man/man3/is_cbreak_sp.3x.gz
 * /usr/share/man/man3/is_cleared.3x.gz
+* /usr/share/man/man3/is_echo.3x.gz
+* /usr/share/man/man3/is_echo_sp.3x.gz
 * /usr/share/man/man3/is_idcok.3x.gz
 * /usr/share/man/man3/is_idlok.3x.gz
 * /usr/share/man/man3/is_immedok.3x.gz
 * /usr/share/man/man3/is_keypad.3x.gz
 * /usr/share/man/man3/is_leaveok.3x.gz
 * /usr/share/man/man3/is_linetouched.3x.gz
+* /usr/share/man/man3/is_nl.3x.gz
+* /usr/share/man/man3/is_nl_sp.3x.gz
 * /usr/share/man/man3/is_nodelay.3x.gz
 * /usr/share/man/man3/is_notimeout.3x.gz
 * /usr/share/man/man3/is_pad.3x.gz
+* /usr/share/man/man3/is_raw.3x.gz
+* /usr/share/man/man3/is_raw_sp.3x.gz
 * /usr/share/man/man3/is_scrollok.3x.gz
 * /usr/share/man/man3/is_subwin.3x.gz
 * /usr/share/man/man3/is_syncok.3x.gz
@@ -637,6 +635,8 @@ A System V curses emulation library
 * /usr/share/man/man3/napms.3x.gz
 * /usr/share/man/man3/napms_sp.3x.gz
 * /usr/share/man/man3/ncurses.3x.gz
+* /usr/share/man/man3/NCURSES_SCREEN_CB.3x.gz
+* /usr/share/man/man3/NCURSES_WINDOW_CB.3x.gz
 * /usr/share/man/man3/newpad.3x.gz
 * /usr/share/man/man3/newpad_sp.3x.gz
 * /usr/share/man/man3/newscr.3x.gz
@@ -674,6 +674,7 @@ A System V curses emulation library
 * /usr/share/man/man3/numcodes.3x.gz
 * /usr/share/man/man3/numfnames.3x.gz
 * /usr/share/man/man3/numnames.3x.gz
+* /usr/share/man/man3/OK.3x.gz
 * /usr/share/man/man3/ospeed.3x.gz
 * /usr/share/man/man3/overlay.3x.gz
 * /usr/share/man/man3/overwrite.3x.gz
@@ -727,6 +728,7 @@ A System V curses emulation library
 * /usr/share/man/man3/scale_form.3x.gz
 * /usr/share/man/man3/scale_menu.3x.gz
 * /usr/share/man/man3/scanw.3x.gz
+* /usr/share/man/man3/SCREEN.3x.gz
 * /usr/share/man/man3/scrl.3x.gz
 * /usr/share/man/man3/scroll.3x.gz
 * /usr/share/man/man3/scrollok.3x.gz
@@ -740,6 +742,7 @@ A System V curses emulation library
 * /usr/share/man/man3/setcchar.3x.gz
 * /usr/share/man/man3/setscrreg.3x.gz
 * /usr/share/man/man3/setsyx.3x.gz
+* /usr/share/man/man3/setterm.3x.gz
 * /usr/share/man/man3/setupterm.3x.gz
 * /usr/share/man/man3/set_current_field.3x.gz
 * /usr/share/man/man3/set_current_item.3x.gz
@@ -865,6 +868,8 @@ A System V curses emulation library
 * /usr/share/man/man3/tigetstr_sp.3x.gz
 * /usr/share/man/man3/timeout.3x.gz
 * /usr/share/man/man3/tiparm.3x.gz
+* /usr/share/man/man3/tiparm_s.3x.gz
+* /usr/share/man/man3/tiscan_s.3x.gz
 * /usr/share/man/man3/top_panel.3x.gz
 * /usr/share/man/man3/top_row.3x.gz
 * /usr/share/man/man3/touchline.3x.gz
@@ -874,6 +879,7 @@ A System V curses emulation library
 * /usr/share/man/man3/tputs.3x.gz
 * /usr/share/man/man3/tputs_sp.3x.gz
 * /usr/share/man/man3/trace.3x.gz
+* /usr/share/man/man3/TRUE.3x.gz
 * /usr/share/man/man3/ttytype.3x.gz
 * /usr/share/man/man3/typeahead.3x.gz
 * /usr/share/man/man3/typeahead_sp.3x.gz
@@ -974,6 +980,7 @@ A System V curses emulation library
 * /usr/share/man/man3/winch.3x.gz
 * /usr/share/man/man3/winchnstr.3x.gz
 * /usr/share/man/man3/winchstr.3x.gz
+* /usr/share/man/man3/WINDOW.3x.gz
 * /usr/share/man/man3/winnstr.3x.gz
 * /usr/share/man/man3/winnwstr.3x.gz
 * /usr/share/man/man3/winsch.3x.gz
@@ -1195,6 +1202,7 @@ A System V curses emulation library
 * /usr/share/terminfo/a/ampex80
 * /usr/share/terminfo/a/annarbor4080
 * /usr/share/terminfo/a/ansi
+* /usr/share/terminfo/a/ansi+apparrows
 * /usr/share/terminfo/a/ansi+arrows
 * /usr/share/terminfo/a/ansi+cpr
 * /usr/share/terminfo/a/ansi+csr
@@ -1557,6 +1565,9 @@ A System V curses emulation library
 * /usr/share/terminfo/c/contel301
 * /usr/share/terminfo/c/contel320
 * /usr/share/terminfo/c/contel321
+* /usr/share/terminfo/c/contour
+* /usr/share/terminfo/c/contour-direct
+* /usr/share/terminfo/c/contour-latest
 * /usr/share/terminfo/c/cops
 * /usr/share/terminfo/c/cops-10
 * /usr/share/terminfo/c/cops10
@@ -2268,6 +2279,7 @@ A System V curses emulation library
 * /usr/share/terminfo/L/LFT-PC850
 * /usr/share/terminfo/l/linux
 * /usr/share/terminfo/l/linux+decid
+* /usr/share/terminfo/l/linux+kbs
 * /usr/share/terminfo/l/linux+sfkeys
 * /usr/share/terminfo/l/linux-16color
 * /usr/share/terminfo/l/linux-basic
@@ -2373,6 +2385,7 @@ A System V curses emulation library
 * /usr/share/terminfo/m/morphos
 * /usr/share/terminfo/m/mosh
 * /usr/share/terminfo/m/mosh-256color
+* /usr/share/terminfo/m/mostlike
 * /usr/share/terminfo/m/mouse-sun
 * /usr/share/terminfo/m/mrxvt
 * /usr/share/terminfo/m/mrxvt-256color
@@ -2380,6 +2393,7 @@ A System V curses emulation library
 * /usr/share/terminfo/m/ms-vt-utf8
 * /usr/share/terminfo/m/ms-vt100
 * /usr/share/terminfo/m/ms-vt100+
+* /usr/share/terminfo/m/ms-vt100-16color
 * /usr/share/terminfo/m/ms-vt100-color
 * /usr/share/terminfo/m/msk227
 * /usr/share/terminfo/m/msk22714
@@ -2610,6 +2624,7 @@ A System V curses emulation library
 * /usr/share/terminfo/o/oldibmpc3
 * /usr/share/terminfo/o/oldpc3
 * /usr/share/terminfo/o/oldsun
+* /usr/share/terminfo/o/oldxterm+sm+1006
 * /usr/share/terminfo/o/omron
 * /usr/share/terminfo/o/opennt
 * /usr/share/terminfo/o/opennt-100
@@ -2788,6 +2803,7 @@ A System V curses emulation library
 * /usr/share/terminfo/p/pt505-24
 * /usr/share/terminfo/p/pty
 * /usr/share/terminfo/p/putty
+* /usr/share/terminfo/p/putty+cursor
 * /usr/share/terminfo/p/putty+fnkeys
 * /usr/share/terminfo/p/putty+fnkeys+esc
 * /usr/share/terminfo/p/putty+fnkeys+linux
@@ -2867,6 +2883,10 @@ A System V curses emulation library
 * /usr/share/terminfo/r/regent40
 * /usr/share/terminfo/r/regent40+
 * /usr/share/terminfo/r/regent60
+* /usr/share/terminfo/r/report+da2
+* /usr/share/terminfo/r/report+version
+* /usr/share/terminfo/r/rio
+* /usr/share/terminfo/r/rio-direct
 * /usr/share/terminfo/r/rt6221
 * /usr/share/terminfo/r/rt6221-w
 * /usr/share/terminfo/r/rtpc
@@ -3349,6 +3369,8 @@ A System V curses emulation library
 * /usr/share/terminfo/v/vt100+enq
 * /usr/share/terminfo/v/vt100+fnkeys
 * /usr/share/terminfo/v/vt100+keypad
+* /usr/share/terminfo/v/vt100+noapp
+* /usr/share/terminfo/v/vt100+noapp+pc
 * /usr/share/terminfo/v/vt100+pfkeys
 * /usr/share/terminfo/v/vt100-am
 * /usr/share/terminfo/v/vt100-bm
@@ -3422,6 +3444,7 @@ A System V curses emulation library
 * /usr/share/terminfo/v/vt510pc
 * /usr/share/terminfo/v/vt510pcdos
 * /usr/share/terminfo/v/vt52
+* /usr/share/terminfo/v/vt52+arrows
 * /usr/share/terminfo/v/vt52+keypad
 * /usr/share/terminfo/v/vt52-basic
 * /usr/share/terminfo/v/vt520
@@ -3442,6 +3465,8 @@ A System V curses emulation library
 * /usr/share/terminfo/v/vtnt
 * /usr/share/terminfo/v/vv100
 * /usr/share/terminfo/v/vwmterm
+* /usr/share/terminfo/w/wezterm
+* /usr/share/terminfo/w/winconsole
 * /usr/share/terminfo/w/wren
 * /usr/share/terminfo/w/wrenw
 * /usr/share/terminfo/w/wsiris
@@ -3762,6 +3787,8 @@ A System V curses emulation library
 * /usr/share/terminfo/x/xterm+alt1049
 * /usr/share/terminfo/x/xterm+alt47
 * /usr/share/terminfo/x/xterm+app
+* /usr/share/terminfo/x/xterm+app+pc
+* /usr/share/terminfo/x/xterm+decedit
 * /usr/share/terminfo/x/xterm+direct
 * /usr/share/terminfo/x/xterm+direct16
 * /usr/share/terminfo/x/xterm+direct2
