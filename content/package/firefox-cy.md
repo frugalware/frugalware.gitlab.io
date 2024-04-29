@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-cy 124.0-1"
-version = "124.0-1"
+title = "firefox-cy 125.0.3-1"
+version = "125.0.3-1"
 description = "Welsh language support for Firefox"
-date = "2024-03-19T16:58:52"
+date = "2024-04-29T14:45:13"
 aliases = "/packages/73619"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "553152"
-usize = "607562"
-sha1sum = "f2381b4437763af42c70aa2bc685908978313a43"
-depends = "['firefox>=124.0']"
+size = "559884"
+usize = "613447"
+sha1sum = "d9cb890d837526b48e79285dfe0bfeefa1d37d19"
+depends = "['firefox>=125.0.3']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

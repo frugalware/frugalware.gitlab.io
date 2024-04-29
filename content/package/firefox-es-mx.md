@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-es-mx 124.0-1"
-version = "124.0-1"
+title = "firefox-es-mx 125.0.3-1"
+version = "125.0.3-1"
 description = "Mexican Spanish language support for Firefox"
-date = "2024-03-19T16:58:52"
+date = "2024-04-29T14:45:13"
 aliases = "/packages/73624"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "525868"
-usize = "584191"
-sha1sum = "27aece4e1fcc6ce23beabf1fa72015f48847f418"
-depends = "['firefox>=124.0']"
+size = "529512"
+usize = "587995"
+sha1sum = "0b239a5502ffaed7ba4dc15afa716d78feff01b6"
+depends = "['firefox>=125.0.3']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
