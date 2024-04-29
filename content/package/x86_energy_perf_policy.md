@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "x86_energy_perf_policy 6.8.7-1"
-version = "6.8.7-1"
+title = "x86_energy_perf_policy 6.8.8-1"
+version = "6.8.8-1"
 description = "Kernel tool for setting MSR energy policies"
-date = "2024-04-18T09:48:48"
+date = "2024-04-29T11:33:53"
 aliases = "/packages/217802"
 categories = ['apps-extra']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "45204"
+size = "45200"
 usize = "38644"
-sha1sum = "6f81f29e7d641276fa8e8726dcd14bb9d370e4f1"
+sha1sum = "228c050e81778e1247cad21e4b6ba7dcb40b13ed"
 depends = "['pciutils']"
 +++
 ### Description: 

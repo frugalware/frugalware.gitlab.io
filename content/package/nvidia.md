@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "nvidia 550.78-1"
-version = "550.78-1"
+title = "nvidia 550.78-2"
+version = "550.78-2"
 description = "3D accelerated display driver for Nvidia cards"
-date = "2024-04-26T08:16:21"
+date = "2024-04-29T12:10:23"
 aliases = "/packages/3749"
 categories = ['x11-extra']
 upstreamurl = "http://www.nvidia.com/object/unix.html"
 arch = "x86_64"
-size = "92716644"
-usize = "299055302"
-sha1sum = "d0b69166363e511962383af98d1e2ae171801d1d"
-depends = "['kernel=6.8.7-1', 'libglvnd', 'nvidia-settings>=', 'nvidia-xconfig>=550.78']"
+size = "92766484"
+usize = "299052982"
+sha1sum = "9fa25798846301636ea9afd99eab5f488d35c940"
+depends = "['kernel=6.8.8-1', 'libglvnd', 'nvidia-settings>=', 'nvidia-xconfig>=550.78']"
 reverse_depends = "['cuda', 'lib32-nvidia']"
 +++
 ### Description: 
@@ -72,10 +72,10 @@ reverse_depends = "['cuda', 'lib32-nvidia']"
 * /usr/lib/libnvidia-ptxjitcompiler.so.550.78
 * /usr/lib/libnvidia-tls.so
 * /usr/lib/libnvidia-tls.so.550.78
-* /usr/lib/modules/6.8.7-fw1/kernel/drivers/video/nvidia-drm.ko.zst
-* /usr/lib/modules/6.8.7-fw1/kernel/drivers/video/nvidia-modeset.ko.zst
-* /usr/lib/modules/6.8.7-fw1/kernel/drivers/video/nvidia-uvm.ko.zst
-* /usr/lib/modules/6.8.7-fw1/kernel/drivers/video/nvidia.ko.zst
+* /usr/lib/modules/6.8.8-fw1/kernel/drivers/video/nvidia-drm.ko.zst
+* /usr/lib/modules/6.8.8-fw1/kernel/drivers/video/nvidia-modeset.ko.zst
+* /usr/lib/modules/6.8.8-fw1/kernel/drivers/video/nvidia-uvm.ko.zst
+* /usr/lib/modules/6.8.8-fw1/kernel/drivers/video/nvidia.ko.zst
 * /usr/lib/vdpau/libvdpau_nvidia.so
 * /usr/lib/vdpau/libvdpau_nvidia.so.1
 * /usr/lib/vdpau/libvdpau_nvidia.so.1.0
@@ -145,7 +145,6 @@ reverse_depends = "['cuda', 'lib32-nvidia']"
 * /usr/share/doc/nvidia-550.78/html/xrandrextension.html
 * /usr/share/doc/nvidia-550.78/html/xwayland.html
 * /usr/share/doc/nvidia-550.78/LICENSE
-* /usr/share/doc/nvidia-550.78/README.md
 * /usr/share/doc/nvidia-550.78/README.txt
 * /usr/share/egl/egl_external_platform.d/10_nvidia_wayland.json
 * /usr/share/glvnd/egl_vendor.d/10_nvidia.json
