@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ncurses 6.5-1"
-version = "6.5-1"
+title = "ncurses 6.5-2"
+version = "6.5-2"
 description = "A System V curses emulation library"
-date = "2024-04-28T10:30:00"
+date = "2024-04-29T09:38:23"
 aliases = "/packages/2418"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/ncurses/ncurses.html"
 arch = "x86_64"
-size = "1245528"
-usize = "5355762"
-sha1sum = "8168c9bbe9c958cdca21267cbcfa59095a3e9e6f"
+size = "1331380"
+usize = "5870254"
+sha1sum = "b2f068bdab3fb598a07803aad8d93c1979fbc690"
 depends = "['glibc>=2.37', 'gmp>=6.1.2-10']"
 reverse_depends = "['aalib', 'alsa-utils', 'android-studio', 'aspell', 'bc', 'bind', 'bitchx', 'calcurse', 'clamav', 'clisp', 'cmake', 'crash', 'dialog', 'emacs', 'erlang', 'firebird', 'fish', 'fluidsynth', 'freeciv', 'gawk', 'gdb', 'gettext', 'gfs2-utils', 'gftp', 'ghc', 'gnokii', 'gnupg2', 'gpg-agent', 'gphoto2', 'gpm', 'gpsd', 'gptfdisk', 'gst1-plugins-good-caca', 'guile', 'htop', 'hunspell', 'hwloc', 'inetutils', 'iotop', 'irssi', 'joe', 'kvm', 'lame', 'less', 'libcaca', 'libcdio', 'libcec', 'libedit', 'libgnt', 'libqalculate', 'libtermkey', 'libtextstyle', 'lldb', 'llvm-libs', 'llvm15-libs', 'lua', 'lua51', 'lua53', 'lvm2', 'lynx', 'maxima', 'mcabber', 'mencoder', 'meshroom', 'minicom', 'mosh', 'mplayer', 'nano', 'ncdu', 'ncftp', 'ncmpc', 'ncmpcpp', 'ne', 'net-snmp', 'nethogs', 'nftables', 'ocaml', 'octave', 'partclone', 'parted', 'pcre2', 'php', 'postgresql', 'postgresql-upgrade-from-12', 'postgresql-upgrade-from-13', 'postgresql-upgrade-from-14', 'postgresql-upgrade-from-15', 'powertop', 'procps-ng', 'proftpd', 'psmisc', 'python3', 'qemu', 'readline', 'rtorrent', 'ruby', 'samba', 'screen', 'sedutil', 'speech_tools', 'sqlite3', 'tcsh', 'texinfo', 'texlive', 'tmux', 'unixodbc', 'util-linux', 'vile', 'vim', 'vkd3d', 'w3m', 'wavemon', 'weechat', 'wpa_supplicant', 'xorg', 'xrestop', 'xterm', 'zsh']"
 +++
@@ -26,6 +26,7 @@ A System V curses emulation library
 * /usr/bin/infocmpw
 * /usr/bin/infotocap
 * /usr/bin/infotocapw
+* /usr/bin/ncurses6-config
 * /usr/bin/ncursesw6-config
 * /usr/bin/reset
 * /usr/bin/resetw
@@ -75,25 +76,43 @@ A System V curses emulation library
 * /usr/include/termcap.h
 * /usr/include/term_entry.h
 * /usr/include/unctrl.h
+* /usr/lib/libcurses.so
+* /usr/lib/libform.so
+* /usr/lib/libform.so.6
+* /usr/lib/libform.so.6.5
 * /usr/lib/libformw.so
 * /usr/lib/libformw.so.6
 * /usr/lib/libformw.so.6.5
+* /usr/lib/libmenu.so
+* /usr/lib/libmenu.so.6
+* /usr/lib/libmenu.so.6.5
 * /usr/lib/libmenuw.so
 * /usr/lib/libmenuw.so.6
 * /usr/lib/libmenuw.so.6.5
+* /usr/lib/libncurses.so
+* /usr/lib/libncurses.so.6
+* /usr/lib/libncurses.so.6.5
 * /usr/lib/libncursesw.so
 * /usr/lib/libncursesw.so.6
 * /usr/lib/libncursesw.so.6.5
+* /usr/lib/libpanel.so
+* /usr/lib/libpanel.so.6
+* /usr/lib/libpanel.so.6.5
 * /usr/lib/libpanelw.so
 * /usr/lib/libpanelw.so.6
 * /usr/lib/libpanelw.so.6.5
 * /usr/lib/libtinfo.so
 * /usr/lib/libtinfo.so.6
 * /usr/lib/libtinfo.so.6.5
+* /usr/lib/pkgconfig/form.pc
 * /usr/lib/pkgconfig/formw.pc
+* /usr/lib/pkgconfig/menu.pc
 * /usr/lib/pkgconfig/menuw.pc
+* /usr/lib/pkgconfig/ncurses++.pc
 * /usr/lib/pkgconfig/ncurses++w.pc
+* /usr/lib/pkgconfig/ncurses.pc
 * /usr/lib/pkgconfig/ncursesw.pc
+* /usr/lib/pkgconfig/panel.pc
 * /usr/lib/pkgconfig/panelw.pc
 * /usr/lib/terminfo
 * /usr/share/doc/ncurses-6.5/ANNOUNCE
@@ -110,6 +129,7 @@ A System V curses emulation library
 * /usr/share/man/man1/clear.1.gz
 * /usr/share/man/man1/infocmp.1m.gz
 * /usr/share/man/man1/infotocap.1m.gz
+* /usr/share/man/man1/ncurses6-config.1.gz
 * /usr/share/man/man1/ncursesw6-config.1.gz
 * /usr/share/man/man1/reset.1.gz
 * /usr/share/man/man1/tabs.1.gz
@@ -3832,7 +3852,6 @@ A System V curses emulation library
 * /usr/share/terminfo/x/xterm-1003
 * /usr/share/terminfo/x/xterm-1005
 * /usr/share/terminfo/x/xterm-1006
-* /usr/share/terminfo/x/xterm-16color
 * /usr/share/terminfo/x/xterm-24
 * /usr/share/terminfo/x/xterm-256color
 * /usr/share/terminfo/x/xterm-88color
@@ -3843,7 +3862,6 @@ A System V curses emulation library
 * /usr/share/terminfo/x/xterm-direct
 * /usr/share/terminfo/x/xterm-direct16
 * /usr/share/terminfo/x/xterm-direct2
-* /usr/share/terminfo/x/xterm-direct256
 * /usr/share/terminfo/x/xterm-hp
 * /usr/share/terminfo/x/xterm-mono
 * /usr/share/terminfo/x/xterm-new
