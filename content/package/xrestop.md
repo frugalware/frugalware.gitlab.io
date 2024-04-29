@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "xrestop 0.4-8"
-version = "0.4-8"
+title = "xrestop 0.6-1"
+version = "0.6-1"
 description = "A utility to monitor the usage of resources within the X Server, and display them in a manner similar to top."
-date = "2018-02-12T01:53:23"
+date = "2024-04-29T08:13:07"
 aliases = "/packages/60560"
 categories = ['x11-extra']
-upstreamurl = "http://www.freedesktop.org/Software/xrestop"
+upstreamurl = "https://www.freedesktop.org/Software/xrestop"
 arch = "x86_64"
-size = "17836"
-usize = "48831"
-sha1sum = "5e439a4f5b72bd1e5e6fd1513d360f0ff3b0baeb"
-depends = "['libxres>=1.0.7-3', 'ncurses>=6.0-6']"
+size = "29904"
+usize = "102367"
+sha1sum = "d765d927d2d3771360ddb391372f0fc0a41a07f9"
+depends = "['libxres>=1.0.7-3', 'ncurses>=6.5']"
 license = "GPL"
 +++
 ### Description: 
@@ -19,9 +19,11 @@ A utility to monitor the usage of resources within the X Server, and display the
 
 ### Files: 
 * /usr/bin/xrestop
-* /usr/share/doc/xrestop-0.4/AUTHORS
-* /usr/share/doc/xrestop-0.4/ChangeLog
-* /usr/share/doc/xrestop-0.4/COPYING
-* /usr/share/doc/xrestop-0.4/INSTALL
-* /usr/share/doc/xrestop-0.4/README
+* /usr/share/doc/xrestop-0.6/AUTHORS
+* /usr/share/doc/xrestop-0.6/ChangeLog
+* /usr/share/doc/xrestop-0.6/COPYING
+* /usr/share/doc/xrestop-0.6/INSTALL
+* /usr/share/doc/xrestop-0.6/LICENSE
+* /usr/share/doc/xrestop-0.6/README
+* /usr/share/doc/xrestop-0.6/README.md
 * /usr/share/man/man1/xrestop.1.gz
