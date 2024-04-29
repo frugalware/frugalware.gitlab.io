@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libc++ 17.0.6-1"
-version = "17.0.6-1"
+title = "libc++ 17.0.6-2"
+version = "17.0.6-2"
 description = "A new implementation of the C++ standard library"
-date = "2024-02-09T11:02:52"
+date = "2024-04-29T08:47:38"
 aliases = "/packages/219307"
 categories = ['lib-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "1065240"
-usize = "9198938"
-sha1sum = "ec151389ec52df04e07da418a4a958ff7331bb35"
+size = "1064852"
+usize = "9198946"
+sha1sum = "d498a268c22503017eefe5eccfef07284d609e13"
 depends = "['libgcc']"
 +++
 ### Description: 

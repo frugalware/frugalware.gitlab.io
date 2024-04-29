@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-clang 17.0.6-1"
-version = "17.0.6-1"
+title = "lib32-clang 17.0.6-2"
+version = "17.0.6-2"
 description = "C/C++ language family frontend for LLVM (32-bit)"
-date = "2024-02-09T11:02:52"
+date = "2024-04-29T08:47:38"
 aliases = "/packages/218875"
 categories = ['lib32-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "20239616"
-usize = "162545705"
-sha1sum = "8a39338acb2b0cfbf87fdfa79be8d3c73ca05fc5"
+size = "20226684"
+usize = "162545849"
+sha1sum = "1dd87a2fba79d09b130af862c908857d1363525e"
 depends = "['lib32-clang-libs>=17.0.6', 'lib32-libffi>=3.4', 'lib32-libxml2']"
 +++
 ### Description: 

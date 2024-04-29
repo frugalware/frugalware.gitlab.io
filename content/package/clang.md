@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "clang 17.0.6-1"
-version = "17.0.6-1"
+title = "clang 17.0.6-2"
+version = "17.0.6-2"
 description = "C/C++ language family frontend for LLVM"
-date = "2024-02-09T11:02:52"
+date = "2024-04-29T08:47:38"
 aliases = "/packages/136475"
 categories = ['devel']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "27835528"
-usize = "156386868"
-sha1sum = "a5c709e5a46c89348b0c1e28d2ca88b1e13ec592"
+size = "27866884"
+usize = "156386972"
+sha1sum = "b58836f77ad03ab33a6cdc25dffc7b965dc7b957"
 depends = "['clang-libs>=17.0.6', 'libffi>=3.4', 'libxml2']"
 reverse_depends = "['hotdoc', 'insight-toolkit', 'lldb', 'qtcreator']"
 +++

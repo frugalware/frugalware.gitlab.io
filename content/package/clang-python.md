@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "clang-python 17.0.6-1"
-version = "17.0.6-1"
+title = "clang-python 17.0.6-2"
+version = "17.0.6-2"
 description = "clang python binding"
-date = "2024-02-09T11:02:52"
+date = "2024-04-29T08:47:38"
 aliases = "/packages/221184"
 categories = ['devel']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "73308"
-usize = "465944"
-sha1sum = "1da231b4a4350fcdf849cbc5a91cb123646a445b"
+size = "73388"
+usize = "466008"
+sha1sum = "1760668d00b3302e4433dfa1717935d42627f0b5"
 depends = "['clang-libs>=17.0.6', 'python3']"
 +++
 ### Description: 
