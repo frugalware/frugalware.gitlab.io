@@ -12,7 +12,7 @@ size = "967516"
 usize = "3538815"
 sha1sum = "e113567bd35dcd81f81fb6366f99c8e07be1ce5b"
 depends = "['libjpeg-turbo', 'libstdc++>=11.2', 'openssl>=3.1.0', 'pcre>=8.37-4']"
-reverse_depends = "['cups-filters']"
+reverse_depends = "['cups-filters', 'libcupsfilters']"
 +++
 ### Description: 
 QPDF do structural, content-preserving transformations on PDF files.
