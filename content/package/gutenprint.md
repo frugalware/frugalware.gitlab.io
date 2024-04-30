@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gutenprint 5.3.4-1"
-version = "5.3.4-1"
+title = "gutenprint 5.3.4-2"
+version = "5.3.4-2"
 description = "IJS printer driver for Ghostscript and CUPS"
-date = "2024-01-09T22:35:45"
+date = "2024-04-30T17:39:15"
 aliases = "/packages/219251"
 categories = ['apps-extra']
 upstreamurl = "https://sourceforge.net/projects/gimp-print"
 arch = "x86_64"
-size = "5246812"
-usize = "35297618"
-sha1sum = "77fc5a73f6b4da0ad7d3e43e52a26d1a0936dc14"
+size = "5246408"
+usize = "35297619"
+sha1sum = "03c1129d135e444e253edcbaccfa8d3ec0698b88"
 depends = "['cups>=1.1.15', 'libxml2>=2.7.8', 'openssl>=1.0.0-2', 'readline>=8.0']"
 +++
 ### Description: 

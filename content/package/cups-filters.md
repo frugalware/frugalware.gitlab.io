@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cups-filters 2.0.0-1"
-version = "2.0.0-1"
+title = "cups-filters 2.0.0-3"
+version = "2.0.0-3"
 description = "Backends, filters and other software from CUPS distribution."
-date = "2024-04-30T11:22:17"
+date = "2024-04-30T17:46:48"
 aliases = "/packages/168932"
 categories = ['xapps']
 upstreamurl = "https://github.com/OpenPrinting/cups-filters"
 arch = "x86_64"
-size = "188036"
+size = "188128"
 usize = "1223440"
-sha1sum = "a6b415a1806cb00130a30e5162f5ebaf8573f349"
+sha1sum = "d2fb730ba7bd1309e0746d94d71c9a98a23f2fe9"
 depends = "['libppd']"
 reverse_depends = "['cups', 'hplip-driver', 'print-manager']"
 +++
