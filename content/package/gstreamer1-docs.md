@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gstreamer1-docs 1.24.2-1"
-version = "1.24.2-1"
+title = "gstreamer1-docs 1.24.3-1"
+version = "1.24.3-1"
 description = "GStreamer $pkgver Documentation."
-date = "2024-04-10T10:52:43"
+date = "2024-04-30T07:48:41"
 aliases = "/packages/168882"
 categories = ['docs-extra']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "8764548"
-usize = "116822968"
-sha1sum = "8023761d23c32f7f87053395c2151c0918c7c418"
+size = "8775168"
+usize = "116835486"
+sha1sum = "627f9df34a1b14108b500d55ddf2645c16f603eb"
 depends = "[]"
 +++
 ### Description: 
@@ -2839,8 +2839,8 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rtpmanager/rtprtxqueue.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rtpmanager/rtprtxreceive.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rtpmanager/rtprtxsend.html
-* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rtpmanager/RTPSession.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rtpmanager/rtpsession.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rtpmanager/RTPSession.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rtpmanager/RTPSource.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rtpmanager/rtpssrcdemux.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/rtpmanager/rtpst2022-1-fecdec.html
