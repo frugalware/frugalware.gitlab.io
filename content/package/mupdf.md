@@ -12,7 +12,6 @@ size = "86826816"
 usize = "154586183"
 sha1sum = "2add2e3c284a9be5e070e8daf4f468ecba260544"
 depends = "['curl', 'freetype2', 'harfbuzz', 'libglu', 'libjpeg-turbo', 'libxi', 'libxrandr', 'openjpeg>=2.3.0']"
-reverse_depends = "['cups-filters']"
 +++
 ### Description: 
 Lightweight PDF and XPS viewer

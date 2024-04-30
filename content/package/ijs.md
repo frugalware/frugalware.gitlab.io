@@ -12,7 +12,7 @@ size = "21788"
 usize = "82337"
 sha1sum = "3bbb8fbcf8eb8cda0407fd8385d0d82cb16bffc9"
 depends = "['glibc>=2.34']"
-reverse_depends = "['cups-filters', 'ghostscript', 'libgs']"
+reverse_depends = "['ghostscript', 'libgs']"
 +++
 ### Description: 
 Backends, filters and other software from CUPS distribution.

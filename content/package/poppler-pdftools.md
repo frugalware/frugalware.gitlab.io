@@ -12,7 +12,6 @@ size = "210244"
 usize = "689237"
 sha1sum = "291e4e90ab0bdef826313bffd84bbbb0521b2aaa"
 depends = "['cairo>=1.14.6-4', 'lcms2>=2.8-2', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libstdc++>=9.1.0-3', 'poppler']"
-reverse_depends = "['cups-filters']"
 +++
 ### Description: 
 Poppler xpdf tools

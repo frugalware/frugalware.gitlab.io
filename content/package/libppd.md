@@ -12,6 +12,7 @@ size = "304820"
 usize = "989637"
 sha1sum = "99fd862ad377baeebdd2ef4e58a523fb5ab3301a"
 depends = "['libcups', 'libcupsfilters']"
+reverse_depends = "['cups-filters']"
 +++
 ### Description: 
 OpenPrinting - the legacy support library for PPD files
