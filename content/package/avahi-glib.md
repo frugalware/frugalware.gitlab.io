@@ -12,7 +12,7 @@ size = "25832"
 usize = "88535"
 sha1sum = "8c8953a1065b8889e09bce554237854bf66ed996"
 depends = "['glib2>=2.60.0', 'libffi>=3.2.1']"
-reverse_depends = "['geoclue2', 'gvfs', 'telepathy-salut']"
+reverse_depends = "['cups-browsed', 'geoclue2', 'gvfs', 'telepathy-salut']"
 +++
 ### Description: 
 Glib bindings for Avahi

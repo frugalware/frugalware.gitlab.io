@@ -12,7 +12,7 @@ size = "188036"
 usize = "1223440"
 sha1sum = "a6b415a1806cb00130a30e5162f5ebaf8573f349"
 depends = "['libppd']"
-reverse_depends = "['hplip-driver', 'print-manager']"
+reverse_depends = "['cups', 'hplip-driver', 'print-manager']"
 +++
 ### Description: 
 Backends, filters and other software from CUPS distribution.
