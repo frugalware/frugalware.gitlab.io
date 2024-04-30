@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ghostscript 10.03.0-1"
-version = "10.03.0-1"
+title = "ghostscript 10.03.0-2"
+version = "10.03.0-2"
 description = "An interpreter for the PostScript language."
-date = "2024-03-21T16:41:31"
+date = "2024-04-30T15:14:52"
 aliases = "/packages/30510"
 categories = ['apps']
 upstreamurl = "https://www.ghostscript.com/"
 arch = "x86_64"
-size = "18171956"
+size = "18169448"
 usize = "28453381"
-sha1sum = "c3b7d41f668b7a9d435f4b28fc60230349b90601"
+sha1sum = "26201370431283f4e082c0c0727154915e7f50e0"
 depends = "['fontconfig', 'ijs', 'jasper', 'lcms2', 'libcups', 'libgs', 'libjpeg-turbo', 'libpaper', 'libpng', 'libtiff', 'openjpeg', 'zlib>=1.2.12']"
 reverse_depends = "['darktable', 'gimp', 'hplip-driver', 'latex2html', 'scribus', 'texworks', 'xghostscript']"
 license = "GPLv2"
