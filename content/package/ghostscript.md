@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "18171956"
 usize = "28453381"
 sha1sum = "c3b7d41f668b7a9d435f4b28fc60230349b90601"
-depends = "['fontconfig', 'foomatic-filters>=4.0.17-5', 'ijs', 'jasper', 'lcms2', 'libcups', 'libgs', 'libjpeg-turbo', 'libpaper', 'libpng', 'libtiff', 'openjpeg', 'zlib>=1.2.12']"
+depends = "['fontconfig', 'ijs', 'jasper', 'lcms2', 'libcups', 'libgs', 'libjpeg-turbo', 'libpaper', 'libpng', 'libtiff', 'openjpeg', 'zlib>=1.2.12']"
 reverse_depends = "['darktable', 'gimp', 'hplip-driver', 'latex2html', 'scribus', 'texworks', 'xghostscript']"
 license = "GPLv2"
 +++
