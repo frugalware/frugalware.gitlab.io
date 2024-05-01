@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sdl2 2.30.2-1"
-version = "2.30.2-1"
+title = "sdl2 2.30.3-1"
+version = "2.30.3-1"
 description = "Simple DirectMedia Layer library v2"
-date = "2024-04-07T19:08:30"
+date = "2024-05-01T18:17:04"
 aliases = "/packages/200474"
 categories = ['xlib']
 upstreamurl = "http://libsdl.org"
 arch = "x86_64"
-size = "887708"
-usize = "4326617"
-sha1sum = "16e723873addd75fd6b10bc87ba8b7ac5df07a6d"
+size = "888128"
+usize = "4326623"
+sha1sum = "66e985a02973c12d9a3fe4088220a7a70f5d093d"
 depends = "['glibc>=2.34']"
 reverse_depends = "['crawl', 'crawl-tiles', 'faudio', 'ffmpeg', 'freeorion', 'guvcview', 'jazz2', 'libcamera-tools', 'linuxconsole', 'love', 'mednafen', 'mupen64plus', 'naev', 'openal', 'opendiablo2', 'openscenegraph', 'qemu', 'qt5-gamepad', 'scrcpy', 'sdl2_gfx', 'sdl2_image', 'sdl2_mixer', 'sdl2_net', 'sdl2_ttf', 'sherlock265', 'smpeg2', 'solarus', 'spring', 'stella', 'ultrastardx', 'v4l-utils', 'xonotic']"
 +++
@@ -100,11 +100,11 @@ Simple DirectMedia Layer library v2
 * /usr/lib/cmake/SDL2/sdl2-config-version.cmake
 * /usr/lib/cmake/SDL2/sdl2-config.cmake
 * /usr/lib/libSDL2-2.0.so.0
-* /usr/lib/libSDL2-2.0.so.0.3000.2
+* /usr/lib/libSDL2-2.0.so.0.3000.3
 * /usr/lib/libSDL2.so
 * /usr/lib/pkgconfig/sdl2.pc
 * /usr/share/aclocal/sdl2.m4
-* /usr/share/doc/sdl2-2.30.2/BUGS.txt
-* /usr/share/doc/sdl2-2.30.2/INSTALL.txt
-* /usr/share/doc/sdl2-2.30.2/README-SDL.txt
-* /usr/share/doc/sdl2-2.30.2/README.md
+* /usr/share/doc/sdl2-2.30.3/BUGS.txt
+* /usr/share/doc/sdl2-2.30.3/INSTALL.txt
+* /usr/share/doc/sdl2-2.30.3/README-SDL.txt
+* /usr/share/doc/sdl2-2.30.3/README.md
