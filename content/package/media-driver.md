@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "media-driver 24.2.1-1"
-version = "24.2.1-1"
+title = "media-driver 24.2.2-1"
+version = "24.2.2-1"
 description = "Intel Media Driver for VAAPI — Broadwell+ iGPUs"
-date = "2024-04-22T09:06:19"
+date = "2024-05-01T11:25:29"
 aliases = "/packages/220081"
 categories = ['x11']
 upstreamurl = "https://github.com/intel/media-driver"
 arch = "x86_64"
-size = "6238040"
-usize = "37830374"
-sha1sum = "0567fc342b2e529d67dd7954230e42a7929bcae8"
+size = "6238900"
+usize = "37842662"
+sha1sum = "9a0e2c9c9a33bcab2f715a519ff193fe1a7759be"
 depends = "['gmmlib>=22.3.1', 'libva>=2.7']"
 +++
 ### Description: 
@@ -33,4 +33,4 @@ Intel Media Driver for VAAPI — Broadwell+ iGPUs
 * /usr/lib/libigfxcmrt.so.7
 * /usr/lib/libigfxcmrt.so.7.2.0
 * /usr/lib/pkgconfig/igfxcmrt.pc
-* /usr/share/doc/media-driver-24.2.1/README.md
+* /usr/share/doc/media-driver-24.2.2/README.md
