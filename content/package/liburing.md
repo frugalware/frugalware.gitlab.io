@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "liburing 2.5-1"
-version = "2.5-1"
+title = "liburing 2.6-1"
+version = "2.6-1"
 description = "Linux-native io_uring I/O access library"
-date = "2023-11-06T15:10:31"
+date = "2024-05-02T11:40:03"
 aliases = "/packages/221115"
 categories = ['lib']
 upstreamurl = "https://git.kernel.dk/cgit/liburing"
 arch = "x86_64"
-size = "169036"
-usize = "373590"
-sha1sum = "7e1eadc7ee44a5fc1ac3888e72a3093458a0915b"
+size = "181084"
+usize = "400583"
+sha1sum = "dd084612d642adc727ab21891c270410ae59c58e"
 depends = "['glibc']"
 reverse_depends = "['libdex', 'mariadb-libs', 'mpd', 'qemu', 'qemu-guest']"
 +++
@@ -25,23 +25,24 @@ Linux-native io_uring I/O access library
 * /usr/include/liburing/io_uring_version.h
 * /usr/lib/liburing-ffi.so
 * /usr/lib/liburing-ffi.so.2
-* /usr/lib/liburing-ffi.so.2.5
+* /usr/lib/liburing-ffi.so.2.6
 * /usr/lib/liburing.so
 * /usr/lib/liburing.so.2
-* /usr/lib/liburing.so.2.5
+* /usr/lib/liburing.so.2.6
 * /usr/lib/pkgconfig/liburing-ffi.pc
 * /usr/lib/pkgconfig/liburing.pc
-* /usr/share/doc/liburing-2.5/CHANGELOG
-* /usr/share/doc/liburing-2.5/COPYING
-* /usr/share/doc/liburing-2.5/COPYING.GPL
-* /usr/share/doc/liburing-2.5/LICENSE
-* /usr/share/doc/liburing-2.5/README
+* /usr/share/doc/liburing-2.6/CHANGELOG
+* /usr/share/doc/liburing-2.6/COPYING
+* /usr/share/doc/liburing-2.6/COPYING.GPL
+* /usr/share/doc/liburing-2.6/LICENSE
+* /usr/share/doc/liburing-2.6/README
 * /usr/share/man/man2/io_uring_enter.2.gz
 * /usr/share/man/man2/io_uring_enter2.2.gz
 * /usr/share/man/man2/io_uring_register.2.gz
 * /usr/share/man/man2/io_uring_setup.2.gz
 * /usr/share/man/man3/io_uring_buf_ring_add.3.gz
 * /usr/share/man/man3/io_uring_buf_ring_advance.3.gz
+* /usr/share/man/man3/io_uring_buf_ring_available.3.gz
 * /usr/share/man/man3/io_uring_buf_ring_cq_advance.3.gz
 * /usr/share/man/man3/io_uring_buf_ring_init.3.gz
 * /usr/share/man/man3/io_uring_buf_ring_mask.3.gz
@@ -77,8 +78,13 @@ Linux-native io_uring I/O access library
 * /usr/share/man/man3/io_uring_prep_fallocate.3.gz
 * /usr/share/man/man3/io_uring_prep_fgetxattr.3.gz
 * /usr/share/man/man3/io_uring_prep_files_update.3.gz
+* /usr/share/man/man3/io_uring_prep_fixed_fd_install.3.gz
 * /usr/share/man/man3/io_uring_prep_fsetxattr.3.gz
 * /usr/share/man/man3/io_uring_prep_fsync.3.gz
+* /usr/share/man/man3/io_uring_prep_ftruncate.3.gz
+* /usr/share/man/man3/io_uring_prep_futex_wait.3.gz
+* /usr/share/man/man3/io_uring_prep_futex_waitv.3.gz
+* /usr/share/man/man3/io_uring_prep_futex_wake.3.gz
 * /usr/share/man/man3/io_uring_prep_getxattr.3.gz
 * /usr/share/man/man3/io_uring_prep_link.3.gz
 * /usr/share/man/man3/io_uring_prep_linkat.3.gz
@@ -106,6 +112,7 @@ Linux-native io_uring I/O access library
 * /usr/share/man/man3/io_uring_prep_readv.3.gz
 * /usr/share/man/man3/io_uring_prep_readv2.3.gz
 * /usr/share/man/man3/io_uring_prep_read_fixed.3.gz
+* /usr/share/man/man3/io_uring_prep_read_multishot.3.gz
 * /usr/share/man/man3/io_uring_prep_recv.3.gz
 * /usr/share/man/man3/io_uring_prep_recvmsg.3.gz
 * /usr/share/man/man3/io_uring_prep_recvmsg_multishot.3.gz
@@ -136,6 +143,7 @@ Linux-native io_uring I/O access library
 * /usr/share/man/man3/io_uring_prep_timeout_update.3.gz
 * /usr/share/man/man3/io_uring_prep_unlink.3.gz
 * /usr/share/man/man3/io_uring_prep_unlinkat.3.gz
+* /usr/share/man/man3/io_uring_prep_waitid.3.gz
 * /usr/share/man/man3/io_uring_prep_write.3.gz
 * /usr/share/man/man3/io_uring_prep_writev.3.gz
 * /usr/share/man/man3/io_uring_prep_writev2.3.gz
@@ -166,6 +174,7 @@ Linux-native io_uring I/O access library
 * /usr/share/man/man3/io_uring_register_file_alloc_range.3.gz
 * /usr/share/man/man3/io_uring_register_iowq_aff.3.gz
 * /usr/share/man/man3/io_uring_register_iowq_max_workers.3.gz
+* /usr/share/man/man3/io_uring_register_napi.3.gz
 * /usr/share/man/man3/io_uring_register_ring_fd.3.gz
 * /usr/share/man/man3/io_uring_register_sync_cancel.3.gz
 * /usr/share/man/man3/io_uring_setup_buf_ring.3.gz
@@ -184,6 +193,7 @@ Linux-native io_uring I/O access library
 * /usr/share/man/man3/io_uring_unregister_eventfd.3.gz
 * /usr/share/man/man3/io_uring_unregister_files.3.gz
 * /usr/share/man/man3/io_uring_unregister_iowq_aff.3.gz
+* /usr/share/man/man3/io_uring_unregister_napi.3.gz
 * /usr/share/man/man3/io_uring_unregister_ring_fd.3.gz
 * /usr/share/man/man3/IO_URING_VERSION_MAJOR.3.gz
 * /usr/share/man/man3/IO_URING_VERSION_MINOR.3.gz

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tpm2-tss 3.2.2-5"
-version = "3.2.2-5"
+title = "tpm2-tss 4.1.0-1"
+version = "4.1.0-1"
 description = "Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2)"
-date = "2024-04-03T10:23:14"
+date = "2024-05-02T11:51:01"
 aliases = "/packages/219962"
 categories = ['lib']
 upstreamurl = "https://github.com/tpm2-software/tpm2-tss"
 arch = "x86_64"
-size = "617448"
-usize = "2567370"
-sha1sum = "8879fc4896ea012e8a0d3199dc391097e63e092c"
+size = "756052"
+usize = "3164078"
+sha1sum = "f3bc5b21a46a22be734410ea75ea15b453558b94"
 depends = "['curl', 'json-c>=0.14', 'openssl>=3.1.0', 'shadow']"
 reverse_depends = "['fwupd']"
 +++
@@ -22,48 +22,70 @@ Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2)
 * /etc/tmpfiles.d/tpm2-tss-fapi.conf
 * /etc/tpm2-tss/fapi-config.json
 * /etc/tpm2-tss/fapi-profiles/P_ECCP256SHA256.json
+* /etc/tpm2-tss/fapi-profiles/P_ECCP384SHA384.json
 * /etc/tpm2-tss/fapi-profiles/P_RSA2048SHA256.json
+* /etc/tpm2-tss/fapi-profiles/P_RSA3072SHA384.json
 * /usr/include/tss2/tss2_common.h
 * /usr/include/tss2/tss2_esys.h
 * /usr/include/tss2/tss2_fapi.h
 * /usr/include/tss2/tss2_mu.h
+* /usr/include/tss2/tss2_policy.h
 * /usr/include/tss2/tss2_rc.h
 * /usr/include/tss2/tss2_sys.h
 * /usr/include/tss2/tss2_tcti.h
 * /usr/include/tss2/tss2_tctildr.h
 * /usr/include/tss2/tss2_tcti_cmd.h
 * /usr/include/tss2/tss2_tcti_device.h
+* /usr/include/tss2/tss2_tcti_i2c_helper.h
 * /usr/include/tss2/tss2_tcti_mssim.h
 * /usr/include/tss2/tss2_tcti_pcap.h
+* /usr/include/tss2/tss2_tcti_spidev.h
+* /usr/include/tss2/tss2_tcti_spi_helper.h
+* /usr/include/tss2/tss2_tcti_spi_ltt2go.h
 * /usr/include/tss2/tss2_tcti_swtpm.h
 * /usr/include/tss2/tss2_tpm2_types.h
 * /usr/lib/libtss2-esys.so
 * /usr/lib/libtss2-esys.so.0
-* /usr/lib/libtss2-esys.so.0.0.0
+* /usr/lib/libtss2-esys.so.0.0.1
 * /usr/lib/libtss2-fapi.so
 * /usr/lib/libtss2-fapi.so.1
 * /usr/lib/libtss2-fapi.so.1.0.0
 * /usr/lib/libtss2-mu.so
 * /usr/lib/libtss2-mu.so.0
-* /usr/lib/libtss2-mu.so.0.0.0
+* /usr/lib/libtss2-mu.so.0.0.1
+* /usr/lib/libtss2-policy.so
+* /usr/lib/libtss2-policy.so.0
+* /usr/lib/libtss2-policy.so.0.0.0
 * /usr/lib/libtss2-rc.so
 * /usr/lib/libtss2-rc.so.0
 * /usr/lib/libtss2-rc.so.0.0.0
 * /usr/lib/libtss2-sys.so
 * /usr/lib/libtss2-sys.so.1
-* /usr/lib/libtss2-sys.so.1.0.0
+* /usr/lib/libtss2-sys.so.1.0.1
 * /usr/lib/libtss2-tcti-cmd.so
 * /usr/lib/libtss2-tcti-cmd.so.0
 * /usr/lib/libtss2-tcti-cmd.so.0.0.0
 * /usr/lib/libtss2-tcti-device.so
 * /usr/lib/libtss2-tcti-device.so.0
 * /usr/lib/libtss2-tcti-device.so.0.0.0
+* /usr/lib/libtss2-tcti-i2c-helper.so
+* /usr/lib/libtss2-tcti-i2c-helper.so.0
+* /usr/lib/libtss2-tcti-i2c-helper.so.0.0.0
 * /usr/lib/libtss2-tcti-mssim.so
 * /usr/lib/libtss2-tcti-mssim.so.0
 * /usr/lib/libtss2-tcti-mssim.so.0.0.0
 * /usr/lib/libtss2-tcti-pcap.so
 * /usr/lib/libtss2-tcti-pcap.so.0
 * /usr/lib/libtss2-tcti-pcap.so.0.0.0
+* /usr/lib/libtss2-tcti-spi-helper.so
+* /usr/lib/libtss2-tcti-spi-helper.so.0
+* /usr/lib/libtss2-tcti-spi-helper.so.0.0.0
+* /usr/lib/libtss2-tcti-spi-ltt2go.so
+* /usr/lib/libtss2-tcti-spi-ltt2go.so.0
+* /usr/lib/libtss2-tcti-spi-ltt2go.so.0.0.0
+* /usr/lib/libtss2-tcti-spidev.so
+* /usr/lib/libtss2-tcti-spidev.so.0
+* /usr/lib/libtss2-tcti-spidev.so.0.0.0
 * /usr/lib/libtss2-tcti-swtpm.so
 * /usr/lib/libtss2-tcti-swtpm.so.0
 * /usr/lib/libtss2-tcti-swtpm.so.0.0.0
@@ -73,21 +95,26 @@ Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2)
 * /usr/lib/pkgconfig/tss2-esys.pc
 * /usr/lib/pkgconfig/tss2-fapi.pc
 * /usr/lib/pkgconfig/tss2-mu.pc
+* /usr/lib/pkgconfig/tss2-policy.pc
 * /usr/lib/pkgconfig/tss2-rc.pc
 * /usr/lib/pkgconfig/tss2-sys.pc
 * /usr/lib/pkgconfig/tss2-tcti-cmd.pc
 * /usr/lib/pkgconfig/tss2-tcti-device.pc
+* /usr/lib/pkgconfig/tss2-tcti-i2c-helper.pc
 * /usr/lib/pkgconfig/tss2-tcti-mssim.pc
 * /usr/lib/pkgconfig/tss2-tcti-pcap.pc
+* /usr/lib/pkgconfig/tss2-tcti-spi-helper.pc
+* /usr/lib/pkgconfig/tss2-tcti-spi-ltt2go.pc
+* /usr/lib/pkgconfig/tss2-tcti-spidev.pc
 * /usr/lib/pkgconfig/tss2-tcti-swtpm.pc
 * /usr/lib/pkgconfig/tss2-tctildr.pc
 * /usr/lib/udev/rules.d/tpm-udev.rules
-* /usr/share/doc/tpm2-tss-3.2.2/AUTHORS
-* /usr/share/doc/tpm2-tss-3.2.2/INSTALL.md
-* /usr/share/doc/tpm2-tss-3.2.2/LICENSE
-* /usr/share/doc/tpm2-tss-3.2.2/README.md
-* /usr/share/doc/tpm2-tss-3.2.2/RELEASE.md
-* /usr/share/doc/tpm2-tss-3.2.2/VERSION
+* /usr/share/doc/tpm2-tss-4.1.0/AUTHORS
+* /usr/share/doc/tpm2-tss-4.1.0/INSTALL.md
+* /usr/share/doc/tpm2-tss-4.1.0/LICENSE
+* /usr/share/doc/tpm2-tss-4.1.0/README.md
+* /usr/share/doc/tpm2-tss-4.1.0/RELEASE.md
+* /usr/share/doc/tpm2-tss-4.1.0/VERSION
 * /usr/share/man/man3/Esys_ActivateCredential.3.gz
 * /usr/share/man/man3/Esys_Certify.3.gz
 * /usr/share/man/man3/Esys_CertifyCreation.3.gz
@@ -253,6 +280,12 @@ Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2)
 * /usr/share/man/man5/fapi-profile.5.gz
 * /usr/share/man/man7/tss2-tcti-cmd.7.gz
 * /usr/share/man/man7/tss2-tcti-device.7.gz
+* /usr/share/man/man7/tss2-tcti-i2c-ftdi.7.gz
+* /usr/share/man/man7/tss2-tcti-i2c-helper.7.gz
 * /usr/share/man/man7/tss2-tcti-mssim.7.gz
+* /usr/share/man/man7/tss2-tcti-spi-ftdi.7.gz
+* /usr/share/man/man7/tss2-tcti-spi-helper.7.gz
+* /usr/share/man/man7/tss2-tcti-spi-ltt2go.7.gz
+* /usr/share/man/man7/tss2-tcti-spidev.7.gz
 * /usr/share/man/man7/tss2-tcti-swtpm.7.gz
 * /usr/share/man/man7/tss2-tctildr.7.gz

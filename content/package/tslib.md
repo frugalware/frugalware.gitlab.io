@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tslib 1.22-2"
-version = "1.22-2"
+title = "tslib 1.23-1"
+version = "1.23-1"
 description = "Touchscreen Access Library"
-date = "2023-09-04T17:24:11"
+date = "2024-05-02T11:56:44"
 aliases = "/packages/220774"
 categories = ['lib']
 upstreamurl = "https://github.com/kergoth/tslib"
 arch = "x86_64"
-size = "120188"
-usize = "563012"
-sha1sum = "17ed6325be8f6243baa0444bbe7ac9a7640d6973"
+size = "121524"
+usize = "578245"
+sha1sum = "2344d052da9e4356e260efd5b919a565ed3bca03"
 depends = "['glibc']"
 reverse_depends = "['qt5-base', 'qt6-base']"
 +++
@@ -33,8 +33,9 @@ Touchscreen Access Library
 * /usr/include/tslib.h
 * /usr/lib/libts.so
 * /usr/lib/libts.so.0
-* /usr/lib/libts.so.0.10.4
+* /usr/lib/libts.so.0.10.5
 * /usr/lib/pkgconfig/tslib.pc
+* /usr/lib/ts/crop.so
 * /usr/lib/ts/debounce.so
 * /usr/lib/ts/dejitter.so
 * /usr/lib/ts/evthres.so
@@ -49,14 +50,14 @@ Touchscreen Access Library
 * /usr/lib/ts/touchkit.so
 * /usr/lib/ts/variance.so
 * /usr/lib/ts/waveshare.so
-* /usr/share/doc/tslib-1.22/AUTHORS
-* /usr/share/doc/tslib-1.22/ChangeLog
-* /usr/share/doc/tslib-1.22/COPYING
-* /usr/share/doc/tslib-1.22/INSTALL
-* /usr/share/doc/tslib-1.22/NEWS
-* /usr/share/doc/tslib-1.22/README
-* /usr/share/doc/tslib-1.22/README.md
-* /usr/share/doc/tslib-1.22/THANKS
+* /usr/share/doc/tslib-1.23/AUTHORS
+* /usr/share/doc/tslib-1.23/ChangeLog
+* /usr/share/doc/tslib-1.23/COPYING
+* /usr/share/doc/tslib-1.23/INSTALL
+* /usr/share/doc/tslib-1.23/NEWS
+* /usr/share/doc/tslib-1.23/README
+* /usr/share/doc/tslib-1.23/README.md
+* /usr/share/doc/tslib-1.23/THANKS
 * /usr/share/man/man1/ts_calibrate.1.gz
 * /usr/share/man/man1/ts_conf.1.gz
 * /usr/share/man/man1/ts_finddev.1.gz

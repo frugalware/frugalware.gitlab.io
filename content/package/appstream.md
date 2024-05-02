@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "appstream 1.0.2-4"
-version = "1.0.2-4"
+title = "appstream 1.0.3-1"
+version = "1.0.3-1"
 description = "Provides a standard for creating app stores across distributions"
-date = "2024-04-05T13:14:27"
+date = "2024-05-02T12:03:58"
 aliases = "/packages/218251"
 categories = ['lib']
 upstreamurl = "http://distributions.freedesktop.org/wiki/AppStream"
 arch = "x86_64"
-size = "3408588"
-usize = "15941006"
-sha1sum = "87898dfcf3ec70cef77b255ba07c3db8e2aedbfe"
+size = "3421768"
+usize = "16586394"
+sha1sum = "4e846e5dd79e0d52cc4f0ca9a197fdb2302003e7"
 depends = "['curl', 'gobject-introspection>=1.50.0', 'libstemmer', 'libxmlb', 'libyaml']"
 reverse_depends = "['appstream-qt', 'flatpak', 'libadwaita']"
 +++
@@ -61,15 +61,15 @@ Provides a standard for creating app stores across distributions
 * /usr/include/appstream/as-video.h
 * /usr/lib/girepository-1.0/AppStream-1.0.typelib
 * /usr/lib/libappstream.so
-* /usr/lib/libappstream.so.1.0.2
+* /usr/lib/libappstream.so.1.0.3
 * /usr/lib/libappstream.so.5
 * /usr/lib/pkgconfig/appstream.pc
 * /usr/share/appstream/appstream.conf
-* /usr/share/doc/appstream-1.0.2/AUTHORS
-* /usr/share/doc/appstream-1.0.2/COPYING
-* /usr/share/doc/appstream-1.0.2/NEWS
-* /usr/share/doc/appstream-1.0.2/README.md
-* /usr/share/doc/appstream-1.0.2/RELEASE
+* /usr/share/doc/appstream-1.0.3/AUTHORS
+* /usr/share/doc/appstream-1.0.3/COPYING
+* /usr/share/doc/appstream-1.0.3/NEWS
+* /usr/share/doc/appstream-1.0.3/README.md
+* /usr/share/doc/appstream-1.0.3/RELEASE
 * /usr/share/doc/appstream/html/api/api.devhelp2
 * /usr/share/doc/appstream/html/api/appstream-logo.svg
 * /usr/share/doc/appstream/html/api/class.Agreement.html
@@ -972,6 +972,8 @@ Provides a standard for creating app stores across distributions
 * /usr/share/doc/appstream/html/images/screxample_xterm-bad.png
 * /usr/share/doc/appstream/html/index.html
 * /usr/share/doc/appstream/html/ix01.html
+* /usr/share/doc/appstream/html/re01.html
+* /usr/share/doc/appstream/html/re02.html
 * /usr/share/doc/appstream/html/sect-AppStream-IconCache.html
 * /usr/share/doc/appstream/html/sect-AppStream-Misc-URIHandler.html
 * /usr/share/doc/appstream/html/sect-AppStream-YAML.html
@@ -1038,6 +1040,7 @@ Provides a standard for creating app stores across distributions
 * /usr/share/locale/hi/LC_MESSAGES/appstream.mo
 * /usr/share/locale/hr/LC_MESSAGES/appstream.mo
 * /usr/share/locale/hu/LC_MESSAGES/appstream.mo
+* /usr/share/locale/ia/LC_MESSAGES/appstream.mo
 * /usr/share/locale/id/LC_MESSAGES/appstream.mo
 * /usr/share/locale/it/LC_MESSAGES/appstream.mo
 * /usr/share/locale/ja/LC_MESSAGES/appstream.mo
