@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ghostscript 10.03.0-2"
-version = "10.03.0-2"
+title = "ghostscript 10.03.0-3"
+version = "10.03.0-3"
 description = "An interpreter for the PostScript language."
-date = "2024-04-30T15:14:52"
+date = "2024-05-02T18:40:03"
 aliases = "/packages/30510"
 categories = ['apps']
 upstreamurl = "https://www.ghostscript.com/"
 arch = "x86_64"
-size = "18169448"
-usize = "28453381"
-sha1sum = "26201370431283f4e082c0c0727154915e7f50e0"
+size = "18181616"
+usize = "28499306"
+sha1sum = "d4b29b5e11780381a83a1541a47a5075aa3967e6"
 depends = "['fontconfig', 'ijs', 'jasper', 'lcms2', 'libcups', 'libgs', 'libjpeg-turbo', 'libpaper', 'libpng', 'libtiff', 'openjpeg', 'zlib>=1.2.12']"
 reverse_depends = "['darktable', 'gimp', 'hplip-driver', 'latex2html', 'scribus', 'texworks', 'xghostscript']"
 license = "GPLv2"
@@ -54,7 +54,10 @@ An interpreter for the PostScript language.
 * /usr/share/doc/ghostscript-10.03.0/10.03.0/Ghostscript.pdf
 * /usr/share/doc/ghostscript-10.03.0/10.03.0/GS9_Color_Management.pdf
 * /usr/share/doc/ghostscript-10.03.0/10.03.0/News.html
+* /usr/share/doc/ghostscript-10.03.0/AUTHORS
+* /usr/share/doc/ghostscript-10.03.0/COPYING
 * /usr/share/doc/ghostscript-10.03.0/LICENSE
+* /usr/share/doc/ghostscript-10.03.0/README.md
 * /usr/share/ghostscript/10.03.0/iccprofiles/a98.icc
 * /usr/share/ghostscript/10.03.0/iccprofiles/default_cmyk.icc
 * /usr/share/ghostscript/10.03.0/iccprofiles/default_gray.icc

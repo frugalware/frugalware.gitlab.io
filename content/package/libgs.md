@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libgs 10.03.0-2"
-version = "10.03.0-2"
+title = "libgs 10.03.0-3"
+version = "10.03.0-3"
 description = "PostScript libs from ghostscript"
-date = "2024-04-30T15:14:52"
+date = "2024-05-02T18:40:03"
 aliases = "/packages/219086"
 categories = ['libs']
 upstreamurl = "https://www.ghostscript.com/"
 arch = "x86_64"
-size = "3684052"
+size = "3675708"
 usize = "25253276"
-sha1sum = "75c49ba19aa63291b3d9cb3390ec50f9a1512c5c"
-depends = "['fontconfig', 'ijs', 'libcups', 'libidn>=1.35', 'libpaper', 'openjpeg']"
+sha1sum = "3bf595ea8e28dda33b09e73ba2f9367efc489fdc"
+depends = "['fontconfig', 'ijs', 'libcups', 'libidn>=1.35', 'libpaper', 'libxt', 'openjpeg']"
 reverse_depends = "['ghostscript', 'graphviz', 'libspectre', 'texlive']"
 +++
 ### Description: 

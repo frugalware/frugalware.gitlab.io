@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "efl 1.26.3-3"
-version = "1.26.3-3"
+title = "efl 1.27.0-1"
+version = "1.27.0-1"
 description = "Enlightenment Foundation Libraries"
-date = "2023-03-15T19:07:29"
+date = "2024-05-02T19:04:19"
 aliases = "/packages/218022"
 categories = ['e-libs']
 upstreamurl = "https://www.enlightenment.org/"
 arch = "x86_64"
-size = "30946028"
-usize = "74246814"
-sha1sum = "4f5ce7daeb22266bb209da51aa3cef773b3f3647"
-depends = "['avahi', 'bullet>=2.89', 'bzip2', 'dbus', 'expat', 'flac', 'fontconfig', 'freetype2', 'fribidi', 'glib2', 'glibc', 'graphite2', 'gst1-plugins-base', 'gstreamer1', 'harfbuzz', 'json-c', 'libasyncns', 'libblkid', 'libdrm', 'libevdev', 'libffi', 'libgbm', 'libgcc', 'libgcrypt', 'libgif', 'libgif', 'libgl', 'libglapi', 'libgpg-error', 'libinput', 'libjpeg-turbo', 'libogg', 'libpng', 'libpulse', 'libraw>=0.21.1', 'librsvg', 'libsndfile', 'libspectre', 'libssp', 'libstdc++', 'libsystemd', 'libtiff', 'libunwind', 'libuuid', 'libvlc', 'libvorbis', 'libwebp', 'libx11', 'libxau', 'libxcb', 'libxcomposite', 'libxcursor', 'libxdamage', 'libxdmcp', 'libxext', 'libxfixes', 'libxi', 'libxinerama', 'libxkbcommon', 'libxrandr', 'libxrender', 'libxscrnsaver', 'libxshmfence', 'libxtst', 'libxxf86vm', 'luajit2', 'lz4', 'mtdev', 'openjpeg>=2.2.0', 'openssl>=3.1.0', 'orc', 'pcre', 'poppler>=0.60.1-2', 'scim', 'util-linux', 'wayland', 'wayland', 'wayland-protocols', 'xz', 'zlib>=1.2.12']"
+size = "30916556"
+usize = "73768746"
+sha1sum = "2448f61e371a0492a26b57b78c47fa48fc86d5c1"
+depends = "['avahi', 'bullet>=2.89', 'bzip2', 'dbus', 'expat', 'flac', 'fontconfig', 'freetype2', 'fribidi', 'glib2', 'glibc', 'graphite2', 'gst1-plugins-base', 'gstreamer1', 'harfbuzz', 'json-c', 'libasyncns', 'libblkid', 'libdrm', 'libevdev', 'libffi', 'libgbm', 'libgcc', 'libgcrypt', 'libgif', 'libgif', 'libgl', 'libglapi', 'libgpg-error', 'libinput', 'libjpeg-turbo', 'libogg', 'libpng', 'libpulse', 'libraw>=0.21.1', 'librsvg', 'libsndfile', 'libspectre', 'libssp', 'libstdc++', 'libsystemd', 'libtiff', 'libunwind', 'libuuid', 'libvlc', 'libvorbis', 'libwebp', 'libx11', 'libxau', 'libxcb', 'libxcomposite', 'libxcursor', 'libxdamage', 'libxdmcp', 'libxext', 'libxfixes', 'libxi', 'libxinerama', 'libxkbcommon', 'libxrandr', 'libxrender', 'libxscrnsaver', 'libxshmfence', 'libxtst', 'libxxf86vm', 'luajit2', 'lz4', 'mtdev', 'openjpeg>=2.2.0', 'openssl>=3.1.0', 'orc', 'pcre', 'poppler>=24.05.0', 'scim', 'util-linux', 'wayland', 'wayland', 'wayland-protocols', 'xz', 'zlib>=1.2.12']"
 reverse_depends = "['eflete', 'enlightenment', 'enventor', 'pinentry-enlightment', 'python-efl', 'rage', 'terminology']"
 license = "LGPL2.1"
 +++
@@ -675,6 +675,7 @@ Enlightenment Foundation Libraries
 * /usr/include/eina-1/eina/eina_refcount.h
 * /usr/include/eina-1/eina/eina_safepointer.h
 * /usr/include/eina-1/eina/eina_safety_checks.h
+* /usr/include/eina-1/eina/eina_sha.h
 * /usr/include/eina-1/eina/eina_simple_xml_parser.h
 * /usr/include/eina-1/eina/eina_slice.h
 * /usr/include/eina-1/eina/eina_slstr.h
@@ -1378,6 +1379,7 @@ Enlightenment Foundation Libraries
 * /usr/include/elementary-1/elm_widget_icon.h
 * /usr/include/elementary-1/elm_widget_index.h
 * /usr/include/elementary-1/elm_widget_inwin.h
+* /usr/include/elementary-1/elm_widget_item_container_eo.h
 * /usr/include/elementary-1/elm_widget_item_container_eo.legacy.h
 * /usr/include/elementary-1/elm_widget_item_eo.legacy.h
 * /usr/include/elementary-1/elm_widget_item_static_focus_eo.legacy.h
@@ -2086,49 +2088,51 @@ Enlightenment Foundation Libraries
 * /usr/lib/cmake/Evas/EvasConfigVersion.cmake
 * /usr/lib/cmake/EvasCxx/EvasCxxConfig.cmake
 * /usr/lib/cmake/EvasCxx/EvasCxxConfigVersion.cmake
-* /usr/lib/ecore/system/systemd/v-1.26/module.so
-* /usr/lib/ecore/system/upower/v-1.26/module.so
-* /usr/lib/ecore_con/utils/v-1.26/efl_net_proxy_helper
-* /usr/lib/ecore_evas/engines/extn/v-1.26/module.so
-* /usr/lib/ecore_evas/engines/x/v-1.26/module.so
-* /usr/lib/ecore_imf/modules/scim/v-1.26/module.so
-* /usr/lib/ecore_imf/modules/xim/v-1.26/module.so
-* /usr/lib/edje/modules/elm/v-1.26/module.so
-* /usr/lib/edje/modules/emotion/v-1.26/module.so
-* /usr/lib/edje/utils/v-1.26/epp
-* /usr/lib/eeze/modules/sensor/fake/v-1.26/module.so
-* /usr/lib/eeze/modules/sensor/udev/v-1.26/module.so
-* /usr/lib/efreet/v-1.26/efreet_desktop_cache_create
-* /usr/lib/efreet/v-1.26/efreet_icon_cache_create
-* /usr/lib/efreet/v-1.26/efreet_mime_cache_create
-* /usr/lib/elementary/modules/access_output/v-1.26/module.so
-* /usr/lib/elementary/modules/prefs/v-1.26/module.so
-* /usr/lib/elementary/modules/test_entry/v-1.26/module.so
-* /usr/lib/elementary/modules/test_map/v-1.26/module.so
-* /usr/lib/elementary/modules/web/none/v-1.26/module.so
-* /usr/lib/emotion/modules/gstreamer1/v-1.26/module.so
-* /usr/lib/ethumb/modules/emotion/v-1.26/module.so
-* /usr/lib/ethumb_client/utils/v-1.26/ethumbd_slave
-* /usr/lib/evas/modules/engines/buffer/v-1.26/module.so
-* /usr/lib/evas/modules/engines/gl_generic/v-1.26/module.so
-* /usr/lib/evas/modules/engines/gl_x11/v-1.26/module.so
-* /usr/lib/evas/modules/engines/software_x11/v-1.26/module.so
-* /usr/lib/evas/modules/image_loaders/bmp/v-1.26/module.so
-* /usr/lib/evas/modules/image_loaders/generic/v-1.26/module.so
-* /usr/lib/evas/modules/image_loaders/gif/v-1.26/module.so
-* /usr/lib/evas/modules/image_loaders/ico/v-1.26/module.so
-* /usr/lib/evas/modules/image_loaders/jp2k/v-1.26/module.so
-* /usr/lib/evas/modules/image_loaders/pmaps/v-1.26/module.so
-* /usr/lib/evas/modules/image_loaders/psd/v-1.26/module.so
-* /usr/lib/evas/modules/image_loaders/tga/v-1.26/module.so
-* /usr/lib/evas/modules/image_loaders/tgv/v-1.26/module.so
-* /usr/lib/evas/modules/image_loaders/tiff/v-1.26/module.so
-* /usr/lib/evas/modules/image_loaders/wbmp/v-1.26/module.so
-* /usr/lib/evas/modules/image_loaders/webp/v-1.26/module.so
-* /usr/lib/evas/modules/image_loaders/xpm/v-1.26/module.so
-* /usr/lib/evas/modules/image_savers/tgv/v-1.26/module.so
-* /usr/lib/evas/modules/image_savers/tiff/v-1.26/module.so
-* /usr/lib/evas/modules/image_savers/webp/v-1.26/module.so
+* /usr/lib/ecore/system/systemd/v-1.27/module.so
+* /usr/lib/ecore/system/upower/v-1.27/module.so
+* /usr/lib/ecore_con/utils/v-1.27/efl_net_proxy_helper
+* /usr/lib/ecore_evas/engines/extn/v-1.27/module.so
+* /usr/lib/ecore_evas/engines/x/v-1.27/module.so
+* /usr/lib/ecore_imf/modules/scim/v-1.27/module.so
+* /usr/lib/ecore_imf/modules/xim/v-1.27/module.so
+* /usr/lib/edje/modules/elm/v-1.27/module.so
+* /usr/lib/edje/modules/emotion/v-1.27/module.so
+* /usr/lib/edje/utils/v-1.27/epp
+* /usr/lib/eeze/modules/sensor/fake/v-1.27/module.so
+* /usr/lib/eeze/modules/sensor/udev/v-1.27/module.so
+* /usr/lib/efreet/v-1.27/efreet_desktop_cache_create
+* /usr/lib/efreet/v-1.27/efreet_icon_cache_create
+* /usr/lib/efreet/v-1.27/efreet_mime_cache_create
+* /usr/lib/elementary/modules/access_output/v-1.27/module.so
+* /usr/lib/elementary/modules/prefs/v-1.27/module.so
+* /usr/lib/elementary/modules/test_entry/v-1.27/module.so
+* /usr/lib/elementary/modules/test_map/v-1.27/module.so
+* /usr/lib/elementary/modules/web/none/v-1.27/module.so
+* /usr/lib/emotion/modules/gstreamer1/v-1.27/module.so
+* /usr/lib/ethumb/modules/emotion/v-1.27/module.so
+* /usr/lib/ethumb_client/utils/v-1.27/ethumbd_slave
+* /usr/lib/evas/modules/engines/buffer/v-1.27/module.so
+* /usr/lib/evas/modules/engines/gl_generic/v-1.27/module.so
+* /usr/lib/evas/modules/engines/gl_x11/v-1.27/module.so
+* /usr/lib/evas/modules/engines/software_x11/v-1.27/module.so
+* /usr/lib/evas/modules/image_loaders/bmp/v-1.27/module.so
+* /usr/lib/evas/modules/image_loaders/generic/v-1.27/module.so
+* /usr/lib/evas/modules/image_loaders/gif/v-1.27/module.so
+* /usr/lib/evas/modules/image_loaders/ico/v-1.27/module.so
+* /usr/lib/evas/modules/image_loaders/jp2k/v-1.27/module.so
+* /usr/lib/evas/modules/image_loaders/pmaps/v-1.27/module.so
+* /usr/lib/evas/modules/image_loaders/psd/v-1.27/module.so
+* /usr/lib/evas/modules/image_loaders/qoi/v-1.27/module.so
+* /usr/lib/evas/modules/image_loaders/tga/v-1.27/module.so
+* /usr/lib/evas/modules/image_loaders/tgv/v-1.27/module.so
+* /usr/lib/evas/modules/image_loaders/tiff/v-1.27/module.so
+* /usr/lib/evas/modules/image_loaders/wbmp/v-1.27/module.so
+* /usr/lib/evas/modules/image_loaders/webp/v-1.27/module.so
+* /usr/lib/evas/modules/image_loaders/xpm/v-1.27/module.so
+* /usr/lib/evas/modules/image_savers/qoi/v-1.27/module.so
+* /usr/lib/evas/modules/image_savers/tgv/v-1.27/module.so
+* /usr/lib/evas/modules/image_savers/tiff/v-1.27/module.so
+* /usr/lib/evas/modules/image_savers/webp/v-1.27/module.so
 * /usr/lib/evas/utils/evas_generic_pdf_loader.doc
 * /usr/lib/evas/utils/evas_generic_pdf_loader.docx
 * /usr/lib/evas/utils/evas_generic_pdf_loader.libreoffice
@@ -2231,109 +2235,109 @@ Enlightenment Foundation Libraries
 * /usr/lib/evas/utils/evas_image_loader.xlsx
 * /usr/lib/libecore.so
 * /usr/lib/libecore.so.1
-* /usr/lib/libecore.so.1.26.3
+* /usr/lib/libecore.so.1.27.0
 * /usr/lib/libecore_audio.so
 * /usr/lib/libecore_audio.so.1
-* /usr/lib/libecore_audio.so.1.26.3
+* /usr/lib/libecore_audio.so.1.27.0
 * /usr/lib/libecore_con.so
 * /usr/lib/libecore_con.so.1
-* /usr/lib/libecore_con.so.1.26.3
+* /usr/lib/libecore_con.so.1.27.0
 * /usr/lib/libecore_evas.so
 * /usr/lib/libecore_evas.so.1
-* /usr/lib/libecore_evas.so.1.26.3
+* /usr/lib/libecore_evas.so.1.27.0
 * /usr/lib/libecore_file.so
 * /usr/lib/libecore_file.so.1
-* /usr/lib/libecore_file.so.1.26.3
+* /usr/lib/libecore_file.so.1.27.0
 * /usr/lib/libecore_imf.so
 * /usr/lib/libecore_imf.so.1
-* /usr/lib/libecore_imf.so.1.26.3
+* /usr/lib/libecore_imf.so.1.27.0
 * /usr/lib/libecore_imf_evas.so
 * /usr/lib/libecore_imf_evas.so.1
-* /usr/lib/libecore_imf_evas.so.1.26.3
+* /usr/lib/libecore_imf_evas.so.1.27.0
 * /usr/lib/libecore_input.so
 * /usr/lib/libecore_input.so.1
-* /usr/lib/libecore_input.so.1.26.3
+* /usr/lib/libecore_input.so.1.27.0
 * /usr/lib/libecore_input_evas.so
 * /usr/lib/libecore_input_evas.so.1
-* /usr/lib/libecore_input_evas.so.1.26.3
+* /usr/lib/libecore_input_evas.so.1.27.0
 * /usr/lib/libecore_ipc.so
 * /usr/lib/libecore_ipc.so.1
-* /usr/lib/libecore_ipc.so.1.26.3
+* /usr/lib/libecore_ipc.so.1.27.0
 * /usr/lib/libecore_x.so
 * /usr/lib/libecore_x.so.1
-* /usr/lib/libecore_x.so.1.26.3
+* /usr/lib/libecore_x.so.1.27.0
 * /usr/lib/libector.so
 * /usr/lib/libector.so.1
-* /usr/lib/libector.so.1.26.3
+* /usr/lib/libector.so.1.27.0
 * /usr/lib/libedje.so
 * /usr/lib/libedje.so.1
-* /usr/lib/libedje.so.1.26.3
+* /usr/lib/libedje.so.1.27.0
 * /usr/lib/libeet.so
 * /usr/lib/libeet.so.1
-* /usr/lib/libeet.so.1.26.3
+* /usr/lib/libeet.so.1.27.0
 * /usr/lib/libeeze.so
 * /usr/lib/libeeze.so.1
-* /usr/lib/libeeze.so.1.26.3
+* /usr/lib/libeeze.so.1.27.0
 * /usr/lib/libefl.so
 * /usr/lib/libefl.so.1
-* /usr/lib/libefl.so.1.26.3
+* /usr/lib/libefl.so.1.27.0
 * /usr/lib/libefreet.so
 * /usr/lib/libefreet.so.1
-* /usr/lib/libefreet.so.1.26.3
+* /usr/lib/libefreet.so.1.27.0
 * /usr/lib/libefreet_mime.so
 * /usr/lib/libefreet_mime.so.1
-* /usr/lib/libefreet_mime.so.1.26.3
+* /usr/lib/libefreet_mime.so.1.27.0
 * /usr/lib/libefreet_trash.so
 * /usr/lib/libefreet_trash.so.1
-* /usr/lib/libefreet_trash.so.1.26.3
+* /usr/lib/libefreet_trash.so.1.27.0
 * /usr/lib/libeina.so
 * /usr/lib/libeina.so.1
-* /usr/lib/libeina.so.1.26.3
+* /usr/lib/libeina.so.1.27.0
 * /usr/lib/libeio.so
 * /usr/lib/libeio.so.1
-* /usr/lib/libeio.so.1.26.3
+* /usr/lib/libeio.so.1.27.0
 * /usr/lib/libeldbus.so
 * /usr/lib/libeldbus.so.1
-* /usr/lib/libeldbus.so.1.26.3
+* /usr/lib/libeldbus.so.1.27.0
 * /usr/lib/libelementary.so
 * /usr/lib/libelementary.so.1
-* /usr/lib/libelementary.so.1.26.3
+* /usr/lib/libelementary.so.1.27.0
 * /usr/lib/libelput.so
 * /usr/lib/libelput.so.1
-* /usr/lib/libelput.so.1.26.3
+* /usr/lib/libelput.so.1.27.0
 * /usr/lib/libembryo.so
 * /usr/lib/libembryo.so.1
-* /usr/lib/libembryo.so.1.26.3
+* /usr/lib/libembryo.so.1.27.0
 * /usr/lib/libemile.so
 * /usr/lib/libemile.so.1
-* /usr/lib/libemile.so.1.26.3
+* /usr/lib/libemile.so.1.27.0
 * /usr/lib/libemotion.so
 * /usr/lib/libemotion.so.1
-* /usr/lib/libemotion.so.1.26.3
+* /usr/lib/libemotion.so.1.27.0
 * /usr/lib/libeo.so
 * /usr/lib/libeo.so.1
-* /usr/lib/libeo.so.1.26.3
+* /usr/lib/libeo.so.1.27.0
 * /usr/lib/libeolian.so
 * /usr/lib/libeolian.so.1
-* /usr/lib/libeolian.so.1.26.3
+* /usr/lib/libeolian.so.1.27.0
 * /usr/lib/libeo_dbg.so
 * /usr/lib/libeo_dbg.so.1
-* /usr/lib/libeo_dbg.so.1.26.3
+* /usr/lib/libeo_dbg.so.1.27.0
 * /usr/lib/libethumb.so
 * /usr/lib/libethumb.so.1
-* /usr/lib/libethumb.so.1.26.3
+* /usr/lib/libethumb.so.1.27.0
 * /usr/lib/libethumb_client.so
 * /usr/lib/libethumb_client.so.1
-* /usr/lib/libethumb_client.so.1.26.3
+* /usr/lib/libethumb_client.so.1.27.0
 * /usr/lib/libevas.so
 * /usr/lib/libevas.so.1
-* /usr/lib/libevas.so.1.26.3
+* /usr/lib/libevas.so.1.27.0
 * /usr/lib/libexactness_play.so
 * /usr/lib/libexactness_play.so.1
-* /usr/lib/libexactness_play.so.1.26.3
+* /usr/lib/libexactness_play.so.1.27.0
 * /usr/lib/libexactness_record.so
 * /usr/lib/libexactness_record.so.1
-* /usr/lib/libexactness_record.so.1.26.3
+* /usr/lib/libexactness_record.so.1.27.0
 * /usr/lib/pkgconfig/ecore-audio.pc
 * /usr/lib/pkgconfig/ecore-con.pc
 * /usr/lib/pkgconfig/ecore-cxx.pc
@@ -2386,13 +2390,9 @@ Enlightenment Foundation Libraries
 * /usr/share/applications/elementary_perf.desktop
 * /usr/share/applications/elementary_test.desktop
 * /usr/share/dbus-1/services/org.enlightenment.Ethumb.service
-* /usr/share/doc/efl-1.26.3/AUTHORS
-* /usr/share/doc/efl-1.26.3/ChangeLog
-* /usr/share/doc/efl-1.26.3/COPYING
-* /usr/share/doc/efl-1.26.3/COPYING.images
-* /usr/share/doc/efl-1.26.3/INSTALL
-* /usr/share/doc/efl-1.26.3/NEWS
-* /usr/share/doc/efl-1.26.3/README
+* /usr/share/doc/efl-1.27.0/AUTHORS
+* /usr/share/doc/efl-1.27.0/COPYING
+* /usr/share/doc/efl-1.27.0/README.md
 * /usr/share/ecore/checkme
 * /usr/share/ecore_imf/checkme
 * /usr/share/ecore_x/checkme
@@ -2402,6 +2402,7 @@ Enlightenment Foundation Libraries
 * /usr/share/elementary/colors/candy-mint.pal
 * /usr/share/elementary/colors/default.pal
 * /usr/share/elementary/colors/ebony-brass.pal
+* /usr/share/elementary/colors/empty.pal
 * /usr/share/elementary/colors/light.pal
 * /usr/share/elementary/colors/mauve-sunset.pal
 * /usr/share/elementary/colors/white-pill.pal
@@ -2939,7 +2940,7 @@ Enlightenment Foundation Libraries
 * /usr/share/evas/checkme
 * /usr/share/evas/filters/lua/color.lua
 * /usr/share/exactness/player_entry.edj
-* /usr/share/gdb/auto-load/usr/lib/libeo.so.1.26.3-gdb.py
+* /usr/share/gdb/auto-load/usr/lib/libeo.so.1.27.0-gdb.py
 * /usr/share/icons/Enlightenment-X/actions/128/address-book-new.png
 * /usr/share/icons/Enlightenment-X/actions/128/application-exit.png
 * /usr/share/icons/Enlightenment-X/actions/128/appointment-new.png
@@ -3394,6 +3395,7 @@ Enlightenment Foundation Libraries
 * /usr/share/locale/hu/LC_MESSAGES/efl.mo
 * /usr/share/locale/it/LC_MESSAGES/efl.mo
 * /usr/share/locale/ja/LC_MESSAGES/efl.mo
+* /usr/share/locale/ka/LC_MESSAGES/efl.mo
 * /usr/share/locale/ko/LC_MESSAGES/efl.mo
 * /usr/share/locale/ko_KR/LC_MESSAGES/efl.mo
 * /usr/share/locale/lt/LC_MESSAGES/efl.mo
