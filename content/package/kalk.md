@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kalk 24.02.2-3"
-version = "24.02.2-3"
+title = "kalk 24.02.2-4"
+version = "24.02.2-4"
 description = "A powerful cross-platform calculator application built with the Kirigami framework"
-date = "2024-04-17T01:33:00"
+date = "2024-05-02T19:34:10"
 aliases = "/packages/220970"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "69376"
-usize = "228532"
-sha1sum = "dafb696e131703fe56eb47acecedffe0b5657086"
-depends = "['kconfig', 'kcoreaddons', 'kirigami', 'kunitconversion', 'libqalculate', 'mpfr']"
+size = "235784"
+usize = "966084"
+sha1sum = "9f4988adbe8197a1f40f79c6984e4133a45e0f3a"
+depends = "['kconfig', 'kcoreaddons', 'kirigami', 'kunitconversion', 'libqalculate>=5.0.0', 'mpfr']"
 +++
 ### Description: 
 A powerful cross-platform calculator application built with the Kirigami framework
@@ -19,7 +19,17 @@ A powerful cross-platform calculator application built with the Kirigami framewo
 ### Files: 
 * /usr/bin/kalk
 * /usr/share/applications/org.kde.kalk.desktop
+* /usr/share/doc/kalk-24.02.2/AUTHORS
+* /usr/share/doc/kalk-24.02.2/ChangeLog
+* /usr/share/doc/kalk-24.02.2/COPYING
+* /usr/share/doc/kalk-24.02.2/INSTALL.md
+* /usr/share/doc/kalk-24.02.2/NEWS
+* /usr/share/doc/kalk-24.02.2/README
+* /usr/share/doc/kalk-24.02.2/README.MacOSX
 * /usr/share/doc/kalk-24.02.2/README.md
+* /usr/share/doc/kalk-24.02.2/README.md.license
+* /usr/share/doc/kalk-24.02.2/README_150Manual
+* /usr/share/doc/kalk-24.02.2/TODO
 * /usr/share/icons/hicolor/scalable/apps/org.kde.kalk.svg
 * /usr/share/locale/ar/LC_MESSAGES/kalk.mo
 * /usr/share/locale/ast/LC_MESSAGES/kalk.mo
