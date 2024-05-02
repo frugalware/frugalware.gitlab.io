@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "harfbuzz 8.3.0-1"
-version = "8.3.0-1"
+title = "harfbuzz 8.4.0-1"
+version = "8.4.0-1"
 description = "Is an implementation of the OpenType Layout engine."
-date = "2023-11-23T14:26:40"
+date = "2024-05-02T09:22:59"
 aliases = "/packages/168883"
 categories = ['xlib']
 upstreamurl = "https://github.com/harfbuzz/harfbuzz"
 arch = "x86_64"
-size = "1230024"
-usize = "7689661"
-sha1sum = "bbac3bce14ef58e3b0852695d885b10df97eb112"
+size = "1245416"
+usize = "7741385"
+sha1sum = "aec928ff2a1756d9cbc34bb468dc6e23e9871f4c"
 depends = "['cairo>=1.17.2-2', 'freetype2', 'glib2>=2.60.0', 'graphite2>=1.3.13-2', 'icu4c>=74.1', 'libffi>=3.2.1-2', 'libstdc++>=11.2', 'util-linux']"
 reverse_depends = "['chromium-browser', 'efl', 'enlightenment', 'kde-gtk-config', 'kitty', 'libass', 'mupdf', 'mupdf-gl', 'ogre', 'openjre', 'pango', 'qt5-base', 'qt6-base', 'terminology', 'texlive']"
 +++
@@ -68,32 +68,32 @@ Is an implementation of the OpenType Layout engine.
 * /usr/lib/girepository-1.0/HarfBuzz-0.0.typelib
 * /usr/lib/libharfbuzz-cairo.so
 * /usr/lib/libharfbuzz-cairo.so.0
-* /usr/lib/libharfbuzz-cairo.so.0.60830.0
+* /usr/lib/libharfbuzz-cairo.so.0.60840.0
 * /usr/lib/libharfbuzz-gobject.so
 * /usr/lib/libharfbuzz-gobject.so.0
-* /usr/lib/libharfbuzz-gobject.so.0.60830.0
+* /usr/lib/libharfbuzz-gobject.so.0.60840.0
 * /usr/lib/libharfbuzz-icu.so
 * /usr/lib/libharfbuzz-icu.so.0
-* /usr/lib/libharfbuzz-icu.so.0.60830.0
+* /usr/lib/libharfbuzz-icu.so.0.60840.0
 * /usr/lib/libharfbuzz-subset.so
 * /usr/lib/libharfbuzz-subset.so.0
-* /usr/lib/libharfbuzz-subset.so.0.60830.0
+* /usr/lib/libharfbuzz-subset.so.0.60840.0
 * /usr/lib/libharfbuzz.so
 * /usr/lib/libharfbuzz.so.0
-* /usr/lib/libharfbuzz.so.0.60830.0
+* /usr/lib/libharfbuzz.so.0.60840.0
 * /usr/lib/pkgconfig/harfbuzz-cairo.pc
 * /usr/lib/pkgconfig/harfbuzz-gobject.pc
 * /usr/lib/pkgconfig/harfbuzz-icu.pc
 * /usr/lib/pkgconfig/harfbuzz-subset.pc
 * /usr/lib/pkgconfig/harfbuzz.pc
-* /usr/share/doc/harfbuzz-8.3.0/AUTHORS
-* /usr/share/doc/harfbuzz-8.3.0/COPYING
-* /usr/share/doc/harfbuzz-8.3.0/NEWS
-* /usr/share/doc/harfbuzz-8.3.0/README
-* /usr/share/doc/harfbuzz-8.3.0/README.md
-* /usr/share/doc/harfbuzz-8.3.0/README.mingw.md
-* /usr/share/doc/harfbuzz-8.3.0/README.python.md
-* /usr/share/doc/harfbuzz-8.3.0/THANKS
+* /usr/share/doc/harfbuzz-8.4.0/AUTHORS
+* /usr/share/doc/harfbuzz-8.4.0/COPYING
+* /usr/share/doc/harfbuzz-8.4.0/NEWS
+* /usr/share/doc/harfbuzz-8.4.0/README
+* /usr/share/doc/harfbuzz-8.4.0/README.md
+* /usr/share/doc/harfbuzz-8.4.0/README.mingw.md
+* /usr/share/doc/harfbuzz-8.4.0/README.python.md
+* /usr/share/doc/harfbuzz-8.4.0/THANKS
 * /usr/share/gir-1.0/HarfBuzz-0.0.gir
 * /usr/share/gtk-doc/html/harfbuzz/a-clustering-example-for-levels-0-and-1.html
 * /usr/share/gtk-doc/html/harfbuzz/a-simple-shaping-example.html
@@ -168,6 +168,8 @@ Is an implementation of the OpenType Layout engine.
 * /usr/share/gtk-doc/html/harfbuzz/api-index-8-0-0.html
 * /usr/share/gtk-doc/html/harfbuzz/api-index-8-1-0.html
 * /usr/share/gtk-doc/html/harfbuzz/api-index-8-2-0.html
+* /usr/share/gtk-doc/html/harfbuzz/api-index-8-3-1.html
+* /usr/share/gtk-doc/html/harfbuzz/api-index-8-4-0.html
 * /usr/share/gtk-doc/html/harfbuzz/api-index-full.html
 * /usr/share/gtk-doc/html/harfbuzz/apple-advanced-typography-api.html
 * /usr/share/gtk-doc/html/harfbuzz/buffers-language-script-and-direction.html

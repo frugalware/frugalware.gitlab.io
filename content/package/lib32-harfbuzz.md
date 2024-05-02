@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-harfbuzz 8.3.0-1"
-version = "8.3.0-1"
+title = "lib32-harfbuzz 8.4.0-1"
+version = "8.4.0-1"
 description = "Is an implementation of the OpenType Layout engine. ( 32bit )"
-date = "2023-11-23T14:26:40"
+date = "2024-05-02T09:22:59"
 aliases = "/packages/218973"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/harfbuzz/harfbuzz"
 arch = "x86_64"
-size = "926796"
-usize = "3058881"
-sha1sum = "7ed15bd43de35aa2fbd747b2e3c8ce757b335244"
+size = "939620"
+usize = "3088340"
+sha1sum = "df1665259c63177b94abecbad4e49b172fae176c"
 depends = "['lib32-cairo', 'lib32-glib2', 'lib32-icu4c', 'lib32-libffi', 'lib32-util-linux']"
 reverse_depends = "['lib32-libass', 'lib32-pango']"
 +++
@@ -63,16 +63,16 @@ Is an implementation of the OpenType Layout engine. ( 32bit )
 * /usr/lib32/cmake/harfbuzz/harfbuzz-config.cmake
 * /usr/lib32/libharfbuzz-cairo.so
 * /usr/lib32/libharfbuzz-cairo.so.0
-* /usr/lib32/libharfbuzz-cairo.so.0.60830.0
+* /usr/lib32/libharfbuzz-cairo.so.0.60840.0
 * /usr/lib32/libharfbuzz-icu.so
 * /usr/lib32/libharfbuzz-icu.so.0
-* /usr/lib32/libharfbuzz-icu.so.0.60830.0
+* /usr/lib32/libharfbuzz-icu.so.0.60840.0
 * /usr/lib32/libharfbuzz-subset.so
 * /usr/lib32/libharfbuzz-subset.so.0
-* /usr/lib32/libharfbuzz-subset.so.0.60830.0
+* /usr/lib32/libharfbuzz-subset.so.0.60840.0
 * /usr/lib32/libharfbuzz.so
 * /usr/lib32/libharfbuzz.so.0
-* /usr/lib32/libharfbuzz.so.0.60830.0
+* /usr/lib32/libharfbuzz.so.0.60840.0
 * /usr/lib32/pkgconfig/harfbuzz-cairo.pc
 * /usr/lib32/pkgconfig/harfbuzz-icu.pc
 * /usr/lib32/pkgconfig/harfbuzz-subset.pc
