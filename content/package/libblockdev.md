@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libblockdev 3.1.0-1"
-version = "3.1.0-1"
+title = "libblockdev 3.1.1-1"
+version = "3.1.1-1"
 description = "A library for manipulating block devices"
-date = "2024-01-29T12:28:33"
+date = "2024-05-02T08:50:55"
 aliases = "/packages/219656"
 categories = ['lib']
 upstreamurl = "https://github.com/storaged-project/libblockdev"
 arch = "x86_64"
-size = "291956"
-usize = "2025707"
-sha1sum = "7c423c598828a9533c030e9bede8dc1f0063edcf"
+size = "291748"
+usize = "2027038"
+sha1sum = "1fb695bbc6f3c58e16e6daf2cbac554d40d25231"
 depends = "['dmraid', 'libbytesize', 'libndctl', 'libnvme', 'libyaml', 'nss', 'parted>=3.3', 'python3>=3.12', 'volume_key']"
 reverse_depends = "['udisks2']"
 +++
@@ -104,6 +104,6 @@ A library for manipulating block devices
 * /usr/lib/pkgconfig/blockdev-utils.pc
 * /usr/lib/pkgconfig/blockdev.pc
 * /usr/lib/python3.12/site-packages/gi/overrides/BlockDev.py
-* /usr/share/doc/libblockdev-3.1.0/LICENSE
-* /usr/share/doc/libblockdev-3.1.0/README.md
+* /usr/share/doc/libblockdev-3.1.1/LICENSE
+* /usr/share/doc/libblockdev-3.1.1/README.md
 * /usr/share/gir-1.0/BlockDev-3.0.gir

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-gdk-pixbuf2 2.42.10-3"
-version = "2.42.10-3"
+title = "lib32-gdk-pixbuf2 2.42.11-1"
+version = "2.42.11-1"
 description = "An image loading library ( 32bit )"
-date = "2023-09-05T08:46:46"
+date = "2024-05-02T08:41:46"
 aliases = "/packages/218977"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "139780"
-usize = "469178"
-sha1sum = "e783495ff4177a33c3202fe3590d592b5efb3118"
+size = "107996"
+usize = "391122"
+sha1sum = "41b11acc8b95a52e811cbba8d27548d30d8eb901"
 depends = "['lib32-glib2', 'lib32-libjpeg-turbo', 'lib32-libpng', 'lib32-libtiff', 'lib32-libx11', 'lib32-shared-mime-info']"
 reverse_depends = "['lib32-gtk+2-libs']"
 +++
@@ -37,5 +37,5 @@ An image loading library ( 32bit )
 * /usr/i686-frugalware-linux/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixdata.h
 * /usr/lib32/libgdk_pixbuf-2.0.so
 * /usr/lib32/libgdk_pixbuf-2.0.so.0
-* /usr/lib32/libgdk_pixbuf-2.0.so.0.4200.10
+* /usr/lib32/libgdk_pixbuf-2.0.so.0.4200.11
 * /usr/lib32/pkgconfig/gdk-pixbuf-2.0.pc

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pango 1.52.0-1"
-version = "1.52.0-1"
+title = "pango 1.52.2-1"
+version = "1.52.2-1"
 description = "A library for layout and rendering of text"
-date = "2024-02-26T21:13:18"
+date = "2024-05-02T08:47:33"
 aliases = "/packages/3276"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "434032"
-usize = "2531125"
-sha1sum = "3e374a2a1b0b16144235a345a618f8be4893ba88"
+size = "435588"
+usize = "2531492"
+sha1sum = "390e65163029eb73453d95221d74e08d0be71265"
 depends = "['cairo>=1.17.2-2', 'fribidi>=1.0.5', 'harfbuzz>=2.5.0', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libxft>=2.3.2-2', 'util-linux']"
 reverse_depends = "['castor', 'cef', 'chromium-browser', 'dunst', 'fontforge', 'gail', 'gnuplot', 'gparted', 'granite', 'gst1-plugins-bad', 'gst1-plugins-base-pango', 'gtk+2', 'gtk+2-libs', 'gtk+3', 'gtk+3-demos', 'gtk+3-immodules', 'gtk+3-immodules-xim', 'gtk+3-tools', 'gtk+4', 'gtk+4-demos', 'gtk+4-tools', 'gtk+4-update-icon-cache', 'gtk-update-icon-cache', 'i3', 'librsvg', 'libvips', 'packagekit', 'pangomm', 'r', 'rrdtool', 'scim', 'thunderbird', 'wesnoth', 'weston', 'whalebird']"
 +++
@@ -67,27 +67,27 @@ A library for layout and rendering of text
 * /usr/lib/girepository-1.0/PangoXft-1.0.typelib
 * /usr/lib/libpango-1.0.so
 * /usr/lib/libpango-1.0.so.0
-* /usr/lib/libpango-1.0.so.0.5200.0
+* /usr/lib/libpango-1.0.so.0.5200.2
 * /usr/lib/libpangocairo-1.0.so
 * /usr/lib/libpangocairo-1.0.so.0
-* /usr/lib/libpangocairo-1.0.so.0.5200.0
+* /usr/lib/libpangocairo-1.0.so.0.5200.2
 * /usr/lib/libpangoft2-1.0.so
 * /usr/lib/libpangoft2-1.0.so.0
-* /usr/lib/libpangoft2-1.0.so.0.5200.0
+* /usr/lib/libpangoft2-1.0.so.0.5200.2
 * /usr/lib/libpangoxft-1.0.so
 * /usr/lib/libpangoxft-1.0.so.0
-* /usr/lib/libpangoxft-1.0.so.0.5200.0
+* /usr/lib/libpangoxft-1.0.so.0.5200.2
 * /usr/lib/pkgconfig/pango.pc
 * /usr/lib/pkgconfig/pangocairo.pc
 * /usr/lib/pkgconfig/pangofc.pc
 * /usr/lib/pkgconfig/pangoft2.pc
 * /usr/lib/pkgconfig/pangoot.pc
 * /usr/lib/pkgconfig/pangoxft.pc
-* /usr/share/doc/pango-1.52.0/COPYING
-* /usr/share/doc/pango-1.52.0/NEWS
-* /usr/share/doc/pango-1.52.0/README.md
-* /usr/share/doc/pango-1.52.0/README.win32.md
-* /usr/share/doc/pango-1.52.0/THANKS
+* /usr/share/doc/pango-1.52.2/COPYING
+* /usr/share/doc/pango-1.52.2/NEWS
+* /usr/share/doc/pango-1.52.2/README.md
+* /usr/share/doc/pango-1.52.2/README.win32.md
+* /usr/share/doc/pango-1.52.2/THANKS
 * /usr/share/gir-1.0/Pango-1.0.gir
 * /usr/share/gir-1.0/PangoCairo-1.0.gir
 * /usr/share/gir-1.0/PangoFc-1.0.gir

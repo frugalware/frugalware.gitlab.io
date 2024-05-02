@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gdk-pixbuf2 2.42.10-3"
-version = "2.42.10-3"
+title = "gdk-pixbuf2 2.42.11-1"
+version = "2.42.11-1"
 description = "An image loading library"
-date = "2023-09-05T08:46:46"
+date = "2024-05-02T08:41:46"
 aliases = "/packages/103186"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "480200"
-usize = "3150263"
-sha1sum = "0e438336c57cf0b751d83bf1e8f2c3c93f91869e"
+size = "457264"
+usize = "3111452"
+sha1sum = "950b291bd34f45671a87a46e1d051cf1ab6d56a7"
 depends = "['glib2>=2.60.0', 'jasper>=2.0.10', 'libjpeg-turbo', 'libpng>=1.6.20', 'libtiff>=4.0.6-2', 'libx11>=1.6.3-4', 'shared-mime-info>=1.9-3']"
 reverse_depends = "['castor', 'flatpak', 'gail', 'gdk-pixbuf-xlib', 'get_steam', 'granite', 'gst1-plugins-good-gdkpixbuf', 'gtans', 'gtk+2', 'gtk+2-libs', 'gtk+3', 'gtk+3-demos', 'gtk+4', 'gtk+4-demos', 'gtk+4-update-icon-cache', 'gtk-update-icon-cache', 'libgsf', 'libheif-gdk-pixbuf', 'libnotify', 'libopenraw-gnome', 'librsvg', 'openslide', 'openssh-askpass', 'qtox', 'spice', 'thunderbird', 'whalebird', 'xscreensaver-data']"
 +++
@@ -40,12 +40,12 @@ An image loading library
 * /usr/lib/girepository-1.0/GdkPixdata-2.0.typelib
 * /usr/lib/libgdk_pixbuf-2.0.so
 * /usr/lib/libgdk_pixbuf-2.0.so.0
-* /usr/lib/libgdk_pixbuf-2.0.so.0.4200.10
+* /usr/lib/libgdk_pixbuf-2.0.so.0.4200.11
 * /usr/lib/pkgconfig/gdk-pixbuf-2.0.pc
-* /usr/share/doc/gdk-pixbuf2-2.42.10/COPYING
-* /usr/share/doc/gdk-pixbuf2-2.42.10/NEWS
-* /usr/share/doc/gdk-pixbuf2-2.42.10/README.md
-* /usr/share/doc/gdk-pixbuf2-2.42.10/README.msvc
+* /usr/share/doc/gdk-pixbuf2-2.42.11/COPYING
+* /usr/share/doc/gdk-pixbuf2-2.42.11/NEWS
+* /usr/share/doc/gdk-pixbuf2-2.42.11/README.md
+* /usr/share/doc/gdk-pixbuf2-2.42.11/README.msvc
 * /usr/share/gir-1.0/GdkPixbuf-2.0.gir
 * /usr/share/gir-1.0/GdkPixdata-2.0.gir
 * /usr/share/locale/ab/LC_MESSAGES/gdk-pixbuf.mo
@@ -98,6 +98,7 @@ An image loading library
 * /usr/share/locale/it/LC_MESSAGES/gdk-pixbuf.mo
 * /usr/share/locale/ja/LC_MESSAGES/gdk-pixbuf.mo
 * /usr/share/locale/ka/LC_MESSAGES/gdk-pixbuf.mo
+* /usr/share/locale/kab/LC_MESSAGES/gdk-pixbuf.mo
 * /usr/share/locale/kk/LC_MESSAGES/gdk-pixbuf.mo
 * /usr/share/locale/km/LC_MESSAGES/gdk-pixbuf.mo
 * /usr/share/locale/kn/LC_MESSAGES/gdk-pixbuf.mo

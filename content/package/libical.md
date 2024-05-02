@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libical 3.0.17-2"
-version = "3.0.17-2"
+title = "libical 3.0.18-1"
+version = "3.0.18-1"
 description = "An open source reference implementation of the icalendar data type and serialization format"
-date = "2023-11-09T09:42:35"
+date = "2024-05-02T08:52:26"
 aliases = "/packages/59982"
 categories = ['lib']
 upstreamurl = "https://github.com/libical/libical"
 arch = "x86_64"
-size = "362048"
-usize = "2224413"
-sha1sum = "97557b9aa628499584b6a8dbe5dd57251921c001"
+size = "362376"
+usize = "2224753"
+sha1sum = "ab14cb7321afef7b644856f4ad9164fdc876eb86"
 depends = "['db>=18.1.25', 'icu4c>=74.1']"
 reverse_depends = "['bluez', 'claws-mail-plugin-vcalendar', 'kcalendarcore', 'kcalendarcore5', 'openvas-manager']"
 +++
@@ -112,28 +112,28 @@ An open source reference implementation of the icalendar data type and serializa
 * /usr/lib/cmake/LibIcal/LibIcalTargets.cmake
 * /usr/lib/libical-glib.so
 * /usr/lib/libical-glib.so.3
-* /usr/lib/libical-glib.so.3.0.17
+* /usr/lib/libical-glib.so.3.0.18
 * /usr/lib/libical.so
 * /usr/lib/libical.so.3
-* /usr/lib/libical.so.3.0.17
+* /usr/lib/libical.so.3.0.18
 * /usr/lib/libical/libical/ical-glib-src-generator
 * /usr/lib/libicalss.so
 * /usr/lib/libicalss.so.3
-* /usr/lib/libicalss.so.3.0.17
+* /usr/lib/libicalss.so.3.0.18
 * /usr/lib/libicalss_cxx.so
 * /usr/lib/libicalss_cxx.so.3
-* /usr/lib/libicalss_cxx.so.3.0.17
+* /usr/lib/libicalss_cxx.so.3.0.18
 * /usr/lib/libicalvcal.so
 * /usr/lib/libicalvcal.so.3
-* /usr/lib/libicalvcal.so.3.0.17
+* /usr/lib/libicalvcal.so.3.0.18
 * /usr/lib/libical_cxx.so
 * /usr/lib/libical_cxx.so.3
-* /usr/lib/libical_cxx.so.3.0.17
+* /usr/lib/libical_cxx.so.3.0.18
 * /usr/lib/pkgconfig/libical-glib.pc
 * /usr/lib/pkgconfig/libical.pc
-* /usr/share/doc/libical-3.0.17/AUTHORS
-* /usr/share/doc/libical-3.0.17/COPYING
-* /usr/share/doc/libical-3.0.17/LICENSE
-* /usr/share/doc/libical-3.0.17/README.md
-* /usr/share/doc/libical-3.0.17/THANKS
-* /usr/share/doc/libical-3.0.17/TODO
+* /usr/share/doc/libical-3.0.18/AUTHORS
+* /usr/share/doc/libical-3.0.18/COPYING
+* /usr/share/doc/libical-3.0.18/LICENSE
+* /usr/share/doc/libical-3.0.18/README.md
+* /usr/share/doc/libical-3.0.18/THANKS
+* /usr/share/doc/libical-3.0.18/TODO

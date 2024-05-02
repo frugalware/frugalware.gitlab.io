@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "at-spi2-core 2.51.0-2"
-version = "2.51.0-2"
+title = "at-spi2-core 2.52.0-1"
+version = "2.52.0-1"
 description = "Gnome Accessibility Toolkit"
-date = "2024-01-29T22:39:47"
+date = "2024-05-02T08:45:19"
 aliases = "/packages/118746"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "333104"
-usize = "1883000"
-sha1sum = "0ded815e7a517ae6c8c11f81ab06b9d569ecda42"
-depends = "['dbus>=1.10.10-4', 'glib2>=2.60.0', 'libatspi>=2.51.0', 'libxtst>=1.2.2-3']"
+size = "335372"
+usize = "1893593"
+sha1sum = "ccea5524ea7b1fc5d0605f7a417520eacd38ebae"
+depends = "['dbus>=1.10.10-4', 'glib2>=2.60.0', 'libatspi>=2.52.0', 'libxtst>=1.2.2-3']"
 reverse_depends = "['gail', 'gtk+2-libs', 'gtk+3', 'qt6-base']"
 +++
 ### Description: 
@@ -62,7 +62,7 @@ Gnome Accessibility Toolkit
 * /usr/lib/gtk-2.0/modules/libatk-bridge.so
 * /usr/lib/libatk-1.0.so
 * /usr/lib/libatk-1.0.so.0
-* /usr/lib/libatk-1.0.so.0.25109.1
+* /usr/lib/libatk-1.0.so.0.25209.1
 * /usr/lib/libatk-bridge-2.0.so
 * /usr/lib/libatk-bridge-2.0.so.0
 * /usr/lib/libatk-bridge-2.0.so.0.0.0
@@ -72,11 +72,11 @@ Gnome Accessibility Toolkit
 * /usr/share/dbus-1/accessibility-services/org.a11y.atspi.Registry.service
 * /usr/share/dbus-1/services/org.a11y.Bus.service
 * /usr/share/defaults/at-spi2/accessibility.conf
-* /usr/share/doc/at-spi2-core-2.51.0/COPYING
-* /usr/share/doc/at-spi2-core-2.51.0/INSTALL
-* /usr/share/doc/at-spi2-core-2.51.0/NEWS
-* /usr/share/doc/at-spi2-core-2.51.0/README.md
-* /usr/share/doc/at-spi2-core-2.51.0/README.msvc
+* /usr/share/doc/at-spi2-core-2.52.0/COPYING
+* /usr/share/doc/at-spi2-core-2.52.0/INSTALL
+* /usr/share/doc/at-spi2-core-2.52.0/NEWS
+* /usr/share/doc/at-spi2-core-2.52.0/README.md
+* /usr/share/doc/at-spi2-core-2.52.0/README.msvc
 * /usr/share/locale/ab/LC_MESSAGES/at-spi2-core.mo
 * /usr/share/locale/af/LC_MESSAGES/at-spi2-core.mo
 * /usr/share/locale/am/LC_MESSAGES/at-spi2-core.mo
@@ -125,6 +125,7 @@ Gnome Accessibility Toolkit
 * /usr/share/locale/it/LC_MESSAGES/at-spi2-core.mo
 * /usr/share/locale/ja/LC_MESSAGES/at-spi2-core.mo
 * /usr/share/locale/ka/LC_MESSAGES/at-spi2-core.mo
+* /usr/share/locale/kab/LC_MESSAGES/at-spi2-core.mo
 * /usr/share/locale/kk/LC_MESSAGES/at-spi2-core.mo
 * /usr/share/locale/km/LC_MESSAGES/at-spi2-core.mo
 * /usr/share/locale/kn/LC_MESSAGES/at-spi2-core.mo

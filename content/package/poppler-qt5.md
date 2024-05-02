@@ -29,5 +29,5 @@ Poppler QT5 bindings
 * /usr/include/poppler/qt5/poppler-version.h
 * /usr/lib/libpoppler-qt5.so
 * /usr/lib/libpoppler-qt5.so.1
-* /usr/lib/libpoppler-qt5.so.1.33.0
+* /usr/lib/libpoppler-qt5.so.1.34.0
 * /usr/lib/pkgconfig/poppler-qt5.pc
