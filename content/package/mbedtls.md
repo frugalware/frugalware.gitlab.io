@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mbedtls 2.28.4-2"
-version = "2.28.4-2"
+title = "mbedtls 2.28.8-1"
+version = "2.28.8-1"
 description = "Portable cryptographic and SSL/TLS library, aka polarssl"
-date = "2023-09-05T11:21:45"
+date = "2024-05-02T12:26:30"
 aliases = "/packages/218827"
 categories = ['lib']
 upstreamurl = "https://tls.mbed.org"
 arch = "x86_64"
-size = "761500"
-usize = "4500544"
-sha1sum = "9c0d34ba150ed6b312ea2be5dc2a9543a37229c4"
+size = "777568"
+usize = "4515315"
+sha1sum = "4892499bc92e3a7ab0a672df2af819fb1fb54eef"
 depends = "['glibc>=2.34']"
 reverse_depends = "['bctoolbox', 'julia', 'librist', 'neko', 'obs-studio', 'openrgb']"
 +++
@@ -55,6 +55,7 @@ Portable cryptographic and SSL/TLS library, aka polarssl
 * /usr/bin/mbedtls_key_ladder_demo
 * /usr/bin/mbedtls_key_ladder_demo.sh
 * /usr/bin/mbedtls_load_roots
+* /usr/bin/mbedtls_metatest
 * /usr/bin/mbedtls_mini_client
 * /usr/bin/mbedtls_mpi_demo
 * /usr/bin/mbedtls_pem2der
@@ -186,7 +187,7 @@ Portable cryptographic and SSL/TLS library, aka polarssl
 * /usr/lib/libmbedtls.so.14
 * /usr/lib/libmbedx509.so
 * /usr/lib/libmbedx509.so.1
-* /usr/share/doc/mbedtls-2.28.4/BUGS.md
-* /usr/share/doc/mbedtls-2.28.4/ChangeLog
-* /usr/share/doc/mbedtls-2.28.4/LICENSE
-* /usr/share/doc/mbedtls-2.28.4/README.md
+* /usr/share/doc/mbedtls-2.28.8/BUGS.md
+* /usr/share/doc/mbedtls-2.28.8/ChangeLog
+* /usr/share/doc/mbedtls-2.28.8/LICENSE
+* /usr/share/doc/mbedtls-2.28.8/README.md
