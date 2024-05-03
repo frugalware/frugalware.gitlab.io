@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-mn 24.2.2.2-1"
-version = "24.2.2.2-1"
+title = "libreoffice-l10n-mn 24.2.3.2-1"
+version = "24.2.3.2-1"
 description = "Installs Mongolian support in LibreOffice"
-date = "2024-04-13T11:49:14"
+date = "2024-05-03T10:13:16"
 aliases = "/packages/104086"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "618848"
+size = "618636"
 usize = "3296022"
-sha1sum = "6207fe632470f12c2c67f23b8370e3c7be208341"
-depends = "['libreoffice>=24.2.2.2']"
+sha1sum = "1b7e6e4ca50d419276dd68ba6b12ac0e9d266434"
+depends = "['libreoffice>=24.2.3.2']"
 +++
 ### Description: 
 Installs Mongolian support in LibreOffice

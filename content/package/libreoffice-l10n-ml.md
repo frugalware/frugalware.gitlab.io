@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-ml 24.2.2.2-1"
-version = "24.2.2.2-1"
+title = "libreoffice-l10n-ml 24.2.3.2-1"
+version = "24.2.3.2-1"
 description = "Installs Malayalam support in LibreOffice"
-date = "2024-04-13T11:49:14"
+date = "2024-05-03T10:13:16"
 aliases = "/packages/104089"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "361488"
+size = "361312"
 usize = "2538222"
-sha1sum = "3f67443b7e9cecdded3969c1e13225017f7a5e2c"
-depends = "['libreoffice>=24.2.2.2']"
+sha1sum = "d20754eeb670911e9091c031dfcc2c8fb35b985c"
+depends = "['libreoffice>=24.2.3.2']"
 +++
 ### Description: 
 Installs Malayalam support in LibreOffice

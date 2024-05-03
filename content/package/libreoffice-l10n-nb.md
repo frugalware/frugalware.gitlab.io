@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-nb 24.2.2.2-1"
-version = "24.2.2.2-1"
+title = "libreoffice-l10n-nb 24.2.3.2-1"
+version = "24.2.3.2-1"
 description = "Installs Norwegian (Bokmål) support in LibreOffice"
-date = "2024-04-13T11:49:14"
+date = "2024-05-03T10:13:16"
 aliases = "/packages/104093"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4678732"
-usize = "35119295"
-sha1sum = "77e7b8ba3d54b013ddf5a853ad691a72662d2066"
-depends = "['libreoffice>=24.2.2.2']"
+size = "4676636"
+usize = "35120583"
+sha1sum = "9c62edfd875bc3aa201d61ed467ac8f8a4c6f168"
+depends = "['libreoffice>=24.2.3.2']"
 +++
 ### Description: 
 Installs Norwegian (Bokmål) support in LibreOffice

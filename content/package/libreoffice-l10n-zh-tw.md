@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-zh-tw 24.2.2.2-1"
-version = "24.2.2.2-1"
+title = "libreoffice-l10n-zh-tw 24.2.3.2-1"
+version = "24.2.3.2-1"
 description = "Installs Chinese (traditional) support in LibreOffice"
-date = "2024-04-13T11:49:14"
+date = "2024-05-03T10:13:16"
 aliases = "/packages/104139"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "5728772"
-usize = "37081753"
-sha1sum = "d87835a7703fcea6e32c4985045726fcbd8ddc1d"
-depends = "['libreoffice>=24.2.2.2']"
+size = "5729816"
+usize = "37083846"
+sha1sum = "4ad737ed1d0fc69cc03d00765d561bef1a0b4c86"
+depends = "['libreoffice>=24.2.3.2']"
 +++
 ### Description: 
 Installs Chinese (traditional) support in LibreOffice

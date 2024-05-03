@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-eo 24.2.2.2-1"
-version = "24.2.2.2-1"
+title = "libreoffice-l10n-eo 24.2.3.2-1"
+version = "24.2.3.2-1"
 description = "Installs Esperanto support in LibreOffice"
-date = "2024-04-13T11:49:14"
+date = "2024-05-03T10:13:16"
 aliases = "/packages/104053"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4368456"
-usize = "34046523"
-sha1sum = "4630429fa3ca75664845245df0c390ab08e7b79f"
-depends = "['libreoffice>=24.2.2.2']"
+size = "4368300"
+usize = "34048499"
+sha1sum = "5b770f54e431a479d3932887c8023835649832fb"
+depends = "['libreoffice>=24.2.3.2']"
 +++
 ### Description: 
 Installs Esperanto support in LibreOffice

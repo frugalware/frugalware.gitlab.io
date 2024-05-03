@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-ru 24.2.2.2-1"
-version = "24.2.2.2-1"
+title = "libreoffice-l10n-ru 24.2.3.2-1"
+version = "24.2.3.2-1"
 description = "Installs Russian support in LibreOffice"
-date = "2024-04-13T11:49:14"
+date = "2024-05-03T10:13:16"
 aliases = "/packages/104108"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4978224"
-usize = "40012433"
-sha1sum = "a42b67c76b96197225c88fddad471cc0d68cb8fb"
-depends = "['libreoffice>=24.2.2.2']"
+size = "4978096"
+usize = "40014672"
+sha1sum = "616a4e8a1a00adc0c98988d8485efa161fa39ed7"
+depends = "['libreoffice>=24.2.3.2']"
 +++
 ### Description: 
 Installs Russian support in LibreOffice

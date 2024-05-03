@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-om 24.2.2.2-1"
-version = "24.2.2.2-1"
+title = "libreoffice-l10n-om 24.2.3.2-1"
+version = "24.2.3.2-1"
 description = "Installs Oromo support in LibreOffice"
-date = "2024-04-13T11:49:14"
+date = "2024-05-03T10:13:16"
 aliases = "/packages/104098"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4279064"
-usize = "32887238"
-sha1sum = "49c1306491d61d5eb8e781e3ffadea9ca125b29d"
-depends = "['libreoffice>=24.2.2.2']"
+size = "4279336"
+usize = "32889217"
+sha1sum = "54fff611c18dfe9eb514c7debc0228fa3858888e"
+depends = "['libreoffice>=24.2.3.2']"
 +++
 ### Description: 
 Installs Oromo support in LibreOffice
