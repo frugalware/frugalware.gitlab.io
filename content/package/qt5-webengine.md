@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt5-webengine 5.15.16-4"
-version = "5.15.16-4"
+title = "qt5-webengine 5.15.16-5"
+version = "5.15.16-5"
 description = "The Qt5 toolkit, qtwebengine"
-date = "2024-02-20T22:08:46"
+date = "2024-05-02T21:59:33"
 aliases = "/packages/217638"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "48878696"
-usize = "159211567"
-sha1sum = "bab342d3300106b76e3db15912c536ce446da0dd"
-depends = "['alsa-lib', 'ffmpeg>=6.0', 'icu4c>=74.1', 'jsoncpp>=1.7.5', 'lcms2', 'libevent>=2.1.11', 'libjpeg-turbo', 'libsrtp>=1.5.4-4', 'libvpx>=1.13.0', 'libwebp>=0.5.1-2', 'libxcomposite>=0.4.4-3', 'libxml2', 'libxml2>=2.9.4-3', 'libxrandr>=1.5.0-5', 'libxscrnsaver>=1.2.2-3', 'libxslt', 'libxtst>=1.2.2-3', 'nss>=3.26', 'opus', 'opus>=1.1.3-2', 'protobuf', 'qt5-declarative>=5.15.12', 'qt5-location>=5.15.12', 'qt5-webchannel>=5.15.12', 'snappy>=1.1.6', 'zlib>=1.2.12']"
+size = "48895724"
+usize = "159232047"
+sha1sum = "dafc464dbe2b5a98bcc21e48661672efb8a7b2b9"
+depends = "['alsa-lib', 'ffmpeg>=6.0', 'icu4c>=74.1', 'jsoncpp>=1.7.5', 'lcms2', 'libevent>=2.1.11', 'libjpeg-turbo', 'libsrtp>=1.5.4-4', 'libvpx>=1.13.0', 'libwebp>=0.5.1-2', 'libxcomposite>=0.4.4-3', 'libxml2', 'libxml2>=2.9.4-3', 'libxrandr>=1.5.0-5', 'libxscrnsaver>=1.2.2-3', 'libxslt', 'libxtst>=1.2.2-3', 'nss>=3.26', 'opus', 'opus>=1.1.3-2', 'protobuf', 'qt5-declarative>=5.15.12', 'qt5-location>=5.15.12', 'qt5-webchannel>=5.15.12', 'snappy>=1.2.0', 'zlib>=1.2.12']"
 reverse_depends = "['babe', 'cantor', 'ghostwriter', 'k3b', 'kdevelop', 'kimagemapeditor', 'kio-extras-kf5', 'libksysguard5', 'libmarble', 'luminance-hdr', 'nmapsi4', 'otter-browser', 'pyqtwebengine', 'qsyncthingtray', 'qt5-webview', 'quassel', 'rkward', 'rolisteam', 'sigil', 'skrooge']"
 +++
 ### Description: 

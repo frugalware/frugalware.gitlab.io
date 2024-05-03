@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "cantor 24.02.2-3"
-version = "24.02.2-3"
+title = "cantor 24.02.2-4"
+version = "24.02.2-4"
 description = "KDE Frontend to Mathematical Software."
-date = "2024-05-02T07:50:27"
+date = "2024-05-03T08:20:16"
 aliases = "/packages/152823"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2344396"
+size = "2345928"
 usize = "8649373"
-sha1sum = "72299d1772d5ef04455c86e40cc05abe8bef568e"
-depends = "['analitza>=24.02.2', 'julia>=1.0.2', 'knewstuff5>=5.115.0', 'kpty>=5.115.0', 'ktexteditor5>=5.115.0', 'libqalculate>=3.20.1', 'libspectre', 'luajit2', 'openblas64', 'poppler-qt5', 'python3>=3.12', 'qt5-webengine>=5.15.12', 'r']"
+sha1sum = "26deff2c0b64078edb03419476fd68531c517f54"
+depends = "['analitza>=24.02.2', 'julia>=1.0.2', 'knewstuff5>=5.115.0', 'kpty>=5.115.0', 'ktexteditor5>=5.115.0', 'libqalculate>=5.0.0', 'libspectre', 'luajit2', 'openblas64', 'poppler-qt5', 'python3>=3.12', 'qt5-webengine>=5.15.12', 'r']"
 reverse_depends = "['labplot']"
 +++
 ### Description: 
