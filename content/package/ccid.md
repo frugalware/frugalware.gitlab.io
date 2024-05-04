@@ -12,6 +12,7 @@ size = "327100"
 usize = "1790831"
 sha1sum = "9cb81af509d25029e2ba34f300c519ac0c983d22"
 depends = "['pcsc-lite>=1.8.14', 'systemd>=188']"
+reverse_depends = "['pcsc-lite']"
 +++
 ### Description: 
 CCID free software driver
