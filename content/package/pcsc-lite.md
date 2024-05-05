@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pcsc-lite 2.2.0-1"
-version = "2.2.0-1"
+title = "pcsc-lite 2.2.0-2"
+version = "2.2.0-2"
 description = "PC/SC Architecture smartcard middleware library"
-date = "2024-05-04T15:13:46"
+date = "2024-05-05T12:08:25"
 aliases = "/packages/30772"
 categories = ['base']
 upstreamurl = "https://pcsclite.apdu.fr"
 arch = "x86_64"
-size = "118696"
+size = "118724"
 usize = "398860"
-sha1sum = "9d608214d862135f1323f0fa7af419d076b7016d"
-depends = "['ccid', 'glibc>=2.34', 'libsystemd', 'libudev', 'polkit', 'python3']"
+sha1sum = "ee04352ad39e014225e4b0f90b8e47185b5a1eba"
+depends = "['glibc>=2.34', 'libsystemd', 'libudev', 'polkit', 'python3']"
 reverse_depends = "['ccid', 'keepassxc', 'libykneomgr', 'openjre', 'opensc', 'qt6-connectivity', 'wine', 'wine-devel']"
 +++
 ### Description: 
