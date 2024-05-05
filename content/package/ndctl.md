@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ndctl 78-2"
-version = "78-2"
+title = "ndctl 79-1"
+version = "79-1"
 description = "Utility for managing the libnvdimm sub-system in the Linux kernel"
-date = "2024-01-05T15:14:04"
+date = "2024-05-05T20:42:01"
 aliases = "/packages/219663"
 categories = ['apps']
 upstreamurl = "https://github.com/pmem/ndctl"
 arch = "x86_64"
-size = "292316"
-usize = "740634"
-sha1sum = "d2256ec4356ee04a9b959d9eb1cb6e5659fa9a74"
-depends = "['json-c>=0.14', 'keyutils', 'kmod', 'libdaxctl>=78', 'libndctl>=78', 'libtracefs', 'libudev>=242', 'libuuid']"
+size = "301440"
+usize = "774999"
+sha1sum = "3e4df02666f42327d3c6bc4d623c614ed5409e19"
+depends = "['json-c>=0.14', 'keyutils', 'kmod', 'libdaxctl>=79', 'libndctl>=79', 'libtracefs', 'libudev>=242', 'libuuid']"
 +++
 ### Description: 
 Utility for managing the libnvdimm sub-system in the Linux kernel
@@ -28,7 +28,7 @@ Utility for managing the libnvdimm sub-system in the Linux kernel
 * /usr/include/cxl/libcxl.h
 * /usr/lib/libcxl.so
 * /usr/lib/libcxl.so.1
-* /usr/lib/libcxl.so.1.0.5
+* /usr/lib/libcxl.so.1.0.6
 * /usr/lib/pkgconfig/libcxl.pc
 * /usr/lib/systemd/system/cxl-monitor.service
 * /usr/lib/systemd/system/daxdev-reconfigure@.service
@@ -38,8 +38,8 @@ Utility for managing the libnvdimm sub-system in the Linux kernel
 * /usr/share/bash-completion/completions/daxctl
 * /usr/share/bash-completion/completions/ndctl
 * /usr/share/daxctl/daxctl.conf
-* /usr/share/doc/ndctl-78/COPYING
-* /usr/share/doc/ndctl-78/README.md
+* /usr/share/doc/ndctl-79/COPYING
+* /usr/share/doc/ndctl-79/README.md
 * /usr/share/man/man1/cxl-create-region.1.gz
 * /usr/share/man/man1/cxl-destroy-region.1.gz
 * /usr/share/man/man1/cxl-disable-bus.1.gz
@@ -54,8 +54,10 @@ Utility for managing the libnvdimm sub-system in the Linux kernel
 * /usr/share/man/man1/cxl-monitor.1.gz
 * /usr/share/man/man1/cxl-read-labels.1.gz
 * /usr/share/man/man1/cxl-reserve-dpa.1.gz
+* /usr/share/man/man1/cxl-set-alert-config.1.gz
 * /usr/share/man/man1/cxl-set-partition.1.gz
 * /usr/share/man/man1/cxl-update-firmware.1.gz
+* /usr/share/man/man1/cxl-wait-sanitize.1.gz
 * /usr/share/man/man1/cxl-write-labels.1.gz
 * /usr/share/man/man1/cxl-zero-labels.1.gz
 * /usr/share/man/man1/cxl.1.gz

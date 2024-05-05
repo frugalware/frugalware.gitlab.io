@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bind 9.18.25-1"
-version = "9.18.25-1"
+title = "bind 9.18.26-1"
+version = "9.18.26-1"
 description = "DNS server and utilities"
-date = "2024-04-04T12:39:18"
+date = "2024-05-05T20:32:58"
 aliases = "/packages/2930"
 categories = ['network']
 upstreamurl = "https://www.isc.org/bind/"
 arch = "x86_64"
-size = "2062340"
-usize = "8885842"
-sha1sum = "91a0785b38800c9dec1e44ed7d207594f542ba46"
+size = "2070516"
+usize = "8908263"
+sha1sum = "c8ae74b94fbd1ce71611eb2aa652081f183070ea"
 depends = "['libuv', 'libxml2>=2.9.3-3', 'ncurses>=6.1-2', 'nghttp2', 'openssl>=3.1.0', 'python3-ply', 'readline>=8.0']"
 +++
 ### Description: 
@@ -275,29 +275,29 @@ DNS server and utilities
 * /usr/include/ns/xfrout.h
 * /usr/lib/bind/filter-a.so
 * /usr/lib/bind/filter-aaaa.so
-* /usr/lib/libbind9-9.18.25.so
+* /usr/lib/libbind9-9.18.26.so
 * /usr/lib/libbind9.so
-* /usr/lib/libdns-9.18.25.so
+* /usr/lib/libdns-9.18.26.so
 * /usr/lib/libdns.so
-* /usr/lib/libirs-9.18.25.so
+* /usr/lib/libirs-9.18.26.so
 * /usr/lib/libirs.so
-* /usr/lib/libisc-9.18.25.so
+* /usr/lib/libisc-9.18.26.so
 * /usr/lib/libisc.so
-* /usr/lib/libisccc-9.18.25.so
+* /usr/lib/libisccc-9.18.26.so
 * /usr/lib/libisccc.so
-* /usr/lib/libisccfg-9.18.25.so
+* /usr/lib/libisccfg-9.18.26.so
 * /usr/lib/libisccfg.so
-* /usr/lib/libns-9.18.25.so
+* /usr/lib/libns-9.18.26.so
 * /usr/lib/libns.so
 * /usr/lib/systemd/system/bind.service
-* /usr/share/doc/bind-9.18.25/AUTHORS
-* /usr/share/doc/bind-9.18.25/ChangeLog
-* /usr/share/doc/bind-9.18.25/CHANGES
-* /usr/share/doc/bind-9.18.25/COPYING
-* /usr/share/doc/bind-9.18.25/COPYRIGHT
-* /usr/share/doc/bind-9.18.25/LICENSE
-* /usr/share/doc/bind-9.18.25/NEWS
-* /usr/share/doc/bind-9.18.25/README.md
+* /usr/share/doc/bind-9.18.26/AUTHORS
+* /usr/share/doc/bind-9.18.26/ChangeLog
+* /usr/share/doc/bind-9.18.26/CHANGES
+* /usr/share/doc/bind-9.18.26/COPYING
+* /usr/share/doc/bind-9.18.26/COPYRIGHT
+* /usr/share/doc/bind-9.18.26/LICENSE
+* /usr/share/doc/bind-9.18.26/NEWS
+* /usr/share/doc/bind-9.18.26/README.md
 * /usr/share/man/man1/arpaname.1.gz
 * /usr/share/man/man1/delv.1.gz
 * /usr/share/man/man1/dig.1.gz
