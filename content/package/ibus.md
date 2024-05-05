@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ibus 1.5.29-1"
-version = "1.5.29-1"
+title = "ibus 1.5.30-1"
+version = "1.5.30-1"
 description = "Intelligent Input Bus."
-date = "2023-12-18T13:26:50"
+date = "2024-05-05T14:22:49"
 aliases = "/packages/220579"
 categories = ['xapps']
 upstreamurl = "https://github.com/ibus/ibus"
 arch = "x86_64"
-size = "794544"
-usize = "7801212"
-sha1sum = "1519ff6c87cd8b3950307ee20186e598a49a4b5f"
+size = "811360"
+usize = "7862832"
+sha1sum = "271d47b375913469dceb138019df9c8203621e27"
 depends = "['gtk+3>=3.22.29', 'gtk+4', 'libdbusmenu-gtk3', 'libffi>=3.2.1-2', 'libibus', 'libnotify>=0.7.7-4', 'libsystemd>=231-7']"
 +++
 ### Description: 
@@ -40,11 +40,11 @@ Intelligent Input Bus.
 * /usr/share/bash-completion/completions/ibus.bash
 * /usr/share/dbus-1/services/org.freedesktop.IBus.service
 * /usr/share/dbus-1/services/org.freedesktop.portal.IBus.service
-* /usr/share/doc/ibus-1.5.29/AUTHORS
-* /usr/share/doc/ibus-1.5.29/COPYING
-* /usr/share/doc/ibus-1.5.29/COPYING.unicode
-* /usr/share/doc/ibus-1.5.29/INSTALL
-* /usr/share/doc/ibus-1.5.29/README
+* /usr/share/doc/ibus-1.5.30/AUTHORS
+* /usr/share/doc/ibus-1.5.30/COPYING
+* /usr/share/doc/ibus-1.5.30/COPYING.unicode
+* /usr/share/doc/ibus-1.5.30/INSTALL
+* /usr/share/doc/ibus-1.5.30/README
 * /usr/share/gettext/its/ibus.its
 * /usr/share/gettext/its/ibus.loc
 * /usr/share/gtk-doc/html/ibus/annotation-glossary.html
