@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "whalebird 6.1.0-1"
-version = "6.1.0-1"
+title = "whalebird 6.1.0-2"
+version = "6.1.0-2"
 description = "An Electron based Mastodon, Pleroma and Misskey client"
-date = "2024-04-07T00:55:42"
+date = "2024-05-06T09:55:41"
 aliases = "/packages/220304"
 categories = ['xapps-extra']
 upstreamurl = "https://whalebird.social"
 arch = "x86_64"
-size = "85893736"
+size = "86073456"
 usize = "390220539"
-sha1sum = "2ae8a591955553b38dc1c71635a4ba10e99fabd9"
+sha1sum = "71be6c83afedcacb936078f1642f30e4969fdb80"
 depends = "['alsa-lib', 'cairo', 'dbus', 'gdk-pixbuf2', 'glib2', 'gtk+3', 'hicolor-icon-theme', 'libcups', 'libglvnd', 'libx11', 'libxcb', 'libxcomposite', 'libxcursor', 'libxdamage', 'libxext', 'libxfixes', 'libxi', 'libxrandr', 'libxrender', 'libxtst', 'nspr', 'nss', 'pango']"
 +++
 ### Description: 
