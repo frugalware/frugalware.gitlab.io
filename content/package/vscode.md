@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vscode 1.88.1-1"
-version = "1.88.1-1"
+title = "vscode 1.89.0-1"
+version = "1.89.0-1"
 description = "The Open Source build of Visual Studio Code (vscode) editor"
-date = "2024-04-24T17:16:18"
+date = "2024-05-06T13:09:27"
 aliases = "/packages/219983"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/microsoft/vscode"
 arch = "x86_64"
-size = "91551644"
-usize = "358424097"
-sha1sum = "e365c7f16855a973b820b721e155b6159219daf1"
+size = "92057620"
+usize = "361177798"
+sha1sum = "d44ed91c6abe3a8a9dfa480bc47ffc5b6a9bd3f2"
 depends = "['ffmpeg', 'libsecret', 'libxkbfile', 'ripgrep', 'sqlite3']"
 +++
 ### Description: 
@@ -22,7 +22,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/applications/code-oss.desktop
 * /usr/share/bash-completion/completions/code
 * /usr/share/bash-completion/completions/code-oss
-* /usr/share/doc/vscode-1.88.1/README.md
+* /usr/share/doc/vscode-1.89.0/README.md
 * /usr/share/metainfo/code-oss.appdata.xml
 * /usr/share/pixmaps/code-oss.png
 * /usr/share/vscode/bin/code-oss
@@ -513,10 +513,11 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/src/watchdog.js
 * /usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/ThirdPartyNotices.txt
 * /usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/ci.yml
-* /usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/84b6bc62673660f3ffa2.module.wasm
-* /usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/9.extension.web.js
-* /usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/94625be35e004f01f9d5.module.wasm
+* /usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/425.heapsnapshotWorker.js
+* /usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/848.extension.web.js
+* /usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/a443ca1a33b96237dd48.module.wasm
 * /usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/cpu-client.bundle.js
+* /usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/dbd61d846b1102299709.module.wasm
 * /usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/extension.js
 * /usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/extension.web.js
 * /usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/heap-client.bundle.js
@@ -905,7 +906,6 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/out/vs/loader.js
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/break.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatRequestSent.mp3
-* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatResponsePending.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatResponseReceived1.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatResponseReceived2.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatResponseReceived3.mp3
@@ -917,6 +917,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/error.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/foldedAreas.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/format.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/progress.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/quickFixes.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/save.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/taskCompleted.mp3
