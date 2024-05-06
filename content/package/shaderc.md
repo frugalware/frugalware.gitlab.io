@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "shaderc 2024.0-1"
-version = "2024.0-1"
+title = "shaderc 2024.1-1"
+version = "2024.1-1"
 description = "Collection of tools, libraries and tests for shader compilation"
-date = "2024-03-21T16:16:05"
+date = "2024-05-06T08:01:14"
 aliases = "/packages/220401"
 categories = ['apps']
 upstreamurl = "https://github.com/google/shaderc"
 arch = "x86_64"
-size = "99456"
-usize = "404717"
-sha1sum = "fb7a95d0bfd2db8da7a433aa6c4bb0b349b457c0"
+size = "99652"
+usize = "404794"
+sha1sum = "923ec10bd1e52f7985a01830b3462b0af0795352"
 depends = "['glslang>=14.0', 'spirv-tools']"
 reverse_depends = "['libplacebo']"
 +++
@@ -29,8 +29,8 @@ Collection of tools, libraries and tests for shader compilation
 * /usr/lib/pkgconfig/shaderc.pc
 * /usr/lib/pkgconfig/shaderc_combined.pc
 * /usr/lib/pkgconfig/shaderc_static.pc
-* /usr/share/doc/shaderc-2024.0/AUTHORS
-* /usr/share/doc/shaderc-2024.0/CHANGES
-* /usr/share/doc/shaderc-2024.0/CONTRIBUTORS
-* /usr/share/doc/shaderc-2024.0/LICENSE
-* /usr/share/doc/shaderc-2024.0/README.md
+* /usr/share/doc/shaderc-2024.1/AUTHORS
+* /usr/share/doc/shaderc-2024.1/CHANGES
+* /usr/share/doc/shaderc-2024.1/CONTRIBUTORS
+* /usr/share/doc/shaderc-2024.1/LICENSE
+* /usr/share/doc/shaderc-2024.1/README.md

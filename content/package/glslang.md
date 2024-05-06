@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glslang 14.1.0-1"
-version = "14.1.0-1"
+title = "glslang 14.2.0-1"
+version = "14.2.0-1"
 description = "An OpenGL and OpenGL ES shader front end and validator"
-date = "2024-03-20T13:44:05"
+date = "2024-05-06T08:06:01"
 aliases = "/packages/219802"
 categories = ['apps']
 upstreamurl = "https://github.com/KhronosGroup/glslang"
 arch = "x86_64"
-size = "18870028"
-usize = "39033931"
-sha1sum = "dd4cd7f7292cef6ca9f85a20ab6ff4a9667437ea"
+size = "18927516"
+usize = "39251198"
+sha1sum = "68f72d04298a53ab68ee8ed1be2de22f3e7c69f6"
 depends = "['libstdc++>=11.3']"
 reverse_depends = "['shaderc', 'vkbasalt']"
 +++
@@ -42,20 +42,20 @@ An OpenGL and OpenGL ES shader front end and validator
 * /usr/lib/libglslang-default-resource-limits.a
 * /usr/lib/libglslang-default-resource-limits.so
 * /usr/lib/libglslang-default-resource-limits.so.14
-* /usr/lib/libglslang-default-resource-limits.so.14.1.0
+* /usr/lib/libglslang-default-resource-limits.so.14.2.0
 * /usr/lib/libglslang.a
 * /usr/lib/libglslang.so
 * /usr/lib/libglslang.so.14
-* /usr/lib/libglslang.so.14.1.0
+* /usr/lib/libglslang.so.14.2.0
 * /usr/lib/libMachineIndependent.a
 * /usr/lib/libOSDependent.a
 * /usr/lib/libSPIRV.a
 * /usr/lib/libSPIRV.so
 * /usr/lib/libSPIRV.so.14
-* /usr/lib/libSPIRV.so.14.1.0
+* /usr/lib/libSPIRV.so.14.2.0
 * /usr/lib/libSPVRemapper.a
 * /usr/lib/libSPVRemapper.so
 * /usr/lib/libSPVRemapper.so.14
-* /usr/lib/libSPVRemapper.so.14.1.0
-* /usr/share/doc/glslang-14.1.0/README-spirv-remap.txt
-* /usr/share/doc/glslang-14.1.0/README.md
+* /usr/lib/libSPVRemapper.so.14.2.0
+* /usr/share/doc/glslang-14.2.0/README-spirv-remap.txt
+* /usr/share/doc/glslang-14.2.0/README.md

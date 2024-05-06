@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "npth 1.6-5"
-version = "1.6-5"
+title = "npth 1.7-1"
+version = "1.7-1"
 description = "nPth - The New Pth library"
-date = "2023-10-22T12:46:46"
+date = "2024-05-06T07:58:17"
 aliases = "/packages/217395"
 categories = ['apps']
 upstreamurl = "https://www.gnupg.org/ftp/gcrypt/npth/"
 arch = "x86_64"
-size = "35536"
-usize = "115529"
-sha1sum = "7a7ff8360e6adaef41a6d77b134a4e22e7705835"
+size = "38328"
+usize = "124781"
+sha1sum = "a3334bc66ff74e82dddd8307af001724660ccd87"
 depends = "['glibc>=2.34']"
 reverse_depends = "['dirmngr', 'dirmngr-ldap', 'gnupg2', 'gpg-agent']"
 +++
@@ -18,17 +18,17 @@ reverse_depends = "['dirmngr', 'dirmngr-ldap', 'gnupg2', 'gpg-agent']"
 nPth - The New Pth library
 
 ### Files: 
-* /usr/bin/npth-config
 * /usr/include/npth.h
 * /usr/lib/libnpth.so
 * /usr/lib/libnpth.so.0
-* /usr/lib/libnpth.so.0.1.2
+* /usr/lib/libnpth.so.0.2.0
+* /usr/lib/pkgconfig/npth.pc
 * /usr/share/aclocal/npth.m4
-* /usr/share/doc/npth-1.6/AUTHORS
-* /usr/share/doc/npth-1.6/ChangeLog
-* /usr/share/doc/npth-1.6/COPYING.LIB
-* /usr/share/doc/npth-1.6/HACKING
-* /usr/share/doc/npth-1.6/INSTALL
-* /usr/share/doc/npth-1.6/NEWS
-* /usr/share/doc/npth-1.6/README
-* /usr/share/doc/npth-1.6/VERSION
+* /usr/share/doc/npth-1.7/AUTHORS
+* /usr/share/doc/npth-1.7/ChangeLog
+* /usr/share/doc/npth-1.7/COPYING.LIB
+* /usr/share/doc/npth-1.7/HACKING
+* /usr/share/doc/npth-1.7/INSTALL
+* /usr/share/doc/npth-1.7/NEWS
+* /usr/share/doc/npth-1.7/README
+* /usr/share/doc/npth-1.7/VERSION
