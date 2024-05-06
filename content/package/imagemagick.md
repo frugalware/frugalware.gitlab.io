@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "imagemagick 7.1.1-15"
-version = "7.1.1-15"
+title = "imagemagick 7.1.1-16"
+version = "7.1.1-16"
 description = "A robust collection of tools and libraries to read, write and manipulate image files."
-date = "2024-04-22T13:10:03"
+date = "2024-05-06T08:19:04"
 aliases = "/packages/3097"
 categories = ['xapps']
 upstreamurl = "http://www.imagemagick.org"
 arch = "x86_64"
-size = "8557124"
-usize = "22891117"
-sha1sum = "f3c4d042bb7ccec0aa8c80e73c12b05afbe531ad"
+size = "8556500"
+usize = "22881616"
+sha1sum = "2189293bb5d169def048176d80c15c1f6ed044b1"
 depends = "['djvulibre>=3.5.27-4', 'fftw>=3.3.4-4', 'lcms2>=2.8-2', 'libgomp>=9.1.0-3', 'libheif', 'libjpeg-turbo', 'libraw>=0.21.1', 'librsvg>=2.40.16-3', 'libstdc++>=11.2', 'libtiff>=4.0.6-2', 'libtool>=2.4.6-4', 'libwebp>=0.5.0', 'openexr>=3.2.0', 'openjpeg', 'perl']"
 reverse_depends = "['darktable', 'emacs', 'kitty', 'libvips', 'polychromatic', 'xine-lib']"
 +++
