@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nodejs18 18.20.1-1"
-version = "18.20.1-1"
+title = "nodejs18 18.20.2-1"
+version = "18.20.2-1"
 description = "Evented I/O for V8 javascript (LTS release: Hydrogen)"
-date = "2024-04-06T20:14:14"
+date = "2024-05-06T11:53:00"
 aliases = "/packages/221152"
 categories = ['devel-extra']
 upstreamurl = "https://nodejs.org"
 arch = "x86_64"
-size = "10621012"
+size = "10626472"
 usize = "49222824"
-sha1sum = "d3851fa2f9b76e7afe01aadcc6df1349402ed7cc"
+sha1sum = "83fb16b27eb7612776a9245dbd28138c88c058ed"
 depends = "['brotli', 'c-ares', 'icu4c>=74.1', 'libuv', 'nghttp2>=1.41.0', 'python3-setuptools', 'zlib>=1.2.12']"
 license = "MIT"
 +++
@@ -2109,7 +2109,7 @@ Evented I/O for V8 javascript (LTS release: Hydrogen)
 * /usr/lib/node_modules/npm/README.md
 * /usr/share/doc/node/gdbinit
 * /usr/share/doc/node/lldb_commands.py
-* /usr/share/doc/nodejs18-18.20.1/LICENSE
-* /usr/share/doc/nodejs18-18.20.1/README.md
+* /usr/share/doc/nodejs18-18.20.2/LICENSE
+* /usr/share/doc/nodejs18-18.20.2/README.md
 * /usr/share/man/man1/node.1.gz
 * /usr/share/systemtap/tapset/node.stp
