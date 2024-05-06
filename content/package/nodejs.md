@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nodejs 21.7.2-1"
-version = "21.7.2-1"
+title = "nodejs 22.1.0-1"
+version = "22.1.0-1"
 description = "Evented I/O for V8 javascript"
-date = "2024-04-06T19:24:48"
+date = "2024-05-06T09:45:47"
 aliases = "/packages/153770"
 categories = ['devel-extra']
 upstreamurl = "https://nodejs.org/"
 arch = "x86_64"
-size = "12822544"
-usize = "56534170"
-sha1sum = "a101dd9cf6397b159a229afbfba5ba96bb5e58f9"
+size = "13793288"
+usize = "61587246"
+sha1sum = "51c62c892dbc5e91287ed1bc7f6c1312503b1956"
 depends = "['c-ares', 'icu4c>=74.1', 'nghttp2', 'openssl>=3.1.0', 'python3-setuptools', 'zlib']"
 license = "MIT"
 +++
@@ -202,6 +202,7 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/bin/node-gyp-bin/node-gyp.cmd
 * /usr/lib/node_modules/npm/bin/npm
 * /usr/lib/node_modules/npm/bin/npm-cli.js
+* /usr/lib/node_modules/npm/bin/npm-prefix.js
 * /usr/lib/node_modules/npm/bin/npm.cmd
 * /usr/lib/node_modules/npm/bin/npm.ps1
 * /usr/lib/node_modules/npm/bin/npx
@@ -377,9 +378,12 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/docs/output/using-npm/workspaces.html
 * /usr/lib/node_modules/npm/index.js
 * /usr/lib/node_modules/npm/lib/arborist-cmd.js
-* /usr/lib/node_modules/npm/lib/base-command.js
-* /usr/lib/node_modules/npm/lib/cli-entry.js
+* /usr/lib/node_modules/npm/lib/base-cmd.js
 * /usr/lib/node_modules/npm/lib/cli.js
+* /usr/lib/node_modules/npm/lib/cli/entry.js
+* /usr/lib/node_modules/npm/lib/cli/exit-handler.js
+* /usr/lib/node_modules/npm/lib/cli/update-notifier.js
+* /usr/lib/node_modules/npm/lib/cli/validate-engines.js
 * /usr/lib/node_modules/npm/lib/commands/access.js
 * /usr/lib/node_modules/npm/lib/commands/adduser.js
 * /usr/lib/node_modules/npm/lib/commands/audit.js
@@ -447,7 +451,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/lib/commands/version.js
 * /usr/lib/node_modules/npm/lib/commands/view.js
 * /usr/lib/node_modules/npm/lib/commands/whoami.js
-* /usr/lib/node_modules/npm/lib/es6/validate-engines.js
 * /usr/lib/node_modules/npm/lib/lifecycle-cmd.js
 * /usr/lib/node_modules/npm/lib/npm.js
 * /usr/lib/node_modules/npm/lib/package-url-cmd.js
@@ -456,40 +459,37 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/lib/utils/cmd-list.js
 * /usr/lib/node_modules/npm/lib/utils/completion.fish
 * /usr/lib/node_modules/npm/lib/utils/completion.sh
-* /usr/lib/node_modules/npm/lib/utils/completion/installed-deep.js
-* /usr/lib/node_modules/npm/lib/utils/completion/installed-shallow.js
 * /usr/lib/node_modules/npm/lib/utils/did-you-mean.js
 * /usr/lib/node_modules/npm/lib/utils/display.js
 * /usr/lib/node_modules/npm/lib/utils/error-message.js
-* /usr/lib/node_modules/npm/lib/utils/exit-handler.js
 * /usr/lib/node_modules/npm/lib/utils/explain-dep.js
 * /usr/lib/node_modules/npm/lib/utils/explain-eresolve.js
 * /usr/lib/node_modules/npm/lib/utils/format-bytes.js
 * /usr/lib/node_modules/npm/lib/utils/format-search-stream.js
+* /usr/lib/node_modules/npm/lib/utils/format.js
 * /usr/lib/node_modules/npm/lib/utils/get-identity.js
+* /usr/lib/node_modules/npm/lib/utils/get-workspaces.js
+* /usr/lib/node_modules/npm/lib/utils/installed-deep.js
+* /usr/lib/node_modules/npm/lib/utils/installed-shallow.js
 * /usr/lib/node_modules/npm/lib/utils/is-windows.js
 * /usr/lib/node_modules/npm/lib/utils/log-file.js
-* /usr/lib/node_modules/npm/lib/utils/log-shim.js
 * /usr/lib/node_modules/npm/lib/utils/npm-usage.js
 * /usr/lib/node_modules/npm/lib/utils/open-url-prompt.js
 * /usr/lib/node_modules/npm/lib/utils/open-url.js
 * /usr/lib/node_modules/npm/lib/utils/otplease.js
 * /usr/lib/node_modules/npm/lib/utils/ping.js
-* /usr/lib/node_modules/npm/lib/utils/pulse-till-done.js
 * /usr/lib/node_modules/npm/lib/utils/queryable.js
 * /usr/lib/node_modules/npm/lib/utils/read-user-info.js
 * /usr/lib/node_modules/npm/lib/utils/reify-finish.js
 * /usr/lib/node_modules/npm/lib/utils/reify-output.js
-* /usr/lib/node_modules/npm/lib/utils/replace-info.js
 * /usr/lib/node_modules/npm/lib/utils/sbom-cyclonedx.js
 * /usr/lib/node_modules/npm/lib/utils/sbom-spdx.js
 * /usr/lib/node_modules/npm/lib/utils/tar.js
 * /usr/lib/node_modules/npm/lib/utils/timers.js
-* /usr/lib/node_modules/npm/lib/utils/update-notifier.js
+* /usr/lib/node_modules/npm/lib/utils/update-workspaces.js
 * /usr/lib/node_modules/npm/lib/utils/validate-lockfile.js
+* /usr/lib/node_modules/npm/lib/utils/verify-signatures.js
 * /usr/lib/node_modules/npm/lib/utils/web-auth.js
-* /usr/lib/node_modules/npm/lib/workspaces/get-workspaces.js
-* /usr/lib/node_modules/npm/lib/workspaces/update-workspaces.js
 * /usr/lib/node_modules/npm/LICENSE
 * /usr/lib/node_modules/npm/man/man1/npm-access.1
 * /usr/lib/node_modules/npm/man/man1/npm-adduser.1
@@ -576,24 +576,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/man/man7/scope.7
 * /usr/lib/node_modules/npm/man/man7/scripts.7
 * /usr/lib/node_modules/npm/man/man7/workspaces.7
-* /usr/lib/node_modules/npm/node_modules/@colors/colors/examples/normal-usage.js
-* /usr/lib/node_modules/npm/node_modules/@colors/colors/examples/safe-string.js
-* /usr/lib/node_modules/npm/node_modules/@colors/colors/lib/colors.js
-* /usr/lib/node_modules/npm/node_modules/@colors/colors/lib/custom/trap.js
-* /usr/lib/node_modules/npm/node_modules/@colors/colors/lib/custom/zalgo.js
-* /usr/lib/node_modules/npm/node_modules/@colors/colors/lib/extendStringPrototype.js
-* /usr/lib/node_modules/npm/node_modules/@colors/colors/lib/index.js
-* /usr/lib/node_modules/npm/node_modules/@colors/colors/lib/maps/america.js
-* /usr/lib/node_modules/npm/node_modules/@colors/colors/lib/maps/rainbow.js
-* /usr/lib/node_modules/npm/node_modules/@colors/colors/lib/maps/random.js
-* /usr/lib/node_modules/npm/node_modules/@colors/colors/lib/maps/zebra.js
-* /usr/lib/node_modules/npm/node_modules/@colors/colors/lib/styles.js
-* /usr/lib/node_modules/npm/node_modules/@colors/colors/lib/system/has-flag.js
-* /usr/lib/node_modules/npm/node_modules/@colors/colors/lib/system/supports-colors.js
-* /usr/lib/node_modules/npm/node_modules/@colors/colors/LICENSE
-* /usr/lib/node_modules/npm/node_modules/@colors/colors/package.json
-* /usr/lib/node_modules/npm/node_modules/@colors/colors/safe.js
-* /usr/lib/node_modules/npm/node_modules/@colors/colors/themes/generic-logging.js
 * /usr/lib/node_modules/npm/node_modules/@isaacs/cliui/build/index.cjs
 * /usr/lib/node_modules/npm/node_modules/@isaacs/cliui/build/index.d.cts
 * /usr/lib/node_modules/npm/node_modules/@isaacs/cliui/build/lib/index.js
@@ -703,12 +685,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/@npmcli/config/LICENSE
 * /usr/lib/node_modules/npm/node_modules/@npmcli/config/package.json
 * /usr/lib/node_modules/npm/node_modules/@npmcli/config/README.md
-* /usr/lib/node_modules/npm/node_modules/@npmcli/disparity-colors/lib/index.js
-* /usr/lib/node_modules/npm/node_modules/@npmcli/disparity-colors/LICENSE
-* /usr/lib/node_modules/npm/node_modules/@npmcli/disparity-colors/node_modules/ansi-styles/index.js
-* /usr/lib/node_modules/npm/node_modules/@npmcli/disparity-colors/node_modules/ansi-styles/license
-* /usr/lib/node_modules/npm/node_modules/@npmcli/disparity-colors/node_modules/ansi-styles/package.json
-* /usr/lib/node_modules/npm/node_modules/@npmcli/disparity-colors/package.json
 * /usr/lib/node_modules/npm/node_modules/@npmcli/fs/lib/common/get-options.js
 * /usr/lib/node_modules/npm/node_modules/@npmcli/fs/lib/common/node.js
 * /usr/lib/node_modules/npm/node_modules/@npmcli/fs/lib/cp/errors.js
@@ -736,6 +712,7 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/@npmcli/git/lib/which.js
 * /usr/lib/node_modules/npm/node_modules/@npmcli/git/LICENSE
 * /usr/lib/node_modules/npm/node_modules/@npmcli/git/package.json
+* /usr/lib/node_modules/npm/node_modules/@npmcli/installed-package-contents/bin/index.js
 * /usr/lib/node_modules/npm/node_modules/@npmcli/installed-package-contents/lib/index.js
 * /usr/lib/node_modules/npm/node_modules/@npmcli/installed-package-contents/LICENSE
 * /usr/lib/node_modules/npm/node_modules/@npmcli/installed-package-contents/package.json
@@ -768,6 +745,13 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/@npmcli/query/lib/index.js
 * /usr/lib/node_modules/npm/node_modules/@npmcli/query/LICENSE
 * /usr/lib/node_modules/npm/node_modules/@npmcli/query/package.json
+* /usr/lib/node_modules/npm/node_modules/@npmcli/redact/lib/deep-map.js
+* /usr/lib/node_modules/npm/node_modules/@npmcli/redact/lib/index.js
+* /usr/lib/node_modules/npm/node_modules/@npmcli/redact/lib/matchers.js
+* /usr/lib/node_modules/npm/node_modules/@npmcli/redact/lib/server.js
+* /usr/lib/node_modules/npm/node_modules/@npmcli/redact/lib/utils.js
+* /usr/lib/node_modules/npm/node_modules/@npmcli/redact/LICENSE
+* /usr/lib/node_modules/npm/node_modules/@npmcli/redact/package.json
 * /usr/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/is-server-package.js
 * /usr/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/make-spawn-args.js
 * /usr/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/node-gyp
@@ -934,6 +918,7 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/abbrev/package.json
 * /usr/lib/node_modules/npm/node_modules/agent-base/dist/helpers.js
 * /usr/lib/node_modules/npm/node_modules/agent-base/dist/index.js
+* /usr/lib/node_modules/npm/node_modules/agent-base/LICENSE
 * /usr/lib/node_modules/npm/node_modules/agent-base/package.json
 * /usr/lib/node_modules/npm/node_modules/aggregate-error/index.js
 * /usr/lib/node_modules/npm/node_modules/aggregate-error/license
@@ -952,13 +937,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/archy/index.js
 * /usr/lib/node_modules/npm/node_modules/archy/LICENSE
 * /usr/lib/node_modules/npm/node_modules/archy/package.json
-* /usr/lib/node_modules/npm/node_modules/are-we-there-yet/lib/index.js
-* /usr/lib/node_modules/npm/node_modules/are-we-there-yet/lib/tracker-base.js
-* /usr/lib/node_modules/npm/node_modules/are-we-there-yet/lib/tracker-group.js
-* /usr/lib/node_modules/npm/node_modules/are-we-there-yet/lib/tracker-stream.js
-* /usr/lib/node_modules/npm/node_modules/are-we-there-yet/lib/tracker.js
-* /usr/lib/node_modules/npm/node_modules/are-we-there-yet/LICENSE.md
-* /usr/lib/node_modules/npm/node_modules/are-we-there-yet/package.json
 * /usr/lib/node_modules/npm/node_modules/balanced-match/index.js
 * /usr/lib/node_modules/npm/node_modules/balanced-match/LICENSE.md
 * /usr/lib/node_modules/npm/node_modules/balanced-match/package.json
@@ -1030,18 +1008,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/cli-columns/license
 * /usr/lib/node_modules/npm/node_modules/cli-columns/package.json
 * /usr/lib/node_modules/npm/node_modules/cli-columns/test.js
-* /usr/lib/node_modules/npm/node_modules/cli-table3/index.js
-* /usr/lib/node_modules/npm/node_modules/cli-table3/LICENSE
-* /usr/lib/node_modules/npm/node_modules/cli-table3/package.json
-* /usr/lib/node_modules/npm/node_modules/cli-table3/src/cell.js
-* /usr/lib/node_modules/npm/node_modules/cli-table3/src/debug.js
-* /usr/lib/node_modules/npm/node_modules/cli-table3/src/layout-manager.js
-* /usr/lib/node_modules/npm/node_modules/cli-table3/src/table.js
-* /usr/lib/node_modules/npm/node_modules/cli-table3/src/utils.js
-* /usr/lib/node_modules/npm/node_modules/clone/clone.iml
-* /usr/lib/node_modules/npm/node_modules/clone/clone.js
-* /usr/lib/node_modules/npm/node_modules/clone/LICENSE
-* /usr/lib/node_modules/npm/node_modules/clone/package.json
 * /usr/lib/node_modules/npm/node_modules/cmd-shim/lib/index.js
 * /usr/lib/node_modules/npm/node_modules/cmd-shim/lib/to-batch-syntax.js
 * /usr/lib/node_modules/npm/node_modules/cmd-shim/LICENSE
@@ -1054,25 +1020,9 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/color-name/index.js
 * /usr/lib/node_modules/npm/node_modules/color-name/LICENSE
 * /usr/lib/node_modules/npm/node_modules/color-name/package.json
-* /usr/lib/node_modules/npm/node_modules/color-support/bin.js
-* /usr/lib/node_modules/npm/node_modules/color-support/browser.js
-* /usr/lib/node_modules/npm/node_modules/color-support/index.js
-* /usr/lib/node_modules/npm/node_modules/color-support/LICENSE
-* /usr/lib/node_modules/npm/node_modules/color-support/package.json
-* /usr/lib/node_modules/npm/node_modules/color-support/README.md
-* /usr/lib/node_modules/npm/node_modules/columnify/columnify.js
-* /usr/lib/node_modules/npm/node_modules/columnify/index.js
-* /usr/lib/node_modules/npm/node_modules/columnify/LICENSE
-* /usr/lib/node_modules/npm/node_modules/columnify/Makefile
-* /usr/lib/node_modules/npm/node_modules/columnify/package.json
-* /usr/lib/node_modules/npm/node_modules/columnify/utils.js
-* /usr/lib/node_modules/npm/node_modules/columnify/width.js
 * /usr/lib/node_modules/npm/node_modules/common-ancestor-path/index.js
 * /usr/lib/node_modules/npm/node_modules/common-ancestor-path/LICENSE
 * /usr/lib/node_modules/npm/node_modules/common-ancestor-path/package.json
-* /usr/lib/node_modules/npm/node_modules/console-control-strings/index.js
-* /usr/lib/node_modules/npm/node_modules/console-control-strings/LICENSE
-* /usr/lib/node_modules/npm/node_modules/console-control-strings/package.json
 * /usr/lib/node_modules/npm/node_modules/cross-spawn/index.js
 * /usr/lib/node_modules/npm/node_modules/cross-spawn/lib/enoent.js
 * /usr/lib/node_modules/npm/node_modules/cross-spawn/lib/parse.js
@@ -1101,10 +1051,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/debug/src/common.js
 * /usr/lib/node_modules/npm/node_modules/debug/src/index.js
 * /usr/lib/node_modules/npm/node_modules/debug/src/node.js
-* /usr/lib/node_modules/npm/node_modules/defaults/index.js
-* /usr/lib/node_modules/npm/node_modules/defaults/LICENSE
-* /usr/lib/node_modules/npm/node_modules/defaults/package.json
-* /usr/lib/node_modules/npm/node_modules/defaults/test.js
 * /usr/lib/node_modules/npm/node_modules/diff/CONTRIBUTING.md
 * /usr/lib/node_modules/npm/node_modules/diff/dist/diff.js
 * /usr/lib/node_modules/npm/node_modules/diff/dist/diff.min.js
@@ -1186,23 +1132,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/function-bind/index.js
 * /usr/lib/node_modules/npm/node_modules/function-bind/LICENSE
 * /usr/lib/node_modules/npm/node_modules/function-bind/package.json
-* /usr/lib/node_modules/npm/node_modules/gauge/lib/base-theme.js
-* /usr/lib/node_modules/npm/node_modules/gauge/lib/error.js
-* /usr/lib/node_modules/npm/node_modules/gauge/lib/has-color.js
-* /usr/lib/node_modules/npm/node_modules/gauge/lib/index.js
-* /usr/lib/node_modules/npm/node_modules/gauge/lib/plumbing.js
-* /usr/lib/node_modules/npm/node_modules/gauge/lib/process.js
-* /usr/lib/node_modules/npm/node_modules/gauge/lib/progress-bar.js
-* /usr/lib/node_modules/npm/node_modules/gauge/lib/render-template.js
-* /usr/lib/node_modules/npm/node_modules/gauge/lib/set-immediate.js
-* /usr/lib/node_modules/npm/node_modules/gauge/lib/set-interval.js
-* /usr/lib/node_modules/npm/node_modules/gauge/lib/spin.js
-* /usr/lib/node_modules/npm/node_modules/gauge/lib/template-item.js
-* /usr/lib/node_modules/npm/node_modules/gauge/lib/theme-set.js
-* /usr/lib/node_modules/npm/node_modules/gauge/lib/themes.js
-* /usr/lib/node_modules/npm/node_modules/gauge/lib/wide-truncate.js
-* /usr/lib/node_modules/npm/node_modules/gauge/LICENSE.md
-* /usr/lib/node_modules/npm/node_modules/gauge/package.json
 * /usr/lib/node_modules/npm/node_modules/glob/dist/commonjs/glob.d.ts
 * /usr/lib/node_modules/npm/node_modules/glob/dist/commonjs/glob.d.ts.map
 * /usr/lib/node_modules/npm/node_modules/glob/dist/commonjs/glob.js
@@ -1274,9 +1203,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/graceful-fs/LICENSE
 * /usr/lib/node_modules/npm/node_modules/graceful-fs/package.json
 * /usr/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js
-* /usr/lib/node_modules/npm/node_modules/has-unicode/index.js
-* /usr/lib/node_modules/npm/node_modules/has-unicode/LICENSE
-* /usr/lib/node_modules/npm/node_modules/has-unicode/package.json
 * /usr/lib/node_modules/npm/node_modules/hasown/index.js
 * /usr/lib/node_modules/npm/node_modules/hasown/LICENSE
 * /usr/lib/node_modules/npm/node_modules/hasown/package.json
@@ -1346,20 +1272,11 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/ip-address/dist/v6/helpers.js
 * /usr/lib/node_modules/npm/node_modules/ip-address/dist/v6/regular-expressions.js
 * /usr/lib/node_modules/npm/node_modules/ip-address/LICENSE
-* /usr/lib/node_modules/npm/node_modules/ip-address/node_modules/sprintf-js/CONTRIBUTORS.md
-* /usr/lib/node_modules/npm/node_modules/ip-address/node_modules/sprintf-js/dist/.gitattributes
-* /usr/lib/node_modules/npm/node_modules/ip-address/node_modules/sprintf-js/dist/angular-sprintf.min.js
-* /usr/lib/node_modules/npm/node_modules/ip-address/node_modules/sprintf-js/dist/sprintf.min.js
-* /usr/lib/node_modules/npm/node_modules/ip-address/node_modules/sprintf-js/LICENSE
-* /usr/lib/node_modules/npm/node_modules/ip-address/node_modules/sprintf-js/package.json
-* /usr/lib/node_modules/npm/node_modules/ip-address/node_modules/sprintf-js/src/angular-sprintf.js
-* /usr/lib/node_modules/npm/node_modules/ip-address/node_modules/sprintf-js/src/sprintf.js
 * /usr/lib/node_modules/npm/node_modules/ip-address/package.json
 * /usr/lib/node_modules/npm/node_modules/ip-regex/index.js
 * /usr/lib/node_modules/npm/node_modules/ip-regex/license
 * /usr/lib/node_modules/npm/node_modules/ip-regex/package.json
 * /usr/lib/node_modules/npm/node_modules/is-cidr/index.js
-* /usr/lib/node_modules/npm/node_modules/is-cidr/LICENSE
 * /usr/lib/node_modules/npm/node_modules/is-cidr/package.json
 * /usr/lib/node_modules/npm/node_modules/is-core-module/core.json
 * /usr/lib/node_modules/npm/node_modules/is-core-module/index.js
@@ -1477,8 +1394,10 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/libnpmversion/package.json
 * /usr/lib/node_modules/npm/node_modules/libnpmversion/README.md
 * /usr/lib/node_modules/npm/node_modules/lru-cache/dist/commonjs/index.js
+* /usr/lib/node_modules/npm/node_modules/lru-cache/dist/commonjs/index.min.js
 * /usr/lib/node_modules/npm/node_modules/lru-cache/dist/commonjs/package.json
 * /usr/lib/node_modules/npm/node_modules/lru-cache/dist/esm/index.js
+* /usr/lib/node_modules/npm/node_modules/lru-cache/dist/esm/index.min.js
 * /usr/lib/node_modules/npm/node_modules/lru-cache/dist/esm/package.json
 * /usr/lib/node_modules/npm/node_modules/lru-cache/LICENSE
 * /usr/lib/node_modules/npm/node_modules/lru-cache/package.json
@@ -1494,20 +1413,20 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/make-fetch-happen/lib/remote.js
 * /usr/lib/node_modules/npm/node_modules/make-fetch-happen/LICENSE
 * /usr/lib/node_modules/npm/node_modules/make-fetch-happen/package.json
-* /usr/lib/node_modules/npm/node_modules/minimatch/dist/cjs/assert-valid-pattern.js
-* /usr/lib/node_modules/npm/node_modules/minimatch/dist/cjs/ast.js
-* /usr/lib/node_modules/npm/node_modules/minimatch/dist/cjs/brace-expressions.js
-* /usr/lib/node_modules/npm/node_modules/minimatch/dist/cjs/escape.js
-* /usr/lib/node_modules/npm/node_modules/minimatch/dist/cjs/index.js
-* /usr/lib/node_modules/npm/node_modules/minimatch/dist/cjs/package.json
-* /usr/lib/node_modules/npm/node_modules/minimatch/dist/cjs/unescape.js
-* /usr/lib/node_modules/npm/node_modules/minimatch/dist/mjs/assert-valid-pattern.js
-* /usr/lib/node_modules/npm/node_modules/minimatch/dist/mjs/ast.js
-* /usr/lib/node_modules/npm/node_modules/minimatch/dist/mjs/brace-expressions.js
-* /usr/lib/node_modules/npm/node_modules/minimatch/dist/mjs/escape.js
-* /usr/lib/node_modules/npm/node_modules/minimatch/dist/mjs/index.js
-* /usr/lib/node_modules/npm/node_modules/minimatch/dist/mjs/package.json
-* /usr/lib/node_modules/npm/node_modules/minimatch/dist/mjs/unescape.js
+* /usr/lib/node_modules/npm/node_modules/minimatch/dist/commonjs/assert-valid-pattern.js
+* /usr/lib/node_modules/npm/node_modules/minimatch/dist/commonjs/ast.js
+* /usr/lib/node_modules/npm/node_modules/minimatch/dist/commonjs/brace-expressions.js
+* /usr/lib/node_modules/npm/node_modules/minimatch/dist/commonjs/escape.js
+* /usr/lib/node_modules/npm/node_modules/minimatch/dist/commonjs/index.js
+* /usr/lib/node_modules/npm/node_modules/minimatch/dist/commonjs/package.json
+* /usr/lib/node_modules/npm/node_modules/minimatch/dist/commonjs/unescape.js
+* /usr/lib/node_modules/npm/node_modules/minimatch/dist/esm/assert-valid-pattern.js
+* /usr/lib/node_modules/npm/node_modules/minimatch/dist/esm/ast.js
+* /usr/lib/node_modules/npm/node_modules/minimatch/dist/esm/brace-expressions.js
+* /usr/lib/node_modules/npm/node_modules/minimatch/dist/esm/escape.js
+* /usr/lib/node_modules/npm/node_modules/minimatch/dist/esm/index.js
+* /usr/lib/node_modules/npm/node_modules/minimatch/dist/esm/package.json
+* /usr/lib/node_modules/npm/node_modules/minimatch/dist/esm/unescape.js
 * /usr/lib/node_modules/npm/node_modules/minimatch/LICENSE
 * /usr/lib/node_modules/npm/node_modules/minimatch/package.json
 * /usr/lib/node_modules/npm/node_modules/minipass-collect/index.js
@@ -1585,6 +1504,7 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/negotiator/lib/mediaType.js
 * /usr/lib/node_modules/npm/node_modules/negotiator/LICENSE
 * /usr/lib/node_modules/npm/node_modules/negotiator/package.json
+* /usr/lib/node_modules/npm/node_modules/node-gyp/.release-please-manifest.json
 * /usr/lib/node_modules/npm/node_modules/node-gyp/addon.gypi
 * /usr/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js
 * /usr/lib/node_modules/npm/node_modules/node-gyp/CHANGELOG.md
@@ -1654,7 +1574,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/pylib/packaging/_tokenizer.py
 * /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/pylib/packaging/__init__.py
 * /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/pyproject.toml
-* /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/README.md
 * /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/test_gyp.py
 * /usr/lib/node_modules/npm/node_modules/node-gyp/lib/build.js
 * /usr/lib/node_modules/npm/node_modules/node-gyp/lib/clean.js
@@ -1675,8 +1594,12 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/node-gyp/lib/util.js
 * /usr/lib/node_modules/npm/node_modules/node-gyp/LICENSE
 * /usr/lib/node_modules/npm/node_modules/node-gyp/macOS_Catalina_acid_test.sh
+* /usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/proc-log/lib/index.js
+* /usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/proc-log/LICENSE
+* /usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/proc-log/package.json
 * /usr/lib/node_modules/npm/node_modules/node-gyp/package.json
 * /usr/lib/node_modules/npm/node_modules/node-gyp/README.md
+* /usr/lib/node_modules/npm/node_modules/node-gyp/release-please-config.json
 * /usr/lib/node_modules/npm/node_modules/node-gyp/SECURITY.md
 * /usr/lib/node_modules/npm/node_modules/node-gyp/src/win_delay_load_hook.cc
 * /usr/lib/node_modules/npm/node_modules/nopt/bin/nopt.js
@@ -1728,7 +1651,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/npm-profile/package.json
 * /usr/lib/node_modules/npm/node_modules/npm-registry-fetch/lib/auth.js
 * /usr/lib/node_modules/npm/node_modules/npm-registry-fetch/lib/check-response.js
-* /usr/lib/node_modules/npm/node_modules/npm-registry-fetch/lib/clean-url.js
 * /usr/lib/node_modules/npm/node_modules/npm-registry-fetch/lib/default-opts.js
 * /usr/lib/node_modules/npm/node_modules/npm-registry-fetch/lib/errors.js
 * /usr/lib/node_modules/npm/node_modules/npm-registry-fetch/lib/index.js
@@ -1737,9 +1659,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/npm-user-validate/lib/index.js
 * /usr/lib/node_modules/npm/node_modules/npm-user-validate/LICENSE
 * /usr/lib/node_modules/npm/node_modules/npm-user-validate/package.json
-* /usr/lib/node_modules/npm/node_modules/npmlog/lib/log.js
-* /usr/lib/node_modules/npm/node_modules/npmlog/LICENSE.md
-* /usr/lib/node_modules/npm/node_modules/npmlog/package.json
 * /usr/lib/node_modules/npm/node_modules/p-map/index.js
 * /usr/lib/node_modules/npm/node_modules/p-map/license
 * /usr/lib/node_modules/npm/node_modules/p-map/package.json
@@ -1766,10 +1685,10 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/path-key/index.js
 * /usr/lib/node_modules/npm/node_modules/path-key/license
 * /usr/lib/node_modules/npm/node_modules/path-key/package.json
-* /usr/lib/node_modules/npm/node_modules/path-scurry/dist/cjs/index.js
-* /usr/lib/node_modules/npm/node_modules/path-scurry/dist/cjs/package.json
-* /usr/lib/node_modules/npm/node_modules/path-scurry/dist/mjs/index.js
-* /usr/lib/node_modules/npm/node_modules/path-scurry/dist/mjs/package.json
+* /usr/lib/node_modules/npm/node_modules/path-scurry/dist/commonjs/index.js
+* /usr/lib/node_modules/npm/node_modules/path-scurry/dist/commonjs/package.json
+* /usr/lib/node_modules/npm/node_modules/path-scurry/dist/esm/index.js
+* /usr/lib/node_modules/npm/node_modules/path-scurry/dist/esm/package.json
 * /usr/lib/node_modules/npm/node_modules/path-scurry/LICENSE.md
 * /usr/lib/node_modules/npm/node_modules/path-scurry/package.json
 * /usr/lib/node_modules/npm/node_modules/postcss-selector-parser/API.md
@@ -1808,6 +1727,11 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/proc-log/lib/index.js
 * /usr/lib/node_modules/npm/node_modules/proc-log/LICENSE
 * /usr/lib/node_modules/npm/node_modules/proc-log/package.json
+* /usr/lib/node_modules/npm/node_modules/proggy/lib/client.js
+* /usr/lib/node_modules/npm/node_modules/proggy/lib/index.js
+* /usr/lib/node_modules/npm/node_modules/proggy/lib/tracker.js
+* /usr/lib/node_modules/npm/node_modules/proggy/LICENSE
+* /usr/lib/node_modules/npm/node_modules/proggy/package.json
 * /usr/lib/node_modules/npm/node_modules/promise-all-reject-late/index.js
 * /usr/lib/node_modules/npm/node_modules/promise-all-reject-late/LICENSE
 * /usr/lib/node_modules/npm/node_modules/promise-all-reject-late/package.json
@@ -1852,10 +1776,10 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/read-package-json-fast/lib/index.js
 * /usr/lib/node_modules/npm/node_modules/read-package-json-fast/LICENSE
 * /usr/lib/node_modules/npm/node_modules/read-package-json-fast/package.json
-* /usr/lib/node_modules/npm/node_modules/read-package-json/lib/read-json.js
-* /usr/lib/node_modules/npm/node_modules/read-package-json/LICENSE
-* /usr/lib/node_modules/npm/node_modules/read-package-json/package.json
-* /usr/lib/node_modules/npm/node_modules/read/lib/read.js
+* /usr/lib/node_modules/npm/node_modules/read/dist/commonjs/package.json
+* /usr/lib/node_modules/npm/node_modules/read/dist/commonjs/read.js
+* /usr/lib/node_modules/npm/node_modules/read/dist/esm/package.json
+* /usr/lib/node_modules/npm/node_modules/read/dist/esm/read.js
 * /usr/lib/node_modules/npm/node_modules/read/LICENSE
 * /usr/lib/node_modules/npm/node_modules/read/package.json
 * /usr/lib/node_modules/npm/node_modules/retry/equation.gif
@@ -1927,9 +1851,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/semver/ranges/to-comparators.js
 * /usr/lib/node_modules/npm/node_modules/semver/ranges/valid.js
 * /usr/lib/node_modules/npm/node_modules/semver/README.md
-* /usr/lib/node_modules/npm/node_modules/set-blocking/index.js
-* /usr/lib/node_modules/npm/node_modules/set-blocking/LICENSE.txt
-* /usr/lib/node_modules/npm/node_modules/set-blocking/package.json
 * /usr/lib/node_modules/npm/node_modules/shebang-command/index.js
 * /usr/lib/node_modules/npm/node_modules/shebang-command/license
 * /usr/lib/node_modules/npm/node_modules/shebang-command/package.json
@@ -1957,6 +1878,7 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/smart-buffer/LICENSE
 * /usr/lib/node_modules/npm/node_modules/smart-buffer/package.json
 * /usr/lib/node_modules/npm/node_modules/socks-proxy-agent/dist/index.js
+* /usr/lib/node_modules/npm/node_modules/socks-proxy-agent/LICENSE
 * /usr/lib/node_modules/npm/node_modules/socks-proxy-agent/package.json
 * /usr/lib/node_modules/npm/node_modules/socks/build/client/socksclient.js
 * /usr/lib/node_modules/npm/node_modules/socks/build/common/constants.js
@@ -1977,6 +1899,12 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/socks/package.json
 * /usr/lib/node_modules/npm/node_modules/spdx-correct/index.js
 * /usr/lib/node_modules/npm/node_modules/spdx-correct/LICENSE
+* /usr/lib/node_modules/npm/node_modules/spdx-correct/node_modules/spdx-expression-parse/AUTHORS
+* /usr/lib/node_modules/npm/node_modules/spdx-correct/node_modules/spdx-expression-parse/index.js
+* /usr/lib/node_modules/npm/node_modules/spdx-correct/node_modules/spdx-expression-parse/LICENSE
+* /usr/lib/node_modules/npm/node_modules/spdx-correct/node_modules/spdx-expression-parse/package.json
+* /usr/lib/node_modules/npm/node_modules/spdx-correct/node_modules/spdx-expression-parse/parse.js
+* /usr/lib/node_modules/npm/node_modules/spdx-correct/node_modules/spdx-expression-parse/scan.js
 * /usr/lib/node_modules/npm/node_modules/spdx-correct/package.json
 * /usr/lib/node_modules/npm/node_modules/spdx-exceptions/deprecated.json
 * /usr/lib/node_modules/npm/node_modules/spdx-exceptions/index.json
@@ -1990,6 +1918,17 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/spdx-license-ids/deprecated.json
 * /usr/lib/node_modules/npm/node_modules/spdx-license-ids/index.json
 * /usr/lib/node_modules/npm/node_modules/spdx-license-ids/package.json
+* /usr/lib/node_modules/npm/node_modules/sprintf-js/bower.json
+* /usr/lib/node_modules/npm/node_modules/sprintf-js/CONTRIBUTORS.md
+* /usr/lib/node_modules/npm/node_modules/sprintf-js/demo/angular.html
+* /usr/lib/node_modules/npm/node_modules/sprintf-js/dist/.gitattributes
+* /usr/lib/node_modules/npm/node_modules/sprintf-js/dist/angular-sprintf.min.js
+* /usr/lib/node_modules/npm/node_modules/sprintf-js/dist/sprintf.min.js
+* /usr/lib/node_modules/npm/node_modules/sprintf-js/gruntfile.js
+* /usr/lib/node_modules/npm/node_modules/sprintf-js/LICENSE
+* /usr/lib/node_modules/npm/node_modules/sprintf-js/package.json
+* /usr/lib/node_modules/npm/node_modules/sprintf-js/src/angular-sprintf.js
+* /usr/lib/node_modules/npm/node_modules/sprintf-js/src/sprintf.js
 * /usr/lib/node_modules/npm/node_modules/ssri/lib/index.js
 * /usr/lib/node_modules/npm/node_modules/ssri/LICENSE.md
 * /usr/lib/node_modules/npm/node_modules/ssri/package.json
@@ -2095,6 +2034,12 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/util-deprecate/package.json
 * /usr/lib/node_modules/npm/node_modules/validate-npm-package-license/index.js
 * /usr/lib/node_modules/npm/node_modules/validate-npm-package-license/LICENSE
+* /usr/lib/node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/AUTHORS
+* /usr/lib/node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/index.js
+* /usr/lib/node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/LICENSE
+* /usr/lib/node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/package.json
+* /usr/lib/node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/parse.js
+* /usr/lib/node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/scan.js
 * /usr/lib/node_modules/npm/node_modules/validate-npm-package-license/package.json
 * /usr/lib/node_modules/npm/node_modules/validate-npm-package-name/lib/index.js
 * /usr/lib/node_modules/npm/node_modules/validate-npm-package-name/LICENSE
@@ -2105,11 +2050,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/walk-up-path/dist/mjs/package.json
 * /usr/lib/node_modules/npm/node_modules/walk-up-path/LICENSE
 * /usr/lib/node_modules/npm/node_modules/walk-up-path/package.json
-* /usr/lib/node_modules/npm/node_modules/wcwidth/combining.js
-* /usr/lib/node_modules/npm/node_modules/wcwidth/docs/index.md
-* /usr/lib/node_modules/npm/node_modules/wcwidth/index.js
-* /usr/lib/node_modules/npm/node_modules/wcwidth/LICENSE
-* /usr/lib/node_modules/npm/node_modules/wcwidth/package.json
 * /usr/lib/node_modules/npm/node_modules/which/bin/which.js
 * /usr/lib/node_modules/npm/node_modules/which/lib/index.js
 * /usr/lib/node_modules/npm/node_modules/which/LICENSE
@@ -2127,9 +2067,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/which/node_modules/isexe/package.json
 * /usr/lib/node_modules/npm/node_modules/which/package.json
 * /usr/lib/node_modules/npm/node_modules/which/README.md
-* /usr/lib/node_modules/npm/node_modules/wide-align/align.js
-* /usr/lib/node_modules/npm/node_modules/wide-align/LICENSE
-* /usr/lib/node_modules/npm/node_modules/wide-align/package.json
 * /usr/lib/node_modules/npm/node_modules/wrap-ansi-cjs/index.js
 * /usr/lib/node_modules/npm/node_modules/wrap-ansi-cjs/license
 * /usr/lib/node_modules/npm/node_modules/wrap-ansi-cjs/node_modules/ansi-styles/index.js
@@ -2167,6 +2104,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/README.md
 * /usr/share/doc/node/gdbinit
 * /usr/share/doc/node/lldb_commands.py
-* /usr/share/doc/nodejs-21.7.2/LICENSE
-* /usr/share/doc/nodejs-21.7.2/README.md
+* /usr/share/doc/nodejs-22.1.0/LICENSE
+* /usr/share/doc/nodejs-22.1.0/README.md
 * /usr/share/man/man1/node.1.gz
