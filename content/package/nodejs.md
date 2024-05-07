@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nodejs 22.1.0-1"
-version = "22.1.0-1"
+title = "nodejs 22.1.0-2"
+version = "22.1.0-2"
 description = "Evented I/O for V8 javascript"
-date = "2024-05-06T09:45:47"
+date = "2024-05-07T12:24:02"
 aliases = "/packages/153770"
 categories = ['devel-extra']
 upstreamurl = "https://nodejs.org/"
 arch = "x86_64"
-size = "13793288"
+size = "13792536"
 usize = "61587246"
-sha1sum = "51c62c892dbc5e91287ed1bc7f6c1312503b1956"
+sha1sum = "c0b3fdc353d5fbaecec3b4e7b291e70a19ac5638"
 depends = "['c-ares', 'icu4c>=74.1', 'nghttp2', 'openssl>=3.1.0', 'python3-setuptools', 'zlib']"
 license = "MIT"
 +++
