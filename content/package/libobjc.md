@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libobjc 13.2.0-5"
-version = "13.2.0-5"
+title = "libobjc 14.1.0-2"
+version = "14.1.0-2"
 description = "Objective-C runtime"
-date = "2024-01-03T16:52:44"
+date = "2024-05-08T09:53:30"
 aliases = "/packages/10526"
 categories = ['lib-extra']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "134272"
-usize = "598258"
-sha1sum = "a8d7901af63f7f36a7d15562667aba868d107fcf"
+size = "133584"
+usize = "595086"
+sha1sum = "a6e983059cbd28355fb604ccc93a01b731476065"
 depends = "['libgcc']"
 reverse_depends = "['gcc-objc']"
 +++
@@ -18,16 +18,16 @@ reverse_depends = "['gcc-objc']"
 Objective-C runtime
 
 ### Files: 
-* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/objc/message.h
-* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/objc/NXConstStr.h
-* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/objc/objc-decls.h
-* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/objc/objc-exception.h
-* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/objc/objc-sync.h
-* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/objc/objc.h
-* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/objc/Object.h
-* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/objc/Protocol.h
-* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/objc/runtime.h
-* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/objc/thr.h
+* /usr/lib/gcc/x86_64-frugalware-linux/14.1.0/include/objc/message.h
+* /usr/lib/gcc/x86_64-frugalware-linux/14.1.0/include/objc/NXConstStr.h
+* /usr/lib/gcc/x86_64-frugalware-linux/14.1.0/include/objc/objc-decls.h
+* /usr/lib/gcc/x86_64-frugalware-linux/14.1.0/include/objc/objc-exception.h
+* /usr/lib/gcc/x86_64-frugalware-linux/14.1.0/include/objc/objc-sync.h
+* /usr/lib/gcc/x86_64-frugalware-linux/14.1.0/include/objc/objc.h
+* /usr/lib/gcc/x86_64-frugalware-linux/14.1.0/include/objc/Object.h
+* /usr/lib/gcc/x86_64-frugalware-linux/14.1.0/include/objc/Protocol.h
+* /usr/lib/gcc/x86_64-frugalware-linux/14.1.0/include/objc/runtime.h
+* /usr/lib/gcc/x86_64-frugalware-linux/14.1.0/include/objc/thr.h
 * /usr/lib/libobjc.a
 * /usr/lib/libobjc.so
 * /usr/lib/libobjc.so.4

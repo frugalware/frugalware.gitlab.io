@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "zlib-static 1.3.1-1"
-version = "1.3.1-1"
+title = "zlib-static 1.3.1-2"
+version = "1.3.1-2"
 description = "Static files for zlib"
-date = "2024-01-23T09:25:25"
+date = "2024-05-08T08:51:32"
 aliases = "/packages/219957"
 categories = ['devel-extra']
 upstreamurl = "http://www.zlib.net/"
 arch = "x86_64"
-size = "584968"
-usize = "666878"
-sha1sum = "93c95f0c910b228f711a2665a2f7ef4e603d775f"
+size = "580272"
+usize = "662374"
+sha1sum = "ba52b1d0937a6f8ab278b06148c66a6e37de10bc"
 depends = "[]"
 +++
 ### Description: 

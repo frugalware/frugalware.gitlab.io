@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openssl 3.3.0-1"
-version = "3.3.0-1"
+title = "openssl 3.3.0-2"
+version = "3.3.0-2"
 description = "The Open Source toolkit for Secure Sockets Layer and Transport Layer Security"
-date = "2024-04-09T17:54:40"
+date = "2024-05-08T08:17:57"
 aliases = "/packages/2422"
 categories = ['base']
 upstreamurl = "http://www.openssl.org/source/"
 arch = "x86_64"
-size = "5124324"
-usize = "12609068"
-sha1sum = "18b5f88968876e74cac5e09582f7a4150bbd4c9c"
+size = "5273812"
+usize = "13225028"
+sha1sum = "733a614b6a8f8999f7c03a180881b8cc0225c4af"
 depends = "['glibc>=2.35']"
 reverse_depends = "['aircrack-ng', 'apache', 'apr-util', 'bind', 'bip', 'bitchx', 'ca-certificates', 'castor', 'cgit', 'chntpw', 'clamav', 'courier-imap', 'cryptsetup-luks', 'curl', 'cyrus-sasl', 'db', 'dd-rescue', 'dovecot', 'efl', 'eiskaltdc', 'elinks', 'encfs', 'enlightenment', 'erlang', 'facter', 'falkon', 'fetchmail', 'gammu', 'gdal', 'gfpm', 'gftp', 'git', 'git-crypt', 'gocryptfs', 'grpc', 'gsoap', 'gst1-plugins-bad', 'gutenprint', 'hexchat', 'hfsprogs', 'hostapd', 'icecast', 'imapfilter', 'iputils', 'irssi', 'john', 'kicad', 'kmod', 'krb5', 'kup', 'kvirc', 'ldns', 'libarchive', 'libcups', 'libetpan', 'libevent', 'libfido2', 'libimobiledevice', 'libldap', 'libnvme', 'libp11', 'libpq', 'librdf', 'libshout', 'libssh', 'libssh2', 'libsystemd', 'libtorrent', 'libtorrent-rasterbar', 'libwebsockets', 'libzip', 'lighttpd', 'links', 'lynx', 'mariadb', 'mariadb-libs', 'mcabber', 'minizip-ng', 'mktorrent', 'mold', 'monit', 'mosh', 'mtd-utils', 'mupdf-gl', 'murmur', 'mutt-devel', 'ncat', 'neon', 'net-snmp', 'nginx', 'nmap', 'nodejs', 'nping', 'ntp', 'nushell', 'open-isns', 'openimageio', 'openntpd', 'opensc', 'openslp', 'openssh', 'openvpn', 'openvswitch', 'pacman-g2', 'pacman-tools', 'paho-mqtt-c', 'partclone', 'partimage', 'pdns', 'pdns-recursor', 'perl', 'perl-crypt-openssl-rsa', 'perl-dbd-mysql', 'perl-net-ssleay', 'php', 'php-embed', 'poco', 'podofo', 'popa3d', 'postfix', 'postgresql', 'postgresql-extras', 'postgresql-upgrade-from-12', 'postgresql-upgrade-from-13', 'postgresql-upgrade-from-14', 'postgresql-upgrade-from-15', 'ppp', 'proftpd', 'pulseaudio-avahi', 'pure-ftpd', 'pycurl', 'python3', 'python3-cryptography', 'python3-m2crypto', 'python3-openssl', 'qca-ossl', 'qpdf', 'qt5-base', 'raptor', 'restbed', 'retroshare', 'rsync', 'rtorrent', 'ruby', 's-nail', 'samba', 'sccache', 'serf', 'sim', 'socat', 'sofia-sip', 'spamassassin', 'spice', 'spice-glib', 'sqlcipher', 'srt', 'ssmtp', 'strongswan', 'stunnel', 'sudo', 'sylpheed', 'systemd', 'systemd-pull', 'systemd-remote', 'tcpdump', 'telegram-desktop', 'telegram-qt5', 'telepathy-idle', 'terminology', 'tor', 'tpm2-tss', 'transmission-cli', 'transmission-qt', 'uget', 'unbound', 'uwsgi', 'vde2', 'virtualbox', 'vlc-shout', 'vpnc', 'vsftpd', 'vtun', 'w3m', 'wget', 'wget2', 'wimlib', 'wpa_supplicant', 'x11vnc', 'xmlrpc-c', 'xrdp', 'xrdp', 'znc']"
 +++
@@ -347,12 +347,19 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/lib/pkgconfig/libcrypto.pc
 * /usr/lib/pkgconfig/libssl.pc
 * /usr/lib/pkgconfig/openssl.pc
+* /usr/share/doc/openssl-3.3.0/AUTHORS
+* /usr/share/doc/openssl-3.3.0/ChangeLog
+* /usr/share/doc/openssl-3.3.0/COPYING
+* /usr/share/doc/openssl-3.3.0/HACKING
 * /usr/share/doc/openssl-3.3.0/INSTALL.md
+* /usr/share/doc/openssl-3.3.0/NEWS
+* /usr/share/doc/openssl-3.3.0/README
 * /usr/share/doc/openssl-3.3.0/README-ENGINES.md
 * /usr/share/doc/openssl-3.3.0/README-FIPS.md
 * /usr/share/doc/openssl-3.3.0/README-PROVIDERS.md
 * /usr/share/doc/openssl-3.3.0/README-QUIC.md
 * /usr/share/doc/openssl-3.3.0/README.md
+* /usr/share/doc/openssl-3.3.0/TODO
 * /usr/share/man/man1/asn1parse.1openssl.gz
 * /usr/share/man/man1/ca.1openssl.gz
 * /usr/share/man/man1/CA.pl.1openssl.gz

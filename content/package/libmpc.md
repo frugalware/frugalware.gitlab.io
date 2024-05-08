@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libmpc 1.3.1-2"
-version = "1.3.1-2"
+title = "libmpc 1.3.1-3"
+version = "1.3.1-3"
 description = "A library for the arithmetic of complex numbers."
-date = "2023-09-05T10:14:27"
+date = "2024-05-08T08:58:06"
 aliases = "/packages/88522"
 categories = ['devel-core']
 upstreamurl = "http://www.multiprecision.org/mpc/"
 arch = "x86_64"
-size = "97624"
+size = "97816"
 usize = "222964"
-sha1sum = "dc6625464b2c79ddc96dc2d43c95ba85d1dc67cd"
+sha1sum = "f78c5c0d7b85f9ef07f6d8ef70718e9e75bc9dc4"
 depends = "['mpfr>=4.0.2-3']"
 reverse_depends = "['gcc', 'gcc-12']"
 +++

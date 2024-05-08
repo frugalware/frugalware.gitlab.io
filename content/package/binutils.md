@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "binutils 2.42-2"
-version = "2.42-2"
+title = "binutils 2.42-3"
+version = "2.42-3"
 description = "A set of programs to assemble and manipulate binary and object files"
-date = "2024-02-02T23:23:49"
+date = "2024-05-07T16:52:50"
 aliases = "/packages/2350"
 categories = ['devel']
 upstreamurl = "http://www.gnu.org/software/binutils/"
 arch = "x86_64"
-size = "18359360"
-usize = "55553470"
-sha1sum = "22e2751c2d892ee37c8b9f0694eea3f859af66f9"
-depends = "['glibc>=2.38', 'libstdc++>=13.1', 'zstd']"
+size = "18363728"
+usize = "55576188"
+sha1sum = "8274d8021e3db18c1784c729980f5ec336e05e5f"
+depends = "['glibc>=2.38', 'libstdc++>=14.1', 'zstd']"
 reverse_depends = "['cairo', 'dracut', 'gcc', 'gcc-12', 'gcc-4.1', 'gdb', 'ocaml', 'openucx', 'perf']"
 +++
 ### Description: 

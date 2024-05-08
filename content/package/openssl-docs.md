@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openssl-docs 3.3.0-1"
-version = "3.3.0-1"
+title = "openssl-docs 3.3.0-2"
+version = "3.3.0-2"
 description = "HTML documentation for openssl"
-date = "2024-04-09T17:54:40"
+date = "2024-05-08T08:17:57"
 aliases = "/packages/219932"
 categories = ['devel-extra']
 upstreamurl = "http://www.openssl.org/source/"
 arch = "x86_64"
-size = "1233708"
+size = "1233968"
 usize = "6787866"
-sha1sum = "e53014273be1793c3a3b4bbc6fcfb990eacac4e4"
+sha1sum = "e0a71a2f093848d0bb32ac6e0bc694d49ca56006"
 depends = "[]"
 +++
 ### Description: 

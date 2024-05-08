@@ -1,20 +1,20 @@
 +++
 draft = false
-title = "gcc-objc++ 13.2.0-5"
-version = "13.2.0-5"
+title = "gcc-objc++ 14.1.0-2"
+version = "14.1.0-2"
 description = "Objective-C++ support for GCC"
-date = "2024-01-03T16:52:44"
+date = "2024-05-08T09:53:30"
 aliases = "/packages/10528"
 categories = ['devel-extra']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "11583868"
-usize = "39694696"
-sha1sum = "ec3d1aa988be41d68f41a2df220f3657a52c3f7a"
+size = "12979188"
+usize = "44879480"
+sha1sum = "634a9b3e11b6069764d21f6338ff22976581a8fd"
 depends = "['gcc-g++', 'gcc-objc']"
 +++
 ### Description: 
 Objective-C++ support for GCC
 
 ### Files: 
-* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/cc1objplus
+* /usr/lib/gcc/x86_64-frugalware-linux/14.1.0/cc1objplus

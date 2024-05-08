@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libgomp 13.2.0-5"
-version = "13.2.0-5"
+title = "libgomp 14.1.0-2"
+version = "14.1.0-2"
 description = "GNU OpenMP runtime library"
-date = "2024-01-03T16:52:44"
+date = "2024-05-08T09:53:30"
 aliases = "/packages/23420"
 categories = ['lib']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "451112"
-usize = "1836335"
-sha1sum = "88691b3507636bfe161103eae49efbcf730caa62"
+size = "481036"
+usize = "1913513"
+sha1sum = "31ff1d81de489e12ad94bdc9b005b46d7e81170e"
 depends = "['glibc']"
 reverse_depends = "['alicevision', 'ceres-solver', 'cryfs', 'flann', 'imagemagick', 'inkscape', 'kirigami', 'kirigami2', 'kirigami25', 'luminance-hdr', 'muparser', 'ngspice', 'nufraw', 'openblas', 'openucx', 'skanpage', 'sox', 'suitesparse']"
 +++
@@ -18,7 +18,7 @@ reverse_depends = "['alicevision', 'ceres-solver', 'cryfs', 'flann', 'imagemagic
 GNU OpenMP runtime library
 
 ### Files: 
-* /usr/lib/gcc/x86_64-frugalware-linux/13.2.0/include/omp.h
+* /usr/lib/gcc/x86_64-frugalware-linux/14.1.0/include/omp.h
 * /usr/lib/libgomp.a
 * /usr/lib/libgomp.so
 * /usr/lib/libgomp.so.1
