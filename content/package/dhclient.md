@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dhclient 4.4.3-2"
-version = "4.4.3-2"
+title = "dhclient 4.4.3-3"
+version = "4.4.3-3"
 description = "The ISC DHCP client"
-date = "2024-01-15T09:22:41"
+date = "2024-05-08T13:52:08"
 aliases = "/packages/10596"
 categories = ['network-extra']
 upstreamurl = "http://www.isc.org/software/dhcp/"
 arch = "x86_64"
-size = "737592"
-usize = "2026819"
-sha1sum = "8c166de1006f9905e5daf516b9c0b98a40ecbbf7"
+size = "746964"
+usize = "2055491"
+sha1sum = "4729f43217ad583bb1e1cae0afcbdc8eaf082e36"
 depends = "['glibc>=2.34', 'iproute2']"
 reverse_depends = "['connman', 'dracut-network']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gtest 1.14.0-1"
-version = "1.14.0-1"
+title = "gtest 1.14.0-2"
+version = "1.14.0-2"
 description = "Google Test - C++ testing utility based on the xUnit framework (like JUnit)"
-date = "2023-10-29T19:47:04"
+date = "2024-05-08T13:57:02"
 aliases = "/packages/220442"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/google/googletest"
 arch = "x86_64"
-size = "2412032"
-usize = "4244188"
-sha1sum = "ac7c041d74dbca86d1dd8e8bd597d788b5c0df55"
+size = "2389396"
+usize = "4155413"
+sha1sum = "d5a25c5aa873e83d5df0786fe9ae70926ff1331e"
 depends = "['libstdc++>=12.2']"
 reverse_depends = "['insight-toolkit']"
 +++
@@ -70,8 +70,9 @@ Google Test - C++ testing utility based on the xUnit framework (like JUnit)
 * /usr/lib/pkgconfig/gmock_main.pc
 * /usr/lib/pkgconfig/gtest.pc
 * /usr/lib/pkgconfig/gtest_main.pc
+* /usr/share/doc/gtest-1.14.0/ChangeLog
 * /usr/share/doc/gtest-1.14.0/CONTRIBUTORS
-* /usr/share/doc/gtest-1.14.0/COPYING.rst
+* /usr/share/doc/gtest-1.14.0/COPYING
 * /usr/share/doc/gtest-1.14.0/LICENSE
+* /usr/share/doc/gtest-1.14.0/README
 * /usr/share/doc/gtest-1.14.0/README.md
-* /usr/share/doc/gtest-1.14.0/README.rst
