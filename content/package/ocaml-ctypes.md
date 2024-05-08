@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ocaml-ctypes 0.21.1-3"
-version = "0.21.1-3"
+title = "ocaml-ctypes 0.21.1-4"
+version = "0.21.1-4"
 description = "Library for binding to C libraries using pure OCaml"
-date = "2023-12-19T14:06:14"
+date = "2024-05-08T10:35:20"
 aliases = "/packages/217326"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocamllabs/ocaml-ctypes"
 arch = "x86_64"
-size = "2748320"
-usize = "6198007"
-sha1sum = "a64050f0d44c0ae9b6ccfc99d6d854ca179c21b8"
+size = "2741472"
+usize = "6180103"
+sha1sum = "be892b4f2a615fa0ed7a192906fb25b6a91f61f0"
 depends = "['libffi>=3.4', 'ocaml>=5.1.1', 'ocaml-bigarray-compat', 'ocaml-integers>=0.3.0-4']"
 reverse_depends = "['ocaml-luv']"
 license = "custom"

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pandoc-server 0.1.0.5-1"
-version = "0.1.0.5-1"
+title = "pandoc-server 0.1.0.5-2"
+version = "0.1.0.5-2"
 description = "Pandoc document conversion as an HTTP servant-server"
-date = "2024-04-16T14:08:17"
+date = "2024-05-08T10:58:05"
 aliases = "/packages/220912"
 categories = ['network-extra']
 upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/pandoc-server"
 arch = "x86_64"
-size = "132844"
+size = "132988"
 usize = "1305912"
-sha1sum = "8b2b299dedb027bb3162c2d217010b7c44ae9f6a"
+sha1sum = "c2c5ab55a76811fe6a49054ab6e025ebd96c256c"
 depends = "['haskell-servant-server', 'haskell-wai-cors', 'pandoc']"
 +++
 ### Description: 

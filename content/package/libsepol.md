@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libsepol 3.6-2"
-version = "3.6-2"
+title = "libsepol 3.6-3"
+version = "3.6-3"
 description = "SELinux binary policy manipulation library"
-date = "2024-01-16T12:25:22"
+date = "2024-05-08T10:55:20"
 aliases = "/packages/219880"
 categories = ['lib-extra']
 upstreamurl = "http://userspace.selinuxproject.org"
 arch = "x86_64"
-size = "451724"
+size = "451800"
 usize = "2638262"
-sha1sum = "d022e5b602c831a69b06ca02d8c3b97af227699f"
+sha1sum = "269c4a21da47f93b1574659e51c2df941a090494"
 depends = "['glibc>=2.34']"
 reverse_depends = "['libselinux']"
 +++

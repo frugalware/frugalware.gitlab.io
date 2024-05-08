@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "coin-or-clp 1.17.7-2"
-version = "1.17.7-2"
+title = "coin-or-clp 1.17.7-3"
+version = "1.17.7-3"
 description = "COIN-OR linear programming solver (AliceVision fork)"
-date = "2023-09-06T13:25:12"
+date = "2024-05-08T10:34:24"
 aliases = "/packages/220126"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/AliceVision/Clp"
 arch = "x86_64"
-size = "9281412"
-usize = "12554457"
-sha1sum = "baf19cbe666d9734e861edbc9b056a291df9443b"
+size = "9188320"
+usize = "12412723"
+sha1sum = "88aae6848fa51c4c5cde621311d402cd24269f46"
 depends = "['coin-or-osi']"
 reverse_depends = "['alicevision']"
 +++

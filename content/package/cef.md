@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cef 105.3.25-3"
-version = "105.3.25-3"
+title = "cef 105.3.25-4"
+version = "105.3.25-4"
 description = "Chromium Embedded Framework standard release"
-date = "2022-09-05T08:03:25"
+date = "2024-05-08T10:28:19"
 aliases = "/packages/220418"
 categories = ['lib-extra']
 upstreamurl = "https://bitbucket.org/chromiumembedded/cef"
 arch = "x86_64"
-size = "293170532"
-usize = "1641113666"
-sha1sum = "702df64be92c186040a896ef602ccb02636cc52b"
+size = "296891992"
+usize = "1641028713"
+sha1sum = "48479e5ed00ed7335e039411eb371cacfa25d4df"
 depends = "['alsa-lib', 'dbus', 'libglvnd', 'libxcomposite', 'libxcursor', 'libxrandr', 'libxscrnsaver', 'libxtst', 'nss', 'pango']"
 +++
 ### Description: 
@@ -24,18 +24,18 @@ Chromium Embedded Framework standard release
 * /opt/cef/cmake/cef_variables.cmake
 * /opt/cef/cmake/FindCEF.cmake
 * /opt/cef/CMakeCache.txt
-* /opt/cef/CMakeFiles/3.24.1/CMakeCCompiler.cmake
-* /opt/cef/CMakeFiles/3.24.1/CMakeCXXCompiler.cmake
-* /opt/cef/CMakeFiles/3.24.1/CMakeDetermineCompilerABI_C.bin
-* /opt/cef/CMakeFiles/3.24.1/CMakeDetermineCompilerABI_CXX.bin
-* /opt/cef/CMakeFiles/3.24.1/CMakeSystem.cmake
-* /opt/cef/CMakeFiles/3.24.1/CompilerIdC/a.out
-* /opt/cef/CMakeFiles/3.24.1/CompilerIdC/CMakeCCompilerId.c
-* /opt/cef/CMakeFiles/3.24.1/CompilerIdCXX/a.out
-* /opt/cef/CMakeFiles/3.24.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+* /opt/cef/CMakeFiles/3.29.2/CMakeCCompiler.cmake
+* /opt/cef/CMakeFiles/3.29.2/CMakeCXXCompiler.cmake
+* /opt/cef/CMakeFiles/3.29.2/CMakeDetermineCompilerABI_C.bin
+* /opt/cef/CMakeFiles/3.29.2/CMakeDetermineCompilerABI_CXX.bin
+* /opt/cef/CMakeFiles/3.29.2/CMakeSystem.cmake
+* /opt/cef/CMakeFiles/3.29.2/CompilerIdC/a.out
+* /opt/cef/CMakeFiles/3.29.2/CompilerIdC/CMakeCCompilerId.c
+* /opt/cef/CMakeFiles/3.29.2/CompilerIdCXX/a.out
+* /opt/cef/CMakeFiles/3.29.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 * /opt/cef/CMakeFiles/cmake.check_cache
+* /opt/cef/CMakeFiles/CMakeConfigureLog.yaml
 * /opt/cef/CMakeFiles/CMakeDirectoryInformation.cmake
-* /opt/cef/CMakeFiles/CMakeOutput.log
 * /opt/cef/CMakeFiles/Makefile.cmake
 * /opt/cef/CMakeFiles/Makefile2
 * /opt/cef/CMakeFiles/progress.marks
@@ -1525,8 +1525,4 @@ Chromium Embedded Framework standard release
 * /opt/cef/Resources/locales/zh-CN.pak
 * /opt/cef/Resources/locales/zh-TW.pak
 * /opt/cef/Resources/resources.pak
-* /usr/share/doc/cef-105.3.25/AUTHORS
-* /usr/share/doc/cef-105.3.25/COPYING
-* /usr/share/doc/cef-105.3.25/INSTALL
-* /usr/share/doc/cef-105.3.25/README.rst
 * /usr/share/doc/cef-105.3.25/README.txt

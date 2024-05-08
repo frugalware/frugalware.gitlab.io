@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "coin-or-coinutils 2.11.6-3"
-version = "2.11.6-3"
+title = "coin-or-coinutils 2.11.6-4"
+version = "2.11.6-4"
 description = "COIN-OR collection of utility classes (AliceVision fork)"
-date = "2023-09-06T13:16:19"
+date = "2024-05-08T10:32:39"
 aliases = "/packages/220124"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/alicevision/CoinUtils"
 arch = "x86_64"
-size = "5860216"
-usize = "8694063"
-sha1sum = "4d0ad215ef01cd9da325fa394ff13223f3efeb84"
+size = "5815060"
+usize = "8589675"
+sha1sum = "cf7a95b08e874b604521c7b5ba19ff96c572c28c"
 depends = "['bzip2', 'glpk', 'lapack', 'zlib>=1.2.12']"
 reverse_depends = "['coin-or-osi']"
 +++

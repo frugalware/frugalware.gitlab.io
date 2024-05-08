@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "coin-or-osi 0.108.7-3"
-version = "0.108.7-3"
+title = "coin-or-osi 0.108.7-4"
+version = "0.108.7-4"
 description = "COIN-OR Open Solver Interface (AliceVision fork)"
-date = "2023-09-06T13:23:28"
+date = "2024-05-08T10:33:33"
 aliases = "/packages/220125"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/AliceVision/Osi"
 arch = "x86_64"
-size = "1525740"
-usize = "2255980"
-sha1sum = "810323ca9a76695087770ce5604894d68e824bf6"
+size = "1506152"
+usize = "2213008"
+sha1sum = "cb1ba1bc766242d609d046b847940ab4afc626bc"
 depends = "['coin-or-coinutils']"
 reverse_depends = "['coin-or-clp']"
 +++

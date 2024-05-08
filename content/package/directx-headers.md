@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "directx-headers 1.613.1-1"
-version = "1.613.1-1"
+title = "directx-headers 1.613.1-2"
+version = "1.613.1-2"
 description = "DirectX headers for using D3D12"
-date = "2024-04-11T10:59:56"
+date = "2024-05-08T10:54:41"
 aliases = "/packages/220935"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/microsoft/DirectX-Headers"
 arch = "x86_64"
-size = "357040"
-usize = "3608169"
-sha1sum = "9d3a1f9050622c4854556dd5587ed6f7fda17677"
+size = "356812"
+usize = "3608161"
+sha1sum = "17218786de1309f3dca7f8e0ca50b3c72de0e878"
 depends = "['glibc>=2.38']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "valgrind 3.20.0-1"
-version = "3.20.0-1"
+title = "valgrind 3.20.0-2"
+version = "3.20.0-2"
 description = "Tools for debugging and profiling Linux programs."
-date = "2023-02-27T12:12:19"
+date = "2024-05-08T10:53:23"
 aliases = "/packages/10378"
 categories = ['devel-extra']
 upstreamurl = "http://valgrind.org/"
 arch = "x86_64"
-size = "64939708"
-usize = "181090370"
-sha1sum = "14e1e9d07dcf2301b300588fd095b5351d8565dd"
+size = "65672064"
+usize = "184083508"
+sha1sum = "d06da95b87296688f87ef7f37a63738b251dee6f"
 depends = "['perl>=5.28.2']"
 +++
 ### Description: 
