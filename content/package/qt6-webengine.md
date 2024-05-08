@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt6-webengine 6.7.0-1"
-version = "6.7.0-1"
+title = "qt6-webengine 6.7.0-2"
+version = "6.7.0-2"
 description = "The Qt6 toolkit, qtwebengine"
-date = "2024-04-03T16:15:12"
+date = "2024-05-08T20:30:45"
 aliases = "/packages/220791"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "87131820"
-usize = "265602026"
-sha1sum = "edf04226cceadf1a20c9ebe67f52b0bc317e6fdf"
-depends = "['ffmpeg>=6.0', 'libatomic', 'libepoxy', 'libevent', 'libgbm', 'libjpeg-turbo', 'libkrb5', 'libxcomposite', 'libxcursor', 'libxrandr', 'libxshmfence', 'libxslt', 'nss', 'opus', 'qt6-positioning', 'qt6-webchannel', 'snappy']"
+size = "81992600"
+usize = "249971072"
+sha1sum = "99defb123e7026cd13cfc418d434e94eb9120966"
+depends = "['ffmpeg>=6.0', 'icu4c', 'libatomic', 'libepoxy', 'libevent', 'libgbm', 'libjpeg-turbo', 'libkrb5', 'libvpx', 'libxcomposite', 'libxcursor', 'libxrandr', 'libxshmfence', 'libxslt', 'nss', 'opus', 'qt6-positioning', 'qt6-webchannel', 're2', 'snappy>=1.2.0']"
 reverse_depends = "['akonadi-contacts', 'angelfish', 'arianna', 'falkon', 'kaccounts-providers', 'kalgebra', 'kdenlive', 'khelpcenter', 'kio-extras', 'konqueror', 'kvirc', 'libkgapi', 'libksysguard', 'parley', 'pyqt6webengine', 'qt6-webview', 'qtcreator', 'seafile-client']"
 +++
 ### Description: 
@@ -406,7 +406,6 @@ The Qt6 toolkit, qtwebengine
 * /usr/lib/qt6/QtWebEngineProcess
 * /usr/lib/qt6/qwebengine_convert_dict
 * /usr/lib/qt6/webenginedriver
-* /usr/share/qt6/resources/icudtl.dat
 * /usr/share/qt6/resources/qtwebengine_devtools_resources.pak
 * /usr/share/qt6/resources/qtwebengine_resources.pak
 * /usr/share/qt6/resources/qtwebengine_resources_100p.pak

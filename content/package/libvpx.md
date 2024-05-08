@@ -12,7 +12,7 @@ size = "1371448"
 usize = "5029097"
 sha1sum = "5d62358bdca53fc2b296917c6cfd52edf94358b1"
 depends = "['libstdc++>=11.2']"
-reverse_depends = "['ffmpeg', 'gst1-plugins-good-vpx', 'mencoder', 'mplayer', 'mpv', 'qt5-webengine', 'qtox', 'r2modman', 'thunderbird', 'tox-core', 'virtualbox', 'vlc-vpx', 'xine-lib']"
+reverse_depends = "['ffmpeg', 'gst1-plugins-good-vpx', 'mencoder', 'mplayer', 'mpv', 'qt5-webengine', 'qt6-webengine', 'qtox', 'r2modman', 'thunderbird', 'tox-core', 'virtualbox', 'vlc-vpx', 'xine-lib']"
 +++
 ### Description: 
 WebM VP8 VP9 Codec SDK

@@ -12,7 +12,7 @@ size = "145668"
 usize = "401287"
 sha1sum = "17901f675712ab55057af5894192251469ad0d9b"
 depends = "['abseil-cpp>=20240116.0', 'libgcc', 'libstdc++']"
-reverse_depends = "['grpc', 'r2modman']"
+reverse_depends = "['grpc', 'qt6-webengine', 'r2modman']"
 +++
 ### Description: 
 Fast, safe, thread-friendly regular expression engine.
