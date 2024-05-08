@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "opensp 1.5.2-9"
-version = "1.5.2-9"
+title = "opensp 1.5.2-11"
+version = "1.5.2-11"
 description = "The OpenJade Group's SGML and XML parsing tools"
-date = "2022-02-02T18:24:21"
+date = "2024-05-08T23:09:34"
 aliases = "/packages/3274"
 categories = ['apps']
-upstreamurl = "http://openjade.sourceforge.net/"
+upstreamurl = "https://sourceforge.net/projects/openjade"
 arch = "x86_64"
-size = "9298032"
-usize = "16984982"
-sha1sum = "8e7841507f17a5dfce3a3ddbb3a8c4c98ce662d6"
+size = "9285844"
+usize = "16388530"
+sha1sum = "a74f3504ab8b2943421d5a0d2007af77de07bf00"
 depends = "['libstdc++>=9.1.0-3', 'sgml-common>=0.6.3-5']"
 reverse_depends = "['libofx', 'openjade']"
 +++
@@ -210,11 +210,6 @@ The OpenJade Group's SGML and XML parsing tools
 * /usr/share/doc/OpenSP/doc/xmlwarn.htm
 * /usr/share/doc/OpenSP/NEWS
 * /usr/share/doc/OpenSP/README
-* /usr/share/locale/de/LC_MESSAGES/sp5.mo
-* /usr/share/locale/fr/LC_MESSAGES/sp5.mo
-* /usr/share/locale/ja/LC_MESSAGES/sp5.mo
-* /usr/share/locale/sv/LC_MESSAGES/sp5.mo
-* /usr/share/locale/tr/LC_MESSAGES/sp5.mo
 * /usr/share/sgml/OpenSP-1.5.2/catalog
 * /usr/share/sgml/OpenSP-1.5.2/demo.sgm
 * /usr/share/sgml/OpenSP-1.5.2/gensyntax.pl

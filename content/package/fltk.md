@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fltk 1.3.8-2"
-version = "1.3.8-2"
+title = "fltk 1.3.8-3"
+version = "1.3.8-3"
 description = "FLTK is a cross-platform C++ GUI toolkit for X"
-date = "2023-07-25T14:13:09"
+date = "2024-05-08T23:12:43"
 aliases = "/packages/4220"
 categories = ['xlib-extra']
 upstreamurl = "http://www.fltk.org/"
 arch = "x86_64"
-size = "1326592"
-usize = "7488987"
-sha1sum = "9135ee413ecc4f745f8fa9faa2f1903c165b5b5d"
+size = "1326384"
+usize = "7491883"
+sha1sum = "b75fd0649923d695fc733c7fd5b72985a37fba8f"
 depends = "['libglvnd', 'libjpeg-turbo', 'libpng>=1.6.20', 'libxft>=2.3.2-2', 'libxinerama>=1.1.3-2']"
 reverse_depends = "['htmldoc', 'octave', 'pinentry-fltk']"
 +++

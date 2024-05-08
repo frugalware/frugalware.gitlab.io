@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "iniparser 4.1-10"
-version = "4.1-10"
+title = "iniparser 4.1-11"
+version = "4.1-11"
 description = "A free stand-alone ini file parsing library written in portable ANSI C"
-date = "2023-08-20T19:08:44"
+date = "2024-05-08T23:13:59"
 aliases = "/packages/219025"
 categories = ['lib-extra']
 upstreamurl = "http://ndevilla.free.fr/iniparser"
 arch = "x86_64"
-size = "73696"
-usize = "113674"
-sha1sum = "b7b38aececc0a128537de4e26227247dee206ac7"
+size = "73860"
+usize = "113866"
+sha1sum = "7ed9fa46a85568fe0c7f32f4436d8f04bfb05974"
 depends = "['libstdc++>=13.2']"
 reverse_depends = "['dracut-ykfde']"
 +++
