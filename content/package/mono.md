@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mono 6.12.0.199-1"
-version = "6.12.0.199-1"
+title = "mono 6.12.0.199-2"
+version = "6.12.0.199-2"
 description = "Mono runtime and class libraries, a C# compiler/interpreter"
-date = "2023-11-14T16:36:06"
+date = "2024-05-08T15:10:34"
 aliases = "/packages/3229"
 categories = ['devel']
 upstreamurl = "http://www.mono-project.com/"
 arch = "x86_64"
-size = "124300208"
-usize = "331627984"
-sha1sum = "f3e6ea02f42aed79d76ba4bae0772633e05e3949"
+size = "124335768"
+usize = "331636310"
+sha1sum = "b358cb19c834583298d50694af8ff0e1282f5e65"
 depends = "['libstdc++>=9.1.0-3', 'zlib>=1.2.12']"
 reverse_depends = "['dbus-sharp', 'dbus-sharp', 'dbus-sharp-glib', 'gtk-sharp', 'gtk2-sharp', 'gtk2-sharp', 'gtk3-sharp', 'gtk3-sharp', 'keepass', 'notify-sharp', 'notify-sharp', 'referenceassemblies-pcl', 'uwsgi', 'uwsgi-plugin-mono']"
 +++
