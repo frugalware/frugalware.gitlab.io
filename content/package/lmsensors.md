@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lmsensors 3.6.0-6"
-version = "3.6.0-6"
+title = "lmsensors 3.6.0-7"
+version = "3.6.0-7"
 description = "Linux System Hardware Monitor"
-date = "2024-01-08T12:30:20"
+date = "2024-05-08T14:37:14"
 aliases = "/packages/3215"
 categories = ['apps']
 upstreamurl = "https://hwmon.wiki.kernel.org/lm_sensors"
 arch = "x86_64"
-size = "357872"
-usize = "794189"
-sha1sum = "129fb0fed9c7f8431797c705e772e810c8ead296"
+size = "357896"
+usize = "794037"
+sha1sum = "ebda37b5780dbc1ebb1333167a8359f730ccf5ba"
 depends = "['glibc>=2.34', 'perl']"
 reverse_depends = "['inxi', 'ksensors', 'ksysguard5', 'libksysguard', 'libksysguard5', 'mesa-dri-drivers', 'mesa-nine', 'sysstat']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "jxrlib 0.2.4-4"
-version = "0.2.4-4"
+title = "jxrlib 0.2.4-5"
+version = "0.2.4-5"
 description = "Open source implementation of jpegxr"
-date = "2023-09-03T11:47:52"
+date = "2024-05-08T14:26:55"
 aliases = "/packages/220513"
 categories = ['lib']
 upstreamurl = "https://github.com/glencoesoftware/jxrlib"
 arch = "x86_64"
-size = "237796"
+size = "237816"
 usize = "1556317"
-sha1sum = "78b746c2a51c6e21fbc5fdba5ee1eec8d4a46bb6"
+sha1sum = "befd4d78cff976fad3a629d4243631d32cc3dccd"
 depends = "['glibc>=2.34']"
 reverse_depends = "['freeimage', 'sdl2_image']"
 +++
