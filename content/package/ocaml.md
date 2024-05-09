@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ocaml 5.1.1-1"
-version = "5.1.1-1"
+title = "ocaml 5.1.1-2"
+version = "5.1.1-2"
 description = "Caml is a general-purpose programming language, designed with program safety and reliability in mind."
-date = "2023-12-19T10:44:35"
+date = "2024-05-08T23:22:51"
 aliases = "/packages/3751"
 categories = ['devel-extra']
 upstreamurl = "http://www.ocaml.org"
 arch = "x86_64"
-size = "34184876"
-usize = "131587618"
-sha1sum = "186e969a3f20eba86e10cbed80ed5c53d279743f"
+size = "34173616"
+usize = "131592004"
+sha1sum = "a2f85963eae8f6d0d24d2c4cbee3edd2d0ed4c0b"
 depends = "['binutils>=2.38', 'gdbm>=1.11-2', 'libxml2>=2.9.4-2', 'ncurses>=6.0-18']"
 reverse_depends = "['cppo', 'hivex-ocaml', 'llvm-ocaml', 'ocaml-bigarray-compat', 'ocaml-compiler-libs', 'ocaml-compiler-libs-repackaged', 'ocaml-ctypes', 'ocaml-domain-shims', 'ocaml-extlib', 'ocaml-findlib', 'ocaml-integers', 'ocaml-luv', 'ocaml-react', 'ocaml-result', 'ocaml-seq', 'ocaml-stdlib-shims', 'ocaml-topkg', 'ocamlbuild', 'ocplib-endian', 'ppx_derivers', 'sexplib0', 'thread-table']"
 +++

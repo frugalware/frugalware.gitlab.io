@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cudf 0.10-2"
-version = "0.10-2"
+title = "cudf 0.10-3"
+version = "0.10-3"
 description = "Library to parse, pretty print, and evaluate CUDF documents"
-date = "2023-12-19T13:12:54"
+date = "2024-05-08T23:47:04"
 aliases = "/packages/220495"
 categories = ['lib-extra']
 upstreamurl = "https://irill.gitlab.io/cudf/"
 arch = "x86_64"
-size = "1241636"
+size = "1242240"
 usize = "4630852"
-sha1sum = "fea440062c473c4d6cbf1b40ef15c6182cadfeba"
+sha1sum = "2f7121f5c4f7d015e2cd5a47396a7e8973451697"
 depends = "['ocaml-extlib']"
 +++
 ### Description: 

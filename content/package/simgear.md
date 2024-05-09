@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "simgear 2020.3.19-1"
-version = "2020.3.19-1"
+title = "simgear 2020.3.19-2"
+version = "2020.3.19-2"
 description = "Libraries to be used as building blocks for quickly assembling 3d simulations"
-date = "2023-10-20T14:36:02"
+date = "2024-05-08T23:43:54"
 aliases = "/packages/3836"
 categories = ['xlib-extra']
 upstreamurl = "http://www.simgear.org/"
 arch = "x86_64"
-size = "37525100"
-usize = "65497319"
-sha1sum = "5634144cb9619bdfa36f24939bf1be5cf1c360e3"
+size = "36909104"
+usize = "62017539"
+sha1sum = "71471f468ab572ad9835e4bee8d657a8f669949d"
 depends = "['glibc>=2.34']"
 +++
 ### Description: 

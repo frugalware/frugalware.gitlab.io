@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ocaml-compiler-libs 5.1.1-1"
-version = "5.1.1-1"
+title = "ocaml-compiler-libs 5.1.1-2"
+version = "5.1.1-2"
 description = "Several modules used internally by the OCaml compiler"
-date = "2023-12-19T10:44:35"
+date = "2024-05-08T23:22:51"
 aliases = "/packages/220405"
 categories = ['devel-extra']
 upstreamurl = "http://www.ocaml.org"
 arch = "x86_64"
-size = "39842876"
-usize = "74150003"
-sha1sum = "dafcc7c647ec7297e4b6c82d471ee177177142e8"
+size = "39845100"
+usize = "74149531"
+sha1sum = "5839eb7327ab95687fb33809aa4c2aa1d267c7bf"
 depends = "['ocaml']"
 reverse_depends = "['ocaml-compiler-libs-repackaged', 'opam']"
 +++

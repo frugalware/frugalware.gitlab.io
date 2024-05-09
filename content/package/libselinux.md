@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libselinux 3.6-2"
-version = "3.6-2"
+title = "libselinux 3.6-3"
+version = "3.6-3"
 description = "SELinux library and simple utilities"
-date = "2024-01-20T21:44:50"
+date = "2024-05-08T23:46:10"
 aliases = "/packages/219881"
 categories = ['lib-extra']
 upstreamurl = "http://userspace.selinuxproject.org"
 arch = "x86_64"
-size = "442764"
-usize = "2047416"
-sha1sum = "ebb2910c9159e425a741acbde4b8e857a5674c74"
+size = "443608"
+usize = "2052032"
+sha1sum = "77930bb80243a69feac5427b03e833be2385e5a2"
 depends = "['libsepol>=3.3', 'pcre', 'python3>=3.10', 'ruby>=3.3.0']"
 reverse_depends = "['steam-native']"
 +++

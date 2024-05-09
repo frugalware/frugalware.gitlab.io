@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ocaml-static 5.1.1-1"
-version = "5.1.1-1"
+title = "ocaml-static 5.1.1-2"
+version = "5.1.1-2"
 description = "Caml libraries statically linked."
-date = "2023-12-19T10:44:35"
+date = "2024-05-08T23:22:51"
 aliases = "/packages/219961"
 categories = ['devel-extra']
 upstreamurl = "http://www.ocaml.org"
 arch = "x86_64"
-size = "12377588"
-usize = "30965700"
-sha1sum = "81ae976c86b2194965fff683c06b75f9872d0223"
+size = "12431116"
+usize = "30580076"
+sha1sum = "0b18cdc9cb84b0137c28f41b546068511b9f6e7b"
 depends = "[]"
 +++
 ### Description: 
