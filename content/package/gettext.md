@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "gettext 0.22.5-2"
-version = "0.22.5-2"
+title = "gettext 0.22.5-5"
+version = "0.22.5-5"
 description = "GNU internationalization library"
-date = "2024-04-28T13:38:14"
+date = "2024-05-09T19:12:57"
 aliases = "/packages/2383"
-categories = ['base']
+categories = ['apps']
 upstreamurl = "http://www.gnu.org/software/gettext"
 arch = "x86_64"
-size = "2305472"
-usize = "9923305"
-sha1sum = "8932b0f20b46afc5196dda2cad0eb9ab07a1c3d5"
-depends = "['icu4c>=74.1', 'libcroco', 'libtextstyle', 'libunistring>=1.1', 'ncurses>=6.1-5']"
-reverse_depends = "['bison', 'clisp', 'kdesdk-thumbnailers', 'ki18n', 'ki18n5', 'lib32-libtextstyle', 'libtextstyle', 'poxml', 'quilt', 'wine', 'wine-devel']"
+size = "2311652"
+usize = "9960173"
+sha1sum = "8ce3bda8cd0bd4dc39180d82e52ae73f35ac939e"
+depends = "['libcroco', 'libtextstyle', 'libunistring>=1.1', 'ncurses>=6.1-5']"
+reverse_depends = "['bison', 'clisp', 'kdesdk-thumbnailers', 'ki18n', 'ki18n5', 'poxml', 'quilt', 'wine', 'wine-devel']"
 +++
 ### Description: 
 GNU internationalization library
@@ -76,6 +76,7 @@ GNU internationalization library
 * /usr/share/doc/gettext-0.22.5/bind_textdomain_codeset.3.html
 * /usr/share/doc/gettext-0.22.5/ChangeLog
 * /usr/share/doc/gettext-0.22.5/COPYING
+* /usr/share/doc/gettext-0.22.5/CREDITS
 * /usr/share/doc/gettext-0.22.5/csharpdoc/begin.html
 * /usr/share/doc/gettext-0.22.5/csharpdoc/GNU_Gettext.html
 * /usr/share/doc/gettext-0.22.5/csharpdoc/GNU_Gettext_GettextResourceManager.html
@@ -138,6 +139,7 @@ GNU internationalization library
 * /usr/share/doc/gettext-0.22.5/javadoc2/packages.html
 * /usr/share/doc/gettext-0.22.5/javadoc2/serialized-form.html
 * /usr/share/doc/gettext-0.22.5/javadoc2/stylesheet.css
+* /usr/share/doc/gettext-0.22.5/LICENSE
 * /usr/share/doc/gettext-0.22.5/msgattrib.1.html
 * /usr/share/doc/gettext-0.22.5/msgcat.1.html
 * /usr/share/doc/gettext-0.22.5/msgcmp.1.html
@@ -156,10 +158,12 @@ GNU internationalization library
 * /usr/share/doc/gettext-0.22.5/ngettext.1.html
 * /usr/share/doc/gettext-0.22.5/ngettext.3.html
 * /usr/share/doc/gettext-0.22.5/README
+* /usr/share/doc/gettext-0.22.5/README.md
 * /usr/share/doc/gettext-0.22.5/recode-sr-latin.1.html
 * /usr/share/doc/gettext-0.22.5/textdomain.3.html
 * /usr/share/doc/gettext-0.22.5/THANKS
 * /usr/share/doc/gettext-0.22.5/tutorial.html
+* /usr/share/doc/gettext-0.22.5/VERSION
 * /usr/share/doc/gettext-0.22.5/xgettext.1.html
 * /usr/share/gettext-0.22.5/its/glade.loc
 * /usr/share/gettext-0.22.5/its/glade1.its

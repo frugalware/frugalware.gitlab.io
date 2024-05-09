@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libxml2 2.12.6-1"
-version = "2.12.6-1"
+title = "libxml2 2.12.6-5"
+version = "2.12.6-5"
 description = "XML parsing library"
-date = "2024-03-21T15:08:35"
+date = "2024-05-09T19:46:50"
 aliases = "/packages/3212"
-categories = ['base']
+categories = ['lib']
 upstreamurl = "https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home"
 arch = "x86_64"
-size = "686592"
-usize = "2229631"
-sha1sum = "6b7ee8ec571fb7f6eda637dbf93ab2777e93f085"
-depends = "['icu4c>=74.1', 'xz>=5.2.4-2', 'zlib>=1.2.12']"
+size = "687556"
+usize = "2233762"
+sha1sum = "42e18407b693f586ca7de9cc4bca7a02c100659e"
+depends = "['xz>=5.2.4-2', 'zlib>=1.2.12']"
 reverse_depends = "['apache', 'aria2', 'augeas', 'autogen', 'autopano-sift-c', 'bind', 'clamav', 'clang', 'clang-libs', 'clang15', 'clang15-libs', 'conky', 'distcc-gui', 'docbook-xml', 'ebook-tools', 'fluxbox', 'foomatic-db', 'foomatic-db-engine', 'foomatic-db-nonfree', 'gd', 'gdal', 'glade', 'graphicsmagick', 'gtk2-sharp', 'gtk3-sharp', 'gtksourceview4', 'gtkspell', 'gutenprint', 'guvcview', 'hivex', 'hwloc', 'ices', 'intel-graphics-compiler', 'libbluray', 'libcmis', 'libcroco', 'libgnt', 'libgsf', 'libguestfs', 'libiio', 'liblangtag', 'libmusicbrainz', 'libplist', 'libqalculate', 'librdf', 'libreoffice', 'librest', 'libsoup', 'libvips', 'libvirt', 'libxml++2', 'libxml2-docs', 'libxml2-python', 'libxslt', 'm17n-lib', 'mariadb', 'mlt-jack', 'mod_security', 'mupen64plus', 'naev', 'netpbm', 'notification-daemon', 'obconf', 'ocaml', 'opencollada', 'openconnect', 'openslide', 'openturns', 'pacman-tools', 'pdal-postgresql', 'phonon-qt5', 'phonon-qt6', 'php', 'php-embed', 'postgresql', 'postgresql-extras', 'postgresql-upgrade-from-12', 'postgresql-upgrade-from-13', 'postgresql-upgrade-from-14', 'postgresql-upgrade-from-15', 'printoxx', 'ptabtools', 'python3-html5-parser', 'python3-lxml', 'qt5-webengine', 'qt5-webengine', 'raptor', 'rrdtool', 'ruby', 'shared-mime-info', 'sim', 'spirv-llvm-translator', 'telepathy-logger', 'tk', 'uwsgi', 'uwsgi-plugin-airbrake', 'uwsgi-plugin-xslt', 'vcdimager', 'wayland', 'wimlib', 'wine', 'wine-devel', 'wxmaxima', 'xcfa', 'xmlrpc-c', 'xmlsec1', 'xpad', 'zenity']"
 +++
 ### Description: 

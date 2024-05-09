@@ -12,7 +12,7 @@ size = "10472552"
 usize = "42859064"
 sha1sum = "240dc1b8ccaaae87b6567253e79f3508f0f37f4f"
 depends = "[]"
-reverse_depends = "['lib32-gettext', 'lib32-harfbuzz', 'lib32-libxml2']"
+reverse_depends = "['lib32-harfbuzz']"
 +++
 ### Description: 
 International Components for Unicode library ( 32bit )

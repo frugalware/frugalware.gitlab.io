@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libtextstyle 0.22.5-2"
-version = "0.22.5-2"
+title = "libtextstyle 0.22.5-5"
+version = "0.22.5-5"
 description = "gettext lib"
-date = "2024-04-28T13:38:14"
+date = "2024-05-09T19:12:57"
 aliases = "/packages/221103"
-categories = ['chroot-core']
+categories = ['libs']
 upstreamurl = "http://www.gnu.org/software/gettext"
 arch = "x86_64"
-size = "165152"
-usize = "497471"
-sha1sum = "1c397d0bb37cd63f9fb5486c43de66ec9398e85c"
-depends = "['gettext', 'ncurses>=6.5']"
+size = "157748"
+usize = "493343"
+sha1sum = "8cef78fd9c7102bfbfa719535a2ccfe7c7a55b24"
+depends = "['ncurses>=6.5']"
 reverse_depends = "['gettext']"
 +++
 ### Description: 
