@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox 125.0.3-1"
-version = "125.0.3-1"
+title = "firefox 125.0.3-2"
+version = "125.0.3-2"
 description = "Mozilla Firefox web browser"
-date = "2024-04-29T14:34:55"
+date = "2024-04-29T17:47:49"
 aliases = "/packages/2997"
 categories = ['xapps-extra']
 upstreamurl = "http://www.mozilla.org/products/firefox/"
 arch = "x86_64"
-size = "62829300"
+size = "62832908"
 usize = "250798037"
-sha1sum = "69891a7ee83acc8719077bb00f5784a6a8686f6e"
-depends = "['alsa-lib', 'aom', 'bzip2', 'cairo', 'curl>=7.50.3-2', 'dav1d>=1.3.0', 'dbus-glib', 'desktop-file-utils', 'ffmpeg>=3.3.2', 'gtk+2', 'gtk+3>=3.22.4', 'hunspell>=1.6.1', 'icu4c>=74.1', 'jemalloc', 'lcms', 'lcms2', 'libevent>=2.1.11', 'libffi>=3.4', 'libice', 'libidl', 'libnotify', 'libpulse>=9.0-2', 'libstdc++>=6.2.1-5', 'libxau>=1.0.4', 'libxdamage', 'libxdmcp', 'libxft>=2.1.13-2', 'libxt', 'nspr>=4.9.2', 'nss>=3.76', 'sqlite3>=3.25.1-2', 'startup-notification', 'wireless_tools']"
+sha1sum = "005a48b15f07141812e8a0e0c77f11c624dfc5eb"
+depends = "['alsa-lib', 'aom', 'bzip2', 'cairo', 'curl>=7.50.3-2', 'dav1d>=1.3.0', 'dbus-glib', 'desktop-file-utils', 'ffmpeg>=3.3.2', 'gtk+2', 'gtk+3>=3.22.4', 'hunspell>=1.6.1', 'icu4c>=75.1', 'jemalloc', 'lcms', 'lcms2', 'libevent>=2.1.11', 'libffi>=3.4', 'libice', 'libidl', 'libnotify', 'libpulse>=9.0-2', 'libstdc++>=6.2.1-5', 'libxau>=1.0.4', 'libxdamage', 'libxdmcp', 'libxft>=2.1.13-2', 'libxt', 'nspr>=4.9.2', 'nss>=3.76', 'sqlite3>=3.25.1-2', 'startup-notification', 'wireless_tools']"
 reverse_depends = "['firefox-ach', 'firefox-af', 'firefox-an', 'firefox-ar', 'firefox-ast', 'firefox-az', 'firefox-be', 'firefox-bg', 'firefox-bn', 'firefox-br', 'firefox-bs', 'firefox-ca', 'firefox-ca-valencia', 'firefox-cak', 'firefox-cs', 'firefox-cy', 'firefox-da', 'firefox-de', 'firefox-dsb', 'firefox-el', 'firefox-en-ca', 'firefox-en-gb', 'firefox-en-us', 'firefox-eo', 'firefox-es', 'firefox-es-ar', 'firefox-es-cl', 'firefox-es-es', 'firefox-es-mx', 'firefox-et', 'firefox-eu', 'firefox-fa', 'firefox-ff', 'firefox-fi', 'firefox-fr', 'firefox-fur', 'firefox-fy-nl', 'firefox-ga', 'firefox-ga-ie', 'firefox-gd', 'firefox-gl', 'firefox-gn', 'firefox-gu-in', 'firefox-he', 'firefox-hi-in', 'firefox-hr', 'firefox-hsb', 'firefox-hu', 'firefox-hy-am', 'firefox-i18n', 'firefox-ia', 'firefox-id', 'firefox-is', 'firefox-it', 'firefox-ja', 'firefox-ka', 'firefox-kab', 'firefox-kk', 'firefox-km', 'firefox-kn', 'firefox-ko', 'firefox-lij', 'firefox-lt', 'firefox-lv', 'firefox-mk', 'firefox-mn', 'firefox-mr', 'firefox-ms', 'firefox-my', 'firefox-nb', 'firefox-nb-no', 'firefox-ne-np', 'firefox-nl', 'firefox-nn-no', 'firefox-oc', 'firefox-pa', 'firefox-pa-in', 'firefox-pl', 'firefox-pt-br', 'firefox-pt-pt', 'firefox-pt_BR', 'firefox-pt_PT', 'firefox-rm', 'firefox-ro', 'firefox-ru', 'firefox-sat', 'firefox-sc', 'firefox-sco', 'firefox-si', 'firefox-sk', 'firefox-sl', 'firefox-son', 'firefox-sq', 'firefox-sr', 'firefox-sv-se', 'firefox-szl', 'firefox-ta', 'firefox-tabswitcher', 'firefox-te', 'firefox-tg', 'firefox-th', 'firefox-tl', 'firefox-tr', 'firefox-trs', 'firefox-uk', 'firefox-ur', 'firefox-uz', 'firefox-vi', 'firefox-xh', 'firefox-zh-cn', 'firefox-zh-tw', 'firefox-zh_CN', 'firefox-zh_TW']"
 +++
 ### Description: 

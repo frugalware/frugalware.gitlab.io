@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4501096"
 usize = "38864090"
 sha1sum = "869a41851fe97eeb2194fcdf6ea8dcb86da8841b"
-depends = "['blosc', 'intel-tbb', 'jemalloc', 'libboost>=1.83.0']"
+depends = "['blosc', 'intel-tbb', 'jemalloc', 'libboost>=1.85.0']"
 reverse_depends = "['blender', 'openimageio', 'vtk']"
 +++
 ### Description: 
@@ -175,7 +175,6 @@ A large suite of tools for the efficient storage and manipulation 	of sparse vol
 * /usr/include/openvdb/util/Util.h
 * /usr/include/openvdb/version.h
 * /usr/lib/cmake/OpenVDB/FindBlosc.cmake
-* /usr/lib/cmake/OpenVDB/FindIlmBase.cmake
 * /usr/lib/cmake/OpenVDB/FindJemalloc.cmake
 * /usr/lib/cmake/OpenVDB/FindLog4cplus.cmake
 * /usr/lib/cmake/OpenVDB/FindOpenEXR.cmake
@@ -186,11 +185,11 @@ A large suite of tools for the efficient storage and manipulation 	of sparse vol
 * /usr/lib/cmake/OpenVDB/OpenVDBMayaSetup.cmake
 * /usr/lib/cmake/OpenVDB/OpenVDBUtils.cmake
 * /usr/lib/libopenvdb.so
-* /usr/lib/libopenvdb.so.10.1
-* /usr/lib/libopenvdb.so.10.1.0
+* /usr/lib/libopenvdb.so.11.0
+* /usr/lib/libopenvdb.so.11.0.0
 * /usr/share/cmake/Modules/FindBlosc.cmake
 * /usr/share/cmake/Modules/FindOpenVDB.cmake
 * /usr/share/cmake/Modules/OpenVDBUtils.cmake
-* /usr/share/doc/openvdb-10.1.0/CHANGES
-* /usr/share/doc/openvdb-10.1.0/LICENSE
-* /usr/share/doc/openvdb-10.1.0/README.md
+* /usr/share/doc/openvdb-11.0.0/CHANGES
+* /usr/share/doc/openvdb-11.0.0/LICENSE
+* /usr/share/doc/openvdb-11.0.0/README.md

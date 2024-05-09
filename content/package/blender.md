@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "blender 4.1.1-1"
-version = "4.1.1-1"
+title = "blender 4.1.1-2"
+version = "4.1.1-2"
 description = "A 3D modeling/rendering/animation/gaming application"
-date = "2024-04-26T14:47:37"
+date = "2024-04-29T12:30:09"
 aliases = "/packages/2933"
 categories = ['xapps-extra']
 upstreamurl = "https://www.blender.org"
 arch = "x86_64"
-size = "64928852"
-usize = "219801477"
-sha1sum = "32928e719c09906ea41ada317ab126017d0e97f5"
-depends = "['alembic', 'embree', 'fftw', 'freetype2>=2.7', 'glew>=2.2.0', 'icu4c>=74.1', 'jemalloc', 'libboost>=1.82.0', 'libepoxy', 'libjpeg-turbo', 'libpng>=1.6.25', 'libsamplerate', 'libspnav', 'libtiff', 'libxi', 'lzo', 'openal>=1.7.411', 'openblas', 'opencollada', 'opencolorio', 'openexr>=3.1.0', 'openimageio>=2.1.12.0', 'openjpeg', 'openshadinglanguage', 'openvdb>=10.1.0', 'potrace', 'python3-numpy>=1.19.0', 'python3-requests', 'sdl>=1.2.13-2']"
+size = "64893284"
+usize = "219789189"
+sha1sum = "7cf357ae0b6d9528bb0fb57dfaad6b3f4dbde3a1"
+depends = "['alembic', 'embree', 'fftw', 'freetype2>=2.7', 'glew>=2.2.0', 'icu4c>=75.1', 'jemalloc', 'libboost>=1.82.0', 'libepoxy', 'libjpeg-turbo', 'libpng>=1.6.25', 'libsamplerate', 'libspnav', 'libtiff', 'libxi', 'lzo', 'openal>=1.7.411', 'openblas', 'opencollada', 'opencolorio', 'openexr>=3.1.0', 'openimageio>=2.1.12.0', 'openjpeg', 'openshadinglanguage', 'openvdb>=10.1.0', 'potrace', 'python3-numpy>=1.19.0', 'python3-requests', 'sdl>=1.2.13-2']"
 +++
 ### Description: 
 A 3D modeling/rendering/animation/gaming application

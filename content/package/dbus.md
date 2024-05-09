@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "dbus 1.14.10-2"
-version = "1.14.10-2"
+title = "dbus 1.14.10-3"
+version = "1.14.10-3"
 description = "A message bus system"
-date = "2024-01-02T14:38:57"
+date = "2024-05-06T17:37:14"
 aliases = "/packages/2961"
 categories = ['base']
 upstreamurl = "http://freedesktop.org/wiki/Software/dbus"
 arch = "x86_64"
-size = "513160"
-usize = "1737034"
-sha1sum = "f4adfdbc1e289440d5bc664ba5a6c881951216c0"
-depends = "['expat>=2.1.0-5', 'libsystemd>=242', 'libxml2>=2.9.4-3', 'scriptlet-core']"
+size = "512824"
+usize = "1737042"
+sha1sum = "97621e990439c2b2901d8e76df88b64f245499df"
+depends = "['expat>=2.1.0-5', 'libsystemd>=242', 'scriptlet-core']"
 reverse_depends = "['at-spi2-core', 'avahi', 'bluez', 'cef', 'cups', 'dbus-c++', 'dbus-glib', 'dbus-qt3', 'dbus-x11', 'dnsmasq', 'efl', 'enlightenment', 'gvfs', 'hexchat', 'inkscape', 'jack2', 'kdbus', 'kitty', 'libatspi', 'libnvme', 'libpcap', 'libproxy', 'libpulse', 'libvlc', 'lumina-desktop', 'mp3splt-gtk', 'pulseaudio', 'pulseaudio-bluetooth', 'qt5-base', 'rtkit', 'systemd', 'terminology', 'threema-desktop', 'whalebird', 'wireshark', 'wpa_supplicant', 'xorg-server']"
 +++
 ### Description: 

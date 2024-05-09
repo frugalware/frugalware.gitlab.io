@@ -12,7 +12,7 @@ size = "47657252"
 usize = "206867884"
 sha1sum = "3843c9cba142a8a4499ba72210018060132c1d3b"
 depends = "['ca-certificates-java', 'harfbuzz', 'lcms2', 'libkrb5', 'libpulse>=7.1', 'libuuid', 'lksctp-tools>=1.0.18-2', 'nss', 'pcsc-lite']"
-reverse_depends = "['antlr-openjava', 'apache-ant', 'apache-log4j1', 'bcel', 'bcprov', 'bouncycastle-mail', 'commons-cli', 'commons-codec', 'commons-io', 'commons-logging', 'dom4j', 'freerapid', 'gnu-crypto', 'gnuinetlib', 'gradle', 'insight-toolkit', 'iso-relax', 'itext-core', 'jaf', 'jakarta-oro', 'jakarta-regexp', 'java-hamcrest', 'javacup', 'libreoffice', 'lxmed', 'ntru', 'oneswarm', 'openjdk', 'openjre-x', 'rhino', 'sac', 'servletapi', 'subversion-bindings', 'sweethome3d', 'swt', 'vtk-java', 'xalan-j-serializer', 'xjavac', 'xml-commons-resolver', 'xpp3']"
+reverse_depends = "['antlr-openjava', 'apache-ant', 'apache-log4j1', 'bcel', 'bcprov', 'bouncycastle-mail', 'commons-cli', 'commons-codec', 'commons-io', 'commons-logging', 'dom4j', 'freerapid', 'gnu-crypto', 'gnuinetlib', 'gradle', 'insight-toolkit', 'iso-relax', 'itext-core', 'jaf', 'jakarta-oro', 'jakarta-regexp', 'java-hamcrest', 'javacup', 'lxmed', 'ntru', 'oneswarm', 'openjdk', 'openjre-x', 'rhino', 'sac', 'servletapi', 'subversion-bindings', 'sweethome3d', 'swt', 'vtk-java', 'xalan-j-serializer', 'xjavac', 'xml-commons-resolver', 'xpp3']"
 +++
 ### Description: 
 Open-source Java Runtime Environment.

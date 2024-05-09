@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-mai 24.2.3.2-1"
-version = "24.2.3.2-1"
+title = "libreoffice-l10n-mai 24.2.3.2-2"
+version = "24.2.3.2-2"
 description = "Installs Maithili support in LibreOffice"
-date = "2024-05-03T10:13:16"
+date = "2024-05-08T23:23:28"
 aliases = "/packages/104084"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "237212"
-usize = "1681126"
-sha1sum = "fe8c1ce9df6016825ae56e9c672a38487b2cbbd1"
+size = "237272"
+usize = "1680780"
+sha1sum = "fb939fbd88d0f5b02847d9c0e804a075427402fa"
 depends = "['libreoffice>=24.2.3.2']"
 +++
 ### Description: 

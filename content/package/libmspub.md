@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "libmspub 0.1.4-12"
-version = "0.1.4-12"
+title = "libmspub 0.1.4-13"
+version = "0.1.4-13"
 description = "libmspub import filter library"
-date = "2023-11-09T20:11:16"
+date = "2024-04-21T13:48:44"
 aliases = "/packages/184054"
 categories = ['xoffice']
 upstreamurl = "https://wiki.documentfoundation.org/DLP/Libraries/libmspub"
 arch = "x86_64"
-size = "481548"
+size = "481396"
 usize = "8225506"
-sha1sum = "a808650c0a7af59c58908af8738840139016dd28"
-depends = "['icu4c>=74.1', 'libwpd>=0.10.1-5', 'libwpg>=0.3.1-4']"
-reverse_depends = "['libreoffice', 'scribus']"
+sha1sum = "c633157af9502e43890eb85e7bcf6293cbf702ab"
+depends = "['icu4c>=75.1', 'libwpd>=0.10.1-5', 'libwpg>=0.3.1-4']"
+reverse_depends = "['scribus']"
 +++
 ### Description: 
 libmspub import filter library

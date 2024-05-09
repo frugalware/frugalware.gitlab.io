@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-kmr-latn 24.2.3.2-1"
-version = "24.2.3.2-1"
+title = "libreoffice-l10n-kmr-latn 24.2.3.2-2"
+version = "24.2.3.2-2"
 description = "Installs Kurdish support in LibreOffice"
-date = "2024-05-03T10:13:16"
+date = "2024-05-08T23:23:28"
 aliases = "/packages/200512"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "241072"
-usize = "1472658"
-sha1sum = "5ed3277ab9a9cced45188e3b881ab5afb18ae9b5"
+size = "241140"
+usize = "1472307"
+sha1sum = "33933cddd4b1247bcfb5a354bc373a7f6f835a94"
 depends = "['libreoffice>=24.2.3.2']"
 +++
 ### Description: 

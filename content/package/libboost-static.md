@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libboost-static 1.83.0-3"
-version = "1.83.0-3"
+title = "libboost-static 1.85.0-1"
+version = "1.85.0-1"
 description = "Boost libraries statically linked."
-date = "2023-11-09T09:04:21"
+date = "2024-04-18T17:12:50"
 aliases = "/packages/49946"
 categories = ['devel-extra']
 upstreamurl = "http://boost.org/"
 arch = "x86_64"
-size = "50040280"
-usize = "97274022"
-sha1sum = "9a345dc3d7506e993248e22f9f60e420a64bd9b1"
+size = "50060248"
+usize = "97076882"
+sha1sum = "a8d2d911a8d6edbd35b97b1a1bad0d2eba5f6dd2"
 depends = "[]"
 +++
 ### Description: 
@@ -18,6 +18,7 @@ Boost libraries statically linked.
 
 ### Files: 
 * /usr/lib/libboost_atomic.a
+* /usr/lib/libboost_charconv.a
 * /usr/lib/libboost_chrono.a
 * /usr/lib/libboost_container.a
 * /usr/lib/libboost_context.a
@@ -43,7 +44,6 @@ Boost libraries statically linked.
 * /usr/lib/libboost_mpi.a
 * /usr/lib/libboost_mpi_python312.a
 * /usr/lib/libboost_nowide.a
-* /usr/lib/libboost_numpy312.a
 * /usr/lib/libboost_prg_exec_monitor.a
 * /usr/lib/libboost_program_options.a
 * /usr/lib/libboost_python312.a

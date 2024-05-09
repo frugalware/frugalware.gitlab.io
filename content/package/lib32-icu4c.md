@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-icu4c 74.2-2"
-version = "74.2-2"
+title = "lib32-icu4c 75.1-2"
+version = "75.1-2"
 description = "International Components for Unicode library ( 32bit )"
-date = "2024-01-04T12:55:28"
+date = "2024-05-06T18:43:32"
 aliases = "/packages/218972"
 categories = ['lib32-extra']
 upstreamurl = "http://site.icu-project.org/"
 arch = "x86_64"
-size = "10351372"
-usize = "42363113"
-sha1sum = "87e74f7eb69384d2c10c6541633cc8ee00fd3a93"
+size = "10472552"
+usize = "42859064"
+sha1sum = "240dc1b8ccaaae87b6567253e79f3508f0f37f4f"
 depends = "[]"
 reverse_depends = "['lib32-gettext', 'lib32-harfbuzz', 'lib32-libxml2']"
 +++
@@ -84,6 +84,12 @@ International Components for Unicode library ( 32bit )
 * /usr/i686-frugalware-linux/include/unicode/measfmt.h
 * /usr/i686-frugalware-linux/include/unicode/measunit.h
 * /usr/i686-frugalware-linux/include/unicode/measure.h
+* /usr/i686-frugalware-linux/include/unicode/messageformat2.h
+* /usr/i686-frugalware-linux/include/unicode/messageformat2_arguments.h
+* /usr/i686-frugalware-linux/include/unicode/messageformat2_data_model.h
+* /usr/i686-frugalware-linux/include/unicode/messageformat2_data_model_names.h
+* /usr/i686-frugalware-linux/include/unicode/messageformat2_formattable.h
+* /usr/i686-frugalware-linux/include/unicode/messageformat2_function_registry.h
 * /usr/i686-frugalware-linux/include/unicode/messagepattern.h
 * /usr/i686-frugalware-linux/include/unicode/msgfmt.h
 * /usr/i686-frugalware-linux/include/unicode/normalizer2.h
@@ -232,29 +238,29 @@ International Components for Unicode library ( 32bit )
 * /usr/i686-frugalware-linux/sbin/gennorm2
 * /usr/i686-frugalware-linux/sbin/gensprep
 * /usr/i686-frugalware-linux/sbin/icupkg
-* /usr/lib32/icu/74.2/Makefile.inc
-* /usr/lib32/icu/74.2/pkgdata.inc
+* /usr/lib32/icu/75.1/Makefile.inc
+* /usr/lib32/icu/75.1/pkgdata.inc
 * /usr/lib32/icu/current
 * /usr/lib32/icu/Makefile.inc
 * /usr/lib32/icu/pkgdata.inc
 * /usr/lib32/libicudata.so
-* /usr/lib32/libicudata.so.74
-* /usr/lib32/libicudata.so.74.2
+* /usr/lib32/libicudata.so.75
+* /usr/lib32/libicudata.so.75.1
 * /usr/lib32/libicui18n.so
-* /usr/lib32/libicui18n.so.74
-* /usr/lib32/libicui18n.so.74.2
+* /usr/lib32/libicui18n.so.75
+* /usr/lib32/libicui18n.so.75.1
 * /usr/lib32/libicuio.so
-* /usr/lib32/libicuio.so.74
-* /usr/lib32/libicuio.so.74.2
+* /usr/lib32/libicuio.so.75
+* /usr/lib32/libicuio.so.75.1
 * /usr/lib32/libicutest.so
-* /usr/lib32/libicutest.so.74
-* /usr/lib32/libicutest.so.74.2
+* /usr/lib32/libicutest.so.75
+* /usr/lib32/libicutest.so.75.1
 * /usr/lib32/libicutu.so
-* /usr/lib32/libicutu.so.74
-* /usr/lib32/libicutu.so.74.2
+* /usr/lib32/libicutu.so.75
+* /usr/lib32/libicutu.so.75.1
 * /usr/lib32/libicuuc.so
-* /usr/lib32/libicuuc.so.74
-* /usr/lib32/libicuuc.so.74.2
+* /usr/lib32/libicuuc.so.75
+* /usr/lib32/libicuuc.so.75.1
 * /usr/lib32/pkgconfig/icu-i18n.pc
 * /usr/lib32/pkgconfig/icu-io.pc
 * /usr/lib32/pkgconfig/icu-uc.pc

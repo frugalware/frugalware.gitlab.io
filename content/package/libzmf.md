@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "libzmf 0.0.2-14"
-version = "0.0.2-14"
+title = "libzmf 0.0.2-15"
+version = "0.0.2-15"
 description = "libzmf import filter library"
-date = "2023-11-09T19:30:03"
+date = "2024-04-21T13:57:18"
 aliases = "/packages/219033"
 categories = ['xoffice']
 upstreamurl = "https://wiki.documentfoundation.org/DLP/Libraries/libzmf"
 arch = "x86_64"
-size = "81288"
+size = "81392"
 usize = "238088"
-sha1sum = "f2b45880fa738644378cdfff8d73dae9946cbd46"
-depends = "['icu4c>=74.1', 'libpng', 'librevenge']"
-reverse_depends = "['libreoffice', 'scribus']"
+sha1sum = "68611ac802cb5b58ca9452cd0beaae3b0ff00ad6"
+depends = "['icu4c>=75.1', 'libpng', 'librevenge']"
+reverse_depends = "['scribus']"
 +++
 ### Description: 
 libzmf import filter library

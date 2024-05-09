@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "grpc 1.62.1-1"
-version = "1.62.1-1"
+title = "grpc 1.62.2-1"
+version = "1.62.2-1"
 description = "High performance, open source, general RPC framework that puts mobile and HTTP/2 first."
-date = "2024-04-02T09:45:19"
+date = "2024-04-19T11:37:02"
 aliases = "/packages/219876"
 categories = ['devel']
 upstreamurl = "https://grpc.io"
 arch = "x86_64"
-size = "4366384"
+size = "4361132"
 usize = "20390218"
-sha1sum = "f3a81a8ffdbfdc9b0e2ef35c983108dea4af1a00"
-depends = "['c-ares', 'icu4c>=74.1', 'openssl>=3.1.0', 'protobuf>=25.3', 're2']"
+sha1sum = "0872d2af20f9e9d3490c1134f6ea6a9f51df5e2d"
+depends = "['c-ares', 'icu4c>=75.1', 'openssl>=3.1.0', 'protobuf>=25.3', 're2']"
 reverse_depends = "['qt6-grpc', 'sysdig']"
 +++
 ### Description: 
@@ -326,31 +326,31 @@ High performance, open source, general RPC framework that puts mobile and HTTP/2
 * /usr/lib/libgpr.so.39.0.0
 * /usr/lib/libgrpc++.so
 * /usr/lib/libgrpc++.so.1.62
-* /usr/lib/libgrpc++.so.1.62.1
+* /usr/lib/libgrpc++.so.1.62.2
 * /usr/lib/libgrpc++_alts.so
 * /usr/lib/libgrpc++_alts.so.1.62
-* /usr/lib/libgrpc++_alts.so.1.62.1
+* /usr/lib/libgrpc++_alts.so.1.62.2
 * /usr/lib/libgrpc++_error_details.so
 * /usr/lib/libgrpc++_error_details.so.1.62
-* /usr/lib/libgrpc++_error_details.so.1.62.1
+* /usr/lib/libgrpc++_error_details.so.1.62.2
 * /usr/lib/libgrpc++_reflection.so
 * /usr/lib/libgrpc++_reflection.so.1.62
-* /usr/lib/libgrpc++_reflection.so.1.62.1
+* /usr/lib/libgrpc++_reflection.so.1.62.2
 * /usr/lib/libgrpc++_unsecure.so
 * /usr/lib/libgrpc++_unsecure.so.1.62
-* /usr/lib/libgrpc++_unsecure.so.1.62.1
+* /usr/lib/libgrpc++_unsecure.so.1.62.2
 * /usr/lib/libgrpc.so
 * /usr/lib/libgrpc.so.39
 * /usr/lib/libgrpc.so.39.0.0
 * /usr/lib/libgrpcpp_channelz.so
 * /usr/lib/libgrpcpp_channelz.so.1.62
-* /usr/lib/libgrpcpp_channelz.so.1.62.1
+* /usr/lib/libgrpcpp_channelz.so.1.62.2
 * /usr/lib/libgrpc_authorization_provider.so
 * /usr/lib/libgrpc_authorization_provider.so.1.62
-* /usr/lib/libgrpc_authorization_provider.so.1.62.1
+* /usr/lib/libgrpc_authorization_provider.so.1.62.2
 * /usr/lib/libgrpc_plugin_support.so
 * /usr/lib/libgrpc_plugin_support.so.1.62
-* /usr/lib/libgrpc_plugin_support.so.1.62.1
+* /usr/lib/libgrpc_plugin_support.so.1.62.2
 * /usr/lib/libgrpc_unsecure.so
 * /usr/lib/libgrpc_unsecure.so.39
 * /usr/lib/libgrpc_unsecure.so.39.0.0
@@ -377,7 +377,7 @@ High performance, open source, general RPC framework that puts mobile and HTTP/2
 * /usr/lib/pkgconfig/grpc++_unsecure.pc
 * /usr/lib/pkgconfig/grpc.pc
 * /usr/lib/pkgconfig/grpc_unsecure.pc
-* /usr/share/doc/grpc-1.62.1/AUTHORS
-* /usr/share/doc/grpc-1.62.1/LICENSE
-* /usr/share/doc/grpc-1.62.1/README.md
+* /usr/share/doc/grpc-1.62.2/AUTHORS
+* /usr/share/doc/grpc-1.62.2/LICENSE
+* /usr/share/doc/grpc-1.62.2/README.md
 * /usr/share/grpc/roots.pem

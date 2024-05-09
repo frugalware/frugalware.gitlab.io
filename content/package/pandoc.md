@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pandoc 3.1.13-1"
-version = "3.1.13-1"
+title = "pandoc 3.1.13-2"
+version = "3.1.13-2"
 description = "Conversion between markup formats"
-date = "2024-04-16T14:03:43"
+date = "2024-05-09T00:39:21"
 aliases = "/packages/220747"
 categories = ['apps-extra']
 upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/pandoc"
 arch = "x86_64"
-size = "15213580"
-usize = "168912944"
-sha1sum = "9d4ff6411db8f276be43ff663ddbf606b9fcb003"
+size = "15206000"
+usize = "168912988"
+sha1sum = "95bcbbbf513767909b740f1e7aab099fbf753bb7"
 depends = "['haskell-aeson-pretty', 'haskell-base64', 'haskell-citeproc', 'haskell-commonmark-pandoc', 'haskell-djot', 'haskell-doctemplates', 'haskell-glob', 'haskell-gridtables', 'haskell-haddock-library', 'haskell-http-client-tls', 'haskell-ipynb', 'haskell-jira-wiki-markup', 'haskell-juicypixels', 'haskell-pretty-show', 'haskell-sha', 'haskell-skylighting', 'haskell-tagsoup', 'haskell-temporary', 'haskell-texmath', 'haskell-typst>=0.5', 'haskell-zip-archive']"
 reverse_depends = "['pandoc-cli', 'pandoc-server']"
 +++

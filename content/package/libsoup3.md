@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libsoup3 3.4.4-2"
-version = "3.4.4-2"
+title = "libsoup3 3.4.4-3"
+version = "3.4.4-3"
 description = "An HTTP library implementation in C"
-date = "2024-01-30T08:45:21"
+date = "2024-04-19T20:59:10"
 aliases = "/packages/220901"
 categories = ['lib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "317804"
-usize = "1181094"
-sha1sum = "f37fdfe50e8c3ff9cf322b56c5454fc2263fdc7e"
+size = "407340"
+usize = "2143689"
+sha1sum = "f1883445de935db324b1a29f7fc3cb69e8f92afb"
 depends = "['brotli', 'glib-networking', 'glib2', 'libpsl', 'libsysprof-capture', 'nghttp2', 'sqlite3']"
 reverse_depends = "['geoclue2', 'gssdp', 'gvfs', 'libosinfo', 'librest', 'passim', 'remmina', 'seahorse', 'webkit-gtk3']"
 +++
@@ -60,6 +60,7 @@ An HTTP library implementation in C
 * /usr/include/libsoup-3.0/libsoup/soup-websocket-extension.h
 * /usr/include/libsoup-3.0/libsoup/soup-websocket.h
 * /usr/include/libsoup-3.0/libsoup/soup.h
+* /usr/lib/girepository-1.0/Soup-3.0.typelib
 * /usr/lib/libsoup-3.0.so
 * /usr/lib/libsoup-3.0.so.0
 * /usr/lib/libsoup-3.0.so.0.7.1
@@ -70,6 +71,7 @@ An HTTP library implementation in C
 * /usr/share/doc/libsoup3-3.4.4/NEWS
 * /usr/share/doc/libsoup3-3.4.4/README
 * /usr/share/doc/libsoup3-3.4.4/README.msvc
+* /usr/share/gir-1.0/Soup-3.0.gir
 * /usr/share/locale/ab/LC_MESSAGES/libsoup-3.0.mo
 * /usr/share/locale/an/LC_MESSAGES/libsoup-3.0.mo
 * /usr/share/locale/as/LC_MESSAGES/libsoup-3.0.mo

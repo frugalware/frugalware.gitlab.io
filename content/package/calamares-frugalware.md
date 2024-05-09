@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "calamares-frugalware 3.3.5-2"
-version = "3.3.5-2"
+title = "calamares-frugalware 3.3.6-1"
+version = "3.3.6-1"
 description = "Distribution-independent installer framework"
-date = "2024-04-05T16:11:43"
+date = "2024-04-21T21:15:03"
 aliases = "/packages/218846"
 categories = ['installer-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3969640"
-usize = "9246512"
-sha1sum = "61444d59c003f5c1b896e9e2003ccfba8757f99f"
-depends = "['icu4c>=74.1', 'kconfig', 'kcoreaddons', 'kdbusaddons', 'kpmcore>=22.04.3', 'libboost>=1.83.0', 'libpwquality', 'parted', 'polkit-qt5-1', 'python3>=3.12', 'qt6-declarative>=5.15.10', 'qt6-svg', 'rsync', 'squashfs', 'yaml-cpp>=0.8.0']"
+size = "3982316"
+usize = "9290077"
+sha1sum = "a68956719e192c39c0fb163f981a143a7c3c0c4b"
+depends = "['icu4c>=75.1', 'kconfig', 'kcoreaddons', 'kdbusaddons', 'kpmcore>=22.04.3', 'libboost>=1.85.0', 'libpwquality', 'parted', 'polkit-qt5-1', 'python3>=3.12', 'qt6-declarative>=5.15.10', 'qt6-svg', 'rsync', 'squashfs', 'yaml-cpp>=0.8.0']"
 +++
 ### Description: 
 Distribution-independent installer framework
@@ -234,10 +234,10 @@ Distribution-independent installer framework
 * /usr/lib/fvbe/calamares-locale-setup
 * /usr/lib/libcalamares.so
 * /usr/lib/libcalamares.so.3.3
-* /usr/lib/libcalamares.so.3.3.5
+* /usr/lib/libcalamares.so.3.3.6
 * /usr/lib/libcalamaresui.so
 * /usr/lib/libcalamaresui.so.3.3
-* /usr/lib/libcalamaresui.so.3.3.5
+* /usr/lib/libcalamaresui.so.3.3.6
 * /usr/lib/systemd/system/calamares-locale.service
 * /usr/share/calamares/branding/default/banner.png
 * /usr/share/calamares/branding/default/banner.png.license
@@ -261,8 +261,8 @@ Distribution-independent installer framework
 * /usr/share/calamares/qml/calamares/slideshow/qmldir.license
 * /usr/share/calamares/qml/calamares/slideshow/Slide.qml
 * /usr/share/calamares/qml/calamares/slideshow/SlideCounter.qml
-* /usr/share/doc/calamares-frugalware-3.3.5/AUTHORS
-* /usr/share/doc/calamares-frugalware-3.3.5/README.md
+* /usr/share/doc/calamares-frugalware-3.3.6/AUTHORS
+* /usr/share/doc/calamares-frugalware-3.3.6/README.md
 * /usr/share/icons/hicolor/scalable/apps/calamares-frugalware.svg
 * /usr/share/icons/hicolor/scalable/apps/calamares.svg
 * /usr/share/locale/ar/LC_MESSAGES/calamares-python.mo

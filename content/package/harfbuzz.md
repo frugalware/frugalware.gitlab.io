@@ -1,33 +1,27 @@
 +++
 draft = false
-title = "harfbuzz 8.4.0-1"
-version = "8.4.0-1"
+title = "harfbuzz 8.4.0-3"
+version = "8.4.0-3"
 description = "Is an implementation of the OpenType Layout engine."
-date = "2024-05-02T09:22:59"
+date = "2024-05-08T12:09:50"
 aliases = "/packages/168883"
 categories = ['xlib']
 upstreamurl = "https://github.com/harfbuzz/harfbuzz"
 arch = "x86_64"
-size = "1245416"
-usize = "7741385"
-sha1sum = "aec928ff2a1756d9cbc34bb468dc6e23e9871f4c"
-depends = "['cairo>=1.17.2-2', 'freetype2', 'glib2>=2.60.0', 'graphite2>=1.3.13-2', 'icu4c>=74.1', 'libffi>=3.2.1-2', 'libstdc++>=11.2', 'util-linux']"
+size = "1223960"
+usize = "7542319"
+sha1sum = "965101afd56d6a9d4ed6502c0b4d07a37677f81c"
+depends = "['freetype2', 'glib2>=2.60.0', 'graphite2>=1.3.13-2', 'libffi>=3.2.1-2', 'libstdc++>=11.2', 'util-linux']"
 reverse_depends = "['chromium-browser', 'efl', 'enlightenment', 'kde-gtk-config', 'kitty', 'libass', 'mupdf', 'mupdf-gl', 'ogre', 'openjre', 'pango', 'qt5-base', 'qt6-base', 'terminology', 'texlive']"
 +++
 ### Description: 
 Is an implementation of the OpenType Layout engine.
 
 ### Files: 
-* /usr/bin/hb-info
-* /usr/bin/hb-ot-shape-closure
-* /usr/bin/hb-shape
-* /usr/bin/hb-subset
-* /usr/bin/hb-view
 * /usr/include/harfbuzz/hb-aat-layout.h
 * /usr/include/harfbuzz/hb-aat.h
 * /usr/include/harfbuzz/hb-blob.h
 * /usr/include/harfbuzz/hb-buffer.h
-* /usr/include/harfbuzz/hb-cairo.h
 * /usr/include/harfbuzz/hb-common.h
 * /usr/include/harfbuzz/hb-cplusplus.hh
 * /usr/include/harfbuzz/hb-deprecated.h
@@ -41,7 +35,6 @@ Is an implementation of the OpenType Layout engine.
 * /usr/include/harfbuzz/hb-gobject-structs.h
 * /usr/include/harfbuzz/hb-gobject.h
 * /usr/include/harfbuzz/hb-graphite2.h
-* /usr/include/harfbuzz/hb-icu.h
 * /usr/include/harfbuzz/hb-map.h
 * /usr/include/harfbuzz/hb-ot-color.h
 * /usr/include/harfbuzz/hb-ot-deprecated.h
@@ -66,24 +59,16 @@ Is an implementation of the OpenType Layout engine.
 * /usr/include/harfbuzz/hb.h
 * /usr/lib/cmake/harfbuzz/harfbuzz-config.cmake
 * /usr/lib/girepository-1.0/HarfBuzz-0.0.typelib
-* /usr/lib/libharfbuzz-cairo.so
-* /usr/lib/libharfbuzz-cairo.so.0
-* /usr/lib/libharfbuzz-cairo.so.0.60840.0
 * /usr/lib/libharfbuzz-gobject.so
 * /usr/lib/libharfbuzz-gobject.so.0
 * /usr/lib/libharfbuzz-gobject.so.0.60840.0
-* /usr/lib/libharfbuzz-icu.so
-* /usr/lib/libharfbuzz-icu.so.0
-* /usr/lib/libharfbuzz-icu.so.0.60840.0
 * /usr/lib/libharfbuzz-subset.so
 * /usr/lib/libharfbuzz-subset.so.0
 * /usr/lib/libharfbuzz-subset.so.0.60840.0
 * /usr/lib/libharfbuzz.so
 * /usr/lib/libharfbuzz.so.0
 * /usr/lib/libharfbuzz.so.0.60840.0
-* /usr/lib/pkgconfig/harfbuzz-cairo.pc
 * /usr/lib/pkgconfig/harfbuzz-gobject.pc
-* /usr/lib/pkgconfig/harfbuzz-icu.pc
 * /usr/lib/pkgconfig/harfbuzz-subset.pc
 * /usr/lib/pkgconfig/harfbuzz.pc
 * /usr/share/doc/harfbuzz-8.4.0/AUTHORS

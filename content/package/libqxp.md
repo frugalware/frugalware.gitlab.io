@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "libqxp 0.0.2-13"
-version = "0.0.2-13"
+title = "libqxp 0.0.2-14"
+version = "0.0.2-14"
 description = "A library that parses the file format of QuarkXPress documents."
-date = "2023-11-09T19:00:48"
+date = "2024-04-21T13:51:01"
 aliases = "/packages/219540"
 categories = ['xoffice']
 upstreamurl = "https://wiki.documentfoundation.org/DLP/Libraries/libqxp"
 arch = "x86_64"
-size = "123480"
+size = "124236"
 usize = "405228"
-sha1sum = "c15ddfc5feecab00efcadc7242c65ccbbead336e"
+sha1sum = "9f889edf8cbb9fdd3fda4c0687467a9bd90173da"
 depends = "['librevenge']"
-reverse_depends = "['libreoffice', 'scribus']"
+reverse_depends = "['scribus']"
 +++
 ### Description: 
 A library that parses the file format of QuarkXPress documents.

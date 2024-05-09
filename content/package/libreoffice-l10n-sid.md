@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-sid 24.2.3.2-1"
-version = "24.2.3.2-1"
+title = "libreoffice-l10n-sid 24.2.3.2-2"
+version = "24.2.3.2-2"
 description = "Installs Sidama support in LibreOffice"
-date = "2024-05-03T10:13:16"
+date = "2024-05-08T23:23:28"
 aliases = "/packages/184055"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4233752"
-usize = "32705966"
-sha1sum = "6783f242b1079ae79fd6c909b7c3cb5d4619488d"
+size = "4233864"
+usize = "32705620"
+sha1sum = "1db67cbc408f33652d7a03dfa8eb02b72bcb49ee"
 depends = "['libreoffice>=24.2.3.2']"
 +++
 ### Description: 

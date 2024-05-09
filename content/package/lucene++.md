@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "1783804"
 usize = "8099040"
 sha1sum = "ffe9ffcf93f0c5992e472a70d5119a47631515e9"
-depends = "['libboost>=1.83.0']"
+depends = "['libboost>=1.85.0']"
 reverse_depends = "['poedit']"
 +++
 ### Description: 
@@ -22,6 +22,12 @@ An up to date C++ port of the popular Java Lucene library, a high-performance, f
 * /usr/include/lucene++/AbstractField.h
 * /usr/include/lucene++/AllTermDocs.h
 * /usr/include/lucene++/Analyzer.h
+* /usr/include/lucene++/ArabicAnalyzer.h
+* /usr/include/lucene++/ArabicLetterTokenizer.h
+* /usr/include/lucene++/ArabicNormalizationFilter.h
+* /usr/include/lucene++/ArabicNormalizer.h
+* /usr/include/lucene++/ArabicStemFilter.h
+* /usr/include/lucene++/ArabicStemmer.h
 * /usr/include/lucene++/Array.h
 * /usr/include/lucene++/ASCIIFoldingFilter.h
 * /usr/include/lucene++/Attribute.h
@@ -36,6 +42,9 @@ An up to date C++ port of the popular Java Lucene library, a high-performance, f
 * /usr/include/lucene++/BooleanQuery.h
 * /usr/include/lucene++/BooleanScorer.h
 * /usr/include/lucene++/BooleanScorer2.h
+* /usr/include/lucene++/BrazilianAnalyzer.h
+* /usr/include/lucene++/BrazilianStemFilter.h
+* /usr/include/lucene++/BrazilianStemmer.h
 * /usr/include/lucene++/BufferedDeletes.h
 * /usr/include/lucene++/BufferedIndexInput.h
 * /usr/include/lucene++/BufferedIndexOutput.h
@@ -57,6 +66,11 @@ An up to date C++ port of the popular Java Lucene library, a high-performance, f
 * /usr/include/lucene++/CheckIndex.h
 * /usr/include/lucene++/ChecksumIndexInput.h
 * /usr/include/lucene++/ChecksumIndexOutput.h
+* /usr/include/lucene++/ChineseAnalyzer.h
+* /usr/include/lucene++/ChineseFilter.h
+* /usr/include/lucene++/ChineseTokenizer.h
+* /usr/include/lucene++/CJKAnalyzer.h
+* /usr/include/lucene++/CJKTokenizer.h
 * /usr/include/lucene++/CloseableThreadLocal.h
 * /usr/include/lucene++/Collator.h
 * /usr/include/lucene++/Collection.h
@@ -70,11 +84,14 @@ An up to date C++ port of the popular Java Lucene library, a high-performance, f
 * /usr/include/lucene++/ConjunctionScorer.h
 * /usr/include/lucene++/Constants.h
 * /usr/include/lucene++/ConstantScoreQuery.h
+* /usr/include/lucene++/ContribInc.h
 * /usr/include/lucene++/CustomScoreProvider.h
 * /usr/include/lucene++/CustomScoreQuery.h
 * /usr/include/lucene++/CycleCheck.h
+* /usr/include/lucene++/CzechAnalyzer.h
 * /usr/include/lucene++/DateField.h
 * /usr/include/lucene++/DateTools.h
+* /usr/include/lucene++/DefaultEncoder.h
 * /usr/include/lucene++/DefaultSimilarity.h
 * /usr/include/lucene++/DefaultSkipListReader.h
 * /usr/include/lucene++/DefaultSkipListWriter.h
@@ -105,6 +122,11 @@ An up to date C++ port of the popular Java Lucene library, a high-performance, f
 * /usr/include/lucene++/DocumentsWriterThreadState.h
 * /usr/include/lucene++/DocValues.h
 * /usr/include/lucene++/DoubleFieldSource.h
+* /usr/include/lucene++/DutchAnalyzer.h
+* /usr/include/lucene++/DutchStemFilter.h
+* /usr/include/lucene++/DutchStemmer.h
+* /usr/include/lucene++/ElisionFilter.h
+* /usr/include/lucene++/Encoder.h
 * /usr/include/lucene++/ExactPhraseScorer.h
 * /usr/include/lucene++/Explanation.h
 * /usr/include/lucene++/FastCharStream.h
@@ -149,6 +171,11 @@ An up to date C++ port of the popular Java Lucene library, a high-performance, f
 * /usr/include/lucene++/FormatPostingsPositionsWriter.h
 * /usr/include/lucene++/FormatPostingsTermsConsumer.h
 * /usr/include/lucene++/FormatPostingsTermsWriter.h
+* /usr/include/lucene++/Formatter.h
+* /usr/include/lucene++/Fragmenter.h
+* /usr/include/lucene++/FrenchAnalyzer.h
+* /usr/include/lucene++/FrenchStemFilter.h
+* /usr/include/lucene++/FrenchStemmer.h
 * /usr/include/lucene++/FreqProxFieldMergeState.h
 * /usr/include/lucene++/FreqProxTermsWriter.h
 * /usr/include/lucene++/FreqProxTermsWriterPerField.h
@@ -157,8 +184,16 @@ An up to date C++ port of the popular Java Lucene library, a high-performance, f
 * /usr/include/lucene++/FSLockFactory.h
 * /usr/include/lucene++/FuzzyQuery.h
 * /usr/include/lucene++/FuzzyTermEnum.h
+* /usr/include/lucene++/GermanAnalyzer.h
+* /usr/include/lucene++/GermanStemFilter.h
+* /usr/include/lucene++/GermanStemmer.h
+* /usr/include/lucene++/GradientFormatter.h
+* /usr/include/lucene++/GreekAnalyzer.h
+* /usr/include/lucene++/GreekLowerCaseFilter.h
 * /usr/include/lucene++/HashMap.h
 * /usr/include/lucene++/HashSet.h
+* /usr/include/lucene++/Highlighter.h
+* /usr/include/lucene++/HighlighterScorer.h
 * /usr/include/lucene++/HitQueue.h
 * /usr/include/lucene++/HitQueueBase.h
 * /usr/include/lucene++/IndexCommit.h
@@ -197,6 +232,7 @@ An up to date C++ port of the popular Java Lucene library, a high-performance, f
 * /usr/include/lucene++/LowerCaseTokenizer.h
 * /usr/include/lucene++/Lucene.h
 * /usr/include/lucene++/LuceneAllocator.h
+* /usr/include/lucene++/LuceneContrib.h
 * /usr/include/lucene++/LuceneException.h
 * /usr/include/lucene++/LuceneFactory.h
 * /usr/include/lucene++/LuceneHeaders.h
@@ -209,8 +245,10 @@ An up to date C++ port of the popular Java Lucene library, a high-performance, f
 * /usr/include/lucene++/MapFieldSelector.h
 * /usr/include/lucene++/MapOfSets.h
 * /usr/include/lucene++/MappingCharFilter.h
+* /usr/include/lucene++/MapWeightedSpanTerm.h
 * /usr/include/lucene++/MatchAllDocsQuery.h
 * /usr/include/lucene++/MaxPayloadFunction.h
+* /usr/include/lucene++/MemoryIndex.h
 * /usr/include/lucene++/MergeDocIDRemapper.h
 * /usr/include/lucene++/MergePolicy.h
 * /usr/include/lucene++/MergeScheduler.h
@@ -234,6 +272,7 @@ An up to date C++ port of the popular Java Lucene library, a high-performance, f
 * /usr/include/lucene++/NormsWriter.h
 * /usr/include/lucene++/NormsWriterPerField.h
 * /usr/include/lucene++/NormsWriterPerThread.h
+* /usr/include/lucene++/NullFragmenter.h
 * /usr/include/lucene++/NumberTools.h
 * /usr/include/lucene++/NumericField.h
 * /usr/include/lucene++/NumericRangeFilter.h
@@ -254,6 +293,9 @@ An up to date C++ port of the popular Java Lucene library, a high-performance, f
 * /usr/include/lucene++/PayloadSpanUtil.h
 * /usr/include/lucene++/PayloadTermQuery.h
 * /usr/include/lucene++/PerFieldAnalyzerWrapper.h
+* /usr/include/lucene++/PersianAnalyzer.h
+* /usr/include/lucene++/PersianNormalizationFilter.h
+* /usr/include/lucene++/PersianNormalizer.h
 * /usr/include/lucene++/PhrasePositions.h
 * /usr/include/lucene++/PhraseQuery.h
 * /usr/include/lucene++/PhraseQueue.h
@@ -274,6 +316,9 @@ An up to date C++ port of the popular Java Lucene library, a high-performance, f
 * /usr/include/lucene++/QueryParserConstants.h
 * /usr/include/lucene++/QueryParserToken.h
 * /usr/include/lucene++/QueryParserTokenManager.h
+* /usr/include/lucene++/QueryScorer.h
+* /usr/include/lucene++/QueryTermExtractor.h
+* /usr/include/lucene++/QueryTermScorer.h
 * /usr/include/lucene++/QueryTermVector.h
 * /usr/include/lucene++/QueryWrapperFilter.h
 * /usr/include/lucene++/RAMDirectory.h
@@ -290,6 +335,12 @@ An up to date C++ port of the popular Java Lucene library, a high-performance, f
 * /usr/include/lucene++/ReqOptSumScorer.h
 * /usr/include/lucene++/ReusableStringReader.h
 * /usr/include/lucene++/ReverseOrdFieldSource.h
+* /usr/include/lucene++/ReverseStringFilter.h
+* /usr/include/lucene++/RussianAnalyzer.h
+* /usr/include/lucene++/RussianLetterTokenizer.h
+* /usr/include/lucene++/RussianLowerCaseFilter.h
+* /usr/include/lucene++/RussianStemFilter.h
+* /usr/include/lucene++/RussianStemmer.h
 * /usr/include/lucene++/ScoreCachingWrappingScorer.h
 * /usr/include/lucene++/ScoreDoc.h
 * /usr/include/lucene++/Scorer.h
@@ -315,14 +366,20 @@ An up to date C++ port of the popular Java Lucene library, a high-performance, f
 * /usr/include/lucene++/Similarity.h
 * /usr/include/lucene++/SimilarityDelegator.h
 * /usr/include/lucene++/SimpleAnalyzer.h
+* /usr/include/lucene++/SimpleFragmenter.h
 * /usr/include/lucene++/SimpleFSDirectory.h
 * /usr/include/lucene++/SimpleFSLockFactory.h
+* /usr/include/lucene++/SimpleHTMLEncoder.h
+* /usr/include/lucene++/SimpleHTMLFormatter.h
 * /usr/include/lucene++/SimpleLRUCache.h
+* /usr/include/lucene++/SimpleSpanFragmenter.h
 * /usr/include/lucene++/SingleInstanceLockFactory.h
 * /usr/include/lucene++/SingleTermEnum.h
 * /usr/include/lucene++/SloppyPhraseScorer.h
 * /usr/include/lucene++/SmallDouble.h
 * /usr/include/lucene++/SnapshotDeletionPolicy.h
+* /usr/include/lucene++/SnowballAnalyzer.h
+* /usr/include/lucene++/SnowballFilter.h
 * /usr/include/lucene++/Sort.h
 * /usr/include/lucene++/SortedTermVectorMapper.h
 * /usr/include/lucene++/SortedVIntList.h
@@ -330,6 +387,7 @@ An up to date C++ port of the popular Java Lucene library, a high-performance, f
 * /usr/include/lucene++/SpanFilter.h
 * /usr/include/lucene++/SpanFilterResult.h
 * /usr/include/lucene++/SpanFirstQuery.h
+* /usr/include/lucene++/SpanGradientFormatter.h
 * /usr/include/lucene++/SpanNearQuery.h
 * /usr/include/lucene++/SpanNotQuery.h
 * /usr/include/lucene++/SpanOrQuery.h
@@ -385,11 +443,14 @@ An up to date C++ port of the popular Java Lucene library, a high-performance, f
 * /usr/include/lucene++/TermVectorsTermsWriterPerThread.h
 * /usr/include/lucene++/TermVectorsWriter.h
 * /usr/include/lucene++/TestPoint.h
+* /usr/include/lucene++/TextFragment.h
 * /usr/include/lucene++/ThreadPool.h
 * /usr/include/lucene++/TimeLimitingCollector.h
 * /usr/include/lucene++/Token.h
 * /usr/include/lucene++/TokenFilter.h
+* /usr/include/lucene++/TokenGroup.h
 * /usr/include/lucene++/Tokenizer.h
+* /usr/include/lucene++/TokenSources.h
 * /usr/include/lucene++/TokenStream.h
 * /usr/include/lucene++/TopDocs.h
 * /usr/include/lucene++/TopDocsCollector.h
@@ -403,6 +464,9 @@ An up to date C++ port of the popular Java Lucene library, a high-performance, f
 * /usr/include/lucene++/ValueSourceQuery.h
 * /usr/include/lucene++/VariantUtils.h
 * /usr/include/lucene++/Weight.h
+* /usr/include/lucene++/WeightedSpanTerm.h
+* /usr/include/lucene++/WeightedSpanTermExtractor.h
+* /usr/include/lucene++/WeightedTerm.h
 * /usr/include/lucene++/WhitespaceAnalyzer.h
 * /usr/include/lucene++/WhitespaceTokenizer.h
 * /usr/include/lucene++/WildcardQuery.h
@@ -413,12 +477,14 @@ An up to date C++ port of the popular Java Lucene library, a high-performance, f
 * /usr/lib/cmake/liblucene++/liblucene++Config.cmake
 * /usr/lib/cmake/liblucene++/liblucene++ConfigVersion.cmake
 * /usr/lib/liblucene++-contrib.so
+* /usr/lib/liblucene++-contrib.so.0
+* /usr/lib/liblucene++-contrib.so.3.0.9
 * /usr/lib/liblucene++.so
 * /usr/lib/liblucene++.so.0
-* /usr/lib/liblucene++.so.3.0.8
+* /usr/lib/liblucene++.so.3.0.9
 * /usr/lib/pkgconfig/liblucene++-contrib.pc
 * /usr/lib/pkgconfig/liblucene++.pc
-* /usr/share/doc/lucene++-3.0.8/AUTHORS
-* /usr/share/doc/lucene++-3.0.8/COPYING
-* /usr/share/doc/lucene++-3.0.8/README.md
-* /usr/share/doc/lucene++-3.0.8/README.PACKAGE
+* /usr/share/doc/lucene++-3.0.9/AUTHORS
+* /usr/share/doc/lucene++-3.0.9/COPYING
+* /usr/share/doc/lucene++-3.0.9/README.md
+* /usr/share/doc/lucene++-3.0.9/README.PACKAGE

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "dovecot 2.3.21-4"
-version = "2.3.21-4"
+title = "dovecot 2.3.21-5"
+version = "2.3.21-5"
 description = "An open source IMAP and POP3 server, written with security primarily in mind."
-date = "2024-02-01T14:30:02"
+date = "2024-04-20T12:05:50"
 aliases = "/packages/49489"
 categories = ['network-extra']
 upstreamurl = "http://www.dovecot.org"
 arch = "x86_64"
-size = "4300080"
+size = "4297528"
 usize = "19239203"
-sha1sum = "16ed66234f7f9f6040a6478c0769d41c8041ea5d"
-depends = "['clucene', 'curl', 'e2fsprogs', 'icu4c>=74.1', 'libkrb5', 'libldap>=2.4.47-2', 'libpq>=11.2-2', 'libsodium>=1.0.19', 'mariadb-libs>=10.3.14', 'openssl>=3.1.0', 'pam']"
+sha1sum = "91f12a96a7011dcb880f5b38e68e877c07e38c80"
+depends = "['clucene', 'curl', 'e2fsprogs', 'icu4c>=75.1', 'libkrb5', 'libldap>=2.4.47-2', 'libpq>=11.2-2', 'libsodium>=1.0.19', 'mariadb-libs>=10.3.14', 'openssl>=3.1.0', 'pam']"
 reverse_depends = "['dovecot-sieve']"
 +++
 ### Description: 

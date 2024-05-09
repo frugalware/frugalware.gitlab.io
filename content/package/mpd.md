@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "753316"
 usize = "2617853"
 sha1sum = "cf2d5171eacdf7521344ccd0594794f7ec62cea3"
-depends = "['audiofile', 'avahi', 'curl', 'ffmpeg>=6.0', 'flac>=1.4.0', 'fluidsynth>=2.0.0', 'fmtlib', 'icu4c>=74.1', 'libao', 'libmad', 'libmms', 'libmodplug', 'libmpdclient', 'libmpg123', 'libnfs>=4.0', 'libsamplerate', 'libshout', 'libsmbclient', 'libsystemd', 'libupnp>=1.14.10', 'liburing', 'opus', 'talloc', 'twolame', 'wavpack', 'wildmidi>=0.4.1', 'yajl>=2.1.0-4', 'zziplib']"
+depends = "['audiofile', 'avahi', 'curl', 'ffmpeg>=6.0', 'flac>=1.4.0', 'fluidsynth>=2.0.0', 'fmtlib', 'icu4c>=75.1', 'libao', 'libmad', 'libmms', 'libmodplug', 'libmpdclient', 'libmpg123', 'libnfs>=4.0', 'libsamplerate', 'libshout', 'libsmbclient', 'libsystemd', 'libupnp>=1.14.10', 'liburing', 'opus', 'talloc', 'twolame', 'wavpack', 'wildmidi>=0.4.1', 'yajl>=2.1.0-4', 'zziplib']"
 +++
 ### Description: 
 the Music Player Daemon

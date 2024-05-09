@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "liblcf 0.8-2"
-version = "0.8-2"
+title = "liblcf 0.8-3"
+version = "0.8-3"
 description = "liblcf is a library to handle RPG Maker 2000 and 2003 game data."
-date = "2023-11-09T20:06:38"
+date = "2024-04-19T11:25:52"
 aliases = "/packages/217396"
 categories = ['lib-extra']
 upstreamurl = "https://easyrpg.org"
 arch = "x86_64"
-size = "436944"
-usize = "2410168"
-sha1sum = "0793dad0664c2b2dd3450fec5a98edfeddad3006"
-depends = "['expat', 'icu4c>=74.1']"
+size = "439772"
+usize = "2420758"
+sha1sum = "2b7a08952ba8918d0b36d2156d156f5be9ba3872"
+depends = "['expat', 'icu4c>=75.1']"
 reverse_depends = "['easyrpg-player']"
 +++
 ### Description: 
@@ -121,9 +121,10 @@ liblcf is a library to handle RPG Maker 2000 and 2003 game data.
 * /usr/include/lcf/writer_xml.h
 * /usr/lib/cmake/liblcf/liblcf-config-version.cmake
 * /usr/lib/cmake/liblcf/liblcf-config.cmake
+* /usr/lib/cmake/liblcf/liblcf-targets-release.cmake
+* /usr/lib/cmake/liblcf/liblcf-targets.cmake
 * /usr/lib/liblcf.so
 * /usr/lib/liblcf.so.0
-* /usr/lib/liblcf.so.0.0.0
 * /usr/lib/pkgconfig/liblcf.pc
 * /usr/share/doc/liblcf-0.8/COPYING
 * /usr/share/doc/liblcf-0.8/README.md

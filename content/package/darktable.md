@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "darktable 4.4.2-5"
-version = "4.4.2-5"
+title = "darktable 4.6.1-1"
+version = "4.6.1-1"
 description = "A virtual lighttable and darkroom for photographers (manage RAW images)"
-date = "2023-11-10T17:25:12"
+date = "2024-04-22T12:36:51"
 aliases = "/packages/219328"
 categories = ['gnome-extra']
 upstreamurl = "https://www.darktable.org"
 arch = "x86_64"
-size = "6114852"
-usize = "30957343"
-sha1sum = "fed1ee2dd0508d9f24f59cbfc8cf079c2ffe4b78"
-depends = "['colord-gtk3', 'dcraw', 'exiv2>=0.28.1', 'flickcurl', 'ghostscript', 'gmic>=3.2.6', 'gnuplot', 'graphicsmagick', 'icu4c>=74.1', 'imagemagick>=7.1.1', 'iso-codes', 'jasper', 'json-glib', 'lensfun', 'libavif>=1.0.1', 'libgphoto2', 'libjpeg-turbo', 'libsecret', 'lua', 'openexr', 'openmp', 'perl-image-exiftool', 'portmidi', 'pugixml', 'zlib']"
+size = "6434196"
+usize = "32354707"
+sha1sum = "592ac45f9ed8dbb2af5e25602315a13118787179"
+depends = "['colord-gtk3', 'dcraw', 'exiv2>=0.28.1', 'flickcurl', 'ghostscript', 'gmic>=3.2.6', 'gnuplot', 'graphicsmagick', 'icu4c>=75.1', 'imagemagick>=7.1.1', 'iso-codes', 'jasper', 'json-glib', 'lensfun', 'libavif>=1.0.1', 'libgphoto2', 'libjpeg-turbo', 'libsecret', 'lua', 'openexr', 'openmp', 'perl-image-exiftool', 'portmidi', 'pugixml', 'zlib']"
 reverse_depends = "['gimp']"
 +++
 ### Description: 
@@ -33,6 +33,7 @@ A virtual lighttable and darkroom for photographers (manage RAW images)
 * /usr/lib/darktable/darktable/tools/profiling-shot.xmp
 * /usr/lib/darktable/darktable/tools/subr.sh
 * /usr/lib/darktable/libdarktable.so
+* /usr/lib/darktable/plugins/imageio/format/libavif.so
 * /usr/lib/darktable/plugins/imageio/format/libcopy.so
 * /usr/lib/darktable/plugins/imageio/format/libexr.so
 * /usr/lib/darktable/plugins/imageio/format/libj2k.so
@@ -110,6 +111,7 @@ A virtual lighttable and darkroom for photographers (manage RAW images)
 * /usr/lib/darktable/plugins/libnegadoctor.so
 * /usr/lib/darktable/plugins/libnlmeans.so
 * /usr/lib/darktable/plugins/liboverexposed.so
+* /usr/lib/darktable/plugins/libprimaries.so
 * /usr/lib/darktable/plugins/libprofile_gamma.so
 * /usr/lib/darktable/plugins/librawdenoise.so
 * /usr/lib/darktable/plugins/librawoverexposed.so
@@ -400,10 +402,10 @@ A virtual lighttable and darkroom for photographers (manage RAW images)
 * /usr/share/darktable/watermarks/simple-text-shadow.svg
 * /usr/share/darktable/watermarks/simple-text.svg
 * /usr/share/darktable/wb_presets.json
-* /usr/share/doc/darktable-4.4.2/AUTHORS
-* /usr/share/doc/darktable-4.4.2/LICENSE
-* /usr/share/doc/darktable-4.4.2/README.md
-* /usr/share/doc/darktable-4.4.2/RELEASE_NOTES.md
+* /usr/share/doc/darktable-4.6.1/AUTHORS
+* /usr/share/doc/darktable-4.6.1/LICENSE
+* /usr/share/doc/darktable-4.6.1/README.md
+* /usr/share/doc/darktable-4.6.1/RELEASE_NOTES.md
 * /usr/share/doc/darktable/AUTHORS
 * /usr/share/doc/darktable/LICENSE
 * /usr/share/doc/darktable/README.md
@@ -420,14 +422,16 @@ A virtual lighttable and darkroom for photographers (manage RAW images)
 * /usr/share/icons/hicolor/scalable/apps/darktable-2.svg
 * /usr/share/icons/hicolor/scalable/apps/darktable-3.svg
 * /usr/share/icons/hicolor/scalable/apps/darktable.svg
+* /usr/share/locale/cs/LC_MESSAGES/darktable.mo
 * /usr/share/locale/de/LC_MESSAGES/darktable.mo
 * /usr/share/locale/en@truecase/LC_MESSAGES/darktable.mo
 * /usr/share/locale/es/LC_MESSAGES/darktable.mo
 * /usr/share/locale/fi/LC_MESSAGES/darktable.mo
 * /usr/share/locale/fr/LC_MESSAGES/darktable.mo
-* /usr/share/locale/he/LC_MESSAGES/darktable.mo
 * /usr/share/locale/hu/LC_MESSAGES/darktable.mo
+* /usr/share/locale/it/LC_MESSAGES/darktable.mo
 * /usr/share/locale/ja/LC_MESSAGES/darktable.mo
+* /usr/share/locale/nl/LC_MESSAGES/darktable.mo
 * /usr/share/locale/pl/LC_MESSAGES/darktable.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/darktable.mo
 * /usr/share/locale/ru/LC_MESSAGES/darktable.mo
@@ -437,6 +441,21 @@ A virtual lighttable and darkroom for photographers (manage RAW images)
 * /usr/share/locale/uk/LC_MESSAGES/darktable.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/darktable.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/darktable.mo
+* /usr/share/man/de/man1/darktable-cli.1.gz
+* /usr/share/man/de/man1/darktable-cltest.1.gz
+* /usr/share/man/de/man1/darktable-cmstest.1.gz
+* /usr/share/man/de/man1/darktable-generate-cache.1.gz
+* /usr/share/man/de/man1/darktable.1.gz
+* /usr/share/man/es/man1/darktable-cli.1.gz
+* /usr/share/man/es/man1/darktable-cltest.1.gz
+* /usr/share/man/es/man1/darktable-cmstest.1.gz
+* /usr/share/man/es/man1/darktable-generate-cache.1.gz
+* /usr/share/man/es/man1/darktable.1.gz
+* /usr/share/man/fr/man1/darktable-cli.1.gz
+* /usr/share/man/fr/man1/darktable-cltest.1.gz
+* /usr/share/man/fr/man1/darktable-cmstest.1.gz
+* /usr/share/man/fr/man1/darktable-generate-cache.1.gz
+* /usr/share/man/fr/man1/darktable.1.gz
 * /usr/share/man/man1/darktable-cli.1.gz
 * /usr/share/man/man1/darktable-cltest.1.gz
 * /usr/share/man/man1/darktable-cmstest.1.gz

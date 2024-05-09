@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4093564"
 usize = "17019672"
 sha1sum = "e506efd83b4d514e19a91f8d1c4d66a8b83d4e91"
-depends = "['fmtlib', 'glew>=2.0.0-2', 'libboost>=1.82.0', 'libheif', 'libraw>=0.21.1', 'openblas', 'opencv>=4.9.0', 'openexr>=3.2.0', 'openjpeg>=2.2.0', 'openssl>=1.1.1', 'openvdb', 'pybind11', 'zlib>=1.2.12']"
+depends = "['fmtlib', 'glew>=2.0.0-2', 'libboost>=1.85.0', 'libheif', 'libraw>=0.21.1', 'openblas', 'opencv>=4.9.0', 'openexr>=3.2.0', 'openjpeg>=2.2.0', 'openssl>=1.1.1', 'openvdb', 'pybind11', 'zlib>=1.2.12']"
 reverse_depends = "['alicevision', 'blender', 'embree', 'openshadinglanguage', 'qtoiio']"
 +++
 ### Description: 
@@ -95,15 +95,15 @@ A library for reading and writing images, including classes, utilities, and appl
 * /usr/lib/cmake/OpenImageIO/OpenImageIOTargets.cmake
 * /usr/lib/libOpenImageIO.so
 * /usr/lib/libOpenImageIO.so.2.5
-* /usr/lib/libOpenImageIO.so.2.5.8
+* /usr/lib/libOpenImageIO.so.2.5.10
 * /usr/lib/libOpenImageIO_Util.so
 * /usr/lib/libOpenImageIO_Util.so.2.5
-* /usr/lib/libOpenImageIO_Util.so.2.5.8
+* /usr/lib/libOpenImageIO_Util.so.2.5.10
 * /usr/lib/pkgconfig/OpenImageIO.pc
 * /usr/lib/python3.12/site-packages/OpenImageIO/OpenImageIO.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/OpenImageIO/__init__.py
-* /usr/share/doc/openimageio-2.5.8.0/INSTALL.md
-* /usr/share/doc/openimageio-2.5.8.0/README.md
+* /usr/share/doc/openimageio-2.5.10.1/INSTALL.md
+* /usr/share/doc/openimageio-2.5.10.1/README.md
 * /usr/share/doc/OpenImageIO/CHANGES-0.x.md
 * /usr/share/doc/OpenImageIO/CHANGES-1.x.md
 * /usr/share/doc/OpenImageIO/CHANGES.md

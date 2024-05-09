@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "icu4c 74.2-2"
-version = "74.2-2"
+title = "icu4c 75.1-2"
+version = "75.1-2"
 description = "International Components for Unicode library"
-date = "2024-01-04T12:55:28"
+date = "2024-05-06T18:43:32"
 aliases = "/packages/60701"
-categories = ['base']
+categories = ['lib']
 upstreamurl = "http://site.icu-project.org/"
 arch = "x86_64"
-size = "10297556"
-usize = "42293991"
-sha1sum = "0d1f3237c95a5755bcbb53153deff3d3709d8199"
+size = "10418104"
+usize = "42772948"
+sha1sum = "947a69f71b1451fa06257021d2da42daa099172e"
 depends = "['libstdc++>=11.2']"
-reverse_depends = "['blender', 'calamares-frugalware', 'chromium-browser', 'darktable', 'dovecot', 'firefox', 'freeciv', 'gettext', 'grpc', 'gspell', 'harfbuzz', 'kdeplasma-addons', 'kdeplasma-addons5', 'libboost', 'libcdr', 'libe-book', 'libical', 'liblcf', 'libmspub', 'libqalculate', 'libsmbclient', 'libvisio', 'libxml2', 'libzmf', 'mpd', 'ncmpcpp', 'netpbm', 'nodejs', 'nodejs18', 'openttd', 'poedit', 'postfix', 'postgresql', 'qt5-base', 'qt5-location', 'qt5-webengine', 'qt6-5compat', 'qt6-base', 'qt6-webengine', 'r', 'rspamd', 'scribus', 'texlive', 'thunderbird', 'user-kcm', 'webkit-gtk3', 'xerces-c', 'xfsprogs', 'znc']"
+reverse_depends = "['blender', 'calamares-frugalware', 'chromium-browser', 'darktable', 'dovecot', 'firebird', 'firefox', 'freeciv', 'gettext', 'grpc', 'gspell', 'harfbuzz-icu', 'harfbuzz-utils', 'kdeplasma-addons', 'kdeplasma-addons5', 'libboost', 'libcdr', 'libe-book', 'libical', 'liblcf', 'libmspub', 'libqalculate', 'libsmbclient', 'libvisio', 'libxml2', 'libzmf', 'mpd', 'ncmpcpp', 'netpbm', 'nodejs', 'nodejs18', 'openttd', 'poedit', 'postfix', 'postgresql', 'qt5-base', 'qt5-location', 'qt5-webengine', 'qt6-5compat', 'qt6-base', 'qt6-webengine', 'r', 'rspamd', 'scribus', 'texlive', 'thunderbird', 'user-kcm', 'webkit-gtk3', 'xerces-c', 'xfsprogs', 'znc']"
 license = "License"
 +++
 ### Description: 
@@ -92,6 +92,12 @@ International Components for Unicode library
 * /usr/include/unicode/measfmt.h
 * /usr/include/unicode/measunit.h
 * /usr/include/unicode/measure.h
+* /usr/include/unicode/messageformat2.h
+* /usr/include/unicode/messageformat2_arguments.h
+* /usr/include/unicode/messageformat2_data_model.h
+* /usr/include/unicode/messageformat2_data_model_names.h
+* /usr/include/unicode/messageformat2_formattable.h
+* /usr/include/unicode/messageformat2_function_registry.h
 * /usr/include/unicode/messagepattern.h
 * /usr/include/unicode/msgfmt.h
 * /usr/include/unicode/normalizer2.h
@@ -234,37 +240,37 @@ International Components for Unicode library
 * /usr/include/unicode/uvernum.h
 * /usr/include/unicode/uversion.h
 * /usr/include/unicode/vtzone.h
-* /usr/lib/icu/74.2/Makefile.inc
-* /usr/lib/icu/74.2/pkgdata.inc
+* /usr/lib/icu/75.1/Makefile.inc
+* /usr/lib/icu/75.1/pkgdata.inc
 * /usr/lib/icu/current
 * /usr/lib/icu/Makefile.inc
 * /usr/lib/icu/pkgdata.inc
 * /usr/lib/libicudata.so
-* /usr/lib/libicudata.so.74
-* /usr/lib/libicudata.so.74.2
+* /usr/lib/libicudata.so.75
+* /usr/lib/libicudata.so.75.1
 * /usr/lib/libicui18n.so
-* /usr/lib/libicui18n.so.74
-* /usr/lib/libicui18n.so.74.2
+* /usr/lib/libicui18n.so.75
+* /usr/lib/libicui18n.so.75.1
 * /usr/lib/libicuio.so
-* /usr/lib/libicuio.so.74
-* /usr/lib/libicuio.so.74.2
+* /usr/lib/libicuio.so.75
+* /usr/lib/libicuio.so.75.1
 * /usr/lib/libicutest.so
-* /usr/lib/libicutest.so.74
-* /usr/lib/libicutest.so.74.2
+* /usr/lib/libicutest.so.75
+* /usr/lib/libicutest.so.75.1
 * /usr/lib/libicutu.so
-* /usr/lib/libicutu.so.74
-* /usr/lib/libicutu.so.74.2
+* /usr/lib/libicutu.so.75
+* /usr/lib/libicutu.so.75.1
 * /usr/lib/libicuuc.so
-* /usr/lib/libicuuc.so.74
-* /usr/lib/libicuuc.so.74.2
+* /usr/lib/libicuuc.so.75
+* /usr/lib/libicuuc.so.75.1
 * /usr/lib/pkgconfig/icu-i18n.pc
 * /usr/lib/pkgconfig/icu-io.pc
 * /usr/lib/pkgconfig/icu-uc.pc
-* /usr/share/doc/icu4c-74.2/LICENSE
-* /usr/share/icu/74.2/config/mh-linux
-* /usr/share/icu/74.2/install-sh
-* /usr/share/icu/74.2/LICENSE
-* /usr/share/icu/74.2/mkinstalldirs
+* /usr/share/doc/icu4c-75.1/LICENSE
+* /usr/share/icu/75.1/config/mh-linux
+* /usr/share/icu/75.1/install-sh
+* /usr/share/icu/75.1/LICENSE
+* /usr/share/icu/75.1/mkinstalldirs
 * /usr/share/man/man1/derb.1.gz
 * /usr/share/man/man1/genbrk.1.gz
 * /usr/share/man/man1/gencfu.1.gz

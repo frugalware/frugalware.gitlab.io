@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-harfbuzz 8.4.0-1"
-version = "8.4.0-1"
+title = "lib32-harfbuzz 8.4.0-3"
+version = "8.4.0-3"
 description = "Is an implementation of the OpenType Layout engine. ( 32bit )"
-date = "2024-05-02T09:22:59"
+date = "2024-05-08T12:09:50"
 aliases = "/packages/218973"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/harfbuzz/harfbuzz"
 arch = "x86_64"
-size = "939620"
-usize = "3088340"
-sha1sum = "df1665259c63177b94abecbad4e49b172fae176c"
+size = "973584"
+usize = "3206236"
+sha1sum = "b5118b5d67937151bd057fbc47e07a55089251b1"
 depends = "['lib32-cairo', 'lib32-glib2', 'lib32-icu4c', 'lib32-libffi', 'lib32-util-linux']"
 reverse_depends = "['lib32-libass', 'lib32-pango']"
 +++

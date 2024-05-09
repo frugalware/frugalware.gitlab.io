@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "10626472"
 usize = "49222824"
 sha1sum = "83fb16b27eb7612776a9245dbd28138c88c058ed"
-depends = "['brotli', 'c-ares', 'icu4c>=74.1', 'libuv', 'nghttp2>=1.41.0', 'python3-setuptools', 'zlib>=1.2.12']"
+depends = "['brotli', 'c-ares', 'icu4c>=75.1', 'libuv', 'nghttp2>=1.41.0', 'python3-setuptools', 'zlib>=1.2.12']"
 license = "MIT"
 +++
 ### Description: 

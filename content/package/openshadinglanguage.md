@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "2340248"
 usize = "7601989"
 sha1sum = "9b774af7d189246d8b6cb3e5e83e30a771733587"
-depends = "['clang-libs', 'intel-tbb', 'libboost>=1.83.0', 'openexr', 'openimageio>=2.5.4.0', 'pugixml', 'python3>=3.12']"
+depends = "['clang-libs', 'intel-tbb', 'libboost>=1.85.0', 'openexr', 'openimageio>=2.5.4.0', 'pugixml', 'python3>=3.12']"
 reverse_depends = "['blender']"
 +++
 ### Description: 
@@ -72,26 +72,26 @@ Advanced shading language for production GI renderers
 * /usr/lib/cmake/OSL/OSLTargets.cmake
 * /usr/lib/liboslcomp.so
 * /usr/lib/liboslcomp.so.1.13
-* /usr/lib/liboslcomp.so.1.13.6
+* /usr/lib/liboslcomp.so.1.13.8
 * /usr/lib/liboslexec.so
 * /usr/lib/liboslexec.so.1.13
-* /usr/lib/liboslexec.so.1.13.6
+* /usr/lib/liboslexec.so.1.13.8
 * /usr/lib/liboslnoise.so
 * /usr/lib/liboslnoise.so.1.13
-* /usr/lib/liboslnoise.so.1.13.6
+* /usr/lib/liboslnoise.so.1.13.8
 * /usr/lib/liboslquery.so
 * /usr/lib/liboslquery.so.1.13
-* /usr/lib/liboslquery.so.1.13.6
+* /usr/lib/liboslquery.so.1.13.8
 * /usr/lib/libtestshade.so
 * /usr/lib/libtestshade.so.1.13
-* /usr/lib/libtestshade.so.1.13.6
+* /usr/lib/libtestshade.so.1.13.8
 * /usr/lib/osl.imageio.so
 * /usr/lib/pkgconfig/oslcomp.pc
 * /usr/lib/pkgconfig/oslexec.pc
 * /usr/lib/pkgconfig/oslquery.pc
 * /usr/lib/python3.12/site-packages/oslquery.so
-* /usr/share/doc/openshadinglanguage-1.13.6.1/INSTALL.md
-* /usr/share/doc/openshadinglanguage-1.13.6.1/README.md
+* /usr/share/doc/openshadinglanguage-1.13.8.0/INSTALL.md
+* /usr/share/doc/openshadinglanguage-1.13.8.0/README.md
 * /usr/share/doc/OSL/CHANGES.md
 * /usr/share/doc/OSL/docdeep.md.html
 * /usr/share/doc/OSL/docs.css
