@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libical 3.0.18-1"
-version = "3.0.18-1"
+title = "libical 3.0.18-2"
+version = "3.0.18-2"
 description = "An open source reference implementation of the icalendar data type and serialization format"
-date = "2024-05-02T08:52:26"
+date = "2024-05-09T20:47:57"
 aliases = "/packages/59982"
 categories = ['lib']
 upstreamurl = "https://github.com/libical/libical"
 arch = "x86_64"
-size = "362376"
-usize = "2224753"
-sha1sum = "ab14cb7321afef7b644856f4ad9164fdc876eb86"
-depends = "['db>=18.1.25', 'icu4c>=74.1']"
+size = "361832"
+usize = "2233025"
+sha1sum = "a420014269e0d9cfefbdb32e26730781993a1b5a"
+depends = "['db>=18.1.25', 'icu4c>=75.1']"
 reverse_depends = "['bluez', 'claws-mail-plugin-vcalendar', 'kcalendarcore', 'kcalendarcore5', 'openvas-manager']"
 +++
 ### Description: 
