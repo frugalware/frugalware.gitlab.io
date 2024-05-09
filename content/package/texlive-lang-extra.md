@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texlive-lang-extra 2024.2-1"
-version = "2024.2-1"
+title = "texlive-lang-extra 2024.2-2"
+version = "2024.2-2"
 description = "Extra languages support for TeX Live"
-date = "2024-04-28T17:24:18"
+date = "2024-04-29T13:48:09"
 aliases = "/packages/219465"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "20955328"
+size = "20946036"
 usize = "52833711"
-sha1sum = "1bd872f3b6a4344cfbe82372205b9852626c1bde"
+sha1sum = "24d63a00103b20581c9df5dc854a532bc247ba24"
 depends = "['texlive=2024.2']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "znc 1.8.2-14"
-version = "1.8.2-14"
+title = "znc 1.9.0-1"
+version = "1.9.0-1"
 description = "An IRC bouncer with modules and scripts support."
-date = "2023-11-09T22:01:21"
+date = "2024-04-21T14:16:10"
 aliases = "/packages/135816"
 categories = ['network-extra']
 upstreamurl = "http://znc.in"
 arch = "x86_64"
-size = "3037504"
-usize = "14628091"
-sha1sum = "11e9655245d274f20a660a9a2e6d7d1a62e1e36d"
-depends = "['cyrus-sasl', 'icu4c>=74.1', 'libstdc++', 'openssl>=3.1.0', 'python3>=3.12', 'zlib>=1.2.12']"
+size = "1710972"
+usize = "6987248"
+sha1sum = "6a9655ce98485c242cfa0fce0698858e2047419f"
+depends = "['cyrus-sasl', 'icu4c>=75.1', 'libstdc++', 'openssl>=3.1.0', 'python3>=3.12', 'zlib>=1.2.12']"
 +++
 ### Description: 
 An IRC bouncer with modules and scripts support.
@@ -52,6 +52,7 @@ An IRC bouncer with modules and scripts support.
 * /usr/include/znc/zncconfig.h
 * /usr/include/znc/ZNCDebug.h
 * /usr/include/znc/ZNCString.h
+* /usr/include/znc/znc_export_lib_export.h
 * /usr/lib/pkgconfig/znc.pc
 * /usr/lib/znc/admindebug.so
 * /usr/lib/znc/adminlog.so
@@ -73,6 +74,7 @@ An IRC bouncer with modules and scripts support.
 * /usr/lib/znc/clearbufferonmsg.so
 * /usr/lib/znc/clientnotify.so
 * /usr/lib/znc/controlpanel.so
+* /usr/lib/znc/corecaps.so
 * /usr/lib/znc/crypt.so
 * /usr/lib/znc/ctcpflood.so
 * /usr/lib/znc/cyrusauth.so
@@ -88,22 +90,11 @@ An IRC bouncer with modules and scripts support.
 * /usr/lib/znc/listsockets.so
 * /usr/lib/znc/log.so
 * /usr/lib/znc/missingmotd.so
-* /usr/lib/znc/modperl.so
-* /usr/lib/znc/modperl/startup.pl
-* /usr/lib/znc/modperl/ZNC.pm
-* /usr/lib/znc/modperl/ZNC.so
-* /usr/lib/znc/modpython.so
-* /usr/lib/znc/modpython/znc.py
-* /usr/lib/znc/modpython/znc_core.py
-* /usr/lib/znc/modpython/_znc_core.so
-* /usr/lib/znc/modtcl.so
 * /usr/lib/znc/modules_online.so
 * /usr/lib/znc/nickserv.so
 * /usr/lib/znc/notes.so
 * /usr/lib/znc/notify_connect.so
 * /usr/lib/znc/perform.so
-* /usr/lib/znc/perleval.pm
-* /usr/lib/znc/pyeval.py
 * /usr/lib/znc/raw.so
 * /usr/lib/znc/route_replies.so
 * /usr/lib/znc/sample.so
@@ -118,12 +109,17 @@ An IRC bouncer with modules and scripts support.
 * /usr/lib/znc/stripcontrols.so
 * /usr/lib/znc/watch.so
 * /usr/lib/znc/webadmin.so
-* /usr/share/doc/znc-1.8.2/LICENSE
-* /usr/share/doc/znc-1.8.2/README.md
+* /usr/share/doc/znc-1.9.0/LICENSE
+* /usr/share/doc/znc-1.9.0/README.md
 * /usr/share/man/man1/znc-buildmod.1.gz
 * /usr/share/man/man1/znc.1.gz
-* /usr/share/znc/modtcl/binds.tcl
-* /usr/share/znc/modtcl/modtcl.tcl
+* /usr/share/znc/cmake/CMakeFindDependencyMacroPC.cmake
+* /usr/share/znc/cmake/use_homebrew.cmake
+* /usr/share/znc/cmake/ZNCConfig.cmake
+* /usr/share/znc/cmake/ZNCConfigVersion.cmake
+* /usr/share/znc/cmake/znc_internal-release.cmake
+* /usr/share/znc/cmake/znc_internal.cmake
+* /usr/share/znc/cmake/znc_public.cmake
 * /usr/share/znc/modules/blockuser/tmpl/blockuser_WebadminUser.tmpl
 * /usr/share/znc/modules/cert/tmpl/index.tmpl
 * /usr/share/znc/modules/certauth/tmpl/index.tmpl
@@ -152,6 +148,18 @@ An IRC bouncer with modules and scripts support.
 * /usr/share/znc/modules/webadmin/tmpl/listusers.tmpl
 * /usr/share/znc/modules/webadmin/tmpl/settings.tmpl
 * /usr/share/znc/modules/webadmin/tmpl/traffic.tmpl
+* /usr/share/znc/translations/bg-BG
+* /usr/share/znc/translations/de-DE
+* /usr/share/znc/translations/es-ES
+* /usr/share/znc/translations/fr-FR
+* /usr/share/znc/translations/id-ID
+* /usr/share/znc/translations/it-IT
+* /usr/share/znc/translations/nl-NL
+* /usr/share/znc/translations/pl-PL
+* /usr/share/znc/translations/pt-BR
+* /usr/share/znc/translations/pt-PT
+* /usr/share/znc/translations/ru-RU
+* /usr/share/znc/translations/tr-TR
 * /usr/share/znc/webskins/dark-clouds/pub/clouds-header.jpg
 * /usr/share/znc/webskins/dark-clouds/pub/dark-clouds.css
 * /usr/share/znc/webskins/dark-clouds/pub/favicon.ico

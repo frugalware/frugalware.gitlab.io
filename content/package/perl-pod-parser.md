@@ -12,6 +12,7 @@ size = "91540"
 usize = "271650"
 sha1sum = "2d2ff93981b3da44df2ec8b622b416ffafd2ae62"
 depends = "['perl>=5.34.0']"
+reverse_depends = "['po4a']"
 +++
 ### Description: 
 Modules for parsing/translating POD format documents

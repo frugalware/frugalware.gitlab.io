@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openttd 13.4-2"
-version = "13.4-2"
+title = "openttd 14.0-1"
+version = "14.0-1"
 description = "An open source clone of the Microprose game Transport Tycoon Deluxe."
-date = "2023-11-10T17:28:05"
+date = "2024-04-21T20:02:17"
 aliases = "/packages/3755"
 categories = ['games-extra']
 upstreamurl = "http://www.openttd.org"
 arch = "x86_64"
-size = "5930988"
-usize = "22929914"
-sha1sum = "653b9572c4af2da16f3df270a89dce8adc4879c4"
-depends = "['fontconfig>=2.11.94-3', 'icu4c>=74.1', 'libpng>=1.6.20', 'libtimidity>=0.1.0-2', 'lzo>=2.09-4', 'opengfx>=0.5.5', 'opensfx', 'sdl>=1.2.15-3', 'xz>=5.2.2-4']"
+size = "6426304"
+usize = "25209912"
+sha1sum = "de0ed68bbf2c0b42d6c44976956e7e2ce4aaf126"
+depends = "['fontconfig>=2.11.94-3', 'icu4c>=75.1', 'libpng>=1.6.20', 'libtimidity>=0.1.0-2', 'lzo>=2.09-4', 'opengfx>=0.5.5', 'opensfx', 'sdl>=1.2.15-3', 'xz>=5.2.2-4']"
 +++
 ### Description: 
 An open source clone of the Microprose game Transport Tycoon Deluxe.
@@ -19,12 +19,27 @@ An open source clone of the Microprose game Transport Tycoon Deluxe.
 ### Files: 
 * /usr/bin/openttd
 * /usr/share/applications/openttd.desktop
-* /usr/share/doc/openttd-13.4/COPYING.md
-* /usr/share/doc/openttd-13.4/README.md
+* /usr/share/doc/openttd-14.0/COPYING.md
+* /usr/share/doc/openttd-14.0/README.md
 * /usr/share/doc/openttd/changelog.txt
+* /usr/share/doc/openttd/CONTRIBUTING.md
 * /usr/share/doc/openttd/COPYING.md
+* /usr/share/doc/openttd/CREDITS.md
+* /usr/share/doc/openttd/docs/admin_network.md
+* /usr/share/doc/openttd/docs/debugging_desyncs.md
+* /usr/share/doc/openttd/docs/desync.md
+* /usr/share/doc/openttd/docs/directory_structure.md
+* /usr/share/doc/openttd/docs/eints.md
+* /usr/share/doc/openttd/docs/game_coordinator.md
+* /usr/share/doc/openttd/docs/linkgraph.md
+* /usr/share/doc/openttd/docs/logging_and_performance_metrics.md
+* /usr/share/doc/openttd/docs/multiplayer.md
+* /usr/share/doc/openttd/docs/obg_format.txt
+* /usr/share/doc/openttd/docs/obm_format.txt
+* /usr/share/doc/openttd/docs/obs_format.txt
+* /usr/share/doc/openttd/docs/savegame_format.md
+* /usr/share/doc/openttd/docs/symbol_server.md
 * /usr/share/doc/openttd/known-bugs.txt
-* /usr/share/doc/openttd/multiplayer.md
 * /usr/share/doc/openttd/README.md
 * /usr/share/games/openttd/ai/compat_0.7.nut
 * /usr/share/games/openttd/ai/compat_1.0.nut
@@ -41,8 +56,13 @@ An open source clone of the Microprose game Transport Tycoon Deluxe.
 * /usr/share/games/openttd/ai/compat_1.9.nut
 * /usr/share/games/openttd/ai/compat_12.nut
 * /usr/share/games/openttd/ai/compat_13.nut
+* /usr/share/games/openttd/ai/compat_14.nut
 * /usr/share/games/openttd/baseset/no_music.obm
 * /usr/share/games/openttd/baseset/no_sound.obs
+* /usr/share/games/openttd/baseset/OpenTTD-Mono.ttf
+* /usr/share/games/openttd/baseset/OpenTTD-Sans.ttf
+* /usr/share/games/openttd/baseset/OpenTTD-Serif.ttf
+* /usr/share/games/openttd/baseset/OpenTTD-Small.ttf
 * /usr/share/games/openttd/baseset/openttd.32.bmp
 * /usr/share/games/openttd/baseset/openttd.grf
 * /usr/share/games/openttd/baseset/opntitle.dat
@@ -67,6 +87,7 @@ An open source clone of the Microprose game Transport Tycoon Deluxe.
 * /usr/share/games/openttd/game/compat_1.9.nut
 * /usr/share/games/openttd/game/compat_12.nut
 * /usr/share/games/openttd/game/compat_13.nut
+* /usr/share/games/openttd/game/compat_14.nut
 * /usr/share/games/openttd/lang/afrikaans.lng
 * /usr/share/games/openttd/lang/arabic_egypt.lng
 * /usr/share/games/openttd/lang/basque.lng

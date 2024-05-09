@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openshadinglanguage 1.13.6.1-1"
-version = "1.13.6.1-1"
+title = "openshadinglanguage 1.13.8.0-1"
+version = "1.13.8.0-1"
 description = "Advanced shading language for production GI renderers"
-date = "2024-02-17T12:06:48"
+date = "2024-04-21T00:28:28"
 aliases = "/packages/220207"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/imageworks/openshadinglanguage"
 arch = "x86_64"
-size = "2340248"
-usize = "7601989"
-sha1sum = "9b774af7d189246d8b6cb3e5e83e30a771733587"
+size = "2322176"
+usize = "7558484"
+sha1sum = "318dc0cdeba698705b017445655412bcdf9c151d"
 depends = "['clang-libs', 'intel-tbb', 'libboost>=1.85.0', 'openexr', 'openimageio>=2.5.4.0', 'pugixml', 'python3>=3.12']"
 reverse_depends = "['blender']"
 +++

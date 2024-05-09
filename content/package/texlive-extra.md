@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texlive-extra 2024.2-1"
-version = "2024.2-1"
+title = "texlive-extra 2024.2-2"
+version = "2024.2-2"
 description = "Extra packages (generic, ..) for TeX Live"
-date = "2024-04-28T17:24:18"
+date = "2024-04-29T13:48:09"
 aliases = "/packages/219466"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "1036280"
+size = "1036640"
 usize = "7369523"
-sha1sum = "173d3a32f5b74891b7f19b3cd1f3b64ca5d1a82e"
+sha1sum = "abf366a271a6f86de22e4247f6f68da42b90b4fb"
 depends = "['texlive=2024.2']"
 +++
 ### Description: 

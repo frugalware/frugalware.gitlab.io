@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texlive-htmlxml 2024.2-1"
-version = "2024.2-1"
+title = "texlive-htmlxml 2024.2-2"
+version = "2024.2-2"
 description = "XML/HTML packages for TeX Live"
-date = "2024-04-28T17:24:18"
+date = "2024-04-29T13:48:09"
 aliases = "/packages/102985"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "2583200"
+size = "2620252"
 usize = "37750161"
-sha1sum = "dea1f570a1b3b51e36bb41eac64f928126549728"
+sha1sum = "37760a4f19b322a2608e9d41f442f97e3f8ea7cb"
 depends = "['texlive=2024.2']"
 +++
 ### Description: 

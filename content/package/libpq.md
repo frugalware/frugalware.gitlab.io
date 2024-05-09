@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libpq 16.2-1"
-version = "16.2-1"
+title = "libpq 16.2-2"
+version = "16.2-2"
 description = "PostgreSQL Library."
-date = "2024-02-26T20:30:22"
+date = "2024-04-19T23:25:16"
 aliases = "/packages/10588"
 categories = ['lib']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "118268"
+size = "118288"
 usize = "353279"
-sha1sum = "6d211beadc431a99614c41da42396ee12e944c0a"
+sha1sum = "59ecc4822e5a704a25f94ea7cb0bcad8e7a2da5e"
 depends = "['openssl>=3.1.0']"
 reverse_depends = "['courier-authlib', 'cyrus-sasl-sql', 'dovecot', 'gdal', 'gnokii-pq', 'librdf', 'libreoffice-postgresql', 'minetest', 'openvas-manager', 'pdal-postgresql', 'pdns', 'php', 'postfix', 'postgresql', 'postgresql-extras', 'postgresql-upgrade-from-12', 'postgresql-upgrade-from-13', 'postgresql-upgrade-from-14', 'postgresql-upgrade-from-15', 'qt5-base-postgresql', 'qt6-base-postgresql', 'rsyslog-pgsql', 'uwsgi-plugin-emperor_pg']"
 +++

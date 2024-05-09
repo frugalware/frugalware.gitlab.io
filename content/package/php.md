@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "php 8.3.6-1"
-version = "8.3.6-1"
+title = "php 8.3.6-2"
+version = "8.3.6-2"
 description = "A widely-used general-purpose scripting language"
-date = "2024-04-14T14:22:01"
+date = "2024-04-18T21:24:28"
 aliases = "/packages/3288"
 categories = ['devel']
 upstreamurl = "https://www.php.net"
 arch = "x86_64"
-size = "7823216"
+size = "7822064"
 usize = "48773178"
-sha1sum = "f972c86e46ae34d34fe838dc9fd4655aee212dff"
+sha1sum = "8b3b781b11b480633215a06cf40623670044d20f"
 depends = "['c-client>=2007f-2', 'curl>=7.19.0', 'freetype2>=2.3.1', 'gdbm>=1.15', 'libidn>=1.30', 'libjpeg-turbo', 'libmcrypt', 'libpng>=1.6.20', 'libpq>=8.4.0', 'libxml2', 'libxslt', 'mariadb-libs>=10.3.14', 'ncurses>=6.0-3', 'openssl>=3.1.0', 're2c', 'readline>=8.0', 'sqlite3', 'zlib>=1.2.12']"
 reverse_depends = "['adodb', 'kdev-php', 'phoronix-test-suite', 'php-cgi', 'php-embed', 'php-fpm', 'php-pear-db', 'phpbb-php5mod', 'phppgadmin', 'postfixadmin', 'xcache']"
 +++

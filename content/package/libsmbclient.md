@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libsmbclient 4.20.0-1"
-version = "4.20.0-1"
+title = "libsmbclient 4.20.0-2"
+version = "4.20.0-2"
 description = "SMB client library."
-date = "2024-04-04T12:54:56"
+date = "2024-04-19T23:13:11"
 aliases = "/packages/10586"
 categories = ['lib']
 upstreamurl = "http://www.samba.org"
 arch = "x86_64"
-size = "7598452"
+size = "7589928"
 usize = "34984681"
-sha1sum = "b9a5614337f9dfebac669c1577cbe3213f74b328"
-depends = "['gpgme', 'icu4c>=74.1', 'jansson', 'libldap>=2.5.4', 'libwbclient>=4.20.0', 'libxcrypt', 'lmdb', 'python3>=3.12', 'talloc']"
+sha1sum = "e61f227a44e482393002128e686445aa2456daa0"
+depends = "['gpgme', 'icu4c>=75.1', 'jansson', 'libldap>=2.5.4', 'libwbclient>=4.20.0', 'libxcrypt', 'lmdb', 'python3>=3.12', 'talloc']"
 reverse_depends = "['gvfs-smb', 'libwbclient', 'mpd', 'samba-client', 'smb4k', 'vlc-smb']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "po4a 0.69-1"
-version = "0.69-1"
+title = "po4a 0.71-1"
+version = "0.71-1"
 description = "Eases translation work, and in particular the maintenance of translations."
-date = "2023-02-27T10:52:08"
+date = "2024-04-22T12:30:17"
 aliases = "/packages/4444"
 categories = ['devel-extra']
 upstreamurl = "https://po4a.org/"
 arch = "x86_64"
-size = "2158456"
-usize = "3820306"
-sha1sum = "0f875e96addef3458681d4c151dd1078606f4f76"
-depends = "['perl-gettext', 'perl-sgmlspm', 'perl-text-wrapi18n']"
+size = "2035424"
+usize = "3681075"
+sha1sum = "622e41e916a8eb9cceb16a3dd24e26630a6735c2"
+depends = "['perl-gettext', 'perl-pod-parser', 'perl-sgmlspm', 'perl-text-wrapi18n']"
 +++
 ### Description: 
 Eases translation work, and in particular the maintenance of translations.
@@ -31,6 +31,7 @@ Eases translation work, and in particular the maintenance of translations.
 * /usr/lib/perl5/vendor_perl/Locale/Po4a/Common.pm
 * /usr/lib/perl5/vendor_perl/Locale/Po4a/Dia.pm
 * /usr/lib/perl5/vendor_perl/Locale/Po4a/Docbook.pm
+* /usr/lib/perl5/vendor_perl/Locale/Po4a/Gemtext.pm
 * /usr/lib/perl5/vendor_perl/Locale/Po4a/Guide.pm
 * /usr/lib/perl5/vendor_perl/Locale/Po4a/Halibut.pm
 * /usr/lib/perl5/vendor_perl/Locale/Po4a/Ini.pm
@@ -51,12 +52,12 @@ Eases translation work, and in particular the maintenance of translations.
 * /usr/lib/perl5/vendor_perl/Locale/Po4a/Xhtml.pm
 * /usr/lib/perl5/vendor_perl/Locale/Po4a/Xml.pm
 * /usr/lib/perl5/vendor_perl/Locale/Po4a/Yaml.pm
-* /usr/share/doc/po4a-0.69/COPYING
-* /usr/share/doc/po4a-0.69/MANIFEST
-* /usr/share/doc/po4a-0.69/NEWS
-* /usr/share/doc/po4a-0.69/README.maintainers
-* /usr/share/doc/po4a-0.69/README.md
-* /usr/share/doc/po4a-0.69/TODO
+* /usr/share/doc/po4a-0.71/COPYING
+* /usr/share/doc/po4a-0.71/MANIFEST
+* /usr/share/doc/po4a-0.71/NEWS
+* /usr/share/doc/po4a-0.71/README.maintainers
+* /usr/share/doc/po4a-0.71/README.md
+* /usr/share/doc/po4a-0.71/TODO
 * /usr/share/locale/ace/LC_MESSAGES/po4a.mo
 * /usr/share/locale/af/LC_MESSAGES/po4a.mo
 * /usr/share/locale/ar/LC_MESSAGES/po4a.mo
@@ -88,14 +89,12 @@ Eases translation work, and in particular the maintenance of translations.
 * /usr/share/locale/sv/LC_MESSAGES/po4a.mo
 * /usr/share/locale/uk/LC_MESSAGES/po4a.mo
 * /usr/share/locale/vi/LC_MESSAGES/po4a.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/po4a.mo
+* /usr/share/locale/zh_Hans/LC_MESSAGES/po4a.mo
 * /usr/share/locale/zh_Hant/LC_MESSAGES/po4a.mo
-* /usr/share/locale/zh_HK/LC_MESSAGES/po4a.mo
 * /usr/share/man/ca/man1/po4a-translate.1p.gz
 * /usr/share/man/ca/man3/Locale::Po4a::Dia.3pm.gz
 * /usr/share/man/ca/man3/Locale::Po4a::Guide.3pm.gz
 * /usr/share/man/ca/man3/Locale::Po4a::KernelHelp.3pm.gz
-* /usr/share/man/ca/man3/Locale::Po4a::LaTeX.3pm.gz
 * /usr/share/man/ca/man3/Locale::Po4a::Pod.3pm.gz
 * /usr/share/man/ca/man3/Locale::Po4a::TransTractor.3pm.gz
 * /usr/share/man/de/man1/msguntypot.1p.gz
@@ -136,10 +135,12 @@ Eases translation work, and in particular the maintenance of translations.
 * /usr/share/man/es/man1/msguntypot.1p.gz
 * /usr/share/man/es/man1/po4a-display-man.1.gz
 * /usr/share/man/es/man1/po4a-display-pod.1.gz
+* /usr/share/man/es/man1/po4a-gettextize.1p.gz
 * /usr/share/man/es/man1/po4a-normalize.1p.gz
 * /usr/share/man/es/man1/po4a-translate.1p.gz
 * /usr/share/man/es/man1/po4a-updatepo.1p.gz
 * /usr/share/man/es/man1/po4a.1p.gz
+* /usr/share/man/es/man3/Locale::Po4a::AsciiDoc.3pm.gz
 * /usr/share/man/es/man3/Locale::Po4a::BibTeX.3pm.gz
 * /usr/share/man/es/man3/Locale::Po4a::Chooser.3pm.gz
 * /usr/share/man/es/man3/Locale::Po4a::Common.3pm.gz
@@ -153,7 +154,7 @@ Eases translation work, and in particular the maintenance of translations.
 * /usr/share/man/es/man3/Locale::Po4a::Man.3pm.gz
 * /usr/share/man/es/man3/Locale::Po4a::Po.3pm.gz
 * /usr/share/man/es/man3/Locale::Po4a::Pod.3pm.gz
-* /usr/share/man/es/man3/Locale::Po4a::Sgml.3pm.gz
+* /usr/share/man/es/man3/Locale::Po4a::RubyDoc.3pm.gz
 * /usr/share/man/es/man3/Locale::Po4a::TeX.3pm.gz
 * /usr/share/man/es/man3/Locale::Po4a::Texinfo.3pm.gz
 * /usr/share/man/es/man3/Locale::Po4a::Text.3pm.gz
@@ -161,6 +162,8 @@ Eases translation work, and in particular the maintenance of translations.
 * /usr/share/man/es/man3/Locale::Po4a::Wml.3pm.gz
 * /usr/share/man/es/man3/Locale::Po4a::Xhtml.3pm.gz
 * /usr/share/man/es/man3/Locale::Po4a::Xml.3pm.gz
+* /usr/share/man/es/man3/Locale::Po4a::Yaml.3pm.gz
+* /usr/share/man/es/man7/po4a.7.gz
 * /usr/share/man/fr/man1/msguntypot.1p.gz
 * /usr/share/man/fr/man1/po4a-display-man.1.gz
 * /usr/share/man/fr/man1/po4a-display-pod.1.gz
@@ -275,6 +278,7 @@ Eases translation work, and in particular the maintenance of translations.
 * /usr/share/man/man3/Locale::Po4a::Debconf.3pm.gz
 * /usr/share/man/man3/Locale::Po4a::Dia.3pm.gz
 * /usr/share/man/man3/Locale::Po4a::Docbook.3pm.gz
+* /usr/share/man/man3/Locale::Po4a::Gemtext.3pm.gz
 * /usr/share/man/man3/Locale::Po4a::Guide.3pm.gz
 * /usr/share/man/man3/Locale::Po4a::Halibut.3pm.gz
 * /usr/share/man/man3/Locale::Po4a::Ini.3pm.gz
@@ -320,7 +324,6 @@ Eases translation work, and in particular the maintenance of translations.
 * /usr/share/man/nl/man3/Locale::Po4a::Po.3pm.gz
 * /usr/share/man/nl/man3/Locale::Po4a::Pod.3pm.gz
 * /usr/share/man/nl/man3/Locale::Po4a::RubyDoc.3pm.gz
-* /usr/share/man/nl/man3/Locale::Po4a::Sgml.3pm.gz
 * /usr/share/man/nl/man3/Locale::Po4a::TeX.3pm.gz
 * /usr/share/man/nl/man3/Locale::Po4a::Texinfo.3pm.gz
 * /usr/share/man/nl/man3/Locale::Po4a::Text.3pm.gz
@@ -329,9 +332,7 @@ Eases translation work, and in particular the maintenance of translations.
 * /usr/share/man/nl/man3/Locale::Po4a::Xhtml.3pm.gz
 * /usr/share/man/nl/man3/Locale::Po4a::Xml.3pm.gz
 * /usr/share/man/nl/man3/Locale::Po4a::Yaml.3pm.gz
-* /usr/share/man/nl/man7/po4a.7.gz
 * /usr/share/man/pl/man1/msguntypot.1p.gz
-* /usr/share/man/pl/man1/po4a-normalize.1p.gz
 * /usr/share/man/pl/man1/po4a-translate.1p.gz
 * /usr/share/man/pl/man3/Locale::Po4a::BibTeX.3pm.gz
 * /usr/share/man/pl/man3/Locale::Po4a::Chooser.3pm.gz
@@ -345,7 +346,6 @@ Eases translation work, and in particular the maintenance of translations.
 * /usr/share/man/pl/man3/Locale::Po4a::Man.3pm.gz
 * /usr/share/man/pl/man3/Locale::Po4a::Po.3pm.gz
 * /usr/share/man/pl/man3/Locale::Po4a::Pod.3pm.gz
-* /usr/share/man/pl/man3/Locale::Po4a::Sgml.3pm.gz
 * /usr/share/man/pl/man3/Locale::Po4a::TeX.3pm.gz
 * /usr/share/man/pl/man3/Locale::Po4a::Texinfo.3pm.gz
 * /usr/share/man/pl/man3/Locale::Po4a::TransTractor.3pm.gz
@@ -374,19 +374,17 @@ Eases translation work, and in particular the maintenance of translations.
 * /usr/share/man/pt/man3/Locale::Po4a::Po.3pm.gz
 * /usr/share/man/pt/man3/Locale::Po4a::Pod.3pm.gz
 * /usr/share/man/pt/man3/Locale::Po4a::RubyDoc.3pm.gz
-* /usr/share/man/pt/man3/Locale::Po4a::Sgml.3pm.gz
 * /usr/share/man/pt/man3/Locale::Po4a::TeX.3pm.gz
 * /usr/share/man/pt/man3/Locale::Po4a::Texinfo.3pm.gz
-* /usr/share/man/pt/man3/Locale::Po4a::Text.3pm.gz
 * /usr/share/man/pt/man3/Locale::Po4a::TransTractor.3pm.gz
 * /usr/share/man/pt/man3/Locale::Po4a::Wml.3pm.gz
 * /usr/share/man/pt/man3/Locale::Po4a::Xhtml.3pm.gz
 * /usr/share/man/pt/man3/Locale::Po4a::Xml.3pm.gz
 * /usr/share/man/pt/man3/Locale::Po4a::Yaml.3pm.gz
-* /usr/share/man/pt/man7/po4a.7.gz
 * /usr/share/man/pt_BR/man1/msguntypot.1p.gz
 * /usr/share/man/pt_BR/man1/po4a-display-man.1.gz
 * /usr/share/man/pt_BR/man1/po4a-display-pod.1.gz
+* /usr/share/man/pt_BR/man1/po4a-gettextize.1p.gz
 * /usr/share/man/pt_BR/man1/po4a-normalize.1p.gz
 * /usr/share/man/pt_BR/man1/po4a-translate.1p.gz
 * /usr/share/man/pt_BR/man1/po4a-updatepo.1p.gz
@@ -419,12 +417,15 @@ Eases translation work, and in particular the maintenance of translations.
 * /usr/share/man/ru/man1/msguntypot.1p.gz
 * /usr/share/man/ru/man1/po4a-display-man.1.gz
 * /usr/share/man/ru/man1/po4a-display-pod.1.gz
+* /usr/share/man/ru/man1/po4a-gettextize.1p.gz
 * /usr/share/man/ru/man1/po4a-normalize.1p.gz
 * /usr/share/man/ru/man1/po4a-translate.1p.gz
 * /usr/share/man/ru/man1/po4a-updatepo.1p.gz
 * /usr/share/man/ru/man1/po4a.1p.gz
+* /usr/share/man/ru/man3/Locale::Po4a::AsciiDoc.3pm.gz
 * /usr/share/man/ru/man3/Locale::Po4a::BibTeX.3pm.gz
 * /usr/share/man/ru/man3/Locale::Po4a::Chooser.3pm.gz
+* /usr/share/man/ru/man3/Locale::Po4a::Common.3pm.gz
 * /usr/share/man/ru/man3/Locale::Po4a::Dia.3pm.gz
 * /usr/share/man/ru/man3/Locale::Po4a::Docbook.3pm.gz
 * /usr/share/man/ru/man3/Locale::Po4a::Guide.3pm.gz
@@ -433,10 +434,16 @@ Eases translation work, and in particular the maintenance of translations.
 * /usr/share/man/ru/man3/Locale::Po4a::KernelHelp.3pm.gz
 * /usr/share/man/ru/man3/Locale::Po4a::LaTeX.3pm.gz
 * /usr/share/man/ru/man3/Locale::Po4a::Man.3pm.gz
+* /usr/share/man/ru/man3/Locale::Po4a::Po.3pm.gz
+* /usr/share/man/ru/man3/Locale::Po4a::Pod.3pm.gz
+* /usr/share/man/ru/man3/Locale::Po4a::RubyDoc.3pm.gz
+* /usr/share/man/ru/man3/Locale::Po4a::Sgml.3pm.gz
 * /usr/share/man/ru/man3/Locale::Po4a::Texinfo.3pm.gz
+* /usr/share/man/ru/man3/Locale::Po4a::Text.3pm.gz
 * /usr/share/man/ru/man3/Locale::Po4a::Wml.3pm.gz
 * /usr/share/man/ru/man3/Locale::Po4a::Xhtml.3pm.gz
 * /usr/share/man/ru/man3/Locale::Po4a::Xml.3pm.gz
+* /usr/share/man/ru/man3/Locale::Po4a::Yaml.3pm.gz
 * /usr/share/man/ru/man7/po4a.7.gz
 * /usr/share/man/sr_Cyrl/man1/msguntypot.1p.gz
 * /usr/share/man/sr_Cyrl/man1/po4a-display-man.1.gz
@@ -461,7 +468,6 @@ Eases translation work, and in particular the maintenance of translations.
 * /usr/share/man/sr_Cyrl/man3/Locale::Po4a::Po.3pm.gz
 * /usr/share/man/sr_Cyrl/man3/Locale::Po4a::Pod.3pm.gz
 * /usr/share/man/sr_Cyrl/man3/Locale::Po4a::RubyDoc.3pm.gz
-* /usr/share/man/sr_Cyrl/man3/Locale::Po4a::Sgml.3pm.gz
 * /usr/share/man/sr_Cyrl/man3/Locale::Po4a::TeX.3pm.gz
 * /usr/share/man/sr_Cyrl/man3/Locale::Po4a::Texinfo.3pm.gz
 * /usr/share/man/sr_Cyrl/man3/Locale::Po4a::Text.3pm.gz
@@ -470,7 +476,6 @@ Eases translation work, and in particular the maintenance of translations.
 * /usr/share/man/sr_Cyrl/man3/Locale::Po4a::Xhtml.3pm.gz
 * /usr/share/man/sr_Cyrl/man3/Locale::Po4a::Xml.3pm.gz
 * /usr/share/man/sr_Cyrl/man3/Locale::Po4a::Yaml.3pm.gz
-* /usr/share/man/sr_Cyrl/man7/po4a.7.gz
 * /usr/share/man/uk/man1/msguntypot.1p.gz
 * /usr/share/man/uk/man1/po4a-display-man.1.gz
 * /usr/share/man/uk/man1/po4a-display-pod.1.gz
@@ -504,38 +509,35 @@ Eases translation work, and in particular the maintenance of translations.
 * /usr/share/man/uk/man3/Locale::Po4a::Xml.3pm.gz
 * /usr/share/man/uk/man3/Locale::Po4a::Yaml.3pm.gz
 * /usr/share/man/uk/man7/po4a.7.gz
-* /usr/share/man/zh_CHS/man1/msguntypot.1p.gz
-* /usr/share/man/zh_CHS/man1/po4a-display-man.1.gz
-* /usr/share/man/zh_CHS/man1/po4a-display-pod.1.gz
-* /usr/share/man/zh_CHS/man1/po4a-normalize.1p.gz
-* /usr/share/man/zh_CHS/man1/po4a-translate.1p.gz
-* /usr/share/man/zh_CHS/man1/po4a-updatepo.1p.gz
-* /usr/share/man/zh_CHS/man1/po4a.1p.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::AsciiDoc.3pm.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::BibTeX.3pm.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::Chooser.3pm.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::Common.3pm.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::Dia.3pm.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::Docbook.3pm.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::Guide.3pm.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::Halibut.3pm.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::Ini.3pm.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::KernelHelp.3pm.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::LaTeX.3pm.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::Man.3pm.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::Po.3pm.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::Pod.3pm.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::RubyDoc.3pm.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::Sgml.3pm.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::TeX.3pm.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::Texinfo.3pm.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::Text.3pm.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::TransTractor.3pm.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::Wml.3pm.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::Xhtml.3pm.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::Xml.3pm.gz
-* /usr/share/man/zh_CHS/man3/Locale::Po4a::Yaml.3pm.gz
-* /usr/share/man/zh_CHS/man7/po4a.7.gz
+* /usr/share/man/zh_Hans/man1/msguntypot.1p.gz
+* /usr/share/man/zh_Hans/man1/po4a-display-man.1.gz
+* /usr/share/man/zh_Hans/man1/po4a-display-pod.1.gz
+* /usr/share/man/zh_Hans/man1/po4a-normalize.1p.gz
+* /usr/share/man/zh_Hans/man1/po4a-translate.1p.gz
+* /usr/share/man/zh_Hans/man1/po4a-updatepo.1p.gz
+* /usr/share/man/zh_Hans/man1/po4a.1p.gz
+* /usr/share/man/zh_Hans/man3/Locale::Po4a::AsciiDoc.3pm.gz
+* /usr/share/man/zh_Hans/man3/Locale::Po4a::BibTeX.3pm.gz
+* /usr/share/man/zh_Hans/man3/Locale::Po4a::Chooser.3pm.gz
+* /usr/share/man/zh_Hans/man3/Locale::Po4a::Common.3pm.gz
+* /usr/share/man/zh_Hans/man3/Locale::Po4a::Dia.3pm.gz
+* /usr/share/man/zh_Hans/man3/Locale::Po4a::Docbook.3pm.gz
+* /usr/share/man/zh_Hans/man3/Locale::Po4a::Guide.3pm.gz
+* /usr/share/man/zh_Hans/man3/Locale::Po4a::Halibut.3pm.gz
+* /usr/share/man/zh_Hans/man3/Locale::Po4a::Ini.3pm.gz
+* /usr/share/man/zh_Hans/man3/Locale::Po4a::KernelHelp.3pm.gz
+* /usr/share/man/zh_Hans/man3/Locale::Po4a::LaTeX.3pm.gz
+* /usr/share/man/zh_Hans/man3/Locale::Po4a::Man.3pm.gz
+* /usr/share/man/zh_Hans/man3/Locale::Po4a::Po.3pm.gz
+* /usr/share/man/zh_Hans/man3/Locale::Po4a::Pod.3pm.gz
+* /usr/share/man/zh_Hans/man3/Locale::Po4a::RubyDoc.3pm.gz
+* /usr/share/man/zh_Hans/man3/Locale::Po4a::TeX.3pm.gz
+* /usr/share/man/zh_Hans/man3/Locale::Po4a::Texinfo.3pm.gz
+* /usr/share/man/zh_Hans/man3/Locale::Po4a::TransTractor.3pm.gz
+* /usr/share/man/zh_Hans/man3/Locale::Po4a::Wml.3pm.gz
+* /usr/share/man/zh_Hans/man3/Locale::Po4a::Xhtml.3pm.gz
+* /usr/share/man/zh_Hans/man3/Locale::Po4a::Xml.3pm.gz
+* /usr/share/man/zh_Hans/man3/Locale::Po4a::Yaml.3pm.gz
 * /usr/share/man/zh_Hant/man1/msguntypot.1p.gz
 * /usr/share/man/zh_Hant/man1/po4a-display-man.1.gz
 * /usr/share/man/zh_Hant/man1/po4a-display-pod.1.gz
@@ -558,13 +560,10 @@ Eases translation work, and in particular the maintenance of translations.
 * /usr/share/man/zh_Hant/man3/Locale::Po4a::Po.3pm.gz
 * /usr/share/man/zh_Hant/man3/Locale::Po4a::Pod.3pm.gz
 * /usr/share/man/zh_Hant/man3/Locale::Po4a::RubyDoc.3pm.gz
-* /usr/share/man/zh_Hant/man3/Locale::Po4a::Sgml.3pm.gz
 * /usr/share/man/zh_Hant/man3/Locale::Po4a::TeX.3pm.gz
 * /usr/share/man/zh_Hant/man3/Locale::Po4a::Texinfo.3pm.gz
-* /usr/share/man/zh_Hant/man3/Locale::Po4a::Text.3pm.gz
 * /usr/share/man/zh_Hant/man3/Locale::Po4a::TransTractor.3pm.gz
 * /usr/share/man/zh_Hant/man3/Locale::Po4a::Wml.3pm.gz
 * /usr/share/man/zh_Hant/man3/Locale::Po4a::Xhtml.3pm.gz
 * /usr/share/man/zh_Hant/man3/Locale::Po4a::Xml.3pm.gz
 * /usr/share/man/zh_Hant/man3/Locale::Po4a::Yaml.3pm.gz
-* /usr/share/man/zh_Hant/man7/po4a.7.gz

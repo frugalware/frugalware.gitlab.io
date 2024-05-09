@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texlive-bibtex-extra 2024.2-1"
-version = "2024.2-1"
+title = "texlive-bibtex-extra 2024.2-2"
+version = "2024.2-2"
 description = "Extra Bibtex Styles for TeX Live"
-date = "2024-04-28T17:24:18"
+date = "2024-04-29T13:48:09"
 aliases = "/packages/102979"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "2567576"
+size = "2568180"
 usize = "26000896"
-sha1sum = "6b3c38f3b5dd8448c883631b6be9bcaf628ec9f8"
+sha1sum = "2cc72a105abc32159029c5c68c0c13aee4daa056"
 depends = "['texlive=2024.2']"
 +++
 ### Description: 

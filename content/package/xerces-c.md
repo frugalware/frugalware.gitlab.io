@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "xerces-c 3.2.4-3"
-version = "3.2.4-3"
+title = "xerces-c 3.2.5-1"
+version = "3.2.5-1"
 description = "Xerces2 C++ Parser"
-date = "2023-11-09T21:50:52"
+date = "2024-04-20T11:27:51"
 aliases = "/packages/14649"
 categories = ['devel-extra']
 upstreamurl = "http://xml.apache.org/xerces-c/"
 arch = "x86_64"
-size = "1320352"
-usize = "8557593"
-sha1sum = "3e92875c05ab8dd34383ca80a238755ffcde39bb"
-depends = "['icu4c>=74.1']"
+size = "1321040"
+usize = "8570791"
+sha1sum = "a8927fb11117fd159c69c701d5c2554cf6ed3cf5"
+depends = "['icu4c>=75.1']"
 reverse_depends = "['enigma', 'virtualbox', 'xalan-c', 'xqilla']"
 +++
 ### Description: 
@@ -506,7 +506,7 @@ Xerces2 C++ Parser
 * /usr/lib/libxerces-c-3.2.so
 * /usr/lib/libxerces-c.so
 * /usr/lib/pkgconfig/xerces-c.pc
-* /usr/share/doc/xerces-c-3.2.4/CREDITS
-* /usr/share/doc/xerces-c-3.2.4/INSTALL
-* /usr/share/doc/xerces-c-3.2.4/LICENSE
-* /usr/share/doc/xerces-c-3.2.4/README
+* /usr/share/doc/xerces-c-3.2.5/CREDITS
+* /usr/share/doc/xerces-c-3.2.5/INSTALL
+* /usr/share/doc/xerces-c-3.2.5/LICENSE
+* /usr/share/doc/xerces-c-3.2.5/README

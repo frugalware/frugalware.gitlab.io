@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-jsonschema 4.20.0-1"
-version = "4.20.0-1"
+title = "python3-jsonschema 4.21.1-2"
+version = "4.21.1-2"
 description = "An implementation of JSON Schema validation for Python"
-date = "2023-12-04T14:46:25"
+date = "2024-04-22T12:19:32"
 aliases = "/packages/220537"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/jsonschema"
 arch = "x86_64"
-size = "166408"
-usize = "1360620"
-sha1sum = "8eb945e89f5552270a2ecc9679a19715b35172bf"
+size = "167876"
+usize = "1372868"
+sha1sum = "4529f86654195d5479c2e8495474418e3e9e089b"
 depends = "['python3-attrs', 'python3-pyrsistent', 'python3-typing_extensions']"
 reverse_depends = "['python3-poetry-core']"
 +++
@@ -19,11 +19,12 @@ An implementation of JSON Schema validation for Python
 
 ### Files: 
 * /usr/bin/jsonschema
-* /usr/lib/python3.12/site-packages/jsonschema-4.20.0.dist-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/jsonschema-4.20.0.dist-info/licenses/COPYING
-* /usr/lib/python3.12/site-packages/jsonschema-4.20.0.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/jsonschema-4.20.0.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/jsonschema-4.20.0.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/jsonschema-4.21.1.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/jsonschema-4.21.1.dist-info/licenses/COPYING
+* /usr/lib/python3.12/site-packages/jsonschema-4.21.1.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/jsonschema-4.21.1.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/jsonschema-4.21.1.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/jsonschema/benchmarks/contains.py
 * /usr/lib/python3.12/site-packages/jsonschema/benchmarks/issue232.py
 * /usr/lib/python3.12/site-packages/jsonschema/benchmarks/issue232/issue.json
 * /usr/lib/python3.12/site-packages/jsonschema/benchmarks/json_schema_test_suite.py
@@ -32,6 +33,8 @@ An implementation of JSON Schema validation for Python
 * /usr/lib/python3.12/site-packages/jsonschema/benchmarks/unused_registry.py
 * /usr/lib/python3.12/site-packages/jsonschema/benchmarks/validator_creation.py
 * /usr/lib/python3.12/site-packages/jsonschema/benchmarks/__init__.py
+* /usr/lib/python3.12/site-packages/jsonschema/benchmarks/__pycache__/contains.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/jsonschema/benchmarks/__pycache__/contains.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/jsonschema/benchmarks/__pycache__/issue232.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/jsonschema/benchmarks/__pycache__/issue232.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/jsonschema/benchmarks/__pycache__/json_schema_test_suite.cpython-312.opt-1.pyc
@@ -115,5 +118,5 @@ An implementation of JSON Schema validation for Python
 * /usr/lib/python3.12/site-packages/jsonschema/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/jsonschema/__pycache__/__main__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/jsonschema/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/python3-jsonschema-4.20.0/COPYING
-* /usr/share/doc/python3-jsonschema-4.20.0/README.rst
+* /usr/share/doc/python3-jsonschema-4.21.1/COPYING
+* /usr/share/doc/python3-jsonschema-4.21.1/README.rst

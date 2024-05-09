@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "r 4.3.2-1"
-version = "4.3.2-1"
+title = "r 4.3.3-1"
+version = "4.3.3-1"
 description = "R is a language and environment for statistical computing and graphics."
-date = "2023-11-10T17:40:24"
+date = "2024-04-20T14:40:49"
 aliases = "/packages/73359"
 categories = ['xapps-extra']
 upstreamurl = "http://www.r-project.org"
 arch = "x86_64"
-size = "45342532"
-usize = "72540915"
-sha1sum = "c3364b7f7d59b27721d9bfab8249ee524c12e5ec"
-depends = "['curl', 'icu4c>=74.1', 'lapack>=3.6.0-2', 'libjpeg-turbo', 'libtiff>=4.0.6', 'libxt>=1.1.5-2', 'pango>=1.38.1-2', 'readline>=8.0', 'tk>=8.6.4']"
+size = "45437252"
+usize = "72520759"
+sha1sum = "f0101a04cad114ceae2c4c7f2b00bfa53877802b"
+depends = "['curl', 'icu4c>=75.1', 'lapack>=3.6.0-2', 'libjpeg-turbo', 'libtiff>=4.0.6', 'libxt>=1.1.5-2', 'pango>=1.38.1-2', 'readline>=8.0', 'tk>=8.6.4']"
 reverse_depends = "['cantor', 'rkward']"
 +++
 ### Description: 
@@ -802,6 +802,7 @@ R is a language and environment for statistical computing and graphics.
 * /usr/lib/R/library/Matrix/external/Z_NA_rnk.rds
 * /usr/lib/R/library/Matrix/help/aliases.rds
 * /usr/lib/R/library/Matrix/help/AnIndex
+* /usr/lib/R/library/Matrix/help/macros/local.Rd
 * /usr/lib/R/library/Matrix/help/Matrix.rdb
 * /usr/lib/R/library/Matrix/help/Matrix.rdx
 * /usr/lib/R/library/Matrix/help/paths.rds
@@ -809,6 +810,13 @@ R is a language and environment for statistical computing and graphics.
 * /usr/lib/R/library/Matrix/html/R.css
 * /usr/lib/R/library/Matrix/include/cholmod.h
 * /usr/lib/R/library/Matrix/include/Matrix.h
+* /usr/lib/R/library/Matrix/include/Matrix/alloca.h
+* /usr/lib/R/library/Matrix/include/Matrix/cholmod-utils.h
+* /usr/lib/R/library/Matrix/include/Matrix/cholmod.h
+* /usr/lib/R/library/Matrix/include/Matrix/Matrix.h
+* /usr/lib/R/library/Matrix/include/Matrix/remap.h
+* /usr/lib/R/library/Matrix/include/Matrix/stubs.c
+* /usr/lib/R/library/Matrix/include/Matrix/version.h
 * /usr/lib/R/library/Matrix/include/Matrix_stubs.c
 * /usr/lib/R/library/Matrix/INDEX
 * /usr/lib/R/library/Matrix/libs/Matrix.so
@@ -890,8 +898,6 @@ R is a language and environment for statistical computing and graphics.
 * /usr/lib/R/library/mgcv/po/en@quot/LC_MESSAGES/R-mgcv.mo
 * /usr/lib/R/library/mgcv/po/fr/LC_MESSAGES/mgcv.mo
 * /usr/lib/R/library/mgcv/po/fr/LC_MESSAGES/R-mgcv.mo
-* /usr/lib/R/library/mgcv/po/it/LC_MESSAGES/mgcv.mo
-* /usr/lib/R/library/mgcv/po/it/LC_MESSAGES/R-mgcv.mo
 * /usr/lib/R/library/mgcv/po/ko/LC_MESSAGES/mgcv.mo
 * /usr/lib/R/library/mgcv/po/ko/LC_MESSAGES/R-mgcv.mo
 * /usr/lib/R/library/mgcv/po/pl/LC_MESSAGES/mgcv.mo
@@ -1705,10 +1711,10 @@ R is a language and environment for statistical computing and graphics.
 * /usr/lib/R/share/texmf/tex/latex/Rd.sty
 * /usr/lib/R/share/texmf/tex/latex/Sweave.sty
 * /usr/lib/R/SVN-REVISION
-* /usr/share/doc/r-4.3.2/ChangeLog
-* /usr/share/doc/r-4.3.2/COPYING
-* /usr/share/doc/r-4.3.2/INSTALL
-* /usr/share/doc/r-4.3.2/README
-* /usr/share/doc/r-4.3.2/VERSION
+* /usr/share/doc/r-4.3.3/ChangeLog
+* /usr/share/doc/r-4.3.3/COPYING
+* /usr/share/doc/r-4.3.3/INSTALL
+* /usr/share/doc/r-4.3.3/README
+* /usr/share/doc/r-4.3.3/VERSION
 * /usr/share/man/man1/R.1.gz
 * /usr/share/man/man1/Rscript.1.gz

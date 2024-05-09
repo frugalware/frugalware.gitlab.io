@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openvdb 10.1.0-1"
-version = "10.1.0-1"
+title = "openvdb 11.0.0-1"
+version = "11.0.0-1"
 description = "A large suite of tools for the efficient storage and manipulation 	of sparse volumetric data discretized on three-dimensional grids"
-date = "2023-11-19T13:42:01"
+date = "2024-04-21T00:17:03"
 aliases = "/packages/220209"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/AcademySoftwareFoundation/openvdb"
 arch = "x86_64"
-size = "4501096"
-usize = "38864090"
-sha1sum = "869a41851fe97eeb2194fcdf6ea8dcb86da8841b"
+size = "4511248"
+usize = "38853047"
+sha1sum = "4698926b4c41ea45fb2d0da1ae5d37ee8ecc8073"
 depends = "['blosc', 'intel-tbb', 'jemalloc', 'libboost>=1.85.0']"
 reverse_depends = "['blender', 'openimageio', 'vtk']"
 +++

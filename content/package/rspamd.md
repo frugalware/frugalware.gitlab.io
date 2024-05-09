@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "rspamd 3.8.4-1"
-version = "3.8.4-1"
+title = "rspamd 3.8.4-2"
+version = "3.8.4-2"
 description = "Rapid spam filtering system."
-date = "2024-04-10T19:41:11"
+date = "2024-04-20T12:24:33"
 aliases = "/packages/219819"
 categories = ['network-extra']
 upstreamurl = "https://github.com/rspamd/rspamd"
 arch = "x86_64"
-size = "3789132"
+size = "3788372"
 usize = "13419521"
-sha1sum = "f3b59e7e5d0582ac8b6bd010ded04b7ab7845ae5"
-depends = "['glib2', 'hyperscan', 'icu4c>=74.1', 'libsodium>=1.0.19', 'luajit2']"
+sha1sum = "39659638b86d78ad04392290f530d9888a58007c"
+depends = "['glib2', 'hyperscan', 'icu4c>=75.1', 'libsodium>=1.0.19', 'luajit2']"
 +++
 ### Description: 
 Rapid spam filtering system.

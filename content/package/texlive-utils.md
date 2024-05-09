@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texlive-utils 2024.2-1"
-version = "2024.2-1"
+title = "texlive-utils 2024.2-2"
+version = "2024.2-2"
 description = "Utilities for TeX Live"
-date = "2024-04-28T17:24:18"
+date = "2024-04-29T13:48:09"
 aliases = "/packages/102992"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "1174560"
+size = "1174860"
 usize = "5194319"
-sha1sum = "599118bd68c773d75adb7a3da3e7f9599bc1b840"
+sha1sum = "c717c5324370aaf5db5119a2bce8f341be12ae98"
 depends = "['texlive=2024.2', 'texlive-kpathsea', 'texlive-ptexen', 'texlive-synctex']"
 +++
 ### Description: 

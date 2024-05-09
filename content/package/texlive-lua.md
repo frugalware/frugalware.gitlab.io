@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texlive-lua 2024.2-1"
-version = "2024.2-1"
+title = "texlive-lua 2024.2-2"
+version = "2024.2-2"
 description = "TeX Live Lua"
-date = "2024-04-28T17:24:18"
+date = "2024-04-29T13:48:09"
 aliases = "/packages/217878"
 categories = ['xlib-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "337836"
+size = "337980"
 usize = "815552"
-sha1sum = "2f16023eb3ba81cf231dc4e0c81bb6acda94e07b"
+sha1sum = "fae31ee0cd93de0bdc11d147b1b1e4df22a79641"
 depends = "['libgcc>=5.3.0']"
 reverse_depends = "['texlive']"
 +++

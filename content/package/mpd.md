@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mpd 0.23.15-2"
-version = "0.23.15-2"
+title = "mpd 0.23.15-3"
+version = "0.23.15-3"
 description = "the Music Player Daemon"
-date = "2024-01-17T13:26:32"
+date = "2024-04-21T14:07:58"
 aliases = "/packages/3231"
 categories = ['multimedia-extra']
 upstreamurl = "http://www.musicpd.org/"
 arch = "x86_64"
-size = "753316"
-usize = "2617853"
-sha1sum = "cf2d5171eacdf7521344ccd0594794f7ec62cea3"
+size = "763660"
+usize = "2654715"
+sha1sum = "3c6d14d65e645d9285182a3e6d2b7f7041fc8be2"
 depends = "['audiofile', 'avahi', 'curl', 'ffmpeg>=6.0', 'flac>=1.4.0', 'fluidsynth>=2.0.0', 'fmtlib', 'icu4c>=75.1', 'libao', 'libmad', 'libmms', 'libmodplug', 'libmpdclient', 'libmpg123', 'libnfs>=4.0', 'libsamplerate', 'libshout', 'libsmbclient', 'libsystemd', 'libupnp>=1.14.10', 'liburing', 'opus', 'talloc', 'twolame', 'wavpack', 'wildmidi>=0.4.1', 'yajl>=2.1.0-4', 'zziplib']"
 +++
 ### Description: 

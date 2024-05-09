@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "poedit 3.4.1-1"
-version = "3.4.1-1"
+title = "poedit 3.4.2-1"
+version = "3.4.2-1"
 description = "cross-platform gettext catalogs (.po files) editor"
-date = "2023-11-10T14:07:59"
+date = "2024-04-20T14:01:13"
 aliases = "/packages/3970"
 categories = ['xapps-extra']
 upstreamurl = "http://www.poedit.net/"
 arch = "x86_64"
-size = "1465844"
-usize = "7116343"
-sha1sum = "ddbd30ec5570c8f6267427efe6aa52053a0b4a15"
-depends = "['db>=6.2.23', 'gtkspell3', 'icu4c>=74.1', 'libboost>=1.83.0', 'lucene++', 'pugixml>=1.9-2', 'zip']"
+size = "1463016"
+usize = "7178085"
+sha1sum = "96b0ede2162e780010ac13a30cfcddee37fb961e"
+depends = "['db>=6.2.23', 'gtkspell3', 'icu4c>=75.1', 'libboost>=1.83.0', 'lucene++', 'pugixml>=1.9-2', 'zip']"
 license = "MIT"
 +++
 ### Description: 
@@ -21,10 +21,10 @@ cross-platform gettext catalogs (.po files) editor
 * /usr/bin/poedit
 * /usr/share/applications/net.poedit.Poedit.desktop
 * /usr/share/applications/net.poedit.PoeditURI.desktop
-* /usr/share/doc/poedit-3.4.1/AUTHORS
-* /usr/share/doc/poedit-3.4.1/COPYING
-* /usr/share/doc/poedit-3.4.1/NEWS
-* /usr/share/doc/poedit-3.4.1/README.md
+* /usr/share/doc/poedit-3.4.2/AUTHORS
+* /usr/share/doc/poedit-3.4.2/COPYING
+* /usr/share/doc/poedit-3.4.2/NEWS
+* /usr/share/doc/poedit-3.4.2/README.md
 * /usr/share/icons/hicolor/128x128/apps/net.poedit.Poedit.png
 * /usr/share/icons/hicolor/16x16/apps/net.poedit.Poedit.png
 * /usr/share/icons/hicolor/24x24/apps/net.poedit.Poedit.png

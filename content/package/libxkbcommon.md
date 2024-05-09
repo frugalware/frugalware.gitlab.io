@@ -12,7 +12,7 @@ size = "211028"
 usize = "909041"
 sha1sum = "0060ff12911eb9e79c95d23e1fc5743cadc4b96c"
 depends = "['glibc>=2.34', 'libxcb>=1.12-2', 'xkeyboard-config>=2.18-2']"
-reverse_depends = "['chromium-browser', 'efl', 'enlightenment', 'freerdp', 'glfw', 'gst1-plugins-bad-vulkan', 'gtk+3', 'gtk+4', 'i3', 'i3lock', 'kitty', 'libwpe', 'obs-studio', 'qt6-base', 'terminology', 'weston', 'wine', 'wine-devel', 'wlroots', 'xdotool']"
+reverse_depends = "['chromium-browser', 'efl', 'enlightenment', 'freerdp', 'glfw', 'gst1-plugins-bad-vulkan', 'gtk+3', 'gtk+4', 'i3', 'i3lock', 'kitty', 'libwpe', 'obs-studio', 'qt5-base', 'qt6-base', 'terminology', 'weston', 'wine', 'wine-devel', 'wlroots', 'xdotool']"
 +++
 ### Description: 
 Keymap compiler and support library for the XKB specification.

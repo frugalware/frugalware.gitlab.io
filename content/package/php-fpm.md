@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "php-fpm 8.3.6-1"
-version = "8.3.6-1"
+title = "php-fpm 8.3.6-2"
+version = "8.3.6-2"
 description = "FastCGI Process Manager for PHP."
-date = "2024-04-14T14:22:01"
+date = "2024-04-18T21:24:28"
 aliases = "/packages/219769"
 categories = ['devel-extra']
 upstreamurl = "https://www.php.net"
 arch = "x86_64"
-size = "3149224"
+size = "3146748"
 usize = "21064978"
-sha1sum = "6ad4e78336a252b729b54c31f0b2367b4a88d59c"
+sha1sum = "e325015fa2fccb901609fbe7d060aa2c7be97308"
 depends = "['php=8.3.6', 'systemd']"
 +++
 ### Description: 
