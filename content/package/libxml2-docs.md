@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxml2-docs 2.12.6-5"
-version = "2.12.6-5"
+title = "libxml2-docs 2.12.6-6"
+version = "2.12.6-6"
 description = "Documentation for libxml2"
-date = "2024-05-09T19:46:50"
+date = "2024-05-10T12:55:28"
 aliases = "/packages/14561"
 categories = ['docs-extra']
 upstreamurl = "https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home"
 arch = "x86_64"
-size = "276516"
+size = "276528"
 usize = "3095417"
-sha1sum = "2745d4176f2f2f5ae985341b00058d5b58395d82"
+sha1sum = "843fd73ea5091a865a7a00a2857280229cc89873"
 depends = "['libxml2=2.12.6']"
 +++
 ### Description: 
