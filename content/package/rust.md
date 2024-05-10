@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "rust 1.78.0-1"
-version = "1.78.0-1"
+title = "rust 1.78.0-2"
+version = "1.78.0-2"
 description = "Programming language focused on safety, speed and concurrency"
-date = "2024-05-05T00:58:30"
+date = "2024-05-10T15:17:45"
 aliases = "/packages/218947"
 categories = ['devel']
 upstreamurl = "https://www.rust-lang.org/"
 arch = "x86_64"
-size = "59435076"
-usize = "265553241"
-sha1sum = "0d5824aed38bfb6ea8c4efa52e8f1be52c8f110d"
-depends = "['curl', 'libffi', 'llvm-libs>=17.0.6', 'zlib>=1.2.12']"
+size = "59439180"
+usize = "265595645"
+sha1sum = "cdf0b5b026c95cb3c98d969090713575e793a49e"
+depends = "['curl', 'libffi', 'libxml2', 'llvm-libs>=17.0.6', 'zlib>=1.2.12']"
 reverse_depends = "['corrosion', 'lib32-rust', 'python3-maturin', 'python3-setuptools-rust', 'rust-wasm']"
 +++
 ### Description: 
@@ -1709,6 +1709,7 @@ Programming language focused on safety, speed and concurrency
 * /usr/share/doc/clippy/LICENSE-MIT
 * /usr/share/doc/clippy/README.md
 * /usr/share/doc/rust-1.78.0/COPYRIGHT
+* /usr/share/doc/rust-1.78.0/LICENSE
 * /usr/share/doc/rust-1.78.0/README.md
 * /usr/share/doc/rust-1.78.0/RELEASES.md
 * /usr/share/doc/rust-demangler/LICENSE-APACHE

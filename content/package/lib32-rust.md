@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-rust 1.78.0-1"
-version = "1.78.0-1"
+title = "lib32-rust 1.78.0-2"
+version = "1.78.0-2"
 description = "Programming language focused on safety, speed and concurrency ( 32bit )"
-date = "2024-05-05T00:58:30"
+date = "2024-05-10T15:17:45"
 aliases = "/packages/220243"
 categories = ['lib32-extra']
 upstreamurl = "https://www.rust-lang.org/"
 arch = "x86_64"
-size = "22787724"
-usize = "94510744"
-sha1sum = "8ab81f7e0408125ac6e6fa0f167512cbf631d38e"
+size = "22791072"
+usize = "94510428"
+sha1sum = "aba9f871749d9dcdf6fa841ea29e6eb8948a27b9"
 depends = "['lib32-libffi', 'lib32-xz', 'rust']"
 +++
 ### Description: 

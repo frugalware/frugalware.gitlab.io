@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rust-wasm 1.78.0-1"
-version = "1.78.0-1"
+title = "rust-wasm 1.78.0-2"
+version = "1.78.0-2"
 description = "WebAssembly targets for Rust"
-date = "2024-05-05T00:58:30"
+date = "2024-05-10T15:17:45"
 aliases = "/packages/220953"
 categories = ['devel-extra']
 upstreamurl = "https://www.rust-lang.org/"
 arch = "x86_64"
-size = "34063812"
-usize = "134350853"
-sha1sum = "d8368c508a982c2a2cc8438afb2e9e34c160a26f"
+size = "34037740"
+usize = "134351589"
+sha1sum = "dae4d8c9dcbed5aa440c573c87d766d3eec473e3"
 depends = "['lld', 'rust']"
 +++
 ### Description: 
