@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openjpeg 2.5.2-1"
-version = "2.5.2-1"
+title = "openjpeg 2.5.2-2"
+version = "2.5.2-2"
 description = "An open-source JPEG 2000 codec written in C"
-date = "2024-03-21T16:32:56"
+date = "2024-05-10T14:49:27"
 aliases = "/packages/119381"
 categories = ['xlib']
 upstreamurl = "http://www.openjpeg.org/"
 arch = "x86_64"
-size = "1817472"
-usize = "2390431"
-sha1sum = "908f96fba74746534713ac29c61b4a5eb13f385c"
+size = "1823108"
+usize = "2427247"
+sha1sum = "0b12b83f8f5afca0aeb713860ca09869cc5ddb93"
 depends = "['lcms2>=2.8-2', 'libpng>=1.6.25', 'libtiff>=4.0.6-2']"
 reverse_depends = "['blender', 'efl', 'ffmpeg', 'freeimage', 'gdcm', 'ghostscript', 'gst1-plugins-bad', 'imagemagick', 'libgs', 'mupdf', 'openimageio', 'openslide', 'poppler', 'python3-pillow', 'webkit-gtk3']"
 +++

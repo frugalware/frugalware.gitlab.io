@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libaudit 4.0.1-1"
-version = "4.0.1-1"
+title = "libaudit 4.0.1-2"
+version = "4.0.1-2"
 description = "Dynamic library for security auditing"
-date = "2024-03-28T17:45:05"
+date = "2024-05-10T14:25:32"
 aliases = "/packages/135784"
 categories = ['base']
 upstreamurl = "http://people.redhat.com/sgrubb/audit"
 arch = "x86_64"
-size = "1140372"
-usize = "1622628"
-sha1sum = "bbb967543be39ea1b7d87ebc9cc928f6f28fc589"
+size = "1136264"
+usize = "1616460"
+sha1sum = "211ee8987a7553cf12e031624be79b154a711d94"
 depends = "['glibc>=2.24-8']"
 reverse_depends = "['audit', 'audit-go', 'pam', 'usbguard']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libjpeg-turbo 3.0.1-1"
-version = "3.0.1-1"
+title = "lib32-libjpeg-turbo 3.0.1-2"
+version = "3.0.1-2"
 description = "JPEG image codec that uses SIMD instructions ( 32bit )"
-date = "2023-11-06T14:50:35"
+date = "2024-05-10T14:36:43"
 aliases = "/packages/219547"
 categories = ['lib32-extra']
 upstreamurl = "https://www.libjpeg-turbo.org/"
 arch = "x86_64"
-size = "355124"
-usize = "1978999"
-sha1sum = "5495c7edccd7064e33ea1f4b66c320db84e0121d"
+size = "356728"
+usize = "1987333"
+sha1sum = "b390f26a11ce1b9767b4d203f6a95644284b5c52"
 depends = "[]"
 reverse_depends = "['lib32-gdk-pixbuf2', 'lib32-imlib2', 'lib32-lcms2', 'lib32-libwebp', 'lib32-v4l-utils']"
 +++

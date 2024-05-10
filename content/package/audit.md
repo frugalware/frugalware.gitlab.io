@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "audit 4.0.1-1"
-version = "4.0.1-1"
+title = "audit 4.0.1-2"
+version = "4.0.1-2"
 description = "Linux Auditing Framework."
-date = "2024-03-28T17:45:05"
+date = "2024-05-10T14:25:32"
 aliases = "/packages/135783"
 categories = ['apps-extra']
 upstreamurl = "http://people.redhat.com/sgrubb/audit"
 arch = "x86_64"
-size = "290460"
-usize = "843507"
-sha1sum = "f8cfa15e8e9b56a85a3d751bcff27a454415d1c3"
+size = "293648"
+usize = "854865"
+sha1sum = "31edb723328f43fae44ade648afbb6f6cbcd6087"
 depends = "['libaudit>=4.0.1', 'libcap-ng', 'libldap>=2.6.2']"
 reverse_depends = "['usbguard']"
 +++
@@ -126,6 +126,7 @@ Linux Auditing Framework.
 * /usr/share/doc/audit-4.0.1/COPYING
 * /usr/share/doc/audit-4.0.1/COPYING.LIB
 * /usr/share/doc/audit-4.0.1/INSTALL
+* /usr/share/doc/audit-4.0.1/LICENSE
 * /usr/share/doc/audit-4.0.1/README.md
 * /usr/share/doc/audit-4.0.1/THANKS
 * /usr/share/doc/audit-4.0.1/TODO

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libjpeg-turbo 3.0.1-1"
-version = "3.0.1-1"
+title = "libjpeg-turbo 3.0.1-2"
+version = "3.0.1-2"
 description = "JPEG image codec that uses SIMD instructions"
-date = "2023-11-06T14:50:35"
+date = "2024-05-10T14:36:43"
 aliases = "/packages/219546"
 categories = ['lib']
 upstreamurl = "https://www.libjpeg-turbo.org/"
 arch = "x86_64"
-size = "3620128"
-usize = "9911972"
-sha1sum = "e2db26259d60097eff4fa7e7268bb7d564835864"
+size = "3577008"
+usize = "9898118"
+sha1sum = "cb1f999f383621afa096a648500afd888a92f433"
 depends = "['glibc>=2.36']"
 reverse_depends = "['argyllcms', 'blender', 'chromium-browser', 'clightd', 'darktable', 'dcraw', 'djvulibre', 'dlib', 'efl', 'emacs', 'enlightenment', 'fltk', 'fontforge', 'fox', 'freeorion', 'gd', 'gdal', 'gdk-pixbuf2', 'gegl', 'ghostscript', 'gst1-plugins-bad', 'gst1-plugins-good-jpeg', 'gst1-plugins-good-video4linux2', 'hplip-driver', 'imagemagick', 'imlib2', 'insight-toolkit', 'jasper', 'lcms', 'lcms2', 'leptonica', 'libcamera', 'libgdiplus', 'libgphoto2', 'libopenraw', 'libpano13', 'libraw', 'libreoffice', 'libvncserver', 'libwebp', 'libyuv', 'mencoder', 'minidlna', 'mjpegtools', 'mplayer', 'mpv', 'mupdf', 'mupdf-gl', 'neatvnc', 'netpbm', 'openclonk', 'opencv', 'openjre-x', 'openscenegraph', 'php', 'podofo', 'poppler', 'qemu', 'qpdf', 'qt5-base', 'qt5-webengine', 'qt6-base', 'qt6-webengine', 'r', 'sane-backends', 'scummvm', 'sfml', 'silly', 'spice', 'spice-glib', 'stepmania', 'supertuxkart', 'terminology', 'ufoai', 'v4l-utils', 'vigra', 'x11vnc', 'xine-ui', 'xrdp']"
 +++

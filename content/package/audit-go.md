@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "audit-go 4.0.1-1"
-version = "4.0.1-1"
+title = "audit-go 4.0.1-2"
+version = "4.0.1-2"
 description = "Go bindings for audit"
-date = "2024-03-28T17:45:05"
+date = "2024-05-10T14:25:32"
 aliases = "/packages/218986"
 categories = ['devel-extra']
 upstreamurl = "http://people.redhat.com/sgrubb/audit"
 arch = "x86_64"
-size = "4132"
+size = "4156"
 usize = "1641"
-sha1sum = "2987775cfd704664bb8768d2e4ba72394de6f860"
+sha1sum = "64aa19faee871d09cfe10421c14573584db26aa1"
 depends = "['go', 'libaudit>=4.0.1']"
 +++
 ### Description: 
