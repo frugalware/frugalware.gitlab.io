@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libcroco 0.6.13-8"
-version = "0.6.13-8"
+title = "libcroco 0.6.13-10"
+version = "0.6.13-10"
 description = "A standalone CSS2 parsing and manipulation library"
-date = "2023-10-22T12:19:16"
+date = "2024-05-10T10:01:32"
 aliases = "/packages/3153"
-categories = ['base']
+categories = ['lib']
 upstreamurl = "https://gitlab.gnome.org/Archive/libcroco"
 arch = "x86_64"
-size = "117692"
-usize = "475008"
-sha1sum = "ee50a56715282961c5c082b6b88baea10b4a4060"
+size = "118864"
+usize = "475080"
+sha1sum = "3337c4a10a5692b55d5a809c0f0d96bde7581805"
 depends = "['glib2>=2.70', 'libxml2>=2.9.4-3']"
 reverse_depends = "['gettext', 'librsvg']"
 +++

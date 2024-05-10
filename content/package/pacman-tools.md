@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pacman-tools 1.3.5-7"
-version = "1.3.5-7"
+title = "pacman-tools 1.3.5-8"
+version = "1.3.5-8"
 description = "Tools for developers for managing packages"
-date = "2024-01-30T10:03:01"
+date = "2024-05-10T09:55:03"
 aliases = "/packages/2424"
 categories = ['devel']
 upstreamurl = "https://ftp.frugalware.org/pub/other/pacman-tools"
 arch = "x86_64"
-size = "223084"
-usize = "571300"
-sha1sum = "9474ec61e19f57b9bbada0bbb9d8e43d296ea599"
+size = "223160"
+usize = "571394"
+sha1sum = "bf5a6c6684f6242ae5eb02d0ac98c8f5748ed94b"
 depends = "['bash', 'glib2>=2.16.4-2', 'libxml2>=2.6.32-2', 'openssl>=1.0.0', 'pacman-g2>=3.9.0-31', 'perl>=5.34', 'python3', 'shadow', 'wget']"
 +++
 ### Description: 
@@ -100,6 +100,7 @@ Tools for developers for managing packages
 * /usr/share/man/man3/kernel-version.sh.3.gz
 * /usr/share/man/man3/kernel.sh.3.gz
 * /usr/share/man/man3/kf5-version.sh.3.gz
+* /usr/share/man/man3/kf6-version.sh.3.gz
 * /usr/share/man/man3/launchpad.sh.3.gz
 * /usr/share/man/man3/meson.sh.3.gz
 * /usr/share/man/man3/mono.sh.3.gz

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "bison 3.8.2-3"
-version = "3.8.2-3"
+title = "bison 3.8.2-4"
+version = "3.8.2-4"
 description = "A general-purpose parser generator."
-date = "2023-08-23T14:53:25"
+date = "2024-05-10T09:51:44"
 aliases = "/packages/2351"
 categories = ['devel']
 upstreamurl = "http://www.gnu.org/software/bison/bison.html"
 arch = "x86_64"
-size = "965048"
-usize = "3864514"
-sha1sum = "6a05a4c28c6d7f0a9bd5ae26409f8cde3fac613f"
-depends = "['gettext']"
+size = "965196"
+usize = "3862533"
+sha1sum = "19b27fa289315f59a4ef1c29628576374613165c"
+depends = "['libtextstyle']"
 +++
 ### Description: 
 A general-purpose parser generator.
@@ -105,7 +105,6 @@ A general-purpose parser generator.
 * /usr/share/doc/bison-3.8.2/NEWS
 * /usr/share/doc/bison-3.8.2/README
 * /usr/share/doc/bison-3.8.2/README-alpha
-* /usr/share/doc/bison-3.8.2/README.md
 * /usr/share/doc/bison-3.8.2/THANKS
 * /usr/share/doc/bison-3.8.2/TODO
 * /usr/share/info/bison.info.gz

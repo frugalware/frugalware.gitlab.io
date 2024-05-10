@@ -12,7 +12,7 @@ size = "6798268"
 usize = "10792199"
 sha1sum = "26772f9e27bc4f585e59e7ca280d68ddc77bfc93"
 depends = "['glibc>=2.35', 'lib32-gmp>=6.1.2-9']"
-reverse_depends = "['lib32-gettext', 'lib32-lame', 'lib32-libcaca', 'lib32-libedit', 'lib32-llvm-libs', 'lib32-pcre2', 'lib32-readline', 'lib32-sqlite3', 'lib32-util-linux', 'lib32-vkd3d', 'wine', 'wine-devel']"
+reverse_depends = "['lib32-gettext', 'lib32-lame', 'lib32-libcaca', 'lib32-libedit', 'lib32-libtextstyle', 'lib32-llvm-libs', 'lib32-pcre2', 'lib32-readline', 'lib32-sqlite3', 'lib32-util-linux', 'lib32-vkd3d', 'wine', 'wine-devel']"
 +++
 ### Description: 
 A System V curses emulation library ( 32bit )
