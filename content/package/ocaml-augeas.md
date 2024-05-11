@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ocaml-augeas 0.6-3"
-version = "0.6-3"
+title = "ocaml-augeas 0.6-4"
+version = "0.6-4"
 description = "OCaml bindings for Augeas"
-date = "2023-12-19T12:42:09"
+date = "2024-05-11T09:58:46"
 aliases = "/packages/221131"
 categories = ['lib-extra']
 upstreamurl = "https://people.redhat.com/~rjones/augeas"
 arch = "x86_64"
-size = "63960"
-usize = "123273"
-sha1sum = "e4d3424ed0d5ad0a50edd2529370010c270e6645"
+size = "63728"
+usize = "123089"
+sha1sum = "84b8de4683c99efe3bbf7a4634b065b4dbbc5bb3"
 depends = "['augeas']"
 reverse_depends = "['libguestfs-ocaml']"
 +++

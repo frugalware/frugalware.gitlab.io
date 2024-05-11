@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cppo 1.6.9-2"
-version = "1.6.9-2"
+title = "cppo 1.6.9-3"
+version = "1.6.9-3"
 description = "An equivalent of the C preprocessor for OCaml programs"
-date = "2023-12-19T12:05:43"
+date = "2024-05-11T09:53:54"
 aliases = "/packages/220493"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocaml-community/cppo"
 arch = "x86_64"
-size = "505500"
-usize = "1942518"
-sha1sum = "df7a492dee7d4aff9f4dc28b0217ab0f45a175fb"
+size = "505548"
+usize = "1942558"
+sha1sum = "dd178bb07147ea4665dede4e2653d85d221c482c"
 depends = "['ocaml>=5.1.1']"
 +++
 ### Description: 

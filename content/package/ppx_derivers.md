@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ppx_derivers 1.2.1-2"
-version = "1.2.1-2"
+title = "ppx_derivers 1.2.1-3"
+version = "1.2.1-3"
 description = "Shared deriving plugin registry"
-date = "2023-12-19T13:07:07"
+date = "2024-05-11T09:58:05"
 aliases = "/packages/221066"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocaml-ppx/ppx_derivers"
 arch = "x86_64"
-size = "17036"
+size = "17108"
 usize = "43676"
-sha1sum = "f998dc8db6a6d077b2c944164e85886ae66aacd0"
+sha1sum = "fb9c61e1d1362dc720f68414e9aa818bd36df289"
 depends = "['ocaml>=5.1.1']"
 reverse_depends = "['ppxlib']"
 +++

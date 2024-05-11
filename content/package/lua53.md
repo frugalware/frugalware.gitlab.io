@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lua53 5.3.6-3"
-version = "5.3.6-3"
+title = "lua53 5.3.6-4"
+version = "5.3.6-4"
 description = "A powerful light-weight programming language designed for extending applications."
-date = "2021-12-19T19:23:59"
+date = "2024-05-11T09:57:35"
 aliases = "/packages/220294"
 categories = ['devel']
 upstreamurl = "http://www.lua.org"
 arch = "x86_64"
-size = "1433316"
-usize = "2282029"
-sha1sum = "f29e4d5c91b6b09153905d011cb4fe32b82b4541"
+size = "1425844"
+usize = "2184239"
+sha1sum = "db1a2bc83d702f49dc43bf7948f4dbde48ed8c85"
 depends = "['glibc>=2.34', 'ncurses>=6.0-18', 'readline>=8.0']"
 reverse_depends = "['apache']"
 +++

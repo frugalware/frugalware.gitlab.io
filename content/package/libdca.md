@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libdca 0.0.7-2"
-version = "0.0.7-2"
+title = "libdca 0.0.7-3"
+version = "0.0.7-3"
 description = "libdca is a free library for decoding DTS Coherent Acoustics streams."
-date = "2022-01-20T09:18:28"
+date = "2024-05-11T09:53:17"
 aliases = "/packages/9273"
 categories = ['multimedia']
 upstreamurl = "http://developers.videolan.org/libdca.html"
 arch = "x86_64"
-size = "110972"
-usize = "277168"
-sha1sum = "a85d01398288a506781e00f570282b33719d9d95"
+size = "113716"
+usize = "289074"
+sha1sum = "48610b9d0ef028e1638d6c286851d0948dcdb4f8"
 depends = "['glibc>=2.34']"
 reverse_depends = "['gst1-plugins-bad-dts', 'mpv', 'vlc-dts-ca', 'xine-lib']"
 license = "GPL"

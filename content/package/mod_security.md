@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mod_security 3.0.4-1"
-version = "3.0.4-1"
+title = "mod_security 3.0.4-2"
+version = "3.0.4-2"
 description = "A security filter DSO for the popular Apache httpd server"
-date = "2020-08-17T13:16:32"
+date = "2024-05-11T09:52:10"
 aliases = "/packages/10168"
 categories = ['network-extra']
 upstreamurl = "http://www.modsecurity.org"
 arch = "x86_64"
-size = "52544684"
-usize = "211946859"
-sha1sum = "a5a3812097b1a6d971b8881c9819491dbbd273d7"
+size = "49530172"
+usize = "99100949"
+sha1sum = "ef4f495102211ff43030a7929a4f199960e6eec0"
 depends = "['apache>=2.4.35', 'apr-util', 'curl', 'geoip', 'libxml2', 'lua>=5.4', 'owasp-modsecurity-crs', 'yajl']"
 +++
 ### Description: 

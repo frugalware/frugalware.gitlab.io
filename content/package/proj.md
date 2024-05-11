@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "proj 8.2.1-1"
-version = "8.2.1-1"
+title = "proj 9.4.0-1"
+version = "9.4.0-1"
 description = "Cartographic projection software"
-date = "2022-02-10T09:26:30"
+date = "2024-05-11T09:47:09"
 aliases = "/packages/5176"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/OSGeo//proj"
 arch = "x86_64"
-size = "21584396"
-usize = "42047131"
-sha1sum = "601f0907454c60f3a09c75f0976a866a8bfa779c"
+size = "2563432"
+usize = "14542849"
+sha1sum = "5e78142ba2042a3f85c562cf59221b18a846e2a2"
 depends = "['curl', 'libtiff']"
 reverse_depends = "['gdal', 'libgeotiff']"
 +++
@@ -31,6 +31,7 @@ Cartographic projection software
 * /usr/include/proj.h
 * /usr/include/proj/common.hpp
 * /usr/include/proj/coordinateoperation.hpp
+* /usr/include/proj/coordinates.hpp
 * /usr/include/proj/coordinatesystem.hpp
 * /usr/include/proj/crs.hpp
 * /usr/include/proj/datum.hpp
@@ -41,19 +42,32 @@ Cartographic projection software
 * /usr/include/proj_constants.h
 * /usr/include/proj_experimental.h
 * /usr/include/proj_symbol_rename.h
-* /usr/lib/libproj.a
+* /usr/lib/cmake/proj/proj-config-version.cmake
+* /usr/lib/cmake/proj/proj-config.cmake
+* /usr/lib/cmake/proj/proj-targets-release.cmake
+* /usr/lib/cmake/proj/proj-targets.cmake
+* /usr/lib/cmake/proj/proj4-targets-release.cmake
+* /usr/lib/cmake/proj/proj4-targets.cmake
+* /usr/lib/cmake/proj4/proj-targets-release.cmake
+* /usr/lib/cmake/proj4/proj-targets.cmake
+* /usr/lib/cmake/proj4/proj4-config-version.cmake
+* /usr/lib/cmake/proj4/proj4-config.cmake
+* /usr/lib/cmake/proj4/proj4-targets-release.cmake
+* /usr/lib/cmake/proj4/proj4-targets.cmake
 * /usr/lib/libproj.so
-* /usr/lib/libproj.so.22
-* /usr/lib/libproj.so.22.2.1
+* /usr/lib/libproj.so.25
+* /usr/lib/libproj.so.25.9.4.0
 * /usr/lib/pkgconfig/proj.pc
-* /usr/share/doc/proj-8.2.1/AUTHORS
-* /usr/share/doc/proj-8.2.1/ChangeLog
-* /usr/share/doc/proj-8.2.1/COPYING
-* /usr/share/doc/proj-8.2.1/HOWTO-RELEASE
-* /usr/share/doc/proj-8.2.1/INSTALL
-* /usr/share/doc/proj-8.2.1/NEWS
-* /usr/share/doc/proj-8.2.1/README
-* /usr/share/doc/proj-8.2.1/README.md
+* /usr/share/doc/proj-9.4.0/AUTHORS
+* /usr/share/doc/proj-9.4.0/ChangeLog
+* /usr/share/doc/proj-9.4.0/COPYING
+* /usr/share/doc/proj-9.4.0/HOWTO-RELEASE
+* /usr/share/doc/proj-9.4.0/INSTALL
+* /usr/share/doc/proj-9.4.0/NEWS
+* /usr/share/doc/proj-9.4.0/README.md
+* /usr/share/doc/proj/AUTHORS
+* /usr/share/doc/proj/COPYING
+* /usr/share/doc/proj/NEWS
 * /usr/share/man/man1/cct.1.gz
 * /usr/share/man/man1/cs2cs.1.gz
 * /usr/share/man/man1/geod.1.gz

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vc-intrinsics 0.17.0-1"
-version = "0.17.0-1"
+title = "vc-intrinsics 0.17.0-2"
+version = "0.17.0-2"
 description = "Set of new intrinsics on top of core LLVM IR instructions that represent SIMD semantics of a program targeting GPU"
-date = "2024-02-10T12:46:16"
+date = "2024-05-11T09:48:53"
 aliases = "/packages/220563"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/intel/vc-intrinsics"
 arch = "x86_64"
-size = "113416"
-usize = "756053"
-sha1sum = "eae6368fc5261a4a518a4b88df36e073353c0f5e"
+size = "114052"
+usize = "747649"
+sha1sum = "5e8c9e43e1b482846f040f89768612ed3d97fcc2"
 depends = "['glibc']"
 +++
 ### Description: 
