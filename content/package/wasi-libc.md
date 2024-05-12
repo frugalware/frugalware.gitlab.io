@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wasi-libc 21-1"
-version = "21-1"
+title = "wasi-libc 21-2"
+version = "21-2"
 description = "WASI libc implementation for WebAssembly"
-date = "2024-02-09T14:43:00"
+date = "2024-05-12T14:23:35"
 aliases = "/packages/220950"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/WebAssembly/wasi-libc"
 arch = "x86_64"
-size = "392564"
+size = "395300"
 usize = "1419663"
-sha1sum = "ad6748b177cb632abb09edc5a937bbccb9db708c"
+sha1sum = "078ba728da331f622c881cb030df658827a13f6a"
 depends = "['glibc']"
 reverse_depends = "['wasi-compiler-rt']"
 +++

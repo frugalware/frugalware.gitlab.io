@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kstars 3.7.0-1"
-version = "3.7.0-1"
+title = "kstars 3.7.0-2"
+version = "3.7.0-2"
 description = "Desktop Planetarium."
-date = "2024-04-08T09:24:52"
+date = "2024-05-12T14:18:23"
 aliases = "/packages/217862"
 categories = ['kde5-extra']
 upstreamurl = "https://edu.kde.org/kstars/"
 arch = "x86_64"
-size = "119560556"
-usize = "183913339"
-sha1sum = "596ff658e759577b33f64808b131e1ba27e67db7"
+size = "119533000"
+usize = "184150091"
+sha1sum = "3bb811c1eb034028d4e9e23c404aad54c08166da"
 depends = "['cfitsio>=4.2.0', 'eigen', 'gsl', 'kio5>=5.115.0', 'knewstuff5>=5.115.0', 'knotifyconfig5>=5.115.0', 'kplotting5>=5.115.0', 'libraw>=0.21.1', 'qt5-datavis3d>=5.15.12', 'qt5-websockets>=5.15.12', 'qtkeychain-qt5', 'stellarsolver']"
 +++
 ### Description: 
