@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lwt 5.7.0-1"
-version = "5.7.0-1"
+title = "lwt 5.7.0-2"
+version = "5.7.0-2"
 description = "A library for cooperative threads in OCaml"
-date = "2023-12-19T14:33:50"
+date = "2024-05-12T19:42:25"
 aliases = "/packages/221071"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocsigen/lwt"
 arch = "x86_64"
-size = "9208332"
-usize = "30804285"
-sha1sum = "042f7737c93dfada0618db8c87682d4b950a6138"
+size = "9171592"
+usize = "30716869"
+sha1sum = "1cd5c52c6288e79aaa5171345524608f340431c2"
 depends = "['domainslib', 'ocaml-luv', 'ocaml-react', 'ocplib-endian', 'ppxlib']"
 reverse_depends = "['ounit']"
 +++
