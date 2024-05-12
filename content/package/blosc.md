@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "blosc 1.21.1-1"
-version = "1.21.1-1"
+title = "blosc 1.21.1-2"
+version = "1.21.1-2"
 description = "A blocking, shuffling and loss-less compression library."
-date = "2022-02-10T07:44:10"
+date = "2024-05-12T13:25:45"
 aliases = "/packages/220208"
 categories = ['xlib-extra']
 upstreamurl = "http://blosc.org/"
 arch = "x86_64"
-size = "330124"
-usize = "551484"
-sha1sum = "abe802792fb00e72f16a5de7f3cb051e8829f9d4"
+size = "303684"
+usize = "438130"
+sha1sum = "9fe8a486e79154cfa44b72f452703da8050fc4f5"
 depends = "['snappy', 'zstd']"
 reverse_depends = "['adios2', 'openvdb']"
 +++
@@ -25,16 +25,7 @@ A blocking, shuffling and loss-less compression library.
 * /usr/lib/libblosc.so.1
 * /usr/lib/libblosc.so.1.21.1
 * /usr/lib/pkgconfig/blosc.pc
-* /usr/share/doc/blosc-1.21.1/AUTHORS
-* /usr/share/doc/blosc-1.21.1/ChangeLog
-* /usr/share/doc/blosc-1.21.1/COPYING
-* /usr/share/doc/blosc-1.21.1/INSTALL
-* /usr/share/doc/blosc-1.21.1/LICENSE
-* /usr/share/doc/blosc-1.21.1/NEWS
-* /usr/share/doc/blosc-1.21.1/README
 * /usr/share/doc/blosc-1.21.1/README.md
 * /usr/share/doc/blosc-1.21.1/README_CHUNK_FORMAT.rst
 * /usr/share/doc/blosc-1.21.1/README_THREADED.rst
 * /usr/share/doc/blosc-1.21.1/RELEASE_NOTES.rst
-* /usr/share/doc/blosc-1.21.1/TODO
-* /usr/share/doc/blosc-1.21.1/VERSION

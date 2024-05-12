@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gcc-12 12.3.0-2"
-version = "12.3.0-2"
+title = "gcc-12 12.3.0-3"
+version = "12.3.0-3"
 description = "The GNU Compiler Collection"
-date = "2024-02-14T20:25:33"
+date = "2024-05-12T14:12:06"
 aliases = "/packages/221235"
 categories = ['devel-extra']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "87811144"
-usize = "357159052"
-sha1sum = "8f1dd7a0488a08114f48016aa5c5bc3822d4970d"
+size = "87811028"
+usize = "357154236"
+sha1sum = "48c7119e1d829dcb89f25142986e61dd8f0374be"
 depends = "['binutils>=2.41', 'glibc>=2.38', 'libisl', 'libmpc>=1.1.0-11', 'zlib>=1.2.11-11', 'zstd']"
 +++
 ### Description: 

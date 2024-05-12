@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ocaml-extlib 1.7.9-5"
-version = "1.7.9-5"
+title = "ocaml-extlib 1.7.9-6"
+version = "1.7.9-6"
 description = "OCaml standard library extensions"
-date = "2023-12-19T12:15:14"
+date = "2024-05-12T13:25:08"
 aliases = "/packages/220530"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ygrek/ocaml-extlib"
 arch = "x86_64"
-size = "1650932"
+size = "1650648"
 usize = "3153198"
-sha1sum = "3ce6f2bcff3bd3b8e50b1a669027f3d827825707"
+sha1sum = "c37ed7fde25861d63fddb98405b149bc71ceb986"
 depends = "['ocaml>=5.1.1']"
 reverse_depends = "['cudf']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ode 0.13-6"
-version = "0.13-6"
+title = "ode 0.13-7"
+version = "0.13-7"
 description = "ODE is an open source, high performance library for simulating rigid body dynamics."
-date = "2022-02-08T18:37:54"
+date = "2024-05-12T13:24:05"
 aliases = "/packages/15041"
 categories = ['lib-extra']
 upstreamurl = "http://ode.org/"
 arch = "x86_64"
-size = "4356476"
-usize = "5823604"
-sha1sum = "77d15a5933118edf200082fd619c6a10c9a5cba2"
+size = "4350096"
+usize = "5720638"
+sha1sum = "687b6f456e5df5d94364fae241452409eafd8d1b"
 depends = "['libstdc++>=9.1.0-3']"
 reverse_depends = "['alienarena']"
 +++
