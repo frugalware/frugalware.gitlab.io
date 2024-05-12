@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "suitesparse 7.7.0-1"
-version = "7.7.0-1"
+title = "suitesparse 7.7.0-2"
+version = "7.7.0-2"
 description = "A collection of sparse matrix libraries"
-date = "2024-04-30T17:31:08"
+date = "2024-05-12T20:17:28"
 aliases = "/packages/220120"
 categories = ['lib-extra']
 upstreamurl = "http://faculty.cse.tamu.edu/davis/suitesparse.html"
 arch = "x86_64"
-size = "44405056"
-usize = "212491873"
-sha1sum = "5ead473ac2dd25f16e3790da4c56840694fe742f"
+size = "45067072"
+usize = "218410323"
+sha1sum = "cdabcee576d30f80f722665d1cb620bd4e15634a"
 depends = "['libgomp', 'libstdc++>=11.2', 'openblas']"
 reverse_depends = "['ceres-solver', 'gegl', 'julia']"
 +++

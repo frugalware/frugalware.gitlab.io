@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "frobby 0.9.0-3"
-version = "0.9.0-3"
+title = "frobby 0.9.5-1"
+version = "0.9.5-1"
 description = "A software system for computations with monomial ideals"
-date = "2018-02-11T02:45:43"
+date = "2024-05-12T20:45:26"
 aliases = "/packages/73384"
 categories = ['apps-extra']
-upstreamurl = "http://www.broune.com/frobby/"
+upstreamurl = "https://github.com/Macaulay2/frobby"
 arch = "x86_64"
-size = "2040880"
-usize = "21413239"
-sha1sum = "0831cdaa8057b89baa347018ed3c113ffc951d1a"
+size = "10255132"
+usize = "17923276"
+sha1sum = "3e8efdb993da27aebd463f0694fd17e1a7795214"
 depends = "['gmp>=5.0.1']"
 +++
 ### Description: 
@@ -22,4 +22,5 @@ A software system for computations with monomial ideals
 * /usr/include/stdinc.h
 * /usr/lib/libfrobby.a
 * /usr/lib/libfrobby.so
-* /usr/share/doc/frobby-0.9.0/COPYING
+* /usr/share/doc/frobby-0.9.5/COPYING
+* /usr/share/doc/frobby-0.9.5/README

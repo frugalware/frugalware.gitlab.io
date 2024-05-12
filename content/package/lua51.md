@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lua51 5.1.5-4"
-version = "5.1.5-4"
+title = "lua51 5.1.5-5"
+version = "5.1.5-5"
 description = "A powerful light-weight programming language designed for extending applications."
-date = "2022-02-13T20:34:05"
+date = "2024-05-12T20:25:21"
 aliases = "/packages/219739"
 categories = ['devel-extra']
 upstreamurl = "http://www.lua.org"
 arch = "x86_64"
-size = "1125240"
-usize = "1795725"
-sha1sum = "59b165695b6dfd00563d4e3dd57f54e743f00ce4"
+size = "1129600"
+usize = "1780240"
+sha1sum = "37e2a4064fc8508907ee4babc74eaaa36aa5c0b7"
 depends = "['glibc>=2.34', 'ncurses>=6.0-18', 'readline>=8.0']"
 reverse_depends = "['libmpack-lua', 'lua51-lpeg', 'wireshark', 'wireshark-qt']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "domainslib 0.5.1-2"
-version = "0.5.1-2"
+title = "domainslib 0.5.1-3"
+version = "0.5.1-3"
 description = "Nested-parallel programming library for OCaml"
-date = "2023-12-19T13:48:04"
+date = "2024-05-12T20:22:32"
 aliases = "/packages/221063"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocaml-multicore/domainslib"
 arch = "x86_64"
-size = "214612"
+size = "214640"
 usize = "440943"
-sha1sum = "8403d79dbb46a4eb5f82a82957d17e6442fb46e2"
+sha1sum = "ef9d18a1791e1ab3a03eafb2dfce4347e4d351aa"
 depends = "['domain-local-await', 'saturn']"
 reverse_depends = "['lwt']"
 +++

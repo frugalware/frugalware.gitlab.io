@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tcc 0.9.27.g4a03f1f-1"
-version = "0.9.27.g4a03f1f-1"
+title = "tcc 0.9.27.g4a03f1f-2"
+version = "0.9.27.g4a03f1f-2"
 description = "A small and fast C compiler for x86."
-date = "2022-03-28T15:27:33"
+date = "2024-05-12T20:25:54"
 aliases = "/packages/60259"
 categories = ['devel-extra']
 upstreamurl = "http://www.tinycc.org"
 arch = "x86_64"
-size = "1378528"
-usize = "1909560"
-sha1sum = "238de4bba157488cdcb3a0f6c4eb4ace269aa8e3"
+size = "294192"
+usize = "1340124"
+sha1sum = "7f9dfa5905cf2089d8b5f6c0d0176f768d8cac9c"
 depends = "['glibc>=2.34']"
 +++
 ### Description: 
@@ -35,6 +35,7 @@ A small and fast C compiler for x86.
 * /usr/lib/tcc/include/tgmath.h
 * /usr/lib/tcc/include/varargs.h
 * /usr/lib/tcc/libtcc1.a
+* /usr/lib/tcc/runmain.o
 * /usr/share/doc/tcc-0.9.27.g4a03f1f/Changelog
 * /usr/share/doc/tcc-0.9.27.g4a03f1f/COPYING
 * /usr/share/doc/tcc-0.9.27.g4a03f1f/README

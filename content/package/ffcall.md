@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ffcall 2.4-1"
-version = "2.4-1"
+title = "ffcall 2.4-2"
+version = "2.4-2"
 description = "ffcall is a library which can be used to build foreign function call interfaces in embedded interpreters."
-date = "2022-01-14T14:02:40"
+date = "2024-05-12T20:20:47"
 aliases = "/packages/49555"
 categories = ['lib-extra']
 upstreamurl = "https://ftp.gnu.org/gnu/libffcall/"
 arch = "x86_64"
-size = "338396"
-usize = "1444802"
-sha1sum = "c8b565dfda8373a64115a6d1a67387e86085bd90"
+size = "335332"
+usize = "1395863"
+sha1sum = "4f3c13ab3d4b5e28c3c8bbe6cef6f3ea0ce57455"
 depends = "['glibc>=2.34']"
 reverse_depends = "['clisp', 'texlive-xindy']"
 +++
