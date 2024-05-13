@@ -12,7 +12,7 @@ size = "2002436"
 usize = "7797211"
 sha1sum = "980d5b596d714070de34de4d72c86576f3a44e83"
 depends = "['icu4c>=75.1', 'python3>=3.12', 'zstd']"
-reverse_depends = "['alembic', 'alicevision', 'blender', 'calamares-frugalware', 'cgal', 'cpp-hocon', 'cppgir', 'cryfs', 'eiskaltdc', 'enblend-enfuse', 'encfs', 'facter', 'freeorion', 'inkscape', 'innoextract', 'kdevelop', 'kdiff3', 'kicad', 'kig', 'libabw', 'libappimage', 'libboost-mpi', 'libcmis', 'libe-book', 'libetonyek', 'libftdi', 'liblas', 'liborcus', 'libpst-python', 'librevenge', 'libtorrent-rasterbar-python', 'lucene++', 'luminance-hdr', 'lyx', 'mkvtoolnix', 'mupen64plus', 'ncmpc', 'ncmpcpp', 'ogre', 'opencascade', 'opengv', 'openimageio', 'openscad', 'openshadinglanguage', 'openvdb', 'pdns', 'pdns-recursor', 'performous', 'poedit', 'qbittorrent', 'quassel', 'rocs', 'source-highlight', 'spring', 'supertux', 'telegram-desktop', 'vtk', 'wesnoth']"
+reverse_depends = "['alembic', 'alicevision', 'blender', 'calamares-frugalware', 'cgal', 'cppgir', 'cryfs', 'eiskaltdc', 'enblend-enfuse', 'encfs', 'facter', 'freeorion', 'inkscape', 'innoextract', 'kdevelop', 'kdiff3', 'kicad', 'kig', 'libabw', 'libappimage', 'libboost-mpi', 'libcmis', 'libe-book', 'libetonyek', 'libftdi', 'liblas', 'liborcus', 'libpst-python', 'librevenge', 'libtorrent-rasterbar-python', 'lucene++', 'luminance-hdr', 'lyx', 'mkvtoolnix', 'mupen64plus', 'ncmpc', 'ncmpcpp', 'ogre', 'opencascade', 'opengv', 'openimageio', 'openscad', 'openshadinglanguage', 'openvdb', 'pdns', 'pdns-recursor', 'performous', 'poedit', 'qbittorrent', 'quassel', 'rocs', 'source-highlight', 'spring', 'supertux', 'telegram-desktop', 'vtk', 'wesnoth']"
 +++
 ### Description: 
 Boost libraries.
