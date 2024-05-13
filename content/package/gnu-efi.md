@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gnu-efi 3.0.18-1"
-version = "3.0.18-1"
+title = "gnu-efi 3.0.18-2"
+version = "3.0.18-2"
 description = "EFI Development Environment for x86_64."
-date = "2024-04-02T13:23:08"
+date = "2024-05-13T21:04:38"
 aliases = "/packages/119048"
 categories = ['devel']
 upstreamurl = "https://sourceforge.net/projects/gnu-efi"
 arch = "x86_64"
-size = "414684"
-usize = "3695168"
-sha1sum = "fa95a8c33713f7d84588b0a0ee18829f81f4a2f9"
+size = "414652"
+usize = "3701600"
+sha1sum = "221e0f31784f7a5ebdf2b953ad897932999b4054"
 depends = "[]"
 reverse_depends = "['fwupd']"
 +++

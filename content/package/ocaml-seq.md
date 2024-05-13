@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ocaml-seq 0.3.1-2"
-version = "0.3.1-2"
+title = "ocaml-seq 0.3.1-3"
+version = "0.3.1-3"
 description = "compatibility package for the standard OCaml iterator type"
-date = "2023-12-19T12:29:15"
+date = "2024-05-13T20:53:57"
 aliases = "/packages/221072"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/c-cube/seq"
 arch = "x86_64"
-size = "37864"
+size = "37904"
 usize = "116493"
-sha1sum = "fac94a9895a0f7d18b31f398670fc3558a2f48ff"
+sha1sum = "2f579133b4653ff109301b5c6dfcb11b9d4f2625"
 depends = "['ocaml>=5.1.1']"
 reverse_depends = "['ounit']"
 +++

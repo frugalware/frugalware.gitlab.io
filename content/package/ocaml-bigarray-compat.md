@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ocaml-bigarray-compat 1.1.0-5"
-version = "1.1.0-5"
+title = "ocaml-bigarray-compat 1.1.0-6"
+version = "1.1.0-6"
 description = "Compatibility library to use Stdlib.Bigarray when possible"
-date = "2023-12-19T12:10:41"
+date = "2024-05-13T21:10:20"
 aliases = "/packages/220299"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/mirage/bigarray-compat"
 arch = "x86_64"
-size = "20756"
+size = "20776"
 usize = "49122"
-sha1sum = "35911e98d8e2c54717dbf1541280bc0f53f4d1ee"
+sha1sum = "af12f07cb50d5d4c317b204c3f9272b208a49cad"
 depends = "['ocaml>=5.1.1']"
 reverse_depends = "['ocaml-ctypes']"
 +++

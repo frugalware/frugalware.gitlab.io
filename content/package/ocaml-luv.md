@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ocaml-luv 0.5.12-3"
-version = "0.5.12-3"
+title = "ocaml-luv 0.5.12-4"
+version = "0.5.12-4"
 description = "Cross-platform asynchronous I/O and system calls"
-date = "2023-12-19T14:07:56"
+date = "2024-05-13T20:55:33"
 aliases = "/packages/221064"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/aantron/luv"
 arch = "x86_64"
-size = "3999592"
-usize = "8109435"
-sha1sum = "48b74522101f1bcbca689a3f737554de5da15b78"
+size = "3992184"
+usize = "8105368"
+sha1sum = "c482b81ac293de58a6ccb9e404fef0fbe9a81fa6"
 depends = "['libuv', 'ocaml>=5.1.1', 'ocaml-ctypes']"
 reverse_depends = "['lwt']"
 +++

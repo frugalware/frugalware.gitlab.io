@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "domain-local-await 1.0.0-1"
-version = "1.0.0-1"
+title = "domain-local-await 1.0.0-2"
+version = "1.0.0-2"
 description = "A scheduler independent blocking mechanism"
-date = "2023-12-19T13:10:17"
+date = "2024-05-13T21:03:52"
 aliases = "/packages/221062"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocaml-multicore/domain-local-await"
 arch = "x86_64"
-size = "46640"
+size = "46712"
 usize = "103401"
-sha1sum = "700ddb3a336811d26955d1ebf544cc51b77aaa43"
+sha1sum = "3bf021e315c4f52f8c00c042905c8b10c0d320df"
 depends = "['thread-table']"
 reverse_depends = "['domainslib']"
 +++

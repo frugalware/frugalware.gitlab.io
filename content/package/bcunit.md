@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bcunit 5.2.0-1"
-version = "5.2.0-1"
+title = "bcunit 5.2.0-2"
+version = "5.2.0-2"
 description = "Lightweight system for writing, administering, and running unit tests in C"
-date = "2023-02-27T14:58:22"
+date = "2024-05-13T20:47:45"
 aliases = "/packages/220419"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/BelledonneCommunications/bcunit"
 arch = "x86_64"
-size = "268680"
-usize = "504828"
-sha1sum = "bb934e39836570347a5a81940fd8709be9f72ab3"
+size = "271320"
+usize = "505952"
+sha1sum = "8d23f417deb7b9dbf99f1065f7d1989c1b02c168"
 depends = "['glibc']"
 +++
 ### Description: 

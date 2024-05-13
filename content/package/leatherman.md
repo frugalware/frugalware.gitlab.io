@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "leatherman 1.12.12-1"
-version = "1.12.12-1"
+title = "leatherman 1.12.12-2"
+version = "1.12.12-2"
 description = "Collection of C++ and CMake utility libraries"
-date = "2024-02-27T09:58:15"
+date = "2024-05-13T21:08:22"
 aliases = "/packages/218443"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/puppetlabs/leatherman"
 arch = "x86_64"
-size = "8863152"
-usize = "25230682"
-sha1sum = "2da88781b21af13ae48146ca006426c2d8988fc3"
+size = "8704704"
+usize = "24203396"
+sha1sum = "1baf7d5785f9955daf3f6829706d0995dd5e8902"
 depends = "[]"
 license = "APACHE"
 +++
@@ -107,5 +107,3 @@ Collection of C++ and CMake utility libraries
 * /usr/lib/leatherman_util.a
 * /usr/share/doc/leatherman-1.12.12/LICENSE
 * /usr/share/doc/leatherman-1.12.12/README.md
-* /usr/share/locale/fr/LC_MESSAGES/leatherman_locale.mo
-* /usr/share/locale/fr/LC_MESSAGES/leatherman_logging.mo

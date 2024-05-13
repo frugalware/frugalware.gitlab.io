@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lsp-plugins 1.2.15-1"
-version = "1.2.15-1"
+title = "lsp-plugins 1.2.15-2"
+version = "1.2.15-2"
 description = "Collection of open-source plugins"
-date = "2024-04-22T13:18:02"
+date = "2024-05-13T21:01:21"
 aliases = "/packages/221033"
 categories = ['multimedia-extra']
 upstreamurl = "https://lsp-plug.in"
 arch = "x86_64"
-size = "37630680"
-usize = "105579842"
-sha1sum = "507823cc49910b15d8aec132ef8ca8edde8d7b5f"
+size = "37723988"
+usize = "105276802"
+sha1sum = "44dec67702ca17f3a0833d5b2cce8302f6b78a2b"
 depends = "['cairo', 'jack2', 'libglvnd', 'libxrandr']"
 reverse_depends = "['easyeffects']"
 +++

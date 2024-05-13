@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ounit 2.2.7-2"
-version = "2.2.7-2"
+title = "ounit 2.2.7-3"
+version = "2.2.7-3"
 description = "Unit testing framework for OCaml"
-date = "2023-12-19T14:40:56"
+date = "2024-05-13T20:54:37"
 aliases = "/packages/221073"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/gildor478/ounit"
 arch = "x86_64"
-size = "1305688"
+size = "1305712"
 usize = "3092113"
-sha1sum = "3235701099d6e56319ec8af4bbb399d17501f22b"
+sha1sum = "bd3ae99c7995132dc3e5522f575aabbd12b61dbe"
 depends = "['lwt', 'ocaml-seq']"
 +++
 ### Description: 
