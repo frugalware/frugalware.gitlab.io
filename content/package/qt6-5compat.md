@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt6-5compat 6.7.0-1"
-version = "6.7.0-1"
+title = "qt6-5compat 6.7.0-3"
+version = "6.7.0-3"
 description = "The Qt6 toolkit, qt5compat"
-date = "2024-04-03T12:27:30"
+date = "2024-05-13T07:09:05"
 aliases = "/packages/220762"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "429296"
-usize = "1730467"
-sha1sum = "39731d7a1e12a8db369c4ad23e069bccf9a2dad6"
-depends = "['icu4c>=7.1', 'qt6-declarative']"
+size = "429632"
+usize = "1735042"
+sha1sum = "a5b5e667cd7fb0ea8fd29a40dbae7506dfec7fe8"
+depends = "['icu4c>=75.1', 'qt6-declarative']"
 reverse_depends = "['alizams', 'analitza', 'keysmith', 'kwin', 'opencv', 'phonon-qt6', 'qca', 'qmlkonsole', 'qtcreator', 'seafile-client', 'socnetv', 'telegram-desktop']"
 +++
 ### Description: 
