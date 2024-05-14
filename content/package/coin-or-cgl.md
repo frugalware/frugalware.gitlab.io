@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "coin-or-cgl 0.60.8-1"
-version = "0.60.8-1"
+title = "coin-or-cgl 0.60.8-2"
+version = "0.60.8-2"
 description = "COIN-OR Cut Generation Library"
-date = "2024-05-14T11:59:58"
+date = "2024-05-14T13:04:55"
 aliases = "/packages/221470"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/coin-or/Cgl"
 arch = "x86_64"
-size = "456116"
+size = "456360"
 usize = "1365034"
-sha1sum = "fbe506365e634da6893038a775b84f83e9945aa1"
+sha1sum = "6c4a2fd18d204e9872884e0e44b1047dc47a0d91"
 depends = "['coin-or-clp', 'coin-or-coinutils', 'coin-or-osi']"
 reverse_depends = "['coin-or-cbc']"
 +++

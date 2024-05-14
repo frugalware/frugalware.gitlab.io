@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "coin-or-cbc 2.10.11-1"
-version = "2.10.11-1"
+title = "coin-or-cbc 2.10.11-2"
+version = "2.10.11-2"
 description = "COIN-OR branch-and-cut mixed integer programming solver"
-date = "2024-05-14T12:04:38"
+date = "2024-05-14T13:02:37"
 aliases = "/packages/221471"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/coin-or/Cbc"
 arch = "x86_64"
-size = "867780"
+size = "867424"
 usize = "3065827"
-sha1sum = "5c9a403c167a905eb8d545ff3e35599ae9565f1f"
+sha1sum = "bd7108449bfe68d1c1ab7c41cc8642f7824a1edc"
 depends = "['coin-or-asl', 'coin-or-cgl', 'coin-or-clp', 'coin-or-coinutils', 'coin-or-osi']"
 reverse_depends = "['coin-or-lemon']"
 +++

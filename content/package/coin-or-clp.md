@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "coin-or-clp 1.17.9-1"
-version = "1.17.9-1"
+title = "coin-or-clp 1.17.9-2"
+version = "1.17.9-2"
 description = "COIN-OR linear programming solver"
-date = "2024-05-14T11:57:55"
+date = "2024-05-14T13:00:07"
 aliases = "/packages/220126"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/coin-or/Clp"
 arch = "x86_64"
-size = "984576"
+size = "984416"
 usize = "3148477"
-sha1sum = "8aefda1279f43d74b4f1f9d96fa512594c7d2a1f"
+sha1sum = "a5a75b093aa9abb287eae6c949218f6fd8486e09"
 depends = "['coin-or-asl', 'coin-or-coinutils', 'coin-or-osi', 'suitesparse']"
 reverse_depends = "['alicevision', 'coin-or-cbc', 'coin-or-cgl', 'coin-or-lemon']"
 +++

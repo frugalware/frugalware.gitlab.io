@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "coin-or-osi 0.108.10-1"
-version = "0.108.10-1"
+title = "coin-or-osi 0.108.10-2"
+version = "0.108.10-2"
 description = "COIN-OR Open Solver Interface"
-date = "2024-05-14T09:25:48"
+date = "2024-05-14T12:58:05"
 aliases = "/packages/220125"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/coin-or/Osi"
 arch = "x86_64"
-size = "309076"
+size = "309328"
 usize = "1124252"
-sha1sum = "e4f6d050eb1fb3211499b3986d2cac17bdb632d9"
+sha1sum = "63727dedf3b95fa11991b0dcc033bd4eca123d8c"
 depends = "['coin-or-coinutils']"
 reverse_depends = "['coin-or-cbc', 'coin-or-cgl', 'coin-or-clp']"
 +++
