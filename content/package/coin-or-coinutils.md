@@ -1,103 +1,90 @@
 +++
 draft = false
-title = "coin-or-coinutils 2.11.6-4"
-version = "2.11.6-4"
-description = "COIN-OR collection of utility classes (AliceVision fork)"
-date = "2024-05-08T10:32:39"
+title = "coin-or-coinutils 2.11.11-1"
+version = "2.11.11-1"
+description = "COIN-OR collection of utility classes"
+date = "2024-05-14T09:09:00"
 aliases = "/packages/220124"
 categories = ['lib-extra']
-upstreamurl = "https://github.com/alicevision/CoinUtils"
+upstreamurl = "https://github.com/coin-or/CoinUtils"
 arch = "x86_64"
-size = "5815060"
-usize = "8589675"
-sha1sum = "cf7a95b08e874b604521c7b5ba19ff96c572c28c"
+size = "563212"
+usize = "1916060"
+sha1sum = "1854b0902422eb085b1c080c061c058492d26b40"
 depends = "['bzip2', 'glpk', 'lapack', 'zlib>=1.2.12']"
 reverse_depends = "['coin-or-osi']"
 +++
 ### Description: 
-COIN-OR collection of utility classes (AliceVision fork)
+COIN-OR collection of utility classes
 
 ### Files: 
-* /usr/include/Coin/CoinAdjacencyVector.hpp
-* /usr/include/Coin/CoinAlloc.hpp
-* /usr/include/Coin/CoinBronKerbosch.hpp
-* /usr/include/Coin/CoinBuild.hpp
-* /usr/include/Coin/CoinCliqueExtender.hpp
-* /usr/include/Coin/CoinCliqueList.hpp
-* /usr/include/Coin/CoinCliqueSet.hpp
-* /usr/include/Coin/CoinConflictGraph.hpp
-* /usr/include/Coin/CoinCutPool.hpp
-* /usr/include/Coin/CoinDenseFactorization.hpp
-* /usr/include/Coin/CoinDenseVector.hpp
-* /usr/include/Coin/CoinDistance.hpp
-* /usr/include/Coin/CoinDynamicConflictGraph.hpp
-* /usr/include/Coin/CoinError.hpp
-* /usr/include/Coin/CoinFactorization.hpp
-* /usr/include/Coin/CoinFileIO.hpp
-* /usr/include/Coin/CoinFinite.hpp
-* /usr/include/Coin/CoinFloatEqual.hpp
-* /usr/include/Coin/CoinHelperFunctions.hpp
-* /usr/include/Coin/CoinIndexedVector.hpp
-* /usr/include/Coin/CoinLpIO.hpp
-* /usr/include/Coin/CoinMessage.hpp
-* /usr/include/Coin/CoinMessageHandler.hpp
-* /usr/include/Coin/CoinModel.hpp
-* /usr/include/Coin/CoinModelUseful.hpp
-* /usr/include/Coin/CoinMpsIO.hpp
-* /usr/include/Coin/CoinNodeHeap.hpp
-* /usr/include/Coin/CoinOddWheelSeparator.hpp
-* /usr/include/Coin/CoinOslC.h
-* /usr/include/Coin/CoinOslFactorization.hpp
-* /usr/include/Coin/CoinPackedMatrix.hpp
-* /usr/include/Coin/CoinPackedVector.hpp
-* /usr/include/Coin/CoinPackedVectorBase.hpp
-* /usr/include/Coin/CoinParam.hpp
-* /usr/include/Coin/CoinPragma.hpp
-* /usr/include/Coin/CoinPresolveDoubleton.hpp
-* /usr/include/Coin/CoinPresolveDual.hpp
-* /usr/include/Coin/CoinPresolveDupcol.hpp
-* /usr/include/Coin/CoinPresolveEmpty.hpp
-* /usr/include/Coin/CoinPresolveFixed.hpp
-* /usr/include/Coin/CoinPresolveForcing.hpp
-* /usr/include/Coin/CoinPresolveImpliedFree.hpp
-* /usr/include/Coin/CoinPresolveIsolated.hpp
-* /usr/include/Coin/CoinPresolveMatrix.hpp
-* /usr/include/Coin/CoinPresolveMonitor.hpp
-* /usr/include/Coin/CoinPresolvePsdebug.hpp
-* /usr/include/Coin/CoinPresolveSingleton.hpp
-* /usr/include/Coin/CoinPresolveSubst.hpp
-* /usr/include/Coin/CoinPresolveTighten.hpp
-* /usr/include/Coin/CoinPresolveTripleton.hpp
-* /usr/include/Coin/CoinPresolveUseless.hpp
-* /usr/include/Coin/CoinPresolveZeros.hpp
-* /usr/include/Coin/CoinRational.hpp
-* /usr/include/Coin/CoinSearchTree.hpp
-* /usr/include/Coin/CoinShallowPackedVector.hpp
-* /usr/include/Coin/CoinShortestPath.hpp
-* /usr/include/Coin/CoinSignal.hpp
-* /usr/include/Coin/CoinSimpFactorization.hpp
-* /usr/include/Coin/CoinSmartPtr.hpp
-* /usr/include/Coin/CoinSnapshot.hpp
-* /usr/include/Coin/CoinSort.hpp
-* /usr/include/Coin/CoinStaticConflictGraph.hpp
-* /usr/include/Coin/CoinStructuredModel.hpp
-* /usr/include/Coin/CoinTime.hpp
-* /usr/include/Coin/CoinTypes.h
-* /usr/include/Coin/CoinUtility.hpp
-* /usr/include/Coin/CoinUtilsConfig.h
-* /usr/include/Coin/CoinWarmStart.hpp
-* /usr/include/Coin/CoinWarmStartBasis.hpp
-* /usr/include/Coin/CoinWarmStartDual.hpp
-* /usr/include/Coin/CoinWarmStartPrimalDual.hpp
-* /usr/include/Coin/CoinWarmStartVector.hpp
-* /usr/include/Coin/configall_system.h
-* /usr/include/Coin/configall_system_msc.h
-* /usr/include/Coin/config_coinutils_default.h
-* /usr/include/Coin/config_default.h
-* /usr/lib/cmake/CoinUtils/CoinUtilsConfig.cmake
-* /usr/lib/cmake/CoinUtils/CoinUtilsConfigVersion.cmake
-* /usr/lib/cmake/CoinUtils/CoinUtilsTargets-release.cmake
-* /usr/lib/cmake/CoinUtils/CoinUtilsTargets.cmake
-* /usr/lib/libCoinUtils.a
-* /usr/share/doc/coin-or-coinutils-2.11.6/LICENSE
-* /usr/share/doc/coin-or-coinutils-2.11.6/README.md
+* /usr/include/coin/CoinAlloc.hpp
+* /usr/include/coin/CoinBuild.hpp
+* /usr/include/coin/CoinDenseFactorization.hpp
+* /usr/include/coin/CoinDenseVector.hpp
+* /usr/include/coin/CoinDistance.hpp
+* /usr/include/coin/CoinError.hpp
+* /usr/include/coin/CoinFactorization.hpp
+* /usr/include/coin/CoinFileIO.hpp
+* /usr/include/coin/CoinFinite.hpp
+* /usr/include/coin/CoinFloatEqual.hpp
+* /usr/include/coin/CoinHelperFunctions.hpp
+* /usr/include/coin/CoinIndexedVector.hpp
+* /usr/include/coin/CoinLpIO.hpp
+* /usr/include/coin/CoinMessage.hpp
+* /usr/include/coin/CoinMessageHandler.hpp
+* /usr/include/coin/CoinModel.hpp
+* /usr/include/coin/CoinModelUseful.hpp
+* /usr/include/coin/CoinMpsIO.hpp
+* /usr/include/coin/CoinOslFactorization.hpp
+* /usr/include/coin/CoinPackedMatrix.hpp
+* /usr/include/coin/CoinPackedVector.hpp
+* /usr/include/coin/CoinPackedVectorBase.hpp
+* /usr/include/coin/CoinParam.hpp
+* /usr/include/coin/CoinPragma.hpp
+* /usr/include/coin/CoinPresolveDoubleton.hpp
+* /usr/include/coin/CoinPresolveDual.hpp
+* /usr/include/coin/CoinPresolveDupcol.hpp
+* /usr/include/coin/CoinPresolveEmpty.hpp
+* /usr/include/coin/CoinPresolveFixed.hpp
+* /usr/include/coin/CoinPresolveForcing.hpp
+* /usr/include/coin/CoinPresolveImpliedFree.hpp
+* /usr/include/coin/CoinPresolveIsolated.hpp
+* /usr/include/coin/CoinPresolveMatrix.hpp
+* /usr/include/coin/CoinPresolveMonitor.hpp
+* /usr/include/coin/CoinPresolvePsdebug.hpp
+* /usr/include/coin/CoinPresolveSingleton.hpp
+* /usr/include/coin/CoinPresolveSubst.hpp
+* /usr/include/coin/CoinPresolveTighten.hpp
+* /usr/include/coin/CoinPresolveTripleton.hpp
+* /usr/include/coin/CoinPresolveUseless.hpp
+* /usr/include/coin/CoinPresolveZeros.hpp
+* /usr/include/coin/CoinRational.hpp
+* /usr/include/coin/CoinSearchTree.hpp
+* /usr/include/coin/CoinShallowPackedVector.hpp
+* /usr/include/coin/CoinSignal.hpp
+* /usr/include/coin/CoinSimpFactorization.hpp
+* /usr/include/coin/CoinSmartPtr.hpp
+* /usr/include/coin/CoinSnapshot.hpp
+* /usr/include/coin/CoinSort.hpp
+* /usr/include/coin/CoinStructuredModel.hpp
+* /usr/include/coin/CoinTime.hpp
+* /usr/include/coin/CoinTypes.hpp
+* /usr/include/coin/CoinUtility.hpp
+* /usr/include/coin/CoinUtilsConfig.h
+* /usr/include/coin/CoinWarmStart.hpp
+* /usr/include/coin/CoinWarmStartBasis.hpp
+* /usr/include/coin/CoinWarmStartDual.hpp
+* /usr/include/coin/CoinWarmStartPrimalDual.hpp
+* /usr/include/coin/CoinWarmStartVector.hpp
+* /usr/include/coin/Coin_C_defines.h
+* /usr/lib/libCoinUtils.so
+* /usr/lib/libCoinUtils.so.3
+* /usr/lib/libCoinUtils.so.3.11.11
+* /usr/lib/pkgconfig/coinutils.pc
+* /usr/share/coin/doc/CoinUtils/AUTHORS
+* /usr/share/coin/doc/CoinUtils/coinutils_addlibs.txt
+* /usr/share/coin/doc/CoinUtils/LICENSE
+* /usr/share/doc/coin-or-coinutils-2.11.11/AUTHORS
+* /usr/share/doc/coin-or-coinutils-2.11.11/LICENSE
+* /usr/share/doc/coin-or-coinutils-2.11.11/README.md
