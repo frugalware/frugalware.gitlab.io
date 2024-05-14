@@ -1,92 +1,90 @@
 +++
 draft = false
-title = "coin-or-clp 1.17.7-3"
-version = "1.17.7-3"
-description = "COIN-OR linear programming solver (AliceVision fork)"
-date = "2024-05-08T10:34:24"
+title = "coin-or-clp 1.17.9-1"
+version = "1.17.9-1"
+description = "COIN-OR linear programming solver"
+date = "2024-05-14T11:57:55"
 aliases = "/packages/220126"
 categories = ['lib-extra']
-upstreamurl = "https://github.com/AliceVision/Clp"
+upstreamurl = "https://github.com/coin-or/Clp"
 arch = "x86_64"
-size = "9188320"
-usize = "12412723"
-sha1sum = "88aae6848fa51c4c5cde621311d402cd24269f46"
-depends = "['coin-or-osi']"
-reverse_depends = "['alicevision']"
+size = "984576"
+usize = "3148477"
+sha1sum = "8aefda1279f43d74b4f1f9d96fa512594c7d2a1f"
+depends = "['coin-or-asl', 'coin-or-coinutils', 'coin-or-osi', 'suitesparse']"
+reverse_depends = "['alicevision', 'coin-or-cbc', 'coin-or-cgl', 'coin-or-lemon']"
 +++
 ### Description: 
-COIN-OR linear programming solver (AliceVision fork)
+COIN-OR linear programming solver
 
 ### Files: 
-* /usr/include/Coin/CbcOrClpParam.hpp
-* /usr/include/Coin/ClpCholeskyBase.hpp
-* /usr/include/Coin/ClpCholeskyDense.hpp
-* /usr/include/Coin/ClpCholeskyPardiso.hpp
-* /usr/include/Coin/ClpCholeskyTaucs.hpp
-* /usr/include/Coin/ClpConfig.h
-* /usr/include/Coin/ClpConstraint.hpp
-* /usr/include/Coin/ClpConstraintLinear.hpp
-* /usr/include/Coin/ClpConstraintQuadratic.hpp
-* /usr/include/Coin/ClpDualRowDantzig.hpp
-* /usr/include/Coin/ClpDualRowPivot.hpp
-* /usr/include/Coin/ClpDualRowSteepest.hpp
-* /usr/include/Coin/ClpDummyMatrix.hpp
-* /usr/include/Coin/ClpDynamicExampleMatrix.hpp
-* /usr/include/Coin/ClpDynamicMatrix.hpp
-* /usr/include/Coin/ClpEventHandler.hpp
-* /usr/include/Coin/ClpFactorization.hpp
-* /usr/include/Coin/ClpGubDynamicMatrix.hpp
-* /usr/include/Coin/ClpGubMatrix.hpp
-* /usr/include/Coin/ClpHelperFunctions.hpp
-* /usr/include/Coin/ClpInterior.hpp
-* /usr/include/Coin/ClpLinearObjective.hpp
-* /usr/include/Coin/ClpLsqr.hpp
-* /usr/include/Coin/ClpMatrixBase.hpp
-* /usr/include/Coin/ClpMessage.hpp
-* /usr/include/Coin/ClpModel.hpp
-* /usr/include/Coin/ClpModelParameters.hpp
-* /usr/include/Coin/ClpNetworkBasis.hpp
-* /usr/include/Coin/ClpNetworkMatrix.hpp
-* /usr/include/Coin/ClpNode.hpp
-* /usr/include/Coin/ClpNonLinearCost.hpp
-* /usr/include/Coin/ClpObjective.hpp
-* /usr/include/Coin/ClpPackedMatrix.hpp
-* /usr/include/Coin/ClpParam.hpp
-* /usr/include/Coin/ClpParameters.hpp
-* /usr/include/Coin/ClpParamUtils.hpp
-* /usr/include/Coin/ClpPdco.hpp
-* /usr/include/Coin/ClpPdcoBase.hpp
-* /usr/include/Coin/ClpPEDualRowDantzig.hpp
-* /usr/include/Coin/ClpPEDualRowSteepest.hpp
-* /usr/include/Coin/ClpPEPrimalColumnDantzig.hpp
-* /usr/include/Coin/ClpPEPrimalColumnSteepest.hpp
-* /usr/include/Coin/ClpPESimplex.hpp
-* /usr/include/Coin/ClpPlusMinusOneMatrix.hpp
-* /usr/include/Coin/ClpPredictorCorrector.hpp
-* /usr/include/Coin/ClpPresolve.hpp
-* /usr/include/Coin/ClpPrimalColumnDantzig.hpp
-* /usr/include/Coin/ClpPrimalColumnPivot.hpp
-* /usr/include/Coin/ClpPrimalColumnSteepest.hpp
-* /usr/include/Coin/ClpPrimalQuadraticDantzig.hpp
-* /usr/include/Coin/ClpQuadraticObjective.hpp
-* /usr/include/Coin/ClpSimplex.hpp
-* /usr/include/Coin/ClpSimplexDual.hpp
-* /usr/include/Coin/ClpSimplexNonlinear.hpp
-* /usr/include/Coin/ClpSimplexOther.hpp
-* /usr/include/Coin/ClpSimplexPrimal.hpp
-* /usr/include/Coin/ClpSolve.hpp
-* /usr/include/Coin/ClpSolver.hpp
-* /usr/include/Coin/Clp_C_Interface.h
-* /usr/include/Coin/config_clp_default.h
-* /usr/include/Coin/Idiot.hpp
-* /usr/include/Coin/MyEventHandler.hpp
-* /usr/include/Coin/MyMessageHandler.hpp
-* /usr/include/Coin/OsiClpConfig.h
-* /usr/include/Coin/OsiClpSolverInterface.hpp
-* /usr/lib/cmake/Clp/ClpConfig.cmake
-* /usr/lib/cmake/Clp/ClpConfigVersion.cmake
-* /usr/lib/cmake/Clp/ClpTargets-release.cmake
-* /usr/lib/cmake/Clp/ClpTargets.cmake
-* /usr/lib/libClp.a
-* /usr/share/doc/coin-or-clp-1.17.7/LICENSE
-* /usr/share/doc/coin-or-clp-1.17.7/README.md
+* /usr/bin/clp
+* /usr/include/coin/CbcOrClpParam.cpp
+* /usr/include/coin/CbcOrClpParam.hpp
+* /usr/include/coin/ClpCholeskyBase.hpp
+* /usr/include/coin/ClpCholeskyDense.hpp
+* /usr/include/coin/ClpCholeskyPardiso.hpp
+* /usr/include/coin/ClpConfig.h
+* /usr/include/coin/ClpConstraint.hpp
+* /usr/include/coin/ClpConstraintLinear.hpp
+* /usr/include/coin/ClpConstraintQuadratic.hpp
+* /usr/include/coin/ClpDualRowDantzig.hpp
+* /usr/include/coin/ClpDualRowPivot.hpp
+* /usr/include/coin/ClpDualRowSteepest.hpp
+* /usr/include/coin/ClpDummyMatrix.hpp
+* /usr/include/coin/ClpDynamicExampleMatrix.hpp
+* /usr/include/coin/ClpDynamicMatrix.hpp
+* /usr/include/coin/ClpEventHandler.hpp
+* /usr/include/coin/ClpFactorization.hpp
+* /usr/include/coin/ClpGubDynamicMatrix.hpp
+* /usr/include/coin/ClpGubMatrix.hpp
+* /usr/include/coin/ClpInterior.hpp
+* /usr/include/coin/ClpLinearObjective.hpp
+* /usr/include/coin/ClpMatrixBase.hpp
+* /usr/include/coin/ClpMessage.hpp
+* /usr/include/coin/ClpModel.hpp
+* /usr/include/coin/ClpNetworkMatrix.hpp
+* /usr/include/coin/ClpNode.hpp
+* /usr/include/coin/ClpNonLinearCost.hpp
+* /usr/include/coin/ClpObjective.hpp
+* /usr/include/coin/ClpPackedMatrix.hpp
+* /usr/include/coin/ClpParameters.hpp
+* /usr/include/coin/ClpPdcoBase.hpp
+* /usr/include/coin/ClpPEDualRowDantzig.hpp
+* /usr/include/coin/ClpPEDualRowSteepest.hpp
+* /usr/include/coin/ClpPEPrimalColumnDantzig.hpp
+* /usr/include/coin/ClpPEPrimalColumnSteepest.hpp
+* /usr/include/coin/ClpPESimplex.hpp
+* /usr/include/coin/ClpPlusMinusOneMatrix.hpp
+* /usr/include/coin/ClpPresolve.hpp
+* /usr/include/coin/ClpPrimalColumnDantzig.hpp
+* /usr/include/coin/ClpPrimalColumnPivot.hpp
+* /usr/include/coin/ClpPrimalColumnSteepest.hpp
+* /usr/include/coin/ClpQuadraticObjective.hpp
+* /usr/include/coin/ClpSimplex.hpp
+* /usr/include/coin/ClpSimplexDual.hpp
+* /usr/include/coin/ClpSimplexNonlinear.hpp
+* /usr/include/coin/ClpSimplexOther.hpp
+* /usr/include/coin/ClpSimplexPrimal.hpp
+* /usr/include/coin/ClpSolve.hpp
+* /usr/include/coin/Clp_C_Interface.h
+* /usr/include/coin/Idiot.hpp
+* /usr/include/coin/OsiClpSolverInterface.hpp
+* /usr/lib/libClp.so
+* /usr/lib/libClp.so.1
+* /usr/lib/libClp.so.1.14.9
+* /usr/lib/libClpSolver.so
+* /usr/lib/libClpSolver.so.1
+* /usr/lib/libClpSolver.so.1.14.9
+* /usr/lib/libOsiClp.so
+* /usr/lib/libOsiClp.so.1
+* /usr/lib/libOsiClp.so.1.14.9
+* /usr/lib/pkgconfig/clp.pc
+* /usr/lib/pkgconfig/osi-clp.pc
+* /usr/share/coin/doc/Clp/AUTHORS
+* /usr/share/coin/doc/Clp/clp_addlibs.txt
+* /usr/share/coin/doc/Clp/LICENSE
+* /usr/share/doc/coin-or-clp-1.17.9/AUTHORS
+* /usr/share/doc/coin-or-clp-1.17.9/INSTALL
+* /usr/share/doc/coin-or-clp-1.17.9/LICENSE
+* /usr/share/doc/coin-or-clp-1.17.9/README.md

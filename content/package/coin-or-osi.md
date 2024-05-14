@@ -12,7 +12,7 @@ size = "309076"
 usize = "1124252"
 sha1sum = "e4f6d050eb1fb3211499b3986d2cac17bdb632d9"
 depends = "['coin-or-coinutils']"
-reverse_depends = "['coin-or-clp']"
+reverse_depends = "['coin-or-cbc', 'coin-or-cgl', 'coin-or-clp']"
 +++
 ### Description: 
 COIN-OR Open Solver Interface

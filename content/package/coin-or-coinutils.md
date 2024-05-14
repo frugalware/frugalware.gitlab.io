@@ -12,7 +12,7 @@ size = "563212"
 usize = "1916060"
 sha1sum = "1854b0902422eb085b1c080c061c058492d26b40"
 depends = "['bzip2', 'glpk', 'lapack', 'zlib>=1.2.12']"
-reverse_depends = "['coin-or-osi']"
+reverse_depends = "['coin-or-cbc', 'coin-or-cgl', 'coin-or-clp', 'coin-or-osi']"
 +++
 ### Description: 
 COIN-OR collection of utility classes
