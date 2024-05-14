@@ -12,7 +12,7 @@ size = "1968864"
 usize = "9977305"
 sha1sum = "50cbebc1370ae33ee674bc056f5472a8cca86b4e"
 depends = "['cairo>=1.14.6-4', 'curl', 'fontconfig>=2.12-2', 'libgpgmepp', 'libjpeg-turbo', 'libpng>=1.6.25', 'libstdc++>=9.1.0-3', 'nss', 'openjpeg>=2.2.0', 'poppler-data', 'poppler-data']"
-reverse_depends = "['efl', 'kitinerary', 'libcupsfilters', 'poppler-glib', 'poppler-pdftools', 'poppler-qt', 'poppler-qt5', 'poppler-qt6', 'scribus', 'texlive']"
+reverse_depends = "['efl', 'kitinerary', 'libcupsfilters', 'poppler-glib', 'poppler-pdftools', 'poppler-qt5', 'poppler-qt6', 'scribus', 'texlive']"
 +++
 ### Description: 
 A PDF rendering library

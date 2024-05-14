@@ -12,7 +12,6 @@ size = "1169884"
 usize = "3295900"
 sha1sum = "7d221498b9caa67e8e1d60110834d65fc8849f68"
 depends = "['libldap>=2.6.7', 'libtool>=2.4.6-5', 'libxcrypt']"
-reverse_depends = "['nfsidmap']"
 +++
 ### Description: 
 A suite of the Lightweight Directory Access Protocol servers
