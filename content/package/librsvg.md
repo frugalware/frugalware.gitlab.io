@@ -12,7 +12,7 @@ size = "2162660"
 usize = "11467230"
 sha1sum = "e84a9d808aa9b1114bb3107bfe81ed9defa0b3d9"
 depends = "['gdk-pixbuf2>=2.36.11-3', 'libcroco>=0.6.12-4', 'pango>=1.42.0']"
-reverse_depends = "['efl', 'gegl', 'gnome-themes-extra', 'graphviz', 'gtk-sharp', 'imagemagick', 'libappimage', 'libvips', 'openbox', 'openscenegraph', 'thunderbird', 'usbguard-notifier', 'vlc-dts-ca', 'vlc-svg']"
+reverse_depends = "['efl', 'gegl', 'gnome-themes-extra', 'graphviz', 'imagemagick', 'libappimage', 'libvips', 'openbox', 'openscenegraph', 'thunderbird', 'usbguard-notifier', 'vlc-dts-ca', 'vlc-svg']"
 +++
 ### Description: 
 A high performance SVG rendering library for GNOME

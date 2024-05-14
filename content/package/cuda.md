@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cuda 12.4.1-1"
-version = "12.4.1-1"
+title = "cuda 12.4.1-2"
+version = "12.4.1-2"
 description = "NVIDIA's GPU programming toolkit"
-date = "2024-04-26T09:00:41"
+date = "2024-05-14T17:06:18"
 aliases = "/packages/221200"
 categories = ['lib-extra']
 upstreamurl = "https://developer.nvidia.com/cuda-zone"
 arch = "x86_64"
-size = "980788272"
+size = "978257456"
 usize = "2356523870"
-sha1sum = "349216e91d087f5b3b95e6d28395104204e43a38"
+sha1sum = "f11f0aceee0cf76fd885a6da316004e5ea1e9486"
 depends = "['gcc', 'nvidia', 'python3']"
 reverse_depends = "['cuda-tools', 'gst1-plugins-bad-cuda']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cuda-static 12.4.1-1"
-version = "12.4.1-1"
+title = "cuda-static 12.4.1-2"
+version = "12.4.1-2"
 description = "NVIDIA GPU programming toolkit static files"
-date = "2024-04-26T09:00:41"
+date = "2024-05-14T17:06:18"
 aliases = "/packages/221201"
 categories = ['devel-extra']
 upstreamurl = "https://developer.nvidia.com/cuda-zone"
 arch = "x86_64"
-size = "937199216"
+size = "937186328"
 usize = "2603944790"
-sha1sum = "4b1a935b75ff7da3bd643dd86e6c33b6890cb92a"
+sha1sum = "2283b61707b00846c3b638cc3a0a09b6752fc4c6"
 depends = "['glibc']"
 +++
 ### Description: 

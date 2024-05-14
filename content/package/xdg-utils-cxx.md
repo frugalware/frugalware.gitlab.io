@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xdg-utils-cxx 1.0.1-1"
-version = "1.0.1-1"
+title = "xdg-utils-cxx 1.0.1-2"
+version = "1.0.1-2"
 description = "Implementation of the FreeDesktop specifications to be used in C++ projects"
-date = "2024-04-10T09:36:48"
+date = "2024-05-14T17:26:18"
 aliases = "/packages/221435"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/azubieta/xdg-utils-cxx"
 arch = "x86_64"
-size = "974264"
-usize = "1670987"
-sha1sum = "46d7f346bb16590044aee3be79610763d320480c"
+size = "942032"
+usize = "1563305"
+sha1sum = "ff33ded12363bdc3bf9038ecd4e31c877e34ce12"
 depends = "['glibc>=2.35']"
 +++
 ### Description: 
